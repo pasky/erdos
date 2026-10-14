@@ -49,5 +49,5 @@ Theorem 1 of the same paper.
   consecutive diagonal Ramsey numbers; no information on the ratio the
   problem asks about.
 - [[../wiki/problems/ramsey_theory/E0812/_index|Problem 812]]: with $m=n=N+1$ and
-  $N\ge2$ it reads $R(N+1)\ge R(N)+4N-4$, the increment the site's
+  $N\ge2$ it reads $R(N+1)\ge R(N)+4N-4$, the increment the erdosproblems.com
   commentary prints as $4N-8$; the derivation is made on the problem page.

@@ -98,5 +98,5 @@ the scaled form of Lemma 3.2.
   any $C>0$, every $n$ above the theorem's threshold with
   $2^{-8}\log\log\log n\ge C$ has the required monochromatic $X$; Rödl's
   construction shows that no bound better than a constant times
-  $\log\log\log n$ is forced, and the three-color remark is the site's
+  $\log\log\log n$ is forced, and the three-color remark is erdosproblems.com's
   "negative for $3$-colourings".

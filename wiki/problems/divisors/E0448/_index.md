@@ -32,8 +32,8 @@ $$
 
 for almost all $n$?
 
-**Status.** DISPROVED (LEAN). This is the site's label. In 1981 Erdős and
-Tenenbaum showed that, for small $\epsilon$, the integers with
+**Status.** DISPROVED (LEAN). This is the erdosproblems.com label. In 1981 Erdős
+and Tenenbaum showed that, for small $\epsilon$, the integers with
 $\tau^+(n)<\epsilon\tau(n)$ do not have density one. The Lean is a third-party
 formalization of their disproof and was not built here, as the claim page below
 records.
@@ -59,10 +59,10 @@ commit; neither file has been built here.
 
 ## Current assessment
 
-The question is the site's formulation, accessed 2026-09-04: whether, for
-every $\epsilon>0$, almost all $n$ satisfy $\tau^+(n)<\epsilon\tau(n)$, where
-$\tau^+(n)$ counts the dyadic intervals $[2^k,2^{k+1})$ holding a divisor of
-$n$. The answer is no.
+The question is the erdosproblems.com formulation, accessed 2026-09-04: whether,
+for every $\epsilon>0$, almost all $n$ satisfy $\tau^+(n)<\epsilon\tau(n)$,
+where $\tau^+(n)$ counts the dyadic intervals $[2^k,2^{k+1})$ holding a divisor
+of $n$. The answer is no.
 
 Erdős and Tenenbaum [ErTe81], Théorème 1, bound the upper density of
 $\{n:\tau^+(n)\le\alpha\tau(n)\}$ by $c(\varepsilon)\alpha^{1-\varepsilon}$
@@ -70,21 +70,21 @@ for every $\varepsilon>0$, which is below one for small $\alpha$, so the
 exceptional set keeps positive lower density and the conjectured statement
 fails
 ([[../library/divisors/erdos_1981_sur_la_structure_de_la_suite/_index|card]]).
-The site's commentary records the order of that upper density as
+The erdosproblems.com commentary records the order of that upper density as
 $\alpha^{1-o(1)}$ and the sharper bound $\ll\alpha\log(2/\alpha)$ of Hall and
 Tenenbaum [HaTe88], Section 4.6, who also prove that $\tau^+(n)/\tau(n)$ has
 a distribution function; that theorem settles the question on its own and is
 recorded as a pending claim on
 [[problems/divisors/E0448/claims/1988_09_15_hall_tenenbaum|Hall and
-Tenenbaum 1988]], since the book is a monograph and the site credits the
-disproof to Erdős and Tenenbaum. The claim page
+Tenenbaum 1988]], since the book is a monograph and erdosproblems.com credits
+the disproof to Erdős and Tenenbaum. The claim page
 [[problems/divisors/E0448/claims/1981_01_01_erdos_tenenbaum|Erdős and
 Tenenbaum 1981]] records the theorem, the refereed venue, the curator's
 credit and the Lean formalization, and the problem's standing derives from
 it.
 
-The Lean behind the site's qualifier is Boris Alexeev's formalization of the
-Erdős–Tenenbaum disproof, with Codex and GPT-5.6 Sol named as its formal
+The Lean behind erdosproblems.com's qualifier is Boris Alexeev's formalization
+of the Erdős–Tenenbaum disproof, with Codex and GPT-5.6 Sol named as its formal
 authors, which proves the negation of the formal-conjectures statement
 `erdos_448`; the formal-conjectures file itself states the answer without
 proof. Neither has been built or audited in this repository, so the standing
@@ -97,8 +97,8 @@ it with $\sum_{n\le x}\tau^+(n)\asymp x(\log x)^{1-\alpha}(\log\log x)^{-3/2}$,
 $\alpha=1-(1+\log\log2)/\log2=0.08607\ldots$. The density version with a
 single interval $(n,2n)$ is [[problems/divisors/E0446/_index|Problem 446]],
 and [[problems/divisors/E0449/_index|Problem 449]] is a neighbor. The account
-rests on the site page, the Erdős–Tenenbaum card, the two Lean files and the
-journal record.
+rests on the erdosproblems.com page, the Erdős–Tenenbaum card, the two Lean
+files and the journal record.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

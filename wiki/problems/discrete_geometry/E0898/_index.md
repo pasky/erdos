@@ -28,8 +28,8 @@ $$
 \overline{PA}+\overline{PB}+\overline{PC}\geq 2(\overline{PM}+\overline{PN}+\overline{PL}).
 $$
 
-**Status.** PROVED (LEAN). The site credits the proof to Mordell, soon after
-Erdős conjectured the inequality. The claim page
+**Status.** PROVED (LEAN). erdosproblems.com credits the proof to Mordell, soon
+after Erdős conjectured the inequality. The claim page
 [[problems/discrete_geometry/E0898/claims/1935_01_01_mordell|Mordell]] records
 the proof, its publications and its acceptance.
 
@@ -55,22 +55,22 @@ claim page links that proof.
 
 ## Current assessment
 
-The site's formulation (page last edited 2026-01-28) is the Erdős–Mordell
-inequality: for a point $P$ inside a triangle, the distances to the vertices
-sum to at least twice the distances to the sides. Erdős posed it as Problem
-3740 of the American Mathematical Monthly in 1935 [Er35]; Mordell's proof
-appeared in 1935 in Középiskolai Matematikai Lapok [Mo35], the citation
+The erdosproblems.com formulation (page last edited 2026-01-28) is the
+Erdős–Mordell inequality: for a point $P$ inside a triangle, the distances to
+the vertices sum to at least twice the distances to the sides. Erdős posed it as
+Problem 3740 of the American Mathematical Monthly in 1935 [Er35]; Mordell's
+proof appeared in 1935 in Középiskolai Matematikai Lapok [Mo35], the citation
 Erdős's survey [Er82e] gives first, and the Monthly's published solution of
 1937 is by Mordell and Barrow [MoBa37]. The survey dates the conjecture to
 1932 and the proof to 1934. The standing rests on the single accepted claim
-page, whose evidence is the refereed Monthly solution and the site curator's
-credit.
-A third-party Lean formalization, posted to the site's forum on 2026-01-28 with
-the systems Gemini 3 Flash and Aristotle and copied into a public repository
-of Lean proofs of Erdős problems, is the site's Lean qualifier; its header
-names Mordell among its informal authors, so the claim page keeps it as a
-formalization of his proof. It has not been built here, and no part of the
-mathematics has been independently reviewed by this project.
+page, whose evidence is the refereed Monthly solution and the erdosproblems.com
+curator's credit. A third-party Lean formalization, posted to the
+erdosproblems.com forum on 2026-01-28 with the systems Gemini 3 Flash and
+Aristotle and copied into a public repository of Lean proofs of Erdős problems,
+is the erdosproblems.com Lean qualifier; its header names Mordell among its
+informal authors, so the claim page keeps it as a formalization of his proof. It
+has not been built here, and no part of the mathematics has been independently
+reviewed by this project.
 
 <!-- BEGIN problem library links -->
 

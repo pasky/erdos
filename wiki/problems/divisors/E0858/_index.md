@@ -30,8 +30,8 @@ $$
 \frac{1}{\log N}\sum_{n\in A}\frac{1}{n}.
 $$
 
-**Status.** Solved. The site credits the solution to Chojecki and GPT-5.4 Pro;
-see
+**Status.** Solved. erdosproblems.com credits the solution to Chojecki and
+GPT-5.4 Pro; see
 [[problems/divisors/E0858/claims/2026_04_15_chojecki|Chojecki's asymptotic constant]].
 
 **Source.** [erdosproblems.com/858](https://www.erdosproblems.com/858), accessed
@@ -63,31 +63,32 @@ has built neither.
 
 ## Current assessment
 
-**The question.** The site formulation quoted above asks for the order of the
-largest reciprocal sum of a set $A\subseteq\{1,\ldots,N\}$ in which no member is
-another member times a factor whose prime divisors all exceed the smaller
-member, normalized by $\log N$. Erdős poses it in [Er70] on p. 128. The
+**The question.** The erdosproblems.com formulation quoted above asks for the
+order of the largest reciprocal sum of a set $A\subseteq\{1,\ldots,N\}$ in which
+no member is another member times a factor whose prime divisors all exceed the
+smaller member, normalized by $\log N$. Erdős poses it in [Er70] on p. 128. The
 condition is weaker than primitivity: a primitive set (no member divides
 another) satisfies it, and every subset of $[N^{1/2},N]$ satisfies it as well,
 since $b=at$ with $a\ge N^{1/2}$ and the least prime factor of $t$ above $a$
 forces $b>a^2\ge N$. The whole interval has reciprocal sum
 $(\tfrac12+o(1))\log N$, the immediate lower bound that Chojecki's full note
-records, and the site's example, the set of all integers in $[N^{1/2},N]$
-divisible by a prime above $N^{1/2}$, has reciprocal sum of order $\log N$.
+records, and the erdosproblems.com example, the set of all integers in
+$[N^{1/2},N]$ divisible by a prime above $N^{1/2}$, has reciprocal sum of order
+$\log N$.
 
 **What is established.** The asymptotic is settled by
 [[problems/divisors/E0858/claims/2026_04_15_chojecki|Chojecki's claim page]]:
 the maximum equals $(c_2+o(1))\log N$ with $c_2=0.6187712111\ldots$ defined
 there, so the normalized quantity tends to an explicit constant. The acceptance
-evidence is the site curator's credit; the result has no refereed publication,
-and the complete third-party Lean proof of the asymptotic has not been built by
-this corpus, as the claim page records. The earlier literature frames it.
-Alexander [Al66] and Erdős, Sárközi and Szemerédi [ESS68] show that for a fixed
-infinite set $A$ with the property the normalized sum over $A\cap[1,N]$ tends to
-$0$, at a rate depending on $A$; the convergence is not uniform in $A$, and for
-large $N$ the supremum over all admissible $A$ stays bounded away from $0$,
-which the asymptotic above makes exact. Behrend [Be35] proves that a primitive
-$A\subseteq\{1,\ldots,N\}$ has normalized reciprocal sum
+evidence is the erdosproblems.com curator's credit; the result has no refereed
+publication, and the complete third-party Lean proof of the asymptotic has not
+been built by this corpus, as the claim page records. The earlier literature
+frames it. Alexander [Al66] and Erdős, Sárközi and Szemerédi [ESS68] show that
+for a fixed infinite set $A$ with the property the normalized sum over
+$A\cap[1,N]$ tends to $0$, at a rate depending on $A$; the convergence is not
+uniform in $A$, and for large $N$ the supremum over all admissible $A$ stays
+bounded away from $0$, which the asymptotic above makes exact. Behrend [Be35]
+proves that a primitive $A\subseteq\{1,\ldots,N\}$ has normalized reciprocal sum
 $O(1/\sqrt{\log\log N})$, so the weaker condition of this problem allows much
 denser sets than primitivity does. The library cards for [Al66] and [ESS68] are
 listed below; the digest of [Al66] records the division-chain theorems behind

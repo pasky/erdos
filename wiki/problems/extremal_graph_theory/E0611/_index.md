@@ -30,32 +30,31 @@ $\tau(G)=o_c(n)$?
 Similarly, estimate for $c>0$ the minimal $k_c(n)$ such that if every maximal
 clique in $G$ has at least $k_c(n)$ vertices then $\tau(G)<(1-c)n$.
 
-**Formulation.** The site's wording as accessed 2026-09-19 (no last-edited
-date shown). A maximal clique is what the 1992 paper
-calls a clique, "a complete subgraph maximal under inclusion and having at
-least two vertices" (p. 279); under the hypotheses here every maximal clique
-has at least two vertices anyway, so $\tau(G)$ is the paper's $\tau_C(G)$, and
-$n$ is the number of vertices. There are two questions, both specializations
-of the paper's Problem 2, quoted from [EGT92], p. 280: "Suppose that each
-clique of $G$ has at least $k=k(n)$ vertices. Which value of $k(n)$ insures
-that $\tau_C(G)$ is less than $n-cn$ (for some absolute constant $c$), or is
-$o(n)$ or $O(n^\alpha)$ for a given $\alpha$, $0<\alpha<1$?" The first asks
-the $o(n)$ clause at $k(n)=cn$ for a fixed $c>0$ (whether
-$\tau(G)\le\varepsilon n$ for every $\varepsilon>0$ once $n$ is large in terms
-of $c$ and $\varepsilon$); the second asks for the least $k$ such that cliques
-of at least $k$ vertices force $\tau(G)<(1-c)n$, the $n-cn$ clause, as a
-function of $n$ for fixed
-$c$. The graphs problem collection page the site links states the first
-question in the same words with Erdős's 1994 collection as its source. The
-page-level status describes both questions; neither is answered.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-19 (no
+last-edited date shown). A maximal clique is what the 1992 paper calls a clique,
+"a complete subgraph maximal under inclusion and having at least two vertices"
+(p. 279); under the hypotheses here every maximal clique has at least two
+vertices anyway, so $\tau(G)$ is the paper's $\tau_C(G)$, and $n$ is the number
+of vertices. There are two questions, both specializations of the paper's
+Problem 2, quoted from [EGT92], p. 280: "Suppose that each clique of $G$ has at
+least $k=k(n)$ vertices. Which value of $k(n)$ insures that $\tau_C(G)$ is less
+than $n-cn$ (for some absolute constant $c$), or is $o(n)$ or $O(n^\alpha)$ for
+a given $\alpha$, $0<\alpha<1$?" The first asks the $o(n)$ clause at $k(n)=cn$
+for a fixed $c>0$ (whether $\tau(G)\le\varepsilon n$ for every $\varepsilon>0$
+once $n$ is large in terms of $c$ and $\varepsilon$); the second asks for the
+least $k$ such that cliques of at least $k$ vertices force $\tau(G)<(1-c)n$, the
+$n-cn$ clause, as a function of $n$ for fixed $c$. The graphs problem collection
+page erdosproblems.com links states the first question in the same words with
+Erdős's 1994 collection as its source. The page-level status describes both
+questions; neither is answered.
 
-**Status.** Open, the site's label. No source answering either question for
-arbitrary graphs was found in the search whose scope the Current assessment
-records. This is a bounded negative finding, not a certificate of openness.
-Erdős, Gallai and Tuza (Discrete Math. 108 (1992), refereed) give the following.
-For the second question, $k_c(n)\ge n^{c'/\log\log n}$ for some $c'>0$ and
-infinitely many $n$. This is their Theorem 5, an infinite sequence of graphs
-whose cliques all have at least $n^{c/\log\log n}$ vertices with
+**Status.** Open, the erdosproblems.com label. No source answering either
+question for arbitrary graphs was found in the search whose scope the Current
+assessment records. This is a bounded negative finding, not a certificate of
+openness. Erdős, Gallai and Tuza (Discrete Math. 108 (1992), refereed) give the
+following. For the second question, $k_c(n)\ge n^{c'/\log\log n}$ for some
+$c'>0$ and infinitely many $n$. This is their Theorem 5, an infinite sequence of
+graphs whose cliques all have at least $n^{c/\log\log n}$ vertices with
 $\tau(G)\ge n-o(n)$. Their Theorem 2 gives $\tau(G)\le n-\sqrt{kn}$ when every
 clique has more than $k$ vertices and $n\ge k+2$, the $5$-cycle excepted. Its
 elementary consequence $k_c(n)\le\lfloor c^2n\rfloor+2$ for large $n$ is written
@@ -73,20 +72,20 @@ $r(G)$ the least order of a maximal clique, so cliques of at least $cn$ vertices
 give $\tau(G)\le1/c$. Bacsó, Gravier, Gyárfás, Preissmann and Sebő (2004) work
 through clique colorings. Bacsó and Tuza (2009) treat subcubic and claw-free
 graphs of maximum degree at most four. Cooper, Grzesik and Král' (2018) treat
-chordal graphs. None of them bears on arbitrary graphs. The site's third
-statement is that $\tau(G)=1$ once every clique has at least $n+3-2\sqrt n$
-vertices, which the site and the paper call best possible. It is attested by the
-paper's Note added in proof (p. 288: proved "with B. Bollobás in Oberwolfach,
-1990", the threshold printed as $n+3-\lceil2\sqrt n\rceil$), and no published
-proof was located. Small graphs written out below witness its sharpness for
-$4\le n\le7$.
+chordal graphs. None of them bears on arbitrary graphs. erdosproblems.com's
+third statement is that $\tau(G)=1$ once every clique has at least
+$n+3-2\sqrt n$ vertices, which erdosproblems.com and the paper call best
+possible. It is attested by the paper's Note added in proof (p. 288: proved
+"with B. Bollobás in Oberwolfach, 1990", the threshold printed as
+$n+3-\lceil2\sqrt n\rceil$), and no published proof was located. Small graphs
+written out below witness its sharpness for $4\le n\le7$.
 
 **Source.** [erdosproblems.com/611](https://www.erdosproblems.com/611),
 accessed 2026-09-19: the problem page (OPEN,
-the site's label for a statement that no finite computation can settle; no
-last-edited date shown; source keys [EGT92], [Er94], [Er99]; commentary
-citing Problem 610 and the graphs problem collection's entry), its empty
-discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom,
+the erdosproblems.com label for a statement that no finite computation can
+settle; no last-edited date shown; source keys [EGT92], [Er94], [Er99];
+commentary citing Problem 610 and the graphs problem collection's entry), its
+empty discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom,
 Erdős Problem #611, https://www.erdosproblems.com/611, accessed 2026-09-19.
 
 **References.**
@@ -106,19 +105,20 @@ Erdős Problem #611, https://www.erdosproblems.com/611, accessed 2026-09-19.
   [[../library/extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/note_added_in_proof|note_added_in_proof]].
 - [Er94] Erdős, P., Problems and results on set systems and hypergraphs.
   Extremal problems for finite sets (Visegrád, 1991), Bolyai Soc. Math. Stud.
-  3, János Bolyai Math. Soc., Budapest (1994), 217--227 (the site's reference
-  text at `/bibs/Er94`, read 2026-09-19, gives "(1994), 217-227. (MR 1319165)";
-  the volume and publisher from the graphs problem collection's bibliography).
-  Not held: a 1994 volume chapter after the Rényi archive's cutoff (on
-  2026-09-19 the archive's index listed no paper after 1989), with no open copy
-  identified. The graphs problem collection's page "SublinearCliqueTransversal"
-  (read 2026-09-19) gives it as the source of the first question.
+  3, János Bolyai Math. Soc., Budapest (1994), 217--227 (the erdosproblems.com
+  reference text at `/bibs/Er94`, read 2026-09-19, gives "(1994), 217-227. (MR
+  1319165)"; the volume and publisher from the graphs problem collection's
+  bibliography). Not held: a 1994 volume chapter after the Rényi archive's
+  cutoff (on 2026-09-19 the archive's index listed no paper after 1989), with no
+  open copy identified. The graphs problem collection's page
+  "SublinearCliqueTransversal" (read 2026-09-19) gives it as the source of the
+  first question.
 - [Er99] Erdős, P., A selection of problems and results in combinatorics.
   Combin. Probab. Comput. 8 (1999), 1--6. Not held; no open copy identified.
 - [BoEr90] Bollobás, B., Erdős, P., Gallai, T. and Tuza, Zs., the theorem of
   the Note added in proof of [EGT92] ("we proved with B. Bollobás in
-  Oberwolfach, 1990"); no publication of the proof was located, and the site
-  credits it to Bollobás and Erdős.
+  Oberwolfach, 1990"); no publication of the proof was located, and
+  erdosproblems.com credits it to Bollobás and Erdős.
 - [Er61] Erdős, P., Graph theory and probability. II. Canad. J. Math. 13
   (1961), 346--352; [EGT92]'s reference [6], the triangle-free graphs with
   small independence number that start the construction of Theorem 5.
@@ -148,14 +148,14 @@ Erdős Problem #611, https://www.erdosproblems.com/611, accessed 2026-09-19.
   [[../library/extremal_graph_theory/cooper_et_al_2016_optimal_size_clique_transversals_chordal_graphs/_index|cooper_et_al_2016_optimal_size_clique_transversals_chordal_graphs]].
 
 **Formalization.** None. The formal-conjectures repository has no file
-`ErdosProblems/611.lean` (main, 2026-09-19); the site's page records no
-formalized statement; the community database (teorth/erdosproblems,
+`ErdosProblems/611.lean` (main, 2026-09-19); the erdosproblems.com page records
+no formalized statement; the community database (teorth/erdosproblems,
 `data/problems.yaml`) records the problem open (last update 31 August 2025),
 unformalized, with no formalized statement and no OEIS entry.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
 above; OPEN. The commentary attributes the problem to Erdős, Gallai and Tuza
 [EGT92] and credits them, for the second question, with
 $k_c(n)\ge n^{c'/\log\log n}$ for some $c'>0$ and with
@@ -164,11 +164,11 @@ credits Bollobás and Erdős with $\tau(G)=1$ once every maximal clique has at
 least $n+3-2\sqrt n$ vertices, a threshold it calls best possible; and it
 points to Problem 610 and to the graphs problem collection's entry. The
 thread and the proof-claim tab are empty; the community database record says
-open. Two site-versus-source details, recorded as commentary items and not
-affecting the standing: the site's clique size of at least $k$ is the paper's
-"more than $k$ vertices" with the hypothesis $n\ge k+2$ and the $5$-cycle
-exception (Theorem 2, below), and the site's $n+3-2\sqrt n$ is printed in the
-paper as $n+3-\lceil2\sqrt n\rceil$.
+open. Two erdosproblems.com-versus-source details, recorded as commentary items
+and not affecting the standing: erdosproblems.com's clique size of at least $k$
+is the paper's "more than $k$ vertices" with the hypothesis $n\ge k+2$ and the
+$5$-cycle exception (Theorem 2, below), and erdosproblems.com's $n+3-2\sqrt n$
+is printed in the paper as $n+3-\lceil2\sqrt n\rceil$.
 
 **The origin.** [EGT92], p. 280
 ([[../library/extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_2|problem_2]]),
@@ -181,8 +181,8 @@ of $k(n)$ that guarantees a small clique-transversal number, and they single
 out $k(n)=n^\alpha$, $0<\alpha<1$, as the case to study; for constant $k$ the
 paper's substitution constructions give graphs with
 $\tau_C(G)\ge n-O(n^{1-1/k}\log^{k/2}n)$ when $k$ is a power of $2$. The
-site's keys [Er94] and [Er99] are not held; the graphs problem collection
-attributes the first question to [Er94].
+erdosproblems.com keys [Er94] and [Er99] are not held; the graphs problem
+collection attributes the first question to [Er94].
 
 **What is known (claims checked).**
 
@@ -191,8 +191,8 @@ attributes the first question to [Er94].
   for infinitely many $n$, whose cliques all have at least $n^{c/\log\log n}$
   vertices and with $\tau(G(n))\ge n-o(n)$. For any fixed $c_0>0$ and large
   $n$ these graphs have $\tau>(1-c_0)n$, so $k_{c_0}(n)>n^{c/\log\log n}$
-  along the sequence: the site's lower bound on $k_c(n)$. The proof iterates
-  the substitution of a triangle-free graph with independence number
+  along the sequence: erdosproblems.com's lower bound on $k_c(n)$. The proof
+  iterates the substitution of a triangle-free graph with independence number
   $O(\sqrt k\log k)$ into itself, with $\tau$ and the least clique size both
   multiplicative (Lemmas 3--4, p. 287); read for structure.
 - [[../library/extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/theorem_2|Theorem 2]]
@@ -281,10 +281,10 @@ equals $\tau(G)$ whenever every maximal clique has at least two vertices.
 to either question for arbitrary graphs, an improvement of the bounds above,
 or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-19; the formal-conjectures repository (main, 2026-09-19; no file
-  611); the community database, read 2026-09-19; the site's reference text for
-  [Er94] (`/bibs/Er94`).
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-19; the formal-conjectures repository (main, 2026-09-19; no
+  file 611); the community database, read 2026-09-19; the erdosproblems.com
+  reference text for [Er94] (`/bibs/Er94`).
 - The graphs problem collection (mathweb.ucsd.edu/~erdosproblems, the pages
   "SublinearCliqueTransversal", "CliqueTransversal" and
   "CliqueTransversalUpperBound", accessed 2026-09-19): the first states this
@@ -309,13 +309,12 @@ above do not reach them), and no construction refuting it; reopening
 condition: either. (2) $k_c(n)$ lies between $n^{c'/\log\log n}$, for
 infinitely many $n$, and $\lfloor c^2n\rfloor+2$; the paper's own suggestion,
 the case $k(n)=n^\alpha$, has no result in the sources read. (3) The
-$\tau=1$ threshold has no published proof located; the site's two keys [Er94] and
-[Er99], which may carry it or restate the problem, are not held (no open copy
-identified). (4) Proof coverage: Theorems 2 and 5 at claims
-checked with proofs read for structure; the two consequences above are
-elementary and unreviewed; the Note's threshold has sharpness witnesses for
-$n\le7$ and no located proof. (5) There is no Lean statement of the
-problem.
+$\tau=1$ threshold has no published proof located; erdosproblems.com's two keys
+[Er94] and [Er99], which may carry it or restate the problem, are not held (no
+open copy identified). (4) Proof coverage: Theorems 2 and 5 at claims checked
+with proofs read for structure; the two consequences above are elementary and
+unreviewed; the Note's threshold has sharpness witnesses for $n\le7$ and no
+located proof. (5) There is no Lean statement of the problem.
 
 ## Known results
 

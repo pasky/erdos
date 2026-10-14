@@ -28,10 +28,10 @@ $$
 
 where the $p_i$ are prime numbers. Is it true that $\limsup f_k(n)=\infty$?
 
-**Status.** Open. The site labeled the problem OPEN, and its page was last
-edited on 19 September 2025. The site credits Erdős with the case $k=2$ [Er37b].
-It also credits him with a proof of the case $k=3$ that appears to be
-unpublished.
+**Status.** Open. Bloom's catalog labeled the problem OPEN, and its page was
+last edited on 19 September 2025. erdosproblems.com credits Erdős with the case
+$k=2$ [Er37b]. It also credits him with a proof of the case $k=3$ that appears
+to be unpublished.
 
 **Source.** [erdosproblems.com/979](https://www.erdosproblems.com/979), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #979,
@@ -55,9 +55,9 @@ https://www.erdosproblems.com/979.
 $k\ge2$. The case $k=2$ is Erdős's refereed theorem of 1937, an accepted
 partial claim on
 [[problems/diophantine_problems/E0979/claims/1937_04_01_erdos|Erdős's 1937 page]].
-The site's [Er37b] is Part I of the paper, J. London Math. Soc. 12 (1937),
-133-136, which gives more than $n^{c/(\log\log n)^2}$ representations for
-infinitely many $n$; the linked library card
+erdosproblems.com's [Er37b] is Part I of the paper, J. London Math. Soc. 12
+(1937), 133-136, which gives more than $n^{c/(\log\log n)^2}$ representations
+for infinitely many $n$; the linked library card
 [[../library/diophantine_problems/erdos_1937_sum_difference_squares_primes/_index|erdos_1937_sum_difference_squares_primes]]
 is Part II, pp. 168-171 of the same volume, which sharpens the count to
 $n^{c/\log\log n}$.

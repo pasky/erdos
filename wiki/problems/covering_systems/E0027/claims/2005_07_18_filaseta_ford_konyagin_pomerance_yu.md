@@ -64,12 +64,12 @@ $$
 \delta^-(S)=(1+o(1))\,\alpha(S)
 $$
 
-as $N\to\infty$, where the $o(1)$ depends only on $c$; the site's restatement,
-with the range $1<C\le N^{\log\log\log N/(4\log\log N)}$, is the case $c=1/4$.
-The paper's Conjecture 2, the conjecture of Erdős and Graham that the theorem
-proves, asks for each $K>1$ a positive $d_K$ such that, for $N$ large in terms
-of $K$, the complement of any union of residue classes $r(n)\pmod n$ over all
-$n\in(N,KN]$ has density at least $d_K$; since
+as $N\to\infty$, where the $o(1)$ depends only on $c$; erdosproblems.com's
+restatement, with the range $1<C\le N^{\log\log\log N/(4\log\log N)}$, is the
+case $c=1/4$. The paper's Conjecture 2, the conjecture of Erdős and Graham that
+the theorem proves, asks for each $K>1$ a positive $d_K$ such that, for $N$
+large in terms of $K$, the complement of any union of residue classes
+$r(n)\pmod n$ over all $n\in(N,KN]$ has density at least $d_K$; since
 $\alpha((N,KN])=\lfloor N\rfloor/\lfloor KN\rfloor\to1/K$, the paper notes that
 $d_K\le1/K$ and shows in its Section 4 that any $d<1/K$ is a valid choice.
 Dropping moduli only raises $\alpha(S)$, so for a fixed $C>1$ every system with
@@ -80,21 +80,21 @@ each fixed $d<1/C$, one threshold on $N$ serves every tolerance $\epsilon\le d$.
 No single threshold serves every tolerance below $1/C$: for every $N\ge2$ the
 greedy choice of the paper's (1.1), applied to all moduli in $[N,CN]$, leaves
 density at most $\prod_{N\le m\le CN}(1-1/m)=(N-1)/\lfloor CN\rfloor<1/C$. The
-site's question, which asks whether some $C$ works for every pair
+erdosproblems.com question, which asks whether some $C$ works for every pair
 $(\epsilon,N)$, needs less, as the problem page's Formulation explains: for a
 fixed $C$ and $N$ beyond the bound of Hough's minimum-modulus theorem
 ([[../library/covering_systems/hough_2015_solution_minimum_modulus_problem_covering_systems/_index|Hough 2015]],
-$10^{16}$ in the published paper, $10^{18}$ in the arXiv version the site
-quotes, lowered to $616000$ by
+$10^{16}$ in the published paper, $10^{18}$ in the arXiv version
+erdosproblems.com quotes, lowered to $616000$ by
 [[../library/covering_systems/balister_2018_erdos_covering_problem_density_uncovered_set/_index|Balister, Bollobás, Morris, Sahasrabudhe and Tiba]]),
 none of the finitely many systems with distinct moduli in $[N,CN]$ covers, so
 some $\epsilon>0$ is already too small. The paper's introduction quotes Erdős
 offering a prize for a lower bound $d_K$, the uniform form, which is the prize
-the site records.
+erdosproblems.com records.
 
 **Depends on.** Nothing in this wiki: the theorem is the paper's own, and
-Hough's theorem is background for the site's question, not an input. A second
-proof of the uniform form, Theorem 5.1 of Balister, Bollobás, Morris,
+Hough's theorem is background for the erdosproblems.com question, not an input.
+A second proof of the uniform form, Theorem 5.1 of Balister, Bollobás, Morris,
 Sahasrabudhe and Tiba, has
 [[problems/covering_systems/E0027/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|its own claim page]].
 
@@ -103,11 +103,11 @@ Sahasrabudhe and Tiba, has
 The arXiv preprint math/0507374 of 2005-07-18 is the first posting and gives the
 page its date.
 
-Reviewed: the site's curator, Thomas F. Bloom, labeled the problem DISPROVED and
-records the answer as no. Bloom credits the paper in the problem's commentary
-and restates its density bound there (page last edited 16 July 2026). The
-problem's thread carries two editorial comments, of 12 and 13 July 2026, on the
-wording of that commentary, and no proof claim.
+Reviewed: the erdosproblems.com curator, Thomas F. Bloom, labeled the problem
+DISPROVED and records the answer as no. Bloom credits the paper in the problem's
+commentary and restates its density bound there (page last edited 16 July 2026).
+The problem's thread carries two editorial comments, of 12 and 13 July 2026, on
+the wording of that commentary, and no proof claim.
 
 The statement above follows the paper's Theorem B and its discussion of
 Conjecture 2. The proof is not checked in this corpus.
@@ -118,17 +118,17 @@ commit of 2026-09-15; its record page is of 2026-08-22) declares itself a
 formalization of a solution to Problem 27: its header lists Filaseta, Ford,
 Konyagin, Pomerance and Yu as informal authors and Codex and GPT-5.6 Sol as
 formal authors, and says the formal proof follows the fixed-ratio specialization
-of the paper's smooth and rough fiber argument. It states the site's question as
-`Erdos27Question`, the existence of a real $C>1$ such that for every real
-$\epsilon>0$ and every natural $N\ge1$ some residue system with distinct moduli
-in the window has uncovered density at most $\epsilon$, under its own
+of the paper's smooth and rough fiber argument. It states the erdosproblems.com
+question as `Erdos27Question`, the existence of a real $C>1$ such that for every
+real $\epsilon>0$ and every natural $N\ge1$ some residue system with distinct
+moduli in the window has uncovered density at most $\epsilon$, under its own
 definitions of residue systems and periodic density, and proves `not_erdos_27`,
 its negation, from a non-covering lemma at a fixed ratio and a lower bound
 $1/(KN)!$ on the uncovered density of a non-covering system; it closes with
-`#print axioms not_erdos_27` without the printed output. The site's indicator
-reads "Formalised statement? No" and the community database records the problem
-as not formalized (2026-10-07). This corpus has not built or audited the
-development, so the page lists no `formalized` evidence.
+`#print axioms not_erdos_27` without the printed output. The erdosproblems.com
+indicator reads "Formalised statement? No" and the community database records
+the problem as not formalized (2026-10-07). This corpus has not built or audited
+the development, so the page lists no `formalized` evidence.
 
 **Not covered.** Nothing of the question remains. The finer results of the
 paper, among them how far $K$ may grow with $N$ before the bound fails

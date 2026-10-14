@@ -32,15 +32,15 @@ where $G_k$ is the bipartite graph between $\{y_1,\ldots,y_k\}$ and
 $\{z_1,\ldots,z_{\binom{k}{2}}\}$, with each $z_j$ joined to a unique pair of
 $y_i$?
 
-**Status.** Proved. The site credits Conlon and Lee [CoLe21] with $c_k=6^{-k}$,
-and Janzer [Ja19] with the improvement to $c_k=1/(4k-6)$. Both are refereed
-publications. Conlon--Lee is cited from the arXiv v2 manuscript, and Janzer from
-the published six-page paper. Each has a claim page,
+**Status.** Proved. erdosproblems.com credits Conlon and Lee [CoLe21] with
+$c_k=6^{-k}$, and Janzer [Ja19] with the improvement to $c_k=1/(4k-6)$. Both are
+refereed publications. Conlon--Lee is cited from the arXiv v2 manuscript, and
+Janzer from the published six-page paper. Each has a claim page,
 [[problems/extremal_graph_theory/E1021/claims/2018_07_13_conlon_lee|Conlon and Lee]]
 and [[problems/extremal_graph_theory/E1021/claims/2018_09_03_janzer|Janzer]],
-accepted on the refereed venues and the site's credit. The site also credits the
-case $k=3$ to Erdős [Er64c] and to Bondy and Simonovits [BoSi74]. That case has
-its accepted partial claim page,
+accepted on the refereed venues and the erdosproblems.com credit.
+erdosproblems.com also credits the case $k=3$ to Erdős [Er64c] and to Bondy and
+Simonovits [BoSi74]. That case has its accepted partial claim page,
 [[problems/extremal_graph_theory/E1021/claims/1974_04_01_bondy_simonovits|Bondy and Simonovits]].
 The proof-claim tab is empty and nothing is independently reviewed here.
 
@@ -59,11 +59,11 @@ T. F. Bloom, Erdős Problem #1021, https://www.erdosproblems.com/1021.
   Applications (Proc. Sympos. Smolenice, 1963) (1964), 29-36.
 - [Er71] Erdős, P., Some unsolved problems in graph theory and combinatorial
   analysis. Combinatorial Mathematics and its Applications (Proc. Conf., Oxford,
-  1969) (1971), 97-109; p. 103 is one of the site's two source passages for
-  the problem.
+  1969) (1971), 97-109; p. 103 is one of erdosproblems.com's two source passages
+  for the problem.
 - [Er74c] Erdős, Paul, Extremal problems on graphs and hypergraphs. Hypergraph
   Seminar, Lecture Notes in Math. 411, Springer (1974), 75--84; p. 79 is one
-  of the site's two source passages for the problem. Library home:
+  of erdosproblems.com's two source passages for the problem. Library home:
   [[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/_index|erdos_1974_extremal_problems_graphs_hypergraphs]].
 - [Ja19] Janzer, Oliver, Improved bounds for the extremal number of
   subdivisions. Electron. J. Combin. (2019), Paper No. 3.3, 6.
@@ -169,7 +169,7 @@ question, not an inference from an adjacent even-cycle theorem.
 At $k=3$, $G_3=C_6$, and Janzer's exponent becomes $4/3$. Janzer p. 2
 records the classical tight order $\Theta(n^{4/3})$ for this case;
 Conlon--Lee p. 9 cites the Bondy--Simonovits upper bound as earlier context.
-The site's commentary credits Erdős [Er64c] and Bondy and Simonovits
+The erdosproblems.com commentary credits Erdős [Er64c] and Bondy and Simonovits
 [BoSi74] with this $k=3$ case. Bondy and Simonovits's Theorem 1 with $k=3$
 gives $\mathrm{ex}(n,C_6)\le300n^{4/3}$, so $c_3=1/6$, an accepted partial
 claim on

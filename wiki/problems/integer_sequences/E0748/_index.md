@@ -29,8 +29,8 @@ f(n)=2^{(1+o(1))\frac{n}{2}}?
 $$
 
 **Formulation.** The displayed question asks only for the exponent,
-$f(n)=2^{(1+o(1))n/2}$, that is $\log_2f(n)/n\to1/2$. The site's commentary
-names the Cameron–Erdős conjecture, which is the stronger bound
+$f(n)=2^{(1+o(1))n/2}$, that is $\log_2f(n)/n\to1/2$. The erdosproblems.com
+commentary names the Cameron–Erdős conjecture, which is the stronger bound
 $f(n)=O(2^{n/2})$ (Conjecture 1 of [Gr04], after [CaEr90]). The exponent
 form was settled in 1990–91: Calkin [Ca90] and Alon [Al91] proved
 $f(n)=2^{n/2+o(n)}$ independently, and Erdős and Granville proved it in
@@ -38,12 +38,12 @@ unpublished work, as the introduction of [Gr04] records (its display (1) and
 Proposition 12). The bound $O(2^{n/2})$ and the two-valued
 asymptotic below are the later results of Green and Sapozhenko.
 
-**Status.** The site labeled the problem PROVED and credits Green [Gr04] and
-Sapozhenko [Sa03]. They independently proved the stronger bound $f(n)\ll2^{n/2}$
-of the Cameron–Erdős conjecture. In fact they proved the asymptotic
-$f(n)\sim c_n2^{n/2}$, with $c_n$ taking one of two values according to the
-parity of $n$. The displayed statement itself dates from Calkin [Ca90] and Alon
-[Al91]. The subsets of $(n/2,n]$ give the trivial lower bound
+**Status.** Bloom's catalog labeled the problem PROVED and credits Green [Gr04]
+and Sapozhenko [Sa03]. They independently proved the stronger bound
+$f(n)\ll2^{n/2}$ of the Cameron–Erdős conjecture. In fact they proved the
+asymptotic $f(n)\sim c_n2^{n/2}$, with $c_n$ taking one of two values according
+to the parity of $n$. The displayed statement itself dates from Calkin [Ca90]
+and Alon [Al91]. The subsets of $(n/2,n]$ give the trivial lower bound
 $f(n)\ge2^{\lceil n/2\rceil}$. With it, each of Calkin's and Alon's upper bounds
 $2^{n/2+o(n)}$ gives $f(n)=2^{(1+o(1))n/2}$. Problem 877 is the maximal case.
 Claim pages: [[problems/integer_sequences/E0748/claims/1990_03_01_calkin|Calkin
@@ -119,7 +119,7 @@ Sapozhenko claim pages carry it as a `formalization` link and list no
 - The Cameron–Erdős conjecture: Green [Gr04] and Sapozhenko [Sa03], [Sa08]
   independently proved $f(n)\ll2^{n/2}$ and the asymptotic
   $f(n)\sim c_n2^{n/2}$, with $c_n$ one of two constants according to the
-  parity of $n$; the site's label PROVED credits both. Claim pages:
+  parity of $n$; the erdosproblems.com label PROVED credits both. Claim pages:
   [[problems/integer_sequences/E0748/claims/2003_04_04_green|Green 2003]]
   and
   [[problems/integer_sequences/E0748/claims/2003_01_01_sapozhenko|Sapozhenko 2003]];

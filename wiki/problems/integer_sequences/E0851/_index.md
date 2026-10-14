@@ -25,36 +25,36 @@ updated: 2026-10-08T00:44:25Z
 density of integers of the form $2^k+n$, where $k\geq 0$ and $n$ has at most $r$
 prime divisors, is at least $1-\epsilon$?
 
-**Formulation.** The site's statement bounds the density. Erdős's source asks
-for the lower density: in [Er85c], p. 75, he asks whether to every
+**Formulation.** The erdosproblems.com statement bounds the density. Erdős's
+source asks for the lower density: in [Er85c], p. 75, he asks whether to every
 $\epsilon>0$ there is an $r$ such that the integers $2^k+m$, with $m$ having at
 most $r$ distinct prime factors, have lower density greater than
-$1-\epsilon$. This page reads the site's question that way. The
-formal-conjectures statement bounds the lower density too, and the site's
-acceptance of Price's argument needs this reading. Price's argument gives
-lower density at least $1-\epsilon$; it does not show that the density
-exists.
+$1-\epsilon$. This page reads the erdosproblems.com question that way. The
+formal-conjectures statement bounds the lower density too, and
+erdosproblems.com's acceptance of Price's argument needs this reading. Price's
+argument gives lower density at least $1-\epsilon$; it does not show that the
+density exists.
 
-**Status.** Proved. The answer is yes. The site's curator, Thomas Bloom, labeled
-the problem PROVED and credits the solution to Price (page last edited 2 April
-2026, accessed 2026-09-05; five comments, no proof claim, no
-exposition). Price posted an argument generated with GPT-5.2 Pro in the site's
-thread on 5 February 2026. It is a sieve count of the representations $2^k+m$
-with $m$ free of primes in $(z,x^{1/t}]$ for large constants $z,t$. The
-fundamental lemma of sieve theory estimates the first and second moments of this
-count. The second moment rests on an averaged bound for a singular series over
-the primes dividing $2^k-2^l$. Tao confirmed the proof correct in an edit to
-their thread comment of 5 February 2026. No refereed or arXiv version was found
-on 2026-10-07. Romanoff (1934) gives the $r=1$ case with a positive density in
-place of $1-\epsilon$. Claim page:
+**Status.** Proved. The answer is yes. The erdosproblems.com curator, Thomas
+Bloom, labeled the problem PROVED and credits the solution to Price (page last
+edited 2 April 2026, accessed 2026-09-05; five comments, no proof claim, no
+exposition). Price posted an argument generated with GPT-5.2 Pro in the
+erdosproblems.com thread on 5 February 2026. It is a sieve count of the
+representations $2^k+m$ with $m$ free of primes in $(z,x^{1/t}]$ for large
+constants $z,t$. The fundamental lemma of sieve theory estimates the first and
+second moments of this count. The second moment rests on an averaged bound for a
+singular series over the primes dividing $2^k-2^l$. Tao confirmed the proof
+correct in an edit to their thread comment of 5 February 2026. No refereed or
+arXiv version was found on 2026-10-07. Romanoff (1934) gives the $r=1$ case with
+a positive density in place of $1-\epsilon$. Claim page:
 [[problems/integer_sequences/E0851/claims/2026_02_05_price|Price 2026]]
-(accepted on Tao's confirmation and the site's curator's acceptance; not
-refereed, not counted as formalized). A thread comment of 6 February 2026 by
+(accepted on Tao's confirmation and the erdosproblems.com curator's acceptance;
+not refereed, not counted as formalized). A thread comment of 6 February 2026 by
 Sawhney announces a version of the argument, joint with Green, that gives
 $r\ll\log(1/\epsilon)/\log\log(1/\epsilon)$, using a high-moment argument in
-place of the second moment. The site's commentary also mentions it. It is a
-thread comment without a write-up, no manuscript was found on 2026-10-07, and it
-has no claim page.
+place of the second moment. The erdosproblems.com commentary also mentions it.
+It is a thread comment without a write-up, no manuscript was found on
+2026-10-07, and it has no claim page.
 
 **Source.** [erdosproblems.com/851](https://www.erdosproblems.com/851), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #851,
@@ -85,20 +85,21 @@ link.
 
 ## Current assessment
 
-**Scope.** Search scope: the site's problem page, its thread (five comments on
-2026-10-07), the statement file of formal-conjectures at the pinned commit, the
-top-level file of the Lean development it points at, and Romanoff's paper
-through its library card. Not part of that basis: Price's document; the proof
-coverage of the argument was not assessed here; the acceptance rests on Tao's
-confirmation and the curator's label, as the claim page records. No literature
-search beyond the site and the arXiv queries the claim page lists was made.
+**Scope.** Search scope: the erdosproblems.com problem page, its thread (five
+comments on 2026-10-07), the statement file of formal-conjectures at the pinned
+commit, the top-level file of the Lean development it points at, and Romanoff's
+paper through its library card. Not part of that basis: Price's document; the
+proof coverage of the argument was not assessed here; the acceptance rests on
+Tao's confirmation and the curator's label, as the claim page records. No
+literature search beyond erdosproblems.com and the arXiv queries the claim page
+lists was made.
 
 **Claims.** One result is claimed from outside the project and accepted by
-the site:
+erdosproblems.com:
 [[problems/integer_sequences/E0851/claims/2026_02_05_price|Price's sieve argument]]
-of 5 February 2026, a yes for the site's statement, confirmed by Tao and
-credited by the curator, so the problem's standing is `solved` with the claim
-`proved`. The quantitative version Sawhney announced in the thread has no
+of 5 February 2026, a yes for the erdosproblems.com statement, confirmed by Tao
+and credited by the curator, so the problem's standing is `solved` with the
+claim `proved`. The quantitative version Sawhney announced in the thread has no
 write-up and no claim page.
 
 ## Known Results
@@ -116,11 +117,11 @@ the representations $2^k+m$ with $m$ free of primes in a middle range, whose
 first and second moments the fundamental lemma estimates. Sawhney's thread
 comment of 6 February 2026 announces a version, joint with Green, of the
 argument, replacing the second moment by a high moment, that gives
-$r\ll\log(1/\epsilon)/\log\log(1/\epsilon)$, which the site's commentary
-also records; no write-up was found on 2026-10-07. Whether $r$ can be chosen
-independent of $\epsilon$ is open; the same comment ties that question to
-covering congruences, which with Bang's theorem rule out $r=2$. The site's
-commentary points to
+$r\ll\log(1/\epsilon)/\log\log(1/\epsilon)$, which the erdosproblems.com
+commentary also records; no write-up was found on 2026-10-07. Whether $r$ can be
+chosen independent of $\epsilon$ is open; the same comment ties that question to
+covering congruences, which with Bang's theorem rule out $r=2$. The
+erdosproblems.com commentary points to
 [[problems/arithmetic_functions/E0205/_index|Problem 205]], which asks
 whether every large integer is $2^k+m$ with $\Omega(m)<\log\log m$.
 <!-- BEGIN problem library links -->

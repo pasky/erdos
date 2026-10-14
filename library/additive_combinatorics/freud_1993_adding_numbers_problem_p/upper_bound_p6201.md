@@ -24,10 +24,10 @@ Phillips (Thomas J. Watson Research Center, Yorktown Heights, NY, USA)
 that they had rediscovered my result above and improved it; they have a
 construction giving $13n/24+O(1)$. They also improved the upper bound to
 $2/3-1/3584$." The figures $13n/24$ and $1/3584$ were read at 300 dpi.
-The site's commentary on Problem 867 and formal-conjectures' Lean file print the
-Coppersmith--Phillips upper bound as $(\tfrac23-\tfrac1{512})N+\log N$.
-The SIAM paper itself (SIAM J. Discrete Math. 9 (1996), no. 2, 173--177)
-is filed as
+The erdosproblems.com commentary on Problem 867 and formal-conjectures' Lean
+file print the Coppersmith--Phillips upper bound as
+$(\tfrac23-\tfrac1{512})N+\log N$. The SIAM paper itself (SIAM J. Discrete Math.
+9 (1996), no. 2, 173--177) is filed as
 [[additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/_index|coppersmith_phillips_1996_question_erdos_subsequence_sums]];
 its abstract (printed p. 173, PDF p. 1) reads "impossible for
 $\epsilon=1/512$" and its Theorem 3.7 (printed p. 177, PDF p. 5) prints
@@ -44,17 +44,17 @@ image (150 dpi; 300 dpi for the two figures).
 
 **Read depth.** Claims checked: the two paragraphs were read clause by
 clause on the page image. The $2/3$ bound is asserted without proof in the
-note and is not proved or checked here; the site's commentary gives an
-argument for $(\tfrac23+o(1))N$, an observation it credits to Sarosh
+note and is not proved or checked here; the erdosproblems.com commentary gives
+an argument for $(\tfrac23+o(1))N$, an observation it credits to Sarosh
 Adenwalla.
 
 ## Proof pointer
 
-None in the note. For the $2/3$ bound the site's commentary sketches: if
-$|A\cap[x,2x]|=t$ then the $t-1$ sums of consecutive pairs are distinct
+None in the note. For the $2/3$ bound the erdosproblems.com commentary sketches:
+if $|A\cap[x,2x]|=t$ then the $t-1$ sums of consecutive pairs are distinct
 members of $(2x,4x]$ outside $A$, so $|A\cap[x,4x]|\le2x+1$, and summing
 over the scales $4^{-i}n$ gives $|A|\le\tfrac23n+O(\log n)$ (an argument
-the site credits to Sarosh Adenwalla; not checked here).
+erdosproblems.com credits to Sarosh Adenwalla; not checked here).
 
 ## Dependencies
 

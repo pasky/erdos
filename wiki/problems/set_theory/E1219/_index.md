@@ -29,8 +29,8 @@ $$
 \sum_{k} 2^{\aleph_{n_k}}\to (\aleph_\omega)^2?
 $$
 
-**Status.** Proved. The site's remark (page last edited 1 September 2026,
-accessed 2026-10-07) credits the proof to Shelah [Sh75], and its label was
+**Status.** Proved. The erdosproblems.com remark (page last edited 1 September
+2026, accessed 2026-10-07) credits the proof to Shelah [Sh75], and its label was
 PROVED. The frontmatter standing is derived from the accepted claim page
 [[problems/set_theory/E1219/claims/1975_01_01_shelah|Shelah's proof of the partition relation]].
 
@@ -47,9 +47,9 @@ Erdős Problem #1219, https://www.erdosproblems.com/1219.
   3 of this list, as [Sh75] (p. 1257 and the Remark on p. 1260) and [Ko25b]
   (p. 419) both record.
 - [Ko25b] P. Komjáth, The Erdős--Hajnal Problem List. Bull. Symb. Log. 31
-  (2025), 418--461, doi:10.1017/bsl.2025.1 (the site's bibliography prints
-  "Probem"). Problem 3 (Erdős, Hajnal, Rado), p. 419, states the relation as
-  $\lambda\to(\aleph_\omega)^2_2$ for
+  (2025), 418--461, doi:10.1017/bsl.2025.1 (the erdosproblems.com bibliography
+  prints "Probem"). Problem 3 (Erdős, Hajnal, Rado), p. 419, states the relation
+  as $\lambda\to(\aleph_\omega)^2_2$ for
   $\lambda=2^{\aleph_{n_0}}+2^{\aleph_{n_1}}+\cdots$ under
   $\aleph_\omega<2^{\aleph_{n_0}}<2^{\aleph_{n_1}}<\cdots$, records that
   Shelah proved it in [152] as "the last remaining case of the discussion of
@@ -74,16 +74,17 @@ Erdős Problem #1219, https://www.erdosproblems.com/1219.
   [[../library/set_theory/shelah_1975_notes_partition_calculus/corollary_1_3|corollary_1_3]]
   page.
 
-**Formalization.** None recorded. On 2026-09-27 the site reported no
+**Formalization.** None recorded. On 2026-09-27 erdosproblems.com reported no
 formalized statement, the community database marked the problem
 unformalized, and conjectures.io listed no item for it; formal-conjectures
 had no statement file for 1219 on 2026-10-07.
 
 ## Current assessment
 
-The site formulation, as accessed 2026-10-07 (its revision history shows
-one rewording of the opening clause on 1 September 2026), asks whether $\sum_k 2^{\aleph_{n_k}}\to(\aleph_\omega)^2$ for an
-increasing sequence $(n_k)$ with $2^{\aleph_{n_k}}$ strictly increasing and
+The erdosproblems.com formulation, as accessed 2026-10-07 (its revision history
+shows one rewording of the opening clause on 1 September 2026), asks whether
+$\sum_k 2^{\aleph_{n_k}}\to(\aleph_\omega)^2$ for an increasing sequence $(n_k)$
+with $2^{\aleph_{n_k}}$ strictly increasing and
 $2^{\aleph_{n_0}}>\aleph_\omega$; the omitted subscript means two colors, and
 the sequence is an infinite one, indexed by $\omega$, as in Komjáth's form
 $2^{\aleph_{n_0}}+2^{\aleph_{n_1}}+\cdots$ and Shelah's sum over $n<\omega$
@@ -187,8 +188,8 @@ $i<j<\omega$ and applies Ramsey's theorem to $g$.
   [[../library/set_theory/shelah_1975_notes_partition_calculus/conjecture_1a|conjecture_1a]];
   acceptance record
   [[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|komjath_2025_erdos_hajnal_problem_list]].
-- **Erdős--Hajnal--Rado (site remark; the site attributes it to [ErHa71,
-  p. 20]).** With $\aleph_\kappa$ in place of $\aleph_\omega$ the
+- **Erdős--Hajnal--Rado (erdosproblems.com remark; erdosproblems.com attributes
+  it to [ErHa71, p. 20]).** With $\aleph_\kappa$ in place of $\aleph_\omega$ the
   answer is yes for $\kappa<\omega$ and no for $\kappa>\omega$; Shelah's §0
   and Komjáth's commentary describe the $\aleph_\omega$ case as the last open
   case of $\lambda\to(\mu)^2_2$ for infinite cardinals.

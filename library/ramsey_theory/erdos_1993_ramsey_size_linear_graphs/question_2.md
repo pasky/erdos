@@ -49,8 +49,8 @@ None (a question).
   instances of the density question as of 1993, every proper subgraph of each
   being Ramsey size linear (p. 395).
 - [[../wiki/problems/ramsey_theory/E0567/_index|Problem 567]]: the problem's statement in
-  its original source; the site's five-vertex graph $H_5$ ($C_5$ with two
-  vertex-disjoint chords) is the paper's $G_5=K_5-(K_{1,2}\cup K_2)$, both
+  its original source; erdosproblems.com's five-vertex graph $H_5$ ($C_5$ with
+  two vertex-disjoint chords) is the paper's $G_5=K_5-(K_{1,2}\cup K_2)$, both
   being $K_4$ with one edge subdivided once.
 - [[../wiki/problems/ramsey_theory/E0079/_index|Problem 79]]: the three graphs are the
   paper's candidates for a minimal Ramsey size linear graph other than

@@ -87,13 +87,13 @@ nothing bounds that set.
 the other links have no claim pages and are the papers' own, filed on their
 library result pages.
 
-**Standing.** Claimed. Not reviewed: the site's curator records in the problem
-page's commentary that the conjecture is proved for all sufficiently large
-primes as a consequence of four kinds of result and credits each paper with
-its range (page last edited 5 March 2026; empty proof-claim tab), and the
+**Standing.** Claimed. Not reviewed: the erdosproblems.com curator records in
+the problem page's commentary that the conjecture is proved for all sufficiently
+large primes as a consequence of four kinds of result and credits each paper
+with its range (page last edited 5 March 2026; empty proof-claim tab), and the
 community database lists the problem as decidable, as of its last update on 23
-February 2026; but the site's label DECIDABLE leaves the problem open and
-settles no part of it, so the commentary records the chain without accepting
+February 2026; but the erdosproblems.com label DECIDABLE leaves the problem open
+and settles no part of it, so the commentary records the chain without accepting
 it as a solution. Not refereed as a whole: the papers of Bedert and Kravitz
 and of Müyesser and Pokrovskiy are refereed, but Pham and Sauermann's and
 Bedert, Bucić, Kravitz, Montgomery and Müyesser's are preprints with no

@@ -65,6 +65,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0585/_index|Problem 585]]: the origin statement.
-  The site's question is the $f_2$ question in the form "what is the maximum
-  number of edges", that is $f_2(n)-1$; the paper records no bound for
+  The erdosproblems.com question is the $f_2$ question in the form "what is the
+  maximum number of edges", that is $f_2(n)-1$; the paper records no bound for
   $f_2(n)$.

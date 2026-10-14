@@ -55,6 +55,6 @@ None outside the paper.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0013/_index|Problem 13]]: the exact form of the
-  answer for large $N$; the site's OEIS link A002264 ("nonnegative integers
-  repeated 3 times", $\lfloor n/3\rfloor$) differs from $\lceil n/3\rceil$
-  when $3\nmid n$.
+  answer for large $N$; the erdosproblems.com OEIS link A002264 ("nonnegative
+  integers repeated 3 times", $\lfloor n/3\rfloor$) differs from
+  $\lceil n/3\rceil$ when $3\nmid n$.

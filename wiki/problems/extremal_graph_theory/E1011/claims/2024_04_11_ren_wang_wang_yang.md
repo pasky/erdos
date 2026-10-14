@@ -40,10 +40,10 @@ many edges. Adding one to the maximum (the problem page's second convention)
 gives the value of $f_4(n)$. The corpus states the theorem on its result
 page
 [[../library/extremal_graph_theory/ren_2024_extremal_triangle_free_graphs_chromatic_number/theorem_1_4|Theorem 1.4]],
-read on the page image of v2 (the edition read; no file is held). The site's
-commentary credits the authors with the formula for $n\ge150$; v2 prints
-$n\ge90$ and says that its proof is slightly improved, so the site's range
-is read as v1's, which this corpus has not consulted.
+read on the page image of v2 (the edition read; no file is held). The
+erdosproblems.com commentary credits the authors with the formula for $n\ge150$;
+v2 prints $n\ge90$ and says that its proof is slightly improved, so
+erdosproblems.com's range is read as v1's, which this corpus has not consulted.
 
 **Covers.** The value of $f_4(n)$ for every $n\ge90$. Nothing about
 $f_4(n)$ for $n<90$ (a forum claim of September 2026,
@@ -57,10 +57,10 @@ argument, and Erdős and Gallai's $r=3$ determination
 is context, not a premise.
 
 **Standing.** Claimed. The paper is a preprint: no journal reference on
-arXiv and no Crossref record on 2026-09-18. The site's commentary credits
-the result on a problem the site labeled OPEN, which is not acceptance, and
-the proof-claim tab is empty; the community database records the problem
-open. Read depth: Theorems 1.2 and 1.4 and the family $\mathcal G(n)$ were
-read clause by clause; the proof (Section 4, through a vertex-stability form
-of Mantel's theorem, Theorem 1.5, proved in Sections 2--3) was not read, and
-nothing is independently reviewed by this project.
+arXiv and no Crossref record on 2026-09-18. The erdosproblems.com commentary
+credits the result on a problem Bloom's catalog labeled OPEN, which is not
+acceptance, and the proof-claim tab is empty; the community database records the
+problem open. Read depth: Theorems 1.2 and 1.4 and the family $\mathcal G(n)$
+were read clause by clause; the proof (Section 4, through a vertex-stability
+form of Mantel's theorem, Theorem 1.5, proved in Sections 2--3) was not read,
+and nothing is independently reviewed by this project.

@@ -40,13 +40,13 @@ $$
 so $2^m$ is a sum of distinct factorials only for $m\in\{0,1,3,5,7\}$ and the
 set of solutions is finite. The proof is a Lean 4 file, `solution.lean`,
 committed to the AxiomMath organization's public repository of Erdős-problem
-formalizations on 18 June 2026 and announced in the site's discussion thread
-on 19 June 2026 as a complete characterization produced by the AxiomProver
-system; the claimant is the organization that published it. The file's header
-states the problem and the five solutions and names no informal author or
-source, so it is recorded as a proof of its own rather than as a
-formalization of Lin's memorandum, which is the result the site credits on
-[[problems/factorials_binomials/E0403/claims/1976_01_01_lin|Lin's page]]. The
+formalizations on 18 June 2026 and announced in the erdosproblems.com discussion
+thread on 19 June 2026 as a complete characterization produced by the
+AxiomProver system; the claimant is the organization that published it. The
+file's header states the problem and the five solutions and names no informal
+author or source, so it is recorded as a proof of its own rather than as a
+formalization of Lin's memorandum, which is the result erdosproblems.com credits
+on [[problems/factorials_binomials/E0403/claims/1976_01_01_lin|Lin's page]]. The
 main theorems are `erdos403_complete`, the equivalence above, and `erdos403`,
 the statement about $m$ alone. The argument, as the file's lemmas show, works
 with divisibility of the sum by small primes once the least element is
@@ -63,9 +63,9 @@ cites Frankl and Lin, and prints that `erdos_403` depends only on the axioms
 statement file for the problem names that copy as its formal proof; both
 files are linked above at pinned commits.
 
-**Standing.** The claim is `claimed`. The site's curator credits the problem
-to Frankl and Lin and records a Lean proof in the label, which reaches this
-file through the formal-conjectures pointer; the community database records
+**Standing.** The claim is `claimed`. The erdosproblems.com curator credits the
+problem to Frankl and Lin and records a Lean proof in the label, which reaches
+this file through the formal-conjectures pointer; the community database records
 the problem as proved with a Lean proof, a status dated 21 June 2026. No
 outside reviewer has accepted this file as settling the problem on its own, and
 this corpus has not built or audited it, so it gives formalization links and no

@@ -29,11 +29,11 @@ updated: 2026-10-13T12:26:33Z
 Brown–Erdős–Sós problem at integer exponents*, arXiv:2609.38115v1 (29 September
 2026, 22 pages, the only version), write $f^{(r)}(n;s,k)$ for the largest
 number of edges of an $n$-vertex $r$-graph in which no $k$ distinct edges span
-at most $s$ vertices. Their $s$ is the site's vertex count $k$ and their $k$ is
-the site's edge count $s$, so their function is the site's
-$\mathrm{ex}_r(n,\mathcal F)$, as the Formulation note of
+at most $s$ vertices. Their $s$ is erdosproblems.com's vertex count $k$ and
+their $k$ is erdosproblems.com's edge count $s$, so their function is
+erdosproblems.com's $\mathrm{ex}_r(n,\mathcal F)$, as the Formulation note of
 [[problems/extremal_graph_theory/E1157/_index|Problem 1157]] explains; this page
-uses the site's letters. When $(rs-k)/(s-1)$ is an integer $t$ with
+uses erdosproblems.com's letters. When $(rs-k)/(s-1)$ is an integer $t$ with
 $2\le t<r$, that is $k=(r-t)s+t$, the order of $\mathrm{ex}_r(n,\mathcal F)$ is
 $n^t$, and the paper asks for
 $\pi(r,t,s)=\lim_{n\to\infty}n^{-t}\mathrm{ex}_r(n,\mathcal F)$. Theorem 1.1
@@ -82,7 +82,7 @@ integer-exponent family $k=(r-t)s+t$ with $r>t\ge2$ and $s\ge2$, one vertex
 below the range $k\ge(r-t)s+t+1$ of the Brown–Erdős–Sós conjecture, except
 $3$-graphs with even $s$: there the value at $s=2$ is Rödl's, and for even
 $s\ge4$ only $1/6<\pi(3,2,s)\le1/5$ is shown. The $3$-graph part, $k=s+2$, is
-the case the site routes to Problem 1076. Not
+the case erdosproblems.com routes to Problem 1076. Not
 covered: the exact values of $\mathrm{ex}_r(n,\mathcal F)$, every other triple
 $(r,k,s)$, the conjecture itself, and the linear case $t=1$, which the paper
 calls elementary and cites. The problem stays open.
@@ -103,6 +103,6 @@ random alteration of Lemmas 3.8 and 3.13 and the proof of Proposition 3.20 were
 read through but not checked. Independently, Bodnár, Pikhurko, Sun, Wang and
 Zeng (arXiv:2610.03323v1, 2 October 2026, Theorem 1.1) claim the single value
 $\pi(3,2,9)=1/5$ by another construction; that agreement is not review. The
-site's page for the problem was last edited on 24 January 2026, before the
-result, and no proof claim on the site records it; the site labeled the
-problem OPEN.
+erdosproblems.com page for the problem was last edited on 24 January 2026,
+before the result, and no proof claim on erdosproblems.com records it; Bloom's
+catalog labeled the problem OPEN.

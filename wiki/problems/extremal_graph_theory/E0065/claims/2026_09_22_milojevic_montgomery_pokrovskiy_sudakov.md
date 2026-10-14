@@ -61,6 +61,6 @@ $k$ passes the threshold. Nothing for small $k$.
 **Depends on.** Nothing in this wiki.
 
 **Standing.** Claimed: an unrefereed arXiv preprint with no outside review
-known to this corpus; this corpus has not checked the proof. The site's
-commentary mentions the result as forthcoming work, through Montgomery's
-survey, and labeled the problem OPEN.
+known to this corpus; this corpus has not checked the proof. The
+erdosproblems.com commentary mentions the result as forthcoming work, through
+Montgomery's survey, and labeled the problem OPEN.

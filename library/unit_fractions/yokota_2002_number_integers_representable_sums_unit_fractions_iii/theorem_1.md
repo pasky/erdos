@@ -131,11 +131,11 @@ checked.
 - [[../wiki/problems/unit_fractions/E0309/_index|Problem 309]]: with
   $|N^*(n)|\le|N(n)|$ this gives the lower bound
   $|N(n)|\ge\log n+\gamma-(\frac{\pi^2}3+o(1))(\log_2n)^2/\log n$ that the
-  site's commentary attributes to the paper, stated as
+  erdosproblems.com commentary attributes to the paper, stated as
   [[unit_fractions/yokota_2002_number_integers_representable_sums_unit_fractions_iii/corollary_1|Corollary 1]];
   $|N(n)|$ counts the empty sum $0$, so $|N(n)|=F(n)+1$ for the problem's
   count $F$. It replaces the constant $\frac92$ of Croot's lower bound. For
-  the integer $F(N)$ the site's display
+  the integer $F(N)$ the erdosproblems.com display
   $F(N)\ge\log N+\gamma-(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$ can hold
   only in the integer-part form recorded on the corollary's page.
 - [[../wiki/problems/unit_fractions/E0308/_index|Problem 308]]: with $F(a)\le F^*(a)$ the

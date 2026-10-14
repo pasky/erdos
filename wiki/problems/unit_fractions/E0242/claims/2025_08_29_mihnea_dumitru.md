@@ -41,6 +41,6 @@ not covered.
 
 **Standing.** Claimed. The preprint is a computation report without a
 journal reference; the computation was not rerun by the corpus and no one
-has checked it. The site's commentary cites it for the verification of all
-$n\le10^{18}$, but the site labeled the problem FALSIFIABLE, an open problem,
-so the citation is no `reviewed` evidence.
+has checked it. The erdosproblems.com commentary cites it for the verification
+of all $n\le10^{18}$, but Bloom's catalog labeled the problem FALSIFIABLE, an
+open problem, so the citation is no `reviewed` evidence.

@@ -279,9 +279,9 @@ only. No proof was checked, and nothing here is independently reviewed.
   $(n-1)/e$. So $d(n,G)=\infty$ exactly when a balanced $e(G)$-coloring of
   $K_n$ without a rainbow $G$ exists, a graph $G$ is in the problem's
   answer set exactly when $d(n,G)<\infty$ for every large $n\equiv1\pmod
-  e$, and Problem 1 asks whether every graph is in the answer set. The
-  site's $d_G(n)$ and Axenovich and Clemen's $d(n,F)$ are the paper's
-  $d(n,F)$, and Axenovich and Clemen's completely balanced
+  e$, and Problem 1 asks whether every graph is in the answer set.
+  erdosproblems.com's $d_G(n)$ and Axenovich and Clemen's $d(n,F)$ are the
+  paper's $d(n,F)$, and Axenovich and Clemen's completely balanced
   $(\ell,\lfloor(n-1)/\ell\rfloor)$-colorings are the paper's colorings.
   Problem 5 is the variant with one more color than $F$ has edges, their
   Question 1.5.
@@ -314,10 +314,10 @@ in the problem's answer set, and names $K_4$, $C_6$ and $2K_3$
 as "the simplest candidates for counterexamples to Problem 1", the
 undecided question being whether "every $t$-regular 6-coloring of
 $K_{6t+1}$ contains them as rainbow subgraphs (here $t$ has to be even)".
-Theorem 2 (p. 82, PDF p. 2) gives the exact value of the site's
+Theorem 2 (p. 82, PDF p. 2) gives the exact value of erdosproblems.com's
 $d_{K_3}(n)$, $d(n,K_3)=2\lfloor(n-2)/8\rfloor+1$. Theorem 3 (p. 83, PDF
 p. 3), "$\lfloor n/6\rfloor\le d(n,C_4)\le(1/4-c)n$ for some positive
-constant $c$", is the site's displayed bound for the quantitative
+constant $c$", is erdosproblems.com's displayed bound for the quantitative
 version. Proposition 1 (p. 83) gives $d(n,F)\le e-1$ for a tree and
 $d(n,F)\le2e-2$ for a forest with $e$ edges, which puts every forest in
 the answer set by the inference recorded on its page; the paper's summary

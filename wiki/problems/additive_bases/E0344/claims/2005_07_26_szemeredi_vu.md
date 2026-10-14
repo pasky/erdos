@@ -5,7 +5,7 @@ desc: |
   Szemerédi and Vu (Ann. of Math. 2006 and J. Amer. Math. Soc. 2006) prove that
   for an absolute constant $c$, every increasing sequence with at least
   $c\sqrt n$ terms up to $n$ is subcomplete. The result is refereed and accepted
-  by the site.
+  by erdosproblems.com.
 authors:
 - E. Szemeredi
 - V. Vu
@@ -81,9 +81,9 @@ progression, which is the absolute-constant reading of the problem. It was
 not built or audited by this corpus, so no `formalized` evidence is listed.
 
 **Acceptance.** Refereed: the Annals of Mathematics and the Journal of the
-American Mathematical Society. Reviewed: the site's curator, T. F. Bloom,
-credits the resolution to the JAMS paper of Szemerédi and Vu (page last edited
-28 December 2025, accessed 2026-10-07) and labeled Problem 344 proved at
+American Mathematical Society. Reviewed: the erdosproblems.com curator, T. F.
+Bloom, credits the resolution to the JAMS paper of Szemerédi and Vu (page last
+edited 28 December 2025, accessed 2026-10-07) and labeled Problem 344 proved at
 erdosproblems.com. The community database lists the problem as proved. The
 thread carries no comments and no dispute. The library has no card for either
 paper, and the citations above are the journals' records. Nothing here was

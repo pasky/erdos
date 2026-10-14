@@ -41,8 +41,8 @@ record that this settles the case $h=2$, with $f(2)=4$ for the largest
 restricted order of a basis of order $2$. The theorem extends Kelly's bound
 $4$ for classical bases of order $2$, recorded at
 [[problems/additive_bases/E0338/claims/1957_04_01_kelly|Kelly 1957]], to all
-asymptotic bases of order $2$; the site's remarks state the asymptotic bound
-and credit it to Kelly.
+asymptotic bases of order $2$; the erdosproblems.com remarks state the
+asymptotic bound and credit it to Kelly.
 
 **Covers.** Asymptotic bases of order $2$. For them the statement's first
 question is settled, since a restricted order always exists and no further
@@ -54,8 +54,8 @@ covered for bases of order $3$ or more, nor for the statement's third
 question, the conditions under which the restricted order equals the order.
 
 **Acceptance.** The `refereed` evidence is the journal publication cited
-above, in the Ramanujan Journal. The site labeled the problem OPEN, so its
-remarks credit the paper without settling the problem and no `reviewed`
+above, in the Ramanujan Journal. Bloom's catalog labeled the problem OPEN, so
+its remarks credit the paper without settling the problem and no `reviewed`
 evidence is listed. The publication record dates the issue to March 2005 and
 gives no finer date, so the page is dated to the first day of that month.
 

@@ -67,8 +67,8 @@ None.
 
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]:
   assertion 2, read with the integer part, is the lower bound
-  $\ell_m(n)\ge[m(n-1)/2]+1$ in the site's notation for the edge-disjoint
-  reading. At the problem's parameters, $N$ copies with $1+(m-1)N$
+  $\ell_m(n)\ge[m(n-1)/2]+1$ in the erdosproblems.com notation for the
+  edge-disjoint reading. At the problem's parameters, $N$ copies with $1+(m-1)N$
   vertices, it gives $\ell_m\ge\binom m2N+1$, the problem's edge count, the
   same bound the extremal example $K_1+NK_{m-1}$ gives (an arithmetic check
   made here). The paper asserts the construction without proof; Mader's

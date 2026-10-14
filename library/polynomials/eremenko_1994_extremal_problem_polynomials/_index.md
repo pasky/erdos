@@ -90,8 +90,8 @@ through the paper's translation remark, gives
 $\max_{E_f}|f'|\le2^{(1/n)-1}n^2=(\tfrac12+o(1))n^2$ for monic $f$ of
 degree $n$ with $E_f$ connected, attained by $f_n$, which answers yes the
 problem page's modified Statement, whose monic hypothesis is the paper's
-normalization (1); the site's wording, which puts no normalization on the
-polynomial, is not what the theorem addresses. The value $f_n'(0)$ also
+normalization (1); the erdosproblems.com wording, which puts no normalization on
+the polynomial, is not what the theorem addresses. The value $f_n'(0)$ also
 shows that the exact bound $\tfrac12n^2$ fails for every $n$.
 
 No file of this source is held: no license on record permits its redistribution,

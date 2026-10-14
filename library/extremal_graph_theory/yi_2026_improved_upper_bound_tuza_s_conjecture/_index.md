@@ -117,10 +117,10 @@ independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0167/_index|#167]]: Corollary 1
 (p. 3, page image) is a claimed improvement of the general constant of the
-site's question from Haxell's $\frac{66}{23}$ to $\frac{63}{22}$, a preprint
-result recorded with that qualification; p. 1 reports Haxell's bound and
-the sketched $\frac{1+\sqrt{481}}8$; p. 4 states the
-route's limit $\frac{54}{19}$ and the AI disclosure the page quotes.
+erdosproblems.com question from Haxell's $\frac{66}{23}$ to $\frac{63}{22}$, a
+preprint result recorded with that qualification; p. 1 reports Haxell's bound
+and the sketched $\frac{1+\sqrt{481}}8$; p. 4 states the route's limit
+$\frac{54}{19}$ and the AI disclosure the page quotes.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

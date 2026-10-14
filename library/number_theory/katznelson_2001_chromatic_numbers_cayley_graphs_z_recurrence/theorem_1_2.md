@@ -42,10 +42,10 @@ $\rho$ there exist $\alpha\in\mathbb T$ such that $\|\lambda\alpha\|>
 set $A(\Lambda)=\{\alpha:\exists\varepsilon$ such that for all $\lambda\in
 \Lambda$ $\|\lambda\alpha\|>\varepsilon\}$ has Hausdorff dimension 1."
 
-In the site's notation for Problem 464, with $A=\{n_k\}$ and $n_{k+1}\ge
-(1+\epsilon)n_k$, the theorem applies with $\rho=1+\epsilon$ and gives
-$\theta=\alpha$ with $\inf_k\|\theta n_k\|\ge\varepsilon(1+\epsilon)>0$, so
-the fractional parts $\{\theta n_k\}$ avoid the interval
+In the erdosproblems.com notation for Problem 464, with $A=\{n_k\}$ and
+$n_{k+1}\ge (1+\epsilon)n_k$, the theorem applies with $\rho=1+\epsilon$ and
+gives $\theta=\alpha$ with $\inf_k\|\theta n_k\|\ge\varepsilon(1+\epsilon)>0$,
+so the fractional parts $\{\theta n_k\}$ avoid the interval
 $(-\varepsilon,\varepsilon)$ modulo $1$ and are not dense modulo $1$.
 Footnote 2 makes this separation at least $\epsilon^2/\log^2(1/\epsilon)$
 for small $\epsilon$ (the printed bound carries no constant). The theorem
@@ -127,7 +127,7 @@ theorem on the page (Pollington's paper, by contrast, cites Eggleston).
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: an answer to the corrected
   formulation (fractional parts of $\theta n_k$ not dense modulo $1$) with
   the paper's own quantitative bound, footnote 2, the "Katznelson" step in
-  the site's list of improvements between de Mathan--Pollington and
+  the erdosproblems.com list of improvements between de Mathan--Pollington and
   Akhunzhanov--Moshchevitin; the irrationality clause follows from Claim 2
   by the authored line above, not from Theorem 1.2 itself; p. 212 attests
   the original solutions and the 1975 chapter.

@@ -52,8 +52,8 @@ Oxford Ser. (2) 12 (1961), 313–320, carded at
 [[../library/set_systems/erdos_1961_intersection_theorems_systems_finite_sets/_index|Intersection theorems for systems of finite sets]].
 Erdős's 1965 paper quotes this case of the problem as its equation (3), and
 Huang, Loh and Sudakov note that the case of two disjoint edges is equivalent to
-the Erdős–Ko–Rado theorem. The site's commentary attaches the theorem to $r=2$
-in a parenthesis; the theorem gives the case $k=2$ for every $r$.
+the Erdős–Ko–Rado theorem. The erdosproblems.com commentary attaches the theorem
+to $r=2$ in a parenthesis; the theorem gives the case $k=2$ for every $r$.
 
 **Covers.** The case $k=2$ for every $r\ge3$ and every $n\ge2r$, the whole of
 the modified Statement at $k=2$. It says nothing about $k\ge3$.
@@ -62,6 +62,7 @@ the modified Statement at $k=2$. It says nothing about $k\ge3$.
 
 **Acceptance.** Refereed: the paper appeared in the Quarterly Journal of
 Mathematics, Oxford Second Series, in 1961 (volume 12, issue 1). The record
-gives only the year, so the page is dated to its first day. The site labeled the
-problem FALSIFIABLE, an open label, so its commentary is not acceptance and no
-`reviewed` is listed. Nothing here rests on this project's own review.
+gives only the year, so the page is dated to its first day. Bloom's catalog
+labeled the problem FALSIFIABLE, an open label, so its commentary is not
+acceptance and no `reviewed` is listed. Nothing here rests on this project's own
+review.

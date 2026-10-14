@@ -45,30 +45,30 @@ $$
 
 for all $t,r$ with $r>1$?
 
-**Notes.** The site's wording quantifies over every $t$ and $r$ and fails at
-$r=1$: the forbidden graph $K_t(1)$ is a single edge, so
+**Notes.** The erdosproblems.com wording quantifies over every $t$ and $r$ and
+fails at $r=1$: the forbidden graph $K_t(1)$ is a single edge, so
 $\mathrm{ex}_t(n,K_t(1))=0$, while the right side $n^{t-1-o(1)}$ is
 positive for every $t$. For each $t$ the failure lies at the smallest value
-of $r$, and the site's wording gives $r$ no range, so it is a boundary
-failure. The change inserts the words "with $r>1$" after "for all $t,r$";
-nothing else changes. The evidence is the poser's own statement of the bound
-the question asks about: Theorem 1 of [Er64f] (p. 185), "Let
-$n>n_0(r,l)$, $l>1$", with $r$ the uniformity and $l$ the class size, so
-its $l>1$ is the site's $r>1$, and the question asks whether the exponent of
-that theorem is sharp. The booklet item [Va99] 3.65 that the site cites asks
+of $r$, and the erdosproblems.com wording gives $r$ no range, so it is a
+boundary failure. The change inserts the words "with $r>1$" after "for all
+$t,r$"; nothing else changes. The evidence is the poser's own statement of the
+bound the question asks about: Theorem 1 of [Er64f] (p. 185), "Let $n>n_0(r,l)$,
+$l>1$", with $r$ the uniformity and $l$ the class size, so its $l>1$ is
+erdosproblems.com's $r>1$, and the question asks whether the exponent of that
+theorem is sharp. The booklet item [Va99] 3.65 that erdosproblems.com cites asks
 about "the 1962 bound $t-\frac1{r^{t-1}}$ of Erdős" without a range, so the
-defect is the site's and the booklet's, not Erdős's. The site's commentary,
-which calls the exponent known for $t=2$ and $2\le r\le3$, and the
-formal-conjectures statement, which asks the question for $t,r\ge2$ and
-counts with the site, agree with the change. The change leaves $t$
-unrestricted; for $t=1$ and $r>1$ the inequality holds trivially, since
-$\mathrm{ex}_1(n,K_1(r))=r-1\ge1$. The form rests on these sources alone.
-No result concerns the site's wording at $r=1$, and the modified Statement
-is open.
+defect is erdosproblems.com's and the booklet's, not Erdős's. The
+erdosproblems.com commentary, which calls the exponent known for $t=2$ and
+$2\le r\le3$, and the formal-conjectures statement, which asks the question for
+$t,r\ge2$ and counts with erdosproblems.com, agree with the change. The change
+leaves $t$ unrestricted; for $t=1$ and $r>1$ the inequality holds trivially,
+since $\mathrm{ex}_1(n,K_1(r))=r-1\ge1$. The form rests on these sources alone.
+No result concerns the erdosproblems.com wording at $r=1$, and the modified
+Statement is open.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 23
-January 2026). The bounds the site attributes to Erdős
-are Theorem 1 of [Er64f]
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 23 January 2026). The bounds erdosproblems.com attributes to Erdős are
+Theorem 1 of [Er64f]
 ([[../library/extremal_graph_theory/erdos_1964_extremal_problems_graphs_generalized_graphs/theorem_1|result page]])
 with the letters exchanged: the paper writes $r$ for the uniformity and $l$
 for the class size and states, for $n>n_0(r,l)$ and $l>1$ (proving only the
@@ -76,9 +76,9 @@ upper bound; the lower bound has a method pointer, pp. 185 and 189),
 $n^{r-C/l^{r-1}}<f(n;K^{(r)}(l,\dots,l))\le n^{r-1/l^{r-1}}$ "for
 sufficiently large $C$" independent of $n$, $r$, $l$, where
 $f(n;K^{(r)}(l,\dots,l))$ is the smallest number of $r$-tuples forcing the
-complete $r$-partite $r$-graph, one more than the site's $\mathrm{ex}$. In
-the site's letters ($t$ the uniformity, $r$ the class size) this is the
-commentary's $n^{t-O(r^{1-t})}\le\mathrm{ex}_t(n,K_t(r))\ll n^{t-r^{1-t}}$,
+complete $r$-partite $r$-graph, one more than erdosproblems.com's $\mathrm{ex}$.
+In erdosproblems.com's letters ($t$ the uniformity, $r$ the class size) this is
+the commentary's $n^{t-O(r^{1-t})}\le\mathrm{ex}_t(n,K_t(r))\ll n^{t-r^{1-t}}$,
 and the question asks whether the constant $C$ in the lower exponent can be
 replaced by $1+o(1)$, that is, whether the upper bound's exponent is sharp.
 The 1999 booklet [Va99] asks the same in the $t$-partite normalization
@@ -88,8 +88,8 @@ $t$-partite and unrestricted Turán numbers differ by at most a constant
 factor for fixed $t$, so the exponent questions agree (an observation made
 here). The literature calls the balanced case $r=2$ the Erdős box problem.
 
-**Status.** Open. The site records the exponent as known only for $t=2$ and
-$2\le r\le3$. Every source on this page agrees, except a 2026 preprint that
+**Status.** Open. erdosproblems.com records the exponent as known only for $t=2$
+and $2\le r\le3$. Every source on this page agrees, except a 2026 preprint that
 claims the case $(t,r)=(3,2)$ (below). For graphs ($t=2$), the
 Kővári--Sós--Turán exponent $2-1/r$ is attained for $r=2$ and $r=3$. This is the
 subject of [[problems/extremal_graph_theory/E0714/_index|Problem 714]]. These
@@ -101,9 +101,9 @@ $r=3$ and $r=2$, and
 [[problems/extremal_graph_theory/E0714/claims/1966_02_01_erdos_renyi_sos|Erdős, Rényi and Sós 1966]]
 and
 [[problems/extremal_graph_theory/E0714/claims/1954_01_01_kovari_sos_turan|Kővári, Sós and Turán 1954]]
-for $r=2$. They have no claim page here, because the site routes the case $t=2$
-to Problem 714 and credits no source for it on this page. As partial results,
-they leave this problem open.
+for $r=2$. They have no claim page here, because erdosproblems.com routes the
+case $t=2$ to Problem 714 and credits no source for it on this page. As partial
+results, they leave this problem open.
 
 For $t\ge3$, the preprint [Me26] claims the first pair. Its Theorem 1.1 and
 Corollary 1.2 give, for every $q=2^m$, a box-free tripartite $3$-graph with
@@ -132,8 +132,8 @@ certificate of openness.
 
 **Source.** [erdosproblems.com/1158](https://www.erdosproblems.com/1158),
 accessed 2026-09-18: the problem page (OPEN, with
-the site's note that no finite computation can settle it; last edited 23
-January 2026; source key [Va99, 3.65]; commentary citing [Er64f] and routing
+the erdosproblems.com note that no finite computation can settle it; last edited
+23 January 2026; source key [Va99, 3.65]; commentary citing [Er64f] and routing
 the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #1158, https://www.erdosproblems.com/1158, accessed 2026-09-18.
@@ -156,14 +156,15 @@ the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
   and the Erdős box problem. Discrete Analysis 2021:17, 8 pp.,
   doi:10.19086/da.28336 (published 28 September 2021; the journal
   typesetting is posted to arXiv as arXiv:2011.09024v2); Theorem 2
-  and Corollary 1, p. 3. Not cited by the site. Library home:
+  and Corollary 1, p. 3. Not cited by erdosproblems.com. Library home:
   [[../library/extremal_graph_theory/conlon_2021_random_multilinear_maps_erdos_box_problem/_index|conlon_2021_random_multilinear_maps_erdos_box_problem]].
 - [Go23] Gordeev, A., Combinatorial Nullstellensatz and Turán numbers of
   complete $r$-partite $r$-uniform hypergraphs. arXiv:2307.04447v1 (10 July
   2023); Discrete Math. 347 (2024), no. 7, 114037,
   doi:10.1016/j.disc.2024.114037, with a corrigendum, Discrete Math. 348
   (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records
-  accessed 2026-09-18); Theorem 3.2, p. 2. Not cited by the site. Library home:
+  accessed 2026-09-18); Theorem 3.2, p. 2. Not cited by erdosproblems.com.
+  Library home:
   [[../library/extremal_graph_theory/gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r/_index|gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r]].
 - [KKM02] Katz, N. H., Krop, E. and Maggioni, M., Remarks on the box
   problem. Math. Res. Lett. 9 (2002), 515--519. Quoted from
@@ -172,7 +173,7 @@ the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
   $11/4$. arXiv:2609.22381v2 (7 October 2026, 5 pages; v1 18 September 2026,
   7 pages); Theorem 1.1 and Corollary 1.2, p. 1; Theorem 2.1, p. 2;
   Construction 3.1 and Lemma 3.2, p. 3; Corollary 4.1, p. 4. A preprint, not
-  cited by the site and not held in the library; its claim page is
+  cited by erdosproblems.com and not held in the library; its claim page is
   [[problems/extremal_graph_theory/E1158/claims/2026_09_18_menezes|2026_09_18_menezes]].
 - [PoZa21] Pohoata, C. and Zakharov, D., Norm hypergraphs. arXiv:2101.00715
   (3 January 2021; abstract read); [Mu26] Mubayi, D., Hypergraphs
@@ -195,17 +196,17 @@ attribute: `answer(sorry)` holds exactly when for all $t,r\ge2$ and every
 $\varepsilon>0$, for all large $n$, `Hypergraph.partiteExtremalNumber n t r` is
 at least $n^{t-r^{1-t}-\varepsilon}$; its docstring asks the question for
 $t,r\ge2$ and says that the restriction $r\ge2$ excludes forbidding a single
-edge. The site's indicator and the community database record a formalized
-statement since 2026-10-07 (on 2026-09-18 both recorded none), and the
-database records the problem open (last update 23 January 2026), with no formal
-proof and OEIS "possible".
+edge. The erdosproblems.com indicator and the community database record a
+formalized statement since 2026-10-07 (on 2026-09-18 both recorded none), and
+the database records the problem open (last update 23 January 2026), with no
+formal proof and OEIS "possible".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; OPEN, with the site's note that no finite computation can settle it;
-last edited 23 January 2026. The site's commentary, in this page's words:
-it credits [Er64f] with the bounds
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it; last edited 23 January 2026. The erdosproblems.com commentary, in
+this page's words: it credits [Er64f] with the bounds
 $n^{t-O(r^{1-t})}\le\mathrm{ex}_t(n,K_t(r))\ll n^{t-r^{1-t}}$, says the
 exponent is known only for $t=2$ and $2\le r\le3$, and routes the case
 $t=2$ to Problem 714. The thread holds one comment (23:17 on 4 September
@@ -217,7 +218,7 @@ search was made with help from a large language model and that the cited
 statements were read in the original papers. It is a declared AI-assisted
 forum post, recorded with provenance and not as status; its identifiers
 agree with the arXiv and Crossref records of 2026-09-18 and with what is
-compiled below. The proof-claim tab is empty. The site's
+compiled below. The proof-claim tab is empty. The erdosproblems.com
 indicator recorded no formalized statement on 2026-09-18 and a formalized
 statement on 2026-10-07 (Formalization above).
 
@@ -233,8 +234,8 @@ intersecting subsets) and says of the lower bound only
 that "We only prove the upper bound and will discuss the lower bound later"
 (p. 185) and "The proof of the lower bound of (5) and (18) uses the same
 methods combined with the methods of [4]" (p. 189), [4] being Erdős and
-Rényi's 1960 paper on random graphs; so the site's attribution of both
-bounds to Erdős rests on a full proof for the upper bound and a method
+Rényi's 1960 paper on random graphs; so the erdosproblems.com attribution of
+both bounds to Erdős rests on a full proof for the upper bound and a method
 pointer for the lower bound. The closing remark
 (p. 189): "It is possible that
 $\lim_{n=\infty}f(n;K^{(r)}(l,\dots,l))/n^{r-(1/l^{r-1})}$ exists and is
@@ -248,14 +249,14 @@ for structure and not checked.
 **The graph case $t=2$.** The Kővári--Sós--Turán exponent $2-1/r$ is
 attained for $r=2$ (Klein's projective-plane construction, recalled in
 [CPZ21], p. 2, and in Erdős's display (2)) and for $r=3$ (Brown's
-construction, named on the site's Problem 714 page); [CPZ21] (p. 1) records
-that for $K_{s_1,s_2}$ the upper bound $O(n^{2-1/s_1})$ is matched "when
+construction, named on erdosproblems.com's Problem 714 page); [CPZ21] (p. 1)
+records that for $K_{s_1,s_2}$ the upper bound $O(n^{2-1/s_1})$ is matched "when
 $s_2>(s_1-1)!$" by Alon, Kollár, Rónyai and Szabó. The balanced case $r\ge4$
 is open, as [[problems/extremal_graph_theory/E0714/_index|Problem 714]] compiles.
 
 **The box problem ($r=2$, $t\ge3$).** Erdős's upper bound is
 $\mathrm{ex}_t(n,K_t(2))=O(n^{t-1/2^{t-1}})$ ([CPZ21], display (2)). Lower
-bounds, in the site's letters:
+bounds, in erdosproblems.com's letters:
 
 - The deletion method: $\Omega(n^{t-t/(2^t-1)})$ ([CPZ21], display (3), "a
   simple, but longstanding, lower bound").
@@ -265,8 +266,8 @@ bounds, in the site's letters:
   the method fails for a positive proportion of $t$.
 - [[../library/extremal_graph_theory/conlon_2021_random_multilinear_maps_erdos_box_problem/theorem_2|Theorem 2 of [CPZ21]]]
   (p. 3): for positive integers $r,s$ with $d(s-1)<(2^d-1)r$,
-  $\mathrm{ex}_d(n,K^{(d)}_{2,\dots,2})=\Omega(n^{d-r/s})$ (their $d$ is the
-  site's $t$), and
+  $\mathrm{ex}_d(n,K^{(d)}_{2,\dots,2})=\Omega(n^{d-r/s})$ (their $d$ is
+  erdosproblems.com's $t$), and
   [[../library/extremal_graph_theory/conlon_2021_random_multilinear_maps_erdos_box_problem/corollary_1|Corollary 1]]:
   $\mathrm{ex}_d(n,K^{(d)}_{2,\dots,2})=\Omega(n^{d-\lceil(2^d-1)/d\rceil^{-1}})$
   for every $d\ge2$, which the paper's table shows recovers $n^{3/2}$ for
@@ -333,19 +334,19 @@ version of the Kővári--T. Sós--Turán Theorem. Let $\mathrm{ex}_t(n,r)$ denot
 the maximum number of edges in a $t$-partite $t$-uniform hypergraph that
 does not contain a complete $t$-partite subhypergraph with $r$ vertices in
 each class. What is $\lim_{n\to\infty}\frac{\log\mathrm{ex}_t(n,r)}{\log n}$?
-Is the 1962 bound $t-\frac1{r^{t-1}}$ of Erdős best possible?" The site's
-letters follow the booklet's; the year 1962 is the booklet's and the
-paper's volume is dated 1964 (a Formulation note above).
+Is the 1962 bound $t-\frac1{r^{t-1}}$ of Erdős best possible?"
+erdosproblems.com's letters follow the booklet's; the year 1962 is the booklet's
+and the paper's volume is dated 1964 (a Formulation note above).
 
 **Search scope.** Apart from [Me26], found by an arXiv search, none of the
 routes below found a construction attaining the exponent $t-r^{1-t}$ for any
 $t\ge3$, a disproof, or a proof claim.
 
-- The site: problem page and discussion thread, as accessed 2026-09-18 and
-  again on 2026-10-13 (the page last edited 23 January 2026, one comment), and
-  the proof-claim tab (no proof claim); the formal-conjectures directory listing
-  and the community database, read 2026-09-18 and 2026-10-07 (the Formalization
-  paragraph records what each recorded on each date).
+- erdosproblems.com: problem page and discussion thread, as accessed 2026-09-18
+  and again on 2026-10-13 (the page last edited 23 January 2026, one comment),
+  and the proof-claim tab (no proof claim); the formal-conjectures directory
+  listing and the community database, read 2026-09-18 and 2026-10-07 (the
+  Formalization paragraph records what each recorded on each date).
 - The primary sources, to the depth stated above: [Er64f] pp. 183--190 (all
   eight pages), [Va99] item 3.65, [CPZ21] pp. 1--3, [Go23] pp. 1--3 and
   [Me26] in full (both versions).
@@ -387,7 +388,7 @@ here by the author-recorded reading only, with no independent review.
 
 - [[../library/extremal_graph_theory/erdos_1964_extremal_problems_graphs_generalized_graphs/theorem_1|Erdős, Theorem 1]]
   (1964): $n^{t-C/r^{t-1}}<\mathrm{ex}_t(n,K_t(r))+1\le n^{t-1/r^{t-1}}$ in
-  the site's letters, the upper bound proved, the lower bound sketched.
+  erdosproblems.com's letters, the upper bound proved, the lower bound sketched.
 - [[../library/extremal_graph_theory/conlon_2021_random_multilinear_maps_erdos_box_problem/corollary_1|Conlon--Pohoata--Zakharov, Corollary 1]]
   (2021, refereed): $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/\lceil(2^t-1)/t\rceil})$,
   the best general lower bound recorded here for the box problem, from

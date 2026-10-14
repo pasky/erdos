@@ -53,8 +53,8 @@ c_k=2k+1
 $$
 
 for every $k\geq1$, the case $k=1$ recovering the classical value
-$c_1=3$. The authors' summary on the site's proof-claim tab outlines the
-argument: an induction on the number of edges of $H$, lemmas under which a
+$c_1=3$. The authors' summary on the erdosproblems.com proof-claim tab outlines
+the argument: an induction on the number of edges of $H$, lemmas under which a
 red path long enough inside a vertex's first or second red neighborhood
 forces a red $C_{2k+1}$, the selection of one vertex, a case analysis, and
 a final step that builds $H$ in blue when no red cycle has appeared.
@@ -74,7 +74,7 @@ AI used:
 > well chosen vertex, some case analysis and a conclusion by building a blue
 > copy of $H$ in a few steps (if no red $C_{2k+1}$ appears).
 
-Posted to the site's forum by Stijn Cambie on 10 June 2026:
+Posted to the erdosproblems.com forum by Stijn Cambie on 10 June 2026:
 
 > The solution of this problem is now available at [CF26].
 
@@ -100,22 +100,23 @@ bound); the thesis is not held in this corpus, and its page records the
 result second-hand. The one-line endpoint deduction is made on the problem
 page and on the library's result page.
 
-**Standing.** Claimed. The first author announced the preprint in the site's
-thread on 10 June 2026 as the problem's solution, and the proof claim of 25
-July 2026 restates the argument; the tab states that listing a claim does not
-mean that anyone associated with the site has examined the proof. On 27 July
-2026 a comment on the proof claim linked an automated audit, by the AI model
-the commenter names as GPT-5.6 Sol, alleging five repairable defects in the v1
-proof, among them a mismatch between the auxiliary graph and the graph
-analyzed in the second-neighborhood step and an induction applied to a
-subgraph that may contain isolated vertices; the commenter wrote that the
-allegations had not been checked by hand. Searches of 9 September 2026 found
-no reply, no repair and no later arXiv version; the arXiv record listed only
-v1 on 2026-10-07. On 9 September 2026 the proof claim had two comments,
+**Standing.** Claimed. The first author announced the preprint in the
+erdosproblems.com thread on 10 June 2026 as the problem's solution, and the
+proof claim of 25 July 2026 restates the argument; the tab states that listing a
+claim does not mean that anyone associated with erdosproblems.com has examined
+the proof. On 27 July 2026 a comment on the proof claim linked an automated
+audit, by the AI model the commenter names as GPT-5.6 Sol, alleging five
+repairable defects in the v1 proof, among them a mismatch between the auxiliary
+graph and the graph analyzed in the second-neighborhood step and an induction
+applied to a subgraph that may contain isolated vertices; the commenter wrote
+that the allegations had not been checked by hand. Searches of 9 September 2026
+found no reply, no repair and no later arXiv version; the arXiv record listed
+only v1 on 2026-10-07. On 9 September 2026 the proof claim had two comments,
 both of 27 July 2026: the first author's remark that this may be the only full
-claim made without AI since the site's feature changed, and the comment
+claim made without AI since erdosproblems.com's feature changed, and the comment
 linking the audit. No journal version was found (Crossref and OpenAlex,
-2026-09-09). The site labeled the problem OPEN (page last edited 18 January
+2026-09-09). Bloom's catalog labeled the problem OPEN (page last edited 18
+January
 2026) and the community database records it open. The dispute is unresolved
 and unverified either way; it is neither an acceptance nor a refutation, and
 the proof was not reconstructed or reviewed here, so no evidence kind is

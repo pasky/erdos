@@ -5,7 +5,8 @@ desc: |
   Erdős and Simonovits's bounds, reported in 1981 without proof, for the
   largest number of coprime pairs of consecutive divisors of a squarefree n
   with k prime factors, and the subset-sum reformulation g(k) by which they
-  were proved; the site's source for the growth question of Problem 1100.
+  were proved; the erdosproblems.com source for the growth question of
+  Problem 1100.
 created: 2026-10-08T15:50:52Z
 updated: 2026-10-08T15:50:52Z
 ---
@@ -15,8 +16,8 @@ updated: 2026-10-08T15:50:52Z
 ## Statement
 
 **Setting (p. 173).** Let $1=d_1<\cdots<d_{\tau(n)}=n$ be the divisors of
-$n$. The scan prints $\tau_r(n)$ (the site writes $\tau_\perp(n)$) for the
-number of indices $i$ with $(d_i,d_{i+1})=1$, and $v(n)$ for the number of
+$n$. The scan prints $\tau_r(n)$ (erdosproblems.com writes $\tau_\perp(n)$) for
+the number of indices $i$ with $(d_i,d_{i+1})=1$, and $v(n)$ for the number of
 distinct prime factors of $n$. Erdős and Hall studied $\tau_\perp(n)$ and
 obtained asymptotic inequalities for it (not stated in the paper). One of
 their questions: for squarefree $n$ with $v(n)=k$, how large is
@@ -62,10 +63,11 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/divisors/E1100/_index|Problem 1100]]: one of the site's
-  sources ([Er81h]). The problem's $g(k)=\max_{\omega(n)=k}\tau_\perp(n)$ over
-  squarefree $n$ is the quantity bounded in (1.6), and its last question,
-  to determine the growth of $g(k)$, is the question this page records with
-  Erdős's suggestion that $g(k)$ might be determined explicitly. The problem's
-  first two questions, on $\tau_\perp(n)/\omega(n)$ for almost all $n$ and on
+- [[../wiki/problems/divisors/E1100/_index|Problem 1100]]: one of the
+  erdosproblems.com sources ([Er81h]). The problem's
+  $g(k)=\max_{\omega(n)=k}\tau_\perp(n)$ over squarefree $n$ is the quantity
+  bounded in (1.6), and its last question, to determine the growth of $g(k)$, is
+  the question this page records with Erdős's suggestion that $g(k)$ might be
+  determined explicitly. The problem's first two questions, on
+  $\tau_\perp(n)/\omega(n)$ for almost all $n$ and on
   $\tau_\perp(n)<\exp((\log n)^{o(1)})$, are not stated in this paper.

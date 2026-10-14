@@ -64,4 +64,5 @@ Section 8 recomputed to $x=10000$).
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0291/_index|#291]]: the conjecture is the
 quantitative form of the open half (infinitely many $n$ with $(a_n,L_n)=1$,
-of density zero) and the source of the site's heuristic $\asymp x/\log x$.
+of density zero) and the source of erdosproblems.com's heuristic
+$\asymp x/\log x$.

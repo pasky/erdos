@@ -52,9 +52,9 @@ $f(n)\ge\sqrt{n-1}$ the order of growth of $f(n)$ is $\sqrt n$; the
 Erdős--Pach question whether $f(n)/\sqrt n\to\infty$ is answered no. The
 paper presents the theorem as extending Hanson and Seyffarth's construction,
 which covers the sequence $n=m^2+5m+2$, to every $n$. The constant $c$ is
-not made explicit, and the site's commentary records the paper as giving an
-alternative construction of the symmetric complete sum-free sets behind
-Hanson and Seyffarth's bound (read 2026-10-07). The sequence case is
+not made explicit, and the erdosproblems.com commentary records the paper as
+giving an alternative construction of the symmetric complete sum-free sets
+behind Hanson and Seyffarth's bound (read 2026-10-07). The sequence case is
 [[problems/extremal_graph_theory/E0133/claims/1984_01_01_hanson_seyffarth|Hanson and Seyffarth's]]
 and the sharper constant for all large $n$ is
 [[problems/extremal_graph_theory/E0133/claims/1994_01_01_furedi_seress|Füredi and Seress's]];
@@ -63,10 +63,10 @@ this claim uses neither.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication in the Israel Journal of Mathematics, cited
-with its venue above. The site's curator, Thomas Bloom, marked the problem
-DISPROVED. In the commentary the curator credits the paper, under the reference
-[HaLe18], with an alternative construction of the complete sum-free sets behind
-the bound (read 2026-10-07). That credit is the `reviewed` evidence, and Bloom
-took no part in the paper. No independent review of the argument was made here.
-The theorem and the deduction to $f(n)$ were read, but no proof step of Theorem
-1.5 was checked.
+with its venue above. The erdosproblems.com curator, Thomas Bloom, marked the
+problem DISPROVED. In the commentary the curator credits the paper, under the
+reference [HaLe18], with an alternative construction of the complete sum-free
+sets behind the bound (read 2026-10-07). That credit is the `reviewed` evidence,
+and Bloom took no part in the paper. No independent review of the argument was
+made here. The theorem and the deduction to $f(n)$ were read, but no proof step
+of Theorem 1.5 was checked.

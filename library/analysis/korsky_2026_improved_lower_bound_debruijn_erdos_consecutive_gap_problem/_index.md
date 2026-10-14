@@ -75,8 +75,8 @@ does not address the growth of $r(\mu_r-1)$ as $r\to\infty$. The author's
 later preprint claims that growth
 ([[analysis/korsky_2026_resolution_debruijn_erdos_consecutive_gap_problem/theorem_1_1|Theorem 1.1 there]],
 claimed and unreviewed) and cites this note as the starting point of that
-work; the site's proof-claim comment by the author says this note involved
-essentially no AI use.
+work; the erdosproblems.com proof-claim comment by the author says this note
+involved essentially no AI use.
 
 **Bears on.** [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: fixed-$r$
 progress on the third constant, $\mu_r\ge1+r/(r^2-1)$ for $r\ge2$ over

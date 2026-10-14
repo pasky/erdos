@@ -45,15 +45,15 @@ length of the modified Statement of
 record. The claim is therefore a reported result: a string of length $16$
 over four characters with no abelian square, which answers the modified
 Statement in the negative at $k=4$. Neither paper gives the construction, a
-reference or an argument, and the site's curator records the same gap. Such
-strings exist: the site exhibits the $16$-character string
+reference or an argument, and the erdosproblems.com curator records the same
+gap. Such strings exist: erdosproblems.com exhibits the $16$-character string
 $1213121412132124$ with no abelian square, and Keränen's infinite word, the
 [[problems/set_systems/E0231/claims/1992_07_13_keranen|accepted claim]],
 gives them for every $k\geq4$ and every length.
 
 **Standing.** The claim is pending as de Bruijn and Erdős's own result: no
-proof or construction of theirs is published, and the site's credit for the
-disproof goes to Keränen. The problem's standing derives from Keränen's
+proof or construction of theirs is published, and the erdosproblems.com credit
+for the disproof goes to Keränen. The problem's standing derives from Keränen's
 accepted page, not from this one. The journal's record gives only the year, so
 the page is named by the Windsor lecture of 16 November 1957 that the paper
 writes up, the earliest date the paper allows.
@@ -61,13 +61,13 @@ writes up, the earliest date the paper allows.
 **Formalizations.** A Lean 4 file in Boris Alexeev's lean-proofs collection,
 at the revision the formal-conjectures statement file links as the formal
 disproof, states that de Bruijn and Erdős are its informal authors as credited
-by the site, that its formal author is AxiomProver and that Axiom Math
-published it; its theorem `not_erdos_231` negates the site's wording by a
-kernel-checked `decide` on an explicit abelian-square-free string of length
+by erdosproblems.com, that its formal author is AxiomProver and that Axiom Math
+published it; its theorem `not_erdos_231` negates the erdosproblems.com wording
+by a kernel-checked `decide` on an explicit abelian-square-free string of length
 $15$ over four characters, from the source file in Axiom Math's erdos-public
 repository, also linked above at its pinned revision. The file's printed axiom
 list is `propext`, `Classical.choice` and `Quot.sound`. It proves the failure
-of the site's wording at length $2^4-1$, not the claim above: a string of
-length $15$ settles no instance of the modified Statement, and the file says
-nothing about $N(4)$ or about infinite words. Neither copy was built or
-audited here.
+of the erdosproblems.com wording at length $2^4-1$, not the claim above: a
+string of length $15$ settles no instance of the modified Statement, and the
+file says nothing about $N(4)$ or about infinite words. Neither copy was built
+or audited here.

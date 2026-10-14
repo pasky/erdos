@@ -32,14 +32,14 @@ $$
 \alpha_1(G)+\tau_1(G) \leq \frac{n^2}{4}?
 $$
 
-**Status.** PROVED (LEAN), the site's label. The exact finite simple-graph
-inequality follows from Norin–Sun's stronger bipartite-deletion bound. The
-frontmatter standing is derived from the accepted claim page
+**Status.** PROVED (LEAN), the erdosproblems.com label. The exact finite
+simple-graph inequality follows from Norin–Sun's stronger bipartite-deletion
+bound. The frontmatter standing is derived from the accepted claim page
 [[problems/extremal_graph_theory/E0621/claims/2016_02_13_norin_sun|Norin and Sun's theorem]],
-whose acceptance evidence is the site's and the refereed uptake. The public Lean
-proof of their theorem is linked from that page and described below, with its
-provenance. The corpus has not built it, and no refereed publication of the
-proof itself is recorded.
+whose acceptance evidence is erdosproblems.com's and the refereed uptake. The
+public Lean proof of their theorem is linked from that page and described below,
+with its provenance. The corpus has not built it, and no refereed publication of
+the proof itself is recorded.
 
 **Source.** [erdosproblems.com/621](https://www.erdosproblems.com/621), its
 [discussion](https://www.erdosproblems.com/forum/thread/621), and linked
@@ -62,11 +62,11 @@ the Formalization details section below.
 
 ## Current assessment
 
-The site labeled the problem PROVED (LEAN) (accessed 2026-09-05), with a
+Bloom's catalog labeled the problem PROVED (LEAN) (accessed 2026-09-05), with a
 discussion thread carrying the 2025 comment that located the paper and the
-2026 formalization announcement. The site's displayed last-edit date, 14 October
-2025, is not the date of the later formalization announcement. The ordinary
-proof and its essential same-paper deductions are reconstructed in the
+2026 formalization announcement. erdosproblems.com's displayed last-edit date,
+14 October 2025, is not the date of the later formalization announcement. The
+ordinary proof and its essential same-paper deductions are reconstructed in the
 linked source pages.
 
 Published uptake of Norin–Sun's stronger inequality is recorded below.
@@ -191,8 +191,8 @@ In their targets, definitions, imports and pinned configurations, the
 original gist, the annotated solution and the current port contain no
 admission and no custom axiom declaration; the standard-axiom list each
 prints is a source comment, not a reproduced build output. The corpus has
-not built any of the three files or checked their axioms. The site's Lean
-label and the public link acceptance are distinct evidence, and neither is
+not built any of the three files or checked their axioms. The erdosproblems.com
+Lean label and the public link acceptance are distinct evidence, and neither is
 `formalized` evidence for the claim page.
 <!-- BEGIN problem library links -->
 

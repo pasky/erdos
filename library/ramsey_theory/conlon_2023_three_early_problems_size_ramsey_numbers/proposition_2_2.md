@@ -50,6 +50,6 @@ Elementary counting and the first-moment method.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]]: the source, second-hand, of
-  the lower bound $\hat r(K_{n,n})=\Omega(n^22^n)$; the site's explicit
+  the lower bound $\hat r(K_{n,n})=\Omega(n^22^n)$; erdosproblems.com's explicit
   constant $\frac1{60}$ for $n\ge6$ is attributed to Erdős and Rousseau
   and was not verified here.

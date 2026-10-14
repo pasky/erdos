@@ -21,16 +21,16 @@ is some subset of $\lfloor\sqrt n\rfloor$ vertices of $G$ that contains at
 least $\Omega(\sqrt n\log n)$ edges."
 
 The next sentence reads: "This is tight and settles a problem of Erdös [4]",
-where [4] is Erdős's 1979 paper in Congressus Numerantium 23 (the site's
-Er79g). The abstract states the conclusion with a named constant: "There
-exists an absolute constant $c'>0$ so that in every graph on $n$ vertices in
-which any set of $\lfloor\sqrt n\rfloor$ vertices contains at least one edge,
-there is some set of $\lfloor\sqrt n\rfloor$ vertices that contains at least
-$c'\sqrt n\log n$ edges" (p. 1). Logarithms are to the base $2$ (p. 1); the
-proof assumes $n$ large and omits floor and ceiling signs where not crucial
-(p. 5). In Section 3 the paper writes $f(m,n)$ for the largest $f$ such that
-every $n$-vertex graph with $\alpha(G)<m$ has an $m$-set with at least $f$
-edges, and records (p. 7) that Theorem 1.2 with Proposition 3.1 gives
+where [4] is Erdős's 1979 paper in Congressus Numerantium 23
+(erdosproblems.com's Er79g). The abstract states the conclusion with a named
+constant: "There exists an absolute constant $c'>0$ so that in every graph on
+$n$ vertices in which any set of $\lfloor\sqrt n\rfloor$ vertices contains at
+least one edge, there is some set of $\lfloor\sqrt n\rfloor$ vertices that
+contains at least $c'\sqrt n\log n$ edges" (p. 1). Logarithms are to the base
+$2$ (p. 1); the proof assumes $n$ large and omits floor and ceiling signs where
+not crucial (p. 5). In Section 3 the paper writes $f(m,n)$ for the largest $f$
+such that every $n$-vertex graph with $\alpha(G)<m$ has an $m$-set with at least
+$f$ edges, and records (p. 7) that Theorem 1.2 with Proposition 3.1 gives
 $f(m,n)=\Theta(m\log n)$ for $m=\lfloor\sqrt n\rfloor$ (the line prints
 "$\Theta(n\log(en/m))$" before the parenthetical "$(=\Theta(m\log n))$"; the
 first factor $n$ reads as a misprint for $m$, since $m\log(en/m)$ is the
@@ -79,7 +79,8 @@ statement level; the paper's Theorem 1.1 only as its extension. Tightness is
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0801/_index|Problem 801]]: the site's statement with
-  $\lfloor\sqrt n\rfloor$ in place of $n^{1/2}$ and Alon's strict hypothesis
-  $\alpha(G)<\lfloor\sqrt n\rfloor$; the problem page records the rounding
-  difference between the site's hypothesis and the theorem's.
+- [[../wiki/problems/ramsey_theory/E0801/_index|Problem 801]]: the
+  erdosproblems.com statement with $\lfloor\sqrt n\rfloor$ in place of $n^{1/2}$
+  and Alon's strict hypothesis $\alpha(G)<\lfloor\sqrt n\rfloor$; the problem
+  page records the rounding difference between erdosproblems.com's hypothesis
+  and the theorem's.

@@ -51,9 +51,9 @@ degree of points in $F$; "In [9], a graph with $\sigma(G)=k$ is called
 $k$-degenerate"; and Lemma 3.3, for any graph $G$ not consisting entirely
 of isolated points, $\rho(G)<\sigma(G)\le2\rho(G)$. So the conjecture for
 bounded arboricity, for bounded edge density and for bounded degeneracy are
-the same statement up to the constant; the site's Problem 163 states the
-degeneracy form ("every subgraph contains a vertex of degree at most $d$"
-is $\sigma(H)\le d$).
+the same statement up to the constant; erdosproblems.com's Problem 163 states
+the degeneracy form ("every subgraph contains a vertex of degree at most $d$" is
+$\sigma(H)\le d$).
 
 **Source.** S. A. Burr and P. Erdős, *On the magnitude of generalized
 Ramsey numbers for graphs*, Colloq. Math. Soc. János Bolyai 10 (1975),
@@ -86,6 +86,6 @@ elementary and is stated here only to connect the three forms.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0163/_index|Problem 163]]: the origin of the
-  problem; the site's degeneracy wording is the paper's $\sigma$-form, and
-  the paper itself declares the arboricity and edge-density forms
+  problem; erdosproblems.com's degeneracy wording is the paper's $\sigma$-form,
+  and the paper itself declares the arboricity and edge-density forms
   interchangeable.

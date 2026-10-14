@@ -4,17 +4,17 @@ desc: The 4 claim pages of Problem 501, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_theory/E0501/claims
 
 [[problems/set_theory/E0501/_index|..]]
 
-[[problems/set_theory/E0501/claims/1972_01_01_hechler|1972_01_01_hechler]]: The site credits Hechler (Bull. Acad. Polon. Sci., 1972) with a negative
-answer to the first question under CH: a family of countable, null, bounded
-sets with no infinite independent set. CH holds in Gödel's constructible
-universe, so ZFC does not prove the positive answer.
+[[problems/set_theory/E0501/claims/1972_01_01_hechler|1972_01_01_hechler]]: erdosproblems.com credits Hechler (Bull. Acad. Polon. Sci., 1972) with a
+negative answer to the first question under CH: a family of countable, null,
+bounded sets with no infinite independent set. CH holds in Gödel's
+constructible universe, so ZFC does not prove the positive answer.
 
 [[problems/set_theory/E0501/claims/1987_06_01_newelski_pawlikowski_seredynski|1987_06_01_newelski_pawlikowski_seredynski]]: Newelski, Pawlikowski and Seredyński prove that a set mapping on the reals
 whose values are closed sets of measure below one has an infinite free set. In

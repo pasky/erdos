@@ -22,7 +22,7 @@ Commons version or URL
 (https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/1/1/92382/sur-les-distances-des-points-dans-les-ensembles-de-mesure-positive,
 read 2026-10-02), so the term is the Creative Commons Attribution license with
 its version unstated; the site footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the article.
+reserved." speaks for erdosproblems.com, not the article.
 
 The held PDF is a scan of the twelve printed pages 93-104, watermarked "ICM
 Biblioteka Wirtualna Matematyki", with no text layer; PDF page k is printed

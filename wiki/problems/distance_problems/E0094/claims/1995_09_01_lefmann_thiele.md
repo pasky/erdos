@@ -60,16 +60,16 @@ sum equals $n(n-1)$ plus twice the number of triples $(z,x,y)$ of distinct
 points with $|zx|=|zy|$. For a fixed base $\{x,y\}$ every apex $z$ lies on
 the perpendicular bisector of $xy$, a line carrying at most two points of
 $P$, so there are at most $n(n-1)$ such triples and the sum is at most
-$\tfrac34 n^2(n-1)$. The theorem is cited as the site's page records it, for
-sets with no three collinear points, and as the headers of the Lean
+$\tfrac34 n^2(n-1)$. The theorem is cited as the erdosproblems.com page records
+it, for sets with no three collinear points, and as the headers of the Lean
 developments below state it; the library holds no card for the paper.
 
 **Acceptance.** The paper is refereed: Hanno Lefmann and Torsten Thiele, Point
 sets with distinct distances, Combinatorica 15 (1995), no. 3, 379–408. The
-site's curator, Thomas Bloom, marked the problem proved and credits the paper's
-theorem on the problem page. The site's export of 2026-09-04 records the label
-"PROVED (LEAN)". The community database at teorth/erdosproblems records the
-proved status from 2026-01-15.
+erdosproblems.com curator, Thomas Bloom, marked the problem proved and credits
+the paper's theorem on the problem page. The erdosproblems.com export of
+2026-09-04 records the label "PROVED (LEAN)". The community database at
+teorth/erdosproblems records the proved status from 2026-01-15.
 
 Erdős wrote in 1997 that he had conjectured the bound and that Fishburn had
 proved it

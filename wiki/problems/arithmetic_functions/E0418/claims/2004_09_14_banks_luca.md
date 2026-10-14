@@ -41,6 +41,6 @@ $c(1+o(1))x/\log x$ for some $c>1/2$.
 numbers*, Colloq. Math. 103 (2005), 27–32
 ([[../library/arithmetic_functions/banks_2005_nonaliquots_robbins_numbers/_index|library card]]),
 keeps only the nonaliquot and Robbins-number theorems, so this result has no
-refereed or reviewed evidence. The site's discussion thread links the
-preprint (comment of 21 November 2025), but the site's commentary does not
-credit it.
+refereed or reviewed evidence. The erdosproblems.com discussion thread links the
+preprint (comment of 21 November 2025), but the erdosproblems.com commentary
+does not credit it.

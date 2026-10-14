@@ -111,15 +111,15 @@ are deduced from Theorem 1.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0766/_index|Problem 766]]: the Dirac
-  publication of the site's commentary "Dirac and Erdős proved independently
-  that when $l=\lfloor k^2/4\rfloor+1$, $f(n;k,l)\le\lfloor n^2/4\rfloor+1$",
-  in the $f_1$ normalization of the 1964 survey: Theorem 1 at $k=3$,
-  $\alpha=1$ gives $f_1(n;k,[k^2/4]+1)\le[n^2/4]+1$ for $3\le k\le n$, for
-  every $n$. The site's own $f$ is a minimum of Turán numbers over fixed
-  graphs, for which the corresponding statement is the survey's $K(k,k)$
-  plus-an-edge theorem, for even $k$ and large $n$; Theorem 1 does not fix
-  the $n'$-vertex subgraph's type. The bound sits at $l=[k^2/4]+1$, just
-  above the range $k<l\le k^2/4$ the problem asks about; inside it Theorem 1
-  gives, for $\alpha\le0$, only upper bounds of order $n^2$ on $f_1$, where
+  publication of the erdosproblems.com commentary "Dirac and Erdős proved
+  independently that when $l=\lfloor k^2/4\rfloor+1$,
+  $f(n;k,l)\le\lfloor n^2/4\rfloor+1$", in the $f_1$ normalization of the 1964
+  survey: Theorem 1 at $k=3$, $\alpha=1$ gives $f_1(n;k,[k^2/4]+1)\le[n^2/4]+1$
+  for $3\le k\le n$, for every $n$. erdosproblems.com's own $f$ is a minimum of
+  Turán numbers over fixed graphs, for which the corresponding statement is the
+  survey's $K(k,k)$ plus-an-edge theorem, for even $k$ and large $n$; Theorem 1
+  does not fix the $n'$-vertex subgraph's type. The bound sits at $l=[k^2/4]+1$,
+  just above the range $k<l\le k^2/4$ the problem asks about; inside it Theorem
+  1 gives, for $\alpha\le0$, only upper bounds of order $n^2$ on $f_1$, where
   the Kővári--Sós--Turán theorem gives $o(n^2)$ (a reading made here), and
   the paper says nothing about monotonicity in $l$.

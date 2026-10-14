@@ -4,8 +4,8 @@ title: Problem 457
 desc: |
   Asks whether some $\epsilon>0$ gives infinitely many $n$ such that every prime
   $p\le(2+\epsilon)\log n$ divides $\prod_{1\le i\le\log n}(n+i)$; yes, by a
-  2026 AI construction the site accepted. Erdős's 1979 form, which asks the
-  opposite, has the answer no.
+  2026 AI construction erdosproblems.com accepted. Erdős's 1979 form, which asks
+  the opposite, has the answer no.
 tags:
 - Number theory
 status: solved
@@ -31,37 +31,39 @@ $$
 
 **Formulation.** Erdős's 1979 paper asks the opposite direction on printed
 p. 78: "Is it true that $q(n,[\log n])<(2+\varepsilon)\log n$ for
-$n>n_0(\varepsilon)$?" An affirmative answer to the site's question is a
-negative answer to this one, as the site's thread notes (2 March 2026), so the
-construction behind the site's answer (Status) answers the 1979 question no,
-and the second argument shows that $q(n,[\log n])\ge(2+\varepsilon)\log n$
-holds for infinitely many $n$ for every $\varepsilon>0$. The site follows the
-monograph's form (printed p. 91: "Is it true that infinitely often $g(n,\log
-n)>(2+\epsilon)\log n$?"); the two statements of the problem disagree only in
-direction, so the site's choice is the Statement and the 1979 question is a
-variant with its own answer. The site's wording on 2026-09-18 (page last edited
-7 March 2026). With $q(n,k)$ the least prime not dividing $\prod_{1\le i\le
-k}(n+i)$ (Erdős's notation of 1979; the monograph writes $g(n,k)$), the
-question is whether $q(n,\log n)>(2+\epsilon)\log n$ for infinitely many $n$,
-for some fixed $\epsilon>0$; the product runs over $1\le i\le\lfloor\log
-n\rfloor$, which is how Erdős ($k=[\log n]$) and the formal statement read it.
-The site attributes the problem to Erdős and Pomerance; its source keys are
-[Er79d, p. 78] and [ErGr80, p. 91]; the upper-bound question for $q(n,\log n)$
-is Problem 1181, split off on 7 March 2026.
+$n>n_0(\varepsilon)$?" An affirmative answer to the erdosproblems.com question
+is a negative answer to this one, as the erdosproblems.com thread notes (2 March
+2026), so the construction behind erdosproblems.com's answer (Status) answers
+the 1979 question no, and the second argument shows that
+$q(n,[\log n])\ge(2+\varepsilon)\log n$ holds for infinitely many $n$ for every
+$\varepsilon>0$. erdosproblems.com follows the monograph's form (printed p. 91:
+"Is it true that infinitely often $g(n,\log n)>(2+\epsilon)\log n$?"); the two
+statements of the problem disagree only in direction, so erdosproblems.com's
+choice is the Statement and the 1979 question is a variant with its own answer.
+The erdosproblems.com wording on 2026-09-18 (page last edited 7 March 2026).
+With $q(n,k)$ the least prime not dividing $\prod_{1\le i\le k}(n+i)$ (Erdős's
+notation of 1979; the monograph writes $g(n,k)$), the question is whether
+$q(n,\log n)>(2+\epsilon)\log n$ for infinitely many $n$, for some fixed
+$\epsilon>0$; the product runs over $1\le i\le\lfloor\log n\rfloor$, which is
+how Erdős ($k=[\log n]$) and the formal statement read it. erdosproblems.com
+attributes the problem to Erdős and Pomerance; its source keys are [Er79d, p.
+78] and [ErGr80, p. 91]; the upper-bound question for $q(n,\log n)$ is Problem
+1181, split off on 7 March 2026.
 
-**Status.** Proved. The site's curator, Thomas Bloom, accepted the answer on 7
-March 2026 with the label PROVED (LEAN). The standing is derived from the claim
-page
+**Status.** Proved. The erdosproblems.com curator, Thomas Bloom, accepted the
+answer on 7 March 2026 with the label PROVED (LEAN). The standing is derived
+from the claim page
 [[problems/integer_sequences/E0457/claims/2026_03_02_barreto|the construction's claim page]],
-with these qualifications: it is accepted on the site's documented acceptance,
-there is no paper and no refereed publication, and there was no formal audit
-here. This is a source-supported solution accepted by the site, distinct from a
-claim of journal refereeing. No refereed publication, no arXiv version and no
-independent expert review of the argument was found.
+with these qualifications: it is accepted on erdosproblems.com's documented
+acceptance, there is no paper and no refereed publication, and there was no
+formal audit here. This is a source-supported solution accepted by
+erdosproblems.com, distinct from a claim of journal refereeing. No refereed
+publication, no arXiv version and no independent expert review of the argument
+was found.
 
-The status-defining source is the site's own account of a construction. Its
-commentary attributes the construction to GPT-5.2 Pro prompted by Kevin Barreto
-(2 March 2026). For each fixed $\epsilon<3/\log4-2\approx0.164$, the
+The status-defining source is erdosproblems.com's own account of a construction.
+Its commentary attributes the construction to GPT-5.2 Pro prompted by Kevin
+Barreto (2 March 2026). For each fixed $\epsilon<3/\log4-2\approx0.164$, the
 construction gives infinitely many $n$ with every prime $p\le(2+\epsilon)\log n$
 dividing the product. So the constant $2$ can be raised to any constant below
 $3/\log4\approx2.164$. A second run of GPT-5.2 Pro the same day proves the
@@ -89,7 +91,7 @@ $q(n,[\log n])\ge(2+o(1))\log n$ once $n+1$ rather than $n$ is that product or
 the product starts at $i=0$ (see the origins paragraph below).
 
 **Source.** [erdosproblems.com/457](https://www.erdosproblems.com/457),
-accessed 2026-09-18: the problem page (PROVED (LEAN), which the site
+accessed 2026-09-18: the problem page (PROVED (LEAN), which erdosproblems.com
 glosses as solved in the affirmative with the proof
 verified in Lean; last edited 7 March 2026; source keys [Er79d, p. 78],
 [ErGr80, p. 91]; commentary citing Problems 663 and 1181; a thanks line
@@ -124,7 +126,7 @@ T. F. Bloom, Erdős Problem #457, https://www.erdosproblems.com/457, accessed
   time): the table of the least number coprime to every integer in
   $[n+1,n+k]$, read by antidiagonals; accessed 2026-09-18. A data lead only.
 
-**Formalization.** The site's suffix (Lean) is a catalog label; see
+**Formalization.** The erdosproblems.com suffix (Lean) is a catalog label; see
 "Formalization and the Lean label" below for the file's contents. The file
 [`ErdosProblems/457.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/457.lean)
 of formal-conjectures, at the commit linked (the head of its main branch on
@@ -142,12 +144,12 @@ open in its restatement, an internal inconsistency of the file), and
 community database (teorth/erdosproblems, accessed 2026-09-18) lists the
 problem as proved, with the Lean marker, as of its last update on 7 March 2026,
 with the statement formalized since 31 August 2025, `formal_status` Lean, OEIS
-A391668 and no formal-proof URL; the site's indicator shows a formalized
-statement. Nothing was built or kernel-checked here.
+A391668 and no formal-proof URL; the erdosproblems.com indicator shows a
+formalized statement. Nothing was built or kernel-checked here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED (LEAN), solved in the affirmative with the proof verified in
 Lean, last edited 7 March 2026. The commentary attributes the problem to
 Erdős and Pomerance, introduces $q(n,k)$ as the least prime not dividing
@@ -179,7 +181,7 @@ not even prove that $q(n,[\log n])<(1-\varepsilon)(\log n)^2$." [ErGr80],
 printed p. 91: "Let $g(n,k)$ be the smallest prime which does not
 divide $\prod_{i=1}^k(n+i)$. Is it true that infinitely often
 $g(n,\log n)>(2+\epsilon)\log n$?" The two sources ask opposite directions
-(Formulation above); the site follows the monograph. Erdős's example is
+(Formulation above); erdosproblems.com follows the monograph. Erdős's example is
 the only lower-bound construction in the sources: with $n$ the product of
 the primes between $\log n$ and $(2+o(1))\log n$, every prime up to
 $\lfloor\log n\rfloor$ divides one of the $\lfloor\log n\rfloor$ consecutive
@@ -190,10 +192,10 @@ primes to divide a factor literally, a minor point of indexing recorded as
 the thread's. Claims checked for both passages; the example is Erdős's
 assertion, not verified beyond that remark.
 
-**The status-defining argument (the site's account; no paper).** The site's
-commentary and thread are the sources; the written arguments are documents on a
-file-sharing service linked from the thread: the first, [Anon26], is compiled
-with its
+**The status-defining argument (erdosproblems.com's account; no paper).** The
+erdosproblems.com commentary and thread are the sources; the written arguments
+are documents on a file-sharing service linked from the thread: the first,
+[Anon26], is compiled with its
 [[../library/integer_sequences/anon_2026_primes_logarithmic_block_product/theorem_2_1|Theorem 2.1 page]],
 its identity unstable, an anonymous undated file, and the second write-up was
 not read. In the page's words, following the thread's elaboration of 2 March
@@ -217,8 +219,8 @@ elementary. Read depth: the thread's sketch was read and its steps were not
 checked here; of the construction's written documents, the first ([Anon26]) was
 read in full, with claims checked for its Theorem 2.1 and Remark 2.4, and the
 second was not read; no step is independently reviewed. Acceptance evidence:
-the site's label and commentary edit of 7 March 2026 (the curator Thomas
-Bloom's thread comment of 11:20 that day marking the problem solved), the
+the erdosproblems.com label and commentary edit of 7 March 2026 (the curator
+Thomas Bloom's thread comment of 11:20 that day marking the problem solved), the
 thread's endorsement by a named mathematician (Tao) whose elaboration the
 commentary quotes, and the external Lean file below; no refereed publication,
 arXiv version or written expert review was found (search scope below).
@@ -240,15 +242,15 @@ search by ChatGPT Deep Research found nothing substantive and that GPT-5.2 Pro
 failed on the general $q(n,k)$ question; an update that an independent run of
 GPT-5.2 Pro, using the prime number theorem, resolved the stated question for
 arbitrarily large $\epsilon$ (a second PDF); and a live Lean-editor link to
-Aristotle's formalization of the solution as stated (the site was updated). 2
-March 2026 (the account Nat Sothanaphan): a GPT standard check, as the poster
-calls it, that found no issue, not meant to be comprehensive. 2 March 2026
-(TerenceTao): the 1979 formulation is the negation of the monograph's, and the
-problem is a case where Erdős accidentally posed one that was too easy; the
+Aristotle's formalization of the solution as stated (erdosproblems.com was
+updated). 2 March 2026 (the account Nat Sothanaphan): a GPT standard check, as
+the poster calls it, that found no issue, not meant to be comprehensive. 2 March
+2026 (TerenceTao): the 1979 formulation is the negation of the monograph's, and
+the problem is a case where Erdős accidentally posed one that was too easy; the
 elaboration above, the broader lesson that Dirichlet approximation controls more
 moduli than the Chinese remainder theorem at the cost of localizing $n$ modulo
 $p$ to an interval, and the remark that the upper-bound problem remains open, is
-of a different nature, and should be absorbed or spun off (the site was
+of a different nature, and should be absorbed or spun off (erdosproblems.com was
 updated). 2 March 2026 (Kevin Barreto): agreement. 3 March 2026 (Nat
 Sothanaphan): a write-up of the elaboration by GPT (GPT-5.2 Thinking, as the
 write-up names it), in what the poster calls a near-autonomous process, reaching
@@ -260,11 +262,12 @@ write-up. 7 March 2026 (the account Thomas Bloom): the upper-bound question is
 spun off as Problem 1181 and this problem was marked solved. 7 March 2026
 (TerenceTao): a GPT attempt on one third-party site and a GPT solution on
 another made negligible or no progress; the first noted the indexing point
-recorded above. 7 March 2026 (the account Woett, whom the site names as Wouter
-van Doorn): the prover connected the existing formalization to the collection's
-statement within minutes, with the file linked (the site was updated).
+recorded above. 7 March 2026 (the account Woett, whom erdosproblems.com names as
+Wouter van Doorn): the prover connected the existing formalization to the
+collection's statement within minutes, with the file linked (erdosproblems.com
+was updated).
 
-**Formalization and the Lean label.** The site's suffix (Lean) is a
+**Formalization and the Lean label.** The erdosproblems.com suffix (Lean) is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `ErdosProblem457.lean` in `Woett/Lean-files` on its `main` branch, not a
@@ -304,7 +307,7 @@ formal-proof URL.
 preprint or refereed publication of the construction, an independent
 review, or a dispute of the argument.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `457.lean` at the pinned commit; the community
   database.
 - The Lean file at the repository's head and its file history.
@@ -319,12 +322,12 @@ review, or a dispute of the argument.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X; the second file-sharing
 document and the shared chat transcripts linked from the thread (the first
-document is [Anon26], read). Every source the site cites was read; no paper
-exists.
+document is [Anon26], read). Every source erdosproblems.com cites was read; no
+paper exists.
 
-**Remaining gaps.** (1) The status rests on the site's acceptance of an argument
-with no paper. Its first informal write-up, the anonymous note [Anon26], was
-read (Theorem 2.1 gives $\epsilon=0.1$ and Remark 2.4 every fixed
+**Remaining gaps.** (1) The status rests on erdosproblems.com's acceptance of an
+argument with no paper. Its first informal write-up, the anonymous note
+[Anon26], was read (Theorem 2.1 gives $\epsilon=0.1$ and Remark 2.4 every fixed
 $\epsilon<3/\log4-2$; claims checked, proof read, not independently reviewed),
 but its identity is unstable, an anonymous undated file on a file-sharing
 service with no version marker, pinned only by the bytes on its card, and it is
@@ -332,14 +335,15 @@ unreviewed; the second write-up (the arbitrarily large constant) was not read;
 the argument's other fixed written form is an external Lean file, not built. A
 written account with a stable identity, or an independent whole-argument review,
 is the reopening condition for the qualification. (2) The constant question is
-settled only in the arbitrarily-large-constant form reported by the site; the
-sharper lower bound $\frac{1-o(1)}2\frac{\log\log n}{\log\log\log n}\log n$ is
-derived in the proof of the write-up of 3 March 2026 (p. 5), a claimed result
-that is not accepted. (3) The 1979 source asks the opposite direction; the
-site's statement is the monograph's, and Erdős's own expectation (that the 1979
-inequality holds) is refuted by the site's answer. (4) The formal-conjectures
-file marks the question solved and its restatement `qnk` open. (5) The rows for
-this problem on the 1979 and 1980 Erdős cards carry the locators above.
+settled only in the arbitrarily-large-constant form reported by
+erdosproblems.com; the sharper lower bound
+$\frac{1-o(1)}2\frac{\log\log n}{\log\log\log n}\log n$ is derived in the proof
+of the write-up of 3 March 2026 (p. 5), a claimed result that is not accepted.
+(3) The 1979 source asks the opposite direction; the erdosproblems.com statement
+is the monograph's, and Erdős's own expectation (that the 1979 inequality holds)
+is refuted by erdosproblems.com's answer. (4) The formal-conjectures file marks
+the question solved and its restatement `qnk` open. (5) The rows for this
+problem on the 1979 and 1980 Erdős cards carry the locators above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

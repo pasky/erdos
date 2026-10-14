@@ -25,12 +25,12 @@ updated: 2026-10-08T02:16:54Z
 $K_{2^n+1}$ are coloured with $n$ colours then there must be a monochromatic odd
 cycle of length at most $m$. Estimate $f(n)$.
 
-**Status.** Open (the site's label, which adds that the problem cannot be
-resolved by a finite computation). The sources below give separated lower and
-upper bounds at the exact host threshold $K_{2^n+1}$, but they do not determine
-the growth order. The search recorded under Current assessment found nothing
-further, and that negative result is not proof of openness. Two refereed bounds
-are accepted partial claims. These are
+**Status.** Open (the erdosproblems.com label, which adds that the problem
+cannot be resolved by a finite computation). The sources below give separated
+lower and upper bounds at the exact host threshold $K_{2^n+1}$, but they do not
+determine the growth order. The search recorded under Current assessment found
+nothing further, and that negative result is not proof of openness. Two refereed
+bounds are accepted partial claims. These are
 [[problems/ramsey_theory/E0609/claims/2016_02_24_day_johnson|Day and Johnson's]]
 lower bound, which answers Chung's question whether $f(n)\to\infty$, and
 [[problems/ramsey_theory/E0609/claims/2025_06_17_janzer_yip|Janzer and Yip's]]
@@ -64,7 +64,7 @@ has a monochromatic odd cycle of length at most $m$, and declares `erdos_609`,
 the assertion that $f$ has the growth order of an unspecified function
 (`answer(sorry)`), under `category research open` with proof `sorry`. It carries
 no `formal_proof` attribute, so it records no formal proof. The file was added
-on 9 September 2026; on 2026-10-06 the site's indicator read
+on 9 September 2026; on 2026-10-06 the erdosproblems.com indicator read
 "Formalised statement? Yes", and the community database listed the statement as
 formalized since 9 September 2026 with formal status unformalized.
 
@@ -99,20 +99,20 @@ The bounded status search checked the current arXiv
 version records for Day--Johnson, Girão--Hunter, Janzer--Yip, Axenovich et al.,
 Huang--Yang--Chen, and Miyazaki et al.; the Cambridge published record and
 repository entry for Janzer--Yip; an author publication page; exact-title and
-exact-parameter web/arXiv queries; and public X/web announcement queries. The
-Erdős Problems site's search listing classified the question as open. No
+exact-parameter web/arXiv queries; and public X/web announcement queries.
+ erdosproblems.com's search listing classified the question as open. No
 additional result resolving the problem, closing the Day/Girão/Janzer gap,
 or matching the opposite bound's order was located in this bounded search.
 That absence does not certify openness or an exhaustive priority claim.
 
-**Proof claims on the site.** The site's proof-claim
+**Proof claims on erdosproblems.com.** The erdosproblems.com proof-claim
 tab (accessed 2026-10-06) carries one partial claim, submitted 25 September
 2026: that $f(3)=5$, by the classical $R(3,3,3)=17$ for the lower bound and a
 structural argument with a finite enumeration and a SAT check for the upper
 bound. It concerns the case $n=3$ only and leaves the asymptotic question
 untouched. It is recorded, with its provenance, on
 [[problems/ramsey_theory/E0609/claims/2026_09_25_cai|its claim page]]; the
-site's label was OPEN, and the claim is not accepted.
+erdosproblems.com label was OPEN, and the claim is not accepted.
 
 ## Progress
 

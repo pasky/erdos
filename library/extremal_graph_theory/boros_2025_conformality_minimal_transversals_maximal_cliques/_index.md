@@ -24,7 +24,7 @@ of minimal transversals of maximal cliques*, arXiv:2405.10789v2 [math.CO]
 version only, and no refereed publication was looked for here. The
 abstract names its predecessor, "Boros, Gurvich, Milanič, and Uno (Journal
 of Graph Theory, 2025)", on the conformality of dual hypergraphs (not
-held). Not a site key for Problem 151.
+held). Not an erdosproblems.com key for Problem 151.
 
 **Retained artifact.** The
 [folder-name PDF](boros_2025_conformality_minimal_transversals_maximal_cliques.pdf)

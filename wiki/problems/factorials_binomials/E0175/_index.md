@@ -25,11 +25,11 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Show that, for any $n\geq 5$, the binomial coefficient
 $\binom{2n}{n}$ is not squarefree.
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
-edited 8 February 2026). The standing in the frontmatter derives from the claim
-pages. The site credits Sárközy for all sufficiently large $n$ and,
-independently, Granville and Ramaré and Velammal for every $n\ge5$. The three
-results are recorded on the claim pages
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN)
+(page last edited 8 February 2026). The standing in the frontmatter derives from
+the claim pages. erdosproblems.com credits Sárközy for all sufficiently large
+$n$ and, independently, Granville and Ramaré and Velammal for every $n\ge5$. The
+three results are recorded on the claim pages
 [[problems/factorials_binomials/E0175/claims/1985_02_01_sarkozy|Sárközy 1985]]
 (partial),
 [[problems/factorials_binomials/E0175/claims/1995_01_01_velammal|Velammal 1995]]
@@ -81,8 +81,8 @@ This corpus has not built it.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 8 February 2026): is
-$\binom{2n}{n}$ divisible by the square of a prime for every $n\ge5$? The
+The question, as erdosproblems.com states it (page last edited 8 February 2026):
+is $\binom{2n}{n}$ divisible by the square of a prime for every $n\ge5$? The
 answer is yes; the only squarefree central binomial coefficients are at
 $n=1,2,4$.
 
@@ -106,19 +106,19 @@ below, and sharpened this to a prime $p\ge\sqrt{n/5}$ for every $n\ge2082$
 Sander [Sa92], Theorem 1, proves more for large arguments: for every fixed $a$
 and every $m$ large enough, $\binom{m}{k}$ with $k$ close to $m/2$ is
 divisible by the $a$th power of a prime that itself tends to infinity, which
-contains the large-$n$ case of the problem; the site records it under the
-related question on the largest prime power dividing $\binom{2n}{n}$, so it
-has no claim page here. Both full proofs are refereed and the site's curator
-credits them; the Lean development in Alexeev's repository, first committed on
-17 August 2026 and named as the formal proof by the formal-conjectures
-statement file, formalizes the Granville–Ramaré argument with Codex and
-GPT-5.6 Sol named as its formal authors, and is not built here. The site's
-label and the community database, which lists the formal status Lean as of its
-last update, dated 24 August 2026, name no development.
+contains the large-$n$ case of the problem; erdosproblems.com records it under
+the related question on the largest prime power dividing $\binom{2n}{n}$, so it
+has no claim page here. Both full proofs are refereed and the erdosproblems.com
+curator credits them; the Lean development in Alexeev's repository, first
+committed on 17 August 2026 and named as the formal proof by the
+formal-conjectures statement file, formalizes the Granville–Ramaré argument with
+Codex and GPT-5.6 Sol named as its formal authors, and is not built here. The
+erdosproblems.com label and the community database, which lists the formal
+status Lean as of its last update, dated 24 August 2026, name no development.
 
-Related questions the site records, not part of the standing. Let $f(n)$ be
-the largest exponent $e$ with $p^e\mid\binom{2n}{n}$ for some prime $p$.
-Sander [Sa92] showed $f(n)\to\infty$ and [Sa95] gave
+Related questions erdosproblems.com records, not part of the standing. Let
+$f(n)$ be the largest exponent $e$ with $p^e\mid\binom{2n}{n}$ for some prime
+$p$. Sander [Sa92] showed $f(n)\to\infty$ and [Sa95] gave
 $f(n)\gg(\log n)^{1/10-o(1)}$, improved by Erdős and Kolesnik [ErKo99] to
 $f(n)\gg(\log n)^{1/4-o(1)}$; the upper bound $f(n)\ll\log n$ and the lower
 bound $f(n)\gg\log n$ for almost all $n$ follow from Kummer's theorem, and
@@ -126,18 +126,18 @@ whether $f(n)\gg\log n$ for every $n$ is open. Sander [Sa92b] showed that
 $\binom{2n+d}{n}$ is not squarefree for large $n$ when
 $|d|\le n^{1-\epsilon}$. Granville and Ramaré note that their Theorem 1* is
 close to best possible, since the largest prime whose square divides
-$\binom{4160}{2080}$ is $5$. The site records $n=786$ as the largest known $n$
-for which $\binom{2n}{n}$ has no odd squared prime factor, and Guy's section
-B33 [Gu04] reports Erdős's belief that there is no larger one; Granville and
-Ramaré [GrRa96] settle this question of Erdős: Theorem 1* gives a prime
+$\binom{4160}{2080}$ is $5$. erdosproblems.com records $n=786$ as the largest
+known $n$ for which $\binom{2n}{n}$ has no odd squared prime factor, and Guy's
+section B33 [Gu04] reports Erdős's belief that there is no larger one; Granville
+and Ramaré [GrRa96] settle this question of Erdős: Theorem 1* gives a prime
 $p\ge\sqrt{n/5}>20$ with $p^2\mid\binom{2n}{n}$ for every $n\ge2082$, their
 factorizations cover $n\le2081$, and they state that $\binom{1572}{786}$ is
 the largest central binomial coefficient not divisible by the square of an odd
 prime.
 
-Search scope: the site's problem page, its discussion thread, the community
-database and the formal-conjectures file; the site listed no proof claim for
-the problem.
+Search scope: the erdosproblems.com problem page, its discussion thread, the
+community database and the formal-conjectures file; erdosproblems.com listed no
+proof claim for the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

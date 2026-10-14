@@ -44,14 +44,14 @@ https://www.erdosproblems.com/1060.
 
 ## Current assessment
 
-The notes below rest on comments 7895, 8849, 8854 and 9235 of the site's
-thread (post 8849: marinov, 16:41 on 6 September 2026); the coloring notes
-linked from the thread are not used. No wider status search is recorded, and
-the site labeled the problem OPEN. The direct argument is recorded in full
-below as an author-recorded source-proof reconstruction. Independent review
-of its exact statement and every essential deduction remains outstanding; no
-independently accepted compilation proof coverage or formal verification is
-claimed.
+The notes below rest on comments 7895, 8849, 8854 and 9235 of the
+erdosproblems.com thread (post 8849: marinov, 16:41 on 6 September 2026); the
+coloring notes linked from the thread are not used. No wider status search is
+recorded, and Bloom's catalog labeled the problem OPEN. The direct argument is
+recorded in full below as an author-recorded source-proof reconstruction.
+Independent review of its exact statement and every essential deduction remains
+outstanding; no independently accepted compilation proof coverage or formal
+verification is claimed.
 
 ## Progress
 

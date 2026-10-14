@@ -46,18 +46,19 @@ length.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-proved. The curator credits the case $k=3$ to Goddard and Kleitman and to
-Sidorenko independently (page last edited 16 January 2026, accessed 2026-09-08
-for the problem page). The site cites Sidorenko's 1991 note in J. Graph Theory
-15 (1991), 15--17 (its key [Si91]). Cambie, Freschi, Morawski, Petrova and
-Pokrovskiy (2026) list that 1991 note among the weaker earlier bounds (p. 1). In
-their Theorem 1 (p. 2) they attribute the full proof of Harary's conjecture to
-the 1993 paper, which is the one linked above. The discrepancy in the site's
-citation is recorded, not resolved. Refereed: A. F. Sidorenko, The Ramsey number
-of an $n$-edge graph versus triangle is at most $2n+1$, J. Combin. Theory Ser. B
-58 (1993), no. 2, 185--196, in the July 1993 issue (Crossref, accessed
-2026-10-07), the month this page is dated by. The day is a placeholder.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem proved. The curator credits the case $k=3$ to Goddard and Kleitman
+and to Sidorenko independently (page last edited 16 January 2026, accessed
+2026-09-08 for the problem page). erdosproblems.com cites Sidorenko's 1991 note
+in J. Graph Theory 15 (1991), 15--17 (its key [Si91]). Cambie, Freschi,
+Morawski, Petrova and Pokrovskiy (2026) list that 1991 note among the weaker
+earlier bounds (p. 1). In their Theorem 1 (p. 2) they attribute the full proof
+of Harary's conjecture to the 1993 paper, which is the one linked above. The
+discrepancy in the erdosproblems.com citation is recorded, not resolved.
+Refereed: A. F. Sidorenko, The Ramsey number of an $n$-edge graph versus
+triangle is at most $2n+1$, J. Combin. Theory Ser. B 58 (1993), no. 2, 185--196,
+in the July 1993 issue (Crossref, accessed 2026-10-07), the month this page is
+dated by. The day is a placeholder.
 
 **Read depth.** Neither Sidorenko paper is held. The statement above is
 taken from Theorem 1 of the 2026 preprint, which attributes it to Goddard and

@@ -44,8 +44,9 @@ $\sum_{m\le N}f(m)/\sqrt{N\log\log N}\to0$ almost surely, so the limit
 superior in the problem is $0$ and no constant $c>0$ exists. The answer is
 no. The abstract does not name the problem; the bearing on it is this
 one-line consequence, and the paper is identified as the same bound as the
-forum claims on the site's proof-claims page by Høystad, who describes the
-three routes as essentially the same modification of Caich's argument
+forum claims on the erdosproblems.com proof-claims page by Høystad, who
+describes the three routes as essentially the same modification of Caich's
+argument
 ([[../library/arithmetic_functions/caich_2023_almost_sure_upper_bound_random_multiplicative/_index|card]]):
 a conditional high-moment estimate on each thin block of primes in place of
 a first-moment bound and a union bound. This account follows the arXiv
@@ -54,8 +55,8 @@ abstract.
 **Depends on.** Nothing in this wiki.
 
 **Standing.** Pending: an arXiv preprint with no refereed version found and
-no acceptance recorded by the site, which labeled the problem OPEN and whose
-proof-claims tab did not list the paper on 2026-10-06. The two forum
+no acceptance recorded by erdosproblems.com, which labeled the problem OPEN and
+whose proof-claims tab did not list the paper on 2026-10-06. The two forum
 claims of the same bound are the
 [[problems/arithmetic_functions/E0520/claims/2026_07_29_korsky|Korsky claim]],
 posted two days before this preprint, and the

@@ -4,7 +4,7 @@ title: "Theorem 1: a subset of {1, …, N} with only trivial three-term progress
 desc: |
   The sharpened Kelley–Meka bound, exponent 1/9 in place of 1/12, from a
   modification of the almost-periodicity step; the source of the exponent in
-  the site's upper bound exp(O((log k)^9)) for W(3,k).
+  erdosproblems.com's upper bound exp(O((log k)^9)) for W(3,k).
 created: 2026-09-18T06:30:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -59,10 +59,10 @@ and the almost-periodicity machinery it uses.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0721/_index|Problem 721]]: an indirect bearing. The
-  site's best upper bound $W(3,k)\ll\exp(O((\log k)^9))$ "follows from the
-  best bounds known for sets without three-term arithmetic progressions
-  (see [BlSi23] ...)"; the exponent $9$ is the reciprocal of this theorem's
-  $1/9$, entering through the density argument Hunter's footnote 1 states.
-  The paper itself states nothing about $W(3,k)$, and the derivation is not
-  written in any held source.
+- [[../wiki/problems/ramsey_theory/E0721/_index|Problem 721]]: an indirect
+  bearing. erdosproblems.com's best upper bound $W(3,k)\ll\exp(O((\log k)^9))$
+  "follows from the best bounds known for sets without three-term arithmetic
+  progressions (see [BlSi23] ...)"; the exponent $9$ is the reciprocal of this
+  theorem's $1/9$, entering through the density argument Hunter's footnote 1
+  states. The paper itself states nothing about $W(3,k)$, and the derivation is
+  not written in any held source.

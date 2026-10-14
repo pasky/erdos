@@ -27,21 +27,21 @@ necessary and sufficient condition on the $a_n$ such that, if we choose
 (independently and uniformly) random arcs on the unit circle of length $a_n$,
 then all the circle is covered with probability $1$.
 
-**Formulation.** The standing answers the site's wording, read as its sources
-read it. The "unit circle" is the circle of circumference one, the setting of
-Dvoretzky [Dv56], Kahane [Ka59] and Shepp [Sh72]. On a circle of radius one
-every length would be divided by $2\pi$, and the site's covering example
-$a_n=1/n$ would no longer cover. The arcs are placed independently with uniform
-positions, so whether they cover depends only on the multiset of lengths, not on
-the order in which the $a_n$ are listed. A sequence with a length of at least
-$1$ is covered with probability one. The accepted claim states how Shepp's
-criterion answers the question under this reading.
+**Formulation.** The standing answers the erdosproblems.com wording, read as its
+sources read it. The "unit circle" is the circle of circumference one, the
+setting of Dvoretzky [Dv56], Kahane [Ka59] and Shepp [Sh72]. On a circle of
+radius one every length would be divided by $2\pi$, and erdosproblems.com's
+covering example $a_n=1/n$ would no longer cover. The arcs are placed
+independently with uniform positions, so whether they cover depends only on the
+multiset of lengths, not on the order in which the $a_n$ are listed. A sequence
+with a length of at least $1$ is covered with probability one. The accepted
+claim states how Shepp's criterion answers the question under this reading.
 
-**Status.** Solved. The site labeled the problem SOLVED and credits Shepp's
-necessary and sufficient condition [Sh72], recorded as the accepted claim
-[[problems/discrete_geometry/E0526/claims/1972_09_01_shepp|Shepp 1972]].
+**Status.** Solved. Bloom's catalog labeled the problem SOLVED and credits
+Shepp's necessary and sufficient condition [Sh72], recorded as the accepted
+claim [[problems/discrete_geometry/E0526/claims/1972_09_01_shepp|Shepp 1972]].
 Kahane's sufficient and necessary conditions [Ka59] give the case $a_n=(1+c)/n$
-that the site credits to him. They are the accepted partial claim
+that erdosproblems.com credits to him. They are the accepted partial claim
 [[problems/discrete_geometry/E0526/claims/1959_01_05_kahane|Kahane 1959]].
 Erdős's cases $a_n=1/n$ and $a_n=(1-c)/n$ are unpublished and have no claim
 page.

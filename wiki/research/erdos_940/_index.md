@@ -20,9 +20,9 @@ updated: 2026-10-08T13:55:35Z
 
 [Problem 940](../../problems/diophantine_problems/E0940/_index.md) asks, for
 $r\ge3$, whether infinitely many integers are not sums of at most $r$
-$r$-powerful numbers, and whether those sums have density zero. The site listed
-it as open. For $r=3$, an unpublished manuscript of Beyer de Ryke claims
-positive lower density for the complement, and Wang shows, assuming three
-conjectures on Hasse--Weil $L$-functions, that sums of three cubes have
-positive lower density. No result for $r\ge4$ is recorded. The source notes
-summarize the published work used in reading the problem.
+$r$-powerful numbers, and whether those sums have density zero.
+erdosproblems.com listed it as open. For $r=3$, an unpublished manuscript of
+Beyer de Ryke claims positive lower density for the complement, and Wang shows,
+assuming three conjectures on Hasse--Weil $L$-functions, that sums of three
+cubes have positive lower density. No result for $r\ge4$ is recorded. The source
+notes summarize the published work used in reading the problem.

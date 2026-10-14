@@ -4,8 +4,8 @@ title: "Theorem 2.4: r_n ≤ n!(e − e⁻¹ + 3)/2 + 1 for n ≥ 4, the n-color
 desc: |
   Wan's upper bound on the n-color Ramsey number of the triangle, r_n at most
   n!(e - 1/e + 3)/2 + 1 for n at least 4, proved from Folkman's r_4 at most 65
-  by a parity refinement of the Greenwood–Gleason recursion; the bound the
-  site credits to Wan between Whitehead's and Xu, Xie and Chen's.
+  by a parity refinement of the Greenwood–Gleason recursion; the bound
+  erdosproblems.com credits to Wan between Whitehead's and Xu, Xie and Chen's.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -16,7 +16,7 @@ updated: 2026-10-08T01:29:58Z
 
 Notation (printed p. 119): $r_n=R(3,3,\ldots,3)$ with $n$ threes is the
 least positive integer $p$ such that every $n$-coloring of the edges of
-$K_p$ contains a monochromatic triangle; it is the site's $R(3;n)$ and
+$K_p$ contains a monochromatic triangle; it is erdosproblems.com's $R(3;n)$ and
 Eliahou's $R_n(3)$. Lemma 2.3 (p. 120) sets
 
 $$
@@ -43,8 +43,8 @@ Folkman's $r_4\le65$ and gives $r_5\le322$.
 
 **In the problems' notation.** For Problem 183, $R(3;k)\le k!(e-e^{-1}+3)/2+1$
 for $k\ge4$. For Problem 483, with the paper's own $S_n\le r_n-1$ (p. 121)
-and the paper's $S_n$ equal to the site's $f(n)$, $f(k)<k!(e-e^{-1}+3)/2$
-for $k\ge4$.
+and the paper's $S_n$ equal to erdosproblems.com's $f(n)$,
+$f(k)<k!(e-e^{-1}+3)/2$ for $k\ge4$.
 
 **Source.** H. Wan, Upper bounds for Ramsey numbers $R(3,3,\ldots,3)$ and
 Schur numbers, J. Graph Theory 26 (1997), no. 3, 119--122; Theorem 2.4 and
@@ -104,8 +104,8 @@ not held), and the recursion of Greenwood and Gleason (Canad. J. Math. 7
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the bound the site credits
-  to Wan in its history of the upper bound on $f(k)$;
+- [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the bound
+  erdosproblems.com credits to Wan in its history of the upper bound on $f(k)$;
   with $S_n\le r_n-1$ it gives $f(k)<k!(e-e^{-1}+3)/2$ for $k\ge4$, weaker
   than the held $(e-1/6)k!$ for every $k\ge4$.
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: a factorial upper bound on

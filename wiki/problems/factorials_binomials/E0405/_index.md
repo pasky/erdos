@@ -29,20 +29,20 @@ $$
 
 has only finitely many solutions?
 
-**Status.** The site labeled the problem PROVED (LEAN). The standing derived
-from the claim pages is `solved`, `proved`. Brindza and Erdős bounded every
-solution by an effective absolute constant
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). The standing
+derived from the claim pages is `solved`, `proved`. Brindza and Erdős bounded
+every solution by an effective absolute constant
 ([[problems/factorials_binomials/E0405/claims/1991_08_01_brindza_erdos|Brindza and Erdős 1991]]).
 The three solutions were determined in two refereed papers of 1996, by Yu and
 Liu
 ([[problems/factorials_binomials/E0405/claims/1996_09_01_yu_liu|Yu and Liu 1996]])
 and by Le
 ([[problems/factorials_binomials/E0405/claims/1996_01_01_le|Le 1996]]). The
-site's curator credits Brindza and Erdős and Yu and Liu. The Lean proof the
-site's label refers to is third-party work not built here.
+erdosproblems.com curator credits Brindza and Erdős and Yu and Liu. The Lean
+proof the erdosproblems.com label refers to is third-party work not built here.
 
 **Source.** [erdosproblems.com/405](https://www.erdosproblems.com/405), accessed
-2026-09-04. The site cites the problem from p. 80 of Erdős
+2026-09-04. erdosproblems.com cites the problem from p. 80 of Erdős
 and Graham's 1980 problem book [ErGr80]. Cite as: T. F. Bloom, Erdős Problem
 #405, https://www.erdosproblems.com/405.
 
@@ -57,7 +57,8 @@ and Graham's 1980 problem book [ErGr80]. Cite as: T. F. Bloom, Erdős Problem
   28, Université de Genève (1980), p. 80. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Le96] Le, Maohua, On the Diophantine equation $x^{p-1}+(p-1)!=p^n$. Publ.
-  Math. Debrecen 48 (1996), no. 1-2, 145-149. Not among the site's references.
+  Math. Debrecen 48 (1996), no. 1-2, 145-149. Not among the erdosproblems.com
+  references.
 - [YuLi96] Yu, Kunrui and Liu, Dehua, A complete resolution of a problem of
   Erdős and Graham. Rocky Mountain J. Math. 26 (1996), no. 3, 1235-1244.
 
@@ -72,7 +73,7 @@ claim pages link it at a pinned commit. Nothing has been built here.
 
 ## Current assessment
 
-The question, as the site states it: for an odd prime $p$, does
+The question, as erdosproblems.com states it: for an odd prime $p$, does
 $(p-1)!+a^{p-1}=p^k$ have only finitely many solutions in positive integers
 $a,k$? The answer is yes, and the solutions are known.
 
@@ -83,27 +84,27 @@ equation $x^2+D=p^k$; so the solutions are finite in number over all odd
 primes together, not only for each $p$. The solutions were then determined,
 in two refereed papers of 1996 whose order the publication records do not
 settle, by Yu and Liu [YuLi96] and by Le [Le96]: $(p,a,k)=(3,1,1)$, $(3,5,3)$
-and $(5,1,2)$, that is $2!+1^2=3$, $2!+5^2=3^3$ and $4!+1^4=5^2$. The site
-credits Brindza and Erdős and Yu and Liu; Le's paper is not among its
-references, and the third-party Lean proof names the authors of all three
-papers as its informal authors. The three claim pages record each result and
-its acceptance.
+and $(5,1,2)$, that is $2!+1^2=3$, $2!+5^2=3^3$ and $4!+1^4=5^2$.
+erdosproblems.com credits Brindza and Erdős and Yu and Liu; Le's paper is not
+among its references, and the third-party Lean proof names the authors of all
+three papers as its informal authors. The three claim pages record each result
+and its acceptance.
 
 Context. Erdős and Graham's book posed the question for every prime, but for
 $p=2$ the equation reads $1+a=2^k$ and has a solution for every $k$, so the
-restriction to odd primes is needed; the site makes the same correction. They
-also expected $(p-1)!+a^{p-1}$ to be a perfect power only rarely, and the site
-records $6!+2^6=28^2$ as a case where it is. Brindza and Erdős recall
-Liouville's theorem that for an odd prime $p$ the equation $(p-1)!+1=p^k$
-holds only for $p=3$ and $p=5$, and observe that no composite $n$ satisfies
-$(n-1)!+a^{n-1}=n^k$.
+restriction to odd primes is needed; erdosproblems.com makes the same
+correction. They also expected $(p-1)!+a^{p-1}$ to be a perfect power only
+rarely, and erdosproblems.com records $6!+2^6=28^2$ as a case where it is.
+Brindza and Erdős recall Liouville's theorem that for an odd prime $p$ the
+equation $(p-1)!+1=p^k$ holds only for $p=3$ and $p=5$, and observe that no
+composite $n$ satisfies $(n-1)!+a^{n-1}=n^k$.
 
-Search scope: the site's problem page, discussion thread (empty on 2026-10-07)
-and proof-claims page (empty); the formal-conjectures statement file at the
-commit the Formalization field links; the Lean file in Alexeev's repository at
-the commit the claim pages link, neither built here; Le's paper through its
-publisher's record and the zbMATH reviews of it (Zbl 0867.11020) and of Yu and
-Liu's paper (Zbl 0886.11018).
+Search scope: the erdosproblems.com problem page, discussion thread (empty on
+2026-10-07) and proof-claims page (empty); the formal-conjectures statement file
+at the commit the Formalization field links; the Lean file in Alexeev's
+repository at the commit the claim pages link, neither built here; Le's paper
+through its publisher's record and the zbMATH reviews of it (Zbl 0867.11020) and
+of Yu and Liu's paper (Zbl 0886.11018).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

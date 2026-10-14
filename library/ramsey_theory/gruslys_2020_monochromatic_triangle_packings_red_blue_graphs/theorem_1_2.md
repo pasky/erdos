@@ -95,4 +95,4 @@ from the paper ("can be found here") and are not reproduced here.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0076/_index|Problem 76]]: the status-defining theorem;
-  the site's "$(1+o(1))n^2/12$" is Theorem 1.2's "$n^2/12+o(n^2)$".
+  erdosproblems.com's "$(1+o(1))n^2/12$" is Theorem 1.2's "$n^2/12+o(n^2)$".

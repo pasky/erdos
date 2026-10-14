@@ -62,9 +62,10 @@ $l=(k-1)!=1$, $k=2$, which is exactly $g(n)\ll n^{1/2}$, had been solved
 independently much earlier by Füredi, Theorem 2.3 of
 [[../library/discrete_geometry/furedi_1991_maximal_independent_subsets_steiner_systems_planar_sets/_index|Maximal independent subsets in Steiner systems and in planar sets]]
 (SIAM J. Discrete Math. 4 (1991), 196–199), which proves
-$(2\sqrt3/9)\sqrt n<g(n)<2\sqrt n$ by a block construction. The site credits
-Conlon, Fox and Sudakov alone; Füredi's earlier proof has its own accepted
-claim page, [[problems/set_systems/E1025/claims/1991_05_01_furedi|Füredi 1991]].
+$(2\sqrt3/9)\sqrt n<g(n)<2\sqrt n$ by a block construction. erdosproblems.com
+credits Conlon, Fox and Sudakov alone; Füredi's earlier proof has its own
+accepted claim page,
+[[problems/set_systems/E1025/claims/1991_05_01_furedi|Füredi 1991]].
 
 **Depends on.**
 [[problems/set_systems/E1025/claims/1972_05_01_spencer|Spencer's lower bound]]
@@ -73,9 +74,9 @@ cites and does not reprove.
 
 **Acceptance.** Refereed: the paper appeared in J. Combin. Theory Ser. B 121
 (2016), 173–196. It was first posted as arXiv:1507.00547 on 2015-07-02.
-Reviewed: Thomas Bloom, the site's curator, labeled the problem solved and
-credits Conlon, Fox and Sudakov with the upper bound $g(n)\ll n^{1/2}$ beside
-Spencer's lower bound.
+Reviewed: Thomas Bloom, the erdosproblems.com curator, labeled the problem
+solved and credits Conlon, Fox and Sudakov with the upper bound
+$g(n)\ll n^{1/2}$ beside Spencer's lower bound.
 
 **Formalization.** The Lean file among the links, in Boris Alexeev's repository
 `lean-proofs`, declares itself a formalization of a solution to Problem 1025,

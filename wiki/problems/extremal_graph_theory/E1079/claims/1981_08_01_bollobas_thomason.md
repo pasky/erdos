@@ -5,7 +5,7 @@ desc: |
   Bollobás and Thomason (J. Combin. Theory Ser. B 1981) prove that a graph with
   at least the Turán number of edges either is the Turán graph or has a vertex
   of linear degree with a dense neighborhood. The paper is refereed, named by
-  the site and cited by Bondy.
+  erdosproblems.com and cited by Bondy.
 authors:
 - Béla Bollobás
 - Andrew Thomason
@@ -49,8 +49,8 @@ explicit constant for $n\ge(r-1)(1+\sqrt{r-1})^2/2$ in the problem's
 indexing, where its last inequality holds (with equality at the threshold,
 the step before it being strict), and for every $n$ some positive $c_r$,
 since the vertex found lies in a triangle, which is all the question needs.
-The Turán graph itself meets the site's conclusion with equality, since the
-neighborhood of any of its vertices induces $T_{r-2}(d)$ with exactly
+The Turán graph itself meets erdosproblems.com's conclusion with equality, since
+the neighborhood of any of its vertices induces $T_{r-2}(d)$ with exactly
 $\mathrm{ex}(d;K_{r-1})$ edges and $d\ge(r-2)\lfloor n/(r-1)\rfloor$, and
 every other graph has the vertex with the "$+1$" of Erdős's own wording.
 Erdős asked for graphs with $f_r(n)=\mathrm{ex}(n;K_r)+1$ edges and a star
@@ -86,9 +86,9 @@ built or audited it, so it gives no `formalized` evidence.
 Crossref record: volume 31, issue 1, pp. 111--114, issued August 1981). The day
 in this page's date is the issue's nominal first day.
 
-Reviewed: the site's curator, T. F. Bloom, labeled the problem solved and names
-this paper as the proof. Bondy restates the theorem as a known result in a
-refereed note of 1983
+Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled the problem solved
+and names this paper as the proof. Bondy restates the theorem as a known result
+in a refereed note of 1983
 ([[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_1|Theorem 1]]).
 The note also credits it to an independent proof by Erdős and Sós in a preprint,
 which is not a source of this page.
@@ -98,9 +98,9 @@ The
 cites the publication and describes the publisher's open-archive version. It
 holds no file, and it records four observations on the printed proof. Nothing is
 independently reviewed. The acceptance recorded here rests on the publication,
-the restatement and the site's acceptance, not on a local review.
+the restatement and erdosproblems.com's acceptance, not on a local review.
 
-The site labeled the problem SOLVED. Since the result is an affirmative proof,
-the claim value here is proved, and the problem page's Status sentence keeps the
-site's label. Bondy's own strengthening has the page
+Bloom's catalog labeled the problem SOLVED. Since the result is an affirmative
+proof, the claim value here is proved, and the problem page's Status sentence
+keeps the erdosproblems.com label. Bondy's own strengthening has the page
 [[problems/extremal_graph_theory/E1079/claims/1983_02_01_bondy|Bondy]].

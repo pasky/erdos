@@ -97,14 +97,14 @@ f(n,H) = ex(n,H) for every fixed graph H and all sufficiently large n. Problem
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0639/_index|#639]]: Theorem 1.1 (printed
 p. 42 = PDF p. 2) is the status-defining theorem, giving the exact value
-for every n; the site's wording, at most n^2/4 edges in no monochromatic
-triangle, holds for n >= 7 and fails for 3 <= n <= 6, where the exact
-values are 3, 6, 10 and 10. Proposition 2.1 (p. 44) is the
-written upper-bound argument for n >= 10, the statement the external Lean
-artifact named by the formal-conjectures entry formalizes. Theorem 1.2
-(p. 42) at r = 2, Theorem 1.3 (p. 43) at H = K_3 and Corollary 1.4 (p. 43)
-at t = 1 give the triangle value for large n only (Theorem 1.2 for
-n > e^{20^4}), a narrower range than Theorem 1.1.
+for every n; the erdosproblems.com wording, at most n^2/4 edges in no
+monochromatic triangle, holds for n >= 7 and fails for 3 <= n <= 6, where the
+exact values are 3, 6, 10 and 10. Proposition 2.1 (p. 44) is the written
+upper-bound argument for n >= 10, the statement the external Lean artifact named
+by the formal-conjectures entry formalizes. Theorem 1.2 (p. 42) at r = 2,
+Theorem 1.3 (p. 43) at H = K_3 and Corollary 1.4 (p. 43) at t = 1 give the
+triangle value for large n only (Theorem 1.2 for n > e^{20^4}), a narrower range
+than Theorem 1.1.
 
 **Results.**
 

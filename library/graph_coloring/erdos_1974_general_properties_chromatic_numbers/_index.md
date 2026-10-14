@@ -72,9 +72,9 @@ Source: <https://users.renyi.hu/~p_erdos/1974-17.pdf>.
 
 **Bears on.** [[../wiki/problems/set_theory/E0594/_index|#594]]: Theorem 3
 answers the problem's question yes.
-[[../wiki/problems/graph_coloring/E0737/_index|#737]]: the site attributes the
-question to this paper, which does not pose it; Theorem 3 is the weaker
-statement without a common edge.
+[[../wiki/problems/graph_coloring/E0737/_index|#737]]: erdosproblems.com
+attributes the question to this paper, which does not pose it; Theorem 3 is the
+weaker statement without a common edge.
 [[../wiki/problems/extremal_graph_theory/E0062/_index|#62]]: the paper does
 not pose the question; Theorem 3 gives any two graphs of chromatic number
 aleph_1 a common odd circuit, of chromatic number 3, an observation of the

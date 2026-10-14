@@ -24,8 +24,8 @@ smaller delta; the power lower bound behind Problem 466.
 A. Sárközy, *On distances near integers, II*, Studia Scientiarum
 Mathematicarum Hungarica 11 (1976), 105--111 (the running head gives
 105--112, the last page being blank; received February 11, 1976). The
-second half of the site's key Sa76 for Problems 465 and 466; Part I is
-filed as
+second half of the erdosproblems.com key Sa76 for Problems 465 and 466; Part I
+is filed as
 [[number_theory/sarkozy_1976_distances_near_integers_i/_index|sarkozy_1976_distances_near_integers_i]].
 The paper's own footnote cites Part I as "Studia Sci. Math. Hung. 10
 (1975), 37--50", a misprint: Part I is in the same volume 11 (1976),
@@ -137,8 +137,8 @@ checked and nothing here is independently reviewed.
 (PDF pp. 1--2, page images) report Erdős's conjecture
 $\lim_{X\to+\infty}N(X,\delta_0)=+\infty$, its proof by Graham through the
 points $(x_i,x_i^2)$ with $x_i=10\cdot2^{i-1}$, and the bound (2)
-$N(X,1/10)>\frac1{10}\log X$, the site's "Graham proved this is true";
-Theorem 1 with its Corollary (pp. 106--107, PDF pp. 2--3) is the site's
+$N(X,1/10)>\frac1{10}\log X$, erdosproblems.com's "Graham proved this is true";
+Theorem 1 with its Corollary (pp. 106--107, PDF pp. 2--3) is erdosproblems.com's
 "$N(X,\delta)>X^{1/2-\delta^{1/7}}$" for all sufficiently small $\delta$,
 which gives $N(X,\delta)\to\infty$ for every $\delta\le1/(6\cdot8^4)$, and
 the p. 110 remark gives $N(X,1/10)>X^C$.

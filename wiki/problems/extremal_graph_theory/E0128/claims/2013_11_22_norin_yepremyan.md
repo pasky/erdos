@@ -63,6 +63,6 @@ degree above $n/3$ (the paper's Theorems 2.4 and 2.5), which are not recorded
 in this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
-Theory, Series B. The site's commentary credits the paper with the range of
-at least $(1/5-c)n^2$ edges but labeled the problem FALSIFIABLE, which settles
-nothing, so that credit is not listed as `reviewed`.
+Theory, Series B. The erdosproblems.com commentary credits the paper with the
+range of at least $(1/5-c)n^2$ edges but labeled the problem FALSIFIABLE, which
+settles nothing, so that credit is not listed as `reviewed`.

@@ -63,13 +63,15 @@ independently reviewed.
 Source: <https://arxiv.org/abs/1510.05982>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0761/_index|#761]]: the
-problem's first question is Conjecture 1.1, with the site's $\delta(G)$ the
-paper's $\vec\chi(G)$. [[graph_coloring/mohar_2015_dichromatic_number_fractional_chromatic_number/theorem_1_3|Theorem 1.3]] answers it yes for
-graphs whose chromatic number is bounded in terms of their fractional
-chromatic number, and proves the analogue for fractional chromatic and
-fractional dichromatic number; [[graph_coloring/mohar_2015_dichromatic_number_fractional_chromatic_number/theorem_3_5|Theorem 3.5]] answers it yes
-for Kneser graphs. The paper does not settle the question in general and
-says nothing on the second question, about cochromatic number.
+problem's first question is Conjecture 1.1, with erdosproblems.com's $\delta(G)$
+the paper's $\vec\chi(G)$.
+[[graph_coloring/mohar_2015_dichromatic_number_fractional_chromatic_number/theorem_1_3|Theorem 1.3]]
+answers it yes for graphs whose chromatic number is bounded in terms of their
+fractional chromatic number, and proves the analogue for fractional chromatic
+and fractional dichromatic number;
+[[graph_coloring/mohar_2015_dichromatic_number_fractional_chromatic_number/theorem_3_5|Theorem 3.5]]
+answers it yes for Kneser graphs. The paper does not settle the question in
+general and says nothing on the second question, about cochromatic number.
 
 **Results.**
 

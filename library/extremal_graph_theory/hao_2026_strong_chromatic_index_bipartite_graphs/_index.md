@@ -101,9 +101,9 @@ unread. Nothing here is independently reviewed. Davey's thesis [8] and the
 Faudree--Gyárfás--Schelp--Tuza 1990 paper [11] are not held.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1.2
-(p. 2, page image) is a preprint bound on the bipartite variant of the
-site's conjecture in the asymmetric Brualdi--Quinn Massey form, recorded
-with that qualification; p. 1 attests the chain of refereed bounds
+(p. 2, page image) is a preprint bound on the bipartite variant of
+erdosproblems.com's conjecture in the asymmetric Brualdi--Quinn Massey form,
+recorded with that qualification; p. 1 attests the chain of refereed bounds
 ($1.998$, $1.93$, $1.835$, $1.772$) and the $\Delta\le3$ case in the
 authors' words, and dates the conjecture "in 1988" to its reference [10]
-where the site and the 1989 origin paper say 1985.
+where erdosproblems.com and the 1989 origin paper say 1985.

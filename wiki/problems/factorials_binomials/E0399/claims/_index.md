@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 399, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:37:55Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/factorials_binomials/E0399/claims
@@ -26,7 +26,7 @@ factor $12$, which puts the solution outside the coprime case Erdős and Obláth
 had settled.
 
 [[problems/factorials_binomials/E0399/claims/2025_09_09_cambie|2025_09_09_cambie]]: Stijn Cambie observes, by a congruence modulo $8$, that $n!=x^4+y^4$ has no
-solution with $x,y$ coprime and $xy>1$. The site's commentary credits the
-remark to Cambie.
+solution with $x,y$ coprime and $xy>1$. The erdosproblems.com commentary
+credits the remark to Cambie.
 
 ***

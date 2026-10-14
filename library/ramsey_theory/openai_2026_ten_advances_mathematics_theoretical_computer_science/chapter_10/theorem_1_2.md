@@ -4,8 +4,8 @@ title: Chapter 10, Theorem 1.2 - Failure of the 2-degenerate bound
 desc: |
   A fixed connected bipartite 2-degenerate graph whose extremal number is
   at least c n^{3/2+epsilon} for all large n, refuting the conjectured
-  O(n^{2-1/r}) bound for r-degenerate bipartite graphs at r = 2; the
-  site's accepted disproof of Problem 146.
+  O(n^{2-1/r}) bound for r-degenerate bipartite graphs at r = 2;
+  erdosproblems.com's accepted disproof of Problem 146.
 created: 2026-09-18T06:10:00Z
 updated: 2026-10-07T20:53:41Z
 ---
@@ -16,9 +16,9 @@ updated: 2026-10-07T20:53:41Z
 
 A graph $H$ is $r$-degenerate if every nonempty subgraph of $H$ has a
 vertex of degree at most $r$ (p. 237). The degeneracy conjecture, display
-(3) (p. 237, cited to Erdős's 1967 Rome paper, his 1997 survey and the
-site's Problem 146): "every fixed bipartite $r$-degenerate graph $H$
-satisfies $\mathrm{ex}(n,H)=O(n^{2-1/r})$".
+(3) (p. 237, cited to Erdős's 1967 Rome paper, his 1997 survey and
+erdosproblems.com's Problem 146): "every fixed bipartite $r$-degenerate graph
+$H$ satisfies $\mathrm{ex}(n,H)=O(n^{2-1/r})$".
 
 **Theorem 1.2** (Failure of the 2-degenerate bound; pp. 237--238). "There
 exist a fixed connected bipartite $2$-degenerate graph $H$ and constants
@@ -33,7 +33,7 @@ for all sufficiently large $n$."
 Since $2-1/2=3/2$, the theorem refutes (3) at $r=2$ and, as the chapter says
 (p. 237), also the forward implication of the related equivalence
 conjecture that a bipartite $H$ is $2$-degenerate if and only if
-$\mathrm{ex}(n,H)=O(n^{3/2})$ (the site's Problem 113), whose reverse
+$\mathrm{ex}(n,H)=O(n^{3/2})$ (erdosproblems.com's Problem 113), whose reverse
 implication Janzer had disproved. The constants are not made explicit in
 the statement; the proof (p. 248) gives $\varepsilon$ from a parameter
 window and $c=2^{-3/2-\varepsilon}$ after padding.
@@ -100,9 +100,9 @@ complete degenerate graphs (context only).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0146/_index|Problem 146]]: the site's
-  accepted disproof (31 August 2026); the case $r=2$ of the conjecture
-  fails, so the universal statement is false.
+- [[../wiki/problems/extremal_graph_theory/E0146/_index|Problem 146]]:
+  erdosproblems.com's accepted disproof (31 August 2026); the case $r=2$ of the
+  conjecture fails, so the universal statement is false.
 - [[../wiki/problems/extremal_graph_theory/E0113/_index|Problem 113]]: the chapter's
   remark (p. 237) that Janzer's construction disproved only the reverse
   implication of the problem's equivalence and "does not address the

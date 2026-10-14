@@ -28,8 +28,8 @@ Erdős's own paper on the integers relatively prime to $n$ and on a
 number-theoretic function considered by Jacobsthal (Math. Scand. 10, 1962),
 not held here.
 
-In the notation of Problem 970 the conjecture reads $h(k)\ll k^2$, the
-site's displayed question.
+In the notation of Problem 970 the conjecture reads $h(k)\ll k^2$,
+erdosproblems.com's displayed question.
 
 **Source.** P. Erdős, *Some recent advances and current problems in number
 theory*, Lectures on Modern Mathematics, Vol. III, Wiley (1965), 196--244;

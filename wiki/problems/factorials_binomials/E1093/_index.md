@@ -29,12 +29,12 @@ $n-i$ is $k$-smooth, that is, divisible only by primes $\leq k$.
 Are there infinitely many binomial coefficients with deficiency $1$? Are there
 only finitely many with deficiency $>1$?
 
-**Status.** Open: the site's label (page last edited 27 December 2025). The
-site's commentary credits Kevin Barreto's thread post of 16 December 2025 with a
-conditional answer to the second question. The post assumes two conjectures. The
-first strengthens the Lagarias--Soundararajan $xyz_{\mathrm{fin}}$ conjecture:
-for some $\kappa_0>1$ and every $\epsilon>0$, only finitely many coprime $X+Y=Z$
-have every prime factor of $XYZ$ below
+**Status.** Open: the erdosproblems.com label (page last edited 27 December
+2025). The erdosproblems.com commentary credits Kevin Barreto's thread post of
+16 December 2025 with a conditional answer to the second question. The post
+assumes two conjectures. The first strengthens the Lagarias--Soundararajan
+$xyz_{\mathrm{fin}}$ conjecture: for some $\kappa_0>1$ and every $\epsilon>0$,
+only finitely many coprime $X+Y=Z$ have every prime factor of $XYZ$ below
 $(\log\max(|X|,|Y|,|Z|))^{\kappa_0-\epsilon}$. The second is a lower bound
 $\log n\ge ck^{\alpha}$, with $\alpha>1/\kappa_0$ and all large $k$, on the
 least $n\ge2k$ at which $\binom nk$ has deficiency at least $2$, when such an

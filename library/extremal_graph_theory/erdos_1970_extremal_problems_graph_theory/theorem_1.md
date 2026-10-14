@@ -75,9 +75,9 @@ None stated.
 - [[../wiki/problems/extremal_graph_theory/E1077/_index|Problem 1077]]: the 1970 positive
   result behind the problem's question, with the subgraph on
   $n^{\alpha(1-\alpha)/(1+\alpha)}$ vertices, an exponent below the $\alpha$
-  the site now calls the correct one; the site's commentary paraphrases this
-  theorem with "$\gg m^{1+\alpha}$ edges".
+  erdosproblems.com now calls the correct one; the erdosproblems.com commentary
+  paraphrases this theorem with "$\gg m^{1+\alpha}$ edges".
 - [[../wiki/problems/extremal_graph_theory/E0803/_index|Problem 803]]: the "similar claim
-  replacing $\log n$ and $\log m$ by $n^c$ and $m^c$" of the site's
+  replacing $\log n$ and $\log m$ by $n^c$ and $m^c$" of the erdosproblems.com
   commentary, the dense-case theorem whose sparse analog the problem asks
   for.

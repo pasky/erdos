@@ -10,7 +10,7 @@ desc: |
   r(K_{s,t};k) ~ (t-1)k^s.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite
@@ -26,7 +26,7 @@ Szabó, and later restatements restrict it to t much larger than s.
 [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/corollary_1|corollary_1]]: Chung and Graham's upper bounds for the case s = 2: (t-1)k^2+k+2 for
 K_{2,t} (Theorem 2) and k^2+k+1 for the four-cycle K_{2,2} (Corollary 1),
 both stated without printed proof as refinements of the argument for
-Theorem 1; the site's upper bound R_k(C_4) ≤ k^2+k+1.
+Theorem 1; erdosproblems.com's upper bound R_k(C_4) ≤ k^2+k+1.
 
 [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/inequality_10|inequality_10]]: Chung and Graham's lower bound on the k-color Ramsey number of K_{3,3},
 derived in their Concluding Remarks from Brown's Turán number of K_{3,3}
@@ -42,7 +42,7 @@ sharper Theorem 1'; at s = t = 3 it gives (2+o(1))k^3.
 [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/theorem_3|theorem_3]]: Chung and Graham's lower bound on the k-color Ramsey number of the
 four-cycle: a k-coloring of the complete graph on k^2-k+1 vertices with no
 monochromatic four-cycle, built from a difference set modulo k^2-k+1 when
-k-1 is a prime power; the site's bound R_k(C_4) > k^2-k+1.
+k-1 is a prime power; erdosproblems.com's bound R_k(C_4) > k^2-k+1.
 
 [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/theorem_4|theorem_4]]: Chung and Graham's general lower bound on the k-color Ramsey number of
 K_{s,t}, by counting the k-colorings of the complete graph on n vertices
@@ -106,8 +106,8 @@ dissertation [5]. Nothing here is independently reviewed.
   the property, quoted: "Any $k$-coloring of the edges of the complete
   graph $K_r$ on $r$ edges [sic] always has a monochromatic subgraph isomorphic
   to $G$, provided only that $r\ge r(G;k)$" (the printed "on $r$ edges"
-  means on $r$ vertices). This is the site's $R_k(G)$ exactly, the least
-  forcing order. The paper takes $s\le t$ throughout, so the exponent in
+  means on $r$ vertices). This is erdosproblems.com's $R_k(G)$ exactly, the
+  least forcing order. The paper takes $s\le t$ throughout, so the exponent in
   every bound below sits on the smaller part $s$. For
   $s=1$ the values are quoted from [3]: $r(K_{1,t};k)=k(t-1)+1$ if
   $k\equiv t\equiv0\pmod2$ and $k(t-1)+2$ otherwise.
@@ -198,13 +198,13 @@ no other proofs. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0555/_index|#555]]: Theorem 3 (p. 166),
 "For $k-1$ a prime power, $r(K_{2,2};k)>k^2-k+1$", and Corollary 1
-(p. 166), "$r(K_{2,2};k)\le k^2+k+1$ for $k>1$", are the site's two
-four-cycle bounds; the printed hypothesis of Theorem 3 is the site's
+(p. 166), "$r(K_{2,2};k)\le k^2+k+1$ for $k>1$", are erdosproblems.com's two
+four-cycle bounds; the printed hypothesis of Theorem 3 is erdosproblems.com's
 "$k-1$ is a prime power", not the "$k=$ prime power" that Erdős and Graham
 (1975, p. 523) printed for the same result while it was to appear.
 [[../wiki/problems/ramsey_theory/E0558/_index|#558]]: Theorem 4 (p. 167) and Theorem 1
-(p. 164) are the site's displayed general bounds, with the paper's strict
-lower inequality and the conditions $k>1$, $t\ge s\ge2$ on the upper one;
+(p. 164) are erdosproblems.com's displayed general bounds, with the paper's
+strict lower inequality and the conditions $k>1$, $t\ge s\ge2$ on the upper one;
 Theorem 2 (p. 166), "$r(K_{2,t};k)\le(t-1)k^2+k+2$", is the upper bound
 later papers restate for $K_{2,t+1}$; (10) (p. 168) and Theorem 1 at
 $s=t=3$ are the $K_{3,3}$ bracket $ck^3/\log^3k<r(K_{3,3};k)\le

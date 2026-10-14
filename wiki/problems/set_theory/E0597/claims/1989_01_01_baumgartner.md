@@ -72,11 +72,11 @@ introduction of Chen, Garti and Weinert, as the
 records, and the chapter's theorem numbering is unknown. The volume carries
 only the year, so this page is dated the first of January 1989.
 
-**Acceptance.** None, so the claim stays `claimed`. The site labeled Problem 597
-OPEN, and its commentary does not mention the theorem. The chapter appeared in a
-Springer Lecture Notes in Mathematics proceedings volume. There is no evidence
-that the volume's chapters were refereed, so `refereed` is not listed. The same
-chapter is accepted on
+**Acceptance.** None, so the claim stays `claimed`. Bloom's catalog labeled
+Problem 597 OPEN, and its commentary does not mention the theorem. The chapter
+appeared in a Springer Lecture Notes in Mathematics proceedings volume. There is
+no evidence that the volume's chapters were refereed, so `refereed` is not
+listed. The same chapter is accepted on
 [[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Problem 1171's page]],
 but only through that problem's own NOT DISPROVABLE label. That label's credit
 to Baumgartner covers the case $n=3$ alone and says nothing about Problem 597.

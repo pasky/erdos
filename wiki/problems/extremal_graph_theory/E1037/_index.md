@@ -26,11 +26,11 @@ at most twice, and the number of distinct degree is $>(\frac{1}{2}+\epsilon)n$.
 Must $G$ contain a trivial (empty or complete) subgraph of size 'much larger'
 than $\log n$?
 
-**Formulation.** The site's wording (page last edited 5 March 2026); its
-"distinct degree" is a misprint for "distinct degrees", the word of Erdős's
-source. The phrase 'much larger' than $\log n$ is read as the site's curator,
-Thomas Bloom, read it in the thread on 19 January 2026, and as the formal
-statement
+**Formulation.** The erdosproblems.com wording (page last edited 5 March 2026);
+its "distinct degree" is a misprint for "distinct degrees", the word of Erdős's
+source. The phrase 'much larger' than $\log n$ is read as the erdosproblems.com
+curator, Thomas Bloom, read it in the thread on 19 January 2026, and as the
+formal statement
 [`ErdosProblems/1037.lean`](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1037.lean)
 at the pinned commit encodes it: for every $\epsilon>0$ and every $C>0$, for all
 sufficiently large $n$, every graph on $n$ vertices in which every degree occurs
@@ -41,15 +41,15 @@ construction on the claim page refutes this reading for every
 $\epsilon<\frac14$. Erdős's source, [Er93] p. 347
 ([[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|card]]),
 also asks the question with more than $(\frac23+\epsilon)n$ distinct degrees,
-which the site's statement omits; the same construction answers it no for every
-$\epsilon<\frac1{12}$.
+which the erdosproblems.com statement omits; the same construction answers it no
+for every $\epsilon<\frac1{12}$.
 
-**Status.** DISPROVED (LEAN), the site's label. The standing rests on the site's
-acceptance. The claim page
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. The standing rests on
+erdosproblems.com's acceptance. The claim page
 [[problems/extremal_graph_theory/E1037/claims/2025_09_22_cambie_chan_hunter|Cambie, Chan and Hunter]]
-records the construction the site credits. The Lean formalization of that
-construction, in Boris Alexeev's repository, is linked from that page. It was
-not built or audited here.
+records the construction erdosproblems.com credits. The Lean formalization of
+that construction, in Boris Alexeev's repository, is linked from that page. It
+was not built or audited here.
 
 **Source.** [erdosproblems.com/1037](https://www.erdosproblems.com/1037),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1037,

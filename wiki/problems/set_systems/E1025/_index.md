@@ -29,10 +29,10 @@ X$ we have $f(x,y)\not\in X$.
 Let $g(n)$ be such that, in every function $f$, there is an independent set of
 size at least $g(n)$. Estimate $g(n)$.
 
-**Status.** The site labeled the problem SOLVED (LEAN). The community database
-has recorded the Lean qualification since 2026-09-15. The site credits Spencer
-[Sp72] with $g(n)\gg n^{1/2}$ and Conlon, Fox and Sudakov [CFS16] with
-$g(n)\ll n^{1/2}$, so $g(n)\asymp n^{1/2}$.
+**Status.** Bloom's catalog labeled the problem SOLVED (LEAN). The community
+database has recorded the Lean qualification since 2026-09-15. erdosproblems.com
+credits Spencer [Sp72] with $g(n)\gg n^{1/2}$ and Conlon, Fox and Sudakov
+[CFS16] with $g(n)\ll n^{1/2}$, so $g(n)\asymp n^{1/2}$.
 
 **Source.** [erdosproblems.com/1025](https://www.erdosproblems.com/1025),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1025,
@@ -74,21 +74,21 @@ upper bound is the grid construction of Conlon, Fox and Sudakov, Section 2 of
 on the accepted full claim page
 [[problems/set_systems/E1025/claims/2015_07_02_conlon_fox_sudakov|Conlon, Fox and Sudakov 2016]],
 which states the two-sided $\Theta(n^{1/2})$ and rests on Spencer's page. Both
-are refereed journal articles credited by the site's curator. The paper of
-Conlon, Fox and Sudakov records that the upper bound $g(n)\ll n^{1/2}$ was
-proved independently and much earlier by Füredi [Fu91], Theorem 2.3 of
+are refereed journal articles credited by the erdosproblems.com curator. The
+paper of Conlon, Fox and Sudakov records that the upper bound $g(n)\ll n^{1/2}$
+was proved independently and much earlier by Füredi [Fu91], Theorem 2.3 of
 [[../library/discrete_geometry/furedi_1991_maximal_independent_subsets_steiner_systems_planar_sets/_index|Maximal independent subsets in Steiner systems and in planar sets]],
 which proves $(2\sqrt3/9)\sqrt n<g(n)<2\sqrt n$ with the lower bound from
-Spencer's theorem; the site does not cite Füredi, and the two-sided theorem is a
-second accepted full claim, on the page
+Spencer's theorem; erdosproblems.com does not cite Füredi, and the two-sided
+theorem is a second accepted full claim, on the page
 [[problems/set_systems/E1025/claims/1991_05_01_furedi|Füredi 1991]]. The
-accepted claim credited by the site is Conlon, Fox and Sudakov's, which rests on
-the accepted partial claim of Spencer. The asymptotic constant is open. Two
-third-party Lean proofs of the two-sided estimate, one in Boris Alexeev's
+accepted claim credited by erdosproblems.com is Conlon, Fox and Sudakov's, which
+rests on the accepted partial claim of Spencer. The asymptotic constant is open.
+Two third-party Lean proofs of the two-sided estimate, one in Boris Alexeev's
 repository and one released by IIIS Lean, which the community database cites as
 the problem's formalization, are linked from the claim pages of Conlon, Fox and
 Sudakov and of Spencer; the corpus has built neither. On 2026-10-06 the
-site's page listed no comment or proof claim.
+erdosproblems.com page listed no comment or proof claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

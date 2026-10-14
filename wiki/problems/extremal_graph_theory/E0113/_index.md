@@ -28,15 +28,15 @@ minimal degree at least 3.
 
 **Status.** DISPROVED (LEAN). The frontmatter standing is derived from the claim
 pages under `claims/`. Janzer's refereed disproof of the equivalence is accepted
-on its publication and the site's acceptance
+on its publication and erdosproblems.com's acceptance
 ([[problems/extremal_graph_theory/E0113/claims/2021_09_13_janzer|claim page]]).
 OpenAI's refutation of the other direction of the equivalence also disproves the
-equivalence. It is accepted on the site's acceptance of the same theorem for
-Problem 146
+equivalence. It is accepted on erdosproblems.com's acceptance of the same
+theorem for Problem 146
 ([[problems/extremal_graph_theory/E0113/claims/2026_08_01_openai|claim page]]).
-The label's Lean suffix is the site's formal status. It reflects the outside
-Lean formalization of Janzer's result, which is linked on its claim page and
-which this corpus has not built.
+The label's Lean suffix is erdosproblems.com's formal status. It reflects the
+outside Lean formalization of Janzer's result, which is linked on its claim page
+and which this corpus has not built.
 
 **Source.** [erdosproblems.com/113](https://www.erdosproblems.com/113), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #113,
@@ -61,14 +61,15 @@ https://www.erdosproblems.com/113.
   the Turán number of graphs with minimum degree 3. Int. Math. Res. Not. IMRN
   (2023), 8478-8494.
 
-**Formalization.** The site's page links the formal-conjectures statement file
+**Formalization.** The erdosproblems.com page links the formal-conjectures
+statement file
 [113.lean](https://github.com/google-deepmind/formal-conjectures/blob/ae4daca7d377187b361478e053fe60171b55e673/FormalConjectures/ErdosProblems/113.lean),
 added on 20 September 2026, which states the equivalence as `erdos_113` with
 the answer false, marks it research solved, and registers as its formal proof
 the development described next, saying that the linked proof refutes the
 "only if" direction through Janzer's construction; the community database
-records the statement as formalized since that date and the site's formal
-status as Lean since 24 August 2026. That outside Lean 4 development,
+records the statement as formalized since that date and erdosproblems.com's
+formal status as Lean since 24 August 2026. That outside Lean 4 development,
 `Erdos113.not_erdos_113` in Boris Alexeev's `plby/lean-proofs` repository
 (registered at a later commit than the one the claim page links), states the
 negation of the equivalence and declares itself a formalization of Janzer's
@@ -99,21 +100,21 @@ external inputs whose proofs are not reconstructed there.
 
 The theorem interface and the displayed specialization are checked against
 manuscript pages 1, 2, 4 and 8--11 only; this is not a whole-proof review.
-The Lean suffix of the site's label was its formal status: the
+The Lean suffix of the erdosproblems.com label was its formal status: the
 formal-conjectures statement file registers the outside Lean 4 development
 stating the disproof as its formal proof, that development is linked, unbuilt
 and unaudited, from
 [[problems/extremal_graph_theory/E0113/claims/2021_09_13_janzer|Janzer's claim page]],
 and neither the source compilation nor this page records a native Lean build
 or accepted formalization of this exact equivalence. The claim pages record
-Janzer's disproof as accepted on its refereed publication and the site's
-acceptance
+Janzer's disproof as accepted on its refereed publication and
+erdosproblems.com's acceptance
 ([[problems/extremal_graph_theory/E0113/claims/2021_09_13_janzer|claim page]]).
 The other direction, that every 2-degenerate bipartite graph has
 $\operatorname{ex}(n,H)=O(n^{3/2})$, is refuted by Theorem 1.2 of Chapter 10
 of OpenAI's 2026 report, accepted here
 ([[problems/extremal_graph_theory/E0113/claims/2026_08_01_openai|claim page]])
-on the site's crediting of the same theorem in labeling
+on erdosproblems.com's crediting of the same theorem in labeling
 [[problems/extremal_graph_theory/E0146/_index|Problem 146]] DISPROVED (LEAN),
 where the corpus records it as accepted. Earlier Erdős and Erdős--Simonovits
 passages and a complete proof of the reported Alon--Krivelevich--Sudakov bound

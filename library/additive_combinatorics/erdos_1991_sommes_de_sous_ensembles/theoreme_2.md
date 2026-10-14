@@ -88,4 +88,4 @@ None beyond the paper's own lemmas; the argument is elementary.
   conjecture $\liminf A(x)x^{-1/2}=0$ is the infinite form of the density
   question.
 - [[../wiki/problems/additive_combinatorics/E0874/_index|Problem 874]]: the infinite
-  version of the problem, which the site's Problem 875 records.
+  version of the problem, which erdosproblems.com's Problem 875 records.

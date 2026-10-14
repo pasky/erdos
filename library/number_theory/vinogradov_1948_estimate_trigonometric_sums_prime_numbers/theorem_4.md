@@ -72,8 +72,8 @@ and Lemma 8 of the same paper.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0972/_index|Problem 972]]: the site's
-  commentary cites this paper for the uniform distribution of
+- [[../wiki/problems/number_theory/E0972/_index|Problem 972]]: the
+  erdosproblems.com commentary cites this paper for the uniform distribution of
   $\{p\alpha\}$; a linear phase fails the lower bound on $|f^{(n)}|$, so
   Theorem 4 does not give that statement, and it does not address the
   problem's two-prime question.

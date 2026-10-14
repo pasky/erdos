@@ -37,13 +37,13 @@ $$
 
 exist? What is its explicit form?
 
-**Status.** Solved. The site, accessed 2026-09-04, labeled the problem SOLVED.
-It credits the value $12A\log c/\pi^2$ for $0<A<c/(1+c^2)$ to Erdős, Szüsz and
-Turán [EST58], and the existence of the limit to Kesten and Sós [KeSo66]. It
-credits alternative, more explicit proofs of the existence of the limit to Xiong
-and Zaharescu [XiZa06] and to Boca [Bo08]. The SOLVED label is read as resting
-on those two proofs for the explicit form. The claim pages are cited in the
-Current assessment.
+**Status.** Solved. erdosproblems.com, accessed 2026-09-04, labeled the problem
+SOLVED. It credits the value $12A\log c/\pi^2$ for $0<A<c/(1+c^2)$ to Erdős,
+Szüsz and Turán [EST58], and the existence of the limit to Kesten and Sós
+[KeSo66]. It credits alternative, more explicit proofs of the existence of the
+limit to Xiong and Zaharescu [XiZa06] and to Boca [Bo08]. The SOLVED label is
+read as resting on those two proofs for the explicit form. The claim pages are
+cited in the Current assessment.
 
 **Source.** [erdosproblems.com/1001](https://www.erdosproblems.com/1001),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1001,
@@ -73,10 +73,10 @@ recorded in this repository, so it warrants no `formalized` evidence.
 
 ## Current assessment
 
-The site recorded Problem 1001 as solved (accessed 2026-09-04). No independent
-check of any of the proofs is recorded. Five claim pages carry the standing,
-each with the journal publication as evidence and, where the site credits the
-result, the site's acceptance:
+erdosproblems.com recorded Problem 1001 as solved (accessed 2026-09-04). No
+independent check of any of the proofs is recorded. Five claim pages carry the
+standing, each with the journal publication as evidence and, where
+erdosproblems.com credits the result, erdosproblems.com's acceptance:
 [[problems/irrationality/E1001/claims/1958_01_01_erdos_szusz_turan|Erdős, Szüsz
 and Turán]] is a partial claim covering the existence and the value $12A\log
 c/\pi^2$ of the limit for $0<A<c/(1+c^2)$,

@@ -61,9 +61,9 @@ https://www.erdosproblems.com/855.
 
 ## Current assessment
 
-The standing above derives from the claim pages below, and the site's label
-was also OPEN. The notes below are not independently reviewed. Their scope is
-the sources the library holds on the inequality; the page records no
+The standing above derives from the claim pages below, and the erdosproblems.com
+label was also OPEN. The notes below are not independently reviewed. Their scope
+is the sources the library holds on the inequality; the page records no
 systematic literature search beyond them, and no independent assessment of
 proof coverage.
 

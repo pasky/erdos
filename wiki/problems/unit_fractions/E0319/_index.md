@@ -37,36 +37,35 @@ $$
 
 for all non-empty $A'\subsetneq A$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page shows
-no last-edited stamp). Write $c(N)$ for the largest size
-of a set $A\subseteq\{1,\ldots,N\}$ carrying signs $\delta$ whose signed
-reciprocals sum to zero while no nonempty proper subset of $A$, with the
-same signs, sums to zero: a minimal signed zero-sum relation among the
-reciprocals of $1,\ldots,N$. Trivially $c(N)\le N$, and $c(N)\ge4$ for
-$N\ge6$ because $A=\{1,2,3,6\}$ with $\delta(1)=1$ and $\delta=-1$
-elsewhere works (checked here: the full sum is $1-\frac12-\frac13-\frac16=0$
-and the fourteen proper nonempty subsums are nonzero). Adenwalla's bound
-$c(N)\ge(1-\frac1e+o(1))N$ (below, pending on its claim page) and the
-trivial bound would give $c(N)$ the order $N$; what the question then leaves
-open is the asymptotic: the limit of $c(N)/N$, if it exists, would lie in
-$[1-\frac1e,1]$, and whether $c(N)=(1-o(1))N$ is unknown. The
-formal-conjectures file also poses the $\Theta$-order variant, which the
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited stamp). Write $c(N)$ for the largest size of a set
+$A\subseteq\{1,\ldots,N\}$ carrying signs $\delta$ whose signed reciprocals sum
+to zero while no nonempty proper subset of $A$, with the same signs, sums to
+zero: a minimal signed zero-sum relation among the reciprocals of $1,\ldots,N$.
+Trivially $c(N)\le N$, and $c(N)\ge4$ for $N\ge6$ because $A=\{1,2,3,6\}$ with
+$\delta(1)=1$ and $\delta=-1$ elsewhere works (checked here: the full sum is
+$1-\frac12-\frac13-\frac16=0$ and the fourteen proper nonempty subsums are
+nonzero). Adenwalla's bound $c(N)\ge(1-\frac1e+o(1))N$ (below, pending on its
+claim page) and the trivial bound would give $c(N)$ the order $N$; what the
+question then leaves open is the asymptotic: the limit of $c(N)/N$, if it
+exists, would lie in $[1-\frac1e,1]$, and whether $c(N)=(1-o(1))N$ is unknown.
+The formal-conjectures file also poses the $\Theta$-order variant, which the
 lower bound together with $c(N)\le N$ would answer with $N$.
 
-**Status.** Labeled open on the site. The label was OPEN (the page shows no
-last-edited stamp), and the site marked the problem as not resolvable by a
-finite computation. The standing derived from the claim pages is open, claim
-none. Both claim pages are partial and pending, and a partial claim derives
-nothing.
+**Status.** Labeled open on erdosproblems.com. The label was OPEN (the page
+shows no last-edited stamp), and Bloom's catalog marked the problem as not
+resolvable by a finite computation. The standing derived from the claim pages is
+open, claim none. Both claim pages are partial and pending, and a partial claim
+derives nothing.
 
-The site's commentary credits Adenwalla with the lower bound
+The erdosproblems.com commentary credits Adenwalla with the lower bound
 $c(N)\ge(1-\frac1e+o(1))N$, from Croot's Main Theorem (Acta Arith. 99 (2001);
 refereed). The bound is written out below and recorded on
 [[problems/unit_fractions/E0319/claims/2025_09_15_adenwalla|Adenwalla's claim page]].
-The credit is commentary on a problem the site labeled OPEN, not an acceptance,
-so the bound is site-credited and pending. With the trivial upper bound $N$, it
-would give $c(N)$ the order $N$. The one claim on the site's proof-claim tab is
-an
+The credit is commentary on a problem Bloom's catalog labeled OPEN, not an
+acceptance, so the bound is erdosproblems.com-credited and pending. With the
+trivial upper bound $N$, it would give $c(N)$ the order $N$. The one claim on
+the erdosproblems.com proof-claim tab is an
 [[problems/unit_fractions/E0319/claims/2026_07_16_popular_12345|AI-assisted partial claim of 16 July 2026]]
 that $c(N)=N-o(N)$. It is pending. No determination of the asymptotic, and no
 proof that $c(N)=(1-o(1))N$, was found in the search dated 2026-09-18 UTC whose
@@ -77,9 +76,9 @@ certificate of openness.
 accessed 2026-09-18: the problem page (OPEN, marked as not resolvable by a
 finite computation; source key [ErGr80]; no last-edited stamp; a formalized
 statement recorded), its empty discussion thread and its proof-claim tab
-with one partial claim. The site cites [Cr01] in its commentary and thanks
-Sarosh Adenwalla and Hayato Egami. Cite as: T. F. Bloom, Erdős Problem #319,
-https://www.erdosproblems.com/319, accessed 2026-09-18.
+with one partial claim. erdosproblems.com cites [Cr01] in its commentary and
+thanks Sarosh Adenwalla and Hayato Egami. Cite as: T. F. Bloom, Erdős Problem
+#319, https://www.erdosproblems.com/319, accessed 2026-09-18.
 
 **References.**
 
@@ -109,19 +108,19 @@ maximum, also under `category research open` although `variants.lb` with the
 trivial bound answers it with $N$; and `erdos_319.variants.lb`, the lower
 bound $(1-1/e+o(1))N$ under `category research solved`, also with proof
 `sorry`, whose docstring credits Adenwalla and Croot [Cr01]. The formal set is
-the site's: subsets of $\{1,\ldots,N\}$ with a sign function and the two
-conditions. The file is a statement, not a proof, and on 2026-10-07 no
+erdosproblems.com's: subsets of $\{1,\ldots,N\}$ with a sign function and the
+two conditions. The file is a statement, not a proof, and on 2026-10-07 no
 declaration carried a `formal_proof` attribute. The community database
 (accessed 2026-10-06) records a formalized statement and no formal proof.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement
-above; status OPEN; source key [ErGr80]. In its commentary the site
-attributes to Adenwalla the bound $|A|\ge(1-\frac1e+o(1))N$, deduced from
-Croot's main result [Cr01]: Croot's theorem yields integers near the top of
-$[1,N]$ whose reciprocals sum to $1$, a counting estimate shows that there
-are at least $(1-\frac1e+o(1))N$ of them, and signing them $-1$ and the
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; status OPEN; source key [ErGr80]. In its commentary
+erdosproblems.com attributes to Adenwalla the bound $|A|\ge(1-\frac1e+o(1))N$,
+deduced from Croot's main result [Cr01]: Croot's theorem yields integers near
+the top of $[1,N]$ whose reciprocals sum to $1$, a counting estimate shows that
+there are at least $(1-\frac1e+o(1))N$ of them, and signing them $-1$ and the
 integer $1$ as $+1$ gives a signed zero-sum set (written out under Known
 results). The commentary also notes that the formal-conjectures project has
 a Lean statement of the problem. The thread is empty; the proof-claim tab
@@ -136,12 +135,12 @@ large can a set $A\subseteq\{1,2,\ldots,n\}$ be so that for some choice of
 $\delta_k$ [sic] $=\pm1$, $a\in A$, we have: (i)
 $\sum_{a\in A}\frac{\delta_a}{a}=0$; (ii) For every
 nonempty proper subset $A'\subset A$, $\sum_{a\in A'}\frac{\delta_a}{a}\ne0$?"
-The site's statement is this question with $N$ for $n$. The monograph
+The erdosproblems.com statement is this question with $N$ for $n$. The monograph
 gives no bound.
 
 **Known results.** The lower bound, pending on
 [[problems/unit_fractions/E0319/claims/2025_09_15_adenwalla|Adenwalla's claim page]],
-is the site's construction from Croot's
+is erdosproblems.com's construction from Croot's
 [[../library/unit_fractions/croot_1999_unit_fractions_denominators_short_intervals/main_theorem|Main Theorem]]
 (published p. 100; preprint p. 1; read depth on the result page: claims
 checked):
@@ -157,14 +156,14 @@ $1-1=0$; a proper nonempty subset either omits $1$, so its sum is negative,
 or contains $1$ and misses some $b\in B$, so its sum is
 $1-\sum_{b\in B'}1/b>0$ with $B'\subsetneq B$. Hence
 $c(N)\ge(1-\frac1e+o(1))N$. The minimality check is written here; the
-site's commentary states the bound and the choice of signs. Croot's paper
-itself does not mention signed sums; the theorem is used only for the set
+erdosproblems.com commentary states the bound and the choice of signs. Croot's
+paper itself does not mention signed sums; the theorem is used only for the set
 $B$. The trivial upper bound $c(N)\le N$ is the only upper bound found. The
 gap is the factor between $1-1/e\approx0.632$ and $1$; whether
 $c(N)=(1-o(1))N$ is the question left.
 
-**The site's proof claim.** The proof-claim tab lists one partial claim,
-submitted on 16 July 2026 by the account popular_12345 with the AI system
+**erdosproblems.com's proof claim.** The proof-claim tab lists one partial
+claim, submitted on 16 July 2026 by the account popular_12345 with the AI system
 OpenAI GPT-5.6 declared, asserting $c(N)=N-o(N)$: a fixed positive-signed
 block protected by a squarefree modulus, almost all modulus-coprime
 integers with small prime-power factors in an interval $(aN,N]$ on the
@@ -178,11 +177,11 @@ and leaves the density input, the negative side's asymptotics, the
 minimality argument and the main theorem unformalized. The claim has its
 page,
 [[problems/unit_fractions/E0319/claims/2026_07_16_popular_12345|the pending density-one claim]],
-with its links and the one comment under it; the site says appearing on the
-tab is no guarantee of correctness. The manuscript and the Lean files are
+with its links and the one comment under it; erdosproblems.com says appearing on
+the tab is no guarantee of correctness. The manuscript and the Lean files are
 unchecked by this corpus, and a partial claim derives no standing.
 
-**Search scope (2026-09-18 UTC).** The site's problem, discussion and
+**Search scope (2026-09-18 UTC).** The erdosproblems.com problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
 file at the pinned commit (statement only); the arXiv listing for
 math/9904181 (one version, no journal reference) and the Crossref record
@@ -205,13 +204,13 @@ only to lie in $[1-\frac1e,1]$; the lower bound rests on Croot's theorem,
 compiled as a statement with a structural sketch, plus the elementary
 deduction above. (2) The one proof claim is partial, AI-assisted and
 unchecked; it is pending on its claim page. (3) The exact values $c(N)$ for
-small $N$ are not tabulated (the site's OEIS field says "possible"; the
-example above gives $c(6)\ge4$ only).
+small $N$ are not tabulated (the erdosproblems.com OEIS field says "possible";
+the example above gives $c(6)\ge4$ only).
 
 ## Progress and known results
 
-- Lower bound $c(N)\ge(1-\frac1e+o(1))N$: the site's construction, credited
-  to Adenwalla and pending on
+- Lower bound $c(N)\ge(1-\frac1e+o(1))N$: erdosproblems.com's construction,
+  credited to Adenwalla and pending on
   [[problems/unit_fractions/E0319/claims/2025_09_15_adenwalla|Adenwalla's claim page]],
   from Croot's
   [[../library/unit_fractions/croot_1999_unit_fractions_denominators_short_intervals/main_theorem|Main Theorem]]

@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E0556/claims/1955_01_01_greenwood_gleason
 title: Greenwood and Gleason, R(3,3,3) = 17 refutes the bound at the triangle
 desc: |
-  Correct, but answers the site's wording (every cycle length $n\ge3$), not the
-  modified Statement (every $n>3$), so it does not count toward the problem's
-  standing. The classical value $R(3,3,3)=17$ of Greenwood and Gleason (Canad.
-  J. Math. 1955) exceeds $4n-3=9$ at $n=3$, the triangle.
+  Correct, but answers the erdosproblems.com wording (every cycle length
+  $n\ge3$), not the modified Statement (every $n>3$), so it does not count
+  toward the problem's standing. The classical value $R(3,3,3)=17$ of Greenwood
+  and Gleason (Canad. J. Math. 1955) exceeds $4n-3=9$ at $n=3$, the triangle.
 authors:
 - R. E. Greenwood
 - A. M. Gleason
@@ -28,9 +28,10 @@ updated: 2026-10-08T02:16:54Z
 
 ***
 
-**Claim.** The site's wording asks for $R_3(C_n)\le4n-3$ for every cycle
-length $n\ge3$. At $n=3$ the cycle is the triangle, $C_3=K_3$, and $R_3(C_3)$
-is the three-color Ramsey number $R(3,3,3)$. Greenwood and Gleason determined
+**Claim.** The erdosproblems.com wording asks for $R_3(C_n)\le4n-3$ for every
+cycle length $n\ge3$. At $n=3$ the cycle is the triangle, $C_3=K_3$, and
+$R_3(C_3)$ is the three-color Ramsey number $R(3,3,3)$. Greenwood and Gleason
+determined
 
 $$
 R(3,3,3)=17,
@@ -50,7 +51,7 @@ recorded on the problem page and on the partial claim pages
 and
 [[problems/ramsey_theory/E0556/claims/2008_09_21_benevides_skokan|Benevides and Skokan 2008]].
 
-**Why it is rejected.** It answers the site's wording, not the modified
-Statement.
+**Why it is rejected.** It answers the erdosproblems.com wording, not the
+modified Statement.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.

@@ -34,23 +34,23 @@ source cards or are recorded as claims with their authors' qualifications;
 nothing on the forum is treated as acceptance or review. The capture
 `discussion_20260917.html.gz` (the page titled "251 Discussion Thread | Erdős
 Problems", snapshotted 2026-09-17) contains no copyright, license or terms line,
-and the site's homepage and FAQ (https://www.erdosproblems.com/ and
+and erdosproblems.com's homepage and FAQ (https://www.erdosproblems.com/ and
 https://www.erdosproblems.com/faq, read 2026-10-02) state no copyright, license
 or terms of use, the only reuse-related text on the captured pages being a
 recommended citation format; the term is unstated. The capture
 `history_20260917.html.gz` (the page titled "Erdős Problems", snapshotted
-2026-09-17) contains no copyright, license or terms line, and the same site
-pages state no terms; the term is unstated. The capture
+2026-09-17) contains no copyright, license or terms line, and the same
+erdosproblems.com pages state no terms; the term is unstated. The capture
 `problem_20260917.html.gz` (the page titled "251 | Erdős Problems", snapshotted
-2026-09-17) contains no copyright, license or terms line, and the same site
-pages state no terms; the term is unstated. The capture
+2026-09-17) contains no copyright, license or terms line, and the same
+erdosproblems.com pages state no terms; the term is unstated. The capture
 `proof_claims_20260917.html.gz` (the page titled "Erdős Problems", snapshotted
-2026-09-17) contains no copyright, license or terms line, and the same site
-pages state no terms; the term is unstated.
+2026-09-17) contains no copyright, license or terms line, and the same
+erdosproblems.com pages state no terms; the term is unstated.
 
 **Compilation scope.** The reformulation is a complete elementary
 identity, checked here. Everything else in this unit is a dated record of
-what the site displayed; comments are author claims and confer no
+what erdosproblems.com displayed; comments are author claims and confer no
 mathematical standing.
 
 **Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]].

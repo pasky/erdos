@@ -33,7 +33,7 @@ monotonically with $m$." Reference [3] is Bondy and Erdős (1973).
 As printed, the conjecture in (i) has no exception: at $m=n=3$ the formula
 gives $5$ while $r(C_3,K_3)=r(K_3,K_3)=6$, so the conjecture is stated for
 $m\ge n\ge3$ with $(m,n)\ne(3,3)$ by Nikiforov (2004) and by Keevash, Long
-and Skokan (2018), and in that form by the site's Problem 551.
+and Skokan (2018), and in that form by erdosproblems.com's Problem 551.
 
 **Source.** P. Erdős, R. J. Faudree, C. C. Rousseau and R. H. Schelp, On
 cycle-complete graph Ramsey numbers, J. Graph Theory 2 (1978), 53--64;
@@ -57,6 +57,7 @@ None; the quoted range rests on Bondy and Erdős (1973).
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0551/_index|Problem 551]]: the problem's origin in
-  its 1978 wording, without the exception at $(3,3)$ that the site's
+  its 1978 wording, without the exception at $(3,3)$ that the erdosproblems.com
   statement carries; question (ii), the cycle length minimizing
-  $r(C_m,K_n)$, is the second question the site attributes to the paper.
+  $r(C_m,K_n)$, is the second question erdosproblems.com attributes to the
+  paper.

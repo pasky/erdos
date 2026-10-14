@@ -28,7 +28,7 @@ the first nontrivial lower bound for the triangle degree-sum function.
 P. Erdős and R. Laskar, *A note on the size of a chordal subgraph*,
 Proceedings of the Sixteenth Southeastern International Conference on
 Combinatorics, Graph Theory and Computing (Boca Raton, Fla., 1985), Congr.
-Numer. **48** (1985), 81--86; MR 87k:05098; Zbl 647.05034. The site's
+Numer. **48** (1985), 81--86; MR 87k:05098; Zbl 647.05034. The erdosproblems.com
 reference key ErLa85.
 
 **Edition read.** The copy read for this card is the Rényi
@@ -98,8 +98,8 @@ nontrivial lower bound of the problem, a triangle with degree sum
 $>n(1+\eta)$ for a fixed $\eta>0$ in every graph with $[n^2/4]+1$ edges and
 $n>n_0$, so $h(n)\ge(1+\eta)n$ for large $n$; the p. 82 remark attests
 Edwards's 1977 theorem (degree sum $\ge2n$ once $m\ge n^2/3$) second-hand;
-the site's attribution of the upper bound $2(\sqrt3-1)n+O(1)$ to this paper
-("not made explicit") finds no construction in its six pages, which is
+the erdosproblems.com attribution of the upper bound $2(\sqrt3-1)n+O(1)$ to this
+paper ("not made explicit") finds no construction in its six pages, which is
 recorded on the problem page.
 
 **Results.**

@@ -43,7 +43,7 @@ arXiv:1411.4196 version 1 (15 November 2014), the edition named on the
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0777/_index|Problem 777]]: the
-  site's commentary derives the yes answer to the problem's first question
-  from Theorem 1.4 and this corollary with $k=2$, where the tower of two
-  cubes has $2^{n/2+1}-1$ sets. The paper does not state that question and
+  erdosproblems.com commentary derives the yes answer to the problem's first
+  question from Theorem 1.4 and this corollary with $k=2$, where the tower of
+  two cubes has $2^{n/2+1}-1$ sets. The paper does not state that question and
   does not print that deduction.

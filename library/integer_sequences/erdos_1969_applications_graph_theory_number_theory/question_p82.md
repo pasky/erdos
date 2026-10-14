@@ -43,5 +43,5 @@ None (a question).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0490/_index|Problem 490]]: the problem's
-  statement in this paper's wording; the site's key [Er69, p. 81] for the
-  problem points here.
+  statement in this paper's wording; the erdosproblems.com key [Er69, p. 81] for
+  the problem points here.

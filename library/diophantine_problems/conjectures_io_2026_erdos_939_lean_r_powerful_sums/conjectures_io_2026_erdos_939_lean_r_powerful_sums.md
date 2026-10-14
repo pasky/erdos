@@ -14,16 +14,16 @@ updated: 2026-10-05T05:52:35Z
 **Source type.** A Lean 4 file published by a proof marketplace with its
 machine verification report and a written review decision; no PDF or paper
 accompanies it (the result and solution pages offer only the Lean download,
-and the site's papers listing answered HTTP 404 on 2026-09-27).
+and Conjectures.io's papers listing answered HTTP 404 on 2026-09-27).
 
 **Publisher and author attribution.** Conjectures.io publishes the record
 and credits the proof to the submitting hotkey
 `5H3ZSqH9o4ynabLEASeDi4vTi9hoTfHCEe8V37nPstNHznXs` (displayed as
 `5H3ZSq…NHznXs`). The file's own header names its subject "Infinite
-r-Powerful Sums" and a document `E939_Partial.tex`; the site's decision text
-credits nobody else.
+r-Powerful Sums" and a document `E939_Partial.tex`; Conjectures.io's decision
+text credits nobody else.
 
-**Dates shown by the site.** Verified 6 Aug 2026; certified 6 Aug 2026;
+**Dates shown by Conjectures.io.** Verified 6 Aug 2026; certified 6 Aug 2026;
 review decided 6 Aug 2026; the decision document gives the acceptance time
 2026-08-06 09:50:38 UTC.
 
@@ -40,7 +40,7 @@ review decided 6 Aug 2026; the decision document gives the acceptance time
   <https://conjectures.io/v1/results/91915fc3-9040-4a31-8da5-b49d4e2cc2fb/report>.
 - Problem page with the task's withdrawal notice:
   <https://conjectures.io/problems/erdos939-erdos-939>.
-- Review decision document in the site's validator repository:
+- Review decision document in Conjectures.io's validator repository:
   <https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-939.md>.
 - Pinned catalog statement:
   <https://github.com/google-deepmind/formal-conjectures/blob/379fc0298dc146df549e7061c3ede0353a5bb51f/FormalConjectures/ErdosProblems/939.lean>.

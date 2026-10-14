@@ -23,8 +23,8 @@ updated: 2026-10-07T10:53:17Z
 $P=\prod_{1\leq i\leq n}p_i$. Does there always exist some prime $p$ with
 $p_n<p<P$ such that $P+p$ is prime?
 
-**Status.** Falsifiable. This is the site's label. It marks an open problem that
-a single finite counterexample would disprove.
+**Status.** Falsifiable. This is the erdosproblems.com label. It marks an open
+problem that a single finite counterexample would disprove.
 
 **Source.** [erdosproblems.com/779](https://www.erdosproblems.com/779), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #779,
@@ -36,13 +36,13 @@ https://www.erdosproblems.com/779.
 ## Current assessment
 
 No literature search or independent assessment is recorded on this page; the
-Status sentence gives the site's label. That label, Falsifiable, records an
-open question whose negation one finite counterexample would witness: a
-counterexample is a single $n>1$ for which no prime $p$ with $p_n<p<P$ makes
+Status sentence gives the erdosproblems.com label. That label, Falsifiable,
+records an open question whose negation one finite counterexample would witness:
+a counterexample is a single $n>1$ for which no prime $p$ with $p_n<p<P$ makes
 $P+p$ prime, a check by finite arithmetic over the primes below $P$, while a
 proof must cover every $n$. The label is a body note, not a claim, and the
-problem has no claim page. The site's commentary attributes the question to
-Deaconescu, records the proposer's verification of it for $n\le1000$, and
-reports Erdős's expectation that the least such $p$ is at most a fixed power
-of $n$; its probabilistic heuristic makes a failure at any $n$ extremely
-unlikely. Nothing here is independently reviewed.
+problem has no claim page. The erdosproblems.com commentary attributes the
+question to Deaconescu, records the proposer's verification of it for
+$n\le1000$, and reports Erdős's expectation that the least such $p$ is at most a
+fixed power of $n$; its probabilistic heuristic makes a failure at any $n$
+extremely unlikely. Nothing here is independently reviewed.

@@ -56,8 +56,8 @@ September 2026; the download URL was not recorded. 1,777,857 bytes. No notice
 is printed in the image-only scan (pages 1 and 20 rendered); the journal's
 article page, which files the paper under volume 139, issue 3, shows only the
 footer "Copyright © 2026 Annals of Mathematics" and names no license
-(https://annals.math.princeton.edu/1994/193-3/p06, the site's own path, read
-2026-10-07), and the JSTOR page for DOI 10.2307/2118576
+(https://annals.math.princeton.edu/1994/193-3/p06, erdosproblems.com's own path,
+read 2026-10-07), and the JSTOR page for DOI 10.2307/2118576
 (https://www.jstor.org/stable/2118576) did not render on 2026-10-02, every
 other right reserved.
 

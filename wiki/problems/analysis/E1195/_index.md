@@ -27,14 +27,14 @@ $x/y$ is never an integer for all distinct $x,y\in S$.
 
 How fast can $\lvert S\cap (0,x)\rvert$ tend to infinity?
 
-**Status.** Solved, the site's label. Boon Suan Ho, working with GPT-5.4 Pro,
-characterized the attainable growth. For non-decreasing $F\to\infty$, some
-admissible $S$ has measure at least $F(x)$ in $(0,x)$ for all large $x$ exactly
-when $\int_1^\infty F(x)x^{-2}\,dx<\infty$. The accepted claim is
-[[problems/analysis/E1195/claims/2026_04_19_ho|Ho's sharp growth criterion]]. It
-is credited by the site's curator and not refereed. A Lean formalization in
-Boris Alexeev's repository is linked on the claim page. This corpus has not
-built or audited it.
+**Status.** Solved, the erdosproblems.com label. Boon Suan Ho, working with
+GPT-5.4 Pro, characterized the attainable growth. For non-decreasing
+$F\to\infty$, some admissible $S$ has measure at least $F(x)$ in $(0,x)$ for all
+large $x$ exactly when $\int_1^\infty F(x)x^{-2}\,dx<\infty$. The accepted claim
+is [[problems/analysis/E1195/claims/2026_04_19_ho|Ho's sharp growth criterion]].
+It is credited by the erdosproblems.com curator and not refereed. A Lean
+formalization in Boris Alexeev's repository is linked on the claim page. This
+corpus has not built or audited it.
 
 **Source.** [erdosproblems.com/1195](https://www.erdosproblems.com/1195),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1195,
@@ -52,8 +52,8 @@ https://www.erdosproblems.com/1195.
   (1971), 287-288.
 
 **Formalization.** No statement file for the problem exists in
-formal-conjectures (none on `main` on 2026-10-07; the site's page lists no
-formalised statement and the community database records the problem
+formal-conjectures (none on `main` on 2026-10-07; the erdosproblems.com page
+lists no formalised statement and the community database records the problem
 unformalized). A
 [Lean formalization](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1195.lean)
 of Ho's theorem in Boris Alexeev's lean-proofs repository, naming Boon Suan

@@ -21,8 +21,8 @@ and Ziyuan Zhao, *Leaf-to-leaf paths and cycles in degree-critical graphs*,
 Combinatorica **46** (2026), article 11, DOI 10.1007/s00493-026-00205-2 (the
 journal reference as the arXiv record carried it on 2026-09-18; the journal
 text is not held). Combinatorica is a refereed journal. Not a source key of
-the site; Problem 815's page cites it as [DKMMZ26]. The paper it answers is
-held as
+erdosproblems.com; Problem 815's page cites it as [DKMMZ26]. The paper it
+answers is held as
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/_index|narins_2017_graphs_without_proper_subgraphs_minimum_degree]].
 
 **Retained artifact.** The
@@ -88,9 +88,9 @@ compared with the retained arXiv copy.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0815/_index|#815]]: Problem F
 (p. 22 = PDF p. 22, page image) restates the Narins--Pokrovskiy--Szabó
-question on even cycle lengths, the site's even-$k$ case, as open in a
+question on even cycle lengths, erdosproblems.com's even-$k$ case, as open in a
 refereed paper of 2026, with the authors' statement that their tools seem
-insufficient; p. 2 attests the disproof of the site's question at $k=23$,
-the cycle of length 6, and the Erdős--Faudree--Gyárfás--Schelp cycles of
+insufficient; p. 2 attests the disproof of the erdosproblems.com question at
+$k=23$, the cycle of length 6, and the Erdős--Faudree--Gyárfás--Schelp cycles of
 lengths 3, 4 and 5; Theorem 1 gives $\Omega(\log n)$ distinct cycle
 lengths, context and not the fixed-length question.

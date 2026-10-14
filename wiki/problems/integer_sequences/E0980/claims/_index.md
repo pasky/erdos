@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 980, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0980/claims
@@ -17,6 +17,6 @@ is the case $k=2$, and the result is refereed in Mat. Lapok.
 
 [[problems/integer_sequences/E0980/claims/1967_01_09_elliott|1967_01_09_elliott]]: Elliott proves the asymptotic for every $k\ge2$, under the convention
 $n_k(p)=0$ for $p\not\equiv1\pmod k$, which the page adopts. It is refereed in
-Acta Arithmetica, and the catalog credits it as the proof.
+Acta Arithmetica, and Bloom's catalog credits it as the proof.
 
 ***

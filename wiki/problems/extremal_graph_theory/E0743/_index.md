@@ -24,24 +24,24 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Let $T_2,\ldots,T_n$ be a collection of trees such that $T_k$ has
 $k$ vertices. Can we always write $K_n$ as the edge disjoint union of the $T_k$?
 
-**Formulation.** The site's wording, accessed 2026-09-19 (the page shows no
-last-edited date). This is the tree packing conjecture of
-Gyárfás (stated with Lehel in the 1976 Keszthely proceedings, published
-1978), for every $n\ge2$: since $\sum_{k=2}^n(k-1)=\binom n2$, a packing of
-edge-disjoint copies of $T_2,\ldots,T_n$ into $K_n$ uses every edge, so
-"edge disjoint union" and "packing" ask the same thing; the sources index
-the trees $T_1,\ldots,T_n$ with $|T_i|=i$, $T_1$ having no edges. For a
-single $n$ the question is a finite check. The label FALSIFIABLE is the
-site's; the site's page defines it as an open problem that a finite
-counterexample could refute. Erdős's words are quoted under the Current
-assessment.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-19 (the page
+shows no last-edited date). This is the tree packing conjecture of Gyárfás
+(stated with Lehel in the 1976 Keszthely proceedings, published 1978), for every
+$n\ge2$: since $\sum_{k=2}^n(k-1)=\binom n2$, a packing of edge-disjoint copies
+of $T_2,\ldots,T_n$ into $K_n$ uses every edge, so "edge disjoint union" and
+"packing" ask the same thing; the sources index the trees $T_1,\ldots,T_n$ with
+$|T_i|=i$, $T_1$ having no edges. For a single $n$ the question is a finite
+check. The label FALSIFIABLE is erdosproblems.com's; the erdosproblems.com page
+defines it as an open problem that a finite counterexample could refute. Erdős's
+words are quoted under the Current assessment.
 
-**Status.** Falsifiable is the site's label. The conjecture is open. That a
-single $n$ with a family of trees that does not pack would refute it is a note
-of the Current assessment, not a claim. The results that settle instances of the
-conjecture are recorded as partial claim pages, accepted or pending as their
-evidence allows. With the withdrawn page described below, they are the pages
-from which the frontmatter standing, open, is derived. No full claim is pending.
+**Status.** Falsifiable is the erdosproblems.com label. The conjecture is open.
+That a single $n$ with a family of trees that does not pack would refute it is a
+note of the Current assessment, not a claim. The results that settle instances
+of the conjecture are recorded as partial claim pages, accepted or pending as
+their evidence allows. With the withdrawn page described below, they are the
+pages from which the frontmatter standing, open, is derived. No full claim is
+pending.
 
 No proof, disproof or accepted proof claim was found in the search dated
 2026-09-19 UTC whose scope the Current assessment records. This is a bounded
@@ -79,12 +79,12 @@ A forum computation of 8 September 2026 reports $n=12$, which is a lead.
 
 **Source.** [erdosproblems.com/743](https://www.erdosproblems.com/743),
 accessed 2026-09-19: the problem page (FALSIFIABLE,
-with the site's definition of the label; no last-edited date shown; source
-key [Er81]; commentary citing [GyLe78], [Fi83], [Bo83], [JKKO19], [ABCHPT21]
-and [JaMo24]; a thanks line; "Formalised statement? No"), its six-comment discussion thread (28 February
-2026 to 8 September 2026) and its empty proof-claim tab. Cite as: T. F.
-Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
-2026-09-19.
+with the erdosproblems.com definition of the label; no last-edited date shown;
+source key [Er81]; commentary citing [GyLe78], [Fi83], [Bo83], [JKKO19],
+[ABCHPT21] and [JaMo24]; a thanks line; "Formalised statement? No"), its
+six-comment discussion thread (28 February 2026 to 8 September 2026) and its
+empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #743,
+https://www.erdosproblems.com/743, accessed 2026-09-19.
 
 **References.**
 
@@ -118,16 +118,16 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   [[../library/extremal_graph_theory/janzer_2024_packing_largest_trees_tree_packing_conjecture/theorem_1_2|theorem_1_2]].
 - [GuMa90] Guichard, David R. and Massman, John D., A note on packing
   complete graphs with trees. J. Combin. Math. Combin. Comput. 8 (1990),
-  123--126 (zbMATH record 22649; no DOI). Not a site key; named in the
-  thread on 27 August 2026. The note is open access on the publisher's
-  site. Library home:
+  123--126 (zbMATH record 22649; no DOI). Not an erdosproblems.com key; named in
+  the thread on 27 August 2026. The note is open access on the publisher's site.
+  Library home:
   [[../library/extremal_graph_theory/guichard_1990_note_packing_complete_graphs_trees/_index|guichard_1990_note_packing_complete_graphs_trees]];
   paged at
   [[../library/extremal_graph_theory/guichard_1990_note_packing_complete_graphs_trees/verification_p124|verification_p124]].
 - [Fi83] Fishburn, P. C., Balanced integer arrays: a matrix packing theorem.
   J. Combin. Theory Ser. A 34 (1983), no. 1, 98--101,
   doi:10.1016/0097-3165(83)90045-6 (Crossref record accessed 2026-09-19;
-  text read). The site's key. Proposition 1, p. 98, with
+  text read). The erdosproblems.com key. Proposition 1, p. 98, with
   Graham's observation, p. 99: the degree sequences of $T_1,\ldots,T_n$
   pack into that of $K_n$ (Graham's conjecture), as [JKKO19] (p. 1) and
   [GuMa90] (p. 123) cite it; the note states no result on the conjecture
@@ -139,15 +139,15 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   Theory 7 (1983), no. 3, 369--383, doi:10.1002/jgt.3190070309 (Crossref
   record accessed 2026-09-19, whose abstract ends "The conjectures are also
   valid for all trees when $n\le9$, so that the Gyárfás-Lehel conjecture
-  holds for $n\le9$"). Not held; not a site key; the paper [JaMo24] and
-  [GuMa90] cite for the $n\le9$ verification.
+  holds for $n\le9$"). Not held; not an erdosproblems.com key; the paper
+  [JaMo24] and [GuMa90] cite for the $n\le9$ verification.
 - [GyLe78] Gyárfás, A. and Lehel, J., Packing trees of different order into
   $K_n$. Combinatorics (Proc. Fifth Hungarian Colloq., Keszthely, 1976),
   Colloq. Math. Soc. János Bolyai 18, North-Holland (1978), 463--469 (as
-  [GuMa90] and [ABCHPT21] cite it; the site's reference text gives no
+  [GuMa90] and [ABCHPT21] cite it; the erdosproblems.com reference text gives no
   venue). Not held (print only; no attempt); its cases (all but at most two
-  trees stars, or all stars or paths) are quoted from the site and [JaMo24];
-  [Bo83] (p. 203) attests the stars case.
+  trees stars, or all stars or paths) are quoted from erdosproblems.com and
+  [JaMo24]; [Bo83] (p. 203) attests the stars case.
 - [Bo83] Bollobás, Béla, Some remarks on packing trees. Discrete Math. 46
   (1983), no. 2, 203--204, doi:10.1016/0012-365X(83)90254-6 (Crossref and zbMATH
   records accessed 2026-09-19; the publisher's open-archive license dated 2013;
@@ -169,21 +169,21 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
 **Formalization.** None. No file `ErdosProblems/743.lean` existed in
 formal-conjectures on 2026-09-19, neither in the directory
 `FormalConjectures/ErdosProblems/` (682 entries) nor elsewhere in the tree
-(1,751 entries); the site's page shows "Formalised statement? No (create one)";
-the community database (teorth/erdosproblems, `data/problems.yaml` read
-2026-09-19) records the problem falsifiable (last update 31 August 2025),
-unformalized, with no formalized statement and the comment "tree packing
-conjecture".
+(1,751 entries); the erdosproblems.com page shows "Formalised statement? No
+(create one)"; the community database (teorth/erdosproblems,
+`data/problems.yaml` read 2026-09-19) records the problem falsifiable (last
+update 31 August 2025), unformalized, with no formalized statement and the
+comment "tree packing conjecture".
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-19).** The statement
-above; FALSIFIABLE, which the site defines as open but refutable by a finite
-counterexample; no last-edited date. The commentary, in this page's words:
-the site calls this Gyárfás's tree packing conjecture and lists the known
-cases, each with its key: [GyLe78] for families in which every tree but at
-most two is a star, and for families of stars and paths; [Fi83] for
-$n\le9$; [Bo83] for a greedy packing of the smallest
+**The question (erdosproblems.com formulation accessed 2026-09-19).** The
+statement above; FALSIFIABLE, which erdosproblems.com defines as open but
+refutable by a finite counterexample; no last-edited date. The commentary, in
+this page's words: erdosproblems.com calls this Gyárfás's tree packing
+conjecture and lists the known cases, each with its key: [GyLe78] for families
+in which every tree but at most two is a star, and for families of stars and
+paths; [Fi83] for $n\le9$; [Bo83] for a greedy packing of the smallest
 $\lfloor n/\sqrt2\rfloor$ trees; [JKKO19] for bounded maximum degree;
 [ABCHPT21] for maximum degree $O(n/\log n)$; and [JaMo24] for a linear
 number of the largest trees. The six thread comments and the empty
@@ -255,7 +255,7 @@ Conjecture 2 ([ABCHPT21], p. 3, "Gyárfás [11] formulated this conjecture in
   [JKKO19] p. 1 states it as packing $T_{n-n^{1/4}/10},\ldots,T_{n-1}$ into
   $K_n$).
 - Special classes: every tree but at most two a star, or every tree a star
-  or a path ([GyLe78], per the site and [JaMo24] p. 1); stars or double
+  or a path ([GyLe78], per erdosproblems.com and [JaMo24] p. 1); stars or double
   stars (Hobbs, per [JaMo24]); Fishburn's classes (per [GuMa90]
   pp. 123--124).
 - Small $n$: every $n\le9$, by hand (Fishburn produced $\mathcal U_2$
@@ -273,7 +273,7 @@ Conjecture 2 ([ABCHPT21], p. 3, "Gyárfás [11] formulated this conjecture in
   approach suggested by Fishburn is unlikely to work in general"). This is
   the published frontier of the finite check.
 
-**A site-versus-source item.** The site
+**An erdosproblems.com-versus-source item.** erdosproblems.com
 attributes the $n\le9$ verification to [Fi83], "Balanced integer arrays: a
 matrix packing theorem" (J. Combin. Theory Ser. A 34 (1983), 98--101).
 [JKKO19] (p. 1) cites that note for a different fact, that the degree
@@ -291,8 +291,8 @@ nonnegative matrix each of whose columns sums to $n$ such that the nonzero
 entries in row $i$ are a permutation of the components of $t^i$", which
 with Graham's observation (p. 99) is the degree-sequence packing [JKKO19]
 cites, and it states no result on the conjecture itself for any $n$. The
-site's key for the $n\le9$ verification therefore names the wrong Fishburn
-paper; the result belongs to [Fi83b], which is not held, and its
+erdosproblems.com key for the $n\le9$ verification therefore names the wrong
+Fishburn paper; the result belongs to [Fi83b], which is not held, and its
 attestation stays second-hand. The difference concerns the key, not the
 mathematics.
 
@@ -326,8 +326,8 @@ recorded on this page.
   its arguments; a second comment of 1 March 2026 reports a GPT-based check,
   as its poster names it, whose output claimed two major gaps, with the
   poster's caveat that such claims are not guaranteed. On 2026-09-19 the
-  site's page did not mention the claim or the withdrawal, and its label was
-  unchanged; the authors withdrew the claim on 1 September 2026.
+  erdosproblems.com page did not mention the claim or the withdrawal, and its
+  label was unchanged; the authors withdrew the claim on 1 September 2026.
 - Verification at $n=10$ (15 August 2026, the account RajveerKapoor): the
   poster reports, with the help of an AI system the post names as Opus 5,
   that the conjecture holds for $n=10$, all $45{,}376{,}056$ sequences
@@ -364,7 +364,7 @@ recorded on this page.
 a disproof, an accepted proof claim, or a refereed verification beyond
 $n\le11$.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree (no file 743); the community
   database entry.
 - arXiv API: the records of 2106.11720 (v3 of 8 September 2026 is the
@@ -401,15 +401,15 @@ compiled as preprints with their qualifications; reopening condition for the
 qualification: a journal record for either. (3) The $n=12$ computation is an
 unreviewed forum claim; a second implementation reproducing it, or a
 refereed report, would extend the frontier. (4) [Fi83b] and [GyLe78] are
-not held; their results are second-hand from the other sources and the site.
-[Fi83] proves Graham's degree-sequence packing and contains no verification
-of the conjecture, so the site's key for the $n\le9$ result is recorded as
-naming the wrong Fishburn paper. (5) Proof coverage: statements only for
-[JKKO19], [ABCHPT21], [JaMo24] and [GuMa90]; the one-page proofs of [Bo83]
-and [Fi83] are followed in full; nothing is independently reviewed.
-(6) The label FALSIFIABLE is recorded as the site's; the problem's standing
-is open, derived from its claim pages, and that a finite counterexample would
-refute the conjecture is this body note, not a claim.
+not held; their results are second-hand from the other sources and
+erdosproblems.com. [Fi83] proves Graham's degree-sequence packing and contains
+no verification of the conjecture, so the erdosproblems.com key for the $n\le9$
+result is recorded as naming the wrong Fishburn paper. (5) Proof coverage:
+statements only for [JKKO19], [ABCHPT21], [JaMo24] and [GuMa90]; the one-page
+proofs of [Bo83] and [Fi83] are followed in full; nothing is independently
+reviewed. (6) The label FALSIFIABLE is recorded as erdosproblems.com's; the
+problem's standing is open, derived from its claim pages, and that a finite
+counterexample would refute the conjecture is this body note, not a claim.
 
 ## Known results
 
@@ -431,9 +431,9 @@ refute the conjecture is this body note, not a claim.
 - [[../library/extremal_graph_theory/fishburn_1983_balanced_integer_arrays_matrix_packing_theorem/proposition_1|Fishburn 1983, Proposition 1]]
   (1983): Graham's necessary condition, that the degree sequences of
   $T_1,\ldots,T_n$ pack into that of $K_n$, holds for every $n$; not a
-  packing of the trees, and not the $n\le9$ verification the site's key
-  suggests.
-- [GyLe78] (not held; per the site and [JaMo24]): stars and paths.
+  packing of the trees, and not the $n\le9$ verification the erdosproblems.com
+  key suggests.
+- [GyLe78] (not held; per erdosproblems.com and [JaMo24]): stars and paths.
 - [Er81], p. 15: the conjecture in Erdős's words.
 <!-- BEGIN problem library links -->
 

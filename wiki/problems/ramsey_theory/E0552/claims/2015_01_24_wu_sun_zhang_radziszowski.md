@@ -58,6 +58,6 @@ counting bound and constructions.
 **Acceptance.** Refereed: the paper is a journal publication in Graphs and
 Combinatorics, volume 31, number 6 (2015). This is the `refereed` evidence. It
 was published online on 24 January 2015, the date this page is named by. The
-site's curator refers to this paper in the commentary on exact values. But the
-site's label OPEN settles neither the problem nor a declared part of it, so
-`reviewed` is not listed.
+erdosproblems.com curator refers to this paper in the commentary on exact
+values. But the erdosproblems.com label OPEN settles neither the problem nor a
+declared part of it, so `reviewed` is not listed.

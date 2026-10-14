@@ -29,10 +29,10 @@ $$
 
 always exists?
 
-**Status.** PROVED (LEAN), the site's label. The answer is yes. Wirsing proved
-in 1967 that every multiplicative $f:\mathbb{N}\to\{-1,1\}$ has a mean value,
-and Halász generalized the theorem in 1968. Both results are refereed. Their
-accepted claim pages are
+**Status.** PROVED (LEAN), the erdosproblems.com label. The answer is yes.
+Wirsing proved in 1967 that every multiplicative $f:\mathbb{N}\to\{-1,1\}$ has a
+mean value, and Halász generalized the theorem in 1968. Both results are
+refereed. Their accepted claim pages are
 [[problems/arithmetic_functions/E0239/claims/1967_09_01_wirsing|Wirsing 1967]]
 and
 [[problems/arithmetic_functions/E0239/claims/1968_09_01_halasz|Halász 1968]].
@@ -48,8 +48,9 @@ https://www.erdosproblems.com/239.
 - [Ha68] Halász, G., Über die Mittelwerte multiplikativer zahlentheoretischer
   Funktionen. Acta Math. Acad. Sci. Hungar. (1968), 365-403.
 - [Wi67] Wirsing, E., Das asymptotische Verhalten von Summen über multiplikative
-  Funktionen. II. Acta Math. Acad. Sci. Hung. (1967), 411-467 (the site's
-  entry omits the part number; part I is a different paper of 1961).
+  Funktionen. II. Acta Math. Acad. Sci. Hung. (1967), 411-467 (the
+  erdosproblems.com entry omits the part number; part I is a different paper of
+  1961).
 
 **Formalization.** The statement file
 [`ErdosProblems/239.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/239.lean)
@@ -60,13 +61,13 @@ Lean label" below.
 
 ## Current assessment
 
-**The question (site formulation as imported on 2026-09-04).** Whether the
-mean value $\lim_{N\to\infty}N^{-1}\sum_{n\le N}f(n)$ exists for every
-multiplicative $f:\mathbb{N}\to\{-1,1\}$. PROVED (LEAN). The site's commentary
-(read 2026-10-07) credits the affirmative answer to Wirsing [Wi67] and its
-generalization to Halász [Ha68], and notes, after Wintner, that the limit need
-not exist when $f$ takes complex values on the unit circle, Rényi's example
-being $f(n)=n^{i}$.
+**The question (erdosproblems.com formulation as imported on 2026-09-04).**
+Whether the mean value $\lim_{N\to\infty}N^{-1}\sum_{n\le N}f(n)$ exists for
+every multiplicative $f:\mathbb{N}\to\{-1,1\}$. PROVED (LEAN). The
+erdosproblems.com commentary (read 2026-10-07) credits the affirmative answer to
+Wirsing [Wi67] and its generalization to Halász [Ha68], and notes, after
+Wintner, that the limit need not exist when $f$ takes complex values on the unit
+circle, Rényi's example being $f(n)=n^{i}$.
 
 **Standing.** Two accepted full claims, both refereed papers in Acta
 Mathematica Academiae Scientiarum Hungaricae:
@@ -78,11 +79,14 @@ which determines the asymptotic behavior of the partial sums of every
 multiplicative function of modulus at most one (the mean value, when it
 exists) and contains Wirsing's theorem. The two agree, and the problem's
 standing follows from them. Neither paper is carded in the library; the
-statements below follow the site's commentary and the textbook accounts in
-Tenenbaum, *Introduction to Analytic and Probabilistic Number Theory*, Chapter III.4 (Mean values of multiplicative functions), and Elliott, *Probabilistic Number Theory I*, Chapter 6 (Theorems of Delange, Wirsing, and Halász).
+statements below follow the erdosproblems.com commentary and the textbook
+accounts in Tenenbaum, *Introduction to Analytic and Probabilistic Number
+Theory*, Chapter III.4 (Mean values of multiplicative functions), and Elliott,
+*Probabilistic Number Theory I*, Chapter 6 (Theorems of Delange, Wirsing, and
+Halász).
 
-**Formalization and the Lean label.** The Lean marker of the site's label
-PROVED (LEAN) matches the community database's Lean formal status dated
+**Formalization and the Lean label.** The Lean marker of the erdosproblems.com
+label PROVED (LEAN) matches the community database's Lean formal status dated
 2026-08-23. The repository `plby/lean-proofs` holds
 `src/latest/ErdosProblems/Erdos239.lean`, whose header declares it a
 formalization of a solution with Eduard Wirsing as informal author and Codex
@@ -94,8 +98,8 @@ details. They formalize Wirsing's result and are not an independent proof. No
 Lean file was built, kernel-checked or audited in this repository, and no
 `formalized` evidence is claimed.
 
-**Search scope.** The site's problem page as of 2026-10-07 and its empty
-proof-claims thread; the community database's entry, read 2026-10-06; the
+**Search scope.** The erdosproblems.com problem page as of 2026-10-07 and its
+empty proof-claims thread; the community database's entry, read 2026-10-06; the
 Crossref records of the two papers, for their issue dates; the
 formal-conjectures statement file and the header, theorem statement and
 imports of the community Lean file at their pinned commits. Neither paper is

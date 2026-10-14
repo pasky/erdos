@@ -109,8 +109,8 @@ The paper contains no proofs. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0749/_index|#749]], as the source
 of the problem (1.3, p. 263); [[../wiki/problems/ramsey_theory/E0085/_index|#85]], as the
-site's source Er94b, stating the problem and its weaker version with a
-constant $c$ (2.5, p. 266, PDF p. 6);
+erdosproblems.com source Er94b, stating the problem and its weaker version with
+a constant $c$ (2.5, p. 266, PDF p. 6);
 [[../wiki/problems/distance_problems/E0090/_index|#90]], as
 the paper in which Erdős dates the unit distance conjecture to 1946 (3.1,
 p. 267); [[../wiki/problems/distance_problems/E0099/_index|#99]], as the source of the

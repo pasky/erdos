@@ -31,15 +31,16 @@ $n=a+b$?
 uniqueness of the pair $(a,b)$, not uniqueness of a polynomial input when
 different inputs have the same value.
 
-**Status.** The site labeled the problem SOLVED on its problem page, accessed
-2026-09-09 and last edited 5 September 2026. The site's export of 2026-09-04
-showed OPEN. The derived claim value is `proved`, where the site's SOLVED reads
-as `answered`. The reason is that the question asks whether such an $f$ and $A$
-exist, and the accepted claims prove that they do. The site's commentary credits
-GPT, prompted independently by Price and by pipeline-math, with proving that
-such an $A$ exists for $f(n)=n^d$ and every even $d\ge6$. That is the range in
-which Price's construction tiles the full image. The pipeline-math manuscript
-treats only $f(X)=X^{13}$. The claim pages
+**Status.** Bloom's catalog labeled the problem SOLVED on its problem page,
+accessed 2026-09-09 and last edited 5 September 2026. The erdosproblems.com
+export of 2026-09-04 showed OPEN. The derived claim value is `proved`, where
+erdosproblems.com's SOLVED reads as `answered`. The reason is that the question
+asks whether such an $f$ and $A$ exist, and the accepted claims prove that they
+do. The erdosproblems.com commentary credits GPT, prompted independently by
+Price and by pipeline-math, with proving that such an $A$ exists for $f(n)=n^d$
+and every even $d\ge6$. That is the range in which Price's construction tiles
+the full image. The pipeline-math manuscript treats only $f(X)=X^{13}$. The
+claim pages
 [[problems/diophantine_problems/E0477/claims/2026_06_28_pipeline_math|pipeline-math]]
 and [[problems/diophantine_problems/E0477/claims/2026_07_27_price|Price]] record
 the results and their acceptance.
@@ -68,7 +69,7 @@ theorem interfaces. The repository's own compilation review of that
 reconstruction, relative to the two external premises, is recorded on the
 card and awards no standing here.
 
-The site labeled the problem solved; its page was last edited on
+Bloom's catalog labeled the problem solved; its page was last edited on
 5 September 2026. Its commentary credits GPT, prompted independently by
 Price and by pipeline-math, with proving, against the expectation of Erdős
 and Graham, that such an $A$ exists for $f(n)=n^d$ and every even $d\ge6$,
@@ -82,16 +83,14 @@ to the literal existence question.
 
 The status search covered the live problem and proof claim, the signed
 exposition, their linked manuscript and GitHub history, an author's account,
-arXiv and cited journal sources, a targeted X search, and the site's page and
-forum thread.
-The reconstruction on the card covers all six manuscript pages and checks
-the external theorem statements its argument uses at the versions the
-result page identifies, without reconstructing their proofs; it is at
-author-recorded standing. It repairs the manuscript's
-whole-box restatement of Heath-Brown's shell estimate by a fixed-shift
-shell sum and a bound on the smaller scales, and records the inferred
-nonconstant-family convention. These qualifications are on the card's
-result pages.
+arXiv and cited journal sources, a targeted X search, and the erdosproblems.com
+page and forum thread. The reconstruction on the card covers all six manuscript
+pages and checks the external theorem statements its argument uses at the
+versions the result page identifies, without reconstructing their proofs; it is
+at author-recorded standing. It repairs the manuscript's whole-box restatement
+of Heath-Brown's shell estimate by a fixed-shift shell sum and a bound on the
+smaller scales, and records the inferred nonconstant-family convention. These
+qualifications are on the card's result pages.
 
 Four results are claimed for the problem, each with a claim page. The
 thirteenth-power construction
@@ -118,7 +117,7 @@ Pending is the cubes claim of Shan, Xu, Liang, Dai and Chen
 ([[problems/diophantine_problems/E0477/claims/2026_09_25_shan_xu_liang_dai_chen|25 September 2026]]),
 which asserts that $\{m^3:m\in\mathbb Z\}$ has a tiling complement and
 that no integer-valued quadratic polynomial does, and had no response on
-the thread on 7 October 2026. The site's own comments give an
+the thread on 7 October 2026. erdosproblems.com's own comments give an
 argument, credited to AlphaProof and Adenwalla, that no quadratic
 $f$ works: for infinite $A$ two members differ by a multiple of $2c_1$ (or
 of $4c_2$ when $c_1=0$), and that difference is a difference of two values
@@ -148,12 +147,12 @@ specializes to all-integer sixth powers. The linked
 [Overleaf manuscript](https://www.overleaf.com/read/whnsywnmykqm#4b6ba0)
 showed only its application shell at the shared link in the status search of 9
 September 2026, so no page here rests on its proof and the link is unpinned.
-Bloom's exposition writes the tiled set as $\{n^d:n\geq1\}$, while the site's
-commentary states the result for the full image $f(\mathbb Z)$ with $f(n)=n^d$
-and even $d\ge6$; the exposition is not a local proof for the nonnegative or
-all-integer even-power image until that endpoint is reconciled, and no page here
-checks its cited Salberger theorem. These limitations do not affect the
-all-integer thirteenth-power statement above.
+Bloom's exposition writes the tiled set as $\{n^d:n\geq1\}$, while the
+erdosproblems.com commentary states the result for the full image $f(\mathbb Z)$
+with $f(n)=n^d$ and even $d\ge6$; the exposition is not a local proof for the
+nonnegative or all-integer even-power image until that endpoint is reconciled,
+and no page here checks its cited Salberger theorem. These limitations do not
+affect the all-integer thirteenth-power statement above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

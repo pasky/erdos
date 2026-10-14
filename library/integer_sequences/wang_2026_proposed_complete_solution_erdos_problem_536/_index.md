@@ -33,17 +33,17 @@ retained from the repository's survey download set; its bytes are identical
 (listing read through the GitHub API on 2026-09-18; the directory also holds the
 manuscript's source, a Lean directory and a Python verifier, none read). The
 finite-prime envelope is
-Proposition 3.1 in this version; a site comment of 7 September 2026 cites it as
-Proposition 2.5, so another version exists. Standing: an unreviewed claim. It
-was submitted to the site's proof-claim tab for Problem 536 on 14 July 2026,
-where the tab labels it a partial proof claim; the site's label stayed OPEN and
-its commentary does not mention it. The tab's submission declares that the claim
-was produced using an AI model (GPT-5.6 Sol); the manuscript itself carries no
-statement about AI use. The file prints no notice of its own on pp. 1--2 or
-32--33; the repository holding it carries a LICENSE file that GitHub shows as
-"MIT license", the MIT License for the repository as a whole
-(https://github.com/ShouqiaoW/erdos, read 2026-10-02), and whether the author
-meant it to cover the manuscript text is not stated.
+Proposition 3.1 in this version; an erdosproblems.com comment of 7 September
+2026 cites it as Proposition 2.5, so another version exists. Standing: an
+unreviewed claim. It was submitted to the erdosproblems.com proof-claim tab for
+Problem 536 on 14 July 2026, where the tab labels it a partial proof claim; the
+erdosproblems.com label stayed OPEN and its commentary does not mention it. The
+tab's submission declares that the claim was produced using an AI model (GPT-5.6
+Sol); the manuscript itself carries no statement about AI use. The file prints
+no notice of its own on pp. 1--2 or 32--33; the repository holding it carries a
+LICENSE file that GitHub shows as "MIT license", the MIT License for the
+repository as a whole (https://github.com/ShouqiaoW/erdos, read 2026-10-02), and
+whether the author meant it to cover the manuscript text is not stated.
 
 Read status: claims checked for Theorem 1.1 (p. 1), Lemma 2.1 (p. 2, whose
 proof was read in full), Propositions 2.2, 2.3 and 3.1 (pp. 3--4) and the
@@ -73,8 +73,8 @@ sunflower wording).
 Source: <https://github.com/ShouqiaoW/erdos/tree/main/536>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0536/_index|#536]]: Theorem 1.1
-claims the answer $f(N)=o(N)$ to the site's question; recorded there as an
-unreviewed claim.
+claims the answer $f(N)=o(N)$ to the erdosproblems.com question; recorded there
+as an unreviewed claim.
 
 **Results.**
 

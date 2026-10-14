@@ -48,7 +48,7 @@ the conjectured value in that range. Since the covering term is the larger
 exactly from about $n=(r+1)k$ on, this is close to the whole range of the
 conjecture's second term for large $k$. The abstract describes a stability
 theorem and probabilistic rigidity arguments. A reader posted the preprint
-on the site's discussion thread on 2026-08-20.
+on the erdosproblems.com discussion thread on 2026-08-20.
 
 **Covers.** Every fixed $r\ge3$ for $k-1\ge s_0(r)$ and $n\ge(r+1)(k-1)$,
 lowering the coefficient $\tfrac53$ of
@@ -58,6 +58,6 @@ to $1+1/r$. It says nothing about small $k$ or about the clique range.
 **Depends on.** No page of this wiki.
 
 **Standing.** Claimed. The preprint is not refereed, no proof claim was
-registered on the site's proof-claims tab, and the site's label and
-commentary, last edited on 28 December 2025, do not mention it. The proof is
-not verified by this corpus.
+registered on the erdosproblems.com proof-claims tab, and the erdosproblems.com
+label and commentary, last edited on 28 December 2025, do not mention it. The
+proof is not verified by this corpus.

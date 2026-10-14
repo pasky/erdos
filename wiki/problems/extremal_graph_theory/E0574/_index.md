@@ -28,21 +28,22 @@ $$
 \mathrm{ex}(n;\{C_{2k-1},C_{2k}\})=(1+o(1))(n/2)^{1+\frac{1}{k}}.
 $$
 
-**Status.** Disproved. The site labeled the problem DISPROVED (page last edited
-1 April 2026; one comment, no proof claims) and credits two refereed papers. It
-names [LUW94b] as apparently the first disproof, at $k=3$ and $k=5$, through
-bipartite $C_{2k}$-free graphs with constant $(k-1)/k^{1+1/k}$. It names [FNV06]
-as an alternative disproof at $k=3$. Both are accepted claims here, on the
-refereed venue and the site's acceptance:
+**Status.** Disproved. Bloom's catalog labeled the problem DISPROVED (page last
+edited 1 April 2026; one comment, no proof claims) and credits two refereed
+papers. It names [LUW94b] as apparently the first disproof, at $k=3$ and $k=5$,
+through bipartite $C_{2k}$-free graphs with constant $(k-1)/k^{1+1/k}$. It names
+[FNV06] as an alternative disproof at $k=3$. Both are accepted claims here, on
+the refereed venue and erdosproblems.com's acceptance:
 [[problems/extremal_graph_theory/E0574/claims/1994_03_01_lazebnik_ustimenko_woldar|Lazebnik, Ustimenko and Woldar 1994]]
 and
 [[problems/extremal_graph_theory/E0574/claims/2005_06_10_furedi_naor_verstraete|Füredi, Naor and Verstraëte 2006]].
 The problem's standing derives from them.
 
 **Source.** [erdosproblems.com/574](https://www.erdosproblems.com/574), accessed
-2026-10-07. The site cites [ErSi82] as the problem's source, calls it a problem
-of Erdős and Simonovits, and cites [LUW94b] and [FNV06] in its commentary. Cite
-as: T. F. Bloom, Erdős Problem #574, https://www.erdosproblems.com/574.
+2026-10-07. erdosproblems.com cites [ErSi82] as the problem's source, calls it a
+problem of Erdős and Simonovits, and cites [LUW94b] and [FNV06] in its
+commentary. Cite as: T. F. Bloom, Erdős Problem #574,
+https://www.erdosproblems.com/574.
 
 **References.**
 
@@ -53,7 +54,7 @@ as: T. F. Bloom, Erdős Problem #574, https://www.erdosproblems.com/574.
 - [FNV06] Füredi, Zoltán and Naor, Assaf and Verstraëte, Jacques, On the Turán
   number for the hexagon. Adv. Math. 203 (2006), no. 2, 476--496,
   doi:10.1016/j.aim.2005.04.011, online as an article in press from June 2005
-  (the site's reference text gives "Adv. Math. (2006), 476-496").
+  (the erdosproblems.com reference text gives "Adv. Math. (2006), 476-496").
 - [LUW94b] Lazebnik, F. and Ustimenko, V. A. and Woldar, A. J., Properties of
   certain families of $2k$-cycle-free graphs. J. Combin. Theory Ser. B 60
   (1994), 293--298; doi:10.1006/jctb.1994.1020. The Theorem (p. 295) and
@@ -77,11 +78,11 @@ record](https://collaborate.princeton.edu/en/publications/on-the-tur%C3%A1n-numb
 identifies the paper as a published journal article; the [author's publication
 list](https://web.math.princeton.edu/~naor/) links its manuscript. No correction
 retracting the lower construction or relevant new X proof announcement was
-located in this search. The site's page, accessed 2026-10-07 (last edited 1
-April 2026), states the problem as above, and its commentary is as under Status.
-The search does not establish exhaustive priority or the latest optimal
-constants. The disproof follows from the source construction and comparison
-below, not from search silence.
+located in this search. The erdosproblems.com page, accessed 2026-10-07 (last
+edited 1 April 2026), states the problem as above, and its commentary is as
+under Status. The search does not establish exhaustive priority or the latest
+optimal constants. The disproof follows from the source construction and
+comparison below, not from search silence.
 
 The statements, conventions, constructions and proof locations are taken from
 pp. 1--5, 12--13 and 17--18 of the author-hosted manuscript. The manuscript has
@@ -111,9 +112,9 @@ a simple graph on $n$ vertices avoiding both cycles as subgraphs. A
 $C_6$-free graph alone need not meet the $C_5$ exclusion, so the bipartite
 part of the source is essential to this application.
 
-The same graphs are the construction of [LUW94b], which the site names as
-apparently the first disproof and which reaches $k=5$ as well. Its Theorem (p.
-295, paged at
+The same graphs are the construction of [LUW94b], which erdosproblems.com names
+as apparently the first disproof and which reaches $k=5$ as well. Its Theorem
+(p. 295, paged at
 [[../library/extremal_graph_theory/lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs/theorem_p295|theorem_p295]])
 takes a family of bipartite $2k$-cycle-free graphs of girth at least $2k+2$ with
 $(\lambda+o(1))v^r$ edges on $v$ vertices and, for $2\le t\le k-1$, replaces

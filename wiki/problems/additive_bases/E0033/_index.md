@@ -36,12 +36,12 @@ $$
 \liminf \frac{\lvert A\cap\{1,\ldots,N\}\rvert}{N^{1/2}}>1?
 $$
 
-**Status.** Open, the site's label (OPEN; page last edited 2025-12-27), which
-attaches to the pair of questions. The liminf question is answered yes, but the
-limsup part is unsettled, so the problem stays open.
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited
+2025-12-27), which attaches to the pair of questions. The liminf question is
+answered yes, but the limsup part is unsettled, so the problem stays open.
 
-No source compiled here, and nothing in the site's thread, accessed 2026-10-07,
-determines the smallest limsup. The construction of van Doorn and
+No source compiled here, and nothing in the erdosproblems.com thread, accessed
+2026-10-07, determines the smallest limsup. The construction of van Doorn and
 the thread's write-up of 2026-09-07 bound the infimum from above without
 determining it, and neither is a claim.
 
@@ -78,8 +78,8 @@ https://www.erdosproblems.com/33.
 
 ## Current assessment
 
-On 2026-09-05 the site labeled the problem OPEN and its proof-claims tab held no
-submitted resolution. On 2026-10-07 the thread held six comments and no
+On 2026-09-05 Bloom's catalog labeled the problem OPEN and its proof-claims tab
+held no submitted resolution. On 2026-10-07 the thread held six comments and no
 proof claim; the latest, of 2026-09-07, announces a
 [write-up](https://github.com/LeanMeanBean/erdos-33/blob/main/erdos33_limsup_4_596.pdf)
 claiming a complement with limsup at most $13\sqrt2/4\approx4.596$, below van
@@ -114,7 +114,7 @@ not whether the liminf exceeds one.
 
 - **Lower bound.** Every square complement satisfies
   $\liminf A(N)/\sqrt N\geq4/\pi$, proved independently by Cilleruelo [Ci93]
-  and Habsieger [Ha95]. The site and the introduction of the
+  and Habsieger [Ha95]. erdosproblems.com and the introduction of the
   [current Ding–Krause–Sándor–Sun–Zhang preprint](https://arxiv.org/html/2512.15407v6)
   list Balasubramanian–Ramana [BaRa01] beside them, but that paper's Theorem 1
   is conditional: it assumes that for some fixed $\delta\in(0,1)$ and all large

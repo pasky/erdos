@@ -36,8 +36,8 @@ is printed without a range for $n$. For $n\le3$ the hypothesis cannot be met
 by a graph without loops or multiple edges ($\frac12(n^2-5n+14)$ is $5$, $4$
 and $4$ for $n=1,2,3$, each more than $\binom n2$), and for $n=4$ it is met
 only by $K_4$ and $K_4$ less one edge, both of which contain a triangle; so
-the statement holds for every $n\ge1$, which is the site's "$f(1)=1$", and
-is substantive from $n=5$ on. In the paper's own letters (p. 125), where
+the statement holds for every $n\ge1$, which is erdosproblems.com's "$f(1)=1$",
+and is substantive from $n=5$ on. In the paper's own letters (p. 125), where
 $f(r,n)$ is the least size forcing a cycle of length $n-r+1$, the theorem
 with its sharpness remark reads $f(2,n)=\frac12(n^2-5n+14)=g(2,n)$ for
 $n>4$, the case $r=2$ of
@@ -101,11 +101,12 @@ case of Theorem 1, not held.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the site's
-  "$f(1)=1$", restated in the problem's terms: $\binom{n-2}2+4$ edges force
-  a cycle of length $n-1$, and $\binom{n-2}2+3$ edges do not for $n>4$, the
-  extremal graph being $K_{n-2}$ and $K_3$ sharing a vertex, the problem's
-  sharpness graph at $k=1$. The paper attributes the conjecture to Erdős at
-  the Oxford conference of July 1969, whose proceedings carry
+- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]:
+  erdosproblems.com's "$f(1)=1$", restated in the problem's terms:
+  $\binom{n-2}2+4$ edges force a cycle of length $n-1$, and $\binom{n-2}2+3$
+  edges do not for $n>4$, the extremal graph being $K_{n-2}$ and $K_3$ sharing a
+  vertex, the problem's sharpness graph at $k=1$. The paper attributes the
+  conjecture to Erdős at the Oxford conference of July 1969, whose proceedings
+  carry
   [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_4|Erdős 1971, item 4]],
-  and its count is the site's, not the misprinted count of item 4.
+  and its count is erdosproblems.com's, not the misprinted count of item 4.

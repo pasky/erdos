@@ -29,7 +29,7 @@ folder.
 **Standing.** This is an author-recorded reconstruction of an unrefereed
 manuscript. It is not an independent review, changes no status and
 assigns no tier. The problem page's recorded answer to the first question
-rests on a different, site-accepted proof; this reconstruction adds no
+rests on a different, Conjectures.io-accepted proof; this reconstruction adds no
 acceptance evidence for either.
 
 ## Definitions

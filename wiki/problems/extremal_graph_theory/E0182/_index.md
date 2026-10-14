@@ -24,33 +24,34 @@ updated: 2026-10-08T01:29:59Z
 on $n$ vertices can contain if it does not have a $k$-regular subgraph? Is it
 $\ll n^{1+o(1)}$?
 
-**Formulation.** The site's wording, accessed 2026-09-17 (page last edited 7
-March 2026). The question is for fixed $k\ge3$ and $n\to\infty$. Writing
-$f_k(n)$ for the least number of edges that forces a $k$-regular subgraph in
-an $n$-vertex graph, the maximum asked for is $f_k(n)-1$. The statement has
-two parts: the order of that maximum, and the yes-or-no question whether it
-is $n^{1+o(1)}$. Erdős's own statements ask the
-second part for valency three ([Er78], p. 31: "almost certainly
-$f_3(n)<n^{1+\varepsilon}$", and "We do not even know if $f_3(n)<Cn$ is true or
-false", with a prize) and for every $k$ ([Er81]: "We conjectured that
-$F(n,r)=O(n^{1+\varepsilon})$ for every $r$ and $\varepsilon>0$").
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-17 (page last
+edited 7 March 2026). The question is for fixed $k\ge3$ and $n\to\infty$.
+Writing $f_k(n)$ for the least number of edges that forces a $k$-regular
+subgraph in an $n$-vertex graph, the maximum asked for is $f_k(n)-1$. The
+statement has two parts: the order of that maximum, and the yes-or-no question
+whether it is $n^{1+o(1)}$. Erdős's own statements ask the second part for
+valency three ([Er78], p. 31: "almost certainly $f_3(n)<n^{1+\varepsilon}$", and
+"We do not even know if $f_3(n)<Cn$ is true or false", with a prize) and for
+every $k$ ([Er81]: "We conjectured that $F(n,r)=O(n^{1+\varepsilon})$ for every
+$r$ and $\varepsilon>0$").
 
-**Status.** Proved, the site's label. The answer to the yes-or-no part is yes.
-Pyber first showed this with $f_k(n)<ck^2n\log n$ (Combinatorica 1985; an
-accepted partial claim, refereed, on
+**Status.** Proved, the erdosproblems.com label. The answer to the yes-or-no
+part is yes. Pyber first showed this with $f_k(n)<ck^2n\log n$ (Combinatorica
+1985; an accepted partial claim, refereed, on
 [[problems/extremal_graph_theory/E0182/claims/1985_12_01_pyber|its claim page]]).
-The site credits the resolution to Janzer and Sudakov's Theorem 1.2 (Forum Math.
-Pi 11 (2023), e19; refereed). It gives for every $k$ a constant $C(k)$ with
-$f_k(n)\le\tfrac12C(k)\,n\log\log n$, and with the Pyber--Rödl--Szemerédi
-construction it determines the order. The order is known up to constants but not
-asymptotically. The construction of Pyber, Rödl and Szemerédi (1995; Theorem 1,
-printed p. 42) gives $f_k(n)\ge cn\log\log n$ for every $k\ge3$. Chakraborti,
-Janzer, Methuku and Montgomery (Trans. Amer. Math. Soc., online 18 August 2026;
-cited from arXiv v2) prove that the maximum is $\Theta(k^2\,n\log\log n)$ once
-$n$ is large in terms of $k$, tight up to an absolute constant. No asymptotic
-formula is known. The lower bound settles in the negative the prize question of
-[Er78] for $k=3$, whether $f_3(n)<Cn$. Two accepted full claims, both refereed,
-carry the standing. One is Janzer and Sudakov's, on
+erdosproblems.com credits the resolution to Janzer and Sudakov's Theorem 1.2
+(Forum Math. Pi 11 (2023), e19; refereed). It gives for every $k$ a constant
+$C(k)$ with $f_k(n)\le\tfrac12C(k)\,n\log\log n$, and with the
+Pyber--Rödl--Szemerédi construction it determines the order. The order is known
+up to constants but not asymptotically. The construction of Pyber, Rödl and
+Szemerédi (1995; Theorem 1, printed p. 42) gives $f_k(n)\ge cn\log\log n$ for
+every $k\ge3$. Chakraborti, Janzer, Methuku and Montgomery (Trans. Amer. Math.
+Soc., online 18 August 2026; cited from arXiv v2) prove that the maximum is
+$\Theta(k^2\,n\log\log n)$ once $n$ is large in terms of $k$, tight up to an
+absolute constant. No asymptotic formula is known. The lower bound settles in
+the negative the prize question of [Er78] for $k=3$, whether $f_3(n)<Cn$. Two
+accepted full claims, both refereed, carry the standing. One is Janzer and
+Sudakov's, on
 [[problems/extremal_graph_theory/E0182/claims/2022_04_26_janzer_sudakov|its claim page]],
 which is also `reviewed` through the curator's credit. The other is Chakraborti,
 Janzer, Methuku and Montgomery's, on
@@ -60,11 +61,11 @@ claims, refereed, on
 [[problems/extremal_graph_theory/E0182/claims/1985_12_01_pyber|Pyber's page]]
 and
 [[problems/extremal_graph_theory/E0182/claims/1995_01_01_pyber_rodl_szemeredi|the Pyber--Rödl--Szemerédi page]].
-One unreviewed proof claim of 2026-08-24 on the site's proof-claim tab asserts
-the $n^{1+o(1)}$ bound for induced $k$-regular subgraphs, the variant Szemerédi
-asked about. That bound implies the answer yes to the yes-or-no part. Its
-mathematics answers the induced variant, not this problem, so the claim is
-rejected on
+One unreviewed proof claim of 2026-08-24 on the erdosproblems.com proof-claim
+tab asserts the $n^{1+o(1)}$ bound for induced $k$-regular subgraphs, the
+variant Szemerédi asked about. That bound implies the answer yes to the
+yes-or-no part. Its mathematics answers the induced variant, not this problem,
+so the claim is rejected on
 [[problems/extremal_graph_theory/E0182/claims/2026_08_24_korsky|its claim page]]
 and bears no weight on the standing.
 
@@ -72,7 +73,7 @@ and bears no weight on the standing.
 accessed 2026-09-17: the problem page (PROVED;
 last edited 7 March 2026), its three-comment discussion thread and its
 proof-claim tab with one proof claim, which the tab does not label full or
-partial. The site cites [Er75], [Er78, p. 31]
+partial. erdosproblems.com cites [Er75], [Er78, p. 31]
 and [Er81] as the problem's sources and [CJMM24b], [JaSu23] and [PRS95] in
 its commentary. Cite as: T. F. Bloom, Erdős Problem #182,
 https://www.erdosproblems.com/182, accessed 2026-09-17.
@@ -94,9 +95,9 @@ https://www.erdosproblems.com/182, accessed 2026-09-17.
   [[../library/extremal_graph_theory/chakraborti_2024_regular_subgraphs_at_every_density/_index|chakraborti_2024_regular_subgraphs_at_every_density]].
 - [PRS95] Pyber, L. and Rödl, V. and Szemerédi, E., Dense graphs without
   3-regular subgraphs. J. Combin. Theory Ser. B 63 (1995), 41--54,
-  doi:10.1006/jctb.1995.1004 (the site's reference list titles it "Dense
-  subgraphs without 3-regular subgraphs"). Theorem 1 and the König remark,
-  printed p. 42; the proof, pp. 42--46; the concluding remarks, p. 53.
+  doi:10.1006/jctb.1995.1004 (the erdosproblems.com reference list titles it
+  "Dense subgraphs without 3-regular subgraphs"). Theorem 1 and the König
+  remark, printed p. 42; the proof, pp. 42--46; the concluding remarks, p. 53.
   Library home:
   [[../library/extremal_graph_theory/pyber_1995_dense_graphs_without_3_regular_subgraphs/_index|pyber_1995_dense_graphs_without_3_regular_subgraphs]];
   paged at
@@ -122,7 +123,7 @@ https://www.erdosproblems.com/182, accessed 2026-09-17.
   journal's pagination; the passage is on its p. 7.
 - [Er88] Erdős, P., Problems and results in combinatorial analysis and graph
   theory. Discrete Math. 72 (1988), 81--92; Section 6, p. 85. Not cited by
-  the site. Library home:
+  erdosproblems.com. Library home:
   [[../library/extremal_graph_theory/erdos_1988_problems_results_combinatorial_analysis_graph_theory/_index|erdos_1988_problems_results_combinatorial_analysis_graph_theory]].
 - [Py85] Pyber, L., Regular subgraphs of dense graphs. Combinatorica 5 (1985),
   347--349, doi:10.1007/BF02579250. Not filed in the library; its bound
@@ -131,18 +132,18 @@ https://www.erdosproblems.com/182, accessed 2026-09-17.
   [[problems/extremal_graph_theory/E0182/claims/1985_12_01_pyber|Pyber 1985]].
 
 **Formalization.** None. formal-conjectures has no file
-`ErdosProblems/182.lean` (main, 2026-10-07); the site's
+`ErdosProblems/182.lean` (main, 2026-10-07); the erdosproblems.com
 page shows the statement as not formalized, and the community database
 (teorth/erdosproblems, `data/problems.yaml`, 2026-09-17 and 2026-10-06)
 records the problem as proved and unformalized, with no formal-proof URL.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-17).** The statement
-above; PROVED, with a prize, last edited 7 March 2026. The commentary says the
-problem was asked by Erdős and Sauer, that the prize is offered in [Er78] for
-$k=3$ and may be meant only for deciding whether the answer is linear in
-$n$, that Janzer and Sudakov resolved it by proving that some $C=C(k)$ makes
+**The question (erdosproblems.com formulation, accessed 2026-09-17).** The
+statement above; PROVED, with a prize, last edited 7 March 2026. The commentary
+says the problem was asked by Erdős and Sauer, that the prize is offered in
+[Er78] for $k=3$ and may be meant only for deciding whether the answer is linear
+in $n$, that Janzer and Sudakov resolved it by proving that some $C=C(k)$ makes
 every $n$-vertex graph with at least $Cn\log\log n$ edges contain a
 $k$-regular subgraph, that Chakraborti, Janzer, Methuku and Montgomery showed
 one can take
@@ -212,9 +213,10 @@ degree that forces an $r$-regular subgraph, its Section 6 (p. 15 of v2)
 records $d(r,n)=\Theta(r\log(n/r))$ for $\tfrac12\log n\le r\le n/2$ but only
 $\Omega(r^2\log(\log n/r))\le d(r,n)\le O(r^2\log\log n)$ for
 $3\le r<\tfrac12\log n$, and its Conjecture 6.1 proposes that the lower bound
-is the truth there. The yes-or-no part was settled by Pyber in 1985; the
-site's PROVED credits Janzer and Sudakov's determination of the order; the
-"what is the maximum" part is answered up to constants, as stated above.
+is the truth there. The yes-or-no part was settled by Pyber in 1985;
+erdosproblems.com's PROVED credits Janzer and Sudakov's determination of the
+order; the "what is the maximum" part is answered up to constants, as stated
+above.
 
 **Erdős's statements and the early bounds.** The 1975 survey
 ([[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p10|Section 3]]) defines $f(n,k)$,
@@ -233,15 +235,15 @@ to his question whether $f_3(n)<n^{1+\varepsilon}$, recorded on
 Janzer and Sudakov (p. 2) note that these bounds stood for thirty years.
 
 **The induced variant, not the problem.** Szemerédi's question, mentioned by
-the site, concerns $F(n,k)$, the least number of edges forcing a spanned, that
-is induced, $k$-regular subgraph: [Er75] writes "spanned" and [Er88]
-"induced", and Erdős proved $F(n,3)<c_1n^{5/3}$ (every graph with
+erdosproblems.com, concerns $F(n,k)$, the least number of edges forcing a
+spanned, that is induced, $k$-regular subgraph: [Er75] writes "spanned" and
+[Er88] "induced", and Erdős proved $F(n,3)<c_1n^{5/3}$ (every graph with
 $c_1n^{5/3}$ edges contains a $K_4$ or an induced $K_{3,3}$). In the other
 direction, [PRS95] remarks in its concluding section (p. 53)
 that its random construction "gives graphs with $cn\log\log n$ edges not
 having 3-regular induced subgraphs; perhaps this boud [sic] can be improved",
 which is the problem's lower bound carried over unchanged, since a graph
-with no 3-regular subgraph has no induced one. The site's commentary
+with no 3-regular subgraph has no induced one. The erdosproblems.com commentary
 describes the subgraph as connected, which the sources do not; a thread
 comment of 24 August 2026 makes the same observation. The proof-claim tab
 carries a proof claim submitted on 24 August 2026 by Samuel Korsky, who
@@ -249,31 +251,30 @@ declares the AI system GPT-5.6 Pro; its summary says that a linked paper
 proves the $\ll n^{1+o(1)}$ bound for an induced $k$-regular subgraph,
 answering Szemerédi's question up to logarithmic factors, by combining an
 induced high-girth extraction theorem of Du, Girão, Hunter, McCarty and Scott
-with a parameterized form of the matching--sunflower argument of [CJMM24b]. The
-site marks such claims as unverified, and the linked document is not held. Its
-induced bound would imply the yes-or-no part, which Pyber's 1985 bound already
-settles; since it answers the induced variant, not this problem, it is recorded
-as a rejected claim on its claim page and bears no weight on the standing. The
-thread comment of 22 August 2026 recalls Pyber's 1985 bound and says the prize
-was paid for the Pyber--Rödl--Szemerédi construction; the sources do not confirm
-that report.
+with a parameterized form of the matching--sunflower argument of [CJMM24b].
+Bloom's catalog marks such claims as unverified, and the linked document is not
+held. Its induced bound would imply the yes-or-no part, which Pyber's 1985 bound
+already settles; since it answers the induced variant, not this problem, it is
+recorded as a rejected claim on its claim page and bears no weight on the
+standing. The thread comment of 22 August 2026 recalls Pyber's 1985 bound and
+says the prize was paid for the Pyber--Rödl--Szemerédi construction; the sources
+do not confirm that report.
 
-**Search scope.** The site's problem, discussion and proof-claim pages; the
-community database record; the formal-conjectures directory at main on
-2026-09-17 (no file 182); the arXiv API records for
-2204.12455 (v1 26 April 2022, v2 15 August 2022, no journal reference listed)
-and 2411.11785 (v1 18 November 2024, v2 26 November 2025, no journal reference
-listed); the Crossref records for doi:10.1017/fmp.2023.19 and for the
-Transactions article doi:10.1090/tran/9694 (Crossref bibliographic query on
-the title); the Semantic Scholar citation lists of [JaSu23] (twenty records,
-among them [CJMM24b], "Chromatic number and regular subgraphs" (Bull. Lond.
-Math. Soc. 2024) and papers on induced $C_4$-free subgraphs and degree
-boundedness; none concerns the order of $f_k(n)$) and of [CJMM24b] (six
-records, none on this problem); an arXiv API search for abstracts on regular
-or induced regular subgraphs mentioning Sauer (eighteen records, the newest
-relevant being [CJMM24b]). Not searched: MathSciNet, zbMATH, full-text
-search engines for scholarly literature, X. Nothing found changes the
-status or gives an asymptotic formula.
+**Search scope.** The erdosproblems.com problem, discussion and proof-claim
+pages; the community database record; the formal-conjectures directory at main
+on 2026-09-17 (no file 182); the arXiv API records for 2204.12455 (v1 26 April
+2022, v2 15 August 2022, no journal reference listed) and 2411.11785 (v1 18
+November 2024, v2 26 November 2025, no journal reference listed); the Crossref
+records for doi:10.1017/fmp.2023.19 and for the Transactions article
+doi:10.1090/tran/9694 (Crossref bibliographic query on the title); the Semantic
+Scholar citation lists of [JaSu23] (twenty records, among them [CJMM24b],
+"Chromatic number and regular subgraphs" (Bull. Lond. Math. Soc. 2024) and
+papers on induced $C_4$-free subgraphs and degree boundedness; none concerns the
+order of $f_k(n)$) and of [CJMM24b] (six records, none on this problem); an
+arXiv API search for abstracts on regular or induced regular subgraphs
+mentioning Sauer (eighteen records, the newest relevant being [CJMM24b]). Not
+searched: MathSciNet, zbMATH, full-text search engines for scholarly literature,
+X. Nothing found changes the status or gives an asymptotic formula.
 
 **Remaining gaps.** (1) [PRS95]: Theorem 1 at statement depth, its proof
 (pp. 42--46) followed for structure with none of its displayed estimates

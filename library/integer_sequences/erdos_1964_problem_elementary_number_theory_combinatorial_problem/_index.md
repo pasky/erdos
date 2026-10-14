@@ -7,7 +7,7 @@ desc: |
   conjecture.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # integer_sequences/erdos_1964_problem_elementary_number_theory_combinatorial_problem
@@ -15,8 +15,8 @@ updated: 2026-10-08T01:29:58Z
 [[integer_sequences/_index|..]]
 
 [[integer_sequences/erdos_1964_problem_elementary_number_theory_combinatorial_problem/question_p646|question_p646]]: Erdős's 1964 question whether every set of positive density contains
-three integers with equal pairwise least common multiples, the origin the
-site cites for Problem 536.
+three integers with equal pairwise least common multiples, the origin
+erdosproblems.com cites for Problem 536.
 
 [[integer_sequences/erdos_1964_problem_elementary_number_theory_combinatorial_problem/theorem_p644|theorem_p644]]: Erdős's 1964 bounds for the least number of integers up to n that force t
 of them to have pairwise the same greatest common divisor, with his
@@ -80,8 +80,8 @@ bounds and the sunflower remark (7); the paper cites as its origin its reference
 [1], Erdős's 1962 Mat. Lapok paper, where the question is problem 14.
 [[../wiki/problems/integer_sequences/E0536/_index|#536]]: the closing paragraph
 (p. 646) asks whether every $l\ge\alpha n$ integers up to $n$ contain three
-with pairwise the same least common multiple, the origin the site cites as
-[Er64, p. 646].
+with pairwise the same least common multiple, the origin erdosproblems.com cites
+as [Er64, p. 646].
 
 **Results.**
 

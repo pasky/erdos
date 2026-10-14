@@ -85,8 +85,8 @@ and 9.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1007/_index|Problem 1007]]: the first proof of
-  the site's answer, the smallest number of edges $9$, "achieved solely by
-  $K_{3,3}$"; Chaffee and Noble's
+  erdosproblems.com's answer, the smallest number of edges $9$, "achieved solely
+  by $K_{3,3}$"; Chaffee and Noble's
   [[extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/theorem_6|Theorem 6]]
   and
   [[extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/theorem_7|Theorem 7]]

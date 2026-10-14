@@ -61,11 +61,11 @@ paper is carded at
 [[../library/distance_problems/dumitrescu_2019_product_inequality_extreme_distances/_index|dumitrescu_2019_product_inequality_extreme_distances]].
 
 **Acceptance.** The result is refereed: it appeared in Computational Geometry,
-after the SoCG 2019 proceedings. The site's curator, Thomas Bloom, marked the
-problem PROVED and credits Dumitrescu's theorem on the problem page. The curator
-neither wrote nor submitted the result. This corpus has not reviewed the proof,
-and the standing recorded here does not need such a review. The site makes
-further remarks that are not part of the question and are not settled by this
-claim. These are the sum bound $f(d_1)+f(d_k)\leq3n-c\sqrt n+o(\sqrt n)$ with
-its best constant, and the stronger conjecture $f(d_1)\leq3n-2m+o(\sqrt n)$ for
-a hull of $m$ vertices.
+after the SoCG 2019 proceedings. The erdosproblems.com curator, Thomas Bloom,
+marked the problem PROVED and credits Dumitrescu's theorem on the problem page.
+The curator neither wrote nor submitted the result. This corpus has not reviewed
+the proof, and the standing recorded here does not need such a review.
+erdosproblems.com makes further remarks that are not part of the question and
+are not settled by this claim. These are the sum bound
+$f(d_1)+f(d_k)\leq3n-c\sqrt n+o(\sqrt n)$ with its best constant, and the
+stronger conjecture $f(d_1)\leq3n-2m+o(\sqrt n)$ for a hull of $m$ vertices.

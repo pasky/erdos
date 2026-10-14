@@ -80,7 +80,7 @@ display (2), $S(k)\le R_k(3)-2$, and p. 2, "$R_6(3)\ge538$" and
 "$R_7(3)\ge1682$" from the constructions of pp. 6--8: lower bounds on the
 problem's $R(3;6)$ and $R(3;7)$;
 [[../wiki/problems/ramsey_theory/E0483/_index|#483]] (f(6) >= 537 and f(7) >= 1681 in the
-site's convention f(k) = S(k) + 1),
+erdosproblems.com convention f(k) = S(k) + 1),
 [[../wiki/problems/ramsey_theory/E0554/_index|#554]] (p. 2, R_6(3) >= 538 and
 R_7(3) >= 1682: lower bounds on two values of the problem's denominator
 R_k(K_3); the paper states no exponential bound in k and nothing on odd

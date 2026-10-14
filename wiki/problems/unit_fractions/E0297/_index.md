@@ -23,13 +23,13 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Let $N\geq 1$. How many $A\subseteq \{1,\ldots,N\}$ are there
 such that $\sum_{n\in A}\frac{1}{n}=1$?
 
-**Status.** Solved, in the site's label, at the level of the exact
+**Status.** Solved, in the erdosproblems.com label, at the level of the exact
 exponential growth rate. The answer below does not give a finite-$N$
 formula or a multiplicative asymptotic.
 
 **Source.** [T. F. Bloom, Erdős Problem #297](https://www.erdosproblems.com/297),
-accessed 2026-09-05. The site records SOLVED, shows no formalized statement
-and lists no proof claims.
+accessed 2026-09-05. erdosproblems.com records SOLVED, shows no formalized
+statement and lists no proof claims.
 
 **References.**
 
@@ -48,8 +48,8 @@ and lists no proof claims.
 - [St24] S. Steinerberger, *On a Problem Involving Unit Fractions*,
   [arXiv:2403.17041v5](https://arxiv.org/abs/2403.17041v5) (2024).
 
-**Formalization.** On 2026-09-05 the site showed no formalized statement,
-and formal-conjectures had no file for Problem 297. Boris Alexeev's
+**Formalization.** On 2026-09-05 erdosproblems.com showed no formalized
+statement, and formal-conjectures had no file for Problem 297. Boris Alexeev's
 `lean-proofs` collection holds a Lean 4 file that declares itself a
 formalization of Liu and Sawhney's solution, with Codex and GPT-5.6 Sol as
 formal authors; it is linked at its pinned commit on
@@ -58,8 +58,8 @@ formal authors; it is linked at its pinned commit on
 ## Current assessment
 
 **Claims.** Two accepted full claims settle the problem at the level of the
-exponential rate, each refereed and each credited by the site's curator
-independently of its authors:
+exponential rate, each refereed and each credited by the erdosproblems.com
+curator independently of its authors:
 [[problems/unit_fractions/E0297/claims/2024_04_24_conlon_fox_he_mubayi_pham_suk_verstraete|Conlon and collaborators' Theorem 1]]
 (Discrete Analysis 2025:28) and
 [[problems/unit_fractions/E0297/claims/2024_04_10_liu_sawhney|Liu and Sawhney's Theorem 1.2]]
@@ -93,8 +93,8 @@ collection, posted 17 August 2026 and linked at its pinned commit on
 and Sawhney as informal authors and Codex and GPT-5.6 Sol as formal
 authors, and proves that the count is $\exp((\gamma_*+o(1))N)$, together
 with the base-two form of the rate and the bound $c_1<1$. The corpus has
-not built or audited it, so it gives no `formalized` evidence. On 2026-09-05 the
-site showed no formalized statement, the
+not built or audited it, so it gives no `formalized` evidence. On 2026-09-05
+erdosproblems.com showed no formalized statement, the
 [community database](https://github.com/teorth/erdosproblems/blob/7688a2b0fc70a4f68a897a7a6da7788681003888/data/problems.yaml)
 recorded the problem as informally solved and unformalized, and
 formal-conjectures had no file for Problem 297.
@@ -167,7 +167,8 @@ density theorem concerning [[problems/unit_fractions/E0298/_index|Problem 298]] 
 published full text remain distinct evidence; their full proofs have not
 been compared.
 
-The site also cross-references [[problems/number_theory/E0362/_index|Problem 362]].
+erdosproblems.com also cross-references
+[[problems/number_theory/E0362/_index|Problem 362]].
 
 ## Earlier relaxed counts and source history
 

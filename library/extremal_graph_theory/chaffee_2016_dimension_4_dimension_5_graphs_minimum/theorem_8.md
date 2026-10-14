@@ -58,5 +58,5 @@ note states Lemma 2's value on printed p. 118 and does not state Lemma 4
 
 - [[../wiki/problems/extremal_graph_theory/E1007/_index|Problem 1007]]: not the
   problem itself, which asks about dimension 4; this theorem supplies the
-  graph $K_{1,3,3}$ named in the site's dimension-5 sentence and in the
+  graph $K_{1,3,3}$ named in erdosproblems.com's dimension-5 sentence and in the
   collection's variant `dimension_five_extremal`.

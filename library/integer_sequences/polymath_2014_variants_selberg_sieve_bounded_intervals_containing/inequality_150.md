@@ -4,7 +4,7 @@ title: "Display (150): H(k) ≤ k log k + k log log k − (1 + log 2) k + o(k)"
 desc: |
   The Hensley–Richards sieve bound on the diameter of the narrowest
   admissible k-tuple, improving the Eratosthenes bound (149) by log 2 times
-  k; the second-order term the site records for Problem 1204.
+  k; the second-order term erdosproblems.com records for Problem 1204.
 created: 2026-09-18T11:10:00Z
 updated: 2026-10-07T15:58:30Z
 ---
@@ -81,4 +81,4 @@ Hensley and Richards 1973 (the symposium paper), Hensley and Richards 1974
 
 - [[../wiki/problems/integer_sequences/E1204/_index|Problem 1204]]: $H(k)$ is the
   problem's $A(k)$, and (150) is the second-order improvement of the upper
-  bound that the site attributes to Hensley and Richards.
+  bound that erdosproblems.com attributes to Hensley and Richards.

@@ -64,5 +64,6 @@ survey (Lecture Notes in Math. 406), which this corpus does not hold.
 **Acceptance.** Refereed: the paper is a journal publication in Utilitas
 Mathematica, volume 9 (1976), received 5 November 1974. This is the `refereed`
 evidence. The record carries no month, so this page is dated to the first day of
-the year. The site's curator lists this family in the commentary. But the label
-DISPROVED credits the disproof, not this case, so `reviewed` is not listed.
+the year. The erdosproblems.com curator lists this family in the commentary. But
+the label DISPROVED credits the disproof, not this case, so `reviewed` is not
+listed.

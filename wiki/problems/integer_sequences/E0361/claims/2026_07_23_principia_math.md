@@ -87,8 +87,8 @@ The claim was filed as a full proof claim, but the first comment under it
 first, the claimant agreed, and the claimant's own note on the tab says the
 proof resolves the irregularity question while many questions about $f_c(n)$
 remain; the repository's `VERIFICATION.md` likewise states that the
-development does not claim to resolve the problem as the site states it. It is
-recorded here as partial for those reasons.
+development does not claim to resolve the problem as erdosproblems.com states
+it. It is recorded here as partial for those reasons.
 [[problems/integer_sequences/E0361/claims/2026_07_25_beyer_de_ryke|Beyer de Ryke's note]],
 posted in the same thread two days later, proves the same non-convergence with
 explicit limits along arithmetic subsequences.
@@ -125,6 +125,7 @@ description rests on the statement files and the records; nothing was built,
 kernel-checked or audited here, and the repository's own record calls the
 development a candidate pending an expert referee.
 
-**Standing.** Claimed: the site's label was OPEN (page last edited 17 October
-2025); the manuscript is a repository document, not on a preprint server, with
-no refereed version, site acceptance or independent review found on 2026-10-07.
+**Standing.** Claimed: the erdosproblems.com label was OPEN (page last edited 17
+October 2025); the manuscript is a repository document, not on a preprint
+server, with no refereed version, erdosproblems.com acceptance or independent
+review found on 2026-10-07.

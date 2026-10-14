@@ -52,10 +52,10 @@ summarizes the argument.
 
 **Hypothesis.** The claim is conditional on Lang's conjecture, the paper's
 Conjecture 2.2, which says that the rational points of a variety of general
-type over a number field are not Zariski dense; the site's remarks call it the
-Bombieri–Lang conjecture. It is unproven, so this page derives nothing for the
-problem's standing. The theorem gives no explicit value of the bound and
-decides no single instance of the question; the paper itself notes the
+type over a number field are not Zariski dense; the erdosproblems.com remarks
+call it the Bombieri–Lang conjecture. It is unproven, so this page derives
+nothing for the problem's standing. The theorem gives no explicit value of the
+bound and decides no single instance of the question; the paper itself notes the
 seven-point example of
 [[problems/distance_problems/E0213/claims/2007_09_29_kreisel_kurz|Kreisel and
 Kurz]] and that no larger example is known.
@@ -64,7 +64,7 @@ Kurz]] and that no larger example is known.
 
 **Acceptance.** Refereed: Bulletin of the London Mathematical Society 52 (2020),
 no. 6, 1053–1063, published online 2020-06-29. These data come from the Crossref
-record of the DOI. The site's remarks record the conditional uniform bound and
-give this paper as its source, but the site labeled the problem OPEN. That
-remark is therefore commentary on an open problem, and no `reviewed` evidence is
-listed.
+record of the DOI. The erdosproblems.com remarks record the conditional uniform
+bound and give this paper as its source, but Bloom's catalog labeled the problem
+OPEN. That remark is therefore commentary on an open problem, and no `reviewed`
+evidence is listed.

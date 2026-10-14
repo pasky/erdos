@@ -26,13 +26,14 @@ updated: 2026-10-08T14:17:37Z
 that, if $\alpha=\omega^{^\beta}$, then in any red/blue colouring of the edges
 of $K_\alpha$ there is either a red $K_\alpha$ or a blue $K_3$.
 
-**Formulation.** The site's statement, reproduced above, prints the exponent of
-$\alpha$ as `\omega^{^\beta}`, a typo: the site's commentary reads the question
-with $\alpha=\omega^\beta$ (Specker's yes at $\beta=2$ and no at
-$3\le\beta<\omega$, Chang's yes at $\beta=\omega$, Galvin and Larson's reduction
-to $\beta=\omega^\gamma$ for $\beta\ge3$, and Schipperus's results by the number
-of indecomposable summands of $\gamma$), and the
-[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/592.lean)
+**Formulation.** The erdosproblems.com statement, reproduced above, prints the
+exponent of $\alpha$ as `\omega^{^\beta}`, a typo: the erdosproblems.com
+commentary reads the question with $\alpha=\omega^\beta$ (Specker's yes at
+$\beta=2$ and no at $3\le\beta<\omega$, Chang's yes at $\beta=\omega$, Galvin
+and Larson's reduction to $\beta=\omega^\gamma$ for $\beta\ge3$, and
+Schipperus's results by the number of indecomposable summands of $\gamma$), and
+the [formal-conjectures
+statement](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/592.lean)
 asks for the countable $\beta$ with $\omega^\beta\to(\omega^\beta,3)^2$. The
 standing judges the Statement above in that reading, with $\alpha=\omega^\beta$.
 The papers in the References below write the question as
@@ -111,9 +112,10 @@ yes),
 ($\beta=\omega^\gamma$ yes when $\gamma$ is the sum of one or two
 indecomposable ordinals, no for four or more). Apart from the trivial
 $\beta\le1$, only $\beta=\omega^\gamma$ with $\gamma$ the sum of three
-indecomposable ordinals stays undecided, so the problem stays open. The site's
-label was OPEN, and its commentary is not acceptance; the claims rest on their
-journal publication. This page records no current literature search.
+indecomposable ordinals stays undecided, so the problem stays open. The
+erdosproblems.com label was OPEN, and its commentary is not acceptance; the
+claims rest on their journal publication. This page records no current
+literature search.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -4,7 +4,7 @@ desc: |
   Proves that for every r ≥ 4 and every K_{r−1}-free graph F the largest
   F-free induced subgraph guaranteed in a K_r-free graph on n vertices has order
   O(n^{1/2−ε_F}), tight in two senses; its introduction surveys the
-  Erdős–Rogers function f_{3,4}, the site's Problem 620.
+  Erdős–Rogers function f_{3,4}, erdosproblems.com's Problem 620.
 license: CC-BY-4.0
 created: 2026-09-19T01:00:00Z
 updated: 2026-10-07T20:33:23Z
@@ -20,8 +20,8 @@ Lior Gishboliner, Oliver Janzer and Benny Sudakov, *Induced subgraphs of
 $K_r$-free graphs and the Erdős--Rogers problem*, Combinatorica **45**
 (2025), no. 2, article 23, 20 pp., DOI 10.1007/s00493-025-00147-1; received
 16 September 2024, accepted 15 February 2025 (p. 1); arXiv:2409.06650.
-Combinatorica is a refereed journal. Not a source key of the site; Problem
-620's page cites it as [GJS25].
+Combinatorica is a refereed journal. Not a source key of erdosproblems.com;
+Problem 620's page cites it as [GJS25].
 
 **Retained artifact.** The
 [folder-name PDF](gishboliner_2025_induced_subgraphs_k_r_free_graphs_erdos_rogers.pdf)

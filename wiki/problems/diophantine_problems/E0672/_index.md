@@ -23,9 +23,9 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Can the product of an arithmetic progression of positive integers
 $n,n+d,\ldots,n+(k-1)d$ of length $k\geq 4$ (with $(n,d)=1$) be a perfect power?
 
-**Status.** Verifiable, the site's label (VERIFIABLE). This is an open label.
-Refereed partial results settle instances in the negative (see the Current
-assessment).
+**Status.** Verifiable, the erdosproblems.com label (VERIFIABLE). This is an
+open label. Refereed partial results settle instances in the negative (see the
+Current assessment).
 
 **Source.** [erdosproblems.com/672](https://www.erdosproblems.com/672), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #672,
@@ -49,12 +49,12 @@ https://www.erdosproblems.com/672.
 - [Ma85] Marszałek, R., On the product of consecutive elements of an arithmetic
   progression. Monatsh. Math. (1985), 215-222.
 - [Ob51] Oblath, Richard, Eine Bemerkung über Produkte aufeinander folgender
-  Zahlen. J. Indian Math. Soc. (N.S.) (1951), 135-139. The site's commentary
-  credits the case $(k,\ell)=(5,2)$ to Obláth under this key, which the
-  site's reference record resolves to this 1951 note; Győry, Hajdu and
-  Saradha (2004, reference [11]) and Bennett, Bruin, Győry and Hajdu (2006,
-  references [26] and [27]) place that case in Obláth's earlier paper, *Über
-  das Produkt fünf aufeinander folgender Zahlen in einer arithmetischen
+  Zahlen. J. Indian Math. Soc. (N.S.) (1951), 135-139. The erdosproblems.com
+  commentary credits the case $(k,\ell)=(5,2)$ to Obláth under this key, which
+  the erdosproblems.com reference record resolves to this 1951 note; Győry,
+  Hajdu and Saradha (2004, reference [11]) and Bennett, Bruin, Győry and Hajdu
+  (2006, references [26] and [27]) place that case in Obláth's earlier paper,
+  *Über das Produkt fünf aufeinander folgender Zahlen in einer arithmetischen
   Reihe*, Publ. Math. Debrecen 1 (1950), 222-226,
   doi:10.5486/PMD.1950.1.2-4.29, the paper the commentary describes.
 
@@ -69,18 +69,19 @@ whose variant `erdos_672.variants.euler` ($k=4$, $\ell=2$) carries a
 Here a primitive progression means $\gcd(n,d)=1$, with $n,d$ positive; it does
 not mean that every pair of terms is coprime. A perfect power means $y^\ell$
 with an integer exponent $\ell\geq2$. The full question was open in general on
-Bloom's catalog as accessed 2026-09-04. It is verifiable in the site's
+Bloom's catalog as accessed 2026-09-04. It is verifiable in erdosproblems.com's
 sense: a single product that is a perfect power would settle it, while a
 negative answer needs a proof. Search scope, 2026-09-05 and 2026-09-06: the
-primary sources and the site discussion, for a full resolution of the coprime
-positive-progression question; the Annals and arXiv versions of Bennett–Siksek's
-Theorem 2, with the Annals publisher record, for its prime-exponent restriction
-and finiteness clause; the published Győry–Hajdu–Pintér paper for the exact
-$4\leq k\leq34$ range; and the exact hypotheses of the 1975, 2004 and 2006
-theorems against the site summary. The partial exclusions stand as recorded
-below, and no full resolution was found. The 2025 publisher description of
-Saradha Natarajan's *Perfect Powers—An Ode to Erdős*, under “About this book,”
-also describes the arithmetic-progression conjecture as unsolved (DOI
+primary sources and the erdosproblems.com discussion, for a full resolution of
+the coprime positive-progression question; the Annals and arXiv versions of
+Bennett–Siksek's Theorem 2, with the Annals publisher record, for its
+prime-exponent restriction and finiteness clause; the published
+Győry–Hajdu–Pintér paper for the exact $4\leq k\leq34$ range; and the exact
+hypotheses of the 1975, 2004 and 2006 theorems against erdosproblems.com
+summary. The partial exclusions stand as recorded below, and no full resolution
+was found. The 2025 publisher description of Saradha Natarajan's *Perfect
+Powers—An Ode to Erdős*, under “About this book,” also describes the
+arithmetic-progression conjecture as unsolved (DOI
 [10.1007/978-981-96-2599-4](https://doi.org/10.1007/978-981-96-2599-4)). This is
 currentness corroboration, not primary theorem evidence.
 
@@ -99,8 +100,8 @@ partial claim that settles instances in the negative:
 [[problems/diophantine_problems/E0672/claims/2009_07_01_gyory_hajdu_pinter|Győry–Hajdu–Pintér]]
 ($4\le k\le34$) and
 [[problems/diophantine_problems/E0672/claims/2017_09_04_bennett_siksek|Bennett–Siksek]]
-($k\ge k_0$ with a large prime exponent). The site credits Euler with the
-case $(k,\ell)=(4,2)$ without naming a publication, so that credit has no
+($k\ge k_0$ with a large prime exponent). erdosproblems.com credits Euler with
+the case $(k,\ell)=(4,2)$ without naming a publication, so that credit has no
 claim page of its own; the case lies inside the Győry–Hajdu–Saradha theorem,
 and a Lean proof of it posted in September 2026 is a pending claim,
 [[problems/diophantine_problems/E0672/claims/2026_09_10_piscitelli|Piscitelli]].

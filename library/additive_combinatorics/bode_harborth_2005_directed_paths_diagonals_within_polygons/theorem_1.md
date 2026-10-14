@@ -40,10 +40,10 @@ has an ordering whose partial sums $s_0=0,s_1,\ldots,s_{n-1}$ are pairwise
 distinct, that is, distinct and nonzero proper partial sums, and for odd
 $n$ it says nothing, the hypothesis of Conjecture 1 failing for the only
 $(n-1)$-subset. For a prime $p$ the theorem is therefore vacuous except at
-$p=2$. For odd $p$ the site's case $t=p-1$ for Problem 475, an ordering of
-$\mathbb Z_p\setminus\{0\}$ with $s_1,\ldots,s_{p-1}$ distinct and
+$p=2$. For odd $p$ erdosproblems.com's case $t=p-1$ for Problem 475, an ordering
+of $\mathbb Z_p\setminus\{0\}$ with $s_1,\ldots,s_{p-1}$ distinct and
 necessarily $s_{p-1}=0$, is not this theorem and is not stated in the
-paper; the site and Erdős attribute it to Graham. An ordering with that
+paper; erdosproblems.com and Erdős attribute it to Graham. An ordering with that
 property is supplied by the odd-$n$ cycle in the proof of
 [[additive_combinatorics/bode_harborth_2005_directed_paths_diagonals_within_polygons/theorem_2|Theorem 2]],
 as a reading made here and recorded on that page.
@@ -82,7 +82,7 @@ explicit permutation.
 - [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: the paper's size
   $n-1$, reported by Hicks, Ollis and Schmitt (their p. 2) together with the
   size $n-2$ as "Conjecture 1.1 is true whenever $|A|=n-1,n-2$"; for every
-  odd prime it is vacuous, so the site's range $p-3\le t\le p-1$ draws from
-  this paper only the size $p-2$ of
+  odd prime it is vacuous, so erdosproblems.com's range $p-3\le t\le p-1$ draws
+  from this paper only the size $p-2$ of
   [[additive_combinatorics/bode_harborth_2005_directed_paths_diagonals_within_polygons/theorem_2|Theorem 2]],
   and its case $t=p-1$ remains Graham's.

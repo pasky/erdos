@@ -42,9 +42,9 @@ $$
 n\le\frac{k-1}{f(k-1)}=\frac{(k-2)^2}{\ln(k-1)-1+\frac1{k-1}}=(1+o(1))\frac{k^2}{\ln k}.
 $$
 
-Hence $R(3,k)\le(k-1)/f(k-1)+1=(1+o(1))k^2/\ln k$, the bound the site's
-commentary on Problem 165 attributes to the paper (the commentary on
-Problem 553 credits it with $R(3,n)\ll n^2/\log n$). The ratio of
+Hence $R(3,k)\le(k-1)/f(k-1)+1=(1+o(1))k^2/\ln k$, the bound the
+erdosproblems.com commentary on Problem 165 attributes to the paper (the
+commentary on Problem 553 credits it with $R(3,n)\ll n^2/\log n$). The ratio of
 $(k-1)/f(k-1)$ to $k^2/\ln k$ is $1+O(1/\ln k)$, so the $o(1)$ decays only
 logarithmically; the computed ratio is about $1.12$ at $k=10^4$ and $1.08$
 at $k=10^6$.
@@ -121,9 +121,10 @@ $\alpha>0.01(n/t)\log t$.
   $R(3,k)\le(1+o(1))k^2/\log k$, the upper half of the problem's known
   range for the constant, through the Ramsey step above; the paper itself
   states the independence bound only.
-- [[../wiki/problems/ramsey_theory/E0553/_index|Problem 553]]: the site's source for
-  $R(3,n)\ll n^2/\log n$, the denominator of the problem's ratio; the
-  resolving paper cites the 1980 note for the same order of magnitude.
+- [[../wiki/problems/ramsey_theory/E0553/_index|Problem 553]]: the
+  erdosproblems.com source for $R(3,n)\ll n^2/\log n$, the denominator of the
+  problem's ratio; the resolving paper cites the 1980 note for the same order of
+  magnitude.
 - [[../wiki/problems/ramsey_theory/E0544/_index|Problem 544]]: the upper half of
   $R(3,k)\asymp k^2/\log k$, which the page uses to average the increments
   $R(3,k+1)-R(3,k)$ over long ranges.

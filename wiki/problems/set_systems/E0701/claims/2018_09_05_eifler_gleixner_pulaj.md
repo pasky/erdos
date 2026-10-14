@@ -50,6 +50,6 @@ previous bound, five elements, is their Proposition 3.
 **Covers.** Families closed under taking subsets whose members lie in a ground
 set of at most seven elements.
 
-**Acceptance.** Refereed: ACM Trans. Math. Softw. 48 (2022), no. 2, 1--12. The
-site does not cite the paper. A comment of 15 May 2026 in the problem's
-discussion thread reports it.
+**Acceptance.** Refereed: ACM Trans. Math. Softw. 48 (2022), no. 2, 1--12.
+erdosproblems.com does not cite the paper. A comment of 15 May 2026 in the
+problem's discussion thread reports it.

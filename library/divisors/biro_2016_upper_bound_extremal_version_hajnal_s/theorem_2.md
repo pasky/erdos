@@ -67,4 +67,4 @@ those of the arXiv:1409.8141v1 preprint named on the
   theorem concerns the graph game, not the divisibility game of the
   problem; it is the cycle-building step behind the upper bound of
   [[divisors/biro_2016_upper_bound_extremal_version_hajnal_s/theorem_3|Theorem 3]],
-  which the site's remarks on the problem cite.
+  which the erdosproblems.com remarks on the problem cite.

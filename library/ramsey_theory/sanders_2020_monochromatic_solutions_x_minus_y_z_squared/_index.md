@@ -28,7 +28,8 @@ on Problem 439's page; the journal text was not compared). Acta Mathematica
 Hungarica is a refereed journal; the note is dedicated "To Endre Szemerédi
 on his 80th birthday" (p. 1) and thanks "the referee for a careful reading
 of the paper" and "the editors of the volume for the invitation to submit"
-(p. 6). Not a source key of the site; Problem 439's page cites it as [Sa20].
+(p. 6). Not a source key of erdosproblems.com; Problem 439's page cites it as
+[Sa20].
 
 **Edition read.** The copy read for this card is the author's typescript:
 six pages numbered 1--6 (the journal's
@@ -79,7 +80,7 @@ the reference list (p. 6) was read for [Ber86], [Ber96], [CGS12], [GL19],
   with $x$, $y$, $z$ of one color.
 - References (p. 6): [KS06] A. Khalfalah and E. Szemerédi, On the number
   of monochromatic solutions of $x+y=z^2$, Combin. Probab. Comput. 15
-  (2006), no. 1--2, 213--227 (the site's KhSz06); [GL19] Green and
+  (2006), no. 1--2, 213--227 (erdosproblems.com's KhSz06); [GL19] Green and
   Lindqvist, Canadian Journal of Mathematics, 2019, arXiv:1608.08374 (filed
   as
   [[ramsey_theory/green_2019_monochromatic_solutions_x_plus_y_z_squared/_index|green_2019_monochromatic_solutions_x_plus_y_z_squared]]);
@@ -96,7 +97,7 @@ through this introduction's restatement, which is second-hand.
 (p. 1 = PDF p. 1, page image) restates the Khalfalah--Szemerédi theorem for
 squares with the clause the problem needs, "two distinct elements $x$ and
 $y$ with the same colour and $x+y=z^2$", in the finite form on $[N]$ for
-every number of colors $r$, which implies the infinite form the site
+every number of colors $r$, which implies the infinite form erdosproblems.com
 states; it attributes the question to Roth, Erdős, Sárközy and Sós; the
 $k$th-power case is not mentioned. Theorem 1.1 concerns the fully
 monochromatic equation $x-y=z^2$, an adjacent result that neither proves nor

@@ -28,9 +28,9 @@ cycles of length $3$ or $4$). Can the edges of $G$ always be directed such that
 there is no directed cycle, and reversing the direction of any edge also creates
 no directed cycle?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 2
-December 2025). An orientation of $G$ has the required property when it has
-no directed cycle and, for every edge $e$, the orientation obtained by
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 2 December 2025). An orientation of $G$ has the required property when it
+has no directed cycle and, for every edge $e$, the orientation obtained by
 reversing $e$ alone has no directed cycle either. The question asks whether
 every graph without $C_3$ and $C_4$ has such an orientation, so one graph of
 girth at least five with no such orientation answers it in the negative.
@@ -67,10 +67,10 @@ The standing in the frontmatter is derived from the claim pages.
 
 **Source.** [erdosproblems.com/1006](https://www.erdosproblems.com/1006),
 accessed 2026-09-18: the problem page
-(DISPROVED, which the site glosses as a negative resolution; last edited
-2 December 2025; source keys [Er71], [Er76b]; commentary citing [NeRo78b]), its
-two-comment discussion thread (28 and 29 September 2025) and its empty
-proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1006,
+(DISPROVED, which erdosproblems.com glosses as a negative resolution; last
+edited 2 December 2025; source keys [Er71], [Er76b]; commentary citing
+[NeRo78b]), its two-comment discussion thread (28 and 29 September 2025) and its
+empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1006,
 https://www.erdosproblems.com/1006, accessed 2026-09-18.
 
 **References.**
@@ -96,13 +96,14 @@ https://www.erdosproblems.com/1006, accessed 2026-09-18.
 - [Er76b] Erdős, P., Problems and results in graph theory and combinatorial
   analysis. Proceedings of the Fifth British Combinatorial Conference (Univ.
   Aberdeen, Aberdeen, 1975), Congr. Numer. XV (1976), 169--192; Problem 8,
-  p. 175 (the site's reference text for the key, 2026-09-18). Library home:
+  p. 175 (the erdosproblems.com reference text for the key, 2026-09-18). Library
+  home:
   [[../library/extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/_index|erdos_1976_problems_results_graph_theory_combinatorial_analysis]]
   (a Rényi archive scan); paged at
   [[../library/extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/problem_8|problem_8]].
 
 **Formalization.** None. No file `ErdosProblems/1006.lean` exists in
-formal-conjectures at main on 2026-09-18 or on 2026-10-07; the site's
+formal-conjectures at main on 2026-09-18 or on 2026-10-07; the erdosproblems.com
 indicator says that no formalized statement exists; the community database
 (teorth/erdosproblems, `data/problems.yaml`, 2026-09-18) records the problem
 as disproved (its last update is dated 28 September 2025), unformalized,
@@ -110,10 +111,10 @@ with no formalized statement.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-DISPROVED; last edited 2 December 2025. The site's commentary, in this
-page's words: Erdős credited the question to Ore in [Er71]; Ore had a graph
-of girth $4$ without such an orientation, and Gallai observed that the
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED; last edited 2 December 2025. The erdosproblems.com commentary,
+in this page's words: Erdős credited the question to Ore in [Er71]; Ore had a
+graph of girth $4$ without such an orientation, and Gallai observed that the
 Grötzsch graph is another; the answer is no, because Nešetřil and Rödl
 [NeRo78b] construct, for every $g$, a graph of girth $g$ every orientation
 of which either has a directed cycle or has a cycle that a single edge
@@ -122,9 +123,9 @@ reversal would make directed. The thread has two comments by one account
 problem and pointing to Corollary 4 by a link to the paper on the
 publisher's site, with the remark that the commenter had first proved the
 same result independently; 11:39 on 29 September 2025, a typo report on the
-commentary's wording), both marked as addressed by the site. The proof-claim
-tab is empty. The community database record says disproved, with its last
-update dated 28 September 2025.
+commentary's wording), both marked as addressed by erdosproblems.com. The
+proof-claim tab is empty. The community database record says disproved, with its
+last update dated 28 September 2025.
 
 **The disproof.**
 [[../library/extremal_graph_theory/nesetril_1978_probabilistic_graph_theoretical_method/corollary_3|Corollary
@@ -153,8 +154,8 @@ edge $v_1v_5$ gives the directed cycle
 $v_1\to v_2\to v_3\to v_4\to v_5\to v_1$, so $D$ fails the second
 condition. Hence $G$ has no orientation of the required kind and the answer
 to the question is no. The same argument with any $s\ge5$ gives such graphs
-of every girth at least five, the form in which the site's commentary states
-the result.
+of every girth at least five, the form in which the erdosproblems.com commentary
+states the result.
 [[../library/extremal_graph_theory/nesetril_1978_probabilistic_graph_theoretical_method/corollary_4|Corollary 4]]
 (p. 419): "For every $s$ there exists a graph $(V,E)$ without cycles of
 length $<s$ which is not a subgraph of a Hasse-diagram of a partially ordered
@@ -165,9 +166,9 @@ why it answers the problem as well.
 
 Acceptance evidence: refereed publication (Proceedings of the American
 Mathematical Society; received 20 May 1977, revised 6 January 1978; the
-Crossref record agrees with the paper's printed data), the site's label and
-the community database. Read depth: claims checked for Corollaries 3 and 4
-and Theorem 2; the proofs of the Lemma (p. 418) and of Theorem 2 (p. 419)
+Crossref record agrees with the paper's printed data), the erdosproblems.com
+label and the community database. Read depth: claims checked for Corollaries 3
+and 4 and Theorem 2; the proofs of the Lemma (p. 418) and of Theorem 2 (p. 419)
 were read for structure only, and nothing is independently reviewed. Proof
 pointer: Theorem 2 places a copy of the ordered
 $s$-cycle inside every edge of a $p$-uniform hypergraph without short cycles
@@ -189,12 +190,12 @@ whose girth is greater than four and which cannot be directed in such a
 way." He adds that the Grötzsch graph is 4-chromatic and triangle-free, asks
 whether it is the only such graph on at most 11 vertices, and records in a
 footnote added in proof that this was known to several mathematicians. Ore's
-girth-four example, which the site's commentary mentions, is not described
-in the list. [Er76b], Problem 8 (p. 175; paged at
+girth-four example, which the erdosproblems.com commentary mentions, is not
+described in the list. [Er76b], Problem 8 (p. 175; paged at
 [[../library/extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/problem_8|problem_8]])
 restates the question for graphs of girth greater than four, in the form the
-site's statement takes, and adds that Erdős had asked it several years
-earlier and that "as far as I know there are no results".
+erdosproblems.com statement takes, and adds that Erdős had asked it several
+years earlier and that "as far as I know there are no results".
 
 **Cover-graph literature.** By the equivalence in the Formulation, a graph of
 girth at least five that is not a cover graph answers the question no; the
@@ -225,9 +226,9 @@ paper has no claim page.
 **Search scope.** None of the routes below found a dispute
 of Corollary 3; the later cover-graph papers are listed above.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-18; the formal-conjectures directory and tree as fetched that day
-  (no file 1006); the community database entry as fetched that day.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures directory and tree as fetched that
+  day (no file 1006); the community database entry as fetched that day.
 - Crossref: the record of doi:10.1090/S0002-9939-1978-0507350-7.
 - zbMATH Open: the records of the five cover-graph papers named
   above, and Crossref's record of doi:10.1016/0012-365X(87)90012-4.
@@ -258,7 +259,7 @@ texts cited here. (3) There is no Lean statement of the problem.
   joining its ends; the disproof, through the authored deduction above.
 - [[../library/extremal_graph_theory/nesetril_1978_probabilistic_graph_theoretical_method/corollary_4|Corollary 4]]:
   the Hasse-diagram form, answering a question of Bollobás; the form the
-  site's thread cites.
+  erdosproblems.com thread cites.
 - [[problems/extremal_graph_theory/E1006/claims/1987_01_01_pretzel|Pretzel 1987]]
   (Discrete Math. 63, stated from its zbMATH summary; pending): an explicit
   graph of girth six that is not a cover graph; a second disproof, through the

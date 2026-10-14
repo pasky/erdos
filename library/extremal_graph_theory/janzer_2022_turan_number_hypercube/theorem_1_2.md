@@ -63,8 +63,8 @@ The attribution to Sudakov and Tomon.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: the site's "A
-  theorem of Sudakov and Tomon [SuTo22] implies
+- [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]:
+  erdosproblems.com's "A theorem of Sudakov and Tomon [SuTo22] implies
   $\mathrm{ex}(n;Q_k)=o(n^{2-1/k})$", available here only through this
   restatement and the abstract named above; superseded for every $k\ge3$ by
   [[extremal_graph_theory/janzer_2022_turan_number_hypercube/theorem_1_4|Theorem 1.4]].

@@ -24,12 +24,12 @@ updated: 2026-10-08T18:28:45Z
 **Statement.** Let $g(k)>k+1$ be the smallest $n$ such that all prime factors of
 $\binom{n}{k}$ are $>k$. Estimate $g(k)$.
 
-**Status.** Labeled open on the site (OPEN; page last edited 21 June 2026). The
-standing in the frontmatter derives from the claim pages, and the problem stands
-open with a pending partial claim.
+**Status.** Labeled open on erdosproblems.com (OPEN; page last edited 21 June
+2026). The standing in the frontmatter derives from the claim pages, and the
+problem stands open with a pending partial claim.
 
-The site's remarks credit the bounds $k^{1+c}<g(k)\le\exp((1+o(1))k)$ to
-Ecklund, Erdős and Selfridge. They credit the lower-bound record
+The erdosproblems.com remarks credit the bounds $k^{1+c}<g(k)\le\exp((1+o(1))k)$
+to Ecklund, Erdős and Selfridge. They credit the lower-bound record
 $g(k)\gg\exp(c(\log k)^2)$ to Konyagin. Ecklund, Erdős and Selfridge write that
 $g(k)<L_k=\operatorname{lcm}(1,\ldots,k)$ "seems to hold for all $k$"
 ([[../library/factorials_binomials/ecklund_1974_new_function_associated_prime_factors/conjecture_p649|their conjecture on p. 649]]).
@@ -41,7 +41,7 @@ The only claim is the pending partial claim
 It is a manuscript of September 2026 with a Lean development, produced with
 GPT-6 Astra and GPT-5.6 Sol. It proves $g(k)<L_k$ for every sufficiently large
 $k$. It does not estimate $g(k)$. No reviewer has accepted it, this corpus has
-not built its Lean, and the site's label was unchanged.
+not built its Lean, and the erdosproblems.com label was unchanged.
 
 **Source.** [erdosproblems.com/1095](https://www.erdosproblems.com/1095),
 accessed 2026-09-04 and 2026-10-06 (the problem page and its proof-claims tab:
@@ -76,9 +76,9 @@ bound through
 [[../library/factorials_binomials/ecklund_1974_new_function_associated_prime_factors/inequality_8|their inequality (8)]],
 $g(k)<k^2L_kP_l$ for $k>k_0$ with $l=[6k/\log k]$ (the integer part) and $P_l$
 the product of the primes up to $l$, and Konyagin [Ko99b] proves the lower bound
-$g(k)\gg\exp(c(\log k)^2)$; the site's remarks credit both. These bounds
-narrow the estimate without settling any instance of it, so neither has a claim
-page. The Lean file
+$g(k)\gg\exp(c(\log k)^2)$; the erdosproblems.com remarks credit both. These
+bounds narrow the estimate without settling any instance of it, so neither has a
+claim page. The Lean file
 [Erdos1095b.lean](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1095b.lean)
 in Boris Alexeev's lean-proofs collection declares itself a partial
 formalization of the result of Ecklund, Erdős and Selfridge, with Aristotle and

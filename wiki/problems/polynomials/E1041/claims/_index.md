@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 1041, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/polynomials/E1041/claims
@@ -37,6 +37,6 @@ origin inside the lemniscate, so two roots are joined by a short path.
 [[problems/polynomials/E1041/claims/2026_09_18_borisov|2026_09_18_borisov]]: Borisov claims that for a monic cubic with all roots in the open unit disk,
 two roots are joined inside the lemniscate by a two-segment path of length
 less than $2$ through a critical point. It is a Zenodo preprint, listed as a
-partial claim on the site's tab.
+partial claim on the erdosproblems.com tab.
 
 ***

@@ -69,7 +69,7 @@ cites the same extension in its footnote 2, as recorded on the
 ## Bears on
 
 - [[../wiki/problems/primes/E0049/_index|Problem 49]]: these records concern the weak
-  (nondecreasing) variant that Erdős further asks about in the site's
+  (nondecreasing) variant that Erdős further asks about in erdosproblems.com's
   [Er95c], not the strict question of the erdosproblems.com statement. For the
   weak variant the bound that OEIS A365339 records shows that the primes are not
   a largest example for any $x\ge31957$, and the paper's conjecture puts

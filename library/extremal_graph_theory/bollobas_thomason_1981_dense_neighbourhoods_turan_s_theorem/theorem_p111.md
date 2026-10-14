@@ -134,6 +134,6 @@ Goodman 1959, Lovász--Simonovits 1976 and Turán 1941 are not held.
   $d>n\bigl(1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}\bigr)$ as printed. The
   printed argument gives that explicit bound for $n\ge(r-1)(1+\sqrt{r-1})^2/2$
   (observation (c)) and some linear bound $d\ge c_rn$ for every $n$. The
-  site's form asks for $\mathrm{ex}(d;K_{r-1})$ edges without the "$+1$" and
-  makes an exception for the Turán graph, which is the exception of this
-  theorem.
+  erdosproblems.com form asks for $\mathrm{ex}(d;K_{r-1})$ edges without the
+  "$+1$" and makes an exception for the Turán graph, which is the exception of
+  this theorem.

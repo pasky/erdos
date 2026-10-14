@@ -57,6 +57,6 @@ None beyond the definitions.
   [[additive_combinatorics/korsky_2026_arithmetic_progression_free_subset_sum_sets/theorem_1_1|Theorem 1.1]],
   and the statement (as its Proposition 2.1) that the September 2026
   preprint claiming $\liminf g_3(n)/3^n=0$ starts from; also the form in
-  which the site's thread discusses exact values and the monotonicity
+  which the erdosproblems.com thread discusses exact values and the monotonicity
   $g_3(n+1)\le3g_3(n)$ (via $\{1\}\cup3A$), which are recorded on the problem
   page as leads.

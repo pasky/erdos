@@ -24,8 +24,8 @@ $$
 
 The display is the last one of Section 3 and carries no number on the
 page; Section 6 refers to it as (3.3). Taking the infimum over sequences,
-$\Lambda_r\ge1/\log(1+1/r)$, the bound the site quotes. For $r=1$ it gives
-$\Lambda_1\ge1/\log2$, attained by the Section 2 sequence.
+$\Lambda_r\ge1/\log(1+1/r)$, the bound erdosproblems.com quotes. For $r=1$ it
+gives $\Lambda_1\ge1/\log2$, attained by the Section 2 sequence.
 
 **Source.** N. G. de Bruijn and P. Erdős, *Sequences of points on a
 circle*, Proc. 52 (1949), 14--17; Section 3 on printed p. 15 (PDF p. 3 of
@@ -90,6 +90,6 @@ None beyond the Section 1 definitions.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the first of the three bounds
-  the site quotes, and the reason the literal first expression
+  erdosproblems.com quotes, and the reason the literal first expression
   $r(\Lambda_r-1)$ of the problem is trivially unbounded: it is at least
   $r(r-1)$.

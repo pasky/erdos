@@ -133,10 +133,10 @@ admission "I do not have good estimates for $f(n;k,l)$, I cannot even prove
 that for fixed $k$ and sufficiently large $n$, $f(n;k,l)$ is a strictly
 monotone function of $l$"
 ([[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/conjecture_p33|conjecture_p33]]),
-where $f$ is $f_1$ by the p. 30 convention while the site defines its $f$ as
-a minimum of Turán numbers; the source of the site's Dirac--Erdős sentence,
-p. 34 (PDF p. 6), "Dirac and I showed independently that every
-$\mathfrak G(n;[n^2/4]+1)$ contains, for every $k\le n$, a
+where $f$ is $f_1$ by the p. 30 convention while erdosproblems.com defines its
+$f$ as a minimum of Turán numbers; the source of erdosproblems.com's
+Dirac--Erdős sentence, p. 34 (PDF p. 6), "Dirac and I showed independently that
+every $\mathfrak G(n;[n^2/4]+1)$ contains, for every $k\le n$, a
 $\mathfrak G(k;[k^2/4]+1)$", with the $K(k,k)$-plus-an-edge theorem for large
 $n$ and displays (12)--(13)
 ([[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/theorem_p34|theorem_p34]]);
@@ -151,7 +151,7 @@ $kn+c$ edges for a circuit with $k-1$ diagonals from a vertex, "It is easy to
 see that $c\ge1-k^2$. Perhaps $c=1-k^2$? For $k=2$ this is Pósa's result, and
 I can prove it for $k=3$ and $k=4$ also"
 ([[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/problem_p36|problem_p36]]);
-the paper counts $k-1$ diagonals where the site counts $k$ chords.
+the paper counts $k-1$ diagonals where erdosproblems.com counts $k$ chords.
 
 **Results.**
 

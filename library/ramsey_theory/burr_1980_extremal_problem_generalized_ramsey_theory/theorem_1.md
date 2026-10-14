@@ -3,7 +3,7 @@ name: ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem
 title: "Theorem 1: (17n+1)/15 ≤ f(n) for n ≥ 4 and f(n) < (27/4 + ε) n (log n)^2 for large n"
 desc: |
   The two-sided 1980 bounds on the largest size below which every connected
-  graph of order n is 3-good, which in the site's letters bound F(n) of
+  graph of order n is 3-good, which in erdosproblems.com's letters bound F(n) of
   Problem 1182 between a linear and an n (log n)^2 function.
 created: 2026-09-18T11:20:00Z
 updated: 2026-10-08T15:18:08Z
@@ -16,7 +16,7 @@ updated: 2026-10-08T15:18:08Z
 Here $f(n)=f(3,n)$ is the largest integer $q$ such that every connected
 graph of order $n$ and size $q$ is $3$-good, that is, satisfies
 $r(K_3,G)=2n-1$ (printed p. 193). In the letters of Problem 1182 this is
-the site's $F(n)$.
+erdosproblems.com's $F(n)$.
 
 **Theorem 1** (p. 198). "(a) For all $n\ge4$, $f(n)\ge(17n+1)/15$. (b) Let
 $\varepsilon>0$ be fixed. Then, if $n$ is sufficiently large,
@@ -54,10 +54,10 @@ held).
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in the site's letters,
-  $F(n)\ge(17n+1)/15$ for all $n\ge4$, and for each fixed $\varepsilon>0$,
-  $F(n)<(27/4+\varepsilon)n(\log n)^2$ for all sufficiently large $n$; the
-  site's commentary quotes these bounds with $(27/4+o(1))$. The lower bound
-  is linear, so the theorem leaves open whether $F(n)/n\to\infty$; a 1996
-  preprint of Brandt claims $F(n)<84n$ for large $n$, a claim the problem
-  page records as pending.
+- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in
+  erdosproblems.com's letters, $F(n)\ge(17n+1)/15$ for all $n\ge4$, and for each
+  fixed $\varepsilon>0$, $F(n)<(27/4+\varepsilon)n(\log n)^2$ for all
+  sufficiently large $n$; the erdosproblems.com commentary quotes these bounds
+  with $(27/4+o(1))$. The lower bound is linear, so the theorem leaves open
+  whether $F(n)/n\to\infty$; a 1996 preprint of Brandt claims $F(n)<84n$ for
+  large $n$, a claim the problem page records as pending.

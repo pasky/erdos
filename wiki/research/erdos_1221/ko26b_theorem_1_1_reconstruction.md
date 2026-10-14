@@ -238,7 +238,7 @@ this places $\mu_r-1$ between two constant multiples of $\log r/r$.
 
 ## Readings addressed
 
-The site's wording of Problem 1221 asks whether $r(\Lambda_r-1)$,
+The erdosproblems.com wording of Problem 1221 asks whether $r(\Lambda_r-1)$,
 $r(1-\lambda_r)$ and $r(\mu_r-1)$ tend to infinity, with
 $\Lambda_r,\lambda_r,\mu_r$ the 1949 constants over all sequences; the first two
 expressions are defective as written (the first is at least $r(r-1)$, the second
@@ -263,4 +263,4 @@ records.
   ([[research/erdos_1221/ko26a_theorem_1_1_reconstruction|Korsky's note]]),
   and the theorem claims $\log r/100$.
 - All three parts are stated over sequences of **distinct** points, a
-  restriction of the site's and the note's family (see above).
+  restriction of erdosproblems.com's and the note's family (see above).

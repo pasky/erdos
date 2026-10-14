@@ -31,23 +31,23 @@ $$
 \hat{R}(G)\ll_d n.
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-17 (page last edited
-18 January 2026). "$H$ is Ramsey for $G$" means that every
-$2$-coloring of the edges of $H$ contains a monochromatic copy of $G$. The
-sources write the size Ramsey number $\hat r(G)$; the 1978 paper that
-introduced it reserves $\hat R(G_1,G_2)$ for $\binom{r(G_1,G_2)}2$. The
-statement asks for $\hat R(G)\le c(d)\,n$ for every $n$-vertex graph $G$ of
-maximum degree $d$, with $c(d)$ depending only on $d$; one family of
-bounded-degree graphs with superlinear size Ramsey numbers refutes it. The
-site attributes the question to Beck [Be83b]; Rödl and Szemerédi ([RoSz00]
-p. 257, their [2]), Tikhomirov and Conlon, Nenadov and Trujić cite Beck's
-1990 sequel [Be90] for it, and the UCSD graphs problem collection credits it
-to Beck and Erdős with the 1990 volume containing [Be90] as its reference.
-[Be83b] is not held; [Be90] p. 36 poses the question as a "Problem" for
-graphs of $n$ edges and maximal degree $D$.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
+edited 18 January 2026). "$H$ is Ramsey for $G$" means that every $2$-coloring
+of the edges of $H$ contains a monochromatic copy of $G$. The sources write the
+size Ramsey number $\hat r(G)$; the 1978 paper that introduced it reserves
+$\hat R(G_1,G_2)$ for $\binom{r(G_1,G_2)}2$. The statement asks for
+$\hat R(G)\le c(d)\,n$ for every $n$-vertex graph $G$ of maximum degree $d$,
+with $c(d)$ depending only on $d$; one family of bounded-degree graphs with
+superlinear size Ramsey numbers refutes it. erdosproblems.com attributes the
+question to Beck [Be83b]; Rödl and Szemerédi ([RoSz00] p. 257, their [2]),
+Tikhomirov and Conlon, Nenadov and Trujić cite Beck's 1990 sequel [Be90] for it,
+and the UCSD graphs problem collection credits it to Beck and Erdős with the
+1990 volume containing [Be90] as its reference. [Be83b] is not held; [Be90] p.
+36 poses the question as a "Problem" for graphs of $n$ edges and maximal degree
+$D$.
 
-**Status.** Disproved, in the site's label (DISPROVED; page last edited 18
-January 2026, accessed 2026-09-17). The claim pages
+**Status.** Disproved, in the erdosproblems.com label (DISPROVED; page last
+edited 18 January 2026, accessed 2026-09-17). The claim pages
 [[problems/ramsey_theory/E0559/claims/2000_02_01_rodl_szemeredi|Rödl and Szemerédi 2000]]
 and
 [[problems/ramsey_theory/E0559/claims/2022_10_11_tikhomirov|Tikhomirov 2022]]
@@ -88,7 +88,7 @@ https://www.erdosproblems.com/559, accessed 2026-09-17.
 
 - [Be83b] Beck, J., On size Ramsey number of paths, trees, and circuits. I.
   J. Graph Theory 7 (1983), no. 1, 115--129, doi:10.1002/jgt.3190070115. Not
-  held. The site cites it for the question and for the path case; its
+  held. erdosproblems.com cites it for the question and for the path case; its
   bound $\hat R(P_n)<900n$ is quoted here from [JKOP19], p. 2.
 - [Be90] Beck, J., On size Ramsey number of paths, trees and circuits. II.
   Mathematics of Ramsey theory, Algorithms Combin. 5, Springer, Berlin
@@ -166,31 +166,30 @@ variants without formal proofs, the Rödl--Szemerédi bound (for infinitely
 many $n$), Tikhomirov's bound, the Friedman--Pippenger tree case and the
 Draganić--Petrova upper bound. The statement file is a statement, not a
 formalization, and adds no evidence; the third-party proof was not built
-by this corpus. The site's page records a formalized statement (linking
-that file), and the community database (teorth/erdosproblems, read 2026-10-06)
-records the problem as disproved (last updated 31 August 2025) and formalized
-since 20 September 2026.
+by this corpus. The erdosproblems.com page records a formalized statement
+(linking that file), and the community database (teorth/erdosproblems, read
+2026-10-06) records the problem as disproved (last updated 31 August 2025) and
+formalized since 20 September 2026.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
-above; status DISPROVED; last edited 18 January 2026. The site's commentary
-attributes the problem to Beck, and possibly also to Erdős, while saying that
-no reference in which Erdős himself discusses it could be found; it locates
-the question in [Be83b], a paper answering a related question of Erdős (the
-site's Problem 720). It
-records the positive cases (paths [Be83b], trees [FrPi87], cycles [HKL95]
-and, with better constants, [JKOP19]); Rödl and Szemerédi's disproof for
-$d=3$ [RoSz00], an $n$-vertex graph of maximum degree $3$ with
-$\hat R(G)\gg n(\log n)^c$; Tikhomirov's improvement to
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; status DISPROVED; last edited 18 January 2026. The erdosproblems.com
+commentary attributes the problem to Beck, and possibly also to Erdős, while
+saying that no reference in which Erdős himself discusses it could be found; it
+locates the question in [Be83b], a paper answering a related question of Erdős
+(erdosproblems.com's Problem 720). It records the positive cases (paths [Be83b],
+trees [FrPi87], cycles [HKL95] and, with better constants, [JKOP19]); Rödl and
+Szemerédi's disproof for $d=3$ [RoSz00], an $n$-vertex graph of maximum degree
+$3$ with $\hat R(G)\gg n(\log n)^c$; Tikhomirov's improvement to
 $\hat R(G)\gg n\exp(c\sqrt{\log n})$; and the upper bounds $n^{5/3+o(1)}$
 [KRSS11], $\ll n^{8/5}$ [CNT22] and $n^{3/2+o(1)}$ [DrPe22] for maximum
-degree $3$, the last as the best known; the site lists the problem as
+degree $3$, the last as the best known; erdosproblems.com lists the problem as
 number 28 of the Ramsey theory section of its graphs problem collection.
 The discussion thread has three comments
-of 25 and 26 October 2025 on the attribution: the site's maintainer writes
-that Beck [Be83b] was the first to ask the question and that they are not sure
-whether Erdős repeated it; a comment of 26 October 2025 (which says it
+of 25 and 26 October 2025 on the attribution: the erdosproblems.com maintainer
+writes that Beck [Be83b] was the first to ask the question and that they are not
+sure whether Erdős repeated it; a comment of 26 October 2025 (which says it
 asked ChatGPT and Gemini for sources) reports that Chung's survey attributes
 the problem to Beck and Erdős, with the 1990 volume Mathematics of Ramsey
 Theory as its reference. There are no proof claims.
@@ -232,15 +231,15 @@ n)^{1/60}$ for some constant $c$"; [CNT22] p. 1 writes that they "answered this
 in the negative by showing that there exists a constant $c>0$ and, for every
 $n$, an $n$-vertex cubic graph $H$, that is, a graph with maximum degree three,
 such that $\hat r(H)\ge n(\log n)^c$". The first two carry the proof's exponent
-and the third the theorem's unspecified one; the site's display $\hat R(G)\gg
-n(\log n)^c$ is the theorem's form.
+and the third the theorem's unspecified one; the erdosproblems.com display
+$\hat R(G)\gg n(\log n)^c$ is the theorem's form.
 
 **The cases in which the statement holds.** Paths: Beck [Be83b], quoted by
 [JKOP19] p. 2 as $\hat R(P_n)=\hat R(P_n,P_n)<900n$ for sufficiently large $n$
 (with Dudek and Prałat's later $74n$), and by [DrPe22] p. 1 as the answer to "a
-\$100 question of Erdős", the site's Problem 720. Trees of bounded degree:
-[FrPi87], quoted by [DrPe22] p. 2 ("for every tree $T$ of bounded degree on $n$
-vertices, $\hat r(T)=O(n)$"). Cycles:
+\$100 question of Erdős", erdosproblems.com's Problem 720. Trees of bounded
+degree: [FrPi87], quoted by [DrPe22] p. 2 ("for every tree $T$ of bounded degree
+on $n$ vertices, $\hat r(T)=O(n)$"). Cycles:
 [[../library/ramsey_theory/haxell_1995_induced_size_ramsey_number_cycles/corollary_11|Corollary 11]]
 of [HKL95] gives $r_e^{\mathrm{ind}}(C^\ell)\le c_r\ell$ in $r$ colors, hence
 $\hat r(C_\ell)=O(\ell)$, from
@@ -283,14 +282,14 @@ where $\hat r(n,\Delta)$ is the maximum of $\hat r(G)$ over graphs $G$ with
 $n$ vertices and maximum degree $\Delta$, read as holding for all large
 $n$; the upper half is [KRSS11], and the lower half is
 "widely believed" ([CNT22] p. 1) and "still remains out of sight" ([DrPe22]
-p. 2, September 2025). This growth question is distinct from the site's
-problem, which is settled in the negative.
+p. 2, September 2025). This growth question is distinct from the
+erdosproblems.com problem, which is settled in the negative.
 
 **Search scope.** The status rests on these routes;
 none found a source contradicting the disproof or a new bound for cubic
 graphs.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the full directory listing of
   formal-conjectures on 2026-09-17 (no file for this problem then; the
   statement file was added on 20 September 2026, see Formalization).
@@ -331,10 +330,10 @@ graphs of bounded edge density, while doubting it; whether [Be83b] also poses
 the question is unchecked, that paper not being held. (3) Proof coverage: claims
 checked only; no proof was reviewed here, and the journal text of [Ti22b] was
 not compared with the arXiv version. (4) The growth question for cubic graphs is
-open between $n\exp(c\sqrt{\log n})$ and $n^{3/2+o(1)}$; it is not the site's
-problem. (5) The Lean statement of the problem in formal-conjectures (20
-September 2026) points to a third-party proof that this corpus has not built, so
-nothing is formalized here.
+open between $n\exp(c\sqrt{\log n})$ and $n^{3/2+o(1)}$; it is not the
+erdosproblems.com problem. (5) The Lean statement of the problem in
+formal-conjectures (20 September 2026) points to a third-party proof that this
+corpus has not built, so nothing is formalized here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -62,7 +62,7 @@ and claims (Theorem, p. 1) that when $\alpha/\beta$ is irrational,
 removing any finite $F\subseteq\mathbb Z$ from $A_{\alpha,\beta}$ leaves
 a set whose sums of distinct elements contain every integer from some
 threshold $H$ on; that is, $A_{\alpha,\beta}$ is strongly complete. The
-paper notes that this implies the indexed statement of the site's first
+paper notes that this implies the indexed statement of erdosproblems.com's first
 question (each index used at most once, equal values at different
 indices allowed) and that its theorem is the stronger distinct-values
 form; it treats base $2$ and the irrational-ratio case only, and says the
@@ -107,9 +107,9 @@ no `sorry`, custom axiom or `native_decide`, a verified Lean source commit
 - erdosproblems.com, proof-claims tab of Problem 354 (read 2026-09-28):
   one full-proof claim, "claimed by Yingzhe Yu, Kani Chen", submitted
   2026-09-13 15:48:40, with a summary of the strong-completeness argument
-  and links to the proof and the formalization, 0 comments, under the
-  site's notice that "Appearing on this page is no guarantee of proof
-  correctness".
+  and links to the proof and the formalization, 0 comments, under
+  erdosproblems.com's notice that "Appearing on this page is no guarantee of
+  proof correctness".
 - google-deepmind/formal-conjectures: issue #6431 (2026-09-20, open, no
   labels, "Erdős 354(i): external Lean proof and proposed status update")
   and PR #6433 (2026-09-20, open, labeled `erdos-problems` and
@@ -118,14 +118,14 @@ no `sorry`, custom axiom or `native_decide`, a verified Lean source commit
 - The bounty site's review of its own accepted proof (15 September 2026)
   notes this claim as "later than acceptance" (posted 13 September, the
   repository created 12 September); see the
-  [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/_index|site record]].
+  [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/_index|Conjectures.io record]].
 - No refereed or independent review found.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0354/_index|#354]]: an outstanding
 claim for the first question, stronger than it (strong completeness of
 the nonzero value set implies the indexed answer yes); it changes no
-status, since the first question already has a site-accepted answer and
-this manuscript has no acceptance evidence.
+status, since the first question already has a Conjectures.io-accepted answer
+and this manuscript has no acceptance evidence.
 
 **Results.**
 

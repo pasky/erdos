@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 1129, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/polynomials/E1129/claims
@@ -13,8 +13,8 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/polynomials/E1129/claims/1978_12_01_deboor_pinkus|1978_12_01_deboor_pinkus]]: De Boor and Pinkus prove that among node systems containing both endpoints,
 exactly one equioscillates, and it alone minimizes the Lebesgue constant. The
-refereed paper appeared in J. Approx. Theory and is credited by the site's
-curator.
+refereed paper appeared in J. Approx. Theory and is credited by the
+erdosproblems.com curator.
 
 [[problems/polynomials/E1129/claims/1978_12_01_kilgore|1978_12_01_kilgore]]: Kilgore proves Bernstein's conjecture that, among node systems containing both
 endpoints, the Lebesgue constant is minimized exactly by the equioscillating

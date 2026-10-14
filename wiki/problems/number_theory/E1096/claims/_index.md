@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 1096, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/number_theory/E1096/claims
@@ -14,7 +14,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/number_theory/E1096/claims/1998_04_01_erdos_komornik|1998_04_01_erdos_komornik]]: Erdős and Komornik's 1998 theorem: the gaps of the ordered sums of distinct
 powers of $q$ tend to zero for every $q\in(1,2^{1/4}]$ other than the square
 root of the second Pisot number. It is the first resolution, refereed and
-credited by the site.
+credited by erdosproblems.com.
 
 [[problems/number_theory/E1096/claims/2011_03_23_akiyama_komornik|2011_03_23_akiyama_komornik]]: Akiyama and Komornik's theorem: the gaps of the ordered sums of distinct
 powers of $q$ tend to zero for every $q\in(1,2^{1/3}]$, which closes the point

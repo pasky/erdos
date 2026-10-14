@@ -4,7 +4,7 @@ title: "Conjecture (p. 638): τ(G) = n − α(G) for almost all graphs, attribut
 desc: |
   The 1988 record of Erdős's conjecture that the biclique partition number of
   almost every graph equals n minus its independence number, with the star
-  bound it sharpens; the origin of Problem 807 as the site cites it.
+  bound it sharpens; the origin of Problem 807 as erdosproblems.com cites it.
 created: 2026-09-18T15:55:00Z
 updated: 2026-10-08T15:03:10Z
 ---
@@ -41,7 +41,8 @@ complete bipartite subgraphs of such a graph are stars
 "Almost all graphs" is read by Alon (2015, arXiv p. 1: "Erdős conjectured
 (see [8]) that for almost every graph $G$ equality holds, i.e., that for the
 random graph $G(n,0.5)$, $\tau(G)=n-\alpha(G)$ with high probability") as
-the random graph with edge probability $1/2$, which is the site's wording.
+the random graph with edge probability $1/2$, which is the erdosproblems.com
+wording.
 
 **Source.** T. Kratzke, B. Reznick and D. West, *Eigensharp graphs:
 decomposition into complete bipartite subgraphs*, Trans. Amer. Math. Soc. 308
@@ -70,4 +71,5 @@ None.
 
 - [[../wiki/problems/extremal_graph_theory/E0807/_index|Problem 807]]: the problem's
   statement in the paper's words, and the star bound $\tau(G)\le n-\alpha(G)$
-  whose typical sharpness the problem asks about; the site's source key.
+  whose typical sharpness the problem asks about; the erdosproblems.com source
+  key.

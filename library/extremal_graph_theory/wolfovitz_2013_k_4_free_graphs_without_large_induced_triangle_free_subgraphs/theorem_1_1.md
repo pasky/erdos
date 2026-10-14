@@ -52,11 +52,11 @@ be easily improved by optimizing some of the constants in the proof, but we
 believe that doing that alone will not result in an optimal upper bound for
 $f_{3,4}(n)$."
 
-**In the problem's notation.** The site's $f(n)$ for Problem 620 is
+**In the problem's notation.** erdosproblems.com's $f(n)$ for Problem 620 is
 $f_{3,4}(n)$, so Theorem 1.1 reads $f(n)\le n^{1/2}(\ln n)^{120}$ for all
-large $n$, the site's $f(n)\ll n^{1/2}(\log n)^{120}$; the paper's logarithm
-is the natural one, and a change of base changes the constant only. The
-lower bounds the consequence combines it with are
+large $n$, erdosproblems.com's $f(n)\ll n^{1/2}(\log n)^{120}$; the paper's
+logarithm is the natural one, and a change of base changes the constant only.
+The lower bounds the consequence combines it with are
 [[extremal_graph_theory/bollobas_hind_1991_graphs_without_large_triangle_free_subgraphs/theorem_1|Bollobás--Hind, Theorem 1]]
 and
 [[extremal_graph_theory/krivelevich_1994_free_graphs_without_large_free_subgraphs/theorem_1|Krivelevich, Theorem 1]].
@@ -97,7 +97,7 @@ and
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the upper bound
-  $f(n)\le n^{1/2}(\ln n)^{120}$ for all large $n$ that the site's
+  $f(n)\le n^{1/2}(\ln n)^{120}$ for all large $n$ that the erdosproblems.com
   commentary attributes to the paper, $f(n)\ll n^{1/2}(\log n)^{120}$, the
   first bound of the form $n^{1/2+o(1)}$; it improves Krivelevich's
   [[extremal_graph_theory/krivelevich_1994_free_graphs_without_large_free_subgraphs/corollary_1|Corollary 1]]

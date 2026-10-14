@@ -21,8 +21,8 @@ with P^+(n(n+1)...(n+k)) > n^(1-epsilon) lower density at least 1 - eta.
 ***
 
 P. Chojecki, A note on Erdős Problem #1201. Preprint note (ulam.ai) (2026). No
-copyright or license line is printed in the file; the site that hosts it
-(https://www.ulam.ai/, read 2026-10-02) carries the footer "© 2017-2026 ULAM"
+copyright or license line is printed in the file; erdosproblems.com that hosts
+it (https://www.ulam.ai/, read 2026-10-02) carries the footer "© 2017-2026 ULAM"
 and no license or terms-of-use statement, every other right reserved.
 
 Theorem 1 proves that for every ε>0 the upper density of integers n with
@@ -40,11 +40,11 @@ upper asymptotic density. Bearing on #1201: the note says it settles #1201 as
 stated on the website, and its own literature note observes the argument is an
 immediate but apparently unrecorded consequence of Matomaki-Radziwill. The
 deduction answers #1201 when the problem's density is read as lower density, the
-reading Sawin and Bloom gave in the site's thread; Tao held the problem
-technically open there, since the note does not show that the density of G_{ε,k}
-exists. The PDF carries no printed byline; the attribution rests on the site's
-thread, where P. Chojecki posted the note on 30 April 2026 as written by
-GPT-5.5 Pro.
+reading Sawin and Bloom gave in the erdosproblems.com thread; Tao held the
+problem technically open there, since the note does not show that the density of
+G_{ε,k} exists. The PDF carries no printed byline; the attribution rests on the
+erdosproblems.com thread, where P. Chojecki posted the note on 30 April 2026 as
+written by GPT-5.5 Pro.
 
 Source: <https://www.ulam.ai/research/erdos1201.pdf>. The copy's retrieval date
 was not recorded.
@@ -54,7 +54,7 @@ was not recorded.
 gives, for every ε,η > 0, a k with the lower density of G_{ε,k} at least 1-η,
 which is the problem's question with lower density in place of density; it does
 not show that the density of G_{ε,k} exists. The note says it settles the
-problem as stated on the site (p. 1).
+problem as stated on erdosproblems.com (p. 1).
 
 **Results.** Pages are those of the five-page PDF named above.
 

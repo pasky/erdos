@@ -63,10 +63,10 @@ the leading constant of $h_3(d)$, and every $t\ne3$.
 **Depends on.** No page of this wiki; the arguments are the preprint's own.
 
 **Standing.** Claimed. The preprint is unrefereed (arXiv v1 only, 2 July 2026),
-the site's commentary does not mention it (page last edited 28 October 2025;
-label OPEN), and no referee or named reviewer is recorded. A thread post of 17
-August 2026 (the discussion link above) cites Lemma 3.1 and Theorem 1.11 as the
-refutation of the displayed conjecture, and a comment of 30 July 2026 on the
-Korsky claim's thread calls the Korsky construction a generalization of the
-preprint's Lemma 3.3; neither is a review. No independent review of Lemma 3.1 is
-recorded.
+the erdosproblems.com commentary does not mention it (page last edited 28
+October 2025; label OPEN), and no referee or named reviewer is recorded. A
+thread post of 17 August 2026 (the discussion link above) cites Lemma 3.1 and
+Theorem 1.11 as the refutation of the displayed conjecture, and a comment of 30
+July 2026 on the Korsky claim's thread calls the Korsky construction a
+generalization of the preprint's Lemma 3.3; neither is a review. No independent
+review of Lemma 3.1 is recorded.

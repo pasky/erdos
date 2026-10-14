@@ -107,9 +107,9 @@ statement level.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0687/_index|Problem 687]]: the best lower bound
-  for $Y(x)$ in a refereed source; the site's commentary records a further
-  improvement it attributes to an AI model, recorded on the problem page as
-  the site's account.
+  for $Y(x)$ in a refereed source; the erdosproblems.com commentary records a
+  further improvement it attributes to an AI model, recorded on the problem page
+  as erdosproblems.com's account.
 - [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]]: with (1.3) and
   $n=P(x)$, which has $\pi(x)$ prime factors, this bound gives
   $h(\pi(x))\ge j(P(x))\gg x\log x\log_3x/\log_2x$ for Jacobsthal's $h$;

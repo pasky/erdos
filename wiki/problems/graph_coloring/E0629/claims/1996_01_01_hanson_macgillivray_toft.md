@@ -58,6 +58,6 @@ value closes the gap $12\le n(3)\le14$ that Erdős, Rubin and Taylor left.
 **Acceptance.** The paper is refereed: Ars Combinatoria is a refereed journal.
 The journal has no online edition of the 1996 volume, so the link above is the
 zbMATH record of the article (Zbl 0889.05048). The curator of erdosproblems.com,
-Thomas Bloom, credits $n(3)=14$ to this paper in the problem's remarks. But the
-site labeled the problem OPEN, so that remark is not acceptance of this partial
-claim.
+Thomas Bloom, credits $n(3)=14$ to this paper in the problem's remarks. But
+Bloom's catalog labeled the problem OPEN, so that remark is not acceptance of
+this partial claim.

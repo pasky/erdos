@@ -7,7 +7,7 @@ desc: |
   of Schur and Rado type; Euclidean Ramsey problems and colorings of the
   plane are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T11:00:13Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Ramsey Theory
@@ -25,7 +25,8 @@ $A$.
 
 [[problems/ramsey_theory/E0076/_index|E0076/]]: Asks whether every $2$-coloring
 of the edges of $K_n$ has at least $(1+o(1))n^2/12$ edge-disjoint monochromatic
-triangles; yes, by a 2020 theorem of Gruslys and Letzter that the site accepted.
+triangles; yes, by a 2020 theorem of Gruslys and Letzter that erdosproblems.com
+accepted.
 
 [[problems/ramsey_theory/E0077/_index|E0077/]]: Asks for the value of
 $\lim_{k\to\infty}R(k)^{1/k}$, where $R(k)$ is the Ramsey number of $K_k$; the
@@ -70,7 +71,8 @@ known when $n=1$ or $m\le2$, when $n=2$ and $m\le6$, and when $m=3$ and $n\le5$.
 [[problems/ramsey_theory/E0129/_index|E0129/]]: Asks for a constant $C=C(r)>1$
 with $R(n;3,r)<C^{\sqrt n}$, where $R(n;3,r)$ is the least $N$ such that every
 $r$-coloring of $K_N$ has $n$ vertices with no triangle in some color. A random
-coloring refutes the site's wording, and no source gives another intended form.
+coloring refutes the erdosproblems.com wording, and no source gives another
+intended form.
 
 [[problems/ramsey_theory/E0159/_index|E0159/]]: Asks whether $R(C_4,K_n)\ll
 n^{2-c}$ for some constant $c>0$.
@@ -94,7 +96,8 @@ products of distinct elements all have one color.
 
 [[problems/ramsey_theory/E0181/_index|E0181/]]: Asks whether $R(Q_n)\ll 2^n$ for
 the $n$-dimensional hypercube graph $Q_n$, which has $2^n$ vertices. It was open
-on the site, and a 2026 OpenAI release preprint claims the linear bound in full.
+on erdosproblems.com, and a 2026 OpenAI release preprint claims the linear bound
+in full.
 
 [[problems/ramsey_theory/E0183/_index|E0183/]]: Asks for
 $\lim_{k\to\infty}R(3;k)^{1/k}$, where $R(3;k)$ is the least $n$ such that every
@@ -147,8 +150,8 @@ the gap is known only to lie between $3$ and $k+1$.
 
 [[problems/ramsey_theory/E0545/_index|E0545/]]: Asks whether, for all large $m$,
 the graph with $m$ edges that is as complete as possible has the largest Ramsey
-number among graphs with $m$ edges and no isolated vertices; open. The site's
-wording, for every $m$, fails at two edges.
+number among graphs with $m$ edges and no isolated vertices; open. The
+erdosproblems.com wording, for every $m$, fails at two edges.
 
 [[problems/ramsey_theory/E0546/_index|E0546/]]: Asks whether
 $R(G)\le2^{O(\sqrt{m})}$ for every graph $G$ with $m$ edges and no isolated
@@ -156,8 +159,8 @@ vertices.
 
 [[problems/ramsey_theory/E0547/_index|E0547/]]: Asks whether every tree $T$ on
 $n\ge2$ vertices has $R(T)\le2n-2$; proved in 2026, on the evidence of a third
-party's Lean proof that was built here. The site's wording also covers the
-one-vertex tree, where it fails.
+party's Lean proof that was built here. The erdosproblems.com wording also
+covers the one-vertex tree, where it fails.
 
 [[problems/ramsey_theory/E0549/_index|E0549/]]: Asks whether every tree $T$ with
 $k$ vertices in one class and $2k$ in the other has $R(T)=4k-1$.
@@ -187,8 +190,8 @@ number $R_k(C_{2n})$ of the even cycle on $2n$ vertices.
 
 [[problems/ramsey_theory/E0556/_index|E0556/]]: Asks whether, for every $n>3$,
 every 3-coloring of the edges of $K_{4n-3}$ has a monochromatic cycle of length
-$n$; the bound is known for all large $n$. The site's wording also includes the
-triangle, where it fails.
+$n$; the bound is known for all large $n$. The erdosproblems.com wording also
+includes the triangle, where it fails.
 
 [[problems/ramsey_theory/E0557/_index|E0557/]]: Asks whether $R_k(T)\le kn+O(1)$
 for every tree $T$ on $n$ vertices, where $R_k$ is the $k$-color Ramsey number.
@@ -232,8 +235,8 @@ induced monochromatic copy of $G$.
 
 [[problems/ramsey_theory/E0566/_index|E0566/]]: Asks whether every graph whose
 subgraphs on $k\ge2$ vertices have at most $2k-3$ edges is Ramsey size linear;
-open. This corrects the site's wording, which no graph meets, since a one-vertex
-subgraph exceeds the bound.
+open. This corrects the erdosproblems.com wording, which no graph meets, since a
+one-vertex subgraph exceeds the bound.
 
 [[problems/ramsey_theory/E0567/_index|E0567/]]: Asks whether each of the cube
 $Q_3$, the graph $K_{3,3}$ and the graph $H_5$ ($K_4$ with one edge subdivided)
@@ -286,12 +289,12 @@ disproof is claimed.
 [[problems/ramsey_theory/E0639/_index|E0639/]]: Asks whether, for large $n$,
 every 2-coloring of the edges of $K_n$ leaves at most $n^2/4$ edges in no
 monochromatic triangle, as Erdős stated it. Proved by Keevash and Sudakov's
-exact theorem, though the site's wording fails for $3\le n\le6$.
+exact theorem, though the erdosproblems.com wording fails for $3\le n\le6$.
 
 [[problems/ramsey_theory/E0645/_index|E0645/]]: Asks whether every 2-coloring of
 the positive integers has a monochromatic progression $x,x+d,x+2d$ with $d>x$.
-Proved by Brown and Landman in 1999, and the site also records an elementary
-argument.
+Proved by Brown and Landman in 1999, and erdosproblems.com also records an
+elementary argument.
 
 [[problems/ramsey_theory/E0667/_index|E0667/]]: Asks whether $c(p,q)$, the
 growth exponent of the largest clique forced when every $p$ vertices span at
@@ -358,7 +361,8 @@ Disproved through the Alon–Rödl bound on $R(3,3,m)$.
 [[problems/ramsey_theory/E0948/_index|E0948/]]: Asks whether there are $f$ and
 $k$ such that every $k$-coloring of the integers has a sequence $a_1<a_2<\cdots$
 with $a_n<f(n)$ for infinitely many $n$ whose finite subset sums miss a color.
-No, by a 2026 AI-generated coloring that the site accepted after review.
+No, by a 2026 AI-generated coloring that erdosproblems.com accepted after
+review.
 
 [[problems/ramsey_theory/E0949/_index|E0949/]]: Asks whether the complement of
 every sum-free set $S\subseteq\mathbb R$ contains a set $A$ of size continuum
@@ -381,7 +385,7 @@ $s\ge3$, $R(s,k)\gg k^{s-1}/(\log k)^c$ for some constant $c=c(s)>0$.
 [[problems/ramsey_theory/E1014/_index|E1014/]]: Asks whether, for each fixed
 $k$, the ratio $R(k,l+1)/R(k,l)$ of consecutive off-diagonal Ramsey numbers
 tends to $1$. Answered yes by a 2026 manuscript hosted by OpenAI, attributed to
-an internal model and accepted by the site.
+an internal model and accepted by erdosproblems.com.
 
 [[problems/ramsey_theory/E1015/_index|E1015/]]: Asks for the largest number of
 vertices that a two-colored complete graph can force to be left over when it is
@@ -415,12 +419,12 @@ nothing beyond the trivial chain bound is proved.
 [[problems/ramsey_theory/E1198/_index|E1198/]]: Asks whether every two-coloring
 of $\mathbb{N}$ admits an infinite set all of whose sums of products of distinct
 members share one color. The answer is no, by a 1995 theorem of Smith, as the
-site's thread deduced in 2026.
+erdosproblems.com thread deduced in 2026.
 
 [[problems/ramsey_theory/E1199/_index|E1199/]]: Asks whether every two-coloring
 of $\mathbb{N}$ admits an infinite set whose pairwise sums, doubles included,
-share one color (Owings's question). The site listed it as open, the analogue
-for three colors is false, and a proof for two colors is claimed.
+share one color (Owings's question). erdosproblems.com listed it as open, the
+analogue for three colors is false, and a proof for two colors is claimed.
 
 [[problems/ramsey_theory/E1211/_index|E1211/]]: Asks how large the larger upper
 logarithmic density of the two subset-sum sets must be when $\mathbb{N}$ is
@@ -440,5 +444,6 @@ and monochromatic structures forced by colorings of the integers of Schur and
 Rado type; Euclidean Ramsey problems and colorings of the plane are filed with
 discrete geometry.
 
-Site tags routed here: additive combinatorics, arithmetic progressions,
-combinatorics, graph theory, hypergraphs, number theory, ramsey, ramsey theory.
+erdosproblems.com tags routed here: additive combinatorics, arithmetic
+progressions, combinatorics, graph theory, hypergraphs, number theory, ramsey,
+ramsey theory.

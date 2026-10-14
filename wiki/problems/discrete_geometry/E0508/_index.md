@@ -25,7 +25,8 @@ updated: 2026-10-07T20:00:46Z
 smallest number of colours required to colour $\mathbb{R}^2$ such that no two
 points of the same colour are distance $1$ apart?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 22 January
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 22
+January
 2026) and records the bounds $5\le\chi\le7$ in its remarks. The claim pages
 record de Grey's refereed lower bound, a later result on the lower bound, and a
 rejected announcement of the value.
@@ -49,8 +50,8 @@ https://www.erdosproblems.com/508.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 22 January 2026), is
-the value of $\chi=\chi(\mathbb R^2)$, the least number of colors in a
+The question, as erdosproblems.com states it (page last edited 22 January 2026),
+is the value of $\chi=\chi(\mathbb R^2)$, the least number of colors in a
 coloring of the plane with no two points of the same color at distance one,
 with no restriction on the color classes. The best bounds supported here are
 
@@ -69,13 +70,14 @@ and an obstruction to five measurable labels; the same page records the
 seven-coloring by hexagons. Both theorems are kernel-checked in Lean,
 built and axiom-audited by this corpus, and the acceptance rests on that
 evidence alone: no outside review or refereeing of the manuscript is
-recorded, and the site's page does not mention it. The curator's blog post
+recorded, and the erdosproblems.com page does not mention it. The curator's blog
+post
 [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
 (8 October 2026) lists the claim, as a claim and not an endorsement, and says
 that its proof has been formalized. The value of $\chi$, six or seven, is open,
 so the problem is open.
 
-Earlier bounds, as the site's remarks and the preprint's introduction
+Earlier bounds, as the erdosproblems.com remarks and the preprint's introduction
 record them: an equilateral triangle gives $\chi\ge3$; the Moser spindle
 and the Golomb graph give $\chi\ge4$; de Grey [dG18]
 ([[../library/discrete_geometry/grey_2018_chromatic_number_plane_is_at_least/_index|card]];
@@ -89,7 +91,7 @@ Heule
 and Parts
 ([[../library/discrete_geometry/parts_2020_chromatic_number_plane_is_at_least/_index|card]]);
 the hexagonal tiling with cells of diameter slightly less than one gives
-$\chi\le7$. For the fractional chromatic number of the plane the site
+$\chi\le7$. For the fractional chromatic number of the plane erdosproblems.com
 records the lower bound $4$ of Matolcsi, Ruzsa, Varga and Zsámboki and the
 upper bound $4.359\ldots$ of Croft [Cr67]. The de Bruijn–Erdős compactness
 theorem makes the lower bound six equivalent to the existence of a finite
@@ -104,8 +106,8 @@ footnote, that the manuscript's proposed strict bound (angular measure less
 than $\pi/3$) on a unit-independent subset of the unit circle fails for the
 half-open arc $\{e^{it}:0\le t<\pi/3\}$, which has measure $\pi/3$ and
 contains no unit pair, and that the manuscript's displayed formal theorem
-assumes that bound as a hypothesis. The site's proof-claims thread for this
-problem listed no claim on 6 October 2026.
+assumes that bound as a hypothesis. The erdosproblems.com proof-claims thread
+for this problem listed no claim on 6 October 2026.
 
 <!-- BEGIN problem library links -->
 

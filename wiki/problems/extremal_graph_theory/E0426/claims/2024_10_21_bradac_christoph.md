@@ -4,8 +4,8 @@ title: Bradač and Christoph, unique subgraphs are rare
 desc: |
   Theorem 1.2 of Bradač and Christoph shows that a graph on $n$ vertices has
   $o(2^{\binom n2}/n!)$ unique subgraphs, so the answer is no. It was published
-  in Proc. Amer. Math. Soc. 153 (2025) and is credited by the site's curator,
-  with public Lean code from 2026.
+  in Proc. Amer. Math. Soc. 153 (2025) and is credited by the erdosproblems.com
+  curator, with public Lean code from 2026.
 authors:
 - Domagoj Bradač
 - Micha Christoph
@@ -50,30 +50,31 @@ unique subgraphs of $H$ divided by $2^{\binom n2}/n!$, which is, up to a factor
 $1+o(1)$, the number of non-isomorphic graphs on $n$ vertices (Pólya; Wright).
 Theorem 1.2 of Bradač and Christoph states that $f(n)\to0$ as $n\to\infty$: no
 graph on $n$ vertices has a constant proportion of all $n$-vertex graphs as
-unique subgraphs. This refutes the site's question as Erdős posed it (some
-$\delta>0$ with $f(n)>\delta$ for all $n$), and it is exactly the negation of
-the weaker reading that formal-conjectures uses; the problem page's Formulation
-records both readings. The proof replaces the unlabeled count by the probability
-that a random graph $G(n,1/2)$ embeds uniquely into $H$, shows that a positive
-proportion forces $H$ to have only $O(n)$ non-edges, and then shows that such an
-$H$ has a unique embedding of $G(n,1/2)$ with probability $o(1)$, by switching
-two vertices of small non-degree. Erdős had offered prizes for a proof and for
-a disproof and expected the answer no. The known lower bounds remain
-exponentially small, the best being Brouwer's $f(n)\ge e^{-cn}$. The site's
-commentary and the thread's second comment report a quantitative rate
-$O(\log\log\log n/\log\log n)$ from the paper's concluding remarks, not checked.
-The result is digested on the source card
+unique subgraphs. This refutes the erdosproblems.com question as Erdős posed it
+(some $\delta>0$ with $f(n)>\delta$ for all $n$), and it is exactly the negation
+of the weaker reading that formal-conjectures uses; the problem page's
+Formulation records both readings. The proof replaces the unlabeled count by the
+probability that a random graph $G(n,1/2)$ embeds uniquely into $H$, shows that
+a positive proportion forces $H$ to have only $O(n)$ non-edges, and then shows
+that such an $H$ has a unique embedding of $G(n,1/2)$ with probability $o(1)$,
+by switching two vertices of small non-degree. Erdős had offered prizes for a
+proof and for a disproof and expected the answer no. The known lower bounds
+remain exponentially small, the best being Brouwer's $f(n)\ge e^{-cn}$. The
+erdosproblems.com commentary and the thread's second comment report a
+quantitative rate $O(\log\log\log n/\log\log n)$ from the paper's concluding
+remarks, not checked. The result is digested on the source card
 [[../library/extremal_graph_theory/bradac_2024_unique_subgraphs_are_rare/_index|bradac_2024_unique_subgraphs_are_rare]];
 this corpus has not reviewed the proof, and the claim consumes no page of this
 wiki.
 
-**Acceptance.** Reviewed: the site's curator writes in the problem's commentary
-that Bradač and Christoph proved the answer is no, with
-$f(n)=o(2^{\binom n2}/n!)$. The proof-claim tab is empty. The site's label was
-DISPROVED (LEAN) (site export of 2026-09-04). On 2026-10-07 the public page's
-markup showed no label text. The community database (teorth/erdosproblems,
-`data/problems.yaml`, read 2026-09-28) records status "disproved (Lean)", set by
-its commit of 20 April 2026, with `formal_status` Lean.
+**Acceptance.** Reviewed: the erdosproblems.com curator writes in the problem's
+commentary that Bradač and Christoph proved the answer is no, with
+$f(n)=o(2^{\binom n2}/n!)$. The proof-claim tab is empty. The erdosproblems.com
+label was DISPROVED (LEAN) (erdosproblems.com export of 2026-09-04). On
+2026-10-07 the public page's markup showed no label text. The community database
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-09-28) records status
+"disproved (Lean)", set by its commit of 20 April 2026, with `formal_status`
+Lean.
 
 Refereed: D. Bradač and M. Christoph, Unique subgraphs are rare, Proc. Amer.
 Math. Soc. 153 (2025), no. 11, 4585-4593, doi:10.1090/proc/17303, published
@@ -93,6 +94,6 @@ contains `f_tendsto_zero : Tendsto fSeq atTop (nhds 0)`, and the file's own
 The formal-conjectures file at its pin is a statement file and so is not linked
 above. It states `erdos_426` as `answer(False)` under `research solved`, with
 proof `sorry` and a `formal_proof` attribute naming that file. Its docstring
-reads the site's $\gg$ as a constant that works for arbitrarily large $n$, and
-it identifies the negation with $f(n)=o(2^{\binom n2}/n!)$. The corpus has built
-and checked none of these files.
+reads erdosproblems.com's $\gg$ as a constant that works for arbitrarily large
+$n$, and it identifies the negation with $f(n)=o(2^{\binom n2}/n!)$. The corpus
+has built and checked none of these files.

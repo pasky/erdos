@@ -39,7 +39,7 @@ carried out, on the page.
 **Source.** P. Erdős, *Some recent advances and current problems in number
 theory*, Lectures on Modern Mathematics, Vol. III (Wiley, 1965), 196--244;
 printed pp. 228--229 (PDF pp. 34--35 of the Rényi archive's 50-page scan), read on
-the page images; the site's key for Problem 487 is [Er65b, p. 228].
+the page images; the erdosproblems.com key for Problem 487 is [Er65b, p. 228].
 
 **Read depth.** Claims checked: the passage was read clause by clause on
 the page images. No proof is given; the reduction and the Sárközy--Szemerédi
@@ -50,9 +50,9 @@ result are reported.
 None here. The union-free bound was published by Kleitman (Proc. Sympos.
 Pure Math. XIX, Combinatorics (1971), 153--155, DOI
 10.1090/pspum/019/0317947; not held here) in the form
-$f(n)<(1+o(1))\binom{n}{\lfloor n/2\rfloor}$, the site's account on Problem
-447; the reduction is the subject of the site's Problem 487, whose page
-records how it is attested.
+$f(n)<(1+o(1))\binom{n}{\lfloor n/2\rfloor}$, erdosproblems.com's account on
+Problem 447; the reduction is the subject of erdosproblems.com's Problem 487,
+whose page records how it is attested.
 
 ## Dependencies
 

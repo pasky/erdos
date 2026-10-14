@@ -6,7 +6,7 @@ desc: |
   improvement is the full log t factor known for triangle-free graphs.
 license: unstated
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T15:15:59Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs
@@ -31,14 +31,14 @@ Spencer's remark that it is best possible up to a constant factor.
 
 [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/theorem_2|theorem_2]]: The 1981 lower bound for the independence number of K_p-free graphs of
 average valency t, which beats Turán's bound whenever p = o(log t); the
-bound the site records for Problem 802.
+bound erdosproblems.com records for Problem 802.
 
 ***
 
 M. Ajtai, P. Erdős, J. Komlós and E. Szemerédi, *On Turán's theorem for
 sparse graphs*, Combinatorica 1 (1981), no. 4, 313--317, DOI
 10.1007/BF02579451 (Crossref record read 2026-09-18); received 24 April 1981;
-MR 83d:05052; Zbl 491.05038. The site's key AEKS81.
+MR 83d:05052; Zbl 491.05038. The erdosproblems.com key AEKS81.
 
 **Copy read.** The copy read for this card is the Rényi
 Institute Erdős archive's scan `1981-19.pdf` of the five printed pages, with
@@ -85,7 +85,8 @@ and
   multiple". Here [2] is Ajtai, Komlós and Szemerédi's paper on a dense
   infinite Sidon sequence (European J. Combin. 2 (1981), 1--11) and [3] the
   same authors' note on Ramsey numbers
-  (J. Combin. Theory Ser. A 29 (1980), 354--360), the site's AKS80. Paged at
+  (J. Combin. Theory Ser. A 29 (1980), 354--360), erdosproblems.com's AKS80.
+  Paged at
   [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/theorem_1|theorem_1]].
 - The function $f(n,t,p)$ (p. 314), "the largest integer such that every
   graph of $n$ vertices and average valency $t$ that contains no $K_p$
@@ -134,11 +135,11 @@ Nothing here is independently reviewed. The Ajtai--Komlós--Szemerédi paper
 states it.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0802/_index|#802]]: display (3) on
-p. 314 is the problem's statement (the paper's $p$ is the site's $r$), Theorem
-1 is its case $r=3$, Theorem 2 is the bound $\gg_r\frac{\log\log t}tn$ the
-site attributes to the paper, and the remark after Theorem 2 records the
-question as undecided already for $p=4$. Theorem 1$'$ (p. 315) and the
-Sparse Subgraph Lemma with Lemma$^*$ (pp. 315--316) are the tools through
+p. 314 is the problem's statement (the paper's $p$ is erdosproblems.com's $r$),
+Theorem 1 is its case $r=3$, Theorem 2 is the bound $\gg_r\frac{\log\log t}tn$
+erdosproblems.com attributes to the paper, and the remark after Theorem 2
+records the question as undecided already for $p=4$. Theorem 1$'$ (p. 315) and
+the Sparse Subgraph Lemma with Lemma$^*$ (pp. 315--316) are the tools through
 which the paper proves Theorem 2; neither is the problem's statement or a
 case of it.
 

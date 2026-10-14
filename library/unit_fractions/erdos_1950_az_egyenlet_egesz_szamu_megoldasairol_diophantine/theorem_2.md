@@ -81,4 +81,5 @@ the Sylvester recursion (9)--(11).
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0304/_index|Problem 304]]: the lower bound
-  $N(b)\ge N(b-1,b)>\log\log b-1$ and the average bound quoted by the site.
+  $N(b)\ge N(b-1,b)>\log\log b-1$ and the average bound quoted by
+  erdosproblems.com.

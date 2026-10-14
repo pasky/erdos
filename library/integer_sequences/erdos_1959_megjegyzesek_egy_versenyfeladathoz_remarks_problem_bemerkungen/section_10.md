@@ -66,6 +66,6 @@ display (4).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0709/_index|Problem 709]]: the definition of the
-  problem's $f(n)$ (the site writes $A\subseteq[2,\infty)$ where the paper
-  allows $a_1\ge1$; a member equal to $1$ imposes no condition) and the
-  lower bound $(\log n)^c\ll f(n)$ of the site's commentary.
+  problem's $f(n)$ (erdosproblems.com writes $A\subseteq[2,\infty)$ where the
+  paper allows $a_1\ge1$; a member equal to $1$ imposes no condition) and the
+  lower bound $(\log n)^c\ll f(n)$ of the erdosproblems.com commentary.

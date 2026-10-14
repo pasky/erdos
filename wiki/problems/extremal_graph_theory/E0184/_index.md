@@ -25,28 +25,28 @@ updated: 2026-10-13T10:25:58Z
 **Statement.** Any graph on $n$ vertices can be decomposed into $O(n)$ many
 edge-disjoint cycles and edges.
 
-**Formulation.** The site's wording, read 2026-09-18 (page last edited 1
-April 2026). A decomposition is a partition of the edge
-set into pieces, each a cycle or a single edge; the pieces are edge-disjoint,
-so this is the decomposition (packing) problem and not the covering problem,
-in which the cycles may share edges. Write $f(n)$ for the least number such
-that every $n$-vertex graph decomposes into at most $f(n)$ cycles and edges
-([CFS14], p. 609; the 1966 paper's $f(n)$ counts edge-disjoint circuits with
-single edges counted as circuits, and [Er71] writes $h(n)$). The statement
-asks whether $f(n)=O(n)$. It is equivalent to asking whether every $n$-vertex
-Eulerian graph decomposes into $O(n)$ cycles ([BM22], p. 1, with the remark
-that the best constants in the two forms should differ). The constant is not
-part of the question: $f(n)\ge(\tfrac32-o(1))n$ is known, so the $O(n)$
-cannot be replaced by $n$, and the conjectured sharp constant is not fixed by
-the statement.
+**Formulation.** The erdosproblems.com wording, read 2026-09-18 (page last
+edited 1 April 2026). A decomposition is a partition of the edge set into
+pieces, each a cycle or a single edge; the pieces are edge-disjoint, so this is
+the decomposition (packing) problem and not the covering problem, in which the
+cycles may share edges. Write $f(n)$ for the least number such that every
+$n$-vertex graph decomposes into at most $f(n)$ cycles and edges ([CFS14], p.
+609; the 1966 paper's $f(n)$ counts edge-disjoint circuits with single edges
+counted as circuits, and [Er71] writes $h(n)$). The statement asks whether
+$f(n)=O(n)$. It is equivalent to asking whether every $n$-vertex Eulerian graph
+decomposes into $O(n)$ cycles ([BM22], p. 1, with the remark that the best
+constants in the two forms should differ). The constant is not part of the
+question: $f(n)\ge(\tfrac32-o(1))n$ is known, so the $O(n)$ cannot be replaced
+by $n$, and the conjectured sharp constant is not fixed by the statement.
 
-**Status.** The site labeled the problem OPEN (page last edited 1 April
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 1 April
 2026). The derived standing of this page is solved, proved. The two differ
-because the standing rests on a theorem the label did not reflect. The site's
-page was last edited before any of the 2026 claims, and the release's theorem
-below was never on the site's proof-claim tab. Theorem 1.1 of
-the OpenAI mathematics release's preprint of 24 September 2026 gives an
-absolute $C$ with $f(n)\le Cn$ for every $n$. It is recorded as accepted on
+because the standing rests on a theorem the label did not reflect. The
+erdosproblems.com page was last edited before any of the 2026 claims, and the
+release's theorem below was never on the erdosproblems.com proof-claim tab.
+Theorem 1.1 of the OpenAI mathematics release's preprint of 24 September 2026
+gives an absolute $C$ with $f(n)\le Cn$ for every $n$. It is recorded as
+accepted on
 [[problems/extremal_graph_theory/E0184/claims/2026_09_24_openai|its claim page]],
 with evidence formalized only. The curator's blog post
 [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
@@ -84,8 +84,8 @@ disproof.
 
 **Source.** [erdosproblems.com/184](https://www.erdosproblems.com/184),
 accessed 2026-09-18: the problem page (OPEN,
-with the site's note that no finite computation can settle it; last edited
-1 April 2026; source keys [EGP66], [Er71], [Er76], [Er81], [Er83b], with
+with the erdosproblems.com note that no finite computation can settle it; last
+edited 1 April 2026; source keys [EGP66], [Er71], [Er76], [Er81], [Er83b], with
 [BM22] and [CFS14] cited in the commentary), its one-comment discussion
 thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #184, https://www.erdosproblems.com/184, accessed 2026-09-18.
@@ -123,8 +123,8 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_11|item_11]].
 - [Er76] Erdős, Paul, Problems and results in combinatorial analysis.
   Colloquio Internazionale sulle Teorie Combinatorie (Roma, 1973), Tomo II
-  (1976), 3--17; MR 0465878 (the site's reference text, read 2026-09-18).
-  Library home:
+  (1976), 3--17; MR 0465878 (the erdosproblems.com reference text, read
+  2026-09-18). Library home:
   [[../library/extremal_graph_theory/erdos_1976_problems_results_combinatorial_analysis/_index|erdos_1976_problems_results_combinatorial_analysis]]
   (the Rényi archive's scan `1976-35.pdf`, p. 15; the card carries the row
   for this problem). Cited by [BM22] (its [15])
@@ -137,7 +137,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [Er83b] Erdős, P., On some of my conjectures in number theory and
   combinatorics. Proceedings of the fourteenth Southeastern conference on
   combinatorics, graph theory and computing (Boca Raton, Fla., 1983), Congr.
-  Numer. 39 (1983), 3--19; MR 734525 (the site's reference text, read
+  Numer. 39 (1983), 3--19; MR 734525 (the erdosproblems.com reference text, read
   2026-09-18). Library home:
   [[../library/extremal_graph_theory/erdos_1983_some_my_conjectures_number_theory_combinatorics/_index|erdos_1983_some_my_conjectures_number_theory_combinatorics]]
   (the Rényi archive's scan `1983-15.pdf`, item 6, p. 15; the card carries
@@ -145,8 +145,8 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   [17]) as the source of the $(\tfrac32-o(1))n$ remark.
 - [Py85] Pyber, L., An Erdős--Gallai conjecture. Combinatorica 5 (1985),
   67--79, doi:10.1007/BF02579444 (Crossref record). Not held and not cited by
-  the site; the covering version, quoted on p. 2 of [BM22] and p. 609 of
-  [CFS14].
+  erdosproblems.com; the covering version, quoted on p. 2 of [BM22] and p. 609
+  of [CFS14].
 - [GGKO21] Girão, A., Granet, B., Kühn, D. and Osthus, D., Path and cycle
   decompositions of dense graphs. J. London Math. Soc. (2) 104 (2021),
   1085--1134, doi:10.1112/jlms.12455; arXiv:1911.05501 (arXiv record read
@@ -160,7 +160,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 was built by the corpus's verification at the pinned revision, with the axioms
 `propext`, `Classical.choice` and `Quot.sound` only, as the accepted claim page
 records, and Coffey's claim page records the claimed Lean proof of `erdos_184`
-itself. On the site's side: statement only. The file
+itself. On erdosproblems.com's side: statement only. The file
 [`ErdosProblems/184.lean`](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/184.lean)
 of formal-conjectures, at its commit of 2026-10-11, declares `erdos_184` under
 `category research solved` with proof `sorry`: there is a function $f=O(n)$ such
@@ -190,20 +190,20 @@ since 16 March 2026 and no formal proof. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN, with the site's note that the problem is not decidable by a
-finite computation; last edited 1 April 2026. The commentary, in summary,
-attributes the conjecture to Erdős and Gallai and the $O(n\log n)$ bound to
-them as well, pointing to Section 5 of [EGP66]; notes that $K_{3,n-3}$ forces
-at least $(1+c)n$ pieces; records Erdős's suggestion in [Er71] that $n-1$
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN, with the erdosproblems.com note that the problem is not
+decidable by a finite computation; last edited 1 April 2026. The commentary, in
+summary, attributes the conjecture to Erdős and Gallai and the $O(n\log n)$
+bound to them as well, pointing to Section 5 of [EGP66]; notes that $K_{3,n-3}$
+forces at least $(1+c)n$ pieces; records Erdős's suggestion in [Er71] that $n-1$
 pieces suffice when they need not be edge-disjoint; names Bucić and
 Montgomery's $O(n\log^\star n)$ as the best bound and Conlon, Fox and
 Sudakov's $O_\epsilon(n)$ for minimum degree at least $\epsilon n$; and
 refers to Problems 583 (paths) and 1017 (complete graphs). The discussion
 thread has one comment (16 March 2026) locating the source of the
-$O(n\log n)$ proof in Section 5 of [EGP66], after which the site was updated.
-The proof-claim tab was empty on 2026-09-18; the one claim posted since is
-recorded below. The community database record says open.
+$O(n\log n)$ proof in Section 5 of [EGP66], after which erdosproblems.com was
+updated. The proof-claim tab was empty on 2026-09-18; the one claim posted since
+is recorded below. The community database record says open.
 
 **Upper bounds.** The chain is $O(n\log n)\to O(n\log\log n)\to
 O(n\log^\star n)$.
@@ -215,9 +215,9 @@ O(n\log^\star n)$.
   ([[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_11|item_11]]).
   The argument is written on p. 609 of [CFS14]: by the Erdős--Gallai
   long-cycle theorem, greedily removing longest cycles halves the number of
-  edges after $O(n)$ cycles, and iterating gives $O(n\log n)$. So the site's
-  "who proved" rests on an assertion in the 1966 paper and a standard
-  argument recorded later.
+  edges after $O(n)$ cycles, and iterating gives $O(n\log n)$. So
+  erdosproblems.com's "who proved" rests on an assertion in the 1966 paper and a
+  standard argument recorded later.
 - $O(n\log\log n)$:
   [[../library/extremal_graph_theory/conlon_2014_cycle_packing/theorem_1_2|Theorem 1.2 of Conlon, Fox and Sudakov]]:
   every $n$-vertex graph with average degree $d$ decomposes into
@@ -244,7 +244,7 @@ O(n\log^\star n)$.
 
 **Lower bounds.** Gallai's graph $K_{3,n-3}$ (the 1966 paper's $G^*(n)$)
 needs $4(n-3)/3$ edge-disjoint circuits when $3\mid n$, so
-$\liminf f(n)/n\ge\tfrac43$ (p. 110); the site's
+$\liminf f(n)/n\ge\tfrac43$ (p. 110); erdosproblems.com's
 "$(1+c)n$" is the weaker form in which [Er71] states the same example
 ("$K_2(3,n-3)$ shows that $h(n)>(1+c_2)n$"). The best lower bound is
 $(\tfrac32-o(1))n$, which [BM22] (p. 1) and [CFS14] (p. 609) attribute to a
@@ -265,8 +265,8 @@ less.
 for an absolute $c$ and every $p=p(n)$, $G(n,p)$ decomposes a.a.s. into at
 most $cn$ cycles and edges;
 [[../library/extremal_graph_theory/conlon_2014_cycle_packing/theorem_1_4|Theorem 1.4]]:
-minimum degree $cn$ gives $O(c^{-12}n)$, the site's "$O_\epsilon(n)$". The
-sharper results Bucić and Montgomery report on p. 2, Korándi, Krivelevich
+minimum degree $cn$ gives $O(c^{-12}n)$, erdosproblems.com's "$O_\epsilon(n)$".
+The sharper results Bucić and Montgomery report on p. 2, Korándi, Krivelevich
 and Sudakov's constant $(\tfrac14+\tfrac p2+o(1))n$ for $G(n,p)$, Glock, Kühn
 and Osthus's exact count for constant $p$, and [GGKO21]'s $(\tfrac32+o(1))n$
 for large graphs of linear minimum degree, are second-hand; none of those
@@ -341,8 +341,8 @@ special class, not the general problem.
   2026-10-01) prove the formal-conjectures statement `Erdos184.erdos_184`
   unchanged, by the author's account with only the three standard axioms,
   keeping the Bucić--Montgomery round structure and removing its per-round
-  cost; the site's tab names Claude Opus 5.5 as the AI system used. The
-  corpus has not built the development; claims checked on the README, the
+  cost; the erdosproblems.com tab names Claude Opus 5.5 as the AI system used.
+  The corpus has not built the development; claims checked on the README, the
   pinned statement and the forum entry, with the paper and the proof not
   checked; it is recorded as claimed on
   [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]].
@@ -367,17 +367,17 @@ special class, not the general problem.
   its two ingredients was checked here, and the proofs of the ingredients
   were not; it is recorded as claimed on
   [[problems/extremal_graph_theory/E0184/claims/2026_10_06_kim|its claim page]].
-  The preprint is not on the site's proof-claim tab, which closed to new
-  claims on 6 October 2026, the day version 1 was submitted.
+  The preprint is not on the erdosproblems.com proof-claim tab, which closed to
+  new claims on 6 October 2026, the day version 1 was submitted.
 
 **Search scope (2026-09-18 UTC).** The search predates the three claims under
 Resolution; none of the routes below found a proof of $f(n)=O(n)$, a disproof,
 or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as read
+- erdosproblems.com: problem page, discussion thread and proof-claim tab as read
   2026-09-18; the community database record; formal-conjectures `184.lean` at
-  its commit of 2026-09-17; the site's reference pages for the keys [Er76] and
-  [Er83b] (their texts are not in the problem page).
+  its commit of 2026-09-17; the erdosproblems.com reference pages for the keys
+  [Er76] and [Er83b] (their texts are not in the problem page).
 - arXiv: the API records of 2211.07689 (v2, final accepted version) and
   1310.0632 (v2 of 22 May 2014); the search `abs:"Gallai" AND abs:"cycles
   and edges"` sorted by date (five records: [AABC25], [BM22], [GGKO21],
@@ -415,13 +415,13 @@ asserted, not proved, in the paper; the argument is recorded from [CFS14].
 commit read on 2026-09-18 although Pyber's theorem answers it; the file has
 labeled it solved since 30 September 2026, as recorded above.
 
-**Proof claims on the site.** The site's proof-claim tab carried one claim,
-full: Ryan Coffey's paper and Lean formalization of
+**Proof claims on erdosproblems.com.** The erdosproblems.com proof-claim tab
+carried one claim, full: Ryan Coffey's paper and Lean formalization of
 2026-10-01, described under Resolution above and recorded on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]]
-as claimed. The release's theorem was not on the site's tab. The site labeled
-the problem OPEN (page last edited 1 April 2026); this page's standing is
-derived from the claim pages, not from the label.
+as claimed. The release's theorem was not on the erdosproblems.com tab. Bloom's
+catalog labeled the problem OPEN (page last edited 1 April 2026); this page's
+standing is derived from the claim pages, not from the label.
 
 ## Known results
 

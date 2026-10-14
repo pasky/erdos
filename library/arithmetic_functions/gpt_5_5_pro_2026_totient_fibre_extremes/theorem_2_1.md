@@ -5,7 +5,7 @@ desc: |
   The asymptotic for the largest ratio of a maximal to a minimal totient
   preimage over totient values up to x, with the upper bound from the
   extremal order of m/phi(m) and the lower bound from a Linnik-prime
-  construction; the site's accepted resolution of Problem 694.
+  construction; erdosproblems.com's accepted resolution of Problem 694.
 created: 2026-09-21T06:26:33Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -83,7 +83,7 @@ list.
 
 - [[../wiki/problems/arithmetic_functions/E0694/_index|Problem 694]]: the theorem answers
   the problem's "Investigate" with an asymptotic formula for the maximum
-  over totient values $n\le x$, the site's reading of the statement; the
-  site's label SOLVED (LEAN) rests on this note and on the external Lean
-  developments the card lists, which prove the same asymptotic in `Tendsto`
-  form for their own definition of the ratio.
+  over totient values $n\le x$, erdosproblems.com's reading of the statement;
+  the erdosproblems.com label SOLVED (LEAN) rests on this note and on the
+  external Lean developments the card lists, which prove the same asymptotic in
+  `Tendsto` form for their own definition of the ratio.

@@ -29,20 +29,21 @@ $$
 
 for all $1\leq i\leq k$?
 
-**Formulation.** The site's wording, like the formal-conjectures statement, puts
-no lower bound on an interval's length and admits the one-element interval
-$\{1\}$, whose product is $1$. Under it the case $k=2$ holds at $p=5$ with
-$\{1\}$ and $\{2,3\}$, and, by Wilson's theorem, at every prime $p\ge5$ with
-$\{1\}$ and $[2,p-2]$. The sources exclude that interval: Erdős's example modulo
-$11$, Guy's A15, Prime Puzzles problem 27 (which counts the string $\{1\}$ only
-by a stated choice) and OEIS A060427 (least primes $11$, $17$ and $23$ for two,
-three and four products). A witness under the sources' reading is also one under
-the site's wording, and a witness under the site's wording for $k$ intervals
-gives a witness under the sources' reading for $k-1$, so the question for every
-$k$ has the same answer under both readings. The page's standing targets the
-site's wording; the claim pages state their instances under the sources'
-reading. A witness whose common residue is $1$, such as Mąkowski's or the
-tetrads below, gains one interval under the site's wording.
+**Formulation.** The erdosproblems.com wording, like the formal-conjectures
+statement, puts no lower bound on an interval's length and admits the
+one-element interval $\{1\}$, whose product is $1$. Under it the case $k=2$
+holds at $p=5$ with $\{1\}$ and $\{2,3\}$, and, by Wilson's theorem, at every
+prime $p\ge5$ with $\{1\}$ and $[2,p-2]$. The sources exclude that interval:
+Erdős's example modulo $11$, Guy's A15, Prime Puzzles problem 27 (which counts
+the string $\{1\}$ only by a stated choice) and OEIS A060427 (least primes $11$,
+$17$ and $23$ for two, three and four products). A witness under the sources'
+reading is also one under the erdosproblems.com wording, and a witness under the
+erdosproblems.com wording for $k$ intervals gives a witness under the sources'
+reading for $k-1$, so the question for every $k$ has the same answer under both
+readings. The page's standing targets the erdosproblems.com wording; the claim
+pages state their instances under the sources' reading. A witness whose common
+residue is $1$, such as Mąkowski's or the tetrads below, gains one interval
+under the erdosproblems.com wording.
 
 **Status.** Open.
 
@@ -69,8 +70,8 @@ https://www.erdosproblems.com/1056.
 ## Current assessment
 
 The question for every $k$ is open; the instances settled so far are finite
-witnesses, and no construction gives $k$ intervals for every $k$. The site
-labeled the problem OPEN, and the derived standing stays open.
+witnesses, and no construction gives $k$ intervals for every $k$. Bloom's
+catalog labeled the problem OPEN, and the derived standing stays open.
 
 The case $k=2$ is Erdős's example $3\cdot4\equiv5\cdot6\cdot7\equiv1\pmod{11}$,
 from a letter of 31 October 1979 that Guy reports in A15

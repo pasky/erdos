@@ -88,19 +88,19 @@ attribution) followed by item 3.49, "Find a constructive proof of
 $R(n)>(1+c)^n$", the booklet's form of
 [[../wiki/problems/ramsey_theory/E0078/_index|Problem 78]], and item 3.50, "Prove that
 $\lim_{n\to\infty}R(n)^{1/n}=c$ exists", the booklet's form of
-[[../wiki/problems/ramsey_theory/E0077/_index|Problem 77]] (existence only; the site's
-question asks for the value), and item 3.51, "Prove
+[[../wiki/problems/ramsey_theory/E0077/_index|Problem 77]] (existence only; the
+erdosproblems.com question asks for the value), and item 3.51, "Prove
 $r(4,n)>n^{3-\varepsilon}$", the booklet's form of
 [[../wiki/problems/ramsey_theory/E0166/_index|Problem 166]] (without the logarithmic
-factor of the site's statement; the booklet writes $r(4,n)$ here and $R(n)$
-in 3.49 and 3.50). The same leaf prints item 3.54, "(Erdős, Faudree,
+factor of the erdosproblems.com statement; the booklet writes $r(4,n)$ here and
+$R(n)$ in 3.49 and 3.50). The same leaf prints item 3.54, "(Erdős, Faudree,
 Ordman) Let $f(n)$ be the smallest integer for which if we color the edges
 of $K(n)$ by two colors there are at least $f(n)$ edge disjoint
 monochromatic triangles. Is it true that $f(n)=(1+o(1))\frac{n^2}{12}$?",
-the booklet's form of [[../wiki/problems/ramsey_theory/E0076/_index|Problem 76]] (the
-site cites "Va99, 3.54"; the booklet's $f(n)$ is Erdős's 1995 $h(n)$). All
-four are historical statements read clause by clause on the page image;
-no result page was made for them. Read status: claims checked for items
+the booklet's form of [[../wiki/problems/ramsey_theory/E0076/_index|Problem 76]]
+(erdosproblems.com cites "Va99, 3.54"; the booklet's $f(n)$ is Erdős's 1995
+$h(n)$). All four are historical statements read clause by clause on the page
+image; no result page was made for them. Read status: claims checked for items
 3.49, 3.50, 3.51 and 3.54 (PDF p. 6, left leaf), read on the page image.
 
 PDF p. 7, left leaf (read on the page image; its printed page
@@ -117,8 +117,8 @@ contain a complete $t$-partite subhypergraph with $r$ vertices in each
 class. What is $\lim_{n\to\infty}\log\mathrm{ex}_t(n,r)/\log n$? Is the
 1962 bound $t-\frac1{r^{t-1}}$ of Erdős best possible?", the booklet's form
 of [[../wiki/problems/extremal_graph_theory/E1158/_index|Problem 1158]] (the booklet's
-letters $t$ and $r$ are the site's). Both are historical statements read
-clause by clause on the page image; no result page was made for them. Read
+letters $t$ and $r$ are erdosproblems.com's). Both are historical statements
+read clause by clause on the page image; no result page was made for them. Read
 status: claims checked for items 3.64 and 3.65 (PDF p. 7, left leaf), read
 on the page image.
 
@@ -128,20 +128,20 @@ Section 1.2 "Egyptian fractions", prints item 1.13, "(Erdős, Straus) Prove
 that for every $n>1$ $\frac4n=\frac1x+\frac1y+\frac1z$ is solvable in
 integers $x,y,z$" (the display closes the left leaf and the words "is
 solvable in integers $x,y,z$" open the right leaf), the booklet's form of
-[[../wiki/problems/unit_fractions/E0242/_index|Problem 242]] (the site asks for $n>2$ and
-distinct $x<y<z$; the booklet asks for $n>1$ and prints no distinctness);
-item 1.14, "What is the maximum number of integers $a_1<a_2<\dots<a_k\le n$
-[such] that no sum $\sum\frac{\epsilon_i}{a_i}$, ($\epsilon_i=0,1$) equals 1?
-Can $k$ be $n-o(n)$?" (the word before "that" is cut at the scan's right
-edge), the booklet's form of
+[[../wiki/problems/unit_fractions/E0242/_index|Problem 242]] (erdosproblems.com
+asks for $n>2$ and distinct $x<y<z$; the booklet asks for $n>1$ and prints no
+distinctness); item 1.14, "What is the maximum number of integers
+$a_1<a_2<\dots<a_k\le n$ [such] that no sum $\sum\frac{\epsilon_i}{a_i}$,
+($\epsilon_i=0,1$) equals 1? Can $k$ be $n-o(n)$?" (the word before "that" is
+cut at the scan's right edge), the booklet's form of
 [[../wiki/problems/unit_fractions/E0300/_index|Problem 300]]; and item 1.15, "If
 $a_1<a_2<\dots<a_n$ are positive integers and $\sum\frac1{a_i}=1$, then
 $\max_i(a_{i+1}-a_i)>2$", the booklet's form of
 [[../wiki/problems/unit_fractions/E0287/_index|Problem 287]] (the item is printed as an
 assertion, its word "then" cut at the scan's right edge after "th"; a strict
-inequality $>2$ between integers is the site's $\ge3$; the booklet prints no
-$a_1>1$). Read status: claims checked for items 1.13, 1.14 and 1.15, read
-clause by clause on the page image.
+inequality $>2$ between integers is erdosproblems.com's $\ge3$; the booklet
+prints no $a_1>1$). Read status: claims checked for items 1.13, 1.14 and 1.15,
+read clause by clause on the page image.
 
 PDF pp. 3--4 (read on the page images; the right leaf of PDF
 p. 3 is printed p. 3 and the left leaf of PDF p. 4 is printed p. 4 by the

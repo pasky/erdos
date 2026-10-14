@@ -62,8 +62,8 @@ whose lower bound fixes the order $n\log\log n$.
 **Acceptance.** Refereed: Forum of Mathematics, Pi, received 2 November 2022,
 accepted 29 June 2023, published online 24 July 2023. The journal text prints
 the received and accepted dates, and the online date is from the Crossref
-record. Reviewed: the site's curator, Thomas Bloom, labeled the problem PROVED
-and wrote in its commentary that Janzer and Sudakov resolved it with this
-theorem (erdosproblems.com/182, last edited 7 March 2026). Bloom is independent
-of the authors. No formalization exists: the site shows the statement as not
-formalized, and formal-conjectures has no file for the problem.
+record. Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the
+problem PROVED and wrote in its commentary that Janzer and Sudakov resolved it
+with this theorem (erdosproblems.com/182, last edited 7 March 2026). Bloom is
+independent of the authors. No formalization exists: erdosproblems.com shows the
+statement as not formalized, and formal-conjectures has no file for the problem.

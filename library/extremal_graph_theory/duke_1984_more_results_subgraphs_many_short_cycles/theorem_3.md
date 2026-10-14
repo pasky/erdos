@@ -52,4 +52,4 @@ The standard reduction to a bipartite subgraph of large minimum valency
 
 - [[../wiki/problems/extremal_graph_theory/E0584/_index|Problem 584]]: the first clause in
   the sparse regime with $\delta^5$ in place of the asked $\delta^3$, which
-  is how the site's commentary records this paper.
+  is how the erdosproblems.com commentary records this paper.

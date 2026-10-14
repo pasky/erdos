@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0273/claims/2026_07_11_ideal_ombrer
 title: A range constraint on coverings with moduli p minus one
 desc: |
-  A pseudonymous research note of July 2026, posted on the site's thread, claims
-  a proof that every covering system with distinct moduli $p-1$, $p\ge5$ prime,
-  uses a modulus with $p>877$. It also claims a bound on the reciprocal sum.
+  A pseudonymous research note of July 2026, posted on the erdosproblems.com
+  thread, claims a proof that every covering system with distinct moduli $p-1$,
+  $p\ge5$ prime, uses a modulus with $p>877$. It also claims a bound on the
+  reciprocal sum.
 authors: []
 status: claimed
 claim: disproved
@@ -50,8 +51,8 @@ system covers the integers exactly when both parity halves do), leaving the step
 from distinct moduli to disjoint halves to the repository's notes and checking
 nothing of Theorem 1.1 or 1.2; the note says it was produced in a human-directed
 workflow with AI assistants in executor and validator roles, and the thread post
-credits unnamed AI assistants. The note's author is pseudonymous (the site user
-ideal_ombrer), which names this page.
+credits unnamed AI assistants. The note's author is pseudonymous
+(erdosproblems.com user ideal_ombrer), which names this page.
 
 **Covers.** The nonexistence of such a covering system whose moduli all have
 $p\le877$, a partial step toward a negative answer. The budget bound of
@@ -68,5 +69,5 @@ commit of the linked revision, both 2026-07-11; the repository was created on
 announcing it followed on 2026-07-12. The note is not refereed, no outside
 review is recorded, and the Lean file covers only part of the parity reduction,
 which this corpus has not built or audited, so no evidence kind is listed. The
-site's label was OPEN, and the claim is partial and derives nothing for the
-problem's standing.
+erdosproblems.com label was OPEN, and the claim is partial and derives nothing
+for the problem's standing.

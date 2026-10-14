@@ -38,11 +38,11 @@ $$
 \sum_{n\ge1}\frac{\omega(n)}{2^n}=\sum_p\frac{1}{2^p-1}=0.5169428\ldots
 $$
 
-is irrational. The $n=1$ term is zero, so the sum from $n\ge2$ in the site's
-statement is the same number; the identity comes from writing
+is irrational. The $n=1$ term is zero, so the sum from $n\ge2$ in the
+erdosproblems.com statement is the same number; the identity comes from writing
 $\omega(n)=\sum_{p\mid n}1$ and summing the geometric series
-$\sum_{m\ge1}2^{-pm}$ for each prime $p$, an observation the site's remarks
-credit to Tao. In that form the theorem is the case of
+$\sum_{m\ge1}2^{-pm}$ for each prime $p$, an observation the erdosproblems.com
+remarks credit to Tao. In that form the theorem is the case of
 [[problems/irrationality/E0257/_index|Problem 257]] in which the infinite set
 is the set of primes. The source card is
 [[../library/arithmetic_functions/tao_2025_quantitative_correlations_problems_prime_factors_consecutive/_index|tao_2025_quantitative_correlations_problems_prime_factors_consecutive]];

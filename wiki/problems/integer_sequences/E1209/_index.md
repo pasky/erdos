@@ -31,14 +31,13 @@ What if we ask for $n+a_k$ to be squarefree instead of prime?
 Are there $n$ such that $n+2^{2^k}$ is always a prime (or always squarefree, or
 infinitely often a prime, or infinitely often squarefree)?
 
-**Formulation.** The site's wording (page last edited 17 April 2026). Six
-questions, numbered here as the
-formal-conjectures file numbers them: (i) for sequences that tend to
-infinity sufficiently fast, does one $n$ with all $n+a_k$ prime force
-infinitely many; (ii) the same with squarefree; (iii.a) is there $n$ with
-$n+2^{2^k}$ prime for every $k$; (iii.b) squarefree for every $k$; (iii.c)
-prime for infinitely many $k$; (iii.d) squarefree for infinitely many $k$.
-"Sufficiently fast" in (i) and (ii) means that a growth condition
+**Formulation.** The erdosproblems.com wording (page last edited 17 April 2026).
+Six questions, numbered here as the formal-conjectures file numbers them: (i)
+for sequences that tend to infinity sufficiently fast, does one $n$ with all
+$n+a_k$ prime force infinitely many; (ii) the same with squarefree; (iii.a) is
+there $n$ with $n+2^{2^k}$ prime for every $k$; (iii.b) squarefree for every
+$k$; (iii.c) prime for infinitely many $k$; (iii.d) squarefree for infinitely
+many $k$. "Sufficiently fast" in (i) and (ii) means that a growth condition
 $a_k\ge g(k)$ may be imposed with any prescribed $g$, so a negative answer
 needs a counterexample for every growth rate. The shifts $n$ are integers;
 whether $n$ may be $0$ or negative is discussed in the thread and matters
@@ -63,18 +62,18 @@ two general questions and the always-prime question are answered. The standing
 in the frontmatter, derived from full claims only, stays open.
 
 Three of the six questions are answered no. Questions (i) and (ii) are answered
-by the site's construction: a sequence of primes $a_k$ with
+by erdosproblems.com's construction: a sequence of primes $a_k$ with
 $a_k+k\equiv0\pmod{q_k}$, or $\pmod{q_k^2}$, for primes $q_k\nmid k$. The
 sequence grows as fast as desired. It leaves $0$ as the only integer shift that
 makes every term prime, and at most $0$ and $1$ among the nonnegative shifts
 that make every term squarefree. The construction has been on the page since its
 edit of 8 April 2026. It is the curator's own pending partial claim,
-[[problems/integer_sequences/E1209/claims/2026_04_08_bloom|the site's construction]].
+[[problems/integer_sequences/E1209/claims/2026_04_08_bloom|erdosproblems.com's construction]].
 A forum note of 15 April 2026 gives a version with exactly one integer shift,
 and a Lean formalization. Question (iii.a) is answered by an argument on the
-multiplicative order of $2$. The site credits it to the note's author and GPT
-(GPT Pro, in the author's own thread comment). The argument was already the
-official solution of Problem 4 of the 2015 ELMO competition for every shift
+multiplicative order of $2$. erdosproblems.com credits it to the note's author
+and GPT (GPT Pro, in the author's own thread comment). The argument was already
+the official solution of Problem 4 of the 2015 ELMO competition for every shift
 $n\ge2$
 ([[problems/integer_sequences/E1209/claims/2015_06_27_gurev_korsky|its claim page]]).
 The same note proves it for all $n$: even $n$, then $n=1$ by $641\mid2^{32}+1$,
@@ -84,17 +83,18 @@ formal-conjectures collection, that is not built here.
 The three answers are recorded on the page, on the pending partial claim page
 [[problems/integer_sequences/E1209/claims/2026_04_15_barschkis|Barschkis's negative answers]]
 and on the curator's pending partial claim page. No refereed source exists for
-any of the answers. They rest on the site's commentary, the forum note and the
-elementary checks recorded below. By the site's revision history, the commentary
-has carried the construction since the edit of 8 April 2026 and the order
-argument since the edit of 17 April 2026, made in response to the note.
+any of the answers. They rest on the erdosproblems.com commentary, the forum
+note and the elementary checks recorded below. By the erdosproblems.com revision
+history, the commentary has carried the construction since the edit of 8 April
+2026 and the order argument since the edit of 17 April 2026, made in response to
+the note.
 
 **Source.** [erdosproblems.com/1209](https://www.erdosproblems.com/1209),
 accessed 2026-09-18 at 10:27 UTC: the problem page (labeled OPEN,
-with the site's note that no finite computation can settle it; last edited 17
-April 2026; source key [Er80, p. 111]; an OEIS indicator reading possible),
-its nine-comment discussion thread (15 April to 13 September 2026) and its
-empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1209,
+with the erdosproblems.com note that no finite computation can settle it; last
+edited 17 April 2026; source key [Er80, p. 111]; an OEIS indicator reading
+possible), its nine-comment discussion thread (15 April to 13 September 2026)
+and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1209,
 https://www.erdosproblems.com/1209, accessed 2026-09-18.
 
 **References.**
@@ -134,49 +134,49 @@ unformalized and no formal-proof URL; the problem page's indicator shows a
 formalized statement. The external file's contents are described below; nothing
 was built. On 19 September 2026, [pull request
 6065](https://github.com/google-deepmind/formal-conjectures/pull/6065) replaced
-the `sorry` of parts (i) and (ii) with proofs of a variant of the site's
-construction over shifts in $\mathbb N$ ([the file at that
+the `sorry` of parts (i) and (ii) with proofs of a variant of
+erdosproblems.com's construction over shifts in $\mathbb N$ ([the file at that
 merge](https://github.com/google-deepmind/formal-conjectures/blob/0e151e5e4fbcc7ac843578b4f0db74e61bb0fdf0/FormalConjectures/ErdosProblems/1209.lean)).
 Parts (iii.a) to (iii.d) are unchanged.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above,
-labeled OPEN with the note that no finite computation can settle it, last edited
-17 April 2026. The commentary, in summary: it quotes Erdős's remark, given under
-Formulation, that the first two questions are hopeless unless he overlooked a
-trivial counterexample, and answers that there is one, a variant of the
-construction of Problem 429: take $a_1=2$ and, for $k\ge2$, a prime
-$a_k>a_{k-1}$ with $q_k\mid a_k+k$ for some prime $q_k\nmid k$; the sequence can
-grow as fast as desired, and the same construction modulo $q_k^2$ answers the
-squarefree question. For (iii.a) it credits the note's author and GPT with the
-proof that no $n$ makes $n+2^{2^k}$ always prime: for odd $n\ge3$ and $k$ large
-enough, a prime $p=n+2^{2^k}$ gives $2^{2^k}$ an odd multiplicative order $m$
-modulo $p$, and any $l$ with $2^l\equiv1\pmod m$ makes $p$ divide
-$n+2^{2^{k+rl}}$ for every $r\ge1$. It points to Problems 429 and 1102. The
-thread, oldest first: a comment of 15 April 2026 (the note's author) reporting
-that the three main questions were closed after exploring ideas with GPT Pro,
-with the note's TeX, PDF and Lean files linked, and the guesses that the
-squarefree questions reduce at heart to whether every Fermat number is
-squarefree and that the infinitely-often-prime question is comparable to whether
-there are infinitely many Fermat primes (the site notes that its page was
-updated in response); a comment of 16 April 2026 (a forum account) reporting a
-standard check of the note that found no issues and summarizing its two
-arguments; an exchange of 17 April 2026 between the site's curator, T. F. Bloom,
-and the note's author on whether the trivial construction already answers (i)
-and (ii): it does (for primes over all integer shifts, since $a_1=2$; for
-squarefree values over nonnegative shifts), the note also excludes negative
-shifts for squarefree values, and the curator notes that in number-theoretic
-problems integers usually means positive integers; a comment of 17 April 2026 (a
-forum account) that doubly exponential sequences $a^{b^n}+c$ can be shown to
-have composite values unless they form a subsequence of the Fermat numbers; and
-two comments of 13 September 2026 (a commenter) reporting that the always-prime
-question (iii.a) was Problem 4 of the 2015 ELMO competition, proposed by a
-friend of the commenter and solved officially by the commenter, and remarking on
-attribution. The linked official solutions bear this out: their Problem 4 asks
-to show that $2^{2^n}+a$ is composite for some $n\ge0$ whenever $a>1$, and the
-official solution is the order argument of the note's Lemma 3.3. It is recorded
-on
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above, labeled OPEN with the note that no finite computation can
+settle it, last edited 17 April 2026. The commentary, in summary: it quotes
+Erdős's remark, given under Formulation, that the first two questions are
+hopeless unless he overlooked a trivial counterexample, and answers that there
+is one, a variant of the construction of Problem 429: take $a_1=2$ and, for
+$k\ge2$, a prime $a_k>a_{k-1}$ with $q_k\mid a_k+k$ for some prime $q_k\nmid k$;
+the sequence can grow as fast as desired, and the same construction modulo
+$q_k^2$ answers the squarefree question. For (iii.a) it credits the note's
+author and GPT with the proof that no $n$ makes $n+2^{2^k}$ always prime: for
+odd $n\ge3$ and $k$ large enough, a prime $p=n+2^{2^k}$ gives $2^{2^k}$ an odd
+multiplicative order $m$ modulo $p$, and any $l$ with $2^l\equiv1\pmod m$ makes
+$p$ divide $n+2^{2^{k+rl}}$ for every $r\ge1$. It points to Problems 429
+and 1102. The thread, oldest first: a comment of 15 April 2026 (the note's
+author) reporting that the three main questions were closed after exploring
+ideas with GPT Pro, with the note's TeX, PDF and Lean files linked, and the
+guesses that the squarefree questions reduce at heart to whether every Fermat
+number is squarefree and that the infinitely-often-prime question is comparable
+to whether there are infinitely many Fermat primes (erdosproblems.com notes that
+its page was updated in response); a comment of 16 April 2026 (a forum account)
+reporting a standard check of the note that found no issues and summarizing its
+two arguments; an exchange of 17 April 2026 between the erdosproblems.com
+curator, T. F. Bloom, and the note's author on whether the trivial construction
+already answers (i) and (ii): it does (for primes over all integer shifts, since
+$a_1=2$; for squarefree values over nonnegative shifts), the note also excludes
+negative shifts for squarefree values, and the curator notes that in
+number-theoretic problems integers usually means positive integers; a comment of
+17 April 2026 (a forum account) that doubly exponential sequences $a^{b^n}+c$
+can be shown to have composite values unless they form a subsequence of the
+Fermat numbers; and two comments of 13 September 2026 (a commenter) reporting
+that the always-prime question (iii.a) was Problem 4 of the 2015 ELMO
+competition, proposed by a friend of the commenter and solved officially by the
+commenter, and remarking on attribution. The linked official solutions bear this
+out: their Problem 4 asks to show that $2^{2^n}+a$ is composite for some $n\ge0$
+whenever $a>1$, and the official solution is the order argument of the note's
+Lemma 3.3. It is recorded on
 [[problems/integer_sequences/E1209/claims/2015_06_27_gurev_korsky|its claim page]].
 The proof-claim tab is empty.
 
@@ -186,9 +186,9 @@ $k$-tuple conjecture; the same page carries the infinite-sequence
 conjectures of Problem 429 and the caveat "perhaps some further condition
 on the thinness of the sequence $A=\{a_k\}$ may be needed" (pp. 111--112).
 
-**Questions (i) and (ii), answered no.** The site's construction, on the page
-since its edit of 8 April 2026 by the site's revision history and recorded as
-the curator's own pending partial claim on
+**Questions (i) and (ii), answered no.** erdosproblems.com's construction, on
+the page since its edit of 8 April 2026 by the erdosproblems.com revision
+history and recorded as the curator's own pending partial claim on
 [[problems/integer_sequences/E1209/claims/2026_04_08_bloom|its claim page]],
 checked here at the level of its statement: take $a_1=2$ and, for $k\ge2$, a
 prime $a_k>a_{k-1}$ with $a_k\equiv-k\pmod{q_k}$ for a prime $q_k\nmid k$
@@ -229,14 +229,14 @@ of $2^{2^t}$ modulo $p$ is odd, and for $L$ with $2^L\equiv1\pmod M$ one gets
 $2^{2^{t+L}}\equiv2^{2^t}\pmod p$, hence $p\mid n+2^{2^{t+L}}$, a larger
 multiple of $p$, which is composite; applied to $t=r$ this contradicts the
 assumption that every term is prime. The order argument was checked here as
-written (an elementary check); the site's version chooses $k$ large, which is
-the note's condition $t\ge v_2(n-1)$. For negative $n$ the term at $k=0$ is
-$n+2\le1$, not a prime. The site credits the argument to the note's author and
-GPT; by the site's revision history the paragraph entered the page in the edit
-of 17 April 2026, in response to the comment of 15 April 2026, without a change
-of label; the collection marks the part `research solved`. The same order
-argument is the official solution of Problem 4 of the 2015 ELMO competition,
-which proves (iii.a) for every shift $n\ge2$; see
+written (an elementary check); the erdosproblems.com version chooses $k$ large,
+which is the note's condition $t\ge v_2(n-1)$. For negative $n$ the term at
+$k=0$ is $n+2\le1$, not a prime. erdosproblems.com credits the argument to the
+note's author and GPT; by the erdosproblems.com revision history the paragraph
+entered the page in the edit of 17 April 2026, in response to the comment of 15
+April 2026, without a change of label; the collection marks the part
+`research solved`. The same order argument is the official solution of Problem 4
+of the 2015 ELMO competition, which proves (iii.a) for every shift $n\ge2$; see
 [[problems/integer_sequences/E1209/claims/2015_06_27_gurev_korsky|its claim page]].
 
 **Questions (iii.b), (iii.c), (iii.d), open.** Nothing found decides
@@ -273,7 +273,7 @@ at a branch, not a commit.
 refereed source for any of the six questions or a result on (iii.b),
 (iii.c) or (iii.d).
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `1209.lean`; the community database; the problem
   page's revision history (two superseded revisions, of 8 and 17 April
   2026) and the thread.
@@ -288,13 +288,13 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X.
 
 **Remaining gaps.** (1) The three open special questions have no source at all;
 at $n=1$ two of them are the squarefreeness of all Fermat numbers and the
-infinitude of Fermat primes. (2) The three answers rest on the site's
+infinitude of Fermat primes. (2) The three answers rest on the erdosproblems.com
 commentary, a forum note and elementary checks made here, with a Lean file not
 built here; no refereed source exists. (3) The label attaches to the open
 special questions while three questions are answered; the answers live on the
 pending partial claim page and the curator's pending one, and the derived
-standing stays open because no full claim exists. (4) The site's credit for
-(iii.a) omits the 2015 olympiad proof for every shift $n\ge2$
+standing stays open because no full claim exists. (4) The erdosproblems.com
+credit for (iii.a) omits the 2015 olympiad proof for every shift $n\ge2$
 ([[problems/integer_sequences/E1209/claims/2015_06_27_gurev_korsky|its claim page]]).
 <!-- BEGIN problem library links -->
 

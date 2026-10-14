@@ -70,9 +70,9 @@ circle case of Corollary 1.12 is the part relevant to Erdos problem 92, on the
 largest f(n) such that some n-point planar set has, for each of its points x,
 at least f(n) of its points equidistant from x: the n circles centered at the
 points, each through f(n) of them, give at least n f(n) incidences, so
-f(n) = O(n^{4/11}). The paper does not state this consequence; the problem
-site (erdosproblems.com/92, read 2026-10-07) credits the observation to
-Hunter.
+f(n) = O(n^{4/11}). The paper does not state this consequence;
+erdosproblems.com (erdosproblems.com/92, read 2026-10-07) credits the
+observation to Hunter.
 
 Source: <https://arxiv.org/abs/2411.07188v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2411.07188), every other right

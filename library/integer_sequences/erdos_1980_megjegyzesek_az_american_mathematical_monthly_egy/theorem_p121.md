@@ -65,4 +65,4 @@ None outside the paper.
 - [[../wiki/problems/integer_sequences/E0440/_index|Problem 440]]: context
   only. The problem concerns consecutive pairs; this result is the paper's
   $i=3$ case of the general Monthly problem, the case of
-  $\mathrm{lcm}(a_i,a_{i+1},a_{i+2})$ in the site's notation.
+  $\mathrm{lcm}(a_i,a_{i+1},a_{i+2})$ in the erdosproblems.com notation.

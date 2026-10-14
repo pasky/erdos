@@ -55,8 +55,8 @@ for some $4\le j\le k$, and linearity gives the upper bound $\binom n2/3$,
 since a $3$-graph with no member of that family has no two edges sharing a
 pair, so the theorem settles the modified Statement for every $k\ge5$. For
 the single family of $3$-graphs with $k$ vertices and $k-2$ edges that the
-site's wording defines, the upper bound fails at every $k$ from $5$ to $10$
-([[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]],
+erdosproblems.com wording defines, the upper bound fails at every $k$ from $5$
+to $10$ ([[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]],
 [[problems/set_systems/E1076/claims/2022_09_28_glock_joos_kim_kuhn_lichev_pikhurko|the (6,4) page]],
 [[problems/set_systems/E1076/claims/2024_03_07_glock_kim_lichev_pikhurko_sun|the (7,5), (8,6) and (9,7) page]],
 [[problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun|the (10,8) page]]),
@@ -65,13 +65,14 @@ results that answer only that wording.
 **Acceptance.** Refereed: S. Glock, D. Kühn, A. Lo and D. Osthus, On a
 conjecture of Erdős on locally sparse Steiner triple systems, Combinatorica 40
 (2020), no. 3, 363–403. It was published online on 28 April 2020, after the
-arXiv posting of 12 February 2018. Reviewed: the site's curator, Thomas Bloom,
-marked Problem 1076 proved. Bloom credits the asymptotic version to this paper
-[GKLO20] and to Bohman and Warnke [BoWa19]. Bloom reads the question as the
-approximate form of [[problems/set_systems/E0207/_index|Problem 207]], which is
-the reading the modified Statement adopts. The problem page was last edited on
-7 October 2025, after a comment in the site's thread the day before pointed to
-the two papers. The card records the theorem from the paper. Its proof is
+arXiv posting of 12 February 2018. Reviewed: the erdosproblems.com curator,
+Thomas Bloom, marked Problem 1076 proved. Bloom credits the asymptotic version
+to this paper [GKLO20] and to Bohman and Warnke [BoWa19]. Bloom reads the
+question as the approximate form of
+[[problems/set_systems/E0207/_index|Problem 207]], which is the reading the
+modified Statement adopts. The problem page was last edited on 7 October 2025,
+after a comment in the erdosproblems.com thread the day before pointed to the
+two papers. The card records the theorem from the paper. Its proof is
 unreviewed.
 
 **Formalizations.** Collin Yuanjie Ren's Lean 4 submission, linked above,
@@ -87,7 +88,7 @@ rather than their arguments. The submission credits Brown, Erdős and Sós,
 Bohman and Warnke, Glock, Kühn, Lo and Osthus, and Kwan, Sah, Sawhney and
 Simkin for the mathematics, claims only the bridge and assembly code, prepared
 with Claude Code (Claude Fable 5.1) assistance, and reuses the lean-proofs
-development that refutes the site's wording
+development that refutes the erdosproblems.com wording
 ([[problems/set_systems/E1076/claims/2026_08_17_alexeev|Alexeev 2026]]). The
 corpus has not built this submission, so this page lists no `formalized`
 evidence.

@@ -66,5 +66,6 @@ from squares need the separate remark recorded on Problem 793's page); the
 
 - [[../wiki/problems/integer_sequences/E0793/_index|Problem 793]]: the classical
   two-sided bound with the exponent $2/3$ and the exponent $2$ on the
-  logarithm, the scale of the problem's asymptotic; the site's commentary
-  reproduces the tree argument for $F(n)\le\pi(n)+n^{2/3}$ from this page.
+  logarithm, the scale of the problem's asymptotic; the erdosproblems.com
+  commentary reproduces the tree argument for $F(n)\le\pi(n)+n^{2/3}$ from this
+  page.

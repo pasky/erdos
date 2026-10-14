@@ -5,7 +5,7 @@ desc: |
   Straus's counting lemma P(A,k) ≥ k(|A|−k)+1 and the half-page deduction,
   following Straus, of the bound F(N) < (4/√3)N^{1/2}+1 for admissible
   subsets of the first N integers, the source on record for the square-root
-  upper bound the site attributes to Straus.
+  upper bound erdosproblems.com attributes to Straus.
 created: 2026-09-18T15:45:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -77,12 +77,12 @@ problem in combinatorial number theory*, J. Math. Sci. 1 (1966), 77–80
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0874/_index|Problem 874]]: the site's
-  "Straus [St66] ... proved that $\limsup k(N)/N^{1/2}\le4/\sqrt3$"; Lemme 2
-  is that bound with an explicit constant term, proved in a refereed
-  paper.
-- [[../wiki/problems/additive_combinatorics/E0789/_index|Problem 789]]: the site's
-  "Straus [St66] proved $h(n)\ll n^{1/2}$". Every admissible subset of
-  $A=\{1,\ldots,n\}$ has at most $F(n)$ elements, so
+- [[../wiki/problems/additive_combinatorics/E0874/_index|Problem 874]]:
+  erdosproblems.com's "Straus [St66] ... proved that
+  $\limsup k(N)/N^{1/2}\le4/\sqrt3$"; Lemme 2 is that bound with an explicit
+  constant term, proved in a refereed paper.
+- [[../wiki/problems/additive_combinatorics/E0789/_index|Problem 789]]:
+  erdosproblems.com's "Straus [St66] proved $h(n)\ll n^{1/2}$". Every admissible
+  subset of $A=\{1,\ldots,n\}$ has at most $F(n)$ elements, so
   $h(n)\le F(n)<\frac4{\sqrt3}n^{1/2}+1$ for the problem's $h(n)$, a
   one-line deduction made here from Lemme 2.

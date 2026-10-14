@@ -26,23 +26,24 @@ updated: 2026-10-07T10:49:42Z
 coloured with $k$ colours so that every four-term arithmetic progression must
 contain at least three distinct colours. Estimate $h(N)$.
 
-**Status.** Open. The site's label was OPEN (page last edited 2 December 2025).
-Its commentary records two upper bounds. The first is $h(N)\ll N^{2/3}$, from a
-MathOverflow answer. The second is $h(N)\ll N^{\log3/\log22+o(1)}$, an exponent
-of about $0.355$. The site credits this bound to Hunter's comment, and the
-preprint of Shi and Dong below credits it to the coloring of Deng, Tidor and
-Zhao (arXiv:2307.06914). The commentary also records the lower bound
-$h(N)\gg\exp(c(\log N)^{1/9})$ for some $c>0$. It follows from Hunter's
-observation together with the bounds on sets without three-term progressions in
-[BlSi23] and [KeMe23].
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 2
+December 2025). Its commentary records two upper bounds. The first is
+$h(N)\ll N^{2/3}$, from a MathOverflow answer. The second is
+$h(N)\ll N^{\log3/\log22+o(1)}$, an exponent of about $0.355$. erdosproblems.com
+credits this bound to Hunter's comment, and the preprint of Shi and Dong below
+credits it to the coloring of Deng, Tidor and Zhao (arXiv:2307.06914). The
+commentary also records the lower bound $h(N)\gg\exp(c(\log N)^{1/9})$ for some
+$c>0$. It follows from Hunter's observation together with the bounds on sets
+without three-term progressions in [BlSi23] and [KeMe23].
 
 The same observation applied to Raghavan's bound
 $r_3(N)\le N\exp(-c(\log N)^{1/6}/\log\log N)$ [Ra26] gives
 $h(N)\gg\exp(c(\log N)^{1/6-o(1)})$. This derivation was posted as a comment on
 the problem's thread on 4 August 2026. As a thread post, it has no claim page.
 
-Two partial claims on the site's proof-claims tab (accessed 2026-10-06) claim to
-lower the upper exponent, and the site has adopted neither. They are
+Two partial claims on the erdosproblems.com proof-claims tab (accessed
+2026-10-06) claim to lower the upper exponent, and erdosproblems.com has adopted
+neither. They are
 [[problems/additive_combinatorics/E0160/claims/2026_07_14_itabe|Itabe's bound $N^{1/3+o(1)}$]]
 (credited to GPT-5.6, with a Lean development that is unbuilt and unaudited
 here) and

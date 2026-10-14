@@ -25,38 +25,38 @@ updated: 2026-10-08T02:16:54Z
 vertices with minimal degree $\geq f(n)$ contains a $C_4$. Is it true that, for
 all large $n$, $f(n+1)\geq f(n)$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 6 December 2025). $f(n)$ is the least minimum degree that
 forces a four-cycle on $n$ vertices. Erdős's own 1996 statement uses the
 complementary quantity $h(n)$, the largest minimum degree of a $C_4$-free
 graph on $n$ vertices, so $f(n)=h(n)+1$, and asks whether $h(m)\ge h(n)$ for
-$m\ge n$ [Er96, item 5]. The site relates $f$ to the star Ramsey number by
-two formulas. The first, $R(C_4,K_{1,n})=\min\{m:f(m)\le m-n\}$, is
-correct, and Boza's remark (p. 1) that $R(C_4,K_{1,n})$ is the least $N$ for
-which no $C_4$-free graph on $N$ vertices has minimum degree at least $N-n$
-restates it. The second is printed as $f(n)=\min\{m:m\ge
-R(C_4,K_{1,n-m})\}$, a misprint: the left side of the inequality must be
-$n$, giving $f(n)=\min\{m:n\ge R(C_4,K_{1,n-m})\}$, since $f(n)\le d$
-exactly when $n\ge R(C_4,K_{1,n-d})$ (a check made here). As printed, the
-formula gives $7$ at $n=10$, where the Petersen graph forces $f(10)\ge4$ and
-the corrected form gives $4$ from $R(C_4,K_{1,6})=9$ and $R(C_4,K_{1,7})=11$,
-and it gives no value $m\le3$ at $n=4$, against the site's $f(4)=2$. Boza
-and the literature on [[problems/ramsey_theory/E0552/_index|Problem 552]]
-write $f(n)$ for $R(C_4,K_{1,n})$, a different function from the page's $f$;
-below, $s(n)$
-denotes $R(C_4,K_{1,n})$ to keep the two apart. The weaker version the site
-records asks for a constant $c$ with $f(m)>f(n)-c$ for all $m>n$; Erdős
-posed it in nearly the same words in 1994 and 1995, and in 1996 for the
-complementary $h(n)$ with a constant $C$; only the 1995 statement adds that
+$m\ge n$ [Er96, item 5]. erdosproblems.com relates $f$ to the star Ramsey number
+by two formulas. The first, $R(C_4,K_{1,n})=\min\{m:f(m)\le m-n\}$, is correct,
+and Boza's remark (p. 1) that $R(C_4,K_{1,n})$ is the least $N$ for which no
+$C_4$-free graph on $N$ vertices has minimum degree at least $N-n$ restates it.
+The second is printed as $f(n)=\min\{m:m\ge R(C_4,K_{1,n-m})\}$, a misprint: the
+left side of the inequality must be $n$, giving
+$f(n)=\min\{m:n\ge R(C_4,K_{1,n-m})\}$, since $f(n)\le d$ exactly when
+$n\ge R(C_4,K_{1,n-d})$ (a check made here). As printed, the formula gives $7$
+at $n=10$, where the Petersen graph forces $f(10)\ge4$ and the corrected form
+gives $4$ from $R(C_4,K_{1,6})=9$ and $R(C_4,K_{1,7})=11$, and it gives no value
+$m\le3$ at $n=4$, against erdosproblems.com's $f(4)=2$. Boza and the literature
+on [[problems/ramsey_theory/E0552/_index|Problem 552]] write $f(n)$ for
+$R(C_4,K_{1,n})$, a different function from the page's $f$; below, $s(n)$
+denotes $R(C_4,K_{1,n})$ to keep the two apart. The weaker version
+erdosproblems.com records asks for a constant $c$ with $f(m)>f(n)-c$ for all
+$m>n$; Erdős posed it in nearly the same words in 1994 and 1995, and in 1996 for
+the complementary $h(n)$ with a constant $C$; only the 1995 statement adds that
 the question can be asked for graphs other than $C_4$.
 
 **Status.** Open. No source found proves or refutes eventual monotonicity of
-$f$. The size of $f$ is known: $f(n)=(1+o(1))\sqrt n$ (the site, from the bounds
-of Problem 552; Erdős's display (3) of 1996 for $h(n)$) and $f(4)=2$ (the site).
+$f$. The size of $f$ is known: $f(n)=(1+o(1))\sqrt n$ (erdosproblems.com, from
+the bounds of Problem 552; Erdős's display (3) of 1996 for $h(n)$) and $f(4)=2$
+(erdosproblems.com).
 
-The site's further bound $f(n)<\sqrt n+1$ is an off-by-one error. Let $h(n)$ be
-the largest minimum degree of a $C_4$-free graph on $n$ vertices. The counting
-argument behind the bound gives $h(n)(h(n)-1)\le n-1$, so
+erdosproblems.com's further bound $f(n)<\sqrt n+1$ is an off-by-one error. Let
+$h(n)$ be the largest minimum degree of a $C_4$-free graph on $n$ vertices. The
+counting argument behind the bound gives $h(n)(h(n)-1)\le n-1$, so
 $h(n)\le(1+\sqrt{4n-3})/2$ and $f(n)=h(n)+1<\sqrt n+3/2$. Erdős's
 "$f(n)<\sqrt n+1$ is easy" in [Er93] is about his own $f$, which is $h$. The
 bound fails for the page's $f$. The line graph of the Petersen graph is
@@ -73,16 +73,16 @@ conversion gives $f(n)=n-\max\{k:s(k)\le n\}$ for $n\ge4$. So $f(n+1)<f(n)$
 exactly when $s(k)=s(k+1)=n+1$ for some $k$. The problem is therefore equivalent
 to $s(k+1)>s(k)$ for all large $k$. This is the negation of the question of
 Burr, Erdős, Faudree, Rousseau and Schelp whether $s(k+1)=s(k)$ holds infinitely
-often ([BEFRS89], p. 89, which also asks whether such $k$ have density zero; the
-site records the question under Problem 552). Boza's Remark 12 is that
-inequality for $2\le k\le38$. With $s(38)=45$, it gives $f(n+1)\ge f(n)$ for
-$4\le n\le44$. Chen's theorem gives $f(n+2)\le f(n)+1$. The search, whose scope
-the Current assessment records, found nothing more. This is a bounded negative
-finding, not a certificate of openness.
+often ([BEFRS89], p. 89, which also asks whether such $k$ have density zero;
+erdosproblems.com records the question under Problem 552). Boza's Remark 12 is
+that inequality for $2\le k\le38$. With $s(38)=45$, it gives $f(n+1)\ge f(n)$
+for $4\le n\le44$. Chen's theorem gives $f(n+2)\le f(n)+1$. The search, whose
+scope the Current assessment records, found nothing more. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/85](https://www.erdosproblems.com/85),
-accessed 2026-09-18: the problem page (labeled OPEN, with the site's note
-that no finite computation can settle it; last edited 6 December 2025;
+accessed 2026-09-18: the problem page (labeled OPEN, with the erdosproblems.com
+note that no finite computation can settle it; last edited 6 December 2025;
 source keys [Er93, p. 345], [Er94b], [Er95], [Er96]; OEIS A006672), its
 two-comment discussion thread (6 October 2025 and 17 September 2026) and
 its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #85,
@@ -92,7 +92,7 @@ https://www.erdosproblems.com/85, accessed 2026-09-18.
 
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
   graph theory. Quaestiones Math. 16 (1993), 333--350; Chapter V, problem
-  7, printed p. 345. The site cites p. 345. The survey's $f(n)$ is the
+  7, printed p. 345. erdosproblems.com cites p. 345. The survey's $f(n)$ is the
   largest minimum degree of a $C_4$-free graph on $n$ vertices, one less
   than the page's $f(n)$. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
@@ -140,23 +140,23 @@ and declares
 `erdos_85 : answer(sorry) ↔ ∀ᶠ n in atTop, f n ≤ f (n + 1)`
 under `category research open`, with proof `sorry`; a comment leaves the
 connection to the Ramsey number and the weaker version as to-do items. The
-definition places no lower bound on $n$ where the site says $n\ge4$; the
-eventual statement is unaffected. The community database
+definition places no lower bound on $n$ where erdosproblems.com says $n\ge4$;
+the eventual statement is unaffected. The community database
 (teorth/erdosproblems, fetched 2026-09-18) records the problem open (its
 record last updated 14 March 2026) and the statement formalized since 21
 November 2025, with no formal proof. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement above;
-labeled OPEN, with the site's note that no finite computation can settle it;
-last edited 6 December 2025. The commentary gives the two conversion formulas
-between $f$ and $R(C_4,K_{1,n})$, points to Problem 552 for that Ramsey
-number, states the weaker version with a constant $c$ and notes that the
-question can be asked for graphs other than $C_4$, and records $f(n)<\sqrt
-n+1$ (the off-by-one error flagged under Status: the bound holds for $h=f-1$
-and $f(15)=5$ breaks it for $f$), $f(n)=(1+o(1))\sqrt n$ and $f(4)=2$. The
-thread has two comments: one of 6 October 2025 writes out the standard
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; labeled OPEN, with the erdosproblems.com note that no finite
+computation can settle it; last edited 6 December 2025. The commentary gives the
+two conversion formulas between $f$ and $R(C_4,K_{1,n})$, points to Problem 552
+for that Ramsey number, states the weaker version with a constant $c$ and notes
+that the question can be asked for graphs other than $C_4$, and records
+$f(n)<\sqrt n+1$ (the off-by-one error flagged under Status: the bound holds for
+$h=f-1$ and $f(15)=5$ breaks it for $f$), $f(n)=(1+o(1))\sqrt n$ and $f(4)=2$.
+The thread has two comments: one of 6 October 2025 writes out the standard
 counting argument (the sets of pairs of neighbors of distinct vertices are
 disjoint in a $C_4$-free graph of minimum degree $\delta$, so $n(n-1)/2\ge
 n\delta(\delta-1)/2$), which bounds $h$ and not $f$, and the polarity-graph
@@ -169,8 +169,8 @@ and even $n$ may behave differently. Both are forum comments, recorded here
 with their dates and not checked. The proof-claim tab is empty. The community
 database record says open.
 
-**Erdős's statements.** The question appears in all four sources the site
-cites, in the same two-part form each time:
+**Erdős's statements.** The question appears in all four sources
+erdosproblems.com cites, in the same two-part form each time:
 
 - [Er93], Chapter V, problem 7 (printed p. 345): "Let $f(n)$ be the largest
   integer for which there is a $C_4$ free graph of $n$ vertices every vertex
@@ -180,8 +180,8 @@ cites, in the same two-part form each time:
   badly. $f(n)<\sqrt n+1$ is easy. Is it true that $\lim_{n\to\infty}\inf
   f(n)-\sqrt n=-\infty$? i.e. for every $c$ there is an $n$ for which
   $f(n)<\sqrt n-c$." Its $f$ is the complementary quantity, the page's $f$
-  less one, as in [Er96]; the closing question is the one the site's Problem
-  552 records from 1996.
+  less one, as in [Er96]; the closing question is the one erdosproblems.com's
+  Problem 552 records from 1996.
 - [Er94b], item 2.5 (printed p. 266): "Let $f(n)$ be the smallest integer
   for which every graph of $n$ vertices every vertex of which has degree
   $\ge f(n)$ contains a $C_4$ (i.e. a cycle of length 4). Is it true that
@@ -202,16 +202,16 @@ cites, in the same two-part form each time:
   $l(n)\to\infty$ as slowly as possible for which for every $m>n$
   $h(m)>h(n)-l(n)$. Try to improve (3). Is it true that
   $h(n)=n^{1/2}+O(1)$? (6) Very likely (6) is too optimistic." Display (6)
-  is the question the site's Problem 552 records from this paper.
+  is the question erdosproblems.com's Problem 552 records from this paper.
 
 **What is known about the equivalent Ramsey sequence.** Write
-$s(n)=R(C_4,K_{1,n})$. The site's conversions make $f$ and $s$ carry the same
-information, and the literature on $s$ is compiled on the Problem 552 page:
-$s(n)\le n+\lceil\sqrt n\rceil+1$ (Parsons), $s(n)>n+\lfloor\sqrt
-n-6n^{11/40}\rfloor$ for large $n$ (Burr, Erdős, Faudree, Rousseau and
-Schelp, under a prime-gap hypothesis known since 1989), exact values at
-$n=q^2$, $q^2+1$ and other families near squares of prime powers, and all
-values for $n\le38$, eight of them ($n=27$ to $33$ and $37$) first
+$s(n)=R(C_4,K_{1,n})$. erdosproblems.com's conversions make $f$ and $s$ carry
+the same information, and the literature on $s$ is compiled on the Problem 552
+page: $s(n)\le n+\lceil\sqrt n\rceil+1$ (Parsons),
+$s(n)>n+\lfloor\sqrt n-6n^{11/40}\rfloor$ for large $n$ (Burr, Erdős, Faudree,
+Rousseau and Schelp, under a prime-gap hypothesis known since 1989), exact
+values at $n=q^2$, $q^2+1$ and other families near squares of prime powers, and
+all values for $n\le38$, eight of them ($n=27$ to $33$ and $37$) first
 determined in Boza's
 [[../library/ramsey_theory/boza_2024_exact_values_bounds_ramsey_numbers_c4/theorem_10|Theorem 10]]
 (arXiv v2, p. 4, which also gives $s(67)=76$). Two statements bear on
@@ -243,7 +243,7 @@ inequality for $s$ up to $n=39$.
 or counterexample on the eventual monotonicity of $f$, or a proof of the
 weaker version.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the commit linked above; the community database of
   2026-09-18.
 - The primary sources at the pages stated: [Er94b] p. 266, [Er95]

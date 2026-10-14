@@ -41,12 +41,12 @@ under Formalization states it (`erdos_417.parts.ii`): whether $V(x)/V'(x)$
 tends to a limit $L>1$, possibly infinite, so a yes to it includes a yes to
 the first.
 
-**Status.** Open. The site labeled the problem OPEN, and the derived standing is
-open. The site's proof-claims thread carried no claim on 2026-10-06. No claim
-page is recorded, since no one claims either question. Theorem 2.2 of the OpenAI
-release manuscript of 25 September 2026 bears on the problem without claiming
-it. With $k=1$ it implies, by a deduction drawn here, that
-$\liminf V(x)/V'(x)>1$, so any limit would exceed $1$; the theorem is
+**Status.** Open. Bloom's catalog labeled the problem OPEN, and the derived
+standing is open. The erdosproblems.com proof-claims thread carried no claim on
+2026-10-06. No claim page is recorded, since no one claims either question.
+Theorem 2.2 of the OpenAI release manuscript of 25 September 2026 bears on the
+problem without claiming it. With $k=1$ it implies, by a deduction drawn here,
+that $\liminf V(x)/V'(x)>1$, so any limit would exceed $1$; the theorem is
 unrefereed, and whether the limit exists stays open. The Current assessment
 records this item, the deduction and why neither is a claim.
 
@@ -68,8 +68,8 @@ limit exceeding $1$), each an `answer(sorry)` equivalence marked
 
 ## Current assessment
 
-**The question (site formulation, 2026-09-04).** Whether
-$\lim V(x)/V'(x)$ exists and whether it exceeds $1$. OPEN. The site's
+**The question (erdosproblems.com formulation, 2026-09-04).** Whether
+$\lim V(x)/V'(x)$ exists and whether it exceeds $1$. OPEN. The erdosproblems.com
 commentary records that $V'(x)\le V(x)$ trivially and that Erdős [Er98]
 suggested the limit may be infinite.
 
@@ -104,16 +104,16 @@ deduction rests on the unrefereed Theorem 2.2, whose Lean this corpus has not
 built, and it is not a claim, since neither the release nor anyone else claims
 the problem.
 
-**Search scope.** The site's page and its proof-claims thread (empty on
-2026-10-06), the formal-conjectures statement file and the
-OpenAI release at the pinned revision of its manuscript; no other literature
-search was made, and no proof was independently assessed.
+**Search scope.** The erdosproblems.com page and its proof-claims thread (empty
+on 2026-10-06), the formal-conjectures statement file and the OpenAI release at
+the pinned revision of its manuscript; no other literature search was made, and
+no proof was independently assessed.
 
 ## Known Results
 
 The ratio $V(x)/V'(x)$ is bounded: Pollack, Pomerance and Treviño quote
 $V(x)\asymp V'(x)$ from Ford on p. 7 of their manuscript, which excludes the
-infinite limit the site reports Erdős suggested.
+infinite limit erdosproblems.com reports Erdős suggested.
 
 <!-- BEGIN problem library links -->
 

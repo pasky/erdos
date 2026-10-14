@@ -42,15 +42,15 @@ Fomin and Villanger "with simpler arguments". Every minimal cut $T$ of a
 graph, a minimal set of vertices whose removal disconnects it, is a minimal
 $(u,v)$-separator for any $u,v$ in different components of the graph without
 $T$, so $c(n)\le\mathsf{sep}(n)$ and the theorem gives
-$\limsup_n c(n)^{1/n}\le\rho$. The site's commentary on
+$\limsup_n c(n)^{1/n}\le\rho$. The erdosproblems.com commentary on
 [[problems/extremal_graph_theory/E0150/_index|Problem 150]] credits the paper
 with the simpler proof of the upper bound. Read depth: the statement and its
 one-paragraph proof in the preprint; the journal text was not compared.
 
 The paper's Theorem 2 is a lower bound, $\mathsf{sep}(n)\in
 \omega(1.4521^n)$ in the arXiv v2 and $\omega(1.4457^n)$ in the abstract of
-the published version, the figure the site and Bradač print. The published
-proof is unchecked, so the lower bound is not part of this claim.
+the published version, the figure erdosproblems.com and Bradač print. The
+published proof is unchecked, so the lower bound is not part of this claim.
 
 **Covers.** The bound half of the question: $\limsup_n c(n)^{1/n}\le\rho<2$,
 so the limit, whose existence Bradač proves, is below $2$; the existence of
@@ -61,6 +61,6 @@ the limit is not addressed.
 the source's result page.
 
 **Acceptance.** Refereed: the paper is a publication in the Journal of Graph
-Theory. The site's curator credits the paper in the problem's commentary. The
-site lists no parts, and its label credited Bradač's note for the whole problem,
-so the credit is not listed as reviewed evidence.
+Theory. The erdosproblems.com curator credits the paper in the problem's
+commentary. erdosproblems.com lists no parts, and its label credited Bradač's
+note for the whole problem, so the credit is not listed as reviewed evidence.

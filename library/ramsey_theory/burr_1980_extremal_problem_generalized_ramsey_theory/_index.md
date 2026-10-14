@@ -5,7 +5,7 @@ desc: |
   extremal functions for small orders and giving asymptotic bounds.
 license: unstated
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T15:18:33Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory
@@ -22,11 +22,11 @@ of connected graphs of order n for n from 2 to 6, with the graphs that fix
 them for n = 5 and n = 6.
 
 [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_1|theorem_1]]: The two-sided 1980 bounds on the largest size below which every connected
-graph of order n is 3-good, which in the site's letters bound F(n) of
+graph of order n is 3-good, which in erdosproblems.com's letters bound F(n) of
 Problem 1182 between a linear and an n (log n)^2 function.
 
 [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_2|theorem_2]]: The 1980 bounds on the largest size of a 3-good connected graph of order
-n, which in the site's letters bound f(n) of Problem 1182 between the
+n, which in erdosproblems.com's letters bound f(n) of Problem 1182 between the
 orders n^{3/2} and n^{5/3} up to logarithms.
 
 [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_3|theorem_3]]: For fixed m at least 3, bounds the all-graphs and some-graph thresholds for
@@ -64,10 +64,10 @@ $f(m,n)$ is the largest $q$ for which $m$-goodness holds for *all*
 connected $(n,q)$ graphs, and $g(m,n)$ the largest $q$ for which it holds
 for *at least one*; the paper writes $f(n)$ and $g(n)$ for $f(3,n)$ and
 $g(3,n)$ (p. 193). In the letters
-of the site's Problem 1182, which follow Erdős's 1978 problem paper, the
-paper's $f(n)$ is the site's $F(n)$ (every graph) and the paper's $g(n)$ is
-the site's $f(n)$ (some graph). Every statement below keeps the paper's
-letters.
+of erdosproblems.com's Problem 1182, which follow Erdős's 1978 problem paper,
+the paper's $f(n)$ is erdosproblems.com's $F(n)$ (every graph) and the paper's
+$g(n)$ is erdosproblems.com's $f(n)$ (some graph). Every statement below keeps
+the paper's letters.
 
 ## Contents
 
@@ -137,19 +137,20 @@ reviewed.
 
 Source: <https://users.renyi.hu/~p_erdos/1980-04.pdf>.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E1182/_index|#1182]]: the site's key
-BEFRS80. After the swap of letters (the paper's $f$ is the site's $F$, the
-paper's $g$ the site's $f$), Table I (printed p. 194 = PDF p. 2, page image)
-gives the site's values $F(n)=1,2,5,7,8$ and $f(n)=1,2,5,8,12$ for
-$n=2,\ldots,6$; Theorem 1 (printed p. 198 = PDF p. 6, page image) gives
-$(17n+1)/15\le F(n)$ for $n\ge4$ and $F(n)<(27/4+\varepsilon)n(\log n)^2$
-for large $n$; Theorem 2 (same page) gives
+**Bears on.** [[../wiki/problems/ramsey_theory/E1182/_index|#1182]]: the
+erdosproblems.com key BEFRS80. After the swap of letters (the paper's $f$ is
+erdosproblems.com's $F$, the paper's $g$ erdosproblems.com's $f$), Table I
+(printed p. 194 = PDF p. 2, page image) gives erdosproblems.com's values
+$F(n)=1,2,5,7,8$ and $f(n)=1,2,5,8,12$ for $n=2,\ldots,6$; Theorem 1 (printed p.
+198 = PDF p. 6, page image) gives $(17n+1)/15\le F(n)$ for $n\ge4$ and
+$F(n)<(27/4+\varepsilon)n(\log n)^2$ for large $n$; Theorem 2 (same page) gives
 $An^{3/2}(\log n)^{1/2}<f(n)<Bn^{5/3}(\log n)^{2/3}$ for large $n$; the
-Section 5 Question (printed p. 202 = PDF p. 10, page image) is the site's
-closing question "is it true that $F(n)/n\to\infty$?" in the authors' own
-words; [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_3|Theorem 3]]
-(p. 202), stated without proof, is the source of the site's bounds for the
-generalizations $F_m$ and $f_m$ (the paper's $f(m,\cdot)$ and $g(m,\cdot)$),
+Section 5 Question (printed p. 202 = PDF p. 10, page image) is
+erdosproblems.com's closing question "is it true that $F(n)/n\to\infty$?" in the
+authors' own words;
+[[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_3|Theorem 3]]
+(p. 202), stated without proof, is the source of erdosproblems.com's bounds for
+the generalizations $F_m$ and $f_m$ (the paper's $f(m,\cdot)$ and $g(m,\cdot)$),
 context for the problem, which asks about $m=3$. The small values are on
 [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/table_i|table_i]].
 

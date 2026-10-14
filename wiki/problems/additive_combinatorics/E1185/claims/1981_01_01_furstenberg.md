@@ -2,10 +2,10 @@
 name: problems/additive_combinatorics/E1185/claims/1981_01_01_furstenberg
 title: Furstenberg's difference set that is not 2-intersective
 desc: |
-  Furstenberg's 1981 book, credited by the site's curator, gives an infinite set
-  whose difference set is not a set of $2$-recurrence. So for every $m$ a dense
-  set has no three-term progression with difference in $B-B$ for some
-  $m$-element $B$, and the answer is no for every $k$.
+  Furstenberg's 1981 book, credited by the erdosproblems.com curator, gives an
+  infinite set whose difference set is not a set of $2$-recurrence. So for every
+  $m$ a dense set has no three-term progression with difference in $B-B$ for
+  some $m$-element $B$, and the answer is no for every $k$.
 authors:
 - Harry Furstenberg
 status: accepted
@@ -47,8 +47,8 @@ progression whose difference lies in $S-S$. Given $m$, let $B$ be the $m$
 smallest elements of $S$; for infinitely many $N$ the set
 $A=A'\cap\{1,\ldots,N\}$ has at least $\delta N$ elements, $B\subseteq
 \{1,\ldots,N\}$, and $B-B\subseteq S-S$ meets no difference of a $3$-term
-progression in $A$. This is the deduction the site's commentary records
-and the page restates in its own words; since a $k$-term progression
+progression in $A$. This is the deduction the erdosproblems.com commentary
+records and the page restates in its own words; since a $k$-term progression
 contains a $3$-term progression with the same difference, the same $A$ and
 $B$ refute the question for every $k\ge3$. Erdős and Mauldin asked it as a
 question, motivated by a problem in measure theory ([Er80], p. 92, on the
@@ -79,14 +79,14 @@ not built it, so no `formalized` evidence is listed.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
-solved and states that it is false already at $k=3$. The curator credits
-Furstenberg's example [Fu81] for the infinite set whose difference set is not
-$2$-intersective (page last edited 5 April 2026; the discussion thread and
-proof-claims tab are empty). Bloom is independent of Furstenberg. The deduction
-from the example to the finite statement is the curator's own commentary. Not
-refereed: the source is a published monograph, not a journal article, and the
-deduction from it to the finite statement appears only in the site's commentary.
-The 2006 Annales paper that cites the example is refereed, but it is not the
-source of the claim. The example's property is stated as the commentary and the
-2006 paper give it.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled
+the problem solved and states that it is false already at $k=3$. The curator
+credits Furstenberg's example [Fu81] for the infinite set whose difference set
+is not $2$-intersective (page last edited 5 April 2026; the discussion thread
+and proof-claims tab are empty). Bloom is independent of Furstenberg. The
+deduction from the example to the finite statement is the curator's own
+commentary. Not refereed: the source is a published monograph, not a journal
+article, and the deduction from it to the finite statement appears only in the
+erdosproblems.com commentary. The 2006 Annales paper that cites the example is
+refereed, but it is not the source of the claim. The example's property is
+stated as the commentary and the 2006 paper give it.

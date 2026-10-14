@@ -65,6 +65,6 @@ Corollary 1.3.
 ## Bears on
 
 - [[../wiki/problems/set_theory/E1219/_index|Problem 1219]]: the stronger three-dimensional
-  question the site records as open after Komjáth; it is not part of the
-  erdosproblems.com question, whose two-dimensional relation Corollary 1.3
+  question erdosproblems.com records as open after Komjáth; it is not part of
+  the erdosproblems.com question, whose two-dimensional relation Corollary 1.3
   proves.

@@ -41,8 +41,8 @@ notation of [[problems/discrete_geometry/E1088/_index|Problem 1088]]
 $f_1(n)\le Cn^2$ for an absolute constant $C$. The paper states its theorem
 for integers; the transfer to finite sets of reals is recorded on
 [[problems/additive_bases/E0530/claims/1975_01_01_komlos_sulyok_szemeredi|the
-same theorem's claim page for Problem 530]], the problem the site names for
-$d=1$.
+same theorem's claim page for Problem 530]], the problem erdosproblems.com names
+for $d=1$.
 
 **Covers.** The upper bound $f_1(n)\ll n^2$. With the Erdős–Turán bound that
 a Sidon subset of $\{1,\ldots,N\}$ has at most $(1+o(1))N^{1/2}$ elements,
@@ -55,7 +55,8 @@ claim page for Problem 530]], for the transfer of the integer theorem to
 finite sets of reals.
 
 **Acceptance.** Refereed: the paper is a journal publication in Acta Mathematica
-Academiae Scientiarum Hungaricae, volume 26, issue 1--2 (1975). The site's
-remarks state $f_1(n)\asymp n^2$ through Problem 530. But the site labeled the
-problem OPEN, so the remark is not `reviewed` evidence. The page is dated to the
-first day of the publication year, since the citation gives no month or day.
+Academiae Scientiarum Hungaricae, volume 26, issue 1--2 (1975). The
+erdosproblems.com remarks state $f_1(n)\asymp n^2$ through Problem 530. But
+Bloom's catalog labeled the problem OPEN, so the remark is not `reviewed`
+evidence. The page is dated to the first day of the publication year, since the
+citation gives no month or day.

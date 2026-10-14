@@ -35,7 +35,7 @@ refereed). It proves the statement for every set of positive upper Banach
 density. Positive upper density along the intervals is a special case of this.
 The paper calls the statement Erdős's $B+B+t$ conjecture. The claim page is
 [[problems/additive_combinatorics/E0656/claims/2022_06_24_kra_moreira_richter_robertson|Kra, Moreira, Richter and Robertson]]
-(accepted on the refereed publication and the site's credit).
+(accepted on the refereed publication and the erdosproblems.com credit).
 
 **Source.** [erdosproblems.com/656](https://www.erdosproblems.com/656), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #656,

@@ -52,8 +52,8 @@ $\mathrm{ex}(2n;H_k)\le4kn^{3/2}$; since the extremal number is nondecreasing in
 the number of vertices, every $N$ has
 $\mathrm{ex}(N;H_k)\le4k\lceil N/2\rceil^{3/2}$ (authored, one line). For fixed
 $k$ this is the $O_k(n^{3/2})$ asked for, and it is the bound
-$\mathrm{ex}(n;H_k)\ll kn^{3/2}$ that the site's commentary credits to the
-paper. The paper presents the theorem as an improvement of Füredi's
+$\mathrm{ex}(n;H_k)\ll kn^{3/2}$ that the erdosproblems.com commentary credits
+to the paper. The paper presents the theorem as an improvement of Füredi's
 $\mathrm{ex}(n;L_t^{k,s})=O((s+1)^{1/t}k^{2-1/t}n^{2-1/t})$, whose case $t=2$ is
 the first proof of the answer yes
 ([[problems/extremal_graph_theory/E0926/claims/1991_03_01_furedi|Füredi's claim page]]),
@@ -68,11 +68,12 @@ independent of Füredi's set-system argument.
 **Acceptance.** Refereed publication in Combinatorics, Probability and
 Computing. The Crossref record, accessed 2026-10-07, gives volume 12, issue
 5--6, pp. 477--494, issued November 2003, and this page's date is that issue's
-nominal first day. The paper was published online on 3 December 2003. The site's
-curator, Thomas Bloom, labeled the problem proved and credits the paper with the
-improvement to $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. But the site's entry also
-carries thanks to Noga Alon, so the curator's credit is not listed as `reviewed`
-evidence independent of the claimants. The source has a library
+nominal first day. The paper was published online on 3 December 2003. The
+erdosproblems.com curator, Thomas Bloom, labeled the problem proved and credits
+the paper with the improvement to $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. But the
+erdosproblems.com entry also carries thanks to Noga Alon, so the curator's
+credit is not listed as `reviewed` evidence independent of the claimants. The
+source has a library
 [[../library/extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey/_index|source card]],
 with the result page
 [[../library/extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey/theorem_6_1|Theorem 6.1]].

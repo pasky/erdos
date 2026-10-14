@@ -110,7 +110,7 @@ $[(n+2)/3]$ bound on the per-vertex question; none is used in the proof.
 - [[../wiki/problems/distance_problems/E0660/_index|Problem 660]]: the two-dimensional
   analog of that problem's question; the paper prints nothing about
   polyhedra or three dimensions.
-- [[../wiki/problems/distance_problems/E0095/_index|Problem 95]]: the site's
-  convex-polygon attribution for that problem points here; the paper
-  prints no statement about the sum of squared multiplicities, as the
+- [[../wiki/problems/distance_problems/E0095/_index|Problem 95]]:
+  erdosproblems.com's convex-polygon attribution for that problem points here;
+  the paper prints no statement about the sum of squared multiplicities, as the
   source digest records.

@@ -27,9 +27,10 @@ $\{1,\ldots,2k\}$ can be coloured with $k+1$ colours such that for every
 $A\subset \{1,\ldots,2k\}$ with $\lvert A\rvert=k+1$ all $k+1$ colours appear
 among the $k$-sized subsets of $A$?
 
-**Status.** Verifiable. This is the site's label for an open question whose
-positive answer a single finite coloring would witness. The label does not mean
-that such a coloring has been found. The site's page (last edited 22 January
+**Status.** Verifiable. This is the erdosproblems.com label for an open question
+whose positive answer a single finite coloring would witness. The label does not
+mean that such a coloring has been found. The erdosproblems.com page (last
+edited 22 January
 2026) carries no proof claim. Two partial claim pages,
 [[problems/set_systems/E0835/claims/2025_12_31_ma_tang|Ma and Tang 2025]] and
 [[problems/set_systems/E0835/claims/2026_01_23_deepmind|AlphaProof 2026]],
@@ -42,10 +43,11 @@ https://www.erdosproblems.com/835.
 
 **References.**
 
-- [Er74d] P. Erdős, Unsolved Problems. (1974), 278--297; the site cites p. 283.
-  MR360350.
+- [Er74d] P. Erdős, Unsolved Problems. (1974), 278--297; erdosproblems.com cites
+  p. 283. MR360350.
 - [MaTa25] J. Ma and Q. Tang, A note on Erdős Problem #835. Undated note,
-  posted 2025-12-31 in the site's discussion thread and revised 2026-01-01,
+  posted 2025-12-31 in the erdosproblems.com discussion thread and revised
+  2026-01-01,
   https://github.com/QuanyuTang/erdos-problem-835/blob/7f131832bab5abfc903014ddb61efff21d56ae01/On_Problem_835.pdf
   (the revision).
 
@@ -61,27 +63,27 @@ file is not a formalization of a result.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks whether some $k>2$ admits a
-coloring of the $k$-subsets of $\{1,\ldots,2k\}$ with $k+1$ colors in which
-every $(k+1)$-subset sees all $k+1$ colors on the $k$-subsets it contains.
+The erdosproblems.com formulation (accessed 2026-09-04) asks whether some $k>2$
+admits a coloring of the $k$-subsets of $\{1,\ldots,2k\}$ with $k+1$ colors in
+which every $(k+1)$-subset sees all $k+1$ colors on the $k$-subsets it contains.
 Two $k$-subsets of a $(k+1)$-set share $k-1$ elements, so such a coloring is
 a proper coloring of the Johnson graph $J(2k,k)$ with $k+1$ colors, and
 conversely every proper $(k+1)$-coloring of $J(2k,k)$ has this property,
 since the $k+1$ subsets of size $k$ inside a $(k+1)$-set are pairwise
 adjacent. The question is therefore whether $\chi(J(2k,k))=k+1$ for some
-$k>2$; the clique bound gives $\chi(J(2k,k))\ge k+1$ for every $k$. The site
-attributes the question to Erdős and Rosenfeld, citing [Er74d], and records
-that they could not decide the case $k=6$. For $k=2$ the three perfect
-matchings of $K_4$ give such a coloring.
+$k>2$; the clique bound gives $\chi(J(2k,k))\ge k+1$ for every $k$.
+erdosproblems.com attributes the question to Erdős and Rosenfeld, citing
+[Er74d], and records that they could not decide the case $k=6$. For $k=2$ the
+three perfect matchings of $K_4$ give such a coloring.
 
-The site's label was verifiable: a positive answer for one $k$ is a finite
-object checked by a finite computation, while a negative answer would need an
-argument for every $k$. The problem is open, and the known partial results
-all exclude values of $k$:
+The erdosproblems.com label was verifiable: a positive answer for one $k$ is a
+finite object checked by a finite computation, while a negative answer would
+need an argument for every $k$. The problem is open, and the known partial
+results all exclude values of $k$:
 
 - For $3\le k\le 8$ the answer is no. The chromatic numbers of $J(2k,k)$
-  tabulated on Brouwer's Johnson-graph page, which the site's remark cites,
-  are $6$, $6$ and $8$ for $k=3,4,5$ and at least $8$, $10$ and $10$ for
+  tabulated on Brouwer's Johnson-graph page, which the erdosproblems.com remark
+  cites, are $6$, $6$ and $8$ for $k=3,4,5$ and at least $8$, $10$ and $10$ for
   $k=6,7,8$ (the table gives the ranges $8$--$9$, $10$--$14$ and $10$--$15$),
   each exceeding $k+1$. The table compiles computed values from several
   sources and is neither a dated manuscript nor one claimant's result, so it
@@ -99,9 +101,9 @@ all exclude values of $k$:
   $p\le (k+1)/2$ of $k+1$. This covers every odd $k>2$.
 - For $k=9$ the answer is no by a Lean proof that AlphaProof found, posted in
   two commits of a formal-conjectures pull request on 23 January 2026 and
-  reported in the site's thread on 26 January 2026, the partial claim on
-  [[problems/set_systems/E0835/claims/2026_01_23_deepmind|AlphaProof 2026]]. The
-  second commit adapts the proof to every odd $k\ge 11$, an adaptation the
+  reported in the erdosproblems.com thread on 26 January 2026, the partial claim
+  on [[problems/set_systems/E0835/claims/2026_01_23_deepmind|AlphaProof 2026]].
+  The second commit adapts the proof to every odd $k\ge 11$, an adaptation the
   comment describes as human work; both proofs were removed before the pull
   request was merged. Separately, the comment notes that Johnson's bound on the
   independence number of $J(2k,k)$, with the bound $\chi\ge|V|/\alpha$ on the
@@ -109,9 +111,9 @@ all exclude values of $k$:
   composite, so these instances were already excluded.
 
 The open cases are the $k$ not covered by the results above, that is, the $k>8$
-with $k+1$ prime. The site's discussion thread (nine comments, accessed
-2026-10-07) carries further reported exclusions and observations, none of them a
-dated manuscript: a comment of 31 December 2025 that derives the
+with $k+1$ prime. The erdosproblems.com discussion thread (nine comments,
+accessed 2026-10-07) carries further reported exclusions and observations, none
+of them a dated manuscript: a comment of 31 December 2025 that derives the
 constant-weight-code lower bound $\chi(J(2k,k))\ge\binom{2k}{k}/A(2k,4,k)$ from
 $\alpha(J(n,k))=A(n,4,k)$ and concludes from an online table of bounds on
 $A(n,4,w)$ that the answer is no for $3\le k\le14$, which takes in the cases
@@ -140,9 +142,9 @@ permutation of prime order $19$, $23$, $29$ or $31$. These are thread comments
 rather than manuscripts, and this page records none of them as a claim. No claim
 settles the problem in either direction.
 
-Search scope: the site's problem page, discussion thread and proof-claims
-listing (none), the community database (teorth/erdosproblems),
-the formal-conjectures statement file and the pull request behind it,
-Brouwer's table of Johnson-graph parameters, the Ma--Tang note at its posted
-address, and a web search for an arXiv or journal version of that note, which
-found none on 2026-10-07.
+Search scope: the erdosproblems.com problem page, discussion thread and
+proof-claims listing (none), the community database (teorth/erdosproblems), the
+formal-conjectures statement file and the pull request behind it, Brouwer's
+table of Johnson-graph parameters, the Ma--Tang note at its posted address, and
+a web search for an arXiv or journal version of that note, which found none on
+2026-10-07.

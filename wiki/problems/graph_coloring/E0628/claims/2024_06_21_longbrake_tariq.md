@@ -53,6 +53,6 @@ covered.
 **Acceptance.** Refereed: Discrete Math. 349 (2026), no. 3, Article 114770,
 doi:10.1016/j.disc.2025.114770. The paper is in the issue dated March 2026 and
 was registered online on 10 September 2025. The preprint is arXiv:2406.15164,
-first posted 21 June 2024, the date of this page. The site's curator does not
-credit the paper. A forum member linked it in the problem's discussion thread on
-25 October 2025 as progress not covered by Song's survey.
+first posted 21 June 2024, the date of this page. The erdosproblems.com curator
+does not credit the paper. A forum member linked it in the problem's discussion
+thread on 25 October 2025 as progress not covered by Song's survey.

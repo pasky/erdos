@@ -29,21 +29,21 @@ $$
 \lim_{k\to \infty}R(3;k)^{1/k}.
 $$
 
-**Status.** Solved: the limit is $+\infty$. The site labeled the problem SOLVED
-(LEAN), and its page was last edited 1 September 2026. Its commentary (accessed
-2026-10-07) credits the proof to an internal model at OpenAI, in the form
-$R(3;k)\ge k^{(1/3-o(1))k}$ for all $k\ge2$. The site also hosts Rob Morris's
-seven-page exposition of the construction under its proof expositions. The
-source is OpenAI's August 6, 2026 version of
+**Status.** Solved: the limit is $+\infty$. Bloom's catalog labeled the problem
+SOLVED (LEAN), and its page was last edited 1 September 2026. Its commentary
+(accessed 2026-10-07) credits the proof to an internal model at OpenAI, in the
+form $R(3;k)\ge k^{(1/3-o(1))k}$ for all $k\ge2$. erdosproblems.com also hosts
+Rob Morris's seven-page exposition of the construction under its proof
+expositions. The source is OpenAI's August 6, 2026 version of
 [[../library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/theorem_1_1|Chapter 9, Theorem 1.1]].
 The accompanying upstream Lean file is linked at a pinned revision. It was not
 built or independently audited in this repository. The claim page
 [[problems/ramsey_theory/E0183/claims/2026_08_01_openai|OpenAI 2026]] records
 the theorem and its postings as an accepted claim, and the frontmatter standing
-derives from that page. The acceptance evidence is the credit of the site's
-curator, T. F. Bloom, and Morris's signed exposition. The report is not
-refereed. This project's review of its own reconstruction (under Current
-assessment) is not counted as acceptance.
+derives from that page. The acceptance evidence is the credit of the
+erdosproblems.com curator, T. F. Bloom, and Morris's signed exposition. The
+report is not refereed. This project's review of its own reconstruction (under
+Current assessment) is not counted as acceptance.
 
 **Source.** [erdosproblems.com/183](https://www.erdosproblems.com/183), accessed
 2026-09-04 and 2026-10-07: the problem page and its discussion thread (six
@@ -66,49 +66,50 @@ Cite as: T. F. Bloom, Erdős Problem #183, https://www.erdosproblems.com/183.
   page.
 - [Wh73] Whitehead, Jr., Earl Glen, The Ramsey number $N(3,\,3,\,3,\,3;\,2)$.
   Discrete Math. 4 (1973), no. 4, 389--396, DOI 10.1016/0012-365X(73)90174-X
-  (Crossref record accessed 2026-10-07). The site's text prints no volume.
+  (Crossref record accessed 2026-10-07). The erdosproblems.com text prints no
+  volume.
 - [XXC02] Xu, Xiao Dong and Xie, Zheng and Chen, Zhi, Upper bounds for Ramsey
   numbers $R_n(3)$ and Schur numbers (in Chinese). Math. Econ. 19 (2002),
   no. 1, 81--84 (volume and issue from the bibliography of Radziszowski's
   *Small Ramsey numbers*, Electron. J. Combin. DS1.18, revision of 24 April
-  2026; no Crossref record). The site's text prints no volume.
+  2026; no Crossref record). The erdosproblems.com text prints no volume.
 - [Er61] Erdős, P., Some unsolved problems. Magyar Tud. Akad. Mat. Kutató Int.
-  Közl. 6 (1961), 221--254. A site key. Its item 20 of Part I (printed pp.
-  232--233) states Schur's theorem and the conjecture that the Schur numbers
-  $f(n)$ satisfy $f(n)<c^n$ and $f(n)^{1/n}\to C$, the question in its
-  Schur-number form (read literally, Erdős's $f(n)$ is $S(n)+2\le R(3;n)$, where
-  $S(n)$, the largest $N$ for which $\{1,\ldots,N\}$ has an $n$-coloring with no
-  monochromatic solution of $x+y=z$, is at most $R(3;n)-2$); the paper states
-  neither $R(3;k)$ nor a prize. The site's commentary records that Erdős offered
-  a prize for showing the limit finite, the opposite of the answer. Library
-  home:
+  Közl. 6 (1961), 221--254. An erdosproblems.com key. Its item 20 of Part I
+  (printed pp. 232--233) states Schur's theorem and the conjecture that the
+  Schur numbers $f(n)$ satisfy $f(n)<c^n$ and $f(n)^{1/n}\to C$, the question in
+  its Schur-number form (read literally, Erdős's $f(n)$ is $S(n)+2\le R(3;n)$,
+  where $S(n)$, the largest $N$ for which $\{1,\ldots,N\}$ has an $n$-coloring
+  with no monochromatic solution of $x+y=z$, is at most $R(3;n)-2$); the paper
+  states neither $R(3;k)$ nor a prize. The erdosproblems.com commentary records
+  that Erdős offered a prize for showing the limit finite, the opposite of the
+  answer. Library home:
   [[../library/number_theory/erdos_1961_unsolved_problems/_index|erdos_1961_unsolved_problems]].
 - [El20] Eliahou, S., An adaptive upper bound on the Ramsey numbers
-  $R(3,\ldots,3)$. Integers 20 (2020), Paper A54, 7 pp. A site key, cited
-  for more on the upper bound: its introduction surveys the upper bounds on
-  $R(3;k)$, and its Corollary 2 (p. 4) is the proof of the
+  $R(3,\ldots,3)$. Integers 20 (2020), Paper A54, 7 pp. An erdosproblems.com
+  key, cited for more on the upper bound: its introduction surveys the upper
+  bounds on $R(3;k)$, and its Corollary 2 (p. 4) is the proof of the
   $k!(e-1/6)+1$ bound of [XXC02] from $R(3;4)\le62$. Library home:
   [[../library/ramsey_theory/eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3/_index|eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3]]
   and its
   [[../library/ramsey_theory/eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3/corollary_2|corollary_2]]
   page.
 - [He77] Heinrich, K., Proper colourings of $K_{15}$. J. Austral. Math. Soc.
-  24 (Series A) (1977), 465--495, DOI 10.1017/S1446788700020838. Not a site
-  reference; the classification of the good $3$-colorings of $K_{15}$ that
-  the computational proof of the finite bound $R_4(3)\le62$ consumes (see
-  Known Results). Theorem 2, printed p. 485; the proofs read for structure
-  only. Library home:
+  24 (Series A) (1977), 465--495, DOI 10.1017/S1446788700020838. Not an
+  erdosproblems.com reference; the classification of the good $3$-colorings of
+  $K_{15}$ that the computational proof of the finite bound $R_4(3)\le62$
+  consumes (see Known Results). Theorem 2, printed p. 485; the proofs read for
+  structure only. Library home:
   [[../library/ramsey_theory/heinrich_1977_proper_colourings_k_15/_index|heinrich_1977_proper_colourings_k_15]]
   and its
   [[../library/ramsey_theory/heinrich_1977_proper_colourings_k_15/theorem_2|theorem_2]]
   page.
 - [KaSt68] Kalbfleisch, J. G. and Stanton, R. G., On the maximal
   triangle-free edge-chromatic graphs in three colors. J. Combinatorial
-  Theory 5 (1968), 9--20, DOI 10.1016/S0021-9800(68)80024-9. Not a site
-  reference; the classification of the good $3$-colorings of $K_{16}$, the
-  two seeds of every stage of the computational proof of $R_4(3)\le62$ and
-  the classification [He77] assumes (see Known Results). The Theorem,
-  printed p. 19, with the incidence matrices of Tables 2(a) and 2(b),
+  Theory 5 (1968), 9--20, DOI 10.1016/S0021-9800(68)80024-9. Not an
+  erdosproblems.com reference; the classification of the good $3$-colorings of
+  $K_{16}$, the two seeds of every stage of the computational proof of
+  $R_4(3)\le62$ and the classification [He77] assumes (see Known Results). The
+  Theorem, printed p. 19, with the incidence matrices of Tables 2(a) and 2(b),
   p. 16; the proofs read for structure only.
   Library home:
   [[../library/ramsey_theory/kalbfleisch_stanton_1968_maximal_triangle_free_edge_chromatic_graphs_three_colors/_index|kalbfleisch_stanton_1968_maximal_triangle_free_edge_chromatic_graphs_three_colors]]
@@ -118,8 +119,8 @@ Cite as: T. F. Bloom, Erdős Problem #183, https://www.erdosproblems.com/183.
 - [LaMa88] Laywine, C. and Mayberry, J. P., A simple construction giving
   the two non-isomorphic triangle-free 3-colored $K_{16}$'s. J. Combin.
   Theory Ser. B 45 (1988), 120--124, DOI 10.1016/0095-8956(88)90062-7. Not
-  a site reference; the construction of both good $3$-colorings of $K_{16}$
-  from four tricolored tetrahedra that the computational proof of
+  an erdosproblems.com reference; the construction of both good $3$-colorings of
+  $K_{16}$ from four tricolored tetrahedra that the computational proof of
   $R_4(3)\le62$ cites in place of an edge table for its two seeds (see
   Known Results). The Lemma, printed p. 122, and the Theorem with the
   identification of the two classes, printed p. 123; the two proofs, a

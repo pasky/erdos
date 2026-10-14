@@ -34,14 +34,15 @@ of size at least $t$, and for every nonempty set $X$ there are
 $<c_t\lvert X\rvert$ many $A\in \mathcal{F}$ with $A\subseteq X$, then
 $\mathcal{F}$ has chromatic number $2$ (in other words, has property B)?
 
-**Notes.** The site's wording quantifies over every set $X$, the empty set
-included; at $X=\varnothing$ its hypothesis reads $0<0$, which never holds, so
-no family meets it and the question as printed is answered yes for every choice
-of $c_t$, for want of an instance. The defect is Erdős's: [Er71] Problem 17
-(p. 105) takes the count "for every $S_1\subset S$", and the site's curator,
-Thomas Bloom, quoted that sentence in the problem's thread on 4 December 2025
-and called the site's statement an accurate rephrasing of it. Bloom reads the
-question with $X$ nonempty. The site's commentary (page last edited 25 January
+**Notes.** The erdosproblems.com wording quantifies over every set $X$, the
+empty set included; at $X=\varnothing$ its hypothesis reads $0<0$, which never
+holds, so no family meets it and the question as printed is answered yes for
+every choice of $c_t$, for want of an instance. The defect is Erdős's: [Er71]
+Problem 17 (p. 105) takes the count "for every $S_1\subset S$", and the
+erdosproblems.com curator, Thomas Bloom, quoted that sentence in the problem's
+thread on 4 December 2025 and called the erdosproblems.com statement an accurate
+rephrasing of it. Bloom reads the question with $X$ nonempty. The
+erdosproblems.com commentary (page last edited 25 January
 2026) calls the statement false and names Wood's construction [Wo13b] and
 KoishiChan's as counterexamples, which refute it only once $X$ is nonempty; the
 Lean statement that Boris Alexeev posted in the thread on 22 January 2026, whose
@@ -54,18 +55,18 @@ statement requires $X$ nonempty as well. Under the printed wording the answer
 is yes, vacuously; under Bloom's reading it is no: Wood's theorem gives
 $c_t<2$ and KoishiChan's construction $c_t\le2$ for every $t$, and Lovász's
 theorem with [KN99] gives the exact value $1$ (Known Results). No result about
-the printed wording exists beyond the vacuity check recorded here. The site's
-label PROVED (LEAN) has the polarity of a positive answer; it contradicts the
-site's own commentary and the Lean proof of the negation, and the page follows
-the commentary (Status).
+the printed wording exists beyond the vacuity check recorded here. The
+erdosproblems.com label PROVED (LEAN) has the polarity of a positive answer; it
+contradicts erdosproblems.com's own commentary and the Lean proof of the
+negation, and the page follows the commentary (Status).
 
 **Status.** Labeled PROVED (LEAN) on erdosproblems.com (page last edited 25
-January 2026). This record departs from the site's label: the modified
-Statement is disproved. The site's own commentary says the statement is false.
-It names Wood's construction [Wo13b] as the counterexample, with $c_t<2$ for
-every $t$, and credits KoishiChan with an independent counterexample in the
-comments. The label's Lean mark refers to the Lean proof listed under
-Formalization, which proves the negation of the modified Statement.
+January 2026). This record departs from the erdosproblems.com label: the
+modified Statement is disproved. erdosproblems.com's own commentary says the
+statement is false. It names Wood's construction [Wo13b] as the counterexample,
+with $c_t<2$ for every $t$, and credits KoishiChan with an independent
+counterexample in the comments. The label's Lean mark refers to the Lean proof
+listed under Formalization, which proves the negation of the modified Statement.
 
 **Source.** [erdosproblems.com/1022](https://www.erdosproblems.com/1022),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1022,
@@ -77,8 +78,8 @@ https://www.erdosproblems.com/1022.
   *Combinatorial Mathematics and its Applications* (1971), 97–109; Problem 17,
   p. 105.
 - [Lo68] L. Lovász, *On covering of graphs*, in *Theory of Graphs* (Proc.
-  Colloq., Tihany, 1966), 231–236 (1968). The site says this paper does not
-  contain the result attributed to Lovász.
+  Colloq., Tihany, 1966), 231–236 (1968). erdosproblems.com says this paper does
+  not contain the result attributed to Lovász.
 - [Lo68b] [[../library/set_systems/lovasz_1968_graphs_set_systems/_index|L. Lovász, Graphs and set systems]],
   in *Beiträge zur Graphentheorie*, B. G. Teubner, Leipzig (1968), 99–106.
 - [Lo73] [[../library/set_systems/lovasz_1973_coverings_colorings_hypergraphs/_index|L. Lovász, Coverings and colorings of hypergraphs]],
@@ -106,48 +107,48 @@ https://www.erdosproblems.com/1022.
 
 ## Current assessment
 
-The site labeled the problem PROVED (LEAN). That label has the wrong polarity:
-the same page says the assertion is false, Wood's theorem gives
+Bloom's catalog labeled the problem PROVED (LEAN). That label has the wrong
+polarity: the same page says the assertion is false, Wood's theorem gives
 counterexamples, and the linked Lean development proves the negation of the
 existential statement with $X$ nonempty, the modified Statement.
 
 Two accepted claim pages settle the problem in the negative, each by a
 different hypergraph:
 [[problems/set_systems/E1022/claims/2025_12_04_koishichan|KoishiChan 2025]],
-the direct two-level construction posted in the site's thread, reviewed there
-by Terence Tao, with the bound corrected to $c_t\le2$ by ChatGPT Pro, which Tao
-ran on the argument, and credited by the site's curator; and
-[[problems/set_systems/E1022/claims/2013_10_10_wood|Wood 2013]], the
-earlier $2$-degenerate construction that the curator's commentary
-names as the counterexample, which gives $c_t<2$. Neither is refereed, and the
-corpus has not built the third-party Lean proof of KoishiChan's construction. The
-sharper obstruction $c_t\le1$ from [KN99], recorded under Known Results, is the
-corpus's reading of a paper Wood cites as a strengthening, not a claim anyone
-made about the problem, so it has no claim page.
+the direct two-level construction posted in the erdosproblems.com thread,
+reviewed there by Terence Tao, with the bound corrected to $c_t\le2$ by ChatGPT
+Pro, which Tao ran on the argument, and credited by the erdosproblems.com
+curator; and [[problems/set_systems/E1022/claims/2013_10_10_wood|Wood 2013]],
+the earlier $2$-degenerate construction that the curator's commentary names as
+the counterexample, which gives $c_t<2$. Neither is refereed, and the corpus has
+not built the third-party Lean proof of KoishiChan's construction. The sharper
+obstruction $c_t\le1$ from [KN99], recorded under Known Results, is the corpus's
+reading of a paper Wood cites as a strengthening, not a claim anyone made about
+the problem, so it has no claim page.
 
 The page links the complete Lovász and [KN99] proofs, Wood's full inductive
 construction, and KoishiChan's rewritten direct counterexample. It records the
 public acceptance of KoishiChan's argument; the local checks of Lovász's proof
 and of the other routes are author-recorded, and no independent review report
-of them is retained in this repository. The site's page and its forum thread
-list no other claim.
+of them is retained in this repository. The erdosproblems.com page and its forum
+thread list no other claim.
 
 ## Progress
 
-The original formulation on p. 105 of [Er71] requires $|A|>t$, while the site
-uses size at least $t$. This indexing difference does not affect the negative
-answer: use Wood's $(t+1)$-uniform example for the original wording and Wood's
-$t$-uniform example for the site's wording.
+The original formulation on p. 105 of [Er71] requires $|A|>t$, while
+erdosproblems.com uses size at least $t$. This indexing difference does not
+affect the negative answer: use Wood's $(t+1)$-uniform example for the original
+wording and Wood's $t$-uniform example for the erdosproblems.com wording.
 
 On p. 105 of [Er71], Erdős reports that Lovász proved the $t=2$, $c=1$
 case, and says that the Fano plane shows the constant is best possible. No
-reference is attached to that sentence in the paper. The site's commentary
-says [Lo68] does not contain this result. The full proof, recorded on its
-library result page, appears instead as Theorem 5 of [Lo68b], a different 1968
-paper. Theorem 3 of [Lo73]
-restates the result in its union-of-edges form and explicitly cites [Lo68b] as
-reference [2]. This supplies published provenance for Lovász's theorem without
-identifying the site's [Lo68] as its source.
+reference is attached to that sentence in the paper. The erdosproblems.com
+commentary says [Lo68] does not contain this result. The full proof, recorded on
+its library result page, appears instead as Theorem 5 of [Lo68b], a different
+1968 paper. Theorem 3 of [Lo73] restates the result in its union-of-edges form
+and explicitly cites [Lo68b] as reference [2]. This supplies published
+provenance for Lovász's theorem without identifying erdosproblems.com's [Lo68]
+as its source.
 
 In December 2025, KoishiChan posted a direct two-level construction with a
 two-to-one assignment of edges to vertices. Terence Tao judged the argument

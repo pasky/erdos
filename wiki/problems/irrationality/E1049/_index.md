@@ -27,8 +27,9 @@ $$
 
 irrational, where $\tau(n)$ counts the divisors of $n$?
 
-**Status.** Open, the site's label (OPEN). The site credits the integer case to
-Erdős [Er48]. The claim pages are cited in the Current assessment.
+**Status.** Open, the erdosproblems.com label (OPEN). erdosproblems.com credits
+the integer case to Erdős [Er48]. The claim pages are cited in the Current
+assessment.
 
 **Source.** [erdosproblems.com/1049](https://www.erdosproblems.com/1049),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1049,
@@ -44,8 +45,8 @@ https://www.erdosproblems.com/1049.
 
 ## Current assessment
 
-The site labeled Problem 1049 OPEN and credits Erdős with the integer case. Two
-accepted partial claims, both refereed, settle part of the question:
+Bloom's catalog labeled Problem 1049 OPEN and credits Erdős with the integer
+case. Two accepted partial claims, both refereed, settle part of the question:
 [[problems/irrationality/E1049/claims/1948_01_01_erdos|Erdős 1948]] proves
 irrationality for every integer $t\ge2$, and
 [[problems/irrationality/E1049/claims/1994_01_01_bundschuh_vaananen|Bundschuh

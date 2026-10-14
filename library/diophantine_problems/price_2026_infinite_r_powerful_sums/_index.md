@@ -24,13 +24,13 @@ one, by splitting the odd part of the binomial expansion of (X+Y)^r.
 *Infinite $r$-Powerful Sums*, a public manuscript whose author line reads
 **GPT-5.5 Pro**, shared by **Liam Price** in a
 [comment on the erdosproblems.com thread for Problem 939](https://www.erdosproblems.com/forum/thread/939#post-6640),
-posted at 23:17 on 24 May 2026 as displayed by the site. Price's comment
-states the argument, attributes it to GPT-5.5 Pro, links the write-up, and
-links a Lean playground file that the comment says Aristotle
-autoformalized from the argument. The comment carries the site's note "(The
-site has been updated to address this comment.)", and the problem page (last
-edited 28 May 2026) now records the construction. The manuscript has no date
-or version number.
+posted at 23:17 on 24 May 2026 as displayed by erdosproblems.com. Price's
+comment states the argument, attributes it to GPT-5.5 Pro, links the write-up,
+and links a Lean playground file that the comment says Aristotle autoformalized
+from the argument. The comment carries the erdosproblems.com note "(The site has
+been updated to address this comment.)", and the problem page (last edited 28
+May 2026) now records the construction. The manuscript has no date or version
+number.
 
 **Canonical snapshot.** The
 [public Overleaf manuscript](https://www.overleaf.com/read/vjtdssgrgdkk#12a637)
@@ -67,8 +67,9 @@ equals lines 1–676 of the Lean file that Conjectures.io later kernel-checked
 inside its accepted submission (the
 [[diophantine_problems/conjectures_io_2026_erdos_939_lean_r_powerful_sums/_index|Conjectures.io
 card]] records that run and its limits). **No local Lean build or code review
-has been performed here**; the kernel check is the site's, under one kernel, and
-its certified theorem name is the site's target, not these two theorems.
+has been performed here**; the kernel check is Conjectures.io's, under one
+kernel, and its certified theorem name is Conjectures.io's target, not these two
+theorems.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0939/_index|Problem 939]]: the
 [[diophantine_problems/price_2026_infinite_r_powerful_sums/theorem|theorem]]

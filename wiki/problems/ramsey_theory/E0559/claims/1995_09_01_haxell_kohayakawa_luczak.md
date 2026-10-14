@@ -56,8 +56,8 @@ Not covered: other graphs. Explicit constants came later, on the page
 record); the day in the page name is a placeholder.
 
 **Acceptance.** Refereed: The induced size-Ramsey number of cycles, Combin.
-Probab. Comput. 4 (1995), no. 3, 217--239. The site's curator, T. F. Bloom,
-credits the cycle case to this paper in the problem's commentary. But the
+Probab. Comput. 4 (1995), no. 3, 217--239. The erdosproblems.com curator, T. F.
+Bloom, credits the cycle case to this paper in the problem's commentary. But the
 DISPROVED label settles the problem in the negative and credits no positive
 sub-claim, so the credit is not `reviewed` evidence.
 

@@ -30,8 +30,8 @@ $[1,y]$ is congruent to at least one of the $a_p\pmod{p}$.
 Give good estimates for $Y(x)$. In particular, can one prove that $Y(x)=o(x^2)$
 or even $Y(x)\ll x^{1+o(1)}$?
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 31
-August 2026). $Y(x)$ is Definition 1 of [FGKMT18], word for word the same
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited
+31 August 2026). $Y(x)$ is Definition 1 of [FGKMT18], word for word the same
 covering condition with $[y]=\{1,\ldots,\lfloor y\rfloor\}$,
 and display (1.3) there identifies it with Jacobsthal's function,
 $Y(x)=j(P(x))-1$, where $P(x)$ is the product of the primes up to $x$ and
@@ -42,15 +42,15 @@ primes $2\le p\le B(n)$ cover every positive integer $x\le n$, and [Er80]
 p. 106 defines $f(x)$ as the smallest integer with residues $a_p$, $p<f(x)$,
 covering every $n<x$. $B(n)$ is the least $x$ with $Y(x)\ge n$ (an
 elementary remark made here), so Erdős's "must $f(x)$ be significantly
-larger than $x^{1/2}$?" is the site's $Y(x)=o(x^2)$ and his "It is likely
-that $B(n)>n^{1-\varepsilon}$" is the site's $Y(x)\ll x^{1+o(1)}$. The same
-inverse function is the $S(k)$ of
+larger than $x^{1/2}$?" is erdosproblems.com's $Y(x)=o(x^2)$ and his "It is
+likely that $B(n)>n^{1-\varepsilon}$" is erdosproblems.com's
+$Y(x)\ll x^{1+o(1)}$. The same inverse function is the $S(k)$ of
 [[problems/integer_sequences/E0929/_index|Problem 929]], whose displayed question
-is therefore the second question here (an observation made here; the site
-does not cross-reference the two pages). Three questions: the estimate, to
-which the label OPEN attaches and which stays open; the first displayed
-question, $Y(x)=o(x^2)$, answered yes by the accepted partial claim recorded
-under Status; and the second, $Y(x)\ll x^{1+o(1)}$, open.
+is therefore the second question here (an observation made here;
+erdosproblems.com does not cross-reference the two pages). Three questions: the
+estimate, to which the label OPEN attaches and which stays open; the first
+displayed question, $Y(x)=o(x^2)$, answered yes by the accepted partial claim
+recorded under Status; and the second, $Y(x)\ll x^{1+o(1)}$, open.
 
 **Status.** Open. The label attaches to the estimate, which stays open, as
 does the second displayed question, $Y(x)\ll x^{1+o(1)}$: the exponent $2$ is
@@ -95,22 +95,22 @@ $Y(x)\gg x\log x/\log_3x$, larger by a factor $\log_2x/(\log_3x)^2$: the
 covering theorem (1.2) of the AI-written manuscript posted by the forum user
 DottedCalculator, accepted, not refereed, on
 [[problems/primes/E0004/claims/2026_08_26_dottedcalculator|its claim page on Problem 4]]
-on the site curator's credit. Since 31 August 2026 the site's commentary here
-has credited it to GPT 5.6 Pro (the name the site gives). The conjectured
-truth is $Y(x)\ll x(\log x)^{2+o(1)}$ (Maier and Pomerance, as attested by
-[FGKMT18]). Erdős expected $B(n)>n^{1-\varepsilon}$. Erdős's offer in [Er80]
-p. 106 is a prize "for clearing up of this problem", and the site lists a
-prize.
+on the erdosproblems.com curator's credit. Since 31 August 2026 the
+erdosproblems.com commentary here has credited it to GPT 5.6 Pro (the name
+erdosproblems.com gives). The conjectured truth is $Y(x)\ll x(\log x)^{2+o(1)}$
+(Maier and Pomerance, as attested by [FGKMT18]). Erdős expected
+$B(n)>n^{1-\varepsilon}$. Erdős's offer in [Er80] p. 106 is a prize "for
+clearing up of this problem", and erdosproblems.com lists a prize.
 
 **Source.** [erdosproblems.com/687](https://www.erdosproblems.com/687), accessed
-2026-09-18: the problem page (OPEN, with the site's note that no finite
-computation can settle it; a prize; last edited 31 August 2026; source keys
-[Er79d, p. 79], [Er80, p. 106], [Er96b]; commentary citing [FGKMT18], [Iw78] and
-Problems 4, 688, 689 and 970; an acknowledgments line naming four contributors;
-the formalized-statement indicator unset and OEIS A048670, A058989), its
-one-comment discussion thread (4 December 2025) and its empty proof-claim tab.
-Cite as: T. F. Bloom, Erdős Problem #687, https://www.erdosproblems.com/687,
-accessed 2026-09-18.
+2026-09-18: the problem page (OPEN, with the erdosproblems.com note that no
+finite computation can settle it; a prize; last edited 31 August 2026; source
+keys [Er79d, p. 79], [Er80, p. 106], [Er96b]; commentary citing [FGKMT18],
+[Iw78] and Problems 4, 688, 689 and 970; an acknowledgments line naming four
+contributors; the formalized-statement indicator unset and OEIS A048670,
+A058989), its one-comment discussion thread (4 December 2025) and its empty
+proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #687,
+https://www.erdosproblems.com/687, accessed 2026-09-18.
 
 **References.**
 
@@ -165,31 +165,31 @@ accessed 2026-09-18.
 **Formalization.** None in formal-conjectures: no file `ErdosProblems/687.lean`
 exists in google-deepmind/formal-conjectures (main on 2026-09-18; none of the
 673 entries of the directory `FormalConjectures/ErdosProblems/`, or of the 1,740
-entries of the recursive tree, is for this problem), and the site's indicator
-shows no formalized statement. The community database (teorth/erdosproblems,
-read 2026-09-18) records the problem open (31 August 2025), the statement not
-formalized, `formal_status` unformalized, no formal-proof URL, the prize field
-set and the OEIS entries A048670 and A058989.
+entries of the recursive tree, is for this problem), and the erdosproblems.com
+indicator shows no formalized statement. The community database
+(teorth/erdosproblems, read 2026-09-18) records the problem open (31 August
+2025), the statement not formalized, `formal_status` unformalized, no
+formal-proof URL, the prize field set and the OEIS entries A048670 and A058989.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; OPEN,
-with the site's note that no finite computation can settle it; a prize; last
-edited 31 August 2026. The commentary, in summary: the function is Jacobsthal's
-and is tied to the problem of large gaps between primes (the site's Problem 4);
-the best upper bound is Iwaniec's $Y(x)\ll x^2$ [Iw78]; the best lower bound,
-$Y(x)\gg x\log x/\log\log\log x$, is credited to GPT 5.6 Pro, with a pointer to
-Problem 4, as an improvement on [FGKMT18]; Maier and Pomerance conjectured
-$Y(x)\ll x(\log x)^{2+o(1)}$; the [Er80] offer is quoted (under Status above);
-Erdős's weaker variant from [Er80], in which all but $o(y/\log y)$ of the
-integers in $[1,y]$ need be covered, is mentioned with his question whether its
-answer differs much; and Problems 688, 689 and 970 are cross-referenced, the
-last as the general Jacobsthal function. The thread: one comment of 4 December
-2025 (the account BorisAlexeev) quoting the [Er80] p. 106 passage in full,
-identifying it as the same problem and highlighting the prize, after which the
-site notes that it was updated. The proof-claim tab is empty; the claim and the
-exposition behind the AI-generated bound sit on the site's Problem 4 page
-(below).
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it; a prize; last edited 31 August 2026. The commentary, in summary: the
+function is Jacobsthal's and is tied to the problem of large gaps between primes
+(erdosproblems.com's Problem 4); the best upper bound is Iwaniec's $Y(x)\ll x^2$
+[Iw78]; the best lower bound, $Y(x)\gg x\log x/\log\log\log x$, is credited to
+GPT 5.6 Pro, with a pointer to Problem 4, as an improvement on [FGKMT18]; Maier
+and Pomerance conjectured $Y(x)\ll x(\log x)^{2+o(1)}$; the [Er80] offer is
+quoted (under Status above); Erdős's weaker variant from [Er80], in which all
+but $o(y/\log y)$ of the integers in $[1,y]$ need be covered, is mentioned with
+his question whether its answer differs much; and Problems 688, 689 and 970 are
+cross-referenced, the last as the general Jacobsthal function. The thread: one
+comment of 4 December 2025 (the account BorisAlexeev) quoting the [Er80] p. 106
+passage in full, identifying it as the same problem and highlighting the prize,
+after which erdosproblems.com notes that it was updated. The proof-claim tab is
+empty; the claim and the exposition behind the AI-generated bound sit on
+erdosproblems.com's Problem 4 page (below).
 
 **The origins.** [Er79d] p. 79, the closing paragraph of Section 3
 ([[../library/arithmetic_functions/erdos_1979_unconventional_problems_number_theory/section_3|result page]]):
@@ -212,9 +212,9 @@ escape the congruences and asks whether $F(x)$ is significantly smaller than
 $f(x)$; remarks that the problems extend to more than one omitted residue, and
 that it is unclear who first formulated them, probably many independently; makes
 the offer quoted under Status; and closes that many important problems could be
-attacked with a little more knowledge here. The site's weaker variant is this
-$F(x)$. In the site's notation $B$ and $f$ are the inverse of $Y$: "$f(x)$
-significantly larger than $x^{1/2}$" is $Y(x)=o(x^2)$, and
+attacked with a little more knowledge here. erdosproblems.com's weaker variant
+is this $F(x)$. In the erdosproblems.com notation $B$ and $f$ are the inverse of
+$Y$: "$f(x)$ significantly larger than $x^{1/2}$" is $Y(x)=o(x^2)$, and
 $B(n)>n^{1-\varepsilon}$ for all large $n$ is $Y(x)\ll x^{1+\varepsilon'}$ (both
 directions elementary; a remark made here).
 
@@ -260,18 +260,18 @@ $x\log x/\log_2x$ (p. 4). Through
 [[../library/integer_sequences/ford_2018_long_gaps_between_primes/lemma_1_1|Lemma 1.1]],
 $G(P(x)+Y(x)+x)\ge Y(x)$, it gives
 [[../library/integer_sequences/ford_2018_long_gaps_between_primes/theorem_1|Theorem 1]],
-$G(X)\gg\log X\log_2X\log_4X/\log_3X$, the paper's prime-gap theorem (the
-site's Problem 4); display (1.3), $Y(x)=j(P(x))-1$, is the identity with
-Jacobsthal's function. Acceptance: J. Amer. Math. Soc. 31 (2018), refereed.
-Read depth: the statements of Definition 1, Lemma 1.1 (with its half-page
-proof), (1.2), (1.3), Theorem 1 and Corollary 1 on pp. 2--4 are checked;
-the proof of (1.2), Sections 3--8, is not checked here.
+$G(X)\gg\log X\log_2X\log_4X/\log_3X$, the paper's prime-gap theorem
+(erdosproblems.com's Problem 4); display (1.3), $Y(x)=j(P(x))-1$, is the
+identity with Jacobsthal's function. Acceptance: J. Amer. Math. Soc. 31 (2018),
+refereed. Read depth: the statements of Definition 1, Lemma 1.1 (with its
+half-page proof), (1.2), (1.3), Theorem 1 and Corollary 1 on pp. 2--4 are
+checked; the proof of (1.2), Sections 3--8, is not checked here.
 
 **The AI-generated improvement (accepted on Problem 4; provenance
 recorded).** Since 31 August 2026 the commentary credits the best
 lower bound, $Y(x)\gg x\log x/\log_3x$, to GPT 5.6 Pro and points to Problem 4.
-The site's Problem 4 page, accessed 2026-09-05, carries the records: its
-commentary says that the [FGKMT18] gap bound was improved to
+erdosproblems.com's Problem 4 page, accessed 2026-09-05, carries the records:
+its commentary says that the [FGKMT18] gap bound was improved to
 $\gg\log n\log_2n/\log_4n$ by GPT 5.6 Pro, prompted by the account
 DottedCalculator, by combining new sieving ideas with those of [FGKMT18], and
 points to the proof claims and the exposition; its proof-claim tab holds a
@@ -292,27 +292,28 @@ $Y(X)\gg X\log X/\log_3X$ and $G(T)\gg\log T\log_2T/\log_4T$, declaring as its
 only outside inputs classical prime-distribution theorems and two stated results
 of Ford, Green, Konyagin, Maynard and Tao; the argument is not checked here).
 The tab records 31 comments on the claim. The same page carries a proof
-exposition by the site's maintainer (last edited 31 August 2026), which Bloom
-presents as a heuristic sketch that leaves out the routine calculations and
-concentration estimates and warns that some of the omitted technicalities are
-substantial; it has two ideas: for the primes in $(w,X/2]$, $w=L_1^{100}$, take
-$a_p=0$ with probability $1-\beta_p(p-1)$ and any other class with probability
-$\beta_p$, with $\beta_p/(1-\beta_p)=f(p)/(p-1)$ for a multiplicative weight
-$f(p)=p^{-t/L_1}$, so that a squarefree composite survivor $n$ survives with
-probability $Af(n)\approx Ae^{-t}$ while a prime survives with probability
-$A\ll tL_2/L_1$; and for the primes in $(X/2,X]$ choose the class $b\bmod p$
-with a probability weighted toward the classes containing at least $k_{p,b}$
-survivors, which, conditioned on a given survivor, gains a factor $q^{-1}$ over
-the unconditional probability. The exposition reaches $Y(X)\gg XL_1/(L_2L_3)$
-and says the further factor $L_2$ comes from combining the ideas with [FGKMT18];
-it remarks that the ideas are elementary and could have been found decades ago.
-Acceptance evidence: the site's commentary edit of 31 August 2026 and the
-maintainer's exposition; no refereed publication, arXiv version or independent
-review of the argument was found on 2026-09-18, and the label stayed OPEN
-because the bound is an estimate, not a resolution. Provenance: the site names
-the model on this page and on Problem 4; the manuscript's author line is the
-model's name; the human contributor is the account named above. The corpus
-accepts the covering theorem on
+exposition by the erdosproblems.com maintainer (last edited 31 August 2026),
+which Bloom presents as a heuristic sketch that leaves out the routine
+calculations and concentration estimates and warns that some of the omitted
+technicalities are substantial; it has two ideas: for the primes in $(w,X/2]$,
+$w=L_1^{100}$, take $a_p=0$ with probability $1-\beta_p(p-1)$ and any other
+class with probability $\beta_p$, with $\beta_p/(1-\beta_p)=f(p)/(p-1)$ for a
+multiplicative weight $f(p)=p^{-t/L_1}$, so that a squarefree composite survivor
+$n$ survives with probability $Af(n)\approx Ae^{-t}$ while a prime survives with
+probability $A\ll tL_2/L_1$; and for the primes in $(X/2,X]$ choose the class
+$b\bmod p$ with a probability weighted toward the classes containing at least
+$k_{p,b}$ survivors, which, conditioned on a given survivor, gains a factor
+$q^{-1}$ over the unconditional probability. The exposition reaches
+$Y(X)\gg XL_1/(L_2L_3)$ and says the further factor $L_2$ comes from combining
+the ideas with [FGKMT18]; it remarks that the ideas are elementary and could
+have been found decades ago. Acceptance evidence: the erdosproblems.com
+commentary edit of 31 August 2026 and the maintainer's exposition; no refereed
+publication, arXiv version or independent review of the argument was found on
+2026-09-18, and the label stayed OPEN because the bound is an estimate, not a
+resolution. Provenance: erdosproblems.com names the model on this page and on
+Problem 4; the manuscript's author line is the model's name; the human
+contributor is the account named above. The corpus accepts the covering theorem
+on
 [[problems/primes/E0004/claims/2026_08_26_dottedcalculator|Problem 4's claim page]],
 whose `reviewed` evidence is the curator's credit, so this page records it as
 the best lower bound, accepted but not refereed, and keeps [FGKMT18]'s (1.2)
@@ -340,8 +341,8 @@ $x(\log x)^{2+o(1)}$ (Maier--Pomerance) and Erdős expected
 $Y(x)\ll x^{1+o(1)}$. The second displayed question lives in the gap between
 $x\log x$ times iterated logarithms and $x^2/(\log x)^2$; no refereed or
 reviewed source lowers the exponent $2$. The
-OEIS entries the site links (read 2026-09-18): A048670, the Jacobsthal function
-at the product of the first $n$ primes, that is $Y(p_n)+1$, with values
+OEIS entries erdosproblems.com links (read 2026-09-18): A048670, the Jacobsthal
+function at the product of the first $n$ primes, that is $Y(p_n)+1$, with values
 $2,4,6,10,14,22,26,34,\ldots$ tabulated for $n\le64$ and comments recording
 Pintz's constant $2e^\gamma+o(1)$ for the Rankin form, the [FGKMT18] bound and
 Iwaniec's $a(n)\ll n^2(\log n)^2$; and A058989, the largest number of
@@ -350,10 +351,10 @@ is $Y(p_n)=$ A048670$(n)-1$.
 
 **Search scope.** Apart from the release behind the accepted partial claim
 above, which the routes below do not cover, none of them found an upper bound
-below $x^2$, a refereed account of the site-accepted improvement, or a proof
-claim on this page.
+below $x^2$, a refereed account of the erdosproblems.com-accepted improvement,
+or a proof claim on this page.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree, read 2026-09-18 (no file); the
   community database (2026-09-18); the Problem 4 page, discussion and
   proof-claim tab, accessed 2026-09-05.
@@ -388,18 +389,18 @@ comments on the Problem 4 claim.
 page; the proof of the Theorem is checked only at the level of its displays, and
 its Lemma 2 is quoted by the paper from the author's 1971 paper, which is not
 held. (2) The best lower bound, $x\log x/\log_3x$, is accepted on Problem 4 on
-the site curator's credit; it has no refereed version, and its manuscript is
-not checked here. (3) [Er96b] is not held; its
-passage is unknown here. (4) The Maier--Pomerance conjecture is recorded only as
-attested by [FGKMT18]. (5) Proofs are compiled at statement level; the proof of
-(1.2) is not checked here. (6) The accepted answer to the first displayed
-question rests on the release's Lean declaration `erdos_970_quadratic`, built
-and audited for Problem 970, and on an authored step from $h$ to $Y$
-([FGKMT18]'s (1.3), $\omega(P(x))=\pi(x)$ and Chebyshev's bound) that Plasma AI
-reviewed and that is not formalized; its constant is not explicit. The
-manuscript's constant-1 form $Y(z)<z^2/(\log z)^2$ (its Theorem 1.2, whose
-survivor form in the release's tree is an interior declaration, not audited) and
-the sharper declaration `erdos_970_iterated_log`, which would give
+the erdosproblems.com curator's credit; it has no refereed version, and its
+manuscript is not checked here. (3) [Er96b] is not held; its passage is unknown
+here. (4) The Maier--Pomerance conjecture is recorded only as attested by
+[FGKMT18]. (5) Proofs are compiled at statement level; the proof of (1.2) is not
+checked here. (6) The accepted answer to the first displayed question rests on
+the release's Lean declaration `erdos_970_quadratic`, built and audited for
+Problem 970, and on an authored step from $h$ to $Y$ ([FGKMT18]'s (1.3),
+$\omega(P(x))=\pi(x)$ and Chebyshev's bound) that Plasma AI reviewed and that is
+not formalized; its constant is not explicit. The manuscript's constant-1 form
+$Y(z)<z^2/(\log z)^2$ (its Theorem 1.2, whose survivor form in the release's
+tree is an interior declaration, not audited) and the sharper declaration
+`erdos_970_iterated_log`, which would give
 $Y(x)\ll x^2/((\log x)^2(\log\log x)^2)$, are not accepted here; a refereed
 version, an independent review of the manuscript, or an audited formal statement
 would be needed for either.

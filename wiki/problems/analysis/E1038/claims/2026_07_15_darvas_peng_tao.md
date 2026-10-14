@@ -32,11 +32,11 @@ updated: 2026-10-08T02:31:50Z
 
 Tamás Darvas, Binghui Peng and Runzhou Tao, *A solution to a problem of
 Erdős–Herzog–Piranian*, a manuscript posted on the Open Science Framework and
-filed on the site's proof-claims tab on 15 July 2026, and posted in the
-repository pipeline-math from 15 July 2026 (the move was announced in a comment
-on the claim on 19 July, and the pinned revision is of 20 July), claims the
-infimum. Writing $L_f=|\{x\in\mathbb R:|f(x)|<1\}|$ and, for a Borel probability
-measure $\mu$ on $[-1,1]$ with logarithmic potential
+filed on the erdosproblems.com proof-claims tab on 15 July 2026, and posted in
+the repository pipeline-math from 15 July 2026 (the move was announced in a
+comment on the claim on 19 July, and the pinned revision is of 20 July), claims
+the infimum. Writing $L_f=|\{x\in\mathbb R:|f(x)|<1\}|$ and, for a Borel
+probability measure $\mu$ on $[-1,1]$ with logarithmic potential
 $U_\mu(x)=\int\log|x-t|^{-1}d\mu(t)$, $L_\mu=|\{x:U_\mu(x)>0\}|$, Theorem 1.1
 states that $\inf_fL_f=\inf_\mu L_\mu=D$, where
 $D=1.834430475762661711090753635125\ldots$ is defined in the paper's Appendix A
@@ -94,9 +94,9 @@ GPT-5.5 Pro in a prover-verifier framework, that the first complete AI-generated
 proof was obtained on 11 July 2026, and that the authors then verified, revised
 and simplified it and identified attributions. The submitter's notes ask the
 community about norms for announcing AI-assisted proofs, and the claim's one
-comment records the move to the repository. The site's label was unchanged
-(OPEN), no reviewer is named and nothing is refereed, so the claim stays
-claimed. The two other claims of the same infimum are
+comment records the move to the repository. The erdosproblems.com label was
+unchanged (OPEN), no reviewer is named and nothing is refereed, so the claim
+stays claimed. The two other claims of the same infimum are
 [[problems/analysis/E1038/claims/2026_07_14_wang|Wang's page]] and
 [[problems/analysis/E1038/claims/2026_08_24_budala|Budala's page]]; the paper
 notes that Wang's approach is entirely different from its own.

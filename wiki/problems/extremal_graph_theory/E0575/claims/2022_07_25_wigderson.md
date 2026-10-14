@@ -46,10 +46,10 @@ the conjecture, which it assigns no status and which
 disproves.
 
 **Standing.** Claimed, not accepted. The note is unpublished and
-unrefereed; the site's commentary does not mention it, and the only mention
-on the site is a forum comment of 14 January 2026 (not the curator) pointing
-to it; Chapter 10 of OpenAI's report (p. 237) prints the same three
-extremal numbers for $n\ge4$ and calls the family folklore, which is a
+unrefereed; the erdosproblems.com commentary does not mention it, and the only
+mention on erdosproblems.com is a forum comment of 14 January 2026 (not the
+curator) pointing to it; Chapter 10 of OpenAI's report (p. 237) prints the same
+three extremal numbers for $n\ge4$ and calls the family folklore, which is a
 restatement, not a review. The problem page recomputes the five-line
 argument, and that recomputation is this project's own and awards no
 acceptance.

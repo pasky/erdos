@@ -134,8 +134,8 @@ example from de Caen, Erdős, Pullman and Wormald, Combinatorica 6 (1986),
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0639/_index|Problem 639]]: the clique-covering theorem
-  the site and Keevash and Sudakov cite for the earlier large-$n$ solution
-  by Alon's route; in the problem's setting, at most
+  erdosproblems.com and Keevash and Sudakov cite for the earlier large-$n$
+  solution by Alon's route; in the problem's setting, at most
   $\lfloor n^2/4\rfloor+2$ monochromatic cliques cover the edges of any
   $2$-edge-colored $K_n$ once $n>2^{1500}$, with equality for the bipartite
   colorings of p. 398. The step from this to the problem's bound on edges

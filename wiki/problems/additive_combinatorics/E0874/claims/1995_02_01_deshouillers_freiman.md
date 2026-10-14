@@ -5,7 +5,7 @@ desc: |
   Theorem 1 of Deshouillers and Freiman's 1995 Israel Journal paper: an
   admissible subset of the first $N$ integers has at most $2N^{1/2}+CN^{5/12}$
   elements, so, with Straus's block, $k(N)\sim2N^{1/2}$. The paper is refereed
-  but is not the site's key reference.
+  but is not the erdosproblems.com key reference.
 authors:
 - J-M. Deshouillers
 - G. A. Freiman
@@ -62,7 +62,7 @@ $(143/27)^{1/2}$ of Erdős, Nicolas and Sárközy, none of which answers the
 asymptotic question. The exact value $k(N)=\lfloor2\sqrt{N+1/4}-1\rfloor$
 for all large $N$ is the same authors' 1999 result, recorded on
 [[problems/additive_combinatorics/E0874/claims/1999_01_01_deshouillers_freiman|its own claim page]],
-which the site credits. As the library card records, Theorem 1 and the
+which erdosproblems.com credits. As the library card records, Theorem 1 and the
 abstract are checked clause by clause and the proof of Theorem 1 from
 Theorem 2 is read in full; the proof of Theorem 2 is read for structure
 only, and nothing is independently reviewed.
@@ -76,7 +76,7 @@ recorded on the problem page.
 33--43, doi:10.1007/BF02762069. The Crossref record was read on 2026-09-18: it
 dates the issue to February 1995, and the paper was received March 11, 1993 and
 revised March 22, 1994. The page is named by the issue's month, filled to its
-first day. Not reviewed: the site's commentary credits the affirmative answer to
-the authors' 1999 paper, [DeFr99], and does not cite this one, so no curator
-credit attaches to it. This paper's result is what the 1999 paper's introduction
-and the site's "proved" label build on.
+first day. Not reviewed: the erdosproblems.com commentary credits the
+affirmative answer to the authors' 1999 paper, [DeFr99], and does not cite this
+one, so no curator credit attaches to it. This paper's result is what the 1999
+paper's introduction and erdosproblems.com's "proved" label build on.

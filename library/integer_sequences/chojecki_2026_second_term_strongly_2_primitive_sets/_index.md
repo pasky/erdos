@@ -5,11 +5,11 @@ desc: |
   one through n in which no member divides the product of two others has size
   pi(n) plus (27/2 + o(1)) n^(2/3)/(log n)^2, by tracking the constants in
   Erdős's 1938 factorization argument and packing linear prime triples; the
-  author declares AI assistance and the site accepts it as the resolution of
-  Problem 793.
+  author declares AI assistance and erdosproblems.com accepts it as the
+  resolution of Problem 793.
 license: reserved
 created: 2026-09-18T06:15:00Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets
@@ -52,8 +52,9 @@ n in which no member divides the product of two others with at least
 pi(n) + (27/2 - o(1)) n^(2/3)/(log n)^2 elements.
 
 [[integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets/theorem_1_1|theorem_1_1]]: The second-order asymptotic for the largest subset of one through n in which
-no member divides the product of two others; the site's accepted resolution
-of Problem 793, from a manuscript whose author declares AI assistance.
+no member divides the product of two others; erdosproblems.com's accepted
+resolution of Problem 793, from a manuscript whose author declares AI
+assistance.
 
 ***
 
@@ -63,10 +64,10 @@ five-page manuscript hosted at <https://www.ulam.ai/research/erdos793.pdf>
 2026, with the same title, author and abstract; abstract page read 2026-10-07).
 The byline names Przemek Chojecki with the affiliation ulam.ai; the text carries
 no date, no arXiv identifier and no journal; the PDF metadata gives a creation
-date of 13 July 2026, and its reference [1] records the site's Problem 793 page
-as "accessed July 13, 2026". The site's Problem 793 page accepted the manuscript
-as the resolution on 14 July 2026 (the page's last edit) after a thread comment
-of 13 July 2026 by the author linked it.
+date of 13 July 2026, and its reference [1] records erdosproblems.com's Problem
+793 page as "accessed July 13, 2026". erdosproblems.com's Problem 793 page
+accepted the manuscript as the resolution on 14 July 2026 (the page's last edit)
+after a thread comment of 13 July 2026 by the author linked it.
 
 The copy read for this card is the PDF at that URL, five A4 pages produced by
 pdfTeX with a complete text layer,
@@ -82,15 +83,14 @@ every other right reserved.
 
 Attribution as the manuscript states it: the footnote to the byline (p. 1)
 reads "AI assistance was used in exploring the argument and in writing this
-text." The site's commentary attributes the solution to an AI model prompted
-by the author; the author's thread comment of 13 July 2026 says a model
+text." The erdosproblems.com commentary attributes the solution to an AI model
+prompted by the author; the author's thread comment of 13 July 2026 says a model
 "gave me a nice solution". The card records these declarations as the
-source's and the site's own provenance and claims no independent check of
-the argument. This is a source-supported solution accepted by the site,
-distinct from a claim of journal refereeing; the arXiv posting is not
-refereeing. One external Lean development read
-statically at a pinned commit is listed under Formal artifacts below; it was
-not built here.
+source's and erdosproblems.com's own provenance and claims no independent check
+of the argument. This is a source-supported solution accepted by
+erdosproblems.com, distinct from a claim of journal refereeing; the arXiv
+posting is not refereeing. One external Lean development read statically at a
+pinned commit is listed under Formal artifacts below; it was not built here.
 
 Read status: claims checked for Theorem 1.1, Lemmas 2.1--2.3, Proposition
 2.4, Lemmas 3.1--3.3 and Proposition 3.4 (statements read clause by clause
@@ -143,7 +143,7 @@ nothing here is independently reviewed.
   $|A|\ge\pi(n)+(27/2-o(1))S$, since the cell-weight series tends to $3/2$
   as $h\to0$ and $|V(H_n)|=o(S)$. "Propositions 2.4 and 3.4 prove Theorem
   1.1." (p. 5).
-- References [1]--[4] (p. 5): the site's page; Chan, Lichtman and
+- References [1]--[4] (p. 5): the erdosproblems.com page; Chan, Lichtman and
   Pomerance 2022; Erdős 1938; Erdős 1969.
 
 ## Compiled scope
@@ -151,9 +151,10 @@ nothing here is independently reviewed.
 The whole manuscript was read (five pages). Theorem 1.1 and the eight lemmas
 and propositions above are compiled as statements with proof pointers; no proof
 was reconstructed and no step was checked. The upper bound is the 1938
-argument with its constants tracked (the site's maintainer says the same in
-the thread on 14 July 2026); the lower bound refines the 1938 construction,
-which used only the primes up to $n^{1/3}$ and gave the constant $1/80$.
+argument with its constants tracked (the erdosproblems.com maintainer says the
+same in the thread on 14 July 2026); the lower bound refines the 1938
+construction, which used only the primes up to $n^{1/3}$ and gave the constant
+$1/80$.
 
 ## Formal artifacts (read statically, not built)
 
@@ -182,10 +183,10 @@ which used only the primes up to $n^{1/3}$ and gave the constant $1/80$.
 
 Nothing was built, kernel-checked or audited here; the axiom the file
 declares is its own record, and no bridging statement between the file's
-`F` and the site's $F(n)$ was checked beyond reading the definitions.
+`F` and erdosproblems.com's $F(n)$ was checked beyond reading the definitions.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0793/_index|#793]]: Theorem 1.1 is
-the problem's asymptotic with $C=27/2$, the site's accepted resolution;
+the problem's asymptotic with $C=27/2$, erdosproblems.com's accepted resolution;
 displays (1) and (2) fix the convention ($b=c$ allowed) and the
 normalization $S=n^{2/3}/(\log n)^2$. Proposition 2.4 is the upper bound
 $F(n)\le\pi(n)+(27/2+o(1))S$ and Proposition 3.4 the lower bound

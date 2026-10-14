@@ -43,10 +43,11 @@ it applies Straus's transfer theorem (Non averaging sets, Proc. Symp. Pure Math.
 19 (1971), the paper's [25]), that $f(n)\gg n^\alpha$ implies
 $Q(n)\gg n^{\alpha/(1+\alpha)}$, where $f(n)$ is the largest non-averaging
 subset of $[1,n]$, to Bosznay's non-averaging sets with $\alpha=\frac14$ (Acta
-Math. Hungar. 53 (1989), the paper's [3]). The construction that the site's
-commentary credits to this paper is that deduction. [Er97b] had already
-attributed the bound to the student Csaba Sándor, a coauthor, without printing a
-construction. The statements are paged on the library result pages
+Math. Hungar. 53 (1989), the paper's [3]). The construction that the
+erdosproblems.com commentary credits to this paper is that deduction. [Er97b]
+had already attributed the bound to the student Csaba Sándor, a coauthor,
+without printing a construction. The statements are paged on the library result
+pages
 [[../library/divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/corollary_2|Corollary 2]]
 and
 [[../library/divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/bound_p128|the bound of p. 128]].
@@ -67,5 +68,5 @@ pages; the proofs of Theorems 2 and 3 and of Corollary 1 are recorded there in
 outline and not verified.
 
 **Acceptance.** Refereed: Discrete Mathematics 200 (1999), no. 1--3, 119--135
-(April 1999). The site's commentary credits both bounds, but the site labeled
-the problem OPEN, so `reviewed` is not listed.
+(April 1999). The erdosproblems.com commentary credits both bounds, but Bloom's
+catalog labeled the problem OPEN, so `reviewed` is not listed.

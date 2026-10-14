@@ -80,9 +80,9 @@ Source: <https://users.renyi.hu/~p_erdos/1962-22.pdf>.
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0789/_index|#789]]: Theorem IV,
 printed p. 34 (PDF p. 7), page image, with its proof on pp. 35--36 (PDF
 pp. 8--9): a sequence in which two sums of distinct terms with different
-numbers of summands never coincide has $A(x)<Cx^{5/6}$ for every $x$; the
-site's "Erdős [Er62c] proved $h(n)\ll n^{5/6}$" (the paper carries no
-statement of the form $h(n)\gg(n\log n)^{1/3}$, which the site also
+numbers of summands never coincide has $A(x)<Cx^{5/6}$ for every $x$;
+erdosproblems.com's "Erdős [Er62c] proved $h(n)\ll n^{5/6}$" (the paper carries
+no statement of the form $h(n)\gg(n\log n)^{1/3}$, which erdosproblems.com also
 attributes to it).
 [[../wiki/problems/additive_combinatorics/E0876/_index|#876]]: Theorems I--III, printed
 pp. 28, 30 and 31 (PDF pp. 1, 3 and 4), and the construction with
@@ -95,8 +95,8 @@ with the bounds $2/7\le\beta\le(\sqrt5-1)/2$ it records as known.
 page image: condition (1'), the property Straus named admissibility
 (Deshouillers and Freiman attribute the notion to this paper), and Theorem
 IV's bound $CN^{5/6}$ for the largest such subset of $\{1,\ldots,N\}$,
-superseded by Straus's $(4/\sqrt3+o(1))N^{1/2}$; the site's key [Er62c]
-for the problem.
+superseded by Straus's $(4/\sqrt3+o(1))N^{1/2}$; the erdosproblems.com key
+[Er62c] for the problem.
 [[../wiki/problems/additive_combinatorics/E0875/_index|#875]]: printed p. 34 (PDF p. 7)
 and the English summary on p. 38 (PDF p. 11), page images: the modified
 construction (16') of an infinite sequence with (1') unsolvable and

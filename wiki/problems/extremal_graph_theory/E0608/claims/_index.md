@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 608, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0608/claims
@@ -14,6 +14,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/extremal_graph_theory/E0608/claims/2016_05_29_grzesik_hu_volec|2016_05_29_grzesik_hu_volec]]: The Füredi–Maleki construction, Construction 2 of Grzesik, Hu and Volec (JCTB
 2019), gives graphs above the Mantel threshold with only
 $\frac{2+\sqrt2}{16}n^2+O(n)$ edges on pentagons, which disproves the
-statement. It is refereed, and the site's curator Thomas Bloom credits it.
+statement. It is refereed, and the erdosproblems.com curator Thomas Bloom
+credits it.
 
 ***

@@ -64,5 +64,5 @@ pseudo-randomness of $G(N,1/2)$ and of Paley graphs.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0565/_index|Problem 565]]: the refereed
-  $2^{O(n\log n)}$ bound the site records before the exponential bound of
-  2025; history on the problem page.
+  $2^{O(n\log n)}$ bound erdosproblems.com records before the exponential bound
+  of 2025; history on the problem page.

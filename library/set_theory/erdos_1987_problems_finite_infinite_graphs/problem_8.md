@@ -40,5 +40,5 @@ None.
 ## Bears on
 
 - [[../wiki/problems/set_theory/E0598/_index|Problem 598]]: the question is
-  this problem's; the print quantifies over every infinite $m$, where the site
-  fixes $m$. The paper records no result on it.
+  this problem's; the print quantifies over every infinite $m$, where
+  erdosproblems.com fixes $m$. The paper records no result on it.

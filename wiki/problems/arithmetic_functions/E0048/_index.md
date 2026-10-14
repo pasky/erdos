@@ -23,16 +23,16 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Are there infinitely many integers $n,m$ such that
 $\phi(n)=\sigma(m)$?
 
-**Status.** PROVED (LEAN), the site's label. The answer is yes. Ford, Luca and
-Pomerance proved in 2010 that $\phi$ and $\sigma$ have infinitely many common
-values. Their result is refereed, and its accepted claim page is
+**Status.** PROVED (LEAN), the erdosproblems.com label. The answer is yes. Ford,
+Luca and Pomerance proved in 2010 that $\phi$ and $\sigma$ have infinitely many
+common values. Their result is refereed, and its accepted claim page is
 [[problems/arithmetic_functions/E0048/claims/2009_06_18_ford_luca_pomerance|Ford–Luca–Pomerance 2010]].
 Garaev's refereed sharpening of the count in 2011 is a second accepted claim
 page,
 [[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|Garaev 2011]].
-The site's Lean marker refers to a community Lean formalization of the
-Ford–Luca–Pomerance argument, linked from their claim page. This corpus has not
-built or audited it.
+The erdosproblems.com Lean marker refers to a community Lean formalization of
+the Ford–Luca–Pomerance argument, linked from their claim page. This corpus has
+not built or audited it.
 
 **Source.** [erdosproblems.com/48](https://www.erdosproblems.com/48), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #48,
@@ -64,10 +64,10 @@ linked from the claim page; see "Formalization and the Lean label" below.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** Whether infinitely many
-pairs $n,m$ satisfy $\phi(n)=\sigma(m)$. PROVED (LEAN). The site's
-commentary (accessed 2026-10-07) records that the answer is yes by
-Ford, Luca and Pomerance [FLP10], that their count of common values up to
+**The question (erdosproblems.com formulation of 2026-09-04).** Whether
+infinitely many pairs $n,m$ satisfy $\phi(n)=\sigma(m)$. PROVED (LEAN). The
+erdosproblems.com commentary (accessed 2026-10-07) records that the answer is
+yes by Ford, Luca and Pomerance [FLP10], that their count of common values up to
 $x$ was improved by Garaev [Ga11], and that the question is B38 of Guy's
 collection [Gu04]; it also notes that infinitely many twin primes would
 give the answer at once.
@@ -85,20 +85,20 @@ with the argument of the first paper, and the curator credits it in the
 commentary under the PROVED (LEAN) label. The problem's standing follows
 from either accepted claim.
 
-**Formalization and the Lean label.** The site's label was PROVED (LEAN),
-and the community database records a Lean formal status dated 2026-08-23.
-The statement file of formal-conjectures names, in its `formal_proof`
-attribute, the file `src/latest/ErdosProblems/Erdos48.lean`
-of the repository `plby/lean-proofs`, whose header declares it a
-formalization of a solution with Ford, Luca and Pomerance as informal authors
-and Codex and GPT-5.6 Sol as formal authors; the file and its flattened copy
-in `Jayyhk/erdos-lean` are `formalization` links on the Ford–Luca–Pomerance
-claim page. They formalize that paper's argument and are not an independent
-proof. This corpus has not built, kernel-checked or audited either file, so
-no `formalized` evidence is listed.
+**Formalization and the Lean label.** The erdosproblems.com label was PROVED
+(LEAN), and the community database records a Lean formal status dated
+2026-08-23. The statement file of formal-conjectures names, in its
+`formal_proof` attribute, the file `src/latest/ErdosProblems/Erdos48.lean` of
+the repository `plby/lean-proofs`, whose header declares it a formalization of a
+solution with Ford, Luca and Pomerance as informal authors and Codex and GPT-5.6
+Sol as formal authors; the file and its flattened copy in `Jayyhk/erdos-lean`
+are `formalization` links on the Ford–Luca–Pomerance claim page. They formalize
+that paper's argument and are not an independent proof. This corpus has not
+built, kernel-checked or audited either file, so no `formalized` evidence is
+listed.
 
-**Search scope and read depth.** Search scope: the site's problem page and its
-empty proof-claims thread; the community database's entry
+**Search scope and read depth.** Search scope: the erdosproblems.com problem
+page and its empty proof-claims thread; the community database's entry
 (2026-10-06); the digests of the two source cards; the arXiv record of
 [FLP10] and the Crossref records of its journal version, for dates; the
 formal-conjectures statement file and the headers, theorem statements and

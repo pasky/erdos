@@ -53,8 +53,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0167/_index|Problem 167]]: the site's source
-  key and the statement in Erdős's words, with the sharpness examples the
-  site repeats; the site's wording ("at most $k$ edge disjoint triangles")
-  and the paper's ("$k$ the largest integer for which $G$ has $k$ edge
-  disjoint triangles") ask the same thing.
+- [[../wiki/problems/extremal_graph_theory/E0167/_index|Problem 167]]: the
+  erdosproblems.com source key and the statement in Erdős's words, with the
+  sharpness examples erdosproblems.com repeats; the erdosproblems.com wording
+  ("at most $k$ edge disjoint triangles") and the paper's ("$k$ the largest
+  integer for which $G$ has $k$ edge disjoint triangles") ask the same thing.

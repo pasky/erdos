@@ -32,7 +32,7 @@ $$
 is irrational. Is $a_n=2^{2^n}$ such a sequence? Must such a sequence satisfy
 $a_n^{1/n}\to \infty$?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited
 2026-04-02). The problem asks two questions, which are its two parts. The first,
 whether $a_n=2^{2^n}$ is such a sequence, has no claim. The second asks whether
 an irrationality sequence of this kind must satisfy $a_n^{1/n}\to\infty$. It has
@@ -59,16 +59,17 @@ https://www.erdosproblems.com/263.
 
 ## Current assessment
 
-The site records Problem 263 as OPEN (page last edited 2026-04-02). On that
-date the site added the hypothesis that the sequence be increasing, which
-Erdős's formulation carries: a DeepMind prover agent had posted on 2026-02-27
+erdosproblems.com records Problem 263 as OPEN (page last edited 2026-04-02). On
+that date erdosproblems.com added the hypothesis that the sequence be
+increasing, which Erdős's formulation carries: a DeepMind prover agent had
+posted on 2026-02-27
 ([post](https://www.erdosproblems.com/forum/thread/263#post-4521)) a Lean
-disproof of the second question for the statement without that hypothesis,
-the sequence $a_n=2^{3^n}$ except $a_n=2^n$ on a sparse set of indices. That
+disproof of the second question for the statement without that hypothesis, the
+sequence $a_n=2^{3^n}$ except $a_n=2^n$ on a sparse set of indices. That
 counterexample is not increasing and refutes only the superseded statement, so
 it answers a variant and settles no instance of the current problem;
 [[problems/irrationality/E0263/claims/2026_02_27_deepmind|its claim page]]
-records it as rejected. The site's remarks credit it, and
+records it as rejected. The erdosproblems.com remarks credit it, and
 the formal-conjectures catalog preserves its formal proof at
 [the commit before the correction](https://github.com/google-deepmind/formal-conjectures/blob/c8cf651906abe91051cf835d4232ad5648412113/FormalConjectures/ErdosProblems/263.lean#L298).
 For the corrected statement, the one pending claim is a claimed disproof of
@@ -79,7 +80,7 @@ counterexample; the first question has no claim, and the formal-conjectures file
 at its commit of 2026-09-18 tags both questions research open. The Progress note
 below records Koizumi's theorem and Kovač and Tao's theorem and why neither
 settles a question; the corpus records no check of their proofs and no
-literature search beyond the cited sources and the site's threads.
+literature search beyond the cited sources and the erdosproblems.com threads.
 
 ## Progress
 
@@ -91,11 +92,11 @@ growth question in the statement.
 
 Kovač and Tao's Theorem 2.4 (Acta Math. Hungar. 175 (2025), 572--608;
 [[../library/irrationality/kovac_2024_several_irrationality_problems_ahmes_series/_index|card]]),
-which the site's remarks credit, proves that no strictly increasing sequence
-with convergent reciprocal sum and $a_{n+1}/a_n^2\to0$ is an irrationality
-sequence of this kind. It settles neither question. The sequence $a_n=2^{2^n}$
-has $a_{n+1}/a_n^2=1$, and the theorem says nothing about sequences whose
-ratio $a_{n+1}/a_n^2$ does not tend to $0$, such as the claimed
+which the erdosproblems.com remarks credit, proves that no strictly increasing
+sequence with convergent reciprocal sum and $a_{n+1}/a_n^2\to0$ is an
+irrationality sequence of this kind. It settles neither question. The sequence
+$a_n=2^{2^n}$ has $a_{n+1}/a_n^2=1$, and the theorem says nothing about
+sequences whose ratio $a_{n+1}/a_n^2$ does not tend to $0$, such as the claimed
 counterexample. So it has no claim page.
 
 ## Known Results
@@ -107,7 +108,8 @@ Claude Opus 4.7: a strictly increasing sequence, built from blocks of
 consecutive integers, that is an irrationality sequence in the problem's sense
 yet has $\liminf a_n^{1/n}=1$. Nat Sothanaphan replied the same day that a
 standard check found no issues and that the Lean matched the paper; that is a
-forum remark, not acceptance, and the site's label was OPEN. The claim page
+forum remark, not acceptance, and the erdosproblems.com label was OPEN. The
+claim page
 [[problems/irrationality/E0263/claims/2026_05_09_price|records the posting]].
 
 Three forum proof claims by T. Alexander Lystad, posted on
@@ -126,19 +128,18 @@ sufficient criteria for being an irrationality sequence, and they settle no
 instance of either question, as the claimant states. The first claims that a strictly increasing
 sequence with $c\,a_n^{2+\epsilon}\le a_{n+1}$ for all large $n$ is an
 irrationality sequence in the problem's sense, the consequence of the folklore
-result the site's remarks state; $a_n=2^{2^n}$ has $a_{n+1}=a_n^2$ and misses
-the hypothesis by the $\epsilon$. The other two claim that every sequence of
-positive integers with $a_n^{1/2^n}\to\infty$ has irrational reciprocal sum,
-first for monotone sequences after Erdős's 1975 argument and then without
-monotonicity by sorting the sequence; the claimant's write-up `PROOF-1975.md`
-(at its commit of 2026-08-02) covers only the monotone step, and the claimant
-notes that the $\limsup$
-analogue fails without monotonicity, an interleaved Sylvester construction
-having $\limsup a_n^{1/2^n}=\infty$ and sum $3/2$. The repository's adapter to
-the formal-conjectures catalog's variant `folklore` was produced by Codex
-Proof Forge, as its README says. In the thread Vjekoslav Kovač remarked on
-2026-08-02 that Badea's criterion (the main Theorem of the 1987 paper, Theorem A
-of the 1993 paper; on the cards
+result the erdosproblems.com remarks state; $a_n=2^{2^n}$ has $a_{n+1}=a_n^2$
+and misses the hypothesis by the $\epsilon$. The other two claim that every
+sequence of positive integers with $a_n^{1/2^n}\to\infty$ has irrational
+reciprocal sum, first for monotone sequences after Erdős's 1975 argument and
+then without monotonicity by sorting the sequence; the claimant's write-up
+`PROOF-1975.md` (at its commit of 2026-08-02) covers only the monotone step, and
+the claimant notes that the $\limsup$ analogue fails without monotonicity, an
+interleaved Sylvester construction having $\limsup a_n^{1/2^n}=\infty$ and sum
+$3/2$. The repository's adapter to the formal-conjectures catalog's variant
+`folklore` was produced by Codex Proof Forge, as its README says. In the thread
+Vjekoslav Kovač remarked on 2026-08-02 that Badea's criterion (the main Theorem
+of the 1987 paper, Theorem A of the 1993 paper; on the cards
 [[../library/irrationality/badea_1987_irrationality_certain_infinite_series/_index|badea_1987_irrationality_certain_infinite_series]]
 and
 [[../library/irrationality/badea_1993_theorem_irrationality_infinite_series_applications/_index|badea_1993_theorem_irrationality_infinite_series_applications]])

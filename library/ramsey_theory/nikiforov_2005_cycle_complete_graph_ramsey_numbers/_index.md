@@ -117,7 +117,7 @@ general $n$ that Keevash, Long and Skokan (p. 2) record before their own,
 after $k\ge n^2-2$ (Bondy and Erdős) and $k\ge n^2-2n$ (Schiermeyer); for
 each fixed $n\ge4$ it leaves the finitely many cycle lengths
 $n\le k\le4n+1$ to be checked, which is the shape of the finite residue
-the site's label refers to. Conjecture 16
+the erdosproblems.com label refers to. Conjecture 16
 ([[ramsey_theory/nikiforov_2005_cycle_complete_graph_ramsey_numbers/conjecture_16|result page]])
 asks, in the problem's letters, for the identity whenever $k>n^{1/j}$ and
 $n>r_0(j)$, for each fixed $j$; its case $j=2$ alone would give the identity

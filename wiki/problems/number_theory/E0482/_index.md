@@ -33,30 +33,29 @@ binary expansion of $\sqrt{2}$.
 
 Find similar results for $\theta=\sqrt{m}$, and other algebraic numbers.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-28 September 2025). The first paragraph is a theorem, the
-Graham--Pollak identity of 1970: with $a_1=1$ the sequence runs
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 28 September 2025). The first paragraph is a theorem, the Graham--Pollak
+identity of 1970: with $a_1=1$ the sequence runs
 $1,2,3,4,6,9,13,19,27,38,\ldots$ and the differences
 $a_3-2a_1=1$, $a_5-2a_3=0$, $a_7-2a_5=1$, $a_9-2a_7=1$ are the digits of
 $\sqrt2=1.0110101\ldots$ in binary, counted from the leading digit (the first
 four recomputed here). The 1970 note [GrPo70] announces the identity on
 p. 143 and derives it on p. 145 from the closed form of the Theorem on
 p. 143, for the recurrence in its original form $[\sqrt{2a_n(a_n+1)}]$,
-which p. 144 shows equal to the shifted form the site prints, and Stoll's
-2006 paper restates it as Fact 1. The second
-paragraph is a
-request, not a proposition: it names no class of recurrences and no
-criterion for "similar", so it has no truth value and admits no proof or
-disproof, which is why the site's label was SOLVED rather than PROVED and why
-the site's commentary describes the statement as open-ended. The site's source is
-[ErGr80, p. 96]; the monograph's passage poses it as "a very
-unconventional problem" and closes "It seems clear that there must
-be similar results for $\sqrt m$ and other algebraic numbers but we have no
-idea what they are."
+which p. 144 shows equal to the shifted form erdosproblems.com prints, and
+Stoll's 2006 paper restates it as Fact 1. The second paragraph is a request, not
+a proposition: it names no class of recurrences and no criterion for "similar",
+so it has no truth value and admits no proof or disproof, which is why the
+erdosproblems.com label was SOLVED rather than PROVED and why the
+erdosproblems.com commentary describes the statement as open-ended. The
+erdosproblems.com source is [ErGr80, p. 96]; the monograph's passage poses it as
+"a very unconventional problem" and closes "It seems clear that there must be
+similar results for $\sqrt m$ and other algebraic numbers but we have no idea
+what they are."
 
-**Status.** SOLVED, the site's label (page last edited 28 September 2025). The
-label marks a resolution other than a proof or disproof. Here it attaches to a
-constructive answer, the accepted claim page
+**Status.** SOLVED, the erdosproblems.com label (page last edited 28 September
+2025). The label marks a resolution other than a proof or disproof. Here it
+attaches to a constructive answer, the accepted claim page
 [[problems/number_theory/E0482/claims/2005_05_24_stoll|Stoll 2005]]. For every
 positive real $w$ (so for every $\sqrt m$ and every positive algebraic number)
 and for every integer base $g\ge2$, Stoll's two refereed papers give infinitely
@@ -65,20 +64,20 @@ $u_{2n+1}-gu_{2n-1}$ are the base-$g$ digits of $w$ (J. Integer Seq. 8 (2005),
 Theorems 1.2 and 1.3; Acta Arith. 125 (2006), Theorems 3.1, 3.3 and 3.4). They
 also identify what the original recurrence computes for every integer starting
 value (Corollary 3.5 of 2006). They construct families and do not classify every
-recurrence with the digit property, which the request never asked for. The
-site's own qualification is recorded below. The claim is accepted on the
-refereed papers and the curator's credit. Its value is `answered` because the
-first paragraph is a theorem and the second is a request with no truth value.
-The request is neither false nor degenerate, so neither a proof nor a disproof
-is the outcome. The label attaches to an open-ended request, the shape of
-Problem 296.
+recurrence with the digit property, which the request never asked for.
+erdosproblems.com's own qualification is recorded below. The claim is accepted
+on the refereed papers and the curator's credit. Its value is `answered` because
+the first paragraph is a theorem and the second is a request with no truth
+value. The request is neither false nor degenerate, so neither a proof nor a
+disproof is the outcome. The label attaches to an open-ended request, the shape
+of Problem 296.
 
 **Source.** [erdosproblems.com/482](https://www.erdosproblems.com/482),
 accessed 2026-09-18: the problem page (SOLVED, with
-the site's note that the resolution is neither a proof nor a disproof; last edited
-28 September 2025; source key [ErGr80, p. 96]; commentary citing [GrPo70],
-[St05] and [St06]; OEIS A004539 linked; "Formalised statement? No"), its
-empty discussion thread and its empty proof-claims tab. Cite as: T. F.
+the erdosproblems.com note that the resolution is neither a proof nor a
+disproof; last edited 28 September 2025; source key [ErGr80, p. 96]; commentary
+citing [GrPo70], [St05] and [St06]; OEIS A004539 linked; "Formalised statement?
+No"), its empty discussion thread and its empty proof-claims tab. Cite as: T. F.
 Bloom, Erdős Problem #482, https://www.erdosproblems.com/482, accessed
 2026-09-18.
 
@@ -144,7 +143,7 @@ Lean, not built or audited here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; SOLVED; last edited 28 September 2025. The commentary credits the
 $\sqrt2$ identity to Graham and Pollak [GrPo70], calls the statement
 open-ended, and takes Stoll's broad generalizations ([St05] and [St06]) as
@@ -163,16 +162,16 @@ expansion of $\sqrt2=1.01101000\ldots$ [sic]. It seems clear that there must be
 similar results for $\sqrt m$ and other algebraic numbers but we have no
 idea what they are." The printed expansion carries a misprint in its
 seventh digit after the point ($\sqrt2=1.0110101000\ldots$ in binary; Stoll's
-papers print it correctly); the site's statement does not print the
+papers print it correctly); the erdosproblems.com statement does not print the
 expansion. Stoll's 2006 paper quotes the closing sentence with $\sqrt\alpha$
 in place of the monograph's $\sqrt m$ (p. 90) and locates the passage at
-"[2, p. 96]" (p. 89), which is also the site's locator.
+"[2, p. 96]" (p. 89), which is also the erdosproblems.com locator.
 
 **The identity.** The note [GrPo70] (pp. 143--145) takes the sequence from
 Hwang and Lin's analysis of the Ford--Johnson sorting algorithm in the form
 $a_1=m$, $a_{n+1}=[\sqrt{2a_n(a_n+1)}]$, and shows (p. 144) that it equals
-$[\sqrt2(a_n+1/2)]$, the site's form, since no integer square lies strictly
-between $2a^2+2a$ and $2(a+1/2)^2$. Its
+$[\sqrt2(a_n+1/2)]$, the erdosproblems.com form, since no integer square lies
+strictly between $2a^2+2a$ and $2(a+1/2)^2$. Its
 [[../library/number_theory/graham_pollak_1970_note_nonlinear_recurrence_related_sqrt2/theorem_p143|Theorem]]
 (p. 143) gives the closed form $a_n=[t(2^{(n-1)/2}+2^{(n-2)/2})]$ when
 $m=[t(1+1/\sqrt2)]$ and $a_n=[t(2^{n/2}+2^{(n-1)/2})]$ when
@@ -237,26 +236,27 @@ $2r\sqrt2-2\lfloor r\sqrt2\rfloor$ according to whether
 $m=\lfloor r(1+1/\sqrt2)\rfloor$ or $m=\lfloor r(1+\sqrt2)\rfloor$ (Beatty's
 theorem), unifying the Borwein--Bailey examples for $1\le m\le10$; $m=1$
 gives $w=\sqrt2$ (checked here). Acceptance: both papers are refereed
-publications (J. Integer Seq.; Acta Arith.), and the site's label rested on
-them. Read depth: claims checked for Fact 1, Theorems 1.2, 1.3, 3.1, 3.3,
-3.4 and Corollaries 1.1, 1.2, 3.2, 3.5; the inductive proofs were followed
+publications (J. Integer Seq.; Acta Arith.), and the erdosproblems.com label
+rested on them. Read depth: claims checked for Fact 1, Theorems 1.2, 1.3, 3.1,
+3.3, 3.4 and Corollaries 1.1, 1.2, 3.2, 3.5; the inductive proofs were followed
 for structure and not checked; nothing is independently reviewed.
 
-**What the label attaches to.** The request has no truth value, so the site's
-SOLVED marks the resolution it accepts: for every $\theta=\sqrt m$, every
-positive algebraic number and indeed every positive real, recurrences of the
-Graham--Pollak shape producing its digits in every base exist explicitly, in
-infinitely many parameter choices, and the original recurrence is understood for
-every starting value. What no theorem does is classify all recurrences with the
-digit property or single out a canonical one for a given $\theta$; Stoll notes
-that in the general family the two parity steps can never share one multiplier
-(p. 92), while the binary families can (p. 94). The site states the same
-qualification when it says that Stoll's generalizations are presumably what
-Erdős and Graham would have accepted. The claim page carries the label as one
-attached to an open-ended request, in the manner of Problem 296. Algebraicity
-plays no role in Stoll's theorems: the natural scope of the answer is all of
-$\mathbb R^+$, and the site's "other algebraic numbers" is the monograph's guess
-at where the phenomenon should live.
+**What the label attaches to.** The request has no truth value, so
+erdosproblems.com's SOLVED marks the resolution it accepts: for every
+$\theta=\sqrt m$, every positive algebraic number and indeed every positive
+real, recurrences of the Graham--Pollak shape producing its digits in every base
+exist explicitly, in infinitely many parameter choices, and the original
+recurrence is understood for every starting value. What no theorem does is
+classify all recurrences with the digit property or single out a canonical one
+for a given $\theta$; Stoll notes that in the general family the two parity
+steps can never share one multiplier (p. 92), while the binary families can (p.
+94). erdosproblems.com states the same qualification when it says that Stoll's
+generalizations are presumably what Erdős and Graham would have accepted. The
+claim page carries the label as one attached to an open-ended request, in the
+manner of Problem 296. Algebraicity plays no role in Stoll's theorems: the
+natural scope of the answer is all of $\mathbb R^+$, and erdosproblems.com's
+"other algebraic numbers" is the monograph's guess at where the phenomenon
+should live.
 
 **Further results without a page.** Stoll's 2010 paper [St10] applies the
 same recurrences to the binary digits of further numbers such as
@@ -271,7 +271,7 @@ that has no truth value, so they are not a claim.
 paper on the digit recurrences, a classification result, or any dispute of
 Stoll's theorems.
 
-- The site: problem page, discussion thread and proof-claims tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claims tab; the
   full directory listing of formal-conjectures of 2026-09-18 (no file for
   this problem); the community database, read 2026-09-18.
 - The primary sources: [St05] pp. 1--8; [St06] pp. 89--100; [ErGr80]

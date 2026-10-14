@@ -53,7 +53,7 @@ classes and proves the bound tight for $r=2$. The upper bound generalizes
 Erdős's block coloring; the lower bound rests on the paper's Lemma 2, a
 statement about subset sums of a class of a partition of $[N,eN)$ filling
 an interval $[CN,C'N^2]$, turned into the density bound through an
-auxiliary coloring and the Brouwer fixed-point theorem. The site's
+auxiliary coloring and the Brouwer fixed-point theorem. The erdosproblems.com
 question asks how large the maximum must be, and the theorem answers it
 with the exact value, so the claim settles the whole question; the
 tightness of the bound for $r\ge3$ is the paper's Conjecture 10 and is not
@@ -62,16 +62,16 @@ part of this problem.
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-SOLVED. In the problem's commentary, the curator credits Conlon, Fox and Pham
-with the value $c=(2+\sqrt3)/4$ and with the coloring that attains it (page last
-edited 8 April 2026). The curator is independent of the authors. The community
-database records the problem as solved (last updated 4 April 2026). Refereed:
-Mathematika 68 (2022), no. 4, 1292--1301, published online 10 October 2022 (per
-the Crossref record). The text cited is arXiv:2105.15195v3 (22 September 2022).
-The journal text was not compared, so every locator is a preprint page. The
-search of 2026-09-18 (arXiv, Crossref, OpenAlex) found no dispute of the theorem
-and no second determination of $c_2$.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem SOLVED. In the problem's commentary, the curator credits Conlon, Fox
+and Pham with the value $c=(2+\sqrt3)/4$ and with the coloring that attains it
+(page last edited 8 April 2026). The curator is independent of the authors. The
+community database records the problem as solved (last updated 4 April 2026).
+Refereed: Mathematika 68 (2022), no. 4, 1292--1301, published online 10 October
+2022 (per the Crossref record). The text cited is arXiv:2105.15195v3 (22
+September 2022). The journal text was not compared, so every locator is a
+preprint page. The search of 2026-09-18 (arXiv, Crossref, OpenAlex) found no
+dispute of the theorem and no second determination of $c_2$.
 
 **Read depth.** Theorem 1, the definitions and the upper-bound argument on
 pp. 1--2 of the preprint were checked, as were the statements of Lemma 2,

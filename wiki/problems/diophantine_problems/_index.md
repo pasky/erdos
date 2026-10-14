@@ -288,5 +288,5 @@ a given algebraic shape exist — squares and perfect powers, powerful and
 squarefree numbers, sums of k-th powers, products of consecutive integers, and
 base and digit representations.
 
-Site tags routed here: base representations, complete sequences, number theory,
-powerful, powers, sidon sets.
+erdosproblems.com tags routed here: base representations, complete sequences,
+number theory, powerful, powers, sidon sets.

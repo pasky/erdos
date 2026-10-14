@@ -26,15 +26,15 @@ updated: 2026-10-08T14:06:00Z
 $3$-edges which can placed on $n$ vertices so that there exists no $K_4^3$, a
 set of 4 vertices which is covered by all 4 possible $3$-edges.
 
-**Formulation.** The site's wording, read 2026-09-18 (page last edited 5
-October 2025). $K_4^3$ is the complete $3$-uniform
-hypergraph on four vertices, and the question is Turán's tetrahedron
-problem. Its asymptotic form asks for the Turán density
+**Formulation.** The erdosproblems.com wording, read 2026-09-18 (page last
+edited 5 October 2025). $K_4^3$ is the complete $3$-uniform hypergraph on four
+vertices, and the question is Turán's tetrahedron problem. Its asymptotic form
+asks for the Turán density
 $\pi(K_4^3)=\lim_{n\to\infty}\mathrm{ex}_3(n,K_4^3)/\binom n3$, whose
 existence Erdős calls "easy to see" ([Er71], item 15, p. 104) and [Er74c]
 (p. 76) credits to Katona, Nemetz and Simonovits. In the origins' notation
-the site's $\mathrm{ex}_3(n,K_4^3)$ is one less than Turán's $g(n;3,4)$ of
-[Er71], the smallest number of triples forcing a $K_4^3$, and one less than
+erdosproblems.com's $\mathrm{ex}_3(n,K_4^3)$ is one less than Turán's $g(n;3,4)$
+of [Er71], the smallest number of triples forcing a $K_4^3$, and one less than
 the $f(n)$ of [Er61], item 8.
 
 **Status.** Open. Turán's construction gives
@@ -53,15 +53,16 @@ settles the density at $5/9$ only under the additional exclusion of four
 vertices spanning exactly one edge. The 2008 preprint records the unrestricted
 figure $0.561666$ as a floating-point computation that Razborov did not convert
 into a rigorous proof. Before it, the rigorous record was Chung and Lu's
-$\pi(K_4^3)\le(3+\sqrt{17})/12\approx0.5936$, as Razborov quotes it. The site's
-figure $0.5611666$ matches neither [Ra10] nor [Ba12] and is recorded below as a
-discrepancy. The search dated 2026-09-18 UTC whose scope the Current assessment
-records found no proof of $5/9$, no better construction and no new rigorous
-upper bound. This is a bounded negative finding, not a certificate of openness.
+$\pi(K_4^3)\le(3+\sqrt{17})/12\approx0.5936$, as Razborov quotes it. The
+erdosproblems.com figure $0.5611666$ matches neither [Ra10] nor [Ba12] and is
+recorded below as a discrepancy. The search dated 2026-09-18 UTC whose scope the
+Current assessment records found no proof of $5/9$, no better construction and
+no new rigorous upper bound. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/500](https://www.erdosproblems.com/500),
 accessed 2026-09-18: the problem page (OPEN, with the
-site's note that no finite computation can settle it; a prize; last
+erdosproblems.com note that no finite computation can settle it; a prize; last
 edited 5 October 2025; source keys [Er61], [Er71, p. 104], [Er74c, p. 81],
 [Er81]; commentary citing [Ra10] and pointing to Problem 712 for the general
 case; OEIS A140462 linked), its two-comment discussion thread (17 and 18 August
@@ -93,9 +94,9 @@ case; OEIS A140462 linked), its two-comment discussion thread (17 and 18 August
   (a re-typeset copy with its own pagination).
 - [Ra10] Razborov, Alexander A., On 3-hypergraphs with forbidden 4-vertex
   configurations. SIAM J. Discrete Math. 24 (2010), no. 3, 946--963,
-  doi:10.1137/090747476 (Crossref record read on 2026-09-18; the site's
-  reference text gives "SIAM J. Discrete Math. (2010), 946-963"). Library
-  home:
+  doi:10.1137/090747476 (Crossref record read on 2026-09-18; the
+  erdosproblems.com reference text gives "SIAM J. Discrete Math. (2010),
+  946-963"). Library home:
   [[../library/extremal_graph_theory/razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations/_index|razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations]]
   (the author's preprint of 15 December 2008; the journal text is not held).
 - [Ba12] Baber, Rahil, Turán densities of hypercubes. arXiv:1201.3587v2 (13
@@ -119,29 +120,29 @@ case; OEIS A140462 linked), its two-comment discussion thread (17 and 18 August
 added on 7 October 2026 with the project's hypergraph definitions, states
 `erdos_500` as `(fun n ↦ Hypergraph.cliqueExtremalNumber n 3 4) = answer(sorry)`
 under `category research open`, with proof `sorry` and no `formal_proof`
-attribute. The site's indicator shows a formalized statement. The community
-database records the problem open, with its statement formalized since 7
-October 2026, no formal proof, and OEIS A140462.
+attribute. The erdosproblems.com indicator shows a formalized statement. The
+community database records the problem open, with its statement formalized since
+7 October 2026, no formal proof, and OEIS A140462.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
-above; OPEN, with the site's note that no finite computation can settle it;
-a prize; last edited 5 October 2025. The site's commentary, in summary:
-the problem is Turán's; his construction (three equal parts $X_1,X_2,X_3$ with
-$X_4=X_1$, the triples meeting each part once together with the triples
-having two vertices in $X_i$ and one in $X_{i+1}$) gives
-$\mathrm{ex}_3(n,K_4^3)\ge(\frac59+o(1))\binom n3$, which the site expects
-to be the truth; the best upper bound it states is
+**The question (erdosproblems.com formulation).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it; a prize; last edited 5 October 2025. The erdosproblems.com
+commentary, in summary: the problem is Turán's; his construction (three equal
+parts $X_1,X_2,X_3$ with $X_4=X_1$, the triples meeting each part once together
+with the triples having two vertices in $X_i$ and one in $X_{i+1}$) gives
+$\mathrm{ex}_3(n,K_4^3)\ge(\frac59+o(1))\binom n3$, which erdosproblems.com
+expects to be the truth; the best upper bound it states is
 $\mathrm{ex}_3(n,K_4^3)\le0.5611666\binom n3$, credited to Razborov [Ra10];
 and the general case is Problem 712. The thread holds two comments by one
 account, the first declaring AI assistance without naming a system and the
 second saying that its method, code and proofs were produced with Claude
-(Anthropic) under human direction and review: 17 August 2026, that the site's
-figure carries one digit too many and occurs nowhere in the literature,
-that Razborov's paper gives $\pi_{\min}(I_4^3)\ge0.438334$, with complement
-$0.561666$, only as the outcome of a numerical computation and not as a
-theorem, and that Baber's arXiv:1201.3587v2, Section 5.1, lowered the record
+(Anthropic) under human direction and review: 17 August 2026, that the
+erdosproblems.com figure carries one digit too many and occurs nowhere in the
+literature, that Razborov's paper gives $\pi_{\min}(I_4^3)\ge0.438334$, with
+complement $0.561666$, only as the outcome of a numerical computation and not as
+a theorem, and that Baber's arXiv:1201.3587v2, Section 5.1, lowered the record
 to $0.5615$ in 2012 with a certificate file `K4.txt`, which the comment could
 not find bettered (naming the survey arXiv:2108.10406 as listing
 $5/9\le\pi(K_4^3)\le0.5615$); and 18 August 2026, a claim that Baber's
@@ -157,18 +158,18 @@ $E(H)$ consist of all those triples $e\subseteq V(H)$ for which one of the
 following is true: 1. $e$ is $\chi$-monochromatic; 2. there exists
 $a\in\mathbb Z_3$ such that $\chi|_e$ takes on the value $a$ two times, and
 the value $a+1$ -- one time", stated in the complementary form
-$\pi_{\min}(I_4^3)\le4/9$; the site's description is the complement, the
-triples with one vertex in each part and the two-plus-one triples. An
-authored count: for $n=3m$ the site's edge set has $m^3+3m\binom m2=\tfrac52m^3-\tfrac32m^2$
-triples, which is the formula OEIS A140462 gives for $n=3k$ (the entry, read
-on 2026-09-18, calls itself "Turán's upper bound on the number of triangles
-of a simplicial complex of dimension two for which every minimal non-face
-has three vertices" and links this problem), and $\frac52m^3/\binom{3m}3\to5/9$.
-The extremal examples are not unique: [Ra10] (p. 2) recalls Kostochka's
-continuum of examples of the same density and Fon-der-Flaass's digraph
-interpretation, and Frohmader's arXiv:0806.4208 (abstract read)
-counts non-isomorphic complexes attaining the conjectured value for
-$n=3k+1$ and $3k+2$.
+$\pi_{\min}(I_4^3)\le4/9$; the erdosproblems.com description is the complement,
+the triples with one vertex in each part and the two-plus-one triples. An
+authored count: for $n=3m$ erdosproblems.com's edge set has
+$m^3+3m\binom m2=\tfrac52m^3-\tfrac32m^2$ triples, which is the formula OEIS
+A140462 gives for $n=3k$ (the entry, read on 2026-09-18, calls itself "Turán's
+upper bound on the number of triangles of a simplicial complex of dimension two
+for which every minimal non-face has three vertices" and links this problem),
+and $\frac52m^3/\binom{3m}3\to5/9$. The extremal examples are not unique: [Ra10]
+(p. 2) recalls Kostochka's continuum of examples of the same density and
+Fon-der-Flaass's digraph interpretation, and Frohmader's arXiv:0806.4208
+(abstract read) counts non-isomorphic complexes attaining the conjectured value
+for $n=3k+1$ and $3k+2$.
 
 **The upper bounds.** In order of rigor.
 
@@ -223,15 +224,15 @@ $n=3k+1$ and $3k+2$.
   the comment says is public; neither the computation nor the suite was
   checked, and the bound is given no credit.
 
-**The site's figure (a discrepancy, recorded not resolved).** The
+**The erdosproblems.com figure (a discrepancy, recorded not resolved).** The
 commentary's $0.5611666$ appears in neither [Ra10] nor [Ba12]: [Ra10] prints
 $0.438334$, whose complement is $0.561666$, and [Ba12] writes Razborov's
-figure as $0.56167$. The site's value differs from Razborov's in the fourth
-decimal, and it lies below Baber's rigorous $0.5615$, which improved on
+figure as $0.56167$. erdosproblems.com's value differs from Razborov's in the
+fourth decimal, and it lies below Baber's rigorous $0.5615$, which improved on
 Razborov's figure, so it cannot be Razborov's bound; the thread's first
 comment makes the same point.
-The site attributes its bound to [Ra10] alone and does not cite [Ba12]. None
-of this affects the status.
+erdosproblems.com attributes its bound to [Ra10] alone and does not cite [Ba12].
+None of this affects the status.
 
 **The origins.** Four printed statements by Erdős.
 
@@ -268,7 +269,7 @@ of this affects the status.
   [2]) that $\lim_{n=\infty}f(n;K_r(t))/\binom nr=c_{r,t}$ always exists,
   but the value of $c_{r,t}$ is unknown for every $r>2$, $t>r$ though Turán
   has some plausible conjectures. In fact very few exact results are known
-  for $r>2$." The site's locator p. 81 carries the sentence
+  for $r>2$." The erdosproblems.com locator p. 81 carries the sentence
   that the determination of $\lim f(n;G_3(4;3))/n^3$ "seems to be very
   difficult, perhaps as difficult as Turán's problem on $f(n;K_3(4))$".
 - [Er81], Part III, item 1 (p. 6 of the copy): "He asked for the
@@ -278,8 +279,8 @@ of this affects the status.
   [sic] $=C_{r;k}$, for even a single $k>r>2$. ... I offer 1000 dollars for
   clearing up the whole set of problems." The denominator is a misprint of
   the retyped copy for $\binom nr$: $f(n;K^{(r)}(k))$ is of order $n^r$, so
-  with $\binom nk$ the limit would be $0$ for every $k>r$. The site's prize
-  for this problem is the first of these offers; the general problem is
+  with $\binom nk$ the limit would be $0$ for every $k>r$. The erdosproblems.com
+  prize for this problem is the first of these offers; the general problem is
   [[problems/extremal_graph_theory/E0712/_index|Problem 712]].
 
 **Leads with provenance, not status.** [GGTW25] reports searches with
@@ -305,7 +306,7 @@ problem.
 $\pi(K_4^3)=5/9$, a construction beating $5/9$, a refereed upper bound below
 $0.5615$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as read
+- erdosproblems.com: problem page, discussion thread and proof-claim tab as read
   2026-09-18; the formal-conjectures directory listing of that date (no
   file); the community database as read 2026-09-18.
 - The primary sources at the pages cited: [Ra10] pp. 1--3; [Ba12] pp. 1 and
@@ -335,9 +336,9 @@ preprint whose certificate was not checked and which has no refereed
 version; reopening condition for the qualification: a refereed version or an
 independent check of the certificate. (2) The status of Razborov's
 $0.561666$ in the journal version is unknown; the SIAM text is not held.
-(3) The site's $0.5611666$ is a discrepancy for the site, recorded above.
-(4) Proof coverage is statements only: Theorem 1 of [Ra10] and Baber's
-passage are claims checked; no flag-algebra computation is checked or
+(3) erdosproblems.com's $0.5611666$ is a discrepancy for erdosproblems.com,
+recorded above. (4) Proof coverage is statements only: Theorem 1 of [Ra10] and
+Baber's passage are claims checked; no flag-algebra computation is checked or
 reviewed. (5) The 1971 display (8) is $n^3$ short of Turán's
 construction, recorded as printed. (6) The forum claim of $0.561465$ and the
 AlphaEvolve report are leads recorded from the thread and the abstract,
@@ -345,7 +346,7 @@ unchecked.
 
 ## Known results
 
-- Turán's construction ([Ra10], p. 2; the site's commentary; authored
+- Turán's construction ([Ra10], p. 2; the erdosproblems.com commentary; authored
   count): $\mathrm{ex}_3(n,K_4^3)\ge(\tfrac59+o(1))\binom n3$, conjectured
   sharp; OEIS A140462 lists the conjectured values.
 - [[../library/extremal_graph_theory/baber_2012_turan_densities_hypercubes/bound_p14|Baber, Section 5.1]]

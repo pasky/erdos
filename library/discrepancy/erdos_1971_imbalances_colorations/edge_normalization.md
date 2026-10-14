@@ -20,8 +20,8 @@ At $k=2$ this is the unordered-edge quantity below. Erdős's earlier
 use the name $H(n)$.
 
 The following elementary deductions are a compilation explanation of the
-conventions, not new source theorems or an author-issued correction of the
-site. They do not reconstruct the asymptotic discrepancy proof.
+conventions, not new source theorems or an author-issued correction of
+erdosproblems.com. They do not reconstruct the asymptotic discrepancy proof.
 
 ## Definitions
 
@@ -106,7 +106,7 @@ paper.
 and the source definition of $H_2$; no asymptotic estimate or formal build.
 
 **Bears on.** [[../wiki/problems/discrepancy/E1028/_index|Problem 1028]]:
-the site's formula with arbitrary signs on ordered pairs of $[n]$ has value
-$0$ for every $n$; with symmetric signs it equals $2H_2(n)$, and counting
+the erdosproblems.com formula with arbitrary signs on ordered pairs of $[n]$ has
+value $0$ for every $n$; with symmetric signs it equals $2H_2(n)$, and counting
 each unordered pair once it equals $H_2(n)$, the quantity of the
 [[discrepancy/erdos_1971_imbalances_colorations/theorem_5|Theorem]].

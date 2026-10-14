@@ -36,11 +36,11 @@ https://www.erdosproblems.com/25.
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether
-the set $A$ of integers that avoid, for every modulus $n_i$ not exceeding
-them, the residue class $a_i$ modulo $n_i$ must have a logarithmic density;
-the site labeled the problem OPEN and notes it as a special case of
-[[problems/divisors/E0486/_index|Problem 486]]. The standing is open with no
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether the set $A$ of integers that avoid, for every modulus $n_i$ not
+exceeding them, the residue class $a_i$ modulo $n_i$ must have a logarithmic
+density; Bloom's catalog labeled the problem OPEN and notes it as a special case
+of [[problems/divisors/E0486/_index|Problem 486]]. The standing is open with no
 full claim. One pending partial claim is recorded: Chojecki's note of 19
 March 2026 ([[problems/integer_sequences/E0025/claims/2026_03_19_chojecki|claim
 page]]) proves that $A$ has natural, hence logarithmic, density when
@@ -54,7 +54,7 @@ multiples of the $n_i$, whose logarithmic density exists by Theorem 1 of
 Davenport and Erdős
 ([[../library/integer_sequences/davenport_1936_sequences_positive_integers/_index|card]]);
 that deduction is a remark made here, which the paper does not state for this
-problem and the site does not credit, so it has no claim page. Wang's
+problem and erdosproblems.com does not credit, so it has no claim page. Wang's
 proposed counterexample to Problem 486, a sieve with several forbidden
 residues per modulus and no logarithmic density, does not transfer to a
 single residue per modulus, as its card explains

@@ -50,27 +50,28 @@ $\Omega_C(n^{2/3})$ distinct degrees in an induced subgraph of unrestricted
 size, a different quantity from the one this problem bounds, and is context
 on the problem page rather than a second claim here.
 
-**Scope.** Full. The site's $\gg\log n$ hypothesis in any fixed base is the
-paper's $\hom(G)\le C\log n$ with $C$ rescaled, and the site's two
+**Scope.** Full. erdosproblems.com's $\gg\log n$ hypothesis in any fixed base is
+the paper's $\hom(G)\le C\log n$ with $C$ rescaled, and erdosproblems.com's two
 $\gg$ conclusions are the paper's $\alpha n$ and $\beta\sqrt n$ with
 constants depending on $C$ alone. The exponent $1/2$ is what the theorem
-states and all the site's problem asks; the problem page records that the
-later proof of Jenssen, Keevash, Long and Yepremyan gives $2/3$ for
+states and all the erdosproblems.com problem asks; the problem page records that
+the later proof of Jenssen, Keevash, Long and Yepremyan gives $2/3$ for
 linear-size induced subgraphs as well (an observation made there,
 unreviewed), the largest exponent possible by Proposition 2.4.
 
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
-PROVED and credits Bukh and Sudakov with the proof in the problem's commentary
-(page accessed 2026-09-18). The thread and the proof-claim tab are empty, so the
-commentary is the whole of the site's record. Refereed: J. Combin. Theory Ser. B
-97 (2007), no. 4, 612--619, DOI 10.1016/j.jctb.2006.09.006, received 21 June
-2006 and available online 14 November 2006 (the published article and its
-Crossref record, accessed 2026-09-18). The acknowledgments thank both referees.
-On 2026-09-18 Semantic Scholar listed 21 citing records, none of them, by its
-title, a dispute or refutation.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled
+the problem PROVED and credits Bukh and Sudakov with the proof in the problem's
+commentary (page accessed 2026-09-18). The thread and the proof-claim tab are
+empty, so the commentary is the whole of the erdosproblems.com record. Refereed:
+J. Combin. Theory Ser. B 97 (2007), no. 4, 612--619, DOI
+10.1016/j.jctb.2006.09.006, received 21 June 2006 and available online 14
+November 2006 (the published article and its Crossref record, accessed
+2026-09-18). The acknowledgments thank both referees. On 2026-09-18 Semantic
+Scholar listed 21 citing records, none of them, by its title, a dispute or
+refutation.
 
 **Read depth.** Claims checked: Theorem 1.1 (p. 613), the remark after its
 proof and Proposition 2.4 (p. 616). The proof (Section 2, pp. 613--616: a
@@ -80,6 +81,6 @@ structure only, and nothing is independently reviewed in this corpus.
 
 **Postings.** The journal article, available online 14 November 2006 (the
 earliest posting found, which dates this page; the receipt date of 21 June
-2006 is not a posting, and no preprint version was recorded); the site's
-problem page, whose thread and proof-claim tab were empty on 2026-09-18.
-No formalization was found.
+2006 is not a posting, and no preprint version was recorded); the
+erdosproblems.com problem page, whose thread and proof-claim tab were empty on
+2026-09-18. No formalization was found.

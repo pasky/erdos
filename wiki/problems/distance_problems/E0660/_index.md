@@ -59,8 +59,8 @@ primary proof of the exact asymptotic coefficient asked for here. The open
 status is retained with this limited search scope.
 
 The principal missing historical input is Altman's reported polyhedron proof.
-Altman's 1963 Monthly paper [Al63], the only Altman reference the site gives,
-treats the plane only and prints no statement about polyhedra or three
+Altman's 1963 Monthly paper [Al63], the only Altman reference erdosproblems.com
+gives, treats the plane only and prints no statement about polyhedra or three
 dimensions, so the reported proof is not in it, and the search of 6 September
 2026 located it nowhere else. The reported polyhedron proof and the best
 available bound for the convex case are not compiled here.
@@ -95,9 +95,9 @@ It does not establish the coefficient $1/2$ required here.
 
 The question above follows Thomas Bloom's 24 October 2025 clarification in
 the [public discussion](https://www.erdosproblems.com/forum/thread/660).
-That comment records ambiguous historical wording and explains the site's
-choice of the universal lower-bound interpretation. The exact formulation
-above is retained.
+That comment records ambiguous historical wording and explains
+erdosproblems.com's choice of the universal lower-bound interpretation. The
+exact formulation above is retained.
 
 ## Known Results
 

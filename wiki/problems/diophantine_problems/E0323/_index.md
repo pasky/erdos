@@ -38,12 +38,13 @@ $$
 
 for sufficiently large $x$?
 
-**Status.** Open. The site labeled the problem OPEN. Its commentary credits
-Landau with resolving the case $k=2$, through his asymptotic
+**Status.** Open. Bloom's catalog labeled the problem OPEN. Its commentary
+credits Landau with resolving the case $k=2$, through his asymptotic
 $f_{2,2}(x)\sim cx/\sqrt{\log x}$. This is recorded as an accepted partial claim
 on
 [[problems/diophantine_problems/E0323/claims/1908_01_01_landau|Landau's claim page]].
-For $k>2$, the site records that it is not even known whether $f_{k,k}(x)=o(x)$.
+For $k>2$, erdosproblems.com records that it is not even known whether
+$f_{k,k}(x)=o(x)$.
 
 **Source.** [erdosproblems.com/323](https://www.erdosproblems.com/323), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #323,
@@ -61,13 +62,13 @@ https://www.erdosproblems.com/323.
 
 ## Current assessment
 
-The site's formulation asks two questions about $f_{k,m}(x)$, the number of
-integers up to $x$ that are sums of $m$ nonnegative $k$th powers: whether
-$f_{k,k}(x)\gg_\epsilon x^{1-\epsilon}$ for every $\epsilon>0$, and whether
-$f_{k,m}(x)\gg x^{m/k}$ for $m<k$ and large $x$. The problem comes from
+The erdosproblems.com formulation asks two questions about $f_{k,m}(x)$, the
+number of integers up to $x$ that are sums of $m$ nonnegative $k$th powers:
+whether $f_{k,k}(x)\gg_\epsilon x^{1-\epsilon}$ for every $\epsilon>0$, and
+whether $f_{k,m}(x)\gg x^{m/k}$ for $m<k$ and large $x$. The problem comes from
 Erdős and Graham's 1980 monograph [ErGr80], where the authors call it
-unattackable by the methods available to them; the site's commentary notes
-its bearing on Waring's problem.
+unattackable by the methods available to them; the erdosproblems.com commentary
+notes its bearing on Waring's problem.
 
 The case $k=2$ is settled: Landau's theorem of 1908, that the integers
 up to $x$ which are sums of two squares number asymptotically
@@ -76,14 +77,14 @@ the second question is the trivial count of squares. This is the accepted
 partial claim on
 [[problems/diophantine_problems/E0323/claims/1908_01_01_landau|Landau's claim page]],
 accepted on the refereed paper alone, with its proof not checked in this
-corpus. For $k\ge3$ the first question is not settled, and the site records
-that it is not known whether $f_{k,k}(x)=o(x)$. At $k=3$ it is the weaker form
-of [[problems/diophantine_problems/E0325/_index|Problem 325]] at $k=3$,
-$f_{3,3}(x)\gg_\epsilon x^{1-\epsilon}$, where the best bound recorded there
-is Wooley's $f_{3,3}(x)\gg x^{0.91709477}$
+corpus. For $k\ge3$ the first question is not settled, and erdosproblems.com
+records that it is not known whether $f_{k,k}(x)=o(x)$. At $k=3$ it is the
+weaker form of [[problems/diophantine_problems/E0325/_index|Problem 325]] at
+$k=3$, $f_{3,3}(x)\gg_\epsilon x^{1-\epsilon}$, where the best bound recorded
+there is Wooley's $f_{3,3}(x)\gg x^{0.91709477}$
 ([[../library/diophantine_problems/wooley_2015_sums_three_cubes_ii/theorem_1_1|Theorem 1.1]]).
-The open standing of the first question for $k\ge3$ rests on the site's
-label.
+The open standing of the first question for $k\ge3$ rests on the
+erdosproblems.com label.
 
 The second question is answered yes at several pairs $(k,m)$ by accepted
 results, which have no claim pages here. At $m=1$ it holds for every $k$,

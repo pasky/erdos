@@ -36,8 +36,8 @@ between the integers prime to $n$. It shows that, as $n/\phi(n)\to\infty$, the
 proportion of these gaps below $cn/\phi(n)$ tends to $1-e^{-c}$, uniformly for
 $c$ in any fixed range bounded away from $0$ and $\infty$. The problem's limit
 counts gaps up to $cN_k/\phi(N_k)$. It follows for every $c>0$ and is $0$ at
-$c=0$, so it is the continuous function $1-e^{-c}$. The site records the problem
-as solved by Hooley. The
+$c=0$, so it is the continuous function $1-e^{-c}$. erdosproblems.com records
+the problem as solved by Hooley. The
 [[problems/integer_sequences/E0235/claims/1963_12_05_hooley|claim page]] carries
 the acceptance. It also carries a 2026 Lean formalization of Hooley's theorem in
 a public repository. No outside record registers that formalization, and it has
@@ -53,9 +53,9 @@ https://www.erdosproblems.com/235.
   prime to $n$. II. Publ. Math. Debrecen 12 (1965), 39--49,
   doi:10.5486/pmd.1965.12.1-4.06.
 
-**Formalization.** No statement in formal-conjectures (on 2026-10-07 the
-site showed no formalized statement, and the community database recorded the
-problem unformalized on 2025-08-31). The file
+**Formalization.** No statement in formal-conjectures (on 2026-10-07
+erdosproblems.com showed no formalized statement, and the community database
+recorded the problem unformalized on 2025-08-31). The file
 `src/latest/ErdosProblems/Erdos235.lean` of `plby/lean-proofs` states
 `erdos_235`, the existence of a continuous limit of the problem's quotient
 for every $c\ge0$, with the limit $1-e^{-c}$; Hooley's claim page above

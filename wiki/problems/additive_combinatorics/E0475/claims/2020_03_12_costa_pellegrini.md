@@ -60,7 +60,7 @@ on its library result page.
 
 **Acceptance.** Refereed publication: Archiv der Mathematik (Basel) 115 (2020),
 no. 5, 479--488, published online 29 August 2020 (Crossref record). The journal
-text is not held and was not compared with the arXiv version. The site's
-commentary credits the sizes $t\le12$ to this paper and its references. But the
-site's label DECIDABLE leaves the problem open and settles no part of it, so
-that credit is not `reviewed` evidence.
+text is not held and was not compared with the arXiv version. The
+erdosproblems.com commentary credits the sizes $t\le12$ to this paper and its
+references. But the erdosproblems.com label DECIDABLE leaves the problem open
+and settles no part of it, so that credit is not `reviewed` evidence.

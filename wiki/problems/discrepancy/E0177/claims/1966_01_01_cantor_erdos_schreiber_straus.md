@@ -42,17 +42,18 @@ beyond the antisymmetry remark. The source is carded at
 [[../library/number_theory/erdos_1966_szamelmeleti_megjegyzesek/_index|erdos_1966_szamelmeleti_megjegyzesek]].
 
 **Covers.** The upper bound $h(d)<c^dd!$ alone, and with it the existence of
-the function the problem asks about. The site's commentary records the bound
-as $h(d)\ll d!$, which drops the factor $c^d$. The result settles nothing
-about the order of $h(d)$, which the problem asks for; Beck's and Korsky's
-polynomial bounds, on their own claim pages, supersede it.
+the function the problem asks about. The erdosproblems.com commentary records
+the bound as $h(d)\ll d!$, which drops the factor $c^d$. The result settles
+nothing about the order of $h(d)$, which the problem asks for; Beck's and
+Korsky's polynomial bounds, on their own claim pages, supersede it.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a journal publication in Matematikai
 Lapok, volume 17 (1966), which is the `refereed` evidence. The volume carries no
-month or day, so this page is dated to the first day of that year. The site's
-curator credits the bound to [Er66] in the problem's commentary. But the site
-labeled the problem OPEN, so that credit is not `reviewed` evidence. The
-statement is as printed on p. 137. The paper gives no proof of the bound to
-check, and nothing is independently reviewed by this project.
+month or day, so this page is dated to the first day of that year. The
+erdosproblems.com curator credits the bound to [Er66] in the problem's
+commentary. But Bloom's catalog labeled the problem OPEN, so that credit is not
+`reviewed` evidence. The statement is as printed on p. 137. The paper gives no
+proof of the bound to check, and nothing is independently reviewed by this
+project.

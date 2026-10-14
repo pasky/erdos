@@ -30,17 +30,18 @@ $$
 \lim_{N\to \infty}\frac{R_3(N)}{G_3(N)}=1?
 $$
 
-**Status.** Open. The site's label was OPEN (page last edited 8 April 2026; site
-export of 2026-10-06). Its commentary records the trivial $G_k(N)\le R_k(N)$ and
-notes that the inequality can be strict ($G_3(5)=3$ against $R_3(5)=4$). It also
-records the theorem of Komlós, Sulyok and Szemerédi [KSS75] that
-$R_k(N)\ll_kG_k(N)$. No claim page is recorded. Theorem 1.1 of the OpenAI
-release manuscript *Quasipolynomial bounds for arithmetic progressions* (23
-September 2026) claims $R_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for
-every fixed $k\ge3$. It bounds $G_k(N)$ from above only through the trivial
-inequality $G_k(N)\le R_k(N)$. It settles none of the problem's three questions:
-the size of $G_k(N)$, its comparison with $R_k(N)$ and the limit of
-$R_3(N)/G_3(N)$. So it has no claim page, and the problem is open with no claim.
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 8 April
+2026; erdosproblems.com export of 2026-10-06). Its commentary records the
+trivial $G_k(N)\le R_k(N)$ and notes that the inequality can be strict
+($G_3(5)=3$ against $R_3(5)=4$). It also records the theorem of Komlós, Sulyok
+and Szemerédi [KSS75] that $R_k(N)\ll_kG_k(N)$. No claim page is recorded.
+Theorem 1.1 of the OpenAI release manuscript *Quasipolynomial bounds for
+arithmetic progressions* (23 September 2026) claims
+$R_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$. It
+bounds $G_k(N)$ from above only through the trivial inequality
+$G_k(N)\le R_k(N)$. It settles none of the problem's three questions: the size
+of $G_k(N)$, its comparison with $R_k(N)$ and the limit of $R_3(N)/G_3(N)$. So
+it has no claim page, and the problem is open with no claim.
 
 **Source.** [erdosproblems.com/201](https://www.erdosproblems.com/201), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #201,
@@ -102,10 +103,11 @@ confirmed the build of the density declaration. The release states that its
 manuscripts were produced by an internal OpenAI model at different stages
 of verification.
 
-**Scope.** This assessment rests on the site's page and commentary (export
-of 2026-10-06), the library's cards of [KSS75], of Semchankau's paper and
-of the release manuscript's Theorem 1.1; the site's reference [Ri69] is not
-held. It includes no search of the literature after 2020 beyond the release.
+**Scope.** This assessment rests on the erdosproblems.com page and commentary
+(export of 2026-10-06), the library's cards of [KSS75], of Semchankau's paper
+and of the release manuscript's Theorem 1.1; the erdosproblems.com reference
+[Ri69] is not held. It includes no search of the literature after 2020 beyond
+the release.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

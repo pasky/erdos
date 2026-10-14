@@ -49,12 +49,12 @@ degree at most $cd/(\log\log d)^{1/k}$ in $t$, hence by $n^{\epsilon}$ once
 $d$ is large, and consecutive values of $g$ are $O(n^{1-1/d})$ apart, so
 every large $n$ has such a run in $[n-O(n^{1-1/d}),n]$, inside
 $[n-n^{\theta},n]$ for any $\theta\in(1-1/d,1)$. This deduction was pointed
-out by Wooley to the site's curator, Thomas F. Bloom, who wrote it out on the
-forum on 2026-03-27 and records its conclusion in the problem's commentary.
-The run lies in $[n/2,n]$, so the result settles the question of
+out by Wooley to the erdosproblems.com curator, Thomas F. Bloom, who wrote it
+out on the forum on 2026-03-27 and records its conclusion in the problem's
+commentary. The run lies in $[n/2,n]$, so the result settles the question of
 [[problems/arithmetic_functions/E0369/_index|Problem 369]] as written, the
-formal-conjectures statement `erdos_369`, and both strengthenings the site
-proposes: the second directly, and the first because a run of
+formal-conjectures statement `erdos_369`, and both strengthenings
+erdosproblems.com proposes: the second directly, and the first because a run of
 $n^{\epsilon/2}$-smooth integers above $n/2$ is $m^{\epsilon}$-smooth for each
 of its members $m$. It is stronger than the result of
 [[problems/arithmetic_functions/E0369/claims/2026_03_26_yang|Yang 2026]],
@@ -65,8 +65,8 @@ which gives infinitely many $n$. The source card is
 
 **Acceptance.** Published in J. Aust. Math. Soc. 108 (2020), no. 2, 245–261, a
 refereed journal, online 2019-02-01 in the publisher's record (`refereed`). The
-arXiv posting of 2017-10-05 dates this page. The site's curator labeled the
-problem PROVED (LEAN). In the problem's commentary (page last edited
+arXiv posting of 2017-10-05 dates this page. The erdosproblems.com curator
+labeled the problem PROVED (LEAN). In the problem's commentary (page last edited
 2026-04-28), the curator credits the paper's main result with the stronger
 statement above (`reviewed`). The Lean proofs linked by formal-conjectures
 formalize Yang's construction, not this theorem, so `formalized` is not listed.

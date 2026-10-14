@@ -62,8 +62,8 @@ script challenge), and the Crossref record names Springer as publisher and
 lists only its text-and-data-mining terms (http://www.springer.com/tdm) and no
 Creative Commons license, every other right reserved.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0927/_index|#927]]: the site's
-source key Er66b; the Theorem (p. 233) is the lower bound
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0927/_index|#927]]: the
+erdosproblems.com source key Er66b; the Theorem (p. 233) is the lower bound
 $g(n)\ge n-\log_2n-H(n)-O(1)$ whose sharpness the problem conjectures, and
 display (1) on the same page quotes Moon and Moser's bounds; paged at
 [[extremal_graph_theory/erdos_1966_cliques_graphs/theorem|theorem]].

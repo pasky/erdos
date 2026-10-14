@@ -14,7 +14,7 @@ updated: 2026-10-08T01:29:58Z
 ## Statement
 
 In the paper's notation $C^t$ is the cycle with $t$ vertices, so
-$\{C^4,C^5\}$ is the site's $\{C_4,C_5\}$. **Theorem 2** (p. 278).
+$\{C^4,C^5\}$ is erdosproblems.com's $\{C_4,C_5\}$. **Theorem 2** (p. 278).
 
 $$
 \mathrm{ex}\bigl(n,\{C^4,C^5\}\bigr)=\Bigl(\frac n2\Bigr)^{3/2}+O(n).
@@ -62,6 +62,6 @@ estimate (footnote, p. 285).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0573/_index|Problem 573]]: the site's
-  "$\mathrm{ex}(n;\{C_4,C_5\})=(n/2)^{3/2}+O(n)$" (its key ErSi82), the
-  odd-cycle variant of the girth-five problem's constant.
+- [[../wiki/problems/extremal_graph_theory/E0573/_index|Problem 573]]:
+  erdosproblems.com's "$\mathrm{ex}(n;\{C_4,C_5\})=(n/2)^{3/2}+O(n)$" (its key
+  ErSi82), the odd-cycle variant of the girth-five problem's constant.

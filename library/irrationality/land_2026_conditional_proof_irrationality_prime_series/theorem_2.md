@@ -57,7 +57,7 @@ published conjecture [1, Conjecture 1.3]"; Kuperberg's own wording is on
 "Theorem 2. Assume Conjecture 1. Then
 $\sum_{n=1}^{\infty}p_n/2^n\notin\mathbb Q$."
 
-Here $2=p_1<p_2<\cdots$ are the primes, so the series is the site's
+Here $2=p_1<p_2<\cdots$ are the primes, so the series is erdosproblems.com's
 constant $S$ of Problem 251. Besides Conjecture 1, the paper's display (2)
 lists the outside estimates it relies on: $p_n\ll n\log(2n)$ and
 $\pi(x)\ll x/\log x$ (Chebyshev), and $\prod_{p\le y}(1-1/p)\asymp1/\log y$

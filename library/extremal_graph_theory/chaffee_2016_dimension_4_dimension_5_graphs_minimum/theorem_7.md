@@ -48,7 +48,7 @@ Theorem 6 and Lemma 2 of the paper.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1007/_index|Problem 1007]]: the site's
-  "achieved solely by $K_{3,3}$", and the collection's formal variant
-  `dimension_four_extremal` (a dimension-4 graph with nine edges and no
-  isolated vertex is isomorphic to $K_{3,3}$).
+- [[../wiki/problems/extremal_graph_theory/E1007/_index|Problem 1007]]:
+  erdosproblems.com's "achieved solely by $K_{3,3}$", and the collection's
+  formal variant `dimension_four_extremal` (a dimension-4 graph with nine edges
+  and no isolated vertex is isomorphic to $K_{3,3}$).

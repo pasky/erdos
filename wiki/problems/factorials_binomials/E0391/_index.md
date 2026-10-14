@@ -43,12 +43,13 @@ $$
 
 for infinitely many $n$?
 
-**Status.** The site labeled the problem PROVED (LEAN), crediting Alexeev,
-Conway, Rosenfeld, Sutherland, Tao, Uhr and Ventullo with answering both
-questions. The standing derived from the claim pages is `solved`, `proved`, by
-the accepted claim
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN), crediting
+Alexeev, Conway, Rosenfeld, Sutherland, Tao, Uhr and Ventullo with answering
+both questions. The standing derived from the claim pages is `solved`, `proved`,
+by the accepted claim
 [[problems/factorials_binomials/E0391/claims/2025_03_26_alexeev_conway_rosenfeld_sutherland_tao_uhr_ventullo|Alexeev and others 2025]].
-The Lean behind the site's qualification is third-party work not built here.
+The Lean behind erdosproblems.com's qualification is third-party work not built
+here.
 
 **Source.** [erdosproblems.com/391](https://www.erdosproblems.com/391), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #391,
@@ -85,18 +86,19 @@ Nothing has been built here.
 
 ## Current assessment
 
-The dated site formulation above asks for good bounds on $t(n)/n$, whether
-$t(n)/n\to1/e$, and whether some $c>0$ gives $t(n)/n\leq1/e-c/\log n$ for
-infinitely many $n$. All three are answered by
+The dated erdosproblems.com formulation above asks for good bounds on $t(n)/n$,
+whether $t(n)/n\to1/e$, and whether some $c>0$ gives $t(n)/n\leq1/e-c/\log n$
+for infinitely many $n$. All three are answered by
 [[problems/factorials_binomials/E0391/claims/2025_03_26_alexeev_conway_rosenfeld_sutherland_tao_uhr_ventullo|Alexeev and others 2025]]:
 $t(n)/n=1/e-c_0/\log n+O(1/(\log n)^{1+c})$ with the explicit
 $c_0=0.30441901\ldots$, so the limit is $1/e$ and the deficit holds for every
 $c<c_0$ and all large $n$ (library card
 [[../library/factorials_binomials/alexeev_2025_decomposing_factorial_into_large_factors/_index|Alexeev and others 2025]]).
-The site's curator marked the problem proved on this paper, which Mathematics
-of Computation has accepted (articles in press, DOI 10.1090/mcom/4249); the
-Lean formalization in Alexeev's repository has not been built here, so the
-acceptance rests on the curator's review and the journal's refereeing.
+The erdosproblems.com curator marked the problem proved on this paper, which
+Mathematics of Computation has accepted (articles in press, DOI
+10.1090/mcom/4249); the Lean formalization in Alexeev's repository has not been
+built here, so the acceptance rests on the curator's review and the journal's
+refereeing.
 
 The upper bound $\limsup t(n)/n\leq1/e$ is elementary from Stirling's formula.
 In [Er96b] Erdős recounted that he, Selfridge and Straus had proved the matching
@@ -110,11 +112,11 @@ of Guy and Selfridge [GuSe98], that $t(n)\leq n/e$ for $n\neq1,2,4$, that
 $t(n)\geq\lfloor2n/7\rfloor$ for $n\neq56$ and that $t(n)\geq n/3$ for
 $n\geq3\times10^5$, a threshold they asked whether one could lower: the paper
 proves the bound for $n\geq43632$ and shows that threshold best possible. It
-also computes $t(n)$ for $n\leq10^4$. Search scope: the site's problem page
-and discussion thread, the arXiv record (four versions on 2026-10-07), the
-formal-conjectures file and the Lean file's text. The paper's proofs are not
-checked here, and this page takes [Er96b], [AlGr77] and [GuSe98] from the site's
-reports of them.
+also computes $t(n)$ for $n\leq10^4$. Search scope: the erdosproblems.com
+problem page and discussion thread, the arXiv record (four versions on
+2026-10-07), the formal-conjectures file and the Lean file's text. The paper's
+proofs are not checked here, and this page takes [Er96b], [AlGr77] and [GuSe98]
+from erdosproblems.com's reports of them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

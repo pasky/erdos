@@ -33,12 +33,12 @@ What is the shortest length of a path in $E$ joining $z=0$ to $\lvert z\rvert
 
 **Formulation.** The question is read as asking for the worst case: the
 largest, over admissible $f$ of degree $n$, of the shortest length of such a
-path, as a function $S(n)$ of $n$. This is how the site's commentary reads it.
-The trivial lower bound is $S(n)\geq 1$, with equality for $f(z)=z^n$.
+path, as a function $S(n)$ of $n$. This is how the erdosproblems.com commentary
+reads it. The trivial lower bound is $S(n)\geq 1$, with equality for $f(z)=z^n$.
 
-**Status.** The site labeled the problem OPEN (page last edited 30 December
-2025). Two pending partial claims by Pendyala bear on it: an arXiv preprint
-asserting $c\sqrt{\log n}\leq S(n)\leq \pi n$ for large $n$
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 30
+December 2025). Two pending partial claims by Pendyala bear on it: an arXiv
+preprint asserting $c\sqrt{\log n}\leq S(n)\leq \pi n$ for large $n$
 ([[problems/analysis/E1120/claims/2026_06_17_pendyala|claim page]]), and an
 SSRN preprint asserting $S(n)=1$ for $n\leq 3$ and $S(6)>1$
 ([[problems/analysis/E1120/claims/2026_06_17_pendyala_radial|claim page]]).

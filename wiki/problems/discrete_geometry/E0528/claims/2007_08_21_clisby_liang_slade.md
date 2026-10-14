@@ -57,9 +57,9 @@ the earlier work it cites for the existence of the expansion.
 
 **Acceptance.** Refereed: N. Clisby, R. Liang and G. Slade, Self-avoiding walk
 enumeration via the lace expansion, J. Phys. A 40 (2007), no. 36,
-10973--11017. The site's commentary records the paper as giving more precise
-asymptotics than Kesten's, but the site labeled the problem OPEN, so that
-remark is not acceptance of the problem and the page lists no `reviewed`
+10973--11017. The erdosproblems.com commentary records the paper as giving more
+precise asymptotics than Kesten's, but Bloom's catalog labeled the problem OPEN,
+so that remark is not acceptance of the problem and the page lists no `reviewed`
 evidence. The proof is not compiled in this corpus.
 
 **Dating.** The page is dated by the article's online publication date in

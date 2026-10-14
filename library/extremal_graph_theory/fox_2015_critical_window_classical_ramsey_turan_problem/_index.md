@@ -116,8 +116,8 @@ $m=e^{-\omega((\log n)^{1/2})}n$). Theorems 1.8 and 1.9 (the transition point
 $n^2/8$ itself) do not answer #615: Theorem 1.9's independence number
 $c'n(\log\log n)^{3/2}/(\log n)^{1/2}$ is far above $n/\log n$, and
 Theorem 1.8 bounds the other direction. The problem page also cites
-Theorems 1.6 and 1.7 for its reading of the site's background sentence on
-$\mathrm{rt}(n;4,\epsilon n)$.
+Theorems 1.6 and 1.7 for its reading of erdosproblems.com's background sentence
+on $\mathrm{rt}(n;4,\epsilon n)$.
 
 **Results.**
 

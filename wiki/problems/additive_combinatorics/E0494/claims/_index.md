@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 494, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-13T17:25:54Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0494/claims
@@ -21,10 +21,10 @@ for every $k>2$, all but finitely many sizes $|A|$ are determined by the
 $k$-fold sums. This settles the modified Statement, and the claim is accepted
 and refereed.
 
-[[problems/additive_combinatorics/E0494/claims/2026_08_16_alexeev|2026_08_16_alexeev]]: Answers the site's wording (any size of $A$, which fails at size $2k$), not
-the modified Statement (all sufficiently large sizes), so it does not count
-toward the problem's standing. A Lean theorem in Alexeev's repository, written
-by Codex and GPT-5.6 Sol, proves that for every $k>2$ two sets of size $2k$
-share their $k$-fold sums.
+[[problems/additive_combinatorics/E0494/claims/2026_08_16_alexeev|2026_08_16_alexeev]]: Answers the erdosproblems.com wording (any size of $A$, which fails at size
+$2k$), not the modified Statement (all sufficiently large sizes), so it does
+not count toward the problem's standing. A Lean theorem in Alexeev's
+repository, written by Codex and GPT-5.6 Sol, proves that for every $k>2$ two
+sets of size $2k$ share their $k$-fold sums.
 
 ***

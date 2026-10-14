@@ -25,10 +25,10 @@ large finite Sidon set then there are at least $M$ many $a\in A+A$ such that
 $a+1,a-1\not\in A+A$.
 
 **Status.** PROVED (LEAN). A Lean proof by the DeepMind prover agent, Google
-DeepMind's AlphaProof Nexus, posted 2026-04-03 and accepted by the site's
-curator on 2026-05-16, gives $\gg\lvert A\rvert^2$ such sums; the paper that
-reports it, published in Science in October 2026, proves the bound. The
-acceptance and the Lean qualifications are on the claim page below.
+DeepMind's AlphaProof Nexus, posted 2026-04-03 and accepted by the
+erdosproblems.com curator on 2026-05-16, gives $\gg\lvert A\rvert^2$ such sums;
+the paper that reports it, published in Science in October 2026, proves the
+bound. The acceptance and the Lean qualifications are on the claim page below.
 
 **Source.** [erdosproblems.com/152](https://www.erdosproblems.com/152), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #152,
@@ -49,16 +49,16 @@ corpus built and audited none of them.
 
 ## Current assessment
 
-The site's formulation of 2026-10-07 asks whether, for every $M$, a
+The erdosproblems.com formulation of 2026-10-07 asks whether, for every $M$, a
 sufficiently large finite Sidon set $A$ has at least $M$ elements
 $a\in A+A$ with $a-1,a+1\notin A+A$. Answered yes, with $\gg\lvert A\rvert^2$
 such elements:
 [[problems/additive_bases/E0152/claims/2026_04_03_deepmind|the DeepMind claim
-page]] records the Lean proof posted on 2026-04-03, which the site's curator
-accepted on 2026-05-16 after withdrawing their own remark that the 1994 methods
-of Erdős, Sárközy and Sós already gave the result. The question for
-truncations of infinite Sidon sets, raised in the site's remarks, is not
-addressed by it. Status search: the site's page and remarks, its
+page]] records the Lean proof posted on 2026-04-03, which the erdosproblems.com
+curator accepted on 2026-05-16 after withdrawing their own remark that the 1994
+methods of Erdős, Sárközy and Sós already gave the result. The question for
+truncations of infinite Sidon sets, raised in the erdosproblems.com remarks, is
+not addressed by it. Status search: the erdosproblems.com page and remarks, its
 five-comment thread, the formal-conjectures file, and the arXiv and Crossref
 records of the refereed write-up, Tsoukalas et al., Science 394 (2026),
 234--239, whose Appendix B.4 proves the bound

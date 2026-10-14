@@ -64,16 +64,16 @@ which exists; it is positive because it is at least $\eta_m$ for any $m\ge1$
 with $2m\ge r$, and every such $\eta_m$ is positive. For $r=0$ the set is all
 integers.
 
-**Earlier postings.** Anay Aggarwal pointed out in the site's discussion on
-22 August 2025 that Theorem 5 resolves the problem, and Stijn Cambie gave the
-derivation above there on 30 August 2025; the result is Granville and
-Ramaré's, so their paper's date and names name this page.
+**Earlier postings.** Anay Aggarwal pointed out in the erdosproblems.com
+discussion on 22 August 2025 that Theorem 5 resolves the problem, and Stijn
+Cambie gave the derivation above there on 30 August 2025; the result is
+Granville and Ramaré's, so their paper's date and names name this page.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper appeared in Mathematika, a refereed journal, and
-its acknowledgments thank an anonymous referee. Thomas Bloom, the site's
-curator, marked the problem proved and credits the paper, with Aggarwal and
-Cambie's observation, on the problem page (last edited 28 October 2025); the
-community database records the problem as proved from 31 August 2025. The
-paper has no Lean formalization known here.
+its acknowledgments thank an anonymous referee. Thomas Bloom, the
+erdosproblems.com curator, marked the problem proved and credits the paper, with
+Aggarwal and Cambie's observation, on the problem page (last edited 28 October
+2025); the community database records the problem as proved from 31 August 2025.
+The paper has no Lean formalization known here.

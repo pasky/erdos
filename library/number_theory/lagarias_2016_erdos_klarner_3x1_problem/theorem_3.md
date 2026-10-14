@@ -115,7 +115,7 @@ applied to an infinitely generated semigroup.
   answer instead comes through the semigroup relation $f_2f_2f_3=f_6f_2$
   and Theorem 3 applied to an infinitely generated free semigroup
   ([[number_theory/lagarias_2016_erdos_klarner_3x1_problem/theorem_6|Theorem 6]]).
-- [[../wiki/problems/number_theory/E1135/_index|Problem 1135]]: the theorem the site's
-  remark means; the paper's closing paragraph (p. 775) regards this
-  orbit-size bound as Erdős's nearest approach to problems of the $3x+1$
+- [[../wiki/problems/number_theory/E1135/_index|Problem 1135]]: the theorem the
+  erdosproblems.com remark means; the paper's closing paragraph (p. 775) regards
+  this orbit-size bound as Erdős's nearest approach to problems of the $3x+1$
   kind.

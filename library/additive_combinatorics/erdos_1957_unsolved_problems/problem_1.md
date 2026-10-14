@@ -60,6 +60,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/primes/E0855/_index|Problem 855]]: inequality (1) is the
-  problem's inequality. The site's wording asks it for large $x$ and $y$; the
-  paper states no range. The paper poses the question and does not resolve
-  it.
+  problem's inequality. The erdosproblems.com wording asks it for large $x$ and
+  $y$; the paper states no range. The paper poses the question and does not
+  resolve it.

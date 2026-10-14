@@ -4,7 +4,8 @@ title: "Theorem 3: g_4(n) = 3 for all n ≥ 2"
 desc: |
   Any n + 3 integers in {1, ..., 2n} contain the six pairwise sums of four
   distinct integers, and the odd integers together with 2n - 2 and 2n show
-  that n + 2 do not; the exact value behind the site's earlier bound 2032.
+  that n + 2 do not; the exact value behind erdosproblems.com's earlier
+  bound 2032.
 created: 2026-09-18T15:50:00Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -51,6 +52,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]: $g_4(N)=3$ for
-  $N\ge2$; the site's commentary prints "$g_4(N)\ll1$" (the 1975 result) and
-  "van Doorn has shown that $g_4(N)\le2032$" (an August 2025 thread note
-  that this theorem supersedes).
+  $N\ge2$; the erdosproblems.com commentary prints "$g_4(N)\ll1$" (the 1975
+  result) and "van Doorn has shown that $g_4(N)\le2032$" (an August 2025 thread
+  note that this theorem supersedes).

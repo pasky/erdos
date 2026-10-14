@@ -83,7 +83,7 @@ Bourgain's asymmetric-interval method for $(3,1)$-sum-free sets
 are recalled as inapplicable to $S(N)$, since $(1/3,2/3)$ is the unique
 sum-free interval of measure $1/3$.
 
-For problem 792 the theorem is the site's best lower bound,
+For problem 792 the theorem is erdosproblems.com's best lower bound,
 $f(n)\ge n/3+c\log\log n$. For problem 790 it does not apply: that problem
 forbids an element equal to a sum of two or more distinct other elements, a
 condition that the two-term sum-free property treated here does not imply,
@@ -92,8 +92,8 @@ and the paper says nothing about it.
 Source: <https://arxiv.org/abs/2502.08624v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0792/_index|#792]]: Theorem 1.2
-(p. 2) is the site's lower bound $f(n)\ge n/3+c\log\log n$, the answer to
-Problem 1 of Green's list, recorded with the preprint qualification.
+(p. 2) is erdosproblems.com's lower bound $f(n)\ge n/3+c\log\log n$, the answer
+to Problem 1 of Green's list, recorded with the preprint qualification.
 [[../wiki/problems/additive_combinatorics/E0790/_index|#790]]: not applicable; the
 two-term sum-free condition treated here does not imply that problem's
 condition on sums of two or more distinct summands.

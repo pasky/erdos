@@ -5,7 +5,7 @@ desc: |
   Erdős's 1997 dilation question: a sequence of reals above one with
   |kα_i − α_j| ≥ 1 for all i ≠ j and all k generalizes a primitive
   sequence; the printed question on the reciprocal sums, whose signs are
-  the reverse of the site's, and the prize offer; the origin wording of
+  the reverse of erdosproblems.com's, and the prize offer; the origin wording of
   Problem 143.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T00:15:26Z
@@ -38,13 +38,13 @@ and, at the top of p. 58: "I offer \$500 for settling this annoying
 diophantine problem."
 
 A filing observation, not a review verdict: the printed question asks
-whether (2.20) forces the two sums to diverge, while the site's Problem
+whether (2.20) forces the two sums to diverge, while erdosproblems.com's Problem
 143 asks whether it forces $\sum1/(x\log x)<\infty$ or
 $\sum_{x<n}1/x=o(\log n)$, the sparseness that the integer case (a
 primitive sequence, whose $\sum1/(a_i\log a_i)$ Erdős bounded in 1935)
 suggests and that the preceding sentence recalls. The printed signs are
-read here as reversed by a misprint, and the site's form is the one the
-problem page carries; the source is recorded as printed.
+read here as reversed by a misprint, and the erdosproblems.com form is the one
+the problem page carries; the source is recorded as printed.
 
 **Source.** P. Erdős, *Some of My Favorite Problems and Results*, The
 Mathematics of Paul Erdős I (1997), 47--67; printed pp. 57--58 (PDF
@@ -68,7 +68,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/divisors/E0143/_index|Problem 143]]: the site's source for the
-  problem and its prize; the condition (2.20) is the problem's
+- [[../wiki/problems/divisors/E0143/_index|Problem 143]]: the erdosproblems.com
+  source for the problem and its prize; the condition (2.20) is the problem's
   hypothesis, and the two printed sums are the problem's two sparseness
   measures with the signs reversed as recorded above.

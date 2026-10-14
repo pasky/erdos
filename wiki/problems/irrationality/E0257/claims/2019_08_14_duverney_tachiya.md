@@ -71,7 +71,7 @@ which the divisibility hypothesis $(H_1)$ is not available.
 
 **Acceptance.** Refereed: Forum Mathematicum, volume 31, issue 6 (2019), pp.
 1557--1566, published online 14 August 2019 according to the record of its DOI.
-The site does not cite the paper, so no `reviewed` evidence is listed. The proof
-is not checked here.
+erdosproblems.com does not cite the paper, so no `reviewed` evidence is listed.
+The proof is not checked here.
 
 **Depends on.** Nothing in this wiki.

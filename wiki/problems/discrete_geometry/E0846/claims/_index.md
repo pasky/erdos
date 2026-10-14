@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 846, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-13T10:05:41Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/discrete_geometry/E0846/claims
@@ -19,6 +19,7 @@ construction, and the curator credits the result.
 [[problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|2026_02_25_deepmind]]: A Lean proof, found autonomously from the formal statement by Google
 DeepMind's AlphaProof Nexus, shows that an infinite plane set can have dense
 collinear-free subsets without being a finite union of collinear-free sets.
-The site's curator credits it, and the paper reporting it is refereed.
+The erdosproblems.com curator credits it, and the paper reporting it is
+refereed.
 
 ***

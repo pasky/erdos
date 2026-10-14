@@ -5,7 +5,7 @@ desc: |
   Theorem 1 of Erdős and Szemerédi (J. Austral. Math. Soc., 1976) gives a
   simpler proof that if two subsets of $\{1,\ldots,x\}$ have all cross products
   distinct, the product of their sizes is below $cx^2/\log x$. It is refereed
-  and linked from the site's thread.
+  and linked from the erdosproblems.com thread.
 authors:
 - P. Erdős
 - A. Szemerédi
@@ -52,10 +52,10 @@ The same paper conjectures the sharper bound $(1+o(1))x^2/\log x$, which a
 forum construction of 7 September 2026 reports to be false; that conjecture
 is not the problem.
 
-**Acceptance.** Refereed: the journal publication cited above. The site's
-commentary attributes the problem's proof to Szemerédi's 1976 paper and does not
-cite this one. A thread comment of 17 May 2026 links this paper from the Rényi
-Institute's Erdős archive as the shorter proof.
+**Acceptance.** Refereed: the journal publication cited above. The
+erdosproblems.com commentary attributes the problem's proof to Szemerédi's 1976
+paper and does not cite this one. A thread comment of 17 May 2026 links this
+paper from the Rényi Institute's Erdős archive as the shorter proof.
 
 **Depends on.** Nothing in this wiki: the theorem is proved within the
 paper, whose card is linked above.

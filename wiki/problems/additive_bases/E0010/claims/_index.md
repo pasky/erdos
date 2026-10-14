@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 10, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_bases/E0010/claims
@@ -18,7 +18,7 @@ three powers of $2$, the Grechuk variant. It is credited to the solver address
 
 [[problems/additive_bases/E0010/claims/2026_08_06_daryxx|2026_08_06_daryxx]]: A write-up and Lean 4 file under the handle Daryxx proving that infinitely
 many even integers are not a prime plus at most three powers of $2$. This is
-the site's Grechuk remark, not the question, and the catalog cites it as the
-variant's proof.
+erdosproblems.com's Grechuk remark, not the question, and the
+formal-conjectures catalog cites it as the variant's proof.
 
 ***

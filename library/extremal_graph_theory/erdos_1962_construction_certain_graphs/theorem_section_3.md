@@ -85,7 +85,8 @@ Schmidt; a covering estimate the authors "have recently used elsewhere"
   $n<l^{1+c_4}$ vertices can have fewer than $l\approx n^{1/(1+c_4)}$
   vertices: $f(n)\le n^{1-\varepsilon}$ for some $\varepsilon>0$, the first
   upper bound for the Erdős--Rogers function.
-- [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]: the site's
-  $\delta_3(7)\ge1/4$ observation joins two copies of the $k=4$ graph
-  completely, and Balogh and Lenz's Corollary 4 inserts such graphs into the
-  classes of a complete multipartite graph ("the Erdős-Rogers Theorem").
+- [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]:
+  erdosproblems.com's $\delta_3(7)\ge1/4$ observation joins two copies of the
+  $k=4$ graph completely, and Balogh and Lenz's Corollary 4 inserts such graphs
+  into the classes of a complete multipartite graph ("the Erdős-Rogers
+  Theorem").

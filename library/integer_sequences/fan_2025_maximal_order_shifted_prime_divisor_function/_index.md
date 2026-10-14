@@ -149,7 +149,7 @@ This elementary implication is recorded for
 [[../wiki/problems/integer_sequences/E0820/_index|Problem 820]]. It is not a labeled
 Fan--Pollack result: the underlying connection belongs to the Problem 820
 history in Erdős's 1974 discussion and was pointed out for this new bound in
-van Doorn's July 2026 site comment.
+van Doorn's July 2026 erdosproblems.com comment.
 
 ## External-input and coverage boundary
 

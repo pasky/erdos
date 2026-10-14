@@ -66,10 +66,10 @@ does not prove.
 
 ## Bears on
 
-- [[../wiki/problems/set_systems/E1076/_index|Problem 1076]]: under the site's
-  wording $\mathrm{ex}_3(n,\mathcal F_k)=f^{(3)}(n;k,k-2)-1$, and this bound
-  with the Theorem of Section 4 shows that it has order $n^2$ for every
-  $k\ge4$; it gives no constant, and so does not decide whether the
+- [[../wiki/problems/set_systems/E1076/_index|Problem 1076]]: under the
+  erdosproblems.com wording $\mathrm{ex}_3(n,\mathcal F_k)=f^{(3)}(n;k,k-2)-1$,
+  and this bound with the Theorem of Section 4 shows that it has order $n^2$ for
+  every $k\ge4$; it gives no constant, and so does not decide whether the
   asymptotic $n^2/6$ the problem asks about holds.
 - [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the case
   $r=3$, $k=s+2$ with $s\ge2$ of the problem's function, where it settles

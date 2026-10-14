@@ -5,7 +5,7 @@ desc: |
   Theorem 2 of Bollobás and Nikiforov (Electron. J. Combin. 2005) proves the
   Bollobás–Erdős conjecture for $n\ge r$: there is an $r$-clique of degree sum
   at least $2rm/n$. The claim is accepted on the refereed publication and the
-  site's credit.
+  erdosproblems.com credit.
 authors:
 - Béla Bollobás
 - Vladimir Nikiforov
@@ -66,9 +66,9 @@ $n\ge r^2$) and Faudree ($n>r^2(r-1)/4$), which have their own claim pages,
 The theorem's hypotheses ("Let $r\ge2$, $n\ge r$, $m\ge t_r(n)$") are those of
 the modified Statement of
 [[problems/extremal_graph_theory/E0904/_index|Problem 904]], so the theorem
-proves it in full. The site's wording leaves $n$ free and fails for $n<r$,
-where no graph has a clique on $r$ vertices; the problem page's Notes record
-that failure, about which the theorem says nothing.
+proves it in full. The erdosproblems.com wording leaves $n$ free and fails for
+$n<r$, where no graph has a clique on $r$ vertices; the problem page's Notes
+record that failure, about which the theorem says nothing.
 
 **Depends on.** Nothing in this wiki; the paper's argument (an edge count over
 the common neighborhoods of the greedy clique and Cauchy's inequality) is
@@ -76,18 +76,19 @@ self-contained.
 
 **Acceptance.** The `refereed` evidence is the paper's refereed, open-access
 publication in the Electronic Journal of Combinatorics. The `reviewed` evidence
-is the site's documented acceptance. Its curator, Thomas Bloom, credits the full
-conjecture to this paper in the commentary and labeled the problem proved, and
-the community database agrees. The formal-conjectures statement for the problem,
-tagged solved, encodes the same $n\ge r$ range. Proof coverage: the statements
-of Theorems 1, 2 and 3 and Corollary 1 are checked. The proof of Theorem 2 (pp.
-6--7) is followed but not checked step by step. In their acknowledgment, the
-authors thank a reader for pointing out a fallacy in an earlier version of the
-proof of Theorem 2. The arXiv version carries the corrected proof.
+is erdosproblems.com's documented acceptance. Its curator, Thomas Bloom, credits
+the full conjecture to this paper in the commentary and labeled the problem
+proved, and the community database agrees. The formal-conjectures statement for
+the problem, tagged solved, encodes the same $n\ge r$ range. Proof coverage: the
+statements of Theorems 1, 2 and 3 and Corollary 1 are checked. The proof of
+Theorem 2 (pp. 6--7) is followed but not checked step by step. In their
+acknowledgment, the authors thank a reader for pointing out a fallacy in an
+earlier version of the proof of Theorem 2. The arXiv version carries the
+corrected proof.
 
 **Formalization.** A Lean 4 proof of the theorem, declared a formalization of
-this paper, was announced on the site's thread on 18 April 2026 by Parcly
-Taxel, made with help from the AI system Aristotle, and first posted as a
+this paper, was announced on the erdosproblems.com thread on 18 April 2026 by
+Parcly Taxel, made with help from the AI system Aristotle, and first posted as a
 gist; the file `src/v4.29.1/ErdosProblems/Erdos904.lean` of Boris Alexeev's
 repository `plby/lean-proofs` (Lean and Mathlib `v4.29.1`; 766 lines at the
 repository's commit of 15 September 2026) names Bollobás and Nikiforov as its
@@ -106,6 +107,6 @@ clique. A closing comment records the axioms `propext`, `Classical.choice` and
 `Quot.sound`. The formal statement's range $r\le n$ is the modified
 Statement's $n\ge r$ widened to $r=1$. No build, replay or audit of it is
 recorded and the fidelity of the Lean statement to the question has not been
-independently reviewed; the site's "(LEAN)" suffix and the community
+independently reviewed; erdosproblems.com's "(LEAN)" suffix and the community
 database's "proved (Lean)" are catalog labels, not a documented independent
 review of the whole statement, so the page lists no `formalized` evidence.

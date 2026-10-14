@@ -192,24 +192,24 @@ readings of the printed text, not review verdicts. Nothing is independently
 reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0639/_index|#639]]: Theorem 1 (printed
-p. 393, PDF p. 1) is the clique-covering theorem the site and Keevash and
-Sudakov attribute to the paper: "$\max\{\mathrm{cc}(G)+\mathrm{cc}(\overline G)\}=[n^2/4]+2$
-for $n>n_0$", where $\mathrm{cc}(G)$ is "the least number of complete
-subgraphs necessary to cover the edges of a graph $G$" (p. 393) and the
-maximum runs over all graphs $G$ on $n$ vertices; since the monochromatic
-cliques of a $2$-edge-colored $K_n$ with color classes $G$ and
-$\overline G$ are the cliques of $G$ and of $\overline G$, this is the
-statement that at most $\lfloor n^2/4\rfloor+2$ monochromatic cliques cover
-the edges of any $2$-edge-colored $K_n$ once $n$ is large, and the printed
-proof carries the hypothesis $n>2^{1500}$ (pp. 397--398; $n\ge2^{1500}$ in
-its earlier steps, pp. 395--396). The extremal systems paragraph (p. 398)
+p. 393, PDF p. 1) is the clique-covering theorem erdosproblems.com and Keevash
+and Sudakov attribute to the paper:
+"$\max\{\mathrm{cc}(G)+\mathrm{cc}(\overline G)\}=[n^2/4]+2$ for $n>n_0$", where
+$\mathrm{cc}(G)$ is "the least number of complete subgraphs necessary to cover
+the edges of a graph $G$" (p. 393) and the maximum runs over all graphs $G$ on
+$n$ vertices; since the monochromatic cliques of a $2$-edge-colored $K_n$ with
+color classes $G$ and $\overline G$ are the cliques of $G$ and of $\overline G$,
+this is the statement that at most $\lfloor n^2/4\rfloor+2$ monochromatic
+cliques cover the edges of any $2$-edge-colored $K_n$ once $n$ is large, and the
+printed proof carries the hypothesis $n>2^{1500}$ (pp. 397--398; $n\ge2^{1500}$
+in its earlier steps, pp. 395--396). The extremal systems paragraph (p. 398)
 identifies the colorings attaining $[n^2/4]+2$ for $n>2^{1500}$: two
 cliques on $\lfloor n/2\rfloor$ and $\lceil n/2\rceil$ vertices in one
 color with at most $\lfloor n/2\rfloor$ independent edges of that color
 between them, the rest of the bipartite edges in the other. The paper says
 nothing about edges in no monochromatic triangle; Alon's deduction of
 $f(n,\triangle)\le\lfloor n^2/4\rfloor$ for large $n$ from Theorem 1, which
-the site and
+erdosproblems.com and
 [[ramsey_theory/keevash_2004_number_edges_not_covered_monochromatic_copies/_index|Keevash and Sudakov]]
 (p. 42) report, is not printed in this paper, so the problem page's account
 of that route remains second-hand at the deduction while the theorem it

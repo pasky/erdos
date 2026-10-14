@@ -60,8 +60,8 @@ unconditional upper bounds had exponent $k^{k/2}$ for every $n$, so the
 comparison reached no $n$ at all. The problem page's own comparison
 reproduces this derivation.
 
-**Submission note.** Posted to the site's forum by Adam McKenna (account
-mysticflounder) on 1 August 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Adam McKenna
+(account mysticflounder) on 1 August 2026:
 
 > According to claude (and adversarially audited by GPT 5.6), the recent work by
 > OpenAI (Ten advances in mathematics and theoretical computer science), reduces
@@ -85,7 +85,7 @@ correctness of its two inputs, and classifies the OpenAI input as proved
 tentatively on a source-level inspection of the release's Lean files
 without a build or axiom audit. Both inputs are accepted on this wiki:
 the upper bound is refereed, and the lower bound is reviewed on Problem
-183's claim page by the site's curator and through Rob Morris's
+183's claim page by the erdosproblems.com curator and through Rob Morris's
 exposition hosted there, from an unrefereed report. The comparison itself
 is elementary.
 
@@ -97,8 +97,8 @@ recorded as the sources give them.
 
 **Standing.** Claimed. The reply of 2 August 2026 by a coauthor of the
 upper-bound paper agrees that the two papers together dispose of every
-$n\ge4$, up to $n=2$ or $3$; the site's label for the problem is OPEN,
-its commentary (last edited 8 February 2026) does not mention the report,
+$n\ge4$, up to $n=2$ or $3$; the erdosproblems.com label for the problem is
+OPEN, its commentary (last edited 8 February 2026) does not mention the report,
 and its proof-claim tab is empty, so the thread carries no acceptance. The
 report has no refereed or reviewed version, and nothing on this page is
 independently reviewed; the problem page records the same deduction as

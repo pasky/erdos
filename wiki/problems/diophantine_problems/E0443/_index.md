@@ -39,11 +39,11 @@ $$
 Can it be arbitrarily large? Is it $\leq (mn)^{o(1)}$ for all sufficiently large
 $m,n$?
 
-**Notes.** The site's wording fails on the diagonal $m=n$, where the two sets
-coincide: the intersection is then $\{k(n-k):1\le k\le n/2\}$ itself, with
-$\lfloor n/2\rfloor$ elements, so it is trivially arbitrarily large and is not
-$(mn)^{o(1)}=n^{o(1)}$, and the third question has the trivial answer no. The
-failure is this page's own elementary check. The change inserts "with
+**Notes.** The erdosproblems.com wording fails on the diagonal $m=n$, where the
+two sets coincide: the intersection is then $\{k(n-k):1\le k\le n/2\}$ itself,
+with $\lfloor n/2\rfloor$ elements, so it is trivially arbitrarily large and is
+not $(mn)^{o(1)}=n^{o(1)}$, and the third question has the trivial answer no.
+The failure is this page's own elementary check. The change inserts "with
 $m\neq n$" after "Let $m,n\geq 1$"; nothing else changes. Since the
 intersection is symmetric in $m$ and $n$, the corrected question is the same
 as the one for $m>n$. The evidence is first the poser's own words: Erdős and
@@ -53,20 +53,20 @@ than $(mn)^\varepsilon$ for every $\varepsilon>0$ if $mn$ is sufficiently
 large"; on the diagonal the two sets are one, the unboundedness is immediate
 and the bound is false, so these words fit only distinct $m$ and $n$: the
 poser's text assumes two distinct sets, and the slip is the unstated
-$m\neq n$. The site's commentary, which states the solution for $m>n$, its
-label PROVED, and the formal-conjectures statement listed under Formalization,
-which assumes $n<m$ in both its parts, agree with the change but do not
-license it: their restriction is Hegyvári's hypothesis. The defect is already
-in the poser's text, which states no restriction on $m$ and $n$. Hegyvári's
-paper quotes the question without one and proves its theorems for $m>n$; that
-hypothesis is not the source of the change. No result about the site's wording
-exists beyond the check recorded here, which settles no instance of the
-modified Statement.
+$m\neq n$. The erdosproblems.com commentary, which states the solution for
+$m>n$, its label PROVED, and the formal-conjectures statement listed under
+Formalization, which assumes $n<m$ in both its parts, agree with the change but
+do not license it: their restriction is Hegyvári's hypothesis. The defect is
+already in the poser's text, which states no restriction on $m$ and $n$.
+Hegyvári's paper quotes the question without one and proves its theorems for
+$m>n$; that hypothesis is not the source of the change. No result about the
+erdosproblems.com wording exists beyond the check recorded here, which settles
+no instance of the modified Statement.
 
 **Status.** Labeled PROVED (LEAN) on erdosproblems.com. This label describes the
-modified Statement. The site's commentary credits Hegyvári and, unpublished,
-Cambie. The Lean mark refers to a third-party Lean formalization of Hegyvári's
-paper, which this repository has not built. The claim page
+modified Statement. The erdosproblems.com commentary credits Hegyvári and,
+unpublished, Cambie. The Lean mark refers to a third-party Lean formalization of
+Hegyvári's paper, which this repository has not built. The claim page
 [[problems/diophantine_problems/E0443/claims/2025_03_31_hegyvari|Hegyvári]]
 records the result and its acceptance.
 
@@ -97,23 +97,23 @@ with yes (arXiv:2503.24201, 31 March 2025): for $m>n$ the intersection is at
 most a divisor-type count of $m^2-n^2$, with equality when $m$ is even and $n$
 odd, which gives $|A_n\cap A_m|<m^{(2+\epsilon)\log2/\log\log m}$ for all
 large $m>n$, and for every $s$ there are infinitely many pairs with
-$|A_n\cap A_m|=s$. The site credits an independent unpublished solution by
-Cambie with the same conclusions. The
+$|A_n\cap A_m|=s$. erdosproblems.com credits an independent unpublished solution
+by Cambie with the same conclusions. The
 [[problems/diophantine_problems/E0443/claims/2025_03_31_hegyvari|claim page]]
-states the theorems and the acceptance: the site's curator labeled the problem
-proved and credits the paper, which is a preprint without a journal
+states the theorems and the acceptance: the erdosproblems.com curator labeled
+the problem proved and credits the paper, which is a preprint without a journal
 publication found.
 
-The site's label carried the mark Lean. The proof it refers to is a file in
-Boris Alexeev's repository, produced with the system Aristotle and announced
-on the forum thread on 4 February 2026, whose header names Hegyvári and
-Cambie as the informal authors and lists the paper's Theorem 1.1, Corollary
+The erdosproblems.com label carried the mark Lean. The proof it refers to is a
+file in Boris Alexeev's repository, produced with the system Aristotle and
+announced on the forum thread on 4 February 2026, whose header names Hegyvári
+and Cambie as the informal authors and lists the paper's Theorem 1.1, Corollary
 1.2 and Theorem 1.3 as proved; the formal-conjectures file cites it for both
 parts of the question. This repository has not built or audited that file,
 so the standing rests on the curator's credit and not on a formal check.
 
-The status search covered the site's problem page and forum thread, the arXiv
-record of the paper, a Crossref search for a journal version, the
+The status search covered the erdosproblems.com problem page and forum thread,
+the arXiv record of the paper, a Crossref search for a journal version, the
 formal-conjectures file and the pinned Lean file's header. On 7 October 2026
 none of these sources recorded another claim or dispute. This repository has
 not reviewed the proof; the

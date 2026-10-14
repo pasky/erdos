@@ -34,9 +34,9 @@ the Füredi--Maleki construction (Status), whose failures occur at every large
 $n$. So no range on $n$ removes the failures, the Statement stands as printed,
 and both readings have the negative answer.
 
-**Status.** Disproved, the site's label (DISPROVED (LEAN)), whose suffix is a
-catalog label explained under Formalization. The result and its acceptance
-evidence are recorded on the claim page
+**Status.** Disproved, the erdosproblems.com label (DISPROVED (LEAN)), whose
+suffix is a catalog label explained under Formalization. The result and its
+acceptance evidence are recorded on the claim page
 [[problems/extremal_graph_theory/E0608/claims/2016_05_29_grzesik_hu_volec|Grzesik--Hu--Volec]],
 from which the frontmatter is derived. The Statement fails trivially at small
 orders, first at $K_3$ (Formulation). It also fails at every large order. The
@@ -44,14 +44,14 @@ status-defining source is the Füredi--Maleki construction, described as
 Construction 2 of [GHV19] (J. Combin. Theory Ser. B 137 (2019), 65--103,
 refereed). For all large $n$ it gives a graph with $\lfloor n^2/4\rfloor+1$
 edges and only $((2+\sqrt2)/16)n^2+O(n)<2n^2/9$ edges on pentagons. The same
-paper's Theorem 1.3 shows that this count is sharp. The site's commentary adopts
-this negative answer, crediting Füredi and Maleki as described by [GHV19] (page
-last edited 25 October 2025, accessed 2026-10-07). The suffix "(LEAN)" rests on
-the repository that the community database records as the problem's formal
-status. That repository is a public Lean 4 development that declares itself a
-formalization of this disproof, and it is recorded as a formalization link on
-the same claim page. The corpus holds no build or audit of it, so it adds no
-evidence (Formalization below).
+paper's Theorem 1.3 shows that this count is sharp. The erdosproblems.com
+commentary adopts this negative answer, crediting Füredi and Maleki as described
+by [GHV19] (page last edited 25 October 2025, accessed 2026-10-07). The suffix
+"(LEAN)" rests on the repository that the community database records as the
+problem's formal status. That repository is a public Lean 4 development that
+declares itself a formalization of this disproof, and it is recorded as a
+formalization link on the same claim page. The corpus holds no build or audit of
+it, so it adds no evidence (Formalization below).
 
 **Source.** [erdosproblems.com/608](https://www.erdosproblems.com/608): the
 problem page (DISPROVED (LEAN); last edited 25 October 2025;
@@ -63,21 +63,21 @@ credited to Füredi and Maleki as described by [GHV19] with the sharp constant
 $(2+\sqrt2)/16$ and the $k\ge3$ cases of the [EFR92] conjecture proved by
 [GHV19]; "Formalised statement? No"), its discussion thread (two comments: one
 of 25 October 2025 reporting the Füredi--Maleki construction through
-Construction 2 of [GHV19], after which the site records that it was updated, and
-one of 25 July 2026 on typos in the commentary) and its empty proof-claim tab.
-The community database (teorth/erdosproblems, `data/problems.yaml`, read
-2026-10-07) lists the informal state disproved (last update 25 October 2025) and
-the status "disproved (Lean)" (last update 29 July 2026), with the formal-status
-URL https://github.com/primateria/erdos608 and no formalized statement. Cite as:
-T. F. Bloom, Erdős Problem #608, https://www.erdosproblems.com/608, accessed
-2026-10-07.
+Construction 2 of [GHV19], after which erdosproblems.com records that it was
+updated, and one of 25 July 2026 on typos in the commentary) and its empty
+proof-claim tab. The community database (teorth/erdosproblems,
+`data/problems.yaml`, read 2026-10-07) lists the informal state disproved (last
+update 25 October 2025) and the status "disproved (Lean)" (last update 29 July
+2026), with the formal-status URL https://github.com/primateria/erdos608 and no
+formalized statement. Cite as: T. F. Bloom, Erdős Problem #608,
+https://www.erdosproblems.com/608, accessed 2026-10-07.
 
 **References.**
 
 - [EFR92] Erdős, P. and Faudree, R. J. and Rousseau, C. C., Extremal problems
   involving vertices and edges on odd cycles. Discrete Math. 101 (1992), no.
-  1--3, 23--31, doi:10.1016/0012-365X(92)90586-5 (Crossref record). Site
-  source key.
+  1--3, 23--31, doi:10.1016/0012-365X(92)90586-5 (Crossref record).
+  erdosproblems.com source key.
 - [Er97d] Erdős, Paul, Some recent problems and results in graph theory.
   Discrete Math. 164 (1997), 81--85; item 11, p. 84. Library home:
   [[../library/ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/_index|erdos_1997_some_recent_problems_results_graph_theory]].
@@ -99,18 +99,18 @@ No formal-conjectures statement exists for the problem.
 
 ## Current assessment
 
-**The question (site formulation of 2026-10-07).** The statement above; last
-edited 25 October 2025. The site's last label was DISPROVED (LEAN), its label
-for a negative answer whose proof the site recorded as verified in Lean. The
-commentary records the Erdős--Faudree--Rousseau triangle count and Erdős's
-odd-cycle statement with its extremal example, the triangle condition that would
-imply a positive answer, the general $C_{2k+1}$ question of [EFR92], and the
-negative answer for $C_5$ credited to Füredi and Maleki as described by [GHV19],
-with the sharp constant $(2+\sqrt2)/16$ and the $k\ge3$ cases proved by [GHV19].
-The thread holds two comments (25 October 2025 and 25 July 2026), the
-proof-claim tab was empty, and the community database lists the problem as
-disproved (last update 25 October 2025) and disproved (Lean) (last update 29
-July 2026).
+**The question (erdosproblems.com formulation of 2026-10-07).** The statement
+above; last edited 25 October 2025. erdosproblems.com's last label was DISPROVED
+(LEAN), its label for a negative answer whose proof erdosproblems.com recorded
+as verified in Lean. The commentary records the Erdős--Faudree--Rousseau
+triangle count and Erdős's odd-cycle statement with its extremal example, the
+triangle condition that would imply a positive answer, the general $C_{2k+1}$
+question of [EFR92], and the negative answer for $C_5$ credited to Füredi and
+Maleki as described by [GHV19], with the sharp constant $(2+\sqrt2)/16$ and the
+$k\ge3$ cases proved by [GHV19]. The thread holds two comments (25 October 2025
+and 25 July 2026), the proof-claim tab was empty, and the community database
+lists the problem as disproved (last update 25 October 2025) and disproved
+(Lean) (last update 29 July 2026).
 
 **Currentness search.** The
 [arXiv record](https://arxiv.org/abs/1605.09055), the publisher's indexed
@@ -124,8 +124,8 @@ search also located the
 [2016 Warsaw seminar announcement](https://www.mimuw.edu.pl/en/seminars/talk/minimum-number-of-edges-that-occur-in-odd-cycles/),
 whose result is supported through [GHV19], and the formalization repository's
 README. No primary correction changing the pentagon conclusion was located.
-The search did not reach the publisher's article page or the site's live page.
-Search silence is not evidence that no later correction exists.
+The search did not reach the publisher's article page or erdosproblems.com's
+live page. Search silence is not evidence that no later correction exists.
 
 The page's account of the construction and the theorems rests on manuscript
 pp. 1--4, 8, 19--20, 25--26, 30--31 and 34; pp. 8 and 34 distinguish
@@ -142,11 +142,11 @@ $(n/2)-O(1)$ vertices joined to at least two of its vertices; the conjecture
 is stated for graphs with $\lfloor n^2/4\rfloor+1$ edges and no lower bound on
 $n$.
 
-The site's word "Lean" and the formalization link are catalog information. The
-repository's README at the pinned commit reports an eventual-form
-disproof with an explicit gap and a separate counterexample to the form with
-no lower bound on $n$, and names Füredi and Maleki, as described by Grzesik,
-Hu and Volec, as the source of its mathematics; the
+erdosproblems.com's word "Lean" and the formalization link are catalog
+information. The repository's README at the pinned commit reports an
+eventual-form disproof with an explicit gap and a separate counterexample to the
+form with no lower bound on $n$, and names Füredi and Maleki, as described by
+Grzesik, Hu and Volec, as the source of its mathematics; the
 [[problems/extremal_graph_theory/E0608/claims/2016_05_29_grzesik_hu_volec|claim page]]
 records what it states. The corpus holds no build, axiom audit or
 statement-fidelity audit of this development and has read no source of it

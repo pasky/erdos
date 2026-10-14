@@ -4,8 +4,8 @@ title: The 4m-conjecture from the complete intersection theorem
 desc: |
   Ahlswede and Khachatrian prove the Erdős–Ko–Rado $4m$-conjecture, the bound of
   Problem 83, both directly and as a case of their complete intersection
-  theorem. The site's curator credits the refereed paper, which appeared in
-  European J. Combin.
+  theorem. The erdosproblems.com curator credits the refereed paper, which
+  appeared in European J. Combin.
 authors:
 - Rudolf Ahlswede
 - Levon H. Khachatrian
@@ -54,13 +54,14 @@ that paper.
 
 **Acceptance.** Refereed: European J. Combin. **18** (1997), no. 2, 125–136. The
 publisher's record dates the issue February 1997 without a day, and the page's
-date is the first of that month. Reviewed: Thomas Bloom, the site's curator,
-marked the problem proved and credits the proof to Ahlswede and Khachatrian
-[AhKh97]. The site's label adds a Lean qualification. The formal-conjectures
-statement file for the problem states the bound and leaves its proof as `sorry`.
-Its `formal_proof` attribute points at the Lean file in Boris Alexeev's
-lean-proofs collection, linked above at its pinned commit. That file declares
-itself a formalization of Ahlswede and Khachatrian's solution, with Codex and
-GPT-5.6 Sol as formal authors. This corpus has not built or audited that file,
-so the page lists no `formalized` evidence. The library card records the
-statements but does not verify the proofs. It is not acceptance evidence.
+date is the first of that month. Reviewed: Thomas Bloom, the erdosproblems.com
+curator, marked the problem proved and credits the proof to Ahlswede and
+Khachatrian [AhKh97]. The erdosproblems.com label adds a Lean qualification. The
+formal-conjectures statement file for the problem states the bound and leaves
+its proof as `sorry`. Its `formal_proof` attribute points at the Lean file in
+Boris Alexeev's lean-proofs collection, linked above at its pinned commit. That
+file declares itself a formalization of Ahlswede and Khachatrian's solution,
+with Codex and GPT-5.6 Sol as formal authors. This corpus has not built or
+audited that file, so the page lists no `formalized` evidence. The library card
+records the statements but does not verify the proofs. It is not acceptance
+evidence.

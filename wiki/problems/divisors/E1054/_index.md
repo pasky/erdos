@@ -31,7 +31,7 @@ $\limsup f(n)/n=\infty$?
 
 **Formulation.** The second sentence can be read as one question, whether
 $f(n)=o(n)$ holds only for almost all $n$ with $\limsup f(n)/n=\infty$, or as
-two. The site kept the problem OPEN after crediting Tao's disproof of
+two. erdosproblems.com kept the problem OPEN after crediting Tao's disproof of
 $f(n)=o(n)$, and
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1054.lean)
 states three parts: (i) is $f(n)=o(n)$? (ii) is $f(n)=o(n)$ along a set of
@@ -44,12 +44,12 @@ forum post by jif of 16 April 2026, with a verifier repository, argues that $f$
 is defined at every other $n$, using explicit constants of Helfgott and of
 Rosser and Schoenfeld.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 6 December
-2025). The frontmatter standing derives from the claim pages. Two pending full
-claims answer all three parts, so the standing is claimed. The site's commentary
-credits Tao, in comments first posted under Problem 468, with disproving the
-strong claim $f(n)=o(n)$. Tao did so by showing that the $n$ with
-$f(n)\le\delta n$ have upper density $\ll\delta^2$.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 6
+December 2025). The frontmatter standing derives from the claim pages. Two
+pending full claims answer all three parts, so the standing is claimed. The
+erdosproblems.com commentary credits Tao, in comments first posted under Problem
+468, with disproving the strong claim $f(n)=o(n)$. Tao did so by showing that
+the $n$ with $f(n)\le\delta n$ have upper density $\ll\delta^2$.
 
 **Source.** [erdosproblems.com/1054](https://www.erdosproblems.com/1054),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1054,
@@ -106,8 +106,8 @@ partial Lean result of 22 and 23 June 2026, recorded on
 claim page]]. The Palomar registry replays a registered proof in the Lean kernel
 and compares it with a challenge statement; its own description says that it
 certifies neither novelty nor the match between the formal and informal
-statements and is not peer review. No refereed version, site acceptance or
-independent review of any of the claims is recorded.
+statements and is not peer review. No refereed version, erdosproblems.com
+acceptance or independent review of any of the claims is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

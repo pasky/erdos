@@ -28,7 +28,7 @@ $$
 \sum_{n\in A}\frac{1}{n}<2.
 $$
 
-**Formulation.** The site's wording on 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (the page shows no
 last-edited date). "Dissociated" means that the $2^{|A|}$ subset sums, the
 empty sum included, are pairwise distinct; a dissociated set contains no $0$
 (the sets $\emptyset$ and $\{0\}$ would share the sum $0$), so its elements
@@ -38,22 +38,22 @@ sums $\sum_{i=1}^n\varepsilon_ia_i$, $\varepsilon_i=0$ or $1$, are distinct"
 (subsets of $A$ correspond to the vectors $(\varepsilon_i)$), and the
 formal-conjectures predicate `DecidableDistinctSubsetSums` ("$X\subseteq A$,
 $Y\subseteq A$, $X\ne Y$ implies $\sum X\ne\sum Y$") is the same condition;
-the three conventions agree. The site's refinement
-$\sum1/n\le2-2^{1-|A|}$, which the site states to hold with equality exactly
-for the set it writes as $A=\{1,2,\ldots,2^k\}$, is printed in the sources
-as $\sum1/a_i\le2-2^{1-n}$ with equality only for $a_i=2^{i-1}$,
+the three conventions agree. erdosproblems.com's refinement
+$\sum1/n\le2-2^{1-|A|}$, which erdosproblems.com states to hold with equality
+exactly for the set it writes as $A=\{1,2,\ldots,2^k\}$, is printed in the
+sources as $\sum1/a_i\le2-2^{1-n}$ with equality only for $a_i=2^{i-1}$,
 $i=1,\ldots,n$: the extremal set is the powers of two
-$\{1,2,4,\ldots,2^{n-1}\}$, which the site's notation abbreviates.
+$\{1,2,4,\ldots,2^{n-1}\}$, which the erdosproblems.com notation abbreviates.
 
-**Status.** Proved. The site's label was PROVED (LEAN). The statement is Theorem
-1 of Benkoski and Erdős (Math. Comp. 28 (1974), 617--623, refereed). The paper
-credits the proof to C. Ryavec and reproduces it in full. The refinement
-$\sum1/a_i\le2-2^{1-n}$, with the equality case, is printed after the proof (p.
-619). Erdős's 1975 and 1977 surveys restate the theorem as Ryavec's proof of his
-February 1973 conjecture. The stronger bound $\sum_{n\in A}n^{-s}<1/(1-2^{-s})$
-of Hanson, Steele and Stenger (Proc. Amer. Math. Soc. 66 (1977), 179--180,
-refereed) is not held. Its statement is quoted from the site and from the 1980
-monograph.
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN). The statement
+is Theorem 1 of Benkoski and Erdős (Math. Comp. 28 (1974), 617--623, refereed).
+The paper credits the proof to C. Ryavec and reproduces it in full. The
+refinement $\sum1/a_i\le2-2^{1-n}$, with the equality case, is printed after the
+proof (p. 619). Erdős's 1975 and 1977 surveys restate the theorem as Ryavec's
+proof of his February 1973 conjecture. The stronger bound
+$\sum_{n\in A}n^{-s}<1/(1-2^{-s})$ of Hanson, Steele and Stenger (Proc. Amer.
+Math. Soc. 66 (1977), 179--180, refereed) is not held. Its statement is quoted
+from erdosproblems.com and from the 1980 monograph.
 
 The label's Lean mark dates from Alexeev's Lean file of 25 November 2025. The
 formal-conjectures statement carries `formal_proof` attributes pointing to two
@@ -65,9 +65,9 @@ corpus built. The claim pages are
 and
 [[problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger|Hanson, Steele and Stenger]].
 The first covers Ryavec's proof. It is accepted on the refereed publication and
-the site's credit, and the two Lean developments are its formalization links.
-The second covers the stronger bound. It is accepted on the refereed
-publication, and the note is not held.
+the erdosproblems.com credit, and the two Lean developments are its
+formalization links. The second covers the stronger bound. It is accepted on the
+refereed publication, and the note is not held.
 
 **Source.** [erdosproblems.com/350](https://www.erdosproblems.com/350),
 accessed 2026-09-18: the problem page (labeled
@@ -96,7 +96,7 @@ Bloom, Erdős Problem #350, https://www.erdosproblems.com/350, accessed
   doi:10.1090/S0002-9939-1977-0447167-4 (Crossref record, 2026-09-18; its
   deposited abstract reads "A finite set of integers with distinct
   subset sums has a precisely bounded Dirichlet series"). Not held. The
-  statement is quoted from [ErGr80], p. 60, and the site.
+  statement is quoted from [ErGr80], p. 60, and erdosproblems.com.
 - [Er75b] Erdős, P., Problems and results in combinatorial number theory.
   Journées Arithmétiques de Bordeaux (1974), Astérisque 24--25 (1975),
   295--310; Chapter II, printed p. 302. Library home:
@@ -110,7 +110,7 @@ Bloom, Erdős Problem #350, https://www.erdosproblems.com/350, accessed
   28, Université de Genève (1980); printed p. 60. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
-**Formalization.** The site's Lean mark is a catalog label; see
+**Formalization.** The erdosproblems.com Lean mark is a catalog label; see
 "Formalization and the Lean label" below for the two external files. The file
 [`ErdosProblems/350.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/350.lean)
 of formal-conjectures at its main-branch commit of 2026-09-18 declares
@@ -132,7 +132,7 @@ and no formal-proof URL. Neither external file is Lean this corpus built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED (LEAN); no last-edited date. The commentary credits the proof
 to Ryavec, who seems never to have published it, says that the proof is
 reproduced in [BeEr74] and delivers the refinement
@@ -146,8 +146,8 @@ formalization of a solution, with a link to the repository and to an
 online type-checker, describing the pipeline (ChatGPT wrote out a proof,
 Aristotle formalized the resulting text into Lean, the theorem statement
 was taken from the formal-conjectures file, the result was checked by the
-poster) and its running times, and adding that the site had been updated
-in response; two comments of 26 November 2025 concern the tooling's
+poster) and its running times, and adding that erdosproblems.com had been
+updated in response; two comments of 26 November 2025 concern the tooling's
 supervision and are not mathematical. The proof-claim tab is empty. The community database says
 proved (Lean).
 
@@ -189,7 +189,7 @@ $i=1,2,\ldots,n$"; the powers of two attain the bound, since
 $\sum_{i<n}2^{-i}=2-2^{1-n}$. Read depth: claims checked for Theorem 1 and
 the refinement; the one-page proof for its structure only. Acceptance
 evidence: the refereed publication (Mathematics of Computation, received
-28 June 1973, issued April 1974) and the curator's credit on the site.
+28 June 1973, issued April 1974) and the curator's credit on erdosproblems.com.
 Erdős's restatements of 1975, 1977 and 1980 are the author's own and are
 context, and the two external Lean files below are third-party Lean, not
 evidence.
@@ -198,12 +198,12 @@ evidence.
 $\sum_{n\in A}n^{-s}<1/(1-2^{-s})$, quoted from [ErGr80], p. 60 ("for all
 real $s\ge0$"; at $s=0$ the right side is not finite and the inequality is
 empty, which is why the formal-conjectures variant takes $s>0$) and from
-the site; at $s=1$ it is the theorem above. The paper is a two-page note in
-a refereed journal (volume 66 per the Crossref record, not the "63" of
+erdosproblems.com; at $s=1$ it is the theorem above. The paper is a two-page
+note in a refereed journal (volume 66 per the Crossref record, not the "63" of
 some catalogs); no page of this wiki records its argument.
 
-**Formalization and the Lean label.** The site's Lean mark dates from 25
-November 2025, the day Alexeev announced the file; it is a catalog label
+**Formalization and the Lean label.** The erdosproblems.com Lean mark dates from
+25 November 2025, the day Alexeev announced the file; it is a catalog label
 attached to the formal-conjectures statement, which has a `sorry` body and
 points to two external developments, described at the commits named below
 and neither built by this corpus.
@@ -250,19 +250,19 @@ original human proof is Ryavec's, and the fork proves the formal-conjectures
 statement in place under the formal-conjectures docstring, which credits Ryavec,
 so both are recorded as formalization links on
 [[problems/additive_combinatorics/E0350/claims/1974_04_01_benkoski_erdos|the Benkoski--Erdős page]]
-rather than as claims of their own. The site's thread attributes the first
-file's construction to an AI pipeline checked by its poster; this is
+rather than as claims of their own. The erdosproblems.com thread attributes the
+first file's construction to an AI pipeline checked by its poster; this is
 recorded as the poster's own account.
 
-**Neighbor.** [[problems/additive_combinatorics/E0001/_index|Problem 1]], the
-site's "See also", asks how large the largest element of a dissociated
-$n$-set must be; it is disproved on its assessed page. The reciprocal sum
-here is bounded regardless of that growth.
+**Neighbor.** [[problems/additive_combinatorics/E0001/_index|Problem 1]],
+erdosproblems.com's "See also", asks how large the largest element of a
+dissociated $n$-set must be; it is disproved on its assessed page. The
+reciprocal sum here is bounded regardless of that growth.
 
 **Search scope.** None of the following found a dispute
 of Theorem 1, a copy of [HSS77], or any change of status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures file at the pinned
   commit and the two external files at the commits above.
 - The primary sources: [BeEr74] pp. 617--620; [Er75b] p. 302, [Er77c]
@@ -276,8 +276,8 @@ of Theorem 1, a copy of [HSS77], or any change of status.
   AND abs:reciprocal` (9 records, none relevant).
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [HSS77],
-the Szekeres proof of 1975 (no reference given), Ryavec's own text (the
-site says none was published).
+the Szekeres proof of 1975 (no reference given), Ryavec's own text
+(erdosproblems.com says none was published).
 
 **Remaining gaps.** (1) [HSS77] is not held; its statement is quoted
 second-hand. (2) The proof of Theorem 1 is claims checked only; the two

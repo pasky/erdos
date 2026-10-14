@@ -152,7 +152,7 @@ is not paged.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0182/_index|#182]]: Section 3,
 printed pp. 10--11 = PDF pp. 8--9 (page images), the problem's origin: the
 Erdős--Sauer function f(n,k) with f(n,3) < cn^{8/5}, Chvátal's f(2n+3,3) > 6n
-and Szemerédi's spanned variant F(n,k), the site's [Er75] source
+and Szemerédi's spanned variant F(n,k), erdosproblems.com's [Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p10|problem_p10]]),
 and, on printed p. 11 between the A(n) remark and Szemerédi's problem, the
 conjecture of Sauer and Berge that every 4-regular graph contains a
@@ -169,18 +169,18 @@ on Bondy and Simonovits's study of graphs without a C_{2k}
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p7|problem_p7]]),
 [[../wiki/problems/extremal_graph_theory/E0573/_index|#573]]: Chapter 1, PDF p. 5, the
 conjecture that a graph with no C_3 and no C_4 has at most
-(1/(2 sqrt 2) + o(1)) n^{3/2} edges, the site's [Er75] source
+(1/(2 sqrt 2) + o(1)) n^{3/2} edges, erdosproblems.com's [Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p7|problem_p7]]),
 [[../wiki/problems/extremal_graph_theory/E0576/_index|#576]]: Chapter 2, PDF p. 6, display
 (1) f(n;g) < cn^{8/5} for the cube and the question whether the exponent is
-best possible, the site's [Er75] source
+best possible, erdosproblems.com's [Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p8|problem_p8]]),
 [[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]: Chapter 2, printed
 p. 8 = PDF p. 6 (page image), the Kővári--Sós--Turán bound (2)
 f(n;k(r,r)) < c'_r n^{2-1/r}, Brown's f(n;k(3,3)) > c''_3 n^{5/3}, and the wish
 to prove the exponent in (2) best possible for every r, indeed (3)
 f(n;k(r,r)) = (c_r + o(1)) n^{2-1/r}, with c_2 = 1/2 and nothing known for
-r > 2, the site's [Er75] source (the chapter is summarized on
+r > 2, erdosproblems.com's [Er75] source (the chapter is summarized on
 [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p8|problem_p8]]),
 [[../wiki/problems/extremal_graph_theory/E0765/_index|#765]]: Chapter 1, printed
 pp. 4--6 = PDF pp. 2--4 (page images), the C_4 displays, with f(n;G) the least
@@ -189,47 +189,47 @@ Erdős needed in 1936 for a number-theoretic problem, with the "curious
 blindness" remark; (3) f(n;C_4) = (1/2 + o(1)) n^{3/2}, by Brown and
 independently by Erdős, Rényi and Sós; the lower bound (4) at n = q^2 + q + 1
 for prime powers q, conjectured exact; and the upper bound (5), proved by
-counting paths of length two; the site's [Er75] source,
+counting paths of length two; erdosproblems.com's [Er75] source,
 [[../wiki/problems/extremal_graph_theory/E0715/_index|#715]]: Section 3, printed p. 11 =
 PDF p. 9 (page image), the conjecture of Sauer and Berge that every 4-regular
 graph contains a 3-regular subgraph, and
-Chvátal's general form for graphs of minimum valency four, the site's [Er75]
-source
+Chvátal's general form for graphs of minimum valency four, erdosproblems.com's
+[Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p11|conjecture_p11]]),
 [[../wiki/problems/extremal_graph_theory/E1078/_index|#1078]]: Chapter 4, printed p. 12 =
 PDF p. 10 (page image), the Bollobás--Erdős--Szemerédi conjecture that an
 r-partite graph with n vertices in each class and every valency at least
-(r - 3/2)n contains a K(r), with the remark on r - 1 - epsilon, the site's
-[Er75] source
+(r - 3/2)n contains a K(r), with the remark on r - 1 - epsilon,
+erdosproblems.com's [Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p12|conjecture_p12]]),
 [[../wiki/problems/extremal_graph_theory/E0904/_index|#904]]: Chapter 4, printed p. 13 =
 PDF p. 11 (page image), the Bollobás--Erdős conjecture (1) that a graph with
 e at least n^2/3 edges has a triangle with degree sum at least 6e/n, its
-failure below n^2/3 and the edge version (2), the site's [Er75, p. 13]
+failure below n^2/3 and the edge version (2), erdosproblems.com's [Er75, p. 13]
 source, the r = 3 case of the problem
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p13|conjecture_p13]]),
 [[../wiki/problems/extremal_graph_theory/E0905/_index|#905]]: Chapter 4, printed p. 13 =
 PDF p. 11 (page image), Erdős's theorem that every G(n;[n^2/4]+1) has an
 edge on at least cn triangles, the Bollobás--Erdős observation c at most 1/6
-and the undecided c = 1/6 (printed "c = n/6"), the site's [Er75] source
+and the undecided c = 1/6 (printed "c = n/6"), erdosproblems.com's [Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p13|problem_p13]]),
 [[../wiki/problems/extremal_graph_theory/E0767/_index|#767]]: Chapter 4, printed pp. 13--14
 = PDF pp. 11--12 (page images), Pósa's 2n - 3 theorem, the function r(n;k)
 counting k - 1 diagonals at a vertex, the conjecture r(n;k) = k(n-k)+1 for
 n > n_0(k) with its bipartite example, Lewin's refutation of n_0(k) = 2k for
-large k and Pósa's unpublished ck^2 result, the site's [Er75] source
+large k and Pósa's unpublished ck^2 result, erdosproblems.com's [Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p13_diagonals|conjecture_p13_diagonals]]),
 [[../wiki/problems/extremal_graph_theory/E1079/_index|#1079]]: Chapter 4, printed p. 14 =
 PDF p. 12 (page image), the question whether every G(n;f_r(n)) has a vertex
 of valency m > c_r n whose star spans at least f_{r-1}(m) edges, "a nice
-generalization of Turán's theorem", unsettled for r = 4, the site's [Er75]
-source
+generalization of Turán's theorem", unsettled for r = 4, erdosproblems.com's
+[Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p14|problem_p14]]),
 [[../wiki/problems/extremal_graph_theory/E1080/_index|#1080]]: Chapter 4, printed p. 14 =
 PDF p. 12 (page image), the question whether a bipartite graph with
 [n^{2/3}] black and n - [n^{2/3}] white vertices and more than cn edges
-contains a C_6, with the remark that it contains a C_8, the site's [Er75]
-source
+contains a C_6, with the remark that it contains a C_8, erdosproblems.com's
+[Er75] source
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p14_bipartite|problem_p14_bipartite]]),
 [[../wiki/problems/graph_coloring/E0057/_index|#57]]: Chapter 4, printed p. 14 = PDF p. 12
 (page image), the closing paragraph, "an old conjecture of Hajnal and
@@ -240,11 +240,11 @@ likely that the minimum is (1/2 + o(1)) log k but we could not even prove
 that it tends to infinity as k tends to infinity (independently of n)"; the
 finite form, over all cycle lengths of a graph with kn edges, of the
 conjecture the problem states for the odd cycle lengths of a graph of
-infinite chromatic number, and the same conjecture the site's source Er96
-states as item 3 (recorded on
+infinite chromatic number, and the same conjecture the erdosproblems.com source
+Er96 states as item 3 (recorded on
 [[ramsey_theory/erdos_1996_some_my_favourite_problems_cycles_colourings/_index|erdos_1996_some_my_favourite_problems_cycles_colourings]]);
-the site does not cite [Er75] for the problem, and the guessed (1/2 + o(1))
-log k has the form of the (1/2 - o(1)) log k lower bound the problem page
+erdosproblems.com does not cite [Er75] for the problem, and the guessed (1/2 +
+o(1)) log k has the form of the (1/2 - o(1)) log k lower bound the problem page
 records from Liu and Montgomery, proved there for the odd cycle lengths of a
 graph of chromatic number k, not for Erdős's edge-density parameter
 

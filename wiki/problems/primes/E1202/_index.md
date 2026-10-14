@@ -27,23 +27,25 @@ any set of $k$ primes $p_1<\cdots<p_k<n^{1-\epsilon}$, each with a set $A_i$ of
 $\frac{p_i-1}{2}$ many congruence classes modulo $p_i$, the number of $m\leq n$
 such that $m\not\in A_i\pmod{p_i}$ for all $i$ is at most $\epsilon n$?
 
-**Formulation.** The site follows Erdős's print. In [Er80], Section 6, Problem 3
-(p. 107), Erdős asks whether to every $\epsilon>0$, $\eta>0$ there is a
-$k=k_0(\epsilon,\eta)$ such that, for any primes $p_1<\cdots<p_k<n^{1-\epsilon}$
-and any $(p_j-1)/2$ distinct residues modulo each $p_j$, the number of $m\le n$
-in none of these classes "is less than $\epsilon n$". In the print, as on the
-site, $\eta$ enters only through $k$, and the site's non-strict bound in place
-of the strict one changes no answer on this page. The standing answers the
-site's wording, with the bound $\epsilon n$.
+**Formulation.** erdosproblems.com follows Erdős's print. In [Er80], Section 6,
+Problem 3 (p. 107), Erdős asks whether to every $\epsilon>0$, $\eta>0$ there is
+a $k=k_0(\epsilon,\eta)$ such that, for any primes
+$p_1<\cdots<p_k<n^{1-\epsilon}$ and any $(p_j-1)/2$ distinct residues modulo
+each $p_j$, the number of $m\le n$ in none of these classes "is less than
+$\epsilon n$". In the print, as on erdosproblems.com, $\eta$ enters only through
+$k$, and erdosproblems.com's non-strict bound in place of the strict one changes
+no answer on this page. The standing answers the erdosproblems.com wording, with
+the bound $\epsilon n$.
 
-**Status.** Disproved. The site labeled the problem SOLVED. Its curator credits
-Price and GPT-5.4 Pro with a negative answer. That credit is the acceptance
-evidence on [[problems/primes/E1202/claims/2026_04_07_price|the claim page]],
-and the standing derives from that page. The corpus does not hold the
-status-defining argument. The manuscript behind the label is inaccessible to the
-corpus, because its online-editor read link exposes no document. The only fixed
-written form of the argument known to the corpus is an external Lean file that
-proves the negation of the statement. That file is not built here. See "Current
+**Status.** Disproved. Bloom's catalog labeled the problem SOLVED. Its curator
+credits Price and GPT-5.4 Pro with a negative answer. That credit is the
+acceptance evidence on
+[[problems/primes/E1202/claims/2026_04_07_price|the claim page]], and the
+standing derives from that page. The corpus does not hold the status-defining
+argument. The manuscript behind the label is inaccessible to the corpus, because
+its online-editor read link exposes no document. The only fixed written form of
+the argument known to the corpus is an external Lean file that proves the
+negation of the statement. That file is not built here. See "Current
 assessment".
 
 **Source.** [erdosproblems.com/1202](https://www.erdosproblems.com/1202),
@@ -69,25 +71,25 @@ under "The external Lean file" below. No local Lean build has been performed.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** The statement above;
-SOLVED, with no Lean suffix on the label. The statement quantifies $\epsilon$
-and $\eta$ but its bound $\epsilon n$ uses only $\epsilon$, as Erdős's print
-does (see the Formulation). The site's commentary (accessed 2026-10-07; last
-edited 12 April 2026) credits the negative resolution to Price and GPT-5.4
-Pro, links the manuscript as the online-editor read link recorded below, and
-reports the construction in a quantitative form that the claim page records as
-the site states it. A negative answer is what the external Lean file proves:
-for every $k$ there are $n$, primes $p_1<\cdots<p_k<n^{9/10}$ and sets $A_i$
-of $(p_i-1)/2$ classes leaving more than $n/10$ survivors, so no $k$ works for
-$\epsilon=1/10$. The accepted claim is recorded on
-[[problems/primes/E1202/claims/2026_04_07_price|the claim page]] with the
-curator's credit as its `reviewed` evidence; the claim value is `disproved`
-because the answer to the question is no. The site's thread (nine posts of 16
-and 17 April 2026) studies the largest set in $[n]$ that occupies fewer than
-$(p-1)/2$ classes modulo each of $k$ chosen primes $p$ below $m$, so a set
-avoiding about half the classes as the problem's surviving sets do, with the
-large sieve bound and conjectured asymptotics; it holds no manuscript and no
-claim on the question, so no post has a page.
+**The question (erdosproblems.com formulation of 2026-09-04).** The statement
+above; SOLVED, with no Lean suffix on the label. The statement quantifies
+$\epsilon$ and $\eta$ but its bound $\epsilon n$ uses only $\epsilon$, as
+Erdős's print does (see the Formulation). The erdosproblems.com commentary
+(accessed 2026-10-07; last edited 12 April 2026) credits the negative resolution
+to Price and GPT-5.4 Pro, links the manuscript as the online-editor read link
+recorded below, and reports the construction in a quantitative form that the
+claim page records as erdosproblems.com states it. A negative answer is what the
+external Lean file proves: for every $k$ there are $n$, primes
+$p_1<\cdots<p_k<n^{9/10}$ and sets $A_i$ of $(p_i-1)/2$ classes leaving more
+than $n/10$ survivors, so no $k$ works for $\epsilon=1/10$. The accepted claim
+is recorded on [[problems/primes/E1202/claims/2026_04_07_price|the claim page]]
+with the curator's credit as its `reviewed` evidence; the claim value is
+`disproved` because the answer to the question is no. The erdosproblems.com
+thread (nine posts of 16 and 17 April 2026) studies the largest set in $[n]$
+that occupies fewer than $(p-1)/2$ classes modulo each of $k$ chosen primes $p$
+below $m$, so a set avoiding about half the classes as the problem's surviving
+sets do, with the large sieve bound and conjectured asymptotics; it holds no
+manuscript and no claim on the question, so no post has a page.
 
 **The bound read as $\eta n$.** If the bound is read as $\eta n$, which gives
 $\eta$ a role, the answer is still no. The construction, as the external Lean
@@ -95,15 +97,15 @@ file's `erdos_1202_counterexample` states it, gives for every $k$ primes
 $p_1<\cdots<p_k<n^{9/10}$ with sets of $(p_i-1)/2$ classes leaving more than
 $n/10$ survivors, so no $k$ works at $\epsilon=\eta=1/10$.
 
-**The status-defining source, not held.** The manuscript behind the site's
-label is a read link on an online editor (`overleaf.com/read/qyhdmrchqnvb`)
-that, on 2026-10-07, exposed only the editor's shell and no document or
-PDF, and no other copy of it is recorded. The manuscript is recorded as
-inaccessible; no author was contacted. The external Lean file's module
-docstring says "We formalize the interval construction of Price and GPT-5.4
-Pro: primes in one short interval have aligned upper-half forbidden sets,
-while a positive-density striped set survives every sieve" and refers to a
-`tex/1202.tex` that the repository does not carry.
+**The status-defining source, not held.** The manuscript behind the
+erdosproblems.com label is a read link on an online editor
+(`overleaf.com/read/qyhdmrchqnvb`) that, on 2026-10-07, exposed only the
+editor's shell and no document or PDF, and no other copy of it is recorded. The
+manuscript is recorded as inaccessible; no author was contacted. The external
+Lean file's module docstring says "We formalize the interval construction of
+Price and GPT-5.4 Pro: primes in one short interval have aligned upper-half
+forbidden sets, while a positive-density striped set survives every sieve" and
+refers to a `tex/1202.tex` that the repository does not carry.
 
 **The external Lean file (not built).** `plby/lean-proofs`,
 `src/latest/ErdosProblems/Erdos1202.lean` (25,783 bytes, 640 lines; added
@@ -141,14 +143,14 @@ and docstrings and not reconstructed. Nothing was built, kernel-checked or
 audited by this corpus, and the prime-counting input is a theorem of
 another Lean project, not read.
 
-**Author name.** The site's revision history (erdosproblems.com/history/1202,
-accessed 2026-10-07) shows the curator's revisions of 7, 8 and 12 April 2026
-each crediting the negative resolution to Liam Price and GPT-5.4 Pro; the
-current version, last edited 12 April 2026, gives only the surname Price.
-The external Lean file's header names Lisa Price, which disagrees with the
-curator's revisions. The corpus's other pages crediting a Price for
-AI-prompted resolutions (Problems 38 and 694) name Liam Price after their
-sources.
+**Author name.** The erdosproblems.com revision history
+(erdosproblems.com/history/1202, accessed 2026-10-07) shows the curator's
+revisions of 7, 8 and 12 April 2026 each crediting the negative resolution to
+Liam Price and GPT-5.4 Pro; the current version, last edited 12 April 2026,
+gives only the surname Price. The external Lean file's header names Lisa Price,
+which disagrees with the curator's revisions. The corpus's other pages crediting
+a Price for AI-prompted resolutions (Problems 38 and 694) name Liam Price after
+their sources.
 
 **A fixed cousin in Green's list.** [Gr26], Problem 44 (p. 22): "Sieve
 $[N]$ by removing half the residue classes mod $p_i$,
@@ -160,41 +162,41 @@ all less than $N^{1/2}$, by the large sieve"; and that the author knows
 nothing about the problem beyond what Erdős "wrote nearly 40 years ago;
 this part of his paper does not appear to have been cited since." Problem
 44 fixes $k=1000$, the exponent $9/10$ and the bound $N/10$, where the
-site's statement quantifies $\epsilon$, $\eta$ and $k$; it is a cousin, not
-the problem, and the list records no solution. A reading of the statements,
-not verified: the Lean file's counterexample at $k=1000$
-supplies primes $p_1<\cdots<p_{1000}<n^{9/10}$ with $(p_i-1)/2$ forbidden
-classes each and more than $n/10$ survivors, which would answer Problem 44
-in the negative under the reading of "half the residue classes" as
-$(p-1)/2$ classes; nothing about this was checked or built.
+erdosproblems.com statement quantifies $\epsilon$, $\eta$ and $k$; it is a
+cousin, not the problem, and the list records no solution. A reading of the
+statements, not verified: the Lean file's counterexample at $k=1000$ supplies
+primes $p_1<\cdots<p_{1000}<n^{9/10}$ with $(p_i-1)/2$ forbidden classes each
+and more than $n/10$ survivors, which would answer Problem 44 in the negative
+under the reading of "half the residue classes" as $(p-1)/2$ classes; nothing
+about this was checked or built.
 
-**Formalization and the Lean label.** The site's label carried no Lean suffix,
-formal-conjectures had no statement file at the collection's path for 1202,
-and the site offered no formalization link (both on 2026-10-07). The only
-formal artifact is the external community file above; it declares itself a
-formalization of the Price and GPT-5.4 Pro construction, so it is a
-`formalization` link on the claim page and not a claim of its own. Nothing was
-built or kernel-checked by this corpus, the claim lists no `formalized`
+**Formalization and the Lean label.** The erdosproblems.com label carried no
+Lean suffix, formal-conjectures had no statement file at the collection's path
+for 1202, and erdosproblems.com offered no formalization link (both on
+2026-10-07). The only formal artifact is the external community file above; it
+declares itself a formalization of the Price and GPT-5.4 Pro construction, so it
+is a `formalization` link on the claim page and not a claim of its own. Nothing
+was built or kernel-checked by this corpus, the claim lists no `formalized`
 evidence, and no statement-fidelity review exists beyond the file's own
 docstring on the $\epsilon$, $\eta$ quantifiers.
 
-**Search scope.** The site page, its revision history and its thread, the
-manuscript's read link, the external Lean file with its comparator stub and
-commit history, and the formal-conjectures path for 1202, accessed 2026-10-07;
-[Er80], Section 6, Problem 3 (p. 107); [Gr26] pp. 22--23. arXiv, Crossref,
-MathSciNet, zbMATH, Google Scholar and X were not searched.
+**Search scope.** The erdosproblems.com page, its revision history and its
+thread, the manuscript's read link, the external Lean file with its comparator
+stub and commit history, and the formal-conjectures path for 1202, accessed
+2026-10-07; [Er80], Section 6, Problem 3 (p. 107); [Gr26] pp. 22--23. arXiv,
+Crossref, MathSciNet, zbMATH, Google Scholar and X were not searched.
 
 **Remaining gaps.** (1) The status-defining manuscript is inaccessible; the
-site's label SOLVED, and the claim page's acceptance on the curator's credit,
-rest on a document the corpus has not read, and the only written form of the
-argument known to the corpus is an external Lean file, not built. A copy of
+erdosproblems.com label SOLVED, and the claim page's acceptance on the curator's
+credit, rest on a document the corpus has not read, and the only written form of
+the argument known to the corpus is an external Lean file, not built. A copy of
 the manuscript, or an independent whole-argument review of the formal
 construction, is the reopening condition for the qualification. (2) The Lean
 file was not built; its prime-counting input is a theorem of another project,
 not read. (3) The author's first name: the curator's revisions of 7, 8 and 12
 April 2026 name Liam Price, the current version gives only the surname, and
 the Lean file's header names Lisa Price. (4) No formal-conjectures statement
-exists, and the site's credit is the only acceptance evidence.
+exists, and the erdosproblems.com credit is the only acceptance evidence.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

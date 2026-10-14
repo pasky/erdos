@@ -19,11 +19,11 @@ $D(N)=\max_{0<a<N}D(a,N)$ is the least possible largest
 denominator as defined on the
 [[unit_fractions/bleicher_1976_denominators_egyptian_fractions/theorem_1|Theorem 1 page]].
 
-This is the question of Problem 305, which the site writes as
+This is the question of Problem 305, which erdosproblems.com writes as
 $D(b)\ll b(\log b)^{1+o(1)}$; the 1980 monograph (p. 38) restates it as
 "for every $\varepsilon>0$, $D(b)\le c(\varepsilon)b(\log b)^{1+\varepsilon}$".
 Yokota's paper *On a problem of Bleicher and Erdős*, J. Number Theory 30
-(1988), 198--207, is the site's solving citation; Liu and Sawhney's
+(1988), 198--207, is erdosproblems.com's solving citation; Liu and Sawhney's
 [[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/theorem_1_5|Theorem 1.5]]
 gives the current bound $b(\log b)(\log\log b)^3(\log\log\log b)^{O(1)}$.
 

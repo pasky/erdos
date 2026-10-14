@@ -38,9 +38,9 @@ of degree at least $(n\log n/\log\log n)^{1/2}$, its neighborhood is
 $K_s$-free; otherwise Shearer's independence bound gives an independent set
 of that order. At $s=3$ this is $f(n)\ge c\sqrt{n\log n/\log\log n}$ for
 large $n$, for the function of
-[[problems/extremal_graph_theory/E0620/_index|Problem 620]]. The site's
-commentary attributes the lower bound to Shearer's results and prints the
-weaker form of equation (1) of Mubayi and Verstraete, who credit the
+[[problems/extremal_graph_theory/E0620/_index|Problem 620]]. The
+erdosproblems.com commentary attributes the lower bound to Shearer's results and
+prints the weaker form of equation (1) of Mubayi and Verstraete, who credit the
 observation to Dudek and Mubayi; Gishboliner, Janzer and Sudakov credit it
 to this paper as well. The deduction is written out on the library's result
 page for Shearer's corollary.
@@ -53,5 +53,5 @@ covered: the upper bound and the order of $f(n)$.
 the independence bound the argument applies.
 
 **Acceptance.** `refereed`: Journal of Graph Theory (published online 21 August
-2013). Shearer's input appeared in Random Structures Algorithms 7 (1995). The
-site labeled the problem OPEN, so its commentary is not acceptance.
+2013). Shearer's input appeared in Random Structures Algorithms 7 (1995).
+Bloom's catalog labeled the problem OPEN, so its commentary is not acceptance.

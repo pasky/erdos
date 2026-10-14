@@ -4,8 +4,8 @@ title: Principia Math's proof through a local limit theorem
 desc: |
   Claims a second proof that the products of powers of three pairwise coprime
   bases are $d$-complete, with the summands confined to a short multiplicative
-  window. The proof is written up and formalized in Lean, and the site shows no
-  verdict.
+  window. The proof is written up and formalized in Lean, and erdosproblems.com
+  shows no verdict.
 authors:
 - Principia Math
 status: claimed
@@ -85,14 +85,14 @@ $\rho=1+\min(\epsilon,1/2)$. The formal-conjectures statement file, at its
 keeps that variant (`erdos_123.variants.powers_2_3_5_snug`) open.
 
 **Standing.** The claimant is Principia Math, which posted the claim on the
-site's proof-claims page on 2026-07-20 under the forum name principia_math; the
-claim's entry names the systems GPT 5.6 and Opus 4.8, and the claimant's note
-says its autonomous harness found the solution a few days after Snyder's
-accepted proof. The written forms are a manuscript, "Antichain Subset Sums in
-Rank-Three Multiplicative Semigroups", and a Lean 4 development whose repository
-reports six theorems built on Mathlib with only the axioms `propext`,
-`Classical.choice` and `Quot.sound`. The site shows no verdict for this claim,
-and the claimant makes no claim on the prize. No one has reviewed or refereed
-the result, and nothing has been built or audited in this corpus, so the claim
-stays `claimed`. The problem is settled independently by
+erdosproblems.com proof-claims page on 2026-07-20 under the forum name
+principia_math; the claim's entry names the systems GPT 5.6 and Opus 4.8, and
+the claimant's note says its autonomous harness found the solution a few days
+after Snyder's accepted proof. The written forms are a manuscript, "Antichain
+Subset Sums in Rank-Three Multiplicative Semigroups", and a Lean 4 development
+whose repository reports six theorems built on Mathlib with only the axioms
+`propext`, `Classical.choice` and `Quot.sound`. erdosproblems.com shows no
+verdict for this claim, and the claimant makes no claim on the prize. No one has
+reviewed or refereed the result, and nothing has been built or audited in this
+corpus, so the claim stays `claimed`. The problem is settled independently by
 [[problems/diophantine_problems/E0123/claims/2026_07_15_snyder|Snyder's accepted proof]].

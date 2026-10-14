@@ -38,7 +38,7 @@ $$
 
 for $k\geq 3$?
 
-**Status.** Open, in the site's label. The accepted partial claims
+**Status.** Open, in the erdosproblems.com label. The accepted partial claims
 [[problems/discrete_geometry/E0529/claims/1987_12_01_slade|Slade 1987]] and
 [[problems/discrete_geometry/E0529/claims/1991_10_01_hara_slade|Hara and Slade
 1991]] answer the second question yes for all sufficiently large $k$ and for
@@ -78,7 +78,7 @@ pages [[problems/discrete_geometry/E0529/claims/1987_12_01_slade|Slade 1987]]
 and
 [[problems/discrete_geometry/E0529/claims/1991_10_01_hara_slade|Hara and Slade
 1991]] record these as accepted partial claims on their refereed publication.
-For $k=3$ and $k=4$ the site's commentary records the conjecture that
+For $k=3$ and $k=4$ the erdosproblems.com commentary records the conjecture that
 $d_k(n)\ll n^{1/2}$ is false, with the predicted asymptotics
 $d_3(n)\sim n^{\nu}$, $\nu\approx0.59$, and
 $d_4(n)\sim D(\log n)^{1/8}n^{1/2}$ (Section 1.4 of [MaSl93]); nothing is

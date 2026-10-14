@@ -26,15 +26,15 @@ that every three points from $A$ determine an isosceles triangle? That is, for
 any three points $x,y,z$ from $A$, at least two of the distances $\lvert
 x-y\rvert,\lvert y-z\rvert,\lvert x-z\rvert$ are equal.
 
-**Status.** Open, the site's label. The standing stays open because no claim
-settles the general question. The site records the exact values in the plane,
-$6$ (Kelly), and in space, $8$ (Croft). It also records Blokhuis's upper bound
-$\binom{d+2}{2}$ and the lower bound $\binom{d+1}{2}+1$ of Alweiss and
-Weisenberg. The refereed literature determines the value for every $d\le8$
-(Ionin, Kido). Chojecki's note of 2026 derives the value $276$ for $d=22$ and
-reduces the problem to the two-distance extremal functions. Each determined
-instance is a partial claim in `claims/`. The literature's claims are accepted,
-and Chojecki's is pending.
+**Status.** Open, the erdosproblems.com label. The standing stays open because
+no claim settles the general question. erdosproblems.com records the exact
+values in the plane, $6$ (Kelly), and in space, $8$ (Croft). It also records
+Blokhuis's upper bound $\binom{d+2}{2}$ and the lower bound $\binom{d+1}{2}+1$
+of Alweiss and Weisenberg. The refereed literature determines the value for
+every $d\le8$ (Ionin, Kido). Chojecki's note of 2026 derives the value $276$ for
+$d=22$ and reduces the problem to the two-distance extremal functions. Each
+determined instance is a partial claim in `claims/`. The literature's claims are
+accepted, and Chojecki's is pending.
 
 **Source.** [erdosproblems.com/503](https://www.erdosproblems.com/503), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #503,
@@ -64,8 +64,8 @@ https://www.erdosproblems.com/503.
 
 ## Current assessment
 
-The question is the site's formulation, accessed 2026-09-04 (page last edited
-28 October 2025): for each $d$, the largest size $f(d)$ of a set in
+The question is the erdosproblems.com formulation, accessed 2026-09-04 (page
+last edited 28 October 2025): for each $d$, the largest size $f(d)$ of a set in
 $\mathbb{R}^d$ in which every three points determine an isosceles triangle.
 The general question is open; the value is known in the dimensions below.
 
@@ -95,13 +95,14 @@ spherical two-distance set with its center
 the bound is attained for $d=1,2,6,8$ and $22$. The lower bound $\binom{d+1}{2}$
 is Alweiss's, from the vectors $e_i+e_j$ of distinct coordinate vectors in
 $\mathbb{R}^{d+1}$, and Weisenberg's thread post of 9 August 2025 adds their
-centroid to reach $\binom{d+1}{2}+1$; the site records both. These bounds settle
-no instance of the question, so they have no claim pages. Chojecki's identity
-$f(d)=\max\{g(d),s(d)+1,s(d-1)+3\}$, with $g$ and $s$ the Euclidean and
-spherical two-distance maxima, reduces the problem to the two-distance extremal
-functions; a gap in its first version, raised in the thread on 26 May 2026, was
-repaired in the revised note of 27 May 2026, and the thread derives from the
-identity that $f(d)\le g(d)+2$. Thread derivations get no page.
+centroid to reach $\binom{d+1}{2}+1$; erdosproblems.com records both. These
+bounds settle no instance of the question, so they have no claim pages.
+Chojecki's identity $f(d)=\max\{g(d),s(d)+1,s(d-1)+3\}$, with $g$ and $s$ the
+Euclidean and spherical two-distance maxima, reduces the problem to the
+two-distance extremal functions; a gap in its first version, raised in the
+thread on 26 May 2026, was repaired in the revised note of 27 May 2026, and the
+thread derives from the identity that $f(d)\le g(d)+2$. Thread derivations get
+no page.
 
 **Formalization.** The formal-conjectures file
 [`FormalConjectures/ErdosProblems/503.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/503.lean),

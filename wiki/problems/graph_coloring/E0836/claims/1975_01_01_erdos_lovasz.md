@@ -56,7 +56,8 @@ the authors jointly (p. 613), and asks whether $cr$ or even $r-c$ holds.
 **Depends on.** No page of this wiki; the construction is checked directly.
 
 **Acceptance.** None recorded. The colloquium volume is a proceedings volume
-with no evidence of refereeing on record, so `refereed` is not listed. The site
-credits a counterexample to the first question to Alon, giving the same
-construction with $\asymp4^r/\sqrt r$ vertices. That credit is commentary on a
-problem the site labeled OPEN, and it is not an acceptance.
+with no evidence of refereeing on record, so `refereed` is not listed.
+erdosproblems.com credits a counterexample to the first question to Alon, giving
+the same construction with $\asymp4^r/\sqrt r$ vertices. That credit is
+commentary on a problem Bloom's catalog labeled OPEN, and it is not an
+acceptance.

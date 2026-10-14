@@ -94,8 +94,8 @@ and pinned at the commit of 2026-09-04 that last touched the file). The file's
 header names Kesten and Sós as informal authors and Codex and GPT-5.6 Sol as
 formal authors, so it is a link on this page rather than an independent claim.
 Its theorem `erdos_1001` states, for every $A>0$ and $c\ge1$, that $S(N,A,c)$,
-the measure of the site's set with strict inequalities (which differs from the
-paper's set, defined with weak ones, by a countable set), converges to
+the measure of erdosproblems.com's set with strict inequalities (which differs
+from the paper's set, defined with weak ones, by a countable set), converges to
 `erdosSzuszTuranLimit A c`, defined as $6/\pi^2$ times a finite alternating
 inclusion-exclusion sum of integrals over the Farey triangle with cutoff
 $\lceil2Ac^2\rceil$, which the file calls the finite BCZ formula and says its

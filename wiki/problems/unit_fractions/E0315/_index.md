@@ -35,9 +35,9 @@ $$
 \liminf a_n^{1/2^n}<c_0=1.264085\cdots?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 1
-February 2026). The setup sentence is defective in two places, neither of
-which changes the question. First, it drops "$=1$": with $u_1=1$ and
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 1 February 2026). The setup sentence is defective in two places, neither
+of which changes the question. First, it drops "$=1$": with $u_1=1$ and
 $u_{n+1}=u_n(u_n+1)$ the sequence is $1,2,6,42,1806,\ldots$, the shifted
 sequence $u_k+1=2,3,7,43,1807,\ldots$ is Sylvester's sequence (OEIS A000058),
 and $\sum_{k\ge1}1/(u_k+1)=1$ (the partial sums are $1-1/u_{K+1}$; checked
@@ -50,19 +50,19 @@ monograph's p. 41 prints the same formula, and a thread comment of 31 July
 any strictly increasing sequence of positive integers with $\sum1/a_k=1$ other
 than Sylvester's sequence $u_k+1$ (the only sequence the setup exhibits with
 reciprocal sum $1$), and it asks whether $\liminf_na_n^{1/2^n}<c_0$, where
-$c_0=\lim u_n^{1/2^n}=\lim(u_n+1)^{1/2^n}$. The site's commentary explains its
-convention change: an earlier version of the page defined $u_1=2$,
+$c_0=\lim u_n^{1/2^n}=\lim(u_n+1)^{1/2^n}$. The erdosproblems.com commentary
+explains its convention change: an earlier version of the page defined $u_1=2$,
 $u_{n+1}=u_n^2-u_n+1$ (Sylvester's sequence itself), which the commentary
 notes is the present sequence shifted by one, and the present phrasing was
 adopted because it follows [ErGr80] more closely. Both sources below state the
 excluded sequence as Sylvester's $2,3,7,43,\ldots$ and the constant as the
-Vardi constant, so their statements are the site's question in either
+Vardi constant, so their statements are the erdosproblems.com question in either
 convention.
 
-**Status.** Proved, by two independent sources. The site's label was PROVED
-(LEAN). Its Lean qualifier is a catalog label whose scope is qualified under
-Formalization and the Lean label below, and no local kernel credit is claimed.
-The two accepted claims are recorded on
+**Status.** Proved, by two independent sources. The erdosproblems.com label was
+PROVED (LEAN). Its Lean qualifier is a catalog label whose scope is qualified
+under Formalization and the Lean label below, and no local kernel credit is
+claimed. The two accepted claims are recorded on
 [[problems/unit_fractions/E0315/claims/2025_03_15_li_tang|Li and Tang's claim
 page]] and [[problems/unit_fractions/E0315/claims/2025_03_04_kamio|Kamio's claim
 page]]. The pending claim is recorded on
@@ -84,13 +84,13 @@ statement to rationals and re-derives it by a non-constructive route. It is a
 pending claim.
 
 **Source.** [erdosproblems.com/315](https://www.erdosproblems.com/315),
-accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's banner
-saying the question is answered affirmatively and the proof verified in Lean;
-source key [ErGr80, p. 41]; last edited 1 February 2026; the
+accessed 2026-09-18: the problem page (PROVED (LEAN), with the erdosproblems.com
+banner saying the question is answered affirmatively and the proof verified in
+Lean; source key [ErGr80, p. 41]; last edited 1 February 2026; the
 formalized-statement field marked yes; OEIS A000058 and A076393 linked), its
 eleven-comment discussion thread (31 January to 1 August 2026) and its empty
-proof-claim tab. The site cites [Ka25] and [LiTa25] in its commentary and
-thanks Quanyu Tang and Wouter van Doorn. Cite as: T. F. Bloom, Erdős Problem
+proof-claim tab. erdosproblems.com cites [Ka25] and [LiTa25] in its commentary
+and thanks Quanyu Tang and Wouter van Doorn. Cite as: T. F. Bloom, Erdős Problem
 #315, https://www.erdosproblems.com/315, accessed 2026-09-18.
 
 **References.**
@@ -143,7 +143,7 @@ by `u 0 = 1`, `u (n+1) = u n * (u n + 1)` (so `u i + 1` is Sylvester's sequence)
 `c₀ := limUnder atTop fun i => (u i : ℝ) ^ ((1/2 : ℝ) ^ (i + 1))`, and declares
 `erdos_315 : answer(True) ↔ ∀ a : ℕ → ℕ, (∀ i, 0 < a i) → StrictMono a → (∃ i, a i ≠ u i + 1) → ∑' i, (1 : ℝ) / a i = 1 → atTop.liminf (fun i => (a i : ℝ) ^ ((1 / 2 : ℝ) ^ (i + 1))) < c₀`
 under `category research solved` with proof `sorry`; its docstring repeats
-the site's statement, including the defective setup sentence, and the
+the erdosproblems.com statement, including the defective setup sentence, and the
 convention note; its `formal_proof` attribute points to the file
 [`Erdos315.lean`](https://github.com/plby/lean-proofs/blob/1d7b3f00780b85ed0462e79a1cd5650ee9055655/src/v4.29.1/ErdosProblems/Erdos315.lean)
 in Boris Alexeev's `lean-proofs` repository at the commit the attribute
@@ -155,20 +155,20 @@ label below.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement above;
-PROVED (LEAN); last edited 1 February 2026; source key [ErGr80, p. 41]. The
-commentary consists of the convention note paraphrased in the Formulation, the
-remark that $c_0$ is known as the Vardi constant, and the verdict that the
-answer is yes, with the credit shared between Kamio [Ka25] and Li and Tang
-[LiTa25] as independent proofs. The thread (eleven comments): 31 January 2026
-(Boris Alexeev), that Kamio's paper was formalized by the prover Aristotle
-from the arXiv source, with a link to the Lean file, after which the site was
-updated; 31 July 2026 (Quanyu Tang), that Corollary 3 of their paper with Kovač
-generalizes the problem to rationals $\lambda\in(0,1]$ whose best $n$-term
-underapproximations are unique; 31 July 2026 (van Doorn), a suggested
-strengthening to a dichotomy without the uniqueness hypothesis and the two
-defects of the statement quoted above; 31 July and 1 August 2026 (Kovač, Xiao
-Hu), that the strengthening holds and will be added (it is Theorem 4 of the
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; PROVED (LEAN); last edited 1 February 2026; source key [ErGr80,
+p. 41]. The commentary consists of the convention note paraphrased in the
+Formulation, the remark that $c_0$ is known as the Vardi constant, and the
+verdict that the answer is yes, with the credit shared between Kamio [Ka25] and
+Li and Tang [LiTa25] as independent proofs. The thread (eleven comments): 31
+January 2026 (Boris Alexeev), that Kamio's paper was formalized by the prover
+Aristotle from the arXiv source, with a link to the Lean file, after which
+erdosproblems.com was updated; 31 July 2026 (Quanyu Tang), that Corollary 3 of
+their paper with Kovač generalizes the problem to rationals $\lambda\in(0,1]$
+whose best $n$-term underapproximations are unique; 31 July 2026 (van Doorn), a
+suggested strengthening to a dichotomy without the uniqueness hypothesis and the
+two defects of the statement quoted above; 31 July and 1 August 2026 (Kovač,
+Xiao Hu), that the strengthening holds and will be added (it is Theorem 4 of the
 paper's v2), and a discussion of the origin of the paper's payoff function,
 which the paper's declaration attributes to OpenAI's GPT-5.6 Sol. The
 proof-claim tab is empty. The community database lists proved (Lean), as of
@@ -179,30 +179,30 @@ before, i.e., $u_1=1$, $u_{n+1}=u_n(u_n+1)$, we have
 $\sum_{k=1}^\infty\frac1{u_{k+1}}=1$ [sic; $\frac1{u_k+1}$ is meant] and
 $u_k=[c_0^{2^k}+1]$, $k\ge1$, where $c_0=1.264085\ldots$. If $a_1<a_2<\cdots$
 is any other sequence with $\sum_{k=1}^\infty\frac1{a_k}=1$ is it true that
-$\liminf_na_n^{1/2^n}<\lim_nu_n^{1/2^n}=c_0$?" The site's wording follows this
-passage, including the bracket formula with "$+1$"; the Sylvester sequence and
-$c_0$ are introduced on printed p. 32 in the count of representations of $1$
-([[problems/unit_fractions/E0148/_index|Problem 148]]).
+$\liminf_na_n^{1/2^n}<\lim_nu_n^{1/2^n}=c_0$?" The erdosproblems.com wording
+follows this passage, including the bracket formula with "$+1$"; the Sylvester
+sequence and $c_0$ are introduced on printed p. 32 in the count of
+representations of $1$ ([[problems/unit_fractions/E0148/_index|Problem 148]]).
 
 **Status-defining sources.** Li and Tang's
 [[../library/unit_fractions/li_2025_conjecture_erdos_graham_about_sylvester_s/corollary_1_7|Corollary 1.7]]
 (arXiv v4, p. 4; claims checked) says their Conjecture 1.3 is true: with
 $u_1=2$, $u_{n+1}=u_n^2-u_n+1$ and $a_1<a_2<\cdots$ any other positive integer
 sequence with $\sum1/a_i=1$,
-$\liminf a_n^{1/2^n}<\lim u_n^{1/2^n}=c_0=1.264085\ldots$. This is the site's
-question with Sylvester's sequence written directly. The proof (p. 19) chains
-Theorem 1.6, which constructs an "eventually Sylvester" sequence $c_n$ of
-positive reals, following the recurrence from some $N\ge2$ on, with
+$\liminf a_n^{1/2^n}<\lim u_n^{1/2^n}=c_0=1.264085\ldots$. This is the
+erdosproblems.com question with Sylvester's sequence written directly. The proof
+(p. 19) chains Theorem 1.6, which constructs an "eventually Sylvester" sequence
+$c_n$ of positive reals, following the recurrence from some $N\ge2$ on, with
 $\sum1/c_i=1$, $\sum_{i<N}1/c_i<\sum_{i<N}1/u_i$ and
 $\liminf a_n^{1/2^n}\le\lim c_n^{1/2^n}$, with Theorem 1.5, which gives
 $\lim c_n^{1/2^n}<\lim u_n^{1/2^n}$ for such sequences; the corpus has not
 checked the proofs of those two theorems (pp. 13--19). Acceptance evidence:
-the site's curator credits the proof (see the claim page). The authors' paper
-in Acta Mathematica Hungarica 177 (2025), no. 1, 41--63 (online 13 October
-2025), Generalizing a conjecture of Erdős and Graham via best Egyptian
-underapproximations, publishes the conditional generalization (its Theorem
-1.6, Theorem 1.9 of arXiv v4) and cites the preprint for the proof of the
-conjecture, so Corollary 1.7 has no refereed publication. Kamio's
+the erdosproblems.com curator credits the proof (see the claim page). The
+authors' paper in Acta Mathematica Hungarica 177 (2025), no. 1, 41--63 (online
+13 October 2025), Generalizing a conjecture of Erdős and Graham via best
+Egyptian underapproximations, publishes the conditional generalization (its
+Theorem 1.6, Theorem 1.9 of arXiv v4) and cites the preprint for the proof of
+the conjecture, so Corollary 1.7 has no refereed publication. Kamio's
 [[../library/unit_fractions/kamio_2025_asymptotic_analysis_infinite_decompositions_unit_fraction/theorem_8|Theorem 8]]
 (arXiv v1, p. 3; claims checked): for a positive integer $n$, any
 nondecreasing sequence $a_1\le a_2\le\cdots$ of positive integers with
@@ -210,14 +210,14 @@ $\sum1/a_i=1/n$ and $a_i\ne s_i(n)$ for some $i$ has
 $\liminf a_i^{2^{-i}}<c_n=\lim s_i(n)^{2^{-i}}$, where $s_1(n)=n+1$,
 $s_{i+1}(n)=s_i(n)^2-s_i(n)+1$; with $n=1$ the excluded sequence
 $s_i(1)=2,3,7,43,\ldots$ is Sylvester's and $c_1$ is the Vardi constant, so
-this is the site's question for all nondecreasing sequences, which include the
-strictly increasing ones. The proof (pp. 3--5) transfers Soundararajan's
-comparison argument for the finite problem to the infinite one and was read
-for structure only. Kamio's paper is a preprint with no journal record, and Li
-and Tang's unconditional proof is likewise published only as a preprint; the
-status rests on the curator's credit of the two independent proofs. Kamio's
-Problem 1 prints the Sylvester recursion defectively (the result page records
-this); Theorem 8 does not depend on it.
+this is the erdosproblems.com question for all nondecreasing sequences, which
+include the strictly increasing ones. The proof (pp. 3--5) transfers
+Soundararajan's comparison argument for the finite problem to the infinite one
+and was read for structure only. Kamio's paper is a preprint with no journal
+record, and Li and Tang's unconditional proof is likewise published only as a
+preprint; the status rests on the curator's credit of the two independent
+proofs. Kamio's Problem 1 prints the Sylvester recursion defectively (the result
+page records this); Theorem 8 does not depend on it.
 
 **Generalization (preprint, pending claim).** Kovač and Tang's
 [[../library/unit_fractions/kovac_2026_eventually_greedy_best_egyptian_underapproximations_rational/_index|2026 preprint]]
@@ -243,7 +243,7 @@ pending claim on
 [[problems/unit_fractions/E0315/claims/2026_07_30_kovac_tang|Kovač and Tang's claim page]];
 it changes nothing in the standing, which the two accepted claims settle.
 
-**Formalization and the Lean label.** The site's Lean qualifier is a
+**Formalization and the Lean label.** The erdosproblems.com Lean qualifier is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names the
 file `Erdos315.lean` in Boris Alexeev's `lean-proofs` repository at the
@@ -285,9 +285,10 @@ structure sketches, and neither has a refereed publication: Kamio's paper is a
 preprint, and Li and Tang's journal paper publishes only the conditional
 generalization. (2) The Lean artifacts are pointers, not local evidence; the
 fidelity of the pinned theorem's constant to the formal-conjectures $c_0$ was
-not audited. (3) The site's setup sentence carries the two defects named in
-the Formulation; they are recorded for the site and do not affect the field.
-(4) Kovač and Tang's generalization is a pending preprint claim.
+not audited. (3) erdosproblems.com's setup sentence carries the two defects
+named in the Formulation; they are recorded for erdosproblems.com and do not
+affect the field. (4) Kovač and Tang's generalization is a pending preprint
+claim.
 
 ## Progress and known results
 

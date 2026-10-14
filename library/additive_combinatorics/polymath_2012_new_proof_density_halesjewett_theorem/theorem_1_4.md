@@ -76,11 +76,11 @@ Furstenberg--Katznelson argument.
 - [[../wiki/problems/additive_combinatorics/E0171/_index|Problem 171]]: with
   $k=t$ and $\delta=\epsilon$, Theorem 1.4 is the density Hales--Jewett
   theorem, which the problem page records as the intended question behind
-  the site's wording (a line has at least one coordinate that varies); it
-  answers that question yes. It is a second proof, after Furstenberg and
-  Katznelson's.
+  the erdosproblems.com wording (a line has at least one coordinate that
+  varies); it answers that question yes. It is a second proof, after Furstenberg
+  and Katznelson's.
 - [[../wiki/problems/additive_combinatorics/E0185/_index|Problem 185]]: the
-  paper does not discuss collinear points. The problem page records, as the
-  site does, that its question follows from the case $k=3$ because the three
-  points of a combinatorial line in $\{0,1,2\}^n$ are collinear; Theorem 1.4
-  with $k=3$ is that case.
+  paper does not discuss collinear points. The problem page records, as
+  erdosproblems.com does, that its question follows from the case $k=3$ because
+  the three points of a combinatorial line in $\{0,1,2\}^n$ are collinear;
+  Theorem 1.4 with $k=3$ is that case.

@@ -24,14 +24,14 @@ updated: 2026-10-08T02:16:54Z
 progression then must $\mathbb{R}\backslash A$ contain an infinite arithmetic
 progression?
 
-**Status.** DISPROVED (LEAN), the site's label. The answer is no, by
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. The answer is no, by
 Baumgartner's published 1975 theorem applied to $\mathbb R$ as a vector space
 over $\mathbb Q$. This is recorded on
 [[problems/additive_combinatorics/E0199/claims/1975_03_01_baumgartner|its claim page]]
-with its refereed and site evidence. The label's Lean mark refers to a Lean
-formalization of Baumgartner's proof posted in the site's discussion thread in
-February 2026 and linked by the formal-conjectures catalog. That formalization
-is listed on the claim page and was not built by this corpus.
+with its refereed and erdosproblems.com evidence. The label's Lean mark refers
+to a Lean formalization of Baumgartner's proof posted in the erdosproblems.com
+discussion thread in February 2026 and linked by the formal-conjectures catalog.
+That formalization is listed on the claim page and was not built by this corpus.
 
 **Source.** [erdosproblems.com/199](https://www.erdosproblems.com/199), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #199,
@@ -58,27 +58,28 @@ over $\mathbb Q$ gives such a set $A$, so $\mathbb R\setminus A$ contains no
 infinite arithmetic progression. This is a complete disproof, not only a bound
 or a conditional result. It does not require the continuum hypothesis.
 
-**Evidence window.** The site's label and the formal-conjectures statement are
-those of 2026-09-04, the formal statement file at the revision linked above. The
-historical report is on printed p. 339 of Erdős–Graham (1979), and the
-published three-page Baumgartner paper is the status-defining source.
-Status-search scope: the site's page, the survey passage, the paper and the
-formal-conjectures catalog, checked in September 2026; no later literature
-search is recorded.
+**Evidence window.** The erdosproblems.com label and the formal-conjectures
+statement are those of 2026-09-04, the formal statement file at the revision
+linked above. The historical report is on printed p. 339 of Erdős–Graham (1979),
+and the published three-page Baumgartner paper is the status-defining source.
+Status-search scope: the erdosproblems.com page, the survey passage, the paper
+and the formal-conjectures catalog, checked in September 2026; no later
+literature search is recorded.
 
 **Proof and review coverage.** The complete published main proof is
 reconstructed on the linked main-theorem page. The acceptance rests on the
 publication and on the outside records listed on the claim page: Erdős and
-Graham's 1979 report of Baumgartner's answer and the site curator's credit.
+Graham's 1979 report of Baumgartner's answer and the erdosproblems.com curator's
+credit.
 
 **Formal evidence.** The linked Formal Conjectures file records the formal
 statement. At the linked revision its theorem body is `by sorry` and its
 metadata points to an external Lean proof: the formalization of Baumgartner's
-proof written with the prover Aristotle and posted in the site's discussion
-thread, listed as a formalization link on the claim page. Neither that proof
-nor its dependencies were built or audited by this corpus, so the site's Lean
-mark stays separate from the published disproof and the claim page lists no
-`formalized` evidence.
+proof written with the prover Aristotle and posted in the erdosproblems.com
+discussion thread, listed as a formalization link on the claim page. Neither
+that proof nor its dependencies were built or audited by this corpus, so the
+erdosproblems.com Lean mark stays separate from the published disproof and the
+claim page lists no `formalized` evidence.
 
 **Remaining gaps.** The source's
 [[../library/additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/remark_p233|fixed-length strengthening]] is recorded with its modified

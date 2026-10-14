@@ -4,8 +4,8 @@ title: De Boor and Pinkus characterize the optimal nodes
 desc: |
   De Boor and Pinkus prove that among node systems containing both endpoints,
   exactly one equioscillates, and it alone minimizes the Lebesgue constant. The
-  refereed paper appeared in J. Approx. Theory and is credited by the site's
-  curator.
+  refereed paper appeared in J. Approx. Theory and is credited by the
+  erdosproblems.com curator.
 authors:
 - Carl de Boor
 - Allan Pinkus
@@ -34,7 +34,7 @@ updated: 2026-10-08T00:44:25Z
 
 **Claim.** Fix $n\ge2$ and consider the node systems
 $-1=t_0<t_1<\cdots<t_n=1$ that contain both endpoints, the paper's
-convention and the site's canonical systems. For such a system let
+convention and erdosproblems.com's canonical systems. For such a system let
 $\lambda_i$ be the maximum of the Lebesgue function $\sum_k|l_k(x)|$ on the
 gap $[t_{i-1},t_i]$, and call the system equioscillating when
 $\lambda_1=\cdots=\lambda_n$. Theorem 1 of de Boor and Pinkus (p. 295)
@@ -60,14 +60,14 @@ that a minimizer equioscillates; the paper supplies uniqueness and the
 strict comparison. The source card is
 [[../library/polynomials/deboor_1978_conjectures_bernstein_erdos_optimal_nodes_polynomial_interpolation/_index|de Boor and Pinkus 1978]].
 The problem asks to describe the minimizing choice, a question with neither
-a proved nor a disproved shape, so the claim value is `answered`; the site's
-label PROVED is recorded on the problem page.
+a proved nor a disproved shape, so the claim value is `answered`; the
+erdosproblems.com label PROVED is recorded on the problem page.
 
-**Convention.** The site lets the $x_i$ range over all of $[-1,1]$ and
+**Convention.** erdosproblems.com lets the $x_i$ range over all of $[-1,1]$ and
 writes the equioscillation condition over the $n+1$ pieces cut out by the
 nodes and the auxiliary points $x_0=-1$ and $x_{n+1}=1$; the paper's
-theorem concerns systems containing both endpoints, and the site states the
-uniqueness for those canonical systems. The minimal value over all systems
+theorem concerns systems containing both endpoints, and erdosproblems.com states
+the uniqueness for those canonical systems. The minimal value over all systems
 is the canonical minimum $\lambda^*$: the fundamental polynomials are
 invariant under an affine change of variable, so the Lebesgue constant of a
 system is at least that of its affine rescaling onto $[-1,1]$. Which systems
@@ -106,9 +106,9 @@ Section 3] recall it.
 289–303, received 1977-04-01. The publisher's record places it in the issue
 dated December 1978, which dates this page.
 
-Reviewed: the site's curator, Thomas F. Bloom, labeled the problem proved. The
-commentary records that de Boor and Pinkus proved the existence of a unique
-minimizing choice, after the results of Kilgore and Cheney and of Kilgore
+Reviewed: the erdosproblems.com curator, Thomas F. Bloom, labeled the problem
+proved. The commentary records that de Boor and Pinkus proved the existence of a
+unique minimizing choice, after the results of Kilgore and Cheney and of Kilgore
 (erdosproblems.com/1129, last edited 2026-01-23, accessed 2026-09-04). The
 paper's note added in proof records that Kilgore also proved Bernstein's
 conjecture, by a different argument, in a paper published in the same issue.

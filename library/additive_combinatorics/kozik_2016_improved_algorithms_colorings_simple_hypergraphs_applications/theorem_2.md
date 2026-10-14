@@ -78,6 +78,6 @@ page.
   $\{1,\ldots,N\}$ has a monochromatic $k$-term progression, is $W(k,2)$ in
   this paper's notation, so the case $r=2$ gives $W(k)\ge\beta2^{k-1}$ for
   every $k\ge3$, the bound $W(k)\gg2^k$ that the problem page cites from this
-  paper among the bounds the site credits as known. It gives
+  paper among the bounds erdosproblems.com credits as known. It gives
   $\liminf_k W(k)^{1/k}\ge2$ and does not show $W(k)^{1/k}\to\infty$; the
   paper does not mention the problem.

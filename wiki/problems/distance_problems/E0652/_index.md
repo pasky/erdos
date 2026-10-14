@@ -34,7 +34,7 @@ Let $\alpha_k$ be minimal such that, for all large enough $n$, there exists a
 set of $n$ points with $R(x_k)<\alpha_kn^{1/2}$. Is it true that $\alpha_k\to
 \infty$ as $k\to \infty$?
 
-**Formulation.** The site's commentary records that Erdős originally
+**Formulation.** The erdosproblems.com commentary records that Erdős originally
 conjectured $R(x_3)/n^{1/2}\to\infty$ as $n\to\infty$: that in every set of
 $n$ points all but at most two of the points determine many more than
 $n^{1/2}$ distinct distances each. That question has the answer no. As the
@@ -42,12 +42,13 @@ commentary records, Elekes proved that for every $k$ and all large $n$ some
 set of $n$ points has $R(x_k)\ll_k n^{1/2}$; his circle-grid construction,
 which [Ma21] restates in its Section 2, places $k$ points so that each
 determines $O(\sqrt{kn})$ distances to the other $n$ points when
-$2\le k\le n^{1/3}$. So each $\alpha_k$ is finite, and the site asks instead
-whether these constants grow with $k$; that question sets the standing.
+$2\le k\le n^{1/3}$. So each $\alpha_k$ is finite, and erdosproblems.com asks
+instead whether these constants grow with $k$; that question sets the standing.
 
-**Status.** Proved. The site's label was PROVED.
+**Status.** Proved. The erdosproblems.com label was PROVED.
 [[problems/distance_problems/E0652/claims/2019_12_04_mathialagan|Mathialagan's theorem]]
-[Ma21] answers the question. It is refereed and credited by the site's curator.
+[Ma21] answers the question. It is refereed and credited by the
+erdosproblems.com curator.
 [[problems/distance_problems/E0652/claims/2026_01_29_feng|Feng and coauthors]]
 give a second, unrefereed proof with a weaker growth rate.
 

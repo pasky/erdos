@@ -85,7 +85,7 @@ arXiv (24 May 2026) records acceptance with minor revisions in its comments
 line. The published text has not been compared with it. Version v1 is dated 26
 December 2025, the date of this page.
 
-The site's commentary credits van Doorn and Tang with the lower bound, but the
-site labeled the problem OPEN. So that commentary is not acceptance, and
-`reviewed` is not listed. The second author announced the result in the
-problem's discussion thread on 29 December 2025.
+The erdosproblems.com commentary credits van Doorn and Tang with the lower
+bound, but Bloom's catalog labeled the problem OPEN. So that commentary is not
+acceptance, and `reviewed` is not listed. The second author announced the result
+in the problem's discussion thread on 29 December 2025.

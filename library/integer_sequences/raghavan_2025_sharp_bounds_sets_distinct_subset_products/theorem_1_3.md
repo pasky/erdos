@@ -26,9 +26,9 @@ The paper introduces it as the affirmative answer to Question 1.2 (Erdős
 recalling Erdős's bound $f(N)\le\pi(N)+O(\pi(N^{1/2}))$ [3] and Example 1.1
 (the primes up to $N$ and the squares of the primes up to $N^{1/2}$, giving
 $f(N)\ge\pi(N)+\pi(N^{1/2})$). Since $N^{5/12}=o(N^{1/2}/\log N)$, the error
-term is stronger than the $o(x^{1/2}/\log n)$ of the site's statement, whose
-undefined $x$ can only be $n$. The paper's Definition 1.9 fixes $O$ and $o$
-as absolute.
+term is stronger than the $o(x^{1/2}/\log n)$ of the erdosproblems.com
+statement, whose undefined $x$ can only be $n$. The paper's Definition 1.9 fixes
+$O$ and $o$ as absolute.
 
 **Source.** R. Raghavan, *Sharp bounds for sets with distinct subset
 products*, arXiv:2501.02695v2 (26 February 2026, 13 pp.);
@@ -78,5 +78,5 @@ that it also follows from a result of Alon, Hoory and Linial [1].
 
 - [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the statement answers
   the problem's question affirmatively with the error term $O(N^{5/12})$;
-  the site's commentary prints $O(n^{5/12+o(1)})$, a weaker form of the
-  same bound.
+  the erdosproblems.com commentary prints $O(n^{5/12+o(1)})$, a weaker form of
+  the same bound.

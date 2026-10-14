@@ -45,8 +45,8 @@ $\beta$ with no odd circuit of length at most $2j+1$. The source card is
 chromatic number at least $\aleph_3$, as printed. The accounts of the case
 differ: the same authors' 1974 paper with Shelah (p. 251) recalls that in
 1966 they could prove the statement only for chromatic number greater than
-$\omega_1$, and the site credits Erdős and Hajnal with chromatic number at
-least $\aleph_2$; the page records the hypothesis as the 1966 paper prints
+$\omega_1$, and erdosproblems.com credits Erdős and Hajnal with chromatic number
+at least $\aleph_2$; the page records the hypothesis as the 1966 paper prints
 it. The page does not cover the smaller chromatic numbers. Theorem 3 of
 Erdős, Hajnal and Shelah settles the whole question, on
 [[problems/set_theory/E0594/claims/1974_01_01_erdos_hajnal_shelah|the Erdős–Hajnal–Shelah claim page]].
@@ -61,8 +61,8 @@ day, so this page carries the first day of that month as a placeholder.
 **Standing.** Claimed, with no acceptance evidence listed. The paper is a
 refereed journal article, but it states the result without proof and no
 proof of this case was published, so `refereed` does not apply to the
-result; the site's remark crediting Erdős and Hajnal with the case of
-chromatic number at least $\aleph_2$ is a credit on a problem the site labeled
-PROVED (LEAN) for the full theorem of Erdős, Hajnal and Shelah, not an
+result; the erdosproblems.com remark crediting Erdős and Hajnal with the case of
+chromatic number at least $\aleph_2$ is a credit on a problem Bloom's catalog
+labeled PROVED (LEAN) for the full theorem of Erdős, Hajnal and Shelah, not an
 acceptance of this unpublished case, so `reviewed` is not listed. Nothing is
 independently reviewed here.

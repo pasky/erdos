@@ -111,4 +111,4 @@ with the ratio of consecutive primes tending to 1.
 - [[../wiki/problems/additive_combinatorics/E0819/_index|Problem 819]]: the printed
   equivalence between improving the upper bound of Proposition 1 and
   lowering the coefficient of (37) below $\sqrt2$ is the connection between
-  the two problems that the site records.
+  the two problems that erdosproblems.com records.

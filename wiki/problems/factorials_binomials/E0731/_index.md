@@ -28,30 +28,30 @@ $$
 m\sim f(n).
 $$
 
-**Formulation.** The site does not define "reasonable", and without some such
-restriction the request would be met trivially by taking $f(n)$ to be the least
-non-divisor itself. The page reads the question as its source does. [EGRS75]
-(p. 91) state without proof that, for every fixed $\epsilon>0$ and outside a set
-of density $0$, the least non-divisor $A(n)$ of $\binom{2n}{n}$ satisfies
-$\exp((\log n)^{1/2-\epsilon})<A(n)<\exp((\log n)^{1/2+\epsilon})$. They add
-that improving this would be easy but that an asymptotic formula looks hard. The
-question asks for such a formula: an explicit $f$ with $A(n)/f(n)\to1$ outside a
-set of density $0$. Li's claim reads "reasonable" as dyadic regularity, a class
-that contains the usual explicit formulas, and asserts that no such $f$ exists.
-That reading is a variant, which this page sets aside: a no to it leaves open an
-explicit $f$ outside the class.
+**Formulation.** erdosproblems.com does not define "reasonable", and without
+some such restriction the request would be met trivially by taking $f(n)$ to be
+the least non-divisor itself. The page reads the question as its source does.
+[EGRS75] (p. 91) state without proof that, for every fixed $\epsilon>0$ and
+outside a set of density $0$, the least non-divisor $A(n)$ of $\binom{2n}{n}$
+satisfies $\exp((\log n)^{1/2-\epsilon})<A(n)<\exp((\log n)^{1/2+\epsilon})$.
+They add that improving this would be easy but that an asymptotic formula looks
+hard. The question asks for such a formula: an explicit $f$ with $A(n)/f(n)\to1$
+outside a set of density $0$. Li's claim reads "reasonable" as dyadic
+regularity, a class that contains the usual explicit formulas, and asserts that
+no such $f$ exists. That reading is a variant, which this page sets aside: a no
+to it leaves open an explicit $f$ outside the class.
 
-**Status.** OPEN: the site's label, on a page last edited 19 October 2025,
-before the one claim. The derived standing is open as well. One claim, by Eric
-Li, is recorded on the
+**Status.** OPEN: the erdosproblems.com label, on a page last edited 19 October
+2025, before the one claim. The derived standing is open as well. One claim, by
+Eric Li, is recorded on the
 [[problems/factorials_binomials/E0731/claims/2026_06_27_li|Li claim page]]. The
 claim asserts that no dyadically regular $f$ has the least non-divisor
 asymptotic to $f(n)$ for almost all $n$. This is a negative answer under Li's
 reading of "reasonable" as dyadic regularity, a variant the Formulation sets
 aside, so the claim page is rejected (Current assessment). Li posted the claim
-as an arXiv preprint on 2026-06-27 and submitted it to the site's proof-claims
-tab on 2026-07-17. It comes with a Lean development produced by Aristotle
-(Harmonic).
+as an arXiv preprint on 2026-06-27 and submitted it to the erdosproblems.com
+proof-claims tab on 2026-07-17. It comes with a Lean development produced by
+Aristotle (Harmonic).
 
 **Source.** [erdosproblems.com/731](https://www.erdosproblems.com/731), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #731,
@@ -68,12 +68,12 @@ https://www.erdosproblems.com/731.
 
 **The question.** The Statement asks for a reasonable $f$ with $A(n)\sim f(n)$
 for almost all $n$, where $A(n)$ is the least $m$ with $m\nmid\binom{2n}n$.
-The site's statement and commentary do not define "reasonable"; [EGRS75]
-(p. 91), the source, does not use the word and says only that an asymptotic
-formula seems hard; and the site's discussion thread, frozen on 6 October
-2026, holds no reply of the curator on the word. The commentary records
-[EGRS75]'s remark that $A(n)=\exp((\log n)^{1/2+o(1)})$ for almost all $n$ is
-not hard to show.
+The erdosproblems.com statement and commentary do not define "reasonable";
+[EGRS75] (p. 91), the source, does not use the word and says only that an
+asymptotic formula seems hard; and the erdosproblems.com discussion thread,
+frozen on 6 October 2026, holds no reply of the curator on the word. The
+commentary records [EGRS75]'s remark that $A(n)=\exp((\log n)^{1/2+o(1)})$ for
+almost all $n$ is not hard to show.
 
 **Readings and answers.** The answer depends on the reading of "reasonable". The
 page reads the question as asking for an explicit asymptotic formula, as its
@@ -110,11 +110,11 @@ of upper density tending to $0$ as the bound grows, so that
 $\sqrt2(\log2)^{1/4}(\log n)^{1/4}\exp\sqrt{(\log2)\log n}$ is the
 density-tight scale of $A(n)$.
 
-**Search scope and coverage.** The site's problem page, discussion thread and
-proof-claims tab, and the library cards of [EGRS75] and of Li's preprint; no
-wider literature search was made. Li's preprint is unrefereed and unreviewed,
-its Lean development is not built or audited here, and nothing on this page is
-independently reviewed.
+**Search scope and coverage.** The erdosproblems.com problem page, discussion
+thread and proof-claims tab, and the library cards of [EGRS75] and of Li's
+preprint; no wider literature search was made. Li's preprint is unrefereed and
+unreviewed, its Lean development is not built or audited here, and nothing on
+this page is independently reviewed.
 
 **Remaining gaps.** (1) The reading of "reasonable", which no source or ruling
 fixes. (2) Review of Li's preprint and its Lean development, which would

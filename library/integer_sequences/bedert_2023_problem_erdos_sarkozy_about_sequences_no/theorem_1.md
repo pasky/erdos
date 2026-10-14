@@ -28,8 +28,8 @@ both impossible), while $2m\mid3m+3m$. This is the paper's own remark
 (p. 2) that Erdős's example $\{\lceil2n/3\rceil,\ldots,n\}$ for the bound
 $\lfloor n/3\rfloor+1$ "is a typo", the exact bound being
 $\lceil n/3\rceil$ with the tight example $\{\lfloor2n/3\rfloor+1,\ldots,n\}$.
-The site's Problem 13 wording ("no $a,b,c\in A$ such that $a\mid(b+c)$ and
-$a<\min(b,c)$") has the same reading; Problem 12 and the 1970 paper's
+erdosproblems.com's Problem 13 wording ("no $a,b,c\in A$ such that $a\mid(b+c)$
+and $a<\min(b,c)$") has the same reading; Problem 12 and the 1970 paper's
 conjecture (1) use the distinct reading.
 
 **Source.** B. Bedert, *On a problem of Erdős and Sárközy about sequences
@@ -60,6 +60,7 @@ None outside the paper beyond elementary additive combinatorics (Section
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0013/_index|Problem 13]]: the statement is the
-  problem's question, answered yes; the site's label rested on it, and the
-  companion [[integer_sequences/bedert_2023_problem_erdos_sarkozy_about_sequences_no/theorem_2|Theorem 2]]
+  problem's question, answered yes; the erdosproblems.com label rested on it,
+  and the companion
+  [[integer_sequences/bedert_2023_problem_erdos_sarkozy_about_sequences_no/theorem_2|Theorem 2]]
   gives the exact value for large $n$.

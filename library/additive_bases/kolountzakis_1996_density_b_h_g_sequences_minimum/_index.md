@@ -52,8 +52,8 @@ sequence with liminf n_j/j^2 = 1, which is the same as limsup A(x)/sqrt(x) = 1
 for its counting function A(x). The paper reports Jia's improvements: a finite
 constant sqrt(3) in place of sqrt(2) (pp. 6, 9), and infinite B_2[g] sequences
 with liminf n_j/j^2 = 1/sqrt(2g-3) for g >= 2 (p. 10). Theorem 4 is the
-infinite B_2[2] construction that the site's Problem 329 commentary credits
-under the key [Ko96].
+infinite B_2[2] construction that erdosproblems.com's Problem 329 commentary
+credits under the key [Ko96].
 
 Source: <https://doi.org/10.1006/jnth.1996.0002>.
 

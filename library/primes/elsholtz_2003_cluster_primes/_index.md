@@ -19,8 +19,8 @@ license line; the publisher's issue listing labels the article's download
 no version or URL named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/109/3,
 read 2026-10-02; the article's own page was not opened); the site footer
-"Copyright © 2026 by IMPAN. All rights reserved." speaks for the site, not the
-article.
+"Copyright © 2026 by IMPAN. All rights reserved." speaks for erdosproblems.com,
+not the article.
 
 Source: <https://www.math.tugraz.at/~elsholtz/WWW/papers/papers.html>. Digest
 not yet written.

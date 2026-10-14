@@ -27,8 +27,8 @@ $$
 \lim_{i\to \infty}\frac{p_{n_i+1}-p_{n_i}}{\log n_i}=C?
 $$
 
-**Status.** Open, the site's label. The case $C=0$, proved by Goldston, Pintz
-and Yıldırım, is an accepted partial result on
+**Status.** Open, the erdosproblems.com label. The case $C=0$, proved by
+Goldston, Pintz and Yıldırım, is an accepted partial result on
 [[problems/primes/E0005/claims/2005_08_10_goldston_pintz_yildirim|its claim page]].
 Pintz's interval $[0,c]$ of limit points, for an ineffective $c>0$, is a claimed
 partial result on
@@ -45,11 +45,11 @@ https://www.erdosproblems.com/5.
   (2016), 515-539. Library home:
   [[../library/primes/banks_2016_limit_points_sequence_normalized_prime_gaps/_index|banks_2016_limit_points_sequence_normalized_prime_gaps]].
 - [Er55] Erdős, Paul, Some remarks on number theory. Riveon Lematematika (1955),
-  45-48. The site's commentary credits the positive-measure theorem to Erdős
-  under this key, but this note does not contain it (see
+  45-48. The erdosproblems.com commentary credits the positive-measure theorem
+  to Erdős under this key, but this note does not contain it (see
   [[../library/primes/erdos_1955_remarks_number_theory_hebrew/_index|its library
-  card]]); the theorem is on p. 4 of the lecture the site keys [Er55c], P.
-  Erdős, Some problems on the distribution of prime numbers, C.I.M.E., Teoria
+  card]]); the theorem is on p. 4 of the lecture erdosproblems.com keys [Er55c],
+  P. Erdős, Some problems on the distribution of prime numbers, C.I.M.E., Teoria
   dei numeri (1955), https://users.renyi.hu/~p_erdos/1955-12.pdf.
 - [Er65b] Erdős, Paul, Some recent advances and current problems in number
   theory. Lectures on Modern Mathematics, Vol. III (1965), 196-244.
@@ -86,11 +86,11 @@ https://www.erdosproblems.com/5.
 
 ## Current assessment
 
-The site's formulation asks, for each $C\ge0$, whether $C$ is a limit point of
-the normalized gaps $(p_{n+1}-p_n)/\log n$; the site's commentary reads the
-problem as asking whether the set $S$ of limit points is all of $[0,\infty]$,
-and labeled it OPEN. The case $C=0$ is the theorem of Goldston, Pintz and
-Yıldırım [GPY09]
+The erdosproblems.com formulation asks, for each $C\ge0$, whether $C$ is a limit
+point of the normalized gaps $(p_{n+1}-p_n)/\log n$; the erdosproblems.com
+commentary reads the problem as asking whether the set $S$ of limit points is
+all of $[0,\infty]$, and labeled it OPEN. The case $C=0$ is the theorem of
+Goldston, Pintz and Yıldırım [GPY09]
 ([[../library/primes/goldston_2009_primes_tuples_i/theorem_2|Theorem 2]]), an
 accepted partial result on
 [[problems/primes/E0005/claims/2005_08_10_goldston_pintz_yildirim|its claim page]],
@@ -100,12 +100,12 @@ adds every $C$ in an initial interval $[0,c]$ with an ineffective $c>0$, a
 claimed partial result on
 [[problems/primes/E0005/claims/2013_05_27_pintz|its claim page]]. Westzynthius's
 theorem [We31] gives $\infty\in S$, which the commentary's reading includes but
-the site's wording, with real $C\ge0$, does not. The other results the site's
-commentary credits identify no particular $C$ and so settle no instance: the
-positive Lebesgue measure of $S$ (Erdős's 1955 C.I.M.E. lecture and Ricci
-[Ri56]), arbitrarily large finite limit points (Hildebrand and Maier [HiMa88]),
-and the proportions of at least $12.5\%$ and at least $1/3$ of $[0,\infty)$
-lying in $S$ (Banks, Freiberg and Maynard [BFM16],
+the erdosproblems.com wording, with real $C\ge0$, does not. The other results
+the erdosproblems.com commentary credits identify no particular $C$ and so
+settle no instance: the positive Lebesgue measure of $S$ (Erdős's 1955 C.I.M.E.
+lecture and Ricci [Ri56]), arbitrarily large finite limit points (Hildebrand and
+Maier [HiMa88]), and the proportions of at least $12.5\%$ and at least $1/3$ of
+$[0,\infty)$ lying in $S$ (Banks, Freiberg and Maynard [BFM16],
 [[../library/primes/banks_2016_limit_points_sequence_normalized_prime_gaps/corollary_1_2|Corollary 1.2]];
 Merikoski [Me20],
 [[../library/primes/merikoski_2020_limit_points_normalized_prime_gaps/corollary_2|Corollary 2]]).

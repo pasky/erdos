@@ -61,7 +61,7 @@ which Corollary 2 covers.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0079/_index|Problem 79]]: the problem's statement in
-  its original source; the site's "all of its subgraphs" is this
+  its original source; erdosproblems.com's "all of its subgraphs" is this
   definition's proper-subgraph minimality.
 - [[../wiki/problems/ramsey_theory/E0567/_index|Problem 567]]: context; the p. 395 remark
   says that each of the problem's three graphs would be minimal if it were

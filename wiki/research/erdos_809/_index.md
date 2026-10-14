@@ -42,12 +42,12 @@ question as proved.
 Priority. Asad Shahab's independent proof claim, a proof of the seven-cycle case
 with a preprint (arXiv:2609.38286, 29 September 2026) and a Lean development
 whose headline theorem covers every odd cycle $C_{2k+1}$ with $k\ge3$, was filed
-on the site's proof-claims tab first, as proof claim 358, before the project's
-claim 367 on the same day, 27 September 2026; this corpus built that development
-at its pinned commit and audited its statement on 2026-10-08. The seven-cycle
-argument here is the project's own in authorship and was not the first posted,
-as [[problems/ramsey_theory/E0809/_index|the problem page]] records from the
-site's page as it stood on 2026-10-05.
+on the erdosproblems.com proof-claims tab first, as proof claim 358, before the
+project's claim 367 on the same day, 27 September 2026; this corpus built that
+development at its pinned commit and audited its statement on 2026-10-08. The
+seven-cycle argument here is the project's own in authorship and was not the
+first posted, as [[problems/ramsey_theory/E0809/_index|the problem page]]
+records from the erdosproblems.com page as it stood on 2026-10-05.
 
 Read the [six C7 proof notes](proofs/_index.md) in their stated order, then
 the [formalization account](formalization.md) for the Lean assembly. The

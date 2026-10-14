@@ -5,12 +5,12 @@ desc: |
   Lean proof, accepted and paid by the bounty site Conjectures.io in September
   2026, that for two positive reals with irrational ratio every sufficiently
   large integer is a sum of floors of their doubling multiples with each index
-  used at most once, the first question of Problem 354 in the site's exact
-  reading; the site's solution file is retained and was read as text, not
-  built here, and no refereed publication exists.
+  used at most once, the first question of Problem 354 in erdosproblems.com's
+  exact reading; Conjectures.io's solution file is retained and was read as
+  text, not built here, and no refereed publication exists.
 license: reserved
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-14T01:10:24Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # JenW1N: Lean proof of Problem 354 part (i), Conjectures.io record 815c1d5f
@@ -20,13 +20,13 @@ updated: 2026-10-14T01:10:24Z
 [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/evidence/_index|evidence/]]: Retains the site's solution file Main.lean as fetched on 2026-09-28, the
 bytes the site's kernel accepted, unedited; the replay rebuilt a ported copy.
 
-[[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/jenw1n_2026_erdos_354_part_i_lean_proof|jenw1n_2026_erdos_354_part_i_lean_proof]]: Record identity, the site's dates and review decision, its verification
+[[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/jenw1n_2026_erdos_354_part_i_lean_proof|jenw1n_2026_erdos_354_part_i_lean_proof]]: Record identity, Conjectures.io's dates and review decision, its verification
 report, the task's pinned statement and the public standing of the result
-as of 2026-09-28.
+on 2026-09-28.
 
-[[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target|target]]: The accepted theorem: the catalog statement of the first question of
-Problem 354 with its answer instantiated to true, unfolded to the site's
-wording, with the proof's reduction chain.
+[[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target|target]]: The accepted theorem: the formal-conjectures statement of the first question
+of Problem 354 with its answer instantiated to true, unfolded to the
+erdosproblems.com wording, with the proof's reduction chain.
 
 ***
 
@@ -35,16 +35,16 @@ part i*, Lean 4 proof accepted by the bounty site Conjectures.io, record
 `815c1d5f-3afb-4430-8e2c-260d9038f5b0`
 (<https://conjectures.io/results/815c1d5f-3afb-4430-8e2c-260d9038f5b0>),
 attacked as Prove: Lean verification 11 September 2026, review approval 15
-September 2026 under the site's manual-review policy v3, certification 16
+September 2026 under Conjectures.io's manual-review policy v3, certification 16
 September 2026, bounty paid. Conjectures.io is a Bittensor subnet that
 publishes Erdős problems as Lean statements pinned to a commit of the
 formal-conjectures catalog and pays for kernel-checked proofs accepted in
 its review.
 
-The folder holds no folder-name PDF: the source is the Lean file the site's
-record publishes, with no write-up, so the folder-name Markdown file
-[source record](jenw1n_2026_erdos_354_part_i_lean_proof.md) is the source
-itself and records the URLs, the verified statement, the site's dates, its
+The folder holds no folder-name PDF: the source is the Lean file
+Conjectures.io's record publishes, with no write-up, so the folder-name Markdown
+file [source record](jenw1n_2026_erdos_354_part_i_lean_proof.md) is the source
+itself and records the URLs, the verified statement, Conjectures.io's dates, its
 review decision and verification report, and the public standing of the
 result (the library's no-PDF shape). The Lean file is retained unedited
 under `evidence/assets/solution_815c1d5f/Main.lean`; the file's header
@@ -60,19 +60,19 @@ mechanical rename of an identifier `i`). The file is 130 sections, each headed
 all in the namespace `Erdos354Formal`, with the final `theorem target` at line
 10148.
 
-**Read status: claims checked.** The final theorem was read against the
-site's printed type, the task bundle's metadata and the formal-conjectures file,
-and its reduction chain to two criteria on binary digits was read ([result
-page](target.md)). The mathematical core (about 9,000 lines: a joining and
-disjointness argument on the binary digit sequences of $\alpha$ and $\beta$
-through empirical measures, tower shift spaces and $L^2$ rigidity) was not read
-line by line; the file was rebuilt, after changes for Mathlib's
-`ProbabilityMeasure.map`, and its target replayed in the kernel on the
+**Read status: claims checked.** The final theorem was read against
+Conjectures.io's printed type, the task bundle's metadata and the
+formal-conjectures file, and its reduction chain to two criteria on binary
+digits was read ([result page](target.md)). The mathematical core (about 9,000
+lines: a joining and disjointness argument on the binary digit sequences of
+$\alpha$ and $\beta$ through empirical measures, tower shift spaces and $L^2$
+rigidity) was not read line by line; the file was rebuilt, after changes for
+Mathlib's `ProbabilityMeasure.map`, and its target replayed in the kernel on the
 repository's pinned toolchain. No proof was verified here by reading.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: the
 status-defining source for the first question (base $2$), answered yes
-exactly in the site's formulation; the second question (a base
+exactly in the erdosproblems.com formulation; the second question (a base
 $\gamma\in(1,2)$), strong completeness and the set-union reading are
 untouched.
 
@@ -101,11 +101,12 @@ says: for all $\alpha,\beta>0$ with $\alpha/\beta$ irrational, every
 sufficiently large integer is
 $\sum_{s\in S}\lfloor2^s\alpha\rfloor+\sum_{t\in T}\lfloor2^t\beta\rfloor$ for
 some finite $S,T\subset\mathbb N$, each index used at most once and equal values
-at different indices counted separately, which is the site's "That is" clause
-read clause for clause (the [result page](target.md) gives the correspondence).
-The proof's own lemmas `interleave_even` and `interleave_odd` (lines 268--274)
-unfold formal-conjectures' `interleave` by `simp` into the two floor sequences;
-they compile only against the corrected `n / 2` form of the definition (PR
+at different indices counted separately, which is erdosproblems.com's "That is"
+clause read clause for clause (the [result page](target.md) gives the
+correspondence). The proof's own lemmas `interleave_even` and `interleave_odd`
+(lines 268--274) unfold formal-conjectures' `interleave` by `simp` into the two
+floor sequences; they compile only against the corrected `n / 2` form of the
+definition (PR
 #1330, 3 December 2025), so the kernel acceptance itself shows the pinned
 definition is the corrected one, which the type hash alone (naming the constant,
 not its body) would not.
@@ -132,10 +133,10 @@ a base below 2 and does not prove part (i)"; "Fan's September 2026 completeness
 criterion leaves the relevant two-ray case unresolved"; the full proof claim
 posted on 13 September, with a repository created 12 September, "is later than
 acceptance"), and that these findings "are not a guarantee of absolute novelty".
-The site's certification is reported, not counted: no refereed publication, no
-write-up, no erdosproblems.com acceptance and no formal-conjectures catalog
-agreement was found on 2026-09-28; formal-conjectures' default branch keeps both
-parts `research open`.
+Conjectures.io's certification is reported, not counted: no refereed
+publication, no write-up, no erdosproblems.com acceptance and no
+formal-conjectures catalog agreement was found on 2026-09-28;
+formal-conjectures' default branch keeps both parts `research open`.
 
 ## Route of the proof file
 
@@ -176,7 +177,7 @@ commands naming only `Filter`, `MeasureTheory`, `Topology`,
 identifiers and comments); `decide` only as a classical decidability term
 (line 919) and on finite `Bool` lemmas (lines 1142--1164, 1334, 1352); and
 no redefinition of `FloorMultiples`, `interleave`, `subseqSums'` or
-`IsAddCompleteNatSeq'`. The site's static scan reports no imports in the
+`IsAddCompleteNatSeq'`. Conjectures.io's static scan reports no imports in the
 submitted source: the imports and the `namespace Bounty` wrapper are
 supplied by the task's trusted header.
 
@@ -185,7 +186,7 @@ supplied by the task's trusted header.
 The later manuscript claiming the stronger strong-completeness statement
 is filed at
 [[additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/_index|yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences]]
-(unreviewed; the site's review notes it as later than acceptance). The
+(unreviewed; Conjectures.io's review notes it as later than acceptance). The
 part (ii) Lean proof the review mentions is
 [[additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/_index|kitamura_2026_lean_proof_erdos_problem_354_ii]],
 and Fan's criterion is

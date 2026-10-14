@@ -79,8 +79,8 @@ $$
 
 **Formulation.** In $F(n)$ the $a_i$ are distinct, pairwise coprime integers
 with $2\le a_i\le n$ whose prime factors all divide $n$, and their number is
-not restricted. The site's wording does not exclude $a_i=1$, which has no prime
-factors and is coprime to every integer. Allowing it would give
+not restricted. The erdosproblems.com wording does not exclude $a_i=1$, which
+has no prime factors and is coprime to every integer. Allowing it would give
 $F(n)\ge f(n)+1$ for every $n$, so $f(n)=F(n)$ would never hold, the two maxima
 would never agree, and the count asked for in the fourth question would be
 zero.
@@ -90,13 +90,13 @@ Theorem 1 gives integers $n_k$ with $\omega(n_k)=k$ and $F(n_k)=n_k$. His
 definition sets no number of summands. Requiring exactly $\omega(n)$ summands,
 each at least $2$, would make each $a_i$ a power of a single prime of $n$, so
 $F=f$ and the first question would have answer no. Under this reading the two
-maxima differ at $x=210$, as Kevin Barreto noted in the site's comments and the
-site's remark records: $\max_{n\le210}f(n)=f(210)=383$, while
-$F(210)\ge128+189+125=442$. This refutes only the form of the third question
-for all $x$; it says nothing about all large $x$, so it settles no part.
-Erdős's own question (6) asks first whether $m(x)=M(x)$ for infinitely many
-$x$, where $m$ and $M$ are the two maxima, and only suggests the site's two
-stronger forms.
+maxima differ at $x=210$, as Kevin Barreto noted in the erdosproblems.com
+comments and the erdosproblems.com remark records:
+$\max_{n\le210}f(n)=f(210)=383$, while $F(210)\ge128+189+125=442$. This refutes
+only the form of the third question for all $x$; it says nothing about all large
+$x$, so it settles no part. Erdős's own question (6) asks first whether
+$m(x)=M(x)$ for infinitely many $x$, where $m$ and $M$ are the two maxima, and
+only suggests erdosproblems.com's two stronger forms.
 
 **Status.** Open.
 
@@ -115,7 +115,7 @@ development claiming proofs of the first two questions is recorded on
 
 ## Current assessment
 
-The site labeled the problem OPEN, and the derived standing is open. One
+Bloom's catalog labeled the problem OPEN, and the derived standing is open. One
 pending partial claim,
 [[problems/arithmetic_functions/E0878/claims/2026_09_13_kitamura|Kitamura 2026]],
 reports a Lean proof of the first two questions; this corpus has not built or
@@ -124,10 +124,10 @@ audited it.
 Half of the first question already follows from a published bound. Theorem 7
 of [Er84e] (p. 118, on its
 [[../library/arithmetic_functions/erdos_1984_two_unconventional_number_theoretic_functions_related/theorem_7|library page]])
-gives $H(x)=\sum_{n<x}f(n)/n\ll x\log\log\log x$, and the site's commentary
-records Kevin Barreto's remark that this implies $f(n)=o(n\log\log n)$ for
-almost all $n$. Indeed, fix $\varepsilon>0$. Each $n$ in $[\sqrt x,x)$ with
-$f(n)\ge\varepsilon n\log\log n$ contributes at least
+gives $H(x)=\sum_{n<x}f(n)/n\ll x\log\log\log x$, and the erdosproblems.com
+commentary records Kevin Barreto's remark that this implies
+$f(n)=o(n\log\log n)$ for almost all $n$. Indeed, fix $\varepsilon>0$. Each $n$
+in $[\sqrt x,x)$ with $f(n)\ge\varepsilon n\log\log n$ contributes at least
 $\varepsilon(\log\log x-\log2)$ to $H(x)$, so there are
 $O(x\log\log\log x/(\varepsilon\log\log x))=o(x)$ such $n$, and there are
 fewer than $\sqrt x$ integers $n<\sqrt x$. So for each $\varepsilon$ the $n$
@@ -144,8 +144,8 @@ the second question, so what remains there is the lower limit. Barreto's
 example at $x=210$ (Formulation) refutes the third question for all $x$ only.
 The questions on the number of $n$ with $f(n)=F(n)$ and on $H(x)$ are not
 assessed here beyond the results of [Er84e] on its library pages. Search scope:
-the site's page and its commentary, the [Er84e] library card and Kitamura's
-posts; no wider literature search was made.
+the erdosproblems.com page and its commentary, the [Er84e] library card and
+Kitamura's posts; no wider literature search was made.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -38,8 +38,8 @@ The source card is
 **Covers.** The wording of
 [[problems/arithmetic_functions/E0369/_index|Problem 369]], which is trivially
 true, since $1,\dots,k$ are $n^\epsilon$-smooth once $n>k^{1/\epsilon}$, as
-the site notes; the theorem gives it with a nontrivial run: fix one of the
-infinitely many $m$; for every $n\ge m+k$ the run $m+1,\dots,m+k$ lies in
+erdosproblems.com notes; the theorem gives it with a nontrivial run: fix one of
+the infinitely many $m$; for every $n\ge m+k$ the run $m+1,\dots,m+k$ lies in
 $\{1,\dots,n\}$ and each member is $m^\epsilon$-smooth, hence
 $n^\epsilon$-smooth. The first of the two readings described on the problem
 page, that each member $x$ of the run be $x^\epsilon$-smooth, follows
@@ -50,22 +50,22 @@ construction of
 [[problems/arithmetic_functions/E0369/claims/2026_03_26_yang|Yang 2026]] or
 the theorem of
 [[problems/arithmetic_functions/E0369/claims/2017_10_05_bober_fretwell_martin_wooley|Bober, Fretwell, Martin and Wooley 2020]].
-The site's curator reports that Wooley described the paper's problem as
-slightly different, with a stronger uniformity that yields only infinitely
+The erdosproblems.com curator reports that Wooley described the paper's problem
+as slightly different, with a stronger uniformity that yields only infinitely
 many $n$.
 
 **Acceptance.** Published in J. Austral. Math. Soc. Ser. A 64 (1998), no. 2,
 266–276, a refereed journal (`refereed`). The publisher's record dates the issue
-April 1998, and that date dates this page. The site's curator, Thomas F. Bloom,
-records in the problem's commentary (page last edited 2026-04-28) that the first
-strengthening follows from this result and that the second follows from it for
-infinitely many $n$ (`reviewed`).
+April 1998, and that date dates this page. The erdosproblems.com curator, Thomas
+F. Bloom, records in the problem's commentary (page last edited 2026-04-28) that
+the first strengthening follows from this result and that the second follows
+from it for infinitely many $n$ (`reviewed`).
 
 Eggleton and Selfridge [EgSe76] had earlier given, for every $\epsilon>0$,
 infinitely many runs of five consecutive integers $n,\dots,n+4$, each
-$n^\epsilon$-smooth. The site notes that this sits oddly with Erdős and Graham's
-remark that the problem was open even for $k=2$. That result is the partial
-claim
+$n^\epsilon$-smooth. erdosproblems.com notes that this sits oddly with Erdős and
+Graham's remark that the problem was open even for $k=2$. That result is the
+partial claim
 [[problems/arithmetic_functions/E0369/claims/1976_08_01_eggleton_selfridge|Eggleton and Selfridge 1976]].
 The paper's section 2 comparison (pp. 267–268) records its smoothness bounds and
 corrects a minor oversight in that result's source.

@@ -38,8 +38,9 @@ for every $\theta\in (0,1)$, where $\{x\}$ is the distance of $x$ from the
 nearest integer. Then every sufficiently large integer is the sum of distinct
 elements of $A$.
 
-**Status.** OPEN, the site's label (page last edited 7 December 2025). The
-corpus accepts Fan's full proof claim of July 2026 on formalized evidence
+**Status.** OPEN, the erdosproblems.com label (page last edited 7 December
+2025). The corpus accepts Fan's full proof claim of July 2026 on formalized
+evidence
 ([[problems/integer_sequences/E0254/claims/2026_07_15_fan|claim page]]), so the
 problem stands solved and proved. The evidence is Boris Alexeev's Lean
 formalization of the preprint's six-per-interval version, with OpenAI Codex as
@@ -48,8 +49,9 @@ Statement above. The preprint's Corollary 1.2, at five elements in every large
 dyadic interval, is not built. Snyder's Lean proof of the statement as posed
 ([[problems/integer_sequences/E0254/claims/2026_07_15_snyder|claim page]]) is
 pending. The formal-conjectures collection registers it as the formal proof of
-its statement, but the corpus has not built or audited it. The site has not
-accepted either claim, and neither has a refereed version or independent review.
+its statement, but the corpus has not built or audited it. erdosproblems.com has
+not accepted either claim, and neither has a refereed version or independent
+review.
 
 **Source.** [erdosproblems.com/254](https://www.erdosproblems.com/254), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #254,
@@ -79,21 +81,21 @@ and audited that theorem; Fan's claim page records the build.
 
 The frontmatter standing is derived from the claim pages: Fan's full claim that
 the statement holds is accepted on formalized evidence, so the problem stands
-solved and proved while the site's label was OPEN; Snyder's full claim is
-pending, and Cassels's accepted partial claim covers only the sets that meet his
-stronger hypotheses. The audited Lean theorem reaches the Statement through
-Fan's six-per-interval criterion; the five-per-interval Corollary 1.2 of the
-preprint's current version is not built. The search scope is the site's page,
-its discussion thread and its proof-claims tab with the comments under each
-claim, and the arXiv record of Fan's preprint, which listed no journal reference
-on 2026-10-07; no search beyond these was made.
+solved and proved while the erdosproblems.com label was OPEN; Snyder's full
+claim is pending, and Cassels's accepted partial claim covers only the sets that
+meet his stronger hypotheses. The audited Lean theorem reaches the Statement
+through Fan's six-per-interval criterion; the five-per-interval Corollary 1.2 of
+the preprint's current version is not built. The search scope is the
+erdosproblems.com page, its discussion thread and its proof-claims tab with the
+comments under each claim, and the arXiv record of Fan's preprint, which listed
+no journal reference on 2026-10-07; no search beyond these was made.
 
 ## Known Results
 
 Cassels's Theorem I [Ca60] (refereed) proves the statement under the stronger
 hypotheses $(A(2n)-A(n))/\log\log n\to\infty$ and
 $\sum_{a\in A}\|a\theta\|^2=\infty$ for every $\theta\in(0,1)$, the result the
-site's commentary records; it is the accepted partial claim on
+erdosproblems.com commentary records; it is the accepted partial claim on
 [[problems/integer_sequences/E0254/claims/1959_09_03_cassels|its claim page]].
 
 Two full proof claims followed in July 2026, each on its claim page. Fan's
@@ -123,7 +125,7 @@ details, and formal-conjectures registers the development as the formal proof of
 its statement, a catalog registration and not a review. The eight comments under
 Snyder's claim (16 to 18 July 2026) concern Fan's preprint, which one
 contributor reported reading and finding correct, and none assesses the Lean
-proof. The site's label was OPEN (page last edited 7 December 2025).
+proof. The erdosproblems.com label was OPEN (page last edited 7 December 2025).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

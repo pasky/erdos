@@ -31,8 +31,8 @@ chromatic number $\leq \aleph_0$?
 
 What if instead we ask for $G$ to have chromatic number $\aleph_1$?
 
-**Status.** Open. The site labeled the problem OPEN, with the note that it
-cannot be resolved with a finite computation. The first question (the part
+**Status.** Open. Bloom's catalog labeled the problem OPEN, with the note that
+it cannot be resolved with a finite computation. The first question (the part
 `q1`) is not provable relative to a huge cardinal, by Foreman and Laver 1988;
 its positive side is open. The second question (the part `q2`) is open.
 
@@ -57,9 +57,9 @@ with chromatic number $\aleph_2$ (the part `q1`) or $\aleph_1$ (the part
 [[../library/graph_coloring/erdos_1969_problems_results_chromatic_graph_theory/_index|source card]])
 says that he and Hajnal cannot decide either question, while the version with
 chromatic number $\aleph_2$ and subgraphs of chromatic number at most
-$\aleph_1$ is easy. The site's commentary describes the Erdős--Hajnal graph
-on $\omega_1^2$ with chromatic number $\aleph_1$ whose smaller subgraphs are
-countably chromatic.
+$\aleph_1$ is easy. The erdosproblems.com commentary describes the Erdős--Hajnal
+graph on $\omega_1^2$ with chromatic number $\aleph_1$ whose smaller subgraphs
+are countably chromatic.
 
 **First question.** A positive answer to it is a positive answer to the first
 question of [[problems/graph_coloring/E0918/_index|Problem 918]]. A graph of
@@ -86,12 +86,12 @@ recorded there do not bear on it.
 **Standing.** The problem lists its two questions as the parts `q1` and `q2`,
 and its standing derives from the claim pages. Foreman and Laver's page
 settles only the not provable side of `q1`, and one side alone leaves that
-question open; `q2` has no claim page. So the problem is open, and the site
-labeled it OPEN.
+question open; `q2` has no claim page. So the problem is open, and Bloom's
+catalog labeled it OPEN.
 
-**Search scope.** The site's problem page, discussion thread and proof-claim
-tab as accessed 2026-09-05 (no comments, no proof claims); the held sources
-[Er69b] and Shelah's 2012 paper on incompactness of the chromatic number
+**Search scope.** The erdosproblems.com problem page, discussion thread and
+proof-claim tab as accessed 2026-09-05 (no comments, no proof claims); the held
+sources [Er69b] and Shelah's 2012 paper on incompactness of the chromatic number
 ([[../library/graph_coloring/shelah_2012_incompactness_chromatic_number_graphs/_index|source card]]),
 which does not treat order types and answers neither question; and the claim
 pages of Problem 918. Not searched: the literature beyond these sources,

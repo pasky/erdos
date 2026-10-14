@@ -26,16 +26,18 @@ updated: 2026-10-08T01:29:58Z
 $\phi(n)<\phi(n-\phi(n))$ for infinitely many $n$, where $\phi$ is Euler's
 totient function.
 
-**Status.** Proved (the site's label). The answer to both parts is yes. The page
-lists the two parts as `almost_all` and `infinitely_often`. Luca and Pomerance
-[LuPo02] prove the first inequality on a set of density one, by a margin of any
-order below $n$. Their paper is refereed in Colloquium Mathematicum and credited
-by the site. The corpus accepts it on the claim page
+**Status.** Proved (the erdosproblems.com label). The answer to both parts is
+yes. The page lists the two parts as `almost_all` and `infinitely_often`. Luca
+and Pomerance [LuPo02] prove the first inequality on a set of density one, by a
+margin of any order below $n$. Their paper is refereed in Colloquium
+Mathematicum and credited by erdosproblems.com. The corpus accepts it on the
+claim page
 [[problems/arithmetic_functions/E1064/claims/2002_01_01_luca_pomerance|Luca and Pomerance 2002]]
 as settling the first part. Grytczuk, Luca and Wójtowicz [GLW01] proved the
 second inequality, with a gap growing like $2^k$ along explicit families. They
-also proved the first inequality on a set of lower density at least $0.54$. The
-site credits the infinitude to that paper, and the corpus accepts it on
+also proved the first inequality on a set of lower density at least $0.54$.
+erdosproblems.com credits the infinitude to that paper, and the corpus accepts
+it on
 [[problems/arithmetic_functions/E1064/claims/2001_07_01_grytczuk_luca_wojtowicz|Grytczuk, Luca and Wójtowicz 2001]]
 as settling the second part. Luca and Pomerance state the second inequality in
 the stronger form $\phi(n)<c\,\phi(n-\phi(n))$ for every $c>0$, as a remark
@@ -58,11 +60,11 @@ https://www.erdosproblems.com/1064.
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 - [Er80f] Erdős, P., Research problems: How many pairs of products of
   consecutive integers have the same prime factors? Amer. Math. Monthly
-  (1980), 391-392 (MR 1539384). The site's reference record gives this key
-  that entry, which it shares with Problem 850 and whose subject is products
-  of consecutive integers. The totient conjecture of this problem is Erdős's
-  Proposed problem P. 294, Canad. Math. Bull. 23 (1980), 505, which Luca and
-  Pomerance cite for it ([8] of [LuPo02]).
+  (1980), 391-392 (MR 1539384). The erdosproblems.com reference record gives
+  this key that entry, which it shares with Problem 850 and whose subject is
+  products of consecutive integers. The totient conjecture of this problem is
+  Erdős's Proposed problem P. 294, Canad. Math. Bull. 23 (1980), 505, which Luca
+  and Pomerance cite for it ([8] of [LuPo02]).
 - [LuPo02] Luca, Florian and Pomerance, Carl, On some problems of M\polhk
   akowski-Schinzel and Erd\H os concerning the arithmetical functions $\phi$ and
   $\sigma$. Colloq. Math. (2002), 111-130.
@@ -72,11 +74,11 @@ https://www.erdosproblems.com/1064.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 2025-10-06), has two
-parts, listed in the frontmatter as `almost_all` and `infinitely_often`: that
-$\phi(n)>\phi(n-\phi(n))$ for almost all $n$, and that the reverse inequality
-holds for infinitely many $n$. The second part is elementary: for $n=15\cdot2^k$
-with $k\ge1$ one has $\phi(n)=4\cdot2^k$ and
+The question, as erdosproblems.com states it (page last edited 2025-10-06), has
+two parts, listed in the frontmatter as `almost_all` and `infinitely_often`:
+that $\phi(n)>\phi(n-\phi(n))$ for almost all $n$, and that the reverse
+inequality holds for infinitely many $n$. The second part is elementary: for
+$n=15\cdot2^k$ with $k\ge1$ one has $\phi(n)=4\cdot2^k$ and
 $\phi(n-\phi(n))=\phi(11\cdot2^k)=5\cdot2^k$. Equality also occurs infinitely
 often, for instance at $n=3\cdot2^k$ with $k\ge1$, where both totients equal
 $2^k$. Grytczuk, Luca and Wójtowicz [GLW01] proved the second part with the gap
@@ -89,11 +91,11 @@ holds for almost all $n$. They remark, without giving a proof, that the method
 of their Theorem 2 shows the value set of $\phi(n-\phi(n))/\phi(n)$ to be dense
 in $[0,\infty]$, so that $\phi(n)<c\,\phi(n-\phi(n))$ holds infinitely often for
 every $c>0$; for the second part itself they cite the infinite families of
-[GLW01]. The site's commentary describes that stronger statement as proved; the
-paper is the source, and the corpus records it as a remark. Both papers are
-refereed and the site credits each with its part; the two claim pages carry the
-acceptance, each settling one part. The community database lists the problem
-proved, with its statement formalized and no formal proof. The
+[GLW01]. The erdosproblems.com commentary describes that stronger statement as
+proved; the paper is the source, and the corpus records it as a remark. Both
+papers are refereed and erdosproblems.com credits each with its part; the two
+claim pages carry the acceptance, each settling one part. The community database
+lists the problem proved, with its statement formalized and no formal proof. The
 [formal-conjectures
 file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1064.lean) states the density-one theorem `erdos_1064` and its margin
 variant `erdos_1064.variants.general_function` with `sorry`, and proves
@@ -111,11 +113,11 @@ Luca and Wójtowicz 2001]],
 and Pomerance 2002]]) cover the statements. Guy's Problem B42 [Gu04] records the
 question without a solution.
 
-Search scope: the site's problem page as exported (last edited 2025-10-06),
-the community database entry, the formal-conjectures file, the lean-proofs
-file and the two library cards; no forum proof claim and no OpenAI release
-item names this problem. No wider literature search was made, none being
-needed for refereed answers the site credits.
+Search scope: the erdosproblems.com problem page as exported (last edited
+2025-10-06), the community database entry, the formal-conjectures file, the
+lean-proofs file and the two library cards; no forum proof claim and no OpenAI
+release item names this problem. No wider literature search was made, none being
+needed for refereed answers erdosproblems.com credits.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

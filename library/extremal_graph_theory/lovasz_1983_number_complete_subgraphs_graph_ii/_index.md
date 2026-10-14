@@ -40,9 +40,10 @@ Basel (1983), 459--495; doi:10.1007/978-3-0348-5438-2_41 (Crossref record read
 2026-09-18, which lists the chapter as a book chapter with no issue date beyond
 the year). The sequel to the authors' Aberdeen 1975 paper (Proc. Fifth British
 Combinatorial Conference, Congressus Numerantium XV (1976), 431--441 per zbMATH,
-Zbl 0339.05115, read 2026-10-07; the site's key LoSi76, not held), which this
-chapter cites as its reference [5] with pages 431--442. Not a reference key of
-the site; the discussion thread of Problem 1010 names it as [LoSi83].
+Zbl 0339.05115, read 2026-10-07; the erdosproblems.com key LoSi76, not held),
+which this chapter cites as its reference [5] with pages 431--442. Not a
+reference key of erdosproblems.com; the discussion thread of Problem 1010 names
+it as [LoSi83].
 
 **Edition read.** The copy read for this card is the scan `LovSimBirk.pdf`
 on the second author's page at the Rényi
@@ -137,8 +138,8 @@ $k<n/2$; Theorem 4 (p. 463), derived "assuming Theorem 3", gives at $p=3$
 the extremal structure for $k<[n/2]$, from which the problem's bound for
 $t<\lfloor n/2\rfloor$ follows by a count made on the theorem page, for $n$
 large under the chapter's convention and with no explicit threshold. The
-chapter attributes the $p=3$ case to the Aberdeen paper, the site's source,
-and is the paper the problem's discussion thread names; paged at
+chapter attributes the $p=3$ case to the Aberdeen paper, the erdosproblems.com
+source, and is the paper the problem's discussion thread names; paged at
 [[extremal_graph_theory/lovasz_1983_number_complete_subgraphs_graph_ii/theorem_4|theorem_4]],
 with the chain behind it at
 [[extremal_graph_theory/lovasz_1983_number_complete_subgraphs_graph_ii/theorem_3|theorem_3]].

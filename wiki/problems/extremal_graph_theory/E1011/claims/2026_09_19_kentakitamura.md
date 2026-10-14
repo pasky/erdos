@@ -4,7 +4,7 @@ title: Lean determination of f_5(n) for n at least 80
 desc: |
   Kenta Kitamura's forum comment of 19 September 2026 announces a kernel-checked
   Lean 4 proof that $f_5(n)=\lfloor n^2/4\rfloor-3n+15$ for every $n\ge80$. It
-  was read as text only, is unreviewed and is not accepted by the site.
+  was read as text only, is unreviewed and is not accepted by erdosproblems.com.
 authors:
 - Kenta Kitamura
 status: claimed
@@ -27,8 +27,8 @@ updated: 2026-10-08T01:29:59Z
 
 ***
 
-A comment of the site's discussion thread (11:40 UTC on 19 September 2026,
-the account KentaKitamura, the owner, KitaKen1, of the repository below)
+A comment of the erdosproblems.com discussion thread (11:40 UTC on 19 September
+2026, the account KentaKitamura, the owner, KitaKen1, of the repository below)
 announces a kernel-checked Lean 4 proof, in the conventions of
 [[problems/extremal_graph_theory/E1011/_index|Problem 1011]], that
 $f_5(n)=\lfloor n^2/4\rfloor-3n+15$ for every $n\ge80$, in the same
@@ -43,8 +43,8 @@ with chromatic number at least $5$ has at most $\lfloor n^2/4\rfloor-3n+14$
 edges, and that some such graph has that many; the arithmetic is the claim's
 own and is unchecked in this corpus.
 
-**Submission note.** Posted to the site's forum by Kenta Kitamura on 19
-September 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Kenta Kitamura on
+19 September 2026:
 
 > An update to my comment above: the same repository now also contains a
 > kernel-checked Lean 4 proof for $r=5$ and every $n\geq80$, in addition to the
@@ -97,7 +97,7 @@ and the $r=4$ result of the same repository is a sibling claim, not a
 premise.
 
 **Standing.** Claimed. The claim is unrefereed and no paper or preprint
-carries it. The site has not accepted it: its page records no value of
+carries it. erdosproblems.com has not accepted it: its page records no value of
 $f_5(n)$ (accessed 2026-10-07) and its proof-claim tab was empty; the
 community database (read 2026-10-06) records the problem as open and
 unformalized. The claim covers one range of one case of the problem, so the

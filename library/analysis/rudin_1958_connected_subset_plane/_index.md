@@ -62,8 +62,8 @@ article in the issue, and names no Creative Commons version or URL
 (https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/46/1,
 read 2026-10-02; the article's own page was not opened), so the term is the
 Creative Commons Attribution license with its version unstated; the site footer
-"Copyright © 2026 by IMPAN. All rights reserved." speaks for the site, not the
-article.
+"Copyright © 2026 by IMPAN. All rights reserved." speaks for erdosproblems.com,
+not the article.
 
 **Bears on.** [[../wiki/problems/analysis/E0910/_index|#910]]
 

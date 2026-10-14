@@ -30,9 +30,9 @@ $$
 
 everywhere dense in $(0,\infty)$?
 
-**Status.** Proved. The site labeled the problem `PROVED (LEAN)` and credits
-Eberhard's proof, which answers the question affirmatively. The accepted claim
-is recorded on
+**Status.** Proved. Bloom's catalog labeled the problem `PROVED (LEAN)` and
+credits Eberhard's proof, which answers the question affirmatively. The accepted
+claim is recorded on
 [[problems/divisors/E0964/claims/2025_04_27_eberhard|Eberhard's claim page]].
 The community Lean file posted in the forum thread contains a complete formal
 proof, but the proof is conditional on a formalized GGPY proposition that the
@@ -53,8 +53,8 @@ https://www.erdosproblems.com/964, accessed 2026-09-05.
   Seventeenth Southeastern International Conference on Combinatorics, Graph
   Theory, and Computing (1986), 225--244.
 
-**Formalization.** No Formal Conjectures statement is recorded by the site.
-Daniel Chin posted the community Lean file in
+**Formalization.** No Formal Conjectures statement is recorded by
+erdosproblems.com. Daniel Chin posted the community Lean file in
 [#post-4280](https://www.erdosproblems.com/forum/thread/964#post-4280):
 <https://github.com/danielchin/proofs/blob/e33cb5565aef08a2ebb430beba6c84644fe7fca4/Proofs/ErdosProblems/Erdos964.lean>
 (pinned to the commit of 14 February 2026 that last changed the file).

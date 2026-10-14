@@ -5,7 +5,7 @@ desc: |
   The first of the two open problems closing the Erdős-Simonovits paper of
   1970, asking whether every graph with n^{1+α} edges contains an
   almost-regular subgraph on more than n^{1−α} vertices with more than
-  εm^{1+α} edges; the origin of Problem 1077, whose wording on the site
+  εm^{1+α} edges; the origin of Problem 1077, whose wording on erdosproblems.com
   is false.
 created: 2026-09-18T15:58:00Z
 updated: 2026-10-07T21:11:03Z
@@ -35,8 +35,8 @@ order of magnitude of $f(n,C)$", $C$ the cube.
 
 Observations made here, not in the source: the question is asked for every
 $\varepsilon$ and $\alpha$, with $d$ and $n$ then large, which is the order
-of quantifiers of the site's Problem 1077; the paper's own Theorem 1 (p. 380)
-gives a $d$-regular subgraph on $m\ge n^{\alpha(1-\alpha)/(1+\alpha)}$
+of quantifiers of erdosproblems.com's Problem 1077; the paper's own Theorem 1
+(p. 380) gives a $d$-regular subgraph on $m\ge n^{\alpha(1-\alpha)/(1+\alpha)}$
 vertices with $e(G^m)\ge\frac25m^{1+\alpha}$, an exponent below $1-\alpha$
 for every $0<\alpha<1$, so the question asks for a larger subgraph than the
 theorem gives.
@@ -66,6 +66,6 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1077/_index|Problem 1077]]: the origin; the
-  site's statement is this question with $D$ for $d$ and "at least" for the
-  two strict edge counts (it keeps $m>n^{1-\alpha}$ strict), and the site's
-  key [ErSi70, p. 388] points here.
+  erdosproblems.com statement is this question with $D$ for $d$ and "at least"
+  for the two strict edge counts (it keeps $m>n^{1-\alpha}$ strict), and the
+  erdosproblems.com key [ErSi70, p. 388] points here.

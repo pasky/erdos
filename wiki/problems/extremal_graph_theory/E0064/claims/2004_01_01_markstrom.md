@@ -34,8 +34,8 @@ the graphs without cycles of length $4$ and $8$ relating to the conjecture.
 The page name carries the publication year; the day is not recorded in any
 source read. The paper is not held by this corpus; the statement follows the
 zbMATH record (Zbl 1063.05073), the thread comment of 6 December 2025 that the
-site's remark points to, and the account in the claw-free paper of Salehi
-Nowbandegani, Esfandiari, Shirdareh Haghighi and Bibak
+erdosproblems.com remark points to, and the account in the claw-free paper of
+Salehi Nowbandegani, Esfandiari, Shirdareh Haghighi and Bibak
 ([[problems/extremal_graph_theory/E0064/claims/2011_09_25_nowbandegani_esfandiari_haghighi_bibak|claim page]]),
 which cites the bound as asserted by computer search.
 
@@ -46,6 +46,6 @@ vertices.
 
 **Standing.** Claimed: Congressus Numerantium is a proceedings series with no
 recorded evidence of refereeing, and the search is author-reported, with no
-certificate or replay known to this corpus. The site's curator cites the
-family list that names the paper while labeling the problem FALSIFIABLE,
+certificate or replay known to this corpus. The erdosproblems.com curator cites
+the family list that names the paper while labeling the problem FALSIFIABLE,
 which is commentary on an open problem and not acceptance.

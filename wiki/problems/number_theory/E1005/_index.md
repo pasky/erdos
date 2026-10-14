@@ -34,33 +34,32 @@ $$
 Estimate $f(n)$ - in particular, is there a constant $c>0$ such that
 $f(n)=(c+o(1))n$ for all large $n$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
-1 September 2026). The Farey fractions of order $n$ are
-the reduced fractions in $[0,1]$ with denominator at most $n$, in increasing
-order; two fractions are similarly ordered when their numerators and
-denominators do not move in opposite directions, and $f(n)$ is the largest
-index distance within which every pair is similarly ordered. The condition
-$n\ge4$ makes $f(n)$ defined: $1/4<2/3$ is the first pair that is not
-similarly ordered (van Doorn, p. 1). The two 2026 preprints define $f(n)$
-instead as the minimum number of Farey fractions strictly between two
-"badly ordered" fractions $a/b<c/d$ ($a<c$, $b>d$); the two definitions
-agree (an authored remark, checked here): for $a/b<c/d$ in $[0,1]$ the
-product $(c-a)(d-b)$ is negative exactly when $a<c$ and $b>d$, since $a>c$
-forces $b>d$ and an equal numerator or denominator gives a zero product, so
-"badly ordered" is "not similarly ordered"; a badly ordered pair at indices
-$i<j$ has $j-i-1$ fractions between it, so if the minimum of that count is
-$m$, every pair at distance at most $m$ is similarly ordered and some pair
-at distance $m+1$ is not, that is, $f(n)=m$. OEIS A386893 uses the
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 1 September 2026). The Farey fractions of order $n$ are the reduced
+fractions in $[0,1]$ with denominator at most $n$, in increasing order; two
+fractions are similarly ordered when their numerators and denominators do not
+move in opposite directions, and $f(n)$ is the largest index distance within
+which every pair is similarly ordered. The condition $n\ge4$ makes $f(n)$
+defined: $1/4<2/3$ is the first pair that is not similarly ordered (van Doorn,
+p. 1). The two 2026 preprints define $f(n)$ instead as the minimum number of
+Farey fractions strictly between two "badly ordered" fractions $a/b<c/d$ ($a<c$,
+$b>d$); the two definitions agree (an authored remark, checked here): for
+$a/b<c/d$ in $[0,1]$ the product $(c-a)(d-b)$ is negative exactly when $a<c$ and
+$b>d$, since $a>c$ forces $b>d$ and an equal numerator or denominator gives a
+zero product, so "badly ordered" is "not similarly ordered"; a badly ordered
+pair at indices $i<j$ has $j-i-1$ fractions between it, so if the minimum of
+that count is $m$, every pair at distance at most $m$ is similarly ordered and
+some pair at distance $m+1$ is not, that is, $f(n)=m$. OEIS A386893 uses the
 intervening-count convention. Erdős's 1943 note asks the same thing with
 $a_x/b_x$ and $a_{x+k}/b_{x+k}$ "similarly ordered" when $n>ck$; the
 question of the best $c$ is his (p. 84).
 
-**Status.** Solved, in the site's label, which marks a resolution other than a
-proof or disproof, here an estimate. The answer to the question is yes, with
-$c=1/4$. The site accepted the Cipollini preprint as the resolution. The site's
-page was last edited 1 September 2026, and its commentary states
-$f(n)=(\frac14+o(1))n$. This is a source-supported solution accepted by the
-site, distinct from a claim of journal refereeing.
+**Status.** Solved, in the erdosproblems.com label, which marks a resolution
+other than a proof or disproof, here an estimate. The answer to the question is
+yes, with $c=1/4$. erdosproblems.com accepted the Cipollini preprint as the
+resolution. The erdosproblems.com page was last edited 1 September 2026, and its
+commentary states $f(n)=(\frac14+o(1))n$. This is a source-supported solution
+accepted by erdosproblems.com, distinct from a claim of journal refereeing.
 
 The upper half, $f(n)\le\lfloor n/4\rfloor+d$ with $d\in\{1,2,2,4\}$ by
 $n\bmod4$, is van Doorn's Theorem 1 (arXiv:2509.00121v1, 28 August 2025; a
@@ -80,14 +79,14 @@ Before Cipollini's preprint, the truth was known to lie between
 $(\frac1{12}-o(1))n$ and $\frac n4+O(1)$. Erdős's 1943 bound was
 $f(n)\ge n/400-1$, with $c=400$ read from his printed thresholds for $k\ge3$.
 The frontmatter standing is derived from the claim pages. The exact-formula
-claim of Wang, Xie and Zhao, filed on the site's tab on 28 July 2026, stays a
-pending full claim on
+claim of Wang, Xie and Zhao, filed on the erdosproblems.com tab on 28 July 2026,
+stays a pending full claim on
 [[problems/number_theory/E1005/claims/2026_07_28_wang_xie_zhao|its page]].
 
 **Source.** [erdosproblems.com/1005](https://www.erdosproblems.com/1005),
 accessed 2026-09-18: the problem page (SOLVED, with
-the site's note that the problem was resolved other than by a proof or
-disproof; last edited 1 September 2026; source key [Er43]; commentary citing
+the erdosproblems.com note that the problem was resolved other than by a proof
+or disproof; last edited 1 September 2026; source key [Er43]; commentary citing
 [Ma42], [Er43], [vD25b] and [Ci26]; OEIS A386893 linked; the
 formalized-statement indicator reading no, which read yes on 2026-10-07; the
 page thanks van Doorn), its one-comment discussion thread (4 July 2026) and
@@ -105,7 +104,7 @@ accessed 2026-09-18.
 - [Ma42] Mayer, A. E., A mean value theorem concerning Farey series. Quart.
   J. Math. Oxford Ser. 13 (1942), 48--57, doi:10.1093/qmath/os-13.1.48
   (Crossref record, 2026-09-18). Not held (publisher paywall); not
-  requested here. The site credits it with
+  requested here. erdosproblems.com credits it with
   $f(n)\to\infty$; van Doorn (p. 1) credits it with $f(n)\ge3$ for $n\ge5$
   and attributes $f(n)\to\infty$ to Mayer's second 1942 paper, "On
   neighbours of higher degree in Farey series", Quart. J. Math. 13 (1942),
@@ -128,8 +127,8 @@ accessed 2026-09-18.
 - [WXZ26] Wang, Y., Xie, M. and Zhao, Z., An exact formula for Erdős'
   problem 1005. arXiv:2608.15681v1 (16 August 2026), 9 pp.; the only
   version, no journal reference, no Crossref record (2026-09-18). Theorems
-  1.2 and 1.3, p. 1. A lead, not cited by the site's page; the first author's
-  proof claim is on the site's tab. Library home:
+  1.2 and 1.3, p. 1. A lead, not cited by the erdosproblems.com page; the first
+  author's proof claim is on the erdosproblems.com tab. Library home:
   [[../library/number_theory/wang_2026_exact_formula_erdos_problem_1005/_index|wang_2026_exact_formula_erdos_problem_1005]].
 - [Za06] Zaharescu, A., The Mayer--Erdős phenomenon. Indag. Math. (N.S.) 17
   (2006), 147--156; [MeZa14] Meng, X. and Zaharescu, A., A multivariable
@@ -149,8 +148,8 @@ added on 19 September 2026 (no file existed on 2026-09-18), at that revision,
 its only one on 2026-10-07: the file defines `Erdos1005.f n` as the minimum,
 over pairs of Farey fractions of order $n$ that are not similarly ordered, of
 the number of Farey fractions strictly between them (the intervening-count
-convention; its docstring states the site's wording), `erdos_1005` asks whether
-$f(n)/n$ converges to a positive constant with the answer True, and
+convention; its docstring states the erdosproblems.com wording), `erdos_1005`
+asks whether $f(n)/n$ converges to a positive constant with the answer True, and
 `erdos_1005.variants.constant` states the limit $1/4$, crediting Cipollini and
 GPT-5.5; both are tagged research solved and proved there by `sorry`, and the
 variant's `formal_proof` attribute points to the `Erdos1005.lean` file of Boris
@@ -159,40 +158,41 @@ under "Formalization and the Lean developments" below and a `formalization` link
 on Cipollini's page). The community database (teorth/erdosproblems, fetched
 2026-10-06) records the problem solved, a state set on 1 September 2026 (open
 before; the status date field keeps 9 September 2025, the day the entry was
-created), and formalized since 19 September 2026, and the site's
+created), and formalized since 19 September 2026, and the erdosproblems.com
 formalized-statement indicator read yes on 2026-10-07. None of the three Lean
 developments was built here, and nothing here is kernel-checked.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; SOLVED;
-last edited 1 September 2026. The site's commentary traces $f(n)$ to Mayer
-[Ma42], crediting him with $f(n)\to\infty$, and Erdős [Er43] with $f(n)\gg n$;
-credits van Doorn [vD25b] with the bounds $(\frac1{12}-o(1))n\le
-f(n)\le\frac14n+O(1)$ and the conjecture that the upper bound is sharp; and says
-that Cipollini and GPT 5.5, in the commentary's wording, proved the matching
-lower bound asymptotically, giving $f(n)=(\frac14+o(1))n$. The thread's one
-comment (4 July 2026) is the author's announcement of a candidate proof that van
-Doorn's upper bound is asymptotically sharp, written with the help of GPT-5.5
-Thinking, resting on a lemma about increments of a totient sum, which makes the
-weighted counts grow by at least $1/4$ per unit length; the post links an
-editable online document (not a citable source) and a Lean 4 formalization
-produced by Aristotle, an automated proof system, and says that the paper itself
-was written by the AI system, which the tab entry names as GPT 5.5 Pro, used for
-the write-up. The proof-claims tab lists two full-proof claims: the author's
-(submitted 14 July 2026, the same text, with the arXiv link added by a moderator
-and an external link to the formalization), on
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; SOLVED; last edited 1 September 2026. The erdosproblems.com commentary
+traces $f(n)$ to Mayer [Ma42], crediting him with $f(n)\to\infty$, and Erdős
+[Er43] with $f(n)\gg n$; credits van Doorn [vD25b] with the bounds
+$(\frac1{12}-o(1))n\le f(n)\le\frac14n+O(1)$ and the conjecture that the upper
+bound is sharp; and says that Cipollini and GPT 5.5, in the commentary's
+wording, proved the matching lower bound asymptotically, giving
+$f(n)=(\frac14+o(1))n$. The thread's one comment (4 July 2026) is the author's
+announcement of a candidate proof that van Doorn's upper bound is asymptotically
+sharp, written with the help of GPT-5.5 Thinking, resting on a lemma about
+increments of a totient sum, which makes the weighted counts grow by at least
+$1/4$ per unit length; the post links an editable online document (not a citable
+source) and a Lean 4 formalization produced by Aristotle, an automated proof
+system, and says that the paper itself was written by the AI system, which the
+tab entry names as GPT 5.5 Pro, used for the write-up. The proof-claims tab
+lists two full-proof claims: the author's (submitted 14 July 2026, the same
+text, with the arXiv link added by a moderator and an external link to the
+formalization), on
 [[problems/number_theory/E1005/claims/2026_07_04_cipollini|Cipollini's page]],
 and one submitted 28 July 2026 by the first author of [WXZ26], naming GPT 5.6 as
 the system used, claiming, for all sufficiently large $m$, $f(4m)=m+1$,
 $f(4m+1)=m+2$, $f(4m+2)=m+2$, $f(4m+3)=m+4$, noting that the argument gives no
 explicit threshold and that the proof is not peer reviewed, on
 [[problems/number_theory/E1005/claims/2026_07_28_wang_xie_zhao|the
-Wang--Xie--Zhao page]]. The tab carries the site's standing notice that a
-listing there does not guarantee that a proof is correct. The community database
-records the problem solved from 1 September 2026 (open before; its status date
-field keeps 9 September 2025, the entry's creation) and formalized since 19
-September 2026, with OEIS A386893.
+Wang--Xie--Zhao page]]. The tab carries erdosproblems.com's standing notice that
+a listing there does not guarantee that a proof is correct. The community
+database records the problem solved from 1 September 2026 (open before; its
+status date field keeps 9 September 2025, the entry's creation) and formalized
+since 19 September 2026, with OEIS A386893.
 
 **The origin (Erdős 1943).**
 [[../library/number_theory/erdos_1943_note_farey_series/theorem|The Theorem]]
@@ -208,7 +208,7 @@ page's notation $f(n)\ge n/400-1$ (every $k<n/400$ is covered). Erdős adds
 constant $c$ in the above result." The note was a letter to Mayer, put into form
 by Davenport (headnote, p. 82); its footnote cites Mayer's theorems in Quart. J.
 Math. 13 (1942), 186--7. Mayer's own results ($f(n)\ge3$ for $n\ge5$;
-$f(n)\to\infty$) are second-hand here, through the site and van Doorn's
+$f(n)\to\infty$) are second-hand here, through erdosproblems.com and van Doorn's
 introduction.
 
 **The bounds before 2026 (van Doorn).**
@@ -242,8 +242,8 @@ the upper bound is van Doorn's construction reproved (Section 5). Read depth:
 claims checked for Theorem 1, the reduction and the lemma statements; the
 lower-bound argument (pp. 3--14) was read for structure and not checked step by
 step, and no step is independently reviewed here. Acceptance evidence: the
-site's label and commentary; the author's claim on the tab; Semantic Scholar
-lists one citing record, [WXZ26]. Provenance, recorded not judged: the
+erdosproblems.com label and commentary; the author's claim on the tab; Semantic
+Scholar lists one citing record, [WXZ26]. Provenance, recorded not judged: the
 contribution statement (p. 16) says that the paper was written by GPT-5.5
 Pro, that the findings and proof
 strategy are due to the author together with GPT-5.5 Thinking, and that
@@ -294,8 +294,8 @@ are recorded: nothing was built or audited here and no kernel credit is claimed.
 refereed version of either 2026 preprint or of van Doorn's, an independent
 review, a dispute of the lower-bound argument, or a second proof.
 
-- The site: problem page, discussion thread and proof-claims tab; the full
-  directory listing of formal-conjectures of 2026-09-18 (no file then) and
+- erdosproblems.com: problem page, discussion thread and proof-claims tab; the
+  full directory listing of formal-conjectures of 2026-09-18 (no file then) and
   the statement file added 19 September 2026 (accessed 2026-10-07); the
   community database (fetched 2026-09-18 and 2026-10-06).
 - The primary sources: [Er43] pp. 82--85; [vD25b] pp. 1--2 and 5 in full,
@@ -330,10 +330,10 @@ files, and their definitions were bridged to the page's $f(n)$ only by the
 authored remark above. (3) The exact-formula claim of [WXZ26] is covered only
 through its statements, and its computation was not rerun. (4) Mayer's two 1942
 papers are not held; which of them proves $f(n)\to\infty$ is recorded as a
-discrepancy between the site and van Doorn. (5) The site's key [Ci26] is
-identified with the paper by the page's sentence and the tab's link to its arXiv
-identifier. (6) Proof coverage: claims checked throughout; no proof was checked
-here.
+discrepancy between erdosproblems.com and van Doorn. (5) The erdosproblems.com
+key [Ci26] is identified with the paper by the page's sentence and the tab's
+link to its arXiv identifier. (6) Proof coverage: claims checked throughout; no
+proof was checked here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

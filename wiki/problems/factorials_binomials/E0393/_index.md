@@ -29,12 +29,12 @@ $$
 
 with $a_1<\cdots <a_t=a_1+m$. What is the behaviour of $f(n)$?
 
-**Status.** Open. The site labeled the problem OPEN and credits no solution. Its
-remarks credit Berend and Osgood, and Bui, Pratt and Zaharescu, with density and
-counting bounds for the $n$ with $f(n)=m$. They also credit Luca, under the abc
-conjecture, with $f(n)\to\infty$. The standing derives from the claim pages: the
-problem is `open`, with no settling or pending full claim. The accepted partial
-claims
+**Status.** Open. Bloom's catalog labeled the problem OPEN and credits no
+solution. Its remarks credit Berend and Osgood, and Bui, Pratt and Zaharescu,
+with density and counting bounds for the $n$ with $f(n)=m$. They also credit
+Luca, under the abc conjecture, with $f(n)\to\infty$. The standing derives from
+the claim pages: the problem is `open`, with no settling or pending full claim.
+The accepted partial claims
 [[problems/factorials_binomials/E0393/claims/1992_10_01_berend_osgood|Berend and Osgood 1992]]
 and
 [[problems/factorials_binomials/E0393/claims/2022_04_18_bui_pratt_zaharescu|Bui, Pratt and Zaharescu 2023]]
@@ -63,12 +63,12 @@ https://www.erdosproblems.com/393.
 
 ## Current assessment
 
-The dated site formulation above asks for the behavior of $f(n)$, the least
-spread $m\ge1$ between the smallest and the largest factor when $n!$ is written
-as a product of distinct increasing integers $a_1<\cdots<a_t=a_1+m$. Erdős and
-Graham asked in particular whether $f(n)=1$ infinitely often, that is, whether a
-factorial is the product of two consecutive integers infinitely often; that
-remains open unconditionally. The factorization $n!=2\cdot3\cdots n$ gives
+The dated erdosproblems.com formulation above asks for the behavior of $f(n)$,
+the least spread $m\ge1$ between the smallest and the largest factor when $n!$
+is written as a product of distinct increasing integers $a_1<\cdots<a_t=a_1+m$.
+Erdős and Graham asked in particular whether $f(n)=1$ infinitely often, that is,
+whether a factorial is the product of two consecutive integers infinitely often;
+that remains open unconditionally. The factorization $n!=2\cdot3\cdots n$ gives
 $f(n)\le n-2$ for $n>2$.
 
 Every result on the problem passes through one reduction. If $f(n)=m$, the
@@ -100,10 +100,10 @@ is a write-up of that argument, produced by an audit-and-revise scaffold
 querying ChatGPT-5.5-Pro, claiming $n-O(\log n)\le f(n)\le n-2$ for all large
 $n$ under abc; it is a pending conditional claim with no reviewer's acceptance.
 
-The status search covered the site's problem page and discussion thread
-(accessed 2026-10-07), the journal records of the three cited papers and Luca's
-text; no formal-conjectures statement file exists for the problem, and no proof
-was checked here.
+The status search covered the erdosproblems.com problem page and discussion
+thread (accessed 2026-10-07), the journal records of the three cited papers and
+Luca's text; no formal-conjectures statement file exists for the problem, and no
+proof was checked here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

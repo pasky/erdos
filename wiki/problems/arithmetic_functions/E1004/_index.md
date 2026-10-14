@@ -24,8 +24,8 @@ updated: 2026-10-08T02:16:54Z
 $n\leq x$ such that the values of $\phi(n+k)$ are all distinct for $1\leq k\leq
 (\log x)^c$, where $\phi$ is the Euler totient function?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 12 April
-2026). The one recorded claim,
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 12
+April 2026). The one recorded claim,
 [[problems/arithmetic_functions/E1004/claims/2026_04_29_aditya|the anonymous note]]
 posted on 2026-04-29, is partial. It asserts the block statement for every fixed
 $c<2$ in the almost-all form, and it says nothing about $c\ge2$.
@@ -71,15 +71,15 @@ the [EPS87] upper bound as a solved variant, both without proof, so it provides
 no proof coverage. The remaining mathematical question is
 existence for every fixed positive exponent. An anonymous five-page note
 linked from the
-site's discussion on 29 April 2026 claims the block statement for every fixed
-$c<2$ at almost all starting points; it is retained as
+erdosproblems.com discussion on 29 April 2026 claims the block statement for
+every fixed $c<2$ at almost all starting points; it is retained as
 [[research/leads/totient_blocks_native_note/_index|an unreviewed candidate
 lead]], recorded as
 [[problems/arithmetic_functions/E1004/claims/2026_04_29_aditya|a pending partial claim]],
 and changes nothing recorded here.
 
-On 2026-10-05 the site labeled the problem OPEN (last edited 12 April 2026);
-its thread held seven comments, the newest of 30 April 2026, and no proof
+On 2026-10-05 Bloom's catalog labeled the problem OPEN (last edited 12 April
+2026); its thread held seven comments, the newest of 30 April 2026, and no proof
 claim; the community database listed the problem open; Palomar had no entry.
 On 28 April 2026 a participant posted on the thread an affirmative argument
 for every $c>0$ from an unproved uniform collision estimate and retracted it
@@ -116,10 +116,10 @@ The strict and non-strict index ranges differ when $(\log x)^c$ is an
 integer. They are equivalent as families quantified over every fixed
 $c>0$: a non-strict block contains the strict block for the same $c$,
 whereas the strict block for any fixed $c'>c$ eventually contains the
-non-strict block for $c$. The source's whole-block bound and the site's
+non-strict block for $c$. The source's whole-block bound and erdosproblems.com's
 starting-point bound also give equivalent every-$c$ families. To recover
-the whole-block bound from the site form, apply the latter at $x/2$ with
-$c'>c$: eventually $(\log(x/2))^{c'}>(\log x)^c$ and
+the whole-block bound from erdosproblems.com form, apply the latter at $x/2$
+with $c'>c$: eventually $(\log(x/2))^{c'}>(\log x)^c$ and
 $x/2+(\log(x/2))^{c'}<x$. These comparisons do not assert same-$c$
 endpoint identity.
 
@@ -180,8 +180,8 @@ Part II's
 bounds unit-shift totient collisions. These are different results; neither
 is the direct source or proof of the every-$c$ block expectation.
 
-erdosproblems.com's [EPS87] reference above names Part III, and the site's
-commentary attributes to that key an upper bound
+erdosproblems.com's [EPS87] reference above names Part III, and the
+erdosproblems.com commentary attributes to that key an upper bound
 $K\leq n/\exp(c(\log n)^{1/3})$, with some $c>0$, on the length $K$ of any
 block $n+1,\ldots,n+K$ on which $\phi$ takes pairwise distinct values. Part
 III proves no theorem on such blocks; its

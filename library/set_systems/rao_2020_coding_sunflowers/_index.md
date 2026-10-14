@@ -69,8 +69,8 @@ Source: <https://arxiv.org/abs/1909.04774>.
   f(n,k) <= (alpha k log(kn))^n + 1, whose base grows with n, so it does not
   answer the question whether f(n,k) < c_k^n. The paper remarks (p. 2) that
   Lemma 2 with r(p,k) = O(p) would imply the Erdos-Rado sunflower conjecture,
-  the affirmative answer; it does not prove that strengthening. The site lists
-  the paper as [Ra20].
+  the affirmative answer; it does not prove that strengthening.
+  erdosproblems.com lists the paper as [Ra20].
 
 **Results.**
 

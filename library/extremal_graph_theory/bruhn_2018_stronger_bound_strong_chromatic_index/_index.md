@@ -84,8 +84,8 @@ that edge-density arguments through Lemma 4 cannot go below 1.73 D^2.
 Source: <https://arxiv.org/abs/1504.02583>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1
-(p. 1 of the preprint), the $1.93\Delta^2$ the site credits to Bruhn and
-Joos, the second step of the chain of upper bounds for large $\Delta$ that
+(p. 1 of the preprint), the $1.93\Delta^2$ erdosproblems.com credits to Bruhn
+and Joos, the second step of the chain of upper bounds for large $\Delta$ that
 the problem page records, with the page's attestation of Molloy and Reed's
 $1.998\Delta(G)^2$ and the p. 4 remark that an oversight in their proof ("a
 lost 2") makes the bound it actually proves $1.9987\Delta(G)^2$; Lemma 4

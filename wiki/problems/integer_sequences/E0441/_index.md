@@ -30,43 +30,43 @@ least common multiple of $a$ and $b$?
 Is it attained by choosing all integers in $[1,(N/2)^{1/2}]$ together with all
 even integers in $[(N/2)^{1/2},(2N)^{1/2}]$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 27
-December 2025). Write $g(N)$ for the largest size and $B_N$ for the set of the
-second question, the integers up to $(N/2)^{1/2}$ together with the even
-integers in $[(N/2)^{1/2},(2N)^{1/2}]$; its pairwise least common multiples are
-at most $N$ and $|B_N|=(9N/8)^{1/2}+O(1)$, so $g(N)\ge(9N/8)^{1/2}+O(1)$. The
-site's commentary writes $n$ for $N$ inside its displays; this page writes $N$.
-The Statement asks the second question for each $N\ge1$; the explicit set at
-$N=336$ recorded in OEIS A068509 answers it no, and Chen and Dai's theorem
-gives failures for infinitely many $N$, so the wording stands and its answer is
-no. The asymptotic question, whether the construction is a largest set for all
-large $N$, is a variant; the site's label rested on Chen and Dai's theorem,
-which answers it no as well. Erdős's statements: item 4 of the 1965 survey
-[Er65, p. 183] asks "What is the maximum number of integers not exceeding $n$ so
-that the least common multiple of any two of them does not exceed $n$? I
-conjecture that the extremal sequence is given by the numbers $1<i$ [sic]
-$<(n/2)^{1/2}$ and $(n/2)^{1/2}\le2j\le(2n)^{1/2}$" (the print's $1<i$ is a
-misprint for $1\le i$, which [Er62] and [Er73] print, since $1$ belongs to the
-extremal sequence);
-problem 15 of the 1962 Hungarian survey (printed p. 238) asks the same,
-conjectures the same sequence, and adds that fewer than $3n^{1/2}$ such numbers
-is easy to prove while the conjecture would give $(3/2^{3/2})n^{1/2}$; the 1973
-survey [Er73, pp. 134--135] writes "I conjectured that $\max
-k=(1+o(1))\frac{3}{2\sqrt2}n^{1/2}$ and that the extremal sequence is given by
-the numbers $1\le i\le(\tfrac12n)^{1/2}$,
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 27 December 2025). Write $g(N)$ for the largest size and $B_N$ for the
+set of the second question, the integers up to $(N/2)^{1/2}$ together with the
+even integers in $[(N/2)^{1/2},(2N)^{1/2}]$; its pairwise least common multiples
+are at most $N$ and $|B_N|=(9N/8)^{1/2}+O(1)$, so $g(N)\ge(9N/8)^{1/2}+O(1)$.
+The erdosproblems.com commentary writes $n$ for $N$ inside its displays; this
+page writes $N$. The Statement asks the second question for each $N\ge1$; the
+explicit set at $N=336$ recorded in OEIS A068509 answers it no, and Chen and
+Dai's theorem gives failures for infinitely many $N$, so the wording stands and
+its answer is no. The asymptotic question, whether the construction is a largest
+set for all large $N$, is a variant; the erdosproblems.com label rested on Chen
+and Dai's theorem, which answers it no as well. Erdős's statements: item 4 of
+the 1965 survey [Er65, p. 183] asks "What is the maximum number of integers not
+exceeding $n$ so that the least common multiple of any two of them does not
+exceed $n$? I conjecture that the extremal sequence is given by the numbers
+$1<i$ [sic] $<(n/2)^{1/2}$ and $(n/2)^{1/2}\le2j\le(2n)^{1/2}$" (the print's
+$1<i$ is a misprint for $1\le i$, which [Er62] and [Er73] print, since $1$
+belongs to the extremal sequence); problem 15 of the 1962 Hungarian survey
+(printed p. 238) asks the same, conjectures the same sequence, and adds that
+fewer than $3n^{1/2}$ such numbers is easy to prove while the conjecture would
+give $(3/2^{3/2})n^{1/2}$; the 1973 survey [Er73, pp. 134--135] writes "I
+conjectured that $\max k=(1+o(1))\frac{3}{2\sqrt2}n^{1/2}$ and that the extremal
+sequence is given by the numbers $1\le i\le(\tfrac12n)^{1/2}$,
 $(\tfrac12n)^{1/2}\le2j\le(2n)^{1/2}$", printed under the condition
 $[a_i,a_j]>n$ of display (14.1), which is the condition of
 [[problems/integer_sequences/E0542/_index|Problem 542]]; the conjecture
 concerns pairwise least common multiples at most $n$, so the page carries a
-printing slip. The monograph [ErGr80, p. 87] states the conjecture as the site
-does.
+printing slip. The monograph [ErGr80, p. 87] states the conjecture as
+erdosproblems.com does.
 
-**Status.** DISPROVED, the site's label, which attaches to the second question.
-The problem lists two parts: the size of the largest set (the first question)
-and the optimality of the construction (the second). Its standing derives from
-the accepted partial claims that settle them. The two accepted claims settle one
-part each, with different values. So the derived standing is solved, answered,
-rather than the label's disproved, which covers only the second question.
+**Status.** DISPROVED, the erdosproblems.com label, which attaches to the second
+question. The problem lists two parts: the size of the largest set (the first
+question) and the optimality of the construction (the second). Its standing
+derives from the accepted partial claims that settle them. The two accepted
+claims settle one part each, with different values. So the derived standing is
+solved, answered, rather than the label's disproved, which covers only the
+second question.
 
 The construction part. Chen and Dai's Theorem 1(ii) (Acta Arith. 128 (2007))
 gives $g(N)\ge|B_N|+\mathrm{loc}\,N-2$ for infinitely many $N$. Here
@@ -90,7 +90,7 @@ The claim pages are
 (accepted, partial: the size part, settled as a determination; refereed),
 [[problems/integer_sequences/E0441/claims/2007_01_01_chen_dai|Chen and Dai's theorem]]
 (accepted, partial: the construction part, refuted; refereed, and credited by
-the site's curator for its label) and
+the erdosproblems.com curator for its label) and
 [[problems/integer_sequences/E0441/claims/2026_06_19_axiommath|AxiomProver's Lean disproof at $N=336$]]
 (claimed, partial: the construction part; not built or audited here). Dai and
 Chen's 2006 theorem has no claim page of its own. It sharpens the answer
@@ -98,9 +98,9 @@ recorded on Chen's page and settles nothing further.
 
 **Source.** [erdosproblems.com/441](https://www.erdosproblems.com/441),
 accessed 2026-09-18: the problem page (DISPROVED,
-which the site glosses as solved in the negative; last edited 27 December
-2025; source keys [Er51b], [Er65, p. 183], [Er73, p. 134], [ErGr80, p. 87],
-[Er98], with [Ch72b], [Ch98], [DaCh06], [ChDa07] and [Gu04] in the
+which erdosproblems.com glosses as solved in the negative; last edited 27
+December 2025; source keys [Er51b], [Er65, p. 183], [Er73, p. 134], [ErGr80, p.
+87], [Er98], with [Ch72b], [Ch98], [DaCh06], [ChDa07] and [Gu04] in the
 commentary; OEIS A068509 linked), its one-comment discussion thread (19 June
 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #441,
 https://www.erdosproblems.com/441, accessed 2026-09-18.
@@ -134,10 +134,10 @@ https://www.erdosproblems.com/441, accessed 2026-09-18.
   per [Ch98]'s reference [3]). Not read: the Rényi archive's bibliography,
   read 2026-09-18, listed fourteen 1951 papers and no Mat. Lapok problem
   entry; no other open copy was located. The bound $g(N)\le(4N)^{1/2}+O(1)$
-  the site attributes to it is quoted from the site and from [Ch98], p. 71,
-  which refers to [Er65] for a proof.
+  erdosproblems.com attributes to it is quoted from erdosproblems.com and from
+  [Ch98], p. 71, which refers to [Er65] for a proof.
 - [Er62] Erdős, P., Számelméleti megjegyzések IV. Mat. Lapok 13 (1962),
-  228--255; problem 15, printed p. 238. Not cited by the site for this
+  228--255; problem 15, printed p. 238. Not cited by erdosproblems.com for this
   problem. Library home:
   [[../library/integer_sequences/erdos_1962_szamelmeleti_megjegyzesek_iv/_index|erdos_1962_szamelmeleti_megjegyzesek_iv]].
 - [Er65] Erdős, P., Extremal problems in number theory. Proc. Sympos. Pure
@@ -170,7 +170,7 @@ https://www.erdosproblems.com/441, accessed 2026-09-18.
 **Formalization.** Statement only in the collection, added after
 2026-09-18. No file `ErdosProblems/441.lean` existed in
 google-deepmind/formal-conjectures at the head of main on 2026-09-18, and
-the site page's formalized-statement indicator then read no. The file
+erdosproblems.com page's formalized-statement indicator then read no. The file
 [`ErdosProblems/441.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f4702bd22b1a608c8f6a22f40bf1430a374a51cd/FormalConjectures/ErdosProblems/441.lean),
 added on 20 September 2026 and last changed on 27 September 2026 (linked
 at that commit), declares
@@ -178,10 +178,10 @@ at that commit), declares
 under `category research solved`, with proof `sorry` and a `formal_proof`
 attribute pointing at the `lean-proofs` file described next, at the same
 commit as the link on Chen and Dai's claim page; its docstring repeats the
-site's commentary and notes the $-2$ the site omits. Five variants, all
-with proof `sorry`, state Chen and Dai's infinitely-often non-optimality,
-the construction's lower bound, Erdős's upper bound, Chen's asymptotic and
-Dai and Chen's remainder bound. The community database
+erdosproblems.com commentary and notes the $-2$ erdosproblems.com omits. Five
+variants, all with proof `sorry`, state Chen and Dai's infinitely-often
+non-optimality, the construction's lower bound, Erdős's upper bound, Chen's
+asymptotic and Dai and Chen's remainder bound. The community database
 (teorth/erdosproblems) on 2026-09-18 recorded the problem disproved (last
 changed 31 August 2025), not formalized, with no formal proof and OEIS
 A068509; on 2026-10-07 it records the problem disproved (Lean) since 16
@@ -205,11 +205,11 @@ AxiomProver's disproof of the second part (its claim page is
 [[problems/integer_sequences/E0441/claims/2026_06_19_axiommath|the Lean disproof at $N=336$]]),
 whose `erdos441_disproof` exhibits $N=336$, the 21-element set
 $\{1,\ldots,10,12,14,15,16,18,21,24,30,36,42,48\}$ and $|B_{336}|=18$. The
-site's page on 2026-09-18 printed DISPROVED without a Lean suffix.
+erdosproblems.com page on 2026-09-18 printed DISPROVED without a Lean suffix.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; DISPROVED, solved in the negative, last edited 27 December 2025.
 The commentary: the construction gives $g(N)\ge(9N/8)^{1/2}+O(1)$; Erdős
 [Er51b] proved $g(N)\le(4N)^{1/2}+O(1)$, improved by Choi [Ch72b]; Chen
@@ -231,7 +231,7 @@ $3/2^{3/2}$ is the same number. [Ch98] (p. 71) dates the problem to 1951 and
 refers to [Er65] for a proof of $(9N/8)^{1/2}+O(1)\le g(N)\le(4N)^{1/2}+O(1)$;
 the passage of [Er65] states the question and the conjectured extremal sequence
 without a proof, so the attribution of the upper bound $(4N)^{1/2}+O(1)$ to
-Erdős rests on the site and [Ch98]; [Ch72b] (p. 221) attributes
+Erdős rests on erdosproblems.com and [Ch98]; [Ch72b] (p. 221) attributes
 $g(n)\le2n^{1/2}$ to Problem 12 of Erdős's Monographies de l'Enseignement
 Mathématique No. 6 (not read), and its estimate (6) (p. 222) proves the
 slightly stronger $g(n)<(1+\lambda)n^{1/2}+o(n^{1/2})$, $\lambda<0.87$, in half
@@ -263,12 +263,12 @@ $R_1(x)\ge\mathrm{loc}\,x-2$ for infinitely many $x$;
 $R(x)\ge\mathrm{loc}\,x-2$ for infinitely many $x$. Since
 $g(N)=|A_N|\ge|C_N|=|B_N|+R_1(N)$, part (ii) gives
 $g(N)\ge|B_N|+\mathrm{loc}\,N-2$ for infinitely many $N$: the negative
-answer, with an excess that is unbounded. The site's display $|A|\ge|B|+t$ omits
-the $-2$ of the paper. Part (i) says the construction is maximal among the
-admissible sets that contain it for infinitely many $N$; whether $g(N)=|B_N|$
-happens infinitely often is not decided by the paper. Its Corollary 2
-(p. 127) gives $R_1(x)=O(\log\log x)$ with no hypothesis, since the paper
-notes that its Problem 1 holds for $r=1$; so the largest admissible sets
+answer, with an excess that is unbounded. The erdosproblems.com display
+$|A|\ge|B|+t$ omits the $-2$ of the paper. Part (i) says the construction is
+maximal among the admissible sets that contain it for infinitely many $N$;
+whether $g(N)=|B_N|$ happens infinitely often is not decided by the paper. Its
+Corollary 2 (p. 127) gives $R_1(x)=O(\log\log x)$ with no hypothesis, since the
+paper notes that its Problem 1 holds for $r=1$; so the largest admissible sets
 containing $B_N$ exceed $|B_N|$ by at least $\mathrm{loc}\,N-2$ for
 infinitely many $N$ and by at most $O(\log\log N)$ for every $N$. Only
 Theorem 2 for $r\ge2$ and Theorem 3's sharper bound
@@ -284,7 +284,7 @@ Corollary 1, Corollary 2 read as a statement; the proof (pp. 127--133) was not
 read beyond Lemma 1.
 
 **Earlier bounds and leads (context, not status).** $g(N)\le(4N)^{1/2}+O(1)$
-(Erdős, per the site and [Ch98]; Guy's B26, p. 125, prints
+(Erdős, per erdosproblems.com and [Ch98]; Guy's B26, p. 125, prints
 $\frac3{2\sqrt2}n^{1/2}-2<g(n)\le2n^{1/2}$ as Erdős's, and his E2, p. 312,
 prints $(9x/8)^{1/2}\le\max A(x)\le(4x)^{1/2}$, both without proof);
 Choi's
@@ -303,7 +303,7 @@ OpenAI Codex), not built here; the thread's comment is the only forum item.
 contradicting the two answers, an exact formula for $g(N)$, or a proof
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab on
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
   2026-09-18; the full directory listing and tree of formal-conjectures at
   the head of main fetched that day (no file for this problem then; the file
   added on 20 September 2026 is described under Formalization); the

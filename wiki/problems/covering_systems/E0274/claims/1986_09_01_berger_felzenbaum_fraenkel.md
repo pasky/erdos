@@ -50,8 +50,8 @@ groups. The question for nonnilpotent groups stays open.
 
 **Acceptance.** Refereed: Canadian Mathematical Bulletin 29 (1986), no. 3,
 329--333, doi:10.4153/CMB-1986-050-0, issued 1 September 1986. Not reviewed:
-the site's commentary does not mention the paper, and the site labeled the
-problem OPEN. Not formalized: see below.
+the erdosproblems.com commentary does not mention the paper, and Bloom's catalog
+labeled the problem OPEN. Not formalized: see below.
 
 **Formalization.** The Lean 4 repository `Jostamon/erdos274-hs-abelian`,
 linked above at its commit of 2026-07-10, proves the formal-conjectures

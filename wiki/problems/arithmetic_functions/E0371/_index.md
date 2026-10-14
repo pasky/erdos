@@ -23,15 +23,15 @@ updated: 2026-10-08T13:36:26Z
 **Statement.** Let $P(n)$ denote the largest prime factor of $n$. Show that the
 set of $n$ with $P(n)<P(n+1)$ has density $1/2$.
 
-**Status.** The site's label was OPEN (page last edited 23 January 2026), but
-the problem is proved here. The OpenAI release's manuscript *The joint Dickman
-law for consecutive integers* (2026-09-24) claims that the normalized largest
-prime factors of $n$ and $n+1$ have independent Dickman limit laws in natural
-density. From this it deduces the density $1/2$ that this problem asks for. This
-corpus built the manuscript's Lean proof of that corollary with only the three
-standard axioms, and its fingerprint is identical to the release's comparator
-challenge. The statement audit found it exact. The claim is therefore accepted
-on
+**Status.** The erdosproblems.com label was OPEN (page last edited 23 January
+2026), but the problem is proved here. The OpenAI release's manuscript *The
+joint Dickman law for consecutive integers* (2026-09-24) claims that the
+normalized largest prime factors of $n$ and $n+1$ have independent Dickman limit
+laws in natural density. From this it deduces the density $1/2$ that this
+problem asks for. This corpus built the manuscript's Lean proof of that
+corollary with only the three standard axioms, and its fingerprint is identical
+to the release's comparator challenge. The statement audit found it exact. The
+claim is therefore accepted on
 [[problems/arithmetic_functions/E0371/claims/2026_09_24_openai|the release's joint Dickman law]],
 and the problem stands solved. The manuscript has no outside review. The
 curator's blog post
@@ -86,13 +86,14 @@ the OpenAI release's corollary of its joint Dickman law, recorded on
 Its acceptance rests on the formalization: this corpus built the release's Lean
 declaration from the pinned revision with the three standard axioms only, its
 comparator fingerprint was identical, and the statement audit found it exact for
-the Statement. No outside review or refereed publication exists, and the site's
-page, last edited 23 January 2026, does not mention the release. Wang's
-conditional result has an accepted claim page of scope `conditional`, which the
-derivation does not count. The search behind this page is the site record of
-2026-09-04 and the release at its pinned revision; no wider literature search is
-recorded. The results under Progress are cited from the site's commentary, the
-carded papers and the arXiv records named, without a check of their proofs.
+the Statement. No outside review or refereed publication exists, and the
+erdosproblems.com page, last edited 23 January 2026, does not mention the
+release. Wang's conditional result has an accepted claim page of scope
+`conditional`, which the derivation does not count. The search behind this page
+is the erdosproblems.com record of 2026-09-04 and the release at its pinned
+revision; no wider literature search is recorded. The results under Progress are
+cited from the erdosproblems.com commentary, the carded papers and the arXiv
+records named, without a check of their proofs.
 
 ## Progress
 
@@ -120,8 +121,8 @@ and the hypothesis.
 
 ## Known Results
 
-The site's commentary records, besides the results above, Erdős's further
-question [Er79e] whether for every $\alpha$ the set of $n$ with
+The erdosproblems.com commentary records, besides the results above, Erdős's
+further question [Er79e] whether for every $\alpha$ the set of $n$ with
 $P(n+1)>P(n)n^{\alpha}$ has a density. For $0\le\alpha\le1$ Teräväinen proved
 that its logarithmic density exists and equals
 

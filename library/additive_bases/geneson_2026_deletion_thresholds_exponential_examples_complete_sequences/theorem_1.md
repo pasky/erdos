@@ -68,5 +68,5 @@ that a partial report elsewhere records the unbounded case of Lemma 3.
   problem asks for, read in the eventual-completeness sense the problem's
   wording ("complete sequence", "remains complete") carries; the paper
   contrasts van Doorn's exclusion of $m\ge2$ under the requirement that
-  every positive integer be represented, recorded in the site's
+  every positive integer be represented, recorded in the erdosproblems.com
   discussion of the problem. A preprint claim.

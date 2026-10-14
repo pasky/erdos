@@ -64,8 +64,8 @@ Erdős, Paul, On some problems in combinatorial set theory. Publ. Inst. Math.
 publisher's typeset PDF; the publisher's issue page
 (http://elib.mi.sanu.ac.rs/pages/browse_issue.php?db=publ&rbr=77, read
 2026-10-02) lists the article and states no copyright, license or terms, and
-neither the issue's impressum nor the site's About page states any; the term is
-unstated.
+neither the issue's impressum nor erdosproblems.com's About page states any; the
+term is unstated.
 
 This memorial note for Đ. Kurepa states old and new problems in nine numbered
 sections with their history, and proves nothing: every theorem in it is

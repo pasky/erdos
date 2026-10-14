@@ -32,16 +32,17 @@ $$
 
 is finite?
 
-**Status.** Proved. The site labeled the problem PROVED (page last edited 19
-October 2025) and credits Lewis, Rossi and Weitsman [LRW84] with the general
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (page last edited
+19 October 2025) and credits Lewis, Rossi and Weitsman [LRW84] with the general
 case. Before them, Zhang [Zh77] had settled the entire functions of finite
 order. Huber [Hu57] had found, for each fixed $\lambda$, a path on which that
 one integral is finite. The accepted claim page
 [[problems/analysis/E0515/claims/1984_12_01_lewis_rossi_weitsman|Lewis, Rossi and Weitsman 1984]]
-records the result, on the refereed venue and the site's acceptance. The
-frontmatter standing derives from it. Zhang's finite-order case is the accepted
-partial claim [[problems/analysis/E0515/claims/1977_01_01_zhang|Zhang 1977]], on
-its journal publication.
+records the result, on the refereed venue and erdosproblems.com's acceptance.
+The frontmatter standing derives from it. Zhang's finite-order case is the
+accepted partial claim
+[[problems/analysis/E0515/claims/1977_01_01_zhang|Zhang 1977]], on its journal
+publication.
 
 **Source.** [erdosproblems.com/515](https://www.erdosproblems.com/515), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #515,
@@ -60,18 +61,19 @@ https://www.erdosproblems.com/515.
 
 ## Current assessment
 
-The question, in the site's formulation of 2026-09-04, asks for one locally
-rectifiable path to infinity on which $\lvert f\rvert^{-\lambda}$ is integrable
-for every $\lambda>0$ at once, for every entire $f$ that is not a polynomial.
-The answer is yes: the general case is the 1984 theorem of Lewis, Rossi and
-Weitsman, accepted here on its refereed publication and the site's credit, and
-recorded on its claim page. The statement of [LRW84] follows its Theorem 1 and
-introduction, and the other statements follow the site's account and the
-publishers' records; the proof is not reconstructed in this repository and no
-independent review is recorded. Huber's paths, one for each exponent, settle no
-instance of the question and have no claim page. The status search covered the
-site, its forum thread and the community database; on 2026-10-07 the thread held
-no proof claim, and none of these sources recorded another claim of the result.
+The question, in the erdosproblems.com formulation of 2026-09-04, asks for one
+locally rectifiable path to infinity on which $\lvert f\rvert^{-\lambda}$ is
+integrable for every $\lambda>0$ at once, for every entire $f$ that is not a
+polynomial. The answer is yes: the general case is the 1984 theorem of Lewis,
+Rossi and Weitsman, accepted here on its refereed publication and the
+erdosproblems.com credit, and recorded on its claim page. The statement of
+[LRW84] follows its Theorem 1 and introduction, and the other statements follow
+erdosproblems.com's account and the publishers' records; the proof is not
+reconstructed in this repository and no independent review is recorded. Huber's
+paths, one for each exponent, settle no instance of the question and have no
+claim page. The status search covered erdosproblems.com, its forum thread and
+the community database; on 2026-10-07 the thread held no proof claim, and none
+of these sources recorded another claim of the result.
 
 ## Known Results
 
@@ -82,7 +84,7 @@ no proof claim, and none of these sources recorded another claim of the result.
 - Zhang [Zh77] proved the question's statement for entire functions of
   finite order; the paper Lewis, Rossi and Weitsman cite for it is Zhang
   Guanghou, Asymptotic values of entire and meromorphic functions, Sci.
-  Sinica 20 (1977), 720-739, of the same title and year as the site's
+  Sinica 20 (1977), 720-739, of the same title and year as erdosproblems.com's
   Kexue Tongbao item. This is the accepted partial claim
   [[problems/analysis/E0515/claims/1977_01_01_zhang|Zhang 1977]].
 - Lewis, Rossi and Weitsman [LRW84] proved it for every nonpolynomial

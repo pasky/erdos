@@ -114,7 +114,7 @@ Corollary (p. 39); no external theorem for the four statements.
 - [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]: the problem's
   $g_k(N)$ is this paper's $t_k$ with $N$ for $n$ (sets in
   $\{1,\ldots,2N\}$ of size $N+g_k(N)$; the $b_i$ not required in $A$).
-  Theorems 1--4 are the site's "$g_3(N)=2$ and $g_4(N)\ll1$",
+  Theorems 1--4 are erdosproblems.com's "$g_3(N)=2$ and $g_4(N)\ll1$",
   "$g_5(N)\asymp\log N$" and "$g_6(N)\asymp N^{1/2}$"; the lower bounds for
   $k=3$ and $k=5$ hold for positive $b_i$ only (the note above), which is
   why van Doorn's $g_3(n)=1$ and $g_5(n)<1.2\cdot10^8$ do not contradict

@@ -31,30 +31,30 @@ $$
 
 with $t=n_1<\cdots <n_k\leq N$. Estimate $t(N)$.
 
-**Formulation.** The site's wording as read on 2026-09-17 (page last edited
-18 November 2025). The denominators are distinct integers
-in $[t,N]$ and the number of terms is free. Since $t=1$ always admits the
-one-term representation, $t(N)\ge2$; for $N\ge2$ no representation starts
-at $t=N$, so $t(N)\le N$. In the Erdős–Graham monograph the same quantity is
-written $k_1(n)$.
+**Formulation.** The erdosproblems.com wording as read on 2026-09-17 (page last
+edited 18 November 2025). The denominators are distinct integers in $[t,N]$ and
+the number of terms is free. Since $t=1$ always admits the one-term
+representation, $t(N)\ge2$; for $N\ge2$ no representation starts at $t=N$, so
+$t(N)\le N$. In the Erdős–Graham monograph the same quantity is written
+$k_1(n)$.
 
-**Status.** The site's label was PROVED, and it attaches to the estimate. The
-derived standing is solved, answered rather than proved, because the question
-asks for an estimate rather than a yes or no. Liu and Sawhney (Int. Math. Res.
-Not. 2026) determine $t(N)$ up to a factor
+**Status.** The erdosproblems.com label was PROVED, and it attaches to the
+estimate. The derived standing is solved, answered rather than proved, because
+the question asks for an estimate rather than a yes or no. Liu and Sawhney (Int.
+Math. Res. Not. 2026) determine $t(N)$ up to a factor
 $(\log\log N)^3(\log\log\log N)^{O(1)}$. Namely,
 $N/((\log N)(\log\log N)^3(\log\log\log N)^{O(1)})\ll t(N)\ll N/\log N$. The
 upper bound is the one Erdős and Graham had stated. This is the accepted claim
 [[problems/unit_fractions/E0294/claims/2024_04_10_liu_sawhney|Liu and Sawhney 2024]],
-refereed and credited by the site's curator. The exact order of $t(N)$ inside
-that window is not known.
+refereed and credited by the erdosproblems.com curator. The exact order of
+$t(N)$ inside that window is not known.
 
 **Source.** [erdosproblems.com/294](https://www.erdosproblems.com/294),
 accessed 2026-09-17: the problem page (PROVED; last edited 18 November
-2025), its empty discussion thread and its empty proof-claim tab. The site
-cites [ErGr80, p. 35] as the
-problem's source and [LiSa24] in its commentary. Cite as: T. F. Bloom,
-Erdős Problem #294, https://www.erdosproblems.com/294, accessed 2026-09-17.
+2025), its empty discussion thread and its empty proof-claim tab.
+erdosproblems.com cites [ErGr80, p. 35] as the problem's source and [LiSa24] in
+its commentary. Cite as: T. F. Bloom, Erdős Problem #294,
+https://www.erdosproblems.com/294, accessed 2026-09-17.
 
 **References.**
 
@@ -79,8 +79,8 @@ audited by this corpus.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks for the order of $t(N)$ and
-showed PROVED. Its commentary credits Erdős and Graham with the upper bound
+**The question.** On 2026-09-17 erdosproblems.com asks for the order of $t(N)$
+and showed PROVED. Its commentary credits Erdős and Graham with the upper bound
 $t(N)\ll N/\log N$ and with no knowledge of the true size, and records Liu
 and Sawhney's two-sided estimate, which it describes as a solution up to a
 factor $(\log\log N)^{O(1)}$:
@@ -96,8 +96,8 @@ The thread and the proof-claim tab are empty. The community database record
 **Status support.** The status-defining source is
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/theorem_1_6|Liu and Sawhney's Theorem 1.6]],
 arXiv:2404.07113v1, p. 3, read clause by clause on the page image: with
-$t(N)$ defined exactly as on the site, the two-sided bound displayed above
-holds. The paper appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382
+$t(N)$ defined exactly as on erdosproblems.com, the two-sided bound displayed
+above holds. The paper appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382
 (received 28 October 2025, accepted 23 December 2025, online 14 January
 2026, per the publisher's record read on 2026-09-17), which is the
 acceptance evidence; the library retains arXiv v1, and the published text
@@ -115,12 +115,12 @@ only.
 
 Two remarks on the source. On p. 3 the authors report that they knew of no
 earlier study of this question, and they label it "Problem # 305" in the
-site's numbering; the statement matches this problem, and the site's Problem
-305 is the question on the largest denominator of a representation of $a/b$.
-The site's attribution of the upper bound to Erdős and Graham is borne out by
-printed p. 35 of the monograph, read on the page image: with $k_r(n)$ the
-least integer not occurring as $x_r$ in any $\{x_1<\cdots<x_t\}$ with
-$x_t\le n$ and reciprocal sum one, they write that
+erdosproblems.com numbering; the statement matches this problem, and
+erdosproblems.com's Problem 305 is the question on the largest denominator of a
+representation of $a/b$. The erdosproblems.com attribution of the upper bound to
+Erdős and Graham is borne out by printed p. 35 of the monograph, read on the
+page image: with $k_r(n)$ the least integer not occurring as $x_r$ in any
+$\{x_1<\cdots<x_t\}$ with $x_t\le n$ and reciprocal sum one, they write that
 $k_1(n)<cn\log\log n/\log n$ is easy to show and that "with a slight
 refinement" $k_1(n)<cn/\log n$, adding "We have no idea of the true value
 of $k_r(n)$ or even of $k_1(n)$"; no proof is given there, and Liu and
@@ -130,7 +130,7 @@ Sawhney prove the upper bound themselves.
 $N/((\log N)(\log\log N)^{3+o(1)})$ and $N/\log N$; nothing found narrows
 the window.
 
-**Search scope (2026-09-17 UTC).** The site's problem, discussion and
+**Search scope (2026-09-17 UTC).** The erdosproblems.com problem, discussion and
 proof-claim pages as read on 2026-09-17; the community database record; the
 formal-conjectures directory listing; the arXiv listing for 2404.07113;
 the Oxford Academic article record; the Semantic Scholar citing-paper

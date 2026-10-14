@@ -39,16 +39,16 @@ partial). The lower bound is the result of a manuscript of 26 April 2026
 credited to GPT-5.5 Pro prompted by Chojecki. It builds $A$ from multiples $pr$
 of randomly chosen large prime labels $p$, and $B$ from the integers up to $N$
 divisible by no chosen label. Uniqueness within a label then reduces to Ford's
-integers with exactly one divisor in a short interval. The site's curator,
-Thomas Bloom, accepted it on 2 May 2026
+integers with exactly one divisor in a short interval. The erdosproblems.com
+curator, Thomas Bloom, accepted it on 2 May 2026
 ([[problems/integer_sequences/E0896/claims/2026_04_26_chojecki|claim page]]). An
 earlier thread post of 23 November 2025 (van Doorn) first observed the upper
 bound from Ford's theorem. It gave the weaker lower bound $(1+o(1))N^2/\log N$
-from Szemerédi's construction. The site's commentary credited it until its edit
-of 2 May 2026. It is a thread post, not a dated manuscript, so it has no claim
-page. Its upper bound is Ford's theorem, whose claim page is given above. No
-leading constant is known or asked. The site's commentary was last edited on 2
-May 2026.
+from Szemerédi's construction. The erdosproblems.com commentary credited it
+until its edit of 2 May 2026. It is a thread post, not a dated manuscript, so it
+has no claim page. Its upper bound is Ford's theorem, whose claim page is given
+above. No leading constant is known or asked. The erdosproblems.com commentary
+was last edited on 2 May 2026.
 
 **Source.** [erdosproblems.com/896](https://www.erdosproblems.com/896), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #896,

@@ -28,15 +28,15 @@ $$
 R(G,H)\ll m?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-08 (page last edited 18
-January 2026). The graph $G$ is fixed and the implied constants may depend on
-it: the hypotheses read $R(G,T_n)\ll_G n$ for every tree $T_n$ on $n$
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-08 (page last
+edited 18 January 2026). The graph $G$ is fixed and the implied constants may
+depend on it: the hypotheses read $R(G,T_n)\ll_G n$ for every tree $T_n$ on $n$
 vertices and $R(G,K_n)\ll_G n^2$, and the question asks whether every graph
 $H$ with $m$ edges and no isolated vertices satisfies $R(G,H)\ll_G m$, with
-a constant depending on $G$ but not on $n$ or on $H$. The site's commentary
-restates the question as whether $G$ is Ramsey size linear.
+a constant depending on $G$ but not on $n$ or on $H$. The erdosproblems.com
+commentary restates the question as whether $G$ is Ramsey size linear.
 
-**Status.** Open, the site's label.
+**Status.** Open, the erdosproblems.com label.
 
 **Source.** [erdosproblems.com/568](https://www.erdosproblems.com/568),
 accessed 2026-09-08: the problem page (OPEN; last edited 18 January 2026;
@@ -53,17 +53,17 @@ This is the fixed-$G$ implication in
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/question_3|Question
 3 of Erdős--Faudree--Rousseau--Schelp]], Combin. Probab. Comput. 2 (1993),
 389--399, printed p. 398. The source writes one constant $c$ for both
-hypotheses and asks whether $G$ is Ramsey size-linear. The site's asymptotic
-formulation is equivalent: constants may depend on the fixed graph $G$, but
-not on $n$ or on the target $H$.
+hypotheses and asks whether $G$ is Ramsey size-linear. erdosproblems.com's
+asymptotic formulation is equivalent: constants may depend on the fixed graph
+$G$, but not on $n$ or on the target $H$.
 
-On 2026-09-08 the site labeled the problem open, with no comments and no proof
-claims; the page was last edited 18 January 2026. A bounded search covered the
-site's page and its history, title and exact-formula searches, arXiv records of
-recent Ramsey-size-linear work, author and publisher pages, and X queries. It
-located the results below and adjacent odd-cycle and bipartite-Ramsey work, but
-no primary paper claiming to prove or refute this implication. This bounded
-negative search is not proof that the problem is open.
+On 2026-09-08 Bloom's catalog labeled the problem open, with no comments and no
+proof claims; the page was last edited 18 January 2026. A bounded search covered
+the erdosproblems.com page and its history, title and exact-formula searches,
+arXiv records of recent Ramsey-size-linear work, author and publisher pages, and
+X queries. It located the results below and adjacent odd-cycle and
+bipartite-Ramsey work, but no primary paper claiming to prove or refute this
+implication. This bounded negative search is not proof that the problem is open.
 
 Proof coverage: statements checked; no source proof is reconstructed or
 independently reviewed, and no formal verification is recorded.

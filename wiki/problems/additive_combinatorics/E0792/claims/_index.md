@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 792, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0792/claims
@@ -29,16 +29,16 @@ elements.
 [[problems/additive_combinatorics/E0792/claims/2013_01_19_eberhard_green_manners|2013_01_19_eberhard_green_manners]]: Eberhard, Green and Manners's theorem that some set of $n$ positive integers
 has no sum-free subset larger than $n/3+o(n)$, which with Erdős's lower bound
 $n/3$ settles the main term of $f(n)$ in Problem 792. It appeared in Annals of
-Mathematics in 2014, and the site credits it.
+Mathematics in 2014, and erdosproblems.com credits it.
 
 [[problems/additive_combinatorics/E0792/claims/2025_02_12_bedert|2025_02_12_bedert]]: Bedert's 2025 preprint theorem that every finite set $A$ of integers has a
 sum-free subset of at least $|A|/3+c\log\log|A|$ elements, the first lower
 bound for $f(n)$ that exceeds $n/3$ by an unbounded amount. The preprint is
 unrefereed.
 
-[[problems/additive_combinatorics/E0792/claims/2026_09_09_bedert|2026_09_09_bedert]]: Bedert's proof claim on the site's tab, worked out with GPT 6 Astra, that
-$f(n)\ge n/3+(\log n)^{1/3-o(1)}$, improving the $\log\log n$ of the
-claimant's preprint. The write-up is AI-generated, is on a file-sharing
+[[problems/additive_combinatorics/E0792/claims/2026_09_09_bedert|2026_09_09_bedert]]: Bedert's proof claim on the erdosproblems.com tab, worked out with GPT 6
+Astra, that $f(n)\ge n/3+(\log n)^{1/3-o(1)}$, improving the $\log\log n$ of
+the claimant's preprint. The write-up is AI-generated, is on a file-sharing
 service and is unreviewed.
 
 ***

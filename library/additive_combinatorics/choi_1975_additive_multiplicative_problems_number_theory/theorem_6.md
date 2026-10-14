@@ -57,8 +57,8 @@ reference [2], p. 134), through Lemma B.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]: the site's "for
-  every $\epsilon>0$ if $k$ is sufficiently large then $g_k(N)>N^{1-\epsilon}$";
-  the theorem gives it for $k\ge k_0(\epsilon)$ and large $N$ with the
-  paper's $t_k$ for $g_k(N)$. The $b_i$ are arbitrary integers here, so
-  the bound holds for the site's $g_k$ as stated.
+- [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]:
+  erdosproblems.com's "for every $\epsilon>0$ if $k$ is sufficiently large then
+  $g_k(N)>N^{1-\epsilon}$"; the theorem gives it for $k\ge k_0(\epsilon)$ and
+  large $N$ with the paper's $t_k$ for $g_k(N)$. The $b_i$ are arbitrary
+  integers here, so the bound holds for erdosproblems.com's $g_k$ as stated.

@@ -67,8 +67,8 @@ explicit description is known, and the conjectured growth $k^2/\log k$.
 
 **Standing.** Claimed. The memorandum states Theorems 1 and 2 without proof,
 is unrefereed, and no outside review of it is recorded, so no evidence kind
-is listed; the site labeled the problem OPEN, and its commentary credits the
-descriptions to the memorandum as commentary on an open problem. The
+is listed; Bloom's catalog labeled the problem OPEN, and its commentary credits
+the descriptions to the memorandum as commentary on an open problem. The
 descriptions for $m\ge1$ were later proved, with proof, by Rolnick in a
 refereed paper, recorded as an accepted partial claim on
 [[problems/additive_combinatorics/E0271/claims/2014_08_08_rolnick|its claim page]].

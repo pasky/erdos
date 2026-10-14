@@ -28,9 +28,9 @@ $$
 
 for infinitely many $n$?
 
-**Status.** Open: the site's label. The site's page does not mention the one
-claim. The standing in the frontmatter derives from the claim pages. Johan
-Land's partial claim of 2026-09-07 is pending on the
+**Status.** Open: the erdosproblems.com label. The erdosproblems.com page does
+not mention the one claim. The standing in the frontmatter derives from the
+claim pages. Johan Land's partial claim of 2026-09-07 is pending on the
 [[problems/factorials_binomials/E0727/claims/2026_09_07_land|Land claim page]].
 It is a proof for $k=3$ (hence $k=2$) with a Lean development.
 

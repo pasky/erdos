@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 242, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/unit_fractions/E0242/claims
@@ -21,8 +21,8 @@ so for every multiple of such a prime. The paper is refereed.
 
 [[problems/unit_fractions/E0242/claims/2023_02_06_alomari|2023_02_06_alomari]]: M. W. Alomari's preprint of February 2023, posted on Authorea, OSF and
 Research Square, says in its abstract that it proves the conjecture. It is
-unrefereed, and it is linked in the site's thread, where a reply calls it
-mistaken.
+unrefereed, and it is linked in the erdosproblems.com thread, where a reply
+calls it mistaken.
 
 [[problems/unit_fractions/E0242/claims/2025_08_29_mihnea_dumitru|2025_08_29_mihnea_dumitru]]: An arXiv computation report of August 2025 by Mihnea and Dumitru states that
 the conjecture holds for every prime up to $10^{18}$, hence for every $n$ up
@@ -35,7 +35,7 @@ conjecture.
 
 [[problems/unit_fractions/E0242/claims/2026_02_12_bradford|2026_02_12_bradford]]: Kyle Bradford's arXiv preprint of February 2026 says in its abstract that it
 outlines a solution of the conjecture, three unit fractions for $4/p$ at every
-prime $p$. It was reported in the site's thread, is unrefereed, and has been
-accepted by no one.
+prime $p$. It was reported in the erdosproblems.com thread, is unrefereed, and
+has been accepted by no one.
 
 ***

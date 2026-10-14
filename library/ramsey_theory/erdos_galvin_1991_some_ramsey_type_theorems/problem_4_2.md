@@ -34,19 +34,19 @@ negative for $k=1$. We know nothing about the case $k=2$; however, if we
 replace FS with CFS, we have the following positive result:", followed by
 Theorem 4.3.
 
-**In the problem's notation.** The site's statement of Problem 948 asks for
-"a function $f(n)$ and a $k$ such that in any $k$-colouring of the integers
-there exists a sequence $a_1<\cdots$ such that $a_n<f(n)$ for infinitely
-many $n$" whose set of finite sums "does not contain all colours". The site's
-$k$ colors are the paper's $k+1$ classes, so the paper's "negative for
-$k=1$" is the site's "no when $k=2$" and the paper's unknown case $k=2$ is
-the site's $k=3$; "$a_n<f(n)$" and "$x_n\le\varphi(n)$" differ by the choice
-of $f=\varphi+1$. The quantifier "for infinitely many $n$" is printed here;
-the question as Erdős printed it in 1977 ("$a_n<f(n)$ so that at least one
-of the classes is disjoint from the set of all sums") carries no quantifier
-on $n$. The problem asks for finitely many classes only; the $\aleph_0$-class
-variant and the almost-disjoint-classes variant of the 1977 paper do not
-appear in this paper.
+**In the problem's notation.** The erdosproblems.com statement of Problem 948
+asks for "a function $f(n)$ and a $k$ such that in any $k$-colouring of the
+integers there exists a sequence $a_1<\cdots$ such that $a_n<f(n)$ for
+infinitely many $n$" whose set of finite sums "does not contain all colours".
+erdosproblems.com's $k$ colors are the paper's $k+1$ classes, so the paper's
+"negative for $k=1$" is erdosproblems.com's "no when $k=2$" and the paper's
+unknown case $k=2$ is erdosproblems.com's $k=3$; "$a_n<f(n)$" and
+"$x_n\le\varphi(n)$" differ by the choice of $f=\varphi+1$. The quantifier "for
+infinitely many $n$" is printed here; the question as Erdős printed it in 1977
+("$a_n<f(n)$ so that at least one of the classes is disjoint from the set of all
+sums") carries no quantifier on $n$. The problem asks for finitely many classes
+only; the $\aleph_0$-class variant and the almost-disjoint-classes variant of
+the 1977 paper do not appear in this paper.
 
 **Source.** P. Erdős and F. Galvin, Some Ramsey-type theorems, Discrete
 Math. 87 (1991), no. 3, 261--269; Problem 4.2 with the sentences before and
@@ -78,7 +78,8 @@ for the existence of the sequence without a growth bound.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0948/_index|Problem 948]]: the problem's printed
-  origin in this form, the one the site cites ("[ErGa91, p.268]"); the site's
-  statement is this question with the classes counted as colors. The site
-  records a negative answer for every $k$ from a 2026 argument accepted on
-  its thread; this paper contributes the two-class case and the wording.
+  origin in this form, the one erdosproblems.com cites ("[ErGa91, p.268]"); the
+  erdosproblems.com statement is this question with the classes counted as
+  colors. erdosproblems.com records a negative answer for every $k$ from a 2026
+  argument accepted on its thread; this paper contributes the two-class case and
+  the wording.

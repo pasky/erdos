@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 971, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0971/claims
@@ -22,6 +22,7 @@ has not been reviewed.
 
 [[problems/integer_sequences/E0971/claims/2026_09_28_li|2026_09_28_li]]: Shisheng Li's Lean 4 development of September 2026, found with GPT-6 and
 formalized with Claude, proves the formal-conjectures statement of Problem 971
-by a moment argument. It was announced in the site's thread and is unreviewed.
+by a moment argument. It was announced in the erdosproblems.com thread and is
+unreviewed.
 
 ***

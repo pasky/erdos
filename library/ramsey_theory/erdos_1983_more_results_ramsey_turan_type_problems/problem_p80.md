@@ -76,7 +76,7 @@ $\frac1{12}n^2$).
 
 - [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]: the earliest
   statement, among the sources read, of the question's setting and of the upper bound
-  $\delta_3(5)\le1/12$; the site's question ($\delta_3(5)=0$) is the
+  $\delta_3(5)\le1/12$; the erdosproblems.com question ($\delta_3(5)=0$) is the
   opposite extreme to the sharpness the passage asks about, and the later
   constructions answer it no. The $K_6$ remark at the end is answered too:
   a $K_5$-free graph is $K_6$-free, so $\theta_3(K_6)\ge\theta_3(K_5)>0$, and

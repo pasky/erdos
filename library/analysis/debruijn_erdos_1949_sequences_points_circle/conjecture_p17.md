@@ -30,7 +30,7 @@ $$
 third part alone, as the conjecture that $r(\mu_r-1)$ is unbounded, and
 adds that the "just distributions" theorem of van Aardenne-Ehrenfest
 (Proc. 48 (1945), 266--271 = Indag. Math. 7 (1946), 71--76) would follow
-from it. The site's Problem 1221 reproduces the Section 6 wording.
+from it. erdosproblems.com's Problem 1221 reproduces the Section 6 wording.
 
 **Source.** N. G. de Bruijn and P. Erdős, *Sequences of points on a
 circle*, Proc. 52 (1949), 14--17; Section 6 on printed p. 17 and the
@@ -45,9 +45,9 @@ clause on the page images. A conjecture has no proof to check.
 
 As worded, the first two expressions are missing a factor of $r$: the
 average $r$-span is $r/n$, so $\Lambda_r$ and $\lambda_r$ are compared
-with $r$ rather than with $1$. The community database marks the site's
-statement as needing this correction ("ambiguous statement"; a missing
-factor of $r$), and Korsky's 2026 preprint restates the conjecture as
+with $r$ rather than with $1$. The community database marks the
+erdosproblems.com statement as needing this correction ("ambiguous statement"; a
+missing factor of $r$), and Korsky's 2026 preprint restates the conjecture as
 $\bar A_r-r\to\infty$, $r-\underline A_r\to\infty$, $r(\mu_r-1)\to\infty$, a
 corrected paraphrase rather than the note's wording.
 
@@ -58,6 +58,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: this passage is the problem.
-  The site's wording inherits the normalization slip; the problem page shows the
-  mean-normalized form as its modified Statement and records the 2026 preprint
-  that claims all three parts of it.
+  The erdosproblems.com wording inherits the normalization slip; the problem
+  page shows the mean-normalized form as its modified Statement and records the
+  2026 preprint that claims all three parts of it.

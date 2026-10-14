@@ -15,7 +15,7 @@ updated: 2026-10-07T20:23:45Z
 [[arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/_index|Kruer and Kohlmeyer (2026)]].
 The PDF states it as a summary of proved declarations of the accepted Lean
 file and gives no prose proof; none is given here either, and the statement
-rests on the site's kernel acceptance recorded on the card.
+rests on Conjectures.io's kernel acceptance recorded on the card.
 
 **Setting.** For real $y$ let $T(y)$ be the set of totient values in $[1,y]$
 and $V(y)=|T(y)|$. A retained family is a finite set $P_y$ with a map
@@ -48,9 +48,9 @@ and the PDF does not assert it to be a full asymptotic formula for $V(y)$. The
 file contains the supporting prime number theorem, Mertens and sieve
 developments, including attributed ports from PrimeNumberTheoremAnd.
 
-**Standing.** Site-kernel acceptance of the Lean file only; the declarations
-named were located at their lines, and their proofs, the bulk of the
-64,775-line file, were not read here.
+**Standing.** Conjectures.io-kernel acceptance of the Lean file only; the
+declarations named were located at their lines, and their proofs, the bulk of
+the 64,775-line file, were not read here.
 
 **Reconstruction.** None exists in prose:
 [[../wiki/research/erdos_416/kruer_kohlmeyer_theorem_1_1_reconstruction|the Theorem 1.1 reconstruction page]]

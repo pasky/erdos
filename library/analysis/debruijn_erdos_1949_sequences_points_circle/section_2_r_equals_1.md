@@ -72,10 +72,10 @@ Elementary properties of the logarithm; the universal bounds of Sections
 
 ## Bears on
 
-- [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the site's commentary quotes
-  these three values and the witness $a_k=\log_2(2k-1)$; the $r=1$ case of
-  the problem's constants is exactly determined, and the question concerns
-  the growth of the deviations for large $r$.
+- [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the erdosproblems.com
+  commentary quotes these three values and the witness $a_k=\log_2(2k-1)$; the
+  $r=1$ case of the problem's constants is exactly determined, and the question
+  concerns the growth of the deviations for large $r$.
 - [[../wiki/problems/number_theory/E0480/_index|Problem 480]]: background. The
   Chung--Graham chapter behind that problem attributes to this note the
   constant $1/\log4$ for its clustering measure of a sequence in the unit

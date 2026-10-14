@@ -50,10 +50,11 @@ The lower-bound observation below is due to DesmondWeisenberg,
 witnesses for each fixed strict linear lower bound. This is an author-recorded
 reconstruction of that third-party argument, not a new project result. No
 independent review of the reconstruction is recorded. The Status gives the
-site's label; no literature search beyond the site and its thread is recorded.
+erdosproblems.com label; no literature search beyond erdosproblems.com and its
+thread is recorded.
 
-The site's commentary (page last edited 28 January 2026) records the upper
-bounds $f(n)\ll n^{3/2}$ of [CES96] and $f(n)\ll n(\log n)^8$ of [DMMS24],
+The erdosproblems.com commentary (page last edited 28 January 2026) records the
+upper bounds $f(n)\ll n^{3/2}$ of [CES96] and $f(n)\ll n(\log n)^8$ of [DMMS24],
 the latter the best known: by its Theorem 1.1, for large $n$ every
 $n$-vertex graph with at least $n\log^8n$ edges has a cycle with at least as
 many chords as vertices. Three other comments on the thread bear on the

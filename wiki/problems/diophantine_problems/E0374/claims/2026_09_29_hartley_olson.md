@@ -190,12 +190,12 @@ density of $D_5$ and the value $2.70975\ldots$ of $\kappa_3$ are not in the
 formal statements.
 
 Not refereed: the paper is a preprint, first on SSRN and now in the repository.
-The site's proof-claims tab lists the claim as a partial proof claim, matching
-that submission; the revised paper and the claimant's comment of 2026-10-05,
-which calls the repository a full Lean verification of the problem, assert the
-whole determination. The site's label was unchanged and the curator has not
-credited the result. The paper's acknowledgment says it was prepared with AI
-assistance in derivation, internal checking, source verification, exposition and
-formalization, naming ChatGPT Astra, Google's Gemini 3.1 Pro and Gemini 3.8
-Flash, Anthropic's Claude Opus 5.5 and Claude Fable 5.1, and xAI's Grok 4.7, the
-systems the claim's tools field also names.
+The erdosproblems.com proof-claims tab lists the claim as a partial proof claim,
+matching that submission; the revised paper and the claimant's comment of
+2026-10-05, which calls the repository a full Lean verification of the problem,
+assert the whole determination. The erdosproblems.com label was unchanged and
+the curator has not credited the result. The paper's acknowledgment says it was
+prepared with AI assistance in derivation, internal checking, source
+verification, exposition and formalization, naming ChatGPT Astra, Google's
+Gemini 3.1 Pro and Gemini 3.8 Flash, Anthropic's Claude Opus 5.5 and Claude
+Fable 5.1, and xAI's Grok 4.7, the systems the claim's tools field also names.

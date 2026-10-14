@@ -48,6 +48,7 @@ page]].
 
 **Acceptance.** Refereed: P. Erdős and L. M. Kelly, E735, Amer. Math. Monthly 54
 (1947), no. 4, 227–229. It appeared in the journal's problems section, with
-Erdős as proposer and Kelly as solver. The site's remarks say that Erdős could
-prove $f_2(3)=7$. But the site labeled the problem OPEN, so the remark is not
-`reviewed` evidence. The page is dated to the issue, April 1947.
+Erdős as proposer and Kelly as solver. The erdosproblems.com remarks say that
+Erdős could prove $f_2(3)=7$. But Bloom's catalog labeled the problem OPEN, so
+the remark is not `reviewed` evidence. The page is dated to the issue,
+April 1947.

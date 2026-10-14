@@ -92,14 +92,14 @@ where the outer $\inf/\sup$ is over all infinite sequences $a=(a_1,\ldots)$.
 Is it true that $\Lambda_r-r$, $r-\lambda_r$, and $r(\mu_r-1)$ tend to
 infinity as $r\to \infty$?
 
-**Notes.** With the site's definitions, $M_r$ and $m_r$ are the largest and
-smallest sums of $r$ consecutive gaps (the "distance between $r$-consecutive
-points" is the forward arc through the $r-1$ intervening points), whose mean
-is $r/n$, so $nM_r\ge r\ge nm_r$. The site's first two expressions then fail
-as a question. Section 3 of [dBEr49] gives $\Lambda_r\ge1/\log(1+1/r)>r$, so
-$r(\Lambda_r-1)\ge r(r-1)$ and the first tends to infinity trivially. A sum of
-$r$ consecutive gaps is at least $r$ times the smallest gap, so
-$\lambda_r\ge r\lambda_1=r/\log4>1$ for $r\ge2$, and
+**Notes.** With the erdosproblems.com definitions, $M_r$ and $m_r$ are the
+largest and smallest sums of $r$ consecutive gaps (the "distance between
+$r$-consecutive points" is the forward arc through the $r-1$ intervening
+points), whose mean is $r/n$, so $nM_r\ge r\ge nm_r$. erdosproblems.com's first
+two expressions then fail as a question. Section 3 of [dBEr49] gives
+$\Lambda_r\ge1/\log(1+1/r)>r$, so $r(\Lambda_r-1)\ge r(r-1)$ and the first tends
+to infinity trivially. A sum of $r$ consecutive gaps is at least $r$ times the
+smallest gap, so $\lambda_r\ge r\lambda_1=r/\log4>1$ for $r\ge2$, and
 $r(1-\lambda_r)\le r(1-r/\log4)$ is already negative at $r=2$ and tends to
 $-\infty$; read as printed, the question has the answer no. The library's
 [[../library/analysis/debruijn_erdos_1949_sequences_points_circle/conjecture_p17|conjecture page]]
@@ -127,48 +127,50 @@ sequences of distinct points, a restriction the correction does
 not adopt; see Formulation). The form is taken from these two sources, not
 from the results that bear on it. The defect is already in the source: Section
 6 of [dBEr49] prints $r(\Lambda_r-1)$ and $r(1-\lambda_r)$ with the same
-definitions, and the site reproduces it; the site's page shows the community
-database's note that the original source is ambiguous. The failure was reported
-by the GitHub user OutBlade as issue 414 of the community database
+definitions, and erdosproblems.com reproduces it; the erdosproblems.com page
+shows the community database's note that the original source is ambiguous. The
+failure was reported by the GitHub user OutBlade as issue 414 of the community
+database
 ([teorth/erdosproblems#414](https://github.com/teorth/erdosproblems/issues/414),
 11 September 2026), with a note at
 [OutBlade/erdos-notes](https://github.com/OutBlade/erdos-notes/blob/97a4c4bb534c12e971604af2b948251d609ff77e/notes/1221-normalisation.md)
 that proposes the missing factor of $r$; both say the observation was found and
 checked with Claude (Anthropic). The database's pull request 416, merged 18
 September 2026, marks the entry "ambiguous statement". This is the one result
-about the site's wording; it is credited here and counts for nothing. Unread:
-the Brethouwer thesis (TU Delft 2024), which [Ko26b] and [ClSt25] cite for the
-third part.
+about the erdosproblems.com wording; it is credited here and counts for nothing.
+Unread: the Brethouwer thesis (TU Delft 2024), which [Ko26b] and [ClSt25] cite
+for the third part.
 
-**Formulation.** The Statement is the site's wording as accessed 2026-09-27
-(page last edited 7 September 2026; its one revision, of 2026-09-07 07:09:11,
-corrected a typo in the definitions of $M_r$ and $m_r$). It reproduces Section 6
-of [dBEr49] (printed p. 17; the site's "p. 6" is the offprint page), with the
-normalization slip that the Notes record. [dBEr49] gives
+**Formulation.** The Statement is the erdosproblems.com wording as accessed
+2026-09-27 (page last edited 7 September 2026; its one revision, of 2026-09-07
+07:09:11, corrected a typo in the definitions of $M_r$ and $m_r$). It reproduces
+Section 6 of [dBEr49] (printed p. 17; erdosproblems.com's "p. 6" is the offprint
+page), with the normalization slip that the Notes record. [dBEr49] gives
 $\Lambda_r\ge1/\log(1+1/r)>r$ (Section 3) and
 $\lambda_r\le\frac{r}{r+1}/\log(1+1/r)<r$ (4.3); in the corrected form these
 bound $\Lambda_r-r$ and $r-\lambda_r$ below by $\tfrac12+o(1)$, (5.7) bounds
 $r(\mu_r-1)$ below by $1$, and the question is whether each tends to infinity.
 The third expression is the same in both forms. One further scope point: neither
-the site's wording nor Section 1 of [dBEr49] (numbers mod $1$; $n$ intervals of
-total length $1$) excludes coincident points, while the 2026 preprint [Ko26b]
-takes its infimum and supremum over sequences of distinct points; whether the
-constants over the two families agree is not settled in the sources.
+the erdosproblems.com wording nor Section 1 of [dBEr49] (numbers mod $1$; $n$
+intervals of total length $1$) excludes coincident points, while the 2026
+preprint [Ko26b] takes its infimum and supremum over sequences of distinct
+points; whether the constants over the two families agree is not settled in the
+sources.
 
-**Status.** The site's label was OPEN. A preprint [Ko26b] (arXiv:2609.07196v2, 9
-September 2026) claims all three parts of the modified Statement for sequences
-of distinct points. The site registers it as a full proof claim (submitted
-2026-09-08). Here it is recorded as the pending partial claim
-[[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]], since its
-constants run over sequences of distinct points only, and the frontmatter
-standing is `open`. A search found no evidence of acceptance: the preprint is
-unrefereed, the site showed OPEN, the community database keeps open
-(2026-09-18), and no independent review exists.
+**Status.** The erdosproblems.com label was OPEN. A preprint [Ko26b]
+(arXiv:2609.07196v2, 9 September 2026) claims all three parts of the modified
+Statement for sequences of distinct points. erdosproblems.com registers it as a
+full proof claim (submitted 2026-09-08). Here it is recorded as the pending
+partial claim [[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]],
+since its constants run over sequences of distinct points only, and the
+frontmatter standing is `open`. A search found no evidence of acceptance: the
+preprint is unrefereed, erdosproblems.com showed OPEN, the community database
+keeps open (2026-09-18), and no independent review exists.
 
 **Source.** [erdosproblems.com/1221](https://www.erdosproblems.com/1221),
-accessed 2026-09-27: the problem page (OPEN, with the site's note that no
-finite computation can settle it; last edited 7 September 2026; source key
-[dBEr49, p. 6]; no formalized statement; the note that the original source
+accessed 2026-09-27: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; last edited 7 September 2026; source
+key [dBEr49, p. 6]; no formalized statement; the note that the original source
 is ambiguous), its LaTeX source, its empty discussion thread, its
 proof-claims tab (one full proof claim of 2026-09-08 with two comments of
 10 September 2026) and its history (one revision). Cite as: T. F. Bloom,
@@ -192,7 +194,7 @@ Erdős Problem #1221, https://www.erdosproblems.com/1221, accessed
 - [Ko26b] Korsky, S., A resolution of the de Bruijn–Erdős consecutive-gap
   problem. arXiv:2609.07196 (v1 7 September 2026, the ratio part only; v2
   9 September 2026, all three parts; 16 pages; math.CO). Theorem 1.1,
-  p. 2. The site's proof-claim link is the same manuscript (dated
+  p. 2. The erdosproblems.com proof-claim link is the same manuscript (dated
   September 8, 2026) on Google Drive. Unrefereed; the paper's
   acknowledgments (p. 15) state that GPT Astra was used to locate
   Larcher's bound and to complete, audit and review the argument, with the
@@ -222,26 +224,26 @@ Erdős Problem #1221, https://www.erdosproblems.com/1221, accessed
   on two-slice portions, listed by Semantic Scholar as citing [Ko26a] and
   not located on arXiv by title.
 
-**Formalization.** None recorded. The site shows "Formalised statement? No";
-formal-conjectures at main (directory listed 2026-09-27) has no `1221.lean`;
-conjectures.io lists no problem or result for 1221 (results and problems
-pages, read 2026-09-27).
+**Formalization.** None recorded. erdosproblems.com shows "Formalised statement?
+No"; formal-conjectures at main (directory listed 2026-09-27) has no
+`1221.lean`; conjectures.io lists no problem or result for 1221 (results and
+problems pages, read 2026-09-27).
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-27).** The statement above, OPEN,
-last edited 7 September 2026, source key [dBEr49, p. 6], with the site's note
-that the original source is ambiguous. The commentary quotes the $r=1$ values
-$\Lambda_1=1/\log2$, $\lambda_1=1/\log4$, $\mu_1=2$ with the witness
-$a_k=\log_2(2k-1)$, and the three bounds $\Lambda_r\ge1/\log(1+1/r)$,
-$\lambda_r\le\frac r{r+1}/\log(1+1/r)$, $\mu_r\ge1+1/r$. The site's first two
-expressions lack the normalization by $r$, as the Notes record: as printed, the
-first is trivially unbounded and the second tends to $-\infty$. The modified
-Statement asks whether $\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ all tend to
-infinity, the form [Ko26b] restates (as $\bar A_r-r\to\infty$,
-$r-\underline A_r\to\infty$, $r(\mu_r-1)\to\infty$, a corrected paraphrase
-rather than the note's wording) and issue 414 of the community database proposes
-(a missing factor of $r$).
+**The question (erdosproblems.com formulation of 2026-09-27).** The statement
+above, OPEN, last edited 7 September 2026, source key [dBEr49, p. 6], with the
+erdosproblems.com note that the original source is ambiguous. The commentary
+quotes the $r=1$ values $\Lambda_1=1/\log2$, $\lambda_1=1/\log4$, $\mu_1=2$ with
+the witness $a_k=\log_2(2k-1)$, and the three bounds
+$\Lambda_r\ge1/\log(1+1/r)$, $\lambda_r\le\frac r{r+1}/\log(1+1/r)$,
+$\mu_r\ge1+1/r$. erdosproblems.com's first two expressions lack the
+normalization by $r$, as the Notes record: as printed, the first is trivially
+unbounded and the second tends to $-\infty$. The modified Statement asks whether
+$\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ all tend to infinity, the form
+[Ko26b] restates (as $\bar A_r-r\to\infty$, $r-\underline A_r\to\infty$,
+$r(\mu_r-1)\to\infty$, a corrected paraphrase rather than the note's wording)
+and issue 414 of the community database proposes (a missing factor of $r$).
 
 **Supported status and best progress.** For the modified Statement nothing
 refereed goes beyond [dBEr49]: $\Lambda_r-r\ge\tfrac12+o(1)$
@@ -274,18 +276,18 @@ backward cyclic walks; a finite-prefix form of Schmidt's discrepancy theorem
 derived from Larcher's proof for the ratio; Halász's planar $L^1$ discrepancy
 theorem for the two one-sided bounds. Version 1 (7 September 2026) proved the
 ratio part only; version 2 added the two one-sided parts. It is registered on
-the site as a full proof claim (2026-09-08), with the author's note that the
-document was posted in a preliminary form ahead of the preprint; the paper's
-acknowledgments (p. 15) state that GPT Astra was used to complete, audit and
-review the argument and that the author independently checked it, the site's
-proof-claim tab registers the claim as made using GPT Astra, and in the thread
-the author attributes the two one-sided bounds to the system, built on the ratio
-work. The two site comments (10 September 2026) concern the speed of posting and
-the attribution of the AI's role, not the mathematics. Acceptance: none found
-(unrefereed; no journal reference; Crossref finds no published version; site
-OPEN; community database open on 2026-09-18; no independent review; no citing
-evaluation located). The claim's scope is the distinct-point family
-(Formulation). The claim page
+erdosproblems.com as a full proof claim (2026-09-08), with the author's note
+that the document was posted in a preliminary form ahead of the preprint; the
+paper's acknowledgments (p. 15) state that GPT Astra was used to complete, audit
+and review the argument and that the author independently checked it, the
+erdosproblems.com proof-claim tab registers the claim as made using GPT Astra,
+and in the thread the author attributes the two one-sided bounds to the system,
+built on the ratio work. The two erdosproblems.com comments (10 September 2026)
+concern the speed of posting and the attribution of the AI's role, not the
+mathematics. Acceptance: none found (unrefereed; no journal reference; Crossref
+finds no published version; erdosproblems.com OPEN; community database open on
+2026-09-18; no independent review; no citing evaluation located). The claim's
+scope is the distinct-point family (Formulation). The claim page
 [[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]] records it as a
 pending partial claim, which leaves the standing open.
 
@@ -310,12 +312,12 @@ and 2605.29166, none with a journal reference on 2026-09-27); Crossref (no
 published version of the three preprints on that date); Semantic Scholar (the
 record of 2605.30959 with three citing titles; queries for 2609.07196 and
 2511.14637 rate-limited); the TU/e list of de Bruijn's publications (the 1949
-PDF); the DOI resolver for the Brethouwer thesis. The site's Google Drive proof
-document is the same manuscript as arXiv v2 of 2609.07196 (text identical apart
-from the arXiv stamp). Not searched: MathSciNet, zbMATH, Google Scholar, X.
-Outside the search: the full texts of 2607.00775 and 2605.29166 (abstracts
-only), the Brethouwer thesis, van Aardenne-Ehrenfest 1945/46, the author's
-earlier potential-function manuscript on Google Drive.
+PDF); the DOI resolver for the Brethouwer thesis. erdosproblems.com's Google
+Drive proof document is the same manuscript as arXiv v2 of 2609.07196 (text
+identical apart from the arXiv stamp). Not searched: MathSciNet, zbMATH, Google
+Scholar, X. Outside the search: the full texts of 2607.00775 and 2605.29166
+(abstracts only), the Brethouwer thesis, van Aardenne-Ehrenfest 1945/46, the
+author's earlier potential-function manuscript on Google Drive.
 
 **Remaining gaps.** (1) No independent review of [Ko26b]; the ratio part
 (Sections 2--5, the shorter of the two arguments) is the first candidate for
@@ -323,16 +325,16 @@ review. (2) For [Ko26a] and [ClSt25] only the main theorems are checked, as
 statements; [Be26] and the other leads are known from their abstracts. (3) The
 normalization defect is inherited from [dBEr49], as the Notes record. (4) The
 claim page would move to accepted only on refereed publication of [Ko26b] or
-documented independent acceptance (a site status change with review, or a
-reviewed reproof). (5) [Ko26b] proves its bounds for sequences of distinct
-points, and whether the constants over all sequences equal those over distinct
-sequences is not settled in the sources. (6) X was not searched for research
-announcements.
+documented independent acceptance (an erdosproblems.com status change with
+review, or a reviewed reproof). (5) [Ko26b] proves its bounds for sequences of
+distinct points, and whether the constants over all sequences equal those over
+distinct sequences is not settled in the sources. (6) X was not searched for
+research announcements.
 
-**Status check (2026-10-05).** On 2026-10-05 the site showed OPEN (last edited 7
-September 2026) with the one full proof claim of 2026-09-08 and its two comments
-of 10 September 2026; arXiv showed v2 of 9 September 2026 with no journal
-reference, and no citing paper was found; the community database showed
+**Status check (2026-10-05).** On 2026-10-05 erdosproblems.com showed OPEN (last
+edited 7 September 2026) with the one full proof claim of 2026-09-08 and its two
+comments of 10 September 2026; arXiv showed v2 of 9 September 2026 with no
+journal reference, and no citing paper was found; the community database showed
 "ambiguous statement" (pull request 416, merged 2026-09-18); Palomar and
 conjectures.io had no entry; and no acceptance, refereeing or independent human
 review was found. Two items of context, neither a review: an automated, AI-only
@@ -383,7 +385,8 @@ of at most $1.755$ for distinct points, fixed $r$ only, known from its abstract.
   $\limsup_n(r-nm_n^{(r)})\ge c\sqrt{\log r}$ and
   $\limsup_nM_n^{(r)}/m_n^{(r)}\ge1+\log r/(100r)$; a claimed proof of all
   three parts of the modified Statement for distinct points, registered on
-  the site as a full proof claim (2026-09-08), with no acceptance evidence
+  erdosproblems.com as a full proof claim (2026-09-08), with no acceptance
+  evidence
   ([[../library/analysis/korsky_2026_resolution_debruijn_erdos_consecutive_gap_problem/theorem_1_1|result page]];
   [[problems/analysis/E1221/claims/2026_09_08_korsky|claim page]]).
 - [Be26] (abstract only; lead): explicit upper bounds on $\inf_a\mu_r(a)$

@@ -153,9 +153,9 @@ here is independently reviewed.
   floor sum $S$ of (3.5), as the Problem 1213 page records with its
   numbers; the theorem prints the strict inequality while the proof's last
   line concludes $f(a,K)\le L$, and the paper prints no remark on whether
-  the exponential dependence on $K$ is best possible (the site's commentary
-  on Problem 1213 attributes such a belief to the author; it has no printed
-  counterpart here).
+  the exponential dependence on $K$ is best possible (the erdosproblems.com
+  commentary on Problem 1213 attributes such a belief to the author; it has no
+  printed counterpart here).
 - § 4, difference sets with increasing gaps (pp. 198--200, page images;
   proof for structure only). For $A=\{a_1<\cdots<a_n\}$ with
   $D(A)=\{a_i-a_j\mid i>j\}$, $g(n)$ is the minimum of $|D(A)|$ over
@@ -185,15 +185,15 @@ read for structure only. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/number_theory/E0034/_index|#34]]: Theorem 1 (p. 193),
 "$(\frac13+o(1))n\le f(n)\le(\frac23+o(1))n$" for the maximum number of
 integers in $[1,n]$, not required to be increasing, with all $c$-sums
-different, is the "Hegyvári [He86]" construction the site's commentary
-credits with the first counterexample. The paper itself states nothing
-about permutations or about $S(\pi)$: the deduction that the
+different, is the "Hegyvári [He86]" construction the erdosproblems.com
+commentary credits with the first counterexample. The paper itself states
+nothing about permutations or about $S(\pi)$: the deduction that the
 $(\frac13+o(1))n$ distinct terms of the lower-bound sequence extend to a
 permutation of $\{1,\ldots,n\}$ with at least $\binom{k+1}2\ge
 (\frac1{18}+o(1))n^2$ distinct consecutive sums is made by Konieczny
 (Section 1.5 of
 [[integer_sequences/konieczny_2015_consecutive_sums_permutations/_index|konieczny_2015_consecutive_sums_permutations]])
-and by the site, not printed here.
+and by erdosproblems.com, not printed here.
 [[../wiki/problems/integer_sequences/E0357/_index|#357]]: the introduction (p. 193)
 records the question in the form the problem asks, "if $1\le a_1,a_2,\ldots,
 a_k\le n$, can we find $cn$ $a_i$'s so that all $c$-sums are different?
@@ -216,11 +216,11 @@ different.
 as "the largest integer with the following property: There exists an
 increasing sequence $a=a_1<a_2<\ldots<a_s=f(a,K)$ such that
 $a_{i+1}-a_i\le K$, $i=1,2,\ldots,s-1$ and all $c$-sums are different", is
-the theorem the site's commentary cites: the sequence starts exactly at
-$a$, the $c$-sums range over all index pairs $1\le u\le v\le s$ (so two
+the theorem the erdosproblems.com commentary cites: the sequence starts exactly
+at $a$, the $c$-sums range over all index pairs $1\le u\le v\le s$ (so two
 distinct, possibly overlapping intervals of equal sum are what "different"
-excludes), and the bound is the site's $f(a,K)\ll ae^{O(K)}$ with explicit
-constants. The same page prints $f(1,1)=2$, $f(2,1)=4$, $f(1,2)=7$,
+excludes), and the bound is erdosproblems.com's $f(a,K)\ll ae^{O(K)}$ with
+explicit constants. The same page prints $f(1,1)=2$, $f(2,1)=4$, $f(1,2)=7$,
 $f(2,2)=10$ and $a+(1+o(1))2\sqrt a<f(a,1)<a+(1+o(1))5\sqrt a$ for
 $a>a_0$, from Theorem 2.
 

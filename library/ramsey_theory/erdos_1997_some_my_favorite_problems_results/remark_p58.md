@@ -48,7 +48,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/primes/E0005/_index|Problem 5]]: the site's source for the problem;
-  the Erdős--Ricci positive-measure theorem stated without proof, and the
-  expectation "everywhere dense" that the problem asks to prove for every
-  $C\ge0$.
+- [[../wiki/problems/primes/E0005/_index|Problem 5]]: the erdosproblems.com
+  source for the problem; the Erdős--Ricci positive-measure theorem stated
+  without proof, and the expectation "everywhere dense" that the problem asks to
+  prove for every $C\ge0$.

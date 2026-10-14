@@ -112,8 +112,8 @@ convexity of the parabola through the points: a weighted average of points
 of the graph of a strictly convex function with at least two distinct
 abscissas lies strictly above the graph. Neither step is spelled out in
 print. The paper's definition of non-averaging (a mean of two or more
-members never belongs to $S$) coincides with the site's for Problem 186, as
-that page's Formulation paragraph records.
+members never belongs to $S$) coincides with erdosproblems.com's for Problem
+186, as that page's Formulation paragraph records.
 
 ## Compiled scope
 
@@ -126,10 +126,10 @@ reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0186/_index|#186]]: the Theorem
 (printed p. 155, PDF p. 1), "For some $c_6>0$ and all sufficiently large $n$
-we have (1) $f(n)>c_6n^{1/4}$", is the lower bound $F(N)\gg N^{1/4}$ the
-site credits to [Bo89], with $f(n)$ the problem's $F(N)$; the construction
-(3), $n_i=iq^3+i(i+1)/2$ for $i=1,\ldots,q-1$ (pp. 155--156), is the one
-the introductions of Pham and Zakharov and of Conlon, Fox and Pham
+we have (1) $f(n)>c_6n^{1/4}$", is the lower bound $F(N)\gg N^{1/4}$
+erdosproblems.com credits to [Bo89], with $f(n)$ the problem's $F(N)$; the
+construction (3), $n_i=iq^3+i(i+1)/2$ for $i=1,\ldots,q-1$ (pp. 155--156), is
+the one the introductions of Pham and Zakharov and of Conlon, Fox and Pham
 reproduce. With
 [[additive_combinatorics/pham_2024_sharp_bound_erdos_straus_non_averaging/theorem_1|Theorem 1]]
 of Pham and Zakharov, $F(N)\le N^{1/4+o(1)}$, it gives $F(N)=N^{1/4+o(1)}$,

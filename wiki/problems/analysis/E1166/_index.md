@@ -46,8 +46,8 @@ of Paul's favorite problems* (1999), Problem 6.78, printed p. 12, takes the
 walk from the setup on printed p. 11, which says only "a random walk on
 $\mathbb{Z}^2$".
 
-**Status.** PROVED, the site's label. Almost surely the union has size
-$O((\log n)^2)$. The cited estimates give the more precise upper limit
+**Status.** PROVED, the erdosproblems.com label. Almost surely the union has
+size $O((\log n)^2)$. The cited estimates give the more precise upper limit
 
 $$
 \limsup_{n\to\infty}
@@ -58,15 +58,16 @@ $$
 The constant is a consequence of those estimates, not a claim of a sharp
 asymptotic for the union. The derived standing is claimed and proved, not
 solved. The pending claim is
-[[problems/analysis/E1166/claims/2026_01_23_bloom|the site curator's deduction from the favorite-count bound of Hao, Li, Okada and Zheng and the Erdős–Taylor estimate]],
-which combines two refereed theorems. The site's page states that combination
-itself, so the curator who labeled the problem proved is the deduction's
-claimant, and his label is not independent acceptance. The page credits the
-eventual bound, through Problem 1165, to Tóth. That is a misattribution, since
-Hao–Li–Okada–Zheng Theorem 1.1 supplies it. Plasma AI checked the deduction in
-full, and acceptance on that check is pending until the project's reviewer
-signs off, so the claim stays claimed although both of its inputs are refereed.
-An independent Lean proof of the deduction is a second pending claim, on
+[[problems/analysis/E1166/claims/2026_01_23_bloom|the erdosproblems.com curator's deduction from the favorite-count bound of Hao, Li, Okada and Zheng and the Erdős–Taylor estimate]],
+which combines two refereed theorems. The erdosproblems.com page states that
+combination itself, so the curator who labeled the problem proved is the
+deduction's claimant, and his label is not independent acceptance. The page
+credits the eventual bound, through Problem 1165, to Tóth. That is a
+misattribution, since Hao–Li–Okada–Zheng Theorem 1.1 supplies it. Plasma AI
+checked the deduction in full, and acceptance on that check is pending until the
+project's reviewer signs off, so the claim stays claimed although both of its
+inputs are refereed. An independent Lean proof of the deduction is a second
+pending claim, on
 [[problems/analysis/E1166/claims/2026_08_23_alexeev|its own claim page]].
 
 **Source.** [erdosproblems.com/1166](https://www.erdosproblems.com/1166),
@@ -86,8 +87,8 @@ https://www.erdosproblems.com/1166.
   Fields* 195 (2026), 1765–1822.
 
 **Formalization.** No statement file for the problem exists in
-formal-conjectures (none on `main` on 2026-10-07; the site's page lists no
-formalized statement and the community database records the problem
+formal-conjectures (none on `main` on 2026-10-07; the erdosproblems.com page
+lists no formalized statement and the community database records the problem
 unformalized). A
 [Lean proof](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1166.lean)
 of the deduction in Boris Alexeev's lean-proofs repository, which names no
@@ -102,9 +103,9 @@ from Hao–Li–Okada–Zheng with the Erdős–Taylor maximum-local-time upper 
 The corollary and essential Hao chain are written in full. That writing is
 Plasma AI's check of the deduction, on which acceptance is pending until the
 project's reviewer signs off; no independent review has examined the deduction.
-On 2026-09-05 the site's discussion and proof-claims pages carried no comments
-or proof claims. The stronger printed display (4.35) remains uncertified and is
-not assumed by the recorded proof.
+On 2026-09-05 the erdosproblems.com discussion and proof-claims pages carried no
+comments or proof claims. The stronger printed display (4.35) remains
+uncertified and is not assumed by the recorded proof.
 
 ## Progress
 
@@ -113,8 +114,8 @@ The original Erdős–Révész question appears as
 in the July 1999 booklet *Some of Paul's favorite problems* ([Va99]).
 It explicitly asks for a fixed exponent and an almost-sure eventual bound.
 Its union starts at $k=1$; including $F(0)$ changes the count by at most
-one and does not affect the conclusion. The site's page attributes the
-deduction to the eventual favorite-count bound in
+one and does not affect the conclusion. The erdosproblems.com page attributes
+the deduction to the eventual favorite-count bound in
 [[problems/analysis/E1165/_index|Problem 1165]] and the maximum-local-time
 upper bound of Erdős and Taylor.
 

@@ -25,8 +25,8 @@ the floor, as at most $n-\sqrt n/\sqrt{6k^3}$ vertices. Since
 $\sqrt n/\sqrt{6k^3}=\sqrt{n/(6k^3)}$, the theorem's bound is the form
 $n-\lfloor\sqrt{n/6k^3}\rfloor$ in which Theorem 1.2 of Mousset, Noever and
 Škorić quotes it (for $n\ge k+1$; no graph on fewer vertices has the required
-edges), and the site's "$n-c_k\sqrt n$" for Problem 814. The edge count is
-one more than the sharp threshold of
+edges), and erdosproblems.com's "$n-c_k\sqrt n$" for Problem 814. The edge count
+is one more than the sharp threshold of
 [[extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/lemma_3|Lemma 3]]
 (p. 54), so the theorem says that the proper subgraph Lemma 3 provides can be
 taken to miss $\lfloor\sqrt n/\sqrt{6k^3}\rfloor$ vertices. The paper
@@ -73,5 +73,5 @@ $\gamma(A)\le(k-1)|A|+1$ (pp. 56--57). Nothing outside it.
 
 - [[../wiki/problems/extremal_graph_theory/E0814/_index|Problem 814]]: the bound before
   Mousset, Noever and Škorić's $n-n/(4(k+1)^5\log_2n)$ (2017) and
-  Sauermann's proof of the conjecture (2019); the site's "$n-c_k\sqrt n$".
-  It does not give the problem's linear fraction.
+  Sauermann's proof of the conjecture (2019); erdosproblems.com's
+  "$n-c_k\sqrt n$". It does not give the problem's linear fraction.

@@ -84,7 +84,7 @@ extremal number has order $n^{5/3}$; the derivation the paper gives, through
 Proposition 1 and Theorem 2 at $\alpha=1$ (outside Theorem 2's stated range
 $\alpha\in(0,1)$), reaches the graphs $T^*$ built from a tree $T$, as the
 [[extremal_graph_theory/erdos_1984_cube_supersaturated_graphs_related_problems/theorem_4|Theorem 4 page]]
-records. The site cites the paper as a source of the Erdős-Simonovits
+records. erdosproblems.com cites the paper as a source of the Erdős-Simonovits
 conjectures relating $\mathrm{ex}(n,H)$ to the degeneracy of a bipartite $H$
 (its key ErSi84 on Problems 113, 146 and 147), but the paper states no such
 conjecture: its explicit conjectures are the supersaturation Conjectures 1, 2
@@ -103,10 +103,10 @@ and 2* and Proposition 1 (p. 206), the even-cycle displays (5) and (6)
 (p. 206), Definition 1 (p. 207), Theorem B (pp. 207--208), Theorem C (p. 208),
 and Theorems 1--4 with the remark and example after them (pp. 208--209). The
 proofs (pp. 210--217) were read but not checked step by step. Problem 146's
-attribution of its conjecture to this paper is the site's: Alon, Krivelevich and
-Sudakov (2003, p. 484) and Chapter 10 of OpenAI's 2026 report (p. 237) attribute
-it to Erdős's 1967 Rome paper, *Some recent results on extremal problems in
-graph theory*.
+attribution of its conjecture to this paper is erdosproblems.com's: Alon,
+Krivelevich and Sudakov (2003, p. 484) and Chapter 10 of OpenAI's 2026 report
+(p. 237) attribute it to Erdős's 1967 Rome paper, *Some recent results on
+extremal problems in graph theory*.
 
 **Bears on.**
 [[../wiki/problems/extremal_graph_theory/E0113/_index|#113]]: the problem
@@ -115,16 +115,16 @@ it is $2$-degenerate. Theorem 4, through the derivation the paper gives,
 asserts $\mathrm{ex}(n,T^*)=O(n^{3/2})$ for the graphs $T^*$, which are
 $2$-degenerate (an observation of the result page); its printed hypothesis
 also admits $K_{3,3}$, for which the bound fails. The paper states neither
-direction of the equivalence. The site lists the paper among the problem's
-references.
-[[../wiki/problems/extremal_graph_theory/E0146/_index|#146]]: the site gives
-the paper as the source of the conjecture $\mathrm{ex}(n;H)\ll n^{2-1/r}$
+direction of the equivalence. erdosproblems.com lists the paper among the
+problem's references.
+[[../wiki/problems/extremal_graph_theory/E0146/_index|#146]]: erdosproblems.com
+gives the paper as the source of the conjecture $\mathrm{ex}(n;H)\ll n^{2-1/r}$
 for bipartite $r$-degenerate $H$; the paper does not state it (read status
 above). At $r=2$, Theorem 4's assertion for the graphs $T^*$ is the
 conjectured bound for one family of $2$-degenerate graphs, under the caveats
 on the Theorem 4 page.
-[[../wiki/problems/extremal_graph_theory/E0147/_index|#147]]: the site lists
-the paper among the problem's references. At $r=3$ the problem's
+[[../wiki/problems/extremal_graph_theory/E0147/_index|#147]]: erdosproblems.com
+lists the paper among the problem's references. At $r=3$ the problem's
 conjectured lower bound $\mathrm{ex}(n;H)\gg n^{3/2+\epsilon}$ concerns the
 $3$-regular cube; the paper gives only the cited upper bound
 $\mathrm{ex}(n,Q)=O(n^{8/5})$ (Theorem C) and no lower bound, so it neither

@@ -34,10 +34,10 @@ $$
 
 then $(d,d')=1$.
 
-**Status.** DISPROVED (LEAN). This is the site's label (page last edited 28
-December 2025). Adenwalla proved that no such $n$ exists. The paper was refereed
-and published in INTEGERS 26 (2026), #A52. The acceptance evidence and the Lean
-qualification are on
+**Status.** DISPROVED (LEAN). This is the erdosproblems.com label (page last
+edited 28 December 2025). Adenwalla proved that no such $n$ exists. The paper
+was refereed and published in INTEGERS 26 (2026), #A52. The acceptance evidence
+and the Lean qualification are on
 [[problems/covering_systems/E0204/claims/2025_01_25_adenwalla|Adenwalla's claim page]].
 
 **Source.** [erdosproblems.com/204](https://www.erdosproblems.com/204), accessed

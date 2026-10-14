@@ -32,11 +32,11 @@ $$
 as $A\subseteq\mathbb{N}$ ranges over all infinite sets with $\sum_{n\in
 A}\frac{1}{n}<\infty$. Does $X$ contain an open set?
 
-**Status.** Proved. The site showed PROVED (LEAN). The parenthesis is a catalog
-label explained under Formalization. Kovač's Theorem 1 (arXiv:2405.07681, May
-2024; Amer. Math. Monthly 132 (2025), 895--911, refereed) proves that $X$ has
-nonempty interior, which is the question's affirmative answer. It is recorded as
-the accepted claim
+**Status.** Proved. erdosproblems.com showed PROVED (LEAN). The parenthesis is a
+catalog label explained under Formalization. Kovač's Theorem 1
+(arXiv:2405.07681, May 2024; Amer. Math. Monthly 132 (2025), 895--911, refereed)
+proves that $X$ has nonempty interior, which is the question's affirmative
+answer. It is recorded as the accepted claim
 [[problems/number_theory/E0268/claims/2024_05_13_kovac|Kovač 2024]]. Kovač and
 Tao's Corollary 2.10 (arXiv:2406.17593v3, November 2024; Acta Math. Hungar. 175
 (2025), 572--608, refereed) is the same statement in every dimension. It is
@@ -63,7 +63,7 @@ accessed 2026-10-07.
   arXiv:2406.17593v4; *Acta Math. Hungar.* 175 (2025), 572--608,
   DOI 10.1007/s10474-025-01528-0.
 
-**Formalization.** The site's (LEAN) suffix is a catalog label. The
+**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
 [formal-conjectures declaration](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/268.lean)
 `erdos_268` (at the linked commit of 18 September 2026, the last to touch the
 file by 2026-10-07) states the theorem for every dimension
@@ -94,12 +94,12 @@ audited line by line. The claim pages record the two refereed proofs; the
 curator credits Kovač with the solution and cites Kovač and Tao for the
 analogous result in every dimension.
 
-**Search scope.** The site's problem page, discussion thread and proof-claim
-tab; the formal-conjectures declaration at the commit linked under Formalization
-and the two Lean developments at the revisions linked from Kovač's claim page;
-the arXiv records of 2405.07681 and 2406.17593 and the Crossref records of both
-publications. On 2026-10-07 none of them showed a dispute of the theorem. Not
-searched: MathSciNet, zbMATH, Google Scholar, X.
+**Search scope.** The erdosproblems.com problem page, discussion thread and
+proof-claim tab; the formal-conjectures declaration at the commit linked under
+Formalization and the two Lean developments at the revisions linked from Kovač's
+claim page; the arXiv records of 2405.07681 and 2406.17593 and the Crossref
+records of both publications. On 2026-10-07 none of them showed a dispute of the
+theorem. Not searched: MathSciNet, zbMATH, Google Scholar, X.
 
 ## Progress
 

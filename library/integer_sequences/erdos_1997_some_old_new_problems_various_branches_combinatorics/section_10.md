@@ -24,17 +24,17 @@ $f(n)>n^{1/2-\varepsilon}$? Many related questions can be asked."
 
 Observations made here about the printed text. The bound of the sequence
 is $m$ and the function's argument $n$, and the maximum is taken of $h$
-where $k$ was defined; with $m=n$ and $h=k$ the function is the site's
+where $k$ was defined; with $m=n$ and $h=k$ the function is erdosproblems.com's
 $F(N)$, the largest non-dividing subset of $\{1,\ldots,N\}$, and the
-question is the site's displayed $F(N)>N^{1/2-o(1)}$. The condition "no
+question is erdosproblems.com's displayed $F(N)>N^{1/2-o(1)}$. The condition "no
 $a_i$ divides any distinct sum of other $a'_n$" is the sum of any nonempty
 set of other elements, the Property Q of the 1999 paper. Neither bound
 comes with an argument or a reference: the upper bound "is easy", and the
 lower bound is attributed to a student, with no construction printed and
 no paper cited. The name "Sándor Csaba" is in the Hungarian order, family
-name first, so the given name is Csaba and the family name Sándor; the
-site's "Csaba's construction" takes the given name for the surname. That
-the student is the C. Sándor among the authors of the 1999 paper is an
+name first, so the given name is Csaba and the family name Sándor;
+erdosproblems.com's "Csaba's construction" takes the given name for the surname.
+That the student is the C. Sándor among the authors of the 1999 paper is an
 identification made here from the name and the place; neither paper
 states it, and the 1999 paper's own $n^{1/5}$ bound is a deduction from
 Straus and Bosznay, not a construction credited to a coauthor.
@@ -64,8 +64,8 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0131/_index|Problem 131]]: the site's key for
-  the $N^{1/5}$ bound, cited to p. 230 for "Csaba's construction"; the
-  page prints the attribution and the question, not the construction, so
-  the exponent $1/5$ still rests on the two papers the 1999 paper cites
-  for it.
+- [[../wiki/problems/integer_sequences/E0131/_index|Problem 131]]: the
+  erdosproblems.com key for the $N^{1/5}$ bound, cited to p. 230 for "Csaba's
+  construction"; the page prints the attribution and the question, not the
+  construction, so the exponent $1/5$ still rests on the two papers the 1999
+  paper cites for it.

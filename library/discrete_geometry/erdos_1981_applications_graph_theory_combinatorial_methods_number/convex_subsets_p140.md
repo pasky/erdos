@@ -63,8 +63,8 @@ $t=[\sqrt n]$ gives $C>n^{c\log n/2}$.
 
 ## Bears on
 
-- [[../wiki/problems/discrete_geometry/E0838/_index|Problem 838]]: the
-  site's $f(n)$ is the paper's $\min C(x_1,\ldots,x_n)$ under the same
-  hypothesis of no three points on a line. Display (4) bounds it, and the
-  site's question whether $\log f(n)/(\log n)^2$ tends to a constant is
-  Erdős's expectation $\log\min C\sim c\log^2n$.
+- [[../wiki/problems/discrete_geometry/E0838/_index|Problem 838]]:
+  erdosproblems.com's $f(n)$ is the paper's $\min C(x_1,\ldots,x_n)$ under the
+  same hypothesis of no three points on a line. Display (4) bounds it, and the
+  erdosproblems.com question whether $\log f(n)/(\log n)^2$ tends to a constant
+  is Erdős's expectation $\log\min C\sim c\log^2n$.

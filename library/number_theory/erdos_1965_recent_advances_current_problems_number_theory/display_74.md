@@ -34,8 +34,8 @@ $$
 
 is always solvable. Perhaps (74) is solvable for every $c>\sqrt2$" and,
 continuing on p. 231, "if $n>n_0(c)$." The solvability asked for is by a
-nonempty choice of the $\varepsilon_i$, the reading the 1964 paper and the
-site's Problem 540 make explicit.
+nonempty choice of the $\varepsilon_i$, the reading the 1964 paper and
+erdosproblems.com's Problem 540 make explicit.
 
 **Source.** P. Erdős, *Some recent advances and current problems in number
 theory*, Lectures on Modern Mathematics, Vol. III (Wiley, 1965), 196--244;
@@ -50,7 +50,7 @@ were read clause by clause on the page image. No proof is given.
 None here; the conjecture was proved for all finite abelian groups by
 Szemerédi (Acta Arith. 17 (1970), 227--229, filed in this library under
 `szemeredi_1970_conjecture_erdos_heilbronn`) and for primes by Olson
-(1968), as the site's Problem 540 records.
+(1968), as erdosproblems.com's Problem 540 records.
 
 ## Dependencies
 

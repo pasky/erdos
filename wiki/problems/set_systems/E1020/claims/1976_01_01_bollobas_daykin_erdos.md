@@ -50,7 +50,7 @@ independent edges of a hypergraph, Quart. J. Math. Oxford Ser. (2) 27 (1976),
 25–32, carded at
 [[../library/set_systems/bollobas_1976_sets_independent_edges_hypergraph/_index|Sets of independent edges of a hypergraph]].
 
-**Covers.** The range $n>2r^3(k-1)$, which the site records as
+**Covers.** The range $n>2r^3(k-1)$, which erdosproblems.com records as
 $n\ge2kr^3$. The range was widened to order $r^2k$ on
 [[problems/set_systems/E1020/claims/2011_07_27_huang_loh_sudakov|Huang, Loh and Sudakov 2012]]
 and
@@ -62,7 +62,8 @@ and to order $rk$ on
 
 **Acceptance.** Refereed: the paper appeared in the Quarterly Journal of
 Mathematics, Oxford Second Series, in 1976 (volume 27, issue 1). The record
-gives only the year, so the page is dated to its first day. The site's
-commentary credits the range to the paper as [BDE76]. The site labeled the
-problem FALSIFIABLE, an open label, so this commentary is not acceptance and no
-`reviewed` is listed. Nothing here rests on this project's own review.
+gives only the year, so the page is dated to its first day. The
+erdosproblems.com commentary credits the range to the paper as [BDE76]. Bloom's
+catalog labeled the problem FALSIFIABLE, an open label, so this commentary is
+not acceptance and no `reviewed` is listed. Nothing here rests on this project's
+own review.

@@ -24,10 +24,10 @@ always exists an arrangement $a_{i_1},\ldots,a_{i_k}$ of the $a_i$ such that
 all partial sums $\sum_{j=1}^ta_{i_j}$, $1\le t\le k$, are distinct modulo
 $p$."
 
-This is the statement of Problem 475 word for word up to notation: the
-site's $A\subseteq\mathbb F_p\setminus\{0\}$ with $|A|=t$ is the paper's
-$\{a_1,\ldots,a_k\}$, and only the partial sums with at least one term are
-compared. The paper labels the statement a conjecture, offers no argument
+This is the statement of Problem 475 word for word up to notation:
+erdosproblems.com's $A\subseteq\mathbb F_p\setminus\{0\}$ with $|A|=t$ is the
+paper's $\{a_1,\ldots,a_k\}$, and only the partial sums with at least one term
+are compared. The paper labels the statement a conjecture, offers no argument
 for any case and does not mention the case $k=p-1$; the attribution of that
 case to Graham on the problem page comes from Erdős's 1973 chapter, not
 from this paper. Question 11, printed directly below on the same page,
@@ -61,8 +61,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: the problem's
-  origin, in the wording the site's statement follows; the paper cited by
-  Pham and Sauermann for the conjecture ("[7, p. 36]") and the monograph's
-  "[Gr (71)]". Question 11 is the second problem of Graham that the
+  origin, in the wording the erdosproblems.com statement follows; the paper
+  cited by Pham and Sauermann for the conjecture ("[7, p. 36]") and the
+  monograph's "[Gr (71)]". Question 11 is the second problem of Graham that the
   page's origin paragraph, under Current assessment, reports from the
   1973 chapter.

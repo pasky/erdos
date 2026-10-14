@@ -29,8 +29,8 @@ S. A. Burr and P. Erdős, *On the magnitude of generalized Ramsey numbers for
 graphs*, in Infinite and finite sets (Colloq., Keszthely, 1973; dedicated to
 P. Erdős on his 60th birthday), Vol. I, Colloq. Math. Soc. János Bolyai 10,
 North-Holland, Amsterdam, 1975, 215--240 (MR 51 #7918; Zbl 316.05110; the
-Rényi archive's entry 1975-26). The site's key BuEr75 for Problems 163 and
-181 prints no venue ("(1975), 215-240. (MR 371701)").
+Rényi archive's entry 1975-26). The erdosproblems.com key BuEr75 for Problems
+163 and 181 prints no venue ("(1975), 215-240. (MR 371701)").
 
 The copy read for this card is the Rényi archive scan (entry 1975-26): 25
 pages, OmniPage 12 output with
@@ -130,7 +130,7 @@ Source: <https://users.renyi.hu/~p_erdos/1975-26.pdf>.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0163/_index|#163]]: the origin. The
 Conjecture of p. 216 (page image) is the problem's statement in its
 arboricity form, and the paper itself gives the edge-density form as
-equivalent; the site's degeneracy form is the paper's $\sigma(G)$ of
+equivalent; erdosproblems.com's degeneracy form is the paper's $\sigma(G)$ of
 p. 220, bounded by Lemma 3.3 between $\rho(G)$ and $2\rho(G)$, so bounded
 degeneracy, bounded edge density and bounded arboricity define the same
 families of $L$-sets up to the constant. Section 7 (p. 238) records the
@@ -140,16 +140,16 @@ image) poses the cubes $\{Q_i\}$ as "an interesting test case" for the
 question whether bounded chromatic number together with
 $q(G_i)/p(G_i)=O(\log p(G_i))$ suffices for an $L$-set, with a prize offered
 "for deciding whether the set of cubes is an $L$-set", that is, whether
-$r(Q_n)\le c\,2^n$. The paper does not state this as a conjecture; the
-site's "Conjectured by Burr and Erdős" is the site's wording (Erdős's 1981
-survey, printed p. 13, says "Burr and I expected (16) to be true and (16') to be
-false", (16) being the edge-density conjecture and (16') the cube bound).
-[[../wiki/problems/ramsey_theory/E0800/_index|#800]]: the origin. Theorem 6.1 (printed
-p. 234 = PDF p. 20, page image), $r(G)\le18n$ for graphs on $n$ points in
-which any two points of degree $\ge3$ are at distance at least three, and
-the sentence after its proof (printed p. 236 = PDF p. 22, page image): "It
-is probably true that the theorem holds with the property of $G$ weakened
-to that of having no two adjacent points of degree $\ge3$"; the authors
+$r(Q_n)\le c\,2^n$. The paper does not state this as a conjecture;
+erdosproblems.com's "Conjectured by Burr and Erdős" is the erdosproblems.com
+wording (Erdős's 1981 survey, printed p. 13, says "Burr and I expected (16) to
+be true and (16') to be false", (16) being the edge-density conjecture and (16')
+the cube bound). [[../wiki/problems/ramsey_theory/E0800/_index|#800]]: the
+origin. Theorem 6.1 (printed p. 234 = PDF p. 20, page image), $r(G)\le18n$ for
+graphs on $n$ points in which any two points of degree $\ge3$ are at distance at
+least three, and the sentence after its proof (printed p. 236 = PDF p. 22, page
+image): "It is probably true that the theorem holds with the property of $G$
+weakened to that of having no two adjacent points of degree $\ge3$"; the authors
 add that they could not prove this but could handle the case where $G$ is
 the subdivision graph $S(K_n)$ of $K_n$ (Theorem 6.2,
 $r(S(K_n))\le3n^2+3n$); the problem's statement, proved by Alon in 1994.

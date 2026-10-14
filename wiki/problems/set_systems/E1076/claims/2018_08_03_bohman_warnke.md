@@ -5,7 +5,7 @@ desc: |
   For every fixed girth bound $\ell$ there are partial Steiner triple systems on
   $n$ vertices with $(1-n^{-\beta})n^2/6$ triples and no $j$ vertices spanning
   $j-2$ triples for $j\le\ell$. With linearity this settles the modified
-  Statement, and it is refereed and credited by the site's curator.
+  Statement, and it is refereed and credited by the erdosproblems.com curator.
 authors:
 - Tom Bohman
 - Lutz Warnke
@@ -50,8 +50,8 @@ whose page states what the two results cover and do not cover.
 **Covers.** The theorem gives the lower bound $(1/6-o(1))n^2$ for the
 modified Statement's family, and linearity gives the upper bound
 $\binom n2/3$, so the theorem settles the modified Statement for every
-$k\ge5$. For the single family that the site's wording defines, the upper
-bound fails at every $k$ from $5$ to $10$
+$k\ge5$. For the single family that the erdosproblems.com wording defines, the
+upper bound fails at every $k$ from $5$ to $10$
 ([[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]],
 [[problems/set_systems/E1076/claims/2022_09_28_glock_joos_kim_kuhn_lichev_pikhurko|the (6,4) page]],
 [[problems/set_systems/E1076/claims/2024_03_07_glock_kim_lichev_pikhurko_sun|the (7,5), (8,6) and (9,7) page]],
@@ -61,12 +61,12 @@ results that answer only that wording.
 **Acceptance.** Refereed: T. Bohman and L. Warnke, Large girth approximate
 Steiner triple systems, J. Lond. Math. Soc. (2) 100 (2019), no. 3, 895–913. It
 was published online on 10 June 2019, after the arXiv posting of 3 August 2018.
-Reviewed: the site's curator, Thomas Bloom, marked Problem 1076 proved. Bloom
-credits the asymptotic version to this paper [BoWa19] and to Glock, Kühn, Lo and
-Osthus [GKLO20]. Bloom reads the question as the approximate form of
-[[problems/set_systems/E0207/_index|Problem 207]], which is the reading the
-modified Statement adopts (problem page last edited 7 October 2025). The card
-records the theorem from the paper. Its proof is unreviewed.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, marked Problem 1076
+proved. Bloom credits the asymptotic version to this paper [BoWa19] and to
+Glock, Kühn, Lo and Osthus [GKLO20]. Bloom reads the question as the approximate
+form of [[problems/set_systems/E0207/_index|Problem 207]], which is the reading
+the modified Statement adopts (problem page last edited 7 October 2025). The
+card records the theorem from the paper. Its proof is unreviewed.
 
 **Formalizations.** Collin Yuanjie Ren's Lean 4 submission, linked above,
 states and assembles the modified Statement, deriving its lower bound from

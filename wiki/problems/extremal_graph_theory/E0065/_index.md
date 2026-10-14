@@ -34,22 +34,22 @@ $$
 
 Is the sum $\sum\frac{1}{a_i}$ minimised when $G$ is a complete bipartite graph?
 
-**Formulation.** The second question, read as the site words it, compares a
-graph with $n$ vertices and $kn$ edges with a complete bipartite graph on the
+**Formulation.** The second question, read as Bloom's catalog words it, compares
+a graph with $n$ vertices and $kn$ edges with a complete bipartite graph on the
 same numbers of vertices and edges, which exists only when $kn=a(n-a)$ for some
 integer $a$. Erdős's 1981 formulation, as Milojević, Montgomery, Pokrovskiy and
 Sudakov state it (their Conjecture 1.1, citing Erdős's paper in
 Combinatorica **1** (1981), 25--42), asks instead whether $K_{a,n-a}$ minimizes
 the sum over all $n$-vertex graphs with at least $a(n-a)$ edges, for
 $1\le a\le n/2$. The formal-conjectures statement `erdos_65.parts.ii` keeps the
-site's wording, and the standing answers it; the claim page for the 2026
-preprint says how its edge-threshold theorem covers it.
+erdosproblems.com wording, and the standing answers it; the claim page for the
+2026 preprint says how its edge-threshold theorem covers it.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 8 February
-2026). The frontmatter standing is derived from the three claim pages under
-`claims/`, all partial, and the problem's two questions are its parts. The first
-question is settled. Gyárfás, Komlós and Szemerédi's refereed theorem gives
-$\sum1/a_i\gg\log k$
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 8
+February 2026). The frontmatter standing is derived from the three claim pages
+under `claims/`, all partial, and the problem's two questions are its parts. The
+first question is settled. Gyárfás, Komlós and Szemerédi's refereed theorem
+gives $\sum1/a_i\gg\log k$
 ([[problems/extremal_graph_theory/E0065/claims/1984_12_01_gyarfas_komlos_szemeredi|claim page]],
 accepted, settling the part `harmonic_bound`). Liu and Montgomery's refereed
 Corollary 1.2 gives the asymptotically sharp constant $1/2$ for large $k$
@@ -58,9 +58,10 @@ accepted). The second question is open. Milojević, Montgomery, Pokrovskiy and
 Sudakov's arXiv preprint of 22 September 2026 claims the complete bipartite
 minimizer for every sufficiently large $k$
 ([[problems/extremal_graph_theory/E0065/claims/2026_09_22_milojevic_montgomery_pokrovskiy_sudakov|claim page]],
-claimed). Nothing covers small $k$, so the standing is open. The site's
-commentary credits the first question to [GKS84] and the sharp constant to
-[LiMo20]. It mentions the forthcoming work through Montgomery's survey.
+claimed). Nothing covers small $k$, so the standing is open. The
+erdosproblems.com commentary credits the first question to [GKS84] and the sharp
+constant to [LiMo20]. It mentions the forthcoming work through Montgomery's
+survey.
 
 **Source.** [erdosproblems.com/65](https://www.erdosproblems.com/65), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #65,

@@ -35,8 +35,8 @@ us to count squarefrees*, Internat. Math. Res. Notices 1998, no. 19,
 991--1009, whose abstract states that the paper deduces from abc that every
 interval of length $O(x^\varepsilon)$ around $x$ contains a squarefree number
 and gives the asymptotic formula, predicted by Erdős, for the average moments
-of the gaps between squarefree numbers; the site's commentary records the
-range as all $\alpha\ge0$. The claim is conditional: the abc conjecture
+of the gaps between squarefree numbers; the erdosproblems.com commentary records
+the range as all $\alpha\ge0$. The claim is conditional: the abc conjecture
 asserts that for every $\varepsilon>0$ there are only finitely many coprime
 triples of positive integers $a+b=c$ with $c$ larger than the
 $(1+\varepsilon)$-th power of the product of the distinct primes dividing
@@ -47,12 +47,12 @@ unconditional range stops at
 [[problems/integer_sequences/E0145/claims/2023_10_12_chan|Chan's $\alpha<3.75$]].
 
 **Acceptance.** Refereed: International Mathematics Research Notices, volume
-1998, issue 19, pp. 991--1009, as given by the Crossref record of the DOI. The
-site labeled the problem OPEN (page last edited 19 October 2025). Its curator's
-remark that the statement follows from abc by this paper is therefore commentary
-on an open problem, not acceptance, and no `reviewed` evidence is listed. The
-corpus holds no card for the paper, has not checked the proof and awards no tier
-of its own.
+1998, issue 19, pp. 991--1009, as given by the Crossref record of the DOI.
+Bloom's catalog labeled the problem OPEN (page last edited 19 October 2025). Its
+curator's remark that the statement follows from abc by this paper is therefore
+commentary on an open problem, not acceptance, and no `reviewed` evidence is
+listed. The corpus holds no card for the paper, has not checked the proof and
+awards no tier of its own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper
 and on the abc conjecture.

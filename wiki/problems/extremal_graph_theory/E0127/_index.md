@@ -30,24 +30,24 @@ $$
 
 edges. Is there an infinite sequence of $m_i$ such that $f(m_i)\to \infty$?
 
-**Formulation.** The site does not specify the codomain of $f$. This
+**Formulation.** erdosproblems.com does not specify the codomain of $f$. This
 compilation and the linked Lean source use the maximal **integral**
-correction, the convention in which the site's remark $f(\binom n2)=0$ holds
-for every $n$. The maximal real correction above the displayed unrounded
-baseline is $1/4$ at $m=\binom N2$ for even $N$ and $0$ for odd $N$ (and $0$
-at $N=0$). [Er97b] (item 6) asks instead whether the real excess of the
-largest bipartite subgraph over $e/2+(8e)^{1/2}/8$, a baseline without the
-$-1$ terms, tends to infinity along some sequence. These readings differ by
-bounded amounts, so the unboundedness question, and its answer yes, is the
-same under each.
+correction, the convention in which the erdosproblems.com remark
+$f(\binom n2)=0$ holds for every $n$. The maximal real correction above the
+displayed unrounded baseline is $1/4$ at $m=\binom N2$ for even $N$ and $0$ for
+odd $N$ (and $0$ at $N=0$). [Er97b] (item 6) asks instead whether the real
+excess of the largest bipartite subgraph over $e/2+(8e)^{1/2}/8$, a baseline
+without the $-1$ terms, tends to infinity along some sequence. These readings
+differ by bounded amounts, so the unboundedness question, and its answer yes, is
+the same under each.
 
 **Status.** PROVED (LEAN). The frontmatter standing is derived from the claim
 pages under `claims/`. Alon's refereed theorem is accepted on its publication
-and the site's acceptance
+and erdosproblems.com's acceptance
 ([[problems/extremal_graph_theory/E0127/claims/1996_09_01_alon|claim page]]).
-The label's Lean suffix is the site's formal status. It reflects the outside
-Lean formalization of Alon's theorem, which is linked on Alon's claim page and
-which this corpus has not built.
+The label's Lean suffix is erdosproblems.com's formal status. It reflects the
+outside Lean formalization of Alon's theorem, which is linked on Alon's claim
+page and which this corpus has not built.
 
 **Source.** [erdosproblems.com/127](https://www.erdosproblems.com/127), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #127,
@@ -65,8 +65,8 @@ https://www.erdosproblems.com/127, accessed 2026-09-05.
 - [Er97b] P. Erdős,
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|Some
   old and new problems in various branches of combinatorics]], *Discrete Math.*
-  **165/166** (1997), 227-231; item 6 poses the question, and the site cites the
-  paper under this key.
+  **165/166** (1997), 227-231; item 6 poses the question, and erdosproblems.com
+  cites the paper under this key.
 - [EGK97] P. Erdős, A. Gyárfás, and Y. Kohayakawa,
   [[../library/extremal_graph_theory/erdos_1997_size_largest_bipartite_subgraphs/_index|The
   size of the largest bipartite subgraphs]], *Discrete Math.* **177** (1997),
@@ -99,11 +99,11 @@ The community database (accessed 2026-10-07) labels the result `Lean` and
 records the statement as formalized since 19 September 2026, the day the
 formal-conjectures statement file
 [127.lean](https://github.com/google-deepmind/formal-conjectures/blob/57050d44fca6f0a46541a92fff2ff7c182d04f99/FormalConjectures/ErdosProblems/127.lean)
-was added; the site's page (accessed 2026-10-07) links that file. The file
-defines $f(m)$ as the largest integer correction, the convention above, states
-the question as `erdos_127` with the answer true, and registers as its formal
-proof the theorem `erdos_127` of Alexeev's development; its variant `edwards`,
-the Edwards bound, registers that development's
+was added; the erdosproblems.com page (accessed 2026-10-07) links that file. The
+file defines $f(m)$ as the largest integer correction, the convention above,
+states the question as `erdos_127` with the answer true, and registers as its
+formal proof the theorem `erdos_127` of Alexeev's development; its variant
+`edwards`, the Edwards bound, registers that development's
 `exists_edwards_bipartite_subgraph`, and its variant `alon_upper`, Alon's
 $f(m)\ll m^{1/4}$, registers no formal proof.
 
@@ -111,11 +111,10 @@ $f(m)\ll m^{1/4}$, registers no formal proof.
 
 Alon's Theorem 1.1 supplies the published resolution of the unboundedness
 question, with the full lower-bound proof linked below. The record covers the
-site's pages and the pinned Lean files, which this corpus has not built; it
-does not give a broader status search or an independent review account for
-the compiled proofs. The claim
-pages record Alon's theorem as accepted on its refereed publication and the
-site's acceptance
+erdosproblems.com pages and the pinned Lean files, which this corpus has not
+built; it does not give a broader status search or an independent review account
+for the compiled proofs. The claim pages record Alon's theorem as accepted on
+its refereed publication and erdosproblems.com's acceptance
 ([[problems/extremal_graph_theory/E0127/claims/1996_09_01_alon|claim page]]),
 with the outside Lean development as an unbuilt, unaudited link on that page.
 
@@ -179,9 +178,9 @@ $$
 
 It is a disjoint union of complete graphs; see the full
 [[../library/extremal_graph_theory/alon_1996_bipartite_subgraphs/inequality_2|construction for
-inequality (2)]]. Thus the exponent $1/4$ is best possible. The site's
-commentary (accessed 2026-09-05) says that the best constant in the global
-upper bound remains unknown.
+inequality (2)]]. Thus the exponent $1/4$ is best possible. The
+erdosproblems.com commentary (accessed 2026-09-05) says that the best constant
+in the global upper bound remains unknown.
 
 Alon and Halperin's
 [[../library/extremal_graph_theory/alon_1998_bipartite_subgraphs_integer_weighted_graphs/theorem_1_3|Theorem

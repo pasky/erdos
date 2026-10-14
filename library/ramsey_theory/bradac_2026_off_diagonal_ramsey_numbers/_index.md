@@ -22,8 +22,8 @@ Domagoj Bradač, Off-diagonal Ramsey numbers. arXiv:2605.28793 (2026).
 The copy read for this card is arXiv:2605.28793v3 (16 June 2026), 19 pages
 with a text layer, titled "Off-diagonal Ramsey numbers". The first version
 (27 May 2026) was titled "Nearly tight exponents for off-diagonal Ramsey
-numbers", the title the site's reference for problem 986 carries, and proved
-the weaker exponent s-2; the second version is of 11 June 2026; the arXiv
+numbers", the title the erdosproblems.com reference for problem 986 carries, and
+proved the weaker exponent s-2; the second version is of 11 June 2026; the arXiv
 comment on the third reads "The new version achieves the tight exponent
 r(s,k) >= k^{s-1+o(1)} compared to the previous r(s,k) >= k^{s-2+o(1)}". A
 preprint: no journal record was found on 2026-09-17 (publisher-record

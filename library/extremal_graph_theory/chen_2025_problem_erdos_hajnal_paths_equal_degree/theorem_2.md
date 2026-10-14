@@ -77,4 +77,4 @@ Mantel's theorem (reference [5]); otherwise self-contained counting.
   form for graphs with at least $n^2+n+1$ edges and with $K_{n,n+1}$ the only
   graph with $2n+1$ vertices and at least $n^2+n$ edges lacking such a pair.
   It says nothing for $n\le599$; the problem page records the failure of the
-  site's wording at $n=1$ and the other sources for the smaller $n$.
+  erdosproblems.com wording at $n=1$ and the other sources for the smaller $n$.

@@ -92,7 +92,7 @@ the American Mathematical Society. Its Crossref record (read 2026-09-18) gives
 volume 143, issue 11, published online 2 April 2015. The text cited is
 arXiv:1409.5661v1 of 19 September 2014, the posting that names this page. Its
 comment says the paper is to appear in that journal. The journal text was not
-compared. Reviewed: the site's curator, Thomas Bloom, marked the problem proved
-on erdosproblems.com and credits the four authors with this asymptotic. Read
-status: the statement was checked and the proof is unread. No further evidence
-is listed.
+compared. Reviewed: the erdosproblems.com curator, Thomas Bloom, marked the
+problem proved on erdosproblems.com and credits the four authors with this
+asymptotic. Read status: the statement was checked and the proof is unread. No
+further evidence is listed.

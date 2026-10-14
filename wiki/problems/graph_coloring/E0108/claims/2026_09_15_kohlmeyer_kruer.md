@@ -122,31 +122,32 @@ graph".
 **Acceptance.** Formalized. This corpus's verification rebuilt the record's
 solution file on the repository's pinned toolchain, `leanprover/lean4:v4.34.1`
 with Mathlib at the revision `lean/lake-manifest.json` pins, after two lemma
-renames that Mathlib made since the site's toolchain; the target's statement is
-unchanged. The kernel replayed, from an empty environment, every declaration the
-target `Bounty.target` depends on, Lean core, Mathlib and formal-conjectures
-included, and accepted them all. The target's axioms are exactly `propext`,
-`Classical.choice` and `Quot.sound`, and its type, and every definition its
-statement reaches, are identical to the formal-conjectures statement of the
-site's task. That target alone is trivial. The refutation is the lemma
-`Bounty.counterexample_family`, from which the file derives the target and which
-the kernel replayed with it: for every $M$ it gives a graph of chromatic number
-at least $M$ all of whose subgraphs of girth at least $5$ are $6$-colorable. A
-separate instance check confirmed that its witness graphs are finite, so the
-lemma refutes the Statement at $r=5$ and $k=7$. Acceptance rests on the replay
-of that lemma and this check.
+renames that Mathlib made since Conjectures.io's toolchain; the target's
+statement is unchanged. The kernel replayed, from an empty environment, every
+declaration the target `Bounty.target` depends on, Lean core, Mathlib and
+formal-conjectures included, and accepted them all. The target's axioms are
+exactly `propext`, `Classical.choice` and `Quot.sound`, and its type, and every
+definition its statement reaches, are identical to the formal-conjectures
+statement of Conjectures.io's task. That target alone is trivial. The refutation
+is the lemma `Bounty.counterexample_family`, from which the file derives the
+target and which the kernel replayed with it: for every $M$ it gives a graph of
+chromatic number at least $M$ all of whose subgraphs of girth at least $5$ are
+$6$-colorable. A separate instance check confirmed that its witness graphs are
+finite, so the lemma refutes the Statement at $r=5$ and $k=7$. Acceptance rests
+on the replay of that lemma and this check.
 
 Conjectures.io's certification is reported, not counted. Conjectures.io records
 the proof as verified on 15 September 2026. Its Lean kernel accepted the file
 with `propext`, `Quot.sound` and `Classical.choice` as the only axioms, after a
 static scan found no imports, axiom declarations, `sorry`, `native_decide` or
-unsafe options. The site's second kernel was not run, so the verdict rests on
-one kernel implementation. Conjectures.io records its review as approved on 16
-September 2026, on two independent agent assessments covering formal semantics
-and prior-source eligibility. It marks the record as certified on 17 September
-2026, with the bounty paid. The result is not refereed.
+unsafe options. Conjectures.io's second kernel was not run, so the verdict rests
+on one kernel implementation. Conjectures.io records its review as approved on
+16 September 2026, on two independent agent assessments covering formal
+semantics and prior-source eligibility. It marks the record as certified on 17
+September 2026, with the bounty paid. The result is not refereed.
 
-On 27 September 2026 the site's curator, Thomas Bloom, posted the claim on the
-erdosproblems.com proof-claims forum so that it could be discussed. The curator
-stated that they had not verified the proof, did not claim the formalization
-correct and did not endorse the platform. The site labeled the problem OPEN.
+On 27 September 2026 the erdosproblems.com curator, Thomas Bloom, posted the
+claim on the erdosproblems.com proof-claims forum so that it could be discussed.
+The curator stated that they had not verified the proof, did not claim the
+formalization correct and did not endorse the platform. Bloom's catalog labeled
+the problem OPEN.

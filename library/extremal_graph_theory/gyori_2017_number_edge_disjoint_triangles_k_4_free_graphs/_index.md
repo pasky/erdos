@@ -65,10 +65,10 @@ problem 1009. Theorem 1 is paged at
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1506.03306), every other right reserved.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1017/_index|#1017]]: the site's
-key GyKe17; Theorem 1 (p. 2) gives at least $\lceil k\rceil$ edge-disjoint
-triangles in every $K_4$-free graph with $n^2/4+k$ edges, sharp for a
-complete bipartite Turán graph with a triangle-free graph inside one side,
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1017/_index|#1017]]: the
+erdosproblems.com key GyKe17; Theorem 1 (p. 2) gives at least $\lceil k\rceil$
+edge-disjoint triangles in every $K_4$-free graph with $n^2/4+k$ edges, sharp
+for a complete bipartite Turán graph with a triangle-free graph inside one side,
 which settles the $K_4$-free case of the clique partition question for $k$
 up to about $n^2/16$ and bounds it above from there to $n^2/12$; paged at
 [[extremal_graph_theory/gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs/theorem_1|theorem_1]].

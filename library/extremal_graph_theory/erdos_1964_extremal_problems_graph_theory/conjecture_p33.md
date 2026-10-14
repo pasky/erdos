@@ -54,9 +54,9 @@ is a strictly monotone function of $l$." Reference [9] (p. 36) is Kővári,
 V. T. Sós and Turán, Coll. Math. 3 (1954) 50--57. The conjecture's constant is
 printed as $\alpha_k$.
 
-Observations made here: the last paragraph is the site's Problem 766 in
+Observations made here: the last paragraph is erdosproblems.com's Problem 766 in
 Erdős's words, and its $f(n;k,l)$ is $f_1$ by the p. 30 convention, the
-least number of edges forcing some $k$-vertex $l$-edge graph; the site
+least number of edges forcing some $k$-vertex $l$-edge graph; erdosproblems.com
 defines $f(n;k,l)$ as $\min\mathrm{ex}(n;G)$ over fixed $G$, which is
 $f_2(n;k,l)-1$ in the paper's normalization, a different function in
 general. Both functions are nondecreasing in $l$, since a graph with $k$
@@ -88,7 +88,7 @@ None stated.
 - [[../wiki/problems/extremal_graph_theory/E0766/_index|Problem 766]]: the origin of both
   parts of the statement (estimates in the range $k<l\le k^2/4$ and strict
   monotonicity in $l$), with the difference between the paper's $f_1$ and
-  the site's minimum of Turán numbers recorded.
+  erdosproblems.com's minimum of Turán numbers recorded.
 - [[../wiki/problems/extremal_graph_theory/E0714/_index|Problem 714]]: the
   conjecture $f_1(n;2k,k^2)>\alpha_kn^{2-1/k}$; since $K(k,k)$ has $2k$
   vertices and $k^2$ edges, $f_1(n;2k,k^2)\le\mathrm{ex}(n;K(k,k))+1$, so the

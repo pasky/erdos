@@ -47,7 +47,7 @@ of the sets in Theorem 2 is necessary.
 
 Schmidt, W. M., Disproof of some conjectures on Diophantine approximations.
 Studia Sci. Math. Hungar. 4 (1969), 137-144 (received April 2, 1968). The
-site's key Sc69 for Problems 492 and 1195.
+erdosproblems.com key Sc69 for Problems 492 and 1195.
 
 The copy read for this card is the REAL-J repository's scan of the whole volume,
 *Studia Scientiarum Mathematicarum Hungarica*, Tomus IV, Fasc. 1--4 (1969), 488
@@ -56,14 +56,15 @@ printed pp. 137--144, which are physical pp. 139--146 (printed p. $n$ is
 physical p. $n+2$ for this paper; the mapping was confirmed on the page images).
 The paper's own running header on its first page reads "Studia Scientiarum
 Mathematicarum Hungarica 3 (1968) 137--144", a misprint: the volume's cover and
-title page and the page footers give Tomus IV (1969), the citation the site
-uses. No other page of the volume is cited here. Every statement below was read
-on rendered page images. No notice is printed in the volume scan (the cover, PDF
-p. 1, the imprint page, PDF p. 2, which names Akadémiai Kiadó as publisher, and
-the last page, PDF p. 488, carry no copyright line); the repository's record for
-the sibling volume of the same journal (https://real-j.mtak.hu/5461/, read
-2026-10-02) states no copyright, license or terms, and this volume's own record
-(https://real-j.mtak.hu/5455/) was not read for terms; the term is unstated.
+title page and the page footers give Tomus IV (1969), the citation
+erdosproblems.com uses. No other page of the volume is cited here. Every
+statement below was read on rendered page images. No notice is printed in the
+volume scan (the cover, PDF p. 1, the imprint page, PDF p. 2, which names
+Akadémiai Kiadó as publisher, and the last page, PDF p. 488, carry no copyright
+line); the repository's record for the sibling volume of the same journal
+(https://real-j.mtak.hu/5461/, read 2026-10-02) states no copyright, license or
+terms, and this volume's own record (https://real-j.mtak.hu/5455/) was not read
+for terms; the term is unstated.
 
 Read status: claims checked for the definitions (1)--(5), the account of
 the earlier positive results and Theorem 1 (printed p. 137, physical
@@ -104,11 +105,11 @@ Erdos informed the author Szemeredi can show mu(S) need not be finite.
 Source: <https://real-j.mtak.hu/5455/>.
 
 **Bears on.** [[../wiki/problems/number_theory/E0492/_index|#492]]: Theorem 1 (printed
-p. 137, physical p. 139, page image) is the site's "The general conjecture
-is false, as shown by Schmidt [Sc69]": a real sequence $x_0=0<x_1<\cdots$
-with $x_{n+1}/x_n\to1$ relative to which the multiples of almost every
-$\alpha>0$ are not uniformly distributed, the half-interval test function
-(5) having $\limsup|N^{-1}\sum_{n\le N}f(\alpha n)|=1$; p. 137 also
+p. 137, physical p. 139, page image) is erdosproblems.com's "The general
+conjecture is false, as shown by Schmidt [Sc69]": a real sequence
+$x_0=0<x_1<\cdots$ with $x_{n+1}/x_n\to1$ relative to which the multiples of
+almost every $\alpha>0$ are not uniformly distributed, the half-interval test
+function (5) having $\limsup|N^{-1}\sum_{n\le N}f(\alpha n)|=1$; p. 137 also
 attests the positive cases (LeVeque and Davenport--LeVeque for monotonic
 $x_{n+1}-x_n$; Davenport--Erdős for $x_n\gg n^{1/2+\delta}$) and names
 Davenport and Erdős as the conjecture's authors; the constructed sequence

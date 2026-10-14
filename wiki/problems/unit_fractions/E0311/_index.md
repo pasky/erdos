@@ -30,7 +30,7 @@ $$
 
 for some constant $c\in (0,1)$?
 
-**Formulation.** The site's wording, accessed 2026-09-18
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18
 (page last edited 16 January 2026). $\delta(N)$ is the least nonzero
 distance from $1$ to a reciprocal subset sum of $\{1,\ldots,N\}$. The 1980
 monograph minimizes only over sets $A$ containing no $S$ with
@@ -39,24 +39,24 @@ minima equal: a set containing such an $S$ has reciprocal sum at least
 $1+1/N$, so it never attains a distance below $1/N$, and a direct check
 covers the small $N$. Since $\delta(N)\ge1/\mathrm{lcm}(1,\ldots,N)=e^{-(1+o(1))N}$,
 the question is whether $\delta(N)$ is exponentially small with a rate
-strictly between the trivial rate $1$ and $0$; the site writes the
+strictly between the trivial rate $1$ and $0$; erdosproblems.com writes the
 conjectured constant as $c\in(0,1)$.
 
 **Status.** Open. The known bounds are the trivial $\delta(N)\ge e^{-(1+o(1))N}$
 and Tang's $\delta(N)\le\exp(-c_0N/((\log N)^3(\log\log N)^3))$ for large $N$.
 Tang's bound comes from an unrefereed author note of January 2026, which the
-site's commentary adopts. These bounds leave the conjectured exponential rate
-open in both directions. Tang's bound settles no instance of the question, so it
-has no claim page. No refereed source proves any nontrivial bound. The
-discussion thread carries heuristics for the value of $c$ and a heuristic guess
-that the answer is no. It also carries unverified arguments that
+erdosproblems.com commentary adopts. These bounds leave the conjectured
+exponential rate open in both directions. Tang's bound settles no instance of
+the question, so it has no claim page. No refereed source proves any nontrivial
+bound. The discussion thread carries heuristics for the value of $c$ and a
+heuristic guess that the answer is no. It also carries unverified arguments that
 $\delta(N)>e^{-cN}$ infinitely often for every $c>5/6$, and that $c\le0.69$ if
 the asymptotic holds. No proof, disproof or proof claim for the exact statement
 was found in the search dated 2026-09-18 UTC whose scope the Current assessment
 records. This is a bounded negative finding.
 
 **Source.** [erdosproblems.com/311](https://www.erdosproblems.com/311),
-accessed 2026-09-18: the problem page (labeled OPEN, with the site's
+accessed 2026-09-18: the problem page (labeled OPEN, with erdosproblems.com's
 standard note that no finite computation can settle it; source key [ErGr80,
 p. 40]; last edited 16 January 2026; "Formalised statement? No (create
 one)"), its eight-comment discussion thread and its empty proof-claim tab.
@@ -97,7 +97,7 @@ artifact.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN, last edited 16 January 2026; source [ErGr80, p. 40]. The
 commentary makes three points: the lower bound
 $\delta(N)\ge1/[1,\ldots,N]=e^{-(1+o(1))N}$ is trivial; the monograph's
@@ -106,12 +106,12 @@ $\sum_{n\in S}1/n=1$, and a comment of Kovač shows the unconditioned
 formulation equivalent to it; and Tang proved
 $\delta(N)\le\exp(-c\,N/(\log N\log\log N)^3)$ for some constant $c>0$,
 the sentence that links the version-2 note. The thread (eight comments, all
-unverified by the site): 17 August 2025, the equivalence argument, a table
-of $\delta(N)$ for $N\le25$ and the observation $e^{-0.71N}\le\delta(N)\le
-e^{-0.52N}$ for $3\le N\le25$; 12 and 14 January 2026, the author of the
-note announcing first the bound with $(\log\log N)^4$ and then the
-strengthened one with $(\log\log N)^3$, each comment linking the GitHub
-note (the second its version 2); 13 January 2026, a comparison with the
+unverified by erdosproblems.com): 17 August 2025, the equivalence argument, a
+table of $\delta(N)$ for $N\le25$ and the observation
+$e^{-0.71N}\le\delta(N)\le e^{-0.52N}$ for $3\le N\le25$; 12 and 14 January
+2026, the author of the note announcing first the bound with $(\log\log N)^4$
+and then the strengthened one with $(\log\log N)^3$, each comment linking the
+GitHub note (the second its version 2); 13 January 2026, a comparison with the
 bounds of Problem 317; 1 July 2026, two observations by Sawin: proving
 even $\delta(N)>1/[1,\ldots,N]$ is in their view already nontrivial, since
 equality forces $[1,\ldots,N]/p\equiv\pm1\pmod p$ with one sign for all
@@ -131,7 +131,7 @@ $S_n\subseteq\{1,2,\ldots,n\}$ ranges over all sets containing no set of
 $\mathscr X$, i.e., $1\ne\sum_{s\in S_n}\varepsilon_s/s$, $\varepsilon_s=0$
 or $1$. It should be $e^{-(c+o(1))n}$ for some $c$, $0<c<1$. It is
 trivially at least $\mathrm{lcm}(1,2,\ldots,n)^{-1}$ and it is probably much
-larger." The site's question is this one without the admissibility
+larger." The erdosproblems.com question is this one without the admissibility
 condition, which changes nothing by the argument above.
 
 **Status support.** Nothing is proved beyond two bounds. The lower bound
@@ -143,15 +143,15 @@ theorem. The upper bound is Tang's
 (note v2, p. 6; its one-page deduction from the note's Lemma 3.3 checked
 in full): there are absolute constants $c_0>0$ and
 $N_0$ with $\delta(N)\le\exp(-c_0N/((\log N)^3(\log\log N)^3))$ for
-$N\ge N_0$, the bound the site's commentary displays. The construction
-takes $t=\mathrm{lcm}(1,\ldots,\lfloor S\rfloor)$ with
+$N\ge N_0$, the bound the erdosproblems.com commentary displays. The
+construction takes $t=\mathrm{lcm}(1,\ldots,\lfloor S\rfloor)$ with
 $S=c_1N/((\log N)^3(\log\log N)^3)$ and represents $1-1/t$ as a reciprocal
 sum over a subset of $[N/16,N]$ by Lemma 3.3, a strengthening of Liu and
 Sawhney's Lemma 4.1 obtained from a refinement of a special case of their
 Proposition 3.2 (four changes, listed in the note's Remark 3.2); that part
 is recorded in outline only. The note is an author's manuscript,
 distributed through GitHub, with no refereeing or independent review
-found; the site adopted the bound in its commentary (page edited 16
+found; erdosproblems.com adopted the bound in its commentary (page edited 16
 January 2026). No bound of the form $e^{-cN}$ with $c<1$ is proved in
 either direction, so the question stands as posed.
 
@@ -209,7 +209,7 @@ Graham, seven records; Egyptian fractions with subset sums or multisets,
 one unrelated record; "Erdos problem" with the problem number, none) and
 a Crossref title query for the note (no record); the monograph's p. 40;
 one general web search (the formal-conjectures issue and
-the site's own pages, nothing else). Not searched: MathSciNet, zbMATH,
+erdosproblems.com's own pages, nothing else). Not searched: MathSciNet, zbMATH,
 Google Scholar full text, X. Nothing found beyond Tang's note; this is a
 bounded negative finding.
 

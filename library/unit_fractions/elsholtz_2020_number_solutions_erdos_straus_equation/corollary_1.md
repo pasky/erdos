@@ -44,4 +44,4 @@ here); no separate proof is printed.
 - [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: extends the prime-denominator
   bound of Elsholtz and Tao's
   [[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_7|Proposition 1.7]]
-  to every $n$; the site quotes the prime case.
+  to every $n$; erdosproblems.com quotes the prime case.

@@ -32,8 +32,8 @@ $\mathbb N\setminus\{4\}$. The post notes that the two representations share a
 large common tail and that a stronger non-degeneracy condition would make a
 different question.
 
-**Submission note.** Posted to the site's forum by Rafik Zeraoulia on 27 April
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Rafik Zeraoulia on
+27 April 2026:
 
 > I would like to point out a small observation about the weakened question
 > mentioned in [Er88c], namely the existence of a rational number \(x\) which

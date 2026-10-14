@@ -27,10 +27,10 @@ $$
 h(N) = N^{1/2}+O_\epsilon(N^\epsilon)?
 $$
 
-**Status.** Open, the site's label (OPEN; page last edited 2026-04-06). The
-site's proof-claims thread carries one partial claim (2026-10-02), Haoyu Chen's
-write-up *An explicit second-order bound for Sidon sets*
-([Zenodo](https://doi.org/10.5281/zenodo.23103979)). It claims
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited
+2026-04-06). The erdosproblems.com proof-claims thread carries one partial claim
+(2026-10-02), Haoyu Chen's write-up *An explicit second-order bound for Sidon
+sets* ([Zenodo](https://doi.org/10.5281/zenodo.23103979)). It claims
 $h(N)\le\sqrt N+(2\sqrt2/3)N^{1/4}+1$ for $N\ge120^4$, with
 $2\sqrt2/3=0.9428\ldots$ below the $0.98183$ of [CHO25]. The write-up credits
 the proofs to GPT-6 Astra and the referee reports to Claude Opus. A [Lean

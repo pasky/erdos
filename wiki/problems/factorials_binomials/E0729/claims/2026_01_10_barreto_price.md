@@ -61,8 +61,8 @@ depending on the set (Legendre's formula at the least prime outside the set
 gives it); the result shows that it fails once the bound on the ignored
 primes may depend on $C$.
 
-**Submission note.** Posted to the site's forum by Kevin Barreto on 8 January
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Kevin Barreto on 8
+January 2026:
 
 > FWIW, continuing on from the conversation I had with GPT-5.2 Pro on [728], I
 > asked it if it could adapt its method to resolve this problem. Sure enough, it
@@ -73,7 +73,7 @@ primes may depend on $C$.
 > late for me), so I would appreciate it if others could take a look in the
 > meantime. But again, I cannot yet claim full accuracy.
 
-Posted to the site's forum by Kevin Barreto on 8 January 2026:
+Posted to the erdosproblems.com forum by Kevin Barreto on 8 January 2026:
 
 > Thanks natso, I continued off of your ChatGPT conversation and asked GPT-5.2
 > Pro to fill in the minor things that your instance identified as having room
@@ -83,7 +83,7 @@ Posted to the site's forum by Kevin Barreto on 8 January 2026:
 > progress. I've taken a closer look through the PDF, and I am fairly convinced
 > it should be right, so I shall keep trying to get Aristotle to formalise it.
 
-Posted to the site's forum by Kevin Barreto on 10 January 2026:
+Posted to the erdosproblems.com forum by Kevin Barreto on 10 January 2026:
 
 > FINALLY, after many, many attempts, Aristotle has managed to autoformalise it,
 > starting from fresh just being provided the TeX proof and nothing more
@@ -111,15 +111,15 @@ conversation that had produced the proof of Problem 728, and the formal proof
 by Harmonic's Aristotle from the TeX of that argument alone, after several
 failed runs; the Lean file's header names GPT-5.2 Pro, Kevin Barreto and Liam
 Price as the informal authors and Aristotle and Barreto as the formal authors,
-and the site credits Barreto and Price (the forum user Leeham). Barreto posted
-the informal proof to the site's discussion thread on 2026-01-08, saying they
-could not yet claim its full accuracy, a revised PDF later that day, and the
-Lean proof on 2026-01-10; the three postings are linked above, and the page is
-dated by the posting of the formally verified proof the site credits; the
-first post disclaimed accuracy, and the second said Barreto was fairly
-convinced the revised argument was right. A thread comment of 2026-01-10
-judged the informal proof correct and located the defect in an earlier
-formalization attempt in a threshold doubled by the formalizer.
+and erdosproblems.com credits Barreto and Price (the forum user Leeham). Barreto
+posted the informal proof to the erdosproblems.com discussion thread on
+2026-01-08, saying they could not yet claim its full accuracy, a revised PDF
+later that day, and the Lean proof on 2026-01-10; the three postings are linked
+above, and the page is dated by the posting of the formally verified proof
+erdosproblems.com credits; the first post disclaimed accuracy, and the second
+said Barreto was fairly convinced the revised argument was right. A thread
+comment of 2026-01-10 judged the informal proof correct and located the defect
+in an earlier formalization attempt in a threshold doubled by the formalizer.
 
 **Formalization.** The Lean development linked above, in Boris Alexeev's
 repository of formalized Erdős problems at its pinned commits (the current
@@ -137,11 +137,11 @@ audited the Lean development, so the page lists no `formalized` evidence.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, marked the problem proved on
-the problem page (last edited 11 January 2026). The curator credits Barreto and
-Leeham, using ChatGPT and Aristotle. The page lists this as `reviewed`. The
-community database records the problem as proved, with a Lean proof. Its entry's
-last update is dated 2026-01-10. Nothing is refereed.
+**Acceptance.** Thomas Bloom, the erdosproblems.com curator, marked the problem
+proved on the problem page (last edited 11 January 2026). The curator credits
+Barreto and Leeham, using ChatGPT and Aristotle. The page lists this as
+`reviewed`. The community database records the problem as proved, with a Lean
+proof. Its entry's last update is dated 2026-01-10. Nothing is refereed.
 
 The thread's literature searches found no earlier solution. Carl Pomerance,
 asked by a participant, replied that their 2015 method would give such results,

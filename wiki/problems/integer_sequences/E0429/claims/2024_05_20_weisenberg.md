@@ -58,8 +58,8 @@ nonzero class modulo each such prime in turn; a shift carrying $A$ into the
 primes would be divisible by every one of those primes, hence zero, and $A$
 itself is not a set of primes. Section 2 of the paper gives three further
 constructions of such sets, the second using only the Chinese remainder
-theorem. The claim concerns the exact question: it says nothing about the
-site's squarefree ($p^2$) variant, which the paper does not treat.
+theorem. The claim concerns the exact question: it says nothing about
+erdosproblems.com's squarefree ($p^2$) variant, which the paper does not treat.
 
 **Depends on.** No page of this wiki. The first construction consumes the
 existence of a positive integer that is a primitive root modulo infinitely
@@ -73,26 +73,26 @@ Per the article's header, it was received 24 June 2024, accepted 20 September
 2024 and published 9 October 2024. The contents page of the journal's volume 24
 lists it as Article A89.
 
-Not reviewed: the site's curator, Thomas Bloom, labeled the problem DISPROVED
-(LEAN) and credits this paper in the commentary (page last edited 8 April 2026).
-The paper reports on p. 2 that the site marked the problem solved when the first
-construction appeared as a preprint. But the paper's acknowledgement (p. 4)
-thanks Bloom for reviewing an earlier draft and for advising the author in the
-Oxford mathematics master's program. Bloom is therefore not independent of the
-claimant, and the site's credit is not `reviewed` evidence. The community
-database lists the Lean suffix on its status entry, with a last update of 29
-January 2026.
+Not reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the problem
+DISPROVED (LEAN) and credits this paper in the commentary (page last edited 8
+April 2026). The paper reports on p. 2 that Bloom's catalog marked the problem
+solved when the first construction appeared as a preprint. But the paper's
+acknowledgement (p. 4) thanks Bloom for reviewing an earlier draft and for
+advising the author in the Oxford mathematics master's program. Bloom is
+therefore not independent of the claimant, and the erdosproblems.com credit is
+not `reviewed` evidence. The community database lists the Lean suffix on its
+status entry, with a last update of 29 January 2026.
 
 The search recorded on the problem page found no dispute of the construction, no
 second resolution and no citing paper. This project's own reading of the
 one-paragraph proof, recorded on the source card, is not acceptance evidence.
 
-**Formalization.** The site's "(Lean)" suffix followed the file posted in
-the site's discussion thread on 29 January 2026 by the account Woett, whose
-comment says that Aristotle formalized the paper's second proof; the file's
-header names Aristotle, the automated prover of Harmonic, and the file is
-linked above at its last change, of 2 March 2026, a later revision than the
-one posted. Boris Alexeev's `plby/lean-proofs` collection holds a later port
+**Formalization.** erdosproblems.com's "(Lean)" suffix followed the file posted
+in the erdosproblems.com discussion thread on 29 January 2026 by the account
+Woett, whose comment says that Aristotle formalized the paper's second proof;
+the file's header names Aristotle, the automated prover of Harmonic, and the
+file is linked above at its last change, of 2 March 2026, a later revision than
+the one posted. Boris Alexeev's `plby/lean-proofs` collection holds a later port
 of the same development for a later toolchain, committed 30 June 2026 and
 linked above, whose header names Aristotle and Wouter van Doorn as its formal
 authors and the thread's file as its origin; the formal-conjectures statement

@@ -26,24 +26,22 @@ updated: 2026-10-14T00:16:44Z
 consecutive integers $>k$ contains an integer divisible by a prime $>k$.
 Estimate $f(k)$.
 
-**Formulation.** The site's wording (page last edited 3 April 2026). A set
-of consecutive integers $>k$ is a
-block $u+1,\ldots,u+n$ with $u\ge k$; $f(k)$ is the least block length that
-forces a prime factor larger than $k$, so $f(k)-1$ is the longest run of
-consecutive $k$-smooth integers above $k$ (the site rephrases the question
-as the longest possible run of consecutive $k$-smooth integers). The
-definition is Erdős's own
-from 1955 ("the least integer so that the product of $f(k)$ consecutive
-integers, each greater than $k$ always contains a prime greater than $k$",
-printed p. 124) and 1976 (printed p. 271). The site's source key is
-[Er76e, p. 271]. The site calls the problem
-essentially equivalent to Problem 683, the site's problem on the largest
-prime factor of a binomial coefficient; the equivalence is the site's
-remark and is not made precise here.
+**Formulation.** The erdosproblems.com wording (page last edited 3 April 2026).
+A set of consecutive integers $>k$ is a block $u+1,\ldots,u+n$ with $u\ge k$;
+$f(k)$ is the least block length that forces a prime factor larger than $k$, so
+$f(k)-1$ is the longest run of consecutive $k$-smooth integers above $k$
+(erdosproblems.com rephrases the question as the longest possible run of
+consecutive $k$-smooth integers). The definition is Erdős's own from 1955 ("the
+least integer so that the product of $f(k)$ consecutive integers, each greater
+than $k$ always contains a prime greater than $k$", printed p. 124) and 1976
+(printed p. 271). The erdosproblems.com source key is [Er76e, p. 271].
+erdosproblems.com calls the problem essentially equivalent to Problem 683, the
+erdosproblems.com problem on the largest prime factor of a binomial coefficient;
+the equivalence is the erdosproblems.com remark and is not made precise here.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 3 April
-2026). No source determines the order of $f(k)$. What is in hand is a two-sided
-bound with a large gap.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 3
+April 2026). No source determines the order of $f(k)$. What is in hand is a
+two-sided bound with a large gap.
 
 There are three upper bounds. The first is $f(k)\le k$, the theorem of
 Sylvester and Schur, which Erdős reproved in 1934
@@ -53,10 +51,10 @@ third are accepted partial claims on their journal publications. The second is
 $f(k)\le c_1k/\log k$ (Erdős 1955, Theorem 1), which Erdős's 1976 survey
 restates as $f(k)<3k/\log k$
 ([[problems/integer_sequences/E0961/claims/1955_01_01_erdos|claim page]]). The
-third is $f(k)<c_1k\log\log\log k/(\log k\log\log k)$, which the site credits to
-Jutila [Ju74] and to Ramachandra and Shorey [RaSh73]. Their papers are not held
-here. The bound is quoted from the site and from Erdős's 1976 survey, which
-attributes it jointly to Jutila, Ramachandra and Shorey
+third is $f(k)<c_1k\log\log\log k/(\log k\log\log k)$, which erdosproblems.com
+credits to Jutila [Ju74] and to Ramachandra and Shorey [RaSh73]. Their papers
+are not held here. The bound is quoted from erdosproblems.com and from Erdős's
+1976 survey, which attributes it jointly to Jutila, Ramachandra and Shorey
 ([[problems/integer_sequences/E0961/claims/1973_01_01_jutila_ramachandra_shorey|claim page]]).
 
 The lower bound comes from Rankin's prime-gap theorem. It is Erdős's 1955
@@ -69,9 +67,9 @@ certificate of openness.
 
 **Source.** [erdosproblems.com/961](https://www.erdosproblems.com/961),
 accessed 2026-09-18: the problem page (OPEN, with the
-site's note that no finite computation can settle it; last edited 3 April
-2026; source key [Er76e, p. 271]; commentary citing [Er34], [Er55d], [Ju74],
-[RaSh73] and Problem 683), its one-comment discussion thread (29 January
+erdosproblems.com note that no finite computation can settle it; last edited 3
+April 2026; source key [Er76e, p. 271]; commentary citing [Er34], [Er55d],
+[Ju74], [RaSh73] and Problem 683), its one-comment discussion thread (29 January
 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #961, https://www.erdosproblems.com/961, accessed 2026-09-18.
 
@@ -104,16 +102,15 @@ site's note that no finite computation can settle it; last edited 3 April
   Math. Soc. (N.S.) 38 (1974), 125--130. Not held; no Crossref record (the
   journal carries no DOIs for that volume); the journal's current web host
   is listed under Search scope (below). Quoted second-hand from [Er76e] and
-  the site.
+  erdosproblems.com.
 - [RaSh73] Ramachandra, K. and Shorey, T. N., On gaps between numbers with a
   large prime factor. Acta Arith. 24 (1973), no. 1, 99--111, DOI
   10.4064/aa-24-1-99-111 (Crossref record, accessed 2026-09-18). Not held;
   the EuDML record of the paper names a PDF at the ICM digital library.
-  Quoted second-hand from [Er76e] and the site. [Er76e]'s reference [15]
-  pairs these two papers with
-  Shorey, T. N., On gaps between numbers with a large prime factor. II. Acta
-  Arith. 25 (1974), no. 4, 365--373 (DOI 10.4064/aa-25-4-365-373), which the
-  site does not cite.
+  Quoted second-hand from [Er76e] and erdosproblems.com. [Er76e]'s reference
+  [15] pairs these two papers with Shorey, T. N., On gaps between numbers with a
+  large prime factor. II. Acta Arith. 25 (1974), no. 4, 365--373 (DOI
+  10.4064/aa-25-4-365-373), which erdosproblems.com does not cite.
 - [vDTa26] van Doorn, W. and Tang, Q., Consecutive integers free of certain
   prime factors. arXiv:2606.19863v1 (18 June 2026), 5 pp. Adjacent context
   only: its $n_k$ concerns prime factors in $(k,2k)$ (Problem 451), not
@@ -131,11 +128,11 @@ of formal-conjectures at the linked commit (the head of `main` when fetched,
 integers starting above `k` contains a non-`(k+1)`-smooth integer) and `f k`
 as the least such `n`, and declares
 `erdos_961 : answer(sorry) ↔ ∃ C : ℕ, ∀ᶠ k : ℕ in atTop, f k < log k ^ C`
-under `category research open` with proof `sorry`: the file encodes the site's
-closing expectation $f(k)\ll(\log k)^{O(1)}$, not the open-ended estimate.
-Four `research solved` items record the Sylvester--Schur bound `f k ≤ k`
-(`erdos_961.sylvester_schur`, as `Erdos961Prop k k`) and the existence of `f`
-(`erdos_961.variants.well_defined`, proved in the file from the
+under `category research open` with proof `sorry`: the file encodes
+erdosproblems.com's closing expectation $f(k)\ll(\log k)^{O(1)}$, not the
+open-ended estimate. Four `research solved` items record the Sylvester--Schur
+bound `f k ≤ k` (`erdos_961.sylvester_schur`, as `Erdos961Prop k k`) and the
+existence of `f` (`erdos_961.variants.well_defined`, proved in the file from the
 Sylvester--Schur item; the other three have `sorry` bodies),
 `erdos_961.variants.erdos_upper_bound : ∀ᶠ k in atTop, f k < 3 * k / log k`
 (credited to [Er55d]) and
@@ -145,17 +142,17 @@ display (1); one `category test` item proves the case $k=n=1$. No
 [community database](https://github.com/teorth/erdosproblems/tree/5466d4a29b4971ce39df3a41e3b618d853d3ec3a)
 (teorth/erdosproblems, at the linked commit of 2026-09-18) records the problem
 open (last changed 31 August 2025), the statement formalized since 30 December
-2025, `formal_status` unformalized and no formal-proof URL; the site's
-indicator shows the statement formalized. Nothing was built.
+2025, `formal_status` unformalized and no formal-proof URL; the
+erdosproblems.com indicator shows the statement formalized. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; OPEN,
-with the site's note that no finite computation can settle it, last edited 3
-April 2026. The commentary, in this page's words: it reads the question as the
-longest possible run of consecutive $k$-smooth integers; it attributes
-$f(k)\le k$ to Sylvester and Schur, citing [Er34], the bound $f(k)<3k/\log k$
-to [Er55d], and the iterated-logarithm bound
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it, last edited 3 April 2026. The commentary, in this page's words: it
+reads the question as the longest possible run of consecutive $k$-smooth
+integers; it attributes $f(k)\le k$ to Sylvester and Schur, citing [Er34], the
+bound $f(k)<3k/\log k$ to [Er55d], and the iterated-logarithm bound
 $f(k)\ll k\log\log\log k/(\log k\log\log k)$ to [Ju74] and [RaSh73]; it
 expects $f(k)$ to be bounded by a power of $\log k$; and it calls the problem
 essentially equivalent to Problem 683. The thread has one comment (29 January
@@ -200,18 +197,19 @@ $u+1,u+2,\ldots,u+t$, $t=[c_1\frac{k}{\log k}]$, $u\ge k$ has at least one
 prime $>k$." The proof begins on p. 125 with the Hoheisel--Ingham
 prime-counting estimate, which settles the range $u\le k^{3/2}$; its remainder
 (p. 126) is a binomial-coefficient argument, sketched on the result page and
-not verified. The constant $3$ of the site's "$f(k)<3k/\log k$" is not in the
-1955 paper, whose Theorem 1 leaves $c_1$ unspecified; it is Erdős's 1976
-restatement, which cites the 1955 paper for it. A site-versus-source note, not
-a status matter. Display (1) of [Er76e]
+not verified. The constant $3$ of erdosproblems.com's "$f(k)<3k/\log k$" is not
+in the 1955 paper, whose Theorem 1 leaves $c_1$ unspecified; it is Erdős's 1976
+restatement, which cites the 1955 paper for it. An
+erdosproblems.com-versus-source note, not a status matter. Display (1) of
+[Er76e]
 ([[../library/primes/erdos_1976_problems_results_consecutive_integers/inequality_1|result page]],
 p. 271, claims checked), $f(k)<c_1k\log\log\log k/(\log k\log\log k)$, is the
 current record; Erdős attributes it to Jutila, Ramachandra and Shorey jointly,
-and the site to [Ju74] and [RaSh73]. Neither paper is held, so the bound, its
-hypotheses and its exact form rest on this attestation and the site's; the
-papers' own statements are not recorded here (the routes are under Search
-scope). The second and third upper bounds are accepted partial claims on their
-journal publications:
+and erdosproblems.com to [Ju74] and [RaSh73]. Neither paper is held, so the
+bound, its hypotheses and its exact form rest on this attestation and
+erdosproblems.com's; the papers' own statements are not recorded here (the
+routes are under Search scope). The second and third upper bounds are accepted
+partial claims on their journal publications:
 [[problems/integer_sequences/E0961/claims/1955_01_01_erdos|Erdős 1955]] and
 [[problems/integer_sequences/E0961/claims/1973_01_01_jutila_ramachandra_shorey|Jutila, Ramachandra and Shorey]];
 Erdős's 1934 reproof of the first, the Sylvester--Schur bound, does not improve
@@ -227,8 +225,8 @@ less than $k$. Thus
 $f(k)>c_3\frac{\log k\log\log k\log\log\log\log k}{(\log\log\log k)^2}$ (3)."
 The argument is Erdős's: a run of composites between consecutive primes of
 $(k,2k)$ is a run of $k$-smooth integers above $k$, so $f(k)$ exceeds every such
-run's length. No later source is cited by the site for the lower bound; no
-source recorded here applies a later prime-gap theorem inside $(k,2k)$. On p.
+run's length. No later source is cited by erdosproblems.com for the lower bound;
+no source recorded here applies a later prime-gap theorem inside $(k,2k)$. On p.
 125 Erdős writes that "The gap between (1) and (3) is extremely large", that
 $f(k)$ is probably not much larger than the largest prime gap in $(k,2k)$, hence
 the guess (4) $f(k)=(1+o(1))(\log k)^2$ on Cramér's conjecture, "there is of
@@ -258,7 +256,7 @@ is recorded on Problem 451, not as progress here.
 bound on $f(k)$ beyond those above, no copy of [Ju74] or [RaSh73] and no proof
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `961.lean` at the pinned commit; the community
   database at the commit linked under Formalization.
 - arXiv: the API queries
@@ -287,15 +285,15 @@ a reference), Rankin 1938 (cited by [Er55d]).
 
 **Remaining gaps.** (1) The record upper bound rests on two papers not held;
 their exact statements and hypotheses are not compared here, and the bound is
-quoted from Erdős's 1976 attestation and the site. Reopening condition: a
-readable copy of [RaSh73] (the ICM library or its PLDML record) or of [Ju74].
+quoted from Erdős's 1976 attestation and erdosproblems.com. Reopening condition:
+a readable copy of [RaSh73] (the ICM library or its PLDML record) or of [Ju74].
 (2) The lower bound is the 1955 Rankin-type bound; no source was found that
 inserts a later prime-gap theorem into Erdős's argument, and this page does
-not do so. (3) The site's equivalence with Problem 683 is recorded as the
-site's remark; the equivalence is not derived here. (4) Proof coverage is at
-statement level: the proofs of [Er34] and of Theorem 1 of [Er55d] are not
-checked here beyond their structure. (5) The constant $3$ attributed by the
-site to [Er55d] is Erdős's 1976 restatement (above).
+not do so. (3) erdosproblems.com's equivalence with Problem 683 is recorded as
+the erdosproblems.com remark; the equivalence is not derived here. (4) Proof
+coverage is at statement level: the proofs of [Er34] and of Theorem 1 of [Er55d]
+are not checked here beyond their structure. (5) The constant $3$ attributed by
+erdosproblems.com to [Er55d] is Erdős's 1976 restatement (above).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 977, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/arithmetic_functions/E0977/claims
@@ -18,6 +18,7 @@ refereed.
 
 [[problems/arithmetic_functions/E0977/claims/2010_08_06_stewart|2010_08_06_stewart]]: Stewart's 2013 Acta Mathematica theorem bounds the greatest prime factor of
 $a^n-b^n$ below by $n$ times a factor that tends to infinity, so
-$P(2^n-1)/n\to\infty$. The paper is refereed, and the site accepts the result.
+$P(2^n-1)/n\to\infty$. The paper is refereed, and erdosproblems.com accepts
+the result.
 
 ***

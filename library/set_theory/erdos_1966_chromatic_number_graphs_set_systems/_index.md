@@ -178,8 +178,8 @@ Source: <https://users.renyi.hu/~p_erdos/1966-07.pdf>.
 - [[../wiki/problems/set_theory/E1067/_index|#1067]]: the p. 77 assertion
   asks Problem 1067's question for graphs with aleph_1 vertices, with the
   paper's omega-fold connectivity.
-- [[../wiki/problems/set_theory/E1068/_index|#1068]]: the site cites the
-  paper for Problem 1068; the paper asks no question about countable
+- [[../wiki/problems/set_theory/E1068/_index|#1068]]: erdosproblems.com cites
+  the paper for Problem 1068; the paper asks no question about countable
   infinitely connected subgraphs, and the p. 77 assertion is its nearest
   statement.
 

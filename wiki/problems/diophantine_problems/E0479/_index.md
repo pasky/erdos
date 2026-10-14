@@ -23,9 +23,10 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Is it true that, for all $k\neq 1$, there are infinitely many $n$
 such that $2^n\equiv k\pmod{n}$?
 
-**Status.** Open, the site's label. The problem is `open` because its one claim
-page, [[problems/diophantine_problems/E0479/claims/2025_12_02_tang|Tang 2025]],
-is a pending partial claim for the cases $k=2^i$.
+**Status.** Open, the erdosproblems.com label. The problem is `open` because its
+one claim page,
+[[problems/diophantine_problems/E0479/claims/2025_12_02_tang|Tang 2025]], is a
+pending partial claim for the cases $k=2^i$.
 
 **Source.** [erdosproblems.com/479](https://www.erdosproblems.com/479), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #479,
@@ -37,15 +38,15 @@ https://www.erdosproblems.com/479.
 ## Current assessment
 
 The assertion for every fixed integer $k\neq1$ was open on the erdosproblems.com
-snapshot accessed 2026-09-04. The searches covered the site page, Tang's note,
-a web search for a proof of the full congruence question and a bibliographic
-search for the Graham–Lehmer–Lehmer publication; on 2026-09-05 they showed
-Tang's power-of-two family, no universal proof and no primary publication. They
-also covered a secondary report of Tang's note and OEIS A036236 for the
-historical reference. The site's commentary records the cases $k=2^i$
-($i\geq1$) and $k=-1$, which Erdős and Graham attribute to Graham, Lehmer and
-Lehmer, and credits Tang's note with a proof for $k=2^i$. Tang's note (Section
-2.2) and forum comment of 2 December 2025 list
+snapshot accessed 2026-09-04. The searches covered the erdosproblems.com page,
+Tang's note, a web search for a proof of the full congruence question and a
+bibliographic search for the Graham–Lehmer–Lehmer publication; on 2026-09-05
+they showed Tang's power-of-two family, no universal proof and no primary
+publication. They also covered a secondary report of Tang's note and OEIS
+A036236 for the historical reference. The erdosproblems.com commentary records
+the cases $k=2^i$ ($i\geq1$) and $k=-1$, which Erdős and Graham attribute to
+Graham, Lehmer and Lehmer, and credits Tang's note with a proof for $k=2^i$.
+Tang's note (Section 2.2) and forum comment of 2 December 2025 list
 $k\in\{0,-1,-2\}\cup\{2^i:i\geq1\}$ as the values for which infinitely many $n$
 are known, and call every other fixed $k$ open. The historical source and the
 manuscript discussed below have the narrower scopes stated here.

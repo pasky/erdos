@@ -76,11 +76,11 @@ rest of the digest was not checked against the page images. No notice
 is printed in the file; the Numdam record of the article shows its bibliographic
 data and no copyright, license or conditions-of-use statement
 (http://www.numdam.org/item/AST_1975__24-25__295_0/, read 2026-10-02), and
-Numdam's conditions page, which speaks for every item the site hosts, states
-"Une partie importante des fonds numérisés est dans le domaine public et l'autre
-reste la propriété des auteurs et de la revue" and "Il est interdit de modifier
-les fichiers des textes intégraux" (https://www.numdam.org/conditions, read
-2026-10-02), every other right reserved.
+Numdam's conditions page, which speaks for every item erdosproblems.com hosts,
+states "Une partie importante des fonds numérisés est dans le domaine public et
+l'autre reste la propriété des auteurs et de la revue" and "Il est interdit de
+modifier les fichiers des textes intégraux" (https://www.numdam.org/conditions,
+read 2026-10-02), every other right reserved.
 
 Source: <https://users.renyi.hu/~p_erdos/1975-30.pdf>.
 
@@ -97,7 +97,7 @@ disjoint classes $S_1$ and $S_2$ so that if $A,B$ with $|A|=\aleph_1$,
 $|B|=\aleph_0$ are any two sets of reals there always are real numbers
 $X_1\in S_1$, $Y_1,Y_2\in S_2$, $X_2\in S_2$ so $X_1+Y_1\in S_1$,
 $X_2+Y_2\in S_2$." (as printed; the conclusion names the classes $S_1$,
-$S_2$ and not the sets $A$, $B$); the site's key for the problem. The
+$S_2$ and not the sets $A$, $B$); the erdosproblems.com key for the problem. The
 chapter's reference list (p. 306) names
 Erdős, Problems and results in combinatorial analysis, Proc. Symp. Pure Math.
 XIX (1971), 77--89, and Erdős, Hajnal and Rado, Partition relations for
@@ -106,8 +106,8 @@ cardinal numbers, Acta Math. Acad. Sci. Hungar. 16 (1965), 93--196.
 Chapter IV item (i): "Is it true that for every $k$ and $r$ there is a
 sequence without the property $A(k+1)$, but is such that if we split it into
 $r$ subsequences at least one of them has the property $A(k)$ ? (added in
-proof : Spencer has recently shown that such a sequence exists)."; the site's
-key for the problem.
+proof : Spencer has recently shown that such a sequence exists)."; the
+erdosproblems.com key for the problem.
 [[../wiki/problems/ramsey_theory/E0924/_index|#924]]: printed p. 306 (PDF p. 12), page image,
 the sentences after item (i): Erdős traces item (i) to an older
 conjecture of his and Hajnal's: "Is it true that for every $\ell$ and $r$
@@ -117,24 +117,24 @@ least one colour contains a $K(\ell)$ ?" He reports that Folkman proved such
 a graph exists for $r=2$ and every $\ell$ (adding that Folkman probably had a
 proof for $r\le4$) and that Nešetřil and Rödl had recently settled the
 general case in a paper not yet published. ("vertices" as printed; the 1969
-statement of the problem and the site's concern edge colorings); a site key
-for the problem.
+statement of the problem and erdosproblems.com's concern edge colorings); an
+erdosproblems.com key for the problem.
 [[../wiki/problems/ramsey_theory/E0532/_index|#532]]: printed p. 305 (PDF p. 11), page image,
 the top of the page: Erdős reports Hindman's recent proof of the
 Graham--Rothschild conjecture, that for any two-coloring of the integers
 there is an infinite sequence $a_1<a_2<\dots$ all of whose finite sums
 $\sum_i\varepsilon_ia_i$, $\varepsilon_i\in\{0,1\}$, lie in one class, and
 Baumgartner's simple proof of Hindman's theorem; he adds that the chapter's
-results "are not yet published"; a site key for the problem.
+results "are not yet published"; an erdosproblems.com key for the problem.
 [[../wiki/problems/integer_sequences/E0012/_index|#12]]: printed p. 302 (PDF p. 8), page
 image, the last paragraph of Chapter II: for an infinite sequence of
 integers $a_1<a_2<\dots$ with $a_j+a_k\not\equiv0\pmod{a_i}$ whenever
 $i<j<k$, and $A(X)=\sum_{a_i<X}1$, Erdős records that he and Sárközy proved
 $A(X)=o(X)$ and that they conjecture $\sum a_i^{-1}<\infty$ and
 $A(X)<X^{1-\varepsilon}$ for infinitely many $X$; he then turns to a finite
-problem that, he says, "causes unexpected difficulties"; a site key for the
-problem. The reciprocal-sum convergence and the $X^{1-\varepsilon}$ bound
-are conjectures on the page, not results.
+problem that, he says, "causes unexpected difficulties"; an erdosproblems.com
+key for the problem. The reciprocal-sum convergence and the $X^{1-\varepsilon}$
+bound are conjectures on the page, not results.
 [[../wiki/problems/integer_sequences/E0013/_index|#13]]: printed p. 303 (PDF p. 9), page
 image, the finite problem that closes Chapter II, a conjecture: "Let
 $a_1<\dots<a_n<X$ and assume that for $i<j<r$
@@ -145,7 +145,7 @@ them. If the condition is imposed for all distinct indices, without the
 order $k<r<s$, he observes that the $a$'s contain no three-term arithmetic
 progression, so $n=o(X)$ follows from $r_3(X)=o(X)$; and he reports
 Szemerédi's proof of $n\le[\frac X3]+1$ when $(a_r+a_s)/a_k$ is never an
-integer other than $2$; a site key for the problem.
+integer other than $2$; an erdosproblems.com key for the problem.
 [[../wiki/problems/integer_sequences/E0131/_index|#131]]: item (vi), printed p. 309 (PDF
 p. 15), page image: a question Erdős says he asked several years earlier:
 "Let $a_1<\dots<a_n\le X$ be a sequence of integers. Assume that no $a$
@@ -158,14 +158,14 @@ such that no $a$ is the arithmetic mean of any other $a$'s. Put
 $\max m=f(X)$. Determine or estimate $f(X)$." Straus proved that (1) holds
 for $f(X)$ too; Erdős and Straus proved $f(X)<cX^{3/4}$; Szemerédi had
 somewhat improved the exponent $3/4$; and Erdős thinks $f(X)=o(X^\varepsilon)$
-probable but far out of reach; the site's key [Er75b, p. 309] for the
+probable but far out of reach; the erdosproblems.com key [Er75b, p. 309] for the
 problem.
 [[../wiki/problems/additive_combinatorics/E0656/_index|#656]]: printed p. 305 (PDF
 p. 11), page image, the question after Hindman's theorem, which Erdős says
 "perhaps" holds: every sequence of positive upper density has an integer $t$
 and an infinite subsequence $a_{i_1}<a_{i_2}<\dots$ all of whose sums
-$a_{i_r}+a_{i_s}+t$ are again terms; a question on the page, not a result; a
-site key for the problem.
+$a_{i_r}+a_{i_s}+t$ are again terms; a question on the page, not a result; an
+erdosproblems.com key for the problem.
 [[../wiki/problems/set_systems/E1178/_index|#1178]]: printed pp. 299--300 (PDF
 pp. 5--6), page images, Chapter I: with $f_r(n;k,l)$ the least number of
 $r$-tuples on $n$ vertices that forces $k$ vertices spanning $l$ of them, the
@@ -174,7 +174,7 @@ had just proved with the regularity lemma; Ruzsa's $f_3(n;6,3)>cn\,r_3(n)$; the
 expectation that $f_3(n;k,k-3)=o(n^2)$ for every $k$; and the guess (8),
 $c_1n\,r_{k-3}(n)<f_3(n;k,k-3)<c_2n\,r_{k-3}(n)$ for every $k\ge6$, whose
 lower bound Ruzsa had proved for $k=6,7,8$. This is the $r=3$ case of the
-problem; a site key for the problem.
+problem; an erdosproblems.com key for the problem.
 [[../wiki/problems/additive_combinatorics/E0876/_index|#876]]: printed p. 302 (PDF p. 8),
 page image, the paragraph before the divisibility problem: for an infinite
 sequence of integers $a_1<\ldots$ in which no $a$ is a sum of distinct
@@ -184,20 +184,19 @@ appear in his joint paper with Benkoski in Math. of Computation. He adds
 that he heard at the April 1974 meeting of the American Mathematical
 Society that $5$ can stand in place of $103$ but $2$ cannot, that he does
 not remember who proved this, and that the maximum of
-$\sum_ia_i^{-1}$ was suggested to be not much above $2$; the site's key
-[Er75b] for the problem's reciprocal-sum question, where the site's figures
-($<100$, Sullivan's $<4$) are those of the 1977 restatement.
-[[../wiki/problems/additive_combinatorics/E0350/_index|#350]]: printed p. 302 (PDF p. 8),
-page image, the sentences that follow: the conjecture Erdős dates to
-February 1973, "if $a_1<a_2<\ldots<a_n$ is such that all the sums
+$\sum_ia_i^{-1}$ was suggested to be not much above $2$; the erdosproblems.com
+key [Er75b] for the problem's reciprocal-sum question, where the
+erdosproblems.com figures ($<100$, Sullivan's $<4$) are those of the 1977
+restatement. [[../wiki/problems/additive_combinatorics/E0350/_index|#350]]:
+printed p. 302 (PDF p. 8), page image, the sentences that follow: the conjecture
+Erdős dates to February 1973, "if $a_1<a_2<\ldots<a_n$ is such that all the sums
 $\sum_{i=1}^n\varepsilon_ia_i$, $\varepsilon_i=0$ or $1$ are all distinct,
 then: $\max\sum_{i=1}^na_i^{-1}=2-2^{1-n}$ and the maximum is attained if
 and only if $a_i=2^{i-1}$", with Ryavec's simple analytic proof and the
-recent elementary proof of E. and G. Szekeres reported; the site's key
-[Er75b] for the problem, whose displayed bound
-$\sum1/n<2$ is the weaker form and whose commentary's refinement
-$2-2^{1-|A|}$ with the extremal set $\{1,2,\ldots,2^k\}$ is this conjecture
-with $a_i=2^{i-1}$.
+recent elementary proof of E. and G. Szekeres reported; the erdosproblems.com
+key [Er75b] for the problem, whose displayed bound $\sum1/n<2$ is the weaker
+form and whose commentary's refinement $2-2^{1-|A|}$ with the extremal set
+$\{1,2,\ldots,2^k\}$ is this conjecture with $a_i=2^{i-1}$.
 [[../wiki/problems/additive_combinatorics/E0186/_index|#186]]: item (vi), printed p. 309 (PDF
 p. 15), page image, the passage recorded above for #131: Straus's observation
 that the non-dividing problem is "essentially equivalent" to the
@@ -205,9 +204,10 @@ non-averaging one, the definition of $f(X)$ ("no $a$ is the arithmetic mean
 of any other $a$'s"), Straus's lower bound (1) for $f(X)$, "Straus and I
 proved $f(X)<c^{3/4}$" (as printed, the $X$ dropped; the next sentence's
 "exponent $3/4$" shows $cX^{3/4}$ is meant), Szemerédi's improvement of the
-exponent and the expectation $f(X)=o(X^\varepsilon)$; the site's key [Er75b,
-p. 309] for the problem. The exponent $3/4$ printed here differs from the $2/3$
-Erdős gives the same Erdős--Straus bound in his 1973, 1977 and 1980 accounts.
+exponent and the expectation $f(X)=o(X^\varepsilon)$; the erdosproblems.com key
+[Er75b, p. 309] for the problem. The exponent $3/4$ printed here differs from
+the $2/3$ Erdős gives the same Erdős--Straus bound in his 1973, 1977 and 1980
+accounts.
 
 **Results.**
 

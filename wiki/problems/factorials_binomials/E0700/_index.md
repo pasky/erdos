@@ -39,22 +39,23 @@ $$
 
 for every $A>0$?
 
-**Formulation.** The site, like the formal-conjectures file, takes $P(n)$ to
-be the largest prime dividing $n$. Erdős and Szekeres [ErSz78] use $P$ for a
-greatest prime factor on p. 97, but at their inequality (7) on p. 98,
+**Formulation.** erdosproblems.com, like the formal-conjectures file, takes
+$P(n)$ to be the largest prime dividing $n$. Erdős and Szekeres [ErSz78] use $P$
+for a greatest prime factor on p. 97, but at their inequality (7) on p. 98,
 $f(n)\le n/P(n)$ for composite $n$, they define $P(n)$ as the greatest prime
 power dividing $n$, and on p. 99 they ask to characterize the composite $n$
 with $f(n)=n/P(n)$; their deduction (9) of $f(n)<(1+o(1))n/\log n$ from (7),
-which the site's commentary repeats, needs that reading. The two readings
-agree for squarefree $n$ but not in general: $f(12)=3$ equals $12/4$ but not
-$12/3$, and under the site's reading every prime square is an equality case,
-since $f(p^2)=p$. This page's standing targets the site's wording; the first
-question is open under both readings.
+which the erdosproblems.com commentary repeats, needs that reading. The two
+readings agree for squarefree $n$ but not in general: $f(12)=3$ equals $12/4$
+but not $12/3$, and under erdosproblems.com's reading every prime square is an
+equality case, since $f(p^2)=p$. This page's standing targets the
+erdosproblems.com wording; the first question is open under both readings.
 
-**Status.** Open, the site's label. The standing in the frontmatter derives from
-the claim pages. The site credits GPT 5.6 Sol Pro, prompted by Price, with a
-positive answer to the second question (page edited 28 August 2026). The answer
-gives infinitely many products of three primes with $f(n)\sim n^{2/3}$. See the
+**Status.** Open, the erdosproblems.com label. The standing in the frontmatter
+derives from the claim pages. erdosproblems.com credits GPT 5.6 Sol Pro,
+prompted by Price, with a positive answer to the second question (page edited 28
+August 2026). The answer gives infinitely many products of three primes with
+$f(n)\sim n^{2/3}$. See the
 [[problems/factorials_binomials/E0700/claims/2026_07_27_price|Price claim page]],
 an accepted partial claim.
 

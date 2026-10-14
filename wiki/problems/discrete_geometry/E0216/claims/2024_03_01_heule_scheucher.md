@@ -79,5 +79,6 @@ publisher's Crossref record of the chapter carries the conference organizers'
 peer-review information: a double-blind review of 159 submissions, with 53 full
 papers accepted. This is the evidence that the volume was refereed. The curator
 of erdosproblems.com, Thomas Bloom, records $g(6)=30$ on the problem page with
-this paper as its source. The site's label, disproved, rests on Horton's result,
-however, so that remark is not acceptance of this partial claim.
+this paper as its source. The erdosproblems.com label, disproved, rests on
+Horton's result, however, so that remark is not acceptance of this partial
+claim.

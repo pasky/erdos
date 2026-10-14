@@ -49,17 +49,17 @@ https://www.erdosproblems.com/844.
 
 ## Current assessment
 
-The site's formulation of 2026-09-04 asks whether the even numbers together
-with the odd non-squarefree numbers form a largest set up to $N$ with no
-squarefree pairwise product. Two accepted claims answer yes:
+The erdosproblems.com formulation of 2026-09-04 asks whether the even numbers
+together with the odd non-squarefree numbers form a largest set up to $N$ with
+no squarefree pairwise product. Two accepted claims answer yes:
 [[problems/divisors/E0844/claims/2025_07_01_weisenberg|Weisenberg's reduction]]
 to Chvátal's 1974 theorem on intersecting subfamilies of a family closed under
 left shifts, and the independent
 [[problems/divisors/E0844/claims/2025_07_02_alexeev_mixon_sawin|clique-partition proof of Alexeev, Mixon and Sawin]]
 (arXiv, July 2025). Asymptotically the maximum has $(1-4/\pi^2+o(1))N$
 elements. A Lean 4 proof along Weisenberg's route, produced with Aristotle and
-posted on the site's thread on 26 April 2026, is linked from Weisenberg's claim
-page; this corpus did not build it.
+posted on the erdosproblems.com thread on 26 April 2026, is linked from
+Weisenberg's claim page; this corpus did not build it.
 
 Chvátal's theorem is transcribed on its
 [[../library/set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/_index|library card]]

@@ -65,7 +65,7 @@ reproduction in any form reserved." in the footer of its first page (printed p.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0187/_index|#187]]: the best known upper
 bound f(d) <= (1 + o(1)) log_2 d, under the same "for infinitely many d"
-quantifier as the site's statement.
+quantifier as the erdosproblems.com statement.
 [[../wiki/problems/additive_combinatorics/E0138/_index|#138]]: the introduction (printed
 p. 376 = PDF p. 1, page image) defines $W(n)$, the largest length forced in
 every two-coloring of $\{1,\ldots,n\}$, the inverse of the problem's

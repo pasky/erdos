@@ -31,8 +31,8 @@ prints no copyright or license line; the publisher's issue listing
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/99/2,
 read 2026-10-02) labels the article "Free download under CC-BY license", a
 Creative Commons Attribution license with no version named, and its footer
-"Copyright © 2026 by IMPAN. All rights reserved." speaks for the site, not the
-article.
+"Copyright © 2026 by IMPAN. All rights reserved." speaks for erdosproblems.com,
+not the article.
 
 The Main Theorem shows that for any rational r > 0 and all N > 1 there are
 integers N < x_1 < ... < x_k at most (e^r + O_r(log log N / log N)) N whose
@@ -112,9 +112,9 @@ many k", and the asymptotic for every k is not asserted in the paper;
 problem page stating the interval width with the constant e-1 (the
 monograph's wording) where the paper's question has 1, with the same
 infinitely-many-k qualification; [[../wiki/problems/unit_fractions/E0295/_index|#295]],
-[[../wiki/problems/unit_fractions/E0319/_index|#319]], for which the site's commentary
-derives the lower bound (1-1/e+o(1))N from the Main Theorem with r = 1
-(the construction the site credits to Adenwalla)
+[[../wiki/problems/unit_fractions/E0319/_index|#319]], for which the
+erdosproblems.com commentary derives the lower bound (1-1/e+o(1))N from the Main
+Theorem with r = 1 (the construction erdosproblems.com credits to Adenwalla)
 
 **Results.**
 

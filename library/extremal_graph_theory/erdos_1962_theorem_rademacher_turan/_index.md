@@ -73,9 +73,9 @@ the publisher's page could not be read on 2026-10-02, the journal's online host,
 Project Euclid, returning only a bot-detection page, and the card gives no DOI,
 so no Crossref license is recorded; the term is unstated.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1010/_index|#1010]]: the site's
-source key Er62d; the conjecture as printed ("for $t<[n/2]$", p. 122),
-Rademacher's case $t=1$ for even $n$ and Erdős's $t\le3$, $n>2t$, the
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1010/_index|#1010]]: the
+erdosproblems.com source key Er62d; the conjecture as printed ("for $t<[n/2]$",
+p. 122), Rademacher's case $t=1$ for even $n$ and Erdős's $t\le3$, $n>2t$, the
 Theorem for $t<c_1n/2$ (p. 123) and the graphs showing failure at $t=n/2$
 for even $n>4$ and at $t=2m-1$ for odd $n=2m+1\ge9$ (pp. 122--123); paged at
 [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/theorem|theorem]].
@@ -84,7 +84,7 @@ Erdős--Gallai and Andrásfai threshold $f(n-1)+2=\lfloor(n-1)^2/4\rfloor+2$
 edges forcing a triangle in a graph that is not even (not bipartite), with
 the p. 124 example showing that $f(n-1)+1$ edges do not suffice; for
 triangle-free graphs "not even" is the same as chromatic number at least
-$3$, which gives the site's $f_3(n)$; paged at
+$3$, which gives erdosproblems.com's $f_3(n)$; paged at
 [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|lemma_1]].
 
 **Results.**

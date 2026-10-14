@@ -27,27 +27,28 @@ $$
 R_k(C_{2n}).
 $$
 
-**Formulation.** The site's wording (page last edited 8 February 2026). $R_k(G)$
-is the least forcing order, $C_{2n}$ the cycle on $2n$ vertices with $n\ge2$,
-and the question asks for the function of both $k$ and $n$. The site's
-commentary attributes to [Er81c] the bounds
+**Formulation.** The erdosproblems.com wording (page last edited 8 February
+2026). $R_k(G)$ is the least forcing order, $C_{2n}$ the cycle on $2n$ vertices
+with $n\ge2$, and the question asks for the function of both $k$ and $n$. The
+erdosproblems.com commentary attributes to [Er81c] the bounds
 $k^{1+\frac1{2n}}\ll R_k(C_{2n})\ll k^{1+\frac1{n-1}}$; as printed, they are
 Theorems 5 and 6 of Erdős and Graham's 1975 paper, and the upper bound there
 carries an extra $\varepsilon$ in the exponent, $k^{1+(1+\varepsilon)/(n-1)}$
-for every $\varepsilon>0$, so the site's form is the exponent up to $o(1)$. The
-1981 survey, at its pages 9--14, states neither the question nor these bounds
-(below). The sources write the cycle length as $n$ where the site writes $2n$;
-this page keeps the site's $n$ and says which is meant where it matters.
+for every $\varepsilon>0$, so the erdosproblems.com form is the exponent up to
+$o(1)$. The 1981 survey, at its pages 9--14, states neither the question nor
+these bounds (below). The sources write the cycle length as $n$ where
+erdosproblems.com writes $2n$; this page keeps erdosproblems.com's $n$ and says
+which is meant where it matters.
 
-**Status.** Open, in the site's label (OPEN; page last edited 8 February 2026,
-accessed 2026-09-17). The problem has no claim page, and its frontmatter
-standing is open. No source determines $R_k(C_{2n})$ for general $k$ and $n$,
-and the search, whose scope the Current assessment records, found no proof
-claim. Exact values are known for two colors (all $n\ge3$) and for three colors
-and large $n$. For fixed $k\ge4$ and large $n$, the sources read here give the
-linear bracket $(k-1)(2n-2)+2\le R_k(C_{2n})\le (k-\frac14)2n+o(n)$. A later
-paper, not held, improves the coefficient to $k-\frac12$. For fixed $n$ and
-growing $k$ the polynomial bracket is
+**Status.** Open, in the erdosproblems.com label (OPEN; page last edited 8
+February 2026, accessed 2026-09-17). The problem has no claim page, and its
+frontmatter standing is open. No source determines $R_k(C_{2n})$ for general $k$
+and $n$, and the search, whose scope the Current assessment records, found no
+proof claim. Exact values are known for two colors (all $n\ge3$) and for three
+colors and large $n$. For fixed $k\ge4$ and large $n$, the sources read here
+give the linear bracket $(k-1)(2n-2)+2\le R_k(C_{2n})\le (k-\frac14)2n+o(n)$. A
+later paper, not held, improves the coefficient to $k-\frac12$. For fixed $n$
+and growing $k$ the polynomial bracket is
 $k^{1+1/2n}\ll R_k(C_{2n})\ll k^{1+(1+\varepsilon)/(n-1)}$. Its upper exponent
 is the truth for $n\in\{2,3,5\}$, where $R_k(C_{2n})=\Theta(k^{n/(n-1)})$ by a
 refereed paper [LiLih09]. For $C_4$ the bracket is
@@ -55,20 +56,21 @@ $k^2+2\le R_k(C_4)\le k^2+k+1$ for prime powers $k$. This is a bounded negative
 finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/555](https://www.erdosproblems.com/555), accessed
-2026-09-17: the problem page (OPEN, which the site qualifies as not resolvable
-by a finite computation; last edited 8 February 2026; source key [Er81c];
-commentary citing [Er81c] and [ChGr75]; OEIS link A389313), its one-comment
-discussion thread (20 July 2026) and its empty proof-claim tab. Cite as: T. F.
-Bloom, Erdős Problem #555, https://www.erdosproblems.com/555, accessed
+2026-09-17: the problem page (OPEN, which erdosproblems.com qualifies as not
+resolvable by a finite computation; last edited 8 February 2026; source key
+[Er81c]; commentary citing [Er81c] and [ChGr75]; OEIS link A389313), its
+one-comment discussion thread (20 July 2026) and its empty proof-claim tab. Cite
+as: T. F. Bloom, Erdős Problem #555, https://www.erdosproblems.com/555, accessed
 2026-09-17.
 
 **References.**
 
 - [Er81c] Erdős, P., Some new problems and results in graph theory and other
   branches of combinatorial mathematics. Combinatorics and graph theory
-  (Calcutta, 1980), Lecture Notes in Math. 885 (1981), 9--17. Site source key;
-  its pages 9--14 do not state the question or the bounds (p. 13 records the
-  two-color determination and the three-color conjecture). Library home:
+  (Calcutta, 1980), Lecture Notes in Math. 885 (1981), 9--17. erdosproblems.com
+  source key; its pages 9--14 do not state the question or the bounds (p. 13
+  records the two-color determination and the three-color conjecture). Library
+  home:
   [[../library/ramsey_theory/erdos_1981_new_problems_results_graph_theory_other/_index|erdos_1981_new_problems_results_graph_theory_other]].
 - [ErGr75] Erdős, P. and Graham, R. L., On partition theorems for finite graphs.
   Colloq. Math. Soc. János Bolyai 10 (1975), 515--527; Theorems 5 and 6, pp.
@@ -133,26 +135,27 @@ Bloom, Erdős Problem #555, https://www.erdosproblems.com/555, accessed
   [[../library/ramsey_theory/taranchuk_2024_new_lower_bound_multicolor_ramsey_number/_index|taranchuk_2024_new_lower_bound_multicolor_ramsey_number]].
 
 **Formalization.** None. No file `ErdosProblems/555.lean` exists in
-formal-conjectures (main; none on 2026-09-17 or 2026-10-07), the site's page
-records no formalized statement, and the community database
-(teorth/erdosproblems, read 2026-10-06) records the problem as open and
+formal-conjectures (main; none on 2026-09-17 or 2026-10-07), the
+erdosproblems.com page records no formalized statement, and the community
+database (teorth/erdosproblems, read 2026-10-06) records the problem as open and
 unformalized with no formal-proof URL; its OEIS field lists A389313.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-17).** The statement above;
-OPEN; last edited 8 February 2026. The site's commentary attributes the problem
-to Erdős and Graham, credits Erdős [Er81c] with the bounds $k^{1+\frac1{2n}}\ll
-R_k(C_{2n})\ll k^{1+\frac1{n-1}}$, and credits Chung and Graham [ChGr75] with
-the lower bound $R_k(C_4)>k^2-k+1$ for $k-1$ a prime power and the upper bound
-$R_k(C_4)\le k^2+k+1$ for every $k$; it lists the problem as #24 in the Ramsey
-Theory section of the graphs collection. The site links OEIS A389313
-(<https://oeis.org/A389313>, accessed 2026-09-17), which is the two-color
-sequence $a(n)=R(C_n,C_n)$, not a multicolor quantity. The thread has one
-comment (below). The community database record says open (last updated 31 August
-2025), unformalized.
+**The question (erdosproblems.com formulation accessed 2026-09-17).** The
+statement above; OPEN; last edited 8 February 2026. The erdosproblems.com
+commentary attributes the problem to Erdős and Graham, credits Erdős [Er81c]
+with the bounds $k^{1+\frac1{2n}}\ll R_k(C_{2n})\ll k^{1+\frac1{n-1}}$, and
+credits Chung and Graham [ChGr75] with the lower bound $R_k(C_4)>k^2-k+1$ for
+$k-1$ a prime power and the upper bound $R_k(C_4)\le k^2+k+1$ for every $k$; it
+lists the problem as
+#24 in the Ramsey Theory section of the graphs collection. erdosproblems.com
+links OEIS A389313 (<https://oeis.org/A389313>, accessed 2026-09-17), which is
+the two-color sequence $a(n)=R(C_n,C_n)$, not a multicolor quantity. The thread
+has one comment (below). The community database record says open (last updated
+31 August 2025), unformalized.
 
-**Origin and attribution.** The two bounds the site quotes are
+**Origin and attribution.** The two bounds erdosproblems.com quotes are
 [[../library/ramsey_theory/erdos_1975_partition_theorems_finite_graphs/theorem_5|Theorem 5]]
 and
 [[../library/ramsey_theory/erdos_1975_partition_theorems_finite_graphs/theorem_6|Theorem 6]]
@@ -170,9 +173,9 @@ determined $r(C_n,C_m)$ for every $n$ and $m$", the three-color conjecture
 $r(C_n,C_n,C_n)\le4n-3$ of [[problems/ramsey_theory/E0556/_index|Problem 556]],
 and the expectation, from the work with Faudree, Rousseau and Schelp, that
 $r(K(n),C_4)<n^{2-\varepsilon}$, where all they could prove was
-$r(K(n),C_r)<n^{2-\varepsilon}$ for $r\ge5$. The site's attribution is recorded
-as a discrepancy; the 1975 paper is the source of the bounds, and the survey
-lists it among its references.
+$r(K(n),C_r)<n^{2-\varepsilon}$ for $r\ge5$. The erdosproblems.com attribution
+is recorded as a discrepancy; the 1975 paper is the source of the bounds, and
+the survey lists it among its references.
 
 **Exact values.** Two colors: Bondy and Erdős's note added in proof (pp. 53--54;
 recorded on the
@@ -218,7 +221,7 @@ above. For $n\in\{2,3,5\}$ the upper exponent is the truth:
 (p. 115; European J. Combin. 30 (2009), refereed), "Fix $m=2,3$, or $5$. The
 order of magnitude of $r_k(C_{2m})$ is $k^{m/(m-1)}$ as $k\to\infty$", gives
 $R_k(C_{2n})=\Theta(k^{n/(n-1)})$ for $C_4$, $C_6$ and $C_{10}$, which is what
-the thread comment of 20 July 2026 (the site does not verify comments)
+the thread comment of 20 July 2026 (erdosproblems.com does not verify comments)
 attributes to the paper. Its lower bound is an algebraic $q^{n-1}$-coloring of
 $K_{q^n,q^n}$ with no monochromatic $C_{2n}$ (Lemmas 4 and 5, pp. 117--118),
 carried to $K_N$ by a halving argument (Lemma 1, p. 115); its upper bound is the
@@ -230,7 +233,7 @@ notes that the order $k^{m/(m-1)}$ for $r_k(C_{2m})$ would imply the order
 $n^{1+1/m}$ for $ex(n;C_{2m})$, which it records as proved for $m\in\{2,3,5\}$.
 No constant is stated.
 
-**The four-cycle.** The site's Chung--Graham bounds are
+**The four-cycle.** erdosproblems.com's Chung--Graham bounds are
 [[../library/ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/theorem_3|Theorem 3]]
 (p. 166; J. Combin. Theory Ser. B 18 (1975), refereed), "For $k-1$ a prime
 power, $r(K_{2,2};k)>k^2-k+1$", proved on p. 167 by coloring $K_{k^2-k+1}$ from
@@ -238,14 +241,14 @@ a difference set modulo $k^2-k+1$, and
 [[../library/ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/corollary_1|Corollary 1]]
 (p. 166), "$r(K_{2,2};k)\le k^2+k+1$ for $k>1$", stated without proof as a
 refinement of the paper's Theorem 1; the paper's $r(G;k)$ is the least forcing
-order, the site's $R_k(G)$. The printed hypothesis of Theorem 3 is the one the
-site states, $k-1$ a prime power; Erdős and Graham (1975, p. 523) printed the
-lower bound "for $k=$ prime power", citing the Chung--Graham paper that their
-reference list (p. 527) marks "to appear", and that condition is theirs, not the
-published theorem's. The site states the upper bound for every $k$, omitting the
-printed $k>1$, which is needed since $R_1(C_4)=4$. Lazebnik and Woldar's
-$R_k(C_4)\ge k^2+2$ for odd prime powers $k$
-(known second-hand from Taranchuk's p. 2) and
+order, erdosproblems.com's $R_k(G)$. The printed hypothesis of Theorem 3 is the
+one erdosproblems.com states, $k-1$ a prime power; Erdős and Graham (1975,
+p. 523) printed the lower bound "for $k=$ prime power", citing the Chung--Graham
+paper that their reference list (p. 527) marks "to appear", and that condition
+is theirs, not the published theorem's. erdosproblems.com states the upper bound
+for every $k$, omitting the printed $k>1$, which is needed since $R_1(C_4)=4$.
+Lazebnik and Woldar's $R_k(C_4)\ge k^2+2$ for odd prime powers $k$ (known
+second-hand from Taranchuk's p. 2) and
 [[../library/ramsey_theory/taranchuk_2024_new_lower_bound_multicolor_ramsey_number/theorem_1_3|Taranchuk's Theorem 1.3]]
 (arXiv v1 p. 3; preprint) for $k=2^e$ give $k^2+2\le R_k(C_4)\le k^2+k+1$ for
 every prime power $k$; Taranchuk's p. 7 records equality $R_k(C_4)=k^2+2$ for
@@ -256,9 +259,9 @@ that paper's reference was not located.
 **Search scope.** The status rests on these routes;
 none found a general determination or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the community
-  database record; the formal-conjectures directory on main (no file 555); OEIS
-  A389313.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  community database record; the formal-conjectures directory on main (no file
+  555); OEIS A389313.
 - The primary sources, at the pages stated: [ErGr75] pp. 521--523; [Er81c] pp.
   9--14; [DJR17] pp. 1--3 and 12; [BoEr73] pp. 53--54; [Tar24] pp. 1--3 and 7;
   [JeSk21] p. 2; and, after the search, [ChGr75] pp. 164--169 (pp.
@@ -282,15 +285,15 @@ papers.
 
 **Remaining gaps.** (1) No general formula; for $k\ge4$ even the linear
 coefficient is unknown. (2) [ChGr75], the source of the $C_4$ bounds, prints in
-its Theorem 3 the condition "$k-1$ a prime power" as the site does, so the
-differing condition on [ErGr75] p. 523 is that paper's printing, and its
+its Theorem 3 the condition "$k-1$ a prime power" as erdosproblems.com does, so
+the differing condition on [ErGr75] p. 523 is that paper's printing, and its
 Corollary 1 needs $k>1$. (3) [LiLih09]'s Theorem 1 confirms the thread comment
 for $n\in\{2,3,5\}$, and its upper bound (2) is stated without proof. [KnSu19],
 a best-known-bound source, is known here only through its abstract. (4) The
 two-color value rests on second-hand printings, one of which is a misprint. (5)
-The site's attribution of the bounds to [Er81c] could not be located in the
-survey's pages 9--14. (6) Proof coverage: statements only, claims checked;
-nothing is reviewed.
+The erdosproblems.com attribution of the bounds to [Er81c] could not be located
+in the survey's pages 9--14. (6) Proof coverage: statements only, claims
+checked; nothing is reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

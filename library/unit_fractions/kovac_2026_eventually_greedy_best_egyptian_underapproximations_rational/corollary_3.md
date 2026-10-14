@@ -61,7 +61,7 @@ each case the unique maximizing $n$-tuple is the first $n$ terms of $(b_n)$.
 For $\lambda=1$ the sequence $(b_n)$ is Sylvester's $2,3,7,43,\ldots$ and the
 limit (1.5) is the Vardi constant $1.2640847353\ldots$ (p. 5). The paper
 says this case specializes to a question of Erdős and Graham that Li and Tang
-and, independently, Kamio had already proved, and points to the site's
+and, independently, Kamio had already proved, and points to erdosproblems.com's
 Problem 315.
 
 ## Context and proof pointer

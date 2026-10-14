@@ -102,15 +102,15 @@ Source: <https://doi.org/10.1002/jgt.3190160110>.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0742/_index|#742]]: Theorem 1.2
 (preprint p. 2 = PDF p. 3, page image), the conjecture for all n > n_0 with
 n_0 computable but "a tower of 2's of height about 1000", the large-n theorem
-that the site credits in its commentary when it labeled the problem DECIDABLE;
-Conjecture 1.1 (p. 1) is the problem's inequality with an equality clause the
-problem does not ask; Fan's n <= 24 and n = 26 (p. 1), for the inequality
-(the conjecture's first part) only, are the part of the remainder n <= n_0
-that this paper attests as checked; Corollary 3.6 (p. 5) is the bound up to a
-factor 1+o(1) for every n; Theorem 5.1 (p. 11) describes, for n > n_0, every
-minimal graph of diameter 2 with more than floor((n-1)^2/4) edges; Lemma 2.1
-(p. 2) is a counting step of the proof and bears on the problem only through
-it; the site's key Fu92.
+that erdosproblems.com credits in its commentary when it labeled the problem
+DECIDABLE; Conjecture 1.1 (p. 1) is the problem's inequality with an equality
+clause the problem does not ask; Fan's n <= 24 and n = 26 (p. 1), for the
+inequality (the conjecture's first part) only, are the part of the remainder n
+<= n_0 that this paper attests as checked; Corollary 3.6 (p. 5) is the bound up
+to a factor 1+o(1) for every n; Theorem 5.1 (p. 11) describes, for n > n_0,
+every minimal graph of diameter 2 with more than floor((n-1)^2/4) edges; Lemma
+2.1 (p. 2) is a counting step of the proof and bears on the problem only through
+it; the erdosproblems.com key Fu92.
 
 **Results.**
 

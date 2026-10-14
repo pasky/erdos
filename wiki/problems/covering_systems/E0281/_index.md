@@ -31,17 +31,17 @@ every choice of congruence classes $a_i$, the density of integers not satisfying
 any of the congruences $a_i\pmod{n_i}$ for $1\leq i\leq k$ is less than
 $\epsilon$?
 
-**Status.** PROVED (LEAN). Two independent arguments posted on the site's thread
-in January 2026 answer the question yes, and the site's commentary credits both.
-Neel Somani's proof, produced with GPT-5.2 Pro, uses Haar measure on the
-profinite integers and Dini's theorem
+**Status.** PROVED (LEAN). Two independent arguments posted on the
+erdosproblems.com thread in January 2026 answer the question yes, and the
+erdosproblems.com commentary credits both. Neel Somani's proof, produced with
+GPT-5.2 Pro, uses Haar measure on the profinite integers and Dini's theorem
 ([[problems/covering_systems/E0281/claims/2026_01_17_somani|claim page]]).
 KoishiChan's elementary proof uses the Davenport-Erdős theorem on sets of
 multiples and Rogers' theorem on zero residues
 ([[problems/covering_systems/E0281/claims/2026_01_18_koishichan|claim page]]).
-Both are accepted on the curator's credit, and neither is refereed. The site's
-Lean qualification refers to the Lean formalization of Somani's argument
-recorded under Formalization.
+Both are accepted on the curator's credit, and neither is refereed. The
+erdosproblems.com Lean qualification refers to the Lean formalization of
+Somani's argument recorded under Formalization.
 
 **Source.** [erdosproblems.com/281](https://www.erdosproblems.com/281), accessed
 2026-09-04 and 2026-10-07 (page last edited 18 January 2026; 28

@@ -2,9 +2,9 @@
 name: problems/irrationality/E0250/claims/2025_10_21_romanlelan
 title: "RomanLeLan: transcendence of the sigma series at algebraic q"
 desc: |
-  A note linked in the site's thread claims that $\sum_n\sigma(n)q^n$ is
-  transcendental for every algebraic $q$ with $0<|q|<1$. The curator showed the
-  same day that the argument does not reach the series itself.
+  A note linked in the erdosproblems.com thread claims that $\sum_n\sigma(n)q^n$
+  is transcendental for every algebraic $q$ with $0<|q|<1$. The curator showed
+  the same day that the argument does not reach the series itself.
 authors: []
 status: rejected
 claim: proved
@@ -27,7 +27,7 @@ updated: 2026-10-08T01:29:59Z
 ***
 
 **Claim.** A note posted under the forum name RomanLeLan on 21 October 2025,
-linked as a PDF from the site's discussion thread for
+linked as a PDF from the erdosproblems.com discussion thread for
 [[problems/irrationality/E0250/_index|Problem 250]], claims that
 $A(q)=\sum_{n\ge1}\sigma(n)q^n$ is transcendental for every algebraic $q$
 with $0<|q|<1$; at $q=1/2$ this would answer the question yes. The post
@@ -36,8 +36,8 @@ longer available on 2026-10-07 (the link returned 404).
 
 **Depends on.** Nothing in this wiki.
 
-**Standing.** Rejected. The site's curator, Thomas Bloom, replied the same
-day that the argument shows only that $A(q)-4A(q^4)$ is transcendental. That
-implies at most that one of $A(q)$ and $A(q^4)$ is transcendental and says
+**Standing.** Rejected. The erdosproblems.com curator, Thomas Bloom, replied the
+same day that the argument shows only that $A(q)-4A(q^4)$ is transcendental.
+That implies at most that one of $A(q)$ and $A(q^4)$ is transcendental and says
 nothing about $A(q)$ itself, so the note does not prove its claim. The
 problem's answer rests on the refereed proofs of Duverney and Nesterenko.

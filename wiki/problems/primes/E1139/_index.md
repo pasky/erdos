@@ -30,23 +30,24 @@ $$
 
 **Formulation.** Prime factors are counted with multiplicity, so the
 sequence consists of $1$, the primes and the products of two primes, equal
-or not. This is how the OEIS sequence A037143 that the site links and the
-[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1139.lean)
+or not. This is how the OEIS sequence A037143 that erdosproblems.com links and
+the [formal-conjectures
+statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1139.lean)
 ($\Omega(n)\le2$) read the wording, and the claimed construction uses it,
 counting a forced square factor $p^2$ as two prime factors.
 
-**Status.** The site labeled the problem OPEN (page last edited 23 January
-2026), with the explanation that the question cannot be settled by a finite
-computation. The derived standing is `claimed`. It comes from two pending
-full claims. One is the only entry on the site's proof-claims tab: a full
-claim by Liam Price, made with GPT Pro, as the tab gives it. The claim was
-first posted in the site's thread on 2026-06-19 and filed on the tab on
-2026-07-15. The site did not accept it, and it is recorded as pending on
-[[problems/primes/E1139/claims/2026_06_19_price|Price's claim page]]. The
-other is a Lean development by Linmiao Xu, registered in the Palomar registry
-on 6 October 2026, which proves the statement from the Green--Tao asymptotic
-for linear forms in primes, a published theorem it takes as a hypothesis; it
-is recorded as pending on
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 23
+January 2026), with the explanation that the question cannot be settled by a
+finite computation. The derived standing is `claimed`. It comes from two pending
+full claims. One is the only entry on the erdosproblems.com proof-claims tab: a
+full claim by Liam Price, made with GPT Pro, as the tab gives it. The claim was
+first posted in the erdosproblems.com thread on 2026-06-19 and filed on the tab
+on 2026-07-15. erdosproblems.com did not accept it, and it is recorded as
+pending on [[problems/primes/E1139/claims/2026_06_19_price|Price's claim page]].
+The other is a Lean development by Linmiao Xu, registered in the Palomar
+registry on 6 October 2026, which proves the statement from the Green--Tao
+asymptotic for linear forms in primes, a published theorem it takes as a
+hypothesis; it is recorded as pending on
 [[problems/primes/E1139/claims/2026_10_05_xu|Xu's claim page]].
 
 **Source.** [erdosproblems.com/1139](https://www.erdosproblems.com/1139),
@@ -58,15 +59,16 @@ https://www.erdosproblems.com/1139.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04; thread accessed 2026-10-07) asks
-whether the gaps between consecutive integers with at most two prime factors
-exceed every constant multiple of $\log k$ infinitely often, $k$ the index; the
-site states the problem without commentary. Price's claim is the only entry on
-the site's proof-claims tab, and its page records the route (a Chinese-remainder
-modulus making $N+n$ have at least three prime factors for every offset
-$n\le Y$, with the Green--Tao theorem on linear equations in primes behind the
-covering) and its standing: a thread comment reports a screening check with no
-issues found, which is not a review, and the site did not accept it.
+The erdosproblems.com formulation (accessed 2026-09-04; thread accessed
+2026-10-07) asks whether the gaps between consecutive integers with at most two
+prime factors exceed every constant multiple of $\log k$ infinitely often, $k$
+the index; erdosproblems.com states the problem without commentary. Price's
+claim is the only entry on the erdosproblems.com proof-claims tab, and its page
+records the route (a Chinese-remainder modulus making $N+n$ have at least three
+prime factors for every offset $n\le Y$, with the Green--Tao theorem on linear
+equations in primes behind the covering) and its standing: a thread comment
+reports a screening check with no issues found, which is not a review, and
+erdosproblems.com did not accept it.
 
 Linmiao Xu's Lean development, registered in the Palomar registry on 6
 October 2026 and recorded on
@@ -104,7 +106,7 @@ proof was claimed and the note has no claim page. A covering-reduction
 framework posted on 2026-04-29 isolates a sparse multi-covering statement as
 the open technical point and claims no proof.
 
-**Search scope.** The site's problem page, its thread and its proof-claims tab,
-and the formal-conjectures statement file at the pinned commit; no literature
-survey of known results beyond them. Xu's Palomar registry entry and the
-development's repository at its pinned commit were also read.
+**Search scope.** The erdosproblems.com problem page, its thread and its
+proof-claims tab, and the formal-conjectures statement file at the pinned
+commit; no literature survey of known results beyond them. Xu's Palomar registry
+entry and the development's repository at its pinned commit were also read.

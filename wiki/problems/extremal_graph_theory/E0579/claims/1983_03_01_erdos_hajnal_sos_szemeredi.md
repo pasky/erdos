@@ -50,8 +50,8 @@ the
 the critical number $c(K_{2,2,2})$, the least $c$ with
 $\mathrm{RT}(n;K_{2,2,2};o(n))\le cn^2(1+o(1))$, is at most $1/8$, and the
 authors know nothing more about it; their (1.14) adds that no graph has a
-critical number strictly between $1/8$ and $1/4$. The site's commentary
-credits the four authors with this case.
+critical number strictly between $1/8$ and $1/4$. The erdosproblems.com
+commentary credits the four authors with this case.
 
 **Covers.** Every $\delta>1/8$. The theorem settles nothing for
 $\delta\le1/8$: $K_{2,2,2}\notin\mathrm{Arb}(3)$, since an independent set
@@ -74,7 +74,8 @@ $K_{2,2,2}$ remark and (1.14) are on printed pp. 71--72 and are checked at
 claims depth; the proof (Sections 2--5) is not checked. Library home:
 [[../library/ramsey_theory/erdos_1983_more_results_ramsey_turan_type_problems/_index|erdos_1983_more_results_ramsey_turan_type_problems]].
 
-**Acceptance.** Refereed: Combinatorica is a refereed journal. The site's
-commentary credits Erdős, Hajnal, Sós and Szemerédi with the case $\delta>1/8$,
-but the site labeled the problem OPEN. So the credit is context, not `reviewed`
-evidence. Nothing here is independently reviewed by this corpus.
+**Acceptance.** Refereed: Combinatorica is a refereed journal. The
+erdosproblems.com commentary credits Erdős, Hajnal, Sós and Szemerédi with the
+case $\delta>1/8$, but Bloom's catalog labeled the problem OPEN. So the credit
+is context, not `reviewed` evidence. Nothing here is independently reviewed by
+this corpus.

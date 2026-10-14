@@ -32,15 +32,15 @@ no-PDF shape); the Lean file is identified there by its size and final theorem
 and is not held.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0010/_index|Problem 10]]: the Grechuk
-variant in the site's remark, infinitely many even integers outside prime plus
-at most three powers of $2$, a partial result that leaves the question open
-and shows any answering $k$ is at least $4$.
+variant in the erdosproblems.com remark, infinitely many even integers outside
+prime plus at most three powers of $2$, a partial result that leaves the
+question open and shows any answering $k$ is at least $4$.
 
 **Read status.** Claims checked: the write-up's statement and argument were
 read in full and followed here; the Lean file's final theorem, its target type
 and its closing `exact` were read as text with a token scan, and the file was
-not built. The site's kernel acceptance is the site's record, read on its
-page, not replayed here. Nothing here is independently reviewed.
+not built. Conjectures.io's kernel acceptance is Conjectures.io's record, read
+on its page, not replayed here. Nothing here is independently reviewed.
 
 ## Overview
 
@@ -86,17 +86,17 @@ proof; the bundled pieces carry their own digests in comments.
 
 - Conjectures.io record `ce95887b-8b61-4a89-9069-9131a58906e0`, task
   `fc-379fc029-variants-grechuk-e26c885566-formalized-v1`, catalog commit
-  `379fc0298dc146df549e7061c3ede0353a5bb51f`: the site's Lean kernel accepted
-  the proof on 6 August 2026 (11:24:37 UTC per the site's decision text), with
-  the same verification checklist as the accepted record (static scan clean,
-  statement unchanged, axioms inside `propext`, `Quot.sound` and
-  `Classical.choice`, second kernel not run); the review decision is
+  `379fc0298dc146df549e7061c3ede0353a5bb51f`: the erdosproblems.com Lean kernel
+  accepted the proof on 6 August 2026 (11:24:37 UTC per Conjectures.io's
+  decision text), with the same verification checklist as the accepted record
+  (static scan clean, statement unchanged, axioms inside `propext`, `Quot.sound`
+  and `Classical.choice`, second kernel not run); the review decision is
   DUPLICATE_OF_EARLIER_SUBMISSION, "one reward is paid per stable theorem
-  target" under the site's policy v1, and no reward was paid. The
+  target" under Conjectures.io's policy v1, and no reward was paid. The
   status-defining acceptance of the variant is the earlier record
   `244ff2d0-399d-4e37-a307-4ff6f3cb3493` (kernel accepted 05:12:22 UTC,
-  approved and certified 6 August 2026, bounty paid), credited by the site to
-  a different solver and recorded with its provenance on
+  approved and certified 6 August 2026, bounty paid), credited by Conjectures.io
+  to a different solver and recorded with its provenance on
   [[../wiki/problems/additive_bases/E0010/_index|Problem 10]]. The write-up describes this
   file as independently developed; that is the source's own statement, not a
   finding checked here.
@@ -107,4 +107,4 @@ proof; the bundled pieces carry their own digests in comments.
 - erdosproblems.com lists one partial proof claim for Problem 10, submitted
   2026-08-07 10:33:54, linking this gist as both its proof and its
   formalization; the claim's summary says it is not a solution of the main
-  question, and the site records no acceptance.
+  question, and erdosproblems.com records no acceptance.

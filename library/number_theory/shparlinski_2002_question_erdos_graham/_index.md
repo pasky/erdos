@@ -9,7 +9,7 @@ desc: |
   Friedlander and Iwaniec, applied to products of two primes.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # number_theory/shparlinski_2002_question_erdos_graham
@@ -26,7 +26,7 @@ large prime p and every integer c there are k = 4 epsilon^{-3} +
 O(epsilon^{-2}) pairwise distinct integers x_1, ..., x_k in [1, p^epsilon]
 with 1/x_1 + ... + 1/x_k congruent to c modulo p; the first affirmative
 answer to the Erdős–Graham question of Problem 1180, with the bound of
-order epsilon^{-3} the site records.
+order epsilon^{-3} erdosproblems.com records.
 
 ***
 
@@ -174,10 +174,11 @@ checked against it. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E1180/_index|#1180]]: Theorem 3 (printed
 p. 446, PDF p. 2; quoted under Contents above) is the first affirmative
-answer the site records and the source of its $C_\epsilon\ll\epsilon^{-3}$:
-for every $\varepsilon>0$, every sufficiently large prime $p$ and every
-integer $c$, some $k=4\varepsilon^{-3}+O(\varepsilon^{-2})$ pairwise
-distinct integers $x_i$ in $[1,p^\varepsilon]$ satisfy the congruence (1),
+answer erdosproblems.com records and the source of its
+$C_\epsilon\ll\epsilon^{-3}$: for every $\varepsilon>0$, every sufficiently
+large prime $p$ and every integer $c$, some
+$k=4\varepsilon^{-3}+O(\varepsilon^{-2})$ pairwise distinct integers $x_i$ in
+$[1,p^\varepsilon]$ satisfy the congruence (1),
 $\sum_{i=1}^k1/x_i\equiv c\pmod p$ (p. 445). It covers sufficiently large
 $p$ only, with pairwise distinct
 summands; the problem page's authored small-prime remark, made there for
@@ -191,7 +192,7 @@ pairwise distinct $x_i$ for sufficiently large $p$; the introduction of
 (p. 1) reports the affirmative answer and its method, Karatsuba's result in
 the simplified form of Friedlander and Iwaniec, and gives no bound on $k$.
 The introduction (p. 445) attributes the $\log^{3+o(1)}p$ bound to Croot
-[1], as the site's commentary does.
+[1], as the erdosproblems.com commentary does.
 
 **Results.**
 

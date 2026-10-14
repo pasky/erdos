@@ -41,7 +41,8 @@ $$
 This is the question of [[problems/analysis/E0229/_index|Problem 229]]
 answered in the affirmative; the problem allows $k_n\geq0$, and the theorem
 gives $k_n\geq1$. The paper is not held in the library, so its construction
-is not compiled here; this page records the result as the site credits it.
+is not compiled here; this page records the result as erdosproblems.com credits
+it.
 
 **Formalization.** The statement file of the formal-conjectures project
 (`FormalConjectures/ErdosProblems/229.lean`) marks the problem solved and
@@ -57,14 +58,14 @@ asserts, for sets $S_n$ with empty derived set, a transcendental entire
 function $f$ and for each $n\geq1$ an order $k$ with $f^{(k)}$ vanishing on
 $S_n$; the file contains no `sorry` and no `axiom` command at the pinned
 commit. This project has not built the file or audited its statement against
-the problem, so it supplies no `formalized` evidence; the site's label
-PROVED (LEAN) refers to this development.
+the problem, so it supplies no `formalized` evidence; the erdosproblems.com
+label PROVED (LEAN) refers to this development.
 
 **Acceptance.** The paper is refereed: K. F. Barth and W. J. Schneider, *On a
 problem of Erdős concerning the zeros of the derivatives of an entire function*,
-Proc. Amer. Math. Soc. 32, no. 1 (March 1972), 229--232. The site's curator,
-Thomas F. Bloom, marked Problem 229 proved and credits this paper with the
-solution. The page is dated by the first day of the issue month. The publisher's
-record gives only the year 1972 and the issue, volume 32, number 1. March is
-that issue's month in the journal's 1972 schedule, and the paper's first posting
-carries no finer date.
+Proc. Amer. Math. Soc. 32, no. 1 (March 1972), 229--232. The erdosproblems.com
+curator, Thomas F. Bloom, marked Problem 229 proved and credits this paper with
+the solution. The page is dated by the first day of the issue month. The
+publisher's record gives only the year 1972 and the issue, volume 32, number 1.
+March is that issue's month in the journal's 1972 schedule, and the paper's
+first posting carries no finer date.

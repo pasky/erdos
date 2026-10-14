@@ -186,19 +186,18 @@ here is independently reviewed.
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0789/_index|#789]]: the estimate
 (1) (printed p. 105, PDF p. 1, page image), "$h(n)\gg n^{1/3}(\log n)^{1/3}$",
 proved on pp. 109--111 (PDF pp. 5--7), is a lower bound for the problem's
-$h(n)$, the improvement to $h(n)\gg(n\log n)^{1/3}$ that the site's
+$h(n)$, the improvement to $h(n)\gg(n\log n)^{1/3}$ that the erdosproblems.com
 commentary credits to [Er62c] and Choi [Ch74b].
 The paper's $h(n)$ is the problem's function for sets of $n$ nonzero
 integers (p. 105); a set of $n$ integers containing $0$ has $n-1$ nonzero
-elements, so the bound holds for the site's $A\subseteq\mathbb Z$ with the
-same order, a one-line deduction made here and not printed. The paper
-cites Erdős's 1965 survey [1] for $h(n)\gg n^{1/3}$ ("for the more general
-case concerning $n$ nonzero real numbers", footnote 1, p. 105) and Straus
-[2] for $h(n)\ll n^{1/2}$, and no other source. The printed exponent of the
-logarithm is $1/3$, the form of Erdős's 1973 survey and of the site; the
-Additions of the 1965 survey report "$h(n)>en^{1/3}\log n$" (p. 190, the
-constant printed $e$, evidently for $c$), which is not what this paper
-states or proves.
+elements, so the bound holds for erdosproblems.com's $A\subseteq\mathbb Z$ with
+the same order, a one-line deduction made here and not printed. The paper cites
+Erdős's 1965 survey [1] for $h(n)\gg n^{1/3}$ ("for the more general case
+concerning $n$ nonzero real numbers", footnote 1, p. 105) and Straus [2] for
+$h(n)\ll n^{1/2}$, and no other source. The printed exponent of the logarithm is
+$1/3$, the form of Erdős's 1973 survey and of erdosproblems.com; the Additions
+of the 1965 survey report "$h(n)>en^{1/3}\log n$" (p. 190, the constant printed
+$e$, evidently for $c$), which is not what this paper states or proves.
 
 **Results.**
 

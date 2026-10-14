@@ -57,13 +57,13 @@ Kneser's conjecture, proved by Lovász [Lo78], and the general case is Theorem
 [[problems/graph_coloring/E0780/claims/1986_11_01_alon_frankl_lovasz|Alon, Frankl and Lovász 1986]]
 states the theorem, the sharpness of the bound $n\ge kr+(t-1)(k-1)$, the
 topological proof and the acceptance evidence, a refereed journal paper credited
-by the site's curator. The case $k=2$ has its own accepted partial page,
-[[problems/graph_coloring/E0780/claims/1978_11_01_lovasz|Lovász 1978]], a
+by the erdosproblems.com curator. The case $k=2$ has its own accepted partial
+page, [[problems/graph_coloring/E0780/claims/1978_11_01_lovasz|Lovász 1978]], a
 refereed paper credited by the curator, on which the general proof rests.
 
-**Search scope.** The site's problem page, its discussion thread and its
-proof-claims list; the proof-claims list showed no other claim on the problem,
-and on 2026-10-07 the page and thread showed none.
+**Search scope.** The erdosproblems.com problem page, its discussion thread and
+its proof-claims list; the proof-claims list showed no other claim on the
+problem, and on 2026-10-07 the page and thread showed none.
 
 <!-- BEGIN problem library links -->
 

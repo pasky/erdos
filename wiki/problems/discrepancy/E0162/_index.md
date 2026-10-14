@@ -49,33 +49,33 @@ $$
 
 for some constant $c_\alpha$.
 
-**Notes.** The site's wording, accessed 2026-09-04 (last edited on the site on
-30 December 2025), fails in three places. With "largest $k$", every $k>n$
-qualifies vacuously, since $K_n$ has no induced subgraph on more than $n$
-vertices, so no largest $k$ exists. If $k\le n$ is imposed, a nearly balanced
-coloring makes $k=n$ qualify for each fixed $\alpha<1/2$ and all large $n$, so
-$F(n,\alpha)=n$ and $F(n,\alpha)\sim c_\alpha\log n$ fails. At $\alpha=1/2$ no
-induced subgraph has more than half of its edges in each color, and the opening
-"Let $\alpha>0$" conflicts with the range $0\le\alpha\le1/2$ of the display. The
-change replaces "largest" by "smallest", "$\alpha\leq 1/2$" by "$\alpha<1/2$",
-and "Let $\alpha>0$" by "Let $0\leq\alpha<1/2$"; nothing else changes. The
-evidence is Erdős's source [Er90b, printed p. 21], which defines the threshold
-as "the smallest integer for which it is possible" to give every class more than
-the $\alpha$ share on every large set, and prints the range with its endpoint,
-$0\le\alpha\le\frac1k$, which its next sentence, "$c_k'(\alpha)\to\infty$ as
-$\alpha\to1/k$", excludes. Conlon, Fox and Sudakov [CFS10, Section 6.2] print
-"largest", as the site does, with the range $0\le\alpha<1/2$. So corrected, with
-two classes, the question is that of
+**Notes.** The erdosproblems.com wording, accessed 2026-09-04 (last edited on
+erdosproblems.com on 30 December 2025), fails in three places. With "largest
+$k$", every $k>n$ qualifies vacuously, since $K_n$ has no induced subgraph on
+more than $n$ vertices, so no largest $k$ exists. If $k\le n$ is imposed, a
+nearly balanced coloring makes $k=n$ qualify for each fixed $\alpha<1/2$ and all
+large $n$, so $F(n,\alpha)=n$ and $F(n,\alpha)\sim c_\alpha\log n$ fails. At
+$\alpha=1/2$ no induced subgraph has more than half of its edges in each color,
+and the opening "Let $\alpha>0$" conflicts with the range $0\le\alpha\le1/2$ of
+the display. The change replaces "largest" by "smallest", "$\alpha\leq 1/2$" by
+"$\alpha<1/2$", and "Let $\alpha>0$" by "Let $0\leq\alpha<1/2$"; nothing else
+changes. The evidence is Erdős's source [Er90b, printed p. 21], which defines
+the threshold as "the smallest integer for which it is possible" to give every
+class more than the $\alpha$ share on every large set, and prints the range with
+its endpoint, $0\le\alpha\le\frac1k$, which its next sentence,
+"$c_k'(\alpha)\to\infty$ as $\alpha\to1/k$", excludes. Conlon, Fox and Sudakov
+[CFS10, Section 6.2] print "largest", as erdosproblems.com does, with the range
+$0\le\alpha<1/2$. So corrected, with two classes, the question is that of
 [[problems/ramsey_theory/E0563/_index|Problem 563]], which is open; the only
 known result is the two-sided bound
 $c_1(\alpha)\log n<F(n,\alpha)<c_2(\alpha)\log n$, asserted without proof by
 Erdős (display (29)) and by Conlon, Fox and Sudakov (Section 6.2). A comment in
-the site's thread raised the three failures on 28 April 2026; it is a thread
-post, so it has no claim page. The page's standing judges the modified
+the erdosproblems.com thread raised the three failures on 28 April 2026; it is a
+thread post, so it has no claim page. The page's standing judges the modified
 Statement.
 
-**Status.** Open, the site's label (page last edited 30 December 2025). The
-modified Statement is the question of Problem 563, which is open.
+**Status.** Open, the erdosproblems.com label (page last edited 30 December
+2025). The modified Statement is the question of Problem 563, which is open.
 
 **Source.** [erdosproblems.com/162](https://www.erdosproblems.com/162), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #162,

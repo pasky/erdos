@@ -7,7 +7,7 @@ desc: |
   independence number for almost all graphs, the origin of Problem 807.
 license: reserved
 created: 2026-09-18T15:55:00Z
-updated: 2026-10-08T15:03:25Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/kratzke_1988_eigensharp_graphs_decomposition_complete_bipartite
@@ -16,7 +16,7 @@ updated: 2026-10-08T15:03:25Z
 
 [[extremal_graph_theory/kratzke_1988_eigensharp_graphs_decomposition_complete_bipartite/conjecture_p638|conjecture_p638]]: The 1988 record of Erdős's conjecture that the biclique partition number of
 almost every graph equals n minus its independence number, with the star
-bound it sharpens; the origin of Problem 807 as the site cites it.
+bound it sharpens; the origin of Problem 807 as erdosproblems.com cites it.
 
 [[extremal_graph_theory/kratzke_1988_eigensharp_graphs_decomposition_complete_bipartite/example_1|example_1]]: Gives an eigensharp graph on eight vertices whose weak product with the
 triangle needs at least 12 complete bipartite subgraphs against an eigenvalue
@@ -67,8 +67,8 @@ T. Kratzke, B. Reznick and D. West, *Eigensharp graphs: decomposition into
 complete bipartite subgraphs*, Trans. Amer. Math. Soc. 308 (1988), no. 2,
 637--653, DOI 10.1090/S0002-9947-1988-0929670-5 (Crossref record read
 2026-09-18; the same article carries the JSTOR DOI 10.2307/2001095); received by
-the editors January 26, 1987; MR 929670. The site's key KRW88, whose reference
-text gives "(1988), 637-653" with no volume.
+the editors January 26, 1987; MR 929670. The erdosproblems.com key KRW88, whose
+reference text gives "(1988), 637-653" with no volume.
 
 The copy read for this card is the publisher's scan of the seventeen printed
 pages from the American
@@ -138,10 +138,10 @@ result page linked above; Lemmas 1--5 and Remarks 1--2 are described on the
 pages that use them and have no pages of their own. Nothing here is
 independently reviewed. The paper cites no source for Erdős's conjecture.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0807/_index|#807]]: the site's
-source key. P. 638 (page image) states the star bound and "Erdős conjectured
-that $\tau(G)=n-\alpha(G)$ for almost all graphs", the problem's statement
-in the paper's words, without a reference
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0807/_index|#807]]: the
+erdosproblems.com source key. P. 638 (page image) states the star bound and
+"Erdős conjectured that $\tau(G)=n-\alpha(G)$ for almost all graphs", the
+problem's statement in the paper's words, without a reference
 ([[extremal_graph_theory/kratzke_1988_eigensharp_graphs_decomposition_complete_bipartite/conjecture_p638|conjecture_p638]]).
 The next paragraph observes that the equality holds for every graph without
 $4$-cycles

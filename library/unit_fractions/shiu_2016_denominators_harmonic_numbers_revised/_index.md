@@ -85,7 +85,7 @@ trivial half (with $m=p-1$, or by
 [[unit_fractions/shiu_2016_denominators_harmonic_numbers_revised/theorem_1|Theorem 1]](iii));
 the
 [[unit_fractions/shiu_2016_denominators_harmonic_numbers_revised/conjecture_p2|Conjecture]]
-is the quantitative form of the open half and the source of the site's
+is the quantitative form of the open half and the source of erdosproblems.com's
 $x/\log x$ heuristic;
 [[unit_fractions/shiu_2016_denominators_harmonic_numbers_revised/theorem_3|Theorem 3]]
 gives each set $\{n:p\mid(a_n,L_n)\}$, $p$ an odd prime, its harmonic density,

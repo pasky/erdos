@@ -4,7 +4,7 @@ title: Problem 1201
 desc: |
   Asks whether, for all $\epsilon,\eta>0$, some $k$ makes the largest prime
   factor of $n(n+1)\cdots(n+k)$ exceed $n^{1-\epsilon}$ on a set of $n$ of lower
-  density at least $1-\eta$, as the site's curator reads the density.
+  density at least $1-\eta$, as the erdosproblems.com curator reads the density.
 tags:
 - Number theory
 - Primes
@@ -40,10 +40,10 @@ $$
 
 is at least $1-\eta$ (where $P(m)$ is the greatest prime divisor of $m$)?
 
-**Notes.** The site's wording does not say which density it asks for: "the
-density of $n$ ... is at least $1-\eta$" can ask that the set of such $n$ have
-an asymptotic density and that it be at least $1-\eta$, or only that its lower
-density be at least $1-\eta$, and the two readings differ for a set whose
+**Notes.** The erdosproblems.com wording does not say which density it asks for:
+"the density of $n$ ... is at least $1-\eta$" can ask that the set of such $n$
+have an asymptotic density and that it be at least $1-\eta$, or only that its
+lower density be at least $1-\eta$, and the two readings differ for a set whose
 density need not exist. The change inserts "lower" before "density"; nothing
 else changes. Erdős printed the question without a qualifier. [Er80], Section
 6, item 2, printed p. 107 (library card:
@@ -53,22 +53,22 @@ $P(n+1),\dots,P(n+k)$ exceeds $n^{1-\epsilon}$ "is greater than $1-\eta$"; the
 same survey writes "lower density" where it means it, in a statement of the
 same shape (printed p. 96, Gallagher's theorem on integers of the form
 $p+2^{u_1}+\cdots+2^{u_r}$), so Erdős's text is consistent with either reading
-and fixes neither. The reading is the site's curator's. In the site's thread
-Will Sawin wrote (1 May 2026) that it is reasonable to read "density at least"
-as "lower density at least" and "density at most" as "upper density at most"
-rather than requiring a proof that the density exists, and Thomas Bloom
-replied the same day: "I agree; I think this is generally how Erdős used these
-terms. (When he was specifically curious about the existence of the density he
-was generally clear about this.) I've tried to update all the problem
-descriptions to reflect this, but missed this one." Bloom's evidence is
-Erdős's general usage, and Bloom states the reading as the one the site's
-problem descriptions are meant to carry. The formal-conjectures statement
-`erdos_1201` reads the bound the same way, as a `liminf` of the counting
-ratio. Erdős's form differs from the site's in two further ways, the omission
-of $P(n)$ and "greater than" in place of "at least"; neither changes the
-answer under the modified Statement, as the Formulation shows. Under the
-modified Statement the answer is yes, pending acceptance: Chojecki's note of 30
-April 2026, recorded on
+and fixes neither. The reading is the erdosproblems.com curator's. In the
+erdosproblems.com thread Will Sawin wrote (1 May 2026) that it is reasonable to
+read "density at least" as "lower density at least" and "density at most" as
+"upper density at most" rather than requiring a proof that the density exists,
+and Thomas Bloom replied the same day: "I agree; I think this is generally how
+Erdős used these terms. (When he was specifically curious about the existence of
+the density he was generally clear about this.) I've tried to update all the
+problem descriptions to reflect this, but missed this one." Bloom's evidence is
+Erdős's general usage, and Bloom states the reading as the one the
+erdosproblems.com problem descriptions are meant to carry. The
+formal-conjectures statement `erdos_1201` reads the bound the same way, as a
+`liminf` of the counting ratio. Erdős's form differs from erdosproblems.com's in
+two further ways, the omission of $P(n)$ and "greater than" in place of "at
+least"; neither changes the answer under the modified Statement, as the
+Formulation shows. Under the modified Statement the answer is yes, pending
+acceptance: Chojecki's note of 30 April 2026, recorded on
 [[problems/primes/E1201/claims/2026_04_30_chojecki|its claim page]], deduces
 from the Matomäki--Radziwiłł theorem that the exceptional set has upper
 density tending to $0$ as $k$ grows. Under the natural-density reading the
@@ -84,9 +84,9 @@ hypothesis, which the 30 April note already covers, so it does not count toward
 the problem's standing; and the logarithmic-density results of Teräväinen that
 Tao cited settle neither reading.
 
-**Formulation.** The modified Statement reads the site's density bound as a
-lower-density bound, following the site's curator, as the Notes record. The
-lower density of a set $S$ of positive integers is
+**Formulation.** The modified Statement reads erdosproblems.com's density bound
+as a lower-density bound, following the erdosproblems.com curator, as the Notes
+record. The lower density of a set $S$ of positive integers is
 $\liminf_{N\to\infty}|S\cap[1,N]|/N$, which exists for every set, so the
 modified Statement asks that the set of $n$ with
 $P(n(n+1)\cdots(n+k))>n^{1-\epsilon}$ have lower density at least $1-\eta$,
@@ -96,40 +96,40 @@ claim on
 answers the modified Statement yes, pending acceptance. A variant asks in
 addition that the set have a natural density, which is then at least $1-\eta$;
 the variant implies the modified Statement and is open. Terence Tao wrote in
-the site's thread on 30 April 2026 that the problem remained technically open
-because the existence of the natural density of the set was not established.
-Only Chojecki's conditional note, recorded on
+the erdosproblems.com thread on 30 April 2026 that the problem remained
+technically open because the existence of the natural density of the set was not
+established. Only Chojecki's conditional note, recorded on
 [[problems/primes/E1201/claims/2026_05_01_chojecki|the conditional page]],
 bears on the variant, under an unproven hypothesis and only for
 $\epsilon<1/2$.
 
-Erdős's form in [Er80] differs from the site's in two further ways: it takes
-the largest of $P(n+1),\dots,P(n+k)$, leaving out $P(n)$, and it asks for a
-density greater than $1-\eta$ rather than at least $1-\eta$. Neither changes
+Erdős's form in [Er80] differs from erdosproblems.com's in two further ways: it
+takes the largest of $P(n+1),\dots,P(n+k)$, leaving out $P(n)$, and it asks for
+a density greater than $1-\eta$ rather than at least $1-\eta$. Neither changes
 the answer under the modified Statement. Erdős's set for $k$ is contained in
-the site's set for $k$, and the site's set for $\epsilon/2$, shifted down by
-one, is contained in Erdős's set for $k+1$ and $\epsilon$, since
+erdosproblems.com's set for $k$, and erdosproblems.com's set for $\epsilon/2$,
+shifted down by one, is contained in Erdős's set for $k+1$ and $\epsilon$, since
 $n^{1-\epsilon/2}>(n-1)^{1-\epsilon}$; a smaller $\eta$ absorbs the boundary
 value $1-\eta$. Under the natural-density variant both forms are open.
 
-**Status.** OPEN. This is the site's label, with the explanation that the
-question cannot be settled by a finite computation. The site's commentary
-records that Erdős wrote of having a proof of the case $\epsilon=1/2$. The
-derived standing departs from the label: it is claimed, with the value proved.
-The reason is that Chojecki's note of 30 April is a pending full claim on the
-modified Statement, and the site has not accepted it.
+**Status.** OPEN. This is the erdosproblems.com label, with the explanation that
+the question cannot be settled by a finite computation. The erdosproblems.com
+commentary records that Erdős wrote of having a proof of the case
+$\epsilon=1/2$. The derived standing departs from the label: it is claimed, with
+the value proved. The reason is that Chojecki's note of 30 April is a pending
+full claim on the modified Statement, and erdosproblems.com has not accepted it.
 
-The problem has no entry on the proof-claims tab. The site's thread carries two
-notes by Przemek Chojecki, both posted as written by GPT-5.5 Pro. The note of
-2026-04-30 deduces the modified Statement from the Matomäki--Radziwiłł theorem.
-It is recorded as a pending full claim on
+The problem has no entry on the proof-claims tab. The erdosproblems.com thread
+carries two notes by Przemek Chojecki, both posted as written by GPT-5.5 Pro.
+The note of 2026-04-30 deduces the modified Statement from the
+Matomäki--Radziwiłł theorem. It is recorded as a pending full claim on
 [[problems/primes/E1201/claims/2026_04_30_chojecki|Chojecki's claim page]]. The
 conditional natural-density note of 2026-05-01 is recorded as a pending
 conditional claim on
 [[problems/primes/E1201/claims/2026_05_01_chojecki|the conditional page]]. It
 reaches the natural-density variant, and through it the modified Statement,
 only under an unproven hypothesis and only for $\epsilon<1/2$, so it derives
-nothing for the standing. The site has accepted neither note.
+nothing for the standing. erdosproblems.com has accepted neither note.
 
 **Source.** [erdosproblems.com/1201](https://www.erdosproblems.com/1201),
 accessed 2026-09-04; its discussion thread accessed 2026-10-07. Cite as:
@@ -151,22 +151,23 @@ solved. The statement file is not a formalization link.
 
 ## Current assessment
 
-The site's formulation asks whether for every $\epsilon,\eta>0$ some $k$ makes
-the $n$ with $P(n(n+1)\cdots(n+k))>n^{1-\epsilon}$ a set of density at least
-$1-\eta$. The wording leaves open whether the density must exist; the modified
-Statement reads the bound as a lower-density bound, and the Formulation
+The erdosproblems.com formulation asks whether for every $\epsilon,\eta>0$ some
+$k$ makes the $n$ with $P(n(n+1)\cdots(n+k))>n^{1-\epsilon}$ a set of density at
+least $1-\eta$. The wording leaves open whether the density must exist; the
+modified Statement reads the bound as a lower-density bound, and the Formulation
 records the natural-density variant. Chojecki's note, which Chojecki posted as
 written by GPT-5.5 Pro, argues that the exceptional set has upper density
 tending to $0$ as $k$ grows, so the good set has lower density at least
 $1-\eta$ for large $k$; in the thread Terence Tao held the problem technically
 open because the existence of the natural density was not established, while
-Will Sawin and the site's curator, Thomas Bloom, read the statement's density
-bound as a lower-density bound, Bloom adding that this is how Erdős generally
-used the terms. The site's label was unchanged. The note answers the modified
-Statement, pending acceptance; the natural-density variant is open, with
-Chojecki's second note claiming the natural-density asymptotic only under an
-unproven correlation hypothesis for the large prime divisors of consecutive
-integers, as its page records. Tao's corrected pointer in the thread (30 April
+Will Sawin and the erdosproblems.com curator, Thomas Bloom, read the statement's
+density bound as a lower-density bound, Bloom adding that this is how Erdős
+generally used the terms. The erdosproblems.com label was unchanged. The note
+answers the modified Statement, pending acceptance; the natural-density variant
+is open, with Chojecki's second note claiming the natural-density asymptotic
+only under an unproven correlation hypothesis for the large prime divisors of
+consecutive integers, as its page records. Tao's corrected pointer in the thread
+(30 April
 2026) records known progress, attributing to Teräväinen's 2018 work (the
 binary-correlations paper,
 [[../library/arithmetic_functions/teravainen_2018_binary_correlations_multiplicative_functions/_index|Teräväinen 2018]],

@@ -43,7 +43,7 @@ of CRAY time by the later estimate [La97] reports (the authors' own guess was
 the Bruck–Ryser test, since $10=1^2+3^2$, so the search is the first exclusion
 beyond
 [[problems/set_systems/E0723/claims/1949_02_01_bruck_ryser|Bruck and Ryser's theorem]].
-The site credits the exclusion to the computer search through Lam's
+erdosproblems.com credits the exclusion to the computer search through Lam's
 expository account [La97], recorded on
 [[../library/set_systems/lam_1997_search_finite_projective_plane_order_10/_index|the library's card]],
 which reports the search's history and design and proves none of the results
@@ -57,8 +57,8 @@ holds for every $n\le11$, and $n=12$ is the first order it leaves undecided.
 **Acceptance.** Refereed: C. W. H. Lam, L. Thiel and S. Swiercz, The
 non-existence of finite projective planes of order 10, Canad. J. Math. **41**
 (1989), no. 6, 1117–1123. The issue is dated December 1989, and the page is
-dated to the first day of that month. The site's curator records the exclusion
-under [La97], Lam's Monthly article of 1991, and labeled the problem
+dated to the first day of that month. The erdosproblems.com curator records the
+exclusion under [La97], Lam's Monthly article of 1991, and labeled the problem
 FALSIFIABLE. This credits the partial result without settling the problem, so
 the page lists no `reviewed` evidence. The search was not repeated, and the
 paper is not held in this corpus. The account above follows Lam's expository

@@ -133,8 +133,8 @@ induction on $r$. Outside it: nothing else.
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the best lower
   bound in the refereed record on the Erdős--Rogers function $f(n)=f_{3,4}(n)$
   rests on this corollary at $r=4$ through the neighborhood argument above:
-  $f(n)\gg\sqrt{n\log n}/\log\log n$ as the site and Mubayi and Verstraete
-  print it, and $f(n)\gg\sqrt{n\log n/\log\log n}$ with the balanced
+  $f(n)\gg\sqrt{n\log n}/\log\log n$ as erdosproblems.com and Mubayi and
+  Verstraete print it, and $f(n)\gg\sqrt{n\log n/\log\log n}$ with the balanced
   threshold. The paper settles nothing on the order of $f(n)$.
 - [[../wiki/problems/ramsey_theory/E0553/_index|Problem 553]]: the independence bound the
   proof of

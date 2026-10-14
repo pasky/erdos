@@ -7,8 +7,8 @@ desc: |
   n ≥ 5 and even n ≥ 6: from an (n − 2)-regular graph with m cut cliques and a
   universal vertex, graphs with (n/2)(e − 1) + m(n/2 − 2), or m(n − 5), edges
   and no two vertices joined by n such paths; the disproof of the
-  vertex-disjoint form of the Bollobás–Erdős conjecture the site records as
-  k_m(n) > (m/2)n + C.
+  vertex-disjoint form of the Bollobás–Erdős conjecture erdosproblems.com
+  records as k_m(n) > (m/2)n + C.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -69,13 +69,13 @@ $n\ge6$ (even) and grows without bound in $m$.
 
 **In the problem's notation.** With $m$ for the number of paths and $n$ for
 the order: for every $m\ge5$ and every constant $C$ there are $n$ with
-$k_m(n)>\frac m2n+C$, the site's "for all $m\ge6$ and any $C>0$, there
+$k_m(n)>\frac m2n+C$, erdosproblems.com's "for all $m\ge6$ and any $C>0$, there
 exists an $n$ such that $k_m(n)>\frac m2n+C$" and the filed
 [[extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/_index|Sørensen and Thomassen 1974]]'s
 report (p. 143) of $f_k(n)>\frac12kn+m$ for $k>5$. A filing observation, not
 a review verdict: the printed range is odd $n\ge5$ and even $n\ge6$, so it
 includes $m=5$ (the paper's odd $n=5$, with excess $m(\frac52-2)=\frac m2$),
-where the site and Sørensen--Thomassen report the paper for $m\ge6$; at
+where erdosproblems.com and Sørensen--Thomassen report the paper for $m\ge6$; at
 $m=5$ the filed
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/bound_p282|Leonard 1973]]
 gives the same conclusion by another construction.
@@ -115,7 +115,7 @@ the threshold of the
 
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: under the
   vertex-disjoint reading, $k_m(n)-\frac m2n$ is unbounded above for every
-  odd $m\ge5$ and even $m\ge6$; the site's "Mader [Ma73]" disproof "in
+  odd $m\ge5$ and even $m\ge6$; erdosproblems.com's "Mader [Ma73]" disproof "in
   general". The exact value at $m=5$ is the filed
   [[extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/theorem_4|Sørensen and Thomassen 1974, Theorem 4]],
   and their

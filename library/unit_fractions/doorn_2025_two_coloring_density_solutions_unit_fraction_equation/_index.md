@@ -97,12 +97,12 @@ independently reviewed. Theorem 1 concerns the two-coloring case of
 Problem 303 (row below).
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0302/_index|#302]]: [[unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/theorem_2|Theorem 2]] is the
-upper bound $f(N)\le(9/10+o(1))N$ the site attributes to van Doorn; it does
-not decide whether $f(N)=(1/2+o(1))N$.
+upper bound $f(N)\le(9/10+o(1))N$ erdosproblems.com attributes to van Doorn; it
+does not decide whether $f(N)=(1/2+o(1))N$.
 [[../wiki/problems/unit_fractions/E0327/_index|#327]]: a set in which $a+b\nmid ab$ for all
 distinct $a,b$ has no solution of $1/x+1/y=1/z$ in distinct elements, so
 [[unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/theorem_2|Theorem 2]] keeps the first question's extremal function below
-$9N/10+(\log N)^3+1$, a weaker bound than the $25/28$ argument the site
+$9N/10+(\log N)^3+1$, a weaker bound than the $25/28$ argument erdosproblems.com
 records.
 [[../wiki/problems/unit_fractions/E0303/_index|#303]]: [[unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/theorem_1|Theorem 1]]
 (p. 1, read on the page image) is the two-color case with a count: every

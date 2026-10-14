@@ -57,10 +57,9 @@ the printed pages. The proof was read for its structure only.
   for all large n; it sharpens the lower end of the problem's window and
   answers neither of its questions.
 - [[../wiki/problems/primes/E0004/_index|#4]], as context only: Theorem 1
-  implies the gap bound p_{n+1} - p_n << p_n^{0.525}, and the site cites the
-  paper for the best known upper bound, written there as
-  p_{n+1} - p_n << n^{0.525+o(1)}, while the problem asks for large gaps
-  infinitely often.
+  implies the gap bound p_{n+1} - p_n << p_n^{0.525}, and erdosproblems.com
+  cites the paper for the best known upper bound, written there as p_{n+1} - p_n
+  << n^{0.525+o(1)}, while the problem asks for large gaps infinitely often.
 - [[../wiki/problems/divisors/E0692/_index|#692]]: Cambie's Theorem 3 on
   the many local maxima of the one-divisor density lists Theorem 1 among its
   dependencies.

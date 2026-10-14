@@ -28,12 +28,13 @@ $$
 1+\sum_{k}\frac{1}{a_k^{1+it}}\neq 0?
 $$
 
-**Status.** DISPROVED (LEAN). The site credits Yip [Yi25]. Yip's representation
-theorem yields, for each real $t\neq 0$, an admissible infinite sequence with
-$1+\sum_k a_k^{-(1+it)}=0$. The standing derives from
-[[problems/analysis/E0967/claims/2025_12_18_yip|Yip's claim page]]. The site's
-Lean marker refers to a third-party formalization that this corpus has not
-built. The site records the finite-sequence variant as open.
+**Status.** DISPROVED (LEAN). erdosproblems.com credits Yip [Yi25]. Yip's
+representation theorem yields, for each real $t\neq 0$, an admissible infinite
+sequence with $1+\sum_k a_k^{-(1+it)}=0$. The standing derives from
+[[problems/analysis/E0967/claims/2025_12_18_yip|Yip's claim page]]. The
+erdosproblems.com Lean marker refers to a third-party formalization that this
+corpus has not built. erdosproblems.com records the finite-sequence variant as
+open.
 
 **Source.** [erdosproblems.com/967](https://www.erdosproblems.com/967), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #967,
@@ -70,12 +71,13 @@ records]]. Erdős--Ingham's external Tauberian proof is contextual here and is
 not reconstructed in the corpus.
 
 The arXiv record, read 2026-10-07, lists only v1 and no journal reference; this
-does not establish peer-review acceptance. The site's thread carries no further
-claim on the exact question: a comment of 18 July 2026, in which the poster
-credits the observation to Claude Opus, argues that Schanuel's conjecture would
-imply nonvanishing for every finite sequence, and a comment of December 2025
-links a preprint that proposes a reformulation and research directions. Neither
-is a dated manuscript claiming this problem, so neither has a claim page.
+does not establish peer-review acceptance. The erdosproblems.com thread carries
+no further claim on the exact question: a comment of 18 July 2026, in which the
+poster credits the observation to Claude Opus, argues that Schanuel's conjecture
+would imply nonvanishing for every finite sequence, and a comment of December
+2025 links a preprint that proposes a reformulation and research directions.
+Neither is a dated manuscript claiming this problem, so neither has a claim
+page.
 
 The formal evidence has a separate limitation. In
 [the formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/a031bd4e40d6d835b12d83cf5b42ae84ea48a3b3/FormalConjectures/ErdosProblems/967.lean),

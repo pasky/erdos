@@ -60,7 +60,7 @@ matching inequality.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0551/_index|Problem 551]]: the identity for every
-  $k\ge n$ once $n\ge n_0(C)$; the site's commentary cites it as
+  $k\ge n$ once $n\ge n_0(C)$; the erdosproblems.com commentary cites it as
   "establishing the conjecture for sufficiently large $n$". Because $C$ is
   not computed, the theorem does not name the finitely many $n$ it leaves
   open.

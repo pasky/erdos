@@ -27,25 +27,26 @@ there exist a constant $c=c(k)>0$ such that if $r(n)\geq c\log n$ for all large
 $n$ then $A$ must contain a minimal basis of order $k$? (Here $r(n)$ counts the
 number of representations of $n$ as the sum of at most $k$ elements from $A$.)
 
-**Formulation.** The site counts every representation of $n$ as a sum of at most
-$k$ elements of $A$, and the standing judges the site's wording, the only
-Statement shown. Its source [ErNa88] (Part 3, Problem 3) asks instead whether an
-asymptotic basis of order $h>2$, with every large integer a sum of $h$ elements,
-must contain a minimal basis of order $h$ when $f(n)\ge c\log n$ for a
-sufficiently large constant $c$. Here $f(n)$ is the paper's count of
-representations, which for order $h$ (its abstract and Theorems 4 and 5) is the
-largest number of pairwise disjoint representations of $n$ as a sum of $h$
-elements. Larsen argued on the problem's thread (2026-05-04) that Erdős meant
-representations by exactly $k$ terms. The pending claim answers only the site's
-at-most-$k$ wording and does not address the source's version.
+**Formulation.** erdosproblems.com counts every representation of $n$ as a sum
+of at most $k$ elements of $A$, and the standing judges the erdosproblems.com
+wording, the only Statement shown. Its source [ErNa88] (Part 3, Problem 3) asks
+instead whether an asymptotic basis of order $h>2$, with every large integer a
+sum of $h$ elements, must contain a minimal basis of order $h$ when
+$f(n)\ge c\log n$ for a sufficiently large constant $c$. Here $f(n)$ is the
+paper's count of representations, which for order $h$ (its abstract and Theorems
+4 and 5) is the largest number of pairwise disjoint representations of $n$ as a
+sum of $h$ elements. Larsen argued on the problem's thread (2026-05-04) that
+Erdős meant representations by exactly $k$ terms. The pending claim answers only
+erdosproblems.com's at-most-$k$ wording and does not address the source's
+version.
 
-**Status.** OPEN, the site's label. The derived standing departs from it because
-a pending full claim,
+**Status.** OPEN, the erdosproblems.com label. The derived standing departs from
+it because a pending full claim,
 [[problems/additive_bases/E0870/claims/2026_04_24_turturean|Turturean]], answers
-the site's wording no for every $k\ge3$. This makes the problem claimed as
-disproved. The claim is not accepted. Its Lean development is not built or
-audited here. One outside validation of it is reported on the problem's thread,
-and there is no refereed publication.
+the erdosproblems.com wording no for every $k\ge3$. This makes the problem
+claimed as disproved. The claim is not accepted. Its Lean development is not
+built or audited here. One outside validation of it is reported on the problem's
+thread, and there is no refereed publication.
 
 **Source.** [erdosproblems.com/870](https://www.erdosproblems.com/870), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #870,
@@ -63,9 +64,9 @@ https://www.erdosproblems.com/870.
 - [Na74] Nathanson, Melvyn B., Minimal bases and maximal nonbases in additive
   number theory. J. Number Theory (1974), 324-333.
 
-**Formalization.** The site shows no formal statement, and the community
-database lists the problem as not formalized. The claimant's own Lean 4
-development, not built or audited here, is linked on
+**Formalization.** erdosproblems.com shows no formal statement, and the
+community database lists the problem as not formalized. The claimant's own Lean
+4 development, not built or audited here, is linked on
 [[problems/additive_bases/E0870/claims/2026_04_24_turturean|the claim page]].
 
 ## Progress

@@ -30,30 +30,30 @@ $$
 
 as $x\to \infty$?
 
-**Status.** The site labeled the problem PROVED (LEAN). The Lean qualifier is
-explained under Formalization. The status-defining source is the theorem of
-Sárközy and Szemerédi [SaSz94] (Acta Math. Hungar. 64 (1994), 237--245,
-refereed). Let $A,B$ be infinite, with $A+B$ containing every large integer and
-$A(x)B(x)\sim x$. The theorem shows that the excess $A(x)B(x)-x$ tends to
-infinity and is not even $o(A(x))$. Chen and Fang proved the conclusion under
-weaker hypotheses, first $\limsup A(x)B(x)/x<5/4$ [ChFa10] and then $<3-\sqrt3$
-[ChFa14]. They then sharpened the excess to exceed every power of
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). The Lean
+qualifier is explained under Formalization. The status-defining source is the
+theorem of Sárközy and Szemerédi [SaSz94] (Acta Math. Hungar. 64 (1994),
+237--245, refereed). Let $A,B$ be infinite, with $A+B$ containing every large
+integer and $A(x)B(x)\sim x$. The theorem shows that the excess $A(x)B(x)-x$
+tends to infinity and is not even $o(A(x))$. Chen and Fang proved the conclusion
+under weaker hypotheses, first $\limsup A(x)B(x)/x<5/4$ [ChFa10] and then
+$<3-\sqrt3$ [ChFa14]. They then sharpened the excess to exceed every power of
 $\min(A(x),B(x))$ [ChFa15]. Ruzsa [Ru17] proved
 $A(x)B(x)-x>(1-o(1))\,a^*(x)/A(x)$, where $a^*(x)=\max A\cap[1,x]$. Ruzsa's
 construction shows this is nearly best possible.
 
 The claim pages are
 [[problems/additive_combinatorics/E0785/claims/1994_09_01_sarkozy_szemeredi|Sárközy and Szemerédi]]
-(accepted on the refereed publication and the site's credit),
+(accepted on the refereed publication and the erdosproblems.com credit),
 [[problems/additive_combinatorics/E0785/claims/2010_02_05_fang_chen|Fang and Chen (2010)]],
 [[problems/additive_combinatorics/E0785/claims/2014_08_01_fang_chen|Fang and Chen (2014)]]
 and
 [[problems/additive_combinatorics/E0785/claims/2015_01_01_chen_fang|Chen and Fang (2015)]]
-(each accepted on its refereed publication and the site's credit), and
-[[problems/additive_combinatorics/E0785/claims/2015_10_03_ruzsa|Ruzsa]]
-(accepted on the refereed publication and the site's credit). Ruzsa's proof was
-formalized in Lean by van Doorn in March 2026, a development the corpus has not
-built. The last claim page is the 2026 proof claim of
+(each accepted on its refereed publication and the erdosproblems.com credit),
+and [[problems/additive_combinatorics/E0785/claims/2015_10_03_ruzsa|Ruzsa]]
+(accepted on the refereed publication and the erdosproblems.com credit). Ruzsa's
+proof was formalized in Lean by van Doorn in March 2026, a development the
+corpus has not built. The last claim page is the 2026 proof claim of
 [[problems/additive_combinatorics/E0785/claims/2026_08_05_van_doorn_liu_tang|van Doorn, Liu and Tang]]
 for Chen's conjectured threshold $3/2$, a generalization of the problem. It is
 claimed, and no review is recorded. The proof claim names GPT-5.6 Sol as the
@@ -84,9 +84,9 @@ https://www.erdosproblems.com/785.
 - [Er61] Erdős, Paul, Some unsolved problems. Magyar Tud. Akad. Mat. Kutató Int.
   Közl. (1961), 221-254.
 - [Na59] Narkiewicz, W., Remarks on a conjecture of Hanani in additive number
-  theory. Colloq. Math. 7 (1959/60), 161-165 (the site's page gives no entry
-  for this key; the reference is [4] of Ruzsa's paper and is given in the
-  site's discussion thread on 7 March 2026); not held.
+  theory. Colloq. Math. 7 (1959/60), 161-165 (the erdosproblems.com page gives
+  no entry for this key; the reference is [4] of Ruzsa's paper and is given in
+  the erdosproblems.com discussion thread on 7 March 2026); not held.
 - [Ru17] Ruzsa, Imre Z., Exact additive complements. Q. J. Math. (2017),
   227-235, doi:10.1093/qmath/haw029 (published online 13 October 2016;
   Crossref record), arXiv:1510.00812; not held.
@@ -94,13 +94,13 @@ https://www.erdosproblems.com/785.
   theory. Acta Math. Hungar. 64 (1994), no. 3, 237-245, doi:10.1007/BF01874252
   (Crossref record); not held.
 
-**Formalization.** The site's Lean qualifier is a catalog label. The statement
-`erdos_785` in
+**Formalization.** The erdosproblems.com Lean qualifier is a catalog label. The
+statement `erdos_785` in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/785.lean)
 is marked solved with a `formal_proof` link to van Doorn's Lean module
 `ErdosProblem785.lean` in the `Lean-files` repository, a formalization of
-Ruzsa's proof produced by Aristotle and posted in the site's discussion thread
-on 7 March 2026 (pinned on
+Ruzsa's proof produced by Aristotle and posted in the erdosproblems.com
+discussion thread on 7 March 2026 (pinned on
 [[problems/additive_combinatorics/E0785/claims/2015_10_03_ruzsa|Ruzsa's claim page]]);
 the formal-conjectures catalog also states variants for the results of Danzer,
 Narkiewicz, Chen and Fang and Ruzsa, with Chen's $3/2$ conjecture in its open

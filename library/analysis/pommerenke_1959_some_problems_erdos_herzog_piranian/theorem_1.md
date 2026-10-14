@@ -73,8 +73,8 @@ page).
 - [[../wiki/problems/analysis/E1043/_index|Problem 1043]]: the problem's question is the
   first part of the 1958 Problem 10, the projection of $\{|f|\le1\}$ onto a
   line; this theorem answers the second part, the support-point question,
-  and the paper does not treat the first. The site attributes the negative
-  answer to the projection question to Pommerenke's 1961 paper "using his
-  previous work [Po59]"; that paper is filed as
+  and the paper does not treat the first. erdosproblems.com attributes the
+  negative answer to the projection question to Pommerenke's 1961 paper "using
+  his previous work [Po59]"; that paper is filed as
   [[analysis/pommerenke_1961_metric_properties_complex_polynomials/_index|pommerenke_1961_metric_properties_complex_polynomials]],
   and what it takes from this one is not read here.

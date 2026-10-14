@@ -29,24 +29,24 @@ B$.
 
 Estimate $g(n)$.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 23
-January 2026). The forbidden sums are those of two distinct elements of
-$B$, and they are tested against the whole set $A$, not only against $B$:
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 23 January 2026). The forbidden sums are those of two distinct elements
+of $B$, and they are tested against the whole set $A$, not only against $B$:
 this is Erdős's $\phi(n)$ of 1965 ("$a_{i_j}+a_{i_l}\ne a_r$, $1\le j<l\le
 k$, $1\le r\le n$", printed p. 187), the $g(n)$ of his 1973 survey, the
 $\lambda(A)$ and $l(n)$ of [Ru05] (over sets of positive integers) and the
 $M(A)$ and $\phi(n)$ of the later sources below. The distinctness is
 needed, as Erdős notes on the same page: with $j=l$ allowed, $A=\{2^i\}$
-would give $\phi(n)=1$. The site records Choi's observation that one may
-assume $A\subset\mathbb Z$; Choi's 1971 paper is not held, and the
+would give $\phi(n)=1$. erdosproblems.com records Choi's observation that one
+may assume $A\subset\mathbb Z$; Choi's 1971 paper is not held, and the
 observation is attested by the refereed paper of Baltz, Schoen and
 Srivastav (p. 171: "Choi observed that in Erdős's problem it is enough to
 consider the case when all $a_1,\dots,a_n$ are non-negative integers") and
-by Beker's footnote 1. The integer results below therefore bound the site's
-real-set function. The site's source keys are [Er65, p. 187], [Er73,
-p. 130] and [Va99, 1.22].
+by Beker's footnote 1. The integer results below therefore bound
+erdosproblems.com's real-set function. The erdosproblems.com source keys are
+[Er65, p. 187], [Er73, p. 130] and [Va99, 1.22].
 
-**Status.** Open, the site's label. The bounds in hand are
+**Status.** Open, the erdosproblems.com label. The bounds in hand are
 $(\log n)^{1+c}\ll g(n)\ll\exp(O(\sqrt{\log n}))$, and each is an accepted
 partial claim. The lower bound is Theorem 1.2 of Sanders (Canad. J. Math. 73
 (2021), refereed;
@@ -67,16 +67,17 @@ $\gg\log n$ (Erdős 1965, stated without proof). The second is Choi's
 $\ll n^{2/5+o(1)}$ (1971, not held, attested by Erdős 1973 and the later papers;
 [[problems/additive_combinatorics/E0787/claims/1971_12_01_choi|its claim page]]).
 The third is the refereed refinement $O(n^{2/5}(\log n)^{2/5})$ of Baltz, Schoen
-and Srivastav (2000). It has no claim page of its own, because the site does not
-cite it and Ruzsa's bound supersedes it. No result determines the order of
-growth. Apart from Zhi's wider range of exponents, the search dated 2026-09-18
-UTC whose scope the Current assessment records found no proof claim, no citing
-paper improving either bound and no adoption of any such result by the site.
-This is a bounded negative finding, not a certificate of openness.
+and Srivastav (2000). It has no claim page of its own, because erdosproblems.com
+does not cite it and Ruzsa's bound supersedes it. No result determines the order
+of growth. Apart from Zhi's wider range of exponents, the search dated
+2026-09-18 UTC whose scope the Current assessment records found no proof claim,
+no citing paper improving either bound and no adoption of any such result by
+erdosproblems.com. This is a bounded negative finding, not a certificate of
+openness.
 
 **Source.** [erdosproblems.com/787](https://www.erdosproblems.com/787),
-accessed 2026-09-18: the problem page (OPEN, a label the site explains as
-not settled by any finite computation; last edited 23 January 2026; source
+accessed 2026-09-18: the problem page (OPEN, a label erdosproblems.com explains
+as not settled by any finite computation; last edited 23 January 2026; source
 keys [Er65, p.187], [Er73, p.130], [Va99, 1.22]; commentary citing [Ch71],
 [Sa21], [Ru05], [Be25]; indicators "Formalised statement? No" and the OEIS
 indicator "Possible"), its five-comment discussion thread (7 November to 20
@@ -121,7 +122,7 @@ Problem #787, https://www.erdosproblems.com/787, accessed 2026-09-18.
 - [BSS00] Baltz, A., Schoen, T. and Srivastav, A., Probabilistic construction of
   small strongly sum-free sets via large Sidon sets. Colloq. Math. 86 (2000),
   no. 2, 171--176, DOI 10.4064/cm-86-2-171-176 (Crossref record). Corollary 3,
-  printed p. 174. Not a key of the site's page. Library home:
+  printed p. 174. Not a key of the erdosproblems.com page. Library home:
   [[../library/additive_combinatorics/baltz_2000_probabilistic_construction_small_strongly_sum_free/_index|baltz_2000_probabilistic_construction_small_strongly_sum_free]];
   result page
   [[../library/additive_combinatorics/baltz_2000_probabilistic_construction_small_strongly_sum_free/corollary_3|Corollary 3]].
@@ -148,25 +149,25 @@ Problem #787, https://www.erdosproblems.com/787, accessed 2026-09-18.
 - [Zh26] Zhi, Y., Branch-sensitive density increments for $k$-configurations.
   arXiv:2610.03750v1 (25 September 2026; 20 pages), the only version. Theorem
   1.1, p. 3; Theorem 1.3, p. 3; the proof of Theorem 1.3, pp. 16--17. Not a key
-  of the site's page; not held.
+  of the erdosproblems.com page; not held.
 
 **Formalization.** None in formal-conjectures:
 google-deepmind/formal-conjectures had no file `ErdosProblems/787.lean` on
-2026-09-18, nor on 2026-10-07, and the site's indicator read "Formalised
-statement? No (create one)" on 2026-09-18 and on 2026-10-06. The community
-database (teorth/erdosproblems) recorded, on 2026-09-18, the problem open
-(last update 31 August 2025), the statement not formalized and an OEIS
+2026-09-18, nor on 2026-10-07, and the erdosproblems.com indicator read
+"Formalised statement? No (create one)" on 2026-09-18 and on 2026-10-06. The
+community database (teorth/erdosproblems) recorded, on 2026-09-18, the problem
+open (last update 31 August 2025), the statement not formalized and an OEIS
 entry marked "possible".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-OPEN, a label the site explains as not settled by any finite computation;
-last edited 23 January 2026. The commentary, in this page's words: the
-function goes back to Erdős and Moser; Choi observed that one may take
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, a label erdosproblems.com explains as not settled by any finite
+computation; last edited 23 January 2026. The commentary, in this page's words:
+the function goes back to Erdős and Moser; Choi observed that one may take
 $A\subset\mathbb Z$ without loss of generality; Klarner proved
 $g(n)\gg\log n$, which a greedy construction already gives; Choi [Ch71]
-proved $g(n)\ll n^{2/5+o(1)}$; the site records
+proved $g(n)\ll n^{2/5+o(1)}$; erdosproblems.com records
 $(\log n)^{1+c}\ll g(n)\ll\exp(\sqrt{\log n})$, with an unspecified
 constant $c>0$, as the best bounds, Sanders's [Sa21] below and Ruzsa's
 [Ru05] above; and Beker [Be25] has proved $(\log n)^{1+1/68+o(1)}\ll g(n)$.
@@ -174,11 +175,11 @@ The thread (five comments): on 7 November 2025 a comment points to the
 first superlogarithmic bound of Sudakov, Szemerédi and Vu; on 12 December
 2025 three comments discuss that an instruction to estimate $g(n)$ is not a
 yes-or-no conjecture and that Choi's integer reduction is standard (the
-site's statement was edited in response); on 20 December 2025 the site's
-author writes that Erdős often posed his problems as invitations to
-investigate, and that this one would move from open to solved once the
-right order of growth of $g(n)$ is found, perhaps up to lower-order terms.
-The proof-claim tab is empty. The community database record says open.
+erdosproblems.com statement was edited in response); on 20 December 2025
+erdosproblems.com's author writes that Erdős often posed his problems as
+invitations to investigate, and that this one would move from open to solved
+once the right order of growth of $g(n)$ is found, perhaps up to lower-order
+terms. The proof-claim tab is empty. The community database record says open.
 
 **The origin.** [Er65], printed p. 187, defines the function in Erdős's
 words: "Denote by $\phi(n)$ the largest integer so that if
@@ -248,16 +249,17 @@ $N\ge\exp(Ck^{68}\log(2/\alpha)^{16})$, $C$ an absolute constant, contains a
 non-degenerate $k$-configuration); the paper says this gives
 $\phi(n)=\Omega((\log n)^{1+c})$ with $c=1/69$ and claims no improvement in the
 value of $c$ over [Sa21], noting that the $k$-configuration route is limited to
-$c<1$. The site's display $(\log n)^{1+1/68+o(1)}$ is its rendering of the range
-$c<1/68$. Neither proof is reviewed in this corpus. [Be25] had one arXiv version
-and no journal record on 2026-09-18 (Crossref bibliographic query). The v2 of
-[Be25], of 2 October 2026, is accepted by Int. Math. Res. Not. and had no
-journal record on 2026-10-07; no citing record was found (Semantic Scholar,
-2026-09-18). [Zh26], an unrefereed preprint of September 2026, reruns Beker's
-density-increment argument with the outcomes of its graph-counting step kept
-apart, each charged its own density gain and rank cost. Its Theorem 1.1 (p. 3)
-lowers the leading power of $k$ in Beker's finite-group bound from $k^{68}$ to
-$k^{36}$, and its Theorem 1.3 (p. 3) is Beker's Theorem 1.2 for every $c<1/36$
+$c<1$. The erdosproblems.com display $(\log n)^{1+1/68+o(1)}$ is its rendering
+of the range $c<1/68$. Neither proof is reviewed in this corpus. [Be25] had one
+arXiv version and no journal record on 2026-09-18 (Crossref bibliographic
+query). The v2 of [Be25], of 2 October 2026, is accepted by Int. Math. Res. Not.
+and had no journal record on 2026-10-07; no citing record was found (Semantic
+Scholar, 2026-09-18). [Zh26], an unrefereed preprint of September 2026, reruns
+Beker's density-increment argument with the outcomes of its graph-counting step
+kept apart, each charged its own density gain and rank cost. Its Theorem 1.1
+(p. 3) lowers the leading power of $k$ in Beker's finite-group bound from
+$k^{68}$ to $k^{36}$, and its Theorem 1.3 (p. 3) is Beker's Theorem 1.2 for
+every $c<1/36$
 ([[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|its claim page]]).
 Its proof is not reviewed in this corpus either. The lower bound of record
 therefore rests on the refereed [Sa21], with [Be25] as a second proof under the
@@ -271,19 +273,19 @@ held.
 [[../library/additive_combinatorics/baltz_2000_probabilistic_construction_small_strongly_sum_free/corollary_3|Corollary 3]]
 of [BSS00], printed p. 174: "$g(n)=O(n^{2/5}\ln^{2/5}n)$" for "the maximum
 cardinality of a strongly sum-free set" among $n$ distinct reals (the paper's p.
-171 definition is the site's condition), deduced from its Theorem 2 on Choi's
-interval function by the block construction
+171 definition is erdosproblems.com's condition), deduced from its Theorem 2 on
+Choi's interval function by the block construction
 $\bigcup_{i\le k}2^{i-1}[m,2m)\cup2^{k-1}S'$ with $m=\lfloor n^{3/5}\rfloor$; a
 refereed refinement of Choi's exponent. Ruzsa's bound is the
 [[../library/additive_combinatorics/ruzsa_2005_sum_avoiding_subsets/theorem|Theorem]]
 of [Ru05], printed p. 77: "$\frac2{\log3}\log n-1<l(n)\ll e^{c\sqrt{\log n}}$
 with arbitrary $c>\sqrt{8\log2}$", where $\lambda(A)$ is "the maximal
 cardinality of sum-avoiding subsets of $A$" ($S\subset A$ with $s+s'\notin A$
-for any $s\ne s'$ in $S$, the site's condition on $B$) and
+for any $s\ne s'$ in $S$, erdosproblems.com's condition on $B$) and
 $l(n)=\min\{\lambda(A):A\subset\mathbb N,\ |A|=n\}$. The set the proof builds is
-a set of positive integers, so $g(n)\le l(n)$ and the upper half bounds the
-site's real-set function with no reduction step. The construction (§ 2, pp.
-78--79): for $B_r=\{x\in\mathbb Z^d:\sum x_i^2\le r\}$ the union
+a set of positive integers, so $g(n)\le l(n)$ and the upper half bounds
+erdosproblems.com's real-set function with no reduction step. The construction
+(§ 2, pp. 78--79): for $B_r=\{x\in\mathbb Z^d:\sum x_i^2\le r\}$ the union
 $U_r=\bigcup_{i<r}2^i(B_{r-i}+y)$ of dilated lattice balls has
 $\lambda(U_r)\le2^dr$, since among more than $2^d$ points of one layer two agree
 coordinatewise modulo 2 and their sum lies in the next layer; with
@@ -297,15 +299,15 @@ Behrend's adapted, and
 ([Sa21], p. 1: "Given a natural number there is a set $A$ of that size such that
 $M(A)=\exp(O(\sqrt{\log|A|}))$") restates it with the exponent suppressed
 (Beker, p. 1: "Ruzsa [20] was the first to prove that $\phi(n)$ grows
-subpolynomially in $n$"). This is the site's upper bound; its proof is not
-independently reviewed.
+subpolynomially in $n$"). This is erdosproblems.com's upper bound; its proof is
+not independently reviewed.
 
 **Search scope (2026-09-18 UTC).** None of the routes below found an improvement
 of either bound beyond the range of exponents of [Zh26], a proof claim, or a
 journal publication of [Be25].
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-18; the formal-conjectures directory listing (no file); the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures directory listing (no file); the
   community database record.
 - arXiv: the abstract pages of 1804.03356 (three versions; the journal
   reference and DOI) and 2501.10203 (then one version; no journal reference);
@@ -324,8 +326,8 @@ journal publication of [Be25].
   versions; no journal reference) and 2610.03750 ([Zh26], one version; no
   journal reference); the first arXiv API query above, rerun (two records,
   [Be25] and [Zh26]); Crossref title queries for [Be25] and [Zh26] (no
-  journal record); the site's problem page (still last edited 23 January
-  2026).
+  journal record); the erdosproblems.com problem page (still last edited 23
+  January 2026).
 - The primary sources: [Er65] pp. 187 and 190, [Er73] p. 130, [Va99] item
   1.22, [Sa21] pp. 1--3, [Be25] pp. 1--3 with Section 2 and the proof of
   Proposition 3.2 in v1 and v2, [Zh26] in full and [BSS00] pp. 171--174.

@@ -30,9 +30,9 @@ $$
 \ll \frac{n}{\sqrt{\log n}}?
 $$
 
-**Status.** Proved. The site's label was PROVED (LEAN). The formalization that
-this suffix marks assumes Bernays' theorem as an axiom, and this corpus has not
-built it. No `formalized` evidence is therefore credited.
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN). The
+formalization that this suffix marks assumes Bernays' theorem as an axiom, and
+this corpus has not built it. No `formalized` evidence is therefore credited.
 
 **Source.** [erdosproblems.com/659](https://www.erdosproblems.com/659), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #659,
@@ -65,15 +65,16 @@ https://www.erdosproblems.com/659.
   required local property and
   $O(n/\sqrt{\log n})$ total distances. No stronger claim is needed for this
   question.
-- **Status and source search.** The site snapshot was accessed 2026-09-04.
-  arXiv:2601.09102v2 (16 January 2026) is the latest version (arXiv record,
-  2026-09-06). No broader literature or publication search is recorded here.
+- **Status and source search.** The erdosproblems.com snapshot was accessed
+  2026-09-04. arXiv:2601.09102v2 (16 January 2026) is the latest version (arXiv
+  record, 2026-09-06). No broader literature or publication search is recorded
+  here.
 - **Other claims.** Feng and coauthors' report on the Aletheia research agent
   gives an independent proof of the same answer on the lattice of the ring of
   integers of $\mathbb Q(\sqrt{-7})$, generated before Grayzel's note was
   written; it is recorded as a claimed full claim on
   [[problems/distance_problems/E0659/claims/2026_01_29_feng|Feng and coauthors' claim page]],
-  since the site credits Grayzel. Sheffer's 2014 survey
+  since erdosproblems.com credits Grayzel. Sheffer's 2014 survey
   ([[../library/distance_problems/sheffer_2014_distinct_distances_open_problems_current_bounds/_index|source card]])
   lists $\phi(n,4,3)=O(n/\sqrt{\log n})$ in its Table 3, the affirmative
   answer to this question, but its argument (p. 14) excludes only squares and
@@ -109,9 +110,9 @@ Thomas Bloom confirmed the mathematical solution on 13 January 2026 in the
 [public discussion](https://www.erdosproblems.com/forum/thread/659).
 On 14 January, Boris Alexeev reported an Aristotle formalization that assumes
 Bernays' theorem as an axiom; Terence Tao explicitly accepted that level of
-verification for the public record. The site's label PROVED (LEAN) therefore
-carries this external-theorem qualification here. No local Lean build or
-verification from Mathlib's foundational axioms alone is recorded here. The
+verification for the public record. The erdosproblems.com label PROVED (LEAN)
+therefore carries this external-theorem qualification here. No local Lean build
+or verification from Mathlib's foundational axioms alone is recorded here. The
 postings, the acceptance and the formalization's pinned location are on
 [[problems/distance_problems/E0659/claims/2026_01_13_grayzel|the claim page]].
 

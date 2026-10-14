@@ -33,8 +33,8 @@ Erdős and Graham wrote in 1980 (p. 31) that it is "not difficult to construct
 irrationals for which the result fails", without a proof or reference, and
 Nathanson (2023, Open problem (4)) asked for a proof or disproof. The
 corollary settles the existence question in the strongest sense and leaves
-the construction open; the site's commentary (2026-09-17) still lists an
-explicit example as open. Read depth: claims checked; the deduction was read
+the construction open; the erdosproblems.com commentary (2026-09-17) still lists
+an explicit example as open. Read depth: claims checked; the deduction was read
 in full.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0206/_index|#206]]: a

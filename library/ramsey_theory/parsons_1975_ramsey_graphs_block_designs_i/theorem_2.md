@@ -53,4 +53,5 @@ Section 3).
 
 - [[../wiki/problems/ramsey_theory/E0552/_index|Problem 552]]: the exact value
   $R(C_4,S_n)=n+\lceil\sqrt n\rceil+1$ at $n=q^2$ for prime powers $q$, one
-  of the two infinite families the site's commentary cites from Parsons.
+  of the two infinite families the erdosproblems.com commentary cites from
+  Parsons.

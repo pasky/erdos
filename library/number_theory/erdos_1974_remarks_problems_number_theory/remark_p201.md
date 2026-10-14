@@ -42,12 +42,12 @@ $f(x)>x(\log\log x)^{c\log\log\log x}/\log x$.
 immediately clear if there is an asymptotic formula for $f(x)$ in terms of
 elementary functions. I can not prove that $\lim_{x=\infty}f(2x)/f(x)$
 exists; if it exists it must be 2." These are the two questions
-of [[../wiki/problems/arithmetic_functions/E0416/_index|#416]], whose site page cites this
-paper as [Er74b]; the doubling question is the one answered by the 2026 Lean
-proof recorded on that page. The page's next display, (3), asks whether
-$\lim A(x)/f(x)$ exists for the number $A(x)$ of totient values $n<x$ all
-of whose preimages exceed $x$; that reads as the complement form of the
-ratio $V'(x)/V(x)$ of #417 and is not extracted here.
+of [[../wiki/problems/arithmetic_functions/E0416/_index|#416]], whose
+erdosproblems.com page cites this paper as [Er74b]; the doubling question is the
+one answered by the 2026 Lean proof recorded on that page. The page's next
+display, (3), asks whether $\lim A(x)/f(x)$ exists for the number $A(x)$ of
+totient values $n<x$ all of whose preimages exceed $x$; that reads as the
+complement form of the ratio $V'(x)/V(x)$ of #417 and is not extracted here.
 
 **Dependencies.** None; a record of statements, not a deduction.
 

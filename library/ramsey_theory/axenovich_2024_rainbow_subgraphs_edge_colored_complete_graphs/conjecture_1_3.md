@@ -49,7 +49,7 @@ it were read clause by clause. A conjecture; nothing to prove here.
 
 ## Proof pointer
 
-None; a conjecture. A forum comment of 15 September 2026 on the site's
+None; a conjecture. A forum comment of 15 September 2026 on erdosproblems.com's
 Problem 811 page claims a Lean-verified proof of the whole conjecture; it is
 recorded on the problem page as an unreviewed claim with its provenance,
 not as a result.

@@ -37,11 +37,11 @@ as $f$ ranges over all polynomials of the shape $\prod (z-z_i)$ with $z_i\in F$.
 Is $\mu(F)$ determined by the transfinite diameter of $F$? In particular, is
 $\mu(F)=0$ whenever the transfinite diameter of $F$ is $\geq 1$?
 
-**Status.** Open. The site labeled the problem OPEN. Its commentary (last edited
-1 February 2026) credits Aletheia [Fe26] with the negative answer to the first
-question. The proof-claims tab carries three full proof claims on the second
-question, with AI systems named on the tab. They are by shlummi and by Declan
-Gessel (6 September 2026), and by Ioannis Tzachristas (9 September 2026).
+**Status.** Open. Bloom's catalog labeled the problem OPEN. Its commentary (last
+edited 1 February 2026) credits Aletheia [Fe26] with the negative answer to the
+first question. The proof-claims tab carries three full proof claims on the
+second question, with AI systems named on the tab. They are by shlummi and by
+Declan Gessel (6 September 2026), and by Ioannis Tzachristas (9 September 2026).
 
 The accepted partial claims are
 [[problems/analysis/E1040/claims/1958_12_01_erdos_herzog_piranian|the segment
@@ -79,13 +79,13 @@ The claimant-run Lean developments are described on the claim pages.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks two things of $\mu(F)$, the
-infimum of the area of $\{z:|f(z)|<1\}$ over monic $f$ with all zeros in a
-closed infinite $F\subseteq\mathbb C$: whether $\mu(F)$ is determined by the
-transfinite diameter of $F$, and in particular whether $\mu(F)=0$ whenever that
-diameter is at least $1$. Erdős, Herzog and Piranian [EHP58] noted that
-$\mu(F)=0$ when $F$ is a line segment or closed disc of transfinite diameter at
-least $1$, the accepted partial claim on
+The erdosproblems.com formulation (accessed 2026-09-04) asks two things of
+$\mu(F)$, the infimum of the area of $\{z:|f(z)|<1\}$ over monic $f$ with all
+zeros in a closed infinite $F\subseteq\mathbb C$: whether $\mu(F)$ is determined
+by the transfinite diameter of $F$, and in particular whether $\mu(F)=0$
+whenever that diameter is at least $1$. Erdős, Herzog and Piranian [EHP58] noted
+that $\mu(F)=0$ when $F$ is a line segment or closed disc of transfinite
+diameter at least $1$, the accepted partial claim on
 [[problems/analysis/E1040/claims/1958_12_01_erdos_herzog_piranian|their page]],
 and showed that a transfinite diameter below $1$ forces the sublevel set to
 contain a disc of radius bounded below in terms of $F$; Erdős and Netanyahu
@@ -96,9 +96,9 @@ records.
 
 The first question has the answer no. The Aletheia agent of Feng and coauthors
 produced two countable compact sets of transfinite diameter $0$ with
-$\mu(F_1)\ge\pi/4$ and $\mu(F_2)$ arbitrarily small; the site's commentary
-credits the result on a problem the site labeled OPEN, which is not acceptance,
-and it is the pending partial claim on
+$\mu(F_1)\ge\pi/4$ and $\mu(F_2)$ arbitrarily small; the erdosproblems.com
+commentary credits the result on a problem Bloom's catalog labeled OPEN, which
+is not acceptance, and it is the pending partial claim on
 [[problems/analysis/E1040/claims/2026_01_29_feng|Aletheia's page]]. Ghosh and
 Ramachandran's Example 2.1 gives two compact sets of any prescribed capacity in
 $(0,1)$ with different values of $\mu$, the accepted claim on the first
@@ -136,7 +136,7 @@ the infimum of the finite Fekete diameters, and credits ChatGPT and OpenAI Codex
 using GPT-6 (Astra) in its README; it is the pending partial claim on
 [[problems/analysis/E1040/claims/2026_09_06_kitamura|Kitamura's page]], which
 states the definitional bridge the development leaves open. None of the four was
-refereed or credited by the site, the corpus has built none of the Lean
+refereed or credited by erdosproblems.com, the corpus has built none of the Lean
 developments, and no proof was checked here.
 
 Every claim on the problem is partial, and the page lists the problem's two
@@ -148,9 +148,9 @@ claim the second part in full, so the frontmatter derives the standing claimed
 with claim answered: a no to the first question and a pending yes to the second.
 The results on ranges of the second question, the accepted segment, disc and
 capacity-above-one cases and the pending smooth capacity-one case, settle no
-part by themselves. Search scope: the site page, its thread and proof-claims
-tab, the arXiv and Crossref records of the papers named above, the claimants'
-repositories and the Jig record; no wider literature search was made.
+part by themselves. Search scope: the erdosproblems.com page, its thread and
+proof-claims tab, the arXiv and Crossref records of the papers named above, the
+claimants' repositories and the Jig record; no wider literature search was made.
 Wang's preprint on Problem 1002, listed below as library material, is linked
 there as a technique note and claims nothing here.
 <!-- BEGIN problem library links -->

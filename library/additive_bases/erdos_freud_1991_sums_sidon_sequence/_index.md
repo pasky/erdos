@@ -213,8 +213,8 @@ not known to have appeared (as
 p. 2098, says). Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0819/_index|#819]]: Proposition
-1 (printed p. 203, PDF p. 8) is the pair of bounds the site attributes to
-the paper: for any $\varepsilon>0$ and $n$ large enough,
+1 (printed p. 203, PDF p. 8) is the pair of bounds erdosproblems.com attributes
+to the paper: for any $\varepsilon>0$ and $n$ large enough,
 $3/8-\varepsilon\le T(n)/n\le1/2+\varepsilon$, where $T(n)$ is the maximal
 number of different sums $a_i+a_j$ below $n$ of a set $1\le a_1<\cdots<
 a_k\le n$ with $k\le(1+o(1))n^{1/2}$. The problem's $f(N)$ fixes $|A|=
@@ -223,8 +223,8 @@ $o(N)$, since adding elements of $[1,N]$ loses no sum and removing
 $o(N^{1/2})$ elements from a set of $O(N^{1/2})$ loses $o(N)$ sums (a
 one-line step made here). The lower bound is the reflected Sidon set
 $B\cup(3n/4-B)$ for a maximally dense Sidon set $B\subset[1,n/4]$, and the
-site's remark that the problem "is closely connected to the size of the
-largest quasi-Sidon set" rests on the paper's statement (p. 204) that
+erdosproblems.com remark that the problem "is closely connected to the size of
+the largest quasi-Sidon set" rests on the paper's statement (p. 204) that
 improving the upper bound of Proposition 1 and lowering the coefficient in
 $k\le(2+o(1))n^{1/2}$ below $\sqrt2$ are equivalent problems.
 [[../wiki/problems/additive_bases/E0840/_index|#840]]: the Definition (p. 203) is the

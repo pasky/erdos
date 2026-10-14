@@ -65,7 +65,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1008/_index|Problem 1008]]: the site's source
-  passage ([Er71, p. 97]). The site's statement is the revised conjecture
-  with $\gg m^{2/3}$; its commentary repeats Folkman's counterexample
-  $K_{n,n^2}$ and the footnote's attribution to Szemerédi.
+- [[../wiki/problems/extremal_graph_theory/E1008/_index|Problem 1008]]: the
+  erdosproblems.com source passage ([Er71, p. 97]). The erdosproblems.com
+  statement is the revised conjecture with $\gg m^{2/3}$; its commentary repeats
+  Folkman's counterexample $K_{n,n^2}$ and the footnote's attribution to
+  Szemerédi.

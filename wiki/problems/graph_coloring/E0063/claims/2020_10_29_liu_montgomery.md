@@ -39,7 +39,7 @@ $L\geq d/(10\log^{12}d)$, a cycle of every even length in $[\log^8L,L]$. Their
 paper draws from it that the powers of two are unavoidable at high average
 degree, answering a 1984 question of Erdős for finite graphs
 ([[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/corollary_1_3|Corollary 1.3]]).
-The site's curator credits Zach Hunter with the deduction of
+The erdosproblems.com curator credits Zach Hunter with the deduction of
 [[problems/graph_coloring/E0063/_index|Problem 63]]: if $G$ has infinite
 chromatic number, de Bruijn–Erdős compactness gives, for every $r$, a finite
 subgraph of chromatic number at least $r$, and a critical subgraph of it has
@@ -50,8 +50,8 @@ exponents so found are unbounded, so $G$ has a cycle of length $2^n$ for
 infinitely many $n$. The library's
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/powers_of_two_in_infinite_chromatic_graphs|derivation]]
 records the argument. The page is dated by the first posting of the theorem
-it rests on, arXiv:2010.15802 of 2020-10-29; the site does not date Hunter's
-observation.
+it rests on, arXiv:2010.15802 of 2020-10-29; erdosproblems.com does not date
+Hunter's observation.
 
 **Formalization.** The Lean 4 file linked above, in Boris Alexeev's
 repository of Lean proofs, declares itself a formalization of a solution to
@@ -63,8 +63,8 @@ $2^n$ is infinite, the question as asked. The formal-conjectures catalog's
 statement file for the problem
 ([`FormalConjectures/ErdosProblems/63.lean`](https://github.com/google-deepmind/formal-conjectures/blob/385455575cd8231996f89b3dc5ddfeda40d9f1dc/FormalConjectures/ErdosProblems/63.lean),
 added 2026-09-09) is tagged research solved and, since 2026-09-18, points to
-that file as its formal proof, and the site's label was proved with a Lean
-qualifier. This corpus has not built the file, so it is a link, not
+that file as its formal proof, and the erdosproblems.com label was proved with a
+Lean qualifier. This corpus has not built the file, so it is a link, not
 `formalized` evidence.
 
 **Depends on.** The library's
@@ -76,11 +76,11 @@ of the powers of two, and de Bruijn and Erdős's compactness theorem,
 of *A colour problem for infinite graphs and a problem in the theory of
 relations*. No claim page of this wiki is a dependency.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, marked the problem
-proved and credits Zach Hunter with the deduction from Liu and Montgomery's
-Theorem 1.1. The theorem the deduction rests on is refereed (J. Amer. Math. Soc.
-**36** (2023), 1191–1234). But the problem's statement is not itself a theorem
-of that paper, so the page lists no `refereed` evidence. The library's
-compilation of the proof chain is incomplete at
+**Acceptance.** Reviewed: Thomas Bloom, the erdosproblems.com curator, marked
+the problem proved and credits Zach Hunter with the deduction from Liu and
+Montgomery's Theorem 1.1. The theorem the deduction rests on is refereed (J.
+Amer. Math. Soc. **36** (2023), 1191–1234). But the problem's statement is not
+itself a theorem of that paper, so the page lists no `refereed` evidence. The
+library's compilation of the proof chain is incomplete at
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/lemma_3_13|Lemma 3.13]].
 That compilation is reading coverage and not acceptance evidence.

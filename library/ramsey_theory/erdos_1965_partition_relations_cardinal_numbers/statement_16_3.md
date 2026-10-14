@@ -54,7 +54,7 @@ External: Erdős and Rado 1952.
 
 - [[../wiki/problems/ramsey_theory/E0564/_index|Problem 564]]: the upper bound
   $R_3(n)\le2^{2^{4n-10}}$, of the same double-exponential shape as the lower
-  bound the problem asks for; the site writes it as $2^{2^n}$.
+  bound the problem asks for; erdosproblems.com writes it as $2^{2^n}$.
 - [[../wiki/problems/ramsey_theory/E0562/_index|Problem 562]]: the upper side of the
   problem for every $r\ge3$: the "hence" form is a tower of height $r$
   with top $k_rb$, so $\log_{r-1}R_r(n)\le k_rn$ with $\log_{r-1}$ the

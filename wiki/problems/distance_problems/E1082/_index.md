@@ -30,12 +30,12 @@ on a line. Does $A$ determine at least $\lfloor n/2\rfloor$ distinct distances?
 In fact, must there exist a single point from which there are at least $\lfloor
 n/2\rfloor$ distinct distances?
 
-**Status.** Falsifiable, in the site's label (FALSIFIABLE, page last edited 11
-April 2026). The standing in the frontmatter, derived from the claim pages, is
-open. The two questions are the problem's parts, listed in the frontmatter as
-`distinct_distances` and `single_point`. The second question has a negative
-answer. Erdős and Fishburn [ErFi97b] published it with credit to Harborth, and
-it is recorded as an accepted partial claim on
+**Status.** Falsifiable, in the erdosproblems.com label (FALSIFIABLE, page last
+edited 11 April 2026). The standing in the frontmatter, derived from the claim
+pages, is open. The two questions are the problem's parts, listed in the
+frontmatter as `distinct_distances` and `single_point`. The second question has
+a negative answer. Erdős and Fishburn [ErFi97b] published it with credit to
+Harborth, and it is recorded as an accepted partial claim on
 [[problems/distance_problems/E1082/claims/1997_10_01_erdos_fishburn|its claim
 page]]. A DeepMind prover agent independently found a Lean proof of the same
 negative answer. That proof is a pending partial claim on
@@ -68,13 +68,13 @@ repository, is recorded on
 
 ## Current assessment
 
-The site labeled the problem falsifiable; the label is the site's, not a
-standing from this project. A counterexample to the first question would be a
-finite set of $n$ points, no three on a line, that determines fewer than
-$\lfloor n/2\rfloor$ distinct distances, and its distances are a finite
-computation, so a counterexample could be verified in finitely many steps,
-while no finite computation is known to confirm the question for every $n$.
-The standing is derived from the claim pages in `claims/`.
+Bloom's catalog labeled the problem falsifiable; the label is
+erdosproblems.com's, not a standing from this project. A counterexample to the
+first question would be a finite set of $n$ points, no three on a line, that
+determines fewer than $\lfloor n/2\rfloor$ distinct distances, and its distances
+are a finite computation, so a counterexample could be verified in finitely many
+steps, while no finite computation is known to confirm the question for every
+$n$. The standing is derived from the claim pages in `claims/`.
 
 **The second question.** The answer is no. Harborth's configuration $H_8$
 consists of the four vertices of a square and the four apexes of the
@@ -88,16 +88,16 @@ and Fishburn 1997]] records it as an accepted partial claim on the refereed
 publication. The configuration determines four distinct distances in all, so
 it does not touch the first question. The same configuration was found
 independently by a DeepMind prover agent, which produced a Lean proof of the
-negative answer from the formal-conjectures statement, posted on the site's
-thread on 25 February 2026 and recorded on
+negative answer from the formal-conjectures statement, posted on the
+erdosproblems.com thread on 25 February 2026 and recorded on
 [[problems/distance_problems/E1082/claims/2026_02_25_deepmind|its claim
-page]] as a pending partial claim; the site's remarks note that the
+page]] as a pending partial claim; the erdosproblems.com remarks note that the
 construction was later found by DeepMind.
 
 **Thread item without a page.** Xichuan, posting as eigensolver on 19
 December 2025, gave an earlier counterexample to the second question, which
-the site's remarks credit: two concentric regular $21$-gons whose radius
-ratio is the root $r_0=\frac12\bigl(1-\sqrt{5-8\cos(2\pi/7)}\bigr)$ of
+the erdosproblems.com remarks credit: two concentric regular $21$-gons whose
+radius ratio is the root $r_0=\frac12\bigl(1-\sqrt{5-8\cos(2\pi/7)}\bigr)$ of
 $x^3-x^2-2x+1$, forty-two points with no three on a line from each of which
 only $20$ distinct distances are seen; the same ratio works for two
 concentric regular $(42k+21)$-gons, which gives infinitely many examples, of
@@ -128,9 +128,9 @@ on a line determine $\gg n$ distances; Altman proved this for the vertices of
 a convex polyhedron (see [[problems/distance_problems/E0660/_index|Problem
 660]]) and Szemerédi when no four points lie on a plane.
 
-**Search scope.** The site's page, last edited 11 April 2026, carried no
-proof claim, and its thread held the items above on 2026-10-07. No search
-beyond the site and the formal-conjectures repository is recorded.
+**Search scope.** The erdosproblems.com page, last edited 11 April 2026, carried
+no proof claim, and its thread held the items above on 2026-10-07. No search
+beyond erdosproblems.com and the formal-conjectures repository is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

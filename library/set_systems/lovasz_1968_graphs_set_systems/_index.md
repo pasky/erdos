@@ -67,11 +67,12 @@ inequality automatically on every nonempty vertex set.
 
 Lovász's 1973 paper *Coverings and colorings of hypergraphs* restates the
 result as its Theorem 3 and explicitly cites this paper as reference [2]. This
-identification is distinct from the site's bibliographic key [Lo68], which is
-Lovász's different paper *On covering of graphs*. The claim that [Lo68] does
-not contain the asserted coloring result remains attributed to the site; this
-compilation verified the result's presence in *Graphs and set systems* rather
-than independently checking the contents of *On covering of graphs*.
+identification is distinct from erdosproblems.com's bibliographic key [Lo68],
+which is Lovász's different paper *On covering of graphs*. The claim that [Lo68]
+does not contain the asserted coloring result remains attributed to
+erdosproblems.com; this compilation verified the result's presence in *Graphs
+and set systems* rather than independently checking the contents of *On covering
+of graphs*.
 
 The copy read for this card is a complete scan of the published contribution,
 printed pp. 99–106. It was downloaded on 2026-09-04 from a public scan of the

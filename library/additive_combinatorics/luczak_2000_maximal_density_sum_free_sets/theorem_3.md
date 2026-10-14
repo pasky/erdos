@@ -79,11 +79,11 @@ Math. 18 (1966), 643–655); neither held here.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0876/_index|Problem 876]]: the site's
-  "Łuczak and Schoen [LuSc00] have proved that, for all large $N$,
-  $|A\cap[1,N]|\ll(N\log N)^{1/2}$". Theorem 3 gives the bound for
-  infinitely many $N$, not for all large $N$; the site's wording asserts
-  more than the theorem states. For the problem's gap questions the
+- [[../wiki/problems/additive_combinatorics/E0876/_index|Problem 876]]:
+  erdosproblems.com's "Łuczak and Schoen [LuSc00] have proved that, for all
+  large $N$, $|A\cap[1,N]|\ll(N\log N)^{1/2}$". Theorem 3 gives the bound for
+  infinitely many $N$, not for all large $N$; the erdosproblems.com wording
+  asserts more than the theorem states. For the problem's gap questions the
   theorem says only that the gaps cannot be small along every scale: with
   $a_n\le n^2/2+O(1)$ for all $n$ one would have $A(x)\ge\sqrt{2x}-O(1)$
   for all large $x$, which the theorem does not exclude (a remark made

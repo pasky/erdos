@@ -37,10 +37,10 @@ there is an absolute constant $C$ with $\mathrm{cp}(G)\le n^2/6+Cn$ for every
 chordal graph $G$ on $n$ vertices. These are Theorem 1.1 and Corollary 1.2 of
 the manuscript *Clique partitions of chordal graphs with linear error* (author
 line "Anonymous", dated 8 September 2026) in the `N0zoM1z0/erdos-81`
-repository, registered on the site's proof-claims tab the same day (the
-claim's date) under the names Morluto, Yang Luo, Yinzhen Huang and Grace Lee.
-The answer to [[problems/extremal_graph_theory/E0081/_index|Problem 81]] would
-be yes. The argument, as the manuscript's introduction describes it, packs
+repository, registered on the erdosproblems.com proof-claims tab the same day
+(the claim's date) under the names Morluto, Yang Luo, Yinzhen Huang and Grace
+Lee. The answer to [[problems/extremal_graph_theory/E0081/_index|Problem 81]]
+would be yes. The argument, as the manuscript's introduction describes it, packs
 triangles and copies of $K_4$ fractionally with gains $2$ and $5$ (the $K_4$
 term pushes complete graphs below the extremal scale), moves any chordal graph
 to a complete-split graph along a monotone path of single-vertex copies, and
@@ -109,14 +109,14 @@ ledger states; this corpus has not built or audited it, so it is no
 `formalized` evidence.
 
 **Standing.** Claimed: an unrefereed manuscript with a pseudonymous author
-line, generated with GPT-5.6 and GPT-6 Astra, with four comments on the
-site's claim and no outside review. Traverso wrote on 12 September 2026 that
-Traverso was finishing an independent formalization sharing part of the
-architecture; Okechukwu wrote on 21 September that an arXiv paper, recorded
+line, generated with GPT-5.6 and GPT-6 Astra, with four comments on
+erdosproblems.com's claim and no outside review. Traverso wrote on 12 September
+2026 that Traverso was finishing an independent formalization sharing part of
+the architecture; Okechukwu wrote on 21 September that an arXiv paper, recorded
 on
 [[problems/extremal_graph_theory/E0081/claims/2026_09_15_okechukwu|its own claim page]],
 had solved the problem earlier by a more general method, and the submitters
 replied on 22 September that the arXiv posting followed their release by a
 week and asked for a disclosure of AI use. Priority is disputed in those
-comments and is not adjudicated on this page. The site states that a listing
-on the tab is no guarantee of correctness.
+comments and is not adjudicated on this page. erdosproblems.com states that a
+listing on the tab is no guarantee of correctness.

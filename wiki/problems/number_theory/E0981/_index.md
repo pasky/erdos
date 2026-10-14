@@ -32,18 +32,17 @@ $$
 
 for some $c_\epsilon>0$.
 
-**Formulation.** The site's wording (page last edited 27 December 2025).
-With $S_N(p)=\sum_{n\le N}(n/p)$ the
-partial sum of Legendre symbols, $f_\epsilon(p)$ is the eventual-time
-threshold: the least $m$ such that $S_N(p)<\epsilon N$ for every $N\ge m$.
-This is Erdős's $f(\epsilon,p)$ of 1965 (the passage below), the
-$f(\epsilon,p)$ of Elliott's introduction, and the $F_\epsilon(p)$ of Tang
-and Zhang, who write the sum over $p\le x$, as Elliott does. An
-earlier version of the site's page defined instead the first-passage time
-$\min\{m:S_m(p)<\epsilon m\}$ (the commentary records the correction; its
-display prints a binomial coefficient where the Legendre symbol is meant, as
-printed); that variant is settled by Tang and Zhang's Theorem 1.2 and is not
-the page's question, since the termwise inequality between the two
+**Formulation.** The erdosproblems.com wording (page last edited 27 December
+2025). With $S_N(p)=\sum_{n\le N}(n/p)$ the partial sum of Legendre symbols,
+$f_\epsilon(p)$ is the eventual-time threshold: the least $m$ such that
+$S_N(p)<\epsilon N$ for every $N\ge m$. This is Erdős's $f(\epsilon,p)$ of 1965
+(the passage below), the $f(\epsilon,p)$ of Elliott's introduction, and the
+$F_\epsilon(p)$ of Tang and Zhang, who write the sum over $p\le x$, as Elliott
+does. An earlier version of the erdosproblems.com page defined instead the
+first-passage time $\min\{m:S_m(p)<\epsilon m\}$ (the commentary records the
+correction; its display prints a binomial coefficient where the Legendre symbol
+is meant, as printed); that variant is settled by Tang and Zhang's Theorem 1.2
+and is not the page's question, since the termwise inequality between the two
 thresholds does not transfer the asymptotic (their p. 2). For $\epsilon>1$
 both thresholds equal $1$ for every odd prime, since $S_1(p)=1$ (their §2.1),
 so the sum is $\pi(x)$ up to one term and the wording holds there with
@@ -54,17 +53,17 @@ here in exact arithmetic for the odd primes below $300$; the general argument
 is the sentence just given), and the $\epsilon=1$ instance of the wording is
 Erdős's theorem (78) quoted under Origin below. Elliott's theorem covers
 $0<\epsilon\le1$, for the two-sided threshold (Status below), and the paper's
-introduction records $f(1,p)=n_2(p)$ in the same words. Erdős and the site
-sum over all primes; Tang and Zhang restrict to odd primes, where the
-Legendre symbol is defined; one term does not affect the asymptotic.
+introduction records $f(1,p)=n_2(p)$ in the same words. Erdős and
+erdosproblems.com sum over all primes; Tang and Zhang restrict to odd primes,
+where the Legendre symbol is defined; one term does not affect the asymptotic.
 
-**Status.** PROVED, the site's label (page last edited 27 December 2025),
-credited to Elliott's 1969 paper [El69]. The accepted claim page is
+**Status.** PROVED, the erdosproblems.com label (page last edited 27 December
+2025), credited to Elliott's 1969 paper [El69]. The accepted claim page is
 [[problems/number_theory/E0981/claims/1969_01_25_elliott|Elliott 1969]]. The
-paper was refereed in Indag. Math. It is credited as the proof by the site's
-curator and by the introduction of a 2025 preprint (Tang and Zhang,
-arXiv:2512.24631v2, p. 2: "This conjecture was proved by Elliott [4]", the
-conjecture being Erdős's display (80) restated as their Conjecture 1.1).
+paper was refereed in Indag. Math. It is credited as the proof by the
+erdosproblems.com curator and by the introduction of a 2025 preprint (Tang and
+Zhang, arXiv:2512.24631v2, p. 2: "This conjecture was proved by Elliott [4]",
+the conjecture being Erdős's display (80) restated as their Conjecture 1.1).
 
 The paper's theorem (printed p. 165) is the two-sided form. For each $\epsilon$
 with $0<\epsilon\le1$ there is a constant $c(\epsilon)$ with
@@ -79,8 +78,8 @@ definition of $f(\epsilon,p)$" (p. 164). No adaptation is printed.
 
 The standing therefore rests on three things. These are the printed theorem for
 the two-sided threshold, the author's remark for the one-sided threshold of the
-page's wording, and the readings of the site and of Tang and Zhang, who report
-having read the paper. The literal wording is not shown false and is not
+page's wording, and the readings of erdosproblems.com and of Tang and Zhang, who
+report having read the paper. The literal wording is not shown false and is not
 degenerate. Every threshold is finite, the instances $\epsilon\ge1$ are
 established (Formulation above), and for $0<\epsilon<1$ the attested proof
 stands undisputed. Reopening condition: a reading that shows the announced
@@ -88,12 +87,12 @@ adaptation to the one-sided threshold fails, or a dispute of the theorem.
 
 **Source.** [erdosproblems.com/981](https://www.erdosproblems.com/981),
 accessed 2026-09-18: the problem page (PROVED, with
-the site's note that the answer is affirmative; last edited 27 December
-2025; source key [Er65b, p. 232]; commentary citing [El69] and [TaZh25]),
-its discussion
-thread (a deleted post of 1 October 2025 with one reply, and three comments
-of 27 December 2025) and its empty proof-claim tab. Cite as: T. F. Bloom,
-Erdős Problem #981, https://www.erdosproblems.com/981, accessed 2026-09-18.
+the erdosproblems.com note that the answer is affirmative; last edited 27
+December 2025; source key [Er65b, p. 232]; commentary citing [El69] and
+[TaZh25]), its discussion thread (a deleted post of 1 October 2025 with one
+reply, and three comments of 27 December 2025) and its empty proof-claim tab.
+Cite as: T. F. Bloom, Erdős Problem #981, https://www.erdosproblems.com/981,
+accessed 2026-09-18.
 
 **References.**
 
@@ -130,12 +129,12 @@ directory](https://github.com/google-deepmind/formal-conjectures/tree/f5f23b4430
 of google-deepmind/formal-conjectures on main of 2026-09-18 (673 entries) has no
 file for this problem, and the community database (teorth/erdosproblems, fetched
 2026-10-06) lists the problem as proved, as of its entry's last update
-on 26 December 2025, not formalized, with no formal proof. The site's
+on 26 December 2025, not formalized, with no formal proof. The erdosproblems.com
 formalized-statement indicator read no on 2026-09-18.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED; last edited 27 December 2025. The commentary credits the
 proof to Elliott [El69], records that an earlier version of the page
 misstated the problem by defining $f_\epsilon(p)$ as the first $m$ with
@@ -173,8 +172,8 @@ $$
 \sum_{p<x}f(\epsilon,p)=(1+o(1))c_\epsilon\frac{x}{\log x},\qquad(80)
 $$
 
-but I do not see how to attack (80)." This is the site's statement, with
-$f(\epsilon,p)$ the eventual-time threshold and the constant unspecified;
+but I do not see how to attack (80)." This is the erdosproblems.com statement,
+with $f(\epsilon,p)$ the eventual-time threshold and the constant unspecified;
 no proof or heuristic is given. The same page carries Erdős's theorem (78) on
 the average least quadratic nonresidue,
 $\sum_{p<x}n_2(p)=(1+o(1))\frac{x}{\log x}\sum_{k\ge1}\frac{p_k}{2^k}$,
@@ -236,8 +235,8 @@ $S_{F_\epsilon(p)}(p)<\epsilon F_\epsilon(p)$. However, an asymptotic
 formula for $\sum_{p\le x}F_\epsilon(p)$ does not by itself imply the
 corresponding asymptotic for $\sum_{p\le x}f_\epsilon(p)$"; so neither
 result implies the other, and Theorem 1.2 is placed on the variant, not on
-the page's question. Its footnote 1 records the site's earlier misstatement.
-The proof outline (p. 2): the average is written as a sum of tail
+the page's question. Its footnote 1 records erdosproblems.com's earlier
+misstatement. The proof outline (p. 2): the average is written as a sum of tail
 densities
 $a_m(x)=\pi_{\mathrm{odd}}(x)^{-1}\#\{p\le x:f_\epsilon(p)>m\}$, each
 determined by the finite vector of characters $(\chi_p(q))_{2\le q\le m}$ and
@@ -248,9 +247,9 @@ $m\le x^{1/6-\kappa}$ and from quadratic reciprocity, Heath-Brown's large
 sieve and the Pólya--Vinogradov inequality for larger $m$; this is the
 uniformity the thread's objection of 1 October 2025 asked for. Acceptance:
 an arXiv preprint in its second version; no journal record was found on
-2026-09-18; the site's author corrected the page and credits the variant to
-it in the commentary. Nothing here is independently reviewed. Because the
-theorem concerns the variant and not the problem's threshold, it settles no
+2026-09-18; erdosproblems.com's author corrected the page and credits the
+variant to it in the commentary. Nothing here is independently reviewed. Because
+the theorem concerns the variant and not the problem's threshold, it settles no
 instance of the problem; Tang posted it to the thread as a resolution of the
 page's then formulation, and
 [[problems/number_theory/E0981/claims/2025_12_27_tang_zhang|its claim page]]
@@ -285,8 +284,8 @@ of Elliott's result, a copy of the paper, or a further result on the
 eventual-time sum; the paper is available as the publisher's open-archive
 file at its DOI (reference entry above).
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  formal-conjectures directory listing of 2026-09-18 (no file); the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full formal-conjectures directory listing of 2026-09-18 (no file); the
   community database (fetched 2026-09-18).
 - The primary sources: [Er65b] p. 232; [TaZh25] pp. 1--2.
 - The DOI request for [El69] (the linking-hub page and no article) and its
@@ -306,13 +305,13 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X.
 **Remaining gaps.** (1) The status-defining paper's printed theorem is for the
 two-sided threshold $g(\epsilon,p)$, and the one-sided threshold of the page's
 wording rests on the author's remark that simple changes give a similar result,
-with no printed adaptation, and on the readings of the site and [TaZh25]; the
-proof (pp. 165--171) is known here in outline only and not checked. Reopening
-condition: a reading that shows the adaptation fails, or a dispute of the
-theorem. (2) [TaZh25] is a preprint; its Theorem 1.2 is compiled at
-claims-checked depth, its proof in outline only and not checked; it concerns the
-variant. (3) The deleted post of 1 October 2025 could not be recovered.
-(4) There is no Lean statement of the problem.
+with no printed adaptation, and on the readings of erdosproblems.com and
+[TaZh25]; the proof (pp. 165--171) is known here in outline only and not
+checked. Reopening condition: a reading that shows the adaptation fails, or a
+dispute of the theorem. (2) [TaZh25] is a preprint; its Theorem 1.2 is compiled
+at claims-checked depth, its proof in outline only and not checked; it concerns
+the variant. (3) The deleted post of 1 October 2025 could not be recovered. (4)
+There is no Lean statement of the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

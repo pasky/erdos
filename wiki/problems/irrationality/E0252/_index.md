@@ -30,14 +30,14 @@ $$
 
 irrational?
 
-**Status.** Labeled open on the site. The site labeled the problem OPEN (page
-last edited 2026-01-22, read 2026-09-17), and the community database and
-formal-conjectures list it open. No referee, maintainer or expert outside this
-repository has reviewed the proof below. The bounty site Conjectures.io
-acknowledged it when it rejected a submission adapted from it on 16 September
-2026 and when it retired the formal-conjectures statement from its pool as
-solved externally on 6 October 2026, in both cases without rebuilding it (see
-the Formalization paragraph).
+**Status.** Labeled open on erdosproblems.com. Bloom's catalog labeled the
+problem OPEN (page last edited 2026-01-22, read 2026-09-17), and the community
+database and formal-conjectures list it open. No referee, maintainer or expert
+outside this repository has reviewed the proof below. The bounty site
+Conjectures.io acknowledged it when it rejected a submission adapted from it on
+16 September 2026 and when it retired the formal-conjectures statement from its
+pool as solved externally on 6 October 2026, in both cases without rebuilding it
+(see the Formalization paragraph).
 
 The frontmatter standing `solved`, `proved` derives from the
 [[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]] of a
@@ -77,8 +77,8 @@ from a dated snapshot of that day). Cite as: T. F. Bloom, Erdős Problem
   Univ. Press (1988), 102–109; p. 102.
 - [Er52] Erdős, P., Problem 4493. Amer. Math. Monthly 59 (1952), 412;
   solution J. B. Kelly, 60 (1953), 557–558. Paywalled and not held; the
-  site's entry gives the solution's pages under the 1952 date. Claim page:
-  [[problems/irrationality/E0252/claims/1952_06_01_erdos|the case k = 1]].
+  erdosproblems.com entry gives the solution's pages under the 1952 date. Claim
+  page: [[problems/irrationality/E0252/claims/1952_06_01_erdos|the case k = 1]].
 - [ErKa54] Erdős, P. and Kac, M., Problem 4518. Amer. Math. Monthly 60
   (1953), 47; solution R. Breusch, 61 (1954), 264–265. Paywalled and not
   held. Claim page:
@@ -146,10 +146,10 @@ native L-claim, native Lean coverage or numerical tier is assigned.
 ## Current assessment
 
 **Kernel-checked public proof, rebuilt here; whole-statement fidelity
-accepted by a graded fresh-context review (2026-09-18).** The site
+accepted by a graded fresh-context review (2026-09-18).** The erdosproblems.com
 formulation quoted above (page last edited 2026-01-22, read 2026-09-17)
 asks, for every fixed $k\ge1$, whether $\sum_{n\ge1}\sigma_k(n)/n!$ is
-irrational; the summation range is implicit on the site and explicit in
+irrational; the summation range is implicit on erdosproblems.com and explicit in
 every source. The Lean 4 development at
 https://github.com/tokengr1nder/Erdos252, at the reviewed commit of
 2026-09-13, the repository's latest commit of that day (author line
@@ -206,11 +206,11 @@ axioms, the same as for every Lean-based status in this corpus
 (`leanchecker` is Lean's own kernel, not a second implementation). Not
 established: refereed publication, catalog or community-database
 agreement, maintainer response or expert acknowledgment; none existed on
-2026-09-17 (site OPEN; community database `status: open`;
+2026-09-17 (erdosproblems.com OPEN; community database `status: open`;
 formal-conjectures `research open`, issue #5334 unanswered; the author's
-entry on the site's proof-claims page is the author's own claim under the
-site's disclaimer). The bounty site Conjectures.io's rejection of a
-submission adapted from the proof (16 September 2026) and its retirement of
+entry on the erdosproblems.com proof-claims page is the author's own claim under
+the erdosproblems.com disclaimer). The bounty site Conjectures.io's rejection of
+a submission adapted from the proof (16 September 2026) and its retirement of
 the formal-conjectures target as solved externally (6 October 2026)
 acknowledge the proof, but were made without a rebuild or a named reviewer
 and are not reviews. The `proved` status rests on the kernel-checked source,
@@ -226,10 +226,10 @@ structure under Progress is this compilation's reading of the Lean source, not a
 reviewed source-proof reconstruction. Novelty of the argument was not
 investigated.
 
-**Search scope.** Checked, as they stood on 2026-09-17: the site's problem page,
-discussion thread (three comments, 2025-09-05 to 2026-04-14, none about the
-proof), proof-claims page (one claim, registered 2026-09-08 03:25:18 with
-zero comments) and history page; the community database
+**Search scope.** Checked, as they stood on 2026-09-17: the erdosproblems.com
+problem page, discussion thread (three comments, 2025-09-05 to 2026-04-14, none
+about the proof), proof-claims page (one claim, registered 2026-09-08 03:25:18
+with zero comments) and history page; the community database
 (`teorth/erdosproblems`, `data/problems.yaml`, entry 252 `status: open`,
 `formal_status: unformalized`); the formal-conjectures statement file and
 issue #5334 (open, no comments); arXiv (the records of arXiv:2209.11124 and
@@ -246,9 +246,9 @@ and the conditional variants whose author wrote that this development
 formalized here" while calling it unrefereed; that is a competitor's
 deference, not a review. Paywalled and not held: Monthly Problems 4493 and
 4518 with their solutions (which covers $k=1$ versus $k=2$ is unverified;
-the site's [Er52] entry merges the 1952 proposal with the 1953 solution's
-pages) and Deajim–Siksek 2011. Guy's B14 [Gu04], printed p. 104, states
-the question and "It is for $k=1$ and 2" without a citation on that
+erdosproblems.com's [Er52] entry merges the 1952 proposal with the 1953
+solution's pages) and Deajim–Siksek 2011. Guy's B14 [Gu04], printed p. 104,
+states the question and "It is for $k=1$ and 2" without a citation on that
 sentence; the section's reference list (p. 105) includes Problem 4518 with
 Breusch's solution but not Problem 4493, so it settles neither which Monthly
 problem covers which case nor anything about $k\ge3$.
@@ -280,7 +280,7 @@ partial claim page, and the two conditional theorems have accepted
 conditional pages. $k=1$ and $k=2$
 ([[problems/irrationality/E0252/claims/1952_06_01_erdos|Erdős, Problem 4493]];
 [[problems/irrationality/E0252/claims/1953_01_01_erdos_kac|Erdős and Kac, Problem 4518]]):
-the site cites Erdős [Er52]; Erdős 1988 (p. 102) writes "Kac and I [2]
+erdosproblems.com cites Erdős [Er52]; Erdős 1988 (p. 102) writes "Kac and I [2]
 proved that $\sum_{n=1}^{\infty}\delta_k(n)/n!$ is irrational for $k=1$
 and $k=2$"; Erdős 1957
 (p. 213, footnote) attributes $k=1$ to Kelly's solution (Monthly 60 (1953),

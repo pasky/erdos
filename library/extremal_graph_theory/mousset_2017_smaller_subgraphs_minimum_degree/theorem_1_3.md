@@ -75,5 +75,5 @@ set in the auxiliary conflict graph (p. 4).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0814/_index|Problem 814]]: the bound before
-  Sauermann's theorem, the site's "$n-c_kn/\log n$"; it does not give the
-  problem's linear fraction.
+  Sauermann's theorem, erdosproblems.com's "$n-c_kn/\log n$"; it does not give
+  the problem's linear fraction.

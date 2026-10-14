@@ -52,15 +52,15 @@ https://www.erdosproblems.com/233.
 ## Current assessment
 
 No current assessment is recorded. The status above is imported from the dated
-site record. This page records no current literature search or independent
-assessment of proof coverage.
+erdosproblems.com record. This page records no current literature search or
+independent assessment of proof coverage.
 
 ## Known Results
 
-The site's commentary (last edited 18 January 2026) records three bounds, none
-of which settles the question. Cramér [Cr36] proved, under the Riemann
-hypothesis, that $\sum_{n\le N}d_n^2\ll N(\log N)^4$. Selberg [Se43] sharpened
-this slightly, again under the Riemann hypothesis, to
+The erdosproblems.com commentary (last edited 18 January 2026) records three
+bounds, none of which settles the question. Cramér [Cr36] proved, under the
+Riemann hypothesis, that $\sum_{n\le N}d_n^2\ll N(\log N)^4$. Selberg [Se43]
+sharpened this slightly, again under the Riemann hypothesis, to
 $\sum_{n\le N}d_n^2/n\ll(\log N)^4$. In the other direction the prime number
 theorem gives $\sum_{n\le N}d_n^2\gg N(\log N)^2$, so the conjectured bound
 would be sharp. The conjectured bound would imply $d_n\ll n^{1/2}\log n$ for

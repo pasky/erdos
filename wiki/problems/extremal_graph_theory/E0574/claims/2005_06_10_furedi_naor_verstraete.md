@@ -5,7 +5,7 @@ desc: |
   Füredi, Naor and Verstraëte give an alternative disproof at $k=3$: $C_6$-free
   bipartite graphs with parts of sizes $m$ and $2m$ and with $2m^{4/3}+O(m)$
   edges, with constant at least $2/3^{4/3}>2^{-4/3}$ along a sequence of orders.
-  It was refereed in Adv. Math. and is credited by the site.
+  It was refereed in Adv. Math. and is credited by erdosproblems.com.
 authors:
 - Zoltán Füredi
 - Assaf Naor
@@ -63,14 +63,14 @@ $k=3$, $t=2$ graphs of
 
 **Acceptance.** Refereed: the paper appeared in Advances in Mathematics, a
 refereed journal. The Princeton publication record and the author's publication
-list identify the published article. Reviewed: the site's curator, Thomas Bloom,
-labeled the problem DISPROVED. In the commentary of erdosproblems.com/574 (page
-last edited 1 April 2026), Bloom names this paper as an alternative disproof for
-$k=3$. The commentary cites the paper's $m\times2m$ hexagon-free bipartite
-graphs with $(2/3^{4/3}+o(1))n^{4/3}$ edges for $n=3m$. Bloom took no part in
-the paper. The statements and the construction are taken from pp. 1--5, 12--13
-and 17--18 of the manuscript. The proofs are not checked. No independent review
-is recorded in this repository, and none is claimed.
+list identify the published article. Reviewed: the erdosproblems.com curator,
+Thomas Bloom, labeled the problem DISPROVED. In the commentary of
+erdosproblems.com/574 (page last edited 1 April 2026), Bloom names this paper as
+an alternative disproof for $k=3$. The commentary cites the paper's $m\times2m$
+hexagon-free bipartite graphs with $(2/3^{4/3}+o(1))n^{4/3}$ edges for $n=3m$.
+Bloom took no part in the paper. The statements and the construction are taken
+from pp. 1--5, 12--13 and 17--18 of the manuscript. The proofs are not checked.
+No independent review is recorded in this repository, and none is claimed.
 
 **Depends on.**
 [[../library/extremal_graph_theory/furedi_2006_turan_number_hexagon/theorem_1_2|theorem_1_2]],

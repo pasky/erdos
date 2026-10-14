@@ -28,16 +28,16 @@ with $k,l\geq 0$.
 $\{a^kb^l: k,l\geq 0\}$ is complete - that is, every large integer is the sum
 of distinct integers of the form $a^kb^l$ with $k,l\geq 0$.
 
-**Notes.** The site's wording fixes only $(a,b)=1$. Read as the site words it,
-it includes $a=1$, where the set $\{b^l\}$ is complete only for $b=2$; for $b=3$
-its subset sums, the integers with base-3 digits $0$ and $1$, have density zero,
-and $a=b=1$ fails as well. The modified Statement adds $a,b\geq2$, the setting
-of Birch's theorem [Bi59], of the later literature and of the formal-conjectures
-statement; the standing judges it.
+**Notes.** The erdosproblems.com wording fixes only $(a,b)=1$. Read as Bloom's
+catalog words it, it includes $a=1$, where the set $\{b^l\}$ is complete only
+for $b=2$; for $b=3$ its subset sums, the integers with base-3 digits $0$ and
+$1$, have density zero, and $a=b=1$ fails as well. The modified Statement adds
+$a,b\geq2$, the setting of Birch's theorem [Bi59], of the later literature and
+of the formal-conjectures statement; the standing judges it.
 
-**Status.** PROVED (LEAN). The "(LEAN)" suffix is the site's catalog label. The
-theorem, its acceptance and the Lean development are recorded on the claim
-pages. No Lean was built here.
+**Status.** PROVED (LEAN). The "(LEAN)" suffix is erdosproblems.com's catalog
+label. The theorem, its acceptance and the Lean development are recorded on the
+claim pages. No Lean was built here.
 
 **Source.** [erdosproblems.com/246](https://www.erdosproblems.com/246), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #246,
@@ -65,17 +65,17 @@ https://www.erdosproblems.com/246.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** The statement
-above; PROVED (LEAN), page last edited 7 December 2025. The site's
+**The question (erdosproblems.com formulation of 2026-09-04).** The statement
+above; PROVED (LEAN), page last edited 7 December 2025. The erdosproblems.com
 commentary credits the proof to Birch [Bi59] and records that Cassels's more
 general completeness criterion [Ca60], published the next year, contains it
 as a consequence.
 
 **Claims.** The settling result is
 [[problems/diophantine_problems/E0246/claims/1959_10_01_birch|Birch's theorem]]
-(1959), refereed and credited by the site's curator. Cassels's Theorem I, a
-more general completeness criterion published the next year, gives the
-statement as an immediate consequence and has its own accepted page,
+(1959), refereed and credited by the erdosproblems.com curator. Cassels's
+Theorem I, a more general completeness criterion published the next year, gives
+the statement as an immediate consequence and has its own accepted page,
 [[problems/diophantine_problems/E0246/claims/1960_01_01_cassels|Cassels's criterion]].
 A pending claim,
 [[problems/diophantine_problems/E0246/claims/2026_09_03_song_yue|Song and Yue's bound $K(p,q)\leq 2p-3$]]
@@ -105,8 +105,8 @@ Bergelson and Simmons (2017) proved the linear bound $K(a,b)\leq 4a-5$, by a
 method that Fang and Chen say seems to give no explicit $B$. The pending claim
 of Song and Yue asserts $K(a,b)\leq 2a-3$. Yu [Yu24] showed that every large
 $n$ is a sum of distinct terms all larger than $n/(\log n)^{1+o(1)}$, as the
-site's commentary records. Of the papers, only [FaCh17] and [Ca60] have
-library pages, and only [FaCh17] is held.
+erdosproblems.com commentary records. Of the papers, only [FaCh17] and [Ca60]
+have library pages, and only [FaCh17] is held.
 
 **Formalization and the Lean label.** The formal-conjectures statement file,
 at its commit of 2026-09-18
@@ -118,7 +118,7 @@ Birch's result, written with the system Aristotle, and Birch's claim page
 links it at a commit of 2026-04-28. Nothing was built, kernel-checked or
 audited here.
 
-**Search scope.** The site's problem page, commentary,
+**Search scope.** The erdosproblems.com problem page, commentary,
 discussion thread and proof-claims page, with the Zenodo record of the
 pending claim, the Crossref record of [Bi59] and the repository's commit
 records for dates. arXiv, MathSciNet, zbMATH, Google Scholar and X were

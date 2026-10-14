@@ -23,9 +23,9 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Let $P(n)$ denote the largest prime factor of $n$. There are
 infinitely many $n$ such that $P(n)>P(n+1)>P(n+2)$.
 
-**Status.** PROVED, the site's label. The problem was solved by Balog [Ba01],
-who proves that there are $\gg\sqrt x$ such $n\le x$ for all large $x$. The
-statement is a conjecture of Erdős and Pomerance [ErPo78]. No Lean proof is
+**Status.** PROVED, the erdosproblems.com label. The problem was solved by Balog
+[Ba01], who proves that there are $\gg\sqrt x$ such $n\le x$ for all large $x$.
+The statement is a conjecture of Erdős and Pomerance [ErPo78]. No Lean proof is
 linked. The accepted claim is
 [[problems/arithmetic_functions/E0372/claims/2001_05_01_balog|Balog 2001]].
 
@@ -49,18 +49,18 @@ linked as of its 2026-09-18 commit).
 
 ## Current assessment
 
-**Proved by Balog 2001, refereed.** The site formulation above asserts
-infinitely many $n$ with $P(n)>P(n+1)>P(n+2)$. Erdős and Pomerance
+**Proved by Balog 2001, refereed.** The erdosproblems.com formulation above
+asserts infinitely many $n$ with $P(n)>P(n+1)>P(n+2)$. Erdős and Pomerance
 conjectured it in 1978, proving the ascending analog and that $P(n)>P(n+1)$
 has positive lower density, and Balog proved it in 2001 with $\gg\sqrt x$
 such $n\le x$ for all large $x$. Balog's conjectured density $1/6$ for the
 descending triples and its generalization by De Koninck and Doyon 2011 are
 open and are not the question. The library holds no copy of Balog's paper;
-the standing rests on the refereed publication and the site's record. No
-Lean proof is linked. Sources checked: the site's page and discussion
-thread (no comments), the formal-conjectures statement
-file at its 2026-09-18 commit, the publisher's record of [Ba01] and the
-library's cards for [ErPo78] and [DeDo11].
+the standing rests on the refereed publication and the erdosproblems.com record.
+No Lean proof is linked. Sources checked: the erdosproblems.com page and
+discussion thread (no comments), the formal-conjectures statement file at its
+2026-09-18 commit, the publisher's record of [Ba01] and the library's cards for
+[ErPo78] and [DeDo11].
 <!-- BEGIN problem library links -->
 
 ## Linked library material

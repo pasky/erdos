@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 176, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-14T00:13:33Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/discrepancy/E0176/claims
@@ -22,8 +22,8 @@ $k\ge2$. So $N(k,\sqrt k)=O(k^5)$, and the displayed question
 $N(k,\sqrt k)\le C^k$ has the answer yes.
 
 [[problems/discrepancy/E0176/claims/2026_09_23_openai|2026_09_23_openai]]: The superexponential lower bound for van der Waerden numbers in the OpenAI
-release, read through the site's identity $N(k,k)=W(k)$, makes the first
-displayed question false at $c=1$, and so answers it no as stated. The
+release, read through erdosproblems.com's identity $N(k,k)=W(k)$, makes the
+first displayed question false at $c=1$, and so answers it no as stated. The
 bound is accepted on Problem 138; the identity follows from the definition
 and was checked by Plasma AI, and the claim's acceptance is pending.
 

@@ -66,8 +66,8 @@ Lean declarations as free of `sorry` with only the standard axioms; the
 corpus has not built the development, so it gives no formalized evidence.
 The thread comment rounds the $g_5$ constant to $3.6\cdot10^6$.
 
-**Submission note.** Posted to the site's forum by John Erlbacher on 8 July
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by John Erlbacher on
+8 July 2026:
 
 > Using AI we have been able to improve various bounds that Wouter proved in his
 > recent paper. For example, we can show that the equality $h_4(n) = 4$ holds
@@ -87,8 +87,8 @@ the positive variant; the constants of Theorem 1.7 for general $k$; and
 every other $k$.
 
 **Standing.** The release is unrefereed, no reviewer independent of the
-claimant has endorsed it, the site's commentary does not record it, and its
-Lean development has not been built here. The claim stays claimed. The
+claimant has endorsed it, the erdosproblems.com commentary does not record it,
+and its Lean development has not been built here. The claim stays claimed. The
 release's $h_4$ theorem, not its $g_5$ bound, was carried further in van
 Doorn and Erlbacher's arXiv preprint 2609.39314v1 of 30 September 2026,
 which proves $h_4(n)=4$ for every $n\ge6$ and whose Section 2 traces its

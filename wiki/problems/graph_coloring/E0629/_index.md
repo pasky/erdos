@@ -30,7 +30,7 @@ distinct colours.
 Determine the minimal number of vertices $n(k)$ of a bipartite graph $G$ such
 that $\chi_L(G)>k$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 28
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 28
 October 2025), with the note that it cannot be resolved with a finite
 computation.
 
@@ -83,21 +83,21 @@ recorded here as a bound.
 
 **General bounds.** Erdős, Rubin and Taylor print
 $2^{k-1}<m(k)\le n(k)\le2m(k)<k^22^{k+2}$ (in their notation $M_k$ and
-$N(2,k)$). The site's remark writes the upper bound as $n(k)\le m(k+1)$,
-while the paper prints $2M_k$. With Radhakrishnan and Srinivasan's lower bound
-for $m(k)$, accepted on
+$N(2,k)$). The erdosproblems.com remark writes the upper bound as
+$n(k)\le m(k+1)$, while the paper prints $2M_k$. With Radhakrishnan and
+Srinivasan's lower bound for $m(k)$, accepted on
 [[problems/set_systems/E0901/claims/2000_01_01_radhakrishnan_srinivasan|Problem 901's claim page]],
-this gives $n(k)\gg2^k\sqrt{k/\log k}$, as the site states. No bound
+this gives $n(k)\gg2^k\sqrt{k/\log k}$, as erdosproblems.com states. No bound
 determines $n(k)$ for any $k\ge4$.
 
-**Search scope.** The site's problem page, its four-comment discussion thread
-(one comment, of 22 June 2026, reports computational work on $n(4)$ without a
-new bound) and its empty proof-claim tab; the held sources [ERT80], [HMT96]
-and [RaSr00]; and the claim pages of Problem 901. Not searched: the literature
-beyond these sources, arXiv, MathSciNet, zbMATH, Google Scholar, X. Proofs are
-compiled at statement level: those of Hanson, MacGillivray and Toft were not
-checked, and Erdős, Rubin and Taylor state their values and footnote without
-proof.
+**Search scope.** The erdosproblems.com problem page, its four-comment
+discussion thread (one comment, of 22 June 2026, reports computational work on
+$n(4)$ without a new bound) and its empty proof-claim tab; the held sources
+[ERT80], [HMT96] and [RaSr00]; and the claim pages of Problem 901. Not searched:
+the literature beyond these sources, arXiv, MathSciNet, zbMATH, Google Scholar,
+X. Proofs are compiled at statement level: those of Hanson, MacGillivray and
+Toft were not checked, and Erdős, Rubin and Taylor state their values and
+footnote without proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

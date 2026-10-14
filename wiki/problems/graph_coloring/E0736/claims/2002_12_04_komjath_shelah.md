@@ -70,10 +70,11 @@ in which the statement holds at $\aleph_1$. The page claims no more than
 **Acceptance.** Refereed publication: J. Graph Theory 49 (2005), no. 1, 28--38,
 doi:10.1002/jgt.20060, published online 25 February 2005. The preprint is
 arXiv:math/0212064, posted 4 December 2002, which is the date of this page. The
-site's curator, T. F. Bloom, labeled the problem NOT PROVABLE and credits
-[KoSh05] with the consistency result. The page lists this credit as `reviewed`.
-The site's commentary names Komjáth alone. The paper is joint, and it attributes
-Theorem 3 to Komjáth and Theorems 1 and 2 to Shelah. The question is Walter
-Taylor's conjecture at $\aleph_1$. Erdős, Hajnal and Shelah took it up in
+erdosproblems.com curator, T. F. Bloom, labeled the problem NOT PROVABLE and
+credits [KoSh05] with the consistency result. The page lists this credit as
+`reviewed`. The erdosproblems.com commentary names Komjáth alone. The paper is
+joint, and it attributes Theorem 3 to Komjáth and Theorems 1 and 2 to Shelah.
+The question is Walter Taylor's conjecture at $\aleph_1$. Erdős, Hajnal and
+Shelah took it up in
 [[../library/graph_coloring/erdos_1974_general_properties_chromatic_numbers/_index|On some general properties of chromatic numbers]]
 (1974), and their Problem 2 would have answered it positively.

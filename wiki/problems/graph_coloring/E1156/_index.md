@@ -38,12 +38,12 @@ $$
 
 if $n$ is sufficiently large?
 
-**Formulation.** The standing answers the site's wording as accessed
+**Formulation.** The standing answers the erdosproblems.com wording as accessed
 2026-09-04, the only Statement shown. Its first question asks for concentration
 on at most $C$ values, not necessarily consecutive. So worded it is open: the
-site's discussion thread (26 January 2026) records that concentration of
-$\chi(G)$ on two far-apart values has not been excluded. Erdős's question in the
-appendix to Alon and Spencer's *The Probabilistic Method* (1992), as Heckel
+erdosproblems.com discussion thread (26 January 2026) records that concentration
+of $\chi(G)$ on two far-apart values has not been excluded. Erdős's question in
+the appendix to Alon and Spencer's *The Probabilistic Method* (1992), as Heckel
 [He21] quotes it, asks instead whether $\chi(G)$ can be shown not to be
 concentrated on a series of intervals of constant length, that is, on $C$
 consecutive values. That version has the answer no, as the Current assessment
@@ -75,14 +75,14 @@ https://www.erdosproblems.com/1156.
 
 ## Current assessment
 
-The standing judges the site's formulation, accessed 2026-09-04 and read as the
-Formulation states. Both of its questions are open. The known upper bounds are
-these. Bollobás [Bo88] proved that $\chi(G)\sim n/(2\log_2 n)$ with high
-probability. Shamir and Spencer [ShSp87] proved that $\chi(G)$ lies with high
-probability in an interval of length $\omega(n)\sqrt n$ about some $f(n)$, for
-any $\omega(n)\to\infty$. Alon improved the length to $\omega(n)\sqrt n/\log n$,
-posed as Exercise 3 of Section 7.9 of Alon and Spencer [AlSp16]; Scott [Sc17]
-gives a proof
+The standing judges the erdosproblems.com formulation, accessed 2026-09-04 and
+read as the Formulation states. Both of its questions are open. The known upper
+bounds are these. Bollobás [Bo88] proved that $\chi(G)\sim n/(2\log_2 n)$ with
+high probability. Shamir and Spencer [ShSp87] proved that $\chi(G)$ lies with
+high probability in an interval of length $\omega(n)\sqrt n$ about some $f(n)$,
+for any $\omega(n)\to\infty$. Alon improved the length to
+$\omega(n)\sqrt n/\log n$, posed as Exercise 3 of Section 7.9 of Alon and
+Spencer [AlSp16]; Scott [Sc17] gives a proof
 ([[../library/graph_coloring/scott_2008_concentration_chromatic_number_random_graphs/_index|Scott 2008]]).
 
 Two refereed results bound the concentration from below and answer the
@@ -95,15 +95,15 @@ Heckel and Riordan [HeRi23] raised the exponent to every $c<1/2$, for every
 fixed edge probability $p\in(0,1)$, the accepted partial claim on
 [[problems/graph_coloring/E1156/claims/2021_03_25_heckel_riordan|its claim page]].
 In particular $\chi(G)$ is not concentrated on one value. Neither result
-settles a question as the site words it. Concentration on two far-apart
+settles a question as Bloom's catalog words it. Concentration on two far-apart
 values is not excluded, and since both results give long intervals only for
 infinitely many $n$, concentration on one value for almost all $n$ is not
 excluded either, so the second question stays open.
 
-Search scope: the site's problem page (last edited 27 January 2026), its
-discussion thread, the community database (no formalized statement),
+Search scope: the erdosproblems.com problem page (last edited 27 January 2026),
+its discussion thread, the community database (no formalized statement),
 formal-conjectures (no file for Problem 1156) and arXiv, accessed 2026-10-07,
-and the site's proof-claims tab (no proof claim).
+and the erdosproblems.com proof-claims tab (no proof claim).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

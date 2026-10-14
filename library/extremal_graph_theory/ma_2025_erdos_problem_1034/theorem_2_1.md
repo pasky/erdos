@@ -6,7 +6,7 @@ desc: |
   bipartite graph between a clique-partitioned side and an independent side,
   optimized at α* = 1 − 1/√10, in which every triangle has at most
   (2 − √(5/2) + ε)n ≈ 0.4189n vertices adjacent to at least two of its
-  vertices; the site's accepted disproof of Problem 1034.
+  vertices; erdosproblems.com's accepted disproof of Problem 1034.
 created: 2026-09-19T07:40:00Z
 updated: 2026-10-07T12:44:22Z
 ---
@@ -25,11 +25,11 @@ $$
 $$
 
 Since $2-\sqrt{5/2}=0.418861\ldots<\frac12$, this refutes Conjecture 1.1 of
-the note (the site's statement of Problem 1034): for $\varepsilon$ small and
-$n$ large, no triangle of $G$ has $(\frac12-\varepsilon)n$ vertices joined to
-two of its vertices. The set counted includes the three vertices of $T$
-itself (each is adjacent to the other two); Erdős's "other vertices" excludes
-them, a difference of three absorbed by the $\varepsilon n$.
+the note (the erdosproblems.com statement of Problem 1034): for $\varepsilon$
+small and $n$ large, no triangle of $G$ has $(\frac12-\varepsilon)n$ vertices
+joined to two of its vertices. The set counted includes the three vertices of
+$T$ itself (each is adjacent to the other two); Erdős's "other vertices"
+excludes them, a difference of three absorbed by the $\varepsilon n$.
 
 **Source.** J. Ma and Q. Tang, *On Erdős problem #1034*, three-page note,
 <http://staff.ustc.edu.cn/~jiema/Erdos-1034.pdf> (PDF metadata 21 October
@@ -77,6 +77,7 @@ None external; an explicit construction and an optimization.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1034/_index|Problem 1034]]: the status-defining
-  disproof, accepted by the site; with Khadzhiivanov's book bound it places
-  the general threshold at $(\frac16-o(1))n\le h(n)\le(2-\sqrt{5/2}+o(1))n$
+  disproof, accepted by erdosproblems.com; with Khadzhiivanov's book bound it
+  places the general threshold at
+  $(\frac16-o(1))n\le h(n)\le(2-\sqrt{5/2}+o(1))n$
   ([[extremal_graph_theory/ma_2025_erdos_problem_1034/section_3|Section 3]]).

@@ -32,8 +32,8 @@ $$
 
 is irrational. Are $a_n=2^n$ or $a_n=n!$ examples of such a sequence?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 20 January
-2026). The problem asks two questions, which are its two parts. The
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 20
+January 2026). The problem asks two questions, which are its two parts. The
 powers-of-two part is answered no by
 [[problems/irrationality/E0264/claims/2024_11_27_kovac_tao|Kovač and Tao's
 accepted partial claim]]. Their Corollary 2.6 (Acta Math. Hungar. 175 (2025))
@@ -66,9 +66,9 @@ The powers-of-two part is answered no by Kovač and Tao's Corollary 2.6,
 published in Acta Math. Hungar. 175 (2025) and recorded on its claim page; the
 corpus has checked the statement against the paper and has not independently
 reviewed the proof. The factorial part is open in the sources named on this
-page, the site record and the Kovač–Tao paper, and no literature search beyond
-them is recorded. Theorem 2.4's factorial-like denominators do not supply the
-bounded perturbations required by the question.
+page, the erdosproblems.com record and the Kovač–Tao paper, and no literature
+search beyond them is recorded. Theorem 2.4's factorial-like denominators do not
+supply the bounded perturbations required by the question.
 
 ## Known Results
 

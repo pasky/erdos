@@ -7,7 +7,7 @@ desc: |
   n - sqrt(2n) + O(1).
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-07T20:23:45Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices
@@ -16,9 +16,9 @@ updated: 2026-10-07T20:23:45Z
 
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/note_added_in_proof|note_added_in_proof]]: The Bollobás–Erdős–Gallai–Tuza threshold for a single vertex meeting every
 clique, reported without proof in the paper's Note added in proof as a
-result proved with Bollobás in Oberwolfach in 1990; the site's "Bollobás
-and Erdős proved that if every maximal clique has at least n + 3 − 2√n
-vertices then τ(G) = 1" on Problem 611.
+result proved with Bollobás in Oberwolfach in 1990; erdosproblems.com's
+"Bollobás and Erdős proved that if every maximal clique has at least n + 3 −
+2√n vertices then τ(G) = 1" on Problem 611.
 
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_1|problem_1]]: The Erdős–Gallai–Tuza formulation of the clique-transversal conjecture of
 Problem 151, with the paragraph that follows it: the order of r(n), the
@@ -31,27 +31,27 @@ absence of any known upper bound on k(n) sufficient for a small
 clique-transversal number, the case k(n) = n^α, and the constant-k
 constructions with τ_C(G) ≥ n − O(n^{1−1/k} log^{k/2} n) for k a power of 2.
 
-[[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_3|problem_3]]: The Erdős–Rogers question in the words the site uses, posed concerning the
-particular case of the paper's clique-transversal Problem 1 for sparse
-graphs, K_4-free ones for instance, with the trivial bound from the
+[[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_3|problem_3]]: The Erdős–Rogers question in the words erdosproblems.com uses, posed
+concerning the particular case of the paper's clique-transversal Problem 1 for
+sparse graphs, K_4-free ones for instance, with the trivial bound from the
 Erdős–Szekeres theorem.
 
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/theorem_1|theorem_1]]: The Erdős–Gallai–Tuza upper bound on the clique-transversal number, proved
 by averaging the two lower bounds n − τ_C ≥ Δ and n − τ_C ≥ α + 2n/α − Δ − 3
-from the paper's Lemmas 1 and 2; the general bound the site quotes on
+from the paper's Lemmas 1 and 2; the general bound erdosproblems.com quotes on
 Problem 610 as n − √(2n) + O(1).
 
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/theorem_2|theorem_2]]: The Erdős–Gallai–Tuza bound for graphs all of whose cliques are large,
 proved through Brooks's theorem: for n ≥ k + 2, cliques of more than k
 vertices force a clique transversal of at most n − √(kn) vertices, with the
-5-cycle (k = 1, n = 5) as the only exception; the bound the site quotes on
-Problem 611.
+5-cycle (k = 1, n = 5) as the only exception; the bound erdosproblems.com
+quotes on Problem 611.
 
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/theorem_5|theorem_5]]: The Erdős–Gallai–Tuza construction, by iterated substitution of a
 triangle-free graph with small independence number, of graphs on n
 vertices all of whose cliques have at least n^{c/log log n} vertices while
-the clique-transversal number is still n − o(n); the source of the site's
-lower bound k_c(n) ≥ n^{c'/log log n} on Problem 611.
+the clique-transversal number is still n − o(n); the source of
+erdosproblems.com's lower bound k_c(n) ≥ n^{c'/log log n} on Problem 611.
 
 ***
 
@@ -130,9 +130,9 @@ equality tau_C(G) = |V(G)| - alpha(G) that makes r(n) the conjectured value;
 [[../wiki/problems/extremal_graph_theory/E0610/_index|#610]] (p. 280, page image: "we
 expect that tau_C(G) <= n - f(n) sqrt(n) holds for some function f(n)
 tending to infinity with n", the problem's first question, and Problem 1 as
-what the site says the authors "speculate"; Theorem 1, p. 283, the
-bound the site quotes as n - sqrt(2n) + O(1), and Theorem 3, p. 285, the
-algorithmic n - sqrt(2n) + sqrt 2; Lemma 1(b), the equality that with Kim's
+what erdosproblems.com says the authors "speculate"; Theorem 1, p. 283, the
+bound erdosproblems.com quotes as n - sqrt(2n) + O(1), and Theorem 3, p. 285,
+the algorithmic n - sqrt(2n) + sqrt 2; Lemma 1(b), the equality that with Kim's
 triangle-free graphs gives the matching lower bound;
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_1|problem_1]],
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/theorem_1|theorem_1]]),
@@ -152,11 +152,11 @@ the threshold n + 3 - ceil(2 sqrt n) for tau_C(G) = 1;
 [[../wiki/problems/extremal_graph_theory/E0620/_index|#620]] (Problem 3, p. 281: "How large
 triangle-free induced subgraphs does a K_4-free graph G on n vertices
 contain?", posed concerning the K_4-free particular case of Problem 1, with
-the remark that the Erdős-Szekeres theorem gives alpha(G) >= c n^{1/3}; the
-site's second source key and the source of its wording; p. 280 = PDF p. 2,
-page image: "An interesting particular case of Problem 1 is to prove tau_C(G)
-<= n - r(n) for 'sparse' graphs; K_4-free ones, for instance. Concerning
-this, we pose the following question";
+the remark that the Erdős-Szekeres theorem gives alpha(G) >= c n^{1/3};
+erdosproblems.com's second source key and the source of its wording; p. 280 =
+PDF p. 2, page image: "An interesting particular case of Problem 1 is to prove
+tau_C(G) <= n - r(n) for 'sparse' graphs; K_4-free ones, for instance.
+Concerning this, we pose the following question";
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_3|problem_3]],
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_1|problem_1]]).
 

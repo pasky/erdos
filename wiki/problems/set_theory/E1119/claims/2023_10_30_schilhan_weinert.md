@@ -83,11 +83,11 @@ The proof is not reconstructed on this page.
 **Acceptance.** The result appeared in a refereed journal, the *Journal of the
 London Mathematical Society*, in 2024. This is the `refereed` evidence. The
 statements are those of the arXiv preprint, which were not compared with the
-published version. The site's curator, Thomas Bloom, marked the problem
-INDEPENDENT. The commentary records that the question is undecidable when
-$\mathfrak m^+=\mathfrak c$. It credits Kumar and Shelah with the model where
-the answer is yes, and Schilhan and Weinert with the model where it is no. That
-curator credit is the `reviewed` evidence. The `independent` claim value
+published version. The erdosproblems.com curator, Thomas Bloom, marked the
+problem INDEPENDENT. The commentary records that the question is undecidable
+when $\mathfrak m^+=\mathfrak c$. It credits Kumar and Shelah with the model
+where the answer is yes, and Schilhan and Weinert with the model where it is no.
+That curator credit is the `reviewed` evidence. The `independent` claim value
 combines this page's theorem with the linked Kumar--Shelah page. The paper
 itself claims only the consistency of a negative answer. The [formal-conjectures
 statement

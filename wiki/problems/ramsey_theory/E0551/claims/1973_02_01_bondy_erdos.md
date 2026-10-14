@@ -4,7 +4,7 @@ title: "Bondy and Erdős: the identity for cycles of length at least n squared m
 desc: |
   Theorem 4 of Bondy and Erdős (1973) gives $R(C_k,K_n)=(k-1)(n-1)+1$ whenever
   $k\ge n^2-2$, the first infinite range of the identity. It is refereed and
-  credited by the site's commentary.
+  credited by the erdosproblems.com commentary.
 authors:
 - J. A. Bondy
 - P. Erdős
@@ -44,7 +44,7 @@ lemmas on chords; it is recorded on the result page
 [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/theorem_4|Theorem 4]]
 of the library home
 [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/_index|bondy_1973_ramsey_numbers_cycles_graphs]].
-The site's commentary writes the range as $k>n^2-2$; the paper's is
+The erdosproblems.com commentary writes the range as $k>n^2-2$; the paper's is
 $k\ge n^2-2$.
 
 **Covers.** The pairs $(k,n)$ with $n\ge3$ and $k\ge n^2-2$, infinitely
@@ -62,9 +62,9 @@ paper's own.
 **Acceptance.** Refereed: the paper is a journal publication in the Journal of
 Combinatorial Theory, Series B, volume 14, number 1 (February 1973), received 28
 January 1972. This is the `refereed` evidence. The issue carries no day, so this
-page is dated to the first day of that month. The site's curator, Thomas Bloom,
-credits the range to this paper in the problem page's commentary. But the site's
-label DECIDABLE settles neither the problem nor a declared part of it, so that
-credit is not `reviewed` evidence. The statement is checked against the paper.
-The proof is read for its structure only, and nothing is independently reviewed
-by this corpus.
+page is dated to the first day of that month. The erdosproblems.com curator,
+Thomas Bloom, credits the range to this paper in the problem page's commentary.
+But the erdosproblems.com label DECIDABLE settles neither the problem nor a
+declared part of it, so that credit is not `reviewed` evidence. The statement is
+checked against the paper. The proof is read for its structure only, and nothing
+is independently reviewed by this corpus.

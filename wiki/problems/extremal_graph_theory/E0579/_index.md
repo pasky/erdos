@@ -27,33 +27,33 @@ updated: 2026-10-08T02:16:54Z
 on $n$ vertices with no $K_{2,2,2}$ and at least $\delta n^2$ edges then $G$
 contains an independent set of size $\gg_\delta n$.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page shows no
-last-edited date). $K_{2,2,2}$ is the complete tripartite graph with three
-classes of two vertices, the octahedron graph (the 1983
-source calls it "the two by two Turán graph"). The statement claims: for
-every $\delta>0$ there is $c(\delta)>0$ such that every $K_{2,2,2}$-free
-graph on $n$ vertices with at least $\delta n^2$ edges has independence
-number at least $c(\delta)n$ once $n$ is large. In the sources' language
-this is the assertion that the Ramsey--Turán number
-$\mathrm{RT}(n;K_{2,2,2};o(n))$, the largest number of edges of a
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+shows no last-edited date). $K_{2,2,2}$ is the complete tripartite graph with
+three classes of two vertices, the octahedron graph (the 1983 source calls it
+"the two by two Turán graph"). The statement claims: for every $\delta>0$ there
+is $c(\delta)>0$ such that every $K_{2,2,2}$-free graph on $n$ vertices with at
+least $\delta n^2$ edges has independence number at least $c(\delta)n$ once $n$
+is large. In the sources' language this is the assertion that the Ramsey--Turán
+number $\mathrm{RT}(n;K_{2,2,2};o(n))$, the largest number of edges of a
 $K_{2,2,2}$-free graph on $n$ vertices with independence number $o(n)$, is
 $o(n^2)$: the critical number $c(K_{2,2,2})$ of the 1983 paper, the
 $\theta(K_{2,2,2})$ of Balogh and Lenz and the Problem C of Liu, Reiher,
 Sharifzadeh and Staden ("Is $\mathrm{RT}_2(n,K_{2,2,2},o(n))=o(n^2)$?") all
 ask whether this quantity divided by $n^2$ tends to $0$. The two forms are
-the same statement (an elementary check made here: the site's claim says
-that for every $\delta$ some $c$ makes $\mathrm{RT}(n;K_{2,2,2};cn)<\delta n^2$
-for large $n$, and $\theta(K_{2,2,2})=0$, with
+the same statement (an elementary check made here: erdosproblems.com's claim
+says that for every $\delta$ some $c$ makes
+$\mathrm{RT}(n;K_{2,2,2};cn)<\delta n^2$ for large $n$, and
+$\theta(K_{2,2,2})=0$, with
 $\theta(H)=\lim_{\epsilon\to0}\lim_{n\to\infty}\mathrm{RT}(n,H,\epsilon n)/n^2$,
 says the same with $\epsilon$ for $c$). The related
 [[problems/extremal_graph_theory/E0533/_index|Problem 533]] forbids $K_5$ and asks
 for a large triangle-free set instead of an independent set.
 
-**Status.** OPEN is the site's label, its label for a question that is open and
-that no finite computation can settle. The site's page shows no proof claim, and
-its commentary records only the $\delta>1/8$ case. On the claim recorded here
-the Statement is **disproved**. The result and its acceptance are recorded on
-the claim page
+**Status.** OPEN is the erdosproblems.com label, its label for a question that
+is open and that no finite computation can settle. The erdosproblems.com page
+shows no proof claim, and its commentary records only the $\delta>1/8$ case. On
+the claim recorded here the Statement is **disproved**. The result and its
+acceptance are recorded on the claim page
 [[problems/extremal_graph_theory/E0579/claims/2026_10_03_jordan|Lean disproof certified by Conjectures.io]],
 from which the frontmatter is derived. The statement is false at
 $\delta=3/2048$. For every $c>0$ and every size threshold there is a
@@ -66,46 +66,46 @@ and Staden.
 
 The status-defining source is a Lean proof accepted by the bounty site
 Conjectures.io (record `e4934265-aa96-4bf5-a3c0-d01153dfcfaa`, task type
-disprove). The site's Lean kernel verified the proof on 3 October 2026, its
-review approved the record, and it certified the record on 6 October 2026 under
-its policy v3. The formal statement the site attacked is the formal-conjectures
-statement `Erdos579.erdos_579`, quoted under Formalization below, with its open
-answer fixed to true. The Formulation paragraph above reads that statement as
-the Statement clause for clause (`octahedron` is $K_{2,2,2}$, `edgeFinset.card`
-counts unordered edges, `indepNum` is the independence number). The accepted
-file proves the exact negation of that statement (`theorem target : ¬
-(fcTypeOfName% "Erdos579.erdos_579")`) from `Er579.not_positiveDensityClaim`,
-where `PositiveDensityClaim` restates the universal assertion verbatim. The
-file's own comments describe its construction as "a fully constructive
-refutation in finite graph theory". For every $c>0$ and every threshold $N$, the
-construction assembles an octahedron-free graph on $n\ge N$ vertices with at
-least $(3/2048)n^2$ edges ("strict counterexamples of every required order, at
-the fixed unordered edge density 3/2048") and independence number below $cn$. It
-builds this graph from Boolean-cube stages, masked compatibility graphs and
-random perfect-matching realizations. The record credits the proof to the solver
-Jordan. The file's copyright headers credit one author writing with OpenAI
-Codex. Its preamble says that selected portions are modified from the TCSlib and
-FABL Lean libraries and copied as source.
+disprove). The erdosproblems.com Lean kernel verified the proof on 3 October
+2026, its review approved the record, and it certified the record on 6 October
+2026 under its policy v3. The formal statement Conjectures.io attacked is the
+formal-conjectures statement `Erdos579.erdos_579`, quoted under Formalization
+below, with its open answer fixed to true. The Formulation paragraph above reads
+that statement as the Statement clause for clause (`octahedron` is $K_{2,2,2}$,
+`edgeFinset.card` counts unordered edges, `indepNum` is the independence
+number). The accepted file proves the exact negation of that statement
+(`theorem target : ¬ (fcTypeOfName% "Erdos579.erdos_579")`) from
+`Er579.not_positiveDensityClaim`, where `PositiveDensityClaim` restates the
+universal assertion verbatim. The file's own comments describe its construction
+as "a fully constructive refutation in finite graph theory". For every $c>0$ and
+every threshold $N$, the construction assembles an octahedron-free graph on
+$n\ge N$ vertices with at least $(3/2048)n^2$ edges ("strict counterexamples of
+every required order, at the fixed unordered edge density 3/2048") and
+independence number below $cn$. It builds this graph from Boolean-cube stages,
+masked compatibility graphs and random perfect-matching realizations. The record
+credits the proof to the solver Jordan. The file's copyright headers credit one
+author writing with OpenAI Codex. Its preamble says that selected portions are
+modified from the TCSlib and FABL Lean libraries and copied as source.
 
-The site's review is the site's own. Its decision note says that the submission
-refutes the problem by constructing, for every $c>0$ and every lower bound $N$,
-a finite $K_{2,2,2}$-free graph on $n\ge N$ vertices with at least $(3/2048)n^2$
-edges and independence number below $cn$. The note also says that the Lean
-kernel accepted the proof and that the permitted axioms were `propext`,
-`Quot.sound` and `Classical.choice`. The site's second-kernel replay was not
-required for this task. That certification is reported, not counted. No refereed
-publication, no erdosproblems.com acceptance and no formal-conjectures catalog
-agreement was found. On 2026-10-06 erdosproblems.com labeled the problem OPEN
-with no proof claim and the commentary summarized under Source, and the
+Conjectures.io's review is Conjectures.io's own. Its decision note says that the
+submission refutes the problem by constructing, for every $c>0$ and every lower
+bound $N$, a finite $K_{2,2,2}$-free graph on $n\ge N$ vertices with at least
+$(3/2048)n^2$ edges and independence number below $cn$. The note also says that
+the Lean kernel accepted the proof and that the permitted axioms were `propext`,
+`Quot.sound` and `Classical.choice`. Conjectures.io's second-kernel replay was
+not required for this task. That certification is reported, not counted. No
+refereed publication, no erdosproblems.com acceptance and no formal-conjectures
+catalog agreement was found. On 2026-10-06 erdosproblems.com labeled the problem
+OPEN with no proof claim and the commentary summarized under Source, and the
 formal-conjectures default branch left the answer open (Formalization below).
 The proof file (810,011 bytes, 18,336 lines, its dependencies bundled as source)
 has a target, a pinned-statement definition and final theorems consistent with
-the site's statement. It contains no `sorry`, `axiom`, `native_decide`, `unsafe`
-or `set_option`. Acceptance rests on this corpus's rebuild of the file on the
-repository's pinned toolchain (Lean v4.34.1), after two lemma renames, its
-kernel replay of everything the target depends on with only the standard axioms,
-and its check of the target against the Statement, as the claim page records.
-The corpus has not recomputed the construction.
+Conjectures.io's statement. It contains no `sorry`, `axiom`, `native_decide`,
+`unsafe` or `set_option`. Acceptance rests on this corpus's rebuild of the file
+on the repository's pinned toolchain (Lean v4.34.1), after two lemma renames,
+its kernel replay of everything the target depends on with only the standard
+axioms, and its check of the target against the Statement, as the claim page
+records. The corpus has not recomputed the construction.
 
 What the refereed literature establishes is unchanged. Theorem 1 of Erdős,
 Hajnal, Sós and Szemerédi (Combinatorica 3 (1983), 69--81, refereed) gives
@@ -119,7 +119,7 @@ but we have no other information" about $G_1=K_{2,2,2}$. Its (1.14) shows that
 no graph has a critical number strictly between $1/8$ and $1/4$. With the
 certified construction, the Ramsey--Turán density $\theta(K_{2,2,2})$ lies in
 $[3/2048,1/8]$. The search whose scope the Current assessment records had found
-no source either way, and the site-certified record is the first.
+no source either way, and the Conjectures.io-certified record is the first.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/e4934265-aa96-4bf5-a3c0-d01153dfcfaa/solution
@@ -130,11 +130,11 @@ accessed 2026-09-18 and 2026-10-06, on both
 dates labeled OPEN with no proof claim and the same commentary: the problem
 page (labeled
 OPEN,
-the site's label for a question that is open and that no finite computation
-can settle; no last-edited date shown; source keys [EHSS83], [Er90], [Er91],
-[Er93, p. 340]; a commentary attributing the problem to Erdős, Hajnal, Sós and
-Szemerédi, recording their proof of the case $\delta>1/8$, and pointing to
-Problem 533 and to the problem's entry in the graphs problem collection), its
+the erdosproblems.com label for a question that is open and that no finite
+computation can settle; no last-edited date shown; source keys [EHSS83], [Er90],
+[Er91], [Er93, p. 340]; a commentary attributing the problem to Erdős, Hajnal,
+Sós and Szemerédi, recording their proof of the case $\delta>1/8$, and pointing
+to Problem 533 and to the problem's entry in the graphs problem collection), its
 empty discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #579,
 https://www.erdosproblems.com/579, accessed 2026-09-18.
 
@@ -159,13 +159,13 @@ https://www.erdosproblems.com/579, accessed 2026-09-18.
   Crossref record). Problem C, p. 6. Context. Library home:
   [[../library/extremal_graph_theory/liu_2021_geometric_constructions_ramsey_turan_theory/_index|liu_2021_geometric_constructions_ramsey_turan_theory]].
 - [Er90] Erdős, Paul, Some of my favourite unsolved problems. A tribute to
-  Paul Erdős (1990), 467--478. Site source key.
+  Paul Erdős (1990), 467--478. erdosproblems.com source key.
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and applications,
-  Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406. Site source key.
+  Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406. erdosproblems.com source key.
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
-  graph theory. Quaestiones Math. 16 (1993), 333--350; the site cites
-  p. 340. Site source key. Chapter III, the Erdős--Sós question for
+  graph theory. Quaestiones Math. 16 (1993), 333--350; erdosproblems.com cites
+  p. 340. erdosproblems.com source key. Chapter III, the Erdős--Sós question for
   $K(2,2,2)$, printed p. 340: after the
   Szemerédi--Bollobás--Erdős result that for every $\epsilon>0$ there is a
   $G(n;\tfrac{n^2}8(1-\epsilon))$ with no $K_4$ and independence number
@@ -187,10 +187,10 @@ under `category research open`, with proof `sorry`; the variant
 not octahedron-free. The community database (teorth/erdosproblems, fetched
 2026-09-18) records the problem open (last update 31 August 2025), the statement
 formalized (last update 2 July 2026), `formal_status` unformalized and no
-formal-proof URL; the site's indicator shows the statement as formalized. On
-2026-10-06 the formal-conjectures default branch carried the statement with
-`answer(sorry)` under `research open`, while the bounty site's certified record
-(Status above) proves its negation.
+formal-proof URL; the erdosproblems.com indicator shows the statement as
+formalized. On 2026-10-06 the formal-conjectures default branch carried the
+statement with `answer(sorry)` under `research open`, while the bounty site's
+certified record (Status above) proves its negation.
 
 ## Current assessment
 
@@ -204,7 +204,7 @@ frontmatter rests on this corpus's kernel replay of the file and its check of
 the target against the Statement (Status). The search below records what the
 literature held before the record.
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN; source keys [EHSS83], [Er90], [Er91], [Er93, p. 340]; the
 commentary summarized under Source. The thread and the proof-claim tab are
 empty. The community database record says open, formalized statement.
@@ -242,16 +242,16 @@ and $c_1b_2c_2$, so $K_{2,2,2}\in\mathrm{Arb}(4)$ and Theorem 1 gives
 $c(K_{2,2,2})\le a_4=1/8$; it is not in $\mathrm{Arb}(3)$: two vertices
 from different classes are adjacent, so an independent set lies inside one
 class, and removing at most one class leaves the $C_4$ spanned by two other
-classes, which is not a forest, so Theorem 1 gives nothing better. In the site's terms: for $\delta>1/8$ and
-$n$ large, every $K_{2,2,2}$-free graph with at least $\delta n^2$ edges has
-an independent set of size $\ge c(\delta)n$, the case $\delta>1/8$ that the
-site's commentary records as proved; by (1.14), $c(K_{2,2,2})\in[0,1/8]$, and
-the site's question
-is whether it is $0$. Acceptance: Combinatorica is refereed. Read depth:
-claims checked for Definitions 1.7, 1.9, 1.12 and 1.13, Theorem 1, the
-$K_{2,2,2}$ remark and (1.14), pp. 71--72; the proofs (Sections 2--5, the
-regularity lemma, the tree building lemma and a weighted Turán theorem) were
-not read.
+classes, which is not a forest, so Theorem 1 gives nothing better. In
+erdosproblems.com's terms: for $\delta>1/8$ and $n$ large, every
+$K_{2,2,2}$-free graph with at least $\delta n^2$ edges has an independent set
+of size $\ge c(\delta)n$, the case $\delta>1/8$ that the erdosproblems.com
+commentary records as proved; by (1.14), $c(K_{2,2,2})\in[0,1/8]$, and the
+erdosproblems.com question is whether it is $0$. Acceptance: Combinatorica is
+refereed. Read depth: claims checked for Definitions 1.7, 1.9, 1.12 and 1.13,
+Theorem 1, the $K_{2,2,2}$ remark and (1.14), pp. 71--72; the proofs (Sections
+2--5, the regularity lemma, the tree building lemma and a weighted Turán
+theorem) were not read.
 
 **Later records of the question (context).** Balogh and Lenz (p. 2 of
 arXiv v2) restate the 1983 bound as
@@ -308,15 +308,16 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X, [Er90], [Er91] and the
 surveys the sources cite for the question. [Er93] lies outside the dated
 search.
 
-**Remaining gaps.** (1) Two of the three later Erdős sources the site cites,
-[Er90] and [Er91], enter the page only as the site's source keys; [Er93] (p.
+**Remaining gaps.** (1) Two of the three later Erdős sources erdosproblems.com
+cites, [Er90] and [Er91], enter the page only as the erdosproblems.com source
+keys; [Er93] (p.
 340) states the question in Erdős's own words, quoted in its reference entry,
 and adds no result. (2) Proof coverage: Theorem 1 is paged at claims checked;
 its proof and the proof of (1.14) (Section 5) were not read; nothing is
 independently reviewed by this corpus, and the certified refutation rests on
 this corpus's kernel replay and Statement check, not on a review. (3) The
 formal-conjectures file is a statement, not a proof; the certified refutation is
-a separate file on the site (Status above).
+a separate file on Conjectures.io (Status above).
 
 ## Known results
 
@@ -330,7 +331,7 @@ a separate file on the site (Status above).
 - [[../library/ramsey_theory/erdos_1983_more_results_ramsey_turan_type_problems/theorem_1|Erdős--Hajnal--Sós--Szemerédi, Theorem 1]]
   (1983): $\mathrm{RT}(n;G;o(n))\le a_ln^2(1+o(1))$ for $G\in\mathrm{Arb}(l)$;
   with $K_{2,2,2}\in\mathrm{Arb}(4)$ this is the case $\delta>1/8$ that the
-  site's commentary records as proved, an accepted partial claim on
+  erdosproblems.com commentary records as proved, an accepted partial claim on
   [[problems/extremal_graph_theory/E0579/claims/1983_03_01_erdos_hajnal_sos_szemeredi|its claim page]].
   The
   [[../library/ramsey_theory/erdos_1983_more_results_ramsey_turan_type_problems/remark_p72|remark on p. 72]]:

@@ -36,9 +36,9 @@ path with three edges.
 Kaizhe Chen and Jie Ma, A problem of Erdős and Hajnal on paths with equal-degree
 endpoints. J. Combin. Theory Ser. B 179 (2026), 1--18,
 doi:10.1016/j.jctb.2026.01.006 (issued July 2026; Crossref record read on
-2026-09-18; the site's reference text gives "arXiv:2503.19569 (2025)"). Preprint
-arXiv:2503.19569 (v1, 25 March 2025). The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:2503.19569), every other right
+2026-09-18; the erdosproblems.com reference text gives "arXiv:2503.19569
+(2025)"). Preprint arXiv:2503.19569 (v1, 25 March 2025). The arXiv record names
+arXiv's non-exclusive distribution license (arXiv:2503.19569), every other right
 reserved.
 
 **Edition.** The copy read for this card is arXiv:2503.19569v1, stamped
@@ -83,15 +83,15 @@ Section 4 adds optimal results for equal-degree vertices joined by paths of
 length one or two and poses the generalization to paths of arbitrary length.
 This is exactly Problem 816, and the paper resolves it for $n\ge600$; the
 range $2\le n\le599$ is claimed by a 2025 preprint of Liu and Zeng
-(arXiv:2505.00523), not held, and at $n=1$ the site's wording fails, as the
-problem page records.
+(arXiv:2505.00523), not held, and at $n=1$ the erdosproblems.com wording fails,
+as the problem page records.
 
 Source: <https://arxiv.org/abs/2503.19569>.
 
 ## Contents
 
 - Problem 1 (p. 1, Erdős--Hajnal, from Erdős's 1991 paper): the question as
-  the site states it; $K_{n,n+1}$ shows the edge bound would be sharp.
+  erdosproblems.com states it; $K_{n,n+1}$ shows the edge bound would be sharp.
 - Theorem 2 (p. 2): for $n\ge600$, $K_{n,n+1}$ is the unique $(2n+1)$-vertex
   graph with at least $n^2+n$ edges having no two equal-degree vertices
   joined by a path of length three. The remarks: uniqueness, and the
@@ -117,8 +117,8 @@ Source: <https://arxiv.org/abs/2503.19569>.
   ($p_2(2n)=n(n+1)/2$, attained by the half graph $H_n$); Conjecture 14
   ($p_\ell(2n+1)=n^2+n$ for every odd $\ell\ge3$ and large $n$); Problem 15
   (determine $p_\ell(2n)$ for even $\ell$ and large $n$).
-- References (p. 15): [1] the site's page for Problem 816; [4] Erdős's
-  Kalamazoo paper, Graph theory, combinatorics, and applications, Vol. 1
+- References (p. 15): [1] the erdosproblems.com page for Problem 816; [4]
+  Erdős's Kalamazoo paper, Graph theory, combinatorics, and applications, Vol. 1
   (1991), 397--406; [5] Mantel 1907.
 
 ## Compiled scope
@@ -133,8 +133,8 @@ every $n\ge600$, Theorem 2 proves the problem's statement, in the stronger
 form for graphs with at least $n^2+n+1$ edges and with $K_{n,n+1}$ the only
 graph with $2n+1$ vertices and at least $n^2+n$ edges having no two
 equal-degree vertices joined by a path of length three. It says nothing for
-$n\le599$; the problem page records the failure of the site's wording at
-$n=1$ and the other sources for the smaller $n$. Theorems 3, 12 and 13 treat
+$n\le599$; the problem page records the failure of the erdosproblems.com wording
+at $n=1$ and the other sources for the smaller $n$. Theorems 3, 12 and 13 treat
 other orders and path lengths and bear on no problem's statement.
 
 No file of this source is held: no license on record permits its redistribution,

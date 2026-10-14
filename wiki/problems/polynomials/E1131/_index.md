@@ -42,7 +42,7 @@ $$
 \min I =2-(1+o(1))\frac{1}{n}?
 $$
 
-**Status.** Open. The site labeled the problem OPEN (page last edited
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited
 2026-01-23). Its discussion thread carries one pending partial claim, recorded
 and not adopted:
 [[problems/polynomials/E1131/claims/2026_04_26_price|Price 2026]], posted on
@@ -75,12 +75,12 @@ it.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 2026-01-23).** For $n$
-nodes in $[-1,1]$ with Lagrange basis polynomials $l_k$, the least value of
-$I=\int_{-1}^1\sum_k|l_k(x)|^2\,dx$, and whether $\min I=2-(1+o(1))/n$. The
-site labeled the problem OPEN. Erdős at first conjectured that the minimum is
-attained at the roots of the integral of the Legendre polynomial, the nodes
-Fejér [Fe32] had shown to minimize $\max_{x\in[-1,1]}\sum_k|l_k(x)|^2$;
+**The question (erdosproblems.com formulation, page last edited 2026-01-23).**
+For $n$ nodes in $[-1,1]$ with Lagrange basis polynomials $l_k$, the least value
+of $I=\int_{-1}^1\sum_k|l_k(x)|^2\,dx$, and whether $\min I=2-(1+o(1))/n$.
+Bloom's catalog labeled the problem OPEN. Erdős at first conjectured that the
+minimum is attained at the roots of the integral of the Legendre polynomial, the
+nodes Fejér [Fe32] had shown to minimize $\max_{x\in[-1,1]}\sum_k|l_k(x)|^2$;
 Szabados [Sz66] disproved that conjecture for every $n>3$. Erdős, Szabados,
 Varma and Vértesi [ESVV94] proved
 
@@ -93,13 +93,13 @@ polynomial.
 
 **Standing.** Open, with one pending partial claim.
 [[problems/polynomials/E1131/claims/2026_04_26_price|Price 2026]], a
-write-up posted in the site's discussion thread on 2026-04-26, credits
-GPT-5.5 Pro with a disproof of the displayed asymptotic; a reply by Nat
+write-up posted in the erdosproblems.com discussion thread on 2026-04-26,
+credits GPT-5.5 Pro with a disproof of the displayed asymptotic; a reply by Nat
 Sothanaphan on 2026-04-27 reports that a standard check found no issues, and
-the site's label was unchanged. The claim would answer the second question
-no and leaves the first open, so the problem derives no settled standing
-from it. The numerical study of Brutman and Toledano [BrTo97], raised in the
-thread on 2026-04-07 and again in the reply of 2026-04-27, had earlier
+the erdosproblems.com label was unchanged. The claim would answer the second
+question no and leaves the first open, so the problem derives no settled
+standing from it. The numerical study of Brutman and Toledano [BrTo97], raised
+in the thread on 2026-04-07 and again in the reply of 2026-04-27, had earlier
 pointed against the asymptotic; a thread comment of 2026-08-14 reports its
 estimate of the limit of $n(2-\min I)$ as about $1.094$. Numerical evidence
 is not a proof, so [BrTo97] is cited and not paged as a claim.
@@ -132,8 +132,8 @@ thread post and not a dated manuscript, so it gets no page.
 as unformalized and no formal-conjectures statement file existed for it, so no
 `formalized` evidence is available to any claim.
 
-**Search scope.** The site's problem page (last edited 2026-01-23) and its
-discussion thread of six comments, accessed 2026-10-07; the Zenodo and
+**Search scope.** The erdosproblems.com problem page (last edited 2026-01-23)
+and its discussion thread of six comments, accessed 2026-10-07; the Zenodo and
 preprints.org records of Rafik's manuscript and the Crossref record of
 [BrTo97], read 2026-10-07; the proof-claims tab, which lists no claim for
 the problem. Price's write-up is not readable from its link. No proof is

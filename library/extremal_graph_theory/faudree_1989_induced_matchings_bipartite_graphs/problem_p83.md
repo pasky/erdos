@@ -36,8 +36,8 @@ $d$."
 
 An induced matching is a set of edges whose endpoints induce exactly those
 edges, that is, a set of pairwise strongly independent edges; $q^*(G)$ is
-the site's $\mathrm{sq}(G)$. Reference [1] is J. C. Bermond, J. Bond, M.
-Paoli and C. Peyrat, Surveys in combinatorics: Graphs and interconnection
+erdosproblems.com's $\mathrm{sq}(G)$. Reference [1] is J. C. Bermond, J. Bond,
+M. Paoli and C. Peyrat, Surveys in combinatorics: Graphs and interconnection
 networks: Diameter and vulnerability, Proceedings of the Ninth British
 Combinatorial Conference, London Mathematical Society Lecture Note Series 82
 (1983), 1--30 (p. 87). The paper's statement that $f(1,d)=\frac54d^2$ "was
@@ -69,10 +69,10 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the problem and
-  the conjecture the site asks, with the date and place behind the site's
-  "Asked by Erdős and Nešetřil in 1985 (see [FGST89])"; Erdős's 1988
-  problem paper (p. 81) had printed the conjecture earlier. The passage
-  credits the blown-up five-cycle, the sharpness example, to the 1983
+  the conjecture erdosproblems.com asks, with the date and place behind
+  erdosproblems.com's "Asked by Erdős and Nešetřil in 1985 (see [FGST89])";
+  Erdős's 1988 problem paper (p. 81) had printed the conjecture earlier. The
+  passage credits the blown-up five-cycle, the sharpness example, to the 1983
   survey.
 - [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: problem 1 with
   $k=1$ is $h_2(d)-1$; the passage credits the $k=1$ question to Bermond,

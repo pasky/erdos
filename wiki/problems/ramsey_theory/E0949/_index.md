@@ -26,34 +26,34 @@ updated: 2026-10-14T01:01:57Z
 $a+b=c$. Must there be a set $A\subseteq \mathbb{R}\backslash S$ of cardinality
 continuum such that $A+A\subseteq \mathbb{R}\backslash S$?
 
-**Formulation.** The site's wording (page last edited 11 January 2026). "No
-solutions to $a+b=c$" with $a,b,c\in S$ makes $S$ sum-free, $a=b$ included,
-so $2a\notin S$ for $a\in S$; the formal-conjectures statement encodes
+**Formulation.** The erdosproblems.com wording (page last edited 11 January
+2026). "No solutions to $a+b=c$" with $a,b,c\in S$ makes $S$ sum-free, $a=b$
+included, so $2a\notin S$ for $a\in S$; the formal-conjectures statement encodes
 exactly this. $A+A=\{a+a':a,a'\in A\}$ includes the doubles $2a$. Erdős's
 1977 wording (printed p. 57, quoted below) asks for a set $\{x_\alpha\}$ "of
 power $c$ in the complement of $S$ so that all the sums
 $\{x_{\alpha_1}+x_{\alpha_2}\}$ also belong to the complement of $S$"; it
 does not say whether $\alpha_1=\alpha_2$ is allowed, and this page follows
-the site's $A+A$. The site's discussion records that its earlier wording
-asked instead for $A\subseteq\mathbb R\setminus S$ with $A+A\subseteq A$ (a
-set closed under addition), that an explicit sum-free $S$ (the union of the
-intervals $[3n+1,3n+2)$, $n\in\mathbb Z$) refutes that wording, and that the
-wording was corrected on 17 and 18 August 2025 to the present one, which that
-$S$ does not refute ($A=[0,1/2)$ works for it). The site's commentary calls
-$S$ Sidon when the sums $a+b$ with $a,b\in S$ are distinct apart from
-$a+b=b+a$.
+erdosproblems.com's $A+A$. The erdosproblems.com discussion records that its
+earlier wording asked instead for $A\subseteq\mathbb R\setminus S$ with
+$A+A\subseteq A$ (a set closed under addition), that an explicit sum-free $S$
+(the union of the intervals $[3n+1,3n+2)$, $n\in\mathbb Z$) refutes that
+wording, and that the wording was corrected on 17 and 18 August 2025 to the
+present one, which that $S$ does not refute ($A=[0,1/2)$ works for it). The
+erdosproblems.com commentary calls $S$ Sidon when the sums $a+b$ with $a,b\in S$
+are distinct apart from $a+b=b+a$.
 
 **Status.** Open. No proof or disproof of the statement for an arbitrary
 sum-free $S\subseteq\mathbb R$ was found in the search whose scope the Current
 assessment records. This is a bounded negative finding, not a certificate of
 openness. The proof-claim tab is empty. Two special cases have been argued, and
 neither is the problem itself. The first is the case where $S$ is Sidon, which
-is the site's variant. It is claimed by an argument that AlphaProof found. The
-argument was merged as a Lean proof into the formal-conjectures statement file
-on 6 January 2026, posted to the site's discussion on 7 January 2026 and adopted
-by the site's commentary. The first case of that argument also covers every $S$
-of cardinality less than $\mathfrak c$, without the Sidon hypothesis. It is
-recorded as a pending partial claim on
+is erdosproblems.com's variant. It is claimed by an argument that AlphaProof
+found. The argument was merged as a Lean proof into the formal-conjectures
+statement file on 6 January 2026, posted to the erdosproblems.com discussion on
+7 January 2026 and adopted by the erdosproblems.com commentary. The first case
+of that argument also covers every $S$ of cardinality less than $\mathfrak c$,
+without the Sidon hypothesis. It is recorded as a pending partial claim on
 [[problems/ramsey_theory/E0949/claims/2026_01_06_deepmind|its claim page]].
 Adoption by the commentary on an open problem does not make it accepted. The
 second is the case where $S$ has the property of Baire. It is argued in a thread
@@ -61,9 +61,9 @@ comment of 23 January 2026, which the commentary did not adopt. It is a thread
 post, not a dated manuscript or a Lean proof, so it has no claim page.
 
 **Source.** [erdosproblems.com/949](https://www.erdosproblems.com/949),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can settle it; last edited 11 January 2026; source key
-[Er77c]), its eight-comment discussion thread (17 August 2025 to 23 January
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; last edited 11 January 2026; source
+key [Er77c]), its eight-comment discussion thread (17 August 2025 to 23 January
 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #949, https://www.erdosproblems.com/949, accessed 2026-09-18.
 
@@ -88,43 +88,45 @@ under `category research solved`, proved inside the file (lines 44 to 113, no
 [[problems/ramsey_theory/E0949/claims/2026_01_06_deepmind|its claim page]].
 The community database (accessed 2026-09-18) records the problem open, the
 statement formalized, `formal_status` unformalized and no formal proof
-(record last updated 31 August 2025); the site's indicator reports a
+(record last updated 31 August 2025); the erdosproblems.com indicator reports a
 formalized statement. The corpus has not built the file.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-OPEN, with the site's note that no finite computation can settle it, last edited
-11 January 2026. The commentary records Erdős's suggestion that, should the
-answer be no, one could assume instead that $S$ is Sidon (all sums $a+b$ with
-$a,b\in S$ distinct up to the order of the summands), and states that a comment
-in the thread (the account YaelDillies) proves this variant affirmatively, by an
-argument that AlphaProof found: every Sidon set $S\subset\mathbb R$ admits
-$A\subseteq\mathbb R\setminus S$ of cardinality continuum with
-$A+A\subseteq\mathbb R\setminus S$. The thread, oldest first: a comment of 17
-August 2025 (the account DesmondWeisenberg) answering the then-current wording
-in the negative with $S=\bigcup_{n\in\mathbb Z}[3n+1,3n+2)$ (sum-free; every
-$a\notin S$ that is not a multiple of $3$ has a multiple in $S$, so the subsets
-of $\mathbb R\setminus S$ closed under addition are sub-semigroups of
-$3\mathbb Z$, all countable), later edited to note that the corrected problem
-asks for $A+A\subseteq\mathbb R\setminus S$, which the construction does not
-resolve, and rejected as answering a variant on
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN, with the erdosproblems.com note that no finite
+computation can settle it, last edited 11 January 2026. The commentary records
+Erdős's suggestion that, should the answer be no, one could assume instead that
+$S$ is Sidon (all sums $a+b$ with $a,b\in S$ distinct up to the order of the
+summands), and states that a comment in the thread (the account YaelDillies)
+proves this variant affirmatively, by an argument that AlphaProof found: every
+Sidon set $S\subset\mathbb R$ admits $A\subseteq\mathbb R\setminus S$ of
+cardinality continuum with $A+A\subseteq\mathbb R\setminus S$. The thread,
+oldest first: a comment of 17 August 2025 (the account DesmondWeisenberg)
+answering the then-current wording in the negative with
+$S=\bigcup_{n\in\mathbb Z}[3n+1,3n+2)$ (sum-free; every $a\notin S$ that is not
+a multiple of $3$ has a multiple in $S$, so the subsets of
+$\mathbb R\setminus S$ closed under addition are sub-semigroups of $3\mathbb Z$,
+all countable), later edited to note that the corrected problem asks for
+$A+A\subseteq\mathbb R\setminus S$, which the construction does not resolve, and
+rejected as answering a variant on
 [[problems/ramsey_theory/E0949/claims/2025_08_17_weisenberg|its claim page]]; a
-comment of 17 August 2025 (the account Vjeko_Kovac) pointing out that the site's
-wording did not match the original paper (p. 57), giving the present wording
-and, for that $S$, $A=\bigcup_{n\ge1}[3n,3n+1/2)$; a reply of 18 August 2025
-that the commenter has no counterexample to the corrected formulation; three
-comments of 18 and 24 August 2025 (Vjeko_Kovac and another commenter) on what a
-nontrivial $S$ would have to look like ($S$ must contain points arbitrarily
-close to $0$, else a small ball around $0$ serves as $A$); the comment of 7
-January 2026 (YaelDillies) with the Sidon argument below, which AlphaProof
-found, and links to the Lean proof AlphaProof discovered and to a cleaned-up
-version of it, after which the site was updated; and a comment of 23 January
-2026 (the account Przemek Chojecki) proving the statement when $S$ has the
-property of Baire, remarking that the first case of the Sidon argument already
-covers every $S$ with $|S|<\mathfrak c$ without the Sidon hypothesis, and
-concluding that a counterexample would have to be very pathological: not Sidon,
-not measurable and without the property of Baire. The proof-claim tab is empty.
+comment of 17 August 2025 (the account Vjeko_Kovac) pointing out that the
+erdosproblems.com wording did not match the original paper (p. 57), giving the
+present wording and, for that $S$, $A=\bigcup_{n\ge1}[3n,3n+1/2)$; a reply of 18
+August 2025 that the commenter has no counterexample to the corrected
+formulation; three comments of 18 and 24 August 2025 (Vjeko_Kovac and another
+commenter) on what a nontrivial $S$ would have to look like ($S$ must contain
+points arbitrarily close to $0$, else a small ball around $0$ serves as $A$);
+the comment of 7 January 2026 (YaelDillies) with the Sidon argument below, which
+AlphaProof found, and links to the Lean proof AlphaProof discovered and to a
+cleaned-up version of it, after which erdosproblems.com was updated; and a
+comment of 23 January 2026 (the account Przemek Chojecki) proving the statement
+when $S$ has the property of Baire, remarking that the first case of the Sidon
+argument already covers every $S$ with $|S|<\mathfrak c$ without the Sidon
+hypothesis, and concluding that a counterexample would have to be very
+pathological: not Sidon, not measurable and without the property of Baire. The
+proof-claim tab is empty.
 
 **The origin ([Er77c], printed p. 57).** In Section 6, "Problems on infinite
 subsets", after the Graham--Rothschild conjecture proved by Hindman (Problem
@@ -140,13 +142,13 @@ belong to the complement of $S$?", adding that, should the answer be no, one
 might instead assume that all the sums $x+y$ with $x,y\in S$ are distinct.
 The first "$S$" is printed with a stray subscript $x$, a misprint for the $S$
 of the rest of the passage; the closing sentence is the Sidon suggestion of
-the site's commentary. The passage poses the question and records nothing
-about it.
+the erdosproblems.com commentary. The passage poses the question and records
+nothing about it.
 
-**The Sidon variant (adopted by the site's commentary, found by AlphaProof;
-not the problem).** The argument posted on 7 January 2026 and carried by the
-collection's `erdos_949.variants.sidon` at the pinned commit:
-if $|S|<\mathfrak c$, Zorn's lemma gives a maximal $A\subseteq S^c$ with
+**The Sidon variant (adopted by the erdosproblems.com commentary, found by
+AlphaProof; not the problem).** The argument posted on 7 January 2026 and
+carried by the collection's `erdos_949.variants.sidon` at the pinned commit: if
+$|S|<\mathfrak c$, Zorn's lemma gives a maximal $A\subseteq S^c$ with
 $A+A\subseteq S^c$; maximality means every $x$ outside $S$, outside $S/2$ and
 outside $\bigcup_{a\in A}(S-a)$ already lies in $A$, so
 $S^c\cap(S/2)^c\subseteq A\cup\bigcup_{a\in A}(S-a)$, and since the left side
@@ -162,11 +164,11 @@ $y-a/2=t$ with $x,y,s,t\in S$ then $x+t=y+s$, so the Sidon property forces
 $x=y$ (since $x=s$ would give $a=0$); and if $x+y-a=s\in S$ with $x,y\in
 S\setminus\{a\}$ then $x+y=s+a$ are two representations of one number as a
 sum of two elements of $S$, so the Sidon property forces $\{x,y\}=\{s,a\}$,
-contradicting $x,y\ne a$. The site's commentary adopts the result; the Lean
-proof in the collection file has no `sorry`, and the corpus has not built it;
-no refereed source exists. The thread credits the argument and the Lean proof
-to AlphaProof and the cleaning-up to the commenter. The variant is not the
-problem, and its claim page records it as a pending partial claim.
+contradicting $x,y\ne a$. The erdosproblems.com commentary adopts the result;
+the Lean proof in the collection file has no `sorry`, and the corpus has not
+built it; no refereed source exists. The thread credits the argument and the
+Lean proof to AlphaProof and the cleaning-up to the commenter. The variant is
+not the problem, and its claim page records it as a pending partial claim.
 
 **The Baire case (a discussion proof; a lead, not status).** The comment of 23
 January 2026: if $\mathbb R\setminus S$ contains a neighborhood
@@ -178,7 +180,7 @@ $(S\times\mathbb R)\cup(\mathbb R\times S)\cup\{(x,y):x+y\in S\}$ is meagre in
 $\mathbb R^2$, and a theorem of Mycielski (cited by name in the comment,
 without a reference) gives a perfect set $P$ with $P\times P$ disjoint from
 it; $A=P$ has cardinality $\mathfrak c$. The argument is not reviewed in
-this corpus; the site's commentary does not mention it. Together with
+this corpus; the erdosproblems.com commentary does not mention it. Together with
 the Sidon case it leaves, as the comment says, only non-Sidon sets of size
 $\mathfrak c$ without the property of Baire (and, by the measurable analog
 the comment gestures at, non-measurable) as possible counterexamples.
@@ -192,7 +194,7 @@ required to fall into the complement, and $A$ itself must lie there.
 **Search scope.** None of the routes below found a proof or
 disproof of the statement for arbitrary sum-free $S$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit, including the variant's
   proof; the community database, read 2026-09-18.
 - arXiv: the API queries `abs:"sum-free" AND abs:continuum` (no records),
@@ -212,11 +214,11 @@ the thread is not identified to a paper.
 
 **Remaining gaps.** (1) Nothing proves or refutes the statement for an
 arbitrary sum-free $S$; there is nothing to compile. (2) The Sidon variant
-rests on an argument that AlphaProof found, adopted by the site's commentary
-and formalized inside the collection file; the corpus has not built the file,
-and the claim stays pending. (3) The Baire-case argument is a discussion
-proof, unreviewed and not adopted by the site. (4) The origin passage is
-quoted as printed; its "$S_x$" is marked as a misprint.
+rests on an argument that AlphaProof found, adopted by the erdosproblems.com
+commentary and formalized inside the collection file; the corpus has not built
+the file, and the claim stays pending. (3) The Baire-case argument is a
+discussion proof, unreviewed and not adopted by erdosproblems.com. (4) The
+origin passage is quoted as printed; its "$S_x$" is marked as a misprint.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

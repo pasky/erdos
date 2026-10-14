@@ -33,10 +33,11 @@ $$
 
 **Formulation.** The minimum is taken over $1\le i<n$. Pomerance [Po79]
 defines the same quantity over $0<i<n$ and proves $f(n)>2p_n$ for infinitely
-many $n$, so the $\limsup$ is at least $2$, as the site's commentary records;
-McNew's quantity (23) and the formal-conjectures statement also take
+many $n$, so the $\limsup$ is at least $2$, as the erdosproblems.com commentary
+records; McNew's quantity (23) and the formal-conjectures statement also take
 $1\le i<n$. Admitting $i=0$ would give $f(n)\le 2p_n$ for every $n$ and the
-trivial answer no, so the site's $\min_{i<n}$ is read as the sources read it.
+trivial answer no, so erdosproblems.com's $\min_{i<n}$ is read as the sources
+read it.
 
 **Status.** Open.
 

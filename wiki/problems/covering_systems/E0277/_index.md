@@ -25,16 +25,16 @@ updated: 2026-10-08T14:17:37Z
 $\sigma(n)>cn$ but there is no covering system whose moduli all distinct
 divisors of $n$ (which are $>1$)?
 
-**Status.** PROVED (LEAN), the site's label. The status-defining source is
-Haight's theorem (Mathematika 26 (1979), 53--61, refereed). It shows that for
-every $c$ some $n$ has $\sigma(n)>cn$ while its divisors above $1$ cannot be the
-moduli of a covering system, so the answer is yes. The claim page is
-[[problems/covering_systems/E0277/claims/1979_06_01_haight|Haight]], accepted on
-the refereed publication and the site's credit. A second, quantitative proof by
-Filaseta, Ford, Konyagin, Pomerance and Yu (J. Amer. Math. Soc. 2007, refereed)
-is recorded on
+**Status.** PROVED (LEAN), the erdosproblems.com label. The status-defining
+source is Haight's theorem (Mathematika 26 (1979), 53--61, refereed). It shows
+that for every $c$ some $n$ has $\sigma(n)>cn$ while its divisors above $1$
+cannot be the moduli of a covering system, so the answer is yes. The claim page
+is [[problems/covering_systems/E0277/claims/1979_06_01_haight|Haight]], accepted
+on the refereed publication and the erdosproblems.com credit. A second,
+quantitative proof by Filaseta, Ford, Konyagin, Pomerance and Yu (J. Amer. Math.
+Soc. 2007, refereed) is recorded on
 [[problems/covering_systems/E0277/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu|their claim page]].
-The site's Lean qualification refers to the Lean proof recorded under
+The erdosproblems.com Lean qualification refers to the Lean proof recorded under
 Formalization.
 
 **Source.** [erdosproblems.com/277](https://www.erdosproblems.com/277), accessed

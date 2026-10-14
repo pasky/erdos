@@ -70,5 +70,5 @@ statement level).
   the tetrahedron density only under the additional exclusion of four
   vertices spanning exactly one edge; for the unrestricted problem this
   version records $0.561666$ as an unrigorous numerical computation, and
-  the site's commentary attributes to this paper a bound written
+  the erdosproblems.com commentary attributes to this paper a bound written
   $0.5611666$.

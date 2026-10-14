@@ -32,12 +32,12 @@ $$
 
 for $n$ sufficiently large?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
-6 October 2025). A chord of a cycle is an edge of the graph joining two vertices
-of the cycle that are not consecutive on it; the $k$ chords are required to
-share one cycle vertex. The question is for each fixed $k\ge1$ and all
-$n\ge n(k)$. Erdős's printed forms count differently and use the least forcing
-number rather than the maximum avoiding it: [Er64c], p. 36
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 6 October 2025). A chord of a cycle is an edge of the graph joining two
+vertices of the cycle that are not consecutive on it; the $k$ chords are
+required to share one cycle vertex. The question is for each fixed $k\ge1$ and
+all $n\ge n(k)$. Erdős's printed forms count differently and use the least
+forcing number rather than the maximum avoiding it: [Er64c], p. 36
 ([[../library/extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/problem_p36|result page]]),
 "for a certain $c$ and $n>n_0(k)$ every $\mathfrak G(n;kn+c)$ contains a circuit
 with at least $k-1$ diagonals emenating [sic] from a vertex. It is easy to see
@@ -47,21 +47,22 @@ $G(n;kn-k^2+1)$ contains a circuit one vertex of which is the end point of at
 least $k-1$ diagonals"; [Er75], pp. 13--14, "Denote by $r(n;k)$ the smallest
 integer for which every $G(n;r(n;k))$ has a circuit $C_l$ with a vertex which
 has at least $k-1$ diagonals ... I conjectured that for $n>n_0(k)$
-$r(n;k)=k(n-k)+1$"; and [Er76b], Problem 29, pp. 191--192, with the site's
-indexing, $g_i(n)$ "the smallest integer for which every $G(n;g_i(n))$ contains
-a $C_\ell$ with at least $i$ diagonals emanating from one of its vertices" and
-the conjecture "(1) $g_i(n)=(i+1)n-(i+1)^2+1$". Conversion made here: with
-$k'=k+1$, the 1964, 1969 and 1975 statements say that $(k+1)n-(k+1)^2+1$ edges
-force a cycle with $k$ chords at one vertex, so $g_k(n)\le(k+1)n-(k+1)^2$ in the
-site's terms, and "$c\ge1-k^2$" says the bound cannot be lowered; their "$k=3$
-and $k=4$" are the site's $k=2$ and $k=3$; Pósa's theorem that every
-$\mathfrak G(n;2n-3)$ has a circuit with a diagonal, false for $2n-4$, is the
-site's $g_1(n)=2n-4$ ("for $n\ge4$" in [Er75]). Jiang's abstract and the 2026
-preprint [ChNi26] use the site's indexing.
+$r(n;k)=k(n-k)+1$"; and [Er76b], Problem 29, pp. 191--192, with the
+erdosproblems.com indexing, $g_i(n)$ "the smallest integer for which every
+$G(n;g_i(n))$ contains a $C_\ell$ with at least $i$ diagonals emanating from one
+of its vertices" and the conjecture "(1) $g_i(n)=(i+1)n-(i+1)^2+1$". Conversion
+made here: with $k'=k+1$, the 1964, 1969 and 1975 statements say that
+$(k+1)n-(k+1)^2+1$ edges force a cycle with $k$ chords at one vertex, so
+$g_k(n)\le(k+1)n-(k+1)^2$ in erdosproblems.com's terms, and "$c\ge1-k^2$" says
+the bound cannot be lowered; their "$k=3$ and $k=4$" are erdosproblems.com's
+$k=2$ and $k=3$; Pósa's theorem that every $\mathfrak G(n;2n-3)$ has a circuit
+with a diagonal, false for $2n-4$, is erdosproblems.com's $g_1(n)=2n-4$ ("for
+$n\ge4$" in [Er75]). Jiang's abstract and the 2026 preprint [ChNi26] use the
+erdosproblems.com indexing.
 
-**Status.** Proved. The site labeled the problem PROVED and credits Jiang [Ji04]
-(J. Graph Theory 46 (2004), no. 3, 180--182; refereed). The theorem is recorded
-on the claim page
+**Status.** Proved. Bloom's catalog labeled the problem PROVED and credits Jiang
+[Ji04] (J. Graph Theory 46 (2004), no. 3, 180--182; refereed). The theorem is
+recorded on the claim page
 [[problems/extremal_graph_theory/E0767/claims/2004_04_07_jiang|Jiang]], from
 which the frontmatter standing is derived. The accepted claim rests on the
 refereed note and the curator's credit. The paper is not held. Its abstract is
@@ -71,17 +72,18 @@ does not contain a cycle with $k$ chords incident to a vertex on the cycle.
 Bollobás conjectured as an exercise in [2, p. 398, Problem 13] that there exists
 a function $n(k)$ such that $g_k(n)=(k+1)n-(k+1)^2$ for all $n\ge n(k)$. Using
 an old result of Bondy [3], we prove the conjecture, showing that
-$n(k)\le3k+3$." This is the site's statement in the site's notation, with the
-same threshold $n\ge3k+3$ that the site's commentary gives. The 2026 preprint
-[ChNi26] restates it as its Theorem 1.2 with the hypotheses $k\ge1$ and
-$n\ge3k+3$. The theorem's proof is known only through the abstract and that
-restatement. The preprint's account below is context, not acceptance evidence.
-So is the third-party Lean proof of the $n\ge3k+3$ form, which this corpus has
-not built. Jiang credits the conjecture to Bollobás's book. Erdős's papers state
-it as his own. The 2026 preprint has its own claim page,
+$n(k)\le3k+3$." This is the erdosproblems.com statement in the erdosproblems.com
+notation, with the same threshold $n\ge3k+3$ that the erdosproblems.com
+commentary gives. The 2026 preprint [ChNi26] restates it as its Theorem 1.2 with
+the hypotheses $k\ge1$ and $n\ge3k+3$. The theorem's proof is known only through
+the abstract and that restatement. The preprint's account below is context, not
+acceptance evidence. So is the third-party Lean proof of the $n\ge3k+3$ form,
+which this corpus has not built. Jiang credits the conjecture to Bollobás's
+book. Erdős's papers state it as his own. The 2026 preprint has its own claim
+page,
 [[problems/extremal_graph_theory/E0767/claims/2026_09_14_chen_ning|Chen and Ning]],
-as a pending claim. Pósa's theorem for $k=1$, credited in the site's commentary,
-has its own partial claim page,
+as a pending claim. Pósa's theorem for $k=1$, credited in the erdosproblems.com
+commentary, has its own partial claim page,
 [[problems/extremal_graph_theory/E0767/claims/1961_01_01_posa|Pósa]].
 
 **Source.** [erdosproblems.com/767](https://www.erdosproblems.com/767),
@@ -98,9 +100,9 @@ https://www.erdosproblems.com/767, accessed 2026-09-18.
 - [Ji04] Jiang, Tao, A note on a conjecture about cycles with many incident
   chords. J. Graph Theory 46 (2004), no. 3, 180--182, doi:10.1002/jgt.10179
   (published online 7 April 2004, print July 2004, as the Crossref record
-  gives them; the site's reference text gives "J. Graph Theory (2004),
-  180-182"). Not held; its abstract is known as deposited in the Crossref
-  record.
+  gives them; the erdosproblems.com reference text gives "J. Graph Theory
+  (2004), 180-182"). Not held; its abstract is known as deposited in the
+  Crossref record.
 - [Er64c] Erdős, P., Extremal problems in graph theory. Theory of Graphs and
   its Applications (Proc. Sympos. Smolenice, 1963), Prague (1964), 29--36;
   p. 36. Library home:
@@ -124,8 +126,8 @@ https://www.erdosproblems.com/767, accessed 2026-09-18.
   analysis. Proc. Fifth British Combinatorial Conference (Aberdeen 1975),
   Congr. Numer. XV (1976), 169--192; the end of Problem 29, pp. 191--192
   (PDF pp. 23--24 of the Rényi archive's scan,
-  https://users.renyi.hu/~p_erdos/1976-36.pdf). Not cited by the site for
-  this problem. Library home:
+  https://users.renyi.hu/~p_erdos/1976-36.pdf). Not cited by erdosproblems.com
+  for this problem. Library home:
   [[../library/extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/_index|erdos_1976_problems_results_graph_theory_combinatorial_analysis]]
   (the card's Contents record the passage).
 - [ChNi26] Chen, Xiaozheng and Ning, Bo, On Erdős Problem 767: Cycles with
@@ -146,7 +148,7 @@ holds
 (added 2026-09-21; linked at the commit that added it), which states
 `erdos_767` as the equivalence of the answer yes with Jiang's threshold
 form, $g_k(n)=(k+1)n-(k+1)^2$ for all $k\ge1$ and all $n\ge3k+3$, a stronger
-statement than the site's "for $n$ sufficiently large"; tags it
+statement than erdosproblems.com's "for $n$ sufficiently large"; tags it
 `research solved`; names as its formal proof the file
 `src/latest/ErdosProblems/Erdos767.lean` of Boris Alexeev's lean-proofs
 repository (plby/lean-proofs); and adds variant statements for Czipszer's
@@ -159,19 +161,19 @@ are on the claim page
 [[problems/extremal_graph_theory/E0767/claims/2004_04_07_jiang|Jiang]].
 This corpus has neither built nor audited it. The Lean 4 development that
 Chen and Ning declare a formalization of their own results is linked, at
-its one commit, on their claim page; it is unbuilt here as well. The site's
-page, accessed 2026-09-18, recorded no formalized statement and one reader
-reaction judging the statement formalizable.
+its one commit, on their claim page; it is unbuilt here as well. The
+erdosproblems.com page, accessed 2026-09-18, recorded no formalized statement
+and one reader reaction judging the statement formalizable.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED; last edited 6 October 2025. The commentary, in this page's
 words: Czipszer showed that $g_k(n)$ is finite for every $k$, with
 $g_k(n)\le(k+1)n$; Erdős called the lower bound $g_k(n)\ge(k+1)n-(k+1)^2$
 easy; Pósa proved $g_1(n)=2n-4$ for $n\ge4$; Erdős had the equality from
 $n\ge2k+2$ on for $k=2$ and $k=3$; Jiang [Ji04] proved it for $n\ge3k+3$;
-and the site notes, as a curiosity, that in [Er69b] Erdős reports his
+and erdosproblems.com notes, as a curiosity, that in [Er69b] Erdős reports his
 conjectured equality disproved for general $k$ by Lewin, by oral
 communication, and offers two guesses, that Lewin's examples concerned only
 small $n$ or that the disproof was wrong. The thread holds one comment
@@ -183,16 +185,16 @@ database lists the problem as proved as of its last update on 31 August 2025.
 **Status support.** The accepted claim on Jiang's page, from which the
 frontmatter's `claim: proved` derives, rests on evidence of two kinds: the
 publisher's record of [Ji04], a three-page note in a refereed journal whose
-abstract (quoted in the Status) states the site's theorem with
+abstract (quoted in the Status) states erdosproblems.com's theorem with
 $n(k)\le3k+3$ and names its tool, "an old result of Bondy"; and the
-curator's credit, the site's label and account. Context, not evidence: the
-2026 preprint [ChNi26], which restates the theorem as its Theorem 1.2 with
-the hypotheses $k\ge1$ and $n\ge3k+3$ and recounts in its abstract that
+curator's credit, the erdosproblems.com label and account. Context, not
+evidence: the 2026 preprint [ChNi26], which restates the theorem as its Theorem
+1.2 with the hypotheses $k\ge1$ and $n\ge3k+3$ and recounts in its abstract that
 "Jiang confirmed this by proving the formula for all $n\ge3k+3$ when
 $k\ge1$"; and the third-party Lean proof of the $n\ge3k+3$ form recorded
 under Formalization, which this corpus has not built. What is missing is
 Jiang's text: the theorem as printed, the identity of Bondy's result and the
-proof. The claim page records that qualification. The site's other
+proof. The claim page records that qualification. erdosproblems.com's other
 credits are instance results: Pósa's $g_1(n)=2n-4$ for $n\ge4$, posed as
 Problem 127 of Mat. Lapok 12 (1961) and cited there by Gould's 2022 survey
 and by [ChNi26], has the partial claim page
@@ -203,8 +205,8 @@ without proof and no publication of them is identified.
 
 **The origin passages, side by side.** [Er64c], p. 36: the passage quoted in the
 Formulation note, with the threshold $n>n_0(k)$ and the question "Perhaps
-$c=1-k^2$?", proved by Erdős for its $k=3$ and $k=4$ (the site's $k=2$ and
-$k=3$). [Er69b], printed p. 34 (the passage is quoted on the
+$c=1-k^2$?", proved by Erdős for its $k=3$ and $k=4$ (erdosproblems.com's $k=2$
+and $k=3$). [Er69b], printed p. 34 (the passage is quoted on the
 [[../library/graph_coloring/erdos_1969_problems_results_chromatic_graph_theory/_index|card]]):
 after Pósa's theorem on one diagonal, Erdős writes "I had thought that every
 $G(n;kn-k^2+1)$ contains a circuit one vertex of which is the end point of at
@@ -228,10 +230,10 @@ Czipszer's $g_i(n)\le(i+1)n+c_i$ and $g_2(n)=3n-8$, states "I conjectured that
 (1) $g_i(n)=(i+1)n-(i+1)^2+1$", says that (1) would follow from $g_i(2i)=i^2+1$
 "but M. Lecvin [sic] disproved this and thus (1) is in doubt", and that (1), if
 true, is best possible. ("Lecvin" is the print's; the $g_i(n)$ of 1976 is the
-least forcing number, so (1) is the site's formula and $g_2(n)=3n-8$ its value
-$3n-9$ at $k=2$; an observation made here: in the 1976 indexing (1) at $n=2i+2$
-reads $g_i(2i+2)=(i+1)^2+1$, and the printed "$g_i(2i)=i^2+1$" is that base case
-in the 1964 and 1975 indexing.)
+least forcing number, so (1) is the erdosproblems.com formula and $g_2(n)=3n-8$
+its value $3n-9$ at $k=2$; an observation made here: in the 1976 indexing (1) at
+$n=2i+2$ reads $g_i(2i+2)=(i+1)^2+1$, and the printed "$g_i(2i)=i^2+1$" is that
+base case in the 1964 and 1975 indexing.)
 
 So the accounts of Lewin's refutation agree once the thresholds are read:
 the 1969 statement, without $n>n_0(k)$, was disproved "in general"; the
@@ -239,13 +241,13 @@ the 1969 statement, without $n>n_0(k)$, was disproved "in general"; the
 the conjecture for $n>n_0(k)$, which is what Jiang proved; the 1976 paper
 states (1) without a threshold, reports Lewin's disproof of
 $g_i(2i)=i^2+1$ and calls (1) in doubt, without keeping a thresholded form.
-The site's first guess, that
+erdosproblems.com's first guess, that
 Lewin's disproof concerned small $n$ only, matches the 1975 account; the
-site's statement that Erdős had the equality for $n\ge2k+2$ at $k=2$ and
-$k=3$ combines the 1964 "$k=3$ and $k=4$" with the 1975 "$n_0(k)=2k$ ...
-true for $k=3$", which the survey asserts for its $k=3$ (the site's $k=2$)
-only. The site's attribution to Czipszer of the bound $g_k(n)\le(k+1)n$ is
-the 1964 "for a certain $c$ ... $kn+c$" and the 1976
+erdosproblems.com statement that Erdős had the equality for $n\ge2k+2$ at $k=2$
+and $k=3$ combines the 1964 "$k=3$ and $k=4$" with the 1975 "$n_0(k)=2k$ ...
+true for $k=3$", which the survey asserts for its $k=3$ (erdosproblems.com's
+$k=2$) only. The erdosproblems.com attribution to Czipszer of the bound
+$g_k(n)\le(k+1)n$ is the 1964 "for a certain $c$ ... $kn+c$" and the 1976
 "$g_i(n)\le(i+1)n+c_i$", with the additive constant dropped. Lewin's
 examples are known through these oral-communication reports and through
 Bollobás's book, whose p. 398, Problem 12, Chen and Ning cite for the
@@ -255,8 +257,8 @@ prints an example.
 **Leads with provenance, not status.** The forum's [ChNi26], recorded on
 the claim page
 [[problems/extremal_graph_theory/E0767/claims/2026_09_14_chen_ning|Chen and Ning]]:
-the paper defines $g_k(n)$ in the site's terms for $k\ge1$ and $n\ge k+2$,
-recounts Erdős's conjecture for $n\ge2k+2$ (citing [Er69b]), Lewin's
+the paper defines $g_k(n)$ in erdosproblems.com's terms for $k\ge1$ and
+$n\ge k+2$, recounts Erdős's conjecture for $n\ge2k+2$ (citing [Er69b]), Lewin's
 disproof (citing [Bo78], p. 398, Problem 12), Bollobás's question with a
 threshold $n(k)$ (Problem 13 of that page) and Jiang's theorem as its
 Theorem 1.2 ($k\ge1$, $n\ge3k+3$), and its Theorem 1.3 determines $g_k(n)$
@@ -285,9 +287,9 @@ the whole cycle and are not the problem.
 **Search scope.** None of the routes below found a dispute
 of Jiang's theorem; [Ji04] is not held.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-18; the formal-conjectures tree, which then held no file 767 (the
-  file added on 2026-09-21 is recorded under Formalization); the community
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures tree, which then held no file 767
+  (the file added on 2026-09-21 is recorded under Formalization); the community
   database entry.
 - Crossref: the record of doi:10.1002/jgt.10179 (volume, issue, pages, dates
   and the abstract quoted above).
@@ -339,7 +341,7 @@ audited by this corpus.
   [[problems/extremal_graph_theory/E0767/claims/1961_01_01_posa|Pósa]].
 - [[../library/extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/problem_p36|Erdős 1964, p. 36]]:
   the conjecture in its first printed form, with Pósa's and Czipszer's
-  results and the cases the site calls $k=2$ and $k=3$.
+  results and the cases erdosproblems.com calls $k=2$ and $k=3$.
 - [Er69b] p. 34: the conjecture without a threshold and Lewin's refutation
   of it "in general".
 - [Er75] pp. 13--14: Lewin's refutation of the base case $n_0(k)=2k$, the

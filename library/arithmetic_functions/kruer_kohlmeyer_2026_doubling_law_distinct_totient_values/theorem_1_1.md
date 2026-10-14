@@ -14,8 +14,8 @@ updated: 2026-10-07T20:23:45Z
 **Source and scope.** Theorem 1.1 ("Accepted target"), p. 1, of
 [[arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/_index|Kruer and Kohlmeyer (2026)]],
 the statement of `Bounty.target` (line 64567) of the accepted Lean file the
-card identifies. The proof is that file, accepted by the site's kernel; the
-PDF proves in prose only the deduction of the theorem from
+card identifies. The proof is that file, accepted by Conjectures.io's kernel;
+the PDF proves in prose only the deduction of the theorem from
 [[arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/proposition_4_1|Proposition 4.1]]
 through
 [[arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/lemma_2_1|Lemma 2.1]]
@@ -33,7 +33,7 @@ $x\ge1$ since $\varphi(1)=1$.
 given $\eta>0$, the inequality $|V(2x)/V(x)-2|<\eta$ holds for every
 sufficiently large real $x$.
 
-**Formal statement.** The site verified
+**Formal statement.** Conjectures.io verified
 `Filter.Tendsto (fun x => Erdos416.V (2 * x) / Erdos416.V x) Filter.atTop (nhds 2)`
 with `Erdos416.V x` the cardinality of
 `(Finset.Icc 1 ⌊x⌋₊).filter (fun n => ∃ m : ℕ, m.totient = n)`, the
@@ -45,7 +45,7 @@ lower bound $1$, so the formal and the prose statements agree.
 `Erdos416Proof.Simplified.doubling_limit` (line 64526), which applies
 `doubling_of_power_raw_counting_contracts` to the coverage, collision and
 imbalance estimates of the selected pair families, the content of
-Proposition 4.1. The card records the file's provenance and the site's
+Proposition 4.1. The card records the file's provenance and Conjectures.io's
 verification and review.
 
 **The final deduction, reworked.** Fix $\eta>0$. Let $0<\varepsilon<1/2$ and
@@ -76,11 +76,11 @@ imported premise and the gap it leaves named, on
 [[../wiki/research/erdos_416/kruer_kohlmeyer_theorem_1_1_reconstruction|the Theorem 1.1 reconstruction page]]
 of the Problem 416 research folder; author-recorded, changing nothing here.
 
-**Standing.** The theorem's proof is the accepted Lean file, replayed by the
-site's single kernel (Nanoda not run) with permitted axioms `propext`,
+**Standing.** The theorem's proof is the accepted Lean file, replayed by
+Conjectures.io's single kernel (Nanoda not run) with permitted axioms `propext`,
 `Quot.sound` and `Classical.choice`; there is no refereed publication, and
 the file was not built here. The deduction above was checked here;
-Proposition 4.1 was not, and rests on the site's acceptance.
+Proposition 4.1 was not, and rests on Conjectures.io's acceptance.
 
 **Dependencies.** Proposition 4.1 (Lean only), Lemma 2.1, Lemma 5.1, the
 trivial bound $V(z)\le z$, and a Chebyshev-type lower bound

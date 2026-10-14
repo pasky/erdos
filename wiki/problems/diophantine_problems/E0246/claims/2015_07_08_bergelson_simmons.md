@@ -45,7 +45,7 @@ linear bound on the exponent range.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Acta Arithmetica, volume 177. The site's
+**Acceptance.** Refereed: Acta Arithmetica, volume 177. The erdosproblems.com
 commentary on the problem does not cite the paper. The pending claim
 [[problems/diophantine_problems/E0246/claims/2026_09_03_song_yue|Song and Yue's bound]]
 presents itself as an improvement of this bound.

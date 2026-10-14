@@ -31,7 +31,7 @@ three-term arithmetic progression?
 
 **Status.** DISPROVED (LEAN). The standing is derived from the
 [[problems/additive_combinatorics/E0847/claims/2023_11_14_reiher_rodl_sales|claim page]],
-accepted on the refereed publication and the site's credit.
+accepted on the refereed publication and the erdosproblems.com credit.
 
 **Source.** [erdosproblems.com/847](https://www.erdosproblems.com/847), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #847,

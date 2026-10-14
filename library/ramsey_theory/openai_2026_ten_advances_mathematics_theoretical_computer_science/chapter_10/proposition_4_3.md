@@ -61,5 +61,5 @@ Generalized Quadrangles* (self-duality of $W(q)$ for even $q$, §3.2.1;
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0575/_index|Problem 575]]: the lower half of
-  the accepted disproof, the site's "$\mathrm{ex}(n;G)\gg n^{4/3}$ for all
-  $G\in\mathcal F$".
+  the accepted disproof, erdosproblems.com's "$\mathrm{ex}(n;G)\gg n^{4/3}$ for
+  all $G\in\mathcal F$".

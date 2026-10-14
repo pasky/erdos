@@ -76,8 +76,8 @@ checks Hypothesis 3 (p. 9).
 ## Standing
 
 An unrefereed manuscript with a declared AI-assistance acknowledgment
-(proofreading), read statically; the site's Problem 318 page accepts the
-result (last edited 1 April 2026). Consumers state the theorem with this
+(proofreading), read statically; erdosproblems.com's Problem 318 page accepts
+the result (last edited 1 April 2026). Consumers state the theorem with this
 qualification.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0318/_index|#318]]: the third question,

@@ -26,15 +26,15 @@ the case when all $a_1,\dots,a_n$ are non-negative integers."
 **Corollary 3** (p. 174). $g(n)=O(n^{2/5}\ln^{2/5}n)$.
 
 The $g(n)$ defined on p. 171 is the guaranteed size (the minimum over sets
-of $n$ reals of the maximum strongly sum-free subset), the site's $g(n)$ for
-Problem 787.
+of $n$ reals of the maximum strongly sum-free subset), erdosproblems.com's
+$g(n)$ for Problem 787.
 
 **Source.** A. Baltz, T. Schoen and A. Srivastav, *Probabilistic
 construction of small strongly sum-free sets via large Sidon sets*, Colloq.
 Math. 86 (2000), no. 2, 171--176, DOI 10.4064/cm-86-2-171-176 (Crossref
 record read 2026-09-18). The retained PDF is the journal's six-page file;
 printed p. $n$ is PDF p. $n-170$. Corollary 3 on printed p. 174 (PDF p. 4),
-read in the text layer. Not a key of the site's Problem 787
+read in the text layer. Not a key of erdosproblems.com's Problem 787
 page; cited by Sanders (2021, p. 1) and Beker (2025, p. 1) for the
 refinement of Choi's exponent.
 

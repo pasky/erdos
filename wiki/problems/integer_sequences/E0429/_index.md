@@ -26,28 +26,28 @@ updated: 2026-10-08T01:29:59Z
 does not cover all residue classes modulo $p$ for any prime $p$, then there
 exists some $n$ such that $n+a$ is prime for all $a\in A$?
 
-**Formulation.** The site's wording (page last edited 8 April 2026). A set that misses at least one residue class
-modulo every prime is called admissible, and "sparse enough" asks for a
-sparsity threshold that works for every admissible set below it: a
-nondecreasing unbounded $f$ such that every admissible $A$ with
-$|A\cap\{1,\ldots,N\}|\le f(N)$ for all $N$ has a translate $A+n$ inside the
-primes. This is Conjecture 1 of the resolving paper and the reading of the
-formal-conjectures statement; the shift $n$ ranges over the integers and the
-primes are positive. The question is Erdős and Graham's, from printed p. 85
-of their 1980 monograph: "Is it possible to prove theorems of the following type: If
-$a_1<a_2<\ldots$ tends to infinity rapidly enough and does not cover all
-residue classes (mod $p$) for any prime $p$ then for some $n$, $n+a_i$ is
-prime for all $i$?" Erdős's 1980 survey (printed p. 111) asks a variant with a different quantifier, "Let $1\le a_1<\cdots$ be
-a sequence which does not contain a complete set of residues mod $p$ for
-every $p$, then there are infinitely many values of $n$ for which all the
-integers $n+a_k$, $a_k<n$ are primes", adds that "perhaps some further
-condition on the thinness of the sequence $A=\{a_k\}$ may be needed", and
-states the squarefree analog with $p^2$ in place of $p$; the site's
-statement follows the monograph, and the squarefree variant is recorded
-below as the site's.
+**Formulation.** The erdosproblems.com wording (page last edited 8 April 2026).
+A set that misses at least one residue class modulo every prime is called
+admissible, and "sparse enough" asks for a sparsity threshold that works for
+every admissible set below it: a nondecreasing unbounded $f$ such that every
+admissible $A$ with $|A\cap\{1,\ldots,N\}|\le f(N)$ for all $N$ has a translate
+$A+n$ inside the primes. This is Conjecture 1 of the resolving paper and the
+reading of the formal-conjectures statement; the shift $n$ ranges over the
+integers and the primes are positive. The question is Erdős and Graham's, from
+printed p. 85 of their 1980 monograph: "Is it possible to prove theorems of the
+following type: If $a_1<a_2<\ldots$ tends to infinity rapidly enough and does
+not cover all residue classes (mod $p$) for any prime $p$ then for some $n$,
+$n+a_i$ is prime for all $i$?" Erdős's 1980 survey (printed p. 111) asks a
+variant with a different quantifier, "Let $1\le a_1<\cdots$ be a sequence which
+does not contain a complete set of residues mod $p$ for every $p$, then there
+are infinitely many values of $n$ for which all the integers $n+a_k$, $a_k<n$
+are primes", adds that "perhaps some further condition on the thinness of the
+sequence $A=\{a_k\}$ may be needed", and states the squarefree analog with $p^2$
+in place of $p$; the erdosproblems.com statement follows the monograph, and the
+squarefree variant is recorded below as erdosproblems.com's.
 
-**Status.** Disproved. The site records DISPROVED (LEAN). The suffix is a
-catalog label, explained under Formalization and the Lean label below. The two
+**Status.** Disproved. erdosproblems.com records DISPROVED (LEAN). The suffix is
+a catalog label, explained under Formalization and the Lean label below. The two
 external Lean files have not been built or audited in this corpus. The
 status-defining source is Theorem 1 of D. Weisenberg, *Sparse admissible sets
 and a problem of Erdős and Graham*, Integers 24 (2024), Article A89 (received 24
@@ -58,16 +58,17 @@ integer $n$ makes $A+n$ a set of primes. So no sparsity threshold exists and the
 answer is no. The claim page
 [[problems/integer_sequences/E0429/claims/2024_05_20_weisenberg|Weisenberg 2024]]
 records the result as accepted on the refereed publication. The standing in the
-frontmatter is derived from it. The site's curator is not an independent
-reviewer of this result. The paper's acknowledgement records that the curator
-reviewed an earlier draft and advised the author, so the site's label was not
-acceptance evidence. The site adds that a variant of the construction also
-answers Erdős's squarefree ($p^2$) question in the negative. That sentence is
-the site's statement: the paper does not treat squarefree numbers.
+frontmatter is derived from it. The erdosproblems.com curator is not an
+independent reviewer of this result. The paper's acknowledgement records that
+the curator reviewed an earlier draft and advised the author, so the
+erdosproblems.com label was not acceptance evidence. erdosproblems.com adds that
+a variant of the construction also answers Erdős's squarefree ($p^2$) question
+in the negative. That sentence is the erdosproblems.com statement: the paper
+does not treat squarefree numbers.
 
 **Source.** [erdosproblems.com/429](https://www.erdosproblems.com/429),
 accessed 2026-09-18: the problem page (DISPROVED
-(LEAN), glossed by the site as a negative solution whose proof has been
+(LEAN), glossed by erdosproblems.com as a negative solution whose proof has been
 verified in Lean; last edited 8 April 2026; source keys [Er80, p. 111],
 [ErGr80, p. 85], with [We24] cited in the commentary), its one-comment
 discussion thread (29 January 2026) and its empty proof-claim tab. Cite as:
@@ -99,7 +100,7 @@ T. F. Bloom, Erdős Problem #429, https://www.erdosproblems.com/429, accessed
   positive integer that is a primitive root modulo infinitely many primes;
   not held.
 
-**Formalization.** The site's "(Lean)" suffix is a catalog label; see
+**Formalization.** erdosproblems.com's "(Lean)" suffix is a catalog label; see
 "Formalization and the Lean label" below. The file
 [`ErdosProblems/429.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/429.lean)
 of formal-conjectures, linked at the commit of its main branch of 2026-09-18,
@@ -111,15 +112,15 @@ attribute naming `src/v4.29.1/ErdosProblems/Erdos429.lean` of `plby/lean-proofs`
 at a commit of 30 June 2026, where the claim page links it. The community
 database (teorth/erdosproblems) lists the problem as "disproved (Lean)" and the
 statement as formalized, with last updates of 29 January 2026 and 3 August 2026
-on those two entries, `formal_status` Lean and no formal-proof URL; the site
-page of 2026-09-18 marks the statement as formalized. Nothing was built or
-kernel-checked in this corpus.
+on those two entries, `formal_status` Lean and no formal-proof URL; the
+erdosproblems.com page of 2026-09-18 marks the statement as formalized. Nothing
+was built or kernel-checked in this corpus.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 8 April 2026).** The
-statement above; DISPROVED (LEAN), glossed as a negative solution with a
-Lean-verified proof. The site's commentary credits [We24] with
+**The question (erdosproblems.com formulation, page last edited 8 April 2026).**
+The statement above; DISPROVED (LEAN), glossed as a negative solution with a
+Lean-verified proof. The erdosproblems.com commentary credits [We24] with
 the negative answer, in the form that an admissible set can be as sparse as
 one likes and still have no integer shift inside the primes, and notes that
 the paper gives several constructions. Its second paragraph recalls that
@@ -130,7 +131,7 @@ answers that version in the negative too. The thread has one comment (29
 January 2026, the account Woett): Aristotle, the automated prover of
 Harmonic as the file's header names it, formalized the paper's second
 construction, with a link to type-check the file online, and a note
-that the site was updated in response to the comment; the community
+that erdosproblems.com was updated in response to the comment; the community
 database lists "disproved (Lean)" with a last update of the same date on
 its status entry. The
 proof-claim tab is empty.
@@ -175,12 +176,12 @@ the fourth kills every shift in turn. The
 proof and the three constructions are not independently reviewed in this
 corpus. Acceptance evidence: publication in Integers, a refereed journal (the
 header dates above; the journal's volume 24 contents page lists Article A89).
-The site's label was not independent acceptance: the paper's acknowledgement
-(p. 4) thanks the site's curator, Thomas Bloom, for reviewing an earlier
-draft and for advising the author in the Oxford mathematics master's program,
-and p. 2 reports that the site marked the problem solved when the first
-construction appeared as a preprint. No citing paper was found (below). The
-claim page
+The erdosproblems.com label was not independent acceptance: the paper's
+acknowledgement (p. 4) thanks the erdosproblems.com curator, Thomas Bloom, for
+reviewing an earlier draft and for advising the author in the Oxford mathematics
+master's program, and p. 2 reports that Bloom's catalog marked the problem
+solved when the first construction appeared as a preprint. No citing paper was
+found (below). The claim page
 [[problems/integer_sequences/E0429/claims/2024_05_20_weisenberg|Weisenberg 2024]]
 lists `refereed` as its evidence and links every posting of the result.
 
@@ -203,15 +204,15 @@ Lean for it, and it is background to this problem: the disproof already
 holds through the cited theorems and, independently of them, through the
 second construction, so nothing in the standing changes.
 
-**The squarefree variant.** The site's second paragraph answers Erdős's
+**The squarefree variant.** erdosproblems.com's second paragraph answers Erdős's
 $p^2$ question in the negative, attributing the answer to a variant of
 Weisenberg's construction. The paper contains no statement about squarefree numbers, so this is
-recorded as the site's assertion, not as a theorem of the source, and the
-construction it points to is not written out on the site. Problem 1209
-records the site's parallel construction with $q_k^2$ for sequences that
-tend to infinity fast.
+recorded as erdosproblems.com's assertion, not as a theorem of the source, and
+the construction it points to is not written out on erdosproblems.com. Problem
+1209 records erdosproblems.com's parallel construction with $q_k^2$ for
+sequences that tend to infinity fast.
 
-**Formalization and the Lean label.** The site's "(Lean)" suffix is a
+**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement whose proof is `sorry`; its `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos429.lean` in `plby/lean-proofs` at a commit
@@ -244,7 +245,7 @@ community database records `formal_status` Lean and no formal-proof URL.
 of the construction, a second resolution, or a paper on the squarefree
 variant.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `429.lean` at the linked commit; the community
   database.
 - The two Lean files through the GitHub API and raw file service at the
@@ -264,7 +265,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [GuMu84],
 [HB86].
 
 **Remaining gaps.** (1) The negative answer to the $p^2$ variant rests on
-the site's sentence; no written construction was found, and the paper
+the erdosproblems.com sentence; no written construction was found, and the paper
 proves nothing about squarefree numbers. (2) Neither Lean file has been built or audited in this corpus, and the
 collection's statement and the external theorem are compared by their text,
 not by a bridging proof. (3) Proof coverage is statement and construction:

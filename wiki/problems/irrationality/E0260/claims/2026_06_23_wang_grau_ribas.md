@@ -54,14 +54,14 @@ expansions", by Han Wang and Jose Maria Grau Ribas; v2 and v3 (2026-07-15 and
 (2026-08-24), retitled "Sparse Polynomial-Weighted Expansions", which
 generalizes the theorem to rational polynomial weights $p(n)$ and integer bases
 $b\ge2$. The page is named by the first posting, v1, whose authors are Wang
-and Grau Ribas; the later versions, the site's proof claim and the Lean
+and Grau Ribas; the later versions, erdosproblems.com's proof claim and the Lean
 development are Wang's alone. The card digests the dyadic version of v1,
 whose proof Wang later wrote contained errors that v2 corrects, and the
 later versions are recorded by their arXiv listings. Erdős's 1981 theorem,
 the accepted partial claim on
 [[problems/irrationality/E0260/claims/1981_05_11_erdos|its own page]], is
 the earlier special case under the stronger hypothesis
-$a_{n+1}-a_n\to\infty$ that the site's remarks record.
+$a_{n+1}-a_n\to\infty$ that the erdosproblems.com remarks record.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Han Wang
 (account HanWang) on 17 July 2026, giving "using GPT-5.5 for auditing, language
@@ -78,7 +78,7 @@ the AI used:
 > values into a rigid structure, making them too few to account for the amount
 > of sparsity assumed. This contradiction gives the result.
 
-Posted to the site's forum by Han Wang on 16 July 2026:
+Posted to the erdosproblems.com forum by Han Wang on 16 July 2026:
 
 > An update to my earlier comment: the first version of our preprint contained
 > errors, which have now been corrected. The revised manuscript has been
@@ -102,9 +102,9 @@ that the author's gap bound and a conditional construction of Borwein and Loring
 meet at the logarithmic scale.
 
 **Standing.** Claimed. The paper is a preprint with no journal record on its
-arXiv page, accessed 2026-10-07; the site's label was OPEN (page last edited
-2026-02-01), and the three thread comments on the claim discuss the remaining
-limsup question rather than the proof. Wang submitted the claim to the
+arXiv page, accessed 2026-10-07; the erdosproblems.com label was OPEN (page last
+edited 2026-02-01), and the three thread comments on the claim discuss the
+remaining limsup question rather than the proof. Wang submitted the claim to the
 proof-claims thread on 2026-07-17 (the first `discussion` link), crediting
 GPT-5.5 for auditing, language editing, restructuring and parts of the Lean
 development. The formal-conjectures catalog tagged its statement `erdos_260` as

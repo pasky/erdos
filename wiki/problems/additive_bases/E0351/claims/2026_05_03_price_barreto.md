@@ -5,7 +5,7 @@ desc: |
   The GPT 5.5 Pro argument for Problem 283, posted by Liam Price and edited by
   Kevin Barreto, yields that $\{p(n)+1/n\}$ is strongly complete for every
   $p\in\mathbb{Q}[x]$ with positive leading coefficient. It was reviewed and
-  accepted by the site.
+  accepted by erdosproblems.com.
 authors:
 - GPT-5.5 Pro
 status: accepted
@@ -41,13 +41,13 @@ updated: 2026-10-08T03:53:58Z
 
 **Claim.** On 2026-05-03 Liam Price posted in the thread of
 [[problems/unit_fractions/E0283/_index|Problem 283]] an argument that GPT 5.5
-Pro produced at Price's prompting, as the site's commentary on that problem
-names the system, edited by Kevin Barreto, which proves the stronger form of
-that problem with $1$ replaced by any positive rational $\alpha$ and with all
-denominators above any bound $L$: for an integer-valued $p\in\mathbb{Q}[x]$ with
-positive leading coefficient and no fixed divisor on the positive integers,
-every large integer is $\sum p(n_i)$ over distinct $n_i>L$ with
-$\sum1/n_i=\alpha$. Barreto observed, and the posting says, that
+Pro produced at Price's prompting, as the erdosproblems.com commentary on that
+problem names the system, edited by Kevin Barreto, which proves the stronger
+form of that problem with $1$ replaced by any positive rational $\alpha$ and
+with all denominators above any bound $L$: for an integer-valued
+$p\in\mathbb{Q}[x]$ with positive leading coefficient and no fixed divisor on
+the positive integers, every large integer is $\sum p(n_i)$ over distinct
+$n_i>L$ with $\sum1/n_i=\alpha$. Barreto observed, and the posting says, that
 [[problems/additive_bases/E0351/_index|Problem 351]] follows. The deduction
 (Corollary 10 of the revised manuscript of 6 May 2026; the Lean bundle's
 `corollary_7_*` names follow the numbering of the posting of 3 May): for
@@ -94,15 +94,16 @@ Yaël Dillies's comment in the Problem 351 thread of 2025-12-12 records that an
 earlier formal statement without the positivity hypothesis was disproved by
 AlphaProof with $p(x)=-x$ and then corrected. This corpus has built none of
 these files and audited no statement, so no `formalized` evidence is listed; the
-problem page's (Lean) suffix is the site's label.
+problem page's (Lean) suffix is the erdosproblems.com label.
 
 **Acceptance.** Reviewed: Nat Sothanaphan wrote in the Problem 283 thread on
 2026-05-06 that they had confirmed the argument, and linked the ChatGPT
 conversation with which they checked it. They wrote that it resolves both
 Problem 283 and Problem 351, provided the manuscript's statements are the
-intended versions of the problems. The site's curator, T. F. Bloom, posted a
-summary of the proof there on 2026-05-10. The curator labeled Problem 351 PROVED
-(LEAN) at erdosproblems.com and credits the positive solution to Barreto's
-observation that it follows from Problem 283 (page last edited 10 May 2026). The
-community database's commit of 2026-05-14 changed its status to proved (Lean),
-with a last-update date of 2026-05-12. This project has checked none of it.
+intended versions of the problems. The erdosproblems.com curator, T. F. Bloom,
+posted a summary of the proof there on 2026-05-10. The curator labeled Problem
+351 PROVED (LEAN) at erdosproblems.com and credits the positive solution to
+Barreto's observation that it follows from Problem 283 (page last edited 10 May
+2026). The community database's commit of 2026-05-14 changed its status to
+proved (Lean), with a last-update date of 2026-05-12. This project has checked
+none of it.

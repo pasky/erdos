@@ -45,5 +45,5 @@ The eigenvalue computation is not reproduced in this corpus.
 **Acceptance.** Refereed: A. Dudek and V. Rödl, *On the Folkman number
 $f(2,3,4)$*, Experimental Mathematics 17 (2008), no. 1, 63--67. Its Crossref
 record dates it January 2008, and the day in this page's date is a placeholder.
-The site's label rested on Folkman's existence proof, so the site's commentary
-crediting Dudek and Rödl is not listed as evidence.
+The erdosproblems.com label rested on Folkman's existence proof, so the
+erdosproblems.com commentary crediting Dudek and Rödl is not listed as evidence.

@@ -63,6 +63,6 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: the site's [Er75]
-  source; the upper bound and the question whether $8/5$ is best possible,
-  Erdős's 1975 form of the cube problem.
+- [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]:
+  erdosproblems.com's [Er75] source; the upper bound and the question whether
+  $8/5$ is best possible, Erdős's 1975 form of the cube problem.

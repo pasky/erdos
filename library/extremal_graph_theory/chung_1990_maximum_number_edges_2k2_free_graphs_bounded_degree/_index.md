@@ -27,10 +27,10 @@ Erdős–Nešetřil conjecture and the value of h_2(D).
 F. R. K. Chung, A. Gyárfás, Z. Tuza and W. T. Trotter, *The maximum number of
 edges in $2K_2$-free graphs of bounded degree*, Discrete Math. 81 (1990), no. 2,
 129--135; DOI 10.1016/0012-365X(90)90144-7 (Crossref record read 2026-09-19);
-received 19 May 1987, revised 5 April 1988. The site's key CGTT90 on Problems
-149 and 934 prints "Discrete Math. (1990), 129--135" without the volume;
-Trotter's publication list titles it "The maximal number of edges in 2K_2-free
-graphs".
+received 19 May 1987, revised 5 April 1988. The erdosproblems.com key CGTT90 on
+Problems 149 and 934 prints "Discrete Math. (1990), 129--135" without the
+volume; Trotter's publication list titles it "The maximal number of edges in
+2K_2-free graphs".
 
 **Edition read.** The copy read for this card is the author's copy from W. T.
 Trotter's publication page, item 69 of the list at <https://trotter.math.gatech.edu/papers/epubs.html>: a 7-page scan
@@ -111,9 +111,9 @@ number of edges in regular $2K_2$-free graphs", submitted) and [1]
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: pp. 129--130
 state the Erdős--Nešetřil strong edge-coloring conjecture in the paper's
 words, and Theorem 4 (p. 131, page image) proves the "easier problem" the
-site's commentary records, that more than $5D^2/4$ edges force two strongly
-independent edges when $D$ is even (more than $(5D^2-2D+1)/4$ when $D$ is
-odd), the case of $\omega(L(G)^2)\le5D^2/4$ in which the whole edge set is a
+erdosproblems.com commentary records, that more than $5D^2/4$ edges force two
+strongly independent edges when $D$ is even (more than $(5D^2-2D+1)/4$ when $D$
+is odd), the case of $\omega(L(G)^2)\le5D^2/4$ in which the whole edge set is a
 strong clique (the general clique bound is open); the paper reads its result
 as showing that $C_5(D)$ needs $5D^2/4$ colors, so the conjectured bound
 cannot be lowered for even $D$.

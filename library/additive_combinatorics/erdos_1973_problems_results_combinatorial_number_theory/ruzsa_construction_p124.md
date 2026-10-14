@@ -41,7 +41,7 @@ $a_k<n$ and the construction $a_k\le n$, as printed.
 theory*, A Survey of Combinatorial Theory (J. N. Srivastava et al., eds.),
 North-Holland (1973), Chapter 12, 117--138; printed p. 124 (PDF p. 8 of the
 22-page scan read for this page; printed p. $n$ is PDF p. $n-116$), read on the page
-image; the site's only key for Problem 537.
+image; erdosproblems.com's only key for Problem 537.
 
 **Read depth.** Claims checked: the paragraph was read clause by clause on
 the page image. Both steps are asserted ("it is easy to see"); no proof is
@@ -65,7 +65,8 @@ proof.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0537/_index|Problem 537]]: the construction is the
-  status-defining disproof; the site's commentary reproduces the argument.
+  status-defining disproof; the erdosproblems.com commentary reproduces the
+  argument.
 - Problem 536: the paragraph opens by noting that three solutions of
   $pa_i=m$ would give three $a$'s with pairwise the same least common
   multiple, the question of that problem, which Ruzsa's set leaves open;

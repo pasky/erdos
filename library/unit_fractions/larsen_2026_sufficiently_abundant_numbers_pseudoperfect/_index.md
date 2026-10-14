@@ -43,24 +43,25 @@ Daniel Larsen, *Sufficiently abundant numbers are pseudoperfect*. Manuscript,
 uploaded that day with the commit message "This is most of a proof" and
 replaced on 1 February 2026 (commit `39139e2b`, the repository's head on
 2026-09-18). The paper carries no date of its own; its references cite the
-site's problem pages "accessed 2026-01-29" and the PDF's creation stamp is
-1 February 2026, so the year in the slug is 2026. It is not on arXiv (API
-searches of 2026-09-18) and has no journal record (Crossref bibliographic
+erdosproblems.com problem pages "accessed 2026-01-29" and the PDF's creation
+stamp is 1 February 2026, so the year in the slug is 2026. It is not on arXiv
+(API searches of 2026-09-18) and has no journal record (Crossref bibliographic
 query of 2026-09-18); it is unrefereed.
 
 The copy read for this card is that 9-page file, obtained from
-`https://github.com/Larsen-Daniel/Erdos-318/blob/main/318.pdf`, the link the
-site's Problem 318 thread gives (comment of 1 February 2026); 291,983 bytes; a
-fresh fetch of the raw file at commit `39139e2b` returned identical bytes. An
-earlier 8-page version of the same title (PDF creation stamp 30 January 2026),
-whose abstract states only the pseudoperfect result and which has no Theorem 6,
-was read for comparison. The text layer is clean; the statements below were read
-in it, and Theorems 1 and 6 and the closing acknowledgment on the page images of
-pp. 1, 8 and 9. No notice is printed in the manuscript (pp. 1--2 and 8--9 read);
-the hosting repository (https://github.com/Larsen-Daniel/Erdos-318, read
-2026-10-02) holds only the PDF and its TeX source, has no LICENSE file, and its
-About panel reads "No description, website, or topics provided.", so no terms
-are stated; the term is unstated.
+`https://github.com/Larsen-Daniel/Erdos-318/blob/main/318.pdf`, the link
+erdosproblems.com's Problem 318 thread gives (comment of 1 February 2026);
+291,983 bytes; a fresh fetch of the raw file at commit `39139e2b` returned
+identical bytes. An earlier 8-page version of the same title (PDF creation stamp
+30 January 2026), whose abstract states only the pseudoperfect result and which
+has no Theorem 6, was read for comparison. The text layer is clean; the
+statements below were read in it, and Theorems 1 and 6 and the closing
+acknowledgment on the page images of pp. 1, 8 and 9. No notice is printed in the
+manuscript (pp. 1--2 and 8--9 read); the hosting repository
+(https://github.com/Larsen-Daniel/Erdos-318, read 2026-10-02) holds only the PDF
+and its TeX source, has no LICENSE file, and its About panel reads "No
+description, website, or topics provided.", so no terms are stated; the term is
+unstated.
 
 Read status: claims checked. Theorem 1 (p. 1), the definition of $w$ (p. 2),
 Hypothesis 3 and Theorem 4 (p. 5), Corollary 5 (p. 7) and Theorem 6 (p. 8)
@@ -102,9 +103,11 @@ examples, and the Egyptian-fraction recasting to Friedman.
   page [[unit_fractions/larsen_2026_sufficiently_abundant_numbers_pseudoperfect/theorem_4|theorem_4]], which also states Hypothesis 3.
 - Corollary 5 (p. 7): there is an absolute constant $C$ such that every
   positive integer $n$ with $\sigma(n)\ge Cn$ is a sum of distinct proper
-  divisors. This answers the Benkoski--Erdős question, the site's Problem 825
-  (row below); result page [[unit_fractions/larsen_2026_sufficiently_abundant_numbers_pseudoperfect/corollary_5|corollary_5]]. The proof fixes $\varepsilon=1/10$ in Theorem 1, takes the
-  $L$-rough part $m$ of $n$ and notes that if $m$ is not pseudoperfect then
+  divisors. This answers the Benkoski--Erdős question, erdosproblems.com's
+  Problem 825 (row below); result page
+  [[unit_fractions/larsen_2026_sufficiently_abundant_numbers_pseudoperfect/corollary_5|corollary_5]].
+  The proof fixes $\varepsilon=1/10$ in Theorem 1, takes the $L$-rough part $m$
+  of $n$ and notes that if $m$ is not pseudoperfect then
   $\sigma(n)/n\le(\sigma(m)/m)\prod_{p<L}p/(p-1)\ll1$.
 - Theorem 6 (p. 8): whenever the perfect squares above $1$ are split into two
   non-empty classes $X$ and $Y$, some non-empty finite $X'\subseteq X$ and
@@ -121,9 +124,9 @@ examples, and the Egyptian-fraction recasting to Friedman.
 
 Statements only, as listed; the proofs of Theorems 1 and 6 were not checked
 and nothing here is independently reviewed. The paper is an unrefereed
-manuscript with a declared AI-assistance acknowledgment. The site's Problem
-318 page accepts its squares result ("Larsen has proved that the answer is yes
-in the case of squares excluding $1$"; page last edited 1 April 2026).
+manuscript with a declared AI-assistance acknowledgment. erdosproblems.com's
+Problem 318 page accepts its squares result ("Larsen has proved that the answer
+is yes in the case of squares excluding $1$"; page last edited 1 April 2026).
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0318/_index|#318]]: Theorem 6 is the
 problem's third question, the squares excluding $1$, restated for the

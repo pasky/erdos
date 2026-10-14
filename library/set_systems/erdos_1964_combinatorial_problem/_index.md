@@ -47,7 +47,7 @@ O(binom(binom(N,n),k)) choices (the bound as printed) of k n-element subsets of
 an N-set, the chosen family fails property B. He also discusses the variant
 m(n,s) for property B(s), records m(2k,2) = 3 and m(2k+1,2) = 4 due to Abbott,
 and the ground-set-restricted quantity m_N(n). For problem 901 this paper
-supplies the upper bound m(n) << n^2 2^n quoted on the site.
+supplies the upper bound m(n) << n^2 2^n quoted on erdosproblems.com.
 
 Source: <https://users.renyi.hu/~p_erdos/1964-08.pdf>.
 
@@ -60,8 +60,8 @@ paper without proof. Nothing here is independently reviewed. Result pages:
 
 **Bears on.** [[../wiki/problems/set_systems/E0901/_index|#901]]:
 [[set_systems/erdos_1964_combinatorial_problem/theorem_1|Theorem 1]] (p. 445)
-gives the upper bound $m(n)<n^22^{n+1}$ for the problem's $m(n)$, the site's
-$m(n)\ll n^22^n$, and (6) (p. 446) states without proof
+gives the upper bound $m(n)<n^22^{n+1}$ for the problem's $m(n)$,
+erdosproblems.com's $m(n)\ll n^22^n$, and (6) (p. 446) states without proof
 $m(n)<(1+\varepsilon)e\log2\,n^22^{n-2}$ for every $\varepsilon>0$ and
 $n>n_0(\varepsilon)$; the paper
 leaves the order of $m(n)$ open, guessing $n2^n$.

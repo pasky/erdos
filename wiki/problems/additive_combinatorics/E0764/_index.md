@@ -29,16 +29,16 @@ $$
 \sum_{n\leq N} 1_A\ast 1_A\ast 1_A(n) = cN+O(1)?
 $$
 
-**Status.** Disproved, the site's label. The status-defining source is Vaughan's
-theorem (J. Number Theory 4 (1972), 1--16, refereed). It is the three-summand
-case of a general result on $h$-fold convolutions. It shows that for no set and
-no $c>0$ does the three-fold representation count through $N$ equal $cN$ with an
-error $o(N^{1/4}(\log N)^{-1/2})$. So a bounded error term is impossible, and
-the answer is no. The claim page is
+**Status.** Disproved, the erdosproblems.com label. The status-defining source
+is Vaughan's theorem (J. Number Theory 4 (1972), 1--16, refereed). It is the
+three-summand case of a general result on $h$-fold convolutions. It shows that
+for no set and no $c>0$ does the three-fold representation count through $N$
+equal $cN$ with an error $o(N^{1/4}(\log N)^{-1/2})$. So a bounded error term is
+impossible, and the answer is no. The claim page is
 [[problems/additive_combinatorics/E0764/claims/1972_02_01_vaughan|Vaughan]]
-(accepted on the refereed publication and the site's credit). It also pins the
-2026 Lean formalization of the bounded-error case in the lean-proofs repository,
-a development the corpus has not built.
+(accepted on the refereed publication and the erdosproblems.com credit). It also
+pins the 2026 Lean formalization of the bounded-error case in the lean-proofs
+repository, a development the corpus has not built.
 
 **Source.** [erdosproblems.com/764](https://www.erdosproblems.com/764), accessed
 2026-10-07 (no thread posts); its proof-claim tab was empty.

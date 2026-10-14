@@ -27,17 +27,17 @@ $G$ is a graph on $n$ vertices which is not Ramsey for $K_3$ (i.e. there exists
 a 2-colouring of the edges of $G$ with no monochromatic triangle) then $G$
 contains an independent set of size $\gg n^{1/3+\delta}$?
 
-**Formulation.** The site's wording (the page shows no last-edited date).
-"$\gg n^{1/3+\delta}$" means at least $c\,n^{1/3+\delta}$ for a constant $c>0$
-independent of $G$. The site's reformulation: with $R(3,3,m)$ the least $N$
-such that every $3$-coloring of the edges of $K_N$ has a monochromatic
+**Formulation.** The erdosproblems.com wording (the page shows no last-edited
+date). "$\gg n^{1/3+\delta}$" means at least $c\,n^{1/3+\delta}$ for a constant
+$c>0$ independent of $G$. erdosproblems.com's reformulation: with $R(3,3,m)$ the
+least $N$ such that every $3$-coloring of the edges of $K_N$ has a monochromatic
 triangle in one of the first two colors or a monochromatic $K_m$ in the third
 (the $r(K_3,K_3,K_m)$ of the resolving paper), the question asks whether
 $R(3,3,m)\ll m^{3-c}$ for some $c>0$; the two are equivalent because the graph
 of the first two colors of such a $3$-coloring is a graph that is not Ramsey
 for $K_3$ whose independent sets are the cliques of the third color. The easy
 bound $\gg n^{1/3}$ is the one Erdős calls "very easy" in the origin and the
-site's commentary calls easy.
+erdosproblems.com commentary calls easy.
 
 **Status.** Disproved. The claim page
 [[problems/ramsey_theory/E0925/claims/2005_03_01_alon_rodl|Alon and Rödl 2005]]
@@ -53,15 +53,15 @@ colors is $2$-colorable without a monochromatic triangle and has independence
 number below $c\,N^{1/3}(\log N)^2$, which is $o(N^{1/3+\delta})$ for every
 $\delta>0$. The answer is no. The conversion is written in the Current
 assessment and named there as authored. The paper never states the problem. The
-site's commentary credits Alon and Rödl [AlRo05] with the disproof, with the
-bounds $m^3/(\log m)^{4+o(1)}\ll R(3,3,m)\ll m^3\log\log m/(\log m)^2$ and
-Sudakov's removal of the $\log\log m$. The commentary thus records the same
+erdosproblems.com commentary credits Alon and Rödl [AlRo05] with the disproof,
+with the bounds $m^3/(\log m)^{4+o(1)}\ll R(3,3,m)\ll m^3\log\log m/(\log m)^2$
+and Sudakov's removal of the $\log\log m$. The commentary thus records the same
 resolution through the reformulation.
 
 **Source.** [erdosproblems.com/925](https://www.erdosproblems.com/925),
-accessed 2026-09-18: the problem page (DISPROVED, which the site glosses as
-solved in the negative; no last-edited date shown; source key [Er69b];
-commentary citing [AlRo05] and Problem 553; an indicator reporting no
+accessed 2026-09-18: the problem page (DISPROVED, which erdosproblems.com
+glosses as solved in the negative; no last-edited date shown; source key
+[Er69b]; commentary citing [AlRo05] and Problem 553; an indicator reporting no
 formalized statement), its empty discussion thread and its empty proof-claim
 tab. Cite as: T. F. Bloom, Erdős Problem #925,
 https://www.erdosproblems.com/925, accessed 2026-09-18.
@@ -100,15 +100,15 @@ https://www.erdosproblems.com/925, accessed 2026-09-18.
 
 **Formalization.** None. No file `ErdosProblems/925.lean` was in
 formal-conjectures when its directory was listed on 2026-09-18 (673 entries);
-the site's indicator reports no formalized statement, and the community
-database (teorth/erdosproblems, accessed 2026-09-18) records the problem
-disproved and unformalized (record last updated 31 August 2025).
+the erdosproblems.com indicator reports no formalized statement, and the
+community database (teorth/erdosproblems, accessed 2026-09-18) records the
+problem disproved and unformalized (record last updated 31 August 2025).
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-DISPROVED; source key [Er69b]. The commentary states that an independent set
-of size $\gg n^{1/3}$ is easy to find, restates the question as whether
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED; source key [Er69b]. The commentary states that an independent
+set of size $\gg n^{1/3}$ is easy to find, restates the question as whether
 $R(3,3,m)\ll m^{3-c}$ for some $c>0$, and records that Alon and Rödl
 [AlRo05] disproved it with the bounds
 $m^3/(\log m)^{4+o(1)}\ll R(3,3,m)\ll m^3\log\log m/(\log m)^2$, adding
@@ -123,10 +123,10 @@ Section 2 right after the Erdős--Hajnal edge-coloring question of Problem
 relevant here. Let $G_n$ be a graph whose edges can be colored by two colors
 such that there is no $C_3$ all of whose edges have the same color. What can
 be said about $I(G_n)$? It is very easy to show that $I(G_n)>cn^{1/3}$; but
-perhaps $I(G_n)>cn^{(1/3)+\delta}$ also holds." The site's statement follows
-this passage; the bound Erdős calls "very easy" is the one the site's
-commentary calls easy. (The easy bound, not needed for the status, by the
-standard argument: fix a $2$-coloring of the edges of $G$ with no
+perhaps $I(G_n)>cn^{(1/3)+\delta}$ also holds." The erdosproblems.com statement
+follows this passage; the bound Erdős calls "very easy" is the one the
+erdosproblems.com commentary calls easy. (The easy bound, not needed for the
+status, by the standard argument: fix a $2$-coloring of the edges of $G$ with no
 monochromatic triangle and write $\alpha=\alpha(G)$. The red neighborhood of
 a vertex spans no red edge, so the edges of $G$ inside it are all blue and
 contain no triangle; a triangle-free graph on $R(3,\alpha+1)$ vertices has
@@ -134,9 +134,9 @@ an independent set of size $\alpha+1$, so each red neighborhood, and
 likewise each blue neighborhood, has fewer than
 $R(3,\alpha+1)\le\binom{\alpha+2}{2}$ vertices. Hence every degree of $G$ is
 $O(\alpha^2)$, and the greedy bound $\alpha\ge n/(\Delta(G)+1)$ gives
-$\alpha^3\gg n$, that is, $\alpha\gg n^{1/3}$. The site and the source state
-the bound without proof and no source cited here proves it; the argument is
-an authored observation.)
+$\alpha^3\gg n$, that is, $\alpha\gg n^{1/3}$. erdosproblems.com and the source
+state the bound without proof and no source cited here proves it; the argument
+is an authored observation.)
 
 **Status support.**
 [[../library/ramsey_theory/alon_2005_sharp_bounds_some_multicolor_ramsey_numbers/theorem_3_2|Theorem 3.2]]
@@ -155,8 +155,8 @@ number $M$ of its independent sets of size $m=c(k)n^{1/3}(\log n)^2$
 satisfies $M^k<\binom Nm^{k-1}$, so by Lemma 3.1 $k$ random shifts of $G$
 give a $(k+1)$-coloring of $K_N$ with no monochromatic triangle in the first
 $k$ colors and no $K_m$ in color $k+1$: $r_k(K_3;K_m)>N$. The conversion to
-the site's statement, an authored deduction the paper does not make (its
-Conjecture 1.1 and abstract concern the ratio $R(3,3,m)/R(3,m)$ of Problem
+the erdosproblems.com statement, an authored deduction the paper does not make
+(its Conjecture 1.1 and abstract concern the ratio $R(3,3,m)/R(3,m)$ of Problem
 553): take $k=2$ and let $H$ be the graph on the $N=n(\log n)^{2-\delta}$
 vertices formed by the edges of the first two colors. Its edges are
 $2$-colored with no monochromatic triangle, so $H$ is not Ramsey for $K_3$;
@@ -164,8 +164,8 @@ an independent set of $H$ is a clique of the third color, so
 $\alpha(H)<m=c\,n^{1/3}(\log n)^2\le c\,N^{1/3}(\log N)^2$ (as $n\le N$).
 For any $\delta'>0$, $c\,N^{1/3}(\log N)^2<N^{1/3+\delta'}$ once $N$ is
 large, so along the infinite sequence of these $N$ the graphs $H$ have no
-independent set of size $N^{1/3+\delta'}$; the site's question, which asks
-for such a set in every such graph for all large $n$, has answer no for
+independent set of size $N^{1/3+\delta'}$; the erdosproblems.com question, which
+asks for such a set in every such graph for all large $n$, has answer no for
 every $\delta>0$. Equivalently, the lower bound
 $R(3,3,m)\ge\Omega(m^3/(\log m)^{4+\delta})$ refutes $R(3,3,m)\ll m^{3-c}$
 for every $c>0$. Acceptance evidence: Combinatorica is refereed, and the
@@ -191,7 +191,7 @@ $\alpha<c\,N^{1/3}(\log N)^{4/3+\delta/3}$ along the construction's
 sequence, so $\alpha\le O(n^{1/3}(\log n)^{4/3+\delta})$ for every
 $\delta>0$ (both deductions are readings of the paper's bounds and
 parameters, not statements of the paper). The exact power of $\log n$ is
-open in the sources cited and is not the site's question.
+open in the sources cited and is not the erdosproblems.com question.
 [[problems/ramsey_theory/E0553/_index|Problem 553]] compiles the same
 theorem for the ratio question.
 
@@ -199,7 +199,7 @@ theorem for the ratio question.
 dispute of Theorem 3.2, a retraction, or a sharper determination bearing on
 the question.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures directory (no file
   925).
 - Crossref: the record of [AlRo05] (DOI).
@@ -225,9 +225,9 @@ here. (2) The construction rests on Alon's explicit graphs and on Theorem
 cited there; [AKS80]'s Theorem 3 is read at statement depth on its result
 page and [Ki95] is not read. (3) The journal text of [AlRo05] is not
 compared with the authors' manuscript cited here. (4) The easy lower bound
-$\gg n^{1/3}$ is stated by the source and the site without proof; no source
-cited here proves it, and the standard argument in the Origin paragraph is
-an authored observation.
+$\gg n^{1/3}$ is stated by the source and erdosproblems.com without proof; no
+source cited here proves it, and the standard argument in the Origin paragraph
+is an authored observation.
 
 ## Known results
 

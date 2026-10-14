@@ -58,11 +58,11 @@ and the lower bound for every $n$ is the
 **Depends on.** Nothing in this wiki; the proof is self-contained.
 
 **Acceptance.** Refereed: the paper appeared in Compositio Mathematica, a
-journal. The site's commentary records $f(4)=5$ and credits it to Klein. The
-site labeled the problem FALSIFIABLE, however, which settles nothing, so that
-record is not listed as `reviewed`. The claimants are the authors who published
-the result. Klein's authorship of the proposition is the paper's own
-attribution.
+journal. The erdosproblems.com commentary records $f(4)=5$ and credits it to
+Klein. Bloom's catalog labeled the problem FALSIFIABLE, however, which settles
+nothing, so that record is not listed as `reviewed`. The claimants are the
+authors who published the result. Klein's authorship of the proposition is the
+paper's own attribution.
 
 **Dating.** The journal volume carries the year 1935 and no month; the day
 and month are placeholders.

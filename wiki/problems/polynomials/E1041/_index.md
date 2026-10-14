@@ -33,20 +33,22 @@ $$
 
 which connects two of the roots of $f$?
 
-**Status.** Falsifiable (the site's label; page last edited 06 December 2025):
-open, but a single polynomial with no short path would disprove it. The derived
-standing is `claimed`/`disproved`. It rests on the pending full claim on
+**Status.** Falsifiable (the erdosproblems.com label; page last edited 06
+December 2025): open, but a single polynomial with no short path would disprove
+it. The derived standing is `claimed`/`disproved`. It rests on the pending full
+claim on
 [[problems/polynomials/E1041/claims/2026_09_07_ani|ani 2026 (counterexample)]],
 posted on the thread on 2026-09-07. That claim offers a degree-seven polynomial
 in which, it argues, no path of length less than $2$ inside the lemniscate joins
 two roots. Two readers reported checks, and Cook formalized one member of the
 family in Lean. The formal-conjectures catalog marked the problem solved with
-answer false on 2026-09-23. Meanwhile the site labeled the problem FALSIFIABLE,
-and the community database records it as falsifiable (status dated 2025-09-15,
-read 2026-10-06). No human review is documented.
+answer false on 2026-09-23. Meanwhile Bloom's catalog labeled the problem
+FALSIFIABLE, and the community database records it as falsifiable (status dated
+2025-09-15, read 2026-10-06). No human review is documented.
 
-The site's proof-claims tab carries one partial proof claim, the cubic case, and
-records no acceptance. Partial claims argue the affirmative for degree three
+The erdosproblems.com proof-claims tab carries one partial proof claim, the
+cubic case, and records no acceptance. Partial claims argue the affirmative for
+degree three
 ([[problems/polynomials/E1041/claims/2026_09_18_borisov|Borisov 2026]], the
 claim on the tab), degree four
 ([[problems/polynomials/E1041/claims/2026_06_23_pendyala|Pendyala 2026]]) and
@@ -54,8 +56,8 @@ trinomials ([[problems/polynomials/E1041/claims/2026_09_11_cook|Cook 2026]]).
 Two general proofs posted earlier on the thread,
 [[problems/polynomials/E1041/claims/2026_03_17_ani|ani 2026]] and
 [[problems/polynomials/E1041/claims/2026_04_22_kasko37|kasko37 2026]], were
-rejected after readers found gaps. Nothing is refereed or accepted by the site,
-and nothing has been built or audited in this wiki.
+rejected after readers found gaps. Nothing is refereed or accepted by
+erdosproblems.com, and nothing has been built or audited in this wiki.
 
 **Source.** [erdosproblems.com/1041](https://www.erdosproblems.com/1041),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1041,
@@ -79,15 +81,15 @@ in December 2025, counts a repeated root as joined by the zero-length path.
 
 ## Current assessment
 
-The question, as the site states it, asks whether for every monic $f$ with
-all roots in the open unit disk two roots are joined by a path of length
+The question, as erdosproblems.com states it, asks whether for every monic $f$
+with all roots in the open unit disk two roots are joined by a path of length
 less than $2$ inside $\{z:\lvert f(z)\rvert<1\}$; Erdős, Herzog and
 Piranian [EHP58] proved that some component of that set contains at least
 two roots, and the thread settled in December 2025 that a repeated root
-counts as joined by the constant path. The site's label was falsifiable: one
-polynomial with no short path would settle the question in the negative, and
-that is what the pending claim offers. The thread's history is a sequence of
-AI-assisted attempts. Two general proofs were posted and rejected: a
+counts as joined by the constant path. The erdosproblems.com label was
+falsifiable: one polynomial with no short path would settle the question in the
+negative, and that is what the pending claim offers. The thread's history is a
+sequence of AI-assisted attempts. Two general proofs were posted and rejected: a
 gradient-flow tree argument of March 2026, whose topological step Tao showed
 to be false, with the author's agreement; and an announcement of April 2026
 with a misapplied subharmonicity inequality found by two readers. Positive
@@ -103,14 +105,14 @@ needs a repair, and formalized the member $s=10^{-6}$ in Lean, with a theorem
 stating that every connected subset of the lemniscate holding two distinct
 roots has one-dimensional Hausdorff measure greater than $2$; the
 formal-conjectures catalog linked that file and marked the problem solved with
-answer false on 2026-09-23. The site labeled the problem FALSIFIABLE (page last
-edited 06 December 2025); no named reader beyond the two thread comments has
-reviewed the counterexample or its formalization, and neither the write-up's
-proofs nor the Lean file are compiled or audited in this wiki.
+answer false on 2026-09-23. Bloom's catalog labeled the problem FALSIFIABLE
+(page last edited 06 December 2025); no named reader beyond the two thread
+comments has reviewed the counterexample or its formalization, and neither the
+write-up's proofs nor the Lean file are compiled or audited in this wiki.
 
-Search scope: the site's problem page as exported (last edited 06 December
-2025), its discussion thread (51 comments) and proof-claims tab with the
-four comments on the cubic claim (accessed 2026-10-07), the community
+Search scope: the erdosproblems.com problem page as exported (last edited 06
+December 2025), its discussion thread (51 comments) and proof-claims tab with
+the four comments on the cubic claim (accessed 2026-10-07), the community
 database entry (falsifiable), the formal-conjectures file and the pinned
 Lean file it links, the Plectis repository at its cited revisions, the arXiv
 record of the quartic preprint and the Zenodo record of the cubic preprint;

@@ -40,53 +40,53 @@ $$
 \lvert \mathcal{F}'\rvert \leq \lvert \{ A\in \mathcal{F} : x\in A\}\rvert.
 $$
 
-**Notes.** The site's wording names no ground set, and with infinite ground
-sets and cardinalities it is false. Keith Kearnes's answer of 11 October 2022
-to [MathOverflow question 432223](https://mathoverflow.net/questions/432223)
-takes a cardinal $\kappa$ of countable cofinality above the continuum and
-builds $\kappa$ countably infinite sets forming an intersecting family whose
-down-closure has every star of size less than $\kappa$. The problem's
-discussion thread reached that answer on 22 May 2026, after a counterexample
-on $\mathbb{N}\times\mathbb{N}$ proposed on 21 May 2026 was shown to be
-flawed (its larger family is itself intersecting). Every failure needs an
-infinite family: a finite family closed under taking subsets has only finite
-members, so its members lie in a finite set.
+**Notes.** The erdosproblems.com wording names no ground set, and with infinite
+ground sets and cardinalities it is false. Keith Kearnes's answer of 11 October
+2022 to [MathOverflow question
+432223](https://mathoverflow.net/questions/432223) takes a cardinal $\kappa$ of
+countable cofinality above the continuum and builds $\kappa$ countably infinite
+sets forming an intersecting family whose down-closure has every star of size
+less than $\kappa$. The problem's discussion thread reached that answer on 22
+May 2026, after a counterexample on $\mathbb{N}\times\mathbb{N}$ proposed on 21
+May 2026 was shown to be flawed (its larger family is itself intersecting).
+Every failure needs an infinite family: a finite family closed under taking
+subsets has only finite members, so its members lie in a finite set.
 
 The change replaces "of sets" with "of subsets of a finite set", in the words of
-the problem's poser. The site credits the problem to Chvátal, and the Conjecture
-in [Ch74] (p. 65;
+the problem's poser. erdosproblems.com credits the problem to Chvátal, and the
+Conjecture in [Ch74] (p. 65;
 [[../library/set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/_index|library card]])
 is stated for "a family of subsets of a finite set $S$" closed under taking
 subsets; its Theorem (p. 62), the case of families closed under left shifts, is
 stated for subsets of $\{1,2,\dots,n\}$. The defect is not in Chvátal's text.
 Erdős's statement of the conjecture in [Er81], item 4 (p. 26), credits it to
-Chvátal and also names no ground set, and the site's wording follows that
-silence. The formal-conjectures statement assumes a finite ground set.
+Chvátal and also names no ground set, and the erdosproblems.com wording follows
+that silence. The formal-conjectures statement assumes a finite ground set.
 
-Results about the site's wording are credited here and count for nothing:
-Kearnes's construction above refutes the wording with infinite ground sets
-and settles no instance of the modified Statement. It was not presented as
+Results about the erdosproblems.com wording are credited here and count for
+nothing: Kearnes's construction above refutes the wording with infinite ground
+sets and settles no instance of the modified Statement. It was not presented as
 settling the problem, so it has no claim page.
 
 **Formulation.** The modified Statement is Chvátal's conjecture, the form
 the three full claims below prove. A star of the family, the members
 containing a fixed element, is itself intersecting, so the conjecture says
 that no intersecting subfamily is larger than the largest star. The reading
-of the site's wording with infinite ground sets is a variant, and it is
-false, as the Notes record.
+of the erdosproblems.com wording with infinite ground sets is a variant, and it
+is false, as the Notes record.
 
-**Status.** The site labeled the problem OPEN. This label describes the modified
-Statement. The site's discussion thread was read 2026-10-07. The frontmatter's
-standing follows from three pending full claims of September 2026, all proving
-the modified Statement:
+**Status.** Bloom's catalog labeled the problem OPEN. This label describes the
+modified Statement. The erdosproblems.com discussion thread was read 2026-10-07.
+The frontmatter's standing follows from three pending full claims of September
+2026, all proving the modified Statement:
 [[problems/set_systems/E0701/claims/2026_09_16_chang_liu_liu|Chang, Liu and Liu]],
 [[problems/set_systems/E0701/claims/2026_09_20_keevash|Keevash]] and
 [[problems/set_systems/E0701/claims/2026_09_23_ellis_filmus_friedgut|Ellis, Filmus and Friedgut]].
-None is refereed or reviewed by a named outside party. The site has a single
-proof-claims entry, posted on 30 September 2026 by a forum user. It is for the
-first preprint and names the other two. It has no comments. The curator's
-remarks credit partial results of Chvátal [Ch74], Sterboul [St74], Frankl and
-Kupavskii [FrKu23] and Borg [Bo11], which are described under Current
+None is refereed or reviewed by a named outside party. erdosproblems.com has a
+single proof-claims entry, posted on 30 September 2026 by a forum user. It is
+for the first preprint and names the other two. It has no comments. The
+curator's remarks credit partial results of Chvátal [Ch74], Sterboul [St74],
+Frankl and Kupavskii [FrKu23] and Borg [Bo11], which are described under Current
 assessment.
 
 **Source.** [erdosproblems.com/701](https://www.erdosproblems.com/701), accessed
@@ -113,8 +113,8 @@ set, an undetermined answer and a `sorry` body.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) is Chvátal's conjecture: a
-family closed under subsets has an element whose star is at least as large as
+The erdosproblems.com formulation (accessed 2026-09-04) is Chvátal's conjecture:
+a family closed under subsets has an element whose star is at least as large as
 any intersecting subfamily. The modified Statement adds Chvátal's finite
 ground set, as the Notes record; it is the statement of Chvátal [Ch74], of
 the formal-conjectures file and of the three claims.
@@ -133,15 +133,15 @@ Kleitman's and Chvátal's conjectures.
 (23 September) give a short spectral proof. The later two credit the first
 and build on its ideas, as their authors state, and all three disclose AI
 assistance. None is refereed or reviewed by a named outside party, and the
-site's label was OPEN, so the problem is `claimed` with the claim `proved` by
-derivation and no claim is accepted.
+erdosproblems.com label was OPEN, so the problem is `claimed` with the claim
+`proved` by derivation and no claim is accepted.
 
 Three earlier partial results are refereed and have accepted partial claim
 pages.
 [[problems/set_systems/E0701/claims/2022_01_11_frankl_kupavskii|Frankl and Kupavskii]]
 [FrKu23] prove the conjecture for intersecting subfamilies of covering number at
-most $2$; the site's remark places the covering condition on the whole family,
-while the paper, as the
+most $2$; the erdosproblems.com remark places the covering condition on the
+whole family, while the paper, as the
 [[../library/set_systems/frankl_2023_perfect_matchings_down_sets/_index|library card]]
 records, places it on the intersecting subfamily.
 [[problems/set_systems/E0701/claims/2011_01_01_borg|Borg]] [Bo11] proposed a
@@ -150,10 +150,10 @@ element.
 [[problems/set_systems/E0701/claims/2018_09_05_eifler_gleixner_pulaj|Eifler, Gleixner and Pulaj]]
 verified the conjecture by an exact integer-programming computation for every
 family whose members lie in a ground set of at most seven elements. The results
-of Chvátal [Ch74] and Sterboul [St74], also credited by the site's curator, stay
-in prose: both appear in the proceedings volume Lecture Notes in Math. 411
-(Hypergraph Seminar, Columbus, 1972), and a proceedings volume is not counted as
-refereed. Chvátal proved the conjecture for families of subsets of
+of Chvátal [Ch74] and Sterboul [St74], also credited by the erdosproblems.com
+curator, stay in prose: both appear in the proceedings volume Lecture Notes in
+Math. 411 (Hypergraph Seminar, Columbus, 1972), and a proceedings volume is not
+counted as refereed. Chvátal proved the conjecture for families of subsets of
 $\{1,\dots,n\}$ closed under the stronger compression condition: whenever $A$ is
 in the family and an injection $f\colon B\to A$ satisfies $x\le f(x)$ for all
 $x\in B$, then $B$ is in the family. Sterboul proved it when the maximal members
@@ -167,15 +167,15 @@ Ser. A 16 (1974), 215--220, has no claim page because its statement has not been
 compiled here. A thread comment of 9 May 2026 gives a proof for families of rank
 at most $2$; it is a thread post, not a dated manuscript, and has no page.
 
-Search scope, with the sources as they stood on 2026-10-07: the site's page,
-its discussion thread (six comments) and proof-claims thread (one entry), the
-community database (teorth/erdosproblems, formalized statement recorded), the
-formal-conjectures statement file, the arXiv records of the three preprints and
-of the papers of Frankl and Kupavskii and of Eifler, Gleixner and Pulaj, the
-zbMATH review of [Bo11] and the Palomar registry. Remaining gaps: no refereed
-publication or independent review of any of the three full proofs is recorded;
-the site's wording, read with infinite ground sets, is false, as the Notes
-record.
+Search scope, with the sources as they stood on 2026-10-07: the
+erdosproblems.com page, its discussion thread (six comments) and proof-claims
+thread (one entry), the community database (teorth/erdosproblems, formalized
+statement recorded), the formal-conjectures statement file, the arXiv records of
+the three preprints and of the papers of Frankl and Kupavskii and of Eifler,
+Gleixner and Pulaj, the zbMATH review of [Bo11] and the Palomar registry.
+Remaining gaps: no refereed publication or independent review of any of the
+three full proofs is recorded; the erdosproblems.com wording, read with infinite
+ground sets, is false, as the Notes record.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

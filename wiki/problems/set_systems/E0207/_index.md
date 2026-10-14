@@ -27,8 +27,8 @@ every pair of vertices is contained in exactly one edge (i.e. the graph is a
 Steiner triple system) and for any $2\leq j\leq g$ any collection of $j$ edges
 contains at least $j+3$ vertices.
 
-**Status.** The site labeled the problem proved, crediting Kwan, Sah, Sawhney
-and Simkin [KSSS22b]. The accepted claim is
+**Status.** Bloom's catalog labeled the problem proved, crediting Kwan, Sah,
+Sawhney and Simkin [KSSS22b]. The accepted claim is
 [[problems/set_systems/E0207/claims/2022_01_12_kwan_sah_sawhney_simkin|Steiner triple systems of arbitrarily high girth]].
 
 **Source.** [erdosproblems.com/207](https://www.erdosproblems.com/207), accessed
@@ -53,23 +53,24 @@ no formal proof linked; no Lean proof of the theorem is recorded.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks, for every $g\geq2$, for
-Steiner triple systems of every large admissible order in which any $j$
-triples span at least $j+3$ vertices for $2\leq j\leq g$. The answer is yes:
+The erdosproblems.com formulation (accessed 2026-09-04) asks, for every
+$g\geq2$, for Steiner triple systems of every large admissible order in which
+any $j$ triples span at least $j+3$ vertices for $2\leq j\leq g$. The answer is
+yes:
 [[problems/set_systems/E0207/claims/2022_01_12_kwan_sah_sawhney_simkin|Kwan, Sah, Sawhney and Simkin]]
-prove it for every $g$, refereed in Ann. of Math. and credited by the site's
-curator; the problem's standing derives from that accepted claim. The
-threshold $N(g)$ is not quantified by the theorem and is not assessed here.
-Erdős's 1973 question [Er76] is the same statement in the language of
+prove it for every $g$, refereed in Ann. of Math. and credited by the
+erdosproblems.com curator; the problem's standing derives from that accepted
+claim. The threshold $N(g)$ is not quantified by the theorem and is not assessed
+here. Erdős's 1973 question [Er76] is the same statement in the language of
 $G^{(3)}(r;r-2)$ configurations, $r$ vertices spanned by $r-2$ triples, with
 $r=j+2$ and $k=g+2$; the cases $j=2,3$ ($r=4,5$) hold in every Steiner triple
 system.
 
-Search scope, with the sources as they stood on 2026-10-07: the site's page
-and discussion thread (no comments and no proof claims), the community database
-(teorth/erdosproblems), the formal-conjectures catalog (a statement file added
-2026-10-07, without a proof) and Crossref. None of them showed another claim
-on the problem or recorded a Lean proof of the theorem.
+Search scope, with the sources as they stood on 2026-10-07: the
+erdosproblems.com page and discussion thread (no comments and no proof claims),
+the community database (teorth/erdosproblems), the formal-conjectures catalog (a
+statement file added 2026-10-07, without a proof) and Crossref. None of them
+showed another claim on the problem or recorded a Lean proof of the theorem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

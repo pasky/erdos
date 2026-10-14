@@ -67,16 +67,16 @@ numbers, Acta Math. Acad. Sci. Hungar. 16 (1965), no. 1--2, 93--196,
 doi:10.1007/BF01886396; the issue is dated March 1965, and this page's date
 is the first of that month. Erdős and Hajnal's 1971 problem list, Unsolved
 problems in set theory (§4.2, p. 25), cites Theorem 17 of this paper for the
-consequence. The site credits the coloring under CH to Erdős, and in [Er95d]
-(On some problems in combinatorial set theory, Publ. Inst. Math. (Beograd)
-(N.S.) 57(71) (1995), p. 64) Erdős writes of having proved the affirmative
-answer under $\mathfrak{c}=\aleph_1$ after posing the question in 1954. No
-publication of that proof earlier than this paper is recorded here.
+consequence. erdosproblems.com credits the coloring under CH to Erdős, and in
+[Er95d] (On some problems in combinatorial set theory, Publ. Inst. Math.
+(Beograd) (N.S.) 57(71) (1995), p. 64) Erdős writes of having proved the
+affirmative answer under $\mathfrak{c}=\aleph_1$ after posing the question
+in 1954. No publication of that proof earlier than this paper is recorded here.
 
 **Acceptance.** Refereed: Acta Mathematica Academiae Scientiarum Hungaricae,
-volume 16, issue 1--2. The site labeled Problem 474 NOT PROVABLE on the basis of
-Shelah's consistency result. Its remark crediting Erdős with the CH case is
-therefore commentary, not acceptance of this claim, and no `reviewed` evidence
-is listed. The proof is not checked here.
+volume 16, issue 1--2. Bloom's catalog labeled Problem 474 NOT PROVABLE on the
+basis of Shelah's consistency result. Its remark crediting Erdős with the CH
+case is therefore commentary, not acceptance of this claim, and no `reviewed`
+evidence is listed. The proof is not checked here.
 
 **Depends on.** Nothing in this wiki.

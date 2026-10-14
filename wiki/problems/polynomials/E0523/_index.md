@@ -56,34 +56,34 @@ commit and records what the corpus has and has not checked.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** Whether the
+**The question (erdosproblems.com formulation of 2026-09-04).** Whether the
 maximum modulus on the unit circle of a random polynomial of degree $n$ with
 independent uniform $\pm1$ coefficients is almost surely
-$(C+o(1))\sqrt{n\log n}$ for some constant $C>0$. PROVED (the site's label;
-page last edited 01 February 2026). The site's commentary records that
-Salem and Zygmund [SaZy54] proved $\sqrt{n\log n}$ to be the right order of
-magnitude without an asymptotic, and that Halász [Ha73] settled the
+$(C+o(1))\sqrt{n\log n}$ for some constant $C>0$. PROVED (the erdosproblems.com
+label; page last edited 01 February 2026). The erdosproblems.com commentary
+records that Salem and Zygmund [SaZy54] proved $\sqrt{n\log n}$ to be the right
+order of magnitude without an asymptotic, and that Halász [Ha73] settled the
 question with $C=1$.
 
 **Standing.** One accepted full claim,
 [[problems/polynomials/E0523/claims/1973_04_20_halasz|Halász 1973]], refereed
-in Studia Scientiarum Mathematicarum Hungarica and credited by the site's
-curator. The account below attributes the $C=1$ answer to Halász's bounds
-and stated power-polynomial extension. Its coverage is the theorem and
-extension statements, checked against the paper; the proof is not
+in Studia Scientiarum Mathematicarum Hungarica and credited by the
+erdosproblems.com curator. The account below attributes the $C=1$ answer to
+Halász's bounds and stated power-polynomial extension. Its coverage is the
+theorem and extension statements, checked against the paper; the proof is not
 compiled in this wiki, and no independent proof review is recorded.
 
-**Formalization.** On 2026-10-07 the site's page showed no formalized statement
-and no formal-conjectures statement file existed for the problem. A Lean 4 file
-in the lean-proofs repository declares itself a formalization of Halász's
-solution and proves the almost-sure limit; the claim page links it at its pinned
-commit. The development is not built or audited in this repository, so no
-`formalized` evidence is listed.
+**Formalization.** On 2026-10-07 the erdosproblems.com page showed no formalized
+statement and no formal-conjectures statement file existed for the problem. A
+Lean 4 file in the lean-proofs repository declares itself a formalization of
+Halász's solution and proves the almost-sure limit; the claim page links it at
+its pinned commit. The development is not built or audited in this repository,
+so no `formalized` evidence is listed.
 
-**Search scope and read depth.** Search scope: the site's problem page and its
-thread (empty on 2026-10-07), the formal-conjectures tree and the lean-proofs
-file. Read depth: Halász 1973 for the theorem, the power-polynomial extension
-and the received date.
+**Search scope and read depth.** Search scope: the erdosproblems.com problem
+page and its thread (empty on 2026-10-07), the formal-conjectures tree and the
+lean-proofs file. Read depth: Halász 1973 for the theorem, the power-polynomial
+extension and the received date.
 
 ## Progress
 

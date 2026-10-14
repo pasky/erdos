@@ -239,8 +239,9 @@ independently reviewed.
 $\tau(G)>\frac{21e}{4n}$", with Corollary 1.1 (printed p. 253, PDF p. 5),
 $f(n,e)>21e/4n$ for $e>n^2/4$, and the introduction's special case (printed
 p. 251, PDF p. 3), "In particular,
-$f(n,\lfloor n^2/4\rfloor+1)>\frac{21}{16}n$", is the lower bound $h(n)\ge21n/16$ that the site's commentary credits to the
-paper, strict as printed, since the problem's $h(n)$ is the paper's
+$f(n,\lfloor n^2/4\rfloor+1)>\frac{21}{16}n$", is the lower bound
+$h(n)\ge21n/16$ that the erdosproblems.com commentary credits to the paper,
+strict as printed, since the problem's $h(n)$ is the paper's
 $f(n,\lfloor n^2/4\rfloor+1)$; the paper's abstract (p. 249) says that it
 improves Erdős and Laskar's $(1+\epsilon)n$, the
 [[extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_2|Theorem 2]]
@@ -250,7 +251,7 @@ $f(n,e)<4\sqrt{3e}-2n+5$ for $n^2/4<e<n^2/3$, which at
 $e=\lfloor n^2/4\rfloor+1$ is $2(\sqrt3-1)n+5+O(1/n)$ (a one-line
 substitution made on the problem page), and the paper credits it to "the
 construction described in [4]", its Erdős--Laskar 1985 reference, the same
-attribution as the site's. Corollary 3.1 (printed p. 262, PDF p. 14)
+attribution as erdosproblems.com's. Corollary 3.1 (printed p. 262, PDF p. 14)
 restates and reproves Edwards's theorem for $e\ge n^2/3$, degree sum at
 least $6e/n$ with equality exactly for regular graphs, which [ErLa85] also
 reports. Theorem 2 (printed p. 259, PDF p. 11)

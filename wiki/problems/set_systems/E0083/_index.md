@@ -29,8 +29,8 @@ $$
 \lvert \mathcal{F}\rvert \leq \frac{1}{2}\left(\binom{4n}{2n}-\binom{2n}{n}^2\right).
 $$
 
-**Status.** The site labeled the problem PROVED (LEAN), crediting Ahlswede and
-Khachatrian [AhKh97]. The accepted claim is
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN), crediting
+Ahlswede and Khachatrian [AhKh97]. The accepted claim is
 [[problems/set_systems/E0083/claims/1997_02_01_ahlswede_khachatrian|the 4m-conjecture from the complete intersection theorem]].
 The Lean behind the qualifier is described below.
 
@@ -56,9 +56,9 @@ not been built or audited here.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) is the $4m$-conjecture of Erdős,
-Ko and Rado [ErKoRa61] with $m=n$: a family of $2n$-element subsets of $[4n]$
-in which every two members share at least two elements has at most
+The erdosproblems.com formulation (accessed 2026-09-04) is the $4m$-conjecture
+of Erdős, Ko and Rado [ErKoRa61] with $m=n$: a family of $2n$-element subsets of
+$[4n]$ in which every two members share at least two elements has at most
 $\frac12\bigl(\binom{4n}{2n}-\binom{2n}n^2\bigr)$ members, the size of the
 family of all $2n$-subsets containing at least $n+1$ elements of $[2n]$, so
 the bound is sharp. The answer is yes:
@@ -66,16 +66,17 @@ the bound is sharp. The answer is yes:
 prove it, directly and as the case $t=2$, $k=2n$ of their complete
 intersection theorem, which determines the largest $t$-intersecting family of
 $k$-subsets of an $m$-set for every $1\le t\le k\le m$; the paper is refereed
-in European J. Combin. and the site's curator credits it, and the problem's
-standing derives from that accepted claim. The site's commentary states the
-complete intersection theorem in Frankl's form, naming the extremal family
-through the parameter $r$ with $\frac1{r+1}\le\frac{m-2k+2t-2}{(t-1)(k-t+1)}<\frac1r$;
-the claim page states the same theorem as the paper prints it. The proofs
-are not compiled in the library, whose card records the statements only.
+in European J. Combin. and the erdosproblems.com curator credits it, and the
+problem's standing derives from that accepted claim. The erdosproblems.com
+commentary states the complete intersection theorem in Frankl's form, naming the
+extremal family through the parameter $r$ with
+$\frac1{r+1}\le\frac{m-2k+2t-2}{(t-1)(k-t+1)}<\frac1r$; the claim page states
+the same theorem as the paper prints it. The proofs are not compiled in the
+library, whose card records the statements only.
 
 Search scope, with the changing sources as they stood on 2026-10-07: the
-site's page and discussion thread (three comments, of 3 December 2025, 22
-December 2025 and 20 January 2026: a 1996 photograph of Ahlswede and
+erdosproblems.com page and discussion thread (three comments, of 3 December
+2025, 22 December 2025 and 20 January 2026: a 1996 photograph of Ahlswede and
 Khachatrian receiving Erdős's prize, a variant of Erdős and Sós on families
 with a forbidden intersection size with recent progress at arXiv:2512.17544,
 and an interview of Katona recalling the $t$-intersecting generalization as one

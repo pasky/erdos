@@ -85,7 +85,7 @@ bound $\mathrm{ex}(N;C_{2m})\le90mN^{1+1/m}$ it cites to Bollobás.
 - [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]: through
   Corollary 3 (ii) at $m=2$, where $C_4\subset K_1+P_3$ and $\gamma=3/2$,
   the theorem gives $r(C_4,K_n)\le540^2(n/\log n)^2$ for large $n$, the
-  order $n^2/(\log n)^2$ the site displays. For any $H$ it covers, the bound
-  has the form $(n/\log n)^{1/(2-\gamma)}$, so a saving of a fixed power of
-  $n$ for $C_4$ would need a Turán exponent below $3/2$, which $C_4$ does not
+  order $n^2/(\log n)^2$ erdosproblems.com displays. For any $H$ it covers, the
+  bound has the form $(n/\log n)^{1/(2-\gamma)}$, so a saving of a fixed power
+  of $n$ for $C_4$ would need a Turán exponent below $3/2$, which $C_4$ does not
   have; the theorem does not answer the problem's question.

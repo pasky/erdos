@@ -30,13 +30,13 @@ updated: 2026-10-07T21:38:27Z
 $\mathbb{R}^d$, there exist at most $f_d(n)$ pairs of points which distance $1$
 apart. Estimate $f_d(n)$.
 
-**Status.** Labeled OPEN on the site (page last edited 23 May 2026). The
-standing in the frontmatter, derived from the claim pages, is open, because the
-plane and space are open. The site's remarks call $d=2$ and $d=3$ the most
-difficult cases. They credit the results that determine $f_d(n)$ in dimension
-four and above. The frontmatter lists the problem's parts as `plane` ($d=2$),
-`space` ($d=3$), `even_dimensions` (even $d\ge4$) and `odd_dimensions` (odd
-$d\ge5$). The claim pages in `claims/` record the literature for $d\ge4$ as
+**Status.** Labeled OPEN on erdosproblems.com (page last edited 23 May 2026).
+The standing in the frontmatter, derived from the claim pages, is open, because
+the plane and space are open. The erdosproblems.com remarks call $d=2$ and $d=3$
+the most difficult cases. They credit the results that determine $f_d(n)$ in
+dimension four and above. The frontmatter lists the problem's parts as `plane`
+($d=2$), `space` ($d=3$), `even_dimensions` (even $d\ge4$) and `odd_dimensions`
+(odd $d\ge5$). The claim pages in `claims/` record the literature for $d\ge4$ as
 partial claims that settle the last two parts. They record OpenAI's planar power
 saving as an accepted partial claim that settles no part.
 
@@ -93,9 +93,9 @@ saving]], an accepted partial claim: $f_2(n)\le Cn^{\beta}$ for every $n$
 with absolute constants $C>0$ and $\beta<4/3$, a fixed power below the
 $O(n^{4/3})$ bound of [SST84], accepted on the Lean declaration that this
 corpus's verification built and audited. The exponent $\beta$ is not made
-explicit, so no order of growth is determined in the plane. For $d=3$ the
-site records $n^{4/3}\log\log n\ll f_3(n)\ll n^{3/2}\beta(n)$, the lower
-bound by Erdős [Er60b] and the upper bound, with $\beta(n)$ a very slowly
+explicit, so no order of growth is determined in the plane. For $d=3$
+erdosproblems.com records $n^{4/3}\log\log n\ll f_3(n)\ll n^{3/2}\beta(n)$, the
+lower bound by Erdős [Er60b] and the upper bound, with $\beta(n)$ a very slowly
 growing function, by Clarkson, Edelsbrunner, Guibas, Sharir and Welzl
 [CEGSW90]. The upper bound has since been improved, to $O(n^{3/2})$ by
 Kaplan, Matoušek, Safernová and Sharir (Combin. Probab. Comput. 21 (2012),
@@ -130,19 +130,19 @@ to the unit-distance problem on a two-sphere, which is open. The parts
 `even_dimensions` and `odd_dimensions` are settled by these accepted claims;
 the parts `plane` and `space` are not, so the problem is open.
 
-**Sources of the account.** The results above are stated as the site's
-remarks (page last edited 23 May 2026) and the introduction of [Sw09] give
-them, except the improved upper bounds for $d=3$, which come from the papers
-of Kaplan, Matoušek, Safernová and Sharir and of Zahl and the Sharir–Zahl
-erratum cited above, not from the site's remarks. [Er60b], [Er67e],
-[CEGSW90] and [Sw09] have library cards, linked below; [Br97], [vW99] and
-[ErPa90] have none and are cited from their bibliographic records and from
-the introduction of [Sw09]. The same release family's second manuscript, on
+**Sources of the account.** The results above are stated as the
+erdosproblems.com remarks (page last edited 23 May 2026) and the introduction of
+[Sw09] give them, except the improved upper bounds for $d=3$, which come from
+the papers of Kaplan, Matoušek, Safernová and Sharir and of Zahl and the
+Sharir–Zahl erratum cited above, not from the erdosproblems.com remarks.
+[Er60b], [Er67e], [CEGSW90] and [Sw09] have library cards, linked below; [Br97],
+[vW99] and [ErPa90] have none and are cited from their bibliographic records and
+from the introduction of [Sw09]. The same release family's second manuscript, on
 pinned distinct distances (its intake card is
 [[../library/distance_problems/openai_2026_weak_pinned_planar_distance_theorem/_index|openai_2026_weak_pinned_planar_distance_theorem]]),
 concerns [[problems/distance_problems/E0604/_index|Problem 604]] and adds
-nothing here. The site's page, as accessed on 2026-09-04, predates the
-release; as last edited 23 May 2026 it carried no proof claim and did not
+nothing here. The erdosproblems.com page, as accessed on 2026-09-04, predates
+the release; as last edited 23 May 2026 it carried no proof claim and did not
 mention the release, and its thread held one comment (21 May 2026) asking
 that the planar lower bound be updated after the solution of Problem 90.
 

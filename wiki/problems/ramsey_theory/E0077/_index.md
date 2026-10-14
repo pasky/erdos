@@ -27,15 +27,15 @@ $$
 \lim_{k\to \infty}R(k)^{1/k}.
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 8
-February 2026). $R(k)=R(k,k)$ is the diagonal Ramsey number. The statement
-presupposes that the limit exists, which is itself unproved; Erdős kept the two
-questions apart, offering separate prizes for the existence of the limit and for
-its value (1988, 1995), and the formal-conjectures file encodes the existence of
-the limit with a value to be supplied. What is known is
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 8 February 2026). $R(k)=R(k,k)$ is the diagonal Ramsey number. The
+statement presupposes that the limit exists, which is itself unproved; Erdős
+kept the two questions apart, offering separate prizes for the existence of the
+limit and for its value (1988, 1995), and the formal-conjectures file encodes
+the existence of the limit with a value to be supplied. What is known is
 $\sqrt2\le\liminf_{k\to\infty}R(k)^{1/k}\le\limsup_{k\to\infty}R(k)^{1/k}\le3.7992\ldots$;
-the classical upper end $4$ was lowered in 2023 and 2024. The site relates the
-limit to Problem 627 and refers to Problem 1029, which asks whether
+the classical upper end $4$ was lowered in 2023 and 2024. erdosproblems.com
+relates the limit to Problem 627 and refers to Problem 1029, which asks whether
 $R(k)/(k2^{k/2})\to\infty$, for lower bounds.
 
 **Status.** Open. Neither the existence nor the value of the limit is known. The
@@ -52,19 +52,19 @@ Sahasrabudhe and Tiba (J. Amer. Math. Soc. 2026). Erdős guessed "perhaps $c=2$?
 Current assessment records found no source proving the existence of the limit,
 determining its value, or moving the lower end. This is a bounded negative
 finding, not a certificate of openness. A September 2026 preprint claiming a
-smaller upper base is recorded below as an unreviewed lead. The site lists a
-prize, Erdős's offer for the value of the limit.
+smaller upper base is recorded below as an unreviewed lead. erdosproblems.com
+lists a prize, Erdős's offer for the value of the limit.
 
 **Source.** [erdosproblems.com/77](https://www.erdosproblems.com/77), accessed
-2026-09-18: the problem page (OPEN, with the site's note that the problem cannot
-be settled by a finite computation; a prize; last edited 8 February 2026; source
-keys [Er61], [Er69b], [Er71, p. 99], [Er81], [Er88, p. 83], [Er90b, p. 17],
-[Er93, p. 338], [Er95], [Er97c], [Er97d], [Va99, 3.50]; commentary citing
-[CGMS23], [GNNW24], [BBCGHMST24] and Problems 1029 and 627; an acknowledgment
-line thanking two contributors), its three-comment discussion thread (19
-December 2025, 4 February 2026, 28 April 2026) and its empty proof-claim tab.
-Cite as: T. F. Bloom, Erdős Problem #77, https://www.erdosproblems.com/77,
-accessed 2026-09-18.
+2026-09-18: the problem page (OPEN, with the erdosproblems.com note that the
+problem cannot be settled by a finite computation; a prize; last edited 8
+February 2026; source keys [Er61], [Er69b], [Er71, p. 99], [Er81], [Er88, p.
+83], [Er90b, p. 17], [Er93, p. 338], [Er95], [Er97c], [Er97d], [Va99, 3.50];
+commentary citing [CGMS23], [GNNW24], [BBCGHMST24] and Problems 1029 and 627; an
+acknowledgment line thanking two contributors), its three-comment discussion
+thread (19 December 2025, 4 February 2026, 28 April 2026) and its empty
+proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #77,
+https://www.erdosproblems.com/77, accessed 2026-09-18.
 
 **References.**
 
@@ -117,24 +117,24 @@ accessed 2026-09-18.
   [[../library/number_theory/various_1999_some_pauls_favorite_problems/_index|various_1999_some_pauls_favorite_problems]].
 - [Er90b] Erdős, P., Problems and results on graphs and hypergraphs:
   similarities and differences. Mathematics of Ramsey theory, Algorithms Combin.
-  5, Springer (1990), 12--28; the site cites p. 17, where Section 3 states the
-  bounds and the two prize offers. Library home:
+  5, Springer (1990), 12--28; erdosproblems.com cites p. 17, where Section 3
+  states the bounds and the two prize offers. Library home:
   [[../library/ramsey_theory/erdos_1990_problems_results_graphs_hypergraphs_similarities_differences/_index|erdos_1990_problems_results_graphs_hypergraphs_similarities_differences]].
 - [Er81] Erdős, P., On the combinatorial problems which I would most like to see
-  solved. Combinatorica 1 (1981), 25--42. A site key
+  solved. Combinatorica 1 (1981), 25--42. An erdosproblems.com key
   ([[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|card]]);
   its passage for this problem is located on the card at Part V, display (1),
   p. 9 of the copy the card describes (the prize offers with the bounds
   $2^{1/2}$ and $4$).
 - [Er71] Erdős, P., Some unsolved problems in graph theory and combinatorial
   analysis. Combinatorial Mathematics and its Applications (Proc. Conf., Oxford,
-  1969), Academic Press (1971), 97--109; the site cites p. 99
+  1969), Academic Press (1971), 97--109; erdosproblems.com cites p. 99
   ([[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|card]]);
   its passage for this problem is located on the card at its item for this
   problem (the request on p. 99 to prove that $\lim f(n,n)^{1/n}$ exists,
   with the bounds (3)--(4)).
 - [Er61] Erdős, P., Some unsolved problems. Magyar Tud. Akad. Mat. Kutató Int.
-  Közl. 6 (1961), 221--254. A site key
+  Közl. 6 (1961), 221--254. An erdosproblems.com key
   ([[../library/number_theory/erdos_1961_unsolved_problems/_index|card]]); the
   passage is Part II, item 4, printed pp. 240--241, where the print spells the
   name "RAMSAY": after (II.4.1) $2^{k/2}<f(2,k,k)\le\binom{2k-2}{k-1}$ for the
@@ -143,8 +143,8 @@ accessed 2026-09-18.
 - [Er93] Erdős, P., Some of my favorite solved and unsolved problems in graph
   theory. Quaestiones Math. 16 (1993), 333--350; Chapter II, display (5) with
   the two prize offers, the "no real evidence" sentence and the evil-spirit
-  joke, printed p. 338 (the displays as the library card records them). The site
-  cites p. 338. Library home:
+  joke, printed p. 338 (the displays as the library card records them).
+  erdosproblems.com cites p. 338. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Er97c] Erdős, P., Some of my favorite problems and results. The mathematics
   of Paul Erdős, I, Algorithms Combin. 13, Springer (1997), 47--67; display
@@ -189,12 +189,12 @@ examined); none of the three was built here.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement above;
-OPEN, with the site's note that it cannot be settled by a finite computation;
-a prize; last edited 8 February 2026. The commentary, in summary: Erdős offered
-a prize for a proof that the constant exists and a larger one for a proof that
-it does not, calling the second offer a joke because the limit surely exists,
-and raised that prize in [Er88]; he proved
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; OPEN, with the erdosproblems.com note that it cannot be settled
+by a finite computation; a prize; last edited 8 February 2026. The commentary,
+in summary: Erdős offered a prize for a proof that the constant exists and a
+larger one for a proof that it does not, calling the second offer a joke because
+the limit surely exists, and raised that prize in [Er88]; he proved
 $\sqrt2\le\liminf R(k)^{1/k}\le\limsup R(k)^{1/k}\le4$; the upper end was
 lowered to $4-\tfrac1{128}$ by [CGMS23] and to $3.7992\ldots$ by [GNNW24], and
 [BBCGHMST24] gave a shorter and simpler proof of a bound with base $4-c$
@@ -204,10 +204,10 @@ for it (the sentence is quoted from [Er93] under Erdős's wording below); it
 points to Problem 1029 for lower bounds, says the limit is closely related to
 that of Problem 627, and retells the evil-spirit anecdote about $R(5)$ and
 $R(6)$ from [Er93]. The thread: 19 December 2025, a comment that a connection
-with Problem 627 was established in a 2025 paper (the site was updated); 4
-February 2026, a comment that an optimization-problems repository records the
-constant, if it exists, as $C_{17}$; 28 April 2026, a typographical note on the
-quotation. The proof-claim tab is empty.
+with Problem 627 was established in a 2025 paper (erdosproblems.com was
+updated); 4 February 2026, a comment that an optimization-problems repository
+records the constant, if it exists, as $C_{17}$; 28 April 2026, a typographical
+note on the quotation. The proof-claim tab is empty.
 
 **Erdős's wording.** 1969, p. 31: "It would also be interesting to determine
 $\lim_{n\to\infty}\min_{G_n}\max(K(G_n),I(G_n))/\log n$. (16) I cannot even
@@ -244,28 +244,28 @@ $c$ may be much harder than the proof of its existence. I have no idea what the
 value of $r(n)^{1/n}$ should be, perhaps it is 2 but we have no real evidence
 for this. An asymptotic formula for $r(n)$ would of course be very desirable,
 but at the moment this looks hopeless", followed by $r(3)=6$, $r(4)=18$ and the
-evil-spirit joke about $r(5)$ and $r(6)$ that the site's commentary retells.
-1995, p. 11: "It is known that $ct2^{t/2}<r(t)<t^{-1/2}\binom{2t-2}{t-1}$, (14)
-for some constant $c>0$. It would be very desirable to improve (14) and prove
-that $c=\lim_{t\to\infty}r(t)^{1/t}$ exists and if $c$ exists determine its
-value. By (14) the value of this limit, if it exicts [sic], is between $\sqrt2$
-and 4. I offer 100 dollars for the proof of the existence of $c$ and 250 dollars
-for the value of $c$. I give 1000 dollars for a proof of the non-existence of
-$c$, but this is really a joke as $c$ certainly exists." 1997 (Discrete Math.),
-p. 83, item 6, in the inverse form: "Ramsey's theorem can be stated as follows:
-Every $G(n)$ contains a trivial graph of size $c\log n$. The exact value of
-$c$ is not known, only the bounds $\frac{\log2}2\le c\le2\log2$. No doubt if
-$k(n)$ is the size of the largest trivial graph which our $G(n)$ must contain
-then $\frac{k(n)}{\log n}\to c$. (7) I offer 100 dollars for a proof and
-250 dollars for the value of $c$. I offer 1000 dollars for a disproof of (7),
-but this is cheating since (7) clearly holds", a trivial graph being a complete
-or empty one (an observation made here: if $R(k)^{1/k}\to C$ then
-$k(n)/\log n\to1/\log C$, so $\sqrt2\le C\le4$ gives
-$1/(2\log2)\le c\le2/\log2$ with natural logarithms and $1/2\le c\le2$
-with base $2$; the printed bounds, recorded as printed, equal the base-$2$
-reading, since $\log2=1$ there, and with natural logarithms they are the
-reciprocals of the correct bounds). 1997 (the Springer volume), p. 62: "Denote
-by $f(n)$ the smallest integer for which $f(n)\to(n)_2^2$ holds, so that
+evil-spirit joke about $r(5)$ and $r(6)$ that the erdosproblems.com commentary
+retells. 1995, p. 11: "It is known that
+$ct2^{t/2}<r(t)<t^{-1/2}\binom{2t-2}{t-1}$, (14) for some constant $c>0$. It
+would be very desirable to improve (14) and prove that
+$c=\lim_{t\to\infty}r(t)^{1/t}$ exists and if $c$ exists determine its value. By
+(14) the value of this limit, if it exicts [sic], is between $\sqrt2$ and 4. I
+offer 100 dollars for the proof of the existence of $c$ and 250 dollars for the
+value of $c$. I give 1000 dollars for a proof of the non-existence of $c$, but
+this is really a joke as $c$ certainly exists." 1997 (Discrete Math.), p. 83,
+item 6, in the inverse form: "Ramsey's theorem can be stated as follows: Every
+$G(n)$ contains a trivial graph of size $c\log n$. The exact value of $c$ is not
+known, only the bounds $\frac{\log2}2\le c\le2\log2$. No doubt if $k(n)$ is the
+size of the largest trivial graph which our $G(n)$ must contain then
+$\frac{k(n)}{\log n}\to c$. (7) I offer 100 dollars for a proof and 250 dollars
+for the value of $c$. I offer 1000 dollars for a disproof of (7), but this is
+cheating since (7) clearly holds", a trivial graph being a complete or empty one
+(an observation made here: if $R(k)^{1/k}\to C$ then $k(n)/\log n\to1/\log C$,
+so $\sqrt2\le C\le4$ gives $1/(2\log2)\le c\le2/\log2$ with natural logarithms
+and $1/2\le c\le2$ with base $2$; the printed bounds, recorded as printed, equal
+the base-$2$ reading, since $\log2=1$ there, and with natural logarithms they
+are the reciprocals of the correct bounds). 1997 (the Springer volume), p. 62:
+"Denote by $f(n)$ the smallest integer for which $f(n)\to(n)_2^2$ holds, so that
 $f(n)=r_2^2(n,n)$. I offer \$100 for a proof that $\lim_{n\to\infty}f(n)^{1/n}$
 exists, and \$250 for the value $c$ of this limit. It follows from (4.2) that
 $\sqrt2\le c\le4$. Perhaps $c=2$? Very little progress has been made in
@@ -299,7 +299,7 @@ and superpolynomial savings of Rödl, Thomason, Conlon and Sah left the base $4$
 with $\varepsilon=2^{-10}$ from the first proof and $2^{-7}$ from the second
 (prose, p. 2); Theorem 14.1 (p. 48) is the explicit form
 $R(k,\ell)\le e^{-\ell/400+o(k)}\binom{k+\ell}{\ell}$ for $\ell\le k$,
-whose diagonal case is $e^{-k/400+o(k)}\binom{2k}{k}$. The site's value
+whose diagonal case is $e^{-k/400+o(k)}\binom{2k}{k}$. erdosproblems.com's value
 $4-\tfrac1{128}$ is $4-2^{-7}$. [BBCGHMST24]'s
 [[../library/ramsey_theory/balister_2024_upper_bounds_multicolour_ramsey_numbers/theorem_1_1|Theorem 1.1]]
 (p. 2): $R_r(k)\le e^{-\delta k}r^{rk}$ for each fixed $r\ge2$, at $r=2$
@@ -356,21 +356,22 @@ for "the source bound specified here", that "A finite derivation gives
 $R(k,k)\le3.69507^k$ for all sufficiently large $k$", by the method its title
 calls "Retained-Set Descent", with a Lean 4 formalization and certificate checks
 named in the arXiv comment; only its abstract is recorded here, no acceptance
-evidence exists, and the site does not mention it. (2) [GNNW24]'s Remark 17,
-closing Section 4 (pp. 19--20), reports a "preliminary, unverified iteration" of
-its optimization, which the paper says it asked ChatGPT 5.6 Sol to perform, that
-would give the base $3.78233\ldots$ if verified, and the authors' expectation
-that lowering the base below $3.7$, "and, likely, even below $3.75$ would
-require new ideas". (3) Multicolor context: arXiv:2608.01962 (3 August 2026) and
-arXiv:2609.04596 (4 September 2026) improve the exponential saving in
-$R_r(k)\le r^{rk}$ for large $r$; abstracts only. (4) The thread's $C_{17}$
-remark and the Problem 627 connection are recorded without further sources.
+evidence exists, and erdosproblems.com does not mention it. (2) [GNNW24]'s
+Remark 17, closing Section 4 (pp. 19--20), reports a "preliminary, unverified
+iteration" of its optimization, which the paper says it asked ChatGPT 5.6 Sol to
+perform, that would give the base $3.78233\ldots$ if verified, and the authors'
+expectation that lowering the base below $3.7$, "and, likely, even below $3.75$
+would require new ideas". (3) Multicolor context: arXiv:2608.01962 (3
+August 2026) and arXiv:2609.04596 (4 September 2026) improve the exponential
+saving in $R_r(k)\le r^{rk}$ for large $r$; abstracts only. (4) The thread's
+$C_{17}$ remark and the Problem 627 connection are recorded without further
+sources.
 
 **Search scope.** None of the routes below found a proof
 that the limit exists, a value, a lower bound with base above $\sqrt2$, a
 refereed upper bound with base below $4-2^{-7}$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures main of 2026-09-18; the community database of 2026-09-18;
   OEIS A059442 (the table of $R(n,k)$; links this problem and cites [CGMS23]).
 - arXiv: the abstract pages of 2303.09521, 2410.17197, 2407.19026 (two

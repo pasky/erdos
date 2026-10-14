@@ -25,14 +25,14 @@ updated: 2026-10-08T01:29:59Z
 If $G$ has minimum degree $\geq (r-\frac{3}{2}-o(1))n$ then $G$ must contain a
 $K_r$.
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 6 October
-2025). $G$ is $r$-partite with $n$ vertices in each of its $r$ parts, the
-$G_r(n)$ of [BES75b] ("an $r$-chromatic graph with $n$ vertices in each colour
-class", p. 97, where $r$-chromatic means $r$-partite, as the introduction's
-definition of $K_r(t)$ glosses it), and a $K_r$ in such a graph has one vertex
-in each part. Write $f_r(n)$ for the largest minimum degree of a $K_r$-free
-$G_r(n)$ (the paper's $f_r(n)$, "the smallest integer so that every $G_r(n)$
-with $\delta(G_r(n))>f_r(n)$ contains a $K_r$", p. 98) and
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited 6
+October 2025). $G$ is $r$-partite with $n$ vertices in each of its $r$ parts,
+the $G_r(n)$ of [BES75b] ("an $r$-chromatic graph with $n$ vertices in each
+colour class", p. 97, where $r$-chromatic means $r$-partite, as the
+introduction's definition of $K_r(t)$ glosses it), and a $K_r$ in such a graph
+has one vertex in each part. Write $f_r(n)$ for the largest minimum degree of a
+$K_r$-free $G_r(n)$ (the paper's $f_r(n)$, "the smallest integer so that every
+$G_r(n)$ with $\delta(G_r(n))>f_r(n)$ contains a $K_r$", p. 98) and
 $c_r=\lim_{n\to\infty}f_r(n)/n$. The $o(1)$ of the statement is read on this
 page as a quantity tending to zero as $r\to\infty$, the form of the 1975 paper's
 conjecture $\lim_{r\to\infty}(c_r-r+2)=\frac12$ ([BES75b], abstract and p. 98;
@@ -44,22 +44,23 @@ p. 12;
 [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p12|result page]]).
 Under either reading of the $o(1)$, as $r\to\infty$ or as $n\to\infty$ for fixed
 $r$, the statement follows from the exact threshold recorded below, and so does
-the survey's form without the $o(1)$. The site's header lists the key [BES75]
-beside [Er75]; in the site's reference table BES75 is Burr, Erdős and Spencer's
-paper on Ramsey numbers for multiple copies of graphs (the source of Problem
-1015), while the commentary cites [BES75b], the Bollobás--Erdős--Szemerédi
-paper. The first key is recorded here as a slip on the site's side; that Ramsey
-paper is not cited on this page.
+the survey's form without the $o(1)$. The erdosproblems.com header lists the key
+[BES75] beside [Er75]; in the erdosproblems.com reference table BES75 is Burr,
+Erdős and Spencer's paper on Ramsey numbers for multiple copies of graphs (the
+source of Problem 1015), while the commentary cites [BES75b], the
+Bollobás--Erdős--Szemerédi paper. The first key is recorded here as a slip on
+erdosproblems.com's side; that Ramsey paper is not cited on this page.
 
-**Status.** Proved, the site's label. The site's status-defining source is
-Haxell [Ha01] (Combin. Probab. Comput. 10 (2001), 345--347; refereed), which is
-not held. Its abstract, on the publisher's article page, states a list-coloring
-theorem: with lists of size $2k$ and each color on the lists of at most $k$
-neighbors of any vertex, a proper coloring from the lists exists, "a weak
-version of a conjecture of Reed". The paper of Haxell and Szabó attests its
-bearing on this problem: "This was improved to $\Delta_r\ge1/2$ in [9], which
-settled the conjecture of [7] and established $\mu=1/2$" ([HaSz06], p. 2; [9] is
-[Ha01] and [7] is [BES75b]). The stronger result is
+**Status.** Proved, the erdosproblems.com label. erdosproblems.com's
+status-defining source is Haxell [Ha01] (Combin. Probab. Comput. 10 (2001),
+345--347; refereed), which is not held. Its abstract, on the publisher's article
+page, states a list-coloring theorem: with lists of size $2k$ and each color on
+the lists of at most $k$ neighbors of any vertex, a proper coloring from the
+lists exists, "a weak version of a conjecture of Reed". The paper of Haxell and
+Szabó attests its bearing on this problem: "This was improved to
+$\Delta_r\ge1/2$ in [9], which settled the conjecture of [7] and established
+$\mu=1/2$" ([HaSz06], p. 2; [9] is [Ha01] and [7] is [BES75b]). The stronger
+result is
 [[../library/extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_1_1|Theorem 1.1]]
 of [HaSz06] (Combin. Probab. Comput. 15 (2006), 193--211; refereed; paged by the
 authors' preprint). It states that for every integer $n\ge1$ and odd $r\ge2$,
@@ -75,21 +76,22 @@ $$
 
 for every $r\ge3$ and $n\ge1$. Every $G_r(n)$ with minimum degree above this
 value contains a $K_r$, and some $G_r(n)$ with exactly this minimum degree does
-not. This is the sharp threshold the site prints. Since $f_r(n)<(r-\frac32)n$
-for every $r\ge3$, minimum degree at least $(r-\frac32)n$ forces a $K_r$. Also
-$c_r=r-\frac32-\frac1{2(r-2)}$ for odd $r$ and $r-\frac32-\frac1{2(r-1)}$ for
-even $r$, so $\lim_{r\to\infty}(c_r-r+2)=\frac12$, which is the 1975 conjecture.
-The claim pages record Haxell's note
+not. This is the sharp threshold erdosproblems.com prints. Since
+$f_r(n)<(r-\frac32)n$ for every $r\ge3$, minimum degree at least $(r-\frac32)n$
+forces a $K_r$. Also $c_r=r-\frac32-\frac1{2(r-2)}$ for odd $r$ and
+$r-\frac32-\frac1{2(r-1)}$ for even $r$, so
+$\lim_{r\to\infty}(c_r-r+2)=\frac12$, which is the 1975 conjecture. The claim
+pages record Haxell's note
 ([[problems/extremal_graph_theory/E1078/claims/2001_07_01_haxell|Haxell 2001]])
 and the Haxell--Szabó theorem
 ([[problems/extremal_graph_theory/E1078/claims/2006_01_01_haxell_szabo|Haxell and Szabó 2006]]).
-Both are refereed and both are named by the site.
+Both are refereed and both are named by erdosproblems.com.
 
 **Source.** [erdosproblems.com/1078](https://www.erdosproblems.com/1078),
-accessed 2026-09-18: the problem page (PROVED, glossed by the site as an
-affirmative solution; last edited 6 October 2025; source keys [BES75], [Er75];
-commentary citing [BES75b], [Ha01] and [HaSz06]), its empty discussion thread
-and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1078,
+accessed 2026-09-18: the problem page (PROVED, glossed by erdosproblems.com as
+an affirmative solution; last edited 6 October 2025; source keys [BES75],
+[Er75]; commentary citing [BES75b], [Ha01] and [HaSz06]), its empty discussion
+thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1078,
 https://www.erdosproblems.com/1078, accessed 2026-09-18.
 
 **References.**
@@ -140,16 +142,16 @@ https://www.erdosproblems.com/1078, accessed 2026-09-18.
 **Formalization.** None. No file `ErdosProblems/1078.lean` exists in
 google-deepmind/formal-conjectures (main on 2026-09-18; its directory
 `FormalConjectures/ErdosProblems/`, 673 entries, and its recursive tree have
-none); the site's page shows "Formalised statement? No"; the community
-database (teorth/erdosproblems, `data/problems.yaml`, 2026-09-18) records
-the problem proved (last update 6 October 2025),
-unformalized, with no formal proof.
+none); the erdosproblems.com page shows "Formalised statement? No"; the
+community database (teorth/erdosproblems, `data/problems.yaml`, 2026-09-18)
+records the problem proved (last update 6 October 2025), unformalized, with no
+formal proof.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED; last edited 6 October 2025. The commentary, in the corpus's
-words: the site attributes the conjecture to [BES75b], which also shows
+words: erdosproblems.com attributes the conjecture to [BES75b], which also shows
 that the constant $r-\frac32$ cannot be lowered; it credits the proof to
 Haxell's note [Ha01] and the exact minimum-degree threshold
 $(r-1)n-\lceil\frac{sn}{2s-1}\rceil$, $s=\lfloor r/2\rfloor$, to Haxell and
@@ -184,8 +186,9 @@ $K(r)$. We know that $r-\frac32$ cannot be replaced by $r-\frac32-\varepsilon$
 but we cannot prove it even if $r-\frac32$ is replaced by $r-1-\varepsilon$",
 and announces the paper on these questions for Discrete Mathematics. The two
 1975 statements differ: the paper conjectures the limit of $c_r-r+2$, the survey
-a threshold for each $r$ with no $o(1)$; the site's statement, with its $o(1)$,
-is the paper's form, and the survey's form is also true, as shown next.
+a threshold for each $r$ with no $o(1)$; the erdosproblems.com statement, with
+its $o(1)$, is the paper's form, and the survey's form is also true, as shown
+next.
 
 **The threshold (Haxell and Szabó, with an authored complementation).**
 [[../library/extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_1_1|Theorem 1.1]]
@@ -198,8 +201,8 @@ each $V_i$; $\Delta(r,n)$ is the largest integer such that every such graph with
 $|V_i|=n$ for each $i$ and maximum degree less than $\Delta(r,n)$ has an
 independent transversal; $\Delta_r=\lim_{n\to\infty}\Delta(r,n)/n$; edges inside
 the parts are irrelevant to these functions, so only $r$-partite graphs need be
-considered. The deduction to the site's threshold, this page's own and named as
-such:
+considered. The deduction to erdosproblems.com's threshold, this page's own and
+named as such:
 
 Let $G$ be a $G_r(n)$ with parts $V_1,\dots,V_r$ and let $H$ be its complement
 inside the complete $r$-partite graph: $u\in V_i$ and $v\in V_j$ with $i\ne j$
@@ -226,10 +229,10 @@ $$
 
 for every $r\ge3$ and $n\ge1$: every $r$-partite graph with $n$ vertices in
 each part and minimum degree greater than this contains a $K_r$, and some such
-graph with minimum degree equal to it does not. This is the site's display.
-(For $r=2$ the same formula gives $f_2(n)=0$: any edge is a $K_2$.) Two checks,
-this page's own: $r=3$ gives $f_3(n)=n$, so minimum degree above $n$ forces a
-triangle, which is Graver's case of the Oxford conjecture; $r=4$ gives
+graph with minimum degree equal to it does not. This is the erdosproblems.com
+display. (For $r=2$ the same formula gives $f_2(n)=0$: any edge is a $K_2$.) Two
+checks, this page's own: $r=3$ gives $f_3(n)=n$, so minimum degree above $n$
+forces a triangle, which is Graver's case of the Oxford conjecture; $r=4$ gives
 $f_4(n)=3n-\lceil2n/3\rceil$, so $c_4=\frac73=2+\frac13$, above the 1975 bound
 $2+\frac19$ and equal to $3-\Delta_4$ with Jin's $\Delta_4=\frac23$ as [HaSz06]
 quotes it.
@@ -240,8 +243,8 @@ $f_r(n)\le\bigl(r-1-\frac s{2s-1}\bigr)n$, and $r-1-\frac s{2s-1}$ equals
 $r-\frac32-\frac1{2(r-2)}$ for odd $r$ and $r-\frac32-\frac1{2(r-1)}$ for even
 $r$, both strictly below $r-\frac32$. So for every $r\ge3$ and $n\ge1$, minimum
 degree at least $(r-\frac32)n$ forces a $K_r$, the survey's conjecture as
-printed; a fortiori the site's statement holds, whether its $o(1)$ is a quantity
-tending to zero as $r\to\infty$ or as $n\to\infty$ (any
+printed; a fortiori the erdosproblems.com statement holds, whether its $o(1)$ is
+a quantity tending to zero as $r\to\infty$ or as $n\to\infty$ (any
 $\varepsilon<\frac1{2(r-1)}$ may replace it). Dividing by $n$,
 $c_r=r-\frac32-\frac1{2(r-2)}$ for odd $r$ and $c_r=r-\frac32-\frac1{2(r-1)}$
 for even $r$: the lower bound $c_r\ge r-2+\frac12-\frac1{2(r-2)}$ stated on
@@ -282,14 +285,15 @@ introduction quotes the upper bound as $\frac12+\frac1{r-2}$, the bound the
 paper's construction proves, its printed minimum degree on p. 105 being
 $(r-2+\frac12-\frac1{r-2})n$; the $\frac1{2(r-2)}$ form is the statement of
 p. 98.) [Ha01] is therefore the paper that proved $\mu=\frac12$, that is
-$c_r=r-\frac32+o(1)$ as $r\to\infty$, the site's statement in the 1975 paper's
-asymptotic form; the site's "was proved by Haxell" rests on this attestation and
-on the site's own account, the note itself being unheld.
+$c_r=r-\frac32+o(1)$ as $r\to\infty$, the erdosproblems.com statement in the
+1975 paper's asymptotic form; erdosproblems.com's "was proved by Haxell" rests
+on this attestation and on erdosproblems.com's own account, the note itself
+being unheld.
 
 **Search scope.** None of the routes below found a dispute of
 Theorem 1.1, a different value of the threshold, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and tree at main (no file 1078); the
   community database entry.
 - The primary sources: [BES75b] printed pp. 97--98, 104--106 and p. 107 (the
@@ -347,7 +351,7 @@ Graver's proof for $r=3$ are known only as [BES75b] reports them.
 - [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p12|Erdős 1975, p. 12]]:
   the conjecture in the survey's form, without $o(1)$, also now a theorem.
 - [Ha01] (2001, refereed; not held): $\Delta_r\ge1/2$, hence $\mu=1/2$, as
-  [HaSz06] attests; the site's status-defining source.
+  [HaSz06] attests; erdosproblems.com's status-defining source.
 - [[../library/extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_1_1|Haxell--Szabó, Theorem 1.1]]
   (2006, refereed): $\Delta(r,n)$ exact for odd $r$ and for the even number
   $r-1$; with the complementation above,

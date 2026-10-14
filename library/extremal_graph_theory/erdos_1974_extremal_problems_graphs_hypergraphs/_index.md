@@ -101,16 +101,16 @@ $G_3(6;4)$." (p. 81). $G_3(k;l)$ denotes a 3-graph with $k$ vertices and $l$
 triples.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0500/_index|#500]]: the Turán
-paragraph of p. 76 = PDF p. 2 (page image), the site's [Er74c] source
-(the site cites p. 81, where the sentence comparing the $G_3(4;3)$ problem
-with "Turán's problem on $f(n;K_3(4))$" stands); the $r>2$ existence of
+paragraph of p. 76 = PDF p. 2 (page image), erdosproblems.com's [Er74c] source
+(erdosproblems.com cites p. 81, where the sentence comparing the $G_3(4;3)$
+problem with "Turán's problem on $f(n;K_3(4))$" stands); the $r>2$ existence of
 $c_{r,t}$ credited to Katona, Nemetz and Simonovits;
-[[../wiki/problems/extremal_graph_theory/E0712/_index|#712]]: the same paragraph, the
-site's [Er74c, p. 76] source, with "the value of $c_{r,t}$ is unknown for
-every $r>2$, $t>r$";
+[[../wiki/problems/extremal_graph_theory/E0712/_index|#712]]: the same
+paragraph, erdosproblems.com's [Er74c, p. 76] source, with "the value of
+$c_{r,t}$ is unknown for every $r>2$, $t>r$";
 [[../wiki/problems/extremal_graph_theory/E0794/_index|#794]]: the sentence on p. 81 = PDF
 p. 7 (page image) that the determination of $\lim f(n;G_3(4;3))/n^3$ "seems
-to be very difficult", the corrected question behind the site's literal
+to be very difficult", the corrected question behind erdosproblems.com's literal
 statement, five years after the 1969 conjecture;
 [[../wiki/problems/extremal_graph_theory/E1157/_index|#1157]]: pp. 80--81, the
 Brown--Erdős--Sós program as Erdős stated it in 1974: display (9), the
@@ -119,28 +119,28 @@ the Theorem on $G_3(5;3)$ or $G_3(6;4)$;
 [[../wiki/problems/extremal_graph_theory/E0572/_index|#572]]: display (5),
 p. 78, f(n, C_{2k}) < c_1 n^{1+1/k}, with Erdős's account that he never
 published his proof, that Bondy and Simonovits have proved it, and that
-sharpness "has been proved only for k = 2 and k = 3 (Singleton)", the site's
-[Er74c, p. 78] source
+sharpness "has been proved only for k = 2 and k = 3 (Singleton)",
+erdosproblems.com's [Er74c, p. 78] source
 ([[extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/equation_5|equation_5]]);
 [[../wiki/problems/extremal_graph_theory/E0576/_index|#576]]: display (7), p. 78,
 f(n;G) < c n^{8/5} for the skeleton of a cube, "We could not decide whether (7)
-is best possible", the site's [Er74c, p. 78] source
+is best possible", erdosproblems.com's [Er74c, p. 78] source
 ([[extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/equation_7|equation_7]]);
 [[../wiki/problems/set_systems/E1076/_index|#1076]];
 [[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]: display (2),
 p. 77 = PDF p. 3, f(n;K_2(t,t)) < c_1 n^{2-1/t}, with "We conjectured that
-(2) is best possible but this has been proved only for t = 2 and t = 3", the
-site's [Er74c, p. 77] source;
+(2) is best possible but this has been proved only for t = 2 and t = 3",
+erdosproblems.com's [Er74c, p. 77] source;
 [[../wiki/problems/extremal_graph_theory/E0571/_index|#571]]: p. 78 = PDF
 p. 4, the sentences around display (6), where the exponents of (6) are
 conjectured to form a set everywhere dense in (1,2) and are "Probably" always
-rational, the site's [Er74c, p. 78] source;
+rational, erdosproblems.com's [Er74c, p. 78] source;
 [[../wiki/problems/set_systems/E1075/_index|#1075]]: p. 80 = PDF p. 6 (page
 image), the conjecture, begun at the foot of p. 79, that there is an absolute
 constant $c>1/r^r$ such that every $G_r(n;[\frac{n^r}{r^r}(1+\varepsilon)])$
 contains a subgraph $G_r(m;[cm^r])$ with $m=m(n)\to\infty$, after the
 sentence that $\varepsilon n^r$ edges already force a subgraph with at least
-$m^r/r^r$ edges; the site's [Er74c, p. 80] source
+$m^r/r^r$ edges; erdosproblems.com's [Er74c, p. 80] source
 
 **Results.**
 

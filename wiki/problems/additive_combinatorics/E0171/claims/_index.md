@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 171, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0171/claims
@@ -13,7 +13,8 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/additive_combinatorics/E0171/claims/1991_12_01_furstenberg_katznelson|1991_12_01_furstenberg_katznelson]]: Furstenberg and Katznelson's 1991 theorem shows that every dense enough subset
 of a large cube of words over $t$ letters contains a combinatorial line, as
-the problem asks. It is refereed, and the site adopts it as the proof.
+the problem asks. It is refereed, and erdosproblems.com adopts it as the
+proof.
 
 [[problems/additive_combinatorics/E0171/claims/2009_10_20_polymath|2009_10_20_polymath]]: The Polymath project gave a combinatorial proof of the density Hales–Jewett
 theorem in 2009, the first elementary proof and the first with explicit

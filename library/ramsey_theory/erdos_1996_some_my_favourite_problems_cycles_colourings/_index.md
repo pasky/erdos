@@ -18,8 +18,8 @@ updated: 2026-10-08T01:29:58Z
 ***
 
 P. Erdős, *Some of my favourite problems on cycles and colourings*, Tatra Mt.
-Math. Publ. **9** (1996), 7--9. Received 8 September 1994. The site's key
-Er96.
+Math. Publ. **9** (1996), 7--9. Received 8 September 1994. The erdosproblems.com
+key Er96.
 
 **Copy read.** The journal's archive serves the paper as a dvips
 PostScript file, `Full/09/01ERDOS.ps` (dvips 5.58; the file's own creation
@@ -112,37 +112,37 @@ conjecture and item 4's questions are matched to Problems 57 and 84 in the
 Bears on paragraph below. Nothing is proved in the paper and nothing here
 is independently reviewed.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0085/_index|#85]], as the site's source
-Er96: item 5 (p. 8) states the problem in the complementary form $h(n)$, the
-largest minimum degree of a $C_4$-free graph on $n$ vertices (so the page's
-$f(n)=h(n)+1$), with the monotonicity question (4), the bounded-drop version
-(5), the slowly growing $l(n)$ version, and the size $h(n)=(1+o(1))\sqrt n$
-(3). [[../wiki/problems/ramsey_theory/E0552/_index|#552]], as the site's source Er96 for
-the form $R(C_4,S_n)\ge n+\sqrt n-O(1)$ of that page's question: item 5's
-display (6), "$h(n)=n^{1/2}+O(1)$?", of which Erdős writes "Very likely (6) is
-too optimistic."
-[[../wiki/problems/ramsey_theory/E0811/_index|#811]], as the site's source Er96: item 6
-(p. 9) states the Erdős--Tuza balanced-coloring question in general and
-singles out the $6$-coloring of $K(12t+1)$ with every vertex of degree $2t$
-in every color, asking for a rainbow hexagon and a rainbow $K(4)$, together
-with the $5$-color $C_5$ question.
-[[../wiki/problems/graph_coloring/E0057/_index|#57]], as the site's source Er96: item 3
-(p. 7, page image), the conjecture as posed: "Hajnal and I conjectured long
-ago that if $G$ has infinite chromatic number and if $n_1<n_2<\ldots$ is the
-sequence of the sizes of distinct cycles of $G$, then $\sum_i1/n_i=\infty$
-and perhaps even (1) $\varlimsup\sum_{n_i<x}1/x=1/2$", with the remark that
-(1) may be too optimistic and the $\varlimsup$ perhaps only positive; the
-1996 wording sums over all cycle lengths where the problem's statement takes
-the odd ones, and display (1) is recorded as printed (the problem page reads
-it as an upper-density statement).
-[[../wiki/problems/extremal_graph_theory/E0084/_index|#84]], as the site's
-source Er96: item 4 (p. 8, page image), "a problem of Faudree and myself":
-$f(n)$, the number of possible sequences (2) $3\le a_1<\cdots<a_k\le n$ of
-the cycle lengths occurring in graphs of $n$ vertices; the trivial bound
-$f(n)\le2^{n-2}$, strict for $n\ge5$, the easy lower bound $f(n)\ge2^{n/2}$,
-the guess $f(n)^{1/n}\to c$ with $\sqrt2\le c<2$, and the two statements
-they could not prove, $f(n)/2^n\to0$ and $f(n)/2^{n/2}\to\infty$, the
-problem's two questions.
+**Bears on.** [[../wiki/problems/ramsey_theory/E0085/_index|#85]], as the
+erdosproblems.com source Er96: item 5 (p. 8) states the problem in the
+complementary form $h(n)$, the largest minimum degree of a $C_4$-free graph on
+$n$ vertices (so the page's $f(n)=h(n)+1$), with the monotonicity question (4),
+the bounded-drop version (5), the slowly growing $l(n)$ version, and the size
+$h(n)=(1+o(1))\sqrt n$ (3).
+[[../wiki/problems/ramsey_theory/E0552/_index|#552]], as the erdosproblems.com
+source Er96 for the form $R(C_4,S_n)\ge n+\sqrt n-O(1)$ of that page's question:
+item 5's display (6), "$h(n)=n^{1/2}+O(1)$?", of which Erdős writes "Very likely
+(6) is too optimistic." [[../wiki/problems/ramsey_theory/E0811/_index|#811]], as
+the erdosproblems.com source Er96: item 6 (p. 9) states the Erdős--Tuza
+balanced-coloring question in general and singles out the $6$-coloring of
+$K(12t+1)$ with every vertex of degree $2t$ in every color, asking for a rainbow
+hexagon and a rainbow $K(4)$, together with the $5$-color $C_5$ question.
+[[../wiki/problems/graph_coloring/E0057/_index|#57]], as the erdosproblems.com
+source Er96: item 3 (p. 7, page image), the conjecture as posed: "Hajnal and I
+conjectured long ago that if $G$ has infinite chromatic number and if
+$n_1<n_2<\ldots$ is the sequence of the sizes of distinct cycles of $G$, then
+$\sum_i1/n_i=\infty$ and perhaps even (1) $\varlimsup\sum_{n_i<x}1/x=1/2$", with
+the remark that (1) may be too optimistic and the $\varlimsup$ perhaps only
+positive; the 1996 wording sums over all cycle lengths where the problem's
+statement takes the odd ones, and display (1) is recorded as printed (the
+problem page reads it as an upper-density statement).
+[[../wiki/problems/extremal_graph_theory/E0084/_index|#84]], as the
+erdosproblems.com source Er96: item 4 (p. 8, page image), "a problem of Faudree
+and myself": $f(n)$, the number of possible sequences (2)
+$3\le a_1<\cdots<a_k\le n$ of the cycle lengths occurring in graphs of $n$
+vertices; the trivial bound $f(n)\le2^{n-2}$, strict for $n\ge5$, the easy lower
+bound $f(n)\ge2^{n/2}$, the guess $f(n)^{1/n}\to c$ with $\sqrt2\le c<2$, and
+the two statements they could not prove, $f(n)/2^n\to0$ and
+$f(n)/2^{n/2}\to\infty$, the problem's two questions.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

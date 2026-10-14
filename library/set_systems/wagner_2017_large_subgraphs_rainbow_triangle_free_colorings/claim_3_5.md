@@ -64,9 +64,9 @@ the bound $\chi(G)\chi(G^c)\ge|V(G)|$ (p. 2).
 
 - [[../wiki/problems/set_systems/E1026/_index|Problem 1026]]: the problem
   asks for the largest sum of a monotone subsequence of $n$ distinct reals.
-  The site's curator calls the weighted Erdős–Szekeres bound implicit in this
-  paper. Claim 3.5 has the form of that bound's weighting step, the product
-  of two parameters of the whole being at least a sum over the blocks of a
-  partition of the products of the blocks' parameters, but it is stated and
+  The erdosproblems.com curator calls the weighted Erdős–Szekeres bound implicit
+  in this paper. Claim 3.5 has the form of that bound's weighting step, the
+  product of two parameters of the whole being at least a sum over the blocks of
+  a partition of the products of the blocks' parameters, but it is stated and
   proved only for chromatic numbers over a Gallai partition; the paper states
   no bound for sequences or weights.

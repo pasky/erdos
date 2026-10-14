@@ -36,18 +36,19 @@ $$
 Is it true that there are infinitely many solutions to $a_1-a_2=b_1-b_2\neq 0$
 with $a_1,a_2\in A$ and $b_1,b_2\in B$?
 
-**Status.** DISPROVED (LEAN), the site's label. The answer is no, by a
-binary-digit counterexample. The site credits it to Ruzsa, and it is recorded on
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. The answer is no, by
+a binary-digit counterexample. erdosproblems.com credits it to Ruzsa, and it is
+recorded on
 [[problems/additive_combinatorics/E0331/claims/2024_06_19_ruzsa|its claim page]]
-with the site's acceptance as its evidence. Erdős and Freud had published the
-same counterexample in 1984 (J. Number Theory 18, 99--109, refereed) without
-crediting Ruzsa. Their publication is recorded on
+with erdosproblems.com's acceptance as its evidence. Erdős and Freud had
+published the same counterexample in 1984 (J. Number Theory 18, 99--109,
+refereed) without crediting Ruzsa. Their publication is recorded on
 [[problems/additive_combinatorics/E0331/claims/1984_02_01_erdos_freud|its own claim page]].
 The label's Lean mark refers to van Doorn's Lean formalization of the
-counterexample. It was posted in the site's discussion thread in January 2026
-and is linked by the formal-conjectures catalog. The Ruzsa page lists it as a
-formalization link. It is third-party Lean, so it gives no `formalized`
-evidence.
+counterexample. It was posted in the erdosproblems.com discussion thread in
+January 2026 and is linked by the formal-conjectures catalog. The Ruzsa page
+lists it as a formalization link. It is third-party Lean, so it gives no
+`formalized` evidence.
 
 **Source.** [erdosproblems.com/331](https://www.erdosproblems.com/331), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #331,

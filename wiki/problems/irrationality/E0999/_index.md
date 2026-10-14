@@ -35,9 +35,9 @@ $$
 \sum_{q\geq 1}\phi(q)\frac{f(q)}{q}=\infty.
 $$
 
-**Status.** Proved. The site's label was PROVED. It credits Koukoulopoulos and
-Maynard's 2019 proof of the Duffin-Schaeffer conjecture, refereed in 2020 and
-recorded on
+**Status.** Proved. The erdosproblems.com label was PROVED. It credits
+Koukoulopoulos and Maynard's 2019 proof of the Duffin-Schaeffer conjecture,
+refereed in 2020 and recorded on
 [[problems/irrationality/E0999/claims/2019_07_10_koukoulopoulos_maynard|its claim page]].
 
 **Source.** [erdosproblems.com/999](https://www.erdosproblems.com/999), accessed
@@ -57,39 +57,40 @@ in formal-conjectures, linked at the commit of 2026-09-21 that added it,
 states the problem for $f:\mathbb{N}\to\mathbb{R}_{\ge 0}$ with the tag
 research solved and a `sorry` in place of the proof, with the easy direction
 and Erdős's special case as separate statements. A third-party Lean proof of
-the site's literal integer-valued statement, `erdos_999` in Boris Alexeev's
-repository, declares itself a formalization of Koukoulopoulos and Maynard's
-result and is linked at a pinned commit on
+erdosproblems.com's literal integer-valued statement, `erdos_999` in Boris
+Alexeev's repository, declares itself a formalization of Koukoulopoulos and
+Maynard's result and is linked at a pinned commit on
 [[problems/irrationality/E0999/claims/2019_07_10_koukoulopoulos_maynard|the claim page]];
 this corpus has not built or audited it, and records no kernel-checked proof
 of its own.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) is the Duffin-Schaeffer
+The erdosproblems.com formulation (accessed 2026-09-04) is the Duffin-Schaeffer
 conjecture of 1941: for almost all $\alpha$, infinitely many reduced
 fractions $p/q$ lie within $f(q)/q$ of $\alpha$ exactly when
-$\sum_q \phi(q) f(q)/q$ diverges. One wording defect: the site writes
+$\sum_q \phi(q) f(q)/q$ diverges. One wording defect: erdosproblems.com writes
 $f:\mathbb{N}\to\mathbb{N}$, while the conjecture and its proof concern
-$f:\mathbb{N}\to\mathbb{R}_{\ge 0}$. The page's standing concerns the site's
-integer-valued statement, the special case of the real-valued conjecture in
-which $f$ takes integer values; the theorem below proves the real-valued
-statement, the conjecture as its sources state it, and with it the site's.
+$f:\mathbb{N}\to\mathbb{R}_{\ge 0}$. The page's standing concerns
+erdosproblems.com's integer-valued statement, the special case of the
+real-valued conjecture in which $f$ takes integer values; the theorem below
+proves the real-valued statement, the conjecture as its sources state it, and
+with it erdosproblems.com's.
 
 **Standing.** Accepted as proved through
 [[problems/irrationality/E0999/claims/2019_07_10_koukoulopoulos_maynard|Koukoulopoulos and Maynard 2019]]:
 their Theorem 1 gives the divergence half for every nonnegative $f$, with the
 problem's strict inequality obtained by applying the theorem to $f/2$; the
 convergence half is the Borel-Cantelli lemma. The paper is refereed (Ann. of
-Math. 192 (2020)) and the site records it as the proof of the full
+Math. 192 (2020)) and erdosproblems.com records it as the proof of the full
 conjecture; this corpus has not reproved it. The
 [[../library/irrationality/koukoulopoulos_2020_duffin_schaeffer_conjecture/_index|source card]]
 digests the paper, whose Theorem 2 also settles Catlin's conjecture, the
 analogue without the coprimality condition.
 
-**Earlier results.** The site's remark says that Erdős proved the special
-case in which $q f(q)$ is bounded, without citing a source for it. In [Er64b],
-whose card is
+**Earlier results.** The erdosproblems.com remark says that Erdős proved the
+special case in which $q f(q)$ is bounded, without citing a source for it. In
+[Er64b], whose card is
 [[../library/discrepancy/erdos_1964_problems_results_diophantine_approximations/_index|erdos_1964_problems_results_diophantine_approximations]],
 printed p. 61 states the case $\varepsilon_q\in\{0,\varepsilon\}$ for
 $|\alpha-p/q|<\varepsilon_q/q^2$ with $(p,q)=1$, that is, $q f(q)$ taking two
@@ -103,11 +104,12 @@ bounded case, $\psi(q)=O(1/q)$, in *On the metric theory of Diophantine
 approximation*, Pacific J. Math. 76 (1978), no. 2, 527-539; the introduction
 of Koukoulopoulos and Maynard's paper records Erdős's result as the first
 significant step toward the conjecture and Vaaler's as its improvement. The
-site's credit to Erdős for the bounded case follows his 1964 announcement.
-Neither paper has a claim page: in the site's integer-valued wording, which
-the page's standing concerns, $q f(q)$ bounded forces $f(q)=0$ for all but
-finitely many $q$, where both sides of the equivalence fail and nothing needs
-proof, so neither result settles an instance of the stated question.
+erdosproblems.com credit to Erdős for the bounded case follows his 1964
+announcement. Neither paper has a claim page: in erdosproblems.com's
+integer-valued wording, which the page's standing concerns, $q f(q)$ bounded
+forces $f(q)=0$ for all but finitely many $q$, where both sides of the
+equivalence fail and nothing needs proof, so neither result settles an instance
+of the stated question.
 
 **Variants.** Not part of the problem: the inhomogeneous question asks, for a
 fixed real shift $\gamma$, whether divergence of $\sum_q \phi(q)\psi(q)/q$

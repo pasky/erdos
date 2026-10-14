@@ -4,7 +4,7 @@ title: Eggleton and Selfridge's runs of five smooth integers
 desc: |
   Eggleton and Selfridge give, for every $\epsilon>0$, infinitely many runs
   $n,\dots,n+4$ of five consecutive integers that are all $n^\epsilon$-smooth.
-  This settles the question and the site's first reading for $k\le5$.
+  This settles the question and erdosproblems.com's first reading for $k\le5$.
 authors:
 - R. B. Eggleton
 - J. L. Selfridge
@@ -29,7 +29,7 @@ updated: 2026-10-07T21:34:29Z
 five consecutive integers $n,n+1,\dots,n+4$ are all $n^\epsilon$-smooth. The
 result is in section 2 of R. B. Eggleton and J. L. Selfridge, *Consecutive
 integers with no large prime factors*, J. Austral. Math. Soc. Ser. A 22
-(1976), no. 1, 1–11, as the site's commentary credits it and as
+(1976), no. 1, 1–11, as the erdosproblems.com commentary credits it and as
 [[../library/arithmetic_functions/balog_1998_strings_consecutive_integers_no_large_prime_factors/_index|Balog and Wooley 1998]]
 report it in their comparison (pp. 267–268): the smoothness bound is
 $\exp(c\log n/\log_3n)$ for runs of two or three and
@@ -42,10 +42,10 @@ section of the paper.
 $n,\dots,n+4$ with each member $n^\epsilon$-smooth. This settles the question
 of [[problems/arithmetic_functions/E0369/_index|Problem 369]] for $k\le5$
 (fix one such $n$; for every $N\ge n+4$ the run lies in $\{1,\dots,N\}$ and is
-$N^\epsilon$-smooth) and the site's first reading for $k\le5$, since each
-member $m\ge n$ is $m^\epsilon$-smooth. Not covered: $k\ge6$, and the site's
-second reading, a run inside $[N/2,N]$ for all large $N$, which infinitely
-many runs give only for infinitely many $N$; the full claims
+$N^\epsilon$-smooth) and erdosproblems.com's first reading for $k\le5$, since
+each member $m\ge n$ is $m^\epsilon$-smooth. Not covered: $k\ge6$, and
+erdosproblems.com's second reading, a run inside $[N/2,N]$ for all large $N$,
+which infinitely many runs give only for infinitely many $N$; the full claims
 [[problems/arithmetic_functions/E0369/claims/2026_03_26_yang|Yang 2026]] and
 [[problems/arithmetic_functions/E0369/claims/2017_10_05_bober_fretwell_martin_wooley|Bober, Fretwell, Martin and Wooley 2020]]
 settle every $k$ in both readings, and the partial claim
@@ -55,9 +55,9 @@ settles every $k$ of the wording and of the first reading.
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: published in J. Austral. Math. Soc. Ser. A, a refereed
-journal (`refereed`). In the problem's commentary, the site's curator credits
-the paper with the runs of five. The curator notes that this sits oddly with
-Erdős and Graham's remark that the problem was open even for $k=2$. The
+journal (`refereed`). In the problem's commentary, the erdosproblems.com curator
+credits the paper with the runs of five. The curator notes that this sits oddly
+with Erdős and Graham's remark that the problem was open even for $k=2$. The
 curator's PROVED (LEAN) label rests on the later results, not on this one, so no
 `reviewed` evidence is listed.
 

@@ -64,5 +64,6 @@ Theorems 1 and 2 and Lemmas 1--3 of the same paper.
   [[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/theorem_a|Theorem A]]
   it gives
   [[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/theorem_4|Theorem 4]],
-  the existence criterion behind the square-denominator case the site's
-  commentary quotes; it says nothing about the greedy algorithm.
+  the existence criterion behind the square-denominator case the
+  erdosproblems.com commentary quotes; it says nothing about the greedy
+  algorithm.

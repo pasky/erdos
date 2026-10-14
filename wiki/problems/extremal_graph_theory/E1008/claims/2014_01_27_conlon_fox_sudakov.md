@@ -81,16 +81,16 @@ Ser. B 121 (2016), 173--196 (Crossref record, 2026-10-07: issued November 2016).
 Its journal text was not compared with the arXiv v2, so the printed statement is
 matched against the preprint only.
 
-The site's curator, Thomas Bloom, labeled the problem proved and credits Conlon,
-Fox and Sudakov [CFS14b] with the first solution. This is the `reviewed`
-evidence, and Bloom took no part in the paper. The credit came after the forum
-comment of 29 September 2025 identified the paper. The proof-claim tab is empty,
-and the community database records the problem proved. The first-solution credit
-is the site's. In the opening of Section 3 of [CFS16], the authors themselves
-describe their theorem as extending the Folkman--Szemerédi result, after Erdős's
-remark that the answer is likely $\Theta(m^{2/3})$ on the strength of Folkman's
-example and a private communication from Szemerédi. No text of that
-communication is located.
+The erdosproblems.com curator, Thomas Bloom, labeled the problem proved and
+credits Conlon, Fox and Sudakov [CFS14b] with the first solution. This is the
+`reviewed` evidence, and Bloom took no part in the paper. The credit came after
+the forum comment of 29 September 2025 identified the paper. The proof-claim tab
+is empty, and the community database records the problem proved. The
+first-solution credit is erdosproblems.com's. In the opening of Section 3 of
+[CFS16], the authors themselves describe their theorem as extending the
+Folkman--Szemerédi result, after Erdős's remark that the answer is likely
+$\Theta(m^{2/3})$ on the strength of Folkman's example and a private
+communication from Szemerédi. No text of that communication is located.
 
 Read depth: claims checked for Theorems 2.1 and 2.3 and Lemma 2.2 of the note
 and for Theorems 3.1 and 3.3 of the 2016 paper. The short proofs were read but
@@ -102,10 +102,10 @@ records the same bound with the larger constant separately.
 **Formalization.** The file `src/v4.29.1/ErdosProblems/Erdos1008.lean` of
 Boris Alexeev's repository plby/lean-proofs (Lean v4.29.1 with Mathlib
 v4.29.1, `import Mathlib` its only import; 673 lines at the pinned commit of
-2026-09-15, linked above), announced in the site's forum on 17 January 2026,
-declares itself a formalization of this result: its header names Conlon, Fox
-and Sudakov, Hunter and ChatGPT as informal authors and the automated prover
-Aristotle and Alexeev as formal authors. Its final theorem
+2026-09-15, linked above), announced in the erdosproblems.com forum on 17
+January 2026, declares itself a formalization of this result: its header names
+Conlon, Fox and Sudakov, Hunter and ChatGPT as informal authors and the
+automated prover Aristotle and Alexeev as formal authors. Its final theorem
 `exists_C4_free_subgraph_with_many_edges` states that every finite simple
 graph $G$ has a set $S'\subseteq E(G)$ no four of whose edges form a
 $4$-cycle (the file's own `is_C4`) with $|S'|\ge\tfrac12|E(G)|^{2/3}$; a

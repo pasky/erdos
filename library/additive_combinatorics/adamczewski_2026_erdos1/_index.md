@@ -63,17 +63,17 @@ FrontierMath Erdős project. The directory slug records that repository
 provenance; it does not attribute the prose or proof to Adamczewski.
 
 **Canonical source.** The ten-page PDF was downloaded 2026-09-05 from the
-[site's public proof link](https://www.erdosproblems.com/static/1-proof.pdf).
-All ten pages were visually inspected. The source presents itself as a prose
-account of the Lean proof it accompanies, leaving out index bookkeeping that
-does not affect the argument. It is preliminary generated prose, not a refereed
-paper. Bloom's
+[erdosproblems.com's public proof
+link](https://www.erdosproblems.com/static/1-proof.pdf). All ten pages were
+visually inspected. The source presents itself as a prose account of the Lean
+proof it accompanies, leaving out index bookkeeping that does not affect the
+argument. It is preliminary generated prose, not a refereed paper. Bloom's
 [proof claim](https://www.erdosproblems.com/forum/thread/1/proof-claims#proof-claim-242),
-submitted 2026-09-03, and the site's DISPROVED (LEAN) status supply the dated
-public record. No notice is printed on any of the file's ten pages, and the
-hosting site's homepage (https://www.erdosproblems.com/, read 2026-10-02) states
-no copyright, license or terms, its /about page returning 404; the term is
-unstated.
+submitted 2026-09-03, and erdosproblems.com's DISPROVED (LEAN) status supply the
+dated public record. No notice is printed on any of the file's ten pages, and
+the hosting site's homepage (https://www.erdosproblems.com/, read 2026-10-02)
+states no copyright, license or terms, its /about page returning 404; the term
+is unstated.
 
 ## Result and proof structure
 
@@ -171,12 +171,12 @@ independent expert refereeing.
 The existing historical references on [[../wiki/problems/additive_combinatorics/E0001/_index|Problem
 1]] remain in place. In particular, the separately filed
 [[additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/_index|Dubroff–Fox–Xu
-note]] records the lower-bound record in the dated site snapshot,
+note]] records the lower-bound record in the dated erdosproblems.com snapshot,
 $N\geq\binom n{\lfloor n/2\rfloor}$ and its
 $\sqrt{2/\pi}\,2^n/\sqrt n$ asymptotic scale. Those historical proofs and
 the other cited constructions are not fully reconstructed or re-reviewed in
-this source unit. The status check covers the dated site snapshot, the public
-proof claim, the pinned repository, and its recorded CI; it is not an
+this source unit. The status check covers the dated erdosproblems.com snapshot,
+the public proof claim, the pinned repository, and its recorded CI; it is not an
 exhaustive priority or novelty search.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0001/_index|#1]]:

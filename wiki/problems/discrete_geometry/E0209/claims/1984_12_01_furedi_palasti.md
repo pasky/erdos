@@ -41,6 +41,6 @@ $9$ were covered later by
 [[problems/discrete_geometry/E0209/claims/2016_04_14_escudero|Escudero's arrangements]].
 
 The result is refereed, published in the Proceedings of the American
-Mathematical Society. The site's curator, T. F. Bloom, marked the problem
-disproved and credits this paper with the cases $d\ge 4$ not divisible by $9$.
-The corpus records no check of the proof.
+Mathematical Society. The erdosproblems.com curator, T. F. Bloom, marked the
+problem disproved and credits this paper with the cases $d\ge 4$ not divisible
+by $9$. The corpus records no check of the proof.

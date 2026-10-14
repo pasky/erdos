@@ -40,7 +40,7 @@ whose removal disconnects it, is a minimal $(u,v)$-separator for any $u,v$ in
 different components of the graph without $T$, so $c(n)\le\mathsf{sep}(n)$,
 where $\mathsf{sep}(n)$ is the largest number of minimal separators of a
 graph on $n$ vertices, and the theorem gives $\limsup_n c(n)^{1/n}\le
-\frac{1+\sqrt5}2$. The site's commentary on
+\frac{1+\sqrt5}2$. The erdosproblems.com commentary on
 [[problems/extremal_graph_theory/E0150/_index|Problem 150]] credits the paper
 with the upper end of the best known interval for $\alpha$. Read depth: the
 statement and its proof (pp. 6--7 of the preprint), with the Main Lemma taken
@@ -55,6 +55,6 @@ $2$; the existence of the limit is not addressed.
 the source's result page.
 
 **Acceptance.** Refereed: the paper is a publication in Combinatorica. The
-site's curator credits the paper in the problem's commentary. The site lists no
-parts, and its label credited Bradač's note for the whole problem, so the credit
-is not listed as reviewed evidence.
+erdosproblems.com curator credits the paper in the problem's commentary.
+erdosproblems.com lists no parts, and its label credited Bradač's note for the
+whole problem, so the credit is not listed as reviewed evidence.

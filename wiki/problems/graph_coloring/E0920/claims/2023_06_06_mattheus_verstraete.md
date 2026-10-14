@@ -5,7 +5,7 @@ desc: |
   Mattheus and Verstraete's bound that $r(4,t)$ is of order at least
   $t^3/(\log t)^4$ gives $K_4$-free graphs on $n$ vertices with chromatic number
   at least a constant times $n^{2/3}/(\log n)^{4/3}$. It is refereed and
-  credited by the site for $k=4$.
+  credited by erdosproblems.com for $k=4$.
 authors:
 - Sam Mattheus
 - Jacques Verstraete
@@ -52,8 +52,8 @@ $$
 f_4(n)\gg\frac{n^{2/3}}{(\log n)^{4/3}},
 $$
 
-the displayed inequality at $k=4$ with $c_4=4/3$. The site's remarks state
-this consequence.
+the displayed inequality at $k=4$ with $c_4=4/3$. The erdosproblems.com remarks
+state this consequence.
 
 **Covers.** The case $k=4$ of the question: $f_4(n)\gg n^{2/3}/(\log n)^{c_4}$
 holds with $c_4=4/3$. The cases $k\ge5$ are the subject of
@@ -63,10 +63,10 @@ holds with $c_4=4/3$. The cases $k\ge5$ are the subject of
 [[problems/ramsey_theory/E0166/claims/2023_06_06_mattheus_verstraete|Mattheus and Verstraete's claim page for Problem 166]].
 
 **Acceptance.** The paper was posted to arXiv on 6 June 2023 and published in
-Annals of Mathematics (2) **199** (2024), no. 2, 919–941. The site's curator,
-Thomas Bloom, marked the problem solved and credits the case $k=4$ to this
-bound, as the site's problem page, last edited 25 July 2026, records. This
-corpus has not reviewed the proof.
+Annals of Mathematics (2) **199** (2024), no. 2, 919–941. The erdosproblems.com
+curator, Thomas Bloom, marked the problem solved and credits the case $k=4$ to
+this bound, as the erdosproblems.com problem page, last edited 25 July 2026,
+records. This corpus has not reviewed the proof.
 
 Third-party Lean formalizations exist in Boris Alexeev's `lean-proofs`
 repository, linked above, with Codex and GPT-5.6 Sol as formal authors.

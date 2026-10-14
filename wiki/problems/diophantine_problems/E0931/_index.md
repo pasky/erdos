@@ -67,9 +67,9 @@ https://www.erdosproblems.com/931.
 ## Current assessment
 
 No current assessment is recorded. The status above is imported from the dated
-site record. The notes below record author-recorded transfers from research
-folders and are not independently reviewed. This page records no current
-literature search or independent assessment of proof coverage.
+erdosproblems.com record. The notes below record author-recorded transfers from
+research folders and are not independently reviewed. This page records no
+current literature search or independent assessment of proof coverage.
 
 ## Known Results
 

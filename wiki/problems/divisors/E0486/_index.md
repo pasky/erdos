@@ -38,15 +38,15 @@ $$
 
 exists?
 
-**Status.** The site's label was OPEN (2026-10-06). The derived standing departs
-from it: the problem is claimed as disproved. The reason is a 2026 manuscript of
-Wang, produced with GPT-5.6 Sol. It claims a disproof by a fixed delayed
-congruence system whose survivor set has no logarithmic density. The manuscript
-is a pending full claim on its
+**Status.** The erdosproblems.com label was OPEN (2026-10-06). The derived
+standing departs from it: the problem is claimed as disproved. The reason is a
+2026 manuscript of Wang, produced with GPT-5.6 Sol. It claims a disproof by a
+fixed delayed congruence system whose survivor set has no logarithmic density.
+The manuscript is a pending full claim on its
 [[problems/divisors/E0486/claims/2026_07_16_wang|claim page]]. It has no
-refereed publication, site acceptance or review by a named reviewer. The case
-$X_n=\{0\}$, which the site's remark credits to Davenport and Erdős, is an
-accepted partial claim on its
+refereed publication, erdosproblems.com acceptance or review by a named
+reviewer. The case $X_n=\{0\}$, which the erdosproblems.com remark credits to
+Davenport and Erdős, is an accepted partial claim on its
 [[problems/divisors/E0486/claims/1936_01_01_davenport_erdos|claim page]].
 
 **Source.** [erdosproblems.com/486](https://www.erdosproblems.com/486), accessed
@@ -79,22 +79,22 @@ formal-conjectures catalog links a formal proof and does not referee it.
 
 ## Current assessment
 
-The site labeled the problem OPEN (2026-10-06; commentary last edited 8 April
-2026), and the standing follows the claim pages. The outstanding claim is
+Bloom's catalog labeled the problem OPEN (2026-10-06; commentary last edited 8
+April 2026), and the standing follows the claim pages. The outstanding claim is
 [[../library/integer_sequences/wang_2026_proposed_solution_erdos_problem_486/_index|Wang's 2026 manuscript]],
 titled a proposed solution, whose Theorem 1.1 constructs fixed infinite $A$
 and fixed $X_n$ for which the logarithmic averages of the survivor set $B$
 have liminf at most $177/200$ and limsup at least $49/50$, so that $B$ has no
 logarithmic density; if correct, this disproves the exact question above. The
-claim was posted to the site's proof-claims tab on 16 July 2026 with a Lean
-development following on 17 July; the curator wrote that they had not checked
-the proof and would wait for a formalized version, a forum commenter reported
-a kernel replay of the development on 2 August 2026, and formal-conjectures
-has linked two formal proofs since 18 September 2026. None of these is a
-refereed publication, a site acceptance or a review by a named reviewer, and
-no build or audit of any of the Lean developments by this corpus is recorded,
-so the claim stays `claimed` and the problem's standing is `claimed`,
-`disproved`, as the
+claim was posted to the erdosproblems.com proof-claims tab on 16 July 2026 with
+a Lean development following on 17 July; the curator wrote that they had not
+checked the proof and would wait for a formalized version, a forum commenter
+reported a kernel replay of the development on 2 August 2026, and
+formal-conjectures has linked two formal proofs since 18 September 2026. None of
+these is a refereed publication, an erdosproblems.com acceptance or a review by
+a named reviewer, and no build or audit of any of the Lean developments by this
+corpus is recorded, so the claim stays `claimed` and the problem's standing is
+`claimed`, `disproved`, as the
 [[problems/divisors/E0486/claims/2026_07_16_wang|claim page]] records.
 
 The positive case $X_n=\{0\}$ for all $n\in A$, in which $B$ is the set of

@@ -55,7 +55,7 @@ ideas, for developing and auditing the $L^1$ transport and localization
 argument, for reviewing the proof and for revising the exposition, and
 that "The author independently checked the arguments and calculations
 and assumes full responsibility for all mathematical claims"; the system
-is not named here. The site's proof-claim note by the author says the
+is not named here. The erdosproblems.com proof-claim note by the author says the
 document was posted in a preliminary form ahead of the preprint.
 Standing in this corpus: claimed, unrefereed, unreviewed.
 
@@ -76,7 +76,7 @@ $$
 over sequences $X$ of distinct points (p. 1--2). These are the constants
 $\Lambda_r$, $\lambda_r$, $\mu_r$ of
 [[analysis/debruijn_erdos_1949_sequences_points_circle/_index|de Bruijn and Erdős 1949]]
-and of the site's Problem 1221, restricted to sequences of distinct
+and of erdosproblems.com's Problem 1221, restricted to sequences of distinct
 points. The paper restates the 1949 conjecture as $\bar A_r-r\to\infty$,
 $r-\underline A_r\to\infty$ and $r(\mu_r-1)\to\infty$ (p. 2), which is the
 mean-normalized reading of the note's Section 6 wording, and notes (p. 3)
@@ -132,19 +132,19 @@ turns into a contradiction for large $r$.
 
 Theorem 1.1 addresses the mean-normalized reading of the three-part
 question, which is the only nontrivial reading of its first two parts
-(the site's literal $r(\Lambda_r-1)$ is trivially unbounded and its
+(erdosproblems.com's literal $r(\Lambda_r-1)$ is trivially unbounded and its
 literal $r(1-\lambda_r)$ tends to $-\infty$; see the
 [[analysis/debruijn_erdos_1949_sequences_points_circle/conjecture_p17|conjecture page]]).
-Its third part is the site's third part restricted to sequences of
+Its third part is erdosproblems.com's third part restricted to sequences of
 distinct points. Two fidelity points are recorded on the result page: the
 theorem's infimum and supremum run over sequences of distinct points,
-while neither the site's wording nor the 1949 note's Section 1 excludes
-coincident points, and whether the constants agree over the two families
-is not settled in the sources read; and the paper's constants $c$, $r_0$
-are unspecified. The site showed the problem OPEN with this as its one
-registered proof claim, the community database keeps the entry open, and the
-two site comments on the claim (10 September 2026) discuss the speed of
-posting and the attribution of the AI's role, not the mathematics. The
+while neither the erdosproblems.com wording nor the 1949 note's Section 1
+excludes coincident points, and whether the constants agree over the two
+families is not settled in the sources read; and the paper's constants $c$,
+$r_0$ are unspecified. erdosproblems.com showed the problem OPEN with this as
+its one registered proof claim, the community database keeps the entry open, and
+the two erdosproblems.com comments on the claim (10 September 2026) discuss the
+speed of posting and the attribution of the AI's role, not the mathematics. The
 preprint therefore does not change the problem's status here.
 
 **Bears on.** [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: a claimed proof of

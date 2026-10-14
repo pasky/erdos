@@ -50,8 +50,9 @@ Vaughan's paper (its [45]); neither held.
 
 ## Bears on
 
-- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: the site's Vaughan bound,
-  "the number of exceptions in $[1,x]$ is $\le x\exp(-c(\log x)^{2/3})$",
-  is the case $m=4$, $k=3$; a first-hand statement of the same bound with
-  explicit dependence on $m$ is Pomerance and Weingartner's
+- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]:
+  erdosproblems.com's Vaughan bound, "the number of exceptions in $[1,x]$ is
+  $\le x\exp(-c(\log x)^{2/3})$", is the case $m=4$, $k=3$; a first-hand
+  statement of the same bound with explicit dependence on $m$ is Pomerance and
+  Weingartner's
   [[unit_fractions/pomerance_2025_exceptions_erdos_straus_schinzel/theorem_1_3|Theorem 1.3]].

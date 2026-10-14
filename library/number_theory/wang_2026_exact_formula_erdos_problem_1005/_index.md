@@ -5,11 +5,11 @@ desc: |
   Problem 1005 function equals van Doorn's upper bound floor(n/4) + d, with
   d = 1, 2, 2, 4 for n = 0, 1, 2, 3 mod 4, for all sufficiently large n and,
   with a computer verification, its exact value for every n >= 4, the bound
-  failing only at fifteen listed n up to 91; a proof claim on the site's tab,
-  recorded as a lead, not refereed.
+  failing only at fifteen listed n up to 91; a proof claim on the
+  erdosproblems.com tab, recorded as a lead, not refereed.
 license: reserved
 created: 2026-09-18T16:10:00Z
-updated: 2026-10-08T15:27:45Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # number_theory/wang_2026_exact_formula_erdos_problem_1005
@@ -19,8 +19,8 @@ updated: 2026-10-08T15:27:45Z
 [[number_theory/wang_2026_exact_formula_erdos_problem_1005/theorem_1_2|theorem_1_2]]: The claimed main theorem of the 2026 Wang-Xie-Zhao preprint: for all
 sufficiently large n the Problem 1005 function equals van Doorn's upper
 bound U(n), which is m + 1, m + 2, m + 2, m + 4 for n = 4m + 0, 1, 2, 3; an
-AI-assisted preprint and a proof claim on the site's tab, compiled at
-statement depth only.
+AI-assisted preprint and a proof claim on the erdosproblems.com tab, compiled
+at statement depth only.
 
 [[number_theory/wang_2026_exact_formula_erdos_problem_1005/theorem_1_3|theorem_1_3]]: The claimed computer-assisted theorem of the 2026 Wang-Xie-Zhao preprint:
 for every n >= 4 the Problem 1005 function equals van Doorn's upper bound
@@ -33,11 +33,12 @@ Yanmohan Wang, Mingxu Xie and Ziyuan Zhao, *An exact formula for Erdős'
 problem 1005*, arXiv:2608.15681v1 [math.NT] (16 August 2026), 9 pages. The
 abstract page lists one version and no journal reference;
 no journal record was found (Crossref bibliographic query, 2026-09-18);
-Semantic Scholar lists no citing record. A preprint, not cited by the site's
-Problem 1005 page, which carries the first author's full-proof claim on its
-proof-claims tab (submitted 28 July 2026, before the arXiv posting, with the
-note that the proposed proof "has not yet been peer reviewed" and, in the
-tab's summary, that the argument "does not determine $n_0$").
+Semantic Scholar lists no citing record. A preprint, not cited by
+erdosproblems.com's Problem 1005 page, which carries the first author's
+full-proof claim on its proof-claims tab (submitted 28 July 2026, before the
+arXiv posting, with the note that the proposed proof "has not yet been peer
+reviewed" and, in the tab's summary, that the argument "does not determine
+$n_0$").
 
 The copy read for this card is the arXiv PDF of version 1 (9 pages, complete
 text layer; 350,292 bytes), read on the rendered page image of p. 1 and in
@@ -120,7 +121,7 @@ $f(n)\le\lfloor n/4\rfloor+d$ is attained for all sufficiently large $n$
 (Theorem 1.2) and, with a finite computation, a claimed exact value of $f(n)$
 for every $n\ge4$, the bound being attained except at fifteen listed $n\le91$
 (Theorem 1.3); an unrefereed AI-assisted preprint and a proof claim on the
-site's tab, not a status source.
+erdosproblems.com tab, not a status source.
 
 **Results.**
 

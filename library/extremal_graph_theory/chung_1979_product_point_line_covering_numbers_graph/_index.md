@@ -6,8 +6,8 @@ desc: |
   proving the minimum n-1 with equality only for stars and the maximum
   (n^2-1)/2 for n odd, attained only by K_n, and (n^2-4)/2 for n even,
   attained only by K_4 when n = 4 and otherwise by two disjoint odd
-  cliques, and extends the bounds to r-uniform hypergraphs; the site's
-  source key for Problem 581, which it does not mention.
+  cliques, and extends the bounds to r-uniform hypergraphs; the
+  erdosproblems.com source key for Problem 581, which it does not mention.
 license: reserved
 created: 2026-09-19T02:00:00Z
 updated: 2026-10-08T15:15:59Z
@@ -33,8 +33,8 @@ F. R. K. Chung, P. Erdős and R. L. Graham, *On the product of the point and
 line covering numbers of a graph*, in: Second International Conference on
 Combinatorial Mathematics (New York, 1978), Ann. New York Acad. Sci. **319**
 (1979), 597--602, doi:10.1111/j.1749-6632.1979.tb32840.x (Crossref record
-read 2026-10-07). The site's reference key [CEG79] for Problem 581 names
-this paper; the Rényi archive's index lists it as `1979-16.pdf`.
+read 2026-10-07). The erdosproblems.com reference key [CEG79] for Problem 581
+names this paper; the Rényi archive's index lists it as `1979-16.pdf`.
 
 The copy read for this card is the Rényi archive's OmniPage scan of the
 typeset proceedings pages: six pages, printed pp. 597--602 = PDF pp. 1--6
@@ -94,22 +94,22 @@ reviewed.
 
 ## Compiled scope
 
-The paper is compiled as the site's named source for Problem 581 and read
-whole for that purpose. Its two theorems have result pages,
+The paper is compiled as erdosproblems.com's named source for Problem 581 and
+read whole for that purpose. Its two theorems have result pages,
 [[extremal_graph_theory/chung_1979_product_point_line_covering_numbers_graph/theorem_1|Theorem 1]]
 and
 [[extremal_graph_theory/chung_1979_product_point_line_covering_numbers_graph/theorem_2|Theorem 2]],
 each at claims checked.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0581/_index|#581]]: the site's
-source key; neither theorem bears on the problem. The paper contains no
-statement about triangle-free graphs, no function of the number of edges
-and no question about bipartite subgraphs:
-all six pages, read on the page images, concern the product
-$\alpha_0(G)\alpha_1(G)$ of the point and line covering numbers and its
-hypergraph analog. The site's attribution of the problem to this paper is
-therefore not supported by the paper's text; the problem's own page records
-where the triangle-free question is attested in other sources.
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0581/_index|#581]]: the
+erdosproblems.com source key; neither theorem bears on the problem. The paper
+contains no statement about triangle-free graphs, no function of the number of
+edges and no question about bipartite subgraphs: all six pages, read on the page
+images, concern the product $\alpha_0(G)\alpha_1(G)$ of the point and line
+covering numbers and its hypergraph analog. The erdosproblems.com attribution of
+the problem to this paper is therefore not supported by the paper's text; the
+problem's own page records where the triangle-free question is attested in other
+sources.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

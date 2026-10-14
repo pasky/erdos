@@ -23,8 +23,8 @@ an additive basis of fixed order.
 P. Erdős, “On the arithmetical density of the sum of two sequences one of which
 forms a basis for the integers,” Acta Arithmetica 1 (1935), 197–200; DOI
 [10.4064/aa-1-2-197-200](https://doi.org/10.4064/aa-1-2-197-200). The archive and
-site key is Er36c and labels the scan 1936, while the printed paper records
-“Received 11 March, 1935.”
+erdosproblems.com key is Er36c and labels the scan 1936, while the printed paper
+records “Received 11 March, 1935.”
 
 The four-page Renyi scan at
 <https://users.renyi.hu/~p_erdos/1936-06.pdf> is the canonical local version:

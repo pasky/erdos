@@ -31,8 +31,8 @@ maximum degree four*, Electron. J. Combin. 25 (2018), no. 3, Paper P3.31, 24
 pp.; DOI 10.37236/7016. The title page prints "Submitted: May 11, 2017;
 Accepted: Aug 07, 2018; Published: Aug 24, 2018" and "The authors. Released
 under the CC BY-ND license (International 4.0)"; the running footer reads
-"the electronic journal of combinatorics 25(3) (2018), #P3.31". The site's
-key HSY18 on Problem 149.
+"the electronic journal of combinatorics 25(3) (2018), #P3.31". The
+erdosproblems.com key HSY18 on Problem 149.
 
 **Edition read.** The copy read for this card
 is the journal's published PDF (pdfTeX, 24 A4 pages numbered 1--24, a clean
@@ -125,8 +125,8 @@ case is the problem's bound $\frac54\Delta^2$ and whose odd case,
 $\frac54\Delta^2-\frac12\Delta+\frac14$, is below it, so the conjecture as
 printed implies the problem's inequality;
 [[extremal_graph_theory/huang_2018_strong_chromatic_index_graphs_maximum_degree_four/theorem_2|Theorem 2]]
-(p. 2) is the source of the site's "$21$ for $\Delta\le4$ (Huang, Santana
-and Yu)", one color above the problem's $\frac54\cdot16=20$ at
+(p. 2) is the source of erdosproblems.com's "$21$ for $\Delta\le4$ (Huang,
+Santana and Yu)", one color above the problem's $\frac54\cdot16=20$ at
 $\Delta=4$, so it does not answer the problem there; p. 2 also attests
 Horák's $23$ (1990) and Cranston's $22$ (2006).
 

@@ -65,7 +65,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0809/_index|Problem 809]]: the problem in the paper's
-  words, with the site's $\chi_S$ written as $f$; proved for $k\ge4$ by
+  words, with erdosproblems.com's $\chi_S$ written as $f$; proved for $k\ge4$ by
   Theorem 1.2. The paper proves nothing for $k=3$, which is proved by two
   accepted full claims on Problem 809, each with formalized evidence:
   [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab]]'s

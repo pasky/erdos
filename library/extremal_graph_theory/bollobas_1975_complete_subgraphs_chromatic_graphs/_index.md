@@ -54,7 +54,7 @@ contains at least δ_ε n^r copies of K_r, with δ_ε > 0 depending only on ε.
 B. Bollobás, P. Erdős and E. Szemerédi, *On complete subgraphs of
 $r$-chromatic graphs*, Discrete Math. 13 (1975), no. 2, 97--107, DOI
 10.1016/0012-365X(75)90011-4 (Crossref record read 2026-09-18); received 7
-November 1974; MR 52 #10470; Zbl 306.05121. The site's key BES75b.
+November 1974; MR 52 #10470; Zbl 306.05121. The erdosproblems.com key BES75b.
 
 **Edition read.** The copy read for this card is the Rényi Institute Erdős
 archive's scan `1975-19.pdf` of the eleven printed pages (1,238,917 bytes),
@@ -165,7 +165,7 @@ the conjecture, in the form $\lim_{r\to\infty}(c_r-r+2)=\frac12$ (p. 98 and
 the abstract, page images), with the lower bounds $c_4\ge2+\frac19$ and
 $c_r\ge r-2+\frac12-\frac1{2(r-2)}$ for $r>4$ (p. 98; the constructions of
 pp. 104--105, whose printed degree for $r>4$ gives $\frac1{r-2}$ in place of
-$\frac1{2(r-2)}$) that the site describes as showing $r-\frac32$ "best
+$\frac1{2(r-2)}$) that erdosproblems.com describes as showing $r-\frac32$ "best
 possible", and the upper bound $c_r\le r-2+\frac{r-2}r$ of Corollary 3.2
 (p. 105); the problem page records the exact value of $c_r$ that follows
 from Haxell and Szabó's theorem. For $r=3$, Theorem 2.2 (p. 99) gives that

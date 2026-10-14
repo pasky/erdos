@@ -28,7 +28,7 @@ through exactly $k$ points.
 Estimate $f_k(n)$ and $F_k(n)$ - in particular, determine $\lim F_k(n)/n^2$ and
 $\lim f_k(n)/n^2$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 27
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 27
 December 2025). The accepted partial claims on
 [[problems/discrete_geometry/E0669/claims/1974_02_01_burr_grunbaum_sloane|Burr, Grünbaum and Sloane's construction]]
 and
@@ -60,11 +60,11 @@ Green and Tao's upper bound, with that construction, gives
 $f_3(n)=\lfloor n(n-3)/6\rfloor+1$ for all large $n$
 ([[problems/discrete_geometry/E0669/claims/2012_08_23_green_tao|claim page]]).
 For $k\ge4$ the cited sources give only the trivial upper bound, so the limits
-for $k\ge4$ are open as far as they show. The site also points to
+for $k\ge4$ are open as far as they show. erdosproblems.com also points to
 [[problems/discrete_geometry/E0101/_index|Problem 101]]. The literature search
-behind this account covered the site's page, the two papers above and the
-formal-conjectures repository, which had no statement file for the problem on
-2026-10-07.
+behind this account covered the erdosproblems.com page, the two papers above and
+the formal-conjectures repository, which had no statement file for the problem
+on 2026-10-07.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

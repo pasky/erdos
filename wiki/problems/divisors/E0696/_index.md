@@ -33,13 +33,13 @@ $n$?
 **Status.** SOLVED (LEAN). The derived standing is solved and answered. It rests
 on
 [[problems/divisors/E0696/claims/2026_04_25_treasure42|Treasure42's accepted claim]],
-whose argument the site's curator summarized and accepted. The site records the
-two-sided bound $\log_* n\ll h(n)\le H(n)\ll\log_* n$ for almost all $n$ and
-attributes the proofs to GPT 5.5. This bound implies a negative answer to the
-ratio question.
+whose argument the erdosproblems.com curator summarized and accepted.
+erdosproblems.com records the two-sided bound
+$\log_* n\ll h(n)\le H(n)\ll\log_* n$ for almost all $n$ and attributes the
+proofs to GPT 5.5. This bound implies a negative answer to the ratio question.
 [[problems/divisors/E0696/claims/2026_04_26_turturean|Turturean's sharper asymptotics]],
-with the Lean developments that the site's qualification refers to, remain a
-pending claim.
+with the Lean developments that erdosproblems.com's qualification refers to,
+remain a pending claim.
 
 **Source.** [erdosproblems.com/696](https://www.erdosproblems.com/696), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #696,
@@ -57,16 +57,16 @@ audited here, are linked at pinned revisions from
 
 ## Current assessment
 
-The site's formulation of 2026-09-04 asks for estimates of $h(n)$ and $H(n)$
-and whether $H(n)/h(n)\to\infty$ for almost all $n$. Both parts are settled
-by the accepted claim: $h(n)$ and $H(n)$ have order $\log_* n$ for almost all
-$n$, and the ratio is bounded on a set of density one. The pending claim
-sharpens this to $h(n)\sim\tfrac12\log_* n$ and $H(n)\sim\log_* n$ for almost
-all $n$, with the ratio tending to $2$.
+The erdosproblems.com formulation of 2026-09-04 asks for estimates of $h(n)$ and
+$H(n)$ and whether $H(n)/h(n)\to\infty$ for almost all $n$. Both parts are
+settled by the accepted claim: $h(n)$ and $H(n)$ have order $\log_* n$ for
+almost all $n$, and the ratio is bounded on a set of density one. The pending
+claim sharpens this to $h(n)\sim\tfrac12\log_* n$ and $H(n)\sim\log_* n$ for
+almost all $n$, with the ratio tending to $2$.
 
-Earlier and adjacent material on the site's thread: Wouter van Doorn sketched
-on 14 October 2025 the argument, from the divergence criterion for sets of
-primes and the prime number theorem in arithmetic progressions, that
+Earlier and adjacent material on the erdosproblems.com thread: Wouter van Doorn
+sketched on 14 October 2025 the argument, from the divergence criterion for sets
+of primes and the prime number theorem in arithmetic progressions, that
 $h(n)\to\infty$ for almost all $n$, the statement Erdős called easy; it is
 the qualitative form of the accepted lower bound and has no page of its own.
 Treasure42 posted on 27 April 2026 an alternative Poisson-residue route to
@@ -77,8 +77,8 @@ Erdős's original formulation is on p. 81 of
 
 No source of either claim is compiled in this corpus, no independent proof
 review is recorded, and this corpus has not built the Lean developments; the
-account above rests on the site's thread and the claimants' repositories as
-they stood on 2026-10-07.
+account above rests on the erdosproblems.com thread and the claimants'
+repositories as they stood on 2026-10-07.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

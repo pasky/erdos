@@ -75,7 +75,7 @@ through them.
   "What if $2$ is replaced by some $\gamma\in(1,2)$?", is answered no
   under the reading "for every $\gamma\in(1,2)$": at some
   $\gamma\in(6/5,13/10)$ there are $\alpha,\beta>0$ with $\alpha/\beta$
-  irrational whose interleaving, in the site's multiset reading with
+  irrational whose interleaving, in erdosproblems.com's multiset reading with
   repeated occurrences retained, is not complete. The construction is
   existential and gives no explicit $\alpha,\beta$. It says nothing about
   base $2$, and nothing about the reading "for some $\gamma\in(1,2)$",

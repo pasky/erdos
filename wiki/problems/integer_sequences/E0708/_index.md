@@ -76,16 +76,16 @@ Mazur posted the exact-size failure in
 2026, attributing the observation to GPT-5.5 Pro. The page's standing judges the
 modified Statement.
 
-**Status.** The site's label was Open, and both questions of the modified
-Statement are open. A partial proof claim of 5 September 2026 gives explicit
-linear upper bounds in the at-most convention. It gives $g(n)\le12n$ for every
-$n$, with a Lean development its author reports kernel-checked, and the
-conjectured $2n$ for sets with $\max(A)\ge8n^3$. It is pending on
+**Status.** The erdosproblems.com label was Open, and both questions of the
+modified Statement are open. A partial proof claim of 5 September 2026 gives
+explicit linear upper bounds in the at-most convention. It gives $g(n)\le12n$
+for every $n$, with a Lean development its author reports kernel-checked, and
+the conjectured $2n$ for sets with $\max(A)\ge8n^3$. It is pending on
 [[problems/integer_sequences/E0708/claims/2026_09_05_chen|its claim page]],
 unreviewed outside its author's pipeline and not built here. It leaves both
-displayed questions, $(2+o(1))n$ and $2n$, unresolved. The site's exact-size
-wording admits no $g(n)$ for large $n$. This observation answers only the
-printed wording (Notes).
+displayed questions, $(2+o(1))n$ and $2n$, unresolved. erdosproblems.com's
+exact-size wording admits no $g(n)$ for large $n$. This observation answers only
+the printed wording (Notes).
 
 **Source.** [erdosproblems.com/708](https://www.erdosproblems.com/708), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #708,
@@ -96,8 +96,8 @@ https://www.erdosproblems.com/708.
 - [Er92c] Erdős, P., Some of my forgotten problems in number theory.
   Hardy-Ramanujan J. 15 (1992), 34--50.
 - [Er92e] Erdős, P., Some unsolved problems in geometry, number theory and
-  combinatorics. Eureka 52 (1992), 44--48; one of the site's three source
-  keys for the problem. Not held.
+  combinatorics. Eureka 52 (1992), 44--48; one of erdosproblems.com's three
+  source keys for the problem. Not held.
 - [ErSu59] Erdős, P. and Surányi, J., Megjegyzések egy versenyfeladathoz.
   Mat. Lapok 10 (1959), 39--48 (Hungarian, with Russian and German
   summaries).
@@ -110,14 +110,14 @@ it was not built or audited here.
 
 ## Current assessment
 
-The modified Statement, the sources' at-most reading of the site's question, is
-the dated target; the site labeled the question OPEN.
+The modified Statement, the sources' at-most reading of the erdosproblems.com
+question, is the dated target; Bloom's catalog labeled the question OPEN.
 
 This account checks the selection convention against the two cited sources; it
-does not resolve either asymptotic question. Read as written, the site's
-exact-size question fails for large $n$; that observation answers the printed
-wording, not the modified Statement. The modified Statement is open, with
-Chen's partial claim pending.
+does not resolve either asymptotic question. Read as written,
+erdosproblems.com's exact-size question fails for large $n$; that observation
+answers the printed wording, not the modified Statement. The modified Statement
+is open, with Chen's partial claim pending.
 
 **The at-most reading.** Both displayed questions are open: the 1959
 construction gives $g_{\le}(n)>(2-\varepsilon)n$ for every $\varepsilon>0$
@@ -125,26 +125,25 @@ and large $n$, the sources prove no upper bound beyond $g(3)=4$, and the only
 upper bounds claimed are the pending partial claim's $12n$ for every $n$ and
 $2n$ when $\max(A)\ge8n^3$, both stated for intervals of positive integers.
 
-**Search scope.** The two cited sources, the site's discussion thread, accessed
-2026-09-06,
-and the site's proof-claim tab, accessed 2026-10-06, with no wider
-literature search.
+**Search scope.** The two cited sources, the erdosproblems.com discussion
+thread, accessed 2026-09-06, and the erdosproblems.com proof-claim tab, accessed
+2026-10-06, with no wider literature search.
 
 **Proof limits.** The source statements and locators were checked against
 the two sources, but the source proofs were not reconstructed or independently
 reviewed. No independently accepted compilation proof coverage, formal
 verification or current openness assessment follows from this account.
 
-**Proof claims on the site.** The site's proof-claim tab carries one partial
-claim, submitted 2026-09-05 by Haoyu Chen with declared assistance from
-GPT-5.6 Sol (ChatGPT Pro) and Claude (Fable 5.1 / Opus) for proof search and
-refereeing: explicit linear upper bounds for $g(n)$ in the at-most convention,
-$g(n)\le12n$ for all $n$ with a Lean development, and the bound $2n$ for sets
-with $\max(A)\ge8n^3$, which the claimant presents as partial progress and
-not as a resolution of the $(2+o(1))n$ question. The claim, its write-up, its
-repository and its one comment are recorded on
+**Proof claims on erdosproblems.com.** The erdosproblems.com proof-claim tab
+carries one partial claim, submitted 2026-09-05 by Haoyu Chen with declared
+assistance from GPT-5.6 Sol (ChatGPT Pro) and Claude (Fable 5.1 / Opus) for
+proof search and refereeing: explicit linear upper bounds for $g(n)$ in the
+at-most convention, $g(n)\le12n$ for all $n$ with a Lean development, and the
+bound $2n$ for sets with $\max(A)\ge8n^3$, which the claimant presents as
+partial progress and not as a resolution of the $(2+o(1))n$ question. The claim,
+its write-up, its repository and its one comment are recorded on
 [[problems/integer_sequences/E0708/claims/2026_09_05_chen|its claim page]];
-the site's label was OPEN, and nothing is adopted here.
+the erdosproblems.com label was OPEN, and nothing is adopted here.
 
 ## Progress
 
@@ -212,10 +211,10 @@ $$
 or even $g(n)\leq2n$. Reference [1] on p.49 identifies the 1959 paper.
 These are source statements, not new bounds proved in this account.
 
-The 1992 domain consists of positive intervals, whereas the displayed site
-statement and the 1959 summaries allow arbitrary consecutive integers. The
-at-most interpretation above does not assert equivalence of those interval
-domains or silently transfer a result or status between them.
+The 1992 domain consists of positive intervals, whereas the displayed
+erdosproblems.com statement and the 1959 summaries allow arbitrary consecutive
+integers. The at-most interpretation above does not assert equivalence of those
+interval domains or silently transfer a result or status between them.
 
 <!-- BEGIN problem library links -->
 

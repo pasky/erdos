@@ -5,7 +5,7 @@ desc: |
   Chung and Graham's upper bounds for the case s = 2: (t-1)k^2+k+2 for
   K_{2,t} (Theorem 2) and k^2+k+1 for the four-cycle K_{2,2} (Corollary 1),
   both stated without printed proof as refinements of the argument for
-  Theorem 1; the site's upper bound R_k(C_4) ≤ k^2+k+1.
+  Theorem 1; erdosproblems.com's upper bound R_k(C_4) ≤ k^2+k+1.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -15,7 +15,7 @@ updated: 2026-10-08T01:29:58Z
 ## Statement
 
 $r(G;k)$ is the least integer such that every $k$-coloring of the edges of
-$K_r$ with $r\ge r(G;k)$ has a monochromatic $G$ (p. 164), the site's
+$K_r$ with $r\ge r(G;k)$ has a monochromatic $G$ (p. 164), erdosproblems.com's
 $R_k(G)$; $K_{2,2}$ is the four-cycle $C_4$.
 
 **Theorem 2** (p. 166, quoted). "$r(K_{2,t};k)\le(t-1)k^2+k+2$." It is
@@ -65,9 +65,9 @@ Hajnal--Szemerédi bound is cited as unpublished.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0555/_index|Problem 555]]: Corollary 1 is the site's
-  upper bound $R_k(C_4)\le k^2+k+1$, printed for $k>1$ where the site says
-  "for all $k$"; with
+- [[../wiki/problems/ramsey_theory/E0555/_index|Problem 555]]: Corollary 1 is
+  erdosproblems.com's upper bound $R_k(C_4)\le k^2+k+1$, printed for $k>1$ where
+  erdosproblems.com says "for all $k$"; with
   [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/theorem_3|Theorem 3]]
   it brackets $r(K_{2,2};k)$ in $(k^2-k+1,k^2+k+1]$ for $k-1$ a prime
   power.

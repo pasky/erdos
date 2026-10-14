@@ -56,4 +56,4 @@ and the recursion (5) of p. 6.
 
 - [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]: the general upper
   bound for the problem's $g_k(N)$, sharpening the exponent $1-2^{1-k}$ that
-  the 1975 Theorem 5 gives (the site prints $N^{1-2^{-k}}$).
+  the 1975 Theorem 5 gives (erdosproblems.com prints $N^{1-2^{-k}}$).

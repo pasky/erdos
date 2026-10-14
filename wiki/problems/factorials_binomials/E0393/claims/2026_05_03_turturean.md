@@ -48,8 +48,8 @@ $a_i^{0.95}$, whose radicals are then far too small for the abc conjecture. The
 post says the write-up settles the problem partially under abc and that every
 attempt to remove the hypothesis left a kernel resembling abc itself.
 
-**Submission note.** Posted to the site's forum by David Turturean on 3 May
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by David Turturean on
+3 May 2026:
 
 > Starting with the ideas of Tao in this thread, I put together a write-up that,
 > conditional on abc, settles f(n) between the bounds: n - O(log n) $\leq$ f(n)
@@ -90,8 +90,8 @@ The submitter is the claimant.
 
 **Standing.** The write-up is not refereed, is not on arXiv and no outside
 reviewer has recorded accepting it; a commenter wrote on 2026-05-04 that a
-standard check found no issues in the write-up, which is not acceptance. The
-site labeled the problem OPEN and its remarks do not mention the write-up. The
-claim is `claimed`.
+standard check found no issues in the write-up, which is not acceptance. Bloom's
+catalog labeled the problem OPEN and its remarks do not mention the write-up.
+The claim is `claimed`.
 
 **Depends on.** No page of this wiki.

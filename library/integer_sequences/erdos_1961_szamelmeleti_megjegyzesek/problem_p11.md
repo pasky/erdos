@@ -56,7 +56,7 @@ the page image. It contains no proofs.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0985/_index|Problem 985]]: item 4
-  is the problem's question in the site's wording (every prime $p$), which
-  the problem page cites at p. 11; the problem page's modified Statement
+  is the problem's question in the erdosproblems.com wording (every prime $p$),
+  which the problem page cites at p. 11; the problem page's modified Statement
   asks it for every prime $p>2$. The paper records it as not known and
   proves nothing about it.

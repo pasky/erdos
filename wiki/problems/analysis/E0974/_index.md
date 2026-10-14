@@ -51,43 +51,44 @@ $(n/2)$-gons with the same circumscribed circle centred at the origin.
 
 **Notes.** The word "(essentially)" is Erdős's: [Er65b], printed p. 213, display
 (37), reports the conjecture as Turán's, told to Erdős in conversation, and
-leaves the word undefined; the site's commentary records that Erdős does not
-elaborate on what it may mean. Read as the site words it, with the conclusion
-that the $z_j$ are the $n$th roots of unity, the conjecture fails for every even
-$n$: $z_1=1$, $z_2=i$ gives $s_k=1+i^k$, which vanishes for every
-$k\equiv2\pmod4$ (Quanyu Tang, site thread, 20 September 2025), and for $n=2m$
-the $m$th roots of unity together with their rotation by $e^{\pi i/(2m)}$ give
-$s_k=0$ for every $k\not\equiv0,m,3m\pmod{4m}$, a run of $n-1$ zeros in every
-period of length $4m$ (Tao Hu's construction, posted by Tang the same day). The
-site's curator, Thomas Bloom, resolves the word through Tijdeman's theorem. The
-commentary (page last edited 1 October 2025) states the conclusion as "if $n$ is
-odd then the $z_i$ must be exactly the $n$th roots of unity, and if $n$ is even
-they must be the vertices of two regular $(n/2)$-gons with the same
-circumscribed circle centred at the origin", credits Tijdeman [Ti66] and labeled
-the problem PROVED (LEAN); replying to the $n=2$ example in the thread on 20
-September 2025, Bloom wrote that it "is not a counterexample though", given how
-vaguely the problem is described; and the formal-conjectures statement
-`erdos_974`, which the site's Lean mark follows, concludes that configuration.
-The modified Statement replaces "(essentially) $z_j=e(j/n)$" by that conclusion
-and changes nothing else. Under it the problem is proved: Tijdeman [Ti66] proves
-the classification from two runs of $n-1$ vanishing power sums for pairwise
-distinct $z_i$, and a single run already forces the $z_i$ to be distinct and
-nonzero (Proposition 1 of Hu, Tang and Zhang in the thread, proved in both Lean
-files). Under the site's wording the answer is yes for odd $n$, where the two
-readings agree, and no for every even $n$, by the construction above, which has
-no claim page; its authors went on to treat the classification as the problem's
-resolution. Erdős's setting in [Er65b] also requires $|z_i|\le1$ for
-$2\le i\le n$, which the site's wording omits; neither answer changes, since the
-conclusion forces $|z_i|=1$ and the construction lies on the unit circle.
-Unread: Turán's own statement of the conjecture, and its statement in [Ti66].
+leaves the word undefined; the erdosproblems.com commentary records that Erdős
+does not elaborate on what it may mean. Read as Bloom's catalog words it, with
+the conclusion that the $z_j$ are the $n$th roots of unity, the conjecture fails
+for every even $n$: $z_1=1$, $z_2=i$ gives $s_k=1+i^k$, which vanishes for every
+$k\equiv2\pmod4$ (Quanyu Tang, erdosproblems.com thread, 20 September 2025), and
+for $n=2m$ the $m$th roots of unity together with their rotation by
+$e^{\pi i/(2m)}$ give $s_k=0$ for every $k\not\equiv0,m,3m\pmod{4m}$, a run of
+$n-1$ zeros in every period of length $4m$ (Tao Hu's construction, posted by
+Tang the same day). The erdosproblems.com curator, Thomas Bloom, resolves the
+word through Tijdeman's theorem. The commentary (page last edited 1
+October 2025) states the conclusion as "if $n$ is odd then the $z_i$ must be
+exactly the $n$th roots of unity, and if $n$ is even they must be the vertices
+of two regular $(n/2)$-gons with the same circumscribed circle centred at the
+origin", credits Tijdeman [Ti66] and labeled the problem PROVED (LEAN); replying
+to the $n=2$ example in the thread on 20 September 2025, Bloom wrote that it "is
+not a counterexample though", given how vaguely the problem is described; and
+the formal-conjectures statement `erdos_974`, which the erdosproblems.com Lean
+mark follows, concludes that configuration. The modified Statement replaces
+"(essentially) $z_j=e(j/n)$" by that conclusion and changes nothing else. Under
+it the problem is proved: Tijdeman [Ti66] proves the classification from two
+runs of $n-1$ vanishing power sums for pairwise distinct $z_i$, and a single run
+already forces the $z_i$ to be distinct and nonzero (Proposition 1 of Hu, Tang
+and Zhang in the thread, proved in both Lean files). Under the erdosproblems.com
+wording the answer is yes for odd $n$, where the two readings agree, and no for
+every even $n$, by the construction above, which has no claim page; its authors
+went on to treat the classification as the problem's resolution. Erdős's setting
+in [Er65b] also requires $|z_i|\le1$ for $2\le i\le n$, which the
+erdosproblems.com wording omits; neither answer changes, since the conclusion
+forces $|z_i|=1$ and the construction lies on the unit circle. Unread: Turán's
+own statement of the conjecture, and its statement in [Ti66].
 
-**Status.** PROVED (LEAN). The site's label describes the modified Statement.
-The standing derives from
+**Status.** PROVED (LEAN). The erdosproblems.com label describes the modified
+Statement. The standing derives from
 [[problems/analysis/E0974/claims/1966_01_01_tijdeman|Tijdeman's claim page]].
-The site credits Tijdeman [Ti66], who proved the stronger form with two runs of
-vanishing power sums. The site also notes an independent proof in its thread.
-Its Lean marker refers to third-party formalizations that this corpus has not
-built.
+erdosproblems.com credits Tijdeman [Ti66], who proved the stronger form with two
+runs of vanishing power sums. erdosproblems.com also notes an independent proof
+in its thread. Its Lean marker refers to third-party formalizations that this
+corpus has not built.
 
 **Source.** [erdosproblems.com/974](https://www.erdosproblems.com/974), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #974,
@@ -105,25 +106,26 @@ https://www.erdosproblems.com/974.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/974.lean)
 (at the commit the link pins), whose main theorem `erdos_974` concludes
-Tijdeman's configuration, the site's reading of "essentially", and whose
-`formal_proof` attribute points to a third-party Lean proof; that proof and the
-gist it re-hosts are `formalization` links on the claim page. The corpus has
-built neither.
+Tijdeman's configuration, erdosproblems.com's reading of "essentially", and
+whose `formal_proof` attribute points to a third-party Lean proof; that proof
+and the gist it re-hosts are `formalization` links on the claim page. The corpus
+has built neither.
 
 ## Current assessment
 
 The problem is proved under the modified Statement, by Tijdeman's
 classification, the accepted claim recorded on
 [[problems/analysis/E0974/claims/1966_01_01_tijdeman|Tijdeman's claim page]]
-with its refereed publication and the curator's credit, stated as the site and
-its thread give it. The even-$n$ construction in the Notes answers the site's
-wording, in the negative for every even $n$, and has no claim page.
+with its refereed publication and the curator's credit, stated as
+erdosproblems.com and its thread give it. The even-$n$ construction in the Notes
+answers the erdosproblems.com wording, in the negative for every even $n$, and
+has no claim page.
 
 The independent proof by Hu, Tang and Zhang (September 2025), given in the
 thread's comments and in a repository whose manuscript covers odd $n$, and a
 Lean formalization posted as a gist by Jeremy Tan Jie Rui on 27 April 2026 and
 Boris Alexeev's re-hosting of it, first committed on 7 May 2026, are disclosed
-on the claim page; the site credits Tijdeman, and a later proof of a credited
-result is disclosed on the credited page rather than given a page of its own.
-Search scope: the site page and its thread, accessed 2026-10-07; no wider
-literature search was made.
+on the claim page; erdosproblems.com credits Tijdeman, and a later proof of a
+credited result is disclosed on the credited page rather than given a page of
+its own. Search scope: the erdosproblems.com page and its thread, accessed
+2026-10-07; no wider literature search was made.

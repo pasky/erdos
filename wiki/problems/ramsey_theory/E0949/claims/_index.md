@@ -4,14 +4,14 @@ desc: The 2 claim pages of Problem 949, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T14:38:22Z
-updated: 2026-10-14T01:01:57Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0949/claims
 
 [[problems/ramsey_theory/E0949/_index|..]]
 
-[[problems/ramsey_theory/E0949/claims/2025_08_17_weisenberg|2025_08_17_weisenberg]]: Answers a variant (the site's earlier wording, asking for $A$ with
+[[problems/ramsey_theory/E0949/claims/2025_08_17_weisenberg|2025_08_17_weisenberg]]: Answers a variant (erdosproblems.com's earlier wording, asking for $A$ with
 $A+A\subseteq A$), not the Statement ($A+A\subseteq\mathbb R\setminus S$), so
 it does not count toward the problem's standing. Desmond Weisenberg claims a
 sum-free union of intervals whose complement has no uncountable subset

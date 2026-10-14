@@ -52,7 +52,7 @@ $p\le N$, such that every integer $\le N$ lies in at least 10 of them?",
 traced by the comments to [109, Section 6, Problem 6] (Erdős's 1980
 survey), where, the comments report, Erdős says he cannot answer it with
 $10$ replaced by $2$; the problem's question; "Update 2025" points to the
-site's page for the problem.
+erdosproblems.com page for the problem.
 [[../wiki/problems/primes/E1202/_index|#1202]]: Problem 44, p. 22 (PDF p. 22 of the
 January 2026 PDF read for this card, page image and text layer), a qualified
 row: "Sieve $[N]$ by removing half the residue classes mod $p_i$, for primes

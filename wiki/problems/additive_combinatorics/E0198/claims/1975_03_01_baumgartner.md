@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0198/claims/1975_03_01_baumgartner
 title: Baumgartner's successive selection, written out for the integers
 desc: |
   Choosing one element of each infinite arithmetic progression, each beyond
-  twice the previous choice, gives a Sidon set that meets every progression. The
-  site credits Baumgartner, whom Erdős and Graham credit with the answer yes.
+  twice the previous choice, gives a Sidon set that meets every progression.
+  erdosproblems.com credits Baumgartner, whom Erdős and Graham credit with the
+  answer yes.
 authors:
 - James E. Baumgartner
 status: claimed
@@ -37,21 +38,21 @@ writes the argument out with its doubling-gap lemma.
 **Attribution.** Erdős and Graham's survey [ErGr79] (printed p. 339, and
 their 1980 book in the same words) credits Baumgartner with the positive
 assertion, that the complement of a Sidon set contains an infinite arithmetic
-progression. The site's page gave that positive answer, citing [Ba75], until
-some time between November 2024 and mid-May 2025: web archive captures of
-2024-06-19 and 2024-11-07 show it labeled solved with the answer yes, as shown
-by Baumgartner, and the formal-conjectures catalog's
-[statement file](https://github.com/google-deepmind/formal-conjectures/blob/9fa5c388846af93ff7a948ef0ec521ba95ad6940/FormalConjectures/ErdosProblems/198.lean)
+progression. The erdosproblems.com page gave that positive answer, citing
+[Ba75], until some time between November 2024 and mid-May 2025: web archive
+captures of 2024-06-19 and 2024-11-07 show it labeled solved with the answer
+yes, as shown by Baumgartner, and the formal-conjectures catalog's [statement
+file](https://github.com/google-deepmind/formal-conjectures/blob/9fa5c388846af93ff7a948ef0ec521ba95ad6940/FormalConjectures/ErdosProblems/198.lean)
 of 2025-05-01 stated the answer yes on the remark of Erdős and Graham (1980,
 p. 23), noting in a lemma that the curator cites [Ba75] for that assertion and
 that it runs opposite to Baumgartner's theorem. After Google DeepMind reported
 AlphaProof's counterexample to the curator, which the formal-conjectures issue
-of 2025-05-13 and pull request of 2025-05-15 record, the site switched to the
-answer no, kept the credit to Baumgartner on the report of Erdős and Graham,
-said that [Ba75], Baumgartner, J. E., Partitioning vector spaces, J. Combin.
-Theory Ser. A 18 (1975), no. 2, 231–233 (the March 1975 issue, the date of
-this page), does not state it exactly, and wrote out the construction above as
-implicit in it. The paper proves that a vector space over $\mathbb{Q}$ has a
+of 2025-05-13 and pull request of 2025-05-15 record, erdosproblems.com switched
+to the answer no, kept the credit to Baumgartner on the report of Erdős and
+Graham, said that [Ba75], Baumgartner, J. E., Partitioning vector spaces, J.
+Combin. Theory Ser. A 18 (1975), no. 2, 231–233 (the March 1975 issue, the date
+of this page), does not state it exactly, and wrote out the construction above
+as implicit in it. The paper proves that a vector space over $\mathbb{Q}$ has a
 subset meeting every infinite arithmetic progression and containing no
 three-term one, the statement behind
 [[problems/additive_combinatorics/E0199/_index|Problem 199]], by selecting a
@@ -59,14 +60,14 @@ point in each enumerated progression beyond all earlier coefficient magnitudes,
 the same successive selection; it contains no Sidon statement, and the
 [[../library/additive_combinatorics/bloom_2026_sidon_complement_constructions/bloom_2026_sidon_complement_constructions|source record]]
 preserves the survey's contradictory sentence. The page is named for
-Baumgartner because the site credits him; Baumgartner never stated the integer
-result, and as a disproof of this problem the construction was first written
-out on the site's page, by mid-May 2025.
+Baumgartner because erdosproblems.com credits him; Baumgartner never stated the
+integer result, and as a disproof of this problem the construction was first
+written out on the erdosproblems.com page, by mid-May 2025.
 
-**Acceptance.** None. The site's curator, Thomas Bloom, labeled the problem
-disproved and credits the result to Baumgartner on the report of Erdős and
-Graham, with the qualification that [Ba75] does not state it exactly. But the
-curator personally wrote out the integer construction above. The
+**Acceptance.** None. The erdosproblems.com curator, Thomas Bloom, labeled the
+problem disproved and credits the result to Baumgartner on the report of Erdős
+and Graham, with the qualification that [Ba75] does not state it exactly. But
+the curator personally wrote out the integer construction above. The
 formal-conjectures catalog's pull request of 2025-05-15 credits the elementary
 argument to Bloom. Baumgartner never stated it, and Erdős and Graham credit
 Baumgartner with the opposite answer. The label therefore accepts the curator's

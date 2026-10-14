@@ -47,8 +47,8 @@ $$
 which is bounded by a function of $p$ alone. The printed minus sign is read
 here as a misprint; this is a filing observation, not a review verdict.
 
-**In the problem's notation.** The site's $\mathrm{AR}(n,C_k)$, the largest
-number of colors of an edge-coloring of $K_n$ with no rainbow $C_k$, is
+**In the problem's notation.** erdosproblems.com's $\mathrm{AR}(n,C_k)$, the
+largest number of colors of an edge-coloring of $K_n$ with no rainbow $C_k$, is
 $h(n,k)-1$, so for all $n\ge k\ge3$
 
 $$
@@ -56,9 +56,9 @@ $$
 \qquad r\equiv n\pmod{k-1},\ 0\le r\le k-2.
 $$
 
-For $k=3$ this is $n-1$, the site's $\mathrm{AR}(n,C_3)=n-1$. When $k-1$
-divides $n$ it is $\frac n{k-1}\binom{k-1}2+\frac n{k-1}-1$, the count of the
-1975 grouped coloring.
+For $k=3$ this is $n-1$, erdosproblems.com's $\mathrm{AR}(n,C_3)=n-1$. When
+$k-1$ divides $n$ it is $\frac n{k-1}\binom{k-1}2+\frac n{k-1}-1$, the count of
+the 1975 grouped coloring.
 
 **Source.** J. J. Montellano-Ballesteros and V. Neumann-Lara, *An Anti-Ramsey
 Theorem on Cycles*, Graphs and Combinatorics 21 (2005), no. 3, 343--354,

@@ -51,7 +51,7 @@ https://www.erdosproblems.com/668.
   infinity is open.
 - **Second question.** It fails at $n=4$: five unit distances among four
   points occur only for the rhombus of two unit equilateral triangles, as
-  [[problems/distance_problems/E0668/claims/2025_10_20_bloom|the claim page for the site's remark]]
+  [[problems/distance_problems/E0668/claims/2025_10_20_bloom|the claim page for the erdosproblems.com remark]]
   records. That claim is pending, so the standing stays open, with this part
   settled by a pending claim.
 - **Small cases.** [AMP25] (Theorem 1(c), Table 2) lists every densest
@@ -59,9 +59,9 @@ https://www.erdosproblems.com/668.
   graph for $n=5,7,9,10,12,13,15,16,20$; for those $n$ the count of
   incongruent maximizers is undetermined, since one graph may have
   incongruent realizations. It finds several graphs for
-  $n=6,8,11,14,17,18,19,21$, so the count exceeds one for those $n$. As the
-  site notes, [EHSVZ25] and [AMP25] count graphs up to isomorphism, not point
-  sets up to congruence.
+  $n=6,8,11,14,17,18,19,21$, so the count exceeds one for those $n$. As
+  erdosproblems.com notes, [EHSVZ25] and [AMP25] count graphs up to isomorphism,
+  not point sets up to congruence.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

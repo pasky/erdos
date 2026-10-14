@@ -59,13 +59,13 @@ generated)". These are the author's statements, quoted as stated.
 - erdosproblems.com/354: OPEN, last edited 1 December 2025; the thread's
   latest comment (13:09 on 5 September 2026) is the author's
   announcement, with links to the PR, the repository and the web editor,
-  and the two concerns quoted on the card; the site's commentary does not
-  mention the proof.
+  and the two concerns quoted on the card; the erdosproblems.com commentary does
+  not mention the proof.
 - The bounty site Conjectures.io lists no part (ii) task; its review of
   the part (i) record (15 September 2026) cites this repository as "The
   recent formalization of part (ii)", which "uses a base below 2 and does
   not prove part (i)".
 
-**Acceptance.** None documented: no maintainer merge, no site relabeling,
-no review, no refereed source. The formal-conjectures catalog's own audit issue
-disputes the formal statement the proof establishes.
+**Acceptance.** None documented: no maintainer merge, no erdosproblems.com
+relabeling, no review, no refereed source. The formal-conjectures catalog's own
+audit issue disputes the formal statement the proof establishes.

@@ -3,8 +3,8 @@ name: problems/additive_combinatorics/E0185/claims/1991_12_01_furstenberg_katzne
 title: Density Hales-Jewett theorem settles Moser's cube problem
 desc: |
   Furstenberg and Katznelson's 1991 density Hales–Jewett theorem is refereed and
-  credited by the site. Its three-letter case shows that a subset of the ternary
-  $n$-cube with no three collinear points has size $o(3^n)$.
+  credited by erdosproblems.com. Its three-letter case shows that a subset of
+  the ternary $n$-cube with no three collinear points has size $o(3^n)$.
 authors:
 - H. Furstenberg
 - Y. Katznelson
@@ -44,11 +44,11 @@ question of [[problems/additive_combinatorics/E0185/_index|Problem 185]],
 answered yes. The three-letter case the problem needs was published first,
 in H. Furstenberg and Y. Katznelson, *A density version of the Hales-Jewett
 theorem for $k=3$*, Discrete Math. 75 (1989), 227--241 (issued May 1989,
-per its Crossref record); the site credits only the 1991 paper, and
-this page keeps its date. The site's commentary records the answer as this
-corollary of the theorem; the one-line deduction is restated here and is not
-the paper's text. Neither paper is held in the library; the theorem's statement
-is taken from the problem page of
+per its Crossref record); erdosproblems.com credits only the 1991 paper, and
+this page keeps its date. The erdosproblems.com commentary records the answer as
+this corollary of the theorem; the one-line deduction is restated here and is
+not the paper's text. Neither paper is held in the library; the theorem's
+statement is taken from the problem page of
 [[problems/additive_combinatorics/E0171/_index|Problem 171]], whose question
 it is, and from Theorem 1.4 of the Polymath reproof
 ([[../library/additive_combinatorics/polymath_2012_new_proof_density_halesjewett_theorem/_index|card]]),
@@ -64,16 +64,16 @@ its statement.
 **Acceptance.** Refereed: the paper appeared in Journal d'Analyse Mathématique,
 volume 57, issue 1. Its Crossref record dates the issue to December 1991 without
 a day, so this page is named by the first day of that month. Reviewed: the
-site's curator, Thomas Bloom, records the answer as yes in the problem page's
-commentary (label PROVED (LEAN)). The curator records it as a corollary of the
-density Hales--Jewett theorem of Furstenberg and Katznelson. This is documented
-acceptance outside this project. The site's Lean marker traces to a
-formalization of the problem through the Dodos--Kanellopoulos--Tyros proof of
-the theorem, which is pinned on
+erdosproblems.com curator, Thomas Bloom, records the answer as yes in the
+problem page's commentary (label PROVED (LEAN)). The curator records it as a
+corollary of the density Hales--Jewett theorem of Furstenberg and Katznelson.
+This is documented acceptance outside this project. The erdosproblems.com Lean
+marker traces to a formalization of the problem through the
+Dodos--Kanellopoulos--Tyros proof of the theorem, which is pinned on
 [[problems/additive_combinatorics/E0185/claims/2012_09_22_dodos_kanellopoulos_tyros|their claim page]].
 It does not go through this proof, so no `formalized` evidence is listed.
 Nothing here is this project's own review of the proof.
 
-Context from the site, not part of the claim: Moser first considered the
-problem. Trivially $f_3(n)\ge r_3(3^n)$, and Moser showed
+Context from erdosproblems.com, not part of the claim: Moser first considered
+the problem. Trivially $f_3(n)\ge r_3(3^n)$, and Moser showed
 $f_3(n)\gg3^n/\sqrt n$.

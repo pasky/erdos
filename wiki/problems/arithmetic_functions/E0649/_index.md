@@ -26,27 +26,28 @@ and $P(n+1)=q$?
 
 **Formulation.** The wording does not say whether $p$ and $q$ must be
 distinct. If $p=q$ is allowed, it fails at once, since no prime divides both
-$n$ and $n+1$. The site's remarks pass over that case and refute the wording
-with the distinct pair $(2,7)$, and the formal-conjectures statement has
+$n$ and $n+1$. The erdosproblems.com remarks pass over that case and refute the
+wording with the distinct pair $(2,7)$, and the formal-conjectures statement has
 assumed $p\ne q$ since its revision of 2026-09-27; no source the corpus has
 read fixes either reading, and both have the answer no. For distinct primes
 the pair $(2,7)$ fails, and so do the pairs of the accepted claims of Tong
-(for every $p$, infinitely many $q$) and Sampaio ($(19,2)$). The site's
-remarks suggest that Erdős may have meant odd primes or all sufficiently
-large primes; that is a guess, and Tong's family, whose primes $q$ are odd
-and exceed $p$, refutes those forms as well.
+(for every $p$, infinitely many $q$) and Sampaio ($(19,2)$). The
+erdosproblems.com remarks suggest that Erdős may have meant odd primes or all
+sufficiently large primes; that is a guess, and Tong's family, whose primes $q$
+are odd and exceed $p$, refutes those forms as well.
 
-**Status.** Disproved. The site's label was DISPROVED (LEAN). The disproof is
-elementary. The site's remarks record two independent arguments, both accepted
-there. [[problems/arithmetic_functions/E0649/claims/2025_01_16_tong|Tong's]]
-argument shows that for every prime $p$ infinitely many primes $q$ admit no such
-$n$. [[problems/arithmetic_functions/E0649/claims/2025_01_16_sampaio|Sampaio's]]
+**Status.** Disproved. The erdosproblems.com label was DISPROVED (LEAN). The
+disproof is elementary. The erdosproblems.com remarks record two independent
+arguments, both accepted there.
+[[problems/arithmetic_functions/E0649/claims/2025_01_16_tong|Tong's]] argument
+shows that for every prime $p$ infinitely many primes $q$ admit no such $n$.
+[[problems/arithmetic_functions/E0649/claims/2025_01_16_sampaio|Sampaio's]]
 argument gives the pair $p=19$, $q=2$.
 
-The site's Lean qualification refers to a Lean file posted in the site's thread.
-The file's main theorem is the 2020 Romanian Master of Mathematics argument that
-infinitely many primes $q$ make $\{2,q\}$ a strange pair. This is a third
-argument, accepted on its own
+The erdosproblems.com Lean qualification refers to a Lean file posted in the
+erdosproblems.com thread. The file's main theorem is the 2020 Romanian Master of
+Mathematics argument that infinitely many primes $q$ make $\{2,q\}$ a strange
+pair. This is a third argument, accepted on its own
 [[problems/arithmetic_functions/E0649/claims/2026_02_07_alexeev|claim page]].
 This corpus built a later revision of the file and audited that theorem's
 statement. The file's formalizations of Tong's and Sampaio's results are links
@@ -63,10 +64,10 @@ https://www.erdosproblems.com/649.
   Grades. Archiv für math. og naturvid (1935).
 - [Ro64b] [[../library/arithmetic_functions/rotkiewicz_1964_nombres_naturels_n_k_pseudopremiers/_index|Rotkiewicz, André, Sur les nombres naturels $n$ et $k$ tels que les
   nombres $n$ et $nk$ sont à la fois pseudopremiers]]. Atti Accad. Naz. Lincei
-  Rend. Cl. Sci. Fis. Mat. Nat. (8) (1964), 816-818. The site's remarks cite
-  this key for the statement that every prime $p>13$ has a prime divisor
-  $q>p$ of $2^{p-1}-1$; the key resolves to this note on pseudoprimes $n$ and
-  $nk$, whose theorems and lemmas do not contain that statement, and the
+  Rend. Cl. Sci. Fis. Mat. Nat. (8) (1964), 816-818. The erdosproblems.com
+  remarks cite this key for the statement that every prime $p>13$ has a prime
+  divisor $q>p$ of $2^{p-1}-1$; the key resolves to this note on pseudoprimes
+  $n$ and $nk$, whose theorems and lemmas do not contain that statement, and the
   attribution remains untraced.
 
 **Formalization.** Statement in
@@ -93,15 +94,16 @@ strange-pairs theorem alone and none for the two accepted claims.
 
 ## Current assessment
 
-**The question (the site's formulation, accessed 2026-09-04).** Whether every
-pair of primes $p,q$ has an integer $n$ with $P(n)=p$ and $P(n+1)=q$; DISPROVED
-(LEAN). Erdős wrote that deciding the conjecture was probably hopelessly
-difficult; the site's remarks note that the answer as written is no already for
-$(p,q)=(2,7)$, since $2^k\equiv-1\pmod 7$ has no solution, and that restricting
-to odd or to large primes does not rescue it.
+**The question (the erdosproblems.com formulation, accessed 2026-09-04).**
+Whether every pair of primes $p,q$ has an integer $n$ with $P(n)=p$ and
+$P(n+1)=q$; DISPROVED (LEAN). Erdős wrote that deciding the conjecture was
+probably hopelessly difficult; the erdosproblems.com remarks note that the
+answer as written is no already for $(p,q)=(2,7)$, since $2^k\equiv-1\pmod 7$
+has no solution, and that restricting to odd or to large primes does not rescue
+it.
 
-**Standing.** Three accepted disproofs. Two are recorded in the site's remarks
-and credited there by the curator:
+**Standing.** Three accepted disproofs. Two are recorded in the
+erdosproblems.com remarks and credited there by the curator:
 [[problems/arithmetic_functions/E0649/claims/2025_01_16_tong|Tong's family]]
 (for every prime $p$, infinitely many primes $q$) and
 [[problems/arithmetic_functions/E0649/claims/2025_01_16_sampaio|Sampaio's pair]]
@@ -113,8 +115,8 @@ $P(n+1)=p$), is accepted as `formalized` on the
 [[problems/arithmetic_functions/E0649/claims/2026_02_07_alexeev|Alexeev page]]:
 this corpus built a later revision of its Lean development and audited the
 statement of its main theorem. The competition result has no claim page of its
-own: the site's remark records it without an author or a citation of its
-published solution, and the only proof of it the corpus links is that Lean
+own: the erdosproblems.com remark records it without an author or a citation of
+its published solution, and the only proof of it the corpus links is that Lean
 file, which declares itself a formalization of the competition's solution and
 names no informal author; the Alexeev page carries the result, dated by the
 file's publication. Mahler's theorem [Ma35], that $P(n(n+1))\to\infty$, gives
@@ -127,11 +129,11 @@ by this project. Of the Lean files, this corpus built only the revision of
 theorem, the strange-pairs theorem; the statements of its formalizations of
 Tong's and Sampaio's results are not audited, and the formal-conjectures
 statement file and the other Lean files are not built here. The Rotkiewicz
-attribution in the site's remarks is untraced (see References).
+attribution in the erdosproblems.com remarks is untraced (see References).
 
-**Status search.** The site's page, its public revision history and thread, the
-formal-conjectures statement file and the Lean postings; no literature database
-searched.
+**Status search.** The erdosproblems.com page, its public revision history and
+thread, the formal-conjectures statement file and the Lean postings; no
+literature database searched.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

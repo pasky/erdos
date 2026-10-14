@@ -61,12 +61,12 @@ the Erdős--Gallai and Andrásfai bound quoted on p. 358, whose exact form
 $\lfloor(n-1)^2/4\rfloor+1$ is Lemma 1 of the paper's [2]
 ([[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|lemma_1]]).
 
-**In the problem's notation.** With $g(r)=\hat g_3(r)$, (10) is the site's
-$\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$. Part (a) also
-shows that for every $t$ the condition of Problem 1011 is not vacuous for
-large $n$: a triangle-free graph of chromatic number at least $t$ exists,
-and adding isolated vertices keeps it triangle-free with the same chromatic
-number (a one-line observation made here).
+**In the problem's notation.** With $g(r)=\hat g_3(r)$, (10) is
+erdosproblems.com's $\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$.
+Part (a) also shows that for every $t$ the condition of Problem 1011 is not
+vacuous for large $n$: a triangle-free graph of chromatic number at least $t$
+exists, and adding isolated vertices keeps it triangle-free with the same
+chromatic number (a one-line observation made here).
 
 **Source.** M. Simonovits, Extremal graph problems with symmetrical extremal
 graphs. Additional chromatic conditions, Discrete Math. 7 (1974), no. 3--4,
@@ -88,8 +88,8 @@ is independently reviewed.
 None in the paper for (10); the remark points to a comparison of
 $\hat g_3$ with the $g_3$ of Erdős's 1959 paper. The legitimacy claim in (a)
 is the printed two-line argument from the paper's [10]. Sharper bounds,
-$g(r)\asymp r^2\log r$, are derived on the site's discussion thread for
-Problem 1011 from later work; that derivation is recorded on the problem
+$g(r)\asymp r^2\log r$, are derived on the erdosproblems.com discussion thread
+for Problem 1011 from later work; that derivation is recorded on the problem
 page, not here.
 
 ## Dependencies
@@ -102,8 +102,8 @@ comparison is carried out in the paper.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1011/_index|Problem 1011]]: the bounds
-  $\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$ that the site
+  $\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$ that erdosproblems.com
   attributes to the paper, printed as display (10) with no proof, and the
-  legitimacy of the site's $g(r)$ for every $r$. Part (c) records that
+  legitimacy of erdosproblems.com's $g(r)$ for every $r$. Part (c) records that
   Simonovits regarded the $K_4$ analogue as unsolved; nothing in the remark
   determines $g(r)$, so the problem stays open.

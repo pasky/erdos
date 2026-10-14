@@ -59,6 +59,6 @@ Theorem 8 of the paper.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: the site's "for all
-  $t\ge1$ we have $h_t(d)\le\frac32d^t+1$", the general upper bound; the
-  trivial bound is $2\Delta^t$ (p. 1).
+- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]:
+  erdosproblems.com's "for all $t\ge1$ we have $h_t(d)\le\frac32d^t+1$", the
+  general upper bound; the trivial bound is $2\Delta^t$ (p. 1).

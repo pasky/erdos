@@ -135,7 +135,7 @@ independently reviewed.
   contains neither a complete subgraph of order $r$ nor two independent
   edges then $\chi(G)\le\binom r2$", p. 296 of
   [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/_index|elzahar_1985_existence_two_nonneighboring_subgraphs_graph]]),
-  their $f(r,2)$ being the site's $d(r,2)$. A filing observation, not a
+  their $f(r,2)$ being erdosproblems.com's $d(r,2)$. A filing observation, not a
   review verdict: their sentence after next, "The slightly stronger result
   $f(r+1,2)\le f(r,2)+r$ is implicit in [2]", is their reading of the
   proof's split $\chi(G)\le\binom\omega2+\omega$; the note prints no
@@ -160,17 +160,16 @@ is independently reviewed.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1111/_index|#1111]]: the Theorem
 (printed p. 345, PDF p. 1), "If the graph $G$ does not contain the
 complement of a chordless 4-cycle as an induced subgraph, then
-$\chi(G)\le\binom{\omega(G)+1}2$", is the source the site's commentary names
-for $d(t,2)\le\binom t2+1$: two anticomplete sets of chromatic number at
-least $2$ contain two independent edges, an induced $K_2\cup K_2$, so a
-graph with $\omega(G)<t$ and no such sets has $\chi(G)\le\binom t2$. The
-bound is sharp for $t=2$ and $t=3$ ($d(2,2)=2$; $d(3,2)=4$, the 5-cycle of
-the note's own sharpness remark, p. 346) and not for $t=4$, where the note
-leaves $\chi\in\{5,6\}$ open for $\omega=3$ and El-Zahar and Erdős report
-$f(4,2)=5$. The recursion $d(t+1,2)\le d(t,2)+t$ that the site quotes from
-El-Zahar and Erdős is not a printed statement of the note. The problem page
-reads the Theorem on the page image with its proof; nothing is independently
-reviewed.
+$\chi(G)\le\binom{\omega(G)+1}2$", is the source the erdosproblems.com
+commentary names for $d(t,2)\le\binom t2+1$: two anticomplete sets of chromatic
+number at least $2$ contain two independent edges, an induced $K_2\cup K_2$, so
+a graph with $\omega(G)<t$ and no such sets has $\chi(G)\le\binom t2$. The bound
+is sharp for $t=2$ and $t=3$ ($d(2,2)=2$; $d(3,2)=4$, the 5-cycle of the note's
+own sharpness remark, p. 346) and not for $t=4$, where the note leaves
+$\chi\in\{5,6\}$ open for $\omega=3$ and El-Zahar and Erdős report $f(4,2)=5$.
+The recursion $d(t+1,2)\le d(t,2)+t$ that erdosproblems.com quotes from El-Zahar
+and Erdős is not a printed statement of the note. The problem page reads the
+Theorem on the page image with its proof; nothing is independently reviewed.
 
 **Results.**
 

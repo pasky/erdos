@@ -27,10 +27,10 @@ updated: 2026-10-08T01:29:59Z
 such that every graph of chromatic number $\geq f(k,r)$ contains a subgraph of
 girth $\geq r$ and chromatic number $\geq k$?
 
-**Status.** Labeled open on the site, with the label OPEN. The page was last
-edited 23 January 2026. On 27 September 2026 the curator posted the
-Conjectures.io claim below on the site's proof-claims forum without endorsing
-it. The derived standing rests on the accepted claim page of
+**Status.** Labeled open on erdosproblems.com, with the label OPEN. The page was
+last edited 23 January 2026. On 27 September 2026 the curator posted the
+Conjectures.io claim below on the erdosproblems.com proof-claims forum without
+endorsing it. The derived standing rests on the accepted claim page of
 [[problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer|Kohlmeyer and Kruer's Lean counterexample family]],
 published under the handle JenW1N and certified by Conjectures.io in September
 2026. The family gives, for every $M$, a finite graph of chromatic number at
@@ -75,19 +75,19 @@ the record page displays the same statement.
 
 ## Current assessment
 
-The site's formulation asks, for every $r\geq4$ and $k\geq2$, for a finite
-$f(k,r)$ such that every graph of chromatic number at least $f(k,r)$ contains a
-subgraph of girth at least $r$ and chromatic number at least $k$; the site
-attributes the conjecture to Erdős and Hajnal, records Rödl's proof of the
-$r=4$ case, notes (as of its last edit, 23 January 2026) that the infinite
-version (a subgraph of infinite chromatic number and girth above $k$ inside
-every graph of infinite chromatic number) is open, and adds Erdős's further
-question from [Er79b] whether $f(k,r+1)/f(k,r)\to\infty$ as $k\to\infty$.
-The Statement has a positive answer only if every pair $(k,r)$ works, so one
-failing pair refutes it. For the $r=4$ case, Steiner's preprint of August 2026
-(its claim page is linked above) proves $f(k,4)\le e^{k^{3+o(1)}}$ for all
-large $k$ through multicolor Ramsey numbers of odd cycles, where Rödl's proof
-gives a tower of height $\Theta(k^2\log k)$; the preprint is not refereed.
+The erdosproblems.com formulation asks, for every $r\geq4$ and $k\geq2$, for a
+finite $f(k,r)$ such that every graph of chromatic number at least $f(k,r)$
+contains a subgraph of girth at least $r$ and chromatic number at least $k$;
+erdosproblems.com attributes the conjecture to Erdős and Hajnal, records Rödl's
+proof of the $r=4$ case, notes (as of its last edit, 23 January 2026) that the
+infinite version (a subgraph of infinite chromatic number and girth above $k$
+inside every graph of infinite chromatic number) is open, and adds Erdős's
+further question from [Er79b] whether $f(k,r+1)/f(k,r)\to\infty$ as
+$k\to\infty$. The Statement has a positive answer only if every pair $(k,r)$
+works, so one failing pair refutes it. For the $r=4$ case, Steiner's preprint of
+August 2026 (its claim page is linked above) proves $f(k,4)\le e^{k^{3+o(1)}}$
+for all large $k$ through multicolor Ramsey numbers of odd cycles, where Rödl's
+proof gives a tower of height $\Theta(k^2\log k)$; the preprint is not refereed.
 
 **The counterexample.** The certified proof refutes the pair $r=5$, $k=7$: for
 every $M$ there is a finite graph of chromatic number at least $M$ all of whose
@@ -145,16 +145,16 @@ finite-graph and an all-graphs reading of "every graph". Conjectures.io records
 the proof as verified on 15 September 2026 (Lean kernel, axioms `propext`,
 `Quot.sound` and `Classical.choice` only, a static scan finding no imports,
 axiom declarations, `sorry`, `native_decide` or unsafe options, one kernel
-implementation with the site's second kernel not run), its review as approved on
-16 September 2026 on two independent agent assessments with no fresh Lean
-replay, and the record as certified on 17 September 2026 with the bounty paid.
-That certification is reported, not counted: the result has no refereed
+implementation with Conjectures.io's second kernel not run), its review as
+approved on 16 September 2026 on two independent agent assessments with no fresh
+Lean replay, and the record as certified on 17 September 2026 with the bounty
+paid. That certification is reported, not counted: the result has no refereed
 publication, no erdosproblems.com acceptance and no formal-conjectures catalog
 agreement (the formal-conjectures file at the revision linked above agrees with
 the statement the site prints and marks the problem research open with
-`answer(sorry)`). The site labeled the problem OPEN; its forum has carried the
-claim since 27 September 2026 with the curator's note that they have not
-verified it, and a comment of 2 October 2026 links the Nguyen–Walczak note.
+`answer(sorry)`). Bloom's catalog labeled the problem OPEN; its forum has
+carried the claim since 27 September 2026 with the curator's note that they have
+not verified it, and a comment of 2 October 2026 links the Nguyen–Walczak note.
 
 **The proof file.** The accepted file has 1,846 lines. Its final theorem is the
 negation of the formal-conjectures statement, instantiated at $r=5$ and $k=7$.

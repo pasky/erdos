@@ -135,9 +135,9 @@ rewritten and none is reviewed; the preprint's claims carry the
 qualification stated in the read status and disclosure paragraphs.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0206/_index|#206]] (Theorem 1 addresses
-the rational companion question that the site's commentary lists as open;
-the erdosproblems.com problem itself, the almost-all question, is answered by
-the first author's paper in J. Number Theory 268 (2025)),
+the rational companion question that the erdosproblems.com commentary lists as
+open; the erdosproblems.com problem itself, the almost-all question, is answered
+by the first author's paper in J. Number Theory 268 (2025)),
 [[../wiki/problems/unit_fractions/E0315/_index|#315]] (the case $\lambda=1$ of
 Corollary 3, whose uniqueness hypothesis the paper takes from the
 Curtiss--Takenouchi theorem, contains the problem's statement, widened from

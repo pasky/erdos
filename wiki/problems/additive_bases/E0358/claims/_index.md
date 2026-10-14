@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 358, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_bases/E0358/claims
@@ -22,7 +22,7 @@ not fix it.
 
 [[problems/additive_bases/E0358/claims/2026_02_23_tao|2026_02_23_tao]]: Terence Tao gives a probabilistic construction of a set of positive integers
 in which every large $n$ is a sum of consecutive elements in at least
-$c\log n$ ways, for a constant $c>0$, answering both questions yes. The site
-records it as proved (Lean).
+$c\log n$ ways, for a constant $c>0$, answering both questions yes.
+erdosproblems.com records it as proved (Lean).
 
 ***

@@ -22,20 +22,20 @@ updated: 2026-10-08T02:16:54Z
 
 $$R(C_4,K_n) \ll n^{2-c}.$$
 
-**Formulation.** The site's wording (page last edited 7 March 2026).
+**Formulation.** The erdosproblems.com wording (page last edited 7 March 2026).
 $R(C_4,K_n)$ is the least $N$ such that every $2$-coloring of the edges of $K_N$
 has a red $C_4$ or a blue $K_n$; equivalently, the least $N$ such that every
 $C_4$-free graph on $N$ vertices has $n$ independent vertices, which is the form
 the sources use. Erdős's original wording (1978, printed p. 34) is that for
 $n>n_0(\varepsilon)$, $r(C_4,K_n)<n^{2-\varepsilon}$ for some $\varepsilon>0$
-independent of $n$; the site's $\ll n^{2-c}$ says the same thing. The question
-is whether the exponent $2$ can be lowered by a fixed amount; savings by powers
-of $\log n$ do not answer it. The trivial bounds are quadratic: [EFRS78] Theorem
-1 with $m=4$ gives $R(C_4,K_n)\le(2n+5)(n-1)$.
+independent of $n$; erdosproblems.com's $\ll n^{2-c}$ says the same thing. The
+question is whether the exponent $2$ can be lowered by a fixed amount; savings
+by powers of $\log n$ do not answer it. The trivial bounds are quadratic:
+[EFRS78] Theorem 1 with $m=4$ gives $R(C_4,K_n)\le(2n+5)(n-1)$.
 
-**Status.** Open, the site's label. The search whose scope the Current
-assessment records found no proof, disproof, preprint or proof claim for the
-exact statement. This is a bounded negative finding, not a certificate of
+**Status.** Open, the erdosproblems.com label. The search whose scope the
+Current assessment records found no proof, disproof, preprint or proof claim for
+the exact statement. This is a bounded negative finding, not a certificate of
 openness. The known bounds are, for all large $n$,
 
 $$
@@ -45,9 +45,9 @@ $$
 where the lower bound is [BoKe10] Theorem 1.9 (arXiv p. 7) inverted at $\ell=4$,
 as the Lower bounds paragraph of the Current assessment shows. It is a factor
 $(\log n)^{1/2}$ above Spencer's earlier $c(n/\log n)^{3/2}$ (Theorem 3.1 of
-[Sp77], printed p. 75), the lower bound the site displays. The upper bound is
-[CLRZ00] Corollary 3 (i) at $m=2$ (p. 53), which gives the order
-$n^2/(\log n)^2$ that the site displays. [Er84d] (display (33), p. 67)
+[Sp77], printed p. 75), the lower bound erdosproblems.com displays. The upper
+bound is [CLRZ00] Corollary 3 (i) at $m=2$ (p. 53), which gives the order
+$n^2/(\log n)^2$ that erdosproblems.com displays. [Er84d] (display (33), p. 67)
 attributes that order to an observation of Szemerédi from the
 Ajtai--Komlós--Szemerédi independence lemma, without a printed proof. [CLRZ00]
 (pp. 51--52) confirms the attribution and says the original proof "was never
@@ -56,12 +56,12 @@ published, and its details were subsequently forgotten". It then prints one.
 saves a fixed power of $n$.
 
 **Source.** [erdosproblems.com/159](https://www.erdosproblems.com/159), accessed
-2026-09-17: the problem page (labeled OPEN, with the site's note that no finite
-computation can settle it; prize offered; last edited 7 March 2026; source keys
-[Er78, p. 34], [Er81], [Er84d]), its empty discussion thread and its empty
-proof-claim tab. The site cites [EFRS78] and [Sp77] in its commentary. Cite as:
-T. F. Bloom, Erdős Problem #159, https://www.erdosproblems.com/159, accessed
-2026-09-17.
+2026-09-17: the problem page (labeled OPEN, with the erdosproblems.com note that
+no finite computation can settle it; prize offered; last edited 7 March 2026;
+source keys [Er78, p. 34], [Er81], [Er84d]), its empty discussion thread and its
+empty proof-claim tab. erdosproblems.com cites [EFRS78] and [Sp77] in its
+commentary. Cite as: T. F. Bloom, Erdős Problem #159,
+https://www.erdosproblems.com/159, accessed 2026-09-17.
 
 **References.**
 
@@ -101,17 +101,18 @@ T. F. Bloom, Erdős Problem #159, https://www.erdosproblems.com/159, accessed
   arXiv:1909.01461v2 (29 September 2019). Cited from the arXiv abstract; the
   citation record lists a journal version, not compared.
 - [Er81] Erdős, P., On the combinatorial problems which I would most like to
-  see solved. Combinatorica 1 (1981), 25--42. Site source key; Part V, display
-  (2), "Prove that $r(K(n),C(4))<n^{2-\varepsilon}$"; the journal page of the
-  passage is not recorded. Library home:
+  see solved. Combinatorica 1 (1981), 25--42. erdosproblems.com source key; Part
+  V, display (2), "Prove that $r(K(n),C(4))<n^{2-\varepsilon}$"; the journal
+  page of the passage is not recorded. Library home:
   [[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|erdos_1981_combinatorial_problems_which_i_would_most]].
 - [Er84d] Erdős, P., Extremal problems in number theory, combinatorics and
   geometry. Proceedings of the International Congress of Mathematicians
-  (Warsaw, 1983), Vol. 1 (1984), 51--70. Site source key; displays (31)--(33)
-  on printed pp. 66--67: the conjecture $r(K(m),C_4)<m^{2-\varepsilon}$, the
-  unproved $r(K(m),C_4)/r(K(m),C_3)\to0$ and "Szemerédi recently observed that
-  $r(K(m),C_4)<cm^2/(\log m)^2$", derived from the Ajtai--Komlós--Szemerédi
-  independence lemma; no proof is printed. Library home:
+  (Warsaw, 1983), Vol. 1 (1984), 51--70. erdosproblems.com source key; displays
+  (31)--(33) on printed pp. 66--67: the conjecture
+  $r(K(m),C_4)<m^{2-\varepsilon}$, the unproved $r(K(m),C_4)/r(K(m),C_3)\to0$
+  and "Szemerédi recently observed that $r(K(m),C_4)<cm^2/(\log m)^2$", derived
+  from the Ajtai--Komlós--Szemerédi independence lemma; no proof is printed.
+  Library home:
   [[../library/additive_bases/erdos_1984_extremal_problems_number_theory/_index|erdos_1984_extremal_problems_number_theory]].
 
 **Formalization.** Statement only. The file
@@ -133,7 +134,8 @@ bound to Szemerédi, as mentioned in [EFRS78], and the lower bound to Spencer
 [Sp77], and lists the problem as number 17 under Ramsey theory in the graphs
 problem collection. There are no comments and no proof claims. The community
 database record says open (last updated 31 August 2025), statement formalized,
-no formal proof; its prize field says "no" although the site shows a prize.
+no formal proof; its prize field says "no" although erdosproblems.com shows a
+prize.
 
 **Origin.** Printed p. 34 of Erdős's 1978 problem paper records the bounds (4)
 $c_1n^2/(\log n)^2<r(C_3,K_n)<c_2n^2\log\log n/\log n$ for the triangle and
@@ -156,12 +158,12 @@ is $(2n+5)(n-1)$, quadratic.
 (p. 58): $r(C_4,K_n)<c(n\log\log n/\log n)^2$ as $n\to\infty$, a result "first
 obtained by Spencer and one of the authors [P. E.], but the proof has not been
 published", proved on pp. 58--60 by the method of Graver and Yackel; the
-introduction calls it "a further modest improvement". This saves a factor $(\log
-n/\log\log n)^2$ and no power of $n$. The site attributes the sharper order
-$n^2/(\log n)^2$ to Szemerédi and names [EFRS78] as the paper that mentions it;
-the paper does not mention Szemerédi anywhere, and its closing summary (p. 64)
-states only $r(C_m,K_n)<c_2n^{1+1/[(m-1)/2]}$, which is $n^2$ for $m=4$. The
-proof of the $n^2/(\log n)^2$ order is printed in [CLRZ00]:
+introduction calls it "a further modest improvement". This saves a factor
+$(\log n/\log\log n)^2$ and no power of $n$. erdosproblems.com attributes the
+sharper order $n^2/(\log n)^2$ to Szemerédi and names [EFRS78] as the paper that
+mentions it; the paper does not mention Szemerédi anywhere, and its closing
+summary (p. 64) states only $r(C_m,K_n)<c_2n^{1+1/[(m-1)/2]}$, which is $n^2$
+for $m=4$. The proof of the $n^2/(\log n)^2$ order is printed in [CLRZ00]:
 [[../library/ramsey_theory/caro_2000_asymptotic_bounds_some_bipartite_graph_complete_graph_ramsey_numbers/corollary_3|Corollary 3]]
 (i) (p. 53) gives $r(K_{2,m},K_n)\le(m-1+o(1))(n/\log n)^2$ for $m\ge2$ as
 $n\to\infty$, and $K_{2,2}=C_4$, so $r(C_4,K_n)\le(1+o(1))(n/\log n)^2$. It is
@@ -183,8 +185,8 @@ the exponent $2$.
 for fixed $m$ and $n$ sufficiently large, $r(\le C_m,K_n)\ge c(n/\log
 n)^{(m-1)/(m-2)}$, where $r(\le C_m,K_n)$ forbids every cycle of length between
 $3$ and $m$; since $r(\le C_m,K_n)\le r(C_m,K_n)$ (p. 64), the case $m=4$ gives
-$R(C_4,K_n)\ge c(n/\log n)^{3/2}$, the site's lower bound. [Sp77] itself states
-the $C_4$ case directly as
+$R(C_4,K_n)\ge c(n/\log n)^{3/2}$, erdosproblems.com's lower bound. [Sp77]
+itself states the $C_4$ case directly as
 [[../library/ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_3_1|Theorem 3.1]]
 (p. 75), "$r(C_4,K_t)\ge c(t/\ln t)^{3/2}$", for $t\to\infty$ with $c$
 absolute, and the quoted general bound is its
@@ -232,9 +234,9 @@ different problem.
 **Search scope.** The status rests on these routes; none found a fixed-power
 saving, a disproof or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-17; the community database record; the formal-conjectures file at the
-  pinned commit.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-17; the community database record; the formal-conjectures
+  file at the pinned commit.
 - The primary sources: [Er78] printed pp. 29--31 and 34, [EFRS78] pp. 53--64
   and [BoKe10] arXiv v1 pp. 1 and 4--5.
 - arXiv: the abstract page of 0908.0429 (v1 only, no journal reference);
@@ -253,28 +255,28 @@ saving, a disproof or a proof claim.
   values $R(C_4,K_9)$ and $R(C_4,K_{10})$. Its search endpoint answered HTTP
   429 and was not used.
 - One scripted request each to the publisher's open archive for [Sp77] and
-  [CLRZ00] (both HTTP 403); two general web searches (nothing beyond the site's
-  own page).
+  [CLRZ00] (both HTTP 403); two general web searches (nothing beyond
+  erdosproblems.com's own page).
 
 Not searched: MathSciNet, Google Scholar, X. Not compared: the Inventiones text
 of [BoKe10]. [Er81] and [Er84d] (pp. 66--67) are cited at their passages on
 this problem; [CLRZ00] (printed pp. 51--56) and [Sp77] (printed pp. 69--76) are
 cited from the publisher's open archive.
 
-**Remaining gaps.** (1) The site's attribution of the $n^2/(\log n)^2$ upper
-bound to Szemerédi is printed in [Er84d], display (33), p. 67, as an observation
-with no proof and no citation, and confirmed in [CLRZ00], pp. 51--52, which
-prints a proof as Corollary 3 (i); that proof rests on the Li--Rousseau
-independence bound (J. Combin. Theory Ser. B 68 (1996), 36--44), not held, so
-the bound is claims-checked and not proof-verified here; reopening condition for
-the depth: a copy of the 1996 paper. (2) The lower bound is recorded at
-statement depth from [Sp77] Theorem 3.1 and Theorem 3.3 (p. 75), whose proofs
-the paper only sketches with no explicit constant, and on [BoKe10] Theorem 1.3
-and Theorem 1.9 in its arXiv version; [CLRZ00] Note 1 (p. 54) quotes the same
-order from a 1987 paper, not held. (3) Proof coverage: the proof of [EFRS78]
-Theorem 2 was followed for structure only, and no proof here is rewritten or
-independently reviewed; there is no resolving proof to compile. (4) The Lean
-file is a statement, not a proof.
+**Remaining gaps.** (1) The erdosproblems.com attribution of the
+$n^2/(\log n)^2$ upper bound to Szemerédi is printed in [Er84d], display (33),
+p. 67, as an observation with no proof and no citation, and confirmed in
+[CLRZ00], pp. 51--52, which prints a proof as Corollary 3 (i); that proof rests
+on the Li--Rousseau independence bound (J. Combin. Theory Ser. B 68 (1996),
+36--44), not held, so the bound is claims-checked and not proof-verified here;
+reopening condition for the depth: a copy of the 1996 paper. (2) The lower bound
+is recorded at statement depth from [Sp77] Theorem 3.1 and Theorem 3.3 (p. 75),
+whose proofs the paper only sketches with no explicit constant, and on [BoKe10]
+Theorem 1.3 and Theorem 1.9 in its arXiv version; [CLRZ00] Note 1 (p. 54) quotes
+the same order from a 1987 paper, not held. (3) Proof coverage: the proof of
+[EFRS78] Theorem 2 was followed for structure only, and no proof here is
+rewritten or independently reviewed; there is no resolving proof to compile. (4)
+The Lean file is a statement, not a proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -64,5 +64,5 @@ the proceedings of the thirteenth Southeastern conference on combinatorics,
 graph theory and computing (Boca Raton, 1982), and no evidence that the
 volume was refereed is recorded, so `refereed` is not listed; the record
 carries no month, so this page is dated to the first day of the year. The
-site's curator lists the brooms in the commentary, but the label DISPROVED
-credits the disproof, not this case, so `reviewed` is not listed.
+erdosproblems.com curator lists the brooms in the commentary, but the label
+DISPROVED credits the disproof, not this case, so `reviewed` is not listed.

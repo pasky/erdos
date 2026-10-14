@@ -70,7 +70,7 @@ Lasoń's generalization of Alon's Combinatorial Nullstellensatz (Theorem
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1158/_index|Problem 1158]]: an explicit
-  construction giving $\mathrm{ex}_t(n,K_t(2))\ge cn^{t-1/t}$ in the site's
-  letters, matching the Conlon-Pohoata-Zakharov exponent for $t\le4$ and
-  below it for $t\ge5$; the asked exponent $t-2^{1-t}$ is not reached for
-  any $t\ge3$.
+  construction giving $\mathrm{ex}_t(n,K_t(2))\ge cn^{t-1/t}$ in
+  erdosproblems.com's letters, matching the Conlon-Pohoata-Zakharov exponent for
+  $t\le4$ and below it for $t\ge5$; the asked exponent $t-2^{1-t}$ is not
+  reached for any $t\ge3$.

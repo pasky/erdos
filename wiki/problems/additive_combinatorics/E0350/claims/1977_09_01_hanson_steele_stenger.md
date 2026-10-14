@@ -5,7 +5,7 @@ desc: |
   A two-page note by Hanson, Steele and Stenger (Proc. Amer. Math. Soc. 1977)
   proves that a set $A$ with distinct subset sums has
   $\sum_{n\in A}n^{-s}<1/(1-2^{-s})$ for every $s>0$, and $s=1$ is the problem's
-  bound. It is accepted on the publication and the site's credit.
+  bound. It is accepted on the publication and the erdosproblems.com credit.
 authors:
 - F. Hanson
 - J. M. Steele
@@ -42,8 +42,8 @@ settles the problem by a second route. The powers of two show that the
 constant is sharp for every $s$, since $\sum_{i\ge0}2^{-is}=1/(1-2^{-s})$.
 The statement is quoted on the problem page from the 1980 monograph of Erdős
 and Graham (p. 60), which writes "for all real $s\ge0$", and
-from the site's commentary; at $s=0$ the right side is infinite and the
-inequality empty, which is why the formal-conjectures variant
+from the erdosproblems.com commentary; at $s=0$ the right side is infinite and
+the inequality empty, which is why the formal-conjectures variant
 `erdos_350.variants.strengthening` takes $s>0$. The Crossref record's
 deposited abstract says that such a set has a precisely bounded Dirichlet
 series. The library holds no copy of the note, and no page of this wiki
@@ -53,11 +53,12 @@ records its argument.
 
 **Acceptance.** Refereed publication: Proceedings of the American Mathematical
 Society 66 (1977), no. 1, 179--180, issued September 1977 (Crossref record,
-2026-10-07). That is the date of this page. Reviewed: the site's curator (T. F.
-Bloom) recorded the stronger statement as proved by Hanson, Steele and Stenger
-in the problem page's commentary (read 2026-09-18). Erdős and Graham report it
-as a recent strengthening of Ryavec's theorem in the 1980 monograph (p. 60). The
-acceptance rests on the publication record and these two reports, not on the
-note itself. The problem's status-defining source is Ryavec's proof on
+2026-10-07). That is the date of this page. Reviewed: the erdosproblems.com
+curator (T. F. Bloom) recorded the stronger statement as proved by Hanson,
+Steele and Stenger in the problem page's commentary (read 2026-09-18). Erdős and
+Graham report it as a recent strengthening of Ryavec's theorem in the 1980
+monograph (p. 60). The acceptance rests on the publication record and these two
+reports, not on the note itself. The problem's status-defining source is
+Ryavec's proof on
 [[problems/additive_combinatorics/E0350/claims/1974_04_01_benkoski_erdos|the Benkoski--Erdős page]].
 This page records the second, stronger route.

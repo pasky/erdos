@@ -38,43 +38,44 @@ $$
 
 Estimate $f(n)$ and $F(n)$. In particular, is it true that $F(n)/n\to \infty$?
 
-**Formulation.** The site's wording (page last edited 11 April 2026). $R(K_3,G)$
-is the least $N$ such that every two-coloring of the edges of $K_N$ contains a
-red triangle or a blue copy of $G$; for connected $G$ on $n$ vertices
+**Formulation.** The erdosproblems.com wording (page last edited 11 April 2026).
+$R(K_3,G)$ is the least $N$ such that every two-coloring of the edges of $K_N$
+contains a red triangle or a blue copy of $G$; for connected $G$ on $n$ vertices
 $R(K_3,G)\ge2n-1$ always, so the equation asks for equality, which the sources
 call $G$ being $3$-good (or $K_3$-good). The letters follow Erdős's 1978 problem
 paper, $f$ for the threshold reached by some graph and $F$ for the threshold
 every graph meets. Burr, Erdős, Faudree, Rousseau and Schelp write $f(n)$ for
-the site's $F(n)$ and $g(n)$ for the site's $f(n)$, and Brandt writes $f(n,3)$
-and $g(n,3)$ in their sense; every bound below is written in the site's letters.
-Erdős's 1978 definitions (printed p. 33) do not require $G$ to be connected and
-write $r(K_3;G(n;\ell))\le2n-1$; the connected form is the 1980 paper's.
-Trivially $F(n)\le f(n)$, and Chvátal's theorem for trees gives $F(n)\ge n-1$
-(the site's remark; Chvátal's paper is not held). Chvátal's bound has no claim
-page: the 1980 bound $(17n+1)/15$ supersedes it for every $n\ge4$, and for
-$n\le3$ the 1980 table gives the exact values, so it settles nothing the 1980
-page does not.
+erdosproblems.com's $F(n)$ and $g(n)$ for erdosproblems.com's $f(n)$, and Brandt
+writes $f(n,3)$ and $g(n,3)$ in their sense; every bound below is written in
+erdosproblems.com's letters. Erdős's 1978 definitions (printed p. 33) do not
+require $G$ to be connected and write $r(K_3;G(n;\ell))\le2n-1$; the connected
+form is the 1980 paper's. Trivially $F(n)\le f(n)$, and Chvátal's theorem for
+trees gives $F(n)\ge n-1$ (the erdosproblems.com remark; Chvátal's paper is not
+held). Chvátal's bound has no claim page: the 1980 bound $(17n+1)/15$ supersedes
+it for every $n\ge4$, and for $n\le3$ the 1980 table gives the exact values, so
+it settles nothing the 1980 page does not.
 
-**Status.** Open, in the site's label, which attaches to the estimation problem.
-Subject to Brandt's pending bound, $F(n)$ is known to within a constant factor,
-between $17n/15$ and $84n$ for large $n$, but not asymptotically. $f(n)$ is not
-known to within a constant factor. Its bounds are $n^{3/2}(\log n)^{1/2}$ and
-$n^{3/2}\log n$ up to constants, a factor $(\log n)^{1/2}$ apart. The
-frontmatter's standing is derived from the claim pages. Two proof claims of
-September 2026 on the site's tab are recorded on their claim pages. One is a
-full claim by Qiyuan Gu asserting the order of $f(n)$
-([[problems/ramsey_theory/E1182/claims/2026_09_10_gu|Gu 2026]]). The other is a
-partial claim by Pravar Kataria tightening the constants for $F(n)$
+**Status.** Open, in the erdosproblems.com label, which attaches to the
+estimation problem. Subject to Brandt's pending bound, $F(n)$ is known to within
+a constant factor, between $17n/15$ and $84n$ for large $n$, but not
+asymptotically. $f(n)$ is not known to within a constant factor. Its bounds are
+$n^{3/2}(\log n)^{1/2}$ and $n^{3/2}\log n$ up to constants, a factor
+$(\log n)^{1/2}$ apart. The frontmatter's standing is derived from the claim
+pages. Two proof claims of September 2026 on the erdosproblems.com tab are
+recorded on their claim pages. One is a full claim by Qiyuan Gu asserting the
+order of $f(n)$ ([[problems/ramsey_theory/E1182/claims/2026_09_10_gu|Gu 2026]]).
+The other is a partial claim by Pravar Kataria tightening the constants for
+$F(n)$
 ([[problems/ramsey_theory/E1182/claims/2026_09_28_kataria|Kataria 2026]]). Both
 are unreviewed, and the frontmatter's `claimed` standing is derived from the
 pending full claim. The closing question has the answer no if a 1996 preprint of
 Brandt is right that $F(n)<84n$ for all large $n$, since then $F(n)/n$ is
 bounded. The source is a preprint (Freie Universität Berlin, Preprint A 96-24),
-read in a converted copy that the library does not hold. The site's commentary
-says that it answers the final question in the negative, but it does so under
-the label OPEN, which is not acceptance. So the bound is a pending partial
-claim, and the pending negative answer to the closing question is recorded here.
-The bounds the sources state are
+read in a converted copy that the library does not hold. The erdosproblems.com
+commentary says that it answers the final question in the negative, but it does
+so under the label OPEN, which is not acceptance. So the bound is a pending
+partial claim, and the pending negative answer to the closing question is
+recorded here. The bounds the sources state are
 
 $$
 \frac{17n+1}{15}\le F(n)<84n,\qquad
@@ -85,8 +86,8 @@ with the lower bound on $F$ for all $n\ge4$ and the other three for large $n$.
 The sources are Burr, Erdős, Faudree, Rousseau and Schelp 1980 (Ars Combin.,
 refereed), an accepted partial claim on
 [[problems/ramsey_theory/E1182/claims/1980_01_01_burr_erdos_faudree_rousseau_schelp|its claim page]],
-and Brandt 1996, a preprint. Brandt's bound and the site's note on it are
-recorded on
+and Brandt 1996, a preprint. Brandt's bound and the erdosproblems.com note on it
+are recorded on
 [[problems/ramsey_theory/E1182/claims/1996_12_01_brandt|its claim page]]. The
 upper bound on $f(n)$ is superseded by Sudakov's theorem of 2007 (SIAM J.
 Discrete Math., refereed). That paper is not held, and its statement is used as
@@ -99,13 +100,14 @@ accepted partial claim on
 [[problems/ramsey_theory/E1182/claims/2007_06_27_sudakov|its claim page]].
 
 **Source.** [erdosproblems.com/1182](https://www.erdosproblems.com/1182),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no finite
-computation can settle it; last edited 11 April 2026; source keys [Er78, p. 33],
-[BEFRS80]; commentary citing [Br96]), its three-comment discussion thread
-(14--15 March 2026) and its proof-claim tab with one full-proof claim (submitted
-10 September 2026); by 2026-10-06 the thread had four comments and the tab two
-claims, the label and the commentary unchanged. Cite as: T. F. Bloom, Erdős
-Problem #1182, https://www.erdosproblems.com/1182, accessed 2026-09-18.
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; last edited 11 April 2026; source keys
+[Er78, p. 33], [BEFRS80]; commentary citing [Br96]), its three-comment
+discussion thread (14--15 March 2026) and its proof-claim tab with one
+full-proof claim (submitted 10 September 2026); by 2026-10-06 the thread had
+four comments and the tab two claims, the label and the commentary unchanged.
+Cite as: T. F. Bloom, Erdős Problem #1182, https://www.erdosproblems.com/1182,
+accessed 2026-09-18.
 
 **References.**
 
@@ -167,28 +169,29 @@ google-deepmind/formal-conjectures (main, fetched 2026-09-18T10:41:20Z;
 673 entries, was listed in full), and the community database
 ([teorth/erdosproblems](https://github.com/teorth/erdosproblems/blob/5466d4a29b4971ce39df3a41e3b618d853d3ec3a/data/problems.yaml))
 records the problem open (last updated 7 March 2026), not formalized, with no
-formal proof. The site's "Formalised statement?" indicator reads "No". The proof
-claim below says a Lean formalization was generated; its Zenodo record carries
-it, Gu's claim page links it, and it has not been built here.
+formal proof. erdosproblems.com's "Formalised statement?" indicator reads "No".
+The proof claim below says a Lean formalization was generated; its Zenodo record
+carries it, Gu's claim page links it, and it has not been built here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18T10:39Z).** The statement above;
-OPEN; last edited 11 April 2026. The commentary attributes the problem to Burr,
-Erdős, Faudree, Rousseau and Schelp, records $f(n)\ge F(n)$, $R(K_3,G)\ge2n-1$
-for connected $G$ and $F(n)\ge n-1$ from Chvátal's theorem, quotes [BEFRS80]'s
-$\frac{17n+1}{15}\le F(n)\le(\frac{27}4+o(1))n(\log n)^2$ (the lower bound
-holding for all $n\ge4$), Brandt's improvement $F(n)\le84n$ with the author's
-expectation $2n<F(n)<6n$ for large $n$ (which the commentary notes answers the
-final question in the negative), [BEFRS80]'s $n^{3/2}(\log n)^{1/2}\ll f(n)\ll
-n^{5/3}(\log n)^{2/3}$, the values $1,2,5,7,8$ and $1,2,5,8,12$ for
-$n=2,\ldots,6$, and the general $K_m$ bounds $n^{2/(m-1)}\ll F_m(n)-n\ll
-n^{4/(m+1)+o(1)}$ and $n^{1+1/(m-1)}\ll f_m(n)\ll n^{1+2/m+o(1)}$. The thread
-(three comments, 14--15 March 2026) reports a reconstruction of Brandt's
-preprint in LaTeX and links to the `.dvi` and `.ps` files on the Freie
-Universität preprint server; the site's commentary was updated in response. The
-proof-claim tab carries one full-proof claim (below). The community database
-record of 2026-09-18 says open (7 March 2026) and not formalized.
+**The question (erdosproblems.com formulation of 2026-09-18T10:39Z).** The
+statement above; OPEN; last edited 11 April 2026. The commentary attributes the
+problem to Burr, Erdős, Faudree, Rousseau and Schelp, records $f(n)\ge F(n)$,
+$R(K_3,G)\ge2n-1$ for connected $G$ and $F(n)\ge n-1$ from Chvátal's theorem,
+quotes [BEFRS80]'s $\frac{17n+1}{15}\le F(n)\le(\frac{27}4+o(1))n(\log n)^2$
+(the lower bound holding for all $n\ge4$), Brandt's improvement $F(n)\le84n$
+with the author's expectation $2n<F(n)<6n$ for large $n$ (which the commentary
+notes answers the final question in the negative), [BEFRS80]'s
+$n^{3/2}(\log n)^{1/2}\ll f(n)\ll n^{5/3}(\log n)^{2/3}$, the values $1,2,5,7,8$
+and $1,2,5,8,12$ for $n=2,\ldots,6$, and the general $K_m$ bounds
+$n^{2/(m-1)}\ll F_m(n)-n\ll n^{4/(m+1)+o(1)}$ and
+$n^{1+1/(m-1)}\ll f_m(n)\ll n^{1+2/m+o(1)}$. The thread (three comments, 14--15
+March 2026) reports a reconstruction of Brandt's preprint in LaTeX and links to
+the `.dvi` and `.ps` files on the Freie Universität preprint server; the
+erdosproblems.com commentary was updated in response. The proof-claim tab
+carries one full-proof claim (below). The community database record of
+2026-09-18 says open (7 March 2026) and not formalized.
 
 **Origin.** Erdős's 1978 problem paper, Section 4, printed p. 33: "Denote by
 $f(n)$ the largest integer for which there is a $G(n,f(n))$ so that"
@@ -200,15 +203,17 @@ $\varepsilon$), then "Let $F(n)$ be the largest integer so that for every
 $\ell\le F(n)$ and every $G(n;\ell)$" the displayed $r(K_3;G(n;\ell))\le2n-1$
 holds, and on p. 34: "Clearly $f(n)\ge F(n)$. It seems certain that
 $f(n)/F(n)\to\infty$, $F(n)/n\to\infty$. We have no idea of the true order of
-magnitude of $F(n)$ and $f(n)$." This is the site's key [Er78, p. 33]; the
-closing question of the site is the second of Erdős's 1978 expectations, which
-Brandt's pending bound would refute. The 1978 lower bound $cn\log n/\log\log n$
-for $f(n)$ carries no reference and was superseded in 1980. The 1980 paper then
-defines the connected versions, tabulates the small values and proves the bounds
-below, and singles out the same question in its Section 5
+magnitude of $F(n)$ and $f(n)$." This is the erdosproblems.com key [Er78, p.
+33]; the closing question of erdosproblems.com is the second of Erdős's 1978
+expectations, which Brandt's pending bound would refute. The 1978 lower bound
+$cn\log n/\log\log n$ for $f(n)$ carries no reference and was superseded
+in 1980. The 1980 paper then defines the connected versions, tabulates the small
+values and proves the bounds below, and singles out the same question in its
+Section 5
 ([[../library/ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/question_p202|Question, p. 202]]):
 "It is particularly annoying that we have not been able to answer this question.
-Does $f(n)/n\to\infty$ as $n\to\infty$?", in its letters, the site's $F$.
+Does $f(n)/n\to\infty$ as $n\to\infty$?", in its letters, erdosproblems.com's
+$F$.
 
 **The threshold for every graph, $F(n)$.**
 [[../library/ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_1|Theorem 1]]
@@ -219,7 +224,7 @@ large, $F(n)<(27/4+\varepsilon)n(\log n)^2$, from a $K_l$ with a path attached
 and Spencer's lower bound $r(K_3,K_t)\ge(1/27-o(1))(t/\ln t)^2$
 ([[../library/ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_2_1|Theorem 2.1]]
 of [Sp77], printed p. 72; the paper credits the order to Erdős and the constant
-is its own). The site's $(27/4+o(1))$ is the same statement. Brandt's
+is its own). erdosproblems.com's $(27/4+o(1))$ is the same statement. Brandt's
 [[../library/ramsey_theory/brandt_1996_expanding_graphs_ramsey_numbers/bound_p7|bound]]
 (preprint pp. 4 and 7--8): $F(n)<84n$ for all sufficiently large $n$, because
 for almost every $d$-regular graph $H$ of order $n$ with $d\ge168$ one has
@@ -232,13 +237,13 @@ answer to "is it true that $F(n)/n\to\infty$?" is no. Brandt adds, without
 proof, that a refined analysis "not presented here" gives $F(n)/n<11.75$, that
 the author expects $2<F(n)/n<6$ for large $n$, and that computer experiments
 suggest $F(n)/n>3/2$ for larger $n$; these are the author's remarks and not
-results. The site's label OPEN belongs to the estimation problem, and the
-pending negative answer to the closing question is recorded in the Status
-paragraph above. Brandt's bound has no acceptance evidence: the site's
-commentary (updated April 2026) notes it under the label OPEN, which is not
-acceptance, and no refereed version, citation with a proof check or independent
-review was found, so the preprint qualification applies to this half of the
-account; the claim page
+results. The erdosproblems.com label OPEN belongs to the estimation problem, and
+the pending negative answer to the closing question is recorded in the Status
+paragraph above. Brandt's bound has no acceptance evidence: the
+erdosproblems.com commentary (updated April 2026) notes it under the label OPEN,
+which is not acceptance, and no refereed version, citation with a proof check or
+independent review was found, so the preprint qualification applies to this half
+of the account; the claim page
 [[problems/ramsey_theory/E1182/claims/1996_12_01_brandt|Brandt 1996]] records
 the bound as a pending partial claim.
 
@@ -270,52 +275,53 @@ n/\log\log n$ and $n^{5/3+\varepsilon}$) are weaker on the lower side and equal
 on the upper side up to the logarithm.
 
 **Small values.** Table I of [BEFRS80] (printed p. 194): for $n=2,3,4,5,6$,
-$F(n)=1,2,5,7,8$ and $f(n)=1,2,5,8,12$, the site's values. The paper attributes
-the $n=5$ row to Clancy [Cl77] ($K_5-P_3$ is $3$-good, $K_5-2K_2$ is not) and
-the $n=6$ row to the determination of all $r(K_3,G)$ for connected $G$ of order
-six by three of the authors ($K_6-P_4$ is $3$-good; the $(6,9)$ graph $K_6-2K_3$
-is not), p. 195; neither paper is held. A lead beyond the table: the thread
-comment of 28 September 2026 cites [BBH98], which determines $r(K_3,G)$ for
-every connected graph of order $9$ and for some graphs up to order $12$ (per the
-journal's abstract), and reads from it exact values of both functions through
-$n=12$, namely $F(n)=1,2,5,7,8,11,11,16,18,23,23$ and
+$F(n)=1,2,5,7,8$ and $f(n)=1,2,5,8,12$, erdosproblems.com's values. The paper
+attributes the $n=5$ row to Clancy [Cl77] ($K_5-P_3$ is $3$-good, $K_5-2K_2$ is
+not) and the $n=6$ row to the determination of all $r(K_3,G)$ for connected $G$
+of order six by three of the authors ($K_6-P_4$ is $3$-good; the $(6,9)$ graph
+$K_6-2K_3$ is not), p. 195; neither paper is held. A lead beyond the table: the
+thread comment of 28 September 2026 cites [BBH98], which determines $r(K_3,G)$
+for every connected graph of order $9$ and for some graphs up to order $12$ (per
+the journal's abstract), and reads from it exact values of both functions
+through $n=12$, namely $F(n)=1,2,5,7,8,11,11,16,18,23,23$ and
 $f(n)=1,2,5,8,12,16,20,27,33,41,49$ for $n=2,\ldots,12$, with an independent
 recomputation through $n=9$ and certificates for $F(13)\le24$ through
 $F(18)\le44$. The paper is not held and the comment's reading of its tables is
 unchecked against it; the values are recorded as a lead, not as verified.
 
 **General $m$ (context).** Theorem 3 of [BEFRS80] (printed p. 202), stated
-"without further discussion" and without proof in the paper, gives the
-site's bounds for the $K_m$ versions of $F$ and $f$; Brandt's preprint
-records from [BEFRS80] that $F_m(n)=n+o(n)$ for $m\ge4$ and that $f_m(n)$ is
-superlinear for every fixed $m$ (p. 4). Sudakov's theorem with $s=m$
-sharpens the site's upper bound on $f_m(n)$: for the $K_m$ version, where
-goodness means $R(K_m,G)=(m-1)(n-1)+1$, a good connected $G$ with $e$ edges
-has $c(e/\log e)^{(m+1)/(m+3)}\le(m-1)n$, so
+"without further discussion" and without proof in the paper, gives
+erdosproblems.com's bounds for the $K_m$ versions of $F$ and $f$; Brandt's
+preprint records from [BEFRS80] that $F_m(n)=n+o(n)$ for $m\ge4$ and that
+$f_m(n)$ is superlinear for every fixed $m$ (p. 4). Sudakov's theorem with $s=m$
+sharpens erdosproblems.com's upper bound on $f_m(n)$: for the $K_m$ version,
+where goodness means $R(K_m,G)=(m-1)(n-1)+1$, a good connected $G$ with $e$
+edges has $c(e/\log e)^{(m+1)/(m+3)}\le(m-1)n$, so
 $f_m(n)=O(n^{1+2/(m+1)}\log n)$, below $n^{1+2/m+o(1)}$ (the same one-line
 deduction). Brandt's Theorems 1--2 (for every nonbipartite $G$, goodness
 fails for almost every $d$-regular graph once $d$ is large enough in terms
 of $G$) refute three goodness conjectures of Burr and of Burr and Erdős and are the
 context of the paper's bound, not this problem.
 
-**Unreviewed full claim (September 2026).** The site's proof-claim tab carries a
-full claim by Qiyuan Gu, submitted 10 September 2026, which the site has not
-examined. Its manuscript, a Zenodo record, asserts that the least $R(K_3,G)$
-over graphs $G$ with $m$ edges has order $m^{2/3}/(\log m)^{1/3}$, which the
-claimant attributes to Sudakov as a conjecture, by the early triangle-free
-process with a martingale estimate and a passage to subgraphs, and deduces
-$f(n)=\Theta(n^{3/2}(\log n)^{1/2})$ for this problem, which with
-$F(n)=\Theta(n)$ the claimant counts as determining both orders. Its notes say
-that GPT-6 Astra proposed the proofs and generated a Lean formalization, which
-the Zenodo record carries and the claim page links. The manuscript is not
-compiled here; the claim has no comments, and the site's label and commentary
-are unchanged. It is recorded on
+**Unreviewed full claim (September 2026).** The erdosproblems.com proof-claim
+tab carries a full claim by Qiyuan Gu, submitted 10 September 2026, which
+erdosproblems.com has not examined. Its manuscript, a Zenodo record, asserts
+that the least $R(K_3,G)$ over graphs $G$ with $m$ edges has order
+$m^{2/3}/(\log m)^{1/3}$, which the claimant attributes to Sudakov as a
+conjecture, by the early triangle-free process with a martingale estimate and a
+passage to subgraphs, and deduces $f(n)=\Theta(n^{3/2}(\log n)^{1/2})$ for this
+problem, which with $F(n)=\Theta(n)$ the claimant counts as determining both
+orders. Its notes say that GPT-6 Astra proposed the proofs and generated a Lean
+formalization, which the Zenodo record carries and the claim page links. The
+manuscript is not compiled here; the claim has no comments, and the
+erdosproblems.com label and commentary are unchanged. It is recorded on
 [[problems/ramsey_theory/E1182/claims/2026_09_10_gu|its claim page]], whose
 pending full claim gives the frontmatter its `claimed` standing; it is not
-accepted by the site or by a named mathematician, and nothing here depends on
-it. If correct it would close the factor $(\log n)^{1/2}$ that Sudakov's upper
-bound leaves above the 1980 lower bound, showing that lower bound to be of the
-right order; the Zenodo record's related identifiers cite [Su07].
+accepted by erdosproblems.com or by a named mathematician, and nothing here
+depends on it. If correct it would close the factor $(\log n)^{1/2}$ that
+Sudakov's upper bound leaves above the 1980 lower bound, showing that lower
+bound to be of the right order; the Zenodo record's related identifiers cite
+[Su07].
 
 **Unreviewed partial claim (September 2026).** The tab also carries a
 partial claim by Pravar Kataria, submitted 29 September 2026 with a note
@@ -329,15 +335,15 @@ made using Claude Fable 5.1 (Anthropic), and the claimant's notes say that
 system produced the arguments, code and write-up under Kataria's direction. It
 is recorded, with its provenance, on
 [[problems/ramsey_theory/E1182/claims/2026_09_28_kataria|its claim page]];
-the site's label was unchanged (OPEN; page last edited 11 April 2026), and
-nothing here adopts the claim.
+the erdosproblems.com label was unchanged (OPEN; page last edited 11 April
+2026), and nothing here adopts the claim.
 
 **Search scope.** None of the routes below found a bound
 on $F(n)$ or $f(n)$ improving those above in a refereed source, a journal
 version of Brandt's preprint, or a dispute of its bound.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures (no file for this problem); the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing of formal-conjectures (no file for this problem); the
   community database of 2026-09-18.
 - The primary sources: [BEFRS80] printed pp. 193--198 and 202; [Br96] pp. 1--4
   and 7--9; [Er78] printed pp. 33--35.

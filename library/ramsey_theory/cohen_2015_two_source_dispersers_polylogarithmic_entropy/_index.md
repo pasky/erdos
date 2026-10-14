@@ -31,7 +31,7 @@ the paper's explicit bipartite Ramsey graphs.
 
 G. Cohen, *Two-Source Dispersers for Polylogarithmic Entropy and Improved
 Ramsey Graphs*. Electronic Colloquium on Computational Complexity (2015),
-as the site cites it (the report number was not checked); conference
+as erdosproblems.com cites it (the report number was not checked); conference
 version in the Proceedings of the 48th Annual ACM Symposium on Theory of
 Computing (STOC 2016), 278--284, DOI 10.1145/2897518.2897530; journal
 version SIAM J. Comput. 50 (2021), no. 3, STOC16-30--STOC16-67, DOI
@@ -141,8 +141,8 @@ explicit constructions. Theorem 1.2 gives an explicit bipartite
 $2^{(\log\log n)^{O(1)}}$-Ramsey graph; through the paper's unproved remark that
 a bipartite Ramsey graph induces a Ramsey graph with comparable parameters (p.
 1), this inverts to a constructive $R(k)$ bound far below the exponential target
-$R(k)>C^k$. The problem page records that the site's author reads "explicit" in
-this paper's sense (p. 1).
+$R(k)>C^k$. The problem page records that erdosproblems.com's author reads
+"explicit" in this paper's sense (p. 1).
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

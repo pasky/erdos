@@ -125,11 +125,11 @@ symmetrizations to a disk.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E0352/_index|Problem 352]]: Problem 5.1
-  is the problem's question with "measure greater than $C$" in place of the
-  site's "measure $\ge c$", together with Erdős's conjectured constant $c_0$.
-  The cases $n\le3$ answer the question, with any constant greater than
-  $c_0$, for sets that are the union of the interiors of at most three
-  compact convex sets, and show that no constant below $c_0$ serves even
+  is the problem's question with "measure greater than $C$" in place of
+  erdosproblems.com's "measure $\ge c$", together with Erdős's conjectured
+  constant $c_0$. The cases $n\le3$ answer the question, with any constant
+  greater than $c_0$, for sets that are the union of the interiors of at most
+  three compact convex sets, and show that no constant below $c_0$ serves even
   there. The stated equivalence with Problem 5.2 needs every $n$, so the
   section does not settle the general question. The problem page records
   this as a claimed partial result in

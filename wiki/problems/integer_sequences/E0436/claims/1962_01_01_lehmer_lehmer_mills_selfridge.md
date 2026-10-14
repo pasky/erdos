@@ -68,9 +68,9 @@ $\Lambda(k,2)$ or $\Lambda(k,3)$ in $k$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Mathematics of Computation, a refereed journal, cited
-with its venue above. The site added the credit to its commentary after a
-comment of 24 October 2025 on its discussion thread (page last edited 25 October
-2025). The site labeled the problem OPEN, so the credit is not `reviewed`
-evidence. The page is dated by the publication year, since the record gives only
-the year. The machine case analysis carries no independent review in this
-corpus.
+with its venue above. erdosproblems.com added the credit to its commentary after
+a comment of 24 October 2025 on its discussion thread (page last edited 25
+October 2025). Bloom's catalog labeled the problem OPEN, so the credit is not
+`reviewed` evidence. The page is dated by the publication year, since the record
+gives only the year. The machine case analysis carries no independent review in
+this corpus.

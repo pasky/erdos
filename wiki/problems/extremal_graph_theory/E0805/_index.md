@@ -28,7 +28,7 @@ contains a clique of size $\geq \log n$ and an independent set of size $\geq
 
 In particular, is there such a graph for $g(n)=(\log n)^3$?
 
-**Status.** Open. The site labeled the problem OPEN. Two refereed partial
+**Status.** Open. Bloom's catalog labeled the problem OPEN. Two refereed partial
 results have claim pages.
 [[problems/extremal_graph_theory/E0805/claims/2007_06_27_alon_sudakov|Alon and Sudakov]]
 show that no such graph exists for $g(n)\le c(\log n)^3/\log\log n$, and
@@ -48,21 +48,21 @@ https://www.erdosproblems.com/805.
   independence numbers. J. Graph Theory (2007), 149-157.
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and applications,
-  Vol. 1 (Kalamazoo, MI, 1988), Wiley (1991), 397--406. The site's source for
-  the problem; [AlSu07] (its [3]) and [ABS21] (its [13]) cite it for the
-  question.
+  Vol. 1 (Kalamazoo, MI, 1988), Wiley (1991), 397--406. The erdosproblems.com
+  source for the problem; [AlSu07] (its [3]) and [ABS21] (its [13]) cite it for
+  the question.
 
 **Formalization.** None recorded.
 
 ## Current assessment
 
-The site's formulation asks for a suitable graph on $n$ vertices such that
-every subset of size $g(n)$ contains **both** a clique and an independent set
-of the required logarithmic size. These are two requirements on the same
-subset; disjointness is not required. The site credits the question to Erdős
-and Hajnal ([Er91]) and reports their belief that no such graph exists when
-$g(n)=(\log n)^3$; [AlSu07] records this as their conjecture. The problem is
-open, including the particular choice $g(n)=(\log n)^3$. The published
+The erdosproblems.com formulation asks for a suitable graph on $n$ vertices such
+that every subset of size $g(n)$ contains **both** a clique and an independent
+set of the required logarithmic size. These are two requirements on the same
+subset; disjointness is not required. erdosproblems.com credits the question to
+Erdős and Hajnal ([Er91]) and reports their belief that no such graph exists
+when $g(n)=(\log n)^3$; [AlSu07] records this as their conjecture. The problem
+is open, including the particular choice $g(n)=(\log n)^3$. The published
 [[../library/extremal_graph_theory/alon_2021_large_cliques_independent_sets_all_over/_index|Alon–Bucić–Sudakov paper]]
 explicitly leaves that case open on p. 3146, and its construction below does
 not reach that threshold.

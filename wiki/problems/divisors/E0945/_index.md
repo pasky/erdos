@@ -58,17 +58,17 @@ https://www.erdosproblems.com/945.
 
 ## Current assessment
 
-The site labeled the problem OPEN (page last edited 5 October 2025). Erdős and
-Mirsky [ErMi52] prove
+Bloom's catalog labeled the problem OPEN (page last edited 5 October 2025).
+Erdős and Mirsky [ErMi52] prove
 $(\log x)^{1/2}/\log\log x\ll F(x)\ll\exp(O((\log x)^{1/2}/\log\log x))$
 ([[../library/divisors/erdos_1952_distribution_values_divisor_function/_index|card]]);
 the upper bound comes from their count of the distinct values of $\tau$ up to
-$x$. A note by Adrian Beker, linked in the site's thread on 3 October 2025,
-lowers the upper bound to $\exp(O((\log x)^{1/3+o(1)}))$. Neither bound
-decides whether $F(x)\le(\log x)^{O(1)}$, so neither is a claim. The site also
-reports Cambie's observation that Cramér's conjecture, or a squarefree number in
-every interval of length $\gg\log x$ in $[x,2x]$, would give
-$F(x)\ll(\log x)^2$. That is a conditional yes to whether
+$x$. A note by Adrian Beker, linked in the erdosproblems.com thread on 3 October
+2025, lowers the upper bound to $\exp(O((\log x)^{1/3+o(1)}))$. Neither bound
+decides whether $F(x)\le(\log x)^{O(1)}$, so neither is a claim.
+erdosproblems.com also reports Cambie's observation that Cramér's conjecture, or
+a squarefree number in every interval of length $\gg\log x$ in $[x,2x]$, would
+give $F(x)\ll(\log x)^2$. That is a conditional yes to whether
 $F(x)\le(\log x)^{O(1)}$, but no manuscript of it is linked, so it has no
 claim page. Erdős [Er85e] said the lower bound could be raised to
 $(\log x)^{1-o(1)}$ but gave no proof.

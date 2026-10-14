@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 1190, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/covering_systems/E1190/claims
@@ -19,7 +19,7 @@ The paper is refereed, and Ho's sharp estimate supersedes these bounds.
 [[problems/covering_systems/E1190/claims/2026_04_23_ho|2026_04_23_ho]]: Boon Suan Ho's 2026 manuscript, written with GPT-5.4 Pro, proves that the
 supremum of reciprocal sums over disjoint classes with distinct moduli above
 $m$ is $\exp\bigl(-(1+o(1))\sqrt{\log m\log\log m}\bigr)$. It is accepted on
-the site's credit.
+the erdosproblems.com credit.
 
 [[problems/covering_systems/E1190/claims/2026_04_28_zribi|2026_04_28_zribi]]: Malek Zribi's five-page note of 28 April 2026, written with GPT-5.5, derives
 the sharp estimate for the reciprocal-sum supremum from the sharp asymptotic

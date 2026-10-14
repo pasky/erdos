@@ -73,11 +73,11 @@ is the version cited here. The page is named by the original's year, which
 the record gives alone.
 
 **Acceptance.** Refereed: the paper appeared in Matematicheskii Sbornik, with
-its translation in Mathematics of the USSR-Sbornik. Reviewed: the site's
-curator, T. F. Bloom, labeled the problem solved and records that Gol'dberg and
-Eremenko disproved it with the functions of Theorems 1 and 2. Hayman and
-Lingham's 2018 survey of Hayman's problems (Update 2.41) records the problem as
-completely solved by this paper. Toppila's 1980 note has
+its translation in Mathematics of the USSR-Sbornik. Reviewed: the
+erdosproblems.com curator, T. F. Bloom, labeled the problem solved and records
+that Gol'dberg and Eremenko disproved it with the functions of Theorems 1 and 2.
+Hayman and Lingham's 2018 survey of Hayman's problems (Update 2.41) records the
+problem as completely solved by this paper. Toppila's 1980 note has
 [[problems/analysis/E1115/claims/1980_02_01_toppila|its own claim page]]. The
 survey cites that note as an independent proof, and the note acknowledges this
 paper's priority. Nothing here is independently reviewed by this project.
@@ -95,8 +95,8 @@ $O(r)$ inside the disc of radius $r$; the file also keeps the construction's
 escaping barriers in the conclusion. Its header says that the reconstruction
 of the paper and the correspondence with the file are in a TeX file of the
 repository. This corpus has not built or audited the development, so no
-`formalized` evidence is listed; the site shows no formalized statement for
-the problem.
+`formalized` evidence is listed; erdosproblems.com shows no formalized statement
+for the problem.
 
 **Depends on.** Nothing on the wiki. The proofs use Runge-type polynomial
 approximation and standard value-distribution estimates, cited on the

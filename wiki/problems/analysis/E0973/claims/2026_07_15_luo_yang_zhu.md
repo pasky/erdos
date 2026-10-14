@@ -70,14 +70,14 @@ Pro" as the AI used:
 > warmly welcome comments, corrections, and further discussion from the
 > community.
 
-**Standing.** The result was filed on the site's proof-claims tab on 15 July
-2026 by Ruiyi Yang (login RayYoung) for the three authors, with an Overleaf
-write-up; the tab names GPT 5.6 Sol Pro, and the claim's notes say that
+**Standing.** The result was filed on the erdosproblems.com proof-claims tab on
+15 July 2026 by Ruiyi Yang (login RayYoung) for the three authors, with an
+Overleaf write-up; the tab names GPT 5.6 Sol Pro, and the claim's notes say that
 generative AI assisted the exploratory stage and that the authors then rewrote
 the proof. The arXiv preprint followed on 24 July 2026 and listed no journal
-reference on 2026-10-07. The site's label was unchanged (OPEN; page last
-edited 23 January 2026, before the claim) and its commentary does not name the
-authors, so no reviewer is named and the claim stays claimed. The
+reference on 2026-10-07. The erdosproblems.com label was unchanged (OPEN; page
+last edited 23 January 2026, before the claim) and its commentary does not name
+the authors, so no reviewer is named and the claim stays claimed. The
 formal-conjectures statement file for the problem marks it research solved with
 the answer no, citing this paper, and leaves its own proof unfilled; a statement
 file is not a formalization and is recorded here only in prose.

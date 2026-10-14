@@ -24,8 +24,8 @@ updated: 2026-10-08T00:44:25Z
 weights to the points such that the sum of the weights of the points along every
 line containing at least two points is the same?
 
-**Status.** Solved. The site credits Ackerman, Buchin, Knauer, Pinchasi and
-Rote, whose Theorem 1 proves Murty's conjectured list of configurations. The
+**Status.** Solved. erdosproblems.com credits Ackerman, Buchin, Knauer, Pinchasi
+and Rote, whose Theorem 1 proves Murty's conjectured list of configurations. The
 accepted claim is
 [[problems/discrete_geometry/E0735/claims/2007_06_06_ackerman_buchin_knauer_pinchasi_rote|their classification]].
 

@@ -3,8 +3,8 @@ name: problems/primes/E0860/claims/1980_06_13_erdos_pomerance
 title: Erdős and Pomerance's upper bound n^{3/2}/(log n)^{1/2}
 desc: |
   Erdős and Pomerance (Indag. Math. 1980) prove
-  $h(n)\ll n^{3/2}/(\log n)^{1/2}$, the upper bound that the site's commentary
-  records. The result is refereed and partial.
+  $h(n)\ll n^{3/2}/(\log n)^{1/2}$, the upper bound that the erdosproblems.com
+  commentary records. The result is refereed and partial.
 authors:
 - Paul Erdős
 - Carl Pomerance
@@ -38,7 +38,7 @@ $$
 
 from its uniform bound (17) taken with $k=\pi(n)$. Since
 $h_{\mathcal P}(n)$ is the $h(n)$ of
-[[problems/primes/E0860/_index|Problem 860]] less one (the site's open
+[[problems/primes/E0860/_index|Problem 860]] less one (erdosproblems.com's open
 interval holds $h(n)-1$ integers), this is $h(n)\ll n^{3/2}/(\log n)^{1/2}$.
 The paper sets it against the Erdős--Selfridge lower bound, its display
 (19), and writes that the authors do not know how to narrow the gap between
@@ -50,7 +50,7 @@ magnitude of $h(n)$, which the problem asks to estimate, stays open.
 
 **Acceptance.** The result is refereed: Indag. Math. (Proc.) 83 (1980),
 147--161. It appeared in the issue headed 13 June 1980, which dates this page.
-The site's commentary records the bound on a problem it labeled open, which is
-not acceptance.
+The erdosproblems.com commentary records the bound on a problem it labeled open,
+which is not acceptance.
 
 **Depends on.** Nothing on this wiki; the argument is the paper's own.

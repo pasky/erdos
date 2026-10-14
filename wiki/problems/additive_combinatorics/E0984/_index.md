@@ -31,16 +31,16 @@ $$
 is a $k$-term monochromatic arithmetic progression then $k\ll_\epsilon
 a^\epsilon$ for all $\epsilon>0$?
 
-**Status.** Proved. The label is the site's (PROVED, page last edited 4 April
-2026), and its commentary credits Zach Hunter's proof on the
-discussion thread. The standing is derived from the claim page. The accepted
-claim is Hunter's $2$-coloring of 10 August 2025, on
+**Status.** Proved. The label is erdosproblems.com's (PROVED, page last edited 4
+April 2026), and its commentary credits Zach Hunter's proof on the discussion
+thread. The standing is derived from the claim page. The accepted claim is
+Hunter's $2$-coloring of 10 August 2025, on
 [[problems/additive_combinatorics/E0984/claims/2025_08_10_hunter|its claim page]],
-accepted on the site's label. In this coloring, every monochromatic $k$-term
-progression starting at $a$ has at most $\exp((\log a)^{1/2+o(1)})$ terms. No
-write-up outside the thread was found on 2026-10-07. The site also records two
-earlier results: Spencer's three-color version with a very slowly growing bound,
-and Erdős's two-coloring with $k\ll a^{1-c}$.
+accepted on the erdosproblems.com label. In this coloring, every monochromatic
+$k$-term progression starting at $a$ has at most $\exp((\log a)^{1/2+o(1)})$
+terms. No write-up outside the thread was found on 2026-10-07. erdosproblems.com
+also records two earlier results: Spencer's three-color version with a very
+slowly growing bound, and Erdős's two-coloring with $k\ll a^{1-c}$.
 
 **Source.** [erdosproblems.com/984](https://www.erdosproblems.com/984), accessed
 2026-09-04; page and thread read 2026-10-07 (page last edited 4 April 2026);
@@ -53,17 +53,17 @@ https://www.erdosproblems.com/984.
   Discrete Math. 6 (1980), 89-115; p. 92. Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 
-**Formalization.** No formal-conjectures statement: the site's indicator
-reads No. A Lean 4 development in Boris Alexeev's lean-proofs repository
-declares itself a formalization of Hunter's proof and is linked on
+**Formalization.** No formal-conjectures statement: the erdosproblems.com
+indicator reads No. A Lean 4 development in Boris Alexeev's lean-proofs
+repository declares itself a formalization of Hunter's proof and is linked on
 [[problems/additive_combinatorics/E0984/claims/2025_08_10_hunter|the claim page]];
 it is not among the Lean the corpus has built and audited.
 
 ## Current assessment
 
 **Settled by Hunter's two-coloring of 10 August 2025, accepted on the
-curator's credit.** The site formulation above (page last edited 4 April
-2026, read 2026-10-07) asks for a $2$-coloring of $\mathbb{N}$ under which
+curator's credit.** The erdosproblems.com formulation above (page last edited 4
+April 2026, read 2026-10-07) asks for a $2$-coloring of $\mathbb{N}$ under which
 every monochromatic $k$-term progression starting at $a$ has
 $k\ll_\epsilon a^\epsilon$ for every $\epsilon>0$. The answer is yes:
 Zach Hunter's coloring, posted on the discussion thread, gives every such
@@ -73,8 +73,8 @@ colorings of Green and of Hunter, with the roles of the colors exchanged
 between odd and even $t$. It is recorded on
 [[problems/additive_combinatorics/E0984/claims/2025_08_10_hunter|the claim
 page]] as an accepted full claim with `reviewed` as its only evidence: the
-site's curator credits the proof, and no write-up outside the thread was
-found on 2026-10-07. Earlier, Spencer had proved the three-color version
+erdosproblems.com curator credits the proof, and no write-up outside the thread
+was found on 2026-10-07. Earlier, Spencer had proved the three-color version
 with a very slowly growing bound in place of $a^\epsilon$, and Erdős
 ([Er80], p. 92) reports a $2$-coloring with $k\ll a^{1-c}$ for an absolute
 $c>0$ and no nontrivial lower bound. Hunter's post names the exponent $1/2$

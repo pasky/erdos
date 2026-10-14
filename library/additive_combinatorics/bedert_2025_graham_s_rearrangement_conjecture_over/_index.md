@@ -57,7 +57,8 @@ Theorems 1.3, 1.4, 1.5 and 7.1, Lemma A.1 and Theorem A.2 (pp. 2--3, 25,
 and the other proofs were not read. Theorem 7.1, the extremely dense case
 $|S|\ge N-N^{1-\gamma}$, is labeled "([36])" and proved in Appendix A from Lemma
 6.22 and the method of Theorem 6.9 of Müyesser and Pokrovskiy; it is the
-explicit form of the site's very large range for Problem 475. Result pages:
+explicit form of erdosproblems.com's very large range for Problem 475. Result
+pages:
 [[additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_1_4|theorem_1_4]]
 and
 [[additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_7_1|theorem_7_1]].

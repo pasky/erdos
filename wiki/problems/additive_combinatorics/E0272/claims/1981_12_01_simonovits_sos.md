@@ -41,12 +41,12 @@ t(N)\le\binom{N-1}{2}+\frac{\pi^2}{24}N^2+O(N^{5/3}\log^3N)
 =\left(\frac{\pi^2}{24}+\frac12+o(1)\right)N^2,
 $$
 
-so $t(N)\ll N^2$, the bound the site's commentary credits to the paper. The
-proof deduces Theorem 3 from Theorem 4, a bound $aN-\binom a2+O(N^{5/3}\log^3N)$
-on families of non-progressions of size at most $a$ with empty total
-intersection, applied with $a=N^{2/3}$, together with a count of the
-progression members grouped by common difference, which supplies the
-$\pi^2/24$ term. The paper also refutes the guess of Erdős and Graham that
+so $t(N)\ll N^2$, the bound the erdosproblems.com commentary credits to the
+paper. The proof deduces Theorem 3 from Theorem 4, a bound
+$aN-\binom a2+O(N^{5/3}\log^3N)$ on families of non-progressions of size at most
+$a$ with empty total intersection, applied with $a=N^{2/3}$, together with a
+count of the progression members grouped by common difference, which supplies
+the $\pi^2/24$ term. The paper also refutes the guess of Erdős and Graham that
 the maximum is attained by all arithmetic progressions in $\{1,\ldots,N\}$
 through a fixed element, which number about $(\pi^2/24)N^2$: all sets of at
 most three elements containing a fixed element form an admissible family of
@@ -74,10 +74,10 @@ page.
 **Acceptance.** Refereed: European Journal of Combinatorics 2 (1981), no. 4,
 363--372, at the DOI linked above. The publication record dates the issue to
 December 1981, so the date was filled to the first of the month for this page's
-name. Reviewed is not listed. The site labeled the problem OPEN. Its commentary
-credits the paper with $t\ll N^2$ and with the refutation of the Erdős–Graham
-guess, but that is commentary on an open problem and not acceptance of a
-solution. Formalized is not listed. The formal-conjectures catalog states the
-bound $t(N)=O(N^2)$ as the variant `isBigO_sq` in its file for the problem and
-marks it research solved. But the formal-conjectures catalog states it without a
-proof, and this corpus has built no proof of it.
+name. Reviewed is not listed. Bloom's catalog labeled the problem OPEN. Its
+commentary credits the paper with $t\ll N^2$ and with the refutation of the
+Erdős–Graham guess, but that is commentary on an open problem and not acceptance
+of a solution. Formalized is not listed. The formal-conjectures catalog states
+the bound $t(N)=O(N^2)$ as the variant `isBigO_sq` in its file for the problem
+and marks it research solved. But the formal-conjectures catalog states it
+without a proof, and this corpus has built no proof of it.

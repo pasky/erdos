@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 254, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0254/claims
@@ -21,8 +21,8 @@ angle, together with five elements in every large dyadic interval, give strong
 completeness. It is accepted on the basis of a Lean formalization, built here,
 of its version with six elements per interval.
 
-[[problems/integer_sequences/E0254/claims/2026_07_15_snyder|2026_07_15_snyder]]: Snyder's claimed Lean 4 proof of the site's statement was produced with GPT
-5.6 and posted on 15 July 2026 with a write-up and a Lean project. It is
-registered in formal-conjectures as the formal proof.
+[[problems/integer_sequences/E0254/claims/2026_07_15_snyder|2026_07_15_snyder]]: Snyder's claimed Lean 4 proof of the erdosproblems.com statement was produced
+with GPT 5.6 and posted on 15 July 2026 with a write-up and a Lean project. It
+is registered in formal-conjectures as the formal proof.
 
 ***

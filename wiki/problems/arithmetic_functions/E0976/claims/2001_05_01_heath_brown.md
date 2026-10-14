@@ -40,4 +40,4 @@ $F_f(n)\gg n^3$.
 
 **Acceptance.** Refereed: Proceedings of the London Mathematical Society 82
 (2001), no. 3. The publisher's record dates the issue May 2001, and the page
-name uses the first day of that month. The site labeled the problem OPEN.
+name uses the first day of that month. Bloom's catalog labeled the problem OPEN.

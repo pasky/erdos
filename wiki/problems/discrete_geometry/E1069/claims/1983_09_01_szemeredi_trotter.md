@@ -4,8 +4,8 @@ title: Szemerédi and Trotter's bound on k-rich lines
 desc: |
   Theorem 2 of Szemerédi and Trotter shows that for $2\le k\le\sqrt n$, any $n$
   points in the plane determine fewer than $cn^2/k^3$ lines containing at least
-  $k$ of them. It was refereed in Combinatorica and is credited by the site's
-  curator.
+  $k$ of them. It was refereed in Combinatorica and is credited by the
+  erdosproblems.com curator.
 authors:
 - Endre Szemerédi
 - William T. Trotter, Jr.
@@ -42,7 +42,7 @@ points carries at least $kt$ incidences. Since $k\ge2$, each such line is
 determined by two of the points, so $t\le\binom n2$; if $t\ge n^{1/2}$,
 comparing the two bounds gives $t\le c_1^3n^2/k^3$, and if $t<n^{1/2}$, then
 $t<n^{1/2}\le n^2/k^3$ because $k\le n^{1/2}$. Either way
-$t\le\max(c_1^3,1)\,n^2/k^3$. The site's wording, whose range
+$t\le\max(c_1^3,1)\,n^2/k^3$. The erdosproblems.com wording, whose range
 $k\leq n^{1/2}$ has no lower end, fails at $k=1$, as the problem page's Notes
 record; the theorem proves the modified Statement in full. Erdős's 1987
 problem paper
@@ -53,15 +53,15 @@ and Erdős and records this proof.
 **Acceptance.** The paper is refereed: E. Szemerédi and W. T. Trotter, Jr.,
 Extremal problems in discrete geometry, Combinatorica 3 (1983), no. 3-4,
 381–392. The page is dated to the issue month, September 1983, which the
-publisher's record gives. Thomas Bloom, the site's curator, marked the problem
-solved and credits this paper on the problem's page at erdosproblems.com (page
-last edited 2025-10-02). That credit is the `reviewed` evidence. No Lean proof
-is recorded.
+publisher's record gives. Thomas Bloom, the erdosproblems.com curator, marked
+the problem solved and credits this paper on the problem's page at
+erdosproblems.com (page last edited 2025-10-02). That credit is the `reviewed`
+evidence. No Lean proof is recorded.
 
 **What remains.** The best constant is unknown. At $k=n^{1/2}$ the lattice
 points give $(2+o(1))n^{1/2}$ lines each containing $n^{1/2}$ points, which
 Erdős thought might be extremal, and Sah's construction gives
-$(3+o(1))n^{1/2}$ such lines. The site cites it as Sah, Chih-Han, The rich
-line problem of P. Erdős (1987), 123–125, without a venue; Erdős's paper says
-the construction appears for the first time in the proceedings of the Siófok
-meeting, the volume holding Erdős's own paper.
+$(3+o(1))n^{1/2}$ such lines. erdosproblems.com cites it as Sah, Chih-Han, The
+rich line problem of P. Erdős (1987), 123–125, without a venue; Erdős's paper
+says the construction appears for the first time in the proceedings of the
+Siófok meeting, the volume holding Erdős's own paper.

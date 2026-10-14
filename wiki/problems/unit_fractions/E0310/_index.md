@@ -31,21 +31,22 @@ $$
 
 with $a\leq b =O_\alpha(1)$?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page showed no
-last-edited stamp). For a fixed density $\alpha>0$ the question asks for a bound
-$B(\alpha)$ such that every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge\alpha N$
-contains a finite $S$ whose reciprocal sum is a rational $a/b$ with
-$a\le b\le B(\alpha)$: a positive rational at most $1$ whose denominator is
-bounded in terms of $\alpha$ alone. The site does not say whether $a/b$ is in
-lowest terms; the source below does not require it. For $N$ below any fixed
-bound the question is trivial (take $S=\{n\}$ for any $n\in A$), so its content
-is for large $N$. The bound cannot be $b=1$ in general: for $\alpha<1-1/e$ the
-set of integers in $((1/e+\gamma)N,N]$ has density above $\alpha$ for small
-$\gamma$ and all of its subsums are below $1$, so none is an integer (checked on
-this page from Liu and Sawhney's remark after their Theorem 1.3).
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+showed no last-edited stamp). For a fixed density $\alpha>0$ the question asks
+for a bound $B(\alpha)$ such that every $A\subseteq\{1,\ldots,N\}$ with
+$|A|\ge\alpha N$ contains a finite $S$ whose reciprocal sum is a rational $a/b$
+with $a\le b\le B(\alpha)$: a positive rational at most $1$ whose denominator is
+bounded in terms of $\alpha$ alone. erdosproblems.com does not say whether $a/b$
+is in lowest terms; the source below does not require it. For $N$ below any
+fixed bound the question is trivial (take $S=\{n\}$ for any $n\in A$), so its
+content is for large $N$. The bound cannot be $b=1$ in general: for
+$\alpha<1-1/e$ the set of integers in $((1/e+\gamma)N,N]$ has density above
+$\alpha$ for small $\gamma$ and all of its subsums are below $1$, so none is an
+integer (checked on this page from Liu and Sawhney's remark after their Theorem
+1.3).
 
-**Status.** Proved. The site's label was PROVED (LEAN). The accepted claim is
-recorded on
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN). The accepted
+claim is recorded on
 [[problems/unit_fractions/E0310/claims/2024_04_10_liu_sawhney|Liu and Sawhney's claim page]].
 The status-defining source is Liu and Sawhney's Proposition 1.4 (Int. Math. Res.
 Not. 2026, refereed). It gives an absolute $C\ge1$ with the following property.
@@ -56,10 +57,10 @@ $\sum_{n\in B}1/n=s/t$ with $1\le s\le t\le\exp(C/\alpha)$. For $\alpha>1/2$,
 the case $\alpha=1/2$ applies to any subset of $A$ of size $N/2$ (checked on
 this page).
 
-The site attributes the qualitative answer to Bloom's density theorem through
-Liu and Sawhney's observation. Their remark says that a direct application of
-Bloom's Proposition 1 gives $t=O_\alpha(1)$, and that the dependence
-$\exp(O(1/\alpha))$ is sharp.
+erdosproblems.com attributes the qualitative answer to Bloom's density theorem
+through Liu and Sawhney's observation. Their remark says that a direct
+application of Bloom's Proposition 1 gives $t=O_\alpha(1)$, and that the
+dependence $\exp(O(1/\alpha))$ is sharp.
 
 The label's Lean suffix refers to a Lean development in Boris Alexeev's
 collection. That development was authored by OpenAI Codex and names Thomas Bloom
@@ -72,12 +73,12 @@ and is described under Existing formalization. No local kernel credit is
 claimed.
 
 **Source.** [erdosproblems.com/310](https://www.erdosproblems.com/310),
-accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's
+accessed 2026-09-18: the problem page (PROVED (LEAN), with the erdosproblems.com
 banner saying the question is answered affirmatively and the proof
 verified in Lean; source key [ErGr80] with no page; no last-edited stamp;
 the formalized-statement field marked no; no OEIS entry), its empty
-discussion thread and its empty proof-claim tab. The site cites [LiSa24]
-and [Bl21] in its commentary. Cite as: T. F. Bloom, Erdős Problem #310,
+discussion thread and its empty proof-claim tab. erdosproblems.com cites
+[LiSa24] and [Bl21] in its commentary. Cite as: T. F. Bloom, Erdős Problem #310,
 https://www.erdosproblems.com/310, accessed 2026-09-18.
 
 **References.**
@@ -103,8 +104,8 @@ https://www.erdosproblems.com/310, accessed 2026-09-18.
   [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/proposition_1|proposition_1]].
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
-  28, Université de Genève (1980). The site gives no page; the passage is
-  on printed p. 40 (see Origin). Library home:
+  28, Université de Genève (1980). erdosproblems.com gives no page; the passage
+  is on printed p. 40 (see Origin). Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
 **Formalization.** A statement file and an external Lean proof; no build or
@@ -116,16 +117,16 @@ and `by sorry`, with a `formal_proof` annotation pointing at
 [`src/latest/ErdosProblems/Erdos310.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos310.lean)
 in Boris Alexeev's `lean-proofs` collection at its commit of 15 September 2026
 (the pinned link), and `erdos_310.variants.liu_sawhney`, the quantitative form
-of Proposition 1.4, `by sorry` with no pointer. On 2026-10-07 the site's page
-showed the statement as formalized, and the community database recorded the
-problem as formalized since 20 September 2026. The Alexeev file is a development
-authored by OpenAI Codex, described under Existing formalization below and
-recorded on its own claim page; no build of it is recorded, and no `formalized`
-evidence is listed.
+of Proposition 1.4, `by sorry` with no pointer. On 2026-10-07 the
+erdosproblems.com page showed the statement as formalized, and the community
+database recorded the problem as formalized since 20 September 2026. The Alexeev
+file is a development authored by OpenAI Codex, described under Existing
+formalization below and recorded on its own claim page; no build of it is
+recorded, and no `formalized` evidence is listed.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED (LEAN); no edit stamp. The commentary credits the answer to
 Liu and Sawhney [LiSa24]: they noticed that Bloom's density theorem [Bl21]
 settles the question affirmatively, and they proved the sharper form that
@@ -138,7 +139,7 @@ records status "proved (Lean)" with `formal_status`
 Lean since 24 August 2026, no formalized statement, no OEIS entry and no
 formal-proof URL.
 
-**Origin.** The site cites [ErGr80] without a page. The passage is on
+**Origin.** erdosproblems.com cites [ErGr80] without a page. The passage is on
 printed p. 40 of the monograph: "For a fixed $c>0$, suppose
 $S_c\subseteq\{1,2,\ldots,n\}$
 with $|S_c|\ge cn$. Is it true that there is a function $f(c)$ so that
@@ -184,7 +185,7 @@ the printed proof that are to be compared with the published version before
 any rewrite; the status rests on the refereed publication, and the read
 depth is claims checked.
 
-Bloom's qualitative route, as the site attributes it:
+Bloom's qualitative route, as erdosproblems.com attributes it:
 [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_2|Theorem 2]]
 (arXiv v2, p. 1; J. Eur. Math. Soc. 27 (2025); refereed, and formally
 verified by Bloom and Mehta per the paper's Appendix B) says that every
@@ -216,15 +217,15 @@ searched: MathSciNet, zbMATH, Google Scholar, X. Nothing found changes the
 status. Also read: the formal-conjectures statement file
 and the Alexeev Lean file at the commits the links under Formalization
 pin, the
-community database record (formalized since 20 September 2026) and the
-site's formalization panel.
+community database record (formalized since 20 September 2026) and
+erdosproblems.com's formalization panel.
 
 **Remaining gaps.** (1) The proof of Proposition 1.4 is compiled as a
 pointer and sketch with recorded parameter questions; the published text
 is uncompared. (2) The qualitative deduction from Bloom's Proposition 1 is
 a remark in the source, not written out in either paper. (3) Of the Lean
-proof behind the site's label, Alexeev's `Erdos310.lean`, only the top
-file is recorded, and no build of it is recorded; its imports and the
+proof behind the erdosproblems.com label, Alexeev's `Erdos310.lean`, only the
+top file is recorded, and no build of it is recorded; its imports and the
 companion `tex/310.tex` were not inspected.
 
 ## Progress and known results
@@ -248,7 +249,7 @@ companion `tex/310.tex` were not inspected.
 
 ## Existing formalization
 
-The site's (LEAN) suffix refers to the file
+erdosproblems.com's (LEAN) suffix refers to the file
 `src/latest/ErdosProblems/Erdos310.lean` in Boris Alexeev's `lean-proofs`
 collection, in the collection since 17 August 2026, at the commit of 15
 September 2026 that the link on its claim page pins; only its

@@ -100,4 +100,4 @@ Lemma 1 of the paper (proved there on pp. 49--50, not checked here).
   $|C_M|\ge|C^2_M|>M/2-3M^{1-2^{-k-1}}\ge cM$ for any fixed $c<1/2$
   once $M$ is large in terms of $k$ and $c$, the absolute constant the
   problem asks for; (ii) and (iii) are
-  the site's remarks for $k=2$.
+  the erdosproblems.com remarks for $k=2$.

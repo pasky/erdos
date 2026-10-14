@@ -28,7 +28,7 @@ $a_i\equiv t\pmod{p^2}$ implies $1\le t<p^2/2$? Erdős observes that such a
 sequence would have every $a_i+a_j$ squarefree, and doubts that it exists.
 
 **Remark 7** (p. 5). No such sequence exists. The remark says this is easy
-and was noted on the Erdős problems site under Problem 1103: by the prime
+and was noted on erdosproblems.com under Problem 1103: by the prime
 number theorem, for every large $i$ there is a prime $p$ with
 $\sqrt{a_i}<p<\sqrt{2a_i}$, and for this prime the residue $t$ of $a_i$
 modulo $p^2$ exceeds $p^2/2$.

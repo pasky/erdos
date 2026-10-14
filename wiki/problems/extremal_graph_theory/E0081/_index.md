@@ -24,11 +24,11 @@ updated: 2026-10-07T23:33:05Z
 induced cycles of length greater than $3$. Can the edges of $G$ be partitioned
 into $n^2/6+O(n)$ many cliques?
 
-**Status.** The site labeled the problem OPEN (page last edited 28 December
-2025; proof-claims tab and thread, accessed 2026-10-07). The frontmatter
-standing is derived from the five claim pages under `claims/`. Three pending
-full claims assert the answer yes, so the standing is claimed. None is refereed,
-independently reviewed or adopted by the site.
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 28
+December 2025; proof-claims tab and thread, accessed 2026-10-07). The
+frontmatter standing is derived from the five claim pages under `claims/`. Three
+pending full claims assert the answer yes, so the standing is claimed. None is
+refereed, independently reviewed or adopted by erdosproblems.com.
 
 In order of posting, the claims are as follows. Agbanwa's Zenodo note gives
 $n^2/6+O(n)$ for the chordal graphs with a maximum clique whose edge deletion
@@ -65,7 +65,7 @@ is the thread's comment of 19 June 2026, which is not registered on the tab. It
 reports an explicit form of the bound of Erdős, Ordman and Zalcstein,
 $(1/4-c)n^2$ with $c\ge1/133$, which sharpens a known weaker bound. As the
 comment says, this was obtained with ChatGPT 5.5 Pro and formalized by
-Aristotle. The site states that a listing on the proof-claims tab is no
+Aristotle. erdosproblems.com states that a listing on the proof-claims tab is no
 guarantee of correctness.
 
 **Source.** [erdosproblems.com/81](https://www.erdosproblems.com/81), accessed

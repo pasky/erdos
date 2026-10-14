@@ -47,8 +47,8 @@ with $2\le k<\sqrt n$ at most $k^2$ vertices lie in exactly $k$ of the
 cliques.
 
 **Acceptance.** Refereed: Discrete Math. **344** (2021), no. 7, Paper No.
-112401, after its first posting as arXiv:2010.05666 on 2020-10-12. The site's
-label decidable does not settle the problem, so the curator's mention is
-context and not `reviewed` evidence.
+112401, after its first posting as arXiv:2010.05666 on 2020-10-12. The
+erdosproblems.com label decidable does not settle the problem, so the curator's
+mention is context and not `reviewed` evidence.
 
 **Depends on.** Nothing in this wiki.

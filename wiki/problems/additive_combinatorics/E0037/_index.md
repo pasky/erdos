@@ -28,17 +28,18 @@ is the Schnirelmann density.
 
 Can a lacunary set $A\subset\mathbb{N}$ be an essential component?
 
-**Status.** DISPROVED (LEAN), the site's label. Its suffix is a catalog label
-explained under Formalization. The status-defining source is Ruzsa's theorem
-(Proc. London Math. Soc. (3) 54 (1987), 38--56, refereed). An essential
-component $A$ satisfies $\lvert A\cap\{1,\ldots,N\}\rvert\ge(\log N)^{1+c}$ for
-some $c>0$ and all large $N$. A lacunary set has only $O(\log N)$ elements up to
-$N$, so the answer is no. The claim page is
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. Its suffix is a
+catalog label explained under Formalization. The status-defining source is
+Ruzsa's theorem (Proc. London Math. Soc. (3) 54 (1987), 38--56, refereed). An
+essential component $A$ satisfies
+$\lvert A\cap\{1,\ldots,N\}\rvert\ge(\log N)^{1+c}$ for some $c>0$ and all large
+$N$. A lacunary set has only $O(\log N)$ elements up to $N$, so the answer is
+no. The claim page is
 [[problems/additive_combinatorics/E0037/claims/1987_01_01_ruzsa|Ruzsa]],
-accepted on the site curator's credit and the refereed publication. The 2026
-Lean development that declares itself a formalization of the theorem is linked
-there. It gives no `formalized` evidence, since this corpus has not built or
-audited it.
+accepted on the erdosproblems.com curator's credit and the refereed publication.
+The 2026 Lean development that declares itself a formalization of the theorem is
+linked there. It gives no `formalized` evidence, since this corpus has not built
+or audited it.
 
 **Source.** [erdosproblems.com/37](https://www.erdosproblems.com/37), accessed
 2026-09-04 and 2026-10-07 (page last edited 23 January 2026); its proof-claim
@@ -50,13 +51,13 @@ https://www.erdosproblems.com/37.
 - [Ru87] Ruzsa, I., Essential Components. Proc. London Math. Soc. (3) 54
   (1987), no. 1, 38-56, doi:10.1112/plms/s3-54.1.38; not held.
 
-**Formalization.** The Lean qualification in the site's label was a catalog
-label. formal-conjectures has no file for Problem 37, and the site's indicator
-reads "Formalised statement? No" (2026-10-07). The community database
-(teorth/erdosproblems, file commit of 2026-09-28) lists `status` "disproved
-(Lean)", `formal_status` Lean and `formalized` "no" as of its last update on
-2026-08-24, without recording when that state was set, and names no artifact.
-The locatable artifact is the Lean development
+**Formalization.** The Lean qualification in the erdosproblems.com label was a
+catalog label. formal-conjectures has no file for Problem 37, and the
+erdosproblems.com indicator reads "Formalised statement? No" (2026-10-07). The
+community database (teorth/erdosproblems, file commit of 2026-09-28) lists
+`status` "disproved (Lean)", `formal_status` Lean and `formalized` "no" as of
+its last update on 2026-08-24, without recording when that state was set, and
+names no artifact. The locatable artifact is the Lean development
 `src/latest/ErdosProblems/Erdos37.lean` of Boris Alexeev's lean-proofs
 repository (added 2026-08-17; pinned on the
 [[problems/additive_combinatorics/E0037/claims/1987_01_01_ruzsa|Ruzsa claim page]]

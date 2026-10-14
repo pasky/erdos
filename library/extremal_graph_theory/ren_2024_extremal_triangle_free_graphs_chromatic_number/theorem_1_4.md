@@ -82,4 +82,5 @@ quoted), and the paper's own Theorem 1.5.
   $\lfloor(n-3)^2/4\rfloor+6$ edges contains a triangle, and the graphs of
   $\mathcal G(n)$ show that one edge fewer does not suffice, so
   $f_4(n)=\lfloor(n-3)^2/4\rfloor+6$ for $n\ge90$ (a conversion made on the
-  problem page); the site prints the range $n\ge150$. A preprint result.
+  problem page); erdosproblems.com prints the range $n\ge150$. A preprint
+  result.

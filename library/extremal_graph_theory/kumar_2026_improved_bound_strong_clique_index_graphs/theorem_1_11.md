@@ -79,8 +79,8 @@ degree 15, 3795 edges, diameter 3), which the paper cites to [3].
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: refutes, as a
-  preprint claim, the site's displayed conjecture "$h_t(d)\le(1+o(1))d^t$
-  for all $d$" at $t=3$ and the displayed $h_3$ formula for all large $d$,
-  and raises the lower asymptotic constant at $t=3$ above $1$; the
-  question of the true constant (Problem 1.12) is open; recorded with the
-  preprint qualification and without review here.
+  preprint claim, erdosproblems.com's displayed conjecture
+  "$h_t(d)\le(1+o(1))d^t$ for all $d$" at $t=3$ and the displayed $h_3$ formula
+  for all large $d$, and raises the lower asymptotic constant at $t=3$ above
+  $1$; the question of the true constant (Problem 1.12) is open; recorded with
+  the preprint qualification and without review here.

@@ -33,24 +33,25 @@ $$
 where $K_{n,n}$ is the complete bipartite graph with $n$ vertices in each
 component.
 
-**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 18
-January 2026). The site writes the size Ramsey number
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
+edited 18 January 2026). erdosproblems.com writes the size Ramsey number
 $\hat R(G)$; the 1978 paper that introduced it writes
 $\hat r(G_1,G_2)=\min\{|E(H)|:H\to(G_1,G_2)\}$ and reserves $\hat R(G_1,G_2)$
-for $\binom{r(G_1,G_2)}2$, and the later sources follow it. This page uses the
-site's $\hat R$ for the problem and quotes the sources in their $\hat r$.
-"Determine" is read as the asymptotic order of $\hat R(K_{n,n})$, the form in
-which the site's commentary and Conlon, Fox and Wigderson's Conjecture 5.1
-state the question; the 1978 paper poses it as whether $\{K_{n,n}\}$ is an
-$o$-sequence, that is whether $\hat r(K_{n,n})=o(\binom{r(K_{n,n})}2)$. No
-source cited here expects an exact formula. The site's source key for the problem
-is [EFRS82], the 1982 paper on Ramsey numbers for brooms; the question is
-posed in [EFRS78b], Section 8, p. 160, the brooms paper has no passage on
-size Ramsey numbers, and the UCSD collection page for this problem
-carries the same citation, evidently the origin of the key.
+for $\binom{r(G_1,G_2)}2$, and the later sources follow it. This page uses
+erdosproblems.com's $\hat R$ for the problem and quotes the sources in their
+$\hat r$. "Determine" is read as the asymptotic order of $\hat R(K_{n,n})$, the
+form in which the erdosproblems.com commentary and Conlon, Fox and Wigderson's
+Conjecture 5.1 state the question; the 1978 paper poses it as whether
+$\{K_{n,n}\}$ is an $o$-sequence, that is whether
+$\hat r(K_{n,n})=o(\binom{r(K_{n,n})}2)$. No source cited here expects an exact
+formula. The erdosproblems.com source key for the problem is [EFRS82], the 1982
+paper on Ramsey numbers for brooms; the question is posed in [EFRS78b], Section
+8, p. 160, the brooms paper has no passage on size Ramsey numbers, and the UCSD
+collection page for this problem carries the same citation, evidently the origin
+of the key.
 
-**Status.** Open, in the site's label (OPEN; page last edited 18 January 2026,
-accessed 2026-09-17). No source cited here determines the order of
+**Status.** Open, in the erdosproblems.com label (OPEN; page last edited 18
+January 2026, accessed 2026-09-17). No source cited here determines the order of
 $\hat R(K_{n,n})$. Two bounds were checked at statement depth against the
 sources. The lower bound is $\hat R(K_{n,n})>\frac1{60}n^22^n$ for all $n\ge1$
 ([ErRo93] Theorem 1), and [CFW23] present the argument for all $t\ge s+2$ in
@@ -62,19 +63,19 @@ on the diagonal $s=t$. Their Conjecture 5.1 predicts
 $\hat R(K_{n,n})=\Theta(n^32^n)$. The gap is a factor of $n$. This is a bounded
 negative finding from the search, not a certificate of openness.
 
-The site's constants, $\frac1{60}n^22^n<\hat R(K_{n,n})<\frac32n^32^n$, are both
-printed in [ErRo93]. The lower bound is its Theorem 1, for all $n\ge1$. The
-upper bound is its display (1), credited there to [EFRS78b] and derived from a
-pigeonhole criterion whose parameters work "for all $n\ge6$". The site attaches
-the qualification $n\ge6$ to the lower bound, where the paper has none. The site
-also credits the upper bound to [NeRo78]. That paper concerns critical Ramsey
-graphs, the Ramsey graphs minimal under subgraph inclusion. It contains no
-statement about size Ramsey numbers or $K_{n,n}$, so its text does not support
-the credit.
+erdosproblems.com's constants, $\frac1{60}n^22^n<\hat R(K_{n,n})<\frac32n^32^n$,
+are both printed in [ErRo93]. The lower bound is its Theorem 1, for all $n\ge1$.
+The upper bound is its display (1), credited there to [EFRS78b] and derived from
+a pigeonhole criterion whose parameters work "for all $n\ge6$".
+erdosproblems.com attaches the qualification $n\ge6$ to the lower bound, where
+the paper has none. erdosproblems.com also credits the upper bound to [NeRo78].
+That paper concerns critical Ramsey graphs, the Ramsey graphs minimal under
+subgraph inclusion. It contains no statement about size Ramsey numbers or
+$K_{n,n}$, so its text does not support the credit.
 
 **Source.** [erdosproblems.com/560](https://www.erdosproblems.com/560),
-accessed 2026-09-17: the problem page (labeled OPEN, with the site's note
-that no finite computation can resolve it; last edited 18 January 2026;
+accessed 2026-09-17: the problem page (labeled OPEN, with the erdosproblems.com
+note that no finite computation can resolve it; last edited 18 January 2026;
 source key [EFRS82]; commentary citing [ErRo93], [EFRS78b], [NeRo78] and
 [CFW23]), its empty discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #560,
 https://www.erdosproblems.com/560, accessed 2026-09-17.
@@ -89,8 +90,8 @@ https://www.erdosproblems.com/560, accessed 2026-09-17.
 - [EFRS82] Erdős, P., Faudree, R. J., Rousseau, C. C. and Schelp, R. H.,
   Ramsey numbers for brooms. Proceedings of the thirteenth Southeastern
   conference on combinatorics, graph theory and computing (Boca Raton, 1982),
-  Congr. Numer. 35 (1982), 283--293. The site's source key for this problem.
-  Library home:
+  Congr. Numer. 35 (1982), 283--293. The erdosproblems.com source key for this
+  problem. Library home:
   [[../library/ramsey_theory/erdos_1982_ramsey_numbers_brooms/_index|erdos_1982_ramsey_numbers_brooms]];
   it has no passage on size Ramsey numbers.
 - [ErRo93] Erdős, P. and Rousseau, C. C., The size Ramsey number of a
@@ -108,9 +109,9 @@ https://www.erdosproblems.com/560, accessed 2026-09-17.
   give infinitely many critical Ramsey graphs, Ramsey graphs with no proper
   subgraph that is a Ramsey graph, for every graph of chromatic number at least
   3 and for every 2.5-connected graph; no page mentions size Ramsey numbers or
-  $K_{n,n}$, and no statement bounds the number of edges of a Ramsey graph. The
-  site credits it, with [EFRS78b], for the upper bound $\frac32n^32^n$; the
-  paper's text does not support the credit. Library home:
+  $K_{n,n}$, and no statement bounds the number of edges of a Ramsey graph.
+  erdosproblems.com credits it, with [EFRS78b], for the upper bound
+  $\frac32n^32^n$; the paper's text does not support the credit. Library home:
   [[../library/ramsey_theory/nesetril_rodl_1978_structure_critical_ramsey_graphs/_index|nesetril_rodl_1978_structure_critical_ramsey_graphs]].
 - [CFW23] Conlon, D., Fox, J. and Wigderson, Y., Three early problems on size
   Ramsey numbers. Combinatorica 43 (2023), no. 4, 743--768,
@@ -137,25 +138,25 @@ https://www.erdosproblems.com/560, accessed 2026-09-17.
 `FormalConjectures/ErdosProblems/` of google-deepmind/formal-conjectures at
 main held no file for this problem, and the community database
 (teorth/erdosproblems) recorded the problem as open (last updated 31 August
-2025), not formalized, with no formal proof. The site's "Formalised
+2025), not formalized, with no formal proof. erdosproblems.com's "Formalised
 statement?" indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
-above; status OPEN; last edited 18 January 2026. The site's commentary, in
-summary: the bounds $\frac1{60}n^22^n<\hat R(K_{n,n})<\frac32n^32^n$ are
-known, the lower one credited to Erdős and Rousseau [ErRo93] with the
-qualification that it holds for $n\ge6$, the upper one to Erdős, Faudree,
-Rousseau and Schelp [EFRS78b] together with Nešetřil and Rödl [NeRo78].
-The same commentary credits Conlon, Fox and Wigderson [CFW23] with
-$\hat R(K_{s,t})\gg s^{2-\frac st}t2^s$ for every $s\le t$, with
-$\hat R(K_{s,t})\asymp s^2t2^s$ once $t\gg s\log s$, and with the conjecture
-that the latter order holds for every $s\le t$, so that
-$\hat R(K_{n,n})\asymp n^32^n$ on the diagonal. The site lists the problem
-as number 29 of the Ramsey theory section of its graphs problem collection.
-There are no comments and no proof claims. The community database record,
-read 2026-09-17, says open (31 August 2025) and not formalized.
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; status OPEN; last edited 18 January 2026. The erdosproblems.com
+commentary, in summary: the bounds
+$\frac1{60}n^22^n<\hat R(K_{n,n})<\frac32n^32^n$ are known, the lower one
+credited to Erdős and Rousseau [ErRo93] with the qualification that it holds for
+$n\ge6$, the upper one to Erdős, Faudree, Rousseau and Schelp [EFRS78b] together
+with Nešetřil and Rödl [NeRo78]. The same commentary credits Conlon, Fox and
+Wigderson [CFW23] with $\hat R(K_{s,t})\gg s^{2-\frac st}t2^s$ for every
+$s\le t$, with $\hat R(K_{s,t})\asymp s^2t2^s$ once $t\gg s\log s$, and with the
+conjecture that the latter order holds for every $s\le t$, so that
+$\hat R(K_{n,n})\asymp n^32^n$ on the diagonal. erdosproblems.com lists the
+problem as number 29 of the Ramsey theory section of its graphs problem
+collection. There are no comments and no proof claims. The community database
+record, read 2026-09-17, says open (31 August 2025) and not formalized.
 
 **Origin.** [EFRS78b], printed pp. 145, 146, 150, 154, 160 and 161. The
 paper defines
@@ -206,7 +207,7 @@ $(2eq/n)(2e^2q/n^2)^n$ copies of $K_{n,n}$; the proof's closing note says
 the constant $\frac1{60}$ can be replaced by $\frac1{30}$ for all
 sufficiently large $n$, and the remark after it says the first-moment
 argument cannot gain more than a constant factor. The paper states the
-result for $s=t$ only, as [CFW23]'s footnote says. The site's constant
+result for $s=t$ only, as [CFW23]'s footnote says. erdosproblems.com's constant
 $\frac1{60}$ is therefore checked at statement depth, and its qualification
 "for $n\ge6$" is not the paper's: Theorem 1 is stated for all $n\ge1$.
 [[../library/ramsey_theory/conlon_2023_three_early_problems_size_ramsey_numbers/theorem_1_1|Theorem 1.1]]
@@ -215,8 +216,8 @@ of [CFW23], $\hat r(K_{s,t})=\Omega(s^{2-\frac st}t2^s)$ for all $s\le t$
 $t\ge(1+\delta)s$ and is tight for $t=\Omega(s\log s)$ (Corollary 1.2,
 $\Theta(s^2t2^s)$); on the diagonal $s=t=n$ its exponent is $2-1=1$ and the
 bound is $\Omega(n\cdot n2^n)=\Omega(n^22^n)$, the Erdős--Rousseau order (an
-elementary specialization made here). The site's sentence on [CFW23] is
-accurate and does not claim a diagonal improvement. The upper bound
+elementary specialization made here). The erdosproblems.com sentence on [CFW23]
+is accurate and does not claim a diagonal improvement. The upper bound
 $O(n^32^n)$:
 [[../library/ramsey_theory/conlon_2023_three_early_problems_size_ramsey_numbers/proposition_2_1|Proposition 2.1]]
 of [CFW23], $\hat r(K_{s,t})\le4es^2t2^s$ for all $s\le t$, attributed to
@@ -224,8 +225,8 @@ of [CFW23], $\hat r(K_{s,t})\le4es^2t2^s$ for all $s\le t$, attributed to
 of orders $2s^2$ and $2et2^s$); p. 4 adds the refinement
 $(e/2+o(1))s^2t2^s$ "also present in [16]", asymptotically tight by [Pi02]
 for $t$ sufficiently large in terms of $s$, which says nothing about the
-diagonal. The 1978 Theorem 6 at $m=n$ gives formally $\frac{14}9n^32^n$. The
-site's constant $\frac32$ is
+diagonal. The 1978 Theorem 6 at $m=n$ gives formally $\frac{14}9n^32^n$.
+erdosproblems.com's constant $\frac32$ is
 [[../library/ramsey_theory/erdos_rousseau_1993_size_ramsey_number_complete_bipartite/inequality_1|display (1)]]
 of [ErRo93] (p. 259): "In [1] it was noted that
 $\hat r(K_{n,n})<\frac32n^32^n$", from the pigeonhole criterion (2),
@@ -233,11 +234,11 @@ $K_{a,b}\to K_{n,n}$ when $a\binom{b/2}n>(n-1)\binom bn$, with
 $a=\lfloor n^2/2\rfloor$ and $b=3n2^n$, for which "(2) holds for all
 $n\ge6$" (the letters $a$ and $b$ of (2) read as interchanged relative to
 the parameter sentence; see the result page); the paper credits the bound
-to [EFRS78b], whose Section 8 prints it with an unnamed constant. So the
-site's qualification $n\ge6$ belongs to the upper bound. [NeRo78], which
-the site credits with [EFRS78b], concerns the infinitude of critical Ramsey
-graphs and prints no bound on $\hat r(K_{n,n})$, so the bound's printed
-sources are [EFRS78b] Section 8 and [ErRo93] display (1). In sum,
+to [EFRS78b], whose Section 8 prints it with an unnamed constant. So
+erdosproblems.com's qualification $n\ge6$ belongs to the upper bound. [NeRo78],
+which erdosproblems.com credits with [EFRS78b], concerns the infinitude of
+critical Ramsey graphs and prints no bound on $\hat r(K_{n,n})$, so the bound's
+printed sources are [EFRS78b] Section 8 and [ErRo93] display (1). In sum,
 
 $$
 \tfrac1{60}n^22^n<\hat R(K_{n,n})\le4e\,n^32^n
@@ -252,7 +253,7 @@ $\hat r(K_{t,t})=\Theta(t^32^t)$, which its authors state as open (2023).
 none found a determination of the order, a diagonal improvement of either
 bound, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures directory
   `FormalConjectures/ErdosProblems/` at main on 2026-09-17 (no file for
   this problem).
@@ -269,9 +270,9 @@ bound, or a proof claim.
   search identifying the journal version of [CFW23].
 - Semantic Scholar citation list of [CFW23] (6 records, none on
   $\hat r(K_{s,t})$).
-- The UCSD graphs problem collection page for this problem, which carries the site's two bounds
-  with the same attributions and cites the brooms paper as its first
-  reference.
+- The UCSD graphs problem collection page for this problem, which carries
+  erdosproblems.com's two bounds with the same attributions and cites the brooms
+  paper as its first reference.
 
 Not searched: MathSciNet, Google Scholar, X. Not consulted: [Pi02], the
 brooms paper beyond the keyword search, and the journal text of [CFW23].
@@ -280,18 +281,18 @@ brooms paper beyond the keyword search, and the journal text of [CFW23].
 **Remaining gaps.** (1) The order of $\hat R(K_{n,n})$ is open with a gap
 of a factor $n$; the conjectured $\Theta(n^32^n)$ needs a diagonal lower
 bound beyond the hypergeometric-coloring argument, whose saving vanishes at
-$s=t$; no route is chosen here. (2) In [ErRo93], the site's constant
+$s=t$; no route is chosen here. (2) In [ErRo93], erdosproblems.com's constant
 $\frac1{60}$ is its Theorem 1 for all $n\ge1$ and its constant $\frac32$ is
-its display (1) for $n\ge6$, credited there to [EFRS78b]; the site's
+its display (1) for $n\ge6$, credited there to [EFRS78b]; the erdosproblems.com
 commentary places the qualification $n\ge6$ on the lower bound, where the
 paper has none. [NeRo78] concerns critical Ramsey graphs and contains no
-statement on size Ramsey numbers, so the site's credit of the upper bound to
-it is not supported by the paper's text, and the bound rests on [EFRS78b]
-Section 8 and [ErRo93] display (1). (3) The site's source key [EFRS82]
-names the brooms paper; the question's source is [EFRS78b] Section 8. (4)
-Proof coverage: statements checked; the proofs of Propositions 2.1 and 2.2,
-the one-paragraph proof of [ErRo93] Theorem 1 and that of its Lemma 1 are
-followed on their result pages, not checked; nothing is independently
+statement on size Ramsey numbers, so the erdosproblems.com credit of the upper
+bound to it is not supported by the paper's text, and the bound rests on
+[EFRS78b] Section 8 and [ErRo93] display (1). (3) The erdosproblems.com source
+key [EFRS82] names the brooms paper; the question's source is [EFRS78b]
+Section 8. (4) Proof coverage: statements checked; the proofs of Propositions
+2.1 and 2.2, the one-paragraph proof of [ErRo93] Theorem 1 and that of its Lemma
+1 are followed on their result pages, not checked; nothing is independently
 reviewed and there is no
 resolving proof to compile. (5) There is no Lean statement of the problem.
 <!-- BEGIN problem library links -->

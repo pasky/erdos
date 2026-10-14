@@ -51,8 +51,8 @@ carries the statement and a proof sketch.
 
 **Provenance and standing.** The note was announced in the author's
 comment on the erdosproblems.com discussion thread at 11:13 on 15 April 2026
-(site clock), which links a ChatGPT conversation and says: "I got ChatGPT 5.4
-Pro figure out the proof and write up the details with only minimal
+(erdosproblems.com clock), which links a ChatGPT conversation and says: "I got
+ChatGPT 5.4 Pro figure out the proof and write up the details with only minimal
 orchestration from my side." A reply by another participant the same day
 (17:06) reports "I ran standard check which found no issues" with a link
 to another ChatGPT conversation, and remarks that the argument gives more

@@ -31,11 +31,11 @@ $$
 f(N) \leq \log_2 N+o(\log\log N)?
 $$
 
-**Status.** Disproved. The site credits ChatGPT and Tang with the negative
-answer that Erdős had expected. The answer shows that along the primes $p$, a
-uniformly chosen $k$-subset of $\mathbb{F}_p$ with $k=\log_2p+o(\log\log p)$
-leaves some residue unreachable as a subset sum with probability tending to one.
-The accepted claim page is
+**Status.** Disproved. erdosproblems.com credits ChatGPT and Tang with the
+negative answer that Erdős had expected. The answer shows that along the primes
+$p$, a uniformly chosen $k$-subset of $\mathbb{F}_p$ with
+$k=\log_2p+o(\log\log p)$ leaves some residue unreachable as a subset sum with
+probability tending to one. The accepted claim page is
 [[problems/group_theory/E0543/claims/2026_01_21_tang|Tang 2026]]. Ma and Tang's
 quantitative sharpening is the pending claim
 [[problems/group_theory/E0543/claims/2026_02_05_ma_tang|Ma and Tang 2026]].
@@ -57,10 +57,10 @@ not formalized (both checked 2026-10-07).
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether
-$f(N)\le\log_2N+o(\log\log N)$, where $f(N)$ is the least $k$ such that a
-random $k$-subset of any abelian group of order $N$ covers the group by
-subset sums with probability at least $1/2$. The answer is no:
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether $f(N)\le\log_2N+o(\log\log N)$, where $f(N)$ is the least $k$ such that
+a random $k$-subset of any abelian group of order $N$ covers the group by subset
+sums with probability at least $1/2$. The answer is no:
 [[problems/group_theory/E0543/claims/2026_01_21_tang|Tang 2026]], a note of
 2026-01-21 written with ChatGPT and revised by its author on 2026-01-23,
 shows that for primes $p$ a uniformly random $k$-subset of $\mathbb{F}_p$
@@ -83,14 +83,13 @@ elementary abelian $2$-groups Erdős and Hall's Theorem 3 shows that
 $\log_2N+\omega(1)$ independently chosen random elements already cover the
 group by subset sums with probability tending to one.
 
-Acceptance rests on the site's curator labeling the problem disproved with
-that credit, supported by a named expert's tentative assessment of the
+Acceptance rests on the erdosproblems.com curator labeling the problem disproved
+with that credit, supported by a named expert's tentative assessment of the
 argument as correct in the thread on 2026-01-21; neither the note nor
-the arXiv paper is refereed, the site credits only the note, and this corpus
-has not verified either proof. No
-Lean formalization is recorded. Search scope: the site's problem page and
-forum thread, the community database, the note in both versions and the arXiv
-listing.
+the arXiv paper is refereed, erdosproblems.com credits only the note, and this
+corpus has not verified either proof. No Lean formalization is recorded. Search
+scope: the erdosproblems.com problem page and forum thread, the community
+database, the note in both versions and the arXiv listing.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

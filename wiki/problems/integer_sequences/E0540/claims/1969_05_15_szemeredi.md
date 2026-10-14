@@ -4,7 +4,7 @@ title: Szemerédi's zero-sum theorem for abelian groups
 desc: |
   Szemerédi's theorem (Acta Arith., 1970) states that in every abelian group of
   order $n$, any $c\sqrt n$ elements have a nonempty zero-sum subset. It is
-  refereed, acknowledged by Erdős and accepted by the site.
+  refereed, acknowledged by Erdős and accepted by erdosproblems.com.
 authors:
 - E. Szemerédi
 status: accepted
@@ -54,11 +54,11 @@ and
 [[problems/integer_sequences/E0540/claims/2009_07_20_balandraud|Balandraud (2012)]].
 
 **Acceptance.** Refereed: the journal publication cited above. Reviewed: the
-site's curator, Thomas Bloom, who is independent of the author, accepts the
-theorem as the proof of the conjecture of Erdős and Heilbronn, and gives the
-problem the label PROVED (LEAN). The commentary attributes the general case to
-this paper and the prime case to Olson (1968). Erdős acknowledged the proof in
-his 1973 survey and, with Graham, in the 1980 monograph.
+erdosproblems.com curator, Thomas Bloom, who is independent of the author,
+accepts the theorem as the proof of the conjecture of Erdős and Heilbronn, and
+gives the problem the label PROVED (LEAN). The commentary attributes the general
+case to this paper and the prime case to Olson (1968). Erdős acknowledged the
+proof in his 1973 survey and, with Graham, in the 1980 monograph.
 
 The formalization link is the external Lean file that the formal-conjectures
 statement names as its proof, at the repository head of 15 September 2026. The

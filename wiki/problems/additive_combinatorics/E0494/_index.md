@@ -41,44 +41,44 @@ $$
 For $k>2$ does the multiset $A_k$ (together with the size of $A$) uniquely
 determine the set $A$, provided $|A|$ is sufficiently large in terms of $k$?
 
-**Notes.** The site's wording sets no range for $|A|$, and as printed the
-answer is no for every $k>2$: for $|A|<k$ the multiset $A_k$ is empty and for
-$|A|=k$ it is the single sum of $A$, so distinct sets of those sizes share it
-(Kruyt's observation, recorded in the site's commentary); for $|A|=2k$ a set
-with sum $0$ and its negative share $A_k$, since each $k$-sum of the negative
-is minus a $k$-sum of $A$, which is the complementary $k$-sum (Tao's
-observation, in the commentary and in Tao's forum comment of 30 August 2025,
-which says the case "needs to be ruled out"; Theorem 3 of [SeSt58], p. 850,
-shows $n=2s$ is the only size above $s$ at which a nontrivial transformation
-preserves the $s$-fold sums); for $k=3$ the sizes $27$ and $486$ are reported
-as further exceptions (see Formulation). Bloom reads the problem with a size
-condition. The commentary records the two failures as remarks on the wording,
-says "Presumably some condition like '$|A|$ sufficiently large' is intended",
-and labeled the problem PROVED on the theorem of Gordon, Fraenkel and Straus
-[GFS62] that "for all $k$, the multiset $A_k$ uniquely determines $A$ provided
-$|A|$ is sufficiently large", added on 14 October 2025 after msellke's forum
-comment of 13 October 2025 supplied the reference. The modified Statement
+**Notes.** The erdosproblems.com wording sets no range for $|A|$, and as printed
+the answer is no for every $k>2$: for $|A|<k$ the multiset $A_k$ is empty and
+for $|A|=k$ it is the single sum of $A$, so distinct sets of those sizes share
+it (Kruyt's observation, recorded in the erdosproblems.com commentary); for
+$|A|=2k$ a set with sum $0$ and its negative share $A_k$, since each $k$-sum of
+the negative is minus a $k$-sum of $A$, which is the complementary $k$-sum
+(Tao's observation, in the commentary and in Tao's forum comment of 30 August
+2025, which says the case "needs to be ruled out"; Theorem 3 of [SeSt58], p.
+850, shows $n=2s$ is the only size above $s$ at which a nontrivial
+transformation preserves the $s$-fold sums); for $k=3$ the sizes $27$ and $486$
+are reported as further exceptions (see Formulation). Bloom reads the problem
+with a size condition. The commentary records the two failures as remarks on the
+wording, says "Presumably some condition like '$|A|$ sufficiently large' is
+intended", and labeled the problem PROVED on the theorem of Gordon, Fraenkel and
+Straus [GFS62] that "for all $k$, the multiset $A_k$ uniquely determines $A$
+provided $|A|$ is sufficiently large", added on 14 October 2025 after msellke's
+forum comment of 13 October 2025 supplied the reference. The modified Statement
 adopts that reading in Bloom's words, adding "provided $|A|$ is sufficiently
 large in terms of $k$" and changing nothing else. It is the conjecture Gordon,
 Fraenkel and Straus attribute to Selfridge and Straus [GFS62, §1, p. 187], that
 for $s>2$ one has $F_s(n)=1$ "for all but a finite number of $n$", which for
-fixed $k$ says the same thing. Under the site's wording the answer is no, by the
-small sizes above; under Bloom's reading it is yes, by the theorem of Section 4
-of [GFS62], with the explicit ranges $k=3$, $|A|>6$ other than $27$ and $486$,
-and $k=4$, $|A|>12$, from [SeSt58]. The missing range is older than the site:
-Erdős's report of the problem ([Er61], item I.33, p. 238) states the
-Selfridge--Straus conjecture for $k>2$ with no size condition (and with products
-in place of sums; see Formulation), while Selfridge and Straus ask "To what
-extent is $\{x\}$ determined by $\{\sigma\}$" ([SeSt58], §1, p. 847) and call
-the exceptional pairs $(s,n)$ "in a certain sense quite rare" (p. 854). Results
-on the site's wording are credited here and do not bear on the standing: Kruyt's
-failure at $|A|=k$, Tao's at $|A|=2k$, Theorem 3 of [SeSt58], and the Lean
-development `Erdos494.lean` in Boris Alexeev's repository (added 2026-08-16;
-Codex and GPT-5.6 Sol as formal authors; [file at a pinned
+fixed $k$ says the same thing. Under the erdosproblems.com wording the answer is
+no, by the small sizes above; under Bloom's reading it is yes, by the theorem of
+Section 4 of [GFS62], with the explicit ranges $k=3$, $|A|>6$ other than $27$
+and $486$, and $k=4$, $|A|>12$, from [SeSt58]. The missing range is older than
+erdosproblems.com: Erdős's report of the problem ([Er61], item I.33, p. 238)
+states the Selfridge--Straus conjecture for $k>2$ with no size condition (and
+with products in place of sums; see Formulation), while Selfridge and Straus ask
+"To what extent is $\{x\}$ determined by $\{\sigma\}$" ([SeSt58], §1, p. 847)
+and call the exceptional pairs $(s,n)$ "in a certain sense quite rare" (p. 854).
+Results on the erdosproblems.com wording are credited here and do not bear on
+the standing: Kruyt's failure at $|A|=k$, Tao's at $|A|=2k$, Theorem 3 of
+[SeSt58], and the Lean development `Erdos494.lean` in Boris Alexeev's repository
+(added 2026-08-16; Codex and GPT-5.6 Sol as formal authors; [file at a pinned
 commit](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos494.lean)),
 whose only theorem, `card_eq_2k`, proves the failure at $|A|=2k$ for every $k>2$
 and whose own section heading reads "The literal problem has a negative answer".
-The theorem answers the site's wording, not the modified
+The theorem answers the erdosproblems.com wording, not the modified
 Statement, which asks only about sufficiently large $|A|$; it presents itself as
 a solution of Problem 494 and so has a
 [[problems/additive_combinatorics/E0494/claims/2026_08_16_alexeev|claim page]],
@@ -87,28 +87,29 @@ judges the modified Statement.
 
 **Formulation.** In [Er61] (item I.33, p. 238) Erdős states the problem of
 Selfridge and Straus with products of $k$ of the numbers in place of sums;
-the site calls this a misstatement and follows the sums of [SeSt58], which
-Erdős cites. The product form is false: for $k=3$ the sets of sixth roots of
-unity with exponents $\{0,1,2,4\}$ and $\{0,2,3,4\}$ have the same products
+erdosproblems.com calls this a misstatement and follows the sums of [SeSt58],
+which Erdős cites. The product form is false: for $k=3$ the sets of sixth roots
+of unity with exponents $\{0,1,2,4\}$ and $\{0,2,3,4\}$ have the same products
 of three distinct elements (exponent sums $\{0,1,3,5\}$ modulo $6$ in both
-cases), an example the site credits to Steinerberger. The exceptional sizes
-for $k=3$ are reported as exactly $3$, $6$, $27$ and $486$ by [Gu04], whose
-examples for $27$ and $486$ are printed as multisets with repeated elements
-(the one for $27$ misprinted as given), so for sets of distinct numbers the
-two large exceptions rest on the credit to Fomin and Izhboldin (1994) in the
+cases), an example erdosproblems.com credits to Steinerberger. The exceptional
+sizes for $k=3$ are reported as exactly $3$, $6$, $27$ and $486$ by [Gu04],
+whose examples for $27$ and $486$ are printed as multisets with repeated
+elements (the one for $27$ misprinted as given), so for sets of distinct numbers
+the two large exceptions rest on the credit to Fomin and Izhboldin (1994) in the
 formal-conjectures statement file; the exceptional sizes are finite in
 number for every $k>2$ by [GFS62].
 
-**Status.** The site labeled the problem PROVED. It credits Gordon, Fraenkel and
-Straus with uniqueness for every $k$ once $|A|$ is sufficiently large. The
-modified Statement is Bloom's reading, so the label describes it. The theorem
-of Section 4 of [GFS62] (Pacific J. Math. 12 (1962), 187--196, refereed) settles
-it. For every $k>2$, all but finitely many sizes $|A|$ admit no two distinct
-sets with the same multiset $A_k$. Selfridge and Straus [SeSt58] settle three
-cases: $k=3$ for $|A|>6$ other than $27$ and $486$, $k=4$ for $|A|>12$, and
-every $k$ when $|A|$ has a prime factor exceeding $k$. The claim pages are
+**Status.** Bloom's catalog labeled the problem PROVED. It credits Gordon,
+Fraenkel and Straus with uniqueness for every $k$ once $|A|$ is sufficiently
+large. The modified Statement is Bloom's reading, so the label describes it. The
+theorem of Section 4 of [GFS62] (Pacific J. Math. 12 (1962), 187--196, refereed)
+settles it. For every $k>2$, all but finitely many sizes $|A|$ admit no two
+distinct sets with the same multiset $A_k$. Selfridge and Straus [SeSt58] settle
+three cases: $k=3$ for $|A|>6$ other than $27$ and $486$, $k=4$ for $|A|>12$,
+and every $k$ when $|A|$ has a prime factor exceeding $k$. The claim pages are
 [[problems/additive_combinatorics/E0494/claims/1962_03_01_gordon_fraenkel_straus|Gordon, Fraenkel and Straus]]
-(an accepted full claim, on the refereed publication and the site's credit) and
+(an accepted full claim, on the refereed publication and the erdosproblems.com
+credit) and
 [[problems/additive_combinatorics/E0494/claims/1958_12_01_selfridge_straus|Selfridge and Straus]]
 (an accepted partial claim).
 
@@ -154,11 +155,11 @@ Straus) calls itself a formalization of a solution, but its only theorem,
 `card_eq_2k`, is the formal-conjectures variant that uniqueness fails at
 $|A|=2k$ for every $k>2$. It has
 [[problems/additive_combinatorics/E0494/claims/2026_08_16_alexeev|its own claim page]],
-rejected because it answers the site's wording, not the modified Statement
-(its only theorem is the variant `card_eq_2k`, the failure at $|A|=2k$), and
-the Notes credit it. No formalization of the Gordon--Fraenkel--Straus theorem
-is known, and this corpus has built none of these developments, so no
-`formalized` evidence is listed.
+rejected because it answers the erdosproblems.com wording, not the modified
+Statement (its only theorem is the variant `card_eq_2k`, the failure at
+$|A|=2k$), and the Notes credit it. No formalization of the
+Gordon--Fraenkel--Straus theorem is known, and this corpus has built none of
+these developments, so no `formalized` evidence is listed.
 
 ## Progress
 

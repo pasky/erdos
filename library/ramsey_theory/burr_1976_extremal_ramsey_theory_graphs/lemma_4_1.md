@@ -20,8 +20,8 @@ $\ell$ points.
 **Lemma 4.1.** If $k\ge\ell\ge2$, then $r(S_{k,\ell})=\max(2k-1,\,k+2\ell-1)$.
 
 For $k=2t$, $\ell=t$ the tree $S_{2t,t}$ has parts $2t$ and $t$ and
-$r(S_{2t,t})=4t-1$. This is the site's "tree formed by identifying one end of
-a path on 4 vertices with the center of a star on $k-1$ vertices, and the
+$r(S_{2t,t})=4t-1$. This is erdosproblems.com's "tree formed by identifying one
+end of a path on 4 vertices with the center of a star on $k-1$ vertices, and the
 other endpoint with the center of a star on $2k-1$ vertices" (the stars
 $K_{1,k-2}$ and $K_{1,2k-2}$ have $k-1$ and $2k-1$ vertices). Erdős,
 Faudree, Rousseau and Schelp (1982, p. 284) credit the result to this paper.
@@ -56,5 +56,5 @@ survey.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0549/_index|Problem 549]]: a second family of trees with
-  parts $k$ and $2k$, besides the brooms, for which $R(T)=4k-1$ holds; the
-  site's Burr--Erdős family.
+  parts $k$ and $2k$, besides the brooms, for which $R(T)=4k-1$ holds;
+  erdosproblems.com's Burr--Erdős family.

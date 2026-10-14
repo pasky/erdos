@@ -88,7 +88,7 @@ Outside it: Menger's theorem, cited without a reference.
 
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the first published
   disproof of the conjecture under the vertex-disjoint reading, at $m=5$,
-  $n=14$; the site's "57 vertices and 141 edges". Consistent with
+  $n=14$; erdosproblems.com's "57 vertices and 141 edges". Consistent with
   $k_5(57)=\lfloor\frac83\cdot57\rfloor-3=149>141$ from
   [[extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/theorem_4|Sørensen and Thomassen 1974, Theorem 4]]
   (computed on the problem page).

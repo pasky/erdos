@@ -28,17 +28,18 @@ $$
 \textrm{gcd}\left( \binom{n}{i},\binom{n}{j}\right) \geq h(n)?
 $$
 
-**Status.** The site labeled the problem PROVED (LEAN). The standing derived
-from the claim page is `solved`, `proved`. It rests on
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). The standing
+derived from the claim page is `solved`, `proved`. It rests on
 [[problems/factorials_binomials/E0698/claims/2008_06_03_bergman|Bergman 2011]],
-a refereed paper credited by the site's curator. Its bound tends to infinity
-with $n$ uniformly in $i$, and the claim page derives the explicit
-$h(n)=n^{1/2}/6$ from it. The Lean proofs that the site's label refers to are
-third-party work and are not built here.
+a refereed paper credited by the erdosproblems.com curator. Its bound tends to
+infinity with $n$ uniformly in $i$, and the claim page derives the explicit
+$h(n)=n^{1/2}/6$ from it. The Lean proofs that the erdosproblems.com label
+refers to are third-party work and are not built here.
 
 **Source.** [erdosproblems.com/698](https://www.erdosproblems.com/698), accessed
-2026-09-04. The site attributes the problem to Erdős and Szekeres [ErSz78].
-Cite as: T. F. Bloom, Erdős Problem #698, https://www.erdosproblems.com/698.
+2026-09-04. erdosproblems.com attributes the problem to Erdős and Szekeres
+[ErSz78]. Cite as: T. F. Bloom, Erdős Problem #698,
+https://www.erdosproblems.com/698.
 
 **References.**
 
@@ -65,9 +66,9 @@ files at pinned commits. Nothing has been built here.
 
 ## Current assessment
 
-The question, as the site states it: is there a function $h(n)\to\infty$ with
-$\gcd(\binom ni,\binom nj)\geq h(n)$ for all $2\leq i<j\leq n/2$? The answer
-is yes.
+The question, as erdosproblems.com states it: is there a function
+$h(n)\to\infty$ with $\gcd(\binom ni,\binom nj)\geq h(n)$ for all
+$2\leq i<j\leq n/2$? The answer is yes.
 
 What Erdős and Szekeres knew. Their identity
 $\binom nj\binom ji=\binom ni\binom{n-i}{j-i}$ shows that $\binom ni$ divides
@@ -81,20 +82,20 @@ $\gcd(\binom ni,\binom nj)\geq n^{1/2}2^{i-7/2}/(i(i-1)^{1/2})$ for
 $2\leq i\leq j\leq n/2$ and notes that the bound weakens to one independent
 of $i$ that tends to infinity with $n$; the claim page's own minimization of
 the factor depending on $i$, at least $1/6$, gives $h(n)=n^{1/2}/6$. In the
-site's thread, van Doorn (2026-01-16) rewrote the proof with the sharper
-constant $2^i\sqrt n/(4i\sqrt{i-1})$ and formalized it in Lean with
+erdosproblems.com thread, van Doorn (2026-01-16) rewrote the proof with the
+sharper constant $2^i\sqrt n/(4i\sqrt{i-1})$ and formalized it in Lean with
 Aristotle; a copy of that file in Alexeev's repository is the formal proof
 the formal-conjectures record names. The
 [[problems/factorials_binomials/E0698/claims/2008_06_03_bergman|claim page]]
 records the theorem, the sharper constant and the acceptance: a refereed paper
-credited by the site's curator; the Lean files are linked there and have not
-been built here. Bergman's paper bounds the size of the gcd and not its
+credited by the erdosproblems.com curator; the Lean files are linked there and
+have not been built here. Bergman's paper bounds the size of the gcd and not its
 largest prime factor, which is the subject of
 [[problems/factorials_binomials/E0699/_index|Problem 699]].
 
-Search scope. On 2026-10-07 the site's discussion thread held one post,
-of 2026-01-16, and its proof-claims page listed no claim for the problem. The
-formal-conjectures statement file is described above at its commit of
+Search scope. On 2026-10-07 the erdosproblems.com discussion thread held one
+post, of 2026-01-16, and its proof-claims page listed no claim for the problem.
+The formal-conjectures statement file is described above at its commit of
 2026-09-19 and the two Lean files at the commits the claim page links; none
 has been built here.
 <!-- BEGIN problem library links -->

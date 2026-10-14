@@ -30,7 +30,7 @@ estimate $n_0(k)$ [6]."
 
 Reference [6] (p. 108) is Erdős's 1962 *Remarks on a paper of Pósa*
 (Publ. Math. Inst. Hung. Acad. Sci. 7), listed with the pages 391--412;
-the site's reference text for that paper and the library's card
+the erdosproblems.com reference text for that paper and the library's card
 ([[extremal_graph_theory/erdos_1962_remarks_paper_posa/_index|erdos_1962_remarks_paper_posa]])
 give the pages 227--229, so the list's page numbers are a misprint. The
 paper does not say who "We" are.
@@ -72,6 +72,6 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the site's source
-  passage ([Er71, p. 98]); the site's $f(k)$ is Erdős's $n_0(k)$, in the
-  index convention recorded above.
+- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the
+  erdosproblems.com source passage ([Er71, p. 98]); erdosproblems.com's $f(k)$
+  is Erdős's $n_0(k)$, in the index convention recorded above.

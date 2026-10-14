@@ -207,7 +207,7 @@ of Hausdorff dimension 1 is uncountable and so contains irrationals, and
 for an irrational $\theta$ and integers $n_k$ the finitely many excepted
 terms have $\|\theta n_k\|>0$, so $\inf_k\|\theta n_k\|>0$ (two authored
 lines the problem page states). The introduction's phrase "not everywhere
-dense mod 1" is the one the site's thread quotes in correcting the
+dense mod 1" is the one the erdosproblems.com thread quotes in correcting the
 problem's wording. The paper prints no separation bound in terms of
 $\lambda-1$; the filing observation above records what its displayed
 choices give.

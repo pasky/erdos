@@ -69,6 +69,6 @@ and does not prove.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: the upper bound
-  $\mathrm{ex}(n;Q_3)\ll n^{8/5}$ that the site attributes to [ErSi70],
-  unimproved since; the site's parenthetical that Erdős had conjectured
-  $\mathrm{ex}(n;Q_3)\gg n^{5/3}$ is the sentence before (5).
+  $\mathrm{ex}(n;Q_3)\ll n^{8/5}$ that erdosproblems.com attributes to [ErSi70],
+  unimproved since; the erdosproblems.com parenthetical that Erdős had
+  conjectured $\mathrm{ex}(n;Q_3)\gg n^{5/3}$ is the sentence before (5).

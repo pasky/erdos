@@ -5,7 +5,7 @@ desc: |
   Rowley's template constructions.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur
@@ -14,7 +14,7 @@ updated: 2026-10-08T14:30:02Z
 
 [[ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur/corollary_2_9|corollary_2_9]]: The exponential lower bound on Schur numbers and on the multicolor Ramsey
 numbers of the triangle that follows from the recursion S(n+5) at least
-380 S(n) + 148; the best lower growth rate the site records for f(k).
+380 S(n) + 148; the best lower growth rate erdosproblems.com records for f(k).
 
 [[ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur/inequality_6|inequality_6]]: The recursive lower bound for Schur numbers produced by the paper's best
 S-template with six colors, one of the paper's three new inequalities,
@@ -60,9 +60,9 @@ S(11) >= 203828, S(12) >= 644628 and WS(6) >= 646, WS(9) >= 22536, WS(10) >=
 71256, WS(11) >= 243794, WS(12) >= 815314. The Schur-side results (Table 1,
 inequality (6), Corollary 2.9) are what bears on problem 183 (multicolor Ramsey
 numbers of the triangle, through S(n) <= R_n(3) - 2) and on problem 483, whose
-f(k) is the strong Schur number S(k) + 1 (the site's equation a + b = c allows
-a = b, and the paper's Definition 1.1 is the same convention); the weak Schur
-numbers WS(n), which require a != b, are not the quantity of problem 483.
+f(k) is the strong Schur number S(k) + 1 (erdosproblems.com's equation a + b = c
+allows a = b, and the paper's Definition 1.1 is the same convention); the weak
+Schur numbers WS(n), which require a != b, are not the quantity of problem 483.
 
 Source: <https://arxiv.org/abs/2112.03175>.
 
@@ -99,10 +99,10 @@ arithmetic step of this card, not stated in the paper.
 [[../wiki/problems/ramsey_theory/E0483/_index|#483]]: the problem's $f(k)$ is
 $S(k)+1$; iterating inequality (6) from the five known values gives
 $f(k)\ge c\cdot380^{k/5}$ with an absolute $c>0$ (about $0.379$, computed on
-the corollary's page), which is the source of the site's lower bound, and
-Corollary 2.9 gives the growth rate $380^{1/5}$. The site's display
-$(380)^{k/5}-O(1)\le f(k)$ is stronger than what the paper proves. Tables 1
-and 3 give $S(9)\ge17\,803$ to $S(12)\ge644\,628$, that is
+the corollary's page), which is the source of erdosproblems.com's lower bound,
+and Corollary 2.9 gives the growth rate $380^{1/5}$. The erdosproblems.com
+display $(380)^{k/5}-O(1)\le f(k)$ is stronger than what the paper proves.
+Tables 1 and 3 give $S(9)\ge17\,803$ to $S(12)\ge644\,628$, that is
 $f(9)\ge17\,804$ to $f(12)\ge644\,629$. The weak Schur results of Section 3
 bear on neither problem.
 

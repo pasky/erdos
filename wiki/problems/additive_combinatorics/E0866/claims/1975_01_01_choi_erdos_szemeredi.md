@@ -69,15 +69,16 @@ examples (van Doorn 2026, Section 3; the
 [[../library/additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/theorems_1_4|result page]]
 records the note). The paper's summary display, $t_3=2$, $2<t_4\le c_1$,
 $c_2'\log n\le t_5\le c_2\log n$, $c_3'n^{1/2}\le t_6\le c_3n^{1/2}$,
-therefore holds for the site's $g_k$ in its upper bounds and in the $k=6$
-lower bound, and for the positive variant in full. The paper is compiled at
+therefore holds for erdosproblems.com's $g_k$ in its upper bounds and in the
+$k=6$ lower bound, and for the positive variant in full. The paper is compiled
+at
 [[../library/additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/_index|its source card]];
 nothing is independently reviewed.
 
 **Covers.** The order of magnitude of $g_4(N)$ (bounded between absolute
 constants: $g_4(N)\le c_1$ for large $N$, and $g_4(N)\ge0$ by the odd
-integers) and of $g_6(N)$ ($\asymp N^{1/2}$), both for the site's $g_k$;
-the upper bounds $g_3(N)\le2$ and $g_5(N)\le c_2\log N$; and for general
+integers) and of $g_6(N)$ ($\asymp N^{1/2}$), both for erdosproblems.com's
+$g_k$; the upper bounds $g_3(N)\le2$ and $g_5(N)\le c_2\log N$; and for general
 $k$ the upper bound $g_k(N)\le2^{k-1}N^{1-2^{1-k}}$ and the lower bound
 $g_k(N)>N^{1-\varepsilon}$ for $k\ge k_0(\varepsilon)$. Not covered: the
 exact values of $g_3$, $g_4$ and $g_5$ (the first two, and a constant bound
@@ -93,10 +94,10 @@ $k=5$ are covered for the positive variant $h_k$ only.
 **Acceptance.** Refereed: the paper appeared in Acta Arithmetica 27 (1975),
 37--50, DOI 10.4064/aa-27-1-37-50, in the volume in memory of Ju. V. Linnik. The
 page is named by the year of publication, filled to its first day. Not reviewed:
-the site labeled the problem OPEN (page last edited 1 December 2025). In the
-problem's commentary, the site's curator credits the paper with $g_3(N)=2$,
-$g_4(N)\ll1$, $g_5(N)\asymp\log N$, $g_6(N)\asymp N^{1/2}$ and the general
-bounds. This is commentary, not acceptance. The two credited values for $k=3$
-and $k=5$ hold for the positive variant only (see above). The problem stays open
-because the question asks for the order of $g_k$ for every $k\ge3$, and this
-result fixes it only for $k=4$ and $k=6$.
+Bloom's catalog labeled the problem OPEN (page last edited 1 December 2025). In
+the problem's commentary, the erdosproblems.com curator credits the paper with
+$g_3(N)=2$, $g_4(N)\ll1$, $g_5(N)\asymp\log N$, $g_6(N)\asymp N^{1/2}$ and the
+general bounds. This is commentary, not acceptance. The two credited values for
+$k=3$ and $k=5$ hold for the positive variant only (see above). The problem
+stays open because the question asks for the order of $g_k$ for every $k\ge3$,
+and this result fixes it only for $k=4$ and $k=6$.

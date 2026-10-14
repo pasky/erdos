@@ -71,7 +71,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0904/_index|Problem 904]]: the site's [Er75,
-  p. 13] source; the $r=3$ case of the conjecture in Erdős's 1975 words,
-  under the hypothesis $e\ge n^2/3$, which the site's commentary calls "the
-  slightly weaker condition".
+- [[../wiki/problems/extremal_graph_theory/E0904/_index|Problem 904]]:
+  erdosproblems.com's [Er75, p. 13] source; the $r=3$ case of the conjecture in
+  Erdős's 1975 words, under the hypothesis $e\ge n^2/3$, which the
+  erdosproblems.com commentary calls "the slightly weaker condition".

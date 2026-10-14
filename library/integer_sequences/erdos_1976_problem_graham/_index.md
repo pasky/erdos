@@ -46,9 +46,9 @@ for nonzero residues.
 The copy read for this card is a five-page scan (Publ. Math. Debrecen 23
 (1976), no. 1--2, 123--127, DOI 10.5486/pmd.1976.23.1-2.20; the byline prints
 "E. Erdős"); printed p. n is PDF p. n - 122, and the text layer is noisy.
-The paper's statement of Graham's conjecture has p non-zero residues; the
-site's Problem 541 and the later Gao--Hamidoune--Wang theorem admit the
-residue 0. Read status: claims checked for the conjecture as stated, Theorem
+The paper's statement of Graham's conjecture has p non-zero residues;
+erdosproblems.com's Problem 541 and the later Gao--Hamidoune--Wang theorem admit
+the residue 0. Read status: claims checked for the conjecture as stated, Theorem
 1, the deduction paragraph and the statement of the Lemma (p. 123), read on
 the page image; the proof (pp. 123--127) has not been checked. Result pages:
 [[integer_sequences/erdos_1976_problem_graham/main_theorem|main_theorem]]
@@ -64,7 +64,7 @@ Source: <https://users.renyi.hu/~p_erdos/Erdos.html>.
 **Bears on.** [[../wiki/problems/integer_sequences/E0541/_index|#541]]: the
 main theorem is the problem's statement for every sufficiently large prime p,
 with the a_i restricted to nonzero residues; it leaves the small primes and
-sequences containing the residue 0, which the site's wording admits.
+sequences containing the residue 0, which the erdosproblems.com wording admits.
 Theorem 1 gives the case in which no residue occurs eta_0 p times or more.
 
 **Results.**

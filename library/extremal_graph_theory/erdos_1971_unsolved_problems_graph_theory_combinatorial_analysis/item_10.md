@@ -85,16 +85,18 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0927/_index|Problem 927]]: the
-  site's key Er71. The paper's $f(n)$ is the site's $g(n)$; display (1) is
-  Erdős's 1971 printing of the Moon--Moser bounds, which differs from the
-  site's form $n-\log_2n-2\log\log n<g(n)\le n-\lfloor\log_2n\rfloor$ in the
-  coefficient of $\log\log n$ and in its strict upper bound without a floor,
-  Erdős's improvement is the site's $n-\log_2n-\log_*n-O(1)$, and the footnote
-  is a printed attestation that Spencer proved $f(n)>n-\log n/\log2-c$, the
-  site's disproof of the conjectured order.
-- [[../wiki/problems/extremal_graph_theory/E1016/_index|Problem 1016]]: the site's key Er71.
-  Bondy's $h(n)$ and display (2) are the site's function and bounds (the site
-  writes $\log_2(n-1)-1\le h(n)\le\log_2n+\log_*n+O(1)$ from Bondy's paper);
-  "in (2) the upper bound, is close to the truth" is the site's "Erdős
-  believed the upper bound is closer to the truth", and the first displayed
-  divergence is the site's "could not even prove $h(n)-\log_2n\to\infty$".
+  erdosproblems.com key Er71. The paper's $f(n)$ is erdosproblems.com's $g(n)$;
+  display (1) is Erdős's 1971 printing of the Moon--Moser bounds, which differs
+  from the erdosproblems.com form
+  $n-\log_2n-2\log\log n<g(n)\le n-\lfloor\log_2n\rfloor$ in the coefficient of
+  $\log\log n$ and in its strict upper bound without a floor, Erdős's
+  improvement is erdosproblems.com's $n-\log_2n-\log_*n-O(1)$, and the footnote
+  is a printed attestation that Spencer proved $f(n)>n-\log n/\log2-c$,
+  erdosproblems.com's disproof of the conjectured order.
+- [[../wiki/problems/extremal_graph_theory/E1016/_index|Problem 1016]]: the
+  erdosproblems.com key Er71. Bondy's $h(n)$ and display (2) are
+  erdosproblems.com's function and bounds (erdosproblems.com writes
+  $\log_2(n-1)-1\le h(n)\le\log_2n+\log_*n+O(1)$ from Bondy's paper); "in (2)
+  the upper bound, is close to the truth" is erdosproblems.com's "Erdős believed
+  the upper bound is closer to the truth", and the first displayed divergence is
+  erdosproblems.com's "could not even prove $h(n)-\log_2n\to\infty$".

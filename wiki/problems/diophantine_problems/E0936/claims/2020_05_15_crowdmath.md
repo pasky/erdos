@@ -35,9 +35,10 @@ covers $n!+1$. The source card is
 [[../library/diophantine_problems/crowdmath_2020_applications_abc_conjecture_powerful_numbers/_index|crowdmath_2020_applications_abc_conjecture_powerful_numbers]].
 
 **What it leaves open.** Theorem 2.3 needs $r$ positive, and the paper does not
-treat $2^n-1$, although the site credits it with the whole first question of
-[[problems/diophantine_problems/E0936/_index|Problem 936]], on $2^n\pm1$. Even
-conditionally, the claim answers only the case $2^n+1$ of that question.
+treat $2^n-1$, although erdosproblems.com credits it with the whole first
+question of [[problems/diophantine_problems/E0936/_index|Problem 936]], on
+$2^n\pm1$. Even conditionally, the claim answers only the case $2^n+1$ of that
+question.
 
 **Hypothesis.** The abc conjecture: for every $\epsilon>0$ there is a constant
 $K_\epsilon$ such that coprime positive integers $a+b=c$ satisfy
@@ -48,5 +49,5 @@ claim gives no unconditional answer and settles no standing of the problem.
 the hypothesis stated above.
 
 **Acceptance.** None. The paper is an arXiv preprint, and no journal version was
-found. The site labeled the problem OPEN, so the site's commentary crediting the
-paper is not acceptance.
+found. Bloom's catalog labeled the problem OPEN, so the erdosproblems.com
+commentary crediting the paper is not acceptance.

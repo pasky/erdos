@@ -170,7 +170,7 @@ follow from his results with Rényi, and suggests that $f(C)$ may be
 continuous and strictly increasing for $C\ge1/2$; the conjecture Ajtai,
 Komlós and Szemerédi cite as their reference [4], stated for the longest
 circuit with an asymptotic and a single function $f(C)$, which asks more than
-the site's wording of the problem does;
+the erdosproblems.com wording of the problem does;
 [[ramsey_theory/erdos_1975_problems_results_finite_infinite_graphs/conjecture_p188_longest_circuit|conjecture_p188_longest_circuit]]),
 [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]] (Section VII, printed p. 188 =
 PDF p. 6, page image: Erdős credits the systematic study of random graphs

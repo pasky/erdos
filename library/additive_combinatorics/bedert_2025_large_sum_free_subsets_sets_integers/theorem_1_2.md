@@ -34,7 +34,7 @@ Green's list [8] of 100 open problems", and (p. 3) that "By simply
 removing $0$ if it lies in $A$, it is sufficient to establish Theorem 1.2
 for sets $A\subset\mathbb Z\setminus\{0\}$". Theorem 1.3 (p. 2), the "99%
 Structure Theorem", describes sets with $S(A)\le N/3+C$. The paper's $S(N)$
-is the $f(n)$ of the site's Problem 792 for sets of positive integers.
+is the $f(n)$ of erdosproblems.com's Problem 792 for sets of positive integers.
 
 **Source.** B. Bedert, *Large sum-free subsets of sets of integers via
 $L^1$-estimates for trigonometric series*, arXiv:2502.08624v1 (12
@@ -72,7 +72,7 @@ machinery, per the overview; nothing checked.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0792/_index|Problem 792]]: the best lower
-  bound, $f(n)\ge n/3+c\log\log n$, which the site attributes to this
+  bound, $f(n)\ge n/3+c\log\log n$, which erdosproblems.com attributes to this
   preprint; the first unbounded improvement of Erdős's $n/3$ after
   $(n+1)/3$ and $(n+2)/3$. Recorded with the preprint qualification.
 - Problem 790 is not concerned: its condition forbids an element equal to

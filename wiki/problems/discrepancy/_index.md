@@ -89,6 +89,6 @@ The Erdos discrepancy problem and its relatives: how unbalanced a plus/minus one
 coloring must become along arithmetic progressions, dilates and set systems, and
 irregularities of distribution of sequences and of graph colorings.
 
-Site tags routed here: additive combinatorics, analysis, arithmetic
+erdosproblems.com tags routed here: additive combinatorics, analysis, arithmetic
 progressions, combinatorics, discrepancy, graph theory, hypergraphs, primes,
 ramsey theory.

@@ -4,7 +4,7 @@ desc: The 18 claim pages of Problem 1020, one per claimant's result; the problem
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_systems/E1020/claims
@@ -70,8 +70,8 @@ $k-1>101r^3$ whenever $rk\le n<k(r+1/(100r))$, which widens Frankl's window
 above $n=rk$. The paper is refereed and appeared in Discrete Mathematics.
 
 [[problems/set_systems/E1020/claims/2026_02_01_mishra|2026_02_01_mishra]]: Mishra's 2026 preprint claimed a complete proof of the Erdős matching
-conjecture. A reader found an error in its Lemma 4 on the site's thread, and
-the author withdrew the preprint on 1 June 2026.
+conjecture. A reader found an error in its Lemma 4 on the erdosproblems.com
+thread, and the author withdrew the preprint on 1 June 2026.
 
 [[problems/set_systems/E1020/claims/2026_02_22_frankl_lu_ma_wu|2026_02_22_frankl_lu_ma_wu]]: Frankl, Lu, Ma and Wu (2026) claim a proof of the matching conjecture for
 $4$-uniform hypergraphs when $n\ge5(k-1)$, five times the matching number, and

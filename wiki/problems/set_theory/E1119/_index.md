@@ -28,26 +28,29 @@ family of entire functions such that, for every $z_0\in \mathbb{C}$, there are
 at most $\mathfrak{m}$ distinct values of $f_\alpha(z_0)$. Must $\{f_\alpha\}$
 have cardinality at most $\mathfrak{m}$?
 
-**Formulation.** Read as the site words it, the statement holds vacuously under
-CH, where no $\mathfrak m$ satisfies $\aleph_0<\mathfrak m<\mathfrak c$. In ZFC
-it holds for every $\mathfrak m$ with $\mathfrak m^+<\mathfrak c$, by Erdős's
-counting argument of 1964. Hayman calls that case easy, and the site records the
-independence of the remaining case $\mathfrak m^+=\mathfrak c$, which needs CH
-to fail. The standing answers the site's wording; it and the case
-$\mathfrak m^+=\mathfrak c$ are both independent of ZFC.
+**Formulation.** Read as Bloom's catalog words it, the statement holds vacuously
+under CH, where no $\mathfrak m$ satisfies $\aleph_0<\mathfrak m<\mathfrak c$.
+In ZFC it holds for every $\mathfrak m$ with $\mathfrak m^+<\mathfrak c$, by
+Erdős's counting argument of 1964. Hayman calls that case easy, and
+erdosproblems.com records the independence of the remaining case
+$\mathfrak m^+=\mathfrak c$, which needs CH to fail. The standing answers the
+erdosproblems.com wording; it and the case $\mathfrak m^+=\mathfrak c$ are both
+independent of ZFC.
 
-**Status.** Independent. The site's commentary records that the question is
-undecidable when $\mathfrak m^+=\mathfrak c$. It credits Kumar and Shelah with a
-model where the answer is yes, and Schilhan and Weinert with a model where it is
-no. It also records that the answer is yes whenever $\mathfrak m^+<\mathfrak c$.
-The frontmatter standing is derived from the accepted claim page
+**Status.** Independent. The erdosproblems.com commentary records that the
+question is undecidable when $\mathfrak m^+=\mathfrak c$. It credits Kumar and
+Shelah with a model where the answer is yes, and Schilhan and Weinert with a
+model where it is no. It also records that the answer is yes whenever
+$\mathfrak m^+<\mathfrak c$. The frontmatter standing is derived from the
+accepted claim page
 [[problems/set_theory/E1119/claims/2023_10_30_schilhan_weinert|Schilhan and Weinert's result]].
 Together with any model of CH, where the statement holds vacuously, this result
-gives the independence of the statement in the site's wording. Together with
+gives the independence of the statement in the erdosproblems.com wording.
+Together with
 [[problems/set_theory/E1119/claims/2017_01_05_kumar_shelah|Kumar and Shelah's result]],
 it gives the independence of the case $\mathfrak m^+=\mathfrak c$. Both results
-are accepted on their refereed publication and the site's credit. The case
-$\mathfrak m^+<\mathfrak c$ is
+are accepted on their refereed publication and the erdosproblems.com credit. The
+case $\mathfrak m^+<\mathfrak c$ is
 [[problems/set_theory/E1119/claims/1964_03_01_erdos|Erdős's 1964 result]], an
 accepted partial claim.
 

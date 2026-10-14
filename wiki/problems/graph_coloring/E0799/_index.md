@@ -60,14 +60,14 @@ almost surely for $2<np\le n/2$, which at $p=1/2$ is the order $n/\log n$ of
 the chromatic number itself. Each is an accepted full claim:
 [[problems/graph_coloring/E0799/claims/1992_06_01_alon|Alon 1992]] and
 [[problems/graph_coloring/E0799/claims/1999_10_01_alon_krivelevich_sudakov|Alon, Krivelevich and Sudakov 1999]],
-both refereed journal papers credited by the site's curator. The second
-paper's introduction reports Kahn's asymptotic
+both refereed journal papers credited by the erdosproblems.com curator. The
+second paper's introduction reports Kahn's asymptotic
 $\chi_L(G(n,1/2))=(1+o(1))n/(2\log_2 n)$ almost surely, with the argument
 described in Alon's survey Restricted colorings of graphs (Surveys in
 Combinatorics, 1993). That result is $o(n)$ and answers the question, but the
 corpus knows it only through that report and has not carded the survey, so it
-stays outside the derivation. No other claim appears on the site's forum (read
-2026-10-07) or in the sources cited above.
+stays outside the derivation. No other claim appears on the erdosproblems.com
+forum (read 2026-10-07) or in the sources cited above.
 
 <!-- BEGIN problem library links -->
 

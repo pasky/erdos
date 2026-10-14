@@ -28,27 +28,28 @@ $\sum_{i\in S}q^i$ (for all finite $S$), ordered by size as $0=x_1<x_2<\cdots$.
 Is it true that, provided $\epsilon>0$ is sufficiently small, $x_{k+1}-x_k \to
 0$?
 
-**Formulation.** The site's wording (page last edited 16 April 2026). The sums
-run over finite sets $S$ of nonnegative integers, the empty sum giving $x_1=0$;
-the sequence begins $0,1,q$ (the site's remark; the 1998 sources write $y_0=0$,
-$y_1=1$, $y_2=q$, while [EJK90] writes $0=:y_1$, so $y_2=1$, $y_3=q$, p. 386).
-The question asks for one $\epsilon>0$ such that for every $q$ in
-$(1,1+\epsilon)$ the consecutive gaps tend to $0$. In the sources the sequence
-is $(y_n)$ with $l(q)=\inf(y_{k+1}-y_k)$, which equals $\liminf(y_{k+1}-y_k)$,
-and $L(q)=\limsup(y_{k+1}-y_k)$ (Erdős, Joó and Komornik 1998, p. 201), or
-$X_1(q)$ with $\ell_1(q)$ and $L_1(q)$ (Feng), so the question is whether
-$L(q)=0$ on some interval $(1,1+\epsilon)$. The site's sources are [EJK90] and
-[GWNT91]; the earliest located statement of the question is Problem 4 of the
-1990 Bulletin paper (p. 389): "Characterize the set of those $1<q<2$ for which
-$y_{n+1}-y_n\to0$. Is it true that every $q$ which is sufficiently close to $1$
-has this property?" The 1991 problem session the site names is problem 91:18 of
-the 1991 Western Number Theory problem set (p. 16), which asks for a proof that
-$x_{k+1}-x_k\to0$ when $\epsilon$ is small and guesses that every $q<q_0$,
-$q_0^3=q_0+1$, has this property. The site's label PROVED (LEAN) carries a
-catalog suffix explained under Formalization.
+**Formulation.** The erdosproblems.com wording (page last edited 16 April 2026).
+The sums run over finite sets $S$ of nonnegative integers, the empty sum giving
+$x_1=0$; the sequence begins $0,1,q$ (the erdosproblems.com remark; the 1998
+sources write $y_0=0$, $y_1=1$, $y_2=q$, while [EJK90] writes $0=:y_1$, so
+$y_2=1$, $y_3=q$, p. 386). The question asks for one $\epsilon>0$ such that for
+every $q$ in $(1,1+\epsilon)$ the consecutive gaps tend to $0$. In the sources
+the sequence is $(y_n)$ with $l(q)=\inf(y_{k+1}-y_k)$, which equals
+$\liminf(y_{k+1}-y_k)$, and $L(q)=\limsup(y_{k+1}-y_k)$ (Erdős, Joó and Komornik
+1998, p. 201), or $X_1(q)$ with $\ell_1(q)$ and $L_1(q)$ (Feng), so the question
+is whether $L(q)=0$ on some interval $(1,1+\epsilon)$. The erdosproblems.com
+sources are [EJK90] and [GWNT91]; the earliest located statement of the question
+is Problem 4 of the 1990 Bulletin paper (p. 389): "Characterize the set of those
+$1<q<2$ for which $y_{n+1}-y_n\to0$. Is it true that every $q$ which is
+sufficiently close to $1$ has this property?" The 1991 problem session
+erdosproblems.com names is problem 91:18 of the 1991 Western Number Theory
+problem set (p. 16), which asks for a proof that $x_{k+1}-x_k\to0$ when
+$\epsilon$ is small and guesses that every $q<q_0$, $q_0^3=q_0+1$, has this
+property. The erdosproblems.com label PROVED (LEAN) carries a catalog suffix
+explained under Formalization.
 
-**Status.** The site's label was PROVED (LEAN), whose catalog suffix is
-explained under Formalization. The frontmatter standing is derived from the
+**Status.** The erdosproblems.com label was PROVED (LEAN), whose catalog suffix
+is explained under Formalization. The frontmatter standing is derived from the
 three accepted pages described below.
 
 The first resolution is Theorem IV of Erdős and Komornik's 1998 paper (Acta
@@ -76,25 +77,25 @@ A third first-hand source, the third accepted full claim, on
 1.4 of Feng's paper (J. Eur. Math. Soc. 18 (2016), 181--193, refereed; quoted
 from arXiv v3). It gives $\lim(x_{n+1}-x_n)=0$ for $1<q<\sqrt2$ with $q^2$ not a
 Pisot number. The smallest Pisot number is $q_0\approx1.3247$, the real root of
-$x^3=x+1$ (Siegel's classical theorem, which the site's commentary also states).
-So every $q$ in $(1,\sqrt{q_0})$ has $q^2\in(1,q_0)$ not Pisot and $q<\sqrt2$.
-Hence the gaps tend to $0$ for every $1<q<\sqrt{q_0}\approx1.1510$, with
-$\epsilon=\sqrt{q_0}-1\approx0.151$. This is an authored deduction, one line,
-from Feng's theorem and Siegel's theorem.
+$x^3=x+1$ (Siegel's classical theorem, which the erdosproblems.com commentary
+also states). So every $q$ in $(1,\sqrt{q_0})$ has $q^2\in(1,q_0)$ not Pisot and
+$q<\sqrt2$. Hence the gaps tend to $0$ for every $1<q<\sqrt{q_0}\approx1.1510$,
+with $\epsilon=\sqrt{q_0}-1\approx0.151$. This is an authored deduction, one
+line, from Feng's theorem and Siegel's theorem.
 
-The site reports the 1998 range as $1<q<\sqrt{q_1}$. Feng's introduction reports
-it as $1<q\le2^{1/4}$ "with the possible exception of the square root of the
-second Pisot number". The printed theorem is Feng's version, and the site's
-range is its part below the excluded point. A fourth, pending claim, the
-thread's two-page note on
+erdosproblems.com reports the 1998 range as $1<q<\sqrt{q_1}$. Feng's
+introduction reports it as $1<q\le2^{1/4}$ "with the possible exception of the
+square root of the second Pisot number". The printed theorem is Feng's version,
+and erdosproblems.com's range is its part below the excluded point. A fourth,
+pending claim, the thread's two-page note on
 [[problems/number_theory/E1096/claims/2026_04_16_acosta_de_leon|Acosta De León's page]],
 repeats the deduction from Feng's theorem and adds nothing to the standing.
 
 **Source.** [erdosproblems.com/1096](https://www.erdosproblems.com/1096),
 accessed 2026-09-18: the problem page (PROVED (LEAN),
-with the site's note that the answer is affirmative and the proof verified in
-Lean; last edited 16 April 2026; source keys [EJK90], [GWNT91]; commentary
-citing [Bu96], [EJS96], [ErKo98] and [Fe16]; the formalized-statement
+with the erdosproblems.com note that the answer is affirmative and the proof
+verified in Lean; last edited 16 April 2026; source keys [EJK90], [GWNT91];
+commentary citing [Bu96], [EJS96], [ErKo98] and [Fe16]; the formalized-statement
 indicator answering yes; the page thanks van Doorn and one other
 contributor), its three-comment discussion
 thread (16 April 2026) and its empty proof-claims tab. Cite as: T. F. Bloom,
@@ -109,16 +110,16 @@ Erdős Problem #1096, https://www.erdosproblems.com/1096, accessed
   (Crossref record accessed 2026-09-18). Theorem 4, p. 386; Problem 4,
   p. 389. Library home:
   [[../library/number_theory/erdos_1990_characterization_unique_expansions_related_problems/_index|erdos_1990_characterization_unique_expansions_related_problems]].
-- [GWNT91] The site's key for "the 1991 problem session of Great Western
-  Number Theory". Located: problem 91:18 (Paul Erdős & I. Joó), p. 16, of
-  Western Number Theory Problems, 1991-12-19 & 22, edited by Richard K. Guy;
+- [GWNT91] The erdosproblems.com key for "the 1991 problem session of Great
+  Western Number Theory". Located: problem 91:18 (Paul Erdős & I. Joó), p. 16,
+  of Western Number Theory Problems, 1991-12-19 & 22, edited by Richard K. Guy;
   not held. Library home:
   [[../library/number_theory/guy_1991_western_number_theory_problems/_index|guy_1991_western_number_theory_problems]].
 - [Bu96] Bugeaud, Y., On a property of Pisot numbers and related questions.
   Acta Math. Hungar. 73 (1996), no. 1--2, 33--39, doi:10.1007/BF00058941
   (Crossref bibliographic query, 2026-09-18). Not held (publisher paywall).
-  Its theorem is quoted from the site and from [EJS96], p. 95: for $1<q<2$,
-  $q$ is Pisot if and only if $l_k(q)>0$ for all $k\ge1$.
+  Its theorem is quoted from erdosproblems.com and from [EJS96], p. 95: for
+  $1<q<2$, $q$ is Pisot if and only if $l_k(q)>0$ for all $k\ge1$.
 - [EJS96] Erdős, P. and Joó, I. and Schnitzer, F. J., On Pisot numbers. Ann.
   Univ. Sci. Budapest. Eötvös Sect. Math. 39 (1996), 95--99 (received 6
   October 1995; no Crossref record). The Theorem, p. 95, in the journal
@@ -141,16 +142,16 @@ Erdős Problem #1096, https://www.erdosproblems.com/1096, accessed
 - [EJK98] Erdős, P., Joó, I. and Komornik, V., On the sequence of numbers of
   the form $\varepsilon_0+\varepsilon_1q+\ldots+\varepsilon_nq^n$,
   $\varepsilon_i\in\{0,1\}$. Acta Arith. 83 (1998), no. 3, 201--210,
-  doi:10.4064/aa-83-3-201-210 (Crossref record accessed 2026-09-18). Not a
-  site key. Theorem 4, p. 206; Theorem 5, p. 207.
+  doi:10.4064/aa-83-3-201-210 (Crossref record accessed 2026-09-18). Not an
+  erdosproblems.com key. Theorem 4, p. 206; Theorem 5, p. 207.
   Library home:
   [[../library/number_theory/erdos_1998_sequence_numbers_form_sums_powers_q/_index|erdos_1998_sequence_numbers_form_sums_powers_q]].
 - [Si44] Siegel, C. L., Algebraic integers whose conjugates lie in the unit
   circle. Duke Math. J. 11 (1944), 597--602. The classical source of the fact
   that $q_0$ is the smallest Pisot number; not held, cited as the standard
-  reference for a fact the site's commentary also states.
+  reference for a fact the erdosproblems.com commentary also states.
 
-**Formalization.** The suffix of the site's label PROVED (LEAN) is a
+**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is a
 catalog label. The file
 [`ErdosProblems/1096.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1096.lean)
 of formal-conjectures at the linked commit declares
@@ -179,14 +180,14 @@ has not built or audited the development, and no kernel credit is claimed.
 The community database (teorth/erdosproblems, accessed 2026-09-18) records
 `proved (Lean)`, as of its last update on 23 August 2026, the statement
 formalized, as of its last update on 21 May 2026, `formal_status` Lean and
-no formal-proof URL; the site's indicator answers yes.
+no formal-proof URL; the erdosproblems.com indicator answers yes.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; PROVED (LEAN); last edited 16 April 2026. The site's commentary
-attributes the problem to Erdős and Joó at the 1991 problem session of the
-Western Number Theory conference, where, it says, they guessed the
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; PROVED (LEAN); last edited 16 April 2026. The erdosproblems.com
+commentary attributes the problem to Erdős and Joó at the 1991 problem session
+of the Western Number Theory conference, where, it says, they guessed the
 threshold to be $q_0\approx1.3247$, the real root of $x^3=x+1$ and the
 smallest Pisot number; it credits [EJK90] with excluding every Pisot number
 and with the bound $x_{k+1}-x_k\le1$ for every $k$ when $1<q\le2$, notes
@@ -206,8 +207,8 @@ curator replies that Feng's paper solves the problem,
 through its Theorem 1.4 and the gap between $1$ and the smallest Pisot
 number, a consequence Feng does not state, and amends the reply the same
 day after finding in Feng's paper that Erdős and Komornik had already
-solved the question in 1998, updating the site; a third comment notes that
-Feng's paper had been reported on the forum's missing-problems thread. The
+solved the question in 1998, updating erdosproblems.com; a third comment notes
+that Feng's paper had been reported on the forum's missing-problems thread. The
 proof-claims tab is empty. The community database record (accessed
 2026-09-18) says proved (Lean), as of its last update on 23 August 2026.
 
@@ -215,17 +216,17 @@ proof-claims tab is empty. The community database record (accessed
 [[../library/number_theory/erdos_1990_characterization_unique_expansions_related_problems/problem_4|Problem 4]]
 of [EJK90] (p. 389) is quoted in the Formulation paragraph; the same paper's
 [[../library/number_theory/erdos_1990_characterization_unique_expansions_related_problems/theorem_4|Theorem 4]]
-(p. 386) gives a) $y_{n+1}-y_n\le1$ for all $n\ge1$ (the bound the site's
-commentary states), b) $y_{n+1}-y_n=1$ infinitely often for $q>(1+\sqrt5)/2$, c)
-if $y_{n+1}-y_n\to0$ then $1$ has an infinite expansion with arbitrarily long
-runs of zero digits, and d) some Pisot $q<(1+\sqrt5)/2$ (the real root of
-$q^3=q^2+1$) has $y_{n+1}-y_n\not\to0$, through c) and the fact, recalled there
-from two papers "to appear", that no infinite expansion of $1$ in a Pisot base
-has arbitrarily long zero runs; the general exclusion of every Pisot number,
-$L(q)>0$, is attributed to this paper by [EJK98] (p. 202, result (c)). Remark 2
-there: the gaps do tend to $0$ for $q=2^{1/m}$, $m\ge2$. [EJK98] then records
-the 1998 state: "We do not know whether $L(q)=0$ for all $q$ sufficiently close
-to 1" (p. 206), with
+(p. 386) gives a) $y_{n+1}-y_n\le1$ for all $n\ge1$ (the bound the
+erdosproblems.com commentary states), b) $y_{n+1}-y_n=1$ infinitely often for
+$q>(1+\sqrt5)/2$, c) if $y_{n+1}-y_n\to0$ then $1$ has an infinite expansion
+with arbitrarily long runs of zero digits, and d) some Pisot $q<(1+\sqrt5)/2$
+(the real root of $q^3=q^2+1$) has $y_{n+1}-y_n\not\to0$, through c) and the
+fact, recalled there from two papers "to appear", that no infinite expansion of
+$1$ in a Pisot base has arbitrarily long zero runs; the general exclusion of
+every Pisot number, $L(q)>0$, is attributed to this paper by [EJK98] (p. 202,
+result (c)). Remark 2 there: the gaps do tend to $0$ for $q=2^{1/m}$, $m\ge2$.
+[EJK98] then records the 1998 state: "We do not know whether $L(q)=0$ for all
+$q$ sufficiently close to 1" (p. 206), with
 [[../library/number_theory/erdos_1998_sequence_numbers_form_sums_powers_q/theorem_4|Theorem 4]]
 ($L(q)\le(q^2-1)e$ for $1<q<2$, so $L(q)\to0$ as $q\to1$) and
 [[../library/number_theory/erdos_1998_sequence_numbers_form_sums_powers_q/theorem_5|Theorem 5]]
@@ -252,7 +253,7 @@ answer to this question", and gives the special case "$y_{k+1}-y_k\to0$
 for all $q$ between 1 and $2^{1/4}$, except possibly the square root of the
 second Pisot number $\sqrt{p_2}\approx1.175$"; Remark (a) after the theorem
 says the property "probably" holds at $\sqrt{p_2}$ too and that the first
-author's death ended the study. The paper's $p_1,p_2$ are the site's
+author's death ended the study. The paper's $p_1,p_2$ are erdosproblems.com's
 $q_0,q_1$. The proof (pp. 77--78) applies the paper's Lemma 3.2, which
 turns a finite accumulation point of the difference set of one digit
 pattern and bounded gaps of two others into gaps tending to $0$ for their
@@ -270,7 +271,7 @@ result page
 records one filing observation (the proof's first case is written for
 $q<2^{1/4}$ while the theorem allows equality, where the same argument
 applies). Acceptance: a refereed journal article (Acta Math. Hungar. 1998),
-cited by [Fe16] and the site as the first resolution.
+cited by [Fe16] and erdosproblems.com as the first resolution.
 
 **The answer again (Feng's Theorem 1.4 with the authored deduction).**
 [[../library/number_theory/feng_2016_topology_polynomials_bounded_integer_coefficients/theorem_1_4|Theorem 1.4]]
@@ -281,8 +282,8 @@ sequence; the paper derives it in one line from its Corollary 1.3 ($\ell_m(q)=0$
 iff $q<m+1$ and $q$ is not Pisot, a corollary of the main density theorem) and
 the implication $\ell_m(q^2)=0\Rightarrow L_m(q)=0$ (Akiyama and Komornik's
 Lemma 2.5, first proved for $m=1$ as Theorem 5 of [EJK98]). Deduction made here:
-the smallest Pisot number is $q_0\approx1.3247$ ([Si44]; the site says the
-same), so no Pisot number lies in $(1,q_0)$; for $1<q<\sqrt{q_0}$ one has
+the smallest Pisot number is $q_0\approx1.3247$ ([Si44]; erdosproblems.com says
+the same), so no Pisot number lies in $(1,q_0)$; for $1<q<\sqrt{q_0}$ one has
 $q^2\in(1,q_0)$, hence $q^2$ is not Pisot, and $q<\sqrt{q_0}<\sqrt2$; Theorem
 1.4 with $m=1$ gives $L_1(q)=0$, that is, $x_{k+1}-x_k\to0$. Numerically
 $1.1509^2\approx1.3246<q_0<1.3248\approx1.1510^2$, so $\sqrt{q_0}\approx1.1510$
@@ -292,11 +293,11 @@ and every $\epsilon\le\sqrt{q_0}-1\approx0.151$ answers the question. Theorem
 silent; [ErKo98]'s Theorem IV covers $\sqrt{q_0}$ by its separate case (p. 78)
 and leaves $\sqrt{q_1}$ out below $2^{1/4}$, a point that Akiyama and Komornik's
 Theorem 1.4 (i) closes (next paragraph). Acceptance: a refereed journal article
-(JEMS 2016); the site's label; the thread's identification. Basis: claims
-checked for Theorem 1.4, Corollary 1.3, Theorem 1.2 and the derivation sentence;
-Feng's proof (Theorem 1.6 by way of Theorem 1.11, pp. 5--6, and Section 2, pp.
-6--11) and the cited implication are not checked; the deduction above is the
-compilation's and is not independently reviewed.
+(JEMS 2016); the erdosproblems.com label; the thread's identification. Basis:
+claims checked for Theorem 1.4, Corollary 1.3, Theorem 1.2 and the derivation
+sentence; Feng's proof (Theorem 1.6 by way of Theorem 1.11, pp. 5--6, and
+Section 2, pp. 6--11) and the cited implication are not checked; the deduction
+above is the compilation's and is not independently reviewed.
 
 **The range extended (Akiyama and Komornik's Theorem 1.4 (i), from the
 arXiv text).** Theorem 1.4 of Akiyama and Komornik, *Discrete spectra and
@@ -316,8 +317,8 @@ held in the library.
 
 **Beyond the question (context, not the problem).** Feng's Corollary 1.3
 gives the lower limit exactly: $\liminf(x_{n+1}-x_n)=0$ for every non-Pisot
-$q\in(1,2)$ and for no Pisot $q$ (the site's first Feng sentence). For the
-upper limit, Feng's p. 3 reports Komornik's conjecture that $L_1(q)=0$ for
+$q\in(1,2)$ and for no Pisot $q$ (erdosproblems.com's first Feng sentence). For
+the upper limit, Feng's p. 3 reports Komornik's conjecture that $L_1(q)=0$ for
 every non-Pisot $q$ below the golden ratio and calls the general
 $L_m(q)$ question open; the characterization asked for in the first
 sentence of [EJK90]'s Problem 4 is therefore open for the lim sup.
@@ -333,11 +334,11 @@ it was never filed on the proof-claims tab and carries no acceptance
 evidence.
 
 **Search scope.** None of the routes below found a dispute
-of Feng's theorem or of the site's account, an open copy of [ErKo98], or a
-resolution of the lim sup question in general; [GWNT91] was located on the
+of Feng's theorem or of erdosproblems.com's account, an open copy of [ErKo98],
+or a resolution of the lim sup question in general; [GWNT91] was located on the
 conference site.
 
-- The site: problem page, discussion thread and proof-claims tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claims tab; the
   formal-conjectures file at the pinned commit and the external Lean file
   at its pinned commit (statement and closing lines); the community
   database, accessed 2026-09-18.
@@ -363,22 +364,22 @@ text), the two 1990 sources "to appear" behind [EJK90]'s Pisot recall.
 
 **Remaining gaps.** (1) The first resolution, [ErKo98]: its Theorem IV is
 checked with its proof; the two second-hand ranges are reconciled (the printed
-range is Feng's, the site's its part below $\sqrt{q_1}$), and the field rests on
-that theorem, on Akiyama and Komornik's Theorem 1.4 (i), which closes the
-excluded point, and on Feng's theorem with Siegel's classical theorem, all
+range is Feng's, erdosproblems.com's its part below $\sqrt{q_1}$), and the field
+rests on that theorem, on Akiyama and Komornik's Theorem 1.4 (i), which closes
+the excluded point, and on Feng's theorem with Siegel's classical theorem, all
 first-hand. The proof's supports, the paper's Theorem I (b) and Lemma 3.2, are
 not checked. (2) The 1990 Bulletin paper's Problem 4 is the earliest located
 statement of the question; the 1991 set's 91:18 (p. 16) attributes the question
 and the $q_0$ guess to Erdős and Joó. (3) The Lean artifact's imported module,
 where the mathematics lives, is not examined, and nothing is built. (4) [Bu96]
-is not held; its theorem is quoted from the site and from [EJS96]. (5) Proof
-coverage: claims checked for Feng's Theorem 1.4 and the 1990, 1996 and 1998
-statements; the one-page proof of [ErKo98]'s Theorem IV is checked as far as its
-reductions, and no other proof is checked; the deduction from Theorem 1.4 to the
-problem is the compilation's one line. (6) The thread's note rests on Feng's
-theorem and carries no acceptance evidence. (7) The general characterization of
-the $q$ with $x_{k+1}-x_k\to0$ (the first sentence of the 1990 Problem 4) is
-open for the lim sup, by Feng's 2016 account.
+is not held; its theorem is quoted from erdosproblems.com and from [EJS96]. (5)
+Proof coverage: claims checked for Feng's Theorem 1.4 and the 1990, 1996 and
+1998 statements; the one-page proof of [ErKo98]'s Theorem IV is checked as far
+as its reductions, and no other proof is checked; the deduction from Theorem 1.4
+to the problem is the compilation's one line. (6) The thread's note rests on
+Feng's theorem and carries no acceptance evidence. (7) The general
+characterization of the $q$ with $x_{k+1}-x_k\to0$ (the first sentence of the
+1990 Problem 4) is open for the lim sup, by Feng's 2016 account.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

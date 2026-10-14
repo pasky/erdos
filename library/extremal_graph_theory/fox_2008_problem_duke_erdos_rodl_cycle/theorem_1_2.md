@@ -85,6 +85,6 @@ external otherwise.
 - [[../wiki/problems/extremal_graph_theory/E0584/_index|Problem 584]]: the second clause
   ($H_2$: cycles of length at most $8$, $\gg\delta^2n^2$ edges) for
   $\delta=n^{-\beta}$ with $0<\beta<1/5$ and an absolute constant $1/64$,
-  which the site records as "$\delta>n^{-1/5}$"; the constant-density case
-  of that clause is attributed on p. 1057 to a 1991 paper of Duke, Erdős and
-  Rödl not held here.
+  which erdosproblems.com records as "$\delta>n^{-1/5}$"; the constant-density
+  case of that clause is attributed on p. 1057 to a 1991 paper of Duke, Erdős
+  and Rödl not held here.

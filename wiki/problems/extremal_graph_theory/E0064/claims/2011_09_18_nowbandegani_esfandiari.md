@@ -41,10 +41,10 @@ Shirdareh Haghighi and Bibak
 ([[problems/extremal_graph_theory/E0064/claims/2011_09_25_nowbandegani_esfandiari_haghighi_bibak|claim page]]),
 which says the two authors prove that any bipartite counterexample must
 have at least $32$ vertices; the thread comment of 6 December 2025 that the
-site's remark points to lists the bound among the known results, through a
-ResearchGate record that is access-controlled. No text of the result beyond
-these citations is known to this corpus, and the title's word "experimental"
-marks it as a computation. Read depth: the citing paper's
+erdosproblems.com remark points to lists the bound among the known results,
+through a ResearchGate record that is access-controlled. No text of the result
+beyond these citations is known to this corpus, and the title's word
+"experimental" marks it as a computation. Read depth: the citing paper's
 introduction and references.
 
 **Covers.** The statement of Problem 64 for bipartite graphs on at most $31$
@@ -56,6 +56,6 @@ reaches $58$ vertices for the cubic bipartite graphs only.
 
 **Standing.** Claimed: a workshop presentation known only through citations,
 with no published text, certificate or outside review known to this corpus.
-The site's curator cites the family list that names the result while labeling
-the problem FALSIFIABLE, which is commentary on an open problem and not
+The erdosproblems.com curator cites the family list that names the result while
+labeling the problem FALSIFIABLE, which is commentary on an open problem and not
 acceptance.

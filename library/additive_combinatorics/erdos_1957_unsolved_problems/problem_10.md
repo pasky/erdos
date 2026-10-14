@@ -56,9 +56,9 @@ None.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0139/_index|Problem 139]]: the
-  paper's $r_k(n)$ counts integers in $[1,n-1]$, the site's $r_k(N)$ those in
-  $\{1,\ldots,N\}$. The paper records the case $k=3$ of the problem as the
-  Erdős-Turán conjecture with Roth's proof of it, and Behrend's theorem that
+  paper's $r_k(n)$ counts integers in $[1,n-1]$, erdosproblems.com's $r_k(N)$
+  those in $\{1,\ldots,N\}$. The paper records the case $k=3$ of the problem as
+  the Erdős-Turán conjecture with Roth's proof of it, and Behrend's theorem that
   either $c_k=0$ for every $k$ or $c_k\to1$. It does not settle $k\ge4$.
 - [[../wiki/problems/additive_combinatorics/E0142/_index|Problem 142]]: the
   paper records the bounds above and states that the true order of magnitude

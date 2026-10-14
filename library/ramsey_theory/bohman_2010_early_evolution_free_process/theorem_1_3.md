@@ -66,7 +66,7 @@ $H$-free process in Sections 2--10.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]: for $\ell=4$ the bound
-  $R(C_4,K_t)=\Omega((t/\log t)^{3/2})$ is the order of the lower bound the
-  site quotes; inverting Theorem 1.9 at $\ell=4$ gives the larger
+  $R(C_4,K_t)=\Omega((t/\log t)^{3/2})$ is the order of the lower bound
+  erdosproblems.com quotes; inverting Theorem 1.9 at $\ell=4$ gives the larger
   $\Omega(t^{3/2}/\log t)$; and the paper's remark records the conjecture
   $R(C_4,K_t)=O(t^{2-\epsilon})$ as open in 2009.

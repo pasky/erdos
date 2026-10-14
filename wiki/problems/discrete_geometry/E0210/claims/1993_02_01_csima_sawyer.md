@@ -40,7 +40,7 @@ It does not reach the sharp constant $1/2$, which
 later prove for large $n$.
 
 The result is refereed: J. Csima and E. T. Sawyer, There exist $6n/13$ ordinary
-points, Discrete Comput. Geom. 9 (1993), no. 2, 187-202. The site's page
-credits this paper with the bound $6n/13$ for $n\ge 8$; its label, proved,
+points, Discrete Comput. Geom. 9 (1993), no. 2, 187-202. The erdosproblems.com
+page credits this paper with the bound $6n/13$ for $n\ge 8$; its label, proved,
 rests on the later result of Green and Tao, so the acceptance here stands on
 the refereed publication. The paper is not held.

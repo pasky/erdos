@@ -66,8 +66,8 @@ $n\ge5$ inside the proof of Lemma 2 (not held).
 ## Bears on
 
 - [[../wiki/problems/number_theory/E1005/_index|Problem 1005]]: the lower bound
-  $(\frac1{12}-o(1))n\le f(n)$ the site prints. The paper says (p. 1) that,
-  as far as the author is aware, no improvement on Erdős's 1943 constant had
-  appeared before it; a 2026 preprint
+  $(\frac1{12}-o(1))n\le f(n)$ erdosproblems.com prints. The paper says (p. 1)
+  that, as far as the author is aware, no improvement on Erdős's 1943 constant
+  had appeared before it; a 2026 preprint
   ([[number_theory/cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey/_index|Cipollini]])
   claims the lower bound $(\frac14-o(1))n$.

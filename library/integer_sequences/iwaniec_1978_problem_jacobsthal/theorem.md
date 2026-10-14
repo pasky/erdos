@@ -96,7 +96,7 @@ Arith. 18 (1971), 243--256 (the paper's [2], not held).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]]: the source of the
-  Corollary $C(r)\ll r^2\log^2r$, the site's $h(k)\ll(k\log k)^2$, with
+  Corollary $C(r)\ll r^2\log^2r$, erdosproblems.com's $h(k)\ll(k\log k)^2$, with
   the explicit factor $\prod_{i\le r}(1-1/q_i)^{-1}$, which is largest for
   the first $r$ primes.
 - [[../wiki/problems/integer_sequences/E0687/_index|Problem 687]]: at $q_i=p_i$ and

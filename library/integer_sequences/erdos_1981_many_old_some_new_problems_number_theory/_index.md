@@ -27,11 +27,11 @@ scan of the Congressus Numerantium 30 article, 25 pages (PDF p. n is printed p.
 2+n). No notice is printed on pp. 3--4
 or 26--27 of the scan; its download URL is not recorded, and its OmniPage
 creator and 2006 modification stamp match the Rényi archive's scans, whose site
-footer speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/,
-read 2026-10-02: "(C) 2005-2007 All rights reserved. All material on this site
-is for scientifics purposes only."); the publisher has no online page for
-Congressus Numerantium, so none was consulted, and no Crossref license is
-recorded; the term is unstated.
+footer speaks for erdosproblems.com, not the paper
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
+reserved. All material on this site is for scientifics purposes only."); the
+publisher has no online page for Congressus Numerantium, so none was consulted,
+and no Crossref license is recorded; the term is unstated.
 
 Paul Erdős, Many old and on some new problems of mine in number theory,
 Congressus Numerantium 30 (1981), 3–27.

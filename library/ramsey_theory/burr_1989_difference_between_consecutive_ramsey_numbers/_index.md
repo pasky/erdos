@@ -76,12 +76,12 @@ have n >= 3.
 Source: <https://users.renyi.hu/~p_erdos/1989-21.pdf>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1030/_index|#1030]];
-[[../wiki/problems/ramsey_theory/E0812/_index|#812]]: the site's cited source for the
-additive bound; Theorem 1 twice (the Corollary) gives, with $m=n=N+1$,
-$R(N+1)-R(N)\ge4N-4$ for $N\ge2$, where the site prints $4N-8$, and
-Theorem 2 with $k=2$ gives $R(N+2)-R(N)\ge R(3,N+2)-1$ (both specializations
-are made on the problem page, not in the paper); the remark on p. 117 is
-the authors' expectation of exponential consecutive gaps.
+[[../wiki/problems/ramsey_theory/E0812/_index|#812]]: erdosproblems.com's cited
+source for the additive bound; Theorem 1 twice (the Corollary) gives, with
+$m=n=N+1$, $R(N+1)-R(N)\ge4N-4$ for $N\ge2$, where erdosproblems.com prints
+$4N-8$, and Theorem 2 with $k=2$ gives $R(N+2)-R(N)\ge R(3,N+2)-1$ (both
+specializations are made on the problem page, not in the paper); the remark on
+p. 117 is the authors' expectation of exponential consecutive gaps.
 [[../wiki/problems/ramsey_theory/E0544/_index|#544]]: Theorem 1 with $m=3$ is Graver and
 Yackel's $r(3,n)\ge r(3,n-1)+3$, the additive increment for $R(3,k)$; the
 paper does not state the ratio or divergence questions.

@@ -30,13 +30,13 @@ $\delta n^2$ edges?
 
 **Status.** PROVED (LEAN). Alon's published Theorem 3.2 gives a stronger
 quantitative bound. As explained below, it implies the exact question with
-$\epsilon$ and $\delta$ fixed. The site's curator credits Alon's note with the
-solution
+$\epsilon$ and $\delta$ fixed. The erdosproblems.com curator credits Alon's note
+with the solution
 ([[problems/extremal_graph_theory/E0134/claims/2024_07_01_alon|claim page]]).
-The site's label carried a Lean suffix for the Aristotle formalization of Alon's
-theorem reported on the thread. That formalization is linked from the claim page
-and is not built or audited here. Search scope: the site's commentary and
-thread.
+The erdosproblems.com label carried a Lean suffix for the Aristotle
+formalization of Alon's theorem reported on the thread. That formalization is
+linked from the claim page and is not built or audited here. Search scope: the
+erdosproblems.com commentary and thread.
 
 **Source.** [erdosproblems.com/134](https://www.erdosproblems.com/134), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #134,
@@ -60,10 +60,10 @@ https://www.erdosproblems.com/134.
 [`ErdosProblems/134.lean`](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/134.lean)
 is a formalized statement, not a proof; it marks `erdos_134` research solved
 with a `formal_proof` pointer to the file `Erdos134.lean` of Boris Alexeev's
-repository plby/lean-proofs, which Alon's claim page links at a pin. The site
-labeled the problem "PROVED (LEAN)" after a comment of 8 February 2026 by Boris
-Alexeev on the thread reporting a Lean file, generated with Aristotle, that
-formalizes Alon's theorem and derives the problem's statement; the file is
+repository plby/lean-proofs, which Alon's claim page links at a pin. Bloom's
+catalog labeled the problem "PROVED (LEAN)" after a comment of 8 February 2026
+by Boris Alexeev on the thread reporting a Lean file, generated with Aristotle,
+that formalizes Alon's theorem and derives the problem's statement; the file is
 linked at a pinned commit from
 [[problems/extremal_graph_theory/E0134/claims/2024_07_01_alon|Alon's claim
 page]], which describes its declarations. The file is not built, kernel-checked
@@ -105,8 +105,8 @@ $o(\sqrt n)$ question from the 1998
 
 Before Alon, Erdős reported in [Er97b] (item 7), without proof, that he and
 Gyárfás had shown that maximum degree below $c\log n/\log\log n$ allows
-$o(n^2)$ added edges, the case the site credits to them. Erdős, Gyárfás and
-Ruszinkó [EGR98] showed that maximum degree $o(n^{1/4}/\log n)$ suffices,
+$o(n^2)$ added edges, the case erdosproblems.com credits to them. Erdős, Gyárfás
+and Ruszinkó [EGR98] showed that maximum degree $o(n^{1/4}/\log n)$ suffices,
 which settles the problem for every $\epsilon>1/4$
 ([[problems/extremal_graph_theory/E0134/claims/1998_01_01_erdos_gyarfas_ruszinko|claim
 page]]). A construction of Simonovits, reported in the same item, shows that

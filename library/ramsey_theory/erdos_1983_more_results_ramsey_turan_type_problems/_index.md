@@ -83,20 +83,20 @@ read clause by clause), RT(n, 4, o(n)) = (n^2/8)(1+o(1))
 ("[10] gives the upper estimate and [1] the counterexample") and
 RT(n, 2k, o(n)) = (1/2)((3k−5)/(3k−2)) n^2 (1+o(1)) for k >= 2, fix the
 threshold n^2/8 that the problem's question starts from; the paper does not
-ask about independence numbers below o(n), and the site's key EHSS83 for
-the problem points at this threshold, not at a statement of the question
+ask about independence numbers below o(n), and the erdosproblems.com key EHSS83
+for the problem points at this threshold, not at a statement of the question
 (which is Problem 4 of the authors' 1993 paper with Simonovits),
 [[../wiki/problems/extremal_graph_theory/E0579/_index|#579]] (the origin: p. 72 states that
 the critical number of "the two by two Turán graph K_{2,2,2}" cannot be
 determined, that Theorem 1 gives c(K_{2,2,2}) <= 1/8 "but we have no other
 information", and (1.14) that no critical number lies strictly between 1/8
-and 1/4; the site's "true for delta > 1/8"),
+and 1/4; erdosproblems.com's "true for delta > 1/8"),
 [[../wiki/problems/extremal_graph_theory/E0533/_index|#533]] (Section 6, p. 80: the
 K_3-independence variant RT(n;k;l|3), the announced bound
 RT(n,5,o(n)|3) <= (1/12)n^2(1+o(1)) with the question whether it is best
 possible, and the remark that RT(n,6,o(n)|3) = o(n^2) cannot even be
-disproved; the site's upper bound delta_3(5) <= 1/12 stated first-hand
-without proof, eleven years before the origin paper the site cites, the
+disproved; erdosproblems.com's upper bound delta_3(5) <= 1/12 stated first-hand
+without proof, eleven years before the origin paper erdosproblems.com cites, the
 1994 paper with Simonovits).
 
 **Results.**

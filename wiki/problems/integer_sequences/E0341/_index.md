@@ -27,13 +27,13 @@ defining $a_{n+1}$ for $n\geq k$ to be the least integer exceeding $a_n$ which
 is not of the form $a_i+a_j$ with $i,j\leq n$. Is it true that the sequence of
 differences $a_{m+1}-a_m$ is eventually periodic?
 
-**Status.** Disproved; the site's label was OPEN (page last edited 20 January
-2026). Li's full disproof of 9 August 2026 is
+**Status.** Disproved; the erdosproblems.com label was OPEN (page last edited 20
+January 2026). Li's full disproof of 9 August 2026 is
 [[problems/integer_sequences/E0341/claims/2026_08_09_li|an explicit 21-element seed whose greedy extension has aperiodic gaps]].
 The corpus accepts it on formalized evidence. Boris Alexeev's Lean formalization
 of it was built here, and its theorem was audited against the Statement above,
-so the problem stands solved and disproved. The site has not accepted the claim,
-and no refereed version or independent review was found.
+so the problem stands solved and disproved. erdosproblems.com has not accepted
+the claim, and no refereed version or independent review was found.
 
 **Source.** [erdosproblems.com/341](https://www.erdosproblems.com/341), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #341,
@@ -51,14 +51,14 @@ pins.
 
 The frontmatter standing is derived from the one claim page, Li's full claim
 that the answer is no, accepted on formalized evidence, so the problem stands
-solved and disproved while the site's label was OPEN. The audited Lean theorem
-asserts that some finite seed has a greedy extension whose gaps are not
-eventually periodic; it does not name Li's seed, though its proof uses it, and
-Li's infinite family of seeds is not built. The notes under Known Results
+solved and disproved while the erdosproblems.com label was OPEN. The audited
+Lean theorem asserts that some finite seed has a greedy extension whose gaps are
+not eventually periodic; it does not name Li's seed, though its proof uses it,
+and Li's infinite family of seeds is not built. The notes under Known Results
 record outside results and claims and are not independently reviewed. Search
-scope: the site's page, thread and proof-claims tab, the claimant's repository
-and its Zenodo record, the formal-conjectures catalog and the community
-database; no literature search beyond these is recorded.
+scope: the erdosproblems.com page, thread and proof-claims tab, the claimant's
+repository and its Zenodo record, the formal-conjectures catalog and the
+community database; no literature search beyond these is recorded.
 
 ## Known Results
 
@@ -79,9 +79,9 @@ commit, checked its axioms and its fingerprint against the comparator
 challenge, and audited its theorem, as the claim page records. The
 formal-conjectures collection tagged the formal-conjectures statement
 `research solved` on 2026-09-18, crediting Li and pointing its `formal_proof`
-attribute at Alexeev's file (on 2026-10-05 the site showed OPEN and the
-community database said open). The site's discussion thread holds one comment (8
-July 2026) reporting that the example $\{1,4,9,16,25\}$ of the site's commentary
-becomes periodic with period $224$ from its 87th term under the rule above, with
-a computation linked; that comment concerns the commentary's example, not the
-question.
+attribute at Alexeev's file (on 2026-10-05 erdosproblems.com showed OPEN and the
+community database said open). The erdosproblems.com discussion thread holds one
+comment (8 July 2026) reporting that the example $\{1,4,9,16,25\}$ of the
+erdosproblems.com commentary becomes periodic with period $224$ from its 87th
+term under the rule above, with a computation linked; that comment concerns the
+commentary's example, not the question.

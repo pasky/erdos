@@ -47,10 +47,11 @@ by computation on
 [[problems/additive_combinatorics/E0141/claims/2001_11_28_dubner_forbes_lygeros_mizony_nelson_zimmermann|the Dubner et al. page]].
 
 **Acceptance.** Refereed: Acta Arithmetica, volume 4, issue 3 (1958), pp.
-185--208, as given by the Crossref record of the DOI. The site labeled the
-problem OPEN (page last edited 28 September 2025), and its commentary does not
-cite this paper, so no `reviewed` evidence is listed. The corpus holds no card
-for the paper and has not checked the derivation. It awards no tier of its own.
+185--208, as given by the Crossref record of the DOI. Bloom's catalog labeled
+the problem OPEN (page last edited 28 September 2025), and its commentary does
+not cite this paper, so no `reviewed` evidence is listed. The corpus holds no
+card for the paper and has not checked the derivation. It awards no tier of its
+own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper
 and on Hypothesis H.

@@ -41,8 +41,8 @@ Since $\lfloor(2j-1)/2\rfloor=j-1$, this is the bound of
 [[problems/ramsey_theory/E0570/_index|Problem 570]] for every even $k\ge4$,
 with the problem's sufficiently-large threshold. The same paper poses the
 question as its Question 5 (p. 399), for every $m$ and without the eventual
-qualification; the site's formulation carries the threshold. The result is
-paged as
+qualification; the erdosproblems.com formulation carries the threshold. The
+result is paged as
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/corollary_4|Corollary 4]]
 of the library's
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/_index|source card]],
@@ -55,11 +55,11 @@ $k$. Nothing about odd cycle lengths.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-proved and credits the even case to this paper (its key [EFRS93]; page last
-edited 16 January 2026, accessed 2026-09-08 for the problem page). The 2026
-preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy records on p. 2
-that the paper verified the question for even $k$. Refereed: P. Erdős, R. J.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem proved and credits the even case to this paper (its key [EFRS93];
+page last edited 16 January 2026, accessed 2026-09-08 for the problem page). The
+2026 preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy records on p.
+2 that the paper verified the question for even $k$. Refereed: P. Erdős, R. J.
 Faudree, C. C. Rousseau and R. H. Schelp, Ramsey size linear graphs, Combin.
 Probab. Comput. 2 (1993), no. 4, 389--399. It was received on 12 March 1993 and
 printed in the December 1993 issue (Crossref, accessed 2026-10-07), the month

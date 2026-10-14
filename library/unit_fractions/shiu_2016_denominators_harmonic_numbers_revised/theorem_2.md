@@ -62,10 +62,10 @@ arithmetic for all odd primes $p<60$ and all $n\le3000$ with $p\le n$
 
 With $\sum_{k\le n}1/k=a_n/L_n$ as on the problem page, $d_n=L_n/(a_n,L_n)$,
 so $q_n=(a_n,L_n)$ and $n\in Q_p$ exactly when $p\mid(a_n,L_n)$. The
-theorem is therefore the site's necessary and sufficient condition for an
-odd prime $p\le n$ to divide $(a_n,L_n)$ (the prime $2$ never divides it,
+theorem is therefore erdosproblems.com's necessary and sufficient condition for
+an odd prime $p\le n$ to divide $(a_n,L_n)$ (the prime $2$ never divides it,
 since $q_n$ is odd, p. 2), and its special case $m=p-1$ is the
-observation the site attributes to Steinerberger; with $p=3$, $m=2$ it
+observation erdosproblems.com attributes to Steinerberger; with $p=3$, $m=2$ it
 gives $3\mid(a_n,L_n)$ for $2\cdot3^a\le n<3^{a+1}$, $a\ge1$. This settles
 the second half of Problem 291. The first half asks whether $q_n=1$
 infinitely often, which in this language means that $n$ avoids all the

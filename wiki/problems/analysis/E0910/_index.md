@@ -33,13 +33,13 @@ set? (Points and the empty set do not count as connected sets.)
 If $n\geq 2$ does every connected set in $\mathbb{R}^n$ of dimension greater
 than one contain more than $2^{\aleph_0}$ many connected subsets?
 
-**Notes.** Both questions are defective as the site words them: the first
+**Notes.** Both questions are defective as Bloom's catalog words them: the first
 does not exclude points or the empty set, and the second reads Erdős's
-dimension hypothesis as the ambient dimension. The site labeled the problem
-DISPROVED and its commentary says that "the answer to both is in fact no, as
-shown by Rudin [Ru58] (conditional on the continuum hypothesis)"; its thread
-has no comments. The modified Statement follows Erdős's own words, which the
-curator's credit presupposes for the first question: [Er44], printed p. 445,
+dimension hypothesis as the ambient dimension. Bloom's catalog labeled the
+problem DISPROVED and its commentary says that "the answer to both is in fact
+no, as shown by Rudin [Ru58] (conditional on the continuum hypothesis)"; its
+thread has no comments. The modified Statement follows Erdős's own words, which
+the curator's credit presupposes for the first question: [Er44], printed p. 445,
 asks "Is it true that every connected set contains a connected subset not
 homeomorphic to it? (Points do not count as connected sets.)", p. 443 states
 the same convention, and [Er82e], p. 77, asks for a subset "which is not a
@@ -49,29 +49,31 @@ connected set of dimension greater than 1 contains $2^c$ connected subsets",
 and [Er82e], p. 77, whether "every connected set (in a Euclidean space) of
 dimension greater than one contains more than $c=2^{\aleph_0}$ connected
 subsets"; the hypothesis is on the set's own dimension, and the change inserts
-"of dimension greater than one". The site's wording reads that phrase as the
-ambient dimension $n\ge2$. The curator's verdict follows [Er82e], where Erdős
-writes that "Mary Ellen Rudin using the continuum hypothesis found the required
-counter examples" to both questions. For the first question Rudin's theorem
-gives countable complements, and the paper neither states nor proves that every
-nondegenerate connected subset of her set is homeomorphic to the set; that step
-is asserted by [Er82e] and the site and has not been found here. For the second
-question Rudin's set has dimension one (Progress below), so it answers the
-site's ambient wording under the continuum hypothesis but not the corrected
-question, and [Ru58] does not support the attribution there. The first
-defect is already in [Er82e], which excludes points for the subset only; the
-second is the site's. The $2^c$ form of [Er44] is a variant.
+"of dimension greater than one". The erdosproblems.com wording reads that phrase
+as the ambient dimension $n\ge2$. The curator's verdict follows [Er82e], where
+Erdős writes that "Mary Ellen Rudin using the continuum hypothesis found the
+required counter examples" to both questions. For the first question Rudin's
+theorem gives countable complements, and the paper neither states nor proves
+that every nondegenerate connected subset of her set is homeomorphic to the set;
+that step is asserted by [Er82e] and erdosproblems.com and has not been found
+here. For the second question Rudin's set has dimension one (Progress below), so
+it answers erdosproblems.com's ambient wording under the continuum hypothesis
+but not the corrected question, and [Ru58] does not support the attribution
+there. The first defect is already in [Er82e], which excludes points for the
+subset only; the second is erdosproblems.com's. The $2^c$ form of [Er44] is a
+variant.
 
-**Status.** The site labeled the problem DISPROVED on the strength of Rudin's
-1958 construction [Ru58]. Its commentary credits the construction, under the
-continuum hypothesis, with a negative answer to both questions. That result is
-recorded as a
+**Status.** Bloom's catalog labeled the problem DISPROVED on the strength of
+Rudin's 1958 construction [Ru58]. Its commentary credits the construction, under
+the continuum hypothesis, with a negative answer to both questions. That result
+is recorded as a
 [[problems/analysis/E0910/claims/1958_01_01_rudin|rejected conditional claim]]:
-it answers the site's wording of the second question, and Rudin's set, of
-dimension one, is outside the corrected second question. The page departs from
-the DISPROVED label, as the Notes explain. The homeomorphism step that the
-credit needs for the first question is not in the paper and is unchecked here.
-A conditional claim derives nothing in any case, so the standing is open.
+it answers the erdosproblems.com wording of the second question, and Rudin's
+set, of dimension one, is outside the corrected second question. The page
+departs from the DISPROVED label, as the Notes explain. The homeomorphism step
+that the credit needs for the first question is not in the paper and is
+unchecked here. A conditional claim derives nothing in any case, so the standing
+is open.
 
 **Source.** [erdosproblems.com/910](https://www.erdosproblems.com/910), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #910,
@@ -91,7 +93,7 @@ https://www.erdosproblems.com/910.
   [users.renyi.hu/~p_erdos/1944-06.pdf](https://users.renyi.hu/~p_erdos/1944-06.pdf).
   The convention on points, printed pp. 443 and 445; the non-homeomorphism
   question and the arc remark, printed p. 445; the dimension question,
-  printed p. 446. Not a site source key.
+  printed p. 446. Not an erdosproblems.com source key.
 
 **Formalization.** None recorded.
 
@@ -125,13 +127,13 @@ countable. The full construction has not been reconstructed or independently
 reviewed here.
 
 This property gives the following conditional consequence for the second
-question as the site words it. Write $\mathfrak c=2^{\aleph_0}$. Since
+question as Bloom's catalog words it. Write $\mathfrak c=2^{\aleph_0}$. Since
 $M\subseteq\mathbb R^2$, there are at most $\mathfrak c^{\aleph_0}=\mathfrak c$
 at-most-countable subsets of $M$. The map $N\mapsto M\setminus N$ is injective,
 so there are at most $\mathfrak c$ nondegenerate connected subsets of $M$.
 Singletons add at most $\mathfrak c$ more subsets, and allowing the empty set
-does not change the bound. Under CH, therefore, the site's wording of the second
-question fails already in ambient dimension two.
+does not change the bound. Under CH, therefore, the erdosproblems.com wording of
+the second question fails already in ambient dimension two.
 
 The corrected second question is not touched, because $M$ has dimension one,
 not greater than one. If $M$ contained an open disc $U$, a closed disc

@@ -28,12 +28,12 @@ proves its section inequality directly as Lemma 3.1. Provenance: fetched
 from <https://raw.githubusercontent.com/lsngchl/Erdos-501/main/main-v2.pdf>
 on 2026-09-27, 250,079 bytes. The first version is the repository's
 `main.pdf`, 5 pages, printed date line "May 30, 2026" (PDF
-created 2026-05-29; source `2026-05-30_Erdos501.tex`; announced on the site's
-discussion thread on 2026-05-29); it takes the section inequality from Kunen's
-theorem as stated in Fremlin's *Measure Theory*, Volume 5, Chapter 54, result
-543C (its Theorem 3.1, citing its reference [3]), not in the survey notes on
-real-valued-measurable cardinals that both versions cite for 1D(e) and 2E.
-Provenance: fetched from
+created 2026-05-29; source `2026-05-30_Erdos501.tex`; announced on the
+erdosproblems.com discussion thread on 2026-05-29); it takes the section
+inequality from Kunen's theorem as stated in Fremlin's *Measure Theory*, Volume
+5, Chapter 54, result 543C (its Theorem 3.1, citing its reference [3]), not in
+the survey notes on real-valued-measurable cardinals that both versions cite for
+1D(e) and 2E. Provenance: fetched from
 <https://raw.githubusercontent.com/lsngchl/Erdos-501/main/main.pdf> on
 2026-09-27, 259,542 bytes. The result labels below are the second version's; the
 PDF metadata of both versions has empty title and author fields. No notice is
@@ -158,11 +158,11 @@ Theorem 1.1 strengthens the positive assertion of the first question (no
 boundedness) under the additional hypothesis FMEA, and Corollary 1.2 gives
 independence only relative to $\mathrm{Con}(\mathrm{ZFC}+\mathrm{FMEA})$,
 hence relative to a measurable cardinal; the second question is not
-treated. The site adopted the result into its problem text on 2026-09-03
-("Lee proved the answer is yes, assuming the existence of an extension of
-the Lebesgue measure to all subsets of $\mathbb{R}$"). On the site's
-discussion thread a reader ran a screening of the first version on
-2026-05-29 and reported no issues, stated as not comprehensive, and a
+treated. erdosproblems.com adopted the result into its problem text on
+2026-09-03 ("Lee proved the answer is yes, assuming the existence of an
+extension of the Lebesgue measure to all subsets of $\mathbb{R}$"). On the
+erdosproblems.com discussion thread a reader ran a screening of the first
+version on 2026-05-29 and reported no issues, stated as not comprehensive, and a
 comment of the same day observed that
 $\mathrm{Con}(\mathrm{ZFC}+\mathrm{FMEA})$ yields independence. Glazer's
 later transfer of the conclusion to the $\omega_2$-random-real extension of

@@ -29,8 +29,8 @@ $$
 
 where $\{C-1\}$ is the graph, obtained by omitting an edge from the cube."
 
-In the erdosproblems.com notation, $\mathrm{ex}(n;Q_3-e)\asymp n^{3/2}$, the
-site's "if $G$ is the graph $Q_3$ with a missing edge, then
+In the erdosproblems.com notation, $\mathrm{ex}(n;Q_3-e)\asymp n^{3/2}$,
+erdosproblems.com's "if $G$ is the graph $Q_3$ with a missing edge, then
 $\mathrm{ex}(n;G)\asymp n^{3/2}$". The lower bound in (4) is the $C_4$
 bound: $Q_3-e$ contains a 4-cycle, and display (2) on the same page,
 attributed to Brown and to Erdős, Rényi and Sós ([1], [2]), gives
@@ -69,8 +69,8 @@ the upper bound.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: the site's
-  sentence on $Q_3$ with a missing edge, and the source of the site's lower
-  bound $(\tfrac12+o(1))n^{3/2}\le\mathrm{ex}(n;Q_3)$, which is display (2)
-  applied through $C_4\subset Q_3$ rather than a separate theorem of the
-  paper.
+- [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: the
+  erdosproblems.com sentence on $Q_3$ with a missing edge, and the source of
+  erdosproblems.com's lower bound $(\tfrac12+o(1))n^{3/2}\le\mathrm{ex}(n;Q_3)$,
+  which is display (2) applied through $C_4\subset Q_3$ rather than a separate
+  theorem of the paper.

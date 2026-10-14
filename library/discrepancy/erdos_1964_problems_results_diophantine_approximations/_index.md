@@ -67,7 +67,7 @@ problems and proves nothing consumed here.
 Source: <https://users.renyi.hu/~p_erdos/Erdos.html>.
 
 For [[../wiki/problems/number_theory/E0492/_index|#492]], item 4 of Part IV, printed
-p. 62 (PDF p. 11, page image), the site's source key Er64b for the
+p. 62 (PDF p. 11, page image), the erdosproblems.com source key Er64b for the
 problem: "4. The following interesting problem is due to LeVeque: Let
 $a_1<a_2<\ldots$ be an infinite sequence tending to infinity satisfying
 $a_{i+1}/a_i\to1$. Let $a_i\le x_n<a_{i+1}$. Put

@@ -73,5 +73,5 @@ inequalities (3) and (4) of Section 1.1.
 
 - [[../wiki/problems/extremal_graph_theory/E0904/_index|Problem 904]]: the status-defining
   theorem, with the trivial regular case, for every $r\ge2$, $n\ge r$ and
-  $m\ge t_r(n)$; the site's "The full conjecture was proved by Bollobás and
-  Nikiforov".
+  $m\ge t_r(n)$; erdosproblems.com's "The full conjecture was proved by Bollobás
+  and Nikiforov".

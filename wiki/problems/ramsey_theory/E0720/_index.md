@@ -45,40 +45,41 @@ $$
 \hat{R}(C_n) =o(n^2)?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 7
-March 2026). The page asks three questions, written here as (i)
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 7 March 2026). The page asks three questions, written here as (i)
 $\hat R(P_n)/n\to\infty$, (ii) $\hat R(P_n)/n^2\to0$ and (iii)
-$\hat R(C_n)=o(n^2)$. The site writes the size Ramsey number $\hat R(G)$; the
-sources write $\hat r(G)$ or $\hat r(G,G)$, and the paper that introduced it,
-[EFRS78b], reserves $\hat R(G_1,G_2)$ for $\binom{r(G_1,G_2)}2$, so quotations
-below keep the sources' $\hat r$. Whether $P_n$ has $n$ edges (the site,
-[Er78], [Er81], [Er81c], [Er82e]) or $n$ vertices ([EFRS78b], [JKOP19])
-changes nothing in the three questions. The origin, [EFRS78b] (p. 161), asks
-whether $\lim\hat r(P_n)/n$ exists and whether $\{P_n\}$ is an $o$-sequence,
-that is $\hat r(P_n)=o(\binom{r(P_n)}2)$, which is (ii); Erdős's problem
-papers of 1978--1982 pose (i) and (ii) as the site does, and [Er82e] adds the
-expectation $\hat r(C_n,C_n)/n^2\to0$, which is (iii). No source read poses
-(iii) as a question in [EFRS78b], which says nothing about cycles.
+$\hat R(C_n)=o(n^2)$. erdosproblems.com writes the size Ramsey number
+$\hat R(G)$; the sources write $\hat r(G)$ or $\hat r(G,G)$, and the paper that
+introduced it, [EFRS78b], reserves $\hat R(G_1,G_2)$ for $\binom{r(G_1,G_2)}2$,
+so quotations below keep the sources' $\hat r$. Whether $P_n$ has $n$ edges
+(erdosproblems.com, [Er78], [Er81], [Er81c], [Er82e]) or $n$ vertices
+([EFRS78b], [JKOP19]) changes nothing in the three questions. The origin,
+[EFRS78b] (p. 161), asks whether $\lim\hat r(P_n)/n$ exists and whether
+$\{P_n\}$ is an $o$-sequence, that is $\hat r(P_n)=o(\binom{r(P_n)}2)$, which is
+(ii); Erdős's problem papers of 1978--1982 pose (i) and (ii) as
+erdosproblems.com does, and [Er82e] adds the expectation
+$\hat r(C_n,C_n)/n^2\to0$, which is (iii). No source read poses (iii) as a
+question in [EFRS78b], which says nothing about cycles.
 
-**Status.** The site labeled the problem PROVED. The label attaches to the
-resolution of the problem: the answers are no to (i) and yes to (ii) and (iii),
-because both size Ramsey numbers are linear. The frontmatter lists the three
-questions as the problem's parts. The frontmatter standing derives from the
-claim pages [[problems/ramsey_theory/E0720/claims/1983_03_01_beck|Beck 1983]]
-and
+**Status.** Bloom's catalog labeled the problem PROVED. The label attaches to
+the resolution of the problem: the answers are no to (i) and yes to (ii) and
+(iii), because both size Ramsey numbers are linear. The frontmatter lists the
+three questions as the problem's parts. The frontmatter standing derives from
+the claim pages
+[[problems/ramsey_theory/E0720/claims/1983_03_01_beck|Beck 1983]] and
 [[problems/ramsey_theory/E0720/claims/1995_09_01_haxell_kohayakawa_luczak|Haxell, Kohayakawa and Łuczak 1995]],
 which record the results, their postings and their acceptance evidence. Beck's
-page covers the path bound, which answers (i) and (ii). The site also credits
-Beck's paper with the cycle bound, but the sources read do not attest it, so the
-page does not claim it. The page for Haxell, Kohayakawa and Łuczak covers the
-induced bound for cycles, with the induced paths it gives. Their accepted full
-claim answers all three questions, and Beck's accepted partial claim answers (i)
-and (ii), so the derived standing is solved. The derived claim is answered,
-because the answers are no to (i) and yes to (ii) and (iii). For paths, Beck
-[Be83b] proved $\hat r(P_n)<900n$ for large $n$. The paper is not held. The
-bound is quoted from the introduction of the refereed paper [JKOP19] (p. 2),
-from Beck's own 1990 sequel [Be90] (p. 34) and from Erdős's report of 1982
-[Er82e] (p. 70). [DrPe22] (p. 1) attests only that Beck's bound is linear,
+page covers the path bound, which answers (i) and (ii). erdosproblems.com also
+credits Beck's paper with the cycle bound, but the sources read do not attest
+it, so the page does not claim it. The page for Haxell, Kohayakawa and Łuczak
+covers the induced bound for cycles, with the induced paths it gives. Their
+accepted full claim answers all three questions, and Beck's accepted partial
+claim answers (i) and (ii), so the derived standing is solved. The derived claim
+is answered, because the answers are no to (i) and yes to (ii) and (iii). For
+paths, Beck [Be83b] proved $\hat r(P_n)<900n$ for large $n$. The paper is not
+held. The bound is quoted from the introduction of the refereed paper [JKOP19]
+(p. 2), from Beck's own 1990 sequel [Be90] (p. 34) and from Erdős's report of
+1982 [Er82e] (p. 70). [DrPe22] (p. 1) attests only that Beck's bound is linear,
 without the constant. For cycles, the first published proof of
 $\hat r(C_n)=O(n)$ in the sources read is
 [[../library/ramsey_theory/haxell_1995_induced_size_ramsey_number_cycles/corollary_11|Corollary 11]]
@@ -87,10 +88,10 @@ and multicolor bound $r_e^{\mathrm{ind}}(C^\ell,r)\le c_r\ell$. That paper's
 preprint attributes the plain linear bound to Bollobás, Burr and an unnamed
 third person as a personal communication of November 1992. The published
 abstract names the third person as Reimer. Separately, [Er82e] credits Beck with
-$\hat r(C_n,C_n)<C_2n$ as an unpublished result in 1982, which is the site's
-attribution. Erdős offered a prize for a proof or disproof of the pair (i)--(ii)
-in [Er81], p. 9 of the re-typeset copy. He had earlier offered separate prizes
-for each and for an asymptotic formula in [Er78], p. 33.
+$\hat r(C_n,C_n)<C_2n$ as an unpublished result in 1982, which is the
+erdosproblems.com attribution. Erdős offered a prize for a proof or disproof of
+the pair (i)--(ii) in [Er81], p. 9 of the re-typeset copy. He had earlier
+offered separate prizes for each and for an asymptotic formula in [Er78], p. 33.
 
 **Source.** [erdosproblems.com/720](https://www.erdosproblems.com/720),
 accessed 2026-09-18: the problem page (PROVED; last
@@ -144,7 +145,7 @@ accessed 2026-09-18.
   combinatorics and number theory. Proceedings of the Seventh Southeastern
   Conference on Combinatorics, Graph Theory and Computing (Louisiana State
   Univ., Baton Rouge, La., 1976), 3--14, as the formal-conjectures statement
-  file for this problem cites it; the site cites p. 5. Not held.
+  file for this problem cites it; erdosproblems.com cites p. 5. Not held.
 - [Er78] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Proc. Ninth Southeastern Conf. (Boca Raton,
   1978), Congr. Numer. XXI (1978), 29--40; Section 4, printed p. 33. Library
@@ -157,8 +158,8 @@ accessed 2026-09-18.
 - [Er81c] Erdős, P., Some new problems and results in graph theory and other
   branches of combinatorial mathematics. Combinatorics and graph theory
   (Calcutta, 1980), Lecture Notes in Math. 885 (1981), 9--17; display (17),
-  printed p. 14. Not a source key of this problem on the site; it restates (i)
-  and (ii). Library home:
+  printed p. 14. Not a source key of this problem on erdosproblems.com; it
+  restates (i) and (ii). Library home:
   [[../library/ramsey_theory/erdos_1981_new_problems_results_graph_theory_other/_index|erdos_1981_new_problems_results_graph_theory_other]].
 - [Er82e] Erdős, P., Some of my favourite problems which recently have been
   solved. Proc. Int. Math. Conf. (Singapore, 1981), North-Holland Math. Stud. 74
@@ -194,12 +195,12 @@ this corpus, so no claim page lists `formalized` evidence. The statement file
 postdates 2026-09-18, when the directory held no file for the problem and the
 community database recorded the problem proved (last changed 31 August 2025)
 and not formalized; the community database
-records it formalized from 21 September 2026, and the site's "Formalised
-statement?" indicator reads "Yes".
+records it formalized from 21 September 2026, and erdosproblems.com's
+"Formalised statement?" indicator reads "Yes".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; status PROVED; last edited 7 March 2026; with a prize. The commentary
 attributes the problem to Erdős, Faudree, Rousseau and Schelp [EFRS78b],
 credits the answer to Beck [Be83b] with both linear bounds,
@@ -222,9 +223,9 @@ $\{P_n\}$ is an $o$-sequence." ([5] is Faudree and Schelp, J. Combin. Theory
 Ser. B 19 (1975), not held; [6] is Gerencsér and Gyárfás, 1967, whose
 [[../library/ramsey_theory/gerencser_1967_ramsey_type_problems/theorem_1|Theorem 1]]
 with paths of $n-1$ edges in both colors gives $r(P_n)=n-1+[n/2]$.) Erdős
-then posed the site's form repeatedly: [Er78], p. 33 (Section 4): "The most
-annoying problem is to determine or estimate $\hat r(P_n,P_n)$, where $P_n$ is a
-path of length $n$. We could not even prove that (2)
+then posed the erdosproblems.com form repeatedly: [Er78], p. 33 (Section 4):
+"The most annoying problem is to determine or estimate $\hat r(P_n,P_n)$, where
+$P_n$ is a path of length $n$. We could not even prove that (2)
 $\lim_{n=\infty}\hat r(P_n,P_n)/n=\infty$ and (3) $\lim\hat r(P_n,P_n)/n^2=0$. I
 give 25 dollars for a proof or disproof of either (2) or (3) (i.e. 50 for both)
 and 100 dollars for an asymptotic formula for $\hat r(P_n,P_n)$"; [Er81], p. 9
@@ -245,9 +246,9 @@ length $n$ and $C_n$ a cycle of $n$ edges.) $\hat r(P_n,P_n)/n\to\infty$ but
 $\hat r(C_n,C_n)/n^2\to0$. J. Beck in fact proved : (1) $\hat r(P_n,P_n)<C_1n$,
 $\hat r(C_n,C_n)<C_2n$. The best possible values of the constants are not yet
 known. Beck further proved various extensions of (1) for trees", followed on
-p. 71 by "The results of Beck have not yet been published." The site's three
-questions are thus (i) and (ii) from Erdős's problem papers and (iii) from the
-expectation recorded in [Er82e]; the original [EFRS78b] question is the
+p. 71 by "The results of Beck have not yet been published." erdosproblems.com's
+three questions are thus (i) and (ii) from Erdős's problem papers and (iii) from
+the expectation recorded in [Er82e]; the original [EFRS78b] question is the
 existence of $\lim\hat r(P_n)/n$, not its divergence.
 
 **The three answers.**
@@ -302,14 +303,14 @@ existence of $\lim\hat r(P_n)/n$, not its divergence.
   Combinatorica 2023 per the citation index; abstract only) give
   $\hat r^k(C_n)=e^{O(k)}n$ for odd $n$ in $k$ colors. The attribution of the
   cycle bound is unsettled in the sources read: [Er82e] credits Beck (1982,
-  unpublished then), the site credits [Be83b], [HKL95] credit a 1992 personal
-  communication and give the first published proof found here; whether
+  unpublished then), erdosproblems.com credits [Be83b], [HKL95] credit a 1992
+  personal communication and give the first published proof found here; whether
   [Be83b], whose title names circuits, contains a cycle theorem could not be
   checked. This is an attribution question, not a status one.
 
-**The label.** The site's PROVED attaches to the resolution of the problem by
-the linear bounds, while the literal first question is answered in the
-negative; the label is recorded in **Status.**, the frontmatter standing
+**The label.** erdosproblems.com's PROVED attaches to the resolution of the
+problem by the linear bounds, while the literal first question is answered in
+the negative; the label is recorded in **Status.**, the frontmatter standing
 derives from the claim pages, which together settle the problem's three parts,
 and the three answers stand above. The wording is not degenerate: each question
 is meaningful and the pair (i)--(ii) is exactly what Erdős asked and paid for.
@@ -317,9 +318,9 @@ is meaningful and the pair (i)--(ii) is exactly what Erdős asked and paid for.
 **Search scope.** None of the routes below found a source
 contradicting the linear bounds or a copy of [Be83b].
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures (no file before `720.lean` was added
-  on 21 September 2026); the community database record.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing of formal-conjectures (no file before `720.lean` was
+  added on 21 September 2026); the community database record.
 - The primary sources: [EFRS78b] pp. 146, 160--161, [Er78] p. 33, [Er81]
   p. 9, [Er81c] p. 14, [Er82e] pp. 70--71, [HKL95] pp. 3, 11 and 21,
   [JKOP19] p. 2 (and pp. 11--12), [DrPe22] p. 1 and [Be90]

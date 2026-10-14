@@ -5,7 +5,7 @@ desc: |
   The Corollary to Theorem 2.2 of Pomerance's refereed 1979 paper gives
   infinitely many $n$ with $p_n^2>p_{n-i}p_{n+i}$ for all $0<i<n$, using the
   convex hull of the points $(n,\log p_n)$. This answers the question no and is
-  the result behind the site's label.
+  the result behind the erdosproblems.com label.
 authors:
 - C. Pomerance
 status: accepted
@@ -52,17 +52,17 @@ without proof.
 
 **Acceptance.** Refereed: Mathematics of Computation 33 (1979), no. 145,
 399--408, DOI 10.1090/S0025-5718-1979-0514836-7 (Crossref record accessed
-2026-10-07, issue dated January 1979). Reviewed: the site's curator, Thomas
-Bloom, is independent of the author, and labeled the problem DISPROVED (LEAN)
-and credits the disproof to this paper. The commentary (page last edited 8 April
-2026, accessed 2026-09-05) says the answer is no, as shown by Pomerance, and
-reproduces the convex-hull argument. Read depth: the card checks the claims of
-Theorems 2.1 and 2.2, their corollaries and Theorem 3.1. The short proofs of
+2026-10-07, issue dated January 1979). Reviewed: the erdosproblems.com curator,
+Thomas Bloom, is independent of the author, and labeled the problem DISPROVED
+(LEAN) and credits the disproof to this paper. The commentary (page last edited
+8 April 2026, accessed 2026-09-05) says the answer is no, as shown by Pomerance,
+and reproduces the convex-hull argument. Read depth: the card checks the claims
+of Theorems 2.1 and 2.2, their corollaries and Theorem 3.1. The short proofs of
 section 2 are not checked, and nothing is independently reviewed by this
 project.
 
-**The Lean suffix.** The site's label carried the suffix (Lean), a catalog
-label. The thread's one comment (Boris Alexeev, 1 February 2026) reports
+**The Lean suffix.** The erdosproblems.com label carried the suffix (Lean), a
+catalog label. The thread's one comment (Boris Alexeev, 1 February 2026) reports
 that Aristotle, Harmonic's automated prover, formalized Pomerance's proof
 from the commentary's words and links Alexeev's repository `lean-proofs` on
 its `main` branch, not a fixed commit, together with a live Lean editor; the

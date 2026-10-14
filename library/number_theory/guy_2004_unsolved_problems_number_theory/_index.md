@@ -32,8 +32,8 @@ preface to the third edition (pp. v--vi) is dated Calgary 2003-09-16, says
 that sections A20, C21, D29 and F32 are new and that lists of OEIS sequence
 numbers now end about half of the sections, and remembers Erdős: "the
 various monetary rewards he offered may still be negotiable via Ron
-Graham". Cited as [Gu04] on the problem pages, the site's key; most pages
-carry only the reference entry, and thirteen name a section (A2, B2, B14,
+Graham". Cited as [Gu04] on the problem pages, the erdosproblems.com key; most
+pages carry only the reference entry, and thirteen name a section (A2, B2, B14,
 B26, B31, B33, B35, C2, C15, C16, E2, E5, E16). The introduction (pp. 1--2)
 lists the book's sources of problems, among them the Erdős and Graham monograph
 filed as
@@ -794,8 +794,8 @@ question), and A18, p. 66 (PDF p. 85), the remark that replacing $p+1$ by
 $p-1$ gives a similar classification, with its class tables and the question
 whether corresponding classes are equally dense.
 [[../wiki/problems/diophantine_problems/E1072/_index|#1072]], named on the page
-(through the site's remark): A2, p. 12 (PDF p. 31, page image), Hardy and
-Subbarao's belief that, with $f(p)$ "the least integer for which
+(through the erdosproblems.com remark): A2, p. 12 (PDF p. 31, page image), Hardy
+and Subbarao's belief that, with $f(p)$ "the least integer for which
 $f(p)!+1\equiv0\pmod p$", there are infinitely many $p$ with $f(p)=p-1$ but that
 the number of such $p\le x$ is $o(x/\ln x)$, and Erdős's belief "that
 $f(p)/p\to0$ for almost all $p$".
@@ -838,19 +838,19 @@ and $a_{n+1}=3a_n+1$ for odd $a_n$ is tree-like apart from the cycle 4, 2, 1,
 4, ... (Figure 16), that is, whether every starting integer $a_1$ reaches some
 $a_n=1$; the section quotes Erdős, "Mathematics may not be ready for such
 problems", and advises reading Jeff Lagarias's 1985 article or Eric
-Roosendaal's "On the $3x+1$ problem" page before attempting it; the site's "may
-not be" wording is Guy's, printed without date, occasion or source; the section
-continues with the September 2003 record, Eliahou's cycle-length criterion,
-Halbeisen--Hungerbühler and Oliveira e Silva's verification below
-$3\cdot2^{50}$ and cycle length at least 102225496, Krasikov--Lagarias's
-$x^{0.84}$, Bernstein's 2-adic reformulation and Crandall's $qx+1$ conjecture.
-[[../wiki/problems/primes/E1142/_index|#1142]], not named on the page: A19, p.
-67 (PDF p. 86, text layer), Erdős's conjecture that 4, 7, 15, 21, 45, 75 and
-105 are the only $n$ for which $n-2^k$ is prime for every $k$ with $2\le2^k<n$,
-Mientka and Weitzenkamp's verification for $n<2^{44}$ and Uchiyama and
-Yorinaga's to $2^{77}$, Vaughan's bound of fewer than $x\exp\{-(\ln x)^c\}$
-such numbers below $x$, short of $x^{1-\epsilon}$, with Hooley's conditional
-$A(x)=O(x^c)$ and Narkiewicz's improvement.
+Roosendaal's "On the $3x+1$ problem" page before attempting it;
+erdosproblems.com's "may not be" wording is Guy's, printed without date,
+occasion or source; the section continues with the September 2003 record,
+Eliahou's cycle-length criterion, Halbeisen--Hungerbühler and Oliveira e Silva's
+verification below $3\cdot2^{50}$ and cycle length at least 102225496,
+Krasikov--Lagarias's $x^{0.84}$, Bernstein's 2-adic reformulation and Crandall's
+$qx+1$ conjecture. [[../wiki/problems/primes/E1142/_index|#1142]], not named on
+the page: A19, p. 67 (PDF p. 86, text layer), Erdős's conjecture that 4, 7, 15,
+21, 45, 75 and 105 are the only $n$ for which $n-2^k$ is prime for every $k$
+with $2\le2^k<n$, Mientka and Weitzenkamp's verification for $n<2^{44}$ and
+Uchiyama and Yorinaga's to $2^{77}$, Vaughan's bound of fewer than
+$x\exp\{-(\ln x)^c\}$ such numbers below $x$, short of $x^{1-\epsilon}$, with
+Hooley's conditional $A(x)=O(x^c)$ and Narkiewicz's improvement.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

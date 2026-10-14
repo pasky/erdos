@@ -42,7 +42,7 @@ exactly when some nonempty subfamily of $a_1,\ldots,a_s$ sums to $0$. So
 Theorem 1 says: every set $A$ of distinct nonzero residues modulo a prime
 $p$ with $|A|>(4p-3)^{1/2}$ has a nonempty $S\subseteq A$ with
 $\sum_{n\in S}n\equiv0\pmod p$; a set containing the residue $0$ has the
-subset $\{0\}$. This is the site's question for $N=p$ prime with any
+subset $\{0\}$. This is the erdosproblems.com question for $N=p$ prime with any
 constant $c\ge2$, since $c\sqrt p\ge2\sqrt p>(4p-3)^{1/2}$. The near-sharpness
 example concerns the full representation property $r=p$, not the zero-sum
 question alone, whose prime threshold is $\sqrt{2p}+O(1)$ by
@@ -106,8 +106,8 @@ whose Theorem I is the $3(6p)^{1/2}$ bound the paper improves.
 - [[../wiki/problems/integer_sequences/E0540/_index|Problem 540]]: the prime case of the
   question, with the constant $2$ of Erdős and Heilbronn's
   [[integer_sequences/erdos_1964_addition_residue_classes_mod/conjecture_3|Conjecture 3]]
-  and the slightly better threshold $(4p-3)^{1/2}$; the site's "proved for
-  $N$ prime by Olson [Ol68]". Composite $N$ and general finite abelian
+  and the slightly better threshold $(4p-3)^{1/2}$; erdosproblems.com's "proved
+  for $N$ prime by Olson [Ol68]". Composite $N$ and general finite abelian
   groups are Szemerédi's
   [[integer_sequences/szemeredi_1970_conjecture_erdos_heilbronn/theorem|Theorem]];
   the constant $\sqrt2$ for primes is Balandraud's Theorem 9.

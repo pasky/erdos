@@ -31,12 +31,12 @@ $$
 
 then determine the infimum of $\Lambda(f)$.
 
-**Status.** Labeled SOLVED (LEAN) on the site. Tang's note of 2026-01-05 proves
-that the infimum of $\Lambda(f)$ is $2$. The site's curator credits it, Tao read
-the argument, and it is the accepted claim
+**Status.** Labeled SOLVED (LEAN) on erdosproblems.com. Tang's note of
+2026-01-05 proves that the infimum of $\Lambda(f)$ is $2$. The erdosproblems.com
+curator credits it, Tao read the argument, and it is the accepted claim
 ([[problems/analysis/E1044/claims/2026_01_05_tang|Tang's claim page]]). The Lean
-qualifier of the site's label was Luccioli's formalization of Tang's note with
-Aristotle. It is third-party Lean, not built here. Tang also raises a
+qualifier of the erdosproblems.com label was Luccioli's formalization of Tang's
+note with Aristotle. It is third-party Lean, not built here. Tang also raises a
 fixed-degree question: whether $z^n-1$ minimizes $\Lambda$ in each degree $n$.
 That question is settled only for $n\le2$ and is not part of the problem.
 

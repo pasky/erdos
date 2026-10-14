@@ -57,8 +57,8 @@ copyright or license line; the publisher's article page offers the PDF "Free
 download under CC-BY license", naming no version
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/110/3/82874/on-non-intersecting-arithmetic-progressions,
 read 2026-10-02), and its footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the paper. For the arXiv v1 PDF, the arXiv
-record carries no license field, so arXiv's assumed license applies
+reserved." speaks for erdosproblems.com, not the paper. For the arXiv v1 PDF,
+the arXiv record carries no license field, so arXiv's assumed license applies
 (arXiv:math/0208236), every other right reserved. The author manuscript PDF
 prints no copyright or license line, and the author's home page that linked it
 states no copyright, license or terms and no longer lists the file

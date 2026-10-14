@@ -63,5 +63,5 @@ It is reviewed in zbMATH as Zbl 0332.10032. It appeared in print before Mrose's
 refutation
 ([[problems/additive_combinatorics/E0791/claims/1979_04_01_mrose|its claim page]]).
 Mrose's paper was received in 1975 and published in 1979, and it does not cite
-this one. The two refutations are independent. The site does not cite this
-paper. The construction behind (1) is not reviewed in this corpus.
+this one. The two refutations are independent. erdosproblems.com does not cite
+this paper. The construction behind (1) is not reviewed in this corpus.

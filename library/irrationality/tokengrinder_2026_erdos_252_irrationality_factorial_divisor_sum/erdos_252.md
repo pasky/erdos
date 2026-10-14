@@ -4,7 +4,7 @@ title: "Theorem erdos_252: the sum of sigma_k(n)/n! is irrational for every natu
 desc: |
   For every natural k, the real number sum over n of sigma_k(n)/n! is
   irrational, kernel-checked in Lean 4.33.1 against Mathlib v4.33.1 at
-  commit dc071aaf; the site's question is the case k at least 1.
+  commit dc071aaf; the erdosproblems.com question is the case k at least 1.
 created: 2026-09-17T08:06:32Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -48,10 +48,11 @@ statement is built from the root-namespace Mathlib constants `Irrational`,
   convention cannot make the theorem vacuous.
 - `Irrational x` is `x ∉ Set.range ((↑) : ℚ → ℝ)`: not the cast of any
   rational.
-- The quantifier runs over every `k : ℕ`. The site asks for $k\ge1$; that
-  specialization is the audit theorem `matches_published_statement`, and
+- The quantifier runs over every `k : ℕ`. erdosproblems.com asks for $k\ge1$;
+  that specialization is the audit theorem `matches_published_statement`, and
   each open case $k\ge5$ is an instance of the one theorem. The $k=0$ case,
-  the divisor-count series, is an extra case outside the site's question.
+  the divisor-count series, is an extra case outside the erdosproblems.com
+  question.
 
 **Mathlib inputs.** The proof imports ten Mathlib modules and consumes, among
 others, `ArithmeticFunction.isMultiplicative_sigma`,
@@ -155,4 +156,4 @@ Records, check files and observed outputs are under
 [card](_index.md). Only commit `dc071aaf` is covered.
 
 **Bears on.** [[../wiki/problems/irrationality/E0252/_index|#252]], for every $k\ge1$; the
-$k=0$ instance is a variant outside the site's question.
+$k=0$ instance is a variant outside the erdosproblems.com question.

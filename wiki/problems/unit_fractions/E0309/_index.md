@@ -25,27 +25,27 @@ updated: 2026-10-08T14:17:37Z
 distinct unit fractions with denominators from $\{1,\ldots,N\}$? Are there
 $o(\log N)$ such integers?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-20 December 2025). Write $F(N)$ for the number of positive integers of the
-form $1/n_1+\cdots+1/n_k$ with $1\le n_1<\cdots<n_k\le N$ and $k$ variable,
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 20 December 2025). Write $F(N)$ for the number of positive integers of
+the form $1/n_1+\cdots+1/n_k$ with $1\le n_1<\cdots<n_k\le N$ and $k$ variable,
 and $H_N=\sum_{n\le N}1/n$. Every such integer is at most $H_N$, so
-$F(N)\le\lfloor H_N\rfloor\le\log N+1$; the site writes this trivial bound
-as $N(n)\le\log n+O(1)$. The first question asks for $F(N)$; the second,
-whether $F(N)=o(\log N)$, is the site's rendering of the monograph's remark
-that it could not rule out more than $c\log n$ such integers (printed
-p. 40, quoted below). The negative answer means $F(N)$ is of order
-$\log N$. The first question is read as the papers that answered it read
-it. Yokota's 1997 abstract presents $|N(n)|\sim\log n$ as giving the
-correct order of $|N(n)|$, and Croot (p. 1) says that Yokota's range gives
-the correct asymptotic to the question of how many integers are
-representable. The question asks for the asymptotic size of $F(N)$, which
-Yokota's 1997 theorem gives and the later results sharpen.
+$F(N)\le\lfloor H_N\rfloor\le\log N+1$; erdosproblems.com writes this trivial
+bound as $N(n)\le\log n+O(1)$. The first question asks for $F(N)$; the second,
+whether $F(N)=o(\log N)$, is erdosproblems.com's rendering of the monograph's
+remark that it could not rule out more than $c\log n$ such integers (printed p.
+40, quoted below). The negative answer means $F(N)$ is of order $\log N$. The
+first question is read as the papers that answered it read it. Yokota's 1997
+abstract presents $|N(n)|\sim\log n$ as giving the correct order of $|N(n)|$,
+and Croot (p. 1) says that Yokota's range gives the correct asymptotic to the
+question of how many integers are representable. The question asks for the
+asymptotic size of $F(N)$, which Yokota's 1997 theorem gives and the later
+results sharpen.
 
-**Status.** Disproved, in the site's label, DISPROVED (LEAN) (page last edited
-20 December 2025). Three accepted full claims carry the standing, each on its
-own page:
+**Status.** Disproved, in the erdosproblems.com label, DISPROVED (LEAN) (page
+last edited 20 December 2025). Three accepted full claims carry the standing,
+each on its own page:
 [[problems/unit_fractions/E0309/claims/1997_12_01_yokota|Yokota's 1997 theorem]]
-(the bound the site credits),
+(the bound erdosproblems.com credits),
 [[problems/unit_fractions/E0309/claims/1999_12_01_croot|Croot's Main Theorem]]
 and
 [[problems/unit_fractions/E0309/claims/2002_10_01_yokota|Yokota's 2002 Corollary 1]].
@@ -59,19 +59,19 @@ The first disproof is the count bound of Yokota's 1990 paper (Canad. Math. Bull.
 $F(N)\ge(\tfrac12-\varepsilon(N))\log N$ with $\varepsilon(N)\to0$. Yokota's
 1997 paper reports this bound on printed p. 162, and the publisher's abstract
 states it too. It fixes $F(N)$ only up to a factor between $\tfrac12$ and $1$,
-and the site does not cite it. The site credits Theorem 1 of Yokota's 1997 paper
-(J. Number Theory 67 (1997), 162--169; refereed; printed p. 162). It gives
-$(1-5\log\log N/\log N)\le F(N)/\log N<(1+1/\log N)$ for large $N$, that is,
-$F(N)\ge\log N-5\log\log N$, the site's $\log N-O(\log\log N)$. Its 1998
-Corrigendum is not held.
+and erdosproblems.com does not cite it. erdosproblems.com credits Theorem 1 of
+Yokota's 1997 paper (J. Number Theory 67 (1997), 162--169; refereed; printed p.
+162). It gives $(1-5\log\log N/\log N)\le F(N)/\log N<(1+1/\log N)$ for large
+$N$, that is, $F(N)\ge\log N-5\log\log N$, erdosproblems.com's
+$\log N-O(\log\log N)$. Its 1998 Corrigendum is not held.
 
 Separately, the Main Theorem of Croot (Mathematika 46 (1999); refereed) gives
 $F(N)\ge\log N+\gamma-1-o(1)$ by the one-line deduction below. So
 $F(N)=\log N+O(1)$, and the answer to the second question is no. Croot's proof
 takes the integers below a fixed bound from "the main result in [5] (and [6])",
 which is Yokota's 1997 paper with its 1998 Corrigendum (typescript p. 12). The
-best lower bound the site records is Corollary 1 of Yokota's 2002 paper (J.
-Number Theory 96; refereed; printed p. 353),
+best lower bound erdosproblems.com records is Corollary 1 of Yokota's 2002 paper
+(J. Number Theory 96; refereed; printed p. 353),
 
 $$
 F(N)\ge\Bigl\lfloor H_N-\Bigl(\frac{\pi^2}{3}+o(1)\Bigr)\frac{(\log\log N)^2}{\log N}\Bigr\rfloor
@@ -85,25 +85,25 @@ the library's corollary page. Read literally, the printed form fails whenever
 the fractional part of $H_N$ exceeds
 $(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$.
 
-The site's commentary credits [Yo97] with $\log n-O(\log\log n)$. It records
-Croot's representability bound and Yokota's 2002 bound after it, and it names
-none of the three as the disproof. Yokota's 1999 paper on the largest
+The erdosproblems.com commentary credits [Yo97] with $\log n-O(\log\log n)$. It
+records Croot's representability bound and Yokota's 2002 bound after it, and it
+names none of the three as the disproof. Yokota's 1999 paper on the largest
 representable integer [Yo99] has no claim page, for the reason given under
-Status support. The site's discussion carries no further proof claim. The
-label's Lean suffix refers to a Lean development in Boris Alexeev's collection.
-That development was authored by OpenAI Codex and names Yokota and Croot among
-its informal authors. The formal-conjectures statement file added on 19
-September 2026 points at it. The development is linked as a formalization from
-Yokota's 1997 and Croot's claim pages, as recorded under Formalization and the
-Lean label below. No local kernel credit is claimed.
+Status support. The erdosproblems.com discussion carries no further proof claim.
+The label's Lean suffix refers to a Lean development in Boris Alexeev's
+collection. That development was authored by OpenAI Codex and names Yokota and
+Croot among its informal authors. The formal-conjectures statement file added on
+19 September 2026 points at it. The development is linked as a formalization
+from Yokota's 1997 and Croot's claim pages, as recorded under Formalization and
+the Lean label below. No local kernel credit is claimed.
 
 **Source.** [erdosproblems.com/309](https://www.erdosproblems.com/309),
-accessed 2026-09-18: the problem page (DISPROVED (LEAN), with the site's
-note that it is solved in the negative with the proof verified in Lean;
-source key [ErGr80]; last edited 20 December 2025; OEIS A217693 linked),
-its discussion thread (three comments, 7 October 2025 to 23 July 2026) and
-its empty proof-claim tab. The site cites [Yo97], [Cr99] and [Yo02] in its
-commentary and thanks four contributors by name. Cite as: T. F. Bloom,
+accessed 2026-09-18: the problem page (DISPROVED (LEAN), with the
+erdosproblems.com note that it is solved in the negative with the proof verified
+in Lean; source key [ErGr80]; last edited 20 December 2025; OEIS A217693
+linked), its discussion thread (three comments, 7 October 2025 to 23 July 2026)
+and its empty proof-claim tab. erdosproblems.com cites [Yo97], [Cr99] and [Yo02]
+in its commentary and thanks four contributors by name. Cite as: T. F. Bloom,
 Erdős Problem #309, https://www.erdosproblems.com/309, accessed 2026-09-18.
 
 **References.**
@@ -113,8 +113,8 @@ Erdős Problem #309, https://www.erdosproblems.com/309, accessed 2026-09-18.
   10.4153/CMB-1990-037-0 (Crossref record: issue dated 1 June 1990; the
   publisher's abstract ends by saying that the paper answers a question of Erdős
   and Graham). Not held: its theorem is known through the 1997 paper's report of
-  it (printed p. 162) and through its use as that paper's Lemma 4 (p. 164). The
-  site does not cite it; OEIS A217693 links it.
+  it (printed p. 162) and through its use as that paper's Lemma 4 (p. 164).
+  erdosproblems.com does not cite it; OEIS A217693 links it.
 - [Yo97] Yokota, Hisashi, On number of integers representable as a sum of unit
   fractions. II. J. Number Theory 67 (1997), no. 2, 162--169, DOI
   10.1006/jnth.1997.2187 (Crossref record), with a Corrigendum, J. Number Theory
@@ -165,8 +165,8 @@ states `erdos_309` (the answer is no: $F(N)$ is not $o(\log N)$) and
 carrying a `formal_proof` annotation pointing at
 [`src/latest/ErdosProblems/Erdos309.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos309.lean)
 in Boris Alexeev's `lean-proofs` collection as it stood on 15 September 2026
-(the pinned link). On 2026-10-07 the site's page showed the statement as
-formalized and linked the statement file, and the community database recorded
+(the pinned link). On 2026-10-07 the erdosproblems.com page showed the statement
+as formalized and linked the statement file, and the community database recorded
 the problem as formalized since 19 September 2026.
 The Alexeev file is a development authored by OpenAI Codex (GPT-5.6 Sol),
 described under Formalization and the Lean label below; no build of it is
@@ -174,9 +174,9 @@ recorded, and no `formalized` evidence is listed on any claim page.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; status DISPROVED (LEAN), last edited 20 December 2025; source key
-[ErGr80]. The commentary, writing $N(n)$ for the count, notes the trivial
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; status DISPROVED (LEAN), last edited 20 December 2025; source
+key [ErGr80]. The commentary, writing $N(n)$ for the count, notes the trivial
 bound $N(n)\le\log n+O(1)$ and credits Yokota [Yo97] with
 $N(n)\ge\log n-O(\log\log n)$; it then records Croot's [Cr99] theorem
 that every integer up to
@@ -197,7 +197,7 @@ credited to Yokota [Yo02]. For the count of positive integers the display
 needs the integer part; as printed it holds only when the empty sum's $0$
 is counted, as in the paper's own $|N(n)|$. The external-database panel
 links OEIS A217693. The thread has three comments: 7 October 2025, that
-the reference on the OEIS page shows $N(n)\sim\log n$ (the site was
+the reference on the OEIS page shows $N(n)\sim\log n$ (erdosproblems.com was
 updated to address it); 14 December 2025, that Croot's lower bound was
 improved by Yokota in [Yo02] (likewise addressed); and 23 July 2026, a
 typographical remark on the stray inequality sign in the Croot display,
@@ -213,9 +213,9 @@ smallest-missing-integer question of
 idea of how many integers can be written as
 $\sum_{k=1}^n\frac{\varepsilon_k}{k}$, $\varepsilon_k=0$ or $1$. We cannot
 even rule out the possibility that there are more than $c\log n$ integers
-of this form." The site's second question, $o(\log N)$, is the negation of
-that possibility. Croot's reference [1] cites the monograph's pp. 39--40
-and 103; printed p. 103 concerns other problems.
+of this form." erdosproblems.com's second question, $o(\log N)$, is the negation
+of that possibility. Croot's reference [1] cites the monograph's pp. 39--40 and
+103; printed p. 103 concerns other problems.
 
 **Status support.** The first disproof is the count bound of Yokota's 1990
 paper [Yo90], which is not held. The 1997 paper's introduction (printed
@@ -228,8 +228,9 @@ $o(\log N)$ and fixes its order only up to a factor between $\frac12$ and
 $1$. The 1997 paper's Lemma 4 (p. 164) is quoted as Theorem 1 of the 1990
 paper, so the 1997 proof depends on it; since the 1990 paper is not held,
 its own numbering of the count bound is not recorded. Acceptance evidence:
-publication in Canad. Math. Bull., a refereed journal (Crossref record); the
-site does not cite the paper. The bound the site credits is Yokota's 1997
+publication in Canad. Math. Bull., a refereed journal (Crossref record);
+erdosproblems.com does not cite the paper. The bound erdosproblems.com credits
+is Yokota's 1997
 [[../library/unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/theorem_1|Theorem 1]]
 (printed p. 162; claims checked): "There exists a constant $n_0$ such that
 for all $n>n_0$
@@ -249,8 +250,8 @@ condition holds only for $a$ up to $\log n-(3+o(1))\log n/\log\log n$, which
 still gives $F(N)\sim\log N$. The 1998 Corrigendum is not held, and what it
 corrects is not recorded; the statement is quoted as printed in 1997.
 Acceptance evidence: publication in J. Number Theory, a refereed journal
-(Crossref record), and the site's credit of this bound. The disproof is also
-carried by Croot's
+(Crossref record), and the erdosproblems.com credit of this bound. The disproof
+is also carried by Croot's
 [[../library/unit_fractions/crootiii_1999_questions_erdos_graham_about_egyptian_fractions/main_theorem|Main Theorem]]
 (typescript p. 1; claims checked), which gives, for all large $N$,
 $\{1,\ldots,n(N)\}\subseteq N(N)$ with
@@ -267,9 +268,9 @@ so $F(N)/\log N\to1$ and $F(N)$ is not $o(\log N)$. In fact Croot's p. 2
 shows that $N(N)$ is an initial segment for large $N$, so $F(N)=n(N)$ and
 both of the paper's floors bound $F(N)$ itself. Acceptance evidence for Croot's
 theorem: publication in Mathematika, a refereed journal (Crossref record),
-and the site's record of its representability bound in the commentary.
-Proof coverage: the proof is recorded in outline only (result page); its
-small-integer input is "the main result in [5] (and [6])", Yokota's 1997
+and the erdosproblems.com record of its representability bound in the
+commentary. Proof coverage: the proof is recorded in outline only (result page);
+its small-integer input is "the main result in [5] (and [6])", Yokota's 1997
 Theorem 1 with its 1998 Corrigendum (typescript p. 12); the 1997 statement
 is recorded at statement depth as above, and the Corrigendum is not held.
 Yokota's 2002 bound, with the constant $\pi^2/3$ in place of Croot's
@@ -291,8 +292,8 @@ not held, so whether [Yo99] proves the count bound, and what the Erratum
 corrects, is not recorded. Croot's theorem (December 1999) gives the same
 order of bound, $\log N+\gamma-1-o(1)$, on its own page.
 
-**Formalization and the Lean label.** The site's (LEAN) suffix refers to
-the file `src/latest/ErdosProblems/Erdos309.lean` in Boris Alexeev's
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix refers
+to the file `src/latest/ErdosProblems/Erdos309.lean` in Boris Alexeev's
 `lean-proofs` collection as it stood on 15 September 2026 (the link pinned on
 the claim pages); its top file is recorded. Its header declares it a Lean
 formalization of a solution to Problem 309, names Hisashi Yokota, Ernest
@@ -338,13 +339,13 @@ open links); the primary sources [Cr99] and [ErGr80] pp. 39--40. Not searched:
 MathSciNet, Google Scholar, X. Nothing found sharpens the second-order term
 beyond Yokota's 2002 Corollary 1. Also read: the formal-conjectures statement
 file and the Alexeev Lean file at the commits the links under Formalization pin,
-the community database record (formalized since 19 September 2026) and the
-site's formalization panel.
+the community database record (formalized since 19 September 2026) and
+erdosproblems.com's formalization panel.
 
 **Remaining gaps.** (1) Yokota's 1990 paper, the first disproof, is not
 held; its theorem is known through the 1997 paper's report and use of it.
 Yokota 1997 is recorded at statement depth (Theorem 1; the proof in
-outline only), so the bound the site credits is first-hand; its 1998
+outline only), so the bound erdosproblems.com credits is first-hand; its 1998
 Corrigendum (J. Number Theory 72, 150) is not held, and what it corrects
 is not recorded. The disproof also rests on Croot's theorem, and Yokota
 2002 is recorded at statement depth. Yokota's 1999 paper and its Erratum
@@ -355,7 +356,7 @@ undecided which when the fractional part of $H_N$ lies between
 $(\frac12+o(1))(\log\log N)^2/\log N$ (Croot's upper floor) and
 $(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$ (Yokota 2002, Corollary 1,
 improving Croot's $\frac92$). (3) Croot's proof is compiled as a statement
-with a structural sketch. (4) The Lean proof behind the site's label,
+with a structural sketch. (4) The Lean proof behind the erdosproblems.com label,
 Alexeev's `Erdos309.lean`, is recorded at its top file only, and no build
 of it is recorded; its imports and the companion `tex/309.tex` are not
 recorded.
@@ -371,7 +372,7 @@ recorded.
   [[../library/unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/theorem_1|Theorem 1]]
   (J. Number Theory 1997, printed p. 162): for large $N$,
   $(1-5\log\log N/\log N)\le F(N)/\log N<(1+1/\log N)$, so
-  $F(N)\ge\log N-5\log\log N$ and $F(N)\sim\log N$, the bound the site
+  $F(N)\ge\log N-5\log\log N$ and $F(N)\sim\log N$, the bound erdosproblems.com
   credits (its printed last step, p. 168, reaches only
   $\log N-(3+o(1))\log N/\log\log N$, enough for the asymptotic; the proof
   recorded in outline only; the 1998 Corrigendum not held).

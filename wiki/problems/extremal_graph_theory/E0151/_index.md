@@ -35,11 +35,11 @@ $$
 \tau(G)\leq n-H(n)?
 $$
 
-**Formulation.** The site's wording (page last edited 2 December 2025). A
-maximal clique on at least two vertices is what the 1992 paper calls a clique,
-"a complete subgraph maximal under inclusion and having at least two vertices"
-(p. 279), so isolated vertices need not be met; $\tau(G)$ is the paper's
-clique-transversal number $\tau_C(G)$ and $H(n)$ its $r(n)$, the least
+**Formulation.** The erdosproblems.com wording (page last edited 2 December
+2025). A maximal clique on at least two vertices is what the 1992 paper calls a
+clique, "a complete subgraph maximal under inclusion and having at least two
+vertices" (p. 279), so isolated vertices need not be met; $\tau(G)$ is the
+paper's clique-transversal number $\tau_C(G)$ and $H(n)$ its $r(n)$, the least
 independence number of a triangle-free graph on $n$ vertices. In a
 triangle-free graph the cliques are the edges, a clique transversal is a vertex
 cover, and $\tau(G)=n-\alpha(G)$ (Lemma 1(b) of the paper, p. 282), so a
@@ -50,10 +50,10 @@ the largest $\tau(G)$ over graphs on $n$ vertices, "We conjecture that $h(n)$
 equals to the smallest integer for which every graph of $n$ vertices which has
 no triangles has a set of at least $n-h(n)$ independent vertices", that is
 $h(n)=n-H(n)$; since $h(n)\ge n-H(n)$ is the triangle-free case, the conjecture
-is the site's inequality. The question is exact in $H(n)$: a bound $\tau(G)\le
-n-c\sqrt{n\log n}$ with an unspecified $c$ (Problem 610) has the right order
-but does not answer it, because $H(n)$ is itself only known to within constant
-factors.
+is erdosproblems.com's inequality. The question is exact in $H(n)$: a bound
+$\tau(G)\le n-c\sqrt{n\log n}$ with an unspecified $c$ (Problem 610) has the
+right order but does not answer it, because $H(n)$ is itself only known to
+within constant factors.
 
 **Status.** Open. No proof, disproof or proof claim for the inequality was found
 in the search dated 2026-09-19 UTC whose scope the Current assessment records.
@@ -80,20 +80,21 @@ The inequality holds for every chordal graph, by Tuza's bound $\tau(G)\le n/2$
 for chordal graphs (Discrete Math. 86 (1990), Theorem 2(a), refereed). This is
 an accepted partial claim, recorded on
 [[problems/extremal_graph_theory/E0151/claims/1990_12_01_tuza|its claim page]].
-A partial proof claim of 2026-09-28 on the site's proof-claim tab gives the
-inequality for every graph on at most 39 vertices. It is recorded as claimed on
+A partial proof claim of 2026-09-28 on the erdosproblems.com proof-claim tab
+gives the inequality for every graph on at most 39 vertices. It is recorded as
+claimed on
 [[problems/extremal_graph_theory/E0151/claims/2026_09_28_veljjanoski|its claim page]]
 and derives nothing for the standing, which stays open.
 
 **Source.** [erdosproblems.com/151](https://www.erdosproblems.com/151),
-accessed 2026-09-19: the problem page (OPEN, with the site's note that no
-finite computation can settle the problem; last edited 2 December 2025; source
-keys [Er88, p. 82] and [EGT92, p. 280]; commentary citing Problem 610), its
-discussion thread, with one comment (8 September 2025) on that date and three
-(8 September 2025, 23 and 28 September 2026) on 2026-10-07, and its proof-claim
-tab, empty on that date and later carrying one partial claim, posted 2026-09-28.
-Cite as: T. F. Bloom, Erdős Problem #151, https://www.erdosproblems.com/151,
-accessed 2026-09-19.
+accessed 2026-09-19: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle the problem; last edited 2 December 2025;
+source keys [Er88, p. 82] and [EGT92, p. 280]; commentary citing Problem 610),
+its discussion thread, with one comment (8 September 2025) on that date and
+three (8 September 2025, 23 and 28 September 2026) on 2026-10-07, and its
+proof-claim tab, empty on that date and later carrying one partial claim, posted
+2026-09-28. Cite as: T. F. Bloom, Erdős Problem #151,
+https://www.erdosproblems.com/151, accessed 2026-09-19.
 
 **References.**
 
@@ -139,14 +140,14 @@ accessed 2026-09-19.
   [[../library/ramsey_theory/kim_1995_ramsey_number_has_order_magnitude/_index|kim_1995_ramsey_number_has_order_magnitude]];
   paged at
   [[../library/ramsey_theory/kim_1995_ramsey_number_has_order_magnitude/theorem_1_1|theorem_1_1]].
-  Not a site key for this problem.
+  Not an erdosproblems.com key for this problem.
 - [JMRS21] Joret, G., Micek, P., Reed, B. and Smid, M., Tight bounds on the
   clique chromatic number. Electron. J. Combin. 28 (2021), no. 3, Paper No.
   P3.51, doi:10.37236/9659; Corollary 2, p. 2. Library home:
   [[../library/extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/_index|joret_2021_tight_bounds_clique_chromatic_number]];
   paged at
   [[../library/extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/corollary_2|corollary_2]].
-  Not a site key for this problem; the Problem 610 source.
+  Not an erdosproblems.com key for this problem; the Problem 610 source.
 - [Tu90] Tuza, Zs., Covering all cliques of a graph. Discrete Math. 86 (1990),
   117--126, doi:10.1016/0012-365X(90)90354-K; [EGT92]'s reference [11], the
   chordal-graph results; Theorem 2(a), p. 119. Library home:
@@ -165,7 +166,7 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/milanic_2024_upper_clique_transversal_problem/_index|milanic_2024_upper_clique_transversal_problem]].
 
 **Formalization.** None. formal-conjectures has no file
-`ErdosProblems/151.lean` (main, 2026-10-07); the site's
+`ErdosProblems/151.lean` (main, 2026-10-07); the erdosproblems.com
 page shows the statement as not formalized; the community database
 (teorth/erdosproblems, `data/problems.yaml`, 2026-09-19 and 2026-10-06)
 records the problem open (last update 31 August 2025), unformalized, with no
@@ -181,7 +182,7 @@ repeats Erdős's remark that the conjecture is "perhaps completely wrongheaded",
 records its later appearance as Problem 1 of [EGT92], and refers the general
 behavior of $\tau(G)$ to Problem 610. The thread has three comments. The
 comment of 8 September 2025 points to the 1992 paper's Problem 1, after which
-the site was updated; the comments of 23 and 28 September 2026 are
+erdosproblems.com was updated; the comments of 23 and 28 September 2026 are
 Veljjanoski's SAT and integer-programming check of the inequality for every
 graph on at most $22$ vertices and an announcement of the write-up for
 $n\le39$. The proof-claim tab carries one partial claim, posted 2026-09-28 and
@@ -210,8 +211,8 @@ Denote by $r(n)$ the largest integer such that every triangle-free graph of
 order $n$ contains an independent set of $r(n)$ vertices. Is $\tau_C(G)\le
 n-r(n)$ for all graphs $G$ on $n$ vertices?", followed by the bounds on $r(n)$
 and "we can only prove $\tau_C(G)\le n-\sqrt{2n}+c$ for a small constant $c$,
-see Theorems 1 and 3". The site's two page pointers, p. 82 and p. 280, match
-these passages.
+see Theorems 1 and 3". erdosproblems.com's two page pointers, p. 82 and p. 280,
+match these passages.
 
 **The bounds.**
 
@@ -226,14 +227,14 @@ these passages.
   the better $n-\sqrt{2n}+\sqrt2$, since $\sqrt2<\frac32$, from the
   linear-time algorithm CLCOV (its proof not checked), the best explicit
   bound for every $n$.
-  The site's "easy" bound $\tau(G)\le n-\sqrt n$ is Erdős's sentence; up to
-  an additive $1$ it follows from Lemma 1(a) alone, since a greedy
+  erdosproblems.com's "easy" bound $\tau(G)\le n-\sqrt n$ is Erdős's sentence;
+  up to an additive $1$ it follows from Lemma 1(a) alone, since a greedy
   independent set has at least $n/(\Delta+1)$ vertices and so
   $\max(\alpha,\Delta)\ge\sqrt n-1$ (an elementary remark recorded on this
   page). Read
   depth: claims checked for Lemma 1 and Theorems 1 and 3.
-  Acceptance: Discrete Mathematics is refereed, and the paper is the site's
-  own source.
+  Acceptance: Discrete Mathematics is refereed, and the paper is
+  erdosproblems.com's own source.
 - Lower bound: the triangle-free graphs, where
   $\tau(G)=n-\alpha(G)$ exactly (Lemma 1(b)), give $h(n)\ge n-H(n)$; with
   [[../library/ramsey_theory/kim_1995_ramsey_number_has_order_magnitude/theorem_1_1|Kim's Theorem 1.1]]
@@ -280,7 +281,7 @@ a counterexample, a bound closer to $n-H(n)$ than the explicit
 $n-\sqrt{2n}+\sqrt2$ and the asymptotic $n-c\sqrt{n\log n}$, or a proof
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab, read
+- erdosproblems.com: problem page, discussion thread and proof-claim tab, read
   2026-09-19; the formal-conjectures directory and tree at main on that date
   (no file 151); the community database on that date.
 - arXiv API: `all:"clique transversal"` sorted by date (six records, listed
@@ -290,8 +291,8 @@ claim.
 - Crossref: the record of doi:10.37236/9659 ([JMRS21], the Problem 610
   source); OpenAlex: its two citing works (both on random graphs, neither on
   clique transversals).
-- The "graphs problem collection" pages the site's Problem 610 page links
-  (mathweb.ucsd.edu/~erdosproblems, "CliqueTransversal" and
+- The "graphs problem collection" pages erdosproblems.com's Problem 610 page
+  links (mathweb.ucsd.edu/~erdosproblems, "CliqueTransversal" and
   "CliqueTransversalUpperBound", read 2026-09-19): both state Problem 1 in
   the 1992 paper's words and say "So far, the best current bound [1] is
   $\tau(G)\le n-\sqrt{2n}+c$ for a small constant $c$".
@@ -317,17 +318,17 @@ the independence theorem behind it (Theorem 2) was followed for structure only.
 the lemmas read for structure; nothing is independently reviewed; there is no
 resolving proof to compile. (4) There is no Lean statement of the problem.
 
-**Proof claims on the site.** The site's proof-claim tab carried one claim,
-partial: Daniel Veljjanoski's write-up of 2026-09-28, which
+**Proof claims on erdosproblems.com.** The erdosproblems.com proof-claim tab
+carried one claim, partial: Daniel Veljjanoski's write-up of 2026-09-28, which
 asserts the inequality for every graph on at most 39 vertices by a
 minimum-counterexample reduction and a new Euler-circuit argument for the case
 in which every edge lies in at most two triangles, and which says where the
 method stops ($n\ge40$). It is recorded, with its links and its own account of
 what was and was not checked, on
 [[problems/extremal_graph_theory/E0151/claims/2026_09_28_veljjanoski|its claim page]]
-as claimed; the site's label was unchanged (OPEN; page last edited 2 December
-2025), and no step of the write-up has been checked. A partial claim derives
-nothing for the standing. The write-up credits its reduction to [issue
+as claimed; the erdosproblems.com label was unchanged (OPEN; page last edited 2
+December 2025), and no step of the write-up has been checked. A partial claim
+derives nothing for the standing. The write-up credits its reduction to [issue
 9934](https://github.com/the-omega-institute/trureturing/issues/9934) of a
 GitHub repository, posted on 25 September 2026 by the user AlyciaBHZ as a
 research log produced by Codex (a controller and command-line workers) with one
@@ -336,7 +337,7 @@ minimum-counterexample reduction and, through a cited theorem of Liang, Shan
 and Kang on clique-coloring claw-free graphs, excludes every counterexample on
 at most $28$ vertices; it says that it does not solve the problem for all
 orders and is not submitted as a partial result, and it is neither a dated
-manuscript nor a posting on the site's tab, so it has no claim page.
+manuscript nor a posting on the erdosproblems.com tab, so it has no claim page.
 
 ## Known results
 

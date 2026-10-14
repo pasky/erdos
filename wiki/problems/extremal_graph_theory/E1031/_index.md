@@ -27,25 +27,25 @@ contain an induced non-trivial regular subgraph on $\gg \log n$ many vertices?
 
 **Formulation.** A trivial subgraph is a complete or an empty induced subgraph,
 so the hypothesis says that $G$ has no clique and no independent set on
-$10\log n$ or more vertices. This is the site's reading: its commentary says
-that by Ramsey's theorem every graph on $n$ vertices has a trivial subgraph on
-$\gg\log n$ vertices. It is also the reading of [Er93], which calls a graph
+$10\log n$ or more vertices. This is erdosproblems.com's reading: its commentary
+says that by Ramsey's theorem every graph on $n$ vertices has a trivial subgraph
+on $\gg\log n$ vertices. It is also the reading of [Er93], which calls a graph
 trivial when it is complete or empty and states Ramsey's theorem in those terms
 (Chapter II, printed p. 337), and whose $t(n)$ on p. 340, the largest trivial
-subgraph every $G(n)$ must contain, is a Ramsey quantity. Read as the site words
-it, with subgraphs that need not be induced, every graph on $n\ge10\log n$
-vertices has an empty subgraph on all its vertices, so the hypothesis fails for
-all large $n$ and the question holds vacuously. The answer is yes on both
-readings, on the induced one by [PrRo99] as the claim page records, so the
-standing does not change.
+subgraph every $G(n)$ must contain, is a Ramsey quantity. Read as Bloom's
+catalog words it, with subgraphs that need not be induced, every graph on
+$n\ge10\log n$ vertices has an empty subgraph on all its vertices, so the
+hypothesis fails for all large $n$ and the question holds vacuously. The answer
+is yes on both readings, on the induced one by [PrRo99] as the claim page
+records, so the standing does not change.
 
-**Status.** Proved. The site credits Prömel and Rödl [PrRo99], whose theorem is
-stronger than the question. For every $c>0$, a graph on $n$ vertices with no
-trivial subgraph on $c\log n$ vertices contains every graph on $O_c(\log n)$
-vertices as an induced subgraph. Among these is a cycle, which is regular and
-non-trivial. The paper (J. Combin. Theory Ser. A 88 (1999), 379--384; refereed)
-is not held. Its statement is known through its signed zbMATH review and the
-site. The claim page
+**Status.** Proved. erdosproblems.com credits Prömel and Rödl [PrRo99], whose
+theorem is stronger than the question. For every $c>0$, a graph on $n$ vertices
+with no trivial subgraph on $c\log n$ vertices contains every graph on
+$O_c(\log n)$ vertices as an induced subgraph. Among these is a cycle, which is
+regular and non-trivial. The paper (J. Combin. Theory Ser. A 88 (1999),
+379--384; refereed) is not held. Its statement is known through its signed
+zbMATH review and erdosproblems.com. The claim page
 [[problems/extremal_graph_theory/E1031/claims/1999_11_01_promel_rodl|Prömel and Rödl]]
 records it as accepted on the refereed venue and on the curator's acceptance
 after the forum comment of 13 September 2025. The zbMATH review is the source of
@@ -70,8 +70,8 @@ https://www.erdosproblems.com/1031.
   $c\log n$-universal. J. Combin. Theory Ser. A 88 (1999), no. 2, 379--384.
 
 **Formalization.** No formal-conjectures statement file
-`ErdosProblems/1031.lean` existed at main on 2026-10-07, and the site's
-indicator and the community database (teorth/erdosproblems,
+`ErdosProblems/1031.lean` existed at main on 2026-10-07, and the
+erdosproblems.com indicator and the community database (teorth/erdosproblems,
 `data/problems.yaml`, accessed 2026-10-06) record no formalized statement. The
 file `src/latest/ErdosProblems/Erdos1031.lean` of Boris Alexeev's
 `plby/lean-proofs` repository declares itself a formalization of Prömel and
@@ -90,14 +90,15 @@ neither empty nor complete, which is what the question asks for with
 $c=10$; the deduction is written on the claim page
 [[problems/extremal_graph_theory/E1031/claims/1999_11_01_promel_rodl|Prömel and Rödl]].
 The paper is not held, its theorem is known through the signed zbMATH review
-and the site's commentary, and nothing is independently reviewed here.
+and the erdosproblems.com commentary, and nothing is independently reviewed
+here.
 
 **Search scope (2026-10-07 UTC).** None of the routes below found a
 correction, retraction or dispute of [PrRo99], or a proof claim.
 
-- The site: problem page (PROVED; source key [Er93, p. 340]), discussion
-  thread (two comments of 13 September 2025) and proof-claim tab (empty);
-  the community database (proved; no formalized statement);
+- erdosproblems.com: problem page (PROVED; source key [Er93, p. 340]),
+  discussion thread (two comments of 13 September 2025) and proof-claim tab
+  (empty); the community database (proved; no formalized statement);
   formal-conjectures at main (no file 1031).
 - The Crossref record of [PrRo99] (issued November 1999; no correction or
   update notice attached) and the zbMATH review Zbl 0934.05090 (R. J.

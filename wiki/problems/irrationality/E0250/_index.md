@@ -32,14 +32,14 @@ irrational? (Here $\sigma(n)$ is the sum of divisors function.)
 **Status.** Proved. The sum is irrational for every integer base $q$ with
 $|q|\ge2$ (Duverney 1995, Théorème, p. 1287, proof p. 1289). It is also
 transcendental (Nesterenko 1996, Theorem 1 with Corollary 2 at $q=1/2$, pp.
-66--67 of the Russian original). Both proofs are refereed publications. The
-site's "(LEAN)" badge is explained under Formal status below and adds nothing to
-this standing.
+66--67 of the Russian original). Both proofs are refereed publications.
+erdosproblems.com's "(LEAN)" badge is explained under Formal status below and
+adds nothing to this standing.
 
 **Source.** [erdosproblems.com/250](https://www.erdosproblems.com/250), accessed
-2026-09-17 (site label "PROVED (LEAN)"; page last edited 28 September 2025;
-three comments, no proof claims). Cite as: T. F. Bloom, Erdős Problem #250,
-https://www.erdosproblems.com/250.
+2026-09-17 (erdosproblems.com label "PROVED (LEAN)"; page last edited 28
+September 2025; three comments, no proof claims). Cite as: T. F. Bloom, Erdős
+Problem #250, https://www.erdosproblems.com/250.
 
 **References.**
 
@@ -50,8 +50,8 @@ https://www.erdosproblems.com/250.
   results. New advances in transcendence theory (Durham, 1986) (1988), 102-109,
   p. 102.
 - [Ne96] Nesterenko, Yuri, Modular functions and transcendence problems. C. R.
-  Acad. Sci. Paris Sér. I Math. 322 (1996), no. 10, 909-914. (The site's entry
-  omits the volume.)
+  Acad. Sci. Paris Sér. I Math. 322 (1996), no. 10, 909-914. (The
+  erdosproblems.com entry omits the volume.)
 - [Er48] Erdős, P., On arithmetical properties of Lambert series. J. Indian
   Math. Soc. (N.S.) 12 (1948), 63-66, p. 66.
 - [Er57] Erdős, P., On the irrationality of certain series. Nederl. Akad.
@@ -77,15 +77,15 @@ https://www.erdosproblems.com/250.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/250.lean):
 `erdos_250`, tagged `research solved`, proved by `sorry`; at the revision of
 2026-10-06 that the link carries, its `formal_proof` attribute cites the
-external Lean proof named under Formal status. The site's "(LEAN)" badge and
-the claimed external proof behind it are described under Formal status below;
-that proof is not part of this repository's audited Lean.
+external Lean proof named under Formal status. erdosproblems.com's "(LEAN)"
+badge and the claimed external proof behind it are described under Formal status
+below; that proof is not part of this repository's audited Lean.
 
 ## Current assessment
 
-**Question.** In the site snapshot of 2026-09-17: is
-$S=\sum_{n\ge1}\sigma(n)/2^n$ irrational? The site's statement omits the
-range of summation; the sum runs over $n\ge1$. Numerically
+**Question.** In the erdosproblems.com snapshot of 2026-09-17: is
+$S=\sum_{n\ge1}\sigma(n)/2^n$ irrational? The erdosproblems.com statement omits
+the range of summation; the sum runs over $n\ge1$. Numerically
 $S=2.7440338887594883604802148914922\ldots$ (OEIS A066766; the value and
 the identities below agree under direct summation to 55 digits).
 Equivalent forms used by the sources:
@@ -129,9 +129,8 @@ refereed proofs.
    (pp. 66--67): for algebraic $q$ the numbers $P(q),Q(q),R(q)$ are
    algebraically independent, in particular transcendental. With $q=1/2$,
    $P(1/2)=1-24S$ is transcendental, hence so is $S$. The C. R. note [Ne96]
-   that the site cites is the announcement of this theorem, of which the
-   library holds no copy;
-   the Bourbaki exposé [Wa97],
+   that erdosproblems.com cites is the announcement of this theorem, of which
+   the library holds no copy; the Bourbaki exposé [Wa97],
    [[../library/irrationality/waldschmidt_1997_nature_arithmetique_valeurs_fonctions_modulaires/theoreme_4|Théorème 4]]
    (p. 118), restates it.
 
@@ -154,13 +153,13 @@ Refereed publication suffices for the page-level status; the frontmatter
 standing (`status: solved`, `claim: proved`) derives from the claim pages
 [[problems/irrationality/E0250/claims/1995_09_18_duverney|Duverney 1995]] and
 [[problems/irrationality/E0250/claims/1996_03_07_nesterenko|Nesterenko 1996]],
-not from the imported site label.
+not from the imported erdosproblems.com label.
 
-**Attribution.** The site credits only Nesterenko. Duverney's note precedes
-the C. R. announcement and the Mat. Sb. paper (received 7 March 1996) and
-answers exactly the irrationality question; transcendence is the stronger
-result. A comment of 5 September 2026 in the site's forum thread for the
-problem raised the Duverney reference; the page itself was unchanged at the
+**Attribution.** erdosproblems.com credits only Nesterenko. Duverney's note
+precedes the C. R. announcement and the Mat. Sb. paper (received 7 March 1996)
+and answers exactly the irrationality question; transcendence is the stronger
+result. A comment of 5 September 2026 in the erdosproblems.com forum thread for
+the problem raised the Duverney reference; the page itself was unchanged at the
 2026-09-17 snapshot.
 
 **Compiled proof coverage.** A complete reconstruction of Duverney's proof
@@ -187,24 +186,25 @@ tier or formalization standing and does not turn the imported metadata into
 local proof verification; it is separate from the reconstruction review
 above and does not extend it.
 
-**Status search.** The site page, its forum thread and its proof-claim list
-(three comments, no proof claims and no proof expositions on 2026-09-17); the
-erdosproblems community database entry 250; the formal-conjectures file; the
-zbMATH records of the sources; Crossref for the journal data of [Zu02], [PV07],
-[SV09] and the LNM 1752 chapter; mathnet.ru, numdam, arXiv and the author's page
-for the PDFs; web searches for the sources by title, for the irrationality of
-$\sum\sigma(n)/2^n$, and for "Erdős problem 250" with "Lean"; the GitHub API for
-the database's history and for the claimed Lean proof. Not searched: MathSciNet
-(no access); X (not used). On that date these sources showed no dispute,
-retraction or contrary claim concerning the cited proofs; the thread's one
-alternative argument, RomanLeLan's note of 21 October 2025, was refuted by the
-curator the same day and is recorded as a rejected claim page,
+**Status search.** The erdosproblems.com page, its forum thread and its
+proof-claim list (three comments, no proof claims and no proof expositions on
+2026-09-17); the erdosproblems community database entry 250; the
+formal-conjectures file; the zbMATH records of the sources; Crossref for the
+journal data of [Zu02], [PV07], [SV09] and the LNM 1752 chapter; mathnet.ru,
+numdam, arXiv and the author's page for the PDFs; web searches for the sources
+by title, for the irrationality of $\sum\sigma(n)/2^n$, and for "Erdős problem
+250" with "Lean"; the GitHub API for the database's history and for the claimed
+Lean proof. Not searched: MathSciNet (no access); X (not used). On that date
+these sources showed no dispute, retraction or contrary claim concerning the
+cited proofs; the thread's one alternative argument, RomanLeLan's note of 21
+October 2025, was refuted by the curator the same day and is recorded as a
+rejected claim page,
 [[problems/irrationality/E0250/claims/2025_10_21_romanlelan|RomanLeLan 2025]].
 
 ## Origin
 
-Erdős posed the question for every integer base $t>1$; the site and its two
-references fix $t=2$. The all-base statement is a variant, settled by
+Erdős posed the question for every integer base $t>1$; erdosproblems.com and its
+two references fix $t=2$. The all-base statement is a variant, settled by
 Duverney's Théorème for every $q\in\mathbb Z\setminus\{-1,0,1\}$.
 
 - 1948, [Er48] p. 66: the closing remark of the Lambert-series paper says
@@ -281,8 +281,8 @@ the $\omega$ case conditionally.
   docstring cites "[Ne96] Nesterenko, Yu V., Modular functions and
   transcendence questions, Mat. Sb. 187 9 (1996), 1319--1348", mixing the
   Russian journal's name with the translation's pages.
-- The site's badge "PROVED (LEAN)" is the `formal_status: Lean` field of
-  entry 250 in `data/problems.yaml` of the community database
+- erdosproblems.com's badge "PROVED (LEAN)" is the `formal_status: Lean` field
+  of entry 250 in `data/problems.yaml` of the community database
   teorth/erdosproblems (`status: proved (Lean)`, `last_update: 2026-08-23`,
   no URL; read 2026-09-17). It was set by the database's pull request #385,
   "Formalize solutions to 40 problems with existing statements", merged

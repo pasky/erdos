@@ -4,7 +4,8 @@ title: el Abdalaoui's nonflatness claim for plus-minus-one polynomials
 desc: |
   A 2025 preprint claims that $\pm1$ polynomials are never $L^\alpha$-flat for
   even $\alpha>2$, which would give the universal gap asked for. The claim was
-  rejected after objections in the site's thread and the accepted disproof.
+  rejected after objections in the erdosproblems.com thread and the accepted
+  disproof.
 authors:
 - el Houcein el Abdalaoui
 status: rejected
@@ -58,10 +59,10 @@ below rests on the accepted
 [[problems/polynomials/E1150/claims/2026_09_23_openai|OpenAI 2026]] page.
 
 **Rejection.** The claim is rejected on three grounds. In the thread, on
-2026-02-04, the site's curator, Thomas F. Bloom, replied that the final step
-of the proof on p. 9 does not contradict the preprint's Lemma 5, which only
-gives one function with concentration, and that the argument did not look
-fixable; Tao replied the same day that the preprint relies on the author's
+2026-02-04, the erdosproblems.com curator, Thomas F. Bloom, replied that the
+final step of the proof on p. 9 does not contradict the preprint's Lemma 5,
+which only gives one function with concentration, and that the argument did not
+look fixable; Tao replied the same day that the preprint relies on the author's
 earlier unpublished preprints and that its claims should be treated as
 unconfirmed until publication or independent verification. The author
 answered in the thread on 2026-08-16 with references and clarifications and
@@ -76,5 +77,5 @@ for every finite $\alpha\ge2$, so these polynomials are $L^\alpha$-flat for
 every even $\alpha>2$. Third, Appendix A of the release manuscript
 ([[../library/polynomials/openai_2026_asymptotically_minimal_maxima_real_littlewood_polynomials/_index|card]])
 locates the failing inference in the preprint's argument. Not reviewed, not
-refereed: the preprint has no journal version, and the site's label was
-OPEN (page last edited 23 January 2026, accessed 2026-10-06).
+refereed: the preprint has no journal version, and the erdosproblems.com label
+was OPEN (page last edited 23 January 2026, accessed 2026-10-06).

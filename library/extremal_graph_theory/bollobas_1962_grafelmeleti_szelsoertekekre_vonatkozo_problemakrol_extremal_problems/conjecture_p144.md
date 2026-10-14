@@ -28,8 +28,8 @@ paths with no common point other than their endpoints (p. 143). The example
 is $K_1+nK_3$: $n$ copies of $K_4$ sharing one vertex, with $3n+1$ points
 and $6n$ lines. It is the graph $K_1+nK_{m-1}$ of Problem 915 at $m=4$,
 where $1+n(m-1)=3n+1$ and $n\binom m2=6n$, so the guess $k_4(3n+1)=6n+1$ is
-the problem's conjecture at $m=4$; the site's commentary records the case as
-proved by Bollobás in 1966 ($k_4(n)=2n-1$; not read for this page).
+the problem's conjecture at $m=4$; the erdosproblems.com commentary records the
+case as proved by Bollobás in 1966 ($k_4(n)=2n-1$; not read for this page).
 
 **Source.** B. Bollobás and P. Erdős, *Gráfelméleti szélső értékekre
 vonatkozó problémákról* (On extremal problems in graph theory), Mat. Lapok

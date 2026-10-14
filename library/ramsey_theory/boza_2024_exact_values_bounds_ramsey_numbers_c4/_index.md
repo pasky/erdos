@@ -47,11 +47,11 @@ the results transfer to wheels. Remark 12 records that f(n) >= f(n-1) + 1 for
 3 <= n <= 39 and f(n) >= n + ceil(sqrt(n)) for 2 <= n <= 82, with no
 counterexample known for larger n. For problem 85, whose f(n) is the least
 minimum degree forcing a C_4 on n vertices, a different function from Boza's
-f(n) = R(C_4, K_{1,n}) (the site records the conversions R(C_4, K_{1,n}) =
-min{m : f(m) <= m - n} and f(n) = min{m : m >= R(C_4, K_{1,n-m})}, and Boza's
-p. 1 note that R(C_4, K_{1,n}) is the least N for which no C_4-free graph on
-N vertices has minimum degree at least N - n says the same), the paper does
-not state or address the monotonicity question; the closest statements are
+f(n) = R(C_4, K_{1,n}) (erdosproblems.com records the conversions R(C_4,
+K_{1,n}) = min{m : f(m) <= m - n} and f(n) = min{m : m >= R(C_4, K_{1,n-m})},
+and Boza's p. 1 note that R(C_4, K_{1,n}) is the least N for which no C_4-free
+graph on N vertices has minimum degree at least N - n says the same), the paper
+does not state or address the monotonicity question; the closest statements are
 Remark 12's bounded-range monotonicity of Boza's f and Lemma 1, the bound
 f(n-1) >= f(n) - 2 quoted from Chen 1997 (the paper's [3], Discrete Math. 163
 (1997) 243--246, cited and not proved here). Chen's paper is held, filed as

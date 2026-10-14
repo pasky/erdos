@@ -48,8 +48,8 @@ the result, since the issue carries no day of publication.
 **Acceptance.** The note is a publication in the Academy's Doklady, communicated
 by an academician. It has reviews in Mathematical Reviews and zbMATH (MR
 0671639, Zbl 0512.05056 per the Math-Net.Ru record) and an English translation
-in Soviet Mathematics Doklady. The site's curator, Thomas Bloom, marked the
-problem proved and credits the note.
+in Soviet Mathematics Doklady. The erdosproblems.com curator, Thomas Bloom,
+marked the problem proved and credits the note.
 
 An independent attestation by named experts is in print. It is the refereed note
 of Alon, Friedland and Kalai, *Every 4-regular graph plus an edge contains a
@@ -68,7 +68,7 @@ attestation and the curator's credit, not on a local review.
 **Related result.** The Alon--Friedland--Kalai note's own theorem, paged at
 [[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/theorem_p92|its theorem]],
 gives a $3$-regular subgraph in every $4$-regular loopless multigraph plus one
-edge. The site's commentary deduces from it that every $r$-regular graph with
-$r\ge5$ has a $3$-regular subgraph, which would answer Tashkinov's
+edge. The erdosproblems.com commentary deduces from it that every $r$-regular
+graph with $r\ge5$ has a $3$-regular subgraph, which would answer Tashkinov's
 formulation with $r_0=5$; the note prints no such sentence. The problem's
 standing rests on Tashkinov's two theorems.

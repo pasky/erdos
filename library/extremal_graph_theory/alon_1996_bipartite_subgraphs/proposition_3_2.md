@@ -54,5 +54,5 @@ Combin. 1 (1994), R12 (the paper's [1]); not held and not checked.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0581/_index|Problem 581]]: the upper half of
-  the site's display, $f(m)\le m/2+c_2m^{4/5}$, with the constant
+  the erdosproblems.com display, $f(m)\le m/2+c_2m^{4/5}$, with the constant
   $9\cdot2^{2/5}+o(1)$ along the sequence $n=2^{3k}$ with $3\nmid k$.

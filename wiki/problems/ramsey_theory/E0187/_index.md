@@ -28,39 +28,40 @@ updated: 2026-10-08T14:17:37Z
 the integers, at least one colour class contains an arithmetic progression with
 common difference $d$ of length $f(d)$ for infinitely many $d$.
 
-**Formulation.** The site's wording (page last edited 4 April 2026). The
-quantifier is the one Cohen asked for and Beck proved about: a function $F$
+**Formulation.** The erdosproblems.com wording (page last edited 4 April 2026).
+The quantifier is the one Cohen asked for and Beck proved about: a function $F$
 qualifies if every 2-coloring of the integers has, for infinitely many $d$, a
 monochromatic progression of difference $d$ and length at least $F(d)$; "best"
 asks how fast such an $F$ can grow. The sources write the function $f(d)$ (Erdős
-1973, the site), $l(d)$ (Erdős 1980), $h(d)$ (Erdős and Graham 1979, 1980) and
-$F(d)$ (Beck). Erdős's wordings: 1973 (printed p. 121), "Many years ago, Cohen
-asked the following question. Determine or estimate a function $f(d)$ so that if
-we split the integers into two classes, at least one class contains for
-infinitely many values of $d$ an arithmetic progression of length $f(d)$." Erdős
-then records his bound $f(d)<cd$ from the coloring by the fractional part of
-$n\alpha$ for a quadratic irrational $\alpha$ (the argument is written out under
-The origins), says he could neither show $f(d)<\varepsilon d$ for small
-$\varepsilon$ nor get any lower estimate for $f(d)$, and closes: "Van der
-Waerden's theorem certainly implies that $f(d)\to\infty$". 1980 (printed pp.
-92--93): with $l(d)$ an increasing function, Erdős dates Cohen's question to
-more than 25 years earlier and states it as "Divide the integers into two
-classes. Is there for some [sic] an arithmetic progression of $l(d)$ terms and
-difference $d$?" (a word is missing after "for some" in the print); he records
-his own negative answer for $l(d)>cd$ and Petruska and Szemerédi's for
-$l(d)>cd^{1/2}$, reports their expectation of a negative answer for
-$l(d)>d^{\varepsilon}$ by their method, and ends: "Unfortunately no lower bound
-for $l(d)$ is in sight". The site's account writes the 1973 coloring with
-$\sqrt2$; Erdős says "a quadratic irrationality, say $\sqrt5$". No primary text
-of Cohen's question was located; the attribution rests on Erdős's papers and on
-Beck, whose reference for it is Erdős's 1976 paper in J. Indian Math. Soc.
-[Er76] (its passage on printed pp. 289--290 states the question with $F(d)$ and
-the "for infinitely many values of $d$" quantifier, adds that the 1973 statement
-on p. 121 "is stated incorrectly", and gives no reference for Cohen).
+1973, erdosproblems.com), $l(d)$ (Erdős 1980), $h(d)$ (Erdős and Graham
+1979, 1980) and $F(d)$ (Beck). Erdős's wordings: 1973 (printed p. 121), "Many
+years ago, Cohen asked the following question. Determine or estimate a function
+$f(d)$ so that if we split the integers into two classes, at least one class
+contains for infinitely many values of $d$ an arithmetic progression of length
+$f(d)$." Erdős then records his bound $f(d)<cd$ from the coloring by the
+fractional part of $n\alpha$ for a quadratic irrational $\alpha$ (the argument
+is written out under The origins), says he could neither show
+$f(d)<\varepsilon d$ for small $\varepsilon$ nor get any lower estimate for
+$f(d)$, and closes: "Van der Waerden's theorem certainly implies that
+$f(d)\to\infty$". 1980 (printed pp. 92--93): with $l(d)$ an increasing function,
+Erdős dates Cohen's question to more than 25 years earlier and states it as
+"Divide the integers into two classes. Is there for some [sic] an arithmetic
+progression of $l(d)$ terms and difference $d$?" (a word is missing after "for
+some" in the print); he records his own negative answer for $l(d)>cd$ and
+Petruska and Szemerédi's for $l(d)>cd^{1/2}$, reports their expectation of a
+negative answer for $l(d)>d^{\varepsilon}$ by their method, and ends:
+"Unfortunately no lower bound for $l(d)$ is in sight". erdosproblems.com's
+account writes the 1973 coloring with $\sqrt2$; Erdős says "a quadratic
+irrationality, say $\sqrt5$". No primary text of Cohen's question was located;
+the attribution rests on Erdős's papers and on Beck, whose reference for it is
+Erdős's 1976 paper in J. Indian Math. Soc. [Er76] (its passage on printed pp.
+289--290 states the question with $F(d)$ and the "for infinitely many values of
+$d$" quantifier, adds that the 1973 statement on p. 121 "is stated incorrectly",
+and gives no reference for Cohen).
 
-**Status.** Open: the site labeled the problem OPEN (page last edited 4 April
-2026). The only results on the exact question are upper bounds. The best is
-Beck's theorem (J. Combin. Theory Ser. A 29 (1980), 376--379, refereed). For
+**Status.** Open: Bloom's catalog labeled the problem OPEN (page last edited 4
+April 2026). The only results on the exact question are upper bounds. The best
+is Beck's theorem (J. Combin. Theory Ser. A 29 (1980), 376--379, refereed). For
 every $\varepsilon>0$ it gives a 2-coloring under which
 $F(d)\le(1+\varepsilon)\log_2d$ for all large $d$, so the best $f$ satisfies
 $f(d)\le(1+o(1))\log_2d$. It is an accepted partial claim on
@@ -82,8 +83,8 @@ disagree on the strength of the unpublished Petruska–Szemerédi result, which 
 recorded below and not resolved.
 
 **Source.** [erdosproblems.com/187](https://www.erdosproblems.com/187),
-accessed 2026-09-18: the problem page (labeled OPEN, with the site's note
-that no finite computation can settle it; last edited 4 April 2026; source
+accessed 2026-09-18: the problem page (labeled OPEN, with the erdosproblems.com
+note that no finite computation can settle it; last edited 4 April 2026; source
 keys [Er73], [ErGr79], [Er80, p. 93] and [ErGr80, p. 17]), its empty
 discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
 Problem #187, https://www.erdosproblems.com/187, accessed 2026-09-18.
@@ -133,28 +134,28 @@ Problem #187, https://www.erdosproblems.com/187, accessed 2026-09-18.
 
 **Formalization.** None at the pin: the directory
 [`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems)
-of formal-conjectures at the linked commit (main) has no `187.lean`; the site
-page of 2026-09-18 shows "Formalised statement? No"; the community database
-(fetched 2026-09-18) lists the problem as open, not formalized and with no
-formal proof, as of its entry's last update of 31 August 2025, without dating
-the state change.
+of formal-conjectures at the linked commit (main) has no `187.lean`; the
+erdosproblems.com page of 2026-09-18 shows "Formalised statement? No"; the
+community database (fetched 2026-09-18) lists the problem as open, not
+formalized and with no formal proof, as of its entry's last update of 31 August
+2025, without dating the state change.
 
 ## Current assessment
 
-**The question.** The statement above, labeled OPEN and marked by the site as
-beyond any finite computation, last edited 4 April 2026. The site's
-commentary, in this page's words: the question goes back to Cohen; Erdős's
-coloring of $n$ by whether $\{\sqrt2n\}<1/2$ gives $f(d)\ll d$, because
-$\|\sqrt2q\|\gg1/q$ for every $q$ ($\|x\|$ the distance from $x$ to the
-nearest integer); in [Er80] Erdős reports that Petruska and Szemerédi proved
-$f(d)\ll d^{1/2}$ and expected $f(d)\le d^{o(1)}$; Beck [Be80] improved this
-by a probabilistic construction to $f(d)\le(1+o(1))\log_2d$; and van der
-Waerden's theorem forces $f(d)\to\infty$. The thread and the proof-claim tab
-are empty.
+**The question.** The statement above, labeled OPEN and marked by
+erdosproblems.com as beyond any finite computation, last edited 4 April 2026.
+The erdosproblems.com commentary, in this page's words: the question goes back
+to Cohen; Erdős's coloring of $n$ by whether $\{\sqrt2n\}<1/2$ gives
+$f(d)\ll d$, because $\|\sqrt2q\|\gg1/q$ for every $q$ ($\|x\|$ the distance
+from $x$ to the nearest integer); in [Er80] Erdős reports that Petruska and
+Szemerédi proved $f(d)\ll d^{1/2}$ and expected $f(d)\le d^{o(1)}$; Beck [Be80]
+improved this by a probabilistic construction to $f(d)\le(1+o(1))\log_2d$; and
+van der Waerden's theorem forces $f(d)\to\infty$. The thread and the proof-claim
+tab are empty.
 
 **Claims.** The three results the commentary credits are upper bounds on the
-best $f$, partial results on a problem the site labeled OPEN. Beck's bound is
-an accepted partial claim on
+best $f$, partial results on a problem Bloom's catalog labeled OPEN. Beck's
+bound is an accepted partial claim on
 [[problems/ramsey_theory/E0187/claims/1980_11_01_beck|its claim page]], with
 `refereed` evidence only: the curator's commentary on an OPEN problem is not
 acceptance. Erdős's bound $f(d)<cd$ is a pending partial claim on
@@ -183,13 +184,13 @@ fractional part of $n\alpha$ is below $\frac12$ for a quadratic irrational
 $\alpha$; for a progression of difference $d$ the fractional parts advance by
 $\{d\alpha\}$, which by $|\alpha-p/q|>c_1/q^2$ is at least $c_1/d$ away from
 every integer, so a monochromatic run of the progression has length $O(d)$
-(the site's account with $\sqrt2$; not written out in the sources).
+(erdosproblems.com's account with $\sqrt2$; not written out in the sources).
 
 **What is known.** Only the upper bound. Beck's
 [[../library/ramsey_theory/beck_1980_remark_concerning_arithmetic_progressions/theorem|Theorem]]
 (p. 376): "$F(d)\le(1+\varepsilon)\log_2d$ if $d$ is large enough depending
-only on $\varepsilon$", where Cohen's $F$ is the site's $f$ (the abstract
-restates the question with the same "infinitely many values of $d$"
+only on $\varepsilon$", where Cohen's $F$ is erdosproblems.com's $f$ (the
+abstract restates the question with the same "infinitely many values of $d$"
 quantifier). The proof (pp. 377--379) is by compactness and Spencer's
 weighted form of the Lovász local lemma
 ([[../library/ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_1_1|Theorem 1.1]]
@@ -258,7 +259,7 @@ are empty, and no source of this page declares AI assistance.
 bound, an improvement of Beck's bound, a determination of the best $f$, or a
 proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing at the pinned commit (no file); the
   community database record.
 - Crossref: the record of [Be80].

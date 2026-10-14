@@ -24,8 +24,8 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Let $S(N)$ count the number of distinct sums of the form
 $\sum_{n\in A}\frac{1}{n}$ for $A\subseteq \{1,\ldots,N\}$. Estimate $S(N)$.
 
-**Formulation.** The site's wording (the page's information box says it was
-last edited 16 July 2026; the proof exposition on the page is stamped 1
+**Formulation.** The erdosproblems.com wording (the page's information box says
+it was last edited 16 July 2026; the proof exposition on the page is stamped 1
 September 2026; source key [ErGr80, p.43]). $S(N)$ counts the distinct
 values of $\sum_{n\in A}1/n$ over all $2^N$ subsets
 $A\subseteq\{1,\ldots,N\}$, the empty subset contributing $0$;
@@ -34,15 +34,16 @@ Bleicher and Erdős (the distinct values of $\sum_{k\le N}\varepsilon_k/k$
 with $\varepsilon_k\in\{0,1\}$), and OEIS A072207 lists it for $N\le83$:
 $1,2,4,8,16,32,52,104,208,416,832,1664,1856,\ldots$ (the first fifteen
 values were recomputed here by exact enumeration). "Estimate" is read, as
-the site's resolution comment reads it, as the order of magnitude of
+erdosproblems.com's resolution comment reads it, as the order of magnitude of
 $\log S(N)$; trivially $2^{\pi(N)}\le S(N)\le2^N$. Throughout, $\log_jN$ is
-the $j$-fold iterated natural logarithm. The site's displayed asymptotic
-writes its product to $k$ but names the index $t$ in the condition
+the $j$-fold iterated natural logarithm. erdosproblems.com's displayed
+asymptotic writes its product to $k$ but names the index $t$ in the condition
 $\log_kN=O(1)$ that follows it; the two letters mean the same index, the
 depth at which the iterated logarithm becomes bounded.
 
-**Status.** Solved, in the site's label, which the site glosses as a resolution
-other than a proof or disproof, for the order of magnitude
+**Status.** Solved, in the erdosproblems.com label, which erdosproblems.com
+glosses as a resolution other than a proof or disproof, for the order of
+magnitude
 
 $$
 \log S(N)\ \asymp\ \frac{N}{\log N}\prod_{j=3}^{k}\log_jN,\qquad \log_kN=O(1).
@@ -62,14 +63,15 @@ The refereed upper bound (Bleicher and Erdős 1976, Theorem 3, on
 is weaker by the factor $\log_rN$.
 
 The upper bound of the same order is a proof obtained with the AI system GPT 5.6
-Sol Pro. Young, Zhu and Luo submitted it to the site's proof-claim tab on 15
-July 2026, and the site accepted it as correct. The site maintainer's exposition
-of it is dated 1 September 2026. Its manuscript sits behind an Overleaf read
-link that served no document to a request on 2026-09-18. Its Lean file covers
-finite combinatorial steps only. No refereed publication or independent review
-of it was found on 2026-09-18. A second claim (Kominers and Neu, 22 July 2026)
-asserts a full asymptotic with a non-constant phase and has not been accepted.
-The two forum claims have their own pages:
+Sol Pro. Young, Zhu and Luo submitted it to the erdosproblems.com proof-claim
+tab on 15 July 2026, and erdosproblems.com accepted it as correct.
+erdosproblems.com maintainer's exposition of it is dated 1 September 2026. Its
+manuscript sits behind an Overleaf read link that served no document to a
+request on 2026-09-18. Its Lean file covers finite combinatorial steps only. No
+refereed publication or independent review of it was found on 2026-09-18. A
+second claim (Kominers and Neu, 22 July 2026) asserts a full asymptotic with a
+non-constant phase and has not been accepted. The two forum claims have their
+own pages:
 [[problems/unit_fractions/E0320/claims/2026_07_15_young_zhu_luo|the accepted order of magnitude]]
 and
 [[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|the pending asymptotic]].
@@ -79,10 +81,10 @@ accessed 2026-09-18: the problem page (SOLVED; source key [ErGr80, p.43]; an
 information box dating the last edit 16 July 2026 and a proof exposition
 dated 1 September 2026; OEIS A072207 linked), its two-comment discussion
 thread (15 and 16 July 2026) and its proof-claim tab with two full-proof
-claims (15 and 22 July 2026), one marked accepted by the site. The site
-cites [BlEr75], [BlEr76b] and [BGMS25] in its commentary and thanks Boris
-Alexeev, Dustin Mixon, and Wouter van Doorn. Cite as: T. F. Bloom, Erdős
-Problem #320, https://www.erdosproblems.com/320, accessed 2026-09-18.
+claims (15 and 22 July 2026), one marked accepted by erdosproblems.com.
+erdosproblems.com cites [BlEr75], [BlEr76b] and [BGMS25] in its commentary and
+thanks Boris Alexeev, Dustin Mixon, and Wouter van Doorn. Cite as: T. F. Bloom,
+Erdős Problem #320, https://www.erdosproblems.com/320, accessed 2026-09-18.
 
 **References.**
 
@@ -111,42 +113,43 @@ Problem #320, https://www.erdosproblems.com/320, accessed 2026-09-18.
   for $N\le83$ (b-file by B. Dobbelaere), linking [BlEr75] and [BGMS25];
   accessed 2026-09-18.
 - [YZL26] Young, R., Zhu, K. and Luo, Y., manuscript behind the Overleaf
-  read link given on the site's proof-claim tab (claim submitted 15 July
-  2026), which served no document to a request on 2026-09-18. Lean
+  read link given on the erdosproblems.com proof-claim tab (claim submitted 15
+  July 2026), which served no document to a request on 2026-09-18. Lean
   repository `Zarathustra23/erdos-320-harmonic-subset-sums` at its commit of
   11 July 2026, pinned on the claim page.
 - [KoNe26] Kominers, S. D. and Neu, J., The asymptotic number of distinct
   reciprocal subset sums. Manuscript, 56 pp., PDF dated 22 July 2026 on the
   first author's web site; Lean repository
   `joachimneu/distinct-reciprocal-subset-sums` at the commit of 22 July 2026
-  that the manuscript cites, pinned on the claim page. Not accepted by the
-  site; the pending full claim
+  that the manuscript cites, pinned on the claim page. Not accepted by
+  erdosproblems.com; the pending full claim
   [[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|a full asymptotic for log S(N)]].
 
 **Formalization.** None in formal-conjectures: the repository had no
-`ErdosProblems/320.lean` on 2026-09-18 and has none on 2026-10-07; the site's
-formalised-statement flag reads no; the community database (read 2026-10-06)
-records the problem unformalized, status solved as of the status entry's last
-update on 31 August 2025, OEIS A072207 and no formal-proof URL. Two external
-Lean developments are linked from the proof-claim tab, at pinned commits on
-the two claim pages, and described below; neither is a formal proof of the
-order of magnitude, and neither has been built or audited by this corpus. The
-site's label carried no Lean suffix.
+`ErdosProblems/320.lean` on 2026-09-18 and has none on 2026-10-07; the
+erdosproblems.com formalised-statement flag reads no; the community database
+(read 2026-10-06) records the problem unformalized, status solved as of the
+status entry's last update on 31 August 2025, OEIS A072207 and no formal-proof
+URL. Two external Lean developments are linked from the proof-claim tab, at
+pinned commits on the two claim pages, and described below; neither is a formal
+proof of the order of magnitude, and neither has been built or audited by this
+corpus. The erdosproblems.com label carried no Lean suffix.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-SOLVED. The site's
-commentary records the lower bound of [BlEr75], $\log S(N)\ge\frac{N}{\log
-N}\bigl(\log2\prod_{i=3}^k\log_iN\bigr)$ for $k\ge4$ and $\log_kN\ge k$; the
-upper bound of [BlEr76b], $\log S(N)\le\frac{N}{\log
-N}\bigl(\log_rN\prod_{i=3}^r\log_iN\bigr)$ for $r\ge1$ and $\log_{2r}N\ge1$; the
-sharper lower bound of [BGMS25], $\log S(N)\ge\frac{N}{\log
-N}\bigl(2\log2(1-\frac{3/2}{\log_kN})\prod_{i=3}^k\log_iN\bigr)$ for $k\ge4$ and
-$\log_kN\ge3/2$, which the commentary notes grows faster than the 1975 bound;
-and the matching upper bound, which it attributes to the AI system GPT 5.6 Sol
-prompted by Young, Zhu and Luo, obtained by the iterative method of [BlEr76b],
-giving $\log S(N)\asymp\frac{N}{\log N}\prod_{j=3}^k\log_jN$ and pointing to the
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; SOLVED. The erdosproblems.com commentary records the lower
+bound of [BlEr75],
+$\log S(N)\ge\frac{N}{\log N}\bigl(\log2\prod_{i=3}^k\log_iN\bigr)$ for $k\ge4$
+and $\log_kN\ge k$; the upper bound of [BlEr76b],
+$\log S(N)\le\frac{N}{\log N}\bigl(\log_rN\prod_{i=3}^r\log_iN\bigr)$ for
+$r\ge1$ and $\log_{2r}N\ge1$; the sharper lower bound of [BGMS25],
+$\log S(N)\ge\frac{N}{\log N}\bigl(2\log2(1-\frac{3/2}{\log_kN})\prod_{i=3}^k\log_iN\bigr)$
+for $k\ge4$ and $\log_kN\ge3/2$, which the commentary notes grows faster than
+the 1975 bound; and the matching upper bound, which it attributes to the AI
+system GPT 5.6 Sol prompted by Young, Zhu and Luo, obtained by the iterative
+method of [BlEr76b], giving
+$\log S(N)\asymp\frac{N}{\log N}\prod_{j=3}^k\log_jN$ and pointing to the
 proof-claim tab for the proof and to Problem 321. The thread: the maintainer's
 comment of 16 July 2026 marking this problem and Problem 321 resolved because
 the order of magnitude of $\log S(N)$ is now known, while noting that finer
@@ -174,8 +177,8 @@ range $\log_kn\ge k$. The page continues with the question of Problem 321.
 - Lower bound, 1975:
   [[../library/unit_fractions/bleicher_1975_number_distinct_subsums_sum_n_1/corollary_3|Corollary 3]],
   $S(N)\ge\exp\bigl(\frac{N\log2}{\log N}\prod_{j=3}^{k+1}\log_jN\bigr)$ for
-  $k\ge3$ and $\log_{k+1}N\ge k+1$, the site's form with $k+1$ renamed $k$.
-  It comes from the theorem $S(N)\ge2^{Q(N)}$
+  $k\ge3$ and $\log_{k+1}N\ge k+1$, the erdosproblems.com form with $k+1$
+  renamed $k$. It comes from the theorem $S(N)\ge2^{Q(N)}$
   ([[../library/unit_fractions/bleicher_1975_number_distinct_subsums_sum_n_1/theorem_p39|p. 39]]),
   where $Q(N)$ counts the integers up to $N$ that are products of primes
   each exceeding $e^{3p/2}$ for the previous prime $p$, whose distinct
@@ -194,16 +197,16 @@ range $\log_kn\ge k$. The page continues with the question of Problem 321.
 - Upper bound, 1976:
   [[../library/unit_fractions/bleicher_1976_denominators_egyptian_fractions_ii/theorem_3|Theorem 3]],
   $\log S(N)\le\frac{N\log_rN}{\log N}\prod_{j=3}^r\log_jN$ for $r\ge1$ and
-  $\log_{2r}N\ge1$, the site's form. Its proof splits $\{1,\ldots,N\}$ by
-  the presence of a prime factor above $N/\log N$ and recurses. Claim page,
-  which also records Theorem 2:
+  $\log_{2r}N\ge1$, the erdosproblems.com form. Its proof splits
+  $\{1,\ldots,N\}$ by the presence of a prime factor above $N/\log N$ and
+  recurses. Claim page, which also records Theorem 2:
   [[problems/unit_fractions/E0320/claims/1976_12_01_bleicher_erdos|the 1976 upper bound]].
 - Lower bound, 2025--2026:
   [[../library/unit_fractions/bettin_2025_lower_bound_number_egyptian_fractions/theorem_1|Theorem 1]]
   of [BGMS25] (arXiv v1, p. 2): $\ln S(N)\ge2\ln2\frac{N}{\ln N}$
   times $1$ when $\ln_2N\ge1$, times $\ln_3N$ when $\ln_3N\ge1$, and times
   $(1-\frac{3/2}{\ln_kN})\prod_{j=3}^k\ln_jN$ when $k\ge4$ and
-  $\ln_kN\ge3/2$; the third case is the site's form. Acceptance:
+  $\ln_kN\ge3/2$; the third case is the erdosproblems.com form. Acceptance:
   Mathematics of Computation, DOI 10.1090/mcom/4190, online 22 January 2026
   (Crossref record, 2026-09-18); Semantic Scholar lists the same DOI and
   no citing paper. The relaxed condition on $k$ makes the bound grow faster
@@ -222,11 +225,11 @@ logarithms of higher index), so the ratio is unbounded in $N$ however $k$
 and $r$ are chosen. So the refereed bounds alone do not determine the order
 of magnitude.
 
-**The accepted upper bound (a site-accepted proof obtained with an AI system;
-provenance recorded, not judged).** The proof-claim tab lists a full-proof
-claim submitted 2026-07-15 09:12:47 by the account RayYoung for RayYoung,
-Keheng Zhu and Yanping Luo, marked on the tab as accepted by the site as
-correct. Its summary asserts
+**The accepted upper bound (an erdosproblems.com-accepted proof obtained with an
+AI system; provenance recorded, not judged).** The proof-claim tab lists a
+full-proof claim submitted 2026-07-15 09:12:47 by the account RayYoung for
+RayYoung, Keheng Zhu and Yanping Luo, marked on the tab as accepted by
+erdosproblems.com as correct. Its summary asserts
 $\log S(N)\asymp\frac{N}{\log N}\prod_{j=3}^{\kappa(N)}\log_jN$: for the upper
 bound, the integers up to $N$ are sorted by a large prime factor, the sorting
 bounds $S(N)$ by values of $S$ at smaller arguments, and that bound is
@@ -256,8 +259,8 @@ built by this corpus. Among the eight comments under the claim, the curator's
 comment of 16 July 2026 says that the proof is correct and sketches the
 argument.
 
-The site's own account of the argument is the maintainer's exposition of 1
-September 2026. Writing $s(x)=\log S(x)$, the Bleicher--Erdős decomposition
+erdosproblems.com's own account of the argument is the maintainer's exposition
+of 1 September 2026. Writing $s(x)=\log S(x)$, the Bleicher--Erdős decomposition
 gives $s(x)\ll\frac{x}{\log x}+\sum_{x/\log x<p\le x}s(x/p)$; by the prime
 number theorem the sum is $\ll\frac{x}{\log x}\sum_{m\ll\log x}s(m)/m^2$;
 with $s^*(x)=\max_{n\le x}\frac{\log n}{n}s(n)$ this gives
@@ -297,9 +300,9 @@ manuscript's Section 1 says of the accepted claim that its Lean file reaches
 only the finite combinatorial steps, with the prime number theorem and the
 lower-bound estimate left as analytic inputs, that the claimed scales agree
 with its own up to absolute constants, and that the authors have not yet
-verified it. The site has not accepted this claim, which carries one comment
-(2026-10-07); nothing in the development has been built or checked by this
-corpus. The claim page is
+verified it. erdosproblems.com has not accepted this claim, which carries one
+comment (2026-10-07); nothing in the development has been built or checked by
+this corpus. The claim page is
 [[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|a full asymptotic for log S(N)]].
 
 **Data lead, not status.** OEIS A072207 (J. W. Layman, 2002; last modified
@@ -326,15 +329,15 @@ p. 42 of [BlEr75]. Not searched: MathSciNet, zbMATH, Google Scholar, X. No
 refereed proof of the matching upper bound and no dispute of the accepted
 claim were found.
 
-**Remaining gaps.** (1) The upper half of the order of magnitude rests on a
-site-accepted proof, obtained with an AI system, whose manuscript sits behind a
-read link that served no document on 2026-09-18 and whose Lean file covers
-finite steps only; the site's exposition is the readable account. A refereed
-publication or an independent review would strengthen the standing. (2) The
-Kominers--Neu asymptotic and its formalization modulo four axioms are unverified
-here and unaccepted by the site. (3) The refereed bounds are compiled as
-statements; no proof was checked. (4) The published text of [BGMS25] was not
-compared with the arXiv preprint.
+**Remaining gaps.** (1) The upper half of the order of magnitude rests on an
+erdosproblems.com-accepted proof, obtained with an AI system, whose manuscript
+sits behind a read link that served no document on 2026-09-18 and whose Lean
+file covers finite steps only; the erdosproblems.com exposition is the readable
+account. A refereed publication or an independent review would strengthen the
+standing. (2) The Kominers--Neu asymptotic and its formalization modulo four
+axioms are unverified here and unaccepted by erdosproblems.com. (3) The refereed
+bounds are compiled as statements; no proof was checked. (4) The published text
+of [BGMS25] was not compared with the arXiv preprint.
 
 ## Progress and known results
 
@@ -352,10 +355,9 @@ compared with the arXiv preprint.
   [[../library/unit_fractions/bettin_2025_lower_bound_number_egyptian_fractions/theorem_1|Theorem 1]],
   the lower bound with constant $2\log2$ for every $k\ge4$ with
   $\log_kN\ge3/2$; exact values to $N=154$.
-- Young, Zhu and Luo (2026; obtained with GPT 5.6 Sol Pro; site-accepted,
-  unrefereed):
-  the upper bound of the same order, giving
-  $\log S(N)\asymp\frac{N}{\log N}\prod_{j=3}^k\log_jN$ with
+- Young, Zhu and Luo (2026; obtained with GPT 5.6 Sol Pro;
+  erdosproblems.com-accepted, unrefereed): the upper bound of the same order,
+  giving $\log S(N)\asymp\frac{N}{\log N}\prod_{j=3}^k\log_jN$ with
   $\log_kN=O(1)$.
 - Kominers and Neu (2026; unaccepted claim): a full asymptotic with a
   non-constant phase function.

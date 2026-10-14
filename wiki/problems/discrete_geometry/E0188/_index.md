@@ -33,15 +33,15 @@ how small can a positive integer $M$ be when the plane is split into a set
 with no two points at distance one and a set with no arithmetic progression
 of length $M$
 ([[../library/additive_combinatorics/erdos_1979_old_new_problems_results_combinatorial_number/conjecture_p331|the two passages]]).
-That question has the answer that no finite $M$ exists. As the site's
+That question has the answer that no finite $M$ exists. As the erdosproblems.com
 commentary records, Alon observed that on the integer points of a line a
 coloring with no red unit pair makes the blue points and their translate by
 $1$ cover all of them, so van der Waerden's theorem gives arbitrarily long
 blue progressions
 ([[../library/additive_combinatorics/erdos_1979_old_new_problems_results_combinatorial_number/unit_step_qualification|the complete argument]]).
 The commentary judges that Erdős and Graham most likely intended the unit
-step, though their papers do not write it, and the site's Statement asks the
-question with it; that question sets the standing.
+step, though their papers do not write it, and the erdosproblems.com Statement
+asks the question with it; that question sets the standing.
 
 In the notation of this page, the Statement reads as follows. What is the
 smallest positive integer $K_*$ for which the whole plane can be red-blue
@@ -54,10 +54,10 @@ $$
 Both the location $x$ and the direction of the unit vector $v$ are
 arbitrary. The length counts points, so a five-term progression has four
 unit gaps. "With distance $1$" means a unit common difference, as the
-site's remarks explain.
+erdosproblems.com remarks explain.
 
-**Status.** Open. The site labeled the problem OPEN. The public sources compiled
-here give
+**Status.** Open. Bloom's catalog labeled the problem OPEN. The public sources
+compiled here give
 
 $$
 6\leq K_*\leq6330.
@@ -69,7 +69,7 @@ The upper bound is from the revised Currier–Mody–Xie–Zhang preprint
 ([[problems/discrete_geometry/E0188/claims/2026_06_15_currier_mody_xie_zhang|claim page]]).
 The best refereed upper bound is Conlon and Fox's $10^{10}$
 ([[problems/discrete_geometry/E0188/claims/2017_05_05_conlon_fox|claim page]]).
-The site's commentary, last edited 14 October 2025, does not cite the
+The erdosproblems.com commentary, last edited 14 October 2025, does not cite the
 Currier–Mody–Xie–Zhang bound. These are the compiled source-backed bounds, not
 the outcome of an exhaustive literature census.
 
@@ -78,9 +78,9 @@ the outcome of an exhaustive literature census.
 T. F. Bloom, Erdős Problem #188, https://www.erdosproblems.com/188, accessed
 2026-09-05. The problem page was last edited October 14, 2025. Its caution about
 the original formulation matters: the intended blue progressions have unit step.
-The site attributes to Alon the observation that without this restriction van
-der Waerden's theorem prevents such a coloring for any finite length. The
-original wording is in both the
+erdosproblems.com attributes to Alon the observation that without this
+restriction van der Waerden's theorem prevents such a coloring for any finite
+length. The original wording is in both the
 [[../library/additive_combinatorics/erdos_1979_old_new_problems_results_combinatorial_number/conjecture_p331|1979 paper and 1980 monograph]].
 The
 [[../library/additive_combinatorics/erdos_1979_old_new_problems_results_combinatorial_number/unit_step_qualification|complete van der Waerden and translation argument]]
@@ -164,14 +164,15 @@ refereed theorem contains it. The
 [[../library/discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/_index|Conlon–Fox paper]]
 proved general upper bounds, including the planar estimate $10^{10}$ quoted
 by the newer source and recorded on its own
-[[problems/discrete_geometry/E0188/claims/2017_05_05_conlon_fox|claim page]]. The site's discussion reports a better constant
-extractable from that earlier proof; that separate optimization is not
-reconstructed here. The old estimate near $10^7$ in the Erdős–Graham
-book was given without a proof in the cited discussion.
+[[problems/discrete_geometry/E0188/claims/2017_05_05_conlon_fox|claim page]].
+The erdosproblems.com discussion reports a better constant extractable from that
+earlier proof; that separate optimization is not reconstructed here. The old
+estimate near $10^7$ in the Erdős–Graham book was given without a proof in the
+cited discussion.
 
-The site's discussion thread, when read, held three comments: a correction
-to an arXiv lemma's side length, a Conlon–Fox constant calculation, and a
-warning about an older formalized statement. The published Tsaturian
+The erdosproblems.com discussion thread, when read, held three comments: a
+correction to an arXiv lemma's side length, a Conlon–Fox constant calculation,
+and a warning about an older formalized statement. The published Tsaturian
 version corrects the triangle side length; its remaining color slips
 are documented in the source digest. No proof claim or linked exposition
 appeared in the checked thread.

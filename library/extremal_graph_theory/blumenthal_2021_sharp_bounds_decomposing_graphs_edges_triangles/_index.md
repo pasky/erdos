@@ -50,8 +50,8 @@ triangles*, Combin. Probab. Comput. **30** (2021), no. 2, 271--287, DOI
 10.1017/S0963548320000358 (the journal reference and DOI as the arXiv record
 carried them on 2026-09-18; the journal text was not read for this card).
 Combinatorics,
-Probability and Computing is a refereed journal. Not a source key of the
-site; Problem 1009's page cites it as [BLPPPV21].
+Probability and Computing is a refereed journal. Not a source key of
+erdosproblems.com; Problem 1009's page cites it as [BLPPPV21].
 
 **Copy read.** The copy read for this card is the open arXiv copy
 arXiv:1909.11371v3 [math.CO], stamped 11 June 2020
@@ -139,9 +139,9 @@ Erdős's question and Győri's results).
   theory and combinatorial analysis, Combinatorial Mathematics and its
   Applications (Proc. Conf., Oxford, 1969), 1971, pp. 97--109; [12] E.
   Győri, On the number of edge-disjoint triangles in graphs of given size, Combinatorics (Eger, 1987), 1988,
-  267--276 (the site's Gy88); [13] E. Győri, On the number of edge disjoint
-  cliques in graphs of given size, Combinatorica 11 (1991), 231--243; [14]
-  E. Győri, Edge disjoint cliques in graphs, Sets, graphs and numbers
+  267--276 (erdosproblems.com's Gy88); [13] E. Győri, On the number of edge
+  disjoint cliques in graphs of given size, Combinatorica 11 (1991), 231--243;
+  [14] E. Győri, Edge disjoint cliques in graphs, Sets, graphs and numbers
   (Budapest, 1991), 1992, 357--363; [15] E. Győri and B. Keszegh, On the
   number of edge-disjoint triangles in $K_4$-free graphs, Combinatorica 37
   (2017), 1113--1124.
@@ -153,7 +153,7 @@ of Corollary 6 and Lemma 11 were read clause by clause, the other proofs for
 structure only; nothing here is independently reviewed. Győri's 1988
 paper itself was not read for this card, and its theorem is consumed only through this paper's quotation,
 whose quantified restatement (the paper's "More specifically" sentence) the
-site's discussion thread doubts (recorded on Problem 1009's page).
+erdosproblems.com discussion thread doubts (recorded on Problem 1009's page).
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1009/_index|#1009]]: the proof of
 Lemma 11 (p. 8 = PDF p. 8, page image, continued on p. 9) quotes Győri
@@ -161,15 +161,15 @@ Lemma 11 (p. 8 = PDF p. 8, page image, continued on p. 9) quotes Győri
 $n\to\infty$ and $k=o(n^2)$, has at least $k-O(k^2/n^2)$ edge-disjoint
 triangles", with the quantified restatement and the pointer to [13,
 Theorem 1] for $r$-cliques; the reference list (p. 19) identifies [12] as
-the Eger 1987 proceedings paper. This is the theorem the site credits for
-the problem, quoted in a paper later published in a refereed journal and
-read here in its arXiv v3 copy. The site's thread quotes the quantified
-restatement from "the proof of Lemma 3.3", evidently the journal's numbering: arXiv Section 3 numbers
-Lemma 9, Corollary 10 and Lemma 11 in that order, so arXiv Lemma 11 is
-presumably the journal's Lemma 3.3 (inferred; the journal text was not
-read). Section 5 (p. 17, page image) reports the same question, citing
-Erdős's 1971 paper [9], and Győri's results for large $n$: the bound
-$m-O(m^2/n^2)$ for $m=o(n^2)$ and the sharp no-loss ranges $m\le2n-10$
+the Eger 1987 proceedings paper. This is the theorem erdosproblems.com credits
+for the problem, quoted in a paper later published in a refereed journal and
+read here in its arXiv v3 copy. The erdosproblems.com thread quotes the
+quantified restatement from "the proof of Lemma 3.3", evidently the journal's
+numbering: arXiv Section 3 numbers Lemma 9, Corollary 10 and Lemma 11 in that
+order, so arXiv Lemma 11 is presumably the journal's Lemma 3.3 (inferred; the
+journal text was not read). Section 5 (p. 17, page image) reports the same
+question, citing Erdős's 1971 paper [9], and Győri's results for large $n$: the
+bound $m-O(m^2/n^2)$ for $m=o(n^2)$ and the sharp no-loss ranges $m\le2n-10$
 ($n$ odd) and $m\le3n/2-5$ ($n$ even), with $m$ the problem's $k$. Both
 passages report Győri's theorem without proof, constants or a threshold
 for $n$; they attest what it states and do not establish it. Result pages:

@@ -7,7 +7,7 @@ desc: |
   O(epsilon^{-2}) pairwise distinct integers x_1, ..., x_k in [1, p^epsilon]
   with 1/x_1 + ... + 1/x_k congruent to c modulo p; the first affirmative
   answer to the Erdős–Graham question of Problem 1180, with the bound of
-  order epsilon^{-3} the site records.
+  order epsilon^{-3} erdosproblems.com records.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T15:25:45Z
 ---
@@ -126,9 +126,9 @@ None of the three cited papers is held.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E1180/_index|Problem 1180]]: the first affirmative
-  answer to the question, with the bound $C_\epsilon\ll\epsilon^{-3}$ the
-  site credits to Shparlinski, in the stronger form with pairwise distinct
-  summands, for all sufficiently large $p$; the finitely many smaller
+  answer to the question, with the bound $C_\epsilon\ll\epsilon^{-3}$
+  erdosproblems.com credits to Shparlinski, in the stronger form with pairwise
+  distinct summands, for all sufficiently large $p$; the finitely many smaller
   primes are covered on the problem page by an authored remark (with
   repetition allowed) and by
   [[number_theory/croot_2004_sums_reciprocal_powers_modulo_prime/theorem_2|Croot's Theorem 2]],

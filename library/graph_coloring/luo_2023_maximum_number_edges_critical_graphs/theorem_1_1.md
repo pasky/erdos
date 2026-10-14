@@ -72,10 +72,10 @@ paper's [3]; the Abbott--Zhou bound on copies of $K_{k-1}$ from its [1].
 
 - [[../wiki/problems/graph_coloring/E0917/_index|#917]]: an upper bound on
   $f_k(n)$ under the paper's convention that every proper subgraph is
-  $(k-1)$-colorable; the problem page's convention note transfers it to the
-  site's edge-critical function by maximizing over the size of the graph
-  without isolated vertices. It decides none of the problem's three questions:
-  the first asks for a lower bound, and with $c_k=\frac1{36(k-1)^2}$ the
-  bound's asymptotic coefficient $\frac12(1-\frac1{k-2})-c_k$ stays above the
-  conjectured $\frac12(1-\frac1{\lfloor k/3\rfloor})$ for every $k\geq6$;
-  at $k=6$ it is $\frac38-\frac1{900}$ against the conjectured $\frac14$.
+  $(k-1)$-colorable; the problem page's convention note transfers it to
+  erdosproblems.com's edge-critical function by maximizing over the size of the
+  graph without isolated vertices. It decides none of the problem's three
+  questions: the first asks for a lower bound, and with $c_k=\frac1{36(k-1)^2}$
+  the bound's asymptotic coefficient $\frac12(1-\frac1{k-2})-c_k$ stays above
+  the conjectured $\frac12(1-\frac1{\lfloor k/3\rfloor})$ for every $k\geq6$; at
+  $k=6$ it is $\frac38-\frac1{900}$ against the conjectured $\frac14$.

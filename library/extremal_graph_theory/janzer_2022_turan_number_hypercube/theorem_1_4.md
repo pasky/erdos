@@ -86,7 +86,7 @@ context, not a dependency.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: an upper
-  bound for $\mathrm{ex}(n;Q_k)$ for every $k\ge3$, the site's [JaSu22]
+  bound for $\mathrm{ex}(n;Q_k)$ for every $k\ge3$, erdosproblems.com's [JaSu22]
   display, with the paper's own statement of the best known lower bound for
   general $k$ (p. 17); for $k=3$ its exponent $13/8$ exceeds $8/5$, so it
   does not improve the Erdős--Simonovits bound. It does not determine the

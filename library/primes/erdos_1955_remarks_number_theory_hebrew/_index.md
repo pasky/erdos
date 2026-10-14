@@ -69,8 +69,9 @@ a_x <= n and b_1 < ... < b_y <= n are distinct, xy < c_3 n^2 / log n, with two
 constructions showing this would be best possible.
 
 Nothing in the paper touches the normalized prime gaps (p_{n+1}-p_n)/log n of
-[[../wiki/problems/primes/E0005/_index|Problem 5]], whose site commentary cites
-this note under the key [Er55] for a theorem the note does not contain.
+[[../wiki/problems/primes/E0005/_index|Problem 5]], whose erdosproblems.com
+commentary cites this note under the key [Er55] for a theorem the note does not
+contain.
 
 Source: <https://users.renyi.hu/~p_erdos/1955-13.pdf>.
 

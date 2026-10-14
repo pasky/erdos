@@ -3,8 +3,8 @@ name: ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/t
 title: "Theorem 3.2: S_n < n!(e − e⁻¹ + 3)/2 − n + 2 for even n ≥ 6, the least N forcing a monochromatic x + y = z"
 desc: |
   Wan's upper bound on the least N forcing a monochromatic solution of
-  x + y = z in every n-coloring of {1,...,N}, the site's f(n): for even n at
-  least 6, f(n) is less than n!(e - 1/e + 3)/2 - n + 2, by a difference
+  x + y = z in every n-coloring of {1,...,N}, erdosproblems.com's f(n): for even
+  n at least 6, f(n) is less than n!(e - 1/e + 3)/2 - n + 2, by a difference
   coloring and the parity refinement.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
@@ -17,8 +17,8 @@ updated: 2026-10-08T01:29:58Z
 Notation (printed p. 121): the paper's Schur number $S_n$ is the least $N$
 such that every $n$-coloring $\Delta$ of $\{1,\ldots,N\}$ has $x$ and $y$
 with $\Delta(x)=\Delta(y)=\Delta(x+y)$; $x=y$ is not excluded. This is the
-least forcing number, the site's $f(n)$ of Problem 483, and one more than
-the literature's $S(n)$; the paper prints $S_1=2$, $S_2=5$, $S_3=14$,
+least forcing number, erdosproblems.com's $f(n)$ of Problem 483, and one more
+than the literature's $S(n)$; the paper prints $S_1=2$, $S_2=5$, $S_3=14$,
 $S_4=45$ and $S_5\ge158$, and recalls $S_n\le n!e$ (Schur) and
 $S_n\le r_n-1$, where $r_n$ is the $n$-color Ramsey number of the triangle
 of
@@ -89,6 +89,6 @@ literature's convention it is the $S(n)\le R_n(3)-2$ of Eliahou's display
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: an upper bound on the
-  problem's $f(k)$ for even $k\ge6$, stated directly in the site's
+  problem's $f(k)$ for even $k\ge6$, stated directly in the erdosproblems.com
   convention; it is factorial, weaker than the held $(e-1/6)k!$, and does
   not touch the exponential question.

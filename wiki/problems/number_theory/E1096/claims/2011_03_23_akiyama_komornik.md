@@ -63,12 +63,12 @@ text whose page is cited. The journal text is not compared, and the paper is
 not held in the library.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Number Theory.
-The site's commentary credits the problem's resolution to Erdős and Komornik and
-to Feng and does not mention this paper, so no `reviewed` evidence is listed.
-Read depth: the claims were checked for Theorem 1.4 and for the structure of its
-proof in Section 5 of the arXiv text. Theorem 1.1 and the lemmas are taken at
-their statements and not checked. Nothing here is independently reviewed by this
-project.
+The erdosproblems.com commentary credits the problem's resolution to Erdős and
+Komornik and to Feng and does not mention this paper, so no `reviewed` evidence
+is listed. Read depth: the claims were checked for Theorem 1.4 and for the
+structure of its proof in Section 5 of the arXiv text. Theorem 1.1 and the
+lemmas are taken at their statements and not checked. Nothing here is
+independently reviewed by this project.
 
 **Depends on.** Nothing on the wiki. The same answer, for narrower ranges,
 is on

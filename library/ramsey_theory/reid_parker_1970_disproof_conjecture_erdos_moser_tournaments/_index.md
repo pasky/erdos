@@ -189,7 +189,7 @@ pp. 235--236, is the disproof of the conjecture the problem asks about:
 $f(14)=5$ while $[\log_214]+1=4$, and the introduction says so in the
 paper's own words (p. 226: "we disprove this conjecture by showing
 $f(14)=5$, and further $f(13)=4$"). Corollary 2 (p. 235),
-$f(n)\ge[\log_2(16n/7)]$ for $n\ge14$, is the site's bound
+$f(n)\ge[\log_2(16n/7)]$ for $n\ge14$, is erdosproblems.com's bound
 $f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$ in another form; p. 236 prints
 $f(n)=5$ for $14\le n\le23$, hence $f(15)=5$, the case Erdős and Moser
 could not decide, and the note extends $f(n)=5$ to $n\le27$. Together with

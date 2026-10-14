@@ -83,10 +83,11 @@ given) for the theorem.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the theorem the
-  site attributes to [BoTh81], in a refereed source's words; in the
-  problem's letters the hypothesis is at least $\mathrm{ex}(n;K_r)$ edges
-  with the Turán graph excepted, the conclusion is more than
-  $\mathrm{ex}(m;K_{r-1})$ edges, and by the bound (1) the constant $c_r$ of
-  Erdős's question can be taken as $1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$. The
-  1981 paper, filed in the library, states the same theorem.
+- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the
+  theorem erdosproblems.com attributes to [BoTh81], in a refereed source's
+  words; in the problem's letters the hypothesis is at least
+  $\mathrm{ex}(n;K_r)$ edges with the Turán graph excepted, the conclusion is
+  more than $\mathrm{ex}(m;K_{r-1})$ edges, and by the bound (1) the constant
+  $c_r$ of Erdős's question can be taken as
+  $1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$. The 1981 paper, filed in the library,
+  states the same theorem.

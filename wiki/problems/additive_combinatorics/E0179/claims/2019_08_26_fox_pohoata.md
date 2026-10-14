@@ -74,11 +74,12 @@ Szemerédi's theorem: the first displayed question is answered yes. Theorem
 $\ell>3$: the second displayed question is answered yes. The upper bound of
 Theorem 1.2 is an upper bound of the kind the problem opens by asking
 for, and every
-improvement in Szemerédi's theorem sharpens it; the site's commentary
+improvement in Szemerédi's theorem sharpens it; the erdosproblems.com commentary
 records that the bounds of Leng, Sah and Sawhney for $r_\ell(N)$ give
 $F_k(N,\ell)\le N^2/\exp((\log\log N)^{c_\ell})$ for some $c_\ell>0$. The
-questions concern fixed $k<\ell$; Erdős's own remark, recorded on the
-site, is that $o(N^2)$ fails once $\ell$ grows like $\epsilon\log N$.
+questions concern fixed $k<\ell$; Erdős's own remark, recorded on
+erdosproblems.com, is that $o(N^2)$ fails once $\ell$ grows like
+$\epsilon\log N$.
 
 **Depends on.** No page of this wiki: the inputs are Szemerédi's theorem
 with the Gowers and Rankin bounds, cited from the literature in the paper.
@@ -87,11 +88,12 @@ with the Gowers and Rankin bounds, cited from the literature in the paper.
 Algorithms, volume 58, issue 3. Its Crossref record, read 2026-10-07, gives the
 online publication date as 15 December 2020. The arXiv record lists no journal
 reference, and the library card does not cite the journal version. Reviewed: the
-site's curator, Thomas Bloom, records the answer as yes in the problem page's
-commentary (label PROVED, page last edited 5 April 2026). The commentary gives
-the Fox--Pohoata bounds and their consequence through Leng, Sah and Sawhney.
-This is documented acceptance outside this project. The library card records the
-paper as held and digested. This project did not review its proof.
+erdosproblems.com curator, Thomas Bloom, records the answer as yes in the
+problem page's commentary (label PROVED, page last edited 5 April 2026). The
+commentary gives the Fox--Pohoata bounds and their consequence through Leng, Sah
+and Sawhney. This is documented acceptance outside this project. The library
+card records the paper as held and digested. This project did not review its
+proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos179.lean` of
 Boris Alexeev's lean-proofs repository (first added 2026-08-17, last
@@ -103,8 +105,8 @@ proved. Its theorem `Erdos179.erdos_179` states that `F 3 n 4` is little-o
 of $n^2$ and that for every $k>3$ the quotient $\log F(3,n,k)/\log n$
 tends to $2$, for the file's own definition of the forcing threshold `F`
 through counts of nontrivial unoriented progressions, and the file closes
-with `#print axioms` without the printed output. Neither the site nor the
-community database records the file. This corpus has not built or audited
+with `#print axioms` without the printed output. Neither erdosproblems.com nor
+the community database records the file. This corpus has not built or audited
 the development, and the fidelity of its definitions to the problem's
 $F_k(N,\ell)$ has not been independently reviewed, so the page lists no
 `formalized` evidence.

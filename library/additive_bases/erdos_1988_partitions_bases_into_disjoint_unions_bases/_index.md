@@ -103,9 +103,10 @@ of order 2 whose representation counts tend to infinity splits into two disjoint
 asymptotic bases of order 2, is the question of problem 871; its problem 3 (p.
 8), whether an asymptotic basis of order h > 2 with f(n) >= c log n for a large
 constant c must contain a minimal asymptotic basis of order h, is the source of
-problem 870, which the site asks with a different representation count; and its
-problem 4 (p. 8), whether the union of two disjoint asymptotic bases of order 2
-contains a minimal asymptotic basis of order 2, is the question of problem 869.
+problem 870, which erdosproblems.com asks with a different representation count;
+and its problem 4 (p. 8), whether the union of two disjoint asymptotic bases of
+order 2 contains a minimal asymptotic basis of order 2, is the question of
+problem 869.
 
 Source: <https://users.renyi.hu/~p_erdos/1988-25.pdf>. The file prints "© 1988
 Academic Press, Inc." and "All rights of reproduction in any form reserved."

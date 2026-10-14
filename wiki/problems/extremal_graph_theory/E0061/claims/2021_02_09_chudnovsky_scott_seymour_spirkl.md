@@ -51,7 +51,7 @@ question. The problem stays open.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** The paper is a refereed publication in the Proceedings of
-the London Mathematical Society, which is the `refereed` evidence. The site's
-commentary credits the case to the paper, but the site labeled the problem
-OPEN, so no `reviewed` evidence is listed. This corpus has not checked the
-proof.
+the London Mathematical Society, which is the `refereed` evidence. The
+erdosproblems.com commentary credits the case to the paper, but Bloom's catalog
+labeled the problem OPEN, so no `reviewed` evidence is listed. This corpus has
+not checked the proof.

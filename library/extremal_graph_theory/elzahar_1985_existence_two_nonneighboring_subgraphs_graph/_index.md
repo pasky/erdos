@@ -99,10 +99,10 @@ No notice is printed in the scan; the publisher's article page
 the copyright line "© Akadémiai Kiadó" and names no license, every other right
 reserved.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1111/_index|#1111]]: the site's
-source key ElEr85 and the origin of the problem; the question with
-$f(r,n)$ (p. 295; the site's $d(t,c)$ with $t=r$, $c=n$), Wagon's bound
-$f(r,2)\le\binom r2+1$ and the values $f(2,2)=2$, $f(3,2)=4$, $f(4,2)=5$
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1111/_index|#1111]]: the
+erdosproblems.com source key ElEr85 and the origin of the problem; the question
+with $f(r,n)$ (p. 295; erdosproblems.com's $d(t,c)$ with $t=r$, $c=n$), Wagon's
+bound $f(r,2)\le\binom r2+1$ and the values $f(2,2)=2$, $f(3,2)=4$, $f(4,2)=5$
 as reported on p. 296, Theorem 1 (the reduction to $r\le n$), Theorem 2
 ($f(3,3)\le8$) and Corollary 3 (the case $n=3$ for every $r$); paged at
 [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/theorem_1|theorem_1]],

@@ -89,8 +89,8 @@ $n_k<k^{\log k/\log\log k}$ for $k>k_0$, which Erdős thinks "fairly sharp";
 conjectures (7) $n_k>\exp((\log k)^{2-\epsilon})$; says he cannot even show
 $n_k>k^{2+\epsilon}$, "a ridiculously weak result"; and reports without
 proof "The best that I can show is $n_k>k^2\exp((\log k)^c)$ for a certain
-$c>0$." The site's Problem 962 states these bounds for the inverse function
-$k(n)=\max\{k:n_k\le n\}$. The passage is on
+$c>0$." erdosproblems.com's Problem 962 states these bounds for the inverse
+function $k(n)=\max\{k:n_k\le n\}$. The passage is on
 [[primes/erdos_1976_problems_results_consecutive_integers/inequality_6|inequality_6]].
 
 Read status: claims checked for the $f(k)$ passage of p. 271 with display
@@ -108,13 +108,13 @@ Source: <https://users.renyi.hu/~p_erdos/1976-32.pdf>.
 **Bears on.** [[../wiki/problems/primes/E1184/_index|#1184]]: conjecture (3),
 $f(n,k)=(1-c_\alpha+o(1))k$ whenever $\log n=(\alpha+o(1))\log k$, with
 $c_\alpha$ from de Bruijn's count (2), printed p. 272 (PDF p. 2, page image),
-the site's cited source;
+erdosproblems.com's cited source;
 [[../wiki/problems/integer_sequences/E0961/_index|#961]]: the definition of $f(k)$, the two
 classical bounds and the Jutila--Ramachandra--Shorey bound (1), printed
-p. 271 (PDF p. 1, page image), the site's cited source;
+p. 271 (PDF p. 1, page image), erdosproblems.com's cited source;
 [[../wiki/problems/integer_sequences/E0962/_index|#962]]: the bound (6), the conjecture (7) and the
 reported lower bound for $n_k$, the inverse of the problem's $k(n)$, printed
-p. 273 (PDF p. 3, page image), the site's cited source.
+p. 273 (PDF p. 3, page image), erdosproblems.com's cited source.
 
 **Results.**
 

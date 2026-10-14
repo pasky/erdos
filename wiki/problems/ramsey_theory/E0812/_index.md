@@ -31,31 +31,31 @@ $$
 R(n+1)-R(n) \gg n^2?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
-last-edited date). $R(n)=R(n,n)$ is the diagonal Ramsey
-number, the least $N$ such that every red-blue coloring of the edges of
-$K_N$ contains a monochromatic $K_n$; the 1989 paper writes $r(m,n)$. The
-two questions are distinct: the first asks for a multiplicative gap between
-consecutive diagonal numbers, the second for an additive gap of order
-$n^2$. Since $R(n)\ge(\sqrt2/e+o(1))n2^{n/2}$, a positive answer to the
-first gives $R(n+1)-R(n)\ge cR(n)$, which is exponential and implies the
-second; no converse implication is available. The site's source key is
-[Er91], a 1991 problem paper that is not held; the closest passages in other
-papers of Erdős are quoted below.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited date). $R(n)=R(n,n)$ is the diagonal Ramsey number, the
+least $N$ such that every red-blue coloring of the edges of $K_N$ contains a
+monochromatic $K_n$; the 1989 paper writes $r(m,n)$. The two questions are
+distinct: the first asks for a multiplicative gap between consecutive diagonal
+numbers, the second for an additive gap of order $n^2$. Since
+$R(n)\ge(\sqrt2/e+o(1))n2^{n/2}$, a positive answer to the first gives
+$R(n+1)-R(n)\ge cR(n)$, which is exponential and implies the second; no converse
+implication is available. The erdosproblems.com source key is [Er91], a 1991
+problem paper that is not held; the closest passages in other papers of Erdős
+are quoted below.
 
-**Status.** Open: the site labeled the problem OPEN. The only source results in
-hand are additive. The Corollary of Burr, Erdős, Faudree and Schelp specializes
-on the diagonal to $R(n+1)-R(n)\ge4n-4$ for $n\ge2$ (the site's commentary
-prints $4n-8$). With the lower bound for $R(3,k)$, their Theorem 2 gives the
-two-step bound $R(n+2)-R(n)\gg n^2/\log n$. Nothing in hand bounds $R(n+1)/R(n)$
-away from $1$, proves $R(n+1)-R(n)\gg n^2$, or refutes either question. No
-source doing so was found in the search dated 2026-09-18 UTC whose scope the
-Current assessment records. This is a bounded negative finding, not a
-certificate of openness.
+**Status.** Open: Bloom's catalog labeled the problem OPEN. The only source
+results in hand are additive. The Corollary of Burr, Erdős, Faudree and Schelp
+specializes on the diagonal to $R(n+1)-R(n)\ge4n-4$ for $n\ge2$ (the
+erdosproblems.com commentary prints $4n-8$). With the lower bound for $R(3,k)$,
+their Theorem 2 gives the two-step bound $R(n+2)-R(n)\gg n^2/\log n$. Nothing in
+hand bounds $R(n+1)/R(n)$ away from $1$, proves $R(n+1)-R(n)\gg n^2$, or refutes
+either question. No source doing so was found in the search dated 2026-09-18 UTC
+whose scope the Current assessment records. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/812](https://www.erdosproblems.com/812),
 accessed 2026-09-18: the problem page (OPEN, marked
-by the site as not resolvable by a finite computation; no last-edited
+by erdosproblems.com as not resolvable by a finite computation; no last-edited
 date; source key [Er91]; commentary citing [BEFS89] and Problem 165), its
 empty discussion thread and its empty proof-claim tab. Cite as: T. F.
 Bloom, Erdős Problem #812, https://www.erdosproblems.com/812, accessed
@@ -71,7 +71,7 @@ Bloom, Erdős Problem #812, https://www.erdosproblems.com/812, accessed
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and
   applications, Vol. 1 (Kalamazoo, MI, 1988), Wiley (1991), 397--406. The
-  site's source key; not held, recorded without an access attempt.
+  erdosproblems.com source key; not held, recorded without an access attempt.
 - [Er88] Erdős, P., Problems and results in combinatorial analysis and
   graph theory. Discrete Math. 72 (1988), 81--92; displays (5) and (6) on
   p. 83 and their comment on p. 84. Library home:
@@ -102,27 +102,27 @@ answer(sorry) ↔ ∃ c > 0, ∀ᶠ n in atTop, (R (n + 1) : ℝ) / (R n : ℝ) 
 ≫ (fun n : ℕ ↦ (n : ℝ) ^ 2)`, both under `category research open`, and
 `erdos_812.variants.lower_bound : ∀ n : ℕ, n ≥ 2 → (R (n + 1) : ℤ) - (R n : ℤ) ≥
 4 * (n : ℤ) - 8` under `category research solved` with a docstring attributing
-it to [BEFS89]; all three proofs are `sorry`. The variant encodes the site's
-figure $4n-8$, which is four below the paper's $4n-4$ (below), so it is a true
-but weakened form of the source's statement. The community database, read
-2026-09-18, lists the problem as open (entry last updated 31 August 2025), the
-statement formalized since 8 March 2026, and no formal proof. The corpus has not
-built these files.
+it to [BEFS89]; all three proofs are `sorry`. The variant encodes the
+erdosproblems.com figure $4n-8$, which is four below the paper's $4n-4$ (below),
+so it is a true but weakened form of the source's statement. The community
+database, read 2026-09-18, lists the problem as open (entry last updated 31
+August 2025), the statement formalized since 8 March 2026, and no formal proof.
+The corpus has not built these files.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN, marked as not resolvable by a finite computation; no prize
-and no last-edited date. The commentary credits Burr, Erdős, Faudree and
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN, marked as not resolvable by a finite computation; no
+prize and no last-edited date. The commentary credits Burr, Erdős, Faudree and
 Schelp [BEFS89] with $R(n+1)-R(n)\ge4n-8$ for every $n\ge2$ and notes that
 the lower bound of Problem 165 gives $R(n+2)-R(n)\gg n^{2-o(1)}$. The
-discussion thread and the proof-claim tab are empty; the site's indicator
-records the statement as formalized.
+discussion thread and the proof-claim tab are empty; the erdosproblems.com
+indicator records the statement as formalized.
 
-**Erdős's own words in other papers.** The site's source [Er91] is not held.
-Two other problem papers state the neighboring questions. The 1981 paper
-[Er81c] (p. 11) opens with the remark that almost nothing is known about the
-local growth of $r(n,m)$, states the conjecture made with Burr as its
+**Erdős's own words in other papers.** The erdosproblems.com source [Er91] is
+not held. Two other problem papers state the neighboring questions. The 1981
+paper [Er81c] (p. 11) opens with the remark that almost nothing is known about
+the local growth of $r(n,m)$, states the conjecture made with Burr as its
 display (7), "$r(n+1,n)>(1+c)\,r(n,n)$", and calls it intractable at the
 time; it then records as display (8) a lemma that Erdős, Faudree, Rousseau
 and Schelp had needed, $\lim_{n\to\infty}(r(n+1,n)-r(n,n))/n=\infty$, which
@@ -161,10 +161,10 @@ $$
 R(n+1)-R(n)\ \ge\ 4n-4\qquad(n\ge2),
 $$
 
-with equality at $n=2$ ($R(3)-R(2)=6-2=4$). The site's commentary and the
-formal-conjectures variant both print $4n-8$ for all $n\ge2$, four below
-the paper's figure; a site-versus-source discrepancy recorded here and not
-a status matter.
+with equality at $n=2$ ($R(3)-R(2)=6-2=4$). The erdosproblems.com commentary and
+the formal-conjectures variant both print $4n-8$ for all $n\ge2$, four below the
+paper's figure; an erdosproblems.com-versus-source discrepancy recorded here and
+not a status matter.
 [[../library/ramsey_theory/burr_1989_difference_between_consecutive_ramsey_numbers/theorem_2|Theorem 2]]
 (p. 116): $r(m,n)\ge r(m,n-k)+r(m,k+1)-1$ for $1\le k\le n-2$, by a blue
 join of two good colorings (its five-line proof checked in full). The
@@ -190,8 +190,8 @@ $R(N+2)-R(N)\ge R(3,N+2)-1$. Kim's theorem [Ki95] gives
 $R(3,t)\gg t^2/\log t$ (Random Structures Algorithms 7 (1995); refereed;
 the constant has since been raised, see
 [[problems/ramsey_theory/E0165/_index|Problem 165]]), so
-$R(n+2)-R(n)\gg n^2/\log n=n^{2-o(1)}$, the site's two-step bound. It says
-nothing about the one-step difference $R(n+1)-R(n)$ beyond $4n-4$, since
+$R(n+2)-R(n)\gg n^2/\log n=n^{2-o(1)}$, erdosproblems.com's two-step bound. It
+says nothing about the one-step difference $R(n+1)-R(n)$ beyond $4n-4$, since
 the two increments composing it need not be comparable, and nothing about
 the ratio.
 
@@ -211,7 +211,7 @@ evidence about recent work, not a result.
 on $R(n+1)/R(n)$ away from $1$, a bound $R(n+1)-R(n)\gg n^{1+\delta}$ for
 any $\delta>0$, a disproof, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database; OEIS
   A059442 (the table of $R(n,k)$, its formula lines and links; no statement
   on differences).
@@ -231,16 +231,16 @@ Chung--Grinstead 1983 (the 1989 paper's references); Graver--Yackel 1968,
 its other reference, has the library card
 [[../library/graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/_index|graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem]].
 
-**Remaining gaps.** (1) [Er91], the site's source, is not held; the original
-wording of the two questions is second-hand from the site, and the 1981 and
-1988 passages state the off-diagonal step, not the diagonal one. Reopening
-condition: a copy of the Kalamazoo proceedings paper. (2) The 1989 theorems
-are compiled as statements with proof pointers (claims checked; Theorem 2's
-proof checked in full); the diagonal and two-step specializations are
+**Remaining gaps.** (1) [Er91], the erdosproblems.com source, is not held; the
+original wording of the two questions is second-hand from erdosproblems.com, and
+the 1981 and 1988 passages state the off-diagonal step, not the diagonal one.
+Reopening condition: a copy of the Kalamazoo proceedings paper. (2) The 1989
+theorems are compiled as statements with proof pointers (claims checked; Theorem
+2's proof checked in full); the diagonal and two-step specializations are
 authored one-line derivations, named as such above. (3) The commentary's
 $4n-8$ against the paper's $4n-4$, also encoded in the formal-conjectures
-variant, is recorded and not resolved with the site or the collection. (4)
-Nothing bears on the ratio question in either direction.
+variant, is recorded and not resolved with erdosproblems.com or the collection.
+(4) Nothing bears on the ratio question in either direction.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

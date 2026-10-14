@@ -88,9 +88,10 @@ neither held.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the site's "the
-  conjectured bound for $3$-connected graphs". Under the vertex-disjoint
-  reading the conjecture at $m=5$ holds for 3-connected graphs, while
+- [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]:
+  erdosproblems.com's "the conjectured bound for $3$-connected graphs". Under
+  the vertex-disjoint reading the conjecture at $m=5$ holds for 3-connected
+  graphs, while
   [[extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/theorem_4|Theorem 4]]
   of the same paper shows it fails without the connectivity hypothesis,
   the extremal graphs having $\frac83n-O(1)$ edges. The Remark's apex

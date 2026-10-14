@@ -48,6 +48,6 @@ complements share with them; the problem stays open.
 **Depends on.** Nothing in this wiki. The comment on the third version
 (2026-08-31) says the proof no longer uses the five-vertex-path result.
 
-**Standing.** Claimed: an unrefereed arXiv preprint, linked from the site's
-thread in a post of 5 June 2026, with no outside review known to this
-corpus; this corpus has not checked the proof.
+**Standing.** Claimed: an unrefereed arXiv preprint, linked from the
+erdosproblems.com thread in a post of 5 June 2026, with no outside review known
+to this corpus; this corpus has not checked the proof.

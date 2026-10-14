@@ -93,12 +93,12 @@ Theorem 4 (p. 108 = PDF p. 3, page image) is the edge-disjoint
 decomposition into at most $[n^2/4]$ edges and triangles that the
 conjecture asks to improve, paged at
 [[extremal_graph_theory/erdos_1966_representation_graph_set_intersections/theorem_4|theorem_4]];
-[[../wiki/problems/extremal_graph_theory/E1017/_index|#1017]]: the site's key EGP66;
-Theorem 4 (p. 108) gives $f(n,k)\le[n^2/4]$ with edges and triangles and
-pairwise edge-disjoint pieces, Theorem 2 (p. 107) the covering form with
-the graph $T^{(n)}$ showing sharpness, and Section 5's question (i)
-(printed pp. 109--110 = PDF pp. 4--5) asks for the new minimum when the
-graph has $[n^2/4]+k$ edges; paged at
+[[../wiki/problems/extremal_graph_theory/E1017/_index|#1017]]: the
+erdosproblems.com key EGP66; Theorem 4 (p. 108) gives $f(n,k)\le[n^2/4]$ with
+edges and triangles and pairwise edge-disjoint pieces, Theorem 2 (p. 107) the
+covering form with the graph $T^{(n)}$ showing sharpness, and Section 5's
+question (i) (printed pp. 109--110 = PDF pp. 4--5) asks for the new minimum when
+the graph has $[n^2/4]+k$ edges; paged at
 [[extremal_graph_theory/erdos_1966_representation_graph_set_intersections/theorem_4|theorem_4]]
 and
 [[extremal_graph_theory/erdos_1966_representation_graph_set_intersections/section_5_question_i|section_5_question_i]].

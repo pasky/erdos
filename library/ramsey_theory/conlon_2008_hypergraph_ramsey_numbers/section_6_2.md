@@ -30,8 +30,8 @@ $$
 The paper's [11] is Erdős's 1990 chapter
 ([[ramsey_theory/erdos_1990_problems_results_graphs_hypergraphs_similarities_differences/problem_p21|problem_p21]]),
 which defines the function as the *smallest* integer for which such a split
-is possible, the wording the site's Problem 563 uses. An observation made
-here: the property "some split has every class dense on every $X$ with
+is possible, the wording erdosproblems.com's Problem 563 uses. An observation
+made here: the property "some split has every class dense on every $X$ with
 $|X|\ge m$" is preserved when $m$ increases, so the admissible thresholds
 $m$ form an up-set, the smallest of them is the meaningful quantity, and
 "largest" cannot be read as printed (every $m>N$ is admissible vacuously).
@@ -63,11 +63,11 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0563/_index|Problem 563]]: the display is the known
-  two-sided bound $F(n,\alpha)\asymp_\alpha\log n$ the site's commentary
-  quotes; the asymptotic $F(n,\alpha)\sim c_\alpha\log n$ the problem asks
-  for is not addressed in the paper.
-- [[../wiki/problems/discrepancy/E0162/_index|Problem 162]]: the site's
-  wording prints "largest", as this paper does, with the range
+  two-sided bound $F(n,\alpha)\asymp_\alpha\log n$ the erdosproblems.com
+  commentary quotes; the asymptotic $F(n,\alpha)\sim c_\alpha\log n$ the problem
+  asks for is not addressed in the paper.
+- [[../wiki/problems/discrepancy/E0162/_index|Problem 162]]: the
+  erdosproblems.com wording prints "largest", as this paper does, with the range
   $0\le\alpha\le1/2$; corrected to "smallest" and $0\le\alpha<1/2$, its
   question is that of Problem 563. The display is the known two-sided bound,
   and the asymptotic the problem asks for is not addressed in the paper.

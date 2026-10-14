@@ -25,17 +25,18 @@ updated: 2026-10-08T17:47:46Z
 1_A(n)\to \infty$ as $n\to \infty$. Can $A$ be partitioned into two disjoint
 additive bases of order $2$?
 
-**Status.** DISPROVED (LEAN). The site credits the disproof to Larsen using
-Claude Opus 4.5. Larsen's thread posts describe a multi-agent system of Claude
-and Gemini agents (Claude 4.5 and Gemini 3 Pro in Larsen's 2026 preprint). This
-system produced the Lean proof and its write-up, posted in January 2026. The
-proof and write-up show that a small modification of the construction of
-[ErNa89] gives a basis of order two whose representation counts tend to infinity
-but which is not a union of two disjoint bases of order two. The accepted claim
-is [[problems/additive_bases/E0871/claims/2026_01_05_larsen|Larsen]]. The
-label's Lean qualifier refers to Larsen's Lean proof as posted on the thread. A
-later revision of it is kept in Boris Alexeev's lean-proofs repository. This
-corpus has built or audited neither.
+**Status.** DISPROVED (LEAN). erdosproblems.com credits the disproof to Larsen
+using Claude Opus 4.5. Larsen's thread posts describe a multi-agent system of
+Claude and Gemini agents (Claude 4.5 and Gemini 3 Pro in Larsen's 2026
+preprint). This system produced the Lean proof and its write-up, posted in
+January 2026. The proof and write-up show that a small modification of the
+construction of [ErNa89] gives a basis of order two whose representation counts
+tend to infinity but which is not a union of two disjoint bases of order two.
+The accepted claim is
+[[problems/additive_bases/E0871/claims/2026_01_05_larsen|Larsen]]. The label's
+Lean qualifier refers to Larsen's Lean proof as posted on the thread. A later
+revision of it is kept in Boris Alexeev's lean-proofs repository. This corpus
+has built or audited neither.
 
 **Source.** [erdosproblems.com/871](https://www.erdosproblems.com/871), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #871,

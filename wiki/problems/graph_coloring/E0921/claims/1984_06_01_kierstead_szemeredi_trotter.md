@@ -31,8 +31,8 @@ updated: 2026-10-07T19:40:10Z
 
 ***
 
-The site credits Kierstead, Szemerédi and Trotter [KST84] with the proof
-that for every $k\ge4$,
+erdosproblems.com credits Kierstead, Szemerédi and Trotter [KST84] with the
+proof that for every $k\ge4$,
 
 $$
 f_k(n) \asymp n^{\frac{1}{k-2}},
@@ -57,16 +57,16 @@ answer the question of Erdős and Gallai as asked, for every $k\ge4$. The case
 $k=4$ was known before: Gallai's $4$-critical graphs
 ([[../library/graph_coloring/gallai_1963_kritische_graphen_i/_index|Gallai 1963]],
 (2.3)--(2.4)) give $f_4(n)\gg n^{1/2}$ for infinitely many $n$, and the matching
-upper bound $f_4(n)\ll n^{1/2}$ is an unpublished argument of Erdős, as the site
-records.
+upper bound $f_4(n)\ll n^{1/2}$ is an unpublished argument of Erdős, as
+erdosproblems.com records.
 
 **Acceptance.** Refereed: H. A. Kierstead, E. Szemerédi and W. T. Trotter, Jr.,
 On coloring graphs with locally small chromatic number, Combinatorica 4 (1984),
 no. 2--3, 183--185, DOI 10.1007/BF02579219. The Crossref record gives the
 publication month June 1984 and no day, so the page is dated to the first of
-that month. Reviewed: the site's curator, Thomas Bloom, labeled the problem
-proved and credits [KST84] with the proof for every $k\ge4$. Its proof is not
-reviewed in this corpus.
+that month. Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the
+problem proved and credits [KST84] with the proof for every $k\ge4$. Its proof
+is not reviewed in this corpus.
 
 **Formalization.** The file `Erdos921.lean` in Boris Alexeev's `lean-proofs`
 repository, added on 18 August 2026 and linked above at a commit of 15 September

@@ -38,18 +38,18 @@ Formal-conjectures reads $\gg$ more weakly, as a constant that works for
 arbitrarily large $n$, and the negation of that reading is exactly $f(n)\to0$.
 Theorem 1.2, $f(n)\to0$, refutes both readings.
 
-**Status.** DISPROVED (LEAN), the site's label (site export of 2026-09-04):
-solved in the negative with a Lean-verified proof. On 2026-10-07 the public
-page's markup showed no label text. The community database
+**Status.** DISPROVED (LEAN), the erdosproblems.com label (erdosproblems.com
+export of 2026-09-04): solved in the negative with a Lean-verified proof. On
+2026-10-07 the public page's markup showed no label text. The community database
 (teorth/erdosproblems, `data/problems.yaml`, read 2026-09-28) corroborates the
 label. It records status "disproved (Lean)", set by its commit of 20 April 2026,
-with `formal_status` Lean. The site's commentary credits Bradač and Christoph
-[BrCh24]. Their Theorem 1.2 gives $f(n)=o(2^{\binom n2}/n!)$, where $f(n)$ is
-the maximum number of unique subgraphs of a graph on $n$ vertices. The
+with `formal_status` Lean. The erdosproblems.com commentary credits Bradač and
+Christoph [BrCh24]. Their Theorem 1.2 gives $f(n)=o(2^{\binom n2}/n!)$, where
+$f(n)$ is the maximum number of unique subgraphs of a graph on $n$ vertices. The
 [[problems/extremal_graph_theory/E0426/claims/2024_10_21_bradac_christoph|claim page]]
-records the result, the site's acceptance and the public Lean formalization. The
-paper appeared in Proc. Amer. Math. Soc. 153 (2025), 4585-4593,
-doi:10.1090/proc/17303.
+records the result, erdosproblems.com's acceptance and the public Lean
+formalization. The paper appeared in Proc. Amer. Math. Soc. 153 (2025),
+4585-4593, doi:10.1090/proc/17303.
 
 **Source.** [erdosproblems.com/426](https://www.erdosproblems.com/426), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #426,

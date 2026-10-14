@@ -28,11 +28,11 @@ $$
 \limsup_{N\to \infty}\frac{\lvert (A+A)\cap \{1,\ldots,N\}\rvert}{\lvert A\cap \{1,\ldots,N\}\rvert}\geq 3?
 $$
 
-**Status.** Proved, the site's label. The answer is yes, by the theorem of
-Freĭman's 1973 monograph [Fr73]. It is recorded on
+**Status.** Proved, the erdosproblems.com label. The answer is yes, by the
+theorem of Freĭman's 1973 monograph [Fr73]. It is recorded on
 [[problems/additive_combinatorics/E0245/claims/1973_01_01_freiman|its claim page]],
-with the site's acceptance as its only evidence. The label carried no Lean
-qualification. The claim page links a Lean development in Boris Alexeev's
+with erdosproblems.com's acceptance as its only evidence. The label carried no
+Lean qualification. The claim page links a Lean development in Boris Alexeev's
 `lean-proofs` repository that declares itself a formalization of Freĭman's
 solution. This corpus has not built or audited it.
 

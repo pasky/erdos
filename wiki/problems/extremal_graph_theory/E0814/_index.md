@@ -30,8 +30,8 @@ $$
 edges. Does there exist some $c_k>0$ such that $G$ must contain an induced
 subgraph on at most $(1-c_k)n$ vertices with minimum degree at least $k$?
 
-**Formulation.** The site's wording (the page carries no last-edited date).
-Write $t_k(n)=(k-1)(n-k+2)+\binom{k-2}2$, the notation of [MNS17]; the
+**Formulation.** The erdosproblems.com wording (the page carries no last-edited
+date). Write $t_k(n)=(k-1)(n-k+2)+\binom{k-2}2$, the notation of [MNS17]; the
 statement's edge count is $t_k(n)+1$. Every graph on $n\ge k-1$ vertices with
 at least $t_k(n)$ edges contains a subgraph of minimum degree at least $k$,
 the bound is sharp, and the generalized wheel $K_{k-2}+C_{n-k+2}$ has exactly
@@ -46,7 +46,7 @@ the question is vacuous there. "Subgraph" and "induced subgraph" are
 interchangeable in this statement: the induced subgraph on the vertex set of a
 subgraph of minimum degree at least $k$ has the same number of vertices and
 degrees at least as large ([Sa19], p. 3, makes the same remark); the sources
-prove "subgraph" and this page records the conversion once. The site
+prove "subgraph" and this page records the conversion once. erdosproblems.com
 attributes the case $k=3$ to Erdős and Hajnal ([Er91]) and the general
 conjecture to Erdős, Faudree, Rousseau and Schelp ([EFRS90]). [EFRS90] prints
 the general
@@ -58,8 +58,8 @@ Faudree, Gyárfás and Schelp (the paper behind Problem 815), not [Er91]; [Sa19]
 $k=3$", its [2] being [EFRS90], and adds that Erdős listed the $k=3$ case
 among his favorite problems in [Er93].
 
-**Status.** Proved. The site labeled the problem PROVED. The result and its
-acceptance evidence are recorded on the claim page
+**Status.** Proved. Bloom's catalog labeled the problem PROVED. The result and
+its acceptance evidence are recorded on the claim page
 [[problems/extremal_graph_theory/E0814/claims/2017_05_28_sauermann|Sauermann's proof]],
 from which the frontmatter is derived. The status-defining source is
 [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/theorem_1_3|Theorem 1.3 of Sauermann]]
@@ -70,9 +70,9 @@ subgraph on at most $\bigl(1-\frac1{\max(10^4k^2,100kt)}\bigr)n$ vertices with
 minimum degree at least $k$. With $t=\frac{(k-2)(k+1)}2-1$ the edge count is
 $(k-1)n-t=t_k(n)+1$. So the answer is yes with
 $c_k=\varepsilon_k=1/\max\bigl(10^4k^2,100k(\tfrac{(k-2)(k+1)}2-1)\bigr)>1/(10^4k^3)$,
-the bound the site records as $c_k\gg1/k^3$. The range of $t$ is empty for
-$k=2$, so the theorem as printed covers $k\ge3$. The case $k=2$ is elementary
-and is checked on this page with $c_2=1/5$. The earlier bounds were
+the bound erdosproblems.com records as $c_k\gg1/k^3$. The range of $t$ is empty
+for $k=2$, so the theorem as printed covers $k\ge3$. The case $k=2$ is
+elementary and is checked on this page with $c_2=1/5$. The earlier bounds were
 $n-\lfloor\sqrt n/\sqrt{6k^3}\rfloor$ vertices
 ([[../library/extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/theorem_1|Theorem 1]]
 of [EFRS90], p. 53) and $n-n/(8(k+1)^5\log_2n)$
@@ -82,23 +82,24 @@ Combin. 24 (2017), Paper 4.9, p. 2, after a revised proof. arXiv v1 prints $4$
 for $8$.
 
 **Source.** [erdosproblems.com/814](https://www.erdosproblems.com/814),
-accessed 2026-09-18: the problem page (PROVED, with the site's note that it is
-solved in the affirmative; no last-edited date; source keys [EFRS90], [Er91]
-and [Er93, p. 344]; the commentary cites [MNS17] and [Sa19]; an acknowledgment
-line naming one contributor; OEIS "Possible"; "Formalised statement? No"), its
-empty discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom,
-Erdős Problem #814, https://www.erdosproblems.com/814, accessed 2026-09-18.
+accessed 2026-09-18: the problem page (PROVED, with the erdosproblems.com note
+that it is solved in the affirmative; no last-edited date; source keys [EFRS90],
+[Er91] and [Er93, p. 344]; the commentary cites [MNS17] and [Sa19]; an
+acknowledgment line naming one contributor; OEIS "Possible"; "Formalised
+statement? No"), its empty discussion thread and its empty proof-claim tab. Cite
+as: T. F. Bloom, Erdős Problem #814, https://www.erdosproblems.com/814, accessed
+2026-09-18.
 
 **References.**
 
 - [EFRS90] Erdős, P., Faudree, R. J., Rousseau, C. C. and Schelp, R. H.,
   Subgraphs of minimal degree $k$. Discrete Math. 85 (1990), no. 1, 53--58,
   doi:10.1016/0012-365X(90)90162-B (as its Crossref record of 2026-09-18 gives
-  it; the site's reference text gives "Discrete Math. (1990), 53-58"). The
-  printed article, pp. 53--58: Theorem 1 and the generalized wheel, p. 53; the
-  attribution of the $k=3$ case, the Conjecture, Theorem 2 and Lemma 3, p. 54;
-  the sharpness sentence and Lemma 4, p. 55; Lemma 5, p. 56; the proof of
-  Theorem 1 and the $C^{k-1}$ example, p. 57; the Problems section and the
+  it; the erdosproblems.com reference text gives "Discrete Math. (1990),
+  53-58"). The printed article, pp. 53--58: Theorem 1 and the generalized wheel,
+  p. 53; the attribution of the $k=3$ case, the Conjecture, Theorem 2 and Lemma
+  3, p. 54; the sharpness sentence and Lemma 4, p. 55; Lemma 5, p. 56; the proof
+  of Theorem 1 and the $C^{k-1}$ example, p. 57; the Problems section and the
   references, p. 58. Library home:
   [[../library/extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/_index|erdos_1990_subgraphs_minimal_degree_k]];
   paged at
@@ -109,14 +110,14 @@ Erdős Problem #814, https://www.erdosproblems.com/814, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/lemma_4|lemma_4]].
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and applications,
-  Vol. 1 (Kalamazoo, MI, 1988), Wiley (1991), 397--406. The site's source for
-  the case $k=3$ "of Erdős and Hajnal". Not held: past the Rényi archive's
-  1989 cutoff; no open copy located, so the passage is known only from the
-  site.
+  Vol. 1 (Kalamazoo, MI, 1988), Wiley (1991), 397--406. The erdosproblems.com
+  source for the case $k=3$ "of Erdős and Hajnal". Not held: past the Rényi
+  archive's 1989 cutoff; no open copy located, so the passage is known only from
+  erdosproblems.com.
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
   graph theory. Quaestiones Math. 16 (1993), 333--350,
-  doi:10.1080/16073606.1993.9631741. The site cites p. 344; [Sa19] (p. 2)
-  cites "[1, p. 13]" for the $k=3$ conjecture. Chapter V, problem 5,
+  doi:10.1080/16073606.1993.9631741. erdosproblems.com cites p. 344; [Sa19]
+  (p. 2) cites "[1, p. 13]" for the $k=3$ conjecture. Chapter V, problem 5,
   printed p. 344: the question for $k=3$
   ("every $G(n;2n-1)$ has an induced subgraph of $m$ vertices with
   $m<n(1-\epsilon)$, every vertex of which has degree $\ge3$"), the bound
@@ -136,8 +137,8 @@ Erdős Problem #814, https://www.erdosproblems.com/814, accessed 2026-09-18.
 - [Sa19] Sauermann, L., A proof of a conjecture of Erdős, Faudree, Rousseau
   and Schelp on subgraphs of minimum degree $k$. J. Combin. Theory Ser. B 134
   (2019), 36--75, doi:10.1016/j.jctb.2018.05.002 (as its Crossref record of
-  2026-09-18 gives it; the site's reference text gives "(2019), 36-75");
-  arXiv:1705.09979 (v1 28 May 2017; v2 26 June 2018, 34 pp.; no journal
+  2026-09-18 gives it; the erdosproblems.com reference text gives "(2019),
+  36-75"); arXiv:1705.09979 (v1 28 May 2017; v2 26 June 2018, 34 pp.; no journal
   reference in the arXiv record). Fact 1.1, p. 1; Conjecture 1.2, Theorem 1.3
   and the deduction, p. 2; the induced-subgraph remark, p. 3. Library home:
   [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/_index|sauermann_2019_rousseau_schelp_subgraphs_minimum_degree]];
@@ -148,13 +149,13 @@ Erdős Problem #814, https://www.erdosproblems.com/814, accessed 2026-09-18.
 
 **Formalization.** The
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/2e126f3a508b63b44d4a9313cd4058b4f6a7c4ce/FormalConjectures/ErdosProblems/814.lean),
-added on 2026-09-21 (no file existed on 2026-09-18, when the site's indicator
-read "Formalised statement? No"), states the problem as `erdos_814`, tagged
-`research solved` with answer true, beside two variants (the "at least" form
-of the edge count and Sauermann's bound $c_k\gg1/k^3$), and points the formal
-proof of `erdos_814` and of the "at least" variant at Boris Alexeev's Lean
-development, which declares itself a formalization of Sauermann's result and
-is a `formalization` link on
+added on 2026-09-21 (no file existed on 2026-09-18, when the erdosproblems.com
+indicator read "Formalised statement? No"), states the problem as `erdos_814`,
+tagged `research solved` with answer true, beside two variants (the "at least"
+form of the edge count and Sauermann's bound $c_k\gg1/k^3$), and points the
+formal proof of `erdos_814` and of the "at least" variant at Boris Alexeev's
+Lean development, which declares itself a formalization of Sauermann's result
+and is a `formalization` link on
 [[problems/extremal_graph_theory/E0814/claims/2017_05_28_sauermann|the claim page]];
 the corpus has not built or audited that development, so it gives no
 `formalized` evidence. The community database (teorth/erdosproblems,
@@ -164,15 +165,16 @@ update on 31 August 2025 and as formalized since 21 September 2026, while its
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-PROVED; no last-edited date; source keys [EFRS90], [Er91], [Er93, p. 344]. The
-commentary attributes the case $k=3$ to Erdős and Hajnal ([Er91]) and the
-general question to Erdős, Faudree, Rousseau and Schelp ([EFRS90]), credits
-that paper with a subgraph on at most $n-c_k\sqrt n$ vertices and [MNS17] with
-$n-c_kn/\log n$, and credits [Sa19] with the proof of the full conjecture,
-with $c_k\gg1/k^3$. The discussion thread and the proof-claim tab are empty.
-The community database lists the problem as proved as of its last update on 31
-August 2025 and as formalized since 21 September 2026 (see Formalization).
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; PROVED; no last-edited date; source keys [EFRS90], [Er91],
+[Er93, p. 344]. The commentary attributes the case $k=3$ to Erdős and Hajnal
+([Er91]) and the general question to Erdős, Faudree, Rousseau and Schelp
+([EFRS90]), credits that paper with a subgraph on at most $n-c_k\sqrt n$
+vertices and [MNS17] with $n-c_kn/\log n$, and credits [Sa19] with the proof of
+the full conjecture, with $c_k\gg1/k^3$. The discussion thread and the
+proof-claim tab are empty. The community database lists the problem as proved as
+of its last update on 31 August 2025 and as formalized since 21 September 2026
+(see Formalization).
 
 **The threshold and the conjecture.**
 [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/fact_1_1|Fact 1.1]]
@@ -188,8 +190,8 @@ $W(k-2,n)=K_{k-2}+C_{n-k+2}$ in general, and states the conjecture as
 Conjecture 1.1 ("Erdős [1, 2]"): "For every $k\ge2$ there exists an
 $\epsilon_k>0$ such that every graph on $n\ge k+1$ vertices and $t_k(n)+1$
 edges contains a subgraph of minimum degree $k$ with at most $(1-\epsilon_k)n$
-vertices." [Sa19] states it as Conjecture 1.2 (p. 2) with $n\ge k-1$, the
-site's range. The primary source says the same:
+vertices." [Sa19] states it as Conjecture 1.2 (p. 2) with $n\ge k-1$,
+erdosproblems.com's range. The primary source says the same:
 [[../library/extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/lemma_3|Lemma 3]]
 of [EFRS90] (p. 54) is the threshold with the proper subgraph one edge higher
 and the sharpness of both, from the generalized wheel and the wheel minus an
@@ -201,8 +203,8 @@ most $(1-\varepsilon)n$ with $\delta(H)\ge k$", with no lower bound on $n$ and
 with "$\varepsilon\ge0$" a misprint for $\varepsilon>0$ (at $\varepsilon=0$ it
 is Lemma 3; the sentence before it asks for "even smaller subgraphs" of order
 at most $(1-\varepsilon)n$, and both later papers quote it with
-$\epsilon_k>0$). The site's statement is this conjecture with "induced
-subgraph", which by the Formulation note changes nothing.
+$\epsilon_k>0$). The erdosproblems.com statement is this conjecture with
+"induced subgraph", which by the Formulation note changes nothing.
 
 **Status-defining source (claims checked).**
 [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/theorem_1_3|Theorem 1.3 of Sauermann]]
@@ -215,18 +217,18 @@ same pages of the paper and repeated here as authored remarks:
 
 - The substitution. With $t=\frac{(k-2)(k+1)}2-1$,
   $(k-1)n-t=(k-1)n-\frac{(k-2)(k+1)}2+1$, and
-  $(k-1)(n-k+2)+\binom{k-2}2+1=(k-1)n-(k-1)(k-2)+\frac{(k-2)(k-3)}2+1
-  =(k-1)n-\frac{(k-2)(k+1)}2+1$, since $(k-1)(k-2)-\frac{(k-2)(k-3)}2
-  =\frac{(k-2)(k+1)}2$. So the theorem's hypothesis at this $t$ is the site's
-  edge count, and its conclusion is the site's with
+  $(k-1)(n-k+2)+\binom{k-2}2+1=(k-1)n-(k-1)(k-2)+\frac{(k-2)(k-3)}2+1 =(k-1)n-\frac{(k-2)(k+1)}2+1$,
+  since $(k-1)(k-2)-\frac{(k-2)(k-3)}2 =\frac{(k-2)(k+1)}2$. So the theorem's
+  hypothesis at this $t$ is erdosproblems.com's edge count, and its conclusion
+  is erdosproblems.com's with
   $c_k=1/\max\bigl(10^4k^2,100k(\tfrac{(k-2)(k+1)}2-1)\bigr)$, which the paper
   bounds below by $1/(10^4k^3)$ (p. 2). For $k=3$ this is $t=1$ and
   $c_3=1/90000$.
 - The induced subgraph. If $H$ is a subgraph of $G$ with minimum degree at
   least $k$, the subgraph of $G$ induced on $V(H)$ has the same vertex count
   and degrees at least those in $H$; so the theorem's subgraph may be taken
-  induced, as the site asks ([Sa19], p. 3: "in all the statements above we
-  can replace 'subgraph' by 'induced subgraph'").
+  induced, as erdosproblems.com asks ([Sa19], p. 3: "in all the statements above
+  we can replace 'subgraph' by 'induced subgraph'").
 
 The range of $t$ is empty when $k=2$ ($1\le t\le-1$), so the theorem as
 printed is a statement about $k\ge3$, and the paper's sentence "Theorem 1.3
@@ -254,17 +256,18 @@ vertices. Since $\lfloor2(n+1)/3\rfloor\le\frac45n$ for $n\ge5$, and the only
 graph with $4$ vertices and $5$ edges, $K_4$ minus an edge, contains a
 triangle ($3\le\frac45\cdot4$), the answer is yes with $c_2=1/5$. The value
 $c_2=1/4$ fails at $n=5$: $K_{2,3}$ has $6$ edges and no triangle, and its
-shortest cycle has $4>\frac34\cdot5$ vertices. So the site's statement holds
-for every $k\ge2$: by [Sa19] for $k\ge3$ and by this check for $k=2$.
+shortest cycle has $4>\frac34\cdot5$ vertices. So the erdosproblems.com
+statement holds for every $k\ge2$: by [Sa19] for $k\ge3$ and by this check for
+$k=2$.
 
 **Earlier bounds.**
 [[../library/extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/theorem_1|Theorem 1 of Erdős, Faudree, Rousseau and Schelp]]
 (p. 53 of [EFRS90]): "For the integer $k\ge2$, let $G$ be a
 $(n,(k-1)(n-k+2)+\binom{k-2}2+1)$-graph. Then, $G$ contains a subgraph $H$ of
 order at most $n-\lfloor\sqrt n/\sqrt{6k^3}\rfloor$ with $\delta(H)\ge k$."
-This is the site's $n-c_k\sqrt n$; Theorem 1.2 of [MNS17] (p. 1) quotes it as
-$n-\lfloor\sqrt{n/6k^3}\rfloor$ for $n\ge k+1$, the same number. Its proof (p.
-57, one paragraph) is an induction on $n$: for $n\le6k^3$ a proper subgraph
+This is erdosproblems.com's $n-c_k\sqrt n$; Theorem 1.2 of [MNS17] (p. 1) quotes
+it as $n-\lfloor\sqrt{n/6k^3}\rfloor$ for $n\ge k+1$, the same number. Its proof
+(p. 57, one paragraph) is an induction on $n$: for $n\le6k^3$ a proper subgraph
 suffices (Lemma 3), vertices of degree below $k$ are deleted, and with
 $\alpha=1/(6k)$ either Lemma 4 (at most $\alpha n$ vertices of degree $k$) or
 Lemma 5 (at least $\alpha n$, giving $n-\lfloor\sqrt{\alpha n}/k\rfloor$)
@@ -290,8 +293,8 @@ Discrete Mathematics is a refereed journal; the article's header prints volume
 and $t_k(n)+1$ edges. Then $G$ contains a subgraph of order at most
 $n-n/(4(k+1)^5\log_2n)$ and minimum degree at least $k$." The logarithm is to
 the base $2$ (a subscript as printed; the proof's dyadic size classes, p. 3),
-and the bound is the site's $n-c_kn/\log n$. [Sa19] (p. 2) quotes this bound
-as $n-n/(8(k+1)^5\log_2n)$, the form of the journal version of [MNS17]
+and the bound is erdosproblems.com's $n-c_kn/\log n$. [Sa19] (p. 2) quotes this
+bound as $n-n/(8(k+1)^5\log_2n)$, the form of the journal version of [MNS17]
 (Electron. J. Combin. 24 (2017), Paper 4.9, Theorem 1.3, p. 2), whose revised
 proof (including its Claim 2.2 (i), the preprint's Claim 2.3 (i)) doubles the
 constant; arXiv v1 prints $4$. Acceptance evidence for [MNS17]: the Electronic
@@ -304,7 +307,7 @@ step.
 **Search scope.** None of the routes below found a dispute of the proof, a
 sharper value of $c_k$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing (no file 814 on 2026-09-18); the
   community database record (2026-09-18).
 - arXiv API: the records of 1703.00273 (v1 only, no journal reference) and
@@ -327,9 +330,9 @@ journal versions of [Sa19] and [MNS17]. The account of [EFRS90] covers the
 whole article, and that of [Er93] its p. 344.
 
 **Remaining gaps.** (1)
-[Er91] is not held, so the site's attribution of the $k=3$ case to Erdős and
-Hajnal rests on the site and on [Sa19]'s sentence; [Er93] (p. 344)
-presents the $k=3$ question as a problem Erdős worked on with Faudree,
+[Er91] is not held, so the erdosproblems.com attribution of the $k=3$ case to
+Erdős and Hajnal rests on erdosproblems.com and on [Sa19]'s sentence; [Er93]
+(p. 344) presents the $k=3$ question as a problem Erdős worked on with Faudree,
 Gyárfás, Rousseau and Schelp and does not name Hajnal, and [EFRS90] (p. 54)
 cites the 1988 Ars Combinatoria paper, not [Er91], for the $k=3$ conjecture.
 (2) Proof coverage is statements only for [Sa19]; the case $k=2$ rests on the
@@ -341,7 +344,7 @@ not compared with the arXiv preprints.
 
 - [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/theorem_1_3|Sauermann, Theorem 1.3]]
   (2019, refereed): the status-defining theorem; at
-  $t=\frac{(k-2)(k+1)}2-1$ it is the site's statement with
+  $t=\frac{(k-2)(k+1)}2-1$ it is the erdosproblems.com statement with
   $c_k>1/(10^4k^3)$, for every $k\ge3$.
 - [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/fact_1_1|Sauermann, Fact 1.1]]
   (after [EFRS90]): the sharp threshold $t_k(n)$ and the generalized wheel.

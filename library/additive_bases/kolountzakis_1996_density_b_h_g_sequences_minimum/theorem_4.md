@@ -64,4 +64,4 @@ $F_2(n)\ge\sqrt n-o(\sqrt n)$ recalled on p. 5.
 - [[../wiki/problems/integer_sequences/E0329/_index|Problem 329]]: the problem
   asks about the upper limit for Sidon sets; the theorem attains the value $1$
   for $B_2[2]$ sets, a wider class, and says nothing about Sidon sets. The
-  site's commentary credits this construction under the key [Ko96].
+  erdosproblems.com commentary credits this construction under the key [Ko96].

@@ -100,21 +100,21 @@ whether the file follows the paper line by line was not checked. The file has
 no `sorry` and no `axiom` declaration, and ends with
 `#print axioms Erdos476.erdos_476`, whose output is recorded in a comment as
 `propext`, `Classical.choice`, `Quot.sound`. The repository's owner announced
-the file on the site's discussion thread on 31 December 2025 as a solution
-different from the original, by the Combinatorial Nullstellensatz, giving its
-final statement; the record page lists copies for five Mathlib versions. The
-formal-conjectures statement file for the problem (linked above at its commit of
-2026-09-18; category `research solved`, `sorry` body) carries a `formal_proof`
-attribute naming this file on the `main` branch, not a fixed commit, and the
-community database lists the problem as proved in Lean, as of its last update
-on 31 December 2025. Only the file at the linked commit is described. No
-`formalized` evidence is listed: that evidence means Lean this corpus built
-and audited, and no statement-fidelity review of the file exists.
+the file on the erdosproblems.com discussion thread on 31 December 2025 as a
+solution different from the original, by the Combinatorial Nullstellensatz,
+giving its final statement; the record page lists copies for five Mathlib
+versions. The formal-conjectures statement file for the problem (linked above at
+its commit of 2026-09-18; category `research solved`, `sorry` body) carries a
+`formal_proof` attribute naming this file on the `main` branch, not a fixed
+commit, and the community database lists the problem as proved in Lean, as of
+its last update on 31 December 2025. Only the file at the linked commit is
+described. No `formalized` evidence is listed: that evidence means Lean this
+corpus built and audited, and no statement-fidelity review of the file exists.
 
 **Acceptance.** Refereed publications: The American Mathematical Monthly 102
 (1995), no. 3, 250--255, issued March 1995 (the date of this page), and
 Journal of Number Theory 56 (1996), no. 2, 404--417, issued February 1996
-(Crossref records, 2026-09-18 and 2026-10-07). The site's commentary
+(Crossref records, 2026-09-18 and 2026-10-07). The erdosproblems.com commentary
 does not name these papers, so no `reviewed` evidence is listed. The
 problem's standing rests on the original proof's page
 ([[problems/additive_combinatorics/E0476/claims/1994_03_01_dias_da_silva_hamidoune|Dias da Silva and Hamidoune]])

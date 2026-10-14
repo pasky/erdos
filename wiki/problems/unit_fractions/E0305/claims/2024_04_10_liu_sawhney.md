@@ -63,12 +63,12 @@ publisher's record gives the dates: received 28 October 2025, accepted 23
 December 2025, published online 14 January 2026. The arXiv preprint is v1 of 10
 April 2024, which is the version the library's
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/_index|source card]]
-records. The published text has not been compared with it. Reviewed: the site's
-curator, Thomas Bloom, marked Problem 305 proved. The problem's commentary
-records this bound by name as the improvement of the bound of Yokota's paper,
-which the commentary credits with the solution. The full proof of the theorem at
-its own parameters is not compiled in this corpus, and no independent review of
-it is recorded.
+records. The published text has not been compared with it. Reviewed: the
+erdosproblems.com curator, Thomas Bloom, marked Problem 305 proved. The
+problem's commentary records this bound by name as the improvement of the bound
+of Yokota's paper, which the commentary credits with the solution. The full
+proof of the theorem at its own parameters is not compiled in this corpus, and
+no independent review of it is recorded.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos305.lean` in
 Boris Alexeev's `lean-proofs` collection at the pinned commit (the third

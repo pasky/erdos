@@ -28,26 +28,27 @@ preserving the property of being triangle-free).
 Is it true that there exists a constant $c>0$ such that if $G$ is a connected
 graph on $n$ vertices then $h_4(G)<(1-c)n$?
 
-**Formulation.** The site's wording, as displayed in the snapshot of 5 September
-2026 (page last edited 15 June 2026), says "diameter $r$"; the cited 1998
-definition, the FormalConjectures statement and a discussion correction all use
-diameter *at most* $r$, and the discussion confirms that the quantified $G$ is
-triangle-free, as the definition of $h_r$ requires. The standing below targets
-that reading: is there $c>0$ such that every connected triangle-free $G$ on $n$
-vertices satisfies $h_4(G)<(1-c)n$, with $h_4$ counting the fewest added edges
-giving a triangle-free supergraph of diameter at most four? The negative answer
-carries over to the site's wording: a triangle-free supergraph of diameter
-exactly four is one of diameter at most four, so requiring exact diameter can
-only increase $h_4(G)$ or leave it undefined, and the lower bound
+**Formulation.** The erdosproblems.com wording, as displayed in the snapshot of
+5 September 2026 (page last edited 15 June 2026), says "diameter $r$"; the cited
+1998 definition, the FormalConjectures statement and a discussion correction all
+use diameter *at most* $r$, and the discussion confirms that the quantified $G$
+is triangle-free, as the definition of $h_r$ requires. The standing below
+targets that reading: is there $c>0$ such that every connected triangle-free $G$
+on $n$ vertices satisfies $h_4(G)<(1-c)n$, with $h_4$ counting the fewest added
+edges giving a triangle-free supergraph of diameter at most four? The negative
+answer carries over to the erdosproblems.com wording: a triangle-free supergraph
+of diameter exactly four is one of diameter at most four, so requiring exact
+diameter can only increase $h_4(G)$ or leave it undefined, and the lower bound
 $h_4(G)\ge(1-\eta)n$ stands.
 
-**Status.** SOLVED (LEAN), the site's label (snapshot of 5 September 2026). The
-resolution is negative: no such constant $c$ exists, so the frontmatter records
-the question as disproved. The standing is derived from the accepted claim page
+**Status.** SOLVED (LEAN), the erdosproblems.com label (snapshot of 5 September
+2026). The resolution is negative: no such constant $c$ exists, so the
+frontmatter records the question as disproved. The standing is derived from the
+accepted claim page
 [[problems/extremal_graph_theory/E0619/claims/2026_06_14_kuhn|Kuhn's counterexample]].
-Its acceptance evidence is the site's and formal-conjectures' documented
-acceptance. The corpus has not built the Lean proof, so no `formalized` evidence
-is listed.
+Its acceptance evidence is erdosproblems.com's and formal-conjectures'
+documented acceptance. The corpus has not built the Lean proof, so no
+`formalized` evidence is listed.
 
 **Source.** [erdosproblems.com/619](https://www.erdosproblems.com/619),
 snapshot of 5 September 2026, page last edited 15 June 2026. Cite as:
@@ -95,18 +96,19 @@ diameter-at-most-four question. The account below includes the full
 rewritten counting proof and Bloom's stronger bound. The external repository's
 verification record reports successful Lean checks; the corpus has not built
 the proof. No independent review of the rewritten proof is recorded on this
-page. The searches beyond the site covered later triangle-free
+page. The searches beyond erdosproblems.com covered later triangle-free
 diameter-four constructions and strengthenings of $h_4$ and located the EGR98
 author copy, which the library holds with its historical definition; [Er99] is
 not held.
 
 ## Progress
 
-The proposed constant does not exist. The site credits the counterexample to
-Claude Fable 5, prompted by Nikolas Kuhn, whose thread post gives the
-construction and the repository holding the complete Lean proof, written by
-Codex with GPT 5.5 under Fable's guidance. For every $0<\eta<1$ and every sufficiently large $n$, there is a
-connected triangle-free $n$-vertex graph $G$ such that
+The proposed constant does not exist. erdosproblems.com credits the
+counterexample to Claude Fable 5, prompted by Nikolas Kuhn, whose thread post
+gives the construction and the repository holding the complete Lean proof,
+written by Codex with GPT 5.5 under Fable's guidance. For every $0<\eta<1$ and
+every sufficiently large $n$, there is a connected triangle-free $n$-vertex
+graph $G$ such that
 
 $$
 h_4(G)\geq(1-\eta)n. \tag{1}
@@ -198,8 +200,8 @@ triangle-free tree, far weaker than (1).
 EGR98's exact
 [[../library/extremal_graph_theory/erdos_1998_decrease_diameter_triangle_free_graphs/problem_4_3|Problem
 4.3]] is the historical diameter-four question resolved by the accepted 2026
-proof chain above. The site also cites Er99, p. 4, a paper the library does
-not hold.
+proof chain above. erdosproblems.com also cites Er99, p. 4, a paper the library
+does not hold.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -103,12 +103,12 @@ Source: <https://users.renyi.hu/~p_erdos/1981-17.pdf>.
   (p. 143), $H(n)<Cn^{1/2}/\log n$, is the problem's statement in the
   authors' notation; [[extremal_graph_theory/erdos_1981_conjecture_hajos/theorem_3|Theorem 3]]
   (p. 142) gives a lower bound of the same order, $H(G)>C\sqrt n/\log n$ for
-  almost all graphs, which the site's commentary quotes, and
+  almost all graphs, which the erdosproblems.com commentary quotes, and
   [[extremal_graph_theory/erdos_1981_conjecture_hajos/theorem_2|Theorem 2]],
   [[extremal_graph_theory/erdos_1981_conjecture_hajos/theorem_1|Theorem 1]] and
   the [[extremal_graph_theory/erdos_1981_conjecture_hajos/lemma_p142|Lemma]] are
-  the weaker lower bound and its ingredients; the site's key ErFa81. None of
-  these is an upper bound for $H(n)$.
+  the weaker lower bound and its ingredients; the erdosproblems.com key ErFa81.
+  None of these is an upper bound for $H(n)$.
 - [[../wiki/problems/extremal_graph_theory/E0718/_index|#718]]: display (3) in
   the proof of Theorem 3 (p. 143), $\sigma(G)<C_2\sqrt n$ for almost all
   graphs, is the random-graph example the problem page cites, through

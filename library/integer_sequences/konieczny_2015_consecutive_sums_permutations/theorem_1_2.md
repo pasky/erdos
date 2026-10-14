@@ -61,10 +61,10 @@ of Section 5 for the upper bound.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0034/_index|Problem 34]]: the site's
-  $f(n)=\max_{\pi\in S_n}S(\pi)$ satisfies
+- [[../wiki/problems/number_theory/E0034/_index|Problem 34]]:
+  erdosproblems.com's $f(n)=\max_{\pi\in S_n}S(\pi)$ satisfies
   $(0.286\cdots+o(1))n^2\le f(n)\le(0.446\cdots+o(1))n^2$, the bounds the
-  site's commentary quotes; the constant question is Question 2. The thread
-  (19 October 2025) notes, as the paper does (p. 25), that the lower constant
-  is close to the random-permutation constant $(1+e^{-2})/4=0.283\ldots$ of
-  Theorem 1.3.
+  erdosproblems.com commentary quotes; the constant question is Question 2. The
+  thread (19 October 2025) notes, as the paper does (p. 25), that the lower
+  constant is close to the random-permutation constant
+  $(1+e^{-2})/4=0.283\ldots$ of Theorem 1.3.

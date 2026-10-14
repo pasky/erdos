@@ -29,8 +29,8 @@ sets of that size.
 How large must $n$ be (as a function of $r$) to ensure that there is such a
 family which achieves $n-3$ distinct sizes of sets?
 
-**Formulation.** The site asks how large $n$ must be as a function of $r$
-without saying whether the exact threshold or an estimate of it is wanted,
+**Formulation.** erdosproblems.com asks how large $n$ must be as a function of
+$r$ without saying whether the exact threshold or an estimate of it is wanted,
 and its curator wrote in the thread on 10 April 2026 that the problem was
 loosely phrased. The source, as Problem 1.1 of [HeTa26b] quotes it, defines
 the threshold $n_0(r)$, beyond which $n-3$ distinct sizes are always
@@ -39,8 +39,8 @@ that way. He and Tang's bounds, which give $n_0(r)=2r+o(r)$ together with the
 exact values at $r=2$ and $r=3$, answer it in that sense; the exact threshold
 for every $r$, which Thiim claims, is a sharper answer.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 10 April
-2026). The derived standing is claimed, with the claim answered, from two
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 10
+April 2026). The derived standing is claimed, with the claim answered, from two
 pending full claims. The first is
 [[problems/set_systems/E0776/claims/2026_02_10_he_tang|He and Tang 2026]], whose
 bounds give $n_0(r)=2r+o(r)$, with the exact values at $r=2$ and $r=3$. The
@@ -56,21 +56,21 @@ https://www.erdosproblems.com/776.
 - [HeTa26b] Y. He and Q. Tang, An Erdős-Trotter problem on antichains with
   multiplicity r on each occurring level. arXiv:2602.09803 (2026).
 
-**Formalization.** None recorded on the site, whose page shows no formalised
-statement, and formal-conjectures carries no statement file for the problem.
-Thiim's own Lean development of the claimed thresholds, which this corpus has
-not built, is linked from the claim page.
+**Formalization.** None recorded on erdosproblems.com, whose page shows no
+formalised statement, and formal-conjectures carries no statement file for the
+problem. Thiim's own Lean development of the claimed thresholds, which this
+corpus has not built, is linked from the claim page.
 
 ## Current assessment
 
-The question, in the site's formulation above, is attributed by the site's
-commentary to Erdős and Trotter. Call a family of subsets of $\{1,\ldots,n\}$
-admissible for $r$ when no member contains another and every size that occurs
-among its members occurs at least $r$ times, and let $g(n,r)$ be the largest
-number of distinct sizes such a family can have. The commentary records that
-$g(n,1)=n-2$ for $n>3$, and that for $r>1$ and large $n$ the value $n-3$ is
-attained and $n-2$ never; the problem defines the threshold $n_0(r)$, the
-least $N$ such that $g(n,r)=n-3$ for every $n>N$, and asks for estimates of
+The question, in the erdosproblems.com formulation above, is attributed by the
+erdosproblems.com commentary to Erdős and Trotter. Call a family of subsets of
+$\{1,\ldots,n\}$ admissible for $r$ when no member contains another and every
+size that occurs among its members occurs at least $r$ times, and let $g(n,r)$
+be the largest number of distinct sizes such a family can have. The commentary
+records that $g(n,1)=n-2$ for $n>3$, and that for $r>1$ and large $n$ the value
+$n-3$ is attained and $n-2$ never; the problem defines the threshold $n_0(r)$,
+the least $N$ such that $g(n,r)=n-3$ for every $n>N$, and asks for estimates of
 it, as the Formulation records.
 
 What is known rests on three pending claims, none refereed, endorsed by a
@@ -78,8 +78,8 @@ named outside reviewer, or checked by Lean the corpus audited. He and Tang
 [HeTa26b], who obtained their results by iterating ChatGPT-5.2 Thinking and
 wrote the paper themselves, compute $n_0(2)=3$ and $n_0(3)=8$ and prove
 $2r+2\le n_0(r)\le 2r+2\log_2 r+O(\log\log r)$ for $r\ge4$, so that
-$n_0(r)\sim2r$; the site's commentary credits them with these results while
-labeling the problem OPEN, and since the problem asks for estimates of
+$n_0(r)\sim2r$; the erdosproblems.com commentary credits them with these results
+while labeling the problem OPEN, and since the problem asks for estimates of
 $n_0(r)$, their page,
 [[problems/set_systems/E0776/claims/2026_02_10_he_tang|He and Tang's
 thresholds at r equal to 2 and 3]], is a pending full claim. The second full
@@ -98,23 +98,23 @@ and bound that confine the threshold to a finite range, as their **Depends
 on.** paragraphs record. The derived standing is claimed, with claim value
 answered, through the two pending full claims.
 
-Four items in the site's discussion thread have no claim page. The curator,
-Thomas Bloom, wrote on 10 April 2026 that, the problem being loosely phrased,
-they were minded to mark it solved on He and Tang's results and asked for views;
-the label was not changed, and the comment is recorded on He and Tang's page.
-Tang posted on 17 April 2026 numerical experiments suggesting $n_0(r)\le 2r+4$
-for $4\le r\le10$ and asked whether $n_0(r)=2r+C$ for a constant $C$; a
-conjecture from experiments is not a claim. Thiim posted on 15 July 2026 the
-value $n_0(11)=27$, with a construction checked by computer and the guess
-$n_0(r)=2r+5$ for $r\ge11$; it is a precursor of the full claim two days
-later, which subsumes it. A post of 6 September 2026 reports an independent
+Four items in the erdosproblems.com discussion thread have no claim page. The
+curator, Thomas Bloom, wrote on 10 April 2026 that, the problem being loosely
+phrased, they were minded to mark it solved on He and Tang's results and asked
+for views; the label was not changed, and the comment is recorded on He and
+Tang's page. Tang posted on 17 April 2026 numerical experiments suggesting
+$n_0(r)\le 2r+4$ for $4\le r\le10$ and asked whether $n_0(r)=2r+C$ for a
+constant $C$; a conjecture from experiments is not a claim. Thiim posted on 15
+July 2026 the value $n_0(11)=27$, with a construction checked by computer and
+the guess $n_0(r)=2r+5$ for $r\ge11$; it is a precursor of the full claim two
+days later, which subsumes it. A post of 6 September 2026 reports an independent
 rederivation of the cases $r=5$, $6$ and $11$ from the Kruskal–Katona
 recurrence, with finite certificates, a verifier, and Lean lemmas that import
 Thiim's development, produced with GPT-6 and Claude; it is a replication of
 part of the full claim, not a result of its own, and is noted on Thiim's page.
 
-**Search scope.** The site's problem page, its discussion thread and its
-proof-claims list, the arXiv record of He and Tang's paper, and the
+**Search scope.** The erdosproblems.com problem page, its discussion thread and
+its proof-claims list, the arXiv record of He and Tang's paper, and the
 formal-conjectures repository; the list held two entries, and on 2026-10-07
 the thread held nine posts and the repository no file for the problem.
 

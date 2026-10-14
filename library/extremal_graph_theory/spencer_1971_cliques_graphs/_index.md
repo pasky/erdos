@@ -191,17 +191,17 @@ had $g(n)\ge n-\log n-H(n)-O(1)$ with $H(n)\to\infty$; the paper removes
 the $H(n)$ term.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0927/_index|#927]]: the key
-Sp71 that the site's commentary cites (the problem's source keys are Er66b,
-Er71 and Er69b) and the refuting paper. The main bound (printed p. 419, PDF
-p. 1), "for $N$ sufficiently large ($>33000$ will do) $g(N)\ge N-\log N-4$",
+Sp71 that the erdosproblems.com commentary cites (the problem's source keys are
+Er66b, Er71 and Er69b) and the refuting paper. The main bound (printed p. 419,
+PDF p. 1), "for $N$ sufficiently large ($>33000$ will do) $g(N)\ge N-\log N-4$",
 logarithms to the base $2$ and cliques the maximal complete subgraphs of
-[Er66b], is the site's "$g(n)>n-\log_2n-O(1)$" with the constant $4$ and
-the range $N>33000$ made explicit, and the note added in proof of Erdős's
+[Er66b], is erdosproblems.com's "$g(n)>n-\log_2n-O(1)$" with the constant $4$
+and the range $N>33000$ made explicit, and the note added in proof of Erdős's
 1971 list ("Spencer proved $f(n)>n-\frac{\log n}{\log2}-c$") attests it. It
 refutes the conjectured $g(n)=n-\log_2n-\log_*(n)+O(1)$, since that would
 make $(n-\log_2n)-g(n)$ unbounded while the bound keeps it at most $4$ as
 printed and at most $5$ by the construction's counts; with Moon and Moser's
-Theorem 4 it gives the site's estimate $g(n)=n-\log_2n+O(1)$. The two
+Theorem 4 it gives erdosproblems.com's estimate $g(n)=n-\log_2n+O(1)$. The two
 printed bounds would give exactly $N-[\log_2N]-4\le g(N)\le N-[\log_2N]$
 for $N>33000$, but the construction's own counts give only
 $N-[\log_2N]-5\le g(N)$ in the third case's window
@@ -210,13 +210,13 @@ image at statement depth; the construction was read with its
 counts followed and its clique checks not checked, and the card records the
 undefined bracket $\{\log N\}$ of the closing bounds. Paged at
 [[extremal_graph_theory/spencer_1971_cliques_graphs/main_bound_p419|main_bound_p419]].
-[[../wiki/problems/set_systems/E0775/_index|#775]]: the site's reference key for the graph
-case of the clique-sizes question that the problem asks for $3$-uniform
-hypergraphs. The paper defines cliques and $g(n)$ for graphs (p. 419) and
-proves the main bound; it has no hypergraph statement. Its bound shows that
-graphs on $N$ vertices reach $N-\log_2N-4$ clique sizes while Moon and
-Moser's Theorem 4 keeps them below $N-[\log_2N]+1$, so the graph analog of
-the problem's "$n-O(1)$" fails by a logarithmic term.
+[[../wiki/problems/set_systems/E0775/_index|#775]]: the erdosproblems.com
+reference key for the graph case of the clique-sizes question that the problem
+asks for $3$-uniform hypergraphs. The paper defines cliques and $g(n)$ for
+graphs (p. 419) and proves the main bound; it has no hypergraph statement. Its
+bound shows that graphs on $N$ vertices reach $N-\log_2N-4$ clique sizes while
+Moon and Moser's Theorem 4 keeps them below $N-[\log_2N]+1$, so the graph analog
+of the problem's "$n-O(1)$" fails by a logarithmic term.
 
 **Results.**
 

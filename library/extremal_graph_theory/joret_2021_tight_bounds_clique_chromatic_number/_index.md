@@ -4,10 +4,10 @@ desc: |
   Proves that every graph of maximum degree Δ has clique chromatic number at
   most (1 + ε)Δ/log Δ once Δ is large and, as a corollary, that every graph
   on n vertices has clique chromatic number O(√(n/log n)); the corollary is
-  the theorem behind the site's resolution of Problem 610.
+  the theorem behind erdosproblems.com's resolution of Problem 610.
 license: CC-BY-ND-4.0
 created: 2026-09-19T07:35:00Z
-updated: 2026-10-08T03:52:32Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number
@@ -15,8 +15,9 @@ updated: 2026-10-08T03:52:32Z
 [[extremal_graph_theory/_index|..]]
 
 [[extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/corollary_2|corollary_2]]: The vertex-count form of the Joret–Micek–Reed–Smid bound, derived from
-Theorem 1 by stripping large neighborhoods; the theorem behind the site's
-resolution of Problem 610 through the complement of the largest color class.
+Theorem 1 by stripping large neighborhoods; the theorem behind
+erdosproblems.com's resolution of Problem 610 through the complement of the
+largest color class.
 
 [[extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/theorem_1|theorem_1]]: The degree form of the Joret–Micek–Reed–Smid bound on the clique chromatic
 number, proved by adapting Molloy's entropy-compression proof for the list
@@ -125,8 +126,8 @@ authored deduction on Problem 610's page.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0610/_index|#610]]: Corollary 2
 (p. 2, page image), $\chi_c(G)=O(\sqrt{n/\log n})$ for every $n$-vertex graph,
-is the theorem the site's resolution rests on: the complement of the largest
-class of a clique coloring meets every clique, so
+is the theorem erdosproblems.com's resolution rests on: the complement of the
+largest class of a clique coloring meets every clique, so
 $\tau(G)\le n-\lceil n/\chi_c(G)\rceil\le n-c\sqrt{n\log n}$ for large $n$,
 answering both displayed questions of the problem (the deduction is the
 problem page's); Theorem 1 (p. 2) is the degree form from which the corollary

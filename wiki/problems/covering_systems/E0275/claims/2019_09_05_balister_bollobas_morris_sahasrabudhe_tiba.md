@@ -60,9 +60,9 @@ earlier claim page is the result it reproves, not an input.
 at the DOI linked above, published online 2019-09-05, which gives the page its
 date.
 
-Reviewed: a user of the site located the paper on the discussion thread on
-2025-12-06. The site's curator, Thomas F. Bloom, added it to the problem's
-commentary as a simpler proof (page last edited 2026-01-23).
+Reviewed: a user of erdosproblems.com located the paper on the discussion thread
+on 2025-12-06. The erdosproblems.com curator, Thomas F. Bloom, added it to the
+problem's commentary as a simpler proof (page last edited 2026-01-23).
 
 Not counted as `formalized`: the linked Lean 4 development is in Boris Alexeev's
 lean-proofs repository. It was added 2026-01-20 (Lean `v4.24.0`, with its

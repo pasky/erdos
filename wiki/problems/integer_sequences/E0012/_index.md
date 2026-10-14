@@ -43,12 +43,12 @@ $$
 \sum_{n\in A}\frac{1}{n}<\infty?
 $$
 
-**Formulation.** The site's wording (page last edited 8 April 2026). Three
-questions about one class of sets: those in which no element divides the sum of
-two *distinct* larger elements, the "property P" of Erdős and Sárközy (1970, p.
-97: "no term $a_i$ divides the sum of two larger terms", read with distinct
-terms, since the paper's finite conjecture $\max A(x)=[\tfrac13x]+1$ is attained
-by a set containing $2n$ and $3n$ with $2n\mid3n+3n$). Erdős's later
+**Formulation.** The erdosproblems.com wording (page last edited 8 April 2026).
+Three questions about one class of sets: those in which no element divides the
+sum of two *distinct* larger elements, the "property P" of Erdős and Sárközy
+(1970, p. 97: "no term $a_i$ divides the sum of two larger terms", read with
+distinct terms, since the paper's finite conjecture $\max A(x)=[\tfrac13x]+1$ is
+attained by a set containing $2n$ and $3n$ with $2n\mid3n+3n$). Erdős's later
 restatements write the condition as $a_j+a_k\not\equiv0\ (\mathrm{mod}\ a_i)$
 for $i<j<k$ (1975, p. 302), "no $a_i$ divides the sum of two greater $a$'s"
 (1973, p. 132; 1977, p. 52; 1980, p. 113) or "no $a_i$ divides the sum of two
@@ -61,9 +61,9 @@ function of order at least $N^{1/2}$ along every $N$; the second asks whether
 every such set is thinner than $N^{1-c}$ infinitely often, for one absolute $c$;
 the third whether the reciprocal sum always converges.
 
-**Status.** Open; the site's label was OPEN. The standing derives from the
-problem's three parts. The first two, the liminf and density questions, are
-answered by an accepted claim and a pending one. The third, the reciprocal
+**Status.** Open; the erdosproblems.com label was OPEN. The standing derives
+from the problem's three parts. The first two, the liminf and density questions,
+are answered by an accepted claim and a pending one. The third, the reciprocal
 sum, has no standing claim.
 
 There are sets with property P and
@@ -71,9 +71,9 @@ $|A\cap\{1,\ldots,N\}|\ge N/(\log N)^{O(\log\log\log N)}$ for all large $N$.
 This answers the first question yes and the second no. The construction is
 credited to DeepMind's automated prover, AlphaProof Nexus. It was simplified and
 sharpened in the thread (7--9 April 2026). It is recorded in the commentary that
-the site's curator, Thomas Bloom, rewrote on 8 April 2026, while the problem's
-label was OPEN. Formal proofs of the first two parts sit in a fork of the
-formal-conjectures collection at pinned commits and in DeepMind's results
+the erdosproblems.com curator, Thomas Bloom, rewrote on 8 April 2026, while the
+problem's label was OPEN. Formal proofs of the first two parts sit in a fork of
+the formal-conjectures collection at pinned commits and in DeepMind's results
 repository (none built by this corpus). The result is recorded as an accepted
 partial claim on
 [[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
@@ -107,10 +107,11 @@ congruence constructions cannot reach divergence. The one proof claim on it, of
 It does not change the standing.
 
 **Source.** [erdosproblems.com/12](https://www.erdosproblems.com/12), accessed
-2026-09-18: the problem page (OPEN, a label the site glosses as open and not
-resolvable by a finite computation; last edited 8 April 2026; source keys
-[ErSa70], [Er73], [Er75b], [Er77c], [Er80, p. 113], [Er92c], [Er95c], [Er97],
-[Er97b], [Er97e], [Er98]), its thirteen-comment discussion thread (7--9 April
+2026-09-18: the problem page (OPEN, a label erdosproblems.com glosses as open
+and not resolvable by a finite computation; last edited 8 April 2026; source
+keys [ErSa70], [Er73], [Er75b], [Er77c], [Er80, p. 113], [Er92c], [Er95c],
+[Er97], [Er97b], [Er97e], [Er98]), its thirteen-comment discussion thread (7--9
+April
 2026) and its proof-claim tab with one partial claim. Cite as: T. F. Bloom,
 Erdős Problem #12, https://www.erdosproblems.com/12, accessed 2026-09-18.
 
@@ -185,8 +186,8 @@ Erdős Problem #12, https://www.erdosproblems.com/12, accessed 2026-09-18.
   [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_12_ii|Erdős #12-(ii)]].
 - [So26] Sothanaphan, N., A compact block construction for parts 1 and 2 of
   Erdős Problem 12. Note dated 8 April 2026, 6 pp., produced with GPT-5.4
-  Thinking as its disclosure states, linked in the site's thread on 7 April
-  2026:
+  Thinking as its disclosure states, linked in the erdosproblems.com thread on 7
+  April 2026:
   [drive.google.com](https://drive.google.com/file/d/15oHXNPNx68spt4QttwNx7bCfX7g_7MoO/view);
   Theorems 5.1 and 5.2 and Remark 1.2. Recorded on
   [[problems/integer_sequences/E0012/claims/2026_04_07_sothanaphan|its claim page]].
@@ -217,7 +218,7 @@ this corpus has built neither.
 
 ## Current assessment
 
-**The question.** The statement above; OPEN, glossed by the site as not
+**The question.** The statement above; OPEN, glossed by erdosproblems.com as not
 resolvable by a finite computation, last edited 8 April 2026. The commentary, in
 this page's words: the problem is Erdős and Sárközy's, who showed that such a
 set has density zero and that no uniform improvement holds, since for every
@@ -247,23 +248,23 @@ best-possible construction, and the
 $\sum1/a_i<c$ where $c$ is an absolute constant. Also, probably,
 $A(x)<x^{1-c_1}$ for infinitely many $x$", followed by the example $a_i=p_i^2$,
 $p_i\equiv3\ (\mathrm{mod}\ 4)$, with $A(x)>cx^{1/2}/\log x$ for every $x$: "We
-have not been able to do better." The three questions of the site are, in order,
-the liminf strengthening of that example, the second conjecture, and the first.
-Erdős restated the problem in 1973 (pp. 132--133: "Probably $\sum1/a_i<\infty$
-holds"), 1975 (pp. 302--303: "we conjecture that $\sum a_i^{-1}<\infty$ and that
-$A(X)<X^{1-\varepsilon}$ for infinitely many $X$"), 1977 (pp. 52--53: "it is not
-hard to prove that our sequence has density $0$ but it is much harder to prove
-that $\sum1/a_i<\infty$"), 1980 (p. 113: "We could not prove that
-$\sum1/a_i<\infty$") and 1992 (p. 42), each time as the open reciprocal-sum
-question; the 1975 one is stated as a conjecture, as the card of that source
-also records. The 1997 restatement [Er97b] (item 9, p. 230) asks all three
-questions in a compressed form: whether a sequence with property P can satisfy
-"$a_n>n^2$ for all $n>n_0$" (printed with $>$, read as $<$, since the $p_n^2$
-example is said to increase "just a little too fast"), "Perhaps every sequence
-with property P satisfies $a_n>n^{1+c}$ for infinitely many $n$ and sufficiently
-small $c$", and "Probably, $\sum1/a_m<\infty$ holds for every sequence with
-property P"; it prints property P as "no $a_i$ divides the sum of two other
-$a'_n$", without "larger".
+have not been able to do better." The three questions of erdosproblems.com are,
+in order, the liminf strengthening of that example, the second conjecture, and
+the first. Erdős restated the problem in 1973 (pp. 132--133: "Probably
+$\sum1/a_i<\infty$ holds"), 1975 (pp. 302--303: "we conjecture that
+$\sum a_i^{-1}<\infty$ and that $A(X)<X^{1-\varepsilon}$ for infinitely many
+$X$"), 1977 (pp. 52--53: "it is not hard to prove that our sequence has density
+$0$ but it is much harder to prove that $\sum1/a_i<\infty$"), 1980 (p. 113: "We
+could not prove that $\sum1/a_i<\infty$") and 1992 (p. 42), each time as the
+open reciprocal-sum question; the 1975 one is stated as a conjecture, as the
+card of that source also records. The 1997 restatement [Er97b] (item 9, p. 230)
+asks all three questions in a compressed form: whether a sequence with property
+P can satisfy "$a_n>n^2$ for all $n>n_0$" (printed with $>$, read as $<$, since
+the $p_n^2$ example is said to increase "just a little too fast"), "Perhaps
+every sequence with property P satisfies $a_n>n^{1+c}$ for infinitely many $n$
+and sufficiently small $c$", and "Probably, $\sum1/a_m<\infty$ holds for every
+sequence with property P"; it prints property P as "no $a_i$ divides the sum of
+two other $a'_n$", without "larger".
 
 **Results in hand before 2026.** Density zero (the 1970 Theorem). Lower bounds:
 the $p^2$ example, $\gg N^{1/2}/\log N$ for every $N$ (1970, p. 98), and
@@ -297,19 +298,20 @@ admits $x=y$). Read depth: each statement is checked against its source;
 Schoen's proof (pp. 193--194) has been followed step by step; no other proof has
 been followed; nothing is independently reviewed.
 
-**The 2026 constructions (credited by the site's commentary; provenance recorded, not judged).**
-The thread, oldest first, with the site's accounts named as the site names them:
-the Lean proof of the first question was made public on 3 April 2026 as a pull
-request to formal-conjectures from a fork (merged 7 April), and the proof of the
-second in a second pull request opened on 7 April; a comment of 11:37 on 7 April
-2026 (the account GTsoukalas) reports that DeepMind's automated prover produced
-Lean proofs of the first two questions, links the two fork files, and gives
-informal proofs derived from them; both build $A$ as a union of blocks $B_i$ in
-short intervals $[P_i,1.1P_i]$, each block free of three-term progressions (a
-base-$3$ digit set in the first proof, a Behrend sphere in the second), with
-every element of $B_i$ divisible by the $i$-th odd prime and congruent to $1$
-modulo the earlier ones, so that a relation $a\mid b+c$ across blocks fails
-modulo that prime and within a block forces $b+c=2a$; the first proof takes
+**The 2026 constructions (credited by the erdosproblems.com commentary;
+provenance recorded, not judged).** The thread, oldest first, with
+erdosproblems.com's accounts named as erdosproblems.com names them: the Lean
+proof of the first question was made public on 3 April 2026 as a pull request to
+formal-conjectures from a fork (merged 7 April), and the proof of the second in
+a second pull request opened on 7 April; a comment of 11:37 on 7 April 2026 (the
+account GTsoukalas) reports that DeepMind's automated prover produced Lean
+proofs of the first two questions, links the two fork files, and gives informal
+proofs derived from them; both build $A$ as a union of blocks $B_i$ in short
+intervals $[P_i,1.1P_i]$, each block free of three-term progressions (a base-$3$
+digit set in the first proof, a Behrend sphere in the second), with every
+element of $B_i$ divisible by the $i$-th odd prime and congruent to $1$ modulo
+the earlier ones, so that a relation $a\mid b+c$ across blocks fails modulo that
+prime and within a block forces $b+c=2a$; the first proof takes
 $|B_i|\gg\sqrt{P_{i+1}}$ for the liminf, the second
 $|B_k|\ge(\max B_{k+1})^{1-c}$ for the density. A reply of 11:54 the same day
 (the account TFBloom) asked for a summary and a human-readable PDF; a comment of
@@ -339,14 +341,14 @@ $\sum_k1/q_k$ is at best barely divergent and the side conditions push the
 reciprocal sum to convergence; a negative answer to the third question would
 therefore need a construction that is not a system of congruence conditions on
 blocks, and the comment suggests instead that an inverse theorem might show such
-constructions nearly optimal. The construction and the site's credit are
-recorded on
+constructions nearly optimal. The construction and the erdosproblems.com credit
+are recorded on
 [[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
 The curator's commentary of 8 April 2026 credits the result and the thread
 endorses it, but the problem's label was OPEN and settled neither question, so
 that credit is not acceptance; the claim is accepted on the refereed
 publication of [TKS26], and the formal proofs (below) were not built.
-Provenance: the site names DeepMind; the arguments are attributed to
+Provenance: erdosproblems.com names DeepMind; the arguments are attributed to
 an automated prover, and the thread's informal proofs are derived from its Lean
 proofs by the people named above. The paper [TKS26] by twenty-one named
 authors, published in Science in October 2026, whose arXiv abstract reports
@@ -368,8 +370,8 @@ at line 740 from a lemma `cilleruelo_dense_good_set`, again with ten `sorry`
 elsewhere. Neither file declares an axiom or uses `native_decide`; neither was
 built or kernel-checked here, no statement-fidelity review exists, and the
 `IsGood` predicate of the collection (distinct larger elements) was compared
-with the site's wording as stated under Formulation. The Lean files that
-[TKS26] links, `erdos_12.parts.i.lean` (1,237 lines) and
+with the erdosproblems.com wording as stated under Formulation. The Lean files
+that [TKS26] links, `erdos_12.parts.i.lean` (1,237 lines) and
 `erdos_12.parts.ii.lean` (794 lines) in DeepMind's results repository, pinned
 on the claim page at its commit of 2026-05-19, prove the same two
 formal-conjectures statements as `target_theorem_0` by different files; the
@@ -379,17 +381,17 @@ not built.
 
 **The third question.** Open. Every construction above has
 $\sum_{n\in A}1/n<\infty$; the thread's barrier remark says why congruence
-blocks cannot do otherwise, and the site's author expects convergence. The
-proof-claim tab holds one partial claim, submitted 30 July 2026 by Philip Ndikum
-and Serge Ndikum with Libertas Superintelligence, the system the tab names,
-asserting convergence for every good set through a block decomposition theorem,
-with a Lean development the claimants describe as kernel-checked apart from one
-declared axiom and a repository whose head commit on 2026-09-18 was dated 10
-September 2026; the site has not examined it, it is unrefereed, its declared
-axiom `growth_ineq` is false (at $i=0$ it puts the least element of every good
-set above $3^{8000}$, which the $p^2$ example refutes), so the development
-proves nothing, and its two comments, one pointing at that axiom, are recorded
-on
+blocks cannot do otherwise, and erdosproblems.com's author expects convergence.
+The proof-claim tab holds one partial claim, submitted 30 July 2026 by Philip
+Ndikum and Serge Ndikum with Libertas Superintelligence, the system the tab
+names, asserting convergence for every good set through a block decomposition
+theorem, with a Lean development the claimants describe as kernel-checked apart
+from one declared axiom and a repository whose head commit on 2026-09-18 was
+dated 10 September 2026; erdosproblems.com has not examined it, it is
+unrefereed, its declared axiom `growth_ineq` is false (at $i=0$ it puts the
+least element of every good set above $3^{8000}$, which the $p^2$ example
+refutes), so the development proves nothing, and its two comments, one pointing
+at that axiom, are recorded on
 [[problems/integer_sequences/E0012/claims/2026_07_30_ndikum_ndikum|its claim page]],
 a rejected partial claim that does not change the standing; the rest of the
 argument has not been examined.
@@ -398,7 +400,7 @@ argument has not been examined.
 constructions, [TKS26], and no proof or disproof of the reciprocal-sum
 question or bound for general sets beyond those above.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit and the two fork files at their
   pinned commits; the community database; the claim repository's head
   commit.
@@ -424,9 +426,10 @@ refereed publication of [TKS26], whose Science text and supplement were not
 read here (the account follows arXiv v2), and on Lean files not built by this
 corpus; this corpus has not reviewed the arguments. (2) The third question is
 open; the only claim on it rests on a false declared axiom and is rejected.
-(3) Four Erdős problem papers the site cites are not held; [Er97b] restates the
-three questions without new results. (4) Proofs are compiled as statements only,
-except Schoen's, followed step by step but not independently reviewed.
+(3) Four Erdős problem papers erdosproblems.com cites are not held; [Er97b]
+restates the three questions without new results. (4) Proofs are compiled as
+statements only, except Schoen's, followed step by step but not independently
+reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -31,13 +31,13 @@ $$
 
 where $n^{-1}$ denotes the inverse of $n$ modulo $p$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 6
-March 2026). $\epsilon>0$ is fixed and $C_\epsilon$ may depend on it but not on
-$p$; "the sum of at most $C_\epsilon$ many elements" allows a summand to be used
-more than once (Erdős and Graham's 1980 wording, quoted below, has the same
-form); and $n^{-1}$ is the inverse of $n$ modulo $p$, which exists for every
-$n\le p^\epsilon<p$ when $\epsilon<1$. For $\epsilon\ge1$ the set contains every
-nonzero residue (each $a\ne0$ is $(a^{-1})^{-1}$) and
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 6 March 2026). $\epsilon>0$ is fixed and $C_\epsilon$ may depend on it
+but not on $p$; "the sum of at most $C_\epsilon$ many elements" allows a summand
+to be used more than once (Erdős and Graham's 1980 wording, quoted below, has
+the same form); and $n^{-1}$ is the inverse of $n$ modulo $p$, which exists for
+every $n\le p^\epsilon<p$ when $\epsilon<1$. For $\epsilon\ge1$ the set contains
+every nonzero residue (each $a\ne0$ is $(a^{-1})^{-1}$) and
 $0\equiv1^{-1}+(p-1)^{-1}$, so two summands suffice and the question is in
 substance about $0<\epsilon<1$; a larger $\epsilon$ enlarges the set, so
 $C_\epsilon$ may be taken nonincreasing in $\epsilon$ (two authored remarks;
@@ -48,15 +48,15 @@ with repetition allowed, but with exactly $N$ summands as printed, which fails
 for the primes with $p^\epsilon<2$, so that statement too needs the at-most
 reading for the small primes (see Croot's page).
 
-**Status.** Proved, in the site's label. The three claim pages below are
-accepted full claims, and the frontmatter standing is derived from them.
+**Status.** Proved, in the erdosproblems.com label. The three claim pages below
+are accepted full claims, and the frontmatter standing is derived from them.
 
 Shparlinski's Theorem 3 (Arch. Math. 78 (2002), 445--448, refereed) gave the
 first affirmative answer, on
 [[problems/number_theory/E1180/claims/2002_06_01_shparlinski|its page]]. For
 every $\epsilon>0$, every sufficiently large prime $p$ and every integer $c$, it
 gives $k=4\epsilon^{-3}+O(\epsilon^{-2})$ pairwise distinct $x_i\le p^\epsilon$
-with $\sum x_i^{-1}\equiv c\pmod p$. This is the site's
+with $\sum x_i^{-1}\equiv c\pmod p$. This is erdosproblems.com's
 $C_\epsilon\ll\epsilon^{-3}$ for $p\ge p_0(\epsilon)$. The authored small-prime
 remark below extends it to every prime, with repetition allowed.
 
@@ -74,18 +74,18 @@ Glibichuk's Theorem 3 (Mat. Zametki 79 (2006), 384--395, refereed; in Russian)
 is also first-hand, on
 [[problems/number_theory/E1180/claims/2006_03_01_glibichuk|its page]]. It gives
 $N=8([1/\epsilon+1/2]+1)^2$ pairwise distinct summands for all sufficiently
-large $p$. This is the site's $C_\epsilon\ll\epsilon^{-2}$. An authored one-line
-remark below extends it to the remaining finitely many primes, with repetition
-allowed.
+large $p$. This is erdosproblems.com's $C_\epsilon\ll\epsilon^{-2}$. An authored
+one-line remark below extends it to the remaining finitely many primes, with
+repetition allowed.
 
-The trivial lower bound $C_\epsilon\gg\epsilon^{-1}$ (the site's remark) follows
-from counting. The true order of $C_\epsilon$, between $\epsilon^{-1}$ and
-$\epsilon^{-2}$, is open.
+The trivial lower bound $C_\epsilon\gg\epsilon^{-1}$ (the erdosproblems.com
+remark) follows from counting. The true order of $C_\epsilon$, between
+$\epsilon^{-1}$ and $\epsilon^{-2}$, is open.
 
 **Source.** [erdosproblems.com/1180](https://www.erdosproblems.com/1180),
 accessed 2026-09-18: the problem page (PROVED, with
-the site's note that the answer is affirmative; last edited 06 March 2026;
-source key [ErGr80, p. 103]; commentary naming Croot and citing [Sh02],
+the erdosproblems.com note that the answer is affirmative; last edited 06 March
+2026; source key [ErGr80, p. 103]; commentary naming Croot and citing [Sh02],
 [Gl06] and Problem 540; no formalised statement listed then, one since 20
 September 2026, see Formalization), its empty discussion thread and
 its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1180,
@@ -114,7 +114,7 @@ https://www.erdosproblems.com/1180, accessed 2026-09-18.
 - [Cr99] Croot, III, E. S., On some questions of Erdős and Graham about
   Egyptian fractions. Mathematika 46 (1999), no. 2, 359--372, DOI
   10.1112/S0025579300007828. Proposition 2 (pp. 4--5 of the author's
-  typescript): the source of the site's
+  typescript): the source of erdosproblems.com's
   $(\log p)^{3+o(1)}$ bound, as Glibichuk's introduction attributes it.
   Library home:
   [[../library/unit_fractions/crootiii_1999_questions_erdos_graham_about_egyptian_fractions/_index|crootiii_1999_questions_erdos_graham_about_egyptian_fractions]].
@@ -139,7 +139,7 @@ https://www.erdosproblems.com/1180, accessed 2026-09-18.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1180.lean),
 linked at the revision of 2026-10-07; the file was added on 20 September 2026
 and its variants amended on 22 September 2026, and on 2026-09-18 no file existed
-and the site's page listed no formalised statement. Its main theorem
+and the erdosproblems.com page listed no formalised statement. Its main theorem
 `erdos_1180`, tagged `research solved` with `answer(True)`, states that for
 every $\epsilon>0$ there is a $C$ such that for every prime $p$ every residue is
 the sum of a multiset of at most $C$ inverses of integers $n$ with $1\le n\le
@@ -152,16 +152,16 @@ follows Glibichuk's 2006 solution, and contains no `sorry`. The variants restate
 Shparlinski's and Glibichuk's bounds for sufficiently large primes, the trivial
 lower bound, and the open question whether $C_\epsilon\le\epsilon^{-1-o(1)}$.
 The community database records the problem formalized since 20 September 2026
-(fetched 2026-10-06) and the site's page lists a formalised statement (accessed
-2026-10-07). Neither file has been built or audited here; Glibichuk's claim page
-records the pinned link, and the standing rests on the papers.
+(fetched 2026-10-06) and the erdosproblems.com page lists a formalised statement
+(accessed 2026-10-07). Neither file has been built or audited here; Glibichuk's
+claim page records the pinned link, and the standing rests on the papers.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; PROVED;
-last edited 06 March 2026; source key [ErGr80, p. 103]. In the site's
-commentary, Croot is named for a bound of $(\log p)^{3+o(1)}$ summands,
-Shparlinski [Sh02] for the first positive answer, with
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED; last edited 06 March 2026; source key [ErGr80, p. 103]. In the
+erdosproblems.com commentary, Croot is named for a bound of $(\log p)^{3+o(1)}$
+summands, Shparlinski [Sh02] for the first positive answer, with
 $C_\epsilon\ll\epsilon^{-3}$, and Glibichuk [Gl06] for lowering this to
 $\ll\epsilon^{-2}$; the commentary regards $\gg\epsilon^{-1}$ as the trivial
 lower bound, conjectures that $\epsilon^{-1-o(1)}$ summands may suffice, and
@@ -171,14 +171,15 @@ on 6 March 2026, without dating the change of state.
 
 **Origin ([ErGr80], printed p. 103).** In the
 chapter updating Erdős's 1963 problem list, after the paragraph on Problem
-44 (the zero-sum question $k(n)<c\sqrt n$, the site's Problem 540): "The
-following related conjecture is of some interest and may be quite
+44 (the zero-sum question $k(n)<c\sqrt n$, erdosproblems.com's Problem 540):
+"The following related conjecture is of some interest and may be quite
 difficult. Is it true that for every $\varepsilon>0$, there is an
 $f(\varepsilon)$ so that if $a_1,\ldots,a_k$, $k=[p^\varepsilon]$, are the
 residues $\frac1i$ modulo $p$, $1\le i\le k$ (where $p$ is prime), then
 every residue modulo $p$ is the sum of at most $f(\varepsilon)$ $a_i$'s?"
-The book's $f(\varepsilon)$ is the site's $C_\varepsilon$; neither requires
-distinct summands. The site's pointer to Problem 540 is this adjacency.
+The book's $f(\varepsilon)$ is erdosproblems.com's $C_\varepsilon$; neither
+requires distinct summands. The erdosproblems.com pointer to Problem 540 is this
+adjacency.
 
 **The first answers (Shparlinski's theorem; Croot's 1999 bound in the author's
 typescript).**
@@ -191,8 +192,8 @@ holds", where (1) is $\sum_{i=1}^k1/x_i\equiv c\pmod p$ (p. 445); the proof
 takes $m=\lceil\varepsilon^{-1}+1/2\rceil$ and $k=2m^2(2m-1)+1$, and finds the
 $x_i$ among products of two primes from an interval $[X,2X]$ with $4X^2\le
 p^\varepsilon$, by Karatsuba's exponential-sum bound in the Friedlander--Iwaniec
-form (the paper's Lemma 2) and the orthogonality of additive characters. So the
-site's $C_\epsilon\ll\epsilon^{-3}$ is Shparlinski's, for $p\ge
+form (the paper's Lemma 2) and the orthogonality of additive characters. So
+erdosproblems.com's $C_\epsilon\ll\epsilon^{-3}$ is Shparlinski's, for $p\ge
 p_0(\varepsilon)$ and with distinct summands; the paper's abstract says "for any
 prime $p$", a looseness the theorem's wording corrects (with distinct summands
 the primes with $p^\varepsilon<2$ cannot be covered), and its introduction
@@ -252,8 +253,8 @@ the resulting $N$ is not explicit. Acceptance: publication in Integers (a
 refereed electronic journal), volume 4 (2004), Paper A20, per the journal's
 contents and the Zenodo deposit; the journal's text, deposited at Zenodo, agrees
 with arXiv v2, while v1 and the copy on the author's papers page keep v1's
-introduction, Theorem 2 and five-entry reference list. The site's commentary
-names Croot for the earlier bound and not for this theorem.
+introduction, Theorem 2 and five-entry reference list. The erdosproblems.com
+commentary names Croot for the earlier bound and not for this theorem.
 [[../library/number_theory/glibichuk_2006_combinatorial_properties_sets_residues_modulo_prime/theorem_3|Glibichuk's Theorem 3]]
 (p. 385; in Russian): for every $\varepsilon>0$, every sufficiently large prime
 $p$ and every residue class $a\pmod p$ there are positive pairwise distinct
@@ -281,24 +282,25 @@ large $p$); $4\epsilon^{-3}+O(\epsilon^{-2})$, explicitly $2m^2(2m-1)+1$
 with $m=\lceil1/\epsilon+1/2\rceil$ (Shparlinski, Theorem 3; distinct
 summands; large $p$); $(\log p)^{3+o(1)}$ distinct prime summands (Croot
 1999, Proposition 2).
-Lower: the lower bound $C_\epsilon\gg\epsilon^{-1}$, which the site calls
-trivial, comes from counting, since sums of at most $C$ elements of a set
+Lower: the lower bound $C_\epsilon\gg\epsilon^{-1}$, which erdosproblems.com
+calls trivial, comes from counting, since sums of at most $C$ elements of a set
 of size $\lfloor p^\epsilon\rfloor$ take at most
 $(\lfloor p^\epsilon\rfloor+1)^C$ values, and covering all $p$ residues
 forces $C\ge(1-o(1))/\epsilon$ as $p\to\infty$ (an authored one-line
-reading of the site's remark). The
-site's expectation $C_\epsilon\le\epsilon^{-1-o(1)}$ is open; no source
-found addresses the order of $C_\epsilon$ between $\epsilon^{-1}$ and
+reading of the erdosproblems.com remark).
+erdosproblems.com's expectation $C_\epsilon\le\epsilon^{-1-o(1)}$ is open; no
+source found addresses the order of $C_\epsilon$ between $\epsilon^{-1}$ and
 $\epsilon^{-2}$.
 
 **Search scope.** The routes below, as they stood on 2026-09-18, showed no
 dispute of the theorems, no bound on $C_\epsilon$ below order $\epsilon^{-2}$
 and no Lean file for the problem.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures at the revision of that day (no
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing of formal-conjectures at the revision of that day (no
   file); the community database as fetched that day. The
-  reference texts were not requested from the site's reference service.
+  reference texts were not requested from the erdosproblems.com reference
+  service.
 - The primary sources, to the depth stated above: [Cr04] pp. 1--2 in full,
   pp. 2--6 for structure; [Gl06] pp. 384--385 and 395; [Cr99] typescript
   pp. 1--7 (Proposition 2 and its Corollary); [ErGr80] p. 103; [Sh02]

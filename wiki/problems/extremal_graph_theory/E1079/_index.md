@@ -27,12 +27,12 @@ updated: 2026-10-08T01:29:59Z
 $\mathrm{ex}(n;K_r)$ edges then must $G$ contain a vertex with degree $d\gg_r n$
 whose neighbourhood contains at least $\mathrm{ex}(d;K_{r-1})$ edges?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 14
-October 2025). $\mathrm{ex}(n;K_r)$ is the Turán number, the largest number of
-edges of a $K_r$-free graph on $n$ vertices, attained by the Turán graph
-$T_{r-1}(n)$; "degree $d\gg_rn$" asks for $d\ge c_rn$ with a constant $c_r>0$
-depending on $r$ alone; "neighborhood" is the set of vertices joined to the
-vertex, and the edges counted are those of the subgraph it induces. Erdős's
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 14 October 2025). $\mathrm{ex}(n;K_r)$ is the Turán number, the largest
+number of edges of a $K_r$-free graph on $n$ vertices, attained by the Turán
+graph $T_{r-1}(n)$; "degree $d\gg_rn$" asks for $d\ge c_rn$ with a constant
+$c_r>0$ depending on $r$ alone; "neighborhood" is the set of vertices joined to
+the vertex, and the edges counted are those of the subgraph it induces. Erdős's
 1975 wording differs in two places
 ([[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p14|Er75, p. 14]]):
 he asks it for graphs $G(n;f_r(n))$, where $f_r(n)$ is the least number of
@@ -40,13 +40,13 @@ edges forcing a $K_r$, that is $\mathrm{ex}(n;K_r)+1$ edges, and asks the star
 to span at least $f_{r-1}(m)=\mathrm{ex}(m;K_{r-1})+1$ edges, so that the
 neighborhood contains a $K_{r-1}$ and the graph a $K_r$, which is the sense of
 his "If true this would be a nice generalization of Turán's theorem"; the
-site's version drops both "$+1$"s. Two observations, this page's own, about
-the site's version. First, its conclusion is satisfied by the Turán graph
-$T_{r-1}(n)$ itself: the neighborhood of any vertex is the union of the other
-$r-2$ classes, whose sizes differ by at most one, so it induces the Turán
-graph $T_{r-2}(d)$ with exactly $\mathrm{ex}(d;K_{r-1})$ edges and
-$d\ge(r-2)\lfloor n/(r-1)\rfloor$; the exception the site makes for the Turán
-graph itself therefore belongs to a statement with a strict inequality
+erdosproblems.com version drops both "$+1$"s. Two observations, this page's own,
+about the erdosproblems.com version. First, its conclusion is satisfied by the
+Turán graph $T_{r-1}(n)$ itself: the neighborhood of any vertex is the union of
+the other $r-2$ classes, whose sizes differ by at most one, so it induces the
+Turán graph $T_{r-2}(d)$ with exactly $\mathrm{ex}(d;K_{r-1})$ edges and
+$d\ge(r-2)\lfloor n/(r-1)\rfloor$; the exception erdosproblems.com makes for the
+Turán graph itself therefore belongs to a statement with a strict inequality
 somewhere, and [BoTh81] supplies it: its theorem
 ([[../library/extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/theorem_p111|BoTh81, Theorem, p. 111]])
 takes a graph with at least $\mathrm{ex}(n;K_r)$ edges and concludes that
@@ -59,24 +59,25 @@ the hypothesis "at least $t_r(n)$ edges" and the conclusion "either
 $G\cong T_r(n)$ or there is a vertex $v$" whose neighborhood induces "more
 than $t_{r-1}(m)$ edges", which is the 1981 paper's "$+1$" in other words;
 Bondy's own Theorem 2 has "more than" in both places (the Status). Second, the
-site's label SOLVED, which the site glosses as a resolution by neither a proof
-nor a disproof, attaches to a yes-or-no question that the commentary answers
-affirmatively; the claim pages record the result as proved, and the
-frontmatter standing derives from them. The thread's first comment (7 October
+erdosproblems.com label SOLVED, which erdosproblems.com glosses as a resolution
+by neither a proof nor a disproof, attaches to a yes-or-no question that the
+commentary answers affirmatively; the claim pages record the result as proved,
+and the frontmatter standing derives from them. The thread's first comment (7
+October
 2025) reads the intended statement as asking for a set $S$ of $\Omega_r(n)$
 vertices inside some neighborhood with $\mathrm{ex}(|S|;K_{r-1})$ edges, and
-the site's curator agreed that this was presumably Erdős's intent; the
-statement itself was not changed. Under that reading the answer is also yes:
+the erdosproblems.com curator agreed that this was presumably Erdős's intent;
+the statement itself was not changed. Under that reading the answer is also yes:
 take $S=N(x)$ for the vertex $x$ of the Bollobás--Thomason theorem, with
 $|S|=d>c_rn$ and at least $\mathrm{ex}(d;K_{r-1})+1$ edges; for the Turán
 graph any neighborhood $N(x)$ has exactly $\mathrm{ex}(d;K_{r-1})$ edges.
 
-**Status.** Solved, the site's label. The answer is yes. The standing here is
-solved and proved, derived from the claim pages below. The site credits the
-affirmative answer, with the Turán graph as the one exception, to Bollobás and
-Thomason [BoTh81]. It credits Bondy [Bo83b] with the strengthening that for more
-than $\mathrm{ex}(n;K_r)$ edges the vertex can be taken of maximum degree. The
-community database records the problem as solved.
+**Status.** Solved, the erdosproblems.com label. The answer is yes. The standing
+here is solved and proved, derived from the claim pages below. erdosproblems.com
+credits the affirmative answer, with the Turán graph as the one exception, to
+Bollobás and Thomason [BoTh81]. It credits Bondy [Bo83b] with the strengthening
+that for more than $\mathrm{ex}(n;K_r)$ edges the vertex can be taken of maximum
+degree. The community database records the problem as solved.
 
 The two status-defining sources are B. Bollobás and A. Thomason, "Dense
 neighbourhoods and Turán's theorem", J. Combin. Theory Ser. B 31 (1981), no. 1,
@@ -95,13 +96,14 @@ $m\ge t_r(n)$ edges. Then either $G=T_r(n)$ or else there is a vertex $x$ such
 that $G[\Gamma(x)]$, the subgraph spanned by the neighbours of $x$, contains at
 least $t_{r-1}(d)+1$ edges, where $d=d(x)$. Furthermore
 $d(x)>n(1-1/r-1/(1+\sqrt r))$." With $t_{r-1}(n)=\mathrm{ex}(n;K_r)$ this is the
-site's statement in the paper's letters. It has the "$+1$" of Erdős's question
-in the conclusion, the Turán graph as the only exception, and an explicit
-constant, $c_r=1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$ in the site's indexing
-($c_4\approx0.30$). The paper attributes the conjecture to [Er75], its [2], in
-the form "if $e(G^n)>t_r(n)$" (p. 111). Its proof (pp. 112--114) is followed on
-the card. The card records four observations: three misprints, and a final
-inequality that needs $n\ge r(1+\sqrt r)^2/2$ in the paper's $r$.
+erdosproblems.com statement in the paper's letters. It has the "$+1$" of Erdős's
+question in the conclusion, the Turán graph as the only exception, and an
+explicit constant, $c_r=1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$ in the
+erdosproblems.com indexing ($c_4\approx0.30$). The paper attributes the
+conjecture to [Er75], its [2], in the form "if $e(G^n)>t_r(n)$" (p. 111). Its
+proof (pp. 112--114) is followed on the card. The card records four
+observations: three misprints, and a final inequality that needs
+$n\ge r(1+\sqrt r)^2/2$ in the paper's $r$.
 
 [Bo83b] (library home
 [[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/_index|bondy_1983_large_dense_neighbourhoods_turan_s_theorem]],
@@ -129,13 +131,14 @@ $t_{r-1}(m)$ edges" is that paper's "at least $t_{r-1}(d)+1$ edges". It names a
 second proof, an Erdős--Sós preprint, which is not among this page's sources.
 Bondy's examples (p. 111) are graphs with exactly $t_r(n)$ edges that are not
 Turán graphs and whose maximum-degree vertices do not have the strict
-conclusion. They show that the "$>$" of the site's account of [Bo83b] cannot be
-weakened for that conclusion. For the site's non-strict conclusion a
-maximum-degree vertex always works, as the Bondy claim page records.
+conclusion. They show that the "$>$" of erdosproblems.com's account of [Bo83b]
+cannot be weakened for that conclusion. For erdosproblems.com's non-strict
+conclusion a maximum-degree vertex always works, as the Bondy claim page
+records.
 
-Nothing here is independently reviewed. The site's label SOLVED attaches to an
-affirmative answer proved in two refereed notes. The claim pages record the
-result as proved:
+Nothing here is independently reviewed. The erdosproblems.com label SOLVED
+attaches to an affirmative answer proved in two refereed notes. The claim pages
+record the result as proved:
 [[problems/extremal_graph_theory/E1079/claims/1981_08_01_bollobas_thomason|Bollobás and Thomason]]
 (full) and
 [[problems/extremal_graph_theory/E1079/claims/1983_02_01_bondy|Bondy]] (partial,
@@ -143,7 +146,7 @@ for graphs with more than $\mathrm{ex}(n;K_r)$ edges).
 
 **Source.** [erdosproblems.com/1079](https://www.erdosproblems.com/1079),
 accessed 2026-09-18: the problem page
-(SOLVED, glossed by the site as a resolution by neither a proof nor a
+(SOLVED, glossed by erdosproblems.com as a resolution by neither a proof nor a
 disproof; last edited 14 October 2025; source keys [Bo83b], [BoTh81],
 [Er75]; commentary quoting [Er75] and citing [BoTh81] and [Bo83b]), its
 three-comment discussion thread (7 and 13 October 2025) and its empty
@@ -184,8 +187,9 @@ https://www.erdosproblems.com/1079, accessed 2026-09-18.
   the passage is paged at
   [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p14|problem_p14]].
 - [BoNi05] Bollobás, B. and Nikiforov, V., The sum of degrees in cliques.
-  Electron. J. Combin. 12 (2005), N21. Not a site key for this problem; its
-  introduction carries no attestation of [BoTh81] or [Bo83b]. Library home:
+  Electron. J. Combin. 12 (2005), N21. Not an erdosproblems.com key for this
+  problem; its introduction carries no attestation of [BoTh81] or [Bo83b].
+  Library home:
   [[../library/extremal_graph_theory/bollobas_2005_sum_degrees_cliques/_index|bollobas_2005_sum_degrees_cliques]].
 
 **Formalization.** A statement file and an external proof, neither built by the
@@ -216,15 +220,15 @@ axioms of both theorems. Since it names those authors, it is a `formalization`
 link on
 [[problems/extremal_graph_theory/E1079/claims/1981_08_01_bollobas_thomason|Bollobás and Thomason's claim page]]
 and not a claim of its own; the corpus has not built or audited it, so no
-`formalized` evidence is recorded. The site showed no formalized statement on
-2026-09-18 and shows one since; the community database (teorth/erdosproblems,
-`data/problems.yaml`, read 2026-10-06) records the problem solved (last update
-14 October 2025) and its statement formalized since 19 September 2026, with
-`formal_status` unformalized.
+`formalized` evidence is recorded. erdosproblems.com showed no formalized
+statement on 2026-09-18 and shows one since; the community database
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-10-06) records the
+problem solved (last update 14 October 2025) and its statement formalized since
+19 September 2026, with `formal_status` unformalized.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; SOLVED; last edited 14 October 2025. The commentary, in the corpus's
 words: it repeats Erdős's remark that a positive answer would generalize
 Turán's theorem, states that the answer is yes unless $G$ is the Turán
@@ -232,7 +236,7 @@ graph itself, proved by Bollobás and Thomason [BoTh81], and that Bondy
 [Bo83b] showed the vertex can be taken of maximum degree when $G$ has more
 than $\mathrm{ex}(n;K_r)$ edges. The thread: a comment of 7 October 2025
 (the account zach hunter) on the intended reading (a neighborhood set $S$ of
-size $\Omega_r(n)$ with $\mathrm{ex}(|S|;K_{r-1})$ edges) and the site
+size $\Omega_r(n)$ with $\mathrm{ex}(|S|;K_{r-1})$ edges) and erdosproblems.com
 author's agreement the same day; a comment of 13 October 2025 (the account
 msawhney) giving the two publishers' article pages with their journal
 issues (JCTB August 1981, vol. 31, issue 1; JCTB February 1983, vol. 34,
@@ -241,11 +245,11 @@ $\mathrm{ex}(n;K_r)+1$ edges, and saying the reference was located by
 GPT-5 Pro. The proof-claim tab is
 empty. The community database record says solved (14 October 2025).
 
-**Status support.** The support for the site's label is of two kinds, and the
-first is the mathematics itself. The theorem of [BoTh81] (p. 111, the statement;
-pp. 112--114, the proof) answers the site's question affirmatively for every
-$r$, with the "$+1$" in the conclusion, the Turán graph as the only exception
-and an explicit constant;
+**Status support.** The support for the erdosproblems.com label is of two kinds,
+and the first is the mathematics itself. The theorem of [BoTh81] (p. 111, the
+statement; pp. 112--114, the proof) answers the erdosproblems.com question
+affirmatively for every $r$, with the "$+1$" in the conclusion, the Turán graph
+as the only exception and an explicit constant;
 [[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_2|Theorem 2]]
 of [Bo83b] (p. 110), with its twelve-line proof, answers Erdős's
 own formulation ($f_r(n)$ edges, a star with at least $f_{r-1}(m)$ edges)
@@ -265,10 +269,10 @@ neither is needed as a second-hand attestation. The same lists carry a run of
 2022--2026 spectral Turán papers citing the two notes for context. The one
 further proof of the theorem named in the notes is the Erdős--Sós preprint that
 Bondy credits alongside [BoTh81] for Theorem 1; the note gives it no title. The
-site's label SOLVED, glossed as a resolution by neither a proof nor a disproof,
-sits on a yes-or-no question answered affirmatively by two refereed theorems;
-the claim pages therefore carry the value proved, and the Status sentence keeps
-the site's label.
+erdosproblems.com label SOLVED, glossed as a resolution by neither a proof nor a
+disproof, sits on a yes-or-no question answered affirmatively by two refereed
+theorems; the claim pages therefore carry the value proved, and the Status
+sentence keeps the erdosproblems.com label.
 
 **The theorem.**
 [[../library/extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/theorem_p111|The Theorem]]
@@ -305,14 +309,14 @@ that the graph spanned by its star has at least $f_{r-1}(m)$ edges?", adding
 that a positive answer "would be a nice generalization of Turán's theorem"
 and that he could not settle the first interesting case, $r=4$. The
 question is asked for $f_r(n)=\mathrm{ex}(n;K_r)+1$ edges and for a star
-with $f_{r-1}(m)=\mathrm{ex}(m;K_{r-1})+1$ edges; the site's statement has
-"at least $\mathrm{ex}(n;K_r)$" and "at least $\mathrm{ex}(d;K_{r-1})$"
-(the Formulation note). The survey gives no partial result. [BoTh81] cites
-it as its [2] and restates the conjecture with the strict inequality, "if
-$e(G^n)>t_r(n)$ then there is a vertex $x$ in $G$ with $d(x)>c_rn$ such
-that $G[\Gamma(x)]$ ... contains at least $t_{r-1}(d)+1$ edges" (p. 111),
-which is Erdős's $f_{r+1}(n)$ edges in the paper's indexing; its theorem
-weakens the hypothesis to $e(G)\ge t_r(n)$ and excepts the Turán graph.
+with $f_{r-1}(m)=\mathrm{ex}(m;K_{r-1})+1$ edges; the erdosproblems.com
+statement has "at least $\mathrm{ex}(n;K_r)$" and "at least
+$\mathrm{ex}(d;K_{r-1})$" (the Formulation note). The survey gives no partial
+result. [BoTh81] cites it as its [2] and restates the conjecture with the strict
+inequality, "if $e(G^n)>t_r(n)$ then there is a vertex $x$ in $G$ with
+$d(x)>c_rn$ such that $G[\Gamma(x)]$ ... contains at least $t_{r-1}(d)+1$ edges"
+(p. 111), which is Erdős's $f_{r+1}(n)$ edges in the paper's indexing; its
+theorem weakens the hypothesis to $e(G)\ge t_r(n)$ and excepts the Turán graph.
 Bondy's Theorem 2 answers Erdős's question as he asked it, for graphs with
 $f_r(n)$ edges, and identifies the vertex as any of maximum degree.
 
@@ -321,7 +325,7 @@ either theorem or a later paper on the question itself. The versions consulted
 are the publisher's open-archive version of [BoTh81] and the publisher's version
 of [Bo83b] with its erratum.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at main, which had no file for the problem on
   2026-09-18 (the statement file of 2026-09-19 is described under
   Formalization); the community database entry, read 2026-09-18.
@@ -347,13 +351,13 @@ on it, and Bondy's Theorem 2 with its twelve-line proof, so the Formulation
 questions (the "$+1$", the Turán-graph exception, the constant $c_r$) are
 settled from the texts. Nothing is independently reviewed. Not needed for
 the status: the Erdős--Sós preprint that Bondy credits alongside [BoTh81] for
-Theorem 1, the 1999 JCTB paper and Faudree 1992. (2) The site's statement
-differs from Erdős's in both edge counts and, as it stands, is satisfied by
-the Turán graph; the 1981 theorem carries the "$+1$" that makes the site's
-exception meaningful, Bondy's Theorem 1 pairs the exception with the "more
-than" conclusion, and the intended reading is recorded from the thread.
-(3) The site's label SOLVED attaches to an affirmative answer; the claim
-pages record the result as proved. (4) The Lean material is a
+Theorem 1, the 1999 JCTB paper and Faudree 1992. (2) The erdosproblems.com
+statement differs from Erdős's in both edge counts and, as it stands, is
+satisfied by the Turán graph; the 1981 theorem carries the "$+1$" that makes
+erdosproblems.com's exception meaningful, Bondy's Theorem 1 pairs the exception
+with the "more than" conclusion, and the intended reading is recorded from the
+thread. (3) The erdosproblems.com label SOLVED attaches to an affirmative
+answer; the claim pages record the result as proved. (4) The Lean material is a
 formal-conjectures statement with proof `sorry` and an external development
 that proves both the non-strict maximum-degree form at the threshold and
 Bondy's strict form, linked from the Bollobás--Thomason claim page; the
@@ -369,8 +373,8 @@ recorded.
   (1981, refereed): for a graph of
   order $n$ with at least $t_r(n)$ edges, either $G=T_r(n)$ or some vertex
   $x$ has at least $t_{r-1}(d)+1$ edges among its neighbors, with
-  $d=d(x)>n(1-1/r-1/(1+\sqrt r))$; the site's statement with Erdős's "$+1$"
-  and the Turán graph as the only exception. Restated, with the degree
+  $d=d(x)>n(1-1/r-1/(1+\sqrt r))$; the erdosproblems.com statement with Erdős's
+  "$+1$" and the Turán graph as the only exception. Restated, with the degree
   bound as its (1), in
   [[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_1|Bondy 1983, Theorem 1]]
   (p. 109): at least $\mathrm{ex}(n;K_r)$ edges give the Turán graph or a
@@ -381,9 +385,9 @@ recorded.
   $\mathrm{ex}(n;K_r)$ edges every vertex of maximum degree $m$ has a
   neighborhood inducing more than $\mathrm{ex}(m;K_{r-1})$ edges; the
   examples of p. 111 show that at exactly $\mathrm{ex}(n;K_r)$ edges a
-  vertex of maximum degree can miss this strict conclusion, while for the
-  site's non-strict conclusion a maximum-degree vertex always works (the
-  Bondy claim page).
+  vertex of maximum degree can miss this strict conclusion, while for
+  erdosproblems.com's non-strict conclusion a maximum-degree vertex always works
+  (the Bondy claim page).
 - The external Lean development of 2026 (a `formalization` link on
   [[problems/extremal_graph_theory/E1079/claims/1981_08_01_bollobas_thomason|Bollobás and Thomason's claim page]];
   not built by the corpus): for $r\ge4$, $n\ge2$ and at least

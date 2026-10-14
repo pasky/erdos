@@ -27,10 +27,11 @@ example.
 P. Erdős, *On some of my conjectures in number theory and combinatorics*,
 in: Proceedings of the fourteenth Southeastern conference on combinatorics,
 graph theory and computing (Boca Raton, Fla., 1983), Congr. Numer. **39**
-(1983), 3--19; MR 734525. The site's reference key [Er83b] for Problem 184
-names this paper; the Rényi archive's index lists it as `1983-15.pdf`. The
-2022 Bucić--Montgomery paper on the cycle decomposition conjecture cites it
-(its [17]) as the source of the $(\tfrac32-o(1))n$ lower bound.
+(1983), 3--19; MR 734525. The erdosproblems.com reference key [Er83b] for
+Problem 184 names this paper; the Rényi archive's index lists it as
+`1983-15.pdf`. The 2022 Bucić--Montgomery paper on the cycle decomposition
+conjecture cites it (its [17]) as the source of the $(\tfrac32-o(1))n$ lower
+bound.
 
 The copy read for this card is the Rényi archive's OmniPage scan of the
 typewritten proceedings text: seventeen pages, printed pp. 3--19 = PDF pp. 1--17
@@ -102,8 +103,8 @@ Item 6 gives no proof. The other items were located in the text
 layer only and have no result pages here; whether they bear on other
 problems is not assessed on this card.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0184/_index|#184]]: the site's
-key [Er83b]. Item 6
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0184/_index|#184]]: the
+erdosproblems.com key [Er83b]. Item 6
 ([[extremal_graph_theory/erdos_1983_some_my_conjectures_number_theory_combinatorics/conjecture_p15|conjecture_p15]])
 states the problem's conjecture (the edge-disjoint form
 with an absolute constant $c$) beside the covering form with $n-1$ cycles

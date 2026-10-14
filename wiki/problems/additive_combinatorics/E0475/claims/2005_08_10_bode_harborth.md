@@ -67,6 +67,6 @@ its library result pages.
 
 **Acceptance.** Refereed publication: Discrete Mathematics 299 (2005), 3--10,
 DOI 10.1016/j.disc.2005.05.006. It was available online 10 August 2005, which
-dates this page. The site credits the range $p-3\le t\le p-1$ through Hicks,
-Ollis and Schmitt and the references therein. But its label DECIDABLE leaves the
-problem open, so that credit is not `reviewed` evidence.
+dates this page. erdosproblems.com credits the range $p-3\le t\le p-1$ through
+Hicks, Ollis and Schmitt and the references therein. But its label DECIDABLE
+leaves the problem open, so that credit is not `reviewed` evidence.

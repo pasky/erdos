@@ -25,9 +25,9 @@ updated: 2026-10-08T02:16:54Z
 $n-3$ respectively, with not all of $A$ contained on a single line. Is there a
 line which contains at least two points from $A$ and no points from $B$?
 
-**Status.** DISPROVED (LEAN). The site credits Xichuan with three explicit
-counterexamples, posted in its comments in October 2025. One of them, with
-twelve points against nine, was later formalized in Lean in Boris Alexeev's
+**Status.** DISPROVED (LEAN). erdosproblems.com credits Xichuan with three
+explicit counterexamples, posted in its comments in October 2025. One of them,
+with twelve points against nine, was later formalized in Lean in Boris Alexeev's
 repository. See the
 [[problems/discrete_geometry/E0105/claims/2025_10_24_xichuan|claim page]].
 

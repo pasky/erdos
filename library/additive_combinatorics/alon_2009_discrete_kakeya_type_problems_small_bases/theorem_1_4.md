@@ -90,7 +90,7 @@ Theorem 3.2 for non-expanding sets, and a second remark (p. 10) says that
   reduction, every $A\subseteq\{1,\ldots,n\}$ with $|A|\le n^{1/2}$ is
   contained in $B+B$ for some $B\subset\mathbb Z$ with
   $|B|\le100\sqrt n\log\log n/\log n=o(n^{1/2})$, the affirmative answer to
-  the displayed question with the site's quantitative form
+  the displayed question with erdosproblems.com's quantitative form
   $|B|\ll n^{1/2}\log\log n/\log n$. The paper also records (pp. 2--3) that
   Erdős and Newman's counting argument gives sets of size about $\sqrt n$
   needing a basis of size $c\sqrt n\log\log n/\log n$, and that this lower

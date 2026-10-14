@@ -51,16 +51,16 @@ $$
 N(k,\sqrt{k})\leq C^k?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-04. The site's
-commentary notes that for $\ell=k$ the quantity is the two-color van der Waerden
-number, $N(k,k)=W(k)$, of
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-04. The
+erdosproblems.com commentary notes that for $\ell=k$ the quantity is the
+two-color van der Waerden number, $N(k,k)=W(k)$, of
 [[problems/additive_combinatorics/E0138/_index|Problem 138]]. A comment in the
-site's thread (19 March 2026) notes that a $k$-term sum has the parity of $k$,
-so that $N(k,\ell+1)=N(k,\ell)$ whenever $k$ and $\ell$ differ in parity; the
-rest of this paragraph is the page's own. A $k$-term progression carries $k$
-signs, so $\lvert\sum_{n\in P}f(n)\rvert\le k$ with the parity of $k$:
-$N(k,\ell)$ exists only for $\ell\le k$, and a sum of absolute value at least
-$k-1$ is a monochromatic progression, so $N(k,k-1)=W(k)$ as well. The
+erdosproblems.com thread (19 March 2026) notes that a $k$-term sum has the
+parity of $k$, so that $N(k,\ell+1)=N(k,\ell)$ whenever $k$ and $\ell$ differ in
+parity; the rest of this paragraph is the page's own. A $k$-term progression
+carries $k$ signs, so $\lvert\sum_{n\in P}f(n)\rvert\le k$ with the parity of
+$k$: $N(k,\ell)$ exists only for $\ell\le k$, and a sum of absolute value at
+least $k-1$ is a monochromatic progression, so $N(k,k-1)=W(k)$ as well. The
 definition of $N(k,\ell)$ as a least $N$ thus confines the first displayed
 question to $0<c\le1$: for $c>1$ there is no $N(k,ck)$, a value the
 Statement's own notation excludes rather than an instance of the question. At
@@ -80,14 +80,15 @@ uses the non-strict condition
 $\lvert\sum_{u=0}^{l-1}h(a+ud)\rvert\ge\varepsilon l$ for $0\le\varepsilon\le1$,
 notes that $B(1,n)=B(n)$, the van der Waerden case, and suggests that
 $B(\varepsilon,n)/\log n$ may have a limit for every $\varepsilon$, perhaps $0$
-at $\varepsilon=1$. The site's non-strict $\ge\ell$ follows [Er63d], whose range
-includes $\varepsilon=1$ and stops there, so the instance $c=1$ stays part of
-the Statement and [ErGr79]'s strict form is a variant that leaves it out; the
-beliefs about $W(n)$ in both texts concern the answer, not the question, and a
-later theorem about $c=1$ does not license a change.
+at $\varepsilon=1$. erdosproblems.com's non-strict $\ge\ell$ follows [Er63d],
+whose range includes $\varepsilon=1$ and stops there, so the instance $c=1$
+stays part of the Statement and [ErGr79]'s strict form is a variant that leaves
+it out; the beliefs about $W(n)$ in both texts concern the answer, not the
+question, and a later theorem about $c=1$ does not license a change.
 
-**Status.** Open, the site's label as accessed 2026-09-04. No result settles the
-question. No full claim exists, and the standing derives from the claim pages.
+**Status.** Open, the erdosproblems.com label as accessed 2026-09-04. No result
+settles the question. No full claim exists, and the standing derives from the
+claim pages.
 
 The OpenAI release of 23 September 2026 gives the superexponential lower bound
 $W(k)>k^{k/100000}$ for all large $k$. It is recorded as a claimed partial
@@ -103,8 +104,8 @@ the claim is accepted, the first displayed question reads answered no. Erdős
 and Graham's strict form [ErGr79], which leaves out $c=1$ (Formulation), is a
 separate variant, open for $0<c<1$.
 
-Lean developments posted in the site's thread in June 2026 claim yes answers,
-with polynomial bounds, to the questions $N(k,2)\le C^k$ and
+Lean developments posted in the erdosproblems.com thread in June 2026 claim yes
+answers, with polynomial bounds, to the questions $N(k,2)\le C^k$ and
 $N(k,\sqrt k)\le C^k$. They are recorded as claimed partial results on
 [[problems/discrepancy/E0176/claims/2026_06_21_kitamura|Kitamura, 21 June 2026]]
 and
@@ -129,8 +130,8 @@ https://www.erdosproblems.com/176.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 4 April 2026).** The
-statement above; OPEN. The commentary, in this page's words: for $\ell=k$
+**The question (erdosproblems.com formulation, page last edited 4 April 2026).**
+The statement above; OPEN. The commentary, in this page's words: for $\ell=k$
 the quantity is the van der Waerden number $W(k)$ of Problem 138; Spencer
 [Sp73] proved that $N(k,1)=2^t(k-1)+1$ when $k=2^tm$ with $m$ odd; Erdős and
 Graham wrote that no decent bound was known even for $N(k,2)$; Erdős [Er63d]
@@ -156,8 +157,8 @@ page.
 **Results without a claim page.** Spencer's exact value
 $N(k,1)=2^t(k-1)+1$ for $k=2^tm$, $m$ odd, settles the case $\ell=1$ of the
 request for upper bounds, and with the parity identity it gives
-$N(k,2)=N(k,1)$ for even $k$. The site cites it as [Sp73], an item titled
-"Problems 185" in a 1973 Canadian bulletin, which this corpus has not
+$N(k,2)=N(k,1)$ for even $k$. erdosproblems.com cites it as [Sp73], an item
+titled "Problems 185" in a 1973 Canadian bulletin, which this corpus has not
 identified as a refereed research article rather than a problem-section
 entry, and its proof is not recorded here; the value is recorded in this
 section and on the Kitamura pages, which credit it, instead of on a page of
@@ -182,9 +183,9 @@ case $c=1$, which rests on the release's bound for $W(k)$, accepted on Problem
 138, through the identity $N(k,k)=W(k)$, which follows from the definition and
 which Plasma AI checked, with acceptance pending until the project's reviewer
 signs off; the two polynomial bounds rest on Lean developments that this corpus
-has not built; the site's commentary records none of the three. Proof coverage
-is at statement level throughout, and apart from that check nothing is reviewed
-by this project.
+has not built; the erdosproblems.com commentary records none of the three. Proof
+coverage is at statement level throughout, and apart from that check nothing is
+reviewed by this project.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

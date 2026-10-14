@@ -36,17 +36,18 @@ divisible by primes from $P$ have the translation property? If $A$ is the set of
 squarefree numbers then how fast does the minimal such $t_n$ grow? Is it true
 that $t_n>\exp(n^c)$ for some constant $c>0$?
 
-**Status.** The site's label was Open (proof-claims thread accessed 2026-10-06).
-The site notes that elementary sieve theory gives the squarefree numbers the
-translation property. It also notes that Brun's sieve gives the property to the
-integers divisible by no member of a set $B$ of pairwise coprime integers with
-$\sum_{b<x}1/b=o(\log\log x)$.
+**Status.** The erdosproblems.com label was Open (proof-claims thread accessed
+2026-10-06). erdosproblems.com notes that elementary sieve theory gives the
+squarefree numbers the translation property. It also notes that Brun's sieve
+gives the property to the integers divisible by no member of a set $B$ of
+pairwise coprime integers with $\sum_{b<x}1/b=o(\log\log x)$.
 
-A partial proof claim was posted to the site's proof-claims tab on 27 July 2026
-by Liam Price, using GPT 5.6 Sol Pro. It answers the second question yes for a
-partition of the primes into parts of any prescribed proportions. It is recorded
-on [[problems/integer_sequences/E0675/claims/2026_07_27_price|its claim page]]
-and not adopted here. It does not address the first question or the growth
+A partial proof claim was posted to the erdosproblems.com proof-claims tab on 27
+July 2026 by Liam Price, using GPT 5.6 Sol Pro. It answers the second question
+yes for a partition of the primes into parts of any prescribed proportions. It
+is recorded on
+[[problems/integer_sequences/E0675/claims/2026_07_27_price|its claim page]] and
+not adopted here. It does not address the first question or the growth
 questions. The discussion thread carries a pending partial claim on the growth
 question. Boon Suan Ho's note of 18 April 2026, found with GPT-5.4 Pro, proves
 $t_n>\exp(n^c)$ for every $c<25/72$ and all large $n$

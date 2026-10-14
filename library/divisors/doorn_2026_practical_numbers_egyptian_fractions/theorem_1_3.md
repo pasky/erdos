@@ -58,8 +58,8 @@ Lemma 5.1 and Proposition 4.1 of the note; Lemma 2.1 of van Doorn–Tang.
 
 ## Standing
 
-Claimed; not refereed; no site acceptance (the proof-claims tab of Problem
-293 was empty on 2026-09-27); the Lean file was not built here.
+Claimed; not refereed; no erdosproblems.com acceptance (the proof-claims tab of
+Problem 293 was empty on 2026-09-27); the Lean file was not built here.
 
 ## Bears on
 

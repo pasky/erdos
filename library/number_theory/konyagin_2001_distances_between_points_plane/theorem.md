@@ -84,7 +84,7 @@ $N(u,\delta)=O(1+u)$ for fixed $\delta$; otherwise self-contained.
 - [[../wiki/problems/number_theory/E0465/_index|Problem 465]]: the theorem answers both
   displayed questions. $N(X,\delta)<C(\delta)X^{1/2}$ is $o(X)$, and for
   any $\varepsilon>0$ it is below $X^{1/2+\varepsilon}$ once
-  $X\ge C(\delta)^{1/\varepsilon}$, which is the site's
+  $X\ge C(\delta)^{1/\varepsilon}$, which is erdosproblems.com's
   "$N(X,\delta)\ll_\delta X^{1/2}$" and the question's
   $N(X,\delta)<X^{1/2+o(1)}$ (an authored one-line remark). The paper's
   disc of radius $X$ is the problem's "circle of radius $X$" and its

@@ -66,8 +66,8 @@ the sharpness example and Remark 1.2 were read clause by clause. The proof
 (pp. 2--7) was read for its structure only and is not checked step by step
 here; no step is independently reviewed, and the argument is a candidate
 for an independent whole-argument review. Acceptance evidence is on the
-problem page: the site's label and commentary of 2 July 2026 and a thread
-review of 27 June 2026; no refereed publication.
+problem page: the erdosproblems.com label and commentary of 2 July 2026 and a
+thread review of 27 June 2026; no refereed publication.
 
 ## Proof pointer
 
@@ -105,8 +105,9 @@ of Choi, Erdős and Szemerédi.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0865/_index|Problem 865]]: Theorem 1.1 is
-  the problem's statement with "for all $N$" in place of the site's "for
-  all large $N$", so the site's question is answered affirmatively by a
-  preprint that the site accepted; the interval example of Section 5 is the
-  site's sharpness example. Status support is qualified on the problem
-  page (declared AI assistance; no refereed publication).
+  the problem's statement with "for all $N$" in place of erdosproblems.com's
+  "for all large $N$", so the erdosproblems.com question is answered
+  affirmatively by a preprint that erdosproblems.com accepted; the interval
+  example of Section 5 is erdosproblems.com's sharpness example. Status support
+  is qualified on the problem page (declared AI assistance; no refereed
+  publication).

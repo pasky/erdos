@@ -48,9 +48,9 @@ Same-paper Theorem 2 (the Lovász local lemma lower bound for $r(G,K_n)$).
 
 - [[../wiki/problems/ramsey_theory/E0566/_index|Problem 566]]: why the hypothesis stops
   at $2k-3$: one more edge on $p$ vertices already forbids Ramsey
-  size-linearity, as the site's commentary says.
+  size-linearity, as the erdosproblems.com commentary says.
 - [[../wiki/problems/ramsey_theory/E0079/_index|Problem 79]]: why $K_4$ ($q=6=2p-2$) is
   not Ramsey size linear, the input Wigderson's Lemma 3 imports.
 - [[../wiki/problems/ramsey_theory/E0567/_index|Problem 567]]: the three graphs of the
   problem have $q\le2p-3$, so the corollary does not exclude them; it
-  excludes $K_4$, which the site's commentary contrasts with them.
+  excludes $K_4$, which the erdosproblems.com commentary contrasts with them.

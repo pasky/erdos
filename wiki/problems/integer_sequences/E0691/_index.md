@@ -25,10 +25,11 @@ updated: 2026-10-07T19:40:10Z
 n\textrm{ for some }a\in A\}$ be the set of multiples of $A$. Find a necessary
 and sufficient condition on $A$ for $M_A$ to have density $1$.
 
-**Status.** The site's label was Open. The site credits Tenenbaum's 1996
-theorem. For block sequences whose consecutive ratios lie between two constants
-above $1$ and whose blocks have relative length $j^{-\alpha}$, it proves Erdős's
-threshold conjecture with critical exponent $\log 2$
+**Status.** The erdosproblems.com label was Open. erdosproblems.com credits
+Tenenbaum's 1996 theorem. For block sequences whose consecutive ratios lie
+between two constants above $1$ and whose blocks have relative length
+$j^{-\alpha}$, it proves Erdős's threshold conjecture with critical exponent
+$\log 2$
 ([[problems/integer_sequences/E0691/claims/1996_08_01_tenenbaum|claim page]]).
 This is an accepted partial claim with refereed evidence. It does not answer the
 general question, so the derived standing is `open` with claim `none`. A thread
@@ -46,25 +47,25 @@ Cite as: T. F. Bloom, Erdős Problem #691, https://www.erdosproblems.com/691.
 **References.**
 
 - [Er79e] Erdős, P., Some unconventional problems in number theory.
-  Astérisque 61 (1979), 73--82; p. 77, the site's source: the problem and the
-  block example, with the threshold conjecture at the top of p. 78. Library
-  home:
+  Astérisque 61 (1979), 73--82; p. 77, the erdosproblems.com source: the problem
+  and the block example, with the threshold conjecture at the top of p. 78.
+  Library home:
   [[../library/divisors/erdos_1979_unconventional_problems_number_theory_asterisque/_index|erdos_1979_unconventional_problems_number_theory_asterisque]].
 - [Te96] [[../library/integer_sequences/tenenbaum_1996_block_behrend_sequences/_index|Tenenbaum, G., On block Behrend sequences]].
   Math. Proc. Cambridge Philos. Soc. 120 (1996), no. 2, 355--367, DOI
   10.1017/S0305004100074910.
 
-**Formalization.** None recorded: the site lists no formal-conjectures
+**Formalization.** None recorded: erdosproblems.com lists no formal-conjectures
 statement for the problem. The Lean file of the thread note of 17 April 2026
 formalizes the Davenport--Erdős criterion described in Status, not the
 problem.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 28 December 2025): for
-$A\subseteq\mathbb N$ and $M_A$ its set of multiples, find a necessary and
-sufficient condition on $A$ for $M_A$ to have density $1$; such an $A$ is
-called a Behrend sequence. The problem is Erdős's, from p. 77 of [Er79e].
+The question, as erdosproblems.com states it (page last edited 28 December
+2025): for $A\subseteq\mathbb N$ and $M_A$ its set of multiples, find a
+necessary and sufficient condition on $A$ for $M_A$ to have density $1$; such an
+$A$ is called a Behrend sequence. The problem is Erdős's, from p. 77 of [Er79e].
 
 What is known. For a set of primes, or more generally of pairwise coprime
 integers greater than $1$, the condition is that the sum of the reciprocals
@@ -84,11 +85,11 @@ Behrend, adjacent to the necessary condition of Hall and Tenenbaum, and says
 that effective general criteria seem out of reach with present techniques.
 The general question is open.
 
-Search scope. On 2026-10-07 the site's discussion thread held four posts: a
-deleted post and the curator's reply of 31 August 2025, and the exchange of 17
-and 18 April 2026 on the Davenport--Erdős criterion described in Status; its
-proof-claims page listed no claim. The library card of [Te96] records the
-statements of its Theorem 1 and Corollaries 1 and 2; nothing here is
+Search scope. On 2026-10-07 the erdosproblems.com discussion thread held four
+posts: a deleted post and the curator's reply of 31 August 2025, and the
+exchange of 17 and 18 April 2026 on the Davenport--Erdős criterion described in
+Status; its proof-claims page listed no claim. The library card of [Te96]
+records the statements of its Theorem 1 and Corollaries 1 and 2; nothing here is
 independently reviewed.
 <!-- BEGIN problem library links -->
 

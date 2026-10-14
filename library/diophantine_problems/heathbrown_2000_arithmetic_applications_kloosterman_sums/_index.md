@@ -87,8 +87,8 @@ the article's estimate counts solutions of $mn\equiv a\pmod p$ in the
 origin box $1\le m,n\le M$, which for the residue $1$ is trivial, so it
 settles no instance of the problem; the article states no
 translated-interval result. The problem page records the range $c>3/4$
-through Browning and Haynes's two-interval criterion, which the site and
-Browning and Haynes credit to Heath-Brown.
+through Browning and Haynes's two-interval criterion, which erdosproblems.com
+and Browning and Haynes credit to Heath-Brown.
 
 **Results.**
 [[diophantine_problems/heathbrown_2000_arithmetic_applications_kloosterman_sums/lemma_p380|Lemma (p. 380)]],

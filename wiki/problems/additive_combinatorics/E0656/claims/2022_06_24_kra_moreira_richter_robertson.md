@@ -53,7 +53,7 @@ $$
 and (ii) there are an infinite $B\subset\mathbb N$ and $t$ with
 $B\cup\{b_1+b_2:b_1\ne b_2\in B\}\subset A-t$. Positive upper density is
 positive upper Banach density along the intervals $\{1,\ldots,N\}$, so part
-(i) contains the site's statement, which the paper states as its
+(i) contains the erdosproblems.com statement, which the paper states as its
 Conjecture 1.1 with Erdős's formulations of 1975, 1977 and 1980 cited. The
 paper notes that neither the shift nor the condition $b_1\ne b_2$ can be
 dropped, and Corollary 1.3 removes the shift when $A$ consists of even
@@ -75,9 +75,10 @@ Mathematical Society 4 (2024), 480--494, doi:10.1090/cams/34, issued 1 August
 2024 (Crossref record accessed 2026-10-07). The acknowledgements thank the
 anonymous referee.
 
-Reviewed: the site's curator (T. F. Bloom) states that the problem was proved by
-Kra, Moreira, Richter and Robertson, citing [KMRR24] (erdosproblems.com/656,
-page last edited 7 April 2026, accessed 2026-10-07), and labeled it proved.
+Reviewed: the erdosproblems.com curator (T. F. Bloom) states that the problem
+was proved by Kra, Moreira, Richter and Robertson, citing [KMRR24]
+(erdosproblems.com/656, page last edited 7 April 2026, accessed 2026-10-07), and
+labeled it proved.
 
 The preprint is arXiv:2206.12377. Its v1 was posted 24 June 2022, the date of
 this page. The text cited here is dated 7 November 2023, and the journal text
@@ -88,8 +89,8 @@ A Lean 4 development declares itself a formalization of this solution. It is
 repository, first added 2026-08-18 and pinned above at its commit of 2026-09-15.
 Its header names Kra, Moreira, Richter and Robertson as informal authors and
 Codex and GPT-5.6 Sol as formal authors (a second header says OpenAI Codex), and
-it cites this paper. Its `erdos_656` is the site's statement. It takes
-$A\subseteq\mathbb N$ of positive upper density, defined as the limit superior
-of $|A\cap[0,N)|/N$. It gives an infinite $B\subseteq A$ and an integer $t$ with
-$b_1+b_2+t\in A$ for all distinct $b_1,b_2\in B$. This corpus has not built it,
-so no `formalized` evidence is listed.
+it cites this paper. Its `erdos_656` is the erdosproblems.com statement. It
+takes $A\subseteq\mathbb N$ of positive upper density, defined as the limit
+superior of $|A\cap[0,N)|/N$. It gives an infinite $B\subseteq A$ and an integer
+$t$ with $b_1+b_2+t\in A$ for all distinct $b_1,b_2\in B$. This corpus has not
+built it, so no `formalized` evidence is listed.

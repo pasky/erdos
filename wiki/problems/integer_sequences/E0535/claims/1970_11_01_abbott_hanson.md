@@ -42,9 +42,9 @@ day of the month standing in for the unknown day.
 **Covers.** The upper exponent $1/2$ only; the order of $f_r(N)$ is not
 determined.
 
-**Acceptance.** Refereed: the journal publication. The site's commentary credits
-the result, but the site labeled the problem OPEN, so the credit is not
-acceptance.
+**Acceptance.** Refereed: the journal publication. The erdosproblems.com
+commentary credits the result, but Bloom's catalog labeled the problem OPEN, so
+the credit is not acceptance.
 
 **Depends on.** Nothing in this wiki: the result is the cited paper's, as the
 linked survey reports it.

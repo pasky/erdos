@@ -4,7 +4,8 @@ title: Every power of two at uncountable chromatic number
 desc: |
   Erdős and Hajnal's theorem that a graph of uncountable chromatic number
   contains $K_{i,\aleph_1}$ for every finite $i$ gives it a cycle of length
-  $2^m$ for every $m\ge2$. The site credits David Penman with this observation.
+  $2^m$ for every $m\ge2$. erdosproblems.com credits David Penman with this
+  observation.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -37,8 +38,8 @@ form of
 For $m\ge2$, take $2^{m-1}$ vertices on each side of $K_{2^{m-1},\aleph_1}$;
 alternating between them gives a cycle of length $2^m$. Such a graph therefore
 has a cycle of length $2^m$ for every $m\ge2$, which answers
-[[problems/graph_coloring/E0063/_index|Problem 63]] for it. The site credits
-David Penman with this observation.
+[[problems/graph_coloring/E0063/_index|Problem 63]] for it. erdosproblems.com
+credits David Penman with this observation.
 
 **Covers.** Graphs of uncountable chromatic number, which have a cycle of
 length $2^m$ for every $m\ge2$. Graphs of chromatic number $\aleph_0$ are not
@@ -54,7 +55,7 @@ held in the library. No claim page of this wiki is a dependency.
 61–99. The publisher's record dates the issue March 1966 without a day, so the
 page carries the first of that month. The cycles are subgraphs of the
 $K_{2^{m-1},\aleph_1}$ the paper supplies, so the covered statement needs no
-argument beyond the paper's. Thomas Bloom, the site's curator, credits the case
-to Penman's observation from [ErHa66]. But the site's label rested on Zach
-Hunter's deduction from Liu and Montgomery, so that credit is context and not
-`reviewed` evidence.
+argument beyond the paper's. Thomas Bloom, the erdosproblems.com curator,
+credits the case to Penman's observation from [ErHa66]. But the
+erdosproblems.com label rested on Zach Hunter's deduction from Liu and
+Montgomery, so that credit is context and not `reviewed` evidence.

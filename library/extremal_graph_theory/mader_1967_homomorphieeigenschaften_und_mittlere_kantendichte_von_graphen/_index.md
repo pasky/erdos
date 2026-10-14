@@ -9,7 +9,7 @@ desc: |
   minimum-degree and edge-density thresholds for a complete minor.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:11:47Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen
@@ -24,7 +24,7 @@ minor.
 [[extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|satz_2]]: Mader's theorem that every finite graph with at least 2^(C(n-1,2)-1) (n-1)
 times its order in edges contains a subdivision of the complete graph on n
 vertices; the first edge bound for Problem 718's question, sharper than the
-2^C(r,2) n form in which Erdős and the site quote it.
+2^C(r,2) n form in which Erdős and erdosproblems.com quote it.
 
 ***
 
@@ -209,18 +209,18 @@ and Satz 1, the paper's other main theorem, has its own page,
 A filing observation, not a review verdict: the paper states no conjecture
 about the order of the function $f(n)$; the conjecture that a constant times
 $p^2$ times the order in edges forces a topological complete subgraph of
-order $p$, which Bollobás and Thomason attribute to Mader [11] and the site
-records as Erdős, Hajnal and Mader's, does not appear in this paper's printed
-text, and where Mader stated it was not checked here. Nothing here is
-independently reviewed.
+order $p$, which Bollobás and Thomason attribute to Mader [11] and
+erdosproblems.com records as Erdős, Hajnal and Mader's, does not appear in this
+paper's printed text, and where Mader stated it was not checked here. Nothing
+here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0718/_index|#718]]: Satz 2 (printed
 p. 266, PDF p. 2), "Jeder endliche Graph $G$ mit
 $k(G)\ge2^{\binom{n-1}2-1}\cdot(n-1)\cdot e(G)$ enthält einen $U(S(n))$ als
-Teilgraph", is Mader's bound that the site's commentary records as "Mader
-[Ma67] proved that $\ge2^{\binom r2}n$ edges suffices" and Erdős's 1981 paper
-as $K_{\mathrm{top}}(r)\subset\mathcal G(n;2^{\binom r2}n)$: in the problem's
-letters, every graph on $n$ vertices with at least
+Teilgraph", is Mader's bound that the erdosproblems.com commentary records as
+"Mader [Ma67] proved that $\ge2^{\binom r2}n$ edges suffices" and Erdős's 1981
+paper as $K_{\mathrm{top}}(r)\subset\mathcal G(n;2^{\binom r2}n)$: in the
+problem's letters, every graph on $n$ vertices with at least
 $2^{\binom{r-1}2-1}(r-1)\,n$ edges contains a subdivision of $K_r$. Since
 $2^{\binom r2}=2^{\binom{r-1}2}\cdot2^{r-1}$ and $r-1<2^r$, the printed
 constant $2^{\binom{r-1}2-1}(r-1)$ is smaller than $2^{\binom r2}$ for every

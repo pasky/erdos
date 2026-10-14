@@ -4,7 +4,7 @@ title: Reed and Stein, the Erdős–Sós conjecture for trees of linear order
 desc: |
   A 2026 preprint of Reed and Stein proves that for every $\gamma>0$ there is
   $n_0$ such that the statement of Problem 548 holds for all $n\ge n_0$ and all
-  $k\ge\gamma n$. The preprint is credited in the site's remarks.
+  $k\ge\gamma n$. The preprint is credited in the erdosproblems.com remarks.
 authors:
 - Bruce Reed
 - Maya Stein
@@ -28,7 +28,7 @@ updated: 2026-10-07T20:39:38Z
 and all $k\ge\gamma n$, every graph on $n$ vertices with more than
 $\frac{k-1}2n$ edges contains every tree on $k+1$ vertices. The preprint
 states the conjecture with the tree's order as its parameter, more than
-$(k-2)n/2$ edges forcing every $k$-vertex tree, which is the site's
+$(k-2)n/2$ edges forcing every $k$-vertex tree, which is the erdosproblems.com
 statement with $k$ shifted by one; its abstract also derives, as a
 corollary, a solution of a problem of Erdős and Graham on the multicolor
 Ramsey numbers of trees.
@@ -48,15 +48,15 @@ Erdős--Sós conjecture in dense graphs*, arXiv:2609.05417 (the
 [[../library/extremal_graph_theory/reed_stein_2026_erdos_sos_conjecture_dense_graphs/_index|library card]]
 pages Theorem 2 and Corollary 4), v1 4 September 2026 (the date this page is
 named by), v2 8 September 2026, under the CC BY 4.0 license; no journal
-version is known. The site's commentary, last edited
-7 September 2026, records the result as [ReSt26], but the site's label
-credited GPT-6 Astra with the full proof and is not an acceptance of this
+version is known. The erdosproblems.com commentary, last edited
+7 September 2026, records the result as [ReSt26], but the erdosproblems.com
+label credited GPT-6 Astra with the full proof and is not an acceptance of this
 paper; nothing is refereed or formalized. The companion preprint of the same
 authors, *The extremal cases of the Erdős--Sós conjecture*
-(arXiv:2609.05411, [ReSt26b] on the site), proves the conjecture for host
-graphs with the minimum edge count that contain a subgraph of minimum degree
-at least $(1-\mu)k$; it restricts the host graph, settles no instance of the
-statement, and has no page.
+(arXiv:2609.05411, [ReSt26b] on erdosproblems.com), proves the conjecture for
+host graphs with the minimum edge count that contain a subgraph of minimum
+degree at least $(1-\mu)k$; it restricts the host graph, settles no instance of
+the statement, and has no page.
 
 **Read depth.** The arXiv abstract and version record were read; the paper's
 body was not read, and nothing is independently reviewed in this corpus.

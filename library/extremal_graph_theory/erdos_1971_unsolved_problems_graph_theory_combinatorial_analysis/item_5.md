@@ -52,8 +52,9 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the site's key Er71.
-  The 1971 form asks for the smallest $f(n)$ and records only
-  $f(n)<cn^{3/2}$ and the belief $f(n)<n^{1+\varepsilon}$; it is weaker than
-  the site's conjecture that $(\tfrac12+\varepsilon)n\log n$ edges suffice
-  almost surely, which the site takes from the later papers.
+- [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the
+  erdosproblems.com key Er71. The 1971 form asks for the smallest $f(n)$ and
+  records only $f(n)<cn^{3/2}$ and the belief $f(n)<n^{1+\varepsilon}$; it is
+  weaker than erdosproblems.com's conjecture that
+  $(\tfrac12+\varepsilon)n\log n$ edges suffice almost surely, which
+  erdosproblems.com takes from the later papers.

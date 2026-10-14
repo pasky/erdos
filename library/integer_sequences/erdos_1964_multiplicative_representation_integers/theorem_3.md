@@ -30,10 +30,10 @@ for $l>2$ a result as sharp as (4) and (5)." Displays (4) and (5) (p. 252)
 are the $l=2$ bounds
 $\Pi(n)+c_3n^{3/4}/(\log n)^{3/2}<u_2(n)<\Pi(n)+c_4n^{3/4}$ and the
 strengthening $u_2(n)<\Pi(n)+c_5n^{3/4}/(\log n)^{3/2}$, "I do not prove
-(5) in this paper". The remark is stated without proof; the site's page
-for Problem 796 records a construction (Tang, 9 January 2026) whose second
+(5) in this paper". The remark is stated without proof; the erdosproblems.com
+page for Problem 796 records a construction (Tang, 9 January 2026) whose second
 term is of order $n/\log n$ for $l=3$, which contradicts the remark, and
-the site's maintainer writes that the proof of Theorem 3 gives
+the erdosproblems.com maintainer writes that the proof of Theorem 3 gives
 $O(n/\log n)$ and that the remark is wrong.
 
 **Source.** P. Erdős, *On the multiplicative representation of integers*,
@@ -70,9 +70,10 @@ which the paper leaves to the reader.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0796/_index|Problem 796]]: with the paper's $l$ read as the site's $k$
-  and the paper's $k$ as the site's $r$, this is the site's asymptotic
+- [[../wiki/problems/integer_sequences/E0796/_index|Problem 796]]: with the
+  paper's $l$ read as erdosproblems.com's $k$ and the paper's $k$ as
+  erdosproblems.com's $r$, this is erdosproblems.com's asymptotic
   $g_k(n)\sim(\log\log n)^{r-1}n/((r-1)!\log n)$ for $2^{r-1}<k\le2^r$
-  (the site's $g_k(n)$ is $u_k(n)-1$ when the conventions for counting
-  representations agree); the p. 261 remark is the paper's only statement
-  of a second term for $l>2$.
+  (erdosproblems.com's $g_k(n)$ is $u_k(n)-1$ when the conventions for counting
+  representations agree); the p. 261 remark is the paper's only statement of a
+  second term for $l>2$.

@@ -25,9 +25,9 @@ updated: 2026-10-08T13:37:29Z
 
 **Statement.** Are there arbitrarily long arithmetic progressions of primes?
 
-**Status.** PROVED (LEAN). This is the site's label (page last edited 4 April
-2026; site export of 2026-10-06). The site's commentary credits Green and Tao
-[GrTa08].
+**Status.** PROVED (LEAN). This is the erdosproblems.com label (page last edited
+4 April 2026; erdosproblems.com export of 2026-10-06). The erdosproblems.com
+commentary credits Green and Tao [GrTa08].
 
 **Source.** [erdosproblems.com/219](https://www.erdosproblems.com/219), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #219,
@@ -66,11 +66,12 @@ page.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 4 April 2026).** The
-statement above is the site's (export of 2026-10-06); the site's commentary
-answers yes by Green and Tao and remarks that the stronger question, whether
-there are arbitrarily long progressions of consecutive primes, is open.
-Those two questions are distinct: this page's standing concerns the first.
+**The question (erdosproblems.com formulation, page last edited 4 April 2026).**
+The statement above is erdosproblems.com's (export of 2026-10-06); the
+erdosproblems.com commentary answers yes by Green and Tao and remarks that the
+stronger question, whether there are arbitrarily long progressions of
+consecutive primes, is open. Those two questions are distinct: this page's
+standing concerns the first.
 
 **What settles it.** The standing derives from the claim pages. One accepted
 claim is the theorem of Green and Tao, on
@@ -79,9 +80,9 @@ accepted on the refereed Annals publication and the curator's credit:
 Theorem 1.1 of [GrTa08] gives, for every $k$, infinitely many $k$-term
 arithmetic progressions of primes, and Theorem 1.2 the same for every subset of
 the primes of positive relative upper density. The lean-proofs development adds
-no acceptance evidence here. The site's Lean qualifier, present in the community
-database as of that field's last update on 2026-08-23, without recording when
-that state was set, refers to a development in Boris Alexeev's
+no acceptance evidence here. The erdosproblems.com Lean qualifier, present in
+the community database as of that field's last update on 2026-08-23, without
+recording when that state was set, refers to a development in Boris Alexeev's
 lean-proofs repository, added on 2026-08-16, that declares itself a
 formalization of the Green–Tao theorem, derives the problem from a Green–Tao
 formalization in the same repository, and has been named by formal-conjectures
@@ -103,7 +104,7 @@ release's quantitative bound on $r_k(N)$ bears on
 [[problems/additive_combinatorics/E0003/_index|Problem 3]], the question the
 manuscript answers, and is not needed for this problem.
 
-**Scope.** This assessment rests on the site export, the
+**Scope.** This assessment rests on the erdosproblems.com export, the
 Green–Tao paper's statements through its source card, the release
 manuscript's introduction and Section 11 with its Lean documentation,
 comparator challenge and conclusions module, and the lean-proofs and

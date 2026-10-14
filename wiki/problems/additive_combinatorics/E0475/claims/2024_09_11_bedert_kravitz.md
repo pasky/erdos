@@ -60,6 +60,6 @@ this refereed paper, not through the pending Kravitz page.
 
 **Acceptance.** Refereed publication: Israel Journal of Mathematics 273 (2026),
 no. 1, 471--500, published online 30 November 2025. The journal text is not held
-and was not compared with the arXiv version. The site's commentary credits the
-range, but its label DECIDABLE leaves the problem open, so that credit is not
-`reviewed` evidence.
+and was not compared with the arXiv version. The erdosproblems.com commentary
+credits the range, but its label DECIDABLE leaves the problem open, so that
+credit is not `reviewed` evidence.

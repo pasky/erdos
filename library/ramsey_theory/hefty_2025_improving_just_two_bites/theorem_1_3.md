@@ -47,8 +47,8 @@ Same-paper analysis of the random construction.
   $\alpha(G)\chi(G)\ge n$, the graphs have chromatic number above
   $\sqrt{n/\log n}/(1+\varepsilon)$ (an observation made on the consuming
   page), so the threshold $f_r(n)$ is a nontrivial question for $r$ up to
-  order $\sqrt{n/\log n}$, and the site's thread derives an upper bound on
-  Simonovits's $g(r)$ from the theorem. A preprint result.
+  order $\sqrt{n/\log n}$, and the erdosproblems.com thread derives an upper
+  bound on Simonovits's $g(r)$ from the theorem. A preprint result.
 - [[../wiki/problems/ramsey_theory/E0165/_index|Problem 165]]: the independence-number
   form of the lower bound; Theorem 1.2, which the paper derives from it,
   gives $R(3,k)\ge(\tfrac12+o(1))k^2/\log k$, the lower half of the

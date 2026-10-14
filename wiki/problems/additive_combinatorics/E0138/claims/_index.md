@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 138, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-13T10:05:41Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0138/claims
@@ -13,13 +13,13 @@ updated: 2026-10-13T10:05:41Z
 
 [[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|2026_04_10_deepmind]]: Google DeepMind's AlphaProof Nexus found a Lean proof that
 $W(k+1)\ge W(k)+k$, so $W(k+1)-W(k)\to\infty$. This is the second question
-Erdős asked in [Er81], recorded in the site's commentary, and the paper
-reporting the result is refereed.
+Erdős asked in [Er81], recorded in the erdosproblems.com commentary, and the
+paper reporting the result is refereed.
 
 [[problems/additive_combinatorics/E0138/claims/2026_04_10_sothanaphan|2026_04_10_sothanaphan]]: A five-page note by Nat Sothanaphan, written with GPT-5.4 Thinking and linked
-from the site's thread, proves $W_r(k+1)-W_r(k)\ge k+\min\{k,F(r)\}+1$ for $r$
-colors. For the problem's two colors this gives $W(k+1)-W(k)\ge k+1$, and the
-result is claimed.
+from the erdosproblems.com thread, proves
+$W_r(k+1)-W_r(k)\ge k+\min\{k,F(r)\}+1$ for $r$ colors. For the problem's two
+colors this gives $W(k+1)-W(k)\ge k+1$, and the result is claimed.
 
 [[problems/additive_combinatorics/E0138/claims/2026_08_21_campos_fox_schildkraut|2026_08_21_campos_fox_schildkraut]]: Theorem 1 of Campos, Fox and Schildkraut (arXiv, August 2026) proves
 $W(k)\ge(1-o(1))\,k\,2^{k-1}$ for all $k$, which improves the general lower

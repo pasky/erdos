@@ -40,29 +40,29 @@ $n+a$ is squarefree for all $a\in A$ with $a<n$.
 How fast must sequences $A=\{a_1<a_2<\cdots\}$ with properties $P$ or $Q$
 increase?
 
-**Notes.** The site's definition of property $Q$ quantifies over every $a<n$,
-not over the members of $A$, and so read it holds for no set $A$: for $n\ge5$
-the numbers $n+1,\ldots,2n-1$ are at least four consecutive integers, one of
-them is a multiple of $4$, so only $n\le4$ can qualify, and the question about
-sequences with property $Q$ concerns an empty class (an elementary check, the
-corpus's own). The change replaces "for all $a<n$" by "for all $a\in A$ with
-$a<n$"; nothing else changes. The evidence is Erdős's own definition [Er81h,
-printed p. 179]: "$A$ is said to have property $Q$ if for infinitely many $n$,
-$n+a_i$ is squarefree for all $a_i<n$", where the $a_i$ are the terms of
-$A=\{a_1<a_2<\cdots\}$, followed by "It is easy to see that if $A$ increases
-sufficiently fast then it has property $Q$", which is true only when the
-condition ranges over the members of $A$. The inserted words are those of
+**Notes.** The erdosproblems.com definition of property $Q$ quantifies over
+every $a<n$, not over the members of $A$, and so read it holds for no set $A$:
+for $n\ge5$ the numbers $n+1,\ldots,2n-1$ are at least four consecutive
+integers, one of them is a multiple of $4$, so only $n\le4$ can qualify, and the
+question about sequences with property $Q$ concerns an empty class (an
+elementary check, the corpus's own). The change replaces "for all $a<n$" by "for
+all $a\in A$ with $a<n$"; nothing else changes. The evidence is Erdős's own
+definition [Er81h, printed p. 179]: "$A$ is said to have property $Q$ if for
+infinitely many $n$, $n+a_i$ is squarefree for all $a_i<n$", where the $a_i$ are
+the terms of $A=\{a_1<a_2<\cdots\}$, followed by "It is easy to see that if $A$
+increases sufficiently fast then it has property $Q$", which is true only when
+the condition ranges over the members of $A$. The inserted words are those of
 Definition 1 of [vDTa25], which recalls Erdős's definitions and states property
-$Q$ as "$n+a$ squarefree for all $a\in A$ with $a<n$". The defect is the site's:
-Erdős's text carries the membership in the subscript of $a_i$. No result about
-the site's wording is recorded.
+$Q$ as "$n+a$ squarefree for all $a\in A$ with $a<n$". The defect is
+erdosproblems.com's: Erdős's text carries the membership in the subscript of
+$a_i$. No result about the erdosproblems.com wording is recorded.
 
-**Status.** Labeled SOLVED (LEAN) on the site. The standing is `solved`, derived
-from the accepted full claim of van Doorn and Tao [vDTa25], published in Acta
-Arithmetica in 2026, on
+**Status.** Labeled SOLVED (LEAN) on erdosproblems.com. The standing is
+`solved`, derived from the accepted full claim of van Doorn and Tao [vDTa25],
+published in Acta Arithmetica in 2026, on
 [[problems/integer_sequences/E1102/claims/2025_11_30_van_doorn_tao|its claim page]].
-The site's curator, Thomas Bloom, credits the paper with the result. This is the
-reviewed evidence recorded on the claim page.
+The erdosproblems.com curator, Thomas Bloom, credits the paper with the result.
+This is the reviewed evidence recorded on the claim page.
 
 The paper answers the modified Statement. A sequence with property $P$ must
 have natural density zero, and nothing stronger holds, since the density may
@@ -72,12 +72,13 @@ exactly $6/\pi^2$ exists. An admissible sequence (one avoiding a residue class
 modulo $p^2$ for every prime $p$) with $a_j\ge\exp(Cj/\log j)$ for infinitely
 many $j$ has property $Q$. So $2^n\pm1$ and $n!\pm1$ have property $Q$, while
 fast growth alone does not suffice. Whether $2^n\pm1$ or $n!\pm1$ has property
-$P$, a side question of the site's commentary, remains unanswered.
+$P$, a side question of the erdosproblems.com commentary, remains unanswered.
 
-The site's (LEAN) qualifier refers to the first author's Lean files of 23
-February 2026, produced by Aristotle, Harmonic's prover. The formal-conjectures
-catalog registers two of them. This corpus has not built them. The commentary
-(last edited 2 December 2025) and the thread were accessed 2026-10-07.
+erdosproblems.com's (LEAN) qualifier refers to the first author's Lean files of
+23 February 2026, produced by Aristotle, Harmonic's prover. The
+formal-conjectures catalog registers two of them. This corpus has not built
+them. The commentary (last edited 2 December 2025) and the thread were accessed
+2026-10-07.
 
 **Source.** [erdosproblems.com/1102](https://www.erdosproblems.com/1102),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1102,

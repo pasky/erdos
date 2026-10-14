@@ -6,18 +6,18 @@ desc: |
   that the largest family of subsets of the first N integers with pairwise
   nonempty arithmetic progression intersections has N squared over 2 plus O(N)
   members, Szabó's linear-error asymptotic and not the exact value, with no
-  refereed publication and the site's kernel check not repeated here.
+  refereed publication and Conjectures.io's kernel check not repeated here.
 license: reserved
 created: 2026-09-28T02:57:24Z
-updated: 2026-10-08T01:51:15Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # JenW1N: Lean proof of Szabó's linear-error asymptotic for Problem 272
 
 [[additive_combinatorics/_index|..]]
 
-[[additive_combinatorics/jenw1n_2026_erdos_problem_272_szabo_strong/jenw1n_2026_erdos_problem_272_szabo_strong|jenw1n_2026_erdos_problem_272_szabo_strong]]: Records the site record's URLs, the verified Lean statement, the acceptance
-timeline and the provenance of the downloaded proof file.
+[[additive_combinatorics/jenw1n_2026_erdos_problem_272_szabo_strong/jenw1n_2026_erdos_problem_272_szabo_strong|jenw1n_2026_erdos_problem_272_szabo_strong]]: Records Conjectures.io record's URLs, the verified Lean statement, the
+acceptance timeline and the provenance of the downloaded proof file.
 
 ***
 
@@ -28,20 +28,20 @@ szabo strong*, Lean 4 proof accepted by the bounty site Conjectures.io, record
 verification 9 September 2026, review approval 11 September 2026,
 certification 14 September 2026, bounty paid.
 
-The folder holds no folder-name PDF: the source is the Lean file the site's
-record publishes, with no write-up, so the folder-name Markdown file
-[source record](jenw1n_2026_erdos_problem_272_szabo_strong.md) is the source
-itself and records the URLs, the verified statement, the acceptance timeline and
-the provenance of the downloaded file (the library's no-PDF shape). The Lean
-file (12,791 lines, 600,125 bytes) is not held here; its size is on the source
-record. The file's header declares no author and no AI system; one
+The folder holds no folder-name PDF: the source is the Lean file
+Conjectures.io's record publishes, with no write-up, so the folder-name Markdown
+file [source record](jenw1n_2026_erdos_problem_272_szabo_strong.md) is the
+source itself and records the URLs, the verified statement, the acceptance
+timeline and the provenance of the downloaded file (the library's no-PDF shape).
+The Lean file (12,791 lines, 600,125 bytes) is not held here; its size is on the
+source record. The file's header declares no author and no AI system; one
 comment says a lemma comes "from the third supplied proof".
 
 **Read status: claims checked.** The final theorem, the header and the chain of
-declarations named below were read as text against the statement the site's
-record prints and formal-conjectures' `272.lean`; the file was rebuilt and its
-target replayed in the kernel on the repository's pinned toolchain. No proof was
-verified here by reading.
+declarations named below were read as text against the statement
+Conjectures.io's record prints and formal-conjectures' `272.lean`; the file was
+rebuilt and its target replayed in the kernel on the repository's pinned
+toolchain. No proof was verified here by reading.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0272/_index|Problem 272]]: proves
 $t(N)=N^2/2+O(N)$, the affirmative answer to Szabó's linear-error question
@@ -52,7 +52,7 @@ conjecture, so it is progress, not a resolution.
 
 ## The verified statement
 
-The site's record and its problem page print the target type
+Conjectures.io's record and its problem page print the target type
 
 ```
 (fun N => ↑(Erdos272.maxArithInterCard N) - ↑N ^ 2 / 2) =O[Filter.atTop] fun N => ↑N
@@ -95,11 +95,11 @@ extremal formula or that every extremal family has a common element." It also
 says that the proof "passed production verification and a fresh isolated replay
 on 10 September 2026", that the closest prior paper, Yang's Theorem 1.4 and
 Section 7, "does not settle this unrestricted asymptotic target", and that the
-approval "is an eligibility decision, not a guarantee of originality". The
-site's certification is reported, not counted: no refereed publication, no
-write-up, no erdosproblems.com acceptance and no formal-conjectures catalog
-agreement was found on 2026-09-27; formal-conjectures' default branch labels the
-variant `research open`.
+approval "is an eligibility decision, not a guarantee of originality".
+Conjectures.io's certification is reported, not counted: no refereed
+publication, no write-up, no erdosproblems.com acceptance and no
+formal-conjectures catalog agreement was found on 2026-09-27;
+formal-conjectures' default branch labels the variant `research open`.
 
 ## Route of the proof file
 

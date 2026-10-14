@@ -54,10 +54,10 @@ different papers:
   every $N$, $D(N)\le\lambda^3(N)\,N\,(\ln N)^2$ with
   $2/\log2\ge\lambda(N)\ge1$ and $\lambda(N)\to1$; its introduction
   (p. 598) recalls part I's bound with exponent $4$.
-- The 1980 monograph of Erdős and Graham (p. 38), the site's commentary for
-  Problem 305 and Liu and Sawhney (arXiv:2404.07113v1, p. 3) all attribute
-  the exponent-$2$ bound $D(b)\ll b(\log b)^2$ to this J. Number Theory
-  paper; the theorem with exponent $2$ is part II's.
+- The 1980 monograph of Erdős and Graham (p. 38), the erdosproblems.com
+  commentary for Problem 305 and Liu and Sawhney (arXiv:2404.07113v1, p. 3) all
+  attribute the exponent-$2$ bound $D(b)\ll b(\log b)^2$ to this J. Number
+  Theory paper; the theorem with exponent $2$ is part II's.
 
 Conjecture 3 of this paper (p. 167) asks for exponent $1+\varepsilon$; see
 [[unit_fractions/bleicher_1976_denominators_egyptian_fractions/conjecture_3|its page]].

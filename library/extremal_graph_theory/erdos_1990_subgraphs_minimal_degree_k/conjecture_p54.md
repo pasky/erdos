@@ -83,8 +83,8 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0814/_index|Problem 814]]: the origin of the
-  problem's statement, which the site poses with "induced subgraph"
+  problem's statement, which Bloom's catalog poses with "induced subgraph"
   (equivalent, since the induced subgraph on the same vertex set has the
-  same order and degrees at least as large); the site attributes the $k=3$
-  case to Erdős and Hajnal through a 1991 collection, while this page cites
-  the 1988 paper for it.
+  same order and degrees at least as large); erdosproblems.com attributes the
+  $k=3$ case to Erdős and Hajnal through a 1991 collection, while this page
+  cites the 1988 paper for it.

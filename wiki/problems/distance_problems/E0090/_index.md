@@ -24,10 +24,10 @@ updated: 2026-10-13T12:25:21Z
 **Statement.** Does every set of $n$ distinct points in $\mathbb{R}^2$ contain
 at most $n^{1+O(1/\log\log n)}$ many pairs which are distance 1 apart?
 
-**Status.** Disproved. The site's export of 2026-09-04 labeled the problem
-"DISPROVED (LEAN)" (page last edited 20 May 2026). The corpus has built none of
-the Lean developments behind the Lean marker (see "Formalization and the Lean
-label" below).
+**Status.** Disproved. The erdosproblems.com export of 2026-09-04 labeled the
+problem "DISPROVED (LEAN)" (page last edited 20 May 2026). The corpus has built
+none of the Lean developments behind the Lean marker (see "Formalization and the
+Lean label" below).
 
 **Source.** [erdosproblems.com/90](https://www.erdosproblems.com/90), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #90,
@@ -86,8 +86,8 @@ covers.
 The standing is derived from the claim pages in `claims/`. The accepted claim is
 [[problems/distance_problems/E0090/claims/2026_05_20_openai|OpenAI's fixed-power disproof]],
 accepted on the companion manuscript's documented check of the model's proof and
-the site curator's credit of the disproof to an internal OpenAI model; the
-companion proof by
+the erdosproblems.com curator's credit of the disproof to an internal OpenAI
+model; the companion proof by
 [[problems/distance_problems/E0090/claims/2026_05_20_alon_bloom_gowers_litt_sawin_shankar_tsimerman_wang_wood|Alon and coauthors]],
 the explicit construction of
 [[problems/distance_problems/E0090/claims/2026_05_20_sawin|Sawin]],
@@ -101,7 +101,7 @@ three natural-language proof records below are recorded at their declared
 dependency boundaries. The OpenAI original branch's independent review is
 retained with that source as its
 [[../library/discrete_geometry/openai_2026_planar_point_sets_many_unit_distances/evidence/verify/full_review|full review]];
-the Sawin and companion chains stand as author-recorded. The site's
+the Sawin and companion chains stand as author-recorded. erdosproblems.com's
 formal-conjectures link records the statement and is not evidence of a checked
 formal proof of the disproof.
 
@@ -257,10 +257,10 @@ has no claim page here.
 
 ## Formalization and the Lean label
 
-The site's export of 2026-09-04 labeled the problem "DISPROVED (LEAN)". The
-developments below are described from their repositories' text at the commits
-their links pin. The corpus has built, kernel-checked or audited none of them,
-so none gives `formalized` evidence.
+The erdosproblems.com export of 2026-09-04 labeled the problem "DISPROVED
+(LEAN)". The developments below are described from their repositories' text at
+the commits their links pin. The corpus has built, kernel-checked or audited
+none of them, so none gives `formalized` evidence.
 
 **Statement identity.** Three formal statements are in circulation. The
 uniform-constant negation, for every $C>0$ and every $N$ an $n\ge N$ and an
@@ -272,8 +272,8 @@ Intelligence developments target; the `kim-em/erdos-unit-distance` README and
 `formalization.yaml` and the `plby/Erdos90` README name it as the lean-eval
 problem `erdos_unit_distance_conjecture_false`. The fixed-power statement
 implies the uniform-constant negation; the fourth route's Theorem 1.1 sits
-between them. The corpus has reviewed no formal statement against the site's
-wording.
+between them. The corpus has reviewed no formal statement against the
+erdosproblems.com wording.
 
 **`kim-em/erdos-unit-distance`**
 ([the repository at its commit of 27 August 2026](https://github.com/kim-em/erdos-unit-distance/tree/d748fd08b40a72f61e982325f2f0599228ca08b3),

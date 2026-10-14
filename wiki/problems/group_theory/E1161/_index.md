@@ -23,14 +23,14 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Let $f_k(n)$ count the number of elements of $S_n$ of order $k$.
 For which values of $k$ will $f_k(n)$ be maximal?
 
-**Formulation.** The question is read for large $n$, as the paper the site
-credits and the site's label read it. Beker takes up the question of Erdős
-and Turán (1968, p. 414), restated by Acan, Burnette, Eberhard, Schmutz and
-Thomas, as one about the most probable order of a random permutation, and
-calls the answer, which holds for all sufficiently large $n$, essentially
-complete. Read for every $n$, the question is settled only beyond a threshold
-the argument does not make explicit, and some small $n$ have other maximizers
-(Remark 1.3). The page's standing targets the large-$n$ reading.
+**Formulation.** The question is read for large $n$, as the paper
+erdosproblems.com credits and the erdosproblems.com label read it. Beker takes
+up the question of Erdős and Turán (1968, p. 414), restated by Acan, Burnette,
+Eberhard, Schmutz and Thomas, as one about the most probable order of a random
+permutation, and calls the answer, which holds for all sufficiently large $n$,
+essentially complete. Read for every $n$, the question is settled only beyond a
+threshold the argument does not make explicit, and some small $n$ have other
+maximizers (Remark 1.3). The page's standing targets the large-$n$ reading.
 
 **Status.** Solved.
 
@@ -47,19 +47,20 @@ https://www.erdosproblems.com/1161.
 
 ## Current assessment
 
-The standing judges the site's formulation of 2026-09-04, read for large $n$ as
-the Formulation states. Beker [Be25d] answers it for all sufficiently large $n$:
-the largest of the counts $f_k(n)$ is $(1+o(1))\,(n-1)!$, and it is attained at
-exactly one order, the least $k\geq1$ divisible by every integer from $1$ to
-$n-k$; the paper's own Remark 1.3 says that small $n$ behave differently and
-that the bound its argument could give is most probably not small enough to
-check the remaining cases by a naive method. The accepted claim page
+The standing judges the erdosproblems.com formulation of 2026-09-04, read for
+large $n$ as the Formulation states. Beker [Be25d] answers it for all
+sufficiently large $n$: the largest of the counts $f_k(n)$ is
+$(1+o(1))\,(n-1)!$, and it is attained at exactly one order, the least $k\geq1$
+divisible by every integer from $1$ to $n-k$; the paper's own Remark 1.3 says
+that small $n$ behave differently and that the bound its argument could give is
+most probably not small enough to check the remaining cases by a naive method.
+The accepted claim page
 [[problems/group_theory/E1161/claims/2025_10_13_beker|Beker 2025]] carries the
-acceptance evidence, which is the site's curator crediting the preprint as the
-solution; no refereed publication is recorded. Search scope: the site's problem
-page and discussion thread and the arXiv record of the preprint, accessed
-2026-10-07, and the site's proof-claims page; they recorded no other claim.
-Nothing on this page is independently reviewed.
+acceptance evidence, which is the erdosproblems.com curator crediting the
+preprint as the solution; no refereed publication is recorded. Search scope: the
+erdosproblems.com problem page and discussion thread and the arXiv record of the
+preprint, accessed 2026-10-07, and the erdosproblems.com proof-claims page; they
+recorded no other claim. Nothing on this page is independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -45,5 +45,5 @@ and does not determine $n_k$ for any $k$.
 
 **Standing.** Claimed. The manuscript is on arXiv, dated 19 May 2015, and no
 journal version of it is recorded. A thread post of 26 August 2026 pointed
-to Corollary 1(1) as giving this bound. The site's commentary does not
-mention the manuscript, and no review of it is recorded.
+to Corollary 1(1) as giving this bound. The erdosproblems.com commentary does
+not mention the manuscript, and no review of it is recorded.

@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 1105, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E1105/claims
@@ -23,7 +23,7 @@ $\mathrm{AR}(n,C_k)=\mathbf E(n,k)-1$, which settles the cycle half.
 
 [[problems/ramsey_theory/E1105/claims/2021_02_01_yuan|2021_02_01_yuan]]: Theorem 1 of Yuan's 2021 arXiv preprint gives $\mathrm{AR}(n,P_k)$ for all
 $n\ge k\ge5$ as the maximum of two terms, the 1975 formula of Erdős,
-Simonovits and Sós. The site's curator credits the preprint as the proof of
-the path half.
+Simonovits and Sós. The erdosproblems.com curator credits the preprint as the
+proof of the path half.
 
 ***

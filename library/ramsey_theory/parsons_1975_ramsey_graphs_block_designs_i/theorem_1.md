@@ -64,5 +64,6 @@ Sós) in the proof of Lemma 1.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0552/_index|Problem 552]]: the upper bound
-  $R(C_4,S_n)\le n+\lceil\sqrt n\rceil+1$ of the site's window and the exact
-  value $R(C_4,S_n)=n+\lceil\sqrt n\rceil$ at $n=q^2+1$ for prime powers $q$.
+  $R(C_4,S_n)\le n+\lceil\sqrt n\rceil+1$ of erdosproblems.com's window and the
+  exact value $R(C_4,S_n)=n+\lceil\sqrt n\rceil$ at $n=q^2+1$ for prime powers
+  $q$.

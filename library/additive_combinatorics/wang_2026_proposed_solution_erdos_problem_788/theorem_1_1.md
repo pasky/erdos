@@ -18,7 +18,7 @@ Printed p. 1: $I_n=(n,2n)\cap\mathbb N$, $J_n=(2n,4n)\cap\mathbb N$; "For
 $B\subseteq J_n$, call $C\subseteq I_n$ $B$-admissible if $c+c'\notin B$
 whenever $c,c'\in C$ are distinct, and define
 $f(n)=\max\{t\in\mathbb Z:\text{every }B\subseteq J_n\text{ has a }
-B\text{-admissible }C\text{ with }|B|+|C|\ge t\}$", the site's $f(n)$.
+B\text{-admissible }C\text{ with }|B|+|C|\ge t\}$", erdosproblems.com's $f(n)$.
 **Theorem 1.1** (Main theorem, p. 2) claims absolute constants $c,C>0$
 for which every sufficiently large $n$ satisfies
 
@@ -36,8 +36,8 @@ every $B$-admissible $C\subseteq I_n$ obeys $|B|+|C|\le n^{1/2+\varepsilon}$."
 
 This is a claim page. The statement was read; the proof was not assessed here.
 On 2026-09-18 the manuscript had no arXiv version and no journal record
-(Crossref bibliographic query), and the site's Problem 788 page kept OPEN with a
-commentary that does not adopt it.
+(Crossref bibliographic query), and erdosproblems.com's Problem 788 page kept
+OPEN with a commentary that does not adopt it.
 
 **Source.** S. Wang, *A Proposed Solution to Erdős Problem 788*, a 15-page
 manuscript in the author's public repository (the file `788/paper.pdf`,
@@ -45,7 +45,7 @@ PDF metadata dated 22 July 2026; the held copy is byte-identical to that
 file at the repository's head commit of 2 August 2026, compared 2026-09-18).
 Theorem 1.1 on p. 2, read in the text layer. The abstract's
 closing sentence (p. 1) reads "This proposed solution was found by GPT-5.";
-the site's proof-claim tab for the problem (a full claim submitted
+the erdosproblems.com proof-claim tab for the problem (a full claim submitted
 2026-07-19 03:41:03 by the author) makes the same declaration.
 
 **Read depth.** Claims checked for the definitions, Theorem 1.1 and Remark

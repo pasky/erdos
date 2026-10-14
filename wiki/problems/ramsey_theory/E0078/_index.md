@@ -26,14 +26,14 @@ $K_k$.
 
 Give a constructive proof that $R(k)>C^k$ for some constant $C>1$.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
-23 January 2026). The statement does not define "constructive"; the site's
-commentary restates the problem as asking for an explicit graph on $n$
-vertices with no clique or independent set of size $c\log n$ or more, for some
-constant $c>0$, and the discussion thread fixed the sense in January and May
-2026: a derandomization of Erdős's probabilistic proof by the method of
-conditional expectations does not count, and "explicit" is meant as in the
-introduction of Cohen's paper, an algorithm that decides adjacency of two
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 23 January 2026). The statement does not define "constructive"; the
+erdosproblems.com commentary restates the problem as asking for an explicit
+graph on $n$ vertices with no clique or independent set of size $c\log n$ or
+more, for some constant $c>0$, and the discussion thread fixed the sense in
+January and May 2026: a derandomization of Erdős's probabilistic proof by the
+method of conditional expectations does not count, and "explicit" is meant as in
+the introduction of Cohen's paper, an algorithm that decides adjacency of two
 given vertices in time polynomial in $\log n$. The two forms are equivalent up
 to constants (an observation made here): an explicit family of graphs $G_n$ on
 $n$ vertices with no clique or independent set of size $c\log_2n$ gives, for
@@ -63,9 +63,9 @@ not a certificate of openness. Erdős offered a prize for a constructive proof i
 
 **Source.** [erdosproblems.com/78](https://www.erdosproblems.com/78),
 accessed 2026-09-18: the problem page (OPEN, with
-the site's note that the problem cannot be settled by a finite computation;
-last edited 23 January 2026; source keys [Er69b], [Er71], [Er88], [Er93,
-p. 337], [Er95], [Er97c], [Va99, 3.49]; commentary citing [Co15] and
+the erdosproblems.com note that the problem cannot be settled by a finite
+computation; last edited 23 January 2026; source keys [Er69b], [Er71], [Er88],
+[Er93, p. 337], [Er95], [Er97c], [Va99, 3.49]; commentary citing [Co15] and
 [Li23b]; an acknowledgment line thanking two contributors), its
 five-comment discussion thread (15 January and 4 May 2026) and its empty
 proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #78,
@@ -113,8 +113,8 @@ https://www.erdosproblems.com/78, accessed 2026-09-18.
   here.
 - [Er71] Erdős, P., Some unsolved problems in graph theory and
   combinatorial analysis. Combinatorial Mathematics and its Applications
-  (Proc. Conf., Oxford, 1969), Academic Press (1971), 97--109. A site key;
-  its library card
+  (Proc. Conf., Oxford, 1969), Academic Press (1971), 97--109. An
+  erdosproblems.com key; its library card
   ([[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|card]])
   locates its passage for this problem at its item for this problem (the
   request on p. 99 for a nontrivial lower bound for $f(n,n)$ by
@@ -122,7 +122,7 @@ https://www.erdosproblems.com/78, accessed 2026-09-18.
 - [Er93] Erdős, P., Some of my favorite solved and unsolved problems in
   graph theory. Quaestiones Math. 16 (1993), 333--350; Chapter II, display
   (3) and the prize offer for a constructive proof, printed p. 337 (the displays
-  as the library card gives them). The site cites p. 337. Library home:
+  as the library card gives them). erdosproblems.com cites p. 337. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Er97c] Erdős, P., Some of my favorite problems and results. The
   mathematics of Paul Erdős, I, Algorithms Combin. 13, Springer (1997),
@@ -143,27 +143,28 @@ polynomial-time adjacency algorithm whose graphs on $n$ vertices have, for all
 large $n$, no clique or independent set of size $\lceil c\log n\rceil$. The
 algorithm receives $n$ in unary (`explicitGraph`), so "explicit" there means
 adjacency decidable in time polynomial in $n$, which the file calls weakly
-explicit; the sense the site's thread fixed, time polynomial in $\log n$, is the
-file's separate open variant `erdos_78.variants.strongly_explicit`
-(`stronglyExplicitGraph`, with $n$ in binary). The variants `nonconstructive`
-(Erdős's 1947 bound), `little_o_sqrt` (the 1969 target), `cohen`, `li` and
-`li_strongly_explicit` are marked solved. Every declaration has proof `sorry`,
-and no `formal_proof` attribute is present. No file for this problem existed on
-main on 2026-09-18, when the site's "Formalised statement?" indicator read "No
-(create one)"; on 2026-10-13 the indicator read "Yes", linking the file. The
-community database records the problem open (record dated 31 August 2025) and
-its statement formalized, with no formal proof. Nothing was built here.
+explicit; the sense the erdosproblems.com thread fixed, time polynomial in
+$\log n$, is the file's separate open variant
+`erdos_78.variants.strongly_explicit` (`stronglyExplicitGraph`, with $n$ in
+binary). The variants `nonconstructive` (Erdős's 1947 bound), `little_o_sqrt`
+(the 1969 target), `cohen`, `li` and `li_strongly_explicit` are marked solved.
+Every declaration has proof `sorry`, and no `formal_proof` attribute is present.
+No file for this problem existed on main on 2026-09-18, when erdosproblems.com's
+"Formalised statement?" indicator read "No (create one)"; on 2026-10-13 the
+indicator read "Yes", linking the file. The community database records the
+problem open (record dated 31 August 2025) and its statement formalized, with no
+formal proof. Nothing was built here.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement
-above; OPEN, with the site's note that it cannot be settled by a finite
-computation; a prize; last edited 23 January 2026. The commentary, in summary:
-Erdős's simple probabilistic argument gives $R(k)\gg k2^{k/2}$; the question
-asks, equivalently, for an explicit graph on $n$ vertices with no clique or
-independent set of size $c\log n$ or more, for some constant $c>0$; the weaker
-request of [Er69b], a construction whose cliques and independent sets have
-$o(n^{1/2})$ vertices, has since been met; Cohen [Co15] built graphs on $n$
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; OPEN, with the erdosproblems.com note that it cannot be settled
+by a finite computation; a prize; last edited 23 January 2026. The commentary,
+in summary: Erdős's simple probabilistic argument gives $R(k)\gg k2^{k/2}$; the
+question asks, equivalently, for an explicit graph on $n$ vertices with no
+clique or independent set of size $c\log n$ or more, for some constant $c>0$;
+the weaker request of [Er69b], a construction whose cliques and independent sets
+have $o(n^{1/2})$ vertices, has since been met; Cohen [Co15] built graphs on $n$
 vertices whose cliques and independent sets all have fewer than
 $2^{(\log\log n)^C}$ vertices, for a constant $C>0$ (the commentary points to
 Cohen's introduction for the history), and Li [Li23b] lowered that threshold
@@ -174,9 +175,10 @@ construction and that such a derandomization only proves existence, and a
 proposal to ask instead for a deterministic algorithm producing a graph on
 exponentially many vertices in time less than double exponential in $k$; on 4
 May 2026 a comment posting such a derandomization, attributed by its poster to
-GPT 5.5 Pro (below), and the site author's reply that it is the well-known
-method of conditional expectations and that "explicit" means adjacency decidable
-in time polynomial in $\log n$, as in [Co15]. The proof-claim tab is empty.
+GPT 5.5 Pro (below), and erdosproblems.com author's reply that it is the
+well-known method of conditional expectations and that "explicit" means
+adjacency decidable in time polynomial in $\log n$, as in [Co15]. The
+proof-claim tab is empty.
 
 **Erdős's wording in the papers.** 1969,
 p. 30: "I would like to call attention to the following question: I proved
@@ -240,7 +242,7 @@ reference [81] (Li, CCC 2019), whose Ramsey graph has cliques and independent
 sets below $(\log N)^{O(\log\log\log N/\log\log\log\log N)}$, short of
 a polylogarithmic bound, and it credits Chattopadhyay and Zuckerman's two-source
 extractor (its [26]) with min-entropy $\log^{O(1)}n$ (p. 8); neither [81] nor
-that paper is held. The site credits the $(\log n)^C$ bound to Li.
+that paper is held. erdosproblems.com credits the $(\log n)^C$ bound to Li.
 
 **The bounds map.** Nonconstructive: $R(k)>2^{k/2}$ (Erdős 1947, with
 Spencer's factor of $2$, see [[problems/ramsey_theory/E1029/_index|Problem 1029]]).
@@ -260,7 +262,7 @@ by one, choosing at each step the color that does not increase the
 expected number of monochromatic $K_k$ under a uniformly random completion
 (the method of conditional expectations), in time $2^{O(k^2)}$, giving a
 graph on $2^{\Omega(k)}$ vertices with no clique or independent set of
-size $k$ for large $k$. The site's author replied that this is the
+size $k$ for large $k$. erdosproblems.com's author replied that this is the
 well-known method of conditional expectations and not "explicit" in the
 intended sense; it answers the thread's algorithmic variant, not the
 problem, and it was not checked here. Preprints found in the search, known
@@ -280,7 +282,7 @@ mention Ramsey graphs.
 explicit $O(\log n)$-Ramsey graph, a constructive exponential lower bound
 for $R(k)$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures tree at the commit of 2026-09-18 (no file then; the
   statement file of 27 September 2026 is recorded under Formalization); the
   community database of 2026-09-18; OEIS A059442 (links this problem; no

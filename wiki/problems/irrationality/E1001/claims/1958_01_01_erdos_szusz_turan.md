@@ -36,13 +36,14 @@ f(A,c)=\lim_{N\to\infty}S(N,A,c)=\frac{12A\log c}{\pi^2}
 $$
 
 exists and has this value, where $S(N,A,c)$ is the measure of the
-$\alpha\in(0,1)$ with $|\alpha-x/y|\le A/y^2$ for some coprime $x,y$ with $N\le
-y\le cN$ (the site's set of [[problems/irrationality/E1001/_index|Problem
-1001]], defined with a strict inequality, differs from it by a countable set).
-This is Theorem III of P. Erdős, P. Szüsz and P. Turán, Remarks on the theory of
-diophantine approximation, Colloq. Math. 6 (1958), 119--126, received by the
-journal on 1957-11-16 and in revised form on 1958-06-10, and published in 1958
-(the page's date is the volume's year, with the day set to its first); the card
+$\alpha\in(0,1)$ with $|\alpha-x/y|\le A/y^2$ for some coprime $x,y$ with
+$N\le y\le cN$ (erdosproblems.com's set of
+[[problems/irrationality/E1001/_index|Problem 1001]], defined with a strict
+inequality, differs from it by a countable set). This is Theorem III of P.
+Erdős, P. Szüsz and P. Turán, Remarks on the theory of diophantine
+approximation, Colloq. Math. 6 (1958), 119--126, received by the journal on
+1957-11-16 and in revised form on 1958-06-10, and published in 1958 (the page's
+date is the volume's year, with the day set to its first); the card
 [[../library/irrationality/erdos_1958_remarks_theory_diophantine_approximation/_index|erdos_1958_remarks_theory_diophantine_approximation]]
 records the paper. In this range the approximation intervals around distinct
 reduced fractions with denominators in $[N,cN]$ are pairwise disjoint, so the

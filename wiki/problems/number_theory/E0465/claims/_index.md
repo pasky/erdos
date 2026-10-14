@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 465, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/number_theory/E0465/claims
@@ -18,7 +18,7 @@ It was refereed and published in Studia Sci. Math. Hungar.
 
 [[problems/number_theory/E0465/claims/2001_04_01_konyagin|2001_04_01_konyagin]]: Konyagin's Theorem of 2001: for every $\delta$ there is $C(\delta)$ with
 $N(X,\delta)<C(\delta)\sqrt X$ for all $X\ge1$, which answers both questions
-of Problem 465. It was refereed and published in Mat. Zametki, and the site
-credits it.
+of Problem 465. It was refereed and published in Mat. Zametki, and
+erdosproblems.com credits it.
 
 ***

@@ -45,17 +45,17 @@ $k\le36$ and the first terms of $K$.
 
 **Covers.** The existence of the limit and its series form. Not covered: a
 closed form for the value, since the authors see no simple way to determine
-$K$; the site's commentary reports that Eberhard evaluated the limit from this
-formula as $0.800965\cdots$, a computation that has no page. Also not covered:
-the question whether the limit is irrational, which the paper itself raises
-and the problem repeats.
+$K$; the erdosproblems.com commentary reports that Eberhard evaluated the limit
+from this formula as $0.800965\cdots$, a computation that has no page. Also not
+covered: the question whether the limit is irrational, which the paper itself
+raises and the problem repeats.
 
 **Depends on.** No page of this wiki; the result is the paper's.
 
 **Standing.** Claimed. The paper appeared in the collected volume *Number
 Theory and Algebra* (Academic Press, New York, 1977), pp. 103–109, which is not
-shown to be refereed, so the page lists no `refereed` evidence. The site labeled
-the problem OPEN and its commentary credits the result, as does the
+shown to be refereed, so the page lists no `refereed` evidence. Bloom's catalog
+labeled the problem OPEN and its commentary credits the result, as does the
 formal-conjectures statement file
 ([`erdos_168.variants.limit_exists`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/168.lean),
 tagged solved with this attribution and left as `sorry`); neither is
@@ -63,5 +63,5 @@ acceptance of the problem.
 
 **Dating.** The page is dated by the publication year; the volume gives no
 day, and the day in the page name is a placeholder. The page name follows the
-offprint's author order; the site lists the authors as Graham, Spencer and
-Witsenhausen.
+offprint's author order; erdosproblems.com lists the authors as Graham, Spencer
+and Witsenhausen.

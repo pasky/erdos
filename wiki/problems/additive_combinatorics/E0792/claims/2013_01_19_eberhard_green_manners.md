@@ -5,7 +5,7 @@ desc: |
   Eberhard, Green and Manners's theorem that some set of $n$ positive integers
   has no sum-free subset larger than $n/3+o(n)$, which with Erdős's lower bound
   $n/3$ settles the main term of $f(n)$ in Problem 792. It appeared in Annals of
-  Mathematics in 2014, and the site credits it.
+  Mathematics in 2014, and erdosproblems.com credits it.
 authors:
 - Sean Eberhard
 - Ben Green
@@ -75,9 +75,11 @@ claimed) and no upper bound sharper than $o(n)$ is in hand.
 **Acceptance.** Refereed: the paper is the publisher's version of record in the
 Annals of Mathematics (Crossref). This page is named by the first arXiv posting,
 19 January 2013. The statement is that of the 2026 arXiv revision v3, which is
-not compared with the journal text. The site's curator, Thomas F. Bloom, credits
-the best upper bound to Eberhard, Green and Manners in the problem page's
-commentary (label OPEN, page last edited 23 January 2026). Bedert's preprint (p.
+not compared with the journal text. The erdosproblems.com curator, Thomas F.
+Bloom, credits the best upper bound to Eberhard, Green and Manners in the
+problem page's commentary (label OPEN, page last edited 23 January 2026).
+Bedert's preprint (p.
 2) restates it as the best upper bound. Neither credit is listed as `reviewed`,
-because the problem is not marked settled on the site and a citation is not a
-review. The statement is checked, but the proof is not checked in this corpus.
+because the problem is not marked settled on erdosproblems.com and a citation is
+not a review. The statement is checked, but the proof is not checked in this
+corpus.

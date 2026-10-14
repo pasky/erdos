@@ -72,20 +72,20 @@ on which it does not depend. The proof was not reconstructed here.
 **Acceptance.** The result appeared in a refereed journal, the *Electronic
 Journal of Combinatorics*, in 2025. This is the `refereed` evidence. The text
 cited here is the arXiv preprint, which was not compared with the published
-version. The site's curator, Thomas Bloom, marked the problem DISPROVED (LEAN).
-The commentary records that Bowler and Pitz gave a simpler elementary example.
-That curator credit is the `reviewed` evidence.
+version. The erdosproblems.com curator, Thomas Bloom, marked the problem
+DISPROVED (LEAN). The commentary records that Bowler and Pitz gave a simpler
+elementary example. That curator credit is the `reviewed` evidence.
 
-**Formalization.** The site's Lean suffix refers to a Lean 4 development
-in Boris Alexeev's repository, announced on the site's thread on 2026-01-28
-(post 3898) and named by the formal-conjectures statement file as the
-formal proof of `erdos_1067`. Its header declares itself a formalization
-of a solution to the problem, credits the original proof to Komjáth and
-Soukup, and states that the paper of Bowler and Pitz was auto-formalized by
-the system Aristotle (post 3898 adds that it worked from the arXiv TeX
-source), with the final theorem statement written by ChatGPT and the final
-proof by the system Aleph Prover, checked under Lean 4.24.0 and the matching
-Mathlib. The file proves `main_theorem`, that the constructed graph is
+**Formalization.** The erdosproblems.com Lean suffix refers to a Lean 4
+development in Boris Alexeev's repository, announced on the erdosproblems.com
+thread on 2026-01-28 (post 3898) and named by the formal-conjectures statement
+file as the formal proof of `erdos_1067`. Its header declares itself a
+formalization of a solution to the problem, credits the original proof to
+Komjáth and Soukup, and states that the paper of Bowler and Pitz was
+auto-formalized by the system Aristotle (post 3898 adds that it worked from the
+arXiv TeX source), with the final theorem statement written by ChatGPT and the
+final proof by the system Aleph Prover, checked under Lean 4.24.0 and the
+matching Mathlib. The file proves `main_theorem`, that the constructed graph is
 uncountably chromatic and has the finite adhesion property (every
 uncountable vertex set has two distinct vertices joined by only finitely
 many independent paths), and from it `not_erdos_1067`, the negation of its

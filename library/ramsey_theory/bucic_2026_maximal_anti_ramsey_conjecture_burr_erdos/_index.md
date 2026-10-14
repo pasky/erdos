@@ -6,7 +6,7 @@ desc: |
   counts.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos
@@ -15,7 +15,8 @@ updated: 2026-10-08T01:29:58Z
 
 [[ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/conjecture_1_1|conjecture_1_1]]: The Burr–Erdős–Graham–Sós conjecture as the 2026 paper states it, with its
 attribution to the 1989 paper, to Erdős's 1991 problem collection and to
-the catalog entry, and the trichotomy for C_3, C_5 and longer odd cycles.
+the erdosproblems.com entry, and the trichotomy for C_3, C_5 and longer odd
+cycles.
 
 [[ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/theorem_1_2|theorem_1_2]]: The asymptotic value of the maximal anti-Ramsey function of an odd cycle of
 length at least nine over the whole edge range above the Turán number; at

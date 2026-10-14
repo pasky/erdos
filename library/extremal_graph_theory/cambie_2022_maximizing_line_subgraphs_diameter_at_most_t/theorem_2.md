@@ -51,7 +51,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: the site's "proved
-  that $h_3(3)=23$", the paper's one exact value of $h_3$; the 2026 preprint
-  of Kumar, Mohar and Pragada shows that the projective-plane construction
-  behind it is not extremal at $\Delta=4$.
+- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]:
+  erdosproblems.com's "proved that $h_3(3)=23$", the paper's one exact value of
+  $h_3$; the 2026 preprint of Kumar, Mohar and Pragada shows that the
+  projective-plane construction behind it is not extremal at $\Delta=4$.

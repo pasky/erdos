@@ -85,8 +85,8 @@ structurally similar to Mrose's basis.
   $g(n)=\min\{k:n(k)\ge n\}$ (the problem's $g(n)$, since a basis of range
   at least $n$ restricted to $\{0,\ldots,n\}$ still covers $\{0,\ldots,n\}$),
   equation (1) gives $g(n)^2\le(294/85+o(1))n=(3.4588\ldots+o(1))n$, the
-  upper bound the site quotes as $3.458\cdots$; the conversion is written
-  on the problem page. Since $294/85<4$ it also shows that
+  upper bound erdosproblems.com quotes as $3.458\cdots$; the conversion is
+  written on the problem page. Since $294/85<4$ it also shows that
   $g(n)\sim2n^{1/2}$ fails, which earlier constructions (Hämmerer and
   Hofmeister, Mrose) had already shown. It does not determine the growth
   of $g(n)^2/n$. The paper does not mention the problem.

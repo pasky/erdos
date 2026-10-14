@@ -36,9 +36,9 @@ bound for every n, and the printed equality fails for n = 2.
 
 L. Gerencsér and A. Gyárfás, *On Ramsey-type problems*. Ann. Univ. Sci.
 Budapest. Eötvös Sect. Math. 10 (1967), 167--170 (received 10 February
-1966). The site's key GeGy67. No Crossref record of the article was found on
-2026-09-18; the journal's own archive is the bibliographic identity used
-here.
+1966). The erdosproblems.com key GeGy67. No Crossref record of the article was
+found on 2026-09-18; the journal's own archive is the bibliographic identity
+used here.
 
 **Edition read.** The copy read for this card is the article
 alone: four pages extracted from the journal's image-only scan of the whole
@@ -107,7 +107,7 @@ structure and not checked; nothing here is independently reviewed.
   proved that a pair of paths with maximal sum of lengths contains all
   points. (Maximality with respect to all $P$ and all pairs.)", and the
   bound follows; the covering claim is asserted, not proved. The result
-  page carries the footnote's text. This is the two-path cover the site
+  page carries the footnote's text. This is the two-path cover erdosproblems.com
   and later papers attribute to the paper; in the footnote's form, the
   vertex set of every two-colored complete graph is covered by a red path
   and a blue path with exactly one common vertex.
@@ -117,13 +117,13 @@ structure and not checked; nothing here is independently reviewed.
 ## Compiled scope
 
 All four pages were read on the page images; the two proofs were read for
-structure only and no step was checked. The paper is the site's source for
-the two-path cover; the paper states it in a footnote as a remark with a
-proof sketch, not as a numbered theorem.
+structure only and no step was checked. The paper is the erdosproblems.com
+source for the two-path cover; the paper states it in a footnote as a remark
+with a proof sketch, not as a numbered theorem.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0518/_index|#518]]: footnote 1 on p. 169
-is the two-path cover the site's commentary quotes ("if the paths do not
-need to be of the same colour, then two paths suffice"); Theorem 1's
+is the two-path cover the erdosproblems.com commentary quotes ("if the paths do
+not need to be of the same colour, then two paths suffice"); Theorem 1's
 diagonal case is the monochromatic path on $[2n/3]+1$ vertices that Erdős
 and Gyárfás (1995) reprove as their Corollary 1 before proving the same-color
 covering theorem behind the problem.

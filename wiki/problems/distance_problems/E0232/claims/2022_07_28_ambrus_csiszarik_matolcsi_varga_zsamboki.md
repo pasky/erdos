@@ -4,8 +4,8 @@ title: The density bound 0.247 for planar sets avoiding unit distances
 desc: |
   Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki prove that every measurable
   planar set with no two points at distance one has upper density at most
-  $0.247$. So $m_1\le0.247<1/4$, which answers the site's question and proves
-  Erdős's conjecture $m_1<1/4$.
+  $0.247$. So $m_1\le0.247<1/4$, which answers the erdosproblems.com question
+  and proves Erdős's conjecture $m_1<1/4$.
 authors:
 - Gergely Ambrus
 - Adrián Csiszárik
@@ -42,15 +42,15 @@ $$
 m_1=\sup\overline\delta(A)\le0.247<\tfrac14,
 $$
 
-so $m_1\le0.247<1/4$, which answers the site's question in
+so $m_1\le0.247<1/4$, which answers the erdosproblems.com question in
 [[problems/distance_problems/E0232/_index|Problem 232]] affirmatively and
 proves Erdős's conjecture $m_1<1/4$ [Er85]. The bound applies to the upper
 density as the problem defines it, over balls centered at the origin, for
 every measurable set.
 
 **What remains.** The problem also asks to estimate $m_1$. With the lower
-bound $m_1\ge0.22936$ from Croft's construction, as the site records, the
-value lies in $[0.22936,0.247]$, and its exact value is unknown. The claim
+bound $m_1\ge0.22936$ from Croft's construction, as erdosproblems.com records,
+the value lies in $[0.22936,0.247]$, and its exact value is unknown. The claim
 settles the inequality Erdős asked for and not the exact value.
 
 **The argument.** The paper's Theorem 1 bounds the upper density of every
@@ -61,7 +61,7 @@ conjecture is the strict inequality: the paper quotes Erdős's 1985 survey
 [Er85] (Problems and results in combinatorial geometry, Ann. New York Acad.
 Sci. 440 (1985), 1–11) as saying that $m_1(\mathbb R^2)$ is very likely less
 than $1/4$, and its abstract states the result as proving that conjecture.
-The site's question asks for $m_1\le1/4$, which the bound also gives.
+The erdosproblems.com question asks for $m_1\le1/4$, which the bound also gives.
 
 **Acceptance.** The paper is refereed: G. Ambrus, A. Csiszárik, M. Matolcsi, D.
 Varga and P. Zsámboki, The density of planar sets avoiding unit distances,

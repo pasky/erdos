@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 790, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0790/claims
@@ -18,8 +18,8 @@ review.
 
 [[problems/additive_combinatorics/E0790/claims/1975_01_01_choi_komlos_szemeredi|1975_01_01_choi_komlos_szemeredi]]: Choi, Komlós and Szemerédi's 1975 theorem that
 $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$, which answers the first
-displayed question of Problem 790 yes. The paper is refereed and the site
-credits it.
+displayed question of Problem 790 yes. The paper is refereed and
+erdosproblems.com credits it.
 
 [[problems/additive_combinatorics/E0790/claims/2026_09_13_korsky|2026_09_13_korsky]]: Samuel Korsky's AI-assisted full claim that every set of $n$ integers has a
 sum-free subset of at least $cn/(\log n)^2$ elements, so that

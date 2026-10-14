@@ -29,12 +29,12 @@ arithmetic progression for all $i\neq j$?
 
 **Formulation.** The sets $A_1,\ldots,A_t$ are read as distinct, as Erdős and
 Graham, Simonovits and Sós, Szabó, Yang and the formal-conjectures statement
-count them. Read as the site words it, the question allows repeats, and then no
-largest $t$ exists (take every $A_i=\{1\}$).
+count them. Read as Bloom's catalog words it, the question allows repeats, and
+then no largest $t$ exists (take every $A_i=\{1\}$).
 
-**Status.** Open, the site's label. The exact maximum $t(N)$ is not known for
-general $N$. The refereed bounds are recorded as accepted partial claims on the
-claim pages of
+**Status.** Open, the erdosproblems.com label. The exact maximum $t(N)$ is not
+known for general $N$. The refereed bounds are recorded as accepted partial
+claims on the claim pages of
 [[problems/additive_combinatorics/E0272/claims/1981_12_01_simonovits_sos|Simonovits and Sós]]
 and [[problems/additive_combinatorics/E0272/claims/1999_07_01_szabo|Szabó]].
 Yang's reported exact values for $3\leq N\leq12$ are recorded as a claimed
@@ -49,9 +49,9 @@ erdosproblems.com question. It is recorded as an accepted partial claim on
 (see Current assessment).
 
 **Source.** [erdosproblems.com/272](https://www.erdosproblems.com/272), accessed
-2026-09-04; on 2026-09-28 the page showed the label OPEN, which the site
-explains as not settled by any finite computation, no proof expositions, seven
-comments and no proof claims. The Conjectures.io record
+2026-09-04; on 2026-09-28 the page showed the label OPEN, which
+erdosproblems.com explains as not settled by any finite computation, no proof
+expositions, seven comments and no proof claims. The Conjectures.io record
 [conjectures.io/results/c3277f4a-d573-42a9-bfca-e45fb2cb39ff](https://conjectures.io/results/c3277f4a-d573-42a9-bfca-e45fb2cb39ff)
 showed on the same date: Lean Verified 9 September 2026; Approved in review
 11 September 2026; Certified 14 September 2026; Reward Paid. Cite as: T. F.
@@ -82,12 +82,13 @@ formal-conjectures default branch labeled `research open` on 2026-09-27.
 
 ## Current assessment
 
-The site formulation asks for the exact largest $t=t(N)$ for each $N\geq1$;
-on 2026-09-28 the page showed the label OPEN, which the site explains as not
-settled by any finite computation, seven comments from August and September
-2025 (among them the computations of $t(N)$ for $N\leq9$ described under
-Progress) and no proof claim. No source determines $t(N)$ for general $N$, so
-the site's label was open and every claim page of the problem is partial.
+The erdosproblems.com formulation asks for the exact largest $t=t(N)$ for each
+$N\geq1$; on 2026-09-28 the page showed the label OPEN, which erdosproblems.com
+explains as not settled by any finite computation, seven comments from August
+and September 2025 (among them the computations of $t(N)$ for $N\leq9$ described
+under Progress) and no proof claim. No source determines $t(N)$ for general $N$,
+so the erdosproblems.com label was open and every claim page of the problem is
+partial.
 
 Best known progress. [Sz99] gives $t(N)=N^2/2+O(N^{5/3}(\log N)^3)$ and
 $t(N)\geq\binom N2+\lfloor(N-1)/4\rfloor+1$. Yang (arXiv:2607.23004,
@@ -114,14 +115,15 @@ bounty task pinned): with `IsArithInterSet N A` requiring
 $A\subseteq\mathcal P(\{1,\ldots,N\})$ and every pair of distinct members to
 intersect in a set that `IsAPOfLength l` for some $l>0$ (the formal-conjectures
 catalog's shared definition: exactly $l$ elements of the form $a+nd$, $n<l$, so
-nonempty, with one- and two-element sets counted as progressions, as the site's
-own $\binom N2+1$ example presumes), and `maxArithInterCard N` the attained
-supremum of $|A|$, the statement is $t(N)-N^2/2=O(N)$ read clause for clause.
-This is a variant of the erdosproblems.com question: it improves Szabó's error
-term to linear but gives neither the exact value nor the kernel conjecture; the
-bounty site's review note itself says that the approval concerns only the
-unrestricted linear-error asymptotic and asserts neither an exact extremal
-formula nor that every extremal family has a common element.
+nonempty, with one- and two-element sets counted as progressions, as
+erdosproblems.com's own $\binom N2+1$ example presumes), and
+`maxArithInterCard N` the attained supremum of $|A|$, the statement is
+$t(N)-N^2/2=O(N)$ read clause for clause. This is a variant of the
+erdosproblems.com question: it improves Szabó's error term to linear but gives
+neither the exact value nor the kernel conjecture; the bounty site's review note
+itself says that the approval concerns only the unrestricted linear-error
+asymptotic and asserts neither an exact extremal formula nor that every extremal
+family has a common element.
 
 The accepted file proves
 `theorem target : fcTypeOfName% "Erdos272.erdos_272.variants.szabo_strong"`
@@ -154,8 +156,8 @@ Conjectures.io's statement; the 12,791-line file contains no `sorry`, `axiom`,
 one comment says a lemma comes "from the third supplied proof". The
 formal-conjectures commit the bounty task pinned was not reachable in the
 catalog's repository on 2026-09-27; the default branch's `szabo_strong`
-statement is identical, and the replay reproduced the pinned commit, which the
-site builds from a public catalog commit and an audit patch.
+statement is identical, and the replay reproduced the pinned commit, which
+Conjectures.io builds from a public catalog commit and an audit patch.
 
 Search scope, 2026-09-27 and 2026-09-28: erdosproblems.com (the page, its
 discussion thread and its proof-claims thread), the community database,
@@ -178,15 +180,15 @@ it.
 The asymptotic $t(N)=(1/2+o(1))N^2$ is Szabó's, with error
 $O(N^{5/3}(\log N)^3)$ [Sz99]; the Conjectures.io-accepted Lean proof of 2026
 sharpens the error to $O(N)$, which Szabó had asked for. The exact value is
-reported only for $3\leq N\leq12$: computations posted on the site's
-discussion thread in August 2025 by Stijn Cambie (user StijnC, whom the site's
-commentary thanks) gave $t(N)=4,7,12,17,23,30,39$ for $3\leq N\leq9$ and the
-formula $\binom N2+\lceil N/4\rceil$, verified for $N\leq9$ and, under the
-assumption that an extremal family contains a singleton, for $10\leq N\leq14$;
-Yang's unrefereed preprint of 2026 reports the same values and adds
-$N=10,11,12$ (code unavailable). In that range $t(N)$ equals Szabó's lower
-bound $\binom N2+1+\lfloor(N-1)/4\rfloor$; Yang proves that bound exact for
-families with a common element and conjectures it for every $N$, which would
+reported only for $3\leq N\leq12$: computations posted on the erdosproblems.com
+discussion thread in August 2025 by Stijn Cambie (user StijnC, whom the
+erdosproblems.com commentary thanks) gave $t(N)=4,7,12,17,23,30,39$ for
+$3\leq N\leq9$ and the formula $\binom N2+\lceil N/4\rceil$, verified for
+$N\leq9$ and, under the assumption that an extremal family contains a singleton,
+for $10\leq N\leq14$; Yang's unrefereed preprint of 2026 reports the same values
+and adds $N=10,11,12$ (code unavailable). In that range $t(N)$ equals Szabó's
+lower bound $\binom N2+1+\lfloor(N-1)/4\rfloor$; Yang proves that bound exact
+for families with a common element and conjectures it for every $N$, which would
 follow from Szabó's kernel conjecture. Neither is settled. The thread
 computations have no claim page, since they are thread posts and not a dated
 manuscript; Yang's are recorded on
@@ -222,9 +224,8 @@ manuscript; Yang's are recorded on
   [[problems/additive_combinatorics/E0272/claims/2026_07_25_yang|Yang 2026]]):
   $t(N)=4,7,12,17,23,30,39,48,58,69$ for $N=3,\ldots,12$ by exhaustive
   computation (code unavailable; the values for $N\leq9$ had been posted on the
-  site's discussion thread in August 2025), so Szabó's bound is exact there;
-  Theorem
-  1.4: every family with a common element has at most
+  erdosproblems.com discussion thread in August 2025), so Szabó's bound is exact
+  there; Theorem 1.4: every family with a common element has at most
   $\binom N2+1+\lfloor(N-1)/4\rfloor$ members; Conjecture 1.3: equality for
   every $N$; Section 7: structural constraints on a putative non-starred
   extremal family.

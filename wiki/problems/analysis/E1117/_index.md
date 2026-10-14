@@ -39,24 +39,24 @@ $$
 \liminf \nu(r)=\infty?
 $$
 
-**Status.** The site labeled the problem OPEN (page last edited 29 December
-2025). The derived standing is claimed, with the value answered. It departs from
-OPEN because a pending claim answers the second question, which the site's
-commentary records as open. Together with the pending affirmative answer to the
-first question, every part is covered by a pending claim. The site's commentary
-records that the first question has the answer yes, by Herzog and Piranian
-(1968). This is a pending partial claim on
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 29
+December 2025). The derived standing is claimed, with the value answered. It
+departs from OPEN because a pending claim answers the second question, which the
+erdosproblems.com commentary records as open. Together with the pending
+affirmative answer to the first question, every part is covered by a pending
+claim. The erdosproblems.com commentary records that the first question has the
+answer yes, by Herzog and Piranian (1968). This is a pending partial claim on
 [[problems/analysis/E1117/claims/1968_01_01_herzog_piranian|their page]]. The
 commentary records the second question as open, with an approximate affirmative
 analogue by Glücksam and Pardo-Simón [GlPa24].
 
-The site's proof-claims tab carries a claim credited to Qiyuan Gu, submitted
-2026-09-05 and listed there as a full claim. The claim's notes say that GPT-6
-Astra generated the proofs and that GPT-5.6 Sol and Claude Opus 5 were used for
-editorial review. It asserts $\nu(r)\le2k$ outside a countable set of radii,
-where $k$ is the gap between the exponents of the first two nonzero terms of
-$f$. So $\liminf\nu(r)<\infty$ for every non-monomial entire $f$, which is a
-negative answer to the second question. The claim is pending on
+The erdosproblems.com proof-claims tab carries a claim credited to Qiyuan Gu,
+submitted 2026-09-05 and listed there as a full claim. The claim's notes say
+that GPT-6 Astra generated the proofs and that GPT-5.6 Sol and Claude Opus 5
+were used for editorial review. It asserts $\nu(r)\le2k$ outside a countable set
+of radii, where $k$ is the gap between the exponents of the first two nonzero
+terms of $f$. So $\liminf\nu(r)<\infty$ for every non-monomial entire $f$, which
+is a negative answer to the second question. The claim is pending on
 [[problems/analysis/E1117/claims/2026_09_05_gu|its page]] as a partial claim
 settling the second question (proof-claims thread accessed 2026-10-06).
 
@@ -82,9 +82,9 @@ https://www.erdosproblems.com/1117.
 problem asks whether a non-monomial entire function can have
 $\limsup\nu(r)=\infty$, and whether it can have $\liminf\nu(r)=\infty$.
 Herzog and Piranian [HePi68] construct an entire function with $\nu(n)=n$ for
-every natural $n$, which answers the first question yes; the site's commentary
-and Hayman and Lingham's survey of Hayman's problems credit them, but the
-paper is in a symposium volume, so it is a pending partial claim on
+every natural $n$, which answers the first question yes; the erdosproblems.com
+commentary and Hayman and Lingham's survey of Hayman's problems credit them, but
+the paper is in a symposium volume, so it is a pending partial claim on
 [[problems/analysis/E1117/claims/1968_01_01_herzog_piranian|their page]].
 Their construction gives no control of $\nu(r)$ between integers. For the
 second question, Glücksam and Pardo-Simón [GlPa24] construct an entire
@@ -98,10 +98,10 @@ claim on [[problems/analysis/E1117/claims/2026_09_05_gu|its page]]. With both
 parts covered by pending claims, the problem's derived standing is claimed,
 answered.
 
-**Search scope.** The site's page and commentary (last edited 29 December
-2025), its proof-claims tab (accessed 2026-10-06), the Zenodo record of Gu's
-manuscript, and the library cards of [GlPa24] and of Hayman and Lingham's
-survey; [HePi68] and [Ha74] are cited from the site and that survey.
+**Search scope.** The erdosproblems.com page and commentary (last edited 29
+December 2025), its proof-claims tab (accessed 2026-10-06), the Zenodo record of
+Gu's manuscript, and the library cards of [GlPa24] and of Hayman and Lingham's
+survey; [HePi68] and [Ha74] are cited from erdosproblems.com and that survey.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

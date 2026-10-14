@@ -56,7 +56,8 @@ of arXiv:2503.12277v4), which derives the extremality from the
 eventually-greedy property. The paper presents the case $\lambda=1$ as already proved
 independently by Li and Tang and by Kamio, not as a new result.
 
-**Submission note.** Posted to the site's forum by Q. Tang on 31 July 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Q. Tang on 31 July
+2026:
 
 > It may also be worth mentioning that Corollary 3 of a recent paper by Vjeko
 > and me gives the following generalization of this problem.
@@ -92,10 +93,10 @@ are public in a repository the paper links.
 
 **Standing.** The paper is an author preprint: the arXiv listing carries no
 journal reference, a Crossref bibliographic query of 2026-09-17 found no
-record, and no independent review is located; the site's commentary credits
-Kamio and Li and Tang and does not name this paper. The library card records
-Theorem 1 at claims-checked depth and its proof as read for its scheme only;
-the corpus has not verified the proof. The claim stays `claimed`, and the
+record, and no independent review is located; the erdosproblems.com commentary
+credits Kamio and Li and Tang and does not name this paper. The library card
+records Theorem 1 at claims-checked depth and its proof as read for its scheme
+only; the corpus has not verified the proof. The claim stays `claimed`, and the
 problem's standing rests on the accepted claims of
 [[problems/unit_fractions/E0315/claims/2025_03_04_kamio|Kamio]] and
 [[problems/unit_fractions/E0315/claims/2025_03_15_li_tang|Li and Tang]].

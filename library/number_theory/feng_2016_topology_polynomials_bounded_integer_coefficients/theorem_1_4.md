@@ -41,9 +41,9 @@ $L_m(q)=0$), we have the following theorem which improves the results in
 
 Specialization to the problem (an authored remark, recorded on the problem
 page and recomputed there): the smallest Pisot number is the real root
-$q_0\approx1.3247$ of $x^3=x+1$ (Siegel's theorem, as the site's commentary
-also states), so for $1<q<\sqrt{q_0}\approx1.1510$ the square $q^2$ lies in
-$(1,q_0)$ and is not a Pisot number, and $q<\sqrt{q_0}<\sqrt2$; hence
+$q_0\approx1.3247$ of $x^3=x+1$ (Siegel's theorem, as the erdosproblems.com
+commentary also states), so for $1<q<\sqrt{q_0}\approx1.1510$ the square $q^2$
+lies in $(1,q_0)$ and is not a Pisot number, and $q<\sqrt{q_0}<\sqrt2$; hence
 $L_1(q)=0$, that is, $x_{k+1}-x_k\to0$, for every $q$ in $(1,\sqrt{q_0})$.
 
 **Source.** D.-J. Feng, *On the topology of polynomials with bounded integer
@@ -89,7 +89,7 @@ held).
   $x_{k+1}-x_k\to0$, so $\epsilon=\sqrt{q_0}-1\approx0.151$ works. That
   $\epsilon$ is smaller than the one from Erdős and Komornik's 1998
   [[number_theory/erdos_komornik_1998_developments_non_integer_bases/theorem_iv|Theorem IV]]
-  ($1<q<\sqrt{q_1}\approx1.175$ in the site's words), which the paper's
+  ($1<q<\sqrt{q_1}\approx1.175$ in erdosproblems.com's words), which the paper's
   p. 3 reports as $1<q\le2^{1/4}$ with one possible exception; the
   theorem's own range, every $q\in(1,\sqrt2)$ whose square is not Pisot,
   reaches past $2^{1/4}$ but leaves out the square roots of Pisot numbers,

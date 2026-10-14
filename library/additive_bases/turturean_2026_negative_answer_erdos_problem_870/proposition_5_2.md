@@ -50,5 +50,6 @@ clause on the print.
 ## Bears on
 
 - [[../wiki/problems/additive_bases/E0870/_index|Problem 870]]: the cases
-  $k\ge4$ of [[additive_bases/turturean_2026_negative_answer_erdos_problem_870/theorem_1_1|Theorem 1.1]], with the problem site's
-  at-most-$k$ count of representations.
+  $k\ge4$ of
+  [[additive_bases/turturean_2026_negative_answer_erdos_problem_870/theorem_1_1|Theorem 1.1]],
+  with erdosproblems.com's at-most-$k$ count of representations.

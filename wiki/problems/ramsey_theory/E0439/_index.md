@@ -27,29 +27,29 @@ updated: 2026-10-08T14:06:00Z
 must be two integers $x\neq y$ of the same colour such that $x+y$ is a square?
 What about a $k$th power?
 
-**Formulation.** The site's wording (page last edited 7 April 2026). The
-statement has two parts, the square question and the $k$th-power question, and
-both ask for distinct summands: if $x=y$ were allowed, any even value $2m$ of
-the target would be reached trivially by $x=y=m$, so the content of the
-question lies in $x\ne y$. Erdős's 1980 Normat paper (the site's [Er80c])
-poses the square question only, from a conversation with Silverman about three
-years earlier, and adds, on p. 157 (in Norwegian, quoted under The origins),
-that the squares can of course be replaced by other sets of numbers; the
-$k$th-power form is Erdős's own in his 1980 survey ([Er80], p. 105: "whose sum
-is an $r$th power (in particular a square)") and Erdős and Graham's in their
+**Formulation.** The erdosproblems.com wording (page last edited 7 April 2026).
+The statement has two parts, the square question and the $k$th-power question,
+and both ask for distinct summands: if $x=y$ were allowed, any even value $2m$
+of the target would be reached trivially by $x=y=m$, so the content of the
+question lies in $x\ne y$. Erdős's 1980 Normat paper (erdosproblems.com's
+[Er80c]) poses the square question only, from a conversation with Silverman
+about three years earlier, and adds, on p. 157 (in Norwegian, quoted under The
+origins), that the squares can of course be replaced by other sets of numbers;
+the $k$th-power form is Erdős's own in his 1980 survey ([Er80], p. 105: "whose
+sum is an $r$th power (in particular a square)") and Erdős and Graham's in their
 1980 monograph ([ErGr80], p. 87: "What if $i+j$ is required to be a $k$th
 power?"). Two of them, [Er80c] and [ErGr80], also state the graph form the
-site's commentary gives: the graph on the positive integers joining $m$ and
-$l$ when $m+l$ is a square has chromatic number $\aleph_0$. The Khalfalah and
-Szemerédi abstract calls the statement "the following conjecture of Erdős,
-Roth, Sárközy and T. Sós"; Erdős, Sárközy and Sós say (p. 54) that the density
-results on $a+a'=x^2$ and Hindman's theorem "led us to consider the
-corresponding 'monochromatic' questions". The site's key [ErSa77] (Erdős and
-Sárközy, 1977, p. 209) shows that the squares are not a "sum intersector set",
-with the residue class $1\bmod3$ as the example of density $1/3$ with no
-$a_x+a_y=z^2$, and guesses that $1/3$ is extremal; that is the density side of
-the question (the site's Problem 438), and those pages do not pose the
-coloring question.
+erdosproblems.com commentary gives: the graph on the positive integers joining
+$m$ and $l$ when $m+l$ is a square has chromatic number $\aleph_0$. The
+Khalfalah and Szemerédi abstract calls the statement "the following conjecture
+of Erdős, Roth, Sárközy and T. Sós"; Erdős, Sárközy and Sós say (p. 54) that the
+density results on $a+a'=x^2$ and Hindman's theorem "led us to consider the
+corresponding 'monochromatic' questions". The erdosproblems.com key [ErSa77]
+(Erdős and Sárközy, 1977, p. 209) shows that the squares are not a "sum
+intersector set", with the residue class $1\bmod3$ as the example of density
+$1/3$ with no $a_x+a_y=z^2$, and guesses that $1/3$ is extremal; that is the
+density side of the question (erdosproblems.com's Problem 438), and those pages
+do not pose the coloring question.
 
 **Status.** Proved. The status-defining source is Khalfalah and Szemerédi's
 theorem (Combin. Probab. Comput. 15 (2006), no. 1--2, 213--227, published online
@@ -57,27 +57,27 @@ theorem (Combin. Probab. Comput. 15 (2006), no. 1--2, 213--227, published online
 coefficients that takes an even value. Then every finite coloring of the
 integers has distinct $x$, $y$ of the same color with $x+y=f(z)$. The squares
 are the case $f(z)=z^2$. The $k$th powers are the case $f(z)=z^k$, which takes
-the even value $2^k$. The site accepted the theorem (PROVED, last edited 7 April
-2026). The claim page
+the even value $2^k$. erdosproblems.com accepted the theorem (PROVED, last
+edited 7 April 2026). The claim page
 [[problems/ramsey_theory/E0439/claims/2006_01_03_khalfalah_szemeredi|Khalfalah and Szemerédi 2006]]
 records the theorem, its postings and its acceptance evidence, the refereed
 publication and the documented acceptance. The frontmatter standing derives from
 it. The paper is closed access and not held. Its theorem is therefore cited here
 through the publisher's abstract, the introduction of Sanders's refereed 2020
 note (the square case, with the distinctness of $x$ and $y$ stated), Green and
-Lindqvist's remark, and the site's commentary. The partial result before it is
-Theorem 3 of Erdős, Sárközy and Sós (1989). For at most three colors, it gives
-infinitely many squares that are sums of two distinct integers of one color. It
-has the claim page
+Lindqvist's remark, and the erdosproblems.com commentary. The partial result
+before it is Theorem 3 of Erdős, Sárközy and Sós (1989). For at most three
+colors, it gives infinitely many squares that are sums of two distinct integers
+of one color. It has the claim page
 [[problems/ramsey_theory/E0439/claims/1989_01_01_erdos_sarkozy_sos|Erdős, Sárközy and Sós 1989]].
 
 **Source.** [erdosproblems.com/439](https://www.erdosproblems.com/439),
 accessed 2026-09-18: the problem page (labeled
-PROVED, which the site glosses as solved in the affirmative; last edited 7
-April 2026; source keys
-[ErSa77], [Er80, p. 105], [Er80c] (listed twice), [ErGr80]; commentary
-citing [ESS89] and [KhSz06] and "See also [438]"), its empty discussion
-thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
+PROVED, which erdosproblems.com glosses as solved in the affirmative; last
+edited 7 April 2026; source keys [ErSa77], [Er80, p. 105], [Er80c] (listed
+twice), [ErGr80]; commentary citing [ESS89] and [KhSz06] and "See also [438]"),
+its empty discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom,
+Erdős Problem
 #439, https://www.erdosproblems.com/439, accessed 2026-09-18.
 
 **References.**
@@ -109,9 +109,9 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   Silverman there). Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [ErSa77] Erdős, P. and Sárközy, A., On differences and sums of integers.
-  II. Bull. Soc. Math. Grèce (N.S.) 18 (1977), no. 2, 204--223; the site's
-  reference text, accessed 2026-09-18; pp. 204--206 and 209; public copy at
-  https://users.renyi.hu/~p_erdos/1977-17.pdf. Library home:
+  II. Bull. Soc. Math. Grèce (N.S.) 18 (1977), no. 2, 204--223; the
+  erdosproblems.com reference text, accessed 2026-09-18; pp. 204--206 and 209;
+  public copy at https://users.renyi.hu/~p_erdos/1977-17.pdf. Library home:
   [[../library/integer_sequences/erdos_1977_differences_sums_integers_ii/_index|erdos_1977_differences_sums_integers_ii]]
   (the card carries the row for this problem).
 - [Sa20] Sanders, T., On monochromatic solutions to $x-y=z^2$. Acta Math.
@@ -137,15 +137,15 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 google-deepmind/formal-conjectures at main on 2026-09-18. The community database
 (teorth/erdosproblems, read 2026-09-18) records the problem proved (last updated
 31 August 2025), not formalized, formal status unformalized and no formal-proof
-URL. The site's "Formalised statement?" indicator reads "No"; one reader has
-marked the problem "Could be formalisable".
+URL. erdosproblems.com's "Formalised statement?" indicator reads "No"; one
+reader has marked the problem "Could be formalisable".
 
 ## Current assessment
 
-**The question (site formulation, page last edited 7 April 2026).** The
-statement above; PROVED. The site's commentary attributes
-the question, by some reports, to Roth and to Erdős, Sárközy and Sós
-([ESS89]), while noting that Erdős in [Er80c] traces it to a 1977 conversation with
+**The question (erdosproblems.com formulation, page last edited 7 April 2026).**
+The statement above; PROVED. The erdosproblems.com commentary attributes the
+question, by some reports, to Roth and to Erdős, Sárközy and Sós ([ESS89]),
+while noting that Erdős in [Er80c] traces it to a 1977 conversation with
 Silverman; records that [ESS89] proved it for $2$ or $3$ colors; restates
 it as asking whether the infinite graph on $\mathbb N$ that joins $m$ and
 $n$ when $m+n$ is a square has chromatic number $\aleph_0$; credits
@@ -227,21 +227,21 @@ $r$, any $r$-colouring of $[N]:=\{1,\ldots,N\}$ contains two distinct elements
 $x$ and $y$ with the same colour and $x+y=z^2$ for some natural $z$." Green and
 Lindqvist ([GrLi19], p. 580): "They show that any finite colouring of
 $\mathbb N$ contains a solution to $x+y=z^2$ with $x$ and $y$ having the same
-colour (but not necessarily $z$)." The site's commentary gives the general form
-with $f$ non-constant and $2\mid f(z)$ for some $z$. An observation made here:
-the abstract as printed says neither non-constant nor $x\ne y$, and its
-hypothesis that $f$ has an even value $f(z_0)$ is exactly what makes the
+colour (but not necessarily $z$)." The erdosproblems.com commentary gives the
+general form with $f$ non-constant and $2\mid f(z)$ for some $z$. An observation
+made here: the abstract as printed says neither non-constant nor $x\ne y$, and
+its hypothesis that $f$ has an even value $f(z_0)$ is exactly what makes the
 equal-summand solution $x=y=f(z_0)/2$ exist, so the theorem's content needs
 distinct summands, which Sanders's refereed restatement supplies for the squares
 (in the finite form on $[N]$, which implies the infinite one); for a general
-$f$, including $z^k$, the distinctness clause rests on the site's account, and
-the paper's title suggests a counting statement from which nontrivial solutions
-follow. Acceptance evidence: a refereed publication (Combinatorics, Probability
-and Computing, 2006) cited as the resolution by a refereed later paper ([Sa20]),
-attested without the condition $x\ne y$ in a refereed remark ([GrLi19], p. 580),
-and adopted by the site. The statement rests on the abstract and the two
-attestations, and the $k$th-power clause on the abstract's general $f$ and the
-site's commentary.
+$f$, including $z^k$, the distinctness clause rests on erdosproblems.com's
+account, and the paper's title suggests a counting statement from which
+nontrivial solutions follow. Acceptance evidence: a refereed publication
+(Combinatorics, Probability and Computing, 2006) cited as the resolution by a
+refereed later paper ([Sa20]), attested without the condition $x\ne y$ in a
+refereed remark ([GrLi19], p. 580), and adopted by erdosproblems.com. The
+statement rests on the abstract and the two attestations, and the $k$th-power
+clause on the abstract's general $f$ and the erdosproblems.com commentary.
 
 **Adjacent results, not the problem.** Green and Lindqvist's Theorem 1.1
 ([GrLi19], p. 579) colors $z$ too: every $2$-coloring of
@@ -250,15 +250,15 @@ three of $x$, $y$, $z$ of one color), while some $3$-coloring has only the
 trivial one $x=y=z=2$; their introduction records the earlier $16$-coloring
 of Csikvári, Gyarmati and Sárközy with no nontrivial monochromatic solution.
 Sanders's own theorem bounds the colorings without monochromatic $x-y=z^2$.
-These concern the fully monochromatic equation, which the site's question
-does not ask. The citing papers found for [KhSz06] (search below) extend the
-Ramsey theory of $x+y=f(z)$ and of $ax+by=p(z)$ and none disputes the
+These concern the fully monochromatic equation, which the erdosproblems.com
+question does not ask. The citing papers found for [KhSz06] (search below)
+extend the Ramsey theory of $x+y=f(z)$ and of $ax+by=p(z)$ and none disputes the
 theorem.
 
 **Search scope.** None of the routes below found a copy of
 [KhSz06], a dispute of its theorem, or a second proof of the general case.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing (no file); the community database.
 - Crossref: the records of [KhSz06], [Sa20] and [GrLi19].
 - The publisher's page for [KhSz06] (the abstract only; the article is
@@ -273,7 +273,7 @@ theorem.
   reference) and two searches on monochromatic square sums (no records
   beyond a 2026 ergodic paper on $x+y=\lfloor\alpha(n)\rfloor$, abstract
   only).
-- The Rényi archive: its index and the 1977 paper of the site's key
+- The Rényi archive: its index and the 1977 paper of the erdosproblems.com key
   [ErSa77], pp. 204--206 and 209.
 
 
@@ -285,7 +285,7 @@ the Lagarias, Odlyzko and Shearer papers on the density question (Problem
 held; its theorem, and in particular the distinctness of $x$ and $y$ for a
 general $f$, is cited second-hand. Reopening condition: a copy of Combin.
 Probab. Comput. 15 (2006), 213--227 read at its main theorem. (2) The
-$k$th-power clause rests on the abstract's general $f$ and the site's
+$k$th-power clause rests on the abstract's general $f$ and the erdosproblems.com
 commentary; no source cited here states it for $z^k$. (3) Proof coverage is
 at the level of statements. (4) The Norwegian passages of the Normat paper
 are glossed here, not translated by a published source, and its English

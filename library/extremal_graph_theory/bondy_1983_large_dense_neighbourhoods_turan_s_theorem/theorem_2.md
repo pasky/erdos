@@ -118,11 +118,11 @@ asserted, not printed.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the result the
-  site attributes to [Bo83b], "if $G$ has $>\mathrm{ex}(n;K_r)$ edges then
-  the corresponding vertex can be chosen to be of maximum degree in $G$";
-  its hypothesis is at least Erdős's $f_r(n)$ edges and its conclusion
-  exactly his "at least $f_{r-1}(m)$ edges" of
+- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the
+  result erdosproblems.com attributes to [Bo83b], "if $G$ has
+  $>\mathrm{ex}(n;K_r)$ edges then the corresponding vertex can be chosen to be
+  of maximum degree in $G$"; its hypothesis is at least Erdős's $f_r(n)$ edges
+  and its conclusion exactly his "at least $f_{r-1}(m)$ edges" of
   [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p14|Er75, p. 14]],
   and the examples show that "$>$" cannot be weakened to "$\ge$" for a
   vertex of maximum degree.

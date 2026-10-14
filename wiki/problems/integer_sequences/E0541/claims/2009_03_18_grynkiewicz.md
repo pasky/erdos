@@ -51,13 +51,14 @@ the proof (pp. 6--10) was not read here, and the statement was checked
 clause by clause.
 
 **Acceptance.** Refereed: the journal publication cited above. In the Crossref
-record (2026-09-18), the issue is dated November 2011. The site's problem page
-does not cite the paper. A thread comment of 14 April 2026 cites it as [Gr11]
-and points to it as an easy proof of the Erdős--Szemerédi theorem. The
-commentary of the site's curator, Thomas Bloom, credits the problem's proof to
+record (2026-09-18), the issue is dated November 2011. The erdosproblems.com
+problem page does not cite the paper. A thread comment of 14 April 2026 cites it
+as [Gr11] and points to it as an easy proof of the Erdős--Szemerédi theorem. The
+commentary of the erdosproblems.com curator, Thomas Bloom, credits the problem's
+proof to
 [[problems/integer_sequences/E0541/claims/2009_02_27_gao_hamidoune_wang|Gao, Hamidoune and Wang 2009]]
-and does not name this paper. For that reason the site's acceptance is not
-listed as `reviewed` here. The header of the Lean proof recorded as
+and does not name this paper. For that reason erdosproblems.com's acceptance is
+not listed as `reviewed` here. The header of the Lean proof recorded as
 [[problems/integer_sequences/E0541/claims/2025_12_31_alexeev|the accepted Lean claim]]
 says that its argument is closer to this paper's than to the two it cites.
 Nothing here is independently reviewed by this project.

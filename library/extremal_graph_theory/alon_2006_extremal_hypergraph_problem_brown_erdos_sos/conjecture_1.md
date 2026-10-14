@@ -53,13 +53,14 @@ were read clause by clause on the page images of pp. 12--13.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: in the site's
-  letters (their $k$ the site's $t$, their $e$ the site's $s$, their
-  $e(r-k)+k+1$ the site's $k$), the conjecture asks for
-  $n^{t-o(1)}<\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ at $k=(r-t)s+t+1$ for every
-  $r>t\ge2$ and $s\ge3$; its upper half is the Brown-Erdős-Sós conjecture
-  the site's commentary states at that vertex count, and the lower half adds
-  that the exponent $t$ cannot be lowered. A conjecture, not a result.
+- [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: in
+  erdosproblems.com's letters (their $k$ erdosproblems.com's $t$, their $e$
+  erdosproblems.com's $s$, their $e(r-k)+k+1$ erdosproblems.com's $k$), the
+  conjecture asks for $n^{t-o(1)}<\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ at
+  $k=(r-t)s+t+1$ for every $r>t\ge2$ and $s\ge3$; its upper half is the
+  Brown-Erdős-Sós conjecture the erdosproblems.com commentary states at that
+  vertex count, and the lower half adds that the exponent $t$ cannot be lowered.
+  A conjecture, not a result.
 - [[../wiki/problems/set_systems/E1178/_index|Problem 1178]]: at $k=2$ the upper
   half reads $f_r(n,e(r-2)+3,e)=o(n^2)$ for every $r\ge3$ and $e\ge3$, which
   with the Brown-Erdős-Sós bound $f_r(n,e(r-2)+2,e)=\Theta(n^2)$ quoted on

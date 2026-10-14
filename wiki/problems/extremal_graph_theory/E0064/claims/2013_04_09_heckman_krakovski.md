@@ -34,7 +34,7 @@ Combin. **20** (2013), no. 2, Paper P7, 43 pp., published 2013-04-09 (the
 claim's date). The abstract describes the proof as long, computer-based in
 parts, and a novel use of the discharging method. Read depth:
 the journal record and abstract; the proof was not read. The thread comment
-of 6 December 2025 that the site's remark on
+of 6 December 2025 that the erdosproblems.com remark on
 [[problems/extremal_graph_theory/E0064/_index|Problem 64]] points to lists
 the paper among the families where the conjecture is confirmed.
 
@@ -44,6 +44,6 @@ graphs.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a publication in the Electronic Journal
-of Combinatorics. The site's curator cites the family list that names the paper
-while labeling the problem FALSIFIABLE. That citation is commentary on an open
-problem and not reviewed evidence.
+of Combinatorics. The erdosproblems.com curator cites the family list that names
+the paper while labeling the problem FALSIFIABLE. That citation is commentary on
+an open problem and not reviewed evidence.

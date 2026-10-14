@@ -25,18 +25,18 @@ updated: 2026-10-08T14:06:00Z
 **Statement.** For any $d\geq 1$ if $H$ is a graph such that every subgraph
 contains a vertex of degree at most $d$ then $R(H)\ll_d n$.
 
-**Formulation.** The site's wording as accessed 2026-09-18T10:39Z (page last
-edited 22 January 2026). Here $n=|V(H)|$, $R(H)$ is the least $N$ such that
-every red-blue coloring of the edges of $K_N$ contains a monochromatic copy of
-$H$, and "$R(H)\ll_dn$" means $R(H)\le c(d)\,n$ with $c(d)$ depending only on
-$d$. A graph in which every subgraph has a vertex of degree at most $d$ is
-$d$-degenerate. The conjecture was stated by Burr and Erdős in 1975 for sets of
-graphs of bounded arboricity, adding that it "could equally well have been
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18T10:39Z
+(page last edited 22 January 2026). Here $n=|V(H)|$, $R(H)$ is the least $N$
+such that every red-blue coloring of the edges of $K_N$ contains a monochromatic
+copy of $H$, and "$R(H)\ll_dn$" means $R(H)\le c(d)\,n$ with $c(d)$ depending
+only on $d$. A graph in which every subgraph has a vertex of degree at most $d$
+is $d$-degenerate. The conjecture was stated by Burr and Erdős in 1975 for sets
+of graphs of bounded arboricity, adding that it "could equally well have been
 stated" for the edge density $\max_{F\subseteq G}e(F)/|V(F)|$; their Lemma 3.3
 places the degeneracy $\sigma(G)=\max_{F\subseteq G}\delta(F)$ between the edge
-density $\rho(G)$ and $2\rho(G)$, so the site's three forms (a union of $c$
-forests, average degree at most $d$ in every subgraph, and degeneracy at most
-$d$) are one conjecture up to the constant.
+density $\rho(G)$ and $2\rho(G)$, so erdosproblems.com's three forms (a union of
+$c$ forests, average degree at most $d$ in every subgraph, and degeneracy at
+most $d$) are one conjecture up to the constant.
 
 **Status.** Proved. The status-defining source is Theorem 1.1 of Lee, *Ramsey
 numbers of degenerate graphs*, Ann. of Math. (2) 185 (2017), 791--829 (refereed;
@@ -47,16 +47,16 @@ $2^{d2^{cr}}n$ vertices, one color contains every $d$-degenerate $r$-colorable
 graph on at most $n$ vertices. So every $d$-degenerate $H$ of chromatic number
 $r$ with $|V(H)|\ge2^{d^22^{cr}}$ has $R(H)\le2^{d2^{cr}}|V(H)|$. The paper's
 remark after the theorem settles the conjecture "since all $d$-degenerate graphs
-have chromatic number at most $d+1$" (p. 3). The one-line bridge to the site's
-wording is written in the Current assessment and named there as authored. The
-site credits Lee with the solution. The constant is not settled: the site
-records the conjecture $R(H)\le2^{O(d)}n$. The claim page
-[[problems/ramsey_theory/E0163/claims/2015_05_18_lee|Lee 2015]] records the
-result, its postings and the acceptance evidence.
+have chromatic number at most $d+1$" (p. 3). The one-line bridge to the
+erdosproblems.com wording is written in the Current assessment and named there
+as authored. erdosproblems.com credits Lee with the solution. The constant is
+not settled: erdosproblems.com records the conjecture $R(H)\le2^{O(d)}n$. The
+claim page [[problems/ramsey_theory/E0163/claims/2015_05_18_lee|Lee 2015]]
+records the result, its postings and the acceptance evidence.
 
 **Source.** [erdosproblems.com/163](https://www.erdosproblems.com/163),
-accessed 2026-09-18: the problem page (PROVED, with the site's note that
-it has been solved in the affirmative; last edited 22 January 2026; source
+accessed 2026-09-18: the problem page (PROVED, with the erdosproblems.com note
+that it has been solved in the affirmative; last edited 22 January 2026; source
 keys [BuEr75], [Er82e]; commentary citing [Le17]; "Formalised statement?
 Yes"), its two-comment discussion thread and its empty proof-claim tab.
 Cite as: T. F. Bloom, Erdős Problem #163,
@@ -74,9 +74,9 @@ https://www.erdosproblems.com/163, accessed 2026-09-18.
 - [BuEr75] Burr, S. A. and Erdős, P., On the magnitude of generalized Ramsey
   numbers for graphs. Infinite and finite sets (Colloq., Keszthely, 1973),
   Vol. I, Colloq. Math. Soc. János Bolyai 10, North-Holland (1975),
-  215--240. The site's text prints no venue. The Definition and Conjecture,
-  p. 216; $\sigma(G)$ and Lemma 3.3, p. 220; Section 7, pp. 238--239.
-  Library home:
+  215--240. The erdosproblems.com text prints no venue. The Definition and
+  Conjecture, p. 216; $\sigma(G)$ and Lemma 3.3, p. 220; Section 7, pp.
+  238--239. Library home:
   [[../library/ramsey_theory/burr_1975_magnitude_generalized_ramsey_numbers_graphs/_index|burr_1975_magnitude_generalized_ramsey_numbers_graphs]]
   (the Rényi archive scan).
 - [Er82e] Erdős, Paul, Some of my favourite problems which recently have
@@ -99,7 +99,7 @@ solution and is recorded as a formalization link on
 corpus has not built either file. The community database
 (teorth/erdosproblems, fetched 2026-09-18) records the problem proved
 (13 September 2025), the statement formalized since 9 September 2026 and the
-formal status unformalized; the site's indicator reads
+formal status unformalized; the erdosproblems.com indicator reads
 "Formalised statement? Yes" (it read "No" on 2026-09-05).
 
 ## Current assessment
@@ -115,8 +115,8 @@ places the problem as #9 in the Ramsey theory section of the graphs problem
 collection and points to Problem 800. The thread has two comments (24 August
 2025, the expectation that the true bound is $\exp(O(d))n$ with the
 chromatic-number form of Lee's bound; 21 January 2026, a reference-key typo
-since fixed on the site) and the proof-claim tab is empty. The community
-database record (fetched 2026-09-18) says proved (13 September 2025),
+since fixed on erdosproblems.com) and the proof-claim tab is empty. The
+community database record (fetched 2026-09-18) says proved (13 September 2025),
 formalized statement.
 
 **Origin.** [BuEr75], cited from the Rényi archive scan. The
@@ -129,18 +129,18 @@ the edge density $\rho(G)=\max_{F\subseteq G}q(F)/p(F)$. Page 220 defines
 $\sigma(G)=\max_{F\subseteq G}\delta(F)$, "In [9], a graph with $\sigma(G)=k$ is
 called $k$-degenerate", and Lemma 3.3 gives $\rho(G)<\sigma(G)\le2\rho(G)$ for
 graphs with an edge, which is the paper's own bridge from its arboricity form to
-the site's degeneracy form. Section 7 (p. 238) records that the conjecture
-"remains unsettled" with a prize offered for settling it. [Er82e] (printed
-p. 78), the second "last minute" problem: for a graph $G(n)$ whose every
-$k$-vertex subgraph has fewer than $ck$ edges, "Burr and I conjectured several
-years ago that then (1) $\hat r(G(n))<f(c)n$ [sic]. In other words the ordinary
-diagonal Ramsey number of $G(n)$ is less than $Cn$ where $C$ depends only on
-$c$." (the hat in display (1) is a misprint the next sentence corrects; the
-size-Ramsey strengthening (2) that follows is Problem 559's passage). Erdős's
-1981 survey states the same conjecture as its display (16), "if $G(n)$ has edge
-density $<C$, then $r(G(n),G(n))<f(C)\cdot n$", on the card of
+erdosproblems.com's degeneracy form. Section 7 (p. 238) records that the
+conjecture "remains unsettled" with a prize offered for settling it. [Er82e]
+(printed p. 78), the second "last minute" problem: for a graph $G(n)$ whose
+every $k$-vertex subgraph has fewer than $ck$ edges, "Burr and I conjectured
+several years ago that then (1) $\hat r(G(n))<f(c)n$ [sic]. In other words the
+ordinary diagonal Ramsey number of $G(n)$ is less than $Cn$ where $C$ depends
+only on $c$." (the hat in display (1) is a misprint the next sentence corrects;
+the size-Ramsey strengthening (2) that follows is Problem 559's passage).
+Erdős's 1981 survey states the same conjecture as its display (16), "if $G(n)$
+has edge density $<C$, then $r(G(n),G(n))<f(C)\cdot n$", on the card of
 [[../library/ramsey_theory/erdos_1981_new_problems_results_graph_theory_other/_index|erdos_1981_new_problems_results_graph_theory_other]]
-(not a site key here).
+(not an erdosproblems.com key here).
 
 **Status support.**
 [[../library/ramsey_theory/lee_2017_ramsey_numbers_degenerate_graphs/theorem_1_1|Theorem 1.1]]
@@ -151,14 +151,14 @@ the complete graph on at least $2^{d2^{cr}}n$ vertices, one of the colors
 is universal for the family of $d$-degenerate $r$-colorable graphs on at
 most $n$ vertices." Applied with $n=|V(H)|$ this
 is the abstract's $R(H)\le2^{d2^{cr}}|V(H)|$ for every $d$-degenerate $H$
-of chromatic number $r$ with $|V(H)|\ge2^{d^22^{cr}}$; the site's
+of chromatic number $r$ with $|V(H)|\ge2^{d^22^{cr}}$; erdosproblems.com's
 "$R(H)\le2^{d2^{O(\chi(H))}}n$" is this bound and its
-"$R(H)\le2^{2^{O(d)}}n$" is the case $r=d+1$. The bridge to the site's
-wording, following the paper's remark and written here as an authored
-deduction: a $d$-degenerate graph is $(d+1)$-colorable (color the vertices
-in the reverse of a degeneracy order; each vertex has at most $d$ earlier
-neighbors), so Theorem 1.1 with $r=d+1$ gives $R(H)\le2^{d2^{c(d+1)}}n$ for
-every $d$-degenerate $H$ on $n\ge n_0(d)=2^{d^22^{c(d+1)}}$ vertices; the
+"$R(H)\le2^{2^{O(d)}}n$" is the case $r=d+1$. The bridge to the
+erdosproblems.com wording, following the paper's remark and written here as an
+authored deduction: a $d$-degenerate graph is $(d+1)$-colorable (color the
+vertices in the reverse of a degeneracy order; each vertex has at most $d$
+earlier neighbors), so Theorem 1.1 with $r=d+1$ gives $R(H)\le2^{d2^{c(d+1)}}n$
+for every $d$-degenerate $H$ on $n\ge n_0(d)=2^{d^22^{c(d+1)}}$ vertices; the
 $d$-degenerate graphs on fewer than $n_0(d)$ vertices are finitely many up
 to isomorphism and each has a finite Ramsey number, so
 $c(d)=\max\bigl(2^{d2^{c(d+1)}},\max_{|V(H)|<n_0(d)}R(H)/|V(H)|\bigr)$
@@ -172,7 +172,7 @@ Read depth: claims checked for Theorem 1.1 and the two remarks after it
 "Related problems" (p. 32); no proof was read.
 
 **The constant (open, not the problem's question).** Theorem 1.1's bound
-is doubly exponential in $d$, $2^{d2^{c(d+1)}}n$; the site records the
+is doubly exponential in $d$, $2^{d2^{c(d+1)}}n$; erdosproblems.com records the
 conjecture $R(H)\le2^{O(d)}n$, and the paper's optimality remark (p. 3) shows only
 that for fixed $r$ the exponent $d2^{cr}$ is best possible up to the
 constant (a random graph of density $1/2$ on $(1-\varepsilon)2^dn$
@@ -183,14 +183,15 @@ Fox--Sudakov had reached $R(H)\le2^{c_d\sqrt{\log n}}n$; the Section 7
 edges have superlinear Ramsey numbers while some graphs with $cn\log n$
 edges have linear ones (Burr and Erdős), and name the hypercubes as "an
 interesting test case", [[problems/ramsey_theory/E0181/_index|Problem 181]].
-The site's "See also [800]" is [[problems/ramsey_theory/E0800/_index|Problem
-800]] (subdivided graphs, Alon 1994), assessed on its own page.
+erdosproblems.com's "See also [800]" is
+[[problems/ramsey_theory/E0800/_index|Problem 800]] (subdivided graphs, Alon
+1994), assessed on its own page.
 
 **Search scope.** None of the routes below found a
 dispute of Theorem 1.1, a retraction, or a second proof; the constant's
 gap is the only open item.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures statement file.
 - arXiv: the API record of 1505.04773 (v1 18 May 2015, v2 1 December 2016;
   no journal reference); the API search `abs:Burr AND abs:degenerate AND
@@ -219,8 +220,8 @@ paged at claims checked and its proof (dependent random choice with a
 random greedy embedding, Sections 3--6) was not read or reviewed here; the
 authored bridge above is elementary and was checked here. (2) The constant
 $c(d)$ is open between the conjectured $2^{O(d)}$ and Lee's
-$2^{d2^{O(d)}}$; it is not the site's question, whose status is proved.
-(3) The Annals text was not compared with the arXiv v2 cited. (4) The
+$2^{d2^{O(d)}}$; it is not the erdosproblems.com question, whose status is
+proved. (3) The Annals text was not compared with the arXiv v2 cited. (4) The
 formal-conjectures statement file links a third-party Lean proof that this
 corpus has not built.
 

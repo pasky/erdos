@@ -28,19 +28,19 @@ points in $\mathbb{R}^2$, not all on a circle?
 **Statement (modified).** What is the minimum number of circles determined by
 any $n$ points in $\mathbb{R}^2$, not all on a circle or a line?
 
-**Notes.** Read as the site words it, the question is degenerate: $n\ge3$
+**Notes.** Read as Bloom's catalog words it, the question is degenerate: $n\ge3$
 collinear points are not all on a circle and determine no circle, so the minimum
-under the site's wording is $0$. Erdős's statement [Er61, p. 245] has the same
-wording, and the site remarks that some nondegeneracy condition is intended,
-either that the points are not all on one line or the stronger one that no three
-are collinear. The modified Statement adds "or a line" and nothing else; it is
-the condition of Elliott [El67], Purdy and Smith [PuSm], Section 2.1, the
-formal-conjectures statement and Wrona's claim. Under the condition that no
-three points are collinear the question is a different one, with a different
-claimed answer: Wrona's repository claims $1+\binom{n-1}{2}$ for it, except $20$
-at $n=8$.
+under the erdosproblems.com wording is $0$. Erdős's statement [Er61, p. 245] has
+the same wording, and erdosproblems.com remarks that some nondegeneracy
+condition is intended, either that the points are not all on one line or the
+stronger one that no three are collinear. The modified Statement adds "or a
+line" and nothing else; it is the condition of Elliott [El67], Purdy and Smith
+[PuSm], Section 2.1, the formal-conjectures statement and Wrona's claim. Under
+the condition that no three points are collinear the question is a different
+one, with a different claimed answer: Wrona's repository claims
+$1+\binom{n-1}{2}$ for it, except $20$ at $n=8$.
 
-**Status.** The site labeled the problem DECIDABLE, a label it glosses as
+**Status.** Bloom's catalog labeled the problem DECIDABLE, a label it glosses as
 resolved up to a finite check (page last edited 1 February 2026). The label and
 the proof-claims thread are recorded as they stood on 6 October 2026. The
 standing in the frontmatter derives from the claim pages. The accepted partial
@@ -55,9 +55,9 @@ the accepted partial claim
 [[problems/discrete_geometry/E0506/claims/1994_09_01_balintova_balint|Bálintová and Bálint 1994]].
 The pending full claim is
 [[problems/discrete_geometry/E0506/claims/2026_08_20_wrona|Wrona's]], posted on
-the site's proof-claims thread on 20 August 2026 with a manuscript and a Lean
-development. It asserts the exact minimum for every $n\ge4$. It is AI-assisted
-and carries no acceptance evidence.
+the erdosproblems.com proof-claims thread on 20 August 2026 with a manuscript
+and a Lean development. It asserts the exact minimum for every $n\ge4$. It is
+AI-assisted and carries no acceptance evidence.
 
 **Source.** [erdosproblems.com/506](https://www.erdosproblems.com/506), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #506,
@@ -89,10 +89,10 @@ audited.
 
 ## Current assessment
 
-The site's formulation (page last edited 1 February 2026) is degenerate as
-worded, and this page answers the modified Statement: write $f(n)$ for the
-least number of circles through at least three of $n$ points of the plane that
-are not all on one circle or one line. Elliott [El67] asserted
+The erdosproblems.com formulation (page last edited 1 February 2026) is
+degenerate as worded, and this page answers the modified Statement: write $f(n)$
+for the least number of circles through at least three of $n$ points of the
+plane that are not all on one circle or one line. Elliott [El67] asserted
 $f(n)\ge\binom{n-1}{2}$ for $n>393$, but the bound is wrong: $n-1$ concyclic
 points and one point off the circle lying on $\lfloor(n-1)/2\rfloor$ of their
 connecting lines determine only $1+\binom{n-1}{2}-\lfloor(n-1)/2\rfloor$
@@ -109,9 +109,9 @@ values $f(n)$ for $5\le n\le393$ are open in the published literature as
 recorded here. Wrona's 2026 claim asserts $f(4),\dots,f(8)=3,5,8,11,17$ and the
 corrected Elliott formula for every $n\ge9$, under the hypothesis that the
 points are neither collinear nor concyclic; its manuscript and Lean development
-carry no acceptance evidence. The site's discussion thread carries two
-unpublished posts on small $n$, recorded here without claim pages because they
-are thread posts. On 11 June 2026 Yuriy Peysakhov posted the eight points
+carry no acceptance evidence. The erdosproblems.com discussion thread carries
+two unpublished posts on small $n$, recorded here without claim pages because
+they are thread posts. On 11 June 2026 Yuriy Peysakhov posted the eight points
 $(\pm1,\pm1)$ and $(\pm2,\pm2)$, found with Citadel, an AI-assisted
 verified-discovery engine Peysakhov is building; they determine $18$ circles, so
 $f(8)\le18<19$. On 18 August 2026, two days before Wrona's claim, the user mzn
@@ -126,9 +126,10 @@ and Bálintová and Bálint's bounds on three-point circles, $k_3\ge5n(n-1)/133$
 for every $n\ge4$, are the accepted partial claim on
 [[problems/discrete_geometry/E0506/claims/1994_09_01_balintova_balint|theirs]].
 No independent review of any result on this page is recorded. The search scope
-is the site's page export of 2026-09-04, the site's proof-claims thread,
-accessed 6 October 2026, its discussion thread, accessed 7 October 2026, and the
-formal-conjectures statement file at its commit of 2026-10-07.
+is the erdosproblems.com page export of 2026-09-04, the erdosproblems.com
+proof-claims thread, accessed 6 October 2026, its discussion thread, accessed 7
+October 2026, and the formal-conjectures statement file at its commit of
+2026-10-07.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

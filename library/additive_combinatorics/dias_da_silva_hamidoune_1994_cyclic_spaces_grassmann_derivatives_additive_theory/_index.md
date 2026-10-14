@@ -276,8 +276,8 @@ Ruzsa state the theorem under this paper's name
 ([[additive_combinatorics/alon_1995_adding_distinct_congruence_classes_modulo_prime/theorem_2|Theorem 2]]
 of their 1995 paper and
 [[additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_3_3|Theorem 3.3]]
-of their 1996 paper), as does the site. The paper's own proof is by linear
-algebra and the representation theory of the symmetric group, not the
+of their 1996 paper), as does erdosproblems.com. The paper's own proof is by
+linear algebra and the representation theory of the symmetric group, not the
 polynomial method of the reproofs: the diagonal operator with spectrum $A$
 has a derivative on the $m$th Grassmann space whose spectrum is
 $\wedge^mA$, and Corollary 3.3 bounds the degree of that derivative's

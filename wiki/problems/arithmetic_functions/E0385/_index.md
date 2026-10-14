@@ -30,7 +30,7 @@ $$
 where $p(m)$ is the least prime divisor of $m$. Is it true that $F(n)>n$ for all
 sufficiently large $n$? Does $F(n)-n\to \infty$ as $n\to\infty$?
 
-**Status.** Open, the site's label (OPEN).
+**Status.** Open, the erdosproblems.com label (OPEN).
 
 **Source.** [erdosproblems.com/385](https://www.erdosproblems.com/385), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #385,
@@ -41,14 +41,14 @@ https://www.erdosproblems.com/385.
 
 ## Current assessment
 
-**Open; no result decides either question.** The site formulation above asks
-whether $F(n)>n$ for all large $n$ and whether $F(n)-n\to\infty$; the site
-labeled the problem OPEN. Its commentary records that Erdős, Eggleton and
-Selfridge wrote that plausible conjectures on primes imply $F(n)\leq n$ for
-only finitely many $n$, that $F(n)$ may always be at least
+**Open; no result decides either question.** The erdosproblems.com formulation
+above asks whether $F(n)>n$ for all large $n$ and whether $F(n)-n\to\infty$;
+Bloom's catalog labeled the problem OPEN. Its commentary records that Erdős,
+Eggleton and Selfridge wrote that plausible conjectures on primes imply
+$F(n)\leq n$ for only finitely many $n$, that $F(n)$ may always be at least
 $n+(1-o(1))\sqrt n$, and that $F(n)\leq n+\sqrt n$ trivially. The elementary
 reductions below settle neither question; they are written out on this page
-from the site's commentary and from Leandre Jack's forum comment of 3
+from the erdosproblems.com commentary and from Leandre Jack's forum comment of 3
 September 2026, and none has independent review. Tao's blog post of 19 August
 2024 observes that a bound $o(x^{1/u})$, for some $2<u<3$, on the gaps between
 semiprimes in $[x,2x]$ with both prime factors in $[x^{1/u},x^{1-1/u}]$ would
@@ -97,8 +97,8 @@ forces primality. This is only a necessary condition.
 
 ### Relation to Problem 430
 
-Sarosh Adenwalla observed, as the site's commentary records, that the first
-question is equivalent to
+Sarosh Adenwalla observed, as the erdosproblems.com commentary records, that the
+first question is equivalent to
 [[problems/integer_sequences/E0430/_index|Problem 430]]. Precisely, for
 integer $n\geq5$, the sequence in Problem 430 contains a composite term if
 and only if $F(n)>n$. Here the sequence is continued while its defining set is

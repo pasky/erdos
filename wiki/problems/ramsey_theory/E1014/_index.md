@@ -4,7 +4,8 @@ title: Problem 1014
 desc: |
   Asks whether, for each fixed $k$, the ratio $R(k,l+1)/R(k,l)$ of consecutive
   off-diagonal Ramsey numbers tends to $1$. Answered yes by a 2026 manuscript
-  hosted by OpenAI, attributed to an internal model and accepted by the site.
+  hosted by OpenAI, attributed to an internal model and accepted by
+  erdosproblems.com.
 tags:
 - Graph theory
 - Ramsey theory
@@ -32,7 +33,7 @@ $$
 \lim_{l\to \infty}\frac{R(k,l+1)}{R(k,l)}=1.
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 24 April 2026). $R(k,l)$ is the off-diagonal Ramsey number
 in the graph form the statement gives; $R(k,l)=R(l,k)$ by complementation,
 and the source writes $R(k,\ell)$ with the same meaning. For fixed $k\ge2$
@@ -40,11 +41,11 @@ the sequence $l\mapsto R(k,l)$ is strictly increasing (a graph on $R(k,l)-1$
 vertices with no $K_k$ and no independent $l$-set gains no $K_k$ and no
 independent $(l+1)$-set when an isolated vertex is added), so every ratio
 $R(k,l+1)/R(k,l)$ is greater than $1$ and the question is whether the ratios
-tend to $1$. The case $k=2$ is trivial ($R(2,l)=l$), which is why the site
-asks for $k\ge3$; the resolving manuscript proves every fixed $k\ge2$. The
-site's source key is [Er71, p. 99], where Erdős writes $f(l,n)$ for $R(l,n)$
-and says "I cannot even prove $\lim_{n=\infty}f(l,n+1)/f(l,n)=1$"; the origin
-is quoted below.
+tend to $1$. The case $k=2$ is trivial ($R(2,l)=l$), which is why
+erdosproblems.com asks for $k\ge3$; the resolving manuscript proves every fixed
+$k\ge2$. The erdosproblems.com source key is [Er71, p. 99], where Erdős writes
+$f(l,n)$ for $R(l,n)$ and says "I cannot even prove
+$\lim_{n=\infty}f(l,n+1)/f(l,n)=1$"; the origin is quoted below.
 
 **Status.** PROVED (LEAN). The status-defining source is Theorem 1 of a
 three-page manuscript, *On the ratio of $R(k,\ell)$ and $R(k,\ell+1)$*, hosted
@@ -52,26 +53,26 @@ by OpenAI. The manuscript was retrieved 2026-09-18, and its PDF metadata is
 dated 22 April 2026. It proves $\lim_{\ell\to\infty}R(k,\ell+1)/R(k,\ell)=1$ for
 every fixed integer $k\ge2$, by dependent random choice on a critical graph. Its
 author is OpenAI, and its abstract attributes the proof to an internal model at
-OpenAI. The site accepted it as the resolution on 24 April 2026, with the label
-PROVED (LEAN). This is a solution supported by its source and accepted by the
-site. It is distinct from a claim of journal refereeing. No refereed
-publication, no arXiv version and no independent expert review of the manuscript
-was found on 2026-09-18.
+OpenAI. erdosproblems.com accepted it as the resolution on 24 April 2026, with
+the label PROVED (LEAN). This is a solution supported by its source and accepted
+by erdosproblems.com. It is distinct from a claim of journal refereeing. No
+refereed publication, no arXiv version and no independent expert review of the
+manuscript was found on 2026-09-18.
 
 The claim page [[problems/ramsey_theory/E1014/claims/2026_04_22_openai|OpenAI
-2026]] records the manuscript, its two external formalizations and the site's
-acceptance as an accepted full result. The frontmatter standing derives from it.
-It is accepted on the one evidence kind that the curator's crediting of the
-manuscript supplies (`reviewed`). There is no refereed version and no
-independent review of the whole argument. Two external Lean developments prove
-the theorem, each for its own definition of the Ramsey number, at pinned
-revisions. They are not built or independently audited here, and no local kernel
-credit is claimed.
+2026]] records the manuscript, its two external formalizations and
+erdosproblems.com's acceptance as an accepted full result. The frontmatter
+standing derives from it. It is accepted on the one evidence kind that the
+curator's crediting of the manuscript supplies (`reviewed`). There is no
+refereed version and no independent review of the whole argument. Two external
+Lean developments prove the theorem, each for its own definition of the Ramsey
+number, at pinned revisions. They are not built or independently audited here,
+and no local kernel credit is claimed.
 
 **Source.** [erdosproblems.com/1014](https://www.erdosproblems.com/1014),
 accessed 2026-09-18: the problem page (PROVED (LEAN),
-the site's label for an affirmative answer whose proof has been checked in
-Lean; last edited 24 April 2026; source key [Er71, p. 99]; commentary
+the erdosproblems.com label for an affirmative answer whose proof has been
+checked in Lean; last edited 24 April 2026; source key [Er71, p. 99]; commentary
 citing Problems 544 and 1030), its seven-comment discussion thread (25
 February to 22 June 2026) and its empty proof-claim tab. Cite as: T. F.
 Bloom, Erdős Problem #1014, https://www.erdosproblems.com/1014, accessed
@@ -119,7 +120,7 @@ Bloom, Erdős Problem #1014, https://www.erdosproblems.com/1014, accessed
   $r(s,k)\ge c_sk^{s-1}/(\log k)^{2s-4}$ for fixed $s\ge3$. Library home:
   [[../library/ramsey_theory/bradac_2026_off_diagonal_ramsey_numbers/theorem_1_1|bradac_2026_off_diagonal_ramsey_numbers / theorem_1_1]].
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label; see
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label; see
 "Formalization and the Lean label" below for the two Lean developments and
 their standing. The file
 [`ErdosProblems/1014.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/1014.lean)
@@ -136,16 +137,16 @@ also `research solved` and `sorry`, without a formal-proof attribute. The
 community database (accessed 2026-09-18) lists the problem as proved (Lean) as
 of its last update on 24 April 2026, the statement as formalized as of its
 last update on 5 August 2026, `formal_status` Lean and no formal-proof URL.
-The site's indicator records a formalized statement. Nothing was built or
-kernel-checked here.
+The erdosproblems.com indicator records a formalized statement. Nothing was
+built or kernel-checked here.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; PROVED (LEAN), the site's label for an affirmative answer whose
-proof has been checked in Lean; last edited 24 April 2026. The commentary
-credits the solution to an internal model at OpenAI and adds that the proof
-yields the quantitative bound $R(k,l+1)\le(1+O(l^{-c/k^2}))R(k,l)$ with an
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; PROVED (LEAN), the erdosproblems.com label for an affirmative
+answer whose proof has been checked in Lean; last edited 24 April 2026. The
+commentary credits the solution to an internal model at OpenAI and adds that the
+proof yields the quantitative bound $R(k,l+1)\le(1+O(l^{-c/k^2}))R(k,l)$ with an
 absolute constant $c>0$; it cross-references Problem 544 (the behavior of
 $R(3,k)$) and Problem 1030 (the diagonal analogue). The thread, oldest first: a
 comment of 25 February 2026 (the account Zeraoulia Rafik) proving the case
@@ -160,8 +161,8 @@ Erdős seems to have mistyped display (2) and meant
 $n^2/(\log n)^2\ll f(3,n)\ll n^2\log\log n/\log n$; a comment of 8 April 2026
 (the account Adenwalla) proving strict monotonicity; a comment of 23 April
 2026 (a reader) reporting the manuscript of an internal OpenAI model as a
-resolution, with a link, after which the site was updated; a comment of the
-same day (the account BorisAlexeev) announcing a Lean formalization of the
+resolution, with a link, after which erdosproblems.com was updated; a comment of
+the same day (the account BorisAlexeev) announcing a Lean formalization of the
 proof and linking the file in the `plby/lean-proofs` repository; a comment
 of 24 April 2026 (a reader) asking that the status change wait for an
 expert review and for a formal-conjectures pull request; and a comment of
@@ -184,8 +185,9 @@ bounds known for $f(3,n)$ in 1971 were
 $n^2/(\log n)^2\ll f(3,n)\ll n^2\log\log n/\log n$ (Erdős's 1961 lower
 bound and the Graver--Yackel upper bound), and the thread's comment of 26
 February 2026 says only that Erdős seems to have mistyped (2) and meant
-those bounds. The display is recorded as printed. The site's statement is
-Erdős's sentence with $R(k,l)$ for $f(l,n)$ and $k\ge3$ made explicit.
+those bounds. The display is recorded as printed. The erdosproblems.com
+statement is Erdős's sentence with $R(k,l)$ for $f(l,n)$ and $k\ge3$ made
+explicit.
 
 **Status-defining source.** Theorem 1 of the manuscript
 ([[../library/ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers/theorem_1|result page]],
@@ -204,8 +206,8 @@ depth: claims checked for Theorem 1, Remark 1 and the lemma statements; the
 one-page proof is followed for its structure and not checked step by step;
 no step is independently reviewed here, and no independent review of the
 whole argument exists.
-Acceptance evidence: the site's label and commentary (24 April 2026) and the
-thread's report; no refereed publication, no arXiv version (Crossref
+Acceptance evidence: the erdosproblems.com label and commentary (24 April 2026)
+and the thread's report; no refereed publication, no arXiv version (Crossref
 bibliographic query for the title and the arXiv searches of the scope below,
 2026-09-18) and no written expert review were found. Provenance, recorded
 not judged: the abstract's sentence "The proof is due to an internal model
@@ -215,12 +217,13 @@ at OpenAI"; the manuscript names no human author.
 [[../library/ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers/remark_1|Remark 1]]
 (p. 1) reads: "For each fixed $k\ge2$, there is a constant $c_k>0$ such that
 $R(k,\ell+1)/R(k,\ell)\le1+\ell^{-c_k}$ for all sufficiently large $\ell$. We
-do not attempt to optimize $c_k$." The site's commentary and the
+do not attempt to optimize $c_k$." The erdosproblems.com commentary and the
 formal-conjectures variant print $R(k,l+1)\le(1+O(l^{-c/k^2}))R(k,l)$ with
 one $c$ for all $k$; that form is a reading of the proof's $k^2$-th root, not
 the manuscript's printed statement, and no value of $c_k$ is given for any
 $k$. The discrepancy is one of form and does not affect the status. The
-case $k=3$ of Remark 1 is the site's consequence recorded on Problem 544.
+case $k=3$ of Remark 1 is erdosproblems.com's consequence recorded on
+Problem 544.
 
 **The elementary cases (thread for $k=3$, extended here).** The
 Erdős--Szekeres recurrence $R(k,l+1)\le R(k,l)+R(k-1,l+1)$ gives
@@ -247,7 +250,7 @@ $R(k,l+1)/R(k,l)\le1+O_k((\log l)^{2k-4}/l)$; this is the sharpening the
 thread's comment of 22 June 2026 reports, checked here from the two cited
 statements.
 
-**Formalization and the Lean label.** The site's "(LEAN)" suffix is a
+**Formalization and the Lean label.** erdosproblems.com's "(LEAN)" suffix is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos1014.lean` in `plby/lean-proofs` on its
@@ -288,13 +291,13 @@ the sharpening itself follows from the recurrence and Bradač's bound, as
 written out under the elementary cases above. The comment of 24 April
 2026 asking for an expert review before a status change is recorded as a
 reader's reservation about the label, not as a dispute of the proof. No
-proof claim exists on the site.
+proof claim exists on erdosproblems.com.
 
 **Search scope.** None of the routes below found a
 refereed or arXiv version of the manuscript, an independent review, a
 dispute of the argument, or a second proof.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database, read
   2026-09-18.
 - The manuscript at its OpenAI URL (HTTP 200); the two Lean developments at
@@ -322,8 +325,8 @@ manuscript's Lemma 2, $R(k,\ell)\gg_k(\ell/\log\ell)^{k/2}$, is stated
 without proof or citation; it follows from Theorem 2.2 of [Sp77], whose
 exponent $(k+1)/2$ exceeds $k/2$. Its Lemma 3 is cited to a paper not
 held. (4) The
-quantitative form printed by the site and the collection differs in form
-from the manuscript's Remark 1. (5) The origin's display (2) repeats the
+quantitative form printed by erdosproblems.com and the collection differs in
+form from the manuscript's Remark 1. (5) The origin's display (2) repeats the
 bounds of display (1); nothing else in [Er71] is at issue.
 <!-- BEGIN problem library links -->
 

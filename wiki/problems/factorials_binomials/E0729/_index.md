@@ -31,11 +31,11 @@ $$
 
 contains only primes $\ll_C 1$?
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
-edited 11 January 2026). The standing in the frontmatter derives from the claim
-page. The site credits Barreto and Leeham, using ChatGPT and Aristotle, for an
-affirmative proof that modifies the argument used for Problem 728. The result is
-recorded on the claim page
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN)
+(page last edited 11 January 2026). The standing in the frontmatter derives from
+the claim page. erdosproblems.com credits Barreto and Leeham, using ChatGPT and
+Aristotle, for an affirmative proof that modifies the argument used for
+Problem 728. The result is recorded on the claim page
 [[problems/factorials_binomials/E0729/claims/2026_01_10_barreto_price|Barreto and Price 2026]].
 The Lean qualifier refers to Aristotle's formalization of the GPT-5.2 Pro
 argument, in Boris Alexeev's repository of formalized Erdős problems. This
@@ -66,9 +66,9 @@ at pinned commits from the claim page. This corpus has not built it.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 11 January 2026): for a
-constant $C>0$, are there infinitely many $a,b,n$ with $a+b>n+C\log n$ such
-that the denominator of $n!/(a!\,b!)$ contains only primes bounded in terms
+The question, as erdosproblems.com states it (page last edited 11 January 2026):
+for a constant $C>0$, are there infinitely many $a,b,n$ with $a+b>n+C\log n$
+such that the denominator of $n!/(a!\,b!)$ contains only primes bounded in terms
 of $C$? Erdős [Er68c] proved that $a!\,b!\mid n!$ forces
 $a+b\le n+O(\log n)$, and the proof needs only the prime $2$: by Legendre's
 formula the exponent of $2$ in $n!$ is $n$ minus the binary digit sum of $n$,
@@ -83,8 +83,8 @@ only once the bound on the ignored primes may depend on $C$.
 
 Proof. The accepted claim page
 [[problems/factorials_binomials/E0729/claims/2026_01_10_barreto_price|Barreto and Price 2026]]
-records the result the site credits: an informal argument of GPT-5.2 Pro,
-adapting the proof of Problem 728 on the claim page
+records the result erdosproblems.com credits: an informal argument of GPT-5.2
+Pro, adapting the proof of Problem 728 on the claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_06_barreto|Barreto 2026]],
 formalized by Harmonic's Aristotle from the TeX alone and posted by Kevin
 Barreto to the thread, the informal proof on 2026-01-08 and the Lean proof on
@@ -106,11 +106,11 @@ $1/\log4$, so it is a partial result for this problem and carries no claim
 page here. Problem 401 is a later, more precise question in the same spirit,
 settled the next day by the same route.
 
-Search scope: the site's problem page, its discussion thread, the community
-database, the formal-conjectures file and Alexeev's repository. The site
-listed no proof claim for the problem, and on 2026-10-07 the thread held 30
-comments; the thread's literature searches, including an inquiry to Pomerance,
-found no earlier solution.
+Search scope: the erdosproblems.com problem page, its discussion thread, the
+community database, the formal-conjectures file and Alexeev's repository.
+erdosproblems.com listed no proof claim for the problem, and on 2026-10-07 the
+thread held 30 comments; the thread's literature searches, including an inquiry
+to Pomerance, found no earlier solution.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

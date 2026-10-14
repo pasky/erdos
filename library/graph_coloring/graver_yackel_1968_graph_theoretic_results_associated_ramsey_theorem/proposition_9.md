@@ -115,14 +115,14 @@ $R(3,y)$, Ramsey's theorem (the paper's [5], filed as
   [[ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_3|Ajtai, Komlós and Szemerédi]],
   which removed the $\log\log k$ factor by a new method; the constant
   $2+o(1)$ read off the proof is not stated by the paper.
-- [[../wiki/problems/graph_coloring/E1013/_index|Problem 1013]]: the source of the site's
-  $h_3(k)\gg k^2\log k/\log\log k$, through the translation on the source
-  digest: a triangle-free graph on $n$ points has an independent set of
-  $c(n\log n/\log\log n)^{1/2}$ points, so its chromatic number is
+- [[../wiki/problems/graph_coloring/E1013/_index|Problem 1013]]: the source of
+  erdosproblems.com's $h_3(k)\gg k^2\log k/\log\log k$, through the translation
+  on the source digest: a triangle-free graph on $n$ points has an independent
+  set of $c(n\log n/\log\log n)^{1/2}$ points, so its chromatic number is
   $\ll(n\log\log n/\log n)^{1/2}$, and a triangle-free $k$-chromatic graph
   has $\gg k^2\log k/\log\log k$ points. The paper prints no
   chromatic-number statement.
 - [[../wiki/problems/graph_coloring/E0920/_index|Problem 920]]: the case $x=3$ of the
   [[graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/corollary_p156|Corollary]]
-  and the base of its induction; for $k=3$ it gives the site's
+  and the base of its induction; for $k=3$ it gives erdosproblems.com's
   $f_3(n)\ll(n\log\log n/\log n)^{1/2}$ by the same translation.

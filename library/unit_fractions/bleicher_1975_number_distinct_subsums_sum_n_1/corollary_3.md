@@ -28,7 +28,7 @@ $$
 
 The paper writes the right side as $e(\cdot)$, its notation for $e^{(\cdot)}$
 (p. 30 defines $e_0(x)=x$, $e_{i+1}(x)=e^{e_i(x)}$). Reindexing $k+1$ as $k$
-gives the form the site prints for Problem 320:
+gives the form erdosproblems.com prints for Problem 320:
 $\log S(N)\ge\frac{N}{\log N}\log2\prod_{i=3}^k\log_iN$ for $k\ge4$ and
 $\log_kN\ge k$.
 
@@ -84,6 +84,6 @@ upper half of Corollary 4.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0320/_index|Problem 320]]: the classical lower bound
-  for $\log S(N)$ that the site attributes to [BlEr75]; improved in the
+  for $\log S(N)$ that erdosproblems.com attributes to [BlEr75]; improved in the
   constant and in the admissible range of $k$ by
   [[unit_fractions/bettin_2025_lower_bound_number_egyptian_fractions/theorem_1|Bettin, Grenié, Molteni and Sanna's Theorem 1]].

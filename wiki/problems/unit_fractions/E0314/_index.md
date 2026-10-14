@@ -35,7 +35,7 @@ $$
 \liminf n^2\epsilon(n)=0?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 23 January 2026). For each $n\ge1$ the block
 $n,n+1,\ldots,m$ is the shortest block of consecutive integers starting at
 $n$ whose reciprocals sum to at least $1$ (it exists since the harmonic
@@ -43,15 +43,16 @@ series diverges), and $\epsilon(n)\ge0$ is the overshoot; trivially
 $\epsilon(n)<1/m\le1/n$. Two questions are asked: how small $\epsilon(n)$
 can be, and whether $\liminf_nn^2\epsilon(n)=0$. The second is the
 question the label answers; the first is answered only by the bounds
-below, and the belief recorded by the site and the monograph, that
+below, and the belief recorded by erdosproblems.com and the monograph, that
 $n^{2+\delta}\epsilon(n)\to\infty$ for every $\delta>0$, is open.
 
-**Status.** Proved. The site's label was PROVED (LEAN). Lim and Steinerberger's
-Theorem 1 (Mathematika 71 (2025), no. 2, e70009; refereed) gives, for every
-$c>0$, infinitely many pairs $(m,n)$ with $1\le\sum_{\ell=n}^m1/\ell\le1+c/n^2$.
-For such a pair the minimal $m(n)$ is at most $m$, so $\epsilon(n)\le c/n^2$.
-The pairs have distinct $n$ once $n$ is large (a two-line deduction made here).
-So $\liminf n^2\epsilon(n)=0$. Their Theorem 2 gives the refined bound
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN). Lim and
+Steinerberger's Theorem 1 (Mathematika 71 (2025), no. 2, e70009; refereed)
+gives, for every $c>0$, infinitely many pairs $(m,n)$ with
+$1\le\sum_{\ell=n}^m1/\ell\le1+c/n^2$. For such a pair the minimal $m(n)$ is at
+most $m$, so $\epsilon(n)\le c/n^2$. The pairs have distinct $n$ once $n$ is
+large (a two-line deduction made here). So $\liminf n^2\epsilon(n)=0$. Their
+Theorem 2 gives the refined bound
 $|\sum_{\ell=n}^m1/\ell-1|\le1/(n^2(\log n)^{5/4-\varepsilon})$ for infinitely
 many pairs. Its transfer to $\epsilon(n)$ uses the paper's remark, stated
 without proof, that the sum can be forced above $1$. The label's Lean qualifier
@@ -61,12 +62,12 @@ recorded on
 [[problems/unit_fractions/E0314/claims/2024_05_18_lim_steinerberger|Lim and Steinerberger's claim page]].
 
 **Source.** [erdosproblems.com/314](https://www.erdosproblems.com/314),
-accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's
+accessed 2026-09-18: the problem page (PROVED (LEAN), with the erdosproblems.com
 banner saying the question is answered affirmatively and the proof
 verified in Lean; source key [ErGr80, p. 41]; last edited 23 January 2026;
 the formalized-statement field marked yes), its
 four-comment discussion thread (22 January to 1 April 2026) and its empty
-proof-claim tab. The site cites [LiSt24]
+proof-claim tab. erdosproblems.com cites [LiSt24]
 in its commentary and thanks Wouter van Doorn. Cite as: T. F. Bloom, Erdős
 Problem #314, https://www.erdosproblems.com/314, accessed 2026-09-18.
 
@@ -105,8 +106,8 @@ file; see Formalization and the Lean label below.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement
-above; PROVED (LEAN); last edited 23 January 2026; source key [ErGr80,
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; PROVED (LEAN); last edited 23 January 2026; source key [ErGr80,
 p. 41]. The commentary answers yes and credits Lim and Steinerberger
 [LiSt24], adding their refined result that for every $\delta>0$ infinitely
 many pairs $n,m$ satisfy
@@ -117,7 +118,7 @@ should be infinite for every $\delta>0$. The thread
 (four comments): 22 January 2026 (van Doorn), that Theorem 1 answers the
 original question while the refined bound is stated for the absolute value
 and that the published version contains the improved exponent $5/4$, after
-which the site was updated; 15 March and 1 April 2026 (van Doorn), a
+which erdosproblems.com was updated; 15 March and 1 April 2026 (van Doorn), a
 failed and then a successful attempt to formalize the result with the
 prover Aristotle, with the Lean file on GitHub; 15 March 2026 (Nat
 Sothanaphan), encouragement to report negative results. The proof-claim
@@ -129,8 +130,8 @@ small can $\varepsilon_n$ be? As far as we know this has not been looked
 at. It should be true that $\liminf_nn^2\varepsilon_n=0$ but perhaps
 $n^{2+\delta}\varepsilon_n\to\infty$ for every $\delta>0$. The quantity
 $t\varepsilon_n$ is equidistributed modulo $1$ and, in fact, is probably
-uniformly distributed." The site's $\epsilon(n)$ is this $\varepsilon_n$
-with $t=m$.
+uniformly distributed." erdosproblems.com's $\epsilon(n)$ is this
+$\varepsilon_n$ with $t=m$.
 
 **Status support.** The status-defining source is Lim and Steinerberger's
 [[../library/unit_fractions/lim_2024_differences_two_harmonic_numbers/theorem_1|Theorem 1]]
@@ -156,15 +157,14 @@ $1$: for a pair whose sum is below $1$ the least $m(n)$ is $m+1$ once $n$ is
 large, and only $\epsilon(n)<1/(m+1)$, of order $1/n$, follows. So
 $\epsilon(n)\le1/(n^2(\log n)^{5/4-\varepsilon})$ infinitely often rests on
 Theorem 2 together with the paper's remark, not on the theorem as stated.
-The site's commentary states the refined bound with the absolute value, as
-the preprint does; the journal text is not held. Acceptance
-evidence: the paper is published in Mathematika 71 (2025), no. 2, e70009
-(online 27 January 2025; Crossref record accessed 2026-09-18), a refereed
-journal, and the site accepts it. Proof coverage: the result pages record
-the proofs (Section 2, pp. 2--7, an elementary construction from the
-continued fraction of $e$; Section 3, pp. 8--12, quadratic rational
-approximation) as read for structure only; the corpus has not verified the
-proofs.
+The erdosproblems.com commentary states the refined bound with the absolute
+value, as the preprint does; the journal text is not held. Acceptance evidence:
+the paper is published in Mathematika 71 (2025), no. 2, e70009 (online 27
+January 2025; Crossref record accessed 2026-09-18), a refereed journal, and
+erdosproblems.com accepts it. Proof coverage: the result pages record the proofs
+(Section 2, pp. 2--7, an elementary construction from the continued fraction of
+$e$; Section 3, pp. 8--12, quadratic rational approximation) as read for
+structure only; the corpus has not verified the proofs.
 
 **The first question.** How small $\epsilon(n)$ can be is answered only
 by the bounds above: $\epsilon(n)\le c/n^2$ infinitely often for every
@@ -174,12 +174,12 @@ $\epsilon(n)<1/m(n)\le1/n$ for every $n$. The paper's Section 1.3
 contrasts its bound with a random model in which a variable $X_n$ uniform
 on $[0,1/n]$ would exceed $1/(n^2(\log n)^{1+\delta})$ for all large $n$,
 so the refined bound beats the random heuristic; no lower bound of the
-form $n^{2+\delta}\epsilon(n)\to\infty$ is proved, and the site records the
-belief that the exponent $2$ is best possible as a conjecture. The
-two-block integrality question for consecutive reciprocals is
+form $n^{2+\delta}\epsilon(n)\to\infty$ is proved, and erdosproblems.com records
+the belief that the exponent $2$ is best possible as a conjecture. The two-block
+integrality question for consecutive reciprocals is
 [[problems/unit_fractions/E0288/_index|Problem 288]].
 
-**Formalization and the Lean label.** The site's Lean qualifier is a
+**Formalization and the Lean label.** The erdosproblems.com Lean qualifier is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names the file
 `Erdos314.lean` in Boris Alexeev's `lean-proofs` repository at the pinned
@@ -201,7 +201,7 @@ kernel-checked either file, and no local credit is claimed. The community
 database records `formal_status` Lean (field last updated 31 August 2025)
 and no formal-proof URL.
 
-**Search scope (2026-09-18 UTC).** The site's problem, discussion and
+**Search scope (2026-09-18 UTC).** The erdosproblems.com problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures file at
 the pinned commit; the two Lean files at their pinned commits; the arXiv
 abstract page of 2405.11354 (three versions; no journal reference on the

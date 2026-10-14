@@ -62,16 +62,16 @@ None.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E0705/_index|Problem 705]]: the
-  site's question is Erdős's weaker conjecture. For $k\ge4$ the girth
+  erdosproblems.com question is Erdős's weaker conjecture. For $k\ge4$ the girth
   hypothesis already excludes unit equilateral triangles, so the paper's
   extra hypothesis is then automatic; the paper does not say that $S$ is
-  finite, while the site's graphs are finite. Wormald's example, as
+  finite, while erdosproblems.com's graphs are finite. Wormald's example, as
   reported, shows that girth $5$ does not suffice.
-- [[../wiki/problems/graph_coloring/E0706/_index|Problem 706]]: the site's
-  $L(r)$ is the paper's $\alpha_2(r)$, read over finite point sets; by
-  the de Bruijn–Erdős theorem the two agree (a remark made here). The paper's question
-  whether $\alpha_2(r)$ can grow exponentially, and its remark that
-  polynomial growth seems possible, are the site's question whether
-  $L(r)\le r^{O(1)}$.
+- [[../wiki/problems/graph_coloring/E0706/_index|Problem 706]]:
+  erdosproblems.com's $L(r)$ is the paper's $\alpha_2(r)$, read over finite
+  point sets; by the de Bruijn–Erdős theorem the two agree (a remark made here).
+  The paper's question whether $\alpha_2(r)$ can grow exponentially, and its
+  remark that polynomial growth seems possible, are the erdosproblems.com
+  question whether $L(r)\le r^{O(1)}$.
 - [[../wiki/problems/discrete_geometry/E0508/_index|Problem 508]]: the
   finiteness remark reduces $\alpha_2>4$ to finding a finite set.

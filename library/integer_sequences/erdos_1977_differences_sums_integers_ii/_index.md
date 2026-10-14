@@ -62,8 +62,8 @@ difference intersector set has liminf b_{k+1}/b_k = 1.
 P. Erdős and A. Sárközy, *On differences and sums of integers, II*, Bull.
 Soc. Math. Grèce (N.S.) **18** (1977), no. 2, 204--223 (the journal's running
 head reads "Bulletin of the Greek Mathematical Society 18 (1977)"; dedicated
-to the memory of Christos D. Papakyriakopoulos). The site's reference key
-[ErSa77] for Problem 439 names this paper; the Rényi archive's index lists
+to the memory of Christos D. Papakyriakopoulos). The erdosproblems.com reference
+key [ErSa77] for Problem 439 names this paper; the Rényi archive's index lists
 it as `1977-17.pdf`. Part I is the authors' J. Number Theory paper (the
 paper's reference [1], "to appear").
 
@@ -219,7 +219,8 @@ same page records the parallel example and guess for $a_x+a_y=p-1$. The
 paper proves nothing toward the guess. The problem's claim page states
 that Massias's set of density $11/32$ shows the guess false for squares;
 that is the problem page's record, not this paper's.
-[[../wiki/problems/ramsey_theory/E0439/_index|#439]]: the site's key [ErSa77]. The
+[[../wiki/problems/ramsey_theory/E0439/_index|#439]]: the erdosproblems.com key
+[ErSa77]. The
 [[integer_sequences/erdos_1977_differences_sums_integers_ii/definition_p204|definitions]]
 and the $1\bmod3$ example of the
 [[integer_sequences/erdos_1977_differences_sums_integers_ii/remark_p209|p. 209 remark]]

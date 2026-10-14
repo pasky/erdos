@@ -2,10 +2,10 @@
 name: problems/additive_bases/E0530/claims/1975_01_01_komlos_sulyok_szemeredi
 title: "Komlós, Sulyok and Szemerédi: a Sidon subset of order N to the one half"
 desc: |
-  In a refereed result credited by the site, Komlós, Sulyok and Szemerédi (1975)
-  show that every set of $N$ integers has a Sidon subset of size at least
-  $cN^{1/2}$. This is the lower half of the order question, and with the trivial
-  upper bound it fixes the order of $\ell(N)$ at $N^{1/2}$.
+  In a refereed result credited by erdosproblems.com, Komlós, Sulyok and
+  Szemerédi (1975) show that every set of $N$ integers has a Sidon subset of
+  size at least $cN^{1/2}$. This is the lower half of the order question, and
+  with the trivial upper bound it fixes the order of $\ell(N)$ at $N^{1/2}$.
 authors:
 - János Komlós
 - Miklós Sulyok
@@ -55,7 +55,7 @@ recorded here as the page's own remark: a finite set of reals is Freiman
 isomorphic of order $2$ to a finite set of integers, and such an
 isomorphism carries Sidon subsets to Sidon subsets, so the integer bound
 gives the real one with the same constant. Bailleul and Riblet (2026)
-perform the same transfer by Dirichlet approximation, and the site's
+perform the same transfer by Dirichlet approximation, and the erdosproblems.com
 commentary credits the real bound $N^{1/2}\ll\ell(N)$ to [KSS75]
 directly.
 
@@ -76,8 +76,8 @@ classical Erdős--Turán and Singer results.
 Academiae Scientiarum Hungaricae, volume 26, issue 1--2 (1975), received 20
 November 1973. This is the `refereed` evidence. The citation gives the year
 without a month or day, so this page is dated to the first day of that year. The
-site's curator, Thomas Bloom, credits the bound $N^{1/2}\ll\ell(N)$ to this
-paper in the problem page's commentary. The site labeled the problem OPEN, so
-that credit is not `reviewed` evidence. The library's result pages reconstruct
-the paper's proof chain and await independent review. They award nothing by this
-corpus.
+erdosproblems.com curator, Thomas Bloom, credits the bound $N^{1/2}\ll\ell(N)$
+to this paper in the problem page's commentary. Bloom's catalog labeled the
+problem OPEN, so that credit is not `reviewed` evidence. The library's result
+pages reconstruct the paper's proof chain and await independent review. They
+award nothing by this corpus.

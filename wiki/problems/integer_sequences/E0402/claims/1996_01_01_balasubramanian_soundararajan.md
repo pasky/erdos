@@ -5,7 +5,7 @@ desc: |
   Balasubramanian and Soundararajan prove Graham's conjecture for every set of
   $N$ integers, so every finite set $A$ has two members $a,b$ with
   $\gcd(a,b)\le a/|A|$. The refereed paper appeared in Acta Arithmetica 75
-  (1996), and the site credits it.
+  (1996), and erdosproblems.com credits it.
 authors:
 - R. Balasubramanian
 - K. Soundararajan
@@ -70,7 +70,7 @@ $a\in A$, $b\in B$ with $\max(a,b)/\gcd(a,b)\ge N$.
 Zaharescu (J. Number Theory 27 (1987), 33--40) proved the conjecture
 independently for all sufficiently large $N$. Szegedy's theorem, as the paper's
 abstract and the formal-conjectures statement file give it, includes the
-equality case, and the site's commentary credits both papers with it;
+equality case, and the erdosproblems.com commentary credits both papers with it;
 Zaharescu's, as the zbMATH review states it, is the inequality alone, and
 this paper's introduction calls both results the weaker form and credits the
 strong form for large $N$ to Cheng and Pomerance. The paper remarks that
@@ -80,12 +80,12 @@ Riemann Hypothesis, and Cheng and Pomerance the strong form for
 $N>10^{50\,000}$. Szegedy's and Zaharescu's results have their own pages,
 [[problems/integer_sequences/E0402/claims/1986_03_01_szegedy|Szegedy 1986]] and
 [[problems/integer_sequences/E0402/claims/1987_09_01_zaharescu|Zaharescu 1987]];
-the site's commentary credits Szegedy and Zaharescu for large sets and
-Balasubramanian and Soundararajan for all sets.
+the erdosproblems.com commentary credits Szegedy and Zaharescu for large sets
+and Balasubramanian and Soundararajan for all sets.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, who is independent
-of the authors, labeled the problem PROVED and credits the paper in the
-commentary (page last edited 8 April 2026). The discussion thread and the
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, who is
+independent of the authors, labeled the problem PROVED and credits the paper in
+the commentary (page last edited 8 April 2026). The discussion thread and the
 proof-claim tab are empty.
 
 Refereed: Acta Arithmetica is a refereed journal of the Polish Academy of

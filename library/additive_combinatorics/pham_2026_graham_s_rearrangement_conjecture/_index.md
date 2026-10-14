@@ -80,10 +80,10 @@ Source: <https://arxiv.org/abs/2602.15797v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]:
 Theorem 1.2 proves the statement for every prime p and every set A with C_alpha
-<= |A| <= p^{1-alpha}, for each fixed 0 < alpha < 1 (the site's medium range);
-Theorem 1.3 and Corollary 1.4 are anticoncentration inputs to its proof and say
-nothing about orderings on their own. The other ranges come from other papers,
-and no threshold on p is given.
+<= |A| <= p^{1-alpha}, for each fixed 0 < alpha < 1 (erdosproblems.com's medium
+range); Theorem 1.3 and Corollary 1.4 are anticoncentration inputs to its proof
+and say nothing about orderings on their own. The other ranges come from other
+papers, and no threshold on p is given.
 
 **Results.**
 

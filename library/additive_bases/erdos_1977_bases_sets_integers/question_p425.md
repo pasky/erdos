@@ -64,9 +64,9 @@ None.
 
 - [[../wiki/problems/additive_combinatorics/E0806/_index|Problem 806]]: the origin. With
   $N=n^2$ the question asks whether every set of $N^{1/2}$ integers in
-  $[1,N]$ has a basis of $o(N^{1/2})$ elements, the site's statement (which
-  allows $|A|\le N^{1/2}$ and $B\subset\mathbb Z$); the p. 423 remark is
-  the site's "there exist $A$ with $|A|\asymp n^{1/2}$ such that if
+  $[1,N]$ has a basis of $o(N^{1/2})$ elements, the erdosproblems.com statement
+  (which allows $|A|\le N^{1/2}$ and $B\subset\mathbb Z$); the p. 423 remark is
+  erdosproblems.com's "there exist $A$ with $|A|\asymp n^{1/2}$ such that if
   $A\subseteq B+B$ then $|B|\gg n^{1/2}\log\log n/\log n$", restated by Alon,
   Bukh and Sudakov, whose
   [[additive_combinatorics/alon_2009_discrete_kakeya_type_problems_small_bases/theorem_1_4|Theorem 1.4]]

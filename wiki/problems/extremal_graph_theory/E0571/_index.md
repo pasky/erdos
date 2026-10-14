@@ -35,26 +35,27 @@ simple graph on $n$ vertices containing no subgraph isomorphic to $G$. The
 notation $\asymp$ means two positive constant bounds for all sufficiently
 large $n$; the graph and constants may depend on $\alpha$.
 
-**Status.** Proved. The site labeled the problem proved and formalized,
+**Status.** Proved. Bloom's catalog labeled the problem proved and formalized,
 crediting GPT-6 Astra, and its curator submitted proof claim 243. The corpus
 accepts the result on the
 [[problems/extremal_graph_theory/E0571/claims/2026_09_03_adamczewski|claim page]]
 on formalized evidence, so the problem stands solved and proved. The pinned Lean
 development was built here, and its axioms were found to be the three standard
 ones. Its compared declaration was matched to the comparator challenge, and its
-statement was audited against the Statement above. The site's acceptance comes
-from the curator who submitted the entry and co-wrote the publication, so it is
-not an independent review. Nothing is refereed. The formal evidence and the
-preliminary exposition are distinguished on the claim page and below. The site
-lists eight earlier single-graph exponent families. They are partial claims, one
-page each under `claims/`. Seven are accepted on their refereed venues, and the
-2026 preprint is claimed. None settles the problem.
+statement was audited against the Statement above. erdosproblems.com's
+acceptance comes from the curator who submitted the entry and co-wrote the
+publication, so it is not an independent review. Nothing is refereed. The formal
+evidence and the preliminary exposition are distinguished on the claim page and
+below. erdosproblems.com lists eight earlier single-graph exponent families.
+They are partial claims, one page each under `claims/`. Seven are accepted on
+their refereed venues, and the 2026 preprint is claimed. None settles the
+problem.
 
 **Source.** T. F. Bloom, Erdős Problem #571,
 [https://www.erdosproblems.com/571](https://www.erdosproblems.com/571),
 accessed 2026-09-05, with its discussion and proof-claims page.
 
-**References.** The site attributes the question to
+**References.** erdosproblems.com attributes the question to
 [Er74c, p. 78], [Er75], [Er78, p. 30], [Er81], [ErSi84] and [Er91].
 Their bibliography is below; the five sources with library cards are
 linked from their entries.
@@ -90,16 +91,17 @@ against the module's 10,390: it lacks two unused lemmas of the module
 47 blank lines, opens `namespace Erdos571` at its head, and appends a
 `#print axioms` check. That copy is linked from the claim page as a further
 posting of the claimant's formalization and is not an independent proof; the
-formal-conjectures entry syncs the site's status and is not acceptance evidence.
+formal-conjectures entry syncs the erdosproblems.com status and is not
+acceptance evidence.
 
 ## Current assessment
 
-The site labeled the problem proved and formalized; its curator, T. F. Bloom,
-submitted
-[proof claim 243](https://www.erdosproblems.com/forum/thread/571/proof-claims#proof-claim-243),
+Bloom's catalog labeled the problem proved and formalized; its curator, T. F.
+Bloom, submitted [proof claim
+243](https://www.erdosproblems.com/forum/thread/571/proof-claims#proof-claim-243),
 qualifying the preliminary informal reading, and co-wrote the FrontierMath Erdős
-paper, so the site's acceptance is not an independent review of the claim. The
-exact full statement is
+paper, so erdosproblems.com's acceptance is not an independent review of the
+claim. The exact full statement is
 [[../library/extremal_graph_theory/adamczewski_2026_erdos571/theorem_1_1|Theorem 1.1]],
 whose complete reconstruction uses the public proof module as well as the
 seven-page exposition. The acceptance rests on the formalized evidence the claim
@@ -164,12 +166,12 @@ sources, not claims of complete proof coverage of each older paper.
 | --- | --- | --- |
 | Public 2026 resolution | Every rational $\alpha\in[1,2)$ for one finite bipartite graph | [[../library/extremal_graph_theory/adamczewski_2026_erdos571/theorem_1_1|Theorem 1.1]], complete reconstructed chain |
 | Finite-family analog | Every rational $1<\alpha<2$ for a finite forbidden family | [[../library/extremal_graph_theory/bukh_2018_rational_exponents_extremal_graph_theory/_index|Bukh–Conlon]], Theorem 1.1; historical sketch |
-| [CJL21] | $3/2-1/(2s)$ for $s\ge2$ | [[../library/extremal_graph_theory/conlon_2021_more_extremal_number_subdivisions/_index|Conlon–Janzer–Lee]]; site's range and source pointer |
-| [JiQi20] | $4/3-1/(3s)$ and $5/4-1/(4s)$ for $s\ge2$ | [[../library/extremal_graph_theory/jiang_2020_turan_numbers_bipartite_subdivisions/_index|Jiang–Qiu]]; site's ranges and source pointer |
-| [JJM20] | $2-a/b$ when $\lfloor b/a\rfloor^3\le a\le b/(\lfloor b/a\rfloor+1)+1$ | [[../library/extremal_graph_theory/jiang_2020_negligible_obstructions_turan_exponents/_index|Jiang–Jiang–Ma]]; site's range and source pointer |
+| [CJL21] | $3/2-1/(2s)$ for $s\ge2$ | [[../library/extremal_graph_theory/conlon_2021_more_extremal_number_subdivisions/_index|Conlon–Janzer–Lee]]; erdosproblems.com's range and source pointer |
+| [JiQi20] | $4/3-1/(3s)$ and $5/4-1/(4s)$ for $s\ge2$ | [[../library/extremal_graph_theory/jiang_2020_turan_numbers_bipartite_subdivisions/_index|Jiang–Qiu]]; erdosproblems.com's ranges and source pointer |
+| [JJM20] | $2-a/b$ when $\lfloor b/a\rfloor^3\le a\le b/(\lfloor b/a\rfloor+1)+1$ | [[../library/extremal_graph_theory/jiang_2020_negligible_obstructions_turan_exponents/_index|Jiang–Jiang–Ma]]; erdosproblems.com's range and source pointer |
 | [KKL21] | $2-a/b$ when $b>a$ and $b\equiv\pm1\pmod a$ | [[../library/extremal_graph_theory/kang_2021_rational_turan_exponents_conjecture/_index|Kang–Kim–Liu]], Theorem 1.4 |
 | [JiQi23] | $1+a/b$ when $b>a^2$ | [[../library/extremal_graph_theory/jiang_2023_many_turan_exponents_via_subdivisions/_index|Jiang–Qiu]], Theorem 1.3 |
-| [JMY22] | $2-2/(2b+1)$ for $b\ge2$, and $7/5$ | [[../library/extremal_graph_theory/jiang_2022_turan_exponents_bipartite_graphs/_index|Jiang–Ma–Yepremyan]]; site's ranges and source pointer |
+| [JMY22] | $2-2/(2b+1)$ for $b\ge2$, and $7/5$ | [[../library/extremal_graph_theory/jiang_2022_turan_exponents_bipartite_graphs/_index|Jiang–Ma–Yepremyan]]; erdosproblems.com's ranges and source pointer |
 | [CoJa22] | $2-a/b$ when $b\ge\max(a,(a-1)^2)$ | [[../library/extremal_graph_theory/conlon_2022_rational_exponents_near_two/_index|Conlon–Janzer]], Theorem 1.2 (arXiv v2) |
 | [JLY26] | $3/2-(a+1)/(2a(b+1))$ for $b\ge2$, $a\ge2b+3$ | [Jiang–Longbrake–Yepremyan](https://arxiv.org/abs/2607.19607v1), Theorem 1.7 and its quoted matching lower bound; statement and proof pointer |
 
@@ -189,7 +191,7 @@ no page.
 ## Detailed references
 
 - [Er74c] P. Erdős, *Extremal problems on graphs and hypergraphs* (1974),
-  75–84; the site points to p. 78. Library home:
+  75–84; erdosproblems.com points to p. 78. Library home:
   [[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/_index|erdos_1974_extremal_problems_graphs_hypergraphs]].
 - [Er75] P. Erdős, *Some recent progress on extremal problems in graph
   theory*, Congressus Numerantium (1975), 3–14. Library home:
@@ -197,7 +199,7 @@ no page.
 - [Er78] P. Erdős, *Problems and results in combinatorial analysis and
   combinatorial number theory*, Proceedings of the Ninth Southeastern
   Conference on Combinatorics, Graph Theory, and Computing, Boca Raton
-  (1978), 29–40; the site points to p. 30. Library home:
+  (1978), 29–40; erdosproblems.com points to p. 30. Library home:
   [[../library/extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/_index|erdos_1978_problems_results_combinatorial_analysis_combinatorial_number]].
 - [Er81] P. Erdős, *On the combinatorial problems which I would most like
   to see solved*, Combinatorica (1981), 25–42, Part III, item 2. Library home:

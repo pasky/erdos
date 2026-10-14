@@ -25,7 +25,7 @@ updated: 2026-10-08T14:17:37Z
 $\gg n$ many distinct distances each of which occurs for more than $n$ many
 pairs from $A$?
 
-**Status.** PROVED (LEAN). The site marked the problem proved and credits
+**Status.** PROVED (LEAN). Bloom's catalog marked the problem proved and credits
 Bhowmick's construction. It also flags a Lean formalization of the proof. See
 the [[problems/distance_problems/E0756/claims/2024_07_01_bhowmick|claim page]].
 
@@ -50,24 +50,24 @@ https://www.erdosproblems.com/756.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/756.lean).
 A Lean formalization of Bhowmick's proof by Aristotle (Harmonic), announced on
-the site's discussion thread in March 2026 and held in Wouter van Doorn's and
-Boris Alexeev's repositories, is a formalization link on
+the erdosproblems.com discussion thread in March 2026 and held in Wouter van
+Doorn's and Boris Alexeev's repositories, is a formalization link on
 [[problems/distance_problems/E0756/claims/2024_07_01_bhowmick|Bhowmick's claim page]];
 this corpus has not built it, and it is not native Lean coverage.
 
 ## Current assessment
 
-**Proved.** The site formulation above asks whether $n$ points in the plane can
-determine $\gg n$ distinct distances each occurring for more than $n$ pairs. The
-answer is yes, by the construction on the accepted
+**Proved.** The erdosproblems.com formulation above asks whether $n$ points in
+the plane can determine $\gg n$ distinct distances each occurring for more than
+$n$ pairs. The answer is yes, by the construction on the accepted
 [[problems/distance_problems/E0756/claims/2024_07_01_bhowmick|claim page]]: for
 every $n$, a set of $n$ points with $\lfloor n/4\rfloor$ distances each
 occurring at least $n+1$ times, and for every $m\geq1$ and every $n$, $n$ points
 with $\lfloor n/(2(m+1))\rfloor$ distances each occurring at least $n+m$ times.
-The result is refereed (Studia Sci. Math. Hungar. 62 (2025)) and the site's
-curator credits it; a Lean formalization of the proof by Aristotle exists and is
-linked from the claim page, but has not been built here. The standing derives
-from that claim page.
+The result is refereed (Studia Sci. Math. Hungar. 62 (2025)) and the
+erdosproblems.com curator credits it; a Lean formalization of the proof by
+Aristotle exists and is linked from the claim page, but has not been built here.
+The standing derives from that claim page.
 
 The question is the weaker of two asked by Erdős and Pach [ErPa90] and restated
 in [Er97b]: the stronger one, whether every distance other than the largest can
@@ -80,10 +80,10 @@ multiplicity at least $n^{1+c/\log\log n}$ for some $c>0$. This is a result in a
 different regime, superlinear multiplicity for only $n^{o(1)}$ distances, which
 [CDL25] present as an improvement on Bhowmick's bound for multiplicity $n+m$
 with $m$ large; it is not part of the question, which asks for $\gg n$ such
-distances. Search scope: the site's problem page and discussion thread, the
-arXiv and publisher records of [Bh24] and [CDL25], and the Lean repositories
-named above; no forum proof claim named the problem, and on 2026-10-07 no
-release item or lead did.
+distances. Search scope: the erdosproblems.com problem page and discussion
+thread, the arXiv and publisher records of [Bh24] and [CDL25], and the Lean
+repositories named above; no forum proof claim named the problem, and on
+2026-10-07 no release item or lead did.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

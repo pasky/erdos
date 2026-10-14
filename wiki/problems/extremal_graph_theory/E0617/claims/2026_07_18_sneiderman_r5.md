@@ -41,7 +41,7 @@ has six vertices missing a color, which the preprint states as $R(6;5,4)=26$.
 This is Theorem 1.1 of Robert Sneiderman, *The five-color case of an
 Erdős–Gyárfás balanced-coloring problem*, a 15-page preprint published in the
 author's repository on 2026-07-18 (the repository's first commit) and posted
-to the site's proof-claim tab the same day; its digest is on
+to the erdosproblems.com proof-claim tab the same day; its digest is on
 [[../library/extremal_graph_theory/sneiderman_2026_five_color_case_balanced_coloring/_index|its card]].
 The argument supposes a counterexample and looks at each color as a graph:
 every six vertices span between one and eleven edges of it (the other four
@@ -100,9 +100,9 @@ July 2026. The corpus has not built this Lean development, so it gives no
 `formalized` evidence.
 
 **Standing.** Claimed. The preprint is unrefereed, and the proof-claim entry
-names GPT 5.6 Sol as the system used; the site's label was FALSIFIABLE. The
-claim carries three comments (23 to 25 July 2026): Johan Land reports an
-independent, AI-assisted proof of the same case by a different route
+names GPT 5.6 Sol as the system used; the erdosproblems.com label was
+FALSIFIABLE. The claim carries three comments (23 to 25 July 2026): Johan Land
+reports an independent, AI-assisted proof of the same case by a different route
 (edge-floor chains with a $K_{21}$ obstruction and a degree-amplified
 endgame), without a posted argument; Kara announces the formalization above,
 which Kara calls an independent machine verification of the $r=5$ case only,

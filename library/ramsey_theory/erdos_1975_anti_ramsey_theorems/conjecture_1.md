@@ -19,7 +19,8 @@ $f(n,H)$ is the largest $m$ for which the edges of $K^n$ can be colored with
 $m$ colors without a copy of $H$ in $K^n$ whose edges all have different
 colors; $P^k$ and $C^k$ are the path and the cycle on $k$ vertices. A
 subgraph with no two edges of the same color is "totally
-multicoloured" (TMC, p. 634). The site's $\mathrm{AR}(n,G)$ is this $f(n,G)$.
+multicoloured" (TMC, p. 634). erdosproblems.com's $\mathrm{AR}(n,G)$ is this
+$f(n,G)$.
 
 **Conjecture 1** (printed p. 636).
 
@@ -39,7 +40,7 @@ Theorem 5." (pp. 636–637, as printed; Theorem 5 on p. 637 is stated for
 Conjecture 2, the path conjecture, so the cross-reference does not match
 the theorem it names. The case $k=3$ is proved in part A of the Appendix
 (p. 642), which opens "Here we prove Conjecture 2 for $k=3$" but proves
-$f(n,C^3)=n-1$, the triangle case of Conjecture 1. The site records
+$f(n,C^3)=n-1$, the triangle case of Conjecture 1. erdosproblems.com records
 $\mathrm{AR}(n,C_3)=n-1$ with "a simple proof" from this paper.)
 
 Remark 2 (p. 636) places the cycle and path problems: when $d=1$ in Theorem
@@ -93,4 +94,4 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1105/_index|Problem 1105]]: the first question of the
-  problem, verbatim (the site's $C_k$ is the paper's $C^k$).
+  problem, verbatim (erdosproblems.com's $C_k$ is the paper's $C^k$).

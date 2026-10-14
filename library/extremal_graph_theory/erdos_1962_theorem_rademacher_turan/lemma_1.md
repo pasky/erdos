@@ -81,7 +81,7 @@ Turán's theorem.
 
 - [[../wiki/problems/extremal_graph_theory/E1011/_index|Problem 1011]]: for triangle-free
   graphs "not even" is chromatic number at least $3$, so the lemma and the
-  example give $f_3(n)=\lfloor(n-1)^2/4\rfloor+2$ for $n\ge5$, the value the
-  site attributes to Erdős and Gallai.
+  example give $f_3(n)=\lfloor(n-1)^2/4\rfloor+2$ for $n\ge5$, the value
+  erdosproblems.com attributes to Erdős and Gallai.
 - [[../wiki/problems/extremal_graph_theory/E1010/_index|Problem 1010]]: the first of the
   three lemmas behind the Theorem.

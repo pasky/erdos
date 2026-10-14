@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 856, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0856/claims
@@ -20,14 +20,15 @@ with exponents given by an explicit constant and by the sunflower-free
 capacity. It also proves that $f_k(N)=(\log N)^{1-o(1)}$ exactly when that
 capacity is $2$.
 
-[[problems/integer_sequences/E0856/claims/2026_04_15_chojecki|2026_04_15_chojecki]]: Chojecki's 2026 note in the site's discussion thread, written with GPT-5.4
-Pro, claims $f_k(N)=(\log N)^{\gamma_k+o(1)}$, with $\gamma_k$ given by a
-weighted sunflower partition function. The note leaves the value of the
+[[problems/integer_sequences/E0856/claims/2026_04_15_chojecki|2026_04_15_chojecki]]: Chojecki's 2026 note in the erdosproblems.com discussion thread, written with
+GPT-5.4 Pro, claims $f_k(N)=(\log N)^{\gamma_k+o(1)}$, with $\gamma_k$ given
+by a weighted sunflower partition function. The note leaves the value of the
 exponent open, so the claim is partial.
 
-[[problems/integer_sequences/E0856/claims/2026_07_18_rayyoung_zhu_luo|2026_07_18_rayyoung_zhu_luo]]: A 2026 manuscript by RayYoung, Zhu and Luo on the site's proof-claim tab,
-written with GPT 5.6 Sol Pro, claims $f_k(N)=(\log N)^{\gamma_k+o(1)}$, with
-$\gamma_k$ a supremum over uniform families with no $k$ sets of equal pairwise
-union. The exponent's value is open.
+[[problems/integer_sequences/E0856/claims/2026_07_18_rayyoung_zhu_luo|2026_07_18_rayyoung_zhu_luo]]: A 2026 manuscript by RayYoung, Zhu and Luo on the erdosproblems.com
+proof-claim tab, written with GPT 5.6 Sol Pro, claims
+$f_k(N)=(\log N)^{\gamma_k+o(1)}$, with $\gamma_k$ a supremum over uniform
+families with no $k$ sets of equal pairwise union. The exponent's value is
+open.
 
 ***

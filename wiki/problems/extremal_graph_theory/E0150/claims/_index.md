@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 150, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0150/claims
@@ -27,6 +27,6 @@ golden ratio. The claim is accepted on the refereed paper in J. Graph Theory
 [[problems/extremal_graph_theory/E0150/claims/2024_09_04_bradac|2024_09_04_bradac]]: Bradač's note proves that the $n$-th root of the maximum number of minimal
 cuts converges to a limit at most $2^{H(1/3)}<1.8899$, where $H$ is the binary
 entropy function. The refereed version is in J. Graph Theory 108 (2025), and
-the site credits it.
+erdosproblems.com credits it.
 
 ***

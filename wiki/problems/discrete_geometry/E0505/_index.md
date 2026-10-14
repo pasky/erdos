@@ -23,8 +23,8 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Is every set of diameter $1$ in $\mathbb{R}^n$ the union of at
 most $n+1$ sets of diameter $<1$?
 
-**Status.** Disproved. The site marked the problem disproved, crediting Kahn
-and Kalai, with Brouwer and Jenrich for the smallest dimension it records,
+**Status.** Disproved. Bloom's catalog marked the problem disproved, crediting
+Kahn and Kalai, with Brouwer and Jenrich for the smallest dimension it records,
 and flagged a Lean formalization.
 
 **Source.** [erdosproblems.com/505](https://www.erdosproblems.com/505), accessed
@@ -57,17 +57,17 @@ The proofs are recorded on the claim pages. The release's Lean development,
 built here with its axioms checked, is the acceptance evidence on
 [[problems/discrete_geometry/E0505/claims/2026_09_23_openai|OpenAI's claim page]].
 Boris Alexeev's repository holds a Lean 4 file, auto-formalized by Aristotle
-(Harmonic) and announced on the site's discussion thread on 3 February 2026,
-whose header declares it a formalization of Kahn and Kalai's solution along
-a Kahn--Kalai type construction in dimension 946; it is a formalization link
-on
+(Harmonic) and announced on the erdosproblems.com discussion thread on 3
+February 2026, whose header declares it a formalization of Kahn and Kalai's
+solution along a Kahn--Kalai type construction in dimension 946; it is a
+formalization link on
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai's claim page]],
 not a claim of its own, and this corpus has not built it. Neither is native
 Lean coverage.
 
 ## Current assessment
 
-**Disproved; the smallest known failing dimension is 9.** The site
+**Disproved; the smallest known failing dimension is 9.** The erdosproblems.com
 formulation above (page last edited 30 December 2025) asks whether, for
 every $n$, every set of diameter $1$ in $\mathbb R^n$ is the union of at
 most $n+1$ sets of diameter $<1$. The answer is no, and the release's
@@ -76,18 +76,18 @@ Four results settle it, each with an accepted
 [[problems/discrete_geometry/E0505/claims/_index|claim page]]:
 
 - [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
-  (Bull. Amer. Math. Soc. 1993, refereed; credited by the site's curator)
-  build finite sets from equal cuts of a complete graph that need at least
-  $(1.2)^{\sqrt n}$ parts for every sufficiently large $n$, and state that
+  (Bull. Amer. Math. Soc. 1993, refereed; credited by the erdosproblems.com
+  curator) build finite sets from equal cuts of a complete graph that need at
+  least $(1.2)^{\sqrt n}$ parts for every sufficiently large $n$, and state that
   the assertion fails for $n=1325$ and for every $n>2014$.
 - [[problems/discrete_geometry/E0505/claims/2013_05_12_bondarenko|Bondarenko]]
   (Discrete Comput. Geom. 2014, refereed; arXiv May 2013) gives a
   two-distance set of 416 points on the unit sphere of $\mathbb R^{65}$,
   from the $G_2(4)$ graph, that needs at least 84 parts where 66 are allowed.
 - [[problems/discrete_geometry/E0505/claims/2014_11_06_jenrich_brouwer|Jenrich and Brouwer]]
-  (Electron. J. Combin. 2014, refereed; credited by the site's curator for
-  the smallest dimension it records) give 352 points in $\mathbb R^{64}$
-  that need at least 71 parts where 65 are allowed.
+  (Electron. J. Combin. 2014, refereed; credited by the erdosproblems.com
+  curator for the smallest dimension it records) give 352 points in
+  $\mathbb R^{64}$ that need at least 71 parts where 65 are allowed.
 - [[problems/discrete_geometry/E0505/claims/2026_09_23_openai|OpenAI's release]]
   (preprint of 23 September 2026) proves that the compact set of rank-one
   projectors of $\mathbb R^4$, of diameter $\sqrt2$ in the nine-dimensional
@@ -111,7 +111,7 @@ accepted claim); it fails for $n=9$ by the release's theorem, and the
 release's corollary, a paper-level argument with no Lean counterpart,
 extends the failure to every $n\ge9$ by adjoining points at diameter
 distance. Dimensions $4$ to $8$ are settled by no source recorded here. The
-least failing dimension is not part of the site's question.
+least failing dimension is not part of the erdosproblems.com question.
 
 **Pending and withdrawn claims.** Two public 2026 claims of a 321-point
 counterexample in dimension 63, each extending Jenrich's 320-point core by

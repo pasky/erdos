@@ -54,8 +54,8 @@ $1\le\ell\le\lfloor n/6\rfloor$, that is, every odd cycle of length at most
 $n/3+1$; and the constant $1/6$ is sharp (Theorem 1.1 of D. Della Pietra, *Odd
 cycles at the sharp threshold in the coprime graph*, manuscript released with
 the repository `donalddellapietra/erdos-883-proof` at its tag `proof-claim-v2`,
-the linked commit, and submitted to the site's proof-claims tab on 27 July
-2026). The abstract and introduction (p. 1) describe the method: the proof
+the linked commit, and submitted to the erdosproblems.com proof-claims tab on 27
+July 2026). The abstract and introduction (p. 1) describe the method: the proof
 counts the even integers absent from $A$, each of which forces one more odd
 member; the odd members with the worst totient ratios $\varphi(v)/v$ are
 discarded, the rest are ordered, and Hall's theorem reduces the cycle
@@ -90,16 +90,17 @@ $n_0$ is not named), and the second question, on complete tripartite
 subgraphs, which the claim does not address and which
 [[problems/extremal_graph_theory/E0883/claims/1999_05_01_sarkozy|Sárközy's Theorem 1]]
 settles. The page settles the part `odd_cycles` of the modified Statement;
-the all-$n$ form of the site's wording is the subject of
+the all-$n$ form of the erdosproblems.com wording is the subject of
 [[problems/extremal_graph_theory/E0883/claims/2026_10_05_pan|Pan's later claim]],
 which names the part.
 
 **Depends on.** Nothing in this wiki: the argument is the manuscript's own.
 
 **Standing.** Claimed. The thread holds no review of the proof: a commenter
-objected that the site's first question carries no largeness quantifier, the
-author answered that the question of Erdős and Sárközy attaches to their
-asymptotic Theorem 1, and the site's curator wrote on 29 July 2026 that the
-problem was meant for sufficiently large $n$, with the small cases a subsidiary
-question; the site labeled the problem OPEN. No referee, named reviewer or
-independent build is recorded, so the page lists no evidence.
+objected that erdosproblems.com's first question carries no largeness
+quantifier, the author answered that the question of Erdős and Sárközy attaches
+to their asymptotic Theorem 1, and the erdosproblems.com curator wrote on 29
+July 2026 that the problem was meant for sufficiently large $n$, with the small
+cases a subsidiary question; Bloom's catalog labeled the problem OPEN. No
+referee, named reviewer or independent build is recorded, so the page lists no
+evidence.

@@ -38,7 +38,7 @@ Thomassé on antidirected trees in digraphs, again with its extremal graphs.
 **Claimant and postings.** Oliver Riordan and Alex Scott, *A short proof of
 the Erdős--Sós Conjecture*, arXiv:2609.15893, v1 14 September 2026 (the date
 this page is named by) and v2 16 September 2026. A comment of 19 September
-2026 in the site's discussion lists it. The argument is the authors'
+2026 in the erdosproblems.com discussion lists it. The argument is the authors'
 simplification of the proof recorded on
 [[problems/extremal_graph_theory/E0548/claims/2026_09_03_adamczewski|Adamczewski 2026]],
 whose Reviewed account cites this note.

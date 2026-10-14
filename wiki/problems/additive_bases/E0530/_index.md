@@ -29,12 +29,12 @@ order of $\ell(N)$.
 
 In particular, is it true that $\ell(N)\sim N^{1/2}$?
 
-**Formulation.** The site's wording (page last edited 8 April 2026). The
-first sentence asks for the order of $\ell(N)$ and the second for its
-asymptotic. The site's commentary records
+**Formulation.** The erdosproblems.com wording (page last edited 8 April 2026).
+The first sentence asks for the order of $\ell(N)$ and the second for its
+asymptotic. The erdosproblems.com commentary records
 $N^{1/2}\ll\ell(N)\le(1+o(1))N^{1/2}$, so the order of magnitude is
-$N^{1/2}$ and the OPEN label attaches to the constant: the site writes that
-the correct constant is unknown and that $\ell(N)\sim N^{1/2}$ is likely,
+$N^{1/2}$ and the OPEN label attaches to the constant: erdosproblems.com writes
+that the correct constant is unknown and that $\ell(N)\sim N^{1/2}$ is likely,
 and its remark on Problem 1088 treats the order in the one-dimensional case
 as known. This page reads the problem the same way: the order is
 determined, the asymptotic is open. The sources state the lower bound for
@@ -43,8 +43,8 @@ to a set of integers, and such an isomorphism carries Sidon subsets to
 Sidon subsets, so the integer bounds apply to the real sets of the
 statement with the same constants.
 
-**Status.** Open, the site's label (OPEN). The order of $\ell(N)$ is $N^{1/2}$.
-The lower bound $\ell(N)\gg N^{1/2}$ is the accepted partial claim
+**Status.** Open, the erdosproblems.com label (OPEN). The order of $\ell(N)$ is
+$N^{1/2}$. The lower bound $\ell(N)\gg N^{1/2}$ is the accepted partial claim
 [[problems/additive_bases/E0530/claims/1975_01_01_komlos_sulyok_szemeredi|Komlós, Sulyok and Szemerédi 1975]],
 which is refereed. The upper bound $\ell(N)\le(1+o(1))N^{1/2}$ comes from the
 case $A=\{1,\ldots,N\}$ with the Erdős--Turán bound for Sidon sets in an
@@ -96,30 +96,29 @@ The order of $\ell(N)$ is $N^{1/2}$ and the asymptotic is open. The lower
 bound $\ell(N)\gg N^{1/2}$ is the theorem of Komlós, Sulyok and Szemerédi
 [KSS75], the accepted partial claim
 [[problems/additive_bases/E0530/claims/1975_01_01_komlos_sulyok_szemeredi|Komlós, Sulyok and Szemerédi 1975]],
-accepted on its refereed publication alone, since the site's credit on a
-problem it labeled OPEN is not acceptance; it supersedes Erdős's
-$\ell(N)\gg N^{1/3}$, which the site's commentary records without a proof
-reference. The upper bound $\ell(N)\le(1+o(1))N^{1/2}$ is the interval
-$\{1,\ldots,N\}$ with the Erdős--Turán bound, as the site's commentary
-notes. The constant in the lower bound has been improved twice: Abbott
-[Ab90] to any $c<2/25$, and Bailleul and Riblet [BaRi26] to
+accepted on its refereed publication alone, since the erdosproblems.com credit
+on a problem it labeled OPEN is not acceptance; it supersedes Erdős's
+$\ell(N)\gg N^{1/3}$, which the erdosproblems.com commentary records without a
+proof reference. The upper bound $\ell(N)\le(1+o(1))N^{1/2}$ is the interval
+$\{1,\ldots,N\}$ with the Erdős--Turán bound, as the erdosproblems.com
+commentary notes. The constant in the lower bound has been improved twice:
+Abbott [Ab90] to any $c<2/25$, and Bailleul and Riblet [BaRi26] to
 $1/(3\sqrt3)+o(1)$, with the same bound for finite subsets of
 $\mathbb{R}^N$ uniformly in the dimension. These results improve the
 constant only: they settle no instance of the open question
 $\ell(N)\sim N^{1/2}$ and have no claim pages. The forum comment of 28
 May 2026 that reports [BaRi26], written after a discussion with the AI
 system Gemini Pro as its author says, is not a manuscript and has no page.
-The standing rests on the site page and its discussion thread, on [KSS75]
-and on the arXiv record and introduction of [BaRi26]; no wider literature
-search is recorded, and no proof has been independently reviewed by this
-corpus.
-The library's reconstruction of the [KSS75] proof chain awaits review and
-awards nothing.
+The standing rests on the erdosproblems.com page and its discussion thread, on
+[KSS75] and on the arXiv record and introduction of [BaRi26]; no wider
+literature search is recorded, and no proof has been independently reviewed by
+this corpus. The library's reconstruction of the [KSS75] proof chain awaits
+review and awards nothing.
 
 ## Known Results
 
 - Erdős: $N^{1/3}\ll\ell(N)\le(1+o(1))N^{1/2}$, the upper bound from
-  $A=\{1,\ldots,N\}$, as the site's commentary records.
+  $A=\{1,\ldots,N\}$, as the erdosproblems.com commentary records.
 - Komlós, Sulyok and Szemerédi [KSS75]: $\ell(N)\gg N^{1/2}$, with the
   constant $2^{-15}+o(1)$ that their general comparison theorem gives for
   the Sidon relation; the accepted partial claim
@@ -132,7 +131,7 @@ awards nothing.
   group and Singer's Sidon sets.
 - Alon and Erdős [AlEr85] conjecture more: every $N$-element set is the
   union of at most $(1+o(1))N^{1/2}$ Sidon sets, which holds for
-  $\{1,\ldots,N\}$ by the standard constructions, as the site notes.
+  $\{1,\ldots,N\}$ by the standard constructions, as erdosproblems.com notes.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

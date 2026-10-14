@@ -93,5 +93,5 @@ vertex-isoperimetric inequality, quoted on p. 2 and attributed to [9], with
 - [[../wiki/problems/additive_combinatorics/E0001/_index|Problem 1]]: with
   $A\subseteq\{1,\ldots,N\}$ and $a_n\le N$, this is the strongest lower bound
   on $N$ in terms of $n=|A|$ recorded before the 2026 disproof of $N\gg2^n$,
-  a factor $\sqrt n$ below the conjectured order; the site cites the paper as
-  [DFX21]. Claims checked only; the proofs are not verified here.
+  a factor $\sqrt n$ below the conjectured order; erdosproblems.com cites the
+  paper as [DFX21]. Claims checked only; the proofs are not verified here.

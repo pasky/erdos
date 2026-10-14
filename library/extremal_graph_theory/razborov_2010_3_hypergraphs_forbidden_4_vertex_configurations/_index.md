@@ -22,12 +22,12 @@ the paper's unrigorous numerical remark on the unrestricted problem.
 
 A. A. Razborov, *On 3-hypergraphs with forbidden 4-vertex configurations*,
 SIAM J. Discrete Math. **24** (2010), no. 3, 946--963,
-doi:10.1137/090747476. The year and pages are the site's entry as carried by
-[[../wiki/problems/extremal_graph_theory/E0500/_index|#500]]; the volume, issue and DOI are
-the Crossref record's, read on 2026-09-18 (its abstract adds that the
-journal version includes "significantly improving numerical bounds for
-several problems for which the exact value is not known yet"); the preprint
-carries no journal data.
+doi:10.1137/090747476. The year and pages are the erdosproblems.com entry as
+carried by [[../wiki/problems/extremal_graph_theory/E0500/_index|#500]]; the
+volume, issue and DOI are the Crossref record's, read on 2026-09-18 (its
+abstract adds that the journal version includes "significantly improving
+numerical bounds for several problems for which the exact value is not known
+yet"); the preprint carries no journal data.
 
 The copy read for this card
 is the author's preprint dated 15 December 2008 on its title page (the PDF
@@ -94,7 +94,7 @@ $\operatorname{ex}_3(n,K_4^3)$: Theorem 1 (p. 3, page image;
 settles the density problem only under the additional exclusion of four
 vertices spanning exactly one edge, and this version records the
 unrestricted bound $\pi(K_4^3)\le0.561666$ as a numerical computation, not a
-theorem; the site's commentary attributes to this paper the figure
+theorem; the erdosproblems.com commentary attributes to this paper the figure
 $0.5611666$, which does not appear in the preprint read for this card.
 
 No file of this source is held: no license on record permits its redistribution,

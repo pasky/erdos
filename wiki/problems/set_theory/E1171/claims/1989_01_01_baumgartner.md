@@ -46,7 +46,7 @@ $\mathrm{MA}_{\aleph_1}$ implies the relation for every finite $k$ (the case
 $k=0$ has one color and is trivial). Since $\mathrm{MA}_{\aleph_1}$ is
 consistent relative to ZFC (Solovay and Tennenbaum, Ann. of Math. 94, 1971),
 the relation holds in a model of ZFC and ZFC does not refute it: the relation
-is not disprovable in the site's sense.
+is not disprovable in erdosproblems.com's sense.
 
 **Covers.** One side of an independence result: the relation holds in a model
 of ZFC for every finite $k$, so ZFC does not refute it. The other side, that
@@ -93,13 +93,13 @@ with $\omega_1\omega\to(\omega_1\omega,3)^2$ under a form of Martin's axiom
 changed to not disprovable on 5 September 2026. The change followed a comment in
 the discussion thread that asked for it on the strength of the deposit, which
 has since been removed. The curator's credit to Baumgartner covers only the
-two-color relation. The site writes no step from it to the erdosproblems.com
-relation, and that step is author-recorded here. So `reviewed` rests on the
-label and credit alone, and it carries the acceptance by itself. The chapter
-appeared in a Springer Lecture Notes in Mathematics proceedings volume, reviewed
-in zbMATH and Mathematical Reviews. No evidence that the volume's chapters were
-refereed was found, so `refereed` is not listed. Nothing on this page is
-independently reviewed by this project.
+two-color relation. erdosproblems.com writes no step from it to the
+erdosproblems.com relation, and that step is author-recorded here. So `reviewed`
+rests on the label and credit alone, and it carries the acceptance by itself.
+The chapter appeared in a Springer Lecture Notes in Mathematics proceedings
+volume, reviewed in zbMATH and Mathematical Reviews. No evidence that the
+volume's chapters were refereed was found, so `refereed` is not listed. Nothing
+on this page is independently reviewed by this project.
 
 **Depends on.**
 [[../library/set_theory/baumgartner_1989_remarks_partition_ordinals/main_theorem|Baumgartner 1989, main theorem]],

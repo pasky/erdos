@@ -23,16 +23,17 @@ updated: 2026-10-08T00:44:24Z
 $\{1,\ldots,N\}$ that does not contain any non-trivial $k$-term arithmetic
 progression. Prove an asymptotic formula for $r_k(N)$.
 
-**Status.** Open. The site's label was OPEN (page last edited 4 April 2026). The
-OpenAI mathematics release of 23 September 2026 claims
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 4 April
+2026). The OpenAI mathematics release of 23 September 2026 claims
 $r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$. For
 $k\ge4$ this upper bound goes beyond those recorded below. It gives no
 asymptotic formula and no order of magnitude, and it does not answer whether
 $r_k(N)/r_{k+1}(N)\to0$ for any $k$. So it settles no instance of the problem
 and has no claim page. The bound would also give $r_k(N)=o(N/\log N)$. The
 formal-conjectures file linked under Formalization states this as the open
-variant `erdos_142.variants.lower`, but the site's commentary attaches that
-statement to Problem 3, not to this problem. The theorem is recorded on
+variant `erdos_142.variants.lower`, but the erdosproblems.com commentary
+attaches that statement to Problem 3, not to this problem. The theorem is
+recorded on
 [[problems/additive_combinatorics/E0139/claims/2026_09_23_openai|the claim page of Problem 139]],
 and its reciprocal-sum corollary is accepted on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|the claim page of Problem 3]].

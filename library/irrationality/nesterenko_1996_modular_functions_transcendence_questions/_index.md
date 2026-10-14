@@ -65,8 +65,8 @@ Math-Net.Ru in any form requires written permission of the copyright holder",
 allowing printing for noncommercial teaching or research only and naming no open
 license, every other right reserved.
 
-**Announcement version.** The site's reference [Ne96] for Problem 250 is
-the C. R. note: Yu. V. Nesterenko, Modular functions and transcendence
+**Announcement version.** The erdosproblems.com reference [Ne96] for Problem 250
+is the C. R. note: Yu. V. Nesterenko, Modular functions and transcendence
 problems, C. R. Acad. Sci. Paris Sér. I Math. **322** (1996), no. 10,
 909--914, Zbl 0859.11047 (reviewer F. Gramain). It was not read here (no
 free copy; only its zbMATH record was read), its own labels are unknown, and
@@ -162,8 +162,8 @@ to Nesterenko). No reconstruction is planned here.
 
 **Bears on.** [[../wiki/problems/irrationality/E0250/_index|#250]]: Corollary 2 at
 $q=1/2$ gives the transcendence, hence the irrationality, of
-$\sum_{n\ge1}\sigma(n)/2^n=(1-P(1/2))/24$; the site's [Ne96] is the C. R.
-announcement of this result. Theorem 1 is the general statement Corollary 2
+$\sum_{n\ge1}\sigma(n)/2^n=(1-P(1/2))/24$; erdosproblems.com's [Ne96] is the C.
+R. announcement of this result. Theorem 1 is the general statement Corollary 2
 specializes, and Theorem 3 is the zero estimate the proof of Theorem 1 rests
 on; Theorem 2 and Corollary 5 bear on no problem in the corpus.
 

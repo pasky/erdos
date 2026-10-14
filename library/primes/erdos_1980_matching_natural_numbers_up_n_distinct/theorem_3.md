@@ -56,8 +56,8 @@ number theorem for the valence counts.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]: the upper bound as the
-  theorem prints it, $(2+o(1))n\sqrt{\log n}$; the site's constant
+  theorem prints it, $(2+o(1))n\sqrt{\log n}$; erdosproblems.com's constant
   $1.7398\cdots$ is the sketched display (11), not this theorem.
-- [[../wiki/problems/integer_sequences/E0711/_index|Problem 711]]: the site's
-  $f(n,n)\ll n(\log n)^{1/2}$, in the paper's normalization $f(n)=n+f(n,n)$;
-  Lemma 3 of van Doorn's 2026 paper quotes this bound.
+- [[../wiki/problems/integer_sequences/E0711/_index|Problem 711]]:
+  erdosproblems.com's $f(n,n)\ll n(\log n)^{1/2}$, in the paper's normalization
+  $f(n)=n+f(n,n)$; Lemma 3 of van Doorn's 2026 paper quotes this bound.

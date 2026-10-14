@@ -41,8 +41,8 @@ page (printed p. 47); IMPAN's record for the article offers the PDF "Free
 download under CC-BY license", no version named
 (https://www.impan.pl/get/doi/10.4064/aa169-1-3, read 2026-10-02), and that
 named license on the publisher's page decides over the printed line; the site
-footer "Copyright © 2026 by IMPAN. All rights reserved." speaks for the site,
-not the article.
+footer "Copyright © 2026 by IMPAN. All rights reserved." speaks for
+erdosproblems.com, not the article.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0785/_index|#785]]:
 Theorem 0.2 (p. 48) applies under that problem's hypothesis A(x)B(x) ~ x,

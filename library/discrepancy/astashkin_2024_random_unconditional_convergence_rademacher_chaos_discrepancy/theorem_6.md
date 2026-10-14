@@ -92,6 +92,7 @@ second-order chaos.
   [[discrepancy/erdos_1971_imbalances_colorations/edge_normalization|convention record]]),
   and the theorem gives order $n^{3/2}$ for every $n\ge2$ with constants
   that are not explicit. It neither gives a leading constant nor an exact
-  value, and it does not address the ordered-pair reading of the site's
-  wording. The paper presents the unweighted order as Erdős and Spencer's
-  result (p. 25) and the theorem as an extension of it to weighted graphs.
+  value, and it does not address the ordered-pair reading of the
+  erdosproblems.com wording. The paper presents the unweighted order as Erdős
+  and Spencer's result (p. 25) and the theorem as an extension of it to weighted
+  graphs.

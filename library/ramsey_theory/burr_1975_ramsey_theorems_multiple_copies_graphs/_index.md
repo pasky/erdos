@@ -112,9 +112,9 @@ Ramsey numbers do not.
 **Bears on.** [[../wiki/problems/ramsey_theory/E1015/_index|#1015]]: Section 5, printed
 p. 94 = PDF p. 8 (page image), defines the problem's quantity as $f(n,k)$,
 attributing the case $k=3$ to Moon, and Theorem 6 gives its exact value
-for fixed $k$ and all sufficiently large $n$; the site's formula differs
-from the paper's by the term $-1$. The paper does not state the problem's
-two closing questions. Its other results bear on no problem in the
+for fixed $k$ and all sufficiently large $n$; the erdosproblems.com formula
+differs from the paper's by the term $-1$. The paper does not state the
+problem's two closing questions. Its other results bear on no problem in the
 corpus.
 
 **Results paged.**

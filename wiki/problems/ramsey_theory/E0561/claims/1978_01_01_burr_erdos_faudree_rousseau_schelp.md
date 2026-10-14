@@ -65,9 +65,9 @@ alone.
 and R. H. Schelp, Ramsey-minimal graphs for multiple copies, Nederl. Akad.
 Wetensch. Proc. Ser. A 81 = Indag. Math. 40 (1978), 187--195 (communicated 17
 December 1977). The Crossref record dates the paper by the year only, so the
-month and day in the page name are placeholders. The site's commentary credits
-the uniform case to this paper. But the site labeled the problem OPEN, so its
-pages are not acceptance.
+month and day in the page name are placeholders. The erdosproblems.com
+commentary credits the uniform case to this paper. But Bloom's catalog labeled
+the problem OPEN, so its pages are not acceptance.
 
 **Read depth.** The statement and the upper-bound constructions on p. 188
 and the conjecture on p. 194 were read; the proof (pp. 188--192) was not

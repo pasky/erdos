@@ -85,8 +85,8 @@ proves them by its own route, described below, and gives no error term. So
 Théorèmes 1 and 3 and the error term of Théorème 2 rest on the refereed paper
 alone.
 
-Not reviewed: the site's page does not cite the paper, so no curator review is
-listed.
+Not reviewed: the erdosproblems.com page does not cite the paper, so no curator
+review is listed.
 
 Tenenbaum's 2013 survey
 ([[../library/divisors/tenenbaum_2013_erdos_unconventional_problems_number_theory/_index|source card]])

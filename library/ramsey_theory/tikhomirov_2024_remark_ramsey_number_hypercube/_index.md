@@ -115,15 +115,14 @@ Source: <https://arxiv.org/abs/2208.14568>.
 the Remark's $c=0.03656$ is an upper bound on $r(Q_n)$ of order
 $2^{(2-c)n}$ for all large $n$, short of the linear bound $r(Q_n)\le C\,2^n$
 the problem asks for; the paper presents it as improving the previous best
-bound $O(2^{2n})$ (abstract, p. 1), and the site's commentary cites it as
-"$R(Q_n)\ll2^{(2-c)n}$ ... $c\approx0.03656$ is permissible"; the introduction's
-quotation of [4, Theorem 4.1] is the page's second-hand record of that
-prior bound, and its [4] is Conlon, Fox and Sudakov's *Short proofs of
-some extremal results II* (J. Combin. Theory Ser. B 121 (2016), 173--196),
-not their 2012 *On two problems in graph Ramsey theory*: the reference
-list (p. 22, page image) names the 2016 paper, and Theorem 4.1 with
-Corollary 4.2, $r(Q_d)\le2^{2d+6}$, stands on p. 7 of the arXiv
-preprint filed as
+bound $O(2^{2n})$ (abstract, p. 1), and the erdosproblems.com commentary cites
+it as "$R(Q_n)\ll2^{(2-c)n}$ ... $c\approx0.03656$ is permissible"; the
+introduction's quotation of [4, Theorem 4.1] is the page's second-hand record of
+that prior bound, and its [4] is Conlon, Fox and Sudakov's *Short proofs of some
+extremal results II* (J. Combin. Theory Ser. B 121 (2016), 173--196), not their
+2012 *On two problems in graph Ramsey theory*: the reference list (p. 22, page
+image) names the 2016 paper, and Theorem 4.1 with Corollary 4.2,
+$r(Q_d)\le2^{2d+6}$, stands on p. 7 of the arXiv preprint filed as
 [[set_systems/conlon_2016_short_proofs_extremal_results_ii/_index|conlon_2016_short_proofs_extremal_results_ii]]
 (page image); that paper's journal text is not held.
 

@@ -30,8 +30,8 @@ thus solving, in a strong form, the above mentioned conjecture." Reference
 [15] is P. Erdős and V. T. Sós, Problems and results on Ramsey--Turán type
 theorems, Proc. West Coast Conference on Combinatorics, Graph Theory and
 Computing (Arcata, 1979), Congressus Numerantium XXVI (1980), 17--23, the
-site's source [ErSo80]; [23] is Simonovits and Sós, Ramsey--Turán theory
-(2001), and [10] Chung and Graham, Erdős on Graphs (1998).
+erdosproblems.com source [ErSo80]; [23] is Simonovits and Sós, Ramsey--Turán
+theory (2001), and [10] Chung and Graham, Erdős on Graphs (1998).
 
 **Source.** N. Alon and V. Rödl, Sharp bounds for some multicolor Ramsey
 numbers, authors' "Final Version" manuscript (15 pages), Conjecture 1.1 on
@@ -57,4 +57,4 @@ None; a conjecture restated from Erdős and Sós (1980).
 
 - [[../wiki/problems/ramsey_theory/E0553/_index|Problem 553]]: the problem's statement in
   the resolving paper's words, with its attribution to the 1979 Arcata
-  proceedings the site cites as [ErSo80].
+  proceedings erdosproblems.com cites as [ErSo80].

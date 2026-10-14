@@ -32,8 +32,8 @@ $$
 f(n) \ll n?
 $$
 
-**Status.** The site labeled the problem PROVED (LEAN), crediting Kahn [Ka94].
-The accepted claim is
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN), crediting Kahn
+[Ka94]. The accepted claim is
 [[problems/set_systems/E0021/claims/1994_01_01_kahn|Kahn's linear bound]]. The
 Lean behind the qualifier is described below.
 
@@ -45,8 +45,8 @@ https://www.erdosproblems.com/21.
 
 - [BaWa21] J. Barát and I. M. Wanless, Intersecting and 2-intersecting
   hypergraphs with maximal covering number: the Erdős-Lovász theme revisited. J.
-  Combin. Des. (2021), 260-286. This is the site's entry; the print names J.
-  Barát alone, J. Combin. Des. 29 (2021), no. 3, 193-209.
+  Combin. Des. (2021), 260-286. This is the erdosproblems.com entry; the print
+  names J. Barát alone, J. Combin. Des. 29 (2021), no. 3, 193-209.
 - [ErLo75] Erdős, P. and Lovász, L., Problems and results on $3$-chromatic
   hypergraphs and some related questions. (1975), 609-627.
 - [Ka92b] Kahn, Jeff, On a problem of Erdős and Lovász: random lines in a
@@ -68,35 +68,36 @@ claim page lists none.
 
 ## Current assessment
 
-The question, in the site's formulation, asks whether $f(n)\ll n$ for the least
-size $f(n)$ of an intersecting family of $n$-sets in which every set of at most
-$n-1$ elements misses a member. The answer is yes: the accepted claim is
-[[problems/set_systems/E0021/claims/1994_01_01_kahn|Kahn's linear bound]],
-refereed in J. Amer. Math. Soc. 7 (1994) and credited by the site's curator, and
-the standing is solved with claim proved. Erdős and Lovász [ErLo75] had proved
-$\frac83n-3\leq f(n)$ for all $n$ and, taking random lines of a projective plane
-of order $n-1$, $f(n)\ll n^{3/2}\log n$ whenever such a plane exists (as it does
-when $n-1$ is a prime power), and Kahn [Ka92b] lowered this to $f(n)\ll n\log n$
-under the same hypothesis; the exact values $f(1)=1$, $f(2)=3$, $f(3)=6$,
-$f(4)=9$ [Tr14] and $f(5)=13$ with $13\leq f(6)\leq18$ [BaWa21] are recorded on
-the claim page. Varun Sivashankar's preprint *An improved lower bound for the
-Erdős–Lovász cover number problem*
+The question, in the erdosproblems.com formulation, asks whether $f(n)\ll n$ for
+the least size $f(n)$ of an intersecting family of $n$-sets in which every set
+of at most $n-1$ elements misses a member. The answer is yes: the accepted claim
+is [[problems/set_systems/E0021/claims/1994_01_01_kahn|Kahn's linear bound]],
+refereed in J. Amer. Math. Soc. 7 (1994) and credited by the erdosproblems.com
+curator, and the standing is solved with claim proved. Erdős and Lovász [ErLo75]
+had proved $\frac83n-3\leq f(n)$ for all $n$ and, taking random lines of a
+projective plane of order $n-1$, $f(n)\ll n^{3/2}\log n$ whenever such a plane
+exists (as it does when $n-1$ is a prime power), and Kahn [Ka92b] lowered this
+to $f(n)\ll n\log n$ under the same hypothesis; the exact values $f(1)=1$,
+$f(2)=3$, $f(3)=6$, $f(4)=9$ [Tr14] and $f(5)=13$ with $13\leq f(6)\leq18$
+[BaWa21] are recorded on the claim page. Varun Sivashankar's preprint *An
+improved lower bound for the Erdős–Lovász cover number problem*
 ([arXiv:2606.24878](https://arxiv.org/abs/2606.24878), v1 of 2026-06-23, v2 of
 2026-07-29) claims $f(n)\geq3n-4$ by an elementary argument and, through Kahn's
 hypergraph edge-coloring theorem, $f(n)\geq(\frac{41-\sqrt{19}}{12}-o(1))n$,
 about $3.053n$ (v1 gave the coefficient $61/20$), so that $f(n)>3n$ for all
-large $n$; a post of 2026-06-24 on the site's discussion thread reported it. It
-is unrefereed and would refute the value $3n+O(1)$ that the site's commentary
-reports as speculated, but it does not bear on the question asked, whether
-$f(n)\ll n$, so it has no claim page and is recorded here.
+large $n$; a post of 2026-06-24 on the erdosproblems.com discussion thread
+reported it. It is unrefereed and would refute the value $3n+O(1)$ that the
+erdosproblems.com commentary reports as speculated, but it does not bear on the
+question asked, whether $f(n)\ll n$, so it has no claim page and is recorded
+here.
 
 Search scope, with the changing sources as they stood on 2026-10-07: the
-site's problem page (last edited 3 December 2025) and its discussion thread
-(last post 24 June 2026), the arXiv record of arXiv:2606.24878, the community
-database (listing the problem as proved (Lean) and formalized as of its last
-update) and the formal-conjectures statement file (added 2026-09-19, proof left
-as `sorry`, formal proof pointer to the Lean development linked on the claim
-page).
+erdosproblems.com problem page (last edited 3 December 2025) and its discussion
+thread (last post 24 June 2026), the arXiv record of arXiv:2606.24878, the
+community database (listing the problem as proved (Lean) and formalized as of
+its last update) and the formal-conjectures statement file (added 2026-09-19,
+proof left as `sorry`, formal proof pointer to the Lean development linked on
+the claim page).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

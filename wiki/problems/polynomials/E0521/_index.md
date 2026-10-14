@@ -31,34 +31,36 @@ $$
 \lim_{n\to \infty}\frac{R_n}{\log n}=\frac{2}{\pi}?
 $$
 
-**Formulation.** The site's Statement draws the coefficients from $\{-1,1\}$.
-Its commentary records that Erdős's source [Er61, p. 252] is ambiguous between
-$\{-1,1\}$ and $\{0,1\}$, the constant being $1/\pi$ in the second case. In the
-site's discussion on 7 September 2025 the curator wrote that Erdős "was most
-likely intending to ask whether, if $\epsilon_k\in\{-1,1\}$ is an infinite
-sequence chosen uniformly at random, and $R_n(f)$ counts the number of real
-roots of $\sum_{0\leq k\leq n}\epsilon_k z^k$, then
+**Formulation.** The erdosproblems.com Statement draws the coefficients from
+$\{-1,1\}$. Its commentary records that Erdős's source [Er61, p. 252] is
+ambiguous between $\{-1,1\}$ and $\{0,1\}$, the constant being $1/\pi$ in the
+second case. In the erdosproblems.com discussion on 7 September 2025 the curator
+wrote that Erdős "was most likely intending to ask whether, if
+$\epsilon_k\in\{-1,1\}$ is an infinite sequence chosen uniformly at random, and
+$R_n(f)$ counts the number of real roots of
+$\sum_{0\leq k\leq n}\epsilon_k z^k$, then
 $\lim_{n\to\infty} R_n(f)/((2/\pi)\log n)=1$", that the curator was "minded to
 keep the problem as it's written here" with the caveat that it is not strictly a
 problem of Erdős, and, after Tao read the source's binary-digit construction as
 $\{0,1\}$-valued, that the curator was "leaning towards Erdős intending
 $\{-1,1\}$ as the explanation that implies fewer mistakes on his part". The
-Statement is therefore the site's wording unchanged, the reading the curator
-adopted; no Statement (modified) is needed, since the wording already fixes
-$\{-1,1\}$. The $\{0,1\}$ version, where the constant would be $1/\pi$ and which
-has no claim, is a variant and does not enter the standing. Under the Statement
-the answer is no: almost surely $R_n/\log n$ has lower limit $1/\pi$ and upper
-limit at least $2/\pi$, so it does not converge to $2/\pi$
+Statement is therefore the erdosproblems.com wording unchanged, the reading the
+curator adopted; no Statement (modified) is needed, since the wording already
+fixes $\{-1,1\}$. The $\{0,1\}$ version, where the constant would be $1/\pi$ and
+which has no claim, is a variant and does not enter the standing. Under the
+Statement the answer is no: almost surely $R_n/\log n$ has lower limit $1/\pi$
+and upper limit at least $2/\pi$, so it does not converge to $2/\pi$
 ([[problems/polynomials/E0521/claims/2026_08_26_alexeev|Alexeev 2026]], accepted
-on the Lean build). The site's label OPEN (page last edited 19 October 2025)
-reflects that neither claim on its proof-claims tab has been reviewed, not a
-different reading of the question.
+on the Lean build). The erdosproblems.com label OPEN (page last edited 19
+October 2025) reflects that neither claim on its proof-claims tab has been
+reviewed, not a different reading of the question.
 
-**Status.** Disproved. The site labeled the problem OPEN on 2026-10-06 (page
-last edited 19 October 2025). The label reflects that neither of the two claims
-on its proof-claims tab has been reviewed, not a different reading of the
+**Status.** Disproved. Bloom's catalog labeled the problem OPEN on 2026-10-06
+(page last edited 19 October 2025). The label reflects that neither of the two
+claims on its proof-claims tab has been reviewed, not a different reading of the
 question. The tab carries two full proof claims, both disproofs, with no
-comments and no acceptance. The site's remarks cite [EO56], [Er61] and [Do24].
+comments and no acceptance. The erdosproblems.com remarks cite [EO56], [Er61]
+and [Do24].
 
 The derived standing is `solved`/`disproved` for the Statement. It rests on the
 Lean development with Codex as formal author on
@@ -111,22 +113,22 @@ records.
 
 ## Current assessment
 
-The question, as the site states it, asks whether $R_n/\log n\to2/\pi$ almost
-surely for one infinite sequence of independent uniform signs, where $R_n$
-counts the real roots of the degree-$n$ partial polynomial. The site records
-that the source [Er61, p. 252] is ambiguous between $\{-1,1\}$ and $\{0,1\}$
-coefficients, the constant being $1/\pi$ in the second case; the thread's
-discussion of September 2025 between the site's curator and Tao found the
-literal text to use binary digits while the section's other problems use
-signs. The site's Statement is the $\{-1,1\}$ version, its commentary notes
-the $\{0,1\}$ alternative, and the curator leans towards $\{-1,1\}$. Every
-claim recorded here addresses the $\{-1,1\}$ reading; the $\{0,1\}$ variant
-has no claim. What is known: Erdős and Offord [EO56] give $(2/\pi+o(1))\log n$
-real roots with high probability, and Do [Do24] proves the strong law
-$R_n[-1,1]/\log n\to1/\pi$ for the roots in $[-1,1]$. Comments of September
-2025 observed that the available concentration bounds give only polynomial
-tails, too weak for an almost-sure statement, and suggested the law might
-fail. In April 2026 the thread developed a disproof strategy: Letwin's
+The question, as erdosproblems.com states it, asks whether $R_n/\log n\to2/\pi$
+almost surely for one infinite sequence of independent uniform signs, where
+$R_n$ counts the real roots of the degree-$n$ partial polynomial.
+erdosproblems.com records that the source [Er61, p. 252] is ambiguous between
+$\{-1,1\}$ and $\{0,1\}$ coefficients, the constant being $1/\pi$ in the second
+case; the thread's discussion of September 2025 between the erdosproblems.com
+curator and Tao found the literal text to use binary digits while the section's
+other problems use signs. The erdosproblems.com Statement is the $\{-1,1\}$
+version, its commentary notes the $\{0,1\}$ alternative, and the curator leans
+towards $\{-1,1\}$. Every claim recorded here addresses the $\{-1,1\}$ reading;
+the $\{0,1\}$ variant has no claim. What is known: Erdős and Offord [EO56] give
+$(2/\pi+o(1))\log n$ real roots with high probability, and Do [Do24] proves the
+strong law $R_n[-1,1]/\log n\to1/\pi$ for the roots in $[-1,1]$. Comments of
+September 2025 observed that the available concentration bounds give only
+polynomial tails, too weak for an almost-sure statement, and suggested the law
+might fail. In April 2026 the thread developed a disproof strategy: Letwin's
 Gaussian-process limit of the rescaled polynomial near the endpoints of
 $[-1,1]$, Tao's buckets, and Kovač's suggestion to look for degrees with no
 real root outside $[-1,1]$. Every claim follows that route: infinitely many
@@ -151,13 +153,14 @@ upper limit at least $2/\pi$ almost surely, so the problem is disproved; the
 written notes and Snyder's development have not been examined here, and the
 $\{0,1\}$ variant, which does not enter the standing, remains open.
 
-Search scope: the site's problem page as exported (last edited 19 October 2025),
-its discussion thread (20 comments, accessed 2026-10-07) and proof-claims tab,
-the community database entry (open), the formal-conjectures file and the index
-entry of the pinned Lean proof, Boris Alexeev's lean-proofs repository, the
-GitHub repositories and notes linked from the thread, and an arXiv author search
-for Letwin (no paper on this problem); no OpenAI release item names this
-problem. MathSciNet and zbMATH were not searched and X was not used.
+Search scope: the erdosproblems.com problem page as exported (last edited 19
+October 2025), its discussion thread (20 comments, accessed 2026-10-07) and
+proof-claims tab, the community database entry (open), the formal-conjectures
+file and the index entry of the pinned Lean proof, Boris Alexeev's lean-proofs
+repository, the GitHub repositories and notes linked from the thread, and an
+arXiv author search for Letwin (no paper on this problem); no OpenAI release
+item names this problem. MathSciNet and zbMATH were not searched and X was not
+used.
 
 ## Known Results
 

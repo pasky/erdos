@@ -45,8 +45,8 @@ proves that the number of minimal covering systems of the integers with
 exactly $k$ classes is
 $\exp\bigl((4\sqrt\tau/3+o(1))k^{3/2}(\log k)^{-1/2}\bigr)$, with the lower
 bound holding even when the moduli are distinct. The bound on $I(k)$
-follows, as the site's commentary records: choosing covering residues for an
-irreducible covering set gives a covering system with $k$ classes that is
+follows, as the erdosproblems.com commentary records: choosing covering residues
+for an irreducible covering set gives a covering system with $k$ classes that is
 minimal, since a covering proper subsystem would make a proper subset of the
 moduli a covering set, and the set of moduli recovers the irreducible set, so
 $I(k)$ is at most the number of minimal covering systems with $k$ classes.
@@ -62,6 +62,6 @@ of moduli.
 
 **Acceptance.** Refereed: Journal of the European Mathematical Society 26
 (2024), no. 1, 75–109, at the DOI linked above. The page is named by the arXiv
-posting of 2019-04-09. The site's commentary credits the bound to these authors,
-but the site labeled the problem OPEN, so that remark is context and not
-acceptance.
+posting of 2019-04-09. The erdosproblems.com commentary credits the bound to
+these authors, but Bloom's catalog labeled the problem OPEN, so that remark is
+context and not acceptance.

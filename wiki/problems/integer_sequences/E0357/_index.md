@@ -26,8 +26,8 @@ such $k$.
 
 How does $f(n)$ grow? Is $f(n)=o(n)$?
 
-**Status.** Open. The site's label was OPEN (page last edited 12 January 2026).
-Two accepted partial claims give refereed upper bounds. One is
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 12
+January 2026). Two accepted partial claims give refereed upper bounds. One is
 Hegyvári's $f(n)\le(2/3+o(1))n$ (Acta Math. Hungar. 48 (1986);
 [[problems/integer_sequences/E0357/claims/1984_10_02_hegyvari|claim page]]). The
 other is Coppersmith and Phillips's $f(n)\le(2/3-1/512)n+O(\log n)$ (SIAM J.
@@ -74,9 +74,9 @@ https://www.erdosproblems.com/357.
 No independent assessment of proof coverage is recorded. The frontmatter
 standing is derived from the four claim pages, two accepted partial claims with
 refereed upper bounds and two pending partial claims, so the problem is open.
-Search scope: the site's page, its discussion thread and its proof-claims tab,
-Lenthall-Cleary's repository and Pickhardt's manuscript; no literature search
-beyond the page's References was made here.
+Search scope: the erdosproblems.com page, its discussion thread and its
+proof-claims tab, Lenthall-Cleary's repository and Pickhardt's manuscript; no
+literature search beyond the page's References was made here.
 
 ## Known Results
 
@@ -87,28 +87,29 @@ record; a thread comment of 9 December 2025 derives $f(n)\le(2/3-1/512)n+\log n$
 for all large $n$ from the Coppersmith-Phillips bound of
 [[problems/additive_combinatorics/E0867/_index|Problem 867]]
 ([[problems/integer_sequences/E0357/claims/1996_05_01_coppersmith_phillips|claim page]]);
-the site's commentary states that bound for the unrestricted $g(n)$ instead,
-which a comment of 9 April 2026 disputes, saying that the bound applies only to
-$f(n)$, and the commentary was unchanged on 2026-10-07. Lenthall-Cleary's paper
-states the $f(n)$ bound as $f(n)\le(2/3-1/512)n+O(\log n)$ (its eq. (1.2)), and
-Pickhardt's repeats the site's form $f(n)\le g(n)\le(2/3-1/512+o(1))n$.
-Lenthall-Cleary's preprint draft of 26 July 2026, a partial proof claim of 27
-July 2026 on the proof-claims tab
+the erdosproblems.com commentary states that bound for the unrestricted $g(n)$
+instead, which a comment of 9 April 2026 disputes, saying that the bound applies
+only to $f(n)$, and the commentary was unchanged on 2026-10-07.
+Lenthall-Cleary's paper states the $f(n)$ bound as
+$f(n)\le(2/3-1/512)n+O(\log n)$ (its eq. (1.2)), and Pickhardt's repeats the
+erdosproblems.com form $f(n)\le g(n)\le(2/3-1/512+o(1))n$. Lenthall-Cleary's
+preprint draft of 26 July 2026, a partial proof claim of 27 July 2026 on the
+proof-claims tab
 ([[problems/integer_sequences/E0357/claims/2026_07_27_lenthall_cleary|claim page]]),
 proves $f(n)\le n/2+9\cdot2^{-7/3}n^{2/3}+O(n^{1/3})$ by attaching to each start
 $a_i$ a block of $\lceil n/(2a_i)\rceil$ consecutive terms, whose sums are
 distinct and mostly lie in an interval of length about $n/2$; its finite
 inequality is formalized in Lean 4, neither built nor audited here, and its own
 remark says that the framework cannot reach $f(n)=o(n)$. Neither the preprint
-nor the formalization has a refereed version, site acceptance or independent
-review. Pickhardt's manuscript (dated 14 July 2026, published
-31 August 2026 with the Paratelligent Research Agent named as co-author;
+nor the formalization has a refereed version, erdosproblems.com acceptance or
+independent review. Pickhardt's manuscript (dated 14 July 2026, published 31
+August 2026 with the Paratelligent Research Agent named as co-author;
 [[problems/integer_sequences/E0357/claims/2026_08_31_pickhardt|claim page]])
 proves $f(n)\le\lceil n/2\rceil+\lfloor n/(2R)\rfloor+R(R-1)/2$ for every
 $R\ge1$, so $f(n)\le n/2+((3/2)2^{-2/3}+o(1))n^{2/3}$, by packing the sums of
 $r$ consecutive terms taken from $(n/(2r),n/r]$ into $(n/2,n]$; it is a pending
 claim with no Lean development, no refereed version and no independent review.
-Lower bound. The site records $f(n)\ge(2+o(1))n^{1/2}$ from Straus's
+Lower bound. erdosproblems.com records $f(n)\ge(2+o(1))n^{1/2}$ from Straus's
 construction for the stronger property of
 [[problems/additive_combinatorics/E0874/_index|Problem 874]], an observation in
 a thread comment of 24 August 2025, which as a thread post has no claim page;

@@ -43,7 +43,7 @@ $O(m\sqrt{\log m}+m\log D)$ and below $\epsilon m\log m$ for every fixed
 $\epsilon$ and $D$ once $m$ is large. Adding isolated vertices to reach
 exactly $N=2n$ vertices gives an $N$-vertex graph with at least $N\log N$
 edges, so the statement fails both for fixed large $m$ (Alon's and the
-site's form) and for $m\to\infty$ (the 1970 form).
+erdosproblems.com form) and for $m\to\infty$ (the 1970 form).
 
 **Source.** N. Alon, *Problems and results in extremal combinatorics---II*,
 Discrete Math. 308 (2008), no. 19, 4460--4472, doi:10.1016/j.disc.2007.08.090;

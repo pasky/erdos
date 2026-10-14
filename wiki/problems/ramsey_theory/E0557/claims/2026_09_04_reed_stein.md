@@ -80,24 +80,24 @@ the Erdős--Sós conjecture in full, that the authors' proof was found
 without any use of AI, that it was ready in its uploaded form in early
 August 2026, and that it was uploaded when the AI proof was announced.
 The paper is a preprint under the CC BY 4.0 license; no journal version is
-cited by the site. The site's problem page lists the paper as the source
-key [ReSt26], and a comment of 17 September 2026 in the problem's
+cited by erdosproblems.com. The erdosproblems.com problem page lists the paper
+as the source key [ReSt26], and a comment of 17 September 2026 in the problem's
 discussion cites the paper's bound $R_k(T)\le k(n-2)+3$. The problem is
 the paper's reference [7], Erdős and Graham's 1975 paper, p. 516 (the
 [[../library/ramsey_theory/erdos_1975_partition_theorems_finite_graphs/_index|library card]]),
 which writes $T_n$ for a tree on $n$ edges; the paper restates the
-question for $k$-vertex trees, as the site does.
+question for $k$-vertex trees, as erdosproblems.com does.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, credits Reed and
-Stein in the problem's commentary (page last edited 7 September 2026). The
-credit is for establishing the Erdős--Sós conjecture for dense graphs and
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, credits
+Reed and Stein in the problem's commentary (page last edited 7 September 2026).
+The credit is for establishing the Erdős--Sós conjecture for dense graphs and
 deducing that $R_k(T)\le k(n-2)+3$ once $n$ is large enough depending on $k$.
 The curator states that the problem follows from that theorem, which it does
 under reading (a). The curator is independent of the claimants. The problem was
-marked proved. The site printed PROVED (FORMALIZED) on 2026-09-05. The community
-database (teorth/erdosproblems, read 2026-10-06) lists its status as proved
-(Lean), with last update 3 September 2026. The static text of the problem page
-printed no label on 2026-10-07.
+marked proved. erdosproblems.com printed PROVED (FORMALIZED) on 2026-09-05. The
+community database (teorth/erdosproblems, read 2026-10-06) lists its status as
+proved (Lean), with last update 3 September 2026. The static text of the problem
+page printed no label on 2026-10-07.
 
 Nothing is refereed: the paper is an arXiv preprint. Nothing is formalized for
 this page. The Lean development announced in the problem's discussion on 17

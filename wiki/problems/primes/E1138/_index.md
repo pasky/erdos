@@ -31,17 +31,17 @@ $$
 **Formulation.** The wording leaves the limit and the quantifiers implicit.
 The standing concerns the reading of the paper of Sunder, Kumrawat and Cheri
 (Section 1 and Remark 3.2) and of the formal-conjectures statement, which
-the site's commentary also applies: $d=d(x)$ is the largest gap
+the erdosproblems.com commentary also applies: $d=d(x)$ is the largest gap
 $p_{n+1}-p_n$ with $p_n<x$, even when $p_{n+1}>x$, and the question asks
 whether, for every fixed $C>1$, the asymptotic holds as $x\to\infty$
 uniformly over real $y$ with $x/2<y<x$.
 
-**Status.** The site labeled the problem DISPROVED (LEAN) (page last edited 06
-July 2026). It credits Sunder, Kumrawat and Cheri, working with GPT 5.5, with
-the disproof. Under the reading in the Formulation, two constants less than
-$1/2$ apart cannot both satisfy the asymptotic. So the asymptotic fails for some
-$C>1$. Whether it fails for every single $C>1$ is open. The paper, the credit
-and the Lean proofs of the disproof are on the
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN) (page last
+edited 06 July 2026). It credits Sunder, Kumrawat and Cheri, working with GPT
+5.5, with the disproof. Under the reading in the Formulation, two constants less
+than $1/2$ apart cannot both satisfy the asymptotic. So the asymptotic fails for
+some $C>1$. Whether it fails for every single $C>1$ is open. The paper, the
+credit and the Lean proofs of the disproof are on the
 [[problems/primes/E1138/claims/2026_04_25_sunder_kumrawat_cheri|claim page]].
 The Lean proofs are not built here.
 

@@ -50,8 +50,8 @@ None.
 
 - [[../wiki/problems/ramsey_theory/E0545/_index|Problem 545]]: the $t=0$ case of the
   question in the 1976 source, with the restriction $k\ge4$ that the
-  site's statement lacks and that the small-case failures reported on the
-  site make necessary.
+  erdosproblems.com statement lacks and that the small-case failures reported on
+  erdosproblems.com make necessary.
 - [[../wiki/problems/ramsey_theory/E0547/_index|Problem 547]]: the same page (p. 257, read
   on the page image) opens with the tree conjecture, "We conjecture that
   $\operatorname{Exr}(\mathcal T_n)=\operatorname{Exr}(\mathcal T_n,\mathcal T_n)=2n-2$

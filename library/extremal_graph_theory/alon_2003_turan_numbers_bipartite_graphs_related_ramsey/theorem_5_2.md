@@ -55,6 +55,6 @@ $n^{1/4}$), which rests on the probabilistic embedding lemma of Section 2.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0546/_index|Problem 546]]: the bipartite case of the
-  question with an explicit constant, published in 2003; the site's "short
-  proof of this when $G$ is bipartite". Superseded for general graphs by
+  question with an explicit constant, published in 2003; erdosproblems.com's
+  "short proof of this when $G$ is bipartite". Superseded for general graphs by
   Sudakov's $2^{250\sqrt m}$.

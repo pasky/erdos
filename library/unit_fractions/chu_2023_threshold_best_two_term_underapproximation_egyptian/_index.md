@@ -62,9 +62,9 @@ Upsilon(p,q) = 2 the greedy m-term sum is the unique best m-term
 underapproximation of p/q for every m, answering Nathanson's question whether
 rationals other than those with p dividing q+1 (Nathanson's Theorem 5,
 restated as Theorem 1.11) have this property; this is the larger class of
-rationals that the site's commentary on problem 206 attributes to the paper.
-Read status: claims checked for Theorem 1.3 and Theorem 1.12 (statements read
-clause by clause on PDF pp. 3 and 6), compiled on
+rationals that the erdosproblems.com commentary on problem 206 attributes to the
+paper. Read status: claims checked for Theorem 1.3 and Theorem 1.12 (statements
+read clause by clause on PDF pp. 3 and 6), compiled on
 [[unit_fractions/chu_2023_threshold_best_two_term_underapproximation_egyptian/theorem_1_3|Theorem 1.3]]
 and
 [[unit_fractions/chu_2023_threshold_best_two_term_underapproximation_egyptian/theorem_1_12|Theorem 1.12]];

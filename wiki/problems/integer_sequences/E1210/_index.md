@@ -44,21 +44,21 @@ https://www.erdosproblems.com/1210.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-10-06).** The statement
-above, labeled OPEN on the site and glossed as not resolvable by a finite
-computation. The site's commentary, in this page's words: in [Er80] Erdős
-says he stated the problem incorrectly in [Er77c], and the [Er77c] problem he
-presumably means concerns the primes $n<q_1<\cdots<q_k\le m$ of $(n,m]$,
-asking whether $\sum 1/(q_i-n)$ is less than $\sum_{p<m-n}1/p+O(1)$. The site
-links Problems 460 and 950. The
-[formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1210.lean)
+**The question (erdosproblems.com formulation, accessed 2026-10-06).** The
+statement above, labeled OPEN on erdosproblems.com and glossed as not resolvable
+by a finite computation. The erdosproblems.com commentary, in this page's words:
+in [Er80] Erdős says he stated the problem incorrectly in [Er77c], and the
+[Er77c] problem he presumably means concerns the primes $n<q_1<\cdots<q_k\le m$
+of $(n,m]$, asking whether $\sum 1/(q_i-n)$ is less than $\sum_{p<m-n}1/p+O(1)$.
+erdosproblems.com links Problems 460 and 950. The [formal-conjectures
+file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1210.lean)
 states both the main question (`erdos_1210`) and that prime-interval form
 (`erdos_1210.variants.er80_correction`), each as an open research problem with
 no proof.
 
 **Progress.** No result settling the question, any class of sets $A$, or any
-range of $n$ is recorded. On 8 April 2026 the site's curator relayed a
-suggestion from GPT Pro that the bound should follow quickly from standard
+range of $n$ is recorded. On 8 April 2026 the erdosproblems.com curator relayed
+a suggestion from GPT Pro that the bound should follow quickly from standard
 sieve results, then added an edit doubting it, since $A$ may contain many
 primes just below $n$. A reply the same day, crediting GPT-5.4 Thinking,
 showed that the estimate the route needs would imply
@@ -73,8 +73,8 @@ linked in the thread on 31 May 2026 as claiming some results on the problem
 but no full solution. Its DataCite and OpenAlex records carry no abstract,
 and no theorem from it is recorded, so it has no claim page.
 
-**Search scope.** The site page and its forum thread, the formal-conjectures
-file, and the DataCite and OpenAlex records of the Bado note.
+**Search scope.** The erdosproblems.com page and its forum thread, the
+formal-conjectures file, and the DataCite and OpenAlex records of the Bado note.
 
 **Gaps.** The question is open; the corpus holds no claim on it. The content
 of the Bado note is unrecorded, and a theorem from it settling any case would

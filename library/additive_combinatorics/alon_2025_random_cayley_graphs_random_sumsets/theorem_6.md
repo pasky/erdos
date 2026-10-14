@@ -99,5 +99,5 @@ level.
 - [[../wiki/problems/additive_combinatorics/E0788/_index|Problem 788]]:
   indirectly only. The theorem is the key input to
   [[additive_combinatorics/alon_2025_random_cayley_graphs_random_sumsets/theorem_4|Theorem 4]],
-  which the site's reduction for the problem uses; the paper does not
+  which erdosproblems.com's reduction for the problem uses; the paper does not
   mention the problem.

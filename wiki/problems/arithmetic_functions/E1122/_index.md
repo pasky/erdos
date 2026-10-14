@@ -30,17 +30,19 @@ $$
 If $\lvert A\cap [1,X]\rvert =o(X)$ then must $f(n)=c\log n$ for some $c\in
 \mathbb{R}$?
 
-**Status.** Claimed, proved. No claim settling the problem is accepted. The site
-labeled the problem OPEN (page last edited 2026-04-01). One pending full claim
-is on the site's proof-claims tab, and it is recorded and not adopted:
-[[problems/arithmetic_functions/E1122/claims/2026_09_08_gu|Gu 2026]]. This is a
-manuscript posted on Zenodo on 2026-09-08 (the record states publication date
-2026-09-07) and registered on the site the same day. It asserts the answer yes
-with a nonnegative constant $c$, and it credits GPT-6 Astra for the argument. It
-comes with a Lean development that derives the statement from four cited
-theorems taken as hypotheses. No review or acceptance of the claim is recorded.
+**Status.** Claimed, proved. No claim settling the problem is accepted. Bloom's
+catalog labeled the problem OPEN (page last edited 2026-04-01). One pending full
+claim is on the erdosproblems.com proof-claims tab, and it is recorded and not
+adopted: [[problems/arithmetic_functions/E1122/claims/2026_09_08_gu|Gu 2026]].
+This is a manuscript posted on Zenodo on 2026-09-08 (the record states
+publication date 2026-09-07) and registered on erdosproblems.com the same day.
+It asserts the answer yes with a nonnegative constant $c$, and it credits GPT-6
+Astra for the argument. It comes with a Lean development that derives the
+statement from four cited theorems taken as hypotheses. No review or acceptance
+of the claim is recorded.
 
-Two refereed partial results that the site's commentary credits are accepted.
+Two refereed partial results that the erdosproblems.com commentary credits are
+accepted.
 [[problems/arithmetic_functions/E1122/claims/1946_01_01_erdos|Erdős 1946]]
 [Er46] gives the answer yes when $A$ is empty or when $f(n+1)-f(n)\to0$.
 [[problems/arithmetic_functions/E1122/claims/2021_08_27_mangerel|Mangerel 2021]]
@@ -65,16 +67,16 @@ claim page.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 2026-04-01).** Whether an
-additive $f:\mathbb{N}\to\mathbb{R}$ whose decreases
+**The question (erdosproblems.com formulation, page last edited 2026-04-01).**
+Whether an additive $f:\mathbb{N}\to\mathbb{R}$ whose decreases
 $A=\{n: f(n+1)<f(n)\}$ satisfy $|A\cap[1,X]|=o(X)$ must equal $c\log n$ for
-some real $c$. The site labeled the problem OPEN.
+some real $c$. Bloom's catalog labeled the problem OPEN.
 
 **Standing.** Claimed, proved: the full claim
 [[problems/arithmetic_functions/E1122/claims/2026_09_08_gu|Gu 2026]], a
 manuscript posted on Zenodo on 2026-09-08 (the record states publication
-date 2026-09-07) and registered on the site's proof-claims tab the same
-day, asserts the answer yes with $c\ge0$ and credits GPT-6 Astra for the
+date 2026-09-07) and registered on the erdosproblems.com proof-claims tab the
+same day, asserts the answer yes with $c\ge0$ and credits GPT-6 Astra for the
 argument; no review or acceptance of it is recorded. Two partial claims
 are accepted on refereed evidence. Erdős [Er46], in the paper that poses
 the conjecture, proved that $f(n)=c\log n$ when $f(n+1)\ge f(n)$ for every
@@ -86,7 +88,7 @@ other is
 (Corollary 1.7 of [Ma22], Ramanujan J. 59 (2022)): for completely additive
 $f$ with $\lim_{\varepsilon\to0^+}F_f(\varepsilon)=0$ and
 $|A\cap[1,X]|\ll X/(\log X)^{2+\delta}$ for some $\delta>0$, the answer is
-yes. The site's commentary states that hypothesis as additive, which
+yes. The erdosproblems.com commentary states that hypothesis as additive, which
 overstates the corollary; it credits the partial progress but labeled the
 problem OPEN, so no `reviewed` evidence is listed.
 
@@ -96,10 +98,10 @@ development posted with the Gu claim derives the statement from four cited
 theorems taken as hypotheses; the corpus has not built or audited it, so no
 `formalized` evidence is listed.
 
-**Search scope.** The site's problem page (last edited 2026-04-01) and its
-proof-claims thread, accessed 2026-10-06; the Zenodo record and archive of the
-Gu claim, accessed 2026-10-07; and the library cards of [Er46] and [Ma22]. The
-proofs are not compiled in this wiki.
+**Search scope.** The erdosproblems.com problem page (last edited 2026-04-01)
+and its proof-claims thread, accessed 2026-10-06; the Zenodo record and archive
+of the Gu claim, accessed 2026-10-07; and the library cards of [Er46] and
+[Ma22]. The proofs are not compiled in this wiki.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -48,12 +48,12 @@ The left side is $F(N)$, the number of distinct prime factors of
 $p(1)p(2)\cdots p(N)$ in
 [[problems/arithmetic_functions/E1106/_index|Problem 1106]], so
 $F(n)\ge(1-\varepsilon)\log n/\log2$ for all large $n$, and in particular
-$F(n)\gg\log n$; the site's commentary and the formal-conjectures entry both
-credit that bound to this paper. The inequality $\omega\ge m$ is elementary:
-positive integers built from $s$ primes lie in a free abelian group of rank
-$s$, so $r$ multiplicatively independent values force at least $r$ distinct
-primes. Ono [On00] cites the paper for the bound $\gg\log\log X$ on the number
-of primes $m<X$ that divide some $p(n)$.
+$F(n)\gg\log n$; the erdosproblems.com commentary and the formal-conjectures
+entry both credit that bound to this paper. The inequality $\omega\ge m$ is
+elementary: positive integers built from $s$ primes lie in a free abelian group
+of rank $s$, so $r$ multiplicatively independent values force at least $r$
+distinct primes. Ono [On00] cites the paper for the bound $\gg\log\log X$ on the
+number of primes $m<X$ that divide some $p(n)$.
 
 **Covers.** The first question: $F(n)\to\infty$, at the rate
 $F(n)\ge(1-\varepsilon)\log n/\log2$. The second question, whether $F(n)>n$ for
@@ -63,10 +63,10 @@ all large $n$, is not addressed.
 paper.
 
 **Acceptance.** Refereed: the paper appeared in Proceedings of the Indian
-Academy of Sciences (Mathematical Sciences) in December 1987. The site's
-commentary credits $F(n)\gg\log n$ to this paper. But the site labeled the
-problem OPEN, so the commentary is not acceptance and no `reviewed` is listed.
-The [formal-conjectures
+Academy of Sciences (Mathematical Sciences) in December 1987. The
+erdosproblems.com commentary credits $F(n)\gg\log n$ to this paper. But Bloom's
+catalog labeled the problem OPEN, so the commentary is not acceptance and no
+`reviewed` is listed. The [formal-conjectures
 file](https://github.com/google-deepmind/formal-conjectures/blob/da878b6b63ca0439443d754c41a226a1f816bee6/FormalConjectures/ErdosProblems/1106.lean)
 states the first question as `erdos_1106.parts.i`, with `answer(True)`, the
 category `research solved` and a `sorry` body, and cites this paper. It is a

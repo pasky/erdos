@@ -51,26 +51,27 @@ computable constants, where the earlier proofs of
 [[problems/diophantine_problems/E0407/claims/1988_10_13_evertse_gyory_stewart_tijdeman|Evertse, Győry, Stewart and Tijdeman]]
 and of
 [[problems/diophantine_problems/E0407/claims/1988_03_01_tijdeman_wang|Tijdeman and Wang]]
-were ineffective. The site's commentary states the bounds as $w(n)\le4$ for
-$n\ge131082$ and $w(n)\le9$ for all $n$, with the largest $n$ of count nine
-being $299$. The proof rests on the paper's Theorem 1, an effective bound for
-the heights of nondegenerate solutions of five-term $S$-unit equations over a
-number field when $S$ has at most three places, obtained from lower bounds
-for linear forms in complex and $p$-adic logarithms and a matching procedure
-that reduces a five-term equation to the four-term case; the corpus's
+were ineffective. The erdosproblems.com commentary states the bounds as
+$w(n)\le4$ for $n\ge131082$ and $w(n)\le9$ for all $n$, with the largest $n$ of
+count nine being $299$. The proof rests on the paper's Theorem 1, an effective
+bound for the heights of nondegenerate solutions of five-term $S$-unit equations
+over a number field when $S$ has at most three places, obtained from lower
+bounds for linear forms in complex and $p$-adic logarithms and a matching
+procedure that reduces a five-term equation to the four-term case; the corpus's
 [[../library/diophantine_problems/bajpai_2024_effective_unit_equations_beyond_three_terms/_index|card]]
 summarizes it. This page rests on the statement of Theorem 3 and the
 introduction of the paper; the proof was not checked.
 
 **Acceptance.** The paper is a refereed publication in Acta Arithmetica, which
-is the `refereed` evidence. The site's curator, T. F. Bloom, labeled the problem
-proved and credits this paper in the problem's commentary with the effective
-bounds. In the site's thread on 2025-09-08, the curator noted that the details
-and references had been added. That documented acceptance is the `reviewed`
-evidence. The thread also carries a reader's computed values under the ordered
-convention. The thread itself attributes those values to double counting of
-permuted summands. Those posts are unverified comments and change nothing here.
-The Lean development recorded on the page of Evertse, Győry, Stewart and
-Tijdeman names this paper among its informal sources. It proves, as a
-conditional theorem, that the ordered count is at most $27$ if the bound nine
-holds. The bound nine itself is a hypothesis there, not a formalized result.
+is the `refereed` evidence. The erdosproblems.com curator, T. F. Bloom, labeled
+the problem proved and credits this paper in the problem's commentary with the
+effective bounds. In the erdosproblems.com thread on 2025-09-08, the curator
+noted that the details and references had been added. That documented acceptance
+is the `reviewed` evidence. The thread also carries a reader's computed values
+under the ordered convention. The thread itself attributes those values to
+double counting of permuted summands. Those posts are unverified comments and
+change nothing here. The Lean development recorded on the page of Evertse,
+Győry, Stewart and Tijdeman names this paper among its informal sources. It
+proves, as a conditional theorem, that the ordered count is at most $27$ if the
+bound nine holds. The bound nine itself is a hypothesis there, not a formalized
+result.

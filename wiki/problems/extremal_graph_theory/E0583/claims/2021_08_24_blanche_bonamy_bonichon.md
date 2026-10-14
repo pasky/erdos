@@ -54,6 +54,6 @@ planar graphs.
 
 **Standing.** Claimed: no journal version of the full paper has been found,
 and an extended abstract in a proceedings volume is not refereed evidence.
-The site's curator credits the result while labeling the problem
+The erdosproblems.com curator credits the result while labeling the problem
 FALSIFIABLE, which is commentary on an open problem and not reviewed
 evidence.

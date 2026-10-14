@@ -57,4 +57,4 @@ The cited paper of Aragão, Campos, Dahia, Filipe and Marciano.
 
 - [[../wiki/problems/ramsey_theory/E0565/_index|Problem 565]]: expert attestation,
   published in the ICM 2026 proceedings, that the conjecture is proved; it
-  supports the site's status without being a refereeing of the proof.
+  supports the erdosproblems.com status without being a refereeing of the proof.

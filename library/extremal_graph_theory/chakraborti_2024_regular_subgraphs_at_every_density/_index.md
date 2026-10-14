@@ -93,9 +93,9 @@ that every $n$-vertex graph with at least $cn^{1+\varepsilon}$ edges, $n$
 large in terms of $\varepsilon$ and $c$, contains a regular subgraph $H$ on
 $m\ge n^\beta$ vertices with $e(H)\ge\beta cm^{1+\varepsilon}$; a $1$-balanced
 subgraph of the problem's shape with an unspecified power $n^\beta$ in place
-of the printed $n^{1-\alpha}$ or the site's corrected $n^\alpha$, the regular
-analog the problem's thread names; the problem page cites it and does not
-consume it.
+of the printed $n^{1-\alpha}$ or erdosproblems.com's corrected $n^\alpha$, the
+regular analog the problem's thread names; the problem page cites it and does
+not consume it.
 
 **Results.**
 

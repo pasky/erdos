@@ -105,7 +105,7 @@ of the 1991 paper.
   $k(N)$ is the largest admissible subset of $\{1,\ldots,N\}$, so Theorem 1
   gives $k(N)\le2N^{1/2}+CN^{5/12}$, and with Straus's block
   $k(N)=2N^{1/2}+O(N^{5/12})$, hence $k(N)\sim2N^{1/2}$, the affirmative
-  answer to the site's asymptotic question; this is the paper's
+  answer to erdosproblems.com's asymptotic question; this is the paper's
   "$(2+o(1))\sqrt N$", cited on the problem page. For large $N$ the bound
   is superseded by the exact
   [[additive_combinatorics/deshouillers_1999_additive_problem_erdos_straus/theorem_1|Theorem 1]]

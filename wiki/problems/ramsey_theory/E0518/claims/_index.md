@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 518, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-13T11:00:13Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0518/claims
@@ -18,7 +18,7 @@ color. It is refereed.
 
 [[problems/ramsey_theory/E0518/claims/2026_07_24_chen_chen|2026_07_24_chen_chen]]: Theorem 1.5 of Chen and Chen's unrefereed 2026 arXiv preprint claims that for
 every $n$, every red-blue edge-colored complete graph on $n$ vertices is
-covered by at most $\sqrt n$ monochromatic paths of one color. The site had
-not adopted it.
+covered by at most $\sqrt n$ monochromatic paths of one color.
+erdosproblems.com had not adopted it.
 
 ***

@@ -193,9 +193,9 @@ independently reviewed.
   of $\{4\}$-s and $\{4U\}$-s through a given cycle, and $\{5\}$ appears
   only in Kuratowski's theorem (p. 61), in the proof of Satz 2 (p. 62) and
   as the example for Satz 15 (p. 85). Where the $K_5$ conjecture that
-  Erdős's 1981 paper and the site attribute to this paper was stated was not
-  checked here. The paper also does not characterize the graphs with $2N-3$
-  edges and no $\{4U\}$; Thomassen's 1974 paper cites the author's 1964
+  Erdős's 1981 paper and erdosproblems.com attribute to this paper was stated
+  was not checked here. The paper also does not characterize the graphs with
+  $2N-3$ edges and no $\{4U\}$; Thomassen's 1974 paper cites the author's 1964
   Math. Ann. paper (its [2], p. 71; not held) for that characterization.
 
 ## Compiled scope
@@ -210,20 +210,20 @@ closing page read on the page images; none of their proofs was checked.
 Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0718/_index|#718]]: Satz 6
-(printed p. 68, PDF p. 8) is the theorem the site's commentary credits to
-the paper: a finite graph with $N\ge4$ vertices and at least $2N-2$ edges
-contains a complete graph on four vertices or a subdivision of one, so in
-the site's words every graph on $n$ vertices with at least $2n-2$ edges
+(printed p. 68, PDF p. 8) is the theorem the erdosproblems.com commentary
+credits to the paper: a finite graph with $N\ge4$ vertices and at least $2N-2$
+edges contains a complete graph on four vertices or a subdivision of one, so in
+erdosproblems.com's words every graph on $n$ vertices with at least $2n-2$ edges
 contains a subdivision of $K_4$; the paper adds the hypotheses finite and
 $N\ge4$, and its next sentence says the graphs of Figures 3--5 (p. 67),
 which have $2N-3$ edges, show the theorem best possible, the observation
 Erdős's 1981 paper records. The conjecture that $3n-5$ edges force a
-subdivision of $K_5$, which the site and that paper also attribute to
+subdivision of $K_5$, which erdosproblems.com and that paper also attribute to
 [Di60], is not stated in this paper (above). The problem's status rests on
 the 1996 and 1998 proofs and is unchanged.
 [[../wiki/problems/extremal_graph_theory/E0916/_index|#916]]: Satz 6 is "the result of
-Dirac [Di60]" the site's commentary says the problem strengthens, and the
-theorem Erdős's 1967 survey states with $n\ge4$
+Dirac [Di60]" the erdosproblems.com commentary says the problem strengthens, and
+the theorem Erdős's 1967 survey states with $n\ge4$
 ([[extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/question_p57|Er67b, p. 56]]);
 the printed hypothesis is $N\ge4$, so the survey's range is the paper's
 own. The best-possible sentence (p. 68) supplies, in the paper's own text,
@@ -231,8 +231,8 @@ the graphs with $2n-3$ edges and no subdivision of $K_4$ that the problem
 page uses to make the value $2n-2$ exact, and
 [[extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/theorem|Thomassen 1974]]
 reproves the theorem for $n\ge3$ as its Corollary. The problem's status
-rests on Thomassen's theorem and the failure of the site's wording at $n=1$,
-and is unchanged.
+rests on Thomassen's theorem and the failure of the erdosproblems.com wording at
+$n=1$, and is unchanged.
 
 **Results.**
 

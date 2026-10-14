@@ -92,8 +92,8 @@ reference [7]).
   Corollary 2.4 and Proposition 2.5, an S-template found by computer gives a
   recursion $S(n+k)\ge aS(n)+b$; the one with six colors is
   [[ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur/inequality_6|inequality (6)]],
-  the source of the site's lower bound. The theorem alone gives no bound
-  until a template is supplied.
+  the source of erdosproblems.com's lower bound. The theorem alone gives no
+  bound until a template is supplied.
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: the same
   recursions, with $S(n)\le R_n(3)-2$, give the lower bound on $R(3;k)$
   recorded at

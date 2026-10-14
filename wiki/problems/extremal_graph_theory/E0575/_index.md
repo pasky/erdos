@@ -37,27 +37,27 @@ $$
 \mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 31
-August 2026). "Subgraphs" are ordinary, not induced, copies, and
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 31 August 2026). "Subgraphs" are ordinary, not induced, copies, and
 $\mathrm{ex}(n;G)\ll_{\mathcal F}\mathrm{ex}(n;\mathcal F)$ means
 $\mathrm{ex}(n;G)\le C_{\mathcal F}\,\mathrm{ex}(n;\mathcal F)$ for all $n$
 with a constant depending on the family. The statement is the compactness
 conjecture of Erdős and Simonovits, Conjecture 1 of [ErSi82] (printed p. 276
 of the Rényi archive scan): "For every finite $\mathbf L$ (containing
 bipartite graphs as well) there exists an $L^*\in\mathbf L$ for which (5)
-$\mathrm{ex}(n,\mathbf L)=O(\mathrm{ex}(n,L^*))$"; the site's clause "if there
-is a bipartite graph in $\mathcal F$" is the paper's parenthesis. As printed,
-display (5) is the trivial inequality the site notes; the compactness theorems
-defined just before it, Wigderson's restatement
-"$\mathrm{ex}(n,\mathcal F)\ge c\cdot\mathrm{ex}(n,H)$" and the site's display
-all read the bound the other way, and this page uses that reading (recorded on
-the
+$\mathrm{ex}(n,\mathbf L)=O(\mathrm{ex}(n,L^*))$"; erdosproblems.com's clause
+"if there is a bipartite graph in $\mathcal F$" is the paper's parenthesis. As
+printed, display (5) is the trivial inequality erdosproblems.com notes; the
+compactness theorems defined just before it, Wigderson's restatement
+"$\mathrm{ex}(n,\mathcal F)\ge c\cdot\mathrm{ex}(n,H)$" and the
+erdosproblems.com display all read the bound the other way, and this page uses
+that reading (recorded on the
 [[../library/extremal_graph_theory/erdos_1982_compactness_results_extremal_graph_theory/conjecture_1|result page]],
 not decided). The statement admits forests: the two-member family
 $\{K_{1,2},2K_2\}$ consists of bipartite graphs, so the statement fails for it
 (below). The no-forest form (Wigderson's p. 2 Conjecture: every member
 contains a cycle) is a separate variant whose status this page records
-separately; the site's own account rests on it.
+separately; erdosproblems.com's own account rests on it.
 
 **Status.** Disproved, on two routes. (1) The statement is false by the
 elementary Observation on p. 1 of Wigderson's note [Wig22]
@@ -75,41 +75,41 @@ every member containing a cycle, with
 $\mathrm{ex}(n,\mathcal F)=O(n^{4/3-1/48})$ and
 $\mathrm{ex}(n,F)=\Omega(n^{4/3})$ for every $F\in\mathcal F$. Its author is
 OpenAI. The announcement attributes the arguments to an internal model and
-manuscript preparation to humans working with that model. The site accepted it
-as the disproof on 31 August 2026 with the label DISPROVED. This is a
-source-supported solution accepted by the site, distinct from a claim of journal
-refereeing. No refereed publication and no independent expert review of the
-argument was found, and the corpus has not built or audited the accompanying
-Lean file.
+manuscript preparation to humans working with that model. erdosproblems.com
+accepted it as the disproof on 31 August 2026 with the label DISPROVED. This is
+a source-supported solution accepted by erdosproblems.com, distinct from a claim
+of journal refereeing. No refereed publication and no independent expert review
+of the argument was found, and the corpus has not built or audited the
+accompanying Lean file.
 
 The claim pages record both routes.
 [[problems/extremal_graph_theory/E0575/claims/2022_07_25_wigderson|Wigderson's two-forest observation]]
-is `claimed`, since no outside acceptance of it is documented. The site's
-commentary does not mention it, and the report's p. 237 restates the values
-without reviewing the note.
+is `claimed`, since no outside acceptance of it is documented. The
+erdosproblems.com commentary does not mention it, and the report's p. 237
+restates the values without reviewing the note.
 [[problems/extremal_graph_theory/E0575/claims/2026_08_01_openai|OpenAI's Theorem 1.1]]
-is `accepted` on the site's acceptance alone (evidence `reviewed`: the curator's
-label and commentary of 31 August 2026), with no refereed publication and no
-independent review. The frontmatter standing is derived from the accepted claim,
-so it rests on the site's acceptance of an AI-generated argument. The elementary
-route (1) is recomputed below, but as this project's own check it awards no
-acceptance.
+is `accepted` on erdosproblems.com's acceptance alone (evidence `reviewed`: the
+curator's label and commentary of 31 August 2026), with no refereed publication
+and no independent review. The frontmatter standing is derived from the accepted
+claim, so it rests on erdosproblems.com's acceptance of an AI-generated
+argument. The elementary route (1) is recomputed below, but as this project's
+own check it awards no acceptance.
 
 **Source.** [erdosproblems.com/575](https://www.erdosproblems.com/575),
 accessed 2026-09-18: the problem page (DISPROVED, the
-site's label for a question answered no; last edited 31 August 2026; source
-key [ErSi82]; commentary citing Problem 180; listed by the site at number 51
-of its extremal graph theory collection), its two-comment discussion thread
-(14 January and 1 August 2026) and its empty proof-claim tab. Cite as:
-T. F. Bloom, Erdős Problem #575, https://www.erdosproblems.com/575,
+erdosproblems.com label for a question answered no; last edited 31 August 2026;
+source key [ErSi82]; commentary citing Problem 180; listed by erdosproblems.com
+at number 51 of its extremal graph theory collection), its two-comment
+discussion thread (14 January and 1 August 2026) and its empty proof-claim tab.
+Cite as: T. F. Bloom, Erdős Problem #575, https://www.erdosproblems.com/575,
 accessed 2026-09-18.
 
 **References.**
 
 - [ErSi82] Erdős, P. and Simonovits, M., Compactness results in extremal
   graph theory. Combinatorica 2 (1982), no. 3, 275--288,
-  doi:10.1007/BF02579234 (the site's reference text gives "Combinatorica
-  (1982), 275-288"); Conjecture 1, p. 276. Library home:
+  doi:10.1007/BF02579234 (the erdosproblems.com reference text gives
+  "Combinatorica (1982), 275-288"); Conjecture 1, p. 276. Library home:
   [[../library/extremal_graph_theory/erdos_1982_compactness_results_extremal_graph_theory/_index|erdos_1982_compactness_results_extremal_graph_theory]]
   (the Rényi archive scan).
 - [Wig22] Wigderson, Yuval, The Erdős--Simonovits compactness conjecture
@@ -139,7 +139,7 @@ accessed 2026-09-18.
 
 **Formalization.** None for this problem: no file `ErdosProblems/575.lean`
 exists in formal-conjectures (main, fetched 2026-09-18; directory listing
-of 672 entries and the recursive tree checked), the site's indicator
+of 672 entries and the recursive tree checked), the erdosproblems.com indicator
 reads "Formalised statement? No", and the community database (fetched
 2026-09-18) records the problem as disproved (last update 31 August 2025)
 and unformalized, with no formal proof. The external file
@@ -165,16 +165,16 @@ number $O(n^{4/3-1/48})$ (with $21/16=4/3-1/48$ stated), and
 `¬ CompactnessConjectureStatement`. The file has 18,588 lines, imports only
 Mathlib and contains no `sorry`, `axiom` or `native_decide`. The
 formal statement is the cyclic-family form, with the comparison holding for
-all sufficiently large $n$, not the site's comparison, which the Formulation
-reads as holding for all $n$, and no statement in the file names this
-problem. The corpus has not built or audited the file and claims no credit
+all sufficiently large $n$, not erdosproblems.com's comparison, which the
+Formulation reads as holding for all $n$, and no statement in the file names
+this problem. The corpus has not built or audited the file and claims no credit
 for it.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-DISPROVED, the site's label for a question answered no; last edited
-31 August 2026. The commentary attributes the problem to Erdős and
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED, the erdosproblems.com label for a question answered no; last
+edited 31 August 2026. The commentary attributes the problem to Erdős and
 Simonovits and credits the disproof to an internal model at OpenAI: a
 finite family of connected bipartite graphs, none of them a forest, whose
 joint extremal number is $O(n^{4/3-1/48})$ while each member's is
@@ -233,31 +233,32 @@ bipartite reduction) and the lower bounds are
 [[../library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_10/proposition_4_3|Proposition 4.3]]
 (incidence graphs of symplectic generalized quadrangles over fields of
 characteristic $2$ or $3$, chosen by the member). Since every member is
-bipartite and none is a forest, the family also refutes the site's statement
-directly, without the two forests; and since every member has extremal number of
-order at least $n^{4/3}$, the refutation is by a power of $n$, not merely by an
-unbounded factor. Read depth: claims checked for Theorem 1.1, Definitions
-2.1--2.5, Propositions 3.4, 4.2 and 4.3 and the four-line proof of Theorem 1.1;
-the proofs of the propositions (Sections 3--4, pp. 239--242) were read for
-structure only and no step was checked; no step is independently reviewed in
-this corpus; Theorem 1.2 of the same chapter concerns Problem 146. Acceptance
-evidence: the site's label and commentary of 31 August 2026 and the thread's
-report; no refereed publication (Crossref bibliographic query for the chapter
-title, no record), no arXiv version and no written independent review were
-found. Provenance, recorded not judged: the report's author is OpenAI
-and its announcement attributes the arguments to an internal model.
+bipartite and none is a forest, the family also refutes the erdosproblems.com
+statement directly, without the two forests; and since every member has extremal
+number of order at least $n^{4/3}$, the refutation is by a power of $n$, not
+merely by an unbounded factor. Read depth: claims checked for Theorem 1.1,
+Definitions 2.1--2.5, Propositions 3.4, 4.2 and 4.3 and the four-line proof of
+Theorem 1.1; the proofs of the propositions (Sections 3--4, pp. 239--242) were
+read for structure only and no step was checked; no step is independently
+reviewed in this corpus; Theorem 1.2 of the same chapter concerns Problem 146.
+Acceptance evidence: the erdosproblems.com label and commentary of 31 August
+2026 and the thread's report; no refereed publication (Crossref bibliographic
+query for the chapter title, no record), no arXiv version and no written
+independent review were found. Provenance, recorded not judged: the report's
+author is OpenAI and its announcement attributes the arguments to an internal
+model.
 
 **The origin.** [ErSi82] (the copy read is the Rényi archive scan):
-Conjecture 1 (p. 276) with the parenthesis that became the site's bipartite
-clause, the printed direction of (5) as in the Formulation note, the
+Conjecture 1 (p. 276) with the parenthesis that became erdosproblems.com's
+bipartite clause, the printed direction of (5) as in the Formulation note, the
 companion Conjecture 2 (a constant $c_{\mathbf L}\ge1$, "probably rational",
 with $\mathrm{ex}(n,\mathbf L)/n^{c}$ converging to a positive limit), and
 the Remark (pp. 276--277) that both conjectures fail for infinite families
 (all cycles for Conjecture 1, "a slightly more complicated example" for
 Conjecture 2). The paper proves compactness theorems for cycles (Theorems
 1--3, p. 278), among them Theorem 2,
-$\mathrm{ex}(n,\{C^4,C^5\})=(n/2)^{3/2}+O(n)$, the site's source for Problem
-573; it proves nothing about Conjecture 1 for finite families.
+$\mathrm{ex}(n,\{C^4,C^5\})=(n/2)^{3/2}+O(n)$, the erdosproblems.com source for
+Problem 573; it proves nothing about Conjecture 1 for finite families.
 
 **Adjacent results and leads (not status).** [CMP26] (from its abstract)
 disproves Verstraëte's conjecture that every $C_{2k}$-free graph contains a
@@ -273,10 +274,10 @@ problems) was returned by the compactness query below and is not assessed here.
 refereed or arXiv version of the chapter, an independent review, a dispute
 of either route, or a further disproof.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing at the pinned commit (no file); the
-  community database (fetched 2026-09-18); the site's reference text for
-  ErSi82.
+  community database (fetched 2026-09-18); the erdosproblems.com reference text
+  for ErSi82.
 - The primary sources, at the pages stated: [ErSi82] pp. 276--278, 285 and
   288; [Wig22] pp. 1--2; [OpenAI26] Chapter 10, PDF pp. 239--253, with
   pp. 240--242, 244 and 246 at claims-checked depth; the Lean file at the
@@ -292,19 +293,19 @@ of either route, or a further disproof.
 Not searched: MathSciNet, zbMATH, Google Scholar, Semantic Scholar, X.
 Unread: [FS13]; the Chvátal--Hanson paper Wigderson cites.
 
-**Remaining gaps.** (1) The site's account rests on a technical report with no
-refereed publication and no independent review, whose argument is attributed to
-an AI model; the frontmatter standing is derived from the accepted OpenAI claim
-page, so it rests on that account, and route (1), as this project's own check,
-awards no acceptance. A refereed version or an independent whole-argument review
-of Theorem 1.1 is the condition for lifting the qualification on route (2). (2)
-The Lean artifact is named for Problem 180 and formalizes the eventual form of
-the cyclic-family statement; the corpus has not built it. (3) The printed
-direction of display (5) in [ErSi82] is recorded, not resolved against the
-journal's typesetting (the edition read is the archive scan). (4) Proof coverage
-is statements only on both routes' sources except the five-line Observation,
-which the page recomputes. (5) The Füredi--Simonovits survey and its Theorem
-2.32 are cited through [Wig22] only.
+**Remaining gaps.** (1) erdosproblems.com's account rests on a technical report
+with no refereed publication and no independent review, whose argument is
+attributed to an AI model; the frontmatter standing is derived from the accepted
+OpenAI claim page, so it rests on that account, and route (1), as this project's
+own check, awards no acceptance. A refereed version or an independent
+whole-argument review of Theorem 1.1 is the condition for lifting the
+qualification on route (2). (2) The Lean artifact is named for Problem 180 and
+formalizes the eventual form of the cyclic-family statement; the corpus has not
+built it. (3) The printed direction of display (5) in [ErSi82] is recorded, not
+resolved against the journal's typesetting (the edition read is the archive
+scan). (4) Proof coverage is statements only on both routes' sources except the
+five-line Observation, which the page recomputes. (5) The Füredi--Simonovits
+survey and its Theorem 2.32 are cited through [Wig22] only.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

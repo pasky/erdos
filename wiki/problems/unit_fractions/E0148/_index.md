@@ -38,9 +38,9 @@ length $k$; the number of subsets of $\{1,\ldots,N\}$ with reciprocal sum
 $1$, a count with a denominator cutoff and no length restriction, is
 [[problems/unit_fractions/E0297/_index|Problem 297]] and is not $F(k)$.
 
-**Status.** Labeled open on the site: the label was OPEN (page last edited 27
-September 2025), with no proof claim on its tab. The order of the double
-logarithm is fixed: $ck\le\log\log F(k)\le Ck$ for all large $k$. This is
+**Status.** Labeled open on erdosproblems.com: the label was OPEN (page last
+edited 27 September 2025), with no proof claim on its tab. The order of the
+double logarithm is fixed: $ck\le\log\log F(k)\le Ck$ for all large $k$. This is
 Corollary 1.2 of the OpenAI mathematics release's manuscript of 25 September
 2026
 ([[problems/unit_fractions/E0148/claims/2026_09_25_openai|its claim page]]). The
@@ -110,15 +110,16 @@ corpus's verification, is recorded on the claim page linked under Status.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks for good estimates of $F(k)$,
-cites [ErGr80, p. 32], shows OPEN and marks the problem as not resolvable by a
-finite computation, lists no proof exposition and no proof claim, and records in
-its commentary a lower bound of the shape $2^{c^{k/\log k}}$ with an absolute
-$c>0$, attributed to Konyagin [Ko14], and an upper bound written as
-$c_0^{(1/5+o(1))2^k}$ with $c_0=1.26408\cdots$, the constant it calls the Vardi
-constant, attributed to Elsholtz and Planitzer [ElPl21]. The form
-$2^{c^{k/\log k}}$ is $\exp(\exp((\log c)\,k/\log k+\log\log2))$, the shape of
-Konyagin's bound; the upper bound's constant is discussed below.
+**The question.** On 2026-09-17 erdosproblems.com asks for good estimates of
+$F(k)$, cites [ErGr80, p. 32], shows OPEN and marks the problem as not
+resolvable by a finite computation, lists no proof exposition and no proof
+claim, and records in its commentary a lower bound of the shape
+$2^{c^{k/\log k}}$ with an absolute $c>0$, attributed to Konyagin [Ko14], and an
+upper bound written as $c_0^{(1/5+o(1))2^k}$ with $c_0=1.26408\cdots$, the
+constant it calls the Vardi constant, attributed to Elsholtz and Planitzer
+[ElPl21]. The form $2^{c^{k/\log k}}$ is
+$\exp(\exp((\log c)\,k/\log k+\log\log2))$, the shape of Konyagin's bound; the
+upper bound's constant is discussed below.
 
 **Claims.** Four claim pages, each partial and proved; three are accepted:
 [[problems/unit_fractions/E0148/claims/2014_01_01_konyagin|Konyagin's lower
@@ -174,12 +175,12 @@ with the same bound for every positive rational (Corollary 1, p. 314) and the
 monotonicity $F(n)\le F(n+1)$ (inequality (1), p. 312, by an explicit
 injection). The printed proof has a known defect: the displayed identity on p.
 314 immediately before its equation (4) is false (it fails at $k=2$, $m=1$).
-This was reported in the site's discussion thread on 5 September 2025, and a
-comment of 29 December 2025 reports the author's agreement, a corrected identity
-and a missing odd-$m$ hypothesis in the paper's Lemma 1, with the main result
-unaffected; the corrected argument is unpublished and unverified, and on
-2026-09-17 no erratum appeared in the MathNet, Crossref or publisher records of
-either version. Independently of that step,
+This was reported in the erdosproblems.com discussion thread on 5 September
+2025, and a comment of 29 December 2025 reports the author's agreement, a
+corrected identity and a missing odd-$m$ hypothesis in the paper's Lemma 1, with
+the main result unaffected; the corrected argument is unpublished and
+unverified, and on 2026-09-17 no erratum appeared in the MathNet, Crossref or
+publisher records of either version. Independently of that step,
 [[../library/unit_fractions/elsholtz_2016_egyptian_fractions_odd_denominators/corollary_1_2|Elsholtz's
 Corollary 1.2]] (arXiv v1, p. 3; Q. J. Math. 67 (2016)) proves that for odd $k$
 large enough the number of representations with distinct odd denominators is at
@@ -222,15 +223,16 @@ where $f_k(1,1)$ counts nondecreasing $k$-tuples with reciprocal sum $1$
 The corollary follows from their Theorem 2, the lifting of the four-fraction
 Theorem 1 to
 $f_k(m,n)\ll_\varepsilon(kn)^\varepsilon(k^{4/3}n^2/m)^{(8/5)2^{k-5}}$; the
-paper refers the corollary's proof to two earlier papers. The site's commentary
-writes this bound as $c_0^{(1/5+o(1))2^k}$ with $c_0=1.26408\ldots$, pairing the
-source's exponent with the monograph's normalization of the constant; as the
-source prints it, the exponent of the Vardi constant is $(2/5+o(1))2^k$, twice
-the site's, and the printed bound is then weaker than the Browning--Elsholtz
-bound below, which the paper improves. The successive improvements of the lifted
-exponent ($5/3$, $28/17$, $8/5$) give $5/24$, $7/34$ and $1/5$ as the
-coefficient of $2^k$ in the exponent of $E$, so the site's form is what
-Corollary 3(2) gives when read with $u_1=1$; the
+paper refers the corollary's proof to two earlier papers. The erdosproblems.com
+commentary writes this bound as $c_0^{(1/5+o(1))2^k}$ with $c_0=1.26408\ldots$,
+pairing the source's exponent with the monograph's normalization of the
+constant; as the source prints it, the exponent of the Vardi constant is
+$(2/5+o(1))2^k$, twice erdosproblems.com's, and the printed bound is then weaker
+than the Browning--Elsholtz bound below, which the paper improves. The
+successive improvements of the lifted exponent ($5/3$, $28/17$, $8/5$) give
+$5/24$, $7/34$ and $1/5$ as the coefficient of $2^k$ in the exponent of $E$, so
+the erdosproblems.com form is what Corollary 3(2) gives when read with $u_1=1$;
+the
 [[problems/unit_fractions/E0148/claims/2020_12_10_elsholtz_planitzer|claim
 page]] gives the arithmetic, and this page records both forms. The earlier upper
 bounds were the monograph's $E^{2^{n+1}}$ (1980) and Browning and Elsholtz's
@@ -265,7 +267,7 @@ side or gave an asymptotic formula; the release's Corollary 1.2 of 25 September
   Doorn--Tang, inequality (1.2)]], arXiv v2 p. 1; the paper is published
   online in Math. Proc. Cambridge Philos. Soc., 2026). Upper bounds for $F(k)$
   thus bound $v(k)$; they write the result as $c_0^{(1/5+o(1))2^k}$ with
-  $c_0=1.264085\ldots$, the site's form, citing Corollary 3, so the
+  $c_0=1.264085\ldots$, the erdosproblems.com form, citing Corollary 3, so the
   normalization remark above applies to it too. Their lower bound $v(k)\ge
   e^{ck^2}$ gives through (1.2) only $F(k)\ge(e^{ck^2}-2)/k$, far below the
   doubly exponential lower bounds above.
@@ -279,7 +281,7 @@ side or gave an asymptotic formula; the release's Corollary 1.2 of 25 September
   used above only as bounds.
 
 **Unverified web items (none is progress).** On 2026-09-17 the discussion
-thread held two comments, which the site does not verify: one of 5
+thread held two comments, which erdosproblems.com does not verify: one of 5
 September 2025 (Quanyu Tang) reporting the false identity in Konyagin's
 proof and noting that Elsholtz's 2016 result covers the order of the lower
 bound, and one of 29 December 2025 (posted as "Woett") relaying by e-mail
@@ -288,7 +290,7 @@ is recorded as reported and is unverified. A third comment, of 22 September
 2026, reports the exact values $F(1),\ldots,F(8)=1,0,1,6,72,2320,245765,
 151182379$ from an exhaustive search, with its code on GitLab, and says
 that it is not a theoretical result; the values agree with $F(3)=1$ above
-and with OEIS A006585, which the site links together with A076393. A
+and with OEIS A006585, which erdosproblems.com links together with A076393. A
 computation of finitely many values settles nothing in an estimate
 question, so it has no claim page.
 
@@ -297,9 +299,9 @@ had found a proof of an asymptotic formula, an improved bound or a proof claim.
 The release's manuscript of 25 September 2026, recorded under Claims, postdates
 this search.
 
-- The site: problem page, discussion thread, proof-claim tab; the community
-  database record (open, unformalized); formal-conjectures as fetched on
-  2026-09-17 (no file 148).
+- erdosproblems.com: problem page, discussion thread, proof-claim tab; the
+  community database record (open, unformalized); formal-conjectures as fetched
+  on 2026-09-17 (no file 148).
 - The primary sources cited above: [Ko14] (Russian original, printed pp.
   312--314), [ElPl21] (arXiv v1, pp. 1--5), [El16] (arXiv v1, pp. 1--3),
   [ErGr80] (p. 32), [DoTa25] (arXiv v2, pp. 1--2), [Er50] (p. 194).

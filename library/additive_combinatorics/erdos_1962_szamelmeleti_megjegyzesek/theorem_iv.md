@@ -27,7 +27,7 @@ has no solution for any choice of $s_1\ne s_2$: two sums of distinct terms
 with different numbers of summands never coincide, or, as the English
 summary (p. 38) says of the equation (1'), it "is not solvable for every
 choice of $s_1\ne s_2$". This is the property Straus later called admissibility
-(the definition of the site's Problems 789, 874 and 875).
+(the definition of erdosproblems.com's Problems 789, 874 and 875).
 
 **Theorem IV** (printed p. 34). Let $A$ be a sequence for which (1') has no
 solution. Then for every $x$
@@ -116,14 +116,14 @@ Math. 8 (1950), 68–75; not held here.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0789/_index|Problem 789]]: the site's
-  "Erdős [Er62c] proved $h(n)\ll n^{5/6}$". Theorem IV bounds the counting
-  function of an admissible sequence; applied to the admissible subsets of
-  $A=\{1,\ldots,n\}$ (the finite form above) it gives $h(n)\le Cn^{5/6}$
-  for the problem's $h(n)$, a one-line deduction made here. The paper
-  contains no lower bound for $h(n)$; the site's attribution to [Er62c] of
-  the improvement $h(n)\gg(n\log n)^{1/3}$ is not supported by its eleven
-  pages, which carry no statement of that form.
+- [[../wiki/problems/additive_combinatorics/E0789/_index|Problem 789]]:
+  erdosproblems.com's "Erdős [Er62c] proved $h(n)\ll n^{5/6}$". Theorem IV
+  bounds the counting function of an admissible sequence; applied to the
+  admissible subsets of $A=\{1,\ldots,n\}$ (the finite form above) it gives
+  $h(n)\le Cn^{5/6}$ for the problem's $h(n)$, a one-line deduction made here.
+  The paper contains no lower bound for $h(n)$; the erdosproblems.com
+  attribution to [Er62c] of the improvement $h(n)\gg(n\log n)^{1/3}$ is not
+  supported by its eleven pages, which carry no statement of that form.
 - [[../wiki/problems/additive_combinatorics/E0874/_index|Problem 874]]: the origin of the
   admissibility condition (Deshouillers and Freiman, p. 141: "introduced by
   P. Erdős in 1962 ... and called admissibility by E.G. Straus in 1966"),

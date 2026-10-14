@@ -34,9 +34,9 @@ proof-claims tab of [[problems/irrationality/E0263/_index|Problem 263]] gives
 a Lean 4 and Mathlib proof, following Erdős's 1975 argument, that every
 monotone sequence of positive integers with $a_n^{1/2^n}\to\infty$ has
 $\sum1/a_n$ irrational: the monotone case of the folklore root criterion the
-site's remarks state. The development, generated with Kimi K3 under Lystad's
-direction, is in the repository linked above and archived on Zenodo, with the
-write-up `PROOF-1975.md`; the entry reports the axioms `propext`,
+erdosproblems.com remarks state. The development, generated with Kimi K3 under
+Lystad's direction, is in the repository linked above and archived on Zenodo,
+with the write-up `PROOF-1975.md`; the entry reports the axioms `propext`,
 `Classical.choice` and `Quot.sound` only.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by T.

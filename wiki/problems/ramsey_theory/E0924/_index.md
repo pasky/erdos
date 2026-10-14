@@ -26,21 +26,21 @@ updated: 2026-10-08T14:06:00Z
 no $K_{l+1}$ such that every $k$-colouring of the edges of $G$ contains a
 monochromatic copy of $K_l$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
-last-edited date). The graphs of the sources are finite. A graph with no
-$K_{l+1}$ that forces a monochromatic $K_l$ has clique number exactly $l$, so
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited date). The graphs of the sources are finite. A graph with
+no $K_{l+1}$ that forces a monochromatic $K_l$ has clique number exactly $l$, so
 the question asks for a graph of clique number $l$ that is Ramsey for $K_l$ in
 $k$ colors; Folkman's function $f(k_1,\dots,k_n)$, the least clique number of a
 graph in which every $n$-partition of the edges has, for some $i$, $k_i$
 mutually adjacent vertices joined within the $i$th class, makes the question
 $f(l,\dots,l)=l$ with $k$ entries. The origin's wording (Erdős 1969, printed p.
-33) is the site's, with edges colored; Erdős's 1975 report of the same question
-prints "colours its vertices", a discrepancy recorded below (for vertex
-colorings the question is settled for every $k$ by Folkman's Theorem 2). The
-site's Problem 582 is the case $l=3$, $k=2$; Problem 966 is the arithmetic
-analog.
+33) is erdosproblems.com's, with edges colored; Erdős's 1975 report of the same
+question prints "colours its vertices", a discrepancy recorded below (for vertex
+colorings the question is settled for every $k$ by Folkman's Theorem 2).
+erdosproblems.com's Problem 582 is the case $l=3$, $k=2$; Problem 966 is the
+arithmetic analog.
 
-**Status.** The site labeled the problem PROVED. The claim pages
+**Status.** Bloom's catalog labeled the problem PROVED. The claim pages
 [[problems/ramsey_theory/E0924/claims/1970_01_01_folkman|Folkman 1970]] (the
 case $k=2$, partial) and
 [[problems/ramsey_theory/E0924/claims/1976_06_01_nesetril_rodl|Nešetřil and Rödl 1976]]
@@ -53,14 +53,14 @@ theorem of Nešetřil and Rödl [NeRo76] (J. Combin. Theory Ser. B 20 (1976), no
 every number $c$ of colors there is a graph $H$ with $H\to(G)_c$ and clique
 number $\omega(H)=\omega(G)$. With $G=K_l$ and $c=k$, this is the statement.
 That paper is not held. Its theorem is quoted second-hand from the introduction
-of Spencer's refereed 1975 paper, from Erdős's 1975 report and from the site,
-which accepts it. Folkman's own paper states the case of more than two colors as
-a conjecture his methods do not seem to reach. The general case therefore rests
-on second-hand statements of the Nešetřil--Rödl theorem.
+of Spencer's refereed 1975 paper, from Erdős's 1975 report and from
+erdosproblems.com, which accepts it. Folkman's own paper states the case of more
+than two colors as a conjecture his methods do not seem to reach. The general
+case therefore rests on second-hand statements of the Nešetřil--Rödl theorem.
 
 **Source.** [erdosproblems.com/924](https://www.erdosproblems.com/924),
-accessed 2026-09-18: the problem page (PROVED, which the site glosses as
-solved in the affirmative; no last-edited date; source keys [Er69b], [Er75b],
+accessed 2026-09-18: the problem page (PROVED, which erdosproblems.com glosses
+as solved in the affirmative; no last-edited date; source keys [Er69b], [Er75b],
 and [Fo70], [NeRo76] in the commentary), its empty discussion thread and its
 empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #924,
 https://www.erdosproblems.com/924, accessed 2026-09-18.
@@ -76,7 +76,7 @@ https://www.erdosproblems.com/924, accessed 2026-09-18.
   forbidden complete subgraphs. J. Combinatorial Theory Ser. B 20 (1976),
   no. 3, 243--249, doi:10.1016/0095-8956(76)90015-0 (the publisher's record
   dates the issue June 1976). Not held. Quoted second-hand from [Sp75],
-  [Er75b] and the site.
+  [Er75b] and erdosproblems.com.
 - [Er69b] Erdős, P., Problems and results in chromatic graph theory. Proof
   Techniques in Graph Theory (Proc. Second Ann Arbor Graph Theory Conf., Ann
   Arbor, Mich., 1968), Academic Press (1969), 27--35; printed p. 33. Library
@@ -93,7 +93,8 @@ https://www.erdosproblems.com/924, accessed 2026-09-18.
   6, p. 286. Library home:
   [[../library/ramsey_theory/spencer_1975_restricted_ramsey_configurations/_index|spencer_1975_restricted_ramsey_configurations]].
 - [ErHa67] Erdős, P. and Hajnal, A., Research problem 2-5. J. Combinatorial
-  Theory 2 (1967), p. 104. Folkman's reference [1]; the site's key for Problem
+  Theory 2 (1967), p. 104. Folkman's reference [1]; the erdosproblems.com key
+  for Problem
   582. Not held.
 - [Gr68] Graham, R. L., On edgewise 2-colored graphs with monochromatic
   triangles and containing no complete hexagon. J. Combinatorial Theory 4
@@ -104,18 +105,18 @@ https://www.erdosproblems.com/924, accessed 2026-09-18.
 formal-conjectures when its directory on `main` was listed on 2026-09-18 (672
 entries). The community database, read 2026-09-18, records the problem proved
 (its record last updated 31 August 2025), not formalized, `formal_status`
-unformalized and no formal proof; the site's indicator reads "Formalised
-statement? No".
+unformalized and no formal proof; the erdosproblems.com indicator reads
+"Formalised statement? No".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; PROVED,
-glossed by the site as solved in the affirmative; no last-edited date. The
-commentary attributes the question to Erdős and Hajnal, credits Folkman [Fo70]
-with the case $k=2$ and Nešetřil and Rödl [NeRo76] with general $k$, and points
-to Problem 582 as a special case and Problem 966 as an arithmetic analog. The
-discussion thread and the proof-claim tab are empty. The community database,
-read 2026-09-18, records proved and unformalized.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED, glossed by erdosproblems.com as solved in the affirmative; no
+last-edited date. The commentary attributes the question to Erdős and Hajnal,
+credits Folkman [Fo70] with the case $k=2$ and Nešetřil and Rödl [NeRo76] with
+general $k$, and points to Problem 582 as a special case and Problem 966 as an
+arithmetic analog. The discussion thread and the proof-claim tab are empty. The
+community database, read 2026-09-18, records proved and unformalized.
 
 **The origin.** Erdős 1969 [Er69b], printed p. 33: "One final problem of Hajnal
 and myself: Is it true that for every $l\ge3$ and $k\ge2$ there is a graph $G$
@@ -125,16 +126,16 @@ conjecture for $k=2$." Erdős's reference [26] is Folkman's talk at the Santa
 Barbara symposium of 1967, at which Folkman's paper was presented; the passage
 continues with the question what can be said about the independence number of a
 graph whose edges can be $2$-colored without a monochromatic triangle. The
-site's statement follows this wording. Erdős 1975 [Er75b], Section IV (i),
-printed p. 306, presents the same question as the motivation for Problem 966:
-"Is it true that for every $\ell$ and $r$ there is a graph not containing a
+erdosproblems.com statement follows this wording. Erdős 1975 [Er75b], Section IV
+(i), printed p. 306, presents the same question as the motivation for Problem
+966: "Is it true that for every $\ell$ and $r$ there is a graph not containing a
 $K(\ell+1)$ (i. e. a complete graph of $\ell+1$ vertices) but if one colours its
 vertices by $r$ colours, then at least one colour contains a $K(\ell)$ ?" Erdős
 then credits Folkman with the existence of such a graph for $r=2$ and every $l$,
 guesses that Folkman had a proof for $r\le4$, and reports that "the problem was
 settled in full generality by Nesetril an [sic] Rödl (their paper is not yet
-published)". The printed "vertices" does not match the 1969 wording, the site's,
-or the theorems credited: for vertex colorings Folkman's
+published)". The printed "vertices" does not match the 1969 wording,
+erdosproblems.com's, or the theorems credited: for vertex colorings Folkman's
 [[../library/set_theory/folkman_1970_graphs_monochromatic_complete_subgraphs_every_edge/theorem_2|Theorem 2]]
 (with $G=K_l$) already gives every number of colors. Folkman's paper (p. 19)
 says its investigation "was motivated by the question (first raised by P. Erdős
@@ -156,7 +157,7 @@ proof (pp. 21--23) is an induction on $k_1+k_2$ that builds the graph from the
 vertex-partition graphs $H(n,G)$ of Theorem 2 by a product construction; its
 structure is recorded and no step of it is checked in this corpus. Acceptance:
 publication in a refereed journal (the publisher's record confirms volume 18,
-issue 1, January 1970) and the site's adoption.
+issue 1, January 1970) and erdosproblems.com's adoption.
 
 **Every $k$ (second-hand).** Folkman's closing Remarks
 ([[../library/set_theory/folkman_1970_graphs_monochromatic_complete_subgraphs_every_edge/conjecture_p23|pp. 23--24]])
@@ -177,13 +178,13 @@ the edges of $H$ yields a monochromatic $G$ and $w$ is the clique number, and
 Spencer's reference [6] (p. 286) is the paper, then to appear in J.
 Combinatorial Theory Ser. B. With $G=K_l$ and $c=k$ the graph $H$ has clique
 number $l$, so no $K_{l+1}$, and every $k$-coloring of its edges has a
-monochromatic $K_l$. Erdős's 1975 report, quoted above, and the site's
-commentary attest the same theorem. The paper is not held, so its published
-statement and proof are quoted second-hand; the publisher's record confirms the
-journal, volume and pages, and the Semantic Scholar list of works citing it (the
-first hundred records, 1986 to 2026, scanned by title, among them surveys of
-Folkman numbers and of the Nešetřil--Rödl Ramsey-class program) records no
-dispute.
+monochromatic $K_l$. Erdős's 1975 report, quoted above, and the
+erdosproblems.com commentary attest the same theorem. The paper is not held, so
+its published statement and proof are quoted second-hand; the publisher's record
+confirms the journal, volume and pages, and the Semantic Scholar list of works
+citing it (the first hundred records, 1986 to 2026, scanned by title, among them
+surveys of Folkman numbers and of the Nešetřil--Rödl Ramsey-class program)
+records no dispute.
 
 **Neighbors.** [[problems/ramsey_theory/E0582/_index|Problem 582]] is the case
 $l=3$, $k=2$, an existence question whose commentary records bounds on the least
@@ -198,7 +199,7 @@ asks the case $l=3$ for countably many colors, for an infinite $K_4$-free graph.
 **Search scope (2026-09-18 UTC).** None of the routes below found a dispute of
 either theorem or an open copy of [NeRo76].
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing of 2026-09-18 (no file);
   the community database.
 - Publisher records: Crossref for [Fo70] and [NeRo76].
@@ -217,7 +218,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [NeRo76],
 [ErHa67], [Gr68], Folkman's 1967 symposium talk.
 
 **Remaining gaps.** (1) The theorem for $k\ge3$ rests on a paper not held,
-attested by a refereed paper, by Erdős and by the site; the reopening
+attested by a refereed paper, by Erdős and by erdosproblems.com; the reopening
 condition is a readable copy of J. Combin. Theory Ser. B 20 (1976), 243--249.
 (2) Folkman's proof is compiled as a statement with a structural pointer; no
 step is checked. (3) The 1975 origin passage prints "vertices" where the

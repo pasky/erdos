@@ -25,7 +25,7 @@ updated: 2026-10-08T13:36:19Z
 disk contains three points which determine a triangle of area at most
 $\alpha(n)$. Estimate $\alpha(n)$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 30
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 30
 December 2025). Its proof-claims thread carried no claim on 6 October 2026.
 The claim pages record the refereed bounds of Komlós, Pintz and Szemerédi and of
 Cohen, Pohoata and Zakharov as accepted partial claims. They also record a
@@ -60,8 +60,8 @@ https://www.erdosproblems.com/507.
 This is Heilbronn's triangle problem in the unit disk: $\alpha(n)$ is the
 largest area $a$ such that some $n$ points in the unit disk have every
 triangle of area at least $a$, and the question is its order of growth. The
-site's remarks (page last edited 30 December 2025) record the trivial bound
-$\alpha(n)\ll1/n$, Erdős's observation that $\alpha(n)\gg1/n^2$, and as
+erdosproblems.com remarks (page last edited 30 December 2025) record the trivial
+bound $\alpha(n)\ll1/n$, Erdős's observation that $\alpha(n)\gg1/n^2$, and as
 the best bounds
 
 $$
@@ -74,9 +74,9 @@ from Cohen, Pohoata and Zakharov [CPZ24]
 the release preprint cites its publication in Invent. Math. 240 (2025)),
 which improved their earlier exponent $8/7+1/2000$ [CPZ23]
 ([[../library/discrete_geometry/cohen_2023_new_upper_bound_heilbronn_triangle_problem/_index|card]])
-and the exponent $8/7$ of Komlós, Pintz and Szemerédi [KPS81]. The site notes
-that the problem is Problem 77 on Green's open problems list. The problem is
-usually stated for the unit square, with $\Delta(n)$ the square's quantity;
+and the exponent $8/7$ of Komlós, Pintz and Szemerédi [KPS81]. erdosproblems.com
+notes that the problem is Problem 77 on Green's open problems list. The problem
+is usually stated for the unit square, with $\Delta(n)$ the square's quantity;
 the two quantities have the same order. A translate of the unit square lies
 inside the disk of radius one, so $\Delta(n)\le\alpha(n)$, and the disk
 lies inside a square of side two, which scales to the unit square with every

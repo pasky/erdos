@@ -69,12 +69,12 @@ of $n$ (the $\sigma_k$ of Bloom's catalog) and $\delta=\delta_1$.
   overlooking a simple argument. $\sum_{n=1}^{\infty}\varphi(n)/2^n$ and
   $\sum_{n=1}^{\infty}\delta(n)/2^n$, $\delta(n)=\delta_1(n)$, are no doubt
   also irrational but this is probably unattackable by my methods." These
-  are the questions of problems 69, 249 and 250; the site cites this page
-  for problems 249 and 250.
+  are the questions of problems 69, 249 and 250; erdosproblems.com cites this
+  page for problems 249 and 250.
 - "Kac and I [2] proved that $\sum_{n=1}^{\infty}\delta_k(n)/n!$ is
   irrational for $k=1$ and $k=2$. Our proof does not seem to work for
   $k>2$, but perhaps we again are overlooking a simple argument." This is
-  the question of problem 252; the site cites this page for it.
+  the question of problem 252; erdosproblems.com cites this page for it.
 
 Printed p. 103 (physical PDF p. 2) restates the 1958 claim that
 $\sum p_n^k/n!$ is irrational for every $k$ (the 1958 paper proves $k=1$

@@ -57,6 +57,6 @@ which supplies the matching lower half $d_r(3)\ge3r-3$.
 
 **Acceptance.** Refereed publication in Combinatorica. The publisher's record
 gives volume 25, issue 1, pp. 77--84, issued December 2004 with no day recorded,
-so this page is dated the issue's first day. The site labeled the problem OPEN,
-so its commentary crediting the bound is not listed as `reviewed` evidence. This
-claim is partial, so the problem stays open.
+so this page is dated the issue's first day. Bloom's catalog labeled the problem
+OPEN, so its commentary crediting the bound is not listed as `reviewed`
+evidence. This claim is partial, so the problem stays open.

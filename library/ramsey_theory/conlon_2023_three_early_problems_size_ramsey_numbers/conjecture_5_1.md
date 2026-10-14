@@ -47,4 +47,4 @@ None (a conjecture).
 
 - [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]]: the conjectured answer
   $\hat r(K_{n,n})=\Theta(n^32^n)$, stated by the authors of the strongest
-  partial results as open in 2023; the site's commentary repeats it.
+  partial results as open in 2023; the erdosproblems.com commentary repeats it.

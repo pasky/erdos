@@ -52,7 +52,7 @@ North-Holland (1975), 269--273.
 Pure Math. VIII (Theory of Numbers), Amer. Math. Soc. (1965), 181--189, DOI
 10.1090/pspum/008/0174539; printed p. 187 (PDF p. 7 of the eleven-page
 scan read for this page) and the Additions on printed p. 190 (PDF p. 10), read on
-the page images; the site's key [Er65, p. 187] for Problem 787.
+the page images; the erdosproblems.com key [Er65, p. 187] for Problem 787.
 
 **Read depth.** Claims checked: the passage was read clause by clause on
 the page image. The limit $\phi(n)\to\infty$ is stated as the paper's own

@@ -31,8 +31,8 @@ e70009, [doi:10.1112/mtk.70009](https://doi.org/10.1112/mtk.70009),
 published 27 January 2025; the journal version was not obtained or compared,
 and the locators below are the preprint's. The preprint's Theorem 2 (p. 2,
 read on the rendered page image) is stated for the absolute value
-$|\sum_{\ell=n}^m1/\ell-1|$, as the site's commentary for Problem 314 and a
-comment of 22 January 2026 in its discussion thread report for the
+$|\sum_{\ell=n}^m1/\ell-1|$, as the erdosproblems.com commentary for Problem 314
+and a comment of 22 January 2026 in its discussion thread report for the
 published version; the paper adds, without proof, that the sum could
 further be forced above $1$. Read status: Theorems 1 and 2
 (pp. 1--2) and the quoted Erdős--Graham passage (p. 1) were read clause by

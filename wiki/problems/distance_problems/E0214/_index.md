@@ -26,18 +26,18 @@ updated: 2026-10-08T00:44:25Z
 are distance $1$ apart. Must the complement of $S$ contain four points which
 form a unit square?
 
-**Status.** Proved. The site's label was PROVED (LEAN). Juhász's 1979 theorem
-gives the stronger conclusion that the complement contains a congruent copy of
-every prescribed four-point set. The theorem is recorded in `claims/` as an
-accepted claim, from which the problem's standing derives. The site's Lean
-qualifier refers to the public formalizations discussed below. This corpus has
-built neither of them.
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN). Juhász's 1979
+theorem gives the stronger conclusion that the complement contains a congruent
+copy of every prescribed four-point set. The theorem is recorded in `claims/` as
+an accepted claim, from which the problem's standing derives. The
+erdosproblems.com Lean qualifier refers to the public formalizations discussed
+below. This corpus has built neither of them.
 
 
 **Source.** T. F. Bloom, [Erdős Problem #214](https://www.erdosproblems.com/214),
 with its discussion and proof-claim thread. The page was last edited April 2,
-2026. The site's original locator is [Er83c, p. 47], Erdős's 1983 survey
-*Combinatorial problems in geometry*, carded as
+2026. erdosproblems.com's original locator is [Er83c, p. 47], Erdős's 1983
+survey *Combinatorial problems in geometry*, carded as
 [[../library/distance_problems/erdos_1983_combinatorial_problems_geometry/_index|erdos_1983_combinatorial_problems_geometry]].
 The solved square question is separate from the still-undetermined general
 configuration threshold treated below.
@@ -65,7 +65,7 @@ formalizations; this corpus has built none of them.
 The threshold $\kappa$ is defined in the later section
 "The related universal configuration threshold".
 
-The site reports $4\le\kappa\le7$ as the best-known bounds. Neither the
+erdosproblems.com reports $4\le\kappa\le7$ as the best-known bounds. Neither the
 original geometric papers nor the later primary literature carded in the
 library, such as the
 [[../library/discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/_index|Conlon–Fox paper]],

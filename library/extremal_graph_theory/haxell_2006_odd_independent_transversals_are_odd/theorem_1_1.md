@@ -108,8 +108,8 @@ $\Delta_6=3/5$.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1078/_index|Problem 1078]]: the theorem behind
-  the site's sharp threshold $(r-1)n-\lceil\frac{sn}{2s-1}\rceil$,
+  erdosproblems.com's sharp threshold $(r-1)n-\lceil\frac{sn}{2s-1}\rceil$,
   $s=\lfloor r/2\rfloor$, which the problem page derives by complementation;
   its introduction attests that [9], Haxell's 2001 note, proved
-  $\Delta_r\ge1/2$ and thereby the 1975 conjecture, the site's status-defining
-  source, which is not held.
+  $\Delta_r\ge1/2$ and thereby the 1975 conjecture, erdosproblems.com's
+  status-defining source, which is not held.

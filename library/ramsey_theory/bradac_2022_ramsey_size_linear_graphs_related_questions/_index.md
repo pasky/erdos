@@ -95,12 +95,13 @@ no-isolate target graphs.
 
 Source: <https://arxiv.org/abs/2202.10388v2>.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0567/_index|#567]]: the site's $H_5$ is
-$K_4^*$; Theorem 3 settles it for bipartite targets, Theorem 4 covers every
-other subdivision of $K_4$ and leaves the five-vertex $K_4^*$ open, and
-Theorem 2 gives $R(G,K_n)=O(n^3)$ for each of $Q_3$, $K_{3,3}$ and $K_4^*$,
-which are connected with $e-v\le4$, and Section 6 (p. 15) proves the sharper
-$R(K_4^*,K_n)=O(n^{5/2})$; [[../wiki/problems/ramsey_theory/E0568/_index|#568]]
+**Bears on.** [[../wiki/problems/ramsey_theory/E0567/_index|#567]]:
+erdosproblems.com's $H_5$ is $K_4^*$; Theorem 3 settles it for bipartite
+targets, Theorem 4 covers every other subdivision of $K_4$ and leaves the
+five-vertex $K_4^*$ open, and Theorem 2 gives $R(G,K_n)=O(n^3)$ for each of
+$Q_3$, $K_{3,3}$ and $K_4^*$, which are connected with $e-v\le4$, and Section 6
+(p. 15) proves the sharper $R(K_4^*,K_n)=O(n^{5/2})$;
+[[../wiki/problems/ramsey_theory/E0568/_index|#568]]
 
 **Results.**
 

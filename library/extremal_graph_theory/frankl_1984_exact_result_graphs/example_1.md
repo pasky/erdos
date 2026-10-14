@@ -65,4 +65,4 @@ None.
 - [[../wiki/problems/extremal_graph_theory/E0794/_index|Problem 794]]: $H_S$
   is the base of the iterated construction behind the lower bound of
   [[extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_3|Theorem 3]],
-  which the problem page cites for the site's density reading.
+  which the problem page cites for erdosproblems.com's density reading.

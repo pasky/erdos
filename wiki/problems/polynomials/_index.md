@@ -139,5 +139,5 @@ $\max_{x\in[a,b]}\lambda(x)>(\frac{2}{\pi}-o(1))\log n$.
 Extremal and approximation problems for polynomials, including coefficient and
 norm bounds, zero distribution, and random polynomials.
 
-Site tags routed here: analysis, divisors, number theory, polynomials,
-probability.
+erdosproblems.com tags routed here: analysis, divisors, number theory,
+polynomials, probability.

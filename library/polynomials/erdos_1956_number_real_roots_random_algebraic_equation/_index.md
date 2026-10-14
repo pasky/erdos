@@ -79,7 +79,7 @@ almost surely. The Theorem (p. 139) gives, for each degree n, the count
 o((log log n)^{-1/2}) of the sign choices, so R_n/log n -> 2/pi in
 probability; it does not give the almost-sure limit. The problem fixes no
 constant coefficient, while (1.1) fixes it at 1; since f and -f have the same
-roots, the count is the same. The site also lists the paper among the
+roots, the count is the same. erdosproblems.com also lists the paper among the
 references of Problem 522, on the roots in the closed unit disk; the paper
 counts real roots only and states nothing about that question.
 

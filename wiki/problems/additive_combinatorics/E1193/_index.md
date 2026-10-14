@@ -35,15 +35,15 @@ always $0$? Is the upper density always $<c$ for some constant $c<1$?
 **Status.** SOLVED (LEAN). The answer to both questions is no as the statement
 stands. Take $A=\mathbb N$ and $g(n)=n+1$. Then the set in question is all of
 $\mathbb N$, of density $1$, so neither conjectured bound holds. The derived
-standing therefore records a disproof rather than the plain answer the site's
-label carried. Both questions ask whether a bound always holds, and the
-counterexample refutes each. The counterexample was posted on the site's thread
-on 2026-04-13 with a Lean file. The site's commentary adopted it, presuming that
-Erdős intended restrictions on $g$ or $A$ not recorded in [Er80]. It is recorded
-on
+standing therefore records a disproof rather than the plain answer the
+erdosproblems.com label carried. Both questions ask whether a bound always
+holds, and the counterexample refutes each. The counterexample was posted on the
+erdosproblems.com thread on 2026-04-13 with a Lean file. The erdosproblems.com
+commentary adopted it, presuming that Erdős intended restrictions on $g$ or $A$
+not recorded in [Er80]. It is recorded on
 [[problems/additive_combinatorics/E1193/claims/2026_04_13_monticone|its claim page]]
-and accepted on the site's documented adoption, not on any review by this
-project. The label's Lean mark refers to that file and its copy in the
+and accepted on erdosproblems.com's documented adoption, not on any review by
+this project. The label's Lean mark refers to that file and its copy in the
 lean-proofs repository, listed on the claim page and not built here.
 
 **Source.** [erdosproblems.com/1193](https://www.erdosproblems.com/1193),

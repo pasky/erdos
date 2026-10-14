@@ -50,10 +50,10 @@ The statement is the erdosproblems.com relation for every finite $k\ge1$ with
 $k$ triangle targets and $k+1$ colors; the erdosproblems.com instance $k=0$ has
 one color and is trivial. The added hypothesis $\mathrm{MA}_{\aleph_1}$ is
 consistent relative to ZFC, so the theorem shows the erdosproblems.com relation
-not disprovable in ZFC; it does not prove it in ZFC, and the site's summary of
-the claim says the ZFC case remains open. The introduction's remark that its
-case $k=1$ is Baumgartner's relation refers to the paper's hypothesis; the
-erdosproblems.com instance $k=1$, $\omega_1^2\to(\omega_1\omega,3)^2$, is a
+not disprovable in ZFC; it does not prove it in ZFC, and the erdosproblems.com
+summary of the claim says the ZFC case remains open. The introduction's remark
+that its case $k=1$ is Baumgartner's relation refers to the paper's hypothesis;
+the erdosproblems.com instance $k=1$, $\omega_1^2\to(\omega_1\omega,3)^2$, is a
 theorem of ZFC (Komjáth 2025 attributes it to Erdős and Hajnal), as is the
 instance $k=2$
 ([[set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/positive_relation|Baumgartner and Hajnal 1987]]).

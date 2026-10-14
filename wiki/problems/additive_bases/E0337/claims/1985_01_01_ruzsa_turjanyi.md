@@ -56,15 +56,15 @@ $A_2(2x)/A(x)$, which the Plünnecke--Ruzsa inequality gives, as the
 records; neither is part of this claim.
 
 **Acceptance.** Refereed: the paper is a journal article (Publ. Math. Debrecen).
-Reviewed: the site's curator, T. F. Bloom, credits the negative answer to
-Turjányi's 1984 note, recorded at
+Reviewed: the erdosproblems.com curator, T. F. Bloom, credits the negative
+answer to Turjányi's 1984 note, recorded at
 [[problems/additive_bases/E0337/claims/1984_01_01_turjanyi|Turjányi 1984]]. The
 curator credits to this paper the generalization in which the $k$-fold sumset
 replaces $A+A$, for every $k\ge2$ (Theorem 1 with $h=k+1$). The curator labeled
-the problem disproved with a Lean qualifier at erdosproblems.com (the site's
-last label). This is the site's acceptance. The source card records the
-statements of Theorems 1--3 and Conjectures 1--2. None of the proofs is checked
-here.
+the problem disproved with a Lean qualifier at erdosproblems.com
+(erdosproblems.com's last label). This is erdosproblems.com's acceptance. The
+source card records the statements of Theorems 1--3 and Conjectures 1--2. None
+of the proofs is checked here.
 
 **The Lean proof.** A comment in the problem's forum thread on 2025-12-10
 reports that the Ruzsa--Turjányi solution has been formalized in Lean, the
@@ -87,7 +87,7 @@ the $k$-fold iterated sumset, and it indexes both counting functions by a
 real $x$ through $\lfloor x\rfloor$, where formal-conjectures indexes by
 $N\in\mathbb{N}$. This project has not built the file or audited its
 statement against the question, so no `formalized` evidence is listed; the
-acceptance rests on the refereed paper and the site's record.
+acceptance rests on the refereed paper and the erdosproblems.com record.
 
 **Context.** The page's date is the journal volume's year, 1985, with the
 day set to the year's first since the issue carries no finer date; the

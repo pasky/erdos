@@ -29,8 +29,8 @@ Is it true that for every $m\geq 1$, if $n$ is sufficiently large, any graph on
 $n$ vertices with $\geq n\log n$ edges contains a $O(1)$-balanced subgraph with
 $m$ vertices and $\gg m\log m$ edges (where the implied constants are absolute)?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-7 October 2025). The origin is the second open problem closing [ErSi70]
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 7 October 2025). The origin is the second open problem closing [ErSi70]
 (p. 389;
 [[../library/extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/question_p389|result page]]):
 "Is it true that every $G^n$, $e(G^n)=[n\log n]$ contains a $d$-regular
@@ -38,27 +38,27 @@ subgraph $G^m$, $e(G^m)>\varepsilon m\log m$ where $m$ tends to infinity
 together with $n$?", where "$d$-regular" is the paper's name for $D$-balanced
 (Definition 1, pp. 379--380). Two readings: the paper's, with a subgraph
 whose order $m=m(n)\to\infty$ and constants $d$, $\varepsilon$ read as
-absolute; and the site's, with every fixed $m\ge1$ and $n\ge n_0(m)$, which
-is Alon's restatement ([Al08], preprint p. 2: "Is it true that
-there are absolute constants $\epsilon>0$ and $D$, such that the following
-holds: For every $m$ there is some $n_0=n_0(m)$ such that any graph with
-$n>n_0$ vertices and at least $n\log_2n$ edges contains a $D$-balanced
-subgraph with $m$ vertices and at least $\epsilon m\log_2m$ edges?"; Janzer
-and Sudakov, p. 11, keep "$m\to\infty$ as $n\to\infty$"). The base of the
-logarithm changes constants only, and "at least $n\log n$" and "exactly
-$[n\log n]$" edges give the same question, since a graph with more edges has
-a subgraph with exactly that many on the same vertex set (a remark made
-here). Alon's construction refutes both readings (below), so the choice does
-not affect the status; a Formulation note, no tension in the field.
+absolute; and erdosproblems.com's, with every fixed $m\ge1$ and $n\ge n_0(m)$,
+which is Alon's restatement ([Al08], preprint p. 2: "Is it true that there are
+absolute constants $\epsilon>0$ and $D$, such that the following holds: For
+every $m$ there is some $n_0=n_0(m)$ such that any graph with $n>n_0$ vertices
+and at least $n\log_2n$ edges contains a $D$-balanced subgraph with $m$ vertices
+and at least $\epsilon m\log_2m$ edges?"; Janzer and Sudakov, p. 11, keep
+"$m\to\infty$ as $n\to\infty$"). The base of the logarithm changes constants
+only, and "at least $n\log n$" and "exactly $[n\log n]$" edges give the same
+question, since a graph with more edges has a subgraph with exactly that many on
+the same vertex set (a remark made here). Alon's construction refutes both
+readings (below), so the choice does not affect the status; a Formulation note,
+no tension in the field.
 
-**Status.** Disproved. The site's label was DISPROVED on 2026-09-18. On
-2026-10-07 the page printed no label to an anonymous reader. The community
+**Status.** Disproved. The erdosproblems.com label was DISPROVED on 2026-09-18.
+On 2026-10-07 the page printed no label to an anonymous reader. The community
 database lists the problem as disproved (Lean), a status its file has carried
 since 26 September 2026. The frontmatter standing is derived from the accepted
 claim page
 [[problems/extremal_graph_theory/E0803/claims/2007_09_17_alon|Alon's disproof]].
 Its acceptance evidence is the refereed journal, the refereed quotation by
-Janzer and Sudakov and the site's own commentary.
+Janzer and Sudakov and erdosproblems.com's own commentary.
 
 The disproof is Alon's
 [[../library/extremal_graph_theory/alon_2008_problems_results_extremal_combinatorics/proposition_2_1|Proposition 2.1]]
@@ -87,21 +87,22 @@ the question, so it has no claim page.
 
 **Source.** [erdosproblems.com/803](https://www.erdosproblems.com/803),
 accessed 2026-09-18: the problem page (DISPROVED, with
-the site's remark that the answer is negative; last edited 7 October 2025;
-source key [ErSi70]; commentary citing [Al08], [JaSu23] and Problem 1077), its
-empty discussion thread and its empty proof-claim tab. On 2026-10-07 the page
-shows "Formalised statement? Yes", with the thread empty. Cite as: T. F. Bloom,
-Erdős Problem #803, https://www.erdosproblems.com/803, accessed 2026-09-18.
+the erdosproblems.com remark that the answer is negative; last edited 7 October
+2025; source key [ErSi70]; commentary citing [Al08], [JaSu23] and Problem 1077),
+its empty discussion thread and its empty proof-claim tab. On 2026-10-07 the
+page shows "Formalised statement? Yes", with the thread empty. Cite as: T. F.
+Bloom, Erdős Problem #803, https://www.erdosproblems.com/803, accessed
+2026-09-18.
 
 **References.**
 
 - [Al08] Alon, Noga, Problems and results in extremal combinatorics---II.
   Discrete Math. 308 (2008), no. 19, 4460--4472,
-  doi:10.1016/j.disc.2007.08.090 (Crossref record; the site's reference text
-  gives "Discrete Math. (2008), 4460-4472"). Section 2, the printed problem
-  and Proposition 2.1, p. 2 of the author's preprint (16 pp., pdfTeX of
-  September 2007; the journal pagination is not in the preprint and the
-  journal text is not held). Library home:
+  doi:10.1016/j.disc.2007.08.090 (Crossref record; the erdosproblems.com
+  reference text gives "Discrete Math. (2008), 4460-4472"). Section 2, the
+  printed problem and Proposition 2.1, p. 2 of the author's preprint (16 pp.,
+  pdfTeX of September 2007; the journal pagination is not in the preprint and
+  the journal text is not held). Library home:
   [[../library/extremal_graph_theory/alon_2008_problems_results_extremal_combinatorics/_index|alon_2008_problems_results_extremal_combinatorics]];
   paged at
   [[../library/extremal_graph_theory/alon_2008_problems_results_extremal_combinatorics/proposition_2_1|proposition_2_1]].
@@ -142,9 +143,10 @@ Erdős Problem #803, https://www.erdosproblems.com/803, accessed 2026-09-18.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9ec36f328273f8c5153bf2e6dc09c51ba68987a8/FormalConjectures/ErdosProblems/803.lean),
 file `ErdosProblems/803.lean`, added on 2026-09-20 (no file existed on
-2026-09-18). At that commit its `erdos_803` states the site's question with
-absolute constants, answered `False`, in the category `research solved`, and
-carries a `formal_proof` attribute naming theorem `not_erdos_803` of
+2026-09-18). At that commit its `erdos_803` states the erdosproblems.com
+question with absolute constants, answered `False`, in the category
+`research solved`, and carries a `formal_proof` attribute naming theorem
+`not_erdos_803` of
 [Erdos803.lean](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos803.lean)
 in Boris Alexeev's lean-proofs repository (informal author Noga Alon; formal
 authors Codex and GPT-5.6 Sol); the file also states Alon's bound and Janzer
@@ -153,7 +155,7 @@ and Sudakov's bound as variants without proofs. The community database
 problem as disproved (Lean), a status its file has carried since 26 September
 2026 (the entry's update date is 16 September 2026), through Collin Yuanjie
 Ren's package formalizing Alon's construction and both negative readings, and
-a formalized statement since 2026-09-20. The site's indicator reads
+a formalized statement since 2026-09-20. The erdosproblems.com indicator reads
 "Formalised statement? Yes" (2026-10-07). Both Lean developments are `formalization` links on
 [[problems/extremal_graph_theory/E0803/claims/2007_09_17_alon|Alon's claim page]],
 which says what each proves; the corpus has built and audited neither, so they
@@ -161,10 +163,10 @@ give no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; DISPROVED; last edited 7 October 2025. The commentary attributes
-the problem to Erdős and Simonovits [ErSi70], who proved the analogue with
-$n^c$ and $m^c$ in place of $\log n$ and $\log m$ for every constant $c>0$,
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; DISPROVED; last edited 7 October 2025. The commentary
+attributes the problem to Erdős and Simonovits [ErSi70], who proved the analogue
+with $n^c$ and $m^c$ in place of $\log n$ and $\log m$ for every constant $c>0$,
 the balance parameter allowed to depend on $c$; it credits Alon [Al08] with
 the disproof, in the form that, once $n$ is large, for each $D>1$ some
 $n$-vertex graph with $n\log n$ or more edges has no $D$-balanced subgraph on
@@ -186,23 +188,23 @@ here: if $H$ is a $D$-balanced subgraph of Alon's graph $G$ on $m$ vertices
 with average degree $d$, then $\Delta(H)\le D\delta(H)\le Dd$, so the
 proposition applies and $e(H)=md/2<18m(4\sqrt{\log m}+\log(64D)+18)$; for
 fixed $D$ and $\epsilon$ this is below $\epsilon m\log m$ once $m$ is large,
-so the statement fails for every fixed large $m$ (the site's form) and for
-$m\to\infty$ (the paper's form). Adding isolated vertices to reach exactly
-$N=2n$ vertices gives an $N$-vertex graph with at least $N\log N$ edges, the
-statement's hypothesis. Acceptance evidence: publication in Discrete
+so the statement fails for every fixed large $m$ (the erdosproblems.com form)
+and for $m\to\infty$ (the paper's form). Adding isolated vertices to reach
+exactly $N=2n$ vertices gives an $N$-vertex graph with at least $N\log N$ edges,
+the statement's hypothesis. Acceptance evidence: publication in Discrete
 Mathematics, refereed (Crossref record, October 2008); the refereed [JaSu23]
 quotes the result as its Theorem 6.2 and calls it "a negative answer to this
-question"; the site's account. Coverage: claims checked for the
+question"; erdosproblems.com's account. Coverage: claims checked for the
 definition, the printed problem and the proposition; the proof (pp. 2--4, a
 random bipartite graph with a class $A$ of $n$ vertices and classes $B_{i,j}$
 of $n/2^i$ vertices, each vertex of $A$ joined to one random vertex of each
 $B_{i,j}$, and a union-bound Claim on the edges between small vertex sets) is
 not checked; the journal text is not held.
 
-A site-versus-source note on the constants. [JaSu23]'s Theorem 6.2 prints
-Alon's bound as "at most $72m\sqrt{\log m}+18\log(64K)+324$ edges" (p. 11),
-and the site's bound $\ll m\sqrt{\log m}+\log D$ follows that form;
-Alon's inequality gives, through $e(H)=md/2$, the terms $18m\log(64D)$ and
+An erdosproblems.com-versus-source note on the constants. [JaSu23]'s Theorem 6.2
+prints Alon's bound as "at most $72m\sqrt{\log m}+18\log(64K)+324$ edges" (p.
+11), and erdosproblems.com's bound $\ll m\sqrt{\log m}+\log D$ follows that
+form; Alon's inequality gives, through $e(H)=md/2$, the terms $18m\log(64D)$ and
 $324m$ with a factor $m$. Both forms are $O(m\sqrt{\log m}+m\log D)$ for
 fixed $D$ and the difference does not touch the disproof; recorded as printed
 in each source
@@ -214,16 +216,15 @@ the Status; the sentence before it says that Theorem 5.3, the paper's
 structural core, "implies that we can always find an almost-regular
 $m$-vertex subgraph with nearly $m\sqrt{\log m}$ edges, showing that Theorem
 6.2 is tight up to $\log\log$ factors". The constant $\varepsilon$ depends
-on $m_0$, which is the site's "$\gg_k$" and "$m\ge k$". Acceptance evidence:
-Forum of Mathematics, Pi is refereed, and the published article carries
-"Received: 2 November 2022; Accepted: 29 June 2023". Coverage:
-claims checked; the derivation from Theorem 5.3, printed on p. 12, and the
-proof of Theorem 5.3 (pp. 10--11) are not checked.
-Theorem 6.4 of the same section (a $64$-almost-regular subgraph of average
-degree about $(d/\log\log n)^{1/4}$ in a graph of average degree
-$d\ge2\log\log n$) is context, recorded on the card. What remains open is the
-exact order: between $m\sqrt{\log m}/(\log\log m)^{3/2}$ and
-$O(m\sqrt{\log m}+m\log D)$.
+on $m_0$, which is erdosproblems.com's "$\gg_k$" and "$m\ge k$". Acceptance
+evidence: Forum of Mathematics, Pi is refereed, and the published article
+carries "Received: 2 November 2022; Accepted: 29 June 2023". Coverage: claims
+checked; the derivation from Theorem 5.3, printed on p. 12, and the proof of
+Theorem 5.3 (pp. 10--11) are not checked. Theorem 6.4 of the same section (a
+$64$-almost-regular subgraph of average degree about $(d/\log\log n)^{1/4}$ in a
+graph of average degree $d\ge2\log\log n$) is context, recorded on the card.
+What remains open is the exact order: between
+$m\sqrt{\log m}/(\log\log m)^{3/2}$ and $O(m\sqrt{\log m}+m\log D)$.
 
 **The origin and the dense case.** [ErSi70], p. 389: the
 question quoted in the Formulation note, the second of the paper's two
@@ -231,21 +232,21 @@ closing open problems (the first is Problem 1077's), preceded on p. 388 by
 "By the method of random graphs we can show that for every $d$ and
 $\varepsilon$ there is $G^n$, $e(G^n)=[n^{3/2}]$, which does not have a
 $d$-regular subgraph $G^m$ such that $e(G^m)\ge\varepsilon\sqrt n\,m$". The
-analogue the site's commentary mentions is
+analogue the erdosproblems.com commentary mentions is
 [[../library/extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/theorem_1|Theorem 1]]
 (p. 380): "If $e(G^n)\ge n^{1+\alpha}$ and
 $d=10\cdot2^{1/\alpha^2+1}$ then $G^{(n)}$ contains a $d$-regular subgraph
 $G^m$ such that $e(G^m)\ge\frac25m^{1+\alpha}$ and
 $m\ge n^{\alpha\frac{1-\alpha}{1+\alpha}}$ unless $n$ is too small", the
-balance parameter $d$ depending on $\alpha$ as the site says; Alon (p. 2)
-restates it with $D=D(\alpha)$ and $n>n_0(\alpha)$. The paper prints
-"$e(G^n)=[n\log n]$" with an equality sign, where the site writes
+balance parameter $d$ depending on $\alpha$ as erdosproblems.com says; Alon
+(p. 2) restates it with $D=D(\alpha)$ and $n>n_0(\alpha)$. The paper prints
+"$e(G^n)=[n\log n]$" with an equality sign, where erdosproblems.com writes
 "$\ge n\log n$" (equivalent, as noted above).
 
 **Search scope.** None of the routes below found a dispute
 of the disproof, a sharpening of the $\log\log$ gap, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree as fetched on 2026-09-18
   (no file 803); the community database entry as fetched that day.
 - Crossref: a bibliographic query for [Al08] (top record the Discrete
@@ -268,8 +269,9 @@ and Theorem 5.3 of [JaSu23] are not checked, and the deduction from the
 average-degree bound to the edge count is this page's own. (3) The
 quotation's dropped factors of $m$ are recorded, not resolved. (4) The exact
 order between $m\sqrt{\log m}/(\log\log m)^{3/2}$ and $m\sqrt{\log m}$ is
-open; not the site's question. (5) The two Lean developments recorded under
-Formalization are third-party work that the corpus has not built or audited.
+open; not the erdosproblems.com question. (5) The two Lean developments recorded
+under Formalization are third-party work that the corpus has not built or
+audited.
 
 ## Known results
 
@@ -280,7 +282,7 @@ Formalization are third-party work that the corpus has not built or audited.
   subgraphs have average degree below $36(4\sqrt{\log m}+\log(64D)+18)$; the
   disproof.
 - [[../library/extremal_graph_theory/janzer_2023_resolution_erdos_sauer_problem_regular_subgraphs/theorem_6_2|Janzer--Sudakov 2023, Theorem 6.2]]
-  (Alon, quoted): the disproof as the site's commentary states it.
+  (Alon, quoted): the disproof as the erdosproblems.com commentary states it.
 - [[../library/extremal_graph_theory/janzer_2023_resolution_erdos_sauer_problem_regular_subgraphs/theorem_6_3|Janzer--Sudakov 2023, Theorem 6.3]]
   (refereed): $\varepsilon m\sqrt{\log m}/(\log\log m)^{3/2}$ edges in a
   $64$-almost-regular subgraph on $m\ge m_0$ vertices; the best positive

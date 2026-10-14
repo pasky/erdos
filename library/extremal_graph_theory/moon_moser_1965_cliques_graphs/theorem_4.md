@@ -63,10 +63,10 @@ None outside the paper.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0927/_index|Problem 927]]: the upper bound
-  $g(n)\le n-[\log_2n]$ that the site's commentary attributes to the paper,
-  in the paper's own form with its range $n\ge4$; with Spencer's 1971 lower
-  bound it gives the site's estimate $g(n)=n-\log_2n+O(1)$. Erdős's 1966
-  display (1) reproduces it exactly; the 1971 printing's strict
+  $g(n)\le n-[\log_2n]$ that the erdosproblems.com commentary attributes to the
+  paper, in the paper's own form with its range $n\ge4$; with Spencer's 1971
+  lower bound it gives erdosproblems.com's estimate $g(n)=n-\log_2n+O(1)$.
+  Erdős's 1966 display (1) reproduces it exactly; the 1971 printing's strict
   $f(n)<n-\log n/\log2$ is not the paper's statement.
 - [[../wiki/problems/set_systems/E0775/_index|Problem 775]]: the graph case of the
   clique-sizes question that the problem asks for $3$-uniform hypergraphs;

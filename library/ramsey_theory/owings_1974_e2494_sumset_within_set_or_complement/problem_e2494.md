@@ -68,5 +68,6 @@ None.
 
 - [[../wiki/problems/ramsey_theory/E1199/_index|Problem 1199]]: the origin of the problem
   and the primary text behind its quoted wording; posed as a
-  prove-or-disprove problem, so the site's "A conjecture of Owings" is the
-  site's attribution. The proposal changes nothing about the status.
+  prove-or-disprove problem, so erdosproblems.com's "A conjecture of Owings" is
+  the erdosproblems.com attribution. The proposal changes nothing about the
+  status.

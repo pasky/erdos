@@ -32,14 +32,15 @@ $$
 Is it true that $G(n)\to \infty$ for almost all $n$? Can one prove an asymptotic
 formula for $\sum_{n\leq X}G(n)$?
 
-**Status.** The site labeled the problem PROVED. The standing in the frontmatter
-derives from the claim pages under the parts `divergence` and `asymptotic`, and
-the problem is `solved` with the value `proved`. The accepted full claim on
+**Status.** Bloom's catalog labeled the problem PROVED. The standing in the
+frontmatter derives from the claim pages under the parts `divergence` and
+`asymptotic`, and the problem is `solved` with the value `proved`. The accepted
+full claim on
 [[problems/divisors/E0673/claims/1983_01_01_erdos_tenenbaum|Erdős and Tenenbaum's 1983 paper]]
 settles both questions. Its Théorème 2 gives
 $\sum_{n\le x}G(n)=x\log x\,(1+o(1))$. The accepted partial claim on
 [[problems/divisors/E0673/claims/1982_01_01_erdos|Erdős's remark]] settles the
-first question. The site's remarks record Tao's bounds
+first question. The erdosproblems.com remarks record Tao's bounds
 $\tau(n/m)/m\le G(n)\le\tau(n)$, displayed for any divisor $m$ of $n$ and true
 for $m>1$. These bounds answer the first question yes. The remarks also record
 Erdős's 1982 remark that the divergence is trivial.
@@ -86,11 +87,11 @@ The question has two parts. The first, whether $G(n)\to\infty$ for almost all
 $n$, is answered yes: for a divisor $m>1$ of $n$ every divisor $d$ of $n/m$ is
 followed in the ordered divisor list by a divisor at most $dm$, so
 $G(n)\ge\tau(n/m)/m$, and with $G(n)\le\tau(n)$ this makes $G(n)$ comparable
-to $\tau(n)$ for every $n$ with a prime factor below a fixed bound; the site
-records the argument as Tao's observation, and Erdős's 1982 survey (Chapter
-II, section 6, p. 66) calls the divergence trivial while giving no proof.
-Erdős and Tenenbaum's 1983 paper gives the same argument on p. 127, with $m$
-the least prime factor of $n$. The accepted claims are
+to $\tau(n)$ for every $n$ with a prime factor below a fixed bound;
+erdosproblems.com records the argument as Tao's observation, and Erdős's 1982
+survey (Chapter II, section 6, p. 66) calls the divergence trivial while giving
+no proof. Erdős and Tenenbaum's 1983 paper gives the same argument on p. 127,
+with $m$ the least prime factor of $n$. The accepted claims are
 [[problems/divisors/E0673/claims/1983_01_01_erdos_tenenbaum|theirs]], which
 settles both parts, and
 [[problems/divisors/E0673/claims/1982_01_01_erdos|Erdős's remark]]. The
@@ -119,12 +120,13 @@ development's definition of $G$ to the file's own statements. This corpus built
 the development at a pinned commit of 2026-09-15 and audited its statement,
 which the Erdős--Tenenbaum claim page records as `formalized` evidence beside
 the refereed paper; the build certifies the divergence and the leading term of
-the mean value, not the paper's error term. The site records Tao's suggestion
-that the problem was a slip that Erdős corrected a year later into
+the mean value, not the paper's error term. erdosproblems.com records Tao's
+suggestion that the problem was a slip that Erdős corrected a year later into
 [[problems/divisors/E0448/_index|Problem 448]]. The literature search behind
-this account, dated 2026-10-07, covered the site's page and discussion thread,
-the 1979 paper, the 1982 survey, Erdős and Tenenbaum's 1983 paper, Tenenbaum's
-2013 survey, Alexeev's repository and the formal-conjectures file.
+this account, dated 2026-10-07, covered the erdosproblems.com page and
+discussion thread, the 1979 paper, the 1982 survey, Erdős and Tenenbaum's 1983
+paper, Tenenbaum's 2013 survey, Alexeev's repository and the formal-conjectures
+file.
 
 <!-- BEGIN problem library links -->
 

@@ -60,8 +60,8 @@ this corpus has not built it.
 
 **The question.** Erdős asked in [Er75h] whether $n_k$ exists at all, and
 said he could not prove that it does. In [Er78c] he gave an argument for an
-explicit polynomial bound, which misses a case. The site labeled the problem
-OPEN.
+explicit polynomial bound, which misses a case. Bloom's catalog labeled the
+problem OPEN.
 
 **Claims.**
 [[problems/discrete_geometry/E0827/claims/2014_02_25_martinez_roldan_pensado|Martínez and Roldán-Pensado]]
@@ -71,7 +71,7 @@ argument.
 [[problems/discrete_geometry/E0827/claims/2015_05_19_martinez_sandoval_raggi_roldan_pensado|Martínez-Sandoval, Raggi and Roldán-Pensado]]
 derive $n_k=O(k^5/\log k)$ from a sunflower anti-Ramsey theorem in an arXiv
 manuscript of 2015. Two independent proofs that $n_4=7$ were posted on the
-site's thread in September 2026:
+erdosproblems.com thread in September 2026:
 [[problems/discrete_geometry/E0827/claims/2026_09_22_sallerk|a computer-assisted one by sallerk]]
 and
 [[problems/discrete_geometry/E0827/claims/2026_09_24_kiichi|a Lean-checked one by Kiichi]],
@@ -81,9 +81,9 @@ whose co-authors are instances of Claude. Neither has an outside review.
 without a manuscript, so they have no page. On 10 May 2026 FlaredRain posted
 a random-deletion proof of $n_k\le(3k)^5$, which counts the pairs of triples
 with equal circumradius; the post says an unnamed AI model found its core,
-and the site's commentary credits the $k^5$ bound to it. The manuscript of
-Martínez-Sandoval, Raggi and Roldán-Pensado already gives a sharper bound.
-On 16 June 2026 SamKorsky posted the lower bound
+and the erdosproblems.com commentary credits the $k^5$ bound to it. The
+manuscript of Martínez-Sandoval, Raggi and Roldán-Pensado already gives a
+sharper bound. On 16 June 2026 SamKorsky posted the lower bound
 $n_k\ge k^2\exp(-4\sqrt{\log2\log k}-O(\log\log k))$, from a generic planar
 projection of a grid lifted to a paraboloid: a set with all circumradii
 distinct contains no parallelogram, so its preimage has distinct

@@ -87,4 +87,4 @@ here; see the
   an $n$-point set in $\mathbb{R}^4$ has at least $f(n)$ points at one
   distance $r(x)$, then $n\,f(n)\le e_r(S)\le\frac12n^2+2c_1n$, so
   $f(n)\le\frac n2+2c_1$, the bound the problem asks for. The paper does
-  not mention the problem; the site credits the problem to this bound.
+  not mention the problem; erdosproblems.com credits the problem to this bound.

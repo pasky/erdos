@@ -49,6 +49,6 @@ the bound, and no length is settled for all $d$ at once.
 
 **Acceptance.** Refereed: Monatshefte für Mathematik 100 (1985), no. 3. The
 Crossref record dates the issue to September 1985, and this page's name fills in
-the first of the month. The site's commentary credits the result. But the site
-labeled the problem VERIFIABLE, which is an open label, so the commentary is not
-`reviewed` evidence.
+the first of the month. The erdosproblems.com commentary credits the result. But
+Bloom's catalog labeled the problem VERIFIABLE, which is an open label, so the
+commentary is not `reviewed` evidence.

@@ -42,15 +42,15 @@ $$
 
 Estimate $M_2(n)$: determine its asymptotic behavior as $n\to\infty$.
 
-**Notes.** The site's wording asks for the exact size of the largest
+**Notes.** The erdosproblems.com wording asks for the exact size of the largest
 two-distance set in $\mathbb{R}^n$; write $M_2(n)$ for it. That value is known
 only for $n\le8$, where Lisoněk [Li97] determines
 $M_2(1),\ldots,M_2(8)=3,5,6,10,16,27,29,45$, and the general bounds
 $\binom{n+1}{2}\le M_2(n)\le\binom{n+2}{2}$ ($n\ge3$) leave a gap at every
 $n\ge9$ where the upper bound is not attained, so the exact question is open.
-The site labeled the problem SOLVED (LEAN), a label it defines as resolved
-other than by a proof or disproof, and its commentary (page last edited 29
-January 2026) records the upper bound of Bannai, Bannai and Stanton [BBS83]
+Bloom's catalog labeled the problem SOLVED (LEAN), a label it defines as
+resolved other than by a proof or disproof, and its commentary (page last edited
+29 January 2026) records the upper bound of Bannai, Bannai and Stanton [BBS83]
 with Petrov and Pohoata's proof [PePo21] and the lower bounds $\binom n2$
 (Zhang) and $\binom{n+1}{2}$ (Alweiss). Its page for Problem 1089 (last edited
 1 February 2026) derives from the same two bounds that
@@ -66,23 +66,24 @@ points suffice, that the proof was wrong, and that corrected it gave only
 $\exp(n^{1-\varepsilon})$: the question Erdős records is the growth order, not
 an exact value. The modified Statement asks for that asymptotic behavior; the
 change names $M_2(n)$ and replaces "What is the size" by "Estimate $M_2(n)$:
-determine its asymptotic behavior", and nothing else changes. Under the site's
-wording the problem is open; under the modified Statement it is solved, by
-the upper bound ([BBS83], [PePo21]) and the lower construction, the edge
-midpoints of a regular $n$-simplex, verified on the library's
+determine its asymptotic behavior", and nothing else changes. Under the
+erdosproblems.com wording the problem is open; under the modified Statement it
+is solved, by the upper bound ([BBS83], [PePo21]) and the lower construction,
+the edge midpoints of a regular $n$-simplex, verified on the library's
 [[../library/distance_problems/ge_2026_two_distance_set_277_points_23_dimensions/intro_midpoint_construction|intro_midpoint_construction]]
-page and recorded as a claim page on the site's credit. The exact maximum is a
-variant with its own, open, answer: known for $n\le8$ [Li97], and at $n=23$
-Ge, Koolen and Munemasa's 277-point set [GeKoMu26] exceeds $\binom{24}{2}$.
-Both results are correct, but they answer the site's wording (the exact
-maximum), not the modified Statement (the asymptotic behavior of $M_2(n)$), so
-neither counts toward the problem's standing, and Lisoněk's claim page is
-rejected. A thread comment of 21 August 2026 (Zakharov) asks whether the problem
-should be marked open because of the gap. The site's "(LEAN)" suffix rests on
-the community formalization of the upper bound only.
+page and recorded as a claim page on the erdosproblems.com credit. The exact
+maximum is a variant with its own, open, answer: known for $n\le8$ [Li97], and
+at $n=23$ Ge, Koolen and Munemasa's 277-point set [GeKoMu26] exceeds
+$\binom{24}{2}$. Both results are correct, but they answer the erdosproblems.com
+wording (the exact maximum), not the modified Statement (the asymptotic behavior
+of $M_2(n)$), so neither counts toward the problem's standing, and Lisoněk's
+claim page is rejected. A thread comment of 21 August 2026 (Zakharov) asks
+whether the problem should be marked open because of the gap.
+erdosproblems.com's "(LEAN)" suffix rests on the community formalization of the
+upper bound only.
 
-**Formulation.** The exact maximum $M_2(n)$, the site's wording's question,
-is a variant with its own answer, open in general. Lisoněk [Li97]
+**Formulation.** The exact maximum $M_2(n)$, the erdosproblems.com wording's
+question, is a variant with its own answer, open in general. Lisoněk [Li97]
 determines it for every $n\leq8$:
 
 $$
@@ -95,29 +96,29 @@ $\binom{n+2}{2}$, so the gap between the bounds is closed at $n=8$; Ge, Koolen
 and Munemasa's introduction credits Lisoněk with these values, and the OEIS
 records the sequence as A027627. The result keeps
 [[problems/distance_problems/E0502/claims/1997_02_01_lisonek|a claim page]],
-rejected because it answers the exact question of the site's wording, not the
-asymptotic one of the modified Statement. Ge, Koolen and Munemasa's
+rejected because it answers the exact question of the erdosproblems.com wording,
+not the asymptotic one of the modified Statement. Ge, Koolen and Munemasa's
 arXiv:2504.18110v4 [GeKoMu26] constructs a 277-point two-distance set in
 $\mathbb{R}^{23}$ with distances $2$ and $\sqrt6$, transcribed in full in
 [[../library/distance_problems/ge_2026_two_distance_set_277_points_23_dimensions/theorem_1|their
 Theorem 1 page]]; it improves the generic lower bound at $n=23$ from
 $\binom{24}{2}=276$ to $277$, but does not close the general gap.
 
-**Status.** The site labeled the problem SOLVED (LEAN), and the label describes
-the modified Statement. Its qualifier rests on the community proof of the upper
-bound. The problem lists two parts, the upper bound and the lower bound. The two
-accepted upper-bound claims in `claims/` settle the first, and the accepted
-claim for the lower construction settles the second, so the problem's standing
-is solved. Its claim value is `proved`, although SOLVED (LEAN) reads as
-`answered`. This is because each part of the modified Statement is a bound, and
-every settling claim proves its bound. The bounds
+**Status.** Bloom's catalog labeled the problem SOLVED (LEAN), and the label
+describes the modified Statement. Its qualifier rests on the community proof of
+the upper bound. The problem lists two parts, the upper bound and the lower
+bound. The two accepted upper-bound claims in `claims/` settle the first, and
+the accepted claim for the lower construction settles the second, so the
+problem's standing is solved. Its claim value is `proved`, although SOLVED
+(LEAN) reads as `answered`. This is because each part of the modified Statement
+is a bound, and every settling claim proves its bound. The bounds
 $\binom{n+1}{2}\leq M_2(n)\leq\binom{n+2}{2}$ for $n\geq3$ give
 $M_2(n)=n^2/2+O(n)$. The upper bound is the Bannai--Bannai--Stanton bound of
 1983, with Petrov--Pohoata's 2021 proof. The lower bound is the
-simplex-edge-midpoint construction, which the site credits to Alweiss. The exact
-maximum, which is the question in the site's wording, is not known in general
-and is a variant under Formulation. Lisoněk's determination for $n\leq8$ is a
-rejected claim.
+simplex-edge-midpoint construction, which erdosproblems.com credits to Alweiss.
+The exact maximum, which is the question in the erdosproblems.com wording, is
+not known in general and is a variant under Formulation. Lisoněk's determination
+for $n\leq8$ is a rejected claim.
 
 **Source.** [erdosproblems.com/502](https://www.erdosproblems.com/502), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #502,
@@ -126,7 +127,8 @@ https://www.erdosproblems.com/502, accessed 2026-09-05.
 **References.**
 
 - [Er61] Erdős, Paul, *Some unsolved problems*, Magyar Tud. Akad. Mat. Kutató
-  Int. Közl. **6** (1961), 221--254, p. 244 (the site's original reference).
+  Int. Közl. **6** (1961), 221--254, p. 244 (erdosproblems.com's original
+  reference).
 - [BBS83] Bannai, Eiichi and Bannai, Etsuko and Stanton, Dennis, An upper bound
   for the cardinality of an $s$-distance subset in real Euclidean space. II.
   *Combinatorica* **3** (1983), 147--152. DOI:
@@ -156,15 +158,15 @@ lists only the standard Lean axioms; this corpus has not built it.
 
 ## Current assessment
 
-The site snapshot accessed 2026-09-05 records the label "SOLVED (LEAN)", which
-describes the modified Statement: the mathematical status is solved, since the
-bounds under Progress settle the asymptotic behavior of $M_2(n)$, and the suffix
-marks the community Lean proof of the upper bound $|A|\leq\binom{n+2}{2}$ only,
-as recorded under Formalization above. The exact maximum, the variant under
-Formulation, is not known in general.
+The erdosproblems.com snapshot accessed 2026-09-05 records the label "SOLVED
+(LEAN)", which describes the modified Statement: the mathematical status is
+solved, since the bounds under Progress settle the asymptotic behavior of
+$M_2(n)$, and the suffix marks the community Lean proof of the upper bound
+$|A|\leq\binom{n+2}{2}$ only, as recorded under Formalization above. The exact
+maximum, the variant under Formulation, is not known in general.
 
-The site's discussion and proof-claims pages record the Coxeter origin,
-the Bannai--Bannai--Stanton upper bound, the Zhang and Alweiss lower
+The erdosproblems.com discussion and proof-claims pages record the Coxeter
+origin, the Bannai--Bannai--Stanton upper bound, the Zhang and Alweiss lower
 constructions, and no submitted proof claim.
 
 The declaration and the pinned proof link therefore provide formal
@@ -184,10 +186,10 @@ construction with $\binom{n+1}{2}$ points is
 accepted on the curator's credit and settling the part `lower_bound`. The
 problem's standing derives from them. The exact maximum for $n\leq8$ is
 [[problems/distance_problems/E0502/claims/1997_02_01_lisonek|Lisoněk's determination]],
-a rejected claim, since it answers the site's wording and not the modified
-Statement. The 277-point set in $\mathbb{R}^{23}$ recorded under Formulation
-improves the lower bound at one dimension and bears only on the exact-maximum
-variant.
+a rejected claim, since it answers the erdosproblems.com wording and not the
+modified Statement. The 277-point set in $\mathbb{R}^{23}$ recorded under
+Formulation improves the lower bound at one dimension and bears only on the
+exact-maximum variant.
 
 ## Progress
 
@@ -212,8 +214,9 @@ $$
 
 Any infinite two-distance set would contain finite subsets of arbitrarily
 large size, so the finite upper bound also rules out an infinite set. The
-site's commentary attributes the lower construction to Ryan Alweiss and the
-earlier $\binom n2$ construction to Shengtong Zhang; the construction has
+erdosproblems.com commentary attributes the lower construction to Ryan Alweiss
+and the earlier $\binom n2$ construction to Shengtong Zhang; the construction
+has
 [[problems/distance_problems/E0502/claims/2025_08_09_alweiss|its own claim
 page]].
 
@@ -233,7 +236,7 @@ Blokhuis, whose 1984 CWI Tract
 ([[../library/distance_problems/blokhuis_1984_few_distance_sets/_index|card]],
 Theorem 4.1.1) proves $\binom{n+s}{s}$ for $s$-distance sets; it has no
 claim page because neither the Tract nor Blokhuis's 1984 proceedings note is
-a journal publication and the site's remarks do not credit Blokhuis.
+a journal publication and the erdosproblems.com remarks do not credit Blokhuis.
 
 Chen and Yu's arXiv:2509.00858 is a defect-bearing source lead for a
 ratio-dependent spectral bound. Their printed Theorem 3.1 omits the required
@@ -242,13 +245,14 @@ conditional algebraic consequence, together with the source defect, are
 recorded in [[../library/distance_problems/chen_2025_bounds_two_distance_sets_euclidean_space_unit_sphere/theorem_3_1|the
 qualified Theorem 3.1 page]]. It is not used to replace the universal bound (1).
 
-The site's discussion says the broader few-distance question is also
+The erdosproblems.com discussion says the broader few-distance question is also
 recorded as Problem [[problems/distance_problems/E1089/_index|#1089]].
 
 The exact value of $M_2(n)$, the variant under Formulation, is therefore
-unresolved in general. The site's discussion thread in the snapshot accessed
-2026-09-05 held no proof exposition or proof claim; one comment, of 21 August
-2026, asked about the gap, and another pointed to the existing Lean solution.
+unresolved in general. The erdosproblems.com discussion thread in the snapshot
+accessed 2026-09-05 held no proof exposition or proof claim; one comment, of 21
+August 2026, asked about the gap, and another pointed to the existing Lean
+solution.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

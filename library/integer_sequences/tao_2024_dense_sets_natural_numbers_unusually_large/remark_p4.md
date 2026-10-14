@@ -24,8 +24,8 @@ answer to Problem 1 is negative; this result and construction was already
 implicitly observed in [1] (see the discussion after [1, Proposition 2.1]),
 although the authors seem to have been unaware of Problem 1." Here (1) is the
 hypothesis $(1/\mathrm{Log}_2x)\sum_{n\in A:n\le x}1/n\to\infty$ and (2) the
-conclusion of Problem 1 (the site's #442, p. 2), and [1] is Bergelson and
-Richter.
+conclusion of Problem 1 (erdosproblems.com's #442, p. 2), and [1] is Bergelson
+and Richter.
 
 For $k=2$ the hypothesis holds, since $(1+o(1))\mathrm{Log}_2x/2\to\infty$, so
 the squarefree numbers with exactly two prime factors are the simplest
@@ -56,5 +56,5 @@ implicit observation.
 - [[../wiki/problems/integer_sequences/E0442/_index|Problem 442]]: the elementary negative
   answer, weaker than
   [[integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/theorem_1|Theorem 1]]
-  in growth rate but sufficient for the site's yes-or-no question; the
+  in growth rate but sufficient for erdosproblems.com's yes-or-no question; the
   external Lean file the problem page describes uses exactly the case $k=2$.

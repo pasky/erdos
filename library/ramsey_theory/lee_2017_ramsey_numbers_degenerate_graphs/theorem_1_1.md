@@ -38,17 +38,16 @@ Graham--Rödl--Ruciński construction gives the tightness too. The abstract
 (p. 1) states the consequence for Ramsey numbers: every $d$-degenerate $H$
 of chromatic number $r$ with
 $|V(H)|\ge2^{d^22^{cr}}$ has $r(H)\le2^{d2^{cr}}|V(H)|$ (apply the theorem
-with $n=|V(H)|$). With $r=d+1$ this is the site's
+with $n=|V(H)|$). With $r=d+1$ this is erdosproblems.com's
 $R(H)\le2^{2^{O(d)}}n$ for $n$ above the threshold, and with $r=\chi(H)$
-the site's $R(H)\le2^{d2^{O(\chi(H))}}n$; the threshold $n\ge2^{d^22^{cr}}$
-is part of the hypothesis, but smaller graphs are still covered, because
-the family is of graphs on at most $n$ vertices: taking $c$ to be an
-integer (enlarging $c$ keeps the theorem true), the case
-$n=2^{d^22^{cr}}$ gives $r(H)\le2^{(d+d^2)2^{cr}}$ for every
-$d$-degenerate $r$-colorable $H$ on fewer vertices, so at $r=d+1$ the
-conjecture holds for every $d$-degenerate $H$ with the constant
-$2^{(d+d^2)2^{c(d+1)}}$, doubly exponential in $d$ (an elementary remark
-made here, not the paper's).
+erdosproblems.com's $R(H)\le2^{d2^{O(\chi(H))}}n$; the threshold
+$n\ge2^{d^22^{cr}}$ is part of the hypothesis, but smaller graphs are still
+covered, because the family is of graphs on at most $n$ vertices: taking $c$ to
+be an integer (enlarging $c$ keeps the theorem true), the case $n=2^{d^22^{cr}}$
+gives $r(H)\le2^{(d+d^2)2^{cr}}$ for every $d$-degenerate $r$-colorable $H$ on
+fewer vertices, so at $r=d+1$ the conjecture holds for every $d$-degenerate $H$
+with the constant $2^{(d+d^2)2^{c(d+1)}}$, doubly exponential in $d$ (an
+elementary remark made here, not the paper's).
 
 **Source.** C. Lee, *Ramsey numbers of degenerate graphs*, Ann. of Math.
 (2) 185 (2017), no. 3, 791--829, doi:10.4007/annals.2017.185.3.2; read in

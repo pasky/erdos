@@ -36,26 +36,26 @@ $$
 \frac{\#\{ n\in \mathbb{N} : n+f(n)\in (x,x+F(x))\}}{F(x)}\to \infty?
 $$
 
-**Notes.** The site's wording (accessed 2026-09-04; page last edited 2026-04-01)
-fails in two ways that the thread records. The site's revision of 2026-04-01
-replaced $f(n)/F(n)\to0$ by $F(n)/f(n)\to0$ after thread comments of 2026-03-26
-and 2026-03-27 showed that the earlier wording fails for every $f$: a
-fast-growing $F$, say $F(x)=x$, satisfies it and keeps the ratio bounded. The
-curator agreed on 2026-03-27 that [Er97] and [Er97e] carry the inverted ratio as
-a typo, while noting that [Er97] explicitly has the width of the interval tend
-to infinity faster than the normal order of $f$, so the correction there is more
-than a typo. A thread comment of 2026-07-24 shows that the current wording, read
-literally with $x$ a positive integer and $F$ real-valued, fails for every
-positive-integer-valued $f$: $F(x)=1/x$ has $F/f\to0$, and $(x,x+1/x)$ contains
-no integer, so the count is zero for every $x$; that is a thread comment, not a
-claim. The change adds $F(n)\to\infty$, the condition [Er97] carries as the
-curator describes it. The phrase "infinitely many $x$ such that the ratio tends
-to infinity" is read as a limit along a sequence of $x$: some short intervals
-receive many more values of $n+f(n)$ than their length. The site's commentary
-adds that [Er97] considers only $f$ growing more slowly than $(\log n)^{1-c}$
-for some $c>0$.
+**Notes.** The erdosproblems.com wording (accessed 2026-09-04; page last edited
+2026-04-01) fails in two ways that the thread records. The erdosproblems.com
+revision of 2026-04-01 replaced $f(n)/F(n)\to0$ by $F(n)/f(n)\to0$ after thread
+comments of 2026-03-26 and 2026-03-27 showed that the earlier wording fails for
+every $f$: a fast-growing $F$, say $F(x)=x$, satisfies it and keeps the ratio
+bounded. The curator agreed on 2026-03-27 that [Er97] and [Er97e] carry the
+inverted ratio as a typo, while noting that [Er97] explicitly has the width of
+the interval tend to infinity faster than the normal order of $f$, so the
+correction there is more than a typo. A thread comment of 2026-07-24 shows that
+the current wording, read literally with $x$ a positive integer and $F$
+real-valued, fails for every positive-integer-valued $f$: $F(x)=1/x$ has
+$F/f\to0$, and $(x,x+1/x)$ contains no integer, so the count is zero for every
+$x$; that is a thread comment, not a claim. The change adds $F(n)\to\infty$, the
+condition [Er97] carries as the curator describes it. The phrase "infinitely
+many $x$ such that the ratio tends to infinity" is read as a limit along a
+sequence of $x$: some short intervals receive many more values of $n+f(n)$ than
+their length. The erdosproblems.com commentary adds that [Er97] considers only
+$f$ growing more slowly than $(\log n)^{1-c}$ for some $c>0$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited
 2026-04-01), and its proof-claims tab carries no entry. The one claim page,
 [[problems/arithmetic_functions/E0122/claims/1997_01_01_erdos_pomerance_sarkozy|Erdős's report of a proof for the divisor and prime-divisor counting functions]],
 records a claimed partial answer with no published proof. The derived standing
@@ -77,7 +77,7 @@ https://www.erdosproblems.com/122.
   (1997), 527-537.
 
 **Formalization.** None recorded: the formal-conjectures tree had no
-statement file for the problem on 2026-10-07, and the site's external
+statement file for the problem on 2026-10-07, and erdosproblems.com's external
 database entry records no formalized statement.
 
 ## Current assessment
@@ -93,14 +93,14 @@ Known results. For $f=\omega$, [EPS97]
 ([[../library/arithmetic_functions/erdos_1997_locally_repeated_values_arithmetic_functions_iv/_index|card]])
 proves results at single widths only: its Theorem 1 gives, for every large
 $x$, some $n\le x$ with more than $c(\log x)^{1/2}(\log\log x)^{-1}$ values
-$m$ satisfying $m+\omega(m)=n$, and its method gives, as the site's commentary
-and the curator's comment of 2026-03-27 record, an interval of width about
-$((\log x)/\log\log x)^{1/2}$ whose points $n$ all have $n+\omega(n)$ in one
-interval of width about $(\log\log x)^{1/2}$. Each fixes one width $F$ and
+$m$ satisfying $m+\omega(m)=n$, and its method gives, as the erdosproblems.com
+commentary and the curator's comment of 2026-03-27 record, an interval of width
+about $((\log x)/\log\log x)^{1/2}$ whose points $n$ all have $n+\omega(n)$ in
+one interval of width about $(\log\log x)^{1/2}$. Each fixes one width $F$ and
 settles no instance of the property, which quantifies over every $F$; the
 curator wrote on 2026-03-27 that the results Erdős describes do not really
 appear in that paper. No publication of the reported proofs for $\tau$ or
-$\omega$ was found on 2026-10-07 in the site's page, remarks and
+$\omega$ was found on 2026-10-07 in the erdosproblems.com page, remarks and
 five-comment thread, the [EPS97] card or the formal-conjectures tree.
 <!-- BEGIN problem library links -->
 

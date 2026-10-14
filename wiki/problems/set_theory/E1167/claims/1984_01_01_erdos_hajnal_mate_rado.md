@@ -40,7 +40,7 @@ $r\ge3$ and $\kappa_0$ and $\kappa_1$ are infinite; $r\ge4$ and $\kappa_0$ is
 infinite. Komjáth's Problem 2 commentary
 ([[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|source card]])
 records the same five cases as proved, citing that section of the monograph,
-and the site's remark lists them too.
+and the erdosproblems.com remark lists them too.
 
 **Covers.** The implication of
 [[problems/set_theory/E1167/_index|Problem 1167]] in the five cases above,
@@ -64,6 +64,6 @@ list*, Bull. Symbolic Logic 31 (2025), 418–461, DOI 10.1017/bsl.2025.1, covers
 the result in its Problem 2 commentary. It records the five cases as already
 proved, citing Section 24 of the monograph. The survey is refereed, and its
 author is not an author of the monograph. The result is in a monograph, not a
-journal paper, so `refereed` is not listed. The site labeled the problem OPEN,
-and its remark listing the cases is commentary, not counted. Nothing on this
-page is independently reviewed by this project.
+journal paper, so `refereed` is not listed. Bloom's catalog labeled the problem
+OPEN, and its remark listing the cases is commentary, not counted. Nothing on
+this page is independently reviewed by this project.

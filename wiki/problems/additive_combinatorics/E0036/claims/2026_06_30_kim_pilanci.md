@@ -59,5 +59,6 @@ validity of those constraints, including the printed-formula cautions
 recorded there, is an input to this bound.
 
 **Standing.** Claimed. The paper is a preprint with no refereed publication
-or outside review recorded; the site's commentary, last edited 23 January
-2026, predates it and gives White's $0.379005$ as the record lower bound.
+or outside review recorded; the erdosproblems.com commentary, last edited 23
+January 2026, predates it and gives White's $0.379005$ as the record lower
+bound.

@@ -55,8 +55,8 @@ has every color of degree $s$ at every vertex, and
 $2\lfloor(3s-1)/8\rfloor+1\le s$ for every $s\ge1$ (checked here: the left
 side is at most $(3s+3)/4$, which is at most $s$ for $s\ge3$, and the cases
 $s=1,2$ give $1\le1$ and $1\le2$), so every balanced $3$-coloring of an
-admissible $K_n$ contains a rainbow triangle. The formula gives the site's
-$d_{K_3}(n)$ exactly.
+admissible $K_n$ contains a rainbow triangle. The formula gives
+erdosproblems.com's $d_{K_3}(n)$ exactly.
 
 **Source.** P. Erdős and Zs. Tuza, *Rainbow subgraphs in edge-colorings of
 complete graphs*, Quo Vadis, Graph Theory?, Ann. Discrete Math. 55 (1993),
@@ -107,4 +107,4 @@ Generalized complementation, J. Combinatorial Theory Ser. B 42 (1987),
 
 - [[../wiki/problems/ramsey_theory/E0811/_index|Problem 811]]: the triangle is in the
   problem's answer set, and $d(n,K_3)=2\lfloor(n-2)/8\rfloor+1$ is the
-  exact value of the site's $d_{K_3}(n)$.
+  exact value of erdosproblems.com's $d_{K_3}(n)$.

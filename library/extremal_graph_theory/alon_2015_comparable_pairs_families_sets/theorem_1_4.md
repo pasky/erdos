@@ -64,8 +64,8 @@ arXiv:1411.4196 version 1 (15 November 2014), the edition named on the
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0777/_index|Problem 777]]: the
-  site's commentary derives the yes answer to the problem's first question
-  from this theorem and
+  erdosproblems.com commentary derives the yes answer to the problem's first
+  question from this theorem and
   [[extremal_graph_theory/alon_2015_comparable_pairs_families_sets/corollary_1_5|Corollary 1.5]]
   with $k=2$. The paper does not state that question and does not print
   that deduction.

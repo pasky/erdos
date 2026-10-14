@@ -99,8 +99,9 @@ the upper bound in observation 8.
   [[../wiki/problems/additive_bases/E0333/claims/1977_11_01_erdos_newman|claim page]]
   derives the negative answer from this theorem by joining sets of type
   $(n_k,N_k)$ along a dyadic sequence $N_k$, each satisfying
-  $m_A>N_k^{1/2}/2$; the site's commentary says that Theorem 2 implies a
-  negative answer. The derivation is the claim page's, not the paper's.
+  $m_A>N_k^{1/2}/2$; the erdosproblems.com commentary says that Theorem 2
+  implies a negative answer. The derivation is the claim page's, not the
+  paper's.
 - [[../wiki/problems/additive_combinatorics/E0806/_index|Problem 806]]: at
   $N=n^2$ the theorem says that most sets of $n$ integers with largest
   element $n^2$ need more than $n/(2\log n)$ basis elements, a lower bound

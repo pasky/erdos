@@ -68,11 +68,11 @@ finite rank also bounds $w(n)$, as the corpus's
 [[../library/diophantine_problems/evertse_schlickewei_schmidt_2002_linear_equations_multiplicative_group/_index|card]]
 of that paper records; it is not a claim about this problem by its authors.
 
-**Acceptance.** The site's curator, T. F. Bloom, labeled the problem proved and
-credits this paper with the proof. That documented acceptance is the `reviewed`
-evidence. The paper appears in an edited proceedings volume. Whether its
-chapters were refereed is not recorded here, so `refereed` is not listed. This
-project did not check any part of the proof.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, labeled the problem
+proved and credits this paper with the proof. That documented acceptance is the
+`reviewed` evidence. The paper appears in an edited proceedings volume. Whether
+its chapters were refereed is not recorded here, so `refereed` is not listed.
+This project did not check any part of the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos407.lean` of
 Boris Alexeev's repository `plby/lean-proofs` (Lean and Mathlib v4.33.0; 267

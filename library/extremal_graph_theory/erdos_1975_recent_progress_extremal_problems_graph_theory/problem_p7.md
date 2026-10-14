@@ -60,9 +60,9 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0573/_index|Problem 573]]: the site's [Er75]
-  source; the conjecture in Erdős's 1975 words, placed after Reiman's
-  bipartite construction.
+- [[../wiki/problems/extremal_graph_theory/E0573/_index|Problem 573]]:
+  erdosproblems.com's [Er75] source; the conjecture in Erdős's 1975 words,
+  placed after Reiman's bipartite construction.
 - [[../wiki/problems/extremal_graph_theory/E0572/_index|Problem 572]]: the sentence on
   Bondy and Simonovits's study of $C_{2k}$-free graphs, and (PDF p. 2) the
   attribution of the $C_4$ lower bound (2) to Klein.

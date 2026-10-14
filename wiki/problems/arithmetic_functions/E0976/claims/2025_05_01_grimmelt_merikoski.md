@@ -48,4 +48,4 @@ $F_f(n)\gg n^2$.
 **Standing.** An arXiv preprint, first posted on 1 May 2025, with no journal
 publication recorded. The proof imports an automorphic-kernel bound from a
 companion paper of the same authors and the sieve calculations of
-Merikoski's 2023 paper on $n^2+1$. The site labeled the problem OPEN.
+Merikoski's 2023 paper on $n^2+1$. Bloom's catalog labeled the problem OPEN.

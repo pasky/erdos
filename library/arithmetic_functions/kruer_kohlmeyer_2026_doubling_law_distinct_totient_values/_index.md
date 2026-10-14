@@ -31,7 +31,7 @@ accepted, read here as text only.
 
 ***
 
-The copy read for this card is the write-up the site publishes beside the
+The copy read for this card is the write-up Conjectures.io publishes beside the
 accepted proof, five pages numbered 1–5. Provenance: retrieved
 2026-09-28T03:02:29Z from <https://conjectures.io/papers/erdos416i.pdf> (HTTP
 200, one request; the bytes equal those of a first retrieval on 2026-09-27);
@@ -48,24 +48,24 @@ the site footer reads "© 2026 Conjectures.io"), every other right reserved.
 Liam Kruer and Jensen Kohlmeyer, "Erdős Problem 416(i): the doubling law for
 distinct totient values," working proof exposition and source guide, dated
 18 September 2026, published by Conjectures.io with the Lean proof it accepted
-as record `51923647-3c0d-418e-b330-aa595f5cad42` (solver credited on the site
-as JenW1N). The PDF states that it was prepared, with assistance from a
-language-model coding agent, from the accepted Lean submission, that the formal
-source and not the prose is what the kernel accepted, and that it is neither
-formally verified nor a journal publication.
+as record `51923647-3c0d-418e-b330-aa595f5cad42` (solver credited on
+Conjectures.io as JenW1N). The PDF states that it was prepared, with assistance
+from a language-model coding agent, from the accepted Lean submission, that the
+formal source and not the prose is what the kernel accepted, and that it is
+neither formally verified nor a journal publication.
 
 **The accepted Lean file.** Not held; recorded by URL and size, as the pages of
 Problems 653, 859 and 1062 record theirs:
 <https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42/solution/download>,
 fetched 2026-09-28T03:02:29Z (HTTP 200), 3,270,472 bytes, 64,775 lines, with the
-hash the PDF prints in §6 for the accepted file and the "Proof SHA-256" of the
-site's solution page. Its header reads "Erdos 416(i): proof adapted to the
-restricted conjectures.io submission format"; its target (line 64567) is
+hash the PDF prints in §6 for the accepted file and the "Proof SHA-256" of
+Conjectures.io's solution page. Its header reads "Erdos 416(i): proof adapted to
+the restricted conjectures.io submission format"; its target (line 64567) is
 `theorem target : fcTypeOfName% "Erdos416.erdos_416.parts.i" := by exact Erdos416Proof.Simplified.doubling_limit`;
 `doubling_limit` (line 64526) states
 `Tendsto (fun x => V (2*x)/V x) atTop (𝓝 2)` under a `letI` binding of a
 `Fintype` instance for the proof's core records, so the identity of its type
-with the formal-conjectures catalog's rests on `target` and the site's
+with the formal-conjectures catalog's rests on `target` and Conjectures.io's
 "Statement unchanged" gate; the proof's `V` (line 33) is the cardinality of
 `(Finset.Icc 1 ⌊x⌋₊).filter (fun n => ∃ m : ℕ, m.totient = n)` and
 `V_eq_standard_count` (line 79) closes by `rfl`. The PDF's §6 line map places
@@ -83,20 +83,20 @@ from PrimeNumberTheoremAnd carry Apache-2.0 notices at lines 2894, 15705 and
 file was read as text, and rebuilt and replayed in the kernel on the
 repository's pinned toolchain.
 
-**Formal statement and acceptance.** The site's record verified
+**Formal statement and acceptance.** Conjectures.io's record verified
 `Filter.Tendsto (fun x => Erdos416.V (2 * x) / Erdos416.V x) Filter.atTop (nhds 2)`,
 the statement `Erdos416.erdos_416.parts.i` of formal-conjectures
-(`FormalConjectures/ErdosProblems/416.lean`; the site's problem page pins
-catalog commit `6a786f99` and its record page names `8432eac9`, neither
+(`FormalConjectures/ErdosProblems/416.lean`; the erdosproblems.com problem page
+pins catalog commit `6a786f99` and its record page names `8432eac9`, neither
 reachable on GitHub on 2026-09-27, so the statement was compared at `main`,
-whose text equals the task bundle's printed type, and the site's "Source type
-hash matches" gate is the evidence that the pinned statement agrees), where
+whose text equals the task bundle's printed type, and Conjectures.io's "Source
+type hash matches" gate is the evidence that the pinned statement agrees), where
 `Erdos416.V x` is the number of integers $n$ with $1\le n\le\lfloor x\rfloor$
 such that $\varphi(m)=n$ for some $m\in\mathbb{N}$. This is the first question
 of Problem 416 clause for clause: real $x\to\infty$, unrestricted preimages,
 each value counted once, and $m=0$ contributing only the excluded value $0$.
 The record page (fetched 2026-09-27) shows Lean verification Passed (accepted
-14 September 2026 at 04:31:57 UTC; checked in 16 min 37 s in the site's
+14 September 2026 at 04:31:57 UTC; checked in 16 min 37 s in Conjectures.io's
 sandbox; fourteen gates passed, among them the static scan, "Statement
 unchanged", "Only permitted axioms" with `propext`, `Quot.sound` and
 `Classical.choice`, and "Lean kernel accepted"; the second kernel, Nanoda, "Not
@@ -112,11 +112,11 @@ separate complete axiom export, exhaustive line-by-line audit of the
 64,775-line proof or proof of originality is claimed"; it distinguishes the
 accepted target from the July 2026 partial claim of
 [[arithmetic_functions/zeraoulia_2026_fixed_scale_limit_points_distinct_totients/_index|Zeraoulia]],
-whose argument, it says, leaves the cluster interval's width uncontrolled. The
-site's certification is reported, not counted: no refereed publication, no arXiv
-preprint, no erdosproblems.com acceptance (its maintainer posted the record as
-an unverified partial proof claim on 2026-09-27, with an explicit
-non-endorsement) and no formal-conjectures agreement (`parts.i` still
+whose argument, it says, leaves the cluster interval's width uncontrolled.
+Conjectures.io's certification is reported, not counted: no refereed
+publication, no arXiv preprint, no erdosproblems.com acceptance (its maintainer
+posted the record as an unverified partial proof claim on 2026-09-27, with an
+explicit non-endorsement) and no formal-conjectures agreement (`parts.i` still
 `research open` at `main`) were found on 2026-09-27.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0416/_index|Problem 416]]: the
@@ -133,8 +133,8 @@ The proofs of Lemma 2.1 and Lemma 5.1 and the §5 deduction of Theorem 1.1
 from Proposition 4.1 were checked here and are reworked on their result pages.
 What remains unchecked is Proposition 4.1 itself, whose proof exists only in
 the Lean file: its analytic body was not read beyond the lines named above, so
-Theorem 1.1 rests on the site's kernel acceptance, and its standing here is
-that acceptance, not a local check.
+Theorem 1.1 rests on Conjectures.io's kernel acceptance, and its standing here
+is that acceptance, not a local check.
 
 ## Overview
 
@@ -202,8 +202,8 @@ fixed $\varepsilon$, and choosing $\varepsilon$ against a target $\delta$ gives
 $|V(2x)-2V(x)|\le\delta V(2x)$ eventually, display (6). Lemma 5.1 turns this
 relative error into $|V(2x)/V(x)-2|\le4\delta$ for $0\le\delta\le1/2$, which
 proves Theorem 1.1. §6 maps the components to line numbers of the accepted
-file, prints its hash, and records the site's verification and review, noting
-that its authors did not themselves re-run Lean or check the file with a
+file, prints its hash, and records Conjectures.io's verification and review,
+noting that its authors did not themselves re-run Lean or check the file with a
 second kernel, and that the record allows only three axioms: propositional
 extensionality, quotient soundness and classical choice.
 
@@ -219,7 +219,8 @@ the second question: the normalizing mass $H(y)$ of §4.3 is a device of the pai
 count and, as the PDF says, not asserted to be a full asymptotic formula for
 $V(y)$, so the page-level status of Problem 416 is unchanged by this source. The
 reusable pieces are Lemma 2.1 and Lemma 5.1, both elementary and checked here,
-and the architecture of §§3–4, whose correctness rests on the site's kernel.
+and the architecture of §§3–4, whose correctness rests on Conjectures.io's
+kernel.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

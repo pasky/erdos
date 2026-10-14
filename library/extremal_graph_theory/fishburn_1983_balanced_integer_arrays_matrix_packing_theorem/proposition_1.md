@@ -49,13 +49,13 @@ note then derives this packing from Proposition 1: deleting one $1$ from
 the degree sequence of a tree on $i+1$ vertices leaves a vector $t^i$ as
 in the proposition, and the $n$ deleted $1$'s fill the remaining column.
 
-**In the problem's wording.** The site's Problem 743 packs $T_2,\ldots,T_n$
-into $K_n$, so the site's $n$ is the note's $n+1$. Graham's necessary
-condition in the site's indexing: a packing would make the degrees of each
-vertex in the trees containing it sum to $n-1$, so the degree sequences of
-$T_2,\ldots,T_n$ would fill an $(n-1)\times n$ matrix with every column sum
-$n-1$. Proposition 1 at the note's $n-1$, with the extra column of removed
-1's, shows that this matrix exists for every choice of the trees. The
+**In the problem's wording.** erdosproblems.com's Problem 743 packs
+$T_2,\ldots,T_n$ into $K_n$, so erdosproblems.com's $n$ is the note's $n+1$.
+Graham's necessary condition in the erdosproblems.com indexing: a packing would
+make the degrees of each vertex in the trees containing it sum to $n-1$, so the
+degree sequences of $T_2,\ldots,T_n$ would fill an $(n-1)\times n$ matrix with
+every column sum $n-1$. Proposition 1 at the note's $n-1$, with the extra column
+of removed 1's, shows that this matrix exists for every choice of the trees. The
 proposition proves the necessary condition, not the conjecture; the note
 states no result on packing the trees themselves for any $n$.
 
@@ -98,7 +98,7 @@ not used in the proof, only as motivation through Graham's observation.
 - [[../wiki/problems/extremal_graph_theory/E0743/_index|Problem 743]]: the degree-sequence
   form of the tree packing conjecture, Graham's necessary condition, holds
   for every $n$; the page records this from the Joos, Kim, Kühn and
-  Osthus paper and from the note itself. The site cites this note for
+  Osthus paper and from the note itself. erdosproblems.com cites this note for
   the conjecture's verification for $n\le9$; the note contains no such
   result, which belongs to the author's J. Graph Theory 7 (1983) paper,
   not held.

@@ -65,8 +65,9 @@ the arXiv preprint (v1), held on its
 [[../library/analysis/ghosh_2024_number_components_polynomial_lemniscates_problem_erdos/_index|library card]];
 the proofs were not checked here.
 
-**Reviewed.** The site's curator, Thomas Bloom, marked Problem 1042 proved and
-credits this paper in the site's commentary (last edited 12 April 2026).
+**Reviewed.** The erdosproblems.com curator, Thomas Bloom, marked Problem 1042
+proved and credits this paper in the erdosproblems.com commentary (last edited
+12 April 2026).
 
 **Refereed.** Journal of Mathematical Analysis and Applications 540 (2024),
 no. 1, Paper No. 128571, as the Crossref record of the DOI gives it.

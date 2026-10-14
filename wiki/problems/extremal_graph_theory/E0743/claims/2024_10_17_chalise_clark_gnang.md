@@ -37,9 +37,9 @@ of it.
 is yes for every $n$: whenever $T_k$ is a tree on $k$ vertices for
 $k=2,\ldots,n$, the complete graph $K_n$ is the edge-disjoint union of copies
 of $T_2,\ldots,T_n$. The abstract claims this by a polynomial method and a
-reformulation of a packing as a "complete labeling"; the site's thread (a
-comment of 28 February 2026) outlines the paper's route through augmented
-functional trees, a polynomial certificate, its Proposition 3.4, its
+reformulation of a packing as a "complete labeling"; the erdosproblems.com
+thread (a comment of 28 February 2026) outlines the paper's route through
+augmented functional trees, a polynomial certificate, its Proposition 3.4, its
 Composition Lemma 3.10 and its Theorem 1.9.
 
 **Depends on.** Nothing in this wiki.
@@ -52,5 +52,6 @@ no refereed version and no independent verification, a comment of 1 March
 2026 reported that people who had tried to verify the paper did not trust
 its arguments, and another of the same day reported a GPT-based check, as
 its poster names it, that flagged two major gaps. On 2026-09-19 the routes in
-the problem page's search scope showed no acceptance either, and the site's
-page did not mention the claim. The problem's standing is unaffected.
+the problem page's search scope showed no acceptance either, and the
+erdosproblems.com page did not mention the claim. The problem's standing is
+unaffected.

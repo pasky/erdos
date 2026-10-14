@@ -41,7 +41,7 @@ $\frac12$ of the count, is the truth.
 conjecture is $g(n)=2\sqrt n+O(1)$. Erdős 1973 reports it as "Rohrbach
 conjectured $g(n)=2\sqrt n+o(1)$" (printed p. 131 of
 [[additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/_index|Erdős 1973]],
-as printed there), and the site's Problem 791 asks its asymptotic form,
+as printed there), and erdosproblems.com's Problem 791 asks its asymptotic form,
 "is it true that $g(n)\sim2n^{1/2}$?". Each of the three forms implies
 $\lim n_2(k)/k^2=\frac14$, and each is refuted by
 [[additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|Mrose's equation (3)]],

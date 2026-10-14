@@ -45,8 +45,9 @@ Enseignement Math. 4 (1958), 93--100", filed as
   The first published proof for $k\ge2$ is
   [[irrationality/schlagepuchta_2011_irrationality_number_theoretical_series/theorem_3|Schlage-Puchta 2007, Theorem 3]].
   Nothing here attributes the cases $k\ge2$ to Erdős.
-- **The second and third sentences** are problem 251 for $k=1$; the site's
-  page states the expectation for every $k$ as a remark citing this page.
+- **The second and third sentences** are problem 251 for $k=1$; the
+  erdosproblems.com page states the expectation for every $k$ as a remark citing
+  this page.
 - **The expectation about (2)** assumes only $g_n\ge2$ and $g_n=o(p_n)$,
   with no monotonicity. The paper does not say which "much more restrictive
   conditions" it means. Two theorems that prove (2) irrational under such

@@ -43,7 +43,7 @@ PDF as "Free download under CC-BY license", naming the Creative Commons
 Attribution license without a version or URL
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/9/3/95469/remark-concerning-integer-sequences,
 read 2026-10-02), while its site footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the article.
+reserved." speaks for erdosproblems.com, not the article.
 
 **Bears on.** [[../wiki/problems/discrepancy/E0177/_index|#177]]
 

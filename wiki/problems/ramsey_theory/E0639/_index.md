@@ -4,8 +4,8 @@ title: Problem 639
 desc: |
   Asks whether, for large $n$, every 2-coloring of the edges of $K_n$ leaves at
   most $n^2/4$ edges in no monochromatic triangle, as Erdős stated it. Proved by
-  Keevash and Sudakov's exact theorem, though the site's wording fails for
-  $3\le n\le6$.
+  Keevash and Sudakov's exact theorem, though the erdosproblems.com wording
+  fails for $3\le n\le6$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -30,69 +30,69 @@ are at most $n^2/4$ many edges which do not occur in a monochromatic triangle?
 2-coloured then there are at most $n^2/4$ many edges which do not occur in a
 monochromatic triangle for large $n$?
 
-**Notes.** The site's wording quantifies over every $n$ and is false for
-$3\le n\le6$. The smallest failure is $n=3$: a $2$-coloring of $K_3$ that
-is not monochromatic has no monochromatic triangle, so all three edges lie
-in none, and $3>9/4$. For every $n$,
+**Notes.** The erdosproblems.com wording quantifies over every $n$ and is false
+for $3\le n\le6$. The smallest failure is $n=3$: a $2$-coloring of $K_3$ that is
+not monochromatic has no monochromatic triangle, so all three edges lie in none,
+and $3>9/4$. For every $n$,
 [[../library/ramsey_theory/keevash_2004_number_edges_not_covered_monochromatic_copies/theorem_1_1|Theorem 1.1]]
 of Keevash and Sudakov [KeSu04] (p. 42) gives the maximum number of such
 edges exactly: $\binom n2$ for $n\le5$, $10$ for $n=6$ and
 $\lfloor n^2/4\rfloor$ for $n\ge7$. So the wording fails at $n=3,4,5,6$
 ($3$, $6$, $10$ and $10$ edges against $9/4$, $4$, $25/4$ and $9$) and
-holds for every other $n$ ($n\le2$ trivially); the site's commentary prints
-the same three values. The change appends Erdős's words "for large $n$",
+holds for every other $n$ ($n\le2$ trivially); the erdosproblems.com commentary
+prints the same three values. The change appends Erdős's words "for large $n$",
 that is, for every $n$ beyond some threshold; nothing else changes. The
 evidence is Erdős's own statement in [Er97d], item 10, printed p. 84
 ([[../library/ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/problem_10|item 10]]):
 "Rousseau, Schelp and I proved that if we color the edges of $K(n)$ by two
 colors then the number of edges which do not occur in a monochromatic
-triangle is at most $n^2/4$ for large $n$." The defect is the site's: its
-only source key states the bound for large $n$, and the site's wording
-drops the qualifier. The range $n\ge7$ of Theorem 1.1 is a theorem's range
-and is not used as the form. The one published result about the site's
-wording is the small-$n$ part of the same Theorem 1.1 (Keevash and Sudakov,
-J. Combin. Theory Ser. B 90 (2004), 41--53,
+triangle is at most $n^2/4$ for large $n$." The defect is erdosproblems.com's:
+its only source key states the bound for large $n$, and the erdosproblems.com
+wording drops the qualifier. The range $n\ge7$ of Theorem 1.1 is a theorem's
+range and is not used as the form. The one published result about the
+erdosproblems.com wording is the small-$n$ part of the same Theorem 1.1 (Keevash
+and Sudakov, J. Combin. Theory Ser. B 90 (2004), 41--53,
 [doi:10.1016/S0095-8956(03)00075-3](https://doi.org/10.1016/S0095-8956(03)00075-3)),
 which refutes it at $n=3,4,5,6$; it is credited here and counts for nothing.
-The site's label describes the modified Statement, and the standing judges
-it.
+The erdosproblems.com label describes the modified Statement, and the standing
+judges it.
 
-**Formulation.** The site's wording of 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (the page shows no
 last-edited date). An edge "does not occur in a monochromatic triangle" if no
 third vertex closes it into a triangle of its own color; Keevash and Sudakov
 call such edges NIM-$\triangle$ edges and write $f(n,\triangle)$ for their
 maximum number over all $2$-edge-colorings of $K_n$ (p. 42). In this notation
 the modified Statement asks whether $f(n,\triangle)\le n^2/4$ for all
-sufficiently large $n$. Item 10 of [Er97d], the site's source, states the
-result rather than the question, and its second sentence reads: "Many further
-related questions can be asked, but they have not yet been investigated."
-Keevash and Sudakov (p. 42) cite the item as "Problem 10" and read that
-sentence as Erdős suggesting "that generalizations of this result should be
-possible" for other fixed graphs $H$, the paper's Theorems 1.2--1.5.
+sufficiently large $n$. Item 10 of [Er97d], the erdosproblems.com source, states
+the result rather than the question, and its second sentence reads: "Many
+further related questions can be asked, but they have not yet been
+investigated." Keevash and Sudakov (p. 42) cite the item as "Problem 10" and
+read that sentence as Erdős suggesting "that generalizations of this result
+should be possible" for other fixed graphs $H$, the paper's Theorems 1.2--1.5.
 
-**Status.** The site showed PROVED (LEAN), a label that describes the modified
-Statement. The suffix is a catalog label explained under Formalization, and no
-local kernel credit is claimed. The modified Statement is **proved**. The claim
-page
+**Status.** erdosproblems.com showed PROVED (LEAN), a label that describes the
+modified Statement. The suffix is a catalog label explained under Formalization,
+and no local kernel credit is claimed. The modified Statement is **proved**. The
+claim page
 [[problems/ramsey_theory/E0639/claims/2003_07_16_keevash_sudakov|Keevash and Sudakov 2003]]
 records the theorem, its postings and its acceptance evidence, and the
 frontmatter standing derives from it. The page also carries the Lean file behind
-the site's suffix as a formalization link. Theorem 1.1 of Keevash and Sudakov
-(J. Combin. Theory Ser. B 90 (2004), 41--53, refereed) determines
+the erdosproblems.com suffix as a formalization link. Theorem 1.1 of Keevash and
+Sudakov (J. Combin. Theory Ser. B 90 (2004), 41--53, refereed) determines
 $f(n,\triangle)$ for every $n$. In particular,
-$f(n,\triangle)=\lfloor n^2/4\rfloor\le n^2/4$ for all $n\ge7$. The site credits
-the large-$n$ case earlier to Erdős, Rousseau and Schelp (unpublished; stated as
-proved, without proof, in item 10 of [Er97d]). It also credits it to Alon's
-deduction from Pyber's clique-covering theorem, [Py86] Theorem 1 (p. 393; paged
-at
+$f(n,\triangle)=\lfloor n^2/4\rfloor\le n^2/4$ for all $n\ge7$.
+erdosproblems.com credits the large-$n$ case earlier to Erdős, Rousseau and
+Schelp (unpublished; stated as proved, without proof, in item 10 of [Er97d]). It
+also credits it to Alon's deduction from Pyber's clique-covering theorem, [Py86]
+Theorem 1 (p. 393; paged at
 [[../library/ramsey_theory/pyber_1986_clique_covering_graphs/theorem_1|Theorem 1]]).
 The deduction itself is reported by [KeSu04] and is not printed in [Py86]. The
-site's wording, which drops "for large $n$", is false at $n=3,4,5,6$ by the same
-theorem, as the Notes record. Read depth: claims checked for Theorem 1.1 and
-Proposition 2.1; the proof is checked for structure only.
+erdosproblems.com wording, which drops "for large $n$", is false at $n=3,4,5,6$
+by the same theorem, as the Notes record. Read depth: claims checked for Theorem
+1.1 and Proposition 2.1; the proof is checked for structure only.
 
 **Source.** [erdosproblems.com/639](https://www.erdosproblems.com/639),
-accessed 2026-09-18: the problem page (PROVED (LEAN), a label the site
+accessed 2026-09-18: the problem page (PROVED (LEAN), a label erdosproblems.com
 explains as a positive solution whose proof has been checked in Lean; no
 last-edited date shown; source key [Er97d]; commentary
 citing [Py86] and [KeSu04]; additional thanks recorded to two
@@ -124,7 +124,7 @@ https://www.erdosproblems.com/639, accessed 2026-09-18.
   [[../library/ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/problem_10|problem_10]]).
 - [ERS] Erdős, P., Rousseau, C. C. and Schelp, R. H., the large-$n$
   solution, unpublished; stated as proved, without proof, in item 10 of
-  [Er97d] (p. 84), and attested by the site and by [KeSu04] p. 42.
+  [Er97d] (p. 84), and attested by erdosproblems.com and by [KeSu04] p. 42.
 
 **Formalization.** Statement in
 [`ErdosProblems/639.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/639.lean)
@@ -142,7 +142,7 @@ here; see "The (Lean) label" below.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED (LEAN); no last-edited date shown. The commentary credits
 the large-$n$ solution to Erdős, Rousseau and Schelp, unpublished; records
 Alon's observation that it also follows from Pyber's theorem [Py86], by
@@ -155,13 +155,13 @@ $n=6$. The thread's one comment
 $n\ge10$ made with Aristotle, an automated proof system, and links a Lean
 web-editor page; the proof-claim tab is empty.
 
-**The site's wording.** The Notes under the modified Statement give the
-defect and its evidence. The site's own commentary carries the values that
-refute the site's wording at $n\le6$, its label describes the modified
-Statement, and the formal statement encodes the same bound for large $n$
-(its docstring: "Since the bound fails for small $n$ (at $n=6$ the
-threshold is $10>6^2/4$), the statement is formalized in the asymptotic
-reading in which the problem was posed and solved").
+**The erdosproblems.com wording.** The Notes under the modified Statement give
+the defect and its evidence. erdosproblems.com's own commentary carries the
+values that refute the erdosproblems.com wording at $n\le6$, its label describes
+the modified Statement, and the formal statement encodes the same bound for
+large $n$ (its docstring: "Since the bound fails for small $n$ (at $n=6$ the
+threshold is $10>6^2/4$), the statement is formalized in the asymptotic reading
+in which the problem was posed and solved").
 
 **Status-defining source.**
 [[../library/ramsey_theory/keevash_2004_number_edges_not_covered_monochromatic_copies/theorem_1_1|Theorem 1.1]]
@@ -208,15 +208,15 @@ steps, pp. 395--396). The paper does not mention edges in no monochromatic
 triangle; Alon's deduction of $f(n,\triangle)\le\lfloor n^2/4\rfloor$ from
 Theorem 1 is reported by [KeSu04] without an argument and is not
 reconstructed here. Item 10 of [Er97d] (p. 84, quoted in the Notes)
-states the result for large $n$ without proof, and the site's attributions
-agree with this paragraph. The generalizations of the same paper (Theorems
-1.2, 1.3 and 1.5 and Corollary 1.4: $f(n,H)=\mathrm{ex}(n,H)$ for large $n$
-when $H$ is a clique, an edge-color-critical graph or $C_4$) answer
+states the result for large $n$ without proof, and the erdosproblems.com
+attributions agree with this paragraph. The generalizations of the same paper
+(Theorems 1.2, 1.3 and 1.5 and Corollary 1.4: $f(n,H)=\mathrm{ex}(n,H)$ for
+large $n$ when $H$ is a clique, an edge-color-critical graph or $C_4$) answer
 Erdős's generalization question for those graphs, while the paper's
 Problem 5.1 (p. 52) leaves open whether $f(n,H)=\mathrm{ex}(n,H)$ for every
 fixed $H$ and all large $n$; they are adjacent to this problem.
 
-**The (Lean) label.** The site's (Lean) suffix is a catalog label. The
+**The (Lean) label.** erdosproblems.com's (Lean) suffix is a catalog label. The
 formal-conjectures file at the pinned commit is a statement with a
 `sorry` body whose `formal_proof` attribute names
 `src/latest/ErdosProblems/Erdos639.lean` in the repository `plby/lean-proofs`
@@ -237,8 +237,8 @@ comment records `#print axioms erdos639` as `propext`, `Classical.choice`,
 (the docstring: "The linked file proves the bound for every finite vertex
 type with at least $10$ vertices, which gives the `atTop` reading"); the
 artifact formalizes neither the exact values for $n\le9$ nor the
-small-$n$ failures of the site's wording. These are statement-only static
-inspections at pinned commits: nothing was built or audited here, and no
+small-$n$ failures of the erdosproblems.com wording. These are statement-only
+static inspections at pinned commits: nothing was built or audited here, and no
 kernel credit is claimed. The thread's comment of 3 May 2026 links the
 same development on a Lean web editor. The file is a formalization link on
 the Keevash--Sudakov claim page, which lists no `formalized` evidence.
@@ -247,7 +247,7 @@ the Keevash--Sudakov claim page, which lists no `formalized` evidence.
 dispute of Theorem 1.1, a correction to it, or a second determination of
 the small cases.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file and the external Lean file at the pinned
   commits; the community database.
 - Crossref: the records of [KeSu04] and [Py86] (by DOI).
@@ -265,11 +265,11 @@ the small cases.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. The
 Erdős--Rousseau--Schelp argument is unpublished.
 
-**Remaining gaps.** (1) The site's wording drops Erdős's "for large $n$"
-and is false at $n=3,4,5,6$; the page judges the modified Statement, which
-Theorem 1.1 proves and the site's PROVED (LEAN) describes. (2) Item 10 of
-[Er97d], the site's only source key, states the large-$n$ result without
-proof. Theorem 1 of [Py86] is checked at statement depth, but the paper
+**Remaining gaps.** (1) The erdosproblems.com wording drops Erdős's "for large
+$n$" and is false at $n=3,4,5,6$; the page judges the modified Statement, which
+Theorem 1.1 proves and erdosproblems.com's PROVED (LEAN) describes. (2) Item 10
+of [Er97d], erdosproblems.com's only source key, states the large-$n$ result
+without proof. Theorem 1 of [Py86] is checked at statement depth, but the paper
 does not mention edges in no monochromatic triangle, and Alon's deduction
 of the bound from it is reported by [KeSu04] without an argument; the
 Erdős--Rousseau--Schelp argument is unpublished. So the earlier large-$n$

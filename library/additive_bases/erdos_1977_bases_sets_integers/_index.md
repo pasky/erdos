@@ -64,8 +64,8 @@ the paper's Theorem 1 upper bound, the squares construction and the closing
 question whether M_n = max m_A over sets of type (n,n^2) is o(n) are the
 background of those problems: the closing question is the origin of #806,
 while #333 comes from Erdős and Graham's 1980 monograph ([ErGr80]) and
-Theorem 2 already implies a negative answer to it, as the site's commentary
-notes.
+Theorem 2 already implies a negative answer to it, as the erdosproblems.com
+commentary notes.
 
 The copy read for this card is the Rényi archive's OmniPage scan (six
 pages; printed p. $n$ = PDF p. $n-419$); J. Number Theory 9 (1977), no. 4,
@@ -92,14 +92,14 @@ Source: <https://users.renyi.hu/~p_erdos/1977-05.pdf>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0333/_index|#333]]:
 [[additive_bases/erdos_1977_bases_sets_integers/theorem_2|Theorem 2]]
-(p. 422) implies a negative answer, as the site's commentary notes; the
-deduction, joining sets of type $(n_k,N_k)$ along a dyadic sequence, is the
+(p. 422) implies a negative answer, as the erdosproblems.com commentary notes;
+the deduction, joining sets of type $(n_k,N_k)$ along a dyadic sequence, is the
 problem's accepted claim page's, not the paper's, which treats finite sets
 only. The squares bound,
 [[additive_bases/erdos_1977_bases_sets_integers/inequality_9|inequality 9]]
-(p. 423), is proved for the first $n$ squares; the site's commentary credits
-the paper with the corresponding infinite case, a basis of the squares with
-counting function $o(N^{1/2})$.
+(p. 423), is proved for the first $n$ squares; the erdosproblems.com commentary
+credits the paper with the corresponding infinite case, a basis of the squares
+with counting function $o(N^{1/2})$.
 [[../wiki/problems/additive_combinatorics/E0806/_index|#806]]: the closing
 question (p. 425) is the problem's origin; see
 [[additive_bases/erdos_1977_bases_sets_integers/question_p425|question_p425]].

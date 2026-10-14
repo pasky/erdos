@@ -29,10 +29,10 @@ bounded diameter*, J. Combin. Theory Ser. B **161** (2023), 21--51; DOI
 [10.1016/j.jctb.2023.01.004](https://doi.org/10.1016/j.jctb.2023.01.004)
 (the Crossref record, read 2026-09-19, gives volume 161, pp. 21--51, July
 2023); received 20 November 2020; the article's first page says "This is an
-open access article under the CC BY license". Not a site key: the site's
-keys for Problem 916 are the 1967 seminar paper (Er67b), Dirac 1960 (Di60)
-and Thomassen 1974 (Th74), each held on a card of its own; this paper is a
-later refereed text that attests Thomassen's theorem.
+open access article under the CC BY license". Not an erdosproblems.com key: the
+erdosproblems.com keys for Problem 916 are the 1967 seminar paper (Er67b), Dirac
+1960 (Di60) and Thomassen 1974 (Th74), each held on a card of its own; this
+paper is a later refereed text that attests Thomassen's theorem.
 
 **Retained artifact.** The
 [folder-name PDF](carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter.pdf)
@@ -89,7 +89,7 @@ reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0916/_index|#916]]: the p. 22
 sentences (page image) are the held refereed attestation of Thomassen's
-theorem, the site's Th74, which answers the problem's question; the
+theorem, erdosproblems.com's Th74, which answers the problem's question; the
 restatement names no lower bound on the number of vertices, while
 Thomassen's own statement, held and paged on
 [[extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/theorem|theorem]],

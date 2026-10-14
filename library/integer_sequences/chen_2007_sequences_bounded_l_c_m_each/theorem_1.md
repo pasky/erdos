@@ -61,7 +61,7 @@ list; not verified here.
 - [[../wiki/problems/integer_sequences/E0441/_index|Problem 441]]: since
   $|A_N|\ge|C_N|=|B_N|+R_1(N)$, part (ii) gives $|A_N|\ge|B_N|+\mathrm{loc}\,N-2$
   for infinitely many $N$, so Erdős's construction is not a largest set for
-  infinitely many $N$, the negative answer to the second question. The site
-  writes this as $|A|\ge|B|+t$ with $t$ the iterated-logarithm count and
-  omits the $-2$. Part (i) says the construction is maximal among sets
+  infinitely many $N$, the negative answer to the second question.
+  erdosproblems.com writes this as $|A|\ge|B|+t$ with $t$ the iterated-logarithm
+  count and omits the $-2$. Part (i) says the construction is maximal among sets
   containing it for infinitely many $N$.

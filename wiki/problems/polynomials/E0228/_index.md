@@ -33,11 +33,11 @@ $$
 for all $\lvert z\rvert =1$, with the implied constants independent of $z$ and
 $n$?
 
-**Status.** PROVED (LEAN), the site's label (page last edited 2026-01-23). The
-answer is yes for every $n\ge2$. Balister, Bollobás, Morris, Sahasrabudhe and
-Tiba [BBMST20] construct the polynomial with absolute constants. Their paper is
-refereed in the Annals of Mathematics and credited by the site, and the corpus
-accepts it on the claim page
+**Status.** PROVED (LEAN), the erdosproblems.com label (page last edited
+2026-01-23). The answer is yes for every $n\ge2$. Balister, Bollobás, Morris,
+Sahasrabudhe and Tiba [BBMST20] construct the polynomial with absolute
+constants. Their paper is refereed in the Annals of Mathematics and credited by
+erdosproblems.com, and the corpus accepts it on the claim page
 [[problems/polynomials/E0228/claims/2019_07_22_balister_bollobas_morris_sahasrabudhe_tiba|Balister et al. 2020]].
 The Lean marker reflects the file `Erdos228.lean` of Boris Alexeev's lean-proofs
 repository. The file declares itself a formalization of the theorem of Balister,
@@ -64,8 +64,8 @@ https://www.erdosproblems.com/228.
 pinned to the file's last change (2026-09-18); its theorem `erdos_228` is tagged
 solved there, its proof is `sorry` and it carries no `formal_proof` attribute,
 so the file is a statement of the problem and not a formalization of the answer.
-The Lean the site's label refers to is the file `Erdos228.lean` of [Boris
-Alexeev's lean-proofs
+The Lean the erdosproblems.com label refers to is the file `Erdos228.lean` of
+[Boris Alexeev's lean-proofs
 repository](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos228.lean)
 (added 2026-08-21, last changed 2026-08-23), which declares itself a
 formalization of a solution to the problem with Balister, Bollobás, Morris,
@@ -77,16 +77,16 @@ formalization link on the Balister et al. claim page, which records the details.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 2026-01-23), asks for
-one $\pm1$ polynomial of each large degree $n$ whose modulus is bounded
+The question, as erdosproblems.com states it (page last edited 2026-01-23), asks
+for one $\pm1$ polynomial of each large degree $n$ whose modulus is bounded
 above and below by fixed multiples of $\sqrt n$ on the whole unit circle.
 Erdős asked it in 1957 as his Problem 26 and Littlewood conjectured the
-answer in 1966; the site traces the conjecture itself to Littlewood.
+answer in 1966; erdosproblems.com traces the conjecture itself to Littlewood.
 The upper bound was classical, from the Rudin–Shapiro
 polynomials; the lower bound, long known only in the form $n^{0.431}$, is
 what [BBMST20] proved, for every $n\ge2$ rather than only for large $n$.
 That paper is the accepted answer: refereed (Ann. of Math. (2) 192 (2020),
-977–1004) and credited by the site, with its construction and constants
+977–1004) and credited by erdosproblems.com, with its construction and constants
 digested on the card
 [[../library/polynomials/balister_2020_flat_littlewood_polynomials_exist/_index|Balister
 et al. 2020]]. The project has not verified the proof itself.
@@ -104,13 +104,13 @@ answer already fixes. The complex-coefficient relative, where unimodular
 ultraflat polynomials exist by Kahane's theorem, is
 [[problems/polynomials/E0230/_index|Problem 230]].
 
-Search scope: the site's problem page as exported (last edited 2026-01-23), the
-community database's entry (Lean formal status dated 2026-08-23), the header
-and theorem statement of the lean-proofs file `Erdos228.lean` at its pinned
-commit, the [BBMST20] paper (arXiv:1907.09464) and the release's manuscripts
-and Lean folder at the pinned revision of 2026-10-06; no forum proof claim
-names this problem. No wider literature search was made, none being needed for
-a refereed answer the site credits.
+Search scope: the erdosproblems.com problem page as exported (last edited
+2026-01-23), the community database's entry (Lean formal status dated
+2026-08-23), the header and theorem statement of the lean-proofs file
+`Erdos228.lean` at its pinned commit, the [BBMST20] paper (arXiv:1907.09464) and
+the release's manuscripts and Lean folder at the pinned revision of 2026-10-06;
+no forum proof claim names this problem. No wider literature search was made,
+none being needed for a refereed answer erdosproblems.com credits.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

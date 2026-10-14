@@ -27,14 +27,14 @@ $$
 
 irrational? Here $\phi$ is the Euler totient function.
 
-**Formulation.** The site writes $\sum_n$ with no lower limit; the sum runs
-over $n\ge1$ and converges since $\phi(n)\le n$. Its value is
+**Formulation.** erdosproblems.com writes $\sum_n$ with no lower limit; the sum
+runs over $n\ge1$ and converges since $\phi(n)\le n$. Its value is
 $1.36763080198502235079\ldots$ (OEIS A256936). Erdős posed the question in
-1948 and 1957 for a general integer base $t$; the site and the two sources
-it cites fix $t=2$. The all-base statement is a variant, not the problem: a
-proof or disproof for $t=2$ alone answers the site's question. The question
-is yes or no, so an exact rational value would also resolve it; Erdős
-expected irrationality.
+1948 and 1957 for a general integer base $t$; erdosproblems.com and the two
+sources it cites fix $t=2$. The all-base statement is a variant, not the
+problem: a proof or disproof for $t=2$ alone answers the erdosproblems.com
+question. The question is yes or no, so an exact rational value would also
+resolve it; Erdős expected irrationality.
 
 **Status.** Open. The search whose scope the Current assessment records found no
 proof, disproof, preprint or proof claim for the exact statement. Nothing found
@@ -88,7 +88,7 @@ not built it.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asked whether
+**The question.** On 2026-09-17 erdosproblems.com asked whether
 
 $$
 S=\sum_{n\ge1}\frac{\phi(n)}{2^n}
@@ -174,9 +174,9 @@ $$
 Evaluated with 600 terms in 80-digit decimal arithmetic (the omitted tail
 of the left side is below $10^{-177}$), the two sides agree with each other
 to 78 decimal digits and with the OEIS digits. The
-identity is also an OEIS formula line (A. Eldar, 15 March 2026) and a site
-comment (16 May 2026). The right side is a signed series over squarefree
-$d$ with terms of size about $4^{-d}$ and no positivity, so the tail
+identity is also an OEIS formula line (A. Eldar, 15 March 2026) and an
+erdosproblems.com comment (16 May 2026). The right side is a signed series over
+squarefree $d$ with terms of size about $4^{-d}$ and no positivity, so the tail
 arguments that settle positive sparse series do not apply to it as it
 stands.
 
@@ -194,20 +194,22 @@ its value at $z=1/2$.
 requires sparse support, which the target's coefficients do not have.
 
 **Unverified web items (none is progress).** These are dated leads with
-their authors' own qualifications; none is accepted by the site or by a
+their authors' own qualifications; none is accepted by erdosproblems.com or by a
 named mathematician, and each concerns a subseries or a bounded-residue
 variant rather than $S$.
 
-- Site discussion, Zeraoulia Rafik, 15 May 2026: the powers-of-two
+- erdosproblems.com discussion, Zeraoulia Rafik, 15 May 2026: the powers-of-two
   subseries $\sum_{m\ge1}\phi(2^m)/2^{2^m}=\sum_m2^{-(2^m-m+1)}$ is
   irrational because the gaps between its nonzero binary digits grow; the
   comment says this does not prove the problem, because the omitted terms
   could produce carries or cancellations.
-- Site discussion, Steve Fan, 16 May 2026: the Möbius identity above.
-- Site discussion, `williamwkcook`, 11 September 2026, pointing to two notes
-  by W. Cook (written up with the AI system Astra, as the comment says), dated
-  July 2026, in the GitHub repository `wcook04/plectis-erdos`: the short note
-  [*Erdős 249: binary totient series*](https://github.com/wcook04/plectis-erdos/blob/605b2735ee308e1d1c621c81b8a363e1d4e05925/paper/249/erdos-249-binary-totient-series.pdf),
+- erdosproblems.com discussion, Steve Fan, 16 May 2026: the Möbius identity
+  above.
+- erdosproblems.com discussion, `williamwkcook`, 11 September 2026, pointing to
+  two notes by W. Cook (written up with the AI system Astra, as the comment
+  says), dated July 2026, in the GitHub repository `wcook04/plectis-erdos`: the
+  short note [*Erdős 249: binary totient
+  series*](https://github.com/wcook04/plectis-erdos/blob/605b2735ee308e1d1c621c81b8a363e1d4e05925/paper/249/erdos-249-binary-totient-series.pdf),
   and a longer reasoning-surface note in the same folder. The short note
   claims that $\sum_{n\ge1}(\phi(n)\bmod m)/2^n$ is irrational for every
   $m\ge3$ (with the values $0$ for $m=1$ and $3/4$ for $m=2$), a
@@ -221,7 +223,7 @@ variant rather than $S$.
   "remains open"; its footnote says "AI agents did most of the research and
   drafting" and that the author "did not independently verify every claim";
   the repository's verification page claims no human mathematical peer review;
-  and the site comment says that the notes have had no independent
+  and the erdosproblems.com comment says that the notes have had no independent
   mathematical review and that the original unbounded $\varphi(n)$ lies
   outside the argument.
 - Mathematics Stack Exchange, answer by Erick Wong of 29 March 2015 to
@@ -233,11 +235,11 @@ variant rather than $S$.
 **Search scope.** The status rests on the following routes; none found a
 proof, disproof, preprint or claim on the full series.
 
-- The site: problem page, discussion thread, proof-claim tab (empty) and
-  history page; the site's blog post "Paul Erdős and irrationality problems
-  for series" (V. Kovač, 2 February 2026), which lists this problem among
-  the open ones; the community database record (open); formal-conjectures
-  `249.lean` (statement only).
+- erdosproblems.com: problem page, discussion thread, proof-claim tab (empty)
+  and history page; the erdosproblems.com blog post "Paul Erdős and
+  irrationality problems for series" (V. Kovač, 2 February 2026), which lists
+  this problem among the open ones; the community database record (open);
+  formal-conjectures `249.lean` (statement only).
 - OEIS A256936: value, formulas and references; no irrationality statement.
 - arXiv API metadata searches: `abs:totient AND abs:irrational` (three
   records, none on this series), `abs:"Lambert series" AND

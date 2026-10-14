@@ -31,7 +31,7 @@ Berkeley (p. 83). Cited as [Sh83] on the problem pages. Its three references
 Europ. J. Combinatorics 2 (1981), printed as "1--15" (the paper's [1], the
 source of the bound it sharpens); Ajtai, Komlós and Szemerédi, A note on
 Ramsey numbers, J. Combin. Theory (A) 29 (1980), 354--360 (the paper's [2],
-the site's AKS80, filed as
+erdosproblems.com's AKS80, filed as
 [[ramsey_theory/ajtai_1980_note_ramsey_numbers/_index|ajtai_1980_note_ramsey_numbers]];
 the running head and title on printed p. 354 (PDF p. 1) match this entry,
 and its Theorem 2, the independence bound $\alpha(G)\ge0.01(n/t)\ln t$ that
@@ -40,7 +40,7 @@ text layer and the theorem paged on
 [[ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_2|theorem_2]]);
 and Ajtai, Erdős, Komlós and Szemerédi, On
 Turán's theorem for sparse graphs, Combinatorica 1 (1981), 313--317 (the
-paper's [3], the site's AEKS81, filed as
+paper's [3], erdosproblems.com's AEKS81, filed as
 [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/_index|ajtai_1981_turan_s_theorem_sparse_graphs]]).
 The edition read is the publisher's version of record; no preprint or
 later version is known here.
@@ -151,7 +151,7 @@ Nothing here is independently reviewed.
   of the 1981 paper, and the undecided question is that paper's display (3),
   the statement of Problem 802.
 - What the paper does not print. No Ramsey number appears in the paper.
-  The bound $R(3,k)\le(1+o(1))k^2/\log k$ that the site and the later
+  The bound $R(3,k)\le(1+o(1))k^2/\log k$ that erdosproblems.com and the later
   literature attribute to it follows from Theorem 1 by an elementary step
   recorded on the result page: a triangle-free graph on $n$ vertices with
   no independent set of size $k$ has every degree at most $k-1$, so its
@@ -182,10 +182,10 @@ for $d\ge d_0$, of Ajtai, Komlós and Szemerédi. Remark 2 (p. 84) gives the
 upper bound $2\ln d/d$ on the least independence ratio, a factor $2$ above
 Theorem 1, so no bound on the independence number in terms of the average
 degree can bring this route's constant below $\frac12$.
-[[../wiki/problems/ramsey_theory/E0553/_index|#553]]: Theorem 1 (p. 83) is the site's
-source for $R(3,n)\ll n^2/\log n$, the denominator of the ratio in the
-problem's statement, by the same step; the resolving paper's own input for
-this bound is the 1980 note, whose Theorem 2 is the bound Theorem 1
+[[../wiki/problems/ramsey_theory/E0553/_index|#553]]: Theorem 1 (p. 83) is the
+erdosproblems.com source for $R(3,n)\ll n^2/\log n$, the denominator of the
+ratio in the problem's statement, by the same step; the resolving paper's own
+input for this bound is the 1980 note, whose Theorem 2 is the bound Theorem 1
 sharpens; p. 83 quotes that bound from the same authors' Sidon-sequence
 paper [1], not from the note.
 [[../wiki/problems/ramsey_theory/E0544/_index|#544]]: Theorem 1 (p. 83) is the upper half

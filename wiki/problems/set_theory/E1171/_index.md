@@ -27,9 +27,9 @@ $$
 \omega_1^2\to (\omega_1\omega, 3,\ldots,3)_{k+1}^2?
 $$
 
-**Status.** Open. The site labeled the problem NOT DISPROVABLE. Its label note
-says the question is open in general and holds in some models of set theory. The
-accepted partial claim
+**Status.** Open. Bloom's catalog labeled the problem NOT DISPROVABLE. Its label
+note says the question is open in general and holds in some models of set
+theory. The accepted partial claim
 [[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Baumgartner's partition ordinal under Martin's axiom]]
 shows that ZFC does not refute the relation. This is one side of an independence
 result. Whether ZFC proves the relation is open for $k\ge3$. The ZFC case
@@ -37,7 +37,7 @@ $k=1$ is the accepted partial claim
 [[problems/set_theory/E1171/claims/1971_09_01_erdos_hajnal|Erdős and Hajnal 1971]],
 and the ZFC cases $k\le2$ are on the accepted partial page
 [[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|Baumgartner and Hajnal 1987]].
-The deposit that prompted the site's label has its own page,
+The deposit that prompted the erdosproblems.com label has its own page,
 [[problems/set_theory/E1171/claims/2026_09_05_gao|Gao's conditional proof]],
 recorded as withdrawn.
 
@@ -97,16 +97,16 @@ Erdős Problem #1171, https://www.erdosproblems.com/1171.
   (section 7). Library home:
   [[../library/number_theory/various_1999_some_pauls_favorite_problems/_index|various_1999_some_pauls_favorite_problems]].
 
-**Formalization.** None recorded. The site answers its formalized-statement
-field with "No"; no file `ErdosProblems/1171.lean` exists in
-google-deepmind/formal-conjectures (the path returns HTTP 404 while sibling
+**Formalization.** None recorded. erdosproblems.com answers its
+formalized-statement field with "No"; no file `ErdosProblems/1171.lean` exists
+in google-deepmind/formal-conjectures (the path returns HTTP 404 while sibling
 files resolve); conjectures.io lists no settled item and no problem for 1171;
 and the community database records the formal status as unformalized (all
 checked 2026-09-27).
 
 ## Current assessment
 
-The dated site formulation
+The dated erdosproblems.com formulation
 ([erdosproblems.com/1171](https://www.erdosproblems.com/1171), last edited 26
 January 2026, accessed 2026-09-27) asks whether
 
@@ -123,12 +123,13 @@ known to be a theorem of ZFC, but it holds in every model of
 $\mathrm{MA}_{\aleph_1}$, Martin's axiom for $\aleph_1$ dense sets, which is
 consistent relative to ZFC [SoTe71], so ZFC does not refute it. That is one side
 of an independence result; the other side, a model in which the relation fails,
-is not known for $k\ge3$, and for $k\le2$ the relation is a theorem of ZFC. The
-site labeled the problem not disprovable: its label and the community database
-changed from open to not disprovable on 5 September 2026, after a comment in the
-discussion thread asked for the change on the strength of the deposit [Ga26].
-The author withdrew the deposit on 1 October 2026 and the site's proof-claims
-tab no longer lists it, while the label stands; the claim pages record both.
+is not known for $k\ge3$, and for $k\le2$ the relation is a theorem of ZFC.
+Bloom's catalog labeled the problem not disprovable: its label and the community
+database changed from open to not disprovable on 5 September 2026, after a
+comment in the discussion thread asked for the change on the strength of the
+deposit [Ga26]. The author withdrew the deposit on 1 October 2026 and the
+erdosproblems.com proof-claims tab no longer lists it, while the label stands;
+the claim pages record both.
 
 **Consistency.** The consistency rests on Baumgartner's published theorem that
 $\mathrm{MA}_{\aleph_1}$ makes $\omega_1\omega$ a partition ordinal,
@@ -146,17 +147,17 @@ bridging deduction is author-recorded here and not independently reviewed. Its
 only written form found is the color-reduction lemma of an unrefereed,
 AI-assisted Zenodo deposit
 ([[../library/set_theory/gao_2026_finite_color_partition_relation_omega_1_squared/lemma_2_1|Gao 2026, Lemma 2.1]]),
-which reaches the same conclusion from the weaker case $n=3$ that the site
-quotes; the lemma and the deposit's
+which reaches the same conclusion from the weaker case $n=3$ that
+erdosproblems.com quotes; the lemma and the deposit's
 [[../library/set_theory/gao_2026_finite_color_partition_relation_omega_1_squared/theorem_3_1|Theorem 3.1]]
 have their proofs followed on the card, an author-recorded check, and their
 research reconstructions were independently reviewed and graded faithful and
-sound. The deposit was the site's one proof claim, listed as partial until its
-author withdrew it, and it prompted the site's status change; it is not
-load-bearing for the status, since Baumgartner's theorem in the form above
-suffices. The deposit's argument is reconstructed step by step, with
-Baumgartner's relation stated as the imported input in the exact case used, in
-[[research/erdos_1171/_index|the research folder for this problem]]
+sound. The deposit was erdosproblems.com's one proof claim, listed as partial
+until its author withdrew it, and it prompted the erdosproblems.com status
+change; it is not load-bearing for the status, since Baumgartner's theorem in
+the form above suffices. The deposit's argument is reconstructed step by step,
+with Baumgartner's relation stated as the imported input in the exact case used,
+in [[research/erdos_1171/_index|the research folder for this problem]]
 (independently reviewed as it stood on 2026-09-28 and graded faithful and sound
 in [[research/erdos_1171/evidence/verify/grade|the grade]]; no tier; the status
 is unchanged).
@@ -233,12 +234,12 @@ which awards no tier.
   $\alpha$);
   [[../library/set_theory/gao_2026_finite_color_partition_relation_omega_1_squared/theorem_3_1|Theorem 3.1]],
   $\mathrm{MA}_{\aleph_1}$ implies the exact catalog relation for every
-  $k\ge1$. Was listed on the site as a partial proof claim with no comments
-  until its author withdrew it on 1 October 2026 (see the claim page); it
-  prompted the site's status change of 2026-09-05. Proofs of the lemma and
-  theorem followed on the card (author-recorded); research reconstructions
-  independently reviewed and graded faithful and sound, no tier; not
-  load-bearing given Baumgartner's theorem.
+  $k\ge1$. Was listed on erdosproblems.com as a partial proof claim with no
+  comments until its author withdrew it on 1 October 2026 (see the claim page);
+  it prompted the erdosproblems.com status change of 2026-09-05. Proofs of the
+  lemma and theorem followed on the card (author-recorded); research
+  reconstructions independently reviewed and graded faithful and sound, no tier;
+  not load-bearing given Baumgartner's theorem.
 - **Baumgartner and Hajnal 1987 (ZFC, $k=2$).**
   $\omega_1^2\to(\omega_1\omega,3,3)^2$ holds in ZFC
   ([[../library/set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/positive_relation|positive relation]],
@@ -254,7 +255,8 @@ which awards no tier.
   that it is unknown whether $\omega_1^2\to(\omega_1\omega,3,3,3)^2$ holds,
   or even whether $\alpha\not\to(\beta,4)^2$ together with
   $\alpha\to(\beta,3,3,3)^2$ is consistent for some ordinals $\alpha,\beta$.
-  The site's summary of Gao's claim likewise says the ZFC case remains open.
+  The erdosproblems.com summary of Gao's claim likewise says the ZFC case
+  remains open.
 - **Sharpness of the triangle targets.** CH gives
   $\omega_1^2\not\to(\omega_1\omega,4)^2$
   ([[../library/set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/negative_relation|negative relation]],

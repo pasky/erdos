@@ -60,7 +60,7 @@ but not verified by a second reader.
 **Copy read.** The copy read for this card is the AMS article PDF from
 <https://www.ams.org/journals/proc/1965-016-04/S0002-9939-1965-0179496-8/S0002-9939-1965-0179496-8.pdf>,
 downloaded 2026-09-05. The 1965 pages print no copyright line; the publisher's
-article page rendered only the site shell, with no copyright line
+article page rendered only erdosproblems.com shell, with no copyright line
 (https://pubs.ams.org/journals/proc/1965-016-04/S0002-9939-1965-0179496-8, read
 2026-10-02), the Crossref record names no license, and the publisher's copyright
 policy page states that authors transfer copyright to the American Mathematical

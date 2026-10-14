@@ -49,17 +49,17 @@ David Turturean, A Negative Answer to Erdős Problem #870. Overleaf preprint
 (2026). The edition read is dated April 2026 on its first page and runs to 11
 pages; labels and pages below are those of that edition.
 
-Theorem 1.1 (p. 2) is the negation of Erdős Problem #870 in the problem site's
-wording: for every integer k>=3 and every real C>0 there is a set E that is an
-additive basis of order k, every large integer being a sum of at most k
-elements, has R_{E,k}(n) >= C log n for all large n, where R_{E,k}(n) counts
-nondecreasing representations by at most k elements, and contains no minimal
-order-k basis. The input is the random order-2 basis of Larsen and Larsen
-(arXiv:2601.18507), built in stages I_n=[2^{2^n},2^{2^{n+1}}) by Bernoulli
-sampling, deleting the summands of a sparse set of 'canary' elements and adding
-restoration elements; Section 2 repairs it for the at-most-two convention with
-Lemma 2.1 (A(x)=o(x) for all x) and Lemma 2.2 (exclusion of canary
-representations through an old summand), packaged as Proposition 2.3. For
+Theorem 1.1 (p. 2) is the negation of Erdős Problem #870 in the
+erdosproblems.com wording: for every integer k>=3 and every real C>0 there is a
+set E that is an additive basis of order k, every large integer being a sum of
+at most k elements, has R_{E,k}(n) >= C log n for all large n, where R_{E,k}(n)
+counts nondecreasing representations by at most k elements, and contains no
+minimal order-k basis. The input is the random order-2 basis of Larsen and
+Larsen (arXiv:2601.18507), built in stages I_n=[2^{2^n},2^{2^{n+1}}) by
+Bernoulli sampling, deleting the summands of a sparse set of 'canary' elements
+and adding restoration elements; Section 2 repairs it for the at-most-two
+convention with Lemma 2.1 (A(x)=o(x) for all x) and Lemma 2.2 (exclusion of
+canary representations through an old summand), packaged as Proposition 2.3. For
 k>=4, Section 5 uses a finite-filler reduction (Lemma 5.1, Proposition 5.2):
 E = M·A ∪ ([1,N]∩N) with M > N, so that a rigid residue class mod M makes any
 order-k subbasis descend, modulo M, to an at-most-two subbasis of A. For k=3,

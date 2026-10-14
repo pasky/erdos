@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 689, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0689/claims
@@ -22,8 +22,8 @@ pending. Xu's Lean development of September 2026 declares itself the
 manuscript's formalization.
 
 [[problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki|2026_07_21_zribi_chojecki]]: Zribi and Chojecki's AI-assisted full proof claim of 21 July 2026 on the
-site's tab merges their notes, pairing leftover integers through prime
-progressions and a Selberg sieve. A shorter version followed in September, and
-the claim is pending.
+erdosproblems.com tab merges their notes, pairing leftover integers through
+prime progressions and a Selberg sieve. A shorter version followed in
+September, and the claim is pending.
 
 ***

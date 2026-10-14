@@ -29,12 +29,11 @@ THEOREM 2. $f(n)\ge\dfrac n3$."
 The indices in (27) allow $j_1=j_2$: no selected element is the sum of
 two selected elements, equal or distinct, that precede it in the
 selection's order; the proof below yields a selection with no relation
-$a+b=c$ at all, the convention of the site's Problem 792. Printed p. 187
-continues: "Can Theorem 2 be improved?
-The sequence $1,2,\cdots,n$ shows that in any case
-$f(n)\le\lfloor(n+2)/2\rfloor$ and if we permit $j_1=j_2$ in (27) then
-$f(n)\le\frac37n$", proved from the numbers $2,3,4,5,6,8,10$ ("one cannot
-choose $4$ of these without choosing one which is the difference of two
+$a+b=c$ at all, the convention of erdosproblems.com's Problem 792. Printed p.
+187 continues: "Can Theorem 2 be improved? The sequence $1,2,\cdots,n$ shows
+that in any case $f(n)\le\lfloor(n+2)/2\rfloor$ and if we permit $j_1=j_2$ in
+(27) then $f(n)\le\frac37n$", proved from the numbers $2,3,4,5,6,8,10$ ("one
+cannot choose $4$ of these without choosing one which is the difference of two
 others"); the $7k$ numbers $10^rx$, with $x$ one of the seven and
 $1\le r\le k$, then admit no choice of more than $3k$ in which none is the
 difference of two others: "This construction is essentially due to
@@ -53,7 +52,7 @@ the best possible constant for measurable sets (mod $1$) or for residues
 Pure Math. VIII (Theory of Numbers), Amer. Math. Soc. (1965), 181--189, DOI
 10.1090/pspum/008/0174539; printed pp. 186--187 (PDF pp. 6--7 of the
 eleven-page scan read for this page), read on the page images (the
-indices of (27) at 300 dpi); a site key for Problem 792 ([Er65]).
+indices of (27) at 300 dpi); an erdosproblems.com key for Problem 792 ([Er65]).
 
 **Read depth.** Claims checked: the definition, (27), the theorem and the
 p. 187 remarks were read clause by clause on the page images. The half-page
@@ -77,7 +76,7 @@ None stated; the measure estimate (28) is asserted as evident.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0792/_index|Problem 792]]: the origin of the
-  problem and its first lower bound $f(n)\ge n/3$, in the site's convention
-  on equal summands; the Klarner example $3n/7$ under that convention and
-  the $[(n+2)/2]$ guess for distinct summands, which Eberhard, Green and
+  problem and its first lower bound $f(n)\ge n/3$, in the erdosproblems.com
+  convention on equal summands; the Klarner example $3n/7$ under that convention
+  and the $[(n+2)/2]$ guess for distinct summands, which Eberhard, Green and
   Manners answered in the negative.

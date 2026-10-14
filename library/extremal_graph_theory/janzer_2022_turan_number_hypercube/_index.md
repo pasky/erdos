@@ -94,14 +94,14 @@ Source: <https://arxiv.org/abs/2211.02015>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0576/_index|#576]]: Theorem 1.4
 proves the upper bound ex(n;Q_k) = O_k(n^{2-1/(k-1)+1/((k-1)2^{k-1})}) for
-every k >= 3, the site's [JaSu22] display; for k = 3 the exponent 13/8
+every k >= 3, erdosproblems.com's [JaSu22] display; for k = 3 the exponent 13/8
 exceeds 8/5 and does not improve the Erdos--Simonovits bound
 ([[extremal_graph_theory/janzer_2022_turan_number_hypercube/theorem_1_4|theorem_1_4]]), and Theorem 1.5 adds supersaturation at the same density
 ([[extremal_graph_theory/janzer_2022_turan_number_hypercube/theorem_1_5|theorem_1_5]]), both derived from the general Theorem 2.16
 ([[extremal_graph_theory/janzer_2022_turan_number_hypercube/theorem_2_16|theorem_2_16]]);
 Theorem 1.2 and the abstract of another Sudakov--Tomon paper, which announces
 the result, are the only texts read here of the Sudakov--Tomon bound
-o(n^{2-1/k}) the site cites
+o(n^{2-1/k}) erdosproblems.com cites
 ([[extremal_graph_theory/janzer_2022_turan_number_hypercube/theorem_1_2|theorem_1_2]]);
 p. 1 attests the Q_3 bounds Omega(n^{3/2}) and O(n^{8/5}) as unimproved and
 sources the lower one in the 4-cycle; p. 17 states the best known general

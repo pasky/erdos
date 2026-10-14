@@ -32,42 +32,43 @@ $\lvert A\rvert=o(N)$?
 be such that $\phi(a_1)<\cdots<\phi(a_t)$. The primes are such an example. Can
 one show that $\lvert A\rvert<(1+o(1))\pi(N)$ or even $\lvert A\rvert=o(N)$?
 
-**Notes.** The site's wording asks three things: whether the primes are the
-largest strict totient sequence in $\{1,\ldots,N\}$, whether
+**Notes.** The erdosproblems.com wording asks three things: whether the primes
+are the largest strict totient sequence in $\{1,\ldots,N\}$, whether
 $\lvert A\rvert<(1+o(1))\pi(N)$, and whether $\lvert A\rvert=o(N)$. Erdős
 printed the first as an expectation, not as the question: item 9 of Part I of
 [Er95] (typescript p. 6, display (7)) says "Probably $t=\pi(n)$" and then asks
 whether one can prove $t<(1+o(1))\pi(n)$ or at least $t=o(n)$, adding that the
-last will probably be easy. The site reads the problem as the quantitative
-question: its label was PROVED (LEAN), and its commentary says "Solved by Tao
-[Ta24d]", citing the bound
+last will probably be easy. erdosproblems.com reads the problem as the
+quantitative question: its label was PROVED (LEAN), and its commentary says
+"Solved by Tao [Ta24d]", citing the bound
 $\lvert A\rvert\le(1+O((\log\log x)^5/\log x))\pi(x)$, which is the asymptotic
-clause; the site's forum thread had no comments when searched. The change
-removes the sentence "Are they the largest possible?" and inserts nothing; the
-two remaining clauses are the site's words (the site's "or even" presents
-$o(N)$ as the stronger clause where Erdős's "or at least" presents it as the
-weaker; the words are kept as the site prints them). The answer under the
-site's reading is yes: Tao's Theorem 1.1 proves the bound for the weak maximum
-$M_\le(N)$, and $\pi(N)\le M_<(N)\le M_\le(N)$ gives $M_<(N)\sim\pi(N)$ and
-$M_<(N)=o(N)$ (the strict transfer, on the library page). The $o(N)$ clause is
-older and elementary: a strict sequence has distinct totient values, so its
-size is at most the number of totient values up to $N$, which Erdős (1935)
-bounded by $N/(\log N)^{1+o(1)}$; Pollack, Pomerance and Treviño [PoPoTr13],
-Theorem 1.2, gave $o(x)$ for the weak maximum in 2013. The answer under the
-exact reading is unknown for the strict maximum: no source located asserts or
-refutes $M_<(N)=\pi(N)$ for $N\ge2$, and at $N=1$ the exact statement fails
-trivially ($\{1\}$ has one element and $\pi(1)=0$; this corpus's check). For
-the weak variant of [Er95c] the exact reading is false: [PoPoTr13]'s numerics
-and OEIS A365339 give $M_\le(x)\ge\pi(x)+64$ for every $x\ge31957$. The
-exact question is recorded in Formulation as Erdős's conjecture, with no claim
-page. Results about the site's wording, credited and never counted: the site's
+clause; the erdosproblems.com forum thread had no comments when searched. The
+change removes the sentence "Are they the largest possible?" and inserts
+nothing; the two remaining clauses are erdosproblems.com's words
+(erdosproblems.com's "or even" presents $o(N)$ as the stronger clause where
+Erdős's "or at least" presents it as the weaker; the words are kept as
+erdosproblems.com prints them). The answer under erdosproblems.com's reading is
+yes: Tao's Theorem 1.1 proves the bound for the weak maximum $M_\le(N)$, and
+$\pi(N)\le M_<(N)\le M_\le(N)$ gives $M_<(N)\sim\pi(N)$ and $M_<(N)=o(N)$ (the
+strict transfer, on the library page). The $o(N)$ clause is older and
+elementary: a strict sequence has distinct totient values, so its size is at
+most the number of totient values up to $N$, which Erdős (1935) bounded by
+$N/(\log N)^{1+o(1)}$; Pollack, Pomerance and Treviño [PoPoTr13], Theorem 1.2,
+gave $o(x)$ for the weak maximum in 2013. The answer under the exact reading is
+unknown for the strict maximum: no source located asserts or refutes
+$M_<(N)=\pi(N)$ for $N\ge2$, and at $N=1$ the exact statement fails trivially
+($\{1\}$ has one element and $\pi(1)=0$; this corpus's check). For the weak
+variant of [Er95c] the exact reading is false: [PoPoTr13]'s numerics and OEIS
+A365339 give $M_\le(x)\ge\pi(x)+64$ for every $x\ge31957$. The exact question is
+recorded in Formulation as Erdős's conjecture, with no claim page. Results about
+the erdosproblems.com wording, credited and never counted: erdosproblems.com's
 '(LEAN)' rests on Boris Alexeev's plby/lean-proofs file `Erdos49.lean` (commit
-`1e0ec64f07933c62401e0053041e5bece2cbe325`, 2026-09-04), whose `erdos_49`
-states $M_<(N)=o(N)$ and whose `erdos_49_quantitative` states the weak bound
-with Tao's rate, neither built here. The page's standing judges the modified Statement.
+`1e0ec64f07933c62401e0053041e5bece2cbe325`, 2026-09-04), whose `erdos_49` states
+$M_<(N)=o(N)$ and whose `erdos_49_quantitative` states the weak bound with Tao's
+rate, neither built here. The page's standing judges the modified Statement.
 
-**Formulation.** The site's wording also asks "Are they the largest possible?",
-that is, whether the largest size $M_{<}(N)$ of a strict example in
+**Formulation.** The erdosproblems.com wording also asks "Are they the largest
+possible?", that is, whether the largest size $M_{<}(N)$ of a strict example in
 $\{1,\ldots,N\}$ equals $\pi(N)$. This page records that question as Erdős's
 conjecture, not as the problem. In [Er95] (Part I, item 9, p. 6) Erdős states
 it as the expectation for the longest sequence (7), "Probably $t=\pi(n)$", and
@@ -80,8 +81,8 @@ $\phi(a_1)\le\cdots\le\phi(a_t)$: the weak maximum satisfies
 $M_{\le}(x)\ge\pi(x)+64$ for every $x\ge31957$ (see Further results). No claim
 page records the conjecture.
 
-**Status.** PROVED (LEAN), the site's label, which describes the modified
-Statement. The site credits Tao [Ta24d].
+**Status.** PROVED (LEAN), the erdosproblems.com label, which describes the
+modified Statement. erdosproblems.com credits Tao [Ta24d].
 [[problems/primes/E0049/claims/2023_09_05_tao|Tao's theorem]], an accepted full
 claim, answers both clauses of that Statement: it gives
 $\lvert A\rvert<(1+o(1))\pi(N)$ and hence $\lvert A\rvert=o(N)$. The strict
@@ -111,7 +112,8 @@ external public solution described below.
   clauses offered as fallbacks, and "This latest conjecture will probably
   be easy" for $t=o(n)$.
 - [Er95c] P. Erdős, *Some problems in number theory*, Octogon Mathematical
-  Magazine (1995), 3–5; source reference as recorded by the site, not held.
+  Magazine (1995), 3–5; source reference as recorded by erdosproblems.com, not
+  held.
 - [PoPoTr13] P. Pollack, C. Pomerance, E. Treviño, *Sets of monotonicity
   for Euler's totient function*, Ramanujan J. 30(3) (2013), 379–398,
   [DOI 10.1007/s11139-012-9386-6](https://doi.org/10.1007/s11139-012-9386-6);
@@ -175,8 +177,8 @@ clause, is reconstructed step by step under
 which clause it settles and which remain open; that reconstruction is
 author-recorded and changes no status.
 
-The site's older Erdős references remain historical pointers; their complete
-source comparison is not claimed by the Tao proof compilation.
+erdosproblems.com's older Erdős references remain historical pointers; their
+complete source comparison is not claimed by the Tao proof compilation.
 
 A public [24 August 2026 commit
 message](https://github.com/plby/lean-proofs/commit/cecc3fc4b7725db36692f0eca3c24712a481cfba)
@@ -240,7 +242,7 @@ predating Tao's rate.
   above 31957, and the conjecture $M_{\le}(x)=\pi(x)+64$ for all
   $x\ge31957$, which Tao records as checked at $x=10^m$ for $m\le7$ and, in
   the paper's footnote 2, at $m=8,9$ by Chai Wah Wu (OEIS A365339 and
-  A365474, as the site cites). OEIS A365339 records
+  A365474, as erdosproblems.com cites). OEIS A365339 records
   $M_{\le}(x)\ge\pi(x)+64$ for every $x\ge31957$, so the primes are not a
   largest example for the weak variant of [Er95c]. Whether
   $M_{\le}(x)-\pi(x)\to\infty$ is the
@@ -253,7 +255,8 @@ predating Tao's rate.
 - The count $W(N)$ of this page is the $V'(N)$ of
   [[problems/arithmetic_functions/E0417/_index|Problem 417]].
 
-The site also cross-references [[problems/arithmetic_functions/E0415/_index|Problem 415]].
+erdosproblems.com also cross-references
+[[problems/arithmetic_functions/E0415/_index|Problem 415]].
 
 ## Formalization evidence
 

@@ -40,10 +40,10 @@ Springer-Verlag"); dedicated to the memory of Paul Erdős; received February
 copyright line "©2001 János Bolyai Mathematical Society"; the author at the
 Department of Mathematics, Stanford University (p. 219). The publisher's DOI
 is 10.1007/s004930100019; it is not printed on the pages. Cited as [Ka01] on
-the problem pages, the site's key. The paper's four references (p. 219) are
-de Mathan, Numbers contravening a condition in density modulo 1, Acta Math.
-Hungar. 36 (1980), 237--241 (not held); Erdős, Problems and results on
-diophantine approximation (II), Répartition modulo 1, Lecture Notes in
+the problem pages, the erdosproblems.com key. The paper's four references
+(p. 219) are de Mathan, Numbers contravening a condition in density modulo 1,
+Acta Math. Hungar. 36 (1980), 237--241 (not held); Erdős, Problems and results
+on diophantine approximation (II), Répartition modulo 1, Lecture Notes in
 Mathematics 475 (1975), 89--99, filed as
 [[number_theory/erdos_1975_problems_results_diophantine_approximations_ii/_index|erdos_1975_problems_results_diophantine_approximations_ii]];
 Pollington, On the density of sequence $\{n_k\xi\}$, Illinois J. Math. 23
@@ -228,20 +228,20 @@ the problem pages record both forms with their sources.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0894/_index|#894]], which is the paper's
 question: p. 211 opens "In 1987 Paul Erdős asked me if the Cayley graph
 defined on $\mathbb Z$ by a lacunary sequence has necessarily a finite
-chromatic number", the first-hand source of the site's "Asked by Erdős in
-1987, according to Katznelson"; Theorem 1.1 (p. 211), "If $\Lambda$ is
+chromatic number", the first-hand source of erdosproblems.com's "Asked by Erdős
+in 1987, according to Katznelson"; Theorem 1.1 (p. 211), "If $\Lambda$ is
 lacunary then $\chi(\Lambda)<\infty$", answers it, and its proof (p. 212)
 is the reduction the later literature calls Katznelson's: color $n$ by the
 arc of $\mathbb T$ containing $n\alpha$, with $M>1/\varepsilon(\rho)$ arcs;
 § 1.2 gives a second, elementary proof with $5^d$ colors for $\rho^d\ge5$,
 and footnote 2 (p. 212) gives the paper's own quantitative bound, of order
 $(\rho-1)^{-2}\log^2(1/(\rho-1))$ colors. A proper coloring of the graph on
-$\mathbb Z$ restricts to the finite coloring of $\mathbb N$ the site asks
-for. [[../wiki/problems/number_theory/E0464/_index|#464]], whose modified Statement
-(fractional parts of $\theta n_k$ not dense modulo $1$) Theorem 1.2 and
-Claim 1 (p. 212) answer with the separation $\|\lambda\alpha\|>
-\varepsilon(\rho)$ for all $\lambda\in\Lambda$, quantified by footnote 2;
-the theorem produces $\alpha\in\mathbb T$ and does not assert
+$\mathbb Z$ restricts to the finite coloring of $\mathbb N$ erdosproblems.com
+asks for. [[../wiki/problems/number_theory/E0464/_index|#464]], whose modified
+Statement (fractional parts of $\theta n_k$ not dense modulo $1$) Theorem 1.2
+and Claim 1 (p. 212) answer with the separation
+$\|\lambda\alpha\|> \varepsilon(\rho)$ for all $\lambda\in\Lambda$, quantified
+by footnote 2; the theorem produces $\alpha\in\mathbb T$ and does not assert
 irrationality, but Claim 2's set of admissible $\alpha$ has Hausdorff
 dimension $1$, hence contains irrationals; § 1.2 (p. 212) attests that
 Erdős raised the question in the 1975 chapter [2] and that de Mathan [1]

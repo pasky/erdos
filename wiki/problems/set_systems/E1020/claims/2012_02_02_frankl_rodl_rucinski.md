@@ -42,8 +42,8 @@ The paper is P. Frankl, V. Rödl and A. Ruciński, On the maximum number of
 edges in a triple system not containing a disjoint family of a given size,
 Combin. Probab. Comput. 21 (2012), 141–148.
 
-**Covers.** The case $r=3$ for $n\ge4k$, as the site records it. The rest of
-the case $r=3$ was settled for $n$ large on
+**Covers.** The case $r=3$ for $n\ge4k$, as erdosproblems.com records it. The
+rest of the case $r=3$ was settled for $n$ large on
 [[problems/set_systems/E1020/claims/2012_02_19_luczak_mieczkowska|Łuczak and Mieczkowska 2014]]
 and for every $n$ on
 [[problems/set_systems/E1020/claims/2012_05_30_frankl|Frankl 2017]].
@@ -52,7 +52,7 @@ and for every $n$ on
 
 **Acceptance.** Refereed: the paper appeared in Combinatorics, Probability and
 Computing 21 (2012), no. 1–2, 141–148, published online on 2012-02-02, the
-page's date. The site's commentary credits the range to the paper as [FRR12].
-The site labeled the problem FALSIFIABLE, an open label, so this commentary is
-not acceptance and no `reviewed` is listed. Nothing here rests on this project's
-own review.
+page's date. The erdosproblems.com commentary credits the range to the paper as
+[FRR12]. Bloom's catalog labeled the problem FALSIFIABLE, an open label, so this
+commentary is not acceptance and no `reviewed` is listed. Nothing here rests on
+this project's own review.

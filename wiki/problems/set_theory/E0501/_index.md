@@ -35,9 +35,10 @@ Must there exist an infinite independent set, that is, some infinite $X\subseteq
 If the sets $A_x$ are closed and have measure $<1$, then must there exist an
 independent set of size $3$?
 
-**Status.** The site labeled the problem NOT DISPROVABLE. This label composes
-the outcomes of the two questions by the erdosproblems.com rule (the strongest
-status holding of every part). The two questions have different outcomes.
+**Status.** Bloom's catalog labeled the problem NOT DISPROVABLE. This label
+composes the outcomes of the two questions by the erdosproblems.com rule (the
+strongest status holding of every part). The two questions have different
+outcomes.
 
 The frontmatter lists the two questions as the problem's parts. Each is settled
 by an accepted claim page that records the result and its acceptance evidence.
@@ -53,14 +54,14 @@ settles neither question alone. The standing in the frontmatter derives from
 these pages: `solved`, with the claim value `answered`, which is the schema's
 value when the accepted parts have different outcomes. It departs from NOT
 DISPROVABLE because the corpus records each question's settled outcome as a
-part, while the site's label composes the two outcomes into the strongest status
-that holds of both. Taken as the status of the conjunction, the exact statement
-would be independent, since the conjunction is ZFC-equivalent to the first
-question.
+part, while the erdosproblems.com label composes the two outcomes into the
+strongest status that holds of both. Taken as the status of the conjunction, the
+exact statement would be independent, since the conjunction is ZFC-equivalent to
+the first question.
 
 First question: independent of ZFC relative to $\mathrm{Con}(\mathrm{ZFC})$. The
 negative answer holds under CH, by the countable, null, bounded construction
-that the site attributes to Hechler [He72]. Both 2026 notes write this
+that erdosproblems.com attributes to Hechler [He72]. Both 2026 notes write this
 construction out. CH holds in Gödel's constructible universe, so if ZFC is
 consistent, ZFC does not prove the positive answer (the not-provable side). The
 positive answer holds after adding $\omega_2$ random reals to any model of CH
@@ -83,7 +84,7 @@ reasoning). The author's public Lean 4 development
 on the claim pages, not acceptance evidence.
 
 **Source.** [erdosproblems.com/501](https://www.erdosproblems.com/501),
-accessed 2026-09-27 (label NOT DISPROVABLE, the site's label for a
+accessed 2026-09-27 (label NOT DISPROVABLE, the erdosproblems.com label for a
 statement open in general but true in some models of set theory; page last
 edited 2026-09-03; Proof expositions (0), Comments (13), Proof claims (1,
 full, submitted 2026-08-17); the statement is recorded as formalized;
@@ -106,8 +107,8 @@ https://www.erdosproblems.com/501.
   Proc. Amer. Math. Soc. (1987), 335-339.
 - [Gla26] Glazer, E., Erdős Problem 501 after adding ω₂ random reals. Draft
   rev10 (PDF dated 2026-08-16), self-published in the repository
-  github.com/elliotglazer/erdos501 (`docs/paper/`) and on the site's Drive
-  link; not refereed, not on arXiv. Library home:
+  github.com/elliotglazer/erdos501 (`docs/paper/`) and on erdosproblems.com's
+  Drive link; not refereed, not on arXiv. Library home:
   [[../library/set_theory/glazer_2026_erdos_problem_501_after_adding_random_reals/_index|glazer_2026_erdos_problem_501_after_adding_random_reals]].
 - [Lee26] Lee, S., Relative independence of Erdős problem #501. Preprint,
   second version dated 2026-06-01 (first version dated 2026-05-30), in the
@@ -145,19 +146,21 @@ details on the [Gla26] card.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-27).** The two-question statement
-above, unchanged on the site's revision history since at least 2025-10-20 and
-identical to its LaTeX source; origin keys [Er61] (Problem II.9 of Erdős's 1961
-list) and [ErHa71] (Problem 38 (B) and (C) of the Erdős–Hajnal list). The site's
-label was NOT DISPROVABLE. Its commentary says that under the assumptions of the
-second question Gładysz [Gl62] found an independent pair and [NPS87] an infinite
-independent set, and, for the first question, lists [ErHa60] (arbitrarily large
-finite independent sets), [He72] (no, under CH), [NPS87] (yes, when all $A_x$
-are closed), Lee (yes, under an extension of Lebesgue measure to all subsets of
-$\mathbb{R}$) and Glazer (independent of ZFC); the edit of 2026-09-03 added the
-last two items. The 1971 list asks (B) and (C) with "measure $\le1$" and "outer
-measure $\le1$" where the site writes "$<1$" (Komjáth's survey, Problem 38); the
-page's target is the site wording, and both 2026 results are stated for $<1$.
+**The question (erdosproblems.com formulation of 2026-09-27).** The two-question
+statement above, unchanged on the erdosproblems.com revision history since at
+least 2025-10-20 and identical to its LaTeX source; origin keys [Er61] (Problem
+II.9 of Erdős's 1961 list) and [ErHa71] (Problem 38 (B) and (C) of the
+Erdős–Hajnal list). The erdosproblems.com label was NOT DISPROVABLE. Its
+commentary says that under the assumptions of the second question Gładysz [Gl62]
+found an independent pair and [NPS87] an infinite independent set, and, for the
+first question, lists [ErHa60] (arbitrarily large finite independent sets),
+[He72] (no, under CH), [NPS87] (yes, when all $A_x$ are closed), Lee (yes, under
+an extension of Lebesgue measure to all subsets of $\mathbb{R}$) and Glazer
+(independent of ZFC); the edit of 2026-09-03 added the last two items. The 1971
+list asks (B) and (C) with "measure $\le1$" and "outer measure $\le1$" where
+erdosproblems.com writes "$<1$" (Komjáth's survey, Problem 38); the page's
+target is the erdosproblems.com wording, and both 2026 results are stated for
+$<1$.
 
 **Second question: proved.** [NPS87] Corollary (1), recorded clause by
 clause on its card: on the real line, for closed $F(x)$ of measure less than
@@ -174,9 +177,9 @@ $A_{r_\beta}=\{r_\alpha:\alpha<\beta,\ |r_\alpha|\le|r_\beta|+1\}$; each
 $A_y$ is countable, so null with outer measure $0<1$, and bounded by
 $|y|+1$, and an increasing $\omega$-sequence from an infinite independent
 set would satisfy $|x_i|>|x_j|+1$ for $i<j$, which is impossible (checked
-here). The site attributes the result to Hechler [He72]; the construction
-is written out in [Lee26] Appendix A and [Gla26] Section 6 and is the
-formally verified target `erdos501_hechler_of_CH`. Positive direction:
+here). erdosproblems.com attributes the result to Hechler [He72]; the
+construction is written out in [Lee26] Appendix A and [Gla26] Section 6 and is
+the formally verified target `erdos501_hechler_of_CH`. Positive direction:
 [Gla26] Theorem 1.1 proves, in the extension of any model of ZFC + CH by
 $\omega_2$ random reals, that every family with $\lambda^*(A_y)<1$ has an
 infinite independent set (boundedness not needed), and Corollary 1.2
@@ -199,15 +202,15 @@ by teorth/erdosproblems pull request #400 (opened 2026-09-05, merged 2026-09-18
 by the database owner), whose recorded reasoning is the rule of its
 CONTRIBUTING.md, the strongest statement holding of every component part at
 once, with the owner's note that the conjunction reading would instead give
-independent and that the site's commentary, not its automatic label, is
-authoritative (the curator set the database status to independent on 2026-09-07,
-so the label read INDEPENDENT from then until 2026-09-18); (c) the public Lean 4
-development github.com/elliotglazer/erdos501 (Apache-2.0, created 2026-08-17,
-head of 2026-08-19, the commit the claim pages link) states seven comparator
-targets over Mathlib only, its axiom audit of 2026-08-19 lists only `propext`,
-`Classical.choice` and `Quot.sound` for all seven, its status file records
-comparator acceptance of both configurations on 2026-08-19, and its last five
-GitHub Actions runs conclude with success. The Lean statement
+independent and that the erdosproblems.com commentary, not its automatic label,
+is authoritative (the curator set the database status to independent on
+2026-09-07, so the label read INDEPENDENT from then until 2026-09-18); (c) the
+public Lean 4 development github.com/elliotglazer/erdos501 (Apache-2.0, created
+2026-08-17, head of 2026-08-19, the commit the claim pages link) states seven
+comparator targets over Mathlib only, its axiom audit of 2026-08-19 lists only
+`propext`, `Classical.choice` and `Quot.sound` for all seven, its status file
+records comparator acceptance of both configurations on 2026-08-19, and its last
+five GitHub Actions runs conclude with success. The Lean statement
 `erdos501_independent` is semantic independence (ZFC entails neither the
 sentence nor its negation over Mathlib's models) proved in Lean's ambient type
 theory, which proves that ZFC has models, while the paper's Corollary 1.2 is the
@@ -226,17 +229,17 @@ over the pure random algebra rather than the paper's $\omega_2$ random reals
 over a CH ground; the author's forum post of 2026-08-16 offered the argument as
 an autoformalization candidate and said they had vetted neither it nor Lee's;
 and no independent human review of the forcing argument was found. The corpus
-already treats documented site acceptance of an unrefereed source as sufficient
-for a resolved label; the author's formal check is an unaudited formalization, a
-link on the claim pages and not acceptance evidence.
+already treats documented erdosproblems.com acceptance of an unrefereed source
+as sufficient for a resolved label; the author's formal check is an unaudited
+formalization, a link on the claim pages and not acceptance evidence.
 
 **Page-level value.** The frontmatter lists the two questions as the
 problem's parts; the first is settled by Glazer's accepted claim
 (`independent`) and the second by the Newelski–Pawlikowski–Seredyński
 accepted claim (`proved`), so the schema derives `solved` with the claim
 value `answered`, its value for accepted parts with different outcomes. The
-site's label NOT DISPROVABLE, the erdosproblems.com composition of the same two
-outcomes, stays in the Status sentence. Read as the status of the
+erdosproblems.com label NOT DISPROVABLE, the erdosproblems.com composition of
+the same two outcomes, stays in the Status sentence. Read as the status of the
 conjunction of the two questions, which is ZFC-equivalent to the first
 question because the second is a theorem, the exact statement would be
 `independent`; that reading is recorded here and not adopted.
@@ -283,8 +286,8 @@ Hechler attribution is unresolved by reading: Komjáth's survey places
 [He72] under Problem 38(A), Erdős 1974 attributes to a Hechler preprint the
 statement that under MA 38/C fails even for $f(x)$ of measure $0$, and the
 [Gla26] Lean docstring cites a different Hechler paper (Israel J. Math. 11
-(1972), 231–248); the site editor's forum comment of 2025-08-31 says the
-Bull. Acad. Polon. Sci. paper also contains a result addressing part (C).
+(1972), 231–248); erdosproblems.com editor's forum comment of 2025-08-31 says
+the Bull. Acad. Polon. Sci. paper also contains a result addressing part (C).
 Not load-bearing: the CH construction is elementary and verified elsewhere.
 (5) [Gl62] and [He72] are not held.
 
@@ -336,17 +339,17 @@ $\mathbb{R}$.
   $\mathbb{R}=\{r_\alpha:\alpha<\omega_1\}$ and put
   $A_{r_\beta}=\{r_\alpha:\alpha<\beta,\ |r_\alpha|\le|r_\beta|+1\}$:
   countable, null, bounded, and any infinite independent set would give
-  $|x_0|>|x_1|+1>|x_2|+2>\cdots$. The site attributes the result to Hechler
-  [He72]; the construction is written out in [Lee26] (Appendix A) and
+  $|x_0|>|x_1|+1>|x_2|+2>\cdots$. erdosproblems.com attributes the result to
+  Hechler [He72]; the construction is written out in [Lee26] (Appendix A) and
   [Gla26] (Section 6) and is the formally verified target
   `erdos501_hechler_of_CH`. Which Hechler paper contains it is unresolved:
   Komjáth's survey lists [He72] under Problem 38(A) with only its 38(A)
   theorem and a Cohen-reals theorem, Erdős 1974 attributes to a Hechler
   preprint the statement that MA makes 38/C false even for null $f(x)$, and
-  the one piece of evidence for the site's attribution is the site editor's
-  forum comment of 2025-08-31 that the Bull. Acad. Polon. Sci. paper
-  contains, besides its 38(A) theorem, a result addressing part (C).
-  The result has its own claim page,
+  the one piece of evidence for the erdosproblems.com attribution is
+  erdosproblems.com editor's forum comment of 2025-08-31 that the Bull. Acad.
+  Polon. Sci. paper contains, besides its 38(A) theorem, a result addressing
+  part (C). The result has its own claim page,
   [[problems/set_theory/E0501/claims/1972_01_01_hechler|Hechler 1972]], which
   records it as the first question's not-provable side; the construction is also
   written out as the negative half of each independence result on the
@@ -360,9 +363,9 @@ $\mathbb{R}$.
   $\mathrm{Con}(\mathrm{ZFC}+\text{measurable})$, implies the first
   question is independent of ZFC. Self-published preprint (GitHub; second
   version dated 2026-06-01, first version dated 2026-05-30 with PDF created
-  2026-05-29 and announced on the site 2026-05-29) with a Lean file
-  (`fmea_implies_P`); adopted into the site text 2026-09-03; not refereed;
-  see
+  2026-05-29 and announced on erdosproblems.com 2026-05-29) with a Lean file
+  (`fmea_implies_P`); adopted into the erdosproblems.com text 2026-09-03; not
+  refereed; see
   [[../library/set_theory/lee_2026_relative_independence_erdos_problem_501/_index|the card]].
 - **First question, positive consistency without large cardinals (Glazer
   2026, Theorem 1.1 and Corollary 1.2).** In the extension of any model of
@@ -373,8 +376,8 @@ $\mathbb{R}$.
   certificate implies an infinite independent set, via a Tonelli selection
   lemma on a Borel graph) plus a forcing module (countable Borel reading,
   $\Delta$-system homogenization under CH, fresh profiles of outer measure
-  one). Draft rev10, self-published; adopted by the site (2026-09-03) and,
-  as independent, by the community database (2026-09-07; relabeled not
+  one). Draft rev10, self-published; adopted by erdosproblems.com (2026-09-03)
+  and, as independent, by the community database (2026-09-07; relabeled not
   disprovable 2026-09-18); not refereed; see
   [[../library/set_theory/glazer_2026_erdos_problem_501_after_adding_random_reals/_index|the card]].
 - **First question, formal independence (github.com/elliotglazer/erdos501,

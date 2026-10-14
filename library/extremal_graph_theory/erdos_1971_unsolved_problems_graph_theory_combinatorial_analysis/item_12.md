@@ -45,7 +45,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1018/_index|Problem 1018]]: the site's source
-  passage ([Er71]); the site's statement is the question with
-  $C_\epsilon$ for $c_\varepsilon$ and "for all large $n$" added, and its
-  commentary quotes the second sentence.
+- [[../wiki/problems/extremal_graph_theory/E1018/_index|Problem 1018]]: the
+  erdosproblems.com source passage ([Er71]); the erdosproblems.com statement is
+  the question with $C_\epsilon$ for $c_\varepsilon$ and "for all large $n$"
+  added, and its commentary quotes the second sentence.

@@ -31,33 +31,35 @@ remaining.
 Estimate $f(t)$. In particular, is it true that $f(t)^{1/t}\to 1$? Is it true
 that $f(t)\ll t$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
-last-edited date). The quantity depends on $n$ as well as $t$: the source, Burr,
-Erdős and Spencer (1975), writes $f(n,k)$ for the least number such that in any
-two-coloring of $K_n$ one can find vertex-disjoint monochromatic $K_k$, of
-either color, "with $\le f(n,k)$ points left over", and studies $k$ fixed and
-$n$ large; the site's commentary supposes that Erdős meant the question for $n$
-large in terms of $t$, and its $f(t)$ is read here as the eventual value of
-$f(n,t)$, which for fixed $t$ is periodic in $n$ once $n$ is large, with maximum
-$R(t,t-1)+t-2$. The site's "the edges can be partitioned into" is loose: the
-copies of $K_t$ cover vertices, not edges, and the source's phrase is that
-vertex-disjoint monochromatic $K_k$ are deleted until at most $f(n,k)$ vertices
-remain. Erdős's own 1971 wording (item 9 of [Er71], printed p. 100) counts
-cliques rather than leftover vertices: "Let $f(l)$ be the smallest integer with
-the property that, if we colour the edges of a $K_n$ with two colours, then
-there are always $[n/l]-f(l)$ vertex disjoint $K_l$'s all of whose edges have
-the same colour." He adds that Ramsey's theorem implies $f(l)<4^l$ (printed
-$4^b$, a misprint for $4^l$) and that "it seems certain that $f(l)^{1/l}\to1$
-and perhaps $f(l)<cl$, or $f(l)$ is bounded." A shortfall of $f$ cliques leaves
-$lf+(n\bmod l)$ vertices, so the site's vertex count and Erdős's clique count
-differ by a factor of about $l$, which changes neither closing question (an
-observation made here). The site's remark that Erdős derived $f(t)\ll4^t$ from
-the Ramsey number is his remark that Ramsey's theorem implies $f(l)<4^l$.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited date). The quantity depends on $n$ as well as $t$: the
+source, Burr, Erdős and Spencer (1975), writes $f(n,k)$ for the least number
+such that in any two-coloring of $K_n$ one can find vertex-disjoint
+monochromatic $K_k$, of either color, "with $\le f(n,k)$ points left over", and
+studies $k$ fixed and $n$ large; the erdosproblems.com commentary supposes that
+Erdős meant the question for $n$ large in terms of $t$, and its $f(t)$ is read
+here as the eventual value of $f(n,t)$, which for fixed $t$ is periodic in $n$
+once $n$ is large, with maximum $R(t,t-1)+t-2$. erdosproblems.com's "the edges
+can be partitioned into" is loose: the copies of $K_t$ cover vertices, not
+edges, and the source's phrase is that vertex-disjoint monochromatic $K_k$ are
+deleted until at most $f(n,k)$ vertices remain. Erdős's own 1971 wording (item 9
+of [Er71], printed p. 100) counts cliques rather than leftover vertices: "Let
+$f(l)$ be the smallest integer with the property that, if we colour the edges of
+a $K_n$ with two colours, then there are always $[n/l]-f(l)$ vertex disjoint
+$K_l$'s all of whose edges have the same colour." He adds that Ramsey's theorem
+implies $f(l)<4^l$ (printed $4^b$, a misprint for $4^l$) and that "it seems
+certain that $f(l)^{1/l}\to1$ and perhaps $f(l)<cl$, or $f(l)$ is bounded." A
+shortfall of $f$ cliques leaves $lf+(n\bmod l)$ vertices, so erdosproblems.com's
+vertex count and Erdős's clique count differ by a factor of about $l$, which
+changes neither closing question (an observation made here). The
+erdosproblems.com remark that Erdős derived $f(t)\ll4^t$ from the Ramsey number
+is his remark that Ramsey's theorem implies $f(l)<4^l$.
 
-**Status.** Solved, in the site's label (SOLVED, the site's label for a
-resolution that is neither a proof nor a disproof). The label attaches to the
-estimate. For fixed $k$ and all sufficiently large $n$, Theorem 6 of Burr, Erdős
-and Spencer (Trans. Amer. Math. Soc. 209 (1975), refereed) gives the exact value
+**Status.** Solved, in the erdosproblems.com label (SOLVED, the
+erdosproblems.com label for a resolution that is neither a proof nor a
+disproof). The label attaches to the estimate. For fixed $k$ and all
+sufficiently large $n$, Theorem 6 of Burr, Erdős and Spencer (Trans. Amer. Math.
+Soc. 209 (1975), refereed) gives the exact value
 
 $$
 f(n,k)=r(k,k-1)-1+\mathrm{rem}(n-r(k,k-1)+1,\,k),
@@ -69,13 +71,13 @@ $r(k,k-1)+k-2$, and the eventual minimum is $r(k,k-1)-1$. The claim page
 [[problems/ramsey_theory/E1015/claims/1975_01_01_burr_erdos_spencer|Burr, Erdős and Spencer 1975]]
 records Theorem 6 as the accepted resolution, on the curator's credit and the
 refereed publication. The frontmatter standing derives from it. Moon's theorem,
-the case $t=3$ with the site's value $f(3)=4$, is an accepted partial claim,
-[[problems/ramsey_theory/E1015/claims/1966_11_01_moon|Moon 1966]]. The site's
-formula differs from the paper's by the term $-1$, which is recorded below and
-not repaired. The two closing questions are not stated in [BES75]. The Current
-assessment writes out an elementary deduction from Theorem 6 and Erdős's 1947
-bound, and names it as this page's own. That deduction is not acceptance
-evidence and does not enter the standing.
+the case $t=3$ with erdosproblems.com's value $f(3)=4$, is an accepted partial
+claim, [[problems/ramsey_theory/E1015/claims/1966_11_01_moon|Moon 1966]]. The
+erdosproblems.com formula differs from the paper's by the term $-1$, which is
+recorded below and not repaired. The two closing questions are not stated in
+[BES75]. The Current assessment writes out an elementary deduction from Theorem
+6 and Erdős's 1947 bound, and names it as this page's own. That deduction is not
+acceptance evidence and does not enter the standing.
 
 **Source.** [erdosproblems.com/1015](https://www.erdosproblems.com/1015),
 accessed 2026-09-18: the problem page (SOLVED; no
@@ -112,20 +114,20 @@ https://www.erdosproblems.com/1015, accessed 2026-09-18.
 **Formalization.** None. No file for this problem exists in
 google-deepmind/formal-conjectures at the `main` revision of 2026-09-18 (the
 directory `FormalConjectures/ErdosProblems/` listed in full, 673 entries),
-the site's indicator records no formalized statement, and the community
-database (accessed 2026-09-18) lists the problem as solved as of its last
-update, 10 September 2025, and not formalized, with no formal proof.
+the erdosproblems.com indicator records no formalized statement, and the
+community database (accessed 2026-09-18) lists the problem as solved as of its
+last update, 10 September 2025, and not formalized, with no formal proof.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; SOLVED; no last-edited date shown. The commentary attributes the
-question to Moon [Mo66b], crediting [Mo66b] with $f(3)=4$ for $n\ge8$;
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; SOLVED; no last-edited date shown. The commentary attributes
+the question to Moon [Mo66b], crediting [Mo66b] with $f(3)=4$ for $n\ge8$;
 supposes that Erdős meant to ask only for $n$ large in terms of $t$;
 records Erdős's bound $f(t)\ll4^t$ from the Ramsey number $R(t)$; and
 credits Burr, Erdős and Spencer [BES75] with the value, for $n$ large in
 terms of $t$, $f(t)=R(t,t-1)+x(t,n)$ with $0\le x(t,n)<t$ and
-$n+1\equiv R(t,t-1)+x\pmod t$ (the site's display, one more than the
+$n+1\equiv R(t,t-1)+x\pmod t$ (the erdosproblems.com display, one more than the
 paper's formula; see below). The discussion thread and the proof-claim tab
 are empty.
 
@@ -156,7 +158,7 @@ and reduces $n=3h+2$ to $n=8$ by exchanging one triangle of a maximal
 family for two; the first part is a count of uncovered vertices with the
 fact that every two-coloring of $K_6$ has a monochromatic triangle. The
 paper does not define $f$, does not count uncovered vertices and poses no
-question for $K_k$; the site's value $f(3)=4$ for $n\ge8$ is the
+question for $K_k$; erdosproblems.com's value $f(3)=4$ for $n\ge8$ is the
 translation $f(n,3)=\max(n-3\mu(G_n))$, which the theorem bounds by
 $n-3[\tfrac13n]+3$ for every $n$, at most $4$ unless $n\equiv2\pmod3$,
 and pins to $2$ for $n\equiv2\pmod3$, $n\ge8$; the one value left above
@@ -192,28 +194,27 @@ a monochromatic $K_k$ and $|B|+\mathrm{rem}(n-|B|,k)$ vertices are left. The
 upper bound (pp. 94--95) finds a large monochromatic clique by Ramsey's theorem
 for $n\ge r(u,u)$, $u=(k-1)(r(k,k)-r(k,k-1))+(k-1)(k-2)+1$, and uses it to
 absorb leftover blue $K_{k-1}$'s until fewer than $r(k,k-1)$ vertices resist;
-the threshold on $n$ is explicit but enormous. Acceptance evidence: the site's
-curator, T. F. Bloom, credits Burr, Erdős and Spencer with the determination,
-and the paper is a refereed publication in the Transactions (the Crossref
-record).
-Read depth: claims checked for the section's opening,
-the trivial bound, Theorem 6 and the construction; the upper-bound
-argument is followed for structure and not checked.
+the threshold on $n$ is explicit but enormous. Acceptance evidence: the
+erdosproblems.com curator, T. F. Bloom, credits Burr, Erdős and Spencer with the
+determination, and the paper is a refereed publication in the Transactions (the
+Crossref record). Read depth: claims checked for the section's opening, the
+trivial bound, Theorem 6 and the construction; the upper-bound argument is
+followed for structure and not checked.
 
-**The site's formula against the paper's (recorded, not repaired).** The
-site prints $f(t)=R(t,t-1)+x(t,n)$ with $0\le x<t$ and $n+1\equiv
+**The erdosproblems.com formula against the paper's (recorded, not repaired).**
+erdosproblems.com prints $f(t)=R(t,t-1)+x(t,n)$ with $0\le x<t$ and $n+1\equiv
 R(t,t-1)+x\pmod t$. The paper's remainder is the same $x$ ($x\equiv
 n+1-r(k,k-1)\pmod k$), but the paper's value is $r(k,k-1)-1+x$, one less
-than the site's. A check made here against the case the site itself quotes:
-for $k=3$, $r(3,2)=3$ and the paper's formula gives
+than erdosproblems.com's. A check made here against the case erdosproblems.com
+itself quotes: for $k=3$, $r(3,2)=3$ and the paper's formula gives
 $f(n,3)=2+\mathrm{rem}(n-2,3)\in\{2,3,4\}$, which is $2$ when
 $n\equiv2\pmod3$, as in the second part of Moon's theorem ([Mo66b], p. 259:
 for $n\equiv2\pmod3$ and $n\ge8$ there are $[\tfrac13n]$ disjoint
-monochromatic triangles, leaving two vertices), and has maximum $4$, the
-site's value and the bound Moon's theorem gives for every $n\ne5$ (its first
-part gives $3$ for $n\equiv0$ and $4$ for $n\equiv1\pmod3$, its second part
-$2$ for $n\equiv2\pmod3$, $n\ge8$); the site's formula would give $3$, $4$
-and $5$ instead.
+monochromatic triangles, leaving two vertices), and has maximum $4$,
+erdosproblems.com's value and the bound Moon's theorem gives for every $n\ne5$
+(its first part gives $3$ for $n\equiv0$ and $4$ for $n\equiv1\pmod3$, its
+second part $2$ for $n\equiv2\pmod3$, $n\ge8$); the erdosproblems.com formula
+would give $3$, $4$ and $5$ instead.
 
 **The two closing questions (an authored deduction, named as such).** For
 $k\ge3$, a two-coloring of $K_N$ with no red $K_{k-1}$ and no blue
@@ -231,9 +232,9 @@ $$
 so $\liminf_{k\to\infty}f(n,k)^{1/k}\ge\sqrt2$ and $f(n,k)^{1/k}\not\to1$,
 and $f(n,k)\ll k$ fails. In Erdős's clique count the same holds up to the
 factor $k$ noted under Formulation. The upper direction is the trivial
-$f(n,k)\le r(k,k)-1\le\binom{2k-2}{k-1}<4^k$, the site's bound $f(t)\ll4^t$.
-Both answers are elementary consequences of the cited statements; the
-Ramsey bounds themselves rest on the cited papers, and the exact growth of
+$f(n,k)\le r(k,k)-1\le\binom{2k-2}{k-1}<4^k$, erdosproblems.com's bound
+$f(t)\ll4^t$. Both answers are elementary consequences of the cited statements;
+the Ramsey bounds themselves rest on the cited papers, and the exact growth of
 $f(n,k)$ is exactly that of $r(k,k-1)$, unknown to within exponential
 factors.
 
@@ -241,7 +242,7 @@ factors.
 sharper determination of $f(n,k)$, a source for the same-color variant of
 [Er71], or a dispute of Theorem 6.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing at the revision of 2026-09-18 (no
   file); the community database (read 2026-09-18).
 - Crossref: bibliographic queries for [BES75] (the AMS record and a JSTOR
@@ -259,19 +260,20 @@ sharper determination of $f(n,k)$, a source for the same-color variant of
 Not searched: MathSciNet, zbMATH, Google Scholar, X.
 
 **Remaining gaps.** (1) Moon's printed equality is the case
-$n\equiv2\pmod3$, $n\ge8$; the value $f(n,3)=4$ for $n\equiv1\pmod3$, the
-site's value, rests on the first part of the theorem for the upper bound
-and, for the matching coloring, on examples [Mo66b] leaves to the reader
+$n\equiv2\pmod3$, $n\ge8$; the value $f(n,3)=4$ for $n\equiv1\pmod3$,
+erdosproblems.com's value, rests on the first part of the theorem for the upper
+bound and, for the matching coloring, on examples [Mo66b] leaves to the reader
 (p. 261) and on the $k=3$ case of [BES75]'s Figure 6 coloring. (2) Proof
 coverage is statements only: Theorem 6's upper-bound argument is followed
 for structure and not checked, and the "sufficiently large $n$" threshold
 $r(u,u)$ is explicit but not tightened. (3) The value of $f(n,k)$ is
 determined only in terms of $r(k,k-1)$, which is unknown to within
-exponential factors; the site's label SOLVED covers this determination, not
-a formula in closed form, and the two negative answers are this page's own
-deduction. (4) The site's formula is off by one from the paper's; recorded
-above, not resolved with the site. The list of linked library material below
-is derived from the library links and records no progress.
+exponential factors; the erdosproblems.com label SOLVED covers this
+determination, not a formula in closed form, and the two negative answers are
+this page's own deduction. (4) The erdosproblems.com formula is off by one from
+the paper's; recorded above, not resolved with erdosproblems.com. The list of
+linked library material below is derived from the library links and records no
+progress.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

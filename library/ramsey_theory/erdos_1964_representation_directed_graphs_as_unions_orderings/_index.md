@@ -130,16 +130,16 @@ which records the statement and its one-paragraph proof read on the page
 image and the case analysis behind them read for structure only. The same
 disproof is also quoted by the filed papers of Ihringer, Rajendraprasad and
 Weinert (p. 2), Neiman, Mackey and Heule (p. 2) and McCarthy and Monico
-(p. 7), and by the site.
+(p. 7), and by erdosproblems.com.
 
 Source: <https://users.renyi.hu/~p_erdos/1964-22.pdf>.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E1216/_index|#1216]]: the site's key
-ErMo64, p. 127. Theorem 1 (printed p. 127 = PDF p. 3, page image) is the
-origin's two-sided bound $[\log_2n]+1\le f(n)\le2[\log_2n]+1$; the same page
-states the conjecture $f(n)=[\log_2n]+1$ that the problem asks about, the
-value $f(7)=3$ with the quadratic-residue tournament, and the undecided
-case $f(15)=4$ (now known to be false: $f(15)=5$ by Reid and Parker's
+**Bears on.** [[../wiki/problems/ramsey_theory/E1216/_index|#1216]]: the
+erdosproblems.com key ErMo64, p. 127. Theorem 1 (printed p. 127 = PDF p. 3, page
+image) is the origin's two-sided bound $[\log_2n]+1\le f(n)\le2[\log_2n]+1$; the
+same page states the conjecture $f(n)=[\log_2n]+1$ that the problem asks about,
+the value $f(7)=3$ with the quadratic-residue tournament, and the undecided case
+$f(15)=4$ (now known to be false: $f(15)=5$ by Reid and Parker's
 [[ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/theorem_4|Theorem 4]],
 printed p. 235, whose p. 236 lists $f(n)=5$ for $14\le n\le23$); p. 126
 (PDF p. 2) reproduces Stearns's argument for the lower bound and gives the

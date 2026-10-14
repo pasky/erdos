@@ -23,19 +23,19 @@ updated: 2026-10-07T20:39:38Z
 **Statement.** Let $A$ be an infinite sequence of integers such that every $n\in
 A+A$ is squarefree. How fast must $A$ grow?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 3 December
-2025). Its commentary credits two bounds. Konyagin's 2004 bound on the finite
-analogue, Problem 1109, gives $a_j\ge j^{15/11-o(1)}$ for every infinite set
-with squarefree sums. It is recorded on
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 3
+December 2025). Its commentary credits two bounds. Konyagin's 2004 bound on the
+finite analogue, Problem 1109, gives $a_j\ge j^{15/11-o(1)}$ for every infinite
+set with squarefree sums. It is recorded on
 [[problems/integer_sequences/E1103/claims/2004_06_30_konyagin|Konyagin 2004]].
 Van Doorn and Tao's first arXiv version (30 November 2025) proves
 $a_j>0.24\,j^{4/3}$ for all $j$ and constructs a squarefree such set with
 $a_j\le\exp(Cj/\log j)$. It is recorded on
 [[problems/integer_sequences/E1103/claims/2025_11_30_van_doorn_tao|van Doorn and Tao 2025]].
 
-The site's proof-claims tab carries a partial proof claim by Xiyu Hu, submitted
-on 23 July 2026 under the username hxypqr, with GPT-5.6 Sol named as assistance.
-It is recorded on
+The erdosproblems.com proof-claims tab carries a partial proof claim by Xiyu Hu,
+submitted on 23 July 2026 under the username hxypqr, with GPT-5.6 Sol named as
+assistance. It is recorded on
 [[problems/integer_sequences/E1103/claims/2026_07_23_hu|its claim page]]. The
 claim is an infinite set with squarefree pairwise sums, doubles included, and
 $|A\cap[1,x]|\gg(\log x)^2$, so that $a_j\le\exp(C\sqrt j)$. It is built from

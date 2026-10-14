@@ -62,7 +62,7 @@ to Jukna's book.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: with $r=3$,
-  $t=2$ in the site's letters, the applications give
+  $t=2$ in erdosproblems.com's letters, the applications give
   $\mathrm{ex}_3(n,\mathcal F)>n^{2-o(1)}$ for $s=4$, $k=7$ and for $s=5$,
   $k=8$. These are lower bounds only: the conjectured $o(n^2)$ at $k=s+3$ is
   not addressed, and the page records no upper bound for these cases.

@@ -28,10 +28,10 @@ always at least $\epsilon n$ with no three on a line.
 Is it true that $A$ is the union of a finite number of sets where no three are
 on a line?
 
-**Status.** DISPROVED (LEAN). The site credits two independent disproofs, one by
-DeepMind, found by its AlphaProof Nexus system and published in a refereed
-paper, and one by an internal model at OpenAI. Putterman, Sawhney and Valiant
-wrote up the second [PSV26]. The claim pages
+**Status.** DISPROVED (LEAN). erdosproblems.com credits two independent
+disproofs, one by DeepMind, found by its AlphaProof Nexus system and published
+in a refereed paper, and one by an internal model at OpenAI. Putterman, Sawhney
+and Valiant wrote up the second [PSV26]. The claim pages
 [[problems/discrete_geometry/E0846/claims/2026_02_24_putterman_sawhney_valiant|Putterman, Sawhney and Valiant]]
 and [[problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|DeepMind]]
 record the two results and their acceptance.
@@ -59,9 +59,9 @@ complete Lean disproof, at the `main` revision of 2026-09-18 read on
 
 ## Current assessment
 
-The site's formulation (page last edited 2026-04-10) asks whether an infinite
-plane set, every $n$ points of which contain at least $\epsilon n$ with no
-three collinear, must be a finite union of sets with no three collinear. The
+The erdosproblems.com formulation (page last edited 2026-04-10) asks whether an
+infinite plane set, every $n$ points of which contain at least $\epsilon n$ with
+no three collinear, must be a finite union of sets with no three collinear. The
 answer is no. Two independent disproofs of February 2026 use the same
 construction: one point $(x_i + x_j,\, x_i^2 + x_i x_j + x_j^2)$ for each pair
 $i < j$ of a suitably generic sequence, so that collinear triples are exactly
@@ -80,12 +80,12 @@ J. Lond. Math. Soc. 2024) after a generic projection; the forum announcement
 repeats the remark. The remark is recorded here and on the paper's claim page
 and has no claim page of its own, since it is a derivation reported in another
 author's paper, not a manuscript of Rödl's own. The standing rests on the two
-accepted claim pages, whose evidence is the site curator's credit and, for
-DeepMind's, the refereed publication of its paper; Putterman, Sawhney and
-Valiant's paper is a preprint with no journal record found on 2026-10-07, and
-the Lean proofs are third-party Lean that has not been built here. No part of
-the mathematics has been independently reviewed by this project. The original
-source is Erdős's 1992 paper the site lists as [Er92b]
+accepted claim pages, whose evidence is the erdosproblems.com curator's credit
+and, for DeepMind's, the refereed publication of its paper; Putterman, Sawhney
+and Valiant's paper is a preprint with no journal record found on 2026-10-07,
+and the Lean proofs are third-party Lean that has not been built here. No part
+of the mathematics has been independently reviewed by this project. The original
+source is Erdős's 1992 paper erdosproblems.com lists as [Er92b]
 ([[../library/extremal_graph_theory/erdos_1992_my_favourite_problems_various_branches_combinatorics/_index|card]]).
 See also Problems 774 and 847.
 

@@ -61,9 +61,10 @@ Source: <https://annals.math.princeton.edu/2014/179-3/p07>.
 [[primes/zhang_2014_bounded_gaps_between_primes/theorem_1|Theorem 1]] (p. 1122)
 says nothing about the convergence of sum (-1)^n n/p_n, the problem's question.
 Its consequence (1.5) gives the divergence of the companion series
-sum (-1)^n/(p_{n+1} - p_n), which the problem page records as a site remark
-the site credits to Weisenberg: infinitely many terms have absolute value
-greater than 1/(7 x 10^7), so the terms do not tend to 0.
+sum (-1)^n/(p_{n+1} - p_n), which the problem page records as an
+erdosproblems.com remark erdosproblems.com credits to Weisenberg: infinitely
+many terms have absolute value greater than 1/(7 x 10^7), so the terms do not
+tend to 0.
 
 **Read status.** Claims checked: the statements of Theorems 1 and 2 and the
 notation they use were read clause by clause on the journal's pages; the proofs

@@ -44,8 +44,8 @@ $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$, has leading coefficient $2^{m-2}$
 in $n^{m-1}$ and grows like $2^{m-1}(n-1)^m/(2n-3)$ in $m$; the lemma
 divides the first by $(m-1)!$ and replaces the second by $2^{m-5}$ times a
 polynomial in $m$ of degree $n-2$, so that the factor $(n-1)^m$ becomes
-polynomial in $m$. This is what the site's commentary on Problem 112 calls
-improving "the dependence on $m$". The paper adds (p. 249), after the
+polynomial in $m$. This is what the erdosproblems.com commentary on Problem 112
+calls improving "the dependence on $m$". The paper adds (p. 249), after the
 proof of Lemma 4.4, that "this argument can be generalized to give a bound
 for $r(K_n^*,L_m)$ in the form of a polynomial in $n$ of degree $m-1$",
 which this lemma is.
@@ -132,10 +132,10 @@ Concrete Mathematics, p. 174 (not held).
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0112/_index|Problem 112]]: the site's "Larson and
-  Mitchell [LaMi97] improved the dependence on $m$": the bound is
-  polynomial in $n$ of degree $m-1$, like Erdős and Rado's, with the
-  leading coefficient divided by $(m-1)!$, and grows like $2^m$ times a
+- [[../wiki/problems/ramsey_theory/E0112/_index|Problem 112]]:
+  erdosproblems.com's "Larson and Mitchell [LaMi97] improved the dependence on
+  $m$": the bound is polynomial in $n$ of degree $m-1$, like Erdős and Rado's,
+  with the leading coefficient divided by $(m-1)!$, and grows like $2^m$ times a
   polynomial in $m$ of degree $n-2$ where the Erdős--Rado bound grows like
   $2^{m-1}(n-1)^m/(2n-3)$. For $n$ large and $m$ fixed it is superseded by
   the 2021 paper's

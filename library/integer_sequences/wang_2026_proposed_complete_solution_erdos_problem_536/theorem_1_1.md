@@ -41,13 +41,12 @@ common multiples are three prime supports with equal pairwise unions, "the
 bridge between the integer problem and the set systems used below".
 
 **Standing.** A claim, not an accepted result. The manuscript is hosted on
-GitHub and was submitted to the site's proof-claim tab on 14 July 2026,
-where the tab labels it a partial proof claim; the site's label for Problem
-536 was OPEN and its commentary does not mention the manuscript. The tab's
-submission declares that the claim was
-produced using an AI model (GPT-5.6 Sol); the manuscript carries no
-statement about AI use, and its title page gives the author's affiliations as
-Columbia University and Multiscalar Intelligence.
+GitHub and was submitted to the erdosproblems.com proof-claim tab on 14 July
+2026, where the tab labels it a partial proof claim; the erdosproblems.com label
+for Problem 536 was OPEN and its commentary does not mention the manuscript. The
+tab's submission declares that the claim was produced using an AI model (GPT-5.6
+Sol); the manuscript carries no statement about AI use, and its title page gives
+the author's affiliations as Columbia University and Multiscalar Intelligence.
 
 **Source.** S. Wang, *A Proposed Complete Solution to Erdős Problem 536*,
 manuscript, 33 pages, `536/paper.pdf` in the repository
@@ -59,9 +58,9 @@ p. 3, Proposition 3.1 on pp. 3--4, the completion of the proof on p. 32,
 Appendix A on pp. 32--33, references on p. 33; read in the text layer,
 pp. 1--4 and 32 also on the page images (the text layer garbles the factor
 $3^H$ in (2.6)). The finite-prime envelope is Proposition 3.1 in
-this version; a site comment of 7 September 2026 cites it as Proposition
-2.5, so another version of the manuscript exists (the repository holds the
-source `paper.tex`, not read).
+this version; an erdosproblems.com comment of 7 September 2026 cites it as
+Proposition 2.5, so another version of the manuscript exists (the repository
+holds the source `paper.tex`, not read).
 
 **Read depth.** Claims checked: Theorem 1.1, Lemma 2.1 (whose half-page
 proof was read in full), Propositions 2.2, 2.3 and 3.1 were read clause by
@@ -91,7 +90,7 @@ $$
 
 by splitting $n=mq$ with $q$ $P$-smooth and $m$ coprime to $P$ and noting
 that a safe set restricted to one $m$-fiber is safe (this is the elementary
-reduction that the site's thread also uses); it then deletes prime
+reduction that the erdosproblems.com thread also uses); it then deletes prime
 exponents equal to one and reduces to a normalized squarefree capacity.
 Section 4 proves a transference principle from balanced pair-product
 cubes to a cap-set saving; Sections 5 and 6 build one prime-band
@@ -115,8 +114,8 @@ external premises at statement level, none checked here.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]: the claimed answer to
-  the site's question "is it true that $f(N)=o(N)$?", recorded on the page
-  as an unreviewed claim with provenance; the site's label stayed OPEN.
-  Lemma 2.1 is the normal form of an lcm triangle used throughout the
-  site's thread, and Proposition 3.1 is the reduction behind the thread's
-  computer-assisted upper bounds of 2026.
+  the erdosproblems.com question "is it true that $f(N)=o(N)$?", recorded on the
+  page as an unreviewed claim with provenance; the erdosproblems.com label
+  stayed OPEN. Lemma 2.1 is the normal form of an lcm triangle used throughout
+  the erdosproblems.com thread, and Proposition 3.1 is the reduction behind the
+  thread's computer-assisted upper bounds of 2026.

@@ -5,8 +5,8 @@ desc: |
   Unrefereed, AI-assisted Zenodo deposit proving that Martin's axiom for
   aleph_1 dense sets implies the exact relation of Problem 1171 for every
   finite k, by a color-reduction lemma applied to Baumgartner's relation
-  omega_1 omega -> (omega_1 omega, 3)^2; the site's partial proof claim, since
-  withdrawn, that prompted its not-disprovable label.
+  omega_1 omega -> (omega_1 omega, 3)^2; erdosproblems.com's partial proof
+  claim, since withdrawn, that prompted its not-disprovable label.
 license: CC-BY-4.0
 created: 2026-09-28T03:03:02Z
 updated: 2026-10-08T01:29:58Z
@@ -57,26 +57,26 @@ $$
 $$
 
 for every finite $k\ge1$; the abstract calls this "a conditional affirmative
-answer" to the problem, and the site's claim summary says the ZFC case remains
-open. When read on 2026-09-27 it was the problem's single registered proof claim
-on the catalog site, listed as partial, submitted 2026-09-05 03:24:00 with the
-concept DOI as its external link and no comments, under the site's standard
-disclaimer that appearance is no guarantee of correctness and that nobody
-associated with the site has examined the proof. The site's claim entry
-attributed the work to Lezhe Gao with AI assistance (the tools it named were not
-recorded before its removal), and the deposit included an archive named
-`AI_interaction_logs.zip`, not fetched. The deposit's owner withdrew it from
-Zenodo on 2026-10-01 (the tombstone, read 2026-10-07, gives the reason
-"Retraction/Withdrawal of a record"), and the site's proof-claims tab later
-listed no proof claim for the problem;
+answer" to the problem, and erdosproblems.com's claim summary says the ZFC case
+remains open. When read on 2026-09-27 it was the problem's single registered
+proof claim on erdosproblems.com, listed as partial, submitted 2026-09-05
+03:24:00 with the concept DOI as its external link and no comments, under
+erdosproblems.com's standard disclaimer that appearance is no guarantee of
+correctness and that nobody associated with erdosproblems.com has examined the
+proof. erdosproblems.com's claim entry attributed the work to Lezhe Gao with AI
+assistance (the tools it named were not recorded before its removal), and the
+deposit included an archive named `AI_interaction_logs.zip`, not fetched. The
+deposit's owner withdrew it from Zenodo on 2026-10-01 (the tombstone, read
+2026-10-07, gives the reason "Retraction/Withdrawal of a record"), and the
+erdosproblems.com proof-claims tab later listed no proof claim for the problem;
 [[../wiki/problems/set_theory/E1171/claims/2026_09_05_gao|the claim page]]
 records the claim as withdrawn. A comment in the problem's discussion thread
 (06:50 on 5 September 2026) asked for the label "not disprovable" on the
-strength of this result; the site's label and the community database changed to
-that value the same day. Standing here: **unrefereed, proofs followed**; the
-research reconstructions of Lemma 2.1 and Theorem 3.1 were independently
-reviewed as they stood on 2026-09-28 and graded faithful and sound, Theorem 3.1
-conditionally on Baumgartner's theorem
+strength of this result; the erdosproblems.com label and the community database
+changed to that value the same day. Standing here: **unrefereed, proofs
+followed**; the research reconstructions of Lemma 2.1 and Theorem 3.1 were
+independently reviewed as they stood on 2026-09-28 and graded faithful and
+sound, Theorem 3.1 conditionally on Baumgartner's theorem
 ([[../wiki/research/erdos_1171/evidence/verify/grade|the grade]]), with no tier.
 
 **Method.** Lemma 2.1 (p. 2), which the paper calls standard, is a

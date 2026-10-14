@@ -26,11 +26,11 @@ $(a,b)$-separators for some pair $a,b$) of a graph on $n$ vertices. The
 constant: the proof claims that its graph $G_1$, on $6\cdot24+2=146$ vertices,
 has at least $24\cdot3^{46}$ minimal $(a,b)$-separators, and
 $(24\cdot3^{46})^{1/144}=1.4521\ldots$ (recomputed here). That count fails as
-printed (Proof pointer), so this preprint does not establish the theorem. The
-site and Bradač's note print $1.4457\le\alpha$ for this bound, the figure of the
-published J. Graph Theory version, whose abstract states $\omega(1.4457^n)$ (the
-abstract text of its Semantic Scholar record, read 2026-10-07); that version was
-not read.
+printed (Proof pointer), so this preprint does not establish the theorem.
+erdosproblems.com and Bradač's note print $1.4457\le\alpha$ for this bound, the
+figure of the published J. Graph Theory version, whose abstract states
+$\omega(1.4457^n)$ (the abstract text of its Semantic Scholar record, read
+2026-10-07); that version was not read.
 
 **Source.** S. Gaspers and S. Mackenzie, *On the number of minimal
 separators in graphs*, J. Graph Theory 87 (2018), no. 4, 653--659; read in
@@ -86,12 +86,12 @@ None beyond the construction.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0150/_index|Problem 150]]: the site's "The
-  lower bound is due to Gaspers and Mackenzie [GaMa18]" and its "Note that
-  the lower bound provides a negative answer to the above question of Erdős
-  and Nešetřil" ($c(3m+2)=3^m$ would give $\alpha=3^{1/3}\approx1.4422$,
-  below the site's $1.4457$); that bound is the journal version's, and the
-  count behind this preprint's $1.4521$ fails as printed. The theorem counts
-  minimal separators of the marked pair, and its transfer to minimal cuts
-  rests on the sandwich sentence of Bradač's paper
+- [[../wiki/problems/extremal_graph_theory/E0150/_index|Problem 150]]:
+  erdosproblems.com's "The lower bound is due to Gaspers and Mackenzie [GaMa18]"
+  and its "Note that the lower bound provides a negative answer to the above
+  question of Erdős and Nešetřil" ($c(3m+2)=3^m$ would give
+  $\alpha=3^{1/3}\approx1.4422$, below erdosproblems.com's $1.4457$); that bound
+  is the journal version's, and the count behind this preprint's $1.4521$ fails
+  as printed. The theorem counts minimal separators of the marked pair, and its
+  transfer to minimal cuts rests on the sandwich sentence of Bradač's paper
   ([[extremal_graph_theory/bradac_2024_question_erdos_nesetril_about_minimal_cuts/proposition_2|proposition_2]]).

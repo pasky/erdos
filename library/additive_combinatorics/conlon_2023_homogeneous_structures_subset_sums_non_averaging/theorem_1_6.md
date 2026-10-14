@@ -86,9 +86,9 @@ $\tilde H(n)\le H(n)\le Cn^{1/2}$ (p. 31).
 
 - [[../wiki/problems/additive_combinatorics/E0186/_index|Problem 186]]: the paper's $h(n)$
   is the problem's $F(N)$ (the same non-averaging condition), and Theorem
-  1.6 is the upper bound $F(N)\ll N^{\sqrt2-1}(\log N)^2$ that the site's
-  commentary places between Erdős–Sárközy's $(N\log N)^{1/2}$ and Pham and
-  Zakharov's $N^{1/4+o(1)}$
+  1.6 is the upper bound $F(N)\ll N^{\sqrt2-1}(\log N)^2$ that the
+  erdosproblems.com commentary places between Erdős–Sárközy's $(N\log N)^{1/2}$
+  and Pham and Zakharov's $N^{1/4+o(1)}$
   ([[additive_combinatorics/pham_2024_sharp_bound_erdos_straus_non_averaging/theorem_1|Theorem 1]]),
   which supersedes it; the introduction is the attestation on record of the
   earlier bounds of Straus, Erdős and Straus, Abbott and Erdős and
@@ -102,6 +102,6 @@ $\tilde H(n)\le H(n)\le Cn^{1/2}$ (p. 31).
   the construction this introduction reports (p. 4) is the same set.
 - [[../wiki/problems/additive_combinatorics/E0789/_index|Problem 789]]: the paper's
   subject, homogeneous generalized arithmetic progressions in subset sums,
-  is the structure behind the site's cross-reference; it states no bound
-  for the problem's $h(n)$ (subsets whose subset sums determine the number
+  is the structure behind the erdosproblems.com cross-reference; it states no
+  bound for the problem's $h(n)$ (subsets whose subset sums determine the number
   of summands), a different quantity from the $h(n)$ above.

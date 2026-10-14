@@ -65,8 +65,8 @@ the closed form $a_n=[\tau(2^{(n-1)/2}+2^{(n-2)/2})]$, at $m=1$.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E0482/_index|Problem 482]]: the identity stated in the
-  problem's first paragraph, which the site attributes to Graham and Pollak
-  [GrPo70]; the problem prints the recurrence in the shifted form
+  problem's first paragraph, which erdosproblems.com attributes to Graham and
+  Pollak [GrPo70]; the problem prints the recurrence in the shifted form
   $\lfloor\sqrt2(a_n+1/2)\rfloor$ that p. 144 shows equal to the original.
   Stoll's 2006 paper restates the identity as its
   [[number_theory/stoll_2006_problem_erdos_graham_concerning_digits/fact_1|Fact 1]]

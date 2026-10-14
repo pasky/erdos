@@ -30,8 +30,8 @@ $$
 
 or even $\gg_\epsilon x^{3/k-\epsilon}$?
 
-**Status.** Open, the site's label (OPEN). Comments on the site's discussion
-thread of 2026-03-09 cite Browning and Heath-Brown
+**Status.** Open, the erdosproblems.com label (OPEN). Comments on the
+erdosproblems.com discussion thread of 2026-03-09 cite Browning and Heath-Brown
 ([[problems/diophantine_problems/E0325/claims/2004_03_17_browning_heath_brown|claim page]]).
 Their corollary settles every $k\ge33$. The paper does not cover $3\le k\le32$.
 
@@ -59,7 +59,7 @@ that are sums of three $k$th powers, with
 $c=\Gamma(1+1/k)^3/\Gamma(1+3/k)$, so $f_{k,3}(x)\gg x^{3/k}$ and both forms
 of the question hold in that range; the corollary rests on their count of
 $o(B^3)$ non-trivial solutions of $x_1^k+x_2^k+x_3^k=x_4^k+x_5^k+x_6^k$ with
-$\max x_i\le B$ for $k\ge33$. For $k=3$ the site's record is Wooley's
+$\max x_i\le B$ for $k\ge33$. For $k=3$ the erdosproblems.com record is Wooley's
 Theorem 1.1 [Wo15], $f_{3,3}(x)\gg x^{0.91709477}$ for sums of three positive
 cubes
 ([[../library/diophantine_problems/wooley_2015_sums_three_cubes_ii/_index|source card]]),
@@ -68,7 +68,7 @@ $f_{3,3}(x)\gg_\epsilon x^{1-\epsilon}$, is the first question of
 [[problems/diophantine_problems/E0323/_index|Problem 323]] at $k=3$, and that
 page uses the corollary recorded here to answer its second question yes at
 three summands for every $k\ge33$. The two-power analogue is Mahler and
-Erdős's theorem [ErMa38], which the site records as
+Erdős's theorem [ErMa38], which erdosproblems.com records as
 $f_{k,2}(x)\gg x^{2/k}$ for every $k\ge3$: an integral binary form of degree
 $k\ge3$ with nonzero discriminant represents $\gg u^{2/k}$ integers up to $u$
 ([[../library/diophantine_problems/erdos_2019_number_integers_represented_binary_form/_index|source card]]);

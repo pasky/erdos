@@ -32,9 +32,10 @@ $$
 
 where $P(n)$ is the largest prime factor of $n$?
 
-**Status.** Proved, the site's label (PROVED, page last edited 10 April 2026).
-Tao's 2026 preprint proves the asymptotic with a relative error of a power of
-the logarithm. The site's curator records it as the proof. The accepted claim is
+**Status.** Proved, the erdosproblems.com label (PROVED, page last edited 10
+April 2026). Tao's 2026 preprint proves the asymptotic with a relative error of
+a power of the logarithm. The erdosproblems.com curator records it as the proof.
+The accepted claim is
 [[problems/arithmetic_functions/E0380/claims/2026_03_30_tao|Tao 2026]]. A Lean
 development that proves the asymptotic by its own route is the pending claim
 [[problems/arithmetic_functions/E0380/claims/2026_08_26_alexeev|Alexeev 2026]].
@@ -48,7 +49,7 @@ https://www.erdosproblems.com/380.
 - [Ta26c] T. Tao, Products of consecutive integers with unusual anatomy.
   arXiv:2603.27990 (2026).
 
-**Formalization.** The site reports no formalised statement, and no
+**Formalization.** erdosproblems.com reports no formalised statement, and no
 formal-conjectures statement file is recorded for the problem. A Lean 4
 development in the lean-proofs repository,
 [`Erdos380.lean`](https://github.com/plby/lean-proofs/blob/89e4525f61de4851e44f8930442be4c60d89f7fe/src/latest/ErdosProblems/Erdos380.lean)
@@ -60,37 +61,38 @@ and has not been built or audited by this corpus.
 
 ## Current assessment
 
-**Proved by Tao 2026, accepted by the site's curator.** The site formulation
-above (page last edited 10 April 2026) asks whether the integers up to $x$
-covered by a bad interval are asymptotically the integers $n\le x$ with
-$P(n)^2\mid n$, the singleton bad intervals; the site records that Erdős and
-Graham knew only $B(x)>x^{1-o(1)}$ and that the comparison count is
-$x/\exp((c+o(1))\sqrt{\log x\log\log x})$ for some $c>0$. Tao's preprint [Ta26c]
-(arXiv, 2026-03-30; third version 2026-09-26) proves $B(x)=(1+O((\log
-x)^{-1+o(1)}))\,\#\{n\le x:P(n)^2\mid n\}$ (Theorem 1.7) by the Guth–Maynard
-zero-density estimate and the large sieve (built on Montgomery's uncertainty
-lemma) for the long bad intervals and an anti-sieve with character-sum moment
-bounds for the short ones, and the site's curator labeled the problem PROVED on
-that preprint, which is the accepted claim's `reviewed` evidence; no journal
-publication is recorded. The same preprint settles the site's companion remark:
-the integers in very bad intervals (product powerful) that are not themselves
-powerful number $O(x^{2/5+o(1)})$ (Theorem 1.8), so their count is asymptotic to
-the powerful numbers, $(\zeta(3/2)/\zeta(3))\sqrt x$. The forum thread (ten
-comments, 2025-09-13 to 2026-04-01) carries Tao's earlier observations, which
-the site's commentary reports: a bad interval contains no prime, so $v<2u$ by
-Bertrand's postulate and, under Cramér's conjecture, $v-u\ll(\log u)^2$; the
-Erdős–Graham remark $B(x)>x^{1-o(1)}$ is puzzling since $B(x)$ trivially
-dominates the singleton count, and Tao suggests from Erdős and Graham's 1976
-paper on products of factorials that $B(x)=o(x)$ was meant; the constant $c$ can
-be taken as $\sqrt2$. Tao's announcement of 2026-03-31 adds that the
-Guth–Maynard estimate plays a crucial role and that the older zero-density
-estimates just fail. Lean: the site reports no formal-conjectures statement; the
-lean-proofs development of 2026-08-26 proves the qualitative asymptotic by its
-own route (the pending claim Alexeev 2026), declares no informal author, and has
-not been built or audited by this corpus, so no `formalized` evidence is listed
-on either page. The community database's commit of 2026-03-31 changed the
-problem's status to proved, and the database lists it as unformalized (read
-2026-10-06).
+**Proved by Tao 2026, accepted by the erdosproblems.com curator.** The
+erdosproblems.com formulation above (page last edited 10 April 2026) asks
+whether the integers up to $x$ covered by a bad interval are asymptotically the
+integers $n\le x$ with $P(n)^2\mid n$, the singleton bad intervals;
+erdosproblems.com records that Erdős and Graham knew only $B(x)>x^{1-o(1)}$ and
+that the comparison count is $x/\exp((c+o(1))\sqrt{\log x\log\log x})$ for some
+$c>0$. Tao's preprint [Ta26c] (arXiv, 2026-03-30; third version 2026-09-26)
+proves $B(x)=(1+O((\log x)^{-1+o(1)}))\,\#\{n\le x:P(n)^2\mid n\}$ (Theorem 1.7)
+by the Guth–Maynard zero-density estimate and the large sieve (built on
+Montgomery's uncertainty lemma) for the long bad intervals and an anti-sieve
+with character-sum moment bounds for the short ones, and the erdosproblems.com
+curator labeled the problem PROVED on that preprint, which is the accepted
+claim's `reviewed` evidence; no journal publication is recorded. The same
+preprint settles erdosproblems.com's companion remark: the integers in very bad
+intervals (product powerful) that are not themselves powerful number
+$O(x^{2/5+o(1)})$ (Theorem 1.8), so their count is asymptotic to the powerful
+numbers, $(\zeta(3/2)/\zeta(3))\sqrt x$. The forum thread (ten comments,
+2025-09-13 to 2026-04-01) carries Tao's earlier observations, which the
+erdosproblems.com commentary reports: a bad interval contains no prime, so
+$v<2u$ by Bertrand's postulate and, under Cramér's conjecture,
+$v-u\ll(\log u)^2$; the Erdős–Graham remark $B(x)>x^{1-o(1)}$ is puzzling since
+$B(x)$ trivially dominates the singleton count, and Tao suggests from Erdős and
+Graham's 1976 paper on products of factorials that $B(x)=o(x)$ was meant; the
+constant $c$ can be taken as $\sqrt2$. Tao's announcement of 2026-03-31 adds
+that the Guth–Maynard estimate plays a crucial role and that the older
+zero-density estimates just fail. Lean: erdosproblems.com reports no
+formal-conjectures statement; the lean-proofs development of 2026-08-26 proves
+the qualitative asymptotic by its own route (the pending claim Alexeev 2026),
+declares no informal author, and has not been built or audited by this corpus,
+so no `formalized` evidence is listed on either page. The community database's
+commit of 2026-03-31 changed the problem's status to proved, and the database
+lists it as unformalized (read 2026-10-06).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

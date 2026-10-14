@@ -28,13 +28,13 @@ $$
 1=\frac{1}{n_1}+\cdots+\frac{1}{n_k}?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-28 October 2025). For each $k\ge2$ (in fact $k\ge3$,
-since two distinct unit fractions never sum to $1$) the question asks for
-a $k$-term representation of $1$ by distinct unit fractions whose
-denominators all lie in an interval of length $(e-1+o(1))k$, the $o(1)$
-tending to zero as $k\to\infty$. The site's constant $e-1$ follows the
-1980 monograph, printed p. 33: "Is it true that
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 28 October 2025). For each $k\ge2$ (in fact $k\ge3$, since two distinct
+unit fractions never sum to $1$) the question asks for a $k$-term representation
+of $1$ by distinct unit fractions whose denominators all lie in an interval of
+length $(e-1+o(1))k$, the $o(1)$ tending to zero as $k\to\infty$.
+erdosproblems.com's constant $e-1$ follows the 1980 monograph, printed p. 33:
+"Is it true that
 $\min\{x_n-x_1:\{x_1,\ldots,x_n\}\in\mathscr X_n\}=(e-1)n+o(n)$?" Croot's
 published introduction (p. 99) prints the second question of Erdős and
 Graham as "Is it true that $\min\{x_k-x_1:\{x_1,\ldots,x_k\}\in X_k\}\sim k$?"
@@ -43,20 +43,20 @@ constants differ in substance, not notation: $k$ distinct denominators need
 width at least $k-1$, and a representation whose denominators fill the
 interval $(N,(e+o(1))N]$ has $k=(e-1+o(1))N$ terms and width
 $(e-1+o(1))N=(1+o(1))k$, so the width is about $k$ in units of the term
-count and about $(e-1)N$ in units of the left endpoint. The site's
+count and about $(e-1)N$ in units of the left endpoint. The erdosproblems.com
 question, with the larger constant, is weaker than Croot's form and is
-implied by it. This page assesses the site's wording as stated.
+implied by it. This page assesses the erdosproblems.com wording as stated.
 
-**Status.** Proved, in the site's label, which credits Croot. Croot's Main
-Theorem (Acta Arith. 99 (2001), no. 2, 99--114; refereed) gives, for every
+**Status.** Proved, in the erdosproblems.com label, which credits Croot. Croot's
+Main Theorem (Acta Arith. 99 (2001), no. 2, 99--114; refereed) gives, for every
 $N>1$, integers $N<n_1<\cdots<n_k\le(e+o(1))N$ with $1=\sum1/n_i$. Since $k>N$,
 their width is below $(e-1+o(1))k$. The paper states the result "for infinitely
-many $k$". For every large $k$, the site's question is answered by Martin's
-Theorem 2 (Acta Arith. 95 (2000), no. 3, 231--260; refereed), the source of
-[[problems/unit_fractions/E0285/_index|Problem 285]]. A $k$-term representation
-of $1$ with all denominators at most $(e/(e-1)+o(1))k$ lies in an interval of
-width below $(e-1)k$, because $e/(e-1)<e-1$. The standing in the frontmatter
-derives from the claim pages. These are the accepted full claim
+many $k$". For every large $k$, the erdosproblems.com question is answered by
+Martin's Theorem 2 (Acta Arith. 95 (2000), no. 3, 231--260; refereed), the
+source of [[problems/unit_fractions/E0285/_index|Problem 285]]. A $k$-term
+representation of $1$ with all denominators at most $(e/(e-1)+o(1))k$ lies in an
+interval of width below $(e-1)k$, because $e/(e-1)<e-1$. The standing in the
+frontmatter derives from the claim pages. These are the accepted full claim
 [[problems/unit_fractions/E0286/claims/1998_11_18_martin|Martin 1998]] and the
 accepted partial claim
 [[problems/unit_fractions/E0286/claims/1999_04_30_croot|Croot 1999]]. The
@@ -66,8 +66,9 @@ sharper width.
 **Source.** [erdosproblems.com/286](https://www.erdosproblems.com/286),
 accessed 2026-09-18: the problem page (PROVED, whose label tooltip reports
 an affirmative solution; source key [ErGr80, p. 33]; last edited 28 October
-2025), its empty discussion thread and its empty proof-claim tab. The
-site cites [Cr01] in its commentary. Cite as: T. F. Bloom, Erdős Problem
+2025), its empty discussion thread and its empty proof-claim tab.
+erdosproblems.com cites [Cr01] in its commentary. Cite as: T. F. Bloom, Erdős
+Problem
 #286, https://www.erdosproblems.com/286, accessed 2026-09-18.
 
 **References.**
@@ -107,8 +108,8 @@ not built or audited the development, and no local kernel credit is claimed.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; status PROVED, last edited 28 October 2025; source key [ErGr80,
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; status PROVED, last edited 28 October 2025; source key [ErGr80,
 p. 33]. The commentary is one sentence crediting the affirmative answer to
 Croot [Cr01]. The thread and the proof-claim tab are empty. The community
 database record says proved, with the statement formalized since 20
@@ -123,7 +124,7 @@ some function $g(n)\to\infty$. It might already be hard to prove this for
 $g(n)>(\log n)^\varepsilon$." Croot's construction (below) has width
 $(1+o(1))k$ for infinitely many $k$, which is smaller than $(e-1)k$, so
 the monograph's lower-bound sentence cannot hold for those $k$ as printed;
-this is the misstatement Croot's introduction notes. The site keeps the
+this is the misstatement Croot's introduction notes. erdosproblems.com keeps the
 monograph's constant.
 
 **Status support.** The status-defining source is Croot's
@@ -134,27 +135,27 @@ $N<x_1<\cdots<x_k\le(e^r+O_r(\log\log N/\log N))N$ with $r=\sum1/x_i$, and the
 error term is best possible. With $r=1$ the denominators lie in
 $(N,(e+o(1))N]$, an interval of width below $(e-1+o(1))N$; since each term is
 below $1/N$, the representation has $k>N$ terms, so the width is below
-$(e-1+o(1))k$. Hence the site's question has the answer yes for every $k$ that
-occurs as a term count of such a representation, and these $k$ are infinitely
-many since $k>N$. This deduction is the corpus's own; the paper states the
-stronger conclusion, width $\sim k$, in its introduction "for infinitely many
-$k$" (p. 100), which rests on the construction using all but a vanishing
-proportion of the integers of the interval and has not been checked beyond the
-statement. Acceptance evidence: publication in Acta Arithmetica, a refereed
-journal (Crossref record for DOI 10.4064/aa99-2-1, accessed 2026-09-18), and
-the site's acceptance. Proof coverage: the proof's structure is recorded from
-the preprint; it has not been verified, and the published proof has not been
-compared with the preprint's.
+$(e-1+o(1))k$. Hence the erdosproblems.com question has the answer yes for every
+$k$ that occurs as a term count of such a representation, and these $k$ are
+infinitely many since $k>N$. This deduction is the corpus's own; the paper
+states the stronger conclusion, width $\sim k$, in its introduction "for
+infinitely many $k$" (p. 100), which rests on the construction using all but a
+vanishing proportion of the integers of the interval and has not been checked
+beyond the statement. Acceptance evidence: publication in Acta Arithmetica, a
+refereed journal (Crossref record for DOI 10.4064/aa99-2-1, accessed
+2026-09-18), and erdosproblems.com's acceptance. Proof coverage: the proof's
+structure is recorded from the preprint; it has not been verified, and the
+published proof has not been compared with the preprint's.
 
 **Every large $k$ through Martin's theorem.** Neither Croot's Main Theorem
 nor the introduction claims the question for every $k\ge2$; the
 introduction's quantifier is "for infinitely many $k$", and Croot's remark
 (p. 99) that Martin's result "cannot be applied to solve these questions"
-concerns the paper's corrected form of the question, width $\sim k$, not the
-site's. Under the site's wording Martin's Theorem 2 settles every large
-$k$: it gives a $k$-term representation of $1$ whose largest denominator
-is $M_k(1)=(e/(e-1)+o(1))k$, so all denominators lie in $[2,M_k(1)]$, an
-interval of width below $(e-1)k$ for large $k$ since
+concerns the paper's corrected form of the question, width $\sim k$, not
+erdosproblems.com's. Under the erdosproblems.com wording Martin's Theorem 2
+settles every large $k$: it gives a $k$-term representation of $1$ whose largest
+denominator is $M_k(1)=(e/(e-1)+o(1))k$, so all denominators lie in
+$[2,M_k(1)]$, an interval of width below $(e-1)k$ for large $k$ since
 $e/(e-1)\approx1.582<e-1\approx1.718$. This deduction is written on the
 accepted full claim page
 [[problems/unit_fractions/E0286/claims/1998_11_18_martin|Martin 1998]],
@@ -182,14 +183,14 @@ Croot's theorem; the every-large-$k$ statement comes from Martin's theorem by
 the step above, and no publication states it for this question.
 
 **Remaining gaps.** (1) The answer for every large $k$ rests on Martin's
-theorem and the corpus's own one-line step; the site credits Croot, whose
-paper gives infinitely many $k$ with the sharper width $\sim k$. (2) The
-site's constant $e-1$ is the monograph's; Croot's corrected question has
-constant $1$, and the site's page does not mention the difference; whether the
-least width is $\sim k$ for every $k$ is not settled by either source. (3)
-Croot's proof is compiled as a statement with a structural sketch only, and
-the proofs of Martin's propositions have not been checked, as Problem 285
-records.
+theorem and the corpus's own one-line step; erdosproblems.com credits Croot,
+whose paper gives infinitely many $k$ with the sharper width $\sim k$. (2)
+erdosproblems.com's constant $e-1$ is the monograph's; Croot's corrected
+question has constant $1$, and the erdosproblems.com page does not mention the
+difference; whether the least width is $\sim k$ for every $k$ is not settled by
+either source. (3) Croot's proof is compiled as a statement with a structural
+sketch only, and the proofs of Martin's propositions have not been checked, as
+Problem 285 records.
 
 ## Progress and known results
 

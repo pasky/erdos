@@ -39,20 +39,20 @@ Is it true that if $G_{\mathcal{F}}$ has $\geq cm^2$ edges then $m\ll_c
 Is it true that, for any $\epsilon>0$, there exists some $\delta>0$ such that if
 there are $>m^{2-\delta}$ edges then $m<(2+\epsilon)^{n/2}$?
 
-**Status.** Solved. The site's label was SOLVED. It credits Alon, Das, Glebov
-and Sudakov with the answer to the first question (yes), and Alon and Frankl
-with the answers to the second (no) and the third (yes). The parts `q1`, `q2`
-and `q3` are the three questions in order. The frontmatter standing is derived
-from two accepted partial claim pages:
+**Status.** Solved. The erdosproblems.com label was SOLVED. It credits Alon,
+Das, Glebov and Sudakov with the answer to the first question (yes), and Alon
+and Frankl with the answers to the second (no) and the third (yes). The parts
+`q1`, `q2` and `q3` are the three questions in order. The frontmatter standing
+is derived from two accepted partial claim pages:
 [[problems/extremal_graph_theory/E0777/claims/2014_11_15_alon_das_glebov_sudakov|Alon, Das, Glebov and Sudakov]]
 (settles `q1`) and
 [[problems/extremal_graph_theory/E0777/claims/1985_12_01_alon_frankl|Alon and Frankl]]
 (settles `q2` and `q3`). Their acceptance evidence is the refereed journals and
-the site's own commentary. A third-party Lean file proving all three answers is
-linked on both pages and recorded under Formalization. The site's commentary
-also records Daykin and Frankl's theorem that $(1+o(1))\binom m2$ comparable
-pairs force $m^{1/n}\to1$. That theorem settles none of the three questions, so
-it has no claim page.
+erdosproblems.com's own commentary. A third-party Lean file proving all three
+answers is linked on both pages and recorded under Formalization. The
+erdosproblems.com commentary also records Daykin and Frankl's theorem that
+$(1+o(1))\binom m2$ comparable pairs force $m^{1/n}\to1$. That theorem settles
+none of the three questions, so it has no claim page.
 
 **Source.** [erdosproblems.com/777](https://www.erdosproblems.com/777), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #777,
@@ -61,15 +61,16 @@ https://www.erdosproblems.com/777.
 **References.**
 
 - [Gu83] Guy, R. K., A miscellany of Erdős problems. Amer. Math. Monthly 90
-  (1983), no. 2, 118--120, doi:10.2307/2975810; the site's source key for the
-  problem, which the site's commentary calls a problem of Daykin and Erdős.
+  (1983), no. 2, 118--120, doi:10.2307/2975810; the erdosproblems.com source key
+  for the problem, which the erdosproblems.com commentary calls a problem of
+  Daykin and Erdős.
 - [ADGS15] Alon, Noga and Das, Shagnik and Glebov, Roman and Sudakov, Benny,
   Comparable pairs in families of sets. J. Combin. Theory Ser. B 115 (2015),
-  164--185, doi:10.1016/j.jctb.2015.05.009 (the site's reference text gives
-  no volume).
+  164--185, doi:10.1016/j.jctb.2015.05.009 (the erdosproblems.com reference text
+  gives no volume).
 - [AlFr85] Alon, N. and Frankl, P., The maximum number of disjoint pairs in a
   family of subsets. Graphs Combin. 1 (1985), 13--21, doi:10.1007/BF02582924
-  (the site's reference text gives no volume).
+  (the erdosproblems.com reference text gives no volume).
 
 **Formalization.** The file
 [`src/latest/ErdosProblems/Erdos777.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos777.lean)
@@ -81,7 +82,7 @@ and GPT-5.6 Sol as formal authors (Lean and Mathlib v4.33.0; added 17 August
 yes. It is a `formalization` link on both claim pages, with the repository's
 note as the `record` link; the corpus has not built or audited it, so neither
 page lists `formalized`. No formal-conjectures statement file for the problem
-existed on 2026-10-07. The site showed the statement as not formalized.
+existed on 2026-10-07. erdosproblems.com showed the statement as not formalized.
 
 ## Progress
 

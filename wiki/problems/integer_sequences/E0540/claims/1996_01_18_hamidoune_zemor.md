@@ -4,7 +4,8 @@ title: Hamidoune and Zémor's threshold sqrt(2n) for abelian groups
 desc: |
   Hamidoune and Zémor (Acta Arith., 1996) prove that more than
   $\sqrt{2n}+O(n^{1/3}\ln n)$ elements of an abelian group of order $n$ have a
-  nonempty zero-sum subset. The result is refereed and credited by the site.
+  nonempty zero-sum subset. The result is refereed and credited by
+  erdosproblems.com.
 authors:
 - Y. O. Hamidoune
 - G. Zémor
@@ -45,10 +46,10 @@ qualifies. The proof uses Olson's 1975 theorem that $|S|\ge3\sqrt{|G|}$
 forces a zero sum in an abelian group $G$ (their Theorem 2.5, from J. E.
 Olson, *Sums of sets of group elements*, Acta Arith. 28 (1975), 147--156).
 
-**Acceptance.** Refereed: the journal publication. Reviewed: the site's curator,
-Thomas Bloom, who is independent of the authors, labeled the problem PROVED
-(LEAN). The commentary credits this paper with the threshold $(1+o(1))\sqrt{2N}$
-for abelian groups of order $N$.
+**Acceptance.** Refereed: the journal publication. Reviewed: the
+erdosproblems.com curator, Thomas Bloom, who is independent of the authors,
+labeled the problem PROVED (LEAN). The commentary credits this paper with the
+threshold $(1+o(1))\sqrt{2N}$ for abelian groups of order $N$.
 
 **Depends on.** No page of this wiki; the proof's input from Olson (1975) is
 a published theorem cited above.

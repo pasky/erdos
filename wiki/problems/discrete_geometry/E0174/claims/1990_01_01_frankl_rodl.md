@@ -28,13 +28,13 @@ updated: 2026-10-07T22:51:53Z
 
 **Claim.** P. Frankl and V. Rödl, *A partition property of simplices in
 Euclidean space*, J. Amer. Math. Soc. 3 (1990), no. 1, 1--7, cited as [FrRo90]
-in the site's commentary on Problem 174. Theorem 5.1 (pp. 5--6) states that
-every finite affinely independent configuration, that is, the vertex set of a
-nondegenerate simplex, is super-Ramsey: for each such $A$ there are $\epsilon>0$
-and finite sets $X_n\subseteq\mathbb R^n$ such that every subset of $X_n$ with
-more than $(1+\epsilon)^{-n}|X_n|$ points contains a congruent copy of $A$, as
-the paper's Definition 2.1 makes precise. Consequently every coloring of
-$\mathbb R^n$, $n$ large, with at most $(1+\epsilon)^n$ colors has a
+in the erdosproblems.com commentary on Problem 174. Theorem 5.1 (pp. 5--6)
+states that every finite affinely independent configuration, that is, the vertex
+set of a nondegenerate simplex, is super-Ramsey: for each such $A$ there are
+$\epsilon>0$ and finite sets $X_n\subseteq\mathbb R^n$ such that every subset of
+$X_n$ with more than $(1+\epsilon)^{-n}|X_n|$ points contains a congruent copy
+of $A$, as the paper's Definition 2.1 makes precise. Consequently every coloring
+of $\mathbb R^n$, $n$ large, with at most $(1+\epsilon)^n$ colors has a
 monochromatic congruent copy of $A$, and every nondegenerate simplex is Ramsey
 in the sense of [[problems/discrete_geometry/E0174/_index|Problem 174]], the
 required dimension being $O_A(1+\log r)$ for $r$ colors. The proof contracts the
@@ -58,8 +58,8 @@ not decide affinely dependent sets; the full classification is
 **Acceptance.** Refereed: the paper is a journal publication in the Journal of
 the American Mathematical Society, volume 3, issue 1 (January 1990). This is the
 `refereed` evidence. The issue carries no day, so this page is dated to the
-first day of that month. In the problem's commentary the site's curator credits
-non-degenerate simplices to [FrRo90]. The site labeled the problem OPEN,
-however, so that credit is not `reviewed` evidence. The library's complete
-reconstruction of the same-paper chain is the corpus's own reading. It is not an
-independent review.
+first day of that month. In the problem's commentary the erdosproblems.com
+curator credits non-degenerate simplices to [FrRo90]. Bloom's catalog labeled
+the problem OPEN, however, so that credit is not `reviewed` evidence. The
+library's complete reconstruction of the same-paper chain is the corpus's own
+reading. It is not an independent review.

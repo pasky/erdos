@@ -59,14 +59,15 @@ over divisors. The
 [[../library/integer_sequences/bergelson_2017_density_coprime_tuples_form_where_are/_index|source card]]
 digests the paper.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
-PROVED, last edited 23 January 2026. The commentary states that the assertion is
-true and attributes the proof to Bergelson and Richter. Refereed: the
-publication is a chapter of an edited Springer volume, and its Crossref record
-types it a book chapter. Its acknowledgements thank the anonymous referees and
-the editor who handled the submission. This page rests on no review of its own.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled
+the problem PROVED, last edited 23 January 2026. The commentary states that the
+assertion is true and attributes the proof to Bergelson and Richter. Refereed:
+the publication is a chapter of an edited Springer volume, and its Crossref
+record types it a book chapter. Its acknowledgements thank the anonymous
+referees and the editor who handled the submission. This page rests on no review
+of its own.
 
-**Formalization.** None: the site records no formalized statement, and
+**Formalization.** None: erdosproblems.com records no formalized statement, and
 formal-conjectures had no `1149.lean` on 2026-09-05.
 
 **Scope.** Full. The theorem covers every Hardy-field $f$ meeting (A) and (B),

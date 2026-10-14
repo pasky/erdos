@@ -37,11 +37,11 @@ The inequality is strict as printed, both here and in the introduction's
 announcement of the result (p. 106: "It will be shown that this conjecture
 holds when $\binom{\ell_j}2>\sum_{i=j}^{s+t}\ell_i$ for all
 $2\le j\le s+t$"), read on the page images at 200 dpi. The paper's $\ell_k$
-is the site's $l_k$ on Problem 561; the stars' sizes are positive integers,
-and no lower bound beyond $n_s\ge1$ and $m_t\ge1$ is imposed. The hypothesis
-forces $\ell_j\ge4$ for every $j$, since $\sum_{i\ge j}\ell_i\ge\ell_j$ and
-$\binom{\ell}2>\ell$ needs $\ell\ge4$; at $j=s+t$ this excludes every pair
-with $n_s+m_t\le4$.
+is erdosproblems.com's $l_k$ on Problem 561; the stars' sizes are positive
+integers, and no lower bound beyond $n_s\ge1$ and $m_t\ge1$ is imposed. The
+hypothesis forces $\ell_j\ge4$ for every $j$, since
+$\sum_{i\ge j}\ell_i\ge\ell_j$ and $\binom{\ell}2>\ell$ needs $\ell\ge4$; at
+$j=s+t$ this excludes every pair with $n_s+m_t\le4$.
 
 **Source.** E. Győri and R. H. Schelp, Two-edge colorings of graphs with
 bounded degree in both colors, Discrete Math. 249 (2002), no. 1--3, 105--110,
@@ -117,8 +117,8 @@ proof.
 
 - [[../wiki/problems/ramsey_theory/E0561/_index|Problem 561]]: a conditional
   class in which the conjectured formula is known to hold, and the primary
-  source of the condition the site's commentary quotes. The primary prints
-  the inequality strict, as the site and
+  source of the condition the erdosproblems.com commentary quotes. The primary
+  prints the inequality strict, as erdosproblems.com and
   [[ramsey_theory/davoodi_2025_conjecture_erdos_size_ramsey_number_star/theorem_1_4|Davoodi, Javadi, Kamranian and Raeisi, Theorem 1.4]]
   restate it; the "$\ge$" of Fu, Luo and Ni (arXiv:2606.04439v3, p. 2) is
   not the paper's. The paper leaves the conjecture open in general (p. 109).

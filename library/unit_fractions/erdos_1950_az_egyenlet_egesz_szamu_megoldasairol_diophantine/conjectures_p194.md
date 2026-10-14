@@ -53,7 +53,7 @@ this page.
 
 ## Later standing
 
-- The gap-$3$ conjecture is the question of Problem 287, which the site
+- The gap-$3$ conjecture is the question of Problem 287, which erdosproblems.com
   cites to Erdős's 1932 paper on Kürschák's theorem and to the 1980
   monograph; this page records only that the 1950 paper states it.
 - The unbounded-ratio statement is contradicted by Croot's short-intervals

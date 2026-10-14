@@ -39,7 +39,7 @@ PMC319712). A one-page announcement in the journal's
 Mathematics section; the proofs "are somewhat delicate and rather lengthy
 and will be given elsewhere", namely in the 1984 chapter filed as
 [[number_theory/chung_1984_irregularities_distribution/_index|chung_1984_irregularities_distribution]].
-The site cites only the chapter (key ChGr84) for Problem 480.
+erdosproblems.com cites only the chapter (key ChGr84) for Problem 480.
 
 **Edition.** The copy read for this card is the first author's
 publication-page copy, a one-page scan of the printed page (Acrobat 4.05 scan
@@ -107,14 +107,14 @@ page image; the page contains no proofs.
 The whole page was read on the page image. Theorems 1, 2 and 3, the
 paper's three results, are each compiled as a statement whose proof lives
 in the 1984 chapter. The announcement indexes its sequences from $x_0$; the
-chapter and the site from $x_1$, a shift of labels that leaves $C$
+chapter and erdosproblems.com from $x_1$, a shift of labels that leaves $C$
 unchanged.
 
 **Bears on.** [[../wiki/problems/number_theory/E0480/_index|#480]]: the
 authors' own first publication (1981) of the bound
 $C(\bar x)\le0.39441967\ldots<5^{-1/2}$ that answers the problem, as a
-statement without proof, with the same Newman attribution the site gives;
-the 1980 Erdős--Graham monograph had already reported the result as just
+statement without proof, with the same Newman attribution erdosproblems.com
+gives; the 1980 Erdős--Graham monograph had already reported the result as just
 proved by Chung and Graham (Added in proof (iii), p. 107), and the proof
 is in the 1984 chapter. Theorem 2 announces, also without proof, that the
 constant $0.39441967\ldots$ is best possible. Theorem 3, on permutations,

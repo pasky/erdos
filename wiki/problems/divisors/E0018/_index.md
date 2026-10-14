@@ -36,21 +36,21 @@ $$
 
 Is it true that $h(n!)<n^{o(1)}$? Or perhaps even $h(n!)<(\log n)^{O(1)}$?
 
-**Status.** Labeled OPEN on the site (page last edited 11 April 2026), with the
-prize attached to the first question. The frontmatter standing `open` derives
-from the claim pages. The accepted partial claim
+**Status.** Labeled OPEN on erdosproblems.com (page last edited 11 April 2026),
+with the prize attached to the first question. The frontmatter standing `open`
+derives from the claim pages. The accepted partial claim
 [[problems/divisors/E0018/claims/2026_09_16_jenw1n|JenW1N's Lean proof]] settles
 the second question, $h(n!)<n^{o(1)}$. The first question carries two pending
 partial claims, [[problems/divisors/E0018/claims/2026_07_24_price|Price's]] and
 [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro's]].
 The third question, $h(n!)<(\log n)^{O(1)}$, has no claim. The claim pages and
-the assessment below carry the evidence for each part. The site's wording
-attaching the prize to the first question was settled on 11 April 2026 after
-wavering. The assessment gives the history.
+the assessment below carry the evidence for each part. The erdosproblems.com
+wording attaching the prize to the first question was settled on 11 April 2026
+after wavering. The assessment gives the history.
 
 **Source.** [erdosproblems.com/18](https://www.erdosproblems.com/18), accessed
 2026-09-27 (OPEN; last edited 11 April 2026; Comments (7); Proof claims (3): the
-Conjectures.io result posted by the site owner on 27 September 2026 as
+Conjectures.io result posted by erdosproblems.com owner on 27 September 2026 as
 unverified, van Doorn 16 September 2026, Price 24 July 2026), and the
 Conjectures.io record
 [conjectures.io/results/e93a2766-4c70-4564-b565-d0c556f35929](https://conjectures.io/results/e93a2766-4c70-4564-b565-d0c556f35929),
@@ -71,7 +71,7 @@ Erdős Problem #18, https://www.erdosproblems.com/18, accessed 2026-09-27.
   21-24.
 - [Vo84] Vose, M. D., Integers with consecutive divisors in small ratio. J.
   Number Theory 19 (1984), no. 2, 233--238 (the van Doorn note's citation for
-  the $(\log m)^{1/2}$ construction, where the site cites [Vo85]; the
+  the $(\log m)^{1/2}$ construction, where erdosproblems.com cites [Vo85]; the
   attribution is not resolved).
 - [Yo92] Yokota, H., On a sum of divisors. Canad. Math. Bull. 35 (1992), no.
   3, 423--430 (Corollary 1, cited from the van Doorn note).
@@ -89,10 +89,10 @@ Erdős Problem #18, https://www.erdosproblems.com/18, accessed 2026-09-27.
 as `Erdos18.erdos_18a`, `erdos_18b` and `erdos_18c` (all `research open` in the
 file at the linked commit of 18 September 2026, on 2026-09-27 the last to touch
 the file on the default branch; the docstring of `erdos_18c` attaches the prize
-to the third question, whereas the site attaches it to the first). There
-`practicalH n` is the supremum over $1\le m\le n$ of the least size of a set of
-divisors of $n$ with $m$ among its subset sums, a fresh set for each $m$. Part
-(b) is proved in Lean: the Conjectures.io file closes
+to the third question, whereas erdosproblems.com attaches it to the first).
+There `practicalH n` is the supremum over $1\le m\le n$ of the least size of a
+set of divisors of $n$ with $m$ among its subset sums, a fresh set for each $m$.
+Part (b) is proved in Lean: the Conjectures.io file closes
 `Bounty.target : fcTypeOfName% "Erdos18.erdos_18b"`, whose type is
 `True ↔ ∀ (ε : ℝ), 0 < ε → ∀ᶠ (n : ℕ) in Filter.atTop, ↑(Erdos18.practicalH n.factorial) < ↑n ^ ε`
 (Conjectures.io's source type hash check passed; permitted axioms `propext`,
@@ -107,24 +107,25 @@ built it. Neither file is part of this repository's Lean closure.
 
 ## Current assessment
 
-**The question.** The site's formulation (accessed 2026-09-27; last edited 11
-April 2026) defines $h(m)$ for practical $m$ and asks three things: (a) are
-there infinitely many practical $m$ with $h(m)<(\log\log m)^{O(1)}$; (b) is
-$h(n!)<n^{o(1)}$; (c) is even $h(n!)<(\log n)^{O(1)}$. The frontmatter status
+**The question.** The erdosproblems.com formulation (accessed 2026-09-27; last
+edited 11 April 2026) defines $h(m)$ for practical $m$ and asks three things:
+(a) are there infinitely many practical $m$ with $h(m)<(\log\log m)^{O(1)}$; (b)
+is $h(n!)<n^{o(1)}$; (c) is even $h(n!)<(\log n)^{O(1)}$. The frontmatter status
 concerns the three questions together, so it stays `open` while (b) is proved,
-(a) is claimed and (c) is open. Two site clarifications fix the reading. The
-discussion of 3 February 2026 (a comment of 11:51 answered at 12:16) settles
-that a fresh set of divisors may be chosen for each target $m$, which is how the
-formal definition reads; the site's range $1\le n<m$ differs from the formal
-$1\le m\le n$ only by the one-divisor representation of $m$ itself. The prize
-remark wavered: the discussion of 30 and 31 October 2025 and 8 December 2025
-debated whether the prize of [Er81h] concerns the first question or $h(n!)$, and
-on 11 April 2026 the page went through two hedged versions within twenty seconds
-(the first rendering the target as $h(n!)$, the second attaching the prize to
-the first question while noting that the attribution was unclear and pointing to
-the comments) before the current text, which attaches the prize to the first
-question without a hedge; the formal-conjectures docstring that attaches it to
-the third question reflects the earlier reading.
+(a) is claimed and (c) is open. Two erdosproblems.com clarifications fix the
+reading. The discussion of 3 February 2026 (a comment of 11:51 answered at
+12:16) settles that a fresh set of divisors may be chosen for each target $m$,
+which is how the formal definition reads; erdosproblems.com's range $1\le n<m$
+differs from the formal $1\le m\le n$ only by the one-divisor representation of
+$m$ itself. The prize remark wavered: the discussion of 30 and 31 October 2025
+and 8 December 2025 debated whether the prize of [Er81h] concerns the first
+question or $h(n!)$, and on 11 April 2026 the page went through two hedged
+versions within twenty seconds (the first rendering the target as $h(n!)$, the
+second attaching the prize to the first question while noting that the
+attribution was unclear and pointing to the comments) before the current text,
+which attaches the prize to the first question without a hedge; the
+formal-conjectures docstring that attaches it to the third question reflects the
+earlier reading.
 
 **Part (b): fidelity and acceptance.** The statement Conjectures.io verified is
 the formal-conjectures `erdos_18b` with its answer marker filled as `True`: for
@@ -150,26 +151,26 @@ provenance is on
 [[../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/jenw1n_2026_lean_proof_erdos_problem_18b|the JenW1N source record]].
 The definitions of `subsetSums` and `fcTypeOfName%` are among those the replay
 below found identical to the task's; the two catalog commits that the task
-bundle and the run pin are not reachable in the public repository; the site
-builds the task's commit from a public catalog commit and an audit patch, which
-this corpus's replay reproduced exactly. Conjectures.io's reviewers state that
-no fresh Lean replay was performed, and its verdict rests on a single kernel;
-its kernel check, review, certification and payment are reported, not counted.
-Acceptance rests on this corpus's rebuild of the file on the repository's pinned
-toolchain (Lean v4.34.1), its kernel replay of everything the target depends on
-with only `propext`, `Classical.choice` and `Quot.sound`, and its check that the
-target is the second question, as for the Conjectures.io proofs recorded for
-Problems 14, 96, 653 and 859; no refereed publication exists, and the
-erdosproblems.com curator's post of 27 September 2026 on the site's proof-claims
-tab is explicitly not a verification. The result is recorded as an accepted
-partial claim on
+bundle and the run pin are not reachable in the public repository;
+Conjectures.io builds the task's commit from a public catalog commit and an
+audit patch, which this corpus's replay reproduced exactly. Conjectures.io's
+reviewers state that no fresh Lean replay was performed, and its verdict rests
+on a single kernel; its kernel check, review, certification and payment are
+reported, not counted. Acceptance rests on this corpus's rebuild of the file on
+the repository's pinned toolchain (Lean v4.34.1), its kernel replay of
+everything the target depends on with only `propext`, `Classical.choice` and
+`Quot.sound`, and its check that the target is the second question, as for the
+Conjectures.io proofs recorded for Problems 14, 96, 653 and 859; no refereed
+publication exists, and the erdosproblems.com curator's post of 27 September
+2026 on the erdosproblems.com proof-claims tab is explicitly not a verification.
+The result is recorded as an accepted partial claim on
 [[problems/divisors/E0018/claims/2026_09_16_jenw1n|its claim page]]; the
 page-level standing stays open because the first and third questions are not
 settled.
 
 **Part (a): claims, not adopted.** Two proof claims, both answering only the
-first question and neither accepted (the site headed both as proof claims).
-(i) Price, 24 July 2026 (made with GPT-5.6 Sol Pro, as the claim
+first question and neither accepted (erdosproblems.com headed both as proof
+claims). (i) Price, 24 July 2026 (made with GPT-5.6 Sol Pro, as the claim
 states): $h(n)\ll(\log\log n)^2$ for infinitely many practical $n$; the
 write-up sits behind an Overleaf read link whose text this corpus does not
 have; per the comment of 6 August 2026 the argument rests on Bourgain's
@@ -191,18 +192,18 @@ route (a Cauchy–Schwarz and Plancherel character-sum criterion in place of
 Bourgain) that the note, by its own account 80–90% AI-generated, presents as a
 simplification of (i); this corpus has not built the Lean file
 (`import Mathlib`, Lean v4.28.0, formalized by Aristotle, `#print axioms` lines,
-no `sorry`). The site's discussion (25 July 2026) notes that such a bound would
-improve Problems 293 and 304, and the note claims those improvements (below).
-The site showed OPEN and no independent acceptance is documented, so (a) is
-recorded as claimed, on
+no `sorry`). The erdosproblems.com discussion (25 July 2026) notes that such a
+bound would improve Problems 293 and 304, and the note claims those improvements
+(below). erdosproblems.com showed OPEN and no independent acceptance is
+documented, so (a) is recorded as claimed, on
 [[problems/divisors/E0018/claims/2026_07_24_price|Price's claim page]] and
 [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn's claim page]],
 both partial claims covering the first question only.
 
 **Part (c): open.** No proof or claim of $h(n!)<(\log n)^{O(1)}$ was found.
-Upper bounds: $h(n!)<n$ (the site's remark, attributed by Hughes to [ErGr80],
-pp. 37--38), $h(n!)\ll_\eta n/(\log n)^{1/2-\eta}$ ([TeYo90], Lemma 4; [Yo95])
-and $h(n!)\le(2\log2+o(1))\,n/\log n$
+Upper bounds: $h(n!)<n$ (the erdosproblems.com remark, attributed by Hughes to
+[ErGr80], pp. 37--38), $h(n!)\ll_\eta n/(\log n)^{1/2-\eta}$ ([TeYo90], Lemma 4;
+[Yo95]) and $h(n!)\le(2\log2+o(1))\,n/\log n$
 ([[../library/divisors/hughes_2026_sums_distinct_divisors_factorials/theorem_1|Hughes, Theorem 1]],
 9 September 2026, unrefereed), all superseded as bounds by the $n^{o(1)}$ of
 part (b), accepted by Conjectures.io; the lower bound $h(n!)\gg(\log n)^2$
@@ -225,14 +226,14 @@ with practical, author searches for van Doorn and Price (neither note is on
 arXiv) and the abstract pages 2609.10902 and 2609.25446. Not searched:
 MathSciNet, zbMATH, Google Scholar, Crossref, X, the OEIS page A005153.
 
-**Standing on 2026-10-06.** The site showed OPEN with seven comments and
-three proof claims (Price, van Doorn, and the site owner's unverified repost
-of the Conjectures.io result), none with a claim comment after 6 August 2026;
-the Conjectures.io record was Lean verified, review approved, certified and
-paid; formal-conjectures held `erdos_18a`, `erdos_18b` and `erdos_18c` as
-`research open`; the community database recorded the problem open; no
-Palomar entry and no conjectures.io task existed for parts (a) or (c). Parts
-(a) and (c) therefore stand as recorded: (a) claimed and not accepted, (c)
+**Standing on 2026-10-06.** erdosproblems.com showed OPEN with seven comments
+and three proof claims (Price, van Doorn, and erdosproblems.com owner's
+unverified repost of the Conjectures.io result), none with a claim comment after
+6 August 2026; the Conjectures.io record was Lean verified, review approved,
+certified and paid; formal-conjectures held `erdos_18a`, `erdos_18b` and
+`erdos_18c` as `research open`; the community database recorded the problem
+open; no Palomar entry and no conjectures.io task existed for parts (a) or (c).
+Parts (a) and (c) therefore stand as recorded: (a) claimed and not accepted, (c)
 open.
 
 **Proof coverage.** Author-recorded reconstructions of Hughes's Theorem 1 and
@@ -274,7 +275,7 @@ and review; parts (a) and (c) carry claims and cited bounds only.
   (AI-generated, Overleaf read link, resting on Bourgain's exponential-sum
   theorem; elementary layer kernel-checked by a third party on 6 August 2026).
   Either would answer the first question affirmatively and improve Vose's
-  $(\log m)^{1/2}$; the site's label was OPEN. Claim pages:
+  $(\log m)^{1/2}$; the erdosproblems.com label was OPEN. Claim pages:
   [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro 2026]]
   and [[problems/divisors/E0018/claims/2026_07_24_price|Price 2026]].
 - Applications of the same construction, claimed and not accepted:
@@ -282,27 +283,28 @@ and review; parts (a) and (c) carry claims and cited bounds only.
   ([[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/theorem_1_2|Theorem 1.2]],
   Problem 304) and $v(k)\ge\exp\exp\sqrt{k/(2c_0)}$ for all large $k$
   ([[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/theorem_1_3|Theorem 1.3]],
-  Problem 293); the site's proof-claims tabs of 304 and 293 were empty on
-  2026-09-27.
-- Part (c), open; upper bounds on $h(n!)$: $h(n!)<n$ (site remark; [ErGr80],
-  pp. 37--38, per Hughes 2026); $h(n!)\ll_\eta n/(\log n)^{1/2-\eta}$
+  Problem 293); the erdosproblems.com proof-claims tabs of 304 and 293 were
+  empty on 2026-09-27.
+- Part (c), open; upper bounds on $h(n!)$: $h(n!)<n$ (erdosproblems.com remark;
+  [ErGr80], pp. 37--38, per Hughes 2026); $h(n!)\ll_\eta n/(\log n)^{1/2-\eta}$
   ([TeYo90], Lemma 4; [Yo95]; both cited from Hughes);
   $h(n!)\le(2\log2+o(1))\,n/\log n$
   ([[../library/divisors/hughes_2026_sums_distinct_divisors_factorials/theorem_1|Hughes, Theorem 1]],
   arXiv:2609.10902, 9 September 2026, unrefereed); all superseded as bounds
   by part (b). Lower bound: $h(n!)\gg(\log n)^2$
   ([[../library/divisors/hughes_2026_sums_distinct_divisors_factorials/remark_6|Hughes, Remark 6]]).
-- Vose: infinitely many practical $m$ with $h(m)\ll(\log m)^{1/2}$ (site
-  statement citing [Vo85]; the van Doorn note cites [Vo84] for the
-  construction); per the van Doorn note, [Yo92], Corollary 1, gives
+- Vose: infinitely many practical $m$ with $h(m)\ll(\log m)^{1/2}$
+  (erdosproblems.com statement citing [Vo85]; the van Doorn note cites [Vo84]
+  for the construction); per the van Doorn note, [Yo92], Corollary 1, gives
   $h(n)\asymp(\log n)^{1/2}$ on Vose's sequence.
-- Unverified finite data from the site discussion (leads only): $h(n!)$ for
-  $n=3,\dots,11$ equals $2,3,4,5,5,6,7,7,7$ (comment of 10 June 2026,
-  computed by dynamic programming with the site's $1\le k<m$ range); exact
-  $h(\mathrm{lcm}(1,\dots,x))=4,5,5,6,6,7,7$ at $x=5,7,9,11,13,17,19$ and
-  greedy upper bounds $8,9,10,11,11,12$ at $x=19,29,37,43,53,61$ (comment of
-  14 September 2026, which also reduces $h(\mathrm{lcm}(1,\dots,x))=O((\log
-  x)^2)$ to a divisor-gap bound it does not prove).
+- Unverified finite data from the erdosproblems.com discussion (leads only):
+  $h(n!)$ for $n=3,\dots,11$ equals $2,3,4,5,5,6,7,7,7$ (comment of 10 June
+  2026, computed by dynamic programming with erdosproblems.com's $1\le k<m$
+  range); exact $h(\mathrm{lcm}(1,\dots,x))=4,5,5,6,6,7,7$ at
+  $x=5,7,9,11,13,17,19$ and greedy upper bounds $8,9,10,11,11,12$ at
+  $x=19,29,37,43,53,61$ (comment of 14 September 2026, which also reduces
+  $h(\mathrm{lcm}(1,\dots,x))=O((\log x)^2)$ to a divisor-gap bound it does not
+  prove).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

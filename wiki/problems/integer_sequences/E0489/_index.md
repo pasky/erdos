@@ -36,22 +36,22 @@ $$
 
 exists (and is finite)?
 
-**Status.** The site's label was OPEN. The frontmatter standing derives from a
-pending full claim, and it departs from the label for that reason. That claim
-was posted to the site's proof-claims tab on 15 July 2026 by Colin Snyder,
-produced with GPT 5.6 (custom harness), as the tab names the system. It answers
-yes with a Lean 4 proof bundle. The site has not accepted it, and nothing was
-built or audited here. The claim page
+**Status.** The erdosproblems.com label was OPEN. The frontmatter standing
+derives from a pending full claim, and it departs from the label for that
+reason. That claim was posted to the erdosproblems.com proof-claims tab on 15
+July 2026 by Colin Snyder, produced with GPT 5.6 (custom harness), as the tab
+names the system. It answers yes with a Lean 4 proof bundle. erdosproblems.com
+has not accepted it, and nothing was built or audited here. The claim page
 [[problems/integer_sequences/E0489/claims/2026_07_15_snyder|Snyder's Lean proof]]
 records it. The page also records that the formal-conjectures collection marks
 the problem as solved on the strength of a hosted copy of that proof, which is
 not acceptance. Snyder's claim answers the Statement yes and would settle it, so
-the derived standing is `claimed` with claim `proved`. The site, which has not
-accepted the claim, labeled the problem OPEN.
+the derived standing is `claimed` with claim `proved`. erdosproblems.com, which
+has not accepted the claim, labeled the problem OPEN.
 
-The site notes that Erdős proved the limit exists for $A$ the set of prime
-squares, when $B$ is the squarefree numbers (Publ. Math. Debrecen 2 (1951),
-103--109). Its claim page is
+erdosproblems.com notes that Erdős proved the limit exists for $A$ the set of
+prime squares, when $B$ is the squarefree numbers (Publ. Math. Debrecen 2
+(1951), 103--109). Its claim page is
 [[problems/integer_sequences/E0489/claims/1951_05_04_erdos|Erdős's squarefree case]],
 accepted and partial. A note of 20 April 2026 by Przemyslaw Chojecki, produced
 with GPT-5.4 Pro, as Chojecki's thread comment says, claims a proof that the
@@ -74,8 +74,8 @@ with `x` running over the naturals, under `category research solved` with
 proof `sorry` and a `formal_proof` attribute pointing at the copy of
 Snyder's Lean proof in the `williamjblair/lean-proofs` repository, linked on
 the claim page; a second declaration states the squarefree case. The
-site's indicator records a formalized statement. The solved marking records
-that claim and is not acceptance evidence; nothing was built or audited
+erdosproblems.com indicator records a formalized statement. The solved marking
+records that claim and is not acceptance evidence; nothing was built or audited
 here.
 
 ## Progress

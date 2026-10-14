@@ -85,8 +85,8 @@ cycle of $G$ or a single edge of $G$, so $f(n)=O(n)$, which answers the page's
 question yes. The record is kept on the claim page of
 [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]]. The Lean
 statement is stated as the manuscript's Theorem 1.1, not a formal proof of
-Problem 184 as the site or the formal-conjectures file states it; no bridge
-between the two Lean statements was checked here.
+Problem 184 as erdosproblems.com or the formal-conjectures file states it; no
+bridge between the two Lean statements was checked here.
 
 Companions. The release files this manuscript alone in its family (the
 Erdős-Gallai cycle-decomposition conjecture); no companion, alternate proof or
@@ -264,20 +264,21 @@ manuscript.
 - [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]]: claimed
   resolution of the whole question. Theorem 1.1 asserts $f(n)=O(n)$ for all
   finite simple graphs, which is the statement the problem page records as
-  open on the site, with Bucić and Montgomery's $O(n\log^*n)$ as the best
-  refereed bound; the manuscript's lower-bound remarks ($(3/2-o(1))n$) agree
-  with the page. The page also records a separate full proof claim submitted
-  to the site on 2026-10-01 with its own write-up and Lean development; the
-  manuscript does not cite it, and the two are separate claims on the same
-  question. The proof was read for structure only. The corpus's verification
-  built `OAI.ErdosGallai.erdos_gallai`, `OAI.ErdosGallai.MainStatement`,
-  `OAI.ErdosGallai.EdgeDecomposition` and `OAI.ErdosGallai.CycleOrSingleEdge`
-  and checked their axioms (`propext`, `Classical.choice` and `Quot.sound`
-  only); they cover, for one absolute $C>0$, every simple graph on $n$
-  vertices (for every $n$) having an edge partition into at most $C\cdot n$
-  pieces, each a simple cycle of $G$ or a single edge of $G$, so $f(n)=O(n)$,
-  which answers the page's question yes. The record is kept on the claim page
-  of [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]].
+  open on erdosproblems.com, with Bucić and Montgomery's $O(n\log^*n)$ as the
+  best refereed bound; the manuscript's lower-bound remarks ($(3/2-o(1))n$)
+  agree with the page. The page also records a separate full proof claim
+  submitted to erdosproblems.com on 2026-10-01 with its own write-up and Lean
+  development; the manuscript does not cite it, and the two are separate claims
+  on the same question. The proof was read for structure only. The corpus's
+  verification built `OAI.ErdosGallai.erdos_gallai`,
+  `OAI.ErdosGallai.MainStatement`, `OAI.ErdosGallai.EdgeDecomposition` and
+  `OAI.ErdosGallai.CycleOrSingleEdge` and checked their axioms (`propext`,
+  `Classical.choice` and `Quot.sound` only); they cover, for one absolute $C>0$,
+  every simple graph on $n$ vertices (for every $n$) having an edge partition
+  into at most $C\cdot n$ pieces, each a simple cycle of $G$ or a single edge of
+  $G$, so $f(n)=O(n)$, which answers the page's question yes. The record is kept
+  on the claim page of
+  [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]].
 - [[extremal_graph_theory/bucic_2022_towards_erdos_gallai_cycle_decomposition_conjecture/conjecture_1|Bucić and Montgomery's Conjecture 1]]:
   Theorem 1.1 is a claimed proof of the conjecture as that page states it,
   and the manuscript's proof reuses that paper's Theorem 6, Corollary 22,

@@ -30,9 +30,9 @@ Douglas Hensley and Ian Richards, *Primes in intervals*, Acta Arithmetica
 **25** (1973/74), 375--391, DOI 10.4064/aa-25-4-375-391 (received 3 May
 1973; the article's first page is headed "ACTA ARITHMETICA XXV (1974)", the
 Polymath paper cites it as "25 (1973/74)" and OEIS A023193 as "25 (1974)").
-The site's key [HeRi73] for Problems 855 and 1204 is the authors' symposium
-paper *On the incompatibility of two conjectures concerning primes*, Proc.
-Sympos. Pure Math. 24 (1973), 123--127 (this paper's reference [7]), not
+The erdosproblems.com key [HeRi73] for Problems 855 and 1204 is the authors'
+symposium paper *On the incompatibility of two conjectures concerning primes*,
+Proc. Sympos. Pure Math. 24 (1973), 123--127 (this paper's reference [7]), not
 held; this paper is the authors' full account of the same result.
 
 The retained [folder-name PDF](hensley_1974_primes_intervals.pdf) is the
@@ -50,8 +50,8 @@ first or last page; the publisher's volume listing labels the article's download
 no version or URL named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/25,
 read 2026-10-02; the article's own page was not opened); the site footer
-"Copyright © 2026 by IMPAN. All rights reserved." speaks for the site, not the
-article.
+"Copyright © 2026 by IMPAN. All rights reserved." speaks for erdosproblems.com,
+not the article.
 
 Read status: claims checked for the definitions of $\varrho$, $\varrho_1$,
 $\varrho^*$ and admissibility (Section 1, printed pp. 378--379), the
@@ -205,9 +205,9 @@ conditional and sketched in the source. Nothing is independently reviewed.
 the second-order improvement of the upper bound for the problem's $A(k)$,
 the minimal diameter of an admissible $k$-tuple, since $\varrho^*(x)\ge k$
 gives $A(k)\le x-1$; the Polymath paper's display (150) derives
-$H(k)\le k\log k+k\log\log k-(1+\log2)k+o(k)$ from Lemma 5, and the site
-credits the improvement to Hensley and Richards under its 1973 key;
-$\varrho^*$ is the exact inverse of $A(k)$, the paper proves the
+$H(k)\le k\log k+k\log\log k-(1+\log2)k+o(k)$ from Lemma 5, and
+erdosproblems.com credits the improvement to Hensley and Richards under its 1973
+key; $\varrho^*$ is the exact inverse of $A(k)$, the paper proves the
 coefficient-one upper half $A(k)\le(1+o(1))k\log k$ with the
 Hensley--Richards lower-order improvement, and the matching lower bound for
 $A(k)$ and any substantive estimate of $B(k)$ remain open here.
@@ -219,8 +219,8 @@ $\pi(x+y)>\pi(x)+\pi(y)$", where (A) is the problem's inequality
 $\pi(x+y)\le\pi(x)+\pi(y)$, asserted for all $x,y\ge2$ (Section 0, p. 375)
 where the problem asks it for large $x$ and $y$, and (B) the prime
 $k$-tuples conjecture (p. 379); $(-A^*)$, whose $y$ are unbounded, defeats
-the problem's form as well; the site's key [HeRi73] for the problem is the
-authors' symposium paper, not held
+the problem's form as well; the erdosproblems.com key [HeRi73] for the problem
+is the authors' symposium paper, not held
 ([[primes/hensley_1974_primes_intervals/theorem|theorem]]).
 
 **Results.**

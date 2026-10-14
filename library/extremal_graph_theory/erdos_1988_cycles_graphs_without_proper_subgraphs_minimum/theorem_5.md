@@ -18,15 +18,15 @@ length at least $\lfloor\log n\rfloor$."
 
 The base of the logarithm is not printed; the proof grows a spanning tree of
 maximum degree at most $3$ and takes a path of length at least
-$\lfloor\log n\rfloor$ in it, so the bound is read with base $2$ (the site
-writes $\lfloor\log_2n\rfloor$, and the 2017 and 2026 papers on these graphs
-quote it as $\log n$ with base $2$). Here $G^*(n,m)$ is the class of p. 195
-(no proper subgraph, read induced, of minimum degree $3$). The paper pairs
-the theorem with Example 6 (p. 201): for $k\ge4$, a $k$-cycle $C$ with a new
-vertex $w$ joined to each vertex of $C$ by a path of length $k-1$, the paths
-sharing only $w$, and a new vertex $y$ joined to every vertex except those of
-$C$ other than one gives a graph $G_k$ on $n=k(k-1)+2$ vertices with $2n-2$
-edges and no proper subgraph of minimum degree $3$ whose longest path is
+$\lfloor\log n\rfloor$ in it, so the bound is read with base $2$
+(erdosproblems.com writes $\lfloor\log_2n\rfloor$, and the 2017 and 2026 papers
+on these graphs quote it as $\log n$ with base $2$). Here $G^*(n,m)$ is the
+class of p. 195 (no proper subgraph, read induced, of minimum degree $3$). The
+paper pairs the theorem with Example 6 (p. 201): for $k\ge4$, a $k$-cycle $C$
+with a new vertex $w$ joined to each vertex of $C$ by a path of length $k-1$,
+the paths sharing only $w$, and a new vertex $y$ joined to every vertex except
+those of $C$ other than one gives a graph $G_k$ on $n=k(k-1)+2$ vertices with
+$2n-2$ edges and no proper subgraph of minimum degree $3$ whose longest path is
 shorter than $10k$, so that no cycle is longer than $10k<10\sqrt n+5$ (the
 print continues with $10k\le10\sqrt{n+1}$, which fails for every $k\ge4$,
 since $n+1=k^2-k+3<k^2$); the introduction (p. 196) cites this as
@@ -66,5 +66,5 @@ $d^-(x_i)\ge1$).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0815/_index|Problem 815]]: the long-cycle
-  result and the $\sqrt n$ example the site's commentary reports; context
-  for the question, which concerns short cycles of each fixed length.
+  result and the $\sqrt n$ example the erdosproblems.com commentary reports;
+  context for the question, which concerns short cycles of each fixed length.

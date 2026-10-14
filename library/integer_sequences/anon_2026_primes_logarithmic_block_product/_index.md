@@ -1,13 +1,13 @@
 ---
 name: integer_sequences/anon_2026_primes_logarithmic_block_product
 desc: |
-  A four-page anonymous note, linked from the site's Problem 457 thread,
-  constructing infinitely many n for which every prime up to 2.1 log n
+  A four-page anonymous note, linked from erdosproblems.com's Problem 457
+  thread, constructing infinitely many n for which every prime up to 2.1 log n
   divides the product of the next floor(log n) integers; the first written
-  form of the construction the site accepted for Problem 457.
+  form of the construction erdosproblems.com accepted for Problem 457.
 license: unstated
 created: 2026-09-21T06:26:33Z
-updated: 2026-10-08T15:19:47Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # integer_sequences/anon_2026_primes_logarithmic_block_product
@@ -15,8 +15,8 @@ updated: 2026-10-08T15:19:47Z
 [[integer_sequences/_index|..]]
 
 [[integer_sequences/anon_2026_primes_logarithmic_block_product/remark_2_4|remark_2_4]]: The range of constants the note's construction reaches, every fixed
-epsilon below 3/log 4 minus 2, about 0.164; the site's constant 3/log 4 is
-the supremum of this range, not a value the note attains.
+epsilon below 3/log 4 minus 2, about 0.164; erdosproblems.com's constant 3/log
+4 is the supremum of this range, not a value the note attains.
 
 [[integer_sequences/anon_2026_primes_logarithmic_block_product/theorem_2_1|theorem_2_1]]: The construction answering Problem 457 with epsilon 0.1: infinitely many n
 such that every prime up to 2.1 log n divides the product of the floor(log
@@ -28,13 +28,13 @@ reviewed.
 *Primes in a logarithmic block product*. A four-page note whose title page
 prints no author line; the PDF's information dictionary gives the author
 field "Anonymous" and a creation timestamp of 2 March 2026, 13:50 UTC, and
-the text prints no date of its own (its reference [2] cites the site's
+the text prints no date of its own (its reference [2] cites erdosproblems.com's
 Problem 457 page as "accessed 2026-03-02"). No arXiv identifier, journal or
 affiliation appears.
-The note was a document on a file-sharing service linked from the site's
-Problem 457 thread, in the comment of 2 March 2026 that the problem page
-records as posting "GPT-5.2 Pro's argument for every $0<\epsilon<3/\log4-2$,
-linked as a PDF".
+The note was a document on a file-sharing service linked from
+erdosproblems.com's Problem 457 thread, in the comment of 2 March 2026 that the
+problem page records as posting "GPT-5.2 Pro's argument for every
+$0<\epsilon<3/\log4-2$, linked as a PDF".
 
 The copy read for this card is that
 file, four pages with a complete text layer, read on the rendered page
@@ -61,9 +61,9 @@ divisible by all primes smaller than $2.1\log n$", the constant of this
 note's Theorem 2.1; the Formal Conjectures file's docstring says the
 statement "was formalized in Lean by Baretto and van Doorn using Aristotle".
 This card records those sentences and claims no independent check of the
-argument. The site accepted the answer on 7 March 2026 with the label PROVED
-(LEAN); no refereed publication, arXiv version or written independent review
-of the note is known to the corpus. The note states no license.
+argument. erdosproblems.com accepted the answer on 7 March 2026 with the label
+PROVED (LEAN); no refereed publication, arXiv version or written independent
+review of the note is known to the corpus. The note states no license.
 
 Read status: claims checked for Theorem 2.1, Lemmas 2.2 and 2.3 and Remark
 2.4, read clause by clause on the page images of pp. 1--4; the proof of
@@ -103,7 +103,8 @@ here is independently reviewed.
 - References (p. 4): [1] Erdős, Some unconventional problems in number
   theory, Acta Math. Acad. Sci. Hungar. 33 (1979), 73--82 (pages so printed;
   the Crossref record of DOI 10.1007/BF01903382, read 2026-10-07, gives 71--80);
-  [2] T. F. Bloom, Erdős Problem #457, the site's page, accessed 2026-03-02.
+  [2] T. F. Bloom, Erdős Problem #457, the erdosproblems.com page, accessed
+  2026-03-02.
 
 ## Compiled scope
 
@@ -112,9 +113,9 @@ as statements with the proof pointer above; the proof was read in full and
 not independently reviewed. The note proves the constant $2.1$ ($\epsilon=0.1$)
 and states in Remark 2.4, with a one-sentence justification, that the
 argument reaches every constant below $3/\log4$; it does not claim the
-endpoint $3/\log4$ itself, and the site's commentary that the construction
-"gives an affirmative answer to the original question, with the constant
-$2$ replaced by $\frac3{\log4}\approx2.16$" is a reading of the remark
+endpoint $3/\log4$ itself, and the erdosproblems.com commentary that the
+construction "gives an affirmative answer to the original question, with the
+constant $2$ replaced by $\frac3{\log4}\approx2.16$" is a reading of the remark
 recorded on the Remark 2.4 page as a discrepancy of form. The later
 "arbitrarily large constant" write-up the thread reports is a different
 document, not read for this card.
@@ -155,9 +156,9 @@ declaration, noted on the problem page.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0457/_index|#457]]: Theorem 2.1 is the
 problem's question with $\epsilon=0.1$ and the product over
-$1\le i\le\lfloor\log n\rfloor$, the site's reading; the note is the first
-written form of the construction the site accepted, read for this card,
-anonymous and unreviewed. Remark 2.4 is the source of the commentary's
+$1\le i\le\lfloor\log n\rfloor$, erdosproblems.com's reading; the note is the
+first written form of the construction erdosproblems.com accepted, read for this
+card, anonymous and unreviewed. Remark 2.4 is the source of the commentary's
 constant $3/\log4$, as a supremum rather than an attained value.
 
 **Results.**

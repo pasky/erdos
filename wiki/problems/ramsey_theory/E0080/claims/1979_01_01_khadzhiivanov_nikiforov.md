@@ -36,10 +36,10 @@ for every fixed $c>1/4$, without the hypothesis that every edge lies in a
 triangle. So $f_c(n)>n^\epsilon$ holds for every $\epsilon<1$ and all large
 $n$ in that range, $f_c(n)\gg\log n$ holds there, and $f_c(n)=\Theta(n)$
 there, since a book has at most $n-2$ pages. This is the theorem of
-[[problems/extremal_graph_theory/E0905/_index|Problem 905]], which the site
-credits to Edwards (unpublished) and, independently, to the 1979 note of
-Khadzhiivanov and Nikiforov, its source key [KhNi79]. The note is not
-held; the proof relied on is Khadzhiivanov's 1988 account,
+[[problems/extremal_graph_theory/E0905/_index|Problem 905]], which
+erdosproblems.com credits to Edwards (unpublished) and, independently, to the
+1979 note of Khadzhiivanov and Nikiforov, its source key [KhNi79]. The note is
+not held; the proof relied on is Khadzhiivanov's 1988 account,
 [[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/_index|khadzhiivanov_1988_maximal_number_triangles_common_edge]],
 whose [[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Corollary 3]]
 (p. 45) proves it with strict inequality, from the paper's Theorem 1,
@@ -70,19 +70,19 @@ question are open.
 [[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Corollary 3]]
 of Khadzhiivanov's 1988 account, the proof relied on.
 
-**Acceptance.** The site's curator, T. F. Bloom, labeled Problem 905, whose
-statement is the claim above, PROVED (LEAN) and credits it to Edwards and,
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, labeled Problem 905,
+whose statement is the claim above, PROVED (LEAN) and credits it to Edwards and,
 independently, to Khadzhiivanov and Nikiforov. The curator also records the
 bound $f_c(n)\ge n/6$ for $c>1/4$ in this problem's commentary, with a pointer
 to Problem 905 (both pages last edited 7 April 2026, accessed 2026-09-18). That
-label settles Problem 905, not Problem 80 or a part of it. The site labeled
-Problem 80 OPEN, and its commentary on Problem 80 is not acceptance. So no
-`reviewed` evidence is listed.
+label settles Problem 905, not Problem 80 or a part of it. Bloom's catalog
+labeled Problem 80 OPEN, and its commentary on Problem 80 is not acceptance. So
+no `reviewed` evidence is listed.
 
-The Lean proof behind the site's suffix is the file in Boris Alexeev's
-repository linked above, at the commit of 15 September 2026. The file declares
-itself a formalization of the 1979 note's result, the claim above. It is linked,
-not built in this corpus, so it is not `formalized` evidence here.
+The Lean proof behind the erdosproblems.com suffix is the file in Boris
+Alexeev's repository linked above, at the commit of 15 September 2026. The file
+declares itself a formalization of the 1979 note's result, the claim above. It
+is linked, not built in this corpus, so it is not `formalized` evidence here.
 
 Refereeing is not documented. The 1979 note appeared in C. R. Acad. Bulgare Sci.
 32 (1979), 1315--1318. The 1988 account appeared in Annuaire Univ. Sofia, Fac.
@@ -98,7 +98,7 @@ Nothing is independently reviewed in this corpus. Edwards's announcement
 reports that the proofs announced there were never published. Edwards's
 independent proof is therefore disclosed here and not relied on.
 
-**Dating.** The page is dated by the year of the 1979 note, the source the
-site cites, which the 1988 account's reference list gives as Dokl. BAN 32
-(1979), no. 10, 1315--1318; the month and day are placeholders. The proof
+**Dating.** The page is dated by the year of the 1979 note, the source
+erdosproblems.com cites, which the 1988 account's reference list gives as Dokl.
+BAN 32 (1979), no. 10, 1315--1318; the month and day are placeholders. The proof
 relied on is the 1988 account.

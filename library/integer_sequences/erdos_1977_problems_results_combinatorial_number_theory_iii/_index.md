@@ -60,8 +60,8 @@ than 10 years ago": for any two-class partition of the integers the
 equation (2) 1 = sum 1/x_i, x_1 < x_2 < ... (finite sum) is solvable with
 all the x_i in one class. Erdős expects this "should probably not be too
 difficult" and notes that many generalizations are possible. The paper
-states the two-class case; the site's formulation allows any finite number
-of classes. No proof or bound is given.
+states the two-class case; the erdosproblems.com formulation allows any finite
+number of classes. No proof or bound is given.
 
 Section 6, "Problems on infinite subsets" (printed pp. 57-59 = PDF pp.
 15-17), carries the origins of four more problem pages. For #532 (p. 57):
@@ -77,15 +77,16 @@ n. Galvin showed that no such f(n) exists, by the splitting in which, for
 F(m) -> infinity fast enough and n = 2^x y with y odd, n goes to the first
 class when y >= F(x) and to the second when y < F(x); the paper calls the
 check easy. Erdős sees "two ways to save the situation". The first is the
-question, quoted here since the site transcribes it: "Is it true that there
-is an f(n) so that if we split the integers into k (or aleph_0) classes
+question, quoted here since erdosproblems.com transcribes it: "Is it true that
+there is an f(n) so that if we split the integers into k (or aleph_0) classes
 there is a sequence a_1 < a_2 < ..., a_n < f(n) so that at least one of the
 classes is disjoint from the set of all sums sum epsilon_k a_k?", followed
 by a "weaker statement": for a partition of the integers into continuum
 many almost disjoint classes A_alpha (any two meeting in a finite set), is
 there an infinite sequence with a_n < f(n) for infinitely many n whose sums
 (1) miss some class? The printed question writes "a_n < f(n)" with no
-quantifier on n, where the site's #948 adds "for infinitely many n". For
+quantifier on n, where erdosproblems.com's #948 adds "for infinitely many n".
+For
 #949 (p. 57), the "second possibility": for a two-class partition of the
 reals, whether some sequence {x_n} with x_n < f(n) for infinitely many n
 has all its finite sums sum epsilon_k x_k in one class. And, quoted
@@ -151,21 +152,21 @@ much harder, his example being an infinite sequence of integers a_1 < a_2 <
 "Sárkozi") and he proved that such a sequence has density 0 but could not
 prove sum 1/a_i < infinity, and are "nowhere near" settling problem (I);
 problem (I), p. 52, asks for necessary and sufficient conditions on
-b_1 < b_2 < ... for an A sequence with a_n < c b_n; a site source key),
-[[../wiki/problems/integer_sequences/E0013/_index|#13]] (p. 53, the next
+b_1 < b_2 < ... for an A sequence with a_n < c b_n; an erdosproblems.com source
+key), [[../wiki/problems/integer_sequences/E0013/_index|#13]] (p. 53, the next
 sentences, the finite problem that "remains here": for
 1 <= a_1 < ... < a_k <= x with no a_i dividing the sum of two greater a's,
 the claim k <= [x/3] + 1, with equality for instance when x = 3n and the
 a's are the integers 2n, 2n + 1, ..., 3n; the bound is stated as the
-problem, without proof; a site source key),
+problem, without proof; an erdosproblems.com source key),
 [[../wiki/problems/number_theory/E0034/_index|#34]] (p. 71, PDF p. 29, page image:
 a question Harheim (the name as printed) considered "Early in September
 (of 1976)": "Let a_1, ..., a_n be a permutation of the integers 1, 2, ...,
 n. Is it true that there is an n_0 so that for n > n_0 the number of
 distinct sums of the form sum_{i=u}^{v} a_i, 1 <= u <= v <= n, is less
 than epsilon n^2?" The paper reports this proved for a_i = i ("We proved
-this") and the general case not attacked; the site's key [Er77c, p. 71]),
-[[../wiki/problems/unit_fractions/E0046/_index|#46]],
+this") and the general case not attacked; the erdosproblems.com key [Er77c, p.
+71]), [[../wiki/problems/unit_fractions/E0046/_index|#46]],
 [[../wiki/problems/ramsey_theory/E0172/_index|#172]],
 [[../wiki/problems/additive_combinatorics/E0186/_index|#186]] (p. 45, PDF p. 3, page image:
 "A sequence of integers $1\le a_1<\ldots<a_k\le n$ is called non-averaging
@@ -174,13 +175,13 @@ E. Straus began; with $g(n)=\max k$, display (3)
 $e^{c(\log n)^{1/2}}<g(n)<n^{2/3+\varepsilon}$, the lower bound Straus's
 and the upper bound Straus's and Erdős's; Abbott's recent
 $g(n)>cn^{1/10}$, which the paper calls unexpected; and the question of
-determining $\lim\log g(n)/\log n$; the site's key [Er77c, p. 45]),
+determining $\lim\log g(n)/\log n$; the erdosproblems.com key [Er77c, p. 45]),
 [[../wiki/problems/additive_combinatorics/E0350/_index|#350]] (p. 52, PDF p. 10, page image,
 Section 4: the theorem Erdős conjectured and Ryavec and others proved,
 that if $1\le a_1<\ldots<a_n$ are integers all of whose subset sums
 $\sum_{i=1}^n\varepsilon_ia_i$, $\varepsilon_i\in\{0,1\}$, are distinct,
 then $\sum_{i=1}^n1/a_i\le2-1/2^{n-1}$, with equality exactly for
-$a_i=2^{i-1}$; the site's key [Er77c]),
+$a_i=2^{i-1}$; the erdosproblems.com key [Er77c]),
 [[../wiki/problems/integer_sequences/E0357/_index|#357]] (pp. 70-71, PDF pp. 28-29, page
 images, Section 10, "Some more unconventional problems": for a sequence of
 integers $x_1<x_2<\ldots$ all of whose sums $\sum_{i=u}^vx_i$ are distinct,
@@ -195,7 +196,7 @@ such sequence has $x_n/n^3\to0$, and each question about finite and
 infinite $B_2$ sequences has an analogue here, with hardly any results
 known; the infinite
 form of the problem's question, whose finite form $f(n)=o(n)$ is not stated on
-these pages; the site's key [Er77c]),
+these pages; the erdosproblems.com key [Er77c]),
 [[../wiki/problems/integer_sequences/E0359/_index|#359]],
 [[../wiki/problems/integer_sequences/E0839/_index|#839]] (p. 70, PDF p. 28: after the
 MacMahon-Andrews greedy sequence, asks whether every sequence with no term
@@ -203,7 +204,7 @@ equal to a sum of consecutive earlier terms has zero lower density),
 [[../wiki/problems/integer_sequences/E0424/_index|#424]],
 [[../wiki/problems/ramsey_theory/E0532/_index|#532]] (p. 57: the Graham-Rothschild
 conjecture, Hindman's proof, Baumgartner's simplification and Glazer's
-topological proof; a site source key),
+topological proof; an erdosproblems.com source key),
 [[../wiki/problems/additive_combinatorics/E0808/_index|#808]] (pp. 60-61, PDF pp. 18-19,
 page images, Section 7, "A new extremal problem": after the conjecture
 $f_r(n)>n^{r-\varepsilon}$ for $n>n_0(\varepsilon,r)$, where $f_r(n)$ is "the
@@ -227,27 +228,25 @@ Rubin showed that I was much too optimistic", and the closing remark that
 assuming $k>n^{1+\varepsilon}$, or perhaps only $k/n\to\infty$, might give
 results, Erdős having no plausible conjecture so far; the paper
 counts the distinct integers among all $2k$ edge sums and products together
-where the site's statement takes the larger of the sum set and the product
-set and asks for $n^{1+c-\varepsilon}$ at $n^{1+c}$ edges; the site's key
-[Er77c]),
-[[../wiki/problems/additive_combinatorics/E0876/_index|#876]] (p. 52, PDF p. 10, page image,
-the opening of Section 4, "Some unconventional extremal problems": "An
-infinite sequence $1\le a_1<\ldots$ of integers is called an A sequence if
-no $a_i$ is the distinct sum of other $a$'s"; Erdős proved $\sum1/a_i<100$
-for every A sequence, Sullivan improved this substantially to
-$\sum1/a_i<4$, the paper asks for $\max\sum1/a_i$ over all A sequences,
-and Sullivan conjectures that the maximum exceeds 2 only slightly;
-then problem (I) (described above for #12), the suggestion that problem (I)
-for A sequences may yield to the inequalities in Levine and Sullivan's
-forthcoming Acta Arithmetica paper, and the theorem Erdős
-conjectured and Levine "just proved": an A sequence with $n\le a_1<\ldots$
-has $\sum1/a_i<\log2+\varepsilon_n$ with $\varepsilon_n\to0$ as
-$n\to\infty$, the sequence $n,n+1,\ldots,2n$ showing this best possible;
-the site's
-key [Er77c] and the source of its figures 100, 4 and 2),
+where the erdosproblems.com statement takes the larger of the sum set and the
+product set and asks for $n^{1+c-\varepsilon}$ at $n^{1+c}$ edges; the
+erdosproblems.com key [Er77c]),
+[[../wiki/problems/additive_combinatorics/E0876/_index|#876]] (p. 52, PDF p. 10,
+page image, the opening of Section 4, "Some unconventional extremal problems":
+"An infinite sequence $1\le a_1<\ldots$ of integers is called an A sequence if
+no $a_i$ is the distinct sum of other $a$'s"; Erdős proved $\sum1/a_i<100$ for
+every A sequence, Sullivan improved this substantially to $\sum1/a_i<4$, the
+paper asks for $\max\sum1/a_i$ over all A sequences, and Sullivan conjectures
+that the maximum exceeds 2 only slightly; then problem (I) (described above for
+#12), the suggestion that problem (I) for A sequences may yield to the
+inequalities in Levine and Sullivan's forthcoming Acta Arithmetica paper, and
+the theorem Erdős conjectured and Levine "just proved": an A sequence with
+$n\le a_1<\ldots$ has $\sum1/a_i<\log2+\varepsilon_n$ with $\varepsilon_n\to0$
+as $n\to\infty$, the sequence $n,n+1,\ldots,2n$ showing this best possible; the
+erdosproblems.com key [Er77c] and the source of its figures 100, 4 and 2),
 [[../wiki/problems/ramsey_theory/E0948/_index|#948]] (p. 57: the f(n) question, Galvin's
-splitting and the k-or-aleph_0-classes question that is the site's
-statement; a site source key),
+splitting and the k-or-aleph_0-classes question that is the erdosproblems.com
+statement; an erdosproblems.com source key),
 [[../wiki/problems/ramsey_theory/E0949/_index|#949]] (p. 57: the real-number question on
 a set S with x + y = z unsolvable and a set of power c in its complement,
 with the closing remark that one could assume all x + y distinct),
@@ -263,7 +262,7 @@ earlier consideration of (1); then Beurling's "very nice and unpublished
 conjecture", continued
 on p. 69: "Assume that the number of numbers of the form prod
 a_i^{alpha_i} not exceeding x is x + o(log x). Then the a's are the
-primes."; the site's key
+primes."; the erdosproblems.com key
 [Er77c, p. 68]),
 [[../wiki/problems/number_theory/E0952/_index|#952]] (p. 69, PDF p. 27, page image: a
 "beautiful problem" once attributed to Erdős, whether there is an infinite
@@ -272,14 +271,14 @@ not remember who had told it to him, and E. Straus cleared this up: Motzkin
 told it to Erdős at the Pasadena number theory meeting in November 1963,
 and Basil Gordon and Motzkin appear to have raised it; Erdős liked it,
 told it to many people with the attribution to Motzkin, and the attribution
-was later forgotten, so "the problem is returned to its rightful owners"; a
-site source key),
+was later forgotten, so "the problem is returned to its rightful owners"; an
+erdosproblems.com source key),
 [[../wiki/problems/ramsey_theory/E1198/_index|#1198]] (p. 58: the multilinear-expressions
-question in its 1977 form; the site's key is the 1980 survey),
+question in its 1977 form; the erdosproblems.com key is the 1980 survey),
 [[../wiki/problems/ramsey_theory/E1199/_index|#1199]] (p. 58: Owings's question, Hindman's
 announced two-class proof, which its author had just told Erdős "may" have
 a gap, and Hindman's three-class decomposition with a class of density
-zero; the site's key is the 1980 survey)
+zero; the erdosproblems.com key is the 1980 survey)
 
 **Results.**
 

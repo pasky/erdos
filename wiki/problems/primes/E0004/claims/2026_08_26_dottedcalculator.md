@@ -49,9 +49,9 @@ These are the covering theorem (1.2) and the prime-gap corollary (1.3) of the
 manuscript *A Tilted Residue-Class Construction for Long Prime-Free Intervals*,
 dated 25 August 2026, whose author line names the AI system GPT 5.6 Sol. The
 forum user DottedCalculator uploaded it to a public GitHub repository on 26
-August 2026 and filed it the same day on the site's proof-claims tab, which
-records the system as GPT 5.6 Pro; the submitter writes in the thread that the
-system was asked to make the argument self-contained. The claimant of this
+August 2026 and filed it the same day on the erdosproblems.com proof-claims tab,
+which records the system as GPT 5.6 Pro; the submitter writes in the thread that
+the system was asked to make the argument self-contained. The claimant of this
 AI-assisted result is its human submitter, so the page is named for
 DottedCalculator. The gap bound exceeds the question of
 [[problems/primes/E0004/_index|Problem 4]]: its ratio to
@@ -90,9 +90,9 @@ used:
 > intact. $o\left(\frac x{\log x}\right)$ remain, which can be removed by
 > slightly larger primes.
 
-**Acceptance.** The site's curator, Thomas Bloom, labeled the problem proved and
-records this bound in the problem's commentary as an improvement of the 2018
-result. The curator also wrote the problem's proof exposition on the
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, labeled the problem
+proved and records this bound in the problem's commentary as an improvement of
+the 2018 result. The curator also wrote the problem's proof exposition on the
 manuscript's two new ideas. That credit is the `reviewed` evidence.
 
 In the thread, Ben Green, a coauthor of the 2018 bound, writes that after

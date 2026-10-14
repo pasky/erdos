@@ -51,8 +51,8 @@ its title page dated July 14, 2026, 16 pages. The arXiv listing has six
 versions, v1 of 18 July 2023 to v6 of 12 July 2026; the arXiv comment on v6
 reads "accepted in Duke Math Journal", and no journal record was found
 (Crossref, 17 September 2026), so the paper is cited here as a preprint whose
-acceptance rests on the author's arXiv comment. The site's reference for
-problem 172 cites the paper as "Hindman's conjecture over the rationals"
+acceptance rests on the author's arXiv comment. The erdosproblems.com reference
+for problem 172 cites the paper as "Hindman's conjecture over the rationals"
 (2023); the listing's current title is the one above. Labels and pages here
 are v6's; the earlier versions were not compared. The paper's pp. 2-3 write
 "Theorem 1.1" and "Theorem 1.2", twice each, where Conjectures 1.1 and 1.2 are

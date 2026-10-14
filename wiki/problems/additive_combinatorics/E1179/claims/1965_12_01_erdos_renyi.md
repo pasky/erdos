@@ -63,9 +63,9 @@ every fixed $0<\epsilon<1$, superseded by the Erdős–Hall bound [ErHa76].
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: P. Erdős and A. Rényi, *Probabilistic methods in
-group theory*, J. Analyse Math. 14 (1965), no. 1, 127–138. The site's PROVED
-label credited the Erdős–Hall theorem, not this bound, so the page lists no
-`reviewed` evidence.
+group theory*, J. Analyse Math. 14 (1965), no. 1, 127–138. erdosproblems.com's
+PROVED label credited the Erdős–Hall theorem, not this bound, so the page lists
+no `reviewed` evidence.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 December 1965; the day is a placeholder.

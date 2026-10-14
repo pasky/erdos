@@ -95,8 +95,8 @@ remaining reciprocal mass stays at or above the threshold, gives more than
 $\log N-C\log N\log\log\log N/\log\log N$ pairwise disjoint subsets with
 reciprocal sum one, and disjointness caps their number by
 $\sum_{n\le N}1/n\le1+\log N$; the deduction is written on the Problem 296
-page. Neither deduction is in the source; the site attributes the second to
-Hunter and Sawhney.
+page. Neither deduction is in the source; erdosproblems.com attributes the
+second to Hunter and Sawhney.
 
 For the extremal reciprocal mass $\lambda(N)$ of a set with no unit
 subsum, [[unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_4|Theorem 4]] records Pomerance's lower bound
@@ -272,8 +272,8 @@ No Lean build was run in this compilation.
 
 The Google DeepMind problem files provide statement declarations with
 `sorry` and external proof links, rather than the complete solution bodies.
-The site's “Lean” status is recorded with that distinction on each problem
-page. Refreshed problem, discussion, and proof-claim snapshots for both
+erdosproblems.com's “Lean” status is recorded with that distinction on each
+problem page. Refreshed problem, discussion, and proof-claim snapshots for both
 problems were read on 2026-09-05; each has zero comments, proof expositions,
 and proof claims. No forum proof is needed for these status conclusions.
 
@@ -285,10 +285,10 @@ and proof claims. No forum proof is needed for these status conclusions.
 the best-possible remark),
 [[../wiki/problems/unit_fractions/E0296/_index|#296]] (Theorem 3 with the greedy
 deduction),
-[[../wiki/problems/unit_fractions/E0310/_index|#310]] (the site records that Liu and
-Sawhney observed that this paper's main result gives the qualitative
-answer; their remark on p. 3 of arXiv:2404.07113v1 says that "a rather
-direct application" of Proposition 1 with the paper's standard estimates
+[[../wiki/problems/unit_fractions/E0310/_index|#310]] (erdosproblems.com records
+that Liu and Sawhney observed that this paper's main result gives the
+qualitative answer; their remark on p. 3 of arXiv:2404.07113v1 says that "a
+rather direct application" of Proposition 1 with the paper's standard estimates
 gives a subset sum $s/t$ with $t=O_\alpha(1)$ for a set of density
 $\alpha$ in $[1,N]$; the deduction is not written out in either paper and
 is not written here, and the quantitative bound $t\le\exp(C/\alpha)$ is

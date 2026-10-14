@@ -103,19 +103,18 @@ adopted [Li25] as resolving the problem on 1 January 2026, but no peer-reviewed
 publication was located. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2512.24850), every other right reserved.
 
-**Original-source limit.** The problem site identifies [Er74d, p. 282],
-P. Erdős, *Unsolved Problems* (1974), pp. 278--297, MR360350. The site's
-bibliographic fragment has no PDF link, so the original page was not
-directly verified. Li's introduction (printed p. 1) instead attributes the
-question to the related 1975 Erdős--Lovász paper on 3-chromatic
-hypergraphs, its reference [1]; that paper does not contain the
-site-attributed 1974 problem and is not used as its source here.
-The discussion
+**Original-source limit.** erdosproblems.com identifies [Er74d, p. 282],
+P. Erdős, *Unsolved Problems* (1974), pp. 278--297, MR360350.
+erdosproblems.com's bibliographic fragment has no PDF link, so the original page
+was not directly verified. Li's introduction (printed p. 1) instead attributes
+the question to the related 1975 Erdős--Lovász paper on 3-chromatic hypergraphs,
+its reference [1]; that paper does not contain the erdosproblems.com-attributed
+1974 problem and is not used as its source here. The discussion
 [comment](https://www.erdosproblems.com/forum/thread/834#post-2006) by
 AlexisOlson (05:31, 4 December 2025; thread accessed 2026-09-05) also
-identifies [Er74d] with that 1975 title, in conflict with the site's [Er74d]
-bibliography fragment. It therefore provides contextual interpretation, not
-verification of p. 282.
+identifies [Er74d] with that 1975 title, in conflict with erdosproblems.com's
+[Er74d] bibliography fragment. It therefore provides contextual interpretation,
+not verification of p. 282.
 
 Source: <https://arxiv.org/abs/2512.24850>.
 

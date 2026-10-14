@@ -144,7 +144,7 @@ was checked. Nothing here is independently reviewed.
   [3]): "$R(C_4,K_{1,n})<n+\sqrt n-c$ holds infinitely often, where $c$ is an
   arbitrary constant." A filing observation: for every integer $n\ge2$,
   $\lfloor\sqrt{n-1}\rfloor+1=\lceil\sqrt n\rceil$, so the two lines are
-  the site's $n+\lceil\sqrt n\rceil$ and $n+\lceil\sqrt n\rceil+1$, and
+  erdosproblems.com's $n+\lceil\sqrt n\rceil$ and $n+\lceil\sqrt n\rceil+1$, and
   every value of Theorem 4 lies on the upper one.
 - § 2, Polarity graphs and their properties (pp. 656--658, text layer).
   § 2.1: for a prime power $q$ and $F_q=GF(q)$, the vertices of the
@@ -232,13 +232,13 @@ and $t\ne2\lceil\frac q4\rceil-1$", extending Parsons's 1976 family
 paper's own placement of every such value on the line
 $n+\lfloor\sqrt{n-1}\rfloor+2$ (p. 656), which is $n+\lceil\sqrt n\rceil+1$,
 and its two values new in 2017, $R(C_4,K_{1,24})=30$ and
-$R(C_4,K_{1,48})=56$. The site (page last edited 1 February 2026) names no
-family of the paper: it refers to it and to [ZCC17], with the papers of
+$R(C_4,K_{1,48})=56$. erdosproblems.com (page last edited 1 February 2026) names
+no family of the paper: it refers to it and to [ZCC17], with the papers of
 Parsons and of Wu et al., for a precise description of the extensions of
 Parsons's values, which it places at $n=q^2\pm t$ with $q$ a prime power and
 $0\le t\le q$; Theorem 4 fits that description, since
-$2\lceil q/4\rceil\le q$. The speculation the site reports from [ZCC17] is
-also this paper's
+$2\lceil q/4\rceil\le q$. The speculation erdosproblems.com reports from [ZCC17]
+is also this paper's
 [[ramsey_theory/zhang_2017_polarity_graphs_ramsey_numbers_c_4_versus_stars/question_1|Question 1]]
 (p. 656): "Is it true that
 $R(C_4,K_{1,n})=n+\lfloor\sqrt{n-1}\rfloor+1$ or

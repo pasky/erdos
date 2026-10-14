@@ -33,18 +33,18 @@ $$
 Prove that, if $A_1=(1)$ and $A_{i+1}=T(A_i)$, then there must be some $A_k$
 with repeated elements.
 
-**Status.** PROVED (LEAN). The site records the statement as true. Klarner first
-showed it in 1982, Kolpakov and Talambutsa generalized it in 2022, and an
-elementary argument posted in the site's thread on 1 December 2025 proved it
-independently. The three are the claim pages
+**Status.** PROVED (LEAN). erdosproblems.com records the statement as true.
+Klarner first showed it in 1982, Kolpakov and Talambutsa generalized it in 2022,
+and an elementary argument posted in the erdosproblems.com thread on 1 December
+2025 proved it independently. The three are the claim pages
 [[problems/integer_sequences/E0481/claims/1982_01_01_klarner|Klarner]],
 [[problems/integer_sequences/E0481/claims/2021_05_19_kolpakov_talambutsa|Kolpakov and Talambutsa]]
 and [[problems/integer_sequences/E0481/claims/2025_12_01_barreto|Barreto]]. The
-first two are accepted on refereed publication and the acceptance of the site's
-curator, Thomas Bloom. The third is accepted on that acceptance and on Terence
-Tao's endorsement in the thread. Klarner's paper is not held. Kolpakov and
-Talambutsa report that it omits the second part of its proof, which their
-Theorem 3 supplies in print.
+first two are accepted on refereed publication and the acceptance of the
+erdosproblems.com curator, Thomas Bloom. The third is accepted on that
+acceptance and on Terence Tao's endorsement in the thread. Klarner's paper is
+not held. Kolpakov and Talambutsa report that it omits the second part of its
+proof, which their Theorem 3 supplies in print.
 
 The (Lean) suffix is a catalog label. The community database lists the Lean
 status as of its last update on 1 December 2025, the day of the thread proof.
@@ -55,12 +55,12 @@ statement is in formal-conjectures. Neither proof is recorded in
 formal-conjectures or the community database, and nothing was built or checked
 here (see Formalization).
 
-The site notes that the original formulation also required the least element of
-$A_k$ to be large. As the site credits Ryan Alweiss with pointing out, this
-condition holds automatically, since the least element grows by at least one at
-each stage. Erdős and Graham pose the problem on printed p. 96 of their 1980
-monograph and call its difficulty surprising. The thread also relates the
-problem to a 2002 shortlist problem. The thread also generalizes the
+erdosproblems.com notes that the original formulation also required the least
+element of $A_k$ to be large. As erdosproblems.com credits Ryan Alweiss with
+pointing out, this condition holds automatically, since the least element grows
+by at least one at each stage. Erdős and Graham pose the problem on printed p.
+96 of their 1980 monograph and call its difficulty surprising. The thread also
+relates the problem to a 2002 shortlist problem. The thread also generalizes the
 harmonic-sum argument to non-affine maps whose growth ratios
 $c_i=\limsup_n f_i(n)/n$ satisfy $\sum_i 1/c_i>1$. Those are remarks, not claims
 on the question.
@@ -68,9 +68,9 @@ on the question.
 **Source.** [erdosproblems.com/481](https://www.erdosproblems.com/481), accessed
 2026-09-04, and the page (PROVED (LEAN), last edited 3 December 2025, source
 keys [ErGr80, p. 96], [Kl82], [KoTa22]), its six-comment discussion thread (1
-to 6 December 2025), its empty proof-claim tab (2026-09-05) and the site's
-history view (2026-10-07). Cite as: T. F. Bloom, Erdős Problem #481,
-https://www.erdosproblems.com/481.
+to 6 December 2025), its empty proof-claim tab (2026-09-05) and the
+erdosproblems.com history view (2026-10-07). Cite as: T. F. Bloom, Erdős Problem
+#481, https://www.erdosproblems.com/481.
 
 **References.**
 
@@ -88,20 +88,21 @@ https://www.erdosproblems.com/481.
   (1980); the problem on printed p. 96. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
-**Formalization.** The site's (Lean) suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's (Lean) suffix is a catalog label. The
+file
 [`ErdosProblems/481.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/481.lean)
 of formal-conjectures, pinned to the file's last change (2026-09-18;
 unchanged on main on 2026-10-06), declares `erdos_481` for
 `a b : Fin r → ℕ` with `0 < a i` for all `i` and `1 < ∑ i, (1 : ℝ) / a i`,
 concluding `∃ k, ¬ ((T a b)^[k] [1]).Nodup`
 for the list map `T`, under `category research solved`, with proof `sorry` and
-no `formal_proof` attribute; its docstring repeats the site's commentary. The
-community database (pinned copy of 2026-09-18) lists the problem as proved
-with the Lean marker and `formal_status` Lean, as of its last update on 1
-December 2025, the statement as formalized as of its last update on 4 August
-2026, and no formal-proof URL; the site's indicator records a formalized
-statement. Two Lean proofs are on record, neither in formal-conjectures or the
-community database: the web-editor formalization
+no `formal_proof` attribute; its docstring repeats the erdosproblems.com
+commentary. The community database (pinned copy of 2026-09-18) lists the problem
+as proved with the Lean marker and `formal_status` Lean, as of its last update
+on 1 December 2025, the statement as formalized as of its last update on 4
+August 2026, and no formal-proof URL; the erdosproblems.com indicator records a
+formalized statement. Two Lean proofs are on record, neither in
+formal-conjectures or the community database: the web-editor formalization
 linked from the thread comment of 1 December 2025, carried in the link itself
 and not retained here, and the file
 [`ErdosProblems/Erdos481.lean`](https://github.com/plby/lean-proofs/blob/edf311c2916704f817e2af8af186315835c5a9c4/src/latest/ErdosProblems/Erdos481.lean)
@@ -115,8 +116,8 @@ for its own list map `A` and reciprocal sum `C`, with no `sorry` and a
 closing comment recording the axioms `propext`, `Classical.choice` and
 `Quot.sound`. Neither proof was built or audited here, and no kernel credit
 is claimed. Terence Tao's thread comment of 1 December 2025 reports that,
-asked for a literature review, ChatGPT DeepResearch cited the site's page
-and declared the problem open, while Gemini DeepResearch reproduced
+asked for a literature review, ChatGPT DeepResearch cited the erdosproblems.com
+page and declared the problem open, while Gemini DeepResearch reproduced
 essentially the same argument as Barreto's without recognizing that it had
 established the result; that is a thread remark, and no such proof is on
 record as a claim.

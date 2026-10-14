@@ -62,6 +62,6 @@ None outside the paper.
 
 - [[../wiki/problems/integer_sequences/E0440/_index|Problem 440]]: context only. The
   problem concerns pairs ($i=2$), where Theorems I and II hold; Theorem III
-  shows that the site's "more general case of
+  shows that erdosproblems.com's "more general case of
   $\mathrm{lcm}(a_i,a_{i+1},\ldots,a_{i+k})$" behaves differently for blocks
   of more than four terms.

@@ -61,16 +61,16 @@ The Erdős--Turán lower bound for maximal Sidon sets in an interval, (2.2) on
 ## Bears on
 
 - [[../wiki/problems/additive_bases/E0864/_index|Problem 864]]: not one of the
-  site's sources (the site cites Erdős and Freud 1991 and Erdős 1992 for the
-  same construction). The set has only the one sum $n$ represented more
-  than once, so it satisfies the problem's hypothesis and shows that the
-  largest such $A\subseteq\{1,\ldots,n\}$ has
+  erdosproblems.com sources (erdosproblems.com cites Erdős and Freud 1991 and
+  Erdős 1992 for the same construction). The set has only the one sum $n$
+  represented more than once, so it satisfies the problem's hypothesis and shows
+  that the largest such $A\subseteq\{1,\ldots,n\}$ has
   $\lvert A\rvert\ge(1+o(1))\tfrac{2}{\sqrt3}n^{1/2}$, the constant in the
   problem's question. The paper gives no upper bound for such sets and does
   not ask the problem's question.
-- [[../wiki/problems/additive_bases/E0840/_index|Problem 840]]: the site's
-  [Er81h] source. The set has $\binom k2-O(k)$ distinct sums $a_i+a_j$
-  with $i<j$, so it is quasi-Sidon in the problem's sense and gives
+- [[../wiki/problems/additive_bases/E0840/_index|Problem 840]]:
+  erdosproblems.com's [Er81h] source. The set has $\binom k2-O(k)$ distinct sums
+  $a_i+a_j$ with $i<j$, so it is quasi-Sidon in the problem's sense and gives
   $f(n)\ge(1+o(1))\tfrac{2}{\sqrt3}n^{1/2}$; the paper's question that
   follows it is on
   [[additive_bases/erdos_1981_problems_results_additive_multiplicative_number_theory/question_p175|question_p175]].

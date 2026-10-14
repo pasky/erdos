@@ -47,8 +47,8 @@ $\#\{p\le X:p\text{ a uniqueness prime}\}\gg X/(\log X)^{55}$, through
 explicit totient identities for a family of $54$ linear forms, a
 multidimensional sieve with one rough composite auxiliary value, and a
 count over disjoint fibers of $n\mapsto m_n$. The claim was registered on
-the site's proof-claims page on 2026-09-23 by David Turturean, who names
-GPT-6-Astra Pro as the system used, with earlier work by ChatGPT-5.5-Pro
+the erdosproblems.com proof-claims page on 2026-09-23 by David Turturean, who
+names GPT-6-Astra Pro as the system used, with earlier work by ChatGPT-5.5-Pro
 and Claude; the write-up is the Overleaf document linked above.
 
 An earlier manuscript of the same author, posted to the problem's thread on
@@ -59,7 +59,7 @@ An earlier manuscript of the same author, posted to the problem's thread on
 proves the positive-density theorem and the first two answers (its Theorem
 1.1 and Corollary 1.2) and answers the third question only under Dickson's
 conjecture for the triple $t,2t+1,8t+1$ (its Theorem 1.4); the claimant's
-note on the site says that their earlier comment settled the first two
+note on erdosproblems.com says that their earlier comment settled the first two
 questions and that the new manuscript removes the prime-tuple hypothesis
 from the third. The card's digest is author-recorded and is not an
 acceptance.
@@ -105,6 +105,6 @@ audit of the repository was made in this corpus.
 [[problems/arithmetic_functions/E0456/claims/2026_05_04_turturean|the earlier manuscript]].
 
 **Standing.** A manuscript statement, pending, with no formalization of its own:
-the site's label was OPEN (page last edited 7 October 2025), the proof-claims
-tab carries this one full claim with no comments, no referee report or arXiv
-record exists, and no outside reviewer has accepted the argument.
+the erdosproblems.com label was OPEN (page last edited 7 October 2025), the
+proof-claims tab carries this one full claim with no comments, no referee report
+or arXiv record exists, and no outside reviewer has accepted the argument.

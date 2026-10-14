@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-04T05:56:06Z
-updated: 2026-10-13T14:08:51Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # wiki
@@ -19,9 +19,10 @@ area, status, tier, lean, link). Regenerated only by `erdos ledger`; hand edits
 are overwritten.
 
 [[problems/_index|problems/]]: One folder per Erdős problem, keyed by the letter
-E and its four-digit number in the catalog at erdosproblems.com, presented at
-erdosproblems.ai, holding the problem page with the statement, standing, known
-results and sources, and the claim pages recording the results claimed about it.
+E and its four-digit number in Bloom's catalog at erdosproblems.com, presented
+at erdosproblems.ai, holding the problem page with the statement, standing,
+known results and sources, and the claim pages recording the results claimed
+about it.
 
 [[research/_index|research/]]: Research notes — reconstructions of published
 proofs, source notes, and reading guides in whatever shape the work needs.
@@ -37,11 +38,11 @@ mathematical dependencies, and warranted verification records.
 
 The corpus of research on the Erdős problems. [[problems/_index|problems/]]
 mirrors Bloom's catalog at erdosproblems.com, presented at erdosproblems.ai, one
-folder per problem, keyed by the letter E and the site's four-digit problem
-number, each holding the problem page and the claim pages recording the results
-claimed about it; [[../library/_index|library/]] holds one folder per source
-with its digest and extracted results, and its file when an open license allows;
-[[research/_index|research/]] holds free-form working notes;
+folder per problem, keyed by the letter E and erdosproblems.com's four-digit
+problem number, each holding the problem page and the claim pages recording the
+results claimed about it; [[../library/_index|library/]] holds one folder per
+source with its digest and extracted results, and its file when an open license
+allows; [[research/_index|research/]] holds free-form working notes;
 [[theory/_index|theory/]] holds precise original claims and their evidence.
 Catalog problem identities and source-owned result labels remain separate from
 native claim identities. Repository conventions live in `AGENTS.md` and the

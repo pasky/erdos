@@ -63,14 +63,15 @@ PDF pp. 1--5; the head of p. 124 reads "Nieuw Archief voor Wiskunde (3) III,
 were read on the page images. Printed p. 124 (PDF p. 1)
 defines $f(k)$, states Theorem 1 as "There is a constant $c_1>1$ so that
 $f(k)\le c_1\frac{k}{\log k}$ (1)" with the constant unspecified (Erdős's
-1976 Debrecen survey restates it as $f(k)<3k/\log k$; the site's Problem
-961 page attributes that form to this paper), and derives the lower bound
-(3), $f(k)>c_3\log k\cdot\log\log k\cdot\log\log\log\log k/(\log\log\log k)^2$,
-from Rankin's gap (2) between consecutive primes of $(k,2k)$; an earlier
-digest sentence had printed (3) with an extra factor $k/\log k$, which the
-page image does not support. Printed p. 125 (PDF p. 2) carries the Cramér
-guess (4), the finite-determination remark (Pólya and Störmer), the small
-values and "$f(13)\ge6$" (not "$>6$"). The statements are on
+1976 Debrecen survey restates it as $f(k)<3k/\log k$; erdosproblems.com's
+Problem 961 page attributes that form to this paper), and derives the lower
+bound (3),
+$f(k)>c_3\log k\cdot\log\log k\cdot\log\log\log\log k/(\log\log\log k)^2$, from
+Rankin's gap (2) between consecutive primes of $(k,2k)$; an earlier digest
+sentence had printed (3) with an extra factor $k/\log k$, which the page image
+does not support. Printed p. 125 (PDF p. 2) carries the Cramér guess (4), the
+finite-determination remark (Pólya and Störmer), the small values and
+"$f(13)\ge6$" (not "$>6$"). The statements are on
 [[factorials_binomials/erdos_1955_consecutive_integers/theorem_1|theorem_1]]
 and
 [[factorials_binomials/erdos_1955_consecutive_integers/inequality_3|inequality_3]].

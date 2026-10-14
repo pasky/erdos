@@ -24,7 +24,7 @@ and let $D(N)=\max_{0<a<N}D(a,N)$. **Theorem 1** (p. 158): "If $P$ is a
 prime then $D(P)\ge P\{\!\{\log_2P\}\!\}$, where $\{\!\{x\}\!\}=-[-x]$ is
 the least integer not less than $x$."
 
-The inequality is not strict as printed. The site's commentary for
+The inequality is not strict as printed. The erdosproblems.com commentary for
 Problem 305 quotes it as $D(p)\gg p\log p$.
 
 **Source.** M. N. Bleicher and P. Erdős, *Denominators of Egyptian

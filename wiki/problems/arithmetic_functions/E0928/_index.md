@@ -33,14 +33,14 @@ $\pi(X^{\alpha})+\pi((X+1)^{\beta})$ integers, so a density statement for
 either set holds for the other; the claim page below states the bridge, which
 is elementary and not in Lean.
 
-**Status.** Proved here. The site labeled the problem OPEN (page last edited 3
-April 2026). The OpenAI release of September 2026 claims that the density exists
-and equals $\rho(1/\alpha)\rho(1/\beta)$, where $\rho$ is Dickman's function.
-This is the independence Erdős asked for. The release proves the theorem in
-Lean. This corpus built that Lean with only the three standard axioms, and its
-fingerprint is identical to the release's comparator challenge. The statement
-audit found it exact, and the elementary bridge to the Statement's strict
-inequalities is stated on the claim page. So the claim is accepted on
+**Status.** Proved here. Bloom's catalog labeled the problem OPEN (page last
+edited 3 April 2026). The OpenAI release of September 2026 claims that the
+density exists and equals $\rho(1/\alpha)\rho(1/\beta)$, where $\rho$ is
+Dickman's function. This is the independence Erdős asked for. The release proves
+the theorem in Lean. This corpus built that Lean with only the three standard
+axioms, and its fingerprint is identical to the release's comparator challenge.
+The statement audit found it exact, and the elementary bridge to the Statement's
+strict inequalities is stated on the claim page. So the claim is accepted on
 [[problems/arithmetic_functions/E0928/claims/2026_09_24_openai|OpenAI 2026]],
 and the problem stands solved. No outside review is known.
 
@@ -51,9 +51,9 @@ settles no standing. Teräväinen [Te18] proved the product law in logarithmic
 density. Tao and Teräväinen (Algebra Number Theory 13 (2019), Remark 3.3) proved
 it for ordinary averages outside an exceptional set of scales of logarithmic
 density zero. Neither result settles an instance of the natural-density
-question, so neither has a claim page. The site's commentary also records
-Erdős's further question whether infinitely many such $n$ exist. Meza observed
-that this follows from Schinzel's theorem [Sc67b] that
+question, so neither has a claim page. The erdosproblems.com commentary also
+records Erdős's further question whether infinitely many such $n$ exist. Meza
+observed that this follows from Schinzel's theorem [Sc67b] that
 $P(n(n+1))\le n^{O(1/\log\log n)}$ for infinitely many $n$. That answers a side
 question and settles no instance of the density question, so it has no claim
 page.

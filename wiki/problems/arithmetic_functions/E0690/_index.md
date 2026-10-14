@@ -27,19 +27,19 @@ $n$ then $p_k=p$).
 For fixed $k\geq 1$ is $d_k(p)$ unimodular in $p$? That is, it first increases
 in $p$ until its maximum then decreases.
 
-**Formulation.** The wording admits two readings, both raised in the site's
-thread: (i) whether $d_k(p)$ is unimodal for every fixed $k$, a single
-yes-or-no question; (ii) for each fixed $k$, whether $d_k(p)$ is unimodal.
-Erdős's source reads it as (i): he doubts that $d_v(p)$ is unimodal but has
-not disproved it ([Er79e], p. 75). The site's curator adopted (i) in the
-thread on 2026-05-07. The page's standing targets (i), which Cambie's theorem
-answers no. Under (ii), Cambie's theorem decides $k\le20$; every $k\ge21$
-rests on the pending
+**Formulation.** The wording admits two readings, both raised in the
+erdosproblems.com thread: (i) whether $d_k(p)$ is unimodal for every fixed $k$,
+a single yes-or-no question; (ii) for each fixed $k$, whether $d_k(p)$ is
+unimodal. Erdős's source reads it as (i): he doubts that $d_v(p)$ is unimodal
+but has not disproved it ([Er79e], p. 75). The erdosproblems.com curator adopted
+(i) in the thread on 2026-05-07. The page's standing targets (i), which Cambie's
+theorem answers no. Under (ii), Cambie's theorem decides $k\le20$; every
+$k\ge21$ rests on the pending
 [[problems/arithmetic_functions/E0690/claims/2026_05_08_wang_crapis|Wang–Crapis claim]],
 which covers every $k\ge4$.
 
-**Status.** Solved. The site's label was SOLVED, decided in the thread on
-2026-05-07 for
+**Status.** Solved. The erdosproblems.com label was SOLVED, decided in the
+thread on 2026-05-07 for
 [[problems/arithmetic_functions/E0690/claims/2025_01_17_cambie|Cambie's refereed theorem]].
 By that theorem the sequence is unimodal for $k=1,2,3$ and not unimodal for
 $4\le k\le20$, so it is not unimodal for every fixed $k$. The classification for
@@ -80,11 +80,11 @@ follow-up for every $k\geq4$ has a discussion endorsement and a source-local
 compilation whose symbolic route passed an independent review on 2026-09-07;
 its forty-two finite certificates are pending, so that compiled conclusion
 stays conditional and does not change this status. The two results are the
-problem's claim pages: Cambie's, accepted on the refereed publication and the
-site's decision of 2026-05-07, and Wang–Crapis's, claimed. Status search: the
-site's page and the community database's entry for the problem, which recorded
-the status solved on 2026-10-07; the thread was accessed 2026-09-05; no
-literature database searched.
+problem's claim pages: Cambie's, accepted on the refereed publication and
+erdosproblems.com's decision of 2026-05-07, and Wang–Crapis's, claimed. Status
+search: the erdosproblems.com page and the community database's entry for the
+problem, which recorded the status solved on 2026-10-07; the thread was accessed
+2026-09-05; no literature database searched.
 
 ## Progress
 
@@ -108,8 +108,8 @@ d_4(13)>d_4(17)<d_4(19),\qquad
 d_5(23)>d_5(29)<d_5(31).
 $$
 
-The site's historical summary, attributed to [Er79e], reports a typical scale
-$e^{e^k}$, a maximizing-prime scale $e^{(1+o(1))k}$, and analogous
+erdosproblems.com's historical summary, attributed to [Er79e], reports a typical
+scale $e^{e^k}$, a maximizing-prime scale $e^{(1+o(1))k}$, and analogous
 non-unimodality for the kth-divisor sequence. Those original proofs are not
 compiled; the covered proof is [Ca25] Theorem 5 above.
 
@@ -123,7 +123,7 @@ by Nat Sothanaphan (12 May 2026) says that a standard check found no issues
 and that the proof could be regarded as correct, while noting a caveat about
 what the verifier presentation overclaims. That endorsement is follow-up
 progress recorded in the thread, not an independent review of this corpus's
-compilation; the site listed no proof claim for the problem.
+compilation; erdosproblems.com listed no proof claim for the problem.
 The all-$k$ claim is kept separate from Cambie's established finite result.
 Its source folder is
 [[../library/arithmetic_functions/wang_crapis_2026_complete_answer_erdos_problem_690/_index|Wang–Crapis 2026]]:

@@ -27,10 +27,11 @@ updated: 2026-10-08T14:17:37Z
 then some vertex has at least $\lfloor \frac{n}{2}\rfloor$ different distances
 to other vertices.
 
-**Status.** Falsifiable. The site labeled the problem FALSIFIABLE, since a
-counterexample is a finite check. Its page was last edited on 19 October 2025,
-and the label was unchanged on 2026-10-06. The site credits three refereed lower
-bounds that settle small cases, and each has an accepted partial claim page:
+**Status.** Falsifiable. Bloom's catalog labeled the problem FALSIFIABLE, since
+a counterexample is a finite check. Its page was last edited on 19 October 2025,
+and the label was unchanged on 2026-10-06. erdosproblems.com credits three
+refereed lower bounds that settle small cases, and each has an accepted partial
+claim page:
 [[problems/distance_problems/E0982/claims/1952_02_01_moser|Moser 1952]],
 [[problems/distance_problems/E0982/claims/1994_01_01_erdos_fishburn|Erdős and Fishburn 1994]]
 and
@@ -71,10 +72,10 @@ which every vertex sees fewer than $\lfloor n/2\rfloor$ distinct distances would
 refute it by a finite computation, and none is known. The regular polygon shows
 that $\lfloor n/2\rfloor$ would be sharp.
 
-**Forum claim without a page.** The site's proof-claims tab carries a partial
-claim by Scott Duke Kominers, posted under the forum account skominers on
-2026-07-25
-([tab entry](https://www.erdosproblems.com/forum/thread/982/proof-claims#proof-claim-140)),
+**Forum claim without a page.** The erdosproblems.com proof-claims tab carries a
+partial claim by Scott Duke Kominers, posted under the forum account skominers
+on 2026-07-25 ([tab
+entry](https://www.erdosproblems.com/forum/thread/982/proof-claims#proof-claim-140)),
 with a
 [write-up](https://scottkom.com/assets/articles/Kominers_Distinct_Distances_from_a_Vertex.pdf)
 and no formalization; the entry names GPT 5.6 Sol and Claude Fable 5 as the
@@ -93,10 +94,10 @@ iteration over good edges and witnesses. The claim has no page because it is a
 better lower bound on a falsifiable statement that settles no case of it: it
 proves the $\lfloor n/2\rfloor$ bound for no $n$ and for no class of
 polygons, and its author calls it a long way from the conjecture. No review of
-the write-up is recorded, and the site's page, last edited before the claim,
-does not mention it.
+the write-up is recorded, and the erdosproblems.com page, last edited before the
+claim, does not mention it.
 
-**Known results.** The site records the lower bounds
+**Known results.** erdosproblems.com records the lower bounds
 $f(n)\ge\lceil n/3\rceil$ of Moser [Mo52],
 $f(n)\ge\lfloor n/3+1\rfloor$ of Erdős and Fishburn [ErFi94],
 $f(n)\ge\lceil(13n-6)/36\rceil$ of Dumitrescu [Du06b] and
@@ -104,8 +105,8 @@ $f(n)\ge(13/36+1/22701)n-O(1)$ of Nivasch, Pach, Pinchasi and Zerbib
 [NPPZ13], and the counterexamples of Bárány and Roldán-Pensado [BaRo13] to
 Erdős's stronger conjecture about convex curves. The first three bounds
 have the claim pages named under Status; the last two results follow the
-site's remarks, and the bound of [NPPZ13], with its unspecified $O(1)$,
-settles no case and has no claim page.
+erdosproblems.com remarks, and the bound of [NPPZ13], with its unspecified
+$O(1)$, settles no case and has no claim page.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

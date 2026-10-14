@@ -30,23 +30,23 @@ $$
 1=\sum_{i=1}^k \sum_{n\in I_i}\frac{1}{n}?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-17 (page last edited
-22 September 2025). An interval is a set of consecutive
-positive integers $\{a,a+1,\ldots,b\}$, and $|I_i|\ge2$ means $b>a$; two
-intervals are adjacent when their union is again an interval, so "distinct,
-not overlapping or adjacent" asks for $k$ blocks separated by at least one
-integer. The question is for all sufficiently large $k$. The monograph's
-wording (below) asks only for $k$ blocks of length at least two, with no
-separation; the site's commentary explains the added condition, and the two
-readings have different status: the unrestricted one is answered in the
-site's discussion, the restricted one is the problem.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-17 (page last
+edited 22 September 2025). An interval is a set of consecutive positive integers
+$\{a,a+1,\ldots,b\}$, and $|I_i|\ge2$ means $b>a$; two intervals are adjacent
+when their union is again an interval, so "distinct, not overlapping or
+adjacent" asks for $k$ blocks separated by at least one integer. The question is
+for all sufficiently large $k$. The monograph's wording (below) asks only for
+$k$ blocks of length at least two, with no separation; the erdosproblems.com
+commentary explains the added condition, and the two readings have different
+status: the unrestricted one is answered in the erdosproblems.com discussion,
+the restricted one is the problem.
 
-**Status.** Labeled open on the site: the label was OPEN, and the page,
-accessed 2026-10-07, was last edited 22 September 2025. The site marked the
-problem as not resolvable by a finite computation. The standing derived from the
-claim pages is claimed, claim proved, because four full proof claims are
-pending. Three are on the site's proof-claim tab, dated 4 September, 7 September
-and 26 September 2026
+**Status.** Labeled open on erdosproblems.com: the label was OPEN, and the page,
+accessed 2026-10-07, was last edited 22 September 2025. Bloom's catalog marked
+the problem as not resolvable by a finite computation. The standing derived from
+the claim pages is claimed, claim proved, because four full proof claims are
+pending. Three are on the erdosproblems.com proof-claim tab, dated 4 September,
+7 September and 26 September 2026
 ([[problems/unit_fractions/E0289/claims/2026_09_04_land|Land]],
 [[problems/unit_fractions/E0289/claims/2026_09_07_tang|Tang]],
 [[problems/unit_fractions/E0289/claims/2026_09_26_budden|Budden]]). Each
@@ -54,12 +54,13 @@ declares AI assistance, and each asserts a form stronger than the restricted
 statement. The fourth is a Lean 4 proof of the statement by the LEAP prover
 agent, posted 1 October 2026 and linked by formal-conjectures since 7 October
 2026 ([[problems/unit_fractions/E0289/claims/2026_10_01_leap|LEAP]]). None is
-accepted by the site, a referee or a named mathematician. No build or review of
-any of them is recorded. No proof, disproof or accepted resolution of the
-restricted statement was found in the search dated 2026-09-17 UTC whose scope
-the Current assessment records. The unrestricted variant, in which intervals may
-repeat or overlap, is settled affirmatively by an argument in the site's
-discussion (Kovač, September 2025). The site's commentary adopts that argument.
+accepted by erdosproblems.com, a referee or a named mathematician. No build or
+review of any of them is recorded. No proof, disproof or accepted resolution of
+the restricted statement was found in the search dated 2026-09-17 UTC whose
+scope the Current assessment records. The unrestricted variant, in which
+intervals may repeat or overlap, is settled affirmatively by an argument in the
+erdosproblems.com discussion (Kovač, September 2025). The erdosproblems.com
+commentary adopts that argument.
 
 **Source.** [erdosproblems.com/289](https://www.erdosproblems.com/289),
 accessed 2026-09-17: the problem page (OPEN, marked as not resolvable by a
@@ -67,22 +68,22 @@ finite computation; source key [ErGr80]; last edited 22 September 2025), its
 four-comment discussion thread (9 August 2025 to 18 December 2025) and its
 proof-claim tab with two full-proof claims (4 and 7 September 2026); the tab
 later listed a third claim (26 September 2026) and comments under the claims.
-The site thanks Vjekoslav Kovač. Cite as: T. F. Bloom, Erdős Problem #289,
-https://www.erdosproblems.com/289, accessed 2026-09-17.
+erdosproblems.com thanks Vjekoslav Kovač. Cite as: T. F. Bloom, Erdős Problem
+#289, https://www.erdosproblems.com/289, accessed 2026-09-17.
 
 **References.**
 
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results
   in combinatorial number theory. Monographies de L'Enseignement
-  Mathématique 28, Université de Genève (1980), p. 34 (the site gives no
-  page number). Library home:
+  Mathématique 28, Université de Genève (1980), p. 34 (erdosproblems.com gives
+  no page number). Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Hah78] Hahn, L.-S., Problem E2689. Amer. Math. Monthly 85 (1978),
   p. 47 (the monograph's [Hah (78)]). Not held in the library; the
   problem's text is reprinted at the head of the solution [Mon79], p. 224.
 - [Mon79] Montgomery, P., Solution to Problem E2689. Amer. Math. Monthly
   86 (1979), no. 3, 224 (the monograph's [Mon (79)]; DOI 10.2307/2321534;
-  the site credits the solution to Hickerson and Montgomery). The
+  erdosproblems.com credits the solution to Hickerson and Montgomery). The
   reprinted problem, the two sets and the note on Hickerson are on
   p. 224. Library home:
   [[../library/unit_fractions/montgomery_1979_solution_problem_e2689_egyptian_fractions/_index|montgomery_1979_solution_problem_e2689_egyptian_fractions]].
@@ -106,16 +107,16 @@ October 2026) changed the file's category to `research solved` with
 `answer(True)` and added a `formal_proof` attribute pointing to a complete
 Lean 4 proof of the same statement in a fork of the repository, produced by
 the LEAP prover agent; its docstring says that the proof follows a path
-independent of the solutions on the site's proof-claim tab. That proof is the
-pending claim
+independent of the solutions on the erdosproblems.com proof-claim tab. That
+proof is the pending claim
 [[problems/unit_fractions/E0289/claims/2026_10_01_leap|LEAP 2026]]. No build
 or review of either file is recorded.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-17).** The statement
-above; OPEN; last edited 22 September 2025. The commentary says that the
-monograph posed the question without requiring the intervals to be distinct,
+**The question (erdosproblems.com formulation, accessed 2026-09-17).** The
+statement above; OPEN; last edited 22 September 2025. The commentary says that
+the monograph posed the question without requiring the intervals to be distinct,
 non-overlapping and non-adjacent, that Kovač's comment gives a short argument
 for that unrestricted form, and that the restriction was most likely intended
 and omitted by oversight; as an example for the integer $2$ rather than $1$ it
@@ -141,28 +142,28 @@ denominators $\{2,3,4,5,6,7,9,10,17,18,34,35,84,85\}$." The bibliography
 (printed pp. 116 and 118) resolves the keys to
 Hahn's Problem E2689 (Monthly 85 (1978), p. 47) and Montgomery's solution
 (Monthly 86 (1979), 224). The monograph asks only for $k$ blocks of length
-at least two; the site's separation conditions are a strengthening it
+at least two; erdosproblems.com's separation conditions are a strengthening it
 explains in its commentary. The preceding sentence, that the sum of $k$
 blocks "can be an integer only finitely often" for each $k$, is the
 $k$-interval form of [[problems/unit_fractions/E0288/_index|Problem 288]].
 
-**The unrestricted variant (site commentary; not the problem).** Kovač's
-comment of 22 September 2025 gives an affirmative argument for the formulation
-in which intervals may repeat or overlap: a lemma splits a multiset supported
-on four consecutive integers with multiplicities $m_1,\ldots,m_4$ satisfying
-$m_2\ge m_1$, $m_3\ge m_4$ and $m_1+m_4\ge\max\{m_2,m_3\}$ into any number
-between $\max\{m_2,m_3\}$ and $m_1+m_4$ of intervals of length at least $2$
-(the comment writes the count as $m_1+m_4-u$ for
+**The unrestricted variant (erdosproblems.com commentary; not the problem).**
+Kovač's comment of 22 September 2025 gives an affirmative argument for the
+formulation in which intervals may repeat or overlap: a lemma splits a multiset
+supported on four consecutive integers with multiplicities $m_1,\ldots,m_4$
+satisfying $m_2\ge m_1$, $m_3\ge m_4$ and $m_1+m_4\ge\max\{m_2,m_3\}$ into any
+number between $\max\{m_2,m_3\}$ and $m_1+m_4$ of intervals of length at least
+$2$ (the comment writes the count as $m_1+m_4-u$ for
 $0\le u\le m_1+m_4-\max\{m_2,m_3\}$); four multisets of this kind whose
 reciprocal sums total $1$ are built from four large primes by the Chinese
-remainder theorem, and the adjustable counts cover every large $k$. The site's
-commentary adopts this argument and thanks its author; the argument is not
-independently checked, and it says nothing about the restricted question, for
-which Kovač's comment says they have no approach.
+remainder theorem, and the adjustable counts cover every large $k$. The
+erdosproblems.com commentary adopts this argument and thanks its author; the
+argument is not independently checked, and it says nothing about the restricted
+question, for which Kovač's comment says they have no approach.
 
 **The example for $2$.** The
 five separated intervals $[2,7]$, $[9,10]$, $[17,18]$, $[34,35]$, $[84,85]$
-of the site and the fourteen denominators of the monograph are the same
+of erdosproblems.com and the fourteen denominators of the monograph are the same
 set, its reciprocals sum to exactly $2$ (exact rational arithmetic),
 and the intervals are pairwise non-adjacent. So the restricted form of the
 question has an instance for the integer $2$ with $k=5$; it says nothing
@@ -172,24 +173,24 @@ Hahn's problem, reprinted at the
 head of the solution, asks for a nonempty finite set $S$ of positive
 integers in which every $n\in S$ has $n-1$ or $n+1$ in $S$ and whose
 reciprocals sum to an integer; that is the separated-block condition of
-the site's formulation with the number of blocks free, and any integer is
-allowed, as Kovač's comment reports. The solution is Montgomery's and
+the erdosproblems.com formulation with the number of blocks free, and any
+integer is allowed, as Kovač's comment reports. The solution is Montgomery's and
 gives two sets with reciprocal sum $2$: the fourteen denominators above,
 and $\{1,2,7,8,13,14,39,40,76,77,285,286\}$, six blocks of length two
 (both sums recomputed). A note on the page says that the second
-example printed, the fourteen-denominator set the site quotes, was also
-found by Hickerson; this is why the site credits the example to Hickerson
-and Montgomery and why Kovač's comment names Montgomery as its finder with
-Hickerson as an independent one, while the monograph credits the solution
+example printed, the fourteen-denominator set erdosproblems.com quotes, was also
+found by Hickerson; this is why erdosproblems.com credits the example to
+Hickerson and Montgomery and why Kovač's comment names Montgomery as its finder
+with Hickerson as an independent one, while the monograph credits the solution
 as a whole. No derivation of the sets is printed.
 Hahn's original proposal (Monthly 85 (1978), p. 47) is not held in the
 library; its text is known as reprinted with the solution.
 
 **Claims.** Four full proof claims, each with its own page: three on the
-site's proof-claim tab, whose standing notice says that listing a claim
-implies no examination, and one Lean 4 proof linked by formal-conjectures.
-None is accepted by the site, a referee or a named mathematician, and no
-build or review of any of them is recorded.
+erdosproblems.com proof-claim tab, whose standing notice says that listing a
+claim implies no examination, and one Lean 4 proof linked by formal-conjectures.
+None is accepted by erdosproblems.com, a referee or a named mathematician, and
+no build or review of any of them is recorded.
 
 - [[problems/unit_fractions/E0289/claims/2026_09_04_land|Johan Land, 4 September 2026]]:
   intervals of two or three consecutive integers inside $[1,20k]$, separated
@@ -221,7 +222,7 @@ A comment of 26 September 2026 under the third claim says that its author
 proposed a shorter solution to the first two authors and intends a short
 paper; that is a thread remark without a manuscript and has no page. The four
 claims derive the standing claimed, claim proved, in the frontmatter; the
-site's label was OPEN.
+erdosproblems.com label was OPEN.
 
 **Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
@@ -247,8 +248,8 @@ restricted statement with accepted evidence; there is nothing to compile.
 
 Nothing about the restricted statement is accepted; the four pending proof
 claims are recorded under Claims above. Known: the unrestricted
-variant holds for all large $k$ (site commentary, Kovač 2025); the integer
-$2$ has a five-interval separated representation and a six-interval one
+variant holds for all large $k$ (erdosproblems.com commentary, Kovač 2025); the
+integer $2$ has a five-interval separated representation and a six-interval one
 with every block of length two
 ([[../library/unit_fractions/montgomery_1979_solution_problem_e2689_egyptian_fractions/solution_p224|Montgomery's solution to E2689]],
 Monthly 1979; arithmetic checked); the sum of

@@ -6,8 +6,8 @@ desc: |
   Erdős's dictum "Mathematics is not yet ready for such problems" (p. 3),
   Terras's stopping-time theory and the density bounds of Theorems A-F, the
   cycle results of Theorems H-J, the 2-adic connections, and Conway's
-  undecidability theorems; the origin of the Erdős prize the site attaches to
-  Problem 1135.
+  undecidability theorems; the origin of the Erdős prize erdosproblems.com
+  attaches to Problem 1135.
 license: reserved
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T00:16:08Z
@@ -193,19 +193,19 @@ every record it states (Yoneda's $2^{40}$, the period bound $275{,}000$,
 Theorem G's exponent $c_4$) has been superseded by the sources the problem page
 cites. Nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: the site says the
-claim that Erdős offered a prize for a solution "originated in a survey
-article by Lagarias [La85]"; the survey's sentence, p. 4 (PDF p. 3), page
-image: "Prizes have been offered for its solution: \$50 by H. S. M. Coxeter
-in 1970, then \$500 by Paul Erdős, and more recently £1000 by B. Thwaites
-[69]." It gives references for Coxeter's figure ([27], through Trigg) and
-Thwaites's ([69]) and none for Erdős's, and it does not say when or where
-Erdős offered it, so the 1983 conversation the site reports from a later
-communication is not in this paper. The dictum the 2010 overview quotes as
+**Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]:
+erdosproblems.com says the claim that Erdős offered a prize for a solution
+"originated in a survey article by Lagarias [La85]"; the survey's sentence, p. 4
+(PDF p. 3), page image: "Prizes have been offered for its solution: \$50 by H.
+S. M. Coxeter in 1970, then \$500 by Paul Erdős, and more recently £1000 by B.
+Thwaites [69]." It gives references for Coxeter's figure ([27], through Trigg)
+and Thwaites's ([69]) and none for Erdős's, and it does not say when or where
+Erdős offered it, so the 1983 conversation erdosproblems.com reports from a
+later communication is not in this paper. The dictum the 2010 overview quotes as
 "[58, p. 3]" is printed on p. 3 (PDF p. 2), page image: "Paul Erdős
 commented concerning the intractability of the $3x+1$ problem: 'Mathematics
 is not yet ready for such problems.'", in the 2010 wording and without a
-source; the site's wording, "Mathematics may not be ready for such
+source; the erdosproblems.com wording, "Mathematics may not be ready for such
 problems", is Guy's, whose book is not held. The paper does not settle the
 problem and does not change its status; its definition (2.1) of $T$ is the
 problem page's $f$.

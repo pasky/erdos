@@ -106,11 +106,11 @@ theorem and characterization and does not use them in the proof.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0916/_index|Problem 916]]: the theorem behind
-  the site's label, in the paper's own words, with the hypothesis
+  the erdosproblems.com label, in the paper's own words, with the hypothesis
   $n(G)\ge3$ that the problem page's second-hand sources omitted; it
   answers the question yes for every $n\ge4$ (and vacuously at $n=3$) and
-  leaves the failure of the site's wording at $n=1$ outside its range. The
-  restatement in
+  leaves the failure of the erdosproblems.com wording at $n=1$ outside its
+  range. The restatement in
   [[extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/related_results_p22|Carmesin 2023, p. 22]]
   is faithful to the "in particular" sentence and to the cockade
   characterization. The Corollary (p. 215) reproves Dirac's theorem, the

@@ -34,14 +34,14 @@ $$
 
 converges?
 
-**Status.** Proved. The site labeled the problem PROVED and credits Michelen and
-Sawhney [MiSa25]. Their Theorem 1.1 gives a convergent point almost surely.
-Their Theorem 1.2 gives a set of convergent points of Hausdorff dimension one.
-The accepted claim page
+**Status.** Proved. Bloom's catalog labeled the problem PROVED and credits
+Michelen and Sawhney [MiSa25]. Their Theorem 1.1 gives a convergent point almost
+surely. Their Theorem 1.2 gives a set of convergent points of Hausdorff
+dimension one. The accepted claim page
 [[problems/analysis/E0527/claims/2025_09_02_michelen_sawhney|Michelen and Sawhney 2025]]
-records the result, on the site's acceptance. The paper is a preprint, so no
-refereed publication is listed. The frontmatter standing derives from the claim
-page.
+records the result, on erdosproblems.com's acceptance. The paper is a preprint,
+so no refereed publication is listed. The frontmatter standing derives from the
+claim page.
 
 **Source.** [erdosproblems.com/527](https://www.erdosproblems.com/527), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #527,
@@ -58,29 +58,30 @@ https://www.erdosproblems.com/527.
 
 ## Current assessment
 
-The site's formulation of 2026-09-04 asks whether, for real coefficients
-with $\sum\lvert a_n\rvert^2=\infty$ and $\lvert a_n\rvert=o(1/\sqrt
-n)$, almost every choice of signs leaves some point of the unit circle at
-which the series converges. The site adds that it is unclear whether Erdős
-also meant to assume $\lvert a_{n+1}\rvert\le\lvert a_n\rvert$. The
-answer is yes under either reading: Theorem 1.1 of Michelen and Sawhney
-[MiSa25] needs only $\sqrt n\,\lvert a_n\rvert\to0$, for complex
-coefficients, and neither the divergence of $\sum\lvert a_n\rvert^2$ nor
-monotonicity, so the uncertain hypothesis does not affect the outcome. The
-result is accepted here on the site's credit and recorded on the claim page
+The erdosproblems.com formulation of 2026-09-04 asks whether, for real
+coefficients with $\sum\lvert a_n\rvert^2=\infty$ and
+$\lvert a_n\rvert=o(1/\sqrt n)$, almost every choice of signs leaves some point
+of the unit circle at which the series converges. erdosproblems.com adds that it
+is unclear whether Erdős also meant to assume
+$\lvert a_{n+1}\rvert\le\lvert a_n\rvert$. The answer is yes under either
+reading: Theorem 1.1 of Michelen and Sawhney [MiSa25] needs only
+$\sqrt n\,\lvert a_n\rvert\to0$, for complex coefficients, and neither the
+divergence of $\sum\lvert a_n\rvert^2$ nor monotonicity, so the uncertain
+hypothesis does not affect the outcome. The result is accepted here on the
+erdosproblems.com credit and recorded on the claim page
 [[problems/analysis/E0527/claims/2025_09_02_michelen_sawhney|Michelen and Sawhney 2025]];
 on 2026-10-07 the arXiv record listed no journal reference, so no refereed
 publication is listed. The theorem statements of [MiSa25] and [DE59] are those
 recorded on their library cards; no independent review of the proof is recorded.
-The status search covered the site, its forum thread, the arXiv record and the
-community database; on 2026-10-07 the thread held no proof claim, and none of
-these sources recorded another claim of the result.
+The status search covered erdosproblems.com, its forum thread, the arXiv record
+and the community database; on 2026-10-07 the thread held no proof claim, and
+none of these sources recorded another claim of the result.
 
 ## Known Results
 
 - For any coefficients with $\sum\lvert a_n\rvert^2=\infty$, almost every
   choice of signs makes the series diverge at almost every point of the
-  unit circle, a classical fact the site records as well known. The
+  unit circle, a classical fact erdosproblems.com records as well known. The
   question is about the remaining measure-zero set of points.
 - Dvoretzky and Erdős [DE59]
   ([[../library/analysis/dvoretzky_1959_divergence_random_power_series/_index|library card]])

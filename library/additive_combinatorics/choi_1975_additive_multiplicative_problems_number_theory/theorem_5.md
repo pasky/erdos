@@ -66,8 +66,8 @@ Lemma A and its Corollary (pp. 38--39).
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]: the site's "in
-  general they proved that $g_k(N)\ll_kN^{1-2^{-k}}$"; the theorem as
-  printed gives $k+1$ integers from the excess $2^kN^{1-2^{-k}}$, which is
-  the stronger $g_k(N)\le2^{k-1}N^{1-2^{1-k}}$ for large $N$; van Doorn's
-  Theorem 9 improves the exponent to $1-2^{2-k}$.
+- [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]:
+  erdosproblems.com's "in general they proved that $g_k(N)\ll_kN^{1-2^{-k}}$";
+  the theorem as printed gives $k+1$ integers from the excess $2^kN^{1-2^{-k}}$,
+  which is the stronger $g_k(N)\le2^{k-1}N^{1-2^{1-k}}$ for large $N$; van
+  Doorn's Theorem 9 improves the exponent to $1-2^{2-k}$.

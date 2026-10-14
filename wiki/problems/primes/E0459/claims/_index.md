@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 459, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-13T11:00:13Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/primes/E0459/claims
@@ -12,8 +12,8 @@ updated: 2026-10-13T11:00:13Z
 [[problems/primes/E0459/_index|..]]
 
 [[problems/primes/E0459/claims/2025_09_13_cambie|2025_09_13_cambie]]: Cambie shows that $f(u)$ attains each trivial bound, $u+2$ and $u^2$,
-infinitely often, while $f(n)=(1+o(1))n$ for almost all $n$. The site marked
-the problem solved on these observations, which are proved in Lean outside
-this corpus.
+infinitely often, while $f(n)=(1+o(1))n$ for almost all $n$. Bloom's catalog
+marked the problem solved on these observations, which are proved in Lean
+outside this corpus.
 
 ***

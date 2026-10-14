@@ -25,16 +25,16 @@ updated: 2026-10-08T17:47:46Z
 \mathbb{N}$ such that $A+A=\mathbb{N}$ but $1_A\ast 1_A(n)=o(n^\epsilon)$ for
 every $\epsilon>0$?
 
-**Formulation.** The site does not define explicit; the page reads the word
-as [JPSZ24] do, as membership in $A$ testable in time polynomial in the
+**Formulation.** erdosproblems.com does not define explicit; the page reads the
+word as [JPSZ24] do, as membership in $A$ testable in time polynomial in the
 number of digits.
 
-**Status.** PROVED (LEAN), the site's label (page last edited 28 December 2025).
-Jain, Pham, Sawhney and Zakharov [JPSZ24] give an explicit set with
-$A+A=\mathbb{N}$ and $1_A\ast1_A(n)\le Cn^{c/\log\log n}$, so the answer is yes.
-The site's Lean marker corresponds to the proof the formal-conjectures catalog
-links. That proof is a third party's Lean proof of a weaker existence statement
-(see Formalization). The claim page
+**Status.** PROVED (LEAN), the erdosproblems.com label (page last edited 28
+December 2025). Jain, Pham, Sawhney and Zakharov [JPSZ24] give an explicit set
+with $A+A=\mathbb{N}$ and $1_A\ast1_A(n)\le Cn^{c/\log\log n}$, so the answer is
+yes. The erdosproblems.com Lean marker corresponds to the proof the
+formal-conjectures catalog links. That proof is a third party's Lean proof of a
+weaker existence statement (see Formalization). The claim page
 [[problems/additive_bases/E0029/claims/2024_05_14_jain_pham_sawhney_zakharov|An
 explicit economical additive basis]] records the acceptance evidence: the
 refereed publication and the curator of erdosproblems.com, Thomas Bloom. The

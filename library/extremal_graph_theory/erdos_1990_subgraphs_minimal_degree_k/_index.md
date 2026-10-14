@@ -219,8 +219,8 @@ reference to the 1988 Ars Combinatoria paper. Lemma 3 (p. 54) is the
 threshold the problem's edge count exceeds by one, with the generalized
 wheel of p. 53 showing that at the threshold every subgraph of minimum
 degree $k$ may have all $n$ vertices; Sauermann states it as Fact 1.1. Theorem 1
-(p. 53) is the site's "$n-c_k\sqrt n$", the first bound toward the conjecture,
-which Theorem 1.2 of Mousset, Noever and Škorić quotes as
+(p. 53) is erdosproblems.com's "$n-c_k\sqrt n$", the first bound toward the
+conjecture, which Theorem 1.2 of Mousset, Noever and Škorić quotes as
 $n-\lfloor\sqrt{n/6k^3}\rfloor$, equal to the printed
 $n-\lfloor\sqrt n/\sqrt{6k^3}\rfloor$. Lemma 4 (p. 55) is the conjecture when at
 most $\alpha n$ vertices have degree exactly $k$, $\alpha<1/(2k)$, which

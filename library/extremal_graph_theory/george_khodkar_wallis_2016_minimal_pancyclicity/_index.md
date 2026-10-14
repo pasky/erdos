@@ -271,7 +271,7 @@ the problem's $h(n)$ exactly. Its Sections 4.2--4.4 establish $h(n)$ for
 $n\le37$ ("$m(n)=0$ if and only if $n=3$", p. 37, through "$m(n)=5$ for
 $25\le n\le37$", p. 42), the values of Griffin's Table 1, with the
 four-chord exclusion for $n\ge25$ cited from Griffin's exhaustive search.
-Its Section 4.5 is the passage the site names for "the first published
+Its Section 4.5 is the passage erdosproblems.com names for "the first published
 proof of the upper bound" $h(n)\le\log_2n+\log_*n+O(1)$: its general
 results are Theorem 18 (p. 46), excess at most $j+2$ for
 $2^j+21\le n\le2^{j+1}+20$ and $j\le21$, that is $h(n)\le\log_2n+2$ for
@@ -287,8 +287,8 @@ of Theorem 18); the preceding sentence describes the chord recipe for a
 general $j$ but the theorem does not state it. The chapter prints no bound
 of the form $\log_2n+\log_*n+O(1)$ and does not restate or cite the bounds
 Bondy claimed on p. 84 of the 1971 paper, so the chapter does not, on the
-reading here, supply a proof of the upper bound in the site's form; what it
-proves is recorded on the result page. The chapter also lists Griffin's
+reading here, supply a proof of the upper bound in the erdosproblems.com form;
+what it proves is recorded on the result page. The chapter also lists Griffin's
 preprint as "(to appear)" in 2016 and gives the George--Marr--Wallis values
 paper a journal reference. Theorem 17, $h(n)\le h(n-1)+1$
 ([[extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/theorem_17|theorem_17]]),

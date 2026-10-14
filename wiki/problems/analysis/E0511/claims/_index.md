@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 511, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/analysis/E0511/claims
@@ -17,6 +17,7 @@ $l$. So the number of components above a fixed diameter is not bounded.
 
 [[problems/analysis/E0511/claims/2025_09_15_huang|2025_09_15_huang]]: Linhang Huang constructs, for every $c<4$ and every $N$, a monic polynomial
 whose sublevel set has at least $N$ components of diameter at least $c$. This
-is an independent rediscovery of Pommerenke's theorem, credited by the site.
+is an independent rediscovery of Pommerenke's theorem, credited by
+erdosproblems.com.
 
 ***

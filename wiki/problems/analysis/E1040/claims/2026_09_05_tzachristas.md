@@ -89,16 +89,16 @@ Ramachandran's theorem]] as the comparison for Proposition 7.1 and the smooth
 case of Krishnapur, Lundberg and Ramachandran as the model of its strategy, and
 consumes neither.
 
-**Standing.** The result was filed on the site's proof-claims tab on 9 September
-2026; the tab names GPT-Astra, and the paper's closing section says that the
-proposed result was obtained through the author's prompting of OpenAI's
+**Standing.** The result was filed on the erdosproblems.com proof-claims tab on
+9 September 2026; the tab names GPT-Astra, and the paper's closing section says
+that the proposed result was obtained through the author's prompting of OpenAI's
 GPT-6-Astra model through Codex, with proof exploration, literature checks,
 drafting and internal reviews by parallel reasoning agents, that these checks
 are not independent human verification, and that no proof-assistant
 formalization or external endorsement is asserted. The claim's notes assert
 priority over the two claims filed on 6 September 2026, the preprint having been
-posted on 5 September. The thread carries no comment on the claim, the site
-labeled the problem OPEN, no reviewer is named and nothing is refereed, so the
-claim stays claimed. The two Lean-backed claims of the same statement are
+posted on 5 September. The thread carries no comment on the claim, Bloom's
+catalog labeled the problem OPEN, no reviewer is named and nothing is refereed,
+so the claim stays claimed. The two Lean-backed claims of the same statement are
 [[problems/analysis/E1040/claims/2026_09_06_shlummi|shlummi's page]] and
 [[problems/analysis/E1040/claims/2026_09_06_gessel|Gessel's page]].

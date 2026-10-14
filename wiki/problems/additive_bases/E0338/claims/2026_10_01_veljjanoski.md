@@ -66,7 +66,7 @@ as the AI used:
 > Bitter Lemma constructions the restricted order at order $3$ is at most $4$
 > for every block; that part is not claimed here.
 
-Posted to the site's forum by Daniel Veljjanoski on 1 October 2026:
+Posted to the erdosproblems.com forum by Daniel Veljjanoski on 1 October 2026:
 
 > Two partial results on the finite-deletion questions.
 >
@@ -98,16 +98,16 @@ Posted to the site's forum by Daniel Veljjanoski on 1 October 2026:
 >
 > AI-usage disclosure: Claude (Anthropic) was used as assistant.
 
-**Covers.** The positive-lower-density case of the question in the site's
-remarks on [[problems/additive_bases/E0338/_index|Problem 338]]: if
-$A\setminus F$ is a basis for every finite $F$, must $A$ have a restricted
-order? Under the claim any counterexample has lower density zero, and the
-bound depends on the density alone, not on the order of the basis. The three
-questions of the statement, the conditions for a restricted order to exist,
-for it to be bounded in terms of the order and for it to equal the order, are
-not claimed, nor is a sharp dependence on $\delta$. For bases of order two,
-Kelly [Ke57] had already proved restricted order at most $3$ under positive
-lower density, recorded at
+**Covers.** The positive-lower-density case of the question in the
+erdosproblems.com remarks on
+[[problems/additive_bases/E0338/_index|Problem 338]]: if $A\setminus F$ is a
+basis for every finite $F$, must $A$ have a restricted order? Under the claim
+any counterexample has lower density zero, and the bound depends on the density
+alone, not on the order of the basis. The three questions of the statement, the
+conditions for a restricted order to exist, for it to be bounded in terms of the
+order and for it to equal the order, are not claimed, nor is a sharp dependence
+on $\delta$. For bases of order two, Kelly [Ke57] had already proved restricted
+order at most $3$ under positive lower density, recorded at
 [[problems/additive_bases/E0338/claims/1957_04_01_kelly|Kelly 1957]]. The
 write-up also states, as its Theorem 2, that in the block
 model behind the constructions of [HHP07] and of a later forum project, a
@@ -121,7 +121,7 @@ existence part of White's classification, recorded at
 [[problems/additive_bases/E0338/claims/2026_07_28_white|White 2026]].
 
 **Standing.** Claimed. The proof-claim entry of 2026-10-01 has no comments
-and the site's label was OPEN (page last edited 2025-09-14); no named
+and the erdosproblems.com label was OPEN (page last edited 2025-09-14); no named
 mathematician has examined the write-up, there is no refereed publication and
 no Lean development. The author reports not having
 found the theorem in the literature, while noting that three recent papers on

@@ -24,12 +24,12 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Are there two infinite sets $A$ and $B$ such that $A+B$ agrees
 with the set of prime numbers up to finitely many exceptions?
 
-**Status.** The site's label was OPEN (page last edited 8 April 2026, no proof
-claim recorded there on 2026-10-06). Here the problem is disproved, and the
-frontmatter standing is that of the accepted claim below. The site's commentary
-expects the answer no. It records the Elsholtz--Harper square-root bounds on a
-hypothetical decomposition as the best result in that direction. One accepted
-full claim is recorded on
+**Status.** The erdosproblems.com label was OPEN (page last edited 8 April 2026,
+no proof claim recorded there on 2026-10-06). Here the problem is disproved, and
+the frontmatter standing is that of the accepted claim below. The
+erdosproblems.com commentary expects the answer no. It records the
+Elsholtz--Harper square-root bounds on a hypothetical decomposition as the best
+result in that direction. One accepted full claim is recorded on
 [[problems/primes/E0431/claims/2026_09_24_openai|the OpenAI release's claim page]].
 A manuscript of 24 September 2026 proves Ostmann's inverse Goldbach conjecture:
 no sumset $A+B$ with $|A|,|B|\ge2$ differs from the primes in finitely many

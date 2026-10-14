@@ -62,6 +62,6 @@ proves the Side-lemmas 1--4 used along the way. The proof was not checked
 here.
 
 **Bears on.** [[../wiki/problems/analysis/E1165/_index|#1165]], as the one-dimensional
-result behind the site's attribution of the $r\ge4$ bound to Tóth; it says
-nothing about the planar walk, whose bound is
+result behind the erdosproblems.com attribution of the $r\ge4$ bound to Tóth; it
+says nothing about the planar walk, whose bound is
 [[analysis/hao_2024_favorite_sites_simple_random_walk_two/theorem_1_1|Hao, Li, Okada and Zheng, Theorem 1.1]].

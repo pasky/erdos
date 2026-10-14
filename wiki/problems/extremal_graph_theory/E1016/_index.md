@@ -33,30 +33,30 @@ $$
 
 where $\log_*n$ is the iterated logarithmic function?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 27 December 2025). A graph on $n$ vertices with a cycle of
 every length from $3$ to $n$ is pancyclic; writing $m(n)$ for the least
 number of edges of a pancyclic graph on $n$ vertices, as Griffin does,
 $h(n)=m(n)-n$, and since a pancyclic graph is a Hamiltonian cycle with
 chords, $h(n)$ is the least number of chords. Erdős's 1971 item 10 defines
-$h(n)$ as the site does, and Bondy's own $p(n)$, "the minimum number of
+$h(n)$ as erdosproblems.com does, and Bondy's own $p(n)$, "the minimum number of
 edges in a pancyclic graph of order $n$" ([Bo71], p. 84), is Griffin's
 $m(n)$. Three iterated-logarithm functions occur in the sources and differ
-by $O(1)$: the site's $\log_*n$; Erdős's $L(n)$, the smallest $k$ for which
-$1<\log_kn\le e$ with $\log_k$ the $k$-fold natural iterated logarithm; and
-Bondy's $H(n)$, kept by Griffin, the smallest integer such that $\log_2$
+by $O(1)$: erdosproblems.com's $\log_*n$; Erdős's $L(n)$, the smallest $k$ for
+which $1<\log_kn\le e$ with $\log_k$ the $k$-fold natural iterated logarithm;
+and Bondy's $H(n)$, kept by Griffin, the smallest integer such that $\log_2$
 applied $H(n)$ times to $n$ gives a value below $2$. The statement
 has two parts: the order of $h(n)$, and the yes-or-no question whether the
 lower bound can be raised from $\log_2n+O(1)$ to $\log_2n+\log_*n-O(1)$; the
-site's commentary quotes Erdős's weaker unproved statement
+erdosproblems.com commentary quotes Erdős's weaker unproved statement
 $h(n)-\log_2n\to\infty$.
 
-**Status.** The site labeled the problem OPEN. The derived standing, claimed,
-proved, departs from the site's OPEN only by counting one pending full proof
-claim, which no outside review has accepted. The standing becomes solved, proved
-if the claim is accepted. The claim is a proof-claim tab entry of 2026-09-24
-asserting $h(n)=\log_2n+\log_*n+O(1)$, with a write-up and a Lean development.
-It is recorded on
+**Status.** Bloom's catalog labeled the problem OPEN. The derived standing,
+claimed, proved, departs from erdosproblems.com's OPEN only by counting one
+pending full proof claim, which no outside review has accepted. The standing
+becomes solved, proved if the claim is accepted. The claim is a proof-claim tab
+entry of 2026-09-24 asserting $h(n)=\log_2n+\log_*n+O(1)$, with a write-up and a
+Lean development. It is recorded on
 [[problems/extremal_graph_theory/E1016/claims/2026_09_24_knt|its claim page]] as
 claimed, unreviewed and not built in this corpus.
 
@@ -68,32 +68,33 @@ Claimed without a proof in the sources found: $h(n)\le\log_2n+\log_*n+O(1)$.
 Bondy stated it in 1971 on p. 84 of [Bo71] as
 $n-1+\log_2(n-1)\le p(n)\le n+\log_2(n)+H(n)+O(1)$ for $n\ge3$, with "we can
 prove that" and no proof or indication of one in the paper. The lower half of
-this printed claim is the bound Griffin proves. The site names Chapter 4 of
-George, Khodkar and Wallis [GKW16] as the earliest proof in print. Its general
-upper bounds are Theorems 18 and 19. Theorem 18 gives $h(n)<\log_2n+2$ for
-$53\le n\le2^{22}+20$ as printed. Its construction is argued for $5\le j\le20$,
-up to $2^{21}+20$. At $j=21$ it gives a 21-cycle only at $n=2^{21}+23$ and
-$2^{21}+40$. Theorem 19 gives $h(n)\le2^h+2h$ on windows of $n$ where this reads
-$\log_2n+\log_2\log_2n+O(1)$. No bound in the $\log_*n$ form is printed there (a
-filing observation, not a review verdict). So the upper bound in the site's form
-has no proof in any source found. Erdős's 1971 item 10 reports Bondy's then
-unpublished bounds as $\log n/\log2<h(n)<\log n/\log2+L(n)$.
+this printed claim is the bound Griffin proves. erdosproblems.com names Chapter
+4 of George, Khodkar and Wallis [GKW16] as the earliest proof in print. Its
+general upper bounds are Theorems 18 and 19. Theorem 18 gives $h(n)<\log_2n+2$
+for $53\le n\le2^{22}+20$ as printed. Its construction is argued for
+$5\le j\le20$, up to $2^{21}+20$. At $j=21$ it gives a 21-cycle only at
+$n=2^{21}+23$ and $2^{21}+40$. Theorem 19 gives $h(n)\le2^h+2h$ on windows of
+$n$ where this reads $\log_2n+\log_2\log_2n+O(1)$. No bound in the $\log_*n$
+form is printed there (a filing observation, not a review verdict). So the upper
+bound in the erdosproblems.com form has no proof in any source found. Erdős's
+1971 item 10 reports Bondy's then unpublished bounds as
+$\log n/\log2<h(n)<\log n/\log2+L(n)$.
 
-The site's yes-or-no question is the gap between these two bounds. No source
-found closes it or proves even $h(n)-\log_2n\to\infty$. The exact values $h(n)$
-for $n\le37$ are known (Griffin's Table 1; [GKW16], pp. 37--42). No proof,
-disproof or preprint was found in the search whose scope the Current assessment
-records, and that search predates the claim. This is a bounded negative finding,
-not a certificate of openness.
+erdosproblems.com's yes-or-no question is the gap between these two bounds. No
+source found closes it or proves even $h(n)-\log_2n\to\infty$. The exact values
+$h(n)$ for $n\le37$ are known (Griffin's Table 1; [GKW16], pp. 37--42). No
+proof, disproof or preprint was found in the search whose scope the Current
+assessment records, and that search predates the claim. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/1016](https://www.erdosproblems.com/1016),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can settle it; last edited 27 December 2025; source key
-[Er71]; commentary citing [Bo71], [Gr13], [GKW16]; OEIS A105206 linked), its
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; last edited 27 December 2025; source
+key [Er71]; commentary citing [Bo71], [Gr13], [GKW16]; OEIS A105206 linked), its
 one-comment discussion thread (18 October 2025) and its proof-claim tab,
-empty on that date. The site's page, accessed 2026-10-07, was last edited 27
-December 2025; its last label was OPEN, and its proof-claim tab held one proof
-claim with one comment. Cite as: T. F. Bloom, Erdős Problem #1016,
+empty on that date. The erdosproblems.com page, accessed 2026-10-07, was last
+edited 27 December 2025; its last label was OPEN, and its proof-claim tab held
+one proof claim with one comment. Cite as: T. F. Bloom, Erdős Problem #1016,
 https://www.erdosproblems.com/1016, accessed 2026-10-07.
 
 **References.**
@@ -120,9 +121,9 @@ https://www.erdosproblems.com/1016, accessed 2026-10-07.
   bipancyclic graphs. SpringerBriefs in Mathematics, Springer (2016),
   xii+108 pp., doi:10.1007/978-3-319-31951-3; its Chapter 4, "Minimal
   Pancyclicity", pp. 35--47, doi:10.1007/978-3-319-31951-3_4 (Crossref
-  record read 2026-09-18). The site names its Section 4.5 as the earliest
-  proof in print of the upper bound. The values for $n\le37$, pp. 37--42;
-  Theorems 18 and 19, pp. 46--47. Library home:
+  record read 2026-09-18). erdosproblems.com names its Section 4.5 as the
+  earliest proof in print of the upper bound. The values for $n\le37$, pp.
+  37--42; Theorems 18 and 19, pp. 46--47. Library home:
   [[../library/extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/_index|george_khodkar_wallis_2016_minimal_pancyclicity]];
   paged at
   [[../library/extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/theorem_19|theorem_19]]
@@ -135,8 +136,8 @@ https://www.erdosproblems.com/1016, accessed 2026-10-07.
   (the Rényi archive's scan); the item is paged at
   [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_10|item_10]].
 - [Sh94] Shi, Yongbing, The number of cycles in a Hamilton graph. Discrete
-  Math. 133 (1994), 249--257. Not held and not cited by the site; the source
-  of the cycle bound behind the lower bound, cited by [Gr13] as its [6].
+  Math. 133 (1994), 249--257. Not held and not cited by erdosproblems.com; the
+  source of the cycle bound behind the lower bound, cited by [Gr13] as its [6].
 - [AlKr25] Alon, Yahav and Krivelevich, Michael, Sparse pancyclic subgraphs
   of random graphs. SIAM J. Discrete Math. 39 (2025), no. 1, 562--574,
   doi:10.1137/23M1598969 (Crossref record); arXiv:2308.01564v1 (3 August
@@ -150,7 +151,7 @@ https://www.erdosproblems.com/1016, accessed 2026-10-07.
 **Formalization.** None in the catalogs: formal-conjectures had no file
 `ErdosProblems/1016.lean` on 2026-09-18 (the directory
 `FormalConjectures/ErdosProblems/` and the recursive tree listed in full)
-and none on 2026-10-07; the site's indicator records no formalized
+and none on 2026-10-07; the erdosproblems.com indicator records no formalized
 statement; and the community database (teorth/erdosproblems,
 `data/problems.yaml`) records, on 2026-09-18 and on 2026-10-07, the
 problem as open (last update 10 September 2025), unformalized, with OEIS
@@ -162,32 +163,32 @@ in this corpus, on
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN; last edited 27 December 2025. The commentary, in this page's
-words: such graphs are called pancyclic; the problem is Bondy's [Bo71], who
-stated $\log_2(n-1)-1\le h(n)\le\log_2n+\log_*n+O(1)$ and printed no proof;
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN; last edited 27 December 2025. The commentary, in this
+page's words: such graphs are called pancyclic; the problem is Bondy's [Bo71],
+who stated $\log_2(n-1)-1\le h(n)\le\log_2n+\log_*n+O(1)$ and printed no proof;
 Erdős [Er71] expected the upper bound to be nearer the truth and could not
 show even that $h(n)-\log_2n$ is unbounded; Griffin [Gr13] supplies a proof
 of the lower bound;
-and the site points to Chapter 4.5 of George, Khodkar and Wallis [GKW16]
-as, to its knowledge, the earliest printed proof of the upper bound. The thread's one comment
-(the account TerenceTao, 00:50 on 18 October 2025, marked as addressed by the
-site) says it arose from searches with Gemini and ChatGPT and reports: that
-Bondy's paper claims the bounds as the site now states them, which the
-comment says differs from Erdős's report, with no proof of either; that the lower bound was first
-proved in 2013 (the comment gives a different author name for the 2013 paper); that a 2023 paper of
-Alon and Krivelevich suggests an equivalent statement was established by Shi
-in 1994; that a 1996 paper of Jia, seen through a 2014 survey of Lai and
-Liu, proves $h(n)\le\tfrac32\log_2n+1$ for all $n$ and
-$h(n)\le\log_2n+\log_2\log_2n+O(1)$ for large $n$ and makes this
-conjecture; that the upper bound's earliest proof in print is in Chapter
-4.5 of [GKW16]; and that Bondy's bounds are still the best known apart from
-very small $n$. These are the comment's reports, unverified except
-where the sources below confirm them; the first, on what Bondy's paper
-claims, is confirmed on p. 84 of [Bo71] (the upper bound
-below). The proof-claim tab, empty on 2026-09-18, carries one claim since
-2026-09-24 (the last paragraph of this assessment). The community database
-record says open (10 September 2025) and lists OEIS A105206.
+and erdosproblems.com points to Chapter 4.5 of George, Khodkar and Wallis
+[GKW16] as, to its knowledge, the earliest printed proof of the upper bound. The
+thread's one comment (the account TerenceTao, 00:50 on 18 October 2025, marked
+as addressed by erdosproblems.com) says it arose from searches with Gemini and
+ChatGPT and reports: that Bondy's paper claims the bounds as erdosproblems.com
+now states them, which the comment says differs from Erdős's report, with no
+proof of either; that the lower bound was first proved in 2013 (the comment
+gives a different author name for the 2013 paper); that a 2023 paper of Alon and
+Krivelevich suggests an equivalent statement was established by Shi in 1994;
+that a 1996 paper of Jia, seen through a 2014 survey of Lai and Liu, proves
+$h(n)\le\tfrac32\log_2n+1$ for all $n$ and $h(n)\le\log_2n+\log_2\log_2n+O(1)$
+for large $n$ and makes this conjecture; that the upper bound's earliest proof
+in print is in Chapter 4.5 of [GKW16]; and that Bondy's bounds are still the
+best known apart from very small $n$. These are the comment's reports,
+unverified except where the sources below confirm them; the first, on what
+Bondy's paper claims, is confirmed on p. 84 of [Bo71] (the upper bound below).
+The proof-claim tab, empty on 2026-09-18, carries one claim since 2026-09-24
+(the last paragraph of this assessment). The community database record says open
+(10 September 2025) and lists OEIS A105206.
 
 **The lower bound, proved.**
 [[../library/extremal_graph_theory/griffin_2013_minimal_pancyclicity/claim_1|Claim 1]]
@@ -200,7 +201,7 @@ $m(n)=n+k$ edges and at least $n-2$ cycles, and by Corollary 1 (from Shi's
 theorem that a set of chords lies in at most two cycles using exactly those
 chords) a Hamiltonian graph with $k$ chords has at most $2^{k+1}-1$ cycles,
 so $2^{k+1}-1\ge n-2$ and $h(n)=k\ge\log_2(n-1)-1$. This is the proof of
-the lower bound that the site credits to Griffin. Griffin's Theorem
+the lower bound that erdosproblems.com credits to Griffin. Griffin's Theorem
 3 (p. 3) quotes Rautenbach and Stella's sharper upper bound on the maximum
 number $M(k)$ of cycles, giving $h(n)\ge C$ for $C$ the largest integer $k$
 at which that bound is less than $n-2$ (the print says "the expression in
@@ -221,11 +222,11 @@ smallest integer such that $(\log_2)^{H(n)}(n)<2$." The paper prints no
 proof of either inequality and names no place where one appears; its body
 (pp. 80--83) proves a sufficient condition for pancyclicity instead, that a
 Hamiltonian graph with at least $n^2/4$ edges is pancyclic or is
-$K_{n/2,n/2}$. This is the claim that the site records as made without
+$K_{n/2,n/2}$. This is the claim that erdosproblems.com records as made without
 details. The bound is restated in [Gr13] as Bondy's (Claim 1, the upper
 inequality, with $m(n)$ for the paper's $p(n)$), reported by Erdős in 1971
-as Bondy's unpublished $h(n)<\log n/\log2+L(n)$, and placed by the site,
-for its earliest proof in print, in Chapter 4.5 of [GKW16], a
+as Bondy's unpublished $h(n)<\log n/\log2+L(n)$, and placed by
+erdosproblems.com, for its earliest proof in print, in Chapter 4.5 of [GKW16], a
 SpringerBriefs volume whose Chapter 4 is titled "Minimal Pancyclicity".
 That chapter is paged at
 [[../library/extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/theorem_19|theorem_19]].
@@ -245,9 +246,9 @@ $2^j+j+1\le n\le2^{j+1}+j$, where $j<\log_2n<j+2$ and the excess is
 $j+h-1$, so Theorem 19 reads $h(n)<\log_2n+\log_2\log_2n-1$ on its
 windows (the shape the thread reports for Jia 1996), is stated only on
 those windows, and the chapter prints no bound with an iterated logarithm
-and does not mention Bondy's claim. The attribution is recorded as the
-site's; on this page's reading the chapter does not prove the upper bound
-in the form $\log_2n+\log_*n+O(1)$. No source found proves the upper bound
+and does not mention Bondy's claim. The attribution is recorded as
+erdosproblems.com's; on this page's reading the chapter does not prove the upper
+bound in the form $\log_2n+\log_*n+O(1)$. No source found proves the upper bound
 in that form.
 
 **Erdős's item 10.** [Er71], item 10 (p. 101; paged at
@@ -263,8 +264,8 @@ $h(n)-\frac{\log n}{\log2}\to\infty$," and the item adds that Bondy's
 paper was not yet published. Display (2) is strict on both sides as printed
 and has no $O(1)$ term, where Bondy's printed claim ([Bo71], p. 84) has
 non-strict inequalities on both sides, the lower bound $n-1+\log_2(n-1)$,
-that is $h(n)\ge\log_2(n-1)-1$ as the site has it, and an $O(1)$ term in
-the upper bound; the difference between Erdős's report of the unpublished
+that is $h(n)\ge\log_2(n-1)-1$ as erdosproblems.com has it, and an $O(1)$ term
+in the upper bound; the difference between Erdős's report of the unpublished
 work and the printed claim stands in both texts, and is the
 discrepancy the thread's comment points out. Display (1) is the Moon--Moser clique-sizes
 bound of Problem 927, the list's other $L(n)$ problem.
@@ -275,9 +276,9 @@ of [Gr13] (p. 2) gives $m(n)$ for $3\le n\le37$, from an
 exhaustive search over Hamiltonian graphs with at most four chords and with
 five chords on at most 31 vertices together with a five-chord construction
 pancyclic for $23\le n\le37$, "All of these values agree with [2]" (George,
-Marr and Wallis, a preprint). In the site's notation $h(n)=0$ for $n=3$,
-$1$ for $4\le n\le5$, $2$ for $6\le n\le8$, $3$ for $9\le n\le14$, $4$ for
-$15\le n\le24$ and $5$ for $25\le n\le37$; each satisfies
+Marr and Wallis, a preprint). In the erdosproblems.com notation $h(n)=0$ for
+$n=3$, $1$ for $4\le n\le5$, $2$ for $6\le n\le8$, $3$ for $9\le n\le14$, $4$
+for $15\le n\le24$ and $5$ for $25\le n\le37$; each satisfies
 $\log_2(n-1)-1\le h(n)\le\log_2n+1$. OEIS A105206 (read 2026-09-18) lists
 $3,5,6,8,9,10,12,13,14,15,16,17,19,20,21,22,23,24,25,26$ with offset $3$,
 which are Griffin's $m(n)$ for $3\le n\le22$; the entry's name speaks of
@@ -313,7 +314,7 @@ $n\ge3$) concern the growth of $m(n)$ step by step.
 **Search scope.** None of the routes below found a proof or disproof of
 $h(n)\ge\log_2n+\log_*n-O(1)$ or a proof that $h(n)-\log_2n\to\infty$.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree (no file 1016); the community
   database entry.
 - arXiv API: the record of 1312.0274 (v1 only, no journal reference); the
@@ -338,7 +339,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Sh94],
 **Remaining gaps.** (1) [Bo71] is paged at its statement of the bounds
 (p. 84): Bondy claims both inequalities with
 "we can prove that" and prints no proof and no indication of one, so what
-was claimed is settled from the text, and the site's, Griffin's and the
+was claimed is settled from the text, and erdosproblems.com's, Griffin's and the
 thread's accounts of the claim agree with it. (2) The upper bound
 $\log_2n+\log_*n+O(1)$ has no proof in any source found: [Bo71] prints
 none, and [GKW16] prints Theorems 18 and 19 (pp. 46--47), whose general
@@ -354,7 +355,7 @@ thread's Jia 1996 bounds and its Shi 1994 remark are unverified reports.
 statement of the problem; the pending claim's own Lean development is
 described, not built or audited in this corpus, on its claim page.
 
-**Proof claims on the site.** The site's proof-claim tab
+**Proof claims on erdosproblems.com.** The erdosproblems.com proof-claim tab
 carried one full claim, submitted 2026-09-24 by the account KNT, who credits the
 model GPT-6 Astra: a write-up and a Lean 4 development in an external repository
 asserting $h(n)=\log_2n+\log_*n+O(1)$ for every $n\ge3$, the lower bound from a
@@ -364,9 +365,9 @@ bound from a chord construction. The author's comment of 2026-09-26 replaced the
 first write-up by a shorter one with a smaller formalization. The claim, its
 postings, its Lean statement and its standing are recorded on
 [[problems/extremal_graph_theory/E1016/claims/2026_09_24_knt|the claim page]] as
-claimed: the site's label was unchanged (OPEN; page last edited 27 December
-2025), the entry had no comment but the author's, nothing is refereed or
-reviewed, and nothing was built or checked in this corpus. If it stands, it
+claimed: the erdosproblems.com label was unchanged (OPEN; page last edited 27
+December 2025), the entry had no comment but the author's, nothing is refereed
+or reviewed, and nothing was built or checked in this corpus. If it stands, it
 answers the displayed question yes and proves Bondy's upper bound, closing gaps
 (2) and (5) above; this page records it without adopting it.
 
@@ -388,7 +389,7 @@ answers the displayed question yes and proves Bondy's upper bound, closing gaps
   pancyclic graphs with excess $j+2$ for
   $2^j+21\le n\le2^{j+1}+20$, $j\le21$, and with excess $2^h+2h$ for
   $2^{(2^h+h+1)}+2^h+h+2\le n\le2^{(2^h+h+2)}+2^h+h+1$, that is
-  $h(n)<\log_2n+\log_2\log_2n-1$ on those windows; the chapter the site
+  $h(n)<\log_2n+\log_2\log_2n-1$ on those windows; the chapter erdosproblems.com
   names as the earliest proof in print of $\log_2n+\log_*n+O(1)$, which it
   does not state.
 - [[../library/extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/small_orders|George, Khodkar and Wallis 2016, §§ 4.2--4.4]]:

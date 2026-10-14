@@ -42,10 +42,10 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/set_systems/E0231/_index|Problem 231]]: the site's
-  Statement asks whether every string of length $2^k-1$ over $k$ characters
-  contains an abelian square, that is, in the paper's notation, whether
-  $N(k)\le2^k-1$; the modified Statement, at length $2^k$, asks whether
+- [[../wiki/problems/set_systems/E0231/_index|Problem 231]]: the
+  erdosproblems.com Statement asks whether every string of length $2^k-1$ over
+  $k$ characters contains an abelian square, that is, in the paper's notation,
+  whether $N(k)\le2^k-1$; the modified Statement, at length $2^k$, asks whether
   $N(k)\le2^k$. The paper prints the conjecture $N(k)=2^k-1$, reports its
   disproof by de Bruijn and Erdős without the construction, and says that
   whether $N(4)$ is finite is unknown.

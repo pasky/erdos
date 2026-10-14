@@ -61,9 +61,10 @@ inside Badea's 1993 condition
 ([[problems/irrationality/E0267/claims/1993_01_01_badea|the Badea page]]).
 
 **Acceptance.** Refereed: The Fibonacci Quarterly, volume 14, number 5 (December
-1976). The site's commentary credits Bicknell and Hoggatt, with Good, with the
-irrationality of the sum over the indices $2^n$. The site labeled the problem
-OPEN, so that commentary is not listed as `reviewed` evidence. The corpus has
-not reproved the closed form and awards no tier of its own.
+1976). The erdosproblems.com commentary credits Bicknell and Hoggatt, with Good,
+with the irrationality of the sum over the indices $2^n$. Bloom's catalog
+labeled the problem OPEN, so that commentary is not listed as `reviewed`
+evidence. The corpus has not reproved the closed form and awards no tier of its
+own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.

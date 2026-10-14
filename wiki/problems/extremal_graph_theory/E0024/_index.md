@@ -28,13 +28,14 @@ counted once, not one of its ten cyclically ordered vertex labelings. Every
 five-cycle in a triangle-free graph is induced, since any chord would create a
 triangle.
 
-**Status.** Proved. The site's label read "PROVED (LEAN)". The claim pages are
+**Status.** Proved. The erdosproblems.com label read "PROVED (LEAN)". The claim
+pages are
 [[problems/extremal_graph_theory/E0024/claims/2011_02_04_grzesik|Grzesik]] and
 [[problems/extremal_graph_theory/E0024/claims/2011_02_08_hatami_hladky_kral_norine_razborov|Hatami, Hladký, Král', Norine and Razborov]],
 both accepted on their refereed publications and the curator's credit. The 2026
 Lean proof declares itself a formalization of Grzesik's proof. It is recorded on
 that page as a formalization link and gives no `formalized` evidence. The Lean
-proof the site reports and its public scope are recorded below.
+proof erdosproblems.com reports and its public scope are recorded below.
 
 **Source.** [erdosproblems.com/24](https://www.erdosproblems.com/24), accessed
 2026-09-10 UTC. Cite as: T. F. Bloom, Erdős Problem #24,
@@ -172,8 +173,8 @@ classification or rounded arbitrary-order maximum.
 The source includes a comment reporting the axioms `propext`, `Classical.choice`
 and `Quot.sound`; the development was not built or audited by this project, and
 no independent whole-statement fidelity audit is published. The formalization
-was announced in the site's forum on 2026-04-23; since it declares itself a
-formalization of Grzesik's proof, it is a formalization link on
+was announced in the erdosproblems.com forum on 2026-04-23; since it declares
+itself a formalization of Grzesik's proof, it is a formalization link on
 [[problems/extremal_graph_theory/E0024/claims/2011_02_04_grzesik|Grzesik's claim page]]
 and gives no `formalized` evidence; the community database records
 `formal_status` Lean since 2026-04-23 (read 2026-10-06).

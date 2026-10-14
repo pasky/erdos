@@ -49,6 +49,6 @@ assertion stays open.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Mathematika. The site's commentary credits the
-result, but the site labeled the problem OPEN, so no curator acceptance is
-listed.
+**Acceptance.** Refereed: Mathematika. The erdosproblems.com commentary credits
+the result, but Bloom's catalog labeled the problem OPEN, so no curator
+acceptance is listed.

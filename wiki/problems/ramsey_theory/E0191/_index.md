@@ -32,28 +32,29 @@ $$
 \sum_{x\in X}\frac{1}{\log x}\geq C?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 8
-February 2026). A set $X$ with $\binom X2$ monochromatic is a monochromatic
-clique; the weight $\sum_{x\in X}1/\log x$ is, up to the constant factor a
-change of logarithm base introduces (Conlon, Fox and Sudakov take logarithms to
-base 2, p. 4), the $w(S)$ of Conlon, Fox and Sudakov, whose $f(n)$ is the least,
-over all $2$-colorings of the pairs of $\{2,\ldots,n\}$, of the largest weight
-of a monochromatic clique, so the question asks whether $f(n)\to\infty$. The
-vertex set starts at $2$ because $\log1=0$. Erdős's own wordings differ in
-inessential ways: his 1981 Combinatorica paper (p. 15 of the re-typeset copy,
-the site's locator) takes a graph on all the integers and asks for
-$\sup\sum1/\log n_i$ over independent or complete sets; the 1979 chapter (p.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 8 February 2026). A set $X$ with $\binom X2$ monochromatic is a
+monochromatic clique; the weight $\sum_{x\in X}1/\log x$ is, up to the constant
+factor a change of logarithm base introduces (Conlon, Fox and Sudakov take
+logarithms to base 2, p. 4), the $w(S)$ of Conlon, Fox and Sudakov, whose $f(n)$
+is the least, over all $2$-colorings of the pairs of $\{2,\ldots,n\}$, of the
+largest weight of a monochromatic clique, so the question asks whether
+$f(n)\to\infty$. The vertex set starts at $2$ because $\log1=0$. Erdős's own
+wordings differ in inessential ways: his 1981 Combinatorica paper (p. 15 of the
+re-typeset copy, the erdosproblems.com locator) takes a graph on all the
+integers and asks for $\sup\sum1/\log n_i$ over independent or complete sets;
+the 1979 chapter (p.
 333) and the 1980 monograph (p. 17) partition "the pairs of positive integers
 into two classes" and ask whether the sums $\sum_{x\in X}1/\log x$ "are
 unbounded"; the 1982 collection (p. 78) uses the weight $1/(1+\log i)$ on the
 vertices $1\le i\le n$. Each is the question above up to a bounded change of
-weight. The site's commentary calls Rödl's construction a lower bound for the
-problem; in terms of the largest forced weight $f(n)$ it is an upper bound,
-$f(n)=O(\log\log\log n)$, a point a reader raised in the thread on 5 February
-2026.
+weight. The erdosproblems.com commentary calls Rödl's construction a lower bound
+for the problem; in terms of the largest forced weight $f(n)$ it is an upper
+bound, $f(n)=O(\log\log\log n)$, a point a reader raised in the thread on 5
+February 2026.
 
-**Status.** Proved: the site labeled the problem PROVED (LEAN). The answer is
-yes. Rödl (J. Combin. Theory Ser. A 102 (2003), 229--240) proved that
+**Status.** Proved: Bloom's catalog labeled the problem PROVED (LEAN). The
+answer is yes. Rödl (J. Combin. Theory Ser. A 102 (2003), 229--240) proved that
 $f(n)\to\infty$, with $f(n)=\Omega(\log\log\log\log n/\log\log\log\log\log n)$.
 This is the rate both second-hand accounts give (under Rödl's results below).
 The paper also gives a coloring showing $f(n)=O(\log\log\log n)$. Theorem 1.1
@@ -64,21 +65,21 @@ The claim pages
 [[problems/ramsey_theory/E0191/claims/2011_12_07_conlon_fox_sudakov|Conlon, Fox and Sudakov 2011]]
 record the two refereed proofs with their postings and acceptance evidence. The
 frontmatter standing derives from these pages. Rödl's paper is not held, so its
-results are quoted second-hand from the Conlon--Fox--Sudakov introduction, the
-site and Erdős's 1982 report. The refereed theorem of Conlon, Fox and Sudakov
-answers the question on its own. It is cited from the arXiv version headed
-"Accepted for publication in Duke Mathematical Journal". The site's "(Lean)"
-suffix is a catalog label explained under Formalization. An external Lean file
-that declares itself a formalization of Rödl's result states the problem and
-claims a proof. It was not built or checked here, and it is linked from Rödl's
-claim page.
+results are quoted second-hand from the Conlon--Fox--Sudakov introduction,
+erdosproblems.com and Erdős's 1982 report. The refereed theorem of Conlon, Fox
+and Sudakov answers the question on its own. It is cited from the arXiv version
+headed "Accepted for publication in Duke Mathematical Journal".
+erdosproblems.com's "(Lean)" suffix is a catalog label explained under
+Formalization. An external Lean file that declares itself a formalization of
+Rödl's result states the problem and claims a proof. It was not built or checked
+here, and it is linked from Rödl's claim page.
 
 **Source.** [erdosproblems.com/191](https://www.erdosproblems.com/191),
 accessed 2026-09-18: the problem page (labeled
-PROVED (LEAN), which the site glosses as solved in the affirmative with the
-proof verified in Lean; last edited 8 February 2026; source keys [ErGr79, p. 333], [ErGr80,
-p. 17], [Er81, p. 15], [Er82e, p. 78]; commentary citing [Ro03] and
-[CFS13]), its one-comment discussion thread (5 February 2026) and its empty
+PROVED (LEAN), which erdosproblems.com glosses as solved in the affirmative with
+the proof verified in Lean; last edited 8 February 2026; source keys [ErGr79, p.
+333], [ErGr80, p. 17], [Er81, p. 15], [Er82e, p. 78]; commentary citing [Ro03]
+and [CFS13]), its one-comment discussion thread (5 February 2026) and its empty
 proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #191,
 https://www.erdosproblems.com/191, accessed 2026-09-18.
 
@@ -88,7 +89,7 @@ https://www.erdosproblems.com/191, accessed 2026-09-18.
   Theory Ser. A 102 (2003), no. 1, 229--240; DOI
   10.1016/S0097-3165(03)00026-8 (the Crossref record carries the
   publisher's open-archive license from 17 July 2013). Not held. Quoted
-  here from [CFS13] pp. 2--3 and from the site.
+  here from [CFS13] pp. 2--3 and from erdosproblems.com.
 - [CFS13] Conlon, D., Fox, J. and Sudakov, B., Two extensions of Ramsey's
   theorem. Duke Math. J. 162 (2013), no. 15, 2903--2927; DOI
   10.1215/00127094-2382566; arXiv:1112.1548v2 (16 October 2013).
@@ -99,8 +100,8 @@ https://www.erdosproblems.com/191, accessed 2026-09-18.
   [[../library/ramsey_theory/conlon_2013_two_extensions_ramsey_s_theorem/theorem_1_1|theorem_1_1]].
 - [Er81] Erdős, P., On the combinatorial problems which I would most like
   to see solved. Combinatorica 1 (1981), 25--42; the passage on p. 15 of
-  the re-typeset copy, which has its own pagination (the site's locator).
-  Library home:
+  the re-typeset copy, which has its own pagination (the erdosproblems.com
+  locator). Library home:
   [[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|erdos_1981_combinatorial_problems_which_i_would_most]]
   (the passage is quoted below).
 - [ErGr79] Erdős, P. and Graham, R. L., Old and new problems and results
@@ -120,7 +121,7 @@ https://www.erdosproblems.com/191, accessed 2026-09-18.
   p. 78. Library home:
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 
-**Formalization.** The site's "(Lean)" suffix is a catalog label; see
+**Formalization.** erdosproblems.com's "(Lean)" suffix is a catalog label; see
 "Formalization and the Lean label" below. The file
 [`ErdosProblems/191.lean`](https://github.com/google-deepmind/formal-conjectures/blob/ded870fdb5614dae05b5c2f20831d4cabaf6fb8c/FormalConjectures/ErdosProblems/191.lean)
 of formal-conjectures, added at the linked commit on 19 September 2026,
@@ -141,11 +142,11 @@ claims a proof (not built or checked here).
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; PROVED (LEAN), last edited 8 February 2026. The site's commentary
-answers yes and credits the proof to Rödl [Ro03]; it records from the same
-paper a coloring, for every $n$, of the pairs of $\{2,\ldots,n\}$ in which
-every $X$ with $\binom X2$ monochromatic has
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; PROVED (LEAN), last edited 8 February 2026. The
+erdosproblems.com commentary answers yes and credits the proof to Rödl [Ro03];
+it records from the same paper a coloring, for every $n$, of the pairs of
+$\{2,\ldots,n\}$ in which every $X$ with $\binom X2$ monochromatic has
 $\sum_{x\in X}1/\log x\ll\log\log\log n$, which it calls a lower bound for
 the problem, and Rödl's proof that the answer to the corresponding question
 for $3$-colorings is negative; and it credits Conlon, Fox and Sudakov
@@ -154,9 +155,8 @@ $2^{-8}\log\log\log n$. The thread's one
 comment (5 February 2026) restates the three-color failure, sets Erdős's
 1982 remark that Rödl's paper would appear soon (quoted under The origins)
 against a publication more than two decades later, and asks whether the
-commentary's lower bound should read upper bound; the site notes that it
-was updated to address the comment.
-The proof-claim tab is empty.
+commentary's lower bound should read upper bound; erdosproblems.com notes that
+it was updated to address the comment. The proof-claim tab is empty.
 
 **The origins.** [Er81], p. 15 of the re-typeset
 copy: "Let $\mathcal G$ be a graph whose vertices are the integers.
@@ -204,7 +204,7 @@ has weight $O(\log\log\log n)$. For three colors (p. 3, "as observed by
 Rödl"): color inside the intervals as before and every edge between
 intervals green; red and blue cliques lie inside one interval and weigh at
 most $4$, and a green clique weighs at most $\sum_{i\ge1}2^{-i+1}\le2$, so
-the analog of the question fails for three colors. These are the site's
+the analog of the question fails for three colors. These are erdosproblems.com's
 lower bound (a coloring, hence an upper bound on $f(n)$) and its
 negative answer for three colorings. Rödl's paper is not held; the
 reopening condition is a copy of the paper.
@@ -215,8 +215,8 @@ of [CFS13] (p. 3): "For $n$ sufficiently large, every $2$-coloring of the edges
 of the complete graph on the interval $\{2,\ldots,n\}$ contains a monochromatic
 clique with vertex set $S$ such that
 $\sum_{s\in S}\frac1{\log s}\ge2^{-8}\log\log\log n$. Hence,
-$f(n)=\Theta(\log\log\log n)$." The passage to the site's question is one line,
-made here: given $C>0$, every $n$ above the theorem's threshold with
+$f(n)=\Theta(\log\log\log n)$." The passage to the erdosproblems.com question is
+one line, made here: given $C>0$, every $n$ above the theorem's threshold with
 $2^{-8}\log\log\log n\ge C$ has a monochromatic $X$ of weight at least $C$,
 which is the statement with "sufficiently large depending on $C$". The proof
 (Section 3, with the lemma of Section 2; not read) follows Rödl's argument and
@@ -231,21 +231,21 @@ Conjecture 5.1 and the remarks of p. 15; the proof was not read, and nothing is
 independently reviewed here.
 
 **The constant.** Section 5.1 of [CFS13] (p. 15) conjectures the constant
-in terms of $c_0=\lim_{n\to\infty}(\log r(n))/n$, whose existence is the
-site's [[problems/ramsey_theory/E0077/_index|Problem 77]]: Conjecture 5.1,
-$f(n)=(c_0^{-2}+o(1))\log\log\log n$ if the limit exists. The authors show
-that a modification of Rödl's construction gives
+in terms of $c_0=\lim_{n\to\infty}(\log r(n))/n$, whose existence is
+erdosproblems.com's [[problems/ramsey_theory/E0077/_index|Problem 77]]:
+Conjecture 5.1, $f(n)=(c_0^{-2}+o(1))\log\log\log n$ if the limit exists. The
+authors show that a modification of Rödl's construction gives
 $f(n)\le(c_0^{-2}+o(1))\log\log\log n$ and sketch that a careful version of
 their proof gives $f(n)\ge(\frac14-o(1))\log\log\log n$, "which would be
 sharp if the exponential constant in the upper bound for diagonal Ramsey
 numbers is best possible, i.e., if $c_0=2$". Nothing found since determines
 the constant (search below).
 
-**Formalization and the Lean label.** The site's "(Lean)" suffix is a catalog
-label. Since 19 September 2026 the formal-conjectures statement `erdos_191` has
-carried a `formal_proof` attribute pointing at the artifact below; the community
-database's "proved (Lean)", listed as of its entry's last update on 24 August
-2026, names no file. The artifact behind the label is
+**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is a
+catalog label. Since 19 September 2026 the formal-conjectures statement
+`erdos_191` has carried a `formal_proof` attribute pointing at the artifact
+below; the community database's "proved (Lean)", listed as of its entry's last
+update on 24 August 2026, names no file. The artifact behind the label is
 `src/latest/ErdosProblems/Erdos191.lean` in Boris Alexeev's `lean-proofs`
 repository (GitHub user `plby`), at the commit linked under Formalization
 (committer date 15 September 2026): a file of 62,820 bytes and 1,403 lines for
@@ -264,16 +264,17 @@ final Ramsey argument on the block indices. The file contains no `sorry`, no
 `axiom` declaration and no `native_decide`, and ends with
 `#print axioms Erdos191.erdos_191` without recording the output. A simple graph
 on the vertex set plays the part of one color class, so the definition matches
-the site's two-coloring; the statement matches the site's question with the
-coloring so encoded. No fidelity review exists, this corpus has built and
-kernel-checked neither the file nor its utility module, and no local kernel
-credit is claimed. The AI-tool authorship is recorded as provenance only.
+erdosproblems.com's two-coloring; the statement matches the erdosproblems.com
+question with the coloring so encoded. No fidelity review exists, this corpus
+has built and kernel-checked neither the file nor its utility module, and no
+local kernel credit is claimed. The AI-tool authorship is recorded as provenance
+only.
 
 **Search scope (2026-09-18 UTC).** None of the routes below found a copy of
 [Ro03], a determination of the constant in $f(n)$, or a dispute of the
 theorem.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing at its `main` head before `191.lean`
   was added on 19 September 2026 (no file for this problem then; see
   Formalization); the community database record; the external Lean file at
@@ -298,15 +299,15 @@ compared: the Duke text of [CFS13].
 
 **Remaining gaps.** (1) Rödl's paper, the first proof and the source of the
 construction and the three-color remark, is not held; everything attributed
-to it is second-hand from [CFS13], [Er82e] and the site, which agree on
+to it is second-hand from [CFS13], [Er82e] and erdosproblems.com, which agree on
 the rate of its lower bound; reopening condition: a
 copy of J. Combin. Theory Ser. A 102 (2003), 229--240, which the
 publisher's record marks as open archive. (2) Proof coverage is at the
 level of statements; the proof of Theorem 1.1 was not read. (3) The Lean
 artifact is unbuilt and unchecked here, at a branch head rather than a fixed
-release, and its encoding of the coloring is related to the site's words
-here without a fidelity review. (4) The constant in $f(n)$ is open
-(Conjecture 5.1). (5) The site's lower-bound wording is recorded above.
+release, and its encoding of the coloring is related to erdosproblems.com's
+words here without a fidelity review. (4) The constant in $f(n)$ is open
+(Conjecture 5.1). (5) erdosproblems.com's lower-bound wording is recorded above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -45,5 +45,5 @@ this page records the independent proof.
 the page name is a placeholder.
 
 **Acceptance.** Refereed: Graphs and Combinatorics 10 (1994), no. 2--4,
-363--366. The site's commentary does not cite this paper, so no `reviewed`
-evidence is listed. The proof is not checked in this corpus.
+363--366. The erdosproblems.com commentary does not cite this paper, so no
+`reviewed` evidence is listed. The proof is not checked in this corpus.

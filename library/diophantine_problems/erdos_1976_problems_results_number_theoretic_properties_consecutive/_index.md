@@ -60,10 +60,10 @@ displays (2), (15) and (16) zoomed. No notice is printed on the
 typescript scan (its first and last two pages were checked); the hosting
 archive's root index prints "(C) 2005-2007 All rights reserved. All material on
 this site is for scientifics purposes only." (https://users.renyi.hu/~p_erdos/,
-read 2026-10-02), which speaks for the site, not the paper; no Crossref license
-is recorded, the card gives no DOI, and the publisher's page was not consulted
-(Utilitas Mathematica has no online page for Congressus Numerantium); the term
-is unstated.
+read 2026-10-02), which speaks for erdosproblems.com, not the paper; no Crossref
+license is recorded, the card gives no DOI, and the publisher's page was not
+consulted (Utilitas Mathematica has no online page for Congressus Numerantium);
+the term is unstated.
 
 Erdos surveys consecutive-integer problems after two old problems he
 describes as settled (p. 25): Tijdeman had just shown that n = x^l,
@@ -100,16 +100,16 @@ A(n(n+1); 2, 3) by n^{1+epsilon} for large n, the easy fact
 A(n(n+1); 2, 3) > c n log n for infinitely many n, and
 [[diophantine_problems/erdos_1976_problems_results_number_theoretic_properties_consecutive/conjecture_16|conjecture (16)]] that A(n(n+1); 2, 3) / (n log n) has
 limsup infinity, which is the problem's displayed question posed as an
-expectation; the site's source key for the problem. None of these decides it.
-[[../wiki/problems/integer_sequences/E0929/_index|#929]]: printed p. 26 (PDF p. 2, page
-image), L(n, k) = max of the least prime factors of n + 1, ..., n + k, the
-density alpha(k, l) of n with L(n, k) = p_l, the least l with
+expectation; the erdosproblems.com source key for the problem. None of these
+decides it. [[../wiki/problems/integer_sequences/E0929/_index|#929]]: printed p.
+26 (PDF p. 2, page image), L(n, k) = max of the least prime factors of n + 1,
+..., n + k, the density alpha(k, l) of n with L(n, k) = p_l, the least l with
 alpha(k, l) > 0 (that problem's S(k) is p_l), Brun's l > k^c, Rosser's
 l > k^{1/2 - eps} for k > k_0(eps) cited to the Halberstam-Richert book
 [13], the conjecture "Probably in fact alpha(k, l) > 0 implies
 l > k^{1 - eps}" (the problem's displayed question), and the Rankin-type bound
 l < ck (log log log k)^2/(log k log log k log log log log k) cited to [15];
-the site's source key for the problem; recorded on the
+the erdosproblems.com source key for the problem; recorded on the
 [[diophantine_problems/erdos_1976_problems_results_number_theoretic_properties_consecutive/conjecture_p26|conjecture on p. 26]].
 [[../wiki/problems/primes/E1201/_index|#1201]]:
 [[diophantine_problems/erdos_1976_problems_results_number_theoretic_properties_consecutive/theorem_1|Theorem 1]] proves an analogue of the problem's lower-density statement

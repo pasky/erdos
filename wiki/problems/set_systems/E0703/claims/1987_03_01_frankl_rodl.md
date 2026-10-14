@@ -44,19 +44,19 @@ $\epsilon n<r<(1/2-\epsilon)n$: for $\epsilon<1/4$ take $\delta$ below the
 theorem's constant, and for $\epsilon\ge1/4$ the range of $r$ is empty. The
 proof deletes coordinates one at a time while tracking a widening forbidden
 interval of intersection sizes, with Harper's isoperimetric inequality as
-its external input. The site notes that a yes answer implies the exponential
-growth of the chromatic number of the unit-distance graph of $\mathbb R^n$,
-which Frankl and Wilson [FrWi81] had proved by other means.
+its external input. erdosproblems.com notes that a yes answer implies the
+exponential growth of the chromatic number of the unit-distance graph of
+$\mathbb R^n$, which Frankl and Wilson [FrWi81] had proved by other means.
 
 **Depends on.**
 [[../library/set_systems/frankl_1987_forbidden_intersections/theorem_1_1|Frankl and Rödl (1987), Theorem 1.1]].
 
 **Acceptance.** Refereed: Trans. Amer. Math. Soc. **300** (1987), no. 1,
 259–286, received 24 October 1985. The issue is dated March 1987, and the page
-is dated to the first day of that month. Reviewed: Thomas Bloom, the site's
-curator, marked the problem proved and credits the yes answer to Frankl and Rödl
-[FrRo87]. The library's compilation of the theorem's proof chain is reading
-coverage, not acceptance evidence.
+is dated to the first day of that month. Reviewed: Thomas Bloom, the
+erdosproblems.com curator, marked the problem proved and credits the yes answer
+to Frankl and Rödl [FrRo87]. The library's compilation of the theorem's proof
+chain is reading coverage, not acceptance evidence.
 
 **Formalization.** Boris Alexeev's repository holds a Lean 4 development,
 added on 2026-08-17, whose header calls it a formalization of a solution to

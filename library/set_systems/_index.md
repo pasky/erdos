@@ -3,7 +3,7 @@ name: set_systems
 title: "Set Systems, Designs and Hypergraphs"
 desc: "Sources filed under Set Systems, Designs and Hypergraphs, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:28:39Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Set Systems, Designs and Hypergraphs
@@ -209,7 +209,7 @@ r-uniform hypergraph, confirming the natural (n/r)log n guess.
 r divisibility conditions suffice for Steiner systems (n,q,r) with n large.
 
 [[set_systems/koishichan_2025_counterexample_erdos_1022/_index|koishichan_2025_counterexample_erdos_1022/]]: Gives a direct two-level hypergraph construction that refutes Problem 1022
-and was accepted in the site's discussion.
+and was accepted in the erdosproblems.com discussion.
 
 [[set_systems/kolupaev_2023_erdos_matching_conjecture_almost_perfect_matchings/_index|kolupaev_2023_erdos_matching_conjecture_almost_perfect_matchings/]]: Proves the Erdős matching conjecture's bound by the clique of all k-subsets
 of [(s+1)k-1] for s > k >= 5, s > 101k^3 and

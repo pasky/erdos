@@ -4,8 +4,8 @@ title: Problem 1077
 desc: |
   Asks whether every graph on $n$ vertices with $n^{1+\alpha}$ edges has an
   almost-regular subgraph on $m>n^{1-\alpha}$ vertices with at least
-  $\epsilon m^{1+\alpha}$ edges. It is false as written; on the site's account
-  of a 2025 preprint, $n^\alpha$ is the right size.
+  $\epsilon m^{1+\alpha}$ edges. It is false as written; on erdosproblems.com's
+  account of a 2025 preprint, $n^\alpha$ is the right size.
 tags:
 - Graph theory
 status: solved
@@ -30,7 +30,7 @@ on $n$ vertices with at least $n^{1+\alpha}$ edges, then must $G$ contain a
 $D$-balanced subgraph on $m>n^{1-\alpha}$ vertices with at least $\epsilon
 m^{1+\alpha}$ edges?
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited
 8 January 2026). It renders the first of the two open problems closing
 [ErSi70] (printed pp. 388--389 = PDF pp. 12--13;
 [[../library/extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/question_p388|result page]]):
@@ -39,19 +39,20 @@ $n>n_0(\varepsilon,\alpha)$ and $d>d\cdot(\varepsilon,\alpha)$ [sic] every
 $G^n$ $e(G^n)>n^{1+\alpha}$ contains a $d$-regular subgraph $G^m$,
 $m>n^{1-\alpha}$, $e(G^m)>\varepsilon m^{1+\alpha}$?", where the paper's
 "$d$-regular" (Definition 1, pp. 379--380: $d\min\sigma(x)\ge\max\sigma(x)$)
-is the site's $D$-balanced. The quantifiers are the paper's: every $\epsilon$
-and $\alpha$ first, then $D$ and $n$ large. The wording is defective in two
-ways, both noted by the site's commentary, the second checked below:
-$\epsilon$ ranges over all positive reals although $\epsilon>0$ suggests a
-small constant (for fixed $\epsilon$ and $0<\alpha<1$ the demanded edge
+is erdosproblems.com's $D$-balanced. The quantifiers are the paper's: every
+$\epsilon$ and $\alpha$ first, then $D$ and $n$ large. The wording is defective
+in two ways, both noted by the erdosproblems.com commentary, the second checked
+below: $\epsilon$ ranges over all positive reals although $\epsilon>0$ suggests
+a small constant (for fixed $\epsilon$ and $0<\alpha<1$ the demanded edge
 density $2\epsilon m^{\alpha-1}$ still tends to $0$); and the exponent
 $1-\alpha$ falls as $\alpha$ grows, while the paper's own Theorem 1 gives
 subgraphs on $n^{\alpha(1-\alpha)/(1+\alpha)}$ vertices and the natural size,
-by the site's account, is $n^\alpha$. Both features are in Erdős and
+by erdosproblems.com's account, is $n^\alpha$. Both features are in Erdős and
 Simonovits's print, and the exponent $1-\alpha$ is their explicit print; the
-site's remark that it may be a typographical error is a guess that no text of
-theirs supports, so the Statement is judged as printed. The site's label
-DISPROVED (LEAN) carries a catalog suffix explained under Formalization.
+erdosproblems.com remark that it may be a typographical error is a guess that no
+text of theirs supports, so the Statement is judged as printed. The
+erdosproblems.com label DISPROVED (LEAN) carries a catalog suffix explained
+under Formalization.
 
 The commentary closes with the curator's best guess at the intended question,
 a variant with its own answer, in the corpus's words: fix $\alpha>0$; for $D$
@@ -59,8 +60,8 @@ and $n$ large enough, is there an $\epsilon=\epsilon(\alpha)>0$ such that any
 $n$-vertex graph $G$ with $e(G)\ge n^{1+\alpha}$ has a $D$-balanced subgraph
 $H$ on $m$ vertices, $m>\epsilon n^\alpha$, with $e(H)\ge\epsilon
 m^{1+\alpha}$? That is, $n^\alpha$ in place of $n^{1-\alpha}$, and $\epsilon$
-small and fixed by $\alpha$. Its answer is yes on the site's account, with
-qualifications. The upper bound is elementary: the complete bipartite graph
+small and fixed by $\alpha$. Its answer is yes on erdosproblems.com's account,
+with qualifications. The upper bound is elementary: the complete bipartite graph
 $K_{a,n-a}$ with $a=\lceil2n^\alpha\rceil$ of the Status shows that a
 $D$-balanced subgraph with an edge has at most $(D+1)a$ vertices, so
 $m\ll_Dn^\alpha$ is the most one can ask. The lower bound rests on Theorem 1.3
@@ -71,34 +72,36 @@ $e(H)\ge\frac{2^\epsilon-1}{48}cm^{1+\epsilon}$ and average degree
 $d(H)\ge\frac1{12}d(G)/\log(2n/d(G))$. As printed, with $c=1$ and
 $\epsilon=\alpha$, this gives (a deduction made here) $m\ge d(H)+1>
 n^\alpha/(6(1-\alpha)\log n)$, that is $m\gg_\alpha n^\alpha/\log n$ with
-$e(H)\gg_\alpha m^{1+\alpha}$, a logarithm short of the site's $m\gg
-n^\alpha$. The site's stronger reading rests on a forum comment of 28 December
-2025 which reports that a careful pass through the paper's proof gives an
-almost-regular subgraph on at least $n^\alpha/2$ vertices, a reading adopted
-by the site on 8 January 2026; that reading of the proof is recorded here as a
-lead with provenance and no status weight. So the variant's answer is yes up
-to the constant and a logarithmic factor on the printed sources, and yes as
-the site states it on a preprint together with a site-adopted forum reading of
-its proof; no refereed publication and no independent review of either the
-preprint or the forum reading was found on 2026-09-18. The variant has no
-claim page and does not enter the standing. The 1970 positive result is
+$e(H)\gg_\alpha m^{1+\alpha}$, a logarithm short of erdosproblems.com's
+$m\gg n^\alpha$. erdosproblems.com's stronger reading rests on a forum comment
+of 28 December 2025 which reports that a careful pass through the paper's proof
+gives an almost-regular subgraph on at least $n^\alpha/2$ vertices, a reading
+adopted by erdosproblems.com on 8 January 2026; that reading of the proof is
+recorded here as a lead with provenance and no status weight. So the variant's
+answer is yes up to the constant and a logarithmic factor on the printed
+sources, and yes as erdosproblems.com states it on a preprint together with an
+erdosproblems.com-adopted forum reading of its proof; no refereed publication
+and no independent review of either the preprint or the forum reading was found
+on 2026-09-18. The variant has no claim page and does not enter the standing.
+The 1970 positive result is
 [[../library/extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/theorem_1|Theorem 1 of ErSi70]],
 a subgraph on $m\ge n^{\alpha(1-\alpha)/(1+\alpha)}$ vertices with
 $\frac25m^{1+\alpha}$ edges.
 
-**Status.** DISPROVED (LEAN), the site's label, which describes the Statement as
-printed. The witness is the one the site's commentary names: a complete
-bipartite graph whose smaller side has about $n^\alpha$ vertices. It is
-recomputed here in the Current assessment. Take $0<\alpha<\tfrac12$, any
-$\epsilon>0$ and any $D\ge1$, and let $a=\lceil2n^\alpha\rceil$. The graph
-$K_{a,n-a}$ has at least $n^{1+\alpha}$ edges for large $n$. Every $D$-balanced
-subgraph of it with an edge has at most $(D+1)a<n^{1-\alpha}$ vertices. So no
-$D$-balanced subgraph on more than $n^{1-\alpha}$ vertices has any edge. As a
-universal statement over $\epsilon$ and $\alpha$ the Statement is therefore
-false. For $\alpha\ge\tfrac12$ this witness gives nothing, and the page decides
-nothing. The failure holds for every $0<\alpha<\tfrac12$, not only at boundary
-values. The exponent $1-\alpha$ is the poser's explicit print, so the curator's
-guess at the intended question is a variant (Formulation) and not a correction.
+**Status.** DISPROVED (LEAN), the erdosproblems.com label, which describes the
+Statement as printed. The witness is the one the erdosproblems.com commentary
+names: a complete bipartite graph whose smaller side has about $n^\alpha$
+vertices. It is recomputed here in the Current assessment. Take
+$0<\alpha<\tfrac12$, any $\epsilon>0$ and any $D\ge1$, and let
+$a=\lceil2n^\alpha\rceil$. The graph $K_{a,n-a}$ has at least $n^{1+\alpha}$
+edges for large $n$. Every $D$-balanced subgraph of it with an edge has at most
+$(D+1)a<n^{1-\alpha}$ vertices. So no $D$-balanced subgraph on more than
+$n^{1-\alpha}$ vertices has any edge. As a universal statement over $\epsilon$
+and $\alpha$ the Statement is therefore false. For $\alpha\ge\tfrac12$ this
+witness gives nothing, and the page decides nothing. The failure holds for every
+$0<\alpha<\tfrac12$, not only at boundary values. The exponent $1-\alpha$ is the
+poser's explicit print, so the curator's guess at the intended question is a
+variant (Formulation) and not a correction.
 
 A Lean file refutes the collection's formal statement with the same family at
 $\alpha=\tfrac14$. The printed wording implies that statement, so the file
@@ -112,17 +115,18 @@ clique counterexample of 24 December 2025
 ([[problems/extremal_graph_theory/E1077/claims/2025_12_24_alexeev|clique counterexample]])
 and the Lean file
 ([[problems/extremal_graph_theory/E1077/claims/2026_08_16_alexeev|Lean file]]).
-JunGao's witness carries the site's acceptance, since the site's label and
-commentary credit JunGao and the complete bipartite graph. The Lean file's
-acceptance rests on the corpus's build and statement audit. The clique
-construction, which neither the site nor a build credits, is claimed.
+JunGao's witness carries erdosproblems.com's acceptance, since the
+erdosproblems.com label and commentary credit JunGao and the complete bipartite
+graph. The Lean file's acceptance rests on the corpus's build and statement
+audit. The clique construction, which neither erdosproblems.com nor a build
+credits, is claimed.
 
 **Source.** [erdosproblems.com/1077](https://www.erdosproblems.com/1077),
 accessed 2026-09-18: the problem page (DISPROVED
-(LEAN), glossed by the site as a negative answer whose proof is verified in
-Lean; last edited 8 January 2026; source key [ErSi70, p. 388]; commentary
-citing [JiLo25], a forum comment and Problem 803; a thanks line naming Yael
-Dillies, JunGao and Zach Hunter), its nine-comment discussion thread
+(LEAN), glossed by erdosproblems.com as a negative answer whose proof is
+verified in Lean; last edited 8 January 2026; source key [ErSi70, p. 388];
+commentary citing [JiLo25], a forum comment and Problem 803; a thanks line
+naming Yael Dillies, JunGao and Zach Hunter), its nine-comment discussion thread
 (7 October 2025 to 31 December 2025) and its empty proof-claim tab. Cite as:
 T. F. Bloom, Erdős Problem #1077, https://www.erdosproblems.com/1077,
 accessed 2026-09-18.
@@ -157,10 +161,11 @@ accessed 2026-09-18.
 - [Al08] Alon, N., Problems and results in extremal combinatorics---II.
   Discrete Math. 308 (2008), 4460--4472; Section 2 (preprint p. 2) restates
   Theorem 1 of [ErSi70] with $D=D(\alpha)$ and $\frac25m^{1+\alpha}$. Not
-  cited by the site for this problem. Library home:
+  cited by erdosproblems.com for this problem. Library home:
   [[../library/extremal_graph_theory/alon_2008_problems_results_extremal_combinatorics/_index|alon_2008_problems_results_extremal_combinatorics]].
 
-**Formalization.** The site's Lean suffix is a catalog label. The file
+**Formalization.** The erdosproblems.com Lean suffix is a catalog label. The
+file
 [`ErdosProblems/1077.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1077.lean)
 of formal-conjectures at the pinned commit (main on 2026-09-18; 1,773 bytes)
 declares
@@ -169,14 +174,14 @@ under `category research solved, AMS 5`, with proof `sorry` and a
 `formal_proof` attribute naming `src/latest/ErdosProblems/Erdos1077.lean#L265`
 of the repository `plby/lean-proofs` at a pinned commit of 30 August 2026 (the
 claim page's second link). Its choices: $0<\epsilon<1$ and $0<\alpha<1$ where
-the site's wording has no upper bounds, strict edge counts where the site says
-"at least", and "eventually" in $D$ then in $n$. The corpus built that file's
-revision of 15 September 2026 (the claim page's first link), which differs
-from the named one only by a lint of 31 August 2026 that leaves the theorem's
-statement unchanged; in that revision the file has 336 lines, is headed
-`leanprover/lean4:v4.33.0 mathlib v4.33.0` and has eight Mathlib imports; it
-defines `SimpleGraph.IsBalanced G D := G.maxDegree ≤ D * G.minDegree` and
-proves
+the erdosproblems.com wording has no upper bounds, strict edge counts where
+erdosproblems.com says "at least", and "eventually" in $D$ then in $n$. The
+corpus built that file's revision of 15 September 2026 (the claim page's first
+link), which differs from the named one only by a lint of 31 August 2026 that
+leaves the theorem's statement unchanged; in that revision the file has 336
+lines, is headed `leanprover/lean4:v4.33.0 mathlib v4.33.0` and has eight
+Mathlib imports; it defines
+`SimpleGraph.IsBalanced G D := G.maxDegree ≤ D * G.minDegree` and proves
 `theorem not_erdos_1077 : ¬ ∀ ε > (0 : ℝ), ε < 1 → ∀ α > (0 : ℝ), α < 1 → ∀ᶠ D in atTop, ∀ᶠ n in atTop, ...`
 (line 266), the exact negation of the collection's right-hand side, by
 specializing $\epsilon=\tfrac12$, $\alpha=\tfrac14$ and the family
@@ -203,11 +208,12 @@ $\alpha=\tfrac14$. The community database (`data/problems.yaml`, 2026-09-18)
 lists `status` "disproved (Lean)" and `formal_status` Lean as of their last
 update on 23 August 2026, the informal status disproved as of its last update
 on 29 December 2025, the statement formalized as of its last update on 17
-October 2025, and no formal-proof field; the site's indicator reads "Yes".
+October 2025, and no formal-proof field; the erdosproblems.com indicator reads
+"Yes".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; DISPROVED (LEAN); last edited 8 January 2026. The commentary, in the
 corpus's words: the question is Erdős and Simonovits's, whose Theorem 1 in
 [ErSi70] gives, for each fixed $\alpha>0$ and $D$ and $n$ large, a
@@ -245,8 +251,9 @@ December 2025, the comment (the account JunGao) that the right exponent is
 $\alpha$, with the complete bipartite upper bound, the Jiang--Longbrake
 lower bound of order $n^\alpha/\log n$ from Theorem 1.3 and, from a careful
 reading of their proof, $n^\alpha/2$ vertices, marked on the thread as
-addressed by a site update (the page's edit of 8 January 2026). The proof-claim
-tab is empty. The community database record says disproved (Lean).
+addressed by an erdosproblems.com update (the page's edit of 8 January 2026).
+The proof-claim tab is empty. The community database record says disproved
+(Lean).
 
 **The Statement (checked here).** Fix $0<\alpha<\tfrac12$, $\epsilon>0$ and
 $D\ge1$. For $n$ large let $a=\lceil2n^\alpha\rceil$ and $G=K_{a,n-a}$. Since
@@ -282,15 +289,15 @@ the paper does not state the base of its logarithm, which changes constants
 only. Read depth: claims checked for Theorem 1.3 and the two statements
 around it; the proof (the paper's Section 2, pp. 4--5) was not read, so the
 forum comment's claim of $n^\alpha/2$ vertices from the proof is unverified
-here. Acceptance evidence: none refereed; the site's label and commentary of
-8 January 2026 and the thread. The 1970 theorem
+here. Acceptance evidence: none refereed; the erdosproblems.com label and
+commentary of 8 January 2026 and the thread. The 1970 theorem
 ([[../library/extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/theorem_1|Theorem 1]],
 p. 380): "If $e(G^n)\ge n^{1+\alpha}$ and $d=10\cdot2^{1/\alpha^2+1}$ then
 $G^{(n)}$ contains a $d$-regular subgraph $G^m$ such that
 $e(G^m)\ge\frac25m^{1+\alpha}$ and $m\ge n^{\alpha\frac{1-\alpha}{1+\alpha}}$
 unless $n$ is too small", whose exponent $\alpha(1-\alpha)/(1+\alpha)$ lies
-below $\alpha$ for every $0<\alpha<1$; the site's commentary paraphrases its
-edge bound as $\gg m^{1+\alpha}$.
+below $\alpha$ for every $0<\alpha<1$; the erdosproblems.com commentary
+paraphrases its edge bound as $\gg m^{1+\alpha}$.
 
 **The origin.** [ErSi70], p. 388 (PDF p. 12), under "OPEN
 PROBLEMS": "By the method of random graphs we can show that for every $d$
@@ -299,7 +306,7 @@ $d$-regular subgraph $G^m$ such that $e(G^m)\ge\varepsilon\sqrt n\,m$. Many
 open problems remain, we just state two of them", then the question quoted
 in the Formulation note (its last line on p. 389) and the second question,
 Problem 803's. The print has a stray dot in "$d>d\cdot(\varepsilon,\alpha)$",
-recorded as printed. The site's key [ErSi70, p. 388] and the thread's
+recorded as printed. The erdosproblems.com key [ErSi70, p. 388] and the thread's
 pointer to the bottom of p. 388 agree with the locator.
 
 **Leads with provenance, not status.** The forum comment of 28 December
@@ -307,7 +314,7 @@ pointer to the bottom of p. 388 agree with the locator.
 construction for $\alpha<\tfrac13$, credited by its poster to Aristotle, a
 claimed page
 ([[problems/extremal_graph_theory/E1077/claims/2025_12_24_alexeev|clique counterexample]])
-that the site's label does not credit;
+that the erdosproblems.com label does not credit;
 [CJMM24b] as the regular analog named in the thread and quoted by
 [JiLo25]; Semantic Scholar lists one paper citing [JiLo25], "Rational
 exponents near 3/2" (arXiv:2607.19607, 2026).
@@ -316,8 +323,8 @@ exponents near 3/2" (arXiv:2607.19607, 2026).
 version of [JiLo25], a written check of the forum reading, or a dispute of
 the disproof.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-18; the formal-conjectures file at the pinned commit and the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures file at the pinned commit and the
   external Lean file at its pinned commit (GitHub API); the community
   database record.
 - arXiv API: the record of 2507.03261 (two versions, no journal reference);
@@ -354,9 +361,9 @@ dot is recorded as printed.
 - [[../library/extremal_graph_theory/jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions/theorem_1_3|Jiang--Longbrake 2025, Theorem 1.3]]
   (preprint): a $6$-almost-regular subgraph with $\frac{2^\alpha-1}{48}m^{1+\alpha}$
   edges and average degree $\ge d(G)/(12\log(2n/d(G)))$, hence
-  $m\gg_\alpha n^\alpha/\log n$; $m\gg n^\alpha$ by the site's reading.
-- The complete bipartite upper bound $m\ll_Dn^\alpha$ (elementary; the site's
-  witness, recomputed above).
+  $m\gg_\alpha n^\alpha/\log n$; $m\gg n^\alpha$ by erdosproblems.com's reading.
+- The complete bipartite upper bound $m\ll_Dn^\alpha$ (elementary;
+  erdosproblems.com's witness, recomputed above).
 - The Lean refutation of the formal statement, and through it of the printed
   wording, built and audited by the corpus at its commit of 15 September 2026
   ([[problems/extremal_graph_theory/E1077/claims/2026_08_16_alexeev|claim page]]).

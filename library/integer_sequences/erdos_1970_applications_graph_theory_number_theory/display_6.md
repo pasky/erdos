@@ -43,5 +43,5 @@ None (a conjecture).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the problem's
-  statement in its 1970 wording, with equality in place of the site's
+  statement in its 1970 wording, with equality in place of erdosproblems.com's
   inequality.

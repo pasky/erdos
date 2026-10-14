@@ -68,7 +68,8 @@ Glock-Kuhn-Lo-Osthus.
 Source: <https://arxiv.org/abs/2007.14824>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1157/_index|#1157]]: Conjecture 1
-(p. 1) is the general conjecture in the site's commentary, and Theorem 3 (p. 2;
+(p. 1) is the general conjecture in the erdosproblems.com commentary, and
+Theorem 3 (p. 2;
 [[extremal_graph_theory/keevash_2020_brown_erdos_sos_conjecture_hypergraphs_large/theorem_3|theorem_3]])
 proves its $t=2$ linear form for every uniformity large enough in terms of
 the linear density; a preprint version of a refereed paper. Theorem 12

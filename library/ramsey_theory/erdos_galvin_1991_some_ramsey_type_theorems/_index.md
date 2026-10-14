@@ -10,7 +10,7 @@ desc: |
   points below n infinitely often.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-13T13:29:25Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems
@@ -53,7 +53,7 @@ k = 1.
 [[ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems/theorem_4_3|theorem_4_3]]: For every k a constant c such that any partition of N into k classes has a
 set X whose sums of consecutive elements lie in two classes and which has at
 least c log log n points below n for infinitely many n: the interval-sums
-theorem the site quotes on Problem 948.
+theorem erdosproblems.com quotes on Problem 948.
 
 ***
 
@@ -258,25 +258,25 @@ that, for any partition of $\mathbb{N}$ into $k+1$ disjoint classes
 $C_1,\ldots,C_{k+1}$, there is an infinite sequence $x_1<x_2<\cdots$ of
 positive integers with $\mathrm{FS}(\{x_1,x_2,\ldots\})\cap C_i=\emptyset$
 for some $i\in\{1,\ldots,k+1\}$ and $x_n\le\varphi(n)$ for infinitely many
-$n$?" The site's $k$ colors are the paper's $k+1$ classes, its "$a_n<f(n)$"
-the paper's "$x_n\le\varphi(n)$", and "does not contain all colours" the
-paper's "$\cap\,C_i=\emptyset$ for some $i$"; the quantifier "for infinitely
-many $n$" is printed here, where Erdős's 1977 wording of the same question
-has none. Theorem 4.1 (pp. 267--268) is Galvin's coloring from the site's
-commentary with its proof, and its clause (4) answers the two-class case
-negatively in the strong form: under the partition, any sequence whose
-consecutive sums lie in one class has $x_n>\varphi(n)$ for every $n$. The
+$n$?" erdosproblems.com's $k$ colors are the paper's $k+1$ classes, its
+"$a_n<f(n)$" the paper's "$x_n\le\varphi(n)$", and "does not contain all
+colours" the paper's "$\cap\,C_i=\emptyset$ for some $i$"; the quantifier "for
+infinitely many $n$" is printed here, where Erdős's 1977 wording of the same
+question has none. Theorem 4.1 (pp. 267--268) is Galvin's coloring from the
+erdosproblems.com commentary with its proof, and its clause (4) answers the
+two-class case negatively in the strong form: under the partition, any sequence
+whose consecutive sums lie in one class has $x_n>\varphi(n)$ for every $n$. The
 paper leaves the question open from three classes on ("We know nothing about
 the case $k=2$", p. 268) and asks it for finitely many classes only; the
 $\aleph_0$ version of Erdős's 1977 paper does not appear. Theorem 4.3
-(p. 268) is the interval-sums result the site quotes: two classes among $k$
-for $\mathrm{CFS}(X)$ with $|X\cap\{1,\ldots,n\}|\ge c\log\log n$ for
+(p. 268) is the interval-sums result erdosproblems.com quotes: two classes among
+$k$ for $\mathrm{CFS}(X)$ with $|X\cap\{1,\ldots,n\}|\ge c\log\log n$ for
 infinitely many $n$, that is, $x_n<2^{2^{O(n)}}$ for infinitely many $n$. A
-filing observation, not a review verdict: the site's commentary writes this
-bound "for all $n$", while the printed theorem asserts it for infinitely
-many $n$. Theorem 2.1 (p. 262), which the paper calls "the main result of
-our paper" (p. 262), is context only: the paper poses Problem 4.2 as the
-question whether some theorem stands to Hindman's theorem as Theorem 2.1
+filing observation, not a review verdict: the erdosproblems.com commentary
+writes this bound "for all $n$", while the printed theorem asserts it for
+infinitely many $n$. Theorem 2.1 (p. 262), which the paper calls "the main
+result of our paper" (p. 262), is context only: the paper poses Problem 4.2 as
+the question whether some theorem stands to Hindman's theorem as Theorem 2.1
 stands to Ramsey's, and the problem page states Theorem 2.1 as the paper's
 main result. Corollary 2.2, its concrete form, is with $r=2$ the input to
 Theorem 4.3.

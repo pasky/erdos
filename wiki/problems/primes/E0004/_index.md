@@ -29,18 +29,18 @@ $$
 p_{n+1}-p_n> C\frac{\log\log n\log\log\log\log n}{(\log\log \log n)^2}\log n?
 $$
 
-**Status.** Proved, the site's label. There are four accepted claims. The first
-two are
+**Status.** Proved, the erdosproblems.com label. There are four accepted claims.
+The first two are
 [[problems/primes/E0004/claims/2014_08_20_ford_green_konyagin_tao|the 2014 theorem of Ford, Green, Konyagin and Tao]]
 and
 [[problems/primes/E0004/claims/2014_08_21_maynard|Maynard's independent 2014 theorem]].
-Both were refereed in the Annals, and the site's curator credits them with the
-solution. The third is the stronger 2018 bound of
+Both were refereed in the Annals, and the erdosproblems.com curator credits them
+with the solution. The third is the stronger 2018 bound of
 [[problems/primes/E0004/claims/2014_12_16_ford_green_konyagin_maynard_tao|Ford, Green, Konyagin, Maynard and Tao]],
 refereed in the Journal of the American Mathematical Society. The curator names
 it as the best bound before 2026. The fourth is the stronger 2026 bound of
 [[problems/primes/E0004/claims/2026_08_26_dottedcalculator|the AI-written manuscript posted by DottedCalculator]],
-which the curator credits in the commentary and expounds on the site.
+which the curator credits in the commentary and expounds on erdosproblems.com.
 [[problems/primes/E0004/claims/1938_10_01_rankin|Rankin's 1938 bound]], refereed
 in the Journal of the London Mathematical Society, is an accepted partial result
 for every $C$ below $1/3$. Two claims are pending:
@@ -84,9 +84,9 @@ https://www.erdosproblems.com/4.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/4.lean),
 at the linked commit: a statement with `sorry` marked research solved, with
-Rankin's bound as a variant; the site's label carried no Lean qualification. In
-Boris Alexeev's `lean-proofs` repository, `Erdos4.lean` and `Erdos4b.lean` prove
-the statement for every $C>0$ and
+Rankin's bound as a variant; the erdosproblems.com label carried no Lean
+qualification. In Boris Alexeev's `lean-proofs` repository, `Erdos4.lean` and
+`Erdos4b.lean` prove the statement for every $C>0$ and
 [[problems/primes/E0004/claims/2014_12_16_ford_green_konyagin_maynard_tao|the 2018 five-author bound]],
 recorded on
 [[problems/primes/E0004/claims/2026_08_26_alexeev|their claim page]], and the

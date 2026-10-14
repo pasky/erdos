@@ -65,10 +65,11 @@ $e^{-e^{-2c}}$; the theorem's display is the value recorded here, and it is
 the value the Erdős--Rényi law for $V^{(2)}$ forces, since the two
 probabilities differ by $o(1)$.
 
-**In the problem's notation.** The site's $\tfrac12n\log n+\tfrac12n\log\log n+cn$
-edges is the case $c_n=c$ of $k_n$, and the site's limit $e^{-e^{-2c}}$ is
-the theorem's middle case, with no conversion. For fixed $\epsilon>0$ and
-large $n$, $(\tfrac12+\epsilon)n\log n=k_n$ with
+**In the problem's notation.** erdosproblems.com's
+$\tfrac12n\log n+\tfrac12n\log\log n+cn$ edges is the case $c_n=c$ of $k_n$, and
+erdosproblems.com's limit $e^{-e^{-2c}}$ is the theorem's middle case, with no
+conversion. For fixed $\epsilon>0$ and large $n$,
+$(\tfrac12+\epsilon)n\log n=k_n$ with
 $c_n=\epsilon\log n-\tfrac12\log\log n\to\infty$, so the third case
 gives probability tending to $1$ at $(\tfrac12+\epsilon)n\log n$ edges, and
 by monotonicity of Hamiltonicity in the edge count at every larger $N$; this
@@ -132,7 +133,7 @@ and its [1], Pósa's paper
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the limit law the
-  site's commentary attributes to the paper, "with
+  erdosproblems.com commentary attributes to the paper, "with
   $\frac12n\log n+\frac12n\log\log n+cn$ edges the probability that the graph
   is Hamiltonian tends to $e^{-e^{-2c}}$", as printed; its $c_n\to\infty$
   case gives the problem's statement at $(\tfrac12+\epsilon)n\log n$ edges.

@@ -36,7 +36,7 @@ $$
 
 is the Schnirelmann density?
 
-**Status.** The site labeled the problem PROVED (LEAN). It is proved by
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). It is proved by
 Plünnecke's density bound below, recorded on
 [[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|its claim page]].
 The Lean proof behind the label is linked from that claim page and is qualified
@@ -51,8 +51,8 @@ https://www.erdosproblems.com/35, accessed 2026-09-05.
 - [Er36c] Erdős, P., On the arithmetical density of the sum of two sequences,
   one of which forms a basis for the integers. Acta Arithmetica 1 (1935),
   197–200. DOI: [10.4064/aa-1-2-197-200](https://doi.org/10.4064/aa-1-2-197-200).
-  The site/archive key is Er36c and labels the scan 1936; the printed paper is
-  dated received 11 March 1935.
+  erdosproblems.com/archive key is Er36c and labels the scan 1936; the printed
+  paper is dated received 11 March 1935.
 - [Er56] Erdős, P., Problems and results in additive number theory. Colloque
   sur la Théorie des Nombres, Bruxelles, 1955, 127–137. George Thone, Liège;
   Masson and Cie, Paris, 1956.
@@ -74,8 +74,8 @@ commit of 2026-09-15. That development declares itself a formalization of
 Plünnecke's solution, so it is linked from
 [[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|Plünnecke's claim
 page]] rather than recorded as a claim of its own, and it carries no
-formal-verification credit in this corpus. The site's PROVED (LEAN) label, in
-place by 2026-09-04, rests on that development.
+formal-verification credit in this corpus. erdosproblems.com's PROVED (LEAN)
+label, in place by 2026-09-04, rests on that development.
 
 ## Current assessment
 
@@ -83,11 +83,11 @@ Plünnecke's density bound, with the endpoint deductions below, supplies the
 stated inequality. The recorded full proof uses Jin's sixteen-page author
 manuscript and its cited external truncated Plünnecke graph inequality;
 Plünnecke's original proof is cited, not compiled. This page records no
-independent review verdict for the reconstructed proofs. The site's Lean label
-rested on the public Lean proof linked from
+independent review verdict for the reconstructed proofs. The erdosproblems.com
+Lean label rested on the public Lean proof linked from
 [[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|Plünnecke's claim
 page]], which carries no formal-verification credit in this corpus. Status
-search: the site's page and remarks, its forum thread and the
+search: the erdosproblems.com page and remarks, its forum thread and the
 formal-conjectures file. On 2026-10-07 the thread held one comment, a notation
 query, and none of these sources held another claim.
 

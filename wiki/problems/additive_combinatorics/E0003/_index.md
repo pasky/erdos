@@ -25,12 +25,12 @@ updated: 2026-10-08T00:51:02Z
 **Statement.** If $A\subseteq \mathbb{N}$ has $\sum_{n\in A}\frac{1}{n}=\infty$
 then must $A$ contain arbitrarily long arithmetic progressions?
 
-**Status.** OPEN, the site's label (page last edited 4 April 2026, as accessed
-2026-09-04). The problem stands solved and proved here. The OpenAI mathematics
-release of 23 September 2026 answers the question yes. Its manuscript states
-$r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$
-(Theorem 1.1) and sums that bound over dyadic intervals (Corollary 1.2). The
-release's Lean proves the yes answer from a weaker bound,
+**Status.** OPEN, the erdosproblems.com label (page last edited 4 April 2026, as
+accessed 2026-09-04). The problem stands solved and proved here. The OpenAI
+mathematics release of 23 September 2026 answers the question yes. Its
+manuscript states $r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every
+fixed $k\ge3$ (Theorem 1.1) and sums that bound over dyadic intervals (Corollary
+1.2). The release's Lean proves the yes answer from a weaker bound,
 $r_k(N)\le CN\exp(-c(\log\log N)^{1+\eta})$. The curator's post
 [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
 (8 October 2026) makes the same observation: the comparator challenge states
@@ -75,10 +75,10 @@ https://www.erdosproblems.com/3.
   Erdős conjectures that if $\{a_i\}$ is any infinite sequence of integers
   for which $\sum1/a_i$ is divergent, then the sequence contains
   arbitrarily long arithmetic progressions. He offered \$3000.00 for a
-  proof or disproof of this conjecture"; the printed prize differs from the
-  site's. Section E10, printed p. 318, points back to "a potentially
-  remunerative conjecture of Erdős, which, if true, would imply Szemerédi's
-  theorem". Library home:
+  proof or disproof of this conjecture"; the printed prize differs from
+  erdosproblems.com's. Section E10, printed p. 318, points back to "a
+  potentially remunerative conjecture of Erdős, which, if true, would imply
+  Szemerédi's theorem". Library home:
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 - [KeMe23] Kelley, Z. and Meka, R., Strong Bounds for 3-Progressions.
   arXiv:2302.05537 (2023).
@@ -103,19 +103,19 @@ a hypothesis.
 
 ## Current assessment
 
-The site's formulation (page last edited 4 April 2026) asks whether every
-$A\subseteq\mathbb N$ with divergent reciprocal sum contains arbitrarily
+The erdosproblems.com formulation (page last edited 4 April 2026) asks whether
+every $A\subseteq\mathbb N$ with divergent reciprocal sum contains arbitrarily
 long arithmetic progressions. The answer is yes by Corollary 1.2 of the
 OpenAI release manuscript of 23 September 2026, accepted on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|its claim page]]
 on the release's Lean declaration, which this corpus built and whose axioms
-it checked; the site's label was OPEN and the release has no journal record
-or outside review.
+it checked; the erdosproblems.com label was OPEN and the release has no journal
+record or outside review.
 
-Known results before the release, as the site's commentary and the cited papers
-give them. The case $k=3$ is Corollary 1.2 of Bloom and Sisask [BlSi20], deduced
-by partial summation from their bound $r_3(N)\ll N/(\log N)^{1+c}$; it is the
-claimed partial result on
+Known results before the release, as the erdosproblems.com commentary and the
+cited papers give them. The case $k=3$ is Corollary 1.2 of Bloom and Sisask
+[BlSi20], deduced by partial summation from their bound
+$r_3(N)\ll N/(\log N)^{1+c}$; it is the claimed partial result on
 [[problems/additive_combinatorics/E0003/claims/2020_07_07_bloom_sisask|its claim page]],
 with no journal version. Kelley and Meka [KeMe23] proved
 $r_3(N)\ll N\exp(-c(\log N)^{1/12})$, which gives the three-term case with room
@@ -132,8 +132,8 @@ an accepted partial result on
 The formal-conjectures file records the three-term case and the four $r_k$
 bounds as its solved variants.
 
-Search scope: the site's page as accessed 2026-09-04 and 2026-10-06, its
-references, the curator's post on the release of 8 October 2026, the
+Search scope: the erdosproblems.com page as accessed 2026-09-04 and 2026-10-06,
+its references, the curator's post on the release of 8 October 2026, the
 formal-conjectures statement file as it stood on 2026-10-06 (last changed on
 2026-09-27) and at its commits of 2026-10-10, which added the conditional proof
 link, and 2026-10-11, and the OpenAI release of 23 September 2026 at the

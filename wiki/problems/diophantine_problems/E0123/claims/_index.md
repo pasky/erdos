@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 123, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/diophantine_problems/E0123/claims
@@ -26,11 +26,12 @@ bases.
 
 [[problems/diophantine_problems/E0123/claims/2026_07_15_snyder|2026_07_15_snyder]]: Colin Snyder claims, with a Lean proof, that for pairwise coprime $a,b,c>1$
 every large integer is a sum of distinct numbers $a^kb^lc^m$, none dividing
-another. The site's curator accepted it, and nothing was built in the corpus.
+another. The erdosproblems.com curator accepted it, and nothing was built in
+the corpus.
 
 [[problems/diophantine_problems/E0123/claims/2026_07_20_principia_math|2026_07_20_principia_math]]: Claims a second proof that the products of powers of three pairwise coprime
 bases are $d$-complete, with the summands confined to a short multiplicative
-window. The proof is written up and formalized in Lean, and the site shows no
-verdict.
+window. The proof is written up and formalized in Lean, and erdosproblems.com
+shows no verdict.
 
 ***

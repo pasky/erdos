@@ -85,8 +85,8 @@ $1/n$ with $n<u$, contradicting $u\in\mathcal U$. So, in the notation of
 Problem 321, $R(N)\ge|\mathcal U(N)|$, and the proof's lower bound for
 $|\mathcal U(N)|$ gives $R(N)\ge2(1-\frac{3/2}{\ln_kN})\frac{N}{\ln N}\prod_{j=3}^k\ln_jN$
 for $k\ge4$ and $\ln_kN\ge3/2$. The paper does not state this consequence;
-the site's Problem 321 page calls the lower bound "implicit" in the paper and
-the proof claim accepted there attributes it to "the dissociated set
+erdosproblems.com's Problem 321 page calls the lower bound "implicit" in the
+paper and the proof claim accepted there attributes it to "the dissociated set
 constructed in" the paper. The three-line argument above is written for that
 page and is not taken from a source; the accepted claim's Lean file proves
 the same finite statement (`BGMSU_dissociated`,
@@ -102,7 +102,7 @@ Lemmas 6 and 7); Lemma 5's explicit list, checked by the authors.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0320/_index|Problem 320]]: the best refereed lower
-  bound for $\log S(N)$, matched in order by the site-accepted upper bound of
-  July 2026.
+  bound for $\log S(N)$, matched in order by the erdosproblems.com-accepted
+  upper bound of July 2026.
 - [[../wiki/problems/unit_fractions/E0321/_index|Problem 321]]: the lower bound for $R(N)$
   through the dissociated set $\mathcal U(N)$, as above.

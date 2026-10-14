@@ -87,5 +87,5 @@ of the 1976 paper) and the densifying Lemma 9.1 with Corollary 9.3.
   question; this step is made here, not in the paper.
 - [[../wiki/problems/ramsey_theory/E0615/_index|Problem 615]]: context, not
   the problem's question. The problem page cites the theorem to show that
-  the site's background sentence on $\mathrm{rt}(n;4,\epsilon n)$ fails
+  erdosproblems.com's background sentence on $\mathrm{rt}(n;4,\epsilon n)$ fails
   when $\epsilon$ is fixed and $o(1)$ tends to $0$ with $n$.

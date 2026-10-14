@@ -25,10 +25,10 @@ updated: 2026-10-08T18:27:16Z
 $\lvert A\rvert=n$ then $\prod_{a\neq b\in A}(a+b)$ has at least $f(n)$ distinct
 prime factors. Is it true that $f(n)/\log n\to\infty$?
 
-**Status.** PROVED (LEAN), the site's label, which credits GPT-6 Astra. The
-compared Lean proves $f(n)/\log n\to\infty$. An alternate module of the same
-repository gives $f(n)\gg n^{1/2}$. Both claim pages are for that square-root
-bound. The first is
+**Status.** PROVED (LEAN), the erdosproblems.com label, which credits GPT-6
+Astra. The compared Lean proves $f(n)/\log n\to\infty$. An alternate module of
+the same repository gives $f(n)\gg n^{1/2}$. Both claim pages are for that
+square-root bound. The first is
 [[problems/arithmetic_functions/E0126/claims/2026_09_03_adamczewski|Adamczewski 2026]],
 the Lean proof found by a pre-release GPT-6 Astra in Epoch AI's benchmark run
 and published in Tom Adamczewski's repository. The second is
@@ -76,25 +76,25 @@ Erdős run and published in Tom Adamczewski's repository, and is accepted on
 found the axioms of the compared declaration to be the three standard ones in
 the primary module and in each alternate, matched its fingerprint to the
 comparator challenge that pins it and audited its statement clause by clause
-against the Statement above, as the claim page records. The site's curator
-registered it as a proof claim on the site's proof-claims tab on 2026-09-03 and
-co-authored the paper that announces it (arXiv:2609.25050, a preprint), so the
-curator's label and credit are not an independent review of a proof claim they
-submitted and no `reviewed` evidence is listed; the exposition is a
-placeholder that GPT generated from the Lean proof at the curator's request, so
-there is no refereed write-up. The compared declaration is the limit statement
-$f(n)/\log n\to\infty$; the square-root bound is formally checked in the
-alternate module `Erdos126_104usd_15h`, which no challenge compares, and is not
-asserted to be optimal.
+against the Statement above, as the claim page records. The erdosproblems.com
+curator registered it as a proof claim on the erdosproblems.com proof-claims tab
+on 2026-09-03 and co-authored the paper that announces it (arXiv:2609.25050, a
+preprint), so the curator's label and credit are not an independent review of a
+proof claim they submitted and no `reviewed` evidence is listed; the exposition
+is a placeholder that GPT generated from the Lean proof at the curator's
+request, so there is no refereed write-up. The compared declaration is the limit
+statement $f(n)/\log n\to\infty$; the square-root bound is formally checked in
+the alternate module `Erdos126_104usd_15h`, which no challenge compares, and is
+not asserted to be optimal.
 [[problems/arithmetic_functions/E0126/claims/2026_09_04_johnvictor36|JohnVictor36 2026]]
 is a Lean repository whose commits are dated 2026-09-02 and 2026-09-03,
-registered on the site on 2026-09-04, asserting at least $\sqrt{n/12}$ distinct
-prime factors; it holds a draft write-up and a README reporting a clean build
-with only the three standard axioms and the bound $|A|\le13r^2$, and a comment
-of 2026-09-05 on the claim's panel reports that it compiles, but no review of
-its mathematics is recorded, as the source digest also notes. Neither claim has
-a refereed write-up, and no priority between the two is determined. The
-library's result pages for the GPT-6 Astra exposition state its results with
+registered on erdosproblems.com on 2026-09-04, asserting at least $\sqrt{n/12}$
+distinct prime factors; it holds a draft write-up and a README reporting a clean
+build with only the three standard axioms and the bound $|A|\le13r^2$, and a
+comment of 2026-09-05 on the claim's panel reports that it compiles, but no
+review of its mathematics is recorded, as the source digest also notes. Neither
+claim has a refereed write-up, and no priority between the two is determined.
+The library's result pages for the GPT-6 Astra exposition state its results with
 proof sketches, claims checked against the print; they award no acceptance, and
 no independent review of them is recorded.
 
@@ -102,12 +102,13 @@ no independent review of them is recorded.
 
 The
 [[../library/arithmetic_functions/erdos_1934_problem_elementary_theory_numbers/_index|Erdős–Turán
-paper]] is the historical source. The site attributes the earlier bounds
-$\log n\ll f(n)\ll n/\log n$ to it; the library holds no compilation of
+paper]] is the historical source. erdosproblems.com attributes the earlier
+bounds $\log n\ll f(n)\ll n/\log n$ to it; the library holds no compilation of
 those historical proofs.
 
 On 2026-09-03, Thomas F. Bloom registered the GPT-6 Astra result as a
-[proof claim on the site's proof-claims tab](https://www.erdosproblems.com/forum/thread/126/proof-claims#proof-claim-244),
+[proof claim on the erdosproblems.com proof-claims
+tab](https://www.erdosproblems.com/forum/thread/126/proof-claims#proof-claim-244),
 linking the public formal proofs and a preliminary exposition; the claim
 page
 [[problems/arithmetic_functions/E0126/claims/2026_09_03_adamczewski|Adamczewski 2026]]

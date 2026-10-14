@@ -42,6 +42,6 @@ print.
 
 - [[../wiki/problems/additive_bases/E0871/_index|#871]]: the problem page lists
   this paper among its references; the question in the second sentence of Problem 2
-  is the one #871 asks, which the site states with the count $1_A\ast1_A(n)$
-  of ordered representations in place of the paper's $f(n)$. The paper poses
-  the question and does not answer it.
+  is the one #871 asks, which erdosproblems.com states with the count
+  $1_A\ast1_A(n)$ of ordered representations in place of the paper's $f(n)$. The
+  paper poses the question and does not answer it.

@@ -69,13 +69,15 @@ Kohayakawa, Lee, Rödl and Samotij
 independently and in Random Structures Algorithms 46 (2015), 1–25, prove
 $A(N)\leq 2^{cf(N)}$ for a constant $c$ (Theorem 1.1); they note that their
 method allows any $c>\log_2(32e)=6.442\ldots$, and they write the proof for
-$c>\log_2(33e)=6.487\ldots$. The site's remarks (last edited 2025-10-15) give
-$6.442$ as the best upper bound. That paper restates the lower bound proved
-here. The limit of $\log_2 A(N)/f(N)$, if it exists, is not determined.
+$c>\log_2(33e)=6.487\ldots$. The erdosproblems.com remarks (last edited
+2025-10-15) give $6.442$ as the best upper bound. That paper restates the lower
+bound proved here. The limit of $\log_2 A(N)/f(N)$, if it exists, is not
+determined.
 
-**Acceptance.** The paper is refereed (Invent. Math.). The site's curator, T. F.
-Bloom, records both questions as settled on the problem page (last edited
-2025-10-15). The first is settled positively and the second negatively, with the
-lower bound credited to this paper. This is the `reviewed` evidence named here.
+**Acceptance.** The paper is refereed (Invent. Math.). The erdosproblems.com
+curator, T. F. Bloom, records both questions as settled on the problem page
+(last edited 2025-10-15). The first is settled positively and the second
+negatively, with the lower bound credited to this paper. This is the `reviewed`
+evidence named here.
 
 **Depends on.** Nothing beyond the cited paper.

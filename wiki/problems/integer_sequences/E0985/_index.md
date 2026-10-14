@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0985
 title: Problem 985
 desc: |
   Asks whether every prime $p>2$ has a primitive root modulo $p$ that is a prime
-  $q<p$. The site's wording also includes $p=2$, where it fails.
+  $q<p$. The erdosproblems.com wording also includes $p=2$, where it fails.
 tags:
 - Number theory
 status: open
@@ -24,11 +24,12 @@ which is a primitive root modulo $p$?
 **Statement (modified).** Is it true that, for every prime $p>2$, there is a
 prime $q<p$ which is a primitive root modulo $p$?
 
-**Notes.** The site's wording quantifies over every prime $p$ and fails at the
-smallest one: no prime is smaller than $2$, so $p=2$ has no prime primitive
-root $q<p$. A comment of 17 August 2025 by Woett in the site's
-[discussion thread](https://www.erdosproblems.com/forum/thread/985) makes this
-remark, that $p>2$ is required, and the [formal-conjectures
+**Notes.** The erdosproblems.com wording quantifies over every prime $p$ and
+fails at the smallest one: no prime is smaller than $2$, so $p=2$ has no prime
+primitive root $q<p$. A comment of 17 August 2025 by Woett in
+erdosproblems.com's [discussion
+thread](https://www.erdosproblems.com/forum/thread/985) makes this remark, that
+$p>2$ is required, and the [formal-conjectures
 statement](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/985.lean)
 assumes $p\ne2$. The change inserts "$>2$" after "every prime $p$"; nothing
 else changes. The defect is already in the poser's text: Erdős asks the
@@ -37,15 +38,15 @@ question for every prime with no restriction, in [Er61e], p. 11, and in
 every $p$ there is a prime $q<p$ which is a primitive root of $p$." The
 problem's standing judges the modified Statement.
 
-**Formulation.** The site's wording is Erdős's question as he asks it in
-[Er65b] (printed p. 233), the site's source, and in his 1961 note [Er61e]
-(p. 11). The modified Statement asks that the least prime primitive root of
-every prime $p>2$ be smaller than $p$; Artin's conjecture, which the site's
-commentary cites, concerns a fixed base instead, and asks for infinitely many
-primes $p$ to which that base is a primitive root.
+**Formulation.** The erdosproblems.com wording is Erdős's question as he asks it
+in [Er65b] (printed p. 233), the erdosproblems.com source, and in his 1961 note
+[Er61e] (p. 11). The modified Statement asks that the least prime primitive root
+of every prime $p>2$ be smaller than $p$; Artin's conjecture, which the
+erdosproblems.com commentary cites, concerns a fixed base instead, and asks for
+infinitely many primes $p$ to which that base is a primitive root.
 
-**Status.** Open. The site's label was OPEN, which describes the modified
-Statement. No claim page is recorded.
+**Status.** Open. The erdosproblems.com label was OPEN, which describes the
+modified Statement. No claim page is recorded.
 
 **Source.** [erdosproblems.com/985](https://www.erdosproblems.com/985), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #985,
@@ -70,11 +71,11 @@ https://www.erdosproblems.com/985.
 
 ## Current assessment
 
-**Scope.** The page carried the site's label (OPEN, accessed 2026-09-04),
-which describes the modified Statement, and its references on Artin's
-conjecture; no status search is recorded. The notes below record the literature
-on the least prime primitive root and the release's manuscripts that bear on the
-question.
+**Scope.** The page carried the erdosproblems.com label (OPEN, accessed
+2026-09-04), which describes the modified Statement, and its references on
+Artin's conjecture; no status search is recorded. The notes below record the
+literature on the least prime primitive root and the release's manuscripts that
+bear on the question.
 
 **The least prime primitive root.** Under the generalized Riemann hypothesis,
 Shoup (*Searching for primitive roots in finite fields*, Math. Comp. 58
@@ -91,8 +92,8 @@ outside a set of $O(Y^\varepsilon)$ of them. Neither result has a claim page:
 the conditional bound carries an inexplicit constant, so it covers only primes
 beyond an uncomputed threshold, and the almost-all bounds name no prime, so
 neither settles an instance of the question. Computations of the least prime
-primitive root up to $10^{14}$ reported on the site's thread cite no published
-source, so they are not recorded here.
+primitive root up to $10^{14}$ reported on the erdosproblems.com thread cite no
+published source, so they are not recorded here.
 
 **The release on Artin's conjecture.** The OpenAI mathematics release's
 manuscript *Primitive roots for every admissible integer base* (4 October

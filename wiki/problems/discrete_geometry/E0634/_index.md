@@ -23,11 +23,11 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Find all $n$ such that there is at least one triangle which can
 be cut into $n$ congruent triangles.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 30
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 30
 December 2025) and has adopted none of the claims below. Its proof-claims thread
 carries two partial claims, posted 17 and 24 July 2026. Seven further partial
-claims, each with a claim page below, come from the literature the site's
-remarks credit and from manuscripts posted elsewhere.
+claims, each with a claim page below, come from the literature the
+erdosproblems.com remarks credit and from manuscripts posted elsewhere.
 
 **Source.** [erdosproblems.com/634](https://www.erdosproblems.com/634), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #634,
@@ -53,14 +53,14 @@ layer of the author's paper; this corpus has built neither.
 
 The question is which positive integers $n$ occur as the number of pieces
 when some triangle is cut into $n$ congruent triangles; Erdős's question is
-reported by Soifer [So09c]. The site's remarks (page last edited 30 December
-2025), in the corpus's words: every square $n$ occurs, and for a square any
-triangle can be cut; Soifer [So09c] showed that $2n^2$, $3n^2$, $6n^2$ and
-$n^2+m^2$ occur; Beeson showed, in talk slides the site links, that $7$ and
-$11$ do not occur; the site suggests that no prime of the form $4n+3$ may
-occur, and says that it is not known whether $19$ occurs. Soifer [So09]
-showed that with similarity in place of congruence every triangle can be cut
-into $N$ similar triangles for every $N\ne2,3,5$; that is a different
+reported by Soifer [So09c]. The erdosproblems.com remarks (page last edited 30
+December 2025), in the corpus's words: every square $n$ occurs, and for a square
+any triangle can be cut; Soifer [So09c] showed that $2n^2$, $3n^2$, $6n^2$ and
+$n^2+m^2$ occur; Beeson showed, in talk slides erdosproblems.com links, that $7$
+and $11$ do not occur; erdosproblems.com suggests that no prime of the form
+$4n+3$ may occur, and says that it is not known whether $19$ occurs. Soifer
+[So09] showed that with similarity in place of congruence every triangle can be
+cut into $N$ similar triangles for every $N\ne2,3,5$; that is a different
 question. Snover, Waiveris and Williams [SWW91] settled the special case in
 which the congruent pieces must also be similar to the whole triangle: the
 possible counts are exactly $n^2$, $n^2+m^2$ and $3n^2$, each attained, so
@@ -73,9 +73,9 @@ integers (the standing assumption of the paper's Section 2.1), that is, for an
 integer-sided tile with an angle of $2\pi/3$, that an equilateral triangle can
 be cut into $m^2ab$ congruent copies for every
 $m\ge3\lceil(c^2-a-b)/(ab)\rceil$ (Theorem 4), so these values occur, and
-conjectures which counts the $2\pi/3$ family admits; the site's remark states
-the result for arbitrary integers $a\ge b$ without the integrality of $c$ and
-misprints the third side as $\sqrt{a^2+b^2+2+ab}$. The companion
+conjectures which counts the $2\pi/3$ family admits; the erdosproblems.com
+remark states the result for arbitrary integers $a\ge b$ without the integrality
+of $c$ and misprints the third side as $\sqrt{a^2+b^2+2+ab}$. The companion
 [[problems/discrete_geometry/E0633/_index|Problem 633]], which asks for the
 triangles that can only be cut into a square number of congruent pieces, is
 solved by Beeson, Laczkovich and Zhang
@@ -86,9 +86,10 @@ restates; Harries's first manuscript cites it for those restatements,
 Harries's second as corroboration only, and Beeson's prime manuscript among
 its inputs; George's does not cite it.
 
-Nine partial claims are recorded, none adopted by the site; one of them,
-the rep-tiling theorem of Snover, Waiveris and Williams, is accepted on its
-refereed publication. Four are the results the site's remarks credit:
+Nine partial claims are recorded, none adopted by erdosproblems.com; one of
+them, the rep-tiling theorem of Snover, Waiveris and Williams, is accepted on
+its refereed publication. Four are the results the erdosproblems.com remarks
+credit:
 [[problems/discrete_geometry/E0634/claims/1991_08_01_snover_waiveris_williams|Snover,
 Waiveris and Williams's claim page]] (the rep-tiling counts $n^2+m^2$ and
 $3n^2$, Discrete Mathematics 1991),
@@ -97,7 +98,8 @@ page]] (the families $2n^2$, $3n^2$, $6n^2$ and $n^2+m^2$, from a book chapter
 of 2009),
 [[problems/discrete_geometry/E0634/claims/2018_11_23_beeson|Beeson's 2018
 claim page]] (no triangle can be cut into $7$ or into $11$ congruent
-triangles, arXiv:1811.09723, the paper behind the slides the site links) and
+triangles, arXiv:1811.09723, the paper behind the slides erdosproblems.com
+links) and
 [[problems/discrete_geometry/E0634/claims/2025_12_27_zhang|Zhang's claim
 page]] (the $m^2ab$ family above). Five are manuscripts of 2026 on the prime
 and small composite values.
@@ -130,16 +132,17 @@ the published Group 1 exclusions in Beeson's paper on the case
 $3\alpha+2\beta=\pi$ (arXiv:1206.2229), exhibiting a $99$-tiling of the
 $(24,24,33)$ triangle against its Theorem 14, which bears on the inputs the
 three prime manuscripts import for that branch. If the prime claims are
-correct, the site's question about $19$ is answered in the negative and its
-suggested pattern for the primes $4n+3$ is confirmed; the full
+correct, the erdosproblems.com question about $19$ is answered in the negative
+and its suggested pattern for the primes $4n+3$ is confirmed; the full
 characterization of $n$ remains open, since the composite values are settled
 only one at a time ($46$ by George, $33$ and $21$ by Harries and by Bonfioli,
 every value up to $80$ by Bonfioli). The 2026 manuscripts name AI systems:
-George's byline lists GPT-5.6 Pro and Inkling as coauthors (the site's tab
-spells them "GPT5.6" and "inking (Thinking Machine)"), Harries's two
-manuscripts name OpenAI GPT-5.6 Pro with Claude (Anthropic) as a cross-check
-and then OpenAI GPT-5.6 Pro and Anthropic Claude Fable agents, Beeson's
-credits Claude Fable with two lemmas, and Bonfioli's names Anthropic's Claude.
+George's byline lists GPT-5.6 Pro and Inkling as coauthors (the
+erdosproblems.com tab spells them "GPT5.6" and "inking (Thinking Machine)"),
+Harries's two manuscripts name OpenAI GPT-5.6 Pro with Claude (Anthropic) as a
+cross-check and then OpenAI GPT-5.6 Pro and Anthropic Claude Fable agents,
+Beeson's credits Claude Fable with two lemmas, and Bonfioli's names Anthropic's
+Claude.
 
 Two withdrawn preprints of Beeson bear on the record. arXiv:1206.2228
 (Triangle Tiling V, 2012) claimed among its results that no triangle can be
@@ -155,7 +158,7 @@ load-bearing input of Harries's first manuscript (its Theorems 6 and 8), of
 Beeson's prime manuscript (Theorem 5(iii)) and of the branch completeness in
 Harries's second manuscript; each page records the issue.
 
-The search scope is the site's page export of 2026-09-04 and its
+The search scope is the erdosproblems.com page export of 2026-09-04 and its
 proof-claims thread through 6 October 2026, the arXiv records of the Beeson
 and Zhang preprints, the repositories of George, Harries and Bonfioli at the
 commits the claim pages pin, and the two library cards above; Soifer's book

@@ -22,7 +22,7 @@ same vertex set."
 The exponent $t$ is existential: the paper does not make it explicit in the
 introduction. Logarithms are with base 2 (p. 3). For $k=2$ the theorem says
 that an $n$-vertex graph with no two edge-disjoint cycles on the same vertex
-set has fewer than $c(2)\,n(\log n)^t$ edges, which is the site's
+set has fewer than $c(2)\,n(\log n)^t$ edges, which is erdosproblems.com's
 $n(\log n)^{O(1)}$. The authors write on p. 2: "It would be very interesting
 to determine whether our bound in Theorem 2 can also be improved to
 $O_k(n\log\log n)$."

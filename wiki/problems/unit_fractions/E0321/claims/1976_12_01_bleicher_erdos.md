@@ -42,7 +42,7 @@ R(N)\ \le\ \frac1{\log2}\,\frac{N\log_rN}{\log N}\prod_{j=3}^{r}\log_jN
 \qquad(r\ge1,\ \log_{2r}N\ge1),
 $$
 
-the upper bound the site prints for
+the upper bound erdosproblems.com prints for
 [[problems/unit_fractions/E0321/_index|Problem 321]].
 
 **Covers.** An upper bound for $R(N)$. The extra factor $\log_rN$ makes it

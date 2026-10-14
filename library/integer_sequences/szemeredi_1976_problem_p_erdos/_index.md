@@ -4,8 +4,8 @@ desc: |
   Szemerédi's 1976 proof of Erdős's conjecture that two sets of positive
   integers up to n whose pairwise products across the sets are all distinct
   have size product below C n^2/log n, with the constant C made explicit in
-  terms of the Brun and Mertens constants; the paper the site names as the
-  proof of Problem 490, with Diviš's r-set extension and the announcement of
+  terms of the Brun and Mertens constants; the paper erdosproblems.com names as
+  the proof of Problem 490, with Diviš's r-set extension and the announcement of
   the Erdős–Szemerédi bounded-representation theorem.
 license: reserved
 created: 2026-09-22T00:00:00Z
@@ -213,19 +213,19 @@ $b_1<\cdots<b_l\le n$, the
 products
 $a_ib_j$ all distinct, the conjecture (2) $kl<C(n^2/\log n)$), and the
 closing line (p. 269) gives the bound for every $n\ge2$ with the constant
-$C$ written out. This is the paper the site names ("This is true, and was
-proved by Szemerédi [Sz76]") and the one Erdős's 1972 survey announced as
-"a surprisingly simple proof of (1), his paper will appear in the Journal
-of Number Theory" (p. 81 of the survey); the paper's own words are "the
-surprisingly simple proof of (2)" (p. 264). Its reference [2] is the page
-of the 1961 origin paper the problem page cites as [Er61]. On the limit
-question the problem page records as open, the paper says only (p. 265)
-that the author hopes "to investigate whether (2) is true for avery [sic]
-$c>1$ if $n>n_0(c)$"; its construction (1) (p. 264), like the 1976
-Erdős--Szemerédi construction, shows that the maximum of $kl$ is at least
-$(1+o(1))n^2/\log n$, while the site's example (the integers up to $n/2$
-against the primes in $(n/2,n]$) gives $(1/4+o(1))n^2/\log n$. The proof
-(pp. 265--269) has the outline of
+$C$ written out. This is the paper erdosproblems.com names ("This is true, and
+was proved by Szemerédi [Sz76]") and the one Erdős's 1972 survey announced as "a
+surprisingly simple proof of (1), his paper will appear in the Journal of Number
+Theory" (p. 81 of the survey); the paper's own words are "the surprisingly
+simple proof of (2)" (p. 264). Its reference [2] is the page of the 1961 origin
+paper the problem page cites as [Er61]. On the limit question the problem page
+records as open, the paper says only (p. 265) that the author hopes "to
+investigate whether (2) is true for avery [sic] $c>1$ if $n>n_0(c)$"; its
+construction (1) (p. 264), like the 1976 Erdős--Szemerédi construction, shows
+that the maximum of $kl$ is at least $(1+o(1))n^2/\log n$, while the
+erdosproblems.com example (the integers up to $n/2$ against the primes in
+$(n/2,n]$) gives $(1/4+o(1))n^2/\log n$. The proof (pp. 265--269) has the
+outline of
 [[integer_sequences/erdos_1976_multiplicative_representations_integers/theorem_1|Theorem 1]]
 of the 1976 Erdős--Szemerédi paper: Lemma 1's density condition
 $|A_p|>c_1|A|/(p\log p)$ answers to the primes "associated" with $A$ there,

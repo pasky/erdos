@@ -18,5 +18,5 @@ updated: 2026-10-08T13:55:35Z
 
 [Problem 25](../../problems/integer_sequences/E0025/_index.md) asks whether the
 integers avoiding a chosen residue class for each modulus in an increasing
-sequence always have a logarithmic density. The site listed it as open. The
-source notes summarize the published work used in reading it.
+sequence always have a logarithmic density. erdosproblems.com listed it as open.
+The source notes summarize the published work used in reading it.

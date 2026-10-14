@@ -68,6 +68,6 @@ None.
 
 - [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]: the problem's
   $g_k(N)$ is the paper's $g_k(n)$ (the $b_i$ any distinct integers, not
-  required in $A$); Theorem 1 gives $g_3(N)=1$ for $N\ge3$ where the site's
-  commentary prints "$g_3(N)=2$", the 1975 value that holds for the
-  positive-integer version $h_3$ for $N\ge4$ (Section 4, p. 2).
+  required in $A$); Theorem 1 gives $g_3(N)=1$ for $N\ge3$ where the
+  erdosproblems.com commentary prints "$g_3(N)=2$", the 1975 value that holds
+  for the positive-integer version $h_3$ for $N\ge4$ (Section 4, p. 2).

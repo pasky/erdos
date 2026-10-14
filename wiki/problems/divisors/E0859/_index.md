@@ -35,18 +35,18 @@ $$
 
 as $t\to \infty$?
 
-**Status.** Labeled open on the site. The problem page showed OPEN, no comment
-and one proof-claim entry. The curator posted that entry on 2026-09-27 to make
-the Conjectures.io claim known, without verifying it. The frontmatter standing
-derives from the accepted claim page
+**Status.** Labeled open on erdosproblems.com. The problem page showed OPEN, no
+comment and one proof-claim entry. The curator posted that entry on 2026-09-27
+to make the Conjectures.io claim known, without verifying it. The frontmatter
+standing derives from the accepted claim page
 [[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and Kohlmeyer's Lean disproof]].
 Its acceptance rests on this corpus's rebuild and kernel replay of the file on
 the repository's pinned toolchain (Lean v4.34.1) and on a check of its target
 against the Statement. The certification by the bounty site Conjectures.io (Lean
 kernel verification on 18 September 2026, review approval on 21 September 2026
 and certification on 23 September 2026) is reported, not counted. The subject is
-the literal site wording quoted above, and the answer is no. The density $d_t$
-exists for every $t$, and for no constants $c_1,c_2>0$ is
+the literal erdosproblems.com wording quoted above, and the answer is no. The
+density $d_t$ exists for every $t$, and for no constants $c_1,c_2>0$ is
 $d_t\sim c_1/(\log t)^{c_2}$. The reason is that $-\log d_t/\log\log t$ has
 lower limit exactly $\delta=1-(1+\log\log 2)/\log 2=0.0860\ldots$, while
 $(\log t)^{\delta}d_t\to0$.
@@ -59,9 +59,10 @@ claims (0); "Formalised statement? Yes") and 2026-10-07 (Comments
 [conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19](https://conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19),
 accessed 2026-09-22 (Lean Verified 18 September 2026; Approved in review 21
 September 2026; reward eligible, bounty pending) and 2026-10-07 (Certified 23
-September 2026; bounty paid; solver JenW1N). The site's proof-claims tab later
-held one claim, the curator's entry of 2026-09-27. Cite as: T. F. Bloom, Erdős
-Problem #859, https://www.erdosproblems.com/859, accessed 2026-10-07.
+September 2026; bounty paid; solver JenW1N). The erdosproblems.com proof-claims
+tab later held one claim, the curator's entry of 2026-09-27. Cite as: T. F.
+Bloom, Erdős Problem #859, https://www.erdosproblems.com/859, accessed
+2026-10-07.
 
 **References.**
 
@@ -79,27 +80,27 @@ at the formal-conjectures commit of 18 September 2026, where the theorem
 `erdos_859` is marked research open with proof `sorry`, beside a proved trivial
 variant and two `sorry` variants (Erdős's two-sided bounds and the positive
 density of each set). The disproof is the Lean file of the Conjectures.io
-record, linked from the claim page; that site's kernel checked it, and this
+record, linked from the claim page; Conjectures.io's kernel checked it, and this
 corpus rebuilt it and replayed it in the kernel.
 
 ## Current assessment
 
-**The question and its answer.** The site formulation quoted above asks whether
-$d_t$, the natural density of the integers whose distinct divisors can sum to
-$t$, is asymptotic to $c_1/(\log t)^{c_2}$ for some constants $c_1,c_2>0$. Erdős
-asks it in [Er70] as display (33), after proving that $d_t$ exists and that
-$d_t<1/(\log t)^{a}$ for large $t$ for a constant $a>0$, and asserting
-$d_t>1/(\log t)^{b}$ for a constant $b>0$ without a supplied proof. The answer
-is no, by the accepted claim page
+**The question and its answer.** The erdosproblems.com formulation quoted above
+asks whether $d_t$, the natural density of the integers whose distinct divisors
+can sum to $t$, is asymptotic to $c_1/(\log t)^{c_2}$ for some constants
+$c_1,c_2>0$. Erdős asks it in [Er70] as display (33), after proving that $d_t$
+exists and that $d_t<1/(\log t)^{a}$ for large $t$ for a constant $a>0$, and
+asserting $d_t>1/(\log t)^{b}$ for a constant $b>0$ without a supplied proof.
+The answer is no, by the accepted claim page
 [[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and
 Kohlmeyer's Lean disproof]]: the two estimates stated under Status leave no room
 for an asymptotic with a positive constant, since the first fixes the exponent
 at $\delta$ and the second drives the constant to $0$. The claim page records
-the formal statement the proof negates, clause by clause against the site's
-wording, the proof's structure, its authorship, and the bounty site's review.
-The cited literature is consistent with the result and states neither direction:
-Ford [Fo08] gives the order of the integers with a divisor in a given interval
-with the same exponent $\delta$ but never estimates $d_t$.
+the formal statement the proof negates, clause by clause against the
+erdosproblems.com wording, the proof's structure, its authorship, and the bounty
+site's review. The cited literature is consistent with the result and states
+neither direction: Ford [Fo08] gives the order of the integers with a divisor in
+a given interval with the same exponent $\delta$ but never estimates $d_t$.
 
 **Acceptance and its limits.** Acceptance rests on this corpus's kernel replay
 and Statement check, as the claim page records. The bounty site's certification
@@ -120,10 +121,10 @@ community, and that the program is not transparent about who runs the problems
 through an AI system, for how long, or with which one. Which AI system, if any,
 generated the proof is therefore not disclosed. The formal-conjectures statement
 file, at the formal-conjectures commit of 18 September 2026 linked above, marks
-the statement research open with proof `sorry`. In September 2026 the site's
-problem page badge said the bounty was paid while the record page said it was
-pending; by 2026-10-07 the record shows the bounty as paid, with the
-certification dated 23 September 2026.
+the statement research open with proof `sorry`. In September 2026 the
+erdosproblems.com problem page badge said the bounty was paid while the record
+page said it was pending; by 2026-10-07 the record shows the bounty as paid,
+with the certification dated 23 September 2026.
 
 **A Lean contribution that is not a claim.** The file the curator's forum
 entry links, a contribution of 1 September 2026 in the Conjectures.io
@@ -140,8 +141,8 @@ toolchain, after proof-only changes for lemmas that Mathlib renamed or removed,
 and the kernel replayed everything its target depends on, with only `propext`,
 `Classical.choice` and `Quot.sound`, as the claim page records. Its target
 (`theorem target : ¬ (fcTypeOfName% "Erdos859.erdos_859")`), header and key
-declarations were checked against the site's statement; the 36,197-line file
-contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `implemented_by`,
+declarations were checked against Conjectures.io's statement; the 36,197-line
+file contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `implemented_by`,
 `opaque` or `set_option` and no import; no catalog or Mathlib name is redefined
 in the file; the reduction from the target to the two estimates was checked step
 by step; the finite content was recomputed independently (the constant
@@ -152,10 +153,10 @@ and by reading only at the level of their module structure and theorem
 statements; and no numerical check of the asymptotic regime is possible at this
 exponent. The replay also settles two limits of the reading: the statement file
 was compared on the formal-conjectures default branch, while the replay
-reproduced the pinned commit, which the site builds from a public catalog commit
-and an audit patch, and found the target's statement identical to it; and the
-shared definitions of the density (`Set.HasDensity`) and of the target macro,
-which the reading took from how the proof unfolds them, are among the
+reproduced the pinned commit, which Conjectures.io builds from a public catalog
+commit and an audit patch, and found the target's statement identical to it; and
+the shared definitions of the density (`Set.HasDensity`) and of the target
+macro, which the reading took from how the proof unfolds them, are among the
 definitions the replay found identical to the task's. The file's seven
 docstrings cite the authors' manuscript, which was not obtained.
 

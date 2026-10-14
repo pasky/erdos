@@ -9,7 +9,7 @@ desc: |
   n^2/4 - ĝ_3(t) n/2 + O(1), and Remark 2.8's bounds on ĝ_3(t).
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T14:36:14Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs
@@ -50,7 +50,7 @@ for an integer g(A).
 without proof, that the maximum number of edges of a triangle-free graph on
 n vertices with chromatic number at least t is n^2/4 − ĝ_3(t) n/2 + O(1),
 where ĝ_3(t) is the largest m such that every such graph needs at least m
-vertices removed to become bipartite; the expansion the catalog's
+vertices removed to become bipartite; the expansion erdosproblems.com's
 Problem 1011 attributes to the paper.
 
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_3|theorem_3]]: In the setting of Theorem 1 there are an n_0 and a finite set of extremal
@@ -66,8 +66,8 @@ Additional chromatic conditions*, Discrete Mathematics **7** (1974), no. 3--4,
 University, Budapest; received 12 September 1973, with the footnote "Original
 version received 30 March 1972" (p. 349); the running head reads "M.
 Simonovits, Extremal graph problems". Cited as [Si74] on the problem page,
-whose site reference misspells the title's first word ("Extermal"). The
-edition read is the publisher's version of record at
+whose erdosproblems.com reference misspells the title's first word ("Extermal").
+The edition read is the publisher's version of record at
 <https://doi.org/10.1016/0012-365X(74)90044-2>; no preprint or repository
 version is known. Of its fourteen references (p. 376), [1] is Erdős,
 Graph theory and probability, Canad. J. Math. 11 (1959), 34--38, filed as
@@ -293,10 +293,10 @@ mapped for structure, the map checked against the page images; they are not
 checked. Nothing is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1011/_index|#1011]]: Theorem 2.7
-(printed p. 358, PDF p. 10) is the result the site attributes to Simonovits's
-PhD thesis, citing "the discussion on p. 358" of the paper: after Erdős's
-"Problem. What is the maximum number of edges, a graph of $n$ vertices and
-chromatic number $\ge t$ can have if it does not contain $K_3$?", the paper
+(printed p. 358, PDF p. 10) is the result erdosproblems.com attributes to
+Simonovits's PhD thesis, citing "the discussion on p. 358" of the paper: after
+Erdős's "Problem. What is the maximum number of edges, a graph of $n$ vertices
+and chromatic number $\ge t$ can have if it does not contain $K_3$?", the paper
 states Theorem 2.7, introduced by "I showed [13] that": with $f_t(n;K_3)$
 the maximum asked for,
 $f_t(n;K_3)=\tfrac14n^2-\hat g_3(t)\tfrac12n+O(1)$, where $\hat g_3(t)$ is
@@ -304,11 +304,11 @@ the largest integer $m$ such that every triangle-free graph of chromatic
 number at least $t$ needs at least $m$ vertices removed to become
 bipartite; the printed statement is on
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7|theorem_2_7]].
-The site's $g(r)$ is $\hat g_3(r)$ under the same definition, and
-the site's $f_r(n)$, the least edge count forcing a triangle, is
-$f_r(n;K_3)+1$ for all large $n$, so the site's expansion
+erdosproblems.com's $g(r)$ is $\hat g_3(r)$ under the same definition, and
+erdosproblems.com's $f_r(n)$, the least edge count forcing a triangle, is
+$f_r(n;K_3)+1$ for all large $n$, so erdosproblems.com's expansion
 $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ follows with the $1$ absorbed in
-the $O(1)$. The site's bounds are Remark 2.8(a) (printed p. 359, PDF
+the $O(1)$. erdosproblems.com's bounds are Remark 2.8(a) (printed p. 359, PDF
 p. 11), display (10): "Comparing
 $\hat g_3$ and $g_3$ of [1], one can easily prove that $c_1t^2\log t/\log
 \log t<\hat g_3(t)<c_2t^2(\log t)^2$." Neither statement is proved in the

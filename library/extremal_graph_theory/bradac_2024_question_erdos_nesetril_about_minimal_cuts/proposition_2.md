@@ -73,9 +73,9 @@ Fekete's lemma.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0150/_index|Problem 150]]: the existence of
-  the limit $\alpha$, which the site's wording presumes ("It is unclear in
-  [Er88] whether Erdős knew that the limit existed, which follows from a
-  simple argument first given in the literature (to the best of my
+  the limit $\alpha$, which the erdosproblems.com wording presumes ("It is
+  unclear in [Er88] whether Erdős knew that the limit existed, which follows
+  from a simple argument first given in the literature (to the best of my
   knowledge) by Bradač"), and the bridge (1) through which the separator
   bounds of Fomin--Kratsch--Todinca--Villanger, Fomin--Villanger and
   Gaspers--Mackenzie are read as bounds on $\alpha$.

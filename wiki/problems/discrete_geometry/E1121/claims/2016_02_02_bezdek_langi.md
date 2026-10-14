@@ -60,4 +60,4 @@ of 13 May 2016.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The result is refereed: it appeared in Discrete and
-Computational Geometry. The site's page does not mention the paper.
+Computational Geometry. The erdosproblems.com page does not mention the paper.

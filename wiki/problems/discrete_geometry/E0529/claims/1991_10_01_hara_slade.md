@@ -64,13 +64,13 @@ a remark of this page, as on the
 card]], not of the paper. This answers the problem's second question yes for
 every $k\ge5$, extending
 [[problems/discrete_geometry/E0529/claims/1987_12_01_slade|Slade's theorem]]
-for all sufficiently large $k$ to an explicit threshold. The site's commentary
-states the asymptotic $d_k(n)\sim Dn^{1/2}$ for the expected distance itself;
-only the upper bound is claimed here.
+for all sufficiently large $k$ to an explicit threshold. The erdosproblems.com
+commentary states the asymptotic $d_k(n)\sim Dn^{1/2}$ for the expected distance
+itself; only the upper bound is claimed here.
 
 **Covers.** The second question for every $k\ge5$, answered yes. Not covered:
-$k=3$ and $k=4$, where the site records the conjecture that the bound is
-false, and the first question, on the plane.
+$k=3$ and $k=4$, where erdosproblems.com records the conjecture that the bound
+is false, and the first question, on the plane.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited papers.
 
@@ -80,10 +80,10 @@ Soc. (N.S.) 25 (1991), no. 2, 417--423, received 30 January 1991. The proofs are
 Self-avoiding walk in five or more dimensions. I. The critical behaviour, Comm.
 Math. Phys. 147 (1992), no. 1, 101--136, and The lace expansion for
 self-avoiding walk in five or more dimensions, Rev. Math. Phys. 4 (1992), no. 2,
-235--327. The site's commentary records the result for $k\ge5$, but the site
-labeled the problem OPEN, so that remark is not acceptance of the problem and
-the page lists no `reviewed` evidence. The proofs are not compiled in this
-corpus.
+235--327. The erdosproblems.com commentary records the result for $k\ge5$, but
+Bloom's catalog labeled the problem OPEN, so that remark is not acceptance of
+the problem and the page lists no `reviewed` evidence. The proofs are not
+compiled in this corpus.
 
 **Dating.** The page is dated by the issue month of the announcement in the
 publisher's record, October 1991; the day is a placeholder. The two proof

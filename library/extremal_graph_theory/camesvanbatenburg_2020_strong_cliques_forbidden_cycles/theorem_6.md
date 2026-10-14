@@ -76,10 +76,11 @@ no path on $\ell+1$ vertices.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the site's "Cames
-  van Batenburg, Kang, and Pirot [CKP20] have proved $\omega\le\frac54\Delta^2$
-  under the additional assumption that $G$ is triangle-free (and
-  $\omega\le\Delta^2$ if $G$ is $C_5$-free)"; part (i) is the part in which
-  the conjectured constant $\frac54$ itself is proved, best possible for even
-  $\Delta$ since the blown-up 5-cycles are triangle-free (p. 3), and the
-  paper's p. 4 records that the general clique bound "remains conjectural".
+- [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]:
+  erdosproblems.com's "Cames van Batenburg, Kang, and Pirot [CKP20] have proved
+  $\omega\le\frac54\Delta^2$ under the additional assumption that $G$ is
+  triangle-free (and $\omega\le\Delta^2$ if $G$ is $C_5$-free)"; part (i) is the
+  part in which the conjectured constant $\frac54$ itself is proved, best
+  possible for even $\Delta$ since the blown-up 5-cycles are triangle-free (p.
+  3), and the paper's p. 4 records that the general clique bound "remains
+  conjectural".

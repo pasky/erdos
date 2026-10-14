@@ -64,15 +64,16 @@ log l, for l and n large, for the minimum number of incomparable pairs, showing
 towers of cubes are asymptotically optimal in this finer sense too. Theorem 1.3
 is proved by induction on n with an entropy bound on the size of a family,
 Theorem 1.4 by bounding cliques of size k+1 in the comparability graph and
-applying stability for Turan's theorem, and Theorem 1.7 by shifting arguments. For problem 777 the site credits this paper with the
-answer to the first of the three questions, as a consequence of Theorem 1.4
-and Corollary 1.5 with k = 2; the paper does not state that question, and the
-second and third are answered by Alon and Frankl (1985).
+applying stability for Turan's theorem, and Theorem 1.7 by shifting arguments.
+For problem 777 erdosproblems.com credits this paper with the answer to the
+first of the three questions, as a consequence of Theorem 1.4 and Corollary 1.5
+with k = 2; the paper does not state that question, and the second and third are
+answered by Alon and Frankl (1985).
 
 Source: <https://arxiv.org/abs/1411.4196v1>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0777/_index|#777]]:
-the site's commentary derives the yes answer to the problem's first
+the erdosproblems.com commentary derives the yes answer to the problem's first
 question from
 [[extremal_graph_theory/alon_2015_comparable_pairs_families_sets/theorem_1_4|Theorem 1.4]]
 and

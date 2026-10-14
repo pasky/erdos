@@ -49,7 +49,7 @@ its [4] is Deuber's 1975 paper, its [9] is
 its [15] is Rödl's 1973 master's thesis at Charles University (the three
 existence proofs the problem page names), its [6] is
 [[ramsey_theory/erdos_1975_problems_results_finite_infinite_graphs/_index|erdos_1975_problems_results_finite_infinite_graphs]],
-the site's source key for the problem, and its [7] is
+the erdosproblems.com source key for the problem, and its [7] is
 [[ramsey_theory/erdos_1984_some_problems_graph_theory_combinatorial_analysis/_index|erdos_1984_some_problems_graph_theory_combinatorial_analysis]],
 from which the paper quotes the conjecture.
 
@@ -245,10 +245,11 @@ sketch of § 3 and the reduction of Theorem 3 to Lemma 14, and nothing is
 independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0565/_index|#565]]: Theorem 3 (printed
-p. 375, PDF p. 3) is the 1998 upper bound the site attributes to the paper:
-"Let $G$ and $H$ be graphs with $|V(G)|=k$ and $|V(H)|=t$, where $k\le t$,
-and suppose $q=\chi(H)\ge2$. Then (4) $r_{\mathrm{ind}}(G,H)\le t^{Ck\log q}$
-for some absolute constant $C$", whose diagonal case the paper states as
+p. 375, PDF p. 3) is the 1998 upper bound erdosproblems.com attributes to the
+paper: "Let $G$ and $H$ be graphs with $|V(G)|=k$ and $|V(H)|=t$, where
+$k\le t$, and suppose $q=\chi(H)\ge2$. Then (4)
+$r_{\mathrm{ind}}(G,H)\le t^{Ck\log q}$ for some absolute constant $C$", whose
+diagonal case the paper states as
 $r_{\mathrm{ind}}(H)=r_{\mathrm{ind}}(H,H)\le t^{Ct\log q}$, short of an
 exponential bound "by a factor of $(\log t)(\log\chi(H))\le(\log t)^2$ in the
 exponent" (p. 375), that is $R^*(G)\le2^{O(n(\log n)^2)}$ in the problem's

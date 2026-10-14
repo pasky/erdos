@@ -4,19 +4,20 @@ desc: The 2 claim pages of Problem 281, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/covering_systems/E0281/claims
 
 [[problems/covering_systems/E0281/_index|..]]
 
-[[problems/covering_systems/E0281/claims/2026_01_17_somani|2026_01_17_somani]]: Neel Somani's argument, produced with GPT-5.2 Pro and posted on the site,
-proves that the answer is yes using Haar measure on the profinite integers, an
-averaging argument and Dini's theorem. It is accepted on the curator's credit.
+[[problems/covering_systems/E0281/claims/2026_01_17_somani|2026_01_17_somani]]: Neel Somani's argument, produced with GPT-5.2 Pro and posted on
+erdosproblems.com, proves that the answer is yes using Haar measure on the
+profinite integers, an averaging argument and Dini's theorem. It is accepted
+on the curator's credit.
 
-[[problems/covering_systems/E0281/claims/2026_01_18_koishichan|2026_01_18_koishichan]]: KoishiChan observed on the site that the Davenport-Erdős theorem on sets of
-multiples and Rogers' theorem on zero residues together answer the question
-yes in a few lines. It is accepted on the curator's credit.
+[[problems/covering_systems/E0281/claims/2026_01_18_koishichan|2026_01_18_koishichan]]: KoishiChan observed on erdosproblems.com that the Davenport-Erdős theorem on
+sets of multiples and Rogers' theorem on zero residues together answer the
+question yes in a few lines. It is accepted on the curator's credit.
 
 ***

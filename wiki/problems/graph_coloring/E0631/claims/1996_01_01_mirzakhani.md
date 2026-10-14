@@ -55,7 +55,8 @@ day in the page name is a placeholder.
 
 **Acceptance.** Refereed publication: Bull. Inst. Combin. Appl. 17 (1996),
 15--18. This is a journal article without a DOI, and the paper link is a copy
-hosted on a university page. The site's curator does not credit the result. The
-problem's commentary names only Voigt's and Gutner's constructions, so the page
-lists no `reviewed` evidence. On 4 December 2025 a forum member linked the paper
-in the problem's discussion thread as the smallest known example.
+hosted on a university page. The erdosproblems.com curator does not credit the
+result. The problem's commentary names only Voigt's and Gutner's constructions,
+so the page lists no `reviewed` evidence. On 4 December 2025 a forum member
+linked the paper in the problem's discussion thread as the smallest known
+example.

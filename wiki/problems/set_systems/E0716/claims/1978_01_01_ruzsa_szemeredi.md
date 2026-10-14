@@ -60,23 +60,24 @@ statement and the two bounds above are recorded as the cards of
 them. The page is dated by the year of the proceedings volume; the month and
 day are not recorded.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
-proved and credits the answer to Ruzsa and Szemerédi [RuSz78]. The curator is
-independent of the authors. The refereed papers carded here cite the theorem as
-established and build on it. The paper was published as Ruzsa, I. Z. and
-Szemerédi, E., Triple systems with no six points carrying three triangles,
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled
+the problem proved and credits the answer to Ruzsa and Szemerédi [RuSz78]. The
+curator is independent of the authors. The refereed papers carded here cite the
+theorem as established and build on it. The paper was published as Ruzsa, I. Z.
+and Szemerédi, E., Triple systems with no six points carrying three triangles,
 Combinatorics (Proc. Fifth Hungarian Colloq., Keszthely, 1976), Vol. II, Colloq.
 Math. Soc. János Bolyai 18, North-Holland, Amsterdam and New York (1978),
 939–945. This is a conference proceedings volume rather than a journal, so the
 page lists no `refereed` evidence.
 
-The site's label carried a Lean qualification. A post on the site's discussion
-thread, dated 2026-06-20, presents a Lean 4 proof of the statement in the Lean
-web editor against Mathlib. The post attributes the proof to Aristotle,
-Harmonic's AI prover, and says that Mathlib already holds the Ruzsa–Szemerédi
-machinery. The file titles itself a proof of the Ruzsa–Szemerédi
-$(6,3)$-theorem, so the thread post is listed as the first formalization link.
-The community database records the formal status as Lean from 2026-06-21.
+The erdosproblems.com label carried a Lean qualification. A post on the
+erdosproblems.com discussion thread, dated 2026-06-20, presents a Lean 4 proof
+of the statement in the Lean web editor against Mathlib. The post attributes the
+proof to Aristotle, Harmonic's AI prover, and says that Mathlib already holds
+the Ruzsa–Szemerédi machinery. The file titles itself a proof of the
+Ruzsa–Szemerédi $(6,3)$-theorem, so the thread post is listed as the first
+formalization link. The community database records the formal status as Lean
+from 2026-06-21.
 
 The posted proof is also held in Boris Alexeev's lean-proofs collection. It was
 added there on 2026-08-26 and is linked above at a later commit. The file's

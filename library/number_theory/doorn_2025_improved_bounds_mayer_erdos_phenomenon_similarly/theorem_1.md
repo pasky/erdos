@@ -61,8 +61,8 @@ otherwise self-contained.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E1005/_index|Problem 1005]]: the upper bound the site
-  prints as $f(n)\le\frac14n+O(1)$. Together with the lower bound
-  $(\frac14-o(1))n$ that a 2026 preprint claims, it would give the
+- [[../wiki/problems/number_theory/E1005/_index|Problem 1005]]: the upper bound
+  erdosproblems.com prints as $f(n)\le\frac14n+O(1)$. Together with the lower
+  bound $(\frac14-o(1))n$ that a 2026 preprint claims, it would give the
   asymptotic constant $c=1/4$ of the problem's question; the Conjecture is
   the exact form that a second 2026 preprint claims for all large $n$.

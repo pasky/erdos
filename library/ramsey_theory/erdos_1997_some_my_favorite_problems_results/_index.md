@@ -10,7 +10,7 @@ desc: |
   dilation question, Sidon completion and the convex polygon distance sum.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T00:15:54Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/erdos_1997_some_my_favorite_problems_results
@@ -32,8 +32,8 @@ without convexity; the origin wording of Problem 94.
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_2_20|display_2_20]]: Erdős's 1997 dilation question: a sequence of reals above one with
 |kα_i − α_j| ≥ 1 for all i ≠ j and all k generalizes a primitive
 sequence; the printed question on the reciprocal sums, whose signs are
-the reverse of the site's, and the prize offer; the origin wording
-of Problem 143.
+the reverse of erdosproblems.com's, and the prize offer; the origin wording of
+Problem 143.
 
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_2_21|display_2_21]]: Erdős's 1997 prime-gap passage: his 1934 bound, Rankin's 1938 factor, the
 conjecture that the Rankin bound holds for every constant c infinitely
@@ -51,7 +51,8 @@ Ramsey number of the complete 3-uniform hypergraph, his belief that the
 double-exponential upper bound is the truth, the Erdős–Hajnal unbalanced
 triples result that seems to favor the lower bound, the criterion that
 would make him doubt the upper bound, and Hajnal's four-color bound
-r_3(n,n,n,n) > 2^{c 2^n}; the site's form of the bounds for Problem 564.
+r_3(n,n,n,n) > 2^{c 2^n}; the erdosproblems.com form of the bounds for
+Problem 564.
 
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_4|display_4_4]]: Erdős's 1997 statement of the Erdős–Graham question whether every
 k-coloring of the integers at least 2 has a finite monochromatic set with
@@ -61,8 +62,8 @@ conjecture, and the density forms: a reciprocal sum growing faster than
 c log n is believed to; the origin wording of Problems 46 and 47.
 
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_5|display_4_5]]: Erdős's 1997 statement, attributed to Simonovits and himself, of the
-degenerate Turán conjecture with the parameter shifted by one from the
-site's, the remark that it is open even for r = 3, the companion
+degenerate Turán conjecture with the parameter shifted by one from
+erdosproblems.com's, the remark that it is open even for r = 3, the companion
 lower-bound conjecture for graphs with an induced subgraph of minimum
 degree at least r, and the prize offers; the origin wording of
 Problem 146.
@@ -95,7 +96,7 @@ Hungarian Academy of Sciences, Budapest (head of p. 47). The chapter opens
 Part I, "Early Days", of the volume (contents, p. XI), after the editors'
 introduction (pp. 45--46), which presents it as a typical Erdős problem
 article of the period, unusual only in ranging over all of his fields
-(p. 46). Cited as [Er97c] on the problem pages, the site's
+(p. 46). Cited as [Er97c] on the problem pages, the erdosproblems.com
 key. The volume's copyright page prints "© Springer-Verlag Berlin
 Heidelberg 1997", "Softcover reprint of the hardcover 1st edition 1997",
 ISBN-13 978-3-642-64394-1, e-ISBN-13 978-3-642-60408-9 and the volume DOI
@@ -279,147 +280,146 @@ citing problem pages consume, read clause by clause on the page images and
 quoted or restated above or on the eleven result pages. The other passages are
 summarized from the text layer for identification only. The chapter proves
 nothing, and nothing here is independently reviewed. The prizes are
-recorded as printed in 1997; several differ from the site's (the site's
-prize for Problem 4 is here smaller, moved to (2.21); Problem 142's
-asymptotic formula carries a smaller prize here; Problems 46, 94 and 707
+recorded as printed in 1997; several differ from erdosproblems.com's (the
+erdosproblems.com prize for Problem 4 is here smaller, moved to (2.21); Problem
+142's asymptotic formula carries a smaller prize here; Problems 46, 94 and 707
 carry no offer here).
 
-**Bears on.** [[../wiki/problems/primes/E0004/_index|#4]], as the site's source Er97c:
-p. 58 (PDF p. 73), "I used to offer \$10000 for a proof that
-$d_n>c\log n\log\log n\log\log\log\log n/(\log\log\log n)^2$ holds for
-every $c$ and infinitely many $n$. However, I would now like to offer only
+**Bears on.** [[../wiki/problems/primes/E0004/_index|#4]], as the
+erdosproblems.com source Er97c: p. 58 (PDF p. 73), "I used to offer \$10000 for
+a proof that $d_n>c\log n\log\log n\log\log\log\log n/(\log\log\log n)^2$ holds
+for every $c$ and infinitely many $n$. However, I would now like to offer only
 \$5000 for this conjecture, and instead offer \$10000 for a proof that
 $d_n>(\log n)^{1+\epsilon}$ (2.21) for some $\epsilon>0$", with Erdős's
 1934 bound and Rankin's 1938 factor; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_2_21|display_2_21]].
-[[../wiki/problems/primes/E0005/_index|#5]], as the site's source Er97c: p. 58 (PDF
-p. 73), "Ricci and I proved that the set of limit points of $d_n/\log_n$ [sic]
-has positive measure. No doubt they are everywhere dense" ($\log_n$ so
-printed, for $\log n$), with the note that the strongest partial results
-are Maier's and that Erdős has paid him a prize on more than one occasion
-for some of them; paged on
+[[../wiki/problems/primes/E0005/_index|#5]], as the erdosproblems.com source
+Er97c: p. 58 (PDF p. 73), "Ricci and I proved that the set of limit points of
+$d_n/\log_n$ [sic] has positive measure. No doubt they are everywhere dense"
+($\log_n$ so printed, for $\log n$), with the note that the strongest partial
+results are Maier's and that Erdős has paid him a prize on more than one
+occasion for some of them; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/remark_p58|remark_p58]].
-[[../wiki/problems/unit_fractions/E0046/_index|#46]], as the site's source Er97c: p. 63
-(PDF p. 78), introduced as an old conjecture of Graham and Erdős that he
-places where Ramsey theory meets number theory, and posed as: "Is it true that
-no matter how one $k$-colors the integers $\ge2$ one can always find a
-solution to $1=\sum_{a\in A}\frac1a$, for a finite monochromatic subset
+[[../wiki/problems/unit_fractions/E0046/_index|#46]], as the erdosproblems.com
+source Er97c: p. 63 (PDF p. 78), introduced as an old conjecture of Graham and
+Erdős that he places where Ramsey theory meets number theory, and posed as: "Is
+it true that no matter how one $k$-colors the integers $\ge2$ one can always
+find a solution to $1=\sum_{a\in A}\frac1a$, for a finite monochromatic subset
 $A$? (4.4)", which they could not prove even for $k=2$, with the threshold
 $f(k)$ and the every-positive-rational conjecture; no prize is printed for
 (4.4); paged
 on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_4|display_4_4]].
-[[../wiki/problems/unit_fractions/E0047/_index|#47]], as the site's source Er97c:
-pp. 63--64 (PDF pp. 78--79), the reciprocal-sum thresholds after (4.4): for
-integers $1<a_1<\cdots\le a_k\le n$ with $\sum_{i\le k}1/a_i>f(n)$, whether
-$f(n)/(\log\log n)^2\to\infty$ forces a subsequence of the $a_i$ whose
+[[../wiki/problems/unit_fractions/E0047/_index|#47]], as the erdosproblems.com
+source Er97c: pp. 63--64 (PDF pp. 78--79), the reciprocal-sum thresholds after
+(4.4): for integers $1<a_1<\cdots\le a_k\le n$ with $\sum_{i\le k}1/a_i>f(n)$,
+whether $f(n)/(\log\log n)^2\to\infty$ forces a subsequence of the $a_i$ whose
 reciprocals sum to exactly $1$; the "strongest conjecture", an absolute
 constant $c$ with the threshold $(c\pm\epsilon)(\log\log n)^2$; and the
 belief that $\sum_{a_i<n}\frac1{a_i}>c\log n$ already forces a solution of
 (4.4) among the $a_i$, the problem's $\delta\log N$ form; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_4|display_4_4]].
-[[../wiki/problems/ramsey_theory/E0077/_index|#77]], as the site's source Er97c: p. 62
-(PDF p. 77), with $f(n)$ the smallest integer satisfying $f(n)\to(n)_2^2$,
-that is $f(n)=r_2^2(n,n)$: "I offer \$100 for a proof that
+[[../wiki/problems/ramsey_theory/E0077/_index|#77]], as the erdosproblems.com
+source Er97c: p. 62 (PDF p. 77), with $f(n)$ the smallest integer satisfying
+$f(n)\to(n)_2^2$, that is $f(n)=r_2^2(n,n)$: "I offer \$100 for a proof that
 $\lim_{n\to\infty}f(n)^{1/n}$ exists, and \$250 for the value $c$ of this
 limit"; (4.2) gives $\sqrt2\le c\le4$, he asks "Perhaps $c=2$?", and he
 remarks that these questions had seen almost no progress; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_2|display_4_2]].
-[[../wiki/problems/ramsey_theory/E0078/_index|#78]], as the site's source Er97c: p. 62
-(PDF p. 77), noting that his proof of the lower bound in (4.2) is
-nonconstructive: "I offer \$100 for a constructive proof that
+[[../wiki/problems/ramsey_theory/E0078/_index|#78]], as the erdosproblems.com
+source Er97c: p. 62 (PDF p. 77), noting that his proof of the lower bound in
+(4.2) is nonconstructive: "I offer \$100 for a constructive proof that
 $f(n)>(1+\epsilon)^n$", with Frankl and Wilson's constructive
 $f(n)>n^{c\log n}$ as the record; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_2|display_4_2]].
-[[../wiki/problems/distance_problems/E0094/_index|#94]], as the site's source Er97c:
-p. 65 (PDF p. 80): for $x_1,\ldots,x_n$ the vertices of a convex polygon
-in the plane, with $s_i$ the number of the $\binom n2$ distances
-$d(x_i,x_j)$ equal to the $i$-th distance $u_i$ (so $\sum_is_i=\binom n2$),
-"I conjectured and Fishburn proved that $\sum_is_i^2<cn^3$", followed by the
-regular $n$-gon conjecture and (5.3) for point sets not assumed convex; the
-theorem is stated without proof or reference, Fishburn's
-paper "Distances in Convex Polygons" being in Volume II of the same work
-(contents, p. XV); paged on
+[[../wiki/problems/distance_problems/E0094/_index|#94]], as the
+erdosproblems.com source Er97c: p. 65 (PDF p. 80): for $x_1,\ldots,x_n$ the
+vertices of a convex polygon in the plane, with $s_i$ the number of the
+$\binom n2$ distances $d(x_i,x_j)$ equal to the $i$-th distance $u_i$ (so
+$\sum_is_i=\binom n2$), "I conjectured and Fishburn proved that
+$\sum_is_i^2<cn^3$", followed by the regular $n$-gon conjecture and (5.3) for
+point sets not assumed convex; the theorem is stated without proof or reference,
+Fishburn's paper "Distances in Convex Polygons" being in Volume II of the same
+work (contents, p. XV); paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/conjecture_p65|conjecture_p65]].
-[[../wiki/problems/additive_combinatorics/E0140/_index|#140]], as the site's source
-Er97c: p. 51 (PDF p. 66), "I offer \$500 for a proof that
-$r_3(n)<n/(\log n)^c$ for every $c$", the problem's statement and its
+[[../wiki/problems/additive_combinatorics/E0140/_index|#140]], as the
+erdosproblems.com source Er97c: p. 51 (PDF p. 66), "I offer \$500 for a proof
+that $r_3(n)<n/(\log n)^c$ for every $c$", the problem's statement and its
 prize, in the chapter's $r_3(n)$ (the smallest size forcing a 3-term
-progression, one more than the site's $r_3(N)$, which leaves the bound
+progression, one more than erdosproblems.com's $r_3(N)$, which leaves the bound
 unchanged); paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/problem_p51|problem_p51]].
-[[../wiki/problems/additive_combinatorics/E0142/_index|#142]], as the site's source
-Er97c: pp. 50--51 (PDF pp. 65--66), the definition of $r_k(n)$ as the
-smallest $t$ forcing a $k$-term progression (one more than the site's
-largest progression-free size), the $r_3(n)$ bounds, and "I offer \$500 for
-a proof that $r_3(n)<n/(\log n)^c$ for every $c$, and \$1000 for any
-asymptotic formula for $r_k(n)$. This is probably unattackable at present";
+[[../wiki/problems/additive_combinatorics/E0142/_index|#142]], as the
+erdosproblems.com source Er97c: pp. 50--51 (PDF pp. 65--66), the definition of
+$r_k(n)$ as the smallest $t$ forcing a $k$-term progression (one more than
+erdosproblems.com's largest progression-free size), the $r_3(n)$ bounds, and "I
+offer \$500 for a proof that $r_3(n)<n/(\log n)^c$ for every $c$, and \$1000 for
+any asymptotic formula for $r_k(n)$. This is probably unattackable at present";
 paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/problem_p51|problem_p51]].
-[[../wiki/problems/divisors/E0143/_index|#143]], as the site's source Er97c: pp. 57--58
-(PDF pp. 72--73): for real numbers $1<\alpha_1<\alpha_2<\cdots$ with
-$|k\alpha_i-\alpha_j|\ge1$ for all $i\ne j$ and all $k$ (display (2.20)),
-a condition which for integers $\alpha_i$ says that no $\alpha_i$ divides
-another $\alpha_j$, the question as posed: "Does (2.20) imply
-$\sum_i\frac1{\alpha_i\log\alpha_i}=\infty$ or
+[[../wiki/problems/divisors/E0143/_index|#143]], as the erdosproblems.com source
+Er97c: pp. 57--58 (PDF pp. 72--73): for real numbers
+$1<\alpha_1<\alpha_2<\cdots$ with $|k\alpha_i-\alpha_j|\ge1$ for all $i\ne j$
+and all $k$ (display (2.20)), a condition which for integers $\alpha_i$ says
+that no $\alpha_i$ divides another $\alpha_j$, the question as posed: "Does
+(2.20) imply $\sum_i\frac1{\alpha_i\log\alpha_i}=\infty$ or
 $\frac1{\log x}\sum_{\alpha_i<x}\frac1{\alpha_i}\to\infty$ as
 $x\to\infty$? [sic]" and "I offer \$500 for settling this annoying
 diophantine problem"; the printed question has the signs reversed relative
-to the site's statement (recorded on the result page); paged on
+to the erdosproblems.com statement (recorded on the result page); paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_2_20|display_2_20]].
-[[../wiki/problems/extremal_graph_theory/E0146/_index|#146]], as the site's source Er97c:
-p. 64 (PDF p. 79), "Simonovits and I conjectured long ago that if $H$ is
-bipartite and every induced subgraph of $H$ has a vertex of degree $<r$,
-then $T_n(H)<cn^{2-1/(r-1)}$. (4.5)", which he says is open even for
-$r=3$, with the companion lower-bound conjecture and "I offer \$500 for a
+[[../wiki/problems/extremal_graph_theory/E0146/_index|#146]], as the
+erdosproblems.com source Er97c: p. 64 (PDF p. 79), "Simonovits and I conjectured
+long ago that if $H$ is bipartite and every induced subgraph of $H$ has a vertex
+of degree $<r$, then $T_n(H)<cn^{2-1/(r-1)}$. (4.5)", which he says is open even
+for $r=3$, with the companion lower-bound conjecture and "I offer \$500 for a
 proof or disproof of each of our conjectures"; the printed parameter $r$
-is the site's $r$ plus one, so (4.5) is the site's statement and "open
-even for $r=3$" is its case $r=2$; the attribution to Simonovits and
+is erdosproblems.com's $r$ plus one, so (4.5) is the erdosproblems.com statement
+and "open even for $r=3$" is its case $r=2$; the attribution to Simonovits and
 Erdős jointly is in Erdős's own words; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_5|display_4_5]].
-[[../wiki/problems/ramsey_theory/E0165/_index|#165]], as the site's source Er97c: p. 62
-(PDF p. 77), the bounds $\frac{c_1n^2}{\log n}<r_2(3,n)<\frac{c_2n^2}{\log n}$
-stated as now known, the upper bound credited to Ajtai, Komlós and
-Szemerédi and the recent lower bound to J. H. Kim's probability arguments,
-then the wish as posed: "It would be nice to have an asymptotic formula for
-$r_2(3,n)$"; no prize is attached to this wish here; paged on
+[[../wiki/problems/ramsey_theory/E0165/_index|#165]], as the erdosproblems.com
+source Er97c: p. 62 (PDF p. 77), the bounds
+$\frac{c_1n^2}{\log n}<r_2(3,n)<\frac{c_2n^2}{\log n}$ stated as now known, the
+upper bound credited to Ajtai, Komlós and Szemerédi and the recent lower bound
+to J. H. Kim's probability arguments, then the wish as posed: "It would be nice
+to have an asymptotic formula for $r_2(3,n)$"; no prize is attached to this wish
+here; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/problem_p62|problem_p62]].
-[[../wiki/problems/ramsey_theory/E0166/_index|#166]], as the site's source Er97c:
-pp. 62--63 (PDF pp. 77--78), his former expectation that probabilistic
-arguments would establish $r_2(4,n)>n^{3-\epsilon}$ and, for each fixed
-$k$ and all large $n$, $r_2(k,n)>\frac{n^{k-1}}{(\log n)^2}$,
-retracted in his words: "It now seems that I am wrong and new ideas will be
-required", with Spencer's
-$cn^{5/2}$ as the current lower-bound record for $r_2(4,n)$ and the upper
-bound $r_2(\ell,n)<cn^{\ell-1}/\log n$ for fixed $\ell$ credited to the
+[[../wiki/problems/ramsey_theory/E0166/_index|#166]], as the erdosproblems.com
+source Er97c: pp. 62--63 (PDF pp. 77--78), his former expectation that
+probabilistic arguments would establish $r_2(4,n)>n^{3-\epsilon}$ and, for each
+fixed $k$ and all large $n$, $r_2(k,n)>\frac{n^{k-1}}{(\log n)^2}$, retracted in
+his words: "It now seems that I am wrong and new ideas will be required", with
+Spencer's $cn^{5/2}$ as the current lower-bound record for $r_2(4,n)$ and the
+upper bound $r_2(\ell,n)<cn^{\ell-1}/\log n$ for fixed $\ell$ credited to the
 Ajtai--Komlós--Szemerédi proof; the chapter states the problem as a former
 expectation, not
 as a conjecture with a prize, and its Spencer bound carries no logarithmic
 factor; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/problem_p62|problem_p62]].
-[[../wiki/problems/ramsey_theory/E0564/_index|#564]], as the site's source Er97c: p. 63
-(PDF p. 78), the Erdős--Hajnal--Rado bounds $2^{cn^2}<r_3(n,n)<2^{2^n}$
-(display (4.3)), then "We believe the upper bound is closer to the truth",
-qualified by an Erdős--Hajnal result that seems to favor the lower bound,
-the unbalanced
-triples result with $s=[(\log n)^{1/2}]$, the doubt criterion, and the
-four-color bound $r_3(n,n,n,n)>2^{c2^n}$, credited to Hajnal and called
-very strong evidence for the upper bound in (4.3); the site's form of the
-1965 bounds, $2^{cn^2}<R_3(n)<2^{2^n}$,
-is (4.3) as printed here, and the four-color bound the site attributes to
-the 1984 book is attributed here to Hajnal, without proof or reference;
-paged on
+[[../wiki/problems/ramsey_theory/E0564/_index|#564]], as the erdosproblems.com
+source Er97c: p. 63 (PDF p. 78), the Erdős--Hajnal--Rado bounds
+$2^{cn^2}<r_3(n,n)<2^{2^n}$ (display (4.3)), then "We believe the upper bound is
+closer to the truth", qualified by an Erdős--Hajnal result that seems to favor
+the lower bound, the unbalanced triples result with $s=[(\log n)^{1/2}]$, the
+doubt criterion, and the four-color bound $r_3(n,n,n,n)>2^{c2^n}$, credited to
+Hajnal and called very strong evidence for the upper bound in (4.3); the
+erdosproblems.com form of the 1965 bounds, $2^{cn^2}<R_3(n)<2^{2^n}$, is (4.3)
+as printed here, and the four-color bound erdosproblems.com attributes to the
+1984 book is attributed here to Hajnal, without proof or reference; paged on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_3|display_4_3]].
-[[../wiki/problems/additive_bases/E0707/_index|#707]], as the site's source Er97c: p. 54
-(PDF p. 69), the conjecture Erdős says he made many years ago: for
-every finite Sidon sequence $a_1<\cdots<a_t$ there are a prime power
+[[../wiki/problems/additive_bases/E0707/_index|#707]], as the erdosproblems.com
+source Er97c: p. 54 (PDF p. 69), the conjecture Erdős says he made many years
+ago: for every finite Sidon sequence $a_1<\cdots<a_t$ there are a prime power
 $p=q^\alpha$ and an extension
 $a_1<\cdots<a_t<a_{t+1}<\cdots<a_{p+1}<p^2+p+1$ forming a Singer perfect
 difference set modulo $p^2+p+1$; he adds that he now feels the conjecture
 "is perhaps too optimistic", followed by the weaker $(1+\epsilon)n^2$
 conjecture and
 (2.16); the modulus here allows a prime power $p=q^\alpha$ where the
-site's statement says a prime, and no prize is printed for it; paged on
+erdosproblems.com statement says a prime, and no prize is printed for it; paged
+on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/conjecture_p54|conjecture_p54]].
 
 **Results.** All are statements without proof.

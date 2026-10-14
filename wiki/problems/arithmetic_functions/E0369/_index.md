@@ -27,17 +27,17 @@ sufficiently large $n$, there is a sequence of $k$ consecutive integers in
 $\{1,\ldots,n\}$ all of which are $n^\epsilon$-smooth?
 
 **Formulation.** As worded, the question is trivially true: $1,\ldots,k$ are
-$n^\epsilon$-smooth once $n>k^{1/\epsilon}$, as the site notes. The wording
-follows Erdős and Graham ([ErGr80], p. 69), who ask whether for every
+$n^\epsilon$-smooth once $n>k^{1/\epsilon}$, as erdosproblems.com notes. The
+wording follows Erdős and Graham ([ErGr80], p. 69), who ask whether for every
 $n\ge n_0(\epsilon)$ there are two, or more generally $k$, consecutive
 integers less than $n$ all of whose prime factors are less than
 $n^\epsilon$, and add: "The answer should be affirmative but the problem
 seems very hard." Those words fit only a nontrivial question, but no source
-says which one was meant. The site's commentary gives two nontrivial readings
-and does not choose between them. On the first, each member $m$ of the run is
-$m^\epsilon$-smooth. On the second, the run lies in $[n/2,n]$, for all large
-$n$. The wording and both readings are proved, so they are settled the same
-way and the problem counts as proved: Balog and Wooley 1998 give the first
+says which one was meant. The erdosproblems.com commentary gives two nontrivial
+readings and does not choose between them. On the first, each member $m$ of the
+run is $m^\epsilon$-smooth. On the second, the run lies in $[n/2,n]$, for all
+large $n$. The wording and both readings are proved, so they are settled the
+same way and the problem counts as proved: Balog and Wooley 1998 give the first
 reading, and the second only for infinitely many $n$; Yang 2026 gives, for
 all large $n$, a run in $[n/2,n]$ each of whose members $m$ is
 $m^\epsilon$-smooth, which is both readings at once; and Theorem 2.1 of
@@ -46,15 +46,16 @@ $n^\epsilon$-smooth integers in $[n-n^c,n]$ for some $c<1$, which also gives
 both. The formal-conjectures statement `erdos_369` encodes the second reading
 (see Formalization).
 
-**Status.** Proved. The site showed PROVED (LEAN) (page last edited 2026-04-28).
-The problem is proved in the wording and in both readings described under
-Formulation. The site's (LEAN) suffix rests on a Lean proof of Yang's
-construction, which formal-conjectures links as the proof of its statement of
-the second reading. Two accepted full claims settle every reading. One is
-[[problems/arithmetic_functions/E0369/claims/2026_03_26_yang|Yang 2026]],
-accepted on the forum by the site's curator. The other is
+**Status.** Proved. erdosproblems.com showed PROVED (LEAN) (page last edited
+2026-04-28). The problem is proved in the wording and in both readings described
+under Formulation. erdosproblems.com's (LEAN) suffix rests on a Lean proof of
+Yang's construction, which formal-conjectures links as the proof of its
+statement of the second reading. Two accepted full claims settle every reading.
+One is [[problems/arithmetic_functions/E0369/claims/2026_03_26_yang|Yang 2026]],
+accepted on the forum by the erdosproblems.com curator. The other is
 [[problems/arithmetic_functions/E0369/claims/2017_10_05_bober_fretwell_martin_wooley|Bober, Fretwell, Martin and Wooley 2020]],
-refereed and credited in the site's commentary. The accepted partial claims
+refereed and credited in the erdosproblems.com commentary. The accepted partial
+claims
 [[problems/arithmetic_functions/E0369/claims/1998_04_01_balog_wooley|Balog and Wooley 1998]]
 and
 [[problems/arithmetic_functions/E0369/claims/1976_08_01_eggleton_selfridge|Eggleton and Selfridge 1976]]
@@ -93,12 +94,12 @@ This corpus has built and audited neither file.
 
 ## Current assessment
 
-**Proved in the wording and in both of the site's nontrivial readings.** The
-Statement is the site's wording (page last edited 2026-04-28): $k$
-consecutive $n^\epsilon$-smooth integers in $\{1,\dots,n\}$ for all large
-$n$, which $\{1,\dots,k\}$ satisfies once $n>k^{1/\epsilon}$. Erdős and
-Graham's words call for a nontrivial question and no source fixes one, so the
-problem counts as settled only when both readings under Formulation are
+**Proved in the wording and in both of erdosproblems.com's nontrivial
+readings.** The Statement is the erdosproblems.com wording (page last edited
+2026-04-28): $k$ consecutive $n^\epsilon$-smooth integers in $\{1,\dots,n\}$ for
+all large $n$, which $\{1,\dots,k\}$ satisfies once $n>k^{1/\epsilon}$. Erdős
+and Graham's words call for a nontrivial question and no source fixes one, so
+the problem counts as settled only when both readings under Formulation are
 settled the same way, and they are.
 
 The first reading, that each member $x$ of the run be $x^\epsilon$-smooth,
@@ -110,18 +111,19 @@ claim
 which settles $k\le5$ of the wording and of the first reading.
 
 The second reading, the run inside $[n/2,n]$ for all large $n$, follows from
-Yang's 2026 construction, accepted on the forum by the site's curator and
-formalized in Lean, which formal-conjectures links as the proof of its
+Yang's 2026 construction, accepted on the forum by the erdosproblems.com curator
+and formalized in Lean, which formal-conjectures links as the proof of its
 statement; each member $m$ of Yang's run is $m^\epsilon$-smooth, so it
 settles the first reading too. It also follows, with the run inside
 $[n-n^c,n]$ for some $c<1$, from Theorem 2.1 of Bober, Fretwell, Martin and
-Wooley 2020 (refereed), a deduction Wooley pointed out and the site's curator
-wrote out on the forum; that run settles the first reading as well.
+Wooley 2020 (refereed), a deduction Wooley pointed out and the erdosproblems.com
+curator wrote out on the forum; that run settles the first reading as well.
 
 No refereed publication of Yang's argument is known, and this corpus has built
-and audited neither Lean file. The site's discussion thread (eleven comments,
-2026-03-26 to 2026-03-27) carries Yang's argument and the curator's deduction
-from [BFMW20]. The site relates the problem to Problems 370 and 928.
+and audited neither Lean file. The erdosproblems.com discussion thread (eleven
+comments, 2026-03-26 to 2026-03-27) carries Yang's argument and the curator's
+deduction from [BFMW20]. erdosproblems.com relates the problem to Problems 370
+and 928.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

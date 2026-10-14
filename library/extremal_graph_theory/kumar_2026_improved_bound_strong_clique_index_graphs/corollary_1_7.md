@@ -62,8 +62,8 @@ as the arXiv preprint), which the paper restates on pp. 2--3.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the best claimed
-  bound on the clique form $\omega(L(G)^2)\le\frac54\Delta^2$ of the site's
-  conjecture improving the refereed
+  bound on the clique form $\omega(L(G)^2)\le\frac54\Delta^2$ of
+  erdosproblems.com's conjecture improving the refereed
   [[extremal_graph_theory/faron_2019_clique_number_square_line_graph_relation/corollary_1_11|Corollary 1.11 of Faron and Postle]]
   ($\frac43\Delta^2$); a preprint result, recorded with that qualification
   and without review here.

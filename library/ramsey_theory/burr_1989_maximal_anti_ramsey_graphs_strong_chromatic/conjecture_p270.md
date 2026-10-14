@@ -22,12 +22,12 @@ $e=t_2(n)+1$, then $\chi_S(n,e,C_k)=(1+o(1))(n^2/8)$."
 
 "If may" is printed for "It may"; the sentence is reproduced as printed.
 Here $t_2(n)=\lfloor n^2/4\rfloor$ is the Turán number, so $e=t_2(n)+1$ is
-the site's $\lfloor n^2/4\rfloor+1$, and the odd cycles $C_k$ with $k\ge7$
-are the site's $C_{2k+1}$ with $k\ge3$. "Best possible" refers to the
-two-clique coloring that gives the matching upper bound; the 2026 paper of
-Bucić, Chen and Ma credits that example to this paper and says it
-"motivated Conjecture 1.1" (its p. 2). The page continues: "Observe that in
-terms of Table 1, Theorem 5.1 covers all four ranges of $e$. Since
+erdosproblems.com's $\lfloor n^2/4\rfloor+1$, and the odd cycles $C_k$ with
+$k\ge7$ are erdosproblems.com's $C_{2k+1}$ with $k\ge3$. "Best possible" refers
+to the two-clique coloring that gives the matching upper bound; the 2026 paper
+of Bucić, Chen and Ma credits that example to this paper and says it "motivated
+Conjecture 1.1" (its p. 2). The page continues: "Observe that in terms of Table
+1, Theorem 5.1 covers all four ranges of $e$. Since
 $\chi_S(n,e,C_k)\le\binom n2$ for all $e$, only the constant $c$ can change
 for the other ranges."
 
@@ -63,6 +63,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0809/_index|Problem 809]]: the site's source key
-  "[BEGS89, p. 270]"; the problem's statement in the authors' words, with
-  the site's $\sim n^2/8$ written as $(1+o(1))(n^2/8)$.
+- [[../wiki/problems/ramsey_theory/E0809/_index|Problem 809]]: the
+  erdosproblems.com source key "[BEGS89, p. 270]"; the problem's statement in
+  the authors' words, with erdosproblems.com's $\sim n^2/8$ written as
+  $(1+o(1))(n^2/8)$.

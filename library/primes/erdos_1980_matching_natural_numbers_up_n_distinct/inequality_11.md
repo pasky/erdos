@@ -3,7 +3,7 @@ name: primes/erdos_1980_matching_natural_numbers_up_n_distinct/inequality_11
 title: "Inequality (11): f(n) ≤ (c + o(1)) n √log n with c = √r/(1 − r) = 1.7398…"
 desc: |
   The sketched improvement of Theorem 3's constant from 2 to 1.7398, where r
-  solves e^(-r) = r; the constant the site prints for Problem 710.
+  solves e^(-r) = r; the constant erdosproblems.com prints for Problem 710.
 created: 2026-09-18T11:25:00Z
 updated: 2026-10-07T12:17:41Z
 ---
@@ -60,6 +60,7 @@ Theorem 3.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]: the upper bound the
-  site prints, $(1.7398\cdots+o(1))n(\log n)^{1/2}$, is this display; the
-  theorem the paper proves in full is Theorem 3's $(2+o(1))n\sqrt{\log n}$.
+- [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]: the upper
+  bound erdosproblems.com prints, $(1.7398\cdots+o(1))n(\log n)^{1/2}$, is this
+  display; the theorem the paper proves in full is Theorem 3's
+  $(2+o(1))n\sqrt{\log n}$.

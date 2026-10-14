@@ -23,8 +23,8 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Are there infinitely many positive integers not of the form
 $n-\phi(n)$?
 
-**Status.** Proved. The site labeled the problem PROVED (LEAN). Browkin and
-Schinzel's 1995 theorem answers yes; see
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (LEAN). Browkin
+and Schinzel's 1995 theorem answers yes; see
 [[problems/arithmetic_functions/E0418/claims/1994_04_11_browkin_schinzel|the claim page]].
 The Lean qualification corresponds to the formal proof that formal-conjectures'
 `418.lean` records. That proof is a Lean 4 development held outside this corpus
@@ -67,35 +67,37 @@ Lean 4 development in the
 
 ## Current assessment
 
-**The question (site formulation, 2026-09-04).** Whether infinitely many
-positive integers are not of the form $n-\phi(n)$. PROVED (LEAN). The site's
-commentary records that Erdős and Sierpiński asked the question, calls the
-integers not of the form noncototients, notes that Goldbach's conjecture would
-make every odd number of the form (strictly, a slight strengthening is needed:
-that every even number above $6$ is a sum of two distinct primes $p\ne q$, since
-then $n=pq$ gives $n-\phi(n)=p+q-1$), and asks what happens for even numbers.
+**The question (erdosproblems.com formulation, 2026-09-04).** Whether infinitely
+many positive integers are not of the form $n-\phi(n)$. PROVED (LEAN). The
+erdosproblems.com commentary records that Erdős and Sierpiński asked the
+question, calls the integers not of the form noncototients, notes that
+Goldbach's conjecture would make every odd number of the form (strictly, a
+slight strengthening is needed: that every even number above $6$ is a sum of two
+distinct primes $p\ne q$, since then $n=pq$ gives $n-\phi(n)=p+q-1$), and asks
+what happens for even numbers.
 
 **Standing.** Two accepted full claims and one pending full claim. Browkin and
 Schinzel [BrSc95]
 ([[problems/arithmetic_functions/E0418/claims/1994_04_11_browkin_schinzel|claim page]]),
 refereed and reviewed, prove that none of $2^k\cdot509203$, $k\ge1$, is of the
-form, which answers yes; the site's curator credits the result and Guy [Gu04]
-reports it. Flammenkamp and Luca [FlLu00]
+form, which answers yes; the erdosproblems.com curator credits the result and
+Guy [Gu04] reports it. Flammenkamp and Luca [FlLu00]
 ([[problems/arithmetic_functions/E0418/claims/1999_07_02_flammenkamp_luca|claim page]]),
 refereed, give a sufficient condition on $k$ for every $2^mk$ to be a
 noncototient and find seven such $k$, among them $509203$. Banks and Luca's
 preprint [BaLu04]
 ([[problems/arithmetic_functions/E0418/claims/2004_09_14_banks_luca|claim page]]),
 claimed, proves that $2p$ is a noncototient for almost all primes $p$; its
-journal version [BaLu05] omits this theorem. The site's discussion thread links
-both later papers (comment of 21 November 2025), but the site's commentary
-credits neither. The community database lists the problem as proved (Lean) as of
-its last update on 2025-11-23; the formal proof is a Lean 4 development in the
-lean-proofs repository, which the formal-conjectures statement file credits to
-Alexeev using Aristotle and records as the problem's formal proof. This corpus
-has neither built nor audited it, so no `formalized` evidence is listed.
+journal version [BaLu05] omits this theorem. The erdosproblems.com discussion
+thread links both later papers (comment of 21 November 2025), but the
+erdosproblems.com commentary credits neither. The community database lists the
+problem as proved (Lean) as of its last update on 2025-11-23; the formal proof
+is a Lean 4 development in the lean-proofs repository, which the
+formal-conjectures statement file credits to Alexeev using Aristotle and records
+as the problem's formal proof. This corpus has neither built nor audited it, so
+no `formalized` evidence is listed.
 
-**Search scope.** The site's problem page (last edited 2025-12-08)
+**Search scope.** The erdosproblems.com problem page (last edited 2025-12-08)
 and discussion thread, the community database, the formal-conjectures statement
 file and the lean-proofs file; [BrSc95] through its library card, [FlLu00] on
 the publisher's site and [BaLu04] on arXiv. No proof was reconstructed here.
@@ -112,7 +114,7 @@ the publisher's site and [BaLu04] on arXiv. No proof was reconstructed here.
   $2k$ a noncototient, then every $2^mk$ with $m\ge1$ is a noncototient; seven
   such $k$ are found by computation
   ([[problems/arithmetic_functions/E0418/claims/1999_07_02_flammenkamp_luca|claim page]]).
-- Open: whether the noncototients have positive density (the site's
+- Open: whether the noncototients have positive density (the erdosproblems.com
   commentary and a closing problem of [BrSc95]). The best count known here is
   [BaLu04], Theorem 1: $2p$ is a noncototient for almost all primes $p$, so at
   least $(1+o(1))x/(2\log x)$ noncototients lie below $x$ (preprint only;

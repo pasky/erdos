@@ -6,7 +6,7 @@ desc: |
   theory, cardinal arithmetic, and problems whose answers are independent of
   the usual axioms of set theory.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Set Theory and Infinite Combinatorics
@@ -119,7 +119,7 @@ product of three countably infinite subsets.
 $\lambda$, $2^\lambda\to(\kappa_\alpha+1)_{\alpha<\gamma}^{r+1}$ implies
 $\lambda\to(\kappa_\alpha)_{\alpha<\gamma}^{r}$; open under the Erdős–Hajnal
 list's conditions $\gamma\geq2$ and all $\kappa_\alpha>r$, which exclude the
-failures of the site's wording.
+failures of the erdosproblems.com wording.
 
 [[problems/set_theory/E1168/_index|E1168/]]: Asks for a proof of
 $\aleph_{\omega+1}\not\to(\aleph_{\omega+1},3,\ldots,3)_{\aleph_0}^2$ without
@@ -181,5 +181,6 @@ Infinite graphs and hypergraphs, partition calculus and infinite Ramsey theory,
 cardinal arithmetic, and problems whose answers are independent of the usual
 axioms of set theory.
 
-Site tags routed here: algebra, analysis, chromatic number, combinatorics,
-distances, geometry, graph theory, hypergraphs, ramsey theory, set theory.
+erdosproblems.com tags routed here: algebra, analysis, chromatic number,
+combinatorics, distances, geometry, graph theory, hypergraphs, ramsey theory,
+set theory.

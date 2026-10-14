@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 791, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0791/claims
@@ -23,7 +23,7 @@ refereed.
 [[problems/additive_combinatorics/E0791/claims/1979_04_01_mrose|1979_04_01_mrose]]: Mrose's 1979 construction of finite additive $2$-bases of $k$ elements with
 range at least $(8/7)(k/2)^2+O(k)$, which gives $g(n)^2\le(7/2+o(1))n$ and
 shows that the guess $g(n)\sim2n^{1/2}$ of Problem 791 is false. The paper is
-refereed and the site credits it.
+refereed and erdosproblems.com credits it.
 
 [[problems/additive_combinatorics/E0791/claims/2015_11_01_yu|2015_11_01_yu]]: Yu (J. Number Theory 156 (2015)) proves $\limsup n(k)/k^2\le0.4585$ for the
 maximal range $n(k)$ of a $2$-basis of size $k$, so

@@ -3,7 +3,7 @@ name: ramsey_theory
 title: "Ramsey Theory"
 desc: "Sources filed under Ramsey Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T17:25:16Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Ramsey Theory
@@ -190,7 +190,8 @@ r(K_{2,n}, K_n) of order n^3 / log^2 n and r(C_5, K_n) at most
 [[ramsey_theory/chen_2026_monochromatic_path_covers_conjecture_erdos_gyarfas/_index|chen_2026_monochromatic_path_covers_conjecture_erdos_gyarfas/]]: An unrefereed 2026 arXiv preprint claiming the Erdős–Gyárfás monochromatic
 path cover conjecture for every n, by a minimal counterexample argument
 ruling out the small cases left by Pokrovskiy, Versteegen and Williams;
-submitted to the site as a proof claim, not adopted, not checked here.
+submitted to erdosproblems.com as a proof claim, not adopted, not checked
+here.
 
 [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/_index|chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/]]: Chung and Graham's 1975 bounds on the k-color Ramsey number of the complete
 bipartite graph K_{s,t} with s ≤ t: the upper bounds (t-1)(k+k^{1/s})^s
@@ -316,8 +317,8 @@ when the graph is as complete as possible.
 [[ramsey_theory/erdos_1985_multipartite_graph_sparse_graph_ramsey_numbers/_index|erdos_1985_multipartite_graph_sparse_graph_ramsey_numbers/]]: Determines the Ramsey number of a complete multipartite graph against a
 large connected graph of bounded degree and few extra edges as
 (m-1)(n-1)+s, proves the asymptotic r(F,T)/n -> chi(F)-1 for every fixed
-F and large trees T, and gives r(K(2,2),T) <= n + ceil(sqrt n); the site's
-source for Problem 550.
+F and large trees T, and gives r(K(2,2),T) <= n + ceil(sqrt n); the
+erdosproblems.com source for Problem 550.
 
 [[ramsey_theory/erdos_1989_conjecture_roth_related_problems/_index|erdos_1989_conjecture_roth_related_problems/]]: Shows any finite coloring of the positive integers leaves few even
 integers up to M without a monochromatic sum of two distinct integers,
@@ -333,7 +334,7 @@ r(K(m_1,...,m_k),T_n) <= (k-1)(r(K(m_1,m_2),T_n)-1)+m_1 for large n, the
 question that is Problem 550.
 
 [[ramsey_theory/erdos_1990_problems_results_graphs_hypergraphs_similarities_differences/_index|erdos_1990_problems_results_graphs_hypergraphs_similarities_differences/]]: Erdős's 1990 survey of extremal and Ramsey-type problems on graphs against
-hypergraphs: the site's source for the two-color density threshold
+hypergraphs: the erdosproblems.com source for the two-color density threshold
 F(n, alpha), which it recalls from an earlier paper of Erdős, and a printed
 source of his prize offers on diagonal and off-diagonal Ramsey numbers.
 
@@ -539,7 +540,7 @@ vertices.
 [[ramsey_theory/huang_2026_affirmative_answer_owings_sumset_question/_index|huang_2026_affirmative_answer_owings_sumset_question/]]: An unrefereed 2026 preprint claiming that every two-coloring of the
 natural numbers has an infinite set B with B+B monochromatic, answering
 Owings's question, together with a weighted form; the claim is not
-adopted by the site and is not checked here.
+adopted by erdosproblems.com and is not checked here.
 
 [[ramsey_theory/huang_2026_new_upper_bound_ramsey_number_odd_cycles/_index|huang_2026_new_upper_bound_ramsey_number_odd_cycles/]]: Improves the multicolor Ramsey upper bound for a fixed odd cycle when the
 number of colors is sufficiently large.
@@ -723,7 +724,7 @@ by a weighted count with nilsequence models and nilpotent recurrence.
 [[ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers/_index|openai_2026_ratio_consecutive_ramsey_numbers/]]: A three-page manuscript hosted by OpenAI proving that for every fixed k the
 ratio of consecutive off-diagonal Ramsey numbers R(k,l+1)/R(k,l) tends to
 one, with a polynomial rate; the proof is attributed to an internal model
-at OpenAI and the site accepts it as the resolution of Problem 1014.
+at OpenAI and erdosproblems.com accepts it as the resolution of Problem 1014.
 
 [[ramsey_theory/openai_2026_sharp_logarithmic_exponent_r_5_t/_index|openai_2026_sharp_logarithmic_exponent_r_5_t/]]: A 41-page manuscript of the OpenAI mathematics release claiming
 r(5,t) = t^4/(log t)^{3+o(1)}: an upper bound C t^4/(log t)^3 by the

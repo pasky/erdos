@@ -75,5 +75,5 @@ Szemerédi's regularity lemma, as the paper cites them.
 
 - [[../wiki/problems/extremal_graph_theory/E0743/_index|Problem 743]]: the bounded-degree
   case of the conjecture for all large $n$, the first of the three partial
-  regimes the site records; the full conjecture, with no degree bound, stays
-  open.
+  regimes erdosproblems.com records; the full conjecture, with no degree bound,
+  stays open.

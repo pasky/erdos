@@ -92,9 +92,9 @@ built the file and has not compared its statements with the question, so no
 `formalized` evidence is listed.
 
 **Standing.** The manuscript is unpublished and unrefereed, and no outside
-review of it is recorded; the problem's own site page, last edited 23 January
-2026, carries no proof claim, the claim being filed under Problem 97. The
-claim is therefore claimed. The problem's standing is solved through the
+review of it is recorded; the problem's own erdosproblems.com page, last edited
+23 January 2026, carries no proof claim, the claim being filed under Problem 97.
+The claim is therefore claimed. The problem's standing is solved through the
 certified disproof by two of the authors on
 [[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|Kruer and
 Kohlmeyer's page]], which does not rest on this page.

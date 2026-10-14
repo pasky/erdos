@@ -92,9 +92,9 @@ large Delta, progress towards the Erdos-Nesetril conjecture chi'_s(G) <=
 Source: <https://arxiv.org/abs/1810.06704>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1.11
-(p. 4 of the preprint, page image), the site's "$1.835\Delta^2$ by Bonamy,
-Perrett, and Postle", the third step of the chain of upper bounds for large
-$\Delta$; the same page restates Molloy and Reed's and Bruhn and Joos's
+(p. 4 of the preprint, page image), erdosproblems.com's "$1.835\Delta^2$ by
+Bonamy, Perrett, and Postle", the third step of the chain of upper bounds for
+large $\Delta$; the same page restates Molloy and Reed's and Bruhn and Joos's
 bounds as Theorems 1.9 and 1.10. Its proof (p. 24) combines
 [[extremal_graph_theory/bonamy_2022_colouring_graphs_sparse_neighbourhoods_bounds_applications/lemma_4_6|Lemma 4.6]] (p. 22), a sparsity bound for the part of the
 square of the line graph that must be coloured, with

@@ -35,8 +35,8 @@ nx(1/12 - o(1)) places apart in the sequence.
 ***
 
 Wouter van Doorn, *Improved bounds for the Mayer-Erdős phenomenon on
-similarly ordered Farey fractions*, arXiv:2509.00121 (2025). The site's key
-vD25b.
+similarly ordered Farey fractions*, arXiv:2509.00121 (2025). The
+erdosproblems.com key vD25b.
 
 The copy read for this card
 is arXiv:2509.00121v1 (28 August 2025), 9 pages with a text layer whose plus
@@ -71,8 +71,9 @@ $f(n)\ge\lfloor(n/12)(1-4/n^{1/3})\rfloor=(1/12-o(1))n$, improving Erdős's
 constant $1/400$ and Zaharescu's $1/480$ (the paper's account: Zaharescu
 generalized to arbitrary linear forms with $c=1/480$, and Meng and Zaharescu
 to several variables). The paper reports no earlier improvement on Erdős's
-constant that its author was aware of; the site's account of Problem 1005 now
-rests on a 2026 preprint that claims the matching lower bound $(1/4-o(1))n$.
+constant that its author was aware of; erdosproblems.com's account of Problem
+1005 now rests on a 2026 preprint that claims the matching lower bound
+$(1/4-o(1))n$.
 
 ## Contents
 
@@ -113,9 +114,9 @@ independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E1005/_index|#1005]]: the same function
 $f(n)$ as the problem's; Theorem 1 is the upper bound
-$f(n)\le\lfloor n/4\rfloor+d$ the site prints as $f(n)\le n/4+O(1)$, and
-Theorem 2 is the lower bound $(1/12-o(1))n$ the site prints; the Conjecture
-that the upper bound is exact for $n\ge92$ is the statement the 2026
+$f(n)\le\lfloor n/4\rfloor+d$ erdosproblems.com prints as $f(n)\le n/4+O(1)$,
+and Theorem 2 is the lower bound $(1/12-o(1))n$ erdosproblems.com prints; the
+Conjecture that the upper bound is exact for $n\ge92$ is the statement the 2026
 preprints address (asymptotically, and then exactly). Lemma 2 and Theorem 3
 are not bounds on $f(n)$: Lemma 2 gives similar ordering for pairs
 enclosing a Farey fraction $a/b$ when $l-k\le(n+b+1)/(2b)$ and is a step in

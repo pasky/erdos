@@ -54,19 +54,20 @@ whose average degree is at least $\max\{d_0,4^{i_0}\}$, in particular for
 every graph of minimum degree at least that constant; the cycle found has
 length $2^k$ with $k\ge i_0\ge2$. Neither $d_0$ nor $i_0$ is made explicit in
 the paper, and the threshold is far above $3$, so graphs of minimum degree
-between $3$ and the constant are not covered. The site's remark credits the
-paper with the affirmative answer once the minimum degree exceeds an absolute
-constant, which refutes the stronger expectation of Erdős and Gyárfás that
-for every $r$ some graph of minimum degree $r$ avoids all such cycles.
+between $3$ and the constant are not covered. The erdosproblems.com remark
+credits the paper with the affirmative answer once the minimum degree exceeds an
+absolute constant, which refutes the stronger expectation of Erdős and Gyárfás
+that for every $r$ some graph of minimum degree $r$ avoids all such cycles.
 
 **Depends on.** No page of this wiki: the corollary is the paper's own,
 recorded on its library result page.
 
 **Acceptance.** Refereed: the paper is a publication in the Journal of the
-American Mathematical Society (published online 2023-03-31). The site's curator
-credits the paper with the case of large minimum degree while labeling the
-problem FALSIFIABLE. So the curator's remark is commentary on an open problem
-and is not listed as reviewed evidence. The corpus's
+American Mathematical Society (published online 2023-03-31). The
+erdosproblems.com curator credits the paper with the case of large minimum
+degree while labeling the problem FALSIFIABLE. So the curator's remark is
+commentary on an open problem and is not listed as reviewed evidence. The
+corpus's
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/_index|source card]]
 reconstructs the proof from the arXiv v2 manuscript. That reconstruction is
 incomplete at

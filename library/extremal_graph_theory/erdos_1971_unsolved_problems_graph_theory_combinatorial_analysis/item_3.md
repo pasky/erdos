@@ -97,13 +97,14 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1009/_index|Problem 1009]]: the site's source
-  passage ([Er71, p. 98]); the site's statement is the third paragraph's
-  question with $f(c)$ for $f(c_1)$, and its commentary repeats the first
-  paragraph's theorem (with $f(c)=0$ for $c<\tfrac12$) and Sauer's example.
+- [[../wiki/problems/extremal_graph_theory/E1009/_index|Problem 1009]]: the
+  erdosproblems.com source passage ([Er71, p. 98]); the erdosproblems.com
+  statement is the third paragraph's question with $f(c)$ for $f(c_1)$, and its
+  commentary repeats the first paragraph's theorem (with $f(c)=0$ for
+  $c<\tfrac12$) and Sauer's example.
 - [[../wiki/problems/extremal_graph_theory/E1011/_index|Problem 1011]]: the fourth
-  paragraph's question. The site's $f_r(n)$, the least edge count forcing a
-  triangle in an $n$-vertex graph of chromatic number at least $r$, is
+  paragraph's question. erdosproblems.com's $f_r(n)$, the least edge count
+  forcing a triangle in an $n$-vertex graph of chromatic number at least $r$, is
   Erdős's $u_r$ under the same definition (the sign is $\geqslant$ in the
-  print), with $u_2$ and $u_3$ as the site gives them; the footnote is a
-  printed attestation that Simonovits determined $u_r$.
+  print), with $u_2$ and $u_3$ as erdosproblems.com gives them; the footnote is
+  a printed attestation that Simonovits determined $u_r$.

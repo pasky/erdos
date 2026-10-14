@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 705, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/discrete_geometry/E0705/claims
@@ -24,6 +24,7 @@ forces $3$-colorability.
 
 [[problems/discrete_geometry/E0705/claims/1999_10_01_odonnell|1999_10_01_odonnell]]: O'Donnell's 1999 dissertation constructs, for every $k\ge3$, a finite unit
 distance graph in the plane with girth $k$ and chromatic number $4$, so no
-girth bound forces $3$-colorability. The site's curator credited it in 2026.
+girth bound forces $3$-colorability. The erdosproblems.com curator credited it
+in 2026.
 
 ***

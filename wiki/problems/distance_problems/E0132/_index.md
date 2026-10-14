@@ -30,19 +30,19 @@ points. Must there be two distances which occur at least once but between at
 most $n$ pairs of points? Must the number of such distances $\to \infty$ as
 $n\to \infty$?
 
-**Notes.** The site's wording, as accessed 2026-09-04, places no bound on $n$,
-and its first question fails for every $n\le4$. The smallest substantive failure
-is at $n=4$: two unit equilateral triangles sharing an edge (a rhombus) give
-five pairs at distance $1$ and one pair at distance $\sqrt3$, so only the
-diameter occurs between at most $4$ pairs. For $n\le3$ the failure is
-degenerate: one point determines no distance, two points one, and an equilateral
-triangle one. No failure is recorded for any $n\ge5$, so these are boundary
-failures. The change inserts "$\geq 5$" after "a set of $n$"; nothing else
-changes, and the second question, which concerns large $n$, is unaffected. The
-form is the poser's own. Erdős and Fishburn [ErFi95] (Section 5, pp. 145-146)
-note that the second diagram of their Fig. 1 (p. 143), this rhombus, has every
-distance below the diameter occurring more than $n$ times, attribute the
-conjecture to Erdős and Pach [ErPa90], and state it as their
+**Notes.** The erdosproblems.com wording, as accessed 2026-09-04, places no
+bound on $n$, and its first question fails for every $n\le4$. The smallest
+substantive failure is at $n=4$: two unit equilateral triangles sharing an edge
+(a rhombus) give five pairs at distance $1$ and one pair at distance $\sqrt3$,
+so only the diameter occurs between at most $4$ pairs. For $n\le3$ the failure
+is degenerate: one point determines no distance, two points one, and an
+equilateral triangle one. No failure is recorded for any $n\ge5$, so these are
+boundary failures. The change inserts "$\geq 5$" after "a set of $n$"; nothing
+else changes, and the second question, which concerns large $n$, is unaffected.
+The form is the poser's own. Erdős and Fishburn [ErFi95] (Section 5, pp.
+145-146) note that the second diagram of their Fig. 1 (p. 143), this rhombus,
+has every distance below the diameter occurring more than $n$ times, attribute
+the conjecture to Erdős and Pach [ErPa90], and state it as their
 [[../library/distance_problems/erdos_fishburn_1995_multiplicities_interpoint_distances_finite_planar_sets/conjecture_4|Conjecture 4]]
 (p. 146): "There is no $X$ for $n\geq5$ such that $r_k>n$ for every interpoint
 distance less than $\delta$", which with the Hopf–Pannwitz bound on the diameter
@@ -53,26 +53,26 @@ after Pannwitz's bound on the diameter: "can it happen that for $n>4$ every
 other distance occurs more than $n$ times? We believe that the answer is no!";
 the
 [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|library card]]
-records the item. The site's curator states the same form in the site's
-commentary under the label OPEN: "Erdős [Er84c] believed that for $n\geq 5$
-there must always exist at least two such distances. This is false for $n=4$",
-with the rhombus as witness. Clemen, Dumitrescu and Liu state it as Erdős's
-Conjecture 1.1 ([CDL25], arXiv:2505.04283v5, p. 2), "Let $n\geq5$", and add that
-"the condition $n\geq5$ is necessary" because of the rhombus; their theorems
-settle only special cases, so their statement is independent of any claim that
-would settle the modified Statement. The copy of [Er84c] read for its
+records the item. The erdosproblems.com curator states the same form in the
+erdosproblems.com commentary under the label OPEN: "Erdős [Er84c] believed that
+for $n\geq 5$ there must always exist at least two such distances. This is false
+for $n=4$", with the rhombus as witness. Clemen, Dumitrescu and Liu state it as
+Erdős's Conjecture 1.1 ([CDL25], arXiv:2505.04283v5, p. 2), "Let $n\geq5$", and
+add that "the condition $n\geq5$ is necessary" because of the rhombus; their
+theorems settle only special cases, so their statement is independent of any
+claim that would settle the modified Statement. The copy of [Er84c] read for its
 [[../library/distance_problems/erdos_1984_old_new_problems_combinatorial_geometry/_index|library card]]
 (pp. 134-135) gives the Pannwitz bound on the diameter and questions on equal
-multiplicities but no statement of this question, so the site's and [CDL25]'s
-attribution to it is not confirmed there; [ErPa90] and [Er97e] are not held. The
-defect is the site's: the poser's statements read here carry the bound. The form
-was fixed from these sources before reading which results settle it. The
-counterexample at $n=4$ is recorded by the curator, by [CDL25] and in [ErFi95]
-itself; it settles no instance of the modified Statement and counts for
-nothing. The problem's standing judges the modified Statement.
+multiplicities but no statement of this question, so erdosproblems.com's and
+[CDL25]'s attribution to it is not confirmed there; [ErPa90] and [Er97e] are not
+held. The defect is erdosproblems.com's: the poser's statements read here carry
+the bound. The form was fixed from these sources before reading which results
+settle it. The counterexample at $n=4$ is recorded by the curator, by [CDL25]
+and in [ErFi95] itself; it settles no instance of the modified Statement and
+counts for nothing. The problem's standing judges the modified Statement.
 
-**Status.** Open. The site labeled the problem OPEN. Its commentary states the
-first question for $n\geq5$, as the modified Statement does.
+**Status.** Open. Bloom's catalog labeled the problem OPEN. Its commentary
+states the first question for $n\geq5$, as the modified Statement does.
 
 **Source.** [erdosproblems.com/132](https://www.erdosproblems.com/132), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #132,
@@ -128,14 +128,14 @@ no resolution of these two rare-distance questions was identified. This
 is a scoped search, not proof that no later result exists.
 
 **Proof claims.** The standing is derived from the claim pages in `claims/`:
-every claim is partial, so the problem stays open, and the site's label was
-OPEN. Two accepted partial claims rest on refereed publications: Erdős and
-Fishburn's cases $n=5$ and $n=6$ [ErFi95], on
+every claim is partial, so the problem stays open, and the erdosproblems.com
+label was OPEN. Two accepted partial claims rest on refereed publications: Erdős
+and Fishburn's cases $n=5$ and $n=6$ [ErFi95], on
 [[problems/distance_problems/E0132/claims/1995_06_01_erdos_fishburn|their page]],
 and Clemen, Dumitrescu and Liu's convex and two-layer cases [CDL25], on
 [[problems/distance_problems/E0132/claims/2025_05_07_clemen_dumitrescu_liu|their page]].
-Three pending partial claims are dated notes posted in the site's discussion
-thread: (i)
+Three pending partial claims are dated notes posted in the erdosproblems.com
+discussion thread: (i)
 [[problems/distance_problems/E0132/claims/2026_01_28_zeraoulia|Zeraoulia's page]]
 records Zeraoulia's note of 28 January 2026, which claims to prove the first
 question for $n=7$ by counting and the classification of seven-point
@@ -152,7 +152,7 @@ five-distance sets; (iii)
 records the anonymous note of 25 July 2026, an independent claimed proof of
 the cases $n=7$, $8$, $9$, $10$ and $13$ together with a $9n/7$ lower bound
 for the extremal question of [CDL25]. Two pending partial claims are from the
-site's proof-claims tab: (iv)
+erdosproblems.com proof-claims tab: (iv)
 [[problems/distance_problems/E0132/claims/2026_08_23_beller|Beller's page]]
 records Evan Beller's manuscript of 23 August 2026, which claims to prove the
 first question for $n=8$, a case Marchetto's note had claimed in July: pair

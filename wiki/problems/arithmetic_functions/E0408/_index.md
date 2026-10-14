@@ -37,12 +37,12 @@ say, $k=\log\log n$?
 whether $f(n)/\log n$ tends to a constant on a set of asymptotic density one.
 That is how Erdős and Graham pose it on p. 81 of [ErGr80], asking whether
 $f(n)/\log n$ is almost always constant, how [EGPS90] states its conjecture on
-p. 166, $k(n)\sim\alpha\log n$ on a set of asymptotic density one, and how the
-site reads it. Read as the site words it, the question has a trivial answer no:
-$f(n)/\log n=c$ determines $n$ from $f(n)$, so each value of $f$ gives at most
-one such $n$.
+p. 166, $k(n)\sim\alpha\log n$ on a set of asymptotic density one, and how
+erdosproblems.com reads it. Read as Bloom's catalog words it, the question has a
+trivial answer no: $f(n)/\log n=c$ determines $n$ from $f(n)$, so each value of
+$f$ gives at most one such $n$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 30
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 30
 September 2025). Its commentary credits [EGPS90] with a yes to the first two
 questions under a form of the Elliott--Halberstam conjecture. That conditional
 theorem is the claim on
@@ -83,12 +83,12 @@ https://www.erdosproblems.com/408.
 
 ## Current assessment
 
-**The question (site formulation, 2026-09-04).** Whether $f(n)/\log n$, the
-number of totient iterations needed to reach $1$ divided by $\log n$, has a
-distribution function; whether it is almost always constant, read as a
-normal order (Formulation); and what can be said about the largest prime
-factor of $\phi_k(n)$ for $k=\log\log n$. The site labeled the problem OPEN
-(page last edited 30 September 2025).
+**The question (erdosproblems.com formulation, 2026-09-04).** Whether
+$f(n)/\log n$, the number of totient iterations needed to reach $1$ divided by
+$\log n$, has a distribution function; whether it is almost always constant,
+read as a normal order (Formulation); and what can be said about the largest
+prime factor of $\phi_k(n)$ for $k=\log\log n$. Bloom's catalog labeled the
+problem OPEN (page last edited 30 September 2025).
 
 **Standing.** Open. The one claim page,
 [[problems/arithmetic_functions/E0408/claims/1990_01_01_erdos_granville_pomerance_spiro|the Erdős–Granville–Pomerance–Spiro page]],
@@ -98,18 +98,18 @@ holds up to the level $x^{1-(\log\log x)^{-2}}$, a hypothesis stronger than
 the usual conjecture and unproven; under it $f(n)/\log n\to\alpha$ on a set
 of density one, and the first two questions have the answer yes. The claim
 is `claimed`: the chapter is in a proceedings volume with no evidence of
-refereeing recorded, and the site's credit is commentary on a problem it
-labeled OPEN. Unconditionally, the site's commentary records Pillai's bounds
-$\log n/\log3<f(n)<\log n/\log2$ for all large $n$ [Pi29] and Shapiro's
-result that $f(n)$ is essentially multiplicative [Sh50]; [EGPS90] notes on
-p. 166 that the values of $f(n)/\log n$ are dense in $[1/\log3,1/\log2]$,
-by the numbers $2^i3^j$. The third question has no recorded result; the
-site's commentary records the expectation that, whenever $k\to\infty$ with
-$n$, the largest prime factor of $\phi_k(n)$ is at most $n^{o(1)}$ for almost
-all $n$.
+refereeing recorded, and the erdosproblems.com credit is commentary on a problem
+it labeled OPEN. Unconditionally, the erdosproblems.com commentary records
+Pillai's bounds $\log n/\log3<f(n)<\log n/\log2$ for all large $n$ [Pi29] and
+Shapiro's result that $f(n)$ is essentially multiplicative [Sh50]; [EGPS90]
+notes on p. 166 that the values of $f(n)/\log n$ are dense in
+$[1/\log3,1/\log2]$, by the numbers $2^i3^j$. The third question has no recorded
+result; the erdosproblems.com commentary records the expectation that, whenever
+$k\to\infty$ with $n$, the largest prime factor of $\phi_k(n)$ is at most
+$n^{o(1)}$ for almost all $n$.
 
-**Search scope (2026-10-07).** The site's page and its commentary, the
-abstract and introduction of [EGPS90], and B41 of [Gu04]; no other
+**Search scope (2026-10-07).** The erdosproblems.com page and its commentary,
+the abstract and introduction of [EGPS90], and B41 of [Gu04]; no other
 literature search was made, and no proof was independently assessed.
 <!-- BEGIN problem library links -->
 

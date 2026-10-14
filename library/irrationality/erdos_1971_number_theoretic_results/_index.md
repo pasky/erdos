@@ -91,10 +91,10 @@ its standing monotonicity assumption ("we need not assume the monotonicity
 of a_n", nor even their positivity), needs only |a_n| > c (log n)^{3/4} for
 all n with some c > 0, which a_n = n satisfies with c = 1; it gives the
 irrationality of sum d(n)/n!, the k = 0 case (the divisor-count series, a
-variant outside the site's k >= 1 question). Theorem 2.26 (p. 642) needs a
-monotonic sequence of integers with a_n >= n^{11/12} for all large n, which
-a_n = n satisfies; it gives the irrationality of sum sigma(n)/n! and of sum
-phi(n)/n!, the k = 1 case of Problem 252. The section's standing convention
+variant outside erdosproblems.com's k >= 1 question). Theorem 2.26 (p. 642)
+needs a monotonic sequence of integers with a_n >= n^{11/12} for all large n,
+which a_n = n satisfies; it gives the irrationality of sum sigma(n)/n! and of
+sum phi(n)/n!, the k = 1 case of Problem 252. The section's standing convention
 2 <= a_1 for the series (2.1) (p. 638) is not met by a_1 = 1, and Lemma 2.27
 assumes a_n >= 2; the sequence 2, 2, 3, 4, 5, ... meets both and every
 hypothesis above, and its series are exactly half of the n! series, so the

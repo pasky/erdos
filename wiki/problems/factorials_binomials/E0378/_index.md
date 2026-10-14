@@ -26,17 +26,18 @@ updated: 2026-10-08T00:44:25Z
 $\binom{n}{k}$ is squarefree for at least $r$ values of $1\leq k<n$ exist? Is
 this density $>0$?
 
-**Status.** Proved. The site labeled the problem PROVED (page last edited 28
-October 2025). The standing in the frontmatter derives from the claim page. Both
-questions are answered yes. The site credits Theorem 5 of Granville and Ramaré
-(Mathematika, 1996). Anay Aggarwal and Stijn Cambie pointed out its bearing on
-the problem in the discussion thread in August 2025. The result is recorded on
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (page last edited
+28 October 2025). The standing in the frontmatter derives from the claim page.
+Both questions are answered yes. erdosproblems.com credits Theorem 5 of
+Granville and Ramaré (Mathematika, 1996). Anay Aggarwal and Stijn Cambie pointed
+out its bearing on the problem in the discussion thread in August 2025. The
+result is recorded on
 [[problems/factorials_binomials/E0378/claims/1996_06_01_granville_ramare|its claim page]].
 
 **Source.** [erdosproblems.com/378](https://www.erdosproblems.com/378), accessed
-2026-09-04. The site cites the problem from p. 72 of Erdős and Graham's 1980
-problem book. Cite as: T. F. Bloom, Erdős
-Problem #378, https://www.erdosproblems.com/378.
+2026-09-04. erdosproblems.com cites the problem from p. 72 of Erdős and Graham's
+1980 problem book. Cite as: T. F. Bloom, Erdős Problem #378,
+https://www.erdosproblems.com/378.
 
 **References.**
 
@@ -51,13 +52,13 @@ unformalized.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 28 October 2025): for
-fixed $r\ge0$, do the integers $n$ with at least $r$ squarefree entries
+The question, as erdosproblems.com states it (page last edited 28 October 2025):
+for fixed $r\ge0$, do the integers $n$ with at least $r$ squarefree entries
 $\binom{n}{k}$, $1\le k<n$, have an asymptotic density, and is it positive?
 Both answers are yes.
 
-What Erdős and Graham knew. The site reports from their 1980 book that, for
-fixed large $k$, the density of $n$ with $\binom{n}{k}$ squarefree tends to
+What Erdős and Graham knew. erdosproblems.com reports from their 1980 book that,
+for fixed large $k$, the density of $n$ with $\binom{n}{k}$ squarefree tends to
 zero as $k$ grows, that infinitely many rows have no squarefree entry
 between the end ones, and that they expected those rows to have positive
 density.
@@ -73,14 +74,14 @@ entries in $1\le k<n$ is even once $n>8$, the density the problem asks for is
 $1-\sum_{2m<r}\eta_m$, and it is at least any $\eta_m$ with $m\ge1$ and $2m\ge
 r$, hence positive. The paper presents Theorem 5 as the answer to Erdős and
 Graham's question; Aggarwal (22 August 2025) and Cambie (30 August 2025) brought
-this to the site, and the curator marked the problem proved. The
+this to erdosproblems.com, and the curator marked the problem proved. The
 [[problems/factorials_binomials/E0378/claims/1996_06_01_granville_ramare|claim page]]
 records the derivation and the acceptance: a refereed paper, credited by the
-site's curator; no Lean proof is recorded. The same paper's Theorem 1 settles
-[[problems/factorials_binomials/E0175/_index|Problem 175]].
+erdosproblems.com curator; no Lean proof is recorded. The same paper's Theorem 1
+settles [[problems/factorials_binomials/E0175/_index|Problem 175]].
 
-Search scope: the site's problem page, its discussion thread and the community
-database; the site listed no proof claim for the problem.
+Search scope: the erdosproblems.com problem page, its discussion thread and the
+community database; erdosproblems.com listed no proof claim for the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

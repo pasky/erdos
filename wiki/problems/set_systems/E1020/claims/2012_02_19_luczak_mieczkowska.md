@@ -50,7 +50,7 @@ carded at
 [[../library/set_systems/luczak_2014_erdos_extremal_problem_matchings_hypergraphs/_index|On Erdős' extremal problem on matchings in hypergraphs]].
 
 **Covers.** The case $r=3$ for $n\ge n_0$ and every $k$ with $3k-1\le n$,
-which the site records as $r=3$ for all $k$. The remaining $n<n_0$ are
+which erdosproblems.com records as $r=3$ for all $k$. The remaining $n<n_0$ are
 settled on [[problems/set_systems/E1020/claims/2012_05_30_frankl|Frankl
 2017]], which proves the case $r=3$ for every $n\ge3k-1$.
 
@@ -58,7 +58,7 @@ settled on [[problems/set_systems/E1020/claims/2012_05_30_frankl|Frankl
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
 Theory, Series A, 124 (2014), 178–194, after its first posting as
-arXiv:1202.4196 on 2012-02-19. The site's commentary credits the case to the
-paper as [LuMi14]. The site labeled the problem FALSIFIABLE, an open label, so
-this commentary is not acceptance and no `reviewed` is listed. Nothing here
-rests on this project's own review.
+arXiv:1202.4196 on 2012-02-19. The erdosproblems.com commentary credits the case
+to the paper as [LuMi14]. Bloom's catalog labeled the problem FALSIFIABLE, an
+open label, so this commentary is not acceptance and no `reviewed` is listed.
+Nothing here rests on this project's own review.

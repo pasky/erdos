@@ -95,19 +95,20 @@ separate claim. This repository has not built or audited it, and it is not
 `formalized` evidence; the formal-conjectures file for the problem states
 the question and is not a proof.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked the problem solved on 5
-September 2026. Bloom's commentary credits GPT, prompted independently by Price
-and by pipeline-math, with proving that such an $A$ exists for $f(n)=n^d$ and
-every even $d\ge6$. Bloom's signed exposition names the pipeline-math
-construction as found independently, alongside Price's. The exposition gives a
-proof for positive inputs and every exponent $d\ge5$. It does not review this
-manuscript line by line. The credit covers the existence conclusion and the
-independence of this construction. It is stated for the even exponents $d\ge6$,
-a range that does not contain $13$, and no curator text mentions thirteenth
-powers. The credit is the `reviewed` evidence here because the curator's label
-settles the problem and names pipeline-math among those who proved it. It is not
-a review of the thirteenth-power theorem itself, which rests on the manuscript.
-No journal publication or arXiv posting is known. The repository's own
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, marked the problem
+solved on 5 September 2026. Bloom's commentary credits GPT, prompted
+independently by Price and by pipeline-math, with proving that such an $A$
+exists for $f(n)=n^d$ and every even $d\ge6$. Bloom's signed exposition names
+the pipeline-math construction as found independently, alongside Price's. The
+exposition gives a proof for positive inputs and every exponent $d\ge5$. It does
+not review this manuscript line by line. The credit covers the existence
+conclusion and the independence of this construction. It is stated for the even
+exponents $d\ge6$, a range that does not contain $13$, and no curator text
+mentions thirteenth powers. The credit is the `reviewed` evidence here because
+the curator's label settles the problem and names pipeline-math among those who
+proved it. It is not a review of the thirteenth-power theorem itself, which
+rests on the manuscript. No journal publication or arXiv posting is known. The
+repository's own
 [[../library/diophantine_problems/pipeline_math_2026_tiling_complement/evidence/verify/compilation_review|compilation review]]
 of the reconstructed proof, relative to the two external premises, is recorded
 on the card. It awards no standing here.

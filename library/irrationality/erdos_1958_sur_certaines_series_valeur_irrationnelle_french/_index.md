@@ -158,9 +158,9 @@ again on p. 99.
 of the three series that the remark on p. 94 says the author could not prove
 irrational, $\sum p_n/2^n$, is the problem's series, and the case $q_n=2$ that
 p. 99 says escapes the author entirely is the same series; the paper proves
-nothing about it. The site's remark on the problem attributes the irrationality
-of $\sum p_n^k/n!$ for every $k\ge1$ to this paper, which asserts it for every
-$k$ on p. 93 but proves the case $k=1$ only.)
+nothing about it. The erdosproblems.com remark on the problem attributes the
+irrationality of $\sum p_n^k/n!$ for every $k\ge1$ to this paper, which asserts
+it for every $k$ on p. 93 but proves the case $k=1$ only.)
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

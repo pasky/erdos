@@ -4,8 +4,8 @@ desc: |
   Determines the Ramsey number of a complete multipartite graph against a
   large connected graph of bounded degree and few extra edges as
   (m-1)(n-1)+s, proves the asymptotic r(F,T)/n -> chi(F)-1 for every fixed
-  F and large trees T, and gives r(K(2,2),T) <= n + ceil(sqrt n); the site's
-  source for Problem 550.
+  F and large trees T, and gives r(K(2,2),T) <= n + ceil(sqrt n); the
+  erdosproblems.com source for Problem 550.
 license: reserved
 created: 2026-09-19T02:00:00Z
 updated: 2026-10-08T15:35:15Z
@@ -38,7 +38,7 @@ p^2+2 when p is a prime power.
 
 P. Erdős, R. J. Faudree, C. C. Rousseau and R. H. Schelp, *Multipartite
 graph--sparse graph Ramsey numbers*, Combinatorica **5** (1985), no. 4,
-311--318, doi:10.1007/BF02579245; received 4 March 1983. The site's
+311--318, doi:10.1007/BF02579245; received 4 March 1983. The erdosproblems.com
 reference key [EFRS85] for Problem 550 names this paper; the Rényi archive's
 index lists it as `1985-15.pdf`. The paper is reference [8] of the authors'
 1989 sequel
@@ -143,8 +143,8 @@ are summarized on the result pages without a line-by-line check.
   3]] (p. 316): $r(K(2,2),T)\le n+\lceil\sqrt n\rceil$ for every tree $T$ of
   order $n$.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0550/_index|#550]]: the site's source key.
-The problem's inequality
+**Bears on.** [[../wiki/problems/ramsey_theory/E0550/_index|#550]]: the
+erdosproblems.com source key. The problem's inequality
 $R(T,K_{m_1,\ldots,m_k})\le(k-1)(R(T,K_{m_1,m_2})-1)+m_1$ does not appear in
 this paper; its two questions (p. 317) concern equality in (1) for sparse
 graphs of bounded density or degree. What the paper contributes to the

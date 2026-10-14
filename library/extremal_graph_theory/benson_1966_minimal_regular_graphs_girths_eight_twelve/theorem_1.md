@@ -71,5 +71,5 @@ girth (the paper's reference (3), Tutte 1947); the geometry of the quadric
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0572/_index|Problem 572]]: the $k=3$
-  construction behind the site's "Benson has proved this conjecture for
+  construction behind erdosproblems.com's "Benson has proved this conjecture for
   $k=3$", giving $\mathrm{ex}(n;C_6)\gg n^{4/3}$ through the deduction above.

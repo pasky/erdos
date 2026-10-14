@@ -7,23 +7,23 @@ desc: |
   354, which asks for some base between 1 and 2; the witness is the square
   root of the golden ratio, at which one floor sequence alone is already
   complete for every positive coefficient, so the pair and the irrational
-  ratio play no role; a variant of the site's question, disputed as a
+  ratio play no role; a variant of the erdosproblems.com question, disputed as a
   misformalization.
 license: Apache-2.0
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-08T01:51:15Z
+updated: 2026-10-14T01:26:18Z
 ---
 
-# Kitamura: A Lean proof of the catalog's part (ii) of Problem 354
+# Kitamura: A Lean proof of formal-conjectures' part (ii) of Problem 354
 
 [[additive_bases/_index|..]]
 
-[[additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|erdos_354_part_ii_solved]]: The catalog's existential part (ii) of Problem 354 with its answer
-instantiated to true, through the completeness of a single floor sequence
-at the square root of the golden ratio; unreviewed.
+[[additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|erdos_354_part_ii_solved]]: The formal-conjectures catalog's existential part (ii) of Problem 354 with its
+answer instantiated to true, through the completeness of a single floor
+sequence at the square root of the golden ratio; unreviewed.
 
 [[additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/kitamura_2026_lean_proof_erdos_problem_354_ii|kitamura_2026_lean_proof_erdos_problem_354_ii]]: Repository identity, commit and files, the author's own verification and
-AI-assistance statements, and the public records as of 2026-09-28.
+AI-assistance statements, and the public records, read 2026-09-28.
 
 ***
 
@@ -102,14 +102,14 @@ kernel checked, with no `sorry`, `admit`, custom axiom, `native_decide` or
   and raising two concerns from the thread: that the second question "may
   already follow from Hegyvári's 1989 result", and that the formalization
   "was corrected following" the December 2025 comment.
-- No review, no site acceptance, no refereed source.
+- No review, no erdosproblems.com acceptance, no refereed source.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0354/_index|#354]]: proves
 formal-conjectures' existential form of the second question ("for some
-$\gamma\in(1,2)$") with $\gamma=\sqrt\varphi$; a variant of the site's
-wording, whose quantifier over $\gamma$ is unstated, and an unreviewed
-source; no status change. The opposite reading, "for every $\gamma$", is
-answered no by
+$\gamma\in(1,2)$") with $\gamma=\sqrt\varphi$; a variant of the
+erdosproblems.com wording, whose quantifier over $\gamma$ is unstated, and an
+unreviewed source; no status change. The opposite reading, "for every $\gamma$",
+is answered no by
 [[additive_bases/geneson_2026_deletion_thresholds_exponential_examples_complete_sequences/corollary_12|Geneson's Corollary 12]].
 
 **Results.**

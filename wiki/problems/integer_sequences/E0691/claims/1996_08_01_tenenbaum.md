@@ -57,7 +57,7 @@ with present techniques.
 **Depends on.** No page of this wiki. The corollary follows from the paper's
 Theorem 1 and from Theorem A of Hall and Tenenbaum, which the paper cites.
 
-**Acceptance.** Refereed: the journal paper cited above. The site's
-commentary says that Tenenbaum proves this conjecture, but the site labeled
-the problem OPEN, so the commentary is a remark on a partial result and adds
-no `reviewed` evidence.
+**Acceptance.** Refereed: the journal paper cited above. The erdosproblems.com
+commentary says that Tenenbaum proves this conjecture, but Bloom's catalog
+labeled the problem OPEN, so the commentary is a remark on a partial result and
+adds no `reviewed` evidence.

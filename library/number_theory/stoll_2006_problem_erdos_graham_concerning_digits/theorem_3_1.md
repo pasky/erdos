@@ -7,7 +7,7 @@ desc: |
   cones with (g-1) dividing (k-1)l, the recurrence u_1 = m, u_{n+1} = floor(a
   (u_n + eps)) on odd steps and floor(b(u_n + l/(g-1))) on even steps has
   second differences u_{2n+1} - g u_{2n-1} equal to the base-g digits of w;
-  the family behind the site's SOLVED label for Problem 482.
+  the family behind erdosproblems.com's SOLVED label for Problem 482.
 created: 2026-09-18T15:55:00Z
 updated: 2026-10-07T20:53:40Z
 ---
@@ -97,5 +97,5 @@ Proposition 4.1 (p. 95); otherwise self-contained.
   $\sqrt m$ and other algebraic numbers" exist for every positive real $w$
   and every base, in infinitely many parameter choices; the theorem
   constructs recurrences and does not classify all recurrences with the
-  digit property, which is the sense in which the site calls the problem
-  open-ended.
+  digit property, which is the sense in which erdosproblems.com calls the
+  problem open-ended.

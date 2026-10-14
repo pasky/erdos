@@ -30,7 +30,7 @@ $$
 
 has size at least $h(n)$. Estimate $h(n)$.
 
-**Formulation.** The site's wording (page last edited 15 June 2026).
+**Formulation.** The erdosproblems.com wording (page last edited 15 June 2026).
 $h(n)$ is the least, over sets $A$ of $n$ positive integers, of the number
 of distinct ratios $a/(a,b)$ with $a,b\in A$ (the pair $a=b$ contributes the
 ratio $1$). Erdős's 1973 wording
@@ -45,10 +45,10 @@ $\delta(\mathbf a,\mathbf b)=(\max\{0,a_i-b_i\})_i$, so $h(m)$ is the least
 $|\delta(A)|$ over $m$-sets of vectors with nonnegative integer entries. The
 formal-conjectures file lets $A$ range over finite subsets of $\mathbb N$
 including $0$ and reads "estimate" as the order of growth $\Theta(h(n))$.
-The site's source key is [Er73, p. 125]; it tags the page additive
+The erdosproblems.com source key is [Er73, p. 125]; it tags the page additive
 combinatorics and number theory.
 
-**Status.** The site's label was OPEN. The refereed bounds are
+**Status.** The erdosproblems.com label was OPEN. The refereed bounds are
 $n^{1/2}\ll h(n)\ll n^{2/3}$. The lower bound is Erdős and Szemerédi's, by the
 pairing argument Granville and Roesler give on p. 2 of their paper. The upper
 bound comes from the Freiman–Lev sets in two dimensions, which Granville and
@@ -64,14 +64,14 @@ Two further partial claims have pages. The first concerns the exponent. Theorem
 A.1 of an arXiv preprint of July 2026 by Schmitt, Gehrunger, Dekoninck, Bérczi,
 Kreitner, Price and Holmes gives $h(n)\le e^{O(\sqrt{\log n})}n^{1/2}$, hence
 $h(n)=n^{1/2+o(1)}$. The preprint describes their system ProofCouncil, to which
-they attribute the theorem. The site's curator, Thomas Bloom, adopted the bound
-into the commentary on 15 June 2026 after sketching the construction,
+they attribute the theorem. The erdosproblems.com curator, Thomas Bloom, adopted
+the bound into the commentary on 15 June 2026 after sketching the construction,
 while the label stayed OPEN. The bound is recorded as a pending partial claim on
 [[problems/integer_sequences/E0539/claims/2026_06_10_schmitt_gehrunger_dekoninck_berczi_kreitner_price_holmes|its claim page]].
-It is not refereed. The adoption of a bound into the commentary of a problem the
-site labeled OPEN is not an acceptance, and nothing is reviewed by this project.
-The second concerns the lower bound. A Lean development of September 2026 states
-that $h(n)/\sqrt n\to\infty$. It is on
+It is not refereed. The adoption of a bound into the commentary of a problem
+Bloom's catalog labeled OPEN is not an acceptance, and nothing is reviewed by
+this project. The second concerns the lower bound. A Lean development of
+September 2026 states that $h(n)/\sqrt n\to\infty$. It is on
 [[problems/integer_sequences/E0539/claims/2026_09_05_kitamura|Kitamura's claim page]]
 (claimed), read as neither built nor audited by this corpus.
 
@@ -82,12 +82,11 @@ claim exists, and the standing derives from the claim pages.
 
 **Source.** [erdosproblems.com/539](https://www.erdosproblems.com/539),
 accessed 2026-09-18: the problem page (OPEN, with
-the site's note that no finite computation can settle it; last edited 15
-June 2026; source key [Er73, p. 125]; commentary citing [GrRo99] and
-thanking two contributors), its eight-comment discussion thread (19 August
-2025 to 15 June 2026) and its empty proof-claim tab. Cite as:
-T. F. Bloom, Erdős Problem #539, https://www.erdosproblems.com/539, accessed
-2026-09-18.
+the erdosproblems.com note that no finite computation can settle it; last edited
+15 June 2026; source key [Er73, p. 125]; commentary citing [GrRo99] and thanking
+two contributors), its eight-comment discussion thread (19 August 2025 to 15
+June 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
+#539, https://www.erdosproblems.com/539, accessed 2026-09-18.
 
 **References.**
 
@@ -116,10 +115,9 @@ T. F. Bloom, Erdős Problem #539, https://www.erdosproblems.com/539, accessed
   Kreitner, U., Price, L. and Holmes, D., ProofCouncil: An LLM Agent for
   Solving Open Mathematical Problems. arXiv:2607.09474v1 (10 July 2026,
   25 pages; the paper describes the authors' system ProofCouncil, which the
-  site's commentary names). Appendix A, "Case Study: Erdős Problem 539",
-  pp. 10--15:
-  Theorem A.1, p. 11; the proof, pp. 11--14; the scope of its Lean
-  development, p. 15. Not carded in the library.
+  erdosproblems.com commentary names). Appendix A, "Case Study: Erdős Problem
+  539", pp. 10--15: Theorem A.1, p. 11; the proof, pp. 11--14; the scope of its
+  Lean development, p. 15. Not carded in the library.
 - [HLP08] Holzman, R., Lev, V. F. and Pinchasi, R., Projecting difference
   sets on the positive orthant. Combin. Probab. Comput. 17 (2008), no. 5,
   681--688. Not held; its fixed-dimension lower bounds are quoted from the
@@ -148,13 +146,13 @@ $n^{2/3}=O(h(n))$ and the limit `Tendsto (fun n ↦ Real.log (cofactorThreshold 
 `lean/Erdos539/FC.lean` in the first repository), citing Theorem A.1 of [SGD+26]
 in their docstrings. The community database (read 2026-09-18) records the
 problem open (record last updated 31 August 2025), the statement formalized
-since 16 April 2026 and no formal proof. The site's page marks the statement as
-formalized. Nothing was built or audited by this corpus. The two external
-repositories are described below.
+since 16 April 2026 and no formal proof. The erdosproblems.com page marks the
+statement as formalized. Nothing was built or audited by this corpus. The two
+external repositories are described below.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (erdosproblems.com formulation).** The statement
 above; OPEN; last edited 15 June 2026. The commentary, in this page's
 words: Erdős and Szemerédi proved $n^{1/2}\ll h(n)\ll n^{1-c}$ for some
 $c>0$; Freiman and Lev improved the upper bound to $n^{2/3}$; both proofs
@@ -170,7 +168,7 @@ oldest first: 19 August 2025, the bounds $n^{1/2}\ll h(n)\ll n^{2/3}$ from
 Szemerédi and the upper bound credited by the paper's authors to Freiman
 and Lev, and the fixed-prime-set results $h_2(n)\gg n^{2/3}$,
 $h_3(n)\gg n^{3/5}$, $h_4(n)\gg n^{6/11-\epsilon}$ of [GrRo99] and [HLP08]
-(the site was updated); 22 May 2026, a conjectured formula
+(erdosproblems.com was updated); 22 May 2026, a conjectured formula
 $e_k=d_k/(2d_k-1)$, $d_k=\binom k{\lfloor k/2\rfloor}$, fitted to those three
 exponents, with its author's later retraction of the heuristic behind it
 and a note that Holzman, Lev and Pinchasi speculate $e_k=2/3$ for all $k$
@@ -182,7 +180,7 @@ reservations, that the accompanying Lean formalization proves only the
 exponent limit and that the unpublished Bollobás–Leader announcement
 (below) is a risk to novelty; 12 June 2026, a comparison of the new
 fixed-dimensional exponents $2^{s+1}/(2^{s+2}-1)$ with the fitted formula;
-and 15 June 2026, the site's curator's simplified sketch of the
+and 15 June 2026, the erdosproblems.com curator's simplified sketch of the
 construction (below). The proof-claim tab is empty. The claims are on the
 pages of the
 [[problems/integer_sequences/E0539/claims/2026_06_10_schmitt_gehrunger_dekoninck_berczi_kreitner_price_holmes|exponent result]]
@@ -203,7 +201,7 @@ $$
 
 It would be interesting to improve (5.2). The determination of
 $\lim_{n=\infty}\log h(n)/\log n$ will perhaps not be too difficult." No
-proof is given there; the site's $n^{1/2}\ll h(n)\ll n^{1-c}$ is (5.2).
+proof is given there; erdosproblems.com's $n^{1/2}\ll h(n)\ll n^{1-c}$ is (5.2).
 The announcement has no claim page: the chapter is a proceedings survey
 that proves nothing and cites nothing for (5.2), and the bounds entered
 the literature with proofs through [GrRo99], whose claim page credits
@@ -211,15 +209,16 @@ Erdős and Szemerédi for the lower bound.
 
 **The refereed bounds (Granville and Roesler).** The
 [[../library/integer_sequences/granville_1999_set_differences_given_set/unsolved_problem|Unsolved problem]]
-(p. 2) is the site's question for each $m$, with the restatement for
+(p. 2) is the erdosproblems.com question for each $m$, with the restatement for
 vectors and the lower bound: for fixed $\mathbf a$ the pairs
 $(\delta(\mathbf a,\mathbf b),\delta(\mathbf b,\mathbf a))$, $\mathbf b\in A$,
 are distinct because
 $\mathbf b=\mathbf a-\delta(\mathbf a,\mathbf b)+\delta(\mathbf b,\mathbf a)$,
 so one of the two coordinate sets has at least $m^{1/2}$ values, giving
 $|\delta(A)|\ge m^{1/2}$. The paper gives this argument without
-attribution; the site and Erdős credit the bound to Erdős and Szemerédi,
-and the paper credits the sets behind the upper bound to Freiman and Lev.
+attribution; erdosproblems.com and Erdős credit the bound to Erdős and
+Szemerédi, and the paper credits the sets behind the upper bound to Freiman and
+Lev.
 [[../library/integer_sequences/granville_1999_set_differences_given_set/theorem_1|Theorem 1]]
 (p. 2): for $A\subset\mathbb R^2$ of $m\ge1$ distinct vectors, $\delta(A)$
 has at least $(m/2)^{2/3}$ vectors, so sets built from two primes give at
@@ -260,8 +259,8 @@ $|S_K(F)|=K|F|^2$ and $|D(S_K(F))|\le|D(F)|^2+2(K-1)|F-F|$ (Lemma A.6),
 iterates it $s$ times to get exponents $\alpha_s=2^{s+1}/(2^{s+2}-1)$ in
 dimension $3\cdot2^s-1$ (Propositions A.7 and A.8), and lets $s$ grow with
 $n$; the lower bound is Proposition A.4, from $|F-F|\ge2n-1$ (Lemma A.3)
-and $F-F\subseteq D(F)-D(F)$. The site's author's sketch of 15 June 2026
-gives the same construction from $A_0=\{0\}$ by the recursion
+and $F-F\subseteq D(F)-D(F)$. erdosproblems.com's author's sketch of 15 June
+2026 gives the same construction from $A_0=\{0\}$ by the recursion
 $A_{k+1}=\{(j,x+jM,y-jM):0\le j<K,\ x,y\in A_k\}$, with
 $|D_{k+1}|\le|D_k|^2+2K|A_k-A_k|$ and the choice $K\asymp e^{\sqrt{\log n}}$,
 $2^t\asymp\sqrt{\log n}$. Provenance and standing, as the paper gives
@@ -276,8 +275,8 @@ they write, established at present only by the informal proof; and the
 authors record that Bollobás and Leader "previously announced a negative
 answer to the $n^{2/3}$ question" in seminar abstracts of 2009 and 2012
 (Warwick; Oxford), that they know of no written account of that work, and
-"make no claim of priority over that announcement". The site adopted the
-bound into its commentary on 15 June 2026. No refereed publication, arXiv
+"make no claim of priority over that announcement". erdosproblems.com adopted
+the bound into its commentary on 15 June 2026. No refereed publication, arXiv
 version of the appendix as a separate paper, or independent review was
 found on 2026-09-18; the two thread reservations of 11 June 2026 are recorded
 above. Read depth: claims checked for Theorem A.1 and the lemma statements; the
@@ -305,7 +304,7 @@ induction on dimension, and discloses that OpenAI Codex assisted with the
 proof development, formalization and exposition (the README revision of the
 same day at the repository's head names it as OpenAI Codex (GPT-6 Astra)).
 If sound, the second development shows that the Erdős–Szemerédi lower bound
-$n^{1/2}$ is not sharp in order, which the site's commentary does not
+$n^{1/2}$ is not sharp in order, which the erdosproblems.com commentary does not
 record and which no paper states; it has its own claim page,
 named under Status, as a pending partial claim. The lakefile of the first
 repository names Kenta Kitamura as copyright holder. The collection's own
@@ -316,7 +315,7 @@ negative answers as `research solved` variants with `sorry` bodies.
 refereed determination of the order of $h(n)$, a refereed version of the
 2026 appendix, or an independent review of it.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database.
 - arXiv: the abstract page of 2607.09474 (one version, 10 July 2026; the
   listing's comment says that ProofCouncil took part as System A in a
@@ -329,8 +328,8 @@ refereed determination of the order of $h(n)$, a refereed version of the
   the two READMEs and lakefiles).
 - The primary sources: [GrRo99] pp. 1--3; [Er73] pp. 124--125; [SGD+26]
   pp. 9--15.
-- On 2026-10-07: the site's page and thread were unchanged, and the arXiv
-  listing of 2607.09474 had one version.
+- On 2026-10-07: the erdosproblems.com page and thread were unchanged, and the
+  arXiv listing of 2607.09474 had one version.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X; the seminar abstracts
 of 2009 and 2012 cited by [SGD+26]; the challenge report arXiv:2606.18119.
@@ -339,10 +338,10 @@ Theorem 1 of [GrRo99] (p. 4).
 
 **Remaining gaps.** (1) The order of $h(n)$ is open within the factor
 $e^{O(\sqrt{\log n})}$; the exponent $1/2$ rests on an unrefereed appendix
-attributed to ProofCouncil, a pending partial claim adopted into the site's
-commentary under the label OPEN and reviewed by nobody of this corpus; being
-partial, it would leave the standing open in any case. (2) The claim
-$h(n)/\sqrt n\to\infty$ exists only as a Lean development, not built or
+attributed to ProofCouncil, a pending partial claim adopted into the
+erdosproblems.com commentary under the label OPEN and reviewed by nobody of this
+corpus; being partial, it would leave the standing open in any case. (2) The
+claim $h(n)/\sqrt n\to\infty$ exists only as a Lean development, not built or
 audited by this corpus, a pending partial claim. (3) The Bollobás–Leader
 announcement has no written account. (4) Proof coverage is at statement
 level throughout; Theorem 1 of [GrRo99] is compiled without its proof.

@@ -24,15 +24,15 @@ updated: 2026-10-08T14:17:37Z
 vertices can have if it does not contain two edge-disjoint cycles with the
 same vertex set?
 
-**Formulation.** The site's wording of 2026-09-18 (the page carries no
-last-edited date). Erdős posed the question in his Aberdeen 1975 problem
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (the page carries
+no last-edited date). Erdős posed the question in his Aberdeen 1975 problem
 paper as the function $f_2(n)$, the smallest integer such that every
 $G(n;f_2(n))$ contains two edge-disjoint circuits $C_\ell$ with the same
 vertex set, where $G(n;k)$ is a graph with $n$ vertices and $k$ edges
 ([[../library/extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/problem_29|Problem 29]],
 p. 191); the maximum asked for is $f_2(n)-1$.
 Chakraborti, Janzer, Methuku and Montgomery restate it nearly verbatim ("an
-$n$-vertex graph" for the site's "a graph on $n$ vertices") as their
+$n$-vertex graph" for erdosproblems.com's "a graph on $n$ vertices") as their
 [[../library/extremal_graph_theory/chakraborti_2024_edge_disjoint_cycles_same_vertex_set/problem_1|Problem 1]].
 Two edge-disjoint cycles on the same vertex set together form a $4$-regular
 graph on that set, so a graph with no $4$-regular subgraph has no such pair;
@@ -59,7 +59,7 @@ no exact value, asymptotic formula or matching pair of bounds. This is a bounded
 negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/585](https://www.erdosproblems.com/585),
-accessed 2026-09-18: the problem page (OPEN, the site's label for a
+accessed 2026-09-18: the problem page (OPEN, the erdosproblems.com label for a
 statement that no finite computation can settle; no last-edited date; source
 key [Er76b], with [PRS95] and [CJMM24] cited in the commentary), its empty
 discussion thread and its empty proof-claim tab. Cite
@@ -77,9 +77,9 @@ accessed 2026-09-18.
   [[../library/extremal_graph_theory/chakraborti_2024_edge_disjoint_cycles_same_vertex_set/_index|chakraborti_2024_edge_disjoint_cycles_same_vertex_set]].
 - [PRS95] Pyber, L. and Rödl, V. and Szemerédi, E., Dense graphs without
   3-regular subgraphs. J. Combin. Theory Ser. B 63 (1995), 41--54,
-  doi:10.1006/jctb.1995.1004 (the site's reference list titles it "Dense
-  subgraphs without 3-regular subgraphs"). Theorem 1 and the König remark,
-  printed p. 42; the proof, pp. 42--46; the concluding remark on
+  doi:10.1006/jctb.1995.1004 (the erdosproblems.com reference list titles it
+  "Dense subgraphs without 3-regular subgraphs"). Theorem 1 and the König
+  remark, printed p. 42; the proof, pp. 42--46; the concluding remark on
   $ex(n,C^2)$, p. 53. Library home:
   [[../library/extremal_graph_theory/pyber_1995_dense_graphs_without_3_regular_subgraphs/_index|pyber_1995_dense_graphs_without_3_regular_subgraphs]]
   paged at
@@ -119,17 +119,17 @@ accessed 2026-09-18.
 **Formalization.** None. No file `ErdosProblems/585.lean` exists in
 formal-conjectures (main, 2026-09-18; neither in the directory
 `FormalConjectures/ErdosProblems/` nor anywhere in the recursive tree); the
-site's page shows "Formalised statement? No", and the community database
-(teorth/erdosproblems, 2026-09-18) records the problem open
-(31 August 2025), not formalized and unformalized.
+erdosproblems.com page shows "Formalised statement? No", and the community
+database (teorth/erdosproblems, 2026-09-18) records the problem open (31 August
+2025), not formalized and unformalized.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; OPEN, the site's label for a statement that no finite computation can
-settle; no last-edited date. The commentary credits Pyber, Rödl and Szemerédi
-[PRS95] with a construction having $\gg n\log\log n$ edges, and Chakraborti,
-Janzer, Methuku and Montgomery [CJMM24] with the upper bound
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, the erdosproblems.com label for a statement that no finite
+computation can settle; no last-edited date. The commentary credits Pyber, Rödl
+and Szemerédi [PRS95] with a construction having $\gg n\log\log n$ edges, and
+Chakraborti, Janzer, Methuku and Montgomery [CJMM24] with the upper bound
 $n(\log n)^{O(1)}$, in the stronger form that for some absolute $C>0$ and
 every $k\ge2$ a constant $c_k$ exists for which $c_kn(\log n)^C$ edges on
 $n$ vertices force $k$ pairwise edge-disjoint cycles on one vertex set. The
@@ -188,9 +188,9 @@ set".
 there is some $t$ such that for each $k\ge2$ there is $c=c(k)$ with every
 $n$-vertex graph of at least $cn(\log n)^t$ edges containing $k$ pairwise
 edge-disjoint cycles with the same vertex set. For $k=2$ the maximum asked
-for is below $c(2)\,n(\log n)^t$, the site's $n(\log n)^{O(1)}$; the exponent
-$t$ is existential in the statement and the introduction does not give its
-value. Acceptance evidence: the paper appeared in Advances in Mathematics
+for is below $c(2)\,n(\log n)^t$, erdosproblems.com's $n(\log n)^{O(1)}$; the
+exponent $t$ is existential in the statement and the introduction does not give
+its value. Acceptance evidence: the paper appeared in Advances in Mathematics
 469 (2025), 110228 (Crossref record of 2026-09-18), a refereed journal; the
 text cited is the arXiv v1 of 10 April 2024, the only arXiv version, and
 the journal text was not compared. The basis is the statement on p. 2; the
@@ -216,10 +216,10 @@ Erdős and Hajnal; it says nothing about the edge count.
 **Search scope (2026-09-18 UTC).** The status rests on these routes; none found
 an exact value, a matching pair of bounds or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the full directory listing of
-  formal-conjectures (no file 585); the site's reference page for the key
-  [Er76b].
+  formal-conjectures (no file 585); the erdosproblems.com reference page for the
+  key [Er76b].
 - arXiv: the API record of 2404.07190 (v1 only, no journal reference
   carried); the search `abs:"edge-disjoint cycles" AND abs:"same vertex
   set"` sorted by date (two records, [CJMM24] and [JSS24]).

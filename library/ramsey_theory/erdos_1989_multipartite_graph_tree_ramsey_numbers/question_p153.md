@@ -62,7 +62,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0550/_index|Problem 550]]: the
-  problem is inequality (2), with the site's $R(T,G)$ for the paper's
-  $r(G,T_n)$, $\chi(G)=k$ for the number of classes, and the site's
+  problem is inequality (2), with erdosproblems.com's $R(T,G)$ for the paper's
+  $r(G,T_n)$, $\chi(G)=k$ for the number of classes, and erdosproblems.com's
   ordering $m_1\le\cdots\le m_k$; the paper poses it as a question and
   leaves it unanswered.

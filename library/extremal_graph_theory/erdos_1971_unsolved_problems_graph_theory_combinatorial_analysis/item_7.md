@@ -63,7 +63,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1006/_index|Problem 1006]]: the site's key Er71.
-  The site's statement is the question for graphs of girth greater than four,
-  which the fourth paragraph raises; its commentary repeats Ore's
-  girth-four example and Gallai's Grötzsch graph.
+- [[../wiki/problems/extremal_graph_theory/E1006/_index|Problem 1006]]: the
+  erdosproblems.com key Er71. The erdosproblems.com statement is the question
+  for graphs of girth greater than four, which the fourth paragraph raises; its
+  commentary repeats Ore's girth-four example and Gallai's Grötzsch graph.

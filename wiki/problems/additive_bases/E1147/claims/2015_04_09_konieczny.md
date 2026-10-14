@@ -72,13 +72,13 @@ decaying slowly enough: $A$ is an almost basis of order $2$, its sumset having
 density one (A1); a basis of order $2$ for uncountably many exceptional $\alpha$
 (A2); a basis of order $3$ for every irrational $\alpha$ (A3); and not a basis
 of order $2$ for almost every $\alpha$ whenever $\epsilon(n)\to0$ (A4). The
-introduction's sets use $\le\epsilon(n)$ where the site writes $<1/\log n$;
-the site's set is contained in those, so a set that is not a basis there is
-not one here. The body, where A4 is restated and Proposition 1.3 is proved,
-uses the sets of (1.1), defined with the strict $<\epsilon(n)$ as on the
-site. The question is attributed in the paper to Erdős through a
-communication of Ben Green, and the site's source [Va99] lists it among
-Erdős's favorite problems. The source card is
+introduction's sets use $\le\epsilon(n)$ where erdosproblems.com writes
+$<1/\log n$; erdosproblems.com's set is contained in those, so a set that is not
+a basis there is not one here. The body, where A4 is restated and Proposition
+1.3 is proved, uses the sets of (1.1), defined with the strict $<\epsilon(n)$ as
+on erdosproblems.com. The question is attributed in the paper to Erdős through a
+communication of Ben Green, and the erdosproblems.com source [Va99] lists it
+among Erdős's favorite problems. The source card is
 [[../library/additive_bases/konieczny_2016_sets_recurrence_as_bases_positive_integers/_index|konieczny_2016_sets_recurrence_as_bases_positive_integers]].
 
 **Reading.** Erdős asked about every irrational $\alpha>0$, and the answer no

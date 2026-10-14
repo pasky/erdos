@@ -161,8 +161,8 @@ the proofs of Lemmas 2.2--2.3 and of Theorem 2 were read for structure only.
 Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0540/_index|#540]]: Theorem 1 (printed
-p. 45, PDF p. 1), "If $s>(4p-3)^{1/2}$, then $r=p$", is the site's "proved
-for $N$ prime by Olson [Ol68]": since $r$ counts the classes represented
+p. 45, PDF p. 1), "If $s>(4p-3)^{1/2}$, then $r=p$", is erdosproblems.com's
+"proved for $N$ prime by Olson [Ol68]": since $r$ counts the classes represented
 with the $\epsilon_i$ not all 0, $r=p$ puts $0$ among the nonempty subset
 sums, so every set of $s>(4p-3)^{1/2}$ distinct nonzero residues modulo a
 prime $p$ has a nonempty zero-sum subset, and $(4p-3)^{1/2}<2\sqrt p$ gives

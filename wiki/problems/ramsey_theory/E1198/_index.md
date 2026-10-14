@@ -4,7 +4,7 @@ title: Problem 1198
 desc: |
   Asks whether every two-coloring of $\mathbb{N}$ admits an infinite set all of
   whose sums of products of distinct members share one color. The answer is no,
-  by a 1995 theorem of Smith, as the site's thread deduced in 2026.
+  by a 1995 theorem of Smith, as the erdosproblems.com thread deduced in 2026.
 tags:
 - Additive combinatorics
 - Ramsey theory
@@ -32,30 +32,30 @@ $$
 for disjoint $S_1,\ldots,S_k$ (excluding the trivial expressions $a_i$) are the
 same colour?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
-17 April 2026). The expressions are Erdős's "multilinear expressions formed
-from the $a$'s" ([Er80], p. 104): sums of $k\ge1$ products over pairwise
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 17 April 2026). The expressions are Erdős's "multilinear expressions
+formed from the $a$'s" ([Er80], p. 104): sums of $k\ge1$ products over pairwise
 disjoint nonempty finite sets $S_1,\ldots,S_k$ of indices, excluding the
 single-term products $a_i$ themselves (the case $k=1$, $|S_1|=1$; the thread's
 reading is $\max(|S_1|,k)\ge2$). The elements $a_i$ need not lie in the class:
 Erdős separately notes that "A further complication arises if we also insist
 that $a_1,a_2,\ldots$ should also belong to the same class" ([Er80], p. 104),
-and the thread's first comment records that the site's wording was revised on
-this point in April 2026. The case in which every $S_i$ is a singleton is
-Hindman's theorem (Theorem 3.1 of [Hi74], p. 9;
+and the thread's first comment records that the erdosproblems.com wording was
+revised on this point in April 2026. The case in which every $S_i$ is a
+singleton is Hindman's theorem (Theorem 3.1 of [Hi74], p. 9;
 [[problems/ramsey_theory/E0532/_index|Problem 532]]), as the commentary says;
 the finite question for sums and products of distinct elements is
 [[problems/ramsey_theory/E0172/_index|Problem 172]].
 
 **Status.** Disproved. The status-defining source is a refereed theorem of Smith
 [Sm95] (J. Combin. Theory Ser. A 72 (1995), no. 1, 77--94), not held here. From
-it, two comments of the site's thread (16 April 2026) deduce a $2$-coloring of
-$\mathbb{N}$ under which no infinite $A$ has all its multilinear expressions in
-one class. The deduction is elementary given Smith's statements. It is rewritten
-below as an authored derivation from those statements as the thread quotes them.
-The site adopted the disproof, crediting the counterexample to Smith [Sm95] in
-its commentary (page last edited 17 April 2026). The community database records
-it (24 April 2026). The claim page
+it, two comments of the erdosproblems.com thread (16 April 2026) deduce a
+$2$-coloring of $\mathbb{N}$ under which no infinite $A$ has all its multilinear
+expressions in one class. The deduction is elementary given Smith's statements.
+It is rewritten below as an authored derivation from those statements as the
+thread quotes them. erdosproblems.com adopted the disproof, crediting the
+counterexample to Smith [Sm95] in its commentary (page last edited 17 April
+2026). The community database records it (24 April 2026). The claim page
 [[problems/ramsey_theory/E1198/claims/1995_10_01_smith|Smith 1995]] records the
 theorem, the thread's deduction and the acceptance evidence, and the frontmatter
 standing is derived from it. Smith's paper is not held, although the Crossref
@@ -66,9 +66,9 @@ the problem. Erdős's own guess was "no", "but no counterexample is in sight"
 ([Er80], p. 104).
 
 **Source.** [erdosproblems.com/1198](https://www.erdosproblems.com/1198),
-accessed 2026-09-18: the problem page (DISPROVED, with the site's note that it
-is solved in the negative; last edited 17 April 2026; source key [Er80,
-p.104]; commentary citing [Hi74], [Sm95] and Problems 532 and 172, with
+accessed 2026-09-18: the problem page (DISPROVED, with the erdosproblems.com
+note that it is solved in the negative; last edited 17 April 2026; source key
+[Er80, p.104]; commentary citing [Hi74], [Sm95] and Problems 532 and 172, with
 additional thanks to Aron Bhalla and Wouter van Doorn), its four-comment
 discussion thread (all of 16 April 2026) and its empty proof-claim tab. Cite
 as: T. F. Bloom, Erdős Problem #1198, https://www.erdosproblems.com/1198,
@@ -123,17 +123,17 @@ accessed 2026-09-18.
   only.
 
 **Formalization.** None. No file `ErdosProblems/1198.lean` existed in
-formal-conjectures (main) on 2026-09-18; the site's page says "Formalised
-statement? No", and the community database (9 September 2026) records the
-problem disproved (last updated 24 April 2026), not formalized, with no
-formal proof.
+formal-conjectures (main) on 2026-09-18; the erdosproblems.com page says
+"Formalised statement? No", and the community database (9 September 2026)
+records the problem disproved (last updated 24 April 2026), not formalized, with
+no formal proof.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; DISPROVED, with the site's note that it is solved in the negative,
-last edited 17 April 2026. The commentary records that the case in which
-every $S_i$ is a singleton is the Graham--Rothschild conjecture proved by
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED, with the erdosproblems.com note that it is solved in the
+negative, last edited 17 April 2026. The commentary records that the case in
+which every $S_i$ is a singleton is the Graham--Rothschild conjecture proved by
 Hindman [Hi74]
 (Problem 532), repeats Erdős's guess that the answer is no although no
 counterexample was in sight, credits the counterexample to Smith [Sm95] and
@@ -156,8 +156,8 @@ and some sum of two finite products
 $c_{j_1}\cdots c_{j_s}+c_{k_1}\cdots c_{k_t}\notin Y$ (all indices
 distinct); the comment then takes an arbitrary infinite
 $A=\{a_1<a_2<\cdots\}$ and puts $b_i=a_{2i}a_{2i+1}$ and $c_i=a_i$, which
-it says yields a counterexample to the problem; marked as addressed by a
-site update. (3) The account AronBhalla, restating Smith: with
+it says yields a counterexample to the problem; marked as addressed by an
+erdosproblems.com update. (3) The account AronBhalla, restating Smith: with
 $SP_n((x_t))$ the set of sums of $n$ increasing block-products of a
 sequence, Theorem 3.17 gives, for any distinct $m_1,\ldots,m_r$, a
 partition of $\mathbb{N}$ into $r$ cells that separates the corresponding
@@ -168,7 +168,7 @@ multilinear formulation directly, since $SP_2((a_t))$ and $SP_3((a_t))$
 consist of multilinear expressions. (4)
 Woett agreeing. The proof-claim tab is empty. The community's
 AI-contributions wiki (last updated 30 June 2026) lists the 16 April 2026
-contribution as partial results found; the deduction on the site is the
+contribution as partial results found; the deduction on erdosproblems.com is the
 commenters' own.
 
 **The origin.** [Er80], p. 104: "Some time ago, I
@@ -222,8 +222,8 @@ trivial $a_i$; a sum $c_{j_1}\cdots c_{j_s}+c_{k_1}\cdots c_{k_t}$ with all
 indices distinct is a multilinear expression with $k=2$. If
 $\mathcal C=X$, every product of the $b$'s lies in $X$, against (b); if
 $\mathcal C=Y$, every such sum of two products lies in $Y$, against (b).
-Either way no such $A$ exists, so the answer to the site's question is no.
-Both routes use only that the configurations named above are multilinear
+Either way no such $A$ exists, so the answer to the erdosproblems.com question
+is no. Both routes use only that the configurations named above are multilinear
 expressions of $A$ other than single terms; nothing about Smith's proof is
 used or checked. By contrast, when every $S_i$ is a singleton the
 expressions are the finite sums, which Hindman's theorem makes monochromatic
@@ -241,14 +241,14 @@ $F\subseteq A$, and $PS(A)=\{x+y:\{x,y\}\in[A]^2\}$ (Definition 2.1, p. 114).
 This is the result the thread's first comment restates in its own notation,
 and the printed statement is equivalent to that restatement. The comment
 judged it not to settle the problem because the theorem requires $A$ itself
-inside the cell. Under the site's wording before April 2026, with the $a_i$
-required in the class, the theorem applies directly.
+inside the cell. Under the erdosproblems.com wording before April 2026, with the
+$a_i$ required in the class, the theorem applies directly.
 
 **Search scope.** On 2026-09-18 none of the routes below showed a text of
 Smith's theorem beyond the thread's quotations, a dispute of the deduction,
 or a second source for the disproof.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing (no file on 2026-09-18); the community
   database, read 9 September 2026.
 - Crossref record for [Sm95] (JCTA 72 (1995), no. 1, 77--94, October 1995;

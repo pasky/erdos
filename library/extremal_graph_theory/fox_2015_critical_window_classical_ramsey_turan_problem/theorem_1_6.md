@@ -62,8 +62,8 @@ the same paper.
 - [[../wiki/problems/ramsey_theory/E0615/_index|Problem 615]]: context, not
   the problem's question. The problem page cites the theorem as the upper
   bound $\mathbf{RT}(n,K_4,\epsilon n)\le(1/8+3\epsilon/2)n^2$ for fixed
-  $\epsilon<\gamma_0$, in its reading of the site's background sentence on
-  $\mathrm{rt}(n;4,\epsilon n)$; the problem itself concerns independence
+  $\epsilon<\gamma_0$, in its reading of erdosproblems.com's background sentence
+  on $\mathrm{rt}(n;4,\epsilon n)$; the problem itself concerns independence
   number $n/\log n$, answered by
   [[extremal_graph_theory/fox_2015_critical_window_classical_ramsey_turan_problem/theorem_1_10|Theorem 1.10]].
 - [[../wiki/problems/extremal_graph_theory/E0022/_index|Problem 22]]:

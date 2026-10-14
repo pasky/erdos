@@ -35,8 +35,8 @@ updated: 2026-10-08T03:53:58Z
 
 David Turturean's write-up proves (Theorem 1.1) that for every integer
 $k\ge3$ and every real $C>0$ there is a set $E$ of positive integers that is
-an additive basis of order $k$ in the site's sense, every large integer being
-a sum of at most $k$ elements of $E$, has $R_{E,k}(n)\ge C\log n$ for all
+an additive basis of order $k$ in erdosproblems.com's sense, every large integer
+being a sum of at most $k$ elements of $E$, has $R_{E,k}(n)\ge C\log n$ for all
 sufficiently large $n$, where $R_{E,k}(n)$ counts the nondecreasing
 representations of $n$ as a sum of at most $k$ elements of $E$, and contains
 no minimal additive basis of order $k$. This is the negation of the
@@ -53,8 +53,8 @@ Borel–Cantelli bound (Lemmas 3.1–3.3, Proposition 3.4). Section 6 assembles
 the theorem from Propositions 4.1 and 5.2. The source card is
 [[../library/additive_bases/turturean_2026_negative_answer_erdos_problem_870/_index|turturean_2026_negative_answer_erdos_problem_870]].
 
-**Submission note.** Posted to the site's forum by David Turturean on 24 April
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by David Turturean on
+24 April 2026:
 
 > LATER UPDATE (May 2): I have updated the write-up to address the concerns that
 > explicitly or implicitly had to do with the k=3 case; as small as it is, it
@@ -105,11 +105,11 @@ admitted proofs with kernel dependencies `propext`, `Classical.choice` and
 natural-language proof and GPT-5.5-Pro, Codex (GPT-5.5-xhigh) and Claude Code
 (Opus 4.8, maximum thinking) for the Lean. Johan Land reported on the thread
 on 2026-09-01 that Land had validated the formalization as a full solution of
-the at-most-$k$ reading. This corpus has not built or audited the Lean, the
-site labeled the problem OPEN, and there is no refereed publication.
+the at-most-$k$ reading. This corpus has not built or audited the Lean, Bloom's
+catalog labeled the problem OPEN, and there is no refereed publication.
 
-The claim answers the site's at-most-$k$ wording only. It does not address
-the version in [ErNa88], with sums of $h$ elements and disjoint
+The claim answers erdosproblems.com's at-most-$k$ wording only. It does not
+address the version in [ErNa88], with sums of $h$ elements and disjoint
 representations (see the problem page's Formulation).
 
 **Depends on.**

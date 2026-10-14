@@ -44,12 +44,12 @@ that ratio set (Lemma 2), bounds each term with Lemmas 1 and 3, and evaluates
 the resulting constant with Euler's beta integral (pp. 132--134). The copy read
 for this card is an image scan of the six-page journal article, read on its
 page images. The paper notes Cilleruelo's
-independent proof of the monomial case. For problem 33 the site cites it in its
-commentary, with Cilleruelo [Ci93] and Balasubramanian and Ramana [BaRa01],
-for the best known lower bound 4/pi on the liminf; the problem's source is
-Erdős 1956 ([Er56, p. 134]), and 4/pi is not known to be sharp: the paper
-(p. 135) asks for smaller completions than Balazard's, of order kN/P^{-1}(N),
-or a proof that the constant k is optimal.
+independent proof of the monomial case. For problem 33 erdosproblems.com cites
+it in its commentary, with Cilleruelo [Ci93] and Balasubramanian and Ramana
+[BaRa01], for the best known lower bound 4/pi on the liminf; the problem's
+source is Erdős 1956 ([Er56, p. 134]), and 4/pi is not known to be sharp: the
+paper (p. 135) asks for smaller completions than Balazard's, of order
+kN/P^{-1}(N), or a proof that the constant k is optimal.
 
 Source: <https://doi.org/10.1006/jnth.1995.1039>.
 

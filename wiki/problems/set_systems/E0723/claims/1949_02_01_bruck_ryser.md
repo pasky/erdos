@@ -38,9 +38,9 @@ and applies the Hasse–Minkowski theory of rational equivalence of quadratic
 forms to $B$. For [[problems/set_systems/E0723/_index|Problem 723]] the
 theorem gives the answer yes for every excluded order: $6$, $14$, $21$, $22$,
 $30$ and every further $N\equiv1,2\pmod4$ that is not a sum of two squares
-has no plane, so none of these orders is a counterexample. The site records
-the theorem as the condition that such $n$ must be a sum of two squares and
-notes that it rules out $n=6$ and $n=14$.
+has no plane, so none of these orders is a counterexample. erdosproblems.com
+records the theorem as the condition that such $n$ must be a sum of two squares
+and notes that it rules out $n=6$ and $n=14$.
 
 **Covers.** Every order $n\equiv1$ or $2\pmod4$ that is not a sum of two
 squares: no plane of such an order exists, so the problem's implication holds
@@ -51,8 +51,8 @@ and $n=12$ is the first order the problem leaves undecided.
 
 **Acceptance.** Refereed: Canad. J. Math. **1** (1949), no. 1, 88–93. The issue
 is dated February 1949, and the page is dated to the first day of that month.
-The site's curator records the theorem under [BrRy49] and labeled the problem
-FALSIFIABLE. This credits the partial result without settling the problem, so
-the page lists no `reviewed` evidence. The library card records the paper's
-theorems. The proof has not been reconstructed or independently reviewed in this
-corpus.
+The erdosproblems.com curator records the theorem under [BrRy49] and labeled the
+problem FALSIFIABLE. This credits the partial result without settling the
+problem, so the page lists no `reviewed` evidence. The library card records the
+paper's theorems. The proof has not been reconstructed or independently reviewed
+in this corpus.

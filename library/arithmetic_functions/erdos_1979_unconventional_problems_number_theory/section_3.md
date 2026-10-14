@@ -102,7 +102,7 @@ integer $x\le n$ satisfies at least $2$ (or at least $r$) of the congruences
 $x\equiv c_p\pmod p$?" The word "smallest" is as printed; the 1980 survey
 (Ann. Discrete Math. 6, p. 106) defines the same quantity as "the largest
 number" for which such a system exists, which is the meaningful reading
-(admissible exponents form a down-set), and the site's Problem 688 says
+(admissible exponents form a down-set), and erdosproblems.com's Problem 688 says
 "maximal". No proof of the lower bound and no qualification on $n$ in the
 $r$-fold question are given.
 
@@ -131,12 +131,12 @@ references in the text; neither paper was read for this card.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0687/_index|Problem 687]]: the $B(n)$ passage is
-  the site's cited origin ([Er79d, p. 79]); $B$ is the inverse of $Y$.
+  erdosproblems.com's cited origin ([Er79d, p. 79]); $B$ is the inverse of $Y$.
 - [[../wiki/problems/integer_sequences/E0688/_index|Problem 688]]: the definition of
   $\varepsilon_n$, the question $\varepsilon_n\to0$ and the asserted bound
   $\varepsilon_n>c\log\log\log n/\log\log n$.
 - [[../wiki/problems/integer_sequences/E0689/_index|Problem 689]]: the $r$-fold question,
-  with $r=2$ as the site's statement; no "sufficiently large $n$" is
+  with $r=2$ as the erdosproblems.com statement; no "sufficiently large $n$" is
   printed.
 - [[../wiki/problems/integer_sequences/E0929/_index|Problem 929]]: $B(n)$ is the problem's
   $S(n)$; Erdős's "It is likely that $B(n)>n^{1-\varepsilon}$" is the

@@ -54,8 +54,8 @@ cited preprint is the 2020 Bloom–Sisask paper "Breaking the logarithmic barrie
 in Roth's theorem on arithmetic progressions" (arXiv:2007.03528), not the 2023
 note held in this library; the remark is the paper's own statement that a
 Roth-type density bound alone yields a subexponential bound on W(3,k), the route
-by which the later Kelley–Meka and Bloom–Sisask bounds enter the site's account
-of problem 721.
+by which the later Kelley–Meka and Bloom–Sisask bounds enter erdosproblems.com's
+account of problem 721.
 
 Source:
 <https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i2p34>. The
@@ -68,11 +68,11 @@ Section 3 was read in the text layer for its structure only, and no step of
 the proof was checked. Result page:
 [[ramsey_theory/schoen_2021_subexponential_upper_bound_van_der_waerden/theorem_1|theorem_1]].
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0721/_index|#721]]: the second of the
-site's two challenges, "prove that W(3,k) < exp(k^c) for some constant
-c < 1", met by Theorem 1; the site names this paper as the first to do so.
-[[../wiki/problems/additive_combinatorics/E0138/_index|#138]]: pp. 1--2 (page images), the
-displayed diagonal bounds
+**Bears on.** [[../wiki/problems/ramsey_theory/E0721/_index|#721]]: the second
+of erdosproblems.com's two challenges, "prove that W(3,k) < exp(k^c) for some
+constant c < 1", met by Theorem 1; erdosproblems.com names this paper as the
+first to do so. [[../wiki/problems/additive_combinatorics/E0138/_index|#138]]:
+pp. 1--2 (page images), the displayed diagonal bounds
 $(1-o(1))2^{k-1}/(ek)\le W(k,k)\le2^{2^{2^{2^{k+9}}}}$, Gowers's upper
 bound and Szabó's probabilistic lower bound, with Berlekamp's
 $W(k,k)\ge(k-1)2^{k-1}$ for $k-1$ prime (displayed on p. 2): the problem's

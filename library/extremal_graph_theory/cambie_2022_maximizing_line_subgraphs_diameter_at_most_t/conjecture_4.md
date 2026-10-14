@@ -56,7 +56,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: the site's
-  "$h_t(d)\le(1+o(1))d^t$ for all $d$" conjecture for $t\ge3$, the upper
-  half of the asymptotic question, false at $t=3$ per a 2026 preprint the
-  site's page does not yet record.
+- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]:
+  erdosproblems.com's "$h_t(d)\le(1+o(1))d^t$ for all $d$" conjecture for
+  $t\ge3$, the upper half of the asymptotic question, false at $t=3$ per a 2026
+  preprint the erdosproblems.com page does not yet record.

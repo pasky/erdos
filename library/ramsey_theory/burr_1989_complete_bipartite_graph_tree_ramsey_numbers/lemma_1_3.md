@@ -45,5 +45,5 @@ Parsons 1975, Lemma 1 and Theorem 1.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0552/_index|Problem 552]]: the upper end of the known
-  window for $R(C_4,S_n)$; the site quotes it as
+  window for $R(C_4,S_n)$; erdosproblems.com quotes it as
   $R(C_4,S_n)\le n+\lceil\sqrt n\rceil+1$.

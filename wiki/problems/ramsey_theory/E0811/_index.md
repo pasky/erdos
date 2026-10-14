@@ -31,8 +31,8 @@ For which graphs $G$ is it true that, if $m=e(G)$, for all large $n\equiv
 rainbow copy of $G$? (That is, a subgraph isomorphic to $G$ where each edge
 receives a different colour.)
 
-**Formulation.** The site's wording (page last edited 14 October 2025); "of
-each colors" is the site's text. Since $n\equiv1\pmod m$,
+**Formulation.** The erdosproblems.com wording (page last edited 14 October
+2025); "of each colors" is the erdosproblems.com text. Since $n\equiv1\pmod m$,
 $\lfloor n/m\rfloor=(n-1)/m$, so a balanced coloring gives every vertex
 exactly $(n-1)/m$ edges of each of the $m$ colors: the "completely balanced"
 $(m,(n-1)/m)$-colorings of Axenovich and Clemen and the "$d$-regular colorings
@@ -43,15 +43,15 @@ per graph $G$: $G$ is in the answer set when every balanced $e(G)$-coloring of
 every sufficiently large admissible $K_n$ contains a rainbow $G$, and outside
 it when balanced colorings without a rainbow $G$ exist for infinitely many
 admissible $n$ (Axenovich and Clemen's $d(n,G)=\infty$ for those $n$). The
-page-level status describes the classification. The site's third sentence of
-commentary is garbled as printed (a verb and its object are missing where it
-turns to the challenge of its two sources); recorded, not repaired. The
+page-level status describes the classification. erdosproblems.com's third
+sentence of commentary is garbled as printed (a verb and its object are missing
+where it turns to the challenge of its two sources); recorded, not repaired. The
 Erdős--Tuza variant with one more color than $G$ has edges (their Problem 5,
 p. 82) is a different question and is kept apart below.
 
-**Status.** Open: the site labeled the problem OPEN (last edited 14 October
-2025), and the classification is not known. Refereed sources exclude several
-graphs from the answer set.
+**Status.** Open: Bloom's catalog labeled the problem OPEN (last edited 14
+October 2025), and the classification is not known. Refereed sources exclude
+several graphs from the answer set.
 [[problems/ramsey_theory/E0811/claims/2022_09_28_axenovich_clemen|Axenovich and Clemen 2022]]
 (J. Graph Theory 106 (2024)) exclude every clique $K_q$ with $q\ge10$ and
 $q\equiv2,3\pmod4$ (their Theorem 1.4). They also exclude every graph with an
@@ -88,7 +88,7 @@ found nothing else. This is a bounded negative finding, not a certificate of
 openness.
 
 **Source.** [erdosproblems.com/811](https://www.erdosproblems.com/811),
-accessed 2026-09-18: the problem page (OPEN, marked by the site as not
+accessed 2026-09-18: the problem page (OPEN, marked by erdosproblems.com as not
 resolvable by a finite computation; last edited 14 October 2025; source keys
 [Er91], [Er93, p. 346], [ErTu93], [Er96]; commentary citing [AxCl24] and
 [ClWa23]), its two-comment discussion thread (13 October 2025; 15 September
@@ -115,11 +115,11 @@ resolvable by a finite computation; last edited 14 October 2025; source keys
 - [ErTu93] Erdős, P. and Tuza, Z., Rainbow subgraphs in edge-colorings of
   complete graphs. Quo vadis, graph theory?, Ann. Discrete Math. 55,
   North-Holland (1993), 81--88, doi:10.1016/S0167-5060(08)70377-7. The
-  origin of the question (its Problem 1, p. 81) and the site's source for
-  the $d_{C_4}(n)$ bounds. The printed chapter (eight
-  pages): the definitions, Problems 1--2 and the candidates paragraph,
-  p. 81; Problems 3--5 and Theorem 2, p. 82; Theorem 3, Proposition 1,
-  Theorem 4 and Theorem 5, p. 83. Library home:
+  origin of the question (its Problem 1, p. 81) and the erdosproblems.com source
+  for the $d_{C_4}(n)$ bounds. The printed chapter (eight pages): the
+  definitions, Problems 1--2 and the candidates paragraph, p. 81; Problems 3--5
+  and Theorem 2, p. 82; Theorem 3, Proposition 1, Theorem 4 and Theorem 5,
+  p. 83. Library home:
   [[../library/ramsey_theory/erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs/_index|erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs]];
   result pages
   [[../library/ramsey_theory/erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs/problem_1|problem_1]],
@@ -128,11 +128,11 @@ resolvable by a finite computation; last edited 14 October 2025; source keys
   [[../library/ramsey_theory/erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs/theorem_3|theorem_3]].
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and
-  applications, Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406 (as the site's
-  reference text prints it). Not held: past the Rényi archive's 1989 cutoff,
-  no attempt made.
+  applications, Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406 (as the
+  erdosproblems.com reference text prints it). Not held: past the Rényi
+  archive's 1989 cutoff, no attempt made.
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
-  graph theory. Quaestiones Math. 16 (1993), 333--350; the site cites
+  graph theory. Quaestiones Math. 16 (1993), 333--350; erdosproblems.com cites
   p. 346. Chapter V, problem 11, printed p. 346: the Pyber--Tuza--Erdős
   conjecture for $K(12n+1)$ colored by six colors with every vertex of
   degree $2n$ in every color, asking for a totally multicolored $C_6$ and a
@@ -156,8 +156,8 @@ resolvable by a finite computation; last edited 14 October 2025; source keys
 **Formalization.** None. No file `ErdosProblems/811.lean` existed in
 formal-conjectures on 2026-09-18
 ([directory listing](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems));
-the site's page shows "Formalised statement? No", and the community database
-(teorth/erdosproblems, on 2026-09-18) recorded the problem open, not
+the erdosproblems.com page shows "Formalised statement? No", and the community
+database (teorth/erdosproblems, on 2026-09-18) recorded the problem open, not
 formalized, with no formal proof (record last updated 31 August 2025). A
 forum comment of 15 September 2026 reports a submission of a statement and a
 proof to formal-conjectures through its issue for this problem, an issue
@@ -166,8 +166,8 @@ nothing was merged in the repository on that date.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN; last edited 14 October 2025; source keys [Er91], [Er93,
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN; last edited 14 October 2025; source keys [Er91], [Er93,
 p. 346], [ErTu93], [Er96]. The commentary, in summary, says that in [Er91]
 Erdős credits the problem to himself, Pyber and Tuza, that Erdős and Tuza
 explored it in [ErTu93], and that in [Er96] Erdős seems to suggest the
@@ -190,9 +190,9 @@ define $d(n,F)$ for a graph $F$ on $\ell$ edges as $\infty$ if $K_n$ has an
 $(\ell,\lfloor(n-1)/\ell\rfloor)$-coloring without a rainbow $F$ and
 otherwise as the least $d$ such that every $(\ell,d)$-coloring of $K_n$
 contains a rainbow $F$; for $\ell\mid n-1$, $d(n,F)=\infty$ exactly when a
-completely balanced $\ell$-coloring without a rainbow $F$ exists (p. 2), the
-site's balanced coloring. Their Question 1.1 (Erdős and Tuza) is this
-problem in that form.
+completely balanced $\ell$-coloring without a rainbow $F$ exists (p. 2),
+erdosproblems.com's balanced coloring. Their Question 1.1 (Erdős and Tuza) is
+this problem in that form.
 [[../library/ramsey_theory/axenovich_2024_rainbow_subgraphs_edge_colored_complete_graphs/theorem_1_4|Theorem 1.4]]
 (p. 2): for $q\ge10$ with $q\equiv2$ or $3\pmod4$ and $\ell=\binom q2$,
 every $n=(\ell+1)^k$ has a completely balanced $\ell$-coloring of $K_n$ with
@@ -202,8 +202,8 @@ admissible, so $K_q$ is not in the answer set. It follows from
 (p. 5): for odd $\ell\ge3$ and $n=(\ell+1)^k$ a completely balanced
 $\ell$-coloring of $K_n$ with no rainbow $K_m$, $m=\lfloor\sqrt\ell+7/2\rfloor$,
 from iterated lexicographic products of the standard one-factorization of
-$K_{\ell+1}$ and a Sidon-set bound; this is the site's sentence with $3.5$
-for $7/2$, and it also excludes every graph with $\ell$ edges, $\ell$ odd,
+$K_{\ell+1}$ and a Sidon-set bound; this is the erdosproblems.com sentence with
+$3.5$ for $7/2$, and it also excludes every graph with $\ell$ edges, $\ell$ odd,
 that contains $K_m$. The remark after Theorem 1.4 claims $q=6,7$ "which we
 omit": announced, not proved there; $K_7$ is excluded by Lemma 4.1 below,
 and only $K_6$ rests on the remark.
@@ -251,9 +251,9 @@ $(e,d)$-coloring, and for a graph $F$ with $e$ edges set $d(n,F)=\infty$
 "if $K_n$ has an $(e,\lfloor(n-1)/e\rfloor)$-coloring without a rainbow
 $F$" and otherwise let $d(n,F)$ be "the smallest integer $d$ such that
 every $(e,d)$-coloring of $K_n$ contains a rainbow copy of $F$" (p. 81);
-the site's $d_G(n)$ and Axenovich and Clemen's $d(n,F)$ are this function,
-and for $n\equiv1\pmod e$ the $(e,\lfloor(n-1)/e\rfloor)$-colorings are
-exactly the balanced colorings.
+erdosproblems.com's $d_G(n)$ and Axenovich and Clemen's $d(n,F)$ are this
+function, and for $n\equiv1\pmod e$ the $(e,\lfloor(n-1)/e\rfloor)$-colorings
+are exactly the balanced colorings.
 [[../library/ramsey_theory/erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs/problem_1|Problem 1]]
 (p. 81): "Is $d(n,F)$ finite for every graph $F$ and every sufficiently
 large $n\equiv1\pmod e$?", this problem in its original form; Problem 2
@@ -278,9 +278,9 @@ is at most $(n-1)/3$ for every $n\equiv1\pmod3$, so $K_3$ is in the answer
 set.
 [[../library/ramsey_theory/erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs/theorem_3|Theorem 3]]
 (p. 83): "$\lfloor n/6\rfloor\le d(n,C_4)\le(1/4-c)n$ for some positive
-constant $c$", the site's bounds, with "The largest possible value of $c$
-... is not known"; the upper bound is below $(n-1)/4$ for large $n$, so $C_4$
-is in the answer set. Proposition 1 (p. 83): $d(n,F)\le e-1$ for a tree
+constant $c$", erdosproblems.com's bounds, with "The largest possible value of
+$c$ ... is not known"; the upper bound is below $(n-1)/4$ for large $n$, so
+$C_4$ is in the answer set. Proposition 1 (p. 83): $d(n,F)\le e-1$ for a tree
 and $\le2e-2$ for a forest with $e$ edges, improved to $e-2$ and $2e-3$
 for large $n$, so every forest is in the answer set, though the paper's
 summary (p. 81) names only the trees. Theorem 4 (p. 83): a
@@ -302,16 +302,16 @@ true that our $K(n)$ has a rainbow hexagon and a rainbow $K(4)$?", beside a
 $5$-color $C_5$ question with every color of degree above
 $\frac n5(1-\varepsilon)$ at every vertex. The same challenge is problem
 11 of [Er93] (printed p. 346), where Erdős credits the conjecture to
-Pyber, Tuza and himself, as the site says [Er91] does: "Color the edges of
-a $K(12n+1)$ by six colors so that every vertex in every color has degree
+Pyber, Tuza and himself, as erdosproblems.com says [Er91] does: "Color the edges
+of a $K(12n+1)$ by six colors so that every vertex in every color has degree
 $2n$. Is it then true that there is a $C_6$ which is totally multicolored",
 that is, with every edge of a different color, and is there a totally
 multicolored $K_4$; the survey states no general question and no result.
 
 **Forum items (leads with provenance, not status).**
 
-- 13 October 2025: a comment pointed the site to [ClWa23]; the site was
-  updated the next day.
+- 13 October 2025: a comment pointed erdosproblems.com to [ClWa23];
+  erdosproblems.com was updated the next day.
 - 15 September 2026: Kitamura reports a Lean-verified proof of the
   Axenovich--Clemen all-cliques conjecture (Conjecture 1.3: the balanced
   rainbow property fails for every $q\ge4$) and calls it a settlement of the
@@ -319,15 +319,16 @@ multicolored $K_4$; the survey states no general question and no result.
   [[problems/ramsey_theory/E0811/claims/2026_09_15_kitamura|Kitamura 2026]]
   records the postings, the stated axiom check and the standing. This corpus
   has not read the repository or the proof; the claim is not refereed, not
-  accepted by the site (its label was OPEN on 2026-09-18 and its commentary
-  unchanged on 2026-10-07) and does not change the status. If it holds, it
-  settles the clique cases but not the classification for other graphs.
+  accepted by erdosproblems.com (its label was OPEN on 2026-09-18 and its
+  commentary unchanged on 2026-10-07) and does not change the status. If it
+  holds, it settles the clique cases but not the classification for other
+  graphs.
 
 **Search scope.** None of the routes below found a
 classification, a resolution of $C_6$, or a refereed source beyond
 [AxCl24] and [ClWa23].
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures (no file 811); the community database;
   the GitHub API for the formal-conjectures issue named in the thread and
   for the head commit of the repository it links (metadata only).
@@ -352,9 +353,9 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er91],
 3, Proposition 1 and Theorem 5 are first-hand; its proofs were read for
 structure only, and the constant $c$ of Theorem 3 is not explicit in the
 paper. (2) [Er91] is not held; Erdős's statement there is second-hand from
-the site and the papers cited. The $C_6$ and $K_4$ challenge is first-hand
-from both [Er93], problem 11, and [Er96], item 6. (3) The journal texts of
-[AxCl24] and [ClWa23] were not compared with the arXiv preprints. (4)
+erdosproblems.com and the papers cited. The $C_6$ and $K_4$ challenge is
+first-hand from both [Er93], problem 11, and [Er96], item 6. (3) The journal
+texts of [AxCl24] and [ClWa23] were not compared with the arXiv preprints. (4)
 Peluse's theorem behind Theorem 1.2 is cited, not read, as is the
 Baumert--Gordon verification behind the exclusion of the $q$ with $q-1$ not a
 prime power; the $K_{13}$ coloring was not rechecked; Corollary 4.3's printed

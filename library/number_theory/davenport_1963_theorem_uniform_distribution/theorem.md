@@ -96,8 +96,8 @@ The general theorem the paper cites for the step from (11) to (13) (Weyl
 ## Bears on
 
 - [[../wiki/problems/number_theory/E0492/_index|Problem 492]]: the deduction after the
-  Theorem is the site's "Davenport and Erdős [DaEr63] proved it is true if
-  $a_n\gg n^{1/2+\epsilon}$": if the number of terms $z_j<N$ is
+  Theorem is erdosproblems.com's "Davenport and Erdős [DaEr63] proved it is true
+  if $a_n\gg n^{1/2+\epsilon}$": if the number of terms $z_j<N$ is
   $\ll N^{2-\delta}$ then $z_j\gg j^{1/(2-\delta)}=j^{1/2+\epsilon}$ with
   $\epsilon=\delta/(4-2\delta)$, and conversely a sequence with
   $z_j\gg j^{1/2+\epsilon}$ has $\ll N^{1/(1/2+\epsilon)}=N^{2-\delta'}$

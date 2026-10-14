@@ -4,8 +4,8 @@ title: Choi, Komlós and Szemerédi's bounds on sum-free subsequences
 desc: |
   Choi, Komlós and Szemerédi's 1975 theorem that
   $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$, which answers the first
-  displayed question of Problem 790 yes. The paper is refereed and the site
-  credits it.
+  displayed question of Problem 790 yes. The paper is refereed and
+  erdosproblems.com credits it.
 authors:
 - S. L. G. Choi
 - J. Komlós
@@ -44,8 +44,8 @@ Szemerédi, *On sum-free subsequences*, Trans. Amer. Math. Soc. 212 (1975),
 [[../library/additive_combinatorics/choi_1975_sum_free_subsequences/_index|choi_1975_sum_free_subsequences]];
 result page
 [[../library/additive_combinatorics/choi_1975_sum_free_subsequences/theorem|Theorem]].
-The paper's $f(n)$ is the site's $l(n)$, and its sum-free condition is the
-problem's. The lower bound answers the first displayed question:
+The paper's $f(n)$ is erdosproblems.com's $l(n)$, and its sum-free condition is
+the problem's. The lower bound answers the first displayed question:
 $l(n)n^{-1/2}$ tends to infinity. The upper bound shows that no subset of
 linear size is guaranteed, which also answers item 1.22 b) of the 1999 booklet
 in the negative, as Choi's paper in Proc. Amer. Math. Soc. 41 (December 1973)
@@ -73,10 +73,10 @@ Math. Bull. 14 (1971), 151--157).
 **Acceptance.** Refereed: the paper is the publisher's version of record in
 Transactions of the American Mathematical Society, as its Crossref record gives
 it. The volume carries no publication day, so this page is named by the first
-day of its year. The site's curator, Thomas F. Bloom, credits both bounds to
-Choi, Komlós and Szemerédi in the problem page's commentary (label OPEN, page
-last edited 23 January 2026). The credit came after a thread comment of 30
-October 2025 pointed to the paper. The problem is not marked settled there, so
-the credit is recorded here and is not listed as `reviewed`. The Theorem and the
-closing remark are stated from the printed pages. The proofs are not reviewed in
-this corpus.
+day of its year. The erdosproblems.com curator, Thomas F. Bloom, credits both
+bounds to Choi, Komlós and Szemerédi in the problem page's commentary (label
+OPEN, page last edited 23 January 2026). The credit came after a thread comment
+of 30 October 2025 pointed to the paper. The problem is not marked settled
+there, so the credit is recorded here and is not listed as `reviewed`. The
+Theorem and the closing remark are stated from the printed pages. The proofs are
+not reviewed in this corpus.

@@ -4,8 +4,9 @@ title: De Caen and Székely's superlinear 4- and 6-cycle-free bipartite graphs
 desc: |
   De Caen and Székely prove
   $n^{10/9}\gg f(n,\lfloor n^{2/3}\rfloor)\gg n^{58/57+o(1)}$ for $C_4$- and
-  $C_6$-free bipartite graphs, so the answer to Problem 1080 is no. The site's
-  curator credits it, the chapter is not held here, and a Lean file is linked.
+  $C_6$-free bipartite graphs, so the answer to Problem 1080 is no. The
+  erdosproblems.com curator credits it, the chapter is not held here, and a Lean
+  file is linked.
 authors:
 - D. de Caen
 - L. A. Székely
@@ -37,8 +38,8 @@ updated: 2026-10-08T01:29:59Z
 whose parts have $n$ and $m$ vertices and which has no $C_4$ and no $C_6$. De
 Caen and Székely, *The maximum size of $4$- and $6$-cycle free bipartite
 graphs on $m,n$ vertices*, in: Sets, graphs and numbers, Colloq. Math. Soc.
-János Bolyai 60, North-Holland (1992), 135--142, prove, as the site records,
-$n^{10/9}\gg f(n,\lfloor n^{2/3}\rfloor)\gg n^{58/57+o(1)}$ for
+János Bolyai 60, North-Holland (1992), 135--142, prove, as erdosproblems.com
+records, $n^{10/9}\gg f(n,\lfloor n^{2/3}\rfloor)\gg n^{58/57+o(1)}$ for
 $m\sim n^{2/3}$, and more generally $f(n,m)\ll(nm)^{2/3}$ for
 $n^{1/2}\le m\le n$. The lower bound is a family of bipartite graphs with
 parts of sizes about $n^{2/3}$ and $n$, no $C_4$ and no $C_6$, and
@@ -46,25 +47,26 @@ $n^{1+\varepsilon}$ edges with $\varepsilon=1/57-o(1)$. Such a family answers
 [[problems/extremal_graph_theory/E1080/_index|Problem 1080]] in the negative:
 for every $c>0$ the graphs have more than $cn$ edges and no $C_6$ once $n$ is
 large, and the adjustment recorded under the problem page's Formulation note
-turns the parts into exactly the site's shape, $N$ vertices with one part of
-exactly $\lfloor N^{2/3}\rfloor$ vertices, at the cost of an $o(1)$ fraction
-of the edges. A positive answer would have forced
+turns the parts into exactly erdosproblems.com's shape, $N$ vertices with one
+part of exactly $\lfloor N^{2/3}\rfloor$ vertices, at the cost of an $o(1)$
+fraction of the edges. A positive answer would have forced
 $f(n,\lfloor n^{2/3}\rfloor)\ll n$. The upper bound is the case $m=n^{2/3}$ of
-the general bound, since $(n\cdot n^{2/3})^{2/3}=n^{10/9}$; the site also
-attributes the general bound to Faudree and Simonovits, without a reference.
+the general bound, since $(n\cdot n^{2/3})^{2/3}=n^{10/9}$; erdosproblems.com
+also attributes the general bound to Faudree and Simonovits, without a
+reference.
 
 **What the corpus holds.** Nothing of the chapter. The zbMATH record
 Zbl 0795.05083 identifies it (accessed 2026-09-18), Crossref has no record of
 it, and the one open route tried answered HTTP 404; the problem page records
-the routes. The exponents are quoted from the site's commentary, no theorem
-is paged, and the construction was not read. The claim consumes no page of
-this wiki.
+the routes. The exponents are quoted from the erdosproblems.com commentary, no
+theorem is paged, and the construction was not read. The claim consumes no page
+of this wiki.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, credits de Caen and
-Székely with the negative answer and states their bounds in the problem's
-commentary (erdosproblems.com/1080, page last edited 14 October 2025, accessed
-2026-09-18). The proof-claim tab is empty, and the search recorded on the
-problem page found no dispute.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, credits de
+Caen and Székely with the negative answer and states their bounds in the
+problem's commentary (erdosproblems.com/1080, page last edited 14 October 2025,
+accessed 2026-09-18). The proof-claim tab is empty, and the search recorded on
+the problem page found no dispute.
 
 Not counted as refereed: the chapter appears in an edited Bolyai Society
 colloquium volume, not a journal, and its refereeing is not documented.
@@ -109,10 +111,11 @@ branch, and is a statement file, not a formalization. The file (1,389 lines,
 `import Mathlib`) contains no `sorry`, `axiom`, `native_decide` or `unsafe`;
 this corpus has not built it, printed its axioms or audited its statement
 against the question, so the file is a link and not `formalized` evidence; the
-axiom list above is the file's own comment. The site's label DISPROVED (LEAN)
-and the community database's Lean formal status, as of its last update on 28
-December 2025, record erdosproblems.com's acceptance of the file as the
-formalization of the disproof. Only the pinned commit is described; later commits, and the
-repository's copies of the file for later toolchains, are unexamined.
+axiom list above is the file's own comment. The erdosproblems.com label
+DISPROVED (LEAN) and the community database's Lean formal status, as of its last
+update on 28 December 2025, record erdosproblems.com's acceptance of the file as
+the formalization of the disproof. Only the pinned commit is described; later
+commits, and the repository's copies of the file for later toolchains, are
+unexamined.
 
 **Depends on.** No page of this wiki.

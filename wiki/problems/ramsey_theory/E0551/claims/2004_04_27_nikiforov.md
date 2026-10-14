@@ -71,9 +71,9 @@ handbook chapter.
 
 **Acceptance.** Refereed: the paper is a journal publication in Combinatorics,
 Probability and Computing, volume 14, issue 3 (2005), published 11 April 2005.
-This is the `refereed` evidence. The site's curator, Thomas Bloom, credits the
-range to this paper in the problem page's commentary. But the site's label
-DECIDABLE settles neither the problem nor a declared part of it, so that credit
-is not `reviewed` evidence. The statement is checked against the arXiv preprint.
-The journal text is paywalled and is not compared. The proof is not checked, and
-nothing is independently reviewed by this corpus.
+This is the `refereed` evidence. The erdosproblems.com curator, Thomas Bloom,
+credits the range to this paper in the problem page's commentary. But the
+erdosproblems.com label DECIDABLE settles neither the problem nor a declared
+part of it, so that credit is not `reviewed` evidence. The statement is checked
+against the arXiv preprint. The journal text is paywalled and is not compared.
+The proof is not checked, and nothing is independently reviewed by this corpus.

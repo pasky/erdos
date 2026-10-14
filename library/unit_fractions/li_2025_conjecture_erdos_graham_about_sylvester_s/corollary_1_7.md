@@ -48,10 +48,11 @@ $$
 
 The paper's footnote 2 (p. 3) says the monograph states the problem with
 $u_1=1$, $u_{n+1}=u_n(u_n+1)$, "an obvious typo" since those reciprocals do
-not sum to $1$, and reads the intended sequence as Sylvester's. The site's
-current wording keeps the monograph's $u_n$ and sums $1/(u_k+1)$ instead;
-both readings exclude the same sequence $2,3,7,43,\ldots$ and use the same
-constant, since $u_n+1$ in the monograph's convention is the paper's $u_n$.
+not sum to $1$, and reads the intended sequence as Sylvester's.
+erdosproblems.com's current wording keeps the monograph's $u_n$ and sums
+$1/(u_k+1)$ instead; both readings exclude the same sequence $2,3,7,43,\ldots$
+and use the same constant, since $u_n+1$ in the monograph's convention is the
+paper's $u_n$.
 
 ## Proof pointer and sketch
 
@@ -96,6 +97,6 @@ structure only and not verified.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0315/_index|Problem 315]]: the problem's exact
-  question, answered yes (the site's "proved independently by Kamio [Ka25]
-  and Li and Tang [LiTa25]"); the other route is
+  question, answered yes (erdosproblems.com's "proved independently by Kamio
+  [Ka25] and Li and Tang [LiTa25]"); the other route is
   [[unit_fractions/kamio_2025_asymptotic_analysis_infinite_decompositions_unit_fraction/theorem_8|Kamio's Theorem 8]].

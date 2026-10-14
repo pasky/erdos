@@ -72,15 +72,15 @@ Calgary (p. 1). The problems proposed at the 1991 Asilomar meeting are
 numbered 91:01--91:25 (p. 1's summary of earlier meetings gives the old and
 new numbering of the sets since 1967), with comments on the earlier
 problems 76:15, 76:44, 86:18, 87:02, 88:09, 88:12, 89:20, 90:07, 90:10,
-90:17, 90:18 and 90:20. The site's reference key [Guy91] for Problem 536
-names this set; the site links the PDF below.
+90:17, 90:18 and 90:20. The erdosproblems.com reference key [Guy91] for Problem
+536 names this set; erdosproblems.com links the PDF below.
 
 The copy read for this card is the
 conference site's copier scan of the typeset set: eighteen pages with no
 text layer, printed page $n$ = PDF p. $n$. Provenance: retrieved
 2026-09-18T05:59:40Z from
 <https://westcoastnumbertheory.org/wp-content/uploads/2018/02/wcnt-problems-1991.pdf>
-(HTTP 200, one request; the link on the site's Problem 536 page);
+(HTTP 200, one request; the link on erdosproblems.com's Problem 536 page);
 13,746,604 bytes. No notice is printed in the file (PDF pp. 1 and 18 read on the
 page images); the hosting conference site (https://westcoastnumbertheory.org/,
 read 2026-10-02) states no copyright, license or terms of use; the term is
@@ -237,8 +237,8 @@ a result that settles a problem.
 
 - [[../wiki/problems/integer_sequences/E0536/_index|#536]]: the first
   question of 91:01 (p. 9) is the problem's density question, whether
-  $f(N)=o(N)$, and is the site's [Guy91]; the $r$-fold generalization and
-  Pomerance's prime-factor variant asked beside it are not part of the
+  $f(N)=o(N)$, and is erdosproblems.com's [Guy91]; the $r$-fold generalization
+  and Pomerance's prime-factor variant asked beside it are not part of the
   problem.
 - [[../wiki/problems/set_systems/E0857/_index|#857]]: the third paragraph of
   91:01 asks for the least $t_n$ forcing three subsets of an $n$-set with

@@ -37,24 +37,23 @@ $$
 What about if $A$ is an arbitrary set of positive density? What if $A$ is the
 set of squares excluding $1$?
 
-**Formulation.** The site's wording (page last edited 1 April 2026; source
-key [ErGr80, p.42]). Three questions
-share one property, which Sattler's papers and the formal-conjectures file
-call property $P_1$: an infinite set $A\subseteq\mathbb N$ has $P_1$ when
-every non-constant $f:A\to\{-1,1\}$ admits a finite non-empty $S\subset A$
-with $\sum_{n\in S}f(n)/n=0$. The first question asks whether every infinite
-arithmetic progression has $P_1$, the second whether every set of positive
-density has it, the third whether the squares other than $1$ have it.
-"Non-constant" is essential, since a constant $f$ gives sums of one sign,
-and $1$ must be excluded from the squares because
+**Formulation.** The erdosproblems.com wording (page last edited 1 April 2026;
+source key [ErGr80, p.42]). Three questions share one property, which Sattler's
+papers and the formal-conjectures file call property $P_1$: an infinite set
+$A\subseteq\mathbb N$ has $P_1$ when every non-constant $f:A\to\{-1,1\}$ admits
+a finite non-empty $S\subset A$ with $\sum_{n\in S}f(n)/n=0$. The first question
+asks whether every infinite arithmetic progression has $P_1$, the second whether
+every set of positive density has it, the third whether the squares other than
+$1$ have it. "Non-constant" is essential, since a constant $f$ gives sums of one
+sign, and $1$ must be excluded from the squares because
 $\sum_{k\ge2}1/k^2=\pi^2/6-1<1$: on all the squares, $f(1)=1$ and $f=-1$
-elsewhere has no zero-sum, the trivial failure the site notes. The three
-questions have mixed answers (yes, no, yes), which is why the site labeled the
-problem SOLVED rather than PROVED or DISPROVED.
+elsewhere has no zero-sum, the trivial failure erdosproblems.com notes. The
+three questions have mixed answers (yes, no, yes), which is why Bloom's catalog
+labeled the problem SOLVED rather than PROVED or DISPROVED.
 
-**Status.** Solved, in the site's label, which the site glosses as a resolution
-other than a proof or disproof. The standing derives part by part from three
-claim pages, one for each question:
+**Status.** Solved, in the erdosproblems.com label, which erdosproblems.com
+glosses as a resolution other than a proof or disproof. The standing derives
+part by part from three claim pages, one for each question:
 [[problems/unit_fractions/E0318/claims/1982_01_01_sattler|Sattler's theorem on arithmetic progressions]],
 [[problems/unit_fractions/E0318/claims/1982_01_01_erdos|the one-even-number observation]]
 and
@@ -64,15 +63,15 @@ standing of the squares source are recorded below.
 
 Arithmetic progressions: yes. This follows from Sattler's paper on property
 $P_1$ for the arithmetical sequence (Indag. Math. (Proc.) 85 (1982), 347--352,
-refereed). The paper is not held here, and it is attested by the site and by the
-thread's reading of it. Positive density: no. Any infinite set with exactly one
-even number fails, by a two-line argument written out below. The site records
-this argument, and Sattler's companion paper credits it to Erdős. Squares other
-than $1$: yes, by Theorem 6 of Larsen's manuscript "Sufficiently abundant
-numbers are pseudoperfect" (GitHub, 1 February 2026; nine pages; unrefereed).
-Its closing line acknowledges the AI systems Claude Opus 4.5 and ChatGPT 5.2 Pro
-for proofreading. The site accepts it, and no journal record or independent
-review of it was found.
+refereed). The paper is not held here, and it is attested by erdosproblems.com
+and by the thread's reading of it. Positive density: no. Any infinite set with
+exactly one even number fails, by a two-line argument written out below.
+erdosproblems.com records this argument, and Sattler's companion paper credits
+it to Erdős. Squares other than $1$: yes, by Theorem 6 of Larsen's manuscript
+"Sufficiently abundant numbers are pseudoperfect" (GitHub, 1 February 2026; nine
+pages; unrefereed). Its closing line acknowledges the AI systems Claude Opus 4.5
+and ChatGPT 5.2 Pro for proofreading. erdosproblems.com accepts it, and no
+journal record or independent review of it was found.
 
 Lean proofs of all three parts exist outside this corpus (recorded under
 Formalization below). None has been built or audited here, so they give no
@@ -84,7 +83,7 @@ records a pending independent machine proof of the first question.
 **Source.** [erdosproblems.com/318](https://www.erdosproblems.com/318),
 accessed 2026-09-18: the problem page (SOLVED; source key [ErGr80, p.42];
 last edited 01 April 2026), its fourteen-comment discussion thread (15
-August 2025 to 2 February 2026) and its empty proof-claim tab. The site
+August 2025 to 2 February 2026) and its empty proof-claim tab. erdosproblems.com
 cites [ErSt75], [Sa75], [Sa82] and [Sa82b] in its commentary, credits Larsen
 with the squares case, and thanks Sarosh Adenwalla, Hayato Egami, Vjekoslav
 Kovac, Daniel Larsen, and Desmond Weisenberg. Cite as: T. F. Bloom, Erdős
@@ -98,18 +97,19 @@ Problem #318, https://www.erdosproblems.com/318, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [ErSt75] Erdős, P. and Straus, E. G., Solution to Problem 387. Nieuw Arch.
   Wisk. (3) 23 (1975), 183. Not held; the case $A=\mathbb N$, attested by
-  the monograph and the site; the account does not rest on it. Claim page:
+  the monograph and erdosproblems.com; the account does not rest on it. Claim
+  page:
   [[problems/unit_fractions/E0318/claims/1975_01_01_erdos_straus|the positive integers have property P1]].
 - [Sa75] Sattler, R., Solution to Problem 387. Nieuw Arch. Wisk. (3) 23
   (1975), 184--189. Not held; the odd numbers, attested likewise. Claim page:
   [[problems/unit_fractions/E0318/claims/1975_01_01_sattler|the odd numbers from 3 have property P1]].
 - [Sa82] Sattler, R., On Erdös property $P_1$ for the sequence of squarefree
   numbers. Indagationes Mathematicae (Proceedings) 85 (1982), no. 3,
-  341--346, DOI 10.1016/1385-7258(82)90025-7 (the site writes the series as
-  Nederl. Akad. Wetensch. Indag. Math.). Not held; the Crossref record
+  341--346, DOI 10.1016/1385-7258(82)90025-7 (erdosproblems.com writes the
+  series as Nederl. Akad. Wetensch. Indag. Math.). Not held; the Crossref record
   carries Elsevier's open-access user license dated 29 July 2013, which
-  places the article in the publisher's free open archive. The site credits
-  its opening page with the one-even-number observation.
+  places the article in the publisher's free open archive. erdosproblems.com
+  credits its opening page with the one-even-number observation.
 - [Sa82b] Sattler, R., On Erdös property $P_1$ for the arithmetical
   sequence. Indagationes Mathematicae (Proceedings) 85 (1982), no. 3,
   347--352, DOI 10.1016/1385-7258(82)90026-9. Not held; the same open-archive
@@ -118,8 +118,8 @@ Problem #318, https://www.erdosproblems.com/318, accessed 2026-09-18.
 - [La26] Larsen, D., Sufficiently abundant numbers are pseudoperfect.
   Manuscript, 9 pp., in the GitHub repository `Larsen-Daniel/Erdos-318`
   (`318.pdf` at the commit of 1 February 2026 pinned on the claim page, the
-  head on 2026-09-18; the text is undated and cites the site's pages as
-  accessed 29 January 2026). Theorem 6, p. 8. Library home:
+  head on 2026-09-18; the text is undated and cites the erdosproblems.com pages
+  as accessed 29 January 2026). Theorem 6, p. 8. Library home:
   [[../library/unit_fractions/larsen_2026_sufficiently_abundant_numbers_pseudoperfect/_index|larsen_2026_sufficiently_abundant_numbers_pseudoperfect]].
 - [Bl21] Bloom, T. F., On a density conjecture about unit fractions.
   arXiv:2112.03726; J. Eur. Math. Soc. 27 (2025), 4563--4589. Its Theorem 2
@@ -163,25 +163,25 @@ September 2026 for the three entries (dates of the entries' last updates, not
 of the state changes), pointing to Collin Yuanjie Ren's package for the
 squares (prepared with OpenAI Codex; it reproduces the progression and density
 parts of Alexeev's file as credited prior work), a formalization link on
-[[problems/unit_fractions/E0318/claims/2026_02_01_larsen|Larsen's page]]. The
-site's own label is SOLVED, without a Lean suffix.
+[[problems/unit_fractions/E0318/claims/2026_02_01_larsen|Larsen's page]].
+erdosproblems.com's own label is SOLVED, without a Lean suffix.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-SOLVED; last edited 1 April 2026. The site's commentary gives the history in
-these terms: the case $A=\mathbb N$ is due to Erdős and Straus [ErSt75] and
-the odd numbers to Sattler [Sa75]; for the squares, $1$ has to be left out,
-since the reciprocals of the squares from $4$ on sum to less than $1$; sets of
-positive density can fail, because any set with exactly one even number does,
-an observation that [Sa82] attributes to Erdős and that presumably postdates
-the monograph; [Sa82b] answers the arithmetic-progression question in the
-affirmative; both 1982 papers announce a proof for the squares other than $1$
-that was never published; and Larsen has proved that case. The proof-claim tab
-is empty. The community database record (read 2026-10-06): solved, statement
-formalized, formal status Lean and status "solved (Lean)", with the entries
-last updated on 4 April 2026, 14 January 2026 and 16 September 2026
-respectively, no OEIS entry.
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; SOLVED; last edited 1 April 2026. The erdosproblems.com
+commentary gives the history in these terms: the case $A=\mathbb N$ is due to
+Erdős and Straus [ErSt75] and the odd numbers to Sattler [Sa75]; for the
+squares, $1$ has to be left out, since the reciprocals of the squares from $4$
+on sum to less than $1$; sets of positive density can fail, because any set with
+exactly one even number does, an observation that [Sa82] attributes to Erdős and
+that presumably postdates the monograph; [Sa82b] answers the
+arithmetic-progression question in the affirmative; both 1982 papers announce a
+proof for the squares other than $1$ that was never published; and Larsen has
+proved that case. The proof-claim tab is empty. The community database record
+(read 2026-10-06): solved, statement formalized, formal status Lean and status
+"solved (Lean)", with the entries last updated on 4 April 2026, 14 January 2026
+and 16 September 2026 respectively, no OEIS entry.
 
 **Origin.** Printed p. 42 of the 1980 monograph, after the near-zero signed
 sums of Problem 317: "Erdös and Straus
@@ -199,19 +199,20 @@ $\pm1$'s, there is a finite subsequence $\delta_{i_k}$ for which
 $\sum_k\frac{\delta_{i_k}}{i_k^2}=0$." The index "$k\le2$" is a misprint for
 $k\ge2$. The page continues with the extremal question of Problem 319.
 
-**First question, arithmetic progressions: yes (second-hand).** The site
-attributes the affirmative answer to [Sa82b]; the thread's comment of 17
-August 2025 (Kovač) reports, from reading the paper, that it also settles the
-first question, on arithmetic progressions, and that both 1982 papers announce
-a third paper on the squares that never appeared. Neither 1982 paper is held
-in the library; the Crossref records show Elsevier's open-access license on
-both since 29 July 2013, so the articles are free to read on the publisher's
-site. The earlier cases, $A=\mathbb N$
+**First question, arithmetic progressions: yes (second-hand).**
+erdosproblems.com attributes the affirmative answer to [Sa82b]; the thread's
+comment of 17 August 2025 (Kovač) reports, from reading the paper, that it also
+settles the first question, on arithmetic progressions, and that both 1982
+papers announce a third paper on the squares that never appeared. Neither 1982
+paper is held in the library; the Crossref records show Elsevier's open-access
+license on both since 29 July 2013, so the articles are free to read on the
+publisher's site. The earlier cases, $A=\mathbb N$
 ([[problems/unit_fractions/E0318/claims/1975_01_01_erdos_straus|Erdős and Straus, 1975]])
 and the odd numbers
 ([[problems/unit_fractions/E0318/claims/1975_01_01_sattler|Sattler, 1975]]),
-are attested by the monograph and the site and are not held. Reading the 1982
-paper against the site's attribution would make the record first-hand.
+are attested by the monograph and erdosproblems.com and are not held. Reading
+the 1982 paper against the erdosproblems.com attribution would make the record
+first-hand.
 
 **Second question, positive density: no (argument written here).** Let $A$ be
 infinite with exactly one even element $x$, and put $f(x)=-1$ and $f(n)=1$ for
@@ -222,14 +223,14 @@ fractions with odd denominators, so in lowest terms its denominator is odd,
 while $1/x$ has an even denominator; contradiction. The odd numbers together
 with $2$ form such a set of density $1/2$, so the second question is answered
 in the negative. The argument is the one in Adenwalla's comment of 15 August
-2025 and in the site's commentary; Sattler's [Sa82] credits the observation to
-Erdős according to the site and to the thread (comment of 17 August 2025,
-which places it on the paper's opening page, p. 341). It is recorded here as
-an author-recorded elementary check, not as a compiled source result.
-Adenwalla's comment generalizes it: any $A$ with an element $x$ such that
-$A\setminus\{x\}$ lies in a multiplicatively closed set containing no multiple
-of $x$ fails, for instance when some prime has exactly one multiple in $A$, or
-when $A\setminus\{x\}$ lies in one residue class $g\bmod d$ with
+2025 and in the erdosproblems.com commentary; Sattler's [Sa82] credits the
+observation to Erdős according to erdosproblems.com and to the thread (comment
+of 17 August 2025, which places it on the paper's opening page, p. 341). It is
+recorded here as an author-recorded elementary check, not as a compiled source
+result. Adenwalla's comment generalizes it: any $A$ with an element $x$ such
+that $A\setminus\{x\}$ lies in a multiplicatively closed set containing no
+multiple of $x$ fails, for instance when some prime has exactly one multiple in
+$A$, or when $A\setminus\{x\}$ lies in one residue class $g\bmod d$ with
 $\gcd(g,d)=1<\gcd(x,d)$. The comment's own condition, that $x$ lies in no
 class $g^k\bmod d$, is not enough. $A=\{3\}\cup\{n\equiv1\bmod4\}$ meets it,
 yet this $A$ has $P_1$: if $f$ is non-constant on the progression, Sattler's
@@ -259,19 +260,19 @@ conversely (the theorem page writes out both directions). The proof
 adjustment of the target;
 Theorem 4 is also the tool of the paper's main result, that every integer
 with $\sigma(n)/n$ large enough and no small prime factor is pseudoperfect
-(the Benkoski--Erdős question, the site's Problem 825). Provenance: the
+(the Benkoski--Erdős question, erdosproblems.com's Problem 825). Provenance: the
 manuscript was uploaded to the author's GitHub repository on 31 January 2026,
 with a commit message describing it as most of a proof, and replaced on
 1 February 2026 by the nine-page version, the repository's head on
 2026-09-18; the 8-page version without Theorem 6 preceded it. The paper's
 closing line acknowledges the AI systems Claude Opus 4.5 and ChatGPT 5.2 Pro
 for proofreading, recorded here as the source's own declaration. Acceptance
-evidence: the site's page, which credits Larsen with the affirmative answer for the squares (last edited 1 April 2026), and the
-author's thread comment of 1 February 2026 announcing the note as an
-application of the technical result of Larsen's work on Problem 825; no arXiv
-listing, journal record or
-independent review was found on 2026-09-18, and the proof is unchecked by
-this corpus. For the third question the label rested on this preprint; Ren's
+evidence: the erdosproblems.com page, which credits Larsen with the affirmative
+answer for the squares (last edited 1 April 2026), and the author's thread
+comment of 1 February 2026 announcing the note as an application of the
+technical result of Larsen's work on Problem 825; no arXiv listing, journal
+record or independent review was found on 2026-09-18, and the proof is unchecked
+by this corpus. For the third question the label rested on this preprint; Ren's
 Lean package of 16 September 2026, linked on the claim page, formalizes it
 but has not been built here.
 
@@ -288,11 +289,11 @@ certificate for the resulting Boolean formula, in the linked four-page note
 [Ch26]. Tao (24 January) remarks that this would show the statement
 verifiable but not decidable, Alexeev (25 January) objects that no
 finite $N$ witnesses non-constancy (a coloring may be constant on all
-squares up to $N$), and Tao withdraws the remark; the site's label was not
-changed by that exchange. A comment of 12 January 2026 posted a purported general
-counterexample that misreads the sum as $\sum f(n)n$; the reply the same
-day points out the misreading and the forum's disclosure rule. None of these
-items enters the status.
+squares up to $N$), and Tao withdraws the remark; the erdosproblems.com label
+was not changed by that exchange. A comment of 12 January 2026 posted a
+purported general counterexample that misreads the sum as $\sum f(n)n$; the
+reply the same day points out the misreading and the forum's disclosure rule.
+None of these items enters the status.
 
 **Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
@@ -312,10 +313,10 @@ Archief archive. Nothing found changes the three answers.
 question, is not held; its statement is second-hand, and the 1975 partial
 results likewise. (2) The third question rests on an unrefereed manuscript
 acknowledging Claude Opus 4.5 and ChatGPT 5.2 Pro for proofreading, accepted
-by the site; a refereed version or an independent review would strengthen
-it. (3) Larsen's proof and Theorem 4 are not compiled beyond a structural
-sketch. (4) The Lean proofs of the three parts (Alexeev's file and Ren's
-package) have not been built or audited by this corpus.
+by erdosproblems.com; a refereed version or an independent review would
+strengthen it. (3) Larsen's proof and Theorem 4 are not compiled beyond a
+structural sketch. (4) The Lean proofs of the three parts (Alexeev's file and
+Ren's package) have not been built or audited by this corpus.
 
 ## Progress and known results
 

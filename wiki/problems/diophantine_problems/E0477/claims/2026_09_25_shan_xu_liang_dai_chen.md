@@ -66,7 +66,7 @@ $O_{k,\delta}(N^{18/19+\delta})$ exceptional $n\in[N,2N)$.
 **Standing.** The claim is pending, and this page does not rest on the
 linked Overleaf manuscript's proof. The thread carried no comment and no
 curator response on 7 October 2026, and no acceptance evidence exists.
-The site's earlier remark that a quadratic polynomial cannot work is an
+erdosproblems.com's earlier remark that a quadratic polynomial cannot work is an
 argument given in the problem's comments, not a dated manuscript, and is
 recorded on the problem page. The existence question is settled
 independently by the thirteenth-power construction on

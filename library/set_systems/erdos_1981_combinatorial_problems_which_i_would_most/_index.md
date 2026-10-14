@@ -24,7 +24,7 @@ and the locators below are pages of the copy. Part V, "Problems of Ramsey
 Theory", is on pp. 9--10 of the copy, read on the page images. No notice is
 printed in it, the archive's own re-typeset copy rather than the journal pages
 (pp. 1--2 and 21--22 carry no copyright or license line); the hosting
-archive's legal notice covers all material on the site
+archive's legal notice covers all material on erdosproblems.com
 (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes
 only."); the Springer page for DOI 10.1007/BF02579174 could not be read on
@@ -87,8 +87,8 @@ two colors, there is always a monochromatic path P_n of length n. Is it true
 that (4) r̂(P_n)/n → ∞, r̂(P_n)/n² → 0?" Erdős adds that the four had no
 success with (4), that an asymptotic formula or a good inequality for r̂(P_n)
 would be useful but (4) comes first, and "I offer 100 dollars for a proof or
-disproof of (4)", the statement of Problem 720 with the site's prize. Page 10
-adds (5), whether log log r(K^{(3)}(n),K^{(3)}(n)) > cn, with a prize
+disproof of (4)", the statement of Problem 720 with the erdosproblems.com prize.
+Page 10 adds (5), whether log log r(K^{(3)}(n),K^{(3)}(n)) > cn, with a prize
 offered. Each of the fifteen listed problems (3, 19, 20, 57, 67, 111, 138,
 140, 142, 576, 664, 712, 734, 740, 1159) is printed in Parts I--III or
 VI--VII, three of them in a narrower or different form: Part III (display (2),
@@ -199,13 +199,13 @@ $r_3(n)$ and more generally for $r_k(n)$;
 [[../wiki/problems/ramsey_theory/E0159/_index|#159]]: display (2) of Part V,
 p. 9 of the copy (page image): "Let $C(n)$ denote a circuit of $n$ vertices.
 Prove that (2) $r(K(n),C(4))<n^{2-\varepsilon}$," stated without a prize, a
-bound or a reference, the site's [Er81] source;
+bound or a reference, erdosproblems.com's [Er81] source;
 [[../wiki/problems/extremal_graph_theory/E0182/_index|#182]]: Part III, item 3, p. 7 of
 the copy (page image), the Erdős--Sauer passage quoted below for Problem
 715: $F(n;r)$ defined, "We could not disprove $F(n;3)<cn$ and our only upper
 bound for $F(n;3)$ is $cn^{8/5}$. We conjectured that $F(n,r)=O(n^{1+\varepsilon})$
 for every $r$ and $\varepsilon>0$", the conjecture for every valency that is
-the problem's second question, the site's [Er81] source;
+the problem's second question, erdosproblems.com's [Er81] source;
 [[../wiki/problems/extremal_graph_theory/E0184/_index|#184]]: Part IV, item 3, p. 8 of the
 copy, the Erdős--Gallai covering conjecture with the $cn\log n$ result;
 [[../wiki/problems/ramsey_theory/E0191/_index|#191]]: p. 15 of the copy, the conjecture
@@ -214,7 +214,7 @@ its finite form;
 [[../wiki/problems/extremal_graph_theory/E0500/_index|#500]]: Part III, item 1, p. 6 of
 the copy, Turán's question for $f(n;K^{(r)}(k))$ with his "plausible
 conjectures for $r=3$, $k=4$ and $r=3$, $k=5$" and the two prize
-offers, the site's [Er81] source;
+offers, erdosproblems.com's [Er81] source;
 [[../wiki/problems/ramsey_theory/E0556/_index|#556]]: display (3) of Part V,
 p. 9 of the copy, the Bondy--Erdős conjecture $r(C_n,C_n,C_n)\le4n-3$, printed
 with no restriction on $n$ and followed by "It is easy to see that if (3) is
@@ -239,17 +239,17 @@ two $A$'s which have precisely one element in common. This conjecture was
 proved by Katona [57] for $k=4$, and by P. Frankl [45] for all $k$." (the $l$
 stands for $1$); the conjecture is printed with no range on $n$ and none on
 $k$, where Erdős's statements in [Er75f], [Er76b] and [Er82e] carry $k>3$ and
-$n>n_0(k)$; the site's [Er81] source;
+$n>n_0(k)$; erdosproblems.com's [Er81] source;
 [[../wiki/problems/extremal_graph_theory/E0712/_index|#712]]: Part III, item
 1, p. 6 of the copy, the prize offer "for even a single $k>r>2$" and the
 prize offer "for clearing up the whole set of problems", with
-$c_{2,k}=\frac12(1-\frac1{k-1})$ as Turán's value, the site's [Er81] source
-for both prizes;
+$c_{2,k}=\frac12(1-\frac1{k-1})$ as Turán's value, erdosproblems.com's [Er81]
+source for both prizes;
 [[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]: Part III, item 2, display
 (3), p. 6 of the copy (page image), "Is it true that (3)
 $f(n;K(r,r))>cn^{2-1/r}$?", with the matching upper bound at the top of
 p. 7, "$f(n;K(r,r))<c_2n^{2-1/r}$ is an old theorem of Kővári, T. Sós, Turán
-[61] and myself", the problem's statement in Erdős's words, the site's
+[61] and myself", the problem's statement in Erdős's words, erdosproblems.com's
 [Er81] source;
 [[../wiki/problems/extremal_graph_theory/E0715/_index|#715]]: Part III, item 3, p. 7 of
 the copy (page image), the problem Erdős investigated with Sauer: "Denote
@@ -261,7 +261,7 @@ We conjectured that $F(n,r)=O(n^{1+\varepsilon})$ for every $r$ and
 $\varepsilon>0$. Berge conjectured that every regular graph of valency 4
 contains a subgraph of valency 3. As far as I know it is not known whether
 there is an $r$ for which every regular graph of valency $r$ contains a
-regular graph of valency 3." The site's [Er81] source for
+regular graph of valency 3." erdosproblems.com's [Er81] source for
 the problem: the last two sentences are its two questions in Erdős's words
 (the copy writes "a subgraph of valency 3" where the 1975 survey writes "a
 regular subgraph of valency three" and attributes the conjecture to Sauer
@@ -284,7 +284,7 @@ of the graphs $\mathcal G(n)$. Very likely (1) is best possible i.e.
 $S(n)<c_2n^{1/2}/\log n$, but this conjecture remains open for the time
 being", the problem's conjecture in Erdős's words, with [16] Catlin,
 Discrete Math. 10 (1974) 225--233 and [22] the Erdős--Fajtlowicz paper "to
-appear in Combinatorica" (pp. 17--18), the site's [Er81] source;
+appear in Combinatorica" (pp. 17--18), erdosproblems.com's [Er81] source;
 [[../wiki/problems/extremal_graph_theory/E0718/_index|#718]]: Part IV, item 2, p. 8 of the
 copy (page image; the exponent read on a 300 dpi crop). The item records
 that Dirac [20] proved that every $\mathcal G(n;2n-2)$ contains a
@@ -299,7 +299,7 @@ Erdős--Hajnal [26].)", the problem's conjecture in Erdős's words with his
 attestation of Dirac's and Mader's theorems; [20] is Dirac, Math.
 Nachrichten 22 (1960) 61--85, [26] Erdős and Hajnal, Annales Univ. Sci.
 Budapest 7 (1969) 193--199 and [65] Mader, Math. Annalen 174 (1967) 265--268
-(pp. 18 and 20); the site's [Er81] source;
+(pp. 18 and 20); erdosproblems.com's [Er81] source;
 [[../wiki/problems/set_systems/E0719/_index|#719]]: Part IV, item 3, p. 8 of
 the copy, the conjecture of Sauer and Erdős that every $r$-graph
 $\mathcal G^{(r)}(n)$ is the union of at most $f(n;K^{(r)}(r+1))-1$ cliques,
@@ -338,12 +338,12 @@ graph with $\left[\frac n2\right]$ white and $\left[\frac{n+1}2\right]$
 black vertices shows the bound would be best possible; the reference is "[67]
 U. S. R. Murty, unpublished. See L. Caccetta and R. Häggkvist, On diameter
 critical graphs, Discrete Math. 28 (1979) 223--229" (p. 20), the problem's
-statement in Erdős's words, the site's [Er81] source;
+statement in Erdős's words, erdosproblems.com's [Er81] source;
 [[../wiki/problems/extremal_graph_theory/E0743/_index|#743]]: p. 15 of the copy (page
 image): "Another attractive conjecture of Gyárfás states that if $T_k$,
 $k=2,3,\ldots,n$ is any set of $n-1$ trees, and $v(T_k)=k$, then $K(n)$ is
 the edge disjoint union of the $T_k$'s", stated without a reference, the
-problem's statement in Erdős's words, the site's [Er81] source;
+problem's statement in Erdős's words, erdosproblems.com's [Er81] source;
 [[../wiki/problems/graph_coloring/E0744/_index|#744]]: Part VII, pp. 15--16 of
 the copy, the conjecture of Hajnal, Szemerédi and Erdős that for $k>k_0$ there
 is $f(n;k)\to\infty$ such that no critical $k$-chromatic graph of $n$ vertices
@@ -361,9 +361,9 @@ Quoted: "I expect that it almost surely will never be large, perhaps not
 much larger than $\log n$ and certainly $o(n^\varepsilon)$, but nothing
 definite is known. (Added in proof: These questions were cleared up by
 Komlós and Szemerédi.)", the problem's origin: the uniform model
-$\mathcal G(n;k)$, the singularity at $k=n/2$ that the site's $p=1/n$
+$\mathcal G(n;k)$, the singularity at $k=n/2$ that erdosproblems.com's $p=1/n$
 matches, Erdős's expectation about the second largest component, and his
-added-in-proof attestation, the site's [Er81] source;
+added-in-proof attestation, erdosproblems.com's [Er81] source;
 [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: Part VIII, p. 16 of the copy,
 the sentences "Rényi and I [35] proved that almost all graphs
 $\mathcal G(2n;[(1+\varepsilon)n\log n])$ have a perfect matching and that

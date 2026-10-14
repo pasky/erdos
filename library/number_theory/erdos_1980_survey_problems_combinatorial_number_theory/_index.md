@@ -79,7 +79,7 @@ best possible."
 The paragraph supplies neither proof nor a specific proof citation for those
 Ruzsa claims. They are source reports under an explicit subset convention, not
 locally verified bounds for #786. Their relation to the separate treatment of
-the two repetition conventions in the site's full commentary (accessed
+the two repetition conventions in erdosproblems.com's full commentary (accessed
 2026-09-04) remains unresolved; the suggestion that Erdős confused those
 conventions is not established here.
 
@@ -113,8 +113,8 @@ there is no proof to check):
   very little is known about these numbers, and in particular that "it is
   not known if $f_{3,v}$ tends to infinity polynomially or faster"; the
   paragraph ends by lamenting that essentially no non-trivial bound is
-  known for any of these quantities. The site's $W(3,k)$ is $f_{3,k}$; the
-  polynomial-or-faster question is the one Green settled.
+  known for any of these quantities. erdosproblems.com's $W(3,k)$ is $f_{3,k}$;
+  the polynomial-or-faster question is the one Green settled.
 - Printed p. 93 (PDF p. 5), for
   [[../wiki/problems/ramsey_theory/E0645/_index|#645]]: "Is it true that if we
   divide the integers into two classes then there always is a three term
@@ -165,9 +165,9 @@ there is no proof to check):
   new results, Bull. Amer. Math. Soc. 83 (1977) 417--455, at pp. 449--452,
   and cites Hindman, J. Combinatorial Theory 17 (1974) 1--11 and
   Baumgartner, 17 (1974) 384--386 (the two spellings of Glazer's name are
-  the print's). The survey is not a site source key for this problem; the
-  passage attests Hindman's theorem, Baumgartner's simplification and
-  Glazer's proof, as the problem page records.
+  the print's). The survey is not an erdosproblems.com source key for this
+  problem; the passage attests Hindman's theorem, Baumgartner's simplification
+  and Glazer's proof, as the problem page records.
 - Printed p. 104 (PDF p. 16), Section 5 "Some problems on infinite subsets",
   for [[../wiki/problems/ramsey_theory/E1198/_index|#1198]]: after the record of
   Hindman's proof and Baumgartner's simplification, the problem as posed:
@@ -184,7 +184,8 @@ there is no proof to check):
   density $0$ is possible for one of Hindman's sequences, with counting function
   $A_1(x)=\sum_{a_i<x}1<Cx^{1/2}$ (display (1)); Erdős does not know
   whether (1) is best possible. Erdős
-  attributes the question to Ewing where the site attributes it to Owings.
+  attributes the question to Ewing where erdosproblems.com attributes it to
+  Owings.
 - Printed p. 105 (PDF p. 17), for [[../wiki/problems/ramsey_theory/E0439/_index|#439]]:
   "Silverman and I conjectured that if we split the integers into $k$
   classes, then there are always two integers in the same class whose sum is
@@ -246,8 +247,8 @@ there is no proof to check):
   bound to Davenport, Erdős's expectation that the lower bound is the
   truth, the connection with problem 1, the interest in small $k$, the
   average quantity $B_k$ of display (6), and the greedy sequence. The
-  display (5) is as printed; the site's Problem 1204 page says the bounds
-  are misstated and gives half of each, and attributes the upper bound to
+  display (5) is as printed; erdosproblems.com's Problem 1204 page says the
+  bounds are misstated and gives half of each, and attributes the upper bound to
   Davenport where the print attributes the lower bound of its display; the
   problem page records both. Then, for
   [[../wiki/problems/integer_sequences/E0689/_index|#689]], item 6 defines $f(x)$ as the
@@ -303,9 +304,9 @@ there is no proof to check):
   sequence $a_1<a_2<\cdots$ containing no complete set of residues mod $n_i$ for
   any $i$, there are infinitely many integers $x$ with
   $x+a_i\not\equiv0\pmod{n_j}$ for every $n_j$ and every $a_i<x$ (the sentence
-  runs from p. 111 onto p. 112). The site's statement of Problem 429 follows the
-  wording of Erdős and Graham's 1980 monograph, Old and new problems and results
-  in combinatorial number theory, printed p. 85.
+  runs from p. 111 onto p. 112). The erdosproblems.com statement of Problem 429
+  follows the wording of Erdős and Graham's 1980 monograph, Old and new problems
+  and results in combinatorial number theory, printed p. 85.
 - Printed p. 112 (PDF p. 24), for [[../wiki/problems/integer_sequences/E0488/_index|#488]]:
   for any sequence $a_1<\cdots<a_k\le n$ of integers, let $b_1<b_2<\cdots$
   be the integers "no one of which is the multiple of any of the $a$'s" and
@@ -371,7 +372,7 @@ there is no proof to check):
   sequence of distinct Gaussian primes $P_1,P_2,\ldots$, for which
   $|P_{k+1}-P_k|<C$ for some absolute constant $C$." Erdős adds that the
   answer is almost certainly negative. The sentence begins at the foot of
-  p. 114, the site's locator, and ends on p. 115.
+  p. 114, the erdosproblems.com locator, and ends on p. 115.
 
 ## E1204: extremal admissible sequences
 
@@ -470,8 +471,8 @@ with its rule that $\pi(n^{1/k})$ occurs if and only if $F(k)>F(k-1)$, $F(k)$
 the largest $l$ with a sequence $1\le a_1<\cdots<a_l\le k$ whose subset sums are
 all different, the easy bound (11) $\max t_n\ge\sum\pi(n^{1/a_k})$ and the
 statement that (10) is not known to be true; the problem's conjectured bound and
-the stronger expansion its page records; the site's key [Er80, p. 102]),
-[[../wiki/problems/integer_sequences/E0929/_index|#929]],
+the stronger expansion its page records; the erdosproblems.com key [Er80, p.
+102]), [[../wiki/problems/integer_sequences/E0929/_index|#929]],
 [[../wiki/problems/integer_sequences/E1204/_index|#1204]],
 [[../wiki/problems/integer_sequences/E1205/_index|#1205]],
 [[../wiki/problems/integer_sequences/E1209/_index|#1209]], [[../wiki/problems/divisors/E0892/_index|#892]],
@@ -488,7 +489,7 @@ the classes $a_p\pmod p$, which the problem's statement implies),
 conjecture that an absolute constant $c$ exists such that, for every $k$ and
 every $n>n_0(k)$, any split of the integers up to $n$ into $k$ classes leaves
 more than $cn$ integers $m\le n$ of the form $a_{i_1}^{(j)}+a_{i_2}^{(j)}$ with
-both summands in one class; the site's key [Er80, p. 112]),
+both summands in one class; the erdosproblems.com key [Er80, p. 112]),
 [[../wiki/problems/additive_combinatorics/E0984/_index|#984]] (printed p. 92:
 Spencer's three-class split in which every monochromatic progression with first
 term $a$ is shorter than a very slowly growing $h(a)$, Spencer's question about
@@ -515,11 +516,11 @@ record),
 [[../wiki/problems/number_theory/E0951/_index|#951]] (printed pp. 102--104, PDF
 pp. 14--16, page images: the integer remark $\max t_n=\pi(n)$ on p. 102,
 Beurling's conjecture (12) and Shapiro's question (13) with the footnote
-recalling the 1969 paper on p. 103, the Diamond reference on p. 104; the
-site cites [Er80] in its commentary),
+recalling the 1969 paper on p. 103, the Diamond reference on p. 104;
+erdosproblems.com cites [Er80] in its commentary),
 [[../wiki/problems/number_theory/E0952/_index|#952]] (printed pp. 114--115, PDF
 pp. 26--27, page images: the Gordon--Motzkin conjecture with "The answer is
-almost certainly negative"; the site's key [Er80, p. 114]),
+almost certainly negative"; the erdosproblems.com key [Er80, p. 114]),
 [[../wiki/problems/additive_combinatorics/E0186/_index|#186]] (printed p. 110,
 PDF p. 22, page image: the paragraph "Non-averaging sets" takes E. Straus's term
 for a set of integers $a_1<a_2<\cdots<a_k\le n$ none of whose elements is the
@@ -528,7 +529,8 @@ $\max k=A(n)$, the best bounds at the time being
 $c_1n^{1/10}<A(n)<n^{2/3+\varepsilon}$ (display (2), which misprints the upper
 bound as $n^{2/3}+\varepsilon$), the lower due to Abbott and the upper to Erdős
 and Straus, and Erdős asks for a proof that $\log A(n)/\log n$ converges to some
-$\alpha$, and for the value of $\alpha$; the site's key [Er80, p. 110])
+$\alpha$, and for the value of $\alpha$; the erdosproblems.com key [Er80, p.
+110])
 
 **Results.**
 

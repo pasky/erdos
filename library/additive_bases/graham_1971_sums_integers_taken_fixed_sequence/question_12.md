@@ -26,13 +26,13 @@ positive reals with $\alpha/\beta$ irrational. Let $S$ denote the sequence
 $([\alpha],[\beta],[2\alpha],[2\beta],\ldots,[2^n\alpha],[2^n\beta],\ldots)$.
 Is $S$ complete? What if $2$ is replaced by some $\gamma$, $1<\gamma<2$?"
 
-This is the statement of Problem 354 up to notation: the site's multiset
-$\{\lfloor2^s\alpha\rfloor\}\cup\{\lfloor2^t\beta\rfloor\}$ is the paper's
-sequence $S$, and the site's second question is the paper's last sentence.
-The paper offers no result on either question. Its nearest context is
-Question 2 (printed p. 34): for which $(t,\alpha)$ with $t>0$, $1<\alpha<2$
-is the sequence $s_n=[t\alpha^n]$ complete, known for $0<t\le1$ from the
-author's 1964 Acta Arithmetica paper and, quoted, "Even in the range
+This is the statement of Problem 354 up to notation: erdosproblems.com's
+multiset $\{\lfloor2^s\alpha\rfloor\}\cup\{\lfloor2^t\beta\rfloor\}$ is the
+paper's sequence $S$, and erdosproblems.com's second question is the paper's
+last sentence. The paper offers no result on either question. Its nearest
+context is Question 2 (printed p. 34): for which $(t,\alpha)$ with $t>0$,
+$1<\alpha<2$ is the sequence $s_n=[t\alpha^n]$ complete, known for $0<t\le1$
+from the author's 1964 Acta Arithmetica paper and, quoted, "Even in the range
 $1<t<2$, it is not known what happens. Conceivably, $S$ is complete for all
 $1<\alpha<\frac{1+\sqrt5}2$ and $t>0$."
 
@@ -59,5 +59,5 @@ None.
 ## Bears on
 
 - [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: the problem's origin, in
-  the wording the site's statement follows, including the second question
-  with $2$ replaced by $\gamma\in(1,2)$.
+  the wording the erdosproblems.com statement follows, including the second
+  question with $2$ replaced by $\gamma\in(1,2)$.

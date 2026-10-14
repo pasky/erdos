@@ -27,13 +27,13 @@ with chromatic number $\mathfrak{m}$. Is it true that, for every infinite
 cardinal $\mathfrak{n}< \mathfrak{m}$, there exists a subgraph of $G$ with
 chromatic number $\mathfrak{n}$?
 
-**Status.** Open. The site labeled the problem NOT PROVABLE, on the strength of
-Komjáth's consistency result. In a model of ZFC there is a graph of chromatic
-number $\aleph_2$ with no subgraph of chromatic number $\aleph_1$, so ZFC does
-not prove the statement. That settles one side only. It is open whether the
-statement is also not disprovable, for instance whether it follows from the
-Generalized Continuum Hypothesis. The page departs from the site's label because
-one side alone leaves the question open.
+**Status.** Open. Bloom's catalog labeled the problem NOT PROVABLE, on the
+strength of Komjáth's consistency result. In a model of ZFC there is a graph of
+chromatic number $\aleph_2$ with no subgraph of chromatic number $\aleph_1$, so
+ZFC does not prove the statement. That settles one side only. It is open whether
+the statement is also not disprovable, for instance whether it follows from the
+Generalized Continuum Hypothesis. The page departs from the erdosproblems.com
+label because one side alone leaves the question open.
 
 **Source.** [erdosproblems.com/739](https://www.erdosproblems.com/739), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #739,
@@ -52,8 +52,8 @@ https://www.erdosproblems.com/739.
 
 ## Current assessment
 
-The question, in the site's formulation, asks whether every graph of infinite
-chromatic number $\mathfrak{m}$ has, for each infinite cardinal
+The question, in the erdosproblems.com formulation, asks whether every graph of
+infinite chromatic number $\mathfrak{m}$ has, for each infinite cardinal
 $\mathfrak{n}<\mathfrak{m}$, a subgraph of chromatic number exactly
 $\mathfrak{n}$. It is Galvin's question [Ga73]. The problem is open. Its one
 accepted claim,
@@ -68,10 +68,10 @@ $\aleph_2$
 ([[../library/graph_coloring/shelah_1990_incompactness_chromatic_numbers_graphs/_index|card]]),
 and the paper's introduction credits Komjáth with the independence of the
 $\aleph_2$/$\aleph_1$ case from ZFC; no model is recorded in which the statement
-holds for every pair of cardinals, and the site records as open whether it
-follows from the Generalized Continuum Hypothesis. The site also records, from
-Galvin's paper, that the stronger form asking for an induced subgraph implies
-$2^{\mathfrak{k}}<2^{\mathfrak{n}}$ for all cardinals
+holds for every pair of cardinals, and erdosproblems.com records as open whether
+it follows from the Generalized Continuum Hypothesis. erdosproblems.com also
+records, from Galvin's paper, that the stronger form asking for an induced
+subgraph implies $2^{\mathfrak{k}}<2^{\mathfrak{n}}$ for all cardinals
 $\mathfrak{k}<\mathfrak{n}$, and credits Galvin with the case
 $\mathfrak{m}=\aleph_0$, which is empty under the statement's own quantifier, an
 infinite $\mathfrak{n}<\mathfrak{m}$. The only reading of that credit that is an
@@ -99,13 +99,14 @@ states Galvin's question for infinite cardinals $\mathfrak{m}>\mathfrak{n}$ and
 records from Galvin only that the induced-subgraph form fails if
 $2^{\aleph_0}>\aleph_1$.
 
-Search scope: the site's problem page and discussion thread (label NOT PROVABLE;
-comments of 30 September and 1 October 2025 supplying the Komjáth reference and
-discussing the label), the Crossref record of Komjáth's paper, Komjáth's 2011
-survey, the zbMATH record of Galvin's paper, and the papers of Shelah and of
-Erdős (1981). Komjáth's and Galvin's papers are not held in the library; the
-claim page rests on the refereed record, the site's account and Shelah's
-introduction. The community database records no formalization.
+Search scope: the erdosproblems.com problem page and discussion thread (label
+NOT PROVABLE; comments of 30 September and 1 October 2025 supplying the Komjáth
+reference and discussing the label), the Crossref record of Komjáth's paper,
+Komjáth's 2011 survey, the zbMATH record of Galvin's paper, and the papers of
+Shelah and of Erdős (1981). Komjáth's and Galvin's papers are not held in the
+library; the claim page rests on the refereed record, erdosproblems.com's
+account and Shelah's introduction. The community database records no
+formalization.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

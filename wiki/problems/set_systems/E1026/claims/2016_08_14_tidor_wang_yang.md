@@ -4,7 +4,8 @@ title: Tidor, Wang and Yang's weighted Erdős–Szekeres bound
 desc: |
   Tidor, Wang and Yang (2016) prove that distinct reals $x_i$ have a monotone
   subsequence with sum at least $(\sum_i\max(x_i,0)^2)^{1/2}$, which gives the
-  lower bound $c\ge1$. The site's curator credits this as the first proof.
+  lower bound $c\ge1$. The erdosproblems.com curator credits this as the first
+  proof.
 authors:
 - Jonathan Tidor
 - Victor Y. Wang
@@ -51,26 +52,28 @@ least $1/k$, and in the problem's modified Statement it gives $c(n)\ge n^{-1/2}$
 for every $n$, hence $c\ge1$.
 
 **Covers.** The lower bound $c\ge1$, through the inequality above for every
-$n$. The matching upper bound $c\le1$ is a construction posted in the site's
-thread, and the exact value of $c(n)$ for every $n$ is the claim of
+$n$. The matching upper bound $c\le1$ is a construction posted in the
+erdosproblems.com thread, and the exact value of $c(n)$ for every $n$ is the
+claim of
 [[problems/set_systems/E1026/claims/2025_12_07_alexeev|the full claim page]].
 
 **Earlier and later proofs of the same bound.** The second arXiv version
 acknowledges earlier work of Wagner,
 [[../library/set_systems/wagner_2017_large_subgraphs_rainbow_triangle_free_colorings/_index|Large subgraphs in rainbow-triangle free colorings]],
 whose tournament corollary generalizes the Erdős–Szekeres theorem to
-rainbow-triangle-free colorings; the site records the weighted bound as implicit
-in that paper, which proves the weighting step only for chromatic numbers over a
-Gallai partition (Claim 3.5, in the proof of its Theorem 3.1) and never states
-the bound for sequences, so Wagner has no claim page. In the site's thread on 8
-December 2025, Koishi Chan gave a proof of the $k^2$ statement by blowing each
-term up into many nearly equal copies and applying the Erdős–Szekeres theorem
-and Cauchy–Schwarz, which Alexeev's post identifies with the paper's Section 3
-argument; the thread then identified this paper as the first published proof. A
-thread post is not a manuscript and has no page.
+rainbow-triangle-free colorings; erdosproblems.com records the weighted bound as
+implicit in that paper, which proves the weighting step only for chromatic
+numbers over a Gallai partition (Claim 3.5, in the proof of its Theorem 3.1) and
+never states the bound for sequences, so Wagner has no claim page. In the
+erdosproblems.com thread on 8 December 2025, Koishi Chan gave a proof of the
+$k^2$ statement by blowing each term up into many nearly equal copies and
+applying the Erdős–Szekeres theorem and Cauchy–Schwarz, which Alexeev's post
+identifies with the paper's Section 3 argument; the thread then identified this
+paper as the first published proof. A thread post is not a manuscript and has no
+page.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labeled the problem
-solved. Bloom credits the first proof of the stronger conjecture to Tidor, Wang
-and Yang, with Wagner's paper as implicit prior work. Not refereed: on
-2026-10-06 the arXiv record listed two versions, of 14 August and 22 September
-2016, and no journal reference.
+**Acceptance.** Reviewed: Thomas Bloom, the erdosproblems.com curator, labeled
+the problem solved. Bloom credits the first proof of the stronger conjecture to
+Tidor, Wang and Yang, with Wagner's paper as implicit prior work. Not refereed:
+on 2026-10-06 the arXiv record listed two versions, of 14 August and 22
+September 2016, and no journal reference.

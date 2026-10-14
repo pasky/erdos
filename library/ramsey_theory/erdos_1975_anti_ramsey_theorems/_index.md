@@ -80,7 +80,7 @@ the second Theorem 6, which the paper does not prove. The proof of Theorem 3
 paper.
 
 The paper introduces f(n,H), the largest number of colors the edges of K^n
-can carry with no totally multicolored (rainbow) copy of H (the site's
+can carry with no totally multicolored (rainbow) copy of H (erdosproblems.com's
 AR(n,H)), and shows it is governed by Turán-type extremal numbers. Theorem 1
 gives f(n,H)/C(n,2) -> 1 - 1/d where d+1 = min over edges e of the chromatic
 number of H-e; Theorem 2 is the k-uniform hypergraph analog f_k(n,H) -
@@ -103,23 +103,22 @@ values of f(n,P^k) for k = 2t+3+ε in two ranges of n, (6) tn - C(t+1,2) +
 with the two extremal coloring types; Theorem 5 asserts it for n >=
 (5t+3+c)/2 with a constant c and Theorem 6 for all sufficiently large t, and
 the paper closes the passage with "The proofs of Theorems 5, 6, will be
-published later" -- both are announcements, and the site records that the
-proofs never appeared.
-A second, unrelated statement labeled Theorem 6 (an extremal number for
-graphs obtained from K_d(r,...,r) by adding k edges) appears in Section 3,
-p. 640. Method, per the paper's own account: Turán-type extremal graph theory
-plus a lemma relating rainbow-free colorings to the family {H-e}. This paper
-is the source of problem 1105: its first question is Conjecture 1 verbatim,
-and its second question is Conjecture 2 in the maximum form later proved by
-Yuan.
+published later" -- both are announcements, and erdosproblems.com records that
+the proofs never appeared. A second, unrelated statement labeled Theorem 6 (an
+extremal number for graphs obtained from K_d(r,...,r) by adding k edges) appears
+in Section 3, p. 640. Method, per the paper's own account: Turán-type extremal
+graph theory plus a lemma relating rainbow-free colorings to the family {H-e}.
+This paper is the source of problem 1105: its first question is Conjecture 1
+verbatim, and its second question is Conjecture 2 in the maximum form later
+proved by Yuan.
 
 Source: <https://users.renyi.hu/~p_erdos/1975-05.pdf>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1105/_index|#1105]]: Conjecture 1 (printed
 p. 636, PDF p. 4) is the problem's cycle question and Conjecture 2 (printed
 p. 637, PDF p. 5) its path question; Theorems 5--6 are the results whose
-announced proofs the site's commentary says never appeared, and part A of
-the Appendix (printed p. 642, PDF p. 10) is the proof of AR(n,C_3) = n - 1
+announced proofs the erdosproblems.com commentary says never appeared, and part
+A of the Appendix (printed p. 642, PDF p. 10) is the proof of AR(n,C_3) = n - 1
 the commentary mentions. Theorem 1 (printed p. 634) gives only
 f(n,C^k) = o(n^2) and f(n,P^k) = o(n^2), since d = 1 for cycles and paths
 with k >= 3 (Remark 2, p. 636), and does not reach the linear-order values the problem

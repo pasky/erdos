@@ -87,8 +87,8 @@ Crossref license is recorded; the term is unstated.
 - [[../wiki/problems/primes/E0855/_index|#855]]:
   [[additive_combinatorics/erdos_1957_unsolved_problems/problem_1|Problem 1]]
   (p. 291) asks the problem's inequality $\pi(x+y)\le\pi(x)+\pi(y)$, with no
-  range stated where the site says for large $x$ and $y$. The paper does not
-  resolve it.
+  range stated where erdosproblems.com says for large $x$ and $y$. The paper
+  does not resolve it.
 - [[../wiki/problems/additive_combinatorics/E0001/_index|#1]]: the closing
   guess of
   [[additive_combinatorics/erdos_1957_unsolved_problems/problem_11|Problem 11]]
@@ -121,8 +121,8 @@ Crossref license is recorded; the term is unstated.
   [[additive_combinatorics/erdos_1957_unsolved_problems/problem_28|Problem 28]]
   (p. 298) prints the conjecture $N(k)=2^k-1$, reports its disproof by de
   Bruijn and Erdős without a construction, and says it is not known whether
-  $N(4)$ is finite. In the paper's notation the site's Statement asks whether
-  $N(k)\le2^k-1$, and the modified Statement whether $N(k)\le2^k$.
+  $N(4)$ is finite. In the paper's notation the erdosproblems.com Statement asks
+  whether $N(k)\le2^k-1$, and the modified Statement whether $N(k)\le2^k$.
 
 **Results.**
 

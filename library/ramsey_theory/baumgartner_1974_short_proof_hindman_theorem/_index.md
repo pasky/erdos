@@ -109,9 +109,9 @@ positive-integer statement of Problem 532 once $0$ is assigned to either
 class, with nothing to remove from $X$ (an observation made on that page).
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0532/_index|#532]]: Theorem 1 with $k=2$,
-read as above, is the site's statement (any finite number of colors, as the
-site's commentary says); a proof behind the label, beside Hindman's own
-Theorem 3.1 (printed p. 9) on
+read as above, is the erdosproblems.com statement (any finite number of colors,
+as the erdosproblems.com commentary says); a proof behind the label, beside
+Hindman's own Theorem 3.1 (printed p. 9) on
 [[ramsey_theory/hindman_1974_finite_sums_sequences_within_cells_partition_n/theorem_3_1|theorem_3_1]].
 [[../wiki/problems/ramsey_theory/E0531/_index|#531]]: Theorem 1
 (printed p. 384 = PDF p. 1, page image) is Hindman's theorem, which the

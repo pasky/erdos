@@ -87,7 +87,7 @@ the edition read is named on the
   bounds the comparable pairs of every family of $m=2^{(1/2+\delta)n}$
   subsets by $O(m^{2-\beta'\delta^2})$, and the paper identifies that case
   as Daykin and Erdős's conjecture in Guy's miscellany, the problem's
-  source. The problem page records that the site credits the paper with
+  source. The problem page records that erdosproblems.com credits the paper with
   the answer yes to the third question. For $k=2$ the theorem bounds the comparable pairs of
   $2^{(1/3+\delta)n}$ sets by $\frac12\binom m2+O(m^{2-\beta'\delta^3})$;
   the paper does not state the first question.

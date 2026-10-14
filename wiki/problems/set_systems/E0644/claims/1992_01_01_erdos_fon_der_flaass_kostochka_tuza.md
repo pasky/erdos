@@ -40,7 +40,7 @@ results for $3\le r\le6$ from the paper
 ([[../library/set_systems/fon_der_flaass_et_al_1999_transversals_uniform_hypergraphs_property_7_2/_index|card]]).
 So $f(k,r)=(1+o(1))c_rk$ with $c_3=2$, $c_4=3/2$, $c_5=5/4$ and $c_6=1$, which
 answers the second question of [[problems/set_systems/E0644/_index|Problem
-644]] yes for these four values of $r$. The site's commentary prints
+644]] yes for these four values of $r$. The erdosproblems.com commentary prints
 $\lfloor3k/2\rfloor$ and $\lfloor5k/4\rfloor$; those floors fail already for
 $k=3$: every four of the triples of a 7-point set are met by two points,
 while a set meeting all of them needs five, so $f(3,4)\ge5$.
@@ -48,8 +48,8 @@ while a set meeting all of them needs five, so $f(3,4)\ge5$.
 **Covers.** The second question for $r=3,4,5,6$. The first question ($r=7$)
 and the second question for $r\ge7$ are not covered.
 
-**Acceptance.** Refereed: Siberian Adv. Math. 2 (1992), no. 1, 82–88. The site
-labeled the problem OPEN, so its commentary is not acceptance, and no `reviewed`
-evidence is listed.
+**Acceptance.** Refereed: Siberian Adv. Math. 2 (1992), no. 1, 82–88. Bloom's
+catalog labeled the problem OPEN, so its commentary is not acceptance, and no
+`reviewed` evidence is listed.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.

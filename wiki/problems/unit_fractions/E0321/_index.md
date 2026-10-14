@@ -24,25 +24,26 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** What is the size of the largest $A\subseteq \{1,\ldots,N\}$ such
 that all sums $\sum_{n\in S}\frac{1}{n}$ are distinct for $S\subseteq A$?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 16
-July 2026; source key [ErGr80, p.43]). Write $R(N)$ for the largest size of a
-set $A\subseteq\{1,\ldots,N\}$ whose $2^{|A|}$ subset sums $\sum_{n\in S}1/n$,
-$S\subseteq A$, are pairwise distinct; such a set is dissociated in the
-reciprocal sense, and equivalently no two disjoint non-empty subsets of $A$
-have equal reciprocal sums. Since the subset sums of such an $A$ are
-$2^{R(N)}$ distinct values among those counted by $S(N)$ in Problem 320,
-$2^{R(N)}\le S(N)$ (the inequality the site calls trivial). "What is the size"
-is read, as the site's resolution comment of 16 July 2026 reads it, as asking
-for the order of magnitude of $R(N)$; that comment leaves finer questions,
-such as an asymptotic, open, and no exact formula for $R(N)$ is known. The
-monograph writes $r(n)$. The exact values are OEIS A391592:
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 16 July 2026; source key [ErGr80, p.43]). Write $R(N)$ for the largest
+size of a set $A\subseteq\{1,\ldots,N\}$ whose $2^{|A|}$ subset sums
+$\sum_{n\in S}1/n$, $S\subseteq A$, are pairwise distinct; such a set is
+dissociated in the reciprocal sense, and equivalently no two disjoint non-empty
+subsets of $A$ have equal reciprocal sums. Since the subset sums of such an $A$
+are $2^{R(N)}$ distinct values among those counted by $S(N)$ in Problem 320,
+$2^{R(N)}\le S(N)$ (the inequality erdosproblems.com calls trivial). "What is
+the size" is read, as erdosproblems.com's resolution comment of 16 July 2026
+reads it, as asking for the order of magnitude of $R(N)$; that comment leaves
+finer questions, such as an asymptotic, open, and no exact formula for $R(N)$ is
+known. The monograph writes $r(n)$. The exact values are OEIS A391592:
 $R(N)=1,2,3,4,5,5,6,7,8,9,10,10,11,12,12,13,14,14,15,15,15,\ldots$, known for
-$N\le54$; the first sixteen were recomputed here by exhaustive search. The
-site's displayed asymptotic contains a slip, $\prod_{j=3}^k\log_kN$ for
-$\prod_{j=3}^k\log_jN$.
+$N\le54$; the first sixteen were recomputed here by exhaustive search.
+erdosproblems.com's displayed asymptotic contains a slip, $\prod_{j=3}^k\log_kN$
+for $\prod_{j=3}^k\log_jN$.
 
-**Status.** Solved, in the site's label, which the site glosses as a resolution
-other than a proof or disproof, for the order of magnitude
+**Status.** Solved, in the erdosproblems.com label, which erdosproblems.com
+glosses as a resolution other than a proof or disproof, for the order of
+magnitude
 
 $$
 R(N)\ \asymp\ \log S(N)\ \asymp\ \frac{N}{\log N}\prod_{j=3}^{k}\log_jN,\qquad \log_kN=O(1).
@@ -56,24 +57,26 @@ bounds, linked under Progress and known results.
 
 The lower bound is refereed and is written out below. Bleicher and Erdős's set
 of products of rapidly growing primes (1975) has distinct subset reciprocal sums
-and gives the site's displayed lower bound. The set $\mathcal U(N)$ in Bettin,
-Grenié, Molteni and Sanna's proof (Math. Comp., online 22 January 2026) has the
-same property. It gives
+and gives erdosproblems.com's displayed lower bound. The set $\mathcal U(N)$ in
+Bettin, Grenié, Molteni and Sanna's proof (Math. Comp., online 22 January 2026)
+has the same property. It gives
 $R(N)\ge2(1-\frac{3/2}{\log_kN})\frac{N}{\log N}\prod_{j=3}^k\log_jN$, a bound
-the paper does not state and the site calls implicit in it. The refereed upper
-bound is $R(N)\le\log S(N)/\log2$ with Bleicher and Erdős's 1976 Theorem 3, and
-it carries the extra factor $\log_rN$. The upper bound of the same order as the
-lower is the bound for $\log S(N)$ obtained with the AI system GPT 5.6 Sol Pro
-and accepted by the site on Problem 320 (claim of 15 July 2026, unrefereed). The
-accepted claim on this page's tab restates it for this problem.
+the paper does not state and erdosproblems.com calls implicit in it. The
+refereed upper bound is $R(N)\le\log S(N)/\log2$ with Bleicher and Erdős's 1976
+Theorem 3, and it carries the extra factor $\log_rN$. The upper bound of the
+same order as the lower is the bound for $\log S(N)$ obtained with the AI system
+GPT 5.6 Sol Pro and accepted by erdosproblems.com on Problem 320 (claim of 15
+July 2026, unrefereed). The accepted claim on this page's tab restates it for
+this problem.
 
 **Source.** [erdosproblems.com/321](https://www.erdosproblems.com/321),
 accessed 2026-09-18: the problem page (SOLVED; source key [ErGr80, p.43]; last
 edited 16 July 2026; OEIS A384927 and A391592 linked), its ten-comment
 discussion thread (24 November 2025 to 16 July 2026) and its proof-claim tab
-with one full-proof claim (15 July 2026), marked accepted by the site. The
-site cites [BlEr75], [BlEr76b] and [BGMS25] in its commentary and thanks Boris
-Alexeev, Zachary Hunter, and Dustin Mixon. Cite as: T. F. Bloom, Erdős Problem
+with one full-proof claim (15 July 2026), marked accepted by erdosproblems.com.
+erdosproblems.com cites [BlEr75], [BlEr76b] and [BGMS25] in its commentary and
+thanks Boris Alexeev, Zachary Hunter, and Dustin Mixon. Cite as: T. F. Bloom,
+Erdős Problem
 #321, https://www.erdosproblems.com/321, accessed 2026-09-18.
 
 **References.**
@@ -123,19 +126,20 @@ Bleicher--Erdős bounds under `category research solved`, both `sorry`:
 with $\log_kN\ge k$, and `variants.upper`,
 $R(N)\le\frac1{\log2}\log_rN\frac{N}{\log N}\prod_{i=3}^r\log_iN$ for $r\ge1$
 with $\log_iN\ge1$ for all $i\le2r$. The file's categories were not updated
-for the site's July 2026 resolution, and no declaration carries a
+for erdosproblems.com's July 2026 resolution, and no declaration carries a
 `formal_proof` attribute (main on 2026-10-07). The community database (read
 2026-10-06) records the statement as formalized, with 6 October 2025 as that
 entry's last-update date, formal status unformalized, status solved as of the
 status entry's last update on 31 August 2025, OEIS A384927 and A391592. Nothing
-in the file has been built by this corpus, and the site's label carried no Lean
-suffix.
+in the file has been built by this corpus, and the erdosproblems.com label
+carried no Lean suffix.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-SOLVED; last edited 16 July 2026. The site's commentary writes $R(N)$ for the
-maximal size and records the bounds that [BlEr75] and [BlEr76b] imply,
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; SOLVED; last edited 16 July 2026. The erdosproblems.com
+commentary writes $R(N)$ for the maximal size and records the bounds that
+[BlEr75] and [BlEr76b] imply,
 $\frac{N}{\log N}\prod_{i=3}^k\log_iN\le R(N)\le\frac1{\log2}\log_rN\bigl(\frac{N}{\log N}\prod_{i=3}^r\log_iN\bigr)$
 for $k\ge4$ with $\log_kN\ge k$ and $r\ge1$ with $\log_{2r}N\ge1$; notes the
 trivial inequality $2^{R(N)}\le S(N)$ with the $S(N)$ of Problem 320; states
@@ -192,8 +196,8 @@ $R(N)$.
    Hence $R(N)\ge Q(N)\ge Q_k(N)\ge\frac{N}{\log N}\prod_{j=3}^{k+1}\log_jN$
    for $\log_{k+1}N\ge k+1$
    ([[../library/unit_fractions/bleicher_1975_number_distinct_subsums_sum_n_1/theorem_p30|the theorem of p. 30]]),
-   which is the site's displayed lower bound with $k+1$ renamed $k$ and the
-   monograph's attribution. Read depth: claims checked for both theorems and
+   which is erdosproblems.com's displayed lower bound with $k+1$ renamed $k$ and
+   the monograph's attribution. Read depth: claims checked for both theorems and
    the Lemma; proofs not verified.
 2. Bettin, Grenié, Molteni and Sanna (2025; Math. Comp. 2026). Their proof
    of [[../library/unit_fractions/bettin_2025_lower_bound_number_egyptian_fractions/theorem_1|Theorem 1]]
@@ -211,8 +215,8 @@ $R(N)$.
    $$
    R(N)\ \ge\ |\mathcal U(N)|\ \ge\ 2\Bigl(1-\frac{3/2}{\ln_kN}\Bigr)\frac{N}{\ln N}\prod_{j=3}^{k}\ln_jN,
    $$
-   which is the lower bound the site calls implicit in that work and the
-   lower bound of the accepted claim, whose summary takes it from the same
+   which is the lower bound erdosproblems.com calls implicit in that work and
+   the lower bound of the accepted claim, whose summary takes it from the same
    dissociated set; the accepted claim's Lean file
    proves the finite half of this (`BGMSU_dissociated`,
    `pow_card_BGMSU_le_harmonic_subsetSums`). The theorem is refereed
@@ -224,20 +228,20 @@ $R(N)$.
 [[../library/unit_fractions/bleicher_1976_denominators_egyptian_fractions_ii/theorem_3|Theorem 3 of [BlEr76b]]]
 (p. 610) give
 $R(N)\le\frac1{\log2}\frac{N\log_rN}{\log N}\prod_{j=3}^r\log_jN$ for $r\ge1$
-and $\log_{2r}N\ge1$, the site's displayed upper bound. Its ratio to the
-refereed lower bounds is unbounded in $N$ (the factor $\log_rN$ is a tower
+and $\log_{2r}N\ge1$, erdosproblems.com's displayed upper bound. Its ratio to
+the refereed lower bounds is unbounded in $N$ (the factor $\log_rN$ is a tower
 above the iterated logarithms that separate the two products, as the Problem
 320 page explains), so the refereed results determine $R(N)$ only up to such a
-factor. The matching upper bound is the site-accepted bound, obtained with an
-AI system, $\log S(N)\ll\frac{N}{\log N}\prod_{j=3}^k\log_jN$ ($\log_kN=O(1)$)
-of Problem 320, whose account and provenance are on that page; through
-$R(N)\le\log S(N)/\log2$ it gives $R(N)\asymp\log S(N)$ and answers the
+factor. The matching upper bound is the erdosproblems.com-accepted bound,
+obtained with an AI system, $\log S(N)\ll\frac{N}{\log N}\prod_{j=3}^k\log_jN$
+($\log_kN=O(1)$) of Problem 320, whose account and provenance are on that page;
+through $R(N)\le\log S(N)/\log2$ it gives $R(N)\asymp\log S(N)$ and answers the
 monograph's rider question in the negative.
 
 **The accepted claim (provenance recorded, not judged).** The proof-claim tab
 lists a full-proof claim submitted 2026-07-15 23:49:54 by the account RayYoung
-for RayYoung, Keheng Zhu and Yanping Luo, marked on the tab as accepted by the
-site as correct. Its summary asserts that $R(N)$ has order
+for RayYoung, Keheng Zhu and Yanping Luo, marked on the tab as accepted by
+erdosproblems.com as correct. Its summary asserts that $R(N)$ has order
 $\frac{N}{\log N}\prod_{j=3}^{\kappa(N)}\log_jN$: the upper bound comes from
 $2^{R(N)}\le S(N)$ and the claimants' bound for $\log S(N)$, a route the
 summary presents as growing out of Erdős's ideas, and the lower bound from the
@@ -282,9 +286,10 @@ the seventy-six most recent abstracts mentioning Egyptian or unit fractions
 30, 39, 40 and 42 of [BlEr75]. Not searched: MathSciNet, zbMATH, Google
 Scholar, X. No refereed proof of the matching upper bound was found.
 
-**Remaining gaps.** (1) The matching upper bound is the site-accepted
-claim of Problem 320, obtained with an AI system; without it the refereed bounds determine
-$R(N)$ only up to an unbounded iterated-logarithm factor. (2) No source gives an asymptotic for $R(N)$ or its
+**Remaining gaps.** (1) The matching upper bound is the
+erdosproblems.com-accepted claim of Problem 320, obtained with an AI system;
+without it the refereed bounds determine $R(N)$ only up to an unbounded
+iterated-logarithm factor. (2) No source gives an asymptotic for $R(N)$ or its
 leading constant; the Kominers--Neu claim on Problem 320 concerns
 $\log S(N)$, not $R(N)$. (3) The monograph's further questions, maximal
 dissociated sets with as few elements as possible and the multiplicative
@@ -313,8 +318,8 @@ the two dissociation deductions above are author-recorded.
   $R(N)\ge2(1-\frac{3/2}{\log_kN})\frac{N}{\log N}\prod_{j=3}^k\log_jN$ for
   $k\ge4$, $\log_kN\ge3/2$ (deduction above). Claim page:
   [[problems/unit_fractions/E0321/claims/2025_09_12_bettin_grenie_molteni_sanna|the dissociated set of the right size]].
-- Young, Zhu and Luo (2026; obtained with GPT 5.6 Sol Pro; site-accepted,
-  unrefereed):
+- Young, Zhu and Luo (2026; obtained with GPT 5.6 Sol Pro;
+  erdosproblems.com-accepted, unrefereed):
   $R(N)\asymp\log S(N)\asymp\frac{N}{\log N}\prod_{j=3}^k\log_jN$ with
   $\log_kN=O(1)$, through the upper bound of
   [[problems/unit_fractions/E0320/_index|Problem 320]].

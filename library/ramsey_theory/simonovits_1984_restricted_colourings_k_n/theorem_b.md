@@ -102,7 +102,7 @@ among them.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1105/_index|Problem 1105]]: the path formula proved
-  for $t\ge5$ (paths on at least $13$ vertices) and $n>ct^2$, the range the
-  site quotes as $n\ge ck^2$; the full range $n\ge k\ge5$ is Yuan's
+  for $t\ge5$ (paths on at least $13$ vertices) and $n>ct^2$, the range
+  erdosproblems.com quotes as $n\ge ck^2$; the full range $n\ge k\ge5$ is Yuan's
   ([[ramsey_theory/yuan_2021_anti_ramsey_numbers_paths/theorem_1|theorem_1]]);
   the cycle formula is called unsettled for $k\ge5$ on p. 102.

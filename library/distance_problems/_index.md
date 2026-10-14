@@ -3,7 +3,7 @@ name: distance_problems
 title: "Distance Problems"
 desc: "Sources filed under Distance Problems, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:17:13Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Distance Problems
@@ -76,8 +76,8 @@ distances distinct.
 the missing denominator hypothesis and the valid undivided inequality.
 
 [[distance_problems/chojecki_2026_erdos_problem_655_natural_repairs_exact/_index|chojecki_2026_erdos_problem_655_natural_repairs_exact/]]: Shows the regular n-gon is exactly extremal under the local circle condition
-of Erdős problem 655, so the site's wording, and every repair that still
-admits the regular n-gon, is false.
+of Erdős problem 655, so the erdosproblems.com wording, and every repair that
+still admits the regular n-gon, is false.
 
 [[distance_problems/chojecki_2026_order_growth_planar_sets_avoiding_integer/_index|chojecki_2026_order_growth_planar_sets_avoiding_integer/]]: Proves that a measurable planar set in a disk of radius R avoiding integer
 distances has measure at most order square root of R, which with Sárközy's

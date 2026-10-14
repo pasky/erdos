@@ -69,6 +69,6 @@ cites as well known.
 - [[../wiki/problems/ramsey_theory/E0555/_index|Problem 555]]: the case $n=2$, where the
   lower bound $k^2+2$ now holds for every prime power $k$ (odd ones
   second-hand from Lazebnik and Woldar), against the Chung--Graham upper
-  bound $k^2+k+1$ recorded on the site.
+  bound $k^2+k+1$ recorded on erdosproblems.com.
 - [[../wiki/problems/ramsey_theory/E0558/_index|Problem 558]]: the case $s=t=2$ of the
   general problem.

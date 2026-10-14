@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1090, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/discrete_geometry/E1090/claims
@@ -18,6 +18,6 @@ one is recorded.
 [[problems/discrete_geometry/E1090/claims/2025_10_17_hunter|2025_10_17_hunter]]: Zach Hunter shows that for every $k\ge3$, a generic plane projection of the
 cube $[k]^n$, with $n$ large by the Hales–Jewett theorem, has in every
 two-coloring a line holding at least $k$ of its points, all of one color. The
-argument was posted in the site's comments.
+argument was posted in the erdosproblems.com comments.
 
 ***

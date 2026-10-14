@@ -89,19 +89,20 @@ even layers).
 ## Dependencies
 
 Self-contained; the layer argument of Lemma 1.1 is the "simple argument"
-of the abstract and the site commentary's $(\tfrac23+o(1))N$ bound.
+of the abstract and erdosproblems.com commentary's $(\tfrac23+o(1))N$ bound.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0867/_index|Problem 867]]: the site's upper
-  bound $|A|\le(\tfrac23-\tfrac1{512})N+\log N$, read here with the paper's
-  own term $3\log_4n-1/2$; the figure is $1/512$ as the site, its thread
-  and the formal-conjectures variant `coppersmith_phillips_upper_bound`
-  print it, not the $1/3584$ of Freud's report. Read literally, the
-  site's $(\tfrac23-\tfrac1{512})N+\log N$ is smaller than the printed
-  bound for every $N\ge2$, since $\lfloor N/512\rfloor\le N/512$ and
-  $3\log_4N-\tfrac12$ exceeds the natural logarithm $\log N$ from $N=2$ on; the
-  theorem gives the density $\tfrac23-\tfrac1{512}$ with an error of order
-  $\log N$, and does not give that variant's $+\log N$ form. With Theorem 2.1
-  the maximal density lies in $[\tfrac{13}{24},\tfrac23-\tfrac1{512}]$; its
-  exact value is the paper's Open Question 1 and not the site's question.
+- [[../wiki/problems/additive_combinatorics/E0867/_index|Problem 867]]:
+  erdosproblems.com's upper bound $|A|\le(\tfrac23-\tfrac1{512})N+\log N$, read
+  here with the paper's own term $3\log_4n-1/2$; the figure is $1/512$ as
+  erdosproblems.com, its thread and the formal-conjectures variant
+  `coppersmith_phillips_upper_bound` print it, not the $1/3584$ of Freud's
+  report. Read literally, erdosproblems.com's $(\tfrac23-\tfrac1{512})N+\log N$
+  is smaller than the printed bound for every $N\ge2$, since
+  $\lfloor N/512\rfloor\le N/512$ and $3\log_4N-\tfrac12$ exceeds the natural
+  logarithm $\log N$ from $N=2$ on; the theorem gives the density
+  $\tfrac23-\tfrac1{512}$ with an error of order $\log N$, and does not give
+  that variant's $+\log N$ form. With Theorem 2.1 the maximal density lies in
+  $[\tfrac{13}{24},\tfrac23-\tfrac1{512}]$; its exact value is the paper's Open
+  Question 1 and not the erdosproblems.com question.

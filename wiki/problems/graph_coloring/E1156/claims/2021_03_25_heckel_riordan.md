@@ -48,6 +48,6 @@ long intervals only for infinitely many $n$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: J. London Math. Soc. (2) 108 (2023), no. 5,
-1769-1815, doi:10.1112/jlms.12794. The site labeled the problem OPEN, so its
-commentary crediting the result is not `reviewed` evidence. The proof is not
+1769-1815, doi:10.1112/jlms.12794. Bloom's catalog labeled the problem OPEN, so
+its commentary crediting the result is not `reviewed` evidence. The proof is not
 checked in this corpus.

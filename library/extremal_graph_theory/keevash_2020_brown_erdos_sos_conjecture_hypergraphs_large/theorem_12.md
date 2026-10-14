@@ -65,9 +65,9 @@ of the same paper, as the base case.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the
-  analogue, for every exponent $t\ge2$, of the conjecture in the site's
-  commentary, restricted to $t$-linear $r$-graphs with $r\ge r_0(\varepsilon,t)$
-  and with the vertex count $(r-2)k+t+1$ in place of $(r-t)k+t+1$ (the
-  paper's letters: $k$ edges, where the problem page writes $s$); for
-  $t\ge3$ it therefore does not prove that conjecture's $t$-linear case, and
-  for $t=2$ it is Theorem 3.
+  analogue, for every exponent $t\ge2$, of the conjecture in the
+  erdosproblems.com commentary, restricted to $t$-linear $r$-graphs with
+  $r\ge r_0(\varepsilon,t)$ and with the vertex count $(r-2)k+t+1$ in place of
+  $(r-t)k+t+1$ (the paper's letters: $k$ edges, where the problem page writes
+  $s$); for $t\ge3$ it therefore does not prove that conjecture's $t$-linear
+  case, and for $t=2$ it is Theorem 3.

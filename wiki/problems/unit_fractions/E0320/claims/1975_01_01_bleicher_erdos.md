@@ -38,7 +38,7 @@ This is
 [[../library/unit_fractions/bleicher_1975_number_distinct_subsums_sum_n_1/corollary_3|Corollary 3]]
 of the paper (p. 40), which states it for $k\ge3$ and
 $\log_{k+1}N\ge k+1$ with the product to $k+1$; the form above, with $k+1$
-renamed $k$, is the one the site prints for
+renamed $k$, is the one erdosproblems.com prints for
 [[problems/unit_fractions/E0320/_index|Problem 320]]. The paper derives it
 from its theorem $S(N)\ge2^{Q(N)}$ (p. 39) and its count of the integers
 $p_1\cdots p_k\le N$ built from rapidly growing primes (p. 30).

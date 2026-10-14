@@ -24,8 +24,8 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Let $n\geq 2$. Is there a space $S$ of dimension $n$ such that
 $S^2$ also has dimension $n$?
 
-**Status.** Proved, on the site's label. The site credits Anderson and Keisler's
-1967 construction for the general case (see the
+**Status.** Proved, on the erdosproblems.com label. erdosproblems.com credits
+Anderson and Keisler's 1967 construction for the general case (see the
 [[problems/analysis/E0909/claims/1967_01_24_anderson_keisler|claim page]]).
 
 **Source.** [erdosproblems.com/909](https://www.erdosproblems.com/909), accessed
@@ -40,10 +40,10 @@ https://www.erdosproblems.com/909.
   publisher (read 2026-10-07).
 
 **Formalization.** No statement file for the problem exists in
-formal-conjectures (none on `main` on 2026-10-07; the site's indicator reads
-"Formalised statement? No", and the community database records the problem
-proved and unformalized). A
-[Lean formalization](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos909.lean)
+formal-conjectures (none on `main` on 2026-10-07; the erdosproblems.com
+indicator reads "Formalised statement? No", and the community database records
+the problem proved and unformalized). A [Lean
+formalization](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos909.lean)
 of Anderson and Keisler's result in Boris Alexeev's lean-proofs repository,
 naming R. D. Anderson and J. E. Keisler as its informal authors and Codex and
 GPT-5.6 Sol as its formal authors, is linked on the
@@ -53,11 +53,11 @@ and the curator's credit.
 
 ## Current assessment
 
-Search scope: the site's problem page (which labeled the problem proved, as
-accessed 2026-09-04, and credited Anderson and Keisler for the general case;
-its proof-claim tab was empty, and its discussion thread was empty on
-2026-10-07); formal-conjectures, which had no statement file for the problem on
-that date; the community database, which records the problem proved and
+Search scope: the erdosproblems.com problem page (which labeled the problem
+proved, as accessed 2026-09-04, and credited Anderson and Keisler for the
+general case; its proof-claim tab was empty, and its discussion thread was empty
+on 2026-10-07); formal-conjectures, which had no statement file for the problem
+on that date; the community database, which records the problem proved and
 unformalized, as of its last update, dated 31 August 2025; Boris Alexeev's
 lean-proofs repository, which holds the file
 `src/latest/ErdosProblems/Erdos909.lean`, added on 20 August 2026 and linked

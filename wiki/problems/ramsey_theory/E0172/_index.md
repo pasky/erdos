@@ -26,9 +26,9 @@ updated: 2026-10-08T02:16:54Z
 exist arbitrarily large finite $A$ such that all sums and products of distinct
 elements in $A$ are the same colour?
 
-**Formulation.** The site's wording (page last edited 6 April 2026). Read as in
-Hindman's conjecture (Alweiss, Conjecture 1.1): for every finite coloring and
-every $n\ge2$ there are $x_1,\ldots,x_n$ such that all the numbers
+**Formulation.** The erdosproblems.com wording (page last edited 6 April 2026).
+Read as in Hindman's conjecture (Alweiss, Conjecture 1.1): for every finite
+coloring and every $n\ge2$ there are $x_1,\ldots,x_n$ such that all the numbers
 $\sum_{i\in S}x_i$ and $\prod_{i\in S}x_i$, over nonempty $S\subseteq[n]$, have
 the same color; the singletons put the $x_i$ themselves in that color. The case
 $n=2$ is the four-element pattern $\{x,y,x+y,xy\}$. The infinite version, an
@@ -37,17 +37,17 @@ not the problem: Theorem 2.14 of [Hi80] (p. 117) gives a two-cell partition of
 $\mathbb{N}$ under which no infinite set inside a cell has all its finite
 products and pairwise sums in that cell, and Theorem 2.15 (p. 118) a seven-cell
 partition under which no infinite set inside a cell has all its pairwise sums
-and pairwise products in that cell, the seven-color statement the site and
-[ErGr79] report; its two-color form is
+and pairwise products in that cell, the seven-color statement erdosproblems.com
+and [ErGr79] report; its two-color form is
 [[problems/ramsey_theory/E1198/_index|Problem 1198]]. The formal-conjectures
 statement uses the reading above.
 
-**Status.** OPEN, the site's label (page last edited 6 April 2026). The derived
-standing is claimed, through the claim page of a preprint that appeared after
-the search described here. That search, whose scope the Current assessment
-records, found no proof or disproof of the statement over $\mathbb{N}$. The
-strongest results are these. The case $n=2$ for two colors was proved by
-computer in
+**Status.** OPEN, the erdosproblems.com label (page last edited 6 April 2026).
+The derived standing is claimed, through the claim page of a preprint that
+appeared after the search described here. That search, whose scope the Current
+assessment records, found no proof or disproof of the statement over
+$\mathbb{N}$. The strongest results are these. The case $n=2$ for two colors was
+proved by computer in
 [[problems/ramsey_theory/E0172/claims/1979_01_01_hindman|Hindman 1979]] and
 without a computer in Bowen 2022, both refereed. Moreira 2017 (refereed) proved
 the pattern $\{x,x+y,xy\}$ for all finite colorings. Over $\mathbb{Q}$ the full
@@ -66,11 +66,11 @@ audited here. The curator's blog post
 that the release gives no formal proof of it.
 
 **Source.** [erdosproblems.com/172](https://www.erdosproblems.com/172),
-accessed 2026-09-17: the problem page (OPEN, with the site's note that the
-problem is open and not decidable by a finite computation; last edited 6
-April 2026; source keys [Er77c], [ErGr79], [ErGr80]; commentary citing
-[Hi80], [Mo17], [Al23], [BoSa22] and Problem 1198), its empty discussion
-thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
+accessed 2026-09-17: the problem page (OPEN, with the erdosproblems.com note
+that the problem is open and not decidable by a finite computation; last edited
+6 April 2026; source keys [Er77c], [ErGr79], [ErGr80]; commentary citing [Hi80],
+[Mo17], [Al23], [BoSa22] and Problem 1198), its empty discussion thread and its
+empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #172, https://www.erdosproblems.com/172, accessed 2026-09-17.
 
 **References.**
@@ -118,9 +118,9 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   Library home:
   [[../library/ramsey_theory/bowen_2022_monochromatic_products_sums_rationals/_index|bowen_2022_monochromatic_products_sums_rationals]].
 - [Al23] Alweiss, R., Monochromatic sums and products over $\mathbb{Q}$ (the
-  site's reference entry describes it as the rational case of Hindman's
-  conjecture). arXiv:2307.08901, v1 18 July 2023 to v6 12 July 2026; the
-  v6 arXiv comment reads "accepted in Duke Math Journal"; no journal record
+  erdosproblems.com reference entry describes it as the rational case of
+  Hindman's conjecture). arXiv:2307.08901, v1 18 July 2023 to v6 12 July 2026;
+  the v6 arXiv comment reads "accepted in Duke Math Journal"; no journal record
   found. Library home:
   [[../library/ramsey_theory/alweiss_2023_monochromatic_sums_products_over/_index|alweiss_2023_monochromatic_sums_products_over]].
 - [Bo22] Bowen, M., Monochromatic products and sums in 2-colorings of
@@ -167,7 +167,7 @@ open, and no formal proof. Nothing was built or audited here.
 
 ## Current assessment
 
-**The question.** The site (accessed 2026-09-17) states the problem as
+**The question.** erdosproblems.com (accessed 2026-09-17) states the problem as
 above, showed OPEN, cites [Er77c], [ErGr79] and [ErGr80], and in its
 commentary attributes the question to Hindman, records that Hindman [Hi80]
 disproved the version asking for an infinite $A$ with seven colors, and
@@ -301,7 +301,7 @@ $\mathbb{Q}$.
 **Search scope.** None of the routes below found a proof,
 disproof, preprint or claim resolving the statement over $\mathbb{N}$.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database
   record.
 - arXiv abstract pages for 2307.08901 (six versions; v6 comment "accepted in

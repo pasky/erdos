@@ -5,7 +5,7 @@ desc: |
   Michelen and Sawhney prove that a randomly signed power series with
   coefficients of size $o(1/\sqrt n)$ almost surely converges at some point of
   the unit circle. The set of such points almost surely has Hausdorff dimension
-  one, and the site credits the result.
+  one, and erdosproblems.com credits the result.
 authors:
 - Marcus Michelen
 - Mehtaab Sawhney
@@ -41,8 +41,8 @@ $1$. The question's hypotheses, real $a_n$ with $\sum\lvert
 a_n\rvert^2=\infty$ and $\lvert a_n\rvert=o(1/\sqrt n)$, are a special
 case of the theorem's, which needs neither the divergence of $\sum\lvert
 a_n\rvert^2$ nor any monotonicity of $\lvert a_n\rvert$; so the theorem
-answers the question as the site states it, and also under the stronger
-reading with $\lvert a_{n+1}\rvert\le\lvert a_n\rvert$ that the site
+answers the question as erdosproblems.com states it, and also under the stronger
+reading with $\lvert a_{n+1}\rvert\le\lvert a_n\rvert$ that erdosproblems.com
 raises as a possible intention of Erdős. The proof works along a sparse
 sequence of scales $N_1<N_2<\cdots$ whose ratios $N_{i+1}/N_i$ tend to
 infinity, between $(\log N_i)^{\omega(1)}$ and $N_i^{o(1)}$, controls the
@@ -50,11 +50,11 @@ partial sums at each scale, replaces the random signs by Gaussian
 coefficients through a Lindeberg comparison and applies the Gaussian
 correlation inequality. The theorem statements follow the card's digest.
 
-**Acceptance.** Reviewed: on erdosproblems.com/527, the site's curator, Thomas
-Bloom, labeled the problem PROVED and credits this paper. The community database
-agrees and has recorded the problem as proved since 8 September 2025. The paper
-is a preprint. On 2026-10-07 its arXiv record listed no journal reference, so
-`refereed` is not listed. No independent review is recorded in this repository
-and none is claimed.
+**Acceptance.** Reviewed: on erdosproblems.com/527, the erdosproblems.com
+curator, Thomas Bloom, labeled the problem PROVED and credits this paper. The
+community database agrees and has recorded the problem as proved since 8
+September 2025. The paper is a preprint. On 2026-10-07 its arXiv record listed
+no journal reference, so `refereed` is not listed. No independent review is
+recorded in this repository and none is claimed.
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own.

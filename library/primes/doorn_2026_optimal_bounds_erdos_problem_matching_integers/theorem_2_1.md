@@ -74,6 +74,6 @@ and
   the exact value of the $f(m)$ that the problem asks to estimate, under the
   paper's definition (any $m$-set of positive integers, open interval
   $(x,x+2\max A)$); the problem page records how that definition relates to
-  the site's wording. Since $\min(m,\lceil2\sqrt m\,\rceil)>\sqrt m$ for
-  every $m\ge2$, it also answers the displayed question $f(m)\le\sqrt m$ in
+  the erdosproblems.com wording. Since $\min(m,\lceil2\sqrt m\,\rceil)>\sqrt m$
+  for every $m\ge2$, it also answers the displayed question $f(m)\le\sqrt m$ in
   the negative for those $m$ (an observation made here, not printed).

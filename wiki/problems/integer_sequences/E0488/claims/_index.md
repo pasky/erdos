@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 488, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0488/claims
@@ -21,17 +21,18 @@ with 5.5 Pro, claims the doubling inequality holds for $A=\{2u,3v,uv\}$ with
 $\gcd(u,v)=1$, $v\ge3$ odd, $u\ge4$ and $3\nmid u$, for all $m>n\ge uv$.
 
 [[problems/integer_sequences/E0488/claims/2026_08_27_ewing|2026_08_27_ewing]]: A partial claim by Lucas Ewing, made with GPT 5.6, was published 27 August
-2026 and submitted to the site's tab the next day. It is a computer-assisted
-candidate proof of the doubling inequality for sets with at most seven
-primitive elements.
+2026 and submitted to the erdosproblems.com tab the next day. It is a
+computer-assisted candidate proof of the doubling inequality for sets with at
+most seven primitive elements.
 
 [[problems/integer_sequences/E0488/claims/2026_09_05_gessel|2026_09_05_gessel]]: Declan Gessel's full proof claim of 5 September 2026, made with GPT-6 Astra,
 asserts that the doubling inequality fails for the 257-smooth integers in
-$(T,256T]$ at some scale $T$. It comes with a Lean file, and the site has not
-examined it.
+$(T,256T]$ at some scale $T$. It comes with a Lean file, and erdosproblems.com
+has not examined it.
 
 [[problems/integer_sequences/E0488/claims/2026_09_05_shoal_rat|2026_09_05_shoal_rat]]: A partial claim made with GPT-6 Astra, published on 5 September 2026 under the
-handle shoal-rat and submitted to the site's tab on 29 September, asserts that
-the inequality holds for primitive sets whose excess at $n$ is at most 15.
+handle shoal-rat and submitted to the erdosproblems.com tab on 29 September,
+asserts that the inequality holds for primitive sets whose excess at $n$ is at
+most 15.
 
 ***

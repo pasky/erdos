@@ -56,6 +56,6 @@ carries the first of January.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Acta Arithmetica (the paper thanks its referee). The
-site labeled the problem OPEN, so its commentary crediting the paper is not
-acceptance.
+**Acceptance.** Refereed: Acta Arithmetica (the paper thanks its referee).
+Bloom's catalog labeled the problem OPEN, so its commentary crediting the paper
+is not acceptance.

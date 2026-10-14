@@ -55,6 +55,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0572/_index|Problem 572]]: the site's
-  [Er74c, p. 78] source; the upper bound, Erdős's own account of its proof,
-  and his 1974 record that sharpness was known only for $k=2$ and $k=3$.
+- [[../wiki/problems/extremal_graph_theory/E0572/_index|Problem 572]]:
+  erdosproblems.com's [Er74c, p. 78] source; the upper bound, Erdős's own
+  account of its proof, and his 1974 record that sharpness was known only for
+  $k=2$ and $k=3$.

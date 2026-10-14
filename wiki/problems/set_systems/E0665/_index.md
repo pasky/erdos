@@ -37,20 +37,21 @@ $$
 for all $1\leq i\leq m$?
 
 **Status.** Labeled open on erdosproblems.com (label OPEN; page last edited 18
-January 2026). No unconditional result settles the question. The site records
-the question as Erdős and Larson's. It also records Erdős's wider question: find
-the slowest-growing $h$ such that, for all large $n$, some pairwise balanced
-design has $|A_i|>n^{1/2}-h(n)$ for every block. Erdős and Larson [ErLa82] reach
-$h(n)\ll n^{1/2-c}$ for some $c>0$, and $h(n)\ll(\log n)^2$ under a Cramér-type
-bound on prime gaps. Shrikhande and Singhi [ShSi85] embed every large design
-with blocks of size at least $n^{1/2}-c$ in a projective plane. So the answer is
-no if every projective plane has prime power order. The site adds that, with
-$H(n)$ the largest gap between consecutive primes up to $n$, these results give
-$H(n)\asymp h(n)$ under the prime power conjecture. That compares $h$ with the
-wrong gaps, since both theorems concern primes and plane orders near $n^{1/2}$.
-Let $p$ be the least prime with $p^2+p+1\ge n$. Erdős and Larson's design from
-the plane of order $p$ has blocks of size at least $p-r-2$, where
-$rp\le p^2+p-n$ ([ErLa82] pp. 130--131, recorded under
+January 2026). No unconditional result settles the question. erdosproblems.com
+records the question as Erdős and Larson's. It also records Erdős's wider
+question: find the slowest-growing $h$ such that, for all large $n$, some
+pairwise balanced design has $|A_i|>n^{1/2}-h(n)$ for every block. Erdős and
+Larson [ErLa82] reach $h(n)\ll n^{1/2-c}$ for some $c>0$, and
+$h(n)\ll(\log n)^2$ under a Cramér-type bound on prime gaps. Shrikhande and
+Singhi [ShSi85] embed every large design with blocks of size at least
+$n^{1/2}-c$ in a projective plane. So the answer is no if every projective plane
+has prime power order. erdosproblems.com adds that, with $H(n)$ the largest gap
+between consecutive primes up to $n$, these results give $H(n)\asymp h(n)$ under
+the prime power conjecture. That compares $h$ with the wrong gaps, since both
+theorems concern primes and plane orders near $n^{1/2}$. Let $p$ be the least
+prime with $p^2+p+1\ge n$. Erdős and Larson's design from the plane of order $p$
+has blocks of size at least $p-r-2$, where $rp\le p^2+p-n$ ([ErLa82] pp.
+130--131, recorded under
 [[../library/set_systems/erdos_1982_pairwise_balanced_block_designs_sizes_blocks/theorem_1|Theorem 1]]),
 so $r\le2(p-n^{1/2})+1$ when $p\ge n^{1/2}$ and every block exceeds
 $n^{1/2}-(p-n^{1/2})-4$. So $h(n)\le p-n^{1/2}+O(1)$, at most a prime gap near
@@ -83,8 +84,8 @@ The question asks whether some constant $C$ and, for every large $n$, a
 pairwise balanced design on $\{1,\ldots,n\}$ exist with every block of size
 more than $n^{1/2}-C$; the condition $|A_i|<n$ excludes the single block
 $\{1,\ldots,n\}$, which the discussion thread pointed out in January 2026 and
-the site then added. Nothing settles it unconditionally. Erdős and Larson's
-Theorem 1
+erdosproblems.com then added. Nothing settles it unconditionally. Erdős and
+Larson's Theorem 1
 ([[../library/set_systems/erdos_1982_pairwise_balanced_block_designs_sizes_blocks/_index|card]])
 gives, for an absolute $c>0$ and every large $n$, a design with
 $|A_i|=n^{1/2}+O(n^{1/2-c})$ for every block, built from a Desarguesian plane
@@ -106,11 +107,11 @@ claim; the problem reduces to the existence of projective planes of
 non-prime-power order in the windows the embedding theorem names.
 
 Search scope, with the changing sources as they stood on 2026-10-07: the
-site's problem page, discussion thread (one comment of 17 January 2026 on the
-trivial one-block design) and proof-claims tab (none), the community database
-entry (teorth/erdosproblems), the formal-conjectures statement file (research
-open, no formal proof), and the cards of [Er97f] and [ErLa82]. None of them
-showed a claim on the problem beyond the conditional result.
+erdosproblems.com problem page, discussion thread (one comment of 17 January
+2026 on the trivial one-block design) and proof-claims tab (none), the community
+database entry (teorth/erdosproblems), the formal-conjectures statement file
+(research open, no formal proof), and the cards of [Er97f] and [ErLa82]. None of
+them showed a claim on the problem beyond the conditional result.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

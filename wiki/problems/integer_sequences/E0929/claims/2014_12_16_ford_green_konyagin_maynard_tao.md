@@ -4,8 +4,8 @@ title: Ford, Green, Konyagin, Maynard and Tao's covering bound, inverted to an u
 desc: |
   Display (1.2) of the 2018 long-gaps paper of Ford, Green, Konyagin, Maynard
   and Tao, inverted through the covering form, gives the refereed upper bound
-  $S(k)\ll k\log_2k/(\log k\log_3k)$, which implies the site's display. The
-  displayed question stays open.
+  $S(k)\ll k\log_2k/(\log k\log_3k)$, which implies the erdosproblems.com
+  display. The displayed question stays open.
 authors:
 - Kevin Ford
 - Ben Green
@@ -63,11 +63,12 @@ $$
 S(k)\ \ll\ \frac{k\log_2k}{\log k\,\log_3k}.
 $$
 
-This is smaller than the site's displayed
+This is smaller than erdosproblems.com's displayed
 $S(k)\ll k\log_3k/(\log_2k\log_4k)$ by a factor
 $\log k(\log_3k)^2/((\log_2k)^2\log_4k)$, which tends to infinity, so it
-implies the site's bound; the site's display is recorded on
-[[problems/integer_sequences/E0929/_index|the problem page]] as the site's.
+implies erdosproblems.com's bound; the erdosproblems.com display is recorded on
+[[problems/integer_sequences/E0929/_index|the problem page]] as
+erdosproblems.com's.
 
 **Covers.** The upper bound $S(k)\ll k\log_2k/(\log k\log_3k)$ only. Not
 covered: the displayed question $S(k)\ge k^{1-o(1)}$ and the estimate of
@@ -77,8 +78,8 @@ $S(k)$, which stay open.
 covering equivalence stated above.
 
 **Acceptance.** Refereed: J. Amer. Math. Soc. 31 (2018), no. 1, 65--105
-(published online 23 February 2017). The site labeled the problem OPEN, so
-its commentary crediting the paper's large-gap bound is not reviewed
+(published online 23 February 2017). Bloom's catalog labeled the problem OPEN,
+so its commentary crediting the paper's large-gap bound is not reviewed
 evidence. The page is dated by the preprint's first posting, as on
 [[problems/primes/E0004/claims/2014_12_16_ford_green_konyagin_maynard_tao|the paper's claim page on Problem 4]].
 

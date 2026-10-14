@@ -28,20 +28,20 @@ square?
 
 Is the number of such $n\leq x$ bounded by $(\log x)^{O(1)}$?
 
-**Formulation.** The first question is read as the site reads it: must one of
-$n$, $n+1$ be a square? Read loosely it would be trivially yes, since every
-pair $n=a^2b^3$, $n+1=c^2d^3$ solves the generalized Pell equation
+**Formulation.** The first question is read as erdosproblems.com reads it: must
+one of $n$, $n+1$ be a square? Read loosely it would be trivially yes, since
+every pair $n=a^2b^3$, $n+1=c^2d^3$ solves the generalized Pell equation
 $d^3X^2-b^3Y^2=1$. Guy's B16 [Gu04] asks instead whether infinitely many pairs
 do not come from Pell equations $x^2-dy^2=\pm1$, and Walker's family answers
 that too. The page lists the two questions as the parts `pell` and `count`.
 
-**Status.** Open, the site's label (OPEN; page last edited 31 October 2025). The
-label applies to the pair of questions together. The second question, the
-$(\log x)^{O(1)}$ bound on the count, is unsettled, so the problem stays open.
-The site's commentary answers the first question no. It credits Golomb's
-counterexample [Go70] and Walker's infinite family [Wa76]. The corpus accepts
-both, on their refereed publication, as partial claims settling the part `pell`.
-They are recorded on the claim pages
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited 31 October
+2025). The label applies to the pair of questions together. The second question,
+the $(\log x)^{O(1)}$ bound on the count, is unsettled, so the problem stays
+open. The erdosproblems.com commentary answers the first question no. It credits
+Golomb's counterexample [Go70] and Walker's infinite family [Wa76]. The corpus
+accepts both, on their refereed publication, as partial claims settling the part
+`pell`. They are recorded on the claim pages
 [[problems/diophantine_problems/E0365/claims/1970_10_01_golomb|Golomb 1970]] and
 [[problems/diophantine_problems/E0365/claims/1976_04_01_walker|Walker 1976]].
 
@@ -70,16 +70,16 @@ the corpus has not built it.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 31 October 2025), has
-two parts. The first, whether one of two consecutive powerful numbers must be
-a square, is answered no: Golomb [Go70] observed that $12167=23^3$ and
+The question, as erdosproblems.com states it (page last edited 31 October 2025),
+has two parts. The first, whether one of two consecutive powerful numbers must
+be a square, is answered no: Golomb [Go70] observed that $12167=23^3$ and
 $12168=2^3\cdot3^2\cdot13^2$ are consecutive powerful numbers and neither is
 a square, and Walker [Wa76] showed that $7^3x^2=3^3y^2+1$ has infinitely many
 solutions, each giving such a pair, and described every such pair through the
 odd powers of a least solution of $mX^2-nY^2=\pm1$. Both papers are refereed,
 and the two claim pages carry the acceptance, each settling the part `pell`.
-The site's commentary also records Mahler's remark, in answer to Erdős's
-original question, that the Pell equation $x^2=2^3y^2+1$ already gives
+The erdosproblems.com commentary also records Mahler's remark, in answer to
+Erdős's original question, that the Pell equation $x^2=2^3y^2+1$ already gives
 infinitely many consecutive powerful pairs; those pairs have a square member
 and bear on the count, not on the first question.
 
@@ -96,9 +96,9 @@ instance of the question and is not a claim. The thread's other comments
 concern pairs of odd powerful numbers at distance $2$ and differences of
 powerful numbers, which are adjacent questions.
 
-Search scope: the site's problem page as exported (last edited 31 October
-2025), its thread, accessed 2026-10-07, the community database entry, the
-formal-conjectures tree (no statement file), Ren's Lean package and the
+Search scope: the erdosproblems.com problem page as exported (last edited 31
+October 2025), its thread, accessed 2026-10-07, the community database entry,
+the formal-conjectures tree (no statement file), Ren's Lean package and the
 library cards for Walker and Guy; no forum proof claim and no OpenAI release
 item names this problem. No wider literature search was made.
 

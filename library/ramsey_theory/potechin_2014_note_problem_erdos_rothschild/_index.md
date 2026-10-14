@@ -38,8 +38,8 @@ title page is typeset "November 5, 2018"). No journal version: on
 2026-09-18 the arXiv record carried no journal reference or DOI and a
 Crossref bibliographic query for the title found no record (its hits were
 papers on the unrelated edge-coloring problem also called the
-Erdős--Rothschild problem). The site's Problem 80 thread cites the note as
-[Po18].
+Erdős--Rothschild problem). erdosproblems.com's Problem 80 thread cites the note
+as [Po18].
 
 **Edition read.** The copy read for this card is arXiv:1412.1838v1,
 7 pages with a text layer; its page numbers are the preprint's. Source:
@@ -58,8 +58,8 @@ A book of size q is a set of q triangles sharing a common edge, and bk(G)
 is the size of the largest book in G. Definition 1.1 (p. 2) recalls the
 Erdős--Rothschild function h(n,c), the minimum of bk(G) over graphs on n
 vertices with more than cn^2 edges in which every edge lies in a triangle
-(the site's f_c(n), defined by Fox and Loh with "at least cn^2"), and the
-introduction reports second-hand Szemerédi's h(n,c) -> infinity for fixed c
+(erdosproblems.com's f_c(n), defined by Fox and Loh with "at least cn^2"), and
+the introduction reports second-hand Szemerédi's h(n,c) -> infinity for fixed c
 < 1/4, Fox's 2^{Omega(log* n)} lower bound, the Edwards and
 Khadžiivanov--Nikiforov bound h(n,c) >= n/6 for c >= 1/4, Alon and Trotter's
 O(sqrt n) and Fox and Loh's n^{O(1/log log n)} for fixed c < 1/4: "there is a

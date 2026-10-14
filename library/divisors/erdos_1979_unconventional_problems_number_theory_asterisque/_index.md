@@ -185,7 +185,7 @@ pose the problem, the block example and the threshold conjecture;
 $\epsilon'(n,m)$ (the problem's $\delta_1(n,m)$) is unimodular for $m>n+1$ and
 where it is maximal, and states without proof the bound
 $\epsilon'(n,m)<c/(\log n)^\alpha$ that the problem page reports from the
-site's summary;
+erdosproblems.com summary;
 [[../wiki/problems/divisors/E0696/_index|#696]]: p. 81 defines $h(n)$ and
 $H(n)$, the lengths of the longest chains of prime divisors and of divisors of
 $n$ in which each term is $\equiv1$ modulo the one before, calls $h(n)\to\infty$

@@ -32,7 +32,7 @@ $$
 
 converge?
 
-**Status.** Labeled PROVED (LEAN) on the site. The curator credits the
+**Status.** Labeled PROVED (LEAN) on erdosproblems.com. The curator credits the
 convergence to Zachary J. Lewis, working with GPT 5.6 and Claude Fable 5.
 Lewis's manuscript of July 2026 comes with a kernel-checked Lean development,
 which Boris Alexeev verified and added to Alexeev's repository. See the

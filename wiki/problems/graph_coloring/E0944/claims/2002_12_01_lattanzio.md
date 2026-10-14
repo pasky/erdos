@@ -36,7 +36,7 @@ that Jensen independently settled every $k\ge5$.
 $k-1$ not prime, which excludes $k=4$.
 
 **Acceptance.** A refereed journal publication in Discrete Mathematics
-(`refereed`). The site labeled the problem OPEN, so its commentary crediting
-the paper is not acceptance.
+(`refereed`). Bloom's catalog labeled the problem OPEN, so its commentary
+crediting the paper is not acceptance.
 
 **Depends on.** No page of this wiki.

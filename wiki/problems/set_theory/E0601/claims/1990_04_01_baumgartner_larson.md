@@ -61,5 +61,5 @@ taken from the zbMATH review. Nothing on this page is independently
 reviewed by this project.
 
 **Acceptance.** Refereed: a journal paper in the Annals of Pure and Applied
-Logic. The site's commentary does not mention the paper, and the site labeled
-the problem OPEN, so `reviewed` is not listed.
+Logic. The erdosproblems.com commentary does not mention the paper, and Bloom's
+catalog labeled the problem OPEN, so `reviewed` is not listed.

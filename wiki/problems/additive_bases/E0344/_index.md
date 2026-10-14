@@ -38,8 +38,8 @@ contain an infinite arithmetic progression?
 
 **Formulation.** The hypothesis $\gg N^{1/2}$ leaves its constant implicit,
 and the standing recorded here concerns the reading in which it carries one
-sufficiently large absolute constant: the site's commentary says that the
-statement is true and was proved by Szemerédi and Vu, whose theorem supplies
+sufficiently large absolute constant: the erdosproblems.com commentary says that
+the statement is true and was proved by Szemerédi and Vu, whose theorem supplies
 such a constant, and Erdős's own question in [Er61b] (p. 346) asks whether
 $A(x)>Cx^{1/2}$ suffices, with $C$ the constant his theorem there takes
 sufficiently large. A constant is needed: [Er61b] shows that
@@ -47,23 +47,23 @@ $\lvert A\cap\{1,\ldots,N\}\rvert>CN^{1/2}$ does not suffice when $C<\sqrt2$,
 so with an arbitrary implied constant the statement is false. The sharper
 question whether $\lvert A\cap\{1,\ldots,N\}\rvert\ge(2N)^{1/2}$ suffices,
 which [Er61b] shows would be best possible, is a separate question that the
-site's commentary records as open.
+erdosproblems.com commentary records as open.
 
-**Status.** Proved; the site's label was PROVED, and its page, accessed
-2026-10-07, was last edited 28 December 2025. Szemerédi and Vu [SzVu06] proved
-that there is an absolute constant $c$ such that every increasing sequence $A$
-with $\lvert A\cap\{1,\ldots,N\}\rvert\ge c\,N^{1/2}$ for all $N$ is
-subcomplete. This answers the question yes in the reading the Formulation
+**Status.** Proved; the erdosproblems.com label was PROVED, and its page,
+accessed 2026-10-07, was last edited 28 December 2025. Szemerédi and Vu [SzVu06]
+proved that there is an absolute constant $c$ such that every increasing
+sequence $A$ with $\lvert A\cap\{1,\ldots,N\}\rvert\ge c\,N^{1/2}$ for all $N$
+is subcomplete. This answers the question yes in the reading the Formulation
 records. Their first proof is in the Annals of Mathematics (2006), and the cited
-paper gives a second, shorter proof. The refereed papers and the site's
+paper gives a second, shorter proof. The refereed papers and erdosproblems.com's
 acceptance are recorded on the
 [[problems/additive_bases/E0344/claims/2005_07_26_szemeredi_vu|claim page]].
 Y.-G. Chen proved the same theorem by a different method in Acta Arithmetica
 (2003). The proof is recorded on
-[[problems/additive_bases/E0344/claims/2003_01_01_chen|its claim page]], and the
-site does not credit it. Folkman [Fo66] had proved the statement under the
-stronger hypothesis $\gg N^{1/2+\epsilon}$. This refereed partial result is
-recorded on
+[[problems/additive_bases/E0344/claims/2003_01_01_chen|its claim page]], and
+erdosproblems.com does not credit it. Folkman [Fo66] had proved the statement
+under the stronger hypothesis $\gg N^{1/2+\epsilon}$. This refereed partial
+result is recorded on
 [[problems/additive_bases/E0344/claims/1966_01_01_folkman|his claim page]].
 
 **Source.** [erdosproblems.com/344](https://www.erdosproblems.com/344), accessed

@@ -102,7 +102,7 @@ counting argument covers only the base case, not the full $k\ge2$ proof.
 at $k=2$ the theorem gives order $n^{3/2}$, for sufficiently large $n$, for
 the unordered-edge quantity $H_2(n)$, which the problem page treats as
 the intended earlier version of the statement; it does not apply to the
-site's formula read with
+erdosproblems.com formula read with
 arbitrary signs on ordered pairs, whose value is $0$ (see the
 [[discrepancy/erdos_1971_imbalances_colorations/edge_normalization|convention record]]).
 It gives no exact leading constant or finite-$n$ value.

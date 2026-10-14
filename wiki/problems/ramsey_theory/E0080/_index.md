@@ -31,25 +31,24 @@ edge shared by at least $m$ different triangles.
 Estimate $f_c(n)$. In particular, is it true that $f_c(n)>n^{\epsilon}$ for some
 $\epsilon>0$? Or $f_c(n)\gg \log n$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 7 April 2026). The function is Fox and Loh's $h(n,c)$, defined with
-"at least $cn^2$ edges" as the site does (Potechin's Definition 1.1 says
-"more than $cn^2$"); Erdős's printed forms are $f(n;c)$ in 1987, $h(n;c)$ in
-1988 and $g(n;c)$ in 1992. Since a graph on $n$ vertices has at most
+"at least $cn^2$ edges" as erdosproblems.com does (Potechin's Definition 1.1
+says "more than $cn^2$"); Erdős's printed forms are $f(n;c)$ in 1987, $h(n;c)$
+in 1988 and $g(n;c)$ in 1992. Since a graph on $n$ vertices has at most
 $\binom n2<n^2/2$ edges, the hypothesis is satisfiable only for $c<1/2$,
 and the formal statement below restricts $c$ accordingly. The page-level
 question is the estimate; the two "in particular" questions are read as
 questions about every $c>0$, as Fox and Loh read Erdős's 1987 question
-(p. 2), as his 1992 wording "for every $c$" states, and as the site and the
-formal-conjectures file treat them. The first is answered no, since it
-fails for every fixed $c<1/4$; the property it asks for holds for
-$c\ge1/4$, so the density $1/4$ is a threshold (Status). Erdős's 1987
-wording (Problem 11 of [Er87], p. 226): "Is it true that
-$f(n;c)>n^\varepsilon$ (or at least $f(n;c)>\log n$)?"; his 1992 wording
-(Problem 14 of [Er92], p. 235): "I think it would be interesting to prove
-that for every $c$ and sufficiently large $n$ (2) $g(n;c)>\log n$.
-Rothschild and I expected that a very much stronger result that [sic] (2)
-will hold."
+(p. 2), as his 1992 wording "for every $c$" states, and as erdosproblems.com and
+the formal-conjectures file treat them. The first is answered no, since it fails
+for every fixed $c<1/4$; the property it asks for holds for $c\ge1/4$, so the
+density $1/4$ is a threshold (Status). Erdős's 1987 wording (Problem 11 of
+[Er87], p. 226): "Is it true that $f(n;c)>n^\varepsilon$ (or at least
+$f(n;c)>\log n$)?"; his 1992 wording (Problem 14 of [Er92], p. 235): "I think it
+would be interesting to prove that for every $c$ and sufficiently large $n$ (2)
+$g(n;c)>\log n$. Rothschild and I expected that a very much stronger result that
+[sic] (2) will hold."
 
 **Status.** Open. The page-level question, to estimate $f_c(n)$, is open. For
 fixed $c<1/4$ the known bounds are
@@ -65,11 +64,11 @@ claim.
 
 The first "in particular" question is answered no, since it fails for every
 fixed $c<1/4$. This is Theorem 1.1 of Fox and Loh (Combinatorica 32 (2012),
-refereed), which the site records as the disproof of Erdős's first conjecture.
-The property it asks for holds for $c>1/4$ by the bound $f_c(n)\ge n/6$ of
-Edwards and of Khadzhiivanov and Nikiforov. That bound is proved in full as
-Corollary 3 of Khadzhiivanov's 1988 account [Kh88]. At $c=1/4$ the property
-holds by that account's Corollary 4. The second question, whether
+refereed), which erdosproblems.com records as the disproof of Erdős's first
+conjecture. The property it asks for holds for $c>1/4$ by the bound
+$f_c(n)\ge n/6$ of Edwards and of Khadzhiivanov and Nikiforov. That bound is
+proved in full as Corollary 3 of Khadzhiivanov's 1988 account [Kh88]. At $c=1/4$
+the property holds by that account's Corollary 4. The second question, whether
 $f_c(n)\gg\log n$ for every $c$, is open. It holds for $c\ge1/4$ by the same
 bounds. It is open for every fixed $c<1/4$, where the lower bound Fox and Loh
 derive is exponential in the iterated logarithm. The search dated 2026-09-18 UTC
@@ -79,10 +78,10 @@ certificate of openness.
 
 **Source.** [erdosproblems.com/80](https://www.erdosproblems.com/80),
 accessed 2026-09-18: the problem page (OPEN, with
-the site's note that the problem cannot be settled by a finite computation;
-last edited 7 April 2026; source key [Er87]; commentary citing [KhNi79] and
-[FoLo12] and pointing to Problem 600 and to the entry in the graphs problem
-collection; an acknowledgment line thanking one contributor), its
+the erdosproblems.com note that the problem cannot be settled by a finite
+computation; last edited 7 April 2026; source key [Er87]; commentary citing
+[KhNi79] and [FoLo12] and pointing to Problem 600 and to the entry in the graphs
+problem collection; an acknowledgment line thanking one contributor), its
 one-comment discussion thread (4
 May 2026, adding Potechin's note as a further partial improvement and
 reporting the problem's appearance in [Er88], [Er92] and [Er98]) and its
@@ -97,13 +96,13 @@ https://www.erdosproblems.com/80, accessed 2026-09-18.
   [[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/_index|erdos_1987_problems_finite_infinite_graphs]].
 - [Er88] Erdős, P., Problems and results in combinatorial analysis and
   graph theory. Discrete Math. 72 (1988), 81--92; Section 10, printed
-  pp. 90--91. Not a source key on the site;
+  pp. 90--91. Not a source key on erdosproblems.com;
   named in the thread. Library home:
   [[../library/extremal_graph_theory/erdos_1988_problems_results_combinatorial_analysis_graph_theory/_index|erdos_1988_problems_results_combinatorial_analysis_graph_theory]].
 - [Er92] Erdős, P., Some of my favourite problems in various branches of
   combinatorics. Matematiche (Catania) 47 (1992), 231--240; Problem 14,
-  printed pp. 234--236. Not a source key on the site; named in the thread.
-  Library home:
+  printed pp. 234--236. Not a source key on erdosproblems.com; named in the
+  thread. Library home:
   [[../library/extremal_graph_theory/erdos_1992_my_favourite_problems_various_branches_combinatorics/_index|erdos_1992_my_favourite_problems_various_branches_combinatorics]].
 - [FoLo12] Fox, J. and Loh, P.-S., On a problem of Erdős and Rothschild on
   edges in triangles. Combinatorica 32 (2012), no. 6, 619--628,
@@ -161,18 +160,19 @@ proof.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement above;
-OPEN; last edited 7 April 2026. The commentary, in summary: the problem is Erdős
-and Rothschild's; Alon and Trotter showed $f_c(n)\ll_cn^{1/2}$ for $c<1/4$;
-Szemerédi noted that the regularity lemma forces $f_c(n)\to\infty$; the bound
-$f_c(n)\ge n/6$ for $c>1/4$ is credited to Edwards (unpublished) and,
-independently, to Khadzhiivanov and Nikiforov [KhNi79] (the site's Problem 905);
-Fox and Loh [FoLo12] proved $f_c(n)\le n^{O(1/\log\log n)}$ for every $c<1/4$,
-which the site counts as the disproof of Erdős's first conjecture; the best
-lower bounds remain the very poor ones from the regularity lemma; and the
-commentary points to Problem 600 and to the entry in the graphs problem
-collection. The thread's one comment (4 May 2026) adds Potechin's note and the
-further origins [Er88], [Er92], [Er98]. The site's page carries no prize.
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; OPEN; last edited 7 April 2026. The commentary, in summary: the
+problem is Erdős and Rothschild's; Alon and Trotter showed $f_c(n)\ll_cn^{1/2}$
+for $c<1/4$; Szemerédi noted that the regularity lemma forces $f_c(n)\to\infty$;
+the bound $f_c(n)\ge n/6$ for $c>1/4$ is credited to Edwards (unpublished) and,
+independently, to Khadzhiivanov and Nikiforov [KhNi79] (erdosproblems.com's
+Problem 905); Fox and Loh [FoLo12] proved $f_c(n)\le n^{O(1/\log\log n)}$ for
+every $c<1/4$, which erdosproblems.com counts as the disproof of Erdős's first
+conjecture; the best lower bounds remain the very poor ones from the regularity
+lemma; and the commentary points to Problem 600 and to the entry in the graphs
+problem collection. The thread's one comment (4 May 2026) adds Potechin's note
+and the further origins [Er88], [Er92], [Er98]. The erdosproblems.com page
+carries no prize.
 
 **Origins.** [Er87], Problem 11 (p. 226): "Bruce Rothschild and I recently
 considered the following problem: Let $G(n;e)$ be a graph of $n$ vertices and
@@ -184,24 +184,24 @@ $f(n;c)<\alpha_c\sqrt n$ and Szemeredi observed that his regularity
 Lemma implies $f(n;c)\to\infty$ for every $c>0$. Is it true that
 $f(n;c)>n^\varepsilon$ (or at least $f(n;c)>\log n$)?", followed by the inverse
 function $e(n,r)$, the least edge count forcing an edge in $r$ triangles, with
-Ruzsa and Szemerédi's $cnr_3(n)<e(n;2)=o(n^2)$ (p. 227; the site's Problem 600).
-[Er88], Section 10 (pp. 90--91): the same problem as $h(n;c)$, with Szemerédi's
-$\lim h(n;c)=\infty$, Alon's $h(n;c)<c'n^{1/2}$ "for small $c$", the well-known
-$h(n;c)>c_1n$ for $c>1/4$, and a stronger claim with an outlined proof:
-$e>n^2/4-cn$ edges, each in a triangle, force an edge in at least $c_1(c)n$
-triangles, best possible by a modification of Alon's construction. [Er92],
-Problem 14 (pp. 234--236): the problem as $g(n;c)$, "Noga Alon and Trotter
-observed that for $c<\frac14$ $g(n;c)<k(c)n^{1/2}$, for $c>\frac14$ it is easy
-to see that $g(n;c)>\alpha_cn$", the edge-count form $g(n;k)$ with
-$g(n;k)>f(c)n$ for $k>n^2/4-cn$, the question (2) $g(n;c)>\log n$ quoted under
-Formulation, then the inverse function $e(n;k)$ and, on p. 236, "I offer a prize
-of one thousand dollars for clearing up these questions"; the offer is printed
-after the $e(n;k)$ passage and is recorded here as printed, without attaching it
-to this problem alone. The site's attribution of the $\sqrt n$ bound to Alon and
-Trotter, with the proviso $c<1/4$, follows [Er92]; [Er87] and [Er88] name Alon
-alone. The original 1987 attribution of the $\sqrt n$ bound to Alon and the
-Alon--Trotter construction are unpublished as far as the sources recorded here
-show.
+Ruzsa and Szemerédi's $cnr_3(n)<e(n;2)=o(n^2)$ (p. 227; erdosproblems.com's
+Problem 600). [Er88], Section 10 (pp. 90--91): the same problem as $h(n;c)$,
+with Szemerédi's $\lim h(n;c)=\infty$, Alon's $h(n;c)<c'n^{1/2}$ "for small
+$c$", the well-known $h(n;c)>c_1n$ for $c>1/4$, and a stronger claim with an
+outlined proof: $e>n^2/4-cn$ edges, each in a triangle, force an edge in at
+least $c_1(c)n$ triangles, best possible by a modification of Alon's
+construction. [Er92], Problem 14 (pp. 234--236): the problem as $g(n;c)$, "Noga
+Alon and Trotter observed that for $c<\frac14$ $g(n;c)<k(c)n^{1/2}$, for
+$c>\frac14$ it is easy to see that $g(n;c)>\alpha_cn$", the edge-count form
+$g(n;k)$ with $g(n;k)>f(c)n$ for $k>n^2/4-cn$, the question (2) $g(n;c)>\log n$
+quoted under Formulation, then the inverse function $e(n;k)$ and, on p. 236, "I
+offer a prize of one thousand dollars for clearing up these questions"; the
+offer is printed after the $e(n;k)$ passage and is recorded here as printed,
+without attaching it to this problem alone. The erdosproblems.com attribution of
+the $\sqrt n$ bound to Alon and Trotter, with the proviso $c<1/4$, follows
+[Er92]; [Er87] and [Er88] name Alon alone. The original 1987 attribution of the
+$\sqrt n$ bound to Alon and the Alon--Trotter construction are unpublished as
+far as the sources recorded here show.
 
 **What is proved.**
 
@@ -277,7 +277,7 @@ $c<1/4$, and the order of $f_c(n)$ there.
 for fixed $c<1/4$ beyond those above, a proof or disproof of
 $f_c(n)\gg\log n$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file of 2026-09-18 (statement only); the community
   database of 2026-09-18.
 - arXiv: the API records of 1106.0290 (two versions, no journal reference)

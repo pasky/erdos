@@ -24,20 +24,22 @@ updated: 2026-10-08T01:29:59Z
 $n$ such that $n-i$ divides $\binom{n}{k}$ for all but one $0\leq i<k$. Estimate
 $n_k$.
 
-**Status.** Open. The site's label was OPEN (page last edited 01 February 2026).
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 01
+February 2026).
 
-The site's proof-claims tab carried two partial proof claims by Ricky Cipollini.
-Both attribute the proof to the model GPT-5.6 Sol, and both point to one
-write-up on a collaborative editing service. The first, submitted 2026-07-27, is
-an upper bound of the shape $\log n_k\le (1+o(1))\,k\log\log k/\log k$ with
-explicit second-order terms. It is recorded on
+The erdosproblems.com proof-claims tab carried two partial proof claims by Ricky
+Cipollini. Both attribute the proof to the model GPT-5.6 Sol, and both point to
+one write-up on a collaborative editing service. The first, submitted
+2026-07-27, is an upper bound of the shape
+$\log n_k\le (1+o(1))\,k\log\log k/\log k$ with explicit second-order terms. It
+is recorded on
 [[problems/integer_sequences/E1063/claims/2026_07_27_cipollini|its claim page]].
 The second, submitted 2026-08-04, is a lower bound of the shape
 $\log n_k\ge c(\log k)^2$. It is recorded on
 [[problems/integer_sequences/E1063/claims/2026_08_04_cipollini|its claim page]].
 Neither of Cipollini's claims settles the problem, and neither has acceptance
-evidence. The site's label was unchanged, and these claims are recorded without
-being adopted.
+evidence. The erdosproblems.com label was unchanged, and these claims are
+recorded without being adopted.
 
 Two further upper bounds lie outside the tab. Patrick White's repository of 25
 July 2026 claims $n_k\le\exp(Ck\log\log k/\log k)$ for large $k$. It is recorded
@@ -47,7 +49,7 @@ formal-conjectures catalog, gives the stronger bound
 $n_k=O(\exp(\frac{k}{\log k}(\log\log k+\log\log\log k+\log2)))$. It is recorded
 on [[problems/integer_sequences/E1063/claims/2026_10_01_leap|its claim page]].
 Monier's published bound $n_k\le k!$ for $k\ge3$ (Amer. Math. Monthly 1985),
-which the site's commentary credits, is an accepted partial claim on
+which the erdosproblems.com commentary credits, is an accepted partial claim on
 [[problems/integer_sequences/E1063/claims/1985_06_01_monier|its claim page]].
 
 **Source.** [erdosproblems.com/1063](https://www.erdosproblems.com/1063),

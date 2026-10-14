@@ -46,11 +46,11 @@ counterexample needs no restriction on $A$ or $g$ beyond those the statement
 imposes. If $0\notin\mathbb N$, the count is
 $n-1$ for $n\ge2$ and $0$ at $n=1$, and $g(n)=\max(n-1,1)$ gives the same
 conclusion, an observation made here. Erdős presumably intended further
-restrictions on $g$ or on $A$; the site's commentary notes that [Er80]
-records none.
+restrictions on $g$ or on $A$; the erdosproblems.com commentary notes that
+[Er80] records none.
 
-**Submission note.** Posted to the site's forum by Pietro Monticone on 13 April
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Pietro Monticone
+on 13 April 2026:
 
 > Trivially autoformalised by Aristotle here.
 >
@@ -58,12 +58,12 @@ records none.
 
 **Depends on.** Nothing in this wiki.
 
-**Postings.** Pietro Monticone posted the counterexample on the site's
-discussion thread on 2026-04-13 as a Lean file produced with Aristotle
-(Harmonic's system), linked through the Lean web editor at the gist pinned
-above; the thread note says the site was updated in response. The same file,
-with its theorem renamed `not_erdos_1193` and the original name kept as an
-alias, entered Boris Alexeev's lean-proofs repository on 2026-05-06
+**Postings.** Pietro Monticone posted the counterexample on the
+erdosproblems.com discussion thread on 2026-04-13 as a Lean file produced with
+Aristotle (Harmonic's system), linked through the Lean web editor at the gist
+pinned above; the thread note says erdosproblems.com was updated in response.
+The same file, with its theorem renamed `not_erdos_1193` and the original name
+kept as an alias, entered Boris Alexeev's lean-proofs repository on 2026-05-06
 (`src/latest/ErdosProblems/Erdos1193.lean`, Lean `v4.33.0` and Mathlib
 `v4.33.0` at the pinned commit of 2026-09-15), with a record page added on
 2026-07-27. The module defines `conv_ind A n` as the number of
@@ -72,8 +72,8 @@ $k\in\{0,\ldots,n\}$ with $k\in A$ and $n-k\in A$ and proves
 the axioms `propext`, `Classical.choice` and `Quot.sound`. That statement is
 the counterexample identity, not the two density questions themselves.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, adopted the
-counterexample. The problem's commentary states that both questions have the
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, adopted
+the counterexample. The problem's commentary states that both questions have the
 answer no with no work needed. It gives $A=\mathbb N$ with $1_A\ast1_A(n)=n+1$
 and presumes unrecorded restrictions in [Er80]. The page was labeled SOLVED
 (LEAN), and the thread carries no proof claim. The community database

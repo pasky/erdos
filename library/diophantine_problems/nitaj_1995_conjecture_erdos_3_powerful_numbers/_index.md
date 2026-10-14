@@ -23,8 +23,8 @@ Wiley; issued July 1995; bibliographic data from Crossref, read 2026-09-27).
 The article is paywalled and no copy is held (no purchase), so no folder-name
 PDF exists and its theorem numbering and proof have not been read here.
 
-**Result as recorded by the site and by a held source.** The article proves
-that there are infinitely many triples of coprime $3$-powerful numbers
+**Result as recorded by erdosproblems.com and by a held source.** The article
+proves that there are infinitely many triples of coprime $3$-powerful numbers
 $a,b,c$ with $a+b=c$, for example
 
 $$
@@ -45,5 +45,5 @@ its third question (infinitely many coprime $3$-powerful $a,b,c$ with
 $a+b=c$) in the affirmative; a refereed publication.
 
 **Read status.** Unread; the citation and DOI are bibliographic metadata,
-and the result statement is consumed through the site's record and Walsh's
-citation, not from the text.
+and the result statement is consumed through the erdosproblems.com record and
+Walsh's citation, not from the text.

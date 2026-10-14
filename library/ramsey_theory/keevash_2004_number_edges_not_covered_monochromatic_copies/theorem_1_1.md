@@ -77,7 +77,7 @@ the computer searches for $6\le n\le9$.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0639/_index|Problem 639]]: the status-defining
-  theorem. The site's wording, "at most $n^2/4$" edges in no
+  theorem. The erdosproblems.com wording, "at most $n^2/4$" edges in no
   monochromatic triangle for a 2-colored $K_n$, holds for $n\ge7$ (and
   trivially for $n\le2$) and fails for $3\le n\le6$, where the theorem gives
   $3$, $6$, $10$ and $10$ against $9/4$, $4$, $25/4$ and $9$.

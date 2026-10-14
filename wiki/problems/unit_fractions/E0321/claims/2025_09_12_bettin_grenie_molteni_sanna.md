@@ -67,9 +67,9 @@ $|\mathcal U(N)|$ and the deduction that $\mathcal U(N)$ is dissociated.
 
 **Acceptance.** Refereed: the paper appeared in Mathematics of Computation, DOI
 10.1090/mcom/4190, published online 22 January 2026. The page is dated by the
-arXiv posting of 12 September 2025. Reviewed: the site's curator, Thomas Bloom,
-labeled the problem SOLVED for the order of magnitude. The problem's commentary
-calls the lower bound implicit in this work. Bloom's comment of 16 July 2026
-under the accepted claim on the tab says that the lower bound comes from that
-earlier work. The curator is independent of the authors. The proof is not
-verified by this corpus.
+arXiv posting of 12 September 2025. Reviewed: the erdosproblems.com curator,
+Thomas Bloom, labeled the problem SOLVED for the order of magnitude. The
+problem's commentary calls the lower bound implicit in this work. Bloom's
+comment of 16 July 2026 under the accepted claim on the tab says that the lower
+bound comes from that earlier work. The curator is independent of the authors.
+The proof is not verified by this corpus.

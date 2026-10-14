@@ -63,6 +63,6 @@ four uses a result of van Batenburg and Kang [2].
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the
-  source of the site's "$21$ for $\Delta\le4$ (Huang, Santana and Yu)". At
-  $\Delta=4$ the problem's bound is $\frac54\cdot16=20$, and Theorem 2 gives
+  source of erdosproblems.com's "$21$ for $\Delta\le4$ (Huang, Santana and Yu)".
+  At $\Delta=4$ the problem's bound is $\frac54\cdot16=20$, and Theorem 2 gives
   $21$, one more; it does not answer the problem at $\Delta=4$.

@@ -163,8 +163,8 @@ recorded as result pages.
   even prove that for n=2 there are infinitely many values of n [sic] for
   which the exponents (6) are all distinct"; his suggested family through
   primes $8p^2+1$ works only for $p=3$, since $3$ divides $8p^2+1$ for every
-  other prime $p$ (the site and formal-conjectures use $8p^2-1$). The paper
-  records no result on the problem.
+  other prime $p$ (erdosproblems.com and formal-conjectures use $8p^2-1$). The
+  paper records no result on the problem.
 - [[../wiki/problems/ramsey_theory/E1211/_index|#1211]]: display (26)
   (p. 39) is the problem's question, with the example (24), the assertion
   (23) and the expectation (25); Theorem 3 (p. 38) is the interval statement

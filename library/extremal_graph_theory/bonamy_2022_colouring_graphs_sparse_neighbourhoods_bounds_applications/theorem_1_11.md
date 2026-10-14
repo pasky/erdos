@@ -73,5 +73,5 @@ paper's [2]).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the third step of
-  the refereed chain of upper bounds; the site's "$1.835\Delta^2$ by Bonamy,
-  Perrett, and Postle".
+  the refereed chain of upper bounds; erdosproblems.com's "$1.835\Delta^2$ by
+  Bonamy, Perrett, and Postle".

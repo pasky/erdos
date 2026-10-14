@@ -48,8 +48,8 @@ November 2021, v2 of 20 March 2022 and v3), not the Combinatorica version
 (42 (2022), suppl. 2, 1231--1252, DOI 10.1007/s00493-022-4925-2 per the
 Crossref record read 2026-09-18); locators are preprint pages and the
 journal pagination is not used. The paper's convention is a blue 3-term or
-a red k-term progression; the site's Problem 721 exchanges the colors. Read
-status: claims checked for Theorem 1, Remark 1.1, the definitions and
+a red k-term progression; erdosproblems.com's Problem 721 exchanges the colors.
+Read status: claims checked for Theorem 1, Remark 1.1, the definitions and
 footnote 1 (the density argument behind the upper bound), read clause by
 clause on the page images of pp. 1--2; the proof was not read. Result page:
 [[ramsey_theory/hunter_2022_improved_lower_bounds_van_der_waerden/theorem_1|theorem_1]].
@@ -62,8 +62,8 @@ exchanged, the bound the problem page records for Hunter. It is superpolynomial,
 so it meets the problem's non-trivial lower-bound challenge, which Green's
 Theorem 1.1 met first; it settles no order of magnitude. Footnote 1 (p. 1) is
 the density argument by which a Roth-type bound gives an upper bound on w(3,k);
-the problem page names it as the passage from a density theorem to the site's
-exp(O((log k)^9)), a bound the paper does not state.
+the problem page names it as the passage from a density theorem to
+erdosproblems.com's exp(O((log k)^9)), a bound the paper does not state.
 [[../wiki/problems/additive_combinatorics/E0138/_index|#138]]: pp. 1--2 (page images), the
 introduction: the definition of w(3,k), Schoen's upper bound w(3,k) <
 e^{k^{1-c}} with footnote 1's density derivation from the Bloom--Sisask Roth

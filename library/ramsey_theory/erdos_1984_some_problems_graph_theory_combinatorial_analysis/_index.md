@@ -19,7 +19,7 @@ updated: 2026-10-08T01:29:58Z
 
 P. Erdős, *On some problems in graph theory, combinatorial analysis and
 combinatorial number theory*, in: Graph theory and combinatorics
-(Cambridge, 1983), Academic Press, London (1984), 1--17. The site's
+(Cambridge, 1983), Academic Press, London (1984), 1--17. The erdosproblems.com
 reference key [Er84b] for Problems 545 and 546 names this paper; the Rényi
 archive's index lists it as `1984-11.pdf`.
 
@@ -88,28 +88,28 @@ The paper is compiled as a problem source; the two sentences are recorded
 from the page images as questions, without proof, and no result page is
 paged.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0546/_index|#546]]: the site's key [Er84b,
-p. 10]. Display (14) is the problem's question, $R(G)\le2^{c\sqrt m}$ for
-every graph $G$ with $m$ edges, asked with the constant $c_1$ unspecified;
-the paper offers no bound of its own. [[../wiki/problems/ramsey_theory/E0545/_index|#545]]:
-the site's key [Er84b, p. 11]. The sentence "Probably $r(G)$ is maximal if
-$G$ is as complete as possible" is the remark the site's maintainer found
-here and the problem's thread quotes; the paper gives no definition of "as
-complete as possible", no comparison with any specific graph and no
-threshold on $e$, so the problem's displayed inequality $R(G)\le R(H)$ for
-the quasi-complete $H$ is a later formalization of this remark, not a
-statement of the paper. [[../wiki/problems/ramsey_theory/E0565/_index|#565]]
-(not a site key; the site cites the 1975 Prague paper [Er75d]): item 5
-(pp. 4--5) defines $R(G_1,G_2)$, the least $m$ for which some graph on $m$
-vertices has, under every two-coloring of its edges, an induced $G_1$ all of
-whose edges have the first color or an induced $G_2$ all of whose edges have
-the second; it records the Erdős--Hajnal bound (8)
-$R(G_1,G_2)<2^{2^{n^{1+\varepsilon}}}$ for $G_1$, $G_2$ on at most $n$
-vertices, whose proof it says was never published, and their conjecture (9)
-$\max R(G_1,G_2)=r(K(n),K(n))$, and ends with "Perhaps there is a better
-chance to prove $R(G_1,G_2)<2^{cn}$" (p. 5), which contains the problem's
-question as the case $G_1=G_2$; Kohayakawa, Prömel and Rödl quote this text
-as the conjecture's source.
+**Bears on.** [[../wiki/problems/ramsey_theory/E0546/_index|#546]]: the
+erdosproblems.com key [Er84b, p. 10]. Display (14) is the problem's question,
+$R(G)\le2^{c\sqrt m}$ for every graph $G$ with $m$ edges, asked with the
+constant $c_1$ unspecified; the paper offers no bound of its own.
+[[../wiki/problems/ramsey_theory/E0545/_index|#545]]: the erdosproblems.com key
+[Er84b, p. 11]. The sentence "Probably $r(G)$ is maximal if $G$ is as complete
+as possible" is the remark the erdosproblems.com maintainer found here and the
+problem's thread quotes; the paper gives no definition of "as complete as
+possible", no comparison with any specific graph and no threshold on $e$, so the
+problem's displayed inequality $R(G)\le R(H)$ for the quasi-complete $H$ is a
+later formalization of this remark, not a statement of the paper.
+[[../wiki/problems/ramsey_theory/E0565/_index|#565]] (not an erdosproblems.com
+key; erdosproblems.com cites the 1975 Prague paper [Er75d]): item 5 (pp. 4--5)
+defines $R(G_1,G_2)$, the least $m$ for which some graph on $m$ vertices has,
+under every two-coloring of its edges, an induced $G_1$ all of whose edges have
+the first color or an induced $G_2$ all of whose edges have the second; it
+records the Erdős--Hajnal bound (8) $R(G_1,G_2)<2^{2^{n^{1+\varepsilon}}}$ for
+$G_1$, $G_2$ on at most $n$ vertices, whose proof it says was never published,
+and their conjecture (9) $\max R(G_1,G_2)=r(K(n),K(n))$, and ends with "Perhaps
+there is a better chance to prove $R(G_1,G_2)<2^{cn}$" (p. 5), which contains
+the problem's question as the case $G_1=G_2$; Kohayakawa, Prömel and Rödl quote
+this text as the conjecture's source.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

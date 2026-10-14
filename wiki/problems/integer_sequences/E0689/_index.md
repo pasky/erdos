@@ -4,8 +4,8 @@ title: Problem 689
 desc: |
   Asks whether, for large $n$, one residue class can be chosen for each prime
   $p\le n$ so that every integer in $[1,n]$ lies in at least two of them. It was
-  open on the site, with three pending AI-assisted full claims from April and
-  July 2026.
+  open on erdosproblems.com, with three pending AI-assisted full claims from
+  April and July 2026.
 tags:
 - Number theory
 status: claimed
@@ -26,35 +26,34 @@ updated: 2026-10-08T01:29:59Z
 class $a_p$ for all primes $2\leq p\leq n$ such that every integer in $[1,n]$
 satisfies at least two of the congruences $\equiv a_p\pmod{p}$?
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 8
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited 8
 April 2026). Erdős's 1979 question carries no
 qualification on $n$ ("Are there residues $c_p$ for every prime $p$ with
 $2\le p\le n$ so that every positive integer $x\le n$ satisfies at least $2$
 (or at least $r$) of the congruences $x\equiv c_p\pmod p$?", [Er79d] p. 79);
-the site adds "sufficiently large", as the discussion thread agreed on 29
-October 2025, since the claim fails for small $n$ (for $n=2$ the two
-integers cannot each lie in two of the single class modulo $2$). His 1980
-survey ([Er80], p. 108, item 6) defines $f(x)$ as the largest integer for
-which one class per prime up to $x$ makes every integer $n<x$ satisfy at
-least $f(x)$ of the congruences and writes "I can not even prove that
-$f(x)\ge2$ for $x>x_0$"; the site's question is $f(n)\ge2$ for all large
-$n$, its commentary's $r$-fold question is Erdős's parenthesis and the
-survey's "perhaps $f(x)$ tends to infinity together with $x$", the version
-over all moduli up to $x$ is Problem 1205, and Green's Problem 45 is the
-case $r=10$. A thread comment of 16 May 2026 notes that [Er80] has the
-interval open on the right ($n<x$), a difference that does not affect the
-question for large $n$. Whether the classes are chosen for every prime up
-to $n$ or only some does not matter, since an unused prime can take any
-class; the count is of classes containing the integer.
+erdosproblems.com adds "sufficiently large", as the discussion thread agreed on
+29 October 2025, since the claim fails for small $n$ (for $n=2$ the two integers
+cannot each lie in two of the single class modulo $2$). His 1980 survey ([Er80],
+p. 108, item 6) defines $f(x)$ as the largest integer for which one class per
+prime up to $x$ makes every integer $n<x$ satisfy at least $f(x)$ of the
+congruences and writes "I can not even prove that $f(x)\ge2$ for $x>x_0$"; the
+erdosproblems.com question is $f(n)\ge2$ for all large $n$, its commentary's
+$r$-fold question is Erdős's parenthesis and the survey's "perhaps $f(x)$ tends
+to infinity together with $x$", the version over all moduli up to $x$ is Problem
+1205, and Green's Problem 45 is the case $r=10$. A thread comment of 16 May 2026
+notes that [Er80] has the interval open on the right ($n<x$), a difference that
+does not affect the question for large $n$. Whether the classes are chosen for
+every prime up to $n$ or only some does not matter, since an unused prime can
+take any class; the count is of classes containing the integer.
 
-**Status.** Labeled open on the site, with pending full claims. The frontmatter
-standing `claimed`/`proved` derives from those claims, while the site kept the
-label OPEN. Its maintainer wrote in the thread on 2 June 2026 that two
-full-solution claims had been posted, both built on the sketch developed in the
-thread mainly by Sawhney and Tao. The maintainer wrote that they would wait for
-a refereed publication or a careful reading by an expert before changing the
-label. No refereed proof or disproof was found in the searches whose scope the
-Current assessment records.
+**Status.** Labeled open on erdosproblems.com, with pending full claims. The
+frontmatter standing `claimed`/`proved` derives from those claims, while
+erdosproblems.com kept the label OPEN. Its maintainer wrote in the thread on 2
+June 2026 that two full-solution claims had been posted, both built on the
+sketch developed in the thread mainly by Sawhney and Tao. The maintainer wrote
+that they would wait for a refereed publication or a careful reading by an
+expert before changing the label. No refereed proof or disproof was found in the
+searches whose scope the Current assessment records.
 
 Three claim pages record the pending claims. All answer yes for all large $n$,
 and all declare AI assistance. The first is for Zribi's notes of 25 April to 2
@@ -68,13 +67,13 @@ formalization of that manuscript's Theorem 1.1. The third is for their joint
 submission to the proof-claim tab of 21 July 2026, with a shorter version of 5
 September
 ([[problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki|claim page]]).
-None is refereed, accepted by the site or reviewed independently, so each is
-`claimed`. The results in hand are Erdős's questions, the thread's sketch of a
-construction for $r=2$ and its obstruction remarks for $r\ge3$, and the trivial
-bound that the multiplicity cannot exceed $(1+o(1))\log\log n$.
+None is refereed, accepted by erdosproblems.com or reviewed independently, so
+each is `claimed`. The results in hand are Erdős's questions, the thread's
+sketch of a construction for $r=2$ and its obstruction remarks for $r\ge3$, and
+the trivial bound that the multiplicity cannot exceed $(1+o(1))\log\log n$.
 
 **Source.** [erdosproblems.com/689](https://www.erdosproblems.com/689),
-accessed 2026-09-18: the problem page (OPEN, with the site's
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com
 note that no finite
 computation can settle it; last edited 8 April 2026; source keys [Er79d],
 [Er80, p. 108]; commentary citing Problems 687, 688 and 1205 and Green's
@@ -128,16 +127,16 @@ of formal-conjectures (the commit the link pins, main on 2026-10-07) declares
 `erdos_689 : answer(sorry) ↔ ∀ᶠ n in .atTop, ∃ a : ℕ → ℕ, ∀ m ∈ Finset.Icc 1 n, 2 ≤ (Finset.Icc 1 n |>.filter fun p => p.Prime ∧ a p ≡ m [MOD p]).card`
 under `category research open`, with proof `sorry`, no variant and no
 `formal_proof` attribute, the declaration unchanged since 2026-09-18; its
-header cites the site and Green's Problem 45. The community database, read
-2026-09-18, records the problem open (31 August 2025), the statement formalized
-since 31 August 2025, `formal_status` unformalized and no formal-proof URL.
-Nothing was built.
+header cites erdosproblems.com and Green's Problem 45. The community database,
+read 2026-09-18, records the problem open (31 August 2025), the statement
+formalized since 31 August 2025, `formal_status` unformalized and no
+formal-proof URL. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-OPEN, with the site's note that no finite computation can settle
-it; last edited 8 April 2026. The commentary, in this page's words: the
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it; last edited 8 April 2026. The commentary, in this page's words: the
 same question can be asked with $2$ replaced by any fixed $r$, for $n$
 large in terms of $r$; Problems 687 and 688 are related; with all integers
 as moduli instead of the primes the question is Problem 1205; and with $10$
@@ -162,13 +161,13 @@ $a_p\pmod p$, one for each prime $p\le N$, such that every integer $\le N$
 lies in at least $10$ of them?", with comments attributing the question to
 item 6 of Section 6 of [Er80], noting Erdős's remark that he could not
 answer it with $2$ in place of $10$, and pointing, in a 2025 update, to the
-site's page for the problem.
+erdosproblems.com page for the problem.
 
 **The thread's sketch and obstructions (forum items with dates; not
-status).** The discussion, oldest first, with accounts named as the site
-names them. 29 October 2025 (the account TerenceTao): choosing $0\bmod p$
-for all $p\le n/z$ leaves about $n\log\log z/\log n$ survivors with about
-$n/\log n$ congruences left, which in the best case would cover
+status).** The discussion, oldest first, with accounts named as
+erdosproblems.com names them. 29 October 2025 (the account TerenceTao): choosing
+$0\bmod p$ for all $p\le n/z$ leaves about $n\log\log z/\log n$ survivors with
+about $n/\log n$ congruences left, which in the best case would cover
 $\sum_{n/z\le p\le n}n/p\sim n\log z/\log n$ of them, so the recent methods
 for large gaps between primes ([Ma16], the 2016 paper of Ford, Green,
 Konyagin and Tao, and [FGKMT18]) might finish the problem; a reply the same
@@ -215,7 +214,7 @@ cannot exceed $(1+o(1))\log\log n$, which the author, to their surprise,
 could not improve at all. 29 October 2025 (BorisAlexeev): the [Er79d]
 passage quoted in full with the remark that it puts no condition on $n$,
 and the reading "for all sufficiently large $n$" agreed the same day. 3
-November 2025: the identification with Green's Problem 45 (the site was
+November 2025: the identification with Green's Problem 45 (erdosproblems.com was
 updated). 27 January 2026 (TerenceTao): progress here may also help with
 Problem 1139; a reply of 28 January 2026 (the account Przemek, Przemek
 Chojecki), described as a shortened version of a discussion with an AI
@@ -252,8 +251,8 @@ methods, the forum's checks and objections, and their standing, all
   the June version was called a full solution candidate after a forum check.
 - [[problems/integer_sequences/E0689/claims/2026_04_30_chojecki|Chojecki, 30 April 2026]]:
   [Ch26], a working manuscript dated 27 April 2026 whose Theorem 1.1 is the
-  site's statement for all large $n$, from the prime number theorem in
-  progressions, a Green--Tao count for the ternary system $q,q',bq'-aq$ and a
+  erdosproblems.com statement for all large $n$, from the prime number theorem
+  in progressions, a Green--Tao count for the ternary system $q,q',bq'-aq$ and a
   Selberg sieve for two linear forms; its argument (Sections 2--5) is not
   checked here. The claim page also carries, as a `formalization` link and not
   as a claim of its own, Xu's Lean 4 development registered on the Palomar
@@ -262,8 +261,8 @@ methods, the forum's checks and objections, and their standing, all
   count in place of Green--Tao; the registry replayed it in the Lean kernel
   against a challenge statement restating the formal-conjectures proposition,
   and says itself that it certifies neither novelty nor the match between formal
-  and informal statements and is not peer review (entry as of 2026-10-07; the
-  site showed the one proof claim; the community database said
+  and informal statements and is not peer review (entry as of 2026-10-07;
+  erdosproblems.com showed the one proof claim; the community database said
   open on 2026-10-05). Not built or audited here.
 - [[problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki|Zribi and Chojecki, 21 July 2026]]:
   the proof-claim tab's one entry, merging the two notes above, with a
@@ -273,16 +272,16 @@ methods, the forum's checks and objections, and their standing, all
   formalization on an automated prover's dashboard, a
   manuscript link that returned the editor's generic page on 2026-09-18, and
   ten comments to 5 September 2026, when a substantially shorter version
-  was posted and the site's maintainer asked why the method stops at two
-  hits. The tab warns that listing a claim guarantees nothing about its
-  correctness and does not mean that anyone connected with the site has
+  was posted and the erdosproblems.com maintainer asked why the method stops at
+  two hits. The tab warns that listing a claim guarantees nothing about its
+  correctness and does not mean that anyone connected with erdosproblems.com has
   examined it.
-- 2 June 2026, pinned (the site's maintainer): the comment summarized under
-  Status, which also closes the thread to further AI-generated elaborations
-  of the Sawhney--Tao sketch.
+- 2 June 2026, pinned (the erdosproblems.com maintainer): the comment summarized
+  under Status, which also closes the thread to further AI-generated
+  elaborations of the Sawhney--Tao sketch.
 
 Acceptance evidence for the claims: none. No refereed publication, arXiv
-version, independent expert review or site acceptance was found on
+version, independent expert review or erdosproblems.com acceptance was found on
 2026-09-18 or 2026-10-07; the maintainer's pinned comment defers the label
 to a refereed publication or an expert's reading. The standing is
 `claimed`, derived from the three pending full claims; if any is accepted
@@ -292,27 +291,27 @@ that the corpus has not built, not acceptance of the informal claim.
 
 **Bounds map.** Erdős's question is whether $f(n)\ge2$ for all large $n$ in
 the survey's notation; the trivial pigeonhole bound gives
-$f(n)\le(1+o(1))\log\log n$ (thread, 31 October 2025; the site's author of
-that comment could not improve it); the thread's sketch argues that $r=2$
-is within reach of the linear-equations-in-primes and hypergraph covering
-methods and that $r\ge3$ meets a sieve obstruction at the primes up to
+$f(n)\le(1+o(1))\log\log n$ (thread, 31 October 2025; erdosproblems.com's author
+of that comment could not improve it); the thread's sketch argues that $r=2$ is
+within reach of the linear-equations-in-primes and hypergraph covering methods
+and that $r\ge3$ meets a sieve obstruction at the primes up to
 $n^{1/2-\varepsilon}$; nothing is proved either way in a refereed source.
-Problem 1205 (all moduli) was settled on the site with $F(x)\sim\log x$. A
-positive answer here gives, by the Chinese remainder theorem, intervals of
-length $n$ free of primes and semiprimes at a height of about $e^{n}$, that
-is, gaps of the order of $\log k$ in the notation of Problem 1139, which
-asks for $(u_{k+1}-u_k)/\log k$ unbounded; Problem 1139 therefore needs a
-relaxed construction that uses fewer primes (thread, 28 January 2026).
+Problem 1205 (all moduli) was settled on erdosproblems.com with
+$F(x)\sim\log x$. A positive answer here gives, by the Chinese remainder
+theorem, intervals of length $n$ free of primes and semiprimes at a height of
+about $e^{n}$, that is, gaps of the order of $\log k$ in the notation of Problem
+1139, which asks for $(u_{k+1}-u_k)/\log k$ unbounded; Problem 1139 therefore
+needs a relaxed construction that uses fewer primes (thread, 28 January 2026).
 
 **Search scope.** None of the routes below found a
 refereed proof or disproof, a refereed version of either claim, or a
 review of them.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `689.lean` and the community database
   (2026-09-18).
-- On 2026-10-07: the site's page and the thread (unchanged); the Palomar
-  registry's JSON entry `PALOMAR-2026-09-20-000002`; formal-conjectures
+- On 2026-10-07: the erdosproblems.com page and the thread (unchanged); the
+  Palomar registry's JSON entry `PALOMAR-2026-09-20-000002`; formal-conjectures
   `689.lean` at the commit the link pins (declaration unchanged).
 - Green's list fetched once from the author's page (HTTP 200), Problem 45;
   [Ch26] fetched once (HTTP 200), title page and Section 1; one request to
@@ -330,7 +329,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X; the file-sharing
 notes, the shared AI transcripts and the prover dashboard linked in the
 thread and on the tab. Not held: [Ka96], Ford's lecture notes.
 
-**Remaining gaps.** (1) The problem was open on the site while three
+**Remaining gaps.** (1) The problem was open on erdosproblems.com while three
 AI-assisted full-solution claims stand unreviewed on their claim pages; an
 independent whole-argument review or a refereed publication of any of them is
 the reopening condition. (2) The thread's sketch and obstruction remarks are

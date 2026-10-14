@@ -4,7 +4,7 @@ title: Thomassen proves every planar graph is 5-choosable
 desc: |
   Thomassen (J. Combin. Theory Ser. B 1994) proves that every planar graph has
   list chromatic number at most $5$, answering the first question yes. The claim
-  is accepted on the refereed publication and the site's credit.
+  is accepted on the refereed publication and the erdosproblems.com credit.
 authors:
 - C. Thomassen
 status: accepted
@@ -34,8 +34,8 @@ updated: 2026-10-07T21:55:30Z
 [[problems/graph_coloring/E0631/_index|Problem 631]] has the answer yes: every
 planar graph $G$ satisfies $\chi_L(G)\le 5$. The claimed result is the theorem
 of Thomassen, *Every planar graph is $5$-choosable*, a two-page paper. Its
-statement is as the site and the later literature credit it, for instance as
-Theorem 1.2 of
+statement is as erdosproblems.com and the later literature credit it, for
+instance as Theorem 1.2 of
 [[../library/graph_coloring/gutner_1996_complexity_planar_graph_choosability/_index|Gutner 1996]].
 
 **Covers.** The first question only: the upper bound $\chi_L(G)\le 5$ for
@@ -47,9 +47,9 @@ settled separately by
 **Acceptance.** Refereed publication: J. Combin. Theory Ser. B 62 (1994), no. 1,
 180--181, doi:10.1006/jctb.1994.1062. The Crossref record dates the issue to
 September 1994 without a day, so the page takes the first of that month as its
-date. The site's curator, T. F. Bloom, labeled the problem proved and credits
-[Th94] for the bound. The page lists this credit as `reviewed`. The question was
-raised by Erdős, Rubin and Taylor in
+date. The erdosproblems.com curator, T. F. Bloom, labeled the problem proved and
+credits [Th94] for the bound. The page lists this credit as `reviewed`. The
+question was raised by Erdős, Rubin and Taylor in
 [[../library/graph_coloring/erdos_1980_choosability_graphs/_index|Choosability in graphs]]
 (1980). They conjectured both the bound and its sharpness.
 

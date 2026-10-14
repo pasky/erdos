@@ -90,10 +90,10 @@ so none is `formalized` evidence here.
   development, and declares itself a formalization of the conditional
   argument linked from the thread.
 
-**Standing.** The site's curator, Thomas Bloom, wrote on 11 May 2026 that
-Bloom had no reason to doubt these asymptotics but had not examined the longer
-proof carefully; the site's Lean qualification dates from that day and
-refers to Turturean's axiomatized development. One forum user reported a
+**Standing.** The erdosproblems.com curator, Thomas Bloom, wrote on 11 May 2026
+that Bloom had no reason to doubt these asymptotics but had not examined the
+longer proof carefully; the erdosproblems.com Lean qualification dates from that
+day and refers to Turturean's axiomatized development. One forum user reported a
 machine check of the write-up that found no issue and, after the Lean release,
 a machine check confirming the Lean file with its three axioms; another wrote
 that the axiomatized statements and the proof seemed correct, without

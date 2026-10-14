@@ -47,7 +47,7 @@ integers", printed with the volume "9" where the paper is Proc. London
 Math. Soc. (3) 21 (1970), 97--101, filed as
 [[integer_sequences/erdos_1970_divisibility_properties_sequences_integers/_index|erdos_1970_divisibility_properties_sequences_integers]].
 An earlier paper of Erdős carries the same title (Congressus Numerantium
-23 (1979), 19--37, the site's key Er79g), filed as
+23 (1979), 19--37, the erdosproblems.com key Er79g), filed as
 [[ramsey_theory/erdos_1979_some_old_new_problems_various_branches_combinatorics/_index|erdos_1979_some_old_new_problems_various_branches_combinatorics]];
 the two texts share item 1's triangle conjecture, which the 1979
 typescript states as item 7.IV on its page headed 16 (PDF p. 15) for a
@@ -249,7 +249,7 @@ reviewed.
     $h$; no construction, proof or reference is printed for either bound.
     The student's name is printed in the Hungarian order, family name
     first, so the given name is Csaba and the family name Sándor; the
-    site's phrase "Csaba's construction" takes the given name for the
+    erdosproblems.com phrase "Csaba's construction" takes the given name for the
     surname. That this is the C. Sándor among the authors of the 1999
     paper of Erdős, Lev, Rauzy, Sándor and Sárközy, filed as
     [[divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/_index|erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums]],
@@ -297,14 +297,14 @@ author's word here.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0129/_index|#129]]: item 2 (printed
 p. 228, PDF p. 2, page image) is the origin passage of the problem: the
-function $f_k^{(r)}(n)$, whose value plus one is the site's $R(n;k,r)$,
+function $f_k^{(r)}(n)$, whose value plus one is erdosproblems.com's $R(n;k,r)$,
 the probabilistic lower bound (1) $f_3^{(r)}(n)>\exp(c_1n^{1/2})$, the
-conjecture (2) $f_3^{(r)}(n)<\exp(c_2n^{1/2})$, which is the site's
+conjecture (2) $f_3^{(r)}(n)<\exp(c_2n^{1/2})$, which is erdosproblems.com's
 displayed statement, and the expectation (3) with exponent $1/(k-1)$,
-the site's $C_1^{n^{1/k-1}}<R(n;k,r)<C_2^{n^{1/k-1}}$; the site
-transcribes the paper faithfully, and the random-coloring argument on
-the problem page refutes (2) as printed. No proof of (1) is printed, and
-the joint paper with Gyárfás that the item promises is not identified.
+erdosproblems.com's $C_1^{n^{1/k-1}}<R(n;k,r)<C_2^{n^{1/k-1}}$;
+erdosproblems.com transcribes the paper faithfully, and the random-coloring
+argument on the problem page refutes (2) as printed. No proof of (1) is printed,
+and the joint paper with Gyárfás that the item promises is not identified.
 [[../wiki/problems/integer_sequences/E0012/_index|#12]]: item 9 (p. 230, PDF p. 4, page
 image), the infinite property-P sequence with the growth question (printed
 "$a_n>n^2$ for all $n>n_0$", read as $a_n<n^2$), the exponent question
@@ -316,21 +316,21 @@ larger".
 [[../wiki/problems/integer_sequences/E0013/_index|#13]]: item 9 (p. 230, PDF p. 4, page
 image), the finite conjecture $\max k\le m/3+O(1)$ for
 $a_1<a_2<\cdots<a_k\le m$ with no $a_i$ dividing the sum of two larger
-$a$'s, with the example $2m/3<a_i\le m$ showing it best possible, the
-site's $N/3+O(1)$ form of the conjecture with the half-open example; no
-prize is printed, so this is not the "final open problems paper" in which,
-by Bedert's account (p. 2), Erdős offers a prize.
+$a$'s, with the example $2m/3<a_i\le m$ showing it best possible,
+erdosproblems.com's $N/3+O(1)$ form of the conjecture with the half-open
+example; no prize is printed, so this is not the "final open problems paper" in
+which, by Bedert's account (p. 2), Erdős offers a prize.
 [[../wiki/problems/integer_sequences/E0131/_index|#131]]: item 10 (pp. 230--231, PDF
 pp. 4--5, page images), the finite non-dividing problem: $f(n)<cn^{1/2}$
 "is easy", the Budapest student's $f(n)>cn^{1/5}$, and the question
-whether $f(n)>n^{1/2-\varepsilon}$, the problem's displayed question; the
-site's p. 230 locator for "Csaba's construction" points at an attribution
-with no construction printed.
+whether $f(n)>n^{1/2-\varepsilon}$, the problem's displayed question;
+erdosproblems.com's p. 230 locator for "Csaba's construction" points at an
+attribution with no construction printed.
 [[../wiki/problems/distance_problems/E0130/_index|#130]]: item 5 (p. 229, PDF p. 3, page
 image), the Andrásfai--Erdős integer-distance graph on an infinite plane
 set with no three points on a line and no four on a circle, the questions
 whether its chromatic number can be infinite, how large it can be
-otherwise, and the largest complete subgraph, in the site's wording.
+otherwise, and the largest complete subgraph, in the erdosproblems.com wording.
 [[../wiki/problems/extremal_graph_theory/E0133/_index|#133]]: item 7 (p. 229, PDF p. 3,
 page image), the definition of $f(n)$, the Erdős--Pach conjecture
 $f(n)/n^{1/2}\to\infty$ and Simonovits's Kneser graph with $f(n)<n^{1-c}$
@@ -345,11 +345,11 @@ the stronger conjecture of $c_2m$ points with all distances distinct.
 [[../wiki/problems/graph_coloring/E0057/_index|#57]]: item 3 (p. 228, PDF p. 2, page
 image), the Erdős--Hajnal conjecture "Is it true that $\sum1/b_i=\infty$?"
 for the odd cycle lengths of a graph of infinite chromatic number, with
-the upper-density question, one of the site's keys for the problem.
+the upper-density question, one of the erdosproblems.com keys for the problem.
 [[../wiki/problems/graph_coloring/E0063/_index|#63]]: item 3 (p. 228, PDF p. 2, page
 image), the Erdős--Mihók conjecture that a graph of infinite chromatic
 number contains cycles of length $2^k$ for infinitely many $k$, one of the
-site's keys for the problem.
+erdosproblems.com keys for the problem.
 [[../wiki/problems/graph_coloring/E0074/_index|#74]]: item 4 (pp. 228--229, PDF pp. 2--3,
 page images), the Erdős--Hajnal--Szemerédi question with the two
 prize offers; the paper asks it of induced subgraphs on $n$ vertices

@@ -29,9 +29,9 @@ updated: 2026-10-07T13:49:26Z
 ***
 
 **Claim.** Let $G_n$ be the unit distance graph of $\mathbb R^n$. Frankl and
-Wilson prove that $\chi(G_n)$ grows exponentially in $n$: the site's remark
-states their bound as $\chi(G_n)\ge(1+o(1))\,1.2^n$, and Raigorodskii's 2000
-note
+Wilson prove that $\chi(G_n)$ grows exponentially in $n$: the erdosproblems.com
+remark states their bound as $\chi(G_n)\ge(1+o(1))\,1.2^n$, and Raigorodskii's
+2000 note
 ([[../library/discrete_geometry/raigorodskii_2000_chromatic_number_space/_index|card]])
 cites it as $(1.207+o(1))^n$. This answers yes the second question of
 [[problems/discrete_geometry/E0704/_index|Problem 704]]. The bound is a
@@ -65,6 +65,7 @@ open.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper is refereed. It appeared in Combinatorica, volume 1
-(1981). The site labeled the problem OPEN. Its remark (page last edited 10 April
+(1981). Bloom's catalog labeled the problem OPEN. Its remark (page last edited
+10 April
 2026) credits Frankl and Wilson with the exponential growth. A remark on an open
 problem is not an acceptance, so no `reviewed` evidence is listed.

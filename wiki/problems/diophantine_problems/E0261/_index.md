@@ -39,14 +39,15 @@ $$
 
 has at least $2^{\aleph_0}$ solutions?
 
-**Status.** Open. The site labeled the problem OPEN; its page, accessed
+**Status.** Open. Bloom's catalog labeled the problem OPEN; its page, accessed
 2026-10-07, was last edited 1 December 2025. The three questions are the parts
 `infinitely_many`, `all_n` and `continuum` of the frontmatter. No claim settles
 or pends on the second or the third question, so the derived standing is open,
-claim none. The site's remarks credit Borwein and Loring [BoLo90] with an
-identity giving infinitely many $n$, which answers the first question yes. They
-credit Tengely, Ulas and Zygadło [TUZ20] with a check of the second question for
-every $n\le10000$. Both are refereed results with accepted partial claim pages,
+claim none. The erdosproblems.com remarks credit Borwein and Loring [BoLo90]
+with an identity giving infinitely many $n$, which answers the first question
+yes. They credit Tengely, Ulas and Zygadło [TUZ20] with a check of the second
+question for every $n\le10000$. Both are refereed results with accepted partial
+claim pages,
 [[problems/diophantine_problems/E0261/claims/1990_01_01_borwein_loring|Borwein and Loring 1990]]
 and
 [[problems/diophantine_problems/E0261/claims/2020_08_04_tengely_ulas_zygadlo|Tengely, Ulas and Zygadło 2020]].
@@ -85,15 +86,15 @@ formal proof. The corpus has not built any of these files.
 
 ## Current assessment
 
-**The question (site formulation as accessed 2026-10-07).** The three
-questions above; last edited 1 December 2025; source keys [Er74b], [ErGr80]
-and [Er88c, p. 104]; the site relates the problem to
-[[problems/irrationality/E0260/_index|Problem 260]]. The site's last label was
-OPEN. The remarks record Cusick's unpublished proof for the first question,
-Borwein and Loring's identity, the check of every $n\le10000$ by Tengely, Ulas
-and Zygadło, and Erdős's weakening of the third question to a rational with two
-representations. The thread has three comments (14 August 2025 to 5 May 2026)
-and the proof-claim tab was empty.
+**The question (erdosproblems.com formulation as accessed 2026-10-07).** The
+three questions above; last edited 1 December 2025; source keys [Er74b],
+[ErGr80] and [Er88c, p. 104]; erdosproblems.com relates the problem to
+[[problems/irrationality/E0260/_index|Problem 260]]. erdosproblems.com's last
+label was OPEN. The remarks record Cusick's unpublished proof for the first
+question, Borwein and Loring's identity, the check of every $n\le10000$ by
+Tengely, Ulas and Zygadło, and Erdős's weakening of the third question to a
+rational with two representations. The thread has three comments (14 August 2025
+to 5 May 2026) and the proof-claim tab was empty.
 
 **Origin.** Erdős and Graham [ErGr80] ask whether $n/2^n$ is a sum of at
 least two distinct terms $a_k/2^{a_k}$ for infinitely many $n$, whether it
@@ -135,7 +136,7 @@ a variant and settles no part of the question, and
 [[problems/diophantine_problems/E0261/claims/2026_04_27_zeraoulia|its claim page]]
 records it as rejected.
 
-**Search scope.** The site's problem page, its discussion
+**Search scope.** The erdosproblems.com problem page, its discussion
 thread and its proof-claim tab; the community database record; the
 formal-conjectures file at the revision linked above; the Crossref records
 of [BoLo90] and [TUZ20] and the arXiv listing of 2008.01501; the library
@@ -143,8 +144,8 @@ cards of [BoLo90] and [TUZ20]. Not searched: MathSciNet, zbMATH, Google
 Scholar, X.
 
 **Proof coverage.** The library holds no file of [BoLo90], [Er88c] or
-[TUZ20]; the results are recorded from the library cards and the site, and
-no proof or computation is checked in this corpus.
+[TUZ20]; the results are recorded from the library cards and erdosproblems.com,
+and no proof or computation is checked in this corpus.
 
 ## Progress and known results
 

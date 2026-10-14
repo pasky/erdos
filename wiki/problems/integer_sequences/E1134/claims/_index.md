@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1134, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E1134/claims
@@ -16,8 +16,8 @@ Hilton's 1972 negative answer: the set has $O(T^{\tau_1+\epsilon})$ elements
 up to $T$, with $\tau_1\approx0.900526$, so it has density zero. It is
 refereed and accepted by the curator.
 
-[[problems/integer_sequences/E1134/claims/2026_06_19_axiommath|2026_06_19_axiommath]]: AxiomProver's Lean 4 file, posted to the site's thread in June 2026, proves
-that the set generated from $1$ by $2x+1$, $3x+1$ and $6x+1$ has lower density
-zero. This corpus has not built or audited it.
+[[problems/integer_sequences/E1134/claims/2026_06_19_axiommath|2026_06_19_axiommath]]: AxiomProver's Lean 4 file, posted to the erdosproblems.com thread in June
+2026, proves that the set generated from $1$ by $2x+1$, $3x+1$ and $6x+1$ has
+lower density zero. This corpus has not built or audited it.
 
 ***

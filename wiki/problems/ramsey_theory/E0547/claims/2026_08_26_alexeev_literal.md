@@ -1,11 +1,11 @@
 ---
 name: problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal
-title: Lean disproofs of the site's wording at the one-vertex tree
+title: Lean disproofs of the erdosproblems.com wording at the one-vertex tree
 desc: |
-  Answers the site's wording (every $n$, the one-vertex tree included), not the
-  modified Statement (trees on $n\ge2$ vertices), so it does not count toward
-  the problem's standing. Two Lean theorems in Alexeev's repository prove the
-  site's wording false for the one-vertex tree.
+  Answers the erdosproblems.com wording (every $n$, the one-vertex tree
+  included), not the modified Statement (trees on $n\ge2$ vertices), so it does
+  not count toward the problem's standing. Two Lean theorems in Alexeev's
+  repository prove the erdosproblems.com wording false for the one-vertex tree.
 authors:
 - Boris Alexeev
 status: rejected
@@ -26,8 +26,8 @@ updated: 2026-10-07T23:37:26Z
 ***
 
 **Claim.** The statement of [[problems/ramsey_theory/E0547/_index|Problem
-547]] as the site prints it, with no range on $n$, is false. For $n=1$ the
-tree is $K_1$ and the host $K_{2n-2}$ is $K_0$, which has no vertex, so
+547]] as erdosproblems.com prints it, with no range on $n$, is false. For $n=1$
+the tree is $K_1$ and the host $K_{2n-2}$ is $K_0$, which has no vertex, so
 neither color class of a two-coloring of $K_0$ contains a copy of $K_1$, and
 $R(K_1)=1>0=2n-2$. Two Lean developments in Boris Alexeev's repository of Lean
 proofs, both added on 2026-08-26 and linked above at a pinned commit, prove
@@ -49,16 +49,16 @@ formalization link on
 
 **Depends on.** No page of this wiki.
 
-**Why it is rejected.** It answers the site's wording, not the modified
-Statement. [[problems/ramsey_theory/E0547/_index|Problem 547]] judges its
-modified Statement, the bound for every tree on $n\geq2$ vertices, which
+**Why it is rejected.** It answers the erdosproblems.com wording, not the
+modified Statement. [[problems/ramsey_theory/E0547/_index|Problem 547]] judges
+its modified Statement, the bound for every tree on $n\geq2$ vertices, which
 excludes exactly the one-vertex tree; the problem page's Notes give the
 evidence for that reading. The failure at $n=1$ therefore settles no instance
 of the modified Statement. The problem page's Notes credit the result.
 
 **Standing.** Rejected. The failure needs no source: it is the check written
-in the Claim above, and Hua Xu noted it in the site's discussion on 1 May
-2026, and the site has not addressed it. No outside reviewer has examined
-either file, and this corpus has not built them, so they give formalization
-links and no `formalized` evidence; a build would leave the rejection
-unchanged, since the rejection concerns what the theorems answer.
+in the Claim above, and Hua Xu noted it in the erdosproblems.com discussion on 1
+May 2026, and erdosproblems.com has not addressed it. No outside reviewer has
+examined either file, and this corpus has not built them, so they give
+formalization links and no `formalized` evidence; a build would leave the
+rejection unchanged, since the rejection concerns what the theorems answer.

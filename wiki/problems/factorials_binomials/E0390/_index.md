@@ -34,15 +34,15 @@ $$
 f(n)-2n \sim c\frac{n}{\log n}?
 $$
 
-**Status.** Claimed, proved. The site labeled the problem OPEN (LEAN) and
-credits no solution. The qualification records Wang's Lean development. The
-site's community database lists it (2026-08-28) as machine-checked against
-Mathlib and bridged to the formal-conjectures statement. The database leaves the
-informal status open until a human reader has digested it. The standing derives
-from the claim pages: the problem is `claimed`, `proved`, through the one
-pending full
-claim, [[problems/factorials_binomials/E0390/claims/2026_07_18_wang|Wang 2026]].
-This is a manuscript found by GPT-5.6 Sol. It asserts that
+**Status.** Claimed, proved. Bloom's catalog labeled the problem OPEN (LEAN) and
+credits no solution. The qualification records Wang's Lean development.
+erdosproblems.com's community database lists it (2026-08-28) as machine-checked
+against Mathlib and bridged to the formal-conjectures statement. The database
+leaves the informal status open until a human reader has digested it. The
+standing derives from the claim pages: the problem is `claimed`, `proved`,
+through the one pending full claim,
+[[problems/factorials_binomials/E0390/claims/2026_07_18_wang|Wang 2026]]. This
+is a manuscript found by GPT-5.6 Sol. It asserts that
 $f(n)-2n\sim C_0\,n/\log n$ with $C_0=4029639598/25970038185$. It comes with
 that Lean development, which this corpus has not built, and with no outside
 reviewer's acceptance. Two partial claims are pending.

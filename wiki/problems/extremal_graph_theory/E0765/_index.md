@@ -23,8 +23,8 @@ updated: 2026-10-08T14:17:37Z
 
 **Statement.** Give an asymptotic formula for $\mathrm{ex}(n;C_4)$.
 
-**Status.** The site labeled the problem SOLVED (LEAN). The asymptotic formula
-is the 1966 theorem of Erdős, Rényi and Sós, recorded on the claim page
+**Status.** Bloom's catalog labeled the problem SOLVED (LEAN). The asymptotic
+formula is the 1966 theorem of Erdős, Rényi and Sós, recorded on the claim page
 [[problems/extremal_graph_theory/E0765/claims/1966_01_01_erdos_renyi_sos|Erdős, Rényi and Sós]].
 Brown's independent proof of the same year is recorded on the claim page
 [[problems/extremal_graph_theory/E0765/claims/1966_08_01_brown|Brown]]. The
@@ -40,8 +40,8 @@ https://www.erdosproblems.com/765.
 
 - [Br66] Brown, W. G., On graphs that do not contain a Thomsen graph. Canad.
   Math. Bull. 9 (1966), no. 3, 281--285; Section 3, pp. 284--285, the
-  independent proof of the asymptotic. Not among the site's reference keys.
-  Library home:
+  independent proof of the asymptotic. Not among the erdosproblems.com reference
+  keys. Library home:
   [[../library/extremal_graph_theory/brown_1966_graphs_that_do_not_contain_thomsen/_index|brown_1966_graphs_that_do_not_contain_thomsen]].
 - [Er38] P. Erdős, On sequences of integers no one of which divides the product
   of two others and on related problems. Tomsk. Gos. Univ. Ucen Zap. (1938),
@@ -74,11 +74,11 @@ asymptotic $\operatorname{ex}(n;C_4)\sim\tfrac12n^{3/2}$ as `erdos_765`,
 tags it `research solved` and names as its formal proof the file
 `src/latest/ErdosProblems/Erdos765.lean` of Boris Alexeev's lean-proofs
 repository (plby/lean-proofs), the adaptation of the gist announced in the
-site's thread on 16 May 2026; the site's page shows a formalized statement,
-and the community database records the problem formalized since 2026-09-18.
-The file also states, as the variant `erdos_765.variants.second_term` with
-answer False, tagged `research solved` and without a formal proof, Erdős's
-[Er93] conjecture
+erdosproblems.com thread on 16 May 2026; the erdosproblems.com page shows a
+formalized statement, and the community database records the problem formalized
+since 2026-09-18. The file also states, as the variant
+`erdos_765.variants.second_term` with answer False, tagged `research solved` and
+without a formal proof, Erdős's [Er93] conjecture
 $\operatorname{ex}(n;C_4)=\tfrac12n^{3/2}+\tfrac n4+O(n^{1/2})$, citing
 [MaYa23]. The development's header names Reiman, Erdős, Rényi and Brown as
 its informal authors, following Aigner and Ziegler's exposition, so its
@@ -90,16 +90,16 @@ and
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** The statement above;
-SOLVED (LEAN); last edited 14 October 2025. The commentary, in this page's
-words: Erdős and Klein gave the order $n^{3/2}$, Reiman bounded the
+**The question (erdosproblems.com formulation of 2026-09-04).** The statement
+above; SOLVED (LEAN); last edited 14 October 2025. The commentary, in this
+page's words: Erdős and Klein gave the order $n^{3/2}$, Reiman bounded the
 constant, and the polarity construction of Erdős and Rényi and,
 independently, Brown, with Reiman's upper bound, gives
 $\operatorname{ex}(n;C_4)\sim\tfrac12n^{3/2}$; it also records Füredi's
 exact values at the orders $q^2+q+1$, Erdős's stronger second-term
 conjecture and its disproof by Ma and Yang.
 
-**Which results are claims.** The other results the site's commentary
+**Which results are claims.** The other results the erdosproblems.com commentary
 credits settle no instance of the question, which asks for the leading
 asymptotic: [Er38] gives the order $n^{3/2}$, [Re58] bounds the constant
 between $1/(2\sqrt2)$ and $\tfrac12$, [Er75] bounds the second term from
@@ -133,8 +133,8 @@ spectral quantities and spanning trees, which has different extremal
 targets and does not revise this result, and no relevant X announcement.
 This corpus has not checked the publisher's full proof and has not built
 the external formal artifact. These search limits do not change the classical
-source-supported leading asymptotic. The site's discussion thread holds,
-besides the formalization announcement of 16 May 2026 recorded under
+source-supported leading asymptotic. The erdosproblems.com discussion thread
+holds, besides the formalization announcement of 16 May 2026 recorded under
 Progress, comments pointing at the Ma--Yang paper, at a 2024 preprint on
 extremal graphs found by search methods (arXiv:2311.03583) and at Bondy and
 Murty's textbook (thread, accessed 2026-10-07); none bears on the leading
@@ -163,8 +163,8 @@ and [[problems/extremal_graph_theory/E0765/claims/1966_08_01_brown|Brown]],
 from which the frontmatter's `claim: answered` derives; the leading formula
 does not assert a linear second term.
 
-The site's label SOLVED (LEAN) is catalog data, not a native verification
-record. The announcement by Jeremy Tan Jie Rui (the forum account
+The erdosproblems.com label SOLVED (LEAN) is catalog data, not a native
+verification record. The announcement by Jeremy Tan Jie Rui (the forum account
 parclytaxel) on 16 May 2026 in the problem's thread links a gist, written
 with the prover Aristotle, proving the
 leading asymptotic with one axiom, `prime_between` (a prime in

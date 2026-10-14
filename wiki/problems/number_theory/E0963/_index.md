@@ -29,7 +29,8 @@ $$
 f(n)\geq \lfloor \log_2 n\rfloor?
 $$
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 23 January
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 23
+January
 2026) and notes that no finite computation can settle it.
 
 **Source.** [erdosproblems.com/963](https://www.erdosproblems.com/963), accessed
@@ -46,17 +47,17 @@ https://www.erdosproblems.com/963.
   [[../library/additive_combinatorics/erdos_1965_extremal_problems_number_theory/_index|erdos_1965_extremal_problems_number_theory]].
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999);
-  the site cites item 1.22.
+  erdosproblems.com cites item 1.22.
 
 **Formalization.** No external statement recorded.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 23 January 2026).** The
-statement above; OPEN. The site's one remark records that Erdős noted the
-greedy bound $f(n)\ge\lfloor\log_3 n\rfloor$. In [Er65] (p. 188) he calls
-the bound not difficult and prints no proof; the greedy argument, worked out
-on
+**The question (erdosproblems.com formulation, page last edited 23 January
+2026).** The statement above; OPEN. erdosproblems.com's one remark records that
+Erdős noted the greedy bound $f(n)\ge\lfloor\log_3 n\rfloor$. In [Er65] (p. 188)
+he calls the bound not difficult and prints no proof; the greedy argument,
+worked out on
 [[../library/additive_combinatorics/erdos_1965_extremal_problems_number_theory/_index|the card for that paper]],
 takes a maximal dissociated $B\subseteq A$, so that every element of $A$ is
 a combination of elements of $B$ with coefficients in $\{-1,0,1\}$ and
@@ -84,7 +85,7 @@ The finite comparison below rules out the initial interval as a universal
 minimizer of the largest dissociated-subset size. It does not resolve the
 logarithmic lower-bound question.
 
-The site's discussion thread carries two arguments, neither a dated
+The erdosproblems.com discussion thread carries two arguments, neither a dated
 manuscript, so neither gets a claim page; the
 [[../library/additive_combinatorics/erdos_problems_2026_problem_963_discussion/_index|discussion card]]
 records the thread. In post 2027 (5 December 2025) KoishiChan claims that
@@ -94,8 +95,8 @@ finds well-populated progression cells through a character-sum second
 moment. The replies report an off-by-one defect, which the author says is
 fixed by lowering a parameter by one, and a review carried out with ChatGPT
 Pro, as the post names it, which found minor issues; on 23 January 2026 the
-site's curator, Thomas Bloom, wrote in post 3664 that the argument looked
-good and asked for a formal write-up; the site labeled the problem
+erdosproblems.com curator, Thomas Bloom, wrote in post 3664 that the argument
+looked good and asked for a formal write-up; Bloom's catalog labeled the problem
 OPEN and lists no proof claim (page last edited 23 January 2026). The bound
 is recorded here as an unverified community claim: an asymptotic lower
 bound, which would not by itself decide the $\lfloor\log_2 n\rfloor$
@@ -106,11 +107,12 @@ dissociated subset among $n$-element real sets, which post 3662 rejects and
 the 13-element example below refutes, so the argument gives neither a proof
 nor a disproof of the problem.
 
-Search scope, with the sources as they stood on 2026-10-06: the site's problem
-page (OPEN, last edited 23 January 2026, source keys [Er65] and [Va99, 1.22], no
-proof claims) and its discussion thread of 20 posts through 3 September 2026;
-the community database listed the problem as open and unformalized as of its
-last update, and formal-conjectures had no statement file for it.
+Search scope, with the sources as they stood on 2026-10-06: the
+erdosproblems.com problem page (OPEN, last edited 23 January 2026, source keys
+[Er65] and [Va99, 1.22], no proof claims) and its discussion thread of 20 posts
+through 3 September 2026; the community database listed the problem as open and
+unformalized as of its last update, and formal-conjectures had no statement file
+for it.
 
 ## Known Results
 

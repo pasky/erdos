@@ -30,7 +30,7 @@ for $i=3$, $A=\{0,y\}$ for a nonzero, past-measurable $y$.
 Let $\tau_m$ be the first time a site in the fresh translated path
 has accumulated $m$ visits, counting its time-zero visit.
 If that fresh path avoids $A$ at every positive time through $\tau_m$,
-the site reaching $m$ is outside the previous favorites. Its old visits
+erdosproblems.com reaching $m$ is outside the previous favorites. Its old visits
 can only accelerate the creation of the next level-$m$ site. Therefore
 $U_m^i$ has occurred by that time. The strong Markov property gives
 

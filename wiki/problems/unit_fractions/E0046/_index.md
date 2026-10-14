@@ -25,16 +25,16 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Does every finite colouring of the integers have a monochromatic
 solution to $1=\sum \frac{1}{n_i}$ with $2\leq n_1<\cdots <n_k$?
 
-**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 7
-April 2026). The coloring uses finitely many colors; a solution is a finite set
-of distinct integers $n_1<\cdots<n_k$, all at least $2$, of one color, with the
-number of terms $k\ge1$ free. Integers below $2$ never occur in a solution, so
-their colors play no role.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
+edited 7 April 2026). The coloring uses finitely many colors; a solution is a
+finite set of distinct integers $n_1<\cdots<n_k$, all at least $2$, of one
+color, with the number of terms $k\ge1$ free. Integers below $2$ never occur in
+a solution, so their colors play no role.
 
-**Status.** Proved. The site records "PROVED (LEAN)". The Lean suffix is a
-catalog label qualified under Existing formalization below, and no local kernel
-credit is claimed. Croot's coloring theorem (Annals of Mathematics 157 (2003))
-gives an interval $[2,b^r]$ such that every $r$-coloring of it has a
+**Status.** Proved. erdosproblems.com records "PROVED (LEAN)". The Lean suffix
+is a catalog label qualified under Existing formalization below, and no local
+kernel credit is claimed. Croot's coloring theorem (Annals of Mathematics 157
+(2003)) gives an interval $[2,b^r]$ such that every $r$-coloring of it has a
 monochromatic set with reciprocal sum one. Restricting a coloring of the
 integers to that interval answers the question. Bloom's theorem on sets of
 positive upper density gives a second route. The claim pages
@@ -46,8 +46,8 @@ above derives.
 **Source.** [erdosproblems.com/46](https://www.erdosproblems.com/46),
 accessed 2026-09-17: the problem page (PROVED (LEAN); last edited 7 April
 2026), its discussion thread (one comment, of 20 June 2026) and its empty
-proof-claim tab. The site cites [Er77c], [Er80, p. 105], [ErGr80, p. 36],
-[Er92c], [Er95], [Er96b] and [Er97c] as the problem's sources and [Cr03] in
+proof-claim tab. erdosproblems.com cites [Er77c], [Er80, p. 105], [ErGr80, p.
+36], [Er92c], [Er95], [Er96b] and [Er97c] as the problem's sources and [Cr03] in
 its commentary, and links Problem 298. Cite as: T. F. Bloom, Erdős Problem
 #46, https://www.erdosproblems.com/46, accessed 2026-09-17.
 
@@ -72,7 +72,7 @@ its commentary, and links Problem 298. Cite as: T. F. Bloom, Erdős Problem
   [[../library/integer_sequences/erdos_1977_problems_results_combinatorial_number_theory_iii/_index|erdos_1977_problems_results_combinatorial_number_theory_iii]];
   the two-class form is quoted on the card from printed pp. 58--59.
 - [Er80] Erdős, Paul, A survey of problems in combinatorial number theory.
-  Ann. Discrete Math. 6 (1980), 89--115; p. 105 as cited by the site.
+  Ann. Discrete Math. 6 (1980), 89--115; p. 105 as cited by erdosproblems.com.
   Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]];
   the $k$-class conjecture is quoted on the card from printed p. 105.
@@ -104,8 +104,8 @@ none of them. See Existing formalization.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks whether every finite coloring of
-the integers has a monochromatic solution of $1=\sum1/n_i$ with
+**The question.** On 2026-09-17 erdosproblems.com asks whether every finite
+coloring of the integers has a monochromatic solution of $1=\sum1/n_i$ with
 $2\le n_1<\cdots<n_k$, showed PROVED (LEAN), and says in its commentary that the
 answer is yes by Croot, that there are infinitely many pairwise disjoint such
 monochromatic solutions, and that the monochromatic representation of any
@@ -145,7 +145,7 @@ explicit variant of its technical proposition used by the existing
 formalization; see [[problems/unit_fractions/E0298/_index|Problem 298]]. This
 route is the one the existing formal proofs take.
 
-**Consequences recorded in the site's commentary.** The remark on
+**Consequences recorded in the erdosproblems.com commentary.** The remark on
 infinitely many pairwise disjoint monochromatic solutions follows directly
 from Bloom's Theorem 2: one color class has upper density at least $1/r$,
 removing $1$ and any finite set of solutions found so far leaves its upper
@@ -160,8 +160,8 @@ receives infinitely many of them. The $a/b$ remark uses $a$ disjoint
 monochromatic solutions of the same color for the induced coloring in which
 $m$ receives the color of $bm$; with infinitely many disjoint monochromatic
 solutions of one color, dividing $a$ of them by $b$ and adding gives $a/b$.
-Both are elementary consequences recorded as the site's commentary, without
-proof credit.
+Both are elementary consequences recorded as the erdosproblems.com commentary,
+without proof credit.
 
 **Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
@@ -240,8 +240,8 @@ without `sorry`, ending with a comment that records `#print axioms erdos46`
 as `propext`, `Classical.choice`, `Quot.sound`. Its route is the density
 route above, not Croot's argument. The collection's README says its source
 subdirectories "build as a whole (last I checked)". This corpus has built,
-audited or kernel-checked none of it; the site's Lean suffix is a catalog
-label, and the community database records no formal-proof URL.
+audited or kernel-checked none of it; the erdosproblems.com Lean suffix is a
+catalog label, and the community database records no formal-proof URL.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

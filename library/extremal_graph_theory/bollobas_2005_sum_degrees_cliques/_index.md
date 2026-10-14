@@ -35,9 +35,9 @@ B. Bollobás and V. Nikiforov, *The sum of degrees in cliques*, Electron. J.
 Combin. **12** (2005), no. 1, Note 21, 10 pp.; DOI
 [10.37236/1988](https://doi.org/10.37236/1988); published 7 November 2005 (the
 journal's article record and the Crossref record, both read on 2026-09-18). The
-Electronic Journal of Combinatorics is refereed and open access; the site's
-reference text reads "Electron. J. Combin. (2005), Note 21, 10". Preprint
-arXiv:math/0410218.
+Electronic Journal of Combinatorics is refereed and open access; the
+erdosproblems.com reference text reads "Electron. J. Combin. (2005), Note 21,
+10". Preprint arXiv:math/0410218.
 
 **Edition read.** The copy read for this card is arXiv:math/0410218v1
 (<https://arxiv.org/abs/math/0410218v1>; stamped "[math.CO] 8 Oct 2004" on p. 1;
@@ -171,8 +171,8 @@ the 1975 Aberdeen collection as the source of the conjecture
 [[extremal_graph_theory/bollobas_2005_sum_degrees_cliques/corollary_1|corollary_1]]);
 [[../wiki/problems/extremal_graph_theory/E1033/_index|#1033]]: Theorem 3 (p. 8) is the
 stability bound $\Delta_r(n,m)>(1-\varepsilon)2rm/n$ for $m>t_r(n)-\delta n^2$
-and large $n$ that the site's commentary quotes, and the introduction (p. 2)
-attests, through Faudree, Erdős's construction with
+and large $n$ that the erdosproblems.com commentary quotes, and the introduction
+(p. 2) attests, through Faudree, Erdős's construction with
 $\Delta_r(n,m)\le(1-\varepsilon)2rm/n$ for $t_{r-1}(n)<m<t_r(n)-\delta n^2$
 and states that $\Delta_r(n,m)$ is "essentially unknown even for $r=3$" in
 that range, which at $r=3$ is the problem's regime just above $n^2/4$

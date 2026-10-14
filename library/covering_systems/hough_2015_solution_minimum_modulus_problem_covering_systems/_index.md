@@ -189,7 +189,7 @@ distribution license (arXiv:1307.0874), every other right reserved.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0002/_index|Problem 2]] and
 [[../wiki/problems/integer_sequences/E0025/_index|Problem 25]].
-A comment on the site's thread for
+A comment on the erdosproblems.com thread for
 [[../wiki/problems/covering_systems/E0277/_index|Problem 277]] uses it to
 answer Erdős's follow-up question there negatively: the largest
 $\sigma(m)/m$ over $m<x$ whose divisors do not form a covering system is not

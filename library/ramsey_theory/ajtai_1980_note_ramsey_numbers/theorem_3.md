@@ -60,7 +60,7 @@ $$
 
 the bound $H(n)\ge c_1\sqrt{n\log n}$ that Erdős, Gallai and Tuza 1992 state
 on p. 280 (for their $r(n)$, which is $H(n)$), and the
-"$H(n)\gg\sqrt{n\log n}$" of the site's Problem 610 page; any
+"$H(n)\gg\sqrt{n\log n}$" of erdosproblems.com's Problem 610 page; any
 $c<1/\sqrt{200}$ works the same way. The upper bound
 $H(n)\le c_2\sqrt n\log n$, a factor of order $\sqrt{\log n}$ above the
 lower bound, is Erdős 1961, and Kim's 1995 Theorem 1.1 gives the matching
@@ -113,13 +113,13 @@ inequality only.
   resolving paper's induction.
 - [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: the bound
   $r(K_3,K_s)<cs^2/\log s$ on which the lower bound
-  $f(n)>An^{3/2}(\log n)^{1/2}$ (the site's $f(n)$, their $g(n)$) of Burr,
-  Erdős, Faudree, Rousseau and Schelp 1980 (their Theorem 2) rests; they
+  $f(n)>An^{3/2}(\log n)^{1/2}$ (erdosproblems.com's $f(n)$, their $g(n)$) of
+  Burr, Erdős, Faudree, Rousseau and Schelp 1980 (their Theorem 2) rests; they
   cite the bound from the authors' Sidon-sequence paper (their [1]), which
   proves it by a quite different method.
 - [[../wiki/problems/extremal_graph_theory/E0151/_index|Problem 151]]: through the
   rewriting above, the lower half $c_1\sqrt{n\log n}\le H(n)$ of the bounds
   on the problem's $H(n)$ that the 1992 paper quotes from this paper.
 - [[../wiki/problems/extremal_graph_theory/E0610/_index|Problem 610]]: the same
-  $H(n)\gg\sqrt{n\log n}$, the site's reason that a positive answer to
+  $H(n)\gg\sqrt{n\log n}$, erdosproblems.com's reason that a positive answer to
   Problem 151 would answer that problem.

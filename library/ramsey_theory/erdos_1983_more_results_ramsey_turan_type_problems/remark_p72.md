@@ -60,6 +60,6 @@ as their
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0579/_index|Problem 579]]: the origin passage.
-  The site's statement asks whether $c(K_{2,2,2})=0$; the passage gives
-  $c(K_{2,2,2})\le1/8$ (the site's "true for $\delta>1/8$") and, with
-  (1.14), $c(K_{2,2,2})\in[0,1/8]$, and says nothing more is known.
+  The erdosproblems.com statement asks whether $c(K_{2,2,2})=0$; the passage
+  gives $c(K_{2,2,2})\le1/8$ (erdosproblems.com's "true for $\delta>1/8$") and,
+  with (1.14), $c(K_{2,2,2})\in[0,1/8]$, and says nothing more is known.

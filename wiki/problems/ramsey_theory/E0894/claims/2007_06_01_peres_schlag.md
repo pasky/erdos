@@ -68,18 +68,18 @@ sequence, with an explicit dependence of the number of colors on
 $\epsilon$. The question had an earlier affirmative answer in Katznelson's
 2001 paper, recorded on
 [[problems/ramsey_theory/E0894/claims/2001_04_01_katznelson|its own claim page]];
-this page records the bound the site names as the best known.
+this page records the bound erdosproblems.com names as the best known.
 
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-PROVED and, in the commentary (read 2026-10-07), names the paper's bound as the
-best known quantitative answer. Refereed: the paper appeared in Bull. Lond.
-Math. Soc. 42 (2010), no. 2, 295--300 (Crossref record, issue dated April 2010,
-read 2026-10-07). The text followed is arXiv:0706.0223v1 of 1 June 2007, the
-only arXiv version and the first posting, which dates this page. Page references
-are to it.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem PROVED and, in the commentary (read 2026-10-07), names the paper's
+bound as the best known quantitative answer. Refereed: the paper appeared in
+Bull. Lond. Math. Soc. 42 (2010), no. 2, 295--300 (Crossref record, issue dated
+April 2010, read 2026-10-07). The text followed is arXiv:0706.0223v1 of 1 June
+2007, the only arXiv version and the first posting, which dates this page. Page
+references are to it.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos894.lean` of Boris
 Alexeev's lean-proofs repository, linked above at the commit read, declares

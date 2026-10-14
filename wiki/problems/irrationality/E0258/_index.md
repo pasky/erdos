@@ -64,14 +64,14 @@ https://www.erdosproblems.com/258.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/258.lean),
 tagged research solved (revision of 2026-10-06), whose `formal_proof`
 attribute cites a Lean 4 gist that the user ster (GitHub `ster-oc`) posted to
-the site's thread on 2026-04-21. The gist's header calls it Chojecki's
-original formalization. Ster writes that Aristotle was used to make it
-conditional on Theorem 1.1 of Tao and Teräväinen itself, and the gist declares
-that theorem as a Lean `axiom` and proves the deduction from it. Chojecki's
-own formalization, which Chojecki writes was obtained with Aristotle (thread,
-2026-04-14), rests instead on the corollary $\tau(N+k)\le\Lambda^k$, which
-it leaves as a `sorry`. No Lean build, dependency audit, or axiom audit was
-performed here; the claim page links both.
+the erdosproblems.com thread on 2026-04-21. The gist's header calls it
+Chojecki's original formalization. Ster writes that Aristotle was used to make
+it conditional on Theorem 1.1 of Tao and Teräväinen itself, and the gist
+declares that theorem as a Lean `axiom` and proves the deduction from it.
+Chojecki's own formalization, which Chojecki writes was obtained with Aristotle
+(thread, 2026-04-14), rests instead on the corollary $\tau(N+k)\le\Lambda^k$,
+which it leaves as a `sorry`. No Lean build, dependency audit, or axiom audit
+was performed here; the claim page links both.
 
 ## Current assessment
 
@@ -89,7 +89,7 @@ $|a_n|>c(\log n)^{3/4}$, are the accepted partial claim on
 [[problems/irrationality/E0258/claims/1971_03_01_erdos_straus|their claim page]];
 they settle classes of instances and not the question.
 
-Search scope: the site's page, its discussion thread (eight comments,
+Search scope: the erdosproblems.com page, its discussion thread (eight comments,
 2026-04-14 to 2026-05-18, no proof claims), the formal-conjectures file and
 Chojecki's note at ulam.ai; no dispute or contrary claim was found, and no
 wider literature search was made.

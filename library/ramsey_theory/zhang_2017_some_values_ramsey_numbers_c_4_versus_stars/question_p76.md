@@ -73,7 +73,7 @@ Conjecture 1 is Burr et al.'s, filed at
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0552/_index|Problem 552]]: the
-  speculation the site reports. An affirmative answer would give
+  speculation erdosproblems.com reports. An affirmative answer would give
   $R(C_4,S_n)\ge n+\lceil\sqrt n\rceil\ge n+\sqrt n$ for all $n\ge2$ and so a
   negative answer to the problem's displayed question for every $c>0$. The
   question is open; the paper settles neither it nor the problem.

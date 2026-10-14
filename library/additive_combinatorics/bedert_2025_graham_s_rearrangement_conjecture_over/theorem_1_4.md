@@ -59,7 +59,7 @@ dense case, through Theorem 7.1 and Appendix A); the Freiman--Ruzsa theorem
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: the site's "large
-  $A$ case", $p^{1-c}\le t\le(1-o(1))p$, as the specialization $G=\mathbb F_p$;
-  an unrefereed preprint. Theorem 1.3 is the finite-field-model analog and is
-  not the problem.
+- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]:
+  erdosproblems.com's "large $A$ case", $p^{1-c}\le t\le(1-o(1))p$, as the
+  specialization $G=\mathbb F_p$; an unrefereed preprint. Theorem 1.3 is the
+  finite-field-model analog and is not the problem.

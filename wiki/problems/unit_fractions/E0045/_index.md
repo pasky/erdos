@@ -27,14 +27,15 @@ updated: 2026-10-08T01:29:59Z
 1<d<n_k : d\mid n_k\}$, then for any $k$-colouring of $D$ there is a
 monochromatic subset $D'\subseteq D$ such that $\sum_{d\in D'}\frac{1}{d}=1$?
 
-**Formulation.** The site's wording (page last edited 28 September 2025). $D$ is
-the set of nontrivial proper divisors of $n_k$, so its elements are distinct and
-$D'$ is finite. The question asks for one integer $n_k$ for each $k$; how small
-$n_k$ can be is a separate quantitative question recorded below.
+**Formulation.** The erdosproblems.com wording (page last edited 28 September
+2025). $D$ is the set of nontrivial proper divisors of $n_k$, so its elements
+are distinct and $D'$ is finite. The question asks for one integer $n_k$ for
+each $k$; how small $n_k$ can be is a separate quantitative question recorded
+below.
 
-**Status.** Proved. The site records "PROVED (LEAN)". The Lean suffix is a
-catalog label whose scope is qualified under Existing formalization below, and
-no local kernel credit is claimed. Croot's coloring theorem (Annals of
+**Status.** Proved. erdosproblems.com records "PROVED (LEAN)". The Lean suffix
+is a catalog label whose scope is qualified under Existing formalization below,
+and no local kernel credit is claimed. Croot's coloring theorem (Annals of
 Mathematics 157 (2003)) gives an interval $[2,b^k]$ such that every $k$-coloring
 of it contains a monochromatic set with reciprocal sum one. One can take $n_k$
 to be the least common multiple of the integers up to $b^k$. The claim page
@@ -45,8 +46,8 @@ curator's credit) from which the standing above derives.
 **Source.** [erdosproblems.com/45](https://www.erdosproblems.com/45),
 accessed 2026-09-17: the problem page (PROVED (LEAN); last edited 28
 September 2025), its empty discussion thread and its empty proof-claim tab.
-The site cites [Er95] and [Er96b] as the problem's sources and [Cr03] and
-[Gu04] in its commentary. Cite as: T. F. Bloom, Erdős Problem #45,
+erdosproblems.com cites [Er95] and [Er96b] as the problem's sources and [Cr03]
+and [Gu04] in its commentary. Cite as: T. F. Bloom, Erdős Problem #45,
 https://www.erdosproblems.com/45, accessed 2026-09-17.
 
 **References.**
@@ -70,16 +71,16 @@ https://www.erdosproblems.com/45, accessed 2026-09-17.
 - [Gu04] Guy, Richard K., Unsolved problems in number theory, third
   edition, Problem Books in Mathematics, Springer (2004), xviii+437 pp.;
   B2 "Almost perfect, quasi-perfect, pseudoperfect, harmonic, weird,
-  multiperfect and hyperperfect numbers", printed p. 80, the section the
-  site cites: Erdős defines $n_k$ as the smallest integer such that any
-  partition of its proper divisors into $k$ classes has $n_k$ as a sum of
+  multiperfect and hyperperfect numbers", printed p. 80, the section
+  erdosproblems.com cites: Erdős defines $n_k$ as the smallest integer such that
+  any partition of its proper divisors into $k$ classes has $n_k$ as a sum of
   distinct divisors from one class, with $n_1=6$ (from $6=1+2+3$) and the
   existence of $n_2$ unproved. This is a closely related divisor-sum form,
   not the same question: under $d\mapsto n_k/d$ it also colors the divisor
-  $1$, which corresponds to the term $1/n_k$ that the site's $D$ excludes,
-  so Guy's $n_k$ need not equal the site's (for $k=1$, $D(6)=\{2,3\}$ has
-  no subset with reciprocal sum one). Existence for every $k$ agrees
-  between the two forms. Library home:
+  $1$, which corresponds to the term $1/n_k$ that erdosproblems.com's $D$
+  excludes, so Guy's $n_k$ need not equal erdosproblems.com's (for $k=1$,
+  $D(6)=\{2,3\}$ has no subset with reciprocal sum one). Existence for every $k$
+  agrees between the two forms. Library home:
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 
 **Formalization.** Statement in
@@ -90,7 +91,7 @@ checked neither. See Existing formalization.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks, for each $k\ge2$, for an
+**The question.** On 2026-09-17 erdosproblems.com asks, for each $k\ge2$, for an
 integer $n_k$ whose nontrivial proper divisors cannot be $k$-colored without
 a monochromatic set of reciprocal sum one, showed PROVED (LEAN), and explains
 in its commentary that this follows from Croot's coloring theorem with
@@ -120,13 +121,13 @@ Croot's proof (Sections 2--6, pp. 548--555) has not been compiled, which is
 the remaining proof-coverage obligation.
 
 **Quantitative remarks, not status.** The construction gives
-$n_k\le\exp((1+o(1))b^k)$ by the prime number theorem, the site's
-$e^{C^k}$. The site's commentary sketches a matching lower bound
+$n_k\le\exp((1+o(1))b^k)$ by the prime number theorem, erdosproblems.com's
+$e^{C^k}$. The erdosproblems.com commentary sketches a matching lower bound
 $n_k\ge\exp(cC^k)$: the divisors of $n_k$ must have reciprocal sum at least
 $k$, or a greedy coloring is a counterexample, which by Mertens's theorem forces the product of the primes
-dividing $n_k$ to be at least doubly exponential in $k$. This is site
-commentary attributed to Sawhney, not a refereed result, and its packing
-step is unverified. Any theorem that produces a unit subsum from a
+dividing $n_k$ to be at least doubly exponential in $k$. This is
+erdosproblems.com commentary attributed to Sawhney, not a refereed result, and
+its packing step is unverified. Any theorem that produces a unit subsum from a
 reciprocal mass of size $o(\log N)$, such as
 [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_3|Bloom's Theorem 3]]
 or
@@ -206,8 +207,8 @@ as `propext`, `Classical.choice`, `Quot.sound`. Its `Erdos46.lean` imports
 density theorem), so the formal route runs through the density theorem
 rather than through Croot's argument. The collection's README says its
 source subdirectories "build as a whole (last I checked)". This corpus has
-built, audited or kernel-checked none of it; the site's Lean suffix is a
-catalog label, the community database records no formal-proof URL, and the
+built, audited or kernel-checked none of it; the erdosproblems.com Lean suffix
+is a catalog label, the community database records no formal-proof URL, and the
 statements above are the only formal content this page rests on.
 <!-- BEGIN problem library links -->
 

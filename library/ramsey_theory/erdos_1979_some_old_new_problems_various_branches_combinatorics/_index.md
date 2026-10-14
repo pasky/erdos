@@ -25,12 +25,12 @@ P. Erdős, *Some old and new problems in various branches of combinatorics*.
 In: Proceedings of the Tenth Southeastern Conference on Combinatorics, Graph
 Theory and Computing (Florida Atlantic Univ., Boca Raton, Fla., 1979),
 Congressus Numerantium XXIII, Utilitas Math., Winnipeg (1979), 19--37. The
-site's key Er79g. A later paper of Erdős carries the same title (Discrete
-Math. 165/166 (1997), 227--231, the site's key Er97b) and is a different
-text; the problem pages that cite Er97b (Problems 12, 13, 57, 63, 127, 129,
-130, 131, 133, 135, 136 and 756) do not cite this one, and none of their
-questions appears in this typescript. Filed under `ramsey_theory` as the home
-of Problem 801, which it originates; it also bears on Problem 1080, and the
+erdosproblems.com key Er79g. A later paper of Erdős carries the same title
+(Discrete Math. 165/166 (1997), 227--231, the erdosproblems.com key Er97b) and
+is a different text; the problem pages that cite Er97b (Problems 12, 13, 57, 63,
+127, 129, 130, 131, 133, 135, 136 and 756) do not cite this one, and none of
+their questions appears in this typescript. Filed under `ramsey_theory` as the
+home of Problem 801, which it originates; it also bears on Problem 1080, and the
 paper spans several subjects.
 
 **Copy read.** The copy read for this card is the Rényi Institute Erdős
@@ -143,16 +143,16 @@ summaries of other authors' work and are not verified against those papers.
 headed 15, PDF p. 14: the definition of $f(n;m)$, display (1)
 $c_1m<f(n;m)<c_2m\log n$, and "the most interesting open question is whether
 the upper bound in (1) is best possible for $m=[n^{1/2}]$", the problem's
-origin and the site's key Er79g).
+origin and the erdosproblems.com key Er79g).
 [[../wiki/problems/extremal_graph_theory/E1080/_index|#1080]] (item 3, the page headed 7,
-PDF p. 7, page image; the site's key Er79g): Erdős recalls "an old and
-nearly forgotten conjecture of mine", that a bipartite graph "of $[n^{2/3}]$
+PDF p. 7, page image; the erdosproblems.com key Er79g): Erdős recalls "an old
+and nearly forgotten conjecture of mine", that a bipartite graph "of $[n^{2/3}]$
 white and $n$ black vertices and more than $cn$ edges" contains a $C_6$; he
 adds that such a graph is easily seen to contain a $C_8$, and that "many
 generalizations and extensions are possible". The 1975 survey's form of the
 question has $n$ vertices in all, $[n^{2/3}]$ black and $n-[n^{2/3}]$ white,
-and the site follows the survey; the problem page records why the two forms
-have the same answer.
+and erdosproblems.com follows the survey; the problem page records why the two
+forms have the same answer.
 
 **Results.**
 

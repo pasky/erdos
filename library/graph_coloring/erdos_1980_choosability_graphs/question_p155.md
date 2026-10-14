@@ -25,7 +25,7 @@ follow that $G$ is $(am:bm)$-choosable?"
 $\frac cd>\frac ab$, does it follow that $G$ is $(c:d)$-choosable?"
 
 The paper does not say what range of $m$ the first question intends; the
-site's formulation takes every integer $m\ge1$.
+erdosproblems.com formulation takes every integer $m\ge1$.
 
 ## Proof pointer
 
@@ -51,5 +51,5 @@ Winnipeg, 1980, pp. 125--157; the edition read is named on the
 
 - [[../wiki/problems/graph_coloring/E0632/_index|Problem 632]]: the first
   question is the problem's statement, posed here as a question, with
-  $(a:b)$ written where the site writes $(a,b)$. The paper proves nothing
-  either way; the problem page records the later answer.
+  $(a:b)$ written where erdosproblems.com writes $(a,b)$. The paper proves
+  nothing either way; the problem page records the later answer.

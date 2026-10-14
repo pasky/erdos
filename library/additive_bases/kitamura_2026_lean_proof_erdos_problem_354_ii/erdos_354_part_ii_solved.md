@@ -75,7 +75,7 @@ PR #5243 (1 September 2026) and is disputed in issue #6542.
 - [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: settles
   formal-conjectures' reading of the second question, "for some
   $\gamma\in(1,2)$", in the affirmative, and shows that reading is weaker than
-  the site's wording invites, since the pair and the irrational ratio play no
-  role; under the reading "for every $\gamma$" the answer is no by
+  the erdosproblems.com wording invites, since the pair and the irrational ratio
+  play no role; under the reading "for every $\gamma$" the answer is no by
   [[additive_bases/geneson_2026_deletion_thresholds_exponential_examples_complete_sequences/corollary_12|Geneson's Corollary 12]].
   Unreviewed; no status change.

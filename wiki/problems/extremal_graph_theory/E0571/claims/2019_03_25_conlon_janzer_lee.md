@@ -43,9 +43,10 @@ the Turán exponents for every $k$. The statements are recorded on the library's
 [[../library/extremal_graph_theory/conlon_2021_more_extremal_number_subdivisions/_index|source card]].
 
 **Covers.** The instances $\alpha=\frac32-\frac1{2s}$ for $s\ge2$ (the family
-the site's commentary lists for [CJL21]) and $\alpha=1+\frac{s}{sk+1}$ for
-$s,k\ge1$, each realized by a single bipartite graph. The statement for every
-rational $\alpha\in[1,2)$ is settled by the accepted claim page
+the erdosproblems.com commentary lists for [CJL21]) and
+$\alpha=1+\frac{s}{sk+1}$ for $s,k\ge1$, each realized by a single bipartite
+graph. The statement for every rational $\alpha\in[1,2)$ is settled by the
+accepted claim page
 [[problems/extremal_graph_theory/E0571/claims/2026_09_03_adamczewski|Adamczewski 2026]].
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
@@ -54,10 +55,10 @@ rational $\alpha\in[1,2)$ is settled by the accepted claim page
 number of subdivisions*, Combinatorica 41 (2021), no. 4, 465--494,
 doi:10.1007/s00493-020-4202-1, a refereed journal. First posting:
 arXiv:1903.10631, v1 25 March 2019 (the date this page is named by), v2 25
-April 2020. No `reviewed` evidence is listed. The site's commentary lists these
-exponents among the Turán exponents known before 2026 and credits the paper. But
-the site's label credited GPT-6 Astra with the full proof and is not an
-acceptance of this result.
+April 2020. No `reviewed` evidence is listed. The erdosproblems.com commentary
+lists these exponents among the Turán exponents known before 2026 and credits
+the paper. But the erdosproblems.com label credited GPT-6 Astra with the full
+proof and is not an acceptance of this result.
 
 **Read depth.** The statements are taken from the paper's abstract and the
 result list on the library card; no proof was read, and nothing is

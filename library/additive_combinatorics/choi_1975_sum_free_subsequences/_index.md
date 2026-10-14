@@ -6,7 +6,7 @@ desc: |
   log n.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T14:54:07Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_combinatorics/choi_1975_sum_free_subsequences
@@ -21,7 +21,7 @@ t_1^alpha representations as such a sum, t standing for t_1.
 [[additive_combinatorics/choi_1975_sum_free_subsequences/remark_p313|remark_p313]]: The closing remark of Choi, Komlós and Szemerédi: iterating their
 lower-bound process would give f(n) > sqrt(n) w^k / k!, a proof they omit,
 and it is conceivable that f(n) > n^(1-epsilon) for every epsilon and all
-large n, the sentence the site renders as the authors' conjecture.
+large n, the sentence erdosproblems.com renders as the authors' conjecture.
 
 [[additive_combinatorics/choi_1975_sum_free_subsequences/theorem|theorem]]: The Choi–Komlós–Szemerédi bounds on the largest quantity f(n) such that
 every sequence of n distinct integers has a subsequence of f(n) integers
@@ -76,14 +76,14 @@ Source:
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0790/_index|#790]]: the
 [[additive_combinatorics/choi_1975_sum_free_subsequences/theorem|Theorem]]
-(printed p. 307) gives the two bounds the site quotes for the problem's
+(printed p. 307) gives the two bounds erdosproblems.com quotes for the problem's
 $l(n)$, the paper's $f(n)$; its lower bound answers the first displayed
 question ($l(n)n^{-1/2}\to\infty$) yes, and its upper bound does not decide
 the second ($l(n)<n^{1-c}$ for some $c>0$). The last sentence of the
 [[additive_combinatorics/choi_1975_sum_free_subsequences/remark_p313|closing remark]]
 (p. 313), that $f(n)>n^{1-\epsilon}$ is conceivable for every $\epsilon$
-and large $n$, is what the site renders as the authors' "conjecture that
-$l(n)\geq n^{1-o(1)}$"; the paper does not prove it. The
+and large $n$, is what erdosproblems.com renders as the authors' "conjecture
+that $l(n)\geq n^{1-o(1)}$"; the paper does not prove it. The
 [[additive_combinatorics/choi_1975_sum_free_subsequences/lemma|Lemma]]
 (p. 307) enters only through the proof of the upper bound.
 

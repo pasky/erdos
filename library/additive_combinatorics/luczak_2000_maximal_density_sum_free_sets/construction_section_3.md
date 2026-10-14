@@ -73,13 +73,13 @@ Melfi (Discrete Math. 200 (1999), 49–54; not held).
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0876/_index|Problem 876]]: the site's
-  "there exists a sum-free set $B$ such that
+- [[../wiki/problems/additive_combinatorics/E0876/_index|Problem 876]]:
+  erdosproblems.com's "there exists a sum-free set $B$ such that
   $|B\cap[1,N]|\gg N^{1/2}/(\log N)^{1/2+o(1)}$ for all large $N$". The
   paper gives, for each fixed $\varepsilon>0$, one set with the exponent
-  $1/2+\varepsilon$; the site's $o(1)$ form, a single set for all
+  $1/2+\varepsilon$; erdosproblems.com's $o(1)$ form, a single set for all
   $\varepsilon$, is not what is printed. For the gap questions the
   construction gives $a_m\ll m^2(\log m)^{1+2\varepsilon}$ for its elements
   (a one-line inversion of $A(n)$ made here), and the paper says nothing
-  about consecutive gaps; the near-linear gap statement the site attributes
-  to Graham through the 1998 Eger paper is not in this source.
+  about consecutive gaps; the near-linear gap statement erdosproblems.com
+  attributes to Graham through the 1998 Eger paper is not in this source.

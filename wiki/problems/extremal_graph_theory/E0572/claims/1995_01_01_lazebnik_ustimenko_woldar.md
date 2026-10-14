@@ -60,9 +60,10 @@ series of dense graphs of high girth*, Bull. Amer. Math. Soc. (N.S.) 32 (1995),
 no. 1, 73--79, doi:10.1090/S0273-0979-1995-00569-0, a refereed journal. It
 appeared there as a research announcement (received 26 October 1993). First
 posting: arXiv:math/9501231, 1 January 1995 (the date this page is named by). No
-`reviewed` evidence is listed. The site credits the paper with the general lower
-bound but labeled the problem OPEN, and commentary on an open problem is not an
-acceptance. The site cites the authors' 1999 paper only for history.
+`reviewed` evidence is listed. erdosproblems.com credits the paper with the
+general lower bound but labeled the problem OPEN, and commentary on an open
+problem is not an acceptance. erdosproblems.com cites the authors' 1999 paper
+only for history.
 
 **Read depth.** Proposition 2.1, Theorem 3.2, Corollary 3.3 and the
 introduction's statement of the bound were read; the proofs of Lemma 3.1 and

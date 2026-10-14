@@ -5,7 +5,7 @@ desc: |
   exactly, as (C_i + o(1))2^{n/4} with the constant depending on n mod 4.
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T14:36:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_combinatorics/balogh_2018_sharp_bound_number_maximal_sum_free_subsets_integers
@@ -14,7 +14,7 @@ updated: 2026-10-08T14:36:58Z
 
 [[additive_combinatorics/balogh_2018_sharp_bound_number_maximal_sum_free_subsets_integers/theorem_1_1|theorem_1_1]]: The 2018 exact asymptotic for the number of maximal sum-free subsets of
 the first n integers, with a constant depending only on n modulo 4, the
-sharp form of the site's answer to Problem 877.
+sharp form of erdosproblems.com's answer to Problem 877.
 
 ***
 
@@ -59,8 +59,8 @@ not given in closed form.
 Source: <https://arxiv.org/abs/1502.07605>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0877/_index|#877]]: Theorem 1.1
-(p. 2) is the site's $f_m(n)=(C_n+o(1))2^{n/4}$ with the constant depending
-on $n$ modulo $4$, the sharp form of the problem's estimate; the paper
+(p. 2) is erdosproblems.com's $f_m(n)=(C_n+o(1))2^{n/4}$ with the constant
+depending on $n$ modulo $4$, the sharp form of the problem's estimate; the paper
 gives the $C_i$ no closed form, only shows them computable to any additive
 error (p. 2).
 

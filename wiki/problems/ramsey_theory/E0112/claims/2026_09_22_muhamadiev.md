@@ -43,7 +43,7 @@ $a$ forces $a\ge7$ and leaves $367$ of $640$ cases. Each case was refuted by
 the SAT solver kissat with a DRAT proof checked by drat-trim; the per-case
 proofs were deleted after checking, and the repository keeps their SHA-256
 digests and the commands that regenerate them, with four small proofs
-kept. In the site's letters this is $r(I_3,L_4)$ of Ihringer,
+kept. In erdosproblems.com's letters this is $r(I_3,L_4)$ of Ihringer,
 Rajendraprasad and Weinert, whose recursion gives $k(3,4)\le25$.
 
 **Covers.** The single value $k(3,4)=21$. The same posting's brackets
@@ -54,11 +54,11 @@ of published results.
 
 **Depends on.** Nothing in this wiki.
 
-**Standing.** Claimed. The result was posted as a comment in the site's
-discussion thread on 22 September 2026 by Muhamadiev Faridun, with the
-public repository created the same day and linked above at its head commit.
-The comment and the repository's README state that the work was done with
-AI assistance (Claude Opus 5) under the author's direction. The README says
+**Standing.** Claimed. The result was posted as a comment in the
+erdosproblems.com discussion thread on 22 September 2026 by Muhamadiev Faridun,
+with the public repository created the same day and linked above at its head
+commit. The comment and the repository's README state that the work was done
+with AI assistance (Claude Opus 5) under the author's direction. The README says
 that the repository is a computation and not a solution, that the problem
 stays open, and that the upper bound is not machine-checked as a whole: the
 counting lemma is a hand proof and load-bearing (the other $273$ cases were

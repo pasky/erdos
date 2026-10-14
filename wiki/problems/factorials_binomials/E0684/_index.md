@@ -34,10 +34,10 @@ $v$ are in $(k,n]$.
 
 Let $f(n)$ be the smallest $k$ such that $u>n^2$. Give bounds for $f(n)$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 1 April
-2026). Its remarks record the bounds of [APSSV26] and of Tang and ChatGPT, and
-credit no solution. The standing derives from the claim pages. The problem is
-`open`, with no settling or pending full claim.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 1
+April 2026). Its remarks record the bounds of [APSSV26] and of Tang and ChatGPT,
+and credit no solution. The standing derives from the claim pages. The problem
+is `open`, with no settling or pending full claim.
 
 There are three pending partial claims, and none of them determines the order of
 $f(n)$. [[problems/factorials_binomials/E0684/claims/2026_01_19_tang|Tang 2026]]
@@ -49,9 +49,9 @@ large $n$ and $f(n)\ge(1/2+o(1))\log n$ along a sequence.
 [[problems/factorials_binomials/E0684/claims/2026_09_03_bae|Bae 2026]] is an
 arXiv preprint with a Lean 4 proof that
 $f(n)\ge(1/2-o(1))\log n\,\log\log n/\log\log\log n$ for infinitely many $n$.
-The site's curator relabeled it partial because the order of $f(n)$ stays
-undetermined. Known Results below record the density-one results, which have no
-claim pages.
+The erdosproblems.com curator relabeled it partial because the order of $f(n)$
+stays undetermined. Known Results below record the density-one results, which
+have no claim pages.
 
 **Source.** [erdosproblems.com/684](https://www.erdosproblems.com/684), accessed
 2026-09-04 and 2026-10-07 (problem page last edited 1 April 2026). Cite as:
@@ -70,8 +70,8 @@ pinned tag from
 ## Current assessment
 
 No assessment of the mathematics is recorded. The Status sentence gives the
-site's label and the standing derived from the claim pages. The notes under
-Known Results record outside results and claims and are not independently
+erdosproblems.com label and the standing derived from the claim pages. The notes
+under Known Results record outside results and claims and are not independently
 reviewed; this page records no assessment of proof coverage. Two results bound
 $f(n)$ only outside a set of density zero, Sothanaphan's notes of 2 April 2026
 and Li's preprint of 6 June 2026 below; neither settles an instance of the
@@ -80,10 +80,10 @@ has a claim page and both are recorded here.
 
 ## Known Results
 
-- Upper bound (recorded in the site's remarks, page last edited 1 April 2026;
-  [APSSV26], v1 31 March 2026, v2 2 April 2026, unrefereed, its argument
-  attributed by the paper and by the site to an internal OpenAI model, with the
-  authors editing the write-up):
+- Upper bound (recorded in the erdosproblems.com remarks, page last edited 1
+  April 2026; [APSSV26], v1 31 March 2026, v2 2 April 2026, unrefereed, its
+  argument attributed by the paper and by erdosproblems.com to an internal
+  OpenAI model, with the authors editing the write-up):
   $f(n)\le(24/(\pi^2-6)+o(1))(\log n)^2$ for all large $n$, and
   $f(n)\ge(1/2+o(1))\log n$ along a sequence of $n$; recorded on the claim page
   [[problems/factorials_binomials/E0684/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev, Putterman, Sawhney, Sellke and Valiant 2026]].
@@ -100,14 +100,14 @@ has a claim page and both are recorded here.
   `jidodat/erdos684-lean`). The registry replays the proof in the Lean kernel
   and compares it with a challenge statement; its own description says that it
   certifies neither novelty nor the match between the formal and informal
-  statements and is not peer review, and no refereed version, site acceptance or
-  independent review was found. The author's proof claim on the site's
-  proof-claims tab (submitted 2026-09-04) says that the two bounds together
-  answer the problem's request for bounds on $f(n)$ and that the exact extremal
-  order is open; the site's maintainer relabeled it a partial claim the same
-  day, since how fast $f(n)$ grows is still uncertain, and asked whether
-  $f(n)\gg(\log n)^2$ infinitely often. This corpus has not built the
-  development.
+  statements and is not peer review, and no refereed version, erdosproblems.com
+  acceptance or independent review was found. The author's proof claim on the
+  erdosproblems.com proof-claims tab (submitted 2026-09-04) says that the two
+  bounds together answer the problem's request for bounds on $f(n)$ and that the
+  exact extremal order is open; the erdosproblems.com maintainer relabeled it a
+  partial claim the same day, since how fast $f(n)$ grows is still uncertain,
+  and asked whether $f(n)\gg(\log n)^2$ infinitely often. This corpus has not
+  built the development.
 - Almost all $n$ (unrefereed): Li, arXiv:2606.08216 (v1, 6 June 2026),
   $f(n)=(2/(1-\gamma)+o(1))\log n$ outside a set of density zero, which its
   abstract calls not a pointwise resolution of the worst-case problem; no
@@ -126,18 +126,19 @@ has a claim page and both are recorded here.
 - Superseded polynomial bounds: $f(n)\le\lceil n^{12/17+\varepsilon}\rceil$
   for large $n$, proved in the note of Quanyu Tang and ChatGPT-5.2 Thinking of
   19 January 2026, and $f(n)\le n^{30/43+o(1)}$ through Guth and Maynard's
-  large-value estimates, stated in the thread and credited by the site's
-  remarks to Tang and ChatGPT; recorded on the claim page
+  large-value estimates, stated in the thread and credited by the
+  erdosproblems.com remarks to Tang and ChatGPT; recorded on the claim page
   [[problems/factorials_binomials/E0684/claims/2026_01_19_tang|Tang 2026]].
 
-Search scope. On 2026-10-05 the site showed OPEN (last edited 1 April 2026)
-and did not mention Bae's or Li's results; the community database says open and
-unformalized; there is no conjectures.io or formal-conjectures entry. The open
-gap is the worst-case order of $f(n)$, between
+Search scope. On 2026-10-05 erdosproblems.com showed OPEN (last edited 1
+April 2026) and did not mention Bae's or Li's results; the community database
+says open and unformalized; there is no conjectures.io or formal-conjectures
+entry. The open gap is the worst-case order of $f(n)$, between
 $\log n\,\log\log n/\log\log\log n$ and $(\log n)^2$. The frontmatter derives
 from the claim pages: the question asks for bounds, no source determines the
-order, and the three partial claims are pending, since the site's remarks on an
-open problem and a registry record are not acceptance under the anatomy's rule.
+order, and the three partial claims are pending, since the erdosproblems.com
+remarks on an open problem and a registry record are not acceptance under the
+anatomy's rule.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

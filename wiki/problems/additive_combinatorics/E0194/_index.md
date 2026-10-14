@@ -24,14 +24,15 @@ updated: 2026-10-08T02:16:54Z
 monotone $k$-term arithmetic progression, that is, some $x_1<\cdots<x_k$ which
 forms an increasing or decreasing $k$-term arithmetic progression?
 
-**Status.** DISPROVED (LEAN), the site's label. The answer is no for every
-$k\ge 3$, by the ordering of $\mathbb{R}$ of Ardal, Brown and Jungić [ABJ11],
-which has no monotone three-term arithmetic progression. It is recorded on
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. The answer is no for
+every $k\ge 3$, by the ordering of $\mathbb{R}$ of Ardal, Brown and Jungić
+[ABJ11], which has no monotone three-term arithmetic progression. It is recorded
+on
 [[problems/additive_combinatorics/E0194/claims/2011_12_01_ardal_brown_jungic|its claim page]]
-with its refereed and site evidence. The label's Lean mark refers to a Lean file
-posted in the site's discussion thread in April 2026 and linked by the
-formal-conjectures catalog. That file is listed on the claim page and was not
-built here.
+with its refereed and erdosproblems.com evidence. The label's Lean mark refers
+to a Lean file posted in the erdosproblems.com discussion thread in April 2026
+and linked by the formal-conjectures catalog. That file is listed on the claim
+page and was not built here.
 
 **Source.** [erdosproblems.com/194](https://www.erdosproblems.com/194), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #194,

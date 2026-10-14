@@ -36,8 +36,8 @@ $$
 \lvert \cap_i D(N_i)\rvert \geq k?
 $$
 
-**Status.** The site labeled the problem OPEN, and the general question is open.
-The instances $k=2$ and $k=3$ are settled by
+**Status.** Bloom's catalog labeled the problem OPEN, and the general question
+is open. The instances $k=2$ and $k=3$ are settled by
 [[problems/divisors/E0885/claims/1997_01_01_erdos_rosenfeld|Erdős and Rosenfeld's two shared values and Guiduli's triples]]
 and
 [[problems/divisors/E0885/claims/1999_09_01_jimenez_urroz|Jiménez-Urroz's three shared values]].
@@ -67,9 +67,9 @@ stated with proof `sorry`.
 
 ## Current assessment
 
-The site labeled the problem OPEN: the answer is yes for $k\le4$ and unknown
-for every $k\ge5$. Erdős and Rosenfeld show that any number of integers can
-share two factor differences, and their paper prints two triples, found by
+Bloom's catalog labeled the problem OPEN: the answer is yes for $k\le4$ and
+unknown for every $k\ge5$. Erdős and Rosenfeld show that any number of integers
+can share two factor differences, and their paper prints two triples, found by
 Barry Guiduli, that share four values, which settles $k=2$ and $k=3$
 ([[problems/divisors/E0885/claims/1997_01_01_erdos_rosenfeld|claim page]]).
 Jiménez-Urroz raises the two shared values to three for every $k$
@@ -81,15 +81,16 @@ explicit witness
 ([[problems/divisors/E0885/claims/2026_09_23_sanexxxx777|claim page]]); this
 corpus has not built it.
 
-Three further items in the site's discussion thread settle only instances
-already settled by the refereed papers, so they have no claim pages. Mausberg's
-note of 19 April 2026, with a Lean repository produced with Aristotle, gives
-the $k=3$ witness $D(79200)\cap D(227205)\cap D(1258560)=\{36,468,692,1028\}$.
-A post by Aleksanndr_NFA of 23 September 2026, with no manuscript, gives the
-$k=4$ example $515504$, $3542528$, $6010004$ and $19523504$, sharing $872$,
-$4328$, $5003$ and $11672$. Two notes posted by zoahdev on 29 September 2026
-give three integers sharing five values and do not reach $k=5$. Every
-membership in these examples checks by computation.
+Three further items in the erdosproblems.com discussion thread settle only
+instances already settled by the refereed papers, so they have no claim pages.
+Mausberg's note of 19 April 2026, with a Lean repository produced with
+Aristotle, gives the $k=3$ witness
+$D(79200)\cap D(227205)\cap D(1258560)=\{36,468,692,1028\}$. A post by
+Aleksanndr_NFA of 23 September 2026, with no manuscript, gives the $k=4$ example
+$515504$, $3542528$, $6010004$ and $19523504$, sharing $872$, $4328$, $5003$ and
+$11672$. Two notes posted by zoahdev on 29 September 2026 give three integers
+sharing five values and do not reach $k=5$. Every membership in these examples
+checks by computation.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

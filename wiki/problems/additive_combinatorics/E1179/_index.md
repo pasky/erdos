@@ -44,14 +44,14 @@ $$
 g_\epsilon(N)=(1+o_\epsilon(1))\log_2N?
 $$
 
-**Status.** Proved. This is the site's label (PROVED). The standing is derived
-from the claim pages. The accepted full claim is the Theorem of Erdős and Hall
-[ErHa76], on
+**Status.** Proved. This is the erdosproblems.com label (PROVED). The standing
+is derived from the claim pages. The accepted full claim is the Theorem of Erdős
+and Hall [ErHa76], on
 [[problems/additive_combinatorics/E1179/claims/1976_01_01_erdos_hall|its claim page]],
-accepted on the refereed publication and the site's label. The paper samples the
-$k$ elements with repetition, while the problem takes a random $k$-subset. The
-claim page bridges this difference. The site's commentary gives the trivial
-lower bound $g_\epsilon(N)\ge\log_2N$, the
+accepted on the refereed publication and the erdosproblems.com label. The paper
+samples the $k$ elements with repetition, while the problem takes a random
+$k$-subset. The claim page bridges this difference. The erdosproblems.com
+commentary gives the trivial lower bound $g_\epsilon(N)\ge\log_2N$, the
 [[problems/additive_combinatorics/E1179/claims/1965_12_01_erdos_renyi|Erdős–Rényi bound]]
 $(2+o(1))\log_2N+O_\epsilon(1)$ and the Erdős–Hall bound
 $(1+O_\epsilon(\log\log\log N/\log\log N))\log_2N$.
@@ -84,8 +84,8 @@ $g_\epsilon(N)\ge\log_2N$ and the Theorem of Erdős and Hall [ErHa76] give
 $g_\epsilon(N)=(1+o_\epsilon(1))\log_2N$ for every fixed $0<\epsilon<1$, so the
 answer is yes. This is an accepted full claim on
 [[problems/additive_combinatorics/E1179/claims/1976_01_01_erdos_hall|its claim page]]:
-refereed (Houston J. Math.) and credited under the site's PROVED label. The
-paper samples with repetition; the claim page bridges this to random
+refereed (Houston J. Math.) and credited under erdosproblems.com's PROVED label.
+The paper samples with repetition; the claim page bridges this to random
 $k$-subsets. Erdős and Rényi [ErRe65] had proved
 $(2+o(1))\log_2N+O_\epsilon(1)$, an accepted partial claim on
 [[problems/additive_combinatorics/E1179/claims/1965_12_01_erdos_renyi|its claim page]].

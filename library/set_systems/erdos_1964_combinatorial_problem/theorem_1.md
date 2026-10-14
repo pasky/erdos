@@ -70,6 +70,6 @@ named on the [[set_systems/erdos_1964_combinatorial_problem/_index|source card]]
 - [[../wiki/problems/set_systems/E0901/_index|Problem 901]]: $m(n)$ here is
   the problem's function, the least number of edges of an $n$-uniform
   hypergraph that is not 2-colorable. Theorem 1 gives the upper bound
-  $m(n)<n^22^{n+1}$, the site's $m(n)\ll n^22^n$, and (6) states a
+  $m(n)<n^22^{n+1}$, erdosproblems.com's $m(n)\ll n^22^n$, and (6) states a
   constant-factor sharpening without proof; neither determines the order
   of $m(n)$, which the paper leaves open.

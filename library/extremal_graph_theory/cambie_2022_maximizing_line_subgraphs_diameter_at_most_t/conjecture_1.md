@@ -18,11 +18,11 @@ updated: 2026-10-08T01:29:58Z
 P. 2: "**Conjecture 1.** $h_3(\Delta)\le\Delta^3-\Delta^2+\Delta+2$, with
 equality if $\Delta$ is one more than a prime power."
 
-The conjecture has a plain "if", not the site's "if and only if" (checked
-on the retained v2, which the site's thread of 17 August 2026 also
-reports). P. 2 explains the expression: the point--line incidence graphs of
-finite projective planes of prime power order $q$, with $\Delta=q+1$, are
-bipartite, $\Delta$-regular, of girth $6$, have line graphs of diameter $3$
+The conjecture has a plain "if", not erdosproblems.com's "if and only if"
+(checked on the retained v2, which the erdosproblems.com thread of 17 August
+2026 also reports). P. 2 explains the expression: the point--line incidence
+graphs of finite projective planes of prime power order $q$, with $\Delta=q+1$,
+are bipartite, $\Delta$-regular, of girth $6$, have line graphs of diameter $3$
 and $\Delta^3-\Delta^2+\Delta$ edges; subdividing one edge adds one edge at
 the expense of bipartiteness and regularity; for multigraphs one can add
 $\lfloor\Delta/2\rfloor-1$ more edges. P. 1 introduces it as "the following
@@ -62,7 +62,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: the conjecture the
-  site displays as "$h_3(d)\le d^3-d^2+d+2$, with equality if and only if
-  $d=p^k+1$"; the "if and only if" is the site's, and the conjecture is
-  refuted by a 2026 preprint the site's page does not yet record.
+- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: the
+  conjecture erdosproblems.com displays as "$h_3(d)\le d^3-d^2+d+2$, with
+  equality if and only if $d=p^k+1$"; the "if and only if" is
+  erdosproblems.com's, and the conjecture is refuted by a 2026 preprint the
+  erdosproblems.com page does not yet record.

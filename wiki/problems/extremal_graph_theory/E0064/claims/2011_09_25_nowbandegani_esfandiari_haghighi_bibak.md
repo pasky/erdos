@@ -50,7 +50,7 @@ to a cubic graph of order $n$ and counting the vertices a cycle-free
 neighborhood expansion forces, giving $n\ge38$. Read depth: the
 statements and the proof of the $114$-vertex theorem in arXiv v1, and the
 introduction and references of arXiv v3; the journal text was not compared.
-The thread comment of 6 December 2025 that the site's remark on
+The thread comment of 6 December 2025 that the erdosproblems.com remark on
 [[problems/extremal_graph_theory/E0064/_index|Problem 64]] points to cites
 the paper for the $114$-vertex bound. The introduction of v3 also states the
 bipartite bound of two of the authors, recorded on
@@ -68,6 +68,6 @@ two.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a publication in Discussiones
-Mathematicae Graph Theory. The site's curator cites the family list that names
-the paper while labeling the problem FALSIFIABLE. That citation is commentary on
-an open problem and not reviewed evidence.
+Mathematicae Graph Theory. The erdosproblems.com curator cites the family list
+that names the paper while labeling the problem FALSIFIABLE. That citation is
+commentary on an open problem and not reviewed evidence.

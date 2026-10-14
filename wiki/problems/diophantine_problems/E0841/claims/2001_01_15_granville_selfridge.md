@@ -34,8 +34,8 @@ $P(n)>\sqrt{2n}+1$, where $P(n)$ is the largest prime factor of $n$, then
 $t_n=P(n)$. Otherwise $t_n\le3\sqrt{n/2}+1$. Write $n=ap$ with $p=P(n)$. In
 the first case, the bound $t_n\le p$ comes from five explicit integers in
 $(n,n+p]$, the largest being $n+p$, whose product with $n$ is a square. The
-second case follows from the paper's Theorem 2. The site credits the result
-to Selfridge.
+second case follows from the paper's Theorem 2. erdosproblems.com credits the
+result to Selfridge.
 
 **Covers.** The exact value of $t_n$ for every $n$ with $P(n)>\sqrt{2n}+1$,
 and $t_n\ll\sqrt n$ for every other $n$. It does not give the distribution of

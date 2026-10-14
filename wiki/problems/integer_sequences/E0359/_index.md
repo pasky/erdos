@@ -26,14 +26,15 @@ consecutive earlier $a_j$s. What can be said about the density of this sequence?
 In particular, in the case $n=1$, can one prove that $a_k/k\to \infty$ and
 $a_k/k^{1+c}\to 0$ for any $c>0$?
 
-**Formulation.** Read as the site words it, the rule fails for $n\ge2$. When
-$a_2$ is chosen, the only sum of consecutive earlier terms is $a_1=n$, so the
-least positive integer that is not such a sum is $1$, giving $a_2<a_1$ against
-$a_1<a_2<\cdots$; no sequence meets the site's wording. Erdős and Graham (1980,
-p. 59) use the same wording, with $a_1=k$. Formal-conjectures reads $a_{i+1}$ as
-the least integer exceeding $a_i$ that is not such a sum, and the questions are
-recorded under that reading. For $n=1$ the two readings agree, since every
-positive integer up to $a_i$ is already such a sum when $a_{i+1}$ is chosen.
+**Formulation.** Read as Bloom's catalog words it, the rule fails for $n\ge2$.
+When $a_2$ is chosen, the only sum of consecutive earlier terms is $a_1=n$, so
+the least positive integer that is not such a sum is $1$, giving $a_2<a_1$
+against $a_1<a_2<\cdots$; no sequence meets the erdosproblems.com wording. Erdős
+and Graham (1980, p. 59) use the same wording, with $a_1=k$. Formal-conjectures
+reads $a_{i+1}$ as the least integer exceeding $a_i$ that is not such a sum, and
+the questions are recorded under that reading. For $n=1$ the two readings agree,
+since every positive integer up to $a_i$ is already such a sum when $a_{i+1}$ is
+chosen.
 
 **Status.** Open.
 
@@ -53,10 +54,10 @@ https://www.erdosproblems.com/359.
 
 ## Current assessment
 
-The standing recorded here targets the site's wording (page last edited 28
-December 2025), whose rule for $a_{i+1}$ fails as written for $n\ge2$ and is
-read as the Formulation above states. No independent assessment of proof
-coverage is recorded, and the problem has no claim page. The site's
+The standing recorded here targets the erdosproblems.com wording (page last
+edited 28 December 2025), whose rule for $a_{i+1}$ fails as written for $n\ge2$
+and is read as the Formulation above states. No independent assessment of proof
+coverage is recorded, and the problem has no claim page. The erdosproblems.com
 commentary credits Porubský [Po77] with two results for $n=1$: for every
 $\varepsilon>0$ infinitely many $k$ have
 $a_k<(\log k)^\varepsilon k\log k/\log\log k$, and
@@ -66,8 +67,8 @@ $\liminf_k a_k/k^{1+c}=0$, and the second bounds $A(x)$ from below only along
 a sequence of $x$. They settle no instance, so they have no claim page.
 Andrews [An75] conjectures $a_k\sim k\log k/\log\log k$.
 
-Search scope. On 2026-10-07 the site's page listed no proof claim, its
-discussion thread held one comment, of 29 November 2025, restating
+Search scope. On 2026-10-07 the erdosproblems.com page listed no proof claim,
+its discussion thread held one comment, of 29 November 2025, restating
 Porubský's first result in its $\liminf$ form, and the formal-conjectures
 statement file stated both limits for $n=1$ as open and had no solved
 variant.

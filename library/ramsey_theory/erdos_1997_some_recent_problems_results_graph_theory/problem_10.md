@@ -52,8 +52,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0639/_index|Problem 639]]: the site's source for the
-  problem and the primary attestation of the unpublished large-$n$ result
-  the page records as [ERS]; the wording "for large $n$" supports the
-  page's modified Statement and says nothing about the failures of the
-  site's wording at $n\le6$.
+- [[../wiki/problems/ramsey_theory/E0639/_index|Problem 639]]: the
+  erdosproblems.com source for the problem and the primary attestation of the
+  unpublished large-$n$ result the page records as [ERS]; the wording "for large
+  $n$" supports the page's modified Statement and says nothing about the
+  failures of the erdosproblems.com wording at $n\le6$.

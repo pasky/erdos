@@ -107,8 +107,9 @@ Source: <https://web.math.princeton.edu/~nalon/PDFS/publications.html>.
   [[extremal_graph_theory/alon_1985_maximum_number_disjoint_pairs_family_subsets/example_6_1|Example 6.1]]
   gives, for each fixed $d\ge1$, families of order $n^d2^{n/2}$ sets with at
   least $2^{-2d-1}\binom m2$ comparable pairs. The problem page records that
-  the site credits Alon and Frankl with the answers to the second question
-  (no) and the third (yes). The paper does not state the first question.
+  erdosproblems.com credits Alon and Frankl with the answers to the second
+  question (no) and the third (yes). The paper does not state the first
+  question.
 
 **Results.**
 

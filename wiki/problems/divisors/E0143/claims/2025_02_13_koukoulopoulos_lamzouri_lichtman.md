@@ -64,9 +64,10 @@ asserts is false, and nothing about the full density statement
 $\lim\lvert A\cap[1,x]\rvert/x=0$, which Besicovitch's primitive sets of
 positive upper density refute.
 
-**Standing.** The site's curator credits the paper on the problem page (last
-edited 24 April 2026) with a partial resolution, the $o(\log n)$ assertion,
-but the site labeled the problem OPEN, and commentary on an open problem is not
-acceptance, so no `reviewed` evidence is listed. The paper is an arXiv
-preprint of 13 February 2025 (47 pages) with no journal reference found on
-2026-10-07, and no Lean proof of it exists, so the claim stays `claimed`.
+**Standing.** The erdosproblems.com curator credits the paper on the problem
+page (last edited 24 April 2026) with a partial resolution, the $o(\log n)$
+assertion, but Bloom's catalog labeled the problem OPEN, and commentary on an
+open problem is not acceptance, so no `reviewed` evidence is listed. The paper
+is an arXiv preprint of 13 February 2025 (47 pages) with no journal reference
+found on 2026-10-07, and no Lean proof of it exists, so the claim stays
+`claimed`.

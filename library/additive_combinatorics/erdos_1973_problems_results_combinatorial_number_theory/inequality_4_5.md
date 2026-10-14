@@ -40,7 +40,7 @@ $\max k=n\exp(-(1+\mathrm o(1))c(\log n\log\log n)^{1/2})$."
 theory*, A Survey of Combinatorial Theory (J. N. Srivastava et al., eds.),
 North-Holland (1973), Chapter 12, 117--138; printed p. 124 (PDF p. 8 of the
 22-page scan read for this page; printed p. $n$ is PDF p. $n-116$), read on the page
-image; the site's only key for Problem 538.
+image; erdosproblems.com's only key for Problem 538.
 
 **Read depth.** Claims checked: the paragraph was read clause by clause on
 the page image. The first display is the whole proof of (4.5) and was read
@@ -63,7 +63,7 @@ Mertens's estimate for $\sum_{p\le n}1/p$ (not named on the page).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0538/_index|Problem 538]]: the bound in hand; the
-  site's commentary reproduces the display, and the problem asks for the
-  best possible bound.
+  erdosproblems.com commentary reproduces the display, and the problem asks for
+  the best possible bound.
 - Problem 537: the preceding paragraph's construction satisfies the
   hypothesis with $r=2$; listed on the card, not assessed here.

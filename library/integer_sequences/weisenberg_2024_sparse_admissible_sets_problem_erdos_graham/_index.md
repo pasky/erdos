@@ -52,7 +52,7 @@ their statements; nothing here is independently reviewed.
   conjecture predicts that each finite admissible $A$ has infinitely many
   translates $A+n$, $n\in\mathbb N$, inside the primes. Erdős and Graham
   asked the infinite question in their 1980 book, p. 85, and the paper notes
-  that it is problem 429 on Bloom's site erdosproblems.com.
+  that it is problem 429 on erdosproblems.com.
   **Conjecture 1** (Erdős and Graham, p. 1): "There is a non-decreasing,
   unbounded function $f:\mathbb N\to\mathbb Z_{\ge0}$ such that if
   $A\subseteq\mathbb N$ is admissible and $|A\cap\{1,\ldots,N\}|\le f(N)$
@@ -75,10 +75,10 @@ their statements; nothing here is independently reviewed.
   by every $p_i$, else two members of $A+n$ are multiples of $p_i$; so
   $n=0$, and $A$ is not a set of primes since it contains powers of $a$.
 - Section 2, "Further constructions" (pp. 2--4). The paper records that
-  the first construction was the one on which the site "first marked the
-  problem as 'solved'" (p. 2), and that the primitive-root input is avoidable.
-  Second construction: a greedy set $B$ starting from a composite (or $1$),
-  then two elements in each nonzero class modulo a prime $p_1$ larger than
+  the first construction was the one on which erdosproblems.com "first marked
+  the problem as 'solved'" (p. 2), and that the primitive-root input is
+  avoidable. Second construction: a greedy set $B$ starting from a composite (or
+  $1$), then two elements in each nonzero class modulo a prime $p_1$ larger than
   all previous elements, then modulo a larger $p_2$, and so on, each element
   chosen by the Chinese remainder theorem to keep admissibility and
   sparsity (the construction the external Lean formalizations follow).
@@ -90,7 +90,7 @@ their statements; nothing here is independently reviewed.
   element $d_n$ with $d_n+n$ not prime, kept admissible and sparse by the
   Chinese remainder theorem and the absence of infinite arithmetic
   progressions of primes.
-- Acknowledgment and references (p. 4): [1] the site; [2] Erdős and
+- Acknowledgment and references (p. 4): [1] erdosproblems.com; [2] Erdős and
   Graham 1980; [3] Gupta and Ram Murty; [4] Heath-Brown.
 
 ## Compiled scope
@@ -98,16 +98,16 @@ their statements; nothing here is independently reviewed.
 The whole paper was read (four pages). Theorem 1 and Conjecture 1 are
 compiled as statements with the proof pointer above; the proof is a
 paragraph and was read, not reviewed. The paper says nothing about
-squarefree numbers; the site's remark that a variant of the construction
-answers Erdős's $p^2$ question is the site's (recorded on the problem
-page). Two external Lean formalizations of the second construction are
-described on the problem page, read statically at pinned commits and not
+squarefree numbers; the erdosproblems.com remark that a variant of the
+construction answers Erdős's $p^2$ question is erdosproblems.com's (recorded on
+the problem page). Two external Lean formalizations of the second construction
+are described on the problem page, read statically at pinned commits and not
 built.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0429/_index|#429]]: Theorem 1 is the
 negative answer to the problem's question; the paper cites p. 85 of the
-1980 monograph as its source, and the site's label DISPROVED (LEAN) rests
-on it.
+1980 monograph as its source, and the erdosproblems.com label DISPROVED (LEAN)
+rests on it.
 
 **Results.**
 

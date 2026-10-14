@@ -118,8 +118,8 @@ listed on p. 14 but cited nowhere in the text.
 - [[../wiki/problems/unit_fractions/E0308/_index|Problem 308]]: the smallest integer not
   representable with denominators at most $N$ is $n(N)+1$, so the theorem
   determines it up to the two cases $\lfloor H_N\rfloor$ and
-  $\lfloor H_N\rfloor+1$, with $H_N=\sum_{n\le N}1/n$; the site's problem
-  page attaches the two floors to that smallest integer itself, one less
+  $\lfloor H_N\rfloor+1$, with $H_N=\sum_{n\le N}1/n$; the erdosproblems.com
+  problem page attaches the two floors to that smallest integer itself, one less
   than what the theorem gives.
 - [[../wiki/problems/unit_fractions/E0309/_index|Problem 309]]: the count $F(N)$ of
   representable integers is at least $n(N)$, so $F(N)\ge\log N+\gamma-1-o(1)$,

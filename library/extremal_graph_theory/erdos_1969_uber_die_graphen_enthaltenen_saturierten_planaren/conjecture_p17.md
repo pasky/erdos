@@ -74,9 +74,9 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1019/_index|Problem 1019]]: the origin of the
-  site's question, stated here two years before the 1971 list; the site's
-  commentary attributes the "easy to construct" example to the 1971 list,
-  where the construction is not written out, while this page writes it out.
-  The site's $\lfloor n^2/4\rfloor+\lfloor\tfrac{n-1}2\rfloor$ example and
-  $\lfloor n^2/4\rfloor+\lfloor\tfrac{n+1}2\rfloor$ threshold are the
-  paper's.
+  erdosproblems.com question, stated here two years before the 1971 list; the
+  erdosproblems.com commentary attributes the "easy to construct" example to the
+  1971 list, where the construction is not written out, while this page writes
+  it out. erdosproblems.com's $\lfloor n^2/4\rfloor+\lfloor\tfrac{n-1}2\rfloor$
+  example and $\lfloor n^2/4\rfloor+\lfloor\tfrac{n+1}2\rfloor$ threshold are
+  the paper's.

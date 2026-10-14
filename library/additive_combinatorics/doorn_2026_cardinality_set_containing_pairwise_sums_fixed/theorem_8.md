@@ -64,9 +64,10 @@ O'Bryant's bound on the size of finite Sidon sets (the paper's reference
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]: the site's
-  "$g_5(N)\asymp\log N$" is the 1975 statement, whose lower bound holds for
-  the positive-integer version $h_5$ only; for the site's $g_5$ the theorem
-  gives a constant upper bound for every $N$, and with
+- [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]:
+  erdosproblems.com's "$g_5(N)\asymp\log N$" is the 1975 statement, whose lower
+  bound holds for the positive-integer version $h_5$ only; for
+  erdosproblems.com's $g_5$ the theorem gives a constant upper bound for every
+  $N$, and with
   [[additive_combinatorics/doorn_2026_cardinality_set_containing_pairwise_sums_fixed/theorem_5|Theorem 5]]
   the value is between $4$ and $1.2\cdot10^8$ for $N\ge3$.

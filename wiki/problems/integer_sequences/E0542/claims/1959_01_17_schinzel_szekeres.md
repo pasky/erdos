@@ -43,7 +43,7 @@ $n$ are disjoint, exactly $n-\sum_i\lfloor n/a_i\rfloor$ integers up to $n$
 are divisible by no element, so no constant $c>0$ gives $cn$ such integers
 for every admissible set, which answers no the second question of the
 problem's modified Statement, which counts the integers divisible by no
-element of a set without $1$. The site's wording ("do not divide any
+element of a set without $1$. The erdosproblems.com wording ("do not divide any
 $a\in A$") has the answer no for a trivial reason that this paper does not
 supply; the problem page's Notes record it. The source is A. Schinzel and G.
 Szekeres, *Sur un problème de M. Paul Erdős*, Acta Sci. Math. (Szeged) 20
@@ -71,14 +71,14 @@ Theorem 3 were read for structure, and the finite verification behind Lemma
 journal, and the last page of the paper gives the date it was received.
 Reviewed: Erdős's 1973 survey (p. 135) records that Schinzel and Szekeres proved
 his $31/30$ conjecture and disproved his expectation of $cn$ integers. His 1980
-survey (p. 111) records the disproof again. The site's curator, Thomas Bloom,
-labeled the problem SOLVED and credits both answers to this paper, with the
-count $n/(\log n)^c$ and the sums above $1-\varepsilon$ (page last edited 8
-April 2026). The page's proof-claim tab was empty, and on 2026-09-18 and on
-2026-10-07 the page showed three thread comments. The paper itself proves $o(n)$
-(p. 229). The power-of-log count comes from the site and from Erdős's 1980
-report, which prints no source. Nothing here is independently reviewed by this
-project.
+survey (p. 111) records the disproof again. The erdosproblems.com curator,
+Thomas Bloom, labeled the problem SOLVED and credits both answers to this paper,
+with the count $n/(\log n)^c$ and the sums above $1-\varepsilon$ (page last
+edited 8 April 2026). The page's proof-claim tab was empty, and on 2026-09-18
+and on 2026-10-07 the page showed three thread comments. The paper itself proves
+$o(n)$ (p. 229). The power-of-log count comes from erdosproblems.com and from
+Erdős's 1980 report, which prints no source. Nothing here is independently
+reviewed by this project.
 
 The claim value is `answered` because the result has neither the shape of a
 proof nor that of a disproof alone. It proves the first question and refutes the
@@ -102,8 +102,9 @@ formal-conjectures statement file for the problem, added on 20 September
 `formal_proof` attributes of its two parts and two of its variants; a
 statement file, it is not linked here. The file contains no `sorry` and no
 `axiom`. It was neither built nor audited in this corpus, so `formalized`
-is not listed and no kernel credit is claimed; the site did not label the
-problem Lean, and its proof-claim tab was empty, as it had been on 2026-09-18.
+is not listed and no kernel credit is claimed; erdosproblems.com did not label
+the problem Lean, and its proof-claim tab was empty, as it had been on
+2026-09-18.
 
 **Depends on.** Nothing in this wiki: the theorems are proved within the
 paper, whose card is linked above.

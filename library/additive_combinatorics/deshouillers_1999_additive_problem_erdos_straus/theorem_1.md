@@ -120,8 +120,8 @@ computation (J. Math. Sci. 1 (1966), 77–80, not held), quoted on p. 141.
   subset of $\{1,\ldots,N\}$; Theorem 1 with Straus's block computation
   gives $k(N)=\lfloor2\sqrt{N+1/4}-1\rfloor$ for $N\ge N_0$, hence
   $k(N)=2N^{1/2}+O(1)$ and $k(N)\sim2N^{1/2}$, the affirmative answer to
-  the site's question; the uniqueness remark is the site's "in some cases
-  the largest such $A$ has the form $(N-k,N]\cap\mathbb N$".
+  the erdosproblems.com question; the uniqueness remark is erdosproblems.com's
+  "in some cases the largest such $A$ has the form $(N-k,N]\cap\mathbb N$".
 - [[../wiki/problems/additive_combinatorics/E0875/_index|Problem 875]]: for an infinite
   admissible $A=\{a_1<a_2<\cdots\}$, Theorem 1 applied to $A\cap[1,x]$
   gives $A(x)\le2\sqrt{x+1/4}-1$ for $x\ge N_0$, so $a_n\ge n(n+2)/4$ for

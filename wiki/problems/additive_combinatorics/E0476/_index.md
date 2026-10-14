@@ -34,20 +34,20 @@ $$
 \lvert A\hat{+}A\rvert \geq \min(2\lvert A\rvert-3,p)?
 $$
 
-**Formulation.** The site's wording (page last edited 30 September 2025).
-$A\hat{+}A$ is the restricted sumset, the sums of two distinct elements of
-$A$ (the reproofs write
-$2^\wedge A$; [dSHa94] writes $A\wedge A$, and $\wedge^mA$ for the sums of
-the $m$-subsets); for $|A|\le1$ it is empty and the right side is at most
-$0$, so the content is the case $|A|\ge2$. This is the Erdős--Heilbronn
-conjecture. It implies the case $r=2$ of the conjecture Erdős states as
-display (73) of his 1965 lectures [Er65b] (printed p. 230, recorded on the
+**Formulation.** The erdosproblems.com wording (page last edited 30 September
+2025). $A\hat{+}A$ is the restricted sumset, the sums of two distinct elements
+of $A$ (the reproofs write $2^\wedge A$; [dSHa94] writes $A\wedge A$, and
+$\wedge^mA$ for the sums of the $m$-subsets); for $|A|\le1$ it is empty and the
+right side is at most $0$, so the content is the case $|A|\ge2$. This is the
+Erdős--Heilbronn conjecture. It implies the case $r=2$ of the conjecture Erdős
+states as display (73) of his 1965 lectures [Er65b] (printed p. 230, recorded on
+the
 [[../library/number_theory/erdos_1965_recent_advances_current_problems_number_theory/display_74|display_74]]
 page): $k$ distinct residues mod $p$ have at least $\min(p,rk-r^2+1)$
 distinct sums of at most $r$ distinct $a$'s. At $r=2$ that display counts
 $A\cup(A\hat{+}A)$, which the problem's bound on $A\hat{+}A$ implies but
 which does not imply it. Erdős writes "(73) is not even known for $r=2$";
-the site's commentary quotes the general form as
+the erdosproblems.com commentary quotes the general form as
 $\min(r|A|-r^2+1,p)$. The 1980 monograph [ErGr80], printed p. 95: "Is it
 true that if $a_1,\ldots,a_k$ are distinct residues modulo
 $p$ then the pair sums $a_i+a_j$, $i\ne j$, represent at least $2k-3$
@@ -56,12 +56,12 @@ $p\le2k-3$)? It is surprising this old question of Erdős and Heilbronn
 [Er-He (64)] is still open." The bound is sharp: $A=\{0,1,\ldots,k-1\}$
 has $A\hat{+}A=\{1,\ldots,2k-3\}$ ([ANR95], p. 5).
 
-**Status.** Proved. The site's label was PROVED (LEAN), and its Lean mark is a
-catalog label explained under Formalization.
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN), and its Lean
+mark is a catalog label explained under Formalization.
 
-The site's status-defining source is the paper of Dias da Silva and Hamidoune
-[dSHa94] (Bull. London Math. Soc. 26 (1994), no. 2, 140--146, refereed), at its
-Theorem 4.1 (printed p. 144;
+erdosproblems.com's status-defining source is the paper of Dias da Silva and
+Hamidoune [dSHa94] (Bull. London Math. Soc. 26 (1994), no. 2, 140--146,
+refereed), at its Theorem 4.1 (printed p. 144;
 [[../library/additive_combinatorics/dias_da_silva_hamidoune_1994_cyclic_spaces_grassmann_derivatives_additive_theory/theorem_4_1|result page]]).
 For a finite subset $A$ of a field of characteristic $p$ and a positive integer
 $m$, the theorem says that the sums of the $m$-subsets of $A$ number at least
@@ -95,11 +95,11 @@ Formalization. The claim pages are
 [[problems/additive_combinatorics/E0476/claims/1994_03_01_dias_da_silva_hamidoune|Dias da Silva and Hamidoune]]
 and
 [[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|Alon, Nathanson and Ruzsa]].
-The first is accepted on the refereed publication and the site's credit. The
-second covers the polynomial-method proof and is accepted on the refereed
-publications. Its formalization link is the Lean proof in the lean-proofs
-repository, which declares itself a formalization of their argument. That proof
-is third-party Lean and gives no `formalized` evidence.
+The first is accepted on the refereed publication and the erdosproblems.com
+credit. The second covers the polynomial-method proof and is accepted on the
+refereed publications. Its formalization link is the Lean proof in the
+lean-proofs repository, which declares itself a formalization of their argument.
+That proof is third-party Lean and gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/476](https://www.erdosproblems.com/476),
 accessed 2026-09-18: the problem page (labeled
@@ -167,9 +167,9 @@ Erdős Problem #476, https://www.erdosproblems.com/476, accessed
   page.
 - [Gu04] Guy, R. K., Unsolved problems in number theory, 3rd ed., Problem
   Books in Mathematics, Springer, New York (2004), xviii+437 pp. Section
-  C15 "Maximal zero-sum-free sets", printed pp. 193--194, the section the
-  site cites; the passage on p. 194: after the Erdős--Heilbronn theorem
-  for $k\ge3(6p)^{1/2}$ and Olson's $k>2\sqrt p$, it reports the
+  C15 "Maximal zero-sum-free sets", printed pp. 193--194, the section
+  erdosproblems.com cites; the passage on p. 194: after the Erdős--Heilbronn
+  theorem for $k\ge3(6p)^{1/2}$ and Olson's $k>2\sqrt p$, it reports the
   conjecture that the pair sums $a_i+a_j$, $i<j$, of $k$ distinct
   residues take at least $\min\{p,2k-3\}$ values, names partial results
   of Mansfield, of Rødseth and of Freiman, Low and Pitman, credits Dias
@@ -184,8 +184,9 @@ Erdős Problem #476, https://www.erdosproblems.com/476, accessed
 - [Ya26] Yang, G., Linear algebraic method and the Erdős--Heilbronn
   conjecture. arXiv:2605.19542v1 (19 May 2026); a new elementary proof of
   the Alon--Nathanson--Ruzsa theorem by linear algebra, per its abstract
-  (arXiv API). Not held; a reproof of the settled statement that the site
-  does not credit, recorded as context and given no claim page.
+  (arXiv API). Not held; a reproof of the settled statement that
+  erdosproblems.com does not credit, recorded as context and given no claim
+  page.
 
 **Formalization.** Statement with an external proof pointer. The file
 [`ErdosProblems/476.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/476.lean)
@@ -216,18 +217,19 @@ file is third-party Lean that this corpus has not built, so it gives no
 `formalized` evidence. The community database (accessed 2026-09-18) lists the
 problem as "proved (Lean)", as of its last update on 31 December 2025, with
 `formal_status` Lean, the statement formalized since 6 July 2026 and no
-formal-proof URL; the site's indicator reads "Formalised statement? Yes".
+formal-proof URL; the erdosproblems.com indicator reads "Formalised statement?
+Yes".
 
 ## Current assessment
 
-**The question (site formulation as accessed 2026-09-18).** The statement
-above; PROVED (LEAN); last edited 30 September 2025. The commentary attributes
-the question to Erdős and Heilbronn, credits the affirmative answer to Dias da
-Silva and Hamidoune [dSHa94], records that Erdős's 1965 lectures [Er65b]
-conjecture the general bound $\min(r|A|-r^2+1,p)$ for the number of residues
-that are sums of at most $r$ distinct elements of $A$, and refers to section
-C15 of Guy's book [Gu04]. The thread has one comment (31 December 2025), by
-the owner of the lean-proofs repository, announcing that Aristotle had
+**The question (erdosproblems.com formulation as accessed 2026-09-18).** The
+statement above; PROVED (LEAN); last edited 30 September 2025. The commentary
+attributes the question to Erdős and Heilbronn, credits the affirmative answer
+to Dias da Silva and Hamidoune [dSHa94], records that Erdős's 1965 lectures
+[Er65b] conjecture the general bound $\min(r|A|-r^2+1,p)$ for the number of
+residues that are sums of at most $r$ distinct elements of $A$, and refers to
+section C15 of Guy's book [Gu04]. The thread has one comment (31 December 2025),
+by the owner of the lean-proofs repository, announcing that Aristotle had
 formalized a solution different from the original, by the Combinatorial
 Nullstellensatz, with the external file linked and its final statement given;
 the proof-claim tab is empty. The community database lists the problem as
@@ -294,9 +296,9 @@ zero-free subset sums (Acta Arith. 1996) and the Hegyvári--Hennecart--Plagne
 paper on restricted addition (Combin. Probab. Comput. 2007), do not state it.
 Acceptance evidence: the Bulletin of the London Mathematical Society, the
 American Mathematical Monthly and the Journal of Number Theory are refereed;
-the site's commentary; the theorem is standard in the literature on restricted
-sumsets (the Dias da Silva--Hamidoune paper had 100 citing records in the
-citation index consulted on 2026-09-18, including 2026 preprints giving new
+the erdosproblems.com commentary; the theorem is standard in the literature on
+restricted sumsets (the Dias da Silva--Hamidoune paper had 100 citing records in
+the citation index consulted on 2026-09-18, including 2026 preprints giving new
 proofs). Read depth: claims checked for Theorem 4.1, Corollary 3.3 and Theorem
 3.2 of [dSHa94], the proof of Theorem 4.1 read in full and the chain behind it
 for structure, for Theorems 1 and 2 of [ANR95], the proof of Theorem 2 read in
@@ -304,8 +306,8 @@ full and that of Theorem 1 for structure, and for Theorems 1.3, 3.2 and 3.3 of
 [ANR96], the proof of Theorem 3.3 read in full and those of Theorem 3.2 and
 Proposition 1.2 for structure; none of these proofs is independently reviewed.
 
-**Formalization and the Lean label.** The site's Lean mark is a catalog
-label. The formal-conjectures statement at the pin is exactly the
+**Formalization and the Lean label.** The erdosproblems.com Lean mark is a
+catalog label. The formal-conjectures statement at the pin is exactly the
 displayed inequality over every prime, with a `sorry` body and the
 `formal_proof` attribute described under Formalization; the external file
 it names proves the statement by the polynomial method with no `sorry`
@@ -322,7 +324,7 @@ the community database records no formal-proof URL.
 dispute of the theorem, an error report on either proof, or a reason to
 qualify the status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit and the external Lean file
   at the repository head through the GitHub API; the community database, read
   2026-09-18.
@@ -346,9 +348,10 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. The [dSHa94] theorem
 (Theorem 4.1, printed p. 144) and the [Gu04] passage (C15, printed p. 194)
 are cited from the papers themselves.
 
-**Remaining gaps.** (1) The site's status-defining paper [dSHa94] is cited at
-its theorem (Theorem 4.1, printed p. 144) from the paper itself; its original
-argument (the hook-length identity of § 2 and the cyclic-subspace bound of §
+**Remaining gaps.** (1) erdosproblems.com's status-defining paper [dSHa94] is
+cited at its theorem (Theorem 4.1, printed p. 144) from the paper itself; its
+original argument (the hook-length identity of § 2 and the cyclic-subspace bound
+of §
 3) is recorded at the level of structure only and not checked, and its printed
 Corollary 3.3 omits a $\min$ with $p$ that Theorem 3.2 carries and the proof
 of Theorem 4.1 uses, recorded on the library card as a filing observation. (2)

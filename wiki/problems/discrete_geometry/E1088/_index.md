@@ -30,12 +30,12 @@ $$
 f_d(n)=2^{o(d)}?
 $$
 
-**Status.** Open, in the site's label (OPEN; page last edited 8 April 2026). The
-question whether $f_d(n)=2^{o(d)}$ is open for every $n\ge4$, so the standing in
-the frontmatter, derived from the claim pages, is open. The site's remarks
-credit exact values and orders of growth for small cases. These, and Ionin's
-exact values for $n=3$ and $d\le8$, are recorded as partial claims in
-`claims/`.
+**Status.** Open, in the erdosproblems.com label (OPEN; page last edited 8 April
+2026). The question whether $f_d(n)=2^{o(d)}$ is open for every $n\ge4$, so the
+standing in the frontmatter, derived from the claim pages, is open. The
+erdosproblems.com remarks credit exact values and orders of growth for small
+cases. These, and Ionin's exact values for $n=3$ and $d\le8$, are recorded as
+partial claims in `claims/`.
 
 **Source.** [erdosproblems.com/1088](https://www.erdosproblems.com/1088),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1088,
@@ -53,8 +53,8 @@ https://www.erdosproblems.com/1088.
 
 ## Current assessment
 
-The site's formulation (page last edited 8 April 2026) asks for an estimate
-of $f_d(n)$, the least $m$ such that every $m$ points of $\mathbb{R}^d$
+The erdosproblems.com formulation (page last edited 8 April 2026) asks for an
+estimate of $f_d(n)$, the least $m$ such that every $m$ points of $\mathbb{R}^d$
 contain $n$ points whose pairwise distances are all distinct, and in
 particular whether $f_d(n)=2^{o(d)}$ for each fixed $n\ge3$. The general
 estimate is open; five results settle instances.
@@ -87,10 +87,10 @@ page]], accepted on its journal publication) and the lower bound the
 Erdős–Turán bound for Sidon subsets of $\{1,\ldots,N\}$. The constant is
 open.
 
-**General bounds.** The site's remarks call $f_d(n)\le n^{O_d(1)}$ easy, and
-Erdős [Er75f] reports an unpublished bound $f_d(n)\le c_n^d$ of Erdős and
-Straus. Neither settles an instance, so neither has a claim page. The behavior
-of $f_d(n)$ for fixed $d$ as $n\to\infty$ is
+**General bounds.** The erdosproblems.com remarks call $f_d(n)\le n^{O_d(1)}$
+easy, and Erdős [Er75f] reports an unpublished bound $f_d(n)\le c_n^d$ of Erdős
+and Straus. Neither settles an instance, so neither has a claim page. The
+behavior of $f_d(n)$ for fixed $d$ as $n\to\infty$ is
 [[problems/distance_problems/E1208/_index|Problem 1208]]. The question whether
 $f_d(n)=2^{o(d)}$ is open for every $n\ge4$.
 <!-- BEGIN problem library links -->

@@ -48,14 +48,14 @@ term of a sequence with all $c$-sums different is the problem's threshold:
 every such sequence with $a_s>(a+K/2)e^{K+1}+Ke^{2K+2}$ has two equal
 $c$-sums. The sequence starts exactly at $a$, as in the problem. Since
 $(a+K/2)e^{K+1}+Ke^{2K+2}\le a\bigl(e^{K+1}+2Ke^{2K+2}\bigr)$ for $a\ge1$,
-the bound is the site's $f(a,K)\ll ae^{O(K)}$ with explicit constants.
+the bound is erdosproblems.com's $f(a,K)\ll ae^{O(K)}$ with explicit constants.
 
 Three filing observations, not review verdicts: the theorem prints the strict
 inequality while the proof's last line (p. 198) concludes
 "$f(a,K)\le L$" with $L=e^{K+1}(a+K/2)+Ke^{2K+2}$, and the paper prints no
 remark on whether the exponential dependence on $K$ is best possible; the
-site's commentary attributes such a belief to the author, and it has no
-printed counterpart in this paper; and the printed step from (3.6) to (3.7)
+erdosproblems.com commentary attributes such a belief to the author, and it has
+no printed counterpart in this paper; and the printed step from (3.6) to (3.7)
 fails for large $a$ at every $K$, since with $A=[e^{K+1}]$ the coefficient
 $A/(\log A-K)$ of $a$ that (3.7) needs exceeds $e^{K+1}$ (for $K=1$,
 $a=10^4$ and $D=L+1$, $S'-D\approx-74$), while the floor sum $S$ of (3.5),
@@ -102,8 +102,8 @@ rests on Theorem 2 (p. 195), whose proof was read for structure only.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E1213/_index|Problem 1213]]: the theorem the
-  site's commentary cites for the affirmative answer, with the exact
+  erdosproblems.com commentary cites for the affirmative answer, with the exact
   hypotheses ($a_1=a$, increasing, gaps at most $K$, all $c$-sums over all
-  index pairs distinct) and the explicit bound behind the site's
+  index pairs distinct) and the explicit bound behind erdosproblems.com's
   $f(a,K)\ll ae^{O(K)}$; the small values and the $K=1$ estimate of the same
   page are the paper's only lower bounds.

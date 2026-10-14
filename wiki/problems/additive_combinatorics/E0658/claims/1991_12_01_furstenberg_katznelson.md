@@ -36,12 +36,12 @@ $\delta>0$ and positive integers $K$ and $d$, an $N_0(\delta,K,d)$ such
 that for $N>N_0$ every subset of $[N]^d$ of size at least $\delta N^d$
 contains a homothetic copy of $[K]^d$; with $d=K=2$ the copy
 $\{(a,b),(a+t,b),(a,b+t),(a+t,b+t)\}$, $t\ge1$, is an axis-parallel
-square, which is the site's question in Graham's form and so in the form
-allowing any square. The proof is ergodic and gives no bound on $N_0$.
-The library holds no copy of the paper; the statement is given in the form
+square, which is the erdosproblems.com question in Graham's form and so in the
+form allowing any square. The proof is ergodic and gives no bound on $N_0$. The
+library holds no copy of the paper; the statement is given in the form
 Solymosi's paper records, as on the
 [[../library/additive_combinatorics/solymosi_2004_note_question_erdos_graham/_index|Solymosi card]],
-and as the site's commentary credits it.
+and as the erdosproblems.com commentary credits it.
 
 **Depends on.** Nothing in this wiki.
 
@@ -49,9 +49,9 @@ and as the site's commentary credits it.
 doi:10.1007/BF03041066. The Crossref record dates the volume to December 1991,
 and this page's name fills that to the first of the month.
 
-Reviewed: the site's curator, Thomas Bloom, labeled the problem proved. The
-problem page's commentary credits the answer without a bound to Furstenberg and
-Katznelson's density Hales–Jewett theorem. The proof-claim tab is empty.
-Solymosi's later
+Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the problem
+proved. The problem page's commentary credits the answer without a bound to
+Furstenberg and Katznelson's density Hales–Jewett theorem. The proof-claim tab
+is empty. Solymosi's later
 [[problems/additive_combinatorics/E0658/claims/2004_03_01_solymosi|quantitative proof]]
 gives the same conclusion with a bound that is at best of tower type.

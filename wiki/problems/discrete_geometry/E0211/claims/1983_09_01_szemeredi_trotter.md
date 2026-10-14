@@ -26,7 +26,7 @@ updated: 2026-10-07T22:02:26Z
 ***
 
 The result credited here is a consequence of the paper's incidence bounds,
-drawn by Erdős (1984) and by the site, not a theorem the paper states.
+drawn by Erdős (1984) and by erdosproblems.com, not a theorem the paper states.
 Szemerédi and Trotter prove that $n$ points and $t$ lines in the real plane
 have at most $c_1n^{2/3}t^{2/3}$ incidences when $\sqrt n\le t\le\binom n2$,
 and deduce that fewer than $c_2n^2/k^3$ lines carry at least $k$ of $n$ points
@@ -46,6 +46,6 @@ issue of the journal.
 The refereed evidence covers the premises, Theorems 1 and 2 of Endre Szemerédi
 and William T. Trotter, Jr., Extremal problems in discrete geometry,
 Combinatorica 3 (1983), no. 3-4, 381-392; the deduction of the $\gg kn$ bound
-rests on the curator's credit and on Erdős's note. The site's curator, T. F.
-Bloom, marked the problem proved and credits this paper beside Beck's, and Erdős
-records the deduction in his 1984 note.
+rests on the curator's credit and on Erdős's note. The erdosproblems.com
+curator, T. F. Bloom, marked the problem proved and credits this paper beside
+Beck's, and Erdős records the deduction in his 1984 note.

@@ -79,9 +79,10 @@ cubics, and Theorem 6.1 gives a criterion obstructing reducible compositions
 f(g(t)) with g quadratic, illustrated by sextics. Erdos problem 369 asks for k
 consecutive n^epsilon-smooth integers up to n. The paper does not discuss runs
 of consecutive integers; Theorem 2.1 covers the product (t+1)(t+2)...(t+k) of
-k consecutive linear polynomials, and the problem's site records a deduction
-from Theorem 2.1, pointed out by Wooley, of a run of k consecutive
-n^epsilon-smooth integers in [n - n^c, n] for some c < 1 and all large n.
+k consecutive linear polynomials, and the problem's erdosproblems.com page
+records a deduction from Theorem 2.1, pointed out by Wooley, of a run of k
+consecutive n^epsilon-smooth integers in [n - n^c, n] for some c < 1 and all
+large n.
 
 Source: <https://arxiv.org/abs/1710.01970v1>.
 

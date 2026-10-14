@@ -23,8 +23,8 @@ arXiv:2309.14103v3 [math.CO] (13 August 2024), 29 pages; the title's
 footnote: "A preliminary version appeared in the proceedings of the 49th
 International Workshop on Graph-Theoretic Concepts in Computer Science (WG
 2023) [63]". A preprint: the consuming page records the arXiv version only,
-and no refereed journal publication was looked for here. Not a site key
-for Problem 151.
+and no refereed journal publication was looked for here. Not an
+erdosproblems.com key for Problem 151.
 
 **Retained artifact.** The
 [folder-name PDF](milanic_2024_upper_clique_transversal_problem.pdf) is the

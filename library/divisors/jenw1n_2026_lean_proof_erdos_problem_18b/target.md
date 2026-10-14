@@ -55,7 +55,7 @@ at every odd frequency (the auxiliary definitions `cyclicUniformNatSet` and
 `cyclicProductPow` were not read). `erdos18b_of_weighted_dyadic_mixing`
 (line 2580) derives the target from this property, `weighted_dyadic_mixing`
 (line 14011) proves the property, and `target` (line 14040) combines the
-two. The site's review states that the mixing premise is proved within the
+two. Conjectures.io's review states that the mixing premise is proved within the
 file and that "conditional intermediate lemmas are not residual assumptions
 of the final result."
 
@@ -64,15 +64,16 @@ of the final result."
 The formal-conjectures catalog's `Erdos18.practicalH` and
 `Erdos18.factorial_isPractical` (proved in the formal-conjectures file) and
 Mathlib through the trusted challenge environment; axiom closure within
-`propext`, `Quot.sound` and `Classical.choice` by the site's audit.
+`propext`, `Quot.sound` and `Classical.choice` by Conjectures.io's audit.
 
 ## Standing
 
 The bounty site's kernel check, review, certification and payment are reported,
 not counted; acceptance rests on this corpus's rebuild and kernel replay of the
-file on the repository's pinned toolchain. Not refereed; the site's reviewers
-ran no fresh replay. The site owner's post on the erdosproblems.com proof-claims
-tab of 27 September 2026 is explicitly not a verification.
+file on the repository's pinned toolchain. Not refereed; Conjectures.io's
+reviewers ran no fresh replay. erdosproblems.com owner's post on the
+erdosproblems.com proof-claims tab of 27 September 2026 is explicitly not a
+verification.
 
 ## Bears on
 

@@ -11,9 +11,9 @@ updated: 2026-10-05T05:52:35Z
 ***
 
 **Source.** T. Tao, discussion comment on the Problem 251 page, 17:17 on
-07 Oct 2025 (site clock): "By summation by parts, this is equivalent to
-the irrationality of $\sum_n\frac{p_{n+1}-p_n}{2^n}$." The comment states
-the equivalence in one line; the proof below is written out here and
+07 Oct 2025 (erdosproblems.com clock): "By summation by parts, this is
+equivalent to the irrationality of $\sum_n\frac{p_{n+1}-p_n}{2^n}$." The comment
+states the equivalence in one line; the proof below is written out here and
 checked; it is elementary and complete.
 
 ## Statement

@@ -41,8 +41,8 @@ problem in the plane*).
 
 The durable source identity is
 `guth_2015_erdos_distinct_distance_problem_plane`. The retired duplicate slug
-`guth_2015_erdos_distinct_distances_problem_plane` and the site citation key
-`GuKa15` are aliases for this source.
+`guth_2015_erdos_distinct_distances_problem_plane` and erdosproblems.com
+citation key `GuKa15` are aliases for this source.
 
 The copy read for the annotations below is the authors' preprint, labeled
 `arXiv:1011.4105v3 [math.CO]`, 28 June 2011, 37 physical pages (328,114

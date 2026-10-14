@@ -62,11 +62,11 @@ is a necessary condition on any odd covering with distinct moduli.
 **Acceptance.** Refereed: Invent. Math. 228 (2022), no. 1, 377--414,
 doi:10.1007/s00222-021-01087-5, published online 2021-11-16 (Crossref record
 read 2026-10-07). The arXiv preprint 1811.03547 was posted 2018-11-08, this
-page's date. Reviewed: the site's curator, Thomas Bloom, credits the five
-authors with the negative answer in the problem's commentary and labeled the
-problem disproved. The page's proof-claim tab was empty, and on 2026-10-07 its
-comments were empty. The library's compilation of the theorem is this project's
-own reading and counts as no acceptance evidence.
+page's date. Reviewed: the erdosproblems.com curator, Thomas Bloom, credits the
+five authors with the negative answer in the problem's commentary and labeled
+the problem disproved. The page's proof-claim tab was empty, and on 2026-10-07
+its comments were empty. The library's compilation of the theorem is this
+project's own reading and counts as no acceptance evidence.
 
 **Formalization.** The formal-conjectures statement file for the problem
 (read 2026-10-07) carries the category `research solved` and a

@@ -72,9 +72,9 @@ for the existence of $f(k)$.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0902/_index|Problem 902]]: the definition of
-  the problem's function, in the site's key Er63c (the site's $n$ is the
-  paper's $k$); the values $f(1)=3$ and $f(2)=7$; inequality (1), the lower
-  bound the site quotes as $2^{n+1}-1\le f(n)$; and Erdős's guess
-  $f(k)=2^{k+1}-1$, which the problem page records as refuted for $k\ge3$
-  by the Szekeres--Szekeres lower bound, a result this paper does not
-  contain.
+  the problem's function, in the erdosproblems.com key Er63c
+  (erdosproblems.com's $n$ is the paper's $k$); the values $f(1)=3$ and
+  $f(2)=7$; inequality (1), the lower bound erdosproblems.com quotes as
+  $2^{n+1}-1\le f(n)$; and Erdős's guess $f(k)=2^{k+1}-1$, which the problem
+  page records as refuted for $k\ge3$ by the Szekeres--Szekeres lower bound, a
+  result this paper does not contain.

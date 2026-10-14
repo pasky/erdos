@@ -34,8 +34,8 @@ $$
 
 for any graph $G$ on $n$ vertices?
 
-**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 18
-January 2026). $R^*(G)$ is written $r_{\mathrm{ind}}(G)$ or
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
+edited 18 January 2026). $R^*(G)$ is written $r_{\mathrm{ind}}(G)$ or
 $R_{\mathrm{ind}}(G)$ in the sources; the induced copy must be induced in the
 host $H$ with all its edges of one color. That $R^*(G)$ is finite is the
 induced Ramsey theorem of Deuber, Erdős--Hajnal--Pósa and Rödl. The question
@@ -43,28 +43,28 @@ asks for an absolute constant $C$ with $R^*(G)\le2^{Cn}$ for every $n$-vertex
 $G$; since $R^*(K_n)=R(K_n)\ge2^{n/2}$, an exponential bound is best possible
 up to the constant.
 
-**Status.** The site labeled the problem PROVED. The frontmatter standing
+**Status.** Bloom's catalog labeled the problem PROVED. The frontmatter standing
 derives as solved from the claim page
 [[problems/ramsey_theory/E0565/claims/2025_09_26_aragao_campos_dahia_filipe_marciano|Aragão, Campos, Dahia, Filipe and Marciano 2025]],
 which records the theorem, its postings and its acceptance evidence. The answer
 is yes. Theorem 1.1 of Aragão, Campos, Dahia, Filipe and Marciano gives a
 constant $C>0$ with $R^*(G)\le2^{Cn}$ for every graph $G$ on $n$ vertices. Their
 Theorem 1.2 gives $r^{Crn}$ for $r$ colors. The status-defining source is an
-arXiv paper (v2, 13 November 2025). The site's curator, T. F. Bloom, labeled the
-problem PROVED and credits the paper. Morris, whom the authors thank for reading
-the paper, reports the result as proved, with a proof outline, in the published
-text of Morris's plenary lecture at the 2026 International Congress of
-Mathematicians. No independent review and no formal verification were found. The
-earlier bounds, $2^{O(n(\log n)^2)}$ (Kohayakawa, Prömel and Rödl; an explicit
-host by Fox and Sudakov) and $2^{O(n\log n)}$ (Conlon, Fox and Sudakov,
-refereed), are recorded below as history.
+arXiv paper (v2, 13 November 2025). The erdosproblems.com curator, T. F. Bloom,
+labeled the problem PROVED and credits the paper. Morris, whom the authors thank
+for reading the paper, reports the result as proved, with a proof outline, in
+the published text of Morris's plenary lecture at the 2026 International
+Congress of Mathematicians. No independent review and no formal verification
+were found. The earlier bounds, $2^{O(n(\log n)^2)}$ (Kohayakawa, Prömel and
+Rödl; an explicit host by Fox and Sudakov) and $2^{O(n\log n)}$ (Conlon, Fox and
+Sudakov, refereed), are recorded below as history.
 
 **Source.** [erdosproblems.com/565](https://www.erdosproblems.com/565),
-accessed 2026-09-17: the problem page (PROVED, with the site's note that
-the answer is affirmative; last edited 18 January 2026; source key [Er75d];
-the site records additional thanks to one contributor), its empty
+accessed 2026-09-17: the problem page (PROVED, with the erdosproblems.com note
+that the answer is affirmative; last edited 18 January 2026; source key [Er75d];
+erdosproblems.com records additional thanks to one contributor), its empty
 discussion thread and its empty
-proof-claim tab. The site cites [De75],
+proof-claim tab. erdosproblems.com cites [De75],
 [EHP75], [Ro73], [KPR98], [FoSu08], [CFS12] and [ACDFM25] in its commentary.
 Cite as: T. F. Bloom, Erdős Problem #565, https://www.erdosproblems.com/565,
 accessed 2026-09-17.
@@ -113,27 +113,28 @@ accessed 2026-09-17.
   [ACDFM25].
 - [Ro73] Rödl, V., The dimension of a graph and generalized Ramsey theorems.
   Thesis, Charles University, Prague (1973). Not held: no record was found in
-  zbMATH Open on 2026-09-17. The site credits it with the existence of $R^*(G)$
-  and with the bipartite case.
+  zbMATH Open on 2026-09-17. erdosproblems.com credits it with the existence of
+  $R^*(G)$ and with the bipartite case.
 - [Er75d] Erdős, P., Problems and results on finite and infinite graphs.
   Recent advances in graph theory (Proc. Second Czechoslovak Sympos.,
-  Prague, 1974) (1975), 183--192. Site source key; no library home; not
-  consulted here. [ACDFM25] (p. 2) dates the conjecture "first implicitly in
+  Prague, 1974) (1975), 183--192. erdosproblems.com source key; no library home;
+  not consulted here. [ACDFM25] (p. 2) dates the conjecture "first implicitly in
   1975 and then explicitly in 1984".
 
 **Formalization.** None. No file `ErdosProblems/565.lean` existed in
-formal-conjectures on 2026-09-17 (the full tree held none); the site's
-formalized-statement indicator reads no, and the community database
-(teorth/erdosproblems, accessed 2026-09-17) lists the problem as proved as of
-its last update on 29 September 2025, unformalized and with no formal proof.
+formal-conjectures on 2026-09-17 (the full tree held none); the
+erdosproblems.com formalized-statement indicator reads no, and the community
+database (teorth/erdosproblems, accessed 2026-09-17) lists the problem as proved
+as of its last update on 29 September 2025, unformalized and with no formal
+proof.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
-above; status PROVED; last edited 18 January 2026. The site's commentary
-attributes the problem to Erdős and Rödl; notes that even the finiteness
-of $R^*(G)$ is not obvious and names three independent proofs of it, [De75],
-[EHP75] and [Ro73]; credits [Ro73] with the bipartite case, Kohayakawa,
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; status PROVED; last edited 18 January 2026. The erdosproblems.com
+commentary attributes the problem to Erdős and Rödl; notes that even the
+finiteness of $R^*(G)$ is not obvious and names three independent proofs of it,
+[De75], [EHP75] and [Ro73]; credits [Ro73] with the bipartite case, Kohayakawa,
 Prömel and Rödl [KPR98] with $R^*(G)<2^{O(n(\log n)^2)}$, Fox and Sudakov
 [FoSu08] with a second and more explicit proof of that bound, and Conlon,
 Fox and Sudakov [CFS12] with $R^*(G)<2^{O(n\log n)}$; and states that the
@@ -155,10 +156,10 @@ Erdős--Szekeres-type induction, with a union bound over all colorings of
 $G[U]$ (Section 1.1, p. 3). Acceptance evidence: the paper is a preprint (v2
 of 13 November 2025, whose arXiv comment says the presentation was simplified
 "for journal submission"; the arXiv listing and a Crossref bibliographic query
-on 2026-09-17 showed no journal version); the site's curator, T. F. Bloom,
-labeled the problem PROVED and credits it, which is the acceptance the claim
-page records. As context, not acceptance: the ICM 2026 plenary lecture text of
-Morris, published in the congress proceedings in July 2026, reports the
+on 2026-09-17 showed no journal version); the erdosproblems.com curator, T. F.
+Bloom, labeled the problem PROVED and credits it, which is the acceptance the
+claim page records. As context, not acceptance: the ICM 2026 plenary lecture
+text of Morris, published in the congress proceedings in July 2026, reports the
 conjecture as "recently proved" by the five authors, states it as its
 [[../library/ramsey_theory/morris_2026_recent_results_ramsey_theory/theorem_1_5|Theorem 1.5]]
 and outlines the proof in its Section 10 (arXiv v1 p. 4), but the paper's
@@ -199,9 +200,9 @@ $2^{O(t(\log t)^2)}$, for all $t$-vertex $H$; the host is a random graph on
 the points of a projective plane, each line partitioned at random into classes
 indexed by the vertices of $H$ (§ 2.1). The paper states the question as its
 Problem 1 (p. 374), quoting Erdős's 1984 text and calling it "already implicit
-in [6, § III]", the site's [Er75d], and closes (p. 402) with "Problem 1 and
-Conjecture 2 remain open". Read depth: claims checked for Problem 1, Theorem 3
-and the diagonal remark; the proof (§ 3) was not read. [FoSu08] p. 5 and
+in [6, § III]", erdosproblems.com's [Er75d], and closes (p. 402) with "Problem 1
+and Conjecture 2 remain open". Read depth: claims checked for Problem 1, Theorem
+3 and the diagonal remark; the proof (§ 3) was not read. [FoSu08] p. 5 and
 [CFS12] p. 2 quote the same bound. [FoSu08] made the host explicit:
 [[../library/ramsey_theory/fox_2008_induced_ramsey_type_theorems/corollary_1_6|Corollary 1.6]]
 (arXiv v3 p. 7) says that the Paley graph $P_n$ on a prime number
@@ -226,7 +227,7 @@ through a $(1/2,\lambda)$-pseudo-random host with $\lambda\le2^{-cn\log n}N$
 version of [ACDFM25], a dispute or correction, an independent review, or a
 formal proof.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures tree (no file for this
   problem).
 - The primary sources, at the pages stated: [ACDFM25] pp. 1--3, [FoSu08]
@@ -255,15 +256,14 @@ Not searched: MathSciNet, Google Scholar, X. Unread: [De75], [Ro73],
 pp. 515--516); see the references.
 
 **Remaining gaps.** (1) The status rests on an unrefereed preprint accepted
-on the site's curator's credit; a refereed version or an independent review
-would strengthen it. (2) Proof coverage: the sources are
-compiled as statements only (claims checked); no proof is rewritten,
-checked or reviewed here, and the 59-page proof of Theorem 1.1 is not
-compiled. (3) [De75] and [Ro73] are not held; their statements are
-second-hand. (4) The journal version of [FoSu08] was not compared with the
-arXiv version, whose page numbers the locators use; [CFS12]'s journal
-statements of Theorems 1.2 and 1.3 are the same as the preprint's, the
-proofs not compared. (5) No formalization exists.
+on the erdosproblems.com curator's credit; a refereed version or an independent
+review would strengthen it. (2) Proof coverage: the sources are compiled as
+statements only (claims checked); no proof is rewritten, checked or reviewed
+here, and the 59-page proof of Theorem 1.1 is not compiled. (3) [De75] and
+[Ro73] are not held; their statements are second-hand. (4) The journal version
+of [FoSu08] was not compared with the arXiv version, whose page numbers the
+locators use; [CFS12]'s journal statements of Theorems 1.2 and 1.3 are the same
+as the preprint's, the proofs not compared. (5) No formalization exists.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

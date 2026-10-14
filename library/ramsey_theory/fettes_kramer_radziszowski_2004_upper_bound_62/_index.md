@@ -40,7 +40,7 @@ Creative Commons Attribution 4.0 license and a diamond open-access policy
 (https://combinatorialpress.com/ars-articles/volume-072-ars-articles/an-upper-bound-of-62-on-the-classical-ramsey-number-r3-3-3-3/,
 read 2026-10-02), a label the publisher applies to this 2004 article after the
 fact; the page's footer "1970-2026 CP (Manitoba, Canada) unless otherwise
-stated" speaks for the site.
+stated" speaks for erdosproblems.com.
 
 - [Canonical journal PDF](fettes_kramer_radziszowski_2004_upper_bound_62.pdf),
   from the

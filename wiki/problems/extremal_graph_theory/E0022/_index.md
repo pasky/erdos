@@ -26,11 +26,11 @@ $\epsilon$. Is there a graph on $n$ vertices with $\geq n^2/8$ many edges which
 contains no $K_4$ such that the largest independent set has size at most
 $\epsilon n$?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page showed no
-last-edited date). The question is: for every
-$\epsilon>0$ there is $n_0(\epsilon)$ such that for every $n\ge n_0$ some
-$K_4$-free graph on $n$ vertices has at least $n^2/8$ edges and independence
-number at most $\epsilon n$. In the site's notation this is
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+showed no last-edited date). The question is: for every $\epsilon>0$ there is
+$n_0(\epsilon)$ such that for every $n\ge n_0$ some $K_4$-free graph on $n$
+vertices has at least $n^2/8$ edges and independence number at most
+$\epsilon n$. In the erdosproblems.com notation this is
 $\mathrm{rt}(n;4,\epsilon n)\ge n^2/8$, where $\mathrm{rt}(n;k,\ell)$ is the
 largest number of edges of a $K_k$-free graph on $n$ vertices whose largest
 independent set has fewer than $\ell$ vertices (the sources write
@@ -44,8 +44,8 @@ $n^2/8$ is exact: Szemerédi's theorem (1972) says that $(1/8+\epsilon)n^2$
 edges force a $K_4$ or an independent set of size $\delta(\epsilon)n$, so the
 question asks what happens at the threshold itself.
 
-**Status.** Proved. The site's label read "PROVED (LEAN)". Its suffix is a
-catalog label, explained under Formalization. The claim page is
+**Status.** Proved. The erdosproblems.com label read "PROVED (LEAN)". Its suffix
+is a catalog label, explained under Formalization. The claim page is
 [[problems/extremal_graph_theory/E0022/claims/2012_08_16_fox_loh_zhao|Fox, Loh and Zhao]],
 accepted on the refereed publication and the curator's credit. The 2026 Lean
 proof in the lean-proofs repository declares itself a formalization of their
@@ -99,10 +99,10 @@ https://www.erdosproblems.com/22, accessed 2026-09-18.
   quoted as Theorem 1.1 of [FLZ15] (p. 2) and as display (1) of [BoEr76]
   (p. 166).
 - [Er90] Erdős, Paul, Some of my favourite unsolved problems. A tribute to
-  Paul Erdős (1990), 467--478. Site source key; not held (after the Rényi
-  archive's 1989 cutoff). [FLZ15] (p. 2) records that the
-  question "was later featured in the Erdős paper [12] from 1990 entitled
-  'Some of my favourite unsolved problems'".
+  Paul Erdős (1990), 467--478. erdosproblems.com source key; not held (after the
+  Rényi archive's 1989 cutoff). [FLZ15] (p. 2) records that the question "was
+  later featured in the Erdős paper [12] from 1990 entitled 'Some of my
+  favourite unsolved problems'".
 - [Cs25] Csaba, B., On the Ramsey-Turán problem for 4-cliques.
   arXiv:2503.00644v1 (1 March 2025), 12 pp.; SIAM J. Discrete Math. 39
   (2025), no. 2, 1201--1212, doi:10.1137/23M1619794 (Crossref record read
@@ -110,7 +110,8 @@ https://www.erdosproblems.com/22, accessed 2026-09-18.
   Context on the critical window; the preprint is filed as
   [[../library/extremal_graph_theory/csaba_2025_ramsey_turan_problem_4_cliques/_index|csaba_2025_ramsey_turan_problem_4_cliques]].
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
+file
 [`ErdosProblems/22.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/22.lean)
 of formal-conjectures, at its commit of 2026-10-06, declares
 `erdos_22 : answer(True) ↔ ∀ ε : ℝ, 0 < ε → ∀ᶠ (n : ℕ) in atTop, ∃ G : SimpleGraph (Fin n), G.CliqueFree 4 ∧ (G.indepNum : ℝ) ≤ ε * n ∧ (n : ℝ) ^ 2 / 8 ≤ G.edgeFinset.card`
@@ -128,17 +129,17 @@ the same declarations and no `formal_proof` attribute, which the commits of
 2026-09-18 and 2026-10-06) lists `status` "proved (Lean)",
 `formal_status` Lean with no URL, and the statement as formalized, as of last
 updates dated 23 August, 23 August and 20 June 2026, without recording when
-each state changed; the site's indicator reads "Formalised statement? Yes".
-Neither Lean file was built or audited by this project. The lean-proofs file
-declares itself a formalization of Fox, Loh and Zhao's theorem, so it is a
+each state changed; the erdosproblems.com indicator reads "Formalised statement?
+Yes". Neither Lean file was built or audited by this project. The lean-proofs
+file declares itself a formalization of Fox, Loh and Zhao's theorem, so it is a
 formalization link on their
 [[problems/extremal_graph_theory/E0022/claims/2012_08_16_fox_loh_zhao|claim page]],
 not a claim of its own.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; PROVED (LEAN). The site's commentary puts the question in
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED (LEAN). The erdosproblems.com commentary puts the question in
 Ramsey-Turán notation, as the inequality $\mathrm{rt}(n;4,\epsilon n)\ge
 n^2/8$ for large $n$; names Bollobás and Erdős [BoEr76] as the conjecture's
 authors and summarizes their 1976 construction with an edge count of order
@@ -146,8 +147,8 @@ $(1/8+o(1))n^2$; credits Fox, Loh and Zhao [FLZ15] with the solution, quoting
 their bound on the independence number, of order
 $n(\log\log n)^{3/2}/(\log n)^{1/2}$ at every $n$; and cross-references
 Problem 615. The thread and the proof-claim tab are empty. The community
-database record says proved (Lean), formalized statement. The site's edge
-count for the 1976 construction is loose: the paper's Theorem gives
+database record says proved (Lean), formalized statement. erdosproblems.com's
+edge count for the 1976 construction is loose: the paper's Theorem gives
 $(1+o(1))n^2/8$, of which the construction supplies the lower half, graphs
 with $(1/8-o(1))n^2$ edges ([FLZ15], p. 2, write it that way).
 
@@ -174,9 +175,9 @@ replaced by $\eta$); their method, they add, does not seem suited to it,
 and they state the opposite possibility, an extension of Szemerédi's
 theorem in which one constant $c>0$ serves every $\epsilon>0$, so that
 $(1+\epsilon)n^2/8$ edges and no $K_4$ force more than $cn$ independent
-points. The quoted question is the site's statement; the stronger statement is
-[FLZ15]'s Problem 1.2, answered yes by their Theorem 1.7, which with
-$m=\eta n$ also gives the site's question.
+points. The quoted question is the erdosproblems.com statement; the stronger
+statement is [FLZ15]'s Problem 1.2, answered yes by their Theorem 1.7, which
+with $m=\eta n$ also gives the erdosproblems.com question.
 
 **Status support.**
 [[../library/extremal_graph_theory/fox_2015_critical_window_classical_ramsey_turan_problem/theorem_1_9|Theorem 1.9]]
@@ -188,20 +189,21 @@ introduces it
 as "an upper bound on this problem, giving a positive answer to Problem 1.3 of
 Bollobás and Erdős", where Problem 1.3 (p. 2) is "Is it true that for every
 $n$, there is a $K_4$-free graph with $n$ vertices, independence number
-$o(n)$, and at least $\frac{n^2}{8}$ edges?", the site's question. The step
-to the site's $\epsilon$-form is elementary: given $\epsilon>0$, the bound
-$c'(\log\log n)^{3/2}/(\log n)^{1/2}$ is below $\epsilon$ for all large $n$,
-so the graph of Theorem 1.9 has independence number at most $\epsilon n$. The
-proof (p. 30 of the arXiv version, "an immediate consequence of Corollary 8.9,
-Corollary 9.2, and $\mathbf{RT}(n,K_4,m)\ge S(n,m)$", the first resting on
-the quantitative analysis of the Bollobás--Erdős graph in Section 8 and the
-second on its modification in Section 9) modifies that graph into a slightly
-denser $K_4$-free graph whose independence number does not grow much.
-Acceptance evidence: Combinatorica is refereed, and the Crossref record and the
-arXiv listing's journal reference agree on Combinatorica 35 (2015), no. 4,
-435--476; the journal text is not held, and arXiv v3 is the text cited. Proof
-coverage: the statements of Theorems 1.1 and 1.5--1.11 and Problems 1.2--1.4
-(pp. 2--5); no proof reviewed.
+$o(n)$, and at least $\frac{n^2}{8}$ edges?", the erdosproblems.com question.
+The step to erdosproblems.com's $\epsilon$-form is elementary: given
+$\epsilon>0$, the bound $c'(\log\log n)^{3/2}/(\log n)^{1/2}$ is below
+$\epsilon$ for all large $n$, so the graph of Theorem 1.9 has independence
+number at most $\epsilon n$. The proof (p. 30 of the arXiv version, "an
+immediate consequence of Corollary 8.9, Corollary 9.2, and
+$\mathbf{RT}(n,K_4,m)\ge S(n,m)$", the first resting on the quantitative
+analysis of the Bollobás--Erdős graph in Section 8 and the second on its
+modification in Section 9) modifies that graph into a slightly denser $K_4$-free
+graph whose independence number does not grow much. Acceptance evidence:
+Combinatorica is refereed, and the Crossref record and the arXiv listing's
+journal reference agree on Combinatorica 35 (2015), no. 4, 435--476; the journal
+text is not held, and arXiv v3 is the text cited. Proof coverage: the statements
+of Theorems 1.1 and 1.5--1.11 and Problems 1.2--1.4 (pp. 2--5); no proof
+reviewed.
 
 **The critical window (context, not the problem).** Szemerédi's theorem, as
 [FLZ15] quote it (Theorem 1.1, p. 2): for every $\epsilon>0$ there is
@@ -216,9 +218,9 @@ greater than $cn\log\log n/\log n$; the paper notes that the previous best
 lower bound at this regime was Sudakov's $ne^{-O(\sqrt{\log n})}$. So the
 least possible independence number of a $K_4$-free graph with $n^2/8$ edges
 lies between $cn\log\log n/\log n$ and $c'n(\log\log n)^{3/2}/(\log n)^{1/2}$;
-its exact order is not the site's question. Above the threshold, Theorem 1.5
-(p. 3) proves Szemerédi's theorem with a linear dependence and without any
-regularity lemma ($n^2/8+10^{10}\alpha n$ edges force a $K_4$ or an
+its exact order is not the erdosproblems.com question. Above the threshold,
+Theorem 1.5 (p. 3) proves Szemerédi's theorem with a linear dependence and
+without any regularity lemma ($n^2/8+10^{10}\alpha n$ edges force a $K_4$ or an
 independent set larger than $\alpha$), Theorem 1.6 sharpens the constant to
 $3/2$ for $\alpha<\gamma_0n$, and Theorem 1.7 with the remark after it (p. 4)
 shows the linear dependence is best possible within a factor $3+o(1)$ in the
@@ -230,9 +232,9 @@ single-exponential constants ($\nu=1/500$, $\gamma=\exp(-10\log(1/\nu)/\nu)$;
 for $n\ge N$ and $\alpha=\alpha(G)/n\le\gamma$,
 $e(G)>(n^2+n)/8+(\alpha-\alpha^2)n^2/2$ forces a $K_4$), refining the
 Lüders--Reiher bound it quotes as Theorem 1.2;
-it concerns the density above $n^2/8$ and does not touch the site's question.
-Its Crossref record (SIAM J. Discrete Math. 39 (2025) 1201--1212) shows it
-refereed; the journal text is not held.
+it concerns the density above $n^2/8$ and does not touch the erdosproblems.com
+question. Its Crossref record (SIAM J. Discrete Math. 39 (2025) 1201--1212)
+shows it refereed; the journal text is not held.
 
 **Formalization and the Lean label.** As recorded under Formalization: the
 formal-conjectures file is a statement with `sorry` whose `formal_proof`
@@ -251,9 +253,10 @@ it is published, so it adds no acceptance evidence to the refereed one.
 **Search scope (2026-09-18 and 2026-10-07 UTC).** None of the routes below found
 a dispute of Theorem 1.9, a retraction, or a second proof.
 
-- The site, on 2026-09-18: problem page, discussion thread and proof-claim
-  tab (thread and tab empty); the formal-conjectures file and the community
-  database record as they stood on 2026-09-18 (dated under Formalization).
+- erdosproblems.com, on 2026-09-18: problem page, discussion thread and
+  proof-claim tab (thread and tab empty); the formal-conjectures file and the
+  community database record as they stood on 2026-09-18 (dated under
+  Formalization).
 - arXiv: the API record of 1208.3276 (v1 16 August 2012, v3 23 September
   2014; journal reference "Combinatorica 35 (2015) 435-476" and the DOI); the
   API record and abstract page of 2503.00644 (one version, 1 March 2025, no
@@ -272,22 +275,22 @@ a dispute of Theorem 1.9, a retraction, or a second proof.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er90],
 [Sz72], the journal texts of [FLZ15] and [Cs25].
 
-Also consulted: the site's problem page, discussion thread and proof-claim tab
-(tab empty; thread empty on 2026-10-07); the formal-conjectures file at its
-commit of 2026-10-06 (pinned under Formalization) and the community database
-record, read 2026-10-06 (dated there); the header, final theorem and history
-of the lean-proofs file. On 2026-10-07 none of these showed a dispute of
+Also consulted: the erdosproblems.com problem page, discussion thread and
+proof-claim tab (tab empty; thread empty on 2026-10-07); the formal-conjectures
+file at its commit of 2026-10-06 (pinned under Formalization) and the community
+database record, read 2026-10-06 (dated there); the header, final theorem and
+history of the lean-proofs file. On 2026-10-07 none of these showed a dispute of
 Theorem 1.9 or a further proof.
 
-**Remaining gaps.** (1) [Er90], one of the site's two source keys, is not held;
-its statement of the problem rests on [FLZ15]'s attestation. (2) Proof coverage
-is statements only: Theorem 1.9 and Theorem 1.8 have library result pages
-recording their statements; no proof reviewed. (3) The Combinatorica text is
-not held; arXiv v3 is the text cited. (4) The exact order of the least
+**Remaining gaps.** (1) [Er90], one of erdosproblems.com's two source keys, is
+not held; its statement of the problem rests on [FLZ15]'s attestation. (2) Proof
+coverage is statements only: Theorem 1.9 and Theorem 1.8 have library result
+pages recording their statements; no proof reviewed. (3) The Combinatorica text
+is not held; arXiv v3 is the text cited. (4) The exact order of the least
 independence number at $n^2/8$ edges is open between the two bounds above; it
-is not the site's question. (5) The Lean proof of 2026-08-16 is not built or
-audited by this project; it gives no `formalized` evidence until an independent
-whole-statement review or a kernel replay is recorded.
+is not the erdosproblems.com question. (5) The Lean proof of 2026-08-16 is not
+built or audited by this project; it gives no `formalized` evidence until an
+independent whole-statement review or a kernel replay is recorded.
 
 ## Known results
 
@@ -302,7 +305,7 @@ whole-statement review or a kernel replay is recorded.
   (1976): $f(n,4,l)=(1+o(1))n^2/8$ for $l=o(n)$, the sphere construction
   below the threshold; the
   [[../library/extremal_graph_theory/bollobas_1976_ramsey_turan_type_problem/problem_p168|closing question]]
-  (p. 168) is the site's statement.
+  (p. 168) is the erdosproblems.com statement.
 - Szemerédi (1972), quoted in both papers: $(1/8+\epsilon)n^2$ edges force a
   $K_4$ or an independent set of size $\delta n$; the threshold. Related:
   [[problems/ramsey_theory/E0615/_index|Problem 615]] asks about

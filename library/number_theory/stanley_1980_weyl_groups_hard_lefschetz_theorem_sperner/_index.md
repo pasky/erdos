@@ -117,7 +117,7 @@ with $\nu=\zeta=0$, $k=1$, the exact maximum number of subsets of $N$ distinct
 positive reals with a common sum, the middle coefficient of
 $(1+q)(1+q^2)\cdots(1+q^N)$, attained by $\{1,\ldots,N\}$; Corollary 5.3,
 p. 179: the maximum over all sets of $N$ distinct reals, attained by
-$\{-[(N-1)/2],\ldots,[N/2]\}$, the set the site's commentary names)
+$\{-[(N-1)/2],\ldots,[N/2]\}$, the set the erdosproblems.com commentary names)
 
 **Results.**
 

@@ -30,30 +30,30 @@ $$
 \frac{\lvert A\cap [1,N]\rvert}{N}=\exp(-(c+o(1))\sqrt{\log N}\log\log N).
 $$
 
-**Status.** The site's label was OPEN (page last edited 14 September 2025;
-proof-claim tab accessed 2026-10-06).
+**Status.** The erdosproblems.com label was OPEN (page last edited 14 September
+2025; proof-claim tab accessed 2026-10-06).
 
 **Source.** [erdosproblems.com/768](https://www.erdosproblems.com/768), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #768,
 https://www.erdosproblems.com/768.
 
-**Formalization.** No formalized statement on the site. The claimant's Lean 4
-development and Johan Land's independent development of Li's proof are linked
-from the claim page; neither was built or audited here.
+**Formalization.** No formalized statement on erdosproblems.com. The claimant's
+Lean 4 development and Johan Land's independent development of Li's proof are
+linked from the claim page; neither was built or audited here.
 
 ## Current assessment
 
 The standing derives from the claim pages: the full claim
 [[problems/integer_sequences/E0768/claims/2026_06_23_li|Li 2026]], an arXiv
-preprint of 23 June 2026 submitted to the site's proof-claim tab on 17 July
-2026, where the tab records it as made using GPT-5.5 Pro, asserts that the
-asymptotic holds with $c=1/(2\sqrt{\log2})$, with a Lean 4 development the
-author says proves the main theorem. The site had not acted on it when the tab
-was accessed on 2026-10-06, no referee or named expert is recorded as having
-examined it, and nothing was built or audited here, so the claim is `claimed`
-and the problem's standing is claimed, proved.
+preprint of 23 June 2026 submitted to the erdosproblems.com proof-claim tab on
+17 July 2026, where the tab records it as made using GPT-5.5 Pro, asserts that
+the asymptotic holds with $c=1/(2\sqrt{\log2})$, with a Lean 4 development the
+author says proves the main theorem. erdosproblems.com had not acted on it when
+the tab was accessed on 2026-10-06, no referee or named expert is recorded as
+having examined it, and nothing was built or audited here, so the claim is
+`claimed` and the problem's standing is claimed, proved.
 
-The site's commentary records Erdős's own bounds: a lower bound
+The erdosproblems.com commentary records Erdős's own bounds: a lower bound
 $\exp(-c\sqrt{\log N}\log\log N)$ for some $c>0$ and an upper bound
 $\exp(-(1+o(1))\sqrt{\log N\log\log N})$, and his motive, that
 $\lvert A\cap[1,N]\rvert$ bounds the number of orders $n\le N$ of non-cyclic

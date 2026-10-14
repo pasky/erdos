@@ -81,17 +81,18 @@ up separately at
 same title and authors. The theorem labels used on this page follow the third
 arXiv version, whose comment of 2026-07-08 announces the journal acceptance.
 
-Reviewed: Thomas Bloom, the site's curator, labeled the problem PROVED (LEAN).
-In the remarks the curator credits this paper with extending the solution and
-settling the growth threshold up to the limit rate, and restates the
-golden-ratio theorem and its converse (page last edited 2026-02-01). Bloom is
-an author of neither paper.
+Reviewed: Thomas Bloom, the erdosproblems.com curator, labeled the problem
+PROVED (LEAN). In the remarks the curator credits this paper with extending the
+solution and settling the growth threshold up to the limit rate, and restates
+the golden-ratio theorem and its converse (page last edited 2026-02-01). Bloom
+is an author of neither paper.
 
 Barreto posted the preprint in the problem's forum thread on 2026-01-30. The
 paper credits the heuristic for the golden-ratio threshold to Terence Tao,
-citing the site's problem page. Tao's sketch is a reply of 2026-01-30 in that
-thread. The Lean formalization posted in the same thread covers the question's
-original hypothesis, not this theorem, and is recorded on the companion claim
-page. No independent check of the proof by this project is recorded.
+citing the erdosproblems.com problem page. Tao's sketch is a reply of 2026-01-30
+in that thread. The Lean formalization posted in the same thread covers the
+question's original hypothesis, not this theorem, and is recorded on the
+companion claim page. No independent check of the proof by this project is
+recorded.
 
 **Depends on.** No page of this wiki.

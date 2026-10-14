@@ -50,16 +50,18 @@ which attributes it to both pairs of authors.
 
 **Acceptance.** The paper is a refereed publication in Combinatorics,
 Probability and Computing (volume 5, issue 1, March 1996, per the Crossref
-record). This is the `refereed` evidence. The site's curator, Thomas Bloom,
-records the problem as proved by this paper and by the independent proof of
+record). This is the `refereed` evidence. The erdosproblems.com curator, Thomas
+Bloom, records the problem as proved by this paper and by the independent proof
+of
 [[problems/extremal_graph_theory/E0718/claims/1996_09_01_bollobas_thomason|Bollobás and Thomason]].
 This is the `reviewed` evidence, and Bloom took no part in either paper. Two
 refereed attestations are in print. Bollobás and Thomason's 1998 paper names it
 as an alternative proof of the conjecture, and Fox, Lee and Sudakov quote it.
 This page is based on the paper's abstract alone, and nothing is independently
 reviewed. The acceptance recorded here rests on the publication, the printed
-attestations and the site's acceptance, not on a local review. The theorem is
-stated first-hand only in Bollobás and Thomason's text, on their claim page.
+attestations and erdosproblems.com's acceptance, not on a local review. The
+theorem is stated first-hand only in Bollobás and Thomason's text, on their
+claim page.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos718.lean` of
 Boris Alexeev's `plby/lean-proofs` repository, at the commit linked above,

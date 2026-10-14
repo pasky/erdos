@@ -28,21 +28,21 @@ $$
 1-e^{-cK} < \sum_{n\in S}\frac{1}{n}\leq 1?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18
 (page last edited 20 January 2026). $A$ is a finite multiset of positive
 integers, $S$ a submultiset, and the sums count multiplicity; write
 $R(A)=\sum_{n\in A}1/n$ and $\varepsilon(A)=1-\max\{R(S):S\subseteq A,\
 R(S)\le1\}$ for the deficit of the best subsum not exceeding $1$, so the
 question asks whether $R(A)>K$ forces $\varepsilon(A)<e^{-cK}$. The 1980
 monograph puts the size condition on the number of terms ("for fixed
-$\alpha$ and $t$ sufficiently large, if $\sum_{k=1}^t1/s_k>\alpha$"); the
-site's "sufficiently large finite multiset" renders it; Korsky's theorem
-below has no size condition and instead requires $K\ge K_0$. Multiplicity
-matters: with distinct denominators the problem is different (a
+$\alpha$ and $t$ sufficiently large, if $\sum_{k=1}^t1/s_k>\alpha$");
+erdosproblems.com's "sufficiently large finite multiset" renders it; Korsky's
+theorem below has no size condition and instead requires $K\ge K_0$.
+Multiplicity matters: with distinct denominators the problem is different (a
 dense-set version is Problem 310).
 
-**Status.** Open. The site labeled it OPEN. Erdős and Graham state the bound
-with $c/K^2$ in place of $e^{-cK}$, in the monograph, without proof or
+**Status.** Open. Bloom's catalog labeled it OPEN. Erdős and Graham state the
+bound with $c/K^2$ in place of $e^{-cK}$, in the monograph, without proof or
 reference. The best bound found is Korsky's
 $\varepsilon(A)\le\exp(-c\sqrt{K\log K})$ for $R(A)>K\ge K_0$. It appears in an
 arXiv preprint of July 2026, whose second version, of October 2026, simplifies
@@ -52,26 +52,26 @@ carried out the Fourier analysis that completes the argument. The preprint has
 no journal record, and its author stated in the thread on 9 July 2026 that no
 journal submission was planned. Korsky's bound settles no instance of the
 question, so it has no claim page. A construction shows that no bound better
-than $\exp(-(1+o(1))K\log K)$ holds for all multisets (the site's thread;
-display (1.4) of the preprint's first version). The conjectured exponential rate
-is open. No proof, disproof or proof claim for it was found in the search dated
-2026-09-18 UTC whose scope the Current assessment records. This is a bounded
-negative finding.
+than $\exp(-(1+o(1))K\log K)$ holds for all multisets (the erdosproblems.com
+thread; display (1.4) of the preprint's first version). The conjectured
+exponential rate is open. No proof, disproof or proof claim for it was found in
+the search dated 2026-09-18 UTC whose scope the Current assessment records. This
+is a bounded negative finding.
 
 **Source.** [erdosproblems.com/312](https://www.erdosproblems.com/312),
-accessed 2026-09-18: the problem page (labeled OPEN, with the site's
+accessed 2026-09-18: the problem page (labeled OPEN, with erdosproblems.com's
 standard note that no finite computation can settle it; source key [ErGr80]
 without a page; last edited 20 January 2026; "Formalised statement? Yes"),
-its eight-comment discussion thread and its empty proof-claim tab. The
-site thanks Mehtaab Sawhney. Cite as: T. F. Bloom, Erdős Problem #312,
-https://www.erdosproblems.com/312, accessed 2026-09-18.
+its eight-comment discussion thread and its empty proof-claim tab.
+erdosproblems.com thanks Mehtaab Sawhney. Cite as: T. F. Bloom, Erdős Problem
+#312, https://www.erdosproblems.com/312, accessed 2026-09-18.
 
 **References.**
 
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
-  28, Université de Genève (1980), printed p. 40 (the site gives no page).
-  Library home:
+  28, Université de Genève (1980), printed p. 40 (erdosproblems.com gives no
+  page). Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Ko26] Korsky, S., A stretched-exponential bound for an Erdős--Graham
   unit-fraction problem. arXiv:2607.04157v1 (5 July 2026; title page dated
@@ -95,7 +95,7 @@ reals) sum to more than $K$, some `Finset (Fin n)` has reciprocal sum
 strictly above $1-\exp(-cK)$ and at most $1$. It encodes the multiset as
 a function on `Fin n` with $n\ge N_0$ (the monograph's
 condition on the number of terms) and does not require `a i ≥ 1`; no
-audit of the encoding against the site's statement is recorded. The
+audit of the encoding against the erdosproblems.com statement is recorded. The
 community database (teorth/erdosproblems, `data/problems.yaml`,
 2026-09-18) records status open (31 August 2025), a formalized
 statement (24 September 2025), formal status unformalized and no OEIS
@@ -103,11 +103,11 @@ entry. No external Lean artifact is linked from the thread.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN, last edited 20 January 2026; source [ErGr80]. The whole
 commentary is one sentence, saying that Erdős and Graham knew the
 statement with $c/K^2$ in place of $e^{-cK}$. The thread (eight comments,
-none verified by the site): 18 August 2025, Kovač introduces $R(A)$ and
+none verified by erdosproblems.com): 18 August 2025, Kovač introduces $R(A)$ and
 $\epsilon(A)$ and the example
 below showing $\epsilon(A)\ge e^{-(1+o(1))R(A)\log R(A)}$ along a sequence
 of multisets, asking how optimal the exponential form is; 18 October 2025,
@@ -164,8 +164,8 @@ function is compared with a normal one, and at larger frequencies that
 divisor count bounds it. Elementary divisor counts for primes and composites
 (Section 4), which replace v1's Appendix B with its rough-number sieve, then
 give the same $R(C)\ll x^2/\log x$ with $x=\log N$. The v2
-omits the barrier display (1.4) and the citation of the site's page. The
-theorem and its proof's conclusion are unchanged, so v2 changes nothing this
+omits the barrier display (1.4) and the citation of the erdosproblems.com page.
+The theorem and its proof's conclusion are unchanged, so v2 changes nothing this
 page records about the problem's standing. Read depth: in v1, claims checked
 for the theorem, the barrier display and the two compression lemmas, with
 their proofs, and the analytic core in outline only; v2 read in full, its
@@ -181,10 +181,10 @@ construction, that GPT-5.5 Pro carried out the Fourier analysis needed to
 complete the argument, and that the author reviewed, modified and verified
 the arguments and takes full responsibility. The thread disputes the paper's
 provenance and crediting as described above, and the author stated there on
-9 July 2026 that there were no plans to send it to a journal. The site's page
-does not cite it. It is recorded on this page as the best bound found, with
-that provenance, and its correctness is neither confirmed nor doubted on this
-page.
+9 July 2026 that there were no plans to send it to a journal. The
+erdosproblems.com page does not cite it. It is recorded on this page as the best
+bound found, with that provenance, and its correctness is neither confirmed nor
+doubted on this page.
 
 **The barrier.** Let $A_z$ contain $p-1$ copies of $1/p$ for every prime
 $p\le z$ (Kovač, 18 August 2025; display (1.4) of Korsky's v1, which v2

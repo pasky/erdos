@@ -57,15 +57,15 @@ of the same asymptotic by the same construction, recorded on
 
 **Covers.** The instance $r=2$ of the statement for every $r\ge2$, and
 nothing else: the paper says nothing about $K_{r,r}$ for $r\ge3$. The case
-$r=3$ is Brown's, on its own claim page; the site's commentary credits Erdős,
-Rényi and Sós with $r=3$, which their paper does not contain.
+$r=3$ is Brown's, on its own claim page; the erdosproblems.com commentary
+credits Erdős, Rényi and Sós with $r=3$, which their paper does not contain.
 
 **Depends on.** Nothing in this wiki: the construction, the
 prime-distribution input and the counting are the paper's.
 
 **Acceptance.** Refereed: Studia Scientiarum Mathematicarum Hungarica, a
-refereed journal. No `reviewed` evidence is listed: the site labeled the problem
-OPEN, and commentary on an open problem is not an acceptance. This corpus
-supplies no independent proof review. The statements of Theorem 1 and Corollary
-2 are checked against the print, but the prime-distribution input and the proofs
-are not.
+refereed journal. No `reviewed` evidence is listed: Bloom's catalog labeled the
+problem OPEN, and commentary on an open problem is not an acceptance. This
+corpus supplies no independent proof review. The statements of Theorem 1 and
+Corollary 2 are checked against the print, but the prime-distribution input and
+the proofs are not.

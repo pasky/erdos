@@ -47,16 +47,17 @@ two inequalities of the conjectured equality $f(n)=2^{n-2}+1$. Not covered:
 the upper bound $f(n)\le2^{n-2}+1$, open for every $n\ge7$; it holds at $n=4$
 by
 [[problems/discrete_geometry/E0107/claims/1935_01_01_erdos_szekeres|Klein's proposition]],
-at $n=5$ by the result the site credits to Makai and Turán, and at $n=6$ by
+at $n=5$ by the result erdosproblems.com credits to Makai and Turán, and at
+$n=6$ by
 [[problems/discrete_geometry/E0107/claims/2006_10_01_szekeres_peters|Szekeres and Peters]].
 
 **Depends on.** Nothing in this wiki; the construction is self-contained.
 
 **Acceptance.** Refereed: the paper appeared in the Annales Universitatis
 Scientiarum Budapestinensis de Rolando Eötvös Nominatae, Sectio Mathematica, a
-journal. The site's commentary credits the lower bound to this paper. The site
-labeled the problem FALSIFIABLE, however, which settles nothing, so that credit
-is not listed as `reviewed`.
+journal. The erdosproblems.com commentary credits the lower bound to this paper.
+Bloom's catalog labeled the problem FALSIFIABLE, however, which settles nothing,
+so that credit is not listed as `reviewed`.
 
 **Dating.** The journal volume carries the years 1960/61 and no month; the
 page is dated by the earlier year, and the day and month are placeholders.

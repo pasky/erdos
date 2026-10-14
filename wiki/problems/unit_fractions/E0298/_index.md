@@ -37,17 +37,17 @@ equation (30), $\sum_i\varepsilon_i/x_i=1$ with $\varepsilon_i\in\{0,1\}$,
 solvable, and adds "In other words: Is it true that (30) is solvable in
 every sequence of positive lower density?". Its main question, $f(n)/n\to0$,
 implies the upper-density reading, so the paper's two sentences point to
-different readings. The site's commentary says that Bloom's proof covers
-positive upper density, which it calls likely to be what Erdős intended.
+different readings. The erdosproblems.com commentary says that Bloom's proof
+covers positive upper density, which it calls likely to be what Erdős intended.
 
-**Status.** Proved. The site's label was PROVED (LEAN). Bloom's theorem applies
-under the assumption of positive upper density, so it answers the Statement in
-each of its readings. The existing formal proof and the statement-only
-declarations are distinguished below.
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN). Bloom's
+theorem applies under the assumption of positive upper density, so it answers
+the Statement in each of its readings. The existing formal proof and the
+statement-only declarations are distinguished below.
 
 **Source.** T. F. Bloom, Erdős Problem #298,
-https://www.erdosproblems.com/298, accessed 2026-09-05. The site's original
-references are [ErGr80] and [Er92c]. On that date the discussion and
+https://www.erdosproblems.com/298, accessed 2026-09-05. erdosproblems.com's
+original references are [ErGr80] and [Er92c]. On that date the discussion and
 proof-claim pages had no comments or proof claims.
 
 **References.**
@@ -56,7 +56,8 @@ proof-claim pages had no comments or proof claims.
   combinatorial number theory*, Monographies de L'Enseignement Mathématique
   (1980). Bloom's paper locates the density question on p. 36.
 - [Er92c] P. Erdős, *Some of my forgotten problems in number theory*,
-  Hardy–Ramanujan Journal 15 (1992), 34–50. Original reference listed by the site.
+  Hardy–Ramanujan Journal 15 (1992), 34–50. Original reference listed by
+  erdosproblems.com.
 - [Bl21] T. F. Bloom, *On a density conjecture about unit fractions*,
   [arXiv:2112.03726](https://arxiv.org/abs/2112.03726v2) (2021), v2 (2023),
   with Appendix B co-written by T. F. Bloom and B. Mehta;
@@ -74,11 +75,11 @@ corpus has built none of them.
 **Claims.** One accepted full claim settles the problem:
 [[problems/unit_fractions/E0298/claims/2021_12_07_bloom|Bloom's Theorem 2]],
 whose acceptance evidence is the refereed publication in J. Eur. Math.
-Soc. 27 (2025). The site's curator is the theorem's author, so the site's
-label is recorded on the claim page as the erdosproblems.com label and not as
-independent review; the author's own Lean 3 formalization is a link on
-that page and, unbuilt here, gives no formalized evidence. The frontmatter
-standing is derived from the claim page. Liu and Sawhney's sharper
+Soc. 27 (2025). The erdosproblems.com curator is the theorem's author, so the
+erdosproblems.com label is recorded on the claim page as the erdosproblems.com
+label and not as independent review; the author's own Lean 3 formalization is a
+link on that page and, unbuilt here, gives no formalized evidence. The
+frontmatter standing is derived from the claim page. Liu and Sawhney's sharper
 threshold below refines the finite criterion; that threshold is the subject
 of [[problems/unit_fractions/E0047/_index|Problem 47]], where Bloom's
 Theorem 3 and Liu and Sawhney's Theorem 1.1 are the accepted claim pages
@@ -138,8 +139,9 @@ $$
 \exists S\subseteq A:\ \sum_{n\in S}\frac1n=1.
 $$
 
-The site links the related [[problems/unit_fractions/E0046/_index|Problem 46]]
-and [[problems/unit_fractions/E0047/_index|Problem 47]]. The bounded-gap consequence
+erdosproblems.com links the related
+[[problems/unit_fractions/E0046/_index|Problem 46]] and
+[[problems/unit_fractions/E0047/_index|Problem 47]]. The bounded-gap consequence
 is recorded separately for [[problems/unit_fractions/E0299/_index|Problem 299]].
 
 ## Existing formalization

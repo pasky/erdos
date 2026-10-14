@@ -166,8 +166,8 @@ every initial ordinal $\omega_\alpha$: the conjecture of Remark (i) after
 Theorem 2 of the 1967 paper, which the problem page records as settled by
 this note and which Ihringer, Rajendraprasad and Weinert restate as their
 Theorem 1.5, $r(\kappa m,n)=\kappa\,r(I_m,L_n)$ for all infinite initial
-ordinals $\kappa$. In the letters of the site, $l_0(m,n)=k(n,m)$, by the
-finite characterization the note quotes on p. 135 (case (1) a transitive
+ordinals $\kappa$. In the letters of erdosproblems.com, $l_0(m,n)=k(n,m)$, by
+the finite characterization the note quotes on p. 135 (case (1) a transitive
 tournament of size $m$, case (2) an independent set of size $n$); the note
 says nothing further about the finite numbers themselves and leaves the
 problem where the 1967 paper left it.

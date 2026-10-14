@@ -42,8 +42,8 @@ of the source card
 [[../library/analysis/pommerenke_1961_metric_properties_complex_polynomials/_index|pommerenke_1961_metric_properties_complex_polynomials]].
 
 **Covers.** Every monic $f$ whose closed set $\{|f|\le1\}$ is connected.
-This is the case the site's remark names, and it contains the class of
-[[problems/polynomials/E0509/claims/1959_01_01_pommerenke|Pommerenke 1959]],
+This is the case the erdosproblems.com remark names, and it contains the class
+of [[problems/polynomials/E0509/claims/1959_01_01_pommerenke|Pommerenke 1959]],
 since the closed set is connected whenever the open set $\{|f|<1\}$ is. The
 general question, every monic $f$, is untouched.
 
@@ -51,7 +51,7 @@ general question, every monic $f$, is untouched.
 bound for functions univalent outside the unit disc, which the paper cites
 and which is not held.
 
-**Acceptance.** Refereed: Michigan Math. J. 8 (1961), no. 2, 97--115. The site's
-remarks credit Pommerenke with the connected case, but the site labeled the
-problem OPEN. So the curator's label settles neither the problem nor a part of
-it, and no `reviewed` evidence is listed.
+**Acceptance.** Refereed: Michigan Math. J. 8 (1961), no. 2, 97--115. The
+erdosproblems.com remarks credit Pommerenke with the connected case, but Bloom's
+catalog labeled the problem OPEN. So the curator's label settles neither the
+problem nor a part of it, and no `reviewed` evidence is listed.

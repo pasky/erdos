@@ -26,24 +26,25 @@ updated: 2026-10-08T01:29:59Z
 $\binom{2n+1}{2}-\binom{n}{2}-1$ edges. Must $G$ be the union of a bipartite
 graph and a graph with maximum degree less than $n$?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-1 December 2025). The statement is a claim for every
-$n\ge3$, so one failing $n$ disproves it. Pikhurko [Pi01] (pp. 403--404)
-records it as Erdős's stronger conjecture, made after the conjecture that
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 1 December 2025). The statement is a claim for every $n\ge3$, so one
+failing $n$ disproves it. Pikhurko [Pi01] (pp. 403--404) records it as Erdős's
+stronger conjecture, made after the conjecture that
 $\hat r(K_{1,n},K_3)=e(P_{n+1,n})=\binom{2n+1}2-\binom n2$, where
 $P_{m,n}=K_m+E_n$ has $m$ vertices joined to everything and $n$ further
-vertices, and states its equivalent size-Ramsey form, which the site's
-commentary repeats: $\hat r(K_{1,n},\mathcal C_{\mathrm{odd}})=\binom{2n+1}2-\binom n2$,
-where $\hat r(F_1,F_2)$ is the least number of edges of a graph $G$ such
-that every blue-red coloring of $E(G)$ has a blue $F_1$ or a red $F_2$, and
+vertices, and states its equivalent size-Ramsey form, which the
+erdosproblems.com commentary repeats:
+$\hat r(K_{1,n},\mathcal C_{\mathrm{odd}})=\binom{2n+1}2-\binom n2$, where
+$\hat r(F_1,F_2)$ is the least number of edges of a graph $G$ such that every
+blue-red coloring of $E(G)$ has a blue $F_1$ or a red $F_2$, and
 $\mathcal C_{\mathrm{odd}}$ is the family of odd cycles. The equivalence is
 elementary: a graph is a union of a bipartite graph and a graph of maximum
 degree below $n$ exactly when its edges can be colored with no red odd cycle
-and no blue $K_{1,n}$. The site's label DISPROVED (LEAN) carries a catalog
-suffix explained under Formalization.
+and no blue $K_{1,n}$. The erdosproblems.com label DISPROVED (LEAN) carries a
+catalog suffix explained under Formalization.
 
-**Status.** The site labeled the problem DISPROVED (LEAN). The frontmatter
-standing derives from the claim page
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN). The
+frontmatter standing derives from the claim page
 [[problems/ramsey_theory/E0613/claims/2001_07_01_pikhurko|Pikhurko 2001]], which
 records the refereed disproof (accepted) with its postings and its acceptance
 evidence. As a formalization link, that page also carries the third-party Lean
@@ -53,22 +54,22 @@ $n\ge1$ by an explicit construction. The paper notes (p. 405) that this beats
 $\binom{2n+1}2-\binom n2$ for all $n\ge6$. For $n=5$, its construction with the
 representation $5=2+3$ has $44$ edges against the conjectured $45$. A graph
 arrowing $(K_{1,n},K_3)$ also arrows $(K_{1,n},\mathcal C_{\mathrm{odd}})$, so
-the statement fails for every $n\ge5$. The site's commentary likewise records
-the failure at $n=5$. The cases $n=3$ and $n=4$ (conjectured values $18$ and
-$30$) are not covered by the disproof, and no source cited here decides them.
-The universal statement is false regardless. Theorem 1(2) of the same paper,
-$\hat r(K_{1,n},\mathcal C_{\mathrm{odd}})>n^2+0.577\,n^{3/2}$ for large $n$,
-shows that the splitting does hold for graphs with at most that many edges.
+the statement fails for every $n\ge5$. The erdosproblems.com commentary likewise
+records the failure at $n=5$. The cases $n=3$ and $n=4$ (conjectured values $18$
+and $30$) are not covered by the disproof, and no source cited here decides
+them. The universal statement is false regardless. Theorem 1(2) of the same
+paper, $\hat r(K_{1,n},\mathcal C_{\mathrm{odd}})>n^2+0.577\,n^{3/2}$ for large
+$n$, shows that the splitting does hold for graphs with at most that many edges.
 Faudree's special case, graphs on $2n+1$ vertices, is a pending partial claim on
 [[problems/ramsey_theory/E0613/claims/1981_01_01_faudree|its claim page]].
 
 **Source.** [erdosproblems.com/613](https://www.erdosproblems.com/613),
 accessed 2026-09-18: the problem page (DISPROVED
-(LEAN), with the site's note that the answer is negative and the proof has
-been verified in Lean; last edited 1 December 2025; source keys [Er81e], [Er91],
-[Er93, p. 345], [Er99]; commentary citing [Pi01]), its four-comment
-discussion thread (25 October to 4 November 2025) and its empty proof-claim
-tab. Cite as: T. F. Bloom, Erdős Problem #613,
+(LEAN), with the erdosproblems.com note that the answer is negative and the
+proof has been verified in Lean; last edited 1 December 2025; source keys
+[Er81e], [Er91], [Er93, p. 345], [Er99]; commentary citing [Pi01]), its
+four-comment discussion thread (25 October to 4 November 2025) and its empty
+proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #613,
 https://www.erdosproblems.com/613, accessed 2026-09-18.
 
 **References.**
@@ -78,19 +79,19 @@ https://www.erdosproblems.com/613, accessed 2026-09-18.
   28 May 1999). The conjectures, pp. 403--404; Theorem 1, p. 404; the $n=5$
   remark and the remarks on Faudree's result, p. 405. Library home:
   [[../library/ramsey_theory/pikhurko_2001_size_ramsey_numbers_stars_versus_3_chromatic_graphs/_index|pikhurko_2001_size_ramsey_numbers_stars_versus_3_chromatic_graphs]].
-- [Er81e] The site's source key; the site's page prints no reference text for
-  this key and this key is not in the site's reference table. [Pi01] cites for
-  Erdős's conjecture P. Erdős, Problems and results in graph theory, in: The
-  Theory and Applications of Graphs (G. Chartrand, ed.), Wiley, New York, 1981,
-  331--341 (its reference [3]).
+- [Er81e] The erdosproblems.com source key; the erdosproblems.com page prints no
+  reference text for this key and this key is not in the erdosproblems.com
+  reference table. [Pi01] cites for Erdős's conjecture P. Erdős, Problems and
+  results in graph theory, in: The Theory and Applications of Graphs (G.
+  Chartrand, ed.), Wiley, New York, 1981, 331--341 (its reference [3]).
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and applications,
   Vol. 1 (Kalamazoo, MI, 1988), Wiley (1991), 397--406.
 - [Er93] Erdős, P., Some of my favorite solved and unsolved problems in graph
-  theory. Quaestiones Math. 16 (1993), 333--350; the site cites p. 345. Chapter
-  V, problem 9, printed p. 345: the splitting conjecture restated from Erdős's
-  paper [50], with Faudree's proof for $2n+1$, $2n+2$ and $2n+3$ vertices and
-  the general case "still seems to be open". Library home:
+  theory. Quaestiones Math. 16 (1993), 333--350; erdosproblems.com cites p. 345.
+  Chapter V, problem 9, printed p. 345: the splitting conjecture restated from
+  Erdős's paper [50], with Faudree's proof for $2n+1$, $2n+2$ and $2n+3$
+  vertices and the general case "still seems to be open". Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Er99] Erdős, P., A selection of problems and results in combinatorics.
   Combin. Probab. Comput. 8 (1999), 1--6. [Pi01] cites it as its reference [4].
@@ -102,8 +103,8 @@ https://www.erdosproblems.com/613, accessed 2026-09-18.
   stars versus cliques. arXiv:1601.06599 (2016). Context on the clique
   generalization (abstract only, accessed 2026-09-18).
 
-**Formalization.** The suffix (LEAN) of the site's label was a catalog label.
-The file
+**Formalization.** The suffix (LEAN) of the erdosproblems.com label was a
+catalog label. The file
 [`ErdosProblems/613.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/613.lean)
 of formal-conjectures, linked at the `main` commit, read 2026-09-18, declares
 `erdos_613 : answer(False) ↔ ∀ n ≥ 3, ∀ (V : Type*) [Fintype V] (G : SimpleGraph V), [DecidableRel G.Adj] → G.edgeFinset.card = Nat.choose (2 * n + 1) 2 - Nat.choose n 2 - 1 → ∃ (B D : SimpleGraph V), [DecidableRel B.Adj] → [DecidableRel D.Adj] → G = B ⊔ D ∧ B.IsBipartite ∧ ∀ v, D.degree v < n`
@@ -113,8 +114,8 @@ Alexeev's repository `plby/lean-proofs` at its commit of 7 September 2026, the
 commit the claim page's link carries. At that commit the external file has
 1,190 lines, is headed `leanprover/lean4:v4.33.0 mathlib v4.33.0`, imports
 `Mathlib`, names Pikhurko as informal author and Tao as formal author, and
-links the site's thread and the first version of the formalization, a file in
-the repository `teorth/analysis` (linked on the claim page). Its final
+links the erdosproblems.com thread and the first version of the formalization, a
+file in the repository `teorth/analysis` (linked on the claim page). Its final
 theorem, at line 1170, is
 `not_erdos_613 : ∃ (V : Type) (G : SimpleGraph V), G.edgeSet.ncard = 44 ∧ ∀ (color : Sym2 V → Fin 2), Erdos613.hasMonoStar G color 0 5 ∨ Erdos613.hasMonoTriangle G color 1`,
 with no `sorry` and a closing comment recording `#print axioms` as `propext`,
@@ -129,18 +130,18 @@ audited or kernel-checked in this corpus, and no local credit is claimed. The
 community database (fetched 2026-09-18) lists `status` "disproved (Lean)" and
 `formal_status` Lean as of its last update, dated 4 November 2025, which does
 not date the change of state; it records the statement formalized since 9 May
-2026, and no formal-proof field; the site's indicator reads "Yes".
+2026, and no formal-proof field; the erdosproblems.com indicator reads "Yes".
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-status DISPROVED (LEAN); last edited 1 December 2025. The commentary credits
-Faudree with the case of graphs on $2n+1$ vertices, calling the proof
-apparently unpublished but referred to in [Er93]; restates the problem as the
-size-Ramsey question $\widehat r(K_{1,n},\mathcal F)=\binom{2n+1}2-\binom n2$
-for the family $\mathcal F$ of odd cycles; records that Pikhurko [Pi01]
-disproved it, with the bounds
-$n^2+0.577n^{3/2}<\widehat r(K_{1,n},\mathcal F)<n^2+\sqrt2n^{3/2}+n$ for
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; status DISPROVED (LEAN); last edited 1 December 2025. The
+commentary credits Faudree with the case of graphs on $2n+1$ vertices, calling
+the proof apparently unpublished but referred to in [Er93]; restates the problem
+as the size-Ramsey question
+$\widehat r(K_{1,n},\mathcal F)=\binom{2n+1}2-\binom n2$ for the family
+$\mathcal F$ of odd cycles; records that Pikhurko [Pi01] disproved it, with the
+bounds $n^2+0.577n^{3/2}<\widehat r(K_{1,n},\mathcal F)<n^2+\sqrt2n^{3/2}+n$ for
 large $n$ and the failure of the conjectured value already at $n=5$; notes
 that Tao formalized the $n=5$ disproof, pointing to the comments; and links
 the entry in the graphs problem collection. The thread: a comment of 25
@@ -180,32 +181,34 @@ and by the same argument at every $n\ge6$ from the bound (1). Read depth:
 claims checked for the conjectures, Theorem 1 and the p. 405 remarks; the
 four-case verification of (1) (p. 405) and the greedy-algorithm proof of
 (2) (Section 3, pp. 405--409) were not checked. Acceptance: refereed
-publication in Combinatorica and the site's own record, as the Pikhurko
+publication in Combinatorica and erdosproblems.com's own record, as the Pikhurko
 claim page lists; the Lean proof of the $n=5$ instance is recorded on that
 page as a formalization link and is not acceptance evidence.
 
-**Faudree's partial result and the sources.** The site describes Faudree's proof
-for graphs of order $2n+1$ as apparently unpublished; the result is recorded on
+**Faudree's partial result and the sources.** erdosproblems.com describes
+Faudree's proof for graphs of order $2n+1$ as apparently unpublished; the result
+is recorded on
 [[problems/ramsey_theory/E0613/claims/1981_01_01_faudree|its claim page]].
 [Pi01] (p. 405) suggests an explanation of the conjecture: $P_{n+1,n}$ may have
 the fewest edges among the $(K_{1,n},\mathcal C_{\mathrm{odd}})$-arrowing graphs
 whose order is slightly above $2n$ (no such graph of order $2n$ exists), and the
 paper says this holds for order $2n+1$ by a result of Faudree, pointing to its
 reference [5] for a proof, while it calls the case of order $2n+2$ open; [5] is
-[ERSS96]; the discrepancy with the site's description is recorded, not resolved.
-The paper's source for both conjectures is Erdős's 1981 Kalamazoo paper (its
-[3]). Of the site's four keys, only [Er93] is cited from its text: its Chapter
-V, problem 9 (printed p. 345) restates the conjecture from Erdős's paper [50],
-"every $G$ having $\binom{2n+1}2-\binom n2-1$ edges is the union of a bipartite
-graph and a graph each vertex of which has degree $<n$", says that Faudree's
-proof "certainly works" for $2n+1$ vertices and "at the moment it works if $G$
-has $2n+2$ or $2n+3$ vertices, but the general case still seems to be open", and
-that the conjecture was wanted "for investigation of various problems on size
-Ramsey numbers"; this is the reference to Faudree's result that the site points
-to in [Er93], and it cites no publication of the proof. The survey's $2n+2$ and
-$2n+3$ against Pikhurko's "The case $v=2n+2$ is open" is recorded, not resolved.
-The text behind the other three keys is not cited here, and the text behind
-[Er81e] is not on the site's page.
+[ERSS96]; the discrepancy with the erdosproblems.com description is recorded,
+not resolved. The paper's source for both conjectures is Erdős's 1981 Kalamazoo
+paper (its [3]). Of erdosproblems.com's four keys, only [Er93] is cited from its
+text: its Chapter V, problem 9 (printed p. 345) restates the conjecture from
+Erdős's paper [50], "every $G$ having $\binom{2n+1}2-\binom n2-1$ edges is the
+union of a bipartite graph and a graph each vertex of which has degree $<n$",
+says that Faudree's proof "certainly works" for $2n+1$ vertices and "at the
+moment it works if $G$ has $2n+2$ or $2n+3$ vertices, but the general case still
+seems to be open", and that the conjecture was wanted "for investigation of
+various problems on size Ramsey numbers"; this is the reference to Faudree's
+result that erdosproblems.com points to in [Er93], and it cites no publication
+of the proof. The survey's $2n+2$ and $2n+3$ against Pikhurko's "The case
+$v=2n+2$ is open" is recorded, not resolved. The text behind the other three
+keys is not cited here, and the text behind [Er81e] is not on the
+erdosproblems.com page.
 
 **Adjacent results (context, not the problem).** [Pi01] Theorem 2 and
 Corollary 1 (pp. 410--411; statements only, as paged on the library card):
@@ -222,7 +225,7 @@ title and abstract only.
 **Search scope.** None of the routes below found a source
 disputing the disproof or settling the cases $n=3,4$.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the external
   Lean file at its pinned commit and the repository's head commit (GitHub
   API); the community database record.
@@ -250,13 +253,13 @@ Reopening condition for the record: a source settling
 $\hat r(K_{1,3},\mathcal C_{\mathrm{odd}})$ or
 $\hat r(K_{1,4},\mathcal C_{\mathrm{odd}})$. (2) Of the origin papers only
 [Er93] is cited from its text; its 1993 restatement gives Erdős's own wording,
-while the 1981 wording and the year of the conjecture rest on [Pi01] and the
-site. (3) Faudree's $2n+1$ result: the site's description of the proof as
-apparently unpublished against Pikhurko's pointer to [ERSS96], and the
-survey's $2n+2$ and $2n+3$ against Pikhurko's open $2n+2$, unresolved. (4)
-Proof coverage: statements checked; the constructions' verification and the
-lower bound's proof were not checked; the Lean artifact covers the $n=5$
-instance only and is linked, not built.
+while the 1981 wording and the year of the conjecture rest on [Pi01] and
+erdosproblems.com. (3) Faudree's $2n+1$ result: the erdosproblems.com
+description of the proof as apparently unpublished against Pikhurko's pointer to
+[ERSS96], and the survey's $2n+2$ and $2n+3$ against Pikhurko's open $2n+2$,
+unresolved. (4) Proof coverage: statements checked; the constructions'
+verification and the lower bound's proof were not checked; the Lean artifact
+covers the $n=5$ instance only and is linked, not built.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

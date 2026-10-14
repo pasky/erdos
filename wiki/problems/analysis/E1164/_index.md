@@ -4,8 +4,8 @@ title: Problem 1164
 desc: |
   Asks whether $\log R_n\asymp\sqrt{\log n}$ in probability, where $R_n$ is the
   radius of the largest origin-centered disc a planar simple random walk covers
-  within $n$ steps. The site's "almost every" wording is corrected, and the
-  result is proved by Révész and by Dembo–Peres–Rosen–Zeitouni.
+  within $n$ steps. erdosproblems.com's "almost every" wording is corrected, and
+  the result is proved by Révész and by Dembo–Peres–Rosen–Zeitouni.
 tags:
 - Probability
 status: solved
@@ -42,11 +42,11 @@ $$
 \log R_n \asymp \sqrt{\log n}?
 $$
 
-**Notes.** The site's $R_n$ is one number for each $n$: the largest radius
-whose disc almost every walk covers by time $n$. The change replaces "almost
-every random walk" by "the random walk", so that $R_n$ is the radius covered by
-each path, and inserts "in probability": for every $\varepsilon>0$ there are
-constants $0<a\le b$ with
+**Notes.** erdosproblems.com's $R_n$ is one number for each $n$: the largest
+radius whose disc almost every walk covers by time $n$. The change replaces
+"almost every random walk" by "the random walk", so that $R_n$ is the radius
+covered by each path, and inserts "in probability": for every $\varepsilon>0$
+there are constants $0<a\le b$ with
 $\mathbb P\bigl(a\sqrt{\log n}\le\log R_n\le b\sqrt{\log n}\bigr)>1-\varepsilon$
 for all large $n$. The evidence is the poser's own statement of the question,
 *Some of Paul's favorite problems* (1999), Problem 6.76 (Erdős, Taylor),
@@ -57,12 +57,12 @@ p. 11) and takes $R_n$ to be the largest integer with $\xi(x,n)>0$ for each
 $\|x\|\le R_n$, a quantity of the path with no "almost every". The same item
 conjectures that "$R_n$ is about $\exp((\log n)^{1/2})$" and calls Kesten's
 limit law $\mathbb P\{(\log R_n)^2/\log n<x\}\to1-e^{-\lambda x}$ the
-"stronger conjecture"; the site's commentary also calls that law the stronger
-conjecture. A limit law with that continuous limit implies the two-sided
-comparison in probability, so the comparison in probability is the reading of
-$\asymp$ that the law strengthens. Dembo, Peres and Rosen (2007), equation
-(1.1), reprint p. 1, define $R_n$ in the same pathwise way. The defect is the
-site's: the 1999 statement has no "almost every".
+"stronger conjecture"; the erdosproblems.com commentary also calls that law the
+stronger conjecture. A limit law with that continuous limit implies the
+two-sided comparison in probability, so the comparison in probability is the
+reading of $\asymp$ that the law strengthens. Dembo, Peres and Rosen (2007),
+equation (1.1), reprint p. 1, define $R_n$ in the same pathwise way. The defect
+is erdosproblems.com's: the 1999 statement has no "almost every".
 
 **Formulation.** The random walk is symmetric nearest-neighbor simple random
 walk started at the origin, as in every result below; the 1999 statement says
@@ -72,17 +72,17 @@ the library's
 [[../library/analysis/dembo_2004_cover_times_brownian_motion_random_walks/radius_distribution|radius deduction]],
 and small times with $R_n=0$ do not affect a statement about large $n$.
 
-The site's commentary prints Kesten's law as $e^{-4x}$ for the event
+The erdosproblems.com commentary prints Kesten's law as $e^{-4x}$ for the event
 $(\log R_n)^2/\log n\le x$; that expression decreases in $x$ and cannot be a
 distribution function. The 1999 statement prints $1-e^{-\lambda x}$ for the
 event with $<x$, and the 2007 paper prints $e^{-4y}$ for the event with
 $\ge y$.
 
-**Status.** PROVED, the site's label (page last edited 25 January 2026), which
-describes the modified Statement. The derived standing is solved, proved. The
-commentary credits the order as proved independently by Révész [Re90] and
-Kesten. It credits the stronger limit law to Dembo, Peres, Rosen and Zeitouni
-[DPRZ04]. Both results are accepted full claims:
+**Status.** PROVED, the erdosproblems.com label (page last edited 25 January
+2026), which describes the modified Statement. The derived standing is solved,
+proved. The commentary credits the order as proved independently by Révész
+[Re90] and Kesten. It credits the stronger limit law to Dembo, Peres, Rosen and
+Zeitouni [DPRZ04]. Both results are accepted full claims:
 [[problems/analysis/E1164/claims/1990_09_01_revesz|Révész's two-sided bound]]
 and the
 [[problems/analysis/E1164/claims/2001_07_26_dembo_peres_rosen_zeitouni|limit law with rate 4]].
@@ -110,10 +110,10 @@ The modified Statement is proved. Révész's two-sided bound for the disc
 cover time, as the 2004 introduction reports it, gives the order of
 $\log R_n$ in probability, and Dembo–Peres–Rosen–Zeitouni (2004), Theorem
 1.4, gives the stronger limit law with rate $4$; both are accepted full
-claims. The site's wording is corrected in the Notes.
+claims. The erdosproblems.com wording is corrected in the Notes.
 
-Search scope: the site's problem, discussion and proof-claim pages, the
-published 2004 theorem, the 2007 primary restatement and Kovač's scan of the
+Search scope: the erdosproblems.com problem, discussion and proof-claim pages,
+the published 2004 theorem, the 2007 primary restatement and Kovač's scan of the
 original 1999 question. It does not survey every later cover-time result.
 
 The inversion deduction is complete relative to its stated inputs; the
@@ -166,8 +166,8 @@ That movable-center result answers a different question.
   equation (1.1).
 - P. Révész, *Random Walk in Random and Non-Random Environments*, World
   Scientific, Teaneck (1990), [DOI 10.1142/1107](https://doi.org/10.1142/1107),
-  the site's reference for the asymptotic; its two-sided cover-time bound is
-  recorded, as the 2004 introduction reports it, on
+  the erdosproblems.com reference for the asymptotic; its two-sided cover-time
+  bound is recorded, as the 2004 introduction reports it, on
   [[problems/analysis/E1164/claims/1990_09_01_revesz|its claim page]]; the
   monograph's theorem number and constants are not recorded here.
 <!-- BEGIN problem library links -->

@@ -232,15 +232,15 @@ proof, so no proof depth applies. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]: Question 10
 (printed p. 36, PDF p. 15) is the problem's origin, in the wording the
-site's statement follows: "Let $p$ be a prime and suppose $a_1,\ldots,a_k$
-are distinct nonzero elements of $Z_p$. Conjecture: There always exists an
-arrangement $a_{i_1},\ldots,a_{i_k}$ of the $a_i$ such that all partial
-sums $\sum_{j=1}^ta_{i_j}$, $1\le t\le k$, are distinct modulo $p$." The
+erdosproblems.com statement follows: "Let $p$ be a prime and suppose
+$a_1,\ldots,a_k$ are distinct nonzero elements of $Z_p$. Conjecture: There
+always exists an arrangement $a_{i_1},\ldots,a_{i_k}$ of the $a_i$ such that all
+partial sums $\sum_{j=1}^ta_{i_j}$, $1\le t\le k$, are distinct modulo $p$." The
 paper proves nothing about it and does not mention the case $k=p-1$ that
 Erdős's 1973 chapter credits to Graham; Question 11 on the same page is the
 1973 chapter's second problem of Graham.
 [[../wiki/problems/additive_bases/E0354/_index|#354]]: Question 12 (printed p. 36, PDF
-p. 15) is the problem's origin, in the wording the site's statement
+p. 15) is the problem's origin, in the wording the erdosproblems.com statement
 follows: "Let $\alpha$ and $\beta$ be positive reals with $\alpha/\beta$
 irrational. Let $S$ denote the sequence
 $([\alpha],[\beta],[2\alpha],[2\beta],\ldots,[2^n\alpha],[2^n\beta],\ldots)$.

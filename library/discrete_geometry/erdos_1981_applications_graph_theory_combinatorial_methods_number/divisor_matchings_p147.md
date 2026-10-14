@@ -72,21 +72,22 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]: the
-  site's interval $(n,n+f(n))$ has right end $n+f(n)$ where the paper's
-  has $nf(n)$, so the paper's bounds concern $1+f(n)/n$ in the site's
-  notation (a translation made here); in it the site's $f(n)$ lies between
-  orders $n(\log n/\log\log n)^{1/2}$ and $n(\log n)^{1/2}$.
+- [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]:
+  erdosproblems.com's interval $(n,n+f(n))$ has right end $n+f(n)$ where the
+  paper's has $nf(n)$, so the paper's bounds concern $1+f(n)/n$ in the
+  erdosproblems.com notation (a translation made here); in it
+  erdosproblems.com's $f(n)$ lies between orders $n(\log n/\log\log n)^{1/2}$
+  and $n(\log n)^{1/2}$.
 - [[../wiki/problems/integer_sequences/E0711/_index|Problem 711]]: the
-  paper's $F(n)$ is the site's $\max_mf(n,m)$, both over the open
-  interval; the site asks for $n^{1+o(1)}$, and the paper had only
+  paper's $F(n)$ is erdosproblems.com's $\max_mf(n,m)$, both over the open
+  interval; erdosproblems.com asks for $n^{1+o(1)}$, and the paper had only
   $n^{3/2+\epsilon}$.
 - [[../wiki/problems/primes/E0860/_index|Problem 860]]: with $p$ read as
-  running over the primes $p\le n$, the paper's $F^*(n)$ is the site's
+  running over the primes $p\le n$, the paper's $F^*(n)$ is erdosproblems.com's
   $h(n)$, and the paper poses $F^*(n)=O(n)$ as a statement it could not
   disprove.
 - [[../wiki/problems/integer_sequences/E0650/_index|Problem 650]]: taking
   $A$ to be the $k^2$ primes and $N=p_{k^2}$, with $\epsilon<1$, an
   interval of length $2N$ inside the Erdős–Selfridge interval meets at
-  most $2k$ multiples, so the site's $f(k^2)\le2k$ (a consequence drawn
-  here; the site's page records the same bound).
+  most $2k$ multiples, so erdosproblems.com's $f(k^2)\le2k$ (a consequence drawn
+  here; the erdosproblems.com page records the same bound).

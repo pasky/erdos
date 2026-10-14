@@ -45,17 +45,18 @@ M. Jutila, *On numbers with a large prime factor. II*, J. Indian Math. Soc.
 (N.S.) 38 (1974), 125--130; K. Ramachandra and T. N. Shorey, *On gaps
 between numbers with a large prime factor*, Acta Arith. 24 (1973), no. 1,
 99--111; and T. N. Shorey, *On gaps between numbers with a large prime
-factor. II*, Acta Arith. 25 (1974), no. 4, 365--373. The site credits the
-bound to Jutila and to Ramachandra and Shorey. How the bound divides between
+factor. II*, Acta Arith. 25 (1974), no. 4, 365--373. erdosproblems.com credits
+the bound to Jutila and to Ramachandra and Shorey. How the bound divides between
 the three papers is not stated here: the papers' own statements and
 hypotheses are not recorded, so the bound and its form rest on Erdős's
-attestation and the site's. This page carries the first of January 1973,
-the year of the earliest of the three papers.
+attestation and erdosproblems.com's. This page carries the first of January
+1973, the year of the earliest of the three papers.
 
 **Covers.** The upper bound above; the order of $f(k)$ stays open.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the results appeared in the Journal of the Indian
-Mathematical Society and in Acta Arithmetica, as Erdős's survey attests. The
-site labeled the problem OPEN, so its commentary gives no `reviewed` evidence.
+Mathematical Society and in Acta Arithmetica, as Erdős's survey attests. Bloom's
+catalog labeled the problem OPEN, so its commentary gives no `reviewed`
+evidence.

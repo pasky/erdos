@@ -44,8 +44,8 @@ $\ell(g,k)$ for the least $\ell$ such that chromatic number greater than
 $\ell$ forces a subgraph of girth at least $g$ and chromatic number greater
 than $k$, its Theorem 1.4 states that $\ell(g,k)$ is finite if and only if
 $g=4$ or $k\in\{1,2\}$, citing Rödl for $g=4$ and Erdős and Hajnal's
-Theorem 7.7 for $\ell(g,2)=2\lfloor g/2\rfloor$; in the site's indexing, a
-finite $f(k,r)$ exists exactly when $r=4$ or $k\le3$. The proof is
+Theorem 7.7 for $\ell(g,2)=2\lfloor g/2\rfloor$; in the erdosproblems.com
+indexing, a finite $f(k,r)$ exists exactly when $r=4$ or $k\le3$. The proof is
 self-contained prose and does not rest on the Lean file: Section 3 deduces
 Theorem 1.3 from the note's Theorem 2.1 (for all $q,\Delta\ge1$ a graph of
 bounded degeneracy with fractional chromatic number above $q$ all of whose
@@ -66,6 +66,6 @@ improvement from $6$ to $3$ is therefore the note's result, found with
 ChatGPT-6 Astra; the construction is Kohlmeyer and Kruer's.
 
 **Acceptance.** None: the note is not refereed and carries no outside review,
-and the site labeled the problem OPEN. It reached the erdosproblems.com forum on
-2 October 2026 as a comment under the curator's posting of the Conjectures.io
-claim. The comment links the note as an exposition.
+and Bloom's catalog labeled the problem OPEN. It reached the erdosproblems.com
+forum on 2 October 2026 as a comment under the curator's posting of the
+Conjectures.io claim. The comment links the note as an exposition.

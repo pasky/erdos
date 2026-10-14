@@ -59,19 +59,20 @@ $v_1\to\dots\to v_5\to v_1$. So no
 orientation meets both conditions. This deduction is written out on the
 problem page and is the corpus's own; the paper presents Corollary 3 as the
 full solution of a problem of Erdős and Ore, citing Erdős's 1971 list, so the
-deduction is only the step from the paper's ordered-cycle form to the site's
-orientation form. Every $s\ge5$ gives such a graph of girth $s$, the form in
-which the site's commentary states the result.
+deduction is only the step from the paper's ordered-cycle form to
+erdosproblems.com's orientation form. Every $s\ge5$ gives such a graph of girth
+$s$, the form in which the erdosproblems.com commentary states the result.
 
 **Acceptance.** Refereed publication in the Proceedings of the American
 Mathematical Society. The paper was received 20 May 1977 and revised 6
 January 1978. The Crossref record (2026-10-07) places it in volume 72, number 2,
 issued November 1978, and this page's date is that issue's nominal first day.
-The site's curator, Thomas Bloom, labeled the problem disproved and credits
-Nešetřil and Rödl [NeRo78b] with the disproof. This is the `reviewed` evidence,
-and Bloom took no part in the paper. The credit came after the forum comment of
-28 September 2025, which pointed to Corollary 4 by a link to the paper on the
-publisher's site. The proof-claim tab is empty. Read depth: claims checked for
-Corollaries 3 and 4 and Theorem 2. The probabilistic proof of Theorem 2 and its
-Lemma were read for structure only. Nothing is independently reviewed by this
-project. The acceptance rests on the publication and the curator's credit.
+The erdosproblems.com curator, Thomas Bloom, labeled the problem disproved and
+credits Nešetřil and Rödl [NeRo78b] with the disproof. This is the `reviewed`
+evidence, and Bloom took no part in the paper. The credit came after the forum
+comment of 28 September 2025, which pointed to Corollary 4 by a link to the
+paper on the publisher's site. The proof-claim tab is empty. Read depth: claims
+checked for Corollaries 3 and 4 and Theorem 2. The probabilistic proof of
+Theorem 2 and its Lemma were read for structure only. Nothing is independently
+reviewed by this project. The acceptance rests on the publication and the
+curator's credit.

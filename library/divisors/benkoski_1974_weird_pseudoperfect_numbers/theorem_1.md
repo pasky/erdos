@@ -42,7 +42,7 @@ $i=1,\ldots,n$. (The set
 $\{1,2,4,\ldots,2^{n-1}\}$ attains the bound, its reciprocal sum being
 $2-2^{1-n}$; the converse direction is what is printed.) The page then
 recalls Erdős's conjecture that distinct subset sums force
-$a_n>2^{n-C}$, with the offer of a prize (the site's Problem 1).
+$a_n>2^{n-C}$, with the offer of a prize (erdosproblems.com's Problem 1).
 
 **Source.** S. J. Benkoski and P. Erdős, *On weird and pseudoperfect
 numbers*, Math. Comp. 28 (1974), no. 126, 617–623, DOI
@@ -78,7 +78,7 @@ None beyond the two classical integrals.
   distinct) is the theorem's hypothesis (subsets of $A$ correspond to the
   vectors $(\varepsilon_i)$; a dissociated set contains no $0$, so its
   elements are $1\le a_1<\cdots<a_n$), and the conclusion is the problem's
-  $\sum_{n\in A}1/n<2$. The refinement is the site's
+  $\sum_{n\in A}1/n<2$. The refinement is erdosproblems.com's
   "$\sum1/n\le2-2^{1-|A|}$, with equality if and only if
   $A=\{1,2,\ldots,2^k\}$", where the source writes the extremal set as
   $a_i=2^{i-1}$, the powers of two up to $2^{n-1}$.

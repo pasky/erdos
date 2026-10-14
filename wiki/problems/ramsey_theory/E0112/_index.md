@@ -27,7 +27,7 @@ updated: 2026-10-08T01:29:59Z
 vertices must contain either an independent set of size $n$ or a transitive
 tournament of size $m$. Determine $k(n,m)$.
 
-**Formulation.** The site's wording of 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (the page shows no
 last-edited date). The origin, Erdős and Rado's 1967
 paper, states the finite property without graph language: $l_0(m,n)$ is the
 least $l$ such that every $\{0,1\}$-valued function $\rho$ on the ordered
@@ -36,7 +36,7 @@ with $\rho(\lambda_i,\lambda_j)=0$ for all $i<j$, or $n$ points with
 $\rho=1$ in both directions on every pair. Reading $\rho(\lambda,\mu)=0$ as
 an arc $\lambda\to\mu$, the first alternative is a transitive tournament of
 size $m$ present as a subgraph and the second an independent set of size
-$n$, so $k(n,m)=l_0(m,n)$ with the same letters as the site, and the
+$n$, so $k(n,m)=l_0(m,n)$ with the same letters as erdosproblems.com, and the
 "directed graph" of the statement is an arbitrary binary relation: a pair
 may carry arcs in both directions or none. The modern literature works with
 oriented graphs (at most one arc between two vertices) and writes
@@ -47,14 +47,14 @@ non-adjacent pairs, whose transitive subtournaments are subgraphs of the
 original, so the directed threshold is at most the oriented one; oriented
 graphs are directed graphs, so it is at least). In the oriented setting a
 transitive tournament of size $m$ as a subgraph is the same as an induced
-transitive subtournament. The site's second variant, with a directed path
-in place of the transitive tournament, is a different function (the site
-gives its value $(n-1)(m-1)$ as an unpublished observation of Hunter and
-Steiner; under this page's convention, in which $k$ is the least order that
-forces one of the two structures, that figure is the largest order of a
-digraph avoiding both, one less than the threshold: $n-1$ disjoint
-transitive tournaments on $m-1$ vertices avoid both, and the Gallai--Roy
-theorem gives the matching upper bound) and is not this problem.
+transitive subtournament. erdosproblems.com's second variant, with a directed
+path in place of the transitive tournament, is a different function
+(erdosproblems.com gives its value $(n-1)(m-1)$ as an unpublished observation of
+Hunter and Steiner; under this page's convention, in which $k$ is the least
+order that forces one of the two structures, that figure is the largest order of
+a digraph avoiding both, one less than the threshold: $n-1$ disjoint transitive
+tournaments on $m-1$ vertices avoid both, and the Gallai--Roy theorem gives the
+matching upper bound) and is not this problem.
 
 **Status.** Open. The search whose scope the Current assessment records found no
 formula for $k(n,m)$. It also found no determination beyond the values listed in
@@ -78,8 +78,8 @@ assessment derives both.
 
 **Source.** [erdosproblems.com/112](https://www.erdosproblems.com/112),
 accessed 2026-09-18: the problem page (labeled OPEN,
-with the site's note that no finite computation can settle it; source keys
-[ErRa67], [LaMi97]; no last-edited date shown; a credit line thanking Zach
+with the erdosproblems.com note that no finite computation can settle it; source
+keys [ErRa67], [LaMi97]; no last-edited date shown; a credit line thanking Zach
 Hunter and Raphael Steiner), its empty discussion thread and its empty
 proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #112,
 https://www.erdosproblems.com/112, accessed 2026-09-18.
@@ -143,23 +143,23 @@ at its revision of 2026-09-18 (main), and the
 [community database](https://github.com/teorth/erdosproblems/tree/5466d4a29b4971ce39df3a41e3b618d853d3ec3a)
 (teorth/erdosproblems) at its revision of 2026-09-18 records the problem
 open (last updated 31 August 2025), not formalized, with no formal proof.
-The site's "Formalised statement?" indicator reads "No".
+erdosproblems.com's "Formalised statement?" indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; OPEN; no
-last-edited date; no comments and no proof claims. The commentary, restated
-here, attributes the problem to Erdős and Rado [ErRa67] with their bound
-$k(n,m)\ll_mn^{m-1}$, in the explicit form
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN; no last-edited date; no comments and no proof claims. The
+commentary, restated here, attributes the problem to Erdős and Rado [ErRa67]
+with their bound $k(n,m)\ll_mn^{m-1}$, in the explicit form
 $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$; credits Larson and Mitchell [LaMi97]
 with a better dependence on $m$, including $k(n,3)\le n^2$; and records an
 observation it credits to Hunter, that $k(n,m)$ lies between the two-color
 Ramsey number $R(n,m)$ and the three-color $R(n,m,m)$, so that
 $k(n,m)\le3^{n+2m}$; it then states the directed-path variant from the graphs
 problem collection. The sandwich between the two-color and the three-color
-Ramsey numbers is the site's report of Hunter's observation, not a published
-source statement, and is not used below. The community database record at the
-revision linked under Formalization says open and not formalized. On 22
+Ramsey numbers is erdosproblems.com's report of Hunter's observation, not a
+published source statement, and is not used below. The community database record
+at the revision linked under Formalization says open and not formalized. On 22
 September 2026 the thread received one comment, the computation of $k(3,4)=21$
 recorded on
 [[problems/ramsey_theory/E0112/claims/2026_09_22_muhamadiev|its claim page]];
@@ -175,10 +175,10 @@ $l_0(1,n)=l_0(m,1)=1$ and $l_0(m,2)=2^{m-1}$ for $m\le4$; their
 $\omega_\alpha l(m,n)\to(m,\omega_\alpha n)^2$ for every initial ordinal
 $\omega_\alpha$, the least index $l_\alpha(m,n)$ that works for a given $\alpha$
 obeying the explicit bound (3),
-$l_\alpha(m,n)\le(2n-3)^{-1}[2^{m-1}(n-1)^m+n-2]$, which at $\alpha=0$ is the
-site's bound with the exponent $m$ on $(n-1)$. Remark (i) on the same page
-conjectures $l_\alpha(m,n)=l_0(m,n)$, which "has so far only been proved when
-$m\le4$ and $n\le2$"; Baumgartner proved it in 1974: the
+$l_\alpha(m,n)\le(2n-3)^{-1}[2^{m-1}(n-1)^m+n-2]$, which at $\alpha=0$ is
+erdosproblems.com's bound with the exponent $m$ on $(n-1)$. Remark (i) on the
+same page conjectures $l_\alpha(m,n)=l_0(m,n)$, which "has so far only been
+proved when $m\le4$ and $n\le2$"; Baumgartner proved it in 1974: the
 [[../library/ramsey_theory/baumgartner_1974_improvement_partition_theorem_erdos_rado/main_theorem|one result]]
 of [Ba74] (p. 135) is $\omega_\alpha\cdot l_0(m,n)\to(m,\omega_\alpha\cdot n)^2$
 for all $\alpha$, $m$ and $n$, which with the 1967 paper's negative relation
@@ -189,7 +189,7 @@ finite numbers of this problem. The introduction of the 1967 paper (pp.
 624--625) also attributes to Stearns the case $n=2$ in the form of a
 transitivity theorem, "reproduced in [8; p. 126]", the Erdős--Moser paper.
 
-**Exact values (primary sources first).** In the letters of the site,
+**Exact values (primary sources first).** In the letters of erdosproblems.com,
 $k(n,m)=r(I_n,L_m)$ of [IRW21]. Known exactly:
 
 - $k(n,1)=k(1,m)=1$ and $k(2,m)=2^{m-1}$ for $m\le4$ ([ErRa67], p. 624), and
@@ -254,12 +254,12 @@ feasible case; its Proposition 6.1 (p. 18) gives the best small-parameter
 upper bounds by a recursion, $k(3,4)\le25$ among them. A lead on that case
 is recorded below.
 
-**Bounds (from the sources read).** In the site's letters, with $n$ the
+**Bounds (from the sources read).** In erdosproblems.com's letters, with $n$ the
 independent set and $m$ the transitive tournament:
 
 - $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$ for all $m,n\ge1$ ([ErRa67],
   relation (3) at $\alpha=0$; a footnote notes the right side is an
-  integer). This is the bound $k(n,m)\ll_mn^{m-1}$ the site states.
+  integer). This is the bound $k(n,m)\ll_mn^{m-1}$ erdosproblems.com states.
 - $k(n,3)\le n^2$ for $n\ge2$
   ([[../library/ramsey_theory/larson_mitchell_1997_problem_erdos_rado/lemma_4_2|Lemma 4.2]]
   of [LaMi97], p. 248, stated as $r(K_n^*,L_3)\le n^2$ for $n>1$; its three-line
@@ -286,10 +286,10 @@ independent set and $m$ the transitive tournament:
   bound has $2^{m-2}$, and of order $2^{m-5}\cdot17\,m^{n-2}/(n-2)!$ in $m$
   where the Erdős--Rado bound grows like $2^{m-1}(n-1)^m/(2n-3)$, that is,
   $2^m\cdot m^{n-2}$ against $2^m(n-1)^m$ up to factors depending on $n$ alone:
-  the better dependence on $m$ that the site credits to the paper. The paper's
-  recurrence $k(n+1,m+1)\le2k(n+1,m)+k(n,m+1)+1$ for $n>1$ and $m\ge2$ (Lemma
-  4.3, p. 249, printed without proof after the sentence at the foot of p. 248
-  that "a similar argument" to that of Lemma 4.1 yields it) gives, in the
+  the better dependence on $m$ that erdosproblems.com credits to the paper. The
+  paper's recurrence $k(n+1,m+1)\le2k(n+1,m)+k(n,m+1)+1$ for $n>1$ and $m\ge2$
+  (Lemma 4.3, p. 249, printed without proof after the sentence at the foot of p.
+  248 that "a similar argument" to that of Lemma 4.1 yields it) gives, in the
   paper's Maple table (p. 251), the smaller estimate 8,765,184 at $n=m=10$, a
   figure not reproduced here.
 - $k(n,3)=\Theta(n^2/\log n)$
@@ -315,10 +315,10 @@ $n=2$ above, no lower bound for $m\ge4$ beyond
 $k(n,m)\ge R(n,m)$ was found in the sources read (the underlying graph of a
 transitive tournament on $m$ vertices is $K_m$, so any orientation of a graph on
 $R(n,m)-1$ vertices with no $K_m$ and no $n$ independent vertices witnesses
-this; the site states the same inequality, and [LaMi97] Theorem 2.4, p. 247,
-records it from Harary and Hell 1974 together with $k(n,m)\le R(n,2^{m-1})$).
-That bound matches the upper bound up to a power of $\log n$, through the
-off-diagonal Ramsey lower bounds recorded on
+this; erdosproblems.com states the same inequality, and [LaMi97] Theorem 2.4, p.
+247, records it from Harary and Hell 1974 together with
+$k(n,m)\le R(n,2^{m-1})$). That bound matches the upper bound up to a power of
+$\log n$, through the off-diagonal Ramsey lower bounds recorded on
 [[problems/ramsey_theory/E0986/_index|Problem 986]], which writes $R(s,k)$ with
 $s$ the clique and $k$ the independent set, so that $R(n,m)$ here is its
 $R(m,n)$. Bradač's
@@ -342,11 +342,12 @@ Verstraete's
 ([[problems/ramsey_theory/E0986/claims/2023_06_06_mattheus_verstraete|claim page]])
 is refereed, and Bradač's
 ([[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|claim page]]) is an
-unrefereed preprint accepted on the site curator's review. The two-line
-deduction is made here. A forum comment of 9 October 2026 by NicoV, on the
-site's blog post about the OpenAI release (thread blog:10, post 9332), named
-this problem among those the release's Ramsey manuscripts would bear on, and
-the curator replied (post 9337) that such consequences are immediate.
+unrefereed preprint accepted on the erdosproblems.com curator's review. The
+two-line deduction is made here. A forum comment of 9 October 2026 by NicoV, on
+the erdosproblems.com blog post about the OpenAI release (thread blog:10, post
+9332), named this problem among those the release's Ramsey manuscripts would
+bear on, and the curator replied (post 9337) that such consequences are
+immediate.
 
 **The power of the logarithm.** For $m=3$ it is $1$, by
 $k(n,3)=\Theta(n^2/\log n)$ above. For every fixed $m\ge5$ the two manuscripts
@@ -358,9 +359,9 @@ state $R(m,n)\ge n^{m-1}/(\log n)^{m-2+\varepsilon}$ for every
 $\varepsilon>0$ and all large $n$. With [IRW21] Theorem 5.6 this gives
 $k(n,m)=n^{m-1}/(\log n)^{m-2+o(1)}$, the power $m-2$ that $m=3$ has, where
 Bradač's bound leaves it between $m-2$ and $2m-4$. The manuscripts are
-unrefereed and have no independent review. The site's curator lists their
-result, $R(s,t)=t^{s-1}/(\log t)^{s-2+o(1)}$ for every $s\ge5$, as a claim in
-the blog post of 8 October 2026 on the release (thread blog:10), whose entry
+unrefereed and have no independent review. The erdosproblems.com curator lists
+their result, $R(s,t)=t^{s-1}/(\log t)^{s-2+o(1)}$ for every $s\ge5$, as a claim
+in the blog post of 8 October 2026 on the release (thread blog:10), whose entry
 for Problem 986, added on 9 October, links the manuscript for $s\ge6$ and its
 comparator challenge; the post says that the curator has not yet looked
 seriously at the proofs or checked the Lean, and that it is not an endorsement.
@@ -390,12 +391,12 @@ $l_\alpha(m,n)=l_0(m,n)=k(n,m)$ for every $\alpha$. Nosal's formulas for
 $r(\omega^m,n)$, $m\ne4$, mentioned in the Coda, concern a different
 family.
 
-**Pending claim on $k(3,4)$.** A comment of 22 September 2026 in the site's
-discussion thread, by Muhamadiev Faridun with a public repository created the
-same day, claims $k(3,4)=21$: a circulant witness on 20 vertices, and for the
-upper bound a case split into 367 cases, each refuted by a SAT solver with a
-DRAT proof checked by drat-trim, resting on hand lemmas about the neighborhoods
-of a vertex and a counting lemma. It also claims the brackets
+**Pending claim on $k(3,4)$.** A comment of 22 September 2026 in the
+erdosproblems.com discussion thread, by Muhamadiev Faridun with a public
+repository created the same day, claims $k(3,4)=21$: a circulant witness on 20
+vertices, and for the upper bound a case split into 367 cases, each refuted by a
+SAT solver with a DRAT proof checked by drat-trim, resting on hand lemmas about
+the neighborhoods of a vertex and a counting lemma. It also claims the brackets
 $34\le k(4,4)\le50$ and $31\le k(3,5)\le55$. The comment discloses AI assistance
 (Claude Opus 5). The claim is recorded, unreviewed, on
 [[problems/ramsey_theory/E0112/claims/2026_09_22_muhamadiev|its claim page]],
@@ -404,8 +405,8 @@ and is not a source for any value above.
 **Search scope.** None of the routes below found a formula
 for $k(n,m)$, a new exact value in a refereed source, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory `FormalConjectures/ErdosProblems/` (673 entries) of
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory `FormalConjectures/ErdosProblems/` (673 entries) of
   formal-conjectures at the revision linked under Formalization (no file for
   this problem); the community database at the revision linked there.
 - The primary sources read: [ErRa67] printed pp. 624--626, 630 and
@@ -425,11 +426,11 @@ for $k(n,m)$, a new exact value in a refereed source, or a proof claim.
   problem.
 - For the Ramsey lower bounds: Problem 986's page, its claim pages for
   Mattheus and Verstraete, Bradač and the OpenAI release, and the library
-  result pages linked above; the site's forum thread blog:10 (the curator's
-  post on the release and the posts of 9 October 2026); and the site's page
-  for this problem again on 2026-10-13, with its statement and remarks
-  unchanged since 2026-09-18, no label shown and the one thread comment of 22
-  September 2026.
+  result pages linked above; the erdosproblems.com forum thread blog:10 (the
+  curator's post on the release and the posts of 9 October 2026); and the
+  erdosproblems.com page for this problem again on 2026-10-13, with its
+  statement and remarks unchanged since 2026-09-18, no label shown and the one
+  thread comment of 22 September 2026.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [St59]. The 1956
 paper's Theorem 25 is unread, and [RePa70] was not read for this page either.
@@ -456,8 +457,8 @@ Alon was read for this page at Proposition 2.1, the independence bound that
 result page of its own, and the Theorem 1.1 it is the main step of is paged on
 [[../library/extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey/theorem_1_1|theorem_1_1]].
 
-**Remaining gaps.** (1) In Larson and Mitchell's paper, the site's second
-source, the 13-vertex witness for $k(4,3)\ge14$ carries a misprinted
+**Remaining gaps.** (1) In Larson and Mitchell's paper, erdosproblems.com's
+second source, the 13-vertex witness for $k(4,3)\ge14$ carries a misprinted
 in-neighborhood entry, and the digraph its out-neighborhood columns define was
 checked by computer here as a filing check, not review; the proofs of its Lemmas
 4.10--4.12 were read for structure only, and its Lemma 4.3 is printed without
@@ -472,15 +473,16 @@ its own repository lists what is not machine-checked: the load-bearing counting
 lemma (273 further cases were never run), the soundness of the per-case symmetry
 breaking, and the enumeration of the neighborhood blocks, which was not
 cross-checked against an independent tool; the per-case DRAT proofs were deleted
-after checking, their digests kept. (5) The identification of the site's
-"directed graph" with Erdős and Rado's binary relation, and its equivalence with
-the oriented convention, are checks made here, not statements of the sources.
-(6) The exponent $m-1$ for $m\ge5$, and the power of the logarithm there, rest
-on Ramsey lower bounds recorded at statement depth on Problem 986: Bradač's
-unrefereed preprint, accepted there on the site curator's review, and the
-OpenAI manuscripts, accepted on their Lean declarations with no review of the
-proofs; only the case $m=4$, Mattheus and Verstraete's, is refereed. The
-deduction from them to $k(n,m)$ is this page's.
+after checking, their digests kept. (5) The identification of
+erdosproblems.com's "directed graph" with Erdős and Rado's binary relation, and
+its equivalence with the oriented convention, are checks made here, not
+statements of the sources. (6) The exponent $m-1$ for $m\ge5$, and the power of
+the logarithm there, rest on Ramsey lower bounds recorded at statement depth on
+Problem 986: Bradač's unrefereed preprint, accepted there on the
+erdosproblems.com curator's review, and the OpenAI manuscripts, accepted on
+their Lean declarations with no review of the proofs; only the case $m=4$,
+Mattheus and Verstraete's, is refereed. The deduction from them to $k(n,m)$ is
+this page's.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

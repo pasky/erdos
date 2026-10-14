@@ -29,7 +29,8 @@ treats.
 
 **Source.** P. Erdős, *Extremal problems in number theory*, Proc. Sympos.
 Pure Math. VIII (1965), 181--189; printed p. 182 (PDF p. 2 of the 11-page
-scan read for this page), read on the page image; a site key for Problem 795.
+scan read for this page), read on the page image; an erdosproblems.com key for
+Problem 795.
 
 **Read depth.** Claims checked: the passage was read clause by clause on
 the page image. The bound $z<\pi(n)+2n^{2/3}$ is asserted as proved

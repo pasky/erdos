@@ -63,8 +63,8 @@ https://www.erdosproblems.com/243.
 
 ## Current assessment
 
-The site's formulation (page last edited 21 January 2026) states that an
-increasing sequence of positive integers with $a_n/a_{n-1}^2\to1$ and
+The erdosproblems.com formulation (page last edited 21 January 2026) states that
+an increasing sequence of positive integers with $a_n/a_{n-1}^2\to1$ and
 rational reciprocal sum satisfies $a_n=a_{n-1}^2-a_{n-1}+1$ for all large
 $n$, and labeled the problem OPEN; the sequences obeying the recurrence from
 the start are Sylvester's sequence $2,3,7,43,\ldots$ and its tails. No claim
@@ -77,15 +77,15 @@ that decide it for classes of sequences, and no full claim is pending.
   Theorem 3 of [ErSt64] (printed p. 132): with
   $N_k=\operatorname{lcm}(n_1,\ldots,n_k)$, the conclusion holds whenever
   $\limsup(N_k/n_{k+1})(n_{k+1}^2/n_{k+2}-1)\le0$, in particular whenever
-  $N_k/n_{k+1}$ is bounded (Theorem 1, p. 129). The site's remark states the
-  theorem in contrapositive form and writes the factor as
+  $N_k/n_{k+1}$ is bounded (Theorem 1, p. 129). The erdosproblems.com remark
+  states the theorem in contrapositive form and writes the factor as
   $(a_n^2/a_{n+1}-1)$, one index earlier than the paper's.
 - [[problems/irrationality/E0243/claims/2001_01_01_duverney|Duverney 2001]],
   Corollary 3.2 of [Du01] (printed p. 287): the conclusion holds whenever
   $\sum_n(a_{n+1}/a_n^2-1)$ converges, with signs $\pm1$ on the terms
   allowed; the paper calls it a partial answer to Erdős's question, which it
-  locates at p. 64 of [ErGr80] and p. 105 of [Er88c]. The site's remark
-  records the corollary after a thread comment of 11 October 2025 pointed
+  locates at p. 64 of [ErGr80] and p. 105 of [Er88c]. The erdosproblems.com
+  remark records the corollary after a thread comment of 11 October 2025 pointed
   to it.
 - [[problems/irrationality/E0243/claims/2025_04_08_koizumi|Koizumi 2025]],
   Corollary 1 of [Ko26]: a sequence of positive integers with
@@ -112,7 +112,7 @@ Cook's citation alone: it is available only through its ResearchGate record,
 its statements are not recorded here, and it has no claim page for that
 reason.
 
-**Further refereed special cases** that the site does not credit are
+**Further refereed special cases** that erdosproblems.com does not credit are
 recorded on the card
 [[../library/irrationality/tijdeman_2002_rationality_cantor_ahmes_series/corollary_4_1|Tijdeman and Yuan, Corollary 4.1]]:
 Badea's criterion (Acta Arith. 63 (1993)), the conclusion whenever
@@ -120,12 +120,12 @@ $a_{n+1}\ge a_n^2-a_n+1$ for all large $n$, and an improvement of the
 Erdős--Straus Theorem 3. Koizumi's Corollary 4 recovers the Badea and
 Erdős--Straus cases within the paper's framework.
 
-**Search scope.** On 2026-10-07 the site's page, its discussion thread
-(comments from 2025 to 11 September 2026, after which posting was suspended)
-and the formal-conjectures statement file recorded no full claim and no dispute
-of the results above. The site's proof-claims tab registered no claim; no wider
-literature search was made. The site's label OPEN matches the derived standing:
-every claim is partial.
+**Search scope.** On 2026-10-07 the erdosproblems.com page, its discussion
+thread (comments from 2025 to 11 September 2026, after which posting was
+suspended) and the formal-conjectures statement file recorded no full claim and
+no dispute of the results above. The erdosproblems.com proof-claims tab
+registered no claim; no wider literature search was made. The erdosproblems.com
+label OPEN matches the derived standing: every claim is partial.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

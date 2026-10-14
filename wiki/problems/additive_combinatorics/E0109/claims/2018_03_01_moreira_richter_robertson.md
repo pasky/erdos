@@ -4,7 +4,8 @@ title: Moreira, Richter and Robertson prove the sumset conjecture
 desc: |
   Theorem 1.2 of Moreira, Richter and Robertson (Ann. of Math. 2019) shows that
   every set of natural numbers of positive upper density contains a sumset $B+C$
-  with $B$ and $C$ infinite. The site's curator credits it, and it is refereed.
+  with $B$ and $C$ infinite. The erdosproblems.com curator credits it, and it is
+  refereed.
 authors:
 - Joel Moreira
 - Florian K. Richter
@@ -51,8 +52,8 @@ sumset conjecture of Erdős*: for every $A\subseteq\mathbb N$ with positive
 upper density along some Følner sequence $\Phi$ there are infinite
 $B,C\subseteq\mathbb N$ with $B+C\subseteq A$. The intervals
 $\Phi_N=\{1,\ldots,N\}$ form a Følner sequence, so the paper's Conjecture
-1.1, the site's statement, is the special case. Theorem 1.3 of the same
-paper proves the analogue in every countable amenable group. The proof
+1.1, the erdosproblems.com statement, is the special case. Theorem 1.3 of the
+same paper proves the analogue in every countable amenable group. The proof
 reformulates the problem through ultrafilters and splits the indicator of
 $A$ into structured and pseudo-random parts in two ways; the earlier partial
 results it supersedes are Nathanson's (with $C$ finite) and the case of
@@ -63,10 +64,10 @@ the proof is not checked in this corpus.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
-problem proved, calls it the Erdős sumset conjecture and credits Moreira,
-Richter and Robertson [MRR19] on the problem page. The proof-claim tab was
-empty.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas F. Bloom,
+labeled the problem proved, calls it the Erdős sumset conjecture and credits
+Moreira, Richter and Robertson [MRR19] on the problem page. The proof-claim tab
+was empty.
 
 Refereed publication: Ann. of Math. (2) 189 (2019), no. 2, 605--652,
 doi:10.4007/annals.2019.189.2.4, issued March 2019 according to the Crossref

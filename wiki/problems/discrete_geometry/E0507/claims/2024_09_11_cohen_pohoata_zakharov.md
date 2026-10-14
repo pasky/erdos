@@ -63,6 +63,6 @@ $-7/6$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Inventiones Mathematicae published the paper. The
-site's curator credits it with the upper bound in the problem's commentary,
-but the site labeled the problem OPEN, so that credit is context and not
-`reviewed` evidence.
+erdosproblems.com curator credits it with the upper bound in the problem's
+commentary, but Bloom's catalog labeled the problem OPEN, so that credit is
+context and not `reviewed` evidence.

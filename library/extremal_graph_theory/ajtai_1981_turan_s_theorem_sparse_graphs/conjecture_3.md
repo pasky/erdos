@@ -33,8 +33,9 @@ challenging question." After Theorem 2 the page adds: "The second gap is that
 we cannot decide whether (3) is true or not even in the case $p=4$."
 
 Here $t=2e/n$ is the average valency (tacitly $t\ge1$), $\alpha$ the
-independence number and $\log x=\max\{1,\ln x\}$ (p. 313). In the site's
-wording the paper's $p$ is $r$ and "$>c_p(n/t)\log t$" is "$\gg_r\frac{\log t}tn$".
+independence number and $\log x=\max\{1,\ln x\}$ (p. 313). In the
+erdosproblems.com wording the paper's $p$ is $r$ and "$>c_p(n/t)\log t$" is
+"$\gg_r\frac{\log t}tn$".
 
 **Source.** M. Ajtai, P. Erdős, J. Komlós and E. Szemerédi, *On Turán's
 theorem for sparse graphs*, Combinatorica 1 (1981), no. 4, 313--317; printed

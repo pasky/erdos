@@ -42,14 +42,14 @@ forces such a pair, which the
 the order: a graph on $n$ vertices with more than
 $\frac m2(n-1)-\frac12\bigl(e_0(G)+\cdots+e_{m-2}(G)\bigr)$ edges, $e_r(G)$
 the number of vertices of degree at most $r$, has two vertices joined by $m$
-edge-disjoint paths, provided $n\ge m$. This is the form the site's
+edge-disjoint paths, provided $n\ge m$. This is the form the erdosproblems.com
 commentary prints, without the proviso $n\ge m$, adding "In particular, this
-confirms (and is stronger than) the conjecture", and the form the site's
-thread read from the original (27 October 2025), correcting an earlier post that
-had taken $\sigma_m(G)$ for the number of vertices of degree less than $m$: a
-vertex of degree $d\le m-1$ is counted by $e_d,\ldots,e_{m-2}$, that is $m-1-d$
-times, so the two printed forms of $\sigma_m$ agree and a vertex of degree $m-1$
-contributes nothing.
+confirms (and is stronger than) the conjecture", and the form the
+erdosproblems.com thread read from the original (27 October 2025), correcting an
+earlier post that had taken $\sigma_m(G)$ for the number of vertices of degree
+less than $m$: a vertex of degree $d\le m-1$ is counted by $e_d,\ldots,e_{m-2}$,
+that is $m-1-d$ times, so the two printed forms of $\sigma_m$ agree and a vertex
+of degree $m-1$ contributes nothing.
 
 **Source.** W. Mader, *Ein Extremalproblem des Zusammenhangs von Graphen*,
 Math. Z. 131 (1973), 223--231, doi:10.1007/BF01187240; Satz 1 with the

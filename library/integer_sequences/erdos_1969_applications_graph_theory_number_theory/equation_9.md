@@ -48,7 +48,7 @@ The 1964 paper.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0796/_index|Problem 796]]: the asymptotic of
-  $g_k(n)$ the site's commentary quotes; in the site's notation $g_k(n)$ is
-  the largest size of a set in which every $m$ has fewer than $k$
-  representations, so $g_k(n)=u_k(n)-1$ when the two conventions for
+  $g_k(n)$ the erdosproblems.com commentary quotes; in the erdosproblems.com
+  notation $g_k(n)$ is the largest size of a set in which every $m$ has fewer
+  than $k$ representations, so $g_k(n)=u_k(n)-1$ when the two conventions for
   counting representations agree.

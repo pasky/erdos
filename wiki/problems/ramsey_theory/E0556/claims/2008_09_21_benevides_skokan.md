@@ -55,14 +55,14 @@ and the even $n$ below the unnamed threshold.
 **Acceptance.** Refereed: The 3-colored Ramsey number of even cycles, J. Combin.
 Theory Ser. B 99 (2009), no. 4, 690--708, in the July 2009 issue (the Crossref
 record). The CDAM Research Report LSE-CDAM-2008-17, linked above, was not
-compared with the journal text, so locators are the report's. The site's
-curator, T. F. Bloom, credits Benevides and Skokan in the problem's commentary
-with the value $R_3(C_n)=2n$ for all sufficiently large even $n$. The page was
-labeled DECIDABLE (last edited 8 February 2026, accessed 2026-09-17). That is
-the site's state for a problem resolved up to a finite check, and here it rests
-on exactly this theorem and the odd-cycle theorem of Kohayakawa, Simonovits and
-Skokan. The label does not mark the problem settled, so the credit is recorded
-here and is not `reviewed` evidence.
+compared with the journal text, so locators are the report's. The
+erdosproblems.com curator, T. F. Bloom, credits Benevides and Skokan in the
+problem's commentary with the value $R_3(C_n)=2n$ for all sufficiently large
+even $n$. The page was labeled DECIDABLE (last edited 8 February 2026, accessed
+2026-09-17). That is erdosproblems.com's state for a problem resolved up to a
+finite check, and here it rests on exactly this theorem and the odd-cycle
+theorem of Kohayakawa, Simonovits and Skokan. The label does not mark the
+problem settled, so the credit is recorded here and is not `reviewed` evidence.
 
 **Read depth.** Claims checked: Theorem 1 and Lemma 2 (report pp. 2--3);
 the proof was not read, and nothing is independently reviewed in this

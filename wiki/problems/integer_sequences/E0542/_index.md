@@ -43,21 +43,21 @@ $$
 Is it true that, if $1\notin A$, there must be $\gg n$ many $m\leq n$ which
 are not divisible by any $a\in A$?
 
-**Notes.** The site's second question fails for every $n\ge2$. For
+**Notes.** erdosproblems.com's second question fails for every $n\ge2$. For
 $A=\{m:n/2<m\le n\}$ the pairwise least common multiples exceed $n$ (a common
 multiple of two distinct elements is at least twice the larger one), and
 every $m\le n$ divides some element, since for $m\le n/2$ some multiple of $m$
 lies in $(n/2,n]$; so no $m\le n$ divides no element, and the answer no holds
 for a trivial reason (an observation of this page, confirmed by computation
 for $2\le n\le200$). The failure covers every $n$, so it is not a boundary
-failure; it is a misprint that the poser's own words contradict. The site's
-phrase copies Erdős's sentence in [Er73] (printed p. 135: "I thought that
-(14.1) implies the existence of an absolute constant $c$ so that there are
-$cn$ integers $m\le n$ which do not divide any of the $a$'s. To my great
-surprise this was disproved by Schinzel and Szekeres."). His other statement
-of the same question, [Er80] p. 111, differs only in the failing element: it
-counts, as $A'(x)$, the integers up to $x$ divisible by none of the $a$'s, and
-records his 1940 conjecture $A'(x)>cx$ for sequences
+failure; it is a misprint that the poser's own words contradict. The
+erdosproblems.com phrase copies Erdős's sentence in [Er73] (printed p. 135: "I
+thought that (14.1) implies the existence of an absolute constant $c$ so that
+there are $cn$ integers $m\le n$ which do not divide any of the $a$'s. To my
+great surprise this was disproved by Schinzel and Szekeres."). His other
+statement of the same question, [Er80] p. 111, differs only in the failing
+element: it counts, as $A'(x)$, the integers up to $x$ divisible by none of the
+$a$'s, and records his 1940 conjecture $A'(x)>cx$ for sequences
 $1\le a_1<\cdots<a_k\le x$ with pairwise least common multiples above $x$.
 Both texts report that Schinzel and Szekeres disproved the question, and
 their construction ([ScSz59] p. 228) counts the integers divisible by no
@@ -72,16 +72,16 @@ one-element set $\{a\}$ with $a\ge2$ leaves $n-\lfloor n/a\rfloor\ge n/2$
 non-multiples. That exclusion is this page's own correction; the
 formal-conjectures statement of the second question
 (`erdos_542.parts.ii`, under Formalization) adds the same hypothesis
-$1\notin A$ for the same reason and counts with the site, and the sets of
-[ScSz59] exclude $1$. The defect is already in the poser's text: [Er73]
-prints the divisor form, and the site copies it. The form rests on these
-sources alone, not on which results settle it. The only result about the
-site's wording is the observation above; it settles no instance of the
-modified Statement and counts for nothing. The first question is unchanged.
+$1\notin A$ for the same reason and counts with erdosproblems.com, and the sets
+of [ScSz59] exclude $1$. The defect is already in the poser's text: [Er73]
+prints the divisor form, and erdosproblems.com copies it. The form rests on
+these sources alone, not on which results settle it. The only result about the
+erdosproblems.com wording is the observation above; it settles no instance of
+the modified Statement and counts for nothing. The first question is unchanged.
 The problem's standing judges the modified Statement.
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 8 April
-2026). The condition says that no $m\le n$ is a multiple of two distinct
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited 8
+April 2026). The condition says that no $m\le n$ is a multiple of two distinct
 elements of $A$ (Erdős 1973, p. 134), so the sets of multiples of the
 elements up to $n$ are pairwise disjoint and
 $\sum_{a\in A}\lfloor n/a\rfloor\le n$, which gives $\sum1/a<2$ at once. The
@@ -91,10 +91,10 @@ $n-\sum_{a\in A}\lfloor n/a\rfloor$ integers up to $n$ are divisible by no
 element. The Schinzel--Szekeres sets exclude $1$ (their $T_n$ is defined
 through a least prime divisor).
 
-**Status.** The site's label was Solved, and it covers two answers: yes to the
-first question and no to the second. Both are by Schinzel and Szekeres (Acta
-Sci. Math. (Szeged) 20 (1959), 221--229, a refereed journal). The label
-describes the modified Statement. The claim pages
+**Status.** The erdosproblems.com label was Solved, and it covers two answers:
+yes to the first question and no to the second. Both are by Schinzel and
+Szekeres (Acta Sci. Math. (Szeged) 20 (1959), 221--229, a refereed journal). The
+label describes the modified Statement. The claim pages
 [[problems/integer_sequences/E0542/claims/1959_01_17_schinzel_szekeres|Schinzel and Szekeres 1959]]
 and [[problems/integer_sequences/E0542/claims/1996_01_01_chen|Chen 1996]] record
 the results. The frontmatter standing, which judges the modified Statement,
@@ -113,7 +113,7 @@ $1.0170166$, a partial result on the first question for large $n$. Erdős's 1973
 speculation that the sum is at most $1+o(1)$ is recorded below.
 
 **Source.** [erdosproblems.com/542](https://www.erdosproblems.com/542),
-accessed 2026-09-18: the problem page (SOLVED, the site's label for a
+accessed 2026-09-18: the problem page (SOLVED, the erdosproblems.com label for a
 resolution that is neither a proof nor a disproof; last edited 8 April
 2026; source keys [Er73, p. 135], [Er80, p. 111], [Er98, p. 170], with
 [ScSz59] and [Ch96] in the commentary and a cross-reference to Problem
@@ -132,7 +132,7 @@ accessed 2026-09-18.
 - [Ch96] Chen, Y.-G., On a problem of P. Erdős. Acta Sci. Math. (Szeged) 62
   (1996), no. 1--2, 101--114; Zbl 0870.11013 (review by I. Z. Ruzsa). Its
   theorem is stated from the review; the threshold $n>172509$ and the sum
-  $1.017099\ldots$ are the site's.
+  $1.017099\ldots$ are erdosproblems.com's.
 - [Er73] Erdős, P., Problems and results on combinatorial number theory. A
   survey of combinatorial theory (1973), 117--138; item 14.1, printed
   pp. 134--135. Library home:
@@ -141,9 +141,9 @@ accessed 2026-09-18.
   Ann. Discrete Math. 6 (1980), 89--115; printed p. 111. Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [Er98] Erdős, P., Some of my new and almost new problems and results in
-  combinatorial number theory. Number theory (Eger, 1996) (1998), 169--180; the
-  site cites p. 170. Not read; its remarks are quoted second-hand from the site
-  and the thread.
+  combinatorial number theory. Number theory (Eger, 1996) (1998), 169--180;
+  erdosproblems.com cites p. 170. Not read; its remarks are quoted second-hand
+  from erdosproblems.com and the thread.
 - [Le51] Lehman, R. S., solution of problem 4365, Amer. Math. Monthly 58 (1951),
   p. 345, cited by [ScSz59] (p. 221) for the bound $\sum1/a<7/6+1/(6n)$. Not
   read, and nothing here rests on it.
@@ -172,28 +172,29 @@ states `variants.one_add_little_o`, the $1+o(1)$ speculation, and
 carry `formal_proof` attributes naming line 2114 of
 `src/latest/ErdosProblems/Erdos542.lean` in `plby/lean-proofs`, the file and
 commit the claim page links. On 2026-09-18 (directory listing and full tree
-checked) the collection had no file for this problem, the site's page did not
-mark the statement as formalized, and the community database recorded the
-problem solved (last changed 31 August 2025), not formalized, with no formal
-proof; on 2026-10-07 the site's page marked the statement as formalized. Outside
-the collection, `plby/lean-proofs` at its head of 15 September 2026 (the head on
-2026-09-18) holds `src/latest/ErdosProblems/Erdos542.lean` with a supporting
-file, whose closing theorem `erdos_542` asserts six conjuncts: the $31/30$ bound
-for every $n$ and every admissible $A$; that $\{2,3,5\}$ is admissible for $n=5$
-with reciprocal sum $31/30$; that a construction family is admissible; that
-along it the proportion of integers up to $n$ divisible by no element tends to
-$0$; that its reciprocal sums eventually exceed $1-\varepsilon$; and that no
-$c>0$ gives $cn$ such integers for all admissible sets. Its header declares it a
-formalization of a solution to the problem, names Schinzel and Szekeres as
-informal authors and two AI systems, Codex and GPT-5.6 Sol, as formal authors,
-at Lean and Mathlib v4.33.0; it contains no `sorry` and no `axiom`. It uses the
-"not divisible by any element" form of the modified Statement. Nothing was
-built or audited here, and the site did not label the problem Lean; the file is
-linked from the Schinzel--Szekeres claim page as a self-declared formalization.
+checked) the collection had no file for this problem, the erdosproblems.com page
+did not mark the statement as formalized, and the community database recorded
+the problem solved (last changed 31 August 2025), not formalized, with no formal
+proof; on 2026-10-07 the erdosproblems.com page marked the statement as
+formalized. Outside the collection, `plby/lean-proofs` at its head of 15
+September 2026 (the head on 2026-09-18) holds
+`src/latest/ErdosProblems/Erdos542.lean` with a supporting file, whose closing
+theorem `erdos_542` asserts six conjuncts: the $31/30$ bound for every $n$ and
+every admissible $A$; that $\{2,3,5\}$ is admissible for $n=5$ with reciprocal
+sum $31/30$; that a construction family is admissible; that along it the
+proportion of integers up to $n$ divisible by no element tends to $0$; that its
+reciprocal sums eventually exceed $1-\varepsilon$; and that no $c>0$ gives $cn$
+such integers for all admissible sets. Its header declares it a formalization of
+a solution to the problem, names Schinzel and Szekeres as informal authors and
+two AI systems, Codex and GPT-5.6 Sol, as formal authors, at Lean and Mathlib
+v4.33.0; it contains no `sorry` and no `axiom`. It uses the "not divisible by
+any element" form of the modified Statement. Nothing was built or audited here,
+and erdosproblems.com did not label the problem Lean; the file is linked from
+the Schinzel--Szekeres claim page as a self-declared formalization.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; SOLVED, last edited 8 April 2026; source keys [Er73, p. 135], [Er80,
 p. 111], [Er98, p. 170]. The commentary, in this page's words: the set
 $\{2,3,5\}$ shows that the $31/30$ bound cannot be lowered; Erdős's 1980
@@ -212,9 +213,9 @@ optimum for $n=11$, Chen's sharper $\rho_n<1.0170166$ for large $n$ and Chen's
 criterion that a function $h$ with $h=0$ on $[0,1)$ and
 $x\le\sum_{k\ge1}h(x/k)\le x(1+o(1))$ would give $\lim\rho_n=1$, Erdős's
 further conjecture that $\sum1/a\le1$ whenever $[a,b]>n+1$, and the question
-whether $\rho_n>1$ holds infinitely often; a suggestion for $h$; and the
-site author's note that [Er98] calls it an old problem, that [ScSz59]
-attribute it to a personal communication of Erdős, and that the strong
+whether $\rho_n>1$ holds infinitely often; a suggestion for $h$; and
+erdosproblems.com author's note that [Er98] calls it an old problem, that
+[ScSz59] attribute it to a personal communication of Erdős, and that the strong
 conjecture would mean $\rho_n>1$ only for $n=5$ and $n=11$. The proof-claim
 tab is empty. On 2026-10-07 the page showed the same edit date and three
 comments. The [[problems/integer_sequences/E0542/claims/_index|claim pages]]
@@ -274,14 +275,14 @@ factors number $o(n)$, and the displayed bound
 $1.1\,n\log\log n\exp\{(\log\log n)^2-(\log n)^{1-1.1\log2}\}<n\,e^{-(\log n)^\delta}$
 counts only the others. It is not a bound for $|B_n|$: Erdős's
 $c_2x/(\log x)^{\beta_1}<A'(x)<c_1x/(\log x)^{\beta_2}$ ([Er80], p. 111) puts
-the count at least $c_2n/(\log n)^{\beta_1}$, and its upper bound is the site's
-$n/(\log n)^c$. This answers the second question of the modified Statement in
-the negative. Acceptance: Acta Scientiarum Mathematicarum is refereed; the paper
-is dated received 17 January 1959 (p. 229); Erdős's 1973 and 1980 surveys and
-the site accept the results. Read depth: claims checked for condition (1), the
-three theorems and the construction with its bound; Lemmas 1 and 2 and the proof
-of Theorem 3 were read for structure; the finite verification of Lemma 2 was not
-rerun.
+the count at least $c_2n/(\log n)^{\beta_1}$, and its upper bound is
+erdosproblems.com's $n/(\log n)^c$. This answers the second question of the
+modified Statement in the negative. Acceptance: Acta Scientiarum Mathematicarum
+is refereed; the paper is dated received 17 January 1959 (p. 229); Erdős's 1973
+and 1980 surveys and erdosproblems.com accept the results. Read depth: claims
+checked for condition (1), the three theorems and the construction with its
+bound; Lemmas 1 and 2 and the proof of Theorem 3 were read for structure; the
+finite verification of Lemma 2 was not rerun.
 
 **The count and the reciprocal sum.** Under (1) the multiple sets
 $\{a,2a,\ldots\}\cap[1,n]$ are pairwise disjoint, so the integers $m\le n$
@@ -296,20 +297,20 @@ construction, whose sets $A_n$ leave only $o(n)$ such integers.
 reciprocal sum of an admissible set, improving Theorem 2's constant; the review
 also states the criterion on a function $h$ quoted above. The paper's page is
 [[problems/integer_sequences/E0542/claims/1996_01_01_chen|Chen 1996]]. The
-site's form, $\sum1/a<1/3+1/4+1/5+1/7+1/11=1.017099\ldots$ for $n>172509$, was
-not checked against the paper; the thread's $1.0170166$ agrees with the review.
-Erdős's speculation (1973) that $\sum1/a\le1+o(1)$, and the conjecture reported
-from [Er98] that $\{2,3,5\}$ and $\{3,4,5,7,11\}$ are the only sequences with
-sum above $1$, remain open per the sources read; Theorem 2's constant
-$1.017262\ldots$ and Chen's $1.0170166$ both lie above $1$, and Theorem 3 gives
-sums arbitrarily close to $1$ from below. The external Lean file under
+erdosproblems.com form, $\sum1/a<1/3+1/4+1/5+1/7+1/11=1.017099\ldots$ for
+$n>172509$, was not checked against the paper; the thread's $1.0170166$ agrees
+with the review. Erdős's speculation (1973) that $\sum1/a\le1+o(1)$, and the
+conjecture reported from [Er98] that $\{2,3,5\}$ and $\{3,4,5,7,11\}$ are the
+only sequences with sum above $1$, remain open per the sources read; Theorem 2's
+constant $1.017262\ldots$ and Chen's $1.0170166$ both lie above $1$, and Theorem
+3 gives sums arbitrarily close to $1$ from below. The external Lean file under
 Formalization restates the two answers formally and was not built.
 
 **Search scope (2026-09-18 UTC).** None of the routes below found a source
 disputing either answer, a proof that $\sum1/a\le1+o(1)$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing and tree of formal-conjectures at the pinned commit (no
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing and tree of formal-conjectures at the pinned commit (no
   file for this problem at that commit; the file added on
   20 September 2026 is recorded under Formalization); the community
   database entry.
@@ -334,13 +335,13 @@ Not searched: MathSciNet, Google Scholar, X; zbMATH only for the review of
 and the construction are compiled at claims checked; Lemma 2's finite
 verification was not rerun and nothing is independently reviewed. (2) The texts
 of [Ch96] and [Er98] were not read; Chen's constant $1.0170166$ rests on the
-zbMATH review, and the site's $1.017099\ldots$ for $n>172509$ and the
+zbMATH review, and erdosproblems.com's $1.017099\ldots$ for $n>172509$ and the
 two-sequence conjecture are second-hand; reopening condition for the record,
 either text. (3) Whether $\sum1/a\le1+o(1)$, and whether $\rho_n>1$ for any $n$
-other than $5$ and $11$, is open per the sources; not this problem. (4) The
-site's second question follows Erdős's 1973 sentence and reverses the
-divisibility of the other sources; the modified Statement and its evidence are
-in the Notes.
+other than $5$ and $11$, is open per the sources; not this problem. (4)
+erdosproblems.com's second question follows Erdős's 1973 sentence and reverses
+the divisibility of the other sources; the modified Statement and its evidence
+are in the Notes.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

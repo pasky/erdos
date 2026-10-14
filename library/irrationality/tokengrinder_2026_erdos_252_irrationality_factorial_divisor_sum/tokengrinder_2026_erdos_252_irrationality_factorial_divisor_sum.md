@@ -48,15 +48,15 @@ on 2026-09-17 (UTC) unless a different date is given.
 
 ## The author's own statements
 
-- Registration on the site's proof-claims page for Problem 252
+- Registration on the erdosproblems.com proof-claims page for Problem 252
   (<https://www.erdosproblems.com/forum/thread/252/proof-claims>, read from
   the snapshot of 2026-09-17T07:08Z): "A full proof claimed by Tokengr1nder
   (using GPT 6 Astra)", submitted 2026-09-08 03:25:18 by user
   `tokengrinder`, with a summary of the argument and the note "As I believe
   there was not a lot of intellectual effort involved in solving this I
-  would like to stay anonymous." The page carries the site's disclaimer:
-  "Appearing on this page is no guarantee of proof correctness, and does
-  not mean that anyone associated with this site has examined any part of
+  would like to stay anonymous." The page carries the erdosproblems.com
+  disclaimer: "Appearing on this page is no guarantee of proof correctness, and
+  does not mean that anyone associated with this site has examined any part of
   the proof." Comments on the claim: 0.
 - Issue #5334 "Proof for Erdos 252" in `google-deepmind/formal-conjectures`,
   opened 2026-09-08T03:32:03Z by `tokengr1nder`, body: the repository link
@@ -77,9 +77,9 @@ this record neither confirms nor disputes it.
 
 ## Public records on 2026-09-17
 
-- Site problem page <https://www.erdosproblems.com/252>: label OPEN, "This
-  is open, and cannot be resolved with a finite computation", "This page
-  was last edited 22 January 2026", "Proof claims (1)"; the known-results
+- erdosproblems.com problem page <https://www.erdosproblems.com/252>: label
+  OPEN, "This is open, and cannot be resolved with a finite computation", "This
+  page was last edited 22 January 2026", "Proof claims (1)"; the known-results
   text names $1\le k\le4$ and the two conditional results. Discussion
   thread: three comments (Quanyu Tang, 05 Sep 2025; Dogmachine, 04 Jan
   2026; Alfaiz, 14 Apr 2026), none about the claimed proof.
@@ -107,8 +107,8 @@ this record neither confirms nor disputes it.
 ## Acceptance
 
 None documented outside this repository on 2026-09-17: no referee, no
-maintainer response, no site relabeling, no community-database change and
-no expert acknowledgment. The acceptance recorded on the
+maintainer response, no erdosproblems.com relabeling, no community-database
+change and no expert acknowledgment. The acceptance recorded on the
 [card](_index.md) is this repository's own: a fresh clone rebuilt, the
 axiom closure audited, the module and its import closure replayed with
 Lean's kernel, and a graded fresh-context fidelity review, all filed under

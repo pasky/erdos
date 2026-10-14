@@ -3,7 +3,7 @@ name: additive_combinatorics/choi_1975_additive_multiplicative_problems_number_t
 title: "Theorem 8: for each k some density 2/3 - ε_k already forces k members of a set of integers up to n whose pairwise sums all lie in the set"
 desc: |
   The refinement of Theorem 7 that lowers the density threshold below two
-  thirds by a constant depending on k, the source of the site's bound
+  thirds by a constant depending on k, the source of erdosproblems.com's bound
   f_k(N) at most (2/3 - ε_k)N on Problem 865.
 created: 2026-09-18T15:50:00Z
 updated: 2026-10-07T20:53:39Z
@@ -56,11 +56,11 @@ of the paper (for the reduction to property P).
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0865/_index|Problem 865]]: the site's
-  "Choi, Erdős, and Szemerédi [CES75] have proved that, for all $k\ge3$,
-  there exists $\epsilon_k>0$ such that (for large enough $N$)
+- [[../wiki/problems/additive_combinatorics/E0865/_index|Problem 865]]:
+  erdosproblems.com's "Choi, Erdős, and Szemerédi [CES75] have proved that, for
+  all $k\ge3$, there exists $\epsilon_k>0$ such that (for large enough $N$)
   $f_k(N)\le(\tfrac23-\epsilon_k)N$"; the theorem is stated for every $k$
   with sets of $t\ge(\tfrac23-\varepsilon_k)n$ integers in $[1,n]$, the
-  site's normalization. The case $k=3$ is the "coarse $2/3$ theorem" that
-  an earlier version of Cipollini's reduction took as input (its Remark
+  erdosproblems.com normalization. The case $k=3$ is the "coarse $2/3$ theorem"
+  that an earlier version of Cipollini's reduction took as input (its Remark
   1.2).

@@ -41,12 +41,13 @@ infinite; an unbounded excess (an infinite limit superior) would not answer
 it. Small values from the Monthly problem: $k(1)=1$, $k(2)=3$, $k(3)=5$ (since
 $1=\frac13+\frac14+\frac15+\frac16+\frac1{20}$).
 
-**Status.** Open: the site's label was OPEN. The Erdős–Straus solution of 1971
-proves $(e-1)N-c_2<k(N)<(e-1)N+c_1N/\log N$. It says that the divergence "seems
-to us certain" but is unproved. The 1980 monograph repeats both. No proof or
-disproof of the divergence was found in the search whose scope the Current
-assessment records. The one proof claim on the site is partial, AI-assisted and
-unreviewed. This is a bounded negative finding, not a certificate of openness.
+**Status.** Open: the erdosproblems.com label was OPEN. The Erdős–Straus
+solution of 1971 proves $(e-1)N-c_2<k(N)<(e-1)N+c_1N/\log N$. It says that the
+divergence "seems to us certain" but is unproved. The 1980 monograph repeats
+both. No proof or disproof of the divergence was found in the search whose scope
+the Current assessment records. The one proof claim on erdosproblems.com is
+partial, AI-assisted and unreviewed. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/295](https://www.erdosproblems.com/295),
 accessed 2026-09-17: the problem page (OPEN; last edited 1 October 2025), its
@@ -71,7 +72,7 @@ accessed 2026-09-17.
 - [Ma99] Martin, G., Dense Egyptian fractions. arXiv:math/9804045 (1998);
   Trans. Amer. Math. Soc. 351 (1999), no. 9, 3641--3657,
   doi:10.1090/S0002-9947-99-02327-2. Context.
-- OEIS A192881, linked by the site.
+- OEIS A192881, linked by erdosproblems.com.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/295.lean`](https://github.com/google-deepmind/formal-conjectures/blob/40e7c98697de6f66b8cbdbf641749ab39ed9c152/FormalConjectures/ErdosProblems/295.lean)
@@ -80,16 +81,16 @@ of formal-conjectures, at the revision linked (fetched 2026-09-17), defines
 declares `erdos_295 : answer(sorry) ↔ Filter.atTop.Tendsto (fun N => k N -
 (rexp 1 - 1)*N) Filter.atTop` under `category research open`, and records the
 Erdős–Straus bounds as the variant `erdos_295.variants.erdos_straus` under
-`research solved`, also with proof `sorry`. The formal $k(N)$ agrees with the
-site's for every $N\ge1$. The file is a statement, not a proof; no build or
-audit of it is recorded. The [community
+`research solved`, also with proof `sorry`. The formal $k(N)$ agrees with
+erdosproblems.com's for every $N\ge1$. The file is a statement, not a proof; no
+build or audit of it is recorded. The [community
 database](https://github.com/teorth/erdosproblems/blob/3c68e941162f81d650fc886eed34e58bed3a6a01/data/problems.yaml)
 (fetched 2026-09-17) records a formalized statement and no formal proof.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site stated the problem as above, showed
-OPEN, cited [ErGr80] and [ErSt71b], and recorded the bounds
+**The question.** On 2026-09-17 erdosproblems.com stated the problem as above,
+showed OPEN, cited [ErGr80] and [ErSt71b], and recorded the bounds
 $-c<k(N)-(e-1)N\ll N/\log N$. Printed p. 35 of the monograph
 ([[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Erdős–Graham 1980]])
 defines $U_n=\min\{k:\{x_1,\ldots,x_k\}\in\mathcal X,\ x_1\ge n\}$, says "It
@@ -153,22 +154,22 @@ $k(17)=32$ and $33\le k(18)\le35$ by exhaustive search with certificates,
 labels itself partial, and says it does not touch the asymptotic question; no
 check of it is recorded.
 
-**The site's proof claim (lead).** The proof-claim tab lists one partial
-claim, submitted on 4 September 2026 by the user tienxion and disclosed as
-produced with substantial help from an AI model (GPT-6 through Codex); it
+**erdosproblems.com's proof claim (lead).** The proof-claim tab lists one
+partial claim, submitted on 4 September 2026 by the user tienxion and disclosed
+as produced with substantial help from an AI model (GPT-6 through Codex); it
 links a PDF in that user's GitHub repository. Its summary: for each fixed
 $B>1$, an explicit lower bound of order $N/\log N$ for the excess when all
 denominators are at most $N^{B+o(1)}$, and the statement that bounded excess
 forces exponential denominators. It does not claim the unrestricted problem.
-The site says that appearing there is no guarantee of correctness; no check of
-the claim is recorded. It settles no instance of the question, since it bounds
-a quantity restricted to polynomially bounded denominators, so it has no claim
-page and does not affect the status.
+erdosproblems.com says that appearing there is no guarantee of correctness; no
+check of the claim is recorded. It settles no instance of the question, since it
+bounds a quantity restricted to polynomially bounded denominators, so it has no
+claim page and does not affect the status.
 
 **Search scope.** Routes; none found a proof or disproof
 of the divergence.
 
-- The site's three pages; the community database (open; formalized
+- erdosproblems.com's three pages; the community database (open; formalized
   statement; no proof URL); formal-conjectures `295.lean` at the pinned
   commit (statement only).
 - arXiv: the abstract pages of math/9904181 (one version) and math/9804045

@@ -52,15 +52,15 @@ reached v6 on 20 August 2014 and carries the combinatorial computations and
 the checking program. The joint three-page paper, which cites the solo
 manuscript for the explicit construction, was submitted to the Electronic
 Journal of Combinatorics on 3 February 2014, accepted on 28 October 2014 and
-published on 6 November 2014. The page is named by the publication the site
-credits, its date and its authors; the earlier solo posting is disclosed
-here.
+published on 6 November 2014. The page is named by the publication
+erdosproblems.com credits, its date and its authors; the earlier solo posting is
+disclosed here.
 
 **Acceptance.** The result is refereed, since the Electronic Journal of
-Combinatorics published it. Thomas Bloom, the site's curator, marked the problem
-disproved. The curator names Brouwer and Jenrich's dimension 64 as the smallest
-dimension in which the conjecture is known to fail (problem page last edited 30
-December 2025).
+Combinatorics published it. Thomas Bloom, the erdosproblems.com curator, marked
+the problem disproved. The curator names Brouwer and Jenrich's dimension 64 as
+the smallest dimension in which the conjecture is known to fail (problem page
+last edited 30 December 2025).
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
 had already answered the question no, and this result settles it again in a much
 smaller dimension. The corpus has not reviewed the complete proof or its

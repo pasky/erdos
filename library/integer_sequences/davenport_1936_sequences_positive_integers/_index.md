@@ -113,12 +113,12 @@ is, up to the members of A themselves, the complement of the set of
 multiples of A.
 [[../wiki/problems/integer_sequences/E0487/_index|#487]]: Theorem 2, Section 3, printed
 p. 150 (PDF p. 4), the divisibility chain under positive upper logarithmic
-density, the result the site's commentary records; context for the problem,
-not its proof.
-[[../wiki/problems/integer_sequences/E0025/_index|#25]]: Theorem 1, Section 2, printed
-p. 149, the closest classical positive theorem for unshifted multiples, and
-Lemma 1's divisor-upward hypothesis, which the problem's translated, delayed
-classes lose; the paper does not resolve the problem.
+density, the result the erdosproblems.com commentary records; context for the
+problem, not its proof. [[../wiki/problems/integer_sequences/E0025/_index|#25]]:
+Theorem 1, Section 2, printed p. 149, the closest classical positive theorem for
+unshifted multiples, and Lemma 1's divisor-upward hypothesis, which the
+problem's translated, delayed classes lose; the paper does not resolve the
+problem.
 
 **Results.**
 

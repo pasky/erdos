@@ -25,17 +25,17 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Let $r\geq 2$ and $m\geq 1$. Every graph with $rm$ vertices and
 minimum degree at least $m(r-1)$ contains $m$ vertex disjoint copies of $K_r$.
 
-**Formulation.** The site's wording (page last edited 15 April 2026). The
-statement is for every $r\ge2$ and $m\ge1$; the $m$ vertex-disjoint copies
+**Formulation.** The erdosproblems.com wording (page last edited 15 April 2026).
+The statement is for every $r\ge2$ and $m\ge1$; the $m$ vertex-disjoint copies
 of $K_r$ have $rm$ vertices between them, so they cover the graph. The
-site's commentary gives the equivalent form in terms of equitable colorings:
-a graph on $rm$ vertices whose maximum degree is at most $m-1$ admits a
-proper coloring with $m$ colors in which
-each class has exactly $r$ vertices; the passage between the two forms is the
-complement, written out under Status support. At $r=2$ the statement asks for a
-perfect matching in a graph on $2m$ vertices of minimum degree $m$, which
-Dirac's theorem gives through a Hamiltonian cycle. The site's label PROVED
-(LEAN) carries a catalog suffix explained under Formalization.
+erdosproblems.com commentary gives the equivalent form in terms of equitable
+colorings: a graph on $rm$ vertices whose maximum degree is at most $m-1$ admits
+a proper coloring with $m$ colors in which each class has exactly $r$ vertices;
+the passage between the two forms is the complement, written out under Status
+support. At $r=2$ the statement asks for a perfect matching in a graph on $2m$
+vertices of minimum degree $m$, which Dirac's theorem gives through a
+Hamiltonian cycle. The erdosproblems.com label PROVED (LEAN) carries a catalog
+suffix explained under Formalization.
 
 **Status.** Proved. The statement is the Hajnal--Szemerédi theorem of 1970 in
 its clique form. The claim pages are
@@ -44,38 +44,39 @@ its clique form. The claim pages are
 and
 [[problems/extremal_graph_theory/E0914/claims/2010_03_01_kierstead_kostochka_mydlarz_szemeredi|Kierstead, Kostochka, Mydlarz and Szemerédi]],
 and the frontmatter standing is derived from them. The first is accepted on the
-site's credit and Kierstead and Kostochka's independent refereed proof. The 2010
-paper shares an author with it. The other two are accepted and refereed. The
-cases $r=2$ (Dirac's theorem,
+erdosproblems.com credit and Kierstead and Kostochka's independent refereed
+proof. The 2010 paper shares an author with it. The other two are accepted and
+refereed. The cases $r=2$ (Dirac's theorem,
 [[problems/extremal_graph_theory/E0914/claims/1952_01_01_dirac|claim page]]) and
 $r=3$ ([CoHa63], not held;
 [[problems/extremal_graph_theory/E0914/claims/1963_09_01_corradi_hajnal|claim page]])
-are second-hand. Each is an accepted partial claim on the site's credit and its
-journal publication.
+are second-hand. Each is an accepted partial claim on the erdosproblems.com
+credit and its journal publication.
 
 The status-defining text is Theorem 1 of Kierstead, Kostochka, Mydlarz and
 Szemerédi, *A fast algorithm for equitable coloring*, Combinatorica 30 (2010),
 217--224 (refereed): "Every graph with maximum degree at most $r$ has an
 equitable $(r+1)$-coloring". The paper attributes this to Hajnal and Szemerédi
 (1970), as a theorem "which had been conjectured by Erdős", and proves it again
-in its Section 2. The one-line transfer to the site's statement is written
-below. The site's two proof sources are not held. They are the original proof
-[HaSz70] (a Bolyai Society volume of 1970, print only) and the short proof
-[KiKo08] (Combin. Probab. Comput. 17 (2008), 265--270). Their exact statements
-are therefore known through the 2010 paper's attribution and the site. The
-acceptance evidence is the refereed 2010 paper, which states the theorem and
-proves it, the site's label and the community database.
+in its Section 2. The one-line transfer to the erdosproblems.com statement is
+written below. erdosproblems.com's two proof sources are not held. They are the
+original proof [HaSz70] (a Bolyai Society volume of 1970, print only) and the
+short proof [KiKo08] (Combin. Probab. Comput. 17 (2008), 265--270). Their exact
+statements are therefore known through the 2010 paper's attribution and
+erdosproblems.com. The acceptance evidence is the refereed 2010 paper, which
+states the theorem and proves it, the erdosproblems.com label and the community
+database.
 
-The site's "(LEAN)" attaches to an external Lean proof of the clique form,
-inspected statically and described under Formalization. It declares itself a
-formalization of Kierstead and Kostochka's proof and is recorded as a
+erdosproblems.com's "(LEAN)" attaches to an external Lean proof of the clique
+form, inspected statically and described under Formalization. It declares itself
+a formalization of Kierstead and Kostochka's proof and is recorded as a
 formalization link on their page. This project has not built it, and it gives no
 `formalized` evidence.
 
 **Source.** [erdosproblems.com/914](https://www.erdosproblems.com/914),
-accessed 2026-09-19: the problem page (PROVED (LEAN), the site's label for a
-statement proved in the affirmative with a proof checked in Lean; last
-edited 15 April 2026; source key [Er67b]; commentary citing [CoHa63],
+accessed 2026-09-19: the problem page (PROVED (LEAN), the erdosproblems.com
+label for a statement proved in the affirmative with a proof checked in Lean;
+last edited 15 April 2026; source key [Er67b]; commentary citing [CoHa63],
 [HaSz70] and [KiKo08]), its two-comment discussion thread (13 March and 15
 April 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
 Problem #914, https://www.erdosproblems.com/914, accessed 2026-09-19.
@@ -83,17 +84,17 @@ Problem #914, https://www.erdosproblems.com/914, accessed 2026-09-19.
 **References.**
 
 - [Er67b] Erdős, P., Extremal problems in graph theory. A Seminar on Graph
-  Theory, Holt, Rinehart and Winston, New York (1967), 54--59; the site's
-  reference text reads "A Seminar on Graph Theory (1967), 54-59. (MR
-  223263)". The conjecture with its two known cases, printed p. 56 = p. 3
-  of the re-typeset archive copy. Library home:
+  Theory, Holt, Rinehart and Winston, New York (1967), 54--59; the
+  erdosproblems.com reference text reads "A Seminar on Graph Theory (1967),
+  54-59. (MR 223263)". The conjecture with its two known cases, printed p. 56 =
+  p. 3 of the re-typeset archive copy. Library home:
   [[../library/extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/_index|erdos_1967_extremal_problems_graph_theory]];
   paged at
   [[../library/extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/conjecture_p56|conjecture_p56]].
 - [HaSz70] Hajnal, A. and Szemerédi, E., Proof of a conjecture of P. Erdős.
   Combinatorial Theory and its Applications (P. Erdős, A. Rényi and V. T.
   Sós, eds.), North-Holland (1970), 601--623 (the venue from [KKMS10]'s
-  reference [3]; the site's text gives none). Not held: a print-only
+  reference [3]; the erdosproblems.com text gives none). Not held: a print-only
   proceedings volume with no online copy known.
 - [KiKo08] Kierstead, H. A. and Kostochka, A. V., A short proof of the
   Hajnal-Szemerédi theorem on equitable colouring. Combin. Probab. Comput. 17
@@ -103,16 +104,17 @@ Problem #914, https://www.erdosproblems.com/914, accessed 2026-09-19.
 - [KKMS10] Kierstead, H. A., Kostochka, A. V., Mydlarz, M. and Szemerédi, E.,
   A fast algorithm for equitable coloring. Combinatorica 30 (2010), no. 2,
   217--224, doi:10.1007/s00493-010-2483-5 (Crossref record accessed 2026-09-19;
-  received 5 February 2008). Not a site key. Theorem 1 and the attribution,
-  p. 217; the proof, Section 2, pp. 218--220. Library home:
+  received 5 February 2008). Not an erdosproblems.com key. Theorem 1 and the
+  attribution, p. 217; the proof, Section 2, pp. 218--220. Library home:
   [[../library/extremal_graph_theory/kierstead_2010_fast_algorithm_equitable_coloring/_index|kierstead_2010_fast_algorithm_equitable_coloring]];
   paged at
   [[../library/extremal_graph_theory/kierstead_2010_fast_algorithm_equitable_coloring/theorem_1|theorem_1]].
 - [CoHa63] Corrádi, K. and Hajnal, A., On the maximal number of independent
   circuits in a graph. Acta Math. Acad. Sci. Hungar. 14 (1963), 423--439.
-  The case $r=3$, per the site and [Er67b]. Not held.
+  The case $r=3$, per erdosproblems.com and [Er67b]. Not held.
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
+file
 [`ErdosProblems/914.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/914.lean)
 of formal-conjectures (the link pins the version of 2026-09-19; 2,609 bytes)
 declares
@@ -123,13 +125,13 @@ under `category research solved, AMS 5`, with proof `sorry` and a
 on its `main` branch (unpinned), together with the variant
 `erdos_914.variants.equitable_colouring`
 (`G.maxDegree ≤ m - 1 → ∃ C : G.Coloring (Fin m), ∀ i, (C.colorClass i).ncard = r`),
-also `sorry`; its docstring repeats the site's commentary. The external file at
-the repository's head of 15 September 2026 (the version the claim page's link
-pins) has 221,758 bytes and 4,225 lines, is headed
+also `sorry`; its docstring repeats the erdosproblems.com commentary. The
+external file at the repository's head of 15 September 2026 (the version the
+claim page's link pins) has 221,758 bytes and 4,225 lines, is headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, and imports `Mathlib`. Its header
 names Kierstead and Kostochka as the informal authors and, as formal authors,
-the AI system Aristotle and Wouter van Doorn, links the site's thread post of
-15 April 2026 and a file `ErdosProblem914.lean` in the repository
+the AI system Aristotle and Wouter van Doorn, links the erdosproblems.com thread
+post of 15 April 2026 and a file `ErdosProblem914.lean` in the repository
 `Woett/Lean-files`, and its docstring credits the formalization of the 2008
 proof to Aristotle, from Harmonic (the file's own credits, recorded as its
 provenance). It proves
@@ -148,35 +150,35 @@ This project has not built, audited or kernel-checked the file, so no
 `formalized` evidence is listed. The community database (teorth/erdosproblems,
 `data/problems.yaml`, accessed 2026-09-19) lists `status` "proved (Lean)" as of
 its last update of 14 April 2026, `formal_status` Lean with no URL, the
-statement formalized since 4 August 2026 and no formal-proof field; the site's
-indicator reads "Formalised statement? Yes".
+statement formalized since 4 August 2026 and no formal-proof field; the
+erdosproblems.com indicator reads "Formalised statement? Yes".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement above; PROVED
-(LEAN); last edited 15 April 2026. The commentary gives the equivalent
-equitable-coloring form (a graph on $rm$ vertices whose maximum degree is at
-most $m-1$ admits a proper $m$-coloring with classes of exactly $r$ vertices),
-derives the case $r=2$ from Dirac's theorem, credits $r=3$ to Corrádi and
-Hajnal [CoHa63] and every $r\ge4$ to Hajnal and Szemerédi [HaSz70], and names
-the shorter proof of Kierstead and Kostochka [KiKo08]. The thread: a comment of
-13 March 2026 pointing to the short proof [KiKo08], marked by the site as
-addressed, and a comment of 15 April 2026 (the account Woett) announcing that,
-after many hundreds of hours, the AI system Aristotle had formalized the
-Kierstead--Kostochka proof, with a link to type-check the file online (the
-external file described under Formalization). The proof-claim tab is empty. The
-community database record lists proved (Lean) as of its last update of 14 April
-2026.
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
+above; PROVED (LEAN); last edited 15 April 2026. The commentary gives the
+equivalent equitable-coloring form (a graph on $rm$ vertices whose maximum
+degree is at most $m-1$ admits a proper $m$-coloring with classes of exactly $r$
+vertices), derives the case $r=2$ from Dirac's theorem, credits $r=3$ to Corrádi
+and Hajnal [CoHa63] and every $r\ge4$ to Hajnal and Szemerédi [HaSz70], and
+names the shorter proof of Kierstead and Kostochka [KiKo08]. The thread: a
+comment of 13 March 2026 pointing to the short proof [KiKo08], marked by
+erdosproblems.com as addressed, and a comment of 15 April 2026 (the account
+Woett) announcing that, after many hundreds of hours, the AI system Aristotle
+had formalized the Kierstead--Kostochka proof, with a link to type-check the
+file online (the external file described under Formalization). The proof-claim
+tab is empty. The community database record lists proved (Lean) as of its last
+update of 14 April 2026.
 
 **Status support.**
 [[../library/extremal_graph_theory/kierstead_2010_fast_algorithm_equitable_coloring/theorem_1|Theorem 1]]
 of [KKMS10] (p. 217): "Every graph
 with maximum degree at most $r$ has an equitable $(r+1)$-coloring",
 introduced by "In 1970 Hajnal and Szemerédi [3] proved the following
-theorem, which had been conjectured by Erdős." The transfer to the site's
-statement (authored, not taken from a source): let $G$
-have $rm$ vertices and minimum degree at least $m(r-1)$; if $m=1$, $G$ is
-$K_r$ itself; for $m\ge2$ its complement has maximum degree at most
+theorem, which had been conjectured by Erdős." The transfer to the
+erdosproblems.com statement (authored, not taken from a source): let $G$ have
+$rm$ vertices and minimum degree at least $m(r-1)$; if $m=1$, $G$ is $K_r$
+itself; for $m\ge2$ its complement has maximum degree at most
 $(rm-1)-m(r-1)=m-1$, so Theorem 1 with $m-1$ in place of $r$ gives an
 equitable $m$-coloring of the complement; its $m$ classes
 partition the $rm$ vertices and differ in size by at most one, so each has
@@ -184,14 +186,14 @@ exactly $r$ vertices; each class is independent in the complement, that is,
 a clique of $G$; and the classes are disjoint. So $G$ contains $m$
 vertex-disjoint copies of $K_r$. Conversely, $m$ disjoint copies of $K_r$
 are the classes of an equitable $m$-coloring of the complement, so the two
-forms are equivalent, as the site says. Acceptance evidence: [KKMS10] is a
-refereed Combinatorica paper that states the theorem and proves it
-(Section 2, pp. 218--220, by counting arguments in place of the earlier
-discharging); the original proof [HaSz70] and the short proof [KiKo08] are
-attested by it and by the site, not by their own texts; the site's label
-and the community database agree. Read depth: claims checked for Theorem 1;
-the 2010 proof read for structure only; no proof step checked; the transfer
-is elementary and carries no independent review.
+forms are equivalent, as erdosproblems.com says. Acceptance evidence: [KKMS10]
+is a refereed Combinatorica paper that states the theorem and proves it (Section
+2, pp. 218--220, by counting arguments in place of the earlier discharging); the
+original proof [HaSz70] and the short proof [KiKo08] are attested by it and by
+erdosproblems.com, not by their own texts; the erdosproblems.com label and the
+community database agree. Read depth: claims checked for Theorem 1; the 2010
+proof read for structure only; no proof step checked; the transfer is elementary
+and carries no independent review.
 
 **The origin.** [Er67b], printed p. 56 = copy p. 3
 ([[../library/extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/conjecture_p56|conjecture_p56]]):
@@ -200,10 +202,10 @@ of degree at least $m(r-1)$, contains $mK_r$. Its validity when $r=2$
 follows from Dirac's result [3] on hamiltonian cycles; Corrádi and Hajnal
 [2] proved it when $r=3$." The copy's footnote says its unreferenced results
 are unpublished, and the paper does not name the conjecture's author, whom
-[KKMS10] and the site identify as Erdős. The paper is the site's key
-by the site's reference text; the site's page cites it without a page number.
-The Rome 1966 survey with a similar title is a different paper and does not
-state the conjecture.
+[KKMS10] and erdosproblems.com identify as Erdős. The paper is the
+erdosproblems.com key by the erdosproblems.com reference text; the
+erdosproblems.com page cites it without a page number. The Rome 1966 survey with
+a similar title is a different paper and does not state the conjecture.
 
 **Formalization leads.** The thread's post of 15 April 2026 and the
 external file's header name the repository `Woett/Lean-files` as the file's
@@ -213,11 +215,11 @@ problem was found.
 **Search scope.** None of the routes below found a dispute
 of the theorem or a change of status.
 
-- The site: problem page, discussion thread and proof-claim tab; the site's
-  reference text for [Er67b]; the formal-conjectures file, read 2026-09-19;
-  the external Lean file at the repository's head of 15 September 2026 and
-  the repository's notes file; the community database entry, read
-  2026-09-19.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  erdosproblems.com reference text for [Er67b]; the formal-conjectures file,
+  read 2026-09-19; the external Lean file at the repository's head of 15
+  September 2026 and the repository's notes file; the community database entry,
+  read 2026-09-19.
 - Crossref: the records of doi:10.1007/s00493-010-2483-5 ([KKMS10]) and
   doi:10.1017/S0963548307008619 ([KiKo08]).
 - Semantic Scholar: the citing papers of [KKMS10] (92 records, by title and
@@ -232,7 +234,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X; no arXiv search (the
 theorem and its proofs are journal and proceedings papers of 1970, 2008 and
 2010). Not held: [HaSz70], [KiKo08], [CoHa63].
 
-**Remaining gaps.** (1) The site's two proof sources are not held; the
+**Remaining gaps.** (1) erdosproblems.com's two proof sources are not held; the
 theorem rests on [KKMS10]'s statement and reproof; either paper's theorem,
 once paged, would extend this account. (2) Proof coverage: Theorem 1 at
 claims checked; its 2010 proof read for structure only; nothing
@@ -246,7 +248,8 @@ page range.
 - [[../library/extremal_graph_theory/kierstead_2010_fast_algorithm_equitable_coloring/theorem_1|Kierstead--Kostochka--Mydlarz--Szemerédi 2010, Theorem 1]]
   (refereed): the equitable-coloring form with the paper's own proof;
   the status-defining text, transferred to the clique form above.
-- [HaSz70] (1970, not held): the original proof, per [KKMS10] and the site
+- [HaSz70] (1970, not held): the original proof, per [KKMS10] and
+  erdosproblems.com
   ([[problems/extremal_graph_theory/E0914/claims/1970_01_01_hajnal_szemeredi|claim page]]);
   [KiKo08] (2008, refereed, not held): the short proof that the external
   Lean file follows

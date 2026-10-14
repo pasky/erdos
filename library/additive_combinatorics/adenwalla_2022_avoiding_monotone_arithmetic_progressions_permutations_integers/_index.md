@@ -34,20 +34,20 @@ bounds to beta_{Z^+}(4) = 1, alpha_Z(4) = 1 with beta_Z(4) >= 2/3, and beta_Z(3)
 >= 3/10. Theorem 12 (p. 13) characterizes exactly the permutations of [1,2^k]
 that avoid 3-APs mod 2^k, and the paper notes that no technique is known for
 bounding any of these densities strictly below 1. For problem 195, Theorem 1 is
-the bound k <= 4 that the site credits to [Ad22], and Theorem 2 gives the same
-bound for doubly infinite arrangements; the paper's Question 1 (p. 15) asks
-whether the integers or the positive integers can be permuted to avoid monotone
-4-term APs. For problem 196, on permutations of the positive integers, Theorem 6
-(beta_{Z^+}(4) = 1) is the paper's step toward that question, which the paper
-leaves open (only length 5 is achieved, for the integers). For problem 197 the
-length-3 and restricted-difference results place the Erdos-Graham partition
-question in the same active 2018-2023 line of work while leaving it open; they
-include Geneson's result, restated as Theorem 5 (p. 8): "For each integer $k>1$,
-every permutation of the positive integers contains an arithmetic progression of
-length 3 with common difference not divisible by $k$." The paper restates the
-partition question as its Question 6 (p. 16) and partitions the integers, not
-the positive integers, into three sets each of which can be permuted to avoid
-3-APs (p. 16).
+the bound k <= 4 that erdosproblems.com credits to [Ad22], and Theorem 2 gives
+the same bound for doubly infinite arrangements; the paper's Question 1 (p. 15)
+asks whether the integers or the positive integers can be permuted to avoid
+monotone 4-term APs. For problem 196, on permutations of the positive integers,
+Theorem 6 (beta_{Z^+}(4) = 1) is the paper's step toward that question, which
+the paper leaves open (only length 5 is achieved, for the integers). For problem
+197 the length-3 and restricted-difference results place the Erdos-Graham
+partition question in the same active 2018-2023 line of work while leaving it
+open; they include Geneson's result, restated as Theorem 5 (p. 8): "For each
+integer $k>1$, every permutation of the positive integers contains an arithmetic
+progression of length 3 with common difference not divisible by $k$." The paper
+restates the partition question as its Question 6 (p. 16) and partitions the
+integers, not the positive integers, into three sets each of which can be
+permuted to avoid 3-APs (p. 16).
 
 Source: <https://arxiv.org/abs/2211.04451v7>. The arXiv record
 (https://arxiv.org/abs/2211.04451, read 2026-10-02) names the Creative Commons

@@ -42,8 +42,8 @@ independently
 the same theorem is the case $k=3$ of Problem 570, recorded on
 [[problems/ramsey_theory/E0570/claims/1993_07_01_sidorenko|its claim page there]],
 whose account of the statement's sources this page follows. A comment of 27
-March 2026 in the site's discussion thread credits the case $k=1$ to this
-paper and to Goddard and Kleitman.
+March 2026 in the erdosproblems.com discussion thread credits the case $k=1$ to
+this paper and to Goddard and Kleitman.
 
 **Covers.** The case $k=1$, $c_1=3$. Nothing about $k\ge2$.
 
@@ -53,7 +53,7 @@ and the one-edge endpoint is elementary.
 **Acceptance.** Refereed: A. F. Sidorenko, The Ramsey number of an $n$-edge
 graph versus triangle is at most $2n+1$, J. Combin. Theory Ser. B 58 (1993), no.
 2, 185--196, in the July 1993 issue, the month this page is dated by. The day is
-a placeholder. The site labeled the problem OPEN, so its pages are not
+a placeholder. Bloom's catalog labeled the problem OPEN, so its pages are not
 acceptance.
 
 **Read depth.** The paper is not held. The statement, with its hypotheses

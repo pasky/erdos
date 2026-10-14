@@ -51,5 +51,5 @@ second question.
 **Acceptance.** Refereed: James E. Baumgartner, Generic graph construction,
 J. Symbolic Logic 49 (1984), no. 1, 234--240, DOI 10.2307/2274106. The issue
 is dated March 1984 and carries no day, so this page is dated the first of
-that month. The site labeled the problem OPEN, so no curator acceptance is
-listed. Its proof is not reviewed in this corpus.
+that month. Bloom's catalog labeled the problem OPEN, so no curator acceptance
+is listed. Its proof is not reviewed in this corpus.

@@ -48,8 +48,8 @@ $F_5=F_4-ab$ has $195j+11$ edges, and $F_6$ has $6+2(k(78j+2)-1)
 =2k(78j+2)+4$ points and $12+2k(195j+11)$ edges, as printed; the excess
 over $\frac52$ times the number of points is $12k+2$. The note prints no
 constant $c$; with $j=2$, $F_6$ has $n=316k+4$ points and
-$\frac52n+\frac3{79}(n-4)+2$ edges, so the site's remark that "one can take
-$c=\frac3{80}$" in $k_5(n)>(\frac52+c)n-O(1)$ is consistent with this
+$\frac52n+\frac3{79}(n-4)+2$ edges, so the erdosproblems.com remark that "one
+can take $c=\frac3{80}$" in $k_5(n)>(\frac52+c)n-O(1)$ is consistent with this
 sequence (a note made here, not a review verdict).
 
 **Source.** J. L. Leonard, On a conjecture of Bollobás and Erdős, Periodica
@@ -90,7 +90,7 @@ Outside it: Menger's theorem, cited without a reference.
   $m_c=k$). This is the statement behind the report in
   [[extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/remark_p244|Leonard 1972, p. 242]]
   that "for any constant $c$ there is a value of $n$ with $k_5(n)>5n/2+c$".
-  The site credits the note with $k_5(n)>(\frac52+c)n-O(1)$ for some
+  erdosproblems.com credits the note with $k_5(n)>(\frac52+c)n-O(1)$ for some
   $c>0$; the printed statement gives only an unbounded excess and the note
   prints no $c$, but the printed counts of $F_6$ with $j$ fixed give an
   excess $12k+2$ linear in the number of points ($\frac3{79}$ at $j=2$, the

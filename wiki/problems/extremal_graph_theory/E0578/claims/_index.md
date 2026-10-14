@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 578, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0578/claims
@@ -13,7 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/extremal_graph_theory/E0578/claims/2000_03_01_riordan|2000_03_01_riordan]]: Riordan's theorem in Combinatorics, Probability and Computing shows that for
 fixed $p>1/4$, $G(2^d,p)$ almost surely contains a spanning $d$-cube, and
-$p=1/2$ is the statement. It is refereed and credited by the site, but its
-text is not held here.
+$p=1/2$ is the statement. It is refereed and credited by erdosproblems.com,
+but its text is not held here.
 
 ***

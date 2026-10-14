@@ -5,7 +5,7 @@ desc: |
   Erdős, Hickerson and Pach show that for every $n$ and every distance strictly
   between 0 and 2, $n$ points on the unit sphere can have a constant times
   $n\log^* n$ pairs at that distance, so the answer is yes. The paper is
-  refereed in the Monthly and credited by the site's curator.
+  refereed in the Monthly and credited by the erdosproblems.com curator.
 authors:
 - Paul Erdős
 - Dean Hickerson
@@ -57,10 +57,10 @@ distinct distances, which is not part of this problem. The source card is
 **Acceptance.** The paper is refereed: it appeared in the American Mathematical
 Monthly, volume 96, issue 7 (August–September 1989), 569–575, DOI
 10.1080/00029890.1989.11972243. It is linked above together with the copy on the
-Rényi Institute's Erdős page. The site's curator, Thomas Bloom, credits Erdős,
-Hickerson and Pach with the solution (problem page accessed 2026-10-07) and
-labeled the problem PROVED. This is the `reviewed` evidence. The proofs are
-unreviewed, and acceptance rests on the refereed publication and the curator's
-credit. A stronger lower bound for every sphere of diameter above $1$ is the
-subject of
+Rényi Institute's Erdős page. The erdosproblems.com curator, Thomas Bloom,
+credits Erdős, Hickerson and Pach with the solution (problem page accessed
+2026-10-07) and labeled the problem PROVED. This is the `reviewed` evidence. The
+proofs are unreviewed, and acceptance rests on the refereed publication and the
+curator's credit. A stronger lower bound for every sphere of diameter above $1$
+is the subject of
 [[problems/distance_problems/E0605/claims/2004_01_01_swanepoel_valtr|Swanepoel and Valtr's page]].

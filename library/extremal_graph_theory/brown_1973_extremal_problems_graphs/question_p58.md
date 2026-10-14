@@ -42,8 +42,8 @@ A question; the paper gives no answer.
 ## Bears on
 
 - [[../wiki/problems/set_systems/E0716/_index|Problem 716]]: the problem's
-  question as worded, with the site's $\mathrm{ex}_3(n,\mathcal F)$ equal to
-  $f^{(3)}(n;6,3)-1$; the answer yes is credited on the problem's
+  question as worded, with erdosproblems.com's $\mathrm{ex}_3(n,\mathcal F)$
+  equal to $f^{(3)}(n;6,3)-1$; the answer yes is credited on the problem's
   [[../wiki/problems/set_systems/E0716/claims/1978_01_01_ruzsa_szemeredi|claim page]]
   to Ruzsa and Szemerédi, not to this paper.
 - [[../wiki/problems/set_systems/E1178/_index|Problem 1178]]: for $r=e=3$ the

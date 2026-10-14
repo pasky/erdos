@@ -59,16 +59,16 @@ every lacunary sequence, with a weaker explicit dependence on $\epsilon$
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-PROVED and, in the commentary (read 2026-10-07), credits the paper with the 1987
-question and with the reduction that answers it. Refereed: the paper appeared in
-Combinatorica 21 (2001), no. 2, 211--219, received 7 February 2000. The Crossref
-record was read on 2026-10-07. It dates the issue 1 April 2001, the date the
-page name carries. The paper's footnote 1 (p. 211) says that an account of the
-result had appeared in chapter 5 of B. Weiss, Single orbit dynamics (CBMS
-Regional Conference Series in Mathematics 95, 2000). That is an earlier write-up
-by another author. The page is named by the credited source. The text followed
-is the publisher's version at the DOI linked above.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem PROVED and, in the commentary (read 2026-10-07), credits the paper
+with the 1987 question and with the reduction that answers it. Refereed: the
+paper appeared in Combinatorica 21 (2001), no. 2, 211--219, received 7
+February 2000. The Crossref record was read on 2026-10-07. It dates the issue 1
+April 2001, the date the page name carries. The paper's footnote 1 (p. 211) says
+that an account of the result had appeared in chapter 5 of B. Weiss, Single
+orbit dynamics (CBMS Regional Conference Series in Mathematics 95, 2000). That
+is an earlier write-up by another author. The page is named by the credited
+source. The text followed is the publisher's version at the DOI linked above.
 
 **Read depth.** The definitions, the statement and both short proofs were
 checked in full, given Theorem 1.2; nothing is independently reviewed in

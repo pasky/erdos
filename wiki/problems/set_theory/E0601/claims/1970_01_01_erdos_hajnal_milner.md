@@ -50,8 +50,8 @@ larger limit ordinal.
 polarized partition relations, in Combinatorial theory and its
 applications, I (Proc. Colloq., Balatonfüred, 1969), Colloquia Mathematica
 Societatis János Bolyai 4, North-Holland, Amsterdam, 1970, pp. 327–363;
-Zbl 0215.329; the site's key [EHM70]. The paper link is the open scan in
-the Rényi Institute's Erdős archive; the
+Zbl 0215.329; the erdosproblems.com key [EHM70]. The paper link is the open scan
+in the Rényi Institute's Erdős archive; the
 [[../library/set_theory/erdos_1970_set_mappings_polarized_partition_relations/_index|source card]]
 records the paper. The volume carries only the year, so this page is dated
 the first of January 1970. Nothing on this page is independently reviewed
@@ -66,6 +66,6 @@ and Larson
 ([[problems/set_theory/E0601/claims/1990_04_01_baumgartner_larson|1990]]). Their
 zbMATH reviews repeat it. This is a documented acceptance by named experts
 independent of the authors. Not `refereed`: the colloquium proceedings carry no
-evidence that their papers were refereed. The site's commentary credits the
-authors with the result. But the site labeled the problem OPEN, so the curator's
-credit is not acceptance of a claim.
+evidence that their papers were refereed. The erdosproblems.com commentary
+credits the authors with the result. But Bloom's catalog labeled the problem
+OPEN, so the curator's credit is not acceptance of a claim.

@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 202, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/covering_systems/E0202/claims
@@ -32,8 +32,8 @@ $L(N)=\exp(\sqrt{\log N\log\log N})$. It is accepted on the refereed paper.
 
 [[problems/covering_systems/E0202/claims/2026_04_23_ho|2026_04_23_ho]]: Boon Suan Ho's 2026 manuscript, written with GPT-5.4 Pro, proves the sharp
 asymptotic for the largest number of disjoint residue classes with distinct
-moduli at most $N$. It is accepted on the site's credit after a Lean
-formalization.
+moduli at most $N$. It is accepted on the erdosproblems.com credit after a
+Lean formalization.
 
 [[problems/covering_systems/E0202/claims/2026_04_30_chojecki|2026_04_30_chojecki]]: Przemek Chojecki posted an eight-page unsigned draft, dated 30 April 2026,
 hosted on ULAM's site and credited to GPT-5.5 Pro. It claims the sharp upper

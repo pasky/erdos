@@ -5,7 +5,7 @@ desc: |
   Alon and Freiman find an $m$ for which the largest subset of $\{1,\ldots,n\}$
   with no subset summing to $m$ has $(\frac12+o(1))n/\log n$ elements, matching
   the Erdős-Graham lower bound. The paper appeared in Combinatorica (1988) and
-  the site credits it.
+  erdosproblems.com credits it.
 authors:
 - N. Alon
 - G. Freiman
@@ -47,10 +47,10 @@ the least common multiple of the integers below $s$, with $s$ largest such
 that this $m$ is at most $n^2/(20\log^2n)$, the prime number theorem gives
 $s=(2+o(1))\log n$ and hence $f(n,m)=(\frac12+o(1))\frac n{\log n}$, so
 $f(n)\le(\frac12+o(1))\frac n{\log n}$. The matching lower bound is the
-observation of Erdős and Graham that the paper restates and the site's
-commentary reproduces: one may assume $m<\binom{n+1}2$, and for the least
-prime $p$ not dividing $m$, which is below $(2+o(1))\log n$, the multiples
-of $p$ in $\{1,\ldots,n\}$ have no subset summing to $m$, so
+observation of Erdős and Graham that the paper restates and the
+erdosproblems.com commentary reproduces: one may assume $m<\binom{n+1}2$, and
+for the least prime $p$ not dividing $m$, which is below $(2+o(1))\log n$, the
+multiples of $p$ in $\{1,\ldots,n\}$ have no subset summing to $m$, so
 $f(n,m)\ge(\frac12+o(1))\frac n{\log n}$ for every $m$. The paper says the
 two bounds together verify the conjecture of Erdős and Graham. Theorem 1.2
 rests on Proposition 1.3, an analytic statement that a large subset of
@@ -61,19 +61,19 @@ Library home:
 
 **Acceptance.** Refereed: Combinatorica, volume 8, issue 4, pages 297--306,
 issue dated December 1988 (Crossref record of DOI 10.1007/BF02189086, read
-2026-10-07). The paper was received on 1 July 1987. Reviewed: the site's
-curator, Thomas Bloom, who is independent of the authors, labeled the problem
-PROVED. The commentary credits the upper bound to this paper, with the choice of
-$m$ above, and the lower bound to Erdős and Graham, and it thanks Alon. This
-describes the commentary as accessed 2026-09-05, when the discussion thread and
-the proof-claim tab were empty and no formalized statement existed. Read depth:
-the page is based on the abstract and Section 1 (Theorem 1.2, its consequence
-and Proposition 1.3). Sections 2 to 4, which prove them, were not read. Nothing
-is independently reviewed by this project.
+2026-10-07). The paper was received on 1 July 1987. Reviewed: the
+erdosproblems.com curator, Thomas Bloom, who is independent of the authors,
+labeled the problem PROVED. The commentary credits the upper bound to this
+paper, with the choice of $m$ above, and the lower bound to Erdős and Graham,
+and it thanks Alon. This describes the commentary as accessed 2026-09-05, when
+the discussion thread and the proof-claim tab were empty and no formalized
+statement existed. Read depth: the page is based on the abstract and Section 1
+(Theorem 1.2, its consequence and Proposition 1.3). Sections 2 to 4, which prove
+them, were not read. Nothing is independently reviewed by this project.
 
 **Date.** The page is dated by the journal issue, December 1988; the day is
 not recorded, so the page name uses the first of that month.
 
 **Depends on.** No page of this wiki. The lower bound is the elementary
-observation above, restated in the paper; the site cites it to [Er89],
+observation above, restated in the paper; erdosproblems.com cites it to [Er89],
 which is not held here.

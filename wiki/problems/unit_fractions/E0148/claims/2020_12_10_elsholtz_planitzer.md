@@ -61,7 +61,7 @@ bound, $5/3$ (Browning and Elsholtz), $28/17$ (2020) and $8/5$ (this paper),
 and with $c_0=E$ these give $5/24$, $7/34$ and $1/5$ as the coefficient of
 $2^k$; the 2020 paper's own Corollary 3(2) also prints $u_0=1$, which would
 likewise make its bound weaker than the one it improves. Read with $u_1=1$,
-as the site's commentary reads it, Corollary 3(2) gives
+as the erdosproblems.com commentary reads it, Corollary 3(2) gives
 $F(k)<E^{(1/5+\varepsilon)2^k}$. That reading is a deduction of this page;
 no source it cites corrects the printed normalization.
 
@@ -73,6 +73,6 @@ no asymptotic formula and no estimate up to constant factors.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: the paper is published in the Bulletin of the
-London Mathematical Society. The site's commentary credits the paper with the
-upper bound, but the site labeled the problem OPEN, so that commentary is not
-listed as review.
+London Mathematical Society. The erdosproblems.com commentary credits the paper
+with the upper bound, but Bloom's catalog labeled the problem OPEN, so that
+commentary is not listed as review.

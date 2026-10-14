@@ -31,27 +31,28 @@ $$
 Is it true that $(a_n,L_n)=1$ and $(a_n,L_n)>1$ both occur for infinitely many
 $n$?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-12 January 2026). The fraction $a_n/L_n$ need not be in
-lowest terms: with $H_n=\sum_{k\le n}1/k=c_n/d_n$ reduced, $d_n$ divides
-$L_n$ and $(a_n,L_n)=L_n/d_n$, so the first question asks whether the
-reduced denominator of $H_n$ equals $\mathrm{lcm}(1,\ldots,n)$ for
-infinitely many $n$ and the second whether it falls short infinitely often.
-The two are independent questions; the second is answered below, and the
-status attaches to the pair through the first. The site's example, the
-integers whose leading digit in base $3$ is $2$, needs $n\ge6$: at $n=2$ the
-prime $3$ exceeds $n$ and $(a_2,L_2)=(3,2)=1$.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 12 January 2026). The fraction $a_n/L_n$ need not be in lowest terms:
+with $H_n=\sum_{k\le n}1/k=c_n/d_n$ reduced, $d_n$ divides $L_n$ and
+$(a_n,L_n)=L_n/d_n$, so the first question asks whether the reduced denominator
+of $H_n$ equals $\mathrm{lcm}(1,\ldots,n)$ for infinitely many $n$ and the
+second whether it falls short infinitely often. The two are independent
+questions; the second is answered below, and the status attaches to the pair
+through the first. The erdosproblems.com example, the integers whose leading
+digit in base $3$ is $2$, needs $n\ge6$: at $n=2$ the prime $3$ exceeds $n$ and
+$(a_2,L_2)=(3,2)=1$.
 
-**Status.** Open: the site's label was OPEN (page last edited 12 January 2026),
-and the site marked the problem as not resolvable by a finite computation. The
-standing derived from the claim pages is open, claim none. No claim settles or
-pends on the first question.
+**Status.** Open: the erdosproblems.com label was OPEN (page last edited 12
+January 2026), and Bloom's catalog marked the problem as not resolvable by a
+finite computation. The standing derived from the claim pages is open, claim
+none. No claim settles or pends on the first question.
 
 Three of the four claim pages concern the second question.
 [[problems/unit_fractions/E0291/claims/2024_11_07_steinerberger|Steinerberger's base-3 observation]]
 is a pending partial claim answering the second question in the affirmative. The
-site's commentary credits it to Steinerberger, but the site labeled the whole
-problem OPEN and declares no parts, so the credit is context and not acceptance.
+erdosproblems.com commentary credits it to Steinerberger, but Bloom's catalog
+labeled the whole problem OPEN and declares no parts, so the credit is context
+and not acceptance.
 [[problems/unit_fractions/E0291/claims/2016_07_11_shiu|Shiu's criterion and infinitude theorem]]
 is a pending partial claim giving the same answer with the exact criterion. The
 commentary credits the observation, not this paper.
@@ -69,13 +70,13 @@ conjecture. Wu and Yan's theorem is conditional and concerns the other half.
 This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/291](https://www.erdosproblems.com/291),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can resolve the problem; source keys [ErGr80, p. 34],
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can resolve the problem; source keys [ErGr80, p. 34],
 [Sh16], [WuYa22]; last edited 12 January 2026; OEIS A110566 linked; the
 statement recorded as formalized), its three-comment discussion thread and
-its empty proof-claim tab. The site thanks Stefan Steinerberger and Wouter
-van Doorn. Cite as: T. F. Bloom,
-Erdős Problem #291, https://www.erdosproblems.com/291, accessed 2026-09-18.
+its empty proof-claim tab. erdosproblems.com thanks Stefan Steinerberger and
+Wouter van Doorn. Cite as: T. F. Bloom, Erdős Problem #291,
+https://www.erdosproblems.com/291, accessed 2026-09-18.
 
 **References.**
 
@@ -125,16 +126,16 @@ page; no build of it is recorded.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-OPEN, last edited 12 January 2026; source [ErGr80, p. 34]. The commentary
-credits Steinerberger with the observation that the second question has an easy
-affirmative answer, the base-$3$ instance being that $3$ divides $(a_n,L_n)$
-whenever the leading digit of $n$ in base $3$ is $2$; it states the general
-criterion, that a prime $p\le n$ divides $(a_n,L_n)$ exactly when $p$ divides
-the numerator of $H_k$ for $k$ the leading digit of $n$ in base $p$ (the digit
-$p-1$ always qualifying, by Wolstenholme's theorem), with the one-line reason
-that $a_n$ is congruent to that numerator's sum modulo $p$; it draws from this,
-citing Shiu, the heuristic that about $x/\log x$ integers $n\le x$ have
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN, last edited 12 January 2026; source [ErGr80, p. 34]. The
+commentary credits Steinerberger with the observation that the second question
+has an easy affirmative answer, the base-$3$ instance being that $3$ divides
+$(a_n,L_n)$ whenever the leading digit of $n$ in base $3$ is $2$; it states the
+general criterion, that a prime $p\le n$ divides $(a_n,L_n)$ exactly when $p$
+divides the numerator of $H_k$ for $k$ the leading digit of $n$ in base $p$ (the
+digit $p-1$ always qualifying, by Wolstenholme's theorem), with the one-line
+reason that $a_n$ is congruent to that numerator's sum modulo $p$; it draws from
+this, citing Shiu, the heuristic that about $x/\log x$ integers $n\le x$ have
 $(a_n,L_n)=1$, so that such $n$ should be infinite in number but of density
 zero, and notes that the heuristic resists proof; and it reports Wu and Yan's
 theorem that, if the numbers $1/\log p$ are linearly independent over $\mathbb
@@ -147,8 +148,8 @@ summarized under Formalization.
 of Problem 290:
 "If we set $\sum_{k=1}^n1/k=\frac{a}{L_n}$ where
 $L_n=\mathrm{lcm}\{1,\ldots,n\}$ then is it true that infinitely often we
-have $(a,L_n)=1$ and infinitely often we have $(a,L_n)>1$?" The site's
-statement is this question with $a_n$ for $a$.
+have $(a,L_n)=1$ and infinitely often we have $(a,L_n)>1$?" The
+erdosproblems.com statement is this question with $a_n$ for $a$.
 
 **The second question: yes.** Write $D_n=\mathrm{lcm}(1,\ldots,n)=d_nq_n$
 with $H_n=c_n/d_n$ reduced, so that $q_n=(a_n,L_n)$. Shiu's
@@ -159,10 +160,10 @@ if the leading digit $m$ of $n$ in base $p$ satisfies $p\mid c_m$, that is,
 $mp^a\le n<(m+1)p^a$ for some $a\ge1$ and some $m$ with $p$ dividing the
 numerator of $H_m$. Since $p\mid c_{p-1}$ for every odd prime (pair $1/j$
 with $1/(p-j)$), the leading digit $p-1$ always qualifies; with $p=3$ this
-is the site's observation, $3\mid(a_n,L_n)$ for $2\cdot3^a\le n<3^{a+1}$,
-$a\ge1$, a set of positive lower density. So $(a_n,L_n)>1$ holds for
-infinitely many $n$, and the formal-conjectures file marks this part
-solved. Shiu's
+is erdosproblems.com's observation, $3\mid(a_n,L_n)$ for
+$2\cdot3^a\le n<3^{a+1}$, $a\ge1$, a set of positive lower density. So
+$(a_n,L_n)>1$ holds for infinitely many $n$, and the formal-conjectures file
+marks this part solved. Shiu's
 [[../library/unit_fractions/shiu_2016_denominators_harmonic_numbers_revised/theorem_1|Theorem 1]](iii),
 $d_n<d_{n-1}$ for infinitely many $n$, gives a second route, since
 $d_n<d_{n-1}\le D_{n-1}\le D_n$ forces $q_n>1$. Checked by exact
@@ -186,19 +187,19 @@ display (3) in the proof of Theorem 3: $Q_p=\{n:p\mid q_n\}$ has
 $Q_p(x)\sim|E_p|x/p$ along $x=p^b$, the sieve picture in which each prime
 removes a proportion about $|E_p|/p$ of the integers, $E_p=\{1<m<p:p\mid c_m\}$.
 Theorem 3 itself gives $Q_p$ the harmonic density
-$(\log p)^{-1}\sum_{m\in E_p}\log(1+1/m)$. The site's heuristic is the same in
-the form of van Doorn's comment (30 November 2025): treating the condition that
-$p$ does not divide $c_k$, for $k$ the leading digit of $n$ in base $p$, as an
-event of probability about $1-1/p$ for each $p\le n$ gives, by Mertens' theorem,
-a proportion about $c/\log n$ of good $n$. Data: Shiu (Section 8) lists 2641
-values of $n\le10000$ with $d_n=D_n$, in 26 runs of consecutive integers,
-recomputed by exact rational arithmetic with the same count and the same 26
-runs, except that the last run, printed as $9156_{155}$ (that is,
-$9156\le n<9311$), has 156 members ($9156\le n\le9311$), so the printed run
-lengths sum to 2640. The obstacle van Doorn names is the rational independence
-of the numbers $\log p_1/\log p_i$ needed for Kronecker-type alignment arguments
-(their MathOverflow question 76372 of 2011 on this independence had no answer on
-2026-09-18); they also quote the bound
+$(\log p)^{-1}\sum_{m\in E_p}\log(1+1/m)$. erdosproblems.com's heuristic is the
+same in the form of van Doorn's comment (30 November 2025): treating the
+condition that $p$ does not divide $c_k$, for $k$ the leading digit of $n$ in
+base $p$, as an event of probability about $1-1/p$ for each $p\le n$ gives, by
+Mertens' theorem, a proportion about $c/\log n$ of good $n$. Data: Shiu
+(Section 8) lists 2641 values of $n\le10000$ with $d_n=D_n$, in 26 runs of
+consecutive integers, recomputed by exact rational arithmetic with the same
+count and the same 26 runs, except that the last run, printed as $9156_{155}$
+(that is, $9156\le n<9311$), has 156 members ($9156\le n\le9311$), so the
+printed run lengths sum to 2640. The obstacle van Doorn names is the rational
+independence of the numbers $\log p_1/\log p_i$ needed for Kronecker-type
+alignment arguments (their MathOverflow question 76372 of 2011 on this
+independence had no answer on 2026-09-18); they also quote the bound
 $|E_p|\le\frac{3^{2/3}}{2}p^{2/3}\approx1.04p^{2/3}$ for the number of $k<p$
 with $p\mid c_k$, attributed to van Doorn and, independently, to Lemma 2.4 of Wu
 and Chen (J. Number Theory 175 (2017); not held in the library, so the bound is
@@ -221,13 +222,12 @@ infinitude of the complement, but it makes the heuristic that the good set
 has density zero a consequence of the independence conjecture along a
 subsequence. Van Doorn's comment writes that under Schanuel the upper
 density of the set of $n$ with coprime $a_n$ and $L_n$ is $1$; the paper
-and the site's commentary concern the set with $\gcd>1$, so the comment's
-sentence appears to name the wrong half. Bloom's comment of
-28 December 2025 suggests that any linear dependencies among the
-$1/\log p$ could be built into the argument, as in Bloom's recent work with
-Croot (arXiv:2509.02835, cited there), possibly giving an
-unconditional proof of the upper density statement; it makes no proof
-claim.
+and the erdosproblems.com commentary concern the set with $\gcd>1$, so the
+comment's sentence appears to name the wrong half. Bloom's comment of 28
+December 2025 suggests that any linear dependencies among the $1/\log p$ could
+be built into the argument, as in Bloom's recent work with Croot
+(arXiv:2509.02835, cited there), possibly giving an unconditional proof of the
+upper density statement; it makes no proof claim.
 
 **Formalization and external Lean artifact.** The formal-conjectures file
 at the pinned commit is summarized under Formalization: statements with
@@ -265,16 +265,16 @@ question, and one accepted conditional claim that gives it only under an
 open independence conjecture and derives nothing. The partial claims are
 [[problems/unit_fractions/E0291/claims/2024_11_07_steinerberger|Steinerberger's base-3 observation]],
 which the curator's commentary credits to its author, dated by the earliest
-archived copy of the site's page that carries it (7 November 2024; the copy
-of 19 June 2024 has the statement and no commentary), and carrying as a
+archived copy of the erdosproblems.com page that carries it (7 November 2024;
+the copy of 19 June 2024 has the statement and no commentary), and carrying as a
 `formalization` link the Lean package submitted on 16 September 2026 to a
 prize program's repository, which proves part (ii) from the observation and
-claims no novelty (no build of it is recorded); the site labeled the problem
-OPEN and declares no parts, so the curator's credit is context and not
+claims no novelty (no build of it is recorded); Bloom's catalog labeled the
+problem OPEN and declares no parts, so the curator's credit is context and not
 acceptance, and the claim is pending;
 [[problems/unit_fractions/E0291/claims/2016_07_11_shiu|Shiu's criterion and infinitude theorem]],
-whose statement the site's commentary records without crediting the paper;
-and
+whose statement the erdosproblems.com commentary records without crediting the
+paper; and
 [[problems/unit_fractions/E0291/claims/2026_02_05_van_doorn|van Doorn's generalization to periodic numerators]],
 from the note of 5 February 2026 with the Lean proof by Aristotle described
 above, which settles the second question for every periodic sequence of

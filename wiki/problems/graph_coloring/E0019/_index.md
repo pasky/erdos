@@ -24,8 +24,8 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** If $G$ is an edge-disjoint union of $n$ copies of $K_n$ then is
 $\chi(G)=n$?
 
-**Status.** Decidable. The site credits Kang, Kelly, Kühn, Methuku and Osthus
-[KKKMO21] with the answer yes for all sufficiently large $n$. This is an
+**Status.** Decidable. erdosproblems.com credits Kang, Kelly, Kühn, Methuku and
+Osthus [KKKMO21] with the answer yes for all sufficiently large $n$. This is an
 accepted partial claim
 ([[problems/graph_coloring/E0019/claims/2021_01_12_kang_kelly_kuhn_methuku_osthus|claim page]])
 that leaves finitely many $n$ unsettled. Hindman [Hi81] settles every $n\le 10$
@@ -78,20 +78,20 @@ https://www.erdosproblems.com/19.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/fb211502aef38b4cd64666cd0379b8912f39358e/FormalConjectures/ErdosProblems/19.lean),
-added on 2026-09-27, after the site access; the statement and the variants it
-lists for $n<10$, Kahn's bound and the large-$n$ result are left unproved
-there, only the case $n\le 3$ is proved, and it names no formal proof. A
-Lean 4 development of the large-$n$ theorem, `Erdos19.lean` in Boris
-Alexeev's lean-proofs collection (added 2026-08-26), is linked from the
+added on 2026-09-27, after erdosproblems.com access; the statement and the
+variants it lists for $n<10$, Kahn's bound and the large-$n$ result are left
+unproved there, only the case $n\le 3$ is proved, and it names no formal proof.
+A Lean 4 development of the large-$n$ theorem, `Erdos19.lean` in Boris Alexeev's
+lean-proofs collection (added 2026-08-26), is linked from the
 [[problems/graph_coloring/E0019/claims/2021_01_12_kang_kelly_kuhn_methuku_osthus|claim
 page]]; this corpus has not built it.
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether an
-edge-disjoint union of $n$ copies of $K_n$ always has chromatic number $n$,
-the conjecture of Erdős, Faber and Lovász from 1972. The standing is open
-with no full claim, and every claim page is an accepted partial claim. The
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether an edge-disjoint union of $n$ copies of $K_n$ always has chromatic
+number $n$, the conjecture of Erdős, Faber and Lovász from 1972. The standing is
+open with no full claim, and every claim page is an accepted partial claim. The
 principal one is
 [[problems/graph_coloring/E0019/claims/2021_01_12_kang_kelly_kuhn_methuku_osthus|Kang,
 Kelly, Kühn, Methuku and Osthus's proof for large $n$]], refereed in Ann. of
@@ -99,12 +99,12 @@ Math. (2) 198 (2023), which proves the answer yes for all $n\ge n_0$ with a
 threshold $n_0$ the paper does not compute
 ([[../library/graph_coloring/kang_2021_proof_erdos_faber_lovasz_conjecture/_index|card]]).
 The problem is thereby reduced to finitely many values of $n$, which the
-site's label decidable records; no published argument bounds $n_0$, so the
-remaining check is finite but of unspecified size. Hindman [Hi81] settles
+erdosproblems.com label decidable records; no published argument bounds $n_0$,
+so the remaining check is finite but of unspecified size. Hindman [Hi81] settles
 every $n\le 10$ through a reduction to small intersection families and a
 computer check, an accepted partial claim
 ([[problems/graph_coloring/E0019/claims/1981_06_01_hindman|claim page]]); the
-site's remark gives the range as $n<10$. Kahn [Ka92] proved
+erdosproblems.com remark gives the range as $n<10$. Kahn [Ka92] proved
 $\chi(G)\le(1+o(1))n$, a bound that settles the question for no
 configuration, so it has no claim page. Special classes of configurations are
 accepted partial claims:
@@ -130,11 +130,11 @@ has held a Lean 4 development of the large-$n$ theorem since 2026-08-26. It is
 linked from the claim page as a formalization of that result. This corpus has
 not built it, so it gives no `formalized` evidence.
 
-Search scope: the site's problem page (last edited 7 March 2026, no proof
-claims filed), the arXiv record of arXiv:2101.04698, the Crossref
-record and the journal's page of the Annals publication, the preprint's card,
-the arXiv records of arXiv:2010.05666 [Al21] and arXiv:1605.03374 [ArVa16],
-the zbMATH records Zbl 1224.05187 [RoSa07] and Zbl 1413.05098 [ArVa16], the
+Search scope: the erdosproblems.com problem page (last edited 7 March 2026, no
+proof claims filed), the arXiv record of arXiv:2101.04698, the Crossref record
+and the journal's page of the Annals publication, the preprint's card, the arXiv
+records of arXiv:2010.05666 [Al21] and arXiv:1605.03374 [ArVa16], the zbMATH
+records Zbl 1224.05187 [RoSa07] and Zbl 1413.05098 [ArVa16], the
 formal-conjectures statement file, and Boris Alexeev's lean-proofs collection.
 <!-- BEGIN problem library links -->
 

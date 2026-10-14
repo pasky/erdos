@@ -4,8 +4,8 @@ title: Lean determination of f_4(n) for every n
 desc: |
   Kenta Kitamura's forum comment of 10 September 2026 announces a Lean 4
   development said to determine $f_4(n)$ for every $n$, extending the preprint's
-  range. It was read as text only, is unreviewed and is not accepted by the
-  site.
+  range. It was read as text only, is unreviewed and is not accepted by
+  erdosproblems.com.
 authors:
 - Kenta Kitamura
 status: claimed
@@ -28,8 +28,8 @@ updated: 2026-10-08T01:29:59Z
 
 ***
 
-A comment of the site's discussion thread (08:26 UTC on 10 September 2026,
-the account KentaKitamura, signed Kenta Kitamura, who is also the owner,
+A comment of the erdosproblems.com discussion thread (08:26 UTC on 10 September
+2026, the account KentaKitamura, signed Kenta Kitamura, who is also the owner,
 KitaKen1, of the repository below) announces a Lean 4 development said to
 determine $f_4(n)$ for every $n$, in the conventions of
 [[problems/extremal_graph_theory/E1011/_index|Problem 1011]]: $f_4(n)=0$
@@ -43,8 +43,8 @@ claim's own arithmetic, unchecked in this corpus. The same account posted
 the proposal and the result as a comment on the formal-conjectures issue
 1069 (08:15 UTC on 10 September 2026, the second `discussion` link).
 
-**Submission note.** Posted to the site's forum by Kenta Kitamura on 10
-September 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Kenta Kitamura on
+10 September 2026:
 
 > I have posted a Formal Conjectures proposal and a Lean proof determining
 > $f_4(n)$ for every natural-number order $n$:
@@ -108,9 +108,9 @@ and the preprint [RWWY24] recorded on the problem page is context for the
 formula, not a premise.
 
 **Standing.** Claimed. The claim is unrefereed and no paper or preprint
-carries it. The site has not accepted it: its page prints the preprint's
-range $n\ge150$ (accessed 2026-10-07) and its proof-claim tab was empty; the
-community database (read 2026-10-06) records the problem as open and
+carries it. erdosproblems.com has not accepted it: its page prints the
+preprint's range $n\ge150$ (accessed 2026-10-07) and its proof-claim tab was
+empty; the community database (read 2026-10-06) records the problem as open and
 unformalized. The formal-conjectures issue 1069 (opened 14 October 2025)
 asks for a statement of the problem, and the repository held none on
 2026-09-18 or on 2026-10-07; the claimant's comment on the issue proposes

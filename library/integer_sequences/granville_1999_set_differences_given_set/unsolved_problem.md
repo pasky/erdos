@@ -36,9 +36,9 @@ $\mathbf b\in A$, are distinct because
 $\mathbf b=\mathbf a-\delta(\mathbf a,\mathbf b)+\delta(\mathbf b,\mathbf a)$,
 so there are $m$ distinct pairs, and one of the two coordinate sets
 $\{\delta(\mathbf a,\mathbf b)\}$, $\{\delta(\mathbf b,\mathbf a)\}$ has at
-least $m^{1/2}$ elements. The paper credits this argument to nobody; the
-site and Erdős's 1973 survey credit the bound $n^{1/2}\ll h(n)$ to Erdős
-and Szemerédi.
+least $m^{1/2}$ elements. The paper credits this argument to nobody;
+erdosproblems.com and Erdős's 1973 survey credit the bound $n^{1/2}\ll h(n)$ to
+Erdős and Szemerédi.
 
 **Source.** A. Granville and F. Roesler, *The set of differences of a given
 set*, Amer. Math. Monthly 106 (1999), no. 4, 338--344; the two statements
@@ -62,7 +62,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0539/_index|Problem 539]]: the problem is the
-  site's question, with $h(m)$ the least $|\delta(A)|$; the lower bound is
-  the site's $n^{1/2}\ll h(n)$, and the vector restatement is the
-  formulation the site's commentary describes and the 2026 constructions
-  use.
+  erdosproblems.com question, with $h(m)$ the least $|\delta(A)|$; the lower
+  bound is erdosproblems.com's $n^{1/2}\ll h(n)$, and the vector restatement is
+  the formulation the erdosproblems.com commentary describes and the 2026
+  constructions use.

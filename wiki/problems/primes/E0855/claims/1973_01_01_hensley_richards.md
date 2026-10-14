@@ -49,7 +49,7 @@ there exist infinitely many $y$, such that $\pi(x+y)>\pi(x)+\pi(y)$", where
 (A) is the problem's inequality for all $x,y\ge2$. Through the Theorem, the
 excess $\pi(x+y)-\pi(x)-\pi(y)$ in $(-A^*)$ can be taken at least
 $(\log2-o(1))x/(\log x)^2$. So under (B) the answer to
-[[problems/primes/E0855/_index|Problem 855]] is no. The site's key
+[[problems/primes/E0855/_index|Problem 855]] is no. The erdosproblems.com key
 [HeRi73], *On the incompatibility of two conjectures concerning primes*,
 Proc. Sympos. Pure Math. 24 (1973), 123--127, announces the same result.
 The paper is compiled at
@@ -63,8 +63,8 @@ prime. It is unproved, so the claim gives no unconditional answer; the
 unconditional content is only that (A) and (B) cannot both hold.
 
 **Acceptance.** The result is refereed in Acta Arithmetica 25. The symposium
-volume is not counted as refereed. The site's commentary on a problem it labeled
-open is not acceptance. The page is dated by the year of the site's key, the
-symposium paper of 1973.
+volume is not counted as refereed. The erdosproblems.com commentary on a problem
+it labeled open is not acceptance. The page is dated by the year of the
+erdosproblems.com key, the symposium paper of 1973.
 
 **Depends on.** Nothing on this wiki; the argument is the paper's own.

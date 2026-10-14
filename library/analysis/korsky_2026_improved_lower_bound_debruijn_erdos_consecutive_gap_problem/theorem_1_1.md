@@ -69,8 +69,8 @@ Only the average-span identity and the splitting dynamics; self-contained.
 
 ## Bears on
 
-- [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: improves the third of the
-  site's three bounds, $\mu_r\ge1+1/r$
+- [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: improves the third of
+  erdosproblems.com's three bounds, $\mu_r\ge1+1/r$
   ([[analysis/debruijn_erdos_1949_sequences_points_circle/inequality_5_7|(5.7)]]),
   to $\mu_r\ge1+r/(r^2-1)$ for each fixed $r\ge2$ over sequences of
   distinct points; $r(\mu_r-1)\ge1+1/(r^2-1)$ stays bounded, so this does

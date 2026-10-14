@@ -57,8 +57,8 @@ None.
   question, for three integers, is the density form of the problem: it asks
   whether $f(N)=o(N)$, where $f(N)$ is the largest size of a subset of
   $\{1,\ldots,N\}$ with no three distinct members having pairwise the same
-  least common multiple. This item is the site's [Guy91] for the problem.
-  The $r$-fold question and Pomerance's variant are not part of the
+  least common multiple. This item is erdosproblems.com's [Guy91] for the
+  problem. The $r$-fold question and Pomerance's variant are not part of the
   problem's statement. The set records no result on any of them.
 - [[../wiki/problems/set_systems/E0857/_index|Problem 857]]: the union
   question is the case $k=3$ of the problem's $m(n,k)$. Replacing each $A_i$

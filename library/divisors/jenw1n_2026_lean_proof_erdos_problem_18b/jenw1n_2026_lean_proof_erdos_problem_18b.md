@@ -11,8 +11,8 @@ updated: 2026-10-05T05:52:35Z
 ***
 
 **Source type.** A web record on the bounty site Conjectures.io holding a Lean
-proof file. No PDF, write-up or arXiv paper exists: the site's contribution
-index for the problem (`conjectures-contribution`,
+proof file. No PDF, write-up or arXiv paper exists: Conjectures.io's
+contribution index for the problem (`conjectures-contribution`,
 `contributions/erdos-18-b/index.md`) lists "Contributions (0)", and no
 `conjectures.io/papers/erdos18*.pdf` appears in the results listing (read
 2026-09-27).
@@ -40,7 +40,7 @@ Verified, Review Approved, Reward Paid; badge "certified", "Certified 17 Sept
 2026, published by conjectures.io". The run: Verified 16 Sept 2026, Certified
 17 Sept 2026, "Attacked as Prove", "Checked in 3 min 40 s", sandbox
 "landrun+seccomp", verifier
-`validator-e6c06c0a725003f5e5cedf792d49935a3cac8146`. The site's one-line
+`validator-e6c06c0a725003f5e5cedf792d49935a3cac8146`. Conjectures.io's one-line
 description: "For every positive epsilon, h(n!) is eventually smaller than
 n^epsilon. This establishes the factorial target in part (b); it is separate
 from the question about general practical integers in part (a)."
@@ -54,9 +54,9 @@ manifest names repository commit
 in the public formal-conjectures repository (the GitHub API answered "No
 commit found" and the raw and commit-page URLs returned 404 on 2026-09-27),
 so the pinned statement was compared through `main`, whose `erdos_18b` text
-is identical to the site's printed type and to the bundle's
-`source-metadata.json` `type_pretty`, and through the site's own "Source type
-hash matches" check.
+is identical to Conjectures.io's printed type and to the bundle's
+`source-metadata.json` `type_pretty`, and through Conjectures.io's own "Source
+type hash matches" check.
 
 **Formal statement.** The problem page prints the proof target
 
@@ -76,7 +76,7 @@ sourced to `FormalConjectures/ErdosProblems/18.lean`. On `main` (fetched
 `practicalH n = Finset.sup (Finset.Icc 1 n) fun m => sInf {k | ∃ D : Finset ℕ, D ⊆ n.divisors ∧ D.card = k ∧ m ∈ subsetSums D}`,
 proves `factorial_isPractical` without `sorry`, and states `erdos_18a`,
 `erdos_18b` and `erdos_18c` as `research open` with `answer(sorry)` markers;
-the site's type is `erdos_18b` with the marker filled as `True`. The
+Conjectures.io's type is `erdos_18b` with the marker filled as `True`. The
 [card](_index.md) gives the reading in words.
 
 **Verification report.** The record's boxes, all "Passed" unless noted:
@@ -137,14 +137,14 @@ compiled `Solution.lean`, so the two names denote one proof.
 **Limits.** A single kernel (Nanoda not run); no fresh replay by the
 reviewers; nothing built here; `subsetSums` (FormalConjecturesUtil) and
 `fcTypeOfName%` (TaskSupport) not read in their defining files; the pinned
-catalog commits unreachable, with fidelity resting on `main` and the site's
-type-hash check.
+catalog commits unreachable, with fidelity resting on `main` and
+Conjectures.io's type-hash check.
 
-**Site status.** erdosproblems.com/18 showed OPEN, last edited 11 April 2026.
-On 2026-09-27 13:28:50 (site clock) the site owner posted the record on the
-proof-claims tab as "A partial proof claimed by conjectures.io (using
-Unknown)" with the summary "This formalisation claims a proof that
-$h(n!)\leq n^{o(1)}$" and the note that the owner had not verified the proof,
-did not claim the formalization is correct, and was posting it so that others
-are aware of the claim. The community database entry 18 (read 2026-09-27)
-still records open (2025-08-31) and formalized (2026-03-15).
+**erdosproblems.com status.** erdosproblems.com/18 showed OPEN, last edited 11
+April 2026. On 2026-09-27 13:28:50 (erdosproblems.com clock) erdosproblems.com
+owner posted the record on the proof-claims tab as "A partial proof claimed by
+conjectures.io (using Unknown)" with the summary "This formalisation claims a
+proof that $h(n!)\leq n^{o(1)}$" and the note that the owner had not verified
+the proof, did not claim the formalization is correct, and was posting it so
+that others are aware of the claim. The community database entry 18 (read
+2026-09-27) still records open (2025-08-31) and formalized (2026-03-15).

@@ -25,16 +25,17 @@ updated: 2026-10-08T14:06:00Z
 which is 'non-averaging', so that no $n\in A$ is the arithmetic mean of at least
 two elements in $A$. What is the order of growth of $F(N)$?
 
-**Formulation.** The site's wording (page last edited 8 April 2026). The
-elements averaged are other than $n$: a one-element average is the element
+**Formulation.** The erdosproblems.com wording (page last edited 8 April 2026).
+The elements averaged are other than $n$: a one-element average is the element
 itself, and if $n$ is the mean of a set containing $n$ it is also the mean of
-that set with $n$ removed, so the site's "at least two elements", Erdős's "any
-subset of the $a$'s consisting of two or more elements" ([Er73], p. 118) and
-Pham and Zakharov's "average of a nonempty subset of $A$ not containing $a$"
-define the same sets. $F(N)$ is the $h(n)$ of Conlon, Fox and Pham and of Pham
-and Zakharov, and Erdős's $F(x)$ (1973), $f(X)$ (1975), $g(n)$ (1977) and $A(n)$
-(1980). The question asks for the order of growth; the answer below determines
-the exponent and leaves the $o(1)$ in it, and any constant, open.
+that set with $n$ removed, so erdosproblems.com's "at least two elements",
+Erdős's "any subset of the $a$'s consisting of two or more elements" ([Er73],
+p. 118) and Pham and Zakharov's "average of a nonempty subset of $A$ not
+containing $a$" define the same sets. $F(N)$ is the $h(n)$ of Conlon, Fox and
+Pham and of Pham and Zakharov, and Erdős's $F(x)$ (1973), $f(X)$ (1975), $g(n)$
+(1977) and $A(n)$ (1980). The question asks for the order of growth; the answer
+below determines the exponent and leaves the $o(1)$ in it, and any constant,
+open.
 
 **Status.** Solved: $F(N)=N^{1/4+o(1)}$. The upper bound $F(N)\le N^{1/4+o(1)}$
 is Theorem 1 of Pham and Zakharov (Geom. Funct. Anal. 35 (2025), 1712--1738,
@@ -42,20 +43,21 @@ refereed). The matching lower bound $F(N)\gg N^{1/4}$ is Bosznay's Theorem (Acta
 Math. Hungar. 53 (1989), 155--157, refereed). It is proved by the construction
 $iq^3+i(i+1)/2$, $1\le i\le q-1$, which the introductions of [PhZa24] and
 [CFP23] also reproduce. Together these determine the order of growth up to the
-$o(1)$ in the exponent. That is what the site's SOLVED label records; the site
-uses this label for a resolution that is neither a proof nor a disproof. The
-exact order beyond the exponent is not known. The claim pages are
+$o(1)$ in the exponent. That is what erdosproblems.com's SOLVED label records;
+erdosproblems.com uses this label for a resolution that is neither a proof nor a
+disproof. The exact order beyond the exponent is not known. The claim pages are
 [[problems/additive_combinatorics/E0186/claims/2024_10_18_pham_zakharov|Pham and Zakharov]]
-(the full determination, accepted on the refereed publication and the site's
-adoption) and
+(the full determination, accepted on the refereed publication and
+erdosproblems.com's adoption) and
 [[problems/additive_combinatorics/E0186/claims/1989_03_01_bosznay|Bosznay]] (the
-lower bound, partial, accepted on the refereed publication and the credit the
-site and the later papers give it). Neither rests on a review by this project.
+lower bound, partial, accepted on the refereed publication and the credit
+erdosproblems.com and the later papers give it). Neither rests on a review by
+this project.
 
 **Source.** [erdosproblems.com/186](https://www.erdosproblems.com/186),
 accessed 2026-09-18: the problem page (SOLVED, the
-site's label for a resolution that is neither a proof nor a disproof; last
-edited 08 April 2026; source keys [Er73, p. 118], [Er75b, p. 309], [Er77c,
+erdosproblems.com label for a resolution that is neither a proof nor a disproof;
+last edited 08 April 2026; source keys [Er73, p. 118], [Er75b, p. 309], [Er77c,
 p. 45], [ErGr79, p. 334], [Er80, p. 110], [ErGr80, p. 18]; commentary
 citing [Bo89], [PhZa24], [CFP23], [ErSa90] and [Gu04]; an acknowledgment
 line; indicators "Formalised statement? No" and "OEIS A389784"),
@@ -135,21 +137,21 @@ Bloom, Erdős Problem #186, https://www.erdosproblems.com/186, accessed
   Non-averaging sets II, Combinatorial theory and its applications
   (Balatonfüred, 1969), Colloq. Math. Soc. János Bolyai 4, North-Holland
   (1970), 405--411: the origin papers as Erdős's surveys cite them; not
-  held, and not among the site's keys.
+  held, and not among the erdosproblems.com keys.
 - [OEIS] A389784, the maximum size of a non-averaging subset of
   $\{1,\ldots,n\}$ (read 2026-09-18: terms to $n=74$, added October 2025,
   with the comment that up to $n=74$ some maximum set contains $n$).
 
 **Formalization.** None: no statement file in
-google-deepmind/formal-conjectures (default branch, 2026-10-07); the site
-reads "Formalised statement? No"; the community database
+google-deepmind/formal-conjectures (default branch, 2026-10-07);
+erdosproblems.com reads "Formalised statement? No"; the community database
 (teorth/erdosproblems) lists the problem as solved and not formalized, with
 no formal proof and OEIS A389784, as of its entry's last update of
 2025-08-31, without dating the state change.
 
 ## Current assessment
 
-**The question.** The statement above; SOLVED, the site's label for a
+**The question.** The statement above; SOLVED, the erdosproblems.com label for a
 resolution that is neither a proof nor a disproof; last edited 8 April 2026.
 The commentary attributes the problem to Straus and records
 $N^{1/4}\ll F(N)\ll N^{1/4+o(1)}$: Bosznay [Bo89] supplies the lower bound
@@ -209,15 +211,15 @@ constraint; the paper's Theorem 2 gives the $d$-dimensional analog with
 exponent $(d-1)/(d+1)$ for $d\ge2$. Read depth: claims checked for the
 definition and Theorem 1; the proof (Sections 2--4) was not read.
 Acceptance: the refereed publication in Geometric and Functional Analysis
-(online 3 December 2025) and the site's adoption of the bound (label SOLVED,
-last edited 8 April 2026). The lower bound is first-hand: the
+(online 3 December 2025) and erdosproblems.com's adoption of the bound (label
+SOLVED, last edited 8 April 2026). The lower bound is first-hand: the
 [[../library/additive_combinatorics/bosznay_1989_lower_estimation_non_averaging_sets/theorem|Theorem]]
 of [Bo89] (printed p. 155) states "For some $c_6>0$ and all sufficiently
 large $n$ we have (1) $f(n)>c_6n^{1/4}$", where $f(n)$ is the largest
-non-averaging subset of $\{1,2,\ldots,n\}$ under the same definition as the
-site's ("the arithmetic mean of two or more members of $S$ never belongs to
-$S$"), so $f(n)$ is $F(n)$. The proof (pp. 155--156, one page): for an
-integer $q$ the numbers $n_i=iq^3+i(i+1)/2$, $i=1,\ldots,q-1$, are $q-1$
+non-averaging subset of $\{1,2,\ldots,n\}$ under the same definition as
+erdosproblems.com's ("the arithmetic mean of two or more members of $S$ never
+belongs to $S$"), so $f(n)$ is $F(n)$. The proof (pp. 155--156, one page): for
+an integer $q$ the numbers $n_i=iq^3+i(i+1)/2$, $i=1,\ldots,q-1$, are $q-1$
 distinct integers below $2q^4$ (in fact below $q^4$), and if $n_j$ were the
 mean of $k$ distinct others, padding the average with $q-k$ copies of $n_j$
 and reading the base-$q^2$ digits of $n_j=(jq)q^2+j(j+1)/2$ would make the
@@ -240,7 +242,7 @@ element, with $h(n)\le2H(n)+2$ ([CFP23], p. 4; [PhZa24], p. 2). Abbott:
 $F(N)\gg N^{1/10}$ (1975) and then $N^{1/5}$ ([CFP23], p. 4; the surveys).
 Erdős and Sárközy: $H(n)\ll(n\log n)^{1/2}$, hence $F(N)\ll(N\log N)^{1/2}$
 (1990), through the Freiman--Sárközy theorem on homogeneous progressions in
-subset sums ([PhZa24], p. 2; the site). Conlon, Fox and Pham:
+subset sums ([PhZa24], p. 2; erdosproblems.com). Conlon, Fox and Pham:
 $H(n)\ll\sqrt n$, sharp for $H$ (their earlier paper, quoted in [CFP23], p.
 4), and then, first-hand,
 [[../library/additive_combinatorics/conlon_2023_homogeneous_structures_subset_sums_non_averaging/theorem_1_6|Theorem 1.6]]
@@ -248,7 +250,7 @@ of [CFP23]: $F(N)\le CN^{\sqrt2-1}(\log N)^2$ (p. 5), the first polynomial
 improvement, in a preprint with no journal version found; it is superseded
 by [PhZa24] and carries the preprint qualification only as history.
 
-**Formulation cross-check.** The site's $F(N)$ and the papers' $h(n)$
+**Formulation cross-check.** erdosproblems.com's $F(N)$ and the papers' $h(n)$
 coincide (above and on the Theorem 1 page); the non-dividing sets of
 Problem 131 are non-averaging, so Theorem 1 also bounds that problem's
 function, as its result page records.
@@ -257,7 +259,7 @@ function, as its result page records.
 a bound sharper than $N^{1/4+o(1)}$, a dispute of the Pham--Zakharov theorem, or
 a determination of the $o(1)$.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures statement directory (no
   file).
 - The primary sources as stated: [PhZa24] pp. 1--3; [CFP23] pp. 1--5;

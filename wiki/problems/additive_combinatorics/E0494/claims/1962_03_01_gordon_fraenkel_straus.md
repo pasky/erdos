@@ -65,8 +65,8 @@ recorded on the
 [[problems/additive_combinatorics/E0494/_index|Problem 494]], which asks
 whether, for $k>2$, $A_k$ and $|A|$ determine $A$, provided $|A|$ is
 sufficiently large in terms of $k$; the problem page's Notes give the evidence
-for that form and the small sizes at which the site's wording fails. The
-formal-conjectures file states the theorem as the variant
+for that form and the small sizes at which the erdosproblems.com wording fails.
+The formal-conjectures file states the theorem as the variant
 `∀ k > 2, ∀ᶠ card in atTop, Erdos494Unique k card` (category
 `research solved`, `sorry` body, no formal-proof pointer) at its commit of
 2026-09-18. The finite exceptional set is reported exactly for $k=3$,
@@ -94,15 +94,15 @@ no. 1, 187--196. The paper was received 29 March 1961 and issued March 1962.
 March 1962 is the Crossref record's date and the date of this page; the
 article's cover prints January 1962.
 
-Reviewed: the site's curator (T. F. Bloom) labeled the problem PROVED and
-credits Gordon, Fraenkel and Straus with the uniqueness for all $k$ once $|A|$
-is sufficiently large (erdosproblems.com/494, page last edited 14 October 2025).
-This uniqueness result is the modified Statement. Guy's 2004 collection reports
-the problem in its section C5.
+Reviewed: the erdosproblems.com curator (T. F. Bloom) labeled the problem PROVED
+and credits Gordon, Fraenkel and Straus with the uniqueness for all $k$ once
+$|A|$ is sufficiently large (erdosproblems.com/494, page last edited 14 October
+2025). This uniqueness result is the modified Statement. Guy's 2004 collection
+reports the problem in its section C5.
 
-No `formalized` evidence is listed. The site's label carried no Lean suffix, and
-no formalization of this theorem is known. The 2026 Lean package on the
-Selfridge--Straus cases notes that Ridout's theorem is not in Mathlib. The
+No `formalized` evidence is listed. The erdosproblems.com label carried no Lean
+suffix, and no formalization of this theorem is known. The 2026 Lean package on
+the Selfridge--Straus cases notes that Ridout's theorem is not in Mathlib. The
 development `Erdos494.lean` in Boris Alexeev's repository names Gordon, Fraenkel
 and Straus as informal authors in its header, but it does not prove this page's
 theorem. It has

@@ -29,9 +29,9 @@ colour class induces either a complete graph or empty graph.
 Is it true that if $G$ has no $K_5$ and $\zeta(G)\geq 4$ then $\chi(G) \leq
 \zeta(G)+2$?
 
-**Status.** DISPROVED (LEAN). This is the label the site prints. The Lean proofs
-the label refers to are third-party files, linked from the claim page below.
-This corpus has not built them.
+**Status.** DISPROVED (LEAN). This is the label erdosproblems.com prints. The
+Lean proofs the label refers to are third-party files, linked from the claim
+page below. This corpus has not built them.
 
 **Source.** [erdosproblems.com/762](https://www.erdosproblems.com/762), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #762,
@@ -54,22 +54,22 @@ the claim page below, which this corpus has not built.
 
 ## Current assessment
 
-The question is the site's formulation above: for a graph $G$ with no $K_5$
-and $\zeta(G)\ge4$, is $\chi(G)\le\zeta(G)+2$? The answer is no.
-Erdős, Gimbel and Straight [EGS90] conjectured the bound and proved that, for
-every $n>2$, graphs with no $K_n$ satisfy $\chi(G)\le\zeta(G)+f(n)$ for some
-$f(n)$ depending on $n$ alone; Steiner [St24b] constructed infinitely many
-graphs with $\omega(G)=4$, $\zeta(G)=4$ and $\chi(G)=7$, so that
-$\chi=\zeta+3$. The accepted claim page
+The question is the erdosproblems.com formulation above: for a graph $G$ with no
+$K_5$ and $\zeta(G)\ge4$, is $\chi(G)\le\zeta(G)+2$? The answer is no. Erdős,
+Gimbel and Straight [EGS90] conjectured the bound and proved that, for every
+$n>2$, graphs with no $K_n$ satisfy $\chi(G)\le\zeta(G)+f(n)$ for some $f(n)$
+depending on $n$ alone; Steiner [St24b] constructed infinitely many graphs with
+$\omega(G)=4$, $\zeta(G)=4$ and $\chi(G)=7$, so that $\chi=\zeta+3$. The
+accepted claim page
 [[problems/graph_coloring/E0762/claims/2024_08_05_steiner|Steiner 2024]]
 states the construction and the acceptance evidence: the curator credits the
 disproof to Steiner, the paper is published in SIAM Journal on Discrete
 Mathematics (2025), and a third-party Lean proof of the counterexample, which
 this corpus has not built, is linked from it.
 
-**Search scope.** The site's problem page, its discussion thread and its
-proof-claims list, and the Crossref record of the paper; the proof-claims list
-showed no other claim on the problem, and on 2026-10-07 the other sources
+**Search scope.** The erdosproblems.com problem page, its discussion thread and
+its proof-claims list, and the Crossref record of the paper; the proof-claims
+list showed no other claim on the problem, and on 2026-10-07 the other sources
 showed none.
 
 What the paper leaves open is quantitative and not part of Problem 762:

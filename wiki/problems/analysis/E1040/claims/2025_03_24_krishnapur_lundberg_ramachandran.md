@@ -56,5 +56,5 @@ above $1$ is recorded on
 and Ramachandran]], and the general case on the four later pages of the folder.
 
 **Standing.** The arXiv record lists no journal reference (checked
-2026-10-07), the paper is not named on the site's page or thread, and no
-reviewer is named, so the claim stays claimed.
+2026-10-07), the paper is not named on the erdosproblems.com page or thread, and
+no reviewer is named, so the claim stays claimed.

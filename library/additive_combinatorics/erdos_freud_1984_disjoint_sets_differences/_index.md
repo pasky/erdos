@@ -37,9 +37,9 @@ Number Theory **18** (1984), no. 1, 99--109, DOI
 10.1016/0022-314X(84)90046-5; received 20 January 1982, communicated by
 H. Zassenhaus; Erdős at the Mathematical Institute of the Academy,
 Budapest, and Freud at the Department of Algebra and Number Theory, Eötvös
-Loránd University, Budapest (p. 99). Not a site key for Problem 331, whose
-page credits the counterexample to Ruzsa. Its three references (p. 109)
-are [1] Ajtai, Komlós and Szemerédi, A dense infinite Sidon sequence,
+Loránd University, Budapest (p. 99). Not an erdosproblems.com key for Problem
+331, whose page credits the counterexample to Ruzsa. Its three references
+(p. 109) are [1] Ajtai, Komlós and Szemerédi, A dense infinite Sidon sequence,
 European J. Combin. 2 (1981), 1--11; [2] Erdős and Graham, Old and New
 Problems and Results in Combinatorial Number Theory, Monographie No. 28 de
 L'Enseignement Mathématique, Genève, 1980 (the
@@ -155,18 +155,17 @@ here is independently reviewed.
 counterexample of p. 100 answers the problem's question in the negative,
 in the Erdős--Graham form the paper quotes ($A(x)>\varepsilon x^{1/2}$,
 $B(x)>\varepsilon x^{1/2}$ for some $\varepsilon>0$), in the paper's words
-"for $\varepsilon=1/\sqrt2$"; it is the construction the site credits to
-Ruzsa, and the paper credits no one for it. Theorem 4 (p. 102) bears on
-the problem's hypothesis directly: counts $\gg N^{1/2}$ for both sets, for
-all large $N$, is $IN>0$ in the paper's notation, and the theorem says
-that a pair with only trivial coincidences of differences and $IN>0$ has
-neither counting function asymptotic to a constant multiple of $\sqrt x$;
-so under $A(x)\sim c_A\sqrt x$ and $B(x)\sim c_B\sqrt x$ with
-$c_A,c_B>0$, the variant the problem's claim pages attribute to Ruzsa, the
-equation has infinitely many nontrivial solutions (a filing derivation
-recorded on the result page). The problem's $A,B\subseteq\mathbb N$ and
-the paper's sequences, which contain $0$, differ by that element, which
-changes each count by one.
+"for $\varepsilon=1/\sqrt2$"; it is the construction erdosproblems.com credits
+to Ruzsa, and the paper credits no one for it. Theorem 4 (p. 102) bears on the
+problem's hypothesis directly: counts $\gg N^{1/2}$ for both sets, for all large
+$N$, is $IN>0$ in the paper's notation, and the theorem says that a pair with
+only trivial coincidences of differences and $IN>0$ has neither counting
+function asymptotic to a constant multiple of $\sqrt x$; so under
+$A(x)\sim c_A\sqrt x$ and $B(x)\sim c_B\sqrt x$ with $c_A,c_B>0$, the variant
+the problem's claim pages attribute to Ruzsa, the equation has infinitely many
+nontrivial solutions (a filing derivation recorded on the result page). The
+problem's $A,B\subseteq\mathbb N$ and the paper's sequences, which contain $0$,
+differ by that element, which changes each count by one.
 
 **Results.**
 

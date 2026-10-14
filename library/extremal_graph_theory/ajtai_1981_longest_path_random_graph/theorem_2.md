@@ -104,8 +104,8 @@ Fernandez de la Vega's theorem (reference [3]) without proof.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0900/_index|Problem 900]]: the status-defining
-  theorem. Theorem 2 gives a positive path fraction for every $c>1/2$ in the
-  site's uniform model, and the Corollary with the transfer sentence and
-  Remark 2 gives fractions arbitrarily close to one for large $c$; the
-  existence of a function $f$ with $f(c)\to0$ as $c\to1/2$ and $f(c)\to1$ as
+  theorem. Theorem 2 gives a positive path fraction for every $c>1/2$ in
+  erdosproblems.com's uniform model, and the Corollary with the transfer
+  sentence and Remark 2 gives fractions arbitrarily close to one for large $c$;
+  the existence of a function $f$ with $f(c)\to0$ as $c\to1/2$ and $f(c)\to1$ as
   $c\to\infty$ is written on the problem page as a deduction from these.

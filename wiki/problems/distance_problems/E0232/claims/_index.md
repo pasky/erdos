@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 232, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/distance_problems/E0232/claims
@@ -13,7 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/distance_problems/E0232/claims/2022_07_28_ambrus_csiszarik_matolcsi_varga_zsamboki|2022_07_28_ambrus_csiszarik_matolcsi_varga_zsamboki]]: Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki prove that every measurable
 planar set with no two points at distance one has upper density at most
-$0.247$. So $m_1\le0.247<1/4$, which answers the site's question and proves
-Erdős's conjecture $m_1<1/4$.
+$0.247$. So $m_1\le0.247<1/4$, which answers the erdosproblems.com question
+and proves Erdős's conjecture $m_1<1/4$.
 
 ***

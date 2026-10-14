@@ -73,6 +73,6 @@ Proposition 2.7, and the Kelley--Meka method, at statement level.
   each fixed $c\in(0,1/68)$, $g(n)\ge(\log n)^{1+c}$ for all large $n$, through
   Choi's reduction from real sets to integer sets (footnote 1). This is a
   lower bound of the same shape as Sanders's, with an explicit range for $c$;
-  the site displays it as $(\log n)^{1+1/68+o(1)}\ll g(n)$, while the
+  erdosproblems.com displays it as $(\log n)^{1+1/68+o(1)}\ll g(n)$, while the
   theorem's range gives the exponent $1+1/68-o(1)$. It does not determine the
   order of growth of $g(n)$.

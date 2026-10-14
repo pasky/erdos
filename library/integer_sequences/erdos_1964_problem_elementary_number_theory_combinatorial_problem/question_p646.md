@@ -3,8 +3,8 @@ name: integer_sequences/erdos_1964_problem_elementary_number_theory_combinatoria
 title: "Question (p. 646): must αn integers up to n contain three with pairwise the same least common multiple?"
 desc: |
   Erdős's 1964 question whether every set of positive density contains
-  three integers with equal pairwise least common multiples, the origin the
-  site cites for Problem 536.
+  three integers with equal pairwise least common multiples, the origin
+  erdosproblems.com cites for Problem 536.
 created: 2026-09-18T06:20:00Z
 updated: 2026-10-07T11:58:09Z
 ---
@@ -51,12 +51,12 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]: the site's cited origin
-  [Er64, p. 646]; the question in its density form, which is $f(N)=o(N)$
-  in the site's notation. Erdős repeated it in 1970 (as the conjecture
-  $F(k,x)=o(x)$ for $k\ge3$, disproved by him for $k\ge4$), in 1973 and at
-  the Western Number Theory problem session of 1991.
+- [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]:
+  erdosproblems.com's cited origin [Er64, p. 646]; the question in its density
+  form, which is $f(N)=o(N)$ in the erdosproblems.com notation. Erdős repeated
+  it in 1970 (as the conjecture $F(k,x)=o(x)$ for $k\ge3$, disproved by him for
+  $k\ge4$), in 1973 and at the Western Number Theory problem session of 1991.
 - [[../wiki/problems/integer_sequences/E0535/_index|Problem 535]]: the unproved remark
   about $l=Cn$ integers concerns the same greatest-common-divisor function
   with $t$ growing like a power of $n$, the regime Abbott and Gardner
-  studied in 1967; it is not the fixed-$r$ question of the site.
+  studied in 1967; it is not the fixed-$r$ question of erdosproblems.com.

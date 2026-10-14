@@ -135,13 +135,13 @@ Lemma 5 from Lemmas 2 and 3 (pp. 163--167).
 - [[../wiki/problems/unit_fractions/E0309/_index|Problem 309]]: the
   problem's count $F(N)$ of positive integers is $|N(N)|-1$, since $N(N)$
   contains $0$, so the lower bound reads
-  $F(N)\ge\log N-5\log\log N-1$ for large $N$, the site's
+  $F(N)\ge\log N-5\log\log N-1$ for large $N$, erdosproblems.com's
   $\log N-O(\log\log N)$; with the trivial $F(N)\le\log N+1$ this gives
   $F(N)\sim\log N$, so $F(N)$ is not $o(\log N)$ and the second question is
   answered no. The printed proof reaches only
   $F(N)\ge\log N-(3+o(1))\log N/\log\log N$ (see the Statement), which
   still gives $F(N)\sim\log N$ and the same answer but not the theorem's
-  bound, the one the site's commentary credits to the paper; the
+  bound, the one the erdosproblems.com commentary credits to the paper; the
   problem's status is also carried by Croot's Main Theorem, whose proof
   takes the integers below a fixed bound from this paper with its
   Corrigendum.

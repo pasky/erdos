@@ -29,9 +29,9 @@ F. R. K. Chung and R. L. Graham, *On irregularities of distribution*. In:
 *Finite and Infinite Sets* (Eger, Hungary, 1981), Colloquia Mathematica
 Societatis János Bolyai 37, North-Holland (1984), 181--222; DOI
 10.1016/B978-0-444-86893-0.50016-4 (Crossref record read 2026-09-18: a
-book chapter, publisher Elsevier). The site's key ChGr84 for Problem 480.
-The one-page announcement of the same results is Proc. Natl. Acad. Sci. USA
-78 (1981), 4001, filed as
+book chapter, publisher Elsevier). The erdosproblems.com key ChGr84 for
+Problem 480. The one-page announcement of the same results is Proc. Natl. Acad.
+Sci. USA 78 (1981), 4001, filed as
 [[number_theory/chung_1981_irregularities_distribution_real_sequences/_index|chung_1981_irregularities_distribution_real_sequences]].
 
 **Edition.** The copy read for this card is the
@@ -40,9 +40,9 @@ p. $n$ is printed p. $180+n$), an image-only file with no text layer
 (Acrobat Distiller 6.0.1, 2005), 1,054,121 bytes, read on rendered page
 images; it was retrieved 2026-09-18T15:12:19Z from
 <https://mathweb.ucsd.edu/~ronspubs/81_12_irregularities.pdf>, the address
-the site's discussion thread for Problem 480 gives for "the paper by Chung
-and Graham" (HTTP 200, `application/pdf`, one request). The
-publisher's copy was not requested. That copy's hosting address
+the erdosproblems.com discussion thread for Problem 480 gives for "the paper by
+Chung and Graham" (HTTP 200, `application/pdf`, one request). The publisher's
+copy was not requested. That copy's hosting address
 (https://mathweb.ucsd.edu/~ronspubs/81_12_irregularities.pdf) states no terms,
 and it prints no copyright line on PDF pp. 1 and 42; the chapter's Crossref
 record (DOI 10.1016/B978-0-444-86893-0.50016-4, read 2026-10-02) names only
@@ -160,7 +160,7 @@ best constant; the chapter writes its general sequence
 $\bar x=(x_1,x_2,\ldots)$ (p. 181) as the problem does but its extremal
 $\bar x^*$ from $x^*_0$ (p. 183), while the 1981 announcement writes both
 from $x_0$; the shift leaves $C$ unchanged; the introduction's "suggested
-by a question of D. J. Newman (see [3])" is the attribution the site
+by a question of D. J. Newman (see [3])" is the attribution erdosproblems.com
 repeats.
 
 **Results.**

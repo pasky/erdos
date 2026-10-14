@@ -71,13 +71,13 @@ subgraph.
 **Acceptance.** Refereed: P. Komjáth and S. Shelah, Forcing constructions for
 uncountably chromatic graphs, J. Symbolic Logic 53 (1988), no. 3, 696–707,
 doi:10.2307/2274566. The Crossref record dates the issue to September 1988
-without a day, so the page carries the first of that month. The site labeled the
-problem OPEN and its notes do not record the result, so the page lists no
-`reviewed` evidence.
+without a day, so the page carries the first of that month. Bloom's catalog
+labeled the problem OPEN and its notes do not record the result, so the page
+lists no `reviewed` evidence.
 
-The result is restated in later sources. The site's discussion thread carries a
-comment of 28 May 2026 that draws the same conclusion through Problem 1175.
-Section 4 of the write-up behind the
+The result is restated in later sources. The erdosproblems.com discussion thread
+carries a comment of 28 May 2026 that draws the same conclusion through
+Problem 1175. Section 4 of the write-up behind the
 [[problems/graph_coloring/E0740/claims/2026_08_16_dottedcalculator|DottedCalculator partial claim]]
 cites Theorem 2 and concludes that the all-cardinals statement is not provable
 in ZFC. Komjáth's 2025 survey of the Erdős–Hajnal problem list

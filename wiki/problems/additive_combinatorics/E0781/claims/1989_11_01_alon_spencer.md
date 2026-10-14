@@ -4,8 +4,8 @@ title: Alon and Spencer show f(k) grows like k cubed
 desc: |
   Alon and Spencer (J. Combin. Theory Ser. A 1989) prove that the two-color
   descending-wave number $f(k)$ grows like $k^3$, so $k^2-k+1$ fails for all
-  large $k$. The claim is accepted on the refereed publication and the site's
-  credit.
+  large $k$. The claim is accepted on the refereed publication and the
+  erdosproblems.com credit.
 authors:
 - N Alon
 - Joel Spencer
@@ -48,7 +48,7 @@ asked for. The paper states that it settles the problem of Brown, Erdős and
 Freedman, who asked whether the lower bound $k^2-k+1$ is the exact value.
 The upper bound $f(k)\le c_2k^3$ is the greedy argument of the paper's
 introduction, sharpened by Brown, Erdős and Freedman to
-$f(k)\le(k^3-4k+9)/3$ (Theorem 4, Section 4; the site displays the same
+$f(k)\le(k^3-4k+9)/3$ (Theorem 4, Section 4; erdosproblems.com displays the same
 bound), and their coloring in blocks of lengths
 $k-1,k-1,k-2,k-2,\ldots,1,1$ gives $f(k)\ge k^2-k+1$; their closing
 remarks (Section 5) already record Spencer and Alon's announcement of the
@@ -64,11 +64,11 @@ the lower bound is recorded) and
 doi:10.1016/0097-3165(89)90033-2. The Crossref record dates the issue to
 November 1989, and this page's name fills that to the first of the month.
 
-Reviewed: the site's curator, Thomas Bloom, credits the resolution to Alon and
-Spencer in the problem page's commentary and labeled the problem disproved
-(no last-edited date). The problem's discussion thread and
-proof-claim tab were empty. The community database lists the problem as
-disproved as of its last update on 2025-08-31.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, credits the resolution to
+Alon and Spencer in the problem page's commentary and labeled the problem
+disproved (no last-edited date). The problem's discussion thread and proof-claim
+tab were empty. The community database lists the problem as disproved as of its
+last update on 2025-08-31.
 
 A Lean 4 development declares itself a formalization of a solution to the
 problem. It is `src/latest/ErdosProblems/Erdos781.lean` of Boris Alexeev's

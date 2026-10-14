@@ -29,11 +29,11 @@ $$
 
 is $p$?
 
-**Status.** Open, the site's label (OPEN). The site marked the problem as not
-decidable by a finite computation. Its proof-claims tab carries one partial
-proof claim, submitted 2026-07-25, which had no response on 2026-10-06. That
-claim settles no case of the question and gets no claim page. The Current
-assessment records it with the reason.
+**Status.** Open, the erdosproblems.com label (OPEN). Bloom's catalog marked the
+problem as not decidable by a finite computation. Its proof-claims tab carries
+one partial proof claim, submitted 2026-07-25, which had no response on
+2026-10-06. That claim settles no case of the question and gets no claim page.
+The Current assessment records it with the reason.
 
 **Source.** [erdosproblems.com/383](https://www.erdosproblems.com/383), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #383,
@@ -44,19 +44,19 @@ https://www.erdosproblems.com/383.
 
 ## Current assessment
 
-**Open; no result decides a single case.** The site formulation above asks,
-for every $k$, for infinitely many primes $p$ such that $p$ is the largest
-prime factor of $\prod_{0\le i\le k}(p^2+i)$, that is, every $p^2+i$ with
-$1\le i\le k$ has all its prime factors below $p$. The site's commentary
-notes that a positive answer would answer the second part of
+**Open; no result decides a single case.** The erdosproblems.com formulation
+above asks, for every $k$, for infinitely many primes $p$ such that $p$ is the
+largest prime factor of $\prod_{0\le i\le k}(p^2+i)$, that is, every $p^2+i$
+with $1\le i\le k$ has all its prime factors below $p$. The erdosproblems.com
+commentary notes that a positive answer would answer the second part of
 [[problems/arithmetic_functions/E0382/_index|Problem 382]], and that the
 heuristic probability $1-\log2$ that an integer $n$ has no prime factor of
 size at least $n^{1/2}$ predicts the answer yes. No source proves the
-statement for any $k\ge1$, and the site labeled the problem OPEN.
+statement for any $k\ge1$, and Bloom's catalog labeled the problem OPEN.
 
-**Proof claim without a page.** The site's proof-claims tab lists a partial
-proof claim by Rafik Zeraoulia (using OpenAI GPT-5.6 Thinking, as the tab
-names the system), submitted 2026-07-25, with the write-up *A
+**Proof claim without a page.** The erdosproblems.com proof-claims tab lists a
+partial proof claim by Rafik Zeraoulia (using OpenAI GPT-5.6 Thinking, as the
+tab names the system), submitted 2026-07-25, with the write-up *A
 positive-proportion smoothness bound and computational results for Erdős
 Problem 383* (Zenodo record 21544693, 2026-07-25, CC BY 4.0). It asserts
 that for every fixed $k\ge1$ and $\varepsilon>0$ a positive proportion of
@@ -91,7 +91,7 @@ settles an instance.
 as of its last change on 18 September 2026, states `erdos_383` as `answer(sorry) ↔ ∀ k, {p : ℕ | p.Prime ∧
 Nat.maxPrimeFac (∏ i ∈ Finset.Icc 0 k, (p ^ 2 + i)) = p}.Infinite`, category
 research open, with no `formal_proof` attribute. Search scope:
-the site's page, discussion thread and proof-claims tab, the
+the erdosproblems.com page, discussion thread and proof-claims tab, the
 Zenodo record of the proof claim, the formal-conjectures file and its commit
 history, and the community database, which lists the problem as open and
 formalized as of its last update on 2025-08-31, without dating when either

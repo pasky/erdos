@@ -29,8 +29,8 @@ P. Erdős and M. Simonovits, *Compactness results in extremal graph theory*,
 Combinatorica **2** (1982), no. 3, 275--288; DOI 10.1007/BF02579234
 (Crossref record read on 2026-09-18: volume 2, issue 3, pages 275--288,
 issued September 1982). Received 15 April 1982; dedicated to Tibor Gallai
-on his seventieth birthday (p. 275). The site's reference key for this
-paper is ErSi82 (Problems 573 and 575).
+on his seventieth birthday (p. 275). The erdosproblems.com reference key for
+this paper is ErSi82 (Problems 573 and 575).
 
 **Copy read.** The copy read for this card is the Rényi Institute archive copy
 (`1982-02.pdf`), a 14-page scan with an OCR text layer
@@ -40,8 +40,8 @@ from <https://users.renyi.hu/~p_erdos/1982-02.pdf> (HTTP 200, one request);
 dpi); the OCR layer served only to locate them. The paper writes $C^t$ for the
 cycle with $t$ vertices, $K_t$ (with a lower index) for the complete graph
 and $G^n$ for a graph of order $n$ (the upper index is the order); the pages
-below keep the paper's notation and say so where the site writes $C_4$. No
-notice is printed in the scan; the article's own publisher page was not read,
+below keep the paper's notation and say so where erdosproblems.com writes $C_4$.
+No notice is printed in the scan; the article's own publisher page was not read,
 and the publisher's host was checked on a different article's page in the
 same journal (https://link.springer.com/article/10.1007/BF02579269, read
 2026-10-02), which shows "© Akadémiai Kiadó 1981" and names no license, every
@@ -110,7 +110,7 @@ structure or identity only and were not checked.
   announced on p. 275; the "Added in proof" (p. 288) credits the proof of
   Theorem 4 to C. D. Godsil, originally a co-author.
 - References (p. 288): [1] Benson 1966, [2] Bondy--Simonovits 1974, [6]
-  Erdős 1938 (the Tomsk paper, the site's Er38), [8] Erdős--Rényi--Sós
+  Erdős 1938 (the Tomsk paper, erdosproblems.com's Er38), [8] Erdős--Rényi--Sós
   1966, [13] Kővári--Sós--Turán 1954, [14] Reiman 1958, [15] Singleton
   1966, among others.
 
@@ -122,18 +122,19 @@ locating and identity, and pp. 285--286 for structure on the page images.
 No proof was checked and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0575/_index|#575]]: Conjecture 1
-(p. 276) is the compactness conjecture the site's statement restates with
-the bipartite clause; the printed direction of display (5) is recorded on
+(p. 276) is the compactness conjecture the erdosproblems.com statement restates
+with the bipartite clause; the printed direction of display (5) is recorded on
 the result page. [[../wiki/problems/extremal_graph_theory/E0573/_index|#573]]: Theorem 2
-(p. 278, proof pp. 285--286) is the site's "$\mathrm{ex}(n;\{C_4,C_5\})=(n/2)^{3/2}+O(n)$"
-theorem, in the paper's notation $\mathrm{ex}(n,\{C^4,C^5\})$; Conjecture
-4 with $k=t=2$, $\mathrm{ex}(n,\{C^4,C^3\})=(n/2)^{3/2}+o(n^{3/2})$, asserts
-the asymptotic the problem asks about, and $k=2$, $t\ge3$ gives its
-odd-cycle variants. [[../wiki/problems/extremal_graph_theory/E0180/_index|#180]]:
-Conjecture 1 (printed p. 276 = PDF p. 2, page image) is the compactness
-conjecture the problem states without a no-forest restriction; the
-printed display (5) has the trivial direction and the problem's page
-reads it the other way, as recorded on the result page.
+(p. 278, proof pp. 285--286) is erdosproblems.com's
+"$\mathrm{ex}(n;\{C_4,C_5\})=(n/2)^{3/2}+O(n)$" theorem, in the paper's notation
+$\mathrm{ex}(n,\{C^4,C^5\})$; Conjecture 4 with $k=t=2$,
+$\mathrm{ex}(n,\{C^4,C^3\})=(n/2)^{3/2}+o(n^{3/2})$, asserts the asymptotic the
+problem asks about, and $k=2$, $t\ge3$ gives its odd-cycle variants.
+[[../wiki/problems/extremal_graph_theory/E0180/_index|#180]]: Conjecture 1
+(printed p. 276 = PDF p. 2, page image) is the compactness conjecture the
+problem states without a no-forest restriction; the printed display (5) has the
+trivial direction and the problem's page reads it the other way, as recorded on
+the result page.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

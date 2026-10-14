@@ -110,7 +110,8 @@ equidistribution result of the introduction.
   the other original solution of the modified Statement; the proof's
   separation $\|\varphi_n(x)\|\ge\varepsilon$, with the explicit
   $\varepsilon=\mu^{1-2n_0}/2$, is the bound that Katznelson, Dubickas and
-  Peres and Schlag later improved. The site's thread (comment of 21 June
+  Peres and Schlag later improved. The erdosproblems.com thread (comment of 21
+  June
   2026) reports that an automated system formalized, for the problem's
   lacunary $n_k$, that some $\theta$ has $0$ outside the closure of
   $\{\|\theta n_k\|:k\ge1\}$, which "corresponds to the argument that proves

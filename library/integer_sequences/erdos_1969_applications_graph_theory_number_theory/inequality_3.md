@@ -32,8 +32,8 @@ the page image. No proof is given; the text says only that the method of
 ## Proof pointer
 
 None in the paper ("A generalization of the method which we used in the
-proof of (1)"). The site's discussion thread on Problem 793 (comment of 30
-November 2025) records that Erdős gave no details, and cites later
+proof of (1)"). The erdosproblems.com discussion thread on Problem 793 (comment
+of 30 November 2025) records that Erdős gave no details, and cites later
 published proofs for a range of $r$ (Chan, Győri and Sárközy, European J.
 Combin. 31 (2010), 260--269; Chan, European J. Combin. 32 (2011),
 443--447), which this library does not hold.
@@ -45,5 +45,5 @@ The method of (1); nothing else stated.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0793/_index|Problem 793]]: the $r$-fold
-  generalization the site mentions after the resolution ("with the exponent
-  $2/3$ replaced by $2/(r+1)$"); not the problem itself.
+  generalization erdosproblems.com mentions after the resolution ("with the
+  exponent $2/3$ replaced by $2/(r+1)$"); not the problem itself.

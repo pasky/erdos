@@ -43,7 +43,7 @@ settled in 1998.
 
 **Posting.** The note was posted on a data repository on 16 April 2026 and
 linked the same day from the first comment of the problem's thread, whose
-poster calls it an unverified proof; it was never filed on the site's
+poster calls it an unverified proof; it was never filed on the erdosproblems.com
 proof-claims tab, and the curator's reply in the thread credits Feng and
 then Erdős and Komornik without mentioning the note. No review, referee
 report or other acceptance evidence exists, so the claim is pending. Read

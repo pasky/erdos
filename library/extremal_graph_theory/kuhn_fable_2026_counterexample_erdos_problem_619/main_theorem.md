@@ -186,5 +186,5 @@ finite first-moment argument rather than importing the triangle-free-process
 theorem. The repository's `VERIFICATION.md` records successful compilation and
 kernel/comparator checks. This compilation read those records and the proof
 source; it did not rerun Lean. Bloom's quantitative estimate is a mathematical
-optimization recorded in the accepted site discussion and is not asserted by
-the Lean theorem.
+optimization recorded in the accepted erdosproblems.com discussion and is not
+asserted by the Lean theorem.

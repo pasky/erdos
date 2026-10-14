@@ -15,8 +15,8 @@ updated: 2026-10-08T14:17:34Z
 not a labeled result in their paper. The elementary connection between
 shifted-prime divisors and $H(n)$ belongs to the history of
 [[../wiki/problems/integer_sequences/E0820/_index|Problem 820]] in Erdős's 1974 discussion;
-van Doorn's July 2026 site comment explicitly points out the consequence of
-the Fan--Pollack bound.
+van Doorn's July 2026 erdosproblems.com comment explicitly points out the
+consequence of the Fan--Pollack bound.
 
 For an integer $n\ge2$, let $H(n)$ be the least integer $l\ge3$ for which
 there is an integer $k$ with $2\le k<l$ satisfying

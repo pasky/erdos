@@ -77,7 +77,7 @@ proofs were read for structure at most and not checked.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0612/_index|#612]]
 (the Conjecture on pp. 78--79 is the problem's statement, with the hypothesis
-r, delta > 1 that the site's wording omits; Theorem 1 is the bound
+r, delta > 1 that the erdosproblems.com wording omits; Theorem 1 is the bound
 3n/(delta+1) + O(1) for all connected graphs, which the Conjecture's bounds
 would lower, except in part (ii) at delta = 3r - 1, where the two leading
 terms are equal; Theorem 2 gives the triangle-free bound 2n/delta + O(1),

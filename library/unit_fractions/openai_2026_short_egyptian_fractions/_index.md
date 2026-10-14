@@ -292,7 +292,7 @@ no step was checked; nothing here is independently reviewed.
   Elsholtz 2016, Elsholtz--Planitzer 2021, Kumchev 1997, Kumchev--Tolev
   2005, Tenenbaum--Yokota 1990, Erdős 1952, Hildebrand--Tenenbaum 1993,
   Gallagher 1971, Martin 2000, Croot 1999, Glibichuk--Konyagin 2007, and the
-  site pages for Problems 304 and 293.
+  erdosproblems.com pages for Problems 304 and 293.
 
 External inputs the proofs rest on, at statement level: the prime number
 theorem (Selberg 1949, for $P\ge S^{K-1}$ and $\log P(v)$); the Erdős--Turán

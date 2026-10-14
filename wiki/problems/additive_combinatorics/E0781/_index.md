@@ -39,7 +39,7 @@ factors. Brown, Erdős and Freedman [BEF90] had shown
 $k^2-k+1\le f(k)\le(k^3-4k+9)/3$ and asked whether the lower bound is exact. The
 claim page is
 [[problems/additive_combinatorics/E0781/claims/1989_11_01_alon_spencer|Alon and Spencer]]
-(accepted on the refereed publication and the site's credit).
+(accepted on the refereed publication and the erdosproblems.com credit).
 
 **Source.** [erdosproblems.com/781](https://www.erdosproblems.com/781), accessed
 2026-10-07 (no last-edited date; empty discussion thread); its proof-claim tab

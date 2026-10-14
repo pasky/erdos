@@ -57,12 +57,12 @@ $n\geq43632$ and shows that $43632$ is best possible. The digest and result
 list are on the library card
 [[../library/factorials_binomials/alexeev_2025_decomposing_factorial_into_large_factors/_index|Alexeev and others 2025]].
 
-The acceptance evidence is the site's curator, Thomas Bloom, who marked Problem
-391 proved and credits this paper with answering both questions. The fourth
-arXiv version (2026-04-03) says that referee comments were incorporated, and
-Mathematics of Computation has accepted the paper, which it lists among its
-articles in press (DOI 10.1090/mcom/4249, registered 2026-05-20), so
-`refereed` is also listed.
+The acceptance evidence is the erdosproblems.com curator, Thomas Bloom, who
+marked Problem 391 proved and credits this paper with answering both questions.
+The fourth arXiv version (2026-04-03) says that referee comments were
+incorporated, and Mathematics of Computation has accepted the paper, which it
+lists among its articles in press (DOI 10.1090/mcom/4249, registered
+2026-05-20), so `refereed` is also listed.
 
 The file `Erdos391.lean` in Boris Alexeev's repository of Lean proofs (first
 committed 2026-08-17; the link pins the 2026-09-15 revision) declares itself a

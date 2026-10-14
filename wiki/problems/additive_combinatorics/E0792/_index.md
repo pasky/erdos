@@ -32,31 +32,31 @@ $$
 
 with $a,b,c\in B$. Estimate $f(n)$.
 
-**Formulation.** The site's wording as accessed 2026-09-18T15:09Z (page last
-edited 23 January 2026). The relation $a+b=c$ is forbidden for all $a,b,c\in B$,
-the case $a=b$ included, so no element of $B$ is twice another. This is the
-convention of Erdős's condition (27) of 1965, whose indices satisfy
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18T15:09Z
+(page last edited 23 January 2026). The relation $a+b=c$ is forbidden for all
+$a,b,c\in B$, the case $a=b$ included, so no element of $B$ is twice another.
+This is the convention of Erdős's condition (27) of 1965, whose indices satisfy
 $1\le j_1\le j_2<j_3\le k$ (printed p. 186), of Alon and Kleitman ("no (not
 necessarily distinct) $a,b,c\in A$ such that $a+b=c$", p. 13) and of Bedert;
 Eberhard, Green and Manners state their upper bound in the stronger form that
-forbids only $x+y=z$ with $x\ne y$, which covers both conventions. The site's
-$A\subset\mathbb Z$ admits $0$, which lies in no sum-free set since $0+0=0$;
-for a set containing $0$ the question is the same question for its $n-1$
-nonzero elements. The sources state the exact bounds $(n+1)/3$ for sets of $n$
-nonzero integers and $(n+2)/3$ for sets of $n$ positive integers, and with $0$
-allowed they hold with $n-1$ in place of $n$; the asymptotic statements are
-unaffected (an observation made here). Erdős posed the question for $n$ real
-numbers different from $0$; integer sets are real sets and his rotation proof
-works for reals, so the lower bound $n/3$ and the integer upper constructions
-below hold in either formulation, while the exact bounds $(n+1)/3$ and
-$(n+2)/3$ are stated in their sources for integers. The site's source keys are
-[Er65], [Er73], [Er92c] and [Va99, 1.22].
+forbids only $x+y=z$ with $x\ne y$, which covers both conventions.
+erdosproblems.com's $A\subset\mathbb Z$ admits $0$, which lies in no sum-free
+set since $0+0=0$; for a set containing $0$ the question is the same question
+for its $n-1$ nonzero elements. The sources state the exact bounds $(n+1)/3$ for
+sets of $n$ nonzero integers and $(n+2)/3$ for sets of $n$ positive integers,
+and with $0$ allowed they hold with $n-1$ in place of $n$; the asymptotic
+statements are unaffected (an observation made here). Erdős posed the question
+for $n$ real numbers different from $0$; integer sets are real sets and his
+rotation proof works for reals, so the lower bound $n/3$ and the integer upper
+constructions below hold in either formulation, while the exact bounds $(n+1)/3$
+and $(n+2)/3$ are stated in their sources for integers. The erdosproblems.com
+source keys are [Er65], [Er73], [Er92c] and [Va99, 1.22].
 
-**Status.** Open. The site's label was OPEN on 2026-09-18, and none of the claim
-pages is a full claim. "Estimate $f(n)$" is a request with no truth value. Read
-on this page, the label concerns an estimate whose main term is settled and
-whose second-order term is the open question. This is the reading the site's own
-commentary takes.
+**Status.** Open. The erdosproblems.com label was OPEN on 2026-09-18, and none
+of the claim pages is a full claim. "Estimate $f(n)$" is a request with no truth
+value. Read on this page, the label concerns an estimate whose main term is
+settled and whose second-order term is the open question. This is the reading
+erdosproblems.com's own commentary takes.
 
 The main term is determined. Erdős's Theorem 2 of 1965 gives $f(n)\ge n/3$
 ($n-1$ in place of $n$ when $0\in A$). It appeared in a proceedings volume with
@@ -73,25 +73,25 @@ refereed) gives $f(n)\le n/3+o(n)$. It is an accepted partial claim on
 
 The second-order term is open. The best lower bound is
 $f(n)\ge n/3+c\log\log n$, Theorem 1.2 of Bedert's 2025 preprint
-(arXiv:2502.08624v1). The site's commentary adopts it, and it is a pending
-partial claim on
+(arXiv:2502.08624v1). The erdosproblems.com commentary adopts it, and it is a
+pending partial claim on
 [[problems/additive_combinatorics/E0792/claims/2025_02_12_bedert|its claim page]].
 It came after Bourgain's $(n+2)/3$ on sets of positive integers and the
 $(n+1)/3$ of Alon and Kleitman on sets of nonzero integers. Alon and Kleitman's
 result appeared in 1990 as a chapter in a tribute volume with no refereeing
 evidence, so it is a pending partial claim on
 [[problems/additive_combinatorics/E0792/claims/1990_01_01_alon_kleitman|its claim page]].
-No upper bound sharper than $o(n)$ is in hand. A proof claim on the site's tab
-(9 September 2026), to which the site gives no kind, is by Bedert, worked out
-with GPT 6 Astra as the tab names it. It asserts $n/3+(\log n)^{1/3-o(1)}$ and
-is recorded as a pending partial claim on
+No upper bound sharper than $o(n)$ is in hand. A proof claim on the
+erdosproblems.com tab (9 September 2026), to which erdosproblems.com gives no
+kind, is by Bedert, worked out with GPT 6 Astra as the tab names it. It asserts
+$n/3+(\log n)^{1/3-o(1)}$ and is recorded as a pending partial claim on
 [[problems/additive_combinatorics/E0792/claims/2026_09_09_bedert|its claim page]].
 
 **Source.** [erdosproblems.com/792](https://www.erdosproblems.com/792),
-accessed 2026-09-18T15:09Z: the problem page (OPEN, with the site's note that
-no finite computation can resolve it; last edited 23 January 2026; source keys
-[Er65], [Er73], [Er92c], [Va99, 1.22]; commentary citing [AlKl90], [Bo97],
-[Be25b], [EGM14] and Green's open problems list; indicators "Formalised
+accessed 2026-09-18T15:09Z: the problem page (OPEN, with the erdosproblems.com
+note that no finite computation can resolve it; last edited 23 January 2026;
+source keys [Er65], [Er73], [Er92c], [Va99, 1.22]; commentary citing [AlKl90],
+[Bo97], [Be25b], [EGM14] and Green's open problems list; indicators "Formalised
 statement? No" and "OEIS: Possible"), its three-comment discussion thread (25
 and 26 July 2026) and its proof-claim tab with one proof claim (9 September
 2026). Cite as: T. F. Bloom, Erdős Problem #792,
@@ -170,12 +170,12 @@ not formalized and an OEIS entry marked "possible".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18T15:09Z).** The statement above;
-OPEN, with the site's note that no finite computation can resolve it; last
-edited 23 January 2026. The commentary credits the simple proof of
-$f(n)\ge n/3$ to Erdős [Er65], the improvements to $(n+1)/3$ and $(n+2)/3$ to
-Alon and Kleitman [AlKl90] and Bourgain [Bo97], the best lower bound
-$f(n)\ge n/3+c\log\log n$ to Bedert [Be25b] and the best upper bound
+**The question (erdosproblems.com formulation of 2026-09-18T15:09Z).** The
+statement above; OPEN, with the erdosproblems.com note that no finite
+computation can resolve it; last edited 23 January 2026. The commentary credits
+the simple proof of $f(n)\ge n/3$ to Erdős [Er65], the improvements to $(n+1)/3$
+and $(n+2)/3$ to Alon and Kleitman [AlKl90] and Bourgain [Bo97], the best lower
+bound $f(n)\ge n/3+c\log\log n$ to Bedert [Be25b] and the best upper bound
 $f(n)\le n/3+o(n)$ to Eberhard, Green and Manners [EGM14], and records that
 Green's list of open problems opens with this one. The thread (three
 comments): on 25 July 2026 a commenter points to a continuous version of the
@@ -232,10 +232,10 @@ printed numbers and nothing more: among $\{2,3,4,5,6,8,10\}$ the largest
 subset with no solution of $a+b=c$ has three elements when $a=b$ is allowed
 (for instance $\{3,4,5\}$) and four when only distinct summands count
 ($\{2,3,4,8\}$, $\{3,4,5,10\}$ and others), so the bound $3n/7$ from Klarner's
-numbers needs the convention of the site's statement, as the 1965 sentence
-says, while the 1973 sentence's $f(n)<\frac12n$ "even if we exclude $j_1=j_2$"
-is not supported by the printed example, which gives only $4n/7$ in that
-convention (Hilton's example is not printed). Nothing is decided about what
+numbers needs the convention of the erdosproblems.com statement, as the 1965
+sentence says, while the 1973 sentence's $f(n)<\frac12n$ "even if we exclude
+$j_1=j_2$" is not supported by the printed example, which gives only $4n/7$ in
+that convention (Hilton's example is not printed). Nothing is decided about what
 Klarner and Hilton showed; the upper bound now in force, [EGM14], holds in the
 stronger distinct-summand form.
 
@@ -251,8 +251,8 @@ of [AlKl90], pp. 13--14: "Any set $B$ of $n$ non-zero integers contains a
 sum-free subset $A$ of cardinality $|A|>\frac13n$", the strict inequality
 being the improvement over Erdős, whose result the authors "learned later" had
 been "proved by Erdős more than twenty years ago"; since $|A|$ is an integer
-this is the site's $(n+1)/3$ (a chapter in a tribute volume with no refereeing
-evidence found, so a pending partial claim on
+this is erdosproblems.com's $(n+1)/3$ (a chapter in a tribute volume with no
+refereeing evidence found, so a pending partial claim on
 [[problems/additive_combinatorics/E0792/claims/1990_01_01_alon_kleitman|its claim page]];
 it covers sets with negative elements, which Bourgain's bound does not). The
 paper's Proposition 1.2 (p. 14) extends the bound to sequences of nonzero
@@ -263,11 +263,11 @@ infimum of $s(B)/|B|$ over sequences is not attained.
 [[../library/additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/proposition_1_3|Proposition 1.3]]
 of [Bo97], p. 72: "$S(B)\ge\frac13(|B|+2)$, for any $B\subset\mathbb Z_+$",
 where "$S(B)$ denotes the maximum size of a sumfree subset of $B$" and sumfree
-means $(A+A)\cap A=\emptyset$ (p. 71), the convention of the site's statement.
-The proof (pp. 74--76) writes Erdős's rotation argument as the Fourier
-minorization $S(B)\ge\frac{|B|}3+\max_x\sum_{m\in B}(f-\frac13)(mx)$ for the
-indicator $f$ of $(1/3,2/3)$ and shows the maximum exceeds $\frac13$ by a case
-analysis on the three smallest elements of $B$, concluding (3.24) "for any
+means $(A+A)\cap A=\emptyset$ (p. 71), the convention of the erdosproblems.com
+statement. The proof (pp. 74--76) writes Erdős's rotation argument as the
+Fourier minorization $S(B)\ge\frac{|B|}3+\max_x\sum_{m\in B}(f-\frac13)(mx)$ for
+the indicator $f$ of $(1/3,2/3)$ and shows the maximum exceeds $\frac13$ by a
+case analysis on the three smallest elements of $B$, concluding (3.24) "for any
 $B\subset\mathbb Z_+$, $|B|\ge3$"; the statement's missing hypothesis $n\ge3$
 is needed ($\{1,2\}$ has $S=1<\frac43$), and it is the form in which [EGM14],
 pp. 1--2, quotes it ("who showed $f(n)\geqslant\frac13(n+2)$ for
@@ -293,11 +293,11 @@ $\varphi$ of $(1/3,2/3)$, through Bourgain's Fourier expansion, inverse
 theorems for sets with small $L^1$ norm of $\hat1_A$, a dense model and the
 distribution of $A$ modulo small primes (the paper's overview, pp. 3--5; the
 proof, Sections 4--9, is not checked in this corpus). Acceptance evidence for
-[Be25b]: the site's commentary calls it the best lower bound known; three
-2025--2026 preprints cited it (Semantic Scholar, 2026-09-18), none a review;
-there was no journal record (Crossref bibliographic query, 2026-09-18) and one
-arXiv version. The bound is therefore recorded with the preprint qualification,
-as a pending partial claim on
+[Be25b]: the erdosproblems.com commentary calls it the best lower bound known;
+three 2025--2026 preprints cited it (Semantic Scholar, 2026-09-18), none a
+review; there was no journal record (Crossref bibliographic query, 2026-09-18)
+and one arXiv version. The bound is therefore recorded with the preprint
+qualification, as a pending partial claim on
 [[problems/additive_combinatorics/E0792/claims/2025_02_12_bedert|its claim page]].
 
 **The upper bound.**
@@ -323,9 +323,10 @@ compared with the journal text. Before it, the constants $\sigma\le7/15$
 $11/28-\varepsilon$ (Alon) are listed on [EGM14], p. 2, and [Be25b], p. 2,
 with the trivial $f(n)\le\frac12(n+1)$.
 
-**The 2026 claim.** The proof-claim tab carries one proof claim, to which the
-site gives no kind, submitted 2026-09-09 15:03:14 by Benjamin Bedert, the
-author of [Be25b], declaring the use of the model GPT 6 Astra, recorded on
+**The 2026 claim.** The proof-claim tab carries one proof claim, to which
+erdosproblems.com gives no kind, submitted 2026-09-09 15:03:14 by Benjamin
+Bedert, the author of [Be25b], declaring the use of the model GPT 6 Astra,
+recorded on
 [[problems/additive_combinatorics/E0792/claims/2026_09_09_bedert|its claim page]].
 It asserts $f(n)\ge n/3+(\log n)^{1/3-o(1)}$ by an approach the author had
 considered before the preprint's route and worked out in a conversation with
@@ -335,9 +336,9 @@ manner of Sanders's papers; its note says the write-up is AI-generated and
 that a human-readable version is intended. The write-up is a document on a
 file-sharing service, not a citable source, and is not examined in this
 corpus; the two comments on the claim, a congratulation and a question about
-the write-up's contents, review nothing; the site's label and commentary do
-not adopt it. The thread's [FGY26] proves, per its abstract, that an open
-subset of $(0,1)$ with no $x,y,z$ with $xy=z$ has measure at most $1/3$,
+the write-up's contents, review nothing; the erdosproblems.com label and
+commentary do not adopt it. The thread's [FGY26] proves, per its abstract, that
+an open subset of $(0,1)$ with no $x,y,z$ with $xy=z$ has measure at most $1/3$,
 Green's Problem 3; it is the multiplicative analog of the real version of this
 problem and not the problem.
 
@@ -345,8 +346,8 @@ problem and not the problem.
 bound sharper than $o(n)$, a refereed version of [Be25b], or a review or
 dispute of it.
 
-- The site: problem page, discussion thread and proof-claim tab as read on
-  2026-09-18; the formal-conjectures directory listing (no file) and the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab as read
+  on 2026-09-18; the formal-conjectures directory listing (no file) and the
   community database, both on 2026-09-18.
 - arXiv: the abstract pages of 1301.4579 (three versions; the journal DOI)
   and 2502.08624 (one version; no journal reference); the API queries

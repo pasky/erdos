@@ -69,5 +69,5 @@ clause); the proofs of Proposition 3.1 and Lemma 3.3 are not verified
 here, and nothing is independently reviewed.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0311/_index|#311]] (the upper bound the
-site's commentary records; the conjectured rate $e^{-(c+o(1))N}$ is not
-reached).
+erdosproblems.com commentary records; the conjectured rate $e^{-(c+o(1))N}$ is
+not reached).

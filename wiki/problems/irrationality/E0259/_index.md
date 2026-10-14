@@ -27,8 +27,8 @@ $$
 
 irrational?
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
-edited 19 October 2025; accessed 2026-09-04). It credits Chen and
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN)
+(page last edited 19 October 2025; accessed 2026-09-04). It credits Chen and
 Ruzsa [ChRu99] with the proof of the stronger conjecture that every infinite
 subseries over squarefree numbers is irrational. The frontmatter standing
 derives from the
@@ -44,8 +44,8 @@ https://www.erdosproblems.com/259.
 **References.**
 
 - [ChRu99] Chen, Yong-Gao and Ruzsa, Imre Z., On the irrationality of certain
-  series. Period. Math. Hungar. 38 (1999), no. 1-2, 31-37. (The site's entry
-  omits the volume.)
+  series. Period. Math. Hungar. 38 (1999), no. 1-2, 31-37. (The
+  erdosproblems.com entry omits the volume.)
 - [Er88c] Erdős, P., On the irrationality of certain series: problems and
   results. New advances in transcendence theory (Durham, 1986) (1988), 102-109.
 
@@ -54,26 +54,26 @@ https://www.erdosproblems.com/259.
 `erdos_259 : Irrational (∑' n : ℕ, (μ n) ^ 2 * n / (2 ^ n))`, tagged
 research solved (revision of 2026-10-06); its `formal_proof` attribute,
 present since 2026-04-27, cites a Lean 4 gist by the GitHub user `ster-oc`,
-posted to the site's thread on 2026-04-21 and made with Aristotle, as that
-thread comment states, whose header says it follows the Chen--Ruzsa
+posted to the erdosproblems.com thread on 2026-04-21 and made with Aristotle, as
+that thread comment states, whose header says it follows the Chen--Ruzsa
 irrationality criterion. The claim page carries the pinned link, with a
 later port of the gist in Boris Alexeev's lean-proofs repository. The corpus
 has not built or audited either file, so no `formalized` evidence is listed.
 
 ## Current assessment
 
-The site labeled Problem 259 PROVED (LEAN) (page last edited 19 October 2025;
-accessed 2026-09-04). The standing rests on Chen and Ruzsa's
-refereed paper and the curator's credit, the evidence on the claim page; the
-paper's theorem is recorded from the curator's remark, the formal-conjectures
-docstring, the OEIS entry A371134 and the labels of the Lean gist (the
-paper's Lemmas 1 and 3 and Theorem 4), not from its full text, which the
-library does not hold. Search scope: the site's page, its discussion thread
-(three comments, 2025-09-02 to 2026-09-28, on 2026-10-07; no proof claims),
-the formal-conjectures file, the Crossref record of the paper and the OEIS entry
-A371134. The thread's latest comment, of 2026-09-28, links a
-dated manuscript claiming that the sum is normal to base 2, a stronger
-statement than the question; it is recorded, unreviewed, on
+Bloom's catalog labeled Problem 259 PROVED (LEAN) (page last edited 19 October
+2025; accessed 2026-09-04). The standing rests on Chen and Ruzsa's refereed
+paper and the curator's credit, the evidence on the claim page; the paper's
+theorem is recorded from the curator's remark, the formal-conjectures docstring,
+the OEIS entry A371134 and the labels of the Lean gist (the paper's Lemmas 1 and
+3 and Theorem 4), not from its full text, which the library does not hold.
+Search scope: the erdosproblems.com page, its discussion thread (three comments,
+2025-09-02 to 2026-09-28, on 2026-10-07; no proof claims), the
+formal-conjectures file, the Crossref record of the paper and the OEIS entry
+A371134. The thread's latest comment, of 2026-09-28, links a dated manuscript
+claiming that the sum is normal to base 2, a stronger statement than the
+question; it is recorded, unreviewed, on
 [[problems/irrationality/E0259/claims/2026_09_28_ringer|its own claim page]].
 No wider literature search was made, and no independent assessment of proof
 coverage is recorded.

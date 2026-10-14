@@ -24,11 +24,11 @@ updated: 2026-10-08T02:55:41Z
 $A=\{a_1,a_2,\ldots,\}\subset \mathbb{Z}^3$ be an infinite $S$-walk, so that
 $a_{i+1}-a_i\in S$ for all $i$. Must $A$ contain three collinear points?
 
-**Status.** The site labeled the problem DISPROVED (LEAN) on its problem page as
-accessed 2026-09-08. The site's export of 2026-09-04 gave the label OPEN. That
-was the day the curator confirmed the update. The site credits Cambie and
-Kalviainen, assisted by AI, with an infinite bounded-step walk in $\mathbb{Z}^3$
-containing no three collinear points [CaKa26]. This is
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN) on its problem
+page as accessed 2026-09-08. The erdosproblems.com export of 2026-09-04 gave the
+label OPEN. That was the day the curator confirmed the update. erdosproblems.com
+credits Cambie and Kalviainen, assisted by AI, with an infinite bounded-step
+walk in $\mathbb{Z}^3$ containing no three collinear points [CaKa26]. This is
 [[../library/discrete_geometry/cambie_kalviainen_2026_small_step_walk/theorem_1|Theorem 1]]
 of arXiv:2609.01766v1 (submitted 2026-09-01). The derived standing agrees with
 the label. It rests on the accepted
@@ -53,7 +53,7 @@ https://www.erdosproblems.com/193.
 The authors' repository holds a Lean formalization of the Gaussian-integer
 proof, which replaced their earlier formalization of the Hilbert-curve
 construction; both are linked at pinned commits from their claim pages. The
-site's Lean qualification and the `formal_proof` attribute of the
+erdosproblems.com Lean qualification and the `formal_proof` attribute of the
 [formal-conjectures
 file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/193.lean)
 point to that Gaussian-integer development, whose main theorem is

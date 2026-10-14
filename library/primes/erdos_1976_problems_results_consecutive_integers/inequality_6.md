@@ -49,12 +49,13 @@ $k(n)=\max\{k:n_k\le n\}$ (an observation made here). Under this inverse,
 substitution made here: with $\log k=c\sqrt{\log n\log\log n}$, the
 exponent $(\log k)^2/\log\log k$ of (6) is $(2c^2+o(1))\log n$, which is at
 most $\log n$ for large $n$ whenever $c<1/\sqrt2$); the conjecture (7) is
-$\log k(n)\le(\log n)^{1/(2-\epsilon)}$, the site's displayed question
+$\log k(n)\le(\log n)^{1/(2-\epsilon)}$, erdosproblems.com's displayed question
 $\log k(n)\le(\log n)^{1/2+o(1)}$; the reported bound
 $n_k>k^2\exp((\log k)^c)$ gives $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$ for
 some $c'>0$; and the unproved $n_k>k^{2+\epsilon}$ is $k(n)\le n^{1/2-c}$.
 These translations are the page's own one-line substitutions, named as
-such; the site's Problem 962 commentary states the same translated bounds.
+such; erdosproblems.com's Problem 962 commentary states the same translated
+bounds.
 
 **Source.** P. Erdős, *Problems and results on consecutive integers*, Publ.
 Math. Debrecen 23 (1976), no. 3--4, 271--282, DOI 10.5486/pmd.1976.23.3-4.15

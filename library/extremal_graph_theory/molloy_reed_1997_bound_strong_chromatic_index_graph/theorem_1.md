@@ -112,8 +112,8 @@ and the conjecture are cited to the paper's [5],
   the chain of upper bounds ($1.998$, $1.93$, $1.835$, $1.772$), all for
   large $\Delta$, and the affirmative answer to the 1985 question whether
   any $(2-\varepsilon)\Delta^2$ holds, with $\varepsilon=0.002$; the bound
-  $\mathrm{sq}(G)\le1.998\Delta^2$ for $\Delta$ sufficiently large that the
-  site credits to Molloy and Reed. The paper states the conjecture
+  $\mathrm{sq}(G)\le1.998\Delta^2$ for $\Delta$ sufficiently large that
+  erdosproblems.com credits to Molloy and Reed. The paper states the conjecture
   $\frac54\Delta^2$ and leaves it open, its own methods reaching, in the
   authors' estimate in its Remarks, no constant "much smaller than 1.9".
   The next step is

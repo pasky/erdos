@@ -5,7 +5,7 @@ desc: |
   Distribution of the primes, prime gaps, and prime values and patterns in
   arithmetic sequences.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Primes
@@ -190,7 +190,7 @@ congruences $a_i\pmod{p_i}$ that cover every integer $n<x$.
 [[problems/primes/E1201/_index|E1201/]]: Asks whether, for all
 $\epsilon,\eta>0$, some $k$ makes the largest prime factor of
 $n(n+1)\cdots(n+k)$ exceed $n^{1-\epsilon}$ on a set of $n$ of lower density at
-least $1-\eta$, as the site's curator reads the density.
+least $1-\eta$, as the erdosproblems.com curator reads the density.
 
 [[problems/primes/E1202/_index|E1202/]]: Asks whether some $k$ ensures that, for
 any $k$ primes $p_i<n^{1-\epsilon}$, removing $(p_i-1)/2$ residue classes modulo
@@ -206,4 +206,4 @@ Erdős's first version, without the composite condition.
 Distribution of the primes, prime gaps, and prime values and patterns in
 arithmetic sequences.
 
-Site tags routed here: number theory, primes.
+erdosproblems.com tags routed here: number theory, primes.

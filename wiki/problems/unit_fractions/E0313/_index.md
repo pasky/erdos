@@ -29,17 +29,17 @@ $$
 
 where $m\geq 2$ is an integer and $p_1<\cdots<p_k$ are distinct primes?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page carries no
-last-edited stamp). Clearing denominators shows that $1/m=1-\sum1/p_i$ has
-numerator prime to every $p_i$ over the denominator $p_1\cdots p_k$, so
-$m=p_1\cdots p_k$ (the site's commentary) and a solution is the same thing as a
-squarefree $m>1$ with $1/m+\sum_{p\mid m}1/p=1$, a primary pseudoperfect number;
-each $m$ gives at most one solution. The question is whether there are
-infinitely many primary pseudoperfect numbers. With $k=1$ the equation allows
-$1/2=1-1/2$, so $m=2$ counts, as in OEIS A054377.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+carries no last-edited stamp). Clearing denominators shows that
+$1/m=1-\sum1/p_i$ has numerator prime to every $p_i$ over the denominator
+$p_1\cdots p_k$, so $m=p_1\cdots p_k$ (the erdosproblems.com commentary) and a
+solution is the same thing as a squarefree $m>1$ with $1/m+\sum_{p\mid m}1/p=1$,
+a primary pseudoperfect number; each $m$ gives at most one solution. The
+question is whether there are infinitely many primary pseudoperfect numbers.
+With $k=1$ the equation allows $1/2=1-1/2$, so $m=2$ counts, as in OEIS A054377.
 
 **Status.** Open. Eleven solutions are known (OEIS A054377, revision of 30
-September 2026). Eight are the ones the site counts. Two more are
+September 2026). Eight are the ones erdosproblems.com counts. Two more are
 $N_9=5998279018951962402$ and $N_{10}=N_9(N_9+1)$, with nine and ten prime
 factors, published in Wang's arXiv preprint of May 2026. The eleventh is a
 second solution with ten prime factors,
@@ -54,11 +54,11 @@ search dated 2026-09-18 UTC whose scope the Current assessment records. This is
 a bounded negative finding.
 
 **Source.** [erdosproblems.com/313](https://www.erdosproblems.com/313),
-accessed 2026-09-18: the problem page (labeled OPEN, with the site's
+accessed 2026-09-18: the problem page (labeled OPEN, with erdosproblems.com's
 standard note that no finite computation can settle it; source key [ErGr80,
 p. 40]; no last-edited stamp; OEIS A054377 linked; "Formalised statement?
 Yes"), its three-comment discussion thread and its empty proof-claim tab.
-The site thanks Desmond Weisenberg. Cite as: T. F. Bloom, Erdős Problem
+erdosproblems.com thanks Desmond Weisenberg. Cite as: T. F. Bloom, Erdős Problem
 #313, https://www.erdosproblems.com/313, accessed 2026-09-18.
 
 **References.**
@@ -93,7 +93,7 @@ erdos313Solutions.Infinite` under `category research open` with proof
 `sorry`, and adds `sorry`-bodied variants for the infinitude of primary
 pseudoperfect numbers, proved test lemmas for $(6,\{2,3\})$ and
 $(42,\{2,3,7\})$, and a proved `textbook` theorem that at least eight
-primary pseudoperfect numbers exist, exhibiting the site's eight with
+primary pseudoperfect numbers exist, exhibiting erdosproblems.com's eight with
 their prime sets (by `norm_num` and `native_decide`); it predates the 2026
 numbers. The community database (teorth/erdosproblems,
 `data/problems.yaml`, 2026-09-18) records status open (last updated 31
@@ -102,7 +102,7 @@ status unformalized and OEIS A054377.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN; source [ErGr80, p. 40]. The commentary gives the examples
 $\frac12+\frac13=1-\frac16$ and $\frac12+\frac13+\frac17=1-\frac1{42}$,
 notes that $m=p_1\cdots p_k$ so that there is at most one solution for each
@@ -123,7 +123,7 @@ $\frac1{q_1}+\ldots+\frac1{q_t}+\frac1m=1$ infinitely often where
 $q_1,\ldots,q_t$ are distinct primes, such as $\frac12+\frac13+\frac16=1$?
 It is not difficult to give solutions to
 $\frac1{a_1}+\ldots+\frac1{a_n}+\frac1{\mathrm{lcm}(a_1,\ldots,a_n)}=1$."
-The site's statement is the first question.
+The erdosproblems.com statement is the first question.
 
 **Known solutions.** The primary pseudoperfect numbers known, each with
 its prime set (all eleven recomputed here by exact integer arithmetic,
@@ -133,7 +133,7 @@ $47058=2\cdot3\cdot11\cdot23\cdot31$;
 $2214502422=2\cdot3\cdot11\cdot23\cdot31\cdot47059$;
 $52495396602=2\cdot3\cdot11\cdot17\cdot101\cdot149\cdot3109$;
 $8490421583559688410706771261086=2\cdot3\cdot11\cdot23\cdot31\cdot47059\cdot2217342227\cdot1729101023519$
-(the eight of the site's list, as exhibited in the formal-conjectures
+(the eight of the erdosproblems.com list, as exhibited in the formal-conjectures
 file); and Wang's
 [[../library/unit_fractions/wang_2026_port_fillings_primary_pseudoperfect_numbers/theorem_9_1|Theorem 9.1]],
 $N_9=5998279018951962402=2\cdot3\cdot11\cdot17\cdot101\cdot157\cdot1979\cdot10093\cdot16879$,
@@ -156,7 +156,7 @@ records the $31$-digit number and $N_{10}$ in a comment of 26 May 2026
 that credits $N_{10}$ to Pedro Martins and Han M. Wang (13 April 2026),
 records the $61$-digit number in a comment of 27 September 2026, and adds
 "No other terms below $10^{24}$" (12 August 2026); those two claims are
-the entry's, not verified here. The site's count of eight is behind the
+the entry's, not verified here. erdosproblems.com's count of eight is behind the
 OEIS by three. Butske, Jaje and Mayernik proved by computation that for
 each $r\le8$ there is exactly one primary pseudoperfect number with $r$
 prime factors ([BJM00], per Wang's introduction); so $N_9$ is the first
@@ -180,7 +180,7 @@ its Problem 20.1 asks, unconditionally, for infinitely many squarefree $B$
 with all prime factors above $101$ and $797B-113322\,\partial(B)=1$, each
 of which would give a solution $113322B$. The paper is an unrefereed
 preprint with no independent review found and no statement about
-assistance in its preparation; the site's page does not cite it.
+assistance in its preparation; the erdosproblems.com page does not cite it.
 
 **Formal statements.** The formal-conjectures statement is summarized under
 Formalization; no proof artifact exists.
@@ -205,7 +205,7 @@ is a bounded negative finding.
 **Remaining gaps.** (1) Infinitude is open; the only reduction is
 conditional on an unproved hypothesis in an unrefereed preprint. (2) The
 uniqueness-per-$r$ result of [BJM00] and the OEIS statement of no further
-term below $10^{24}$ are second-hand. (3) The site's list of known
+term below $10^{24}$ are second-hand. (3) The erdosproblems.com list of known
 solutions is three short of the OEIS's; the formal-conjectures file exhibits
 eight.
 

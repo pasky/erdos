@@ -177,20 +177,20 @@ followed at the level stated in the read status. Nothing here is independently r
 $p(n)$ is the problem's $n+h(n)$ (and Griffin's $m(n)$), so the display of
 p. 84 (PDF p. 5), "$n-1+\log_2(n-1)\le p(n)\le n+\log_2(n)+H(n)+O(1)$" for
 $n\ge3$, reads $\log_2(n-1)-1\le h(n)\le\log_2n+H(n)+O(1)$ in the problem's
-letters, with $H(n)$ an iterated base-2 logarithm, the site's $\log_*n$ up
-to $O(1)$: exactly the bounds the site attributes to the paper, and exactly
-Griffin's Claim 1, which restates them with $m(n)$ for $p(n)$. The sentence
-"we can prove that" with no printed proof is the site's "claimed a proof
-(without details)". Erdős's 1971 item 10 reports the then unpublished work
-as $\log n/\log2<h(n)<\log n/\log2+L(n)$, strict on both sides and without
-an $O(1)$ term; the printed claim has non-strict inequalities, the lower
-bound $\log_2(n-1)-1$, weaker than $\log_2n$ by about one, and the $O(1)$
+letters, with $H(n)$ an iterated base-2 logarithm, erdosproblems.com's $\log_*n$
+up to $O(1)$: exactly the bounds erdosproblems.com attributes to the paper, and
+exactly Griffin's Claim 1, which restates them with $m(n)$ for $p(n)$. The
+sentence "we can prove that" with no printed proof is erdosproblems.com's
+"claimed a proof (without details)". Erdős's 1971 item 10 reports the then
+unpublished work as $\log n/\log2<h(n)<\log n/\log2+L(n)$, strict on both sides
+and without an $O(1)$ term; the printed claim has non-strict inequalities, the
+lower bound $\log_2(n-1)-1$, weaker than $\log_2n$ by about one, and the $O(1)$
 term, which is the difference the problem's thread reports. The paper proves
 neither half; the lower half is proved in
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/claim_1|Griffin 2013, Claim 1]]
-from Shi's cycle count, and the site attributes the first published proof
-of the upper half to George, Khodkar and Wallis (2016), whose chapter, filed
-at
+from Shi's cycle count, and erdosproblems.com attributes the first published
+proof of the upper half to George, Khodkar and Wallis (2016), whose chapter,
+filed at
 [[extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/_index|george_khodkar_wallis_2016_minimal_pancyclicity]],
 prints no logarithmic bound. The
 problem page reads the passage on the page image at statement depth; there

@@ -47,7 +47,7 @@ least 3, then the graph contains a $\{4\}$ or a $\{4U\}$.
 with undivided edges, so Satz 6 says: every finite graph on $n\ge4$ vertices
 with at least $2n-2$ edges contains a subdivision of $K_4$, and some graph
 on $n$ vertices with $2n-3$ edges contains none. This is the statement the
-site's commentaries on Problems 718 and 916 credit to the paper, the
+erdosproblems.com commentaries on Problems 718 and 916 credit to the paper, the
 statement Erdős's 1967 survey gives with the range $n\ge4$, and the
 theorem whose strengthening Problem 916 asks about; the paper's range
 $N\ge4$ is the survey's. The range is needed: the one-vertex graph has
@@ -103,17 +103,17 @@ is a $K_3$-cockade, and cites this theorem as "[1, Satz 6]".
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0718/_index|Problem 718]]: the theorem the
-  site's commentary credits to [Di60], every graph on $n$ vertices with at
-  least $2n-2$ edges contains a subdivision of $K_4$, in the paper's own
+  erdosproblems.com commentary credits to [Di60], every graph on $n$ vertices
+  with at least $2n-2$ edges contains a subdivision of $K_4$, in the paper's own
   text with the hypotheses finite and $N\ge4$, and the paper's own sentence
   that the $2N-3$ edge graphs of Figures 3--5 show it best possible; the
   case $r=4$ of the problem's question, with the exact threshold. The
-  conjecture that $3n-5$ edges force a subdivision of $K_5$, which the site
-  and Erdős's 1981 paper also attribute to [Di60], is not stated in this
-  paper.
+  conjecture that $3n-5$ edges force a subdivision of $K_5$, which
+  erdosproblems.com and Erdős's 1981 paper also attribute to [Di60], is not
+  stated in this paper.
 - [[../wiki/problems/extremal_graph_theory/E0916/_index|Problem 916]]: "the result of
-  Dirac [Di60]" the site's commentary says the problem strengthens, and the
-  theorem
+  Dirac [Di60]" the erdosproblems.com commentary says the problem strengthens,
+  and the theorem
   [[extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/question_p57|Erdős 1967, p. 56]]
   states with $n\ge4$, a range the paper carries itself. The best-possible
   sentence gives graphs with $2n-3$ edges and no subdivision of $K_4$, so

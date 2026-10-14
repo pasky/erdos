@@ -81,7 +81,7 @@ sketches.
 Logic 161 (2010), 1195--1215, doi:10.1016/j.apal.2009.12.007; received 9
 May 2007, accepted 26 December 2009, available online 13 May 2010. The
 result was first written up in the author's 1999 thesis of the same title
-([Sc99] on the problem page, 57 pages, not held here), which the site
+([Sc99] on the problem page, 57 pages, not held here), which erdosproblems.com
 credits as the result's first appearance; the thesis carries no day, so
 this page is dated by the first day of its year, and the labels used here
 are the journal version's.

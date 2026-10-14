@@ -4,7 +4,7 @@ title: "Theorem 1 (p. 283 = PDF p. 5): every graph on n vertices has a clique tr
 desc: |
   The Erdős–Gallai–Tuza upper bound on the clique-transversal number, proved
   by averaging the two lower bounds n − τ_C ≥ Δ and n − τ_C ≥ α + 2n/α − Δ − 3
-  from the paper's Lemmas 1 and 2; the general bound the site quotes on
+  from the paper's Lemmas 1 and 2; the general bound erdosproblems.com quotes on
   Problem 610 as n − √(2n) + O(1).
 created: 2026-09-19T07:40:00Z
 updated: 2026-10-07T15:37:17Z
@@ -66,6 +66,6 @@ Lemmas 1(a) and 2 of the paper (p. 282); nothing external.
   upper bound for Problem 1's function, which its Theorem 3 (p. 285) slightly
   improves to $n-\sqrt{2n}+\sqrt2$, against the conjectured
   $n-r(n)$ with $r(n)$ of order $\sqrt{n\log n}$.
-- [[../wiki/problems/extremal_graph_theory/E0610/_index|Problem 610]]: the bound the site
-  quotes as "$\tau(G)\le n-\sqrt{2n}+O(1)$", whose $\sqrt{2n}$ the problem
-  asks to replace by $\omega(n)\sqrt n$ or $c\sqrt{n\log n}$.
+- [[../wiki/problems/extremal_graph_theory/E0610/_index|Problem 610]]: the bound
+  erdosproblems.com quotes as "$\tau(G)\le n-\sqrt{2n}+O(1)$", whose $\sqrt{2n}$
+  the problem asks to replace by $\omega(n)\sqrt n$ or $c\sqrt{n\log n}$.

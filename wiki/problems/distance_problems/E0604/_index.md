@@ -63,20 +63,22 @@ The curator's blog post
 (8 October 2026) lists the claim, as a claim and not an endorsement, and says
 that its proof has been formalized. The second question, whether some point sees
 $\gg n/\sqrt{\log n}$ distinct distances, is not settled by the claim, so the
-problem is open; the site's remarks note that the integer grid shows that this
-bound would be best possible. The same claim's statement for all points, that
-for each fixed $\varepsilon$ the proportion of points seeing fewer than
-$n^{1-\varepsilon}$ distances tends to zero, also speaks to the site's remark
-that there may be $\gg n$ such points, for each fixed $\varepsilon$; a comment
-on the site notes that $\gg n$ such points follow from the existence of one. The
-release's companion manuscript in the same family, *A power saving for planar
-unit distances*, bounds the number of unit distances in the plane and concerns
+problem is open; the erdosproblems.com remarks note that the integer grid shows
+that this bound would be best possible. The same claim's statement for all
+points, that for each fixed $\varepsilon$ the proportion of points seeing fewer
+than $n^{1-\varepsilon}$ distances tends to zero, also speaks to the
+erdosproblems.com remark that there may be $\gg n$ such points, for each fixed
+$\varepsilon$; a comment on erdosproblems.com notes that $\gg n$ such points
+follow from the existence of one. The release's companion manuscript in the same
+family, *A power saving for planar unit distances*, bounds the number of unit
+distances in the plane and concerns
 [[problems/distance_problems/E1085/_index|Problem 1085]], where it is recorded
 on [[problems/distance_problems/E1085/claims/2026_09_23_openai|its claim page]];
 it settles nothing asked here and has no claim page in this folder. The search
-scope is the site's page export of 2026-09-04 (last edited on the site on 23
-March 2026, labeled OPEN), its proof-claims tab, which listed no claim on
-2026-10-06, and the release of 23 September 2026, whose manuscript is carded at
+scope is the erdosproblems.com page export of 2026-09-04 (last edited on
+erdosproblems.com on 23 March 2026, labeled OPEN), its proof-claims tab, which
+listed no claim on 2026-10-06, and the release of 23 September 2026, whose
+manuscript is carded at
 [[../library/distance_problems/openai_2026_weak_pinned_planar_distance_theorem/_index|openai_2026_weak_pinned_planar_distance_theorem]].
 
 ## Progress
@@ -90,15 +92,15 @@ through the coordinates $u\pm iv$, and turns the product formula into an
 overlap identity for nested grid partitions. The claim page records the
 Lean statements, their audit and the built declarations. Before the release
 the best bound was $\gg n^{c-o(1)}$ with
-$c=(48-14e)/(55-16e)=0.864137\ldots$, due to Katz and Tardos [KaTa04], as the
-site records.
+$c=(48-14e)/(55-16e)=0.864137\ldots$, due to Katz and Tardos [KaTa04], as
+erdosproblems.com records.
 
 ## Known Results
 
-The site's remarks (export of 2026-09-04) place the problem as the pinned
-form of [[problems/distance_problems/E0089/_index|Problem 89]], the distinct
-distances problem, and record the following. The integer grid shows that
-$n/\sqrt{\log n}$ would be best possible. Erdős conjectured in [Er75f] the
+The erdosproblems.com remarks (export of 2026-09-04) place the problem as the
+pinned form of [[problems/distance_problems/E0089/_index|Problem 89]], the
+distinct distances problem, and record the following. The integer grid shows
+that $n/\sqrt{\log n}$ would be best possible. Erdős conjectured in [Er75f] the
 average form $\sum_{x\in A}d(x)\gg n^2/\sqrt{\log n}$, where $d(x)$ is the
 number of distinct distances from $x$. In [Er97e] he offered a prize for a
 solution, without making clear whether the prize is for one such point or

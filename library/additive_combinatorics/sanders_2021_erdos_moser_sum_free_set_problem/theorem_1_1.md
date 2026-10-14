@@ -72,7 +72,7 @@ the attribution; nothing checked.
 
 - [[../wiki/problems/additive_combinatorics/E0787/_index|Problem 787]]: an
   integer set of each size $n$ with $M(A)=\exp(O(\sqrt{\log n}))$, hence
-  $g(n)=\exp(O(\sqrt{\log n}))$; the site displays the bound as
+  $g(n)=\exp(O(\sqrt{\log n}))$; erdosproblems.com displays the bound as
   $g(n)\ll\exp(\sqrt{\log n})$ and attributes it to Ruzsa's 2005 paper.
   This page holds Sanders's quotation only; the result and its proof are
   Ruzsa's, paged on

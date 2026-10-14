@@ -50,6 +50,6 @@ of the same paper.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]: the case $c=3$ for
-  every $t$: in the site's letters ($t=r$, $c=3$),
+  every $t$: in erdosproblems.com's letters ($t=r$, $c=3$),
   $d(t,3)\le2\binom{t-1}3+7\binom{t-1}2+t$ for $t>3$, so $d(t,3)$ exists
   for every $t$; it says nothing about $c\ge4$.

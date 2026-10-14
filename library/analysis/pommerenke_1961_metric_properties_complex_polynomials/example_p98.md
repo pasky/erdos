@@ -67,7 +67,7 @@ None beyond the binomial expansion of $(r^n+\omega)^{1/n}$.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1048/_index|Problem 1048]]: the negative answer for
-  $1<r<2$, the range the site's DISPROVED (LEAN) label rested on;
+  $1<r<2$, the range erdosproblems.com's DISPROVED (LEAN) label rested on;
   Theorem 3 answers the range $0<r\le1$ affirmatively for the closed set
   $E$; for the problem's open set and strict inequality this carries over
   for $0<r\le1/2$ (the argument is on

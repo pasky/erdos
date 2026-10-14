@@ -28,9 +28,9 @@ number of congruent triangles.
 arXiv:2604.03609v3. The accepted claim is
 [[problems/discrete_geometry/E0633/claims/2026_04_04_beeson_laczkovich_zhang|Beeson–Laczkovich–Zhang 2026]].
 The eight families in that theorem are exactly the triangles that admit a
-nonsquare tiling. All other triangles answer this question. The site page,
-accessed 2026-09-05, records the solution, and the authors' primary paper
-supplies the argument.
+nonsquare tiling. All other triangles answer this question. The
+erdosproblems.com page, accessed 2026-09-05, records the solution, and the
+authors' primary paper supplies the argument.
 
 **Source.** [erdosproblems.com/633](https://www.erdosproblems.com/633), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #633,
@@ -54,17 +54,18 @@ unproved declarations. No Lean proof of the solution is recorded.
 
 ## Current assessment
 
-The site accepted the joint paper as the solution, and on 2026-09-05 its
-proof-claims tab listed no claim. An April 2026 comment on its thread describes
-a strengthening in preliminary form; the precise statement is the paper's
-Theorem 3 in its later version.
+erdosproblems.com accepted the joint paper as the solution, and on 2026-09-05
+its proof-claims tab listed no claim. An April 2026 comment on its thread
+describes a strengthening in preliminary form; the precise statement is the
+paper's Theorem 3 in its later version.
 
-Beyond the site, the arXiv version history and the authors' [publication
-list](https://www.michaelbeeson.com/research/papers/pubs.php) and [academic
-page](https://yanxzhang.com/academic/) identify the same solution. Searches for
-later corrections or competing solutions, and for related announcements on X,
-found no later primary replacement. The manuscript is a preprint with no journal
-record found; source acceptance and independent proof review are distinct.
+Beyond erdosproblems.com, the arXiv version history and the authors'
+[publication list](https://www.michaelbeeson.com/research/papers/pubs.php) and
+[academic page](https://yanxzhang.com/academic/) identify the same solution.
+Searches for later corrections or competing solutions, and for related
+announcements on X, found no later primary replacement. The manuscript is a
+preprint with no journal record found; source acceptance and independent proof
+review are distinct.
 
 No independent proof-review verdict for the classification is recorded on
 this page.
@@ -77,14 +78,14 @@ its sides. An isosceles triangle has a two-tile dissection along its
 symmetry axis. The classification therefore concerns which additional,
 nonsquare counts are possible.
 
-The site attributes to Soifer [So09b] a sufficient condition: if the
+erdosproblems.com attributes to Soifer [So09b] a sufficient condition: if the
 three side lengths and, separately, the three angles are integrally
 independent, every congruent tiling has square count. It gives the
 triangle with sides $\sqrt2,\sqrt3,2$ as an example. It also attributes
 to [So09] the different statement that every triangle can be dissected
 into $n$ similar triangles when $n\notin\{2,3,5\}$, and that some
 triangle admits none of those three counts. These historical results
-are given as the site states them. Similarity permits different tile
+are given as erdosproblems.com states them. Similarity permits different tile
 sizes and is a different question from congruence.
 
 Laczkovich's earlier angle classification and existence theorems,

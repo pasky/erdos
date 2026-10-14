@@ -40,7 +40,7 @@ meeting every maximal clique on at least two vertices) and
 $H(n)=\max\{k:R(3,k)\le n\}$ is the least independence number of a
 triangle-free graph on $n$ vertices. The write-up is the file `PROOF.md` of the
 repository veljjanoski/erdos151 at the pinned commit of 2026-09-28, posted to
-the site's proof-claim tab the same day as a partial claim by Daniel
+the erdosproblems.com proof-claim tab the same day as a partial claim by Daniel
 Veljjanoski, who credits the reduction to a research-log issue of 25
 September 2026 by the GitHub user AlyciaBHZ
 ([issue 9934](https://github.com/the-omega-institute/trureturing/issues/9934)
@@ -102,7 +102,8 @@ Veljjanoski (account veljjanoski) on 28 September 2026, giving "Claude
 > edge lies in at most two triangles, which removes the need for that theorem.
 > Independently, SAT computations verify the inequality for $n\le 22$.
 
-Posted to the site's forum by Daniel Veljjanoski on 23 September 2026:
+Posted to the erdosproblems.com forum by Daniel Veljjanoski on 23 September
+2026:
 
 > A small-case check. Since the complement of a clique transversal is a vertex
 > set containing no maximal clique, $\tau(G)>n-H(n)$ holds iff every set of
@@ -130,7 +131,8 @@ Posted to the site's forum by Daniel Veljjanoski on 23 September 2026:
 >
 > AI-usage disclosure: Claude (Anthropic) was used as assistant.
 
-Posted to the site's forum by Daniel Veljjanoski on 28 September 2026:
+Posted to the erdosproblems.com forum by Daniel Veljjanoski on 28 September
+2026:
 
 > Update: the inequality now holds for every graph on $n\le 39$ vertices by a
 > short proof, submitted in the proof-claims tab (write-up:
@@ -150,6 +152,6 @@ Radziszowski's dynamic survey.
 **Standing.** Claimed. The write-up says it was checked by referee passes of an
 AI system, Claude (Anthropic) as the tab names it, and by computer checks of
 its lemmas on small graphs, not by a human referee; no outside review is known,
-the site's label was unchanged (OPEN), and no step of the argument has been
-checked. A partial claim derives nothing for the problem's standing, which
-stays open.
+the erdosproblems.com label was unchanged (OPEN), and no step of the argument
+has been checked. A partial claim derives nothing for the problem's standing,
+which stays open.

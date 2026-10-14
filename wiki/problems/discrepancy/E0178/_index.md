@@ -34,10 +34,11 @@ for all $d\geq 1$?
 **Status.** PROVED (LEAN). Beck [Be81] answered yes, and [Be17] made the bound
 quantitative: $\ll d^{4+\epsilon}$ for every $\epsilon>0$. The accepted claim is
 [[problems/discrepancy/E0178/claims/1981_09_01_beck|Beck 1981]]. A Lean 4 proof
-of a theorem `erdos_178`, following Beck's argument, was posted to the site's
-thread on 21 April 2026. The theorem's statement was adopted by
-formal-conjectures, in its answer form, on 26 June 2026. A claim of 19 September
-2026, [[problems/discrepancy/E0178/claims/2026_09_19_korsky|Korsky 2026]], would
+of a theorem `erdos_178`, following Beck's argument, was posted to the
+erdosproblems.com thread on 21 April 2026. The theorem's statement was adopted
+by formal-conjectures, in its answer form, on 26 June 2026. A claim of 19
+September 2026,
+[[problems/discrepancy/E0178/claims/2026_09_19_korsky|Korsky 2026]], would
 reprove the statement with the explicit bound $\ll d^{3/2+\sqrt2}$ in place of
 Beck's exponent. It is unreviewed.
 
@@ -67,7 +68,7 @@ in the release's
 at the pinned revision) proves a prefix-signing bound $C\sqrt d$ for every
 finite family of vectors in the unit ball of $\mathbb{R}^d$; it does not
 state this problem, gives no single signing for infinitely many sets, and
-is not what the site's Lean qualifier refers to.
+is not what the erdosproblems.com Lean qualifier refers to.
 
 ## Progress
 

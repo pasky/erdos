@@ -37,8 +37,8 @@ most three $3$-powerful numbers have positive lower natural density, and in
 particular there are infinitely many of them. The result is Basile Beyer de
 Ryke, *A density deficit for sums of three cube-full numbers*, Theorem 1.1
 and Corollary 1.2, an unpublished manuscript first posted as arXiv:2609.35772
-on 2026-07-26 (its only version) and filed on the site's proof-claims tab on
-2026-09-06 as a partial proof claim with a copy of the manuscript; both
+on 2026-07-26 (its only version) and filed on the erdosproblems.com proof-claims
+tab on 2026-09-06 as a partial proof claim with a copy of the manuscript; both
 postings carry the same result and are recorded on this one page. The source
 card is
 [[../library/diophantine_problems/beyer_de_ryke_2026_density_deficit_cube_full_sums/_index|beyer_de_ryke_2026_density_deficit_cube_full_sums]].
@@ -72,10 +72,11 @@ finitely many of them, chosen by Chebotarev's theorem with prescribed
 reciprocal sum, are combined into one reduced class on which the three-sum
 count is small, with the remaining parts controlled by the two tail weights.
 
-**Acceptance.** None is recorded. The manuscript is not refereed. The site's
-label was OPEN (page last edited 2025-11-03), and the tab's claim had no
-comments on 2026-10-06. No independent review is on record, and there is no
-Lean formalization of the manuscript's own argument. The statement was checked
-at claims level on the source card, but no review of the proof is recorded.
+**Acceptance.** None is recorded. The manuscript is not refereed. The
+erdosproblems.com label was OPEN (page last edited 2025-11-03), and the tab's
+claim had no comments on 2026-10-06. No independent review is on record, and
+there is no Lean formalization of the manuscript's own argument. The statement
+was checked at claims level on the source card, but no review of the proof is
+recorded.
 
 **Depends on.** No other wiki page; the claim rests on the manuscript above.

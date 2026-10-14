@@ -29,14 +29,14 @@ Conjecture 1.3 completely."
 **Source.** H. Chen and Y. Chen, *On monochromatic path covers conjecture of
 Erdős--Gyárfás*, arXiv:2607.21915v1 (24 July 2026); Theorem 1.5 on p. 2,
 read on the rendered page image and in the text layer. An unrefereed
-preprint; the site's Problem 518 page lists it as a proof claim submitted
-2026-07-29 without adopting it (the source card records the searches).
+preprint; erdosproblems.com's Problem 518 page lists it as a proof claim
+submitted 2026-07-29 without adopting it (the source card records the searches).
 
 **Read depth.** Claims checked for the statement only: the theorem, the
 conjecture it addresses and the conventions paragraph were read clause by
 clause. The proof (Section 3, pp. 3--13) was located and not read; no step
 was checked, and nothing here is independently reviewed. This page records a
-claim, not a result accepted by the compilation or by the site.
+claim, not a result accepted by the compilation or by erdosproblems.com.
 
 ## Proof pointer (the preprint's own)
 
@@ -60,8 +60,8 @@ Theorem 1.4.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0518/_index|Problem 518]]: the claim that the site's
-  statement holds for every $n\ge1$, where the refereed theorem of
-  Pokrovskiy, Versteegen and Williams
+- [[../wiki/problems/ramsey_theory/E0518/_index|Problem 518]]: the claim that
+  the erdosproblems.com statement holds for every $n\ge1$, where the refereed
+  theorem of Pokrovskiy, Versteegen and Williams
   ([[ramsey_theory/pokrovskiy_2024_proof_conjecture_erdos_gyarfas_monochromatic_path/theorem_1_3|Theorem 1.3]])
   covers $n>20^{40}$; a lead with provenance, not status.

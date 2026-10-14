@@ -25,28 +25,29 @@ updated: 2026-10-08T01:29:59Z
 \{1,\ldots,N\}$ such that $\sum_{n\in S}\frac{1}{n}\neq 1$ for all $S\subseteq
 A$. Estimate $A(N)$.
 
-**Formulation.** The site's wording as accessed 2026-09-17 (page last edited
-23 January 2026). $A(N)$ is the largest size of a subset
-of $\{1,\ldots,N\}$ none of whose subsets has reciprocal sum one. For any
-fixed $\gamma>0$ and large $N$ the integers in $((1/e+\gamma)N,N]$ have
-reciprocal sum below one, so $A(N)\ge(1-1/e-\gamma)N-1$; the site calls
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
+edited 23 January 2026). $A(N)$ is the largest size of a subset of
+$\{1,\ldots,N\}$ none of whose subsets has reciprocal sum one. For any fixed
+$\gamma>0$ and large $N$ the integers in $((1/e+\gamma)N,N]$ have reciprocal sum
+below one, so $A(N)\ge(1-1/e-\gamma)N-1$; erdosproblems.com calls
 $A(N)\ge(1-1/e+o(1))N$ trivial.
 
-**Status.** Solved. The site's label was SOLVED (LEAN), which marks an estimate
-carried out rather than a proof or disproof. The estimate is
+**Status.** Solved. The erdosproblems.com label was SOLVED (LEAN), which marks
+an estimate carried out rather than a proof or disproof. The estimate is
 $A(N)=(1-1/e+o(1))N$, by Liu and Sawhney's Theorem 1.3 (Int. Math. Res. Not.
 2026) together with the trivial lower bound. Erdős and Graham had expected
-$A(N)=(1+o(1))N$. The site credits Croot's 2003 work with the first disproof,
-$A(N)<cN$ for some $c<1$. The Lean behind the suffix is a file in Boris
-Alexeev's `lean-proofs` collection. The file declares itself a formalization of
-Liu and Sawhney's theorem, with Codex and GPT-5.6 Sol as formal authors. It is
-linked on Liu and Sawhney's claim page and described under Existing
-formalization. The corpus has not built it and claims no formalized evidence.
+$A(N)=(1+o(1))N$. erdosproblems.com credits Croot's 2003 work with the first
+disproof, $A(N)<cN$ for some $c<1$. The Lean behind the suffix is a file in
+Boris Alexeev's `lean-proofs` collection. The file declares itself a
+formalization of Liu and Sawhney's theorem, with Codex and GPT-5.6 Sol as formal
+authors. It is linked on Liu and Sawhney's claim page and described under
+Existing formalization. The corpus has not built it and claims no formalized
+evidence.
 
 **Source.** [erdosproblems.com/300](https://www.erdosproblems.com/300),
 accessed 2026-09-17: the problem page (SOLVED (LEAN); last edited 23
 January 2026; OEIS A390393 linked), its empty discussion thread and its
-empty proof-claim tab. The site cites
+empty proof-claim tab. erdosproblems.com cites
 [ErGr80] and [Va99, 1.14] as the problem's sources and [Cr03] and [LiSa24]
 in its commentary. Cite as: T. F. Bloom, Erdős Problem #300,
 https://www.erdosproblems.com/300, accessed 2026-09-17.
@@ -68,7 +69,7 @@ https://www.erdosproblems.com/300, accessed 2026-09-17.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999; item
-  1.14 as cited by the site. Library home:
+  1.14 as cited by erdosproblems.com. Library home:
   [[../library/number_theory/various_1999_some_pauls_favorite_problems/_index|various_1999_some_pauls_favorite_problems]];
   item 1.14 (printed p. 3), whose first line the scan cuts at the margin
   after "$\le n$": "What is the maximum number of integers
@@ -86,14 +87,14 @@ described under Existing formalization. The corpus has built neither.
 **Claims.** One accepted full claim settles the problem:
 [[problems/unit_fractions/E0300/claims/2024_04_10_liu_sawhney|Liu and Sawhney's Theorem 1.3]]
 with the trivial lower bound, refereed in Int. Math. Res. Not. 2026 and
-credited by the site's curator independently of the authors. The disproof
-of the expected asymptotic that the site credits to Croot is the accepted
-partial claim
+credited by the erdosproblems.com curator independently of the authors. The
+disproof of the expected asymptotic that erdosproblems.com credits to Croot is
+the accepted partial claim
 [[problems/unit_fractions/E0300/claims/2003_03_01_croot|Croot's bound]],
-recorded as the attribution the site and Liu and Sawhney make. The
+recorded as the attribution erdosproblems.com and Liu and Sawhney make. The
 frontmatter standing is derived from these pages.
 
-**The question.** The site asks for the order of $A(N)$, showed SOLVED
+**The question.** erdosproblems.com asks for the order of $A(N)$, showed SOLVED
 (LEAN), and says in its commentary that Erdős and Graham believed
 $A(N)=(1+o(1))N$, that Croot disproved this by showing $A(N)<cN$ for some
 constant $c<1$ and all large $N$, that $A(N)\ge(1-1/e+o(1))N$ is trivial,
@@ -133,19 +134,19 @@ subset." Croot's paper
 ([[../library/unit_fractions/croot_2003_coloring_conjecture_about_unit_fractions/main_theorem|Main Theorem]])
 proves a unit-subsum criterion for heavy sets of smooth integers and does
 not state this consequence, and neither paper writes out the deduction. It
-is recorded here as the attribution the site and Liu and Sawhney make, not
-as a compiled result. The monograph's expectation is on printed p. 36:
-"Let $A(n)$ denote the largest value of $|S|$ such that
-$S\subseteq\{1,2,\ldots,n\}$ contains no set in $\mathscr X$. Probably
-$A(n)=n+o(n)$ but we cannot prove this."
+is recorded here as the attribution erdosproblems.com and Liu and Sawhney make,
+not as a compiled result. The monograph's expectation is on printed p. 36: "Let
+$A(n)$ denote the largest value of $|S|$ such that $S\subseteq\{1,2,\ldots,n\}$
+contains no set in $\mathscr X$. Probably $A(n)=n+o(n)$ but we cannot prove
+this."
 
 **Data lead, not status.** OEIS A390393 (H. Raza, 4 November 2025) lists
 $a(n)$, the maximum size of a subset of $\{1,\ldots,n\}$
 with no unit subsum, beginning $0,1,2,3,4,4,5,6,7,8,9,10,11,12,12,\ldots$,
-and cites the site and the Liu–Sawhney asymptotic. Its terms were not
+and cites erdosproblems.com and the Liu–Sawhney asymptotic. Its terms were not
 verified here.
 
-**Search scope (2026-09-17).** The search covered the site's problem,
+**Search scope (2026-09-17).** The search covered the erdosproblems.com problem,
 discussion and proof-claim pages; the community database record; the
 formal-conjectures tree, which had no file for Problem 300 on 2026-09-17; the
 directory `src/v4.29.1/ErdosProblems` of Boris Alexeev's `lean-proofs`
@@ -172,8 +173,8 @@ the Lean 4 proof behind the label's suffix is unbuilt and unaudited here.
 
 - Erdős and Graham (1980, printed p. 36): the expectation $A(n)=n+o(n)$.
 - Croot (2003): a constant $c<1$ with $A(N)<cN$ for large $N$, as
-  attributed by the site to the paper and by Liu and Sawhney to Croot's work;
-  neither names a theorem or writes the deduction, and the paper's
+  attributed by erdosproblems.com to the paper and by Liu and Sawhney to Croot's
+  work; neither names a theorem or writes the deduction, and the paper's
   [[../library/unit_fractions/croot_2003_coloring_conjecture_about_unit_fractions/main_theorem|Main Theorem]]
   does not state the bound.
 - Trivial lower bound: $A(N)\ge(1-1/e-o(1))N$ from the top segment.
@@ -187,7 +188,7 @@ the Lean 4 proof behind the label's suffix is unbuilt and unaudited here.
 
 ## Existing formalization
 
-The Lean behind the site's (LEAN) suffix is the file
+The Lean behind erdosproblems.com's (LEAN) suffix is the file
 `src/latest/ErdosProblems/Erdos300.lean` of Boris Alexeev's `lean-proofs`
 collection, posted 17 August 2026 and linked at its pinned commit on
 [[problems/unit_fractions/E0300/claims/2024_04_10_liu_sawhney|Liu and Sawhney's claim page]].
@@ -200,11 +201,11 @@ divided by $N$, tends to $1-1/e$. The
 added 20 September 2026, states `erdos_300` in that form and the variant
 that the expected asymptotic $A(N)=(1+o(1))N$ of Erdős and Graham is false,
 both with `sorry` bodies, and tags that file's theorem as the formal proof
-of each. The community database lists the statement as formalized, and the
-site shows "Formalised statement? Yes". A
+of each. The community database lists the statement as formalized, and
+erdosproblems.com shows "Formalised statement? Yes". A
 vendored copy in Jayyhk/erdos-lean, posted 1 September 2026, proves the
 same `erdos_300`. The corpus has built and audited none of these, so the
-claim carries no `formalized` evidence. On 2026-09-17 the site showed
+claim carries no `formalized` evidence. On 2026-09-17 erdosproblems.com showed
 "Formalised statement? No" and formal-conjectures had no file for the
 problem.
 <!-- BEGIN problem library links -->

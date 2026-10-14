@@ -44,6 +44,6 @@ The issue is nominally dated June 1987; the publisher records publication on
 **Depends on.** No page of this wiki (the key lemma is quoted from
 Heath-Brown's paper).
 
-**Acceptance.** Refereed: Pacific Journal of Mathematics. The site's PROVED
-label credited Heath-Brown, so the site's credit is not counted as review of
-this paper.
+**Acceptance.** Refereed: Pacific Journal of Mathematics. erdosproblems.com's
+PROVED label credited Heath-Brown, so the erdosproblems.com credit is not
+counted as review of this paper.

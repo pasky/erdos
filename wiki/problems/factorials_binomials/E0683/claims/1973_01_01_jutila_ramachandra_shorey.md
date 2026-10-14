@@ -85,9 +85,9 @@ for the bound on $f$; the step to $\binom nk$ above is this page's.
 **Acceptance.** Refereed: the bound appeared in Acta Arithmetica and in the
 Journal of the Indian Mathematical Society, as Erdős's 1976 survey attests.
 The papers are not held, so the bound's exact statements and hypotheses rest
-on that attestation and the site's, as on the Problem 961 claim page. The
-site's page for Problem 683 does not cite the papers; it calls the problem
-essentially equivalent to Problem 961, whose commentary credits the bound.
-The step from $f$ to $\binom nk$ is the elementary deduction of the 1955
-claim page, made here without separate review. The site labeled the problem
-OPEN, so its commentary gives no `reviewed` evidence.
+on that attestation and erdosproblems.com's, as on the Problem 961 claim page.
+The erdosproblems.com page for Problem 683 does not cite the papers; it calls
+the problem essentially equivalent to Problem 961, whose commentary credits the
+bound. The step from $f$ to $\binom nk$ is the elementary deduction of the 1955
+claim page, made here without separate review. Bloom's catalog labeled the
+problem OPEN, so its commentary gives no `reviewed` evidence.

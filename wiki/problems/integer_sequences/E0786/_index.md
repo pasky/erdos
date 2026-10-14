@@ -36,19 +36,19 @@ hold when $r=s$?
 Similarly, can one always find a set $A\subset\{1,\ldots,N\}$ with this property
 of size $\geq (1-o(1))N$?
 
-**Notes.** The site's wording does not say whether a factor may repeat within a
-product, and the two readings have different answers on the record: when
-repetitions are allowed the condition on $A$ is stronger, and [ERS73] answers
-both questions no (see Formulation); when the factors of each product are
-distinct the condition is weaker, and the site's commentary calls both questions
-open. The site's commentary itself calls the original sources ambiguous on this
-point. The change inserts "(where each product runs over a subset of $A$)" after
-"$a_i,b_j\in A$", in the words of Erdős's definition of property $P$ in [Er80],
-printed p. 114: "(where each product runs over a subset of the $a$'s)". That is
-the poser's own statement of both questions, and it fixes the distinct-factor
-reading; the two subsets may overlap, since no disjointness is required there.
-The poser's other texts are silent but agree with it: [Er65], printed p. 182,
-introduces the condition (4),
+**Notes.** The erdosproblems.com wording does not say whether a factor may
+repeat within a product, and the two readings have different answers on the
+record: when repetitions are allowed the condition on $A$ is stronger, and
+[ERS73] answers both questions no (see Formulation); when the factors of each
+product are distinct the condition is weaker, and the erdosproblems.com
+commentary calls both questions open. The erdosproblems.com commentary itself
+calls the original sources ambiguous on this point. The change inserts "(where
+each product runs over a subset of $A$)" after "$a_i,b_j\in A$", in the words of
+Erdős's definition of property $P$ in [Er80], printed p. 114: "(where each
+product runs over a subset of the $a$'s)". That is the poser's own statement of
+both questions, and it fixes the distinct-factor reading; the two subsets may
+overlap, since no disjointness is required there. The poser's other texts are
+silent but agree with it: [Er65], printed p. 182, introduces the condition (4),
 $\prod_{r=1}^{l_1}a_{i_r}=\prod_{r=1}^{l_2}a_{j_r}$ only if $l_1=l_2$, as the
 alternative to the distinct-products condition (3), whose products are over
 subsets ($\epsilon_i=0$ or $1$), [Er69], printed p. 81, display (12), writes
@@ -58,12 +58,12 @@ a_{i_r}=a_{j_1}\cdots a_{j_s}$, neither saying whether the indices repeat. The
 silence is therefore already in the poser's earlier texts, and no text of his
 fixes the repetitions-allowed reading. The results about that reading are
 credited, not counted: Theorems 2 and 6 of Erdős, Ruzsa and Sárközy [ERS73],
-with the transfer to product sets that the site's commentary gives, and Tao's
-sharp constant from Granville and Soundararajan [GrSo01] in
-[forum post 4061](https://www.erdosproblems.com/forum/thread/786#post-4061) (2
-February 2026), all recorded under Formulation and Known Results.
+with the transfer to product sets that the erdosproblems.com commentary gives,
+and Tao's sharp constant from Granville and Soundararajan [GrSo01] in [forum
+post 4061](https://www.erdosproblems.com/forum/thread/786#post-4061) (2 February
+2026), all recorded under Formulation and Known Results.
 
-**Formulation.** The site's wording as accessed 2026-09-04
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-04
 (page last edited 11 April 2026); its
 [full commentary](https://www.erdosproblems.com/latex/786) distinguishes the
 two conventions. The two subsets in the Statement (modified) may overlap, and
@@ -77,36 +77,36 @@ completely additive real function $f$ with $f(a)=1$ for every $a\in A$, so
 $A$ lies in the level set $\{f=1\}$. Theorem 2 of [ERS73], p. 2, bounds the
 density of such a level set by $1/2$ for each fixed real additive $f$, and
 Theorem 6, p. 2, gives an absolute $C>0$ with $\lvert A\cap[1,N]\rvert<(1-C)N$
-for large $N$ even when $f$ varies with $N$. The site's commentary gives this
-transfer and names Theorem 2; the paper itself never mentions the product
-question, and the deduction carries no independent review. The site's
-curator agrees that [ERS73] answers both questions no in this reading and
-kept the problem OPEN until the distinct-factor reading is settled
+for large $N$ even when $f$ varies with $N$. The erdosproblems.com commentary
+gives this transfer and names Theorem 2; the paper itself never mentions the
+product question, and the deduction carries no independent review. The
+erdosproblems.com curator agrees that [ERS73] answers both questions no in this
+reading and kept the problem OPEN until the distinct-factor reading is settled
 ([forum post 4060](https://www.erdosproblems.com/forum/thread/786#post-4060),
 2 February 2026).
 
-**Status.** The site labeled the problem OPEN (page last edited 11 April 2026;
-proof-claim tab accessed 2026-10-06). That label describes the distinct-factor
-reading as unsettled. The standing derives from the claim pages and judges the
-Statement (modified). The full claim
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 11 April
+2026; proof-claim tab accessed 2026-10-06). That label describes the
+distinct-factor reading as unsettled. The standing derives from the claim pages
+and judges the Statement (modified). The full claim
 [[problems/integer_sequences/E0786/claims/2026_09_28_li|Li 2026]] was submitted
-to the site's proof-claim tab on 28 September 2026, and its manuscript was
-posted on arXiv the same day (2609.37471v1). It is declared as produced
-with GPT-6 Astra and GPT-5.6 Sol (OpenAI) and Claude (Anthropic). It asserts
-negative answers to both questions under the distinct-factor reading. The
-partial claim
+to the erdosproblems.com proof-claim tab on 28 September 2026, and its
+manuscript was posted on arXiv the same day (2609.37471v1). It is declared as
+produced with GPT-6 Astra and GPT-5.6 Sol (OpenAI) and Claude (Anthropic). It
+asserts negative answers to both questions under the distinct-factor reading.
+The partial claim
 [[problems/integer_sequences/E0786/claims/2026_09_06_gessel|Gessel 2026]] of 6
 September 2026 asserts the density bound $7/8$ for the first question under the
-same reading. The site has not acted on either claim, and neither has a referee
-or named reviewer. No Lean development of either has been built or audited in
-this corpus. So the full claim is `claimed`, and the problem's standing is
-claimed, disproved. Ruzsa's negative answers to both questions under the
-distinct-factor reading are reported in [Er80] without a proof or a proof
-citation. The site's commentary suspects that they came from a confusion of the
-two conventions. They are a report of an unpublished result rather than a posted
-claim, so they have no claim page. Progress below records the report. The
-negative answers under the repetitions-allowed reading concern the reading not
-adopted and are recorded under Formulation.
+same reading. erdosproblems.com has not acted on either claim, and neither has a
+referee or named reviewer. No Lean development of either has been built or
+audited in this corpus. So the full claim is `claimed`, and the problem's
+standing is claimed, disproved. Ruzsa's negative answers to both questions under
+the distinct-factor reading are reported in [Er80] without a proof or a proof
+citation. The erdosproblems.com commentary suspects that they came from a
+confusion of the two conventions. They are a report of an unpublished result
+rather than a posted claim, so they have no claim page. Progress below records
+the report. The negative answers under the repetitions-allowed reading concern
+the reading not adopted and are recorded under Formulation.
 
 **Source.** [erdosproblems.com/786](https://www.erdosproblems.com/786), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #786,
@@ -141,23 +141,24 @@ https://www.erdosproblems.com/786.
 
 ## Current assessment
 
-Scope: the site's full commentary (accessed 2026-09-04), the discussion thread
-(accessed 2026-09-06) and the proof-claim tab (accessed 2026-10-06), with the
-statements in [Er65], [Er73], [Er80], [ERS73] and [GrSo01]. The only
+Scope: erdosproblems.com's full commentary (accessed 2026-09-04), the discussion
+thread (accessed 2026-09-06) and the proof-claim tab (accessed 2026-10-06), with
+the statements in [Er65], [Er73], [Er80], [ERS73] and [GrSo01]. The only
 literature search beyond these sources is an arXiv search for "Erdős" over
 submissions from 25 September 2026, which found the arXiv posting of Li's
 manuscript; no check of the linked Lean developments or proof review is
 recorded. The Statement (modified) takes the distinct-factor reading
-from [Er80], under which the site's commentary treats both questions as open;
-the negative answers under the repetitions-allowed reading come from [ERS73]
-through the transfer the commentary gives and are recorded under Formulation.
+from [Er80], under which the erdosproblems.com commentary treats both questions
+as open; the negative answers under the repetitions-allowed reading come from
+[ERS73] through the transfer the commentary gives and are recorded under
+Formulation.
 
-**Proof claims on the site (accessed 2026-10-06).** The site's proof-claim
-tab carries two claims, both for the distinct-factor reading, each declared
-as produced with AI systems (Gessel's with GPT-6 Astra (Codex); Li's with
-GPT-6 Astra, GPT-5.6 Sol and Claude) and each with a manuscript and a Lean
-development linked from its claim page; Li's manuscript is also on arXiv
-(2609.37471v1, 28 September 2026). The partial claim
+**Proof claims on erdosproblems.com (accessed 2026-10-06).** The
+erdosproblems.com proof-claim tab carries two claims, both for the
+distinct-factor reading, each declared as produced with AI systems (Gessel's
+with GPT-6 Astra (Codex); Li's with GPT-6 Astra, GPT-5.6 Sol and Claude) and
+each with a manuscript and a Lean development linked from its claim page; Li's
+manuscript is also on arXiv (2609.37471v1, 28 September 2026). The partial claim
 [[problems/integer_sequences/E0786/claims/2026_09_06_gessel|Gessel 2026]]
 (6 September 2026) bounds the natural density of an admissible set by $7/8$
 and leaves the finite question open. The full claim
@@ -168,9 +169,9 @@ logarithmic density at most $1/2$ for an admissible infinite set. Gessel's
 note says that Erdős's 1980 survey reports a stronger unpublished negative
 result of Ruzsa in this setting, and Li's note says that the survey reports
 Ruzsa as having shown both answers negative there, with no proof published;
-neither claims priority. The site's label was OPEN, no comment has been posted
-on either claim, and neither manuscript nor either Lean development has been
-reviewed in this corpus.
+neither claims priority. The erdosproblems.com label was OPEN, no comment has
+been posted on either claim, and neither manuscript nor either Lean development
+has been reviewed in this corpus.
 
 ## Progress
 
@@ -179,8 +180,8 @@ product equality. It reports that Ruzsa answered both the infinite-density and
 finite-size questions negatively, with upper density $<1/e$ in the infinite
 case and an absolute finite deficit. It also calls the infinite bound best
 possible. No proof or specific proof citation accompanies that paragraph, and
-no proof of Ruzsa's results has been published. The site's suggestion that
-Erdős confused the two conventions is conjectural.
+no proof of Ruzsa's results has been published. erdosproblems.com's suggestion
+that Erdős confused the two conventions is conjectural.
 
 Er65, printed p. 182, equation (3), explicitly uses exponents in $\{0,1\}$,
 and the adjacent equal-product-length question (4), posed as its alternative,
@@ -199,14 +200,14 @@ existing limiting proportion at most $1/2$ for each fixed function. Theorem 3
 makes the bound strict for a totally additive function, where
 $f(ab)=f(a)+f(b)$ for every $a,b$, without coprimality. Theorem 6, p. 2,
 gives an absolute $C>0$ with $\limsup_{x\to\infty}\max_f G_0(x)/x<1-C$,
-allowing $f$ to vary with $x$. The site's full commentary (accessed 2026-09-04)
-names Theorem 2; Theorem 6 is the statement that gives the finite
+allowing $f$ to vary with $x$. erdosproblems.com's full commentary (accessed
+2026-09-04) names Theorem 2; Theorem 6 is the statement that gives the finite
 bound. The source's suggestion of $G_0(x)<9x/10$, p. 5, is not proved there.
 
 These level-set theorems reach the product-length condition only through a
-transfer, which the site's full commentary gives for the repetitions-allowed
-reading: an upper bound needs only $A\subseteq\{n:f(n)=1\}$, and the
-commentary's equality with that level set is stronger than needed. The
+transfer, which erdosproblems.com's full commentary gives for the
+repetitions-allowed reading: an upper bound needs only $A\subseteq\{n:f(n)=1\}$,
+and the commentary's equality with that level set is stronger than needed. The
 transfer does not reach the distinct-factor reading of the Statement
 (precise), whose condition on $A$ is weaker.
 
@@ -216,7 +217,7 @@ $\sum_{n\leq x}g(n)\geq(\delta_1+o(1))x$, where
 $\delta_1=-0.656999\ldots$. Tao's
 [forum post 4061](https://www.erdosproblems.com/forum/thread/786#post-4061),
 2 February 2026, proposes $g(n)=(-1)^{f(n)}$ and the sharp finite constant
-$0.1715\ldots$; that notation is in the forum post, not the site's full
+$0.1715\ldots$; that notation is in the forum post, not erdosproblems.com's full
 commentary (accessed 2026-09-04). For a merely real additive $f$, the
 real-valued hypothesis on $g$ requires justification. Neither that bridge nor
 a sharp $0.8285\ldots$ density bound for either convention has been verified

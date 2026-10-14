@@ -25,8 +25,8 @@ updated: 2026-10-07T23:33:05Z
 least integer $>a_{k-1}$ which is the sum of at least two consecutive terms of
 the sequence. What is the asymptotic behaviour of this sequence?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 23 March
-2026). It credits Bolan and Tang [Ta26], independently, with the sequence
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 23
+March 2026). It credits Bolan and Tang [Ta26], independently, with the sequence
 omitting infinitely many integers. It credits Tang with the bounds
 $n+\Omega(\log\log n)\le a_n\ll n^{688/413+o(1)}$. The exponent $688/413$ is
 Sothanaphan's observation recorded in the paper, not one of its theorems. The
@@ -58,8 +58,8 @@ Current assessment records.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 23 March 2026): what is
-the asymptotic behavior of the sequence $1,2,3,5,6,8,10,11,\ldots$ (OEIS
+The question, as erdosproblems.com states it (page last edited 23 March 2026):
+what is the asymptotic behavior of the sequence $1,2,3,5,6,8,10,11,\ldots$ (OEIS
 A005243) in which each term is the least integer above the last that is a
 sum of at least two consecutive earlier terms? It is open. The known bounds
 are
@@ -79,10 +79,10 @@ infinitely many positive integers, was proved independently by Tang (note of
 2026, with the explicit form that every interval $[N,2^{3N+2}]$ misses some
 integer); the two claim pages record the results. The conjecture of Erdős and
 Hegyvári that convex sets satisfy $|A-A|\ge|A|^{2-o(1)}$ would give
-$a_n\le n^{1+o(1)}$, and the site and Tang's paper expect $a_n=n+o(n)$;
-neither is proved. None of the results is refereed, and the site's label was
-OPEN, so both claims are pending. The formal-conjectures statement file
-(linked at its commit in the Formalization line) marks the main statement
+$a_n\le n^{1+o(1)}$, and erdosproblems.com and Tang's paper expect $a_n=n+o(n)$;
+neither is proved. None of the results is refereed, and the erdosproblems.com
+label was OPEN, so both claims are pending. The formal-conjectures statement
+file (linked at its commit in the Formalization line) marks the main statement
 $a_n=n+o(n)$ research open and five variants research solved: the
 nondecreasing, unbounded and infinite-complement variants credit Bolan and
 Tang, and the upper-bound and lower-bound variants credit Tang; all have

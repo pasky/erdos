@@ -25,8 +25,8 @@ updated: 2026-10-08T02:16:54Z
 subset of size $4$ determines at least $5$ distinct distances. Must $A$
 determine $\gg n^2$ many distances?
 
-**Status.** Disproved. The site's export of 2026-09-04 records the label
-"DISPROVED (LEAN)". The disproof is Tao's construction, recorded on
+**Status.** Disproved. The erdosproblems.com export of 2026-09-04 records the
+label "DISPROVED (LEAN)". The disproof is Tao's construction, recorded on
 [[problems/distance_problems/E0135/claims/2024_09_02_tao|its claim page]]. The
 Lean qualification refers to a development in Boris Alexeev's repository that
 was not built here (see Formalization).
@@ -47,9 +47,9 @@ https://www.erdosproblems.com/135.
 - [Ta24c] T. Tao, Planar point sets with forbidden 4-point patterns and few
   distinct distances. arXiv:2409.01343 (2024).
 
-**Formalization.** No formal-conjectures statement is recorded; the site's
-page, accessed 2026-10-07, listed none. A Lean proof of the disproof in Boris
-Alexeev's repository is linked at a pinned commit on the
+**Formalization.** No formal-conjectures statement is recorded; the
+erdosproblems.com page, accessed 2026-10-07, listed none. A Lean proof of the
+disproof in Boris Alexeev's repository is linked at a pinned commit on the
 [[problems/distance_problems/E0135/claims/2024_09_02_tao|Tao claim page]];
 this corpus has not built or audited it.
 

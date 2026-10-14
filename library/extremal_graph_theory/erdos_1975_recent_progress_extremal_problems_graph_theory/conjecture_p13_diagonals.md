@@ -67,8 +67,9 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0767/_index|Problem 767]]: the site's [Er75]
-  source; the conjecture $r(n;k)=k(n-k)+1$ for $n>n_0(k)$ in Erdős's 1975
-  index (which counts $k-1$ diagonals), the bipartite extremal example, and
-  the sentence that Lewin refuted $n_0(k)=2k$ for large $k$, against the
-  site's "perhaps Lewin only disproved this for small $n$".
+- [[../wiki/problems/extremal_graph_theory/E0767/_index|Problem 767]]:
+  erdosproblems.com's [Er75] source; the conjecture $r(n;k)=k(n-k)+1$ for
+  $n>n_0(k)$ in Erdős's 1975 index (which counts $k-1$ diagonals), the bipartite
+  extremal example, and the sentence that Lewin refuted $n_0(k)=2k$ for large
+  $k$, against erdosproblems.com's "perhaps Lewin only disproved this for small
+  $n$".

@@ -91,20 +91,20 @@ one inclusive to two exclusive, using the full rooted-model chain.
 
 The copy read for this card is **An explanation of the proof of Erdős Problem
 571**, a seven-page, unsigned preliminary exposition supplied by Thomas F. Bloom
-on the problem's site in September 2026. Bloom identifies it as prose Bloom
-asked GPT to produce from the Lean development. It has no named author or
-publication imprint. The folder's Adamczewski slug identifies the public
-repository's maintainer; it does not attribute either this unsigned prose or the
-model-written proof to Adamczewski. No notice is printed on any of that copy's
-seven pages, and erdosproblems.com, from which it was downloaded
+on the problem's erdosproblems.com page in September 2026. Bloom identifies it
+as prose Bloom asked GPT to produce from the Lean development. It has no named
+author or publication imprint. The folder's Adamczewski slug identifies the
+public repository's maintainer; it does not attribute either this unsigned prose
+or the model-written proof to Adamczewski. No notice is printed on any of that
+copy's seven pages, and erdosproblems.com, from which it was downloaded
 (https://www.erdosproblems.com/static/571-proof.pdf), states no copyright,
 license or terms of use (read 2026-10-02); the companion Lean repository's
 Apache license covers no PDF or TeX file there and so does not reach this
 exposition; the term is unstated.
 
 - The exposition, retrieved from
-  [the site's PDF](https://www.erdosproblems.com/static/571-proof.pdf) on
-  2026-09-05; 260,344 bytes.
+  [erdosproblems.com's PDF](https://www.erdosproblems.com/static/571-proof.pdf)
+  on 2026-09-05; 260,344 bytes.
 - [Public proof module](https://github.com/tadamcz/erdos571/blob/661cc1d842c54661f55046d27abef531d0583b1e/Erdos571/Resolutions/Erdos571_325usd_42h.lean),
   commit `661cc1d842c54661f55046d27abef531d0583b1e`; 451,575 bytes,
   10,390 lines. All formal declaration locators in this folder refer to
@@ -198,8 +198,8 @@ internal vertex set. The formal `RootedUpperModels.Model` includes
 `nonemptyA`, and Proposition 2.1 requires it. The compiled definition
 includes that condition. Without it, the printed package is insufficient.
 
-Bloom's preliminary site sketch describes independent roots. The formal
-source and PDF permit adjacent roots, and suspension creates root-root
+Bloom's preliminary erdosproblems.com sketch describes independent roots. The
+formal source and PDF permit adjacent roots, and suspension creates root-root
 edges. Root promotion along those edges is essential to the identity
 between the power of the new rooted graph and the hub replacement of the
 old power. The complete operation proof includes this distinction.
@@ -240,14 +240,14 @@ from their occurrence in the public proof.
 ## Status, formal statement and public checks
 
 The cached problem, discussion and proof-claim pages were read on 2026-09-05.
-The site labeled #571 proved in Lean. In [proof claim
+Bloom's catalog labeled #571 proved in Lean. In [proof claim
 243](https://www.erdosproblems.com/forum/thread/571/proof-claims#proof-claim-243),
 posted 2026-09-03, Thomas F. Bloom links the proof and preliminary exposition,
 calling both the PDF and Bloom's own informal exposition placeholders until a
-proper writeup is prepared; Bloom's sketch in the site's proof expositions
-section adds that Bloom has not yet checked the proof's details properly or gone
-into its hard part. This is named acceptance and a qualified preliminary
-reading, not a claim of independent refereeing.
+proper writeup is prepared; Bloom's sketch in erdosproblems.com's proof
+expositions section adds that Bloom has not yet checked the proof's details
+properly or gone into its hard part. This is named acceptance and a qualified
+preliminary reading, not a claim of independent refereeing.
 
 The formal target is
 [`Erdos571.erdos_571`](https://github.com/tadamcz/erdos571/blob/661cc1d842c54661f55046d27abef531d0583b1e/Challenge.lean).

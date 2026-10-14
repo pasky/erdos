@@ -4,8 +4,8 @@ title: Alpha times the primes is never well-distributed
 desc: |
   Alexeev, Putterman, Sawhney, Sellke and Valiant proved that for every real
   $\alpha$ the fractional parts of $\alpha$ times the primes are not
-  well-distributed. The site labeled the problem proved, and the preprint is not
-  refereed.
+  well-distributed. Bloom's catalog labeled the problem proved, and the preprint
+  is not refereed.
 authors:
 - Boris Alexeev
 - Moe Putterman
@@ -60,14 +60,15 @@ the partial claim
 **Depends on.** Nothing in this wiki; the result rests on the cited preprint
 and the published theorem of Banks, Freiberg and Turnage-Butterbaugh.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-proved on the strength of this paper (page last edited 2026-04-01). The
-discussion thread of 2026-04-01 carries a comment by Terence Tao stating that
-the problem is now solved and describing the argument. Tao notes that a 2013
-paper of Benatar (arXiv:1305.0348) essentially gives the case of Diophantine
-$\alpha$ by the same sieve machinery, one standard additional sieve estimate
-away. The comment also notes that the present proof avoids a Diophantine
-condition by approximating $\alpha$ by a rational and using a congruence class.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem proved on the strength of this paper (page last edited 2026-04-01).
+The discussion thread of 2026-04-01 carries a comment by Terence Tao stating
+that the problem is now solved and describing the argument. Tao notes that a
+2013 paper of Benatar (arXiv:1305.0348) essentially gives the case of
+Diophantine $\alpha$ by the same sieve machinery, one standard additional sieve
+estimate away. The comment also notes that the present proof avoids a
+Diophantine condition by approximating $\alpha$ by a rational and using a
+congruence class.
 
 The formal-conjectures statement file
 [`ErdosProblems/997.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/997.lean)
@@ -83,12 +84,12 @@ Lean 4 file (pinned above by its gist revision), writing that
 the solution was autoformalized by Aristotle, conditionally on the
 Banks–Freiberg–Turnage-Butterbaugh theorem taken as an axiom. The file proves
 `erdos997 (α : ℝ) : ¬IsWellDistributed (fracSeq α)` with that theorem declared
-as the axiom `maynardTaoBFT`; every other step is proved. The site's label
-PROVED (LEAN) rests on this file. The axiom is a published theorem (Acta
+as the axiom `maynardTaoBFT`; every other step is proved. The erdosproblems.com
+label PROVED (LEAN) rests on this file. The axiom is a published theorem (Acta
 Arith. 2015), but the formalization is conditional on it, its definition of
 well-distribution counts closed subintervals $[a,b]\subseteq[0,1]$ where the
-site's statement says intervals, and this corpus has not audited the Lean
-statement against the problem. A later version of the file,
+erdosproblems.com statement says intervals, and this corpus has not audited the
+Lean statement against the problem. A later version of the file,
 [`src/latest/ErdosProblems/Erdos997.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos997.lean)
 in Boris Alexeev's repository (the revision of 2026-09-15, pinned in the
 link), states in its header that its formalization

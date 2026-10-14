@@ -22,9 +22,9 @@ most n vertices, so d-degenerate graphs have linear Ramsey numbers.
 Lee, Choongbum, Ramsey numbers of degenerate graphs. Ann. of Math. (2) 185
 (2017), no. 3, 791--829, doi:10.4007/annals.2017.185.3.2 (the Crossref record,
 read 2026-09-18, dates the issue 1 May 2017 and the record's creation 24
-February 2017; the pages are the site's citation, not carried by the Crossref
-record). Preprint arXiv:1505.04773 (v1 18 May 2015, v2 1 December 2016; the
-arXiv listing carries no journal reference). The two versions state the main
+February 2017; the pages are the erdosproblems.com citation, not carried by the
+Crossref record). Preprint arXiv:1505.04773 (v1 18 May 2015, v2 1 December 2016;
+the arXiv listing carries no journal reference). The two versions state the main
 results differently. In v1 (32 pages; pp. 1, 3 and 4 read on the page images)
 the abstract bounds the Ramsey number of every $d$-degenerate graph with no
 condition on its order, Theorem 1.1 has no lower bound on $n$ and speaks of
@@ -132,7 +132,7 @@ independently reviewed.
 Source: <https://arxiv.org/abs/1505.04773>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0163/_index|#163]]: Theorem 1.1 with
-the remark after it is the status-defining source; the site's
+the remark after it is the status-defining source; erdosproblems.com's
 "$R(H)\le2^{2^{O(d)}}n$" is the abstract's bound at $r=d+1$ and its "more
 precisely, $R(H)\le2^{d2^{O(\chi(H))}}n$" is the abstract's bound as
 stated, both for $|V(H)|$ above the threshold $2^{d^22^{cr}}$.

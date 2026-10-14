@@ -118,7 +118,7 @@ and the latter authors' 1990 paper (not held).
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the
   theorem gives $\mathrm{sq}(G)\le10$ whenever $\Delta(G)\le3$, the result
-  the problem page credits to the site's key [92]; since
+  the problem page credits to the erdosproblems.com key [92]; since
   $10\le\lfloor\frac54\cdot9\rfloor=11$, this is the problem's bound for
   every graph with $\Delta=3$, while for $\Delta\le2$ the problem's bound
   ($5$ when $\Delta=2$) is below $10$ and the theorem does not give it. The

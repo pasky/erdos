@@ -25,8 +25,8 @@ of $S(k)$ differ by one, depending on the definition."
 **Main result** (the abstract, p. 1, and p. 2: "We prove that
 $S(5)=160$."). Every five-coloring of $\{1,\ldots,161\}$ has a
 monochromatic solution of $a+b=c$, and some five-coloring of
-$\{1,\ldots,160\}$ has none. In the site's convention, the least $N$ forcing
-a monochromatic solution, this reads $f(5)=161$.
+$\{1,\ldots,160\}$ has none. In the erdosproblems.com convention, the least $N$
+forcing a monochromatic solution, this reads $f(5)=161$.
 
 The paper's own summary of the evidence (p. 1, the introduction and its
 contributions list): a propositional formula that is satisfiable if and
@@ -89,8 +89,9 @@ for $S(5)\le160$, external to this compilation.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the exact value
-  $f(5)=161$, through $f(k)=S(k)+1$ (footnote 1); the site credits this value
-  to Heule [He17]. A single exact value does not bear on the growth question.
+  $f(5)=161$, through $f(k)=S(k)+1$ (footnote 1); erdosproblems.com credits this
+  value to Heule [He17]. A single exact value does not bear on the growth
+  question.
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: context only.
   The paper recalls $S(k)\le R_k(3)-2$ (Schur 1917, p. 2), where $R_k(3)$ is
   the problem's $R(3;k)$. With the lower half $S(5)\ge160$, which is Exoo's,

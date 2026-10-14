@@ -30,11 +30,12 @@ $$
 \limsup\frac{\log m(r)}{\log M(r)}=1?
 $$
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
-edited 28 December 2025) and credits Fuchs [Fu63] with the affirmative solution.
-The accepted claim page [[problems/analysis/E0516/claims/1963_12_01_fuchs|Fuchs
-1963]] records the result, on the refereed venue and the site's acceptance, and
-the frontmatter standing derives from it. The claim page also carries the
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN)
+(page last edited 28 December 2025) and credits Fuchs [Fu63] with the
+affirmative solution. The accepted claim page
+[[problems/analysis/E0516/claims/1963_12_01_fuchs|Fuchs 1963]] records the
+result, on the refereed venue and erdosproblems.com's acceptance, and the
+frontmatter standing derives from it. The claim page also carries the
 formalization link. The Lean qualifier refers to a proof in Boris Alexeev's
 lean-proofs repository that has not been built here (see Formalization). Two
 earlier refereed results settle subclasses and are accepted partial claims:
@@ -78,22 +79,22 @@ claim page records the link and the standing rests on the paper.
 The question is Pólya's [Po29]: for an entire function of finite order whose
 exponents are sparse in the sense $n_k/k\to\infty$, is the minimum modulus as
 large as the maximum modulus on a logarithmic scale along some sequence of
-radii? The site's formulation of 2026-09-04 defines $m(r)$ as the minimum
-modulus on $\lvert z\rvert=r$; in [Er61] the same question is written with
-$m(r)$ the maximum term $\max_n\lvert a_nr^n\rvert$, and the site notes that
-with that reading the equality follows at once from Wiman's work [Wi14], while
-Erdős and Macintyre [ErMa54], like Pólya, used the minimum modulus. The page's
-standing concerns the minimum-modulus question. Its answer is yes, by Fuchs
-[Fu63], accepted here on the refereed publication and the site's credit and
-recorded on the claim page
+radii? The erdosproblems.com formulation of 2026-09-04 defines $m(r)$ as the
+minimum modulus on $\lvert z\rvert=r$; in [Er61] the same question is written
+with $m(r)$ the maximum term $\max_n\lvert a_nr^n\rvert$, and erdosproblems.com
+notes that with that reading the equality follows at once from Wiman's work
+[Wi14], while Erdős and Macintyre [ErMa54], like Pólya, used the minimum
+modulus. The page's standing concerns the minimum-modulus question. Its answer
+is yes, by Fuchs [Fu63], accepted here on the refereed publication and the
+erdosproblems.com credit and recorded on the claim page
 [[problems/analysis/E0516/claims/1963_12_01_fuchs|Fuchs 1963]]. The statement of
-[ErMa54] below follows its print, and the other statements follow the site's
-account and the publishers' records; no proof is reconstructed in this
-repository, no independent review is recorded, and the Lean proof named in
-Formalization has not been built or audited here. The status search covered the
-site, its forum thread and the community database; on 2026-10-07 the thread held
-no proof claim of this problem's question, and none of these sources recorded
-another claim of the result.
+[ErMa54] below follows its print, and the other statements follow
+erdosproblems.com's account and the publishers' records; no proof is
+reconstructed in this repository, no independent review is recorded, and the
+Lean proof named in Formalization has not been built or audited here. The status
+search covered erdosproblems.com, its forum thread and the community database;
+on 2026-10-07 the thread held no proof claim of this problem's question, and
+none of these sources recorded another claim of the result.
 
 The forum thread carries one formal result, posted 21 September 2026 by
 Kenta Kitamura with ChatGPT and OpenAI Codex (GPT-6 Astra) named as
@@ -108,13 +109,13 @@ only in this sentence.
 
 ## Known Results
 
-- The site credits results of Wiman [Wi14] with $\limsup m(r)/M(r)=1$
+- erdosproblems.com credits results of Wiman [Wi14] with $\limsup m(r)/M(r)=1$
   whenever $(n_{k+1}-n_k)^2>n_k$, the form in which [Er61] (IV.7.2) prints
   Pólya's condition. Erdős and Macintyre [ErMa54] state the remark, from
   the last sentence of Pólya [Po29], under the stronger condition
   $\liminf\log(n_{k+1}-n_k)/\log n_k>1/2$, and note that it implies their
-  own gap condition, so their Theorem 1 contains it. As the site prints it
-  the condition is too weak: the squares $n_k=k^2$ satisfy it and have
+  own gap condition, so their Theorem 1 contains it. As erdosproblems.com prints
+  it the condition is too weak: the squares $n_k=k^2$ satisfy it and have
   $\sum1/(n_{k+1}-n_k)=\infty$, so Theorem 2 of [ErMa54] gives an entire
   function with square exponents and $\limsup m(r)/M(r)\le1/2$. This case
   has no claim page: as printed the statement is false, and in Pólya's form
@@ -137,11 +138,11 @@ only in this sentence.
   function, of any order, under the stronger gap condition $n_k>k(\log k)^{2+c}$
   for some $c>0$; on the finite-order functions with such exponents this is the
   accepted partial claim
-  [[problems/analysis/E0516/claims/1965_06_01_kovari|Kővári 1965]]. The site
-  records the conjecture that $\sum1/n_k<\infty$ should suffice here; a Lean
-  counterexample posted to the thread in 2026, described in the assessment and
-  not built or audited here, claims to refute that conjecture as stated.
-  Macintyre [Ma52] shows the condition cannot be weakened past
+  [[problems/analysis/E0516/claims/1965_06_01_kovari|Kővári 1965]].
+  erdosproblems.com records the conjecture that $\sum1/n_k<\infty$ should
+  suffice here; a Lean counterexample posted to the thread in 2026, described in
+  the assessment and not built or audited here, claims to refute that conjecture
+  as stated. Macintyre [Ma52] shows the condition cannot be weakened past
   $\sum1/n_k<\infty$: whenever $\sum1/n_k=\infty$ there is an entire function
   with those exponents tending to zero along the positive real axis.
 <!-- BEGIN problem library links -->

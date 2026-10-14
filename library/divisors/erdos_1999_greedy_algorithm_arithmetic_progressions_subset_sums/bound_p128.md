@@ -44,10 +44,10 @@ The bound is a deduction from two cited results, not a construction of the
 paper's own: Straus's transfer theorem from non-averaging to non-dividing
 sets, and Bosznay's non-averaging set of size $\gg n^{1/4}$ in $[1,n]$.
 With $\alpha=\frac14$, $\alpha/(1+\alpha)=\frac15$. The paper does not
-name Csaba, to whom the site's commentary on Problem 131 attributes an
-$N^{1/5}$ construction through Erdős's 1997 paper. The proof of Theorem 4
-(§ 7, p. 132) shows the mechanism behind Straus's transfer in the paper's
-own hands: the translates $l-A$ of a non-averaging $A\subseteq[1,N]$ with
+name Csaba, to whom the erdosproblems.com commentary on Problem 131 attributes
+an $N^{1/5}$ construction through Erdős's 1997 paper. The proof of Theorem 4 (§
+7, p. 132) shows the mechanism behind Straus's transfer in the paper's own
+hands: the translates $l-A$ of a non-averaging $A\subseteq[1,N]$ with
 $|A|\le\frac13n^{\alpha/(1+\alpha)}-1$, for $l\in[n-2N,n]$ and
 $N=\lfloor n^{1/(1+\alpha)}\rfloor$, are non-dividing subsets of $[1,n]$,
 because a divisibility $(l-a_0)\mid(l-a_1)+\cdots+(l-a_t)$ forces the

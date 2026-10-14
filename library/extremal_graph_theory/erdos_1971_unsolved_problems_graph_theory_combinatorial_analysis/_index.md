@@ -266,110 +266,112 @@ graphs*, Math. Mag. 39 (1966), 259--261, and [31] is Lovász, *On chromatic
 number of finite set-systems*, Acta Math. Acad. Sci. Hung. 19 (1968),
 59--67, as printed on p. 109.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E1014/_index|#1014]]: the site's source key
-Er71, p. 99: the sentence "I cannot even prove
+**Bears on.** [[../wiki/problems/ramsey_theory/E1014/_index|#1014]]: the
+erdosproblems.com source key Er71, p. 99: the sentence "I cannot even prove
 $\lim_{n=\infty}f(l,n+1)/f(l,n)=1$" is the problem, in the paper's notation
-$f(l,n)$ for $R(l,n)$. [[../wiki/problems/ramsey_theory/E0165/_index|#165]]: the site's
-key Er71: the request on p. 99 for an asymptotic formula for $f(l,n)$, with
-$f(3,n)$ the case the displayed bounds concern.
-[[../wiki/problems/ramsey_theory/E0077/_index|#77]]: the site's key Er71: the request on
-p. 99 to prove that $\lim f(n,n)^{1/n}$ exists, with the bounds (3)--(4).
-[[../wiki/problems/ramsey_theory/E0078/_index|#78]]: the site's key Er71: the request on
-p. 99 for a nontrivial lower bound for $f(n,n)$ by non-probabilistic methods.
-[[../wiki/problems/ramsey_theory/E1015/_index|#1015]]: the site's key Er71: item 9,
-printed p. 100 = PDF p. 4 (page image; the fraction on a 300 dpi crop),
-Moon's theorem for $n=3k+2\geqslant8$ ($k$ vertex-disjoint monochromatic
+$f(l,n)$ for $R(l,n)$. [[../wiki/problems/ramsey_theory/E0165/_index|#165]]: the
+erdosproblems.com key Er71: the request on p. 99 for an asymptotic formula for
+$f(l,n)$, with $f(3,n)$ the case the displayed bounds concern.
+[[../wiki/problems/ramsey_theory/E0077/_index|#77]]: the erdosproblems.com key
+Er71: the request on p. 99 to prove that $\lim f(n,n)^{1/n}$ exists, with the
+bounds (3)--(4). [[../wiki/problems/ramsey_theory/E0078/_index|#78]]: the
+erdosproblems.com key Er71: the request on p. 99 for a nontrivial lower bound
+for $f(n,n)$ by non-probabilistic methods.
+[[../wiki/problems/ramsey_theory/E1015/_index|#1015]]: the erdosproblems.com key
+Er71: item 9, printed p. 100 = PDF p. 4 (page image; the fraction on a 300 dpi
+crop), Moon's theorem for $n=3k+2\geqslant8$ ($k$ vertex-disjoint monochromatic
 triangles in any two-coloring of $K_n$), the definition of $f(l)$ as the
 smallest integer such that every two-coloring of $K_n$ has $[n/l]-f(l)$
 vertex-disjoint monochromatic $K_l$'s, the Ramsey sentence quoted in the
 read-status paragraph above ($f(l)<4^l$, with $f(l)^{1/l}\to1$ expected and
 $f(l)<cl$ or bounded $f(l)$ offered as possibilities), and the same-color
-variant with "$\tfrac13n+O(1)$" for $l=2$; the site's $f(t)$ counts the
+variant with "$\tfrac13n+O(1)$" for $l=2$; erdosproblems.com's $f(t)$ counts the
 vertices left uncovered where the paper's $f(l)$ counts the missing cliques
-(the two differ by about the factor $l$), and the site's "$f(t)\ll4^t$" is
-the Ramsey sentence.
+(the two differ by about the factor $l$), and erdosproblems.com's "$f(t)\ll4^t$"
+is the Ramsey sentence.
 [[../wiki/problems/extremal_graph_theory/E0184/_index|#184]],
 [[../wiki/problems/extremal_graph_theory/E0926/_index|#926]],
 [[../wiki/problems/extremal_graph_theory/E1021/_index|#1021]],
 [[../wiki/problems/set_systems/E1022/_index|#1022]], [[../wiki/problems/set_systems/E1023/_index|#1023]],
 [[../wiki/problems/set_systems/E1026/_index|#1026]].
-[[../wiki/problems/extremal_graph_theory/E1008/_index|#1008]]: the site's source passage
-[Er71, p. 97]: item 1, printed p. 97 = PDF p. 1 (page image), the Tihany
-question whether every graph of $n$ edges has a rectangle-free subgraph of
-at least $cn^{3/4}$ edges, Folkman's counterexample $K_{m,m^2}$ with $m^3$
-edges every subgraph of which with $m^2+\binom m2+1$ edges contains a
-rectangle, the revised guess $cn^{2/3}$ in place of $cn^{3/4}$ together
-with Erdős's admission that he cannot prove even $cn^{1/2+\varepsilon}$
+[[../wiki/problems/extremal_graph_theory/E1008/_index|#1008]]: the
+erdosproblems.com source passage [Er71, p. 97]: item 1, printed p. 97 = PDF p. 1
+(page image), the Tihany question whether every graph of $n$ edges has a
+rectangle-free subgraph of at least $cn^{3/4}$ edges, Folkman's counterexample
+$K_{m,m^2}$ with $m^3$ edges every subgraph of which with $m^2+\binom m2+1$
+edges contains a rectangle, the revised guess $cn^{2/3}$ in place of $cn^{3/4}$
+together with Erdős's admission that he cannot prove even $cn^{1/2+\varepsilon}$
 ($cn^{1/2}$ being trivial), and the footnote "Szemerédi proved
 $cn^{2/3}$"; paged, with the paper's wording, at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_1|item_1]].
-[[../wiki/problems/extremal_graph_theory/E1009/_index|#1009]]: the site's source passage
-[Er71, p. 98]: item 3, printed p. 98 = PDF p. 2 (page image), Erdős's
-theorem that for $k<cn$ every $G(n;[\tfrac14n^2]+k)$ contains $k$
-edge-disjoint triangles, Sauer's example on $2n+4$ vertices with excess
-$k=4n+2$ and only $4n+1$ edge-disjoint triangles, the remark that the proof
-reaches only small $c<\tfrac12$, and the question whether for every $c_1$
+[[../wiki/problems/extremal_graph_theory/E1009/_index|#1009]]: the
+erdosproblems.com source passage [Er71, p. 98]: item 3, printed p. 98 = PDF p. 2
+(page image), Erdős's theorem that for $k<cn$ every $G(n;[\tfrac14n^2]+k)$
+contains $k$ edge-disjoint triangles, Sauer's example on $2n+4$ vertices with
+excess $k=4n+2$ and only $4n+1$ edge-disjoint triangles, the remark that the
+proof reaches only small $c<\tfrac12$, and the question whether for every $c_1$
 there is an $f(c_1)$ such that every $G(n;[\tfrac14n^2]+k)$ with $k<c_1n$
-contains at least $k-f(c_1)$ edge-disjoint triangles, the site's statement
-with $f(c)$; paged, with the paper's wording, at
+contains at least $k-f(c_1)$ edge-disjoint triangles, the erdosproblems.com
+statement with $f(c)$; paged, with the paper's wording, at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_3|item_3]].
-[[../wiki/problems/extremal_graph_theory/E1011/_index|#1011]]: the site's key Er71: item 3,
-printed p. 98 = PDF p. 2 (page image; the sign on a 300 dpi crop), the
-question for the smallest integer $u_r$ such that every $G(n;u_r)$ of
-chromatic number $\geqslant r$ contains a triangle, with
+[[../wiki/problems/extremal_graph_theory/E1011/_index|#1011]]: the
+erdosproblems.com key Er71: item 3, printed p. 98 = PDF p. 2 (page image; the
+sign on a 300 dpi crop), the question for the smallest integer $u_r$ such that
+every $G(n;u_r)$ of chromatic number $\geqslant r$ contains a triangle, with
 $u_2=[\tfrac14n^2]+1$ (Turán's theorem), $u_3=[\tfrac14(n-1)^2]+2$, $u_4$
-unknown [5], and the footnote "Simonovits determined $u_r$"; the site's
+unknown [5], and the footnote "Simonovits determined $u_r$"; erdosproblems.com's
 $f_r(n)$ is $u_r$ under the same definition; paged at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_3|item_3]].
-[[../wiki/problems/extremal_graph_theory/E1012/_index|#1012]]: the site's key Er71: item 4,
-printed p. 98 = PDF p. 2 (page image), the statements that every
-$G(n;\binom{n-1}2+2)$ is Hamiltonian and that for $n>n_0(k)$ every
-$G(n;\binom{n-k}2+\binom{k+1}2+1)$ contains a $C_{n-k}$, and the request
-to determine or estimate $n_0(k)$ [6]; the site's $f(k)$ is $n_0(k)$, with
-the index convention recorded on the item page; paged at
+[[../wiki/problems/extremal_graph_theory/E1012/_index|#1012]]: the
+erdosproblems.com key Er71: item 4, printed p. 98 = PDF p. 2 (page image), the
+statements that every $G(n;\binom{n-1}2+2)$ is Hamiltonian and that for
+$n>n_0(k)$ every $G(n;\binom{n-k}2+\binom{k+1}2+1)$ contains a $C_{n-k}$, and
+the request to determine or estimate $n_0(k)$ [6]; erdosproblems.com's $f(k)$ is
+$n_0(k)$, with the index convention recorded on the item page; paged at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_4|item_4]].
-[[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: the site's key Er71: item 5,
-printed p. 98 = PDF p. 2 (page image), the least $f(n)$ such that all but
-$o\bigl(\binom{\binom n2}{f(n)}\bigr)$ of the graphs $G(n;f(n))$ on $n$
-labeled vertices are Hamiltonian, the bound $f(n)<cn^{3/2}$ credited to
-Moon, Moser and I. Palásti, and the belief that $f(n)<n^{1+\varepsilon}$
-[24]; the 1971 form is weaker than the site's $(\tfrac12+\varepsilon)n\log n$
-conjecture; paged, with the paper's wording, at
+[[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: the
+erdosproblems.com key Er71: item 5, printed p. 98 = PDF p. 2 (page image), the
+least $f(n)$ such that all but $o\bigl(\binom{\binom n2}{f(n)}\bigr)$ of the
+graphs $G(n;f(n))$ on $n$ labeled vertices are Hamiltonian, the bound
+$f(n)<cn^{3/2}$ credited to Moon, Moser and I. Palásti, and the belief that
+$f(n)<n^{1+\varepsilon}$ [24]; the 1971 form is weaker than erdosproblems.com's
+$(\tfrac12+\varepsilon)n\log n$ conjecture; paged, with the paper's wording, at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_5|item_5]].
-[[../wiki/problems/extremal_graph_theory/E1006/_index|#1006]]: the site's key Er71: item 7,
-printed p. 99 = PDF p. 3 with Figure 1 on p. 100 = PDF p. 4 (page images),
-Ore's problem of directing a graph with no directed circuit and no circuit
-that becomes directed when one edge is reversed, Ore's triangle-free
-counterexample, Gallai's counterexample, the graph of "Grötsch" (Fig. 1),
-Erdős's remark that he found no graph of girth greater than four that
-cannot be so directed, the remark that this graph may be the only
+[[../wiki/problems/extremal_graph_theory/E1006/_index|#1006]]: the
+erdosproblems.com key Er71: item 7, printed p. 99 = PDF p. 3 with Figure 1 on p.
+100 = PDF p. 4 (page images), Ore's problem of directing a graph with no
+directed circuit and no circuit that becomes directed when one edge is reversed,
+Ore's triangle-free counterexample, Gallai's counterexample, the graph of
+"Grötsch" (Fig. 1), Erdős's remark that he found no graph of girth greater than
+four that cannot be so directed, the remark that this graph may be the only
 triangle-free 4-chromatic graph on at most 11 vertices, and the footnote
 saying that several mathematicians already knew that uniqueness; paged,
 with the paper's wording, at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_7|item_7]].
-[[../wiki/problems/extremal_graph_theory/E0927/_index|#927]]: the site's key Er71: item 10,
-printed p. 101 = PDF p. 5 (page image; the displays on a 300 dpi crop), Moon
-and Moser's (1) $n-\log n/\log2-\log\log n<f(n)<n-\log n/\log2$ for the
-largest number $f(n)$ of different clique sizes (the site's $g(n)$), Erdős's
-improved lower bound $n-\log n/\log2-L(n)$ with the upper bound left as it
-was ($L(n)$ the iterated-logarithm count, the site's $\log_*n$), the
-unproved "$n-\log n/\log2-f(n)\to\infty$", and the footnote "Spencer proved
-$f(n)>n-\log n/\log2-c$", a printed attestation of the site's disproof;
+[[../wiki/problems/extremal_graph_theory/E0927/_index|#927]]: the
+erdosproblems.com key Er71: item 10, printed p. 101 = PDF p. 5 (page image; the
+displays on a 300 dpi crop), Moon and Moser's (1)
+$n-\log n/\log2-\log\log n<f(n)<n-\log n/\log2$ for the largest number $f(n)$ of
+different clique sizes (erdosproblems.com's $g(n)$), Erdős's improved lower
+bound $n-\log n/\log2-L(n)$ with the upper bound left as it was ($L(n)$ the
+iterated-logarithm count, erdosproblems.com's $\log_*n$), the unproved
+"$n-\log n/\log2-f(n)\to\infty$", and the footnote "Spencer proved
+$f(n)>n-\log n/\log2-c$", a printed attestation of erdosproblems.com's disproof;
 paged, with the paper's wording, at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_10|item_10]].
-[[../wiki/problems/extremal_graph_theory/E1016/_index|#1016]]: the site's key Er71: item
-10, printed p. 101 = PDF p. 5 (page image), Bondy's $h(n)$, the least
-integer for which some $G(n;n+h(n))$ contains a $C_k$ for every
-$3\leqslant k\leqslant n$, the unpublished (2)
+[[../wiki/problems/extremal_graph_theory/E1016/_index|#1016]]: the
+erdosproblems.com key Er71: item 10, printed p. 101 = PDF p. 5 (page image),
+Bondy's $h(n)$, the least integer for which some $G(n;n+h(n))$ contains a $C_k$
+for every $3\leqslant k\leqslant n$, the unpublished (2)
 $\log n/\log2<h(n)<\log n/\log2+L(n)$ (strict on both sides), the remark
 that the upper bound in (2) is close to the truth while Erdős writes he
 could not prove even $h(n)-\log n/\log2\to\infty$ [12], and the note that Bondy's
 paper was not yet published; paged at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_10|item_10]].
-[[../wiki/problems/extremal_graph_theory/E1017/_index|#1017]]: the site's key Er71: item
-11's opening paragraph, printed p. 101 = PDF p. 5 (page image),
-which records the Erdős--Goodman--Pósa theorem [18] (the edge set of
-every $G(n;k)$ splits into at most $[\tfrac14n^2]$ edge-disjoint complete
+[[../wiki/problems/extremal_graph_theory/E1017/_index|#1017]]: the
+erdosproblems.com key Er71: item 11's opening paragraph, printed p. 101 = PDF p.
+5 (page image), which records the Erdős--Goodman--Pósa theorem [18] (the edge
+set of every $G(n;k)$ splits into at most $[\tfrac14n^2]$ edge-disjoint complete
 subgraphs, even with every piece an edge or a triangle, and no smaller
 bound holds for every graph on $n$ vertices), the hope of a better bound
 when $k>\tfrac14n^2$, and Lovász's bound: with $e=\binom n2-k$ and $t$ the
@@ -380,65 +382,65 @@ not (Lovász's own remark), and for edge-disjoint pieces no substantial
 improvement of the $[\tfrac14n^2]$ theorem was known in 1971; the passage
 opens the paged
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_11|item_11]].
-[[../wiki/problems/extremal_graph_theory/E1018/_index|#1018]]: the site's source passage
-[Er71]: item 12, printed p. 102 = PDF p. 6 (page image), the question
-whether every $G(n;[n^{1+\varepsilon}])$ contains a non-planar subgraph
-with at most $c_\varepsilon$ vertices, with the remark that
+[[../wiki/problems/extremal_graph_theory/E1018/_index|#1018]]: the
+erdosproblems.com source passage [Er71]: item 12, printed p. 102 = PDF p. 6
+(page image), the question whether every $G(n;[n^{1+\varepsilon}])$ contains a
+non-planar subgraph with at most $c_\varepsilon$ vertices, with the remark that
 $c_\varepsilon\to\infty$ as $\varepsilon\to0$ is not difficult to see;
 quoted in full at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_12|item_12]].
-[[../wiki/problems/extremal_graph_theory/E1019/_index|#1019]]: the site's source passage
-[Er71, p. 102]: item 13, printed p. 102 = PDF p. 6 (page image), the easy
-construction of a $G(n;[\tfrac14n^2]+[\tfrac12(n-1)])$ containing no
-saturated planar graph on more than three vertices, the conjecture that
-this example is best possible, so that every
-$G(n;[\tfrac14n^2]+[\tfrac12(n+1)])$ contains a saturated planar graph on
-more than three vertices, and the closing sentence "Simonovits has just
+[[../wiki/problems/extremal_graph_theory/E1019/_index|#1019]]: the
+erdosproblems.com source passage [Er71, p. 102]: item 13, printed p. 102 = PDF
+p. 6 (page image), the easy construction of a
+$G(n;[\tfrac14n^2]+[\tfrac12(n-1)])$ containing no saturated planar graph on
+more than three vertices, the conjecture that this example is best possible, so
+that every $G(n;[\tfrac14n^2]+[\tfrac12(n+1)])$ contains a saturated planar
+graph on more than three vertices, and the closing sentence "Simonovits has just
 proved this conjecture [15], [34]", the references being Erdős's 1969
 Mathematische Nachrichten paper and his Israel J. Math. 2 paper;
 quoted in full at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_13|item_13]].
-[[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]: the site's key [Er71,
-p. 103]: item 15, displays (1)--(2), printed p. 103 = PDF p. 7 (page image),
-the bound (1) $f(n;K_2(r,r))<c_rn^{2-1/r}$ credited to Kővári, the Turáns
-and independently Erdős, the wish (2) for a matching lower bound
-$f(n;K_2(r,r))>c_r'n^{2-1/r}$, and the report that (2) had been proved for $r=2$
-and $r=3$ only, with nothing close to it known for any $r\geqslant4$; the site's
-question is (2); paged, with the paper's wording, at
+[[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]: the
+erdosproblems.com key [Er71, p. 103]: item 15, displays (1)--(2), printed p.
+103 = PDF p. 7 (page image), the bound (1) $f(n;K_2(r,r))<c_rn^{2-1/r}$ credited
+to Kővári, the Turáns and independently Erdős, the wish (2) for a matching lower
+bound $f(n;K_2(r,r))>c_r'n^{2-1/r}$, and the report that (2) had been proved for
+$r=2$ and $r=3$ only, with nothing close to it known for any $r\geqslant4$; the
+erdosproblems.com question is (2); paged, with the paper's wording, at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_15|item_15]].
 [[../wiki/problems/extremal_graph_theory/E0765/_index|#765]]: item 15, display (3),
 printed p. 103 = PDF p. 7 (page image): for $r=2$ the asymptotic formula
 $f(n;K_2(2,2))=(1+o(1))n^{3/2}/2$, credited to Brown, Mrs Turán, Rényi and
-Erdős, the least edge count forcing a rectangle, which is the
-site's asymptotic formula for $\mathrm{ex}(n;C_4)$ as Erdős states it in
-1971 (the site does not cite Er71 for the problem); paged at
+Erdős, the least edge count forcing a rectangle, which is
+erdosproblems.com's asymptotic formula for $\mathrm{ex}(n;C_4)$ as Erdős states
+it in 1971 (erdosproblems.com does not cite Er71 for the problem); paged at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_15|item_15]].
-[[../wiki/problems/extremal_graph_theory/E0500/_index|#500]]: the site's key Er71: item
-15's closing paragraph, printed p. 104 = PDF p. 8 (page image; display (8)
-on a 300 dpi crop), the definition of $g(n;k,l)$, the existence of
-$\lim g(n;k,l)/\binom nk$ with its value unknown for $k>2$, and Turán's
-conjecture (8) as printed, "$g(3n;3,4)=3n\binom n2+1$", which is $n^3$
-short of Turán's construction (recorded, not corrected); the site's
+[[../wiki/problems/extremal_graph_theory/E0500/_index|#500]]: the
+erdosproblems.com key Er71: item 15's closing paragraph, printed p. 104 = PDF p.
+8 (page image; display (8) on a 300 dpi crop), the definition of $g(n;k,l)$, the
+existence of $\lim g(n;k,l)/\binom nk$ with its value unknown for $k>2$, and
+Turán's conjecture (8) as printed, "$g(3n;3,4)=3n\binom n2+1$", which is $n^3$
+short of Turán's construction (recorded, not corrected); erdosproblems.com's
 $\mathrm{ex}_3(n,K_4^3)$ is $g(n;3,4)-1$; paged at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_15|item_15]].
-[[../wiki/problems/extremal_graph_theory/E0712/_index|#712]]: the site's key Er71: the
-same paragraph, printed p. 104 = PDF p. 8 (page image), the report that
-Turán had solved the graph case $k=2$ for every $l$ while every case $k>2$
-remained open, and the existence of $\lim g(n;k,l)/\binom nk$ for all $k$
-and $l$, with no value known for any $k>2$, the site's normalized question
-for every $k>r>2$; paged at
+[[../wiki/problems/extremal_graph_theory/E0712/_index|#712]]: the
+erdosproblems.com key Er71: the same paragraph, printed p. 104 = PDF p. 8 (page
+image), the report that Turán had solved the graph case $k=2$ for every $l$
+while every case $k>2$ remained open, and the existence of
+$\lim g(n;k,l)/\binom nk$ for all $k$ and $l$, with no value known for any
+$k>2$, erdosproblems.com's normalized question for every $k>r>2$; paged at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_15|item_15]].
-[[../wiki/problems/extremal_graph_theory/E0583/_index|#583]]: the site's key
-[Er71, p. 101]: item 11's question whether every connected graph of $n$
-vertices decomposes into $[\tfrac12(n+1)]$ edge-disjoint paths, with
-Lovász's odd-valency case.
-[[../wiki/problems/extremal_graph_theory/E0572/_index|#572]]: the site's key Er71: item
-15, display (4), printed p. 103 = PDF p. 7, the conjectured order
-$n^{1+1/r}$ of $f(n;C_{2r})$ with the lower bound open for $r>2$.
-[[../wiki/problems/extremal_graph_theory/E0573/_index|#573]]: the site's key Er71: item
-15, printed p. 103 = PDF p. 7, the sentence conjecturing at most
-$(1+o(1))n^{3/2}/2\sqrt2$ edges in a graph of $n$ vertices with no triangle
-and no rectangle.
+[[../wiki/problems/extremal_graph_theory/E0583/_index|#583]]: the
+erdosproblems.com key [Er71, p. 101]: item 11's question whether every connected
+graph of $n$ vertices decomposes into $[\tfrac12(n+1)]$ edge-disjoint paths,
+with Lovász's odd-valency case.
+[[../wiki/problems/extremal_graph_theory/E0572/_index|#572]]: the
+erdosproblems.com key Er71: item 15, display (4), printed p. 103 = PDF p. 7, the
+conjectured order $n^{1+1/r}$ of $f(n;C_{2r})$ with the lower bound open for
+$r>2$. [[../wiki/problems/extremal_graph_theory/E0573/_index|#573]]: the
+erdosproblems.com key Er71: item 15, printed p. 103 = PDF p. 7, the sentence
+conjecturing at most $(1+o(1))n^{3/2}/2\sqrt2$ edges in a graph of $n$ vertices
+with no triangle and no rectangle.
 
 **Results.**
 

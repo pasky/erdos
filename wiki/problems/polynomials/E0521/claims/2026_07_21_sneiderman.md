@@ -4,8 +4,8 @@ title: Finite-prefix zero-one strengthening of the cone-record argument
 desc: |
   Sneiderman, working with GPT-5.6 models, claims that the number $R_n$ of real
   roots has $\liminf R_n/\log n=1/\pi$ almost surely, by a finite-prefix restart
-  of the April cone-record note. It is a full claim on the site's tab, with no
-  comments.
+  of the April cone-record note. It is a full claim on the erdosproblems.com
+  tab, with no comments.
 authors:
 - Rob Sneiderman
 status: claimed
@@ -35,9 +35,9 @@ $$
 
 so $R_n/\log n$ does not converge almost surely and
 [[problems/polynomials/E0521/_index|Problem 521]] has a negative answer for
-the $\{-1,1\}$ reading. Rob Sneiderman registered the claim on the site's
-proof-claims tab on 2026-07-21 with a note dated the same day. The note
-keeps the ingredients of the April working note on
+the $\{-1,1\}$ reading. Rob Sneiderman registered the claim on the
+erdosproblems.com proof-claims tab on 2026-07-21 with a note dated the same day.
+The note keeps the ingredients of the April working note on
 [[problems/polynomials/E0521/claims/2026_04_30_kovac|Kovač 2026]] (Do's
 strong law for $[-1,1]$, an Abel cone criterion, polynomial reversal, a
 record decomposition, a cone-survival estimate and the Kochen–Stone lemma,
@@ -53,8 +53,8 @@ should be read as tying together existing results, its specific addition
 being the zero–one upgrade, and the note disclaims priority for the negative
 answer and for the exact lower limit. The author states that ChatGPT GPT-5.6
 Pro produced the finite-prefix observation and the first draft and that Codex
-GPT-5.6 Sol Ultra audited and repaired it; the site's claim line names GPT
-5.6 Sol. The note also cites a reflected-walk proposal for the exact lower
+GPT-5.6 Sol Ultra audited and repaired it; erdosproblems.com's claim line names
+GPT 5.6 Sol. The note also cites a reflected-walk proposal for the exact lower
 limit by the user vvncent, a Mathematics Stack Exchange question (5140475) of
 2026-06-13 that asked for verification and was closed with no answers.
 
@@ -83,7 +83,7 @@ AI used:
 conclusion (the lower limit $1/\pi$ with positive probability) the note
 upgrades to an almost-sure statement.
 
-**Standing.** Claimed. The claim has no comments on the tab, the site
+**Standing.** Claimed. The claim has no comments on the tab, Bloom's catalog
 labeled the problem OPEN (page last edited 19 October 2025), and no refereed
 or arXiv version exists. The same conclusion is claimed by other routes on
 [[problems/polynomials/E0521/claims/2026_05_07_kwon_zou|Kwon–Zou 2026]],

@@ -23,8 +23,8 @@ $$
 Here $R_k(H)$, the $k$-color Ramsey number of $H$ (p. 2), is the smallest
 $n$ for which no $k$-coloring of the edges of $K_n$ avoids a monochromatic
 copy of $H$. With $r=2n+1$ this is
-$R_k(C_{2n+1})>2n(2+\varepsilon)^{k-1}$; the site writes it with $\ge$ and a
-constant $c_n$. The theorem disproves Conjecture 3 (Bondy, Erdős; p. 2),
+$R_k(C_{2n+1})>2n(2+\varepsilon)^{k-1}$; erdosproblems.com writes it with $\ge$
+and a constant $c_n$. The theorem disproves Conjecture 3 (Bondy, Erdős; p. 2),
 that equality holds in the Erdős--Graham bound (1)
 $R_k(C_r)\ge(r-1)2^{k-1}+1$ for all odd $r>3$, for every fixed odd $r$ and
 all large $k$. The paper adds that Theorem 4 "can not be used to say

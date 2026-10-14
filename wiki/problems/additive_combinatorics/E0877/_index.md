@@ -27,7 +27,7 @@ $A\subseteq\{1,\ldots,n\}$ - that is, there are no solutions to $a=b+c$ in $A$
 and $A$ is maximal with this property. Estimate $f(n)$ - is it true that
 $f_m(n)=o(2^{n/2})$?
 
-**Formulation.** The site's wording on 2026-09-18 (page last edited 2
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (page last edited 2
 December 2025). Sum-free means no solution of $a=b+c$
 with $a,b,c\in A$, $b=c$ allowed, the convention of the sources ("$x$ and
 $y$ are not necessarily distinct"); maximal means not properly contained
@@ -35,11 +35,11 @@ in another sum-free subset of $\{1,\ldots,n\}$. The statement's "Estimate
 $f(n)$" refers to the function just defined, $f_m(n)$; the commentary's
 $f(n)$ is the number of all sum-free subsets, the subject of
 [[problems/integer_sequences/E0748/_index|Problem 748]], and the sources write
-$f_{\max}(n)$ for the site's $f_m(n)$. Two questions are posed: the
+$f_{\max}(n)$ for erdosproblems.com's $f_m(n)$. Two questions are posed: the
 displayed yes-or-no question $f_m(n)=o(2^{n/2})$, which the page-level
 status answers, and the estimate of $f_m(n)$, for which the exact
-asymptotic is known. The site attributes the problem to Cameron and Erdős
-with the key [CaEr90]; [BLST15] and [BLST18] attribute the question and
+asymptotic is known. erdosproblems.com attributes the problem to Cameron and
+Erdős with the key [CaEr90]; [BLST15] and [BLST18] attribute the question and
 the lower bound $2^{\lfloor n/4\rfloor}$ to Cameron and Erdős's 1999 paper in
 Combinatorics, Probability and Computing and cite their 1990 paper for
 the conjecture $f(n)=O(2^{n/2})$; neither Cameron--Erdős paper is held, so
@@ -71,8 +71,8 @@ and
 
 **Source.** [erdosproblems.com/877](https://www.erdosproblems.com/877),
 accessed 2026-09-18: the problem page (PROVED, with
-the site recording the answer as yes; last edited 2 December 2025; source
-keys [CaEr90], [Er98]; commentary citing [LuSc01], [BLST15], [BLST18] and
+erdosproblems.com recording the answer as yes; last edited 2 December 2025;
+source keys [CaEr90], [Er98]; commentary citing [LuSc01], [BLST15], [BLST18] and
 Problem 748; indicators "Formalised statement? No" and OEIS A121269), its
 one-comment discussion thread (24 October 2025, a broken reference link,
 fixed) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
@@ -116,7 +116,7 @@ fixed) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [CaEr90] Cameron, P. J. and Erdős, P., On the number of sets of integers
   with various properties. Number Theory (Banff, 1988), de Gruyter, Berlin
   (1990), 61--79 (the Crossref record, DOI 10.1515/9783110848632-008, gives
-  pp. 61--80). Not held. The site's key for the problem; [BLST15] and
+  pp. 61--80). Not held. The erdosproblems.com key for the problem; [BLST15] and
   [BLST18] cite it for the conjecture $f(n)=O(2^{n/2})$.
 - [CaEr99] Cameron, P. J. and Erdős, P., Notes on sum-free and related
   sets. Combin. Probab. Comput. 8 (1999), 95--107. Not held; the
@@ -156,9 +156,9 @@ audited, so it gives no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; PROVED, with the site recording the answer as yes, last edited 2
-December 2025. The site's commentary, in summary: it attributes the
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED, with erdosproblems.com recording the answer as yes, last edited 2
+December 2025. The erdosproblems.com commentary, in summary: it attributes the
 problem to Cameron and Erdős, to whom it credits the lower bound
 $f_m(n)>2^{n/4}$ and the further question whether $f_m(n)=o(f(n))$, $f(n)$
 being the number of all sum-free subsets; it credits Łuczak and Schoen
@@ -169,8 +169,8 @@ and the same authors' sharpening $f_m(n)=(C_n+o(1))2^{n/4}$ [BLST18], the
 constant $C_n$ determined by the residue of $n$ modulo $4$; and it points
 to Problem 748, which counts all sum-free sets rather than the maximal
 ones. The thread has one comment (24
-October 2025) about a reference link the site then fixed. The proof-claim
-tab is empty.
+October 2025) about a reference link erdosproblems.com then fixed. The
+proof-claim tab is empty.
 
 **Status-defining sources.**
 [[../library/additive_combinatorics/balogh_2015_number_maximal_sum_free_subsets_integers/theorem_1_1|Theorem 1.1 of [BLST15]]]
@@ -206,7 +206,7 @@ and the constructions; proofs unread.
 **Earlier bounds (second-hand).** Łuczak and Schoen [LuSc01] "answered
 this question, showing that $f_{\max}(n)\le2^{n/2-2^{-28}n}$ for
 sufficiently large $n$" ([BLST15], p. 2; [BLST18], p. 2, "answered this
-question in the affirmative"), the site's "$c<1/2$"; Wolfovitz proved
+question in the affirmative"), erdosproblems.com's "$c<1/2$"; Wolfovitz proved
 $f_{\max}(n)\le2^{3n/8+o(n)}$ ([Wo09], per both papers' references; not
 held; its claim page is
 [[problems/additive_combinatorics/E0877/claims/2009_04_09_wolfovitz|Wolfovitz's bound]]).
@@ -215,14 +215,14 @@ Cameron and Erdős's question, per
 $f_{\max}(n)\le f(n)/2^{\varepsilon n}$ for some constant $\varepsilon>0$",
 where $f(n)=(C_i'+o(1))2^{n/2}$ for $n\equiv i\bmod2$ by Green and by
 Sapozhenko (the Cameron--Erdős conjecture, Problem 748); so the displayed
-question $f_m(n)=o(2^{n/2})$ is that question in the form the site
+question $f_m(n)=o(2^{n/2})$ is that question in the form erdosproblems.com
 states. The OEIS entry A121269 lists $f_m(n)$ for $n\le80$ (a data lead
 only; its values are not compared with the asymptotic).
 
 **Search scope.** None of the routes below found a retraction, a dispute,
 or a sharper form of the 2018 asymptotic.
 
-- The site: problem page, discussion thread and proof-claim tab on
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
   2026-09-18; the formal-conjectures main branch on 2026-09-18 (no
   file); the community database the same day.
 - arXiv: the API records of 1409.5661 (one version) and 1502.07605 (two
@@ -244,10 +244,10 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [LuSc01],
 **Remaining gaps.** (1) [LuSc01], the first resolution, and [Wo09] are
 not held; their bounds are second-hand from two refereed introductions,
 and the reopening condition is each paper read at its theorem. (2) Neither Cameron--Erdős
-paper is held; which of them poses the maximal question is recorded as a
-site-versus-source attribution difference. (3) The two status-defining
-theorems are compiled as statements from the arXiv versions; the proofs
-are unread, and the journal texts were not compared. (4) The constants
+paper is held; which of them poses the maximal question is recorded as an
+erdosproblems.com-versus-source attribution difference. (3) The two
+status-defining theorems are compiled as statements from the arXiv versions; the
+proofs are unread, and the journal texts were not compared. (4) The constants
 $C_i$ have no closed form in the source.
 <!-- BEGIN problem library links -->
 

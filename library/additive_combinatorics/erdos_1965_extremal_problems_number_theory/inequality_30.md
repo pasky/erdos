@@ -33,7 +33,7 @@ probably far from being best possible. It is known that $h(n)<c_8n^{5/6}$
 [5] and by complicated arguments we can show that $g(n)=o(n)$, very likely
 $g(n)<n^{1-c_9}$ for some $c_9>0$."
 
-The printed bound is $\sqrt{n/2}$, the site's $(n/2)^{1/2}$ for Problem
+The printed bound is $\sqrt{n/2}$, erdosproblems.com's $(n/2)^{1/2}$ for Problem
 790. The claim $g(n)=o(n)$ is withdrawn in the 1973 survey ("I claimed
 $l(n)=o(n)$, but have difficulties in reconstructing my proof", printed
 p. 130 of
@@ -43,7 +43,7 @@ p. 130 of
 Pure Math. VIII (Theory of Numbers), Amer. Math. Soc. (1965), 181--189, DOI
 10.1090/pspum/008/0174539; printed p. 188 (PDF p. 8 of the eleven-page
 scan read for this page), read on the page image (the radicals at
-300 dpi); the site's key [Er65, p. 188] for Problem 790.
+300 dpi); the erdosproblems.com key [Er65, p. 188] for Problem 790.
 
 **Read depth.** Claims checked: the definition, (30) and the surrounding
 sentences were read clause by clause on the page image. The proof of (30)
@@ -68,5 +68,5 @@ The method of Theorem 2 (the measure estimate (28) for the sets $I_r$).
 
 - [[../wiki/problems/additive_combinatorics/E0790/_index|Problem 790]]: the origin of the
   problem's $l(n)$ (here $g(n)$, for reals), the first lower bound
-  $(n/2)^{1/2}$ that the site quotes, and the $o(n)$ claim the site records
-  as withdrawn.
+  $(n/2)^{1/2}$ that erdosproblems.com quotes, and the $o(n)$ claim
+  erdosproblems.com records as withdrawn.

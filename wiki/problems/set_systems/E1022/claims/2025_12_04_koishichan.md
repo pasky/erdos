@@ -4,8 +4,8 @@ title: KoishiChan's direct two-level counterexample
 desc: |
   For every $t$ there is a $(t+1)$-uniform hypergraph without property B with at
   most $2|X|$ edges inside every vertex set $X$, so no valid constant exceeds 2
-  and $c_t$ cannot tend to infinity. The site accepts the claim, which has a
-  third-party Lean formalization.
+  and $c_t$ cannot tend to infinity. erdosproblems.com accepts the claim, which
+  has a third-party Lean formalization.
 authors: []
 status: accepted
 claim: disproved
@@ -65,12 +65,12 @@ its [[problems/set_systems/E1022/claims/2013_10_10_wood|own claim page]].
 **Acceptance.** Terence Tao replied in the thread on 4 December 2025 that the
 argument looked essentially correct to Tao. Tao ran ChatGPT Pro on it, and
 ChatGPT Pro corrected $c_t<2$ to $c_t\le2$ for the construction. On 23 January
-2026 the site's curator, Thomas Bloom, wrote that Bloom would mark the problem
-solved by KoishiChan. The site marked the problem settled, under the label
-PROVED (LEAN). Its commentary says the statement is false and credits the
-counterexample (`reviewed`). The label's polarity is the reverse of the outcome,
-and the problem page records this. There is no manuscript and no refereed
-publication.
+2026 the erdosproblems.com curator, Thomas Bloom, wrote that Bloom would mark
+the problem solved by KoishiChan. Bloom's catalog marked the problem settled,
+under the label PROVED (LEAN). Its commentary says the statement is false and
+credits the counterexample (`reviewed`). The label's polarity is the reverse of
+the outcome, and the problem page records this. There is no manuscript and no
+refereed publication.
 
 **Formalization.** The Lean file among the links, in Boris Alexeev's
 repository `lean-proofs`, declares itself a formalization of a solution to

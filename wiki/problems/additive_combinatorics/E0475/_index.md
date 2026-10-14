@@ -27,13 +27,13 @@ updated: 2026-10-08T01:29:58Z
 $A=\{a_1,\ldots,a_t\}$ such that all partial sums $\sum_{1\leq k\leq m}a_{k}$
 are distinct, for all $1\leq m\leq t$?
 
-**Formulation.** The site's wording (page last edited 5 March 2026). An
-ordering with this property is called a *valid ordering* in the papers;
-only the partial sums with $m\ge1$ are compared, so a valid ordering may
-end at $0$ when the elements of $A$ sum to $0$. Alspach's conjecture,
-which the site mentions, is the stronger statement for cyclic groups
+**Formulation.** The erdosproblems.com wording (page last edited 5 March 2026).
+An ordering with this property is called a *valid ordering* in the papers; only
+the partial sums with $m\ge1$ are compared, so a valid ordering may end at $0$
+when the elements of $A$ sum to $0$. Alspach's conjecture, which
+erdosproblems.com mentions, is the stronger statement for cyclic groups
 $\mathbb Z_n$ that asks the partial sums to be distinct and nonzero when
-the total sum is nonzero; the papers call the site's statement over
+the total sum is nonzero; the papers call the erdosproblems.com statement over
 $\mathbb Z_n$ the G-ADMS or distinct-partial-sums conjecture. The origin
 passages: Erdős's 1973 chapter [Er73], printed pp. 126--127: "Let
 $a_1,\ldots,a_k$ be $k$ distinct residues mod $p$, $k<p$. Is it true that
@@ -54,18 +54,20 @@ $Z_p$. Conjecture: There always exists an arrangement
 $a_{i_1},\ldots,a_{i_k}$ of the $a_i$ such that all partial sums
 $\sum_{j=1}^ta_{i_j}$, $1\le t\le k$, are distinct modulo $p$"; the paper
 proves nothing about it and does not mention the case $k=p-1$. The label
-DECIDABLE is the site's, which the site explains as resolved except for a
-finite check.
+DECIDABLE is erdosproblems.com's, which erdosproblems.com explains as resolved
+except for a finite check.
 
-**Status.** Decidable, the site's label. The label describes the shape of what
-remains and is not a theorem. The question for every prime is open.
+**Status.** Decidable, the erdosproblems.com label. The label describes the
+shape of what remains and is not a theorem. The question for every prime is
+open.
 
-The statement is proved for all sufficiently large primes $p$. The site's chain
-of four range results covers every size $t$ once $p\ge p_0$, with $p_0$
-unspecified in every link. This is recorded as a pending partial claim on
+The statement is proved for all sufficiently large primes $p$.
+erdosproblems.com's chain of four range results covers every size $t$ once
+$p\ge p_0$, with $p_0$ unspecified in every link. This is recorded as a pending
+partial claim on
 [[problems/additive_combinatorics/E0475/claims/2026_02_17_pham_sauermann|its claim page]].
-The site's label leaves the problem open, so the curator's commentary is not
-acceptance. For small $t$,
+The erdosproblems.com label leaves the problem open, so the curator's commentary
+is not acceptance. For small $t$,
 [[../library/additive_combinatorics/bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification/theorem_1_2|Bedert and Kravitz]]
 (Israel J. Math. 273 (2026), refereed;
 [[problems/additive_combinatorics/E0475/claims/2024_09_11_bedert_kravitz|claim page]],
@@ -101,9 +103,9 @@ $(p-3)$-subset with nonzero sum
 ([[../library/additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/theorem_4_6|Hicks, Ollis and Schmitt]],
 J. Combin. Des. 27 (2019), refereed;
 [[problems/additive_combinatorics/E0475/claims/2018_09_07_hicks_ollis_schmitt|claim page]],
-accepted). The site's range $p-3\le t\le p-1$ also includes the zero-sum
-$(p-3)$-subsets, which no cited source covers. Kravitz states the range as
-nonzero-sum sets of size $p-2$ or $p-3$.
+accepted). erdosproblems.com's range $p-3\le t\le p-1$ also includes the
+zero-sum $(p-3)$-subsets, which no cited source covers. Kravitz states the range
+as nonzero-sum sets of size $p-2$ or $p-3$.
 
 Bedert and Kravitz's refereed theorem has its own page. Müyesser and Pokrovskiy
 do not state the subset case, which Bedert, Bucić, Kravitz, Montgomery and
@@ -117,8 +119,8 @@ claim value `decidable`.
 
 **Source.** [erdosproblems.com/475](https://www.erdosproblems.com/475),
 accessed 2026-09-18: the problem page (DECIDABLE, a
-label the site explains as resolved except for a finite check; last edited
-5 March 2026; source keys [Er73], [ErGr80]; the commentary summarized
+label erdosproblems.com explains as resolved except for a finite check; last
+edited 5 March 2026; source keys [Er73], [ErGr80]; the commentary summarized
 below; a thanks line naming four contributors), its three-comment
 discussion thread (23 February, 24
 February and 3 March 2026) and its empty proof-claim tab. Cite as: T. F.
@@ -228,26 +230,26 @@ Bloom, Erdős Problem #475, https://www.erdosproblems.com/475, accessed
 
 **Formalization.** None. No file `ErdosProblems/475.lean` exists in
 google-deepmind/formal-conjectures at its main-branch commit of 2026-09-18
-(the 673-entry directory listing); the site's indicator reads "Formalised
-statement? No", and the community database (teorth/erdosproblems, read
-2026-09-18) lists the problem as decidable, as of its last update on 23
+(the 673-entry directory listing); the erdosproblems.com indicator reads
+"Formalised statement? No", and the community database (teorth/erdosproblems,
+read 2026-09-18) lists the problem as decidable, as of its last update on 23
 February 2026, unformalized, with no formal proof.
 
 ## Current assessment
 
-**The question (site formulation as accessed 2026-09-18).** The statement
-above; DECIDABLE, a label the site explains as resolved except for a finite
-check; last edited 5 March 2026. The commentary, in this page's words: the
-problem is Graham's, who proved the case $t=p-1$; Alspach made the analogous
-conjecture for arbitrary abelian groups; the literature calls such an ordering
-valid; the statement is known for $t\le12$ (Costa and Pellegrini [CoPe20] and
-their references) and for $p-3\le t\le p-1$ (Hicks, Ollis and Schmitt [HOS19]
-and their references), a range wider than its sources state (see below); and
-it is proved for all sufficiently large primes as the consequence of four
-kinds of result, each covering one range of $|A|$ by its own method: small,
-Kravitz [Kr24] for $t\le\log p/\log\log p$ (which the site says Will Sawin had
-observed earlier in a MathOverflow post), Bedert and Kravitz [BeKr24] for
-$t\le e^{c(\log p)^{1/4}}$, Costa and Della Fiore [CoDe26] for
+**The question (erdosproblems.com formulation as accessed 2026-09-18).** The
+statement above; DECIDABLE, a label erdosproblems.com explains as resolved
+except for a finite check; last edited 5 March 2026. The commentary, in this
+page's words: the problem is Graham's, who proved the case $t=p-1$; Alspach made
+the analogous conjecture for arbitrary abelian groups; the literature calls such
+an ordering valid; the statement is known for $t\le12$ (Costa and Pellegrini
+[CoPe20] and their references) and for $p-3\le t\le p-1$ (Hicks, Ollis and
+Schmitt [HOS19] and their references), a range wider than its sources state (see
+below); and it is proved for all sufficiently large primes as the consequence of
+four kinds of result, each covering one range of $|A|$ by its own method: small,
+Kravitz [Kr24] for $t\le\log p/\log\log p$ (which erdosproblems.com says Will
+Sawin had observed earlier in a MathOverflow post), Bedert and Kravitz [BeKr24]
+for $t\le e^{c(\log p)^{1/4}}$, Costa and Della Fiore [CoDe26] for
 $t\le e^{c(\log p)^{1/3}}$; medium, Pham and Sauermann [PhSa26] for
 $1\ll_\alpha t\le p^{1-\alpha}$; large, Bedert, Bucić, Kravitz, Montgomery and
 Müyesser [BBKMM25] for $p^{1-c}\le t\le(1-o(1))p$; very large, Müyesser and
@@ -285,7 +287,7 @@ of [CoPe20] (p. 6): "G-ADMS conjecture holds for subsets of size $k\le12$ of
 cyclic groups of prime order", by Alon's Combinatorial Nullstellensatz applied
 in the manner of [HOS19] with two computed coefficients whose greatest common
 divisor is $2^3$, so one is nonzero modulo every odd prime. $p-3\le t\le p-1$:
-Graham's own case $t=p-1$ (the site; [Er73] p. 127);
+Graham's own case $t=p-1$ (erdosproblems.com; [Er73] p. 127);
 [[../library/additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/theorem_4_6|Theorem 4.6]]
 of [HOS19] (p. 15), Alspach's conjecture for $n=p$ prime and $k=p-3$ by an
 explicit construction from rotational sequencings and graceful permutations,
@@ -295,14 +297,14 @@ of [BoHa05] (p. 4), "Conjecture 1 is true for $t=n-2$", Alspach's conjecture
 for every $n$ and every subset missing one nonzero element (for odd $n$ by an
 explicit directed cycle through all $n-1$ lengths with one diagonal deleted,
 for even $n$ by an induction on the missing length carried by the paper's
-figures), gives Alspach's conjecture for $k\ge p-3$, hence the site's
+figures), gives Alspach's conjecture for $k\ge p-3$, hence the erdosproblems.com
 statement for every $(p-2)$-subset and every $(p-3)$-subset with nonzero sum.
 The appending step in the proof of the Archdeacon--Dinitz--Mattern--Stinson
 implication (quoted from [HOS19], p. 2, and [CoPe20], pp. 2 and 7; [ADMS16] is
 not held) gives $\mathbb Z_p\setminus\{0\}$ from the size $p-2$. The zero-sum
 $(p-3)$-subsets $\mathbb Z_p\setminus\{0,x,-x\}$ would need the size $p-4$
-(the proof of [HOS19]'s Theorem 4.6 sets them aside, p. 16), so the site's
-range goes beyond its sources ([Kr24], p. 1). [BoHa05]'s
+(the proof of [HOS19]'s Theorem 4.6 sets them aside, p. 16), so
+erdosproblems.com's range goes beyond its sources ([Kr24], p. 1). [BoHa05]'s
 [[../library/additive_combinatorics/bode_harborth_2005_directed_paths_diagonals_within_polygons/theorem_1|Theorem 1]]
 (p. 4), "Conjecture 1 is true for $t=n-1$", the other size [HOS19] reports
 from it, has content only for even $n$: its proof says the only $(n-1)$-subset
@@ -344,7 +346,7 @@ sketch.
   of [CoDe26]: there is $c>0$ such that every $A\subseteq\mathbb Z_k\setminus\{0\}$
   with $|A|\le\exp(c(\log p)^{1/3})$, $p$ the least prime divisor of $k$,
   is sequenceable (valid, with nonzero proper partial sums); for $k=p$
-  this is the site's current small range, with an existential constant
+  this is erdosproblems.com's current small range, with an existential constant
   where [BeKr24] allows every $c$; a preprint.
 - *Medium.*
   [[../library/additive_combinatorics/pham_2026_graham_s_rearrangement_conjecture/theorem_1_2|Theorem 1.2]]
@@ -388,9 +390,9 @@ of Cayley graphs ([BBKMM25]); the random Hall--Paige theorem through
 sorting networks ([MuPo25]). Acceptance evidence: [BeKr24], [MuPo25],
 [CoPe20] and [HOS19] are refereed; [PhSa26], [BBKMM25] and [CoDe26] are
 preprints (no journal records on 2026-09-18), [PhSa26] cited by four 2026
-preprints and [BBKMM25] by none in the citation index consulted; the site
-records the chain in its commentary (5 March 2026) under a label that
-left the problem open, which is not acceptance. Under the preprint
+preprints and [BBKMM25] by none in the citation index consulted;
+erdosproblems.com records the chain in its commentary (5 March 2026) under a
+label that left the problem open, which is not acceptance. Under the preprint
 qualification the completion for large $p$ is source-supported but not
 refereed in two of its four links.
 
@@ -417,7 +419,7 @@ explicit threshold $p_0$, a treatment of the remaining small primes, a
 refereed version of [PhSa26], [BBKMM25] or [CoDe26], or a dispute of the
 chain.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing at its commit of 2026-09-18 (no
   file); the community database, read 2026-09-18.
 - The primary sources at the pages stated: [Kr24] pp. 1--3; [BeKr24]
@@ -438,8 +440,8 @@ chain.
   [CoDe26] (1) and [BBKMM25] (0), scanned by title.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X, the MathOverflow post
-the site and [Kr24] mention. Not held: [ADMS16], [BFMPY25], [CDFL26], the
-journal texts of [BeKr24], [MuPo25], [CoPe20] and [HOS19].
+erdosproblems.com and [Kr24] mention. Not held: [ADMS16], [BFMPY25], [CDFL26],
+the journal texts of [BeKr24], [MuPo25], [CoPe20] and [HOS19].
 
 **Remaining gaps.** (1) The threshold $p_0$ is not explicit, so the finite
 remainder has no stated bound; reopening condition: an explicit $p_0$ with a
@@ -447,24 +449,24 @@ check of the primes below it, or a proof for every prime. (2) Two links of the
 chain, [PhSa26] and [BBKMM25], and the current small-range record [CoDe26],
 are preprints; a refereed version of each is the reopening condition for that
 qualification. (3) The zero-sum $(p-3)$-subsets
-$\mathbb Z_p\setminus\{0,x,-x\}$, inside the site's range $p-3\le t\le p-1$,
-are covered by no cited source for a fixed prime: Alspach's conjecture leaves
-them out, and the appending step of [ADMS16] would need Alspach's conjecture
-at size $p-4$. [BoHa05]'s Theorem 2 is cited from the paper itself, so the
-size $p-2$ of Alspach's conjecture is first-hand; the appending step that
-carries it to $\mathbb Z_p\setminus\{0\}$ is quoted from [CoPe20], p. 7, as
-[ADMS16] is not held. (4) [Gr71], the source of the problem, is
-quoted at its Question 10 under Formulation; the paper states the conjecture
-without proof and without the case $t=p-1$, so Graham's proof of that case,
-reported by [Er73], is stated in none of the sources cited here. The odd-$n$
-directed cycle in the proof of [BoHa05]'s Theorem 2 (p. 4) is an ordering of
-all of $\mathbb Z_p\setminus\{0\}$ with distinct partial sums, the last being
-$0$, which is that case; this is the corpus's own reading, recorded on the
-result page, and not a statement of the paper. (5) Proof coverage is
-statements only: the result pages record claims checked at statement level,
-and no argument of the chain has been reviewed; the anticoncentration theorem
-of [PhSa26] and the absorption argument of [BBKMM25] are the natural
-candidates for an independent review.
+$\mathbb Z_p\setminus\{0,x,-x\}$, inside erdosproblems.com's range
+$p-3\le t\le p-1$, are covered by no cited source for a fixed prime: Alspach's
+conjecture leaves them out, and the appending step of [ADMS16] would need
+Alspach's conjecture at size $p-4$. [BoHa05]'s Theorem 2 is cited from the paper
+itself, so the size $p-2$ of Alspach's conjecture is first-hand; the appending
+step that carries it to $\mathbb Z_p\setminus\{0\}$ is quoted from [CoPe20], p.
+7, as [ADMS16] is not held. (4) [Gr71], the source of the problem, is quoted at
+its Question 10 under Formulation; the paper states the conjecture without proof
+and without the case $t=p-1$, so Graham's proof of that case, reported by
+[Er73], is stated in none of the sources cited here. The odd-$n$ directed cycle
+in the proof of [BoHa05]'s Theorem 2 (p. 4) is an ordering of all of
+$\mathbb Z_p\setminus\{0\}$ with distinct partial sums, the last being $0$,
+which is that case; this is the corpus's own reading, recorded on the result
+page, and not a statement of the paper. (5) Proof coverage is statements only:
+the result pages record claims checked at statement level, and no argument of
+the chain has been reviewed; the anticoncentration theorem of [PhSa26] and the
+absorption argument of [BBKMM25] are the natural candidates for an independent
+review.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

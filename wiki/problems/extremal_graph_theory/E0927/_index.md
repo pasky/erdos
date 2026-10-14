@@ -32,17 +32,17 @@ $$
 where $\log_*(n)$ is the number of iterated logarithms such that $\log\cdots
 \log n <1$.
 
-**Formulation.** The site's wording (the page carries no last-edited date).
-A clique is a maximal complete subgraph, the convention of [MoMo65] (p. 23:
-"If the complete graph $C$ is maximal with respect to $G$ then $C$ forms a
+**Formulation.** The erdosproblems.com wording (the page carries no last-edited
+date). A clique is a maximal complete subgraph, the convention of [MoMo65] (p.
+23: "If the complete graph $C$ is maximal with respect to $G$ then $C$ forms a
 clique") and of [Er66b] (p. 233: "A complete subgraph of $G$ is called a
 clique if it is maximal
 i.e., if it is not contained in any other complete subgraph of $G$"),
 repeated word for word by [Sp71] (p. 419), and $g(n)$ is the
-largest number of distinct clique sizes in a graph on $n$ vertices. The
-site's $\log_*(n)$ counts iterated logarithms until the value drops below
-$1$; [Er66b] writes the same count with the threshold $2$ ($H(n)$, the least
-$k$ with $\log_kn<2$), [Er69b] with the threshold $1$, and [Er71] with the
+largest number of distinct clique sizes in a graph on $n$ vertices.
+erdosproblems.com's $\log_*(n)$ counts iterated logarithms until the value drops
+below $1$; [Er66b] writes the same count with the threshold $2$ ($H(n)$, the
+least $k$ with $\log_kn<2$), [Er69b] with the threshold $1$, and [Er71] with the
 threshold $e$ ($L(n)$, the least $k$ with $1<\log_kn\le e$). The three counts
 differ by a bounded amount (for example $H(2^{16})=4$ while $L(2^{16})=2$),
 so they agree inside the $O(1)$. The displayed formula is Erdős's expectation
@@ -50,14 +50,15 @@ that his lower bound $g(n)\ge n-\log_2n-H(n)-O(1)$ is essentially sharp.
 Since $\log_*(n)\to\infty$, any construction giving $g(n)\ge n-\log_2n-c$
 for a fixed $c$ along an infinite sequence of $n$ refutes it; Spencer's
 paper states $c=4$ for every $N>33000$ ([Sp71], p. 419), with $c=5$ in one
-case by its own counts. The site's label DISPROVED (LEAN) carries a catalog
-suffix explained under Formalization.
+case by its own counts. The erdosproblems.com label DISPROVED (LEAN) carries a
+catalog suffix explained under Formalization.
 
-**Status.** The site labeled the problem DISPROVED (LEAN). The label's Lean
-clause is a separate matter, treated under Formalization. The claim page is
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN). The label's
+Lean clause is a separate matter, treated under Formalization. The claim page is
 [[problems/extremal_graph_theory/E0927/claims/1971_02_01_spencer|Spencer]],
-accepted on the refereed publication, Erdős's attestation and the site's
-acceptance, and the frontmatter is derived from it. The bounds of
+accepted on the refereed publication, Erdős's attestation and
+erdosproblems.com's acceptance, and the frontmatter is derived from it. The
+bounds of
 [[problems/extremal_graph_theory/E0927/claims/1965_03_01_moon_moser|Moon and Moser]]
 and of
 [[problems/extremal_graph_theory/E0927/claims/1966_12_01_erdos|Erdős 1966]] are
@@ -71,13 +72,13 @@ logarithms are to the base $2$. It states that "for $N$ sufficiently large
 Erdős himself also attests the result in print, in the note added in proof to
 item 10 of his 1971 problem list ([Er71], printed p. 101: "Spencer proved
 $f(n)>n-\frac{\log n}{\log2}-c$"). That paper's $f(n)$ is this page's $g(n)$.
-The site's curator, Thomas Bloom, accepts the result and credits Spencer with
-$g(n)>n-\log_2n-O(1)$. The upper bound of Moon and Moser is
+The erdosproblems.com curator, Thomas Bloom, accepts the result and credits
+Spencer with $g(n)>n-\log_2n-O(1)$. The upper bound of Moon and Moser is
 $g(n)\le n-[\log_2n]$ for $n\ge4$ ([MoMo65], Theorem 4, printed p. 27; paged at
 [[../library/extremal_graph_theory/moon_moser_1965_cliques_graphs/theorem_4|theorem_4]];
 [[problems/extremal_graph_theory/E0927/claims/1965_03_01_moon_moser|its claim page]]).
-With that bound, Spencer's result gives $g(n)=n-\log_2n+O(1)$, the site's
-estimate.
+With that bound, Spencer's result gives $g(n)=n-\log_2n+O(1)$,
+erdosproblems.com's estimate.
 
 The constant $4$ is the paper's headline as printed. The construction's own
 counts realize only $N-[\log_2N]-5$ clique sizes in the third of its three
@@ -89,17 +90,17 @@ conjecture. The bracket $\{\log N\}$ in the paper's closing bounds is undefined
 in print. The card records the reading the counts fix, as a filing observation,
 not a review verdict.
 
-The Lean file named in the site's discussion thread encodes a construction with
-$g(N)\ge N-\lfloor\log_2N\rfloor-6$ along a sequence of $N$ (Formalization). The
-Lean developments that declare themselves formalizations of Spencer's disproof
-are the gist of June 2026 and the lean-proofs copy that formal-conjectures
-names. They are `formalization` links on the Spencer page, not built by this
-project, and they add no evidence.
+The Lean file named in the erdosproblems.com discussion thread encodes a
+construction with $g(N)\ge N-\lfloor\log_2N\rfloor-6$ along a sequence of $N$
+(Formalization). The Lean developments that declare themselves formalizations of
+Spencer's disproof are the gist of June 2026 and the lean-proofs copy that
+formal-conjectures names. They are `formalization` links on the Spencer page,
+not built by this project, and they add no evidence.
 
 **Source.** [erdosproblems.com/927](https://www.erdosproblems.com/927),
 accessed 2026-09-18: the problem page
-(labeled DISPROVED (LEAN), with the site's explanation that the problem is
-solved in the negative and the proof verified in Lean; no last-edited date;
+(labeled DISPROVED (LEAN), with erdosproblems.com's explanation that the problem
+is solved in the negative and the proof verified in Lean; no last-edited date;
 source keys [Er66b], [Er71, p. 101],
 [Er69b], with [MoMo65] and [Sp71] cited in the commentary), its one-comment
 discussion thread (5 June 2026) and its empty proof-claim tab. Cite as: T. F.
@@ -135,7 +136,8 @@ Bloom, Erdős Problem #927, https://www.erdosproblems.com/927, accessed
   [[../library/extremal_graph_theory/spencer_1971_cliques_graphs/_index|spencer_1971_cliques_graphs]];
   paged at
   [[../library/extremal_graph_theory/spencer_1971_cliques_graphs/main_bound_p419|main_bound_p419]].
-  Also attested through the note added in proof in [Er71] and through the site.
+  Also attested through the note added in proof in [Er71] and through
+  erdosproblems.com.
 - [Er71] Erdős, P., Some unsolved problems in graph theory and combinatorial
   analysis. Combinatorial Mathematics and its Applications (Proc. Conf.,
   Oxford, 1969), Academic Press (1971), 97--109; item 10, printed p. 101 =
@@ -151,7 +153,8 @@ Bloom, Erdős Problem #927, https://www.erdosproblems.com/927, accessed
   (the card carries no row for this problem; the passage is quoted below
   with its locator).
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
+file
 [`ErdosProblems/927.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/927.lean)
 of formal-conjectures (added 2026-09-18; the link pins the version that added
 it) declares `erdos_927` under `category research solved`, with `answer(False)`:
@@ -169,42 +172,42 @@ proofs; it proves `not_erdos_927` and is linked, with the gist, on
 The community database (teorth/erdosproblems, `data/problems.yaml`, accessed
 2026-10-07) lists `status` "disproved (Lean)" and `formal_status` Lean as of its
 last update of the record, dated 7 June 2026, and the statement formalized since
-2026-09-18; the site's indicator reads "Formalised statement? Yes" and links the
-file. The artifact the site's discussion thread names is the gist linked from
-the comment of 5 June 2026 through a live.lean-lang.org page: the file
-`Erdos927.lean` (93,655 bytes, 2,130 lines) at the gist's only revision,
-committed 2026-06-05T05:56:59Z (the claim page's link pins the revision). Its
-header credits John Jennings and the automated formalization system Aristotle
-(Harmonic) as authors and cites Spencer's paper. The file imports Mathlib;
-defines `IsMaximalClique`, `maximalCliqueSizes`, `g n` (the largest number of
-maximal-clique sizes over graphs on `Fin n`) and `logStar` (the
-iterated-logarithm count with the site's threshold); builds a graph `spGraph n`
-on `spN n` vertices; proves
+2026-09-18; the erdosproblems.com indicator reads "Formalised statement? Yes"
+and links the file. The artifact the erdosproblems.com discussion thread names
+is the gist linked from the comment of 5 June 2026 through a live.lean-lang.org
+page: the file `Erdos927.lean` (93,655 bytes, 2,130 lines) at the gist's only
+revision, committed 2026-06-05T05:56:59Z (the claim page's link pins the
+revision). Its header credits John Jennings and the automated formalization
+system Aristotle (Harmonic) as authors and cites Spencer's paper. The file
+imports Mathlib; defines `IsMaximalClique`, `maximalCliqueSizes`, `g n` (the
+largest number of maximal-clique sizes over graphs on `Fin n`) and `logStar`
+(the iterated-logarithm count with erdosproblems.com's threshold); builds a
+graph `spGraph n` on `spN n` vertices; proves
 `spencer_lower_bound : spN n ≤ g (spN n) + Nat.log 2 (spN n) + 6` for `n ≥ 16`
 and `spencer_disproof_key`; defines
 `erdos927_conjecture : ∃ C : ℕ, ∀ n : ℕ, n ≥ 2 → g n + Nat.log 2 n + logStar n ≤ n + C`;
 and ends with `theorem erdos927_disproof : ¬ erdos927_conjecture`. It has no
 `sorry` and no `axiom`, and it uses `native_decide` five times, which puts the
 compiled evaluator inside what the proof trusts. The encoded conjecture is the
-upper half of the site's formula, $g(n)\le n-\lfloor\log_2n\rfloor-\log_*n+C$;
-its negation is exactly what the disproof needs (authored). This project has not
-built, audited or kernel-checked either file, so no `formalized` evidence is
-listed.
+upper half of the erdosproblems.com formula,
+$g(n)\le n-\lfloor\log_2n\rfloor-\log_*n+C$; its negation is exactly what the
+disproof needs (authored). This project has not built, audited or kernel-checked
+either file, so no `formalized` evidence is listed.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-DISPROVED (LEAN); no last-edited date. The commentary, in this page's words,
-traces $g(n)$ to Moon and Moser [MoMo65], to whom it attributes the bounds
-$n-\log_2n-2\log\log n<g(n)\le n-\lfloor\log_2n\rfloor$; records Erdős's 1966
-improvement of the lower bound to $n-\log_2n-\log_*(n)-O(1)$ and his conjecture
-that this was the right order; states that Spencer [Sp71] disproved it with
-$g(n)>n-\log_2n-O(1)$; and points to Problem 775. The discussion thread has one
-comment (06:01 on 5 June 2026, the account JohnJennings), which says that
-Aristotle formalized Spencer's disproof in Lean 4 and links the gist described
-under Formalization. The proof-claim tab is empty. The community database lists
-the problem as disproved (Lean) as of its last update of the record, dated 7
-June 2026.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED (LEAN); no last-edited date. The commentary, in this page's
+words, traces $g(n)$ to Moon and Moser [MoMo65], to whom it attributes the
+bounds $n-\log_2n-2\log\log n<g(n)\le n-\lfloor\log_2n\rfloor$; records Erdős's
+1966 improvement of the lower bound to $n-\log_2n-\log_*(n)-O(1)$ and his
+conjecture that this was the right order; states that Spencer [Sp71] disproved
+it with $g(n)>n-\log_2n-O(1)$; and points to Problem 775. The discussion thread
+has one comment (06:01 on 5 June 2026, the account JohnJennings), which says
+that Aristotle formalized Spencer's disproof in Lean 4 and links the gist
+described under Formalization. The proof-claim tab is empty. The community
+database lists the problem as disproved (Lean) as of its last update of the
+record, dated 7 June 2026.
 
 **The bounds as Erdős printed them.**
 
@@ -237,7 +240,7 @@ June 2026.
   lower bound is essentially the best possible, but I cannot even prove
   that $g(n)<n-(\log n/\log2)-C$ for every $C$ if $n>n_0(C)$ is
   sufficiently large [9]." ([9] is the 1966 note and [22] Moon and Moser's
-  paper, p. 35.) This is the conjecture the site records;
+  paper, p. 35.) This is the conjecture erdosproblems.com records;
   the 1966 note's own words are the weaker "seems likely ... very close to
   being best possible". The sign of the $O(1)$ term and the threshold in
   $H(n)$ differ between the two papers and are recorded as printed.
@@ -267,9 +270,9 @@ on $\log\log n$ and the $-4$ and makes the lower bound strict, and the 1971
 printing has the coefficient $1$ on $\log\log n$, no floors and strict
 inequalities on both sides; neither is the paper's statement (a filing
 observation, not a review verdict: neither side of the 1971 display is implied
-by the paper's theorems as printed). The site's commentary follows the 1969 form
-for the lower bound and the paper's form for the upper bound. The paper also
-prints $g(n)\ge[\frac12(n+1)]$ for all $n$ (p. 25), display (6),
+by the paper's theorems as printed). The erdosproblems.com commentary follows
+the 1969 form for the lower bound and the paper's form for the upper bound. The
+paper also prints $g(n)\ge[\frac12(n+1)]$ for all $n$ (p. 25), display (6),
 $g(n)\ge n-2[\log n]-1$ for all $n$ with its proof omitted (p. 27), and the
 introduction's summary "$g(n)\sim n-[\log_2n]$" (p. 23).
 
@@ -321,9 +324,9 @@ sizes", the paper's headline constant, while its theorem
 of [Sp71] or [MoMo65], a dispute of the disproof, or a later result on
 $g(n)$.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-18; the formal-conjectures directory listing and recursive tree, read
-  2026-09-18 (no file 927 then); the community database, read
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures directory listing and recursive
+  tree, read 2026-09-18 (no file 927 then); the community database, read
   2026-09-18; the gist named in the thread, at its only revision.
 - Crossref: the records of [Sp71], [MoMo65] and [Er66b] by DOI.
 - The publisher's site offers no open copy of [Sp71] or [MoMo65]; both are
@@ -349,8 +352,8 @@ Formalization, and the label's Lean clause is not independently confirmed
 by this project. (3) Proof
 coverage is statements only: the 1966 Theorem is paged at claims checked
 with its construction read for structure. (4) Problem 775
-([[problems/set_systems/E0775/_index|Problem 775]]), the site's "see also", is the
-hypergraph question, outside this page.
+([[problems/set_systems/E0775/_index|Problem 775]]), erdosproblems.com's "see
+also", is the hypergraph question, outside this page.
 
 ## Known results
 
@@ -359,8 +362,8 @@ hypergraph question, outside this page.
   base $2$; with $g(n)\ge[\frac12(n+1)]$ for all $n$ (p. 25) and display
   (6), $g(n)\ge n-2[\log n]-1$ for all $n$ (p. 27, proof omitted).
 - [[../library/extremal_graph_theory/moon_moser_1965_cliques_graphs/theorem_4|Moon and Moser 1965, Theorem 4]]
-  (p. 27): $g(n)\le n-[\log n]$ for $n\ge4$; the upper half of the site's
-  estimate. Theorems 3 and 4 are the accepted partial claim
+  (p. 27): $g(n)\le n-[\log n]$ for $n\ge4$; the upper half of
+  erdosproblems.com's estimate. Theorems 3 and 4 are the accepted partial claim
   [[problems/extremal_graph_theory/E0927/claims/1965_03_01_moon_moser|Moon and Moser 1965]].
 - [[../library/extremal_graph_theory/erdos_1966_cliques_graphs/theorem|Erdős 1966, Theorem]]:
   $g(n)\ge n-\log_2n-H(n)-O(1)$ with $H(n)$ the least $k$ with $\log_kn<2$;
@@ -369,7 +372,7 @@ hypergraph question, outside this page.
   [[problems/extremal_graph_theory/E0927/claims/1966_12_01_erdos|Erdős 1966]].
 - Erdős 1969, p. 34 (library card, quoted above): the restatement with the
   threshold $1$ and the expectation that the lower bound is essentially
-  sharp, the conjecture the site records.
+  sharp, the conjecture erdosproblems.com records.
 - [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_10|Erdős 1971, item 10]]:
   the bounds as printed in 1971 and the note added in proof attesting
   Spencer's $f(n)>n-\log n/\log2-c$.

@@ -25,7 +25,7 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Is there an absolute constant $C>0$ such that every integer $n$
 with $\sigma(n)>Cn$ is the distinct sum of proper divisors of $n$?
 
-**Status.** The site labeled the problem PROVED (LEAN) (page last edited
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN) (page last edited
 1 February 2026). Larsen's proof and its Lean formalization
 are recorded on the claim page
 [[problems/arithmetic_functions/E0825/claims/2026_01_31_larsen|Larsen 2026]].

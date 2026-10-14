@@ -36,8 +36,8 @@ $d\ge f(a)$ is $d>a$, so Theorem 7 says that every 2-coloring of
 $\{1,\ldots,w\}$, and hence of $\mathbb N$, has a monochromatic three-term
 progression $x,x+d,x+2d$ with $d>x$. The first proof below establishes the
 statement for every 2-coloring of $\mathbb Z^+$ directly and passes to
-$w(f,3,2)$ by compactness, so the infinite form asked by the site is what
-the proof shows.
+$w(f,3,2)$ by compactness, so the infinite form asked by erdosproblems.com is
+what the proof shows.
 
 **Source.** T. C. Brown and B. M. Landman, *Monochromatic arithmetic
 progressions with large differences*, Bull. Austral. Math. Soc. 60 (1999), no.
@@ -78,6 +78,6 @@ None outside the paper.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0645/_index|Problem 645]]: the status-defining
-  theorem, in the specialization $f(a)=a+1$ recorded above; the site: "This
-  was first proved by Brown and Landman [BrLa99], who in fact show that this
-  is always possible with $d>f(x)$ for any increasing function $f$."
+  theorem, in the specialization $f(a)=a+1$ recorded above; erdosproblems.com:
+  "This was first proved by Brown and Landman [BrLa99], who in fact show that
+  this is always possible with $d>f(x)$ for any increasing function $f$."

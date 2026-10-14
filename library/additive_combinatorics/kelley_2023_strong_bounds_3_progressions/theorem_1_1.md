@@ -78,7 +78,7 @@ None quoted as a black box in the statements read.
   two-coloring of $[N]$ with no $k$-term progression in one class has at
   least $N/k-1$ integers in the other, which must then contain a 3-term
   progression once $N$ is large), a Roth-type bound gives an upper bound on
-  $W(3,k)$; the site's figure $\exp(O((\log k)^9))$ uses the sharper
+  $W(3,k)$; the erdosproblems.com figure $\exp(O((\log k)^9))$ uses the sharper
   exponent of Bloom and Sisask
   ([[additive_combinatorics/bloom_2023_improvement_kelley_meka_bounds_three_term/theorem_1|Theorem 1 there]]).
   The paper itself states nothing about $W(3,k)$.

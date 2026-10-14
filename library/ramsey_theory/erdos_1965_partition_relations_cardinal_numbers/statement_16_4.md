@@ -50,7 +50,7 @@ External: Erdős 1947 (not held), cited as the source of the statement.
 
 - [[../wiki/problems/ramsey_theory/E0564/_index|Problem 564]]: the lower bound
   $R_3(n)\ge2^{cn^2}$, single exponential, against the double-exponential
-  bound the problem asks for; the site's $2^{cn^2}<R_3(n)$.
+  bound the problem asks for; erdosproblems.com's $2^{cn^2}<R_3(n)$.
 - [[../wiki/problems/ramsey_theory/E0562/_index|Problem 562]]: the case $r=3$ of the
   problem's lower side as known in 1965: $\log_2\log_2R_3(n)\ge\log_2(cn^2)$,
   of order $\log n$ where the problem asks for order $n$.

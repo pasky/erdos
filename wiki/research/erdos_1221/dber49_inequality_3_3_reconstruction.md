@@ -156,7 +156,7 @@ $1/\log(1+1/r)>r$. This proves the statement.
 ## Reading addressed
 
 The bound concerns $\Lambda_r=\inf_a\Lambda_r(a)$ over all sequences,
-coincident points allowed. Under the site's literal first expression it
+coincident points allowed. Under erdosproblems.com's literal first expression it
 gives $r(\Lambda_r-1)\ge r(r-1)$, trivially unbounded. Under the
 mean-normalized reading, dividing by the mean span $r/k$, it gives
 

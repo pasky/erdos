@@ -7,7 +7,8 @@ desc: |
   double-exponential upper bound is the truth, the Erdős–Hajnal unbalanced
   triples result that seems to favor the lower bound, the criterion that
   would make him doubt the upper bound, and Hajnal's four-color bound
-  r_3(n,n,n,n) > 2^{c 2^n}; the site's form of the bounds for Problem 564.
+  r_3(n,n,n,n) > 2^{c 2^n}; the erdosproblems.com form of the bounds for
+  Problem 564.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-07T12:30:11Z
 ---
@@ -16,8 +17,8 @@ updated: 2026-10-07T12:30:11Z
 
 ## Statement
 
-As printed on p. 63, in the chapter's notation $r_3(n,n)$ for the site's
-$R_3(n)$ (defined on p. 62, quoted on
+As printed on p. 63, in the chapter's notation $r_3(n,n)$ for
+erdosproblems.com's $R_3(n)$ (defined on p. 62, quoted on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_2|display_4_2]]):
 "For more general Ramsey numbers, much less is known. Hajnal, Rado and I
 proved
@@ -46,13 +47,13 @@ $$
 
 which very strongly favors the upper bound in (4.3)."
 
-Filing observations, not review verdicts. The bounds (4.3) are the site's
-"$2^{cn^2}<R_3(n)<2^{2^{n}}$" for Problem 564 in the same form; the 1965
-paper prints the upper bound as $2^{2^{4n-10}}$ (its statement 16.3), the
-same shape with a different constant, and omits the proofs of both bounds.
-The four-color bound is attributed here to Hajnal alone, without proof or
-reference; the site attributes it to the 1984 book of Erdős, Hajnal, Máté
-and Rado. The Erdős--Hajnal unbalanced-triples result and the criterion
+Filing observations, not review verdicts. The bounds (4.3) are
+erdosproblems.com's "$2^{cn^2}<R_3(n)<2^{2^{n}}$" for Problem 564 in the same
+form; the 1965 paper prints the upper bound as $2^{2^{4n-10}}$ (its statement
+16.3), the same shape with a different constant, and omits the proofs of both
+bounds. The four-color bound is attributed here to Hajnal alone, without proof
+or reference; erdosproblems.com attributes it to the 1984 book of Erdős, Hajnal,
+Máté and Rado. The Erdős--Hajnal unbalanced-triples result and the criterion
 sentence are stated without proof or reference.
 
 **Source.** P. Erdős, *Some of My Favorite Problems and Results*, The
@@ -79,11 +80,11 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0564/_index|Problem 564]]: the site's source for the
-  problem; (4.3) is the site's form of the 1965 bounds, and the passage
-  records Erdős's belief in the double-exponential upper bound, the
-  evidence on each side, and Hajnal's four-color bound, the result the
-  site attributes to the 1984 book.
+- [[../wiki/problems/ramsey_theory/E0564/_index|Problem 564]]: the
+  erdosproblems.com source for the problem; (4.3) is the erdosproblems.com form
+  of the 1965 bounds, and the passage records Erdős's belief in the
+  double-exponential upper bound, the evidence on each side, and Hajnal's
+  four-color bound, the result erdosproblems.com attributes to the 1984 book.
 - [[../wiki/problems/ramsey_theory/E0562/_index|Problem 562]]: the general-uniformity
-  question, of which the passage treats the case $k=3$; not the site's key
-  for that problem.
+  question, of which the passage treats the case $k=3$; not the
+  erdosproblems.com key for that problem.

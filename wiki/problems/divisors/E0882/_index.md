@@ -31,15 +31,15 @@ $$
 no two distinct elements divide each other?
 
 **Formulation.** The question is read as Erdős and Sárközy read it in [Er98],
-where they expected $\lvert A\rvert=(1-o(1))\log_2 n$, and as the site's solved
-label read it: it asks for the size of the largest such $A$ to leading order.
-The exact value of that size, $R(n)$, is a stronger question that remains
-open; Korsky's pending claim bears on it.
+where they expected $\lvert A\rvert=(1-o(1))\log_2 n$, and as
+erdosproblems.com's solved label read it: it asks for the size of the largest
+such $A$ to leading order. The exact value of that size, $R(n)$, is a stronger
+question that remains open; Korsky's pending claim bears on it.
 
-**Status.** Labeled solved on the site. The site's remarks credit the lower
-bound to Erdős, Lev, Rauzy, Sándor and Sárközy, and the upper bound to the
-distinct-subset-sums bound of Problem 1. The frontmatter standing derives from
-the accepted claim page
+**Status.** Labeled solved on erdosproblems.com. The erdosproblems.com remarks
+credit the lower bound to Erdős, Lev, Rauzy, Sándor and Sárközy, and the upper
+bound to the distinct-subset-sums bound of Problem 1. The frontmatter standing
+derives from the accepted claim page
 [[problems/divisors/E0882/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy|the
 two-sided bound of 1999]], which fixes the size to its leading term
 $\log_2 n+O(\log\log n)$. A pending partial claim,
@@ -66,8 +66,8 @@ T. F. Bloom, Erdős Problem #882, https://www.erdosproblems.com/882.
 - [Er98] Erdős, Paul, Some of my new and almost new problems and results in
   combinatorial number theory. Number theory (Eger, 1996) (1998), 169-180.
 
-**Formalization.** No formal-conjectures statement (the site: "Formalised
-statement? No"). Boris Alexeev's lean-proofs repository holds a file
+**Formalization.** No formal-conjectures statement (erdosproblems.com:
+"Formalised statement? No"). Boris Alexeev's lean-proofs repository holds a file
 declaring itself a formalization of a solution, with Codex and GPT-5.6 Sol
 as formal authors, which proves only the lower bound $\log_2 n-1<R(n)$ of
 the accepted claim; it is linked, pinned to a commit of 2026-08-17, from
@@ -76,14 +76,13 @@ claim page]], and this corpus has not built it.
 
 ## Current assessment
 
-**The question.** The site formulation quoted above asks for the largest
-size, call it $R(n)$, of a set $A\subseteq\{1,\ldots,n\}$
-whose nonempty subset sums form a primitive set, one in which no two distinct
-elements divide each other. The question is Erdős and Sárközy's; the greedy
-algorithm gives $R(n)\ge(1-o(1))\log_3 n$, and they expected
-$(1-o(1))\log_2 n$. In [Er98] Erdős reports, without a reference, that Sándor
-reached $(1-o(1))\log_2 n$ with the set $\{2^i+m2^m:0\le i<m\}$ and
-$n=2^{m-1}+m2^m$.
+**The question.** The erdosproblems.com formulation quoted above asks for the
+largest size, call it $R(n)$, of a set $A\subseteq\{1,\ldots,n\}$ whose nonempty
+subset sums form a primitive set, one in which no two distinct elements divide
+each other. The question is Erdős and Sárközy's; the greedy algorithm gives
+$R(n)\ge(1-o(1))\log_3 n$, and they expected $(1-o(1))\log_2 n$. In [Er98] Erdős
+reports, without a reference, that Sándor reached $(1-o(1))\log_2 n$ with the
+set $\{2^i+m2^m:0\le i<m\}$ and $n=2^{m-1}+m2^m$.
 
 **What is established.** The accepted claim page
 [[problems/divisors/E0882/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy|the
@@ -92,9 +91,9 @@ $\log_2 n-1<R(n)<\log_2 n+\tfrac12\log_2\log n+c$ for $n\ge3$, the lower
 bound from the witness $\{2^m-2^{m-1},\ldots,2^m-1\}$ with
 $m=\lfloor\log_2(n+1)\rfloor$ and the upper bound because the primitivity
 condition forces all subset sums to be distinct, so the Erdős--Moser bound of
-Problem 1 applies. That fixes $R(n)$ to its leading term and is what the
-site's solved label rested on; the second-order term is open in the refereed
-literature, and the remarks expect $R(n)\le\log_2 n+O(1)$. The pending
+Problem 1 applies. That fixes $R(n)$ to its leading term and is what
+erdosproblems.com's solved label rested on; the second-order term is open in the
+refereed literature, and the remarks expect $R(n)\le\log_2 n+O(1)$. The pending
 partial claim
 [[problems/divisors/E0882/claims/2026_07_27_korsky|Korsky's near-exact
 bounds]] (a manuscript of July 2026, posted as a forum proof claim and not

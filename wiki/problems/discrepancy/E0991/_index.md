@@ -37,7 +37,7 @@ $$
 where the maximum is taken over all spherical caps $C$ and $\alpha_C$ is the
 area of $C$ (normalised so that the entire sphere has area $1$)?
 
-**Status.** Proved. The site labeled the problem proved (page last edited
+**Status.** Proved. Bloom's catalog labeled the problem proved (page last edited
 2025-09-16) on the strength of two refereed papers, while remarking that the
 attribution is unclear. Brauchart (Math. Comp. 2008) proves the quantitative
 bound $\max_C\lvert\lvert A\cap C\rvert-\alpha_C n\rvert\ll n^{3/4}$. The
@@ -49,8 +49,8 @@ question, so the standing is `solved`/`proved`. It derives from the two
 accepted claim pages
 [[problems/discrepancy/E0991/claims/2008_02_06_brauchart|Brauchart 2008]] and
 [[problems/discrepancy/E0991/claims/2019_07_10_marzo_mas|Marzo and Mas 2021]].
-The acceptance evidence on each is the refereed publication and the site's
-acceptance, not a review by this corpus.
+The acceptance evidence on each is the refereed publication and
+erdosproblems.com's acceptance, not a review by this corpus.
 
 **Source.** [erdosproblems.com/991](https://www.erdosproblems.com/991), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #991,
@@ -68,12 +68,12 @@ Boris Alexeev's lean-proofs collection declares itself a formalization of Marzo
 and Mas's solution and proves the qualitative $o(n)$ statement without a rate;
 it is linked, pinned, on
 [[problems/discrepancy/E0991/claims/2019_07_10_marzo_mas|their claim page]].
-The site records no formal-conjectures statement file, and the community
-database lists the problem as unformalized (read 2026-10-06). The OpenAI
-mathematics release of September 2026 states, in its preprints on the planar
-Coulomb renormalized energy and on the universal optimality of the triangular
-lattice
-([release at the pinned revision](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints)),
+erdosproblems.com records no formal-conjectures statement file, and the
+community database lists the problem as unformalized (read 2026-10-06). The
+OpenAI mathematics release of September 2026 states, in its preprints on the
+planar Coulomb renormalized energy and on the universal optimality of the
+triangular lattice ([release at the pinned
+revision](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints)),
 results about point configurations in the plane, computer-assisted and not
 verified here, with Lean developments for the universal optimality and a planar
 packing certificate that this corpus has not built; they do not state this

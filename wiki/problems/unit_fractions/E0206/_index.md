@@ -46,19 +46,19 @@ which the paper states for $x\in(0,1]$ with repeated denominators $\ge2$),
 so $R_n(x)$ is a rational number that may have several representations.
 Kovač's paper phrases the property as the existence of one strictly
 increasing sequence $(m_k)$ and an $n_0$ with $\sum_{k\le n}1/m_k=R_n(x)$
-for every $n\ge n_0$; this is the site's recursion, because nested best sums
-force the added denominator to be the least unused one that keeps the sum
+for every $n\ge n_0$; this is erdosproblems.com's recursion, because nested best
+sums force the added denominator to be the least unused one that keeps the sum
 below $x$ and to exceed the denominators already used. The question is yes
 or no, and the answer is no.
 The companion questions for every rational $x$ and for every algebraic $x$
 are variants, not the problem; they are recorded separately below.
 
-**Status.** Disproved. The site's label was DISPROVED (LEAN), and the suffix is
-a catalog label explained under Formalization. Kovač's Theorem 1 (J. Number
-Theory 268 (2025), 39--48) shows that the set of $x>0$ whose best Egyptian
-underapproximations are eventually greedy has Lebesgue measure zero. So the
-assertion fails for almost every $x$, instead of holding for almost every $x$.
-The claim page
+**Status.** Disproved. The erdosproblems.com label was DISPROVED (LEAN), and the
+suffix is a catalog label explained under Formalization. Kovač's Theorem 1 (J.
+Number Theory 268 (2025), 39--48) shows that the set of $x>0$ whose best
+Egyptian underapproximations are eventually greedy has Lebesgue measure zero. So
+the assertion fails for almost every $x$, instead of holding for almost every
+$x$. The claim page
 [[problems/unit_fractions/E0206/claims/2024_06_11_kovac|Kovač 2024]] records the
 result, its postings and the acceptance evidence from which the standing above
 derives. That evidence is refereed publication and the curator's credit.
@@ -67,7 +67,7 @@ derives. That evidence is refereed publication and the curator's credit.
 accessed 2026-09-17: the problem page
 (DISPROVED (LEAN); no last-edited date shown), its five-comment discussion
 thread and its empty proof-claim tab; the problem page was also accessed
-2026-10-13. The site cites [ErGr80, p. 31]. Cite as: T. F. Bloom, Erdős
+2026-10-13. erdosproblems.com cites [ErGr80, p. 31]. Cite as: T. F. Bloom, Erdős
 Problem #206, https://www.erdosproblems.com/206, accessed 2026-09-17.
 
 **References.**
@@ -109,9 +109,9 @@ label" below.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-17).** The statement
-above; status DISPROVED (LEAN). The commentary attributes the disproof to
-Kovač [Ko24b] and adds: Erdős and Graham wrote that it is "not difficult" to
+**The question (erdosproblems.com formulation, accessed 2026-09-17).** The
+statement above; status DISPROVED (LEAN). The commentary attributes the disproof
+to Kovač [Ko24b] and adds: Erdős and Graham wrote that it is "not difficult" to
 construct irrational $x$ for which the property fails but gave no proof or
 reference, and no explicit such $x$ is known; the property holds for $x=1$
 (Curtiss [Cu22]), for $x=1/m$, $m\ge1$ (Erdős [Er50b]), for $x=a/b$ with
@@ -161,9 +161,9 @@ gives, non-constructively, a transcendental number without the property.
   Japan (3) 3, 78--92), the largest unknown in solutions of
   $\sum1/x_i=b/a$ for $a=(m+1)b-1$, which for $b=m=1$ is Kellogg's bound,
   but did not prove Theorem I itself (Curtiss's author's note, p. 387).
-- $x=1/m$: attributed by the site and by Kovač (p. 2: Erdős "observed that
-  this remains to hold whenever $x=1/b$ itself is a unit fraction") to Erdős
-  [Er50b]. What the 1950 paper states and proves is the case $x=1$, on its
+- $x=1/m$: attributed by erdosproblems.com and by Kovač (p. 2: Erdős "observed
+  that this remains to hold whenever $x=1/b$ itself is a unit fraction") to
+  Erdős [Er50b]. What the 1950 paper states and proves is the case $x=1$, on its
   result page
   [[../library/unit_fractions/erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine/theorem_4|Theorems 3--5]]:
   the Sylvester sequence gives the largest proper
@@ -182,7 +182,7 @@ gives, non-constructively, a transcendental number without the property.
 - $x=p/q$ with $p<q$, $q$ odd and $2$ the least $\ell\ge1$ with
   $p\mid q+\ell$:
   [[../library/unit_fractions/chu_2023_threshold_best_two_term_underapproximation_egyptian/theorem_1_12|Chu, Theorem 1.12]]
-  (2024), the "larger class" of the site's commentary. Chu's
+  (2024), the "larger class" of the erdosproblems.com commentary. Chu's
   [[../library/unit_fractions/chu_2023_threshold_best_two_term_underapproximation_egyptian/theorem_1_3|Theorem 1.3]]
   gives the threshold for two-term greed: for $p<q$ with
   $\Upsilon(p,q)\le3$ (the least $j\ge1$ with $p\mid q+j$) the greedy pair is
@@ -198,19 +198,19 @@ gives, non-constructively, a transcendental number without the property.
   $m\ge1$, the greedy $m$-term tuple is the unique maximizer for the
   remainder, and a maximizing $n_0$-tuple can be extended by the greedy
   denominators. For $\lambda\le1$ this would settle the rational companion
-  question that the site lists as unknown (for $\lambda>1$ the problem also
-  admits the denominator $1$, which the paper's tuples exclude) and the one
+  question that erdosproblems.com lists as unknown (for $\lambda>1$ the problem
+  also admits the denominator $1$, which the paper's tuples exclude) and the one
   that
   [[../library/unit_fractions/nathanson_2023_underapproximation_egyptian_fractions/open_problem_4|Nathanson posed as Open problem (4)]].
   It is an author preprint, with no independent review found, and its
   Declaration of AI usage (p. 28) says that key steps of the proof were provided
   by OpenAI's GPT-5.6 Sol and rewritten by the authors. It is recorded as a
   claim with provenance, not as a status; the frontmatter status concerns the
-  almost-all question only. The second author announced the result in the site
-  discussion on 31 July 2026.
+  almost-all question only. The second author announced the result in the
+  erdosproblems.com discussion on 31 July 2026.
 - algebraic $x$: open. Erdős and Graham's "attractive conjecture"; Kovač
-  and Tang write that they cannot resolve it. A site comment of 9 August
-  2025 speculates that all algebraic numbers are eventually greedy; it
+  and Tang write that they cannot resolve it. An erdosproblems.com comment of 9
+  August 2025 speculates that all algebraic numbers are eventually greedy; it
   carries no argument.
 - an explicit non-example: claimed in a preprint; Kovač's Corollary 2 is
   non-constructive. Theorem 1 of Shi
@@ -229,22 +229,23 @@ gives, non-constructively, a transcendental number without the property.
   [the registered commit](https://github.com/yuhangshi888/erdos-206-explicit-counterexample/tree/b0c255255c1b8ba45fd0ab6c693ecce747fd602f/formalization).
   The preprint is unrefereed and claims no priority for its methods; this
   corpus has neither checked its proof nor built the Lean development, and
-  the site's commentary (read 2026-10-13) still calls an explicit example
-  open. In the other direction, Kovač and Tang's Example 2 gives an explicit
-  irrational, the Liouville number $\sum_{n\ge1}2^{-n!}$, whose greedy
+  the erdosproblems.com commentary (read 2026-10-13) still calls an explicit
+  example open. In the other direction, Kovač and Tang's Example 2 gives an
+  explicit irrational, the Liouville number $\sum_{n\ge1}2^{-n!}$, whose greedy
   $n$-term underapproximation is the unique best one for every $n$, in both
   conventions, answering Nathanson's Open problem (1).
 
-**Formalization and the Lean label.** The site's Lean suffix is a catalog
-label. The formal-conjectures file at the pinned commit is a statement with
-a `sorry` body; its `formal_proof` attribute names the file
+**Formalization and the Lean label.** The erdosproblems.com Lean suffix is a
+catalog label. The formal-conjectures file at the pinned commit is a statement
+with a `sorry` body; its `formal_proof` attribute names the file
 [`src/latest/ErdosProblems/Erdos206.lean`](https://github.com/plby/lean-proofs/blob/68da20b96673899166e94638f5a7fffeb7231d35/src/latest/ErdosProblems/Erdos206.lean)
 of the repository `plby/lean-proofs` at the linked revision. That file
 (89,993 bytes, imports Mathlib) contains no `sorry`, ends with
 `theorem erdos_206 : volume {x : ℝ | EventuallyGreedy x} = 0` and a
 `#print axioms` comment listing only `propext`, `Classical.choice` and
 `Quot.sound`; its header names Aristotle and Matteo Del Vecchio as formal
-authors and links the gist that the site discussion (comment of 28 April
+authors and links the gist that the erdosproblems.com discussion (comment of 28
+April
 2026) describes as an autoformalization of Kovač's proof by Aristotle. Its
 `EventuallyGreedy` has the same shape as the formal-conjectures definition
 (a strictly increasing sequence of positive denominators whose prefixes are
@@ -259,9 +260,9 @@ and no formal-proof URL.
 the answer above, a published version of the rational claim, or a refereed
 explicit non-example.
 
-- The site: problem page, discussion thread and proof-claim tab (empty), and
-  the problem page again on 2026-10-13; formal-conjectures at the pinned
-  commit; the community database file.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab
+  (empty), and the problem page again on 2026-10-13; formal-conjectures at the
+  pinned commit; the community database file.
 - Shi's preprint [Sh26]: its Zenodo record (version 1.0.0, 10 October 2026)
   with the PDF and its source files, and its Palomar registry record
   (PALOMAR-2026-10-11-000014, version 1) with the repository commit it pins.

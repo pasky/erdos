@@ -24,10 +24,10 @@ updated: 2026-10-08T14:06:00Z
 edges can be partitioned into at most $f(n,k)$ edge-disjoint complete graphs.
 Estimate $f(n,k)$ for $k>n^2/4$.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 28 December 2025). $f(n,k)$ is the least number such that
 the edge set of every graph with $n$ vertices and $k$ edges is the union of
-at most $f(n,k)$ pairwise edge-disjoint complete subgraphs (the site's
+at most $f(n,k)$ pairwise edge-disjoint complete subgraphs (erdosproblems.com's
 "clique partition number"); single edges count as complete graphs. This is
 the partition question of Theorem 4 of [EGP66] ("no two of the graphs
 $G_\alpha,G_\beta$ will have an edge in common", p. 108) and of item 11 of
@@ -40,8 +40,8 @@ with $[n^2/4]$ edges shows that this cannot be lowered in general; the
 question asks what happens above the Turán number, where every graph contains
 a triangle. Erdős's own phrasing is "We thought that for $k>\tfrac14n^2$ our
 theorem could be sharpened" ([Er71], p. 101) and "What then is the new
-minimum as a function of $k$?" ([EGP66], p. 109); the site calls the 1971
-question vague.
+minimum as a function of $k$?" ([EGP66], p. 109); erdosproblems.com calls the
+1971 question vague.
 
 **Status.** Open. What is known has three parts. The first is the universal
 bound $f(n,k)\le[n^2/4]$ with edges and triangles only
@@ -79,10 +79,10 @@ certificate of openness.
 
 **Source.** [erdosproblems.com/1017](https://www.erdosproblems.com/1017),
 accessed 2026-09-18: the problem page
-(labeled OPEN, the site's label for a problem that is open and not settled
-by a finite computation; last edited 28 December 2025; source key [Er71],
-with [EGP66], [Lo68] and [GyKe17] cited in the commentary; the page thanks
-one contributor by name), its three-comment discussion thread (14 October
+(labeled OPEN, the erdosproblems.com label for a problem that is open and not
+settled by a finite computation; last edited 28 December 2025; source key
+[Er71], with [EGP66], [Lo68] and [GyKe17] cited in the commentary; the page
+thanks one contributor by name), its three-comment discussion thread (14 October
 to 5 December 2025) and its
 empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1017,
 https://www.erdosproblems.com/1017, accessed 2026-09-18.
@@ -109,9 +109,9 @@ https://www.erdosproblems.com/1017, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_11|item_11]],
   whose opening paragraph is the passage quoted below.
 - [Lo68] Lovász, L., On covering of graphs. Theory of Graphs (Proc. Colloq.,
-  Tihany, 1966) (1968), 231--236; cited as the site's reference list gives
-  it under its key [Lo68]. Not held. Its result is quoted on this page as Erdős
-  prints it in [Er71].
+  Tihany, 1966) (1968), 231--236; cited as the erdosproblems.com reference list
+  gives it under its key [Lo68]. Not held. Its result is quoted on this page as
+  Erdős prints it in [Er71].
 - [GyKe17] Győri, E. and Keszegh, B., On the number of edge-disjoint
   triangles in $K_4$-free graphs. Combinatorica 37 (2017), no. 6,
   1113--1124, doi:10.1007/s00493-016-3500-0 (published online 28 November
@@ -128,13 +128,13 @@ https://www.erdosproblems.com/1017, accessed 2026-09-18.
   11 pages; filed as
   [[../library/extremal_graph_theory/balogh_2025_packing_edge_disjoint_cliques_graphs/_index|balogh_2025_packing_edge_disjoint_cliques_graphs]]);
   Combinatorica 45 (2025), no. 5, article 56 (published online 14 October 2025),
-  doi:10.1007/s00493-025-00184-w (Crossref record). Not cited by the site.
-  Clique packings above the Turán number, which bound $f$ through the conversion
-  below.
+  doi:10.1007/s00493-025-00184-w (Crossref record). Not cited by
+  erdosproblems.com. Clique packings above the Turán number, which bound $f$
+  through the conversion below.
 
 **Formalization.** None. Formal-conjectures had no file
 `ErdosProblems/1017.lean` on 2026-09-18 (the directory listing and the
-recursive tree checked) and none on 2026-10-07; the site's indicator
+recursive tree checked) and none on 2026-10-07; the erdosproblems.com indicator
 records no formalized statement; and the community database
 (teorth/erdosproblems, `data/problems.yaml`) records, on 2026-09-18 and
 on 2026-10-07, the problem open (last changed 12 September 2025),
@@ -142,31 +142,30 @@ unformalized, with no formal proof.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN; last edited 28 December 2025. The site's commentary, in this
-page's words: $f(n,k)$ is also known as the clique partition number; the
-theorem of [EGP66] gives $f(n,k)\le n^2/4$ for every $k$, with edges and
-triangles sufficing, and a complete bipartite graph shows the
-bound sharp in general; in [Er71] Erdős asks, in the site's view vaguely,
-whether the bound can be sharpened for $k>n^2/4$; Lovász [Lo68] proved
-that a graph with $n$ vertices and $k$ edges is a union of
-$\binom n2-k+t$ complete graphs, $t$ maximal with
-$t^2-t\le\binom n2-k$, without requiring edge-disjointness, a bound sharp
-in many cases; for $k>n^2/4$ and $K_4$-free graphs the question becomes
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN; last edited 28 December 2025. The erdosproblems.com
+commentary, in this page's words: $f(n,k)$ is also known as the clique partition
+number; the theorem of [EGP66] gives $f(n,k)\le n^2/4$ for every $k$, with edges
+and triangles sufficing, and a complete bipartite graph shows the bound sharp in
+general; in [Er71] Erdős asks, in erdosproblems.com's view vaguely, whether the
+bound can be sharpened for $k>n^2/4$; Lovász [Lo68] proved that a graph with $n$
+vertices and $k$ edges is a union of $\binom n2-k+t$ complete graphs, $t$
+maximal with $t^2-t\le\binom n2-k$, without requiring edge-disjointness, a bound
+sharp in many cases; for $k>n^2/4$ and $K_4$-free graphs the question becomes
 one of the fewest edge-disjoint triangles, a special case Erdős also asked
 about and one answered in full by Győri and Keszegh [GyKe17], who proved
 that a $K_4$-free graph with $n$ vertices and $\lfloor n^2/4\rfloor+m$
-edges has $m$ pairwise edge-disjoint triangles; and the site points to
+edges has $m$ pairwise edge-disjoint triangles; and erdosproblems.com points to
 Problems 184 (decompositions into edges and cycles), 583 (paths) and 81
 (the clique partition problem for chordal graphs). The thread: a comment
 of 14 October 2025 (the account
 msawhney) pointing to [GyKe17] for the $K_4$-free case, a reference the
 comment says it located with GPT 5 Pro; one of 1 November 2025
 (the account StijnC) pointing to better bounds for chordal graphs ([EOZ08]
-on the site) and to a paper on partitions into $K_2$'s and $K_3$'s with
+on erdosproblems.com) and to a paper on partitions into $K_2$'s and $K_3$'s with
 weighted edges ([BLPPPV21]); one of 5 December 2025 (the account Alfaiz)
-supplying the Tihany 1966 identity of Lovász's paper. The site was updated
-after the second and third comments. The proof-claim tab is empty; the
+supplying the Tihany 1966 identity of Lovász's paper. erdosproblems.com was
+updated after the second and third comments. The proof-claim tab is empty; the
 community database record says open.
 
 **The 1966 theorems.** Theorem 2 (p. 107):
@@ -184,7 +183,7 @@ covered by at most $[n^2/4]$ complete graphs $G_1,G_2,\dots,G_N$, and no two
 of the graphs $G_\alpha,G_\beta$ will have an edge in common. Further, in the
 covering we need to use only edges and triangles"; its proof (pp. 108--109)
 is an induction from $n-1$ to $n$ using $[n^2/4]=[(n-1)^2/4]+[n/2]$ and a
-vertex of least valence, followed for structure. This is the site's
+vertex of least valence, followed for structure. This is erdosproblems.com's
 $f(n,k)\le n^2/4$ in the partition form.
 [[../library/extremal_graph_theory/erdos_1966_representation_graph_set_intersections/section_5_question_i|Section 5, question (i)]]
 (pp. 109--110): "suppose that the graph $G^{(n)}$ has $[n^2/4]+k$ edges,
@@ -209,8 +208,8 @@ when $e=t^2$ or $e=t^2-t$; Lovász does not require the complete graphs to
 be edge-disjoint, and observed that the result fails once
 edge-disjointness is required. Erdős closes the paragraph: "In this case no
 satisfactory non-trivial sharpening of our theorem is known." Lovász's
-bound is the site's $\binom n2-k+t$ complete graphs; it concerns covers,
-so it bounds a different function, and Erdős's closing sentence is the
+bound is erdosproblems.com's $\binom n2-k+t$ complete graphs; it concerns
+covers, so it bounds a different function, and Erdős's closing sentence is the
 state of the partition question in 1971. [Lo68] is not held, so the bound
 and its sharpness are taken from Erdős's account.
 
@@ -218,9 +217,9 @@ and its sharpness are taken from Erdős's account.
 on four or more vertices, so a partition of its $m$ edges into complete
 graphs uses $\tau$ triangles and $m-3\tau$ single edges, $m-2\tau$ pieces in
 all; the fewest pieces come from the most edge-disjoint triangles (a
-one-line conversion made in this corpus; the site's phrasing, that the question
-becomes one of the fewest edge-disjoint triangles, is read as the minimum
-over graphs of the maximum packing).
+one-line conversion made in this corpus; erdosproblems.com's phrasing, that the
+question becomes one of the fewest edge-disjoint triangles, is read as the
+minimum over graphs of the maximum packing).
 [[../library/extremal_graph_theory/gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs/theorem_1|Theorem 1]]
 of [GyKe17] (p. 2 of arXiv v1): "Every $K_4$-free
 graph on $n^2/4+k$ edges contains at least $\lceil k\rceil$ edge-disjoint
@@ -248,8 +247,8 @@ refereed (published online 28 November 2016); the statements are checked
 clause by clause on pp. 1--2 of the arXiv v1; the proof (Section 2, greedy
 clique partitions and a lemma of Huang and Shi bounding the packing number
 by the total triangle count) is not checked on this page, and the journal
-text is not compared. The site's commentary credits Győri and Keszegh with a
-complete answer to the $K_4$-free special case; that credit concerns the
+text is not compared. The erdosproblems.com commentary credits Győri and Keszegh
+with a complete answer to the $K_4$-free special case; that credit concerns the
 $K_4$-free variant, whose equality graphs supply the lower bound for $f$
 below but which by itself fixes no value of $f(n,k)$, defined over all
 graphs, so the result is recorded as a known result and not as a claim on
@@ -294,7 +293,7 @@ order $n^2$.
 estimate of $f(n,k)$ beyond the bounds above for $m$ of order $n^2$, or a
 text of [Lo68].
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and recursive tree (no file 1017);
   the community database entry.
 - Crossref: the records of [EGP66] and [GyKe17] by bibliographic query (the

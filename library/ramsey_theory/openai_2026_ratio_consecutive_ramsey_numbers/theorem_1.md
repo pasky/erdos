@@ -3,7 +3,7 @@ name: ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers/theorem_1
 title: "Theorem 1: R(k,ℓ+1)/R(k,ℓ) → 1 for every fixed k ≥ 2"
 desc: |
   The consecutive-ratio theorem for off-diagonal Ramsey numbers, proved by
-  dependent random choice on a critical graph; the site's accepted
+  dependent random choice on a critical graph; erdosproblems.com's accepted
   resolution of Problem 1014, attributed to an internal model at OpenAI.
 created: 2026-09-18T02:25:00Z
 updated: 2026-10-07T19:30:53Z
@@ -26,15 +26,15 @@ $$
 The manuscript introduces it with "Answering a question of Erdős [3, p. 99]",
 the 1971 Oxford problem list, where Erdős writes of $f(l,n)$ (his name for
 $R(l,n)$) "I cannot even prove $\lim_{n=\infty}f(l,n+1)/f(l,n)=1$". The
-case $k=2$ is "immediate, since $R(2,\ell)=\ell$" (p. 2); the site's Problem
-1014 asks for fixed $k\ge3$.
+case $k=2$ is "immediate, since $R(2,\ell)=\ell$" (p. 2); erdosproblems.com's
+Problem 1014 asks for fixed $k\ge3$.
 
 **Source.** OpenAI, *On the ratio of $R(k,\ell)$ and $R(k,\ell+1)$*,
 three-page manuscript hosted at cdn.openai.com (retrieved 2026-09-18; PDF
 metadata dated 22 April 2026); Theorem 1 on p. 1, proof on pp. 2--3, read on
 the page images and in the text layer. The abstract states "The proof is due
-to an internal model at OpenAI." The site accepted the manuscript as the
-resolution on 24 April 2026. The card records the provenance.
+to an internal model at OpenAI." erdosproblems.com accepted the manuscript as
+the resolution on 24 April 2026. The card records the provenance.
 
 **Read depth.** Claims checked: the statement, the definition and convention,
 and the statements of Lemmas 1--3 were read clause by clause on the page images.
@@ -73,11 +73,12 @@ was checked here.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1014/_index|Problem 1014]]: the statement for fixed
-  $k\ge3$ is the problem; the site's label PROVED (LEAN) rests on this
-  manuscript and on Boris Alexeev's Lean formalization in `plby/lean-proofs`,
-  announced in the thread on 23 April 2026; the card's second development,
-  `maokami/ramsey-ratio-lean`, was created on 25 April 2026, after the relabel.
+  $k\ge3$ is the problem; the erdosproblems.com label PROVED (LEAN) rests on
+  this manuscript and on Boris Alexeev's Lean formalization in
+  `plby/lean-proofs`, announced in the thread on 23 April 2026; the card's
+  second development, `maokami/ramsey-ratio-lean`, was created on 25 April 2026,
+  after the relabel.
 - [[../wiki/problems/ramsey_theory/E0544/_index|Problem 544]]: the ratio limit alone says
   nothing about $R(3,k+1)-R(3,k)$; the quantitative
   [[ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers/remark_1|Remark 1]]
-  is what the site's consequence uses.
+  is what erdosproblems.com's consequence uses.

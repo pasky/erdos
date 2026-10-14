@@ -17,8 +17,8 @@ updated: 2026-10-08T00:15:26Z
 
 ## Statement
 
-As printed on pp. 62--63, in the chapter's notation $r_2(k,n)$ for the
-site's $R(k,n)$ (the notation is defined on p. 62 and quoted on
+As printed on pp. 62--63, in the chapter's notation $r_2(k,n)$ for
+erdosproblems.com's $R(k,n)$ (the notation is defined on p. 62 and quoted on
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/display_4_2|display_4_2]]):
 "It is now known that
 
@@ -63,8 +63,8 @@ gives $(t/\ln t)^{5/2}$, as the Problem 166 page records. The
 Ajtai--Komlós--Szemerédi upper bound is printed with a single $\log n$ in
 the denominator for every fixed $\ell$, where their Theorem 6 gives
 $(\ln x)^{\ell-2}$; recorded as printed. No prize is attached here to the
-asymptotic formula for $r_2(3,n)$, the site's prize for Problem 165 coming
-from the 1990 chapter.
+asymptotic formula for $r_2(3,n)$, the erdosproblems.com prize for Problem 165
+coming from the 1990 chapter.
 
 **Source.** P. Erdős, *Some of My Favorite Problems and Results*, The
 Mathematics of Paul Erdős I (1997), 47--67; printed pp. 62--63 (PDF
@@ -93,14 +93,15 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0165/_index|Problem 165]]: the site's source for the
-  problem; the 1997 form of the request, "It would be nice to have an
-  asymptotic formula for $r_2(3,n)$", after the order of magnitude was
-  settled by Kim, with the two bounds as Erdős states them.
-- [[../wiki/problems/ramsey_theory/E0166/_index|Problem 166]]: the site's source for the
-  problem; the statement $r_2(4,n)>n^{3-\epsilon}$ appears as an
-  expectation Erdős says he "used to think" the probability method would
-  give and now doubts, with Spencer's $cn^{5/2}$ as the record.
+- [[../wiki/problems/ramsey_theory/E0165/_index|Problem 165]]: the
+  erdosproblems.com source for the problem; the 1997 form of the request, "It
+  would be nice to have an asymptotic formula for $r_2(3,n)$", after the order
+  of magnitude was settled by Kim, with the two bounds as Erdős states them.
+- [[../wiki/problems/ramsey_theory/E0166/_index|Problem 166]]: the
+  erdosproblems.com source for the problem; the statement
+  $r_2(4,n)>n^{3-\epsilon}$ appears as an expectation Erdős says he "used to
+  think" the probability method would give and now doubts, with Spencer's
+  $cn^{5/2}$ as the record.
 - [[../wiki/problems/ramsey_theory/E0986/_index|Problem 986]]: the general form
   $r_2(k,n)>n^{k-1}/(\log n)^2$ for fixed $k$, stated in the same retracted
-  sentence; not the site's key for that problem.
+  sentence; not the erdosproblems.com key for that problem.

@@ -79,14 +79,14 @@ Within the paper: nothing.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0034/_index|Problem 34]]: the construction the site's
-  commentary credits with the first counterexample. The theorem gives
-  $(\frac13+o(1))n$ distinct integers in $[1,n]$ with all $c$-sums
+- [[../wiki/problems/number_theory/E0034/_index|Problem 34]]: the construction
+  the erdosproblems.com commentary credits with the first counterexample. The
+  theorem gives $(\frac13+o(1))n$ distinct integers in $[1,n]$ with all $c$-sums
   distinct; that they extend to a permutation of $\{1,\ldots,n\}$ with at
   least $\binom{k+1}2\ge(\frac1{18}+o(1))n^2$ distinct consecutive sums is
   Konieczny's deduction (Section 1.5 of
   [[integer_sequences/konieczny_2015_consecutive_sums_permutations/_index|konieczny_2015_consecutive_sums_permutations]],
-  display (10)) and the site's, not a statement of this paper.
+  display (10)) and erdosproblems.com's, not a statement of this paper.
 - [[../wiki/problems/integer_sequences/E0357/_index|Problem 357]]: that problem's
   increasing sequences are among the sequences of Theorem 1, so its $f(n)$
   is at most $(\frac23+o(1))n$; the lower bound's sequence is not

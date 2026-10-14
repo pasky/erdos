@@ -27,29 +27,29 @@ updated: 2026-10-08T01:29:59Z
 that $a\mid b$ and $a\mid c$. How large can $f(n)$ be? Is $\lim f(n)/n$
 irrational?
 
-**Status.** Labeled open on the site. The problem was labeled OPEN, with the
-site's note that it cannot be settled by a finite computation. Its commentary
-(last edited 6 January 2026) records only the trivial bound and Lebensold's
-bracket.
+**Status.** Labeled open on erdosproblems.com. The problem was labeled OPEN,
+with the erdosproblems.com note that it cannot be settled by a finite
+computation. Its commentary (last edited 6 January 2026) records only the
+trivial bound and Lebensold's bracket.
 
 The standing derived here rests on the claim pages. A Lean proof submitted to
 the bounty site Conjectures.io under the username JenW1N proves that
 $\lim f(n)/n$ exists and is irrational
 ([[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|claim page]],
-accepted). The site's Lean kernel verified it on 21 September 2026. It was
-approved in review on 22 September 2026 and certified on 23 September 2026, and
-its bounty was paid. That certification is reported, not counted; acceptance
-rests on this corpus's rebuild and kernel replay of the file on the repository's
-pinned toolchain (Lean v4.34.1) and on a check of its target against the
-Statement. The record settles the second question: the limit exists and is
-irrational. It answers the first only in asymptotic form: $f(n)=(l+o(1))\,n$
-with $l$ irrational.
+accepted). The erdosproblems.com Lean kernel verified it on 21 September 2026.
+It was approved in review on 22 September 2026 and certified on 23 September
+2026, and its bounty was paid. That certification is reported, not counted;
+acceptance rests on this corpus's rebuild and kernel replay of the file on the
+repository's pinned toolchain (Lean v4.34.1) and on a check of its target
+against the Statement. The record settles the second question: the limit exists
+and is irrational. It answers the first only in asymptotic form:
+$f(n)=(l+o(1))\,n$ with $l$ irrational.
 
-The site's one proof-claim entry was registered on 27 September 2026 by the
-curator, Thomas Bloom. It attributes to conjectures.io a proof that the limit
-exists and is irrational, by an AI system the entry gives as unknown. The entry
-says that Bloom has not verified it, and that the program does not disclose
-who runs the AI or which system. So the entry is not an acceptance.
+erdosproblems.com's one proof-claim entry was registered on 27 September 2026 by
+the curator, Thomas Bloom. It attributes to conjectures.io a proof that the
+limit exists and is irrational, by an AI system the entry gives as unknown. The
+entry says that Bloom has not verified it, and that the program does not
+disclose who runs the AI or which system. So the entry is not an acceptance.
 
 Davis's paper of April 2026 gives $f(n)=c_2n+o(n)$ with $c_2$ effectively
 computable, and leaves irrationality open
@@ -71,8 +71,8 @@ edited 6 January 2026; a formalized statement; fourteen comments on
 2026-10-07; OEIS A038372), and the Conjectures.io record
 [conjectures.io/results/8d59a0af-6762-4606-93c9-72dd356a57bc](https://conjectures.io/results/8d59a0af-6762-4606-93c9-72dd356a57bc),
 read 2026-10-07 (Lean verified 21 September 2026; approved in review
-22 September 2026; certified 23 September 2026; bounty paid). The site's
-proof-claims tab held one entry. Cite as: T. F. Bloom, Erdős
+22 September 2026; certified 23 September 2026; bounty paid). The
+erdosproblems.com proof-claims tab held one entry. Cite as: T. F. Bloom, Erdős
 Problem #1062, https://www.erdosproblems.com/1062, accessed 2026-10-07.
 
 **References.**
@@ -153,14 +153,14 @@ $0.6725\,n\le f(n)\le0.6736\,n$ for large $n$ ([Le76], not held; recorded on
 [[problems/integer_sequences/E1062/claims/1977_06_01_lebensold|its claim page]])
 and above the trivial $f(n)\ge\lceil2n/3\rceil$ from $A=[m+1,3m+2]$.
 
-The formal statement the site attacked is the formal-conjectures clause
+The formal statement Conjectures.io attacked is the formal-conjectures clause
 `Erdos1062.erdos_1062.parts.ii` (`FormalConjectures/ErdosProblems/1062.lean`)
 with its open answer fixed to true: there is an $l$ with $f(n)/n\to l$ and $l$
 irrational. There `ForkFree A` says that for each $a\in A$ at most one other
 element of $A$ is a multiple of $a$, and `f n` is the largest size of a
-fork-free subset of $\{1,\ldots,n\}$, which is the site wording's definition
-and its second question clause for clause, with the existence of the limit
-asserted as a conjunct rather than presupposed, so the formal target is at
+fork-free subset of $\{1,\ldots,n\}$, which is erdosproblems.com wording's
+definition and its second question clause for clause, with the existence of the
+limit asserted as a conjunct rather than presupposed, so the formal target is at
 least as strong as the question. The accepted file proves that statement with
 no hypothesis, in four steps: the exact formula for every $n$, its upper half a
 counting bound and its lower half a construction certified by kernel-checked
@@ -185,9 +185,9 @@ The replayed target settles the second question exactly and answers the first
 only in asymptotic form, $f(n)=(l+o(1))\,n$ with $l$ irrational: the exact
 formula and the identification of the limit are intermediate theorems of the
 same file, compiled in this corpus's rebuild but not the subject of its
-Statement check or of the site's review, so their standing here is that rebuild
-together with the recomputations below. The site's review note says that a
-production run verified the submitted proof with Lean, comparator,
+Statement check or of Conjectures.io's review, so their standing here is that
+rebuild together with the recomputations below. Conjectures.io's review note
+says that a production run verified the submitted proof with Lean, comparator,
 statement-equality and permitted-axiom checks (the axioms `propext`,
 `Quot.sound` and `Classical.choice`; no imports, axiom declarations, `sorry`,
 `native_decide` or unsafe options; the statement unchanged), that the proof
@@ -203,34 +203,34 @@ is reported, not counted.
 The 74,209-line proof file, from the record's solution page, was rebuilt here on
 the pinned toolchain, after proof-only changes for lemmas and definitions that
 Mathlib renamed or removed, and the kernel replayed the whole closure of its
-target. By reading, its target, header and key declarations agree with the
-site's statement; the file contains no `sorry`, `axiom`, `native_decide`,
-`unsafe`, `implemented_by`, `opaque` or `set_option` and no import, one
-`theorem` (the target; every other proposition is a `def`), and 3,609
-`decide +kernel` lines on finite certificates, all inside the combinatorial
-part; no catalog or Mathlib name is redefined in the file; the chain from the
-target back to the constructions is complete at the level of every statement;
-the exact formula was confirmed by brute force for every $n\le42$, the explicit
-series was summed in exact arithmetic to $0.672965651199489$, the closed form's
-ratio $f(n)/n$ was evaluated to nine digits at $n=10^9$ and agrees with the
-series, and the final exponent bookkeeping and the irrationality of
-$\log4/\log3$ were re-derived by hand; the Subspace-Theorem component and the
-summability estimates are checked by reading at statement and comment level only
-and otherwise rest on the kernel replay, and no numerical check can reach a
-Roth-type finiteness statement. The file's header names no author and declares
-no AI system; its assembly comments say that a complete ordinary-kernel check
-and target axiom audit are still required, and several component comments still
-call the covering theorem an explicit hypothesis, notes written before the final
-component, which proves that theorem and closes the target without hypotheses.
-The replay settles two further limits of the reading: the statement file was
-compared against the formal-conjectures default branch, while the replay
-reproduced the pinned commit, which the site builds from a public catalog commit
-and an audit patch, and found the target's statement identical to it (the
-record's solution page prints its proof target under a different task id and
-catalog revision than the record's); and the shared definitions of the target
-macro and the formal-conjectures answer marker, which the reading knew only
-through the proof's unfolding of them, are among the definitions the replay
-found identical to the task's.
+target. By reading, its target, header and key declarations agree with
+Conjectures.io's statement; the file contains no `sorry`, `axiom`,
+`native_decide`, `unsafe`, `implemented_by`, `opaque` or `set_option` and no
+import, one `theorem` (the target; every other proposition is a `def`), and
+3,609 `decide +kernel` lines on finite certificates, all inside the
+combinatorial part; no catalog or Mathlib name is redefined in the file; the
+chain from the target back to the constructions is complete at the level of
+every statement; the exact formula was confirmed by brute force for every
+$n\le42$, the explicit series was summed in exact arithmetic to
+$0.672965651199489$, the closed form's ratio $f(n)/n$ was evaluated to nine
+digits at $n=10^9$ and agrees with the series, and the final exponent
+bookkeeping and the irrationality of $\log4/\log3$ were re-derived by hand; the
+Subspace-Theorem component and the summability estimates are checked by reading
+at statement and comment level only and otherwise rest on the kernel replay, and
+no numerical check can reach a Roth-type finiteness statement. The file's header
+names no author and declares no AI system; its assembly comments say that a
+complete ordinary-kernel check and target axiom audit are still required, and
+several component comments still call the covering theorem an explicit
+hypothesis, notes written before the final component, which proves that theorem
+and closes the target without hypotheses. The replay settles two further limits
+of the reading: the statement file was compared against the formal-conjectures
+default branch, while the replay reproduced the pinned commit, which
+Conjectures.io builds from a public catalog commit and an audit patch, and found
+the target's statement identical to it (the record's solution page prints its
+proof target under a different task id and catalog revision than the record's);
+and the shared definitions of the target macro and the formal-conjectures answer
+marker, which the reading knew only through the proof's unfolding of them, are
+among the definitions the replay found identical to the task's.
 
 ## Progress
 

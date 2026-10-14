@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 543, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/group_theory/E0543/claims
@@ -13,12 +13,12 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/group_theory/E0543/claims/2026_01_21_tang|2026_01_21_tang]]: Tang, working with ChatGPT, shows that a random $k$-subset of $\mathbb{F}_p$
 with $k=\log_2 p+o(\log\log p)$ leaves some element unreachable by subset sums
-with probability tending to one. This refutes the bound, and the site credits
-the result.
+with probability tending to one. This refutes the bound, and erdosproblems.com
+credits the result.
 
 [[problems/group_theory/E0543/claims/2026_02_05_ma_tang|2026_02_05_ma_tang]]: Ma and Tang (arXiv, February 2026) claim that for primes $p$ the threshold
 $f(p)$ is at least $\log_2 p+(\frac{1}{2\log 2}+o(1))\log\log p$, a
 quantitative form of the negative answer. The paper is submitted but not
-refereed, and the site does not credit it.
+refereed, and erdosproblems.com does not credit it.
 
 ***

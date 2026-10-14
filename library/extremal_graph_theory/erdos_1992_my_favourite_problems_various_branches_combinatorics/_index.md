@@ -101,8 +101,8 @@ result that (2) will hold."; then the inverse function $e(n;k)$ with
 Ruzsa's (3) $e(n;2)>cnr_3(n)$, the bounds on $r_3(n)$, and on p. 236 "for
 $e(n;k)$ it is not at all clear to me how $e(n;k)$ depends on $k$. I offer
 a prize of one thousand dollars for clearing up these questions."; a
-further origin of the problem, which the site's thread names and the
-site's key list does not),
+further origin of the problem, which the erdosproblems.com thread names and the
+erdosproblems.com key list does not),
 [[../wiki/problems/extremal_graph_theory/E0600/_index|#600]] (Problem 14, printed
 pp. 235--236, PDF pp. 5--6, page images: "The following slight
 modification of our question also seems interesting: Denote by $e(n;k)$
@@ -150,9 +150,9 @@ asked in general, without the two limit questions of the 1987 paper)
   notation of Bollobás we call a complete or empty graph trivial). Is it true
   that there is an ε so that for every t < εn^2 our graph has an induced
   subgraph which contains exactly t edges? We only proved this for t < ε(log
-  n)^2. Perhaps our conjecture was too optimistic." The site's Problem 88
-  drops the edge-count hypothesis cn^2, which follows from the trivial-subgraph
-  hypothesis by Erdős and Szemerédi.
+  n)^2. Perhaps our conjecture was too optimistic." erdosproblems.com's Problem
+  88 drops the edge-count hypothesis cn^2, which follows from the
+  trivial-subgraph hypothesis by Erdős and Szemerédi.
 - Problem 13 (p. 234, page image): "Noga Alon and Bollobás asked: Let G(n)
   be a graph the largest trivial subgraph of which has size < c log n. Then
   such a graph has at least cn^2 induced subgraphs, no two of which have the
@@ -160,8 +160,8 @@ asked in general, without the two limit questions of the 1987 paper)
   magnitude but V. T. Sós and I could only prove n^{3/2}. V. T. Sós, Faudree
   and I thought taht [sic] such a G(n) has an induced subgraph of size c_1 n
   and at least [c_2 sqrt(n)] vertices of different degree." The last sentence
-  is the conjecture of the site's Problem 637; the n^{5/2} question is the
-  site's Problem 636 (linked above).
+  is the conjecture of erdosproblems.com's Problem 637; the n^{5/2} question is
+  erdosproblems.com's Problem 636 (linked above).
 - Problem 14 (pp. 234--236, page images): With Rothschild: $g(n;c)$, the
   largest book size forced in every graph on $n$ vertices with $cn^2$ edges
   each in a triangle; Szemerédi's $g(n;c)\to\infty$, Alon and Trotter's

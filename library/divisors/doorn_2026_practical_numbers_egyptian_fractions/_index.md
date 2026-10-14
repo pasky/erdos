@@ -35,10 +35,10 @@ Wouter van Doorn and GPT-6 Astra Pro (the author line as printed), "Practical
 numbers and Egyptian fractions," 7 pages, posted 16 September 2026 in the
 GitHub repository https://github.com/Woett/ChatGPT-s-note-on-Erdos18 (created
 2026-09-16T22:15Z, last pushed 2026-09-16T23:14Z, four commits, all of 16
-September 2026) and registered the same day (23:18:06, site clock) as a
-partial proof claim on the erdosproblems.com proof-claims tab of Problem 18.
-Not on the author's arXiv listing when it was checked on 2026-09-27; not
-refereed; no journal or DOI.
+September 2026) and registered the same day (23:18:06, erdosproblems.com clock)
+as a partial proof claim on the erdosproblems.com proof-claims tab of
+Problem 18. Not on the author's arXiv listing when it was checked on 2026-09-27;
+not refereed; no journal or DOI.
 
 The copy read for this card is the repository's `Practical numbers and Egyptian
 fractions.pdf` at the commit that the claim pages of Problems 18, 293 and 304
@@ -68,17 +68,17 @@ file was not built, so no kernel credit is claimed: every result of this
 source is a claim.
 
 **Bears on.** [[../wiki/problems/divisors/E0018/_index|Problem 18]] (Theorem 1.1 answers the
-first question affirmatively with exponent $2$ if correct; the site showed
-OPEN and no independent acceptance is documented),
+first question affirmatively with exponent $2$ if correct; erdosproblems.com
+showed OPEN and no independent acceptance is documented),
 [[../wiki/problems/unit_fractions/E0304/_index|Problem 304]] (Theorem 1.2 would improve
 Vose's $N(b)\ll(\log b)^{1/2}$ to $2c_0(\log\log b)^2$ and is implied by the
 accepted $N(b)\le c_2\log\log b$ of the OpenAI release's Theorem 1.1 recorded
-there; the site's proof-claims tab for 304 was empty on 2026-09-27) and
-[[../wiki/problems/unit_fractions/E0293/_index|Problem 293]] (Theorem 1.3 would improve the
-van Doorn–Tang bound $v(k)\ge e^{ck^2}$ to a doubly exponential one and is
-implied for large $k$ by the accepted $v(k)\ge e^{e^{k/600}}$ of the OpenAI
-release's Corollary 1.3 recorded there; the site's proof-claims tab for 293
-was empty on 2026-09-27).
+there; the erdosproblems.com proof-claims tab for 304 was empty on 2026-09-27)
+and [[../wiki/problems/unit_fractions/E0293/_index|Problem 293]] (Theorem 1.3
+would improve the van Doorn–Tang bound $v(k)\ge e^{ck^2}$ to a doubly
+exponential one and is implied for large $k$ by the accepted
+$v(k)\ge e^{e^{k/600}}$ of the OpenAI release's Corollary 1.3 recorded there;
+the erdosproblems.com proof-claims tab for 293 was empty on 2026-09-27).
 
 ## Overview
 
@@ -86,14 +86,14 @@ The note's definitions (p. 1): "A positive integer $n$ is *practical* if
 every positive integer $m\le n$ is a sum of distinct positive divisors of
 $n$. For a practical number $n$, let $h(n)$ be the least integer such that
 every positive integer $m\le n$ has such a representation with at most
-$h(n)$ summands." The site's definition ranges over $m<n$, which differs only
-by the one-term representation of $m=n$. The note cites
-Erdős's 1950 paper for $h(n)\ll\log n/\log\log n$ infinitely often through
-$r!$, Vose's 1984 construction (J. Number Theory 19, 233–238) for
-$h(n)\ll\sqrt{\log n}$, Yokota (Canad. Math. Bull. 35 (1992), 423–430,
-Corollary 1) for $h(n)\asymp\sqrt{\log n}$ on Vose's sequence, and the 1981
-paper and the 1995 Resenhas survey of Erdős for the question with its
-bounty; none of these was read here.
+$h(n)$ summands." The erdosproblems.com definition ranges over $m<n$, which
+differs only by the one-term representation of $m=n$. The note cites Erdős's
+1950 paper for $h(n)\ll\log n/\log\log n$ infinitely often through $r!$, Vose's
+1984 construction (J. Number Theory 19, 233–238) for $h(n)\ll\sqrt{\log n}$,
+Yokota (Canad. Math. Bull. 35 (1992), 423–430, Corollary 1) for
+$h(n)\asymp\sqrt{\log n}$ on Vose's sequence, and the 1981 paper and the 1995
+Resenhas survey of Erdős for the question with its bounty; none of these was
+read here.
 
 Let $c_0=14/\log2\approx20.2$.
 [[divisors/doorn_2026_practical_numbers_egyptian_fractions/theorem_1_1|Theorem 1.1]]

@@ -25,25 +25,26 @@ updated: 2026-10-08T18:27:22Z
 deleting any edge increases the diameter of $G$. Is it true that $G$ has at most
 $n^2/4$ edges?
 
-**Formulation.** The site's wording, accessed 2026-09-19 (the page showed no
-last-edited date). Such a graph is a minimal graph of diameter $2$ (Füredi's
-term) or a diameter-$2$-critical graph; since the number of edges is an
-integer, "at most $n^2/4$" is "at most $\lfloor n^2/4\rfloor$", the bound
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-19 (the page
+showed no last-edited date). Such a graph is a minimal graph of diameter $2$
+(Füredi's term) or a diameter-$2$-critical graph; since the number of edges is
+an integer, "at most $n^2/4$" is "at most $\lfloor n^2/4\rfloor$", the bound
 Erdős prints as $[n^2/4]$ and Füredi as $\lfloor n^2/4\rfloor$. The complete
 bipartite graph
 $K_{\lfloor n/2\rfloor,\lceil n/2\rceil}$ has diameter $2$, loses it when any
 edge is deleted, and has exactly $\lfloor n^2/4\rfloor$ edges, so the bound
 would be best possible; Füredi's Conjecture 1.1 adds the equality clause that
-it is the only extremal graph, which the site's wording does not ask. The
-statement is for every $n$. The label DECIDABLE is the site's; the site's
-page defines it as a problem settled apart from a finite check.
+it is the only extremal graph, which the erdosproblems.com wording does not ask.
+The statement is for every $n$. The label DECIDABLE is erdosproblems.com's; the
+erdosproblems.com page defines it as a problem settled apart from a finite
+check.
 
-**Status.** DECIDABLE is the site's label. It describes the shape of what
-remains and is not a theorem. The frontmatter standing is derived from the claim
-pages. Füredi's large-$n$ theorem is the accepted partial claim
+**Status.** DECIDABLE is the erdosproblems.com label. It describes the shape of
+what remains and is not a theorem. The frontmatter standing is derived from the
+claim pages. Füredi's large-$n$ theorem is the accepted partial claim
 [[problems/extremal_graph_theory/E0742/claims/1988_03_01_furedi|Füredi 1988/1992]],
 which gives the reduction to a finite check. The proof claim for all $n$ on the
-site's proof-claim tab is the pending full claim
+erdosproblems.com proof-claim tab is the pending full claim
 [[problems/extremal_graph_theory/E0742/claims/2026_08_05_jstar|jstar 2026]],
 unreviewed and recorded below. The derived standing, claimed and proved, departs
 from the label because that full claim is pending. The label matches Füredi's
@@ -65,18 +66,18 @@ attests it, it proves the inequality and not the equality clause for those $n$.
 For every $n$, Füredi's paper proves $|E(G)|\le(1+o(1))n^2/4$, its
 [[../library/extremal_graph_theory/furedi_1992_maximum_number_edges_minimal_graph_diameter/corollary_3_6|Corollary 3.6]].
 
-The site's label was unchanged, and no accepted proof for all $n$ was found in
-the search whose scope the Current assessment records. A statement proved for
-all $n>n_0$, with $n_0$ astronomically large and unchecked for finitely many
-$n$, is a reduction to a finite check, and Füredi's claim page records it with
-the claim value `decidable`.
+The erdosproblems.com label was unchanged, and no accepted proof for all $n$ was
+found in the search whose scope the Current assessment records. A statement
+proved for all $n>n_0$, with $n_0$ astronomically large and unchecked for
+finitely many $n$, is a reduction to a finite check, and Füredi's claim page
+records it with the claim value `decidable`.
 
 **Source.** [erdosproblems.com/742](https://www.erdosproblems.com/742),
-accessed 2026-09-19: the problem page (DECIDABLE, with the site's definition
-of the label; no last-edited date shown; source key [Er81]; commentary
-citing [CaHa79] and [Fu92]; a thanks line; "Formalised statement? Yes"), its
-one-comment discussion thread (1 September 2025) and its proof-claim tab
-with one full claim (submitted 5 August 2026). Cite as: T. F. Bloom, Erdős
+accessed 2026-09-19: the problem page (DECIDABLE, with the erdosproblems.com
+definition of the label; no last-edited date shown; source key [Er81];
+commentary citing [CaHa79] and [Fu92]; a thanks line; "Formalised statement?
+Yes"), its one-comment discussion thread (1 September 2025) and its proof-claim
+tab with one full claim (submitted 5 August 2026). Cite as: T. F. Bloom, Erdős
 Problem #742, https://www.erdosproblems.com/742, accessed 2026-09-19.
 
 **References.**
@@ -151,8 +152,8 @@ each with proof `sorry`, the last carrying a `formal_proof` attribute that
 names `src/latest/ErdosProblems/Erdos742.lean#L4279` in the repository
 `plby/lean-proofs` at a fixed commit, the one Füredi's claim page links. Two
 readings of the file: the criticality predicate says deletion changes the
-diameter away from $2$, where the site says "increases" (the difference turns
-on Mathlib's diameter convention for disconnected graphs, which this page
+diameter away from $2$, where erdosproblems.com says "increases" (the difference
+turns on Mathlib's diameter convention for disconnected graphs, which this page
 leaves open); and the collection keeps the all-$n$ statement `research open`
 while marking the large-$n$ statement `solved`, which is the DECIDABLE label
 in the collection's terms. The external file (196,156 bytes, 4,376 lines) is
@@ -165,18 +166,18 @@ its last update, 31 August 2025), the statement formalized since 29 June 2026,
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-19).** The statement above;
-DECIDABLE, which the site defines as settled apart from a finite check; no
-last-edited date. The commentary, in this page's words: the site attributes
-the conjecture to Murty and Plesník, citing [CaHa79], while noting that Füredi
-credits it to Murty and Simon and passes on a remark of Erdős placing its
-origin with Ore in the 1960s; it notes that the balanced complete bipartite
-graph attains the bound; and it credits Füredi [Fu92] with the proof for all
-large $n$. The thread's one comment (1 September 2025) says that the problem
-is reduced to checking finitely many $n$ but remains open. The proof-claim tab
-lists one full claim (its claim page is linked under Leads below). The
-community database lists the problem as decidable as of its last update, 31
-August 2025.
+**The question (erdosproblems.com formulation, accessed 2026-09-19).** The
+statement above; DECIDABLE, which erdosproblems.com defines as settled apart
+from a finite check; no last-edited date. The commentary, in this page's words:
+erdosproblems.com attributes the conjecture to Murty and Plesník, citing
+[CaHa79], while noting that Füredi credits it to Murty and Simon and passes on a
+remark of Erdős placing its origin with Ore in the 1960s; it notes that the
+balanced complete bipartite graph attains the bound; and it credits Füredi
+[Fu92] with the proof for all large $n$. The thread's one comment (1
+September 2025) says that the problem is reduced to checking finitely many $n$
+but remains open. The proof-claim tab lists one full claim (its claim page is
+linked under Leads below). The community database lists the problem as decidable
+as of its last update, 31 August 2025.
 
 **What is proved.** [Fu92], preprint p. 1: "A graph $\mathcal G$ is a
 minimal graph of diameter 2 if it has diameter 2 and the deletion of any
@@ -202,16 +203,17 @@ Section 4 puts them back "after a lengthy argument"; Section 5 (p. 11) adds
 [[../library/extremal_graph_theory/furedi_1992_maximum_number_edges_minimal_graph_diameter/theorem_5_1|Theorem 5.1]],
 that for $n>n_0$ a minimal graph of diameter $2$ with at least
 $\lfloor(n-1)^2/4\rfloor+1$ edges is complete bipartite or one non-bipartite
-graph $\mathcal M$. So for $n>n_0$ the answer to the site's question is yes,
-and the equality clause holds too. Acceptance evidence: the Journal of Graph
-Theory is refereed (volume 16, issue 1, March 1992, per the Crossref record);
-the site's account. As context and not as evidence, the citing literature found
-(below), by its titles alone, suggests no dispute. Read depth: claims checked
-for Conjecture 1.1, Theorem 1.2, the remark on $n_0$, the earlier bounds and
-Section 5's statements; the proof (pp. 2--11) for structure only; the journal
-text was not compared with the preprint. The site's report that Füredi passes on
-Erdős's attribution of the conjecture to Ore in the 1960s is not on the preprint
-pages cited; it may be in the journal version, which is not held.
+graph $\mathcal M$. So for $n>n_0$ the answer to the erdosproblems.com question
+is yes, and the equality clause holds too. Acceptance evidence: the Journal of
+Graph Theory is refereed (volume 16, issue 1, March 1992, per the Crossref
+record); erdosproblems.com's account. As context and not as evidence, the citing
+literature found (below), by its titles alone, suggests no dispute. Read depth:
+claims checked for Conjecture 1.1, Theorem 1.2, the remark on $n_0$, the earlier
+bounds and Section 5's statements; the proof (pp. 2--11) for structure only; the
+journal text was not compared with the preprint. erdosproblems.com's report that
+Füredi passes on Erdős's attribution of the conjecture to Ore in the 1960s is
+not on the preprint pages cited; it may be in the journal version, which is not
+held.
 
 **The finite remainder.** Theorem 1.2 leaves every $n\le n_0$ open, and
 $n_0$ is a tower of exponentials; no source cited here gives its value.
@@ -247,24 +249,25 @@ spans $25\le n\le n_0$ except $n=26$, with $n_0$ unknown.
   as Fable 5 and Opus 5, and as unvalidated by the submitter, with a Lean
   file, recorded as the claim page
   [[problems/extremal_graph_theory/E0742/claims/2026_08_05_jstar|jstar 2026]];
-  unreviewed by the site, whose tab says that a listing there is no guarantee
-  of correctness and does not mean that anyone associated with the site has
-  examined the proof. The route, in this page's words: a count $D(F)$ is
-  attached to every graph $F$ (edges $uv$ with $N(u)\cap N(v)=\emptyset$, plus
-  edges with a common neighbor that carry a "witness" vertex, minus non-edges
-  with a common neighbor); for a critical graph of diameter $2$ it equals
-  $2e-\binom n2$, so the bound becomes $D(G)\le\lfloor n/2\rfloor$, which the
-  claim asserts for all graphs, by an induction that deletes both ends of a
-  well-chosen edge. The repository's write-up (at the repository's head commit
-  of 10 August 2026, accessed 2026-10-07) carries the author line "Claude Code",
-  says the proof was found, written and formalized by a multi-agent AI research
-  campaign it names as Claude (Anthropic), claims the inequality for every $n$
-  without any step closing by exhaustion, and says it does not prove the
-  equality clause; a second write-up on that clause was linked from the tab on
-  2026-08-10. No independent review, site comment on the claim (its two
-  comments, of 5 and 10 August 2026, are recorded on the claim page) or change
-  of label was found. If correct it would settle the whole remainder; it is an
-  author's proof claim in the sense of the status rules, distinct from community
+  unreviewed by erdosproblems.com, whose tab says that a listing there is no
+  guarantee of correctness and does not mean that anyone associated with
+  erdosproblems.com has examined the proof. The route, in this page's words: a
+  count $D(F)$ is attached to every graph $F$ (edges $uv$ with
+  $N(u)\cap N(v)=\emptyset$, plus edges with a common neighbor that carry a
+  "witness" vertex, minus non-edges with a common neighbor); for a critical
+  graph of diameter $2$ it equals $2e-\binom n2$, so the bound becomes
+  $D(G)\le\lfloor n/2\rfloor$, which the claim asserts for all graphs, by an
+  induction that deletes both ends of a well-chosen edge. The repository's
+  write-up (at the repository's head commit of 10 August 2026, accessed
+  2026-10-07) carries the author line "Claude Code", says the proof was found,
+  written and formalized by a multi-agent AI research campaign it names as
+  Claude (Anthropic), claims the inequality for every $n$ without any step
+  closing by exhaustion, and says it does not prove the equality clause; a
+  second write-up on that clause was linked from the tab on 2026-08-10. No
+  independent review, erdosproblems.com comment on the claim (its two comments,
+  of 5 and 10 August 2026, are recorded on the claim page) or change of label
+  was found. If correct it would settle the whole remainder; it is an author's
+  proof claim in the sense of the status rules, distinct from community
   acceptance and from independent review.
 - A self-declared formalization of the large-$n$ theorem, linked from
   Füredi's claim page. Boris Alexeev's repository
@@ -284,8 +287,8 @@ spans $25\le n\le n_0$ except $n=26$, with $n_0$ unknown.
   either; the file ends with an `alias furedi_bound := erdos_742` and a
   `#print axioms Erdos742.erdos_742` command whose output is not recorded in
   the file; the file contains no `sorry`. This corpus has not built, audited
-  or kernel-checked the development and claims no credit for it; the site's
-  label does not rest on it.
+  or kernel-checked the development and claims no credit for it; the
+  erdosproblems.com label does not rest on it.
 - Citing literature (titles only, from the Semantic Scholar citation list of
   [Fu92], 74 records, 2026-09-19): bounds for diameter-$k$-critical
   graphs (arXiv:2409.17491, 2024), "Strengthening the Murty-Simon conjecture
@@ -300,7 +303,7 @@ spans $25\le n\le n_0$ except $n=26$, with $n_0$ unknown.
 accepted proof for all $n$, an explicit threshold $n_0$, a verification
 beyond Fan's, or a change of label.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `742.lean` at the commit linked above; the community
   database entry; the claim's repository through the GitHub API (the head
   commit and the paper's first lines).
@@ -335,11 +338,11 @@ for structure only; the external Lean file neither built nor audited. (5)
 attestations; the statements of [CaHa79] and [Fa87] (Conjecture 1 and
 Theorem 1; the Theorem's parts (ii)--(iii) with the Remark on $n=26$) agree
 with Füredi's account of them, Fan's cases following from inequality (7)
-by computation and the derivation of (7) covered for structure only. The
-site's Ore attribution is not on the preprint pages cited. The site
-attributes the conjecture to Murty and Plesník, following the problem's own
-source: [Er81] p. 15 says that Murty and Plesník conjectured the bound and
-gives [CaHa79] as its reference [67]. The papers themselves head the
+by computation and the derivation of (7) covered for structure only.
+erdosproblems.com's Ore attribution is not on the preprint pages cited.
+erdosproblems.com attributes the conjecture to Murty and Plesník, following the
+problem's own source: [Er81] p. 15 says that Murty and Plesník conjectured the
+bound and gives [CaHa79] as its reference [67]. The papers themselves head the
 conjecture "Simon and Murty" ([CaHa79] p. 223, [Fu92] p. 1), with Plesník
 credited for the observation behind it, and [CaHa79] does not name Plesník.
 
@@ -360,8 +363,8 @@ credited for the observation behind it, and [CaHa79] does not name Plesník.
   every $n$; their
   [[../library/extremal_graph_theory/caccetta_haggkvist_1979_diameter_critical_graphs/conjecture_1|Conjecture 1]]
   (p. 223, headed "Simon and Murty") is the printed source of the conjecture,
-  with the equality clause, per [Er81]'s reference [67] and the site's "(see
-  [CaHa79])".
+  with the equality clause, per [Er81]'s reference [67] and erdosproblems.com's
+  "(see [CaHa79])".
 - Plesník (1975, not held; per [Fu92]): $|E|<3n(n-1)/8$; the observation
   behind the conjecture.
 - [Er81], p. 15: the conjecture in Erdős's words, attributed there to Murty

@@ -4,7 +4,7 @@ title: The Erdős–Fuchs theorem rules out a bounded error term
 desc: |
   Theorem 1 of Erdős and Fuchs (1956) proves that no sequence has its pair count
   equal to $cn+o(n^{1/4}(\log n)^{-1/2})$ with $c>0$, so a bounded error is
-  impossible. The claim is accepted, refereed and credited by the site.
+  impossible. The claim is accepted, refereed and credited by erdosproblems.com.
 authors:
 - P. Erdös
 - W. H. J. Fuchs
@@ -46,19 +46,20 @@ r(n)=cn+o\bigl(n^{1/4}(\log n)^{-1/2}\bigr)
 $$
 
 cannot hold. That is the journal's form of the theorem, as the zbMATH review
-of the paper (Zbl 0070.04104, by S. Selberg) and the site's commentary give it
-and as the formal-conjectures variant `erdos_763.variants.erdos_fuchs` states
-it; the 1954 Cornell technical-report printing that preceded the journal paper
-prints the weaker error term $o(n^{1/4}(\log n)^{-1/2-\varepsilon})$,
-$\varepsilon>0$. The paper introduces the theorem as the proof of the
-Erdős–Turán conjecture that $r(n)-cn=O(1)$ cannot hold, which is the site's
-question with $r(N)=\sum_{n\le N}1_A*1_A(n)$ counting ordered pairs; the paper
-notes that the result holds equally for the counts over $i<j$, $i\le j$ or all
-pairs, and for sequences of nonnegative reals. The method is a
-generating-function argument: with $g(z)=\sum_kz^{a_k}$, the assumed
-asymptotic is integrated against $g(z)^2$ on a circle of radius close to $1$
-and contradicted by a lemma bounding such contour integrals. This page rests
-on the statement and the opening remarks of the 1954 printing, as the
+of the paper (Zbl 0070.04104, by S. Selberg) and the erdosproblems.com
+commentary give it and as the formal-conjectures variant
+`erdos_763.variants.erdos_fuchs` states it; the 1954 Cornell technical-report
+printing that preceded the journal paper prints the weaker error term
+$o(n^{1/4}(\log n)^{-1/2-\varepsilon})$, $\varepsilon>0$. The paper introduces
+the theorem as the proof of the Erdős–Turán conjecture that $r(n)-cn=O(1)$
+cannot hold, which is the erdosproblems.com question with
+$r(N)=\sum_{n\le N}1_A*1_A(n)$ counting ordered pairs; the paper notes that the
+result holds equally for the counts over $i<j$, $i\le j$ or all pairs, and for
+sequences of nonnegative reals. The method is a generating-function argument:
+with $g(z)=\sum_kz^{a_k}$, the assumed asymptotic is integrated against $g(z)^2$
+on a circle of radius close to $1$ and contradicted by a lemma bounding such
+contour integrals. This page rests on the statement and the opening remarks of
+the 1954 printing, as the
 [[../library/additive_bases/erdos_1956_problem_additive_number_theory/_index|source card]]
 records; the proof pages of that scan are legible, but no proof check is
 recorded. Montgomery and Vaughan, after unpublished work of Jurkat,
@@ -75,9 +76,9 @@ Research technical report of August 1954, which preceded the journal paper. The
 journal's pagination comes from the Crossref record and the zbMATH review, not
 from that printing.
 
-Reviewed: the site's curator, Thomas Bloom, labeled the problem DISPROVED. The
-problem page's commentary credits the answer, in its strong form, to Erdős and
-Fuchs. The proof-claim tab is empty and the thread has no posts.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the problem
+DISPROVED. The problem page's commentary credits the answer, in its strong form,
+to Erdős and Fuchs. The proof-claim tab is empty and the thread has no posts.
 
 A Lean 4 development declares itself a formalization of the solution. It is
 `src/latest/ErdosProblems/Erdos763.lean` of Boris Alexeev's lean-proofs

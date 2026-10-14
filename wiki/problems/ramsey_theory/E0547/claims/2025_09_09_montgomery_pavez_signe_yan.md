@@ -2,7 +2,7 @@
 name: problems/ramsey_theory/E0547/claims/2025_09_09_montgomery_pavez_signe_yan
 title: Montgomery, Pavez-Signé and Yan, Burr's formula for trees of small maximum degree
 desc: |
-  A 2025 preprint credited in the site's remarks gives
+  A 2025 preprint credited in the erdosproblems.com remarks gives
   $R(T)=\max\{2t_1,t_1+2t_2\}-1\le2n-2$ for every tree $T$ on $n$ vertices with
   maximum degree at most $cn$. This is the modified Statement of Problem 547
   for those trees.
@@ -55,7 +55,7 @@ theorem.
 **Standing.** Claimed, not accepted. R. Montgomery, M. Pavez-Signé and
 J. Yan, *Ramsey numbers of trees*, arXiv:2509.07934v1 (9 September 2025, the
 date this page is named by), 59 pages, under the CC BY 4.0 license; no
-journal version is known. The site's commentary records the result as
+journal version is known. The erdosproblems.com commentary records the result as
 [MPY25], but its label DECIDABLE settles neither the problem nor any part of
 it, so the credit is not acceptance evidence; nothing is refereed or
 formalized.

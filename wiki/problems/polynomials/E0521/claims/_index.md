@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 521, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/polynomials/E0521/claims
@@ -23,8 +23,8 @@ with no review.
 
 [[problems/polynomials/E0521/claims/2026_07_21_sneiderman|2026_07_21_sneiderman]]: Sneiderman, working with GPT-5.6 models, claims that the number $R_n$ of real
 roots has $\liminf R_n/\log n=1/\pi$ almost surely, by a finite-prefix restart
-of the April cone-record note. It is a full claim on the site's tab, with no
-comments.
+of the April cone-record note. It is a full claim on the erdosproblems.com
+tab, with no comments.
 
 [[problems/polynomials/E0521/claims/2026_07_23_snyder|2026_07_23_snyder]]: A Lean 4 theorem credited to Colin Snyder of Star Fleet Math states that
 $R_n/\log n$ does not converge almost surely to $2/\pi$, for $R_n$ the number
@@ -33,8 +33,8 @@ corpus has not audited it.
 
 [[problems/polynomials/E0521/claims/2026_08_01_an_lin|2026_08_01_an_lin]]: An and Lin, working with GPT 5.5 Pro, claim that almost surely infinitely many
 even degrees have every real zero in $[-1,1]$, so the number $R_n$ of real
-roots has $\liminf R_n/\log n=1/\pi$. The claim is registered on the site's
-tab.
+roots has $\liminf R_n/\log n=1/\pi$. The claim is registered on the
+erdosproblems.com tab.
 
 [[problems/polynomials/E0521/claims/2026_08_26_alexeev|2026_08_26_alexeev]]: A Lean 4 development in Boris Alexeev's repository, with Codex as formal
 author, proves for random signs that the number $R_n$ of distinct real roots

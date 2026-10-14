@@ -114,7 +114,7 @@ of prime order.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0565/_index|Problem 565]]: the 1998 bound
-  $R^*(G)\le2^{O(n(\log n)^2)}$ the site records between the doubly
+  $R^*(G)\le2^{O(n(\log n)^2)}$ erdosproblems.com records between the doubly
   exponential bound of Erdős and Hajnal and the $2^{O(n\log n)}$ of
   [[ramsey_theory/conlon_2012_two_problems_graph_ramsey_theory/theorem_1_2|Conlon, Fox and Sudakov]];
   the paper states the question as its Problem 1 and leaves it open, so it

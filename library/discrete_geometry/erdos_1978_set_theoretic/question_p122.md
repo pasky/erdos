@@ -51,11 +51,11 @@ None.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E0352/_index|Problem 352]]: the
-  question is the problem's, which the site cites to this paper among
-  others. The site asks for some $c>0$ with every measurable set of measure
-  at least $c$ containing such a triangle; a constant works for one wording
-  exactly when some constant works for the other. The disc example shows that
-  a constant $C$ in the paper's wording is at least $4\pi3^{-3/2}$, and a
-  constant $c$ in the site's wording exceeds it, since the open disc itself
-  has that measure; the paper gives no upper bound and does not answer the
-  question.
+  question is the problem's, which erdosproblems.com cites to this paper among
+  others. erdosproblems.com asks for some $c>0$ with every measurable set of
+  measure at least $c$ containing such a triangle; a constant works for one
+  wording exactly when some constant works for the other. The disc example shows
+  that a constant $C$ in the paper's wording is at least $4\pi3^{-3/2}$, and a
+  constant $c$ in the erdosproblems.com wording exceeds it, since the open disc
+  itself has that measure; the paper gives no upper bound and does not answer
+  the question.

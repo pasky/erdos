@@ -26,9 +26,9 @@ updated: 2026-10-08T00:44:25Z
 $\{a_1<a_2<\cdots\}$ is the set of integers divisible only by primes in $P$ then
 $\lim a_{i+1}-a_i=\infty$?
 
-**Status.** Proved, the site's label. The accepted claim is
+**Status.** Proved, the erdosproblems.com label. The accepted claim is
 [[problems/primes/E0240/claims/1973_01_01_tijdeman|Tijdeman's Theorem 7 of 1973]],
-refereed and credited by the site's curator.
+refereed and credited by the erdosproblems.com curator.
 
 **Source.** [erdosproblems.com/240](https://www.erdosproblems.com/240), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #240,
@@ -42,9 +42,9 @@ https://www.erdosproblems.com/240.
   Math. (1973), 319-330. Library home:
   [[../library/arithmetic_functions/tijdeman_1973_integers_many_small_prime_factors/_index|tijdeman_1973_integers_many_small_prime_factors]].
 
-**Formalization.** None recorded on the site. Boris Alexeev's `lean-proofs`
-repository holds a Lean proof of the statement following Tijdeman's
-argument, recorded on
+**Formalization.** None recorded on erdosproblems.com. Boris Alexeev's
+`lean-proofs` repository holds a Lean proof of the statement following
+Tijdeman's argument, recorded on
 [[problems/primes/E0240/claims/1973_01_01_tijdeman|the claim page]]; this
 corpus has not built it.
 

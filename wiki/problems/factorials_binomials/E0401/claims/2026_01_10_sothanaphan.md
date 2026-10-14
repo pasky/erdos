@@ -36,8 +36,8 @@ is the ChatGPT conversation linked from the post, which uses Kummer's theorem;
 the post says that the poster checked it by hand and had pointed ChatGPT to
 Problems 728 and 729 and to Kummer's theorem.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 10
-January 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+10 January 2026:
 
 > I am happy to announce that the "all $n$" version is false!
 >
@@ -48,16 +48,17 @@ January 2026:
 > ChatGPT took $27+13=40$ minutes.
 
 **Why it is rejected.** It answers a variant, not the Statement. Erdős and
-Graham's source leaves the quantifier on $n$ open, and the site's wording when
-the post was made asked for the inequality for all sufficiently large $n$; the
-site's curator wrote in the thread the next day that this wording was a
-misreading of the source and that the reading with infinitely many $n$ was
-intended. [[problems/factorials_binomials/E0401/_index|Problem 401]] states
-that reading. A bound on $a_1+a_2$ along the sparse sequence
-$n=p_{r+1}^k-1$ refutes the inequality for all large $n$ but says nothing
-about the other $n$, and the problem asks only for infinitely many, so its
-mathematics answers the variant and does not settle this problem; the value
-`disproved` is its answer to that variant.
+Graham's source leaves the quantifier on $n$ open, and the erdosproblems.com
+wording when the post was made asked for the inequality for all sufficiently
+large $n$; the erdosproblems.com curator wrote in the thread the next day that
+this wording was a misreading of the source and that the reading with infinitely
+many $n$ was intended.
+[[problems/factorials_binomials/E0401/_index|Problem 401]] states that reading.
+A bound on $a_1+a_2$ along the sparse sequence $n=p_{r+1}^k-1$ refutes the
+inequality for all large $n$ but says nothing about the other $n$, and the
+problem asks only for infinitely many, so its mathematics answers the variant
+and does not settle this problem; the value `disproved` is its answer to that
+variant.
 
 **Standing.** Rejected, as answering a variant. The thread records the
 poster's own check of the argument and no other review, and this corpus has

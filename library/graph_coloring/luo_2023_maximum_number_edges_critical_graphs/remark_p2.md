@@ -77,8 +77,8 @@ for this page, and the paper gives no proofs of them.
   $\frac12-\frac3{2k-\delta_k}$ exceeds the conjectured
   $\frac12(1-\frac1{\lfloor k/3\rfloor})$ along infinitely many $n$; both are
   under the paper's proper-subgraph convention, and the problem page's
-  convention note gives the transfer to the site's edge-critical function.
-  The standing rests on the
+  convention note gives the transfer to erdosproblems.com's edge-critical
+  function. The standing rests on the
   [[../wiki/problems/graph_coloring/E0917/claims/1970_01_01_toft|claim page]]
   for Toft's 1970 paper, not on this report. At multiples of $3$ the reported
   coefficient equals the conjectured one, so the report leaves the second

@@ -25,8 +25,8 @@ updated: 2026-10-07T21:33:46Z
 composite then there are distinct primes $p_1,\ldots,p_k$ such that $p_i\mid
 n+i$ for $1\leq i\leq k$?
 
-**Status.** Falsifiable: the site's label (page last edited 24 January 2026).
-The question is open, with no proof and no counterexample
+**Status.** Falsifiable: the erdosproblems.com label (page last edited 24
+January 2026). The question is open, with no proof and no counterexample
 recorded. The label is explained in a body note under Current assessment.
 
 **Source.** [erdosproblems.com/375](https://www.erdosproblems.com/375), accessed
@@ -55,15 +55,15 @@ https://www.erdosproblems.com/375.
 
 ## Current assessment
 
-**Scope.** The section draws on the site's page, its discussion thread (seven
-comments, accessed 2026-10-07), the two sources with library cards named under
-References, [Gu04] and [LaSh06], and the papers of the claim pages; no wider
-literature search has been made. The site's label is a body note, not a claim:
-the problem was marked falsifiable because a counterexample, a run of
-composites $n+1,\ldots,n+k$ whose terms admit no system of distinct prime
-divisors, would be a finite check, while a proof would not; no counterexample
-and no proof is recorded. Three refereed partial results have claim pages,
-each accepted:
+**Scope.** The section draws on the erdosproblems.com page, its discussion
+thread (seven comments, accessed 2026-10-07), the two sources with library cards
+named under References, [Gu04] and [LaSh06], and the papers of the claim pages;
+no wider literature search has been made. The erdosproblems.com label is a body
+note, not a claim: the problem was marked falsifiable because a counterexample,
+a run of composites $n+1,\ldots,n+k$ whose terms admit no system of distinct
+prime divisors, would be a finite check, while a proof would not; no
+counterexample and no proof is recorded. Three refereed partial results have
+claim pages, each accepted:
 [[problems/integer_sequences/E0375/claims/1969_12_01_grimm|Grimm (1969)]], for
 runs of length up to $\log n/(2\log\log n)$ once $n$ is large;
 [[problems/integer_sequences/E0375/claims/1975_03_01_ramachandra_shorey_tijdeman|Ramachandra, Shorey and Tijdeman (1975)]],
@@ -78,21 +78,21 @@ Tijdeman, so it has no claim page. The thread's verifications to $10^{12}$ and
 $10^{13}$ are thread posts with code archives, not dated manuscripts, so they
 have no claim pages.
 
-**What the sources record.** The site's commentary (accessed 2026-10-07): the
-statement is Grimm's conjecture of 1969 and is trivial for $k\le2$; it implies a
-prime-gap bound $p_{n+1}-p_n<p_n^{1/2-c}$ for some $c>0$, which the site says
-would in particular resolve Legendre's conjecture, and which is why the site
-calls it very difficult (the bound gives a prime between consecutive squares for
-all large $n$, the asymptotic form of Legendre's conjecture, as the thread
-comment of 16 January 2026 notes); Grimm proved it for $k\ll\log n/\log\log n$,
-Erdős and Selfridge for $k\le(1+o(1))\log n$, and Ramachandra, Shorey and
-Tijdeman [RST75] for $k\ll(\log n/\log\log n)^3$; Laishram and Shorey [LaSh06]
-verified it for every $k$ and all $n\le1.9\times10^{10}$; Guy's B32 discusses
-it, and Problem 860 is related. The two sources: Guy's B32 (printed p. 133)
-states the conjecture with two worked examples and reports the conditional
-result of Ramachandra, Shorey and Tijdeman that there are finitely many
-exceptions under a hypothesis of Schinzel; the Laishram--Shorey paper, digested
-on
+**What the sources record.** The erdosproblems.com commentary (accessed
+2026-10-07): the statement is Grimm's conjecture of 1969 and is trivial for
+$k\le2$; it implies a prime-gap bound $p_{n+1}-p_n<p_n^{1/2-c}$ for some $c>0$,
+which erdosproblems.com says would in particular resolve Legendre's conjecture,
+and which is why erdosproblems.com calls it very difficult (the bound gives a
+prime between consecutive squares for all large $n$, the asymptotic form of
+Legendre's conjecture, as the thread comment of 16 January 2026 notes); Grimm
+proved it for $k\ll\log n/\log\log n$, Erdős and Selfridge for
+$k\le(1+o(1))\log n$, and Ramachandra, Shorey and Tijdeman [RST75] for
+$k\ll(\log n/\log\log n)^3$; Laishram and Shorey [LaSh06] verified it for every
+$k$ and all $n\le1.9\times10^{10}$; Guy's B32 discusses it, and Problem 860 is
+related. The two sources: Guy's B32 (printed p. 133) states the conjecture with
+two worked examples and reports the conditional result of Ramachandra, Shorey
+and Tijdeman that there are finitely many exceptions under a hypothesis of
+Schinzel; the Laishram--Shorey paper, digested on
 [[../library/integer_sequences/laishram_2006_grimm_s_conjecture_consecutive_integers/_index|its card]],
 reduces the verification to the runs of composites between consecutive primes
 $p_N$ with $N\le8.5\times10^8$ and reports a computation covering all

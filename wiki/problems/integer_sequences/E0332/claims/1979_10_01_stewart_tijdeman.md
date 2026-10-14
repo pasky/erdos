@@ -47,14 +47,14 @@ Theorem 2 of the survey [St78] records
 ([[../library/integer_sequences/stewart_1978_difference_sets_sets_integers/_index|library card]]).
 
 **Covers.** Every $A\subseteq\mathbb N$ of positive upper density, hence
-every $A$ of positive density, the condition the site's commentary credits.
-Not covered: sets of upper density zero; by the paper's Theorem 3, every set
-of non-negative integers containing $0$ is the infinite-difference set of
-some sequence of density zero.
+every $A$ of positive density, the condition the erdosproblems.com commentary
+credits. Not covered: sets of upper density zero; by the paper's Theorem 3,
+every set of non-negative integers containing $0$ is the infinite-difference set
+of some sequence of density zero.
 
 **Acceptance.** Refereed: Canadian Journal of Mathematics 31 (1979). The
-site's commentary credits Prikry, Tijdeman, Stewart and others with the
-positive-density condition through the surveys [St78] and [Ti79], but the
-site labeled the problem OPEN, so no `reviewed` evidence is listed.
+erdosproblems.com commentary credits Prikry, Tijdeman, Stewart and others with
+the positive-density condition through the surveys [St78] and [Ti79], but
+Bloom's catalog labeled the problem OPEN, so no `reviewed` evidence is listed.
 
 **Depends on.** No page of this wiki.

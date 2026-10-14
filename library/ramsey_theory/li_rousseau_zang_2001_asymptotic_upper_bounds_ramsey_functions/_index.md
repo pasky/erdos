@@ -246,8 +246,8 @@ Mattheus and Verstraete's lower bound $\Omega(k^3/\log^4k)$ the remaining
 factor is of order $\log^2k$.
 [[../wiki/problems/ramsey_theory/E0986/_index|#986]]: the same remark (p. 127) for every
 fixed $k\ge3$, in the problem's letters
-$R(s,k)\le(1+o(1))k^{s-1}/(\log k)^{s-2}$, the site's "constant improved to
-$1+o(1)$" on the Ajtai--Komlós--Szemerédi bound
+$R(s,k)\le(1+o(1))k^{s-1}/(\log k)^{s-2}$, erdosproblems.com's "constant
+improved to $1+o(1)$" on the Ajtai--Komlós--Szemerédi bound
 $R(s,k)\ll_sk^{s-1}/(\log k)^{s-2}$. The same paragraph attests the
 problem's conjecture and its date, "Erdős [4] conjectured in 1947 that
 $r(k,n)\ge cn^{k-1}/(\log n)^{c(k)}$", citing Chung's 1997 problem list, and

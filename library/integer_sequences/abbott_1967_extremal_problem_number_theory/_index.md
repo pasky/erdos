@@ -111,7 +111,7 @@ own claims. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/integer_sequences/E0535/_index|#535]]: $f(n,k)$ is the
 problem's function; displays (1)--(2) restate the fixed-$k$ record of 1966,
 and Theorems 1 and 2 bound the neighboring regime where $k$ grows with $n$.
-The site's Problem 535 page cites a dangling key [AbHa67] for "an
+erdosproblems.com's Problem 535 page cites a dangling key [AbHa67] for "an
 alternative description of the details of these lower and upper bounds";
 this paper is the only 1967 paper of Abbott with a coauthor that Crossref
 lists; it restates the fixed-$k$ bounds on p. 173 and proves its own
@@ -120,7 +120,7 @@ but for the upper bound of its Theorem 1 it says only that Erdős's argument
 applies "with only slight modifications" and does not reproduce the details
 (pp. 175--176), so it is at best a partial match for the intended
 reference. [[../wiki/problems/integer_sequences/E0536/_index|#536]]: display (11) is the
-lower bound $f(N)\ge(1-o(1))(\log\log N)N/\log N$ that the site's
+lower bound $f(N)\ge(1-o(1))(\log\log N)N/\log N$ that the erdosproblems.com
 commentary attributes to this paper, read on pp. 176--177.
 
 No file of this source is held: no license on record permits its redistribution,

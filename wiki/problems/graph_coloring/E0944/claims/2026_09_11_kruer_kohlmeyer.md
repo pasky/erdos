@@ -40,23 +40,23 @@ chromatic number while deleting any set of at most $r$ edges does not. This is
 the question as asked, answered yes for every such $k$ and $r$. The proof's
 final theorem is the catalog statement `Erdos944.erdos_944` of
 formal-conjectures (`FormalConjectures/ErdosProblems/944.lean`, at the
-formal-conjectures commit the site's task pins) with its answer instantiated
-to true,
+formal-conjectures commit Conjectures.io's task pins) with its answer
+instantiated to true,
 
 ```lean
 True ↔ ∀ k ≥ 4, ∀ r ≥ 1, ∃ V G, Erdos944.SimpleGraph.IsErdos944 G k r
 ```
 
-and the site's report records that the theorem proved has exactly the task's
-canonical type. The formal predicate matches the wording clause by clause:
-chromatic number equal to $k$, every vertex critical (deleting it strictly
-lowers the chromatic number) and every set of edges whose deletion strictly
-lowers the chromatic number of cardinality greater than $r$. Its one looser
-clause is the object, since the existential ranges over graphs on any type while
-the problem's convention is finite graphs; it is not exploited, because every
-witness in the proof is a finite graph, so the finite-graph reading is
-established as well. The proof also covers $r=0$, which the wording does not
-ask.
+and Conjectures.io's report records that the theorem proved has exactly the
+task's canonical type. The formal predicate matches the wording clause by
+clause: chromatic number equal to $k$, every vertex critical (deleting it
+strictly lowers the chromatic number) and every set of edges whose deletion
+strictly lowers the chromatic number of cardinality greater than $r$. Its one
+looser clause is the object, since the existential ranges over graphs on any
+type while the problem's convention is finite graphs; it is not exploited,
+because every witness in the proof is a finite graph, so the finite-graph
+reading is established as well. The proof also covers $r=0$, which the wording
+does not ask.
 
 **The proof.** All three cases, $k=4$, $k=5$ and $k\ge6$, pass through one
 bridge lemma: a finite graph in which every vertex admits a $(k-1)$-coloring
@@ -65,9 +65,9 @@ more than $r$ monochromatic edges, has chromatic number $k$, every vertex
 critical and every critical edge set of size greater than $r$. For $k\ge5$
 the witnesses follow the circulant construction of
 [[../library/graph_coloring/skottova_2025_critical_edge_sets_vertex_critical_graphs/_index|Skottova and Steiner 2025]],
-which the proof file credits. For $k=4$, the case the site's notes list as
-open even at $r=1$, the witness is a graph on $\mathbb{Z}/n$ built from a
-circulant by inserting, along each of $3t+1$ unit directions, an
+which the proof file credits. For $k=4$, the case the erdosproblems.com notes
+list as open even at $r=1$, the witness is a graph on $\mathbb{Z}/n$ built from
+a circulant by inserting, along each of $3t+1$ unit directions, an
 Andrásfai-type graph into every gap of $3t+1$ steps of that direction's cycle
 (joining gap points whose positions differ by a positive amount congruent to
 $1$ modulo $3$); the inserted edges depend on position modulo $3t+1$, so the
@@ -85,8 +85,8 @@ what is new is $k=4$ for every $r\ge2$.
 **Authorship.** The proof file's header names Liam Kruer and Jensen Kohlmeyer
 as the authors of the accompanying manuscript and states that OpenAI Codex
 assisted with proof development and Lean formalization. The bounty site
-credits the result to the solver handle JenW1N. The site's exposition of the
-proof, dated 18 September 2026 and linked above as the preprint, names Kruer
+credits the result to the solver handle JenW1N. Conjectures.io's exposition of
+the proof, dated 18 September 2026 and linked above as the preprint, names Kruer
 and Kohlmeyer as its authors and says that it was prepared with Codex
 assistance from the accepted Lean file and is neither formally verified nor a
 journal publication; it states that the submission does not claim Erdős's
@@ -101,26 +101,26 @@ every declaration the target `Bounty.target` depends on, Lean core, Mathlib and
 formal-conjectures included, and accepted them all. The target's axioms are
 exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and every
 definition its statement reaches, are identical to the formal-conjectures
-statement of the site's task, displayed under **The theorem.** above. There
-`IsCritical` and `IsCriticalEdges` say what the wording says, and the
+statement of Conjectures.io's task, displayed under **The theorem.** above.
+There `IsCritical` and `IsCriticalEdges` say what the wording says, and the
 finite-graph reading rests on the finiteness of the proof's witnesses, which
 **The theorem.** records. Acceptance rests on this replay and that check.
 
 The bounty site Conjectures.io holds the record
 `e7afff2c-bb07-4fa8-92b6-67a530aaad70`, attacked as Prove; its certification is
 reported, not counted. It records the proof as Lean-verified on 11 September
-2026. It records the review as approved on 15 September 2026 under the site's
-manual-review policy v3, and the record as certified on 16 September 2026. The
-outcome is shown as Proved and the bounty as paid.
+2026. It records the review as approved on 15 September 2026 under
+Conjectures.io's manual-review policy v3, and the record as certified on 16
+September 2026. The outcome is shown as Proved and the bounty as paid.
 
-The site's verification report states that its Lean kernel accepted the file
-with propext, Quot.sound and Classical.choice as the only axioms. It also states
-that a static scan found no imports, no axiom declarations, no `sorry`, no
-`native_decide` and no unsafe options. It says the second, independent kernel
+Conjectures.io's verification report states that its Lean kernel accepted the
+file with propext, Quot.sound and Classical.choice as the only axioms. It also
+states that a static scan found no imports, no axiom declarations, no `sorry`,
+no `native_decide` and no unsafe options. It says the second, independent kernel
 was not run, so the verdict rests on one kernel implementation.
 
-The site's review note describes the approval as an eligibility decision that
-does not guarantee originality. It says the review used the recorded Lean
+Conjectures.io's review note describes the approval as an eligibility decision
+that does not guarantee originality. It says the review used the recorded Lean
 verification, with no fresh build or independent-kernel replay. It records that
 the approval was reached on two separately conducted reviews by Codex agents of
 one model family. It compares the target with two earlier public formalizations
@@ -128,8 +128,8 @@ of the $k=4$, $r=1$ case, by Alex Chan
 ([[problems/graph_coloring/E0944/claims/2026_09_09_chan|claim page]]) and by
 Kenta Kitamura
 ([[problems/graph_coloring/E0944/claims/2026_09_10_kitamura|claim page]]), and
-finds them narrower. The site's exposition says that those authors retain credit
-for that case.
+finds them narrower. Conjectures.io's exposition says that those authors retain
+credit for that case.
 
 The record names no individual reviewer. Both reviews were by Codex agents, and
 the proof file's header credits Codex with assistance in its development. No
@@ -141,9 +141,9 @@ Chan's proof claim. On that date, the formal-conjectures catalog file on its
 default branch agreed with the statement the site prints and tagged the theorem
 research open. By its commit of 21 September 2026, the formal-conjectures
 catalog tags the $k=4$ case of Dirac's conjecture research solved and keeps
-`erdos_944` itself tagged research open. The formal-conjectures commit that the
-site's task pins is not public; the site builds it from a public catalog commit
-and an audit patch, and the replay reproduced it exactly.
+`erdos_944` itself tagged research open. The formal-conjectures commit that
+Conjectures.io's task pins is not public; Conjectures.io builds it from a public
+catalog commit and an audit patch, and the replay reproduced it exactly.
 
 **Verification record.** Besides the replay under **Acceptance.**, this corpus
 read the proof file,

@@ -35,36 +35,35 @@ $$
 f(k)=(1+o(1))\frac{k}{e-1}?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page shows
-no last-edited stamp). The denominators are distinct
-positive integers and $k\ge3$: one term represents $1$ only as $1/1$, and
-two distinct unit fractions never sum to $1$. So $f(k)$ is the largest
-possible smallest denominator over all $k$-term representations of $1$.
-The trivial upper bound $f(k)\le(1+o(1))k/(e-1)$ (site commentary; Croot,
-p. 99) comes from $\sum_{u\le n\le eu}1/n=1+o(1)$: if $f(k)=u$, the $k$
-reciprocals of distinct denominators at least $u$ sum to $1$, so
-$k\ge(e-1-o(1))u$. The question is whether the matching lower bound holds
-for every $k$. The 1980 monograph prints the question with "min" and
-"$\ge$" where the sense requires "max" and "$\le$" (printed p. 33, quoted
-below); Croot's paper prints the corrected form,
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+shows no last-edited stamp). The denominators are distinct positive integers and
+$k\ge3$: one term represents $1$ only as $1/1$, and two distinct unit fractions
+never sum to $1$. So $f(k)$ is the largest possible smallest denominator over
+all $k$-term representations of $1$. The trivial upper bound
+$f(k)\le(1+o(1))k/(e-1)$ (erdosproblems.com commentary; Croot, p. 99) comes from
+$\sum_{u\le n\le eu}1/n=1+o(1)$: if $f(k)=u$, the $k$ reciprocals of distinct
+denominators at least $u$ sum to $1$, so $k\ge(e-1-o(1))u$. The question is
+whether the matching lower bound holds for every $k$. The 1980 monograph prints
+the question with "min" and "$\ge$" where the sense requires "max" and "$\le$"
+(printed p. 33, quoted below); Croot's paper prints the corrected form,
 $\max\{x_1\}\sim k/(e-1)$, and notes that the monograph misstated it. The
-site's statement is the corrected form.
+erdosproblems.com statement is the corrected form.
 
-**Status.** Proved, in the site's label. The site's commentary calls the problem
-essentially solved by Croot, and its PROVED label rested on that credit. The
-status-defining source is Croot's Main Theorem (Acta Arith. 99 (2001), no. 2,
-99--114; refereed). For every $N>1$ it gives a representation $1=\sum1/x_i$ with
-$N<x_1<\cdots<x_k\le(e+o(1))N$. This gives $f(k)=(1+o(1))k/(e-1)$ for the
-infinitely many $k$ that occur as term counts of these representations. The
-paper states the result "for infinitely many $k$". The standing in the
-frontmatter derives from the accepted claim page
+**Status.** Proved, in the erdosproblems.com label. The erdosproblems.com
+commentary calls the problem essentially solved by Croot, and its PROVED label
+rested on that credit. The status-defining source is Croot's Main Theorem (Acta
+Arith. 99 (2001), no. 2, 99--114; refereed). For every $N>1$ it gives a
+representation $1=\sum1/x_i$ with $N<x_1<\cdots<x_k\le(e+o(1))N$. This gives
+$f(k)=(1+o(1))k/(e-1)$ for the infinitely many $k$ that occur as term counts of
+these representations. The paper states the result "for infinitely many $k$".
+The standing in the frontmatter derives from the accepted claim page
 [[problems/unit_fractions/E0284/claims/1999_04_30_croot|Croot 1999]].
 
 **Source.** [erdosproblems.com/284](https://www.erdosproblems.com/284),
 accessed 2026-09-18: the problem page (PROVED, whose label tooltip reports
 an affirmative solution; source key [ErGr80]; no last-edited stamp), its
 discussion thread (one comment, 17 July 2026) and its empty proof-claim
-tab. The site cites [Cr01] in its commentary and thanks Zachary Hunter.
+tab. erdosproblems.com cites [Cr01] in its commentary and thanks Zachary Hunter.
 Cite as: T. F. Bloom, Erdős Problem #284,
 https://www.erdosproblems.com/284, accessed 2026-09-18.
 
@@ -83,14 +82,14 @@ https://www.erdosproblems.com/284, accessed 2026-09-18.
   in combinatorial number theory. Monographies de L'Enseignement
   Mathématique 28, Université de Genève (1980), printed p. 33 (the page is
   supplied by the thread's comment and by Croot's reference [3]; the
-  site's source key carries none). Library home:
+  erdosproblems.com source key carries none). Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Ma00] Martin, Greg, Denser Egyptian fractions. Acta Arith. 95 (2000),
   no. 3, 231--260. Croot's introduction says it gives no information about
   $x_1$; its Theorem 2 is compiled on
   [[problems/unit_fractions/E0285/_index|Problem 285]].
 
-**Formalization.** No statement file. The site's page records no
+**Formalization.** No statement file. The erdosproblems.com page records no
 formalized statement, formal-conjectures had no `ErdosProblems/284.lean`
 on 2026-10-07, and the community database (teorth/erdosproblems,
 `data/problems.yaml`) lists status proved as of its last update of the
@@ -106,8 +105,8 @@ evidence is listed and no local kernel credit is claimed.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; status PROVED; source key [ErGr80]. The commentary derives the
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; status PROVED; source key [ErGr80]. The commentary derives the
 upper bound $f(k)\le(1+o(1))\frac{k}{e-1}$ from
 $\sum_{u\le n\le eu}\frac1n=1+o(1)$, since $f(k)=u$ forces
 $k\ge(e-1-o(1))u$, and then calls the problem essentially solved by Croot
@@ -152,8 +151,8 @@ count, and with the trivial upper bound $f(k)=(1+o(1))k/(e-1)$ for all
 such $k$. There are infinitely many such $k$ because $k>N$. Acceptance
 evidence: the paper is published in Acta Arithmetica, a refereed journal
 (the Crossref record for DOI 10.4064/aa99-2-1 and the journal header of
-the published version), and the site accepts it as the resolution. Proof
-coverage: the proof was read for structure only, on the preprint
+the published version), and erdosproblems.com accepts it as the resolution.
+Proof coverage: the proof was read for structure only, on the preprint
 (Propositions 1 and 2, Lemmas 1--4; see the result page), and not
 verified; the published proof was not compared with the preprint's.
 
@@ -186,24 +185,24 @@ Croot's theorem; the all-$k$ statement is published nowhere found, apart
 from the Lean proof recorded under Formalization.
 
 **Remaining gaps.** (1) The literature does not establish the asymptotic
-for every $k$: the paper's theorem covers infinitely many $k$, the site
+for every $k$: the paper's theorem covers infinitely many $k$, erdosproblems.com
 credits it as the solution, and the only all-$k$ proof found is the
 unaudited Lean proof by Alexeev under Formalization. (2) Croot's proof is
 compiled as a statement with a structural sketch only. (3) The monograph's
-wording is defective as printed (min for max); the site's statement
+wording is defective as printed (min for max); the erdosproblems.com statement
 follows Croot's corrected form. (4) The exact values $f(k)$ are not
-tabulated here (the site's OEIS field says "possible").
+tabulated here (the erdosproblems.com OEIS field says "possible").
 
 ## Progress and known results
 
-- Trivial upper bound $f(k)\le(1+o(1))k/(e-1)$ (monograph p. 33; site
-  commentary).
+- Trivial upper bound $f(k)\le(1+o(1))k/(e-1)$ (monograph p. 33;
+  erdosproblems.com commentary).
 - Croot's
   [[../library/unit_fractions/croot_1999_unit_fractions_denominators_short_intervals/main_theorem|Main Theorem]]
   (1999 preprint; Acta Arith. 2001): $f(k)=(1+o(1))k/(e-1)$ for infinitely
   many $k$, the term counts of the representations of $1$ with denominators
   in $(N,(e+o(1))N]$; the all-$k$ form is not established in the
-  literature, apart from the unaudited Lean proof below, and the site
+  literature, apart from the unaudited Lean proof below, and erdosproblems.com
   credits Croot with the solution; the accepted claim
   [[problems/unit_fractions/E0284/claims/1999_04_30_croot|Croot 1999]].
 - A public Lean 4 proof of $f(k)/k\to1/(e-1)$ in Boris Alexeev's

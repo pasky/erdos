@@ -62,11 +62,11 @@ whose block strays, independently of the size of the class. The paper compares
 the bound with the earlier upper bounds, Hegyvári's $(2/3+o(1))n$ for the
 unrestricted form (the page's [He86]) and the bound
 $f(n)\le(2/3-1/512)n+O(\log n)$ that it derives from Coppersmith and Phillips
-(its eq. (1.2); the site's commentary states the bound for the unrestricted
-$g(n)$ instead, an application that a thread comment of 9 April 2026 disputes),
-and states
-(Remark 3.3) that the good block sums fill an interval of asymptotic length
-$n/2$, so that a proof of $f(n)=o(n)$ needs an idea outside this framework.
+(its eq. (1.2); the erdosproblems.com commentary states the bound for the
+unrestricted $g(n)$ instead, an application that a thread comment of 9 April
+2026 disputes), and states (Remark 3.3) that the good block sums fill an
+interval of asymptotic length $n/2$, so that a proof of $f(n)=o(n)$ needs an
+idea outside this framework.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Chapin
 Lenthall-Cleary (account tenacious) on 27 July 2026, giving "GPT-5.6 Sol" as the
@@ -77,8 +77,8 @@ AI used:
 
 **Covers.** An upper bound for $f(n)$ with leading constant $1/2$ and the
 stated second-order term. It does not answer whether $f(n)=o(n)$, the
-problem's question, and says nothing about lower bounds (the site records
-$f(n)\ge(2+o(1))n^{1/2}$);
+problem's question, and says nothing about lower bounds (erdosproblems.com
+records $f(n)\ge(2+o(1))n^{1/2}$);
 [[problems/integer_sequences/E0357/claims/2026_08_31_pickhardt|Pickhardt's manuscript]],
 dated 14 July 2026 and posted 31 August 2026, proves an upper bound of the same
 shape with the smaller second-order constant $(3/2)2^{-2/3}\approx0.945$ by a
@@ -105,7 +105,7 @@ states that the manuscript was drafted with the assistance of AI systems (the
 proof-claims tab names GPT-5.6 Sol) and that the author relies on the Lean
 development rather than on an independent check of the exposition.
 
-**Standing.** Claimed: the site's label was OPEN (page last edited 12 January
-2026), with no comment under the claim on the proof-claims
-tab; the preprint is a repository draft, not on a preprint server, with no
-refereed version, site acceptance or independent review found on 2026-10-07.
+**Standing.** Claimed: the erdosproblems.com label was OPEN (page last edited 12
+January 2026), with no comment under the claim on the proof-claims tab; the
+preprint is a repository draft, not on a preprint server, with no refereed
+version, erdosproblems.com acceptance or independent review found on 2026-10-07.

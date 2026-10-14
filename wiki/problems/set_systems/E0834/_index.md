@@ -25,12 +25,13 @@ updated: 2026-10-08T03:43:48Z
 every vertex has degree $\geq 7$?
 
 **Formulation.** Erdős and Lovász do not say what $3$-critical means, as the
-site's commentary notes, and the commentary records two readings, which this
-page follows: transversal criticality ($\tau(H)=3$ and $\tau(H-e)\le2$ for every
-edge $e$) and chromatic criticality (weak chromatic number $3$, with $H-e$ and
-$H-v$ $2$-colorable for every edge $e$ and vertex $v$). The standing judges the
-site's wording, the Statement above; Li answers it no under the first reading
-and yes under the second, so the claim value is answered.
+erdosproblems.com commentary notes, and the commentary records two readings,
+which this page follows: transversal criticality ($\tau(H)=3$ and
+$\tau(H-e)\le2$ for every edge $e$) and chromatic criticality (weak chromatic
+number $3$, with $H-e$ and $H-v$ $2$-colorable for every edge $e$ and vertex
+$v$). The standing judges the erdosproblems.com wording, the Statement above; Li
+answers it no under the first reading and yes under the second, so the claim
+value is answered.
 
 **Status.** Solved.
 
@@ -38,8 +39,8 @@ and yes under the second, so the claim value is answered.
 p. 282, MR360350 [Er74d], as identified by
 [erdosproblems.com/834](https://www.erdosproblems.com/834), accessed
 2026-09-05. Page 282 of [Er74d] is not held; the wording and attribution of
-the problem rest on the site. Website citation: T. F. Bloom, Erdős Problem #834,
-https://www.erdosproblems.com/834, accessed 2026-09-05.
+the problem rest on erdosproblems.com. Website citation: T. F. Bloom, Erdős
+Problem #834, https://www.erdosproblems.com/834, accessed 2026-09-05.
 
 **References.**
 
@@ -59,9 +60,9 @@ formalization of a result, and no Lean proof of either reading is known.
 
 Li [Li25] treats both readings of "$3$-critical" that the Formulation records.
 
-The site marked the problem solved because [Li25] settles both documented
-readings. The site's discussion also argues from historical context and later
-terminology that the chromatic reading is likely the intended one. A
+Bloom's catalog marked the problem solved because [Li25] settles both documented
+readings. The erdosproblems.com discussion also argues from historical context
+and later terminology that the chromatic reading is likely the intended one. A
 [comment](https://www.erdosproblems.com/forum/thread/834#post-2006) in the
 discussion thread (4 December 2025), however, identifies [Er74d] with the
 title of the 1975 Erdős--Lovász paper, in conflict with the [Er74d] entry under
@@ -72,15 +73,15 @@ held.
 The accepted claim page
 [[problems/set_systems/E0834/claims/2025_12_31_li|Li 2025]] states both
 results, the reason the claim value is `answered` rather than proved or
-disproved, and the acceptance evidence: the site's curator marked the problem
-solved and credits Li under both readings, while the paper is an arXiv
+disproved, and the acceptance evidence: the erdosproblems.com curator marked the
+problem solved and credits Li under both readings, while the paper is an arXiv
 preprint with no journal record. The corpus's own review of Li's thirteen
 reconstructed proofs, recorded on the source card's evidence pages, is the
 project's review and gives no acceptance evidence.
 
-Search scope: the site's problem page and discussion thread, the community
-database (teorth/erdosproblems) and the formal-conjectures statement file; on
-2026-10-07 none of them showed a claim other than Li's.
+Search scope: the erdosproblems.com problem page and discussion thread, the
+community database (teorth/erdosproblems) and the formal-conjectures statement
+file; on 2026-10-07 none of them showed a claim other than Li's.
 
 ## Progress
 

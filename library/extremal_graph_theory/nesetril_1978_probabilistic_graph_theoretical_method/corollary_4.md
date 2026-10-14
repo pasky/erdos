@@ -46,9 +46,9 @@ Same-paper: Corollary 3.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1006/_index|Problem 1006]]: the form the site's
-  discussion thread points to ("see Corollary 4 here", 28 September 2025).
-  The card's digest records, as its own observation, that an orientation of
-  the kind the problem asks for is an embedding into a Hasse diagram, so this
-  corollary answers the problem as well; the problem page uses Corollary 3
-  directly.
+- [[../wiki/problems/extremal_graph_theory/E1006/_index|Problem 1006]]: the form
+  the erdosproblems.com discussion thread points to ("see Corollary 4 here", 28
+  September 2025). The card's digest records, as its own observation, that an
+  orientation of the kind the problem asks for is an embedding into a Hasse
+  diagram, so this corollary answers the problem as well; the problem page uses
+  Corollary 3 directly.

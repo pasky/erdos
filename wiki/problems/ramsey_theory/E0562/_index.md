@@ -41,8 +41,8 @@ $$
 
 where the tower of exponentials has height $r-1$?
 
-**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 18
-January 2026). $R_r(n)$ is the two-color Ramsey number of the complete
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
+edited 18 January 2026). $R_r(n)$ is the two-color Ramsey number of the complete
 $r$-uniform hypergraph on $n$ vertices; in [EHR65] it is $g(n,r)=f(n,n,r)$,
 the least $a$ with $a\to(n,n)^r$, and in the recent literature $r_r(n,n)$ or
 $r(K_n^{(r)};2)$. The relation $\log_{r-1}R_r(n)\asymp_rn$ asks for constants
@@ -51,10 +51,10 @@ for $R_r(n)$ to lie between two towers of $r-1$ exponentiations above a linear
 function of $n$ (for $r=3$, between $2^{2^{c_3n}}$ and $2^{2^{C_3n}}$). The
 upper half is a theorem of Erdős and Rado (1952), so the problem is the lower
 half: a tower of height $r-1$ as a lower bound. The case $r=3$ is
-[[problems/ramsey_theory/E0564/_index|Problem 564]], which the site files as a
-special case of this one. This page counts tower height as the number of
-exponentiations above the top term, as the site's picture does; [EHR65] counts
-"factors", one more than that, and the recent literature writes
+[[problems/ramsey_theory/E0564/_index|Problem 564]], which erdosproblems.com
+files as a special case of this one. This page counts tower height as the number
+of exponentiations above the top term, as erdosproblems.com's picture does;
+[EHR65] counts "factors", one more than that, and the recent literature writes
 $\mathrm{twr}_i$ with $\mathrm{twr}_1(x)=x$, so that the problem asks for
 $R_r(n)\ge\mathrm{twr}_r(c_rn)$.
 
@@ -69,14 +69,14 @@ with proofs omitted, $\mathrm{twr}_{r-1}(\tfrac12c^{r-3}b)$ for general $r$. So
 the lower side is known only at order $\log n$, against the conjectured order
 $n$. With four colors the matching lower bound is known ([BHS25] p. 1, crediting
 the Erdős--Hajnal stepping-up construction via Graham, Rothschild and Spencer).
-The site's Problem 564 commentary credits the 3-uniform case to Erdős, Hajnal,
-Máté and Rado 1984 (not held). A 2025 paper published in 2026 calls closing the
-two-color gap "a major open problem". This is a bounded negative finding, not a
-certificate of openness.
+erdosproblems.com's Problem 564 commentary credits the 3-uniform case to Erdős,
+Hajnal, Máté and Rado 1984 (not held). A 2025 paper published in 2026 calls
+closing the two-color gap "a major open problem". This is a bounded negative
+finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/562](https://www.erdosproblems.com/562),
-accessed 2026-09-17: the problem page (labeled OPEN, with the site's note
-that no finite computation can resolve it; source key [EHR65]; last edited
+accessed 2026-09-17: the problem page (labeled OPEN, with the erdosproblems.com
+note that no finite computation can resolve it; source key [EHR65]; last edited
 18 January 2026), its empty discussion thread and its empty proof-claim
 tab. Cite as: T. F. Bloom, Erdős Problem #562,
 https://www.erdosproblems.com/562, accessed 2026-09-17.
@@ -97,8 +97,8 @@ https://www.erdosproblems.com/562, accessed 2026-09-17.
   detailed proof", for the $r=3$ lower bound 16.4; not held; context.
 - [EHMR84] Erdős, P., Hajnal, A., Máté, A. and Rado, R., Combinatorial set
   theory: partition relations for cardinals. Studies in Logic and the
-  Foundations of Mathematics 106, North-Holland (1984). Credited by the
-  site's Problem 564 commentary with the four-color, 3-uniform
+  Foundations of Mathematics 106, North-Holland (1984). Credited by
+  erdosproblems.com's Problem 564 commentary with the four-color, 3-uniform
   double-exponential lower bound; [BHS25] does not cite it, crediting the
   general four-color bound to the Erdős--Hajnal stepping-up construction
   via Graham, Rothschild and Spencer. Not held.
@@ -134,18 +134,19 @@ https://www.erdosproblems.com/562, accessed 2026-09-17.
 of formal-conjectures declares `erdos_562 : answer(sorry) ↔ ∀ r ≥ 3, (fun n ↦
 log^[r - 1] (hypergraphRamsey r n)) =Θ[atTop] (fun n ↦ (n : ℝ))` under `category
 research open`, with proof `sorry`: the $(r-1)$-fold iterated natural logarithm
-of `hypergraphRamsey r n` is required to be $\Theta(n)$, which matches the
-site's $\asymp_r$ with constants depending on $r$. The community database
-(teorth/erdosproblems, accessed 2026-09-17) records the statement as formalized
-since 30 December 2025 and no formal proof. Nothing was built or checked here.
+of `hypergraphRamsey r n` is required to be $\Theta(n)$, which matches
+erdosproblems.com's $\asymp_r$ with constants depending on $r$. The community
+database (teorth/erdosproblems, accessed 2026-09-17) records the statement as
+formalized since 30 December 2025 and no formal proof. Nothing was built or
+checked here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
 above; status OPEN; last edited 18 January 2026. The commentary attributes
 the problem to Erdős, Hajnal and Rado [EHR65], files it as a generalization
 of [[problems/ramsey_theory/E0564/_index|Problem 564]], and lists it as
-number 38 of the Ramsey theory section of the site's graphs problem
+number 38 of the Ramsey theory section of erdosproblems.com's graphs problem
 collection. There are no comments and no proof claims. The community
 database record (accessed 2026-09-17) says open (last updated 31 August
 2025), statement formalized, no formal proof.
@@ -234,7 +235,7 @@ diagonal tower height.
 **Search scope.** The status rests on these routes;
 none found a proof, disproof or proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures file.
 - The primary sources, at the pages stated: [EHR65] printed pp. 107, 130,
   139--140; [BDHLW26] pp. 1--4 and 10; [BHS25] p. 1, through its result
@@ -259,7 +260,7 @@ Section 16, and the modern statements cited are introductions citing the 1965
 paper and a textbook; the four-color result is known here through [BHS25]
 p. 1, which credits the Erdős--Hajnal stepping-up construction via Graham,
 Rothschild and Spencer (a textbook not held), and, for the 3-uniform case,
-through the site's Problem 564 commentary crediting [EHMR84], not held.
+through erdosproblems.com's Problem 564 commentary crediting [EHMR84], not held.
 (2) The range of Lemma 6 is printed "for $r>4$" while the deduction uses
 it from $r=4$ on; recorded, not corrected. (3) There is no resolving proof
 to compile; no argument here is rewritten or independently reviewed. (4)

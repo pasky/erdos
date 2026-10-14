@@ -119,7 +119,7 @@ an n-element set with no three distinct members A_i ∪ A_j = A_l, display
 (69) f(n) = o(2^n), the report that Sárközy and Szemerédi proved (69) with
 f(n) < c 2^n/log log n, and "Perhaps f(n) < c 2^n/sqrt n, in fact perhaps
 f(n) = (1+o(1)) C(n, [n/2])" (p. 229); the problem's two displayed questions
-and the site's [Er65b] source
+and erdosproblems.com's [Er65b] source
 ([[number_theory/erdos_1965_recent_advances_current_problems_number_theory/display_69|display_69]]).
 [[../wiki/problems/additive_combinatorics/E0476/_index|#476]]: printed p. 230 (PDF p. 36,
 page image), conjecture (73): the sums of at most r distinct terms chosen
@@ -143,18 +143,19 @@ As far as I know it is not known whether there are infinitely many primes
 $p$ for which $[p\alpha]=q$." Reference [24] (printed pp. 240--241, text
 layer) is Turán, Acta Szeged 8 (1937) 226--235, with Erdős, ibid. 13 (1949)
 57--63, and Vinogradov, Izv. Akad. Nauk SSSR Ser. Mat. 12 (1948) 225--248;
-the site's [Er65b] key gives no page.
+erdosproblems.com's [Er65b] key gives no page.
 [[../wiki/problems/number_theory/E0981/_index|#981]]: printed p. 232 (PDF p. 38, page
 image), "Denote by $f(\epsilon,p)$ the smallest integer such that, for
 every $l\ge f(\epsilon,p)$ $\sum_{n=1}^{l}\bigl(\frac np\bigr)<\epsilon l$.
 I expect that (80)
 $\sum_{p<x}f(\epsilon,p)=(1+o(1))c_\epsilon\frac{x}{\log x}$, but I do not
-see how to attack (80)."; the eventual-time threshold of the site's statement;
-the site's key [Er65b, p. 232].
+see how to attack (80)."; the eventual-time threshold of the erdosproblems.com
+statement; the erdosproblems.com key [Er65b, p. 232].
 [[../wiki/problems/integer_sequences/E0968/_index|#968]]: printed p. 204 (PDF p.
 10, page image), with u_k = p_k/k: "We easily show that the density of the
 integers k for which u_k > u_{k+1} is positive. We cannot show that the same
-holds for the k for which u_k < u_{k+1}."; the site's source for that problem.
+holds for the k for which u_k < u_{k+1}."; the erdosproblems.com source for that
+problem.
 
 **Results.**
 

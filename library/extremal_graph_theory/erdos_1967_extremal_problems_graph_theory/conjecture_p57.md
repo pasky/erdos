@@ -34,9 +34,9 @@ $m=3$ and "line-disjoint" for $m=4$. The extremal example as printed is
 $K_1+nK_m$, which has $1+nm$ points; the graph with $1+n(m-1)$ points and
 $n\binom m2$ lines, one line short of the hypothesis, is $K_1+nK_{m-1}$,
 since $(m-1)+\binom{m-1}2=\binom m2$ (an arithmetic check made here), and the
-discussion thread of the site's problem page reads the print that way. In
-$K_1+nK_{m-1}$ two points of one block $K_m$ have $m-2$ common neighbors and
-one direct line, so at most $m-1$ internally disjoint and at most $m-1$
+discussion thread of the erdosproblems.com problem page reads the print that
+way. In $K_1+nK_{m-1}$ two points of one block $K_m$ have $m-2$ common neighbors
+and one direct line, so at most $m-1$ internally disjoint and at most $m-1$
 line-disjoint paths, and two points of different blocks are joined only
 through the common point (a check made here). The reference [1] is Bollobás
 and Erdős, Mat. Lapok 13 (1962) 143--152, filed as
@@ -47,8 +47,8 @@ $K_1+nK_{m-1}$ form at $m=4$. Bollobás's $m=4$ paper is not held.
 
 **Source.** P. Erdős, *Extremal problems in graph theory*, A Seminar on Graph
 Theory (1967), 54--59; copy pp. 3--4 of the Rényi archive's re-typeset copy
-(printed pp. 56--57 by the archive's page range; the site cites the passage
-as "p. 4"). The copy's text layer is unreadable; the passage was read on
+(printed pp. 56--57 by the archive's page range; erdosproblems.com cites the
+passage as "p. 4"). The copy's text layer is unreadable; the passage was read on
 the rendered page images. The edition read is identified in the
 [[extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/_index|source digest]].
 
@@ -72,8 +72,8 @@ $m=4$ credited to Bollobás.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the problem's
-  statement in the words of the site's key Er67b, the origin of the site's
-  wording (the site's discussion thread of 11 October 2025 corrected the
-  page's vertex count to $1+n(m-1)$ from this copy), and the printed
-  extremal example $K_1+nK_m$ against the site's "$n$ copies of $K_m$ which
-  share a single vertex".
+  statement in the words of the erdosproblems.com key Er67b, the origin of the
+  erdosproblems.com wording (the erdosproblems.com discussion thread of 11
+  October 2025 corrected the page's vertex count to $1+n(m-1)$ from this copy),
+  and the printed extremal example $K_1+nK_m$ against erdosproblems.com's "$n$
+  copies of $K_m$ which share a single vertex".

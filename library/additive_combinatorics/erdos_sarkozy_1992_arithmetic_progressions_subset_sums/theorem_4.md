@@ -60,7 +60,7 @@ $\varepsilon_a=2$ brings, and the bound $(3^n-1)/n$ it would give is
 false: $A=\{5,7,8\}$ has $\langle A\rangle=\{0,5,7,8,12,13,15,20\}$
 progression-free, so $g_3(3)\le8<26/3$ (checked here). These
 translations are filing derivations, not statements of the paper, which
-never writes $g_3$; the site's "$g_3(n)\gg3^n/n^{O(1)}$" is this bound
+never writes $g_3$; erdosproblems.com's "$g_3(n)\gg3^n/n^{O(1)}$" is this bound
 with the exponent left unspecified. Conversely $K(N)=\log N/\log3+O(1)$
 holds if and only if $g_3(n)\gg3^n$, so the paper's question of p. 252 is
 the displayed question of Problem 817, and its tentative equality
@@ -151,10 +151,10 @@ and the Erdős--Moser bound on sets with distinct subset sums (the paper's
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0817/_index|Problem 817]]: the source of the
-  site's "Erdős and Sárközy who proved $g_3(n)\gg3^n/n^{O(1)}$", stated in
-  the paper as the upper half of (7) on $K(N)$ and yielding
-  $g_3(n)\gg3^n/n$ by the translation above; the remark of p. 252 is the
-  paper's form of the displayed question $g_3(n)\gg3^n$, with the
+- [[../wiki/problems/additive_combinatorics/E0817/_index|Problem 817]]: the
+  source of erdosproblems.com's "Erdős and Sárközy who proved
+  $g_3(n)\gg3^n/n^{O(1)}$", stated in the paper as the upper half of (7) on
+  $K(N)$ and yielding $g_3(n)\gg3^n/n$ by the translation above; the remark of
+  p. 252 is the paper's form of the displayed question $g_3(n)\gg3^n$, with the
   tentative stronger guess $K(N)=[\log N/\log3]+2$. The lower half of (7)
   is the powers-of-three construction behind $g_3(n)\le3^{n-1}$.

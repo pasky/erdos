@@ -29,15 +29,15 @@ $$
 g(n) \leq \pi(n)+\pi(n^{1/2})+o\left(\frac{x^{1/2}}{\log n}\right)?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18T05:33Z (page last
-edited 6 April 2026). The little-$o$ term is printed with an $x$ that the
-statement does not define (the thread's one comment, of 15 May 2026, calls it
-a typo for $n^{1/2}/\log n$); $x=n$ is the only reading, and it is the
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18T05:33Z
+(page last edited 6 April 2026). The little-$o$ term is printed with an $x$ that
+the statement does not define (the thread's one comment, of 15 May 2026, calls
+it a typo for $n^{1/2}/\log n$); $x=n$ is the only reading, and it is the
 variable of Erdős's displays (6) and (7) in his 1969 paper, from which the
-site's formula is taken. The bound variable $n$ inside $\prod_{n\in S}n$ is
-the site's. The condition is that all $2^{|A|}$ subset products are distinct,
-the empty product included; the primes up to $n$ together with the squares of
-the primes up to $n^{1/2}$ have this property, so
+erdosproblems.com formula is taken. The bound variable $n$ inside
+$\prod_{n\in S}n$ is erdosproblems.com's. The condition is that all $2^{|A|}$
+subset products are distinct, the empty product included; the primes up to $n$
+together with the squares of the primes up to $n^{1/2}$ have this property, so
 $g(n)\ge\pi(n)+\pi(n^{1/2})$, and the question is whether that lower bound is
 sharp to within $o(n^{1/2}/\log n)$. Erdős proved
 $g(n)\le\pi(n)+cn^{1/2}/\log n$ in 1966, where he also called the sharp form
@@ -55,14 +55,15 @@ $g(n)\ge\pi(n)+\pi(n^{1/2})+\tfrac13\pi(n^{1/3})-O(1)$, which disproves Erdős's
 1980 expansion. The copy read is arXiv v2, of which no file is held. The journal
 text was not compared. Claim page:
 [[problems/integer_sequences/E0795/claims/2025_01_06_raghavan|Raghavan 2025]]
-(accepted: refereed, and credited by the site's curator, Thomas Bloom).
+(accepted: refereed, and credited by the erdosproblems.com curator, Thomas
+Bloom).
 
 **Source.** [erdosproblems.com/795](https://www.erdosproblems.com/795),
-accessed 2026-09-18T05:33Z: the problem page (labeled PROVED, with the site's
-note that the answer is yes; last edited 6 April 2026; source keys [Er65],
-[Er69], [Er70b], [Er80, p. 102]; commentary citing [Er66], [Ra25], [Er80] and
-Problems 1 and 786; an acknowledgment line naming two contributors), its
-one-comment discussion thread (15 May 2026) and its empty proof-claim tab.
+accessed 2026-09-18T05:33Z: the problem page (labeled PROVED, with the
+erdosproblems.com note that the answer is yes; last edited 6 April 2026; source
+keys [Er65], [Er69], [Er70b], [Er80, p. 102]; commentary citing [Er66], [Ra25],
+[Er80] and Problems 1 and 786; an acknowledgment line naming two contributors),
+its one-comment discussion thread (15 May 2026) and its empty proof-claim tab.
 Cite as: T. F. Bloom, Erdős Problem #795, https://www.erdosproblems.com/795,
 accessed 2026-09-18.
 
@@ -112,31 +113,31 @@ accessed 2026-09-18.
   A survey of combinatorial theory, North-Holland (1973), 117--138; printed
   p. 131 states the upper bound of [Er70b]'s (5), as
   $\max k\le\pi(x)+cx^{1/2}/\log x$ without the lower bound, and its
-  conjecture (6), introduced by "perhaps"; not a site key for this problem.
-  Library home:
+  conjecture (6), introduced by "perhaps"; not an erdosproblems.com key for this
+  problem. Library home:
   [[../library/additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/_index|erdos_1973_problems_results_combinatorial_number_theory]]
   (the card carries the passage as its row for this problem).
 
 **Formalization.** None: formal-conjectures had no `ErdosProblems/795.lean`
 on 18 September or 7 October 2026, and the community database records the
 problem as proved (last updated 31 August 2025), not formalized, with
-`formal_status` unformalized and no formal proof. The site's label carried
-no Lean suffix.
+`formal_status` unformalized and no formal proof. The erdosproblems.com label
+carried no Lean suffix.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18T05:33Z).** The statement above;
-PROVED, last edited 6 April 2026. The commentary, in this page's words: Erdős
-[Er66] proved the upper bound $\pi(n)+O(n^{1/2}/\log n)$ (the site prints the
-error with its undefined $x$), which would be essentially sharp because the
-primes together with the squares of primes qualify; Raghavan [Ra25] solved the
-problem with the upper bound $\pi(n)+\pi(n^{1/2})+O(n^{5/12+o(1)})$ and the
-lower bound $\pi(n)+\pi(n^{1/2})+\pi(n^{1/3})/3-O(1)$; Erdős's stronger
-conjecture of [Er80], that $g(n)$ equals the sum of $\pi(n^{1/k})$ over those
-$k$ at which the largest dissociated subset of $\{1,\ldots,k\}$ grows, is
-refuted by Raghavan's lower bound; and Problem 786 is related. The thread's
-one comment (15 May 2026) is the typo remark recorded under Formulation. The
-proof-claim tab is empty.
+**The question (erdosproblems.com formulation of 2026-09-18T05:33Z).** The
+statement above; PROVED, last edited 6 April 2026. The commentary, in this
+page's words: Erdős [Er66] proved the upper bound $\pi(n)+O(n^{1/2}/\log n)$
+(erdosproblems.com prints the error with its undefined $x$), which would be
+essentially sharp because the primes together with the squares of primes
+qualify; Raghavan [Ra25] solved the problem with the upper bound
+$\pi(n)+\pi(n^{1/2})+O(n^{5/12+o(1)})$ and the lower bound
+$\pi(n)+\pi(n^{1/2})+\pi(n^{1/3})/3-O(1)$; Erdős's stronger conjecture of
+[Er80], that $g(n)$ equals the sum of $\pi(n^{1/k})$ over those $k$ at which the
+largest dissociated subset of $\{1,\ldots,k\}$ grows, is refuted by Raghavan's
+lower bound; and Problem 786 is related. The thread's one comment (15 May 2026)
+is the typo remark recorded under Formulation. The proof-claim tab is empty.
 
 **The origins.** [Er65], printed p. 182, display (3): "Let
 $a_1<a_2<\dots<a_z\le n$ be a sequence of integers so that the products
@@ -171,23 +172,24 @@ $\max t_n=\pi(n)+\pi(n^{1/2})+\pi(n^{1/4})+\pi(n^{1/7})+\cdots$ "where in the
 sum (10) $\pi(n^{1/k})$ occurs if and only if $F(k)>F(k-1)$", $F(k)$ the largest
 $l$ such that some $1\le a_1<\dots<a_l\le k$ has all subset sums distinct, with
 (11) $\max t_n\ge\sum\pi(n^{1/a_k})$ "of course easy" and "We do not know at
-present if (10) is true." The site's attribution of the $O(n^{1/2}/\log n)$
-bound to [Er66] matches; the same bound and conjecture recur in [Er73], p. 131.
+present if (10) is true." The erdosproblems.com attribution of the
+$O(n^{1/2}/\log n)$ bound to [Er66] matches; the same bound and conjecture recur
+in [Er73], p. 131.
 
 **Status-defining source.**
 [[../library/integer_sequences/raghavan_2025_sharp_bounds_sets_distinct_subset_products/theorem_1_3|Theorem 1.3]]
 of [Ra25], p. 1 of arXiv v2:
 $f(N)=\pi(N)+\pi(N^{1/2})+O(N^{5/12})$, where $f(N)$ is the largest size
-of a subset of $[N]$ with distinct subset products, the site's $g$. The
+of a subset of $[N]$ with distinct subset products, erdosproblems.com's $g$. The
 paper introduces it as the affirmative answer to "Question 1.2 (Erdős
-#795). Is $f(N)=\pi(N)+\pi(N^{1/2})+o(\pi(N^{1/2}))$?" and cites the site.
-Since $N^{5/12}=o(N^{1/2}/\log N)$, the theorem gives the site's inequality
-with room to spare. The error term differs between the arXiv versions: v1
-(6 January 2025) proved the upper bound with the error $O(N^{5/12+o(1)})$,
-which already answers the question, and v2 (26 February 2026) sharpens it
-to $O(N^{5/12})$, its acknowledgment crediting Csaba Sándor with the
-observation that the argument gives the sharper term; the site's commentary
-prints the v1 form.
+#795). Is $f(N)=\pi(N)+\pi(N^{1/2})+o(\pi(N^{1/2}))$?" and cites erdosproblems.com.
+Since $N^{5/12}=o(N^{1/2}/\log N)$, the theorem gives erdosproblems.com's
+inequality with room to spare. The error term differs between the arXiv
+versions: v1 (6 January 2025) proved the upper bound with the error
+$O(N^{5/12+o(1)})$, which already answers the question, and v2 (26
+February 2026) sharpens it to $O(N^{5/12})$, its acknowledgment crediting Csaba
+Sándor with the observation that the argument gives the sharper term; the
+erdosproblems.com commentary prints the v1 form.
 [[../library/integer_sequences/raghavan_2025_sharp_bounds_sets_distinct_subset_products/theorem_1_4|Theorem 1.4]]
 (p. 2): $f(N)\ge\pi(N)+\pi(N^{1/2})+\tfrac13\pi(N^{1/3})-O(1)$, with the
 paper's account of Erdős's refinement of the primes-and-squares example
@@ -195,8 +197,8 @@ through the least maximal element $g(k)$ of a $k$-set with distinct subset
 sums, $f(N)\ge\sum_k\pi(N^{1/g(k)})=\pi(N)+\pi(N^{1/2})+\pi(N^{1/4})+\pi(N^{1/7})+\cdots$,
 "and speculated that the above infinite sum may be best possible"; since
 $\tfrac13\pi(N^{1/3})$ exceeds the tail $\pi(N^{1/4})+\pi(N^{1/7})+\cdots$
-for large $N$, the 1980 conjecture (10) fails, as the site says. Theorems
-1.5 and 1.6 (p. 2) give the squarefree analog
+for large $N$, the 1980 conjecture (10) fails, as erdosproblems.com says.
+Theorems 1.5 and 1.6 (p. 2) give the squarefree analog
 $h(N)=\pi(N)+\tfrac12\pi(N^{1/2})+o(\pi(N^{1/2}))$, not this problem.
 Acceptance evidence: the paper appeared in Acta Mathematica Hungarica, a
 refereed journal (Crossref record: volume 177, issue 2, pages 363--377,
@@ -213,7 +215,7 @@ the strategy paragraph of Section 1.1; Sections 2--4 prove Theorems 1.3 and
 dispute of Raghavan's theorems, no sharper second-order result and no
 determination of the exact lower-order term.
 
-- The site: problem page, discussion thread and proof-claim tab on that
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on that
   date; the formal-conjectures directory listing and full tree (no file for
   this problem); the community database as read on 2026-09-18.
 - arXiv: the abstract page and API record of 2501.02695 (v1 6 January
@@ -235,8 +237,8 @@ statement with a proof pointer (Theorem 2.7 and Sections 2--4); its proof was
 not checked, and the journal text was not compared with the arXiv v2 read.
 (2) The exact lower-order term of $g(n)$ beyond $\pi(n)+\pi(n^{1/2})$ is
 open: between $\tfrac13\pi(n^{1/3})-O(1)$ and $O(n^{5/12})$; the 1980
-expansion is disproved. (3) The site's undefined $x$ is recorded above as a
-wording note.
+expansion is disproved. (3) erdosproblems.com's undefined $x$ is recorded above
+as a wording note.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

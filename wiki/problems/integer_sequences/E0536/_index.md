@@ -33,28 +33,27 @@ where $[a,b]$ denotes the least common multiple.
 
 Estimate $f(N)$ - in particular, is it true that $f(N)=o(N)$?
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 29 April
-2026). Three distinct integers with equal
-pairwise least common multiples are called an lcm triangle in the site's
-thread; Erdős's own wordings ("three $a$'s" of a strictly increasing
-sequence in 1964 and 1973, "three $a_i$" in 1991) make the three distinct,
-and the thread notes (19 August 2025) that allowing two of them to coincide
-would instead ask for primitive sets. Erdős asked the question in its
-density form: does every set of $l\ge\alpha n$ integers up to $n$, $n$
-large, contain such a triple; this is $f(N)=o(N)$, and the site adds the
-estimate. In [Er70] the function is $F(3,x)$, the case $k=3$ of $F(k,x)$,
-the largest number of integers up to $x$ no $k$ of which have pairwise the
-same least common multiple. The formal-conjectures file encodes the density
-form only.
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited
+29 April 2026). Three distinct integers with equal pairwise least common
+multiples are called an lcm triangle in the erdosproblems.com thread; Erdős's
+own wordings ("three $a$'s" of a strictly increasing sequence in 1964 and 1973,
+"three $a_i$" in 1991) make the three distinct, and the thread notes (19
+August 2025) that allowing two of them to coincide would instead ask for
+primitive sets. Erdős asked the question in its density form: does every set of
+$l\ge\alpha n$ integers up to $n$, $n$ large, contain such a triple; this is
+$f(N)=o(N)$, and erdosproblems.com adds the estimate. In [Er70] the function is
+$F(3,x)$, the case $k=3$ of $F(k,x)$, the largest number of integers up to $x$
+no $k$ of which have pairwise the same least common multiple. The
+formal-conjectures file encodes the density form only.
 
-**Status.** The site's label was Open (page last edited 29 April 2026,
-proof-claims tab, accessed 2026-10-06). No proof or disproof of $f(N)=o(N)$
-accepted by the site or by a refereed venue was found in the search whose scope
-the Current assessment records. This is a bounded negative finding, not a
-certificate of openness. Wang's manuscript of July 2026, hosted on GitHub and
-submitted to the site's proof-claim tab, claims $f(N)=o(N)$. The site's curator
-relabeled it a partial claim because it does not estimate $f(N)$. That claim is
-recorded on
+**Status.** The erdosproblems.com label was Open (page last edited 29 April
+2026, proof-claims tab, accessed 2026-10-06). No proof or disproof of
+$f(N)=o(N)$ accepted by erdosproblems.com or by a refereed venue was found in
+the search whose scope the Current assessment records. This is a bounded
+negative finding, not a certificate of openness. Wang's manuscript of July 2026,
+hosted on GitHub and submitted to the erdosproblems.com proof-claim tab, claims
+$f(N)=o(N)$. The erdosproblems.com curator relabeled it a partial claim because
+it does not estimate $f(N)$. That claim is recorded on
 [[problems/integer_sequences/E0536/claims/2026_07_14_wang|its claim page]],
 pending and unreviewed. A partial claim of a problem that lists no parts derives
 no standing, so the frontmatter stays open.
@@ -65,9 +64,9 @@ bound $f(N)>(1-\varepsilon)N\log\log N/\log N$
 Their accepted bound is partial. Erdős proved in 1970 that the four-element
 analog fails, $F(4,x)>cx$. A forum lower bound
 $(\log\log N)^{\omega(N)}N/\log N$ with $\omega(N)\to\infty$ and a forum upper
-bound $(221/225+o(1))N$ were both accepted into the site's commentary. A chain
-of later forum upper bounds goes down to $(0.7845+o(1))N$ (September 2026).
-Among them is Saturnino's $(43/48+o(1))N$
+bound $(221/225+o(1))N$ were both accepted into the erdosproblems.com
+commentary. A chain of later forum upper bounds goes down to $(0.7845+o(1))N$
+(September 2026). Among them is Saturnino's $(43/48+o(1))N$
 ([[problems/integer_sequences/E0536/claims/2026_05_03_saturnino|its claim page]]).
 Two others come with Lean developments that their posters describe
 ([[problems/integer_sequences/E0536/claims/2026_06_22_kitamura|Kitamura]],
@@ -76,8 +75,8 @@ last bound in the chain has a Lean formalization of its reduction only. The
 forum bounds with claim pages are pending.
 
 **Source.** [erdosproblems.com/536](https://www.erdosproblems.com/536),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can settle it; last edited 29 April 2026; source keys
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; last edited 29 April 2026; source keys
 [Er64, p. 646], [Er70, p. 124], [Er73, p. 124];
 commentary citing [Er62], [AbGa67], the 1991 problem session and Problems
 535, 537, 856 and 857; an acknowledgment of Desmond Weisenberg), its
@@ -89,7 +88,7 @@ Erdős Problem #536, https://www.erdosproblems.com/536, accessed 2026-09-18.
 
 - [Er64] Erdős, P., On a problem in elementary number theory and a
   combinatorial problem. Math. Comp. 18 (1964), no. 88, 644--646; the
-  closing paragraph, p. 646, the site's cited origin. Library home:
+  closing paragraph, p. 646, erdosproblems.com's cited origin. Library home:
   [[../library/integer_sequences/erdos_1964_problem_elementary_number_theory_combinatorial_problem/_index|erdos_1964_problem_elementary_number_theory_combinatorial_problem]];
   result page
   [[../library/integer_sequences/erdos_1964_problem_elementary_number_theory_combinatorial_problem/question_p646|question_p646]].
@@ -108,10 +107,10 @@ Erdős Problem #536, https://www.erdosproblems.com/536, accessed 2026-09-18.
   [[../library/additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/_index|erdos_1973_problems_results_combinatorial_number_theory]]
   (the card carries its row for this problem).
 - [Er62] Erdős, P., Számelméleti megjegyzések IV. Extremális problémák a
-  számelméletben, I. Mat. Lapok 13 (1962), 228--255. The site's commentary
-  cites it for the four-element result; problem 14 there (pp. 236--238) is
-  the greatest-common-divisor problem and no least-common-multiple triple
-  appears in the paper (see below). Library home:
+  számelméletben, I. Mat. Lapok 13 (1962), 228--255. The erdosproblems.com
+  commentary cites it for the four-element result; problem 14 there (pp.
+  236--238) is the greatest-common-divisor problem and no least-common-multiple
+  triple appears in the paper (see below). Library home:
   [[../library/integer_sequences/erdos_1962_szamelmeleti_megjegyzesek_iv/_index|erdos_1962_szamelmeleti_megjegyzesek_iv]];
   result page
   [[../library/integer_sequences/erdos_1962_szamelmeleti_megjegyzesek_iv/problem_14|problem_14]].
@@ -126,7 +125,7 @@ Erdős Problem #536, https://www.erdosproblems.com/536, accessed 2026-09-18.
   Richard K. Guy, "for mailing prior to 1992 (Corvallis) meeting"; problem
   91:01, PDF p. 9 of the 18-page image-only scan at
   https://westcoastnumbertheory.org/wp-content/uploads/2018/02/wcnt-problems-1991.pdf
-  (the site's link, 13,746,604 bytes). Library home:
+  (the erdosproblems.com link, 13,746,604 bytes). Library home:
   [[../library/number_theory/guy_1991_western_number_theory_problems/_index|guy_1991_western_number_theory_problems]]
   (the card carries the row for this problem).
 - [Wa26] Wang, S., A Proposed Complete Solution to Erdős Problem 536.
@@ -144,33 +143,33 @@ of formal-conjectures at the commit that was main on 2026-09-18 declares
 `erdos_536 : answer(sorry) ↔ ∀ᵉ (ε > (0: ℝ)), ∀ᶠ N in atTop, ∀ (A : Finset ℕ), A
 ⊆ Icc 1 N → (ε * (N : ℝ)) ≤ (A.card : ℝ) → ∃ᵉ (a ∈ A) (b ∈ A) (c ∈ A), # {a, b,
 c} = 3 ∧ a.lcm b = b.lcm c ∧ b.lcm c = a.lcm c` under `category research open`,
-with proof `sorry` and a comment that the statements from the site's additional
-material remain to be added; no `formal_proof` attribute. This is the density
-form of the question. The community database, read 2026-09-18, lists the problem
-open as of its last update on 31 August 2025, the statement formalized since
-12 November 2025 and no formal proof. The site's page marks the statement as
-formalized. Nothing was built.
+with proof `sorry` and a comment that the statements from erdosproblems.com's
+additional material remain to be added; no `formal_proof` attribute. This is the
+density form of the question. The community database, read 2026-09-18, lists the
+problem open as of its last update on 31 August 2025, the statement formalized
+since 12 November 2025 and no formal proof. The erdosproblems.com page marks the
+statement as formalized. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; OPEN;
-last edited 29 April 2026. The commentary, in this page's words: with four
-elements in place of three the extremal size is of order $N$, a result the site
-credits to Erdős [Er62] and whose proof it locates in [Er70]; Erdős raised the
-question again at the 1991 West Coast Number Theory problem session; the lower
-bound $(1-o(1))N\log\log N/\log N$ is Abbott and Gardner's [AbGa67];
-Weisenberg's comments sketch the improvement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN; last edited 29 April 2026. The commentary, in this page's words:
+with four elements in place of three the extremal size is of order $N$, a result
+erdosproblems.com credits to Erdős [Er62] and whose proof it locates in [Er70];
+Erdős raised the question again at the 1991 West Coast Number Theory problem
+session; the lower bound $(1-o(1))N\log\log N/\log N$ is Abbott and Gardner's
+[AbGa67]; Weisenberg's comments sketch the improvement
 $f(N)\gg(\log\log N)^{\omega(N)}N/\log N$ for some $\omega(N)\to\infty$ and the
 upper bound $f(N)\le(221/225+o(1))N$; Problems 535, 537 and 856 are related, and
 Problem 857 is the combinatorial analog. The thread, oldest first: 19 August
 2025 (the account DesmondWeisenberg), the distinctness remark and the
-lower-bound construction below (the site was updated); 7 December 2025 (the
-account TerenceTao), a suggestion that the probabilistic method of Tao's paper
-on Problem 121 may give the density-near-one case through triangles
+lower-bound construction below (erdosproblems.com was updated); 7 December 2025
+(the account TerenceTao), a suggestion that the probabilistic method of Tao's
+paper on Problem 121 may give the density-near-one case through triangles
 $n_0n_{12}n_{13}$, $n_0n_{12}n_{23}$, $n_0n_{13}n_{23}$; 21 December 2025
 (DesmondWeisenberg), the page locators [Er70, p. 124] and [Er73, p. 124] and the
-upper bound $(221/225+o(1))N$ below (the site was updated); 3 May 2026, a
-packing improvement to $(43/48+o(1))N$ with the remark that pairwise disjoint
+upper bound $(221/225+o(1))N$ below (erdosproblems.com was updated); 3 May 2026,
+a packing improvement to $(43/48+o(1))N$ with the remark that pairwise disjoint
 forbidden triples cannot push an upper bound below $2N/3$, and a reader's
 routine-check comment the same day; 8 May 2026, further packings giving
 $\approx0.88302N$ (integer program) and $\approx0.877849N$ (linear program,
@@ -207,10 +206,10 @@ pairwise the same least common multiple?", followed by Pomerance's question
 whether three $a_i$ can be found whose pairwise least common multiples have the
 same prime factors, and by "a related combinatorial problem": the least $t_n$
 such that any $t_n$ subsets of an $n$-set contain three with pairwise the same
-union (the site's Problem 857). The site's citation of [Er62] for the
-four-element result does not match the paper: problem 14 there (printed pp.
-236--238) is the greatest-common-divisor problem of Problem 535 and problem 15
-(p. 238) the pairwise-lcm-at-most-$n$ problem of Problem 441; no
+union (erdosproblems.com's Problem 857). The erdosproblems.com citation of
+[Er62] for the four-element result does not match the paper: problem 14 there
+(printed pp. 236--238) is the greatest-common-divisor problem of Problem 535 and
+problem 15 (p. 238) the pairwise-lcm-at-most-$n$ problem of Problem 441; no
 least-common-multiple triple or quadruple appears in the paper, and [Er70]
 itself calls the $k\ge4$ result recent while [Er73] cites [Er70] for it. This is
 recorded as a discrepancy in the commentary's attribution; it does not affect
@@ -250,7 +249,7 @@ same least common multiple (the paper's claim, "easy to verify"), and their
 number exceeds
 $(1-\varepsilon/2)(n/\log n)\sum_{i\le l}1/P_i-l^2>(1-\varepsilon)(n/\log n)\log\log n$.
 The paper introduces the problem as raised by Erdős in [Er64] and says "we do
-not settle this question here". The site's display
+not settle this question here". The erdosproblems.com display
 $(1-o(1))(\log\log N)N/\log N$ is this bound. Its claim page is
 [[problems/integer_sequences/E0536/claims/1966_11_17_abbott_gardner|Abbott and Gardner's bound]].
 The thread's construction of 19 August 2025, accepted into the commentary: for
@@ -333,35 +332,36 @@ and the Ellenberg–Gijswijt cap-set bound (Propositions 2.2 and 2.3), a compani
 exact-arithmetic verifier for the finite checks (Appendix A), and the proof
 completed in Section 8 (p. 32). The finite-prime envelope (Proposition 3.1, pp.
 3--4) is the elementary reduction of the forum's 7 September 2026 comment, which
-treats it as agreeing with its own computation. Acceptance: none. The site's
-label was OPEN and its commentary, last edited before the claim, does not
-mention it; the tab warns that an entry there is no guarantee of correctness and
-that nobody connected with the site need have examined it; no arXiv version,
-refereed publication, independent review or written dispute was found (search
-scope below). The tab's four comments, accessed 2026-10-06: a reader's remark of
-14 July 2026 that the manuscript answers only the second part of the question
-and leaves the estimate of $f(N)$ open; the author's reply the same day that
-they had taken $f(N)=o(N)$ for the whole problem, that the draft does not
-determine the order of magnitude of $f(N)$, and that they would withdraw the
-submission; the curator's answer that the entry need not be deleted and is
-relabeled a partial proof, the choice of main question being a matter of taste;
-and the author's note of 27 July 2026 adding a Lean directory to the repository
-(not built by the corpus). Provenance, recorded not judged: the tab's submission
-declares that the claim was produced using an AI model (GPT-5.6 Sol); the
-manuscript carries no statement about AI use; its title page gives the author's
-two affiliations, Columbia University and Multiscalar Intelligence; the
-repository holds the manuscript's source, a Lean directory and the verifier (at
-the head commit of 2 August 2026; nothing built or run). Read depth: Lemma 2.1
-with its proof; the statements of Theorem 1.1 and Propositions 2.2, 2.3 and 3.1;
-Sections 4--8 are outside this page's basis, and nothing is independently
-reviewed. The thread comment of 7 December 2025 that the probabilistic method
-may settle the density-near-one case is a remark without an argument.
+treats it as agreeing with its own computation. Acceptance: none. The
+erdosproblems.com label was OPEN and its commentary, last edited before the
+claim, does not mention it; the tab warns that an entry there is no guarantee of
+correctness and that nobody connected with erdosproblems.com need have examined
+it; no arXiv version, refereed publication, independent review or written
+dispute was found (search scope below). The tab's four comments, accessed
+2026-10-06: a reader's remark of 14 July 2026 that the manuscript answers only
+the second part of the question and leaves the estimate of $f(N)$ open; the
+author's reply the same day that they had taken $f(N)=o(N)$ for the whole
+problem, that the draft does not determine the order of magnitude of $f(N)$, and
+that they would withdraw the submission; the curator's answer that the entry
+need not be deleted and is relabeled a partial proof, the choice of main
+question being a matter of taste; and the author's note of 27 July 2026 adding a
+Lean directory to the repository (not built by the corpus). Provenance, recorded
+not judged: the tab's submission declares that the claim was produced using an
+AI model (GPT-5.6 Sol); the manuscript carries no statement about AI use; its
+title page gives the author's two affiliations, Columbia University and
+Multiscalar Intelligence; the repository holds the manuscript's source, a Lean
+directory and the verifier (at the head commit of 2 August 2026; nothing built
+or run). Read depth: Lemma 2.1 with its proof; the statements of Theorem 1.1 and
+Propositions 2.2, 2.3 and 3.1; Sections 4--8 are outside this page's basis, and
+nothing is independently reviewed. The thread comment of 7 December 2025 that
+the probabilistic method may settle the density-near-one case is a remark
+without an argument.
 
 **Search scope.** None of the routes below found a
 refereed proof or disproof of $f(N)=o(N)$, an acceptance of the manuscript,
 or a published bound beyond those above.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database, read
   2026-09-18.
 - arXiv: the API queries `abs:"least common multiple" AND abs:Erdos AND
@@ -388,12 +388,12 @@ $\Gamma$-free matrices cited in the thread.
 refereed version or an independent whole-argument review is the reopening
 condition for its claim page's standing, and even accepted it would settle the
 density question, not the estimate. (2) The forum bounds from $5/6$ down to
-$0.7845$ rest on comments and unbuilt repositories; the site's commentary still
-names $221/225$. (3) The commentary's [Er62] citation for the four-element
-result was not confirmed in the paper (above). (4) The [Er73] passage is quoted
-with its locator, and that card carries its Bears-on row for this problem. (5)
-Proof coverage is at statement level throughout; Theorem 1 of [Er70] is compiled
-with a proof pointer only.
+$0.7845$ rest on comments and unbuilt repositories; the erdosproblems.com
+commentary still names $221/225$. (3) The commentary's [Er62] citation for the
+four-element result was not confirmed in the paper (above). (4) The [Er73]
+passage is quoted with its locator, and that card carries its Bears-on row for
+this problem. (5) Proof coverage is at statement level throughout; Theorem 1 of
+[Er70] is compiled with a proof pointer only.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

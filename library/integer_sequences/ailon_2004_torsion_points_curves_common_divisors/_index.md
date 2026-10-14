@@ -65,7 +65,7 @@ line; the publisher's record offers the PDF "Free download under CC-BY license",
 a Creative Commons Attribution license with no version or URL named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/113/1/83111/torsion-points-on-curves-and-common-divisors-of-a-k-1-and-b-k-1,
 read 2026-10-02); the site footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the article.
+reserved." speaks for erdosproblems.com, not the article.
 
 No separate earlier manuscript or Ailon's 2001 M.Sc. thesis is retained
 here. In particular, the footnote to Proposition 4 says that the published

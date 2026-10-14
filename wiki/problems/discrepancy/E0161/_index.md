@@ -34,12 +34,12 @@ X\rvert}{t}$ many $t$-subsets of $X$ of each colour.
 For fixed $n,t$ as we change $\alpha$ from $0$ to $1/2$ does $F^{(t)}(n,\alpha)$
 increase continuously or are there jumps? Only one jump?
 
-**Formulation.** The site's wording as accessed on 2026-09-04, which the site
-corrected on 16 January 2026 from "largest $m$" to "smallest $m$" after a
-thread comment, is read as Erdős's source reads it (1990, printed pp.
-21--22), because two of its phrases conflict with the site's own commentary.
-Its "at least $\alpha\binom{|X|}{t}$" makes the case $\alpha=0$ vacuous,
-while the commentary calls that case the usual Ramsey function; Erdős
+**Formulation.** The erdosproblems.com wording as accessed on 2026-09-04, which
+erdosproblems.com corrected on 16 January 2026 from "largest $m$" to "smallest
+$m$" after a thread comment, is read as Erdős's source reads it (1990, printed
+pp. 21--22), because two of its phrases conflict with erdosproblems.com's own
+commentary. Its "at least $\alpha\binom{|X|}{t}$" makes the case $\alpha=0$
+vacuous, while the commentary calls that case the usual Ramsey function; Erdős
 requires more than that many $t$-subsets of each color, so $F^{(t)}(n,0)$ is
 the least $m$ for which some coloring has no monochromatic set of $m$
 vertices, the inverse of the two-color $t$-uniform Ramsey function.
@@ -49,8 +49,8 @@ changes as $\alpha$ runs through $[0,1/2)$; for a single $n$ the function is
 integer-valued and nondecreasing in $\alpha$, so it cannot change continuously,
 and the fixed-$n$ reading is degenerate.
 
-**Status.** Open, the site's label (page last edited 16 January 2026). The one
-claim is Conlon, Fox and Sudakov's accepted partial claim [CFS11]
+**Status.** Open, the erdosproblems.com label (page last edited 16 January
+2026). The one claim is Conlon, Fox and Sudakov's accepted partial claim [CFS11]
 ([[problems/discrepancy/E0161/claims/2009_01_25_conlon_fox_sudakov|claim
 page]]). Its result is that for $t=3$ the order of growth of $F^{(3)}(n,\alpha)$
 is $\sqrt{\log n}$ for every fixed $\alpha\in(0,1/2)$. So no jump occurs inside
@@ -90,17 +90,17 @@ proof exists.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** The statement above, read
-as the Formulation says; OPEN, with a prize; page last edited 16
-January 2026. The site's commentary says that $\alpha=0$ gives the usual
-Ramsey function, that the Erdős--Hajnal--Rado conjecture would give
+**The question (erdosproblems.com formulation of 2026-09-04).** The statement
+above, read as the Formulation says; OPEN, with a prize; page last edited 16
+January 2026. The erdosproblems.com commentary says that $\alpha=0$ gives the
+usual Ramsey function, that the Erdős--Hajnal--Rado conjecture would give
 $F^{(t)}(n,0)\asymp\log_{t-1}n$, credits Erdős and Spencer with a bound of
 order $(\log n)^{1/(t-1)}$ for $\alpha>0$, and credits [CFS11] with the case
 $t=3$, where it says there is only one jump, at $\alpha=0$. The commentary
 prints the two inequalities reversed, $\ll$ for [CFS11] and $\gg$ for Erdős
 and Spencer: the paper's theorem is a lower bound and the random coloring is
-the upper bound, as Erdős's display (31) also has it. The site's thread holds
-three comments: the correction of 16 January 2026 recorded under
+the upper bound, as Erdős's display (31) also has it. The erdosproblems.com
+thread holds three comments: the correction of 16 January 2026 recorded under
 Formulation, acknowledged by the curator the same day, and a comment of 18
 October 2025 relating the problem to a hypergraph form of the Nikiforov
 conjecture. The proof-claim tab is empty.
@@ -119,12 +119,12 @@ $(0,1/2)$; that is the accepted partial claim on
 Conlon--Fox--Sudakov page]]. Whether $F^{(3)}(n,0)$ is of smaller order is
 open: it inverts the two-color $3$-uniform Ramsey function, known only
 between $2^{ck^2}$ and $2^{2^{ck}}$ (display (15) of [Er90b]), so it lies
-between order $\log\log n$ and order $\sqrt{\log n}$, and the site's "only
-one jump" for $t=3$ claims more than the sources prove. For general $t$,
+between order $\log\log n$ and order $\sqrt{\log n}$, and erdosproblems.com's
+"only one jump" for $t=3$ claims more than the sources prove. For general $t$,
 Theorem 6.2 of [CFS10] gives $F^{(t)}(n,\alpha)>c(\log n)^{\epsilon}$ for
 every fixed $\alpha>0$, with $\epsilon=\epsilon(t,\alpha)>0$ (p. 17 of the
-preprint; the site's unkeyed remark). That paper states the bound, not the
-jump, so it has no claim page. An observation made here: the stepping-up
+preprint; erdosproblems.com's unkeyed remark). That paper states the bound, not
+the jump, so it has no claim page. An observation made here: the stepping-up
 lower bound $r_t(k)>\exp_{t-2}(ck)$ (display (16) of [Er90b]) gives
 $F^{(t)}(n,0)\ll\log_{t-2}n$, which for every $t\ge4$ is of smaller order
 than $(\log n)^{\epsilon}$, so for $t\ge4$ the order of growth jumps between
@@ -133,9 +133,10 @@ it is not recorded as a claim. Whether further jumps occur inside $(0,1/2)$
 for $t\ge4$ is open: there the order is known only between
 $(\log n)^{\epsilon}$ and, for $\alpha$ near $1/2$, $(\log n)^{1/(t-1)}$.
 
-**Scope.** The search covered the site's page and thread, Erdős's chapter
-[Er90b] and the two Conlon--Fox--Sudakov papers; a later result on the jump at
-$0$ for $t=3$ or on the range $(0,1/2)$ for $t\ge4$ may exist unrecorded.
+**Scope.** The search covered the erdosproblems.com page and thread, Erdős's
+chapter [Er90b] and the two Conlon--Fox--Sudakov papers; a later result on the
+jump at $0$ for $t=3$ or on the range $(0,1/2)$ for $t\ge4$ may exist
+unrecorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -96,9 +96,9 @@ point; otherwise self-contained.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0867/_index|Problem 867]]: the site's lower
-  bound $\tfrac{13}{24}N-O(1)\le|A|$, and a refereed disproof of the
-  problem's $|A|\le N/2+O(1)$ in its own right, since
+- [[../wiki/problems/additive_combinatorics/E0867/_index|Problem 867]]:
+  erdosproblems.com's lower bound $\tfrac{13}{24}N-O(1)\le|A|$, and a refereed
+  disproof of the problem's $|A|\le N/2+O(1)$ in its own right, since
   $13n/24-O(1)-n/2=n/24-O(1)$ is unbounded; the formal-conjectures variant
   `coppersmith_phillips_lower_bound` states it with an existentially
   quantified constant $C$ in place of the $O(1)$.

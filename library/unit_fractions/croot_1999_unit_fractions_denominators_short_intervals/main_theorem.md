@@ -108,12 +108,12 @@ $(e-1+o(1))N$ terms, since its denominators are distinct integers of the
 interval. So for every $k$ that occurs in this way, the largest possible
 smallest denominator satisfies $f(k)\ge x_1>N\ge(1-o(1))k/(e-1)$ (the
 question of Problem 284), and the denominators lie in an interval of width
-below $(e-1+o(1))N<(e-1+o(1))k$ (the question of Problem 286 in the site's
-wording); the set of such $k$ is infinite because $k>N$. The theorem's
-statement does not say which $k$ occur, and the published introduction
+below $(e-1+o(1))N<(e-1+o(1))k$ (the question of Problem 286 in the
+erdosproblems.com wording); the set of such $k$ is infinite because $k>N$. The
+theorem's statement does not say which $k$ occur, and the published introduction
 claims the two questions "for infinitely many $k$" only. These two
 deductions are written here for the problem pages; they are not in the
-paper. For Problem 319 the site's commentary applies the theorem at
+paper. For Problem 319 the erdosproblems.com commentary applies the theorem at
 $N'=(1/e-o(1))N$ to obtain a set $B\subseteq(N',N]$ with reciprocal sum
 $1$, so that $A=B\cup\{1\}$ with the sign $+1$ on $1$ and $-1$ on $B$ has
 signed reciprocal sum $0$; that construction is recorded on the problem
@@ -133,12 +133,12 @@ Sections V--VI; Bertrand's postulate (Section IV).
   the published introduction (p. 100) claims the question "for infinitely
   many $k$", not for every $k$.
 - [[../wiki/problems/unit_fractions/E0286/_index|Problem 286]]: the same representations
-  answer the site's width question, with the constant $e-1$, for the same
-  infinitely many $k$; the paper's own form of the question has width
+  answer erdosproblems.com's width question, with the constant $e-1$, for the
+  same infinitely many $k$; the paper's own form of the question has width
   $\sim k$.
 - [[../wiki/problems/unit_fractions/E0295/_index|Problem 295]]: adjacent result on the
   interval containing the denominators; the upper bound
   $k(N)-(e-1)N=O(N\log\log N/\log N)$ it implies is weaker than the
   Erdős–Straus $O(N/\log N)$, and it says nothing on the divergence.
 - [[../wiki/problems/unit_fractions/E0319/_index|Problem 319]]: the source of the lower
-  bound $(1-1/e+o(1))N$ in the site's commentary.
+  bound $(1-1/e+o(1))N$ in the erdosproblems.com commentary.

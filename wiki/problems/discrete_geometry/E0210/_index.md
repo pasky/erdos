@@ -30,14 +30,15 @@ For any $n$ points in $\mathbb{R}^2$, not all on a line, there must be at least
 $f(n)$ many lines which contain exactly 2 points (called 'ordinary lines'). Does
 $f(n)\to \infty$? How fast?
 
-**Notes.** The site writes "minimal". Read as the site words it, every $f$ up to
-the least number of ordinary lines has the stated property, so the minimal such
-$f$ is $0$ and the first question fails trivially. The site's commentary means
-the least number of ordinary lines spanned by $n$ points in the plane, not all
-on a line: it calls $f(n)\ge1$ the Sylvester-Gallai theorem and credits Motzkin,
-Kelly and Moser, Csima and Sawyer, and Green and Tao with lower bounds for that
-quantity. That quantity is the largest $f$ with the property, so the only change
-is "minimal" to "maximal". The claim pages are scoped against this Statement.
+**Notes.** erdosproblems.com writes "minimal". Read as Bloom's catalog words it,
+every $f$ up to the least number of ordinary lines has the stated property, so
+the minimal such $f$ is $0$ and the first question fails trivially. The
+erdosproblems.com commentary means the least number of ordinary lines spanned by
+$n$ points in the plane, not all on a line: it calls $f(n)\ge1$ the
+Sylvester-Gallai theorem and credits Motzkin, Kelly and Moser, Csima and Sawyer,
+and Green and Tao with lower bounds for that quantity. That quantity is the
+largest $f$ with the property, so the only change is "minimal" to "maximal". The
+claim pages are scoped against this Statement.
 
 **Status.** Proved.
 
@@ -78,16 +79,16 @@ prove $f(n)\ge 6n/13$ for $n\ge 8$.
 determine $f(n)$ exactly for all large $n$ (Theorem 2.2 of their paper):
 $f(n)=n/2$ for even $n$, attained by half the points equally spaced on a circle
 and half at infinity, and $f(n)=3\lfloor n/4\rfloor$ for odd $n$, attained by
-the Böröczky examples. The bound $n/2$ is the Dirac-Motzkin conjecture. The
-site says that Motzkin conjectured $n/2$ for $n\ge 13$; Green and Tao note
-that neither Dirac nor Motzkin seems to have conjectured it formally in print
-(Dirac twice calls it likely, and Motzkin does not seem to mention it), and the
-Crowe-McKee configuration of $13$ points with $6$ ordinary lines shows that the
-bound $n/2$ fails at $n=13$. An earlier claimed proof of the $n/2$ bound for
-large $n$, by Hansen, is recorded on the site as flawed. The frontmatter
-standing derives from the Green-Tao full claim; the three earlier claims are
-partial. All four results are refereed, and the site's curator credits each of
-them.
+the Böröczky examples. The bound $n/2$ is the Dirac-Motzkin conjecture.
+erdosproblems.com says that Motzkin conjectured $n/2$ for $n\ge 13$; Green and
+Tao note that neither Dirac nor Motzkin seems to have conjectured it formally in
+print (Dirac twice calls it likely, and Motzkin does not seem to mention it),
+and the Crowe-McKee configuration of $13$ points with $6$ ordinary lines shows
+that the bound $n/2$ fails at $n=13$. An earlier claimed proof of the $n/2$
+bound for large $n$, by Hansen, is recorded on erdosproblems.com as flawed. The
+frontmatter standing derives from the Green-Tao full claim; the three earlier
+claims are partial. All four results are refereed, and the erdosproblems.com
+curator credits each of them.
 
 The corpus holds no proof review of these results and does
 not hold the Motzkin and Csima-Sawyer papers. The exact value of $f(n)$ for

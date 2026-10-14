@@ -68,18 +68,18 @@ of the failed Fano configuration (each side and each bisector then carries one
 foot and two quarter-weight points, and each line through two feet is an
 ordinary line). Together these answer the question of when such weights exist:
 for exactly these configurations, and for no others. Theorem 1 proves the 1971
-conjecture of Murty that the site records, whose four cases (all points on a
-line; $n-1$ points on a line; no three on a line; the triangle with its angle
-bisectors and incenter) are the theorem's three kinds with the collinear family
-split in two. The proof reduces Theorem 1 to Theorem 2, a statement about two
-point sets whose union's ordinary lines are exactly the lines through two points
-of the first set, and uses the Sylvester–Gallai theorem, the Kelly–Moser bound
-on ordinary lines, and a dual argument on great circles of a sphere.
+conjecture of Murty that erdosproblems.com records, whose four cases (all points
+on a line; $n-1$ points on a line; no three on a line; the triangle with its
+angle bisectors and incenter) are the theorem's three kinds with the collinear
+family split in two. The proof reduces Theorem 1 to Theorem 2, a statement about
+two point sets whose union's ordinary lines are exactly the lines through two
+points of the first set, and uses the Sylvester–Gallai theorem, the Kelly–Moser
+bound on ordinary lines, and a dual argument on great circles of a sphere.
 
 **Acceptance.** The paper is refereed. It appeared in Discrete and Computational
-Geometry, volume 39 (2008), after the SCG '07 proceedings version. The site's
-curator, Thomas Bloom, labeled the problem solved and credits Ackerman, Buchin,
-Knauer, Pinchasi and Rote.
+Geometry, volume 39 (2008), after the SCG '07 proceedings version. The
+erdosproblems.com curator, Thomas Bloom, labeled the problem solved and credits
+Ackerman, Buchin, Knauer, Pinchasi and Rote.
 
 **Formalization.** Boris Alexeev's repository of Lean proofs of Erdős
 problems holds a file, linked above at a pinned commit, whose header declares

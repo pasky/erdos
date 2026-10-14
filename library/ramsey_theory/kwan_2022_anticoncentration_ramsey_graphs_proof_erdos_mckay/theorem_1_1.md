@@ -78,7 +78,8 @@ The two external results are premises at statement level.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0088/_index|Problem 88]]: the site's statement is the
-  Erdős--McKay conjecture with the hypothesis written as no independent set
-  or clique of size $\ge\varepsilon\log n$; the problem page writes out the
-  parameter transfer from this theorem, through footnote 2, to that form.
+- [[../wiki/problems/ramsey_theory/E0088/_index|Problem 88]]: the
+  erdosproblems.com statement is the Erdős--McKay conjecture with the hypothesis
+  written as no independent set or clique of size $\ge\varepsilon\log n$; the
+  problem page writes out the parameter transfer from this theorem, through
+  footnote 2, to that form.

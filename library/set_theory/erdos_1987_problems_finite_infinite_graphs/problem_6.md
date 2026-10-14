@@ -43,6 +43,6 @@ None.
   asks whether one function $F$ bounds, for all large $n$, the least size of an
   $n$-chromatic subgraph of every $\aleph_1$-chromatic graph. A yes answer to
   Problem 6 gives a no answer there: for a proposed $F$, take $f=F$; the graph
-  Problem 6 provides has $g(n)>F(n)$ for all large $n$. The site does not cite
-  this paper for the problem, and the paper records no result on either
+  Problem 6 provides has $g(n)>F(n)$ for all large $n$. erdosproblems.com does
+  not cite this paper for the problem, and the paper records no result on either
   question.

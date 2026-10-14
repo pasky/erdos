@@ -25,23 +25,22 @@ updated: 2026-10-08T14:06:00Z
 **Statement.** Is there some constant $C>0$ such that any graph on $n$ vertices
 with $\geq Cr^2n$ edges contains a subdivision of $K_r$?
 
-**Formulation.** The site's wording as accessed 2026-09-19 (the page shows
-no last-edited date). A subdivision of $K_r$ (a topological
-complete graph, Erdős's $K_{\mathrm{top}}(r)$) has $r$ branch vertices
-joined by internally vertex-disjoint paths; the question asks for one
-absolute constant $C$ that works for every $r$ and every $n$. Since a graph
-with $Cr^2n$ edges has average degree $2Cr^2$, the statement is the
-average-degree form "average degree at least $cr^2$ forces a topological
-$K_r$", or, inverted, "average degree $d$ forces a topological $K_{c'\sqrt d}$";
-the order $r^2$ cannot be lowered: as [BT98] records (p. 883), complete
-bipartite graphs (Jung) and almost every graph (Ajtai, Komlós and Szemerédi;
-also Erdős and Fajtlowicz, whose random graphs have $\sigma=\Theta(\sqrt n)$
-at average degree about $n/2$) show that $cr^2$ edges per vertex are
-necessary for some $c>0$. Erdős's own words are quoted under the Current
-assessment.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-19 (the page
+shows no last-edited date). A subdivision of $K_r$ (a topological complete
+graph, Erdős's $K_{\mathrm{top}}(r)$) has $r$ branch vertices joined by
+internally vertex-disjoint paths; the question asks for one absolute constant
+$C$ that works for every $r$ and every $n$. Since a graph with $Cr^2n$ edges has
+average degree $2Cr^2$, the statement is the average-degree form "average degree
+at least $cr^2$ forces a topological $K_r$", or, inverted, "average degree $d$
+forces a topological $K_{c'\sqrt d}$"; the order $r^2$ cannot be lowered: as
+[BT98] records (p. 883), complete bipartite graphs (Jung) and almost every graph
+(Ajtai, Komlós and Szemerédi; also Erdős and Fajtlowicz, whose random graphs
+have $\sigma=\Theta(\sqrt n)$ at average degree about $n/2$) show that $cr^2$
+edges per vertex are necessary for some $c>0$. Erdős's own words are quoted
+under the Current assessment.
 
-**Status.** Proved is the site's label, and the answer is yes. The two claim
-pages,
+**Status.** Proved is the erdosproblems.com label, and the answer is yes. The
+two claim pages,
 [[problems/extremal_graph_theory/E0718/claims/1996_09_01_bollobas_thomason|Bollobás and Thomason]]
 and
 [[problems/extremal_graph_theory/E0718/claims/1996_03_01_komlos_szemeredi|Komlós and Szemerédi]],
@@ -50,9 +49,9 @@ frontmatter standing is derived from them.
 
 The theorem is stated first-hand in Bollobás and Thomason's own proof paper
 [BT98] (European J. Combin. 19 (1998), 883--887; printed p. 886, PDF p. 4 of the
-publisher's open-archive PDF). This paper is not one of the two papers the site
-names: the site's key for their proof, BoTh96, is *Highly linked graphs*. It is
-paged at
+publisher's open-archive PDF). This paper is not one of the two papers
+erdosproblems.com names: the erdosproblems.com key for their proof, BoTh96, is
+*Highly linked graphs*. It is paged at
 [[../library/extremal_graph_theory/bollobas_thomason_1998_proof_conjecture_mader_erdos_hajnal_topological_complete_subgraphs/theorem_4|Theorem 4]]:
 "Let $p$ be a positive integer and let $G$ be a graph of size $256p^2|G|$. Then
 $G$ contains a topological subgraph of order $p$". Here $|G|$ is the order and
@@ -60,8 +59,8 @@ the size is the number of edges. A topological complete graph of order $p$ has
 $p$ vertices joined pairwise by vertex-disjoint paths (p. 883). The abstract
 states the theorem with "at least $256p^2|G|$" and calls the result the proof of
 "a conjecture made by Mader and by Erdös and Hajnal". With $p=r$ this is the
-site's statement with $C=256$. The other proof, Komlós and Szemerédi's [KoSz96],
-is not held in its own text.
+erdosproblems.com statement with $C=256$. The other proof, Komlós and
+Szemerédi's [KoSz96], is not held in its own text.
 
 The theorem is also quoted in a refereed paper.
 [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_3_1|Theorem 3.1]]
@@ -79,14 +78,14 @@ Mader's earlier bound is stated in the author's own text, Satz 2 of [Ma67]
 [[../library/extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|Satz 2]].
 It gives a subdivision of $K_r$ in every finite graph with $n$ vertices and at
 least $2^{\binom{r-1}2-1}(r-1)n$ edges. This constant is smaller than the
-$2^{\binom r2}$ with which Erdős's 1981 paper and the site quote the bound, so
-the quoted form follows from it. A site-versus-source item on the key BoTh96 is
-recorded below.
+$2^{\binom r2}$ with which Erdős's 1981 paper and erdosproblems.com quote the
+bound, so the quoted form follows from it. An erdosproblems.com-versus-source
+item on the key BoTh96 is recorded below.
 
 **Source.** [erdosproblems.com/718](https://www.erdosproblems.com/718),
 accessed 2026-09-19: the problem page (PROVED, glossed
-by the site as solved affirmatively; no last-edited date shown; source key
-[Er81]; commentary citing [Di60], [Ma67], [KoSz96] and [BoTh96]; no
+by erdosproblems.com as solved affirmatively; no last-edited date shown; source
+key [Er81]; commentary citing [Di60], [Ma67], [KoSz96] and [BoTh96]; no
 formalized statement), its empty discussion thread and its empty proof-claim
 tab.
 Cite as: T. F. Bloom, Erdős Problem #718, https://www.erdosproblems.com/718,
@@ -102,18 +101,19 @@ accessed 2026-09-19.
   open at the DOI). The publisher's open-archive PDF has 5 pages, printed
   pp. 883--887 ("Received 15 March 1997 and accepted 9 September 1997",
   p. 887). Printed p. 886 (PDF p. 4): Theorem 4, quoted under Status. The paper
-  [FLS13] cites for the theorem (its [5]); not a site key. Library home:
+  [FLS13] cites for the theorem (its [5]); not an erdosproblems.com key. Library
+  home:
   [[../library/extremal_graph_theory/bollobas_thomason_1998_proof_conjecture_mader_erdos_hajnal_topological_complete_subgraphs/_index|bollobas_thomason_1998_proof_conjecture_mader_erdos_hajnal_topological_complete_subgraphs]];
   paged at
   [[../library/extremal_graph_theory/bollobas_thomason_1998_proof_conjecture_mader_erdos_hajnal_topological_complete_subgraphs/theorem_4|theorem_4]].
 - [BoTh96] Bollobás, Béla and Thomason, Andrew, Highly linked graphs.
   Combinatorica 16 (1996), no. 3, 313--320, doi:10.1007/BF01261316
-  (September 1996; Crossref record accessed 2026-09-19). The site's key; not
-  held. [BT98] (p. 886)
-  names it, as its reference [3], as the paper where the stronger result
-  that "a graph $G$ of size $22k|G|$ contains a $k$-linked subgraph" would
-  appear, a result that "implies the truth of the conjecture with a constant
-  smaller than 256"; whether it also states the theorem was not checked.
+  (September 1996; Crossref record accessed 2026-09-19). The erdosproblems.com
+  key; not held. [BT98] (p. 886) names it, as its reference [3], as the paper
+  where the stronger result that "a graph $G$ of size $22k|G|$ contains a
+  $k$-linked subgraph" would appear, a result that "implies the truth of the
+  conjecture with a constant smaller than 256"; whether it also states the
+  theorem was not checked.
 - [KoSz96] Komlós, János and Szemerédi, Endre, Topological cliques in graphs.
   II. Combin. Probab. Comput. 5 (1996), no. 1, 79--90,
   doi:10.1017/S096354830000184X (March 1996; Crossref record accessed
@@ -154,8 +154,8 @@ accessed 2026-09-19.
   clique subdivisions, and the conjectures of Hajós and Erdős-Fajtlowicz.
   Combinatorica 33 (2013), no. 2, 181--197, doi:10.1007/s00493-013-2853-x;
   pagination from arXiv:1107.1920v3 (14 February 2012): Theorem 3.1 on p. 4
-  and the average-degree form on p. 1. Not a site key for this problem. Library
-  home:
+  and the average-degree form on p. 1. Not an erdosproblems.com key for this
+  problem. Library home:
   [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/_index|fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos]];
   paged at
   [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_3_1|theorem_3_1]].
@@ -175,10 +175,10 @@ pages and described under the Current assessment.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement
-above; PROVED, glossed by the site as solved affirmatively; no last-edited
-date. The commentary, in this page's words, credits the conjecture to
-Erdős, Hajnal and Mader; records Dirac's theorem [Di60] that $2n-2$ edges on
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
+above; PROVED, glossed by erdosproblems.com as solved affirmatively; no
+last-edited date. The commentary, in this page's words, credits the conjecture
+to Erdős, Hajnal and Mader; records Dirac's theorem [Di60] that $2n-2$ edges on
 $n$ vertices force a subdivision of $K_4$, with his conjecture that $3n-5$
 edges force a subdivision of $K_5$; records Mader's bound [Ma67] that
 $2^{\binom r2}n$ edges suffice for $K_r$; and answers yes, crediting two
@@ -199,17 +199,16 @@ records the conjecture, attributed to Mader (its [11]) and to Erdős and
 Hajnal (its [6]), that some positive constant $c$ makes $cp^2|G|$ edges force
 a topological complete subgraph of order $p$; and states the paper's purpose
 as proving that conjecture with $f(p)=256p^2$. With $p=r$ this is the
-site's statement with $C=256$. The proof (p. 886, half a page), followed
-here at filing depth, reduces as follows:
-Mader's theorem that size greater than $(2k-3)(n-k-1)$ forces a
-$k$-connected subgraph (the paper's [12]) gives a $128p^2$-connected
-subgraph; Lemma 3 (p. 885) gives that subgraph, less $3p$ chosen vertices,
-a minor $H$ with $2\delta(H)\ge|H|+23p^2$; Theorem 1 (p. 884) makes it
-$(15p^2,7p^2)$-linked; and a count over the $3p$ chosen vertices, each with
-$5p$ reserved neighbors, finds $p$ of them whose reserved neighbors carry a
-linkable set of size $p-1$ each, the branch vertices of a topological
-$K_p$. Of the proofs of Theorem 1 (with Lemma 2, pp. 884--885) and of
-Lemma 3 (pp. 885--886) only the structure is recorded, and they are not
+erdosproblems.com statement with $C=256$. The proof (p. 886, half a page),
+followed here at filing depth, reduces as follows: Mader's theorem that size
+greater than $(2k-3)(n-k-1)$ forces a $k$-connected subgraph (the paper's [12])
+gives a $128p^2$-connected subgraph; Lemma 3 (p. 885) gives that subgraph, less
+$3p$ chosen vertices, a minor $H$ with $2\delta(H)\ge|H|+23p^2$; Theorem 1
+(p. 884) makes it $(15p^2,7p^2)$-linked; and a count over the $3p$ chosen
+vertices, each with $5p$ reserved neighbors, finds $p$ of them whose reserved
+neighbors carry a linkable set of size $p-1$ each, the branch vertices of a
+topological $K_p$. Of the proofs of Theorem 1 (with Lemma 2, pp. 884--885) and
+of Lemma 3 (pp. 885--886) only the structure is recorded, and they are not
 checked; nothing is independently reviewed. The theorem is also quoted in a
 refereed text:
 [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_3_1|Theorem 3.1]]
@@ -229,16 +228,16 @@ the refereed publication of the two proofs
 Combinatorics, November 1998; Crossref records accessed 2026-09-19), the
 refereed attestation just quoted, [KoSz96]'s own abstract (on the
 publisher's page) naming the conjecture as "recently proved by Bollobás and
-Thomason", and the site's account. What is not established here: the exact
-theorem statement as printed in [KoSz96] and its proof, and any check of
+Thomason", and erdosproblems.com's account. What is not established here: the
+exact theorem statement as printed in [KoSz96] and its proof, and any check of
 [BT98]'s proof beyond the filing depth recorded above.
 
-**A site-versus-source item (recorded, partly explained).** The site's key
-BoTh96 is Bollobás and Thomason's "Highly linked graphs" (Combinatorica 16
-(1996), 313--320), while the Bollobás--Thomason paper titled for the theorem
-is "Proof of a conjecture of Mader, Erdős and Hajnal on topological complete
-subgraphs" (European J. Combin. 19 (1998), 883--887), the paper [FLS13]
-cites for it. [KoSz96], published in March 1996, already calls the
+**An erdosproblems.com-versus-source item (recorded, partly explained).** The
+erdosproblems.com key BoTh96 is Bollobás and Thomason's "Highly linked graphs"
+(Combinatorica 16 (1996), 313--320), while the Bollobás--Thomason paper titled
+for the theorem is "Proof of a conjecture of Mader, Erdős and Hajnal on
+topological complete subgraphs" (European J. Combin. 19 (1998), 883--887), the
+paper [FLS13] cites for it. [KoSz96], published in March 1996, already calls the
 conjecture "recently proved by Bollobás and Thomason", so a Bollobás--
 Thomason proof existed before either of their papers appeared. [BT98]
 itself (p. 886) explains the relation: a modification of its
@@ -250,10 +249,10 @@ elsewhere [3]", its [3] being the 1996 Combinatorica paper; and its
 introduction (p. 883) says Komlós and Szemerédi completed their alternative
 proof very shortly after the paper was written (received 15 March 1997,
 p. 887). So the
-site's key names the paper carrying the stronger linkage result, and the
-1998 paper is the short direct proof. The 1996 paper is not held, so
-whether it states the theorem itself was not checked; the page cites the
-1998 paper as the proof paper and the 1996 paper as the site's key.
+erdosproblems.com key names the paper carrying the stronger linkage result, and
+the 1998 paper is the short direct proof. The 1996 paper is not held, so whether
+it states the theorem itself was not checked; the page cites the 1998 paper as
+the proof paper and the 1996 paper as the erdosproblems.com key.
 
 **Origin and the earlier bounds.** [Er81], Part IV, item 2 (copy p. 8):
 "G. Dirac [20]
@@ -266,9 +265,9 @@ conjectured that every $\mathcal G(n;cr^2n)$ contains a $K_{\mathrm{top}}(r)$.
 Mader [65] proved the weaker $K_{\mathrm{top}}(r)\subset\mathcal G(n;2^{\binom r2}n)$.
 (See Erdős--Hajnal [26].)" Here $\mathcal G(n;m)$ is a graph with $n$
 vertices and $m$ edges. This is the conjecture in Erdős's words, with his
-attestation of Dirac's theorem (the site's [Di60], the copy's [20]) and of
-Mader's bound (the site's [Ma67], the copy's [65]); the copy's [26] is the
-1969 Erdős--Hajnal paper on complete topological subgraphs. Dirac's
+attestation of Dirac's theorem (erdosproblems.com's [Di60], the copy's [20]) and
+of Mader's bound (erdosproblems.com's [Ma67], the copy's [65]); the copy's [26]
+is the 1969 Erdős--Hajnal paper on complete topological subgraphs. Dirac's
 conjecture for $K_5$ is a different statement and is not compiled here; the
 1960 paper, as recorded below, does not contain it.
 
@@ -277,7 +276,7 @@ conjecture for $K_5$ is a different statement and is not compiled here; the
 of [Di60] (printed p. 68): a finite graph with
 $N\ge4$ vertices and $E\ge2N-2$ edges contains at least one $\{4\}$ or
 $\{4U\}$, where $\{4\}$ is a complete 4-graph and $\{4U\}$ a subdivision of
-one (p. 61). This is the theorem the site records for Dirac, with the
+one (p. 61). This is the theorem erdosproblems.com records for Dirac, with the
 hypotheses finite and $N\ge4$ made explicit, and the sentence after the
 proof says the graphs
 of Figures 3--5 (p. 67), which have $2N-3$ edges, show the theorem best
@@ -289,8 +288,8 @@ observation: across all 25 pages the paper states no conjecture that $3n-5$
 edges force a subdivision of $K_5$, and its only conjecture (p. 75)
 concerns the number of $\{4\}$-s and $\{4U\}$-s through a given cycle of a
 3-connected graph.
-Where Dirac stated the $K_5$ conjecture that [Er81] and the site attribute
-to this paper was not checked here.
+Where Dirac stated the $K_5$ conjecture that [Er81] and erdosproblems.com
+attribute to this paper was not checked here.
 
 **Mader's bound in the author's own text.**
 [[../library/extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|Satz 2]]
@@ -298,20 +297,20 @@ of [Ma67] (printed p. 266): "Jeder
 endliche Graph $G$ mit $k(G)\ge2^{\binom{n-1}2-1}\cdot(n-1)\cdot e(G)$
 enthält einen $U(S(n))$ als Teilgraph", where $e(G)$ is the number of
 vertices, $k(G)$ the number of edges, $S(n)$ the complete graph on $n$
-vertices and $U(S(n))$ a subdivision of it (p. 265): in the site's notation,
-$2^{\binom{r-1}2-1}(r-1)n$ edges on $n$ vertices force a subdivision of
-$K_r$ in a finite graph. Since $2^{\binom r2}=2^{\binom{r-1}2-1}\cdot2^r$ and
+vertices and $U(S(n))$ a subdivision of it (p. 265): in the erdosproblems.com
+notation, $2^{\binom{r-1}2-1}(r-1)n$ edges on $n$ vertices force a subdivision
+of $K_r$ in a finite graph. Since $2^{\binom r2}=2^{\binom{r-1}2-1}\cdot2^r$ and
 $r-1<2^r$, this constant is smaller than the $2^{\binom r2}$ of Erdős's
-attestation and the site's commentary, so both quoted forms follow from the
-printed theorem. The proof (Lemma 2, p. 266, and a one-sentence induction
-from a star on $r$ vertices, doubling the constant for each added edge) is
-followed at filing depth; nothing is independently reviewed. The paper's
-other theorem, Satz 1 (p. 265), is the minor bound that $2^{n-3}e(G)$ edges
-force $G\succ S(n)$, not this problem's statement. A filing observation: the
-paper states no conjecture about the order of its function $f(n)$; the
+attestation and the erdosproblems.com commentary, so both quoted forms follow
+from the printed theorem. The proof (Lemma 2, p. 266, and a one-sentence
+induction from a star on $r$ vertices, doubling the constant for each added
+edge) is followed at filing depth; nothing is independently reviewed. The
+paper's other theorem, Satz 1 (p. 265), is the minor bound that $2^{n-3}e(G)$
+edges force $G\succ S(n)$, not this problem's statement. A filing observation:
+the paper states no conjecture about the order of its function $f(n)$; the
 $cr^2n$ conjecture that [BT98] attributes to "Mader [11]", this paper, and
-the site records as Erdős, Hajnal and Mader's is not in its printed text, and
-where Mader stated it was not checked here.
+erdosproblems.com records as Erdős, Hajnal and Mader's is not in its printed
+text, and where Mader stated it was not checked here.
 
 **A self-declared formalization (linked from the claim pages).** Boris
 Alexeev's repository `plby/lean-proofs`, at the commit of 15 September
@@ -331,14 +330,14 @@ where [FLS13] quotes $256$. The file has no `#print axioms` line and no
 pinned commit; nothing is built, audited or kernel-checked here. Because
 the file names the two pairs of authors as its informal authors, it is a
 `formalization` link on both claim pages and
-no evidence there, and it gets no claim page of its own. The site's page,
-its label and the community database do not cite this development.
+no evidence there, and it gets no claim page of its own. The erdosproblems.com
+page, its label and the community database do not cite this development.
 
 **Search scope.** None of the routes below found a dispute
 of the theorem, a readable copy of either proof paper, or a change of
 status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree (no file 718); the community
   database entry (recorded under Formalization).
 - Crossref: the records of [BT98], [BoTh96], [KoSz96], [Ma67], [Di60] and
@@ -373,13 +372,13 @@ followed at filing depth in its reduction to Theorem 1, Lemma 3 and Mader's
 theorem; of the proofs of Theorem 1 and Lemma 3 only the structure is
 recorded; nothing is independently reviewed. (4) [Di60]'s Satz 6 is paged,
 carries the hypotheses finite and $N\ge4$, and is followed by the paper's
-own best-possible sentence, while the $K_5$ conjecture the site and [Er81]
-attribute to it is not in its text, so that attribution rests on [Er81] and
-the site. [Ma67]'s Satz 2 is paged and prints a sharper constant than the
-quoted $2^{\binom r2}$, and the paper carries no statement of the $cr^2n$
-conjecture, so the conjecture's attribution to Mader rests on [BT98]'s
-introduction, [Er81] and the site. (5) The self-declared formalization is
-recorded from its header and not built; there is no Lean statement of the
+own best-possible sentence, while the $K_5$ conjecture erdosproblems.com and
+[Er81] attribute to it is not in its text, so that attribution rests on [Er81]
+and erdosproblems.com. [Ma67]'s Satz 2 is paged and prints a sharper constant
+than the quoted $2^{\binom r2}$, and the paper carries no statement of the
+$cr^2n$ conjecture, so the conjecture's attribution to Mader rests on [BT98]'s
+introduction, [Er81] and erdosproblems.com. (5) The self-declared formalization
+is recorded from its header and not built; there is no Lean statement of the
 problem in the formal-conjectures catalog. The Linked library material below is
 derived from the library links and is not progress.
 
@@ -398,13 +397,13 @@ derived from the library links and is not progress.
   $n$ vertices and at least $256t^2n$ edges; the theorem of [BT98] and
   [KoSz96], as [FLS13] states it.
 - [KoSz96] (1996, refereed, not held): the second, independent proof, per
-  [FLS13], [BT98]'s introduction, [KoSz96]'s abstract and the site.
+  [FLS13], [BT98]'s introduction, [KoSz96]'s abstract and erdosproblems.com.
 - [[../library/extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|Satz 2 of Mader]]
   ([Ma67], 1967; p. 266): $2^{\binom{r-1}2-1}(r-1)n$ edges on
   $n$ vertices force a subdivision of $K_r$ in a finite graph; the first
   edge bound for the question, which implies the
-  $2^{\binom r2}n$ form quoted by [Er81] and the site. The paper's Satz 1
-  (p. 265), $2^{r-3}n$ edges force a $K_r$ minor, is not this problem's
+  $2^{\binom r2}n$ form quoted by [Er81] and erdosproblems.com. The paper's Satz
+  1 (p. 265), $2^{r-3}n$ edges force a $K_r$ minor, is not this problem's
   statement.
 - [[../library/extremal_graph_theory/dirac_1960_in_abstrakten_graphen_vorhandene_vollstandige_4_graphen_und_ihre_unterteilungen/satz_6|Satz 6 of Dirac]]
   ([Di60], 1960; p. 68): a finite graph with $N\ge4$ vertices
@@ -412,7 +411,7 @@ derived from the library links and is not progress.
   one, and the graphs of Figures 3--5 with $2N-3$ edges show the bound best
   possible; the case $r=4$ of the question with its exact threshold. The
   conjecture that $3n-5$ edges force a subdivision of $K_5$ is attributed
-  to Dirac by [Er81] and the site and is not stated in this paper.
+  to Dirac by [Er81] and erdosproblems.com and is not stated in this paper.
 - [Er81], Part IV, item 2 (copy p. 8): the conjecture in Erdős's words.
 <!-- BEGIN problem library links -->
 

@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 455, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0455/claims
@@ -20,8 +20,9 @@ $\liminf q_n/n^2\ge255255/(295318+G)>0.864289$ for prime sequences with
 non-decreasing gaps, by a max-plus certificate checked in Lean. The limit
 question stays open.
 
-[[problems/integer_sequences/E0455/claims/2026_10_06_satorunet|2026_10_06_satorunet]]: A write-up posted to the site's proof-claims tab on 6 October 2026 claims
-$\liminf q_n/n^2\ge0.9200$ by a computer-certified residue argument, with
-constraints on a counterexample. It leaves the limit question itself open.
+[[problems/integer_sequences/E0455/claims/2026_10_06_satorunet|2026_10_06_satorunet]]: A write-up posted to the erdosproblems.com proof-claims tab on 6 October 2026
+claims $\liminf q_n/n^2\ge0.9200$ by a computer-certified residue argument,
+with constraints on a counterexample. It leaves the limit question itself
+open.
 
 ***

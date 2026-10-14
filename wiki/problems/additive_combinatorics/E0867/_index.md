@@ -34,7 +34,7 @@ $$
 \lvert A\rvert \leq \frac{N}{2}+O(1)?
 $$
 
-**Formulation.** The site's wording of 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (the page shows no
 last-edited date). The forbidden sums run over blocks
 of at least two consecutive members of $A$ in its increasing order ($i<j$;
 a one-term block would forbid every member): Erdős's condition (19) in
@@ -46,11 +46,11 @@ and a thread comment gives $\lfloor(N+1)/2\rfloor+1$ with
 $\{1,\lfloor N/2\rfloor,\lfloor N/2\rfloor+2,\ldots,N\}$. The infinite
 form (whether such a sequence must have $\limsup a_n/n=\infty$, or
 logarithmic density zero) is [[problems/integer_sequences/E0839/_index|Problem
-839]], which the site calls the problem's infinite version. Erdős's own
+839]], which erdosproblems.com calls the problem's infinite version. Erdős's own
 wording of the finite question ([Er92c], p. 43): "perhaps if
 $1\le a_1<a_2<\cdots<a_t\le x$ satisfies (19) then $\max t\le\frac x2+O(1)$;
 perhaps $t\le[\frac{x+1}2]$; perhaps this is trivial or trivially false
-and I overlook a simple argument". The site's source keys are [Er92c,
+and I overlook a simple argument". The erdosproblems.com source keys are [Er92c,
 p. 43], [Fr93] and [CoPh96].
 
 **Status.** DISPROVED (LEAN). The standing is derived from the claim pages of
@@ -66,14 +66,14 @@ rapidly growing parameters gives an infinite sequence with
 $\limsup A(n)/n=19/36$.
 
 The acceptance evidence is the refereed paper of Coppersmith and Phillips (SIAM
-J. Discrete Math. 9 (1996), 173--177), together with the site's label and
-thread. Its Theorem 2.1 builds on Freud's construction (its reference [1]) and
-gives a set of $\tfrac{13}{24}N-O(1)$ such integers up to $N$, a disproof in its
-own right. An external Lean file behind the erdosproblems.com label proves the
-consecutive-sum-freeness and the count of Freud's set for its own encoding. The
-corpus holds no build of it, so it gives no formalized evidence.
+J. Discrete Math. 9 (1996), 173--177), together with the erdosproblems.com label
+and thread. Its Theorem 2.1 builds on Freud's construction (its reference [1])
+and gives a set of $\tfrac{13}{24}N-O(1)$ such integers up to $N$, a disproof in
+its own right. An external Lean file behind the erdosproblems.com label proves
+the consecutive-sum-freeness and the count of Freud's set for its own encoding.
+The corpus holds no build of it, so it gives no formalized evidence.
 
-The best bounds the site records are
+The best bounds erdosproblems.com records are
 $\tfrac{13}{24}N-O(1)\le|A|\le(\tfrac23-\tfrac1{512})N+\log N$ (Coppersmith and
 Phillips, Theorems 2.1 and 3.7). The printed upper bound is
 $\tfrac23N-\lfloor N/512\rfloor+3\log_4N-\tfrac12$. Freud's note reports their
@@ -82,8 +82,8 @@ print. That figure is recorded below.
 
 **Source.** [erdosproblems.com/867](https://www.erdosproblems.com/867),
 accessed 2026-09-18: the problem page (DISPROVED
-(LEAN), the site's label for a negative solution whose proof is verified
-in Lean; no last-edited date shown; source keys [Er92c, p. 43], [Fr93],
+(LEAN), the erdosproblems.com label for a negative solution whose proof is
+verified in Lean; no last-edited date shown; source keys [Er92c, p. 43], [Fr93],
 [CoPh96]; a thanks line naming Adenwalla, Alexeev and Weisenberg;
 indicators "Formalised statement? Yes" and "OEIS: Possible"), its three-comment discussion thread (12 August 2025 to 7 April
 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
@@ -91,9 +91,9 @@ indicators "Formalised statement? Yes" and "OEIS: Possible"), its three-comment 
 
 **References.**
 
-- [Fr93] Freud, R., Adding numbers (the site's key adds "-- on a problem of
-  P. Erdős", which the issue does not print). James Cook Mathematical Notes
-  6 (1993), issue 60 (January 1993), 6199--6202. Library home:
+- [Fr93] Freud, R., Adding numbers (the erdosproblems.com key adds "-- on a
+  problem of P. Erdős", which the issue does not print). James Cook Mathematical
+  Notes 6 (1993), issue 60 (January 1993), 6199--6202. Library home:
   [[../library/additive_combinatorics/freud_1993_adding_numbers_problem_p/_index|freud_1993_adding_numbers_problem_p]];
   result pages
   [[../library/additive_combinatorics/freud_1993_adding_numbers_problem_p/construction_p6199|the construction]]
@@ -113,8 +113,9 @@ indicators "Formalised statement? Yes" and "OEIS: Possible"), its three-comment 
   Library home:
   [[../library/integer_sequences/erdos_1992_my_forgotten_problems_number_theory/_index|erdos_1992_my_forgotten_problems_number_theory]].
 
-**Formalization.** The site's Lean suffix is a label of Bloom's catalog; see
-"Formalization and the Lean label" below for what the files state. The file
+**Formalization.** The erdosproblems.com Lean suffix is a label of Bloom's
+catalog; see "Formalization and the Lean label" below for what the files state.
+The file
 [`ErdosProblems/867.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/867.lean)
 of formal-conjectures, at the commit the link pins, defines `ConsecutiveSumFree
 (A : Finset ℕ) : Prop := ∀ m n : ℕ, 2 ≤ (Finset.Icc m n ∩ A).card → (∑ a ∈
@@ -127,21 +128,21 @@ on that repository's `main` branch, not a fixed commit. Five variants:
 ($(\tfrac23+\varepsilon)N$), `freud` ($(\tfrac{19}{36}-\varepsilon)N$
 attainable), `coppersmith_phillips_lower_bound` ($\tfrac{13}{24}N-C$) and
 `coppersmith_phillips_upper_bound` ($(\tfrac23-\tfrac1{512})N+\log N$ for all
-large $N$, the site's figure and the abstract's read literally, stronger than
-Theorem 3.7 as printed; see below), all `research solved` with `sorry` bodies.
-The community database (teorth/erdosproblems, read 2026-09-18) records the
-problem as "disproved (Lean)", the statement formalized since 4 August 2026,
-`formal_status` Lean and no formal-proof URL; its last update for the problem is
-dated 7 April 2026, which does not date the change of state.
+large $N$, the erdosproblems.com figure and the abstract's read literally,
+stronger than Theorem 3.7 as printed; see below), all `research solved` with
+`sorry` bodies. The community database (teorth/erdosproblems, read 2026-09-18)
+records the problem as "disproved (Lean)", the statement formalized since 4
+August 2026, `formal_status` Lean and no formal-proof URL; its last update for
+the problem is dated 7 April 2026, which does not date the change of state.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-DISPROVED (LEAN), the site's label for a negative solution whose
-proof is verified in Lean. The commentary, in this page's words: the
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED (LEAN), the erdosproblems.com label for a negative solution
+whose proof is verified in Lean. The commentary, in this page's words: the
 problem is the finite form of [839]; the interval $(N/2,N]$ shows that
 $N/2-O(1)$ members are possible; the upper bound $(\tfrac23+o(1))N$, an
-observation the site credits to Adenwalla, follows by a layer argument,
+observation erdosproblems.com credits to Adenwalla, follows by a layer argument,
 which the commentary spells out: if $A$ has $t$ members in $[x,2x]$,
 their $t-1$ sums of consecutive pairs are distinct, lie in $(2x,4x]$ and
 are excluded from $A$, so $A$ has at most $2x+1$ members in $[x,4x]$, and
@@ -158,7 +159,7 @@ account BorisAlexeev) reporting that the problem is solved in the
 negative, citing Freud's note (the whole issue being online) and, by DOI,
 the Coppersmith--Phillips paper for its better lower bound $13/24$ and
 better upper bound $2/3-1/512$, and noting that each paper mentions the
-other, after which the site was updated; and a comment of 7 April 2026
+other, after which erdosproblems.com was updated; and a comment of 7 April 2026
 (the account Pietro Monticone) that the solution had been autoformalized
 with the prover Aristotle, with the file linked. The proof-claim tab is
 empty.
@@ -198,30 +199,30 @@ Freud's note as its [1], opens the proof of its
 [[../library/additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/theorem_2_1|Theorem 2.1]]
 from Freud's construction and proves a set of $\tfrac{13}{24}N-O(1)$
 members, itself a disproof (Freud's note, p. 6201, says the pair
-"rediscovered my result above and improved it"); the site's label and
+"rediscovered my result above and improved it"); the erdosproblems.com label and
 commentary; and the external Lean proof of the construction's properties
 (of which the corpus holds no build). The paper's proof of Theorem 2.1 is
 not independently checked. The note is a contribution to a mathematical
 notes bulletin and is not itself described as refereed.
 
-**Upper bounds and the site-versus-source figures.**
+**Upper bounds and the erdosproblems.com-versus-source figures.**
 [[../library/additive_combinatorics/freud_1993_adding_numbers_problem_p/upper_bound_p6201|Freud's remark]]
 (p. 6201): "it is easy to prove that the proportion cannot exceed $2/3$,
 moreover this holds if we exclude only $a_i=a_j+a_{j+1}$ (and for this case
-it is the best possible)", without proof; the site's commentary gives the
-argument above for $(\tfrac23+o(1))N$, credited to Adenwalla, which is not
+it is the best possible)", without proof; the erdosproblems.com commentary gives
+the argument above for $(\tfrac23+o(1))N$, credited to Adenwalla, which is not
 independently checked. Freud then reports (p. 6201): "they have a
 construction giving $13n/24+O(1)$. They also improved the upper bound to
-$2/3-1/3584$." The site's commentary, its thread and the formal-conjectures
-variant `coppersmith_phillips_upper_bound` print the Coppersmith--Phillips
-upper bound as $(\tfrac23-\tfrac1{512})N+\log N$. The published paper
-decides between the two figures:
+$2/3-1/3584$." The erdosproblems.com commentary, its thread and the
+formal-conjectures variant `coppersmith_phillips_upper_bound` print the
+Coppersmith--Phillips upper bound as $(\tfrac23-\tfrac1{512})N+\log N$. The
+published paper decides between the two figures:
 [[../library/additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/theorem_3_7|Theorem 3.7]]
 ([CoPh96], p. 177) states that a sequence of integers in $[1,n]$ in which no
 sum of $2$, $3$ or $4$ adjacent elements is an element "contains at most
 $2n/3-\lfloor n/512\rfloor+3\log_4n-1/2$ elements", and its abstract states
 that "$m>(2/3-\epsilon)n+(\log n)$ is impossible for $\epsilon=1/512$",
-having written the simple bound as $2n/3+O(\log n)$; the site and the
+having written the simple bound as $2n/3+O(\log n)$; erdosproblems.com and the
 formal-conjectures variant print that last term as $+\log N$; the paper
 nowhere prints $1/3584$, so Freud's figure is not the published one (the
 note of January 1993 predates the paper's receipt in February 1993 and its
@@ -232,9 +233,9 @@ matches Freud's. The discrepancy did not affect the status: both figures lie
 strictly between $19/36$ and $2/3$, and the disproof is the lower bound. The
 best known range for the maximal density is therefore
 $[\tfrac{13}{24},\tfrac23-\tfrac1{512}]$; its exact value is the paper's
-Open Question 1 (p. 177), open and not the site's question. Read literally,
-$(\tfrac23-\tfrac1{512})N+\log N$ is smaller than Theorem 3.7's bound for
-every $N\ge2$ ($\lfloor N/512\rfloor\le N/512$, and $3\log_4N-\tfrac12$
+Open Question 1 (p. 177), open and not the erdosproblems.com question. Read
+literally, $(\tfrac23-\tfrac1{512})N+\log N$ is smaller than Theorem 3.7's bound
+for every $N\ge2$ ($\lfloor N/512\rfloor\le N/512$, and $3\log_4N-\tfrac12$
 exceeds $\log N$ from $N=2$ on). So the variant
 `coppersmith_phillips_upper_bound`, stated with the natural logarithm for
 all large $N$, does not follow from the theorem as printed; the theorem
@@ -243,9 +244,9 @@ Read depth: the proof paragraph of Theorem 3.7 (p. 177) in full, and Lemmas
 3.2--3.6 behind it (pp. 175--177) for structure only; none is independently
 checked.
 
-**Formalization and the Lean label.** The site's Lean suffix is a catalog
-label. The formal-conjectures statement at the pinned commit has a `sorry`
-body (its `lower_bound` variant is proved in the file) and points to
+**Formalization and the Lean label.** The erdosproblems.com Lean suffix is a
+catalog label. The formal-conjectures statement at the pinned commit has a
+`sorry` body (its `lower_bound` variant is proved in the file) and points to
 `src/v4.29.1/ErdosProblems/Erdos867.lean` in `plby/lean-proofs` on `main`,
 not a fixed commit; Freud's claim page pins the file at the repository's
 commit of 2026-09-15, its head on 2026-09-18. The file there
@@ -285,16 +286,16 @@ upper density of a sequence satisfying (19) can be $\frac12$ but probably
 it can not be $>\frac12$. In fact perhaps if $1\le a_1<a_2<\cdots<a_t\le x$
 satisfies (19) then $\max t\le\frac x2+O(1)$; perhaps $t\le[\frac{x+1}2]$;
 perhaps this is trivial or trivially false and I overlook a simple
-argument [8]." The finite question is the site's statement; the density
-questions are Problem 839's. Freud's infinite sequence with upper density
-$19/36$ also answers "probably it can not be $>\frac12$" in the negative
+argument [8]." The finite question is the erdosproblems.com statement; the
+density questions are Problem 839's. Freud's infinite sequence with upper
+density $19/36$ also answers "probably it can not be $>\frac12$" in the negative
 for the upper density; the lower and logarithmic density questions of
 Problem 839 are not decided by it.
 
 **Search scope.** None of the routes below found a source narrowing the
 range $[\tfrac{13}{24},\tfrac23-\delta]$ or a dispute of the disproof.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database on
   2026-09-18; the external Lean file.
 - arXiv: the API queries `abs:"subsequence sums"` sorted by date (21
@@ -316,8 +317,8 @@ $O(1)$ there is the paper's. (2) The verification of Freud's
 construction is the note's and the external Lean file's, of which the
 corpus holds no build; no proof is independently reviewed.
 (3) The exact maximal density is open between $13/24$ and $2/3-1/512$; it
-is not the site's question. (4) Problem 839's infinite questions are not
-decided by the construction.
+is not the erdosproblems.com question. (4) Problem 839's infinite questions are
+not decided by the construction.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -113,7 +113,7 @@ only. Paged at
 (p. 2 of the preprint, page image) is the lower bound in the variant in the
 problem page's Formulation; as printed it yields a 6-almost-regular subgraph
 on at least of order $n^\alpha/\log n$ vertices with $\gg_\alpha m^{1+\alpha}$
-edges (the deduction is on the result page), while the site's
+edges (the deduction is on the result page), while erdosproblems.com's
 "$m\gg n^\alpha$" rests on a forum reading of the proof.
 
 **Results.** Each has its result page, linked above.

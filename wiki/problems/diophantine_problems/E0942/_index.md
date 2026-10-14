@@ -53,9 +53,9 @@ https://www.erdosproblems.com/942.
 
 ## Current assessment
 
-The question is open. The results the site credits bound $h(n)$ from below
-only for infinitely many $n$: Erdős observed that $\limsup h(n)=\infty$, and
-van Doorn gave a proof in the comments; De Koninck and Luca [DeLu04] showed
+The question is open. The results erdosproblems.com credits bound $h(n)$ from
+below only for infinitely many $n$: Erdős observed that $\limsup h(n)=\infty$,
+and van Doorn gave a proof in the comments; De Koninck and Luca [DeLu04] showed
 $h(n)\gg(\log n/\log\log n)^{1/3}$ for infinitely many $n$ and computed the
 density, about $0.275$, of the $n$ with $h(n)=1$; and Hughes (with AI
 assistance) observed that their argument, optimized, gives

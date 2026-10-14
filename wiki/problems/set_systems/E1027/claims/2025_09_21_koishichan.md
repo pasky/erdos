@@ -4,8 +4,8 @@ title: Koishi Chan's proof by adaptive partial coloring
 desc: |
   For large $n$, a family of at most $c2^n$ sets of size $n$ has a positive
   proportion of subsets of its union that meet every member and contain none.
-  The proof was given in the site's comment thread, and the site's curator
-  credits it.
+  The proof was given in the erdosproblems.com comment thread, and the
+  erdosproblems.com curator credits it.
 authors: []
 status: accepted
 claim: proved
@@ -71,11 +71,12 @@ stopping constants, from $2c$ to $4c$. Chan amended the comment the same day
 and replied that it was corrected: the renormalized weight $2^{-f-1}$ restores
 the exact martingale, and the thresholds $2c$ and $w(2c)/2$ stand.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marked Problem 1027
-proved. Bloom credits the proof to Koishi Chan's comment of 21 September 2025 in
-the site's discussion thread (problem page last edited 1 October 2025). The
-comments were posted by the forum account KoishiChan. The result is a forum
-comment, not a manuscript, and is not refereed.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, marked
+Problem 1027 proved. Bloom credits the proof to Koishi Chan's comment of 21
+September 2025 in the erdosproblems.com discussion thread (problem page last
+edited 1 October 2025). The comments were posted by the forum account
+KoishiChan. The result is a forum comment, not a manuscript, and is not
+refereed.
 
 **Formalizations.** The file in Boris Alexeev's lean-proofs collection, linked
 above, declares itself a formalization of a solution to the problem, names
@@ -83,6 +84,6 @@ Koishi Chan as the informal author and Codex and GPT-5.6 Sol as the formal
 authors, and states that it completes the partial-coloring argument with
 Beck's non-uniform property-B theorem through the finite random greedy proof of
 Duraj, Gutowski and Kozik. The corpus has not built this development, so this
-page lists no `formalized` evidence. The formal-conjectures statement file the
-site records is a statement, not a proof; it names this development as its
-formal proof (the problem page links it).
+page lists no `formalized` evidence. The formal-conjectures statement file
+erdosproblems.com records is a statement, not a proof; it names this development
+as its formal proof (the problem page links it).

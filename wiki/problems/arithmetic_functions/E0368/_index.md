@@ -21,10 +21,10 @@ updated: 2026-10-07T20:33:08Z
 
 **Statement.** How large is the largest prime factor of $n(n+1)$?
 
-**Status.** Open, in the site's label (OPEN). Write $F(n)$ for the prime in
-question. The site's commentary credits four refereed bounds. The corpus accepts
-each on its publication as a partial claim, and none determines the order of
-$F(n)$. Pólya [Po18] proved $F(n)\to\infty$
+**Status.** Open, in the erdosproblems.com label (OPEN). Write $F(n)$ for the
+prime in question. The erdosproblems.com commentary credits four refereed
+bounds. The corpus accepts each on its publication as a partial claim, and none
+determines the order of $F(n)$. Pólya [Po18] proved $F(n)\to\infty$
 ([[problems/arithmetic_functions/E0368/claims/1918_06_01_polya|claim page]]).
 Mahler [Ma35] proved $F(n)\gg\log\log n$
 ([[problems/arithmetic_functions/E0368/claims/1935_01_01_mahler|claim page]]).
@@ -33,9 +33,9 @@ many $n$
 ([[problems/arithmetic_functions/E0368/claims/1967_01_01_schinzel|claim page]]).
 Pasten [Pa24b] proved $F(n)\gg(\log\log n)^2/\log\log\log n$
 ([[problems/arithmetic_functions/E0368/claims/2023_12_06_pasten|claim page]]).
-The problem stays open. The site expects $F(n)\gg(\log n)^2$ for all $n$. Erdős
-[Er76d] conjectured that for every $\varepsilon>0$ there are infinitely many $n$
-with $F(n)<(\log n)^{2+\varepsilon}$.
+The problem stays open. erdosproblems.com expects $F(n)\gg(\log n)^2$ for all
+$n$. Erdős [Er76d] conjectured that for every $\varepsilon>0$ there are
+infinitely many $n$ with $F(n)<(\log n)^{2+\varepsilon}$.
 
 **Source.** [erdosproblems.com/368](https://www.erdosproblems.com/368), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #368,
@@ -64,10 +64,10 @@ the corpus has not built it.
 
 ## Current assessment
 
-The question, as the site states it, asks for the order of $F(n)$, the
+The question, as erdosproblems.com states it, asks for the order of $F(n)$, the
 largest prime factor of $n(n+1)$; it is an estimate problem with no yes-or-no
-answer, and the site records no parts. Four refereed results bound $F(n)$,
-each the subject of an accepted partial claim. Pólya [Po18] proved
+answer, and erdosproblems.com records no parts. Four refereed results bound
+$F(n)$, each the subject of an accepted partial claim. Pólya [Po18] proved
 $F(n)\to\infty$, his Satz I applied to $x(x+1)$, by reducing to Thue's
 theorem on binary forms; the Pólya and Mahler cards record that Størmer's
 earlier theory of the Pell equation $x^2-Dy^2=1$ already gives the same
@@ -78,12 +78,12 @@ the paper's Corollary 1.5 on the largest prime factor of $xy(x+y)$ for coprime
 $x<y$ taken at $x=1$, $y=n$, the best lower bound known. In the other direction
 Schinzel [Sc67b] proved that $F(n)\le n^{O(1/\log\log\log n)}$ for
 infinitely many $n$, his Theorem 14 with $A=E=1$, $r=2$, $s=1$, since
-$(2x+1)^2-1=4x(x+1)$. Between these the truth is unknown: the site's
+$(2x+1)^2-1=4x(x+1)$. Between these the truth is unknown: the erdosproblems.com
 commentary expects $F(n)\gg(\log n)^2$ for all $n$, and Erdős [Er76d]
 conjectured that for every $\varepsilon>0$ infinitely many $n$ have
 $F(n)<(\log n)^{2+\varepsilon}$. No source proves either, so the problem is
 open; the lower bounds supersede one another, and each is recorded as a
-partial claim because the site credits it.
+partial claim because erdosproblems.com credits it.
 
 The problem's thread (four comments, accessed 2026-10-07, no proof claim) holds
 the question whether Pasten's paper, whose title names $n^2+1$, bears on
@@ -94,12 +94,12 @@ formalization of the problem's statement. None of the four proofs is
 compiled in this wiki; the library cards for Mahler, Pasten, Schinzel and
 Pólya cover the statements.
 
-Search scope: the site's problem page as exported, its thread, accessed
-2026-10-07, the community database entry, the formal-conjectures tree (no
-statement file), the lean-proofs file and the four library cards; no forum
+Search scope: the erdosproblems.com problem page as exported, its thread,
+accessed 2026-10-07, the community database entry, the formal-conjectures tree
+(no statement file), the lean-proofs file and the four library cards; no forum
 proof claim and no OpenAI release item names this problem. No wider
-literature search was made, none being needed for refereed bounds the site
-credits.
+literature search was made, none being needed for refereed bounds
+erdosproblems.com credits.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

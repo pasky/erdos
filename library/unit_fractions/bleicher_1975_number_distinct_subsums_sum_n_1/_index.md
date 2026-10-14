@@ -50,12 +50,12 @@ were developed to bound denominators of Egyptian fractions from below; here the
 focus is the lower bound itself. For problem 320 the corollaries are the
 classical lower bounds for S(N); for problem 321 the classical lower bound
 R(N) >= Q(N) comes from the Lemma of p. 40 with the count of p. 30, not from the
-corollaries. The site cites the paper for problem 293's claim v(k) >> k!, but
-the paper contains no statement about the denominators occurring in k-term
-representations of 1: its theorems concern Q_k(N) and S(N) only. The claim is
-the 1980 monograph's (p. 35), which cites this paper together with both parts of
-Denominators of Egyptian fractions and calls it easy to see; van Doorn and Tang
-(2026) write that extracting it does not seem straightforward to them.
+corollaries. erdosproblems.com cites the paper for problem 293's claim v(k) >>
+k!, but the paper contains no statement about the denominators occurring in
+k-term representations of 1: its theorems concern Q_k(N) and S(N) only. The
+claim is the 1980 monograph's (p. 35), which cites this paper together with both
+parts of Denominators of Egyptian fractions and calls it easy to see; van Doorn
+and Tang (2026) write that extracting it does not seem straightforward to them.
 
 The copy read for this card is a scan of the fourteen printed pages whose OCR
 layer garbles the formulas; all fourteen pages were read on the page images.
@@ -87,7 +87,7 @@ p. 40; restated on p. 43 of the 1980 monograph for $k\ge4$ and
 $\log_kN\ge k$), is the refereed input of the pigeonhole argument in that
 problem's discussion thread, which gives a nonzero signed sum
 $\sum_{k\le N}\delta_k/k$ of absolute value at most
-$2^{-N(\log\log\log N)^{1+o(1)}/\log N}$; the deduction is the site's
+$2^{-N(\log\log\log N)^{1+o(1)}/\log N}$; the deduction is the erdosproblems.com
 commentary, and the paper states nothing about signed sums.
 
 **Results.**

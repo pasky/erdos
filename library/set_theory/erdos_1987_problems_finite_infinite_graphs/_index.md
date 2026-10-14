@@ -144,7 +144,7 @@ paper proves nothing and settles none of them.
 
 - [[../wiki/problems/set_theory/E0592/_index|#592]]: Problem 1, p. 223, asks
   for the complete characterization, the print's $\alpha$ being the problem's
-  $\beta$, which the site restricts to countable ordinals.
+  $\beta$, which erdosproblems.com restricts to countable ordinals.
 - [[../wiki/problems/set_theory/E0591/_index|#591]]: Problem 1, p. 223, the
   case $\alpha=\omega^2$, with its own prize, called the first open case.
 - [[../wiki/problems/set_theory/E0118/_index|#118]]: Problem 2, p. 223, poses
@@ -167,8 +167,8 @@ paper proves nothing and settles none of them.
   records the failed guess, the $(C_4,C_6)$ example and the question for which
   pairs the guess holds.
 - [[../wiki/problems/graph_coloring/E0110/_index|#110]]: Problem 6, p. 225,
-  asks a question whose yes answer would answer this problem no; the site does
-  not cite the paper here.
+  asks a question whose yes answer would answer this problem no;
+  erdosproblems.com does not cite the paper here.
 - [[../wiki/problems/graph_coloring/E0074/_index|#74]]: Problem 7, p. 225,
   poses the question with chromatic number $\aleph_0$.
 - [[../wiki/problems/set_theory/E0111/_index|#111]]: Problem 7, p. 225, states
@@ -181,7 +181,7 @@ paper proves nothing and settles none of them.
   the question and reports the case $\alpha<\omega_1^{\omega+2}$ and the
   Larson--Baumgartner consistency result.
 - [[../wiki/problems/ramsey_theory/E0080/_index|#80]]: Problem 11,
-  p. 226, the site's key Er87: the definition of $f(n;c)$, Alon's
+  p. 226, the erdosproblems.com key Er87: the definition of $f(n;c)$, Alon's
   $\alpha_c\sqrt n$, Szemerédi's $f(n;c)\to\infty$ and the question "Is it
   true that $f(n;c)>n^\varepsilon$ (or at least $f(n;c)>\log n$)?".
 - [[../wiki/problems/extremal_graph_theory/E0600/_index|#600]]: Problem 11,

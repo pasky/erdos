@@ -120,7 +120,7 @@ $d_k(n)$ from Turán's theorem (the paper's [1] and [2], not held).
 - [[../wiki/problems/extremal_graph_theory/E0766/_index|Problem 766]]: the Dirac
   publication of the 1964 survey's p. 31 theorem that Turán's threshold for
   $K_k$ forces $K_{k+1}$ minus at most one edge, which that page records
-  beside the site's commentary sentence; the footnote is the paper's
+  beside the erdosproblems.com commentary sentence; the footnote is the paper's
   attestation of the independent proof by Erdős. The theorem sits at Turán's
   thresholds and says nothing about the range $k<l\le k^2/4$ the problem
   asks about.

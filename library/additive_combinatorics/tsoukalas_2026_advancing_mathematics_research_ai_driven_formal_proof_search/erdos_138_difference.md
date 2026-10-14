@@ -37,9 +37,9 @@ Its `target_theorem_0` proves `answer(True)` for formal-conjectures'
 with `W` defined as the infimum of the $N$ whose two-colorings of
 $\{1,\ldots,N\}$ all contain a monochromatic $k$-term progression; the lemma
 `W_diff_ge_k_all` gives `W (k + 1) - W k ≥ k` for every `k` (natural-number
-subtraction). The proof posted on the site's thread in April 2026 and pinned on
-the claim page is a different Lean file, ending in a lemma `W_diff_tendsto`.
-Read statically, not built.
+subtraction). The proof posted on the erdosproblems.com thread in April 2026 and
+pinned on the claim page is a different Lean file, ending in a lemma
+`W_diff_tendsto`. Read statically, not built.
 
 **Read depth.** Claims checked: the question and the bound were read clause by
 clause on the page images of pp. 35--36. The proof was read in full but not
@@ -54,9 +54,9 @@ Both colors are blocked only if a red and a blue $k$-term progression both have
 the new integer as their next term. Each contains a newly added integer, so both
 common differences $d_R,d_B$ are at most $k-1$, and stepping back $d_B$ terms
 along the red one and $d_R$ terms along the blue one lands on the same positive
-integer, which would carry both colors (p. 36). The site's curator noted on the
-thread that the argument generalizes to $W(k+1,l+1)\ge W(k,l)+\min(k,l)$
-(p. 36).
+integer, which would carry both colors (p. 36). The erdosproblems.com curator
+noted on the thread that the argument generalizes to
+$W(k+1,l+1)\ge W(k,l)+\min(k,l)$ (p. 36).
 
 ## Dependencies
 
@@ -67,8 +67,8 @@ None; the argument is elementary.
 - [[../wiki/problems/additive_combinatorics/E0138/_index|Problem 138]]: the
   problem asks for better bounds on $W(k)$, for example
   $W(k)^{1/k}\to\infty$. The theorem answers a different question, Erdős's of
-  1981 whether $W(k+1)-W(k)\to\infty$, recorded in the site's commentary, and
-  leaves the problem's request untouched. The paper calls post 5314 of the
-  site's thread its original communication of the result (p. 36). The result
-  is recorded on the claim page
+  1981 whether $W(k+1)-W(k)\to\infty$, recorded in the erdosproblems.com
+  commentary, and leaves the problem's request untouched. The paper calls post
+  5314 of the erdosproblems.com thread its original communication of the result
+  (p. 36). The result is recorded on the claim page
   [[../wiki/problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|Google DeepMind 2026]].

@@ -71,20 +71,21 @@ restates Erdős's theorem.
 **Depends on.** Nothing in this wiki; the chapter's own statements and the
 one-line triangle count are the whole argument.
 
-**Acceptance.** The `reviewed` evidence is documented acceptance by the site's
-curator, Thomas Bloom, who labeled the problem PROVED and names the 1976 paper
-as one of its two independent proofs. The community database agrees: it lists
-the problem as proved as of its last update, 10 September 2025. The general
-theorem was also published in an edited memorial volume by Birkhäuser in 1983
-(Crossref record). No referee record is visible for a volume chapter, and the
-proceedings paper is not held, so `refereed` is not listed. The one comment in
-the site's thread (8 March 2026) holds that the problem was settled in the 1983
-chapter rather than in the 1976 paper. The chapter's own attribution says
-otherwise, and without the 1976 text the point stays open. Read depth: the
-abstract, Theorem A, Problem 3 and Theorems 1 to 4 were read at their
-statements. The derivation of Theorem 4 from Theorem 3 was read for structure.
-The proof of Theorem 3 (Section 5, pp. 471--495) was not read, and nothing is
-independently reviewed. The site also credits an independent proof by
+**Acceptance.** The `reviewed` evidence is documented acceptance by the
+erdosproblems.com curator, Thomas Bloom, who labeled the problem PROVED and
+names the 1976 paper as one of its two independent proofs. The community
+database agrees: it lists the problem as proved as of its last update, 10
+September 2025. The general theorem was also published in an edited memorial
+volume by Birkhäuser in 1983 (Crossref record). No referee record is visible for
+a volume chapter, and the proceedings paper is not held, so `refereed` is not
+listed. The one comment in the erdosproblems.com thread (8 March 2026) holds
+that the problem was settled in the 1983 chapter rather than in the 1976 paper.
+The chapter's own attribution says otherwise, and without the 1976 text the
+point stays open. Read depth: the abstract, Theorem A, Problem 3 and Theorems 1
+to 4 were read at their statements. The derivation of Theorem 4 from Theorem 3
+was read for structure. The proof of Theorem 3 (Section 5, pp. 471--495) was not
+read, and nothing is independently reviewed. erdosproblems.com also credits an
+independent proof by
 [[problems/extremal_graph_theory/E1010/claims/1981_01_01_nikiforov_khadzhiivanov|Nikiforov
 and Khadzhiivanov]], whose text has not been seen. An independent Lean proof of
 the statement for every $n$, with no largeness assumption, is a pending claim of

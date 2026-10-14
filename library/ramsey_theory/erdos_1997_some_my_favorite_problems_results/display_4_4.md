@@ -60,12 +60,12 @@ our problem is a "Turán"-type problem."
 Filing observations. The letter $f$ is used twice, for the coloring
 threshold $f(k)$ and for the reciprocal-sum threshold $f(n)$; and the
 sequence is written $a_1<\cdots\le a_k\le n$ with $k$ reused for its
-length. No prize is printed for (4.4) or for the thresholds; the site's
-discussion thread for Problem 46 reports a prize from another source.
-The last display is the hypothesis of Problem 47 ($\delta\log N$), and the
-$(\log\log n)^2$ conjectures are the speculation the Problem 47 page
-records with Pomerance's construction showing that $(\log\log N)^2$ would
-be best possible.
+length. No prize is printed for (4.4) or for the thresholds; the
+erdosproblems.com discussion thread for Problem 46 reports a prize from another
+source. The last display is the hypothesis of Problem 47 ($\delta\log N$), and
+the $(\log\log n)^2$ conjectures are the speculation the Problem 47 page records
+with Pomerance's construction showing that $(\log\log N)^2$ would be best
+possible.
 
 **Source.** P. Erdős, *Some of My Favorite Problems and Results*, The
 Mathematics of Paul Erdős I (1997), 47--67; printed pp. 63--64 (PDF
@@ -90,15 +90,15 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/unit_fractions/E0046/_index|Problem 46]]: the site's source for the
-  problem; the question (4.4) in Erdős's words, with "We could never prove
-  this even for $k=2$", the finite threshold $f(k)$ and the
-  every-positive-rational conjecture that the site's commentary derives
-  from the case of $1$.
-- [[../wiki/problems/unit_fractions/E0047/_index|Problem 47]]: the site's source for the
-  problem; the $c\log n$ hypothesis is the problem's statement, stated
-  here as a belief, and the $(\log\log n)^2$ forms are the stronger
-  speculation the page records.
+- [[../wiki/problems/unit_fractions/E0046/_index|Problem 46]]: the
+  erdosproblems.com source for the problem; the question (4.4) in Erdős's words,
+  with "We could never prove this even for $k=2$", the finite threshold $f(k)$
+  and the every-positive-rational conjecture that the erdosproblems.com
+  commentary derives from the case of $1$.
+- [[../wiki/problems/unit_fractions/E0047/_index|Problem 47]]: the
+  erdosproblems.com source for the problem; the $c\log n$ hypothesis is the
+  problem's statement, stated here as a belief, and the $(\log\log n)^2$ forms
+  are the stronger speculation the page records.
 - [[../wiki/problems/unit_fractions/E0298/_index|Problem 298]]: the density form is not
   stated here; the passage's thresholds are the finite forms between it
   and the coloring question.

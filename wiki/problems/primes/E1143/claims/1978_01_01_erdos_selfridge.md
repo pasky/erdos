@@ -71,16 +71,16 @@ Selfridge. The library's card is
 The 1978 proceedings carry no finer date than the year, by which this page
 is named.
 
-**The site's account.** The site's commentary reports from [Va99] that
-Erdős and Selfridge found the exact bound for $2<\alpha<3$ and gives no
-reference. A thread comment of 2026-04-26 pointed to the two papers above,
+**erdosproblems.com's account.** The erdosproblems.com commentary reports from
+[Va99] that Erdős and Selfridge found the exact bound for $2<\alpha<3$ and gives
+no reference. A thread comment of 2026-04-26 pointed to the two papers above,
 and the curator, Thomas Bloom, wrote on 2026-04-29 that the paper of Green
 and Ruzsa on the arithmetic Kakeya conjecture cites the earlier work of
 Erdős and Selfridge, which identifies what [Va99] refers to.
 
 **Acceptance.** None listed. The paper appeared in a proceedings volume, and no
-evidence on record shows that it was refereed. The site labeled the problem
-OPEN, so the curator's commentary is not acceptance of a result on it. This
-corpus has not checked the proof.
+evidence on record shows that it was refereed. Bloom's catalog labeled the
+problem OPEN, so the curator's commentary is not acceptance of a result on it.
+This corpus has not checked the proof.
 
 **Depends on.** No page of this wiki; the result rests on the cited papers.

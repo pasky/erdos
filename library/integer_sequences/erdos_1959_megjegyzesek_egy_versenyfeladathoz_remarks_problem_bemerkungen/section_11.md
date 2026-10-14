@@ -58,10 +58,10 @@ None; elementary.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0650/_index|Problem 650]]: the lower bound
-  $f(m)\ge\sqrt m$ of the site's commentary (the paper's run of $2a_n$
-  consecutive integers fits inside a closed interval of length $2N\ge2a_n$
-  or an open one of length $2N>2a_n$, but not inside an open $(x,x+2a_n)$
-  with $x$ an integer, which holds $2a_n-1$ integers; Problem 650's page
-  takes that case from van Doorn, Li and Tang).
+  $f(m)\ge\sqrt m$ of the erdosproblems.com commentary (the paper's run of
+  $2a_n$ consecutive integers fits inside a closed interval of length
+  $2N\ge2a_n$ or an open one of length $2N>2a_n$, but not inside an open
+  $(x,x+2a_n)$ with $x$ an integer, which holds $2a_n-1$ integers; Problem 650's
+  page takes that case from van Doorn, Li and Tang).
 - [[../wiki/problems/integer_sequences/E0709/_index|Problem 709]]: the first step of the
   upper bound on $f(n)$.

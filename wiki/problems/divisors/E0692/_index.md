@@ -31,21 +31,21 @@ $\delta_1(n,m)$ achieve its maximum?
 integers with exactly one divisor in $(n,m)$. Is $\delta_1(n,m)$ unimodular
 for $m>n+1$ (i.e. increases until some $m$ then decreases thereafter)?
 
-**Notes.** The site's wording prints two questions: whether $\delta_1(n,m)$
-is unimodular in $m$, and, for fixed $n$, where it attains its maximum. Its
-label DISPROVED (LEAN) (page last edited 4 November 2025), which the site
-defines as solved in the negative, answers a yes-or-no question, and its
-commentary records only the answer to the first: Cambie's computations for
-$n=2$ and $n=3$ and Cambie's theorem [Ca25] that the sequence has
-superpolynomially many local maxima. The curator therefore reads the problem
+**Notes.** The erdosproblems.com wording prints two questions: whether
+$\delta_1(n,m)$ is unimodular in $m$, and, for fixed $n$, where it attains its
+maximum. Its label DISPROVED (LEAN) (page last edited 4 November 2025), which
+erdosproblems.com defines as solved in the negative, answers a yes-or-no
+question, and its commentary records only the answer to the first: Cambie's
+computations for $n=2$ and $n=3$ and Cambie's theorem [Ca25] that the sequence
+has superpolynomially many local maxima. The curator therefore reads the problem
 as the unimodality question, and the modified Statement keeps that question
 alone. Erdős's source supports the reading. In [Er79e], after the bound
 $\epsilon'(n,m)<c/(\log n)^\alpha$, Erdős writes: "Perhaps $\epsilon'(n,m)$
 is unimodular for $m>n+1$, but I know nothing about this. I don't know where
 $\epsilon'(n,m)$ assumes its maximum." The first sentence is a conjecture;
-the second is a remark that the site rendered as a question. The change drops
-the second question from the Statement; nothing else changes. Under the full
-wording the problem is open: unimodality is disproved, while the maximizing
+the second is a remark that erdosproblems.com rendered as a question. The change
+drops the second question from the Statement; nothing else changes. Under the
+full wording the problem is open: unimodality is disproved, while the maximizing
 $m$ is known only for $n=1$, where Cambie's Theorem 1 shows that
 $\delta_1(1,m)$ is non-increasing, so the maximum $1/2$ is attained at $m=3$
 and $m=4$; for every $n\ge2$ no recorded source determines it, and that
@@ -55,20 +55,21 @@ dip $\delta_1(3,6)=7/20>\delta_1(3,7)=1/3<\delta_1(3,8)=38/105$, Cambie's
 computer check for $2\le n\le20$ and Theorem 3 of [Ca25], recorded as
 [[problems/divisors/E0692/claims/2025_01_17_cambie|Cambie's claim page]].
 The formal-conjectures file states both questions as parts and marks the
-maximizing part research open; it counts with the site's wording, not as a
-second ruling. The "(LEAN)" suffix rests on the Aristotle formalization of
+maximizing part research open; it counts with the erdosproblems.com wording, not
+as a second ruling. The "(LEAN)" suffix rests on the Aristotle formalization of
 the finite example, linked from the claim page and not built here.
 
-**Formulation.** The site's second question, where $\delta_1(n,m)$ attains
-its maximum for fixed $n$, is recorded here as a variant with its own answer.
-For $n=1$ it is answered by Cambie's Theorem 1: $\delta_1(1,m)$ is
+**Formulation.** erdosproblems.com's second question, where $\delta_1(n,m)$
+attains its maximum for fixed $n$, is recorded here as a variant with its own
+answer. For $n=1$ it is answered by Cambie's Theorem 1: $\delta_1(1,m)$ is
 non-increasing in $m$, and
 $\delta_1(1,3)=\delta_1(1,4)=1/2>\delta_1(1,5)=1/3$, so the maximum $1/2$
 is attained at $m=3$ and $m=4$. For every $n\ge2$ the variant is open: no
 recorded source determines the maximizing $m$, and the formal-conjectures
 file marks this part research open.
 
-**Status.** DISPROVED (LEAN). The site's label describes the modified Statement.
+**Status.** DISPROVED (LEAN). The erdosproblems.com label describes the modified
+Statement.
 [[problems/divisors/E0692/claims/2025_01_17_cambie|Cambie's accepted claim]]
 disproves that Statement, so the derived standing is disproved. The Lean
 qualification refers to an Aristotle autoformalization of Cambie's finite
@@ -127,10 +128,10 @@ fixed $c>0$ and all sufficiently large $n$. This proof does not determine the
 maximizing $m$ for an arbitrary fixed $n$, the variant recorded under
 Formulation.
 
-The site's historical summary, with [Er79e] and [Fo08] as its references,
-reports the uniform estimate $\delta_1(n,m)\ll1/(\log n)^c$ for all $m$ and
-sharper Ford ranges. Ford's Theorem 4, quoted below, is the estimate Cambie's
-proof uses.
+erdosproblems.com's historical summary, with [Er79e] and [Fo08] as its
+references, reports the uniform estimate $\delta_1(n,m)\ll1/(\log n)^c$ for all
+$m$ and sharper Ford ranges. Ford's Theorem 4, quoted below, is the estimate
+Cambie's proof uses.
 
 The analytic input is Ford's Theorem 4 (printed p. 375). With
 $H(x,y,z)$ counting integers up to $x$ with at least one divisor in
@@ -149,7 +150,7 @@ is the dependency used in Cambie's Claim 4.
 The formal-conjectures file at the linked commit has `sorry` placeholders for
 its own proofs, points `erdos_692.parts.i` through a `formal_proof` attribute to
 the Aristotle gist linked from the claim page, and labels the maximizing-$m$
-part research open. The site's discussion thread links the [pinned
+part research open. The erdosproblems.com discussion thread links the [pinned
 autoformalized Lean
 gist](https://gist.githubusercontent.com/pitmonticone/96516af9100a37a1da81908dc0b0410c/raw/a1d6ca7f3835c58b257e5e715c8fdf3a224e1bd0/Erdos692.lean)
 of 2 April 2026, which this corpus has not built. Its scope is periodicity,

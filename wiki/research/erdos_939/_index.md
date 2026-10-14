@@ -61,7 +61,7 @@ with the distinctness of the summands, which the manuscript asserts but
 does not argue, supplied and labeled. The same statement is kernel-checked
 in Lean as `infinite_rpowerful_sums` inside the file that the
 [[../library/diophantine_problems/conjectures_io_2026_erdos_939_lean_r_powerful_sums/_index|Conjectures.io card]]
-records, by that site's kernel and not built here; it is not a native claim
+records, by Conjectures.io's kernel and not built here; it is not a native claim
 of this repository.
 
 **Not reconstructed.** The $r=3$ part of the problem is resolved in the

@@ -29,12 +29,12 @@ $$
 \frac{a}{b}=\frac{1}{n_1}+\cdots+\frac{1}{n_k}?
 $$
 
-**Formulation.** The statement is the site's (page last edited 21 June
+**Formulation.** The statement is erdosproblems.com's (page last edited 21 June
 2026). The denominators are semiprimes with two distinct prime factors (the
 formal file writes $\omega(n_i)=2$ and $\Omega(n_i)=2$), and $b$ squarefree
 is necessary, since a square factor of $b$ cannot divide a common
 denominator that is a product of distinct primes. The case $b=1$ (every
-natural number) is a special case; the site's commentary reports the
+natural number) is a special case; the erdosproblems.com commentary reports the
 analogous statement for denominators with three distinct prime factors,
 which is a different denominator class. The 1980 monograph (printed p. 38)
 records that the authors had proved, unpublished, the three-prime statement
@@ -45,17 +45,18 @@ however a proof of this result was never published", prove the
 natural-number case, and "conjecture that a similar result holds for
 $\omega=2$".
 
-**Status.** Open, in the site's label. The site labeled the problem OPEN (page
-last edited 21 June 2026), and the community database recorded it as open on
-2026-10-07. The frontmatter standing is `claimed` with claim `proved`. It
-derives from two pending full claims, each on its own page. The first is
+**Status.** Open, in the erdosproblems.com label. Bloom's catalog labeled the
+problem OPEN (page last edited 21 June 2026), and the community database
+recorded it as open on 2026-10-07. The frontmatter standing is `claimed` with
+claim `proved`. It derives from two pending full claims, each on its own page.
+The first is
 [[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's Lean proof]] of
 June 2026. This is a Lean development asserting the whole statement with two
 Rosser--Schoenfeld bounds taken as axioms, followed by a manuscript published in
 October 2026. The second is
 [[problems/unit_fractions/E0306/claims/2026_09_26_li|Li's elementary proof]] of
 September 2026, a preprint with a Lean formalization and the one full proof
-claim on the site's tab.
+claim on the erdosproblems.com tab.
 
 A third page,
 [[problems/unit_fractions/E0306/claims/2026_06_13_li|Li's earlier preprint]] of
@@ -63,17 +64,17 @@ June 2026, is a partial claim. It covers the case $b=1$ and every $a/b$ above an
 explicit threshold. Three further partial pages record the representations of
 $1$ by two-prime denominators that settle the instance $a/b=1$: Barbeau's of
 1977, Johnson's of 1978 and Watanabe's of 2020, each `claimed`. None of the six
-is refereed, independently reviewed or accepted by the site. This corpus has
-built none of the Lean developments. No refereed source proves the statement for
-any $a/b$ beyond finite examples for $a/b=1$. The refereed theorem on record is
-Butler, Erdős and Graham's Theorem 1, the natural-number case with three prime
-factors instead of two.
+is refereed, independently reviewed or accepted by erdosproblems.com. This
+corpus has built none of the Lean developments. No refereed source proves the
+statement for any $a/b$ beyond finite examples for $a/b=1$. The refereed theorem
+on record is Butler, Erdős and Graham's Theorem 1, the natural-number case with
+three prime factors instead of two.
 
 **Source.** [erdosproblems.com/306](https://www.erdosproblems.com/306),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that the
-problem is not one a finite computation can settle; source key [ErGr80];
-last edited 21 June 2026), its discussion thread (10 comments, 25 February
-2026 to 21 June 2026) and its proof-claim tab, empty on that date and
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that the problem is not one a finite computation can settle; source key
+[ErGr80]; last edited 21 June 2026), its discussion thread (10 comments, 25
+February 2026 to 21 June 2026) and its proof-claim tab, empty on that date and
 carrying one full claim with three comments on 2026-10-06 (the page itself
 unchanged). Cite as: T. F. Bloom, Erdős Problem #306,
 https://www.erdosproblems.com/306, accessed 2026-09-18.
@@ -82,7 +83,7 @@ https://www.erdosproblems.com/306, accessed 2026-09-18.
 
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
-  28, Université de Genève (1980), p. 38 (the site gives no page).
+  28, Université de Genève (1980), p. 38 (erdosproblems.com gives no page).
   Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [BEG15] Butler, S., Erdős, P. and Graham, R., Egyptian fractions with each
@@ -160,10 +161,11 @@ none of the three developments.
 
 ## Current assessment
 
-**The question.** The site's statement above; OPEN; last edited 21 June
+**The question.** The erdosproblems.com statement above; OPEN; last edited 21
+June
 2026. The commentary records that the three-prime analogue holds for $b=1$
-by the theorem of Butler, Erdős and Graham [BEG15], a paper the site notes
-appeared nineteen years after Erdős's death and may be his last, and that
+by the theorem of Butler, Erdős and Graham [BEG15], a paper erdosproblems.com
+notes appeared nineteen years after Erdős's death and may be his last, and that
 several representations of $1$ with two-prime denominators are known,
 Barbeau's [Ba77] the first and Watanabe's 47-term examples [Wa20] the
 shortest, with the introduction of [Wa20] cited for the history. The thread
@@ -171,10 +173,10 @@ shortest, with the introduction of [Wa20] cited for the history. The thread
 1976/77 with 101 terms; Burshtein's constructions of 2006 and 2010, for
 example 52 terms with largest denominator 1963; OEIS A201650 for Johnson's
 48-term example; Watanabe's 94 examples with 48 terms and 17 with 47), which
-the commenter credits to an AI model and which the site then used; 18 June
-2026, the author of [Li26] announces the preprint, with a disclosure of
-human--AI collaboration and a proof summary, and the site's curator replies
-the same day that the preprint claims a partial result, many rationals
+the commenter credits to an AI model and which erdosproblems.com then used; 18
+June 2026, the author of [Li26] announces the preprint, with a disclosure of
+human--AI collaboration and a proof summary, and the erdosproblems.com curator
+replies the same day that the preprint claims a partial result, many rationals
 including every integer, rather than a proof of the whole problem; two
 commenters report that the paper proves the $\omega=2$ case for all
 rationals above $1/5$ (more precisely above a threshold $T(r)$ depending on
@@ -192,8 +194,8 @@ of three distinct prime factors and $\frac ab=\sum_{i=1}^r\frac1{s_k}$
 [sic]. Whether this can be done with two prime factors is not clear." The
 same page records Barbeau's 101-term example of $1$ with two-prime
 denominators [Bar (77)] and Burshtein's earlier example with $x_i\nmid x_j$
-[Burs (73)]. The site's question is the two-prime case of the monograph's
-remark.
+[Burs (73)]. The erdosproblems.com question is the two-prime case of the
+monograph's remark.
 
 **What is proved (refereed sources).**
 [[../library/unit_fractions/butler_2015_egyptian_fractions_each_denominator_having_three/theorem_1|Theorem 1 of Butler, Erdős and Graham]]
@@ -235,8 +237,8 @@ from these pages, which hold the details of each posting.
   primes whose reciprocals sum to $1$, the first such representation, found
   with a pocket calculator; it settles the instance $a/b=1$. The venue is a
   problem-solving journal and no refereeing of the article is evidenced, and
-  the site's credit is commentary on a problem it labeled OPEN, so the page
-  lists no acceptance evidence.
+  the erdosproblems.com credit is commentary on a problem it labeled OPEN, so
+  the page lists no acceptance evidence.
 - [[problems/unit_fractions/E0306/claims/1978_08_01_johnson|Johnson's 48-term representation of 1]]
   (partial, claimed): [Jo78], a letter to the editor answering Barbeau's
   question for the fewest terms, prints the 48 denominators above; the same
@@ -275,17 +277,17 @@ from these pages, which hold the details of each posting.
   first proof and reuses its framework. The repository's Lean development
   reports the three standard axioms for a theorem proving the
   formal-conjectures proposition, which this corpus has not built. This is
-  the one full proof claim on the site's tab.
+  the one full proof claim on the erdosproblems.com tab.
 - Discussion, 25 February 2026: the compilation of examples credited to an
-  AI model was folded into the site's commentary (Barbeau, Watanabe). It
-  claims no result and has no page. Burshtein's constructions (2006, 2010)
+  AI model was folded into the erdosproblems.com commentary (Barbeau, Watanabe).
+  It claims no result and has no page. Burshtein's constructions (2006, 2010)
   and OEIS A201650 are recorded only from that comment, with no source of
   theirs cited on this page, so they have no page.
 
 **Search scope.** The status rests on these routes; none found a refereed
 proof or an accepted resolution.
 
-- The site: problem page, discussion thread, empty proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread, empty proof-claim tab; the
   community database record; formal-conjectures `306.lean` at the pinned
   commit.
 - The primary sources read as stated: [ErGr80] (p. 38), [BEG15] (pp. 2
@@ -299,7 +301,7 @@ proof or an accepted resolution.
   with unit or Egyptian fractions (two records: [Li26] and arXiv:2602.02012
   on denominators $p^aq^b$); the Zenodo API for record 20767390; the GitHub
   API for `Yuren-Tang/erdos-306` (repository, releases, head commit).
-- Later accesses: the site's proof-claims tab and its comments
+- Later accesses: the erdosproblems.com proof-claims tab and its comments
   (2026-10-06); the arXiv listing of 2609.32140 (v1 only), the Zenodo
   record and the release and commit records of both repositories, the
   Society's archive copies of Eureka 3, no. 7 and Crux Mathematicorum 4,
@@ -312,7 +314,7 @@ Burshtein's papers, Guy's problem book (D11), the Lean sources of [Li26],
 
 **Remaining gaps.** (1) Six claims, four partial (the three
 representations of $1$ and Li's June preprint) and two asserting the whole
-statement, with no refereed publication, independent review or site
+statement, with no refereed publication, independent review or erdosproblems.com
 acceptance, and three Lean developments, none built in this corpus. (2)
 The three-prime rational statement the monograph calls proved (unpublished)
 has no refereed proof; [Li26] claims one. (3) The representations of $1$ by
@@ -328,17 +330,18 @@ of $1$ are finite identities checked by exact arithmetic; the three 2026 claims
 are recorded at the level of their statements, abstracts, declarations and
 release metadata. No proof has been rewritten or independently reviewed.
 
-**Proof claims on the site (accessed 2026-10-06).** The site's proof-claims
-tab carries one full proof claim, submitted 2026-09-29 by Shisheng Li, who
-names GPT-5.6-sol, GPT-6-astra and Claude Opus 5.5 as the systems used, with
-[Li26b] as the write-up and its repository as the formalization; its summary
-asserts the whole statement and sketches the construction recorded on
+**Proof claims on erdosproblems.com (accessed 2026-10-06).** The
+erdosproblems.com proof-claims tab carries one full proof claim, submitted
+2026-09-29 by Shisheng Li, who names GPT-5.6-sol, GPT-6-astra and Claude Opus
+5.5 as the systems used, with [Li26b] as the write-up and its repository as the
+formalization; its summary asserts the whole statement and sketches the
+construction recorded on
 [[problems/unit_fractions/E0306/claims/2026_09_26_li|its claim page]]. Its
 three comments (29 September to 3 October 2026) are an exchange with Tang,
 who welcomes the proof, reports simplifying their own and publishes their August
 manuscript (recorded on
 [[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's claim page]]);
-none is a review. The site labeled the problem OPEN; its page, accessed
+none is a review. Bloom's catalog labeled the problem OPEN; its page, accessed
 2026-10-07, was last edited 21 June 2026.
 <!-- BEGIN problem library links -->
 

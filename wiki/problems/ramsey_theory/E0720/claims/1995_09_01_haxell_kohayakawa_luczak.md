@@ -54,16 +54,16 @@ bound $r_e(P^\ell,r)\le c_r\ell$ (p. 2) and says its main result settles
 Graham and Rödl's question whether a linear bound also holds for induced
 Ramsey numbers of paths (abstract; p. 2). Beck's earlier path bound has its
 own [[problems/ramsey_theory/E0720/claims/1983_03_01_beck|claim page]], and
-the site credits Beck with the cycle bound too. This paper (p. 3) attributes
-the plain, non-induced linear bound for cycles to Bollobás, Burr and a third
-person the preprint leaves unnamed and the published abstract names as Reimer,
-as a personal communication of November 1992, and says its proof of Theorem 10
-can be simplified to a direct proof of that bound; it is the first published
-proof of $\hat r(C_n)=O(n)$ among the sources read. Explicit constants came
-later: Javadi, Khoeini, Omidi and Pokrovskiy give $\hat r(C_n)\le10^5\cdot cn$
-for large $n$ with $c=6.5$ for even and $c=1989$ for odd $n$ (Combin. Probab.
-Comput. 28 (2019)), improving the $10^6\cdot cn$ with $c=843$ and $c=113482$
-of their 2017 preprint.
+erdosproblems.com credits Beck with the cycle bound too. This paper (p. 3)
+attributes the plain, non-induced linear bound for cycles to Bollobás, Burr and
+a third person the preprint leaves unnamed and the published abstract names as
+Reimer, as a personal communication of November 1992, and says its proof of
+Theorem 10 can be simplified to a direct proof of that bound; it is the first
+published proof of $\hat r(C_n)=O(n)$ among the sources read. Explicit constants
+came later: Javadi, Khoeini, Omidi and Pokrovskiy give
+$\hat r(C_n)\le10^5\cdot cn$ for large $n$ with $c=6.5$ for even and $c=1989$
+for odd $n$ (Combin. Probab. Comput. 28 (2019)), improving the $10^6\cdot cn$
+with $c=843$ and $c=113482$ of their 2017 preprint.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.
@@ -74,8 +74,8 @@ record, accessed 2026-10-07); the day in the page name is a placeholder.
 
 **Acceptance.** Refereed: Combin. Probab. Comput. 4 (1995), no. 3, 217--239.
 On 2026-09-18 Semantic Scholar listed roughly 95 citing records, none of them,
-by its title, a dispute. The site's commentary does not cite the paper. It
-credits the cycle bound to Beck.
+by its title, a dispute. The erdosproblems.com commentary does not cite the
+paper. It credits the cycle bound to Beck.
 
 **Read depth.** Claims checked: the basis is Theorem 10 and Corollary 11
 (preprint p. 11) and the attribution (p. 3 and reference [6], p. 21); no

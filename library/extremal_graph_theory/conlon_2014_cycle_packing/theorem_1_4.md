@@ -16,7 +16,7 @@ updated: 2026-10-07T19:30:53Z
 "Theorem 1.4. Every graph $G$ on $n$ vertices with minimum degree $cn$ can be
 decomposed into at most $O(c^{-12}n)$ cycles and edges."
 
-For fixed $c>0$ this is a linear bound $O_c(n)$; the site writes it as
+For fixed $c>0$ this is a linear bound $O_c(n)$; erdosproblems.com writes it as
 "$O_\epsilon(n)$ cycles and edges suffice if $G$ has minimum degree at least
 $\epsilon n$".
 
@@ -48,5 +48,5 @@ Internal lemmas of the paper and of the proof of
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]]: the conjecture holds
-  for graphs of linear minimum degree, the special case the site's commentary
-  names; not the general statement.
+  for graphs of linear minimum degree, the special case the erdosproblems.com
+  commentary names; not the general statement.

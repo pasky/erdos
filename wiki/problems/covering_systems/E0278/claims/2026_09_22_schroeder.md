@@ -77,8 +77,8 @@ the Zenodo record (both linked above) and arguing that a satisfactory answer to
 the first question should combine arithmetic structure with a complexity
 analysis; it is not on the proof-claims tab and had no replies on 2026-10-06.
 
-**Submission note.** Posted to the site's forum by Michael Schroeder on 23
-September 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Michael Schroeder
+on 23 September 2026:
 
 > Great to see two proof claims to this problem. It seems the central question
 > is now what a satisfactory solution to the maximum-density part of #278 should
@@ -134,8 +134,8 @@ argues hardness for related formulations; the second question is Simpson's.
 **Depends on.** Nothing in this wiki.
 
 **Standing.** Claimed: the manuscript is a Zenodo preprint with no journal
-publication, referee report or curator acceptance located; the site labeled
-the problem OPEN (page last edited 20 January 2026). The Zenodo publication
-date, 2026-09-22, gives the page its date. The Lean companion sits inside the
-archive, and this corpus has not built or audited it, so it gives no
+publication, referee report or curator acceptance located; Bloom's catalog
+labeled the problem OPEN (page last edited 20 January 2026). The Zenodo
+publication date, 2026-09-22, gives the page its date. The Lean companion sits
+inside the archive, and this corpus has not built or audited it, so it gives no
 `formalized` evidence; it is described and not linked as a formalization.

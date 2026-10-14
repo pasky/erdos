@@ -41,9 +41,10 @@ Mathematics **164** (1997), 81--85, PII S0012-365X(96)00044-1, DOI
 the Hungarian Academy of Sciences, Mathematical Inst., Budapest (head of
 p. 81). The issue is a conference volume (the paper speaks of "the meeting
 held last year in Keszthely" and "the trip to our meeting"). Cited as
-[Er97d] on the problem pages, the site's key. Its one reference (p. 85) is
-Erdős, Fon-Der-Flaass, Kostochka and Tuza, Small transversals in uniform
-hypergraphs, Siberian Adv. Math. 2 (1992), 82--88, not filed in the library.
+[Er97d] on the problem pages, the erdosproblems.com key. Its one reference
+(p. 85) is Erdős, Fon-Der-Flaass, Kostochka and Tuza, Small transversals in
+uniform hypergraphs, Siberian Adv. Math. 2 (1992), 82--88, not filed in the
+library.
 
 The copy read for this card is the publisher's scan of the printed article:
 5 pages, printed
@@ -151,7 +152,7 @@ without a heading word; the later literature calls them "Problem 10",
   different degrees"; an earlier Erdős--Hajnal result guarantees only that
   the number of distinct degree values grows to infinity with $n$. Both
   conjectures grew out of a problem of Alon and Bollobás. The first
-  conjecture is the site's Problem 636.
+  conjecture is erdosproblems.com's Problem 636.
 - Item 8 (p. 83, page image), the conjecture quoted as printed: "Brandon,
   McKay and I conjectured that if $G(n;cn^2)$ has no trivial subgraph of
   size $>c\log n$ then for every $t<\varepsilon n^2$ our $G$ has an induced
@@ -174,8 +175,8 @@ without a heading word; the later literature calls them "Problem 10",
   some triangle has at least $n+2$ vertices joined to it, and that $n+2$ is
   best possible. The first sentence is stated as a result with no
   attribution or reference; Grzesik, Hu and Volec (arXiv:1605.09055v3, PDF
-  p. 2) and the site's Problem 608 commentary credit it to Erdős, citing
-  this paper; Problem 608 cites Erdős, Faudree and Rousseau's 1992 paper
+  p. 2) and erdosproblems.com's Problem 608 commentary credit it to Erdős,
+  citing this paper; Problem 608 cites Erdős, Faudree and Rousseau's 1992 paper
   [EFR92], which was not read here, for the triangle count
   $2\lfloor n/2\rfloor+1$ and the $C_{2k+1}$ conjecture.
 - Item 12 (p. 84): the Erdős--Hajnal questions: is there $f(k)$ such that
@@ -203,9 +204,9 @@ without a heading word; the later literature calls them "Problem 10",
   of a family of $k$-sets every $r$ of which have a transversal of $s$
   elements: $f(k,3,2)=2k$, $f(k,4,2)=\lceil3k/2\rceil$,
   $f(k,5,2)=\lceil5k/4\rceil$ (printed with square brackets, $[3k/2]$ and
-  $[5k/4]$, which the site reads as floors; read here as ceilings because
-  floors fail at $k=3$: all 3-subsets of a 7-set satisfy the condition for
-  $r=4$ and need 5 points, and all 3-subsets of a 6-set satisfy it for $r=5$
+  $[5k/4]$, which erdosproblems.com reads as floors; read here as ceilings
+  because floors fail at $k=3$: all 3-subsets of a 7-set satisfy the condition
+  for $r=4$ and need 5 points, and all 3-subsets of a 6-set satisfy it for $r=5$
   and need 4), $f(k,6,2)=k$ ("quite tricky for odd $k$");
   the expectations $f(k,7,2)=(1+o(1))\frac34k$ and
   $f(k,r,2)=(1+o(1))c_rk$; the case $s>2$ is left uninvestigated.
@@ -244,59 +245,59 @@ clause on the page images and quoted above or on the result pages for items
 identification only. The paper proves nothing, and nothing here is
 independently reviewed.
 
-**Bears on.** [[../wiki/problems/graph_coloring/E0019/_index|#19]], as the site's source
-Er97d: item 1 (p. 81) states the Erdős--Faber--Lovász conjecture in the
-edge-disjoint-cliques form, records the prize offer and Kahn's bound
-$\le n(1+o(1))$ with its consolation prize, and asks the two
-variants with $G_i\cap G_j$ triangle-free or of at most one edge.
-[[../wiki/problems/ramsey_theory/E0077/_index|#77]], as the site's source Er97d: item 6
-(p. 83) states the Ramsey limit in the inverse form (7),
+**Bears on.** [[../wiki/problems/graph_coloring/E0019/_index|#19]], as the
+erdosproblems.com source Er97d: item 1 (p. 81) states the Erdős--Faber--Lovász
+conjecture in the edge-disjoint-cliques form, records the prize offer and Kahn's
+bound $\le n(1+o(1))$ with its consolation prize, and asks the two variants with
+$G_i\cap G_j$ triangle-free or of at most one edge.
+[[../wiki/problems/ramsey_theory/E0077/_index|#77]], as the erdosproblems.com
+source Er97d: item 6 (p. 83) states the Ramsey limit in the inverse form (7),
 $k(n)/\log n\to c$ for the largest trivial subgraph every $G(n)$ must
 contain, with the offers for a proof, for the value of $c$ and for a
 disproof, "cheating since (7) clearly
 holds"; the printed bounds on $c$ are recorded above with an observation.
-[[../wiki/problems/ramsey_theory/E0088/_index|#88]], as the site's source Er97d: item 8
-(p. 83) states the Erdős--McKay conjecture with the hypothesis of $cn^2$
-edges and no trivial subgraph of size $>c\log n$, and records the partial
-result $t<c(\log n)^2$ as their own.
-[[../wiki/problems/ramsey_theory/E0636/_index|#636]], as the site's source Er97d: item 7
-(p. 83), the first conjecture, made with Sós and Faudree: at least
-$cn^{5/2}$ induced subgraphs pairwise differing in vertex or edge count when
-$G(n)$ has no trivial subgraph of size $c\log n$, with the proved
+[[../wiki/problems/ramsey_theory/E0088/_index|#88]], as the erdosproblems.com
+source Er97d: item 8 (p. 83) states the Erdős--McKay conjecture with the
+hypothesis of $cn^2$ edges and no trivial subgraph of size $>c\log n$, and
+records the partial result $t<c(\log n)^2$ as their own.
+[[../wiki/problems/ramsey_theory/E0636/_index|#636]], as the erdosproblems.com
+source Er97d: item 7 (p. 83), the first conjecture, made with Sós and Faudree:
+at least $cn^{5/2}$ induced subgraphs pairwise differing in vertex or edge count
+when $G(n)$ has no trivial subgraph of size $c\log n$, with the proved
 $cn^{3/2}$ and the remark that $cn^{5/2}$, if true, is best possible.
-[[../wiki/problems/ramsey_theory/E0637/_index|#637]], as the site's source Er97d: item 7
-(p. 83), the second conjecture, that a $G(n)$ with no trivial subgraph of
-size $c\log n$ has an induced subgraph on $c_1n$ vertices taking
-$c_2n^{1/2}$ distinct degree values, attributed to Sós, Faudree and Erdős,
-with the Erdős--Hajnal result that the number of distinct degrees tends to
-infinity.
-[[../wiki/problems/ramsey_theory/E0638/_index|#638]], as the site's source Er97d: item 9
-(pp. 83--84), the original wording of the problem, with the sentence the
-site quotes, "If the answer is affirmative many extensions and
-generalisations will be possible"; paged on
+[[../wiki/problems/ramsey_theory/E0637/_index|#637]], as the erdosproblems.com
+source Er97d: item 7 (p. 83), the second conjecture, that a $G(n)$ with no
+trivial subgraph of size $c\log n$ has an induced subgraph on $c_1n$ vertices
+taking $c_2n^{1/2}$ distinct degree values, attributed to Sós, Faudree and
+Erdős, with the Erdős--Hajnal result that the number of distinct degrees tends
+to infinity. [[../wiki/problems/ramsey_theory/E0638/_index|#638]], as the
+erdosproblems.com source Er97d: item 9 (pp. 83--84), the original wording of the
+problem, with the sentence erdosproblems.com quotes, "If the answer is
+affirmative many extensions and generalisations will be possible"; paged on
 [[ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/problem_9|problem_9]].
-[[../wiki/problems/ramsey_theory/E0639/_index|#639]], as the site's source Er97d: item 10
-(p. 84), the statement that Erdős, Rousseau and Schelp proved the bound
-$n^2/4$ "for large $n$", printed without proof or reference, the primary
-attestation of the unpublished result that page records as [ERS]; paged on
+[[../wiki/problems/ramsey_theory/E0639/_index|#639]], as the erdosproblems.com
+source Er97d: item 10 (p. 84), the statement that Erdős, Rousseau and Schelp
+proved the bound $n^2/4$ "for large $n$", printed without proof or reference,
+the primary attestation of the unpublished result that page records as [ERS];
+paged on
 [[ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/problem_10|problem_10]].
-[[../wiki/problems/extremal_graph_theory/E0608/_index|#608]], as the site's source Er97d:
-item 11 (p. 84), "Perhaps there are at least $2n^2/9$ edges which occur in
-a pentagon" for every $G(n;\lfloor n^2/4\rfloor+1)$, stated after the odd
-cycle theorem and with the triangle-neighborhood statement that would
-imply it; the problem page's status rests on the 2019 construction, which
-this passage does not affect.
-[[../wiki/problems/ramsey_theory/E0076/_index|#76]], as the site's source Er97d: item 14
-(p. 84), the Erdős--Faudree--Ordman question
+[[../wiki/problems/extremal_graph_theory/E0608/_index|#608]], as the
+erdosproblems.com source Er97d: item 11 (p. 84), "Perhaps there are at least
+$2n^2/9$ edges which occur in a pentagon" for every
+$G(n;\lfloor n^2/4\rfloor+1)$, stated after the odd cycle theorem and with the
+triangle-neighborhood statement that would imply it; the problem page's status
+rests on the 2019 construction, which this passage does not affect.
+[[../wiki/problems/ramsey_theory/E0076/_index|#76]], as the erdosproblems.com
+source Er97d: item 14 (p. 84), the Erdős--Faudree--Ordman question
 $f(n)=(1+o(1))n^2/12$ with the one-color question and the expectation
-"greater than $(1+\varepsilon)n^2/24$", which the site's commentary
+"greater than $(1+\varepsilon)n^2/24$", which the erdosproblems.com commentary
 paraphrases as "$\ge cn^2$ for some constant $c>1/24$"; paged on
 [[ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/problem_14|problem_14]].
-[[../wiki/problems/set_systems/E0644/_index|#644]], as the site's source Er97d: item 16
-(p. 85) defines the same transversal parameter as $f(k,r,2)$, records the
-exact cases for $3\le r\le6$, and states both the $r=7$ asymptotic and the
-general fixed-$r$ asymptotic as expectations. The paper gives no proof and
-points to its reference [1] for the neighboring exact results.
+[[../wiki/problems/set_systems/E0644/_index|#644]], as the erdosproblems.com
+source Er97d: item 16 (p. 85) defines the same transversal parameter as
+$f(k,r,2)$, records the exact cases for $3\le r\le6$, and states both the $r=7$
+asymptotic and the general fixed-$r$ asymptotic as expectations. The paper gives
+no proof and points to its reference [1] for the neighboring exact results.
 
 **Results.**
 

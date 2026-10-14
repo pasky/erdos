@@ -91,9 +91,9 @@ paragraph continues with f(n), the least length of a sequence 1 <= x_1 <
 ... <= n forced to contain a subset with reciprocal sum 1, and asks whether
 f(n)/n -> 0, "in other words" whether every sequence of positive lower
 density contains such a subset; that is the density question of problem
-298, which problem 47's delta log N threshold implies and which the site
-keys to this paper for problem 47 as well (its row below). The passage was
-read on the page image; no proof is given.
+298, which problem 47's delta log N threshold implies and which
+erdosproblems.com keys to this paper for problem 47 as well (its row below). The
+passage was read on the page image; no proof is given.
 
 For #13, printed p. 42 (PDF p. 9), the opening of Section 4, read on the page
 image: "Let $a_1<a_2<\cdots$ be a sequence of integers. It is said to have
@@ -111,8 +111,8 @@ the sum of exactly $r$ larger $a$'s." The finite bound is printed with a
 strict inequality, $k<[x/3]+1$, one less than the $[x/3]+1$ of the 1970
 paper. The general version is printed with $x/r$ and the example
 $x(1-1/r)\le a_i\le x$; for $r=2$ that example, $[x/2,x]$, does not have
-property $P$ (for $x=100$, $50\mid70+80$), and the site's reading of the
-passage, $|A|\le N/(r+1)+O(1)$ with $r$ summands, is the one for which the
+property $P$ (for $x=100$, $50\mid70+80$), and erdosproblems.com's reading of
+the passage, $|A|\le N/(r+1)+O(1)$ with $r$ summands, is the one for which the
 interval $(rN/(r+1),N]$ is an example; both forms are recorded as printed.
 Read status for this passage: claims checked on the page image.
 

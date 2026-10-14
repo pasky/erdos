@@ -49,8 +49,8 @@ $\delta_3(5)\ge1/12>0$ and the statement fails for every $\delta<1/12$;
 and
 [[../library/extremal_graph_theory/liu_2021_geometric_constructions_ramsey_turan_theory/theorem_1_4|Theorem 1.4]]
 state the value as $\varrho_3(5)=1/6$ in the paper's normalization by
-$\binom n2$, which is $\delta_3(5)=1/12$ in the site's normalization by $n^2$
-(the conversion is on
+$\binom n2$, which is $\delta_3(5)=1/12$ in the erdosproblems.com normalization
+by $n^2$ (the conversion is on
 [[problems/extremal_graph_theory/E0533/_index|the problem page]]). The matching
 upper bound $\delta_3(5)\le1/12$ is the origin paper's, announced in 1983 and
 quoted by Balogh and Lenz and by this paper, and is recorded on
@@ -67,11 +67,11 @@ no. 1, 79--112, doi:10.4171/jems/1712 (Crossref record of 2026-09-18, issued 20
 October 2025). The arXiv listing says "to appear in JEMS". The text cited is the
 arXiv v2 of 18 August 2025. The journal text is not held and was not compared.
 
-Reviewed: the site's curator, Thomas F. Bloom, wrote in the problem's thread on
-27 January 2026 that this paper resolves the question completely. The site's
-commentary (accessed 2026-09-18) gives $1/12$ as the exact value of
-$\delta_3(5)$ and attributes the matching lower bound to this construction. The
-proof-claim tab is empty.
+Reviewed: the erdosproblems.com curator, Thomas F. Bloom, wrote in the problem's
+thread on 27 January 2026 that this paper resolves the question completely. The
+erdosproblems.com commentary (accessed 2026-09-18) gives $1/12$ as the exact
+value of $\delta_3(5)$ and attributes the matching lower bound to this
+construction. The proof-claim tab is empty.
 
 Not formalized: the Lean file linked above is in plby/lean-proofs, pinned at a
 repository commit of 15 September 2026. The file was first committed in

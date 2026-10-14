@@ -25,35 +25,37 @@ sufficiently large $n$, there exists a graph $G$ on $n$ vertices with at least
 $\epsilon n^2$ many edges such that the edges can be coloured with $n$ colours
 so that every $C_4$ receives $4$ distinct colours?
 
-**Formulation.** The site's wording on 2026-09-18 (page last edited 1 April
-2026). In the notation of Burr, Erdős, Graham and Sós (1989) the question is
-whether some $\epsilon>0$ has $\chi_S(n,\epsilon n^2,C_4)\le n$ for all large
-$n$, as the site's commentary says; their function counts graphs with exactly
-$e$ edges, and the site's "at least $\epsilon n^2$ edges" asks the same, because
-deleting edges keeps every remaining $C_4$ rainbow and adds no color (the 1989
-paper calls $\chi_S$ nondecreasing in $e$ on its p. 281). The 1989 authors
-expected the answer to be no. The site's source key is printed "[BEGS8,p.273]",
-a misprint of BEGS89 that the commentary's "[BEGS89]" corrects.
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (page last edited 1
+April 2026). In the notation of Burr, Erdős, Graham and Sós (1989) the question
+is whether some $\epsilon>0$ has $\chi_S(n,\epsilon n^2,C_4)\le n$ for all large
+$n$, as the erdosproblems.com commentary says; their function counts graphs with
+exactly $e$ edges, and erdosproblems.com's "at least $\epsilon n^2$ edges" asks
+the same, because deleting edges keeps every remaining $C_4$ rainbow and adds no
+color (the 1989 paper calls $\chi_S$ nondecreasing in $e$ on its p. 281). The
+1989 authors expected the answer to be no. The erdosproblems.com source key is
+printed "[BEGS8,p.273]", a misprint of BEGS89 that the commentary's "[BEGS89]"
+corrects.
 
-**Status.** Open: the site labeled the problem OPEN (last edited 1 April 2026),
-and no source found in the search of 2026-09-18 proves or refutes the statement.
-The 1989 paper states without proof that $n$ colors suffice for $C_4$ at
-$e=c\,g(n;7,4)$ edges. This reaches $\epsilon n^2$ only if $g(n;7,4)$ has order
-$n^2$, which is itself an open question (the site's Problem 1178). The paper's
-second bound, $n$ colors at $e=c\,r_4(n)$ edges, is trivially true as printed.
-This is because $r_4(n)=o(n)$ by Szemerédi's theorem, and a graph with at most
-$n$ edges can give every edge its own color. It is probably a misprint for
-$e=c\,n\,r_4(n)$, on the model of the paper's $P_4$ bound (6.3), a bound that is
-unproved and still $o(n^2)$. Sárközy and Selkow proved in 2006 that for every
-connected bipartite $L$ that is not complete bipartite and every $\alpha,c>0$,
-$\chi_S(n,e,L)>cn$ once $e>\alpha n^2$ and $n$ is large in terms of $\alpha$,
-$c$ and $L$. They wrote that the question "still remains open for complete
-bipartite graphs that are not stars, for instance for $C_4$". The search dated
-2026-09-18 UTC, whose scope the Current assessment records, found nothing later
-on $C_4$. This is a bounded negative finding, not a certificate of openness.
+**Status.** Open: Bloom's catalog labeled the problem OPEN (last edited 1 April
+2026), and no source found in the search of 2026-09-18 proves or refutes the
+statement. The 1989 paper states without proof that $n$ colors suffice for $C_4$
+at $e=c\,g(n;7,4)$ edges. This reaches $\epsilon n^2$ only if $g(n;7,4)$ has
+order $n^2$, which is itself an open question (erdosproblems.com's Problem
+1178). The paper's second bound, $n$ colors at $e=c\,r_4(n)$ edges, is trivially
+true as printed. This is because $r_4(n)=o(n)$ by Szemerédi's theorem, and a
+graph with at most $n$ edges can give every edge its own color. It is probably a
+misprint for $e=c\,n\,r_4(n)$, on the model of the paper's $P_4$ bound (6.3), a
+bound that is unproved and still $o(n^2)$. Sárközy and Selkow proved in 2006
+that for every connected bipartite $L$ that is not complete bipartite and every
+$\alpha,c>0$, $\chi_S(n,e,L)>cn$ once $e>\alpha n^2$ and $n$ is large in terms
+of $\alpha$, $c$ and $L$. They wrote that the question "still remains open for
+complete bipartite graphs that are not stars, for instance for $C_4$". The
+search dated 2026-09-18 UTC, whose scope the Current assessment records, found
+nothing later on $C_4$. This is a bounded negative finding, not a certificate of
+openness.
 
 **Source.** [erdosproblems.com/810](https://www.erdosproblems.com/810),
-accessed 2026-09-18: the problem page (OPEN, marked by the site as not
+accessed 2026-09-18: the problem page (OPEN, marked by erdosproblems.com as not
 resolvable by a finite computation; last edited 1 April 2026; source keys
 [BEGS8, p. 273] and [Er91, p. 399]; commentary citing [BEGS89], [SaSe06] and
 Problem 1178), its nine-comment discussion thread (7 December 2025 to 1 April
@@ -66,8 +68,8 @@ Problem 1178), its nine-comment discussion thread (7 December 2025 to 1 April
   antiramsey graphs and the strong chromatic number. J. Graph Theory 13
   (1989), no. 3, 263--282, doi:10.1002/jgt.3190130302. Theorems 6.1--6.2,
   p. 271; Theorem 6.3, p. 272; the $C_4$ passage, p. 273; the Rényi
-  archive's scan of the paper is public. The site's key "BEGS8" is this
-  paper. Library home:
+  archive's scan of the paper is public. The erdosproblems.com key "BEGS8" is
+  this paper. Library home:
   [[../library/ramsey_theory/burr_1989_maximal_anti_ramsey_graphs_strong_chromatic/_index|burr_1989_maximal_anti_ramsey_graphs_strong_chromatic]].
 - [SaSe06] Sárközy, G. N. and Selkow, S., On an anti-Ramsey problem of
   Burr, Erdős, Graham, and T. Sós. J. Graph Theory 52 (2006), no. 2,
@@ -77,9 +79,9 @@ Problem 1178), its nine-comment discussion thread (7 December 2025 to 1 April
   [[../library/ramsey_theory/sarkozy_2006_anti_ramsey_problem_burr_erdos_graham_sos/_index|sarkozy_2006_anti_ramsey_problem_burr_erdos_graham_sos]].
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and
-  applications, Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406 (as the site's
-  reference text prints it); the site cites p. 399. Not held: the paper is
-  past the Rényi archive's 1989 cutoff.
+  applications, Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406 (as the
+  erdosproblems.com reference text prints it); erdosproblems.com cites p. 399.
+  Not held: the paper is past the Rényi archive's 1989 cutoff.
 - [RuSz78] Ruzsa, I. Z. and Szemerédi, E., Triple systems with no six points
   carrying three triangles. Combinatorics II, North-Holland, Amsterdam
   (1978), 939--945 (as the 1989 paper's reference list prints it); its
@@ -93,17 +95,17 @@ Problem 1178), its nine-comment discussion thread (7 December 2025 to 1 April
   may be that paper; not held, and the identification is unverified.
 
 **Formalization.** None. formal-conjectures had no file
-`ErdosProblems/810.lean` on 2026-09-18; the site's page shows "Formalised
-statement? No", and the community database (teorth/erdosproblems,
+`ErdosProblems/810.lean` on 2026-09-18; the erdosproblems.com page shows
+"Formalised statement? No", and the community database (teorth/erdosproblems,
 2026-09-18) records the problem open, not formalized, with no formal proof
 (record last updated 31 August 2025).
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; OPEN;
-last edited 1 April 2026; source keys [BEGS8, p. 273], [Er91, p. 399]. The
-commentary, in summary, attributes the problem to Burr, Erdős, Graham and Sós
-[BEGS89], who expected a negative answer; defines the anti-Ramsey number
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN; last edited 1 April 2026; source keys [BEGS8, p. 273], [Er91, p.
+399]. The commentary, in summary, attributes the problem to Burr, Erdős, Graham
+and Sós [BEGS89], who expected a negative answer; defines the anti-Ramsey number
 $\chi_S(n,e,G)$ as the least $r$ for which some graph with $n$ vertices and
 $e$ edges has an $r$-coloring of its edges making every copy of $G$ rainbow,
 and restates the question as whether some $\epsilon>0$ has $\chi_S(n,\epsilon
@@ -164,7 +166,7 @@ not reconstructed in this repository.
 and the monotonicity of $\chi_S$ in $e$: if $c\,g(n;7,4)\ge\epsilon n^2$ for
 all large $n$, the answer to the problem is yes; equivalently, a negative
 answer forces $g(n;7,4)<\epsilon n^2/c$ for infinitely many $n$, for every
-$\epsilon>0$. Whether $g(n;7,4)=o(n^2)$ is the site's
+$\epsilon>0$. Whether $g(n;7,4)=o(n^2)$ is erdosproblems.com's
 [[problems/set_systems/E1178/_index|Problem 1178]]. The thread below states
 the same implication in contrapositive form, a negative answer bounding
 $g(n;7,4)$ (the comment says $o(n^2)$; the exact contrapositive is the
@@ -194,7 +196,8 @@ December 2025 to 1 April 2026.
   colored by the third vertex has all its $C_4$s rainbow, a non-rainbow
   $C_4$ being a $(7,4)$-configuration. On 1 April 2026 a co-author of the
   2026 paper on Problem 809 noted that the implication is already in the
-  1989 paper, and the site's author added the p. 273 material the same day.
+  1989 paper, and erdosproblems.com's author added the p. 273 material the same
+  day.
 - 11 December 2025: Tao posted computer-found $n$-colored graphs on
   $n=4,\ldots,25$ vertices with all $C_4$s rainbow, found with AlphaEvolve,
   which gives no optimality guarantee, with edge counts, as the comment
@@ -209,7 +212,7 @@ December 2025 to 1 April 2026.
 or disproof of the statement, a lower bound for $\chi_S(n,\epsilon n^2,C_4)$
 beyond the announced ones, or a determination of the order of $g(n;7,4)$.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures (no file 810); the community database.
 - Crossref: the DOI records of [SaSe06] and [BEGS89].
 - Semantic Scholar: the citation list of [SaSe06] (ten records, 2010--2026,
@@ -235,7 +238,7 @@ n$ of 1989 is asserted without proof (the paper's second bound, at
 $c\,r_4(n)$ edges, is trivially true as printed and probably a misprint for
 $c\,n\,r_4(n)$, also unproved), and the $O(n^2/\log n)$ bound of Theorem 6.2
 has its proof in a paper not located; nothing between them and the trivial
-bounds is proved in the sources cited. (2) [Er91], the site's second
+bounds is proved in the sources cited. (2) [Er91], erdosproblems.com's second
 source, is not held; its p. 399 passage is second-hand. (3) The 2026 $P_4$
 preprints are known by title only, and arXiv abstract searches were not
 covered in the search; the reopening condition is a paper bounding

@@ -76,6 +76,6 @@ bandwidth formula, at statement level.
 
 - [[../wiki/problems/additive_combinatorics/E0817/_index|Problem 817]]: the best
   source-supported lower bound for $g_3(n)$, sharpening the polynomial
-  factor in Erdős and Sárközy's $g_3(n)\gg3^n/n^{O(1)}$ (the site's
-  commentary); the paper leaves the site's question $g_3(n)\gg3^n$ open
-  (p. 2: "the problem remains open in that form"). A preprint.
+  factor in Erdős and Sárközy's $g_3(n)\gg3^n/n^{O(1)}$ (the erdosproblems.com
+  commentary); the paper leaves the erdosproblems.com question $g_3(n)\gg3^n$
+  open (p. 2: "the problem remains open in that form"). A preprint.

@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 481, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0481/claims
@@ -21,9 +21,10 @@ positive integer multipliers and rational shifts generate a non-free semigroup
 when the reciprocals of the multipliers sum to more than one. The problem is a
 special case.
 
-[[problems/integer_sequences/E0481/claims/2025_12_01_barreto|2025_12_01_barreto]]: An elementary proof by Kevin Barreto and Claude Opus 4.5, posted in the site's
-thread, shows that distinct entries would make the reciprocal sum over $A_k$
-grow geometrically, although it is bounded by a harmonic number of order $k$.
-The site accepted it as Klarner's proof refound.
+[[problems/integer_sequences/E0481/claims/2025_12_01_barreto|2025_12_01_barreto]]: An elementary proof by Kevin Barreto and Claude Opus 4.5, posted in the
+erdosproblems.com thread, shows that distinct entries would make the
+reciprocal sum over $A_k$ grow geometrically, although it is bounded by a
+harmonic number of order $k$. erdosproblems.com accepted it as Klarner's proof
+refound.
 
 ***

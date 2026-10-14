@@ -92,5 +92,5 @@ Chakraborti, Janzer, Methuku and Montgomery [2].
   the variant in the problem page's Formulation; as printed the theorem
   gives a 6-almost-regular subgraph on at least of order
   $n^\alpha/\log n$ vertices with $\gg_\alpha m^{1+\alpha}$ edges (the
-  deduction above), while the site's "$m\gg n^\alpha$" rests on a forum
+  deduction above), while erdosproblems.com's "$m\gg n^\alpha$" rests on a forum
   reading of the proof.

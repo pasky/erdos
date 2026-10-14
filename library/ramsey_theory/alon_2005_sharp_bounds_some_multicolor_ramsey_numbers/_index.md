@@ -153,9 +153,9 @@ vertices, is $2$-colorable without a monochromatic triangle and has
 independence number below $m=c\,n^{1/3}(\log n)^2$, since an independent
 set of it is a clique of color $3$; the conversion to the problem's
 statement is written on the problem page and is the page's, not the
-paper's. The site restates the question as whether $R(3,3,m)$ is at most
-$m^{3-c}$ for some $c>0$; that restatement and the bounds the site quotes
-are Theorem 3.2's two bounds at $k=2$ with the Remark's removal of
+paper's. Bloom's catalog restates the question as whether $R(3,3,m)$ is at most
+$m^{3-c}$ for some $c>0$; that restatement and the bounds erdosproblems.com
+quotes are Theorem 3.2's two bounds at $k=2$ with the Remark's removal of
 $\log\log m$.
 
 No file of this source is held: no license on record permits its redistribution,

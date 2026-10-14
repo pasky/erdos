@@ -40,6 +40,6 @@ equivalent, since finitely many steps join the origin to any Gaussian prime.
 
 **Standing.** Withdrawn by its author: version 2 of the arXiv record carries
 the comment "The width of the moat was not correctly computed". The claim
-was never accepted: the site's page, thread and label never mentioned it. The
-problem's standing is unaffected; the negative answer is proved by
+was never accepted: the erdosproblems.com page, thread and label never mentioned
+it. The problem's standing is unaffected; the negative answer is proved by
 [[problems/number_theory/E0952/claims/2026_09_26_openai|the accepted 2026 claim]].

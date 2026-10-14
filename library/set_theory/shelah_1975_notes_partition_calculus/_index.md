@@ -41,8 +41,8 @@ problem page and as [152] in Komjáth's 2025 survey,
 The scan's pages print only the series header, "Colloquia Mathematica
 Societatis János Bolyai" above "10. Infinite and finite sets, Keszthely
 (Hungary), 1973." (p. 1257, set in capitals); the volume number, publisher
-and dedication are the archive's and zbMATH's bibliographic data. The site's
-own bibliography entry for [Sh75] omits the venue.
+and dedication are the archive's and zbMATH's bibliographic data.
+erdosproblems.com's own bibliography entry for [Sh75] omits the venue.
 
 The paper treats five problems of the 1971 Erdős--Hajnal list, its reference
 [1], in four sections. Section 1 solves Problem 3, asked by Erdős, Hajnal and
@@ -197,10 +197,10 @@ The paper is compiled at statement depth for the results Problem 1219
 consumes: Theorem 1.2 and Corollary 1.3 (p. 1260) and Conjecture 1A
 (p. 1261), each read on the page images and given a result page. The proofs
 of Lemma 1.1 and Theorem 1.2 were read for structure only, and no step was
-checked. The site's bibliography search lists Problems 1218 and 1220 as also
-citing [Sh75]; their pages and the sections of the paper they would use were
-not read, so no link to them is recorded here. Nothing here is independently
-reviewed.
+checked. The erdosproblems.com bibliography search lists Problems 1218 and 1220
+as also citing [Sh75]; their pages and the sections of the paper they would use
+were not read, so no link to them is recorded here. Nothing here is
+independently reviewed.
 
 **Bears on.** [[../wiki/problems/set_theory/E1219/_index|#1219]]: Corollary 1.3 (printed
 p. 1260, PDF p. 4) is the problem's relation, with its hypotheses verbatim: for
@@ -215,8 +215,8 @@ colloquium proceedings volume (Colloq. Math. Soc. János Bolyai 10, reviewed
 by MR and zbMATH, not a journal), and its acceptance evidence is the
 curator's PROVED credit and Komjáth's 2025 record of the proof, both
 reviewed, with no refereeing listed. Conjecture 1A (p. 1261) is the stronger
-three-dimensional question the site mentions as open; it is not part of the
-erdosproblems.com question.
+three-dimensional question erdosproblems.com mentions as open; it is not part of
+the erdosproblems.com question.
 
 **Results.**
 

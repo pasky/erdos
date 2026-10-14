@@ -39,13 +39,13 @@ $$
 \limsup_{x\to \infty}\frac{1}{\log\log x}\sum_{a_{n_i}<x}1 \geq \limsup_{x\to \infty} \frac{1}{\log\log x}\sum_{a_n<x}\frac{1}{a_n\log a_n}?
 $$
 
-**Status.** Proved. The site labeled the problem PROVED (page last edited 12 May
-2026). It credits Theorem 1.6 of Alexeev, Barreto, Li, Lichtman, Price, Shah,
-Tang and Tao (arXiv, 1 May 2026), which is recorded on
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (page last edited
+12 May 2026). It credits Theorem 1.6 of Alexeev, Barreto, Li, Lichtman, Price,
+Shah, Tang and Tao (arXiv, 1 May 2026), which is recorded on
 [[problems/divisors/E1217/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|its claim page]].
 The standing in the frontmatter derives from the claim pages. The result is an
-arXiv preprint accepted by the site's curator, with no journal record and no
-Lean proof. The theorem needs only that the weighted sum
+arXiv preprint accepted by the erdosproblems.com curator, with no journal record
+and no Lean proof. The theorem needs only that the weighted sum
 $\sum_{a_n<x}1/(a_n\log a_n)$ has a positive upper growth rate against
 $\log\log x$, that is, a positive $\limsup$ of the quotient. Positive lower
 logarithmic density implies this, so the density hypothesis is not needed.
@@ -62,11 +62,11 @@ Erdős Problem #1217, https://www.erdosproblems.com/1217.
   Problem #1196 and beyond. arXiv:2605.00301v1 (2026). Library home:
   [[../library/integer_sequences/alexeev_2026_primitive_sets_von_mangoldt_chains_erdos/_index|alexeev_2026_primitive_sets_von_mangoldt_chains_erdos]].
 - [DaEr51] Davenport, H. and Erdős, P., On sequences of positive integers. J.
-  Indian Math. Soc. (N.S.) (1951), 19-24. The site's commentary credits the
-  divisibility-chain theorem to this key, but the 1951 note proves only that
-  a set of multiples has lower and logarithmic density $A$ and contains no
-  chain theorem. The chain theorem is Theorem 2 (§3, p. 150) of Davenport
-  and Erdős, On sequences of positive integers, Acta Arith. 2 (1936),
+  Indian Math. Soc. (N.S.) (1951), 19-24. The erdosproblems.com commentary
+  credits the divisibility-chain theorem to this key, but the 1951 note proves
+  only that a set of multiples has lower and logarithmic density $A$ and
+  contains no chain theorem. The chain theorem is Theorem 2 (§3, p. 150) of
+  Davenport and Erdős, On sequences of positive integers, Acta Arith. 2 (1936),
   147--151, proved under positive upper logarithmic density, which [ESS66]
   cites as its reference [1]:
   [[../library/integer_sequences/davenport_1936_sequences_positive_integers/theorem_2|Theorem 2]].
@@ -81,11 +81,11 @@ theorems on primitive sets, not Theorem 1.6.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 12 May 2026): given an
-increasing sequence of positive integers with positive lower logarithmic
-density, must it contain an infinite divisibility chain $a_{n_1}\mid
-a_{n_2}\mid\cdots$ whose counting function has upper growth rate against
-$\log\log x$ at least that of the problem's weighted sum, that is,
+The question, as erdosproblems.com states it (page last edited 12 May 2026):
+given an increasing sequence of positive integers with positive lower
+logarithmic density, must it contain an infinite divisibility chain
+$a_{n_1}\mid a_{n_2}\mid\cdots$ whose counting function has upper growth rate
+against $\log\log x$ at least that of the problem's weighted sum, that is,
 
 $$
 \limsup_{x\to\infty}\frac{\#\{i:a_{n_i}<x\}}{\log\log x}
@@ -98,8 +98,8 @@ not between the two counts at common values of $x$. The answer is yes.
 
 What was known before 2026. Erdős, Sárközy and Szemerédi [ESS66] attribute to
 Davenport and Erdős, citing their Acta Arithmetica paper (Theorem 2 of the 1936
-paper, which the site credits under its key [DaEr51]), the existence of an
-infinite divisibility chain under their display (1), a positive upper
+paper, which erdosproblems.com credits under its key [DaEr51]), the existence of
+an infinite divisibility chain under their display (1), a positive upper
 logarithmic density (their sentence says lower, but (1) is a lim sup, p. 431),
 and sharpen it two ways: Theorem 1 of [ESS66] gives, under (1), a chain with
 more than $c_1(\log\log y)^{1/2}$ elements below $y$ for infinitely many $y$,
@@ -126,18 +126,19 @@ separate work and has
 [[problems/divisors/E1217/claims/2026_04_16_tang_li|its own claim page]], at
 standing claimed. The same day Jared Duker Lichtman reported in the thread an
 independent proof then being written up. The eight-author preprint of 1 May 2026
-gives the proof as its Theorem 1.6, and the site's page says that similar proofs
-were found independently by subsets of its authors and by GPT 5.4 Pro. The
+gives the proof as its Theorem 1.6, and the erdosproblems.com page says that
+similar proofs were found independently by subsets of its authors and by GPT 5.4
+Pro. The
 [[problems/divisors/E1217/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|claim page]]
-records the statement, the postings and the acceptance: the site's curator
-labeled the problem proved and credits the paper, the community database records
-it proved (last updated 21 April 2026), and there is no refereed publication and
-no Lean proof of this theorem. Nothing in this repository has verified the
-proof.
+records the statement, the postings and the acceptance: the erdosproblems.com
+curator labeled the problem proved and credits the paper, the community database
+records it proved (last updated 21 April 2026), and there is no refereed
+publication and no Lean proof of this theorem. Nothing in this repository has
+verified the proof.
 
-Search scope: the site's problem page, its discussion thread and the community
-database. The site listed no proof claim for the problem, and on 2026-10-07
-none of these sources held another proof of the inequality.
+Search scope: the erdosproblems.com problem page, its discussion thread and the
+community database. erdosproblems.com listed no proof claim for the problem, and
+on 2026-10-07 none of these sources held another proof of the inequality.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

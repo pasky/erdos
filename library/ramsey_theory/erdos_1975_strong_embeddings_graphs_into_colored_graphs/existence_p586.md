@@ -71,5 +71,5 @@ of the paper (p. 586), with its extension to finitely many graphs (p. 587).
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0565/_index|Problem 565]]: the existence of $R^*(G)$,
-  which the site says "is not obvious" and credits to Deuber, to this paper
-  and to Rödl; the quantitative question is untouched here.
+  which erdosproblems.com says "is not obvious" and credits to Deuber, to this
+  paper and to Rödl; the quantitative question is untouched here.

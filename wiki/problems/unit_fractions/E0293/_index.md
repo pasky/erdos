@@ -40,24 +40,24 @@ $$
 
 with $1\leq n_1<\cdots <n_k$. Estimate the growth of $v(k)$.
 
-**Notes.** The site's $v(k)$ is degenerate for every $k\ge2$. The integer
-$1$ occurs as a denominator only in the one-term solution $1=1/1$, since a
-solution with $k\ge2$ terms that contains $1/1$ sums to more than $1$; so
-for every $k\ge2$ the least positive integer in no solution is $1$, and
-over all integers there is no least one. Either way there is no growth to
-estimate, at every $k\ge2$ and not only at boundary values. The change inserts
-"$>1$" after "minimal integer"; nothing else changes. The evidence is the
-poser's own statement of the question: the 1980 monograph [ErGr80], printed
-p. 35, asks for "the least integer $v(n)>1$ which does not occur as an
-$x_k$". The site's own commentary reads the same quantity, since its
+**Notes.** erdosproblems.com's $v(k)$ is degenerate for every $k\ge2$. The
+integer $1$ occurs as a denominator only in the one-term solution $1=1/1$, since
+a solution with $k\ge2$ terms that contains $1/1$ sums to more than $1$; so for
+every $k\ge2$ the least positive integer in no solution is $1$, and over all
+integers there is no least one. Either way there is no growth to estimate, at
+every $k\ge2$ and not only at boundary values. The change inserts "$>1$" after
+"minimal integer"; nothing else changes. The evidence is the poser's own
+statement of the question: the 1980 monograph [ErGr80], printed p. 35, asks for
+"the least integer $v(n)>1$ which does not occur as an $x_k$".
+erdosproblems.com's own commentary reads the same quantity, since its
 $v(k)\gg k!$ and van Doorn and Tang's $v(k)\ge e^{ck^2}$ are false of the
-site's wording; van Doorn and Tang define $v(k)$ as the least integer above
-$1$ missing from every $k$-term solution, a comment of 8 December 2025 in
-the site's discussion clarifies the definition the same way, and the
+erdosproblems.com wording; van Doorn and Tang define $v(k)$ as the least integer
+above $1$ missing from every $k$-term solution, a comment of 8 December 2025 in
+the erdosproblems.com discussion clarifies the definition the same way, and the
 community database marks the statement "ambiguous statement". The defect is
-the site's: the monograph prints the condition. No result concerns the
-site's wording beyond the observation above, which is this corpus's own and
-counts for nothing. The standing judges the modified Statement.
+erdosproblems.com's: the monograph prints the condition. No result concerns the
+erdosproblems.com wording beyond the observation above, which is this corpus's
+own and counts for nothing. The standing judges the modified Statement.
 
 **Formulation.** Writing $D_k$ for the set of denominators that occur in
 some $k$-term representation of $1$ by distinct unit fractions,
@@ -65,10 +65,10 @@ $v(k)=\min\{m>1:m\notin D_k\}$. Van Doorn and Tang's Lemma 2.1 records
 $D_2=\emptyset$ and $D_3=\{2,3,6\}$, and $D_1=\{1\}$, so $v(1)=v(2)=2$ and
 $v(3)=4$.
 
-**Status.** Labeled open on the site: the label was OPEN, and the commentary
-attaches it to the modified Statement. The page was last edited 29 December
-2025 and read 2026-10-07, and there was no proof claim on its tab. The standing
-derived from the claim pages is open, since every claim is partial.
+**Status.** Labeled open on erdosproblems.com: the label was OPEN, and the
+commentary attaches it to the modified Statement. The page was last edited 29
+December 2025 and read 2026-10-07, and there was no proof claim on its tab. The
+standing derived from the claim pages is open, since every claim is partial.
 
 The growth of $v(k)$ is fixed at the double-logarithmic scale and not beyond.
 For all large $k$, $e^{e^{k/600}}\le v(k)$ and $\log\log v(k)=\Theta(k)$, with
@@ -126,10 +126,10 @@ https://www.erdosproblems.com/293, accessed 2026-09-17.
 `ErdosProblems/293.lean` existed on 2026-09-17, and the pull request of 4
 October 2026 that would add one formalizes the setting only and says it is not
 a solution. The community database (fetched 2026-09-17 and 2026-10-06)
-records the problem as unformalized with no formal-proof URL, and the site's
-status label carried no Lean suffix. The release's Lean proof of the partial
-result, Corollary 1.3, built and audited by the corpus's verification, is
-recorded on
+records the problem as unformalized with no formal-proof URL, and the
+erdosproblems.com status label carried no Lean suffix. The release's Lean proof
+of the partial result, Corollary 1.3, built and audited by the corpus's
+verification, is recorded on
 [[problems/unit_fractions/E0293/claims/2026_09_25_openai|its claim page]];
 the author-side Lean file of the van Doorn note is a formalization link on
 [[problems/unit_fractions/E0293/claims/2026_09_16_van_doorn|that note's claim page]]
@@ -137,7 +137,7 @@ and is not built.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site states the problem as above,
+**The question.** On 2026-09-17 erdosproblems.com states the problem as above,
 showed OPEN, cites [ErGr80, p. 35], attributes $v(k)\gg k!$ to [BlEr75],
 records the elementary bound $v(k)\le kc_0^{2^k}$ with $c_0=1.26408\ldots$,
 and records van Doorn and Tang's $v(k)\ge e^{ck^2}$ together with their
@@ -195,21 +195,21 @@ been built by the corpus, and the claim is not adopted into the bounds
 above; the release's accepted bound exceeds it for large $k$ and so implies
 it.
 
-**Site and database state (read 2026-10-05 and 2026-10-06).** The site showed
-OPEN (last edited 29 December 2025), five comments and no proof claim on this
-problem;
-the van Doorn claim above sits on the proof-claims tab of Problem 18 (submitted
-2026-09-16, no comments, not accepted, not on arXiv); the community database
-lists the problem open and unformalized; formal-conjectures has no file (its
-open pull request 6842 of 4 October 2026 formalizes the setting only and says it
-is not a solution); and there is no conjectures.io or Palomar entry. New finite
-data (a lead, unverified): the comment of 23 September 2026 (the user
-JudeWallis) gives $v(9)=13{,}856{,}993$, with certificates for every
-$2\le m\le13{,}856{,}992$ and an exhaustive search ruling out $13{,}856{,}993$
-(repository `EconLearn/erdos293-check`, AI-assisted); OEIS A400352, approved
-about 1 October 2026, lists $v(3),\dots,v(9)=4,11,17,103,733,27539,13856993$
-(community database issue 403 and pull request 452). This supersedes the bound
-$v(9)>2{,}108{,}538$ below and does not bear on the growth question.
+**erdosproblems.com and database state (read 2026-10-05 and 2026-10-06).**
+erdosproblems.com showed OPEN (last edited 29 December 2025), five comments and
+no proof claim on this problem; the van Doorn claim above sits on the
+proof-claims tab of Problem 18 (submitted 2026-09-16, no comments, not accepted,
+not on arXiv); the community database lists the problem open and unformalized;
+formal-conjectures has no file (its open pull request 6842 of 4 October 2026
+formalizes the setting only and says it is not a solution); and there is no
+conjectures.io or Palomar entry. New finite data (a lead, unverified): the
+comment of 23 September 2026 (the user JudeWallis) gives $v(9)=13{,}856{,}993$,
+with certificates for every $2\le m\le13{,}856{,}992$ and an exhaustive search
+ruling out $13{,}856{,}993$ (repository `EconLearn/erdos293-check`,
+AI-assisted); OEIS A400352, approved about 1 October 2026, lists
+$v(3),\dots,v(9)=4,11,17,103,733,27539,13856993$ (community database issue 403
+and pull request 452). This supersedes the bound $v(9)>2{,}108{,}538$ below and
+does not bear on the growth question.
 
 - Lower bound before the release, and the best bound that holds for
   every $k\ge1$ (the release's accepted bound has an unspecified threshold).
@@ -227,7 +227,7 @@ $v(9)>2{,}108{,}538$ below and does not bear on the growth question.
   existed in the literature before theirs and that extracting the
   monograph's $k!$ from the Bleicher–Erdős papers "does not seem
   straightforward" to them.
-- The $k!$ attribution. The 1975 paper cited by the site proves lower
+- The $k!$ attribution. The 1975 paper cited by erdosproblems.com proves lower
   bounds for the number $S(N)$ of distinct subsums of $\sum_{i\le N}1/i$ and
   contains no statement about the denominators of $k$-term representations
   of $1$ (see
@@ -246,11 +246,11 @@ $v(9)>2{,}108{,}538$ below and does not bear on the growth question.
   Elsholtz–Planitzer bound on $F(k)$ gives $v(k)\le c_0^{(2/5+o(1))2^k}$:
   Elsholtz and Planitzer's Corollary 3(2) (arXiv v1, p. 5) bounds the count
   by $c^{(2/5+\varepsilon)2^{k-1}}$ with $c=1.5979\ldots=c_0^2$. The paper,
-  like the site's commentary for
+  like the erdosproblems.com commentary for
   [[problems/unit_fractions/E0148/_index|Problem 148]], prints
   $c_0^{(1/5+o(1))2^k}$, which pairs that exponent with the Vardi constant
   and states a bound the cited corollary does not give.
-  The site's cruder $v(k)\le kc_0^{2^k}$ and the discussion's
+  erdosproblems.com's cruder $v(k)\le kc_0^{2^k}$ and the discussion's
   $v(k)\le s_k$ for Sylvester's sequence $s_1=2$, $s_{j+1}=s_j(s_j-1)+1$
   both come from the fact that every denominator of a $k$-term
   representation of $1$ is at most $s_k-1$, which is
@@ -279,12 +279,12 @@ post's claim does not improve Corollary 1.3, and it is recorded as rejected on
 
 **Finite values (unreviewed leads).** No refereed source tabulates $v(k)$.
 Two AI-assisted computations are recorded here as leads with their own
-disclosures, not as results; the site warns that comments are not
+disclosures, not as results; erdosproblems.com warns that comments are not
 verified, and nothing below is verified in this corpus.
 
-- Site discussion, comment of 14 September 2026 by the user islomifaridun:
-  $v(3),\ldots,v(8)$ as $4,11,17,103,733,27539$ and $v(9)>2108538$, with
-  programs and certificates in a GitLab repository
+- erdosproblems.com discussion, comment of 14 September 2026 by the user
+  islomifaridun: $v(3),\ldots,v(8)$ as $4,11,17,103,733,27539$ and
+  $v(9)>2108538$, with programs and certificates in a GitLab repository
   (`gitlab.com/faridunislom/erdos293`, created 11 September 2026; its
   landing page was reachable on 2026-09-17 and its contents were not
   examined). The comment discloses AI assistance and allows that $v(6)$ and
@@ -299,14 +299,15 @@ verified, and nothing below is verified in this corpus.
 routes; none found a proof, disproof, preprint or claim of the growth
 rate.
 
-- The site: problem page, discussion (four comments: the AI-assisted computation
-  of 14 September 2026 described above, the comment of 29 December 2025 by the
-  paper's second author announcing the result, their comment of 8 December 2025
-  deriving $v(k)\le s_k$ from the Sylvester sequence, and the comment of 8
-  December 2025 that states inequality (1.2) and clarifies the definition; the
-  site text reflects the last three) and the empty proof-claim tab; the
-  community database record (open, unformalized); the formal-conjectures
-  directory (no file on 2026-09-17, as the Formalization records).
+- erdosproblems.com: problem page, discussion (four comments: the AI-assisted
+  computation of 14 September 2026 described above, the comment of 29 December
+  2025 by the paper's second author announcing the result, their comment of 8
+  December 2025 deriving $v(k)\le s_k$ from the Sylvester sequence, and the
+  comment of 8 December 2025 that states inequality (1.2) and clarifies the
+  definition; the erdosproblems.com text reflects the last three) and the empty
+  proof-claim tab; the community database record (open, unformalized); the
+  formal-conjectures directory (no file on 2026-09-17, as the Formalization
+  records).
 - arXiv: the abstract page of 2512.22083 (v1, v2 and the acceptance comment) and
   API metadata searches for `"unit fraction" AND "smallest denominator"` (no
   record), `"unit fractions" AND denominators AND distinct` (eleven records,

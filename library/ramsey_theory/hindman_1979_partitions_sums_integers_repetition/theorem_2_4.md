@@ -116,8 +116,8 @@ theorem and Hindman's theorem in its finite-unions form, as recorded on
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1199/_index|Problem 1199]]: the three-cell partition
-  behind the site's "false for $3$-colourings"; the excluded sets are
-  $A+A$ with the doubles, the site's pattern, so for every $r\ge3$ the
+  behind erdosproblems.com's "false for $3$-colourings"; the excluded sets are
+  $A+A$ with the doubles, erdosproblems.com's pattern, so for every $r\ge3$ the
   answer to the $r$-cell question is no (p. 19), and the two-cell question
   is the last case. The surveys' report that one of Hindman's classes has
   density $0$ agrees with the paper's remark on its earlier example (p. 21)

@@ -27,9 +27,10 @@ arithmetic progression? In other words, given a permutation $x$ of $\mathbb{N}$
 must there be indices with either $i<j<k<l$ or $i>j>k>l$ such that
 $x_i,x_j,x_k,x_l$ are an arithmetic progression?
 
-**Status.** OPEN, the site's label, which the site describes as a question that
-no finite computation can settle. The derived standing departs from the label:
-the problem is solved and disproved, by the claim accepted on
+**Status.** OPEN, the erdosproblems.com label, which erdosproblems.com describes
+as a question that no finite computation can settle. The derived standing
+departs from the label: the problem is solved and disproved, by the claim
+accepted on
 [[problems/additive_combinatorics/E0196/claims/2026_09_09_kruer_kohlmeyer|its claim page]].
 There is a permutation of $\mathbb{N}$ with no indices $i<j<k<l$ or $i>j>k>l$
 whose values form an arithmetic progression. So not every permutation contains a

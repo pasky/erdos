@@ -87,8 +87,8 @@ weighted Turán theorem (Section 3).
   $\mathrm{Arb}(4)$ (two induced paths cover its six vertices) and not in
   $\mathrm{Arb}(3)$, so the theorem gives $c(K_{2,2,2})\le a_4=1/8$ and
   nothing better: for $\delta>1/8$ and large $n$ every $K_{2,2,2}$-free graph
-  with $\delta n^2$ edges has a linear independent set, the site's "true for
-  $\delta>1/8$"; see the
+  with $\delta n^2$ edges has a linear independent set, erdosproblems.com's
+  "true for $\delta>1/8$"; see the
   [[ramsey_theory/erdos_1983_more_results_ramsey_turan_type_problems/remark_p72|remark on p. 72]].
 - [[../wiki/problems/ramsey_theory/E0615/_index|Problem 615]]: background, not status;
   $K_4\in\mathrm{Arb}(4)$ gives $RT(n;4,o(n))\le a_4n^2(1+o(1))$ with

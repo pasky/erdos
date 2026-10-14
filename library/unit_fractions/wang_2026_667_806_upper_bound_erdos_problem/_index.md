@@ -5,7 +5,7 @@ desc: |
   subset of the first N integers from 25/28 to 667/806 of N.
 license: unstated
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T14:56:45Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # unit_fractions/wang_2026_667_806_upper_bound_erdos_problem
@@ -24,7 +24,7 @@ exact-arithmetic script in its appendix.
 
 [[unit_fractions/wang_2026_667_806_upper_bound_erdos_problem/theorem_1|theorem_1]]: The manuscript's claimed upper bound for the extremal function of Problem
 301, from a finite divisor certificate on the divisors of 720; an
-unrefereed manuscript that the site's discussion describes as
+unrefereed manuscript that the erdosproblems.com discussion describes as
 AI-generated.
 
 ***
@@ -37,23 +37,24 @@ The copy read for this card is the
 nine-page ResearchGate manuscript (title page dated May 27, 2026; no arXiv
 identifier, no journal, no version history); Theorem 1 was read on the page
 image of p. 2 and the rest in the text layer. The manuscript says nothing about
-how it was written. The site's Problem 301 discussion thread
+how it was written. erdosproblems.com's Problem 301 discussion thread
 (<https://www.erdosproblems.com/forum/thread/301>, accessed 2026-09-17)
 describes it otherwise: a comment by the account Woett,
 12:26 on 04 Jul 2026, says the preprint "is AI-generated without any
 disclaimers to this effect", and a comment by the account KentaKitamura,
 07:43 on the same day, dates it to May 2026 and records its bound. This card
-records that description as the site thread's statement, not as a finding
-of its own. No notice is printed in the manuscript (pp. 1--2 and 8--9 read; the
-title page's front matter is the title, the author, whose footnote gives an
-email address and an ORCID iD, and the date "May 27, 2026"); the ResearchGate
-posting (Source below) returned HTTP 403 when read on 2026-10-07, so no hosting
-page's terms were observed, and no publisher page exists; the term is unstated.
+records that description as erdosproblems.com thread's statement, not as a
+finding of its own. No notice is printed in the manuscript (pp. 1--2 and 8--9
+read; the title page's front matter is the title, the author, whose footnote
+gives an email address and an ORCID iD, and the date "May 27, 2026"); the
+ResearchGate posting (Source below) returned HTTP 403 when read on 2026-10-07,
+so no hosting page's terms were observed, and no publisher page exists; the term
+is unstated.
 
 Let f(N) be the largest size of a subset A of [N] containing no distinct a,
 b_1, ..., b_k with 1/a = 1/b_1 + ... + 1/b_k. Theorem 1 claims f(N) <=
 (667/806 + o(1))N, about 0.8275N, improving the elementary bound (25/28 +
-o(1))N of Wouter van Doorn recorded on Bloom's Erdos Problems site; the
+o(1))N of Wouter van Doorn recorded on erdosproblems.com; the
 trivial lower bound (1/2 + o(1))N comes from the interval (N/2, N]. The method
 is a finite-configuration dilation argument: Lemma 1 shows that for any finite
 set D of positive integers and any m with mD inside [N], |A ∩ mD| <= alpha(D),
@@ -65,7 +66,7 @@ checks by exact integer arithmetic in the script of Appendix A; summing the
 forced omissions j - alpha(D_j) over the disjoint dilates gives a missing
 density of 139/806. For problem 301 this is the smallest
 upper-bound constant stated in a written manuscript read here; it is
-unrefereed, its finite certificate was not rerun here, and the site's
+unrefereed, its finite certificate was not rerun here, and the erdosproblems.com
 discussion thread carries computational claims of smaller constants (the
 account rickyc reports 319/390 on 04 Jul 2026) without a written proof. The
 paper does not approach the value 1/2 that Erdős and Graham asked about.
@@ -104,9 +105,10 @@ equation (equation (1), p. 1). For an admissible A in [N], its claimed
 conclusion is |A| <= (667/806 + o(1))N
 ([[unit_fractions/wang_2026_667_806_upper_bound_erdos_problem/theorem_1|Theorem 1]],
 p. 2), an author's claim in an unrefereed manuscript with no acceptance
-evidence, whose certificate was not rerun here and which the site thread
-describes as AI-generated; [[../wiki/problems/unit_fractions/E0301/_index|Problem 301]]
-records it as a qualified lead, not as an established bound.
+evidence, whose certificate was not rerun here and which the erdosproblems.com
+thread describes as AI-generated;
+[[../wiki/problems/unit_fractions/E0301/_index|Problem 301]] records it as a
+qualified lead, not as an established bound.
 
 The argument encodes reciprocal identities in a finite hypergraph (equation
 (2), p. 2), and Lemma 1 (p. 2) supplies the step |A ∩ mD_j| <= alpha(D_j) for

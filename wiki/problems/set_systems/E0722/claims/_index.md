@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 722, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_systems/E0722/claims
@@ -30,7 +30,7 @@ the case $r=2$ of the problem for every $k$, a partial answer.
 
 [[problems/set_systems/E0722/claims/2014_01_15_keevash|2014_01_15_keevash]]: Keevash (2014) proves that for fixed $k>r$ the divisibility conditions suffice
 for a Steiner system $S(r,k,n)$ once $n$ is large, settling the existence
-conjecture. The claim is accepted on the site curator's credit.
+conjecture. The claim is accepted on the erdosproblems.com curator's credit.
 
 [[problems/set_systems/E0722/claims/2016_11_21_glock_kuhn_lo_osthus|2016_11_21_glock_kuhn_lo_osthus]]: Glock, Kühn, Lo and Osthus give an independent proof, by iterative absorption,
 that the divisibility conditions suffice for an $F$-decomposition of a large

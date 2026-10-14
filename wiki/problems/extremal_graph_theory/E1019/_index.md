@@ -5,7 +5,7 @@ desc: |
   Asks whether every graph on $n$ vertices with
   $\lfloor n^2/4\rfloor+\lfloor\frac{n+1}{2}\rfloor$ edges contains a saturated
   planar subgraph on more than $3$ vertices. Proved by Simonovits in a PhD
-  thesis, as attested by Erdős and the site.
+  thesis, as attested by Erdős and erdosproblems.com.
 tags:
 - Graph theory
 - Planar graphs
@@ -28,14 +28,14 @@ possible) is called saturated. Does every graph on $n$ vertices with $\lfloor
 n^2/4\rfloor+\lfloor \frac{n+1}{2}\rfloor$ edges contain a saturated planar
 graph with $>3$ vertices?
 
-**Formulation.** The Statement is the site's wording as accessed 2026-09-18
-(page last edited 8 December 2025). A saturated planar graph on $m\ge3$ vertices
-is a maximal planar graph, a triangulation of the plane (Erdős 1969, p. 13: a
-planar $G(n;3n-6)$ "gibt immer eine Triangulation der Ebene"); Erdős writes
-$P_m$ for one on $m$ vertices. "Contain" means as a subgraph, not necessarily
-induced. The question is for every $n$; the site's commentary supplies the two
-halves of its sharpness: Turán's theorem gives a triangle ($P_3$) already at
-$\lfloor n^2/4\rfloor+1$ edges, and a graph with
+**Formulation.** The Statement is the erdosproblems.com wording as accessed
+2026-09-18 (page last edited 8 December 2025). A saturated planar graph on
+$m\ge3$ vertices is a maximal planar graph, a triangulation of the plane (Erdős
+1969, p. 13: a planar $G(n;3n-6)$ "gibt immer eine Triangulation der Ebene");
+Erdős writes $P_m$ for one on $m$ vertices. "Contain" means as a subgraph, not
+necessarily induced. The question is for every $n$; the erdosproblems.com
+commentary supplies the two halves of its sharpness: Turán's theorem gives a
+triangle ($P_3$) already at $\lfloor n^2/4\rfloor+1$ edges, and a graph with
 $\lfloor n^2/4\rfloor+\lfloor\frac{n-1}2\rfloor$ edges and no $P_m$ with $m>3$
 exists, so the threshold asked about is one more edge than the extremal example
 allows. The question is Erdős's own: it is stated, with the example written out,
@@ -43,25 +43,25 @@ on pp. 16--17 of his 1969 paper
 ([[../library/extremal_graph_theory/erdos_1969_uber_die_graphen_enthaltenen_saturierten_planaren/conjecture_p17|conjecture_p17]])
 and restated in item 13 of his 1971 list
 ([[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_13|item_13]]),
-the passage the site cites; the site attributes the "easy to construct" example
-to the 1971 list, where it is not written out.
+the passage erdosproblems.com cites; erdosproblems.com attributes the "easy to
+construct" example to the 1971 list, where it is not written out.
 
-**Status.** Proved. This is the site's label, which this page keeps with the
-qualification below. The site credits Simonovits's PhD thesis with the
-affirmative answer, in the stronger form that the graph contains a $K_4$ or a
-$C_l+2K_1$ for some $l\ge3$. It points to the comments for the proof, which it
-attributes to Cambie. The status-defining text is Simonovits's PhD thesis
-(Chapter 9, per the thread), which is unpublished and not held.
+**Status.** Proved. This is the erdosproblems.com label, which this page keeps
+with the qualification below. erdosproblems.com credits Simonovits's PhD thesis
+with the affirmative answer, in the stronger form that the graph contains a
+$K_4$ or a $C_l+2K_1$ for some $l\ge3$. It points to the comments for the proof,
+which it attributes to Cambie. The status-defining text is Simonovits's PhD
+thesis (Chapter 9, per the thread), which is unpublished and not held.
 
 The evidence in hand is of three kinds. The first is Erdős's printed attestation
 of 1971: "Simonovits has just proved this conjecture [15], [34]" ([Er71], p.
 102). The two references are Erdős's own 1969 and 1964 papers, not a text of
-Simonovits. The second is the site's acceptance of a proof posted in the
-discussion thread on 21 November 2025 by the account StijnC, after
-correspondence with Simonovits. The site credits this proof to Cambie, and the
-community database's file history changes the problem to proved in a commit of
-that day. The third is Erdős's own partial result, Satz 1 of the 1969 paper: a
-saturated planar subgraph on more than $c_1f(n)/n$ vertices for
+Simonovits. The second is erdosproblems.com's acceptance of a proof posted in
+the discussion thread on 21 November 2025 by the account StijnC, after
+correspondence with Simonovits. erdosproblems.com credits this proof to Cambie,
+and the community database's file history changes the problem to proved in a
+commit of that day. The third is Erdős's own partial result, Satz 1 of the 1969
+paper: a saturated planar subgraph on more than $c_1f(n)/n$ vertices for
 $\lfloor n^2/4\rfloor+f(n)$ edges. Its unspecified constant does not reach $m>3$
 at the threshold.
 
@@ -70,15 +70,15 @@ this page's own. No refereed text of the theorem was found. Two third-party Lean
 developments state and prove the theorem (recorded under Formalization). Neither
 was built or audited here, so they are formal support and not acceptance
 evidence. The label rested on a printed attestation of an unpublished thesis
-together with a site-accepted forum proof. The claim page
+together with an erdosproblems.com-accepted forum proof. The claim page
 [[problems/extremal_graph_theory/E1019/claims/1971_01_01_simonovits|Simonovits]]
 records the result as accepted on that documented evidence, with the same
 qualification, and the standing derives from it.
 
 **Source.** [erdosproblems.com/1019](https://www.erdosproblems.com/1019),
 accessed 2026-09-18: the problem page (PROVED, the
-site's label for an affirmative answer; last edited 8 December 2025; source
-keys [Er64f], [Er69c], [Er71, p. 102]; the page thanks three contributors
+erdosproblems.com label for an affirmative answer; last edited 8 December 2025;
+source keys [Er64f], [Er69c], [Er71, p. 102]; the page thanks three contributors
 by name), its eight-comment discussion thread (18
 October to 21 November 2025) and its empty proof-claim tab. Cite as: T. F.
 Bloom, Erdős Problem #1019, https://www.erdosproblems.com/1019, accessed
@@ -103,7 +103,7 @@ Bloom, Erdős Problem #1019, https://www.erdosproblems.com/1019, accessed
 - [Er64f] Erdős, P., On extremal problems of graphs and generalized graphs.
   Israel J. Math. 2 (1964), 183--190. Library home:
   [[../library/extremal_graph_theory/erdos_1964_extremal_problems_graphs_generalized_graphs/_index|erdos_1964_extremal_problems_graphs_generalized_graphs]]
-  (a scan). The site's third key. Erdős cites it in item 13 (his [34],
+  (a scan). erdosproblems.com's third key. Erdős cites it in item 13 (his [34],
   printed with the year 1969) beside the 1969 paper, and the 1969 paper
   cites it (its [5]) for the methods by which its Satz 5 can be proved; no
   passage of it on saturated planar graphs was located for this page (the
@@ -112,12 +112,12 @@ Bloom, Erdős Problem #1019, https://www.erdosproblems.com/1019, accessed
   November 2025). Unpublished; not held.
 - [Si75] A 1975 paper of Simonovits which two thread comments of 18 October
   2025 read from a file-sharing link and judged not to settle the statement
-  as posed; not identified by title on the site, not held, and not cited as
-  a source here.
+  as posed; not identified by title on erdosproblems.com, not held, and not
+  cited as a source here.
 
 **Formalization.** No formal-conjectures statement: no file
 `ErdosProblems/1019.lean` existed in `FormalConjectures/ErdosProblems/` at
-main on 2026-09-18, and the site's indicator recorded no formalized
+main on 2026-09-18, and the erdosproblems.com indicator recorded no formalized
 statement that day. Two third-party Lean developments state and prove
 Simonovits's theorem; neither was built or audited here, so no claim gains
 `formalized` evidence, and both are `formalization` links on the claim page.
@@ -145,9 +145,9 @@ no formalized statement file.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-PROVED; last edited 8 December 2025. The commentary, in this page's words,
-makes four points: the saturated planar graph on three vertices is the
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED; last edited 8 December 2025. The commentary, in this page's
+words, makes four points: the saturated planar graph on three vertices is the
 triangle, and Turán's theorem forces one as soon as a graph on $n$ vertices
 has $\lfloor n^2/4\rfloor+1$ edges; Erdős [Er71] calls it easy to construct
 a graph on $n$ vertices with
@@ -157,7 +157,7 @@ a question of Dirac, that $\lfloor n^2/4\rfloor+k$ edges on $n$ vertices
 force a saturated planar subgraph with $\gg k/n$ vertices; and Simonovits
 proved the question in the affirmative in a PhD thesis, in the stronger
 form that the graph contains a $K_4$ or a $C_l+2K_1$ with $l\ge3$; the
-comments carry the proof, which the site attributes to Cambie. The
+comments carry the proof, which erdosproblems.com attributes to Cambie. The
 proof-claim tab is empty. The community database lists the problem as
 proved; its file history makes that change in a commit of 21 November 2025.
 
@@ -166,18 +166,18 @@ October 2025, 02:05 (the account TerenceTao): ChatGPT and Gemini, asked
 about the problem, could not confirm the Simonovits solution and relied on
 the 1971 paper, the obstacle being that the reference was not available
 online; the comment asked for a literature review. 18 October, 18:05
-(recaje): a file-sharing link to a paper of Simonovits. 18:25 (the site's
-curator): a reply asking how the paper was found. 20:54 (TerenceTao): on
-reading that paper, [Si75], the view that it does not quite settle the
-problem as stated: it reduces the question for saturated planar subgraphs
-on at least $m$ vertices, $m$ large, to an auxiliary problem on
+(recaje): a file-sharing link to a paper of Simonovits. 18:25 (the
+erdosproblems.com curator): a reply asking how the paper was found. 20:54
+(TerenceTao): on reading that paper, [Si75], the view that it does not quite
+settle the problem as stated: it reduces the question for saturated planar
+subgraphs on at least $m$ vertices, $m$ large, to an auxiliary problem on
 $2$-connected planar subgraphs that the paper leaves for a sequel, so that
 the solution may be lost to the literature. 19 October, 06:44 (the
 curator): the problem should be marked unsolved, Erdős having presumably
 been misinformed about what Simonovits would go on to prove. 19 October,
 12:11 (pisoir): Simonovits could be asked. 30 October, 12:49
 (StijnC): an undertaking to do so. 21 November, 09:39 (StijnC), marked as
-addressed by the site: the answer, obtained through correspondence with
+addressed by erdosproblems.com: the answer, obtained through correspondence with
 Simonovits and presented as the resolution in Chapter 9 of the thesis: (i)
 every graph $G$ on $n$ vertices
 with $e(G)\ge\lfloor n^2/4\rfloor+\lfloor\frac{n+1}2\rfloor$ contains a
@@ -189,8 +189,8 @@ when $4\nmid n$); followed by a verification that the join graphs contain no
 $P_m$ with $m\ge4$ and a proof of (ii) by induction on $n$, deleting a
 vertex of minimum degree (at most $\lfloor\frac{n+1}2\rfloor$) and treating
 four cases of its attachment, finding a $K_4$ or a $C_\ell+2K_1$. This
-comment is the proof the site credits to Cambie. It is a forum proof, not
-reviewed here and not reproduced as this page's own.
+comment is the proof erdosproblems.com credits to Cambie. It is a forum proof,
+not reviewed here and not reproduced as this page's own.
 
 **Status support.** Three pieces of evidence, none a refereed text of the
 theorem.
@@ -206,30 +206,29 @@ theorem.
   published proceedings volume (Academic Press 1971); its references point to his own papers, so it
   names no text of Simonovits, and the thread's reading of the 1975 paper
   [Si75] found no proof of the statement there.
-- The site's acceptance: the label PROVED and the commentary's attribution
-  to the thesis, on the strength of the forum proof above, which a commenter
-  obtained through correspondence with Simonovits. The thesis itself is
-  unpublished and not held; its text is known here only through that
-  summary.
+- erdosproblems.com's acceptance: the label PROVED and the commentary's
+  attribution to the thesis, on the strength of the forum proof above, which a
+  commenter obtained through correspondence with Simonovits. The thesis itself
+  is unpublished and not held; its text is known here only through that summary.
 - Erdős's own partial result,
   [[../library/extremal_graph_theory/erdos_1969_uber_die_graphen_enthaltenen_saturierten_planaren/satz_1|Satz 1]]
   of [Er69c] (p. 13): for any positive function $f$, every
   $G(n;[n^2/4]+f(n))$ contains a saturated planar graph with more than
   $c_1f(n)/n$ vertices, sharp apart from $c_1$, and non-trivial only for
-  $f(n)\ge n/c_1$; this is the site's sentence on $\gg k/n$ vertices. The constant is
-  not made explicit, so at $f(n)=\lfloor\frac{n+1}2\rfloor$ the theorem gives
-  no saturated planar subgraph on more than three vertices; it does not
-  settle the problem.
+  $f(n)\ge n/c_1$; this is the erdosproblems.com sentence on $\gg k/n$ vertices.
+  The constant is not made explicit, so at $f(n)=\lfloor\frac{n+1}2\rfloor$ the
+  theorem gives no saturated planar subgraph on more than three vertices; it
+  does not settle the problem.
 
 Read depth: item 13, Satz 1 and the 1969 example and conjecture were
 checked clause by clause as statements; the proof of Satz 1 was followed
 for structure only; the forum proof was not checked. Acceptance: Erdős's
-attestation in print and the site's label; no publication, no independent
-review.
+attestation in print and the erdosproblems.com label; no publication, no
+independent review.
 
 **The origin and the sharpness example (an authored check).** The 1969
 paper ([[../library/extremal_graph_theory/erdos_1969_uber_die_graphen_enthaltenen_saturierten_planaren/conjecture_p17|pp. 16--17]])
-constructs the example the site calls "easy to construct":
+constructs the example erdosproblems.com calls "easy to construct":
 vertices $x_1,\dots,x_{[(n+1)/2]}$ and $y_1,\dots,y_{[n/2]}$, every $x_i$
 joined to every $y_j$, and $x_1$ joined to every other $x_i$; and it states
 the question as "Vielleicht aber enthält jeder
@@ -246,9 +245,9 @@ set, one of the extremal graphs $T_{n_1}+n_2K_1$ the forum proof describes.
 The other half, that one more edge forces a $P_m$ with $m>3$, is the
 problem, and this page adds nothing to its proof.
 
-**Er64f.** The site's third key is Erdős's 1964 Israel J. Math. paper, which
-item 13 cites (as [34]) beside the 1969 paper and which the 1969 paper cites
-(as [5]) for the methods proving its Satz 5; no passage of it about
+**Er64f.** erdosproblems.com's third key is Erdős's 1964 Israel J. Math. paper,
+which item 13 cites (as [34]) beside the 1969 paper and which the 1969 paper
+cites (as [5]) for the methods proving its Satz 5; no passage of it about
 saturated planar graphs was located for this page, and the card records
 the search. It bears on the problem as a cited method, not as a
 statement.
@@ -257,7 +256,7 @@ statement.
 published proof, a refereed quotation of Simonovits's theorem, a disproof, or
 a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database; the formal-conjectures listing at main (no file 1019).
 - The primary sources: [Er69c] pp. 13--17 (Satz 1 to Satz 5, Lemma 1, the
   pp. 16--17 passage and the reference list); [Er71] p. 102 and its
@@ -273,13 +272,13 @@ the thread's account. Not held: the thesis, [Si75].
 
 **Remaining gaps.** (1) The status-defining text is an unpublished thesis,
 not held, known here through a forum summary; the label rested on Erdős's
-1971 attestation and the site's acceptance of that summary. Reopening
+1971 attestation and erdosproblems.com's acceptance of that summary. Reopening
 condition: a published text of the theorem (a translation of the thesis
 chapter or a paper; the thread comment of 21 November 2025 says Simonovits
 was then preparing translations of their main works for their website), after
 which the statement is paged and the proof read. (2) The forum proof is
-unreviewed here. (3) [Si75] is unidentified on the site and not held; the
-thread's judgment that it does not settle the statement is recorded, not
+unreviewed here. (3) [Si75] is unidentified on erdosproblems.com and not held;
+the thread's judgment that it does not settle the statement is recorded, not
 checked. (4) [Er64f]'s bearing is by citation only. (5) Proof coverage:
 statements only; Satz 1's proof was followed for structure. (6) There is no
 formal-conjectures statement of the problem; the two third-party Lean
@@ -297,7 +296,7 @@ developments recorded under Formalization were not built or audited here.
 - [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_13|Erdős 1971, item 13]]:
   the question restated, with "Simonovits has just proved this conjecture".
 - Simonovits, PhD thesis, Chapter 9 (unpublished, not held; the thread's
-  summary of 21 November 2025, accepted by the site): every graph with
+  summary of 21 November 2025, accepted by erdosproblems.com): every graph with
   $\lfloor n^2/4\rfloor+\lfloor\frac{n+1}2\rfloor$ edges contains a $K_4$ or a
   $C_\ell+2K_1$, hence a saturated planar subgraph on at least four
   vertices; the extremal graphs at one edge fewer are the joins

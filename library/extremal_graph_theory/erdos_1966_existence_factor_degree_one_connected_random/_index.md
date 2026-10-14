@@ -21,8 +21,8 @@ with ω(n) → ∞, the probability of a factor of degree one tends to 1.
 P. Erdős, A. Rényi: On the existence of a factor of degree one of a connected
 random graph, Acta Math. Acad. Sci. Hungar. 17 (1966), 359--368 (MR 34 #85;
 Zentralblatt 203,569; received 7 September 1965; Crossref
-doi:10.1007/BF01894879). The site's reference key ErRe66; Erdős's 1981
-Combinatorica paper cites it as its [35].
+doi:10.1007/BF01894879). The erdosproblems.com reference key ErRe66; Erdős's
+1981 Combinatorica paper cites it as its [35].
 
 The copy read for this card is the Rényi archive's scan `1966-16.pdf`: ten
 pages, printed pp. 359--368 =
@@ -61,13 +61,14 @@ zero-one matrices, noting the present problem for general graphs is much harder
 than the one for even (bipartite) graphs and needs Tutte rather than König. For
 problem 746 the paper supplies the perfect-matching theorem at (1/2) n log n +
 omega(n) n edges for even n, which covers (1/2 + eps) n log n edges; the
-Hamiltonicity conjecture that the site attributes to this paper is stated
-nowhere in its text (all ten pages read on the page images): the paper concerns
-factors of degree one only, and Erdős's later problem papers attribute that
-conjecture to "Rényi and I" without a page reference.
+Hamiltonicity conjecture that erdosproblems.com attributes to this paper is
+stated nowhere in its text (all ten pages read on the page images): the paper
+concerns factors of degree one only, and Erdős's later problem papers attribute
+that conjecture to "Rényi and I" without a page reference.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: the site's key
-ErRe66, cited by the site for the perfect-matching theorem;
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: the
+erdosproblems.com key ErRe66, cited by erdosproblems.com for the
+perfect-matching theorem;
 [[extremal_graph_theory/erdos_1966_existence_factor_degree_one_connected_random/theorem_1|Theorem 1]]
 (p. 360, page image) is that theorem, and the paper states no conjecture about
 Hamiltonian cycles.

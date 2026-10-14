@@ -4,8 +4,8 @@ title: Mrazović and Kovač's deduction from Vinogradov's theorem
 desc: |
   Starting from all primes up to a Vinogradov threshold generates every prime,
   since each larger prime is a sum of three distinct smaller primes. This
-  observation of Mrazović and Kovač was sent to the site and accepted into its
-  commentary.
+  observation of Mrazović and Kovač was sent to erdosproblems.com and accepted
+  into its commentary.
 authors:
 - Codex
 - GPT-5.6 Sol
@@ -43,22 +43,22 @@ is a small modification of his proof: the number of representations of a
 large odd $n$ as a sum of three primes grows like $n^2$ up to logarithmic
 factors, while the representations with two equal primes number $O(n)$.
 
-**Postings.** Rudi Mrazović and Vjekoslav Kovač sent the observation to the
-site before its forum existed; the communication itself is undated, and this
-page is dated by the earliest dated record of the credit, an archived copy of
-the site's page of 9 December 2024, which already carries the argument, the
-label SOLVED (the site's label vocabulary at the time) and thanks to Alon,
-Mrazović and Kovač; an archived copy of 21 July 2024 shows the problem OPEN
-without the credit. The community database records the PROVED label from 31
-August 2025, the date its history begins. In a thread comment of 1 January
-2026 Kovač restates the argument and the distinctness modification. There is
-no paper.
+**Postings.** Rudi Mrazović and Vjekoslav Kovač sent the observation to
+erdosproblems.com before its forum existed; the communication itself is undated,
+and this page is dated by the earliest dated record of the credit, an archived
+copy of the erdosproblems.com page of 9 December 2024, which already carries the
+argument, the label SOLVED (the erdosproblems.com label vocabulary at the time)
+and thanks to Alon, Mrazović and Kovač; an archived copy of 21 July 2024 shows
+the problem OPEN without the credit. The community database records the PROVED
+label from 31 August 2025, the date its history begins. In a thread comment of 1
+January 2026 Kovač restates the argument and the distinctness modification.
+There is no paper.
 
-**Acceptance.** The site's curator, Thomas Bloom, wrote the argument into the
-commentary of Problem 471, labeled the problem PROVED and thanks Alon, Mrazović
-and Kovač on the page. Bloom had no part in the result, and this documented
-acceptance is the reviewed evidence. Alon's independent observation of the same
-argument is on the sibling page
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, wrote the argument
+into the commentary of Problem 471, labeled the problem PROVED and thanks Alon,
+Mrazović and Kovač on the page. Bloom had no part in the result, and this
+documented acceptance is the reviewed evidence. Alon's independent observation
+of the same argument is on the sibling page
 [[problems/integer_sequences/E0471/claims/2024_12_09_alon|Alon]]. Nothing was
 reviewed here. The argument is an elementary deduction from a classical theorem.
 

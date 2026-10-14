@@ -15,7 +15,7 @@ updated: 2026-10-07T15:37:17Z
 ## Statement
 
 $r(G;k)$ is the least integer such that every $k$-coloring of the edges of
-$K_r$ with $r\ge r(G;k)$ has a monochromatic $G$ (p. 164), the site's
+$K_r$ with $r\ge r(G;k)$ has a monochromatic $G$ (p. 164), erdosproblems.com's
 $R_k(G)$; $K_{s,t}$ has parts of sizes $s\le t$; $e$ in the bound "denotes
 the base for natural logarithms" (p. 168).
 
@@ -66,10 +66,10 @@ None; a first-moment count.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0558/_index|Problem 558]]: the lower half of the
-  site's displayed general bounds, as printed (strict inequality, no
-  hypotheses); the paper calls it the best general lower bound it knows,
-  and (6$'$) is its comparison with Theorem 1 for $t\gg s$.
+- [[../wiki/problems/ramsey_theory/E0558/_index|Problem 558]]: the lower half of
+  erdosproblems.com's displayed general bounds, as printed (strict inequality,
+  no hypotheses); the paper calls it the best general lower bound it knows, and
+  (6$'$) is its comparison with Theorem 1 for $t\gg s$.
 - [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]]: context only; at $k=2$,
   $s=t=n$ it is the order $n2^{n/2}$ lower bound on the ordinary Ramsey
   number $r(K_{n,n})$ that the 1978 size Ramsey paper quotes on p. 160.

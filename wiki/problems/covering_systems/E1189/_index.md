@@ -37,12 +37,12 @@ all irreducible covering sets of size $k$.
 Are there infinitely many $n$ such that the divisors of $n$ (which are $>1$)
 form an irreducible covering set?
 
-**Formulation.** The site's third question departs from Erdős's. The 1980
-survey [Er80], printed p. 95, takes an irreducible covering system
+**Formulation.** erdosproblems.com's third question departs from Erdős's. The
+1980 survey [Er80], printed p. 95, takes an irreducible covering system
 $1<n_1<\cdots<n_k\le x$ and asks to determine or estimate
 $\max\sum1/n_i$, a maximum over systems whose largest modulus is at most
-$x$; the site's version ranges over irreducible covering sets of size $k$.
-The pending claims below answer the site's size-$k$ version,
+$x$; the erdosproblems.com version ranges over irreducible covering sets of size
+$k$. The pending claims below answer erdosproblems.com's size-$k$ version,
 $R(k)=\Theta(\log k)$; neither states Erdős's version, which is bounded by
 the largest modulus $x$. Pickhardt's lower-bound construction for $R(k)$
 (Section 7, built on the exact-cardinality frame of Section 6, all of whose
@@ -50,15 +50,15 @@ moduli are $O(k(\log k)^2)$) gives, for every large $x$, irreducible covering
 sets with all moduli at most $x$ and reciprocal sum $\gg\log x$. With the
 trivial bound $\sum_{2\le n\le x}1/n\le\log x$, Erdős's version would then
 be $\Theta(\log x)$, a consequence that stands or falls with that pending
-claim. The standing concerns the site's formulation.
+claim. The standing concerns the erdosproblems.com formulation.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 8 April
-2026). The standing is claimed through two pending full claims, recorded without
-adoption and described below. No outside review is recorded for either.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 8
+April 2026). The standing is claimed through two pending full claims, recorded
+without adoption and described below. No outside review is recorded for either.
 
-The site's commentary records the last question as settled by Sun. The theorem
-that the divisors of $2^{p-1}p$ above one form an irreducible covering set for
-every odd prime $p$ is the accepted partial claim on
+The erdosproblems.com commentary records the last question as settled by Sun.
+The theorem that the divisors of $2^{p-1}p$ above one form an irreducible
+covering set for every odd prime $p$ is the accepted partial claim on
 [[problems/covering_systems/E1189/claims/2006_01_01_sun|Sun's claim page]]. The
 commentary also records Simpson's bound $n_k\le2^{k-1}$, the accepted partial
 claim on
@@ -114,9 +114,9 @@ this corpus has not built it.
 
 The four questions have different standings. The last question, whether
 infinitely many $n$ have divisors above one forming an irreducible covering set,
-is answered yes by Sun's theorem, accepted on the refereed paper; the site's
-commentary credits Sun with settling it, but on a problem the site labeled OPEN
-that remark is context and not acceptance evidence
+is answered yes by Sun's theorem, accepted on the refereed paper; the
+erdosproblems.com commentary credits Sun with settling it, but on a problem
+Bloom's catalog labeled OPEN that remark is context and not acceptance evidence
 ([[problems/covering_systems/E1189/claims/2006_01_01_sun|claim page]]).
 Simpson's bound $n_k\le2^{k-1}$ and the upper bound on the count from the
 theorem of Balister, Bollobás, Morris, Sahasrabudhe and Tiba are accepted
@@ -124,15 +124,15 @@ partial claims on their refereed papers
 ([[problems/covering_systems/E1189/claims/1985_01_01_simpson|Simpson]],
 [[problems/covering_systems/E1189/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|Balister et al.]]);
 neither settles a question. The counting question and the two extremal questions
-were open on the site; two pending full claims answer all of them in the site's
-size-$k$ formulation (the Formulation paragraph above records what Erdős asked),
-both recorded without adoption: a Lean 4 development released by Colin Snyder's
-Star Fleet Math system on 2026-07-13, which proves in Lean a finite reduction of
-the count to two hypotheses, a distinct-moduli frame datum and an upper count of
-displayed minimal systems, the asymptotic with its constant following by hand
-from Theorem 1.1 of Balister, Bollobás, Morris, Sahasrabudhe and Tiba, a
-distinct-moduli bridging step the release's referee checked by hand, and
-elementary estimates
+were open on erdosproblems.com; two pending full claims answer all of them in
+erdosproblems.com's size-$k$ formulation (the Formulation paragraph above
+records what Erdős asked), both recorded without adoption: a Lean 4 development
+released by Colin Snyder's Star Fleet Math system on 2026-07-13, which proves in
+Lean a finite reduction of the count to two hypotheses, a distinct-moduli frame
+datum and an upper count of displayed minimal systems, the asymptotic with its
+constant following by hand from Theorem 1.1 of Balister, Bollobás, Morris,
+Sahasrabudhe and Tiba, a distinct-moduli bridging step the release's referee
+checked by hand, and elementary estimates
 ([[problems/covering_systems/E1189/claims/2026_07_13_snyder|Snyder's claim page]]),
 and a 2026 manuscript co-authored with an AI research agent, which claims the
 count's constant as its new content and describes the Lean development as
@@ -143,9 +143,9 @@ with largest modulus $3\cdot2^{k-3}$, and an edit of 2026-06-21 to that comment
 announced without proof that the value is optimal; a comment of 2026-08-17
 remarks that the bound $n_k\le2^{k-1}$ the commentary credits to Simpson's 1985
 paper follows from that paper's results rather than being stated there; neither
-comment is a claim page. This page records no status search beyond the
-site, its forum and the sources linked from the claim pages, and no independent
-proof review.
+comment is a claim page. This page records no status search beyond
+erdosproblems.com, its forum and the sources linked from the claim pages, and no
+independent proof review.
 
 ## Known Results
 

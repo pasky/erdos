@@ -2,10 +2,10 @@
 name: problems/set_theory/E1176/claims/2003_01_01_hajnal_komjath
 title: Hajnal and Komjáth's consistency of the simultaneous coloring property, as credited
 desc: |
-  The site credits Hajnal and Komjáth (Combinatorica, 2003) with the consistency
-  of the statement that every $\aleph_1$-chromatic graph has an edge coloring
-  with $\aleph_1$ colors in which every countable vertex partition has a class
-  with edges of all colors.
+  erdosproblems.com credits Hajnal and Komjáth (Combinatorica, 2003) with the
+  consistency of the statement that every $\aleph_1$-chromatic graph has an edge
+  coloring with $\aleph_1$ colors in which every countable vertex partition has
+  a class with edges of all colors.
 authors:
 - András Hajnal
 - Péter Komjáth
@@ -38,11 +38,11 @@ of chromatic number $\kappa\ge\aleph_0$. The abstract of the paper states the
 conjecture in the erdosproblems.com form, for a graph $X$ on a ground set $V$
 with chromatic number $\aleph_1$, and announces several partial results,
 variants and consistency results concerning it. The booklet [Va99, 7.93], which
-is the problem's source, and the site's remark credit Hajnal and Komjáth with
-the consistency of the statement: it holds in some model of ZFC, so ZFC does not
-refute it, which the site labeled NOT DISPROVABLE. The scope and the model of
-the consistency theorem are stated below from a secondary source. The statement
-is not known to be a theorem of ZFC.
+is the problem's source, and the erdosproblems.com remark credit Hajnal and
+Komjáth with the consistency of the statement: it holds in some model of ZFC, so
+ZFC does not refute it, which Bloom's catalog labeled NOT DISPROVABLE. The scope
+and the model of the consistency theorem are stated below from a secondary
+source. The statement is not known to be a theorem of ZFC.
 
 **Covers.** One side of an independence result: the statement holds in a model
 of ZFC, so ZFC does not refute it. The other side, that ZFC does not prove the

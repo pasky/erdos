@@ -54,10 +54,10 @@ finite chromatic number, so what the question asked for, and what fails, is a
 size bound on them.
 
 **Acceptance.** The paper is refereed: Adv. Math. 369 (2020), 107176. The
-preprint was posted on 21 February 2019, the page's date. The site's curator,
-Thomas Bloom, labeled the problem DISPROVED. The curator credits Shelah with the
-consistency result, citing the Komjáth–Shelah paper, and Lambie-Hanson with the
-counterexample in ZFC. This independent credit is listed as `reviewed`.
+preprint was posted on 21 February 2019, the page's date. The erdosproblems.com
+curator, Thomas Bloom, labeled the problem DISPROVED. The curator credits Shelah
+with the consistency result, citing the Komjáth–Shelah paper, and Lambie-Hanson
+with the counterexample in ZFC. This independent credit is listed as `reviewed`.
 
 **Formalization.** The Lean 4 file linked above, in Boris Alexeev's repository
 of Lean proofs, declares itself a formalization of a solution to the problem

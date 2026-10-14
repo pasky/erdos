@@ -29,10 +29,10 @@ into two equal parts, so that $\lvert A\rvert=\lvert B\rvert=N$, then there is
 some $x$ such that the number of solutions to $a-b=x$ with $a\in A$ and $b\in B$
 is at least $cN$.
 
-**Status.** Open, the site's label (OPEN; page last edited 23 January 2026). The
-site's commentary gives the records $0.379005<c<0.380876$. The lower bound is
-due to White [Wh22], and the upper bound to the TTT-Discover LLM
-[YKLBMWKCZGS26], improving on AlphaEvolve [GGTW25] and Haugland [Ha16]. The
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited 23 January
+2026). The erdosproblems.com commentary gives the records $0.379005<c<0.380876$.
+The lower bound is due to White [Wh22], and the upper bound to the TTT-Discover
+LLM [YKLBMWKCZGS26], improving on AlphaEvolve [GGTW25] and Haugland [Ha16]. The
 record bounds and the later bounds with library cards have partial claim pages.
 White's refereed lower bound is accepted on the refereed publication
 ([[problems/additive_combinatorics/E0036/claims/2022_01_14_white|claim page]]).
@@ -43,9 +43,9 @@ Kim and Pilanci's lower bound $0.37912$ of June 2026 is claimed
 and so is Russell's certified upper bound $0.38085906$ of July 2026
 ([[problems/additive_combinatorics/E0036/claims/2026_07_12_russell|claim page]]).
 
-The site's proof-claims tab carries two partial proof claims, each raising the
-lower bound for the constant. The first, submitted by Liam Price on 2026-07-20
-and credited to GPT Pro, claims $c\ge0.38055470$
+The erdosproblems.com proof-claims tab carries two partial proof claims, each
+raising the lower bound for the constant. The first, submitted by Liam Price on
+2026-07-20 and credited to GPT Pro, claims $c\ge0.38055470$
 ([[problems/additive_combinatorics/E0036/claims/2026_07_20_price|claim page]]).
 The second, submitted by the forum user Drynshock on 2026-09-19 and credited to
 GPT 6 Pro, claims $c>0.3805634$. It does so through a subadditivity inequality

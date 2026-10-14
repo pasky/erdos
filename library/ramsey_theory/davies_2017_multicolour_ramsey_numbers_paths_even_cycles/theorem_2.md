@@ -20,7 +20,7 @@ $$
 
 Here $R_k(G)$ is the least $N$ such that any coloring of the edges of $K_N$
 with $k$ colors yields a monochromatic copy of $G$ (p. 1), and $o(n)$ is
-for fixed $k$ as $n\to\infty$. In the site's parameter, with $n=2m$,
+for fixed $k$ as $n\to\infty$. In erdosproblems.com's parameter, with $n=2m$,
 $R_k(C_{2m})\le(2k-\tfrac12)m+o(m)$. The paper places the bound after
 Łuczak, Simonovits and Skokan's $R_k(C_n)\le kn+o(n)$ and Sárközy's
 $(k-\frac k{16k^3+1})n+o(n)$ (p. 2), and calls it "the first improvement to

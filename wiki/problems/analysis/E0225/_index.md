@@ -47,42 +47,44 @@ $$
 \int_0^{2\pi}\lvert f(\theta)\rvert \mathrm{d}\theta \leq 4.
 $$
 
-**Notes.** The site's display admits degenerate cases for which the bound fails.
-The constant $f\equiv1$ ($n=0$) has no roots, maximum $1$ and integral $2\pi$.
-If roots are read as zeros of $f$ as an entire function of $\theta$,
-$f(\theta)=e^{im\theta}$ fails the same way. The problem's sources state the
-conjecture with every root counted. Kristiansen states it for a trigonometric
-polynomial of degree $n\ge1$ with real coefficients and $2n$ real roots (Proc.
-Amer. Math. Soc. 44 (1974), p. 49). Saff and Sheil-Small state it for one of
-degree $n$ with all $2n$ zeros in $[0,2\pi)$ real (their Conjecture 1). The
-modified Statement follows them: $n\geq1$ and $c_n\neq0$, so that $n$ is the
-actual degree of $P(z)=\sum_{k=0}^n c_kz^k$, and every one of the $n$ algebraic
-roots of $P$, counting multiplicity, on the unit circle, of the form
-$e^{i\theta}$ with $\theta$ real. The site's display does not state a root
-count; the full-root reading is the hypothesis used in the exact transfer below.
-The modified Statement is proved, by Kristiansen [Kr74] (a two-sided real
-theorem, which the site describes as the real-coefficient case) and by Saff and
-Sheil-Small [SaSh74] in general (see Status). The site's wording fails at the
-degenerate cases above, and no other result about it is recorded.
+**Notes.** The erdosproblems.com display admits degenerate cases for which the
+bound fails. The constant $f\equiv1$ ($n=0$) has no roots, maximum $1$ and
+integral $2\pi$. If roots are read as zeros of $f$ as an entire function of
+$\theta$, $f(\theta)=e^{im\theta}$ fails the same way. The problem's sources
+state the conjecture with every root counted. Kristiansen states it for a
+trigonometric polynomial of degree $n\ge1$ with real coefficients and $2n$ real
+roots (Proc. Amer. Math. Soc. 44 (1974), p. 49). Saff and Sheil-Small state it
+for one of degree $n$ with all $2n$ zeros in $[0,2\pi)$ real (their Conjecture
+1). The modified Statement follows them: $n\geq1$ and $c_n\neq0$, so that $n$ is
+the actual degree of $P(z)=\sum_{k=0}^n c_kz^k$, and every one of the $n$
+algebraic roots of $P$, counting multiplicity, on the unit circle, of the form
+$e^{i\theta}$ with $\theta$ real. The erdosproblems.com display does not state a
+root count; the full-root reading is the hypothesis used in the exact transfer
+below. The modified Statement is proved, by Kristiansen [Kr74] (a two-sided real
+theorem, which erdosproblems.com describes as the real-coefficient case) and by
+Saff and Sheil-Small [SaSh74] in general (see Status). The erdosproblems.com
+wording fails at the degenerate cases above, and no other result about it is
+recorded.
 
 Saff and Sheil-Small also prove an equivalent two-sided theorem. Their
 degree-$n$ trigonometric polynomial has $2n$ real zeros in a period and is
 converted to a degree-$2n$ algebraic polynomial. That normalization is
 recorded separately rather than identified with the one-sided display.
 
-**Status.** Proved. This is the site's label. The site credits two independent
-solutions: Kristiansen [Kr74], which it describes as the real-coefficient case,
-and Saff and Sheil-Small [SaSh74] for general complex coefficients. They are
-recorded on the claim pages
+**Status.** Proved. This is the erdosproblems.com label. erdosproblems.com
+credits two independent solutions: Kristiansen [Kr74], which it describes as the
+real-coefficient case, and Saff and Sheil-Small [SaSh74] for general complex
+coefficients. They are recorded on the claim pages
 [[problems/analysis/E0225/claims/1974_11_01_saff_sheil_small|Saff and
-Sheil-Small 1974]], accepted on its refereed publication and the site's credit,
-and [[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]],
+Sheil-Small 1974]], accepted on its refereed publication and the
+erdosproblems.com credit, and
+[[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]],
 accepted on its refereed publication. Kristiansen's theorem is the two-sided
 real form, a real trigonometric polynomial of degree $n\ge1$ with $2n$ real
-roots. It implies the display for arbitrary complex coefficients. The site's
-description is narrower than the paper. Both routes prove the modified
-Statement. This project's own review of the compiled chain is described under
-Review record below and awards no standing.
+roots. It implies the display for arbitrary complex coefficients. The
+erdosproblems.com description is narrower than the paper. Both routes prove the
+modified Statement. This project's own review of the compiled chain is described
+under Review record below and awards no standing.
 
 **Source.** [erdosproblems.com/225](https://www.erdosproblems.com/225), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #225,
@@ -96,7 +98,7 @@ https://www.erdosproblems.com/225.
   polynomials. Proc. Amer. Math. Soc. (1974), 49--57.
 - [Kr76] Kristiansen, G. K., Erratum to ``Proof of a polynomial conjecture''
   (Proc. Amer. Math. Soc. 44 (1974), 58--60). Proc. Amer. Math. Soc. (1976),
-  377. The site's commentary says that this erratum fixed an error in
+  377. The erdosproblems.com commentary says that this erratum fixed an error in
   Kristiansen's proof of this problem; the erratum itself concerns the
   companion note *Proof of a polynomial conjecture*, on real polynomials with
   all roots in an interval, not [Kr74], and reports no gap in [Kr74]. The
@@ -128,27 +130,27 @@ described on
 [[problems/analysis/E0225/claims/1974_11_01_saff_sheil_small|their claim
 page]]. The community database (teorth/erdosproblems, accessed 2026-10-06)
 records the statement formalized since 20 September 2026 and the status
-proved with no Lean qualification; the site's indicator reads "Formalised
-statement? Yes". This corpus has built and audited neither file, and no
-kernel credit is claimed.
+proved with no Lean qualification; the erdosproblems.com indicator reads
+"Formalised statement? Yes". This corpus has built and audited neither file, and
+no kernel credit is claimed.
 
 ## Current assessment
 
 The recorded proof proves the modified Statement above. The standing rests on
 the two claim pages named in the Status: Saff and Sheil-Small's refereed paper
-settles the complex case, credited by the site, and Kristiansen's refereed paper
-proves the two-sided real form, which implies the display for arbitrary complex
-coefficients, though the site describes it as the real-coefficient case; the
-Kristiansen paper is not held in the library, and the account of the cited 1976
-erratum is on its claim page. This project's own reviews of the compiled Theorem
-1 chain, the Theorem 2 reduction and the transfer sentence are described under
-Review record below; none of them gives formal-verification or new acceptance
-credit. This page records no status-search scope. The 1976 erratum the
-site cites concerns Kristiansen's companion note *Proof of a polynomial
-conjecture* (Proc. Amer. Math. Soc. 44 (1974), 58--60), whose proof misses one
-case, and reports no gap in the trigonometric paper, which cites only Erdős's
-1940 note; the Saff--Sheil-Small argument does not rest on either Kristiansen
-paper.
+settles the complex case, credited by erdosproblems.com, and Kristiansen's
+refereed paper proves the two-sided real form, which implies the display for
+arbitrary complex coefficients, though erdosproblems.com describes it as the
+real-coefficient case; the Kristiansen paper is not held in the library, and the
+account of the cited 1976 erratum is on its claim page. This project's own
+reviews of the compiled Theorem 1 chain, the Theorem 2 reduction and the
+transfer sentence are described under Review record below; none of them gives
+formal-verification or new acceptance credit. This page records no status-search
+scope. The 1976 erratum erdosproblems.com cites concerns Kristiansen's companion
+note *Proof of a polynomial conjecture* (Proc. Amer. Math. Soc. 44 (1974),
+58--60), whose proof misses one case, and reports no gap in the trigonometric
+paper, which cites only Erdős's 1940 note; the Saff--Sheil-Small argument does
+not rest on either Kristiansen paper.
 
 ## Progress
 
@@ -206,10 +208,10 @@ data; the final article is J. London Math. Soc. (2) 9, no. 1 (November
 The references also record Kristiansen's proof and a 1976 correction.
 Kristiansen proves the conjecture for a real trigonometric polynomial of
 degree $n\ge1$ with $2n$ real roots, which gives the display for arbitrary
-complex coefficients; the site's description of it as the real-coefficient
-case is narrower than the paper. The correction concerns the companion note
-*Proof of a polynomial conjecture* (Proc. Amer. Math. Soc. 44 (1974),
-58--60), not the trigonometric paper, as its claim page records; the
+complex coefficients; the erdosproblems.com description of it as the
+real-coefficient case is narrower than the paper. The correction concerns the
+companion note *Proof of a polynomial conjecture* (Proc. Amer. Math. Soc. 44
+(1974), 58--60), not the trigonometric paper, as its claim page records; the
 Saff--Sheil-Small argument does not rest on either.
 
 **Review record.** The

@@ -24,15 +24,15 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Every graph with $n$ vertices and $>n^2/4$ edges contains an edge
 which is in at least $n/6$ triangles.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 7
-April 2026). The statement is for every $n$; since the number of edges is an
-integer, "$>n^2/4$ edges" is "at least $\lfloor n^2/4\rfloor+1$ edges", one
-more than the Turán number for triangles, which is how Erdős's 1975 survey
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 7 April 2026). The statement is for every $n$; since the number of edges
+is an integer, "$>n^2/4$ edges" is "at least $\lfloor n^2/4\rfloor+1$ edges",
+one more than the Turán number for triangles, which is how Erdős's 1975 survey
 writes it ($G(n;[n^2/4]+1)$). The number of triangles on an edge $uv$ is the
 number of common neighbors of $u$ and $v$; in the sources it is
-Khadzhiivanov's $t[u,v]$ (with $\hat t$ its maximum over the edges) and the
-site's "book" of Problem 80. The bound $n/6$ is sharp: Erdős and Bollobás
-observed in 1975 that the constant cannot exceed $\frac16$, and
+Khadzhiivanov's $t[u,v]$ (with $\hat t$ its maximum over the edges) and
+erdosproblems.com's "book" of Problem 80. The bound $n/6$ is sharp: Erdős and
+Bollobás observed in 1975 that the constant cannot exceed $\frac16$, and
 Khadzhiivanov's 1988 paper gives a graph with $e=n^2/4$ and $\hat t=n/6$ (a
 blow-up of the triangular prism, $6\mid n$) and, in its figure 8 (p. 46, not
 checked), a graph with $\lfloor n^2/4\rfloor+1$ edges and
@@ -42,32 +42,32 @@ $m=\lfloor n^2/4\rfloor+1$ edges has an edge on two triangles while
 $\lceil n/6\rceil=1$, since Corollary 2 of [BoNi05] gives a book of size at
 least $2m/n-n/3$, which is $7/6$, $17/15$ and $4/3$ there; it holds at $n=3$
 ($K_3$) and at $n=7$, where the octahedron $K_{2,2,2}$ with a pendant edge has
-$13$ edges and every edge on at most two triangles. The site's label PROVED
-(LEAN) carries a catalog suffix explained under Formalization.
+$13$ edges and every edge on at most two triangles. The erdosproblems.com label
+PROVED (LEAN) carries a catalog suffix explained under Formalization.
 
-**Status.** Proved. The status-defining source the site names is N. G.
+**Status.** Proved. The status-defining source erdosproblems.com names is N. G.
 Khadzhiivanov and V. Nikiforov, *Solution of a problem of P. Erdős about the
 maximum number of triangles with a common edge in a graph*, C. R. Acad. Bulgare
 Sci. 32 (1979), no. 10, 1315--1318 [KhNi79]. It is not held, and no online
 record of it has been located (no Crossref or zbMATH record on 2026-09-18). The
-site's reference text prints the second author as "S. V. Nikiforov"; the 1988
-paper, Fox and Loh, and Bollobás and Nikiforov give V. Nikiforov. The site marks
-its second prover, Edwards, as unpublished.
+erdosproblems.com reference text prints the second author as "S. V. Nikiforov";
+the 1988 paper, Fox and Loh, and Bollobás and Nikiforov give V. Nikiforov.
+Bloom's catalog marks its second prover, Edwards, as unpublished.
 
 There are three claim pages, and the frontmatter standing is derived from the
 accepted pages.
 [[problems/extremal_graph_theory/E0905/claims/1979_10_01_khadzhiivanov_nikiforov|Khadzhiivanov and Nikiforov]]
-is accepted on the 1988 reproof, Fox and Loh's attestation and the site's
-credit.
+is accepted on the 1988 reproof, Fox and Loh's attestation and the
+erdosproblems.com credit.
 [[problems/extremal_graph_theory/E0905/claims/2004_05_05_bollobas_nikiforov|Bollobás and Nikiforov]]
 is accepted on the refereed publication. Its second author shares the 1979
 coauthor's name, so it is not counted as independent acceptance of the 1979
 note. [[problems/extremal_graph_theory/E0905/claims/1977_01_01_edwards|Edwards]]
-is accepted on the site's curator's credit. That proof was never published, and
-Khadzhiivanov's 1988 paper reads the 1978 announcement as not solving the
-conjecture. The external Lean proof behind the site's suffix declares itself a
-formalization of the 1979 note's result. It is recorded as a formalization link
-on the first page, and no build of it is recorded.
+is accepted on the erdosproblems.com curator's credit. That proof was never
+published, and Khadzhiivanov's 1988 paper reads the 1978 announcement as not
+solving the conjecture. The external Lean proof behind the erdosproblems.com
+suffix declares itself a formalization of the 1979 note's result. It is recorded
+as a formalization link on the first page, and no build of it is recorded.
 
 The label rested on five sources. First, the refereed paper of Bollobás and
 Nikiforov, *Books in graphs*, European J. Combin. 26 (2005) [BoNi05], cited from
@@ -82,9 +82,9 @@ to [KhNi79].
 Second, the 1988 paper of Khadzhiivanov
 ([[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/_index|khadzhiivanov_1988_maximal_number_triangles_common_edge]],
 Annuaire Univ. Sofia 82 (1988), 37--49, in Russian; a university journal). It
-states the problem in the site's exact form and attributes its complete solution
-to the 1979 note with Nikiforov. It proves the result again, with a surplus, as
-its
+states the problem in erdosproblems.com's exact form and attributes its complete
+solution to the 1979 note with Nikiforov. It proves the result again, with a
+surplus, as its
 [[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Corollary 3]]:
 if $e>\lfloor n^2/4\rfloor$ then $\hat t>n/6$. The proof uses the inequality
 $(3t+\bar t)\hat t\ge nt$ and the bound $\sum_vd(v)^2>ne$ (its Lemma 4). The
@@ -97,9 +97,9 @@ preprint, recorded on
 [[../library/ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/theorem_1_1|the card for Problem 80]])
 state that Edwards and Khadzhiivanov and Nikiforov proved that every $n$-vertex
 graph with more than $n^2/4$ edges has an edge in at least $n/6$ triangles.
-Fourth, the site's account and the community database. Fifth, the external Lean
-file named by the formal-conjectures statement, which has no recorded build
-(Formalization).
+Fourth, erdosproblems.com's account and the community database. Fifth, the
+external Lean file named by the formal-conjectures statement, which has no
+recorded build (Formalization).
 
 The 1979 text itself is not held. So the exact statement it proves, and its
 proof, are known through the 1988 paper's own account and [BoNi05]'s
@@ -107,13 +107,13 @@ attribution. Erdős's own 1982 report of the problem's history ([Er82e], p. 71)
 is quoted below, with a contradiction it carries into Problem 1033.
 
 **Source.** [erdosproblems.com/905](https://www.erdosproblems.com/905),
-accessed 2026-09-18: the problem page (PROVED (LEAN), the site's label for a
-statement proved in the affirmative with a proof checked in Lean; last edited
-7 April 2026; source keys [Er75], [Er82e], [Er93], [KhNi79]; commentary citing
-[KhNi79] and Problems 80 and 1034), its three-comment discussion thread (3
-February and 7 April 2026) and its empty proof-claim tab. Cite as: T. F.
-Bloom, Erdős Problem #905, https://www.erdosproblems.com/905, accessed
-2026-09-18.
+accessed 2026-09-18: the problem page (PROVED (LEAN), the erdosproblems.com
+label for a statement proved in the affirmative with a proof checked in Lean;
+last edited 7 April 2026; source keys [Er75], [Er82e], [Er93], [KhNi79];
+commentary citing [KhNi79] and Problems 80 and 1034), its three-comment
+discussion thread (3 February and 7 April 2026) and its empty proof-claim tab.
+Cite as: T. F. Bloom, Erdős Problem #905, https://www.erdosproblems.com/905,
+accessed 2026-09-18.
 
 **References.**
 
@@ -124,17 +124,17 @@ Bloom, Erdős Problem #905, https://www.erdosproblems.com/905, accessed
   V. (Vladimir) Nikiforov: [Kh88]'s reference [2] prints "Вл. Никифоров"
   and its p. 44 calls the coauthor, in translation, the author's diploma student
   V. Nikiforov, and [FoLo12]'s reference [13] and [BoNi05]'s reference [10]
-  give "V. Nikiforov"; the site's reference text prints "S. V. Nikiforov".
-  Not held; no DOI, no Crossref record (Problem 80's record) and no zbMATH
-  record found on 2026-09-18; its theorem is known through [Kh88], [BoNi05]
-  and [FoLo12].
+  give "V. Nikiforov"; the erdosproblems.com reference text prints "S. V.
+  Nikiforov". Not held; no DOI, no Crossref record (Problem 80's record) and no
+  zbMATH record found on 2026-09-18; its theorem is known through [Kh88],
+  [BoNi05] and [FoLo12].
 - [Kh88] Khadzhiivanov, N., On the maximal number of triangles with a common
   edge (in Russian, with an English abstract and summary). Annuaire Univ.
   Sofia "St. Kliment Ohridski", Fac. Math. Inform., Livre 1, 82 (1988), 37--49
   (the journal's article record dates the volume 12 December 1991; zbMATH
-  lists pp. 37--52). Not a site key. Erdős's problem with its history, p. 44;
-  Theorem 1 and the extremal examples, p. 40; Corollaries 1--2, p. 41; Lemma
-  4, pp. 44--45; Corollaries 3--5, p. 45; the account of Edwards's
+  lists pp. 37--52). Not an erdosproblems.com key. Erdős's problem with its
+  history, p. 44; Theorem 1 and the extremal examples, p. 40; Corollaries 1--2,
+  p. 41; Lemma 4, pp. 44--45; Corollaries 3--5, p. 45; the account of Edwards's
   announcement, pp. 47--48. Library home:
   [[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/_index|khadzhiivanov_1988_maximal_number_triangles_common_edge]];
   paged at
@@ -148,18 +148,18 @@ Bloom, Erdős Problem #905, https://www.erdosproblems.com/905, accessed
   pages, with the comment "accepted in Eur. J. Combin"), the version cited:
   Section 2, the introduction's attribution of the first proofs, Theorem 1,
   Corollary 2 (attributed to Edwards, its reference [3]) and Corollary 3;
-  references [3] and [10]. Not a site key; [FoLo12]'s reference [2] and the
-  Lean file's [BoNi04]. Not held as a filed source.
+  references [3] and [10]. Not an erdosproblems.com key; [FoLo12]'s reference
+  [2] and the Lean file's [BoNi04]. Not held as a filed source.
 - [Ed78b] Edwards, C. S., The largest number of triangles with a common
   edge in a graph. Colloques internationaux C.N.R.S. 260 (Problèmes
   combinatoires et théorie des graphes, Orsay 1976), Paris (1978), 123--126,
-  as [Kh88]'s reference [3] gives it; the site's "Edwards (unpublished)".
-  Not held; [Kh88] (p. 48) says, in translation, that its theorems were
-  announced with the intention of publishing their proofs later, which had
-  not happened in the ten years since. The manuscript itself is [BoNi05]'s
-  reference [3], C. S. Edwards, A lower bound for the largest number of
-  triangles with a common edge, unpublished manuscript, 1977 (also
-  [FoLo12]'s reference [4]). Not held.
+  as [Kh88]'s reference [3] gives it; erdosproblems.com's "Edwards
+  (unpublished)". Not held; [Kh88] (p. 48) says, in translation, that its
+  theorems were announced with the intention of publishing their proofs later,
+  which had not happened in the ten years since. The manuscript itself is
+  [BoNi05]'s reference [3], C. S. Edwards, A lower bound for the largest number
+  of triangles with a common edge, unpublished manuscript, 1977 (also [FoLo12]'s
+  reference [4]). Not held.
 - [Er75] Erdős, P., Some recent progress on extremal problems in graph
   theory. Congr. Numer. XIV (1975), 3--14; Chapter 4, printed p. 13. Library
   home:
@@ -182,15 +182,18 @@ Bloom, Erdős Problem #905, https://www.erdosproblems.com/905, accessed
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [FoLo12] Fox, J. and Loh, P.-S., On a problem of Erdős and Rothschild on
   edges in triangles. Combinatorica 32 (2012), no. 6, 619--628; p. 2 of the
-  preprint, the attestation. Not a site key for this problem. Library home:
+  preprint, the attestation. Not an erdosproblems.com key for this problem.
+  Library home:
   [[../library/ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/_index|fox_2012_problem_erdos_rothschild_edges_triangles]].
 - [BoEr75] Bollobás, B. and Erdős, P., Unsolved problems. Proc. Fifth British
   Combinatorial Conference (Aberdeen, 1975), Congr. Numer. XV (1976),
   678--680, as [Kh88]'s reference [6] and Bollobás--Nikiforov 2005 give it;
   [Kh88] says, in translation, that the conjecture takes there the more
-  precise form $\hat t\ge n/6$. Not a site key for this problem; not held.
+  precise form $\hat t\ge n/6$. Not an erdosproblems.com key for this problem;
+  not held.
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
+file
 [`ErdosProblems/905.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/905.lean)
 of formal-conjectures, linked at the `main` revision of 2026-09-18 (1,594
 bytes), declares
@@ -198,14 +201,14 @@ bytes), declares
 under `category research solved, AMS 5`, with proof `sorry`, no `answer`
 value, and a `formal_proof` attribute naming the file
 `src/v4.29.1/ErdosProblems/Erdos905.lean` in the repository `plby/lean-proofs`
-on its `main` branch (unpinned); its docstring repeats the site's commentary.
-The external file, at the repository's commit of 15 September 2026 (the claim
-page's link pins it), has 856 lines, is headed
+on its `main` branch (unpinned); its docstring repeats the erdosproblems.com
+commentary. The external file, at the repository's commit of 15 September 2026
+(the claim page's link pins it), has 856 lines, is headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, importing `Mathlib`, naming
 Khadzhiivanov and Nikiforov as informal authors and, as formal authors, the AI
 systems Aristotle and GPT 5.4 and the file's human author, and linking the
-site's thread post of 7 April 2026. Its docstring credits independent proofs
-to Edwards (unpublished) and to Khadžiivanov and Nikiforov [KhNi79] and a
+erdosproblems.com thread post of 7 April 2026. Its docstring credits independent
+proofs to Edwards (unpublished) and to Khadžiivanov and Nikiforov [KhNi79] and a
 cleaner proof to Bollobás and Nikiforov, [BoNi05] under the docstring's key
 [BoNi04], and its proof follows that route: with `triangleDegree` the number
 of common neighbors of an edge and `maxTriangleDegree` its maximum, it proves
@@ -224,25 +227,26 @@ file contains no `sorry`, `axiom`, `native_decide` or `unsafe`. No build,
 audit or kernel check of it is recorded. The community database
 (`data/problems.yaml`, 2026-09-18) records `status` "proved (Lean)", as of its
 last update, dated 7 April 2026, `formal_status` Lean with no URL, the
-statement formalized since 4 August 2026 and no formal-proof field; the site's
-indicator reads "Formalised statement? Yes".
+statement formalized since 4 August 2026 and no formal-proof field; the
+erdosproblems.com indicator reads "Formalised statement? Yes".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; PROVED
-(LEAN); last edited 7 April 2026. The commentary attributes the conjecture to
-Bollobás and Erdős, credits independent proofs to Edwards, marked unpublished,
-and to Khadzhiivanov and Nikiforov [KhNi79], and points to Problem 80 for a
-more general problem and to Problem 1034 for a stronger version. The thread: a
-comment of 3 February 2026 with four remarks, on the transliteration of the
-first author's name, on the page pointer "[Er82e, p. 71]" (which the passage
-quoted below confirms), and on the 1982 passage's sentence that "the proof"
-needed a further conjecture, identified with Problem 904; the site author's
-reply the same day on transliteration ("Khadzhiivanov" adopted as the author's
-recent spelling); and a formalization notice of 7 April 2026 (the account
-andresg535) naming the AI systems Aristotle and GPT 5.4, with a link to
-type-check the file. The proof-claim tab is empty. The community database
-record says proved (Lean), as of its last update, dated 7 April 2026.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED (LEAN); last edited 7 April 2026. The commentary attributes the
+conjecture to Bollobás and Erdős, credits independent proofs to Edwards, marked
+unpublished, and to Khadzhiivanov and Nikiforov [KhNi79], and points to Problem
+80 for a more general problem and to Problem 1034 for a stronger version. The
+thread: a comment of 3 February 2026 with four remarks, on the transliteration
+of the first author's name, on the page pointer "[Er82e, p. 71]" (which the
+passage quoted below confirms), and on the 1982 passage's sentence that "the
+proof" needed a further conjecture, identified with Problem 904;
+erdosproblems.com author's reply the same day on transliteration
+("Khadzhiivanov" adopted as the author's recent spelling); and a formalization
+notice of 7 April 2026 (the account andresg535) naming the AI systems Aristotle
+and GPT 5.4, with a link to type-check the file. The proof-claim tab is empty.
+The community database record says proved (Lean), as of its last update, dated 7
+April 2026.
 
 **Status support.** Four sources.
 
@@ -291,7 +295,7 @@ record says proved (Lean), as of its last update, dated 7 April 2026.
   proofs of Theorem 1 (pp. 38--40) and Lemma 4 (pp. 44--45) read for
   structure, not checked. Acceptance evidence for this text: a university
   annual whose refereeing practice in 1988 is not established; the 1979 note
-  it presents as the original solution is the site's key.
+  it presents as the original solution is the erdosproblems.com key.
 - [FoLo12], p. 2 of the preprint (recorded on Problem 80's card): Edwards and
   Khadžiivanov and Nikiforov "state that any $n$-vertex graph with more than
   $n^2/4$ edges contains an edge in at least $n/6$ triangles", in a refereed
@@ -300,17 +304,17 @@ record says proved (Lean), as of its last update, dated 7 April 2026.
 - Bloom's catalog: the label, the commentary, and the community database's
   "proved (Lean)".
 
-The two texts the site credits are not held: [KhNi79] is a four-page note in
-the Bulgarian Academy's Comptes rendus with no online record found, and
-Edwards's proof is unpublished on the site's account, on [BoNi05]'s (an
+The two texts erdosproblems.com credits are not held: [KhNi79] is a four-page
+note in the Bulgarian Academy's Comptes rendus with no online record found, and
+Edwards's proof is unpublished on erdosproblems.com's account, on [BoNi05]'s (an
 unpublished manuscript of 1977) and on [Kh88]'s (p. 48, in translation: five
 theorems announced with the intention of publishing their proofs later, which
 had not happened in the ten years since). So the standing rests on a refereed
 full proof ([BoNi05]) that credits the first proofs to Edwards and to the
-site's source, on a text ([Kh88]) that attributes the first proof to the
-site's source and reproves it, on a refereed attestation ([FoLo12]) and on
-erdosproblems.com's acceptance; the original's exact statement is known through
-[Kh88] and [BoNi05].
+erdosproblems.com source, on a text ([Kh88]) that attributes the first proof to
+the erdosproblems.com source and reproves it, on a refereed attestation
+([FoLo12]) and on erdosproblems.com's acceptance; the original's exact statement
+is known through [Kh88] and [BoNi05].
 
 **Erdős's statements.** [Er75], printed p. 13
 ([[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p13|problem_p13]]):
@@ -354,15 +358,15 @@ states no proof.
 **Adjacent problems.** Problem 80 asks the same book question at every
 density $c$ with each edge in a triangle; its page records the $n/6$ bound
 for $c>1/4$ second-hand and the transition at $c=1/4$. Problem 1034 (a
-scaffold) asks the "stronger version" the site names, a triangle to which
-nearly half the vertices are joined twice. Problem 1033 asks for the largest
-degree sum of a triangle forced by more than $n^2/4$ edges, the quantity in
-the 1982 display (1).
+scaffold) asks the "stronger version" erdosproblems.com names, a triangle to
+which nearly half the vertices are joined twice. Problem 1033 asks for the
+largest degree sum of a triangle forced by more than $n^2/4$ edges, the quantity
+in the 1982 display (1).
 
 **Search scope.** None of the routes below found a text of
 [KhNi79], a dispute of the theorem, or a change of status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the external Lean file at the
   repository's commit of 15 September 2026 and the repository's notes file
   (GitHub, raw text); the community database record.
@@ -403,14 +407,14 @@ no recorded build, and its final theorem is in natural-number form. (6)
   [KhNi79]
   ([[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/problem_p44|problem_p44]]).
 - [KhNi79] (1979, not held): the original solution, per [Kh88], [FoLo12]
-  and the site; the accepted claim page
+  and erdosproblems.com; the accepted claim page
   [[problems/extremal_graph_theory/E0905/claims/1979_10_01_khadzhiivanov_nikiforov|Khadzhiivanov and Nikiforov]].
 - [BoNi05] (2005, refereed; cited from arXiv): Corollary 3, a book of size
   greater than $n/6$ in every $G(n,\lfloor n^2/4\rfloor+1)$, through
   Corollary 2's $6\,\mathrm{bk}(G)>n$; the accepted claim page
   [[problems/extremal_graph_theory/E0905/claims/2004_05_05_bollobas_nikiforov|Bollobás and Nikiforov]].
 - Edwards (1977 unpublished manuscript; 1978 announcement without proofs):
-  the independent proof the site credits, per [Er93], [FoLo12] and
+  the independent proof erdosproblems.com credits, per [Er93], [FoLo12] and
   [BoNi05], which [Kh88] reads as unsolved in the announcement; the claim
   page
   [[problems/extremal_graph_theory/E0905/claims/1977_01_01_edwards|Edwards]],
