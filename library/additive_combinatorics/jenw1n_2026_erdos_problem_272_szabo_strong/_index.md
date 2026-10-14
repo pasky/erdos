@@ -66,9 +66,9 @@ $A\subseteq\mathcal P(\{1,\ldots,N\})$ and every pair of distinct members to
 intersect in a set that `IsAPOfLength l` for some $l>0$; the shared definition
 `Set.IsAPOfLengthWith s l a d` is `ENat.card s = l ∧ s = {a + n • d | n < l}`,
 so the intersection has exactly $l\geq1$ elements of the form $a+nd$, nonempty,
-with one- and two-element sets counted as progressions, as the site's own
-$\binom N2+1$ example presumes. `maxArithInterCard N` is the supremum of $|A|$
-over such families, attained since $|A|\leq2^N$ (the file proves
+with one- and two-element sets counted as progressions, as erdosproblems.com's
+own $\binom N2+1$ example presumes. `maxArithInterCard N` is the supremum of
+$|A|$ over such families, attained since $|A|\leq2^N$ (the file proves
 `max_is_attained`). Real subtraction and a two-sided big-O make the statement
 $t(N)-N^2/2=O(N)$, Szabó's question read clause for clause. It is a variant of
 the formal-conjectures headline `Erdos272.erdos_272`, which asks for the exact

@@ -239,16 +239,16 @@ teorth/erdosproblems (`data/problems.yaml` entry 416: status open, last update
 2025-08-31, formal status unformalized, formalized 2025-09-04), conjectures.io
 (the result, solution, problem and how-it-works pages; the task bundle and
 contribution index in its GitHub repositories),
-google-deepmind/formal-conjectures at `main` (the formal-conjectures commits the
-site pins were unreachable) and its `416.lean` at the commit of 2026-10-11, the
-arXiv API (queries on the doubling-limit terms and on the three author names, no
-hits), Zenodo (no record), a web search, erdosproblemaday.com (a 2026-07-28
-automated working report labeled partial; not a source), and the OpenAI release
-repository at its pinned revision. Not searched: X, Discord (the site's channel
-is members-only), MathOverflow and journal databases. The write-up's prose
-deduction, with Proposition 4.1 labeled as its imported Lean-only premise, and
-the preprint's unconditional cluster-interval argument are reconstructed,
-author-recorded and changing nothing here, in
+google-deepmind/formal-conjectures at `main` (the formal-conjectures commits
+Conjectures.io pins were unreachable) and its `416.lean` at the commit of
+2026-10-11, the arXiv API (queries on the doubling-limit terms and on the three
+author names, no hits), Zenodo (no record), a web search, erdosproblemaday.com
+(a 2026-07-28 automated working report labeled partial; not a source), and the
+OpenAI release repository at its pinned revision. Not searched: X, Discord (the
+site's channel is members-only), MathOverflow and journal databases. The
+write-up's prose deduction, with Proposition 4.1 labeled as its imported
+Lean-only premise, and the preprint's unconditional cluster-interval argument
+are reconstructed, author-recorded and changing nothing here, in
 [[research/erdos_416/_index|the Problem 416 research folder]]; those
 reconstructions are superseded as routes by the release's theorem, which proves
 the general-scale law outright.

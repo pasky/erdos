@@ -151,7 +151,7 @@ Lean replay, and the record as certified on 17 September 2026 with the bounty
 paid. That certification is reported, not counted: the result has no refereed
 publication, no erdosproblems.com acceptance and no formal-conjectures catalog
 agreement (the formal-conjectures file at the revision linked above agrees with
-the statement the site prints and marks the problem research open with
+the statement Conjectures.io prints and marks the problem research open with
 `answer(sorry)`). Bloom's catalog labeled the problem OPEN; its forum has
 carried the claim since 27 September 2026 with the curator's note that they have
 not verified it, and a comment of 2 October 2026 links the Nguyen–Walczak note.

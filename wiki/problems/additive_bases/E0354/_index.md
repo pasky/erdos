@@ -318,12 +318,12 @@ two criteria on the binary digits of $\alpha$ and $\beta$); the file contains no
 one classical decidability term, and no redefinition of the formal-conjectures
 catalog's names, the whole file sitting in its own namespace; the mathematical
 core (a joining and disjointness argument on the binary digit sequences of
-$\alpha$ and $\beta$, about 9,000 lines) rests on the site's kernel acceptance.
-The file's header names no author beyond Conjectures.io's solver handle. The
-theorem covers base $2$ and the irrational-ratio hypothesis only: the
-rational-ratio cases of Hegyvári's conjecture ($\alpha/\beta$ rational but not a
-power of $2$, one of $\alpha,\beta$ not a dyadic rational) are outside it and
-are touched by no 2026 source. The later Yu--Chen manuscript ([YuCh26],
+$\alpha$ and $\beta$, about 9,000 lines) rests on Conjectures.io's kernel
+acceptance. The file's header names no author beyond Conjectures.io's solver
+handle. The theorem covers base $2$ and the irrational-ratio hypothesis only:
+the rational-ratio cases of Hegyvári's conjecture ($\alpha/\beta$ rational but
+not a power of $2$, one of $\alpha,\beta$ not a dyadic rational) are outside it
+and are touched by no 2026 source. The later Yu--Chen manuscript ([YuCh26],
 [[../library/additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/theorem|Theorem]])
 claims the stronger strong completeness of the nonzero value set, which would
 imply the first answer; it is dated 13 September 2026, its repository was
