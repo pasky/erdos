@@ -50,7 +50,7 @@ least 7.
 Keevash, Peter and Sudakov, Benny, On the number of edges not covered by
 monochromatic copies of a fixed graph. J. Combin. Theory Ser. B 90 (2004),
 no. 1, 41--53; DOI 10.1016/S0095-8956(03)00075-3 (received 9 May 2002;
-the Crossref record dates the issue January 2004).
+the Crossref record, read 2026-09-18, dates the issue January 2004).
 
 **Edition.** The copy read for this card is the journal's PDF of the
 thirteen printed pages, with a text layer;

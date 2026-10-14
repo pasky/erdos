@@ -129,10 +129,10 @@ vertices is the double star $S(N-2,0)$, an instance the Grossman--Harary--Klawe
 page already covers.
 
 **Source.** [erdosproblems.com/547](https://www.erdosproblems.com/547),
-accessed 2026-10-07: the problem page (DECIDABLE; last edited 18 January 2026),
-its seven-comment discussion thread (11 September 2025 to 17 September 2026) and
-its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #547,
-https://www.erdosproblems.com/547.
+accessed 2026-10-07: the problem page (last edited 18 January 2026) and its
+seven-comment discussion thread (11 September 2025 to 17 September 2026); its
+last label was DECIDABLE, and its proof-claim tab was empty. Cite as: T. F.
+Bloom, Erdős Problem #547, https://www.erdosproblems.com/547.
 
 **References.**
 

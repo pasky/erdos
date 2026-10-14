@@ -62,11 +62,11 @@ Lean label" below.
 
 **The question (site formulation as imported on 2026-09-04).** Whether the
 mean value $\lim_{N\to\infty}N^{-1}\sum_{n\le N}f(n)$ exists for every
-multiplicative $f:\mathbb{N}\to\{-1,1\}$. PROVED (LEAN). The site's
-commentary credits the affirmative answer to Wirsing
-[Wi67] and its generalization to Halász [Ha68], and notes, after Wintner,
-that the limit need not exist when $f$ takes complex values on the unit
-circle, Rényi's example being $f(n)=n^{i}$.
+multiplicative $f:\mathbb{N}\to\{-1,1\}$. PROVED (LEAN). The site's commentary
+(read 2026-10-07) credits the affirmative answer to Wirsing [Wi67] and its
+generalization to Halász [Ha68], and notes, after Wintner, that the limit need
+not exist when $f$ takes complex values on the unit circle, Rényi's example
+being $f(n)=n^{i}$.
 
 **Standing.** Two accepted full claims, both refereed papers in Acta
 Mathematica Academiae Scientiarum Hungaricae:
@@ -94,8 +94,8 @@ details. They formalize Wirsing's result and are not an independent proof. No
 Lean file was built, kernel-checked or audited in this repository, and no
 `formalized` evidence is claimed.
 
-**Search scope.** The site's problem page and its empty proof-claims thread
-as of 2026-10-07; the community database's entry as of 2026-10-06; the
+**Search scope.** The site's problem page as of 2026-10-07 and its empty
+proof-claims thread; the community database's entry as of 2026-10-06; the
 Crossref records of the two papers, for their issue dates; the
 formal-conjectures statement file and the header, theorem statement and
 imports of the community Lean file at their pinned commits. Neither paper is

@@ -48,12 +48,12 @@ of 2011 is an alias of it, and the slug year records that posting. The copy
 read for this card is the arXiv version: nine pages, header "arXiv:1105.1451v1
 [math.NT] 7 May 2011", running head "THE IRRATIONALITY OF SOME NUMBER
 THEORETICAL SERIES", author's address Mathematisches Institut, Freiburg.
-Provenance: the file served at <https://arxiv.org/pdf/1105.1451v1> on
-2026-09-17 (UTC), 135,121 bytes. The journal version was not
-compared; page numbers and labels below are those of the arXiv PDF (pp. 1--9).
-Its text layer is reliable; the statements were also checked on the rendered
-pages 1--9. The arXiv record names arXiv's non-exclusive distribution
-license (arXiv:1105.1451), every other right reserved.
+Provenance: the file served at <https://arxiv.org/pdf/1105.1451v1>, 135,121
+bytes. The journal version was not compared; page numbers and labels below are
+those of the arXiv PDF (pp. 1--9). Its text layer is reliable; the statements
+were also checked on the rendered pages 1--9. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1105.1451), every other right
+reserved.
 
 **Not the same paper as**
 [[irrationality/schlagepuchta_2006_irrationality_number_theoretical_series/_index|schlagepuchta_2006_irrationality_number_theoretical_series]]

@@ -49,7 +49,7 @@ hypercube*, arXiv:2211.02015v3 [math.CO], 22 January 2024, the copy read
 (19 pages); Theorem 1.4 on p. 2, the lower bound on p. 17, read in the text
 layer and on the page images. Published as Forum of Mathematics, Sigma 12
 (2024), DOI 10.1017/fms.2024.27 (published online 15 March 2024; Crossref
-record read); the journal version was not
+record read 2026-09-18); the journal version was not
 compared. The edition is identified in the
 [[extremal_graph_theory/janzer_2022_turan_number_hypercube/_index|source digest]].
 Acceptance evidence: a refereed journal; the arXiv version thanks "the two

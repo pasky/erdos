@@ -98,13 +98,13 @@ accessed 2026-09-18.
 **References.**
 
 - [Er43] Erdős, P., A note on Farey series. Quart. J. Math. Oxford Ser. 14
-  (1943), 82--85, doi:10.1093/qmath/os-14.1.82 (Crossref record;
-  received 30 March 1943). The Theorem, p. 82; the thresholds
+  (1943), 82--85, doi:10.1093/qmath/os-14.1.82 (Crossref record,
+  2026-09-18; received 30 March 1943). The Theorem, p. 82; the thresholds
   $n>192k$ and $n>400k$, pp. 83--84 (the Rényi archive scan). Library home:
   [[../library/number_theory/erdos_1943_note_farey_series/_index|erdos_1943_note_farey_series]].
 - [Ma42] Mayer, A. E., A mean value theorem concerning Farey series. Quart.
   J. Math. Oxford Ser. 13 (1942), 48--57, doi:10.1093/qmath/os-13.1.48
-  (Crossref record). Not held (publisher paywall); not
+  (Crossref record, 2026-09-18). Not held (publisher paywall); not
   requested here. The site credits it with
   $f(n)\to\infty$; van Doorn (p. 1) credits it with $f(n)\ge3$ for $n\ge5$
   and attributes $f(n)\to\infty$ to Mayer's second 1942 paper, "On
@@ -113,18 +113,21 @@ accessed 2026-09-18.
   and the discrepancy is recorded, not resolved.
 - [vD25b] W. van Doorn, Improved bounds for the Mayer-Erdős phenomenon on
   similarly ordered Farey fractions. arXiv:2509.00121v1 (28 August 2025), 9
-  pp. Theorem 1 and the Conjecture, p. 2; Theorem 2, p. 5. Library
+  pp.; the only version, no journal reference, no Crossref record
+  (2026-09-18). Theorem 1 and the Conjecture, p. 2; Theorem 2, p. 5. Library
   home:
   [[../library/number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/_index|doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly]].
 - [Ci26] Cipollini, R., Optimality of Wouter van Doorn's Upper Bound for the
-  Mayer--Erdős Farey Problem. arXiv:2607.23302v1 (25 July 2026), 16 pp.
+  Mayer--Erdős Farey Problem. arXiv:2607.23302v1 (25 July 2026), 16 pp.; the
+  only version, no journal reference, no Crossref record (2026-09-18).
   Theorem 1, p. 2; the contribution statement, p. 16. The key is identified
   with this
   paper by the page's own sentence and by the proof-claims tab's link to its
   arXiv identifier. Library home:
   [[../library/number_theory/cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey/_index|cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey]].
 - [WXZ26] Wang, Y., Xie, M. and Zhao, Z., An exact formula for Erdős'
-  problem 1005. arXiv:2608.15681v1 (16 August 2026), 9 pp. Theorems
+  problem 1005. arXiv:2608.15681v1 (16 August 2026), 9 pp.; the only
+  version, no journal reference, no Crossref record (2026-09-18). Theorems
   1.2 and 1.3, p. 1. A lead, not cited by the site's page; the first author's
   proof claim is on the site's tab. Library home:
   [[../library/number_theory/wang_2026_exact_formula_erdos_problem_1005/_index|wang_2026_exact_formula_erdos_problem_1005]].
@@ -136,29 +139,29 @@ accessed 2026-09-18.
 - [OEIS] van Doorn, W., Sequence A386893, "Minimal number of Farey fractions
   in between two fractions that are not similarly ordered", The On-Line
   Encyclopedia of Integer Sequences (created 9 September 2025; entry last
-  modified 12 September 2025, server time; accessed through its
+  modified 12 September 2025, server time; accessed 2026-09-18 through its
   JSON record), with the formula lines $a(n)<n/4+5$ and
   $a(n)\ge(n/12)(1-4/n^{1/3})$ and van Doorn's conjecture.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/51e4df0f85943cadf29bec7c2e64e4f7aac9a04e/FormalConjectures/ErdosProblems/1005.lean),
 added on 19 September 2026 (no file existed on 2026-09-18), at that revision,
-its only one: the file defines `Erdos1005.f n` as the minimum, over pairs of
-Farey fractions of order $n$ that are not similarly ordered, of the number of
-Farey fractions strictly between them (the intervening-count convention; its
-docstring states the site's wording), `erdos_1005` asks whether $f(n)/n$
-converges to a positive constant with the answer True, and
+its only one on 2026-10-07: the file defines `Erdos1005.f n` as the minimum,
+over pairs of Farey fractions of order $n$ that are not similarly ordered, of
+the number of Farey fractions strictly between them (the intervening-count
+convention; its docstring states the site's wording), `erdos_1005` asks whether
+$f(n)/n$ converges to a positive constant with the answer True, and
 `erdos_1005.variants.constant` states the limit $1/4$, crediting Cipollini and
 GPT-5.5; both are tagged research solved and proved there by `sorry`, and the
 variant's `formal_proof` attribute points to the `Erdos1005.lean` file of Boris
 Alexeev's `lean-proofs` repository, a copy of the Woett development (described
 under "Formalization and the Lean developments" below and a `formalization` link
-on Cipollini's page). The community database (teorth/erdosproblems) records the
-problem solved, a state set on 1 September 2026 (open before; the status date
-field keeps 9 September 2025, the day the entry was created), and formalized
-since 19 September 2026, and the site's formalized-statement indicator read yes.
-None of the three Lean developments was built here, and nothing here is
-kernel-checked.
+on Cipollini's page). The community database (teorth/erdosproblems, fetched
+2026-10-06) records the problem solved, a state set on 1 September 2026 (open
+before; the status date field keeps 9 September 2025, the day the entry was
+created), and formalized since 19 September 2026, and the site's
+formalized-statement indicator read yes on 2026-10-07. None of the three Lean
+developments was built here, and nothing here is kernel-checked.
 
 ## Current assessment
 
@@ -202,10 +205,11 @@ not treat $k\le2$ separately; for $k\ge3$ the printed thresholds give the
 theorem with $c=400$, which is the constant van Doorn reads from it; in the
 page's notation $f(n)\ge n/400-1$ (every $k<n/400$ is covered). Erdős adds
 (p. 84): "I have not been able to find the best possible value for the
-constant $c$ in the above result." The note was a letter to Mayer, put into form by Davenport
-(headnote, p. 82); its footnote cites Mayer's theorems in Quart. J. Math. 13
-(1942), 186--7. Mayer's own results ($f(n)\ge3$ for $n\ge5$; $f(n)\to\infty$)
-are second-hand here, through the site and van Doorn's introduction.
+constant $c$ in the above result." The note was a letter to Mayer, put into form
+by Davenport (headnote, p. 82); its footnote cites Mayer's theorems in Quart. J.
+Math. 13 (1942), 186--7. Mayer's own results ($f(n)\ge3$ for $n\ge5$;
+$f(n)\to\infty$) are second-hand here, through the site and van Doorn's
+introduction.
 
 **The bounds before 2026 (van Doorn).**
 [[../library/number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/theorem_1|Theorem 1]]

@@ -68,7 +68,7 @@ Stewart's published 2013 result proves the stated full limit; its claim page
 [[problems/arithmetic_functions/E0977/claims/2010_08_06_stewart|Stewart 2013]]
 records the acceptance evidence.
 
-Status searches (UTC) covered the [arXiv
+Status searches covered the [arXiv
 record](https://arxiv.org/abs/1008.1274), [Stewart's refereed-publications
 list](https://uwaterloo.ca/pure-mathematics/cameron-stewart/refereed-journals-and-books),
 the author-hosted published paper, exact-title correction searches, and indexed

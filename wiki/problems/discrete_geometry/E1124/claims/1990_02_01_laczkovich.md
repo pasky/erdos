@@ -52,7 +52,8 @@ theorem.
 **Acceptance.** The result is refereed. It appeared in the Journal für die reine
 und angewandte Mathematik. The site's curator, Thomas Bloom, marked the problem
 proved and credits Laczkovich, recording that the decomposition uses
-translations only. The site's page prints no last-edited date.
+translations only. The site's page, accessed 2026-10-07, printed no last-edited
+date.
 
 Two later theorems strengthen the result for the same class of sets without
 changing the answer. Grabowski, Máthé and Pikhurko (Ann. of Math. (2) 185

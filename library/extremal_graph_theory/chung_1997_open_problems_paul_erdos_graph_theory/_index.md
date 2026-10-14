@@ -42,7 +42,7 @@ the preprint's own; the journal pagination was not consulted, so page locators
 below refer to the preprint. The journal text was not compared. Provenance:
 obtained in September 2026; the download URL was not recorded. 261,559 bytes.
 The preprint prints that footnote on its first page and no notice on any other
-page (text layer read); the download URL was not recorded, so no
+page (read in the text layer); the download URL was not recorded, so no
 hosting page could be checked, every other right reserved.
 
 Read status: claims checked for Problem 75 (preprint p. 19), the statement

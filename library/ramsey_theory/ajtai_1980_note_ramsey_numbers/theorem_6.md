@@ -105,7 +105,8 @@ Lemma 4.
   [[ramsey_theory/li_rousseau_zang_2001_asymptotic_upper_bounds_ramsey_functions/_index|li_rousseau_zang_2001_asymptotic_upper_bounds_ramsey_functions]],
   lower the constant to $1+o(1)$: their concluding remark "for any fixed
   $k$, $r(k,n)\le(1+o(1))n^{k-1}/(\log n)^{k-2}$ as $n\to\infty$" on
-  printed p. 127 (PDF p. 5), read clause by clause on the page image, the case $l=1$ of their Theorem 2 paged on
+  printed p. 127 (PDF p. 5), read clause by clause on the page image, the case
+  $l=1$ of their Theorem 2 paged on
   [[ramsey_theory/li_rousseau_zang_2001_asymptotic_upper_bounds_ramsey_functions/theorem_2|theorem_2]].
 - [[../wiki/problems/ramsey_theory/E0986/_index|Problem 986]]: the upper bound
   $R(s,k)\ll_sk^{s-1}/(\log k)^{s-2}$ for every fixed $s\ge3$ that the

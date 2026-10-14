@@ -40,20 +40,20 @@ inf n_0/sqrt(n) <= 4/sqrt(6) = sqrt(8/3). For 1° and 2° (pp. 1156--1158) it
 combines a minimal restricted basis for a fixed n with a Singer difference
 set modulo m = p^2+p+1, for a prime p chosen by the prime number theorem,
 plus the elements of its set (5) at the two ends of [0,N], which it counts
-as 2[sqrt(M)] + 2, where M = N - (n+1)m, and concludes N_0/sqrt(N) < n_0/sqrt(n) + ε for all large N.
-The printed covering step has a slip: on p. 1157 it sets N - M + 1 = nm + 1,
-while its own definition of M gives (n+1)m + 1, so the differences strictly
-between nm and (n+1)m are not shown to be represented; 1° and 2° depend on
-that step, and 3° depends on it through them (the lower bound through 1°, the
-upper bound through 2°). The paper adds that the same argument, with
-the constraint 0 <= a_i <= n dropped, reproves Rédei and Rényi's results 1*)
-and 2*) for unrestricted difference bases.
+as 2[sqrt(M)] + 2, where M = N - (n+1)m, and concludes N_0/sqrt(N) <
+n_0/sqrt(n) + ε for all large N. The printed covering step has a slip: on p.
+1157 it sets N - M + 1 = nm + 1, while its own definition of M gives (n+1)m + 1,
+so the differences strictly between nm and (n+1)m are not shown to be
+represented; 1° and 2° depend on that step, and 3° depends on it through them
+(the lower bound through 1°, the upper bound through 2°). The paper adds that
+the same argument, with the constraint 0 <= a_i <= n dropped, reproves Rédei and
+Rényi's results 1*) and 2*) for unrestricted difference bases.
 
 Source: <https://users.renyi.hu/~p_erdos/1948-09.pdf>. No notice is printed in
 the file, whose reprint cover names only the Proceedings, Indagationes
 Mathematicae and the North-Holland Publishing Company; the hosting archive's
 site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only."); no
 publisher's page for the 1948 edition was located or consulted, and no Crossref
 license is recorded; the term is unstated.

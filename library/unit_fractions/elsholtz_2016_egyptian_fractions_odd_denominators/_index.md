@@ -32,7 +32,7 @@ online 28 June 2016); preprint
 [arXiv:1606.02117](https://arxiv.org/abs/1606.02117).
 
 The copy read for this card is
-the arXiv version v1 (7 June 2016, the only arXiv version),
+the arXiv version v1 (7 June 2016, the only arXiv version on 2026-09-17),
 nine physical pages numbered 1--9: the arXiv:1606.02117v1 PDF
 (<https://arxiv.org/pdf/1606.02117v1>); 107,870
 bytes. The journal version was not obtained and has not been
@@ -99,12 +99,12 @@ no proof was rewritten and none has been independently reviewed.
 ## Compiled scope
 
 Statements only. The construction is recorded as a sketch on the
-Theorem 1.1 page; the paper's lemmas and the parity argument for the necessity of odd
-$k$ when $P$ is even were read but not checked step by step. Nothing in the
-paper decides a catalog problem's status: for Problem 148 it gives an
+Theorem 1.1 page; the paper's lemmas and the parity argument for the necessity
+of odd $k$ when $P$ is even were read but not checked step by step. Nothing in
+the paper decides a catalog problem's status: for Problem 148 it gives an
 independent doubly exponential lower bound for a restricted count, which
-together with the monotonicity of the unrestricted count in $k$ bounds
-$F(k)$ from below with an unspecified constant.
+together with the monotonicity of the unrestricted count in $k$ bounds $F(k)$
+from below with an unspecified constant.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0148/_index|#148]] (Theorem
 1.1 at $P=2$, that is Corollary 1.2: a lower bound

@@ -45,7 +45,7 @@ Bloom–Sisask Roth bound, not the 2023 note held in this library.)
 numbers $W(3,k)$*, Electron. J. Combin. 28 (2021), no. 2, Paper P2.34, 10
 pages, DOI 10.37236/9704 (submitted 9 July 2020, accepted 23 May 2021,
 published 4 June 2021, per the article's first page and the Crossref
-record read). The retained folder-name PDF is the published
+record read 2026-09-18). The retained folder-name PDF is the published
 article; printed page equals PDF page. Theorem 1 and the remark on p. 2,
 read on the page images.
 

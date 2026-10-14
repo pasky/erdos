@@ -42,40 +42,39 @@ Fomin, Fedor V. and Villanger, Yngve, Treewidth computation and extremal
 combinatorics. Combinatorica 32 (2012), no. 3, 289--308.
 
 **Edition read.** The journal version is Combinatorica 32 (2012),
-no. 3, 289--308, DOI 10.1007/s00493-012-2536-z (Crossref record read; a conference version appeared in Lecture Notes in Computer
-Science (2008), 210--221). The copy read for this card is the arXiv
-preprint arXiv:0803.1321v2 (5 May 2008), 14 pages, an
-extended-abstract text (p. 8: "The proof of the following lemma is
-postponed till the full version of this paper"), so the locators below are
-the preprint's and the journal text was not compared. Read status: claims checked, on the page images, for the definitions of
-minimal separators, full components and potential maximal cliques
-(Section 2, p. 3), for the Main Lemma (Lemma 1, p. 4) with its proof (p. 5),
-for Theorem 1 (p. 6) with its proof (pp. 6--7) read and followed, and for
-Theorems 2 to 5 (pp. 8, 8, 10, 11) with their supporting lemmas read in
-outline; each is paged below. Theorem 3 rests on Lemma 6 (p. 8), whose
-proof the preprint postpones, so this edition does not prove it in full.
-The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:0803.1321), every other right
-reserved.
+no. 3, 289--308, DOI 10.1007/s00493-012-2536-z (Crossref record read 2026-09-19;
+a conference version appeared in Lecture Notes in Computer Science (2008),
+210--221). The copy read for this card is the arXiv preprint arXiv:0803.1321v2
+(5 May 2008), 14 pages, an extended-abstract text (p. 8: "The proof of the
+following lemma is postponed till the full version of this paper"), so the
+locators below are the preprint's and the journal text was not compared. Read
+status: claims checked, on the page images, for the definitions of minimal
+separators, full components and potential maximal cliques (Section 2, p. 3), for
+the Main Lemma (Lemma 1, p. 4) with its proof (p. 5), for Theorem 1 (p. 6) with
+its proof (pp. 6--7) read and followed, and for Theorems 2 to 5 (pp. 8, 8, 10,
+11) with their supporting lemmas read in outline; each is paged below. Theorem 3
+rests on Lemma 6 (p. 8), whose proof the preprint postpones, so this edition
+does not prove it in full. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:0803.1321), every other right reserved.
 
 The paper proves a combinatorial lemma: for a graph G and integers b, f >= 0,
 the number of vertex subsets S of size b+1 that induce a connected subgraph and
 can be separated from the rest of G by deleting f vertices is at most n *
 binom(b+f, b); locally, the number of such connected subgraphs of size b+1
 through a fixed vertex with exactly f neighbors is at most binom(b+f, b), a
-bound the introduction (p. 2) calls tight without proof. The bound is a variation on Bollobas's theorem from extremal set
-theory. Applying it, the authors obtain an exponential-space algorithm computing
-treewidth in time O(1.7549^n) and a polynomial-space one in time O(2.6151^n),
-improving the previous O(1.8899^n) and O(2.9512^n); they also decide treewidth
-at most k in time O(((2n+k+1)/3)^{k+1} k n^6), refining
-Arnborg-Corneil-Proskurowski, and list all minimal separators in time
-O(1.6181^n) and all potential maximal cliques in time O(1.7549^n). The
-improvements come from feeding the new counting bound into the standard
-enumeration of minimal separators and potential maximal cliques, and carry over
-to related problems such as fill-in, treelength and Chordal Sandwich, which
-the introduction (p. 2) states without proof. The part bearing on problem
-150 is Theorem 1, the bound on minimal separators that the counting lemma
-yields.
+bound the introduction (p. 2) calls tight without proof. The bound is a
+variation on Bollobas's theorem from extremal set theory. Applying it, the
+authors obtain an exponential-space algorithm computing treewidth in time
+O(1.7549^n) and a polynomial-space one in time O(2.6151^n), improving the
+previous O(1.8899^n) and O(2.9512^n); they also decide treewidth at most k in
+time O(((2n+k+1)/3)^{k+1} k n^6), refining Arnborg-Corneil-Proskurowski, and
+list all minimal separators in time O(1.6181^n) and all potential maximal
+cliques in time O(1.7549^n). The improvements come from feeding the new counting
+bound into the standard enumeration of minimal separators and potential maximal
+cliques, and carry over to related problems such as fill-in, treelength and
+Chordal Sandwich, which the introduction (p. 2) states without proof. The part
+bearing on problem 150 is Theorem 1, the bound on minimal separators that the
+counting lemma yields.
 
 Source: <https://arxiv.org/abs/0803.1321>.
 

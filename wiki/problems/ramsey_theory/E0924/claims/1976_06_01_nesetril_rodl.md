@@ -51,8 +51,8 @@ on a page the site labeled PROVED. Spencer's refereed 1975 paper states it in
 its introduction (printed p. 278) as the full generalization of Folkman's
 theorem. Erdős's 1975 report credits Nešetřil and Rödl with the answer for every
 number of colors, when their paper was still unpublished. Semantic Scholar's
-citation list records no dispute in the first hundred records (1986 to 2026,
-scanned by title).
+citation list, read 2026-09-18, recorded no dispute in the first hundred records
+(1986 to 2026, scanned by title).
 
 **Read depth.** The paper is not held; no open copy was found on
 2026-09-18. The statement above is quoted second-hand from Spencer's

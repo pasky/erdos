@@ -114,10 +114,10 @@ added on 2026-10-07, states `erdos_712`: for all $k>r>2$ the ratio
 $\mathrm{ex}_r(n,K_k^r)/\binom nr$ tends to a value $L(k,r)$ to be determined,
 written with the limit the site's display omits. It is tagged `research open`
 and carries no formal proof, so it is a statement file, not a formalization of a
-result. No statement file existed when the site's indicator recorded no
-formalized statement; the community database (`data/problems.yaml`) records the
-problem open (last update 31 August 2025), formalized since 2026-10-07, with no
-formal proof and OEIS "possible".
+result. No statement file existed on 2026-09-18, when the site's indicator
+recorded no formalized statement; the community database (`data/problems.yaml`)
+records the problem open (last update 31 August 2025), formalized since
+2026-10-07, with no formal proof and OEIS "possible".
 
 ## Current assessment
 

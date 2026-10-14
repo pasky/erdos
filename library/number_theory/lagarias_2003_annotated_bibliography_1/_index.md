@@ -25,11 +25,11 @@ Jeffrey C. Lagarias, *The 3x+1 Problem: An Annotated Bibliography (1963-1999)
 
 One annotated entry per work of the period, sorted by author; the
 bibliography proves nothing of its own. Its abstract and the opening of §1
-(p. 1; §1 runs to p. 2) define the $3x+1$ function $T$ and the Collatz function $C$ and pose the
-$3x+1$ Conjecture, recorded on
+(p. 1; §1 runs to p. 2) define the $3x+1$ function $T$ and the Collatz function
+$C$ and pose the $3x+1$ Conjecture, recorded on
 [[number_theory/lagarias_2003_annotated_bibliography_1/conjecture_p1|the conjecture page]].
-The erdosproblems.com page for problem 1135 cites other works of Lagarias
-on the problem, not this bibliography.
+The erdosproblems.com page for problem 1135 cites other works of Lagarias on the
+problem, not this bibliography.
 
 The copy read for this card is arXiv:math/0309224v13 (dated January 1, 2011;
 74 pp.). The arXiv record names arXiv's non-exclusive distribution license

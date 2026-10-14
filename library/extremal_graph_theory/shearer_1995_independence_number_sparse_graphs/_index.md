@@ -59,7 +59,7 @@ reads the prose and garbles the displays, fractions and subscripts. The
 stamp, read in the text layer, carries the article's DOI address, the
 downloading account holder's personal name and the download date
 2026-09-22; the name is not repeated on this card. The copy was downloaded
-from the publisher as a DRM-free production PDF, the DOI
+from the publisher on 2026-09-22 as a DRM-free production PDF, the DOI
 <https://doi.org/10.1002/rsa.3240070305> resolving to the article on the
 publisher's site; 153,618 bytes. The copy prints "© 1995 John
 Wiley & Sons, Inc." on its first page, with the journal line "Random Structures

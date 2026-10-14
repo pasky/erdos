@@ -40,8 +40,8 @@ R. Acad. Bulgare Sci. 32 (1979), no. 10, 1315--1318, in Russian. The coauthor
 is V. (Vladimir) Nikiforov, as the 1988 paper's reference [2] and p. 44, Fox
 and Loh's reference [13] and Bollobás and Nikiforov's 2005 reference [10] give
 the name; the site's reference text prints "S. V. Nikiforov". The note is not
-held and has no online record found; its statement is known through the 1988
-paper of the first author
+held and has no online record found (no DOI, Crossref or zbMATH record on
+2026-09-18); its statement is known through the 1988 paper of the first author
 ([[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/_index|card]]).
 That paper states the problem in the site's exact form, with $\hat t$ the
 largest number of triangles on one edge

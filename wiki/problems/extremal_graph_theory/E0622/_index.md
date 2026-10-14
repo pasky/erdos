@@ -51,7 +51,7 @@ standing is derived from that page.
   [arXiv:2503.01826v2](https://arxiv.org/abs/2503.01826v2).
 
 **Formalization.** None recorded (site and community database, 2026-09-05;
-no formal-conjectures file).
+no formal-conjectures file on 2026-10-07).
 
 ## Current assessment
 

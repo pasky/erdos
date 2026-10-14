@@ -32,8 +32,8 @@ $$
 
 for all $\pi\in S_n$?
 
-**Formulation.** The site's wording (page last edited 27 December 2025).
-$S(\pi)$ counts the distinct values of
+**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
+27 December 2025). $S(\pi)$ counts the distinct values of
 $\sum_{i=u}^v\pi(i)$ over $1\le u\le v\le n$, single terms included, so
 $S(\pi)\le\binom{n+1}2$. The question asks whether $S(\pi)\le\epsilon n^2$
 for every $\epsilon>0$, all large $n$ and all $\pi\in S_n$ at once
@@ -143,7 +143,7 @@ closes with `theorem not_erdos_34 : ¬ erdos_34`. The file contains no `sorry`
 and no `axiom` declaration, and its closing `#print axioms` comment lists
 `propext`, `Classical.choice` and `Quot.sound`. Both files are cited at pinned
 commits: nothing was built or audited here and no kernel credit is claimed. The
-community database (teorth/erdosproblems) lists
+community database (teorth/erdosproblems, accessed 2026-09-18) lists
 `disproved (Lean)` as of its last update of 5 February 2026 and the statement as
 formalized as of its last update of 6 July 2026, and records no formal-proof
 URL; the site's indicator reads "Formalised statement? Yes". The thread comment
@@ -153,7 +153,7 @@ formalization of its result.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation of 2026-09-18).** The statement above;
 DISPROVED (LEAN); last edited 27 December 2025; source keys [Er77c, p. 71] and
 [ErGr80, p. 58]. The commentary notes that the identity permutation $\iota$ has
 $S(\iota)=o(n^2)$, which prompted Erdős's question whether every permutation
@@ -183,8 +183,8 @@ report of the Lean formalization of Konieczny's permutation from a stated
 prompt, the file described under Formalization (the post links a post on X, not
 cited or linked here). The proof-claim tab carries one proof claim, on the
 minimum $g(n)$, submitted 15 September 2026, described under the bounds map
-below. The community database record lists disproved (Lean) as of its last
-update of 5 February 2026.
+below. The community database record (accessed 2026-09-18) lists disproved
+(Lean) as of its last update of 5 February 2026.
 
 **Erdős's statements.** [Er77c], printed p. 71: "Early in September (of
 1976) Harheim
@@ -218,7 +218,7 @@ $(u,v)$, and there are $\lceil(n+1)/2\rceil\lfloor(n+1)/2\rfloor\ge n^2/4$
 of them. Since $n^2/4$ is not $o(n^2)$, the statement is false. Read depth:
 claims checked; the half-page proof was read for structure, and nothing
 here is independently reviewed. Acceptance: refereed publication in the
-Journal of Combinatorics (Crossref record), the
+Journal of Combinatorics (Crossref record accessed 2026-09-18), the
 published text of the proposition and its proof agreeing word for word with
 the arXiv v5 text at the pages cited; the site's own record; the formal check
 described under Formalization. The earlier counterexample: Konieczny's

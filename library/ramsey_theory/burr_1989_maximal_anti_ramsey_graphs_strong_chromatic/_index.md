@@ -37,7 +37,7 @@ squared.
 S. A. Burr, P. Erdős, R. L. Graham, V. T. Sós: Maximal antiramsey graphs and
 the strong chromatic number, J. Graph Theory 13 (1989) no. 3, 263--282,
 doi:10.1002/jgt.3190130302 (MR 90c:05146; Zentralblatt 682.05046; the
-Crossref record, gives July 1989). The printed title has
+Crossref record, read 2026-09-18, gives July 1989). The printed title has
 "Antiramsey" as one word.
 
 **Edition read.** The copy read for this card is the Rényi archive's scan of

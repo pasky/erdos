@@ -54,7 +54,7 @@ DOI: [10.1016/j.jctb.2018.12.003](https://doi.org/10.1016/j.jctb.2018.12.003).
 The copy read for this card is the 34-page
 arXiv:1605.09055v3 manuscript dated 12 August 2018, not the journal typesetting.
 Printed and PDF page numbers agree. The arXiv record and Ping Hu's publication
-list were checked; the published text was not compared with this
+list were checked on 2026-09-09; the published text was not compared with this
 manuscript. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1605.09055), every other right reserved.
 
@@ -125,17 +125,21 @@ performed.
 
 Source: [arXiv:1605.09055v3](https://arxiv.org/abs/1605.09055v3).
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0608/_index|#608]], which
-asks whether every $n$-vertex graph with more than $n^2/4$ edges has at least
-$\tfrac29n^2$ edges in pentagons: [[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/construction_2|Construction 2]] gives,
-at every large order, graphs with $\lfloor n^2/4\rfloor+1$ edges and only
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0608/_index|#608]],
+which asks whether every $n$-vertex graph with more than $n^2/4$ edges has at
+least $\tfrac29n^2$ edges in pentagons:
+[[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/construction_2|Construction 2]]
+gives, at every large order, graphs with $\lfloor n^2/4\rfloor+1$ edges and only
 $\tfrac{2+\sqrt2}{16}n^2+O(n)$ pentagonal edges, fewer than $\tfrac29n^2$;
-[[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/theorem_1_3|Theorem 1.3]] is the matching lower bound, and
-[[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/theorem_1_6|Theorem 1.6]] and [[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/theorem_6_1|Theorem 6.1]] describe the
-near-extremal and extremal graphs. [[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/conjecture_1_1|Conjecture 1.1]] at
-$k=2$ is the problem's $O(n)$ form. Theorems 1.4, 1.5, 1.7 and 7.1 concern
-$C_{2k+1}$ with $k\ge3$ only and are contrast, not a statement about
-pentagons.
+[[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/theorem_1_3|Theorem 1.3]]
+is the matching lower bound, and
+[[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/theorem_1_6|Theorem 1.6]]
+and
+[[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/theorem_6_1|Theorem 6.1]]
+describe the near-extremal and extremal graphs.
+[[extremal_graph_theory/grzesik_2019_minimum_number_edges_that_occur_odd/conjecture_1_1|Conjecture 1.1]]
+at $k=2$ is the problem's $O(n)$ form. Theorems 1.4, 1.5, 1.7 and 7.1 concern
+$C_{2k+1}$ with $k\ge3$ only and are contrast, not a statement about pentagons.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

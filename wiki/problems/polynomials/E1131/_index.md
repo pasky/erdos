@@ -69,8 +69,9 @@ https://www.erdosproblems.com/1131.
 - [BrTo97] Brutman, L. and Toledano, D., An extremal problem of Erdős in
   interpolation theory. Comput. Math. Appl. 34 (1997), no. 12, 37-47.
 
-**Formalization.** None recorded: the community database lists the problem as
-unformalized and no formal-conjectures statement file exists for it.
+**Formalization.** None recorded: on 2026-10-07 the community database listed
+the problem as unformalized and no formal-conjectures statement file existed for
+it.
 
 ## Current assessment
 
@@ -127,8 +128,8 @@ explicit witnesses for $4\le n\le5$ and finds $n(2-\min I)$ decreasing
 from about $1.333$ at $n=2$ toward the Brutman--Toledano value. It is a
 thread post and not a dated manuscript, so it gets no page.
 
-**Lean coverage.** None: the community database lists the problem as
-unformalized and no formal-conjectures statement file exists for it, so no
+**Lean coverage.** None: on 2026-10-07 the community database listed the problem
+as unformalized and no formal-conjectures statement file existed for it, so no
 `formalized` evidence is available to any claim.
 
 **Search scope.** The site's problem page (last edited 2026-01-23) and its

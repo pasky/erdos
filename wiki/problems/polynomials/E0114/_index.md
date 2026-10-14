@@ -91,7 +91,7 @@ https://www.erdosproblems.com/114.
 - [Wa98] Wang, Chunjie, The arc length of the lemniscate $\lvert w^2+c\rvert=1$.
   Acta Math. Sci. (Chin. Ed.) 18 (1998), no. 3, 297–301; Zbl 0926.31001.
 
-**Formalization.** None recorded: formal-conjectures holds no
+**Formalization.** None recorded: on 2026-10-07 formal-conjectures held no
 statement file for the problem.
 
 ## Current assessment

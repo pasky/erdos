@@ -34,7 +34,7 @@ and approximate parametrizations. Bull. Lond. Math. Soc. 53 (2021), no. 3,
 
 The copy read for this card
 is the fourteen-page arXiv version v1 (10 December 2020, the only arXiv
-version). The journal version, Bull. Lond. Math. Soc.
+version on 2026-09-17). The journal version, Bull. Lond. Math. Soc.
 **53** (2021), no. 3, 695--709,
 [doi:10.1112/blms.12452](https://doi.org/10.1112/blms.12452), published
 online 25 January 2021, was not obtained or compared; the locators below

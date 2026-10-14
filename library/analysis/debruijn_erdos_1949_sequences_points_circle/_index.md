@@ -51,7 +51,7 @@ parentheses, the Indagationes page, (47)--(49); the first page, p. 14,
 carries no header; each footer shows the offprint page, 3--6). The four
 article pages are image-only, with no text layer (only the portal's cover
 sheet carries one), and were read on the rendered page images. Provenance:
-retrieved from
+retrieved 2026-09-27 from
 <https://pure.tue.nl/ws/files/4306041/597483.pdf>, the address the TU/e
 list of de Bruijn's publications gives; 296,404 bytes. The cover sheet states
 that "Copyright and moral rights for the publications made accessible in the

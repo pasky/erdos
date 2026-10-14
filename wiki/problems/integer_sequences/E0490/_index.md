@@ -91,14 +91,13 @@ Bloom, Erdős Problem #490, https://www.erdosproblems.com/490, accessed
 **References.**
 
 - [Sz76] Szemerédi, E., On a problem of P. Erdős. J. Number Theory 8
-  (1976), no. 3, 264--270, doi:10.1016/0022-314X(76)90003-2 (Crossref record,
-  which lists the article under the publisher's open-access user
-  license since 2013); communicated by P. Erdős, received 2
-  May 1972, revised 10 April 1973; 7 pages, open access at the DOI, whose
-  file the PDF pages below index. The abstract and display (2), printed p.
-  264 (PDF p. 1), and the closing statement with the constant $C$, p. 269
-  (PDF p. 6); the proof, pp. 265--269 (PDF pp. 2--6), followed for structure
-  only. Library home:
+  (1976), no. 3, 264--270, doi:10.1016/0022-314X(76)90003-2 (Crossref record
+  accessed 2026-09-18, which lists the article under the publisher's open-access
+  user license since 2013); communicated by P. Erdős, received 2 May 1972,
+  revised 10 April 1973; 7 pages, open access at the DOI, whose file the PDF
+  pages below index. The abstract and display (2), printed p. 264 (PDF p. 1),
+  and the closing statement with the constant $C$, p. 269 (PDF p. 6); the proof,
+  pp. 265--269 (PDF pp. 2--6), followed for structure only. Library home:
   [[../library/integer_sequences/szemeredi_1976_problem_p_erdos/_index|szemeredi_1976_problem_p_erdos]];
   result page
   [[../library/integer_sequences/szemeredi_1976_problem_p_erdos/main_theorem|main theorem]].
@@ -106,7 +105,7 @@ Bloom, Erdős Problem #490, https://www.erdosproblems.com/490, accessed
   of integers. J. Austral. Math. Soc. Ser. A 21 (1976), no. 4, 418--427,
   doi:10.1017/S144678870001925X; Theorem 1, printed p. 421; the conjecture
   (5) and construction (6), p. 420. Open in the Rényi Institute's Erdős
-  archive. Library home:
+  archive (accessed 2026-09-18). Library home:
   [[../library/integer_sequences/erdos_1976_multiplicative_representations_integers/_index|erdos_1976_multiplicative_representations_integers]].
 - [Er72] Erdős, Paul, Extremal problems in number theory. Proceedings of
   the 1972 Number Theory Conference (Univ. Colorado, Boulder, Colo.)
@@ -130,7 +129,7 @@ Bloom, Erdős Problem #490, https://www.erdosproblems.com/490, accessed
   (10.4), printed p. 131. Library home:
   [[../library/additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/_index|erdos_1973_problems_results_combinatorial_number_theory]].
 - [OEIS] Kitamura, K., Sequence A397205, The On-Line Encyclopedia of Integer
-  Sequences (created 28 June 2026): the maximum of
+  Sequences (created 28 June 2026; accessed 2026-09-18): the maximum of
   $|S||T|$ over $S,T\subseteq\{1,\dots,n\}$ with the products $st$ pairwise
   distinct, $1,2,4,6,9,12,16,20,25,28,35,40,\dots$ for $n\le39$; cites
   [Sz76] and [ErSz76].

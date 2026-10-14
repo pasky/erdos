@@ -63,7 +63,7 @@ https://www.erdosproblems.com/1057.
 ## Current assessment
 
 **Scope.** The question, status and literature are not assessed here: the
-page carried the site's label (OPEN) and its references,
+page carried the site's label (OPEN, accessed 2026-09-04) and its references,
 and no status search is recorded. The authored notes are the two below.
 
 **Two release manuscripts on smooth shifted primes.** Two manuscripts of the

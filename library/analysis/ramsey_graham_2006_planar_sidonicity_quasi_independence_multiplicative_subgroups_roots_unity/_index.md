@@ -88,7 +88,7 @@ L. Thomas Ramsey and Colin C. Graham, "Planar Sidonicity and quasi-independence 
 J. Math. 225 (2006), no. 2, 325--360, which prints no copyright notice; the
 publisher's article page states "© Copyright 2006 Pacific Journal of
 Mathematics. All rights reserved."
-(https://msp.org/pjm/2006/225-2/p08.xhtml), every other right
+(https://msp.org/pjm/2006/225-2/p08.xhtml, read 2026-10-02), every other right
 reserved.
 
 Read status: claims checked. The statements with result pages below were
@@ -178,9 +178,9 @@ and covering by quasi-independent classes can be studied. Quasi-independence
 of a set of complex numbers is the problem's dissociation (distinct subset
 sums), transplanted from the natural numbers to the roots of unity. The paper
 does not produce unbounded quasi-independent covering numbers with a uniform
-extraction constant, and it does not mention Erdős or study sets of natural numbers. Its
-additive relations are in $\mathbb C$, not in the cyclic exponent group, so
-a transfer to integer dissociation still needs a carry-free or
+extraction constant, and it does not mention Erdős or study sets of natural
+numbers. Its additive relations are in $\mathbb C$, not in the cyclic exponent
+group, so a transfer to integer dissociation still needs a carry-free or
 relation-preserving embedding.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0774/_index|E0774]]: the
@@ -190,8 +190,9 @@ Theorem 3.1 localizes the problem's proportional-extraction hypothesis for
 roots of unity, Theorem 1.4 and Proposition 7.5 give finite covers by
 independent or quasi-independent sets in special cases, and Theorems 4.1,
 6.3 and 7.4 determine or bound $\Psi(n)$, the size of a largest
-quasi-independent subset of $T_n$, which measures extraction density there. None of them concerns
-sets of natural numbers, and none settles the problem in either direction.
+quasi-independent subset of $T_n$, which measures extraction density there. None
+of them concerns sets of natural numbers, and none settles the problem in either
+direction.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -58,7 +58,7 @@ author line "OpenAI", the date and the citation block, and adds no statement
 on human assistance or review. The manuscript names no author beyond
 "OpenAI", carries no arXiv identifier, journal or acknowledgment, and does not
 cite erdosproblems.com. No refereed publication, arXiv version or independent
-review of the manuscript is recorded here and nothing on
+review of the manuscript is recorded here, and nothing on
 this card or its result pages is independently reviewed.
 
 Formalization, as the release lists it. `lean/formalization.yaml` names this

@@ -46,10 +46,10 @@ https://www.erdosproblems.com/104.
 
 ## Current assessment
 
-This account rests on the site's page and on the library cards of the two
-release preprints named below; no status search beyond the site is
-recorded, no claim is recorded for this problem, and the standing is the site's
-label. In [Er81d] Erdős states, without giving an argument, that at most
+This account rests on the site's page (accessed 2026-09-04) and on the library
+cards of the two release preprints named below; no status search beyond the site
+is recorded, no claim is recorded for this problem, and the standing is the
+site's label. In [Er81d] Erdős states, without giving an argument, that at most
 $n(n-1)$ unit circles pass through three or more of $n$ points
 ([[../library/discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/unit_circles_p143|source page]]).
 A double count, each pair of points lying on at most two unit circles, gives

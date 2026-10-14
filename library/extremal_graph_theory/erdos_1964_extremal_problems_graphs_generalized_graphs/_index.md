@@ -43,8 +43,8 @@ was read for structure and not checked, and the paper gives the lower bound
 only a method pointer (p. 189). All eight pages were read for a passage on
 planar or saturated planar graphs, and there is none. Theorem 1 is paged at
 [[extremal_graph_theory/erdos_1964_extremal_problems_graphs_generalized_graphs/theorem_1|theorem_1]];
-Theorems 2--3 and the corollary are recorded below from an earlier reading
-that was not repeated here.
+Theorems 2--3 and the corollary are recorded below from the digest and were
+not checked against the page images.
 
 Erdős extends Turán- and Zarankiewicz-type extremal problems from graphs to
 r-graphs (hypergraphs whose elements are vertices and r-tuples), writing

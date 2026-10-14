@@ -37,7 +37,7 @@ reserved.
 
 The journal record is Combinatorica 33 (2013), no. 2, 181--197,
 doi:10.1007/s00493-013-2853-x (issued April 2013, online 14 June 2013;
-Crossref record read). The copy read for this card is
+Crossref record read on 2026-09-19). The copy read for this card is
 arXiv:1107.1920v3 (14 February 2012, 14 pp.), the latest arXiv version, not
 the journal text; the locators below are the preprint's pages, and the
 journal version was not compared.

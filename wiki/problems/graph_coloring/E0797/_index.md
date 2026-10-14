@@ -41,8 +41,8 @@ https://www.erdosproblems.com/797.
 - [AMR91] Alon, Noga and McDiarmid, Colin and Reed, Bruce, Acyclic coloring of
   graphs. Random Structures Algorithms (1991), 277-288.
 
-**Formalization.** The formal-conjectures project has no statement file for
-Problem 797; the resolution has a third-party Lean proof,
+**Formalization.** On 2026-10-07 the formal-conjectures project had no
+statement file for Problem 797; the resolution has a third-party Lean proof,
 linked from the claim page below, which this corpus has not built.
 
 ## Current assessment

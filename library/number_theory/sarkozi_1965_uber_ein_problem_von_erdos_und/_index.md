@@ -22,7 +22,7 @@ ways; the Erdős-Moser conjecture without its logarithmic factor.
 Sárközi, A. and Szemerédi, E., Über ein Problem von Erdös
 und Moser. Acta Arith. (1965), 205-208. The journal record is Acta
 Arithmetica 11 (1965), no. 2, 205--208, DOI 10.4064/aa-11-2-205-208
-(Crossref); the paper was received by the editors on 26
+(Crossref, read 2026-09-18); the paper was received by the editors on 26
 November 1964 (p. 208). The paper prints the first author as A. Sárközy; the
 site's key [SaSz65], Erdős's 1973 survey and this folder's slug write
 Sárközi.

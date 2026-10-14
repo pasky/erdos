@@ -33,7 +33,7 @@ conjecture*, arXiv:2204.09666v3 (25 February 2025, "final version, to
 appear in Inventiones Mathematicae"; 73 pp., the retained folder-name PDF),
 Theorem 6.9 on p. 51, read in the text layer. Journal version: Invent.
 Math. 240 (2025), no. 3, 779--867, DOI 10.1007/s00222-025-01328-x
-(published online 5 March 2025; Crossref record read), not held
+(published online 5 March 2025; Crossref record read 2026-09-18), not held
 and not compared.
 
 **Read depth.** Claims checked: the definitions of p. 51, Theorem 6.9 and

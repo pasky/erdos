@@ -76,8 +76,8 @@ here; the full problem remains unresolved. The site's falsifiable label means
 that a single bad triple $(n,i,j)$, checked by finite arithmetic, would refute
 the statement; the finiteness results above bound where such a triple could
 lie but do not exhibit one. This page records no literature-status search
-supporting the site's falsifiable label beyond the site record and the
-sources named here.
+supporting the site's falsifiable label beyond the site record (accessed
+2026-09-04) and the sources named here.
 
 **Claims.** The two results claimed about the problem have claim pages, from
 which the frontmatter standing derives. Price's partial claim of 2026-07-18, on

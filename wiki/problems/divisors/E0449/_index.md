@@ -56,21 +56,21 @@ at a pinned commit; this corpus has not built or audited it.
 
 ## Current assessment
 
-The question is the site's formulation, accessed 2026-09-04: whether, for
-every $\epsilon>0$, almost all $n$ satisfy $r(n)<\epsilon\tau(n)$, where $r(n)$
-counts the pairs of divisors $d_1<d_2<2d_1$ of $n$. The answer is no. The site
-credits Kevin Ford with the observation that $r(n)>K\tau(n)$ holds on a set of
-positive density for every $K$: a Cauchy-Schwarz inequality compares $r(n)$
-with the dyadic divisor count
+The question is the site's formulation, accessed 2026-09-04 and unchanged on
+2026-10-07: whether, for every $\epsilon>0$, almost all $n$ satisfy
+$r(n)<\epsilon\tau(n)$, where $r(n)$ counts the pairs of divisors $d_1<d_2<2d_1$
+of $n$. The answer is no. The site credits Kevin Ford with the observation that
+$r(n)>K\tau(n)$ holds on a set of positive density for every $K$: a
+Cauchy-Schwarz inequality compares $r(n)$ with the dyadic divisor count
 $\tau^+(n)$ of [[problems/divisors/E0448/_index|Problem 448]], and for every
 $\alpha>0$ the integers with $\tau^+(n)\le\alpha\tau(n)$ contain a set of
 positive density. The claim page
-[[problems/divisors/E0449/claims/2024_07_13_ford|Ford's deduction]] records
-the argument, the factor of two missing from the site's display of the
-inequality, the curator's credit and the Lean formalization in Boris
-Alexeev's repository, and the problem's standing derives from it. The site
-cites Hall and Tenenbaum [HaTe88], Section 4.6, for the argument on an
-essentially identical problem; the book is not held here.
+[[problems/divisors/E0449/claims/2024_07_13_ford|Ford's deduction]] records the
+argument, the factor of two missing from the site's display of the inequality,
+the curator's credit and the Lean formalization in Boris Alexeev's repository,
+and the problem's standing derives from it. The site cites Hall and Tenenbaum
+[HaTe88], Section 4.6, for the argument on an essentially identical problem; the
+book is not held here.
 
 The discussion thread carries a report of 2025-12-28 that ByteDance Seed's
 Seed-Prover 1.5 had solved this problem, which the curator judged a likely

@@ -43,7 +43,7 @@ image-only title page prints no copyright line, only the discussion-paper note
 that references "should be cleared with the author", and the Cowles page for the
 paper shows only the site footer "Copyright (c) 2026 Yale University. All
 Rights Reserved."
-(https://cowles.yale.edu/publications/cfdp/cfdp-632), every
+(https://cowles.yale.edu/publications/cfdp/cfdp-632, read 2026-10-02), every
 other right reserved.
 
 Herbert E. Scarf, "Integral Polyhedra in Three Space," Mathematics of Operations
@@ -59,9 +59,9 @@ integer programs. The copy read is Cowles Foundation Discussion Paper No. 632
 (June 2, 1982): a cover sheet followed by typed pages 1–86, the first of them
 unnumbered; page references here are to the typed page numbers. The published
 version, Math. Oper. Res. 10(3) (1985) 403–438, was not consulted. The
-elementary parity argument in Theorem 1.2 (p. 3) shows that such a polyhedron has at most $2^n$ vertices: two vertices in the
-same class modulo $2\mathbb Z^n$ would have a lattice midpoint in the
-polyhedron.
+elementary parity argument in Theorem 1.2 (p. 3) shows that such a polyhedron
+has at most $2^n$ vertices: two vertices in the same class modulo $2\mathbb Z^n$
+would have a lattice midpoint in the polyhedron.
 
 **Three-dimensional classification.** The central geometric result is Howe's
 theorem. Theorem 1.3 (p. 7) states that every eight-vertex integral polyhedron
@@ -190,11 +190,12 @@ $\lfloor\log_2 n\rfloor$ for which this small-coefficient kernel is trivial.
 
 Scarf's lattice points $h\in\mathbb Z^3$ are also integer vectors fed into
 real linear forms, but his hypotheses and conclusions do not match this
-problem. In particular, the row-independence condition in Assumptions 2.1 requires $\sum_{j=1}^3a_{ij}h_j=0$
-to have no nonzero solution in all of $\mathbb Z^3$ for each row separately;
-this is substantially stronger than excluding only $\{-1,0,1\}$-relations.
-Moreover, Theorem 2.6 concerns four inequalities in exactly three integer
-variables, whereas E963 requires dimensions growing on the order of $\log n$.
+problem. In particular, the row-independence condition in Assumptions 2.1
+requires $\sum_{j=1}^3a_{ij}h_j=0$ to have no nonzero solution in all of
+$\mathbb Z^3$ for each row separately; this is substantially stronger than
+excluding only $\{-1,0,1\}$-relations. Moreover, Theorem 2.6 concerns four
+inequalities in exactly three integer variables, whereas E963 requires
+dimensions growing on the order of $\log n$.
 
 Two ingredients could nevertheless be used in a genuinely three-dimensional
 auxiliary argument:

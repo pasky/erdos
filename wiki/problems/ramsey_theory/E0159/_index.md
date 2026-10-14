@@ -120,8 +120,8 @@ of formal-conjectures at the commit linked (main on 2026-09-17) declares
 `erdos_159 : ∃ (c : ℝ) (_ : 0 < c) (C : ℝ), ∀ (n : ℕ), 1 ≤ n → (SimpleGraph.graphRamsey (SimpleGraph.cycleGraph 4) (SimpleGraph.completeGraph (Fin n)) : ℝ) ≤ C * (n : ℝ) ^ (2 - c)`
 under `category research open`, with proof `sorry` and a comment that
 variants are still to be added. The community database
-(teorth/erdosproblems) records the statement as formalized since 9 September
-2026 and no formal proof. The corpus has not built the file.
+(teorth/erdosproblems, fetched 2026-09-17) records the statement as formalized
+since 9 September 2026 and no formal proof. The corpus has not built the file.
 
 ## Current assessment
 

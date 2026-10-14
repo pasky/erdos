@@ -97,8 +97,8 @@ reviewed.
   at most $2\operatorname{rad}(G_i)$ use a vertex attaining the minimum in
   $\operatorname{rad}(G)$). AMS subject classification (1980): 05 C 35.
 - § 1, Preliminary lemmas (p. 84, page image). Lemma 1.1, as printed: "Let
-  $\varepsilon>\alpha>0$ then $G[n,cn^{1-\varepsilon}]$ [sic] contains a subgraph
-  $H[m,(1/2)cm^{1-\alpha}]$ [sic] such that
+  $\varepsilon>\alpha>0$ then $G[n,cn^{1-\varepsilon}]$ [sic] contains a
+  subgraph $H[m,(1/2)cm^{1-\alpha}]$ [sic] such that
   $\operatorname{rad}(H)\le1+(1/\alpha)\log(\varepsilon/(\varepsilon-\alpha))$."
   A filing observation, not a review verdict: the two printed exponents
   $1-\varepsilon$ and $1-\alpha$ read as misprints for $1+\varepsilon$ and
@@ -106,21 +106,21 @@ reviewed.
   for all $x\in V(G)$", stops at the first $l$ with
   $(c/2)|H_l|^{1+\alpha}\le|E(H_l)|$, and the proof of the Theorem applies the
   lemma to graphs with $|E(G_i)|\ge\text{const}\cdot|G_i|^{1+\varepsilon_i}$
-  edges. The proof grows the induced balls $H_i=\langle D_0^a\cup\cdots\cup
-  D_i^a\rangle$ around a vertex $a$, uses $|E(H_i)|\ge(1/2)cn^\varepsilon|H_{i-1}|$,
-  and closes with
+  edges. The proof grows the induced balls
+  $H_i=\langle D_0^a\cup\cdots\cup D_i^a\rangle$ around a vertex $a$, uses
+  $|E(H_i)|\ge(1/2)cn^\varepsilon|H_{i-1}|$, and closes with
   $\varepsilon/(\varepsilon-\alpha)\ge(1+\alpha)^{l-1}\ge2^{\alpha(l-1)}$, so
-  the logarithm in the radius bound is to base $2$ (a second filing
-  observation; the paper never names the base). Lemma 1.2: for
+  the logarithm in the radius bound is to base $2$ (a second filing observation;
+  the paper never names the base). Lemma 1.2: for
   $a\in V(G[n,cn^{1+\varepsilon}])$ some pair of consecutive distance classes
   $D_i^a\cup D_{i+1}^a$, of $d_i$ vertices, induces at least
   $(c/2)d_i^{1+\varepsilon}$ edges. Lemma 1.3 (Erdős, Gallai [3]):
-  "$G[n,t\cdot n]$ contains a path of at least $2t$ vertices." Lemma 1.4
-  (Erdős [1]): every graph $G$ has a bipartite subgraph $B$ with
+  "$G[n,t\cdot n]$ contains a path of at least $2t$ vertices." Lemma 1.4 (Erdős
+  [1]): every graph $G$ has a bipartite subgraph $B$ with
   $|E(B)|\ge(1/2)|E(G)|$. Observation 1.5, "the key of our proof": in a
   bipartite graph, a path of $2t$ vertices $a_1,b_1,\ldots,a_t,b_t$ inside
-  $\langle D_i^a\cup D_{i+1}^a\rangle$ has either all the $a_j$ or all the
-  $b_j$ in $D_i^a$.
+  $\langle D_i^a\cup D_{i+1}^a\rangle$ has either all the $a_j$ or all the $b_j$
+  in $D_i^a$.
 - § 2, The proof of the Theorem (p. 85, page image). It starts from
   $|E(G)|\ge2^{2t(t-1)}t\cdot|G|^{1+\varepsilon}$ (a filing observation:
   $2^{2t(t-1)}t=4^{t^2}\cdot t/4^t\le4^{t^2}$, so the proof's hypothesis is

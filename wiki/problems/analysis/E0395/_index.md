@@ -168,19 +168,19 @@ its card. None of this changes the status of the exact question.
 **Remaining gaps.** An independent whole-proof review of the Theorem 1.1
 reconstruction and its Claim 3.12 repair; comparison with the version of
 record of [HPS25] (Journal of the London Mathematical Society, 2026, DOI
-10.1112/jlms.70539 per its publication record); and Beck's
+10.1112/jlms.70539 per its publication record of 2026-09-05); and Beck's
 1983 paper itself, which this page records only as [HJNS24] and [HPS25]
 quote it.
 
 ## Formalization and the Lean label
 
-The site labeled the problem PROVED (LEAN). The site's page carried that label
-and supplied no proof-claim record, exposition or link to a formal statement or
-proof. The community database (`teorth/erdosproblems`, `data/problems.yaml` at
-its revision of 2026-09-18) records `formal_status` Lean, last updated
-2026-08-24, and no formal-proof URL. The two files below are described at the
-commits their links pin; nothing was built or kernel-checked here, and no local
-kernel credit is claimed.
+The site labeled the problem PROVED (LEAN). The site's page (accessed
+2026-09-05) carried that label and supplied no proof-claim record, exposition or
+link to a formal statement or proof. The community database
+(`teorth/erdosproblems`, `data/problems.yaml` at its revision of 2026-09-18)
+records `formal_status` Lean, last updated 2026-08-24, and no formal-proof URL.
+The two files below are described at the commits their links pin; nothing was
+built or kernel-checked here, and no local kernel credit is claimed.
 
 **Statement file (`google-deepmind/formal-conjectures`,
 <https://github.com/google-deepmind/formal-conjectures>).** The file

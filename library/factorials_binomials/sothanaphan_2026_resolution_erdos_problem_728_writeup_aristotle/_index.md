@@ -42,7 +42,8 @@ are recorded in [the source digest](source_digest.md).
 
 **Formal source.** The paper cites
 [Erdos728b.lean](https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos728b.lean),
-accessed by the paper, as the formal source corresponding to its writeup.
+accessed by the paper on 2026-01-27, as the formal source corresponding to its
+writeup.
 
 **Reported verification.** Sothanaphan reports that GPT-5.2 Pro and Harmonic's
 Aristotle produced the formal proof, that Kevin Barreto operated the system,

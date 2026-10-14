@@ -66,7 +66,7 @@ Source: <https://users.renyi.hu/~p_erdos/Erdos.html>. No notice is printed in
 the copy read (first two and last two pages read); the journal's 1966 volume has
 no online publisher page or DOI, so no publisher's page or Crossref record could
 be consulted; the hosting archive's site footer
-(https://users.renyi.hu/~p_erdos/), "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02), "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only.", speaks
 for the site, not the paper; the term is unstated.
 

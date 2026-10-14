@@ -32,7 +32,7 @@ obscure the essential idea."
 **Source.** T. F. Bloom and O. Sisask, *An improvement to the Kelley–Meka
 bounds on three-term arithmetic progressions*, arXiv:2309.02353v1 (5
 September 2023), 9 pages; the retained folder-name PDF is this preprint,
-the only arXiv version (listing read). No journal version was
+the only arXiv version (listing read 2026-09-18). No journal version was
 found: a Crossref bibliographic query on 2026-09-18 returned the authors'
 separate exposition "The Kelley–Meka bounds for sets free of three-term
 arithmetic progressions" (Essential Number Theory 2 (2023), 15--44), not

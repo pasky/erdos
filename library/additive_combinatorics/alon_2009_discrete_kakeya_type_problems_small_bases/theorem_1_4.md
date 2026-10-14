@@ -40,7 +40,7 @@ about bases for subsets of $\mathbb Z/n\mathbb Z$."
 
 **Source.** N. Alon, B. Bukh and B. Sudakov, *Discrete Kakeya-type
 problems and small bases*, Israel J. Math. 174 (2009), no. 1, 285--301,
-DOI 10.1007/s11856-009-0115-9 (Crossref record read); the
+DOI 10.1007/s11856-009-0115-9 (Crossref record read 2026-09-18); the
 copy read is the authors' version from the first author's
 publication list (12 pp., its own pagination, no journal header), read in
 the text layer: the EN-condition, Theorem 1.4, Corollary 1.5 and the

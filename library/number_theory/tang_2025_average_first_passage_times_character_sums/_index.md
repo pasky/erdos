@@ -24,13 +24,13 @@ arXiv:2512.24631 (2025). The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2512.24631), every other right reserved.
 
 The copy read for this card is arXiv:2512.24631v2 (18 January 2026; 9
-pages). The arXiv listing read shows v1 (31 December 2025) and
+pages). The arXiv listing read on 2026-09-18 shows v1 (31 December 2025) and
 v2 ("added a reference and corrected several typos") and no journal
 reference; locators here are the preprint's. Read status: claims checked for
 Conjecture 1.1 with footnote 1 (p. 1), Theorem 1.2 with the remark that
 f_eps(p) <= F_eps(p) does not transfer the asymptotic (p. 2) and the trivial
-case eps > 1 (p. 2), each read clause by clause on the page images; the proof (Sections 2-3) was read for its outline on p. 2 and not
-checked.
+case eps > 1 (p. 2), each read clause by clause on the page images; the proof
+(Sections 2-3) was read for its outline on p. 2 and not checked.
 
 For an odd prime p let S_l(p) be the sum of the Legendre symbols (n/p) for n <=
 l, and for eps > 0 define the first-passage time f_eps(p) = min{l >= 1 : S_l(p)

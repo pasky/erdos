@@ -36,7 +36,7 @@ a 2-coloring of [1,n], from an explicit coloring by twelve blocks; since
 Parrilo, Pablo A. and Robertson, Aaron and Saracino, Dan, On the asymptotic
 minimum number of monochromatic 3-term arithmetic progressions. J. Combin.
 Theory Ser. A 115 (2008), no. 1, 185--192, DOI 10.1016/j.jcta.2007.03.006
-(Crossref record read). The copy read for this card is
+(Crossref record read 2026-10-07). The copy read for this card is
 arXiv:math/0609532v2 (20 September 2006, nine pages); the journal version was
 not compared, and the theorem and lemma numbers below are the preprint's. The
 arXiv record carries no license field, so arXiv's assumed license applies

@@ -143,7 +143,7 @@ and declares
 `erdos_540 : answer(True) ↔ ∃ C : ℝ, 0 < C ∧ ∀ (N : ℕ), 0 < N → ∀ A : Finset (ZMod N), C * Real.sqrt N ≤ A.card → HasZeroSubsetSum A`
 under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `src/v4.29.1/ErdosProblems/Erdos540.lean` in `plby/lean-proofs`
-on its `main` branch. The community database lists the
+on its `main` branch. The community database, read 2026-09-18, lists the
 problem as "proved (Lean)" as of its last update on 15 April 2026, the statement
 formalized since 6 July 2026, `formal_status` Lean and no formal-proof URL.
 Nothing was built.
@@ -215,7 +215,8 @@ step. The paper records that the stronger conjectures ($2\sqrt n$; non-abelian
 groups) are undecided and, in an editor's footnote, that Olson proved the prime
 case. Acceptance evidence, recorded on the claim page: refereed publication in
 Acta Arithmetica, the site's label and commentary, Erdős's own 1973 and 1980
-acknowledgments, and forty citing records in Semantic Scholar none a dispute by its title. Read depth: claims checked.
+acknowledgments, and forty citing records in Semantic Scholar (read 2026-09-18),
+none a dispute by its title. Read depth: claims checked.
 
 **Refinements of the constant.** Prime modulus: Olson's
 [[../library/integer_sequences/olson_1968_addition_theorem_modulo/theorem_1|Theorem 1]]

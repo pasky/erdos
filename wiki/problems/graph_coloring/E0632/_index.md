@@ -58,7 +58,7 @@ Current assessment. This corpus has not built or audited it.
 
 ## Current assessment
 
-The site's formulation asserts that an
+The site's formulation (accessed 2026-09-04) asserts that an
 $(a,b)$-choosable graph is $(am,bm)$-choosable for every integer $m\ge1$, the
 positive answer to an open question of Erdős, Rubin and Taylor [ERT80]. It is
 false: Theorem 2 of
@@ -84,9 +84,9 @@ formal-conjectures repository has no file for the problem (2026-10-07).
 
 Search scope: the site's page and discussion thread, the community database
 (teorth/erdosproblems), the formal-conjectures repository, the lean-proofs
-collection and Crossref. On 2026-10-07 the thread held no comments and the
-site no proof claims, and none of these sources showed another claim on the
-problem.
+collection and Crossref. The site listed no proof claims, and on 2026-10-07
+the thread held no comments and none of these sources showed another claim on
+the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

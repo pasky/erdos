@@ -21,7 +21,7 @@ prints the thresholds n > 192k and n > 400k.
 ***
 
 P. Erdős, *A note on Farey series*, Quart. J. Math. Oxford Ser. **14** (1943),
-82--85; DOI 10.1093/qmath/os-14.1.82 (the Crossref record,
+82--85; DOI 10.1093/qmath/os-14.1.82 (the Crossref record, read 2026-09-18,
 gives volume os-14, no. 1). Received 30 March 1943. The site's key Er43. The
 paper's headnote: "This note was received in the form of a letter addressed,
 through the *Quarterly Journal*, to the late Dr. Mayer. It has been put into
@@ -34,7 +34,7 @@ pp. 82--85 are PDF pp. 1--4), with a text layer that garbles the formulas;
 every statement below was read on the rendered page images. Source:
 <https://users.renyi.hu/~p_erdos/1943-01.pdf>. No notice is printed on the four
 scanned pages; the publisher's article page
-(https://doi.org/10.1093/qmath/os-14.1.82) shows "© Oxford
+(https://doi.org/10.1093/qmath/os-14.1.82, read 2026-10-02) shows "© Oxford
 University Press" behind a paywall and names no open-access designation, every
 other right reserved.
 

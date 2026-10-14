@@ -55,8 +55,8 @@ Read status: claims checked for Section I.11, display (1) with its two sentences
 the single-element example and the reverse-inequality remark (printed p. 150,
 PDF p. 16), each read clause by clause on the page images; the proof sketch of
 Section I.11 (pp. 138--140, PDF pp. 4--6) was read for its structure and not
-checked; the rest of the digest records an earlier reading that was not
-repeated. No notice is printed in the scan (pp. 1--2 and 20--21 read); the
+checked; the rest of the digest was not checked against the page images. No
+notice is printed in the scan (pp. 1--2 and 20--21 read); the
 hosting archive's site footer "(C) 2005-2007 All rights reserved. All material
 on this site is for scientifics purposes only."
 (https://users.renyi.hu/~p_erdos/, read 2026-10-02) speaks for the site, not the

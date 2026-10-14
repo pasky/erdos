@@ -63,7 +63,7 @@ The journal issue is January–June 1965. Only this mathematical
 version was read; no author-manuscript or later-version
 equivalence is asserted. No notice is printed in the file, and the DOI resolves
 straight to the PDF with no landing page; the Internet Archive record it was
-acquired from (https://archive.org/details/jresv69Bn1-2p125)
+acquired from (https://archive.org/details/jresv69Bn1-2p125, read 2026-10-02)
 states "The Journal of Research of the National Institute of Standards and
 Technology is a publication of the U.S. Government. The papers are in the public
 domain and are not subject to copyright in the United States."; the library's

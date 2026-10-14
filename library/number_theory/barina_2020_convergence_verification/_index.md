@@ -22,17 +22,18 @@ project.
 
 David Barina, *Convergence verification of the Collatz problem*, J. Supercomput.
 **77** (2021), no. 3, 2681--2688; DOI 10.1007/s11227-020-03368-x (published
-online 1 July 2020; the Crossref record). The copy read for this card is the
-author's postprint from the Brno University of Technology publication
-repository, 8 pages with its own pagination ("Received: date / Accepted: date"
-on p. 1), complete text layer; the journal text was not compared; the locators
-below are the postprint's pages. The statement pages were read on the rendered
-page images of pp. 6--7. Source: PDF. That postprint comes from the Brno
-University of Technology repository, for which no hosting statement is recorded,
-and it prints no notice; the publisher's page for the version of record (DOI
-10.1007/s11227-020-03368-x) shows "© Springer Science+Business Media, LLC, part
-of Springer Nature 2020" and no Creative Commons or Open Access statement, which
-governs the article as published and not this postprint; the term is unstated.
+online 1 July 2020; the Crossref record, read 2026-09-18). The copy read for
+this card is the author's postprint from the Brno University of Technology
+publication repository, 8 pages with its own pagination ("Received: date /
+Accepted: date" on p. 1), complete text layer; the journal text was not
+compared; the locators below are the postprint's pages. The statement pages were
+read on the rendered page images of pp. 6--7. Source: PDF. That postprint comes
+from the Brno University of Technology repository, for which no hosting
+statement is recorded, and it prints no notice; the publisher's page for the
+version of record (DOI 10.1007/s11227-020-03368-x, read 2026-10-02) shows "©
+Springer Science+Business Media, LLC, part of Springer Nature 2020" and no
+Creative Commons or Open Access statement, which governs the article as
+published and not this postprint; the term is unstated.
 
 Read status: claims checked for the abstract, the introduction's definition
 of the map and its status sentences, and the verification statement of
@@ -83,8 +84,8 @@ a computer verification is finite evidence, not a proof of the conjecture.
 **Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: the paper
 reports that a distributed computation (September 2019 to May 2020) verified
 the conjecture for all starting values below $2^{68}$, which answers the
-question yes for each $m<2^{68}$ and says nothing about larger $m$; the same project's
-later bound $2^{71}$ is recorded in
+question yes for each $m<2^{68}$ and says nothing about larger $m$; the same
+project's later bound $2^{71}$ is recorded in
 [[number_theory/barina_2025_improved_verification_limit_convergence_collatz/_index|the author's 2025 paper]].
 Finite verification cannot settle the question for all $m$.
 

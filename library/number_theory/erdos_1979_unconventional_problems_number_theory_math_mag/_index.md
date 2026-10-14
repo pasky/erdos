@@ -40,7 +40,7 @@ survey download of September 2026 (its cache file name was
 1979-22.pdf, the numbering of the Rényi Institute's Erdős archive); the
 download URL was not recorded; 809,204 bytes. Read status: claims checked for
 the statements listed below that the nine citing problems consume (read on the
-page images; item 2 re-read for Problems 677 and 678); the paper
+page images; item 2 read for Problems 677 and 678); the paper
 contains no proofs, and nothing stated in it was verified here. No notice is
 printed on the four scanned pages; the Crossref record for DOI
 10.1080/0025570X.1979.11976756 (read 2026-10-02) names Informa UK Limited as

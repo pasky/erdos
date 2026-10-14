@@ -36,8 +36,9 @@ likely meant the eventual sense. The page reads the problem in the eventual
 sense with repeated values, the reading of Geneson's claim; van Doorn's
 strong-sense result settles no instance of it and has no claim page.
 
-**Status.** Claimed, against the site's label OPEN. One pending full claim is
-recorded, [[problems/additive_bases/E0348/claims/2026_09_09_geneson|Geneson's
+**Status.** Claimed, against the site's label OPEN (accessed 2026-10-06). One
+pending full claim is recorded,
+[[problems/additive_bases/E0348/claims/2026_09_09_geneson|Geneson's
 classification of deletion thresholds]], and the frontmatter standing,
 `claimed`/`answered`, follows from it. The claim is a 2026 preprint stating that
 the pairs asked for are exactly those with $m\in\{0,1\}$. The site's remarks
@@ -52,7 +53,7 @@ https://www.erdosproblems.com/348.
 
 ## Current assessment
 
-The site labeled Problem 348 OPEN. The frontmatter
+The site labeled Problem 348 OPEN (accessed 2026-10-06). The frontmatter
 standing, `claimed`/`answered`, is derived from the one claim page below:
 Geneson's 2026 preprint asserts the full classification, exactly $m\le1$, and no
 acceptance of it is recorded. This page records no literature search beyond

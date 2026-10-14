@@ -71,7 +71,7 @@ Keszthely, 1973; dedicated to P. Erdős on his 60th birthday), Vol. I; Colloq.
 Math. Soc. János Bolyai, Vol. 10, pp. 425--513, North-Holland, Amsterdam, 1975
 (MR 53 #2727; Zentralblatt 324.04005). No notice is printed in the file (pp.
 1--2 and 88--89 read); the hosting archive's site footer speaks for the site,
-not the paper (https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007
+not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007
 All rights reserved. All material on this site is for scientifics purposes
 only."); the colloquium volume has no online publisher edition or DOI, so the
 publisher's page was not consulted and no Crossref license is recorded; the term
@@ -86,21 +86,21 @@ Erdős–Hajnal paper proving Theorem A also claimed a generalization to n-tuple
 systems with 3 at most n at most omega, and that it is false: by the paper of
 Erdős, Hajnal and Rothschild (reference [12]), a triple system on at most
 aleph_1 vertices with chromatic number above aleph_0 has two triples meeting in
-two points, but on larger vertex sets the chromatic number of a system of pairwise
-edge-disjoint triples can be arbitrarily large. The paper therefore studies (n,
-i, lambda)-systems, in which every set of i + 1 vertices lies in at most lambda
-edges, and asks how large the vertex set of such a system of chromatic number
-greater than kappa must be; Sections 2 to 16 give a theorem restricting the
-chromatic number of relatively small n-tuple systems (Theorem 2.1) with
-corollaries bounding the functions h_3(t, alpha), g_n(t, alpha), a general
-theorem for set systems, consequences of Martin's axiom, simultaneous chromatic
-numbers, graph constructions, constructions of small n-tuple systems without
-large free sets, of 3-circuitless n-tuple systems of large chromatic number, and
-of the smallest large-chromatic triple systems, closing with problems. The
-paper's Problem 10 (p. 498), to characterize the finite triple systems that
-occur in every triple system of chromatic number greater than aleph_0, is the
-question of Problem 593; the paper proves partial results toward it and leaves
-it open.
+two points, but on larger vertex sets the chromatic number of a system of
+pairwise edge-disjoint triples can be arbitrarily large. The paper therefore
+studies (n, i, lambda)-systems, in which every set of i + 1 vertices lies in at
+most lambda edges, and asks how large the vertex set of such a system of
+chromatic number greater than kappa must be; Sections 2 to 16 give a theorem
+restricting the chromatic number of relatively small n-tuple systems (Theorem
+2.1) with corollaries bounding the functions h_3(t, alpha), g_n(t, alpha), a
+general theorem for set systems, consequences of Martin's axiom, simultaneous
+chromatic numbers, graph constructions, constructions of small n-tuple systems
+without large free sets, of 3-circuitless n-tuple systems of large chromatic
+number, and of the smallest large-chromatic triple systems, closing with
+problems. The paper's Problem 10 (p. 498), to characterize the finite triple
+systems that occur in every triple system of chromatic number greater than
+aleph_0, is the question of Problem 593; the paper proves partial results toward
+it and leaves it open.
 
 Source: <https://users.renyi.hu/~p_erdos/1975-24.pdf>.
 

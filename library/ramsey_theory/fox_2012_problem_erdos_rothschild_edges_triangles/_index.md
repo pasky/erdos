@@ -23,7 +23,7 @@ Problem 80 negatively in that range.
 
 Jacob Fox and Po-Shen Loh, *On a problem of Erdős and Rothschild on edges in
 triangles*. Combinatorica 32 (2012), no. 6, 619--628; DOI
-10.1007/s00493-012-2844-3 (the Crossref record, dates the
+10.1007/s00493-012-2844-3 (the Crossref record, read 2026-09-18, dates the
 issue December 2012). arXiv:1106.0290 [math.CO]; v1 posted 1 June 2011, v2
 posted 5 June 2011.
 

@@ -50,7 +50,7 @@ also cites Ramachandra, Shorey and Tijdeman and Shorey for results in ranges n
 above exp(c (log k)^2) and exp(k^eps).
 
 The journal record is Publ. Math. Debrecen 23 (1976), no. 3--4, 271--282,
-DOI 10.5486/pmd.1976.23.3-4.15 (Crossref); the paper was
+DOI 10.5486/pmd.1976.23.3-4.15 (Crossref, read 2026-09-18); the paper was
 received on 18 January 1975 (p. 282). The copy read for this card is the
 Rényi archive's twelve-page scan of the article (printed pp. 271--282 = PDF
 pp. 1--12) with no text layer, so every passage below was read on the page

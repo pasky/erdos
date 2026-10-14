@@ -58,8 +58,8 @@ identified in the
 [[additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/_index|source digest]].
 
 **Read depth.** Claims checked: the sentence and its lead-in, and the
-definition of $n_2(k)$, were read clause by clause on the page images. A conjecture carries no proof; the constructions that
-motivated it are recorded on
+definition of $n_2(k)$, were read clause by clause on the page images. A
+conjecture carries no proof; the constructions that motivated it are recorded on
 [[additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/satz_3|satz_3]].
 Nothing here is independently reviewed.
 

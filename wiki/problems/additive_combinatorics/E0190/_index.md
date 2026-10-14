@@ -82,7 +82,7 @@ Bae's repository (see Formalization). The request to estimate $H(k)$ is
 open-ended, and no upper bound beyond the existence of $H(k)$ is recorded.
 
 **Source.** [erdosproblems.com/190](https://www.erdosproblems.com/190), accessed
-2026-09-04; its discussion thread and proof-claims page, 2026-10-07. Cite
+2026-09-04; its discussion thread, 2026-10-07, and its proof-claims page. Cite
 as: T. F. Bloom, Erdős Problem #190,
 https://www.erdosproblems.com/190.
 

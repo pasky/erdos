@@ -112,5 +112,5 @@ bias. That comment gave the bias 15 of Malekshahian and Spiro's first arXiv
 version. Their second version (Theorem 3, Corollary 14) proves the bias $1:4$
 that the introduction states. This is a named expert's documented review, not a
 referee's report. The preprint is unpublished, so `refereed` is not listed. The
-site's label was OPEN, and a partial claim does not change it. Nothing on this
-page is this project's own review.
+site's label was OPEN on 2026-10-06, and a partial claim does not change it.
+Nothing on this page is this project's own review.

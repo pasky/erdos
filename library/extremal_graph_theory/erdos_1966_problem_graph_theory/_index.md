@@ -27,7 +27,7 @@ Sci. Math. Hungar. **1** (1966), 215-235.
 published 21-page article, with printed pp. 215-235 corresponding to PDF pp. 1-21.
 The source URL is <https://users.renyi.hu/~p_erdos/1966-06.pdf>. No notice is
 printed in the file; the hosting archive's site footer speaks for the site, not
-the paper (https://users.renyi.hu/~p_erdos/, prints "(C)
+the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C)
 2005-2007 All rights reserved. All material on this site is for scientifics
 purposes only."); the 1966 volume has no online publisher page or DOI, so the
 publisher's page was not consulted and no Crossref license is recorded; the term

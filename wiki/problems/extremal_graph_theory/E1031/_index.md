@@ -72,7 +72,7 @@ https://www.erdosproblems.com/1031.
 **Formalization.** No formal-conjectures statement file
 `ErdosProblems/1031.lean` existed at main on 2026-10-07, and the site's
 indicator and the community database (teorth/erdosproblems,
-`data/problems.yaml`) record no formalized statement. The
+`data/problems.yaml`, accessed 2026-10-06) record no formalized statement. The
 file `src/latest/ErdosProblems/Erdos1031.lean` of Boris Alexeev's
 `plby/lean-proofs` repository declares itself a formalization of Prömel and
 Rödl's solution, with Codex and GPT-5.6 Sol as formal authors; it is a

@@ -28,7 +28,7 @@ segment.
 
 What is the smallest number of edges in a graph with dimension $4$?
 
-**Formulation.** The site's wording (the page carries
+**Formulation.** The site's wording, accessed 2026-09-18 (the page carries
 no last-edited date). An embedding places the vertices at
 distinct points of $\mathbb R^n$ with every pair of adjacent vertices at
 Euclidean distance exactly $1$; non-adjacent pairs are unconstrained. This is
@@ -94,14 +94,14 @@ and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [ChNo16] Chaffee, Joe and Noble, Matt, Dimension 4 and dimension 5 graphs with
   minimum edge set. Australas. J. Combin. 64 (2016), no. 2, 327--333 (received
   14 January 2015, revised 19 July and 27 October 2015; the journal's volume
-  listing carries the article). Library home:
+  listing carried the article on 2026-09-18). Library home:
   [[../library/extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/_index|chaffee_2016_dimension_4_dimension_5_graphs_minimum]].
   Lemma 3 and Theorem 6, p. 328; Theorem 7, p. 329; Theorems 10 and 11, pp.
   330--331.
 - [Ho13] House, Roger F., A 4-dimensional graph has at least 9 edges. Discrete
   Math. 313 (2013), no. 18, 1783--1789, doi:10.1016/j.disc.2013.05.005 (a Note;
   received 12 November 2012, accepted 9 May 2013, available online 4 June 2013,
-  per p. 1783; Crossref record; published September 2013; the record
+  per p. 1783; Crossref record, 2026-09-18; published September 2013; the record
   carries the publisher's open-access user license dated 28 September 2017, the
   open archive). Definition 1, Problem 2 and the answer, p. 1783; Proposition 9
   and the 43 candidate graphs, p. 1786; the closing statement, p. 1789 (in the
@@ -176,11 +176,11 @@ theorem names Theorem 7 of Chaffee and Noble; linked from
 [[problems/extremal_graph_theory/E1007/claims/2016_02_01_chaffee_noble|their claim page]]),
 and on 2026-09-27 the variants `dimension_five` and
 `dimension_five_extremal` gained attributes naming Dishah3241/Erdos1007Dim5;
-the four statements themselves keep proof `sorry` at main. The community database (teorth/erdosproblems, 2026-09-18)
-lists `status` "solved (Lean)" and `formal_status` Lean with no URL, each as
-of its last update on 19 January 2026, and the statement as formalized as of
-its last update on 5 August 2026; the site's indicator says a formalized
-statement exists.
+the four statements themselves kept proof `sorry` at main on 2026-10-07. The
+community database (teorth/erdosproblems, 2026-09-18) lists `status` "solved
+(Lean)" and `formal_status` Lean with no URL, each as of its last update on 19
+January 2026, and the statement as formalized as of its last update on 5 August
+2026; the site's indicator says a formalized statement exists.
 
 ## Current assessment
 
@@ -217,7 +217,7 @@ $K_{3,3}$ shows the minimum is attained; and
 ("The only dimension 4 graph with nine edges is $K_{3,3}$", for graphs without
 isolated vertices, as its proof's second sentence shows). Acceptance evidence:
 publication in a refereed journal (received 14 January 2015, revised twice,
-published in volume 64(2) of 2016; the journal's volume listing),
+published in volume 64(2) of 2016; the journal's volume listing, 2026-09-18),
 the site's label and commentary, and the external Lean proof described above,
 which is not built here. Read depth: claims checked for the three statements;
 the proof of Theorem 6 was followed but is not verified: [EHT65], the source
@@ -284,11 +284,11 @@ is recorded above. The later development for the uniqueness variant is
 recorded under Formalization.
 
 **Leads (not status).** The Semantic Scholar citation list of [Ho13] (six
-records, titles only): [ChNo16] itself, [ChNo17], "Embedding
-graphs in Euclidean space" (Frankl, Kupavskii and Swanepoel; J. Combin.
-Theory Ser. A 2020, arXiv:1802.03092), "On the Euclidean dimension of
-graphs" (arXiv:1501.00204) and a 2020 thesis on combinatorial geometry; none
-disputes the value $9$ by its title.
+records, titles only, 2026-09-18): [ChNo16] itself, [ChNo17], "Embedding graphs
+in Euclidean space" (Frankl, Kupavskii and Swanepoel; J. Combin. Theory Ser. A
+2020, arXiv:1802.03092), "On the Euclidean dimension of graphs"
+(arXiv:1501.00204) and a 2020 thesis on combinatorial geometry; none disputes
+the value $9$ by its title.
 
 **Search scope.** None of the routes below found a dispute
 of the value $9$, a retraction, or a second determination.

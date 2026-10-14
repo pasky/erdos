@@ -44,7 +44,8 @@ remark passes to the binomial model $\mathscr G_p(n)$, in which each edge
 appears independently with probability $p$: since (p. 172, citing
 Bollobás's 1979 book as [2]) the threshold problems for an increasing
 property in $\mathscr G_p(n)$ and in $\mathscr G(n,k)$ "are equivalent under
-relation $k=p\binom n2$", the sufficiency of Theorem 1 follows from Theorem 2 (filed as
+relation $k=p\binom n2$", the sufficiency of Theorem 1 follows from Theorem 2
+(filed as
 [[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_2|theorem_2]]):
 
 **Theorem 2** (printed p. 172). "Let

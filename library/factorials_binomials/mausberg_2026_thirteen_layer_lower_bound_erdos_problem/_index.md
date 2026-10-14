@@ -26,8 +26,8 @@ was prepared with assistance from GPT-5.5 Pro, the author taking
 responsibility for the final mathematical claims. No notice is printed in the
 four-page manuscript; it has no arXiv record (an arXiv author query on
 2026-10-02 returned only an unrelated paper), and the Google Drive link the card
-names (https://drive.google.com/file/d/1gcFkDf-6PIIjpZAYC9rqfhWf5IKgL218/view)
-carries no terms; the term is unstated.
+names (https://drive.google.com/file/d/1gcFkDf-6PIIjpZAYC9rqfhWf5IKgL218/view,
+read 2026-10-02) carries no terms; the term is unstated.
 
 For $f(n)$ the least $m$ with $n!=a_1\cdots a_k$, $n<a_1<\cdots<a_k=m$,
 [[factorials_binomials/mausberg_2026_thirteen_layer_lower_bound_erdos_problem/theorem_1|Theorem 1]]

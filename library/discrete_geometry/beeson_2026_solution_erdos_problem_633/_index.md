@@ -67,9 +67,10 @@ Michael Beeson, Miklós Laczkovich, and Yan X. Zhang,
 
 The canonical PDF is the 33-page version submitted to arXiv on 2026-08-25, with
 a printed date of 2026-08-26. Its printed and PDF page numbers agree. The arXiv
-record, lists v1 on April 4, v2 on May 4, and v3 on August 25; v3 remains the
-latest listed version. The arXiv record (https://arxiv.org/abs/2604.03609, read
-2026-10-02) names the Creative Commons Attribution 4.0 license.
+record, checked 2026-09-05, listed v1 on April 4, v2 on May 4, and v3 on August
+25; v3 was then the latest listed version. The arXiv record
+(https://arxiv.org/abs/2604.03609, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 The first version had 21 pages and the same eight-family main theorem.
 The present version adds the explicit square-exception Theorem 3, the

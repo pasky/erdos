@@ -104,7 +104,7 @@ and unformalized, with a formalized statement since 2026-08-03, which is that
 file.
 
 Search scope: the site's problem page (last edited 6 December 2025, no proof
-claims filed on 2026-10-07) and discussion thread, the community database, the
+claims filed) and discussion thread, the community database, the
 formal-conjectures statement file, Crossref and the references listed above.
 <!-- BEGIN problem library links -->
 

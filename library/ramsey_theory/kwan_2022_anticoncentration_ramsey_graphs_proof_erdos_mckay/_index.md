@@ -40,7 +40,8 @@ C_η ε/σ(f).
 Matthew Kwan, Ashwin Sah, Lisa Sauermann, Mehtaab Sawhney, Anticoncentration in
 Ramsey graphs and a proof of the Erdős-McKay conjecture. arXiv:2208.02874
 (2022); published in Forum of Mathematics, Pi 11 (2023), e21, DOI
-10.1017/fmp.2023.17 (published online 24 August 2023; Crossref record read).
+10.1017/fmp.2023.17 (published online 24 August 2023; Crossref record read on
+2026-09-18).
 
 **Edition.** The copy read for this card is arXiv:2208.02874v2 of 30 May 2024
 (60 pages, text layer), the version later than the journal publication; the

@@ -41,10 +41,9 @@ formalization of Solymosi's paper is linked on its page. This corpus has not
 built it, so it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/658](https://www.erdosproblems.com/658), accessed
-2026-10-07 (no last-edited date shown; empty
-proof-claim tab; two thread posts of 2026-04-20 and 2026-04-21 announcing
-the formalization). Cite as: T. F. Bloom, Erdős Problem #658,
-https://www.erdosproblems.com/658.
+2026-10-07 (no last-edited date shown; two thread posts of 2026-04-20 and
+2026-04-21 announcing the formalization); its proof-claim tab was empty. Cite
+as: T. F. Bloom, Erdős Problem #658, https://www.erdosproblems.com/658.
 
 **References.**
 
@@ -52,11 +51,11 @@ https://www.erdosproblems.com/658.
   (1997), 527-537.
 - [FuKa91] Furstenberg, H. and Katznelson, Y., A density version of the
   Hales-Jewett Theorem. Journal d'Analyse Mathématique 57 (1991), 64-119,
-  doi:10.1007/BF03041066 (Crossref record); not held.
+  doi:10.1007/BF03041066 (Crossref record accessed 2026-10-07); not held.
 - [So04] Solymosi, J.,
   [[../library/additive_combinatorics/solymosi_2004_note_question_erdos_graham/_index|A Note on a Question of Erdős and Graham]].
   Combinatorics, Probability and Computing 13 (2004), no. 2, 263–267,
-  doi:10.1017/S0963548303005959 (Crossref record); not
+  doi:10.1017/S0963548303005959 (Crossref record accessed 2026-10-07); not
   held.
 
 **Formalization.** The site's (LEAN) suffix is a catalog label. The

@@ -47,7 +47,7 @@ The copy read for this card is arXiv:2209.11124v1 (22 Sep 2022, 28 pp.;
 Section 3 (pp. 4-9) were read for the statements below, and the locators here
 are its page numbers. The refereed version in Acta Arithmetica
 (per-article charge at the publisher) was not obtained or compared; the journal
-record (volume, issue, pages, DOI) was checked against Crossref.
+record (volume, issue, pages, DOI) was checked against Crossref on 2026-09-17.
 For the irrationality of alpha_1 and alpha_2 the introduction cites the
 Monthly problems of Erdős (Problem 4493) and of Erdős and Kac (Problem 4518),
 with their solutions by Kelly and by Breusch, and

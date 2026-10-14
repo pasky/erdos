@@ -34,7 +34,7 @@ Bojan Mohar, Hehui Wu, Dichromatic number and fractional chromatic number. Forum
 of Mathematics, Sigma 4 (2016), e32. arXiv:1510.05982, doi:10.1017/fms.2016.28.
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1510.05982), every other right reserved. The Crossref record for the
-published article (doi:10.1017/fms.2016.28) names CC BY 4.0.
+published article (doi:10.1017/fms.2016.28, read 2026-10-07) names CC BY 4.0.
 
 The paper proves a fractional analog of the 1979 Erdős--Neumann-Lara
 conjecture (its Conjecture 1.1, p. 2) that graphs of large chromatic number

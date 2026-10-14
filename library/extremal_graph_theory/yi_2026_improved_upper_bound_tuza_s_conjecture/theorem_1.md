@@ -32,11 +32,12 @@ the page images. The artifact is identified in the
 [[extremal_graph_theory/yi_2026_improved_upper_bound_tuza_s_conjecture/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the definitions and the
-proof (pp. 1--3) were read clause by clause on the page images; the proof was followed, with the closing inequality recomputed
+proof (pp. 1--3) were read clause by clause on the page images; the proof was
+followed, with the closing inequality recomputed
 ($(1+\sqrt3)(3\nu-|\mathcal B_1|)+2\nu+(1+\sqrt3)|\mathcal B_1|=(5+3\sqrt3)\nu$
-and $(5+3\sqrt3)/(2+\sqrt3)=1+\sqrt3$); Lemma 2.1's proof, "almost
-identical to the proof of [3, Lemma 1]", was read and followed at the same
-depth; nothing is independently reviewed.
+and $(5+3\sqrt3)/(2+\sqrt3)=1+\sqrt3$); Lemma 2.1's proof, "almost identical to
+the proof of [3, Lemma 1]", was read and followed at the same depth; nothing is
+independently reviewed.
 
 ## Proof sketch
 
@@ -66,8 +67,8 @@ full).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0167/_index|Problem 167]]: the result behind
-  the preprint's improvement of Haxell's constant
+- [[../wiki/problems/extremal_graph_theory/E0167/_index|Problem 167]]: the
+  result behind the preprint's improvement of Haxell's constant
   ([[extremal_graph_theory/yi_2026_improved_upper_bound_tuza_s_conjecture/corollary_1|Corollary 1]]);
   a structural bound on a class of triangle families, not on all graphs,
   recorded with the preprint qualification.

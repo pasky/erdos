@@ -20,8 +20,8 @@ to a factor of order log squared t.
 Sam Mattheus, Jacques Verstraete, The asymptotics of r(4,t). arXiv preprint
 (2023). arXiv:2306.04007, doi:10.48550/arXiv.2306.04007. Published as Annals
 of Mathematics (2) 199 (2024), no. 2, 919--941, DOI
-10.4007/annals.2024.199.2.8 (publisher's record read; the
-journal's article page, gives received 19 June 2023,
+10.4007/annals.2024.199.2.8 (publisher's record read on 2026-09-17; the
+journal's article page, read 2026-09-18, gives received 19 June 2023,
 accepted 18 October 2023, published online 5 March 2024).
 
 The retained folder-name PDF is arXiv:2306.04007v5 (20 February 2024, marked

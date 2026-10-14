@@ -70,10 +70,11 @@ always holds); and whether $c_1=1/12$ or any larger exponent works.
 form to $h(n)$ is the one-line remark the problem page records.
 
 **Acceptance.** Refereed: Combinatorica, volume 43, issue 3 (2023), pages
-505--546, published online 4 May 2023 (Crossref record read). The site's
-curator, T. F. Bloom, records the bound $h(n)\gg n^{5/12-o(1)}$ in the problem's
-commentary and credits it to this paper. The site labeled the problem OPEN, so
-that commentary is not acceptance, and no `reviewed` evidence is listed. The
+505--546, published online 4 May 2023 (Crossref record read 2026-09-18). The
+site's curator, T. F. Bloom, records the bound $h(n)\gg n^{5/12-o(1)}$ in the
+problem's commentary and credits it to this paper. The site labeled the problem
+OPEN, so that commentary is not acceptance, and no `reviewed` evidence is
+listed. The
 [[../library/extremal_graph_theory/bucic_2020_large_independent_sets_local_considerations/_index|source card]]
 cites the arXiv version v3 (14 January 2023). Theorem 1.3, Theorem 1.2 and the
 Erdős--Hajnal sentence are checked statements (p. 2). The proof is not checked.

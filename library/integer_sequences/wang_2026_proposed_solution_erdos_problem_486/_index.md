@@ -19,14 +19,14 @@ updated: 2026-10-07T20:33:22Z
 Shouqiao Wang, "A Proposed Solution to Erdős Problem 486," preprint, 2026.
 Source: <https://github.com/ShouqiaoW/erdos/tree/main/486>. The retained
 [folder-name PDF](wang_2026_proposed_solution_erdos_problem_486.pdf) is the
-10-page preprint from that repository; its version date and retrieval date are
-not recorded. A Markdown reading copy sits beside it. The file prints no notice
-of its own on pp. 1--2 or 9--10; the repository holding it, whose folder 486
-holds this preprint, carries a LICENSE file that GitHub shows as "MIT license",
-the MIT License for the repository as a whole
-(https://github.com/ShouqiaoW/erdos, read 2026-10-02), and whether the author
-meant it to cover the manuscript text is not stated. The abstract presents the
-manuscript as a proposed solution and says that GPT-5.6 found it.
+10-page preprint from that repository; its version date is not recorded. A
+Markdown reading copy sits beside it. The file prints no notice of its own on
+pp. 1--2 or 9--10; the repository holding it, whose folder 486 holds this
+preprint, carries a LICENSE file that GitHub shows as "MIT license", the MIT
+License for the repository as a whole (https://github.com/ShouqiaoW/erdos, read
+2026-10-02), and whether the author meant it to cover the manuscript text is not
+stated. The abstract presents the manuscript as a proposed solution and says
+that GPT-5.6 found it.
 
 ## Overview
 

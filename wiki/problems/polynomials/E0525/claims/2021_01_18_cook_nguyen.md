@@ -99,9 +99,9 @@ No. 20, 46 pp., received 2021-02-05 and published 2021-10-06. The journal is an
 arXiv overlay, so the paper link and the third arXiv version are the same text.
 
 Reviewed: the site's curator, Thomas F. Bloom, records the limiting distribution
-as Cook and Nguyen's in the problem's commentary. The statements of Theorem 1.1,
-Theorem 1.2 and Corollary 1.5 are checked against the paper. The proofs are not
-compiled in this wiki.
+as Cook and Nguyen's in the problem's commentary (read 2026-10-07). The
+statements of Theorem 1.1, Theorem 1.2 and Corollary 1.5 are checked against the
+paper. The proofs are not compiled in this wiki.
 
 Formalization: a Lean 4 file in the lean-proofs repository, linked above at its
 pinned commit, declares itself a formalization of Cook and Nguyen's solution and

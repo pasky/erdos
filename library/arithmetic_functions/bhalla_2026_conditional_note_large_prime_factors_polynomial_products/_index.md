@@ -28,8 +28,8 @@ between `2026-09-07T10:07:02.498967000Z` and `2026-09-07T10:07:03.610613000Z`.
 This identifies the retained artifact, not publication or mathematical
 acceptance. No notice is printed in the file, and the Google Drive share it was
 retrieved from states no terms
-(https://drive.google.com/file/d/1AHOWyZh7Gw1JKJUmomOixLX94l2kbXAS/view); the
-term is unstated.
+(https://drive.google.com/file/d/1AHOWyZh7Gw1JKJUmomOixLX94l2kbXAS/view, read
+2026-10-02); the term is unstated.
 
 For an irreducible $f\in\mathbb Z[x]$ of degree $d\geq2$, the note writes
 

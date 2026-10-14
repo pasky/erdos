@@ -140,10 +140,10 @@ Schlag's papers are not held and are recorded as Konyagin's introduction,
 the publisher's abstract, the site and Cook and Nguyen's introduction state
 them. No proof is compiled in this wiki.
 
-**Formalization.** The site's page links a formalized statement. The
-formal-conjectures statement file, pinned above at the commit that last changed
-it, states each question as a theorem pointing to a Lean 4 file in the
-lean-proofs repository as its proof, the second with the constant
+**Formalization.** The site's page links a formalized statement (accessed
+2026-10-07). The formal-conjectures statement file, pinned above at the commit
+that last changed it, states each question as a theorem pointing to a Lean 4
+file in the lean-proofs repository as its proof, the second with the constant
 $\sqrt{\pi/12}$, and three variants without proof pointers: Littlewood's
 conjecture as $m(f)=o(1)$, attributed to Kashin against Konyagin's account,
 Konyagin's upper bound and Konyagin and Schlag's lower bound. The lean-proofs

@@ -31,7 +31,8 @@ foot "Acta Mathematica Academiae Scientiarum Hungaricae 17, 1966"; a scan
 whose text layer is not relied on here. Source:
 <https://users.renyi.hu/~p_erdos/1966-16.pdf>. No notice is printed in the file;
 the publisher's article page
-(https://link.springer.com/article/10.1007/BF01894879) could not be read, redirecting to the publisher's cookie wall, and the only page read
+(https://link.springer.com/article/10.1007/BF01894879) could not be read on
+2026-10-02, redirecting to the publisher's cookie wall, and the only page read
 (https://link.springer.com/article/10.1007/BF02579269, "© Akadémiai Kiadó 1981")
 concerns a different article; the term is unstated.
 

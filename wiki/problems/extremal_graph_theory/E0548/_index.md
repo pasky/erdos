@@ -55,8 +55,7 @@ Two partial claims are paged beside them: the
 
 **Source.** [erdosproblems.com/548](https://www.erdosproblems.com/548), accessed
 2026-10-07 (page last edited 7 September 2026), together with its discussion
-and proof-claim thread.
-Cite as: T. F. Bloom, Erdős Problem #548,
+thread, and its proof-claim thread. Cite as: T. F. Bloom, Erdős Problem #548,
 https://www.erdosproblems.com/548.
 
 **References.**

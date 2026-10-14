@@ -80,7 +80,7 @@ commit and records the corpus's coverage of it.
 
 ## Current assessment
 
-**The question (site formulation).** That for a
+**The question (site formulation, accessed 2026-09-04).** That for a
 real polynomial whose zeros $a_0<\cdots<a_n$ are real and form an arithmetic
 progression, the gaps between consecutive zeros of the derivative increase
 from the midpoint of the zeros toward either endpoint. PROVED. The modified
@@ -112,7 +112,7 @@ Whether the convergence of the gaps is monotone in the degree is left open
 there.
 
 **Formalization.** The site labeled the problem PROVED, not PROVED (LEAN),
-and no formal-conjectures statement file exists for the problem.
+and on 2026-10-07 no formal-conjectures statement file existed for the problem.
 A Lean 4 file in Boris Alexeev's lean-proofs repository declares itself a
 formalization of Bálint's solution and proves the gap monotonicity for a
 polynomial of degree $N+1$ with $N+1$ zeros in arithmetic progression, the

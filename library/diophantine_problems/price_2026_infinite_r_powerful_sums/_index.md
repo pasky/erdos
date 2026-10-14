@@ -47,7 +47,7 @@ manuscript was shared (https://www.erdosproblems.com/forum/thread/939, read
 write-ups, and the Overleaf read link needs a browser and was not fetched; the
 term is unstated.
 
-- Original `main.tex` as downloaded: 3,786 bytes.
+- Original `main.tex` as downloaded on 2026-09-27: 3,786 bytes.
 
 The snapshot's relationship to the text present on 24 May 2026 is not known.
 

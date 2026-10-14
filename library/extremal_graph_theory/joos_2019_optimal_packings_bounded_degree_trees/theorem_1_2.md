@@ -40,10 +40,11 @@ from which Theorem 1.3 follows at once (p. 3) and Theorem 1.2 in Section 10
 
 **Source.** F. Joos, J. Kim, D. Kühn and D. Osthus, *Optimal packings of
 bounded degree trees*, arXiv:1606.03953v2 (13 March 2019; "final version
-(December 2017)" per the arXiv record read), 56 pages;
+(December 2017)" per the arXiv record read on 2026-09-19), 56 pages;
 Conjecture 1.1 on p. 1 and Theorem 1.2 on p. 2, read on the page images.
 Published in J. Eur. Math. Soc. 21 (2019), no. 12, 3573--3647,
-doi:10.4171/JEMS/909 (issued 5 August 2019; Crossref record read); the journal text was not compared, so the locators are the
+doi:10.4171/JEMS/909 (issued 5 August 2019; Crossref record read on 2026-09-19);
+the journal text was not compared, so the locators are the
 preprint's. The edition is identified in the
 [[extremal_graph_theory/joos_2019_optimal_packings_bounded_degree_trees/_index|source digest]].
 

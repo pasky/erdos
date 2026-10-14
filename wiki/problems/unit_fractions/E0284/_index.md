@@ -35,7 +35,7 @@ $$
 f(k)=(1+o(1))\frac{k}{e-1}?
 $$
 
-**Formulation.** The site's wording (the page shows
+**Formulation.** The site's wording, accessed 2026-09-18 (the page shows
 no last-edited stamp). The denominators are distinct
 positive integers and $k\ge3$: one term represents $1$ only as $1/1$, and
 two distinct unit fractions never sum to $1$. So $f(k)$ is the largest
@@ -91,8 +91,8 @@ https://www.erdosproblems.com/284, accessed 2026-09-18.
   [[problems/unit_fractions/E0285/_index|Problem 285]].
 
 **Formalization.** No statement file. The site's page records no
-formalized statement, formal-conjectures has no `ErdosProblems/284.lean`
-(none), and the community database (teorth/erdosproblems,
+formalized statement, formal-conjectures had no `ErdosProblems/284.lean`
+on 2026-10-07, and the community database (teorth/erdosproblems,
 `data/problems.yaml`) lists status proved as of its last update of the
 record, dated 31 August 2025, with formal status unformalized, statement
 not formalized and OEIS "possible". A public Lean 4 proof of the statement
@@ -106,7 +106,7 @@ evidence is listed and no local kernel credit is claimed.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; status PROVED; source key [ErGr80]. The commentary derives the
 upper bound $f(k)\le(1+o(1))\frac{k}{e-1}$ from
 $\sum_{u\le n\le eu}\frac1n=1+o(1)$, since $f(k)=u$ forces

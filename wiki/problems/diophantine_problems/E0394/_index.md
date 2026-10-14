@@ -109,8 +109,8 @@ treat the second), so it has no claim page; it is unrefereed and unreviewed. The
 two claims are consistent. Search scope: the site's problem page, discussion
 thread and proof-claims tab, the hosted write-up and Lean archive of the full
 claim, the formal-conjectures file and its history, and the manuscript of the
-partial claim; on 2026-10-07 none of them recorded another claim on the problem.
-Nothing on this page is independently reviewed.
+partial claim; the tab recorded no other claim on the problem, and on 2026-10-07
+none of the others did. Nothing on this page is independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

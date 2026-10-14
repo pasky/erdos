@@ -45,10 +45,9 @@ differ from the preprint's.
 The copy read for this card is the arXiv preprint (LaTeX-generated through
 dvips and Ghostscript, with a text layer; nine pages, physical page equal to
 the preprint's printed page). Its arXiv stamp identifies it as arXiv:1803.06334v1
-(<https://arxiv.org/abs/1803.06334v1>). Provenance: downloaded in
-September 2026; the download URL was
-not recorded; 113,210 bytes. Read status: claims checked; every statement below
-was read from the text layer. The arXiv record names arXiv's non-exclusive
+(<https://arxiv.org/abs/1803.06334v1>). Provenance: the download URL was not
+recorded; 113,210 bytes. Read status: claims checked; every statement below was
+read from the text layer. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:1803.06334), every other right reserved.
 
 ## Contents

@@ -79,8 +79,8 @@ pp. 228--229 (PDF pp. 34--35) and for the Erdős--Heilbronn passage with display
 page images, and for the Beatty passage on printed p. 210 (PDF p.
 16) and the definition of $f(\epsilon,p)$ with display (80) on printed p. 232
 (PDF p. 38), each read clause by clause on the page images (no proof is given
-for either); the rest of the digest records an earlier reading that was not
-repeated. No notice is printed on the scan's first or last pages; the hosting
+for either); the rest of the digest was not checked against the page images.
+No notice is printed on the scan's first or last pages; the hosting
 archive's site footer "(C) 2005-2007 All rights reserved. All material on this
 site is for scientifics purposes only." (https://users.renyi.hu/~p_erdos/, read
 2026-10-02) speaks for the site, not the paper; the book chapter has no

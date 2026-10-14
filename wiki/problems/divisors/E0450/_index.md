@@ -63,22 +63,23 @@ not been built here.
 
 ## Current assessment
 
-**The question.** The site formulation quoted above asks how long an interval
-$(x,x+y)$ must be before at most an $\epsilon$ fraction of its integers have a
-divisor strictly between $n$ and $2n$. It does not say whether the bound is
-wanted for every $x$ or for typical $x$, and the site's remarks flag this gap.
-The regimes differ. For fixed $\epsilon$ and all large $n$ a sufficient $y$
-exists under either reading: having a divisor in $(n,2n)$ is periodic in $m$
-with period the least common multiple of $n+1,\ldots,2n-1$, so a window of twice
-that period contains the same fraction of such integers wherever it sits, and by
-Ford's theorem [Fo08] that fraction, of order $(\log n)^{-\delta}(\log\log
-n)^{-3/2}$ with $\delta=1-(1+\log\log2)/\log2=0.086\ldots$, tends to $0$. When
-$\epsilon$ falls below that fraction no $y$ works for every $x$, since the
-average window already exceeds the bound; the site's remarks attribute
-observations of this kind, and the behavior near $\epsilon\asymp1/n$, to Cambie,
-and the pending claim's thread says two of their conditions read reversed. The
-content of the question for fixed $\epsilon$ is therefore the size of the least
-sufficient $y$ as a function of $n$.
+**The question.** The site formulation quoted above (accessed 2026-10-07) asks
+how long an interval $(x,x+y)$ must be before at most an $\epsilon$ fraction of
+its integers have a divisor strictly between $n$ and $2n$. It does not say
+whether the bound is wanted for every $x$ or for typical $x$, and the site's
+remarks flag this gap. The regimes differ. For fixed $\epsilon$ and all large
+$n$ a sufficient $y$ exists under either reading: having a divisor in $(n,2n)$
+is periodic in $m$ with period the least common multiple of $n+1,\ldots,2n-1$,
+so a window of twice that period contains the same fraction of such integers
+wherever it sits, and by Ford's theorem [Fo08] that fraction, of order
+$(\log n)^{-\delta}(\log\log n)^{-3/2}$ with
+$\delta=1-(1+\log\log2)/\log2=0.086\ldots$, tends to $0$. When $\epsilon$ falls
+below that fraction no $y$ works for every $x$, since the average window already
+exceeds the bound; the site's remarks attribute observations of this kind, and
+the behavior near $\epsilon\asymp1/n$, to Cambie, and the pending claim's thread
+says two of their conditions read reversed. The content of the question for
+fixed $\epsilon$ is therefore the size of the least sufficient $y$ as a function
+of $n$.
 
 **What is claimed.** The pending partial claim
 [[problems/divisors/E0450/claims/2026_07_15_snyder|Snyder's linear order for the window length]]
@@ -108,9 +109,9 @@ axiom audit as its verification. The first record is an outside judgment that
 the result settles the order and not the question as the statement file reads
 it; it bears on the claim's scope, which the claim page records as partial.
 
-**Scope of this assessment.** The basis is the problem page and its
-proof-claims thread as of 2026-10-07, and the solution page's statements and
-the outline of its argument; its Lean project was not built. No independent
+**Scope of this assessment.** The basis is the problem page as of 2026-10-07,
+its proof-claims thread, and the solution page's statements and the outline of
+its argument; its Lean project was not built. No independent
 review of the argument is recorded.
 <!-- BEGIN problem library links -->
 

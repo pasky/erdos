@@ -49,7 +49,7 @@ $n<n_0$.
 **Source.** Y. Zhao, *Proof of the $(n/2-n/2-n/2)$ Conjecture for large
 $n$*, Electron. J. Combin. 18 (2011), no. 1, Paper 27, 61 pp.,
 doi:10.37236/514 (accepted 22 January 2011, published 4 February 2011;
-Crossref record read); Theorem 1.6 and Conjecture 1.3 on p. 2
+Crossref record read on 2026-09-18); Theorem 1.6 and Conjecture 1.3 on p. 2
 of the journal's PDF (printed and PDF pages agree), read on the page
 image.
 

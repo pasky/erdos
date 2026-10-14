@@ -78,12 +78,12 @@ https://www.erdosproblems.com/955.
 **Search scope.** A bounded literature check found no full solution among its
 sampled sources. It covered the 2023 and 2026 arXiv records, the authors'
 publication pages, exact-title and EGPS searches, and indexed recent
-announcements including X. The July 2026 paper retains the general assertion as its Conjecture 1.3 and says it remains
-open; its [arXiv record](https://arxiv.org/abs/2607.18981) lists v1, and
-[Thompson's publication page](https://www.lolathompson.com/research.html)
-lists the work as submitted. No status-changing item was found on these
-routes. This is a bounded assessment, not an exhaustive literature or
-announcement search.
+announcements including X. The July 2026 paper retains the general assertion as
+its Conjecture 1.3 and says it remains open; its
+[arXiv record](https://arxiv.org/abs/2607.18981) lists v1, and
+[Thompson's publication page](https://www.lolathompson.com/research.html) lists
+the work as submitted. No status-changing item was found on these routes. This
+is a bounded assessment, not an exhaustive literature or announcement search.
 
 **Proof coverage.** The cited statements and source versions below are
 taken from the complete cited pages. The truncation, digit-target

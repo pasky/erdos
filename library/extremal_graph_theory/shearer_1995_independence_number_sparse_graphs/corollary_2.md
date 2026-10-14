@@ -46,9 +46,10 @@ the
 [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the introduction's two
-sentences on the 1981 bounds were read clause by clause on the page images. The proof of Corollary 2 (one paragraph) was read in full and
-its reduction to Corollary 1 followed. Theorem 1 and Lemma 1, on which
-Corollary 1 rests, were read for structure only (see
+sentences on the 1981 bounds were read clause by clause on the page images. The
+proof of Corollary 2 (one paragraph) was read in full and its reduction to
+Corollary 1 followed. Theorem 1 and Lemma 1, on which Corollary 1 rests, were
+read for structure only (see
 [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|corollary_1]]).
 Nothing here is independently reviewed.
 

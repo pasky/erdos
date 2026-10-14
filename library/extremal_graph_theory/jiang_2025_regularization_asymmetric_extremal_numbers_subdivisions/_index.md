@@ -85,8 +85,9 @@ Source: <https://arxiv.org/abs/2507.03261>.
 **Edition read.** The copy read for this card is arXiv:2507.03261v2,
 stamped "[math.CO] 16 Jul 2025" on p. 1 (dated 17 July 2025 in its head; 29
 pages with a text layer). A preprint: the arXiv
-record (v1 4 July 2025, v2 16 July 2025) carries no journal reference.
-Locators are preprint pages. The arXiv record names arXiv's
+record (v1 4 July 2025, v2 16 July 2025) carries no journal reference and a
+Crossref bibliographic query for the title returned no matching record on
+2026-09-18. Locators are preprint pages. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2507.03261), every other right
 reserved.
 

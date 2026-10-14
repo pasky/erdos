@@ -62,10 +62,10 @@ Dirichlet's theorem on primes in arithmetic progressions (pp. 4–5).
 
 ## Bears on
 
-- [[../wiki/problems/diophantine_problems/E0479/_index|Problem 479]]: the problem asks
-  whether, for every $k\ne1$, infinitely many $n$ satisfy
+- [[../wiki/problems/diophantine_problems/E0479/_index|Problem 479]]: the
+  problem asks whether, for every $k\ne1$, infinitely many $n$ satisfy
   $2^n\equiv k\pmod n$. The theorem proves this for the values $k=2^i$ with
-  $i\ge1$. As the note reports on p. 1, Erdős and Graham (1980, p. 96)
-  attribute to Graham, Lehmer and Lehmer the partial result for these $k$
-  and for $k=-1$; the theorem covers the cases $k=2^i$ of that result only.
-  It says nothing about any other $k$.
+  $i\ge1$. As the note reports on p. 1, Erdős and Graham (1980, p. 96) attribute
+  to Graham, Lehmer and Lehmer the partial result for these $k$ and for $k=-1$;
+  the theorem covers the cases $k=2^i$ of that result only. It says nothing
+  about any other $k$.

@@ -125,8 +125,9 @@ Problem #149, https://www.erdosproblems.com/149, accessed 2026-09-19.
   chromatic index of a cubic graph is at most 10. Discrete Math. 108 (1992),
   no. 1--3, 231--252, doi:10.1016/0012-365X(92)90678-9 (received 4 January
   1991), and the printed paper confirms the citation (its p. 231).
-  Theorem 1, printed p. 250 (PDF p. 20 of the publisher's open-archive file); the definitions and the graph $G_{10}$,
-  pp. 231--232 (PDF pp. 1--2). Library home:
+  Theorem 1, printed p. 250 (PDF p. 20 of the publisher's open-archive file);
+  the definitions and the graph $G_{10}$, pp. 231--232 (PDF pp. 1--2). Library
+  home:
   [[../library/extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/_index|andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10]];
   paged at
   [[../library/extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/theorem_1|theorem_1]].
@@ -212,13 +213,14 @@ Problem #149, https://www.erdosproblems.com/149, accessed 2026-09-19.
   paged at
   [[../library/extremal_graph_theory/davey_2026_strong_edge_colouring_local_flag_algebras/theorem_1_1|theorem_1_1]].
 - [KMP26] Kumar, H., Mohar, B. and Pragada, S., An improved bound for the strong
-  clique index of graphs. arXiv:2607.02698v1 (2 July 2026), 15 pp.; a preprint; Corollary 1.7, p. 3; the "AI statement", p. 13.
-  Library home:
+  clique index of graphs. arXiv:2607.02698v1 (2 July 2026), 15 pp.; a preprint;
+  Corollary 1.7, p. 3; the "AI statement", p. 13. Library home:
   [[../library/extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/_index|kumar_2026_improved_bound_strong_clique_index_graphs]];
   paged at
   [[../library/extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/corollary_1_7|corollary_1_7]].
 - [HYY26] Hao, Y., Yang, T. and Yu, X., Strong chromatic index of bipartite
-  graphs. arXiv:2606.23824v2 (23 July 2026), 12 pp.; a preprint; the abstract and Theorem 1.2, p. 2. Library home:
+  graphs. arXiv:2606.23824v2 (23 July 2026), 12 pp.; a preprint; the abstract
+  and Theorem 1.2, p. 2. Library home:
   [[../library/extremal_graph_theory/hao_2026_strong_chromatic_index_bipartite_graphs/_index|hao_2026_strong_chromatic_index_bipartite_graphs]];
   paged at
   [[../library/extremal_graph_theory/hao_2026_strong_chromatic_index_bipartite_graphs/theorem_1_2|theorem_1_2]].
@@ -251,7 +253,7 @@ Problem #149, https://www.erdosproblems.com/149, accessed 2026-09-19.
 **Formalization.** None. No file `ErdosProblems/149.lean` existed in
 formal-conjectures on 2026-09-19 or on 2026-10-07, the site's indicator
 records no formalized statement, and the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-10-07) records the
 problem as open and unformalized, with no formal-proof field.
 
 ## Current assessment

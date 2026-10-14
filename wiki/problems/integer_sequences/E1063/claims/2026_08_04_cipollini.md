@@ -80,7 +80,7 @@ and Selfridge asked for. The same claimant's upper bound is recorded on
 the two claims share one write-up link and are independent results.
 
 **Standing.** Claimed. The write-up has no arXiv version and no journal
-record, the tab carried no comment under the claim on 2026-10-07, and the
+record, the tab carried no comment under the claim, and the
 site's label was OPEN (page last edited 1 February 2026). Nothing here is
 this project's review, and no acceptance evidence is listed.
 

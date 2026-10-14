@@ -35,7 +35,7 @@ $\sigma=1/3$.
 
 **Source.** S. Eberhard, B. Green and F. Manners, *Sets of integers with no
 large sum-free subset*, Ann. of Math. (2) 180 (2014), no. 2, 621--652, DOI
-10.4007/annals.2014.180.2.5 (Crossref record read). The copy
+10.4007/annals.2014.180.2.5 (Crossref record read 2026-09-18). The copy
 read is arXiv:1301.4579v3 (29 July 2026, 31 pp.; the arXiv comment says the
 version "corrects a very small inaccuracy in Lemma 6.3"), whose pagination
 is used here; the journal text was not compared. Theorem 1.1 on p. 2.

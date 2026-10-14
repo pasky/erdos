@@ -37,7 +37,7 @@ https://www.erdosproblems.com/909.
 - [AnKe67] [[../library/analysis/anderson_1967_example_dimension_theory/_index|Anderson, R. D. and Keisler, J. E., An example in dimension theory]].
   Proc. Amer. Math. Soc. 18 (1967), no. 4, 709--713, DOI
   10.1090/S0002-9939-1967-0215288-0; the article is served free by the
-  publisher.
+  publisher (read 2026-10-07).
 
 **Formalization.** No statement file for the problem exists in
 formal-conjectures (none on `main` on 2026-10-07; the site's indicator reads
@@ -55,11 +55,11 @@ and the curator's credit.
 
 Search scope: the site's problem page (which labeled the problem proved, as
 accessed 2026-09-04, and credited Anderson and Keisler for the general case;
-its discussion thread and proof-claim tab were both empty on 2026-10-07);
-formal-conjectures, which had no statement file for the problem on that date;
-the community database, which
-records the problem proved and unformalized, as of its last update, dated 31
-August 2025; Boris Alexeev's lean-proofs repository, which holds the file
+its proof-claim tab was empty, and its discussion thread was empty on
+2026-10-07); formal-conjectures, which had no statement file for the problem on
+that date; the community database, which records the problem proved and
+unformalized, as of its last update, dated 31 August 2025; Boris Alexeev's
+lean-proofs repository, which holds the file
 `src/latest/ErdosProblems/Erdos909.lean`, added on 20 August 2026 and linked
 above at a fixed commit. Not searched: MathSciNet, zbMATH, Google Scholar.
 

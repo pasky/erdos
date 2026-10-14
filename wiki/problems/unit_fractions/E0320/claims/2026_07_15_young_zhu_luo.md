@@ -122,10 +122,9 @@ $\log S(N)$ is now known and that finer questions such as an asymptotic remain
 open. The curator also wrote the exposition of 1 September 2026 on the problem
 page. The curator is independent of the claimants, and that acceptance is the
 `reviewed` evidence. No refereed publication and no independent review of the
-claim were found on 2026-09-18. There were eight comments under the claim on
-2026-10-07. Among them, the curator's comment of 16 July 2026 says that the
-proof is correct and sketches the argument. A later full claim on the same
-problem,
+claim were found on 2026-09-18. There were eight comments under the claim. Among
+them, the curator's comment of 16 July 2026 says that the proof is correct and
+sketches the argument. A later full claim on the same problem,
 [[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|Kominers and Neu's asymptotic]],
 asserts a stronger statement. It reports that its authors have not verified this
 one.

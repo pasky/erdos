@@ -70,7 +70,7 @@ derived standing is claimed, with claim value answered since the problem asks
 for an estimate. Should the claim be accepted, the question would be answered at
 the level of the exponential rate; the error term would remain a further
 estimate. The search behind this account covered the site's page, its discussion
-and proof-claims threads, Zenodo and arXiv on 2026-10-07.
+thread, Zenodo and arXiv on 2026-10-07, and the site's proof-claims thread.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

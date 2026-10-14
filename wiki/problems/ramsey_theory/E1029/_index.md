@@ -98,9 +98,10 @@ accessed 2026-09-17.
 [`ErdosProblems/1029.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/1029.lean)
 of formal-conjectures, at the commit linked (main on 2026-09-17), declares
 `erdos_1029 : Tendsto (fun k : ℕ ↦ (SimpleGraph.diagonalRamsey k : ℝ) / ((k : ℝ) * (2 : ℝ) ^ ((k : ℝ) / 2))) atTop atTop`
-under `category research open`, with proof `sorry`. The community database lists the problem open as of its last update of 13 September
-2025, the statement formalized since 9 September 2026, and no formal proof.
-Nothing was built.
+under `category research open`, with proof `sorry`. The community database
+(accessed 2026-09-17) lists the problem open as of its last update of 13
+September 2025, the statement formalized since 9 September 2026, and no formal
+proof. Nothing was built.
 
 ## Current assessment
 

@@ -66,8 +66,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0902/_index|Problem 902]]: inequalities (2)
-  and (2.1) are the upper bound the site quotes as $f(n)\ll n^22^n$ (the
-  site's $n$ is the paper's $k$), here with the explicit constant
-  $\log(2+\varepsilon)$ for $k>K_\varepsilon$; the proof also gives the
+- [[../wiki/problems/extremal_graph_theory/E0902/_index|Problem 902]]:
+  inequalities (2) and (2.1) are the upper bound the site quotes as
+  $f(n)\ll n^22^n$ (the site's $n$ is the paper's $k$), here with the explicit
+  constant $\log(2+\varepsilon)$ for $k>K_\varepsilon$; the proof also gives the
   existence of the problem's function for every $k$ (p. 223).

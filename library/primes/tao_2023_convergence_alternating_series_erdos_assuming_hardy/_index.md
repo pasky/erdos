@@ -52,8 +52,8 @@ Source: <https://arxiv.org/abs/2308.07205>.
 
 The copy read for this card is the arXiv v3 of 23 August 2023 (365,554 bytes),
 whose abstract page carries no journal reference. The journal publication above
-is taken from the Crossref record of DOI 10.1090/cams/29; the published text was
-not compared with the arXiv version.
+is taken from the Crossref record of DOI 10.1090/cams/29 read on 2026-09-27; the
+published text was not compared with the arXiv version.
 
 **Bears on.** [[../wiki/problems/primes/E0015/_index|#15]]
 

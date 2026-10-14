@@ -50,7 +50,7 @@ https://www.erdosproblems.com/1070.
 **Formalization.** None built or audited here. Two public Lean developments
 of the pending claim's Theorem 1 are linked, pinned, on
 [[problems/discrete_geometry/E1070/claims/2026_06_26_ducz_varga|its claim page]];
-formal-conjectures has no statement file for the problem.
+formal-conjectures had no statement file for the problem on 2026-10-07.
 
 ## Current assessment
 

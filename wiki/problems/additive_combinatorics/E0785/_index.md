@@ -61,8 +61,9 @@ system that wrote the note, and the Lean proof is by Aristotle.
 
 **Source.** [erdosproblems.com/785](https://www.erdosproblems.com/785), accessed
 2026-10-07 (page last edited 7 March 2026; five comments in the discussion
-thread, one proof claim with no comments; source keys [Er65b, p. 228] and
-[Er73, p. 134]). Cite as: T. F. Bloom, Erdős Problem #785, https://www.erdosproblems.com/785.
+thread; source keys [Er65b, p. 228] and [Er73, p. 134]); its proof-claim tab
+held one proof claim with no comments. Cite as: T. F. Bloom, Erdős Problem #785,
+https://www.erdosproblems.com/785.
 
 **References.**
 

@@ -61,7 +61,7 @@ carries only the title, author line "OpenAI", the date and the citation block,
 and adds no statement about human assistance or verification. The manuscript
 names no author beyond "OpenAI", carries no arXiv identifier and no journal.
 No refereed publication, arXiv version or independent review of the manuscript
-is recorded here and nothing on this card is independently
+is recorded here, and nothing on this card is independently
 reviewed.
 
 The release's Lean catalog (`lean/formalization.yaml`) lists no
@@ -239,13 +239,14 @@ uses the printed statement labels.
 - References [1]--[23] (pp. 66--68). The external inputs the proofs rest on
   are Siegel--Walfisz and Mertens (cited to Tao's 254A lecture notes, 2014),
   the multiplicative large sieve and the derivative tests (cited to an
-  undated author-hosted draft of Montgomery--Vaughan II), Montgomery--Vaughan 1974 (compared, not used), the
-  Brun--Hooley sieve (Ford--Halberstam 2000, reproved here), the Efron--Stein
-  decomposition lemma (1981), Buchstab's identity (1937) and the prime number
-  theorem with log-power error. The manuscript flags nothing as numerical,
-  computer-assisted or conditional; its constants are not asserted to be
-  effective, since the Siegel--Walfisz input of Theorem 2.2 is stated with
-  constants that "need not be effective".
+  undated author-hosted draft of Montgomery--Vaughan II, accessed 13 September
+  2026), Montgomery--Vaughan 1974 (compared, not used), the Brun--Hooley sieve
+  (Ford--Halberstam 2000, reproved here), the Efron--Stein decomposition lemma
+  (1981), Buchstab's identity (1937) and the prime number theorem with log-power
+  error. The manuscript flags nothing as numerical, computer-assisted or
+  conditional; its constants are not asserted to be effective, since the
+  Siegel--Walfisz input of Theorem 2.2 is stated with constants that "need not
+  be effective".
 
 ## Bears on
 

@@ -31,8 +31,8 @@ linked as a PDF from the site's discussion thread for
 [[problems/irrationality/E0250/_index|Problem 250]], claims that
 $A(q)=\sum_{n\ge1}\sigma(n)q^n$ is transcendental for every algebraic $q$
 with $0<|q|<1$; at $q=1/2$ this would answer the question yes. The post
-itself allows that the argument may contain a mistake. The linked file is no
-longer available (the link returns 404).
+itself allows that the argument may contain a mistake. The linked file was no
+longer available on 2026-10-07 (the link returned 404).
 
 **Depends on.** Nothing in this wiki.
 

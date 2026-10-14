@@ -121,17 +121,18 @@ Konieczny as the informal author and Codex and GPT-5.6 Sol as the formal
 authors, so it is a formalization of the claimant's result and is linked here
 rather than given its own page. A second formalization of the $\sqrt2$ case is
 the package by Collin Yuanjie Ren (the second `formalization` link, pinned to
-the commit that the community database at teorth/erdosproblems records with the
-problem's formal status Lean), whose Lean code was prepared
-with Claude Code (Anthropic) assistance; it proves `sqrtTwo_recSet_not_basis`
-(the $\sqrt2$ set is not a basis of order $2$ for any threshold
-$\epsilon(n)\to0$), `not_erdos_1147` (the negation of the universal statement)
-and `not_erdos_1147_le` (the same with the non-strict threshold), its README
-reports the axioms `propext`, `Classical.choice` and `Quot.sound`, and it does
-not formalize the almost-every-$\alpha$ theorem. The README credits the result
-to Konieczny and declares the package a formalization and not a new result,
-which is why it is a link on this page and not its own page. This corpus has not
-built either file, printed its axioms or audited its definitions, so the claim
-carries no `formalized` evidence and the formalizations are links, not warrants.
+the commit that the community database at teorth/erdosproblems (accessed
+2026-09-16) records with the problem's formal status Lean), whose Lean code was
+prepared with Claude Code (Anthropic) assistance; it proves
+`sqrtTwo_recSet_not_basis` (the $\sqrt2$ set is not a basis of order $2$ for any
+threshold $\epsilon(n)\to0$), `not_erdos_1147` (the negation of the universal
+statement) and `not_erdos_1147_le` (the same with the non-strict threshold), its
+README reports the axioms `propext`, `Classical.choice` and `Quot.sound`, and it
+does not formalize the almost-every-$\alpha$ theorem. The README credits the
+result to Konieczny and declares the package a formalization and not a new
+result, which is why it is a link on this page and not its own page. This corpus
+has not built either file, printed its axioms or audited its definitions, so the
+claim carries no `formalized` evidence and the formalizations are links, not
+warrants.
 
 **Depends on.** No page of this wiki.

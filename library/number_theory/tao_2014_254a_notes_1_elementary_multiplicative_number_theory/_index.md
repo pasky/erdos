@@ -20,7 +20,7 @@ new (blog), November 23, 2014,
 <https://terrytao.wordpress.com/2014/11/23/254a-notes-1-elementary-multiplicative-number-theory/>.
 
 The edition read for this card is the blog post at that URL, the lecture notes
-as published on the web; its title and date were confirmed. The
+as published on the web; its title and date were confirmed on 2026-09-22. The
 source is a web page, so no PDF is held (a print of a web page is not a source
 PDF), and no capture of the page is held. The lemma, theorem, exercise and
 equation numbers below are the post's own.

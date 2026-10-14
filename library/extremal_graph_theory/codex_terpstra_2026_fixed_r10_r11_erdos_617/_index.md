@@ -30,17 +30,15 @@ balanced-colouring conjecture", and the repository's README heads the work
 
 The source has no PDF of the paper: its text is the repository's
 `paper/combined_preprint_draft.md`, held verbatim as the
-[source text](codex_terpstra_2026_fixed_r10_r11_erdos_617.md) with its
-retrieval date. The repository also holds the proof notes and
-verifier scripts (`proof/r11_submission/`, 295 files), the two clean-room
-audit trees (`audits/r10/`, `audits/r11/`), a claims ledger (`CLAIMS.md`),
-and a release replay note. The retained
+[source text](codex_terpstra_2026_fixed_r10_r11_erdos_617.md). The repository
+also holds the proof notes and verifier scripts (`proof/r11_submission/`, 295
+files), the two clean-room audit trees (`audits/r10/`, `audits/r11/`), a claims
+ledger (`CLAIMS.md`), and a release replay note. The retained
 [r=10 audit manuscript](codex_terpstra_2026_fixed_r10_r11_erdos_617_r10_audit_manuscript.pdf)
 is the repository's `audits/r10/MANUSCRIPT.pdf` ("An audit and independent
-replay of the unrestricted fixed case r=10 of Erdős Problem 617", 7 pages,
-also the release asset `MANUSCRIPT.pdf`), downloaded from the v0.1.1 release
-on 2026-09-25; 104,960 bytes, matching the release's own hash list. The audit
-manuscript
+replay of the unrestricted fixed case r=10 of Erdős Problem 617", 7 pages, also
+the release asset `MANUSCRIPT.pdf`), downloaded from the v0.1.1 release; 104,960
+bytes, matching the release's own hash list. The audit manuscript
 (codex_terpstra_2026_fixed_r10_r11_erdos_617_r10_audit_manuscript.pdf) prints no
 license; the repository's README, under "Licensing"
 (https://github.com/terpstra-research/erdos-617-r10-r11, read 2026-10-02),

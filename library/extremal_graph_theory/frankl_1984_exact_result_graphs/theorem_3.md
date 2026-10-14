@@ -42,7 +42,7 @@ which is more than $n^3/24$, disproving Turàn's conjecture".
 
 **Source.** P. Frankl and Z. Füredi, *An exact result for 3-graphs*,
 Discrete Math. 50 (1984), 323--328, doi:10.1016/0012-365X(84)90058-X (the
-Crossref record); Theorem 3 on printed p. 325 = PDF p. 3
+Crossref record, read on 2026-09-18); Theorem 3 on printed p. 325 = PDF p. 3
 of the six-page publisher scan (printed p. $n$ = PDF p. $n-322$),
 read on the page image, with pp. 323-324 and 328 read for the definition,
 the conjecture and the references. The artifact is identified in the

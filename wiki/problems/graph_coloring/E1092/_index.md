@@ -77,7 +77,7 @@ claim page at its pinned commit, with the route its own docstring describes.
 
 ## Current assessment
 
-The site's formulation, read as the Formulation sets
+The site's formulation (accessed 2026-09-04), read as the Formulation sets
 out, asks whether an edge budget linear in the subgraph order can be
 admissible: whether $f_2(n)\gg n$, and more generally $f_r(n)\gg_r n$, where
 a budget $f_r$ is admissible when every graph whose $m$-vertex subgraphs are

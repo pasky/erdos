@@ -65,15 +65,15 @@ and Zentralblatt 186,79.
 ## Canonical source
 
 The [retained PDF](erdos_1968_problem_p_erdos_s_stein.pdf) is the complete
-six-page published scan, printed pp. 85–90. It is the unchanged
-Rényi-archive artifact already filed with this source. A fresh download
-from the [same archive URL](https://users.renyi.hu/~p_erdos/1968-03.pdf)
-on 5 September 2026 was byte-identical: 729156 bytes. No other manuscript
-version or published erratum is represented here. All six pages were read
-visually at original detail without OCR. The canonical source is the scan, not
-its imperfect extracted text. The scan's text layer carries no copyright or
-license line; the publisher's record offers the PDF "Free download under CC-BY
-license", naming no version or license URL
+six-page published scan, printed pp. 85–90. It is the unchanged Rényi-archive
+artifact already filed with this source. A fresh download from the
+[same archive URL](https://users.renyi.hu/~p_erdos/1968-03.pdf) on 5 September
+2026 was byte-identical: 729156 bytes. No other manuscript version or published
+erratum is represented here. All six pages were read visually at original detail
+without OCR. The canonical source is the scan, not its imperfect extracted text.
+The scan's text layer carries no copyright or license line; the publisher's
+record offers the PDF "Free download under CC-BY license", naming no version or
+license URL
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/15/1/96639/on-a-problem-of-p-erdos-and-s-stein,
 read 2026-10-02).
 

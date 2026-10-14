@@ -46,7 +46,7 @@ the powers $(\ell+1)^k$ only, which suffices to refute "for all large $n$".
 **Source.** M. Axenovich and F. C. Clemen, *Rainbow subgraphs in
 edge-colored complete graphs: answering two questions by Erdős and Tuza*,
 J. Graph Theory 106 (2024), no. 1, 57–66, doi:10.1002/jgt.23063 (published
-online 12 December 2023; Crossref record read); read in the
+online 12 December 2023; Crossref record read 2026-09-18); read in the
 retained arXiv:2209.13867v2 (28 November 2022; the PDF is dated November
 29, 2022), eight pages: the definitions on pp. 1–2, Theorem 1.4 and the
 remark on p. 2, the proof on p. 5, on the page images and the text layer.

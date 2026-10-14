@@ -17,7 +17,7 @@ updated: 2026-10-08T01:29:58Z
 
 Paul Erdos, A survey of problems in combinatorial number theory. Annals of
 Discrete Mathematics 6 (1980), 89-115, DOI 10.1016/S0167-5060(08)70697-6
-(Crossref record read).
+(Crossref record read 2026-10-07).
 
 The copy read for this card is a 27-page scan
 using printed pp. 89-115; printed p. 114 is PDF page 26. It prints "Annals
@@ -79,8 +79,9 @@ best possible."
 The paragraph supplies neither proof nor a specific proof citation for those
 Ruzsa claims. They are source reports under an explicit subset convention, not
 locally verified bounds for #786. Their relation to the separate treatment of
-the two repetition conventions in the site's full commentary remains unresolved;
-the suggestion that Erdős confused those conventions is not established here.
+the two repetition conventions in the site's full commentary (accessed
+2026-09-04) remains unresolved; the suggestion that Erdős confused those
+conventions is not established here.
 
 For [[../wiki/problems/unit_fractions/E0046/_index|#46]] and
 [[../wiki/problems/unit_fractions/E0047/_index|#47]], printed p. 105 (PDF page 17), in the

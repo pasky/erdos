@@ -65,7 +65,7 @@ $qN$.
 sequences*, arXiv:0708.1015v1 (7 August 2007), 13 pages; Theorem 5.4 and
 Corollaries 5.5--5.6 on p. 11, Theorem 5.1 on p. 7, read on the page images.
 The paper appeared as Colloq. Math. 115 (2009), no. 2, 147--157,
-doi:10.4064/cm115-2-1 (Crossref record read); the journal text
+doi:10.4064/cm115-2-1 (Crossref record read 2026-09-18); the journal text
 was not compared, so the locators are the preprint's. The edition is
 identified in the
 [[number_theory/banks_2007_prime_numbers_beatty_sequences/_index|source digest]].

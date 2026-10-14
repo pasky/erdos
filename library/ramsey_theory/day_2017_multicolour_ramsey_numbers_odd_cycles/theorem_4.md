@@ -36,8 +36,8 @@ cycles*, arXiv:1602.07607v2 (16 January 2017), the copy read for this page;
 Theorem 4, Conjecture 3 and display (1) on printed and physical p. 2, read on
 the page image and in the text layer; the proof is Section 3 (pp. 6--8).
 Published as J. Combin. Theory Ser. B 124 (2017), 56--63, DOI
-10.1016/j.jctb.2016.12.005 (Crossref record read); the journal text was not
-compared and these locators are the preprint's.
+10.1016/j.jctb.2016.12.005 (Crossref record read 2026-09-17); the journal text
+was not compared and these locators are the preprint's.
 
 **Read depth.** Claims checked: Theorem 4, Conjecture 3 and display (1)
 were read clause by clause on the page image of p. 2. The proof (p. 8)

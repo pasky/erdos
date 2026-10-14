@@ -82,7 +82,8 @@ for monotonic a_n, Lemma 2.14 for a_n growing past (log n)^{3/4}, and Conjecture
 Source: <https://users.renyi.hu/~p_erdos/1971-21.pdf>. The scan prints no notice
 on pp. 635--636 or 645--646; the journal's issue page, which lists the
 article at pp. 635--646, shows "© Copyright 1971 Pacific Journal of
-Mathematics. All rights reserved." (https://msp.org/pjm/1971/36-3/index.xhtml), every other right reserved.
+Mathematics. All rights reserved." (https://msp.org/pjm/1971/36-3/index.xhtml,
+read 2026-10-07), every other right reserved.
 
 For Problem 252 the relevant specialization is a_n = n, so that
 a_1 a_2 ... a_n = n!. Lemma 2.14 (p. 640), which the paper states without

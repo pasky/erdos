@@ -22,9 +22,9 @@ epsilon squared for ratio 1 + epsilon.
 ***
 
 Dubickas, Artūras, On the fractional parts of lacunary sequences. Math. Scand.
-**99** (2006), no. 1, 136--146; DOI 10.7146/math.scand.a-15004 (Crossref
-record, issued 1 September 2006). Received 20 July 2005.
-The site's key Du06.
+**99** (2006), no. 1, 136--146; DOI 10.7146/math.scand.a-15004 (Crossref record,
+issued 1 September 2006, read 2026-09-18). Received 20 July 2005. The site's key
+Du06.
 
 The copy read for this card is
 the journal's typeset article (Acrobat Distiller, 2006), eleven pages with

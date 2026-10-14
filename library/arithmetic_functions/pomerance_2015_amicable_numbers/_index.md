@@ -26,9 +26,9 @@ so at most x/exp((log x)^{1/2}) for all large x.
 Pomerance, Carl, On amicable numbers. Analytic Number Theory: In Honor of Helmut
 Maier's 60th Birthday, Springer (2015), 321-327.
 doi:10.1007/978-3-319-22240-0_19. The copy read for this card is the author's
-manuscript from the author's page (https://math.dartmouth.edu/~carlp/), which
-states no terms for the papers it links, and the file prints no notice; the term
-is unstated.
+manuscript from the author's page (https://math.dartmouth.edu/~carlp/, read
+2026-10-02), which states no terms for the papers it links, and the file prints
+no notice; the term is unstated.
 
 Pomerance sharpens the known upper bound for the counting function of the
 amicable numbers: Theorem 1.1 states that as x tends to infinity, #A(x) <=
@@ -42,9 +42,9 @@ fairly large prime divides sigma(n/p). Lemma 2.1 supplies the needed estimate
 for the number of squarefree n <= x with P(sigma(n)) <= y, stated as following
 by small cosmetic changes from the bound x exp(-(1+o(1)) u log log u) of
 Banks, Friedlander, Pomerance and Shparlinski for the number of n <= x with
-P(phi(n)) <= y. The paper reviews, in simplified form, the earlier upper bounds from
-Rieger's x/(log log log log x)^{1/2} to x/exp((log x)^{1/3}), and notes that
-about 12 million amicable pairs are known but their infinitude is unproved.
+P(phi(n)) <= y. The paper reviews, in simplified form, the earlier upper bounds
+from Rieger's x/(log log log log x)^{1/2} to x/exp((log x)^{1/3}), and notes
+that about 12 million amicable pairs are known but their infinitude is unproved.
 
 Source: <https://math.dartmouth.edu/~carlp/>.
 
@@ -53,9 +53,9 @@ Source: <https://math.dartmouth.edu/~carlp/>.
 bounds the number of amicable numbers up to $x$ from above, and so the number
 of pairs $a<b\le x$ that the problem's $A(x)$ counts, each pair being
 determined by its smaller member; the problem's condition $a\le b$ also admits
-$a=b$, that is perfect numbers, which the paper does not count. The bound is of the form $x^{1-o(1)}$ and is consistent
-with the conjectured lower bound; the paper answers neither question of the
-problem.
+$a=b$, that is perfect numbers, which the paper does not count. The bound is of
+the form $x^{1-o(1)}$ and is consistent with the conjectured lower bound; the
+paper answers neither question of the problem.
 
 **Read status.** Claims checked: Theorem 1.1 (p. 2) and Lemma 2.1 (p. 3) were
 read clause by clause; the proof of Theorem 1.1 (pp. 3--6) was read for its

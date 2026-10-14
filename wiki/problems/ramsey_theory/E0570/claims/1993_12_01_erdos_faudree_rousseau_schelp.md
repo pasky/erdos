@@ -62,8 +62,8 @@ preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy records on p. 2
 that the paper verified the question for even $k$. Refereed: P. Erdős, R. J.
 Faudree, C. C. Rousseau and R. H. Schelp, Ramsey size linear graphs, Combin.
 Probab. Comput. 2 (1993), no. 4, 389--399. It was received on 12 March 1993 and
-printed in the December 1993 issue (Crossref), the month this page is dated by.
-The day is a placeholder.
+printed in the December 1993 issue (Crossref, accessed 2026-10-07), the month
+this page is dated by. The day is a placeholder.
 
 **Read depth.** The statement, the range $j\ge2$, the formula and the
 sharpness construction were checked (printed p. 396);

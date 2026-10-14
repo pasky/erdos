@@ -33,9 +33,9 @@ and that "Most papers published before March 31, 2018 did not contain explicit
 copyright or license statements.", so the authors' copyright governs with no
 reuse grant stated, every other right reserved.
 
-The [journal
-record](https://www.combinatorics.org/ojs/index.php/eljc/article/view/v21i4p29)
-and official PDF were checked.
+The
+[journal record](https://www.combinatorics.org/ojs/index.php/eljc/article/view/v21i4p29)
+was checked on 2026-09-06; the official PDF was also checked.
 
 ## Digest
 

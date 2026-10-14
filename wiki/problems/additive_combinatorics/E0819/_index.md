@@ -26,7 +26,7 @@ updated: 2026-10-08T14:17:37Z
 \{1,\ldots,N\}$ with $\lvert A\rvert=\lfloor N^{1/2}\rfloor$ such that $\lvert
 (A+A)\cap [1,N]\rvert=f(N)$. Estimate $f(N)$.
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page shows no
 last-edited date). $A+A$ is the full sumset
 $\{a+b:a,b\in A\}$, doubles included; only the sums in $[1,N]$ are counted,
 and $|A|$ is exactly $\lfloor N^{1/2}\rfloor$. Since $|A+A|\le\binom{|A|+1}2$,
@@ -120,9 +120,9 @@ Problem #819, https://www.erdosproblems.com/819, accessed 2026-10-07.
   (p. 1) claims $\liminf f(N)/N\ge(16\sqrt2-17)/12$. Claim page:
   [[problems/additive_combinatorics/E0819/claims/2026_05_15_liu|Liu's lower bound 0.469]].
 
-**Formalization.** None. Google-deepmind/formal-conjectures
-has no file `ErdosProblems/819.lean`, the site's indicator reads "Formalised
-statement? No", and the community database records the problem open and
+**Formalization.** None. On 2026-10-07 google-deepmind/formal-conjectures
+had no file `ErdosProblems/819.lean`, the site's indicator read "Formalised
+statement? No", and the community database recorded the problem open and
 unformalized, with no formal proof.
 
 ## Current assessment

@@ -118,7 +118,7 @@ found. Nothing is independently reviewed by this project.
 `src/latest/ErdosProblems/Erdos440.lean`, with four supporting files under
 `Erdos440/`, linked above at the repository head of 15 September 2026; the
 file was added on 17 August 2026 and last changed on 31 August 2026 (its
-commit history). Its header calls
+commit history, read 2026-10-07). Its header calls
 it a formalization of a solution to the problem and names Erdős and Szemerédi
 as informal authors and Codex and GPT-5.6 Sol as formal authors, so it is a
 formalization link on this page and not a claim of its own. Its closing

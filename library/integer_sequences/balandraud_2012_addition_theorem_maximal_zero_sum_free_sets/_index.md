@@ -60,7 +60,7 @@ only arXiv version, whose labels and pagination are used here (the Selfridge
 result is its Theorem 9, p. 16). The paper appeared as Israel J. Math. 188
 (2012), no. 1, 405--429, DOI 10.1007/s11856-011-0171-9 (published online 6
 October 2011), with an erratum, Israel J. Math. 192 (2012), no. 2,
-1009--1010, DOI 10.1007/s11856-012-0065-5 (Crossref records read;
+1009--1010, DOI 10.1007/s11856-012-0065-5 (Crossref records read 2026-09-18;
 neither the journal text nor the erratum was read, so the journal's labels
 may differ). Read status: claims checked for the definition of a zero-sum
 free set, Olson's Theorem 1 as quoted (p. 2), the main addition theorem (p. 2

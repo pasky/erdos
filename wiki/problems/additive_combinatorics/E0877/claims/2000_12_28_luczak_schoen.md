@@ -60,10 +60,10 @@ informal authors, so it is not a formalization of this paper.
 **Depends on.** No wiki page; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: the paper is a research article in the Proceedings of
-the American Mathematical Society. Its Crossref record (read) gives volume 129,
-issue 8, 2001, and online publication on 28 December 2000, the date that names
-this page. Reviewed: the site's curator, Thomas Bloom, marked the problem proved
-on erdosproblems.com and credits Łuczak and Schoen with a bound $f_m(n)<2^{cn}$
-for some $c<1/2$ that settles the question. The two refereed papers of 2015 and
-2018 cite the result as the answer to the question. The paper has not been read,
-so no further evidence is listed.
+the American Mathematical Society. Its Crossref record (read 2026-10-07) gives
+volume 129, issue 8, 2001, and online publication on 28 December 2000, the date
+that names this page. Reviewed: the site's curator, Thomas Bloom, marked the
+problem proved on erdosproblems.com and credits Łuczak and Schoen with a bound
+$f_m(n)<2^{cn}$ for some $c<1/2$ that settles the question. The two refereed
+papers of 2015 and 2018 cite the result as the answer to the question. The paper
+has not been read, so no further evidence is listed.

@@ -131,7 +131,7 @@ linked from the claim page as a formalization of that result. This corpus has
 not built it, so it gives no `formalized` evidence.
 
 Search scope: the site's problem page (last edited 7 March 2026, no proof
-claims filed on 2026-10-07), the arXiv record of arXiv:2101.04698, the Crossref
+claims filed), the arXiv record of arXiv:2101.04698, the Crossref
 record and the journal's page of the Annals publication, the preprint's card,
 the arXiv records of arXiv:2010.05666 [Al21] and arXiv:1605.03374 [ArVa16],
 the zbMATH records Zbl 1224.05187 [RoSa07] and Zbl 1413.05098 [ArVa16], the

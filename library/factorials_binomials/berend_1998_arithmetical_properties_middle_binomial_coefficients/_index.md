@@ -16,9 +16,9 @@ updated: 2026-10-08T01:29:58Z
 
 Berend, Daniel and Harmse, Jørgen E., On some arithmetical properties of middle
 binomial coefficients. Acta Arith. 84 (1998), no. 1, 31--41,
-doi:10.4064/aa-84-1-31-41 (Crossref record and the publisher's page). No
-copyright or license line appears in the file's text layer; the publisher's
-record
+doi:10.4064/aa-84-1-31-41 (Crossref record and the publisher's page, read
+2026-10-07). No copyright or license line appears in the file's text layer; the
+publisher's record
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/84/1/110114/on-some-arithmetical-properties-of-middle-binomial-coefficients,
 read 2026-10-02) labels the download "Free download under CC-BY license", a
 Creative Commons Attribution license with no version or URL named; the site

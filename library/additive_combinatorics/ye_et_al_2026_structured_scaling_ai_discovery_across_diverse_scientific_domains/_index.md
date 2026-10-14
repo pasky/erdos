@@ -29,9 +29,9 @@ tends to one.
 
 The copy read for this card is the arXiv version stamped "arXiv:2604.19341v2
 [cs.LG] 27 Jul 2026". Provenance: downloaded from
-https://arxiv.org/pdf/2604.19341v2 on 2026-09-25; 23,412,629 bytes. The arXiv
-record (https://arxiv.org/abs/2604.19341, read 2026-10-02) names the Creative
-Commons Attribution-NonCommercial-ShareAlike 4.0 license.
+https://arxiv.org/pdf/2604.19341v2; 23,412,629 bytes. The arXiv record
+(https://arxiv.org/abs/2604.19341, read 2026-10-02) names the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 license.
 
 Haotian Ye, Haowei Lin, Jingyi Tang, Yizhen Luo, Rahul Thapa, Caiyin Yang, Chang
 Su, Rui Yang, Ruihua Liu, Rundao Li, Zeyu Li, Pengwei Sun, Chong Gao, Dachao

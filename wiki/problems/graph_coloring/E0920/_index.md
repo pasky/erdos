@@ -108,15 +108,15 @@ has not built. Boris Alexeev's `lean-proofs` repository holds an unconditional
 Lean proof of the answer, with Codex and GPT-5.6 Sol as formal authors and
 Bradač, Mattheus and Verstraëte as informal authors; the formal-conjectures
 catalog
-([920.lean](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
+([920.lean at its commit of 18 September 2026](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
 cites it as the formal proof of its statement, but this corpus has not built it,
 so it gives no `formalized` evidence.
 
-**Evidence and search scope.** Read on 2026-10-07: the site's problem page,
-discussion thread and proof-claims page; the arXiv records of both papers and
-the Annals record of Mattheus and Verstraete's; the two GitHub repositories
-behind the forum notes; the formal-conjectures statement file
-([920.lean as of 18 September 2026](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
+**Evidence and search scope.** The site's proof-claims page. Read on
+2026-10-07: the site's problem page and discussion thread; the arXiv records of
+both papers and the Annals record of Mattheus and Verstraete's; the two GitHub
+repositories behind the forum notes; the formal-conjectures statement file
+([920.lean at its commit of 18 September 2026](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
 and the Lean file in Boris Alexeev's repository that it cites. Neither proof of
 the two Ramsey theorems is reviewed in this corpus. No wider literature search
 is recorded.

@@ -67,11 +67,11 @@ https://www.erdosproblems.com/141.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/141.lean)
-(pinned at the file's last commit, of 2026-09-18), which tags `erdos_141`
-research open, its variant `first_cases` (every $3\le k\le10$) research solved
-with a `sorry` proof and no `formal_proof` attribute, and the variants for
-$k=11$ and for infinitely many progressions research open. The solved tag is a
-statement, not a Lean proof, and gives no `formalized` evidence.
+(pinned at the file's last commit, of 2026-09-18), which on 2026-10-07 tagged
+`erdos_141` research open, its variant `first_cases` (every $3\le k\le10$)
+research solved with a `sorry` proof and no `formal_proof` attribute, and the
+variants for $k=11$ and for infinitely many progressions research open. The
+solved tag is a statement, not a Lean proof, and gives no `formalized` evidence.
 
 ## Current assessment
 

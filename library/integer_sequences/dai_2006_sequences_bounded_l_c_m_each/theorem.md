@@ -24,7 +24,7 @@ $x\to\infty$.
 
 **Source.** Li-Xia Dai and Yong-Gao Chen, *Sequences with bounded l.c.m. of
 each pair of terms II*, Acta Arith. 124 (2006), no. 4, 315--326, DOI
-10.4064/aa124-4-2 (Crossref record read); the Theorem on printed
+10.4064/aa124-4-2 (Crossref record read 2026-09-18); the Theorem on printed
 pp. 315--316 = PDF pp. 1--2 of the publisher's 12-page file, read in the text
 layer and on the page images.
 

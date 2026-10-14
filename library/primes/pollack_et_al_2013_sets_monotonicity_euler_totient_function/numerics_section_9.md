@@ -59,11 +59,11 @@ no computation was replayed here.
 
 ## Later records
 
-The OEIS entry A365339 ($a(n)=M^\uparrow(n)$) states the lower bound
-$a(n)\ge\pi(n)+64$ for $n\ge31957$ in its formula section and records the
-conjecture $a(n)=\pi(n)+64$ for $n\ge31957$ as verified to $10^7$ by this
-paper and to $10^9$ afterwards; A365474 lists $a(10^k)$ for $k\le9$. Tao's 2024 paper cites the same extension in its
-footnote 2, as recorded on the
+The OEIS entry A365339 ($a(n)=M^\uparrow(n)$), read 2026-09-27, states the lower
+bound $a(n)\ge\pi(n)+64$ for $n\ge31957$ in its formula section and records the
+conjecture $a(n)=\pi(n)+64$ for $n\ge31957$ as verified to $10^7$ by this paper
+and to $10^9$ afterwards; A365474 lists $a(10^k)$ for $k\le9$. Tao's 2024 paper
+cites the same extension in its footnote 2, as recorded on the
 [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/external_context|external-context page]].
 
 ## Bears on

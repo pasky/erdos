@@ -24,8 +24,8 @@ rendered page image of printed p. 234 (PDF p. 4); read status for them: claims
 checked, the two items read clause by clause on the page image. Problem 14
 (printed pp. 234--236, PDF pp. 4--6) was read clause by clause on the rendered
 page images for Problem 80; read status for it: claims checked. The other items
-on this card keep their earlier reading. No notice is printed in the file; the
-journal's article page
+on this card were not checked against the page images. No notice is printed in
+the file; the journal's article page
 (https://lematematiche.dmi.unict.it/index.php/lematematiche/article/view/587,
 read 2026-10-02) names the Creative Commons Attribution 4.0 license for the
 article content ("licensed under Creative Commons Attribution 4.0

@@ -56,17 +56,17 @@ d-degenerate graph on k vertices with chromatic number at most χ.
 
 J. Fox and B. Sudakov, *Induced Ramsey-type theorems*, Adv. Math. 219 (2008),
 no. 6, 1771--1800; DOI 10.1016/j.aim.2008.07.009 (December 2008 issue; the
-Crossref record was read). An extended abstract appeared in
+Crossref record was read on 2026-09-17). An extended abstract appeared in
 Electron. Notes Discrete Math. 29 (2007), 53--58. Preprint arXiv:0706.4112
-(v3 27 December 2007; the arXiv listing read carries no
+(v3 27 December 2007; the arXiv listing read on 2026-09-17 carried no
 journal reference).
 
 The copy read for this card is
 arXiv:0706.4112v3 [math.CO] 27 Dec 2007, 30 pages, with a text layer. Page
 numbers below are the arXiv pages, not the journal's 1771--1800, and the
 journal text has not been compared. The pages named under Compiled scope
-were read on rendered page images. The arXiv record carries no license field, so arXiv's assumed license
-applies (arXiv:0706.4112), every other right reserved.
+were read on rendered page images. The arXiv record carries no license field, so
+arXiv's assumed license applies (arXiv:0706.4112), every other right reserved.
 
 Read status: claims checked for Theorem 1.1 (p. 3), Theorem 1.2 (p. 4),
 Theorem 1.3 (p. 5), Theorem 1.4 (p. 6), Corollaries 1.5 and 1.6 and

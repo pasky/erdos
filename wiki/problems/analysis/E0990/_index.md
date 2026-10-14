@@ -67,7 +67,7 @@ has been performed.
 
 ## Current assessment
 
-The site's formulation asks for a discrepancy bound of
+The site's formulation (accessed 2026-09-04) asks for a discrepancy bound of
 order $(n\log M)^{1/2}$ with $n$ the number of nonzero coefficients. Erdős and
 Turán [ErTu50] proved the bound with the degree $d$ in place of $n$, and Hayman
 [Ha72b] proved that the deviation is at most $n-1$, which $(x^p-1)^{n-1}$ shows

@@ -75,9 +75,9 @@ Dirac Graphs*, International Mathematics Research Notices **2025**(14), rnaf215,
 The canonical folder-name PDF is the published open-access article, received 19
 March 2025, revised 23 June 2025, accepted 27 June 2025, and published online 22
 July 2025. It was obtained from the
-[Oxford University Research Archive](https://ora.ox.ac.uk/objects/uuid%3A0e3a200d-2955-4e92-bbbb-e02f8f6ae438/files/rbc386m135)
-on 2026-09-05. Its printed pages and PDF pages both run from 1 to 16. All result
-labels and page citations in this folder refer to that version.
+[Oxford University Research Archive](https://ora.ox.ac.uk/objects/uuid%3A0e3a200d-2955-4e92-bbbb-e02f8f6ae438/files/rbc386m135).
+Its printed pages and PDF pages both run from 1 to 16. All result labels and
+page citations in this folder refer to that version.
 
 The original 17-page PDF is retained unchanged as
 `draganic_2025_cyclic_subsets_regular_dirac_graphs_arxiv_v2.pdf`:

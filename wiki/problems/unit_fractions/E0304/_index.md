@@ -257,12 +257,12 @@ manuscript of 25 September 2026 is recorded under Claims.
 
 **Finite values (leads).** OEIS A097847 (the triangle $T(n,k)$ of the least
 number of unit fractions for $k/n$, $1\le k\le n$) and A097849 (its row maxima,
-which equal $N(n)$ since the diagonal entry is $1$) listed, 105 row maxima,
-which never exceed $6$; the first $6$ occurs at $n=79$; the entries note that
-$T(17,4)=3$ is smaller than the greedy count and (a comment of May 2026) that
-the row maximum need not be attained at an $a$ coprime to $n$, the first case
-being $n=42$. A public report of 26 July 2026 by Patrick White with Claude
-(Anthropic), as the report names its authors
+which equal $N(n)$ since the diagonal entry is $1$) listed, on 2026-09-17, 105
+row maxima, which never exceed $6$; the first $6$ occurs at $n=79$; the entries
+note that $T(17,4)=3$ is smaller than the greedy count and (a comment of May
+2026) that the row maximum need not be attained at an $a$ coprime to $n$, the
+first case being $n=42$. A public report of 26 July 2026 by Patrick White with
+Claude (Anthropic), as the report names its authors
 (`erdosproblemaday.com/report/304`), claims $N(b)\le7$ for $b\le1000$ with
 equality at seven values, labels itself partial, and says the uniform question
 is open; the computation is not verified here.

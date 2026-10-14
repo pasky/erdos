@@ -56,7 +56,7 @@ release's numerical certificate (Python 3 with `python-flint` 0.9.0,
 text was produced or checked. The title page names no individual author, and
 the text names no referee, reader or prior circulation. No refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 Formalization, as the release describes it. The release's

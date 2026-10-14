@@ -58,13 +58,13 @@ The paper's lower-bound proof applies a generalization of Hall's theorem
 (Lemma 2.3, p. 3, the König–Ore formula) to \(G(A,x)\).
 Together Theorems 3.1 and 4.1 give Theorem 2.1.
 
-**Interval-length range (printed/physical pp. 1--2 and 5).** Although the displayed
-definition of \(f(m)\) uses intervals of length \(2a_m\), the introduction says
-that the same results remain valid when 2 is replaced by any real multiplier
-\(c\) with \(2\le c<3\). More precisely, Remark 3.3 says that, for every
-\(\varepsilon\in(0,1)\), the upper-bound construction still works with an
-interval of length \((3-\varepsilon)\max A\) once \(M\) is chosen larger
-than \(\varepsilon^{-1}(3-\varepsilon)(s+tD)\). This records the source's parameter
+**Interval-length range (printed/physical pp. 1--2 and 5).** Although the
+displayed definition of \(f(m)\) uses intervals of length \(2a_m\), the
+introduction says that the same results remain valid when 2 is replaced by any
+real multiplier \(c\) with \(2\le c<3\). More precisely, Remark 3.3 says that,
+for every \(\varepsilon\in(0,1)\), the upper-bound construction still works with
+an interval of length \((3-\varepsilon)\max A\) once \(M\) is chosen larger than
+\(\varepsilon^{-1}(3-\varepsilon)(s+tD)\). This records the source's parameter
 extension; it is not a new local proof.
 
 ## Verification layers

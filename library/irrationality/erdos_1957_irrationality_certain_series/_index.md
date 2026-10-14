@@ -42,7 +42,7 @@ problem 247.
 
 P. Erdős, *On the irrationality of certain series*, Nederl. Akad. Wetensch.
 Proc. Ser. A **60** = Indag. Math. **19** (1957), no. 2, 212--219;
-DOI 10.1016/s1385-7258(57)50028-0 (Crossref record read);
+DOI 10.1016/s1385-7258(57)50028-0 (Crossref record read 2026-10-07);
 communicated by J. Popken at the meeting of 29 December 1956.
 
 The copy read for this card is the Rényi archive scan (item 1957-07), whose head
