@@ -33,9 +33,13 @@ standard axioms, and its fingerprint is identical to the release's comparator
 challenge. The statement audit found it exact. The claim is therefore accepted
 on
 [[problems/arithmetic_functions/E0371/claims/2026_09_24_openai|the release's joint Dickman law]],
-and the problem stands solved. The manuscript has no outside review. Wang [Wa21]
-proved the density under the Elliott–Halberstam conjecture for friable integers.
-This is an accepted conditional claim,
+and the problem stands solved. The manuscript has no outside review. The
+curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. Wang [Wa21] proved the density under the
+Elliott–Halberstam conjecture for friable integers. This is an accepted
+conditional claim,
 [[problems/arithmetic_functions/E0371/claims/2021_01_20_wang|Wang 2021]], which
 settles no standing.
 
@@ -176,5 +180,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/arithmetic_functions/teravainen_2018_binary_correlations_multiplicative_functions/theorem_1_16|teravainen_2018_binary_correlations_multiplicative_functions / theorem_1_16]]
 - [[../library/arithmetic_functions/teravainen_2018_binary_correlations_multiplicative_functions/theorem_1_17|teravainen_2018_binary_correlations_multiplicative_functions / theorem_1_17]]
 - [[../library/divisors/erdos_1979_unconventional_problems_number_theory_asterisque/_index|erdos_1979_unconventional_problems_number_theory_asterisque]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 
 <!-- END problem library links -->

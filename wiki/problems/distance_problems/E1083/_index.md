@@ -46,12 +46,14 @@ from the claim pages, is claimed. The reason is OpenAI's release preprint of 23
 September 2026, which claims $f_d(n)\gg_d n^{2/d}$ for every fixed $d\ge3$. That
 would answer the question in the affirmative for every $d$. The
 [[problems/distance_problems/E1083/claims/2026_09_23_openai|OpenAI claim page]]
-records it as a pending full claim without acceptance evidence. Tidor, Yu and
-Zakharov's preprint of 14 August 2026 proves $f_3(n)=n^{2/3-o(1)}$. This is a
-yes to the particular question for $d=3$. It is recorded as a pending partial
-claim on
-[[problems/distance_problems/E1083/claims/2026_08_14_tidor_yu_zakharov|its claim
-page]].
+records it as a pending full claim without acceptance evidence. The curator's
+blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that the release gives no formal proof of it. Tidor, Yu and Zakharov's preprint
+of 14 August 2026 proves $f_3(n)=n^{2/3-o(1)}$. This is a yes to the particular
+question for $d=3$. It is recorded as a pending partial claim on
+[[problems/distance_problems/E1083/claims/2026_08_14_tidor_yu_zakharov|its claim page]].
 
 **Source.** [erdosproblems.com/1083](https://www.erdosproblems.com/1083),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1083,
@@ -144,5 +146,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/distance_problems/solymosi_2008_near_optimal_bounds_erdos_distinct_distances_high_dimensions/theorem_1_1|solymosi_2008_near_optimal_bounds_erdos_distinct_distances_high_dimensions / theorem_1_1]]
 - [[../library/distance_problems/solymosi_2008_near_optimal_bounds_erdos_distinct_distances_high_dimensions/theorem_2_1|solymosi_2008_near_optimal_bounds_erdos_distinct_distances_high_dimensions / theorem_2_1]]
 - [[../library/distance_problems/solymosi_2008_near_optimal_bounds_erdos_distinct_distances_high_dimensions/theorem_2_2|solymosi_2008_near_optimal_bounds_erdos_distinct_distances_high_dimensions / theorem_2_2]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 
 <!-- END problem library links -->

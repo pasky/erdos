@@ -37,8 +37,11 @@ OpenAI mathematics release,
 corpus's verification built and audited its Lean declaration. Four pending
 partial claims assert further special cases. One is the release's
 [[problems/analysis/E0120/claims/2026_10_05_openai|geometric-progression case for each fixed ratio]],
-of which only the ratio $1/2$ is formally verified. An arXiv preprint of Jiang
-and Xi adapts the release's construction to
+of which only the ratio $1/2$ is formally verified. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists that claim, as a claim and not an endorsement, and says
+that it is formalized only for the ratio $1/2$. An arXiv preprint of Jiang and
+Xi adapts the release's construction to
 [[problems/analysis/E0120/claims/2026_10_08_jiang_xi|every positive null sequence whose adjacent ratios stay bounded away from $0$]],
 which contains both geometric cases. The other two are arXiv preprints of 2026
 by Iosevich and coauthors, on
@@ -232,5 +235,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/analysis/steinhaus_1920_sur_les_distances_des_points_dans/_index|steinhaus_1920_sur_les_distances_des_points_dans]]
 - [[../library/discrete_geometry/erdos_1978_set_theoretic/_index|erdos_1978_set_theoretic]]
 - [[../library/discrete_geometry/erdos_1978_set_theoretic/conjecture_p123|erdos_1978_set_theoretic / conjecture_p123]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 
 <!-- END problem library links -->

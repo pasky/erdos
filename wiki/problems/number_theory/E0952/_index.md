@@ -49,10 +49,13 @@ April 2026; accessed 2026-09-18). The accepted claim is
 [[problems/number_theory/E0952/claims/2026_09_26_openai|the 2026 OpenAI manuscript]].
 It answers the question negatively for every step bound and every starting
 point. Its Lean proof of exactly this statement was built and checked for axioms
-by the corpus's verification. The problem's standing is therefore solved with a
-negative answer, ahead of the site's label. The search whose scope the Current
-assessment records had found no proof, disproof or proof claim. Two arXiv
-preprints claiming a negative answer, by
+by the corpus's verification. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. The problem's standing is therefore solved
+with a negative answer, ahead of the site's label. The search whose scope the
+Current assessment records had found no proof, disproof or proof claim. Two
+arXiv preprints claiming a negative answer, by
 [[problems/number_theory/E0952/claims/2019_08_27_das|Das (2019)]] and
 [[problems/number_theory/E0952/claims/2024_01_16_stumpenhusen|Stumpenhusen (2024)]],
 had been withdrawn by their authors, as their arXiv records state. Gethner and
@@ -304,6 +307,7 @@ These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
 - [[../library/integer_sequences/erdos_1977_problems_results_combinatorial_number_theory_iii/_index|erdos_1977_problems_results_combinatorial_number_theory_iii]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]]
 - [[../library/number_theory/openai_2026_bounded_step_walks_gaussian_primes/_index|openai_2026_bounded_step_walks_gaussian_primes]]
 - [[../library/number_theory/openai_2026_bounded_step_walks_gaussian_primes/proposition_2_1|openai_2026_bounded_step_walks_gaussian_primes / proposition_2_1]]

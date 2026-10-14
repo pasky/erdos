@@ -60,7 +60,10 @@ for every $n$ and every finite coloring. The claim page
 [[problems/ramsey_theory/E0172/claims/2026_09_23_openai|OpenAI 2026]] records it
 as claimed, since it is unrefereed and unreviewed, and the third-party Lean
 proof of the statement that formal-conjectures links has not been built or
-audited here.
+audited here. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that the release gives no formal proof of it.
 
 **Source.** [erdosproblems.com/172](https://www.erdosproblems.com/172),
 accessed 2026-09-17: the problem page (OPEN, with the site's note that the
@@ -353,6 +356,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/_index|erdos_1981_applications_graph_theory_combinatorial_methods_number]]
 - [[../library/discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/monochromatic_sums_products_p146|erdos_1981_applications_graph_theory_combinatorial_methods_number / monochromatic_sums_products_p146]]
 - [[../library/integer_sequences/erdos_1977_problems_results_combinatorial_number_theory_iii/_index|erdos_1977_problems_results_combinatorial_number_theory_iii]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/ramsey_theory/alweiss_2023_monochromatic_sums_products_over/_index|alweiss_2023_monochromatic_sums_products_over]]
 - [[../library/ramsey_theory/alweiss_2023_monochromatic_sums_products_over/conjecture_1_1|alweiss_2023_monochromatic_sums_products_over / conjecture_1_1]]
 - [[../library/ramsey_theory/alweiss_2023_monochromatic_sums_products_over/theorem_1_3|alweiss_2023_monochromatic_sums_products_over / theorem_1_3]]

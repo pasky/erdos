@@ -319,6 +319,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/primes/E0855/_index|E0855]]
 - [[integer_sequences/konyagin_2022_construction_schinzel_many_numbers_short_interval_without_small_prime_factors/_index|konyagin_2022_construction_schinzel_many_numbers_short_interval_without_small_prime_factors]]
   - [[../wiki/problems/primes/E0855/_index|E0855]]
+- [[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
+  - [[../wiki/problems/primes/E0431/_index|E0431]]
 - [[number_theory/erdos_1965_recent_advances_current_problems_number_theory/_index|erdos_1965_recent_advances_current_problems_number_theory]]
   - [[../wiki/problems/primes/E0005/_index|E0005]]
 - [[number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]

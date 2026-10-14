@@ -69,8 +69,11 @@ and an obstruction to five measurable labels; the same page records the
 seven-coloring by hexagons. Both theorems are kernel-checked in Lean,
 built and axiom-audited by this corpus, and the acceptance rests on that
 evidence alone: no outside review or refereeing of the manuscript is
-recorded, and the site's page does not mention it. The value of $\chi$,
-six or seven, is open, so the problem is open.
+recorded, and the site's page does not mention it. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. The value of $\chi$, six or seven, is open,
+so the problem is open.
 
 Earlier bounds, as the site's remarks and the preprint's introduction
 record them: an equilateral triangle gives $\chi\ge3$; the Moser spindle
@@ -243,5 +246,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/distance_problems/graham_2010_open_problems_euclidean_ramsey_theory/unit_distance_survey_p3|graham_2010_open_problems_euclidean_ramsey_theory / unit_distance_survey_p3]]
 - [[../library/graph_coloring/jensen_toft_2001_25_pretty_graph_colouring_problems/_index|jensen_toft_2001_25_pretty_graph_colouring_problems]]
 - [[../library/graph_coloring/jensen_toft_2001_25_pretty_graph_colouring_problems/problem_3|jensen_toft_2001_25_pretty_graph_colouring_problems / problem_3]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 
 <!-- END problem library links -->
