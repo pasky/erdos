@@ -150,29 +150,35 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   September 2025; v2 7 September 2025). Preprint, not held, abstract only; a
   lead.
 
-**Formalization.** The release's Lean declaration
-`OAI.ErdosGallai.erdos_gallai` was built by the corpus's verification at the
-pinned revision, with the axioms `propext`, `Classical.choice` and
-`Quot.sound` only, as the accepted claim page records, and Coffey's claim
-page records the claimed Lean proof of `erdos_184` itself. On the site's
-side: statement only. The file
-[`ErdosProblems/184.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/184.lean)
-of formal-conjectures, declares `erdos_184` under `category
-research open` with proof `sorry`: there is a function $f=O(n)$ such that
-every finite simple graph has a decomposition into subgraphs, each a cycle or
-a single edge (`IsCycleOrEdge`: connected and $2$-regular, or with exactly
-one edge), with at most $f(|V|)$ parts. It carries five variants, all
-`sorry`: `n_log_n`, `lower_bound` (the graph $K_{3,n-3}$ needs at least
-$(1+c)n$ parts), `bucic_montgomery` and `conlon_fox_sudakov` (minimum degree
-$\varepsilon n$ gives $O_\varepsilon(n)$ parts) under `research solved`, and
-`covering` under `research open` with `answer(sorry)`, asking whether $n-1$
-cycles and edges whose edge sets cover the graph always exist. That covering
-statement was proved by Pyber in 1985 according to [BM22] and [CFS14], so at
-that commit the file's label and the literature differed; the
-[file at main](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/184.lean), labels `covering` `research solved` with `answer(True)` and
-cites Pyber [Py85] in its docstring (changed 30 September 2026), while
-`erdos_184` stays `research open` with no `formal_proof` attribute. The
-community database (teorth/erdosproblems) records the
+**Formalization.** The release's Lean declaration `OAI.ErdosGallai.erdos_gallai`
+was built by the corpus's verification at the pinned revision, with the axioms
+`propext`, `Classical.choice` and `Quot.sound` only, as the accepted claim page
+records, and Coffey's claim page records the claimed Lean proof of `erdos_184`
+itself. On the site's side: statement only. The file
+[`ErdosProblems/184.lean`](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/184.lean)
+of formal-conjectures, at its commit of 2026-10-11, declares `erdos_184` under
+`category research solved` with proof `sorry`: there is a function $f=O(n)$ such
+that every finite simple graph has a decomposition into subgraphs, each a cycle
+or a single edge (`IsCycleOrEdge`: connected and $2$-regular, or with exactly
+one edge), with at most $f(|V|)$ parts. Until that commit `erdos_184` was
+`research open` with no `formal_proof` attribute; the commit cited the release's
+manuscript and added a `formal_proof` attribute linking the release's
+[`erdos_gallai`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/CycleDecomposition/Main.lean#L207)
+at the revision pinned on the claim page. The link is a catalog label: the
+release's `MainStatement`, over graphs on `Fin n` with at most $Cn$ classes,
+formalizes the question differently, and no Lean bridge between the two has been
+built, as the claim page records. The file carries five variants, all `sorry`
+and all under `research solved`: `n_log_n`, `lower_bound` (the graph $K_{3,n-3}$
+needs at least $(1+c)n$ parts), `bucic_montgomery`, `conlon_fox_sudakov`
+(minimum degree $\varepsilon n$ gives $O_\varepsilon(n)$ parts) and `covering`,
+which asks with `answer(True)` whether $n-1$ cycles and edges whose edge sets
+cover the graph always exist and cites Pyber [Py85]. Since 2026-10-08
+`lower_bound` carries a `formal_proof` link to a Lean proof outside the
+repository, not built here. At the file's
+[commit of 2026-09-17](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/184.lean),
+`covering` was `research open` with `answer(sorry)`, although Pyber proved it in
+1985 according to [BM22] and [CFS14]; the file has labeled it solved since 30
+September 2026. The community database (teorth/erdosproblems) records the
 problem open (last changed 31 August 2025), the statement formalized since 16
 March 2026 and no formal proof. Nothing was built.
 
@@ -359,7 +365,7 @@ proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab as read
   2026-09-18; the community database record; formal-conjectures `184.lean` at
-  the pinned commit; the site's reference pages for the keys [Er76] and
+  its commit of 2026-09-17; the site's reference pages for the keys [Er76] and
   [Er83b] (their texts are not in the problem page).
 - arXiv: the API records of 2211.07689 (v2, final accepted version) and
   1310.0632 (v2 of 22 May 2014); the search `abs:"Gallai" AND abs:"cycles
@@ -395,8 +401,8 @@ the construction is Bucić and Montgomery's reading of it. (4) The 1966
 upper bound is
 asserted, not proved, in the paper; the argument is recorded from [CFS14].
 (5) The formal-conjectures `covering` variant was labeled open at the
-commit read although Pyber's theorem answers it; the file at
-main labeled it solved as recorded above.
+commit read although Pyber's theorem answers it; later commits label it
+solved, as recorded above.
 
 **Proof claims on the site.** The site's proof-claim
 tab carries one claim, full: Ryan Coffey's paper and Lean formalization of
