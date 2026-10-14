@@ -241,11 +241,12 @@ review, and a distinct grade of the same date passed all ten reviews
 ([[research/erdos_18/evidence/verify/_index|the review records]]): every page
 was found faithful to its source, five of them with corrections that were then
 applied, and every argument sound as reconstructed, the later van Doorn steps
-taking the earlier ones as claimed inputs. These are focused reviews of
-reconstructions, not whole-claim reviews; they assign no tier and change no
-standing. This corpus built no Lean; the part-(b) statement rests on
-Conjectures.io's kernel check and review; parts (a) and (c) carry claims and
-cited bounds only.
+taking the earlier ones as claimed inputs. These internal reviews assign no
+tier. The six van Doorn reviews together cover the note's proof of Theorem 1.1,
+every step graded sound, and acceptance of van Doorn's claim on them is pending
+until the project's reviewer signs off, so part (a) stays claimed. This corpus
+built no Lean; the part-(b) statement rests on Conjectures.io's kernel check
+and review; parts (a) and (c) carry claims and cited bounds only.
 
 ## Known results
 

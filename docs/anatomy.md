@@ -786,7 +786,10 @@ Before a claim page moves from `claimed` to `accepted`, identify evidence of
 acceptance and list its kinds under `evidence`. Refereed publication or
 documented independent acceptance suffices. Journal publication, a reproof by
 this project, and catalog agreement are not individually required when
-acceptance is otherwise documented. Keep any specific unresolved proof dispute
+acceptance is otherwise documented. This project's own review or check of an
+outside proof is reported on the claim page as coverage, saying what it covered
+and how it was graded, and the claim stays `claimed`, its acceptance pending,
+until the project's reviewer signs off. Keep any specific unresolved proof dispute
 prominent. A theorem statement in a manuscript is not sufficient by itself: such
 a claim stays `claimed`, and the problem's `status` stays `claimed` with it.
 Source-supported standing, local proof coverage and formal verification remain
