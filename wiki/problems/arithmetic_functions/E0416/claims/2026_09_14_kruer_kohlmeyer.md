@@ -129,3 +129,6 @@ not to this file
 A second, independent formal proof of the same limit, for every real scale
 $c>0$, is the OpenAI release's
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|accepted partial claim]].
+
+**Replay record.**
+[[../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0416_51923647|The receipt of the kernel replay]].

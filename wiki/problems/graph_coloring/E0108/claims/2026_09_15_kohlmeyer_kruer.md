@@ -148,3 +148,6 @@ On 27 September 2026 the site's curator, Thomas Bloom, posted the claim on the
 erdosproblems.com proof-claims forum so that it could be discussed. The curator
 stated that they had not verified the proof, did not claim the formalization
 correct and did not endorse the platform. The site labeled the problem OPEN.
+
+**Replay record.**
+[[../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0108_8c083793|The receipt of the kernel replay]].

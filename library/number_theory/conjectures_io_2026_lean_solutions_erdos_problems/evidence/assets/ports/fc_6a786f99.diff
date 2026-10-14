@@ -1,0 +1,494 @@
+diff --git a/FormalConjecturesForMathlib/Algebra/Polynomial/HasseDeriv.lean b/FormalConjecturesForMathlib/Algebra/Polynomial/HasseDeriv.lean
+--- a/FormalConjecturesForMathlib/Algebra/Polynomial/HasseDeriv.lean
++++ b/FormalConjecturesForMathlib/Algebra/Polynomial/HasseDeriv.lean
+@@ -17,10 +17,3 @@ module
+ 
+ 
+ public import Mathlib.Algebra.Polynomial.HasseDeriv
+-
+-@[expose] public section
+-
+-open scoped Polynomial in -- probably removable in the mathlib file
+-theorem Polynomial.hasseDeriv_map {R S : Type*} [Semiring R] [Semiring S]
+-    {f : R →+* S} {k : ℕ} {p : R[X]} : (p.map f).hasseDeriv k = (p.hasseDeriv k).map f := by
+-  ext; simp [hasseDeriv_coeff]
+diff --git a/FormalConjecturesForMathlib/Combinatorics/Additive/VCDim.lean b/FormalConjecturesForMathlib/Combinatorics/Additive/VCDim.lean
+--- a/FormalConjecturesForMathlib/Combinatorics/Additive/VCDim.lean
++++ b/FormalConjecturesForMathlib/Combinatorics/Additive/VCDim.lean
+@@ -113,7 +113,7 @@ protected lemma HasMulVCNDimAtMost.univ : HasMulVCNDimAtMost (.univ : Set G) n d
+ lemma hasMulVCNDimAtMost_one : HasMulVCNDimAtMost A 1 d ↔ HasMulVCDimAtMost A d := by
+   symm
+   refine (Equiv.funUnique ..).symm.forall_congr fun x ↦
+-    ((Equiv.Set.congr <| Equiv.funUnique ..).arrowCongr <| .refl _).symm.forall_congr fun y ↦
++    ((Equiv.setCongr <| Equiv.funUnique ..).arrowCongr <| .refl _).symm.forall_congr fun y ↦
+     not_congr <| (Equiv.funUnique ..).symm.forall_congr fun i ↦
+-    (Equiv.Set.congr <| Equiv.funUnique ..).symm.forall_congr fun s ↦ ?_
++    (Equiv.setCongr <| Equiv.funUnique ..).symm.forall_congr fun s ↦ ?_
+   simp [Set.image_image, funext_iff]
+diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Residue.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Residue.lean
+--- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Residue.lean
++++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Residue.lean
+@@ -73,7 +73,6 @@ termination_by l => l.length
+ decreasing_by
+   simp_wf
+   rw [havelHakimiStep_length_cons]
+-  omega
+ 
+ /--
+ Computes the residue of a graph `G`, i.e. the number of zeros remaining after iteratively
+diff --git a/FormalConjecturesForMathlib/Computability/TuringMachine/BusyBeavers.lean b/FormalConjecturesForMathlib/Computability/TuringMachine/BusyBeavers.lean
+--- a/FormalConjecturesForMathlib/Computability/TuringMachine/BusyBeavers.lean
++++ b/FormalConjecturesForMathlib/Computability/TuringMachine/BusyBeavers.lean
+@@ -220,11 +220,16 @@ noncomputable def haltingNumber : ENat :=
+ theorem haltingNumber_def (n : ℕ) (hn : ∃ a, M.multiStep (init []) n = some a)
+     (ha' : M.multiStep (init []) (n + 1) = none) :
+     M.haltingNumber = n := by
+-  refine IsGLB.sInf_eq (IsLeast.isGLB ⟨⟨n, by rwa [HaltsAfter], rfl⟩, fun m ⟨k, _, _⟩ ↦ ?_⟩)
+-  cases m
+-  · exact le_top
+-  · by_contra! hc
+-    simp_all [multiStep_eq_none_mono ‹_› (show k + 1 ≤ n by aesop)]
++  refine IsGLB.sInf_eq (IsLeast.isGLB ⟨⟨n, by rwa [HaltsAfter], rfl⟩,
++    fun m hm ↦ ?_⟩)
++  rcases hm with ⟨k, hk, hkm⟩
++  subst m
++  have hnk : n ≤ k := by
++    by_contra h
++    have hnone := multiStep_eq_none_mono hk (Nat.succ_le_of_lt (Nat.lt_of_not_ge h))
++    obtain ⟨a, ha⟩ := hn
++    simp [ha] at hnone
++  exact_mod_cast hnk
+ 
+ end Machine
+ 
+diff --git a/FormalConjecturesForMathlib/Data/Finset/Powerset.lean b/FormalConjecturesForMathlib/Data/Finset/Powerset.lean
+--- a/FormalConjecturesForMathlib/Data/Finset/Powerset.lean
++++ b/FormalConjecturesForMathlib/Data/Finset/Powerset.lean
+@@ -24,11 +24,4 @@ variable {α : Type*} [DecidableEq α] {s t : Finset α} {n : ℕ}
+ 
+ attribute [gcongr] powersetCard_mono
+ 
+-lemma powersetCard_inter : powersetCard n (s ∩ t) = powersetCard n s ∩ powersetCard n t := by
+-  ext; simpa [subset_inter_iff] using and_and_right
+-
+-@[simp] lemma disjoint_powersetCard_powersetCard :
+-    Disjoint (powersetCard n s) (powersetCard n t) ↔ #(s ∩ t) < n := by
+-  simp [disjoint_iff_inter_eq_empty, ← powersetCard_inter]
+-
+ end Finset
+diff --git a/FormalConjecturesForMathlib/Data/Nat/MaxPrimeFac.lean b/FormalConjecturesForMathlib/Data/Nat/MaxPrimeFac.lean
+--- a/FormalConjecturesForMathlib/Data/Nat/MaxPrimeFac.lean
++++ b/FormalConjecturesForMathlib/Data/Nat/MaxPrimeFac.lean
+@@ -15,171 +15,25 @@ limitations under the License.
+ -/
+ module
+ 
+-public import Mathlib.Data.Nat.PrimeFin
+-public import Mathlib.Order.Lattice.Nat
++public import Mathlib.Data.Nat.MaxPrimeFac
+ 
+ @[expose] public section
+ 
+ namespace Nat
+ 
+-/-- The greatest prime divisor of a natural number `n > 1`.
+-
+-Takes the junk value `0` for `n = 0` and `1` for `n = 1`. -/
+-def maxPrimeFac (n : ℕ) : ℕ := if n = 1 then 1 else n.primeFactorsList.getLastI
+-
+-example : maxPrimeFac 0 = 0 := by decide +kernel
+-example : maxPrimeFac 1 = 1 := rfl
+-example : maxPrimeFac 12 = 3 := by decide +kernel
+-example : maxPrimeFac 97 = 97 := by decide +kernel
+-example : maxPrimeFac 125 = 5 := by decide +kernel
+-example : maxPrimeFac 360 = 5 := by decide +kernel
+-
+-@[simp]
+-lemma maxPrimeFac_zero :
+-    maxPrimeFac 0 = 0 := by
+-  simp [maxPrimeFac, List.getLastI]
+-
+-@[simp]
+-lemma maxPrimeFac_one :
+-    maxPrimeFac 1 = 1 := rfl
+-
+-lemma prime_maxPrimeFac_of_one_lt (n : ℕ) (h : 1 < n) :
+-    Prime (maxPrimeFac n) := by
+-  have hn : n.primeFactorsList ≠ [] := (primeFactorsList_ne_nil n).2 h
+-  have hmem : n.primeFactorsList.getLast hn ∈ n.primeFactorsList := List.getLast_mem hn
+-  have hprime : Prime (n.primeFactorsList.getLast hn) := prime_of_mem_primeFactorsList hmem
+-  simpa [maxPrimeFac, h.ne', List.getLastI_eq_getLast?_getD,
+-    List.getLast?_eq_getLast_of_ne_nil hn] using hprime
+-
+-/-- The greatest prime factor of a natural number divides it. -/
+-lemma maxPrimeFac_dvd : ∀ {n : ℕ}, maxPrimeFac n ∣ n
+-  | 0 => by simp
+-  | 1 => by simp
+-  | n + 2 => by
+-    have hn : 1 < n + 2 := by omega
+-    have hlist : (n + 2).primeFactorsList ≠ [] :=
+-      (primeFactorsList_ne_nil (n + 2)).2 hn
+-    have hmem : (n + 2).primeFactorsList.getLast hlist ∈ (n + 2).primeFactorsList :=
+-      List.getLast_mem hlist
+-    have hdvd : (n + 2).primeFactorsList.getLast hlist ∣ n + 2 :=
+-      dvd_of_mem_primeFactorsList hmem
+-    simpa [maxPrimeFac, hn.ne', List.getLastI_eq_getLast?_getD,
+-      List.getLast?_eq_getLast_of_ne_nil hlist] using hdvd
+-
+-/-- Every prime factor of a nonzero natural number is at most its greatest prime factor. -/
+-lemma le_maxPrimeFac
+-    {n p : ℕ} (hn : n ≠ 0) (hp : p.Prime) (h_dvd : p ∣ n) :
+-    p ≤ maxPrimeFac n := by
+-  have hmem : p ∈ n.primeFactorsList := (mem_primeFactorsList hn).2 ⟨hp, h_dvd⟩
+-  have hlist : n.primeFactorsList ≠ [] := List.ne_nil_of_mem hmem
+-  have hn_one : n ≠ 1 := ((primeFactorsList_ne_nil n).1 hlist).ne'
+-  have hp_last : p ≤ n.primeFactorsList.getLast hlist :=
+-    (primeFactorsList_sorted n).pairwise.rel_getLast hmem
+-  simpa [maxPrimeFac, hn_one, List.getLastI_eq_getLast?_getD,
+-    List.getLast?_eq_getLast_of_ne_nil hlist] using hp_last
+-
+-lemma maxPrimeFac_eq_of_dvd_of_le
+-    (n p : ℕ) (hn : 0 < n) (hp : p.Prime) (h_dvd : p ∣ n) (h_le : maxPrimeFac n ≤ p) :
+-    maxPrimeFac n = p := by
+-  exact le_antisymm h_le (le_maxPrimeFac hn.ne' hp h_dvd)
+-
+-/-- The greatest prime factor of a prime is the prime itself. -/
+-@[simp]
+-lemma Prime.maxPrimeFac_eq_self {p : ℕ} (hp : p.Prime) :
+-    maxPrimeFac p = p := by
+-  apply maxPrimeFac_eq_of_dvd_of_le p p hp.pos hp (dvd_refl p)
+-  exact Nat.le_of_dvd hp.pos maxPrimeFac_dvd
+-
+-/-- The fixed points of `maxPrimeFac` are zero, one, and the primes. -/
+-@[simp]
+-lemma maxPrimeFac_eq_self_iff {n : ℕ} :
+-    maxPrimeFac n = n ↔ n ≤ 1 ∨ n.Prime := by
+-  constructor
+-  · intro h
+-    by_cases hn : n ≤ 1
+-    · exact Or.inl hn
+-    · exact Or.inr <| h ▸ prime_maxPrimeFac_of_one_lt n (lt_of_not_ge hn)
+-  · rintro (hn | hn)
+-    · obtain rfl | rfl := Nat.le_one_iff_eq_zero_or_eq_one.mp hn <;> simp
+-    · exact hn.maxPrimeFac_eq_self
+-
+-/-- The greatest prime factor of a product of nonzero natural numbers is the maximum of their
+-greatest prime factors. -/
+-lemma maxPrimeFac_mul {m n : ℕ} (hm : m ≠ 0) (hn : n ≠ 0) :
+-    maxPrimeFac (m * n) = max (maxPrimeFac m) (maxPrimeFac n) := by
+-  obtain rfl | hm_lt : m = 1 ∨ 1 < m := by omega
+-  · have hle : 1 ≤ maxPrimeFac n := by
+-      obtain rfl | hn_lt : n = 1 ∨ 1 < n := by omega
+-      · simp
+-      · exact (prime_maxPrimeFac_of_one_lt n hn_lt).one_lt.le
+-    simp [hle]
+-  obtain rfl | hn_lt : n = 1 ∨ 1 < n := by omega
+-  · have hle : 1 ≤ maxPrimeFac m := (prime_maxPrimeFac_of_one_lt m hm_lt).one_lt.le
+-    simp [hle]
+-  have hmn_lt : 1 < m * n := Nat.one_lt_mul_iff.mpr
+-    ⟨zero_lt_of_lt hm_lt, zero_lt_of_lt hn_lt, Or.inl hm_lt⟩
+-  apply le_antisymm
+-  · have hp : Prime (maxPrimeFac (m * n)) := prime_maxPrimeFac_of_one_lt (m * n) hmn_lt
+-    rcases hp.dvd_mul.mp maxPrimeFac_dvd with hpm | hpn
+-    · exact (le_maxPrimeFac hm hp hpm).trans (le_max_left _ _)
+-    · exact (le_maxPrimeFac hn hp hpn).trans (le_max_right _ _)
+-  · apply max_le
+-    · have hp : Prime (maxPrimeFac m) := prime_maxPrimeFac_of_one_lt m hm_lt
+-      apply le_maxPrimeFac (mul_ne_zero hm hn) hp
+-      exact dvd_mul_of_dvd_left maxPrimeFac_dvd n
+-    · have hp : Prime (maxPrimeFac n) := prime_maxPrimeFac_of_one_lt n hn_lt
+-      apply le_maxPrimeFac (mul_ne_zero hm hn) hp
+-      exact dvd_mul_of_dvd_right maxPrimeFac_dvd m
+-
+-/-- The greatest prime factor of a nonzero power is the greatest prime factor of its base. -/
+-@[simp]
+-lemma maxPrimeFac_pow {k : ℕ} (hk : k ≠ 0) (n : ℕ) :
+-    maxPrimeFac (n ^ k) = maxPrimeFac n :=
+-  match k, hk with
+-  | k + 1, _ => by
+-    by_cases hn : n = 0
+-    · subst n
+-      simp
+-    induction k with
+-    | zero => simp
+-    | succ k ih =>
+-        rw [pow_succ, maxPrimeFac_mul (pow_ne_zero _ hn) hn, ih (by omega)]
+-        simp
+-
+-/-- The greatest prime factor of a natural number is at most that number. -/
+-lemma maxPrimeFac_le : ∀ {n : ℕ}, maxPrimeFac n ≤ n
+-  | 0 => by simp
+-  | 1 => by simp
+-  | n + 2 => Nat.le_of_dvd (by omega) maxPrimeFac_dvd
+-
+-/-- The greatest prime factor of a natural number greater than one is the least upper bound of
+-its prime factors. -/
+-lemma isLeast_maxPrimeFac {n : ℕ} (hn : 1 < n) :
+-    IsLeast (upperBounds {p : ℕ | p.Prime ∧ p ∣ n}) (maxPrimeFac n) := by
+-  constructor
+-  · rintro p ⟨hp, h_dvd⟩
+-    exact le_maxPrimeFac (zero_lt_of_lt hn).ne' hp h_dvd
+-  · intro b hb
+-    exact hb ⟨prime_maxPrimeFac_of_one_lt n hn, maxPrimeFac_dvd⟩
+-
+-/-- Away from `n = 1`, the computable greatest prime factor agrees with its supremum
+-characterization. -/
+-lemma maxPrimeFac_eq_sSup {n : ℕ} (hn_one : n ≠ 1) :
+-    maxPrimeFac n = sSup {p : ℕ | p.Prime ∧ p ∣ n} := by
+-  obtain rfl | hn : n = 0 ∨ 1 < n := by lia
+-  · simpa using (Set.Infinite.Nat.sSup_eq_zero infinite_setOfPred_prime).symm
+-  · have h_lub : IsLUB {p : ℕ | p.Prime ∧ p ∣ n} (maxPrimeFac n) :=
+-      isLeast_maxPrimeFac hn
+-    exact (h_lub.csSup_eq
+-      ⟨maxPrimeFac n, prime_maxPrimeFac_of_one_lt n hn, maxPrimeFac_dvd⟩).symm
+-
+-@[simp]
+-lemma one_lt_maxPrimeFac_iff (n : ℕ) :
+-    1 < maxPrimeFac n ↔ 1 < n := by
+-  rcases lt_trichotomy n 1 with hn | rfl | hn
+-  · simp only [lt_one_iff] at hn
+-    simp [hn]
+-  · simp
+-  · simpa [hn] using (prime_maxPrimeFac_of_one_lt n hn).one_lt
++/-- The upstream implementation agrees with the previously pinned definition, including 0 and 1. -/
++lemma maxPrimeFac_eq_legacy (n : ℕ) :
++    maxPrimeFac n = if n = 1 then 1 else n.primeFactorsList.getLastI := by
++  by_cases h : n = 1
++  · subst n
++    simp
++  · obtain rfl | hn : n = 0 ∨ 1 < n := by omega
++    · simp [maxPrimeFac, List.getLastI]
++    · have hlist := (primeFactorsList_ne_nil n).2 hn
++      cases hs : n.primeFactorsList with
++      | nil => exact (hlist hs).elim
++      | cons a as =>
++        simp [maxPrimeFac, h, hs, List.getLastI_eq_getLast?_getD,
++          List.getLastD_eq_getLast?, List.getLast?_eq_getLast_of_ne_nil (List.cons_ne_nil a as)]
+ 
+ end Nat
+diff --git a/FormalConjecturesForMathlib/Data/Nat/Prime/Finset.lean b/FormalConjecturesForMathlib/Data/Nat/Prime/Finset.lean
+--- a/FormalConjecturesForMathlib/Data/Nat/Prime/Finset.lean
++++ b/FormalConjecturesForMathlib/Data/Nat/Prime/Finset.lean
+@@ -15,7 +15,7 @@ limitations under the License.
+ -/
+ module
+ 
+-public import Batteries.Data.Nat.Gcd
++public import Mathlib.Data.Nat.GCD.Basic
+ public import Mathlib.Algebra.GCDMonoid.Finset
+ public import Mathlib.Algebra.GCDMonoid.Nat
+ 
+diff --git a/FormalConjecturesForMathlib/Data/Sym/Sym2.lean b/FormalConjecturesForMathlib/Data/Sym/Sym2.lean
+--- a/FormalConjecturesForMathlib/Data/Sym/Sym2.lean
++++ b/FormalConjecturesForMathlib/Data/Sym/Sym2.lean
+@@ -16,13 +16,3 @@ limitations under the License.
+ module
+ 
+ public import Mathlib.Data.Sym.Sym2
+-
+-public section
+-
+-namespace Sym2
+-variable {α : Type*} {a : α}
+-
+-@[simp] lemma fst_out_mk_self : (Quot.out s(a, a)).1 = a := by simpa using out_fst_mem s(a, a)
+-@[simp] lemma snd_out_mk_self : (Quot.out s(a, a)).2 = a := by simpa using out_snd_mem s(a, a)
+-
+-end Sym2
+diff --git a/FormalConjecturesForMathlib/SetTheory/Cardinal/Arithmetic.lean b/FormalConjecturesForMathlib/SetTheory/Cardinal/Arithmetic.lean
+--- a/FormalConjecturesForMathlib/SetTheory/Cardinal/Arithmetic.lean
++++ b/FormalConjecturesForMathlib/SetTheory/Cardinal/Arithmetic.lean
+@@ -16,31 +16,3 @@ limitations under the License.
+ module
+ 
+ public import Mathlib.SetTheory.Cardinal.Arithmetic
+-
+-@[expose] public section
+-
+-namespace Cardinal
+-variable {α : Type*} {s t : Set α}
+-
+-@[simp] lemma aleph0_le_mk_set : ℵ₀ ≤ #s ↔ s.Infinite := by
+-  rw [aleph0_le_mk_iff, Set.infinite_coe_iff]
+-
+-@[simp]
+-lemma mk_sdiff_eq_left' (hs : s.Infinite) (hst : #↑(s ∩ t) < #s) : #↑(s \ t) = #s := by
+-  refine (mk_le_mk_of_subset Set.sdiff_subset).eq_of_not_lt
+-    fun h ↦ (add_lt_of_lt (by simpa) hst h).not_ge ?_
+-  grw [← mk_union_le .., Set.inter_union_sdiff]
+-
+-@[simp]
+-lemma mk_sdiff_eq_left (hs : s.Infinite) (hts : #t < #s) : #↑(s \ t) = #s :=
+-  mk_sdiff_eq_left' hs <| hts.trans_le' <| mk_subtype_mono Set.inter_subset_right
+-
+-@[simp]
+-lemma mk_sdiff_eq_left_of_finite' (hs : s.Infinite) (hst : (s ∩ t).Finite) : #↑(s \ t) = #s :=
+-  mk_sdiff_eq_left' hs <| (aleph0_le_mk_set.2 hs).trans_lt' <| by simpa
+-
+-@[simp]
+-lemma mk_sdiff_eq_left_of_finite (hs : s.Infinite) (ht : t.Finite) : #↑(s \ t) = #s :=
+-  mk_sdiff_eq_left hs <| (aleph0_le_mk_set.2 hs).trans_lt' <| by simpa
+-
+-end Cardinal
+diff --git a/FormalConjecturesUtil/Linters/ImportLinter.lean b/FormalConjecturesUtil/Linters/ImportLinter.lean
+--- a/FormalConjecturesUtil/Linters/ImportLinter.lean
++++ b/FormalConjecturesUtil/Linters/ImportLinter.lean
+@@ -41,6 +41,15 @@ register_option linter.style.imports : Bool := {
+ 
+ namespace ImportLinter
+ 
++/-- Extract import identifiers while retaining their source locations for lint messages. -/
++private def getImportIds (header : TSyntax ``Parser.Module.header) : Array Syntax :=
++  match header with
++  | `(Parser.Module.header| $[module]? $[prelude]? $imports*) =>
++    imports.filterMap fun
++      | `(Parser.Module.import| $[public]? $[meta]? import $[all]? $n:ident) => some n.raw
++      | _ => none
++  | _ => #[]
++
+ /-- Checks an array of import identifiers against Formal Conjectures import rules. -/
+ def checkImports (importIds : Array Syntax) (isFormalConjecturesModule : Bool := true)
+     (firstCmdStx : Syntax := .missing) : CommandElabM Unit := do
+@@ -83,7 +92,7 @@ def importLinter : Linter where run := withSetOptionIn fun stx ↦ do
+ 
+   let fm ← getFileMap
+   let (headerStx, _) ← Parser.parseHeader { inputString := fm.source, fileName := fileName, fileMap := fm }
+-  let importIds := Mathlib.Linter.getImportIds headerStx
++  let importIds := getImportIds headerStx
+   checkImports importIds (isFormalConjecturesModule := true) stx
+ 
+ initialize addLinter importLinter
+@@ -93,7 +102,7 @@ elab "#check_imports " headerStr:str : command => do
+   let s := headerStr.getString
+   let fm : FileMap := { source := s, positions := #[0] }
+   let (headerStx, _) ← Parser.parseHeader { inputString := s, fileName := "test.lean", fileMap := fm }
+-  let importIds := Mathlib.Linter.getImportIds headerStx
++  let importIds := getImportIds headerStx
+   checkImports importIds (isFormalConjecturesModule := true) headerStr
+ 
+ end ImportLinter
+diff --git a/lake-manifest.json b/lake-manifest.json
+--- a/lake-manifest.json
++++ b/lake-manifest.json
+@@ -1,21 +1,21 @@
+ {"version": "1.2.0",
+- "packagesDir": ".lake/packages",
++ "packagesDir": "../packages",
+  "packages":
+  [{"url": "https://github.com/leanprover-community/mathlib4",
+    "type": "git",
+    "subDir": null,
+-   "scope": "leanprover-community",
+-   "rev": "0df444a360eaa60ab8c11dca51a86af692955474",
++   "scope": "",
++   "rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "name": "mathlib",
+    "manifestFile": "lake-manifest.json",
+-   "inputRev": "v4.33.1",
++   "inputRev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "inherited": false,
+    "configFile": "lakefile.lean"},
+   {"url": "https://github.com/leanprover-community/plausible",
+    "type": "git",
+    "subDir": null,
+    "scope": "leanprover-community",
+-   "rev": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
++   "rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+    "name": "plausible",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "main",
+@@ -25,7 +25,7 @@
+    "type": "git",
+    "subDir": null,
+    "scope": "leanprover-community",
+-   "rev": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
++   "rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+    "name": "LeanSearchClient",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "main",
+@@ -35,7 +35,7 @@
+    "type": "git",
+    "subDir": null,
+    "scope": "leanprover-community",
+-   "rev": "16f02aa7642864af59f1ff0e384a015994db9118",
++   "rev": "e928b72544873815af278d38681b31c0293588e3",
+    "name": "importGraph",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "main",
+@@ -45,7 +45,7 @@
+    "type": "git",
+    "subDir": null,
+    "scope": "leanprover-community",
+-   "rev": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
++   "rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+    "name": "proofwidgets",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "main",
+@@ -55,7 +55,7 @@
+    "type": "git",
+    "subDir": null,
+    "scope": "leanprover-community",
+-   "rev": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
++   "rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+    "name": "aesop",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "master",
+@@ -65,7 +65,7 @@
+    "type": "git",
+    "subDir": null,
+    "scope": "leanprover-community",
+-   "rev": "92c15be17b7caf78c2ad767ec40f89052d908d81",
++   "rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+    "name": "Qq",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "master",
+@@ -75,7 +75,7 @@
+    "type": "git",
+    "subDir": null,
+    "scope": "leanprover-community",
+-   "rev": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
++   "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+    "name": "batteries",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "main",
+@@ -85,10 +85,10 @@
+    "type": "git",
+    "subDir": null,
+    "scope": "leanprover",
+-   "rev": "6130a47896ce867c6a4a55373441e59e565bad0f",
++   "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+    "name": "Cli",
+    "manifestFile": "lake-manifest.json",
+-   "inputRev": "v4.33.0",
++   "inputRev": "v4.34.0",
+    "inherited": true,
+    "configFile": "lakefile.toml"}],
+  "name": "formal_conjectures",
+diff --git a/lakefile.toml b/lakefile.toml
+--- a/lakefile.toml
++++ b/lakefile.toml
+@@ -13,6 +13,7 @@ name = "formal_conjectures"
+ keywords = ["math"]
+ defaultTargets = ["FormalConjectures", "FormalConjecturesUtil", "FormalConjecturesForMathlib"]
+ testDriver = "FormalConjecturesTest"
++packagesDir = "../packages"
+ 
+ [leanOptions]
+ # Pretty-prints `fun a ↦ b`
+@@ -29,8 +30,8 @@ weak.linter.style.openClassical = true
+ 
+ [[require]]
+ name = "mathlib"
+-scope = "leanprover-community"
+-rev = "v4.33.1"
++git = "https://github.com/leanprover-community/mathlib4"
++rev = "d13f23b723b8a846827a245b89c10fc7d3f11612"
+ 
+ # We make this a separate library so that we can apply different lean options.
+ [[lean_lib]]
+diff --git a/lean-toolchain b/lean-toolchain
+--- a/lean-toolchain
++++ b/lean-toolchain
+@@ -1 +1 @@
+-leanprover/lean4:v4.33.1
++leanprover/lean4:v4.34.1

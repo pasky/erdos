@@ -1,0 +1,8 @@
+--- a/Solution.lean
++++ b/Solution.lean
+@@ -11082 +11082 @@
+-  apply Finset.prod_le_prod
++  apply Finset.prod_le_prod₀
+@@ -17308 +17308 @@
+-      apply Finset.prod_le_prod
++      apply Finset.prod_le_prod₀

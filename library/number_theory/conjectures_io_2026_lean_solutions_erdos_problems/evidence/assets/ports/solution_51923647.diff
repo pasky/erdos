@@ -1,0 +1,103 @@
+--- a/Solution.lean
++++ b/Solution.lean
+@@ -18100 +18100 @@
+-        apply Finset.prod_le_prod
++        apply Finset.prod_le_prod₀
+@@ -18337 +18337 @@
+-      apply Finset.prod_le_prod
++      apply Finset.prod_le_prod₀
+@@ -18380 +18380 @@
+-  apply Finset.prod_le_prod_of_subset_of_one_le
++  apply Finset.prod_le_prod_of_subset_of_one_le₀
+@@ -22268 +22268 @@
+-  exact Finset.prod_le_prod (fun _ _ => Nat.zero_le _) fun p _ =>
++  exact Finset.prod_le_prod₀ (fun _ _ => Nat.zero_le _) fun p _ =>
+@@ -22742 +22742 @@
+-      apply Finset.prod_le_prod (fun _ _ => Nat.zero_le _)
++      apply Finset.prod_le_prod₀ (fun _ _ => Nat.zero_le _)
+@@ -23370 +23370 @@
+-      apply Finset.prod_le_prod
++      apply Finset.prod_le_prod₀
+@@ -25701 +25701 @@
+-      apply Finset.prod_le_prod
++      apply Finset.prod_le_prod₀
+@@ -27238 +27238 @@
+-  exact Finset.prod_le_prod (fun _ _ => Nat.zero_le _) fun p hp' =>
++  exact Finset.prod_le_prod₀ (fun _ _ => Nat.zero_le _) fun p hp' =>
+@@ -27710 +27710 @@
+-      apply Finset.prod_le_prod (fun _ _ => Nat.zero_le _)
++      apply Finset.prod_le_prod₀ (fun _ _ => Nat.zero_le _)
+@@ -28584 +28584 @@
+-  exact Finset.prod_le_prod (fun _ _ => Nat.zero_le _) fun p hp' =>
++  exact Finset.prod_le_prod₀ (fun _ _ => Nat.zero_le _) fun p hp' =>
+@@ -28709 +28709 @@
+-      apply Finset.prod_le_prod
++      apply Finset.prod_le_prod₀
+@@ -36164 +36164 @@
+-  Finset.one_le_prod (fun j _ => hξ j)
++  Finset.one_le_prod₀ (fun j _ => hξ j)
+@@ -40454 +40454 @@
+-    Finset.prod_le_prod
++    Finset.prod_le_prod₀
+@@ -40627 +40627 @@
+-    Finset.prod_le_prod
++    Finset.prod_le_prod₀
+@@ -41809 +41809 @@
+-  apply one_le_prod
++  apply one_le_prod₀
+@@ -41844 +41844 @@
+-  have hE : 1 ≤ E := one_le_prod fun _ _ => one_le_supportedMass _
++  have hE : 1 ≤ E := one_le_prod₀ fun _ _ => one_le_supportedMass _
+@@ -41851,2 +41851,2 @@
+-        prod_le_prod (fun _ _ => binMass_nonneg _ _) (fun _ _ => binMass_le_supportedMass _ _)
+-      _ ≤ E := prod_le_prod_of_subset_of_one_le
++        prod_le_prod₀ (fun _ _ => binMass_nonneg _ _) (fun _ _ => binMass_le_supportedMass _ _)
++      _ ≤ E := prod_le_prod_of_subset_of_one_le₀
+@@ -41859 +41859 @@
+-        prod_le_prod (fun _ _ => binMass_nonneg _ _)
++        prod_le_prod₀ (fun _ _ => binMass_nonneg _ _)
+@@ -42113 +42113 @@
+-        (prod_le_prod (fun k _ => sum_nonneg fun r _ => invTotient_nonneg r) hGmass)
++        (prod_le_prod₀ (fun k _ => sum_nonneg fun r _ => invTotient_nonneg r) hGmass)
+@@ -42315 +42315 @@
+-  have h := prod_le_prod (s := (univ : Finset (Fin L)))
++  have h := prod_le_prod₀ (s := (univ : Finset (Fin L)))
+@@ -42611 +42611 @@
+-        prod_le_prod_of_subset_of_le_one
++        prod_le_prod_of_subset_of_le_one₀
+@@ -42614 +42614 @@
+-      _ ≤ _ := prod_le_prod (fun m _ => (lt_min zero_lt_one (hs m)).le)
++      _ ≤ _ := prod_le_prod₀ (fun m _ => (lt_min zero_lt_one (hs m)).le)
+@@ -42627 +42627 @@
+-        apply prod_le_prod (fun _ _ => Real.exp_nonneg _)
++        apply prod_le_prod₀ (fun _ _ => Real.exp_nonneg _)
+@@ -43304 +43304 @@
+-    have h := prod_le_prod_of_subset_of_le_one (f := fun j => scaleProduct ξ (j+1)) hsub
++    have h := prod_le_prod_of_subset_of_le_one₀ (f := fun j => scaleProduct ξ (j+1)) hsub
+@@ -43561 +43561 @@
+-    _ ≤ H L (tightParameter L M) := prod_le_prod
++    _ ≤ H L (tightParameter L M) := prod_le_prod₀
+@@ -48202 +48202 @@
+-      prod_le_prod (by intro idx _; exact Nat.cast_nonneg _) (by intro idx _; exact hp idx.succ (by simp[Erdos416Proof.FordReciprocal.primeLabel_one, Erdos416Proof.logLog_growthIntervalEndpoint, Erdos416Proof.logLog_growthNormalityScale, Erdos416Proof.logLog_growthTailEndpoint, Erdos416Proof.logLog_normalityGridPoint] ))
++      prod_le_prod₀ (by intro idx _; exact Nat.cast_nonneg _) (by intro idx _; exact hp idx.succ (by simp[Erdos416Proof.FordReciprocal.primeLabel_one, Erdos416Proof.logLog_growthIntervalEndpoint, Erdos416Proof.logLog_growthNormalityScale, Erdos416Proof.logLog_growthTailEndpoint, Erdos416Proof.logLog_normalityGridPoint] ))
+@@ -49922 +49922 @@
+-  apply prod_le_prod (fun j _ => zero_le_one.trans (hξ j))
++  apply prod_le_prod₀ (fun j _ => zero_le_one.trans (hξ j))
+@@ -50506 +50506 @@
+-      apply Finset.prod_le_prod
++      apply Finset.prod_le_prod₀
+@@ -51281 +51281 @@
+-    apply Finset.prod_le_prod_of_subset_of_one_le
++    apply Finset.prod_le_prod_of_subset_of_one_le₀
+@@ -51881 +51881 @@
+-      apply Finset.prod_le_prod
++      apply Finset.prod_le_prod₀
+@@ -52019 +52019 @@
+-      apply Finset.prod_le_prod
++      apply Finset.prod_le_prod₀
+@@ -57310 +57310 @@
+-  apply Finset.prod_le_prod
++  apply Finset.prod_le_prod₀
+@@ -62760 +62760 @@
+-        Finset.prod_le_prod (fun _ _ => Nat.cast_nonneg _) (fun idx _ => Q.upper idx)
++        Finset.prod_le_prod₀ (fun _ _ => Nat.cast_nonneg _) (fun idx _ => Q.upper idx)
