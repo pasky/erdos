@@ -171,10 +171,13 @@ which refutes the conjecture of completeness for every $t>0$ below the golden
 ratio while leaving the classification there open. Only Graham's paper is
 refereed; the 2026 results are preprints, a shared note and merged catalog
 statements with third-party Lean proofs, none reviewed or accepted by the site.
+Geneson's proof of Theorem 9 was reviewed internally and graded sound, and
+acceptance of his claim on that review is pending until the project's reviewer
+signs off.
 
 **Search.** The site's thread and proof-claims tab, the formal-conjectures
-file and the linked library cards; no independent assessment of proof
-coverage.
+file and the linked library cards; the internal review of Geneson's Theorem 9
+is the only independent assessment of proof coverage.
 
 ## Known Results
 

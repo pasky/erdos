@@ -6,7 +6,10 @@ desc: |
   at edge probability $\lambda/n$ with $\lambda>1$, the supercritical case the
   site's label credited. The result is correct, but the Statement has edge
   probability $1/n$, so it does not count toward the problem's standing.
-authors: []
+authors:
+- J. Komlós
+- M. Sulyok
+- E. Szemerédi
 status: rejected
 claim: proved
 scope: full
