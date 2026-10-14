@@ -86,7 +86,7 @@ print (pp. 1--9). The proofs of Theorem 1, Lemma 2 and Lemma 6 were read; the
 proof of Theorem 4 rests on an external theorem of Chen, Ye and Zheng that was
 not checked here.
 
-Source: <https://arxiv.org/abs/2605.06697>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2605.06697v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2605.06697), every other right
 reserved.
 

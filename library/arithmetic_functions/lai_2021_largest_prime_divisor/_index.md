@@ -23,8 +23,8 @@ for every nonzero polynomial shift of n!.
 
 ***
 
-Li Lai, *On the largest prime divisor of* $n!+1$, arXiv:2103.14894v1
-(27 March 2021).
+Li Lai, *On the largest prime divisor of* $n!+1$,
+[arXiv:2103.14894v1](https://arxiv.org/abs/2103.14894v1) (27 March 2021).
 
 The selected arXiv v1 PDF has 11
 physical pages. It is a factorial-sequence paper; it does not concern the

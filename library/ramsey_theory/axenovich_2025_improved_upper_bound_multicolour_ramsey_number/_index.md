@@ -79,7 +79,7 @@ the parametrization $b=2+\delta$, the small quantity
 $\delta\sim1/(k2^{k-1})$ is the base increment needed to put $(2+\delta)^k$
 at that host scale; it is not the host-order excess, which is exactly $1$.
 
-Sources: <https://arxiv.org/abs/2510.17981> and
+Sources: <https://arxiv.org/abs/2510.17981v1> and
 <https://doi.org/10.1016/j.jctb.2026.04.005>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0554/_index|#554]] and

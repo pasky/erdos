@@ -59,7 +59,7 @@ sphere, which the paper cites as known, this gives Proposition 3.1 delta_S(N)
 >> N^(1/3)/log N, against the upper bound delta_S(N) << N^(1/2) from points on
 a great circle.
 
-Source: <https://arxiv.org/abs/1211.1776>.
+Source: <https://arxiv.org/abs/1211.1776v1>.
 
 Read status: claims checked for Propositions 1.2, 2.1 and 3.1, Remark 2.2,
 Conjecture 2.3 and Lemma 3.2, each read clause by clause on the page images

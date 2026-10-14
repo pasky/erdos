@@ -41,7 +41,7 @@ distortion method of Balister, Bollobas, Morris, Sahasrabudhe and Tiba together
 with ideas of E. Lewis. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2407.15280), every other right reserved.
 
-Source: <https://arxiv.org/abs/2407.15280>.
+Source: <https://arxiv.org/abs/2407.15280v1>.
 
 **Results.**
 

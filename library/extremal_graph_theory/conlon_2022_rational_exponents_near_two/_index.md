@@ -36,7 +36,7 @@ with earlier cases then yields Theorem 1.2. It is cited for problem 571, which
 is exactly the rational exponents conjecture, as the state of the art near
 exponent two.
 
-Source: <https://arxiv.org/abs/2203.03375>.
+Source: <https://arxiv.org/abs/2203.03375v2>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0571/_index|#571]]
 

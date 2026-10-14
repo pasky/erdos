@@ -57,7 +57,7 @@ Read status: claims checked. Theorem 1, Lemma 2, Definitions 3 to 5 and
 Theorem 9 were read clause by clause on pp. 2--6, and the proof of Theorem 9
 was read for structure on pp. 8--10. Nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/1207.1266>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1207.1266v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1207.1266), every other right
 reserved.
 

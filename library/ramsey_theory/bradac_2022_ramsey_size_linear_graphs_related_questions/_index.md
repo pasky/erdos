@@ -93,7 +93,7 @@ adjacent results. Neither Theorem 2, Theorem 3, nor Theorem 4 proves the
 problem's fixed-$G$ implication from the tree and clique tests to all
 no-isolate target graphs.
 
-Source: <https://arxiv.org/abs/2202.10388>.
+Source: <https://arxiv.org/abs/2202.10388v2>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0567/_index|#567]]: the site's $H_5$ is
 $K_4^*$; Theorem 3 settles it for bipartite targets, Theorem 4 covers every

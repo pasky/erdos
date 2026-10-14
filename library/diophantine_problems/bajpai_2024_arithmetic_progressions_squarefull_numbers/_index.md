@@ -85,7 +85,7 @@ two editions are:
 [author-hosted source](https://personal.math.ubc.ca/~bennett/BaBeCh-IJNT-2023.pdf).
 -
 arXiv v1, submitted February 6, 2023; manuscript dated February 8,
-27 pages; [arXiv:2302.03113v1](https://arxiv.org/abs/2302.03113).
+27 pages; [arXiv:2302.03113v1](https://arxiv.org/abs/2302.03113v1).
 
 The accepted manuscript replaces the introductory four-term example from
 v1 with a much smaller 190-digit example, changes the elliptic-curve point

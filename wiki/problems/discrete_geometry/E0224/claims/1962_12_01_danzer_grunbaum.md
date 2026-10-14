@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF01193107
   kind: paper
-  date: 1962-12-01
+  date: 1962-12
 - url: https://github.com/plby/lean-proofs/blob/f2462b2803ffb68bc22653db85065b7166b91283/src/v4.29.1/ErdosProblems/Erdos224.lean
   kind: formalization
 - url: https://github.com/SpringSense-Innovation-Institute/ai-for-math-lean/blob/6f5de08afc5620c6798b339860c0cc368f657734/erdos-problems/Erdos224.lean

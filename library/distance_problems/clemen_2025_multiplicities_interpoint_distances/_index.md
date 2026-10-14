@@ -108,7 +108,7 @@ shows that the smallest and the second largest distance can both occur more
 than n times, so neither of those two distances always supplies the second rare
 distance; the second question is not addressed.
 
-Source: <https://arxiv.org/abs/2505.04283>.
+Source: <https://arxiv.org/abs/2505.04283v5>.
 
 Read status: claims checked for the results listed below, read clause by clause
 on the page images of arXiv v5, whose printed page numbers equal its PDF pages;

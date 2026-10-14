@@ -70,7 +70,7 @@ clause on the page images of the edition named above (pp. 1--11); the proofs
 of Sections 3 and 4 followed for structure. The cited prime-chain bound and
 Heath-Brown's theorem were not read.
 
-Source: <https://arxiv.org/abs/0906.3380>.
+Source: <https://arxiv.org/abs/0906.3380v2>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0048/_index|#48]]:
 the first sentence of

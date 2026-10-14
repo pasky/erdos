@@ -71,7 +71,7 @@ mean that it does not by itself identify the exact best universal coefficient
 $c_k$. It is not a proof of the separate tree-and-clique criterion, and this
 source page does not claim that relationship.
 
-Source: <https://arxiv.org/abs/2603.25453>.
+Source: <https://arxiv.org/abs/2603.25453v2>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0569/_index|#569]]: Theorem 2
 bounds $r(C_{2k+1},G)$ for fixed $k\geq2$ by $2m(1+B_km^{-1/20})+p$, with an

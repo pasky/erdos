@@ -25,13 +25,13 @@ path all of whose edges share one label.
 ***
 
 Peng Zhang and Linqing Tang, “Minimum Label s-t Cut has Large Integrality
-Gaps,” arXiv:1908.11491v1 (2019).  An instance (Definition 1.1, p. 2) consists of a directed or
-undirected graph \(G=(V,E)\), terminals \(s,t\), and a label set \(L\), with
-each edge carrying a label.  A label s-t cut is a set \(L'\subseteq L\)
-such that deleting every edge whose label lies in \(L'\) disconnects \(s\)
-from \(t\); the objective is to minimize \(|L'|\). The arXiv record names
-arXiv's non-exclusive distribution license (arXiv:1908.11491), every other right
-reserved.
+Gaps,” [arXiv:1908.11491v1](https://arxiv.org/abs/1908.11491v1) (2019). An
+instance (Definition 1.1, p. 2) consists of a directed or undirected graph
+\(G=(V,E)\), terminals \(s,t\), and a label set \(L\), with each edge carrying a
+label. A label s-t cut is a set \(L'\subseteq L\) such that deleting every edge
+whose label lies in \(L'\) disconnects \(s\) from \(t\); the objective is to
+minimize \(|L'|\). The arXiv record names arXiv's non-exclusive distribution
+license (arXiv:1908.11491), every other right reserved.
 
 Write \(m=|E|\) and \(n=|V|\).  The paper studies two relaxations over the
 set of simple \(s\)-\(t\) paths: (LP1) asks each path to carry total weight at

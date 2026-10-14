@@ -73,7 +73,7 @@ Read status: claims checked for the results linked below, statements read
 clause by clause on the printed pages of arXiv v3; no proof is checked step by
 step, and Theorem 2.11 has no proof in the paper.
 
-Source: <https://arxiv.org/abs/1204.6595>.
+Source: <https://arxiv.org/abs/1204.6595v3>.
 
 **Bears on.**
 

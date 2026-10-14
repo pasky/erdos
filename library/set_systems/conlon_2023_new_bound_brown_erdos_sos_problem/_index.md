@@ -63,7 +63,7 @@ with r = 4 to the Erdos-Gyarfas generalized Ramsey function g(n,p,q): Theorem 4
 (p. 27) improves Sarkozy and Selkow's range for g(n,p,q) = binom(n,2) - o(n^2)
 to q >= q_quad(p) + C log p / log log p.
 
-Source: <https://arxiv.org/abs/1912.08834>.
+Source: <https://arxiv.org/abs/1912.08834v2>.
 
 **Bears on.**
 

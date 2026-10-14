@@ -17,7 +17,7 @@ claim: decidable
 scope: partial
 submitted: 2026-09-21
 links:
-- url: https://arxiv.org/abs/2609.20961
+- url: https://arxiv.org/abs/2609.20961v1
   kind: preprint
   date: 2026-09-17
 - url: https://www.erdosproblems.com/forum/thread/993/proof-claims#proof-claim-336

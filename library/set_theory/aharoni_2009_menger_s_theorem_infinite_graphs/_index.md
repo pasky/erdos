@@ -56,7 +56,7 @@ structural analysis of digraphs. This source home records the statement,
 definitions, and elementary transfer; it does not claim a complete review of
 the paper's proof.
 
-Source: <https://arxiv.org/abs/math/0509397>.
+Source: <https://arxiv.org/abs/math/0509397v4>.
 
 **Read status.** Claims checked: Theorem 1.6 (p. 2), Theorem 5.4 (p. 23)
 and the definitions they use (pp. 1--2, 5--6, 8, 11--12) were read clause by

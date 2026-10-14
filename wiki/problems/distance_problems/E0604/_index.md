@@ -58,24 +58,25 @@ $\varepsilon>0$ and every sufficiently large $n$, every $n$-point planar set
 has a point from which at least $n^{1-\varepsilon}$ distinct distances are
 seen, uniformly over sets, which is the first question's bound $n^{1-o(1)}$
 answered yes; it is accepted on the Lean declarations built and audited here.
-The second question, whether some point sees $\gg n/\sqrt{\log n}$ distinct
-distances, is not settled by the claim, so the problem is open; the site's
-remarks note that the integer grid shows that this bound
-would be best possible. The same claim's statement for all points, that for
-each fixed $\varepsilon$ the proportion of points seeing fewer than
+The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. The second question, whether some point sees
+$\gg n/\sqrt{\log n}$ distinct distances, is not settled by the claim, so the
+problem is open; the site's remarks note that the integer grid shows that this
+bound would be best possible. The same claim's statement for all points, that
+for each fixed $\varepsilon$ the proportion of points seeing fewer than
 $n^{1-\varepsilon}$ distances tends to zero, also speaks to the site's remark
 that there may be $\gg n$ such points, for each fixed $\varepsilon$; a comment
-on the site notes that $\gg n$ such points follow from the existence of one.
-The release's companion manuscript in the same family, *A power saving for
-planar unit distances*, bounds the number of unit distances in the plane and
-concerns [[problems/distance_problems/E1085/_index|Problem 1085]], where it is
-recorded on
-[[problems/distance_problems/E1085/claims/2026_09_23_openai|its claim page]];
-it settles nothing asked here and has no claim page in this folder. The
-search scope is the site's page export of 2026-09-04 (last edited on the site
-on 23 March 2026, labeled OPEN), its proof-claims tab, which listed no claim
-on 2026-10-06, and the release of 23 September 2026, whose manuscript is
-carded at
+on the site notes that $\gg n$ such points follow from the existence of one. The
+release's companion manuscript in the same family, *A power saving for planar
+unit distances*, bounds the number of unit distances in the plane and concerns
+[[problems/distance_problems/E1085/_index|Problem 1085]], where it is recorded
+on [[problems/distance_problems/E1085/claims/2026_09_23_openai|its claim page]];
+it settles nothing asked here and has no claim page in this folder. The search
+scope is the site's page export of 2026-09-04 (last edited on the site on 23
+March 2026, labeled OPEN), its proof-claims tab, which listed no claim on
+2026-10-06, and the release of 23 September 2026, whose manuscript is carded at
 [[../library/distance_problems/openai_2026_weak_pinned_planar_distance_theorem/_index|openai_2026_weak_pinned_planar_distance_theorem]].
 
 ## Progress
@@ -127,5 +128,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/distance_problems/openai_2026_weak_pinned_planar_distance_theorem/theorem_1_1|openai_2026_weak_pinned_planar_distance_theorem / theorem_1_1]]
 - [[../library/distance_problems/sheffer_2014_distinct_distances_open_problems_current_bounds/_index|sheffer_2014_distinct_distances_open_problems_current_bounds]]
 - [[../library/distance_problems/sheffer_2014_distinct_distances_open_problems_current_bounds/problem_36|sheffer_2014_distinct_distances_open_problems_current_bounds / problem_36]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 
 <!-- END problem library links -->

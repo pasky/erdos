@@ -47,7 +47,7 @@ a_k <= (1/2 + o(1)) k^2; it does not determine the a_k, and the paper reports
 as open whether S(A, x) << x^{alpha + eps} for some alpha < 1 (Problem 2 of
 Erdős et al.).
 
-Source: <https://arxiv.org/abs/1101.0022>.
+Source: <https://arxiv.org/abs/1101.0022v3>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0271/_index|#271]]:
 the problem's $A(n)$, read as increasing as the problem page records, is

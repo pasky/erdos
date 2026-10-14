@@ -40,7 +40,7 @@ congruent to a mod m and do not extend to other congruences. Proofs are
 sketched rather than given in full, and error terms typically carry m^{o(1)}
 factors.
 
-Source: <https://arxiv.org/abs/1103.2879>.
+Source: <https://arxiv.org/abs/1103.2879v4>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: no
 result of the paper bears on the problem's question.

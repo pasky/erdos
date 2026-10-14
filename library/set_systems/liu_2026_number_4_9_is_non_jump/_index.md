@@ -36,7 +36,7 @@ non-jumps, which would make 4/9 the smallest non-jump and answer Erdős's prize
 jumping-constant question in strong form. For Problem 837 this is direct
 progress: a new, smaller explicit non-jump value for 3-graphs.
 
-Source: <https://arxiv.org/abs/2605.13567>.
+Source: <https://arxiv.org/abs/2605.13567v1>.
 
 **Bears on.** [[../wiki/problems/set_systems/E0837/_index|#837]]
 

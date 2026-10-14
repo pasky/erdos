@@ -49,12 +49,11 @@ updated: 2026-10-08T15:10:29Z
 ***
 
 Sergey Norin and Yue Ru Sun, *Triangle-independent sets vs. cuts*,
-arXiv:1602.04370v1 (13 February 2016). The copy read for this
-card is the fourteen-page v1 PDF.
-The [source record](source_record.json) identifies its version and the
-bounded later-primary search. The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:1602.04370), every other right
-reserved.
+[arXiv:1602.04370v1](https://arxiv.org/abs/1602.04370v1) (13 February 2016). The
+copy read for this card is the fourteen-page v1 PDF. The
+[source record](source_record.json) identifies its version and the bounded
+later-primary search. The arXiv record names arXiv's non-exclusive distribution
+license (arXiv:1602.04370), every other right reserved.
 
 [[extremal_graph_theory/norin_2016_triangle_independent_sets_vs_cuts/theorem_4|Theorem 4]] proves, for every finite simple
 graph on $N$ vertices,

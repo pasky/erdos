@@ -41,7 +41,7 @@ length 1, 273 of length 2, symmetry group of order 12) with a monochromatic
 pair at distance 5/sqrt(3) in a 5-coloring with forbidden distances {1,2},
 which the paper says leads to a 397-vertex 6-chromatic two-distance graph.
 
-Source: <https://arxiv.org/abs/2010.12656>.
+Source: <https://arxiv.org/abs/2010.12656v2>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|#706]]:
 [[graph_coloring/parts_2020_small_6_chromatic_two_distance_graph/theorem_p4|the Theorem]]

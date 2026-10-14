@@ -91,7 +91,7 @@ Problem 371 asks for this density with no exceptional scales, which the paper
 records as an old conjecture from the Erdős-Turán correspondence; Corollary
 1.16 proves it outside the exceptional scales only.
 
-Source: <https://arxiv.org/abs/1809.02518>.
+Source: <https://arxiv.org/abs/1809.02518v2>.
 
 Read status: claims checked for Theorems 1.7, 1.17 and 1.19 and Corollaries
 1.8, 1.13, 1.14 and 1.16, with the definitions they use, read clause by

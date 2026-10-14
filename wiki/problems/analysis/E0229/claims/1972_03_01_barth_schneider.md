@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1090/S0002-9939-1972-0293089-7
   kind: paper
-  date: 1972-03-01
+  date: 1972-03
 - url: https://github.com/plby/lean-proofs/blob/e011328d3a6f1de3b1af7ae67d5f610498ca455d/src/v4.24.0/ErdosProblems/Erdos229.lean
   kind: formalization
   date: 2025-12-28

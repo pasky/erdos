@@ -66,7 +66,7 @@ this paper; through it, Theorem 2.1 gives sets of n integers with more than
 n^1.77898 common differences, answering the O(n^{3/2}) question in the
 negative.
 
-Source: <https://arxiv.org/abs/1404.3745>.
+Source: <https://arxiv.org/abs/1404.3745v2>.
 
 **Results.** Pages are those of arXiv:1404.3745v2 (pp. 1--5).
 

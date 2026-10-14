@@ -156,4 +156,4 @@ before the elementary degree adjustment used to deduce Theorem 1.1.
 2.3, and 2.4; the proof architecture was read in the complete Markdown copy,
 but the proofs were not independently verified.
 
-Source: <https://arxiv.org/abs/1907.09464>.
+Source: <https://arxiv.org/abs/1907.09464v1>.

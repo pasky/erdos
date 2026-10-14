@@ -61,7 +61,7 @@ estimates for the von Mangoldt function over arithmetic progressions (Theorems
 condition at a time. It does not address the simultaneous primality constraint
 of that problem.
 
-Source: <https://arxiv.org/abs/0708.1015>. The arXiv record carries no license
+Source: <https://arxiv.org/abs/0708.1015v1>. The arXiv record carries no license
 field, so arXiv's assumed license applies (arXiv:0708.1015), every other right
 reserved.
 

@@ -40,7 +40,7 @@ question of whether for every k >= 4 and every r there is a vertex-critical
 k-chromatic graph that remains k-chromatic when any r edges are omitted: the
 paper answers it for all r once k is large.
 
-Source: <https://arxiv.org/abs/2310.12891>.
+Source: <https://arxiv.org/abs/2310.12891v1>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0944/_index|#944]]
 

@@ -645,16 +645,17 @@ name `<YYYY_MM_DD>_<claimant>.md`, the `authors` list (distinct nonempty names
 after `desc` and before `status`; a claim page without it is counted in the
 leg's detail and is a finding with `--settled`), the evidence list's fixed
 order, its presence on an accepted claim and its absence from a pending one,
-each link's `url`-first shape and kind, the `submitted` date (a calendar date,
-or `null`), the **Covers.** paragraph of a partial claim, the **Depends on.**
-wikilinks (wiki pages, each resolving, none unaccepted under an accepted claim;
-or library result pages, each resolving, reported as a note with the page's read
-status and never counted toward the standing, a card in place of a result page
-being a finding), the optional `parts` list (distinct short labels) and each
-partial claim's `settles` labels (only on partial claims, only labels the
-problem lists), and the derivation of the problem's `status` and `claim` from
-its claims, part by part where parts are listed. A `not_provable` or
-`not_disprovable` claim states one side of an independence result and must be
+each link's `url`-first shape, kind and date (`YYYY-MM-DD`, or `YYYY-MM` or
+`YYYY` when only the month or the year is known), the `submitted` date (a
+calendar date, or `null`), the **Covers.** paragraph of a partial claim, the
+**Depends on.** wikilinks (wiki pages, each resolving, none unaccepted under an
+accepted claim; or library result pages, each resolving, reported as a note with
+the page's read status and never counted toward the standing, a card in place of
+a result page being a finding), the optional `parts` list (distinct short
+labels) and each partial claim's `settles` labels (only on partial claims, only
+labels the problem lists), and the derivation of the problem's `status` and
+`claim` from its claims, part by part where parts are listed. A `not_provable`
+or `not_disprovable` claim states one side of an independence result and must be
 partial: on its own it leaves the problem, or the part it settles, open, and one
 accepted claim of each kind settles it as `independent`. A problem with no claim
 page keeps its provisional standing: unless that standing is `open` with claim

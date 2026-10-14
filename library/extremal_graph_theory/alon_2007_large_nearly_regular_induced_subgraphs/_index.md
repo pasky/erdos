@@ -63,7 +63,7 @@ prove or disprove it (p. 2) and list it as open (Section 4, p. 11). Section 4
 shows that every graph with n vertices, m > n edges and average degree d = 2m/n
 contains a 5-nearly regular subgraph with at least d^2/2^12 edges.
 
-Source: <https://arxiv.org/abs/0710.2106>. The copy read for this card is
+Source: <https://arxiv.org/abs/0710.2106v2>. The copy read for this card is
 arXiv:0710.2106v2 (25 February 2008), 14 pages; the labels and page numbers
 above are that preprint's.
 

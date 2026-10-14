@@ -44,7 +44,7 @@ journal citation while its own folios are 1–10. The statement digest gives
 paired publisher printed-page and arXiv internal-folio locators. The official
 [Acta Arithmetica record](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/en/publishing-house/journals-and-series/acta-arithmetica/all/131/4/81933/on-covers-of-abelian-groups-by-cosets)
 identifies the publisher version, and the
-[arXiv record](https://arxiv.org/abs/math/0411144) identifies the
+[arXiv record](https://arxiv.org/abs/math/0411144v2) identifies the
 preprint. The statement digest was read against both versions. The
 publisher facsimile prints "©
 Instytut Matematyczny PAN, 2008" on its first page (printed p. 341); the

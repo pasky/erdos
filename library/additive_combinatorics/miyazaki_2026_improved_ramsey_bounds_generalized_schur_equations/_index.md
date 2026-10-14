@@ -82,7 +82,7 @@ gap: an odd monochromatic cycle gives an equality of two monochromatic sums,
 but their numbers of terms need not differ by exactly one. Thus neither
 theorem updates [[../wiki/problems/ramsey_theory/E0609/_index|Problem 609]].
 
-Source: <https://arxiv.org/abs/2605.15147>.
+Source: <https://arxiv.org/abs/2605.15147v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0554/_index|#554]] through Remark 2.2's
 direct but nonresolving numerator bound, and

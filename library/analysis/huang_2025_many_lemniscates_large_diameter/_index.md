@@ -50,7 +50,7 @@ Read status: claims checked. Theorem 1.1 was read clause by clause on p. 1
 of version 2, and the proof of Section 2 was read through once; nothing is
 independently reviewed.
 
-Source: <https://arxiv.org/abs/2509.11597>.
+Source: <https://arxiv.org/abs/2509.11597v2>.
 
 **Bears on.** [[../wiki/problems/analysis/E0511/_index|#511]]: the paper
 states (p. 1) that

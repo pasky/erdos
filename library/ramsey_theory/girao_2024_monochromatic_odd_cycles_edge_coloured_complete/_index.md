@@ -69,7 +69,7 @@ Proposition 4.1: their statements and hypotheses were read clause by clause on
 the page images. No proof is reconstructed or independently certified in this
 payload.
 
-Source: <https://arxiv.org/abs/2412.07708>.
+Source: <https://arxiv.org/abs/2412.07708v1>.
 
 **Bears on.**
 

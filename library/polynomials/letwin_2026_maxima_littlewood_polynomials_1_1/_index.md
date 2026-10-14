@@ -61,7 +61,7 @@ processes from sufficiently smooth kernels, a direction they do not pursue
 (p. 2). The paper states that the lower envelope question was raised by Salem
 and Zygmund and reiterated by Erdős (p. 1).
 
-Source: <https://arxiv.org/abs/2604.19294>.
+Source: <https://arxiv.org/abs/2604.19294v1>.
 
 **Bears on.** [[../wiki/problems/polynomials/E0524/_index|#524]]: Theorem 1.1
 gives the almost sure lower envelope of the maximum on [-1,1] of a random

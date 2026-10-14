@@ -71,7 +71,7 @@ Problem 755 asks for the bound n^3/27 + o(n^3) only for equilateral triangles
 of side 1 in R^6; T_6(n) counts triangles of every size, so the case d = 6,
 k = 3 of Theorem 2 gives the problem's bound.
 
-Source: <https://arxiv.org/abs/2507.19841>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2507.19841v4>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2507.19841), every other right
 reserved.
 

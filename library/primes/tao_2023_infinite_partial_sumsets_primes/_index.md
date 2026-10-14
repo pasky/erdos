@@ -64,7 +64,7 @@ contain half of an infinite sumset unconditionally, and a full sumset A + B of
 infinite sets under Dickson-Hardy-Littlewood. It says nothing on whether such a
 sumset can exhaust the primes.
 
-Source: <https://arxiv.org/abs/2301.10303>.
+Source: <https://arxiv.org/abs/2301.10303v4>.
 
 **Bears on.**
 

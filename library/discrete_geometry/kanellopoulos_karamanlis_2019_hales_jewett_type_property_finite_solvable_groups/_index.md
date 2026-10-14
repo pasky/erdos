@@ -37,8 +37,9 @@ Vassilis Kanellopoulos, Miltiadis Karamanlis, "A Hales--Jewett type property of
 finite solvable groups," Mathematika 66 (2020), no. 4, 959-972. DOI
 10.1112/mtk.12054. The arXiv record names arXiv's non-exclusive distribution
 license (arXiv:1905.04892), every other right reserved. The copy read for this
-card is the arXiv version arXiv:1905.04892v1 (13 May 2019); labels and
-equation numbers below refer to it.
+card is the arXiv version
+[arXiv:1905.04892v1](https://arxiv.org/abs/1905.04892v1) (13 May 2019); labels
+and equation numbers below refer to it.
 
 ## Overview
 

@@ -56,7 +56,7 @@ O_{a,d}(n^{(a-2)/d}) for a >= 4. The proofs find large rainbow cliques in
 colorings of complete hypergraphs that are sparse in each color, coloring each
 a-set by its volume, with tools from algebraic geometry for 2 < a < d+1.
 
-Source: <https://arxiv.org/abs/1401.6734>.
+Source: <https://arxiv.org/abs/1401.6734v3>.
 
 Read status: claims checked for Proposition 1.1 and the grid upper bounds
 (p. 2), Theorem 1.2 (p. 2), Lemma 2.1 (p. 3), Lemma 3.1 (p. 4),

@@ -41,7 +41,7 @@ Hunter's bound gives (log k)^{1/2-o(1)} only conditionally, under a uniform
 extension that Hunter did not prove. This bears directly and solely on the
 listed problem, the Erdős-Graham question of whether H(k)^{1/k}/k is unbounded.
 
-Source: <https://arxiv.org/abs/2604.20588>. The arXiv record
+Source: <https://arxiv.org/abs/2604.20588v1>. The arXiv record
 (https://arxiv.org/abs/2604.20588, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

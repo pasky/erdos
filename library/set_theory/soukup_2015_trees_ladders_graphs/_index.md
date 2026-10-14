@@ -63,7 +63,7 @@ omega-connected subset, and notes that by Theorem 3.5 such a set can in some
 cases only be countable, while excluding countable omega-connected subsets
 seems very hard.
 
-Source: <https://arxiv.org/abs/1409.2922>.
+Source: <https://arxiv.org/abs/1409.2922v1>.
 
 **Read status.** Claims checked: Theorems 3.5, 4.3 and 5.5, Problem 6.4 and
 the definitions and lemmas their pages cite were read clause by clause on the

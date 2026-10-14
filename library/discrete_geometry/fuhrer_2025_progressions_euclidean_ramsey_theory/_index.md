@@ -51,7 +51,7 @@ the coloring of Theorem 1 every point at distance less than 1 from the origin
 is red), so they give no bound for problem 188, whose red class must avoid
 unit pairs.
 
-Source: <https://arxiv.org/abs/2402.12567>.
+Source: <https://arxiv.org/abs/2402.12567v1>.
 
 **Bears on.**
 

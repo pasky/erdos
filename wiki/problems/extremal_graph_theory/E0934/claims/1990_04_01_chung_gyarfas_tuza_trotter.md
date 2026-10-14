@@ -20,7 +20,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/0012-365X(90)90144-7
   kind: paper
-  date: 1990-04-01
+  date: 1990-04
 - url: https://www.erdosproblems.com/934
   kind: discussion
 created: 2026-10-07T11:50:25Z

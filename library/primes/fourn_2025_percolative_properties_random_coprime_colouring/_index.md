@@ -44,7 +44,7 @@ previously derivable only indirectly, by combining Martineau's earlier main
 theorem with Vardi's work built on Friedlander, whereas here the
 infinite-component statement gets a short elementary proof.
 
-Source: <https://arxiv.org/abs/2509.08452>.
+Source: <https://arxiv.org/abs/2509.08452v1>.
 
 **Bears on.** [[../wiki/problems/primes/E1212/_index|#1212]]
 

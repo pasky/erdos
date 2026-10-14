@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 1084, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T20:00:46Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:34:14Z
 ---
 
 # problems/distance_problems/E1084/claims
@@ -15,7 +15,7 @@ updated: 2026-10-11T22:24:14Z
 among $n$ points of the plane at mutual distance at least $1$ is
 $\lfloor 3n-\sqrt{12n-3}\rfloor$. Pieces of the triangular lattice attain it.
 
-[[problems/distance_problems/E1084/claims/2013_04_01_bezdek_reid|2013_04_01_bezdek_reid]]: Bezdek and Reid prove that among $n\ge2$ points of $\mathbb{R}^3$ at mutual
+[[problems/distance_problems/E1084/claims/2012_10_21_bezdek_reid|2012_10_21_bezdek_reid]]: Bezdek and Reid prove that among $n\ge2$ points of $\mathbb{R}^3$ at mutual
 distance at least $1$, fewer than $6n-0.926\,n^{2/3}$ pairs are at distance
 $1$. This is the upper half of Erdős's two-sided estimate for $d=3$.
 

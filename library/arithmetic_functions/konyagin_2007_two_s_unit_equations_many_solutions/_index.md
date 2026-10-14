@@ -48,7 +48,7 @@ least exp(s^{1/16}) integers a for which the product of all a(a+1) has at most
 s distinct prime factors, and says nothing about the product of the sums of two
 distinct elements of one set that the problem asks about.
 
-Source: <https://arxiv.org/abs/math/0604453>.
+Source: <https://arxiv.org/abs/math/0604453v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0126/_index|#126]]:
 background only. The paper does not mention the problem;

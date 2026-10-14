@@ -104,7 +104,7 @@ changing E0052's integer domain: the later failure of the exponent-$2$ real
 conjecture does not affect this universal lower bound, while E0052's integer
 question remains open.
 
-Source: <https://arxiv.org/abs/2512.13849>. The arXiv record
+Source: <https://arxiv.org/abs/2512.13849v2>. The arXiv record
 (https://arxiv.org/abs/2512.13849, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

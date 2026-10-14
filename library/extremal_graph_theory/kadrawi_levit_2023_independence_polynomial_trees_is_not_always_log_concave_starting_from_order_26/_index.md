@@ -46,7 +46,8 @@ polynomial, failing at the coefficient one below the top degree.
 
 ***
 
-The copy read for this card is arXiv:2305.01784v2 (16 August 2023), 25
+The copy read for this card is
+[arXiv:2305.01784v2](https://arxiv.org/abs/2305.01784v2) (16 August 2023), 25
 pages, read with the authors' LaTeX source. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2305.01784), every other right
 reserved.

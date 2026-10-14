@@ -55,7 +55,12 @@ curator's review as its evidence. The two manuscripts of the OpenAI release of
 fixed $s\ge5$. They are an accepted partial claim
 ([[problems/ramsey_theory/E0986/claims/2026_09_24_openai|claim page]]), with the
 corpus's build and audit of the release's two Lean declarations as its evidence.
-The cases $s=3$
+The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the release's claim, as a claim and not an endorsement,
+says that its proof has been formalized, and notes that Bradač's paper had
+already answered Erdős's question, which did not ask for the power of the
+logarithm. The cases $s=3$
 ([[problems/ramsey_theory/E0986/claims/1977_01_01_spencer|Spencer 1977]]; the
 paper credits the bound to Erdős) and $s=4$
 ([[problems/ramsey_theory/E0986/claims/2023_06_06_mattheus_verstraete|Mattheus and Verstraete]],
@@ -367,6 +372,7 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/discrete_geometry/erdos_1935_combinatorial_problem_geometry/_index|erdos_1935_combinatorial_problem_geometry]]
 - [[../library/discrete_geometry/erdos_1935_combinatorial_problem_geometry/equation_3|erdos_1935_combinatorial_problem_geometry / equation_3]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/_index|ajtai_1980_note_ramsey_numbers]]
 - [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_6|ajtai_1980_note_ramsey_numbers / theorem_6]]
 - [[../library/ramsey_theory/bohman_2010_early_evolution_free_process/_index|bohman_2010_early_evolution_free_process]]

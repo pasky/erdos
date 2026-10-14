@@ -89,7 +89,7 @@ forbids an element equal to a sum of two or more distinct other elements, a
 condition that the two-term sum-free property treated here does not imply,
 and the paper says nothing about it.
 
-Source: <https://arxiv.org/abs/2502.08624>.
+Source: <https://arxiv.org/abs/2502.08624v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0792/_index|#792]]: Theorem 1.2
 (p. 2) is the site's lower bound $f(n)\ge n/3+c\log\log n$, the answer to

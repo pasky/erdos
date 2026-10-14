@@ -38,9 +38,10 @@ coordinate hyperplanes.
 
 ***
 
-The copy read for this card is arXiv:2108.03398v2 (19 April 2023). The arXiv
-record names arXiv's non-exclusive distribution license (arXiv:2108.03398),
-every other right reserved.
+The copy read for this card is
+[arXiv:2108.03398v2](https://arxiv.org/abs/2108.03398v2) (19 April 2023). The
+arXiv record names arXiv's non-exclusive distribution license
+(arXiv:2108.03398), every other right reserved.
 
 Victor Y. Wang, "Sums of cubes and the Ratios Conjectures," arXiv:2108.03398
 (2021).

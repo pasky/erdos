@@ -30,7 +30,7 @@ links:
   date: 2026-09-06
 - url: https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/126.lean
   kind: record
-- url: https://arxiv.org/abs/2609.25050
+- url: https://arxiv.org/abs/2609.25050v1
   kind: preprint
   date: 2026-09-06
 - url: https://epoch.ai/files/frontiermath-erdos.pdf

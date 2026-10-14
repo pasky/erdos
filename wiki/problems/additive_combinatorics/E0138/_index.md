@@ -60,17 +60,26 @@ https://www.erdosproblems.com/138.
   312-332.
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/138.lean)
-at its commit of 2026-10-06, linked, which states the question
-$W(k)^{1/k}\to\infty$ as `erdos_138` with `answer(sorry)` and a `sorry` body and
-no `formal_proof` attribute; two of its variants, $W(k+1)-W(k)\to\infty$ and
-$W(k)/2^k\to\infty$, are marked solved with `formal_proof` attributes pointing
-to Lean files outside the repository: a proof by the DeepMind prover agent,
-AlphaProof Nexus (Tsoukalas et al., Science 2026; arXiv:2605.22763), in a fork
-of formal-conjectures, and a Lean proof derived from the Atlas proofs of
-facebookresearch/atlas-lean. Neither was built by this corpus, neither is a
-formalization of the accepted OpenAI claim under Claims, and each is linked
-from its claim page.
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/138.lean)
+at its commit of 2026-10-11, linked, which states the example question
+$W(k)^{1/k}\to\infty$ as `erdos_138` with a `sorry` body. Until that commit
+`erdos_138` had `answer(sorry)`, the category `research open` and no
+`formal_proof` attribute; the commit marked it `research solved` with
+`answer(True)`, cited the OpenAI release's manuscript and added a `formal_proof`
+attribute linking the release's
+[`uniform_lower_bound`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/ProgressionColoring/Main.lean#L12)
+at the revision pinned on
+[[problems/additive_combinatorics/E0138/claims/2026_09_23_openai|its claim page]].
+That declaration states the uniform bound
+$W_r(k)>k^{k\lfloor\log_2r\rfloor/100000}$; the limit is the release's
+`kthRoot_tendsto` in the same file, and this corpus built both. Two of the
+file's variants, $W(k+1)-W(k)\to\infty$ and $W(k)/2^k\to\infty$, are marked
+solved with `formal_proof` attributes pointing to Lean files outside the
+repository: a proof by the DeepMind prover agent, AlphaProof Nexus (Tsoukalas et
+al., Science 2026; arXiv:2605.22763), in a fork of formal-conjectures, and a
+Lean proof derived from the Atlas proofs of facebookresearch/atlas-lean. Neither
+was built by this corpus, neither is a formalization of the accepted OpenAI
+claim under Claims, and each is linked from its claim page.
 
 **Claims.** Five results have claim pages. The OpenAI mathematics release of 23
 September 2026 proves $W_r(k)>k^{k\lfloor\log_2r\rfloor/100000}$ for every
@@ -78,10 +87,14 @@ $r\ge2$ and every $k$ above an absolute threshold, so $W(k)^{1/k}\to\infty$, the
 example question the problem names; the result is accepted as a partial claim on
 [[problems/additive_combinatorics/E0138/claims/2026_09_23_openai|its claim page]],
 on Lean declarations this corpus built and audited, and the open-ended request
-to improve the bounds stays open, with no upper bound touched. Google
-DeepMind's $W(k+1)\ge W(k)+k$, found by its AlphaProof Nexus system, answers
-the difference question of [Er81] and is accepted as a partial claim on the
-refereed publication of the paper that reports it
+to improve the bounds stays open, with no upper bound touched. The curator's
+blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. Google DeepMind's $W(k+1)\ge W(k)+k$, found
+by its AlphaProof Nexus system, answers the difference question of [Er81] and is
+accepted as a partial claim on the refereed publication of the paper that
+reports it
 ([[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|claim page]];
 [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_138_difference|library page]]).
 Three further results on the questions the site's entry records are claimed on
@@ -128,6 +141,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_138_difference|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_138_difference]]
 - [[../library/distance_problems/graham_1994_recent_trends_euclidean_ramsey_theory/_index|graham_1994_recent_trends_euclidean_ramsey_theory]]
 - [[../library/distance_problems/graham_1994_recent_trends_euclidean_ramsey_theory/conjecture_p127|graham_1994_recent_trends_euclidean_ramsey_theory / conjecture_p127]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/ramsey_theory/beck_1980_remark_concerning_arithmetic_progressions/_index|beck_1980_remark_concerning_arithmetic_progressions]]
 - [[../library/ramsey_theory/brown_1999_monochromatic_arithmetic_progressions_large_differences/_index|brown_1999_monochromatic_arithmetic_progressions_large_differences]]
 - [[../library/ramsey_theory/green_2022_new_lower_bounds_van_der_waerden/_index|green_2022_new_lower_bounds_van_der_waerden]]

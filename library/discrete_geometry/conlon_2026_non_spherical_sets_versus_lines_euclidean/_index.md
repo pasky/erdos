@@ -37,7 +37,7 @@ the plane. The paper bears on it only as context for the (X, l_m) program, and
 its m = m(X) is ineffective, since the equidistribution cutoff is not
 quantified.
 
-Source: <https://arxiv.org/abs/2406.07718>. The arXiv record
+Source: <https://arxiv.org/abs/2406.07718v1>. The arXiv record
 (https://arxiv.org/abs/2406.07718, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

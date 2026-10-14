@@ -24,8 +24,9 @@ path of two further vertices, is unimodal.
 
 ***
 
-The copy read for this card is arXiv:2603.03025v1 (3 March 2026),
-57 pages. The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:2603.03025v1](https://arxiv.org/abs/2603.03025v1) (3 March 2026), 57
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2603.03025), every other right reserved.
 
 Grace M. X. Li, "Unimodality of independence polynomials of two family of

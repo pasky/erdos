@@ -64,7 +64,7 @@ tournament, and the paper states that these remain the best known bounds for
 f(k) (p. 2) and that they "have remained un-improved for 60 years" (p. 10), a
 preprint's attestation.
 
-Source: <https://arxiv.org/abs/2604.08790>.
+Source: <https://arxiv.org/abs/2604.08790v1>.
 
 The copy read for this card is arXiv:2604.08790v1 (9 April 2026; twelve
 pages, printed page numbers equal to PDF page numbers); on 2026-09-19 the

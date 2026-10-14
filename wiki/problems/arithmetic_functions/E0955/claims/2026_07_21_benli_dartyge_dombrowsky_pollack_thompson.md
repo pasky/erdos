@@ -16,7 +16,7 @@ claim: proved
 scope: partial
 submitted: null
 links:
-- url: https://arxiv.org/abs/2607.18981
+- url: https://arxiv.org/abs/2607.18981v1
   kind: preprint
   date: 2026-07-21
 created: 2026-10-07T21:33:46Z

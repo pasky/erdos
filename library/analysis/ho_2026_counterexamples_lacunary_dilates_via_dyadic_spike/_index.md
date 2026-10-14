@@ -50,7 +50,7 @@ own stated negative answer to the weak Fourier-tail question, and for problem
 995 the case p = 2 of Theorem 1.6 shows the partial sums need not be o(N
 sqrt(loglog N)) almost everywhere.
 
-Source: <https://arxiv.org/abs/2604.18535>.
+Source: <https://arxiv.org/abs/2604.18535v2>.
 
 **Bears on.** [[../wiki/problems/discrepancy/E0995/_index|#995]],
 [[../wiki/problems/analysis/E0996/_index|#996]]

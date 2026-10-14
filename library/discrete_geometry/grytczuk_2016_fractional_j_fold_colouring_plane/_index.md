@@ -67,7 +67,7 @@ for which the paper singles out G_[1,2]. One factor of Theorem 7's displayed
 ratio differs from its own colour count, as recorded on its page. All labels and
 pages are those of the arXiv version read.
 
-Source: <https://arxiv.org/abs/1506.01887>.
+Source: <https://arxiv.org/abs/1506.01887v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0173/_index|#173]]:
 [[discrete_geometry/grytczuk_2016_fractional_j_fold_colouring_plane/theorem_1|Theorem 1]],

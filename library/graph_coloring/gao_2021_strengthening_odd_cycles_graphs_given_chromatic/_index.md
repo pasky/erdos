@@ -63,7 +63,7 @@ for k >= 3 some function f_k(n) tending to infinity bounds from below the
 number of cycles of consecutive lengths in every n-vertex (k+1)-critical
 graph.
 
-Source: <https://arxiv.org/abs/2012.10624>.
+Source: <https://arxiv.org/abs/2012.10624v2>.
 
 Result pages:
 [[graph_coloring/gao_2021_strengthening_odd_cycles_graphs_given_chromatic/theorem_1_2|theorem_1_2]],

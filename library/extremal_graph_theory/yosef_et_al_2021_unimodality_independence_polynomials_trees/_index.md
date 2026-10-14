@@ -27,8 +27,9 @@ log-concave one.
 
 ***
 
-The copy read for this card is arXiv:2101.06744v5 (7 March 2022), 20 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:2101.06744v5](https://arxiv.org/abs/2101.06744v5) (7 March 2022), 20
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2101.06744), every other right reserved.
 
 Ron Yosef, Matan Mizrachi, Ohr Kadrawi, "On Unimodality of Independence

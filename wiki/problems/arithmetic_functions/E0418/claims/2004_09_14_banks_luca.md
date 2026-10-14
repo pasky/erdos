@@ -14,7 +14,7 @@ claim: proved
 scope: full
 submitted: null
 links:
-- url: https://arxiv.org/abs/math/0409231
+- url: https://arxiv.org/abs/math/0409231v1
   kind: preprint
   date: 2004-09-14
 created: 2026-10-07T21:33:46Z

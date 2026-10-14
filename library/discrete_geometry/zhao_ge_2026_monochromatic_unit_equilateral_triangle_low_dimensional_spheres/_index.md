@@ -39,8 +39,8 @@ or a blue isosceles triangle with side lengths a, 1, 1.
 
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2605.16958), every other right reserved. The copy read for this card is
-arXiv:2605.16958v1 (16 May 2026); its section, equation and result numbers are
-cited below.
+[arXiv:2605.16958v1](https://arxiv.org/abs/2605.16958v1) (16 May 2026); its
+section, equation and result numbers are cited below.
 
 Xiaochen Zhao, Gennian Ge, "Monochromatic unit equilateral triangle on
 low-dimensional spheres," arXiv:2605.16958 (2026).

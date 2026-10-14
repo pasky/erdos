@@ -70,6 +70,10 @@ the modified Statement asks. The release's Lean declaration states both results.
 This corpus built it, checked its axioms and found it identical to the release's
 comparator challenge. So the result is accepted on
 [[problems/integer_sequences/E0968/claims/2026_09_25_openai|its claim page]].
+The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized.
 
 Whether the set has an asymptotic density, the stronger reading under
 Formulation, remains open. The discussion thread (as of 2026-10-07) holds one
@@ -121,6 +125,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/integer_sequences/erdos_1961_satze_und_probleme_uber_german/question_p256|erdos_1961_satze_und_probleme_uber_german / question_p256]]
 - [[../library/integer_sequences/erdos_1961_satze_und_probleme_uber_german/satz_1|erdos_1961_satze_und_probleme_uber_german / satz_1]]
 - [[../library/integer_sequences/erdos_1961_satze_und_probleme_uber_german/satz_2|erdos_1961_satze_und_probleme_uber_german / satz_2]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/erdos_1965_recent_advances_current_problems_number_theory/_index|erdos_1965_recent_advances_current_problems_number_theory]]
 - [[../library/primes/openai_2026_positive_lower_density_large_prime_gaps/_index|openai_2026_positive_lower_density_large_prime_gaps]]
 - [[../library/primes/openai_2026_positive_lower_density_large_prime_gaps/corollary_1_2|openai_2026_positive_lower_density_large_prime_gaps / corollary_1_2]]

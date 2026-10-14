@@ -40,7 +40,7 @@ notation of Problem 216, whose g(k) is the paper's h(k), it determines g(6) =
 30; the problem's negative answer, that g(k) does not exist for k >= 7, is
 Horton's.
 
-Source: <https://arxiv.org/abs/2403.00737>.
+Source: <https://arxiv.org/abs/2403.00737v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0216/_index|#216]]
 

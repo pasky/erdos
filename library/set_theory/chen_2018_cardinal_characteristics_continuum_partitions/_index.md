@@ -44,7 +44,7 @@ genericity. For Problem 1171, the paper supplies the conditional negative
 relation omega_1^2 does not arrow (omega_1*omega,4)^2 under d = aleph_1 and
 surveys the surrounding partition relations.
 
-Source: <https://arxiv.org/abs/1801.00238>.
+Source: <https://arxiv.org/abs/1801.00238v1>.
 
 **Bears on.** [[../wiki/problems/set_theory/E1171/_index|#1171]]
 

@@ -92,7 +92,7 @@ constant for large $N$. The
 statement of Corollary 6 (p. 14) prints "$N \geq 2^b$" [sic] where its proof
 derives $N<2^b$.
 
-Source: <https://arxiv.org/abs/2002.10056>.
+Source: <https://arxiv.org/abs/2002.10056v1>.
 
 Read status: claims checked for Definitions 1, 9 and 10, Theorems 2, 4, 5,
 6 (11), 7 and 8, Corollary 5 and the p. 11 discussion, read clause by clause

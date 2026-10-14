@@ -15,7 +15,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/2211.07159
+- url: https://arxiv.org/abs/2211.07159v1
   kind: preprint
   date: 2022-11-14
 - url: https://doi.org/10.46298/dmtcs.10313

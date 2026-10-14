@@ -53,7 +53,7 @@ Bombieri-Lang rather than an unconditional proof. For problem 212 on dense
 rational-distance sets, Theorem 2 gives a negative answer conditional on the
 Bombieri-Lang conjecture; it leaves the unconditional problem open.
 
-Source: <https://arxiv.org/abs/1501.00159>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1501.00159v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1501.00159), every other right
 reserved.
 

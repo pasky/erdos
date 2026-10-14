@@ -64,7 +64,7 @@ Problem 593 the paper claims the requested classification of forced
 configurations; for Problem 1177 it claims answers to all three clauses in their
 exact-chromatic-number form. This is a v1 preprint and remains unverified.
 
-Source: <https://arxiv.org/abs/2606.24882>.
+Source: <https://arxiv.org/abs/2606.24882v1>.
 
 **Read status.** Claims checked: Theorems 1.1 and 1.2 and Corollaries 1.3
 and 1.4 (pp. 1-2), with their restatements and proofs as Theorem 5.7 (p. 13),

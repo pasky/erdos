@@ -56,7 +56,7 @@ sequence but is only known when h is even and g = 1. Because the multiplicity g
 grows as epsilon shrinks, the h = 2 content does not specialize to fixed g = 2
 at square-root scale and so does not settle #158.
 
-Source: <https://arxiv.org/abs/0911.2870>. The copy read for this card is
+Source: <https://arxiv.org/abs/0911.2870v1>. The copy read for this card is
 arXiv:0911.2870v1, submitted 15 Nov 2009, not the journal article; the labels
 below are that preprint's. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:0911.2870), every other right reserved.

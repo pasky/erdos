@@ -21,7 +21,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF01872104
   kind: paper
-  date: 1993-03-01
+  date: 1993-03
 - url: https://shelah.logic.at/papers/414/
   kind: paper
 - url: https://www.erdosproblems.com/1174

@@ -37,7 +37,7 @@ later bound 0.2470 of Ambrus, Csiszarik, Matolcsi, Varga and Zsamboki
 improves on it. The result concerns measurable 1-avoiding sets only and gives
 no bound on the chromatic number chi(R^2).
 
-Source: <https://arxiv.org/abs/1809.05453>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1809.05453v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1809.05453), every other right
 reserved.
 

@@ -72,7 +72,7 @@ a model of 2^(aleph_0) = aleph_2 with a family of more than aleph_1 entire
 functions taking at most aleph_1 values at each point, a negative instance of
 the problem's question for m = aleph_1.
 
-Source: <https://arxiv.org/abs/2310.19473>.
+Source: <https://arxiv.org/abs/2310.19473v3>.
 
 **Bears on.** [[../wiki/problems/set_theory/E1119/_index|#1119]]: the
 problem asks whether, for aleph_0 < m < 2^(aleph_0), every family of entire

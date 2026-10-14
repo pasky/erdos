@@ -50,7 +50,7 @@ infinity slowly enough, every f(n) has P(|chi - f(n)| < omega(n)) < 1/2 for
 large n; this note supplies only the upper bound omega(n) sqrt(n)/log n on the
 concentration width.
 
-Source: <https://arxiv.org/abs/0806.0178>.
+Source: <https://arxiv.org/abs/0806.0178v2>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E1156/_index|#1156]]:
 [[graph_coloring/scott_2008_concentration_chromatic_number_random_graphs/theorem_1|Theorem 1]]

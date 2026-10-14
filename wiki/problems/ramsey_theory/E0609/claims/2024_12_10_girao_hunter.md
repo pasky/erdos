@@ -13,7 +13,7 @@ claim: proved
 scope: partial
 submitted: null
 links:
-- url: https://arxiv.org/abs/2412.07708
+- url: https://arxiv.org/abs/2412.07708v1
   kind: preprint
   date: 2024-12-10
 - url: https://www.erdosproblems.com/609

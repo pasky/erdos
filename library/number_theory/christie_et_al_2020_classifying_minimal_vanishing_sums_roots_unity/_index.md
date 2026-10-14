@@ -28,9 +28,9 @@ Louis Christie, Kenneth J. Dykema, Igor Klep, "Classifying minimal vanishing
 sums of roots of unity," arXiv:2008.11268 (2020).
 
 **Edition.** The copy read for this card is the arXiv preprint,
-arXiv:2008.11268v2 (16 December 2025). The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:2008.11268), every other right
-reserved.
+[arXiv:2008.11268v2](https://arxiv.org/abs/2008.11268v2) (16 December 2025). The
+arXiv record names arXiv's non-exclusive distribution license
+(arXiv:2008.11268), every other right reserved.
 
 ## Research digest
 

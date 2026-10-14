@@ -27,7 +27,7 @@ links:
   date: 2026-09-03
 - url: https://www.erdosproblems.com/static/1-proof.pdf
   kind: preprint
-- url: https://arxiv.org/abs/2609.25050
+- url: https://arxiv.org/abs/2609.25050v1
   kind: preprint
   date: 2026-09-06
 - url: https://epoch.ai/files/frontiermath-erdos.pdf

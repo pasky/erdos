@@ -36,7 +36,7 @@ Corollary 4 gives a strong Brun-Titchmarsh inequality. The method adapts
 Heath-Brown's q-analog of van der Corput to iterated smooth factorizations of
 the modulus.
 
-Source: <https://arxiv.org/abs/2601.10927>. The arXiv record
+Source: <https://arxiv.org/abs/2601.10927v1>. The arXiv record
 (https://arxiv.org/abs/2601.10927, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

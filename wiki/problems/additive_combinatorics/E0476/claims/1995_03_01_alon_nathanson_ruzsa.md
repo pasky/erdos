@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1080/00029890.1995.11990565
   kind: paper
-  date: 1995-03-01
+  date: 1995-03
 - url: https://doi.org/10.1006/jnth.1996.0029
   kind: paper
   date: 1996-02-01

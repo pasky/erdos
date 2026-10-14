@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://www.numdam.org/item/CM_1994__91_2_175_0/
   kind: paper
-  date: 1994-01-01
+  date: 1994
 - url: https://www.erdosproblems.com/forum/thread/1049#post-8977
   kind: discussion
   date: 2026-09-11

@@ -62,7 +62,7 @@ explicit form of the site's very large range for Problem 475. Result pages:
 and
 [[additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_7_1|theorem_7_1]].
 
-Source: <https://arxiv.org/abs/2508.18254>. The arXiv record
+Source: <https://arxiv.org/abs/2508.18254v1>. The arXiv record
 (https://arxiv.org/abs/2508.18254, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

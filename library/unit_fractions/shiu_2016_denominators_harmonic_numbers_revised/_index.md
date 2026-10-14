@@ -75,7 +75,7 @@ infinitely often: it is conjectured here, not proved, and the paper adds the
 quantitative conjecture K_1 x/log x < Qtilde(x) < K_2 x/log x for the counting
 function of {n : d_n = D_n}.
 
-Source: <https://arxiv.org/abs/1607.02863>.
+Source: <https://arxiv.org/abs/1607.02863v2>.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0291/_index|#291]]: with
 $\sum_{k\le n}1/k=a_n/L_n$ as on the problem page, $q_n=(a_n,L_n)$;

@@ -67,7 +67,7 @@ the Erdős--Rubin--Taylor characterization of 2-choosable graphs
 for k = 3 and k = 4 are built from the gadgets of Theorems 1.8 and 1.7
 (Lemmas 4.9 and 4.11, pp. 10--11).
 
-Source: <https://arxiv.org/abs/0802.2668>.
+Source: <https://arxiv.org/abs/0802.2668v1>.
 
 Read status: claims checked for Theorems 1.7 to 1.12, read clause by clause
 on the page images of the arXiv version. The proofs of the Theorems

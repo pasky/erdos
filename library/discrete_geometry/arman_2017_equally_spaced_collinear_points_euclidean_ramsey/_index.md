@@ -48,7 +48,7 @@ pp. 1--4. Read status: claims checked for Theorem 2.1, Lemmas 2.2 and 2.3 and
 Conjecture 1, read clause by clause on the page images; the proofs (pp. 2--3)
 were read through, not verified. Nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/1705.04640>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1705.04640v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1705.04640), every other right
 reserved.
 

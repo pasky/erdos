@@ -13,7 +13,7 @@ claim: proved
 scope: partial
 submitted: null
 links:
-- url: https://arxiv.org/abs/2509.00128
+- url: https://arxiv.org/abs/2509.00128v1
   kind: preprint
   date: 2025-08-29
 created: 2026-10-07T21:33:46Z

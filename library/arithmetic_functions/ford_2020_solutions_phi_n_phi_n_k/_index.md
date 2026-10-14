@@ -94,7 +94,7 @@ cited Ford alongside the Schinzel and Tao observation that shift $2$ is more
 tractable than shift $1$ is retained as contextual provenance, not as a
 unit-shift theorem.
 
-Source: <https://arxiv.org/abs/2002.12155>.
+Source: <https://arxiv.org/abs/2002.12155v5>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1003/_index|#1003]], context
 only: Theorem 1 gives infinitude for even shifts only, and Theorem 2 for

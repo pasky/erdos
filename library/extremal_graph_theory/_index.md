@@ -3,7 +3,7 @@ name: extremal_graph_theory
 title: "Extremal and Structural Graph Theory"
 desc: "Sources filed under Extremal and Structural Graph Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-13T12:59:17Z
+updated: 2026-10-14T00:21:45Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -1020,6 +1020,11 @@ at most r has an equitable coloring with r+1 colors, conjectured by Erdős)
 as its Theorem 1, gives a new proof of it and turns the proof into an
 algorithm running in time O(rn²).
 
+[[extremal_graph_theory/kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/_index|kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/]]: An October 2026 arXiv preprint of Jaehoon Kim proving that every graph on n
+vertices decomposes into O(n) cycles and edges, by a single procedure that
+reduces the problem to light graphs; unrefereed, with a declared extensive
+use of ChatGPT and Claude.
+
 [[extremal_graph_theory/komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/_index|komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/]]: Komlós and Szemerédi's 1983 limit law for Hamiltonicity of the random
 graph: with (1/2) n log n + (1/2) n log log n + c n edges the probability of
 a Hamiltonian cycle tends to exp(-exp(-2c)) (Theorem 1), and that of a
@@ -1506,6 +1511,9 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/extremal_graph_theory/E0133/_index|E0133]]
   - [[../wiki/problems/extremal_graph_theory/E0134/_index|E0134]]
   - [[../wiki/problems/extremal_graph_theory/E0136/_index|E0136]]
+- [[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
+  - [[../wiki/problems/extremal_graph_theory/E0184/_index|E0184]]
+  - [[../wiki/problems/extremal_graph_theory/E0802/_index|E0802]]
 - [[number_theory/erdos_1961_unsolved_problems/_index|erdos_1961_unsolved_problems]]
   - [[../wiki/problems/extremal_graph_theory/E0500/_index|E0500]]
 - [[number_theory/various_1999_some_pauls_favorite_problems/_index|various_1999_some_pauls_favorite_problems]]

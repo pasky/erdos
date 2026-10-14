@@ -49,7 +49,7 @@ inequality and spherical cap packing bounds. Problem 1084 cites it for the
 case d = 3: after scaling by 1/2, touching unit balls are points at distance 1
 among points pairwise at distance at least 1.
 
-Source: <https://arxiv.org/abs/1210.5756>.
+Source: <https://arxiv.org/abs/1210.5756v1>.
 
 Read status: claims checked for the results linked below, statements read
 clause by clause on the printed pages of arXiv v1; no proof is checked step by

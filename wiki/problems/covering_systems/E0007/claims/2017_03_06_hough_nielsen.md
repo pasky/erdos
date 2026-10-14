@@ -17,7 +17,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1215/00127094-2019-0058
   kind: paper
-- url: https://arxiv.org/abs/1703.02133
+- url: https://arxiv.org/abs/1703.02133v1
   kind: preprint
   date: 2017-03-06
 - url: https://www.erdosproblems.com/7

@@ -73,7 +73,7 @@ calls the first such bounds, with Proposition 4.15 giving sharpness for the
 boundary of the Voronoi cell of the C_n coroot lattice (the cube). The
 Bears-on rows below state how the paper relates to problems 508 and 1070.
 
-Source: <https://arxiv.org/abs/2303.09487>.
+Source: <https://arxiv.org/abs/2303.09487v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]: the
 problem asks for the chromatic number of the plane, with no condition on the

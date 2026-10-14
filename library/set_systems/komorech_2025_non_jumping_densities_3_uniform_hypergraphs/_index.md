@@ -51,7 +51,7 @@ exhibiting non-jumps, and the paper says that the intervals of jumps for r = 3
 found by Baber and Talbot are, apart from [0, r!/r^r), the only known jumps for
 r >= 3.
 
-Source: <https://arxiv.org/abs/2511.07715>.
+Source: <https://arxiv.org/abs/2511.07715v2>.
 
 **Read status.** Claims checked for the four results below, each on its result
 page; the proofs were read for structure only.

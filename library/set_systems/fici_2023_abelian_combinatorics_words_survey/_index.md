@@ -40,7 +40,7 @@ that four-letter abelian-square-free words grow exponentially in number. The
 additive-powers subsection covers the related question where blocks agree in
 the sum rather than the multiset of their letters.
 
-Source: <https://arxiv.org/abs/2207.09937>.
+Source: <https://arxiv.org/abs/2207.09937v2>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0192/_index|#192]],
 [[../wiki/problems/set_systems/E0231/_index|#231]]

@@ -204,7 +204,7 @@ Lemma 3.14, and Corollary 3.15; their actual downstream ranges are
 separately justified. The problems' established published status is
 distinct from this compilation state.
 
-**Source.** [arXiv record](https://arxiv.org/abs/2010.15802).
+**Source.** [arXiv record](https://arxiv.org/abs/2010.15802v2).
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0057/_index|#57]],
 [[../wiki/problems/graph_coloring/E0063/_index|#63]],

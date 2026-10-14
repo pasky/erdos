@@ -46,7 +46,7 @@ closing discussion conjectures that the true bound is nearly quadratic, perhaps
 matching that lower bound. The paper thus gives an upper bound for Problem 1086,
 on the maximum number of equal-area triangles determined by n planar points.
 
-Source: <https://arxiv.org/abs/1001.4764>.
+Source: <https://arxiv.org/abs/1001.4764v1>.
 
 **Bears on.** [[../wiki/problems/distance_problems/E1086/_index|Problem 1086]]:
 [[distance_problems/apfelbaum_2010_improved_bound_number_unit_area_triangles/theorem_2_1|Theorem 2.1]]

@@ -40,10 +40,11 @@ into (p-5)/4 quadruples whose factorials share a quadratic character, and
 ***
 
 Vladica Andrejić, Milos Tatarevic, On distinct residues of factorials.
-arXiv:1603.04086 (2016); published in Publ. Inst. Math. (Beograd) (N.S.)
-100(114) (2016), 101--106, doi:10.2298/PIM1614101A. The copy read for this
-card is the arXiv v1 preprint. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:1603.04086), every other right reserved.
+[arXiv:1603.04086](https://arxiv.org/abs/1603.04086v1) (2016); published in
+Publ. Inst. Math. (Beograd) (N.S.) 100(114) (2016), 101--106,
+doi:10.2298/PIM1614101A. The copy read for this card is the arXiv v1 preprint.
+The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:1603.04086), every other right reserved.
 
 The paper studies Erdős's question of whether some prime p > 5 has the
 residues of 2!, 3!, ..., (p-1)! modulo p all distinct (a 'socialist prime',

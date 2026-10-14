@@ -80,7 +80,7 @@ clause by clause on the page images of the print; the Appendix's trees and
 coefficient lists were not recomputed. Nothing here is independently
 reviewed.
 
-Source: <https://arxiv.org/abs/2510.18826>.
+Source: <https://arxiv.org/abs/2510.18826v2>.
 
 **Bears on.**
 

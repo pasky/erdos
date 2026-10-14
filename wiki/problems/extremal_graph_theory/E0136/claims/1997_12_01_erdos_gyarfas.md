@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF01195000
   kind: paper
-  date: 1997-12-01
+  date: 1997-12
 - url: https://www.erdosproblems.com/136
   kind: discussion
 created: 2026-10-07T20:00:46Z

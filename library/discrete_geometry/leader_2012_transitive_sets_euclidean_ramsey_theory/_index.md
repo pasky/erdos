@@ -97,12 +97,13 @@ Ramsey Theory*, Journal of Combinatorial Theory, Series A 119(2) (February
 2012), 382–396,
 [DOI 10.1016/j.jcta.2011.09.005](https://doi.org/10.1016/j.jcta.2011.09.005).
 
-The copy read for this card is the 20-page arXiv:1012.1350v1, submitted
-6 December 2010. A separate 20-page author manuscript dated 22 November
-2010 was also consulted. The arXiv PDF's displayed 2018 date is not a listed arXiv
-revision. The published 15-page text has not been acquired or compared;
-the result labels and page numbers in this unit refer to arXiv v1.
-See the [exact source record](source_record.json) and
+The copy read for this card is the 20-page
+[arXiv:1012.1350v1](https://arxiv.org/abs/1012.1350v1), submitted
+6 December 2010. A separate 20-page author manuscript dated 22 November 2010
+was also consulted. The arXiv PDF's displayed 2018 date is not a listed arXiv
+revision. The published 15-page text has not been acquired or compared; the
+result labels and page numbers in this unit refer to arXiv v1. See the
+[exact source record](source_record.json) and
 [[discrete_geometry/leader_2012_transitive_sets_euclidean_ramsey_theory/source_corrections|the
 corrections page]]. The arXiv record names arXiv's non-exclusive
 distribution license for the arXiv PDF (arXiv:1012.1350), every other

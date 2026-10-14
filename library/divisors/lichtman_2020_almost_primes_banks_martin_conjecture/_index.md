@@ -53,7 +53,7 @@ method. The paper presents the Banks-Martin conjecture as an extension of
 Erdos's conjecture f(A) <= f(N_1) = 1.636... for primitive sets A (p. 1), and
 does not mention Erdos problem 1196.
 
-Source: <https://arxiv.org/abs/1909.00804>. Page numbers on the result pages
+Source: <https://arxiv.org/abs/1909.00804v2>. Page numbers on the result pages
 are those of the arXiv edition named above.
 
 Read status: claims checked for Theorems 2.1, 2.2, 4.1 and 5.3, read clause by

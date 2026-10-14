@@ -21,7 +21,7 @@ links:
   date: 1989-05-01
 - url: https://doi.org/10.1007/BF03041066
   kind: paper
-  date: 1991-12-01
+  date: 1991-12
 - url: https://www.erdosproblems.com/185
   kind: discussion
 created: 2026-10-07T07:49:33Z

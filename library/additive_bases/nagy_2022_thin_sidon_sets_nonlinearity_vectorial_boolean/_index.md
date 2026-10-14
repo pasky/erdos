@@ -41,7 +41,7 @@ constructions with an ellipse. The paper also asks for which n every Sidon set
 S in an elementary abelian group A of order 2^n satisfies |S| <= sqrt(|A|) + 2;
 the author knows of a single n for which this fails, n = 11 (p. 3).
 
-Source: <https://arxiv.org/abs/2212.05887>.
+Source: <https://arxiv.org/abs/2212.05887v2>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0156/_index|#156]]: context
 only. Problem 156 asks for a maximal Sidon set in {1,...,N} of size O(N^{1/3});

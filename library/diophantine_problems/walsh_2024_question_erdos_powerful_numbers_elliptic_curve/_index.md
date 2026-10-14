@@ -41,7 +41,7 @@ records as solved by Nitaj and later, in a different way, by Cohn, and notes
 that the abc conjecture makes the 4-powerful analog finite with no example
 known.
 
-Source: <https://arxiv.org/abs/2404.03970>. The arXiv record
+Source: <https://arxiv.org/abs/2404.03970v1>. The arXiv record
 (https://arxiv.org/abs/2404.03970, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license. The held PDF is the arXiv v1 preprint of 5 April 2024.
 

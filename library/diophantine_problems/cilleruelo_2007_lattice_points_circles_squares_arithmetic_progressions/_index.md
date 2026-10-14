@@ -92,7 +92,7 @@ distinct squares, and is not proved here. The results on squares in exact
 arithmetic progressions (sigma(k)) and on lattice points in short arcs do not
 address quasi-progressions.
 
-Source: <https://arxiv.org/abs/math/0608109>. The arXiv record carries no
+Source: <https://arxiv.org/abs/math/0608109v1>. The arXiv record carries no
 license field, so arXiv's assumed license applies (arXiv:math/0608109), every
 other right reserved.
 

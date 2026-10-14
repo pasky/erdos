@@ -41,10 +41,10 @@ Conjecture 7.1.
 Benjamin Girard, *Inverse zero-sum problems and algebraic invariants*, Acta
 Arithmetica 135 (3) (2008), 231–246, DOI
 [10.4064/aa135-3-3](https://doi.org/10.4064/aa135-3-3). The copy read for this card is
-arXiv:0806.3676v2, revised 18 October 2010. The journal record is available
-through [EuDML](https://eudml.org/doc/278276). The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:0806.3676), every other right
-reserved.
+[arXiv:0806.3676v2](https://arxiv.org/abs/0806.3676v2), revised 18 October 2010.
+The journal record is available through [EuDML](https://eudml.org/doc/278276).
+The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:0806.3676), every other right reserved.
 
 ## Definitions and invariants
 

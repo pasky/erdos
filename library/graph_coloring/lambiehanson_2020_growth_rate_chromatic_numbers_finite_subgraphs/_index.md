@@ -61,7 +61,7 @@ iterated exponential. Questions 6.1 and 6.2 (p. 10) leave open whether ZFC
 gives such graphs of size $\aleph_1$, and of arbitrarily large chromatic
 number.
 
-Source: <https://arxiv.org/abs/1902.08177>.
+Source: <https://arxiv.org/abs/1902.08177v2>.
 
 Read status: claims checked for every statement linked below, read clause by
 clause on the page images of the print; the proofs of Theorems A and B were

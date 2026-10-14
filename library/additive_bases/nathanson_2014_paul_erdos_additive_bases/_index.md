@@ -77,7 +77,7 @@ Read status: claims checked for the results linked below, statements read
 clause by clause on the printed pages of arXiv v1; the survey gives no
 proofs, so none is checked.
 
-Source: <https://arxiv.org/abs/1401.7598>.
+Source: <https://arxiv.org/abs/1401.7598v1>.
 
 **Bears on.**
 

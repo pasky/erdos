@@ -50,7 +50,7 @@ taken polynomial in x and noted that this would imply the conjecture, as the
 paper recalls. A final section discusses analogous results for tournaments and
 ordered graphs.
 
-Source: <https://arxiv.org/abs/2301.10147>.
+Source: <https://arxiv.org/abs/2301.10147v3>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0061/_index|#61]]:
 result 1.3 gives every H-free graph G with |G| >= 2 a clique or stable set of

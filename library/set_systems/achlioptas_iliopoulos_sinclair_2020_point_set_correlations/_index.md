@@ -34,13 +34,13 @@ polynomial-time randomized algorithm.
 
 Dimitris Achlioptas, Fotis Iliopoulos, and Alistair Sinclair, “Beyond the
 Lovász Local Lemma: Point to Set Correlations and Their Algorithmic
-Applications,” arXiv:1805.02026v4 (2020).  The copy read for this card is the
-arXiv revision dated 19 August 2020.  A preliminary version appeared in the
-FOCS 2019 proceedings, pp. 725–744, DOI
-[10.1109/FOCS.2019.00049](https://doi.org/10.1109/FOCS.2019.00049); the
-arXiv text is not asserted to be the proceedings text. The arXiv record
-names arXiv's non-exclusive distribution license (arXiv:1805.02026), every
-other right reserved.
+Applications,” [arXiv:1805.02026v4](https://arxiv.org/abs/1805.02026v4) (2020).
+The copy read for this card is the arXiv revision dated 19 August 2020. A
+preliminary version appeared in the FOCS 2019 proceedings, pp. 725–744, DOI
+[10.1109/FOCS.2019.00049](https://doi.org/10.1109/FOCS.2019.00049); the arXiv
+text is not asserted to be the proceedings text. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1805.02026), every other right
+reserved.
 
 The framework has a finite state space \(\Omega\), flaws
 \(\mathcal F=\{f_1,\ldots,f_m\}\), and flawed region

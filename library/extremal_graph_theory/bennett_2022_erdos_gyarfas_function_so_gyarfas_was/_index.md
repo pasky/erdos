@@ -37,7 +37,7 @@ colors; phase two finishes with a fresh epsilon n/2 colors using the Lovasz
 Local Lemma. Chernoff and Freedman inequalities (Lemmas 1 and 2) supply the
 concentration tools. This settles problem 136 on the growth of f(n,4,5).
 
-Source: <https://arxiv.org/abs/2207.02920>. The held PDF is arXiv:2207.02920v1
+Source: <https://arxiv.org/abs/2207.02920v1>. The held PDF is arXiv:2207.02920v1
 (6 July 2022, 35 pages), the only arXiv version; the labels and pages below
 are the preprint's, and the journal version was not compared with it.
 

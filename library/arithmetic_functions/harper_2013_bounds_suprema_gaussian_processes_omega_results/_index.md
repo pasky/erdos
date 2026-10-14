@@ -86,7 +86,7 @@ even larger ones since the distribution of M(x) may have heavy tails, and that
 an argument like Harper's, based on a certain average of M(x), seems unable
 to detect such large but rare fluctuations.
 
-Source: <https://arxiv.org/abs/1012.0210>.
+Source: <https://arxiv.org/abs/1012.0210v2>.
 
 Read status: claims checked for the results linked below, statements read
 clause by clause on the printed pages of arXiv v2; no proof is checked step

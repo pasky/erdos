@@ -77,7 +77,7 @@ cores, [[set_systems/solymosi_2017_small_cores_3_uniform_hypergraphs/theorem_4_1
 O(n^{3/2+1/s}) for integers s > 2, and Section 5 (p. 10) gives core(n,k) <=
 n^3/k^2 for k between sqrt(n) and n.
 
-Source: <https://arxiv.org/abs/1504.01829>.
+Source: <https://arxiv.org/abs/1504.01829v2>.
 
 **Read status.** Claims checked for the results below, each on its result
 page; the proofs were read for structure only, and Theorems 1.3 and 3.5 are

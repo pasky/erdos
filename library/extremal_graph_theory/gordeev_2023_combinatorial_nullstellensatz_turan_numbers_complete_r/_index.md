@@ -61,7 +61,7 @@ settled. The local PDF is Gordeev's note, and the arXiv identifier
 2307.04447 is confirmed from the file's own stamp and the arXiv record
 (above).
 
-Source: <https://arxiv.org/abs/2307.04447>.
+Source: <https://arxiv.org/abs/2307.04447v1>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1158/_index|#1158]]: Theorem 3.2
 (p. 2, page image;

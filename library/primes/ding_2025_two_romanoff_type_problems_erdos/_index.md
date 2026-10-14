@@ -52,7 +52,7 @@ classes; exact asymptotics for the Romanoff weight over pairwise differences of
 floor(y^k), unrestricted and over even differences, are also proved. This is the
 current state of the art on problem 244, the Erdos-Kalmar question.
 
-Source: <https://arxiv.org/abs/2503.22700>.
+Source: <https://arxiv.org/abs/2503.22700v4>.
 
 **Bears on.** [[../wiki/problems/primes/E0244/_index|#244]]
 

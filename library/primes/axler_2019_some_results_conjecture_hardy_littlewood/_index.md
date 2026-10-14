@@ -45,7 +45,8 @@ n >= c_2 sqrt(m) log m log(m log^8 m), where c_2 = 1/(4 pi).
 
 ***
 
-The copy read for this card is arXiv:1909.12625v2 (30 September 2019), 9
+The copy read for this card is
+[arXiv:1909.12625v2](https://arxiv.org/abs/1909.12625v2) (30 September 2019), 9
 pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1909.12625), every other right reserved.
 

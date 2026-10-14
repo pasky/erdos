@@ -41,7 +41,7 @@ negative check: it settles a different question from the same Erdos-Graham 1980
 source, not the r = 2 base-2-and-3 generalized Sierpinski question of problem
 203.
 
-Source: <https://arxiv.org/abs/2501.15170>.
+Source: <https://arxiv.org/abs/2501.15170v3>.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0204/_index|#204]], which it
 settles; [[../wiki/problems/covering_systems/E0203/_index|#203]], as a negative

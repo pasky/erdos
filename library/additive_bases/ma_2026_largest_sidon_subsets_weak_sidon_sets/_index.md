@@ -60,7 +60,7 @@ the (4,5)-set work. The paper's Problem 1.4, the determination of c*, is the
 problem it identifies with Erdős Problem #757; the paper narrows both bounds
 and does not determine c*.
 
-Source: <https://arxiv.org/abs/2602.23282>.
+Source: <https://arxiv.org/abs/2602.23282v2>.
 
 ## Results
 

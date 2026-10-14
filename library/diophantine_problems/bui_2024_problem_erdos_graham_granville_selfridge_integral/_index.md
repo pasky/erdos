@@ -64,7 +64,7 @@ method relates t_n to P^+(n), starting from Granville and Selfridge's result
 that t_n = P^+(n) when P^+(n) > sqrt(2n)+1, and uses smooth-number counts and
 an effective theorem of Bérczes, Evertse and Győry.
 
-Source: <https://arxiv.org/abs/2211.12467>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2211.12467v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2211.12467), every other right
 reserved.
 

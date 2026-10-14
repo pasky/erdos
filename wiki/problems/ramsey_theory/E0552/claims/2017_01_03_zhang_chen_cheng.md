@@ -1,5 +1,5 @@
 ---
-name: problems/ramsey_theory/E0552/claims/2017_04_01_zhang_chen_cheng
+name: problems/ramsey_theory/E0552/claims/2017_01_03_zhang_chen_cheng
 title: Zhang, Chen and Cheng, R(C_4,S_n) at n = q^2-t for odd prime powers q and odd t
 desc: |
   Theorem 4 of Zhang, Chen and Cheng (Discrete Math. 2017), a refereed result,
@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/j.disc.2016.12.005
   kind: paper
-  date: 2017-04-01
+  date: 2017-04
 - url: https://www.erdosproblems.com/552
   kind: discussion
 created: 2026-10-07T21:33:46Z
@@ -55,7 +55,8 @@ constructions and lemmas.
 
 **Acceptance.** Refereed: the paper is a journal publication in Discrete
 Mathematics, volume 340, number 4 (April 2017). This is the `refereed` evidence.
-The issue carries no day, so this page is dated to the first day of that month.
+The paper was available online on 3 January 2017, its earliest public date,
+which dates this page.
 The site's curator refers to this paper in the commentary on exact values. But
 the site's label OPEN settles neither the problem nor a declared part of it, so
 `reviewed` is not listed. The statement is checked against the publisher's text,

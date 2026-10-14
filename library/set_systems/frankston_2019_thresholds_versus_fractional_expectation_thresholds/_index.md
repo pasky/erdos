@@ -72,7 +72,7 @@ methodological, since its main lemma (Lemma 3.1) strengthens the
 Alweiss-Lovett-Wu-Zhang approach to the sunflower conjecture and turns that
 spread technology into a general threshold theorem.
 
-Source: <https://arxiv.org/abs/1910.13433>.
+Source: <https://arxiv.org/abs/1910.13433v2>.
 
 **Bears on.** [[../wiki/problems/set_systems/E0020/_index|#20]]: methodological
 only; [[set_systems/frankston_2019_thresholds_versus_fractional_expectation_thresholds/lemma_3_1|Lemma 3.1]] (p. 5) is

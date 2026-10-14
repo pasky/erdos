@@ -76,7 +76,7 @@ work (Currier, Moore and Yip,
 removes the measurability hypothesis for the equal-step three-term
 progression.
 
-Source: <https://arxiv.org/abs/1507.02727>.
+Source: <https://arxiv.org/abs/1507.02727v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0173/_index|#173]]: for
 measurable two-colorings of the plane only, Theorem 9 (p. 8) gives a

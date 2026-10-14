@@ -30,9 +30,10 @@ The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2106.10756), every other right reserved.
 
 Paul Pollack, Lee Troupe, "Sums of proper divisors follow the Erdős--Kac law,"
-arXiv:2106.10756v1 (20 June 2021); published in Proc. Amer. Math. Soc. 151
-(2023), no. 3, 977--988. The edition read is arXiv v1 (12 pp.); labels and
-pages on this card and its result pages are those of that print.
+[arXiv:2106.10756v1](https://arxiv.org/abs/2106.10756v1) (20 June 2021);
+published in Proc. Amer. Math. Soc. 151 (2023), no. 3, 977--988. The edition
+read is arXiv v1 (12 pp.); labels and pages on this card and its result pages
+are those of that print.
 
 ## Results
 

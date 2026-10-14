@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.4064/cm9628-5-2025
   kind: paper
-- url: https://arxiv.org/abs/2504.18712
+- url: https://arxiv.org/abs/2504.18712v1
   kind: preprint
   date: 2025-04-25
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos270.lean#L1027

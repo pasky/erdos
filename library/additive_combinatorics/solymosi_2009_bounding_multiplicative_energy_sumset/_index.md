@@ -66,7 +66,7 @@ Read status: claims checked for the results linked below, statements read
 clause by clause on the printed pages of arXiv v3; the proofs read for
 structure only. Nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/0806.1040>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/0806.1040v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:0806.1040), every other right
 reserved.
 

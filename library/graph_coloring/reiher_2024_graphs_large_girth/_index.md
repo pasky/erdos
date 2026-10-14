@@ -53,7 +53,7 @@ $K_{n,\aleph_1}$. In particular it contains cycles of every finite even length.
 This proves the uncountable-chromatic special case of Problem 63, but it does
 not address graphs of chromatic number exactly $\aleph_0$.
 
-Source: <https://arxiv.org/abs/2403.13571>.
+Source: <https://arxiv.org/abs/2403.13571v1>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0063/_index|#63]]
 

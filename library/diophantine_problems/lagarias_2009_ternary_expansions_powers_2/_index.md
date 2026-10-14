@@ -54,7 +54,7 @@ log_3(N M_k).
 Lagarias, Jeffrey C., Ternary expansions of powers of 2. J. Lond. Math. Soc. (2)
 79 (2009), no. 3, 562--588. doi:10.1112/jlms/jdn080.
 
-Source: <https://arxiv.org/abs/math/0512006>. The copy read for this card is
+Source: <https://arxiv.org/abs/math/0512006v4>. The copy read for this card is
 the arXiv version arXiv:math/0512006v4, dated July 11, 2008, 28 pages; theorem
 numbers and pages below follow it, not the journal print. The arXiv record
 names arXiv's non-exclusive distribution license (arXiv:math/0512006), every

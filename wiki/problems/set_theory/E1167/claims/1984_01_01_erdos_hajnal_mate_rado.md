@@ -20,7 +20,7 @@ submitted: null
 links:
 - url: https://mathscinet.ams.org/mathscinet-getitem?mr=795592
   kind: paper
-  date: 1984-01-01
+  date: 1984
 - url: https://www.erdosproblems.com/1167
   kind: discussion
 created: 2026-10-07T19:24:20Z

@@ -59,7 +59,7 @@ many $n$ have $n-k^2$ prime for every $k$ coprime to $n$ with $k^2<n$: in
 the preprint arXiv:2604.06609, Alexeev, Putterman, Sawhney, Sellke and
 Valiant deduce from it that only finitely many $n$ do.
 
-Source: <https://arxiv.org/abs/1508.05035>.
+Source: <https://arxiv.org/abs/1508.05035v2>.
 
 Read status: claims checked for Theorems 1.1, 1.2 and 1.3, Theorems 2.3, 2.4
 and 2.7, Proposition 3.1 and the remarks of pp. 2, 3, 8 and 10, read clause by

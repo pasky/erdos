@@ -48,7 +48,7 @@ one is, from a proof created by a person. For problem 508 it is a methodological
 source only: it reproves the lower bound chi >= 5 for the ordinary unit-distance
 chromatic number and gives no new bound.
 
-Source: <https://arxiv.org/abs/2010.12661>.
+Source: <https://arxiv.org/abs/2010.12661v1>.
 
 **Read status.** Claims checked: the Theorem and the outline of its proof were
 read clause by clause on the print. The coloring diagrams of Table 4 (pp.

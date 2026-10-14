@@ -61,7 +61,7 @@ threshold k_0(n) with (log log n)^{1/2} << k_0(n) << exp((log n)^{2/3+o(1)})
 (p. 4), and the paper reports (p. 3) that Erdős later expected a negative
 answer to Question 1.1, which Theorem 1.4 confirms.
 
-Source: <https://arxiv.org/abs/2605.21221>.
+Source: <https://arxiv.org/abs/2605.21221v2>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0387/_index|#387]]:
 [[factorials_binomials/bui_2026_binomial_coefficients_divisors_avoiding_interval/question_1_1|Question 1.1]]
