@@ -5,7 +5,10 @@ desc: |
   In two 1997 problem papers Erdős reports that he, Pomerance and Sárközy can
   prove the clustering property for the divisor function $\tau$ and for the
   number $\omega$ of distinct prime factors. No proof has been published.
-authors: []
+authors:
+- Paul Erdős
+- Carl Pomerance
+- András Sárközy
 status: claimed
 claim: proved
 scope: partial
