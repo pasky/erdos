@@ -93,8 +93,9 @@ legs and a passing count summary go to stderr, failed legs and a failing count
 summary go to stdout, the final success line goes to stdout, and the exit code
 is 0 when no leg failed, 1 when any leg failed, and 2 on a command or usage
 error. The evidence command (`erdos evidence`, "Evidence command contract"
-below) and the one-off audits are not gate legs: nothing in the gate, the hooks,
-or the merge path runs them.
+below) and the lead audit are not gate legs: nothing in the gate, the hooks, or
+the merge path runs them. The license audit, the other one-off audit, runs as
+the gate's `library licenses` leg ("One-off audits" below).
 
 Root pytest discovery is limited to `tests/` and `tools/`, including package
 doctests; it does not collect mathematical evidence.
