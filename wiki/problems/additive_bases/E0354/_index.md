@@ -68,9 +68,11 @@ dyadic rational and the other is not. The first question also has one pending
 partial claim,
 [[problems/additive_bases/E0354/claims/2026_09_13_yu_chen|the Yu–Chen manuscript]],
 which claims the stronger strong completeness. The full answer to the first
-question rests on a bounty site's acceptance alone, with no refereed publication
-and no erdosproblems.com acceptance. The Current assessment records its
-provenance and limits.
+question rests on this corpus's rebuild of the Conjectures.io file on the
+repository's pinned toolchain (Lean v4.34.1) and its kernel replay of the
+target, with Conjectures.io's certification reported, not counted; there is no
+refereed publication and no erdosproblems.com acceptance. The Current assessment
+records its provenance and limits.
 
 The second question has a pending partial claim under each of its two readings.
 [[problems/additive_bases/E0354/claims/2026_09_05_kitamura|Kitamura's Lean proof at one base]]

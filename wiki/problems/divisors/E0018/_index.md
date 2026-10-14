@@ -248,9 +248,11 @@ applied, and every argument sound as reconstructed, the later van Doorn steps
 taking the earlier ones as claimed inputs. These internal reviews assign no
 tier. The six van Doorn reviews together cover the note's proof of Theorem 1.1,
 every step graded sound, and acceptance of van Doorn's claim on them is pending
-until the project's reviewer signs off, so part (a) stays claimed. This corpus
-built no Lean; the part-(b) statement rests on Conjectures.io's kernel check
-and review; parts (a) and (c) carry claims and cited bounds only.
+until the project's reviewer signs off, so part (a) stays claimed. The part-(b)
+statement rests on this corpus's rebuild of the Conjectures.io file on the
+repository's pinned toolchain (Lean v4.34.1) and its kernel replay of the target
+from an empty environment, with Conjectures.io's kernel check and review
+reported, not counted; parts (a) and (c) carry claims and cited bounds only.
 
 ## Known results
 
