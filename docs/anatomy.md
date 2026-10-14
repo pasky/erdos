@@ -517,31 +517,29 @@ problem, `claimed` when a pending full claim would settle it, else `open`.
 `claim` names what the settling or pending full claims assert: `none`, `proved`,
 `disproved`, `answered` (an answer that is neither a proof nor a disproof, such
 as a value the question asks for), `independent`, or `contested` when pending
-full claims disagree. A problem with several parts may list them as `parts`,
-short labels; a partial claim then names the parts it settles under `settles`,
-labels from that list. Such a problem is also `solved` when accepted claims
-settle every part and `claimed` when accepted and pending claims together settle
-every part, its `claim` the settling claims' common value or `answered` when
-they differ across parts; a part counts as settled only by claims that answer
-it, never by a reduction to a finite check, and claims that answer one part
-differently disagree. A part is definite when it says what counts as an answer:
-yes or no, a value, an order of magnitude or an asymptotic formula. A part that
-asks only for unspecified information, such as what can be said, a description,
-or an estimate with no target, is open-ended: list it under `open_ended`, labels
-from `parts`, with at least one part definite. Open-ended parts never block the
-standing: the problem is solved when accepted claims settle its definite parts
-and claimed when accepted and pending claims together settle them, and the
-problem page still records what is known about each open-ended part and whom it
-is credited to. A result that the statement is not provable, or that it is not
-disprovable, is one-sided: its claim page carries `not_provable` or
-`not_disprovable` with scope `partial`, and on its own it leaves the problem, or
-the part it names, open; one of each, accepted, settles the problem or that part
-as `independent`, and with one of them pending it is `claimed`. `tags` lists the
-problem's tag strings; the repository-specific section says where they come
-from. The problem page never carries a hand-set standing: a problem without a
-claim page keeps a provisional standing, which the schema check counts and, in
-its settled mode (the release mode), fails, unless that standing is `open` with
-claim `none`, which needs no claim page.
+full claims disagree. A problem whose statement asks several questions may list
+its definite ones as `parts`, short labels; a partial claim then names the parts
+it settles under `settles`, labels from that list. A question is definite when
+it says what counts as an answer: yes or no, a value, an order of magnitude or
+an asymptotic formula. A question that asks only for unspecified information,
+such as what can be said, a description, or an estimate with no target, is
+open-ended: it is not a part, so it never blocks the standing, and the page text
+records it with what is known about it and whom it is credited to. Such a
+problem is also `solved` when accepted claims settle every part and `claimed`
+when accepted and pending claims together settle every part, its `claim` the
+settling claims' common value or `answered` when they differ across parts; a
+part counts as settled only by claims that answer it, never by a reduction to a
+finite check, and claims that answer one part differently disagree. A result
+that the statement is not provable, or that it is not disprovable, is one-sided:
+its claim page carries `not_provable` or `not_disprovable` with scope `partial`,
+and on its own it leaves the problem, or the part it names, open; one of each,
+accepted, settles the problem or that part as `independent`, and with one of
+them pending it is `claimed`. `tags` lists the problem's tag strings; the
+repository-specific section says where they come from. The problem page never
+carries a hand-set standing: a problem without a claim page keeps a provisional
+standing, which the schema check counts and, in its settled mode (the release
+mode), fails, unless that standing is `open` with claim `none`, which needs no
+claim page.
 
 A claim page carries `authors`, `status` (`claimed`, `accepted`, `rejected` or
 `withdrawn`), `claim` (the problem values without `none` and `contested`, plus
@@ -611,9 +609,9 @@ only with the evidence it lists, and the problem's `status` and `claim` follow
 by derivation. The `problem claims` gate leg checks the keys and their
 vocabularies, the claim names, the evidence order, the shape of `links` and
 `submitted`, the **Covers.** and **Depends on.** paragraphs, the dependency
-rule, the `parts`, `open_ended` and `settles` labels and the derivation; the
-`problem-claims` command runs the same check and, with `--write`, sets the
-derived values, both over the problems `--problem` selects when it is given.
+rule, the `parts` and `settles` labels and the derivation; the `problem-claims`
+command runs the same check and, with `--write`, sets the derived values, both
+over the problems `--problem` selects when it is given.
 
 ## Naming
 

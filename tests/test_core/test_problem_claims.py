@@ -19,8 +19,6 @@ __all__ = [
     'test_one_sided_results_settle_only_as_a_pair',
     'test_accepted_claims_differing_on_one_part_disagree',
     'test_parts_and_settles_are_checked',
-    'test_open_ended_parts_never_block_the_standing',
-    'test_open_ended_labels_are_checked',
     'test_a_provisional_standing_without_claims_is_debt_until_settled',
     'test_a_claim_page_without_authors_is_debt_until_settled',
     'test_an_empty_authors_list_records_an_unknown_name',
@@ -601,66 +599,6 @@ def test_parts_and_settles_are_checked(tmp_path: pathlib.Path) -> None:
         "wiki/problems/alpha/p1/claims/2026_01_05_fourth.md: claim 'decidable' is a reduction to a finite check; it settles no part",
         'wiki/problems/alpha/p2/_index.md: parts must be a nonempty list of distinct short labels (lowercase letters, digits, underscores)',
         'wiki/problems/alpha/p2/claims/2026_01_02_claimant.md: settles needs the problem page to list its parts',
-    ]
-
-
-@pytest.mark.parametrize(
-    ('settles', 'expected'),
-    [
-        # accepted claims settle both definite parts; the open-ended one waits
-        ({'lower': 'accepted', 'upper': 'accepted'}, ('solved', 'proved')),
-        # one definite part rests on a pending claim
-        ({'lower': 'accepted', 'upper': 'claimed'}, ('claimed', 'proved')),
-        # a claim on the open-ended part stands in for no definite part
-        ({'lower': 'accepted', 'shape': 'accepted'}, ('open', 'none')),
-    ],
-    ids=['definite_parts_accepted', 'definite_part_pending', 'definite_part_unsettled'],
-)
-def test_open_ended_parts_never_block_the_standing(
-    tmp_path: pathlib.Path, settles: dict[str, str], expected: tuple[str, str]
-) -> None:
-    """A problem settles on its definite parts; its open-ended parts never hold it back."""
-    page = _problem(
-        tmp_path,
-        status='open',
-        claim='none',
-        extra=('parts: [lower, upper, shape]', 'open_ended: [shape]'),
-    )
-    for index, (part, status) in enumerate(settles.items()):
-        frontmatter = _replace(_CLAIM, 'scope:', 'scope: partial', f'settles: [{part}]')
-        if status == 'claimed':
-            frontmatter = _without(
-                _replace(frontmatter, 'status:', 'status: claimed'),
-                'evidence:',
-                '- refereed',
-            )
-        _claim(
-            tmp_path,
-            f'2026_01_0{index + 2}_claimant_{index}.md',
-            frontmatter=frontmatter,
-            body=('**Covers.** One part of the question.', '', *_BODY),
-        )
-    write_derived(tmp_path)
-    assert lint_problem_claims(tmp_path)[0] == []
-    text = page.read_text(encoding='utf-8')
-    assert f'status: {expected[0]}\nclaim: {expected[1]}\n' in text
-
-
-def test_open_ended_labels_are_checked(tmp_path: pathlib.Path) -> None:
-    """Open-ended labels are distinct labels from the problem's parts, leaving one part definite."""
-    for folder, extra in (
-        ('alpha/p1', ('open_ended: [shape]',)),
-        ('alpha/p2', ('parts: [lower, upper]', 'open_ended: [middle]')),
-        ('alpha/p3', ('parts: [lower, upper]', 'open_ended: [lower, lower]')),
-        ('alpha/p4', ('parts: [lower, upper]', 'open_ended: [lower, upper]')),
-    ):
-        _problem(tmp_path, folder, status='open', claim='none', extra=extra)
-    findings, _ = lint_problem_claims(tmp_path)
-    assert findings == [
-        'wiki/problems/alpha/p1/_index.md: open_ended needs the problem page to list its parts',
-        "wiki/problems/alpha/p2/_index.md: open_ended names labels outside the problem's parts: middle",
-        'wiki/problems/alpha/p3/_index.md: open_ended must be a nonempty list of distinct part labels',
-        'wiki/problems/alpha/p4/_index.md: open_ended names every part; at least one part must be definite',
     ]
 
 
