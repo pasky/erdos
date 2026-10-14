@@ -6,19 +6,16 @@ desc: |
   2026, that for two positive reals with irrational ratio every sufficiently
   large integer is a sum of floors of their doubling multiples with each index
   used at most once, the first question of Problem 354 in the site's exact
-  reading; the site's solution file is retained and was read as text, not
-  built here, and no refereed publication exists.
+  reading; the Conjectures.io solution file is not held, was read as text and
+  was replayed in the kernel here, and no refereed publication exists.
 license: reserved
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-14T01:10:24Z
+updated: 2026-10-14T01:32:08Z
 ---
 
 # JenW1N: Lean proof of Problem 354 part (i), Conjectures.io record 815c1d5f
 
 [[additive_bases/_index|..]]
-
-[[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/evidence/_index|evidence/]]: Retains the site's solution file Main.lean as fetched on 2026-09-28, the
-bytes the site's kernel accepted, unedited; the replay rebuilt a ported copy.
 
 [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/jenw1n_2026_erdos_354_part_i_lean_proof|jenw1n_2026_erdos_354_part_i_lean_proof]]: Record identity, the site's dates and review decision, its verification
 report, the task's pinned statement and the public standing of the result
@@ -43,22 +40,26 @@ its review.
 
 The folder holds no folder-name PDF: the source is the Lean file the site's
 record publishes, with no write-up, so the folder-name Markdown file
-[source record](jenw1n_2026_erdos_354_part_i_lean_proof.md) is the source
-itself and records the URLs, the verified statement, the site's dates, its
-review decision and verification report, and the public standing of the
-result (the library's no-PDF shape). The Lean file is retained unedited
-under `evidence/assets/solution_815c1d5f/Main.lean`; the file's header
-declares no author and no AI system.
+[source record](jenw1n_2026_erdos_354_part_i_lean_proof.md) is the source itself
+and records the URLs, the verified statement, the site's dates, its review
+decision and verification report, and the public standing of the result (the
+library's no-PDF shape). The Lean file is not held: Conjectures.io's terms of
+service license submissions to Conjectures.io alone, as the
+[[number_theory/conjectures_io_2026_lean_solutions_erdos_problems/_index|shared record of the Conjectures.io replays]]
+states. The file's header declares no author and no AI system.
 
 **Provenance of the proof file.**
 <https://conjectures.io/results/815c1d5f-3afb-4430-8e2c-260d9038f5b0/solution/download>
 (the page `.../solution` shows the first 500 of its lines), fetched (HTTP 200);
-10,152 lines; two other fetches returned identical bytes. Header:
-"A proof of the full Erdős 354(levelIndex) proposition" (the "(levelIndex)" is a
-mechanical rename of an identifier `i`). The file is 130 sections, each headed
-`/- Source: <name>.lean -/`, from `DigitTransport.lean` to `FullTarget.lean`,
-all in the namespace `Erdos354Formal`, with the final `theorem target` at line
-10148.
+10,152 lines, 485,414 bytes, SHA-256
+`7188a481c218751aa666a8577f0e6b1281462d4d3d97d548a565db99b44cc2ac`; two other
+fetches returned identical bytes. Its kernel replay is recorded in the
+[[number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0354_815c1d5f|replay receipt]].
+Header: "A proof of the full Erdős 354(levelIndex) proposition" (the
+"(levelIndex)" is a mechanical rename of an identifier `i`). The file is 130
+sections, each headed `/- Source: <name>.lean -/`, from `DigitTransport.lean` to
+`FullTarget.lean`, all in the namespace `Erdos354Formal`, with the final
+`theorem target` at line 10148.
 
 **Read status: claims checked.** The final theorem was read against the
 site's printed type, the task bundle's metadata and the catalog file, and

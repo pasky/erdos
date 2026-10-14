@@ -3,7 +3,7 @@ name: additive_bases
 title: "Additive Bases and Sidon Sets"
 desc: "Sources filed under Additive Bases and Sidon Sets, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T19:43:15Z
+updated: 2026-10-14T01:32:08Z
 ---
 
 # Additive Bases and Sidon Sets
@@ -328,8 +328,8 @@ grow slower than any power, answering a question of Erdos.
 2026, that for two positive reals with irrational ratio every sufficiently
 large integer is a sum of floors of their doubling multiples with each index
 used at most once, the first question of Problem 354 in the site's exact
-reading; the site's solution file is retained and was read as text, not
-built here, and no refereed publication exists.
+reading; the Conjectures.io solution file is not held, was read as text and
+was replayed in the kernel here, and no refereed publication exists.
 
 [[additive_bases/jin_2014_density_versions_plunnecke_inequality/_index|jin_2014_density_versions_plunnecke_inequality/]]: Gives Jin's simplified proof of Plünnecke's Schnirelmann density bound and
 epsilon-delta variants for lower asymptotic and Banach densities.

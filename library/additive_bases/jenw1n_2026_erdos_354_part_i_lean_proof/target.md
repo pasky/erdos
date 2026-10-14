@@ -11,18 +11,20 @@ updated: 2026-10-08T01:29:58Z
 
 ***
 
-**Source.** `theorem target` at line 10148 of the retained `Main.lean`
+**Source.** `theorem target` at line 10148 of `Main.lean`
 (record `815c1d5f`; provenance on the
 [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/_index|source card]]),
 the last of its 130 sections (`/- Source: FullTarget.lean -/`); the
 reduction chain named below by line number in that file.
 
-**Read depth.** Claims checked: the theorem's type was read against the
-site's printed type, the task bundle's `source-metadata.json` and the
-default-branch catalog file, and unfolded as below; the reduction chain
-was read to the two digit criteria. The proofs of the criteria (lines
-about 1,100 to 10,140) were not read line by line; nothing was built or
-kernel-replayed here. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the theorem's type was read against the site's
+printed type, the task bundle's `source-metadata.json` and the default-branch
+catalog file, and unfolded as below; the reduction chain was read to the two
+digit criteria. The proofs of the criteria (lines about 1,100 to 10,140) were
+not read line by line; the file was rebuilt and its target replayed in the
+kernel, as the
+[[number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0354_815c1d5f|replay receipt]]
+records. Nothing here is independently reviewed.
 
 ## Statement
 
