@@ -29,8 +29,9 @@ $k\ge 3$, by the ordering of $\mathbb{R}$ of Ardal, Brown and Jungić [ABJ11],
 which has no monotone three-term arithmetic progression. It is recorded on
 [[problems/additive_combinatorics/E0194/claims/2011_12_01_ardal_brown_jungic|its claim page]]
 with its refereed and site evidence. The label's Lean mark refers to a Lean file
-posted in the site's discussion thread in April 2026 and linked by the catalog.
-That file is listed on the claim page and was not built here.
+posted in the site's discussion thread in April 2026 and linked by the
+formal-conjectures catalog. That file is listed on the claim page and was not
+built here.
 
 **Source.** [erdosproblems.com/194](https://www.erdosproblems.com/194), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #194,

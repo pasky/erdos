@@ -93,6 +93,6 @@ repository of formalized Erdős problems holds a version added on 2026-04-28
 whose header names Fishburn, Lefmann, Thiele and ChatGPT 5.2 Thinking as
 informal authors and ChatGPT 5.2 Thinking, Codex and Li Ding as formal
 authors, the only place Li Ding is named; the statement `erdos_94` in
-formal-conjectures, at the catalog's commit of 2026-09-18, is tagged research
-solved and points to that file. This corpus has built and audited neither
-development, so no `formalized` evidence is listed.
+formal-conjectures, at the formal-conjectures commit of 2026-09-18, is tagged
+research solved and points to that file. This corpus has built and audited
+neither development, so no `formalized` evidence is listed.

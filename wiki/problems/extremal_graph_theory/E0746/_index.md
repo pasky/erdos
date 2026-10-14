@@ -185,14 +185,14 @@ accessed 2026-09-18.
   Cited for its Section 2.1 (p. 2) and its entries [82], [83], [151]--[153]
   and [190]; not held in the library.
 
-**Formalization.** None in the catalog. On 2026-09-18 no file
+**Formalization.** None in the formal-conjectures catalog. On 2026-09-18 no file
 `ErdosProblems/746.lean` existed in formal-conjectures, neither in the directory
 `FormalConjectures/ErdosProblems/` (673 entries) nor elsewhere in the tree
 (1,740 entries); the site's page shows "Formalised statement? No (create
 one)" (with one "Could be formalisable" reaction); the community database
 (teorth/erdosproblems, `data/problems.yaml`, accessed 2026-09-18) records the
 problem as proved (last update 31 August 2025), unformalized, with no
-formalized statement. Outside the catalog,
+formalized statement. Outside the formal-conjectures catalog,
 Boris Alexeev's repository `plby/lean-proofs` holds
 `src/latest/ErdosProblems/Erdos746.lean`, a file that declares itself a Lean
 formalization of a solution to the problem, naming Komlós and Szemerédi as

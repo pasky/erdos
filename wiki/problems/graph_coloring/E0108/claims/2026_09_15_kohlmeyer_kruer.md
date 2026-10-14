@@ -105,17 +105,19 @@ credits Kohlmeyer and Kruer with the negative solution.
 
 **Formal statement.** The file's final theorem is the negation of the catalog
 statement `Erdos108.erdos_108` of formal-conjectures (the
-[catalog file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/108.lean)
-at its revision of 18 September 2026; the catalog commit the Conjectures.io
-record names does not resolve in the public repository, and the record page
-displays the same statement), whose Lean form matches the wording clause by
-clause except that its $r$ ranges over the extended naturals, so $r=\infty$ is
-admitted, where a girth of at least $\infty$ means acyclic and the formal
-statement is trivially false, so the negation the target states is trivial and
-proves nothing about the problem. The proof does not use that defect: it
-instantiates $r=5$ and $k=7$, both inside the wording's range, and its
-counterexamples are finite graphs lifted to every universe, so the refutation
-holds under both a finite-graph and an all-graphs reading of "every graph".
+[formal-conjectures
+file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/108.lean)
+at its revision of 18 September 2026; the formal-conjectures commit the
+Conjectures.io record names does not resolve in the public repository, and the
+record page displays the same statement), whose Lean form matches the wording
+clause by clause except that its $r$ ranges over the extended naturals, so
+$r=\infty$ is admitted, where a girth of at least $\infty$ means acyclic and the
+formal statement is trivially false, so the negation the target states is
+trivial and proves nothing about the problem. The proof does not use that
+defect: it instantiates $r=5$ and $k=7$, both inside the wording's range, and
+its counterexamples are finite graphs lifted to every universe, so the
+refutation holds under both a finite-graph and an all-graphs reading of "every
+graph".
 
 **Acceptance.** Formalized. This corpus's verification rebuilt the record's
 solution file on the repository's pinned toolchain, `leanprover/lean4:v4.34.1`

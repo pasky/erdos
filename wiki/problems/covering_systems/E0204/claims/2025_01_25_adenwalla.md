@@ -72,8 +72,8 @@ that no such $n$ exist and thanks Adenwalla on the problem page (page last
 edited 2025-12-28, accessed 2026-10-07). Bloom labeled the problem disproved
 with a Lean qualification. Bloom is independent of the author.
 Formal-conjectures tags its statement of the problem `research solved` and
-points to the Lean proof linked above (the catalog revision of 2026-10-06,
-linked as a record).
+points to the Lean proof linked above (the formal-conjectures revision of
+2026-10-06, linked as a record).
 
 Not counted as `formalized`: the linked Lean 4 file uses Lean `v4.24.0`, with
 its Mathlib commit stated in the header. It was committed 2026-03-15 and

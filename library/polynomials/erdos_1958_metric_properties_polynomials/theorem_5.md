@@ -46,7 +46,7 @@ None.
 
 ## Bears on
 
-No problem in the catalog is recorded here as concerning this theorem. It
+No problem in Bloom's catalog is recorded here as concerning this theorem. It
 studies the zeros-on-$C$ class of the Corollary to
 [[polynomials/erdos_1958_metric_properties_polynomials/theorem_4|Theorem 4]]
 through the arc length of $E\cap C$ rather than the area of $E$.

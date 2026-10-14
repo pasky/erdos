@@ -73,8 +73,8 @@ as a formalization at the repository's head of 15 September 2026 (accessed
 2026-10-07). The problem page records the statement file of
 formal-conjectures, whose `formal_proof` attribute points at a versioned copy
 of this file on the repository's `main` branch. The file was not built or
-audited here, so `formalized` is not listed and the catalog label warrants no
-kernel credit.
+audited here, so `formalized` is not listed and the erdosproblems.com label
+warrants no kernel credit.
 
 **Date.** The paper appeared in the January 1979 issue; the page name uses
 the first day of that month for want of a day.

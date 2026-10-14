@@ -62,7 +62,7 @@ not its order of magnitude, which remains $\Theta(1/n)$ by
 This page records no proof coverage and no verification tier.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — for $n=3k$ it
-bounds the infimum of the catalog question's probability above by
+bounds the infimum of the erdosproblems.com question's probability above by
 $(1+o(1))\,2\sqrt3/(\pi n)$ as $k\to\infty$, which by p. 5 disproves Conjecture 4.3 and answers
 the second part of Question 4.2 of the He–Juškevičius–Narayanan–Spiro
 paper cited on the problem page negatively; it does not bear on whether

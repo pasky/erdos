@@ -93,12 +93,12 @@ completeness under the Statement, and the two differ only where several
 indices give the same value. At $\alpha=1$ the variant is never complete,
 while the Statement's sequence is complete exactly for $1\le t<2$; the variant
 is answered for $\alpha>2$, for $0<\alpha\le1$ and at integer pairs by the
-catalog's Lean results, and Kitamura's base $\sqrt\varphi$ and Geneson's
-even terms hold under it as well. An index from $n=0$ only renames the pairs:
-the pair $(t,\alpha)$ with the index from $n=0$ is the Statement's pair
-$(t/\alpha,\alpha)$, so the catalog's complete pairs $(1/2^k,2)$, $k\ge0$, are
-the Statement's $(1/2^{k+1},2)$. The claim pages of Graham, van Doorn and
-Sothanaphan use the Statement's sums and index.
+formal-conjectures catalog's Lean results, and Kitamura's base $\sqrt\varphi$
+and Geneson's even terms hold under it as well. An index from $n=0$ only renames
+the pairs: the pair $(t,\alpha)$ with the index from $n=0$ is the Statement's
+pair $(t/\alpha,\alpha)$, so the formal-conjectures catalog's complete pairs
+$(1/2^k,2)$, $k\ge0$, are the Statement's $(1/2^{k+1},2)$. The claim pages of
+Graham, van Doorn and Sothanaphan use the Statement's sums and index.
 
 **Status.** Open, the site's label (OPEN as of 2026-10-06). Six partial claims
 are recorded, and none settles the question. Outside the regions and the base
@@ -115,9 +115,9 @@ $\alpha\ge(1+\sqrt5)/2$. It also classifies entire completeness for
 $1<\alpha\le5^{1/3}$ and proves completeness regions below the golden ratio.
 [[problems/additive_bases/E0349/claims/2026_03_09_sothanaphan|Sothanaphan's note
 with GPT-5.2 Thinking]] sharpens van Doorn's infinite-area region. Of
-[[problems/additive_bases/E0349/claims/2026_06_10_cepadugato|the catalog's Lean
-proofs of the elementary regions of the site's wording]], the completeness of
-the pairs $(1/2^k,2)$, $k\ge1$, carries over to the Statement.
+[[problems/additive_bases/E0349/claims/2026_06_10_cepadugato|the formal-conjectures catalog's Lean proofs of the elementary regions of the site's wording]],
+the completeness of the pairs $(1/2^k,2)$, $k\ge1$, carries over to the
+Statement.
 [[problems/additive_bases/E0349/claims/2026_09_05_kitamura|Kitamura's Lean
 theorem at the square root of the golden ratio]] makes the sequence complete for
 every $t>0$ at that one base.

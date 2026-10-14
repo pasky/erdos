@@ -54,9 +54,9 @@ as a pending claim on
 [[problems/additive_combinatorics/E0789/claims/2026_09_12_korsky|its claim page]].
 The site's commentary does not adopt the claim. Since 2026-09-29 the
 formal-conjectures catalog has carried a third-party formal proof of that lower
-bound, which the corpus has not built. The catalog's main statement `erdos_789`
-stays open. The frontmatter standing, claimed with the claim value answered,
-derives from the pending full claim. The accepted claims are partial.
+bound, which the corpus has not built. The formal-conjectures main statement
+`erdos_789` stays open. The frontmatter standing, claimed with the claim value
+answered, derives from the pending full claim. The accepted claims are partial.
 
 The bounds supported by sources in hand are
 $n^{1/3}(\log n)^{1/3}\ll h(n)<\tfrac4{\sqrt3}n^{1/2}+1$ for all $n$, with the
@@ -162,7 +162,7 @@ declares
 `erdos_789 : (fun n ↦ (subsetSumThreshold n : ℝ)) =Θ[atTop] (answer(sorry) : ℕ → ℝ)`
 under `category research open` with proof `sorry` (the file reads "Estimate
 $h(n)$" as asking for the order of $h(n)$), and seven variants, every body
-in the catalog's file `sorry`: `sq` ($h(n)=\Theta(\sqrt n)$, open),
+in the formal-conjectures file `sorry`: `sq` ($h(n)=\Theta(\sqrt n)$, open),
 `isBigO_sq` ($h(n)=O(\sqrt n)$, solved, "Straus [Str66]", no
 `formal_proof`), `sq_isBigO` ($\sqrt n=O(h(n))$, open),
 `sqrt_loglog_div_log_isBigO` ($\sqrt{n\log\log n/\log n}=O(h(n))$, solved,
@@ -182,8 +182,8 @@ Straus*, 2026), works with signed relations in $A\setminus\{0\}$ instead of
 reducing to positive integers and uses Chebyshev's bounds in place of
 Mertens' theorem; that section contains no `sorry`, `axiom` or
 `native_decide`. The corpus has not built either file, so none of this is
-`formalized` evidence. As the catalog's file stood on 2026-09-18, before
-that commit, it had six variants, all `sorry` with no `formal_proof`, and
+`formalized` evidence. As the formal-conjectures file stood on 2026-09-18,
+before that commit, it had six variants, all `sorry` with no `formal_proof`, and
 the two cube-root variants were stated positively and open. The community
 database (teorth/erdosproblems) recorded, on 2026-09-18, the problem open
 (31 August 2025), the statement formalized since 16 April 2026, no formal

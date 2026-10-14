@@ -181,7 +181,7 @@ its parent, and from the proof itself, which at line 751 rewrites
 `F.edgeSet.ncard = sizeRamsey Q3 (⊤ : SimpleGraph (Fin n))` into the
 `IsRamseySizeLinear` bound as a definitional identity, which typechecks only
 against the size-Ramsey definition. Statement only remains the standing of the
-catalog question.
+erdosproblems.com question.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution/download,

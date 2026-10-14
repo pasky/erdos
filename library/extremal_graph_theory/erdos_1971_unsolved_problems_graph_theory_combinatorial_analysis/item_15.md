@@ -89,7 +89,7 @@ triples, so the value Turán's conjecture describes is $n^3+3n\binom n2+1$,
 and the printed first formula is $n^3$ short of it. The second formula
 agrees with Turán's two-class construction ($2n\binom n2$ triples) and with
 Erdős's 1969 restatement $f(2n,3,5)=n^2(n-1)+1$. The display is recorded as
-printed and is not corrected here. The catalog's $\mathrm{ex}_3(n,K_4^3)$
+printed and is not corrected here. erdosproblems.com's $\mathrm{ex}_3(n,K_4^3)$
 is $g(n;3,4)-1$ in this notation, and its normalized limit for $K_k^r$ is
 $\lim g(n;r,k)/\binom nr$. The references (pp. 107--109) are [2] Brown,
 *On graphs that do not contain a Thomsen graph*, Canad. Math. Bull. 9
@@ -117,9 +117,9 @@ knowledge in 1971 and Turán's conjectures.
 ## Proof pointer
 
 None in the paper. The Kővári--Sós--Turán bound (1) and the $K_2(2,2)$
-asymptotic (3) are theorems of the cited 1954 and 1966 papers; the catalog's
-Problems 714, 765, 572, 573, 500 and 712 record the later literature on each
-display.
+asymptotic (3) are theorems of the cited 1954 and 1966 papers;
+erdosproblems.com's Problems 714, 765, 572, 573, 500 and 712 record the later
+literature on each display.
 
 ## Dependencies
 

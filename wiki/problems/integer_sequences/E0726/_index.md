@@ -152,9 +152,9 @@ the bounty site's listing of Problem 726 among its results is not misread. On
 2026-09-27 the site's two published task bundles for this problem
 (`erdos-726-formalized` and `erdos-726-counterexample`, both marked production
 eligible) printed the defective type `↑p / 2 < ↑n % ↑p`, pinned to a catalog
-commit that the catalog repository reported as not found; the site's review said
-the task should be corrected separately, and a future proof of that task would
-again concern the degenerate statement.
+commit that the formal-conjectures repository reported as not found; the site's
+review said the task should be corrected separately, and a future proof of that
+task would again concern the degenerate statement.
 
 ## Known Results
 

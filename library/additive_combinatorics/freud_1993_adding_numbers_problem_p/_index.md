@@ -65,8 +65,8 @@ and notes 2/3 is best possible if only the relations a_i = a_j + a_{j+1}
 are forbidden. The note records that Coppersmith and Phillips
 independently rediscovered and improved the
 construction to 13n/24 + O(1) and the upper bound to 2/3 - 1/3584 (as printed
-on p. 6201; the site's commentary on problem 867 and the catalog's Lean file
-print 2/3 - 1/512 for that bound). The SIAM paper is filed as
+on p. 6201; the site's commentary on problem 867 and formal-conjectures' Lean
+file print 2/3 - 1/512 for that bound). The SIAM paper is filed as
 [[additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/_index|coppersmith_phillips_1996_question_erdos_subsequence_sums]];
 its Theorem 3.7 prints the bound 2n/3 - floor(n/512) + 3 log_4 n - 1/2 on
 printed p. 177 (PDF p. 5), read there on the page image and

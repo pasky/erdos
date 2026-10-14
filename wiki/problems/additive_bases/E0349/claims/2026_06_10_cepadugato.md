@@ -1,6 +1,6 @@
 ---
 name: problems/additive_bases/E0349/claims/2026_06_10_cepadugato
-title: Lean proofs of the elementary regions of the catalog statement
+title: Lean proofs of the elementary regions of the formal-conjectures statement
 desc: |
   Lean proofs in a fork of formal-conjectures, contributed under the account
   cepadugato in June 2026, show that no pair with base above $2$ or at most $1$
@@ -64,22 +64,23 @@ Statement's answer is Proposition 1 of van Doorn's paper
 ([[problems/additive_bases/E0349/claims/2025_09_08_van_doorn|van Doorn's claim page]]).
 The proofs are elementary and settle nothing in $1<\alpha<2$.
 
-**Claimant and postings.** The proofs were contributed to the catalog under
-the GitHub account `cepadugato` in two pull requests, #4225 (opened
-2026-06-10, merged 2026-06-16, the $\alpha>2$ result) and #4233 (opened
+**Claimant and postings.** The proofs were contributed to the formal-conjectures
+catalog under the GitHub account `cepadugato` in two pull requests, #4225
+(opened 2026-06-10, merged 2026-06-16, the $\alpha>2$ result) and #4233 (opened
 2026-06-11, merged 2026-06-21, the other five), whose descriptions name no
 human author and end with the footer that they were generated with Claude
 Code, the contributor's own disclosure. The first description reports a build
 under Lean v4.27.0 with the axioms `propext`, `Classical.choice` and
-`Quot.sound` only. The proofs live in the fork rather than the catalog because
-they exceed the catalog's proof-length guideline, so the catalog file carries
-statements with `sorry` and the `formal_proof` pointers. The page is dated by
-the first pull request.
+`Quot.sound` only. The proofs live in the fork rather than the
+formal-conjectures catalog because they exceed the formal-conjectures
+proof-length guideline, so the formal-conjectures file carries statements with
+`sorry` and the `formal_proof` pointers. The page is dated by the first pull
+request.
 
-**Standing.** Claimed: the catalog's maintainers merged the statements, which
-is a review of the statements rather than an acceptance of the problem, and
-the site's page does not mention the results. This corpus has not built or
-audited the fork's proofs, so no `formalized` evidence is listed and the
-links are formalizations of the claimant's own result, not a warrant.
+**Standing.** Claimed: the formal-conjectures catalog's maintainers merged the
+statements, which is a review of the statements rather than an acceptance of the
+problem, and the site's page does not mention the results. This corpus has not
+built or audited the fork's proofs, so no `formalized` evidence is listed and
+the links are formalizations of the claimant's own result, not a warrant.
 
 **Depends on.** Nothing in this wiki.

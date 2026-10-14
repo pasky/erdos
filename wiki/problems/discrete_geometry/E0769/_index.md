@@ -52,10 +52,10 @@ https://www.erdosproblems.com/769.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/769.lean),
-pinned at the catalog's revision of 2026-09-18: the theorem `erdos_769`,
-stating that the answer to $c(n)\gg n^n$ is no, is tagged `research solved`
-with a `sorry` proof and a `formal_proof` attribute naming Star Fleet Math's
-Lean disproof, linked since 2026-08-07, while the variant
+pinned at the formal-conjectures revision of 2026-09-18: the theorem
+`erdos_769`, stating that the answer to $c(n)\gg n^n$ is no, is tagged
+`research solved` with a `sorry` proof and a `formal_proof` attribute naming
+Star Fleet Math's Lean disproof, linked since 2026-08-07, while the variant
 `erdos_769.variants.growth_rate`, asking whether $\log c(n)/(n\log n)$ has a
 limit, is tagged `research open`; the claim page
 [[problems/discrete_geometry/E0769/claims/2026_07_14_snyder|Star Fleet Math]]

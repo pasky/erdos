@@ -108,18 +108,19 @@ in the repository `Woett/Lean-files`, one per theorem group, whose proofs were
 produced by Aristotle, Harmonic's prover, as the post and every file header
 name it; the headers state the toolchain, Lean v4.24.0 with a pinned Mathlib
 commit, and the four files total 7,085 lines. The property-$P$ and property-$Q$
-files end by proving the catalog's statements for Problem 1102, and the catalog
-pins those two files at the commit of the links dated 23 February 2026; at that
-commit the $\overline P$ and fast-growth files take the prime-number-theorem
-asymptotics they need as a hypothesis, the structure `SieveAssumptions`. On 4
-May 2026 the first author replaced all four files with versions for Lean
-v4.28.0, 7,446 lines in all, which the author describes as fully unconditional:
-the $\overline P$ file builds `SieveAssumptions` from Chebyshev bounds, and the
-fast-growth file no longer uses it. The post's online type-checker links, which
-run Mathlib v4.28.0, load these later files. The catalog's own statement file
-for the problem is not a formalization of the paper and is not linked here.
-Nothing was built or audited here, so `formalized` is not listed and the site's
-(LEAN) suffix warrants no kernel credit.
+files end by proving the formal-conjectures statements for Problem 1102, and the
+formal-conjectures catalog pins those two files at the commit of the links dated
+23 February 2026; at that commit the $\overline P$ and fast-growth files take
+the prime-number-theorem asymptotics they need as a hypothesis, the structure
+`SieveAssumptions`. On 4 May 2026 the first author replaced all four files with
+versions for Lean v4.28.0, 7,446 lines in all, which the author describes as
+fully unconditional: the $\overline P$ file builds `SieveAssumptions` from
+Chebyshev bounds, and the fast-growth file no longer uses it. The post's online
+type-checker links, which run Mathlib v4.28.0, load these later files. The
+formal-conjectures catalog's own statement file for the problem is not a
+formalization of the paper and is not linked here. Nothing was built or audited
+here, so `formalized` is not listed and the site's (LEAN) suffix warrants no
+kernel credit.
 
 **Scope.** Full for the modified Statement's question, which asks how fast
 sequences with property $P$ or $Q$ must increase: the paper gives the sharp

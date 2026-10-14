@@ -35,8 +35,8 @@ by the same method."
 
 Here $v(x)$ is the valency (degree) of $x$. Both displays print $\geqslant$;
 display (1) carries the second inequality $6e/n\ge2n$, which is the
-hypothesis $e\ge n^2/3$ restated. In the catalog's notation, with $r=3$ and
-$m=e$: every graph with $n$ vertices and $m\ge n^2/3$ edges has a triangle
+hypothesis $e\ge n^2/3$ restated. In the erdosproblems.com notation, with $r=3$
+and $m=e$: every graph with $n$ vertices and $m\ge n^2/3$ edges has a triangle
 with $d(x_1)+d(x_2)+d(x_3)\ge6m/n$, the $r=3$ case of Problem 904's statement
 under the hypothesis $m\ge n^2/3$ in place of $m\ge t_3(n)$ (an observation
 made here: $t_3(n)=\lfloor n^2/3\rfloor$ for every $n$ by an elementary

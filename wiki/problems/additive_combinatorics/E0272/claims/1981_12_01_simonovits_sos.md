@@ -79,5 +79,5 @@ credits the paper with $t\ll N^2$ and with the refutation of the Erdős–Graham
 guess, but that is commentary on an open problem and not acceptance of a
 solution. Formalized is not listed. The formal-conjectures catalog states the
 bound $t(N)=O(N^2)$ as the variant `isBigO_sq` in its file for the problem and
-marks it research solved. But the catalog states it without a proof, and this
-corpus has built no proof of it.
+marks it research solved. But the formal-conjectures catalog states it without a
+proof, and this corpus has built no proof of it.

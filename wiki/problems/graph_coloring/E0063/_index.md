@@ -137,8 +137,8 @@ problem, names Hong Liu and Richard Montgomery as its informal authors and
 Codex and GPT-5.6 Sol as its formal authors, and its theorem `erdos_63`
 states that a simple graph whose chromatic number is $\top$ has a cycle of
 length $2^n$ for infinitely many $n$. The claim page links the file at the
-commit the catalog cites; this corpus has not built it, so it is a link and
-not `formalized` evidence.
+commit the formal-conjectures catalog cites; this corpus has not built it, so it
+is a link and not `formalized` evidence.
 
 An earlier
 [LeanGenius source file](https://github.com/rjwalters/lean-genius/blob/f9c62750e76180f15c7bd6c5759be320d7feffdc/proofs/Proofs/Erdos63Problem.lean#L168)

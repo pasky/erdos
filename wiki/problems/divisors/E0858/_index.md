@@ -54,12 +54,12 @@ Erdős Problem #858, https://www.erdosproblems.com/858.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/0de5983698dfb520a1e8f137323bbf61fa07db40/FormalConjectures/ErdosProblems/858.lean)
-at the catalog's commit of 20 September 2026, which marks the problem research
-solved and links from its theorem a complete Lean proof of the asymptotic in
-Boris Alexeev's repository, written as a formalization of Chojecki's result.
-That file and the claimant's partial Lean development, which leaves two
-declarations unproved, are linked from the claim page; this corpus has built
-neither.
+at the formal-conjectures commit of 20 September 2026, which marks the problem
+research solved and links from its theorem a complete Lean proof of the
+asymptotic in Boris Alexeev's repository, written as a formalization of
+Chojecki's result. That file and the claimant's partial Lean development, which
+leaves two declarations unproved, are linked from the claim page; this corpus
+has built neither.
 
 ## Current assessment
 

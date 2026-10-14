@@ -148,7 +148,7 @@ The PDF's complete Chapter 9 and its front matter were visually
 checked on the page images. Extracted text served only as a reading
 aid. The dated source check on 2026-09-08 covered the report, the first-party
 announcement, pinned formalization sources and the identified ABST interfaces.
-A direct request for the catalog page returned HTTP 403, so this check
+A direct request for the erdosproblems.com page returned HTTP 403, so this check
 did not refresh its wording. No comprehensive literature search or independent
 community-acceptance assessment is claimed.
 

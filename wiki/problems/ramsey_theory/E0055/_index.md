@@ -41,11 +41,11 @@ $r\ge3$ classes, for which the 1985 paper had no result.
 possible growth for every $r\ge2$, up to an absolute constant factor. There is
 an $r$-Ramsey complete $A$ with $|A\cap[n]|\le Cr\log^2n$ for all $n$. No $A$
 with $|A\cap[n]|\le cr\log^2n$ for all large $n$ is $r$-Ramsey complete. The
-problem asks for bounds rather than for a proposition, so the catalog label is
-SOLVED and not PROVED. The status-defining source is an arXiv preprint of 2021.
-The site's curator accepted it and names it as the solution. On the curator's
-acceptance, the claim page records the result as accepted, with no refereed
-version, and the frontmatter standing is derived from it.
+problem asks for bounds rather than for a proposition, so the erdosproblems.com
+label is SOLVED and not PROVED. The status-defining source is an arXiv preprint
+of 2021. The site's curator accepted it and names it as the solution. On the
+curator's acceptance, the claim page records the result as accepted, with no
+refereed version, and the frontmatter standing is derived from it.
 
 **Source.** [erdosproblems.com/55](https://www.erdosproblems.com/55), accessed
 2026-09-17: the problem page (SOLVED, the site's label for a resolution other

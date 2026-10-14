@@ -52,11 +52,11 @@ the record page (catalog commit `8432eac9`, task
 bundle (catalog commit `6a786f99`, task
 `fc-6a786f99-variants-szabo-strong-5829e2fb24-formalized-v1`). Neither pinned
 commit is reachable in `google-deepmind/formal-conjectures`; the statement on
-the catalog's default branch, fetched 2026-09-28T02:36Z, is identical. The
+formal-conjectures' default branch, fetched 2026-09-28T02:36Z, is identical. The
 task's manifest permits the axioms `propext`, `Quot.sound` and
-`Classical.choice`, forbids depending on the catalog theorem itself, and sets
-`enable_nanoda false`; its `Challenge.lean` and solution header wrap the target
-in `namespace Bounty`.
+`Classical.choice`, forbids depending on the formal-conjectures theorem itself,
+and sets `enable_nanoda false`; its `Challenge.lean` and solution header wrap
+the target in `namespace Bounty`.
 
 **Acceptance timeline.** From the record page and the results listing's record
 data, fetched 2026-09-28T02:36Z and 02:52Z: Lean verification `VERIFIED` at

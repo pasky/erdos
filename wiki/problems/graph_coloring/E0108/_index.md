@@ -69,9 +69,9 @@ https://www.erdosproblems.com/108.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/108.lean),
-pinned to its revision of 18 September 2026; the catalog commit that the
-Conjectures.io record names does not resolve in the public repository, and the
-record page displays the same statement.
+pinned to its revision of 18 September 2026; the formal-conjectures commit that
+the Conjectures.io record names does not resolve in the public repository, and
+the record page displays the same statement.
 
 ## Current assessment
 
@@ -132,41 +132,41 @@ version fails for girth above $4$. This is the page's own one-line deduction
 from the accepted claim.
 
 **The accepted record.** The proof's final theorem is the negation of the
-catalog statement `Erdos108.erdos_108` of formal-conjectures (the catalog file
-linked under **Formalization.**), whose Lean form matches the wording clause by
-clause except that its $r$ ranges over the extended naturals, so $r=\infty$ is
-admitted, where a girth of at least $\infty$ means acyclic and the formal
-statement is trivially false, so the target alone is trivial and acceptance
-rests on the lemma `Bounty.counterexample_family` that the file derives it from;
-the proof does not use the defect, it instantiates $r=5$ and $k=7$, both inside
-the wording's range, and its counterexamples are finite graphs lifted to every
-universe, so the refutation holds under both a finite-graph and an all-graphs
-reading of "every graph". Conjectures.io records the proof as verified on 15
-September 2026 (Lean kernel, axioms `propext`, `Quot.sound` and
-`Classical.choice` only, a static scan finding no imports, axiom declarations,
-`sorry`, `native_decide` or unsafe options, one kernel implementation with the
-site's second kernel not run), its review as approved on 16 September 2026 on
-two independent agent assessments with no fresh Lean replay, and the record as
-certified on 17 September 2026 with the bounty paid. That certification is
-reported, not counted: the result has no refereed publication, no
-erdosproblems.com acceptance and no formal-conjectures catalog agreement (the
-catalog's file at the revision linked above agrees with the statement the site
-prints and marks the problem research open with `answer(sorry)`). The site
-labeled the problem OPEN; its forum has carried the claim since 27 September
-2026 with the curator's note that they have not verified it, and a comment of 2
-October 2026 links the Nguyen–Walczak note.
+catalog statement `Erdos108.erdos_108` of formal-conjectures (the
+formal-conjectures file linked under **Formalization.**), whose Lean form
+matches the wording clause by clause except that its $r$ ranges over the
+extended naturals, so $r=\infty$ is admitted, where a girth of at least $\infty$
+means acyclic and the formal statement is trivially false, so the target alone
+is trivial and acceptance rests on the lemma `Bounty.counterexample_family` that
+the file derives it from; the proof does not use the defect, it instantiates
+$r=5$ and $k=7$, both inside the wording's range, and its counterexamples are
+finite graphs lifted to every universe, so the refutation holds under both a
+finite-graph and an all-graphs reading of "every graph". Conjectures.io records
+the proof as verified on 15 September 2026 (Lean kernel, axioms `propext`,
+`Quot.sound` and `Classical.choice` only, a static scan finding no imports,
+axiom declarations, `sorry`, `native_decide` or unsafe options, one kernel
+implementation with the site's second kernel not run), its review as approved on
+16 September 2026 on two independent agent assessments with no fresh Lean
+replay, and the record as certified on 17 September 2026 with the bounty paid.
+That certification is reported, not counted: the result has no refereed
+publication, no erdosproblems.com acceptance and no formal-conjectures catalog
+agreement (the formal-conjectures file at the revision linked above agrees with
+the statement the site prints and marks the problem research open with
+`answer(sorry)`). The site labeled the problem OPEN; its forum has carried the
+claim since 27 September 2026 with the curator's note that they have not
+verified it, and a comment of 2 October 2026 links the Nguyen–Walczak note.
 
 **The proof file.** The accepted file has 1,846 lines. Its final theorem is the
-negation of the catalog statement, instantiated at $r=5$ and $k=7$. It contains
-no `sorry`, `axiom`, `native_decide`, `unsafe`, `import` or `namespace`
-declaration and no redefinition of Mathlib's girth, chromatic number, coloring
-or subgraph. Its deterministic part, the reduction from four-cycle-free
-subgraphs to six colors and the sparse-cut degree count, is elementary and is
-summarized above; its two probabilistic estimates carry the explicit part sizes
-of the random model. This corpus rebuilt the file on the pinned toolchain, after
-two lemma renames, and replayed the closure of its target in the kernel, as the
-claim page records. The file's header states nothing about how the proof was
-found; two docstrings refer to an attachment.
+negation of the formal-conjectures statement, instantiated at $r=5$ and $k=7$.
+It contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `import` or
+`namespace` declaration and no redefinition of Mathlib's girth, chromatic
+number, coloring or subgraph. Its deterministic part, the reduction from
+four-cycle-free subgraphs to six colors and the sparse-cut degree count, is
+elementary and is summarized above; its two probabilistic estimates carry the
+explicit part sizes of the random model. This corpus rebuilt the file on the
+pinned toolchain, after two lemma renames, and replayed the closure of its
+target in the kernel, as the claim page records. The file's header states
+nothing about how the proof was found; two docstrings refer to an attachment.
 
 **Adjacent result.** The preprint of Li (arXiv:2606.17901, Theorem 1.1, per
 its

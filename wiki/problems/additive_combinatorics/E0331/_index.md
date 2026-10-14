@@ -45,8 +45,9 @@ crediting Ruzsa. Their publication is recorded on
 [[problems/additive_combinatorics/E0331/claims/1984_02_01_erdos_freud|its own claim page]].
 The label's Lean mark refers to van Doorn's Lean formalization of the
 counterexample. It was posted in the site's discussion thread in January 2026
-and is linked by the catalog. The Ruzsa page lists it as a formalization link.
-It is third-party Lean, so it gives no `formalized` evidence.
+and is linked by the formal-conjectures catalog. The Ruzsa page lists it as a
+formalization link. It is third-party Lean, so it gives no `formalized`
+evidence.
 
 **Source.** [erdosproblems.com/331](https://www.erdosproblems.com/331), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #331,

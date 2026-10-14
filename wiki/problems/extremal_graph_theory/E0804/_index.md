@@ -28,7 +28,7 @@ least $\log n$ must contain an independent set of size at least $f(n)$.
 Estimate $f(n)$. In particular, is it true that $f((\log n)^2,n) \geq
 n^{1/2-o(1)}$? Is it true that $f((\log n)^3,n)\gg (\log n)^3$?
 
-**Formulation.** The catalog mixes $f(m,n)$ with an undefined one-variable
+**Formulation.** Bloom's catalog mixes $f(m,n)$ with an undefined one-variable
 $f(n)$. The interpretation of [AlSu07], which states both questions from [Er91]
 for the subgraph orders $(\log n)^2$ and $(\log n)^3$ within its general
 $f(n,s,t)$, uses $f(m,n)$ in both places: the largest independence number
@@ -85,11 +85,11 @@ no `formalized` evidence.
 
 ## Current assessment
 
-The catalog formulation defines $f(m,n)$ but writes $f(n)$ in its guarantee and
-in the general estimation request. The site labeled the problem DISPROVED for
-this formulation as written. Under the two-variable reading of [AlSu07], the two
-displayed lower-bound proposals are false; the general estimation problem is not
-thereby resolved.
+The erdosproblems.com formulation defines $f(m,n)$ but writes $f(n)$ in its
+guarantee and in the general estimation request. The site labeled the problem
+DISPROVED for this formulation as written. Under the two-variable reading of
+[AlSu07], the two displayed lower-bound proposals are false; the general
+estimation problem is not thereby resolved.
 [[../library/extremal_graph_theory/alon_2007_graphs_subgraphs_having_large_independence_numbers/_index|Alon and Sudakov]]
 give the two negative answers in equations (1) and (2) of arXiv:0706.4099v1 (27
 June 2007), pp. 1–2. The same bounds appear on p. 150 of the [published

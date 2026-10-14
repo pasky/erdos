@@ -77,11 +77,11 @@ is not built here. The formalization of the result in Boris Alexeev's public
 repository carries Li's fixed-seed files; this corpus built it at a pinned
 commit, checked its axioms and its fingerprint against the comparator
 challenge, and audited its theorem, as the claim page records. The
-formal-conjectures collection tagged the catalog statement `research solved`
-on 2026-09-18, crediting Li and pointing its `formal_proof` attribute at
-Alexeev's file (on 2026-10-05 the site showed OPEN and the community database
-said open). The site's discussion thread holds one comment (8 July 2026)
-reporting that the example $\{1,4,9,16,25\}$ of the site's commentary becomes
-periodic with period $224$ from its 87th term under the rule above, with a
-computation linked; that comment concerns the commentary's example, not the
+formal-conjectures collection tagged the formal-conjectures statement
+`research solved` on 2026-09-18, crediting Li and pointing its `formal_proof`
+attribute at Alexeev's file (on 2026-10-05 the site showed OPEN and the
+community database said open). The site's discussion thread holds one comment (8
+July 2026) reporting that the example $\{1,4,9,16,25\}$ of the site's commentary
+becomes periodic with period $224$ from its 87th term under the rule above, with
+a computation linked; that comment concerns the commentary's example, not the
 question.

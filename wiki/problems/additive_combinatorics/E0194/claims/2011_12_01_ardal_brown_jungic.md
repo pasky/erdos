@@ -64,15 +64,15 @@ records the paper.
 of the rationals and reals, Amer. Math. Monthly 118 (2011), no. 10, 921–925.
 This is the December 2011 issue, which gives the date of this page. Reviewed:
 the site's curator, Thomas Bloom, labeled the problem disproved, states the
-negative answer for every $k\ge 3$ and credits it to [ABJ11]. The catalog
-statement `Erdos194.erdos_194` is marked solved with a `formal_proof` link. That
-link and the site's label DISPROVED (LEAN) point at a Lean file written with
-Aristotle and posted by a forum user in the site's discussion thread on
-2026-04-15. The file is a formalization of this result and is linked above. It
-follows the paper's construction. Its own statement `erdos_194` is written in
-its own vocabulary rather than the catalog's. It asserts the existence of a
-linear ordering of $\mathbb{R}$ with no strictly increasing or decreasing
-$k$-term progression for every $k\ge 3$. The file was not built or audited by
-this corpus, so `formalized` is not listed.
+negative answer for every $k\ge 3$ and credits it to [ABJ11]. The
+formal-conjectures statement `Erdos194.erdos_194` is marked solved with a
+`formal_proof` link. That link and the site's label DISPROVED (LEAN) point at a
+Lean file written with Aristotle and posted by a forum user in the site's
+discussion thread on 2026-04-15. The file is a formalization of this result and
+is linked above. It follows the paper's construction. Its own statement
+`erdos_194` is written in its own vocabulary rather than the formal-conjectures
+catalog's. It asserts the existence of a linear ordering of $\mathbb{R}$ with no
+strictly increasing or decreasing $k$-term progression for every $k\ge 3$. The
+file was not built or audited by this corpus, so `formalized` is not listed.
 
 **Depends on.** No wiki page; the claim rests on the cited paper.

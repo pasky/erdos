@@ -51,9 +51,9 @@ to Erdős, asks it only under CH; Erdős's own account in the Scottish Book
 [Er81b] states it with no such hypothesis and offers the prize for a proof or
 a disproof. Read under CH, this theorem answers the question: the algebras
 are isomorphic, the opposite of what Erdős asked to prove. Read in ZFC, as
-the catalog's statement is, it is one half of the independence. The site's
-label and this corpus's standing follow the ZFC reading; the CH reading is
-disclosed here and not given a page of its own.
+the erdosproblems.com statement is, it is one half of the independence. The
+site's label and this corpus's standing follow the ZFC reading; the CH reading
+is disclosed here and not given a page of its own.
 
 **Source.** W. Just and A. Krawczyk, On certain Boolean algebras
 $\mathcal{P}(\omega)/I$, Trans. Amer. Math. Soc. 285 (1984), no. 1, 411--429,

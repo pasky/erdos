@@ -127,9 +127,9 @@ conjectures.io keeps a live bounty whose one partial contribution of 19
 September 2026 says the general conjecture remains open, and it has no claim
 page because it asserts no new result. A machine-checked, unrefereed partial
 result is the Palomar registry entry `PALOMAR-2026-10-02-000004` (registered
-2 October 2026), Murali Menon's Lean 4 proof of the catalog's statement with
-the hypothesis that $G$ is solvable added, finite or infinite $G$, developed
-with Claude and OpenAI Codex models; it is recorded as claimed on
+2 October 2026), Murali Menon's Lean 4 proof of the formal-conjectures statement
+with the hypothesis that $G$ is solvable added, finite or infinite $G$,
+developed with Claude and OpenAI Codex models; it is recorded as claimed on
 [[problems/covering_systems/E0274/claims/2026_10_02_menon|its claim page]].
 Its only review is automated, no human expert has reviewed it, its informal
 write-up is not public, and the only earlier solvable-case claim

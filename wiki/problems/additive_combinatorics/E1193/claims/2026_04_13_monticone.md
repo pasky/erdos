@@ -79,8 +79,8 @@ and presumes unrecorded restrictions in [Er80]. The page was labeled SOLVED
 (LEAN), and the thread carries no proof claim. The community database
 (teorth/erdosproblems) records the problem solved, with formal status Lean. Not
 refereed: there is no publication. Not listed as formalized: nothing was built,
-replayed or audited by this project. The catalog's statement file
+replayed or audited by this project. The formal-conjectures statement file
 (google-deepmind/formal-conjectures, `ErdosProblems/1193.lean`) states both
 parts with `answer(False)` and a variant `sumRep_univ` that points to the
-lean-proofs copy as its formal proof. Each has a `sorry` body in the catalog
-file itself.
+lean-proofs copy as its formal proof. Each has a `sorry` body in the
+formal-conjectures file itself.

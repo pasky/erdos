@@ -61,15 +61,14 @@ all in the namespace `Erdos354Formal`, with the final `theorem target` at line
 10148.
 
 **Read status: claims checked.** The final theorem was read against the
-site's printed type, the task bundle's metadata and the catalog file, and
-its reduction chain to two criteria on binary digits was read
-([result page](target.md)). The mathematical core (about 9,000 lines: a
-joining and disjointness argument on the binary digit sequences of
-$\alpha$ and $\beta$ through empirical measures, tower shift spaces and
-$L^2$ rigidity) was not read line by line; the file was rebuilt, after
-changes for Mathlib's `ProbabilityMeasure.map`, and its target replayed in the
-kernel on the repository's pinned toolchain. No proof was verified here by
-reading.
+site's printed type, the task bundle's metadata and the formal-conjectures file,
+and its reduction chain to two criteria on binary digits was read ([result
+page](target.md)). The mathematical core (about 9,000 lines: a joining and
+disjointness argument on the binary digit sequences of $\alpha$ and $\beta$
+through empirical measures, tower shift spaces and $L^2$ rigidity) was not read
+line by line; the file was rebuilt, after changes for Mathlib's
+`ProbabilityMeasure.map`, and its target replayed in the kernel on the
+repository's pinned toolchain. No proof was verified here by reading.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: the
 status-defining source for the first question (base $2$), answered yes
@@ -91,24 +90,25 @@ which is `Erdos354.erdos_354.parts.i` of
 `FormalConjectures/ErdosProblems/354.lean` with `answer(sorry)` instantiated
 to `True`, at the pinned catalog commits `8432eac9` (record page) and
 `6a786f99` (task bundle), both with the same source type SHA-256. Neither pinned
-commit is reachable on GitHub; the catalog's default branch, read 2026-09-28,
-prints the same statement and docstring. In the catalog, `FloorMultiples a γ n`
-is $\lfloor\gamma^na\rfloor\in\mathbb Z$, `interleave a b γ n` is
-`FloorMultiples a γ (n / 2)` for even $n$ and `FloorMultiples b γ (n / 2)` for
-odd $n$, `subseqSums' A` is the set of sums $\sum_{i\in B}A(i)$ over finite
-index sets $B$, and `IsAddCompleteNatSeq' A` says every sufficiently large
-integer lies in `subseqSums' A`. So the theorem says: for all $\alpha,\beta>0$
-with $\alpha/\beta$ irrational, every sufficiently large integer is
+commit is reachable on GitHub; formal-conjectures' default branch, read
+2026-09-28, prints the same statement and docstring. In formal-conjectures,
+`FloorMultiples a γ n` is $\lfloor\gamma^na\rfloor\in\mathbb Z$,
+`interleave a b γ n` is `FloorMultiples a γ (n / 2)` for even $n$ and
+`FloorMultiples b γ (n / 2)` for odd $n$, `subseqSums' A` is the set of sums
+$\sum_{i\in B}A(i)$ over finite index sets $B$, and `IsAddCompleteNatSeq' A`
+says every sufficiently large integer lies in `subseqSums' A`. So the theorem
+says: for all $\alpha,\beta>0$ with $\alpha/\beta$ irrational, every
+sufficiently large integer is
 $\sum_{s\in S}\lfloor2^s\alpha\rfloor+\sum_{t\in T}\lfloor2^t\beta\rfloor$ for
 some finite $S,T\subset\mathbb N$, each index used at most once and equal values
 at different indices counted separately, which is the site's "That is" clause
 read clause for clause (the [result page](target.md) gives the correspondence).
 The proof's own lemmas `interleave_even` and `interleave_odd` (lines 268--274)
-unfold the catalog's `interleave` by `simp` into the two floor sequences; they
-compile only against the corrected `n / 2` form of the definition (PR #1330, 3
-December 2025), so the kernel acceptance itself shows the pinned definition is
-the corrected one, which the type hash alone (naming the constant, not its body)
-would not.
+unfold formal-conjectures' `interleave` by `simp` into the two floor sequences;
+they compile only against the corrected `n / 2` form of the definition (PR
+#1330, 3 December 2025), so the kernel acceptance itself shows the pinned
+definition is the corrected one, which the type hash alone (naming the constant,
+not its body) would not.
 
 ## Acceptance shown on the results page
 
@@ -134,8 +134,8 @@ posted on 13 September, with a repository created 12 September, "is later than
 acceptance"), and that these findings "are not a guarantee of absolute novelty".
 The site's certification is reported, not counted: no refereed publication, no
 write-up, no erdosproblems.com acceptance and no formal-conjectures catalog
-agreement was found on 2026-09-28; the catalog's default branch keeps both parts
-`research open`.
+agreement was found on 2026-09-28; formal-conjectures' default branch keeps both
+parts `research open`.
 
 ## Route of the proof file
 

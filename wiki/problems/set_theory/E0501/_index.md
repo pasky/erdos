@@ -36,8 +36,8 @@ If the sets $A_x$ are closed and have measure $<1$, then must there exist an
 independent set of size $3$?
 
 **Status.** The site labeled the problem NOT DISPROVABLE. This label composes
-the outcomes of the two questions by the catalog's rule (the strongest status
-holding of every part). The two questions have different outcomes.
+the outcomes of the two questions by the erdosproblems.com rule (the strongest
+status holding of every part). The two questions have different outcomes.
 
 The frontmatter lists the two questions as the problem's parts. Each is settled
 by an accepted claim page that records the result and its acceptance evidence.
@@ -235,7 +235,7 @@ problem's parts; the first is settled by Glazer's accepted claim
 (`independent`) and the second by the Newelski–Pawlikowski–Seredyński
 accepted claim (`proved`), so the schema derives `solved` with the claim
 value `answered`, its value for accepted parts with different outcomes. The
-site's label NOT DISPROVABLE, the catalog's composition of the same two
+site's label NOT DISPROVABLE, the erdosproblems.com composition of the same two
 outcomes, stays in the Status sentence. Read as the status of the
 conjunction of the two questions, which is ZFC-equivalent to the first
 question because the second is a theorem, the exact statement would be

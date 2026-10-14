@@ -247,4 +247,4 @@ remains open.
 preprint reports exact values through $N=12$, proves the conjectured value for
 every starred family, and reduces the proposed all-$N$ formula to the open
 kernel question. Its approved scope is partial progress, not a resolution of
-the catalog problem.
+the erdosproblems.com problem.

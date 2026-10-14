@@ -111,8 +111,8 @@ page
 [[problems/irrationality/E0260/claims/2026_06_23_wang_grau_ribas|Wang and Grau Ribas's positive-density theorem]]
 records the statement, Wang's disclosure of machine assistance, the Lean
 development (pinned, not built here), the formal-conjectures tag of 2026-09-21
-that marks the catalog statement `research solved` with a link to that
-development, the audit of v1 posted in the site's discussion thread on
+that marks the formal-conjectures statement `research solved` with a link to
+that development, the audit of v1 posted in the site's discussion thread on
 2026-07-08 and Wang's statement there that the revised version corrects v1's
 errors, and the site's OPEN label (page last edited 2026-02-01). The frontmatter
 stays short of `solved` under the anatomy's acceptance rule: a catalog tag

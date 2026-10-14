@@ -70,11 +70,12 @@ as `erdos_371`, at the file's commit of 2026-10-11. That commit changed the
 statement's category from `research open` to `research solved` and added a
 `formal_proof` attribute linking the release's
 [`increasing_order`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/JointDickman/PaperMain.lean#L21)
-at the revision pinned on the claim page; the catalog's own proof stays `sorry`.
-The release's declaration `OAI.JointDickmanPaper.increasing_order`, pinned by
-its comparator challenge `JointDickman.lean`, proves the Statement; this corpus
-built it from the pinned revision with the axioms `propext`, `Classical.choice`
-and `Quot.sound` only, as the claim page records.
+at the revision pinned on the claim page; the formal-conjectures catalog's own
+proof stays `sorry`. The release's declaration
+`OAI.JointDickmanPaper.increasing_order`, pinned by its comparator challenge
+`JointDickman.lean`, proves the Statement; this corpus built it from the pinned
+revision with the axioms `propext`, `Classical.choice` and `Quot.sound` only, as
+the claim page records.
 
 ## Current assessment
 

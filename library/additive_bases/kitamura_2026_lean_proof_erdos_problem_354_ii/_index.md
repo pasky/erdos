@@ -1,6 +1,6 @@
 ---
 name: additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii
-title: "Kitamura: A Lean proof of the catalog's part (ii) of Problem 354"
+title: "Kitamura: A Lean proof of formal-conjectures' part (ii) of Problem 354"
 desc: |
   A Lean proof, published on GitHub on 5 September 2026 and not reviewed,
   of the formal-conjectures statement of the second question of Problem
@@ -41,17 +41,16 @@ Lean text is not copied into the corpus.
 
 **Read status.** Claims checked: the theorem `erdos_354_part_ii_solved`
 (lines 362--380 of `lean/Erdos354PartIIFC.lean`, 385 lines) and
-`single_complete` (line 316) were read against the catalog file, and the
-README's mathematical explanation was read; nothing was built here, and
-the README's `#print axioms` report is the author's. The README states
-that "This formalization was developed with assistance from ChatGPT and
-OpenAI Codex, using GPT-6 (Astra)", recorded as the source's own
-disclosure.
+`single_complete` (line 316) were read against the formal-conjectures file, and
+the README's mathematical explanation was read; nothing was built here, and the
+README's `#print axioms` report is the author's. The README states that "This
+formalization was developed with assistance from ChatGPT and OpenAI Codex, using
+GPT-6 (Astra)", recorded as the source's own disclosure.
 
 ## Overview
 
-The catalog's `erdos_354.parts.ii`, since PR #5243 of 1 September 2026,
-reads
+The formal-conjectures catalog's `erdos_354.parts.ii`, since PR #5243 of 1
+September 2026, reads
 
 ```lean
 answer(sorry) ↔ ∃ γ ∈ Set.Ioo (1 : ℝ) 2, ∀ᵉ (α > 0) (β > 0),
@@ -105,8 +104,8 @@ kernel checked, with no `sorry`, `admit`, custom axiom, `native_decide` or
   "was corrected following" the December 2025 comment.
 - No review, no site acceptance, no refereed source.
 
-**Bears on.** [[../wiki/problems/additive_bases/E0354/_index|#354]]: proves the
-catalog's existential form of the second question ("for some
+**Bears on.** [[../wiki/problems/additive_bases/E0354/_index|#354]]: proves
+formal-conjectures' existential form of the second question ("for some
 $\gamma\in(1,2)$") with $\gamma=\sqrt\varphi$; a variant of the site's
 wording, whose quantifier over $\gamma$ is unstated, and an unreviewed
 source; no status change. The opposite reading, "for every $\gamma$", is
@@ -116,5 +115,5 @@ answered no by
 **Results.**
 
 - [[additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|erdos_354_part_ii_solved]]
-  (lines 362--380): the catalog's part (ii) with answer true, through
+  (lines 362--380): formal-conjectures' part (ii) with answer true, through
   `single_complete` at $\gamma=\sqrt\varphi$.

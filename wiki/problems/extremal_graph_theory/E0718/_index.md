@@ -380,8 +380,8 @@ quoted $2^{\binom r2}$, and the paper carries no statement of the $cr^2n$
 conjecture, so the conjecture's attribution to Mader rests on [BT98]'s
 introduction, [Er81] and the site. (5) The self-declared formalization is
 recorded from its header and not built; there is no Lean statement of the
-problem in the catalog. The Linked library material below is derived from
-the library links and is not progress.
+problem in the formal-conjectures catalog. The Linked library material below is
+derived from the library links and is not progress.
 
 ## Known results
 

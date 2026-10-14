@@ -36,8 +36,8 @@ has a circuit with a diagonal, $2n-3$ is best possible. He has various
 refinements from which I think one can deduce $f_1(n)<cn$. I do not know
 about $f_2(n)$ and $f_3(n)$."
 
-In the catalog's terms, the maximum number of edges of an $n$-vertex graph
-with no two edge-disjoint cycles on the same vertex set is $f_2(n)-1$.
+In the erdosproblems.com terms, the maximum number of edges of an $n$-vertex
+graph with no two edge-disjoint cycles on the same vertex set is $f_2(n)-1$.
 
 **Source.** P. Erdős, *Problems and results in graph theory and combinatorial
 analysis*, Proc. Fifth British Combinatorial Conference (Aberdeen 1975),

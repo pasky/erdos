@@ -53,8 +53,8 @@ counterexamples of Ore and Gallai are reported without proof.
 
 ## Proof pointer
 
-None in the paper. The catalog's Problem 1006 records the negative answer for
-every girth (Nešetřil and Rödl 1978, the held card
+None in the paper. erdosproblems.com's Problem 1006 records the negative answer
+for every girth (Nešetřil and Rödl 1978, the held card
 [[extremal_graph_theory/nesetril_1978_probabilistic_graph_theoretical_method/_index|nesetril_1978_probabilistic_graph_theoretical_method]]).
 
 ## Dependencies

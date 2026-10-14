@@ -45,8 +45,8 @@ by Baumgartner, and the formal-conjectures catalog's
 of 2025-05-01 stated the answer yes on the remark of Erdős and Graham (1980,
 p. 23), noting in a lemma that the curator cites [Ba75] for that assertion and
 that it runs opposite to Baumgartner's theorem. After Google DeepMind reported
-AlphaProof's counterexample to the curator, which the catalog's issue of
-2025-05-13 and pull request of 2025-05-15 record, the site switched to the
+AlphaProof's counterexample to the curator, which the formal-conjectures issue
+of 2025-05-13 and pull request of 2025-05-15 record, the site switched to the
 answer no, kept the credit to Baumgartner on the report of Erdős and Graham,
 said that [Ba75], Baumgartner, J. E., Partitioning vector spaces, J. Combin.
 Theory Ser. A 18 (1975), no. 2, 231–233 (the March 1975 issue, the date of

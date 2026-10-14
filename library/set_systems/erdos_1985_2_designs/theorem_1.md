@@ -84,6 +84,6 @@ read is named on the
 
 ## Bears on
 
-None of the catalog's problems directly. The line counts just above $v$
+None of the erdosproblems.com problems directly. The line counts just above $v$
 that [[../wiki/problems/set_systems/E0903/_index|Problem 903]] asks about
 lie outside the range of Theorem 1; Theorem 2 treats them.

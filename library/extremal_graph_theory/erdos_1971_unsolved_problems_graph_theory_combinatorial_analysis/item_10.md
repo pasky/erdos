@@ -54,7 +54,7 @@ in graphs*, Israel J. Math. 4 (1966), 233--234 (p. 108; the library's card
 [[extremal_graph_theory/erdos_1966_cliques_graphs/_index|erdos_1966_cliques_graphs]]).
 Both inequalities of display (2) are strict on a 300 dpi crop. A clique is,
 by the paper's introduction (p. 97), a maximal complete subgraph. $L(n)$ is
-the iterated-logarithm count the catalog writes $\log_*n$.
+the iterated-logarithm count Bloom's catalog writes $\log_*n$.
 
 **Source.** P. Erdős, *Some unsolved problems in graph theory and
 combinatorial analysis*, Combinatorial Mathematics and its Applications
@@ -71,8 +71,9 @@ reference, and Bondy's bounds are reported as unpublished.
 
 ## Proof pointer
 
-None in the paper. Erdős's lower bound is the theorem of [12]; the catalog's
-Problem 927 records Spencer's 1971 paper (Israel J. Math. 9, 419--421; filed as
+None in the paper. Erdős's lower bound is the theorem of [12];
+erdosproblems.com's Problem 927 records Spencer's 1971 paper (Israel J. Math. 9,
+419--421; filed as
 [[extremal_graph_theory/spencer_1971_cliques_graphs/_index|spencer_1971_cliques_graphs]])
 for the footnote's bound, and Problem 1016 records the later literature on
 $h(n)$.

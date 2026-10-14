@@ -72,8 +72,8 @@ condition by approximating $\alpha$ by a rational and using a congruence class.
 The formal-conjectures statement file
 [`ErdosProblems/997.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/997.lean)
 marks the problem `research solved` and points at the Lean proof below. At the
-pinned revision the file has a `sorry` body. It is the catalog's statement, not
-a posting of the result.
+pinned revision the file has a `sorry` body. It is the formal-conjectures
+statement, not a posting of the result.
 
 The preprint has arXiv versions v1 (2026-03-31) and v2 (2026-04-02). No journal
 version was found on 2026-10-07, so `refereed` is not listed.

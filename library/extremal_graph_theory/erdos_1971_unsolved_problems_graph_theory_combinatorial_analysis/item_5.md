@@ -41,7 +41,7 @@ Moon--Moser and Pálásti bound.
 
 ## Proof pointer
 
-None in the paper. The catalog's Problem 746 records the later resolution
+None in the paper. erdosproblems.com's Problem 746 records the later resolution
 (Pósa 1976; Korshunov 1977; Komlós and Szemerédi 1983) at the threshold
 $(\tfrac12+\varepsilon)n\log n$, a form Erdős stated in his 1981 and 1982
 problem papers, not here.

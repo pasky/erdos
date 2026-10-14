@@ -31,10 +31,10 @@ cannot even prove it with $cn^{1/2+\varepsilon}$ ($cn^{1/2}$ is trivial).†"
 
 The footnote reads: "† Note added in proof: Szemerédi proved $cn^{2/3}$."
 
-Here $n$ counts edges, so the catalog's $m$ (the number of edges of the host
-graph) is the paper's $n$, and Folkman's graph is the complete bipartite graph
-$K_{m,m^2}$. An elementary remark, made here and not in the paper: Folkman's
-graph has $n=m^3$ edges and, by the sentence quoted, no rectangle-free
+Here $n$ counts edges, so erdosproblems.com's $m$ (the number of edges of the
+host graph) is the paper's $n$, and Folkman's graph is the complete bipartite
+graph $K_{m,m^2}$. An elementary remark, made here and not in the paper:
+Folkman's graph has $n=m^3$ edges and, by the sentence quoted, no rectangle-free
 subgraph with more than $m^2+\binom m2<\tfrac32n^{2/3}$ edges, so the
 exponent $3/4$ fails and $2/3$ is the largest exponent the example allows.
 
@@ -57,7 +57,7 @@ None in the paper. The $m^{2/3}$ statement the footnote attributes to
 Szemerédi was published, with a tight construction, by Conlon, Fox and
 Sudakov in 2014 (arXiv:1401.6711; the held card
 [[extremal_graph_theory/conlon_2014_large_subgraphs_without_complete_bipartite_graphs/_index|conlon_2014_large_subgraphs_without_complete_bipartite_graphs]]);
-the catalog records that no published proof by Szemerédi could be located.
+Bloom's catalog records that no published proof by Szemerédi could be located.
 
 ## Dependencies
 

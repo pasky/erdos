@@ -114,27 +114,27 @@ marked `parts.i` `research solved`, added the variant
 $c>0$), also `research solved`, and gave both a `formal_proof` attribute
 linking the release's
 [`totient_asymptotic_formula`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/TotientAsymptotic/UnconditionalMain.lean#L12),
-the declaration this corpus built; the catalog's own proofs stay `sorry`.
-`parts.ii` stays `research open`, which the commit message says is deliberate,
-since the main term needs many auxiliary definitions. The Conjectures.io proof
-closes `parts.i` exactly: line 64567 of the accepted file
+the declaration this corpus built; the formal-conjectures catalog's own proofs
+stay `sorry`. `parts.ii` stays `research open`, which the commit message says is
+deliberate, since the main term needs many auxiliary definitions. The
+Conjectures.io proof closes `parts.i` exactly: line 64567 of the accepted file
 is
 `theorem target : fcTypeOfName% "Erdos416.erdos_416.parts.i" := by exact Erdos416Proof.Simplified.doubling_limit`;
 `doubling_limit` (line 64526) states
 `Tendsto (fun x => V (2*x)/V x) atTop (𝓝 2)` under a `letI` binding of a
 `Fintype` instance for the proof's core records, so the identity of its type
-with the catalog's rests on `target` and the site's "Statement unchanged" gate;
-the proof's own `V` (line 33) counts the same Finset as the catalog's and
-`V_eq_standard_count` (line 79) is `rfl`; permitted axioms `propext`,
-`Quot.sound` and `Classical.choice`; a text scan of the 64,775-line file found
-no `sorry`, no axiom declaration, no `native_decide`, no `unsafe` and no import
-(the word "axiom" occurs once in a comment, and the only `set_option` is
-commented out); the site's second kernel (Nanoda) was not run. This corpus
-rebuilt the file on the repository's pinned toolchain (Lean v4.34.1) and
-replayed its target in the kernel with only those axioms, and acceptance of the
-claim rests on that replay and the check of the target against the first
-question; the site's certification is reported, not counted. `parts.ii` has no
-accepted proof.
+with the formal-conjectures catalog's rests on `target` and the site's
+"Statement unchanged" gate; the proof's own `V` (line 33) counts the same Finset
+as the formal-conjectures catalog's and `V_eq_standard_count` (line 79) is
+`rfl`; permitted axioms `propext`, `Quot.sound` and `Classical.choice`; a text
+scan of the 64,775-line file found no `sorry`, no axiom declaration, no
+`native_decide`, no `unsafe` and no import (the word "axiom" occurs once in a
+comment, and the only `set_option` is commented out); the site's second kernel
+(Nanoda) was not run. This corpus rebuilt the file on the repository's pinned
+toolchain (Lean v4.34.1) and replayed its target in the kernel with only those
+axioms, and acceptance of the claim rests on that replay and the check of the
+target against the first question; the site's certification is reported, not
+counted. `parts.ii` has no accepted proof.
 
 ## Current assessment
 
@@ -158,10 +158,10 @@ language-model agent assessments of one model family recommended approval and
 that no fresh Lean replay, no complete axiom export and no line-by-line audit of
 the 64,775-line file was performed. No refereed publication, no arXiv preprint,
 no erdosproblems.com acceptance and no formal-conjectures link to the file exist
-(the catalog's proof link for `parts.i`, added on 11 October 2026, points to the
-OpenAI release's theorem below); the erdosproblems.com maintainer posted the
-record as an unverified partial proof claim on 2026-09-27 with an explicit
-non-endorsement. The write-up
+(the formal-conjectures proof link for `parts.i`, added on 11 October 2026,
+points to the OpenAI release's theorem below); the erdosproblems.com maintainer
+posted the record as an unverified partial proof claim on 2026-09-27 with an
+explicit non-endorsement. The write-up
 ([[../library/arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/_index|Kruer and Kohlmeyer, 18 September 2026]])
 is a working exposition, prepared with language-model assistance from the
 accepted file, that proves in prose only the finite counting inequality, the
@@ -239,13 +239,13 @@ teorth/erdosproblems (`data/problems.yaml` entry 416: status open, last update
 2025-08-31, formal status unformalized, formalized 2025-09-04), conjectures.io
 (the result, solution, problem and how-it-works pages; the task bundle and
 contribution index in its GitHub repositories),
-google-deepmind/formal-conjectures at `main` (the catalog commits the site pins
-were unreachable) and its `416.lean` at the commit of 2026-10-11, the arXiv API
-(queries on the doubling-limit terms and on the three author names, no hits),
-Zenodo (no record), a web search, erdosproblemaday.com (a 2026-07-28 automated
-working report labeled partial; not a source), and the OpenAI release repository
-at its pinned revision. Not searched: X, Discord (the site's channel is
-members-only), MathOverflow and journal databases. The write-up's prose
+google-deepmind/formal-conjectures at `main` (the formal-conjectures commits the
+site pins were unreachable) and its `416.lean` at the commit of 2026-10-11, the
+arXiv API (queries on the doubling-limit terms and on the three author names, no
+hits), Zenodo (no record), a web search, erdosproblemaday.com (a 2026-07-28
+automated working report labeled partial; not a source), and the OpenAI release
+repository at its pinned revision. Not searched: X, Discord (the site's channel
+is members-only), MathOverflow and journal databases. The write-up's prose
 deduction, with Proposition 4.1 labeled as its imported Lean-only premise, and
 the preprint's unconditional cluster-interval argument are reconstructed,
 author-recorded and changing nothing here, in

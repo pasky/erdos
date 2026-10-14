@@ -157,13 +157,14 @@ would eventually find a witness whenever the bound is true. This is a
 procedure that halts on a witness, with no claimed halting guarantee when the
 bound is false.
 
-The catalog question is equivalent to asking whether $\Lambda$ is finite:
-a finite supremum bounds all ratios, while an eventual linear upper bound also
-bounds the finitely many earlier ratios. The argument does not determine that
-value, provide witnesses for arbitrarily large $c$, or give a finite decision
-procedure for the whole problem. The proof above supplies the cycle and chord
-confinement details and the Fekete argument omitted from the source comment,
-without using the upper-bound papers or any native L-claim as a premise.
+The erdosproblems.com question is equivalent to asking whether $\Lambda$ is
+finite: a finite supremum bounds all ratios, while an eventual linear upper
+bound also bounds the finitely many earlier ratios. The argument does not
+determine that value, provide witnesses for arbitrarily large $c$, or give a
+finite decision procedure for the whole problem. The proof above supplies the
+cycle and chord confinement details and the Fekete argument omitted from the
+source comment, without using the upper-bound papers or any native L-claim as a
+premise.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

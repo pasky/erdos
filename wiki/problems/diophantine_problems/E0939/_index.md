@@ -251,8 +251,8 @@ reconstruction is author-recorded and changes no status.
   positivity of the summands; the $r=4$ leg is the degenerate set
   $\{0,1\}$. The site's review classed it a formalization-defect award
   (partial) and states that it does not settle Problem 939; the task was
-  withdrawn and the catalog added positivity on 2026-09-09. It is not
-  acceptance of the catalog question.
+  withdrawn and the formal-conjectures catalog added positivity on 2026-09-09.
+  It is not acceptance of the erdosproblems.com question.
 - Context: Euler's conjecture that a sum of $k-1$ $k$-th powers is never a
   $k$-th power fails at $k=5$ [LaPa67]: $27^5+84^5+110^5+133^5=144^5$
   (recomputed). Cambie

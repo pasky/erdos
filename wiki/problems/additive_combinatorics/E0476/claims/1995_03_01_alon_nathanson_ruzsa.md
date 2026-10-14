@@ -103,7 +103,7 @@ no `sorry` and no `axiom` declaration, and ends with
 the file on the site's discussion thread on 31 December 2025 as a solution
 different from the original, by the Combinatorial Nullstellensatz, giving its
 final statement; the record page lists copies for five Mathlib versions. The
-catalog's statement file for the problem (linked above at its commit of
+formal-conjectures statement file for the problem (linked above at its commit of
 2026-09-18; category `research solved`, `sorry` body) carries a `formal_proof`
 attribute naming this file on the `main` branch, not a fixed commit, and the
 community database lists the problem as proved in Lean, as of its last update

@@ -327,7 +327,7 @@ closed by no source cited here, and $n_0$ has no known value; reopening
 condition: an explicit $n_0$ with a reviewed check below it, or an accepted
 proof for all $n$ (the tab's claim, if reviewed and accepted, would be one).
 (2) The label-versus-statement question is recorded as a question of the
-catalog's labeling. (3) The proof-claim tab's entry
+erdosproblems.com labeling. (3) The proof-claim tab's entry
 ([[problems/extremal_graph_theory/E0742/claims/2026_08_05_jstar|claim page]])
 is unreviewed. (4) Proof coverage: Theorem 1.2 at claims checked, its proof
 for structure only; the external Lean file neither built nor audited. (5)

@@ -2,8 +2,8 @@
 name: additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target
 title: "target: the first question of Problem 354 answered yes in Lean"
 desc: |
-  The accepted theorem: the catalog statement of the first question of
-  Problem 354 with its answer instantiated to true, unfolded to the site's
+  The accepted theorem: the formal-conjectures statement of the first question
+  of Problem 354 with its answer instantiated to true, unfolded to the site's
   wording, with the proof's reduction chain.
 created: 2026-09-28T03:20:00Z
 updated: 2026-10-08T01:29:58Z
@@ -26,7 +26,7 @@ kernel-replayed here. Nothing here is independently reviewed.
 
 ## Statement
 
-The theorem's type is the catalog's `Erdos354.erdos_354.parts.i` with
+The theorem's type is formal-conjectures' `Erdos354.erdos_354.parts.i` with
 `answer(sorry)` instantiated to `True`:
 
 ```lean
@@ -34,7 +34,7 @@ True ↔ ∀ α > 0, ∀ β > 0, Irrational (α / β) →
   IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β 2)
 ```
 
-Unfolded with the catalog's definitions
+Unfolded with formal-conjectures' definitions
 (`FormalConjectures/ErdosProblems/354.lean` and
 `FormalConjecturesForMathlib/NumberTheory/AdditivelyComplete.lean`, `main` at
 `e6fac203`): `FloorMultiples a γ n` is $\lfloor\gamma^na\rfloor$ in $\mathbb Z$;
@@ -105,7 +105,7 @@ predicate `digit α n = 1` (line 92). The chain:
 
 ## Dependencies
 
-Mathlib (measure theory, $L^2$ spaces, filters, floors); the catalog's
+Mathlib (measure theory, $L^2$ spaces, filters, floors); formal-conjectures'
 definitions of `FloorMultiples`, `interleave`, `subseqSums'` and
 `IsAddCompleteNatSeq'`, none of which the file redefines. The site's
 static scan reports no imports in the submitted source: the imports are

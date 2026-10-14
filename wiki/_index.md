@@ -2,7 +2,7 @@
 name: wiki
 desc: |
   The mathematics wiki of the Erdős corpus: under problems/, one folder per
-  problem of the catalog at erdosproblems.com, presented at erdosproblems.ai,
+  problem of Bloom's catalog at erdosproblems.com, presented at erdosproblems.ai,
   holding its page and its claim pages, with research notes, the corpus's own
   claims and the generated claim views; the sources are in the library wiki
   beside this one.
@@ -36,7 +36,7 @@ mathematical dependencies, and warranted verification records.
 ***
 
 The corpus of research on the Erdős problems. [[problems/_index|problems/]]
-mirrors the catalog at erdosproblems.com, presented at erdosproblems.ai, one
+mirrors Bloom's catalog at erdosproblems.com, presented at erdosproblems.ai, one
 folder per problem, keyed by the letter E and the site's four-digit problem
 number, each holding the problem page and the claim pages recording the results
 claimed about it; [[../library/_index|library/]] holds one folder per source

@@ -71,11 +71,11 @@ date](https://github.com/google-deepmind/formal-conjectures/blob/c74b753650ad69d
 has tagged the problem research solved, crediting Wang, and linked two formal
 proofs: Boris Alexeev's Lean 4.33.0 port of Wang's own formalization, and a
 fork of formal-conjectures that carries Wang's development through Alexeev's
-port and adds a bridge to the catalog's statement. Wang's development,
+port and adds a bridge to the formal-conjectures statement. Wang's development,
 Alexeev's port and the fork are linked at pinned commits from the
 [[problems/divisors/E0486/claims/2026_07_16_wang|claim page]]. This corpus has
 built and audited none of them, so none supplies `formalized` evidence; the
-catalog links a formal proof and does not referee it.
+formal-conjectures catalog links a formal proof and does not referee it.
 
 ## Current assessment
 

@@ -155,17 +155,17 @@ declares
 `erdos_952 : answer(sorry) ↔ ∃ (x : ℕ → GaussianInt) (C : ℤ), Function.Injective x ∧ ∀ n, Prime (x n) ∧ (x (n + 1) - x n).norm < C`
 under `category research open`, with proof `sorry`; the norm of a Gaussian
 integer is its squared modulus, so the bound is the site's $\ll1$. On
-2026-10-11 the catalog marked the statement solved: at
+2026-10-11 the formal-conjectures catalog marked the statement solved: at
 [that commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/952.lean)
 `erdos_952` has `answer(False)`, the category `research solved` and a
 `formal_proof` attribute linking the release's
 [`fullMain`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/GaussianMoat/Main.lean#L102),
-the declaration built here, at its pinned revision; the catalog's own proof
-stays `sorry`, and the commit's notes say that the step from the norm bound to
-the distance bound is not in the linked proof. The community database
-(teorth/erdosproblems, 2026-09-18) records the problem open (31 August 2025),
-the statement formalized since 21 November 2025, the comment "Gaussian moat
-problem" and no formal proof. The statement file was not built.
+the declaration built here, at its pinned revision; the formal-conjectures
+catalog's own proof stays `sorry`, and the commit's notes say that the step from
+the norm bound to the distance bound is not in the linked proof. The community
+database (teorth/erdosproblems, 2026-09-18) records the problem open (31 August
+2025), the statement formalized since 21 November 2025, the comment "Gaussian
+moat problem" and no formal proof. The statement file was not built.
 
 ## Current assessment
 

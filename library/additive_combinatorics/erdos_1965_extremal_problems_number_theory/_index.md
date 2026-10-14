@@ -102,7 +102,7 @@ by this reading.
 
 For [[../wiki/problems/number_theory/E0963/_index|#963]], the relevant paragraph is on printed
 p. 188 (PDF page 8), immediately after the different quantities $g(n)$ and
-$h(n)$ in (30)--(31). In the terminology now used by the catalog, for an
+$h(n)$ in (30)--(31). In the terminology now used by Bloom's catalog, for an
 $n$-element set $A\subset\mathbb R$ let $d(A)$ be the maximum size of a
 dissociated subset: a subset $B$ for which the $2^{|B|}$ sums
 $\sum_{b\in S}b$, $S\subseteq B$, are all distinct. The intended extremal

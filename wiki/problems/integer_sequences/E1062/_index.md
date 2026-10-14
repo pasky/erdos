@@ -117,7 +117,7 @@ independent, unreviewed manuscript that asserts an extremal formula for $f(n)$
 and the transcendence of the limit
 ([[problems/integer_sequences/E1062/claims/2026_09_23_turturean|claim page]], a
 pending full claim). The searches found no refereed publication and no
-erdosproblems.com acceptance, and the catalog's
+erdosproblems.com acceptance, and the formal-conjectures
 [statement file](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/1062.lean),
 at that commit, tags the irrationality clause `research open`. Davis's 2026
 paper ([[problems/integer_sequences/E1062/claims/2026_04_19_davis|claim page]],
@@ -223,13 +223,14 @@ and target axiom audit are still required, and several component comments still
 call the covering theorem an explicit hypothesis, notes written before the final
 component, which proves that theorem and closes the target without hypotheses.
 The replay settles two further limits of the reading: the statement file was
-compared against the catalog's default branch, while the replay reproduced the
-pinned commit, which the site builds from a public catalog commit and an audit
-patch, and found the target's statement identical to it (the record's solution
-page prints its proof target under a different task id and catalog revision than
-the record's); and the shared definitions of the target macro and the catalog's
-answer marker, which the reading knew only through the proof's unfolding of
-them, are among the definitions the replay found identical to the task's.
+compared against the formal-conjectures default branch, while the replay
+reproduced the pinned commit, which the site builds from a public catalog commit
+and an audit patch, and found the target's statement identical to it (the
+record's solution page prints its proof target under a different task id and
+catalog revision than the record's); and the shared definitions of the target
+macro and the formal-conjectures answer marker, which the reading knew only
+through the proof's unfolding of them, are among the definitions the replay
+found identical to the task's.
 
 ## Progress
 

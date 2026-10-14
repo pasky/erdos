@@ -29,7 +29,7 @@ $$
 f(n;C)\le O(n^{8/5}) \tag{5}
 $$"
 
-In the catalog's notation, $\mathrm{ex}(n;Q_3)=O(n^{8/5})$. The paper's
+In the erdosproblems.com notation, $\mathrm{ex}(n;Q_3)=O(n^{8/5})$. The paper's
 display (10) (p. 379 = PDF p. 3) generalizes it to
 $f(n;\{K(r,r)-3\})=O(n^{2-2/(2r-3)})$, "which is a generalization of (5)";
 for $r=4$ the exponent is $2-2/5=8/5$.

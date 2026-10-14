@@ -69,7 +69,7 @@ whose variant `erdos_672.variants.euler` ($k=4$, $\ell=2$) carries a
 Here a primitive progression means $\gcd(n,d)=1$, with $n,d$ positive; it does
 not mean that every pair of terms is coprime. A perfect power means $y^\ell$
 with an integer exponent $\ell\geq2$. The full question was open in general on
-the catalog as accessed 2026-09-04. It is verifiable in the site's
+Bloom's catalog as accessed 2026-09-04. It is verifiable in the site's
 sense: a single product that is a perfect power would settle it, while a
 negative answer needs a proof. Search scope: the
 primary sources and the site discussion, for a full resolution of the coprime

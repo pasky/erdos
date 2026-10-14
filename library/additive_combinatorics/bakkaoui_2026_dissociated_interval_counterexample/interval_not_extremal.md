@@ -28,9 +28,9 @@ $$
 
 In the notation of [[../wiki/problems/number_theory/E0963/_index|Problem 963]], this gives
 f(13) <= 4. It does not establish f(13) = 4 or a universal lower bound of four.
-Since floor(log_2 13) = 3, the example does not refute the catalog's proposed
-lower bound. The mathematical point is that initial intervals need not minimize
-the largest dissociated-subset size among sets of a fixed cardinality.
+Since floor(log_2 13) = 3, the example does not refute erdosproblems.com's
+proposed lower bound. The mathematical point is that initial intervals need not
+minimize the largest dissociated-subset size among sets of a fixed cardinality.
 
 ## Source
 

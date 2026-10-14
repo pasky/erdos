@@ -75,8 +75,8 @@ For the corrected statement, the one pending claim is a claimed disproof of
 the second question recorded on
 [[problems/irrationality/E0263/claims/2026_05_09_price|the Price claim page]],
 an increasing sequence that GPT-5.5 Pro is said to have found as a
-counterexample; the first question has no claim, and the catalog's file at its
-commit of 2026-09-18 tags both questions research open. The Progress note
+counterexample; the first question has no claim, and the formal-conjectures file
+at its commit of 2026-09-18 tags both questions research open. The Progress note
 below records Koizumi's theorem and Kovač and Tao's theorem and why neither
 settles a question; the corpus records no check of their proofs and no
 literature search beyond the cited sources and the site's threads.
@@ -144,12 +144,12 @@ and
 [[../library/irrationality/badea_1993_theorem_irrationality_infinite_series_applications/_index|badea_1993_theorem_irrationality_infinite_series_applications]])
 is a stronger classical criterion of the first kind, and on 2026-08-03 that
 the Erdős paper the claimant cites already has a non-monotone form of the
-second. The catalog's file for the problem at its commit of 2026-09-18 states
-the first criterion twice, both tagged research solved: in a $\liminf$ form,
-citing `Folklore.lean` of the claimant's repository at an earlier commit as
-its formal proof, and in the eventual form that matches the claim, citing no
+second. The formal-conjectures file for the problem at its commit of 2026-09-18
+states the first criterion twice, both tagged research solved: in a $\liminf$
+form, citing `Folklore.lean` of the claimant's repository at an earlier commit
+as its formal proof, and in the eventual form that matches the claim, citing no
 proof; its variant `folklore` states the second criterion without a proof
-link. The catalog links proofs without refereeing them.
+link. The formal-conjectures catalog links proofs without refereeing them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

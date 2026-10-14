@@ -1,10 +1,10 @@
 ---
 name: additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved
-title: "erdos_354_part_ii_solved: the catalog's part (ii) with answer true at the square root of the golden ratio"
+title: "erdos_354_part_ii_solved: formal-conjectures' part (ii) with answer true at the square root of the golden ratio"
 desc: |
-  The catalog's existential part (ii) of Problem 354 with its answer
-  instantiated to true, through the completeness of a single floor sequence
-  at the square root of the golden ratio; unreviewed.
+  The formal-conjectures catalog's existential part (ii) of Problem 354 with its
+  answer instantiated to true, through the completeness of a single floor
+  sequence at the square root of the golden ratio; unreviewed.
 created: 2026-09-28T03:20:00Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -18,8 +18,8 @@ the repository is identified on the
 [[additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/_index|source card]].
 
 **Read depth.** Claims checked: the theorem and `single_complete` were
-read clause by clause as text against the catalog file; the lemma chain
-was read for structure with the README's explanation; nothing was built
+read clause by clause as text against the formal-conjectures file; the lemma
+chain was read for structure with the README's explanation; nothing was built
 here, and the axiom report is the author's. Nothing here is independently
 reviewed.
 
@@ -31,7 +31,7 @@ theorem erdos_354_part_ii_solved : answer(True) ↔
       IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β γ)
 ```
 
-With the catalog's definitions this says: there is $\gamma\in(1,2)$ such
+With formal-conjectures' definitions this says: there is $\gamma\in(1,2)$ such
 that for all $\alpha,\beta>0$ with $\alpha/\beta$ irrational, every
 sufficiently large integer is a finite-index sum of the interleaved
 sequence $\lfloor\alpha\rfloor,\lfloor\beta\rfloor,\lfloor\gamma\alpha\rfloor,\lfloor\gamma\beta\rfloor,\ldots$
@@ -59,23 +59,23 @@ positive with each term at most twice its predecessor, `deficit_bound`
 `extend_interval` (line 40) with `complete_of_interval` (line 84) extend
 the represented interval by each new odd term without a gap. The final
 theorem maps a representation to the even positions of the interleaving
-(`Finset.image (2 * ·)`, `simp` on the catalog's `interleave`) and
+(`Finset.image (2 * ·)`, `simp` on formal-conjectures' `interleave`) and
 discards the hypotheses on $\beta$ and on the ratio. `gamma_bounds`
 (line 296) supplies $1<\gamma<2$.
 
 ## Dependencies
 
 Mathlib's golden-ratio facts (`goldenRatio`, `Real.one_lt_goldenRatio`,
-`Real.goldenRatio_lt_two`) and the catalog's definitions; the statement's
-existential quantifier over $\gamma$ is the catalog's since PR #5243
-(1 September 2026) and is disputed in issue #6542.
+`Real.goldenRatio_lt_two`) and formal-conjectures' definitions; the statement's
+existential quantifier over $\gamma$ is the formal-conjectures catalog's since
+PR #5243 (1 September 2026) and is disputed in issue #6542.
 
 ## Bears on
 
-- [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: settles the catalog's
-  reading of the second question, "for some $\gamma\in(1,2)$", in the
-  affirmative, and shows that reading is weaker than the site's wording
-  invites, since the pair and the irrational ratio play no role; under
-  the reading "for every $\gamma$" the answer is no by
+- [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: settles
+  formal-conjectures' reading of the second question, "for some
+  $\gamma\in(1,2)$", in the affirmative, and shows that reading is weaker than
+  the site's wording invites, since the pair and the irrational ratio play no
+  role; under the reading "for every $\gamma$" the answer is no by
   [[additive_bases/geneson_2026_deletion_thresholds_exponential_examples_complete_sequences/corollary_12|Geneson's Corollary 12]].
   Unreviewed; no status change.

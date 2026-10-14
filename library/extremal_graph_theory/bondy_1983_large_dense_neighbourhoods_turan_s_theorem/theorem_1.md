@@ -18,9 +18,9 @@ updated: 2026-10-08T01:29:58Z
 Notation (printed p. 109): $T_r(n)$ is "the complete $r$-partite graph on $n$
 vertices in which each colour class has $\lfloor n/r\rfloor$ or
 $\lceil n/r\rceil$ vertices", and $t_r(n)$ is the number of edges in
-$T_r(n)$; in the catalog's notation $t_r(n)=\mathrm{ex}(n;K_{r+1})$. The note
-introduces the theorem as "A strengthening of Turán's theorem, conjectured by
-Erdős [3], and proved independently by Bollobás and Thomason [1] and Erdős
+$T_r(n)$; in the erdosproblems.com notation $t_r(n)=\mathrm{ex}(n;K_{r+1})$. The
+note introduces the theorem as "A strengthening of Turán's theorem, conjectured
+by Erdős [3], and proved independently by Bollobás and Thomason [1] and Erdős
 and Sós [4], can be stated as".
 
 **Theorem 1** (printed p. 109). "Let $G$ be a simple graph on $n$ vertices

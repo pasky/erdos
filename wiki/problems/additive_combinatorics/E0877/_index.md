@@ -143,10 +143,10 @@ $f_m(n)\le2^{cn}$ for all large $n$, with a `formal_proof` link to the
 theorem `erdos_877_exponential_bound` of the same file; and the variants
 `cameron_erdos` ($2^{n/4}<f_m(n)$ for all large $n$) and
 `balogh_liu_sharifzadeh_treglown` ($\log_2f_m(n)/n\to1/4$) with no proof.
-The catalog's own theorems are `sorry`. On 2026-09-18 the main branch held
-no such file and the page's indicator read "Formalised statement? No
-(create one)"; the community database (teorth/erdosproblems) on the
-same day recorded the problem proved (last changed 31 August 2025), the
+The formal-conjectures catalog's own theorems are `sorry`. On 2026-09-18 the
+main branch held no such file and the page's indicator read "Formalised
+statement? No (create one)"; the community database (teorth/erdosproblems) on
+the same day recorded the problem proved (last changed 31 August 2025), the
 statement not formalized and the OEIS entry A121269, and on 2026-10-06
 records it formalized since 2026-09-21. The Lean development is described on the
 [[problems/additive_combinatorics/E0877/claims/2014_09_19_balogh_liu_sharifzadeh_treglown|claim page of Balogh, Liu, Sharifzadeh and Treglown]],

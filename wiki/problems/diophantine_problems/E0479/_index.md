@@ -36,7 +36,7 @@ https://www.erdosproblems.com/479.
 
 ## Current assessment
 
-The assertion for every fixed integer $k\neq1$ was open on the catalog
+The assertion for every fixed integer $k\neq1$ was open on the erdosproblems.com
 snapshot accessed 2026-09-04. The searches covered the site page, Tang's note,
 a web search for a proof of the full congruence question and a bibliographic
 search for the Graham–Lehmer–Lehmer publication; on 2026-09-05 they showed

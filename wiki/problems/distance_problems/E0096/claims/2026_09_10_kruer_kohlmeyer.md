@@ -116,12 +116,12 @@ of the Euclidean plane in strict convex position, of the number of unordered
 pairs of distinct points at distance exactly $1$; the accepted file proves the
 negation of that statement from the construction above. The task's catalog
 commit was not reachable on GitHub on 2026-10-07; the statement file at the
-catalog's commit of 2026-09-18 reads the same. The site builds the task's commit
-from a public catalog commit and an audit patch; this corpus's replay reproduced
-it exactly and found the target's type identical to its statement. In it
-`ConvexIndep` is strict convex position and the count of unit distances runs
-over unordered pairs of distinct points, so the negation the file proves is the
-answer no to the problem's Statement.
+formal-conjectures commit of 2026-09-18 reads the same. The site builds the
+task's commit from a public catalog commit and an audit patch; this corpus's
+replay reproduced it exactly and found the target's type identical to its
+statement. In it `ConvexIndep` is strict convex position and the count of unit
+distances runs over unordered pairs of distinct points, so the negation the file
+proves is the answer no to the problem's Statement.
 
 **Consequence for Problem 97.** The site's remarks record that a positive answer
 to [[problems/distance_problems/E0097/_index|Problem 97]] for $k+1$ equidistant

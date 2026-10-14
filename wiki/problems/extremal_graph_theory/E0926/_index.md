@@ -133,7 +133,7 @@ No step of the proof is checked in this corpus, and no Lean proof of the
 problem has been built or audited here; the standing rests on the refereed
 publication and the site's acceptance.
 
-The catalog also credits Alon, Krivelevich and Sudakov [AKS03] with the
+Bloom's catalog also credits Alon, Krivelevich and Sudakov [AKS03] with the
 sharper dependence $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. That is Theorem 6.1 of
 their paper (Section 6, pp. 491--493),
 $\mathrm{ex}(2n;L_t^{k,s})\le2^{1+1/t}(s+1)^{1/t}kn^{2-1/t}$, whose
@@ -142,7 +142,7 @@ $\mathrm{ex}(2n;H_k)\le4kn^{3/2}$, a second proof of the answer yes with its
 own claim page. The bound below is Füredi's and is not the best known
 dependence on $k$.
 
-**Search scope.** A bounded search beyond the catalog
+**Search scope.** A bounded search beyond Bloom's catalog
 checked the [publisher's record](https://doi.org/10.1007/BF01375476) and
 queries for the paper title with correction/erratum terms, Problem 926 with
 2026 terms, and arXiv and X announcements using the problem number and

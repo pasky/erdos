@@ -31,9 +31,9 @@ $A\subseteq\mathbb Z$ has at most $C|A|^{3/2}$ distinct common differences of
 non-trivial three-term arithmetic progressions, which answers the second
 question of [[problems/additive_combinatorics/E1097/_index|Problem 1097]] no.
 The result is the Lean 4 theorem `Erdos1097.erdos_1097`, stated as
-`answer(False) ↔ ∃ C > 0, ∀ A, ncard ≤ C * card ^ (3/2)` with the catalog's
-predicate `CommonDifferencesThreeTermAP` (the non-zero $d$ for which some
-$a,b,c\in A$ have $b-a=c-b=d$), in the file
+`answer(False) ↔ ∃ C > 0, ∀ A, ncard ≤ C * card ^ (3/2)` with the
+formal-conjectures predicate `CommonDifferencesThreeTermAP` (the non-zero $d$
+for which some $a,b,c\in A$ have $b-a=c-b=d$), in the file
 `FormalConjectures/ErdosProblems/1097.lean` of Moritz Firsching's fork of
 formal-conjectures at its commit of 2026-05-28, with the construction split
 between the module `FormalConjectures/Counterexample.lean` of the same commit

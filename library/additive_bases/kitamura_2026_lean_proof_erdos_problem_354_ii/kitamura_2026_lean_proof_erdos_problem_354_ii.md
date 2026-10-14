@@ -54,7 +54,7 @@ generated)". These are the author's statements, quoted as stated.
   opened 2026-09-24T15:41:47Z, labels `misformalization`, `ai-audit`,
   titled "ErdosProblems/354: `erdos_354.parts.ii` quantifies γ
   existentially, so it is provable with γ = φ rather than asking the
-  variable-base question"; open. The catalog's `main` keeps
+  variable-base question"; open. The formal-conjectures catalog's `main` keeps
   `erdos_354.parts.ii` `research open` with `answer(sorry)`.
 - erdosproblems.com/354: OPEN, last edited 1 December 2025; the thread's
   latest comment (13:09 on 5 September 2026) is the author's
@@ -67,5 +67,5 @@ generated)". These are the author's statements, quoted as stated.
   not prove part (i)".
 
 **Acceptance.** None documented: no maintainer merge, no site relabeling,
-no review, no refereed source. The catalog's own audit issue disputes the
-formal statement the proof establishes.
+no review, no refereed source. The formal-conjectures catalog's own audit issue
+disputes the formal statement the proof establishes.

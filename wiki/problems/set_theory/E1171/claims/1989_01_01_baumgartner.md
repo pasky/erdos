@@ -3,8 +3,9 @@ name: problems/set_theory/E1171/claims/1989_01_01_baumgartner
 title: Baumgartner's partition ordinal under Martin's axiom
 desc: |
   Baumgartner (Lecture Notes in Math. 1401, 1989) proved that Martin's axiom for
-  $\aleph_1$ dense sets makes $\omega_1\omega$ a partition ordinal. The catalog
-  relation follows for every finite $k$, so it holds in a model of ZFC.
+  $\aleph_1$ dense sets makes $\omega_1\omega$ a partition ordinal. The
+  erdosproblems.com relation follows for every finite $k$, so it holds in a
+  model of ZFC.
 authors:
 - James E. Baumgartner
 status: accepted
@@ -35,12 +36,12 @@ $$
 \omega_1\omega\to(\omega_1\omega,n)^2 .
 $$
 
-The catalog relation follows. Fix $k\ge1$ and let $n$ be the finite Ramsey
-number for triangles in $k$ colors. Given a coloring of $[\omega_1^2]^2$ with
-the colors $0,\ldots,k$, restrict it to the initial segment $\omega_1\omega$
-and merge the colors $1,\ldots,k$; the theorem gives a set of type
-$\omega_1\omega$ homogeneous in color $0$ or an $n$-element set colored from
-$1,\ldots,k$ only, which contains a monochromatic triangle. So
+The erdosproblems.com relation follows. Fix $k\ge1$ and let $n$ be the finite
+Ramsey number for triangles in $k$ colors. Given a coloring of $[\omega_1^2]^2$
+with the colors $0,\ldots,k$, restrict it to the initial segment
+$\omega_1\omega$ and merge the colors $1,\ldots,k$; the theorem gives a set of
+type $\omega_1\omega$ homogeneous in color $0$ or an $n$-element set colored
+from $1,\ldots,k$ only, which contains a monochromatic triangle. So
 $\mathrm{MA}_{\aleph_1}$ implies the relation for every finite $k$ (the case
 $k=0$ has one color and is trivial). Since $\mathrm{MA}_{\aleph_1}$ is
 consistent relative to ZFC (Solovay and Tennenbaum, Ann. of Math. 94, 1971),
@@ -54,7 +55,7 @@ of ZFC for $k\le2$ and open in ZFC for $k\ge3$, so the claim leaves the
 problem open.
 
 **The step from the theorem to the relation.** The chapter does not state the
-catalog relation. The finite Ramsey step above is written out on the
+erdosproblems.com relation. The finite Ramsey step above is written out on the
 [[../library/set_theory/baumgartner_1989_remarks_partition_ordinals/main_theorem|result page of the source card]]
 and is author-recorded there, not independently reviewed. The only other
 written form found is the color-reduction lemma of Gao's deposit, which
@@ -67,8 +68,8 @@ recorded as withdrawn, and the standing here takes nothing from it.
 continuum hypothesis gives $\omega_1\omega\not\to(\omega_1\omega,3)^2$ (Erdős
 and Hajnal, as the chapter's review records), so the partition property of
 $\omega_1\omega$ is independent of ZFC, and under CH the route through
-$\omega_1\omega$ closes. The catalog relation itself is a theorem of ZFC for
-$k\le2$
+$\omega_1\omega$ closes. The erdosproblems.com relation itself is a theorem of
+ZFC for $k\le2$
 ([[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|Baumgartner and Hajnal 1987]]
 for $k=2$, containing $k=1$) and open in ZFC for $k\ge3$, as Komjáth's 2025
 survey records (Problem 54 commentary); the problem page states these results
@@ -92,13 +93,13 @@ with $\omega_1\omega\to(\omega_1\omega,3)^2$ under a form of Martin's axiom
 changed to not disprovable on 5 September 2026. The change followed a comment in
 the discussion thread that asked for it on the strength of the deposit, which
 has since been removed. The curator's credit to Baumgartner covers only the
-two-color relation. The site writes no step from it to the catalog relation, and
-that step is author-recorded here. So `reviewed` rests on the label and credit
-alone, and it carries the acceptance by itself. The chapter appeared in a
-Springer Lecture Notes in Mathematics proceedings volume, reviewed in zbMATH and
-Mathematical Reviews. No evidence that the volume's chapters were refereed was
-found, so `refereed` is not listed. Nothing on this page is independently
-reviewed by this project.
+two-color relation. The site writes no step from it to the erdosproblems.com
+relation, and that step is author-recorded here. So `reviewed` rests on the
+label and credit alone, and it carries the acceptance by itself. The chapter
+appeared in a Springer Lecture Notes in Mathematics proceedings volume, reviewed
+in zbMATH and Mathematical Reviews. No evidence that the volume's chapters were
+refereed was found, so `refereed` is not listed. Nothing on this page is
+independently reviewed by this project.
 
 **Depends on.**
 [[../library/set_theory/baumgartner_1989_remarks_partition_ordinals/main_theorem|Baumgartner 1989, main theorem]],

@@ -94,15 +94,15 @@ $[\omega_1^2]^2$ to the initial segment $\omega_1\omega$. Remark 3.2 notes
 that the lemma makes the property $\alpha\to(\alpha,3)^2$ stable under adding
 finitely many triangle targets.
 
-**Fidelity to Problem 1171.** Theorem 3.1 is the catalog relation for every
-finite $k\ge1$ with $k$ triangle targets and $k+1$ colors, under the added
-hypothesis $\mathrm{MA}_{\aleph_1}$; the catalog's instance $k=0$ has one
-color and is trivial. The introduction says that its case $k=1$ "is exactly"
+**Fidelity to Problem 1171.** Theorem 3.1 is the erdosproblems.com relation for
+every finite $k\ge1$ with $k$ triangle targets and $k+1$ colors, under the added
+hypothesis $\mathrm{MA}_{\aleph_1}$; the erdosproblems.com instance $k=0$ has
+one color and is trivial. The introduction says that its case $k=1$ "is exactly"
 Baumgartner's relation $\omega_1\omega\to(\omega_1\omega,3)^2$; that sentence
-identifies the paper's hypothesis, not the catalog's instance $k=1$, which is
-$\omega_1^2\to(\omega_1\omega,3)^2$ and is a theorem of ZFC (Komjáth 2025
-attributes $\omega_1^2\to(\omega_1\alpha,3)^2$ for $\alpha<\omega_1$ to Erdős
-and Hajnal, and the case $k=2$ to
+identifies the paper's hypothesis, not the erdosproblems.com instance $k=1$,
+which is $\omega_1^2\to(\omega_1\omega,3)^2$ and is a theorem of ZFC (Komjáth
+2025 attributes $\omega_1^2\to(\omega_1\alpha,3)^2$ for $\alpha<\omega_1$ to
+Erdős and Hajnal, and the case $k=2$ to
 [[set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/positive_relation|Baumgartner and Hajnal 1987]],
 as the introduction also says). The deposit is not load-bearing for the
 problem's status: Baumgartner's theorem in its full form,

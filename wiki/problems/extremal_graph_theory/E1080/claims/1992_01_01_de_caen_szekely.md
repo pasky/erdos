@@ -111,7 +111,7 @@ this corpus has not built it, printed its axioms or audited its statement
 against the question, so the file is a link and not `formalized` evidence; the
 axiom list above is the file's own comment. The site's label DISPROVED (LEAN)
 and the community database's Lean formal status, as of its last update on 28
-December 2025, record the catalog's acceptance of the file as the
+December 2025, record erdosproblems.com's acceptance of the file as the
 formalization of the disproof. Only the pinned commit is described; later commits, and the
 repository's copies of the file for later toolchains, are unexamined.
 

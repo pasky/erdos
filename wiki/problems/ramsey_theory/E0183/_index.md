@@ -168,10 +168,10 @@ obligations; this reduction changes no catalog status or formal standing.
 
 **Search scope:** the report (its relevant chapter in full), its
 first-party announcement, the pinned formalization sources and the
-identified matrix/cover predecessor. The catalog page's last edit is dated 1
-September 2026, so the formulation above, taken on 2026-09-04, is unchanged.
-This bounded search does not assert a comprehensive literature search or an
-independent community-acceptance review.
+identified matrix/cover predecessor. The erdosproblems.com page's last edit is
+dated 1 September 2026, so the formulation above, taken on 2026-09-04, is
+unchanged. This bounded search does not assert a comprehensive literature search
+or an independent community-acceptance review.
 
 The lower-route review examined this page as it stood on 2026-09-09, and the
 upper-route review and grade as it stood on 2026-09-10. Since the reviews,

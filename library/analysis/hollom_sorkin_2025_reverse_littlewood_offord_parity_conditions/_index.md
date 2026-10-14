@@ -177,7 +177,7 @@ independently and is correct; in particular no factor four is missing.
 ## Relation to problem 395
 
 Theorem 1.3 gives the exponential upper bound for the odd-$n$ unit-radius
-variant of the catalog question, matching the exponential lower bound
+variant of the erdosproblems.com question, matching the exponential lower bound
 $\tfrac14(0.525)^n$ of
 [[analysis/hollom_2025_double_jump_phase_transition_reverse_littlewood_offord/theorem_1_6|Hollom–Portier–Souza Theorem 1.6]]
 up to the base. Theorem 1.5 concerns the higher-dimensional parity

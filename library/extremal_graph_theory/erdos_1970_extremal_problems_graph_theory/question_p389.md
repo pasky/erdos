@@ -20,7 +20,7 @@ contains a $d$-regular subgraph $G^m$, $e(G^m)>\varepsilon m\log m$ where $m$
 tends to infinity together with $n$?" Here $G^n$ is a graph of $n$ vertices,
 $e(G)$ its number of edges, $[x]$ the integer part, and "$d$-regular" is the
 paper's Definition 1 (pp. 379--380): the maximum valency is at most $d$ times
-the minimum valency (the catalog's $D$-balanced). The constants $d$ and
+the minimum valency (erdosproblems.com's $D$-balanced). The constants $d$ and
 $\varepsilon$ are not quantified in the sentence; the later restatements
 read them as absolute. The first open problem, on graphs with $n^{1+\alpha}$
 edges, is paged at

@@ -132,7 +132,7 @@ Erdős and Graham's
 printed pp. 95–96, defines
 $S=\{f(1),f(2),\ldots\}$ and asks whether a direct decomposition
 $\mathbb Z=S+T$ can never occur. This positive-input formulation differs
-from the catalog's full image $f(\mathbb Z)$. The Sekanina (1959) paper
+from erdosproblems.com's full image $f(\mathbb Z)$. The Sekanina (1959) paper
 cited there proves, in its Remark 1.7, that the squares have no tiling
 complement and leaves higher powers open; see
 [[problems/diophantine_problems/E0477/claims/1959_01_01_sekanina|its claim page]].

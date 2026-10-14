@@ -45,8 +45,8 @@ and
 Each reaches the problem through the embedding the Current assessment states.
 The thread's observation and its earlier direct constructions are thread posts
 and get no page. A self-contained Lean disproof of the $O(n^{3/2})$ bound is in
-Moritz Firsching's fork of formal-conjectures, and the catalog's entry described
-under Formalization points to it. It is recorded as claimed on
+Moritz Firsching's fork of formal-conjectures, and the formal-conjectures entry
+described under Formalization points to it. It is recorded as claimed on
 [[problems/additive_combinatorics/E1097/claims/2026_05_28_firsching|its claim page]].
 
 **Source.** [erdosproblems.com/1097](https://www.erdosproblems.com/1097),

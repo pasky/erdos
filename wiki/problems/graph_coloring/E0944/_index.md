@@ -57,7 +57,7 @@ https://www.erdosproblems.com/944.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/41b4428ce39ff6033f1a66107e3985124da2cbda/FormalConjectures/ErdosProblems/944.lean),
-The catalog file keeps the theorem `erdos_944` itself tagged
+The formal-conjectures file keeps the theorem `erdos_944` itself tagged
 research open, while it tags Dirac's conjecture
 (`erdos_944.variants.dirac_conjecture`) and its $k=4$ case
 (`erdos_944.variants.dirac_conjecture.k_eq_four`) research solved, citing
@@ -72,9 +72,9 @@ The site's formulation (fetched 2026-09-18) asks whether for every $k\ge4$ and
 $r\ge1$ some graph with chromatic number $k$ has every vertex critical while
 every critical set of edges has more than $r$ edges. The answer is yes for every
 such $k$ and $r$: a Lean 4 proof by Liam Kruer and Jensen Kohlmeyer, certified
-by the bounty site Conjectures.io on 16 September 2026, proves the catalog
-statement of the problem for every such $k$ and $r$, and the frontmatter derives
-its standing through the
+by the bounty site Conjectures.io on 16 September 2026, proves the
+formal-conjectures statement of the problem for every such $k$ and $r$, and the
+frontmatter derives its standing through the
 [[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]],
 which records the theorem, this corpus's kernel replay and Statement check on
 which the acceptance rests, and the site's verification and review. The proof

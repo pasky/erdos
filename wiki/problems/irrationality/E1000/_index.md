@@ -72,7 +72,7 @@ https://www.erdosproblems.com/1000.
   Compositio Math. (1964), 52-65.
 - [Ha] Haight, John Andrew, Metric Diophantine Approximation and Related
   Topics. PhD thesis, University of London, Westfield College, February 1971
-  (the title page's date; the catalog's entry [Ha] gives no year).
+  (the title page's date; the erdosproblems.com entry [Ha] gives no year).
   [ProQuest record](https://www.proquest.com/docview/2006885858?pq-origsite=primo).
 
 **Formalization.** Statement in

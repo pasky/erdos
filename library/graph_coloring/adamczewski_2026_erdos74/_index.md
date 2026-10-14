@@ -179,9 +179,9 @@ separate compilation and review.
 The original problem appears in Erdős, Hajnal and Szemerédi's
 [[graph_coloring/erdos_1982_almost_bipartite_large_chromatic_graphs/_index|1982 paper]].
 Its historical results have not been reconstructed in this source unit.
-The dated site attributes a positive result for $f(n)=\epsilon n$,
-with chromatic number $\aleph_0$, and a hypergraph analog to Rödl's
-*Nearly bipartite graphs with large chromatic number*, Combinatorica 2
+The dated erdosproblems.com page attributes a positive result for
+$f(n)=\epsilon n$, with chromatic number $\aleph_0$, and a hypergraph analog to
+Rödl's *Nearly bipartite graphs with large chromatic number*, Combinatorica 2
 (1982), 377–383. That paper's proof remains uncompiled here. The
 $f(n)=\sqrt n$ case is still recorded as open.
 

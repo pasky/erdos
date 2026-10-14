@@ -40,12 +40,12 @@ Conjectures.io (record `e73b95f7-1d1b-42b5-a442-c07077741d73`). The bounty
 site's Lean kernel verified the proof on 9 September 2026, and its review
 approved it on 11 September 2026. The bounty site certified the proof and paid
 the bounty on 14 September 2026. The statement the bounty site attacked is the
-formal-conjectures statement `Erdos196.erdos_196`, at the catalog commit it
-pinned, with its open answer fixed to true. It says that every bijection
-$f:\mathbb{N}\to\mathbb{N}$ has four strictly increasing indices whose images
-form a four-term arithmetic progression in one of the two directions. This
-matches the wording above clause for clause. A bijection of $\mathbb{N}$ is a
-permutation. The decreasing-index case $i>j>k>l$ is the increasing-index case
+formal-conjectures statement `Erdos196.erdos_196`, at the formal-conjectures
+commit it pinned, with its open answer fixed to true. It says that every
+bijection $f:\mathbb{N}\to\mathbb{N}$ has four strictly increasing indices whose
+images form a four-term arithmetic progression in one of the two directions.
+This matches the wording above clause for clause. A bijection of $\mathbb{N}$ is
+a permutation. The decreasing-index case $i>j>k>l$ is the increasing-index case
 read backward, which the reversed direction covers. Four distinct indices under
 a bijection exclude the constant progression. That Lean's $\mathbb{N}$ contains
 $0$ is immaterial, since shifting indices and values by one carries permutations
@@ -74,7 +74,7 @@ label OPEN. It lists the proof claim of Kruer and Kohlmeyer, submitted on
 2026-09-14 with the same Lean file. The curator has not commented on that claim.
 The claim's three forum comments, by other users, post a reproduction of the
 construction and point to Ho's preprint. The formal-conjectures statement is
-tagged open on the catalog's default branch (2026-10-07). No refereed
+tagged open on the formal-conjectures default branch (2026-10-07). No refereed
 publication exists. Ho's Lean file was not built by this corpus. The classical
 results stand: [DEGS77] shows that a monotone three-term progression must exist
 and that a monotone five-term progression need not.

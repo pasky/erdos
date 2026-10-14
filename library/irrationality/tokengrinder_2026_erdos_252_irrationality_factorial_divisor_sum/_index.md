@@ -101,7 +101,7 @@ this commit when checked at 2026-09-17T07:49Z; any later commit is unreviewed.
   it does not sit at the folder-name PDF path because the source
   disclaims it as the checked artifact.
 
-## Relation to the catalog question
+## Relation to the erdosproblems.com question
 
 Problem 252 asks, for every $k\ge1$, whether $\sum_n\sigma_k(n)/n!$ is
 irrational, with the summation range implicit on the site and $n\ge1$ in

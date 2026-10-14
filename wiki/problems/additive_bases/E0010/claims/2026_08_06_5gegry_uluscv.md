@@ -32,7 +32,7 @@ updated: 2026-10-07T22:51:53Z
 **Claim.** Let $S_k$ be the set of natural numbers that are a prime plus at
 most $k$ powers of $2$, with the summand $2^0=1$ and repeated powers allowed.
 The even numbers outside $S_3$ form an infinite set. The theorem proved is the
-catalog's `Erdos10.erdos_10.variants.grechuk`,
+formal-conjectures catalog's `Erdos10.erdos_10.variants.grechuk`,
 `({n | Even n} \ Erdos10.sumPrimeAndTwoPows 3).Infinite`, the formal target the
 bounty site Conjectures.io published for the parenthetical remark of the site's
 commentary on [[problems/additive_bases/E0010/_index|Problem 10]], credited
@@ -44,9 +44,10 @@ a larger $k$ exists.
 
 **Covers.** The Grechuk variant only: infinitely many even integers cannot be
 written as a prime plus at most three powers of $2$, in the convention of the
-catalog's `sumPrimeAndTwoPows` (exponent zero and repeated exponents allowed,
-which only enlarges the representable set); hence the lower bound $k\ge4$ on
-any $k$ answering the question. Whether any $k$ exists is untouched.
+formal-conjectures catalog's `sumPrimeAndTwoPows` (exponent zero and repeated
+exponents allowed, which only enlarges the representable set); hence the lower
+bound $k\ge4$ on any $k$ answering the question. Whether any $k$ exists is
+untouched.
 
 **Argument.** Crocker's construction
 ([[../library/additive_bases/crocker_1971_sum_prime_two_powers_two/theorem_i|Crocker 1971, Theorem I]])
@@ -60,10 +61,10 @@ Crocker's choice $k=10$. For each such $t$ the even number $N=t+1$ is outside
 $S_3$: a representation using the summand $1$ would, after one $1$ is removed,
 put $t$ in $S_2$, and otherwise the prime is $2$ and $t-1\equiv14\pmod{16}$
 would be a sum of at most three powers of $2$, forcing $2+4+8$ and $t=15$. The
-file's `theorem target` closes the catalog's own type
+file's `theorem target` closes the formal-conjectures catalog's own type
 (`fcTypeOfName% "Erdos10.erdos_10.variants.grechuk"`), and its
-`SumPrimeThreePows` is an `abbrev` for the catalog's `sumPrimeAndTwoPows 3`, so
-no definition is restated.
+`SumPrimeThreePows` is an `abbrev` for the formal-conjectures catalog's
+`sumPrimeAndTwoPows 3`, so no definition is restated.
 
 **Claimant and posting.** The bounty site credits the proof to the solver
 address it prints as 5GeGrY…uLUScV, the only name the result carries; the file
@@ -88,10 +89,11 @@ definition its statement reaches, are identical to the statement of the site's
 task, `Erdos10.erdos_10.variants.grechuk`. The task pins a catalog commit that
 the site built from a public catalog commit and an audit patch; the replay
 reproduced it exactly, and its `10.lean` is byte-identical to the file at the
-catalog commit of the site's later tasks, whose port to the pinned toolchain the
-file was built against. In that statement `sumPrimeAndTwoPows 3` is the set of
-primes plus at most three powers of $2$, exponent zero and repeats allowed, so
-the target is the claim above. Acceptance rests on this replay and that check.
+formal-conjectures commit of the site's later tasks, whose port to the pinned
+toolchain the file was built against. In that statement `sumPrimeAndTwoPows 3`
+is the set of primes plus at most three powers of $2$, exponent zero and repeats
+allowed, so the target is the claim above. Acceptance rests on this replay and
+that check.
 
 The bounty site Conjectures.io documented its acceptance of the exact statement;
 that certification is reported, not counted. Its Lean kernel accepted the proof

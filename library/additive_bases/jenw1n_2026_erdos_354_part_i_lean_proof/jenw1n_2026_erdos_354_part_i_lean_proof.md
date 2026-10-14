@@ -70,7 +70,7 @@ same at both pinned commits; the conjectures-tasks `main` manifest names
 `6a786f99`, so the record's `8432eac9` revision is not in that pool, a
 discrepancy recorded here and not resolved. Neither pinned commit is
 reachable in `google-deepmind/formal-conjectures` (HTTP 404); the
-statement on the catalog's default branch (`main` at
+statement on formal-conjectures' default branch (`main` at
 `e6fac203f1f66c8550969c93530ad6462e05fb7b`, 2026-09-27T21:29Z, fetched
 2026-09-28) is identical, with `FloorMultiples.interleave` in its
 corrected `n / 2` form (PR #1330, merged 2025-12-03, fixing issue #1309 of

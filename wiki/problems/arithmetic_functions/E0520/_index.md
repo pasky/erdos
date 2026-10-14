@@ -82,11 +82,11 @@ it a formalization by Høystad, with GPT-5.6 Pro and Claude Fable 5, from the
 `normalized_tendsto_zero` (almost surely the normalized sums tend to $0$)
 and `not_erdos_520` (no positive constant is the almost sure limit
 superior), for a model that is exactly the problem's Rademacher model; the
-catalog's statement quantifies over every family satisfying its
-`IsRademacherMultiplicative` predicate, and the catalog's change records a
-separately compiled bridge from that model to its statement, which matters
-only for the catalog's statement over all such models. That file is a
-formalization link on the
+formal-conjectures statement quantifies over every family satisfying its
+`IsRademacherMultiplicative` predicate, and the formal-conjectures catalog's
+change records a separately compiled bridge from that model to its statement,
+which matters only for the formal-conjectures statement over all such models.
+That file is a formalization link on the
 [[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|Høystad claim page]]
 and gets no page of its own. This corpus built `plby/lean-proofs` at its
 commit of 2026-09-15, the repository's port of the `v1.1.0` development to
@@ -139,14 +139,15 @@ $|\sum_{m\le N}f(m)|/\sqrt{N\log\log N}\to0$, and `not_erdos_520`, that no
 constant $c>0$ is almost surely the limit superior. Their model is exactly the
 problem's: independent fair signs on the primes, products over the prime factors
 on squarefree integers, $0$ elsewhere, and the partial sums normalized by
-$\sqrt{N\log\log N}$. The catalog's statement quantifies over every family
-satisfying its `IsRademacherMultiplicative` predicate, and the catalog's change
-records a separately compiled bridge to that statement, which matters only for
-the catalog's statement over all such models. This corpus built the repository
-at its commit of 2026-09-15 (the port of the `v1.1.0` development to Lean
-`v4.33.0`), checked that both theorems use only the three standard axioms, found
-their fingerprints identical to the repository's comparator challenge and
-audited their statements against the question above, so the
+$\sqrt{N\log\log N}$. The formal-conjectures statement quantifies over every
+family satisfying its `IsRademacherMultiplicative` predicate, and the
+formal-conjectures catalog's change records a separately compiled bridge to that
+statement, which matters only for the formal-conjectures statement over all such
+models. This corpus built the repository at its commit of 2026-09-15 (the port
+of the `v1.1.0` development to Lean `v4.33.0`), checked that both theorems use
+only the three standard axioms, found their fingerprints identical to the
+repository's comparator challenge and audited their statements against the
+question above, so the
 [[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|Høystad claim]]
 is accepted; the evidence does not cover the development's
 $(\log\log N)^{1/4+\eta}$ bound, which no challenge compares. The claim was

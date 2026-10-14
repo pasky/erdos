@@ -71,9 +71,9 @@ at the revision pinned on the claim page. It also added the variant
 `erdos_431.variants.ostmann`, the inverse Goldbach form, marked
 `research solved` with a link to
 [`main`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/Ostmann/Result.lean#L14);
-the catalog's own proofs stay `sorry`. The release's declaration
-`OAI.Ostmann.twoInfiniteSummandsImpossible` proves the Statement with the
-answer no for sets of natural numbers, and
+the formal-conjectures catalog's own proofs stay `sorry`. The release's
+declaration `OAI.Ostmann.twoInfiniteSummandsImpossible` proves the Statement
+with the answer no for sets of natural numbers, and
 `OAI.Ostmann.inverseGoldbach` and `OAI.Ostmann.main` prove the stronger inverse
 Goldbach form; this corpus built all three from the pinned revision with the
 axioms `propext`, `Classical.choice` and `Quot.sound` only, as the claim page

@@ -51,11 +51,11 @@ https://www.erdosproblems.com/219.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/1bdca443a28afafe29647b9a8f3049484b6899c3/FormalConjectures/ErdosProblems/219.lean),
-linked at the catalog commit of 2026-09-13 (`erdos_219`: for every $N$ there is
-an arithmetic progression of primes of positive length with at least $N$
-elements; tagged `research solved`, proved by `sorry`, and naming as its formal
-proof, a link the catalog added on 2026-09-13, the file
-`src/latest/ErdosProblems/Erdos219.lean` of Boris Alexeev's lean-proofs
+linked at the formal-conjectures commit of 2026-09-13 (`erdos_219`: for every
+$N$ there is an arithmetic progression of primes of positive length with at
+least $N$ elements; tagged `research solved`, proved by `sorry`, and naming as
+its formal proof, a link the formal-conjectures catalog added on 2026-09-13, the
+file `src/latest/ErdosProblems/Erdos219.lean` of Boris Alexeev's lean-proofs
 repository at the commit of 2026-09-07). That proof is described on the
 Green–Tao claim page and the release's
 `OAI.Erdos3.manuscriptReciprocalProgressionTheorem` on the OpenAI claim page,

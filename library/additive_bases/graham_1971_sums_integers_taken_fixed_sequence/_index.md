@@ -36,7 +36,7 @@ R. L. Graham, *On sums of integers taken from a fixed sequence*, Proceedings
 of the Washington State University Conference on Number Theory (1971),
 22--40. The scan prints the title, the author's name and the page numbers
 22--40, and no venue, year, running head or received date; the venue and
-year are those of the catalog's citation, which the three problem pages
+year are those of the erdosproblems.com citation, which the three problem pages
 carry as [Gr71] and the author's publication page files under 1971. The
 text is consistent with that date: its latest dated reference is
 Mendelsohn's 1970 paper (reference 35), and it cites four works as to

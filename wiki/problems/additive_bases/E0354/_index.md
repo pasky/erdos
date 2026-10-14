@@ -262,7 +262,7 @@ proof.** The status-defining source is
 [[../library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target|the accepted theorem]]
 of Conjectures.io record `815c1d5f-3afb-4430-8e2c-260d9038f5b0` ([JW26],
 "Erdős problem 354 - part i", attacked as Prove), whose type is the
-catalog's `erdos_354.parts.i` with answer true,
+formal-conjectures catalog's `erdos_354.parts.i` with answer true,
 `True ↔ ∀ α > 0, ∀ β > 0, Irrational (α / β) → IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β 2)`,
 and whose unfolding is the site's "That is" clause word for word:
 `interleave α β 2` is the sequence
@@ -297,15 +297,15 @@ Erdős 354(levelIndex) proposition", 130 `Source: <name>.lean` sections in
 namespace `Erdos354Formal`, final theorem `target` at line 10148; the
 library card
 [[../library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/_index|jenw1n_2026_erdos_354_part_i_lean_proof]]
-records it. The record page pins the catalog statement at commit `8432eac9`
-and the task bundle at `6a786f99`, both with the same source type hash;
-neither commit was publicly retrievable on 2026-09-28, so the identity of
+records it. The record page pins the formal-conjectures statement at commit
+`8432eac9` and the task bundle at `6a786f99`, both with the same source type
+hash; neither commit was publicly retrievable on 2026-09-28, so the identity of
 the pinned statement rests on the task bundle's printed type and docstring
 (identical to the default-branch file's, which tags both parts
 `research open`), the shared source type hash, and the proof's own lemmas
-`interleave_even` and `interleave_odd`, which unfold the catalog's
-`interleave` by `simp` into the two floor sequences and compile only against
-the corrected `n / 2` definition of 3 December 2025, so the kernel
+`interleave_even` and `interleave_odd`, which unfold the formal-conjectures
+catalog's `interleave` by `simp` into the two floor sequences and compile only
+against the corrected `n / 2` definition of 3 December 2025, so the kernel
 acceptance itself shows the pinned definition is the corrected one. This
 corpus rebuilt the proof file and replayed its target in the kernel. The file's
 final theorem rests on a reduction chain (a scaling to $\alpha,\beta\ge1$, then
@@ -313,15 +313,15 @@ two criteria on the binary digits of $\alpha$ and $\beta$); the file contains no
 `sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`, `implemented_by`,
 `extern`, `opaque` or `_root_`, no `instance`, `notation`, `macro`, `elab` or
 `syntax`, no `partial` definition, `decide` only on finite Boolean lemmas and
-one classical decidability term, and no redefinition of the catalog's names, the
-whole file sitting in its own namespace; the mathematical core (a joining and
-disjointness argument on the binary digit sequences of $\alpha$ and $\beta$,
-about 9,000 lines) rests on the site's kernel acceptance. The file's header
-names no author beyond the site's solver handle. The theorem covers base $2$ and
-the irrational-ratio hypothesis only: the rational-ratio cases of Hegyvári's
-conjecture ($\alpha/\beta$ rational but not a power of $2$, one of
-$\alpha,\beta$ not a dyadic rational) are outside it and are touched by no 2026
-source. The later Yu--Chen manuscript ([YuCh26],
+one classical decidability term, and no redefinition of the formal-conjectures
+catalog's names, the whole file sitting in its own namespace; the mathematical
+core (a joining and disjointness argument on the binary digit sequences of
+$\alpha$ and $\beta$, about 9,000 lines) rests on the site's kernel acceptance.
+The file's header names no author beyond the site's solver handle. The theorem
+covers base $2$ and the irrational-ratio hypothesis only: the rational-ratio
+cases of Hegyvári's conjecture ($\alpha/\beta$ rational but not a power of $2$,
+one of $\alpha,\beta$ not a dyadic rational) are outside it and are touched by
+no 2026 source. The later Yu--Chen manuscript ([YuCh26],
 [[../library/additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/theorem|Theorem]])
 claims the stronger strong completeness of the nonzero value set, which would
 imply the first answer; it is dated 13 September 2026, its repository was
@@ -358,7 +358,8 @@ are reconstructed in the same research folder, with Dubickas's theorem
 imported, and the internal review graded both reconstructions faithful and
 sound, with no tier; acceptance of Geneson's claim on that review is pending
 until the project's reviewer signs off.
-Under "for some $\gamma\in(1,2)$", the catalog's existential form,
+Under "for some $\gamma\in(1,2)$", the formal-conjectures catalog's existential
+form,
 [[../library/additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|Kitamura's theorem]]
 ([Ki26]) answers yes with $\gamma=\sqrt\varphi$: the single sequence
 $\lfloor\gamma^n\alpha\rfloor$ is complete for every $\alpha>0$, so the
@@ -462,10 +463,10 @@ to the pages of those problems.
   [[../library/additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/theorem|Theorem]];
   a claim with no outside review, reconstructed in the research folder.
 - Kitamura 2026 Lean proof [Ki26] (5 September 2026; unreviewed; PR #5286 open;
-  issue #6542 disputes the formalization): the catalog's existential form of the
-  second question holds with $\gamma=\sqrt\varphi\approx1.2720$, at which the
-  single sequence $\lfloor\gamma^n\alpha\rfloor$ is complete for every
-  $\alpha>0$;
+  issue #6542 disputes the formalization): the formal-conjectures catalog's
+  existential form of the second question holds with
+  $\gamma=\sqrt\varphi\approx1.2720$, at which the single sequence
+  $\lfloor\gamma^n\alpha\rfloor$ is complete for every $\alpha>0$;
   [[../library/additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|erdos_354_part_ii_solved]];
   settles only the reading "for some $\gamma\in(1,2)$".
 - Geneson 2026 [Ge26] (arXiv:2609.25107v1, 20 September 2026, preprint),

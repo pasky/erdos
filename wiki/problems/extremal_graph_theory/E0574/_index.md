@@ -156,7 +156,7 @@ limiting constant for $\operatorname{ex}(N;\{C_5,C_6\})$ is inferred.
 The source also refutes a different single-cycle conjecture using its
 nonbipartite
 [[../library/extremal_graph_theory/furedi_2006_turan_number_hexagon/theorem_1_1|Theorem 1.1]].
-That conjecture has coefficient $1/2$ in $N^{1+1/k}/2$, whereas the
+That conjecture has coefficient $1/2$ in $N^{1+1/k}/2$, whereas Bloom's
 catalog has coefficient $2^{-(1+1/k)}$ in $(N/2)^{1+1/k}$. Both the
 forbidden family and the coefficient differ. The source's
 $0.5338N^{4/3}$ single-cycle construction is not used as a

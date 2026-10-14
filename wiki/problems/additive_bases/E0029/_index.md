@@ -56,11 +56,11 @@ https://www.erdosproblems.com/29.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/87f11b8ce586ce939ec3a9398be445272a27040d/FormalConjectures/ErdosProblems/29.lean),
 at its revision of 2026-09-19: tagged `research solved`
 with `answer(True)` and linking the Lean proof `Erdos29.erdos_29` in Boris
-Alexeev's repository https://github.com/plby/lean-proofs. The catalog's
+Alexeev's repository https://github.com/plby/lean-proofs. The formal-conjectures
 statement and that theorem assert only that some $A$ has $A+A=\mathbb{N}$ and
 $1_A\ast1_A(n)=o(n^\epsilon)$ for every $\epsilon>0$, which Erdős's
-probabilistic theorem already gives. As the catalog's docstring notes, the
-statement records only existence while the linked proof's witness is an
+probabilistic theorem already gives. As the formal-conjectures docstring notes,
+the statement records only existence while the linked proof's witness is an
 explicit construction; explicitness is not formalized. The corpus has not
 built or audited the proof, so the label supplies no formal-verification
 credit; the claim page gives the pinned link.

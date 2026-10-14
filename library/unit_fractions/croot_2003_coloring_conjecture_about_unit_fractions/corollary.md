@@ -61,7 +61,7 @@ $\delta=1/4-\theta-0.0001$ gives more than $6.0001r$, and the integers
 failing $\omega(n)\sim\Omega(n)\sim\log\log n$ contribute $o(r)$. The
 numerical evaluation was not repeated here.
 
-## Consequences for the catalog problems
+## Consequences for the erdosproblems.com problems
 
 Both deductions below are elementary specializations written here for the
 problem pages; they carry no independent review.

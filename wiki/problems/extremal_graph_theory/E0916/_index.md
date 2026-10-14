@@ -138,9 +138,9 @@ was in formal-conjectures when its directory
 site's page shows "Formalised statement? No (create one)"; the community
 database (teorth/erdosproblems, `data/problems.yaml`, accessed 2026-09-19)
 records the problem proved (last update 31 August 2025), unformalized, with no
-formalized statement and no formal-proof field. An external Lean development the
-catalog does not cite is described under Leads and linked from Thomassen's claim
-page.
+formalized statement and no formal-proof field. An external Lean development
+Bloom's catalog does not cite is described under Leads and linked from
+Thomassen's claim page.
 
 ## Current assessment
 
@@ -213,7 +213,7 @@ statement is the modified Statement above); no
 `#print axioms` line is in the main file. Since the file declares itself a
 formalization of Thomassen's result, it is a formalization link on
 [[problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen|its claim page]];
-the catalog does not cite it, nothing was built, and no credit is claimed.
+Bloom's catalog does not cite it, nothing was built, and no credit is claimed.
 
 **Search scope.** None of the routes below found a dispute
 of the theorem, a text of the 1974 paper, or a change of status.

@@ -51,7 +51,7 @@ https://www.erdosproblems.com/653.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/653.lean),
-marked research open at the catalog's commit of 2026-09-18. The
+marked research open at the formal-conjectures commit of 2026-09-18. The
 Lean proof certified by Conjectures.io targets that statement with its answer
 fixed to true; what the formal statement says, how it matches the question,
 and what the corpus did and did not check are recorded on

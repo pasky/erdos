@@ -41,11 +41,11 @@ that the
 `formal_source.json` records (see "Identity with the forum file" below).
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0939/_index|Problem 939]]: the
-certified target is the catalog's first question encoded without positivity
-of the summands, discharged at $r=4$ by the degenerate set $\{0,1\}$, so the
-record is not a resolution of the question; the file's `infinite_rpowerful_sums`
-is a kernel-checked proof that the second question (at most finitely many
-solutions) fails for every $r\ge6$, with positive summands.
+certified target is erdosproblems.com's first question encoded without
+positivity of the summands, discharged at $r=4$ by the degenerate set $\{0,1\}$,
+so the record is not a resolution of the question; the file's
+`infinite_rpowerful_sums` is a kernel-checked proof that the second question (at
+most finitely many solutions) fails for every $r\ge6$, with positive summands.
 
 **Read status.** Claims checked: the certified target, the pinned catalog
 definitions, the statements of `IsPowerful`, `infinite_rpowerful_sums`,
@@ -65,7 +65,7 @@ type the result page prints as
 True ↔ ∀ r ≥ 4, (Erdos939.Erdos939Sums r).Nonempty
 ```
 
-At that commit the catalog defines
+At that commit formal-conjectures defines
 
 ```lean
 def Erdos939Sums (r : ℕ) :=
@@ -77,9 +77,9 @@ it holds vacuously at $n=0$ and $n=1$, and the definition puts no lower bound
 on the elements of $S$. `Finset.Coprime` is joint coprimality (the gcd of all
 elements is $1$), which the site's review examined and cleared as the intended
 notion, since the site's own $r=5$ example has two summands sharing the
-factor $2^8$. The encoded statement is implied by the catalog question with
-positive summands and is strictly weaker than it: the $r=4$ instance, the one
-with no known example, admits the witness $\{0,1\}$.
+factor $2^8$. The encoded statement is implied by the erdosproblems.com question
+with positive summands and is strictly weaker than it: the $r=4$ instance, the
+one with no known example, admits the witness $\{0,1\}$.
 
 ## What the file proves
 
@@ -139,16 +139,16 @@ The review decision, published in the site's validator repository as
 `docs/review-decisions/2026-08-06-erdos-939.md` (decision date 2026-08-06,
 headed as a draft pending the remaining independent assessments and the
 team's binding sign-off), approves the submission for the formalization-defect
-award of "$750 USD equivalent" instead of the displayed bounty and states:
-"This result must not be described as settling Erdős Problem 939." Its
-disposition list includes "Do not mark Erdős 939 as settled by this
-submission" and a quarantine of both task modes until the catalog requires
-positive summands. It records that the $r\ge6$ construction "has not been
-independently checked line by line" by the site's reviewers, and that no
-search for prior publication or misattribution was conducted under policy v1.
-The site's problem page shows the task withdrawn on 6 August 2026 with the
-reason `SOURCE_MISMATCH + EXPLOITABLE + SOLVED`. The catalog added the
-positivity clause on 2026-09-09 (commit `23e03512`) and keeps `erdos_939`
+award of "$750 USD equivalent" instead of the displayed bounty and states: "This
+result must not be described as settling Erdős Problem 939." Its disposition
+list includes "Do not mark Erdős 939 as settled by this submission" and a
+quarantine of both task modes until formal-conjectures requires positive
+summands. It records that the $r\ge6$ construction "has not been independently
+checked line by line" by the site's reviewers, and that no search for prior
+publication or misattribution was conducted under policy v1. The site's problem
+page shows the task withdrawn on 6 August 2026 with the reason
+`SOURCE_MISMATCH + EXPLOITABLE + SOLVED`. The formal-conjectures catalog added
+the positivity clause on 2026-09-09 (commit `23e03512`) and keeps `erdos_939`
 open.
 
 ## Identity with the forum file

@@ -297,7 +297,7 @@ record says proved (Lean), as of its last update, dated 7 April 2026.
   $n^2/4$ edges contains an edge in at least $n/6$ triangles", in a refereed
   paper (Combinatorica 32 (2012)); the attestation is second-hand in the sense
   of the vocabulary, the 1979 note not being held.
-- The catalog: the label, the commentary, and the community database's
+- Bloom's catalog: the label, the commentary, and the community database's
   "proved (Lean)".
 
 The two texts the site credits are not held: [KhNi79] is a four-page note in
@@ -308,9 +308,9 @@ theorems announced with the intention of publishing their proofs later, which
 had not happened in the ten years since). So the standing rests on a refereed
 full proof ([BoNi05]) that credits the first proofs to Edwards and to the
 site's source, on a text ([Kh88]) that attributes the first proof to the
-site's source and reproves it, on a refereed attestation ([FoLo12]) and on the
-catalog's acceptance; the original's exact statement is known through [Kh88]
-and [BoNi05].
+site's source and reproves it, on a refereed attestation ([FoLo12]) and on
+erdosproblems.com's acceptance; the original's exact statement is known through
+[Kh88] and [BoNi05].
 
 **Erdős's statements.** [Er75], printed p. 13
 ([[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p13|problem_p13]]):

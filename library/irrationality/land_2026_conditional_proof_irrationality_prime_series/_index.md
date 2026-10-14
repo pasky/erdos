@@ -52,8 +52,8 @@ asserts that Conjecture 1, a large-$x$ form of Kuperberg's Conjecture 1.3
 (filed as
 [[primes/kuperberg_2023_sums_singular_series_large_sets_tail/conjecture_1_3|conjecture_1_3]]),
 implies $\sum_{n\ge1}p_n/2^n\notin\mathbb Q$. The author announced it on
-the catalog's discussion thread on 2026-09-06 (01:50, the PDF; 05:17, the
-Lean repository); no proof claim was registered on the site's proof-claims
+the erdosproblems.com discussion thread on 2026-09-06 (01:50, the PDF; 05:17,
+the Lean repository); no proof claim was registered on the site's proof-claims
 page. Standing here: **claimed, unreviewed**. Acceptance of the implication
 would not change the problem's status, because the hypothesis is an open
 conjecture.

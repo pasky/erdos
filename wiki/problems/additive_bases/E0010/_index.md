@@ -34,11 +34,11 @@ standing stays open.
 What is settled is that $k=3$ does not suffice. Infinitely many even integers
 cannot be written as a prime plus at most three powers of $2$. This follows from
 Crocker's 1971 construction [Cr71] and a parity argument. It is Lean-verified as
-the catalog variant `Erdos10.erdos_10.variants.grechuk`, and the bounty site
-Conjectures.io accepted it on 6 August 2026 (see Current assessment). Hence any
-such $k$ is at least $4$. This settles only the site's parenthetical remark, not
-the question. The variant has two claim pages, both partial. One is the site's
-certified record, an accepted partial claim:
+the formal-conjectures variant `Erdos10.erdos_10.variants.grechuk`, and the
+bounty site Conjectures.io accepted it on 6 August 2026 (see Current
+assessment). Hence any such $k$ is at least $4$. This settles only the site's
+parenthetical remark, not the question. The variant has two claim pages, both
+partial. One is the site's certified record, an accepted partial claim:
 [[problems/additive_bases/E0010/claims/2026_08_06_5gegry_uluscv|the certified Conjectures.io proof]].
 The other is a second Lean proof of the same statement, listed on the forum:
 [[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]].
@@ -78,11 +78,11 @@ https://www.erdosproblems.com/10.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/4288d0de3d4efb14688d679b684804ba1744b8f6/FormalConjectures/ErdosProblems/10.lean),
-at the file's revision of 2026-09-21. The catalog's main statement
+at the file's revision of 2026-09-21. The formal-conjectures main statement
 `Erdos10.erdos_10` read
 `∃ k, sumPrimeAndTwoPows k = Set.univ \ {0, 1}` (every integer at least $2$,
-stronger than the site's "every large integer") until the catalog's change of
-2026-09-21 (PR #6446) restated it as
+stronger than the site's "every large integer") until the formal-conjectures
+catalog's change of 2026-09-21 (PR #6446) restated it as
 `∃ k, ∀ᶠ n in atTop, n ∈ sumPrimeAndTwoPows k`; there
 `sumPrimeAndTwoPows k` is the set of $p+\sum_{e\in E}2^e$ over primes $p$
 and multisets $E$ of at most $k$ natural exponents, so the summand $2^0=1$
@@ -179,31 +179,31 @@ record's solution page
 which matches the proof digest the site prints, and the second proof's file in
 its gist, identified by size on the
 [[../library/additive_bases/daryxx_2026_erdos_problem_10_grechuk_partial_result/_index|gist card]].
-In the accepted file, `theorem target` closes the catalog's own type
-(`fcTypeOfName% "Erdos10.erdos_10.variants.grechuk"`) by
+In the accepted file, `theorem target` closes the formal-conjectures catalog's
+own type (`fcTypeOfName% "Erdos10.erdos_10.variants.grechuk"`) by
 `exact local_grechuk_target`, and `SumPrimeThreePows` is an `abbrev` for the
-catalog's `sumPrimeAndTwoPows 3`, so no definition is restated. Neither file
-contains a `sorry`, `native_decide`, `axiom`, `unsafe`, `import` or `set_option`
-token. The accepted file's structure: `CA j = CK * CP (CL j)` with
-`CL j = 12 * (j + 1)` and `CP n = 45592577 * ∏_{i < n, i ≠ 10} F_i` over the
-Fermat numbers $F_i$, that is $(2^{2^n}-1)/G_{10}$ with
-$G_{10}=(2^{1024}+1)/45592577$, Crocker's choice $k=10$ with
-$2^{12}\cdot11131+1=45592577$, and the constant `CK`, congruent to $1$ modulo
-$16$, in the role of Crocker's $w$; `CA_mod_sixteen` (`CA j % 16 = 15`);
-`CA_not_prime_plus_power` for every exponent $a\ge0$ through a covering system
-of $28$ residue classes whose certificates are checked by `decide`;
-`CA_not_prime_plus_two_positive_powers` through Fermat-number divisibility of
-$2^a+2^b$; and `CN j = CA j + 1`, even and outside the set by case analysis on
-the multiset of at most three exponents. The gist file's final `theorem target`
-closes by `exact CrockerCRTAssembly.erdos10_grechuk`, whose family is likewise
-proved congruent to $15$ modulo $16$, greater than $15$ and outside
-`sumPrimeAndTwoPows 2`. Of [Cr71], the basis here is Theorem I, Lemma II and the
-proof of Theorem I; see the result page.
+formal-conjectures catalog's `sumPrimeAndTwoPows 3`, so no definition is
+restated. Neither file contains a `sorry`, `native_decide`, `axiom`, `unsafe`,
+`import` or `set_option` token. The accepted file's structure:
+`CA j = CK * CP (CL j)` with `CL j = 12 * (j + 1)` and
+`CP n = 45592577 * ∏_{i < n, i ≠ 10} F_i` over the Fermat numbers $F_i$, that is
+$(2^{2^n}-1)/G_{10}$ with $G_{10}=(2^{1024}+1)/45592577$, Crocker's choice
+$k=10$ with $2^{12}\cdot11131+1=45592577$, and the constant `CK`, congruent to
+$1$ modulo $16$, in the role of Crocker's $w$; `CA_mod_sixteen`
+(`CA j % 16 = 15`); `CA_not_prime_plus_power` for every exponent $a\ge0$ through
+a covering system of $28$ residue classes whose certificates are checked by
+`decide`; `CA_not_prime_plus_two_positive_powers` through Fermat-number
+divisibility of $2^a+2^b$; and `CN j = CA j + 1`, even and outside the set by
+case analysis on the multiset of at most three exponents. The gist file's final
+`theorem target` closes by `exact CrockerCRTAssembly.erdos10_grechuk`, whose
+family is likewise proved congruent to $15$ modulo $16$, greater than $15$ and
+outside `sumPrimeAndTwoPows 2`. Of [Cr71], the basis here is Theorem I, Lemma II
+and the proof of Theorem I; see the result page.
 
 **Site remark.** The site credits Bogdan Grechuk with the observation that
 $1117175146$ has no representation as a prime plus at most three powers of
-$2$. The corpus has not verified the number, and the catalog's
-`variants.grechuk_example` carries `sorry` (2026-09-28).
+$2$. The corpus has not verified the number, and the formal-conjectures
+catalog's `variants.grechuk_example` carries `sorry` (2026-09-28).
 
 **Not results on this question.** Johnston and Trudgian, "An update on the
 Linnik–Goldbach problem", arXiv:2605.17825 (v2, 22 July 2026, no journal
@@ -213,9 +213,10 @@ problem, and the formula line of OEIS A387053 that attributes a one-prime
 bound to it is a misreading. Neither has a library card. Gallagher's theorem
 [Ga75] (for every $\epsilon>0$ some $k(\epsilon)$ powers reach a set of lower
 density at least $1-\epsilon$) is stated by the site and has no library card;
-the catalog's reference line of 2026-09-21 mis-cites it as Acta Arith. 29
-(1976), 353-370, while the publication record is Invent. Math. 29 (1975),
-no. 2, 125-142, DOI 10.1007/BF01390190, as the site and this page cite it.
+the formal-conjectures catalog's reference line of 2026-09-21 mis-cites it as
+Acta Arith. 29 (1976), 353-370, while the publication record is Invent. Math. 29
+(1975), no. 2, 125-142, DOI 10.1007/BF01390190, as the site and this page cite
+it.
 
 **Remaining gaps.** The question itself, now for $k\ge4$. The only accepted
 result on this page is the variant, accepted on this corpus's kernel replay of
@@ -246,16 +247,16 @@ the file Conjectures.io certified.
   [[../library/additive_bases/daryxx_2026_erdos_problem_10_grechuk_partial_result/_index|gist of 2026-08-07]]
   (claim page
   [[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]]),
-  which the catalog cites when it marks the variant solved (2026-09-14) and
-  which the site's proof-claims thread lists as a partial claim. The corpus
-  replayed the accepted file in the kernel and has not built the second one
-  (see Current assessment). The variant was not open:
+  which the formal-conjectures catalog cites when it marks the variant solved
+  (2026-09-14) and which the site's proof-claims thread lists as a partial
+  claim. The corpus replayed the accepted file in the kernel and has not built
+  the second one (see Current assessment). The variant was not open:
   Conjectures.io withdrew the target on 6 August 2026 as "SOLVED +
   NOT_OPEN", since it already follows from [Cr71] by the parity reduction.
 - The site's remark, credited to Bogdan Grechuk, that $1117175146$ has no
   representation as a prime plus at most three powers of $2$; unverified by
-  the corpus, and the catalog's `variants.grechuk_example` carries `sorry`
-  (2026-09-28).
+  the corpus, and the formal-conjectures catalog's `variants.grechuk_example`
+  carries `sorry` (2026-09-28).
 - [Cr71] Theorem I itself, infinitely many odd integers not $p+2^a+2^b$ with
   $a,b>0$: result page
   [[../library/additive_bases/crocker_1971_sum_prime_two_powers_two/theorem_i|Theorem I]],

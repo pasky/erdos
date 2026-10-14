@@ -71,12 +71,12 @@ https://www.erdosproblems.com/1091.
   Combin. Theory Ser. B (1982), 264-285.
 
 **Formalization.** The site records no formal-conjectures statement, and the
-catalog had no statement file for the problem on 2026-10-07. Boris Alexeev's
-lean-proofs collection holds a Lean file for it, authored by OpenAI Codex,
-whose docstring credits the two results it proves to Voss and to Alexeev,
-Putterman, Sawhney, Sellke and Valiant and proves both for finite graphs; it
-is linked from both claim pages at its pinned commit, and the corpus has not
-built it.
+formal-conjectures catalog had no statement file for the problem on 2026-10-07.
+Boris Alexeev's lean-proofs collection holds a Lean file for it, authored by
+OpenAI Codex, whose docstring credits the two results it proves to Voss and to
+Alexeev, Putterman, Sawhney, Sellke and Valiant and proves both for finite
+graphs; it is linked from both claim pages at its pinned commit, and the corpus
+has not built it.
 
 ## Current assessment
 

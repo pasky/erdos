@@ -71,11 +71,11 @@ https://www.erdosproblems.com/1041.
 (pinned at the file's last change, 2026-09-23), tagged `research solved`
 with answer false since 2026-09-23, linking the
 Lean file of Cook's formalization of ani's counterexample at a pinned
-revision, recorded on the counterexample's claim page; the catalog links, it
-does not referee, and the corpus has built or audited nothing. The catalog's
-statement measures a path's length by one-dimensional Hausdorff measure and,
-following a remark made on the catalog's project in December 2025, counts a
-repeated root as joined by the zero-length path.
+revision, recorded on the counterexample's claim page; the formal-conjectures
+catalog links, it does not referee, and the corpus has built or audited nothing.
+The formal-conjectures statement measures a path's length by one-dimensional
+Hausdorff measure and, following a remark made on the formal-conjectures project
+in December 2025, counts a repeated root as joined by the zero-length path.
 
 ## Current assessment
 

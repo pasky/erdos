@@ -6,7 +6,7 @@ desc: |
   without proof, that the maximum number of edges of a triangle-free graph on
   n vertices with chromatic number at least t is n^2/4 − ĝ_3(t) n/2 + O(1),
   where ĝ_3(t) is the largest m such that every such graph needs at least m
-  vertices removed to become bipartite; the expansion the catalog's
+  vertices removed to become bipartite; the expansion erdosproblems.com's
   Problem 1011 attributes to the paper.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T14:33:42Z
@@ -61,7 +61,7 @@ problem the exact solution of which is unknown to me". The function is
 printed with a hat, $\hat g_3$, which the remark distinguishes from "$g_3$
 of [1]" (Erdős, Graph theory and probability, 1959).
 
-**In the problem's notation.** The catalog's $f_r(n)$ is the least edge
+**In the problem's notation.** erdosproblems.com's $f_r(n)$ is the least edge
 count forcing a triangle in a graph on $n$ vertices of chromatic number at
 least $r$, so $f_r(n)=f_r(n;K_3)+1$ whenever a triangle-free graph on $n$
 vertices with chromatic number at least $r$ exists (Remark 2.8(a) supplies

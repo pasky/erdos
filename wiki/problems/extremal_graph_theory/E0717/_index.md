@@ -115,7 +115,7 @@ records no formalized statement; the community database (teorth/erdosproblems,
 `data/problems.yaml`, 2026-09-19) records the problem proved and unformalized,
 with no formalized statement (its entry's last update is dated 31 August
 2025). A third-party Lean development that declares itself a formalization of
-[FLS13], which the catalog does not cite, is linked from the claim page and
+[FLS13], which Bloom's catalog does not cite, is linked from the claim page and
 described under the Current assessment; this project has not built or audited
 it, and it gives no `formalized` evidence.
 
@@ -263,8 +263,8 @@ unknown. (4) [Ca74], [Di52] and Catlin's 1979 paper are not held; the
 history rests on [ErFa81], [FLS13], [Er81] and the site. (5) The third-party
 Lean development was read as its header only and is linked from the claim
 page without evidence standing; there is no Lean statement of the problem in
-the catalog. The Linked library material below is derived from the library
-links and is not progress.
+the formal-conjectures catalog. The Linked library material below is derived
+from the library links and is not progress.
 
 ## Known results
 

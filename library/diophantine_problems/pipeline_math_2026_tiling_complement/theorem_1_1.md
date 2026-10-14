@@ -129,7 +129,7 @@ verification is claimed.
 The
 [[diophantine_problems/pipeline_math_2026_tiling_complement/_index|source digest]]
 pins the manuscript and external versions and states the actual reading
-depth. Public acceptance of the catalog conclusion is a separate
+depth. Public acceptance of the erdosproblems.com conclusion is a separate
 record; it is not a review of these pages.
 
 **Bears on.** Taking $f(X)=X^{13}$, of degree 13, proves the existence

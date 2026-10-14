@@ -83,8 +83,8 @@ and its `erdos_74.disproof` uses only the axioms `propext`,
 build and what it does and does not certify.
 
 **Remaining questions.** This theorem supplies one divergent $f$.
-It does not settle the variant $f(n)=\sqrt n$, which the dated site
-still records as open, nor reconstruct every method in the six formal
+It does not settle the variant $f(n)=\sqrt n$, which the dated erdosproblems.com
+page still records as open, nor reconstruct every method in the six formal
 resolution files.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0074/_index|Problem 74]]:

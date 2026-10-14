@@ -69,7 +69,7 @@ The acceptance evidence is the refereed paper of Coppersmith and Phillips (SIAM
 J. Discrete Math. 9 (1996), 173--177), together with the site's label and
 thread. Its Theorem 2.1 builds on Freud's construction (its reference [1]) and
 gives a set of $\tfrac{13}{24}N-O(1)$ such integers up to $N$, a disproof in its
-own right. An external Lean file behind the catalog's label proves the
+own right. An external Lean file behind the erdosproblems.com label proves the
 consecutive-sum-freeness and the count of Freud's set for its own encoding. The
 corpus holds no build of it, so it gives no formalized evidence.
 
@@ -113,8 +113,8 @@ indicators "Formalised statement? Yes" and "OEIS: Possible"), its three-comment 
   Library home:
   [[../library/integer_sequences/erdos_1992_my_forgotten_problems_number_theory/_index|erdos_1992_my_forgotten_problems_number_theory]].
 
-**Formalization.** The site's Lean suffix is a catalog label; see "Formalization
-and the Lean label" below for what the files state. The file
+**Formalization.** The site's Lean suffix is a label of Bloom's catalog; see
+"Formalization and the Lean label" below for what the files state. The file
 [`ErdosProblems/867.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/867.lean)
 of formal-conjectures, at the commit the link pins, defines `ConsecutiveSumFree
 (A : Finset ℕ) : Prop := ∀ m n : ℕ, 2 ≤ (Finset.Icc m n ∩ A).card → (∑ a ∈

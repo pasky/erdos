@@ -95,6 +95,6 @@ formalize and then formalized by Aristotle, later extended with Aristotle to
 versions of the paper's Theorems 1--3 and 12. It is the authors' own
 formalization and therefore a link on this page; it was not built or audited
 here, so it gives no `formalized` evidence, and the Lean suffix of the site's
-label PROVED (LEAN) is the catalog's label. The formal-conjectures statement
-file, whose `formal_proof` attribute points to the repository's unpinned
-`main` branch, is a statement and is not linked.
+label PROVED (LEAN) is the erdosproblems.com label. The formal-conjectures
+statement file, whose `formal_proof` attribute points to the repository's
+unpinned `main` branch, is a statement and is not linked.

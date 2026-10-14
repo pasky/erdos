@@ -73,7 +73,7 @@ April 2026). The community database records the problem disproved. The library's
 replay of the numerical certificate is author-recorded coverage by this project
 and awards nothing here.
 
-Not listed as formalized: the catalog's statement file
+Not listed as formalized: the formal-conjectures statement file
 (google-deepmind/formal-conjectures, `ErdosProblems/2.lean`) carries a `sorry`
 body. The development behind the site's Lean label was the file
 `src/latest/ErdosProblems/Erdos2.lean` in Boris Alexeev's lean-proofs

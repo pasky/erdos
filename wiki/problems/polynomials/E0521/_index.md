@@ -99,13 +99,13 @@ https://www.erdosproblems.com/521.
 (pinned at the file's last change, 2026-09-18), tagged `research solved`
 with answer false since 2026-08-07, linking the Star Fleet Math Lean proof
 recorded on [[problems/polynomials/E0521/claims/2026_07_23_snyder|Snyder 2026]];
-the catalog links, it does not referee, and this corpus has neither built nor
-audited that proof. A second Lean development, in Boris Alexeev's lean-proofs
-repository with Codex as its formal author, which the catalog does not link,
-was built and audited by this corpus: its declarations
-`Erdos521.erdos521_oscillation` and `Erdos521.not_erdos_521` use only
-`propext`, `Classical.choice` and `Quot.sound` and match the repository's
-comparator challenge, as
+the formal-conjectures catalog links, it does not referee, and this corpus has
+neither built nor audited that proof. A second Lean development, in Boris
+Alexeev's lean-proofs repository with Codex as its formal author, which the
+formal-conjectures catalog does not link, was built and audited by this corpus:
+its declarations `Erdos521.erdos521_oscillation` and `Erdos521.not_erdos_521`
+use only `propext`, `Classical.choice` and `Quot.sound` and match the
+repository's comparator challenge, as
 [[problems/polynomials/E0521/claims/2026_08_26_alexeev|Alexeev 2026]]
 records.
 

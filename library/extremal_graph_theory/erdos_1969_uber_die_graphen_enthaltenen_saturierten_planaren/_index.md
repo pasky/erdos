@@ -98,7 +98,7 @@ clause by clause on the page images, with the remarks after each; Satz 4 and
 Satz 5 have no proof in the paper, and the sketch for Satz 3 was read for
 structure only. The digest paragraph above agrees with the print for Satz 1,
 Satz 2, Lemma 1 and the sharpness construction; it omits pp. 16--17, which state
-the exact question of the catalog's Problem 1019: the paper constructs a
+the exact question of erdosproblems.com's Problem 1019: the paper constructs a
 $G(n;[n^2/4]+[(n-1)/2])$ with no saturated planar subgraph on more than three
 vertices and asks whether every $G(n;[n^2/4]+[(n+1)/2])$ contains one, two years
 before the 1971 problem list restated the question.

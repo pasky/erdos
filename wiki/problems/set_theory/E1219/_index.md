@@ -123,7 +123,7 @@ eventually $\geq\kappa$, a misprint for $\geq\lambda$: its proof chooses
 $\mu(i)$ with $2^{\mu(i)}\geq\lambda$, and as printed the theorem would
 assert $\aleph_\omega\to(\aleph_\omega)^2_2$ whenever
 $2^{\aleph_n}=\aleph_{n+1}$ for all $n$, which fails for every singular
-cardinal; Corollary 1.3 carries the catalog's hypothesis
+cardinal; Corollary 1.3 carries the erdosproblems.com hypothesis
 $2^{\aleph_{n(0)}}>\aleph_\omega$ explicitly, so the status does not depend
 on this reading. An author-recorded reconstruction of the proofs of the
 Canonization Lemma 1.1, Theorem 1.2 and Corollary 1.3, with the
@@ -136,12 +136,12 @@ independent review and changes nothing above.
 [[../library/set_theory/shelah_1975_notes_partition_calculus/corollary_1_3|Shelah's Corollary 1.3]]
 gives $\sum_{n<\omega}2^{\aleph_n}\to(\aleph_\omega,\aleph_\omega)^2$
 whenever $\aleph_\omega<2^{\aleph_{n(0)}}<2^{\aleph_{n(1)}}<\cdots$. The
-catalog's sum $\sum_k 2^{\aleph_{n_k}}$ runs over the subsequence only, but
-$\sum_{n<\omega}2^{\aleph_n}=\aleph_0\cdot\sup_n 2^{\aleph_n}$, which is
+erdosproblems.com sum $\sum_k 2^{\aleph_{n_k}}$ runs over the subsequence only,
+but $\sum_{n<\omega}2^{\aleph_n}=\aleph_0\cdot\sup_n 2^{\aleph_n}$, which is
 $\sup_n 2^{\aleph_n}$, and, because $n\mapsto 2^{\aleph_n}$ is nondecreasing
 and $n_k\to\infty$,
 $\sup_n 2^{\aleph_n}=\sup_k 2^{\aleph_{n_k}}=\sum_k 2^{\aleph_{n_k}}$; the
-relation is therefore the catalog's. The corollary is the case
+relation is therefore erdosproblems.com's. The corollary is the case
 $\lambda=\aleph_\omega$, $\kappa=\omega$ of
 [[../library/set_theory/shelah_1975_notes_partition_calculus/theorem_1_2|Theorem 1.2]],
 whose hypothesis $\omega\to(\omega)^2_2$ is Ramsey's theorem and whose
@@ -154,8 +154,8 @@ $i<j<\omega$ and applies Ramsey's theorem to $g$.
 - **Shelah, Corollary 1.3 (p. 1260).** If
   $\aleph_\omega<2^{\aleph_{n(0)}}<2^{\aleph_{n(1)}}<\cdots$ then
   $\sum_{n<\omega}2^{\aleph_n}\to(\aleph_\omega,\aleph_\omega)^2$. This is the
-  exact question: the catalog's hypotheses, two colors, and the sum over all
-  $n$ equals the sum over the subsequence $(n_k)$ (both are
+  exact question: the erdosproblems.com hypotheses, two colors, and the sum over
+  all $n$ equals the sum over the subsequence $(n_k)$ (both are
   $\sup_k 2^{\aleph_{n_k}}$). The Remark following it records that it
   answers Problem 3 of the 1971 Erdős--Hajnal list. Proves Problem 1219.
   Result page
@@ -171,18 +171,19 @@ $i<j<\omega$ and applies Ramsey's theorem to $g$.
   $\chi\to(\lambda,\lambda,\omega)^2$. Proof: half a page from the
   Canonization Lemma 1.1 (pp. 1258--1260) and the relations
   $\lambda_i\to(\lambda_i,\mu(i))^2$, $\lambda_i\to(\mu(i),\lambda_i)^2$ for
-  $\lambda_i=(2^{\mu(i)})^+$ cited from the paper's [4]. The catalog case is
-  $\lambda=\aleph_\omega$, $\kappa=\omega$ with Ramsey's theorem. Shelah's
-  Remark: this completes the answer to when $\lambda\to(\mu)^2_2$ holds for
-  infinite $\lambda,\mu$. Result page
+  $\lambda_i=(2^{\mu(i)})^+$ cited from the paper's [4]. The erdosproblems.com
+  case is $\lambda=\aleph_\omega$, $\kappa=\omega$ with Ramsey's theorem.
+  Shelah's Remark: this completes the answer to when $\lambda\to(\mu)^2_2$ holds
+  for infinite $\lambda,\mu$. Result page
   [[../library/set_theory/shelah_1975_notes_partition_calculus/theorem_1_2|theorem_1_2]].
 - **Hajnal's conjecture (Shelah, Conjecture 1A, p. 1261; Komjáth [Ko25b],
   p. 419).** Under the same hypothesis,
-  $\sum_{n<\omega}2^{\aleph_n}\to(\aleph_\omega,4)^3$. Not part of the catalog
-  question; Komjáth (2025) records it as still unproven, and Shelah's remark
-  beside it notes that $\sum_{n<\omega}2^{\aleph_n}\not\to(\aleph_\omega,5)^3$
-  while every previously known case of $\lambda\to(\mu,\mu)^2$ also satisfies
-  $\lambda\to(\mu,4)^3$. Result page
+  $\sum_{n<\omega}2^{\aleph_n}\to(\aleph_\omega,4)^3$. Not part of the
+  erdosproblems.com question; Komjáth (2025) records it as still unproven, and
+  Shelah's remark beside it notes that
+  $\sum_{n<\omega}2^{\aleph_n}\not\to(\aleph_\omega,5)^3$ while every previously
+  known case of $\lambda\to(\mu,\mu)^2$ also satisfies $\lambda\to(\mu,4)^3$.
+  Result page
   [[../library/set_theory/shelah_1975_notes_partition_calculus/conjecture_1a|conjecture_1a]];
   acceptance record
   [[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|komjath_2025_erdos_hajnal_problem_list]].

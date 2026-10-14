@@ -87,8 +87,8 @@ $\lambda\ne1$. Jingxuan Ding's
 five-regime atlas of the sparse evolution of the uniform model $G(n,M)$. This
 corpus has built neither, and the search recorded below found the site's label
 unchanged. Whether the label can stand at the literal parameter is a question of
-the catalog's labeling that this page records. The two parameters are stated
-side by side below.
+the erdosproblems.com labeling that this page records. The two parameters are
+stated side by side below.
 
 **Source.** [erdosproblems.com/745](https://www.erdosproblems.com/745), accessed
 2026-09-19: the problem page (PROVED, glossed by the site as solved
@@ -151,15 +151,14 @@ Bloom, Erdős Problem #745, https://www.erdosproblems.com/745, accessed
   Corollary 2 is paged on the claim page
   [[problems/extremal_graph_theory/E0745/claims/1997_04_01_aldous|Aldous 1997]].
 
-**Formalization.** None in the catalog. No file `ErdosProblems/745.lean` exists
-in formal-conjectures as of 2026-09-19, neither in the directory
-`FormalConjectures/ErdosProblems/` nor elsewhere in the tree; the site's page
-shows "Formalised statement? No (create one)"; the community database
-(teorth/erdosproblems, `data/problems.yaml` as of 2026-09-19) records the
-problem proved (last update 31 August 2025), unformalized, with no formalized
-statement.
-The two Lean developments the thread links are independent proof claims
-with their own claim pages,
+**Formalization.** None in the formal-conjectures catalog. No file
+`ErdosProblems/745.lean` exists in formal-conjectures as of 2026-09-19, neither
+in the directory `FormalConjectures/ErdosProblems/` nor elsewhere in the tree;
+the site's page shows "Formalised statement? No (create one)"; the community
+database (teorth/erdosproblems, `data/problems.yaml` as of 2026-09-19) records
+the problem proved (last update 31 August 2025), unformalized, with no
+formalized statement. The two Lean developments the thread links are independent
+proof claims with their own claim pages,
 [[problems/extremal_graph_theory/E0745/claims/2026_08_25_alexeev|Alexeev 2026]]
 and
 [[problems/extremal_graph_theory/E0745/claims/2026_10_04_ding|Ding 2026]],
@@ -343,14 +342,14 @@ attaches to the expectation for $\lambda>1$, while the wording fixes
 $\lambda=1$, where the second component has order $n^{2/3}$; the frontmatter
 follows the claim pages, with [KSS80] answering the variant $\lambda>1$ and
 settling no instance, [Al97] the accepted full claim and the developments of
-Alexeev and Ding pending full claims, and the label is the catalog's to change.
-(3) The critical-window description rests on [Al97], stated from the zbMATH
-review (Zbl 0877.60010) and the restatement in Addario-Berry, Broutin and
+Alexeev and Ding pending full claims, and the label is for Bloom's catalog to
+change. (3) The critical-window description rests on [Al97], stated from the
+zbMATH review (Zbl 0877.60010) and the restatement in Addario-Berry, Broutin and
 Goldschmidt (arXiv:0903.4730, Theorem 1), with its corollary number as later
 papers cite it; reopening condition: the paper read at Corollary 2, after which
 the statement is checked against the print. (4) The two Lean developments are
 described from their text and not built by this corpus; there is no Lean
-statement of the problem in the catalog.
+statement of the problem in the formal-conjectures catalog.
 
 ## Known results
 

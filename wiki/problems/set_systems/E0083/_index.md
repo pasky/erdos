@@ -85,10 +85,10 @@ update on 2026-08-24, without dating the change of state, and as formalized
 since 2026-09-19; and the formal-conjectures catalog, whose statement file
 `83.lean` is tagged research solved and cites as its formal proof the Lean file
 `Erdos83.lean` in Boris Alexeev's lean-proofs repository, which the claim page
-links at the commit the catalog cites. None of them showed another claim on
-the problem. The Lean file has not been built here, so the problem has no
-`formalized` evidence; the Erdős–Sós variant is a different question and is
-not assessed here.
+links at the commit the formal-conjectures catalog cites. None of them showed
+another claim on the problem. The Lean file has not been built here, so the
+problem has no `formalized` evidence; the Erdős–Sós variant is a different
+question and is not assessed here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

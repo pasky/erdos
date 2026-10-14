@@ -127,8 +127,8 @@ question without a hedge; the formal-conjectures docstring that attaches it to
 the third question reflects the earlier reading.
 
 **Part (b): fidelity and acceptance.** The statement Conjectures.io verified is
-the catalog's `erdos_18b` with its answer marker filled as `True`: for every
-real $\varepsilon>0$, for all sufficiently large $n$ (`∀ᶠ … in atTop`),
+the formal-conjectures `erdos_18b` with its answer marker filled as `True`: for
+every real $\varepsilon>0$, for all sufficiently large $n$ (`∀ᶠ … in atTop`),
 $h(n!)<n^{\varepsilon}$ with a real power of the cast. `practicalH` is $h$ under
 the fresh-set reading, so this is exactly question (b), and it says nothing
 about $(\log n)^{O(1)}$ or about general practical $m$. In the accepted file,
@@ -141,11 +141,12 @@ measures built from sets of odd integers on the cyclic groups $\mathbb Z/2^J$,
 `weighted_dyadic_mixing` (line 14011) proves it in the same file. The
 14,043-line file contains no `import`, `sorry`, `axiom`, `native_decide`,
 `set_option`, `unsafe`, `implemented_by` or `opaque`; it has 806 theorems and 99
-definitions, and of the catalog's names it uses only `Erdos18.practicalH`,
-`Erdos18.factorial_isPractical` (proved without `sorry` in the catalog file) and
-the target name. The accepted file is the record's solution download,
-`Main.lean`, which the task bundle wraps into the `Solution.lean` and
-`Bounty.target` that the verification report names; its provenance is on
+definitions, and of the formal-conjectures names it uses only
+`Erdos18.practicalH`, `Erdos18.factorial_isPractical` (proved without `sorry` in
+the formal-conjectures file) and the target name. The accepted file is the
+record's solution download, `Main.lean`, which the task bundle wraps into the
+`Solution.lean` and `Bounty.target` that the verification report names; its
+provenance is on
 [[../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/jenw1n_2026_lean_proof_erdos_problem_18b|the JenW1N source record]].
 The definitions of `subsetSums` and `fcTypeOfName%` are among those the replay
 below found identical to the task's; the two catalog commits that the task

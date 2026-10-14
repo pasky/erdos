@@ -48,7 +48,7 @@ relation is imported in the exact case used, with its provenance, as
 Theorem A on the theorem page, together with the Baumgartner and Hajnal
 relation the deposit's introduction cites (Theorem B, not used) and the
 consistency of $\mathrm{MA}_{\aleph_1}$ that turns the theorem into the
-catalog's status (Theorem C).
+erdosproblems.com status (Theorem C).
 
 ## Where things stand
 

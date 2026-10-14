@@ -254,21 +254,21 @@ for any vertex of maximum degree, and
 of the same note (p. 109) restates the 1981 theorem with the degree bound (1), a
 second printed statement of the same theorem. Both notes are short refereed
 papers in the Journal of Combinatorial Theory, Series B, confirmed by Crossref
-(four and three pages). The catalog's acceptance: the label with its gloss, the
-attribution to Bollobás--Thomason with Bondy's strengthening, and the community
-database's record of the problem as solved. Two citing papers in the citation
-lists, "Turán's theorem and maximal degrees" (J. Combin. Theory Ser. B, 1999,
-doi:10.1006/jctb.1998.1873) and Faudree's *Complete subgraphs with large degree
-sums* (J. Graph Theory 16 (1992)), each cite both notes; neither is a source of
-this page, and with the theorems stated in the notes themselves neither is
-needed as a second-hand attestation. The same lists carry a run of 2022--2026
-spectral Turán papers citing the two notes for context. The one further proof of
-the theorem named in the notes is the Erdős--Sós preprint that Bondy credits
-alongside [BoTh81] for Theorem 1; the note gives it no title. The site's
-label SOLVED, glossed as a resolution by neither a proof nor a disproof, sits on
-a yes-or-no question answered affirmatively by two refereed theorems; the claim
-pages therefore carry the value proved, and the Status sentence keeps the site's
-label.
+(four and three pages). erdosproblems.com's acceptance: the label with its
+gloss, the attribution to Bollobás--Thomason with Bondy's strengthening, and the
+community database's record of the problem as solved. Two citing papers in the
+citation lists, "Turán's theorem and maximal degrees" (J. Combin. Theory Ser. B,
+1999, doi:10.1006/jctb.1998.1873) and Faudree's *Complete subgraphs with large
+degree sums* (J. Graph Theory 16 (1992)), each cite both notes; neither is a
+source of this page, and with the theorems stated in the notes themselves
+neither is needed as a second-hand attestation. The same lists carry a run of
+2022--2026 spectral Turán papers citing the two notes for context. The one
+further proof of the theorem named in the notes is the Erdős--Sós preprint that
+Bondy credits alongside [BoTh81] for Theorem 1; the note gives it no title. The
+site's label SOLVED, glossed as a resolution by neither a proof nor a disproof,
+sits on a yes-or-no question answered affirmatively by two refereed theorems;
+the claim pages therefore carry the value proved, and the Status sentence keeps
+the site's label.
 
 **The theorem.**
 [[../library/extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/theorem_p111|The Theorem]]

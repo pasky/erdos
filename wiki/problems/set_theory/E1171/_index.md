@@ -137,13 +137,14 @@ $\omega_1\omega\to(\omega_1\omega,n)^2$ for every finite $n$
 the chapter is not held, and its statement is taken from its zbMATH review and
 from the introduction of
 [[../library/set_theory/chen_2018_cardinal_characteristics_continuum_partitions/_index|Chen, Garti and Weinert]]).
-The catalog relation follows by an elementary step: with $n$ the finite Ramsey
-number for triangles in $k$ colors, a $(k+1)$-coloring of $[\omega_1\omega]^2$
-has a color-$0$ homogeneous set of type $\omega_1\omega$ or an $n$-element set
-colored from the other $k$ colors, hence a monochromatic triangle, and
-$\omega_1\omega$ is an initial segment of $\omega_1^2$. This bridging deduction
-is author-recorded here and not independently reviewed. Its only written form
-found is the color-reduction lemma of an unrefereed, AI-assisted Zenodo deposit
+The erdosproblems.com relation follows by an elementary step: with $n$ the
+finite Ramsey number for triangles in $k$ colors, a $(k+1)$-coloring of
+$[\omega_1\omega]^2$ has a color-$0$ homogeneous set of type $\omega_1\omega$ or
+an $n$-element set colored from the other $k$ colors, hence a monochromatic
+triangle, and $\omega_1\omega$ is an initial segment of $\omega_1^2$. This
+bridging deduction is author-recorded here and not independently reviewed. Its
+only written form found is the color-reduction lemma of an unrefereed,
+AI-assisted Zenodo deposit
 ([[../library/set_theory/gao_2026_finite_color_partition_relation_omega_1_squared/lemma_2_1|Gao 2026, Lemma 2.1]]),
 which reaches the same conclusion from the weaker case $n=3$ that the site
 quotes; the lemma and the deposit's

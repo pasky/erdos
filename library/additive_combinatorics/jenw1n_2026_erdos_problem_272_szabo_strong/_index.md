@@ -39,16 +39,16 @@ comment says a lemma comes "from the third supplied proof".
 
 **Read status: claims checked.** The final theorem, the header and the chain of
 declarations named below were read as text against the statement the site's
-record prints and the catalog's `272.lean`; the file was rebuilt and its target
-replayed in the kernel on the repository's pinned toolchain. No proof was
+record prints and formal-conjectures' `272.lean`; the file was rebuilt and its
+target replayed in the kernel on the repository's pinned toolchain. No proof was
 verified here by reading.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0272/_index|Problem 272]]: proves
 $t(N)=N^2/2+O(N)$, the affirmative answer to Szabó's linear-error question
 (the second of the two questions in Section 6 of the 1999 paper) and the
-catalog variant `szabo_strong`, a variant of the catalog question; it gives
-neither the exact value of $t(N)$ nor Szabó's kernel conjecture, so it is
-progress, not a resolution.
+formal-conjectures variant `szabo_strong`, a variant of the erdosproblems.com
+question; it gives neither the exact value of $t(N)$ nor Szabó's kernel
+conjecture, so it is progress, not a resolution.
 
 ## The verified statement
 
@@ -61,7 +61,7 @@ The site's record and its problem page print the target type
 which is `Erdos272.erdos_272.variants.szabo_strong` in
 `FormalConjectures/ErdosProblems/272.lean` at the pinned catalog commit
 `8432eac9` (its source type SHA-256 is identical on the record page and in the
-task bundle). In the catalog, `IsArithInterSet N A` requires
+task bundle). In formal-conjectures, `IsArithInterSet N A` requires
 $A\subseteq\mathcal P(\{1,\ldots,N\})$ and every pair of distinct members to
 intersect in a set that `IsAPOfLength l` for some $l>0$; the shared definition
 `Set.IsAPOfLengthWith s l a d` is `ENat.card s = l ∧ s = {a + n • d | n < l}`,
@@ -71,9 +71,9 @@ $\binom N2+1$ example presumes. `maxArithInterCard N` is the supremum of $|A|$
 over such families, attained since $|A|\leq2^N$ (the file proves
 `max_is_attained`). Real subtraction and a two-sided big-O make the statement
 $t(N)-N^2/2=O(N)$, Szabó's question read clause for clause. It is a variant of
-the catalog headline `Erdos272.erdos_272`, which asks for the exact value of
-$t(N)$ for every $N\geq1$ with an open answer and which the catalog restated to
-the exact maximum on 2026-09-12 (PR #5807).
+the formal-conjectures headline `Erdos272.erdos_272`, which asks for the exact
+value of $t(N)$ for every $N\geq1$ with an open answer and which
+formal-conjectures restated to the exact maximum on 2026-09-12 (PR #5807).
 
 ## Acceptance shown on the results page
 
@@ -98,7 +98,7 @@ Section 7, "does not settle this unrestricted asymptotic target", and that the
 approval "is an eligibility decision, not a guarantee of originality". The
 site's certification is reported, not counted: no refereed publication, no
 write-up, no erdosproblems.com acceptance and no formal-conjectures catalog
-agreement was found on 2026-09-27; the catalog's default branch labels the
+agreement was found on 2026-09-27; formal-conjectures' default branch labels the
 variant `research open`.
 
 ## Route of the proof file

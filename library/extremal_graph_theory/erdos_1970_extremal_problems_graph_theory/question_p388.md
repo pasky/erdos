@@ -26,8 +26,9 @@ $e(G^n)>n^{1+\alpha}$ contains a $d$-regular subgraph $G^m$, $m>n^{1-\alpha}$,
 $e(G^m)>\varepsilon m^{1+\alpha}$?" The dot after the second $d$ is in the
 print. Here $G^n$ is a graph of $n$ vertices, $e(G)$ its number of edges,
 and "$d$-regular" is the paper's Definition 1 (pp. 379--380): the maximum
-valency is at most $d$ times the minimum valency (the catalog's $D$-balanced).
-The second open problem, on graphs with $[n\log n]$ edges, is paged at
+valency is at most $d$ times the minimum valency (erdosproblems.com's
+$D$-balanced). The second open problem, on graphs with $[n\log n]$ edges, is
+paged at
 [[extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/question_p389|question_p389]];
 the paper closes with "It would be interesting to determine the correct
 order of magnitude of $f(n,C)$", $C$ the cube.
@@ -53,8 +54,8 @@ the page images. It states a question; there is no proof in the source.
 
 ## Proof pointer
 
-None in the source. The catalog's Problem 1077 records that the question as
-printed has a negative answer (a complete bipartite graph with a side of
+None in the source. erdosproblems.com's Problem 1077 records that the question
+as printed has a negative answer (a complete bipartite graph with a side of
 about $n^\alpha$ vertices) and that the exponent $\alpha$ in place of
 $1-\alpha$ is the corrected form.
 

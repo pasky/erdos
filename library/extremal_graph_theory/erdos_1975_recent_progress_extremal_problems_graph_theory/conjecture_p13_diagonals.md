@@ -36,11 +36,11 @@ $g(n;[kn])$ in the last sentence; $G(n;m)$ is a graph with $n$ vertices and
 $m$ edges. A diagonal of a circuit is a chord; a vertex of $C_l$ with $k-1$
 diagonals is joined to its two neighbors on the circuit and to $k-1$ further
 vertices of it, which is the parenthetical "$k+1$ other vertices". The
-paper's index therefore counts $k-1$ chords at a vertex where the catalog's
-$g_k(n)$ (Problem 767) counts $k$; the conversion between the two is an
-authored remark on the problem page, not made here. Lewin's refutation is
-stated for "large $k$" without a reference; Pósa's $ck^2$ result is stated
-as unpublished.
+paper's index therefore counts $k-1$ chords at a vertex where
+erdosproblems.com's $g_k(n)$ (Problem 767) counts $k$; the conversion between
+the two is an authored remark on the problem page, not made here. Lewin's
+refutation is stated for "large $k$" without a reference; Pósa's $ck^2$ result
+is stated as unpublished.
 
 **Source.** P. Erdős, *Some recent progress on extremal problems in graph
 theory*, Congr. Numer. XIV (1975), 3--14; Chapter 4, printed pp. 13--14 =

@@ -61,9 +61,9 @@ The replies record the following review history:
   reports a ChatGPT Pro review that found minor issues and possibly the same
   semi-major issue, and recommends a maintained formal write-up; and
 - [post 3664](https://www.erdosproblems.com/forum/thread/963#post-3664)
-  says the argument looks good, proposes marking the catalog problem solved,
-  and asks for a formal PDF. This is a favorable informal assessment, not a
-  published or independently verified proof. The unanswered question in
+  says the argument looks good, proposes marking the erdosproblems.com problem
+  solved, and asks for a formal PDF. This is a favorable informal assessment,
+  not a published or independently verified proof. The unanswered question in
   [post 6885](https://www.erdosproblems.com/forum/thread/963#post-6885)
   leaves the thread unclear about whether a defect or the missing write-up
   prevented a later status update.

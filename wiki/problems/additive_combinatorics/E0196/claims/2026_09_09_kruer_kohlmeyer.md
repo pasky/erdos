@@ -60,9 +60,10 @@ third, which rules out a progression at any four increasing positions in either
 direction. The block appended at each stage is a finite saturated set sorted by
 a bit-preference order in which the middle term of a three-term progression
 never lies between the outer two; injectivity and surjectivity are proved
-separately. The formal statement proved is the negation of the catalog's
-`Erdos196.erdos_196` (`FormalConjectures/ErdosProblems/196.lean` at the catalog
-commit the bounty site pinned) with its open answer fixed to true, that is, of
+separately. The formal statement proved is the negation of the
+formal-conjectures catalog's `Erdos196.erdos_196`
+(`FormalConjectures/ErdosProblems/196.lean` at the formal-conjectures commit the
+bounty site pinned) with its open answer fixed to true, that is, of
 `∀ f : ℕ ≃ ℕ, HasMonotoneAP f 4`; the problem page's Status records the
 clause-by-clause comparison of that statement with the site's wording (both
 directions, bijections as permutations, the shift from positive to zero-based
@@ -135,8 +136,8 @@ on eligibility for the bounty, not a guarantee of originality.
 No other body accepts the result. The site's curator kept the label Open and
 lists the proof claim, but has not commented on it. The claim's three forum
 comments are by other users. The formal-conjectures statement `erdos_196` is
-tagged open on the catalog's default branch (2026-10-07). So no `refereed`
-evidence exists.
+tagged open on the formal-conjectures default branch (2026-10-07). So no
+`refereed` evidence exists.
 
 **Depends on.** No wiki page; the claim rests on the Lean file and its
 exposition.

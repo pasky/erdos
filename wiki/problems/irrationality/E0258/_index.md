@@ -30,9 +30,9 @@ $$
 
 irrational, where $\tau(n)$ is the number of divisors of $n$?
 
-**Status.** Proved. The catalog labeled the problem PROVED (LEAN) (page last
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (LEAN) (page last
 edited 28 May 2026). It says the proof was verified in Lean and credits Chojecki
-and GPT-5.4 Pro via Tao--Teräväinen [TaTe25]. The label is retained from the
+and GPT-5.4 Pro via Tao--Teräväinen [TaTe25]. The label is retained from Bloom's
 catalog. The frontmatter standing derives from the
 [[problems/irrationality/E0258/claims/2026_04_14_chojecki|claim page]] for
 Chojecki's deduction. That deduction is accepted on the curator's credit and on
@@ -77,7 +77,7 @@ performed here; the claim page links both.
 
 Remark 1.4 is direct source-stated evidence for the exact nonmonotone question.
 This compilation records its statement and proof pointer. The recorded
-acceptance is the catalog's PROVED (LEAN) label with its credit and the
+acceptance is the erdosproblems.com PROVED (LEAN) label with its credit and the
 adoption of the deduction by the authors of the input theorem, listed as
 `reviewed` on the claim page; refereed publication, independent proof review
 and a local formal verification are not recorded, and this corpus awards no

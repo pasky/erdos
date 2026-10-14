@@ -109,18 +109,19 @@ proof-claims thread on 2026-07-17 (the first `discussion` link), crediting
 GPT-5.5 for auditing, language editing, restructuring and parts of the Lean
 development. The formal-conjectures catalog tagged its statement `erdos_260` as
 `research solved` with `answer(True)` on 2026-09-21 (the `record` link, pinned
-to that commit), citing the paper and the Lean file below; the catalog links a
-formal proof and does not referee it. The problem's discussion thread holds an
-audit of v1 that the user Tomodovodoo posted on 2026-07-08, made with GPT-5.5
-Pro. It found that Lemma B.6 (dyadic excess-bin domination) supports narrower
-bin ranges than Theorems 6.1 and 6.4 use, so the route from Lemma B.6 through
-Definition 4.5 and Theorems 6.1 and 6.4 to Theorem 2.1 is not established. On
-2026-07-11 Tomodovodoo reported that a second attempt, with GPT-5.6 Sol Pro, did
-not complete the argument. On 2026-07-16 Wang wrote in the thread (the second
-`discussion` link) that the first version contained errors, since corrected in
-the revised version (v2, 2026-07-15), and announced the Lean development
-described below. No refereed publication, named review or documented acceptance
-beyond the catalog's tag was found, so the claim lists no evidence.
+to that commit), citing the paper and the Lean file below; the
+formal-conjectures catalog links a formal proof and does not referee it. The
+problem's discussion thread holds an audit of v1 that the user Tomodovodoo
+posted on 2026-07-08, made with GPT-5.5 Pro. It found that Lemma B.6 (dyadic
+excess-bin domination) supports narrower bin ranges than Theorems 6.1 and 6.4
+use, so the route from Lemma B.6 through Definition 4.5 and Theorems 6.1 and 6.4
+to Theorem 2.1 is not established. On 2026-07-11 Tomodovodoo reported that a
+second attempt, with GPT-5.6 Sol Pro, did not complete the argument. On
+2026-07-16 Wang wrote in the thread (the second `discussion` link) that the
+first version contained errors, since corrected in the revised version (v2,
+2026-07-15), and announced the Lean development described below. No refereed
+publication, named review or documented acceptance beyond the formal-conjectures
+tag was found, so the claim lists no evidence.
 
 **Formalization.** Wang's repository (the first `formalization` link,
 pinned to its last commit of 2026-08-23) states that it is a complete Lean 4
@@ -128,13 +129,14 @@ and Mathlib development of the paper's dyadic argument at v2, pinned to Lean
 and Mathlib v4.32.0, with all 38 labeled results proved, no `sorry`, `admit`,
 mathematical `axiom` or `opaque` stand-in, a blueprint mapping the paper's 39
 labels to declarations, and a public endpoint `Erdos260.erdos_260` whose type
-is exactly the catalog statement's right-hand side (integer-valued strictly
-increasing sequence, $a_n/n\to\infty$, a supplied `HasSum`, an `Irrational`
-conclusion) without depending on the catalog's package; it credits GPT-5.6 for
-the formalization and also holds a separate polynomial-window development
-following an unpublished generalization manuscript. The second `formalization`
-link is the endpoint file at the commit of 2026-07-16 that the catalog cites.
-This corpus has not built the development, printed its axioms or audited its
-definitions, so the formalization is a link, not a warrant.
+is exactly the formal-conjectures statement's right-hand side (integer-valued
+strictly increasing sequence, $a_n/n\to\infty$, a supplied `HasSum`, an
+`Irrational` conclusion) without depending on the formal-conjectures package; it
+credits GPT-5.6 for the formalization and also holds a separate
+polynomial-window development following an unpublished generalization
+manuscript. The second `formalization` link is the endpoint file at the commit
+of 2026-07-16 that the formal-conjectures catalog cites. This corpus has not
+built the development, printed its axioms or audited its definitions, so the
+formalization is a link, not a warrant.
 
 **Depends on.** Nothing in this wiki.

@@ -21,7 +21,7 @@ recent result of Hall, and neither paper is held or checked here.
 
 **Definition.** For real $x$, Erdős writes $f(x)$ for "the number of integers
 $m<x$ for which $\varphi(n)=m$ is solvable" (p. 201), the count of
-distinct totient values below $x$. The catalog's $V(x)$ counts the values
+distinct totient values below $x$. erdosproblems.com's $V(x)$ counts the values
 $n\le x$ with the letters swapped, so $V(x)-f(x)\in\{0,1\}$, the difference
 being the indicator that $x$ is itself an integer totient value; every
 asymptotic statement below is insensitive to it.

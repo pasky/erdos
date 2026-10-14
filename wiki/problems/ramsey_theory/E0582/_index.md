@@ -75,7 +75,7 @@ https://www.erdosproblems.com/582.
   Use of MAX-CUT for Ramsey arrowing of triangles. J. Combin. Math. Combin.
   Comput. 88 (2014), 61-71.
 - [Lu07] Lu, Linyuan, Explicit construction of small Folkman graphs. SIAM J.
-  Discrete Math. 21(4) (2008), 1053-1060. The catalogue's [Lu07] label is
+  Discrete Math. 21(4) (2008), 1053-1060. erdosproblems.com's [Lu07] label is
   retained; the journal publication year is 2008.
 - [RaXu07] Radziszowski, Stanisław P. and Xu, Xiaodong, On the most wanted
   Folkman graph. Geombinatorics 16 (2007), 367-381.

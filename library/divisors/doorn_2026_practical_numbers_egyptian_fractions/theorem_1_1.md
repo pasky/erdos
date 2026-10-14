@@ -43,11 +43,11 @@ stronger version of this theorem).
 (F.card : ℝ) ≤ c0 * (Real.log (Real.log n)) ^ 2 ∧ ∑ d ∈ F, d = m`, with
 `c0 = 14 / Real.log 2`. This is the theorem with "practical" left implicit:
 every $1\le m\le n$ is represented, and $0$ is the empty sum, which is what
-the catalog's `Nat.IsPractical` asks (defined in formal-conjectures'
-`FormalConjecturesForMathlib`, not in Mathlib). The right side of the catalog's
-`Erdos18.erdos_18a` (some $C>0$ with $h(m)<(\log\log m)^C$ for infinitely
-many practical $m$) follows with $C=3$ once $\log\log n>c_0$, i.e.
-$n>\exp\exp c_0$, which the "for every $N$ there is $n>N$" form supplies;
+formal-conjectures' `Nat.IsPractical` asks (defined in formal-conjectures'
+`FormalConjecturesForMathlib`, not in Mathlib). The right side of
+formal-conjectures' `Erdos18.erdos_18a` (some $C>0$ with $h(m)<(\log\log m)^C$
+for infinitely many practical $m$) follows with $C=3$ once $\log\log n>c_0$,
+i.e. $n>\exp\exp c_0$, which the "for every $N$ there is $n>N$" form supplies;
 neither step is formalized. The file was not built here.
 
 ## Reconstruction

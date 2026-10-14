@@ -178,8 +178,8 @@ were not read beyond the summary in §0. Nothing here is independently reviewed.
   the corollary settles Problem 3 of [1], and with the theorem (printed there
   as "Theorem 2"; evidently Theorem 1.2) the question of which infinite
   $\lambda,\mu$ satisfy $\lambda\to(\mu)^2_2$ is fully answered. The corollary
-  carries the catalog hypothesis $2^{\aleph_{n(0)}}>\aleph_\omega$ explicitly,
-  so the reading note on Theorem 1.2 does not affect it.
+  carries the erdosproblems.com hypothesis $2^{\aleph_{n(0)}}>\aleph_\omega$
+  explicitly, so the reading note on Theorem 1.2 does not affect it.
 - § 1, Conjecture 1A (Hajnal) and Remark (p. 1261, checked). Under the same
   hypothesis, $\sum_{n<\omega}2^{\aleph_n}\to(\aleph_\omega,4)^3$. The Remark:
   wherever $\lambda\to(\mu,\mu)^2$ had been proved before this paper,
@@ -207,16 +207,16 @@ p. 1260, PDF p. 4) is the problem's relation, with its hypotheses verbatim: for
 an increasing sequence $(n_k)$ with $2^{\aleph_{n_k}}$ strictly increasing and
 $2^{\aleph_{n_0}}>\aleph_\omega$, the corollary gives
 $\sum_{n<\omega}2^{\aleph_n}\to(\aleph_\omega,\aleph_\omega)^2$, two colors, and
-the sum over all $n$ equals the catalog's sum over the subsequence, both being
-$\sup_k 2^{\aleph_{n_k}}$; §0 (p. 1257) and the Remark on p. 1260 identify it
-as the solution of Problem 3 of the Erdős--Hajnal list. The page's status
+the sum over all $n$ equals the erdosproblems.com sum over the subsequence, both
+being $\sup_k 2^{\aleph_{n_k}}$; §0 (p. 1257) and the Remark on p. 1260 identify
+it as the solution of Problem 3 of the Erdős--Hajnal list. The page's status
 Proved rests on this corollary at statement depth; the paper appeared in a
 colloquium proceedings volume (Colloq. Math. Soc. János Bolyai 10, reviewed
 by MR and zbMATH, not a journal), and its acceptance evidence is the
 curator's PROVED credit and Komjáth's 2025 record of the proof, both
 reviewed, with no refereeing listed. Conjecture 1A (p. 1261) is the stronger
 three-dimensional question the site mentions as open; it is not part of the
-catalog question.
+erdosproblems.com question.
 
 **Results.**
 

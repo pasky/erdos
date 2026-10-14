@@ -54,9 +54,9 @@ https://www.erdosproblems.com/16.
 at the file's revision of 2026-09-18: tagged `research solved`
 with `answer(False)` and linking Daniel Chin's Lean proof `ErdosProblem16` in
 https://github.com/danielchin/proofs (announced 2026-02-25 as written with
-Gemini 3.1 Pro and Antigravity; the catalog's docstring instead credits Chin
-using Aristotle, and the author's own statement is followed here). The corpus
-has not built or audited the proof, so the label supplies no
+Gemini 3.1 Pro and Antigravity; the formal-conjectures docstring instead credits
+Chin using Aristotle, and the author's own statement is followed here). The
+corpus has not built or audited the proof, so the label supplies no
 formal-verification credit; the claim page gives the pinned link.
 
 ## Progress

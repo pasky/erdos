@@ -62,6 +62,6 @@ and no verification tier.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — compares two
 families of configurations for the radius-$\sqrt d$ analogue of the
-catalog question in every dimension $d\ge d_0$, with $d_0$ not made
+erdosproblems.com question in every dimension $d\ge d_0$, with $d_0$ not made
 explicit; in the plane, by p. 5, Theorem 1.13 shows an
 equilateral-triangle construction outperforming the orthogonal one.

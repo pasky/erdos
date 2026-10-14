@@ -30,8 +30,8 @@ over $\mathbb Q$. This is recorded on
 [[problems/additive_combinatorics/E0199/claims/1975_03_01_baumgartner|its claim page]]
 with its refereed and site evidence. The label's Lean mark refers to a Lean
 formalization of Baumgartner's proof posted in the site's discussion thread in
-February 2026 and linked by the catalog. That formalization is listed on the
-claim page and was not built by this corpus.
+February 2026 and linked by the formal-conjectures catalog. That formalization
+is listed on the claim page and was not built by this corpus.
 
 **Source.** [erdosproblems.com/199](https://www.erdosproblems.com/199), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #199,
@@ -58,12 +58,13 @@ over $\mathbb Q$ gives such a set $A$, so $\mathbb R\setminus A$ contains no
 infinite arithmetic progression. This is a complete disproof, not only a bound
 or a conditional result. It does not require the continuum hypothesis.
 
-**Evidence window.** The site's label and the catalog statement are those of
-2026-09-04, the formal statement file at the revision linked above. The
+**Evidence window.** The site's label and the formal-conjectures statement are
+those of 2026-09-04, the formal statement file at the revision linked above. The
 historical report is on printed p. 339 of Erdős–Graham (1979), and the
 published three-page Baumgartner paper is the status-defining source.
 Status-search scope: the site's page, the survey passage, the paper and the
-catalog, checked in September 2026; no later literature search is recorded.
+formal-conjectures catalog, checked in September 2026; no later literature
+search is recorded.
 
 **Proof and review coverage.** The complete published main proof is
 reconstructed on the linked main-theorem page. The acceptance rests on the

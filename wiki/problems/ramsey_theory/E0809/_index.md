@@ -153,17 +153,17 @@ in the development posted with the site's proof claim 367, filed after Shahab's:
 the project's claim
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], whose
 [Lean surface](../../../../lean/Erdos/L17.lean) states the full $k\ge3$ question
-in the catalog's exact-edge form, is proved at tier 2 under the second-cycle
-statement-fidelity review and distinct grade of 2026-10-02, with no condition.
-The $k\ge4$ cases are the theorem of Bucić, Chen and Ma, formalized natively in
-`Erdos.Library.Problem809.BucicChenMa`; the $k=3$ case, the seven-cycle, is the
-project's own argument; a
-[research guide](../../../research/erdos_809/_index.md) covers the proof and its
-two formal branches. The independent whole-statement fidelity review of
-2026-10-02 (verdict refutation-failed) and its distinct grade (report pass,
-independence pass, each disclosed exposure ruled immaterial, the tier asserted
-in the grade) are filed under the claim's
-[verification records](../../../theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/statement_fidelity_2/_index.md);
+in erdosproblems.com's exact-edge form, is proved at tier 2 under the
+second-cycle statement-fidelity review and distinct grade of 2026-10-02, with no
+condition. The $k\ge4$ cases are the theorem of Bucić, Chen and Ma, formalized
+natively in `Erdos.Library.Problem809.BucicChenMa`; the $k=3$ case, the
+seven-cycle, is the project's own argument; a [research
+guide](../../../research/erdos_809/_index.md) covers the proof and its two
+formal branches. The independent whole-statement fidelity review of 2026-10-02
+(verdict refutation-failed) and its distinct grade (report pass, independence
+pass, each disclosed exposure ruled immaterial, the tier asserted in the grade)
+are filed under the claim's [verification
+records](../../../theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/statement_fidelity_2/_index.md);
 the grade cites the non-author clean gate of 2026-09-29 over the whole `lean/`
 tree as it stood on the default branch that day (7,501 jobs built; `AUDIT PASS`
 over 42,230 constants in 2,977 modules, 7 claims, 0 compiler axioms; exit 0),

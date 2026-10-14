@@ -54,7 +54,7 @@ exceeding {1 - (zeta/2)^2}^{n/2} some regular k-simplex inscribed in the
 sphere and centered at its center has every vertex within distance zeta of
 S, proved via a spherical-cap comparison using a result of Schmidt plus a
 measure argument on the space of regular k-simplices. The statement that bears
-on the catalog is the Section 3 Theorem (p. 704): for k >= 3 and large l a
+on Bloom's catalog is the Section 3 Theorem (p. 704): for k >= 3 and large l a
 graph on fewer than l^{1+c_k} vertices with no K_k in which every l vertices
 span a K_{k-1}, with c_k ~ 1/(512 k^4 log k). At k = 4 it is the origin of the
 Erdős-Rogers function of Problem 620 (K_4-free graphs whose triangle-free

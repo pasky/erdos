@@ -117,9 +117,9 @@ and
 their proofs have not been independently reviewed for this assessment.
 
 A status search covered arXiv papers, indexed author publication pages, the
-catalog discussion, and indexed X announcements; the small cases claimed in the
-catalog's discussion thread are recorded on the claim pages listed under Proof
-claims below. The 2026 unit-distance disproof
+erdosproblems.com discussion, and indexed X announcements; the small cases
+claimed in the erdosproblems.com discussion thread are recorded on the claim
+pages listed under Proof claims below. The 2026 unit-distance disproof
 ([[../library/discrete_geometry/alon_2026_remarks_disproof_unit_distance_conjecture/_index|Alon et al., arXiv:2605.20695v1]])
 and the July 2026 preprint
 [*The Minkowski grid has robustly many repeated distances*](https://arxiv.org/abs/2607.05374v1)

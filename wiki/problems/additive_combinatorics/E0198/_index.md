@@ -32,8 +32,8 @@ Baumgartner
 ([[problems/additive_combinatorics/E0198/claims/1975_03_01_baumgartner|claim page]]).
 The second is the factorial set that Google DeepMind's AlphaProof found
 ([[problems/additive_combinatorics/E0198/claims/2025_05_15_deepmind|claim page]]),
-formalized in Lean in November 2025 and linked by the catalog. The third is
-Dutta's power sequences
+formalized in Lean in November 2025 and linked by the formal-conjectures
+catalog. The third is Dutta's power sequences
 ([[problems/additive_combinatorics/E0198/claims/2025_09_02_dutta|claim page]]).
 The factorial and power-sequence claims are accepted on the documented credit of
 the site's curator. The successive selection stays claimed, since the curator
@@ -72,17 +72,17 @@ The enumerated, factorial, and Baire constructions supply the recorded
 counterexamples. Their four natural-language proof components are complete and
 author-recorded; the independent review of 2026-09-05 that the construction
 source reports is not filed with it and supplies no review credit, and the
-Lean formalizations the site and the catalog report were not built by this
-corpus. The filed Baumgartner paper contains no explicit Sidon theorem, and
-the contradictory historical attribution retains the limits described below.
-The site's label history is on the claim pages: web archive captures of
-2024-06-19 and 2024-11-07 show the answer yes credited to Baumgartner, and the
-answer no with the written-out construction and the AlphaProof credit appears
-by May 2025, dated by the formal-conjectures catalog's issue of 2025-05-13 and
-pull request of 2025-05-15. Status-search scope: the site's page and forum
-thread, the formal-conjectures catalog with the forks its `formal_proof` links
-name, the community database and the web archive captures named on the claim
-pages; no literature search beyond them is recorded.
+Lean formalizations the site and the formal-conjectures catalog report were not
+built by this corpus. The filed Baumgartner paper contains no explicit Sidon
+theorem, and the contradictory historical attribution retains the limits
+described below. The site's label history is on the claim pages: web archive
+captures of 2024-06-19 and 2024-11-07 show the answer yes credited to
+Baumgartner, and the answer no with the written-out construction and the
+AlphaProof credit appears by May 2025, dated by the formal-conjectures catalog's
+issue of 2025-05-13 and pull request of 2025-05-15. Status-search scope: the
+site's page and forum thread, the formal-conjectures catalog with the forks its
+`formal_proof` links name, the community database and the web archive captures
+named on the claim pages; no literature search beyond them is recorded.
 
 ## Progress
 

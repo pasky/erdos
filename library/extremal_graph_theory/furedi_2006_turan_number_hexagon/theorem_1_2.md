@@ -69,7 +69,7 @@ $$
 \geq\left(\frac{2}{3^{4/3}}+o(1)\right)N^{4/3}.
 $$
 
-The $k=3$ coefficient in the catalog formula $(N/2)^{1+1/k}$ is
+The $k=3$ coefficient in the erdosproblems.com formula $(N/2)^{1+1/k}$ is
 $2^{-4/3}$. The ratio of the construction coefficient to this coefficient
 is $2^{7/3}/3^{4/3}>1$, since its cube is $128/81>1$. Thus the displayed
 lower bound contradicts the proposed asymptotic already on this sequence.

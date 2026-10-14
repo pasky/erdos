@@ -4,8 +4,8 @@ title: Problem 618
 desc: |
   Asks whether every triangle-free graph with maximum degree $o(n^{1/2})$ can be
   given diameter $2$, still triangle-free, by adding $o(n^2)$ edges; proved by
-  Alon. The page also records the catalog's notation and diameter qualifications
-  and the earlier bounded-degree results.
+  Alon. The page also records the erdosproblems.com notation and diameter
+  qualifications and the earlier bounded-degree results.
 tags:
 - Graph theory
 status: solved

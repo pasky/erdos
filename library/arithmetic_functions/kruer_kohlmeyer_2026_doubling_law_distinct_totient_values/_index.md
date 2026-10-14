@@ -65,8 +65,8 @@ restricted conjectures.io submission format"; its target (line 64567) is
 `doubling_limit` (line 64526) states
 `Tendsto (fun x => V (2*x)/V x) atTop (𝓝 2)` under a `letI` binding of a
 `Fintype` instance for the proof's core records, so the identity of its type
-with the catalog's rests on `target` and the site's "Statement unchanged" gate;
-the proof's `V` (line 33) is the cardinality of
+with the formal-conjectures catalog's rests on `target` and the site's
+"Statement unchanged" gate; the proof's `V` (line 33) is the cardinality of
 `(Finset.Icc 1 ⌊x⌋₊).filter (fun n => ∃ m : ℕ, m.totient = n)` and
 `V_eq_standard_count` (line 79) closes by `rfl`. The PDF's §6 line map places
 `finite_counting_error` at 45376, `quotient_error_of_relative_doubling_error` at

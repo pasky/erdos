@@ -115,7 +115,7 @@ recorded. The pages do not reconstruct the finite-field and prime-distribution
 inputs, Füredi's 1996 extension as Ma and Yang report it, or Ma and Yang's full
 structural proof.
 
-Search scope: the catalog, primary arXiv records, the authors'
+Search scope: Bloom's catalog, primary arXiv records, the authors'
 publication pages (among them
 [Ma's publication page](https://faculty.ustc.edu.cn/majie/en/lwcg/86524/content/21325.htm)),
 the publisher's record and research announcements, including searches

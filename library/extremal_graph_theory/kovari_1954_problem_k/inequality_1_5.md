@@ -38,7 +38,7 @@ $$
 
 "i. e. the existence of $h_j^*(n)$ edges in a graph of order $n$ already
 ensures the existence of a saturated even graph of the type $(j,j)$." In the
-catalog's notation, $\operatorname{ex}(n;K_{j,j})<h_j^*(n)$, so
+erdosproblems.com notation, $\operatorname{ex}(n;K_{j,j})<h_j^*(n)$, so
 $\operatorname{ex}(n;K_{j,j})\le\tfrac12(j-1)^{1/j}n^{2-1/j}+\tfrac12jn+O(1)$.
 Section 2 (p. 51) notes that (1.5) is nontrivial, $k_j^*(n)<n^2$, once
 $j\ge8$ and $n\ge j^{2j/(j-1)}$ (display (2.1)).

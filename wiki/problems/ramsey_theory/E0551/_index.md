@@ -281,9 +281,10 @@ unknown: [KLS21] did not compute $C$ and write (p. 16) that "with more work it
 seems that a reasonable value (less than 20, say) can be obtained". No refereed
 source closes any part of it; the 2026 result below, accepted on its Lean proof,
 closes all of it. This is the finite check the site's label refers to; the label
-is kept as the catalog's. A statement that is true for all $n\ge n_0(C)$ and
-unchecked for finitely many $n$ is a reduction to a finite check, and Keevash,
-Long and Skokan's claim page records it with the claim value `decidable`.
+is kept as erdosproblems.com's. A statement that is true for all $n\ge n_0(C)$
+and unchecked for finitely many $n$ is a reduction to a finite check, and
+Keevash, Long and Skokan's claim page records it with the claim value
+`decidable`.
 
 **Closure of the residue (2026).** The OpenAI mathematics release's
 preprint *Cycle--clique Ramsey numbers* [OAI26] (25 September 2026), carded at

@@ -222,7 +222,7 @@ formal authors (the file's own credits, recorded as its provenance); the
 docstring says "Ajtai--Komlós--Szemerédi's theorem that every supercritical
 uniform random graph has, with high probability, a path of positive linear
 length", with `Density` the reals above $1/2$ and a filter at the excluded
-endpoint; the file carries `#print axioms Erdos900.erdos_900`. The catalog
+endpoint; the file carries `#print axioms Erdos900.erdos_900`. Bloom's catalog
 does not cite this development; it is a formalization link on the claim page,
 nothing was built, and no `formalized` evidence is claimed. Semantic Scholar's
 list of papers citing [AKS81] (128 records, titles only) includes 2021--2025

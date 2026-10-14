@@ -40,7 +40,7 @@ chromatic number while deleting any set of at most $r$ edges does not. This is
 the question as asked, answered yes for every such $k$ and $r$. The proof's
 final theorem is the catalog statement `Erdos944.erdos_944` of
 formal-conjectures (`FormalConjectures/ErdosProblems/944.lean`, at the
-catalog commit the site's task pins) with its answer instantiated
+formal-conjectures commit the site's task pins) with its answer instantiated
 to true,
 
 ```lean
@@ -139,11 +139,11 @@ As of 2026-09-18, the erdosproblems.com page (fetched 2026-09-18T16:22Z) labeled
 the problem OPEN, says the $k=4$ case remains open even for $r=1$, and lists
 Chan's proof claim. On that date, the formal-conjectures catalog file on its
 default branch agreed with the statement the site prints and tagged the theorem
-research open. By its commit of 21 September 2026, the catalog tags the $k=4$
-case of Dirac's conjecture research solved and keeps `erdos_944` itself tagged
-research open. The catalog commit that the site's task pins is not public; the
-site builds it from a public catalog commit and an audit patch, and the replay
-reproduced it exactly.
+research open. By its commit of 21 September 2026, the formal-conjectures
+catalog tags the $k=4$ case of Dirac's conjecture research solved and keeps
+`erdos_944` itself tagged research open. The formal-conjectures commit that the
+site's task pins is not public; the site builds it from a public catalog commit
+and an audit patch, and the replay reproduced it exactly.
 
 **Verification record.** Besides the replay under **Acceptance.**, this corpus
 read the proof file,
@@ -152,13 +152,13 @@ read the proof file,
 one displayed above, split into the cases $k=4$, $k=5$ and $k\ge6$. The file
 contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`,
 `implemented_by`, `extern`, `partial` or `opaque`, has four `decide +kernel`
-sites on finite cases, and declares nothing that shadows the catalog's or
-Mathlib's names (it sits in its own namespace with no `open`, `instance`,
-`notation` or `_root_`). The bridge lemma holds as stated, and for the $k\ge5$
-witnesses at small parameters the punctured colorings, recomputed in exact
-arithmetic, are proper away from the puncture. Two points the reading did not
-reach rest on the kernel replay alone: the $k=4$ branch, whose witness is too
-large to recompute and whose reduction chain only was traced, and the
+sites on finite cases, and declares nothing that shadows the formal-conjectures
+catalog's or Mathlib's names (it sits in its own namespace with no `open`,
+`instance`, `notation` or `_root_`). The bridge lemma holds as stated, and for
+the $k\ge5$ witnesses at small parameters the punctured colorings, recomputed in
+exact arithmetic, are proper away from the puncture. Two points the reading did
+not reach rest on the kernel replay alone: the $k=4$ branch, whose witness is
+too large to recompute and whose reduction chain only was traced, and the
 non-colorability half of the $k\ge5$ witnesses. The two upstream predicates
 `IsCritical` and `IsCriticalEdges`, which the reading inferred from the proof's
 definitional `change` steps, are among the definitions the replay found

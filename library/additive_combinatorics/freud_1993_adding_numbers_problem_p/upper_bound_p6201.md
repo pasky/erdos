@@ -24,7 +24,7 @@ Phillips (Thomas J. Watson Research Center, Yorktown Heights, NY, USA)
 that they had rediscovered my result above and improved it; they have a
 construction giving $13n/24+O(1)$. They also improved the upper bound to
 $2/3-1/3584$." The figures $13n/24$ and $1/3584$ were read at 300 dpi.
-The site's commentary on Problem 867 and the catalog's Lean file print the
+The site's commentary on Problem 867 and formal-conjectures' Lean file print the
 Coppersmith--Phillips upper bound as $(\tfrac23-\tfrac1{512})N+\log N$.
 The SIAM paper itself (SIAM J. Discrete Math. 9 (1996), no. 2, 173--177)
 is filed as

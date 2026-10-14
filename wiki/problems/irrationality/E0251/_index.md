@@ -92,10 +92,10 @@ whether $S=\sum_{n\ge1}p_n/2^n$ is irrational, with $p_1=2$, so
 $S=2/2+3/4+5/8+\cdots=3.67464396601\ldots$ (OEIS A098990). The frontmatter
 status `open` concerns this question. The status search covered the
 primary sources (the 1958, 1980 and 1988 passages), the arXiv API, the
-catalog's problem page, discussion thread, proof-claims page and history page,
-the community database and its "AI contributions" wiki, and web search; zbMATH,
-MathSciNet and Google Scholar were not searched. No unconditional proof or
-disproof was found. A failure to find a proof does not by itself establish
+erdosproblems.com problem page, discussion thread, proof-claims page and history
+page, the community database and its "AI contributions" wiki, and web search;
+zbMATH, MathSciNet and Google Scholar were not searched. No unconditional proof
+or disproof was found. A failure to find a proof does not by itself establish
 openness, so the scope is recorded and the outstanding claims are listed.
 
 **Origin and wording.** Erdős posed the question in 1958 (p. 94), after proving

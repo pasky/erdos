@@ -115,7 +115,7 @@ the "Proof SHA-256" the solution page prints. The file is not held in this
 folder; it was rebuilt and replayed in the kernel on the repository's pinned
 toolchain. A text scan found no `import`, `sorry`, `axiom`, `native_decide`,
 `set_option`, `unsafe`, `implemented_by` or `opaque`; 806 `theorem` and 99 `def`
-declarations; and, of the catalog's names, `Erdos18.practicalH` (19
+declarations; and, of the formal-conjectures names, `Erdos18.practicalH` (19
 occurrences), `Erdos18.factorial_isPractical` (1) and the target name inside
 `fcTypeOfName%` (7). The file opens with `open Finset Filter` and has no
 namespace. Structure: line 4,

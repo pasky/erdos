@@ -72,17 +72,17 @@ Grzesik's
 and, independently, Hatami et al.'s
 [[../library/extremal_graph_theory/hatami_2013_number_pentagons_triangle_free_graphs/corollary_3_3|Corollary 3.3]]
 prove the stronger bound $(m/5)^5$ for every graph order $m$. Substituting
-$m=5n$ resolves the catalog question. Their refereed publications [Gr12]
-and [HHKNR13] support `proved`; this status does not depend on a new project
-proof or local formal verification.
+$m=5n$ resolves the erdosproblems.com question. Their refereed publications
+[Gr12] and [HHKNR13] support `proved`; this status does not depend on a new
+project proof or local formal verification.
 
-A bounded status search checked the catalog and its forum, the papers' arXiv
+A bounded status search checked Bloom's catalog and its forum, the papers' arXiv
 records, journal publication records, author publication pages, public
 formalization sources, and web-indexed announcements including X. It also
 located the later Lidický-Pfender resolution of the rounded arbitrary-order
 refinement, described below. The search found no dispute affecting the exact
-$5n$-vertex result. The catalog's broader remark about other odd cycle lengths
-is a separate question.
+$5n$-vertex result. erdosproblems.com's broader remark about other odd cycle
+lengths is a separate question.
 
 The flag-algebra coefficient calculations, the matrix checks and the
 uniqueness and stability proofs are not independently reviewed; the
@@ -134,7 +134,7 @@ large $m$ in
 On manuscript p. 11 the authors withdraw their original all-order argument
 for this rounded bound because of an uncorrected proof mistake. This
 qualification concerns the rounded refinement; their all-order bound
-$(m/5)^5$ and the catalog's $5n$ case remain proved.
+$(m/5)^5$ and erdosproblems.com's $5n$ case remain proved.
 
 The rounded question was subsequently settled by Bernard Lidický and
 Florian Pfender, *Pentagons in triangle-free graphs*, European J. Combin.

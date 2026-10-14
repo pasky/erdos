@@ -2,7 +2,7 @@
 name: irrationality/bloom_2026_erdos_problem_251_discussion
 title: "Problem 251 Page, Discussion and Proof Claims"
 desc: |
-  Web source for the catalog's Problem 251 page, discussion thread,
+  Web source for the erdosproblems.com Problem 251 page, discussion thread,
   proof-claims page and history as snapshotted on 2026-09-17, with Tao's
   gap-series reformulation proved and the 2026 claims recorded as their
   authors state them.

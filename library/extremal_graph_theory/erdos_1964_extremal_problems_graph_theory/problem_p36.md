@@ -27,8 +27,8 @@ result, and I can prove it for $k=3$ and $k=4$ also."
 The page continues with the theorem on a circuit and $r$ vertices adjacent to
 all of it, and the references.
 
-Conversion to the catalog's notation (made here): the site's $g_k(n)$ counts
-$k$ chords at one cycle vertex and is a maximum number of edges avoiding
+Conversion to the erdosproblems.com notation (made here): the site's $g_k(n)$
+counts $k$ chords at one cycle vertex and is a maximum number of edges avoiding
 them; the paper counts $k-1$ diagonals and writes the least forcing number.
 With $k'=k+1$, the paper's claim taken at $k'$ (on $n$ vertices, $k'n+c$
 edges force a cycle with at least $k'-1$ chords at one of its vertices), at

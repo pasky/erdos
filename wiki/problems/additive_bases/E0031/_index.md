@@ -30,7 +30,7 @@ The Lean qualification of the site's label corresponds to the proof the
 formal-conjectures catalog links, a third party's Lean proof. The claim page
 [[problems/additive_bases/E0031/claims/1954_03_02_lorentz|Lorentz's sparse
 additive complement]] records the acceptance evidence: the refereed publication
-and the catalog's curator, Thomas Bloom. The Lean proof carries no
+and the erdosproblems.com curator, Thomas Bloom. The Lean proof carries no
 formal-verification credit in this corpus.
 
 **Source.** [erdosproblems.com/31](https://www.erdosproblems.com/31), accessed
@@ -57,10 +57,10 @@ Lorentz's published Theorem 1 gives the density-zero complement conclusion
 with the convention transfer below; the claim page
 [[problems/additive_bases/E0031/claims/1954_03_02_lorentz|Lorentz's sparse
 additive complement]] carries the standing and its acceptance evidence, the
-refereed publication and the catalog's agreement. The complete
+refereed publication and erdosproblems.com's agreement. The complete
 natural-language chain is retained as author-recorded proof coverage. No
 independent review of the proof chain is filed; the acceptance evidence is the
-refereed publication and the catalog's credit. The Lean proof carries no
+refereed publication and erdosproblems.com's credit. The Lean proof carries no
 formal-verification credit in this corpus. Status search: the site's page and
 remarks, its thread and the formal-conjectures file. On 2026-10-07 the thread
 held two comments, an exposition of Lorentz's proof of 2025-11-22 and the

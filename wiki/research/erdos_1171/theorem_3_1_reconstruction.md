@@ -94,7 +94,7 @@ as
 [[../library/set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/positive_relation|the positive relation]].
 
 **Theorem C (Solovay and Tennenbaum 1971; the step from the theorem to the
-catalog status).** If ZFC is consistent, then so is ZFC together with
+erdosproblems.com status).** If ZFC is consistent, then so is ZFC together with
 Martin's axiom and $2^{\aleph_0}>\aleph_1$, and hence ZFC together with
 $\mathrm{MA}_{\aleph_1}$. The deposit does not state this step; the problem
 page uses it to pass from Theorem 3.1 to "not disprovable in ZFC". The paper
@@ -152,14 +152,14 @@ by the same restriction and the transport fact of the lemma page.
 
 ## Fidelity and scope
 
-- *The catalog question.* The catalog asks the relation for all finite
+- *The erdosproblems.com question.* The catalog asks the relation for all finite
   $k<\omega$ with $k$ triangle targets and $k+1$ colors. The theorem covers
   every $k\ge1$. The instance $k=0$ is the one-color relation
   $\omega_1^2\to(\omega_1\omega)^2_1$, which holds outright: under the only
   coloring with one color the subset $\omega_1\omega$ of $\omega_1^2$ is
   homogeneous of order type $\omega_1\omega$. So, under
-  $\mathrm{MA}_{\aleph_1}$, every instance of the catalog question has a
-  positive answer.
+  $\mathrm{MA}_{\aleph_1}$, every instance of the erdosproblems.com question has
+  a positive answer.
 - *What is proved and what is not.* The relation is proved from
   $\mathrm{MA}_{\aleph_1}$; with Theorem C it is not disprovable in ZFC. It
   is not proved in ZFC, and Komjáth 2025 records the ZFC instance $k=3$ as
@@ -177,7 +177,7 @@ by the same restriction and the transport fact of the lemma page.
 
 **Depends on.** Theorem A, imported with its proof not held, and
 [[research/erdos_1171/lemma_2_1_reconstruction|Lemma 2.1]]; Theorem C is
-used only for the passage from the theorem to the catalog status.
+used only for the passage from the theorem to the erdosproblems.com status.
 
 **Bears on.** [[problems/set_theory/E1171/_index|Problem 1171]], as a conditional
 proof under $\mathrm{MA}_{\aleph_1}$ whose status the page already records.

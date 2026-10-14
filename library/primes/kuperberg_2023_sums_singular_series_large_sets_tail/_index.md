@@ -86,7 +86,7 @@ Only the statements above were read, from the text layer and (for
 Conjecture 1.3) on the page image of p. 3; no proof was checked and nothing
 here is independently reviewed.
 
-## Relation to the catalog
+## Relation to Bloom's catalog
 
 The paper proves nothing about a catalog problem. Its Conjecture 1.3 is
 the hypothesis assumed by the two 2026 conditional claims on

@@ -76,10 +76,10 @@ The file states the question as the search for an upper bound on $n_k$ that is
 $o(k[1,\ldots,k-1])$. It also states the Erdős–Selfridge exception, the four
 small values, the bounds of Monier and Cambie, and $n_k\le e^{(1+o(1))k}$. Only
 the small values carry a formal proof there; it is a statement file, not a
-formalization of any solution. On 7 October 2026 the catalog added the variant
-`erdos_1063.variants.subexponential_upper_bound` and linked Lean proofs of it
-and of the four companion statements, produced by the LEAP prover agent and
-recorded on
+formalization of any solution. On 7 October 2026 the formal-conjectures catalog
+added the variant `erdos_1063.variants.subexponential_upper_bound` and linked
+Lean proofs of it and of the four companion statements, produced by the LEAP
+prover agent and recorded on
 [[problems/integer_sequences/E1063/claims/2026_10_01_leap|its claim page]].
 
 ## Progress

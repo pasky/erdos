@@ -102,11 +102,11 @@ is marked solved with a `formal_proof` link to van Doorn's Lean module
 Ruzsa's proof produced by Aristotle and posted in the site's discussion thread
 on 7 March 2026 (pinned on
 [[problems/additive_combinatorics/E0785/claims/2015_10_03_ruzsa|Ruzsa's claim page]]);
-the catalog also states variants for the results of Danzer, Narkiewicz, Chen and
-Fang and Ruzsa, with Chen's $3/2$ conjecture in its open category (file commit
-of 2026-09-18). The community database lists the problem as proved (Lean) as of
-its last update on 2026-03-06. The proof claim of 2026-08-05 carries a second
-Lean module, for Chen's conjecture (pinned on
+the formal-conjectures catalog also states variants for the results of Danzer,
+Narkiewicz, Chen and Fang and Ruzsa, with Chen's $3/2$ conjecture in its open
+category (file commit of 2026-09-18). The community database lists the problem
+as proved (Lean) as of its last update on 2026-03-06. The proof claim of
+2026-08-05 carries a second Lean module, for Chen's conjecture (pinned on
 [[problems/additive_combinatorics/E0785/claims/2026_08_05_van_doorn_liu_tang|its claim page]]).
 The corpus has not built either module, so no `formalized` evidence is listed.
 

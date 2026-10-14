@@ -64,7 +64,7 @@ range, but retains a diagonal for even shifts. Its odd-shift consequences
 do not alone control every pair in a consecutive block. Its latest version
 is [v2](https://arxiv.org/abs/2606.23681v2), dated 12 August 2026.
 
-The catalog's
+The problem's
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1004.lean),
 at its commit of 18 September 2026, states the question as an open theorem and
 the [EPS87] upper bound as a solved variant, both without proof, so it provides
@@ -180,7 +180,7 @@ Part II's
 bounds unit-shift totient collisions. These are different results; neither
 is the direct source or proof of the every-$c$ block expectation.
 
-The catalog's [EPS87] reference above names Part III, and the site's
+erdosproblems.com's [EPS87] reference above names Part III, and the site's
 commentary attributes to that key an upper bound
 $K\leq n/\exp(c(\log n)^{1/3})$, with some $c>0$, on the length $K$ of any
 block $n+1,\ldots,n+K$ on which $\phi$ takes pairwise distinct values. Part

@@ -117,12 +117,12 @@ derived standing is `claimed` with the claim value `proved`. Neither proof
 is compiled or reviewed in this wiki.
 
 **Formalization.** The formal-conjectures file linked above states the problem
-and a weaker variant without proofs and names no formal proof. The catalog's
-commit of 8 October 2026 changes the statement's category from research open
-to research solved and its answer from `sorry` to `True`, citing Theorem 2.1
-of Yang's arXiv preprint; this is a catalog label change, not a formal proof,
-a review or an acceptance, and Yang's claim stays `claimed`. No Lean
-development of either claim is known.
+and a weaker variant without proofs and names no formal proof. The
+formal-conjectures commit of 8 October 2026 changes the statement's category
+from research open to research solved and its answer from `sorry` to `True`,
+citing Theorem 2.1 of Yang's arXiv preprint; this is a catalog label change, not
+a formal proof, a review or an acceptance, and Yang's claim stays `claimed`. No
+Lean development of either claim is known.
 
 **Search scope.** The site's problem page, its thread (three posts by
 2026-10-07, of 29 April and 13 September 2026), and its proof-claims tab with

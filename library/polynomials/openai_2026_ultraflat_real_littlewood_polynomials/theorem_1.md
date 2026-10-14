@@ -105,8 +105,8 @@ statement level; none was checked here.
   claims degree-$n$ sign polynomials with maximum modulus at most
   $(1+\varepsilon)\sqrt{n+1}<(1+c)\sqrt n$ for all large $n$, so no constant
   as the page asks for would exist. The manuscript cites Erdős 1957, Problem
-  26, and not the catalog number. Unverified here; the page's status rests
-  on acceptance evidence.
+  26, and not the erdosproblems.com number. Unverified here; the page's status
+  rests on acceptance evidence.
 - [[../wiki/problems/polynomials/E0228/_index|Problem 228]]: claimed stronger form
   of the proved statement, both implied constants replaced by
   $1\mp\varepsilon$ for all large lengths. Unverified here; the page's status

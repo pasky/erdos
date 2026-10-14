@@ -201,7 +201,7 @@ $$
 =\frac12(H_m-1)=\frac12\log m+O(1).
 $$
 
-Here $n=2m$, $e(G)=m^2$, and the catalog parameter is $k=m/2$.
+Here $n=2m$, $e(G)=m^2$, and the erdosproblems.com parameter is $k=m/2$.
 Thus this family shows that the leading constant cannot exceed $1/2$ as
 $k\to\infty$. It does not prove exact minimization for the prescribed vertex
 and edge parameters in the second question.
@@ -228,7 +228,7 @@ literal sufficiently-large-$d$ claim. For example, $s=3$ gives $d=6$,
 $A=K_{4,12}$, and sums $13/24<29/40$ for $A$ and $K_{6,6}$,
 respectively; the general family, not this single example, supplies the
 unbounded contradiction. Both graphs are complete bipartite, so this
-correction does not disprove the catalog's broader complete-bipartite
+correction does not disprove erdosproblems.com's broader complete-bipartite
 minimizer question or the asymptotic leading constant above.
 
 <!-- BEGIN problem library links -->

@@ -81,9 +81,9 @@ https://www.erdosproblems.com/522.
 `{0,1}` variant have been tagged `research solved`
 since 2026-09-28 (pull request 6608), linking Kitamura's Lean proof of both
 statements and, since 2026-09-29, two revisions of Kawada's repository; the
-catalog links, it does not referee. The two developments are recorded at
-their pinned revisions on the Kitamura and Kawada claim pages. Nothing was
-built or fidelity-audited here.
+formal-conjectures catalog links, it does not referee. The two developments are
+recorded at their pinned revisions on the Kitamura and Kawada claim pages.
+Nothing was built or fidelity-audited here.
 
 ## Current assessment
 
@@ -110,9 +110,9 @@ ones by logarithmic integrability instead and derives the answer from a
 tail bound at each fixed degree, proved through the argument principle,
 with the rate $O(n^{3/4}\sqrt{\log n})$; and Kitamura's Lean development
 (September 2026, AI-assisted), with an AI-generated proof outline in its README
-and no manuscript, which proves the catalog's statements for both coefficient
-readings and so also settles the $\{0,1\}$ reading. The fifth is a Lean
-development credited to Colin Snyder of Star Fleet Math, hosted in the
+and no manuscript, which proves the formal-conjectures statements for both
+coefficient readings and so also settles the $\{0,1\}$ reading. The fifth is a
+Lean development credited to Colin Snyder of Star Fleet Math, hosted in the
 lean-proofs repository on 2026-07-23 with no write-up and announced nowhere on
 the site, whose final theorem is derived from a moment bound for radial cosine
 sums and whose route this wiki does not trace beyond its section names. Letwin

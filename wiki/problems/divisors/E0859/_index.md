@@ -75,12 +75,12 @@ Problem #859, https://www.erdosproblems.com/859, accessed 2026-10-07.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/859.lean)
-at the catalog's commit of 18 September 2026, where the theorem `erdos_859` is
-marked research open with proof `sorry`, beside a proved trivial variant and
-two `sorry` variants (Erdős's two-sided bounds and the positive density of
-each set). The disproof is the Lean file of the Conjectures.io record, linked
-from the claim page; that site's kernel checked it, and this corpus rebuilt it
-and replayed it in the kernel.
+at the formal-conjectures commit of 18 September 2026, where the theorem
+`erdos_859` is marked research open with proof `sorry`, beside a proved trivial
+variant and two `sorry` variants (Erdős's two-sided bounds and the positive
+density of each set). The disproof is the Lean file of the Conjectures.io
+record, linked from the claim page; that site's kernel checked it, and this
+corpus rebuilt it and replayed it in the kernel.
 
 ## Current assessment
 
@@ -119,15 +119,15 @@ own ends without explaining its proofs or engaging with the mathematical
 community, and that the program is not transparent about who runs the problems
 through an AI system, for how long, or with which one. Which AI system, if any,
 generated the proof is therefore not disclosed. The formal-conjectures statement
-file, at the catalog's commit of 18 September 2026 linked above, marks the
-statement research open with proof `sorry`. In September 2026 the site's problem
-page badge said the bounty was paid while the record page said it was pending;
-by 2026-10-07 the record shows the bounty as paid, with the certification dated
-23 September 2026.
+file, at the formal-conjectures commit of 18 September 2026 linked above, marks
+the statement research open with proof `sorry`. In September 2026 the site's
+problem page badge said the bounty was paid while the record page said it was
+pending; by 2026-10-07 the record shows the bounty as paid, with the
+certification dated 23 September 2026.
 
 **A Lean contribution that is not a claim.** The file the curator's forum
 entry links, a contribution of 1 September 2026 in the Conjectures.io
-contribution repository, is a 262-line proof of the catalog's variant
+contribution repository, is a 262-line proof of the formal-conjectures variant
 `erdos_859.variants.positive_density`: for every $t$ the set of $n$ whose
 distinct divisors can sum to $t$ has positive natural density, by the
 periodicity of membership modulo $t!$. That is Erdős's own theorem in [Er70]
@@ -151,13 +151,13 @@ two estimates themselves, some 30,000 lines, are checked by the kernel replay,
 and by reading only at the level of their module structure and theorem
 statements; and no numerical check of the asymptotic regime is possible at this
 exponent. The replay also settles two limits of the reading: the statement file
-was compared on the catalog's default branch, while the replay reproduced the
-pinned commit, which the site builds from a public catalog commit and an audit
-patch, and found the target's statement identical to it; and the shared
-definitions of the density (`Set.HasDensity`) and of the target macro, which the
-reading took from how the proof unfolds them, are among the definitions the
-replay found identical to the task's. The file's seven docstrings cite the
-authors' manuscript, which was not obtained.
+was compared on the formal-conjectures default branch, while the replay
+reproduced the pinned commit, which the site builds from a public catalog commit
+and an audit patch, and found the target's statement identical to it; and the
+shared definitions of the density (`Set.HasDensity`) and of the target macro,
+which the reading took from how the proof unfolds them, are among the
+definitions the replay found identical to the task's. The file's seven
+docstrings cite the authors' manuscript, which was not obtained.
 
 <!-- BEGIN problem library links -->
 

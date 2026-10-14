@@ -202,7 +202,7 @@ configurations minimize the radius-$\sqrt2$ probability (Question 7.2,
 p. 25).
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — variants of the
-catalog question, not whether its radius-$\sqrt2$ probability is
+erdosproblems.com question, not whether its radius-$\sqrt2$ probability is
 $\gg1/n$: for odd $n$, lower bounds $c_\delta/n$ at radius $1+\delta$
 (Theorem 1.4) and $\tfrac14(0.525)^n$ at radius $1$ (Theorem 1.6), and a
 construction with probability $O(n^{-3/2})$ at radius $1$ that disproves

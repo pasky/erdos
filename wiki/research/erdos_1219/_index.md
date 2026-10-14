@@ -59,7 +59,7 @@ against page images of the held scan:
   $\chi=\sum_{\mu<\lambda}2^\mu\to(\lambda)^2_2$.
 - [[research/erdos_1219/corollary_1_3_reconstruction|Corollary 1.3]]
   (p. 1260): the case $\lambda=\aleph_\omega$, together with the proof
-  that the paper's sum over all $n$ equals the catalog's sum over the
+  that the paper's sum over all $n$ equals the erdosproblems.com sum over the
   subsequence.
 
 ## Where things stand

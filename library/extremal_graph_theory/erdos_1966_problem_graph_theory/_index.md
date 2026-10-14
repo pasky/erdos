@@ -55,7 +55,7 @@ $$
 
 The proof on pp. 219-220 uses the construction, monotonicity and a
 prime-distribution input for the lower limit, and counts pairs of neighbors
-for the upper limit. Thus the source's $\mu(n)$ is the catalog's
+for the upper limit. Thus the source's $\mu(n)$ is erdosproblems.com's
 $\operatorname{ex}(n;C_4)$, and its corollary directly supplies the leading
 asymptotic requested in [[../wiki/problems/extremal_graph_theory/E0765/_index|#765]]. It
 also gives the $r=2$ case of the $K_{r,r}$ question in

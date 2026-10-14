@@ -55,8 +55,8 @@ bipartite graph on $n$ vertices with $kn$ edges is some $K_{a,n-a}$ with
 $a(n-a)=kn$, $a\le n/2$, so $a\ge k$ and $n\ge2a$; a graph with $n$ vertices
 and $kn=a(n-a)$ edges has more than $(a-1)(n-a+1)$ edges, so the theorem with
 part size $a$ gives $s(G)\ge s(K_{a,n-a})$ with equality only for
-$K_{a,n-a}$. The literal question is therefore covered once the catalog's $k$
-passes the threshold. Nothing for small $k$.
+$K_{a,n-a}$. The literal question is therefore covered once erdosproblems.com's
+$k$ passes the threshold. Nothing for small $k$.
 
 **Depends on.** Nothing in this wiki.
 

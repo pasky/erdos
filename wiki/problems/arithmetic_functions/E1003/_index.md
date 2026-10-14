@@ -65,7 +65,7 @@ Li's separate
 [[../library/arithmetic_functions/li_2026_rank_amplification_shifted_equal_values_euler_totient_function/formalization_claim_section_1_1|Section 1.1 formalization claim]]
 asserts Lean 4 verification of the paper's results. No clone, build,
 declaration inspection, dependency audit, or axiom audit was performed
-here. The catalog's
+here. The problem's
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1003.lean)
 is likewise not proof coverage for infinitude. The unresolved mathematical
 question and the outstanding full-proof reviews remain separate.
@@ -113,9 +113,9 @@ for sufficiently large $x$. Their
 predicts at least $x^{1-\varepsilon}$ solutions for every
 $\varepsilon>0$ and sufficiently large $x$, while explicitly recording
 that infinitude was unknown. This is the direct totient source. The
-catalog bibliography's Part III reference must not be assigned Part II's
-p. 253 theorem; Part II's p. 251 unknown-infinitude sentence instead concerns
-the number of distinct prime factors.
+ Part III reference in the erdosproblems.com bibliography must not be assigned
+ Part II's p. 253 theorem; Part II's p. 251 unknown-infinitude sentence instead
+ concerns the number of distinct prime factors.
 
 Graham, Holt, and Pomerance's
 [[../library/arithmetic_functions/graham_1999_solutions_phi_n_phi_n_k/theorem_2|Theorem 2]]

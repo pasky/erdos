@@ -37,7 +37,7 @@ The explicit form proved (Section 4, display (6), p. 5): for $N=2H$ even,
 every triple-free $A\subseteq[1,2H]$ satisfies $|A|\le\tfrac54H+6$; for odd
 $N$ the set is embedded in $[1,N+1]$, "changing the desired bound only by
 $O(1)$". So the constant $C=6$ serves for even $N$ and $C=53/8$ for odd
-$N$, as the external Lean files behind the catalog's label encode
+$N$, as the external Lean files behind the erdosproblems.com label encode
 ($8|A|\le5N+53$).
 
 **Sharpness** (Section 5, p. 7). For $N=8M$ the set

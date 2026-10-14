@@ -150,13 +150,13 @@ the Known Results below.
   Mathlib `Summable` is unconditional summability (absolute
   convergence over the reals) and the rational coefficients demand a rational
   limit, so the refuted statement is a variant strictly stronger than the
-  catalog question. Conjectures.io's review classed the acceptance as a
-  formalization-defect award and states that the result must not be described
+  erdosproblems.com question. Conjectures.io's review classed the acceptance as
+  a formalization-defect award and states that the result must not be described
   as a solution or counterexample to the informal problem; formal-conjectures
   corrected the statement to convergence of the real partial sums on
-  2026-09-09 (PR #4990). Settles no part of the catalog question.
-- Companion series from [Er98] (site remarks, not the catalog question):
-  $\sum(-1)^n/(p_{n+1}-p_n)$ diverges, because the bounded gaps of
+  2026-09-09 (PR #4990). Settles no part of the erdosproblems.com question.
+- Companion series from [Er98] (site remarks, not the erdosproblems.com
+  question): $\sum(-1)^n/(p_{n+1}-p_n)$ diverges, because the bounded gaps of
   [[../library/primes/zhang_2014_bounded_gaps_between_primes/_index|Zhang 2014]] give infinitely many terms
   of absolute value at least a fixed constant (an observation the site credits
   to Weisenberg); a forum comment of 11 August 2025 sketches, assuming the

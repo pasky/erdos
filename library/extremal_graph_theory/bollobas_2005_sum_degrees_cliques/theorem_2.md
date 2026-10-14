@@ -35,7 +35,7 @@ theorem is for: every $G(n,m)$ with $m\ge t_r(n)$ contains an $r$-clique $R$
 with $\sum_{i\in R}d(i)\ge2rm/n$ (display (13)), which "is trivial for
 regular graphs" (every vertex then has degree $2m/n$, and Theorem 1(i) gives
 an $r$-clique) and holds with strict inequality otherwise by this theorem.
-In the catalog's notation, with $x_1,\dots,x_r$ the clique,
+In the erdosproblems.com notation, with $x_1,\dots,x_r$ the clique,
 $d(x_1)+\dots+d(x_r)\ge2rm/n$ whenever $m\ge t_r(n)$: the statement of
 Problem 904, proved for every $n\ge r$.
 

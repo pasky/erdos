@@ -107,5 +107,5 @@ No problem page is reached by this theorem: it is the algebraic reduction of
 a factoring algorithm and names no Erdős problem. The theorem takes the
 auxiliary primes as input and does not use
 [[number_theory/openai_2026_deterministic_polynomial_factorization_over_prime_fields/proposition_11_3|Proposition 11.3]],
-the manuscript's one contact with the catalog; that proposition bounds the
+the manuscript's one contact with Bloom's catalog; that proposition bounds the
 size of the auxiliary primes only in the proof of Theorem 1.1 (p. 46).

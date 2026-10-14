@@ -54,7 +54,7 @@ index $i<n$ and a set $X\subseteq\alpha$ with $\operatorname{otp}(X)=\beta_i$
 that is homogeneous in color $i$ under $c$. The subscript counts the colors
 and is omitted when $n=2$. When $\beta_1=\cdots=\beta_{n-1}=3$ the relation
 is written $\alpha\to(\beta_0,3,\ldots,3)^2_n$ and has $n-1$ triangle
-targets. This is the source's convention (p. 1) and the catalog's.
+targets. This is the source's convention (p. 1) and erdosproblems.com's.
 
 Two facts about the relation are used below without further comment.
 

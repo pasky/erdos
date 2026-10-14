@@ -116,10 +116,10 @@ Colin Snyder, states and claims to prove the theorem
 `Erdos130.erdos130_infinite_chromatic`: an infinite set in general position
 whose integer-distance graph has no proper coloring with any finite number of
 colors, assembled from finite rational blocks translated along a cubic curve.
-The claim page records the posting and its report, the hosting, the catalog's
-`formal_proof` link, the AI system named by the claimant's site and the absence
-of acceptance evidence. Neither claimant's Lean files were built or audited by
-this corpus.
+The claim page records the posting and its report, the hosting, the
+formal-conjectures `formal_proof` link, the AI system named by the claimant's
+site and the absence of acceptance evidence. Neither claimant's Lean files were
+built or audited by this corpus.
 
 <!-- BEGIN problem library links -->
 

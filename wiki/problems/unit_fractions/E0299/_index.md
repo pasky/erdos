@@ -76,8 +76,8 @@ which rests on the accepted claim page
 and whose acceptance
 evidence is the refereed publication of the density theorem in J. Eur.
 Math. Soc. 27 (2025). The site's curator is the theorem's author, so the
-site's label is recorded on the claim page as the catalog's label and not
-as independent review; the author's own Lean formalizations, the Lean 3
+site's label is recorded on the claim page as the erdosproblems.com label and
+not as independent review; the author's own Lean formalizations, the Lean 3
 density theorem and the Lean 4 reduction, are unbuilt here and give no
 formalized evidence. The frontmatter standing is derived from the claim
 page.

@@ -34,8 +34,8 @@ abelian square. The claim is recorded on
 [[problems/additive_combinatorics/E0192/claims/1992_07_13_keranen|its claim page]]
 with its curator and survey evidence. The label's Lean mark follows Luccioli's
 Lean proof of the full classification, posted in the site's thread in May 2026.
-The catalog links Alexeev's later file of August 2026. Both are listed on the
-claim page and were not built by this corpus.
+The formal-conjectures catalog links Alexeev's later file of August 2026. Both
+are listed on the claim page and were not built by this corpus.
 
 **Source.** [erdosproblems.com/192](https://www.erdosproblems.com/192), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #192,

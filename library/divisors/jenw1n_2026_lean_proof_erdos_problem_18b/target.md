@@ -38,7 +38,7 @@ with `Erdos18.practicalH n` the `Finset.sup` over `Finset.Icc 1 n` of the
 `sInf` of the sizes of divisor sets `D ⊆ n.divisors` with `m ∈ subsetSums D`
 (catalog file on `main`). The cast `↑(practicalH n.factorial)` is to the
 reals and `↑n ^ ε` is the real power; `∀ᶠ … in Filter.atTop` on `ℕ` is "for
-all sufficiently large `n`"; the `True ↔` prefix is the catalog's answer
+all sufficiently large `n`"; the `True ↔` prefix is formal-conjectures' answer
 marker filled affirmatively, so proving the iff proves the right side.
 
 ## How the file closes the target (structure only)
@@ -61,10 +61,10 @@ of the final result."
 
 ## Dependencies
 
-The catalog's `Erdos18.practicalH` and `Erdos18.factorial_isPractical`
-(proved in the catalog file) and Mathlib through the trusted challenge
-environment; axiom closure within `propext`, `Quot.sound` and
-`Classical.choice` by the site's audit.
+The formal-conjectures catalog's `Erdos18.practicalH` and
+`Erdos18.factorial_isPractical` (proved in the formal-conjectures file) and
+Mathlib through the trusted challenge environment; axiom closure within
+`propext`, `Quot.sound` and `Classical.choice` by the site's audit.
 
 ## Standing
 

@@ -17,8 +17,8 @@ updated: 2026-10-08T15:07:46Z
 Notation (printed pp. 109--110): $T_r(n)$ is the complete $r$-partite graph
 on $n$ vertices whose color classes have $\lfloor n/r\rfloor$ or
 $\lceil n/r\rceil$ vertices, $t_r(n)$ is its number of edges (in the
-catalog's notation $\mathrm{ex}(n;K_{r+1})$), $\varepsilon(H)$ is the number
-of edges of a graph $H$ and $\Delta(H)$ its maximum degree.
+erdosproblems.com notation $\mathrm{ex}(n;K_{r+1})$), $\varepsilon(H)$ is the
+number of edges of a graph $H$ and $\Delta(H)$ its maximum degree.
 
 **Theorem 2** (printed p. 110). "Let $G$ be a simple graph on $n$ vertices
 and more than $t_r(n)$ edges, where $r\ge2$, and let $v$ be a vertex in $G$

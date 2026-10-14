@@ -131,8 +131,8 @@ arithmetic.
 
 Because $A^*$ is itself an allowed real set, this yields $f(13)\le4$. It
 does not yield $f(13)=4$; $\lfloor\log_2 13\rfloor=3$, so this example does
-not refute the catalog's proposed lower bound. It settles no instance of the
-question, so it has no claim page.
+not refute erdosproblems.com's proposed lower bound. It settles no instance of
+the question, so it has no claim page.
 
 The larger searches through n=16 and window 34, the claimed OEIS identity and
 the negative literature search remain source-reported computations. Their

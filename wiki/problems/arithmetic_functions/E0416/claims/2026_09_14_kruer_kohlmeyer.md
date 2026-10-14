@@ -95,11 +95,11 @@ environment, every declaration the target `Bounty.target` depends on, Lean core,
 Mathlib and formal-conjectures included, and accepted them all. The target's
 axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and
 every definition its statement reaches, are identical to the formal-conjectures
-statement `Erdos416.erdos_416.parts.i` of the site's task, at the catalog commit
-the task pins, which the site builds from a public catalog commit and an audit
-patch and the replay reproduced exactly. That statement is the claim above,
-$V(2x)/V(x)\to2$ with `V` counting the values $1\le n\le\lfloor x\rfloor$.
-Acceptance rests on this replay and that check.
+statement `Erdos416.erdos_416.parts.i` of the site's task, at the
+formal-conjectures commit the task pins, which the site builds from a public
+catalog commit and an audit patch and the replay reproduced exactly. That
+statement is the claim above, $V(2x)/V(x)\to2$ with `V` counting the values
+$1\le n\le\lfloor x\rfloor$. Acceptance rests on this replay and that check.
 
 The bounty site Conjectures.io certified the record; the certification is
 reported, not counted. Its Lean kernel accepted the file on 14 September 2026.
@@ -114,18 +114,19 @@ certification, not a referee's report.
 
 This corpus's reading audited the target statement, as the problem page records.
 The target theorem is the formal-conjectures statement `parts.i` by `exact`, and
-the file's own `V` equals the catalog's count by `rfl`. A text scan of the file
-found no `sorry`, no axiom declaration, no `native_decide` and no `unsafe`. The
-2,776-declaration analytic body is checked by the kernel replay, not by reading.
+the file's own `V` equals the formal-conjectures catalog's count by `rfl`. A
+text scan of the file found no `sorry`, no axiom declaration, no `native_decide`
+and no `unsafe`. The 2,776-declaration analytic body is checked by the kernel
+replay, not by reading.
 
 Not refereed: no journal or arXiv version exists. The site erdosproblems.com
 lists the record as an unverified partial proof claim, posted by its maintainer
 on 2026-09-27 with an explicit non-endorsement, and labeled the problem OPEN.
 The formal-conjectures statement `parts.i` was categorized `research open` from
-the file's addition in July 2025 until 11 October 2026, when the catalog marked
-it `research solved` with a `formal_proof` link to the OpenAI release's theorem,
-not to this file
-([`416.lean` at that commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/416.lean)).
+the file's addition in July 2025 until 11 October 2026, when the
+formal-conjectures catalog marked it `research solved` with a `formal_proof`
+link to the OpenAI release's theorem, not to this file ([`416.lean` at that
+commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/416.lean)).
 A second, independent formal proof of the same limit, for every real scale
 $c>0$, is the OpenAI release's
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|accepted partial claim]].

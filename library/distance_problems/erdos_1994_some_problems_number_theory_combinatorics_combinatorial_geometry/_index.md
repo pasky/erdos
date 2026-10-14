@@ -39,7 +39,7 @@ problems and proves nothing.
 The paper is a numbered list of open problems, with prizes, in three
 sections: 1. Number theory (1.1--1.6, pp. 261--264), 2. Combinatorics
 (2.1--2.8, pp. 264--267) and 3. Combinatorial geometry (3.1--3.5, pp.
-267--269). The items the catalog pages consume:
+267--269). The items the erdosproblems.com pages consume:
 
 - 1.3 (pp. 262--263): for an infinite sequence $A$ let $f(n)$ count the
   representations $n=a_i+a_j$ and $g_A(x)$ the number of $n<x$ with

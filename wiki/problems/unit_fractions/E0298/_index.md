@@ -75,7 +75,7 @@ corpus has built none of them.
 [[problems/unit_fractions/E0298/claims/2021_12_07_bloom|Bloom's Theorem 2]],
 whose acceptance evidence is the refereed publication in J. Eur. Math.
 Soc. 27 (2025). The site's curator is the theorem's author, so the site's
-label is recorded on the claim page as the catalog's label and not as
+label is recorded on the claim page as the erdosproblems.com label and not as
 independent review; the author's own Lean 3 formalization is a link on
 that page and, unbuilt here, gives no formalized evidence. The frontmatter
 standing is derived from the claim page. Liu and Sawhney's sharper

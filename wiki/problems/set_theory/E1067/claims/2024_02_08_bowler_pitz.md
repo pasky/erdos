@@ -100,4 +100,4 @@ refutes the problem's subgraph form as well: an infinitely connected
 subgraph $H$ of chromatic number $\aleph_1$ would make the induced subgraph
 on $V(H)$, which contains $H$, infinitely connected with no countable
 coloring. The development was not built or audited here, so the page lists
-no `formalized` evidence; the Lean suffix is the catalog's label.
+no `formalized` evidence; the Lean suffix is the erdosproblems.com label.

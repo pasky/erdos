@@ -55,8 +55,8 @@ in this folder are v3 pages.
 Both PDFs are titled *On the reverse Littlewood–Offord problem of Erdős*.
 The arXiv landing record, as captured on 2026-09-05, titles the paper
 *The Reverse Littlewood–Offord problem of Erdős* and carries an abstract
-that differs from the PDF's; the catalog page and the later papers below
-cite the record title. Both are identities of this one source.
+that differs from the PDF's; the erdosproblems.com page and the later papers
+below cite the record title. Both are identities of this one source.
 
 Read status: claims checked for Theorem 1.1 on the page images, with its
 printed proof (pp. 3–13) read clause by clause; the result page records

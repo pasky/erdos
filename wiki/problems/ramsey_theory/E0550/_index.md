@@ -146,10 +146,10 @@ On 2026-10-05 the community database recorded `formal_status` Lean
 is tagged `research solved`, cites Li 2026, and has its `formal_proof` pointing
 to a port of Li's formalization in Boris Alexeev's repository
 (`Erdos550/Main.lean`); the pull request (6080) reports a rebuild with the
-standard axioms and a bridge proof to the catalog's statement. The port's header
-names Eric Li, Aristotle, OpenAI ChatGPT and OpenAI Codex. Both Lean
-developments are linked on the claim page. Nothing was built or fidelity-audited
-here.
+standard axioms and a bridge proof to the formal-conjectures statement. The
+port's header names Eric Li, Aristotle, OpenAI ChatGPT and OpenAI Codex. Both
+Lean developments are linked on the claim page. Nothing was built or
+fidelity-audited here.
 
 ## Current assessment
 

@@ -60,7 +60,7 @@ to be irrational but does not prove (problem 269).
 
 Passages on printed p. 102 (physical PDF p. 1), read on the page image. The
 paper writes $\delta_k(n)$ for the sum of the $k$-th powers of the divisors
-of $n$ (the $\sigma_k$ of the catalog) and $\delta=\delta_1$.
+of $n$ (the $\sigma_k$ of Bloom's catalog) and $\delta=\delta_1$.
 
 - With $\nu(n)$ the number of distinct prime factors of $n$ and
   $\varphi(n)$ Euler's function, the problems are posed in these words:

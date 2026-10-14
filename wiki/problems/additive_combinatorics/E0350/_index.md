@@ -58,9 +58,9 @@ monograph.
 The label's Lean mark dates from Alexeev's Lean file of 25 November 2025. The
 formal-conjectures statement carries `formal_proof` attributes pointing to two
 external Lean files. One is Alexeev's, whose header credits the original proof
-to Ryavec. The other is a fork's proof, added in April 2026 under the catalog's
-docstring. Both are described below, and neither is Lean this corpus built. The
-claim pages are
+to Ryavec. The other is a fork's proof, added in April 2026 under the
+formal-conjectures docstring. Both are described below, and neither is Lean this
+corpus built. The claim pages are
 [[problems/additive_combinatorics/E0350/claims/1974_04_01_benkoski_erdos|Benkoski and Erdős]]
 and
 [[problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger|Hanson, Steele and Stenger]].
@@ -229,14 +229,14 @@ and neither built by this corpus.
   `sorry`, no `axiom` declaration, no `native_decide` and no `#print
   axioms` line.
 - `XC0R/formal-conjectures` at its fixed commit of 13 April 2026 (the
-  commit the catalog's attribute and the claim page's link pin),
+  commit the formal-conjectures attribute and the claim page's link pin),
   `FormalConjectures/ErdosProblems/350.lean` (16,626 bytes, 337 lines): a
   fork of the collection's file in which `erdos_350` (line 226) is proved
   in place from three private lemmas, `partial_sum_ge_pow` (the same
   $2^k-1$ count), `abel_partial_sum_bound` and
   `sum_inv_le_of_partial_sum_ge` (an Abel-summation comparison), followed
   by the geometric series $\sum_{i<N}2^{-i}<2$; the file carries the
-  catalog's docstring unchanged, Alexeev credit included; the
+  formal-conjectures docstring unchanged, Alexeev credit included; the
   only `sorry` in the file is the `strengthening` variant (line 335), and
   there is no `axiom` declaration.
 
@@ -246,8 +246,8 @@ reciprocal sum is at most $\sum_{i<n}2^{-i}$), not Ryavec's product and
 integral argument; no statement-fidelity review of either exists, and
 neither is Lean this corpus built, so no `formalized` evidence is listed.
 Alexeev's file declares itself a formalization of a solution whose
-original human proof is Ryavec's, and the fork proves the catalog's
-statement in place under the catalog's docstring, which credits Ryavec,
+original human proof is Ryavec's, and the fork proves the formal-conjectures
+statement in place under the formal-conjectures docstring, which credits Ryavec,
 so both are recorded as formalization links on
 [[problems/additive_combinatorics/E0350/claims/1974_04_01_benkoski_erdos|the Benkoski--Erdős page]]
 rather than as claims of their own. The site's thread attributes the first

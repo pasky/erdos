@@ -90,7 +90,7 @@ declarations.
 **Formalization (the repository's own account, not replayed).** Lean
 4.27.0 with pinned Mathlib; final theorems `Dyadic354.erdos354_part_i`
 and `Dyadic354.erdos354_strong_completeness`; an extracted-definition
-adapter reproduces the catalog's definitions (`FloorMultiples`,
+adapter reproduces formal-conjectures' definitions (`FloorMultiples`,
 `FloorMultiples.interleave`, `subseqSums'`, `IsAddCompleteNatSeq'`,
 `IsAddComplete`, `IsAddStronglyComplete`) from formal-conjectures revision
 `a748dd915c908b21c4d864abf239f61049fa9d96` and proves

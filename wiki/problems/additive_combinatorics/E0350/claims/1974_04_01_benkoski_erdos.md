@@ -94,23 +94,24 @@ $2^k-1$, so the reciprocal sum is at most $\sum_{i<n}2^{-i}<2$.
   `abel_partial_sum_bound` and `sum_inv_le_of_partial_sum_ge` (an
   Abel-summation comparison), followed
   by the geometric bound; the theorem's docstring, inherited from the
-  catalog, credits the result to Ryavec. The only `sorry` in the file is the
-  Hanson--Steele--Stenger variant `erdos_350.variants.strengthening`, and
-  the file declares no axiom. Its author is known only by the GitHub login,
-  and no other posting of the proof is known. The fork is recorded as a
-  formalization of the credited result rather than as a claim of its own
-  because it proves the catalog's statement in place, and that statement's
-  docstring credits the result to Ryavec; the file names no author of its
-  own, human or AI, and presents no proof as a new solution.
+  formal-conjectures catalog, credits the result to Ryavec. The only `sorry` in
+  the file is the Hanson--Steele--Stenger variant
+  `erdos_350.variants.strengthening`, and the file declares no axiom. Its author
+  is known only by the GitHub login, and no other posting of the proof is known.
+  The fork is recorded as a formalization of the credited result rather than as
+  a claim of its own because it proves the formal-conjectures statement in
+  place, and that statement's docstring credits the result to Ryavec; the file
+  names no author of its own, human or AI, and presents no proof as a new
+  solution.
 
-The catalog's statement file for the problem (linked above at its commit
-of 2026-09-18; category `research solved`, `sorry` body) carries
+The formal-conjectures statement file for the problem (linked above at its
+commit of 2026-09-18; category `research solved`, `sorry` body) carries
 `formal_proof` attributes naming the first file on the `main` branch and
 the second at the linked commit, and its docstring says that the problem
 was formalized in Lean by Alexeev using Aristotle. The community database
 lists the problem as proved in Lean, its entry last updated on 25 November
-2025, the day Alexeev announced the file; the catalog added the fork's
-proof in April 2026. Only the linked commits of the two files are
+2025, the day Alexeev announced the file; the formal-conjectures catalog added
+the fork's proof in April 2026. Only the linked commits of the two files are
 described. No `formalized` evidence is listed: that evidence means Lean
 this corpus built and audited, and no statement-fidelity review of either
 file exists.
@@ -125,6 +126,6 @@ proved in his surveys of 1975 (p. 302) and 1977 (p. 52) and, with Graham, in the
 1980 monograph (p. 60). These are an author's restatements. They are context,
 not independent review. The site's Lean mark dates from Alexeev's file of 25
 November 2025, the first of the two external Lean developments above. The fork's
-proof entered the catalog in April 2026. The stronger Dirichlet-series bound of
-Hanson, Steele and Stenger has
+proof entered the formal-conjectures catalog in April 2026. The stronger
+Dirichlet-series bound of Hanson, Steele and Stenger has
 [[problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger|its own page]].

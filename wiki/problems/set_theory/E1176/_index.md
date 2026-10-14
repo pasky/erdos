@@ -56,7 +56,7 @@ Bloom, Erdős Problem #1176, https://www.erdosproblems.com/1176.
 - [So15] Soukup, Dániel T., Open problems around uncountable graphs.
   Workshop handout, Independence Results in Mathematics and Challenges in
   Iterated Forcing, University of East Anglia, November 2015; §6,
-  Conjecture 6.1, which states the conjecture in the catalog's form
+  Conjecture 6.1, which states the conjecture in the erdosproblems.com form
   (attributed there to Erdős and Hajnal) and records that it holds
   consistently, adding a single Cohen real sufficing, citing [HaKo03]. A
   secondary source. Library home:
@@ -86,20 +86,20 @@ than $\kappa$ classes has a class containing an edge of every edge class. The
 site's label, NOT DISPROVABLE, records the consistency of the statement,
 credited to Hajnal and Komjáth by the site and by the problem's source [Va99];
 the written source is [HaKo03], whose abstract states the conjecture in the
-catalog's form and announces partial results, variants and consistency results
-concerning it. The scope and the model of the consistency theorem are recorded
-from the secondary source [So15], a workshop handout whose Conjecture 6.1 is the
-catalog's conjecture for every graph of chromatic number $\aleph_1$ and which
-records that it holds consistently, that adding a single Cohen real suffices,
-and that the result is [HaKo03]. The claim page is accepted on the refereed
-publication and the curator's label and credit, with scope partial: it shows
-that ZFC does not refute the statement, one side of an independence result.
-Whether the statement is a theorem of ZFC is open, so the problem is open, and
-the page departs from the site's label because one side alone leaves the
-question open. Search scope: the site's problem page, discussion thread and
-proof-claims tab; the community database's entry 1176; the formal-conjectures
-file; the publisher's record of [HaKo03]; §6 of [So15]; §6 of [ErGaHa75];
-item 7.93 of [Va99]. Not searched: arXiv, zbMATH, MathSciNet and X.
+erdosproblems.com form and announces partial results, variants and consistency
+results concerning it. The scope and the model of the consistency theorem are
+recorded from the secondary source [So15], a workshop handout whose Conjecture
+6.1 is the erdosproblems.com conjecture for every graph of chromatic number
+$\aleph_1$ and which records that it holds consistently, that adding a single
+Cohen real suffices, and that the result is [HaKo03]. The claim page is accepted
+on the refereed publication and the curator's label and credit, with scope
+partial: it shows that ZFC does not refute the statement, one side of an
+independence result. Whether the statement is a theorem of ZFC is open, so the
+problem is open, and the page departs from the site's label because one side
+alone leaves the question open. Search scope: the site's problem page,
+discussion thread and proof-claims tab; the community database's entry 1176; the
+formal-conjectures file; the publisher's record of [HaKo03]; §6 of [So15]; §6 of
+[ErGaHa75]; item 7.93 of [Va99]. Not searched: arXiv, zbMATH, MathSciNet and X.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

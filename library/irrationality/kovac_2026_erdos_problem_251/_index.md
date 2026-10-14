@@ -38,11 +38,11 @@ no copyright, license or terms of use; the term is unstated.
 $p_n$ is the $n$-th prime and $(g_n)_{n\ge1}$ is a sequence of integers
 with $g_n\ge2$ and $g_n=o(p_n)$, then $\sum_{n=1}^{\infty}p_n/(g_1\cdots g_n)$
 must be irrational. In fact, we construct such a sequence for which the
-sum is exactly 1." This is the auxiliary statement that the catalog page
-of [[../wiki/problems/irrationality/E0251/_index|Problem 251]] attributes to
-Erdős's 1988 survey, whose p. 103 reads: "It seems reasonable to expect
-that if $g_n\ge2$, $g_n/p_n\to0$ then $\sum_{n=1}^{\infty}p_n/g_1\ldots g_n$
-(2) is irrational"; the survey is filed as
+sum is exactly 1." This is the auxiliary statement that the erdosproblems.com
+page of [[../wiki/problems/irrationality/E0251/_index|Problem 251]] attributes
+to Erdős's 1988 survey, whose p. 103 reads: "It seems reasonable to expect that
+if $g_n\ge2$, $g_n/p_n\to0$ then $\sum_{n=1}^{\infty}p_n/g_1\ldots g_n$ (2) is
+irrational"; the survey is filed as
 [[irrationality/erdos_1988_irrationality_certain_series_problems_results/_index|erdos_1988_irrationality_certain_series_problems_results]].
 The problem itself, the constant sequence $g_n=2$, is not touched: the
 construction produces one particular sequence with sum $1$.
@@ -50,9 +50,9 @@ construction produces one particular sequence with sum $1$.
 carries the statement and a proof sketch.
 
 **Provenance and standing.** The note was announced in the author's
-comment on the catalog's discussion thread at 11:13 on 15 April 2026 (site
-clock), which links a ChatGPT conversation and says: "I got ChatGPT 5.4 Pro
-figure out the proof and write up the details with only minimal
+comment on the erdosproblems.com discussion thread at 11:13 on 15 April 2026
+(site clock), which links a ChatGPT conversation and says: "I got ChatGPT 5.4
+Pro figure out the proof and write up the details with only minimal
 orchestration from my side." A reply by another participant the same day
 (17:06) reports "I ran standard check which found no issues" with a link
 to another ChatGPT conversation, and remarks that the argument gives more
@@ -60,7 +60,7 @@ than $g_n=o(p_n)$; that is a forum remark about an AI-run check, not a
 review. The community database's "AI contributions" wiki lists the note as
 "[251] | GPT-5.4 Pro | 15 Apr, 2026 | Solution to variant problem", a
 listing, not acceptance.
-The catalog page's text was unchanged on 2026-09-17. Standing here:
+The erdosproblems.com page's text was unchanged on 2026-09-17. Standing here:
 **claimed, elementary, non-refereed; no independent review is filed**. The
 problem page therefore describes the auxiliary statement as having a
 claimed counterexample, not as disproved. The discussion record is filed

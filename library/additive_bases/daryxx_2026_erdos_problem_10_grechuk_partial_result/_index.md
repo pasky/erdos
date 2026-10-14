@@ -49,9 +49,9 @@ powers of $2$, the exponent $0$ and repeated exponents allowed; this is the
 formal-conjectures definition `Erdos10.sumPrimeAndTwoPows k`. The result is
 that the even numbers outside $S_3$ form an infinite set, the exact Lean
 statement `Set.Infinite ({n : ℕ | Even n} \ Erdos10.sumPrimeAndTwoPows 3)`,
-which is the catalog's `Erdos10.erdos_10.variants.grechuk`. The write-up says
-in its first paragraph that this does not resolve the main question, whether
-one fixed number of powers of $2$ suffices for every sufficiently large
+which is formal-conjectures' `Erdos10.erdos_10.variants.grechuk`. The write-up
+says in its first paragraph that this does not resolve the main question,
+whether one fixed number of powers of $2$ suffices for every sufficiently large
 integer.
 
 The argument is a parity bridge from Crocker's construction
@@ -103,7 +103,7 @@ proof; the bundled pieces carry their own digests in comments.
 - formal-conjectures marks `erdos_10.variants.grechuk` `research solved` since
   its commit of 2026-09-14 (PR #5998), citing this gist as its
   `formal_proof`; this is catalog agreement with the variant, not with the
-  question, which the catalog keeps research open.
+  question, which formal-conjectures keeps research open.
 - erdosproblems.com lists one partial proof claim for Problem 10, submitted
   2026-08-07 10:33:54, linking this gist as both its proof and its
   formalization; the claim's summary says it is not a solution of the main

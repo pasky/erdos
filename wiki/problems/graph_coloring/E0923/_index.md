@@ -57,11 +57,11 @@ Rödl [Ro77] proved it in a refereed paper, and the site's curator credits that
 proof, so the one claim page is accepted on `reviewed` and `refereed` evidence
 and the frontmatter derives from it. The Lean formalizations of Rödl's theorem
 posted by Parcly Taxel on 20 and 21 April 2026, and the copy in Boris Alexeev's
-repository that the catalog cites, are links on the claim page; this corpus has
-not built any of them, so no `formalized` evidence is listed. The paper is not
-held in the library, and no proof coverage beyond the Crossref record of its
-statement is assessed. As of 2026-10-07 the problem's thread records no other
-claim.
+repository that the formal-conjectures catalog cites, are links on the claim
+page; this corpus has not built any of them, so no `formalized` evidence is
+listed. The paper is not held in the library, and no proof coverage beyond the
+Crossref record of its statement is assessed. As of 2026-10-07 the problem's
+thread records no other claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

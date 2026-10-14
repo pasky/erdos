@@ -17,7 +17,7 @@ updated: 2026-10-08T01:29:58Z
 Definition 1 (printed pp. 379--380 = PDF pp. 3--4, page images): "$G_n$
 [sic] is $d$-regular, if
 $d\min_{x\in G^n}\sigma(x)\ge\max_{x\in G^n}\sigma(x)$ ($d\ge1$)", where
-$\sigma(x)$ is the valency of $x$ (p. 377). This is the catalog's
+$\sigma(x)$ is the valency of $x$ (p. 377). This is erdosproblems.com's
 $D$-balanced or $D$-almost-regular graph; the paper's word "$d$-regular"
 does not mean regular of degree $d$.
 

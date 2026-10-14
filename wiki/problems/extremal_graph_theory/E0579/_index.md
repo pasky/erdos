@@ -97,11 +97,11 @@ required for this task. That certification is reported, not counted. No refereed
 publication, no erdosproblems.com acceptance and no formal-conjectures catalog
 agreement was found. On 2026-10-06 erdosproblems.com labeled the problem OPEN
 with no proof claim and the commentary summarized under Source, and the
-catalog's default branch left the answer open (Formalization below). The proof
-file (810,011 bytes, 18,336 lines, its dependencies bundled as source) has a
-target, a pinned-statement definition and final theorems consistent with the
-site's statement. It contains no `sorry`, `axiom`, `native_decide`, `unsafe` or
-`set_option`. Acceptance rests on this corpus's rebuild of the file on the
+formal-conjectures default branch left the answer open (Formalization below).
+The proof file (810,011 bytes, 18,336 lines, its dependencies bundled as source)
+has a target, a pinned-statement definition and final theorems consistent with
+the site's statement. It contains no `sorry`, `axiom`, `native_decide`, `unsafe`
+or `set_option`. Acceptance rests on this corpus's rebuild of the file on the
 repository's pinned toolchain (Lean v4.34.1), after two lemma renames, its
 kernel replay of everything the target depends on with only the standard axioms,
 and its check of the target against the Statement, as the claim page records.
@@ -188,7 +188,7 @@ not octahedron-free. The community database (teorth/erdosproblems, fetched
 2026-09-18) records the problem open (last update 31 August 2025), the statement
 formalized (last update 2 July 2026), `formal_status` unformalized and no
 formal-proof URL; the site's indicator shows the statement as formalized. On
-2026-10-06 the catalog's default branch carried the statement with
+2026-10-06 the formal-conjectures default branch carried the statement with
 `answer(sorry)` under `research open`, while the bounty site's certified record
 (Status above) proves its negation.
 

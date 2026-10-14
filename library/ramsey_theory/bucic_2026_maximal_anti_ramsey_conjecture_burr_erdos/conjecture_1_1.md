@@ -4,7 +4,8 @@ title: "Conjecture 1.1: f(n,⌊n²/4⌋+1,C_{2k+1}) = n²/8 + o(n²) for every k
 desc: |
   The Burr–Erdős–Graham–Sós conjecture as the 2026 paper states it, with its
   attribution to the 1989 paper, to Erdős's 1991 problem collection and to
-  the catalog entry, and the trichotomy for C_3, C_5 and longer odd cycles.
+  the erdosproblems.com entry, and the trichotomy for C_3, C_5 and longer odd
+  cycles.
 created: 2026-09-18T11:30:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -30,13 +31,13 @@ $\lfloor n/2\rfloor+3$ for $C_5$ and large $n$ (Erdős and Simonovits, "see
 [6]"), and at least $cn^2$, for some constant $c>0$, for odd cycles of length
 at least $7$ (Burr, Erdős, Graham and Sós [6]); the search for the leading
 constant led [6] to the conjecture, which the paper says Erdős reiterated in a
-problem collection [8] and which is Problem #809 of the catalog [3]. In the
+problem collection [8] and which is Problem #809 of Bloom's catalog [3]. In the
 reference list (pp. 11–12), [6] is Burr, Erdős, Graham and Sós, J. Graph Theory
 13 (1989), 263–282; [8] is Erdős, Problems and results in combinatorial
 analysis and combinatorial number theory, Graph theory, combinatorics, and
-applications, 1 (Kalamazoo, MI, 1988) (1991), 397–406; [3] is the catalog page
-of Problem 809, accessed 2026-03-19. The paper then says "We prove this
-conjecture for all $k\ge4$."
+applications, 1 (Kalamazoo, MI, 1988) (1991), 397–406; [3] is the
+erdosproblems.com page of Problem 809, accessed 2026-03-19. The paper then says
+"We prove this conjecture for all $k\ge4$."
 
 **Source.** M. Bucić, K. Chen and J. Ma, *On a maximal anti-Ramsey
 conjecture of Burr, Erdős, Graham, and Sós*, arXiv:2603.18952v1 (19 March

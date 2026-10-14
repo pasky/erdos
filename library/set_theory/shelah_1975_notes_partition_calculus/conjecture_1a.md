@@ -66,4 +66,5 @@ Corollary 1.3.
 
 - [[../wiki/problems/set_theory/E1219/_index|Problem 1219]]: the stronger three-dimensional
   question the site records as open after Komjáth; it is not part of the
-  catalog question, whose two-dimensional relation Corollary 1.3 proves.
+  erdosproblems.com question, whose two-dimensional relation Corollary 1.3
+  proves.
