@@ -42,24 +42,25 @@ the formal-conjectures statement as it stood from 2026-04-17 to 2026-09-09,
 `True ↔ Summable (fun k : ℕ => (-1 : ℚ) ^ (k + 1) * (k + 1) / (k.nth
 Nat.Prime))`. Its record is `f8fbf2ed-4ae2-49ab-b0b0-f2f7924af6b4`
 ([solution](https://conjectures.io/results/f8fbf2ed-4ae2-49ab-b0b0-f2f7924af6b4/solution),
-accessed 2026-09-28). The file was kernel verified 5 August 2026 and was
-certified 6 August 2026. The review outcome was a formalization-defect award
-under Conjectures.io's policy v1. The decision file is dated 2026-08-05, and
-Conjectures.io displays the decision as made 25 August 2026. That statement is
-not the site's question. Mathlib's `Summable` is unconditional summability,
-which over the reals is equivalent to absolute convergence, and its rational
-coefficients demand a rational limit. So the file refutes the
-absolute-convergence variant ($\sum n/p_n$ diverges since $n/p_n\sim 1/\log n$)
-and says nothing about the partial sums. Conjectures.io's review records that
-the result does not settle the informal Erdős problem. Conjectures.io withdrew
-the problem from its pool on 5 August 2026 pending a corrected statement. On 9
-September 2026 formal-conjectures restated the theorem as convergence of the
-real partial sums (PR #4990), and it keeps the theorem open. No proof claim on
-erdosproblems.com, no refereed resolution and no other candidate was found. The
-Conjectures.io submission has no claim page of its own. Its submitter is
-pseudonymous on Conjectures.io, and Conjectures.io's own decision classes it as
-the refutation of a defective formal task that settles nothing about the
-problem.
+accessed 2026-09-28;
+[Lean file](https://conjectures.io/results/f8fbf2ed-4ae2-49ab-b0b0-f2f7924af6b4/solution/download)).
+The file was kernel verified 5 August 2026 and was certified 6 August 2026. The
+review outcome was a formalization-defect award under Conjectures.io's policy
+v1. The decision file is dated 2026-08-05, and Conjectures.io displays the
+decision as made 25 August 2026. That statement is not the site's question.
+Mathlib's `Summable` is unconditional summability, which over the reals is
+equivalent to absolute convergence, and its rational coefficients demand a
+rational limit. So the file refutes the absolute-convergence variant
+($\sum n/p_n$ diverges since $n/p_n\sim 1/\log n$) and says nothing about the
+partial sums. Conjectures.io's review records that the result does not settle
+the informal Erdős problem. Conjectures.io withdrew the problem from its pool on
+5 August 2026 pending a corrected statement. On 9 September 2026
+formal-conjectures restated the theorem as convergence of the real partial sums
+(PR #4990), and it keeps the theorem open. No proof claim on erdosproblems.com,
+no refereed resolution and no other candidate was found. The Conjectures.io
+submission has no claim page of its own. Its submitter is pseudonymous on
+Conjectures.io, and Conjectures.io's own decision classes it as the refutation
+of a defective formal task that settles nothing about the problem.
 
 **Source.** [erdosproblems.com/15](https://www.erdosproblems.com/15), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #15,

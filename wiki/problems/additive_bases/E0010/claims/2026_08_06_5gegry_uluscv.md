@@ -20,6 +20,9 @@ links:
 - url: https://conjectures.io/results/244ff2d0-399d-4e37-a307-4ff6f3cb3493/solution
   kind: formalization
   date: 2026-08-06
+- url: https://conjectures.io/results/244ff2d0-399d-4e37-a307-4ff6f3cb3493/solution/download
+  kind: formalization
+  date: 2026-08-06
 created: 2026-10-07T10:51:47Z
 updated: 2026-10-07T22:51:53Z
 ---

@@ -32,7 +32,10 @@ $>r$?
 **Status.** Proved. This departs from the site's label OPEN, whose notes say
 that the case $k=4$ is open even for $r=1$. The Lean proof of Kruer and
 Kohlmeyer answers the question for every $k\geq4$ and $r\geq1$. Conjectures.io
-certified it on 16 September 2026. The standing derives from the
+certified it on 16 September 2026; that certification is reported, not counted.
+Acceptance rests on this corpus's rebuild and kernel replay of the file on the
+repository's pinned toolchain (Lean v4.34.1) and on a check of its target
+against the Statement. The standing derives from the
 [[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]].
 
 **Source.** [erdosproblems.com/944](https://www.erdosproblems.com/944), accessed
@@ -65,25 +68,24 @@ This corpus has not built that file.
 
 ## Current assessment
 
-The site's formulation asks whether for every $k\ge4$ and
-$r\ge1$ some graph with chromatic number $k$ has every vertex critical while
-every critical set of edges has more than $r$ edges. The answer is yes for
-every such $k$ and $r$: a Lean 4 proof by Liam Kruer and Jensen Kohlmeyer,
-certified by the bounty site Conjectures.io on 16 September 2026, proves the
-catalog statement of the problem for every such $k$ and $r$, and the
-frontmatter derives its standing from that acceptance through the
+The site's formulation asks whether for every $k\ge4$ and $r\ge1$ some graph
+with chromatic number $k$ has every vertex critical while every critical set of
+edges has more than $r$ edges. The answer is yes for every such $k$ and $r$: a
+Lean 4 proof by Liam Kruer and Jensen Kohlmeyer, certified by the bounty site
+Conjectures.io on 16 September 2026, proves the catalog statement of the problem
+for every such $k$ and $r$, and the frontmatter derives its standing through the
 [[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]],
-which records the theorem, the site's verification and review, and what this
-corpus has checked of the file. The proof treats $k=4$, $k=5$ and $k\ge6$
-through one bridge lemma; its $k\ge5$ witnesses follow the circulant
-construction of [SkSt25], which it credits, and its $k=4$ witness is a new
-graph on $\mathbb{Z}/n$, a circulant augmented by Andrásfai-type graphs
-inserted along $3t+1$ unit directions. Its $k=4$ witnesses also cover $r=1$,
-the case of Dirac's 1970 conjecture first proved in Lean by Chan and by
-Kitamura; what is new is $k=4$ for every $r\ge2$. The acceptance is the
-site's alone: this corpus has not built the file, no refereed publication
-exists, and neither erdosproblems.com nor the
-formal-conjectures catalog recorded the result.
+which records the theorem, this corpus's kernel replay and Statement check on
+which the acceptance rests, and the site's verification and review. The proof
+treats $k=4$, $k=5$ and $k\ge6$ through one bridge lemma; its $k\ge5$ witnesses
+follow the circulant construction of [SkSt25], which it credits, and its $k=4$
+witness is a new graph on $\mathbb{Z}/n$, a circulant augmented by
+Andrásfai-type graphs inserted along $3t+1$ unit directions. Its $k=4$ witnesses
+also cover $r=1$, the case of Dirac's 1970 conjecture first proved in Lean by
+Chan and by Kitamura; what is new is $k=4$ for every $r\ge2$. The site's
+certification is reported, not counted; no refereed publication exists, and
+neither erdosproblems.com nor the formal-conjectures catalog recorded the
+result.
 
 Two public Lean certificates of the $k=4$, $r=1$ case preceded it: Alex
 Chan's explicit $60$-vertex graph, public in its repository from 9 September
@@ -127,7 +129,7 @@ the question.
   ([[problems/graph_coloring/E0944/claims/2026_09_09_chan|Chan]],
   [[problems/graph_coloring/E0944/claims/2026_09_10_kitamura|Kitamura]]);
   Kruer and Kohlmeyer (2026) prove the question for every $k\ge4$ and $r\ge1$
-  in Lean, certified by Conjectures.io
+  in Lean, certified by Conjectures.io and replayed in the kernel here
   ([[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]]).
 <!-- BEGIN problem library links -->
 

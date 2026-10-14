@@ -51,13 +51,12 @@ a bijection exclude the constant progression. That Lean's $\mathbb{N}$ contains
 $0$ is immaterial, since shifting indices and values by one carries permutations
 to permutations and preserves progressions in both directions. The accepted file
 proves the negation of that statement from an explicit bijection with no
-monotone four-term progression. The pinned catalog revision is not public, so
-the statement was compared with the catalog's default-branch file. Agreement at
-the pin rests on the bounty site's statement-hash check. The bounty site's
-review compared the proof with the earlier literature. It found that, under its
-policy, unresolved provenance questions alone do not deny the reward. It called
-its approval a decision on eligibility for the bounty, not a guarantee of
-originality.
+monotone four-term progression. The pinned catalog revision is not public; the
+bounty site builds it from a public catalog commit and an audit patch, and this
+corpus's replay reproduced it exactly. The bounty site's review compared the
+proof with the earlier literature. It found that, under its policy, unresolved
+provenance questions alone do not deny the reward. It called its approval a
+decision on eligibility for the bounty, not a guarantee of originality.
 
 A second construction answering the question no is Ho's arXiv preprint of 11
 September 2026, with a Lean formalization by its author. It is recorded as a
@@ -67,16 +66,18 @@ The bounty site's verification of 9 September 2026 precedes it, while the first
 public postings found of the Kruer–Kohlmeyer proof are of 14 September 2026. The
 two constructions share their binary order and nested-prefix shape.
 
-The accepting body is the bounty site alone. The erdosproblems.com page kept
-the label OPEN. It lists the proof claim of Kruer and Kohlmeyer, submitted on
+The bounty site's certification is reported, not counted. Acceptance rests on
+this corpus's rebuild and kernel replay of the Lean file on the repository's
+pinned toolchain (Lean v4.34.1) and on the check of its target against the
+Statement above, as the claim page records. The erdosproblems.com page kept the
+label OPEN. It lists the proof claim of Kruer and Kohlmeyer, submitted on
 2026-09-14 with the same Lean file. The curator has not commented on that claim.
 The claim's three forum comments, by other users, post a reproduction of the
 construction and point to Ho's preprint. The formal-conjectures statement is
 tagged open on the catalog's default branch (2026-10-07). No refereed
-publication exists. The Lean files were not built by this corpus, so the kernel
-check is the bounty site's. The classical results stand: [DEGS77] shows that a
-monotone three-term progression must exist and that a monotone five-term
-progression need not.
+publication exists. Ho's Lean file was not built by this corpus. The classical
+results stand: [DEGS77] shows that a monotone three-term progression must exist
+and that a monotone five-term progression need not.
 
 **Source.** [erdosproblems.com/196](https://www.erdosproblems.com/196), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #196,

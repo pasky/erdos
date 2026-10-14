@@ -144,22 +144,26 @@ linked above postdates the fix. Under the earlier definition the bounty site
 Conjectures.io published `erdos_567.parts.i` as a task (frozen statement `True ↔
 Erdos567.Q3.IsRamseySizeLinear`; the catalog revision the site names is one of
 its own task catalog, not of formal-conjectures) and accepted a Lean refutation
-of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052; kernel verified 6 August
-2026, review decided 7 August 2026, certified 8 August 2026). The site's manual
-review classified the acceptance as a formalization-defect award: the frozen
-statement "materially differs from the intended Erdős Problem 567(i)", the proof
-"validly refutes the frozen size-Ramsey statement" but "does not settle the
-intended open problem", and the site paid its formalization-defect award instead
-of the displayed bounty; the task was withdrawn on 12 August 2026 for source
-mismatch, and the site's problems catalog listed no task for this problem on
-2026-09-27. The refutation shows that for every $c\ge1$ and all large $n$ no
-host graph with at most $c\binom n2$ edges arrows $(Q_3,K_n)$: a graph with $m$
-edges has at most $(2m)^4$ labeled copies (embeddings) of $Q_3$, each determined
-by the images of the four matching edges that change the first coordinate, and a
-weighted first moment with red probability $A/n$, summed over those copies and
-over the $n$-sets of vertices of degree at least $n-1$ that carry all $\binom
-n2$ edges, leaves mass for neither a red $Q_3$ nor a blue $K_n$. Hence $\hat
-r(Q_3,K_n)$ is superlinear in $e(K_n)$ (a consequence drawn here from the file's
+of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052,
+[solution](https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution)
+and
+[Lean file](https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution/download);
+kernel verified 6 August 2026, review decided 7 August 2026, certified 8 August
+2026). The site's manual review classified the acceptance as a
+formalization-defect award: the frozen statement "materially differs from the
+intended Erdős Problem 567(i)", the proof "validly refutes the frozen
+size-Ramsey statement" but "does not settle the intended open problem", and the
+site paid its formalization-defect award instead of the displayed bounty; the
+task was withdrawn on 12 August 2026 for source mismatch, and the site's
+problems catalog listed no task for this problem on 2026-09-27. The refutation
+shows that for every $c\ge1$ and all large $n$ no host graph with at most
+$c\binom n2$ edges arrows $(Q_3,K_n)$: a graph with $m$ edges has at most
+$(2m)^4$ labeled copies (embeddings) of $Q_3$, each determined by the images of
+the four matching edges that change the first coordinate, and a weighted first
+moment with red probability $A/n$, summed over those copies and over the
+$n$-sets of vertices of degree at least $n-1$ that carry all $\binom n2$ edges,
+leaves mass for neither a red $Q_3$ nor a blue $K_n$. Hence $\hat r(Q_3,K_n)$ is
+superlinear in $e(K_n)$ (a consequence drawn here from the file's
 `no_small_host` and `sizeRamsey_set_nonempty`; its final theorem is only the
 negation of the pre-fix `IsRamseySizeLinear Q3`). It says nothing about
 $R(Q_3,H)$, $K_{3,3}$ or $H_5$. The site's verification report records kernel
@@ -167,15 +171,16 @@ acceptance with propext, Quot.sound and Classical.choice as the only axioms, a
 static scan with no imports, axiom declarations, sorry, native_decide or unsafe
 options, and no second-kernel run. The file (759 lines, 37,650 bytes, matching
 the site's printed proof digest) has not been built here; its final theorems are
-`not_isRamseySizeLinear_Q3 : ¬ IsRamseySizeLinear Q3` (line 727), `main : ¬
-(True ↔ IsRamseySizeLinear Q3)` (line 755) and `target : ¬ (fcTypeOfName%
-"Erdos567.erdos_567.parts.i") := main` (line 759). The pinned catalog blob the
-site links was not reachable on 2026-09-27, so the frozen definition is taken
-from the diff of the fix of 9 September 2026 against its parent, and from the
-proof itself, which at line 751 rewrites `F.edgeSet.ncard = sizeRamsey Q3 (⊤ :
-SimpleGraph (Fin n))` into the `IsRamseySizeLinear` bound as a definitional
-identity, which typechecks only against the size-Ramsey definition. Statement
-only remains the standing of the catalog question.
+`not_isRamseySizeLinear_Q3 : ¬ IsRamseySizeLinear Q3` (line 727),
+`main : ¬ (True ↔ IsRamseySizeLinear Q3)` (line 755) and
+`target : ¬ (fcTypeOfName% "Erdos567.erdos_567.parts.i") := main` (line 759).
+The pinned catalog blob the site links was not reachable on 2026-09-27, so the
+frozen definition is taken from the diff of the fix of 9 September 2026 against
+its parent, and from the proof itself, which at line 751 rewrites
+`F.edgeSet.ncard = sizeRamsey Q3 (⊤ : SimpleGraph (Fin n))` into the
+`IsRamseySizeLinear` bound as a definitional identity, which typechecks only
+against the size-Ramsey definition. Statement only remains the standing of the
+catalog question.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution/download,

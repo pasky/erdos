@@ -7,7 +7,7 @@ desc: |
   asking for their density, counting function, gaps or growth, including
   covering-congruence and sieve questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T13:29:21Z
+updated: 2026-10-14T00:18:09Z
 ---
 
 # Sequences and Densities of Integers
@@ -512,8 +512,9 @@ $p>2$ has a primitive root modulo $p$ that is a prime $q<p$. The site's wording
 also includes $p=2$, where it fails.
 
 [[problems/integer_sequences/E1057/_index|E1057/]]: Asks whether the number
-$C(x)$ of Carmichael numbers up to $x$ satisfies $C(x)=x^{1-o(1)}$. A Lean proof
-submitted to a bounty site in October 2026 claims the answer yes.
+$C(x)$ of Carmichael numbers up to $x$ satisfies $C(x)=x^{1-o(1)}$. The answer
+is yes, by a Lean proof submitted to a bounty site in October 2026 and replayed
+in the kernel here.
 
 [[problems/integer_sequences/E1062/_index|E1062/]]: Asks for the size $f(n)$ of
 the largest subset of $\{1,\ldots,n\}$ in which no element divides two other

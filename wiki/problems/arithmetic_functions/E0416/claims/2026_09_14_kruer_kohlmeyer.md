@@ -22,6 +22,9 @@ links:
 - url: https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42/solution
   kind: formalization
   date: 2026-09-14
+- url: https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42/solution/download
+  kind: formalization
+  date: 2026-09-14
 - url: https://conjectures.io/papers/erdos416i.pdf
   kind: preprint
   date: 2026-09-18

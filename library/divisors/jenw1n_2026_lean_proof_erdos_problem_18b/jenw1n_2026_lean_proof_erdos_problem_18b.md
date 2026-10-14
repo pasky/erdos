@@ -40,12 +40,10 @@ Verified, Review Approved, Reward Paid; badge "certified", "Certified 17 Sept
 2026, published by conjectures.io". The run: Verified 16 Sept 2026, Certified
 17 Sept 2026, "Attacked as Prove", "Checked in 3 min 40 s", sandbox
 "landrun+seccomp", verifier
-`validator-e6c06c0a725003f5e5cedf792d49935a3cac8146`. Reward: Paid, "\$3,380
-at today's rate", "3164.2093 α locked at submission".
-The site's one-line description: "For every positive epsilon, h(n!) is
-eventually smaller than n^epsilon. This establishes the factorial target in
-part (b); it is separate from the question about general practical integers
-in part (a)."
+`validator-e6c06c0a725003f5e5cedf792d49935a3cac8146`. The site's one-line
+description: "For every positive epsilon, h(n!) is eventually smaller than
+n^epsilon. This establishes the factorial target in part (b); it is separate
+from the question about general practical integers in part (a)."
 
 **Provenance identifiers printed by the record.** Task
 `fc-8432eac9-erdos18-erdos-18b-9bd94d8707-formalized-v1`; catalog commit

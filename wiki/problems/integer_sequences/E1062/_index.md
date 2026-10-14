@@ -38,8 +38,12 @@ $\lim f(n)/n$ exists and is irrational
 ([[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|claim page]],
 accepted). The site's Lean kernel verified it on 21 September 2026. It was
 approved in review on 22 September 2026 and certified on 23 September 2026, and
-its bounty was paid. This answers the second question yes. It answers the first
-in asymptotic form: $f(n)=(l+o(1))\,n$ with $l$ irrational.
+its bounty was paid. That certification is reported, not counted; acceptance
+rests on this corpus's rebuild and kernel replay of the file on the repository's
+pinned toolchain (Lean v4.34.1) and on a check of its target against the
+Statement. The record settles the second question: the limit exists and is
+irrational. It answers the first only in asymptotic form: $f(n)=(l+o(1))\,n$
+with $l$ irrational.
 
 The site's one proof-claim entry was registered on 27 September 2026 by the
 curator, Thomas Bloom. It attributes to conjectures.io a proof that the limit
@@ -97,12 +101,13 @@ status-defining source is the Lean proof accepted by the bounty site
 Conjectures.io
 ([[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|claim page]]),
 kernel-verified on 21 September 2026, approved in review on 22 September 2026
-and certified on 23 September 2026 with its bounty paid; the site's
-certification is the outside review, and the problem's standing rests on nothing
-else. The reviewed target answers the first question in asymptotic form only;
-the exact closed formula for $f(n)$ and the value of the limit,
-$0.6729656511994\ldots$, are intermediate theorems of the accepted file, outside
-the site's statement check, and the section below states them. The
+and certified on 23 September 2026 with its bounty paid; that certification is
+reported, not counted, and the problem's standing rests on this corpus's kernel
+replay of the file and its check of the target against the Statement. The
+replayed target settles the second question exactly and answers the first in
+asymptotic form only; the exact closed formula for $f(n)$ and the value of the
+limit, $0.6729656511994\ldots$, are intermediate theorems of the accepted file,
+outside the Statement check, and the section below states them. The
 erdosproblems.com page showed OPEN, last edited 6 January 2026, with fourteen
 comments and the curator's proof-claim entry of 27 September 2026 pointing at
 that Conjectures.io solution without endorsing it; its thread carries a post of
@@ -110,8 +115,8 @@ that Conjectures.io solution without endorsing it; its thread carries a post of
 independent, unreviewed manuscript that asserts an extremal formula for $f(n)$
 and the transcendence of the limit
 ([[problems/integer_sequences/E1062/claims/2026_09_23_turturean|claim page]], a
-pending full claim). The searches found no
-refereed publication and no erdosproblems.com acceptance, and the catalog's
+pending full claim). The searches found no refereed publication and no
+erdosproblems.com acceptance, and the catalog's
 [statement file](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/1062.lean),
 at that commit, tags the irrationality clause `research open`. Davis's 2026
 paper ([[problems/integer_sequences/E1062/claims/2026_04_19_davis|claim page]],
@@ -120,8 +125,8 @@ question in asymptotic form, and leaves irrationality open; Chojecki's note of
 20 April 2026
 ([[problems/integer_sequences/E1062/claims/2026_04_20_chojecki|claim page]],
 partial) reaches the same answer independently, with an explicit error term. The
-accepted Lean file was not built here, and no independent review of it is filed
-here.
+accepted Lean file was rebuilt and replayed here, as the claim page records; no
+independent review of it is filed here.
 
 ## The accepted proof
 
@@ -175,53 +180,55 @@ Davenport's lemma), with Siegel's lemma from Mathlib as its one imported
 geometry-of-numbers input; no earlier machine-checked proof of a result of this
 depth is known to this compilation, and the site's note does not mention it.
 
-The reviewed target answers the first question only in asymptotic form,
-$f(n)=(l+o(1))\,n$ with $l$ irrational: the exact formula and the
-identification of the limit are intermediate theorems of the same file,
-compiled as part of the file the site's kernel accepted but not the subject of
-its statement check or its review, so their standing here is the site's build
-of the file together with the recomputations below. The site's review note says
-that a production run verified the submitted proof with Lean, comparator,
+The replayed target settles the second question exactly and answers the first
+only in asymptotic form, $f(n)=(l+o(1))\,n$ with $l$ irrational: the exact
+formula and the identification of the limit are intermediate theorems of the
+same file, compiled in this corpus's rebuild but not the subject of its
+Statement check or of the site's review, so their standing here is that rebuild
+together with the recomputations below. The site's review note says that a
+production run verified the submitted proof with Lean, comparator,
 statement-equality and permitted-axiom checks (the axioms `propext`,
 `Quot.sound` and `Classical.choice`; no imports, axiom declarations, `sorry`,
 `native_decide` or unsafe options; the statement unchanged), that the proof
-establishes both the convergence of $f(n)/n$ and the irrationality of its
-limit, that one Codex assessment was completed without multiple independent
-assessments or a claim of independent consensus and a human operator accepted
-the advisory recommendation, that the
-review relied on the recorded verification, integrity checks, selected proof
-interfaces and bounded prior-work searches rather than a fresh kernel replay or
-a complete line-by-line audit, and that a second kernel was not run, so the
-verdict rests on a single kernel implementation. The accepting body is the
-bounty site alone, distinct from journal refereeing.
+establishes both the convergence of $f(n)/n$ and the irrationality of its limit,
+that one Codex assessment was completed without multiple independent assessments
+or a claim of independent consensus and a human operator accepted the advisory
+recommendation, that the review relied on the recorded verification, integrity
+checks, selected proof interfaces and bounded prior-work searches rather than a
+fresh kernel replay or a complete line-by-line audit, and that a second kernel
+was not run, so the verdict rests on a single kernel implementation. That review
+is reported, not counted.
 
-The 74,209-line proof file, from the record's solution page, was not built
-here: its target, header and key declarations agree with the site's
-statement; the file contains no `sorry`, `axiom`, `native_decide`, `unsafe`,
-`implemented_by`, `opaque` or `set_option` and no import, one `theorem` (the
-target; every other proposition is a `def`), and 3,609 `decide +kernel` lines
-on finite certificates, all inside the combinatorial part; no catalog or
-Mathlib name is redefined in the file; the chain from the target back to the
-constructions is complete at the level of every statement; the exact formula was
-confirmed by brute force for every $n\le42$,
-the explicit series was summed in exact arithmetic to $0.672965651199489$, the
-closed form's ratio $f(n)/n$ was evaluated to nine digits at $n=10^9$ and agrees
-with the series, and the final exponent bookkeeping and the irrationality of
+The 74,209-line proof file, from the record's solution page, was rebuilt here on
+the pinned toolchain, after proof-only changes for lemmas and definitions that
+Mathlib renamed or removed, and the kernel replayed the whole closure of its
+target. By reading, its target, header and key declarations agree with the
+site's statement; the file contains no `sorry`, `axiom`, `native_decide`,
+`unsafe`, `implemented_by`, `opaque` or `set_option` and no import, one
+`theorem` (the target; every other proposition is a `def`), and 3,609
+`decide +kernel` lines on finite certificates, all inside the combinatorial
+part; no catalog or Mathlib name is redefined in the file; the chain from the
+target back to the constructions is complete at the level of every statement;
+the exact formula was confirmed by brute force for every $n\le42$, the explicit
+series was summed in exact arithmetic to $0.672965651199489$, the closed form's
+ratio $f(n)/n$ was evaluated to nine digits at $n=10^9$ and agrees with the
+series, and the final exponent bookkeeping and the irrationality of
 $\log4/\log3$ were re-derived by hand; the Subspace-Theorem component and the
-summability estimates are checked at statement and comment level only and
-rest on the site's single kernel, and no numerical check can reach a Roth-type
-finiteness statement; no local kernel credit is claimed. The file's header
-names no author and declares no AI system; its assembly comments say that a
-complete ordinary-kernel check and target axiom audit are still required, and
-several component comments still call the covering theorem an explicit
-hypothesis, notes written before the final component, which proves that theorem
-and closes the target without hypotheses. Two further limits: the statement
-file was compared against the catalog's default branch, and the site's own
-source-type-hash check is the evidence that the pinned statement agrees (the
-record's solution page prints its proof target under a different task id and
-catalog revision than the record's); and the shared definitions of the target
-macro and the catalog's answer marker are known only through the proof's
-unfolding of them.
+summability estimates are checked by reading at statement and comment level only
+and otherwise rest on the kernel replay, and no numerical check can reach a
+Roth-type finiteness statement. The file's header names no author and declares
+no AI system; its assembly comments say that a complete ordinary-kernel check
+and target axiom audit are still required, and several component comments still
+call the covering theorem an explicit hypothesis, notes written before the final
+component, which proves that theorem and closes the target without hypotheses.
+The replay settles two further limits of the reading: the statement file was
+compared against the catalog's default branch, while the replay reproduced the
+pinned commit, which the site builds from a public catalog commit and an audit
+patch, and found the target's statement identical to it (the record's solution
+page prints its proof target under a different task id and catalog revision than
+the record's); and the shared definitions of the target macro and the catalog's
+answer marker, which the reading knew only through the proof's unfolding of
+them, are among the definitions the replay found identical to the task's.
 
 ## Progress
 

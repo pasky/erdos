@@ -85,21 +85,18 @@ Landrun with seccomp; verifier
 `validator-428166381eba73ec1c61148f6d74866b74145563`; attribution
 conjectures.io. Review Approved, reason code `REVIEW_APPROVED`, "pursuant
 to manual-review policy v3", decided 15 September 2026. "Certified 16 Sept
-2026, published by conjectures.io". Reward Paid: 1502.2255 α "locked at
-submission", the page's dollar figure a live conversion (about \$1,600 on
-2026-09-28). The verification report: manifest valid; task commitment
-matches; production task; trusted file hashes match ("down to the same
-Formal Conjectures commit"); submission policy respected ("no imports, no
-axiom declarations, no sorry, no native_decide, no unsafe options");
-production sandbox; Challenge built ("contains no miner code"); source
-type hash matches ("the statement has not drifted upstream"); Solution
-built; "Statement unchanged" ("exactly the same canonical type as the
-task's target - it was not weakened or restated"); "Only permitted
-axioms"; "Lean kernel accepted"; "Nanoda accepted — Not run" ("This task
-does not require a second, independent kernel, so Nanoda was not run. The
-verdict rests on a single kernel implementation."). Theorem established:
-`Bounty.target`, axioms permitted `propext`, `Quot.sound`,
-`Classical.choice`.
+2026, published by conjectures.io". Reward Paid. The verification report:
+manifest valid; task commitment matches; production task; trusted file hashes
+match ("down to the same Formal Conjectures commit"); submission policy
+respected ("no imports, no axiom declarations, no sorry, no native_decide, no
+unsafe options"); production sandbox; Challenge built ("contains no miner
+code"); source type hash matches ("the statement has not drifted upstream");
+Solution built; "Statement unchanged" ("exactly the same canonical type as the
+task's target - it was not weakened or restated"); "Only permitted axioms";
+"Lean kernel accepted"; "Nanoda accepted — Not run" ("This task does not require
+a second, independent kernel, so Nanoda was not run. The verdict rests on a
+single kernel implementation."). Theorem established: `Bounty.target`, axioms
+permitted `propext`, `Quot.sound`, `Classical.choice`.
 
 **Review decision, quoted.** "The submission was accepted on 11 September
 2026 at 20:48:55.093075 UTC and proves the affirmative answer to Erdős

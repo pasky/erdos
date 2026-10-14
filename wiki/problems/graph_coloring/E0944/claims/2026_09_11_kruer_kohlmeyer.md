@@ -13,13 +13,16 @@ status: accepted
 claim: proved
 scope: full
 evidence:
-- reviewed
+- formalized
 submitted: null
 links:
 - url: https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70
   kind: record
   date: 2026-09-16
 - url: https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70/solution
+  kind: formalization
+  date: 2026-09-11
+- url: https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70/solution/download
   kind: formalization
   date: 2026-09-11
 - url: https://conjectures.io/papers/erdos944.pdf
@@ -90,12 +93,25 @@ journal publication; it states that the submission does not claim Erdős's
 quantitative form, that suitable graphs exist at every sufficiently large
 order with $r$ tending to infinity.
 
-**Acceptance.** Reviewed: the bounty site Conjectures.io holds the record
-`e7afff2c-bb07-4fa8-92b6-67a530aaad70`, attacked as Prove. It records the proof
-as Lean-verified on 11 September 2026. It records the review as approved on 15
-September 2026 under the site's manual-review policy v3, and the record as
-certified on 16 September 2026. The outcome is shown as Proved and the bounty as
-paid.
+**Acceptance.** Formalized. This corpus's verification rebuilt the record's
+solution file, unchanged, on the repository's pinned toolchain,
+`leanprover/lean4:v4.34.1` with Mathlib at the revision
+`lean/lake-manifest.json` pins. The kernel replayed, from an empty environment,
+every declaration the target `Bounty.target` depends on, Lean core, Mathlib and
+formal-conjectures included, and accepted them all. The target's axioms are
+exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and every
+definition its statement reaches, are identical to the formal-conjectures
+statement of the site's task, displayed under **The theorem.** above. There
+`IsCritical` and `IsCriticalEdges` say what the wording says, and the
+finite-graph reading rests on the finiteness of the proof's witnesses, which
+**The theorem.** records. Acceptance rests on this replay and that check.
+
+The bounty site Conjectures.io holds the record
+`e7afff2c-bb07-4fa8-92b6-67a530aaad70`, attacked as Prove; its certification is
+reported, not counted. It records the proof as Lean-verified on 11 September
+2026. It records the review as approved on 15 September 2026 under the site's
+manual-review policy v3, and the record as certified on 16 September 2026. The
+outcome is shown as Proved and the bounty as paid.
 
 The site's verification report states that its Lean kernel accepted the file
 with propext, Quot.sound and Classical.choice as the only axioms. It also states
@@ -116,9 +132,7 @@ finds them narrower. The site's exposition says that those authors retain credit
 for that case.
 
 The record names no individual reviewer. Both reviews were by Codex agents, and
-the proof file's header credits Codex with assistance in its development. The
-certifying site, not a named person, is therefore the independent party. No
-`formalized` evidence is listed, because this corpus has not built the file. No
+the proof file's header credits Codex with assistance in its development. No
 `refereed` evidence exists.
 
 As of 2026-09-18, the erdosproblems.com page (fetched 2026-09-18T16:22Z) labeled
@@ -127,23 +141,25 @@ Chan's proof claim. On that date, the formal-conjectures catalog file on its
 default branch agreed with the statement the site prints and tagged the theorem
 research open. By its commit of 21 September 2026, the catalog tags the $k=4$
 case of Dirac's conjecture research solved and keeps `erdos_944` itself tagged
-research open. The catalog commit that the site's task pins is not public.
+research open. The catalog commit that the site's task pins is not public; the
+site builds it from a public catalog commit and an audit patch, and the replay
+reproduced it exactly.
 
-**Verification record.** This corpus has not built the proof file,
+**Verification record.** Besides the replay under **Acceptance.**, this corpus
+read the proof file,
 <https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70/solution>
-(459,268 bytes, 9,535 lines, as fetched). Its final theorem is
-the one displayed above, split into the cases $k=4$, $k=5$ and $k\ge6$. The
-file contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`,
-`implemented_by`, `extern`, `partial` or `opaque`, has four `decide +kernel`
-sites on finite cases, and declares nothing that shadows the catalog's or
-Mathlib's names (it sits in its own namespace with no `open`, `instance`,
-`notation` or `_root_`). The bridge lemma holds as stated, and for the
-$k\ge5$ witnesses at small parameters the punctured colorings, recomputed in
-exact arithmetic, are proper away from the puncture. Three points rest on the
-site's kernel acceptance alone: the $k=4$ branch, whose witness is too large
-to recompute and whose reduction chain only was traced; the
-non-colorability half of the $k\ge5$ witnesses; and the two upstream
-predicates `IsCritical` and `IsCriticalEdges`, inferred from the proof's
-definitional `change` steps rather than from their own file. The corpus
-claims no kernel credit; a refereed version, erdosproblems.com acceptance or
-an independent replay would remove these qualifications.
+(459,268 bytes, 9,535 lines, as fetched). Its final theorem is the one displayed
+above, split into the cases $k=4$, $k=5$ and $k\ge6$. The file contains no
+`sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`, `implemented_by`,
+`extern`, `partial` or `opaque`, has four `decide +kernel` sites on finite
+cases, and declares nothing that shadows the catalog's or Mathlib's names (it
+sits in its own namespace with no `open`, `instance`, `notation` or `_root_`).
+The bridge lemma holds as stated, and for the $k\ge5$ witnesses at small
+parameters the punctured colorings, recomputed in exact arithmetic, are proper
+away from the puncture. Two points the reading did not reach rest on the kernel
+replay alone: the $k=4$ branch, whose witness is too large to recompute and
+whose reduction chain only was traced, and the non-colorability half of the
+$k\ge5$ witnesses. The two upstream predicates `IsCritical` and
+`IsCriticalEdges`, which the reading inferred from the proof's definitional
+`change` steps, are among the definitions the replay found identical to the
+task's.

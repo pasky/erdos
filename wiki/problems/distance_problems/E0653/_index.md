@@ -34,7 +34,10 @@ true that $g(n) \geq (1-o(1))n$?
 
 **Status.** Proved, against the site's label OPEN. The answer yes rests on a
 Lean proof certified by the bounty site Conjectures.io after its kernel check
-and review. That proof is the accepted claim on
+and review; that certification is reported, not counted. Acceptance rests on
+this corpus's rebuild of the proof on the repository's pinned toolchain (Lean
+v4.34.1), its kernel replay of everything the target depends on, and its check
+of the target against the Statement. That proof is the accepted claim on
 [[problems/distance_problems/E0653/claims/2026_09_15_gus|gus's claim page]]. The
 site has not credited it. The erdosproblems.com page labeled the problem open.
 It records the literature bounds $g(n)>\tfrac{7}{10}n$ and $g(n)<n-cn^{2/3}$.
@@ -62,13 +65,13 @@ and what the corpus did and did not check are recorded on
   [[problems/distance_problems/E0653/claims/2026_09_15_gus|the Lean construction submitted to Conjectures.io under the name gus]],
   which gives, for every $\delta>0$ and every large $n$, a set whose counts
   take at least $(1-\delta)n$ values; with $g(n)\le n$ this is
-  $g(n)=(1-o(1))n$. The only acceptance evidence is the bounty site's
-  certification of September 2026 after its kernel check and review; no
-  refereed publication, no erdosproblems.com acceptance and no catalog
-  agreement exist, and the corpus has not built the proof file, so no
-  `formalized` evidence is credited. A reported
-  fidelity defect, a kernel rejection on replay or a reversal of the
-  certification would return the problem to open.
+  $g(n)=(1-o(1))n$. The acceptance evidence is the corpus's kernel replay of
+  the proof file on the pinned toolchain and its check of the target against
+  the Statement, listed as `formalized`; the bounty site's certification of
+  September 2026 is reported, not counted. No refereed publication, no
+  erdosproblems.com acceptance and no catalog agreement exist. A reported
+  fidelity defect or a kernel rejection on replay would return the problem to
+  open.
 - **Best progress before the solution.** The site records the lower bounds
   $g(n)>\tfrac38n$ (Erdős and Fishburn) and $g(n)>\tfrac7{10}n$ (Csizmadia)
   and the upper bound $g(n)<n-cn^{2/3}$. Rafik Zeraoulia's preprint
@@ -89,8 +92,8 @@ and what the corpus did and did not check are recorded on
 - **Status search.** The site's label and proof-claims tab, the Conjectures.io
   record and the formal-conjectures catalog were read. No broader literature
   search is recorded here.
-- **Proof coverage and review.** None. The proof is a kernel-checked Lean file
-  whose statement the corpus compared with the question by reading; the
+- **Proof coverage and review.** None. The proof is a Lean file the corpus
+  replayed in the kernel, whose statement it checked against the question; the
   corpus holds no own-words proof and has commissioned no review.
 <!-- BEGIN problem library links -->
 

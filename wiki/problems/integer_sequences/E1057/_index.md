@@ -3,11 +3,11 @@ name: problems/integer_sequences/E1057
 title: Problem 1057
 desc: |
   Asks whether the number $C(x)$ of Carmichael numbers up to $x$ satisfies
-  $C(x)=x^{1-o(1)}$. A Lean proof submitted to a bounty site in October 2026
-  claims the answer yes.
+  $C(x)=x^{1-o(1)}$. The answer is yes, by a Lean proof submitted to a bounty
+  site in October 2026 and replayed in the kernel here.
 tags:
 - Number theory
-status: claimed
+status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-13T12:25:21Z
@@ -25,10 +25,14 @@ updated: 2026-10-13T12:25:21Z
 $[1,x]$. Is it true that $C(x)=x^{1-o(1)}$?
 
 **Status.** The site labeled the problem OPEN (page last edited 16 January
-2026). The derived standing is `claimed`. It comes from one pending full
-claim: a Lean proof of the affirmative answer, submitted to the bounty site
+2026). The derived standing is solved. It comes from one accepted full claim: a
+Lean proof of the affirmative answer, submitted to the bounty site
 Conjectures.io under the handle JenW1N and recorded on
 [[problems/integer_sequences/E1057/claims/2026_10_10_jenw1n|its claim page]].
+Acceptance rests on this corpus's rebuild and kernel replay of the file on the
+repository's pinned toolchain (Lean v4.34.1) and on a check of its target
+against the Statement. The bounty site approved the record but had not certified
+it when read on 13 October 2026; its approval is reported, not counted.
 
 **Source.** [erdosproblems.com/1057](https://www.erdosproblems.com/1057),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1057,
@@ -92,25 +96,25 @@ method of [AGP94] would be a new result, not one the release claims; nothing
 in either manuscript is verified in this corpus, and neither has a claim
 page.
 
-**A Lean proof of the full statement.** A Lean 4 file submitted to the
-bounty site Conjectures.io under the handle JenW1N, verified by the site's
-kernel on 10 October 2026 and approved by its review on 12 October 2026,
-claims the affirmative answer: its final theorem is the formal-conjectures
-statement that $\log C(x)/\log x\to1$, with no hypothesis left, and that
-statement is the question above with the same quantity, limit and polarity
-([[problems/integer_sequences/E1057/claims/2026_10_10_jenw1n|the claim page
-records the file, its target and what it inlines]]). It follows the method of
-[AGP94], building Carmichael numbers from primes with smooth predecessors,
-and supplies both inputs in Lean: a zero-free half-plane
-$\operatorname{Re}s>23/24$ for the nonprincipal Dirichlet $L$-functions,
-derived from the OpenAI release's Lean formalization of its zero-free
-half-plane work, and a supply of primes with smooth predecessors, which the
-file proves itself; it names neither manuscript above. The record was
-approved on 12 October 2026 but not certified when read on 13 October 2026
-(the corpus has so far recorded certified Conjectures.io records as
-`reviewed`), no refereed publication or review
-outside the bounty site exists, and this corpus has neither built nor
-replayed the file, so the claim is pending.
+**A Lean proof of the full statement.** A Lean 4 file submitted to the bounty
+site Conjectures.io under the handle JenW1N, verified by the site's kernel on 10
+October 2026 and approved by its review on 12 October 2026, proves the
+affirmative answer: its final theorem is the formal-conjectures statement that
+$\log C(x)/\log x\to1$, with no hypothesis left, and that statement is the
+question above with the same quantity, limit and polarity
+([[problems/integer_sequences/E1057/claims/2026_10_10_jenw1n|the claim page records the file, its target and what it inlines]]).
+It follows the method of [AGP94], building Carmichael numbers from primes with
+smooth predecessors, and supplies both inputs in Lean: a zero-free half-plane
+$\operatorname{Re}s>23/24$ for the nonprincipal Dirichlet $L$-functions, derived
+from the OpenAI release's Lean formalization of its zero-free half-plane work,
+and a supply of primes with smooth predecessors, which the file proves itself;
+it names neither manuscript above. The record was approved on 12 October 2026
+but not certified when read on 13 October 2026, and that approval is reported,
+not counted; no refereed publication or review outside the bounty site exists.
+This corpus rebuilt the file, unchanged, on the repository's pinned toolchain,
+replayed the whole closure of its target in the kernel with only `propext`,
+`Classical.choice` and `Quot.sound`, and checked the target against the
+Statement; the claim is accepted on that replay and check.
 
 <!-- BEGIN problem library links -->
 

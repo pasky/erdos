@@ -111,35 +111,37 @@ ran no fresh Lean or second-kernel replay. The decision carries no guarantee of
 originality. Conjectures.io's second kernel was not run, so its verdict rests on
 a single kernel implementation.
 
-The accepting body is the bounty site alone. This is a source-supported solution
-accepted by that site, distinct from a claim of journal refereeing. There is no
-refereed publication, no erdosproblems.com acceptance and no formal-conjectures
+The bounty site's certification is reported, not counted. There is no refereed
+publication, no erdosproblems.com acceptance and no formal-conjectures
 agreement. The erdosproblems.com page kept the label OPEN and shows no proof
 claim its curator has verified. The formal-conjectures default branch of
 2026-09-18 keeps both parts `research open` with `answer(sorry)`.
 Conjectures.io's own note records that the Erdős Problem a Day report of 26 July
 2026 left both asymptotic questions unresolved.
 
-The corpus has no build or kernel replay of the files, so they carry no
-formal-verification credit. There are two further limits. First, the records pin
-a formal-conjectures commit that does not resolve on GitHub (2026-10-07). The
-statement is therefore compared on the formal-conjectures default branch. The
-evidence that the pinned statement agrees is Conjectures.io's printed canonical
-types and its own check that the source type hash matches. Second, the
-formal-conjectures definitions `allUniqueSums` and `≫` live in
+Acceptance rests on this corpus's replay of both files. Each was rebuilt,
+unchanged, on the repository's pinned toolchain (`leanprover/lean4:v4.34.1`,
+with Mathlib as `lean/lake-manifest.json` pins), and the kernel replayed, from
+an empty environment, every declaration its target depends on; both targets use
+exactly `propext`, `Classical.choice` and `Quot.sound`. Each target's type, and
+every definition its statement reaches, are identical to the formal-conjectures
+statement of the record's task, and those statements were checked against the
+Statement above, as the claim page records. The records pin a formal-conjectures
+commit that does not resolve on GitHub (2026-10-07); the site builds it from a
+public catalog commit and an audit patch, and the replay reproduced it exactly.
+The formal-conjectures definitions `allUniqueSums` and `≫` live in
 `FormalConjecturesUtil`, while each proof file restates them in its own
-namespace and closes its target by `exact`. The local definitions therefore
-equal the formal-conjectures ones on the strength of Conjectures.io's kernel
-acceptance.
+namespace and closes its target by `exact`; the replayed kernel checks that
+closing step, so the local definitions agree with the formal-conjectures ones.
 
 The claim value is `answered` with these qualifications. It is the word for a
 page whose questions have one answer each in opposite directions. The claim page
 [[problems/additive_bases/E0014/claims/2026_09_14_jenw1n|Lean proofs of both questions at Conjectures.io]]
 records the claimant (the Conjectures.io user JenW1N, submission 2026-09-14),
-the acceptance evidence and its limits. It also records that erdosproblems.com's
-curator, Thomas Bloom, entered both records on its proof-claims thread on
-2026-09-27. Bloom named the claimant as the bounty site and the AI system as
-unknown, and did not verify or endorse the records.
+the replay and the bounty site's certification. It also records that
+erdosproblems.com's curator, Thomas Bloom, entered both records on its
+proof-claims thread on 2026-09-27. Bloom named the claimant as the bounty site
+and the AI system as unknown, and did not verify or endorse the records.
 
 **Source.** [erdosproblems.com/14](https://www.erdosproblems.com/14), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #14,

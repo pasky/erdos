@@ -93,19 +93,19 @@ a finite $K_{2,2,2}$-free graph on $n\ge N$ vertices with at least $(3/2048)n^2$
 edges and independence number below $cn$. The note also says that the Lean
 kernel accepted the proof and that the permitted axioms were `propext`,
 `Quot.sound` and `Classical.choice`. The site's second-kernel replay was not
-required for this task. The accepting body is the bounty site alone. This is a
-source-supported solution accepted by that site, distinct from a claim of
-journal refereeing. No refereed publication, no erdosproblems.com acceptance and
-no formal-conjectures catalog agreement was found. On 2026-10-06
-erdosproblems.com labeled the problem OPEN with no proof claim and the
-commentary summarized under Source, and the catalog's default branch left the
-answer open (Formalization below). The proof file (810,011 bytes, 18,336 lines,
-its dependencies bundled as source) has a target, a pinned-statement definition
-and final theorems consistent with the site's statement. It contains no `sorry`,
-`axiom`, `native_decide`, `unsafe` or `set_option`. This corpus has not built
-the file and claims no kernel credit of its own. It has not recomputed the
-construction and has made no fidelity audit beyond the clause-for-clause reading
-above. The frontmatter takes the standing with these qualifications.
+required for this task. That certification is reported, not counted. No refereed
+publication, no erdosproblems.com acceptance and no formal-conjectures catalog
+agreement was found. On 2026-10-06 erdosproblems.com labeled the problem OPEN
+with no proof claim and the commentary summarized under Source, and the
+catalog's default branch left the answer open (Formalization below). The proof
+file (810,011 bytes, 18,336 lines, its dependencies bundled as source) has a
+target, a pinned-statement definition and final theorems consistent with the
+site's statement. It contains no `sorry`, `axiom`, `native_decide`, `unsafe` or
+`set_option`. Acceptance rests on this corpus's rebuild of the file on the
+repository's pinned toolchain (Lean v4.34.1), after two lemma renames, its
+kernel replay of everything the target depends on with only the standard axioms,
+and its check of the target against the Statement, as the claim page records.
+The corpus has not recomputed the construction.
 
 What the refereed literature establishes is unchanged. Theorem 1 of Erdős,
 Hajnal, Sós and Szemerédi (Combinatorica 3 (1983), 69--81, refereed) gives
@@ -193,15 +193,15 @@ record (Status above) proves its negation.
 
 ## Current assessment
 
-**Resolution.** The question is answered in the negative by the Lean
-disproof the bounty site Conjectures.io certified on 6 October 2026 (Status
-above and the
+**Resolution.** The question is answered in the negative by the Lean disproof
+the bounty site Conjectures.io certified on 6 October 2026 (Status above and the
 [[problems/extremal_graph_theory/E0579/claims/2026_10_03_jordan|claim page]]):
-the statement fails at $\delta=3/2048$. The record's review was pending on
-3 October 2026, when its kernel verification completed; the certification of
-6 October 2026 is the acceptance evidence the frontmatter rests on, with the
-qualifications stated under Status. The search below
-records what the literature held before the record.
+the statement fails at $\delta=3/2048$. The record's review was pending on 3
+October 2026, when its kernel verification completed, and the record was
+certified on 6 October 2026; that certification is reported, not counted. The
+frontmatter rests on this corpus's kernel replay of the file and its check of
+the target against the Statement (Status). The search below records what the
+literature held before the record.
 
 **The question (site formulation of 2026-09-18).** The statement
 above; OPEN; source keys [EHSS83], [Er90], [Er91], [Er93, p. 340]; the
@@ -312,10 +312,10 @@ search.
 340) states the question in Erdős's own words, quoted in its reference entry,
 and adds no result. (2) Proof coverage: Theorem 1 is paged at claims checked;
 its proof and the proof of (1.14) (Section 5) were not read; nothing is
-independently reviewed by this corpus, and the certified refutation is
-reviewed by the site alone. (3) The formal-conjectures file is a statement,
-not a proof; the certified refutation is a separate file on the site (Status
-above).
+independently reviewed by this corpus, and the certified refutation rests on
+this corpus's kernel replay and Statement check, not on a review. (3) The
+formal-conjectures file is a statement, not a proof; the certified refutation is
+a separate file on the site (Status above).
 
 ## Known results
 
