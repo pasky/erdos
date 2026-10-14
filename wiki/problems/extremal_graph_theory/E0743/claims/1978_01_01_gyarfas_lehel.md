@@ -5,7 +5,9 @@ desc: |
   Gyárfás and Lehel (1978) prove the tree packing conjecture when all but at
   most two of the trees are stars, and when every tree is a star or a path. The
   paper is in conference proceedings, so the claim is pending.
-authors: []
+authors:
+- A. Gyárfás
+- J. Lehel
 status: claimed
 claim: proved
 scope: partial

@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # Problem 961
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E0961/claims/_index|claims/]]: The 3 claim pages of Problem 961, one per claimant's result; the problem's standing derives from them.
+[[problems/integer_sequences/E0961/claims/_index|claims/]]: The 2 claim pages of Problem 961, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -45,12 +45,13 @@ remark and is not made precise here.
 2026). No source determines the order of $f(k)$. What is in hand is a two-sided
 bound with a large gap.
 
-There are three upper bounds, and each is an accepted partial claim on its
-journal publication. The first is $f(k)\le k$ (Sylvester--Schur, reproved by
-Erdős in 1934;
-[[problems/integer_sequences/E0961/claims/1934_10_01_erdos|claim page]]). The
-second is $f(k)\le c_1k/\log k$ (Erdős 1955, Theorem 1), which Erdős's 1976
-survey restates as $f(k)<3k/\log k$
+There are three upper bounds. The first is $f(k)\le k$, the theorem of
+Sylvester and Schur, which Erdős reproved in 1934
+([[../library/factorials_binomials/erdos_1934_theorem_sylvester_schur/theorem|result page]]);
+the reproof does not improve the bound, so it has no claim page. The second and
+third are accepted partial claims on their journal publications. The second is
+$f(k)\le c_1k/\log k$ (Erdős 1955, Theorem 1), which Erdős's 1976 survey
+restates as $f(k)<3k/\log k$
 ([[problems/integer_sequences/E0961/claims/1955_01_01_erdos|claim page]]). The
 third is $f(k)<c_1k\log\log\log k/(\log k\log\log k)$, which the site credits to
 Jutila [Ju74] and to Ramachandra and Shorey [RaSh73]. Their papers are not held
@@ -209,11 +210,12 @@ current record; Erdős attributes it to Jutila, Ramachandra and Shorey jointly,
 and the site to [Ju74] and [RaSh73]. Neither paper is held, so the bound, its
 hypotheses and its exact form rest on this attestation and the site's; the
 papers' own statements are not recorded here (the routes are under Search
-scope). The three upper bounds are accepted partial claims on their journal
-publications:
-[[problems/integer_sequences/E0961/claims/1934_10_01_erdos|Erdős 1934]],
+scope). The second and third upper bounds are accepted partial claims on their
+journal publications:
 [[problems/integer_sequences/E0961/claims/1955_01_01_erdos|Erdős 1955]] and
-[[problems/integer_sequences/E0961/claims/1973_01_01_jutila_ramachandra_shorey|Jutila, Ramachandra and Shorey]].
+[[problems/integer_sequences/E0961/claims/1973_01_01_jutila_ramachandra_shorey|Jutila, Ramachandra and Shorey]];
+Erdős's 1934 reproof of the first, the Sylvester--Schur bound, does not improve
+it and has no claim page.
 
 **Lower bound in hand.**
 [[../library/factorials_binomials/erdos_1955_consecutive_integers/inequality_3|Display (3) of [Er55d]]]

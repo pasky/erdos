@@ -171,9 +171,10 @@ the claimed doubly exponential bound of the van Doorn note and the superseded
 $\exp(k^A)$ deduction below, and rules out the monograph's $2^{2^{\sqrt n}}$
 guess; its upper bound is weaker than the recorded one. The fourth,
 [[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|van Doorn's forum claim of 10 October 2026]],
-status claimed, claim proved: $v(k)>e^{e^{ck}}$ for some $c>0$, stated as a
+status rejected, claim proved: $v(k)>e^{e^{ck}}$ for some $c>0$, stated as a
 consequence of his write-up on Problem 304 and a sketch (see Connection to
-Problem 304 below).
+Problem 304 below); with no value of $c$ it does not improve the best known
+bound, Corollary 1.3's $e^{e^{k/600}}$.
 
 **Bounds.** The known bounds are two-sided: $e^{e^{k/600}}\le v(k)\le
 c_0^{(2/5+o(1))2^k}$ for all large $k$, with $c_0=1.26408\ldots$ the Vardi
@@ -272,8 +273,8 @@ announcing the write-up recorded on
 [[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|Problem 304's claim page]]
 states $v(k)>e^{e^{ck}}$ as a consequence of running its greedy start on
 $(b-1)/b$ without ever taking $1/b$, but the write-up itself proves only the
-bound for $N(b)$ and does not carry out this step; the post's claim is
-recorded as pending on
+bound for $N(b)$ and does not carry out this step; with no value of $c$ the
+post's claim does not improve Corollary 1.3, and it is recorded as rejected on
 [[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|its claim page]].
 
 **Finite values (unreviewed leads).** No refereed source tabulates $v(k)$.

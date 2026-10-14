@@ -50,9 +50,11 @@ listed two proof claims as partial. The frontmatter standing `open` derives from
 the claim pages, and no full claim is recorded there. The accepted partial claim
 [[problems/divisors/E1100/claims/1989_03_01_erdos_tenenbaum|Erdős and
 Tenenbaum's bounds]] settles the first two questions (yes and no). The pending
-partial claims [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's
-maximal order]] and [[problems/divisors/E1100/claims/2026_08_04_ross|Ross's
-golden-ratio bound]] bear on the maximal order and on the growth of $g(k)$.
+partial claim [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's
+maximal order]] bears on the maximal order.
+[[problems/divisors/E1100/claims/2026_08_04_ross|Ross's golden-ratio bound]],
+on the growth of $g(k)$, is rejected because it does not improve the best known
+bound.
 
 **Source.** [erdosproblems.com/1100](https://www.erdosproblems.com/1100),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1100,
@@ -126,7 +128,7 @@ the discussion thread's literature review of 2026-07-30 (by Korsky, who says
 it was GPT-5.6-assisted) is where these results were pointed out; the papers
 themselves are cited here from the author-archive scans.
 
-**The pending claims.**
+**The proof claims.**
 [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's maximal order]] (a
 manuscript of 30 July 2026 prepared with GPT-5.6 Pro, posted 2026-07-31; no
 review is recorded) gives
@@ -146,13 +148,14 @@ as the divisor order of a squarefree $n$ with $\omega(n)=k$. These pairs are
 then coprime consecutive divisors, so $g(k)\ge F_{k+1}\gg\varphi^k$, as Korsky
 noted in the discussion thread on 30 July 2026. Thus
 $\liminf g(k)^{1/k}\ge\varphi$ and $\limsup g(k)^{1/k}\le3\cdot2^{-2/3}$, and
-Ross's $c\varphi^k/\sqrt k$ is weaker by a factor $\sqrt k$. The discussion
+Ross's $c\varphi^k/\sqrt k$ is weaker by a factor $\sqrt k$, so it does not
+improve the best known bound and his claim is rejected. The discussion
 thread also carries a claimed exact formula $g(k)=\binom{k}{2}+1$ (April 2026),
 refuted there by $n=2310$, which has $\tau_\perp(n)=12>11$, and a sharpening of
 the Erdős--Hall lower bound with an explicit exponent, with a Lean file produced
 by Aristotle (Harmonic) that proves its argument under a prime number theorem
 hypothesis (see Formalization); neither is a dated manuscript, and neither has a
-claim page. Neither pending claim changes the derived standing, which only a
+claim page. Neither proof claim changes the derived standing, which only a
 full claim would.
 
 **Scope of this assessment.** The problem page and both threads, accessed

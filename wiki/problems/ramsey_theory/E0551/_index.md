@@ -281,9 +281,9 @@ unknown: [KLS21] did not compute $C$ and write (p. 16) that "with more work it
 seems that a reasonable value (less than 20, say) can be obtained". No refereed
 source closes any part of it; the 2026 result below, accepted on its Lean proof,
 closes all of it. This is the finite check the site's label refers to; the label
-is kept as the catalog's, and whether "decidable" should stand for a statement
-that is true for all $n\ge n_0(C)$ and unchecked for finitely many $n$ is a
-status question this page records rather than decides.
+is kept as the catalog's. A statement that is true for all $n\ge n_0(C)$ and
+unchecked for finitely many $n$ is a reduction to a finite check, and Keevash,
+Long and Skokan's claim page records it with the claim value `decidable`.
 
 **Closure of the residue (2026).** The OpenAI mathematics release's
 preprint *Cycle--clique Ramsey numbers* [OAI26] (25 September 2026), carded at
@@ -355,14 +355,11 @@ Lean proof; the manuscript is unrefereed and unreviewed, and no refereed source
 closes the residue, whose extent as the refereed results leave it still depends
 on the uncomputed constant of [KLS21]; an explicit $C$ or $n_0$ with a source
 treating the pairs $8\le n$, $n\le k\le4n+1$ (for $n=8$, the lengths
-$16\le k\le33$) would give a refereed route. (2) The site's label DECIDABLE
-stands for a statement that is proved for all $n\ge n_0(C)$ and unchecked for
-finitely many $n$; whether that label should stand for such a statement is a
-question this page records rather than decides. (3) Proof coverage is statements
+$16\le k\le33$) would give a refereed route. (2) Proof coverage is statements
 only: Theorems 4 and 5 of [BoEr73], Theorem 1 of [Ni05] and Theorem 1.1 of
 [KLS21] are paged at claims checked, with their proofs read for structure at
-most; nothing is independently reviewed. (4) The journal versions of [Ni05] and
-[KLS21] are not compared with the arXiv preprints cited. (5) The
+most; nothing is independently reviewed. (3) The journal versions of [Ni05] and
+[KLS21] are not compared with the arXiv preprints cited. (4) The
 formal-conjectures file is a statement, not a proof.
 <!-- BEGIN problem library links -->
 

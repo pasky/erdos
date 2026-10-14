@@ -610,29 +610,22 @@ def test_a_provisional_standing_without_claims_is_debt_until_settled(
     ]
 
 
+# an outside claimant's page, and the project's own, which lists the project
+@pytest.mark.parametrize('name', ['2026_01_02_claimant.md', '2026_01_02_corpus.md'])
 def test_a_claim_page_without_authors_is_debt_until_settled(
-    tmp_path: pathlib.Path,
+    tmp_path: pathlib.Path, name: str
 ) -> None:
     """A claim page without authors is counted as debt; settled mode fails it."""
     _problem(tmp_path)
-    _claim(tmp_path, frontmatter=_without(_CLAIM, *_AUTHORS))
+    _claim(tmp_path, name, frontmatter=_without(_CLAIM, *_AUTHORS))
     findings, notes = lint_problem_claims(tmp_path)
     assert findings == []
     assert notes[0].endswith('; 1 claim page(s) without authors')
     findings, _ = lint_problem_claims(tmp_path, settled=True)
     assert findings == [
-        'wiki/problems/alpha/p1/claims/2026_01_02_claimant.md: missing authors'
+        f'wiki/problems/alpha/p1/claims/{name}: missing authors'
         " (a list of the publication's authors as printed)"
     ]
-
-
-def test_a_claim_of_the_corpus_lists_no_authors(tmp_path: pathlib.Path) -> None:
-    """The corpus's own claim has no publication, so it is no debt even when settled."""
-    _problem(tmp_path)
-    _claim(tmp_path, '2026_01_02_corpus.md', frontmatter=_without(_CLAIM, *_AUTHORS))
-    findings, notes = lint_problem_claims(tmp_path, settled=True)
-    assert findings == []
-    assert notes[0].endswith('; 0 claim page(s) without authors')
 
 
 def test_an_empty_authors_list_records_an_unknown_name(tmp_path: pathlib.Path) -> None:
