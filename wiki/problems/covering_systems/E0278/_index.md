@@ -42,7 +42,7 @@ residues agree, so equal residues cover least. This is the accepted partial
 claim on
 [[problems/covering_systems/E0278/claims/1986_04_01_simpson|Simpson's claim page]].
 The same theorem, credited to Rogers, had appeared in Halberstam and Roth's
-*Sequences* in 1966. It is recorded as a claimed partial result on
+*Sequences* in 1966. It is recorded as an accepted partial result on
 [[problems/covering_systems/E0278/claims/1966_01_01_rogers|Rogers' claim page]].
 
 The first question was open on the site. Three claims about it are recorded
