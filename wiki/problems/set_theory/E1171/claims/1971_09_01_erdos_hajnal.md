@@ -53,7 +53,7 @@ on
 [[problems/set_theory/E0597/claims/1971_09_01_erdos_hajnal|the E0597 claim page]].
 
 **Covers.** The instance $k=1$ of the question, in ZFC. It does not address
-$k\ge2$: the case $k=2$, which contains $k=1$, is on the claimed page
+$k\ge2$: the case $k=2$, which contains $k=1$, is on the accepted page
 [[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|Baumgartner and Hajnal 1987]],
 and the question is open in ZFC for $k\ge3$.
 

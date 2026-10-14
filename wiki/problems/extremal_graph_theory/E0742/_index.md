@@ -66,10 +66,10 @@ For every $n$, Füredi's paper proves $|E(G)|\le(1+o(1))n^2/4$, its
 [[../library/extremal_graph_theory/furedi_1992_maximum_number_edges_minimal_graph_diameter/corollary_3_6|Corollary 3.6]].
 
 The site's label was unchanged, and no accepted proof for all $n$ was found in
-the search whose scope the Current assessment records. Whether the label should
-stand for a statement proved for all $n>n_0$, with $n_0$ astronomically large
-and unchecked for finitely many $n$, is a question of the catalog's labeling
-that this page records and does not decide.
+the search whose scope the Current assessment records. A statement proved for
+all $n>n_0$, with $n_0$ astronomically large and unchecked for finitely many
+$n$, is a reduction to a finite check, and Füredi's claim page records it with
+the claim value `decidable`.
 
 **Source.** [erdosproblems.com/742](https://www.erdosproblems.com/742),
 accessed 2026-09-19: the problem page (DECIDABLE, with the site's definition

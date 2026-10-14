@@ -62,8 +62,9 @@ and
 [[problems/extremal_graph_theory/E0182/claims/1995_01_01_pyber_rodl_szemeredi|the Pyber--Rödl--Szemerédi page]].
 One unreviewed proof claim of 2026-08-24 on the site's proof-claim tab asserts
 the $n^{1+o(1)}$ bound for induced $k$-regular subgraphs, the variant Szemerédi
-asked about. That bound implies the answer yes to the yes-or-no part. The claim
-is a claimed partial claim on
+asked about. That bound implies the answer yes to the yes-or-no part. Its
+mathematics answers the induced variant, not this problem, so the claim is
+rejected on
 [[problems/extremal_graph_theory/E0182/claims/2026_08_24_korsky|its claim page]]
 and bears no weight on the standing.
 
@@ -248,13 +249,14 @@ declares the AI system GPT-5.6 Pro; its summary says that a linked paper
 proves the $\ll n^{1+o(1)}$ bound for an induced $k$-regular subgraph,
 answering Szemerédi's question up to logarithmic factors, by combining an
 induced high-girth extraction theorem of Du, Girão, Hunter, McCarty and Scott
-with a parameterized form of the matching--sunflower argument of [CJMM24b].
-The site marks such claims as unverified, and the linked document is not
-held. Its induced bound would imply the yes-or-no part, which Pyber's 1985
-bound already settles; it is recorded as a claimed partial claim on its
-claim page and bears no weight on the standing. The thread comment of 22
-August 2026 recalls Pyber's 1985 bound and says the prize was paid for the
-Pyber--Rödl--Szemerédi construction; the sources do not confirm that report.
+with a parameterized form of the matching--sunflower argument of [CJMM24b]. The
+site marks such claims as unverified, and the linked document is not held. Its
+induced bound would imply the yes-or-no part, which Pyber's 1985 bound already
+settles; since it answers the induced variant, not this problem, it is recorded
+as a rejected claim on its claim page and bears no weight on the standing. The
+thread comment of 22 August 2026 recalls Pyber's 1985 bound and says the prize
+was paid for the Pyber--Rödl--Szemerédi construction; the sources do not confirm
+that report.
 
 **Search scope.** The site's problem, discussion and proof-claim pages; the
 community database record; the formal-conjectures directory at main on

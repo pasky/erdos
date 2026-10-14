@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 182, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:36:42Z
 ---
 
 # problems/extremal_graph_theory/E0182/claims
@@ -31,9 +31,10 @@ constant $C$, average degree $Cr^2\log\log n$ forces an $r$-regular subgraph,
 and that the $r^2$ dependence is sharp. So for fixed $k$ the maximum is of
 order $k^2n\log\log n$ (Trans. Amer. Math. Soc. 2026).
 
-[[problems/extremal_graph_theory/E0182/claims/2026_08_24_korsky|2026_08_24_korsky]]: A proof claim by Samuel Korsky, posted on the site's proof-claim tab, asserts
-that $n^{1+o(1)}$ edges force an induced $k$-regular subgraph, hence a
-$k$-regular one, which is the problem's yes-or-no part. It is unreviewed, and
-the proof is in an external file.
+[[problems/extremal_graph_theory/E0182/claims/2026_08_24_korsky|2026_08_24_korsky]]: Answers the induced variant (Szemerédi's $F(n,k)$, which the commentary
+records), not the Statement, so it does not settle this problem. A proof claim
+by Samuel Korsky, posted on the site's proof-claim tab, asserts that
+$n^{1+o(1)}$ edges force an induced $k$-regular subgraph, hence a $k$-regular
+one. It is unreviewed, and the proof is in an external file.
 
 ***
