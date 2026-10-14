@@ -11,14 +11,14 @@ status: open
 claim: none
 parts: [two_tower_sequence, growth_necessary]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 263
 
 [[problems/irrationality/_index|..]]
 
-[[problems/irrationality/E0263/claims/_index|claims/]]: The 1 claim page of Problem 263, one per claimant's result; the problem's standing derives from them.
+[[problems/irrationality/E0263/claims/_index|claims/]]: The 2 claim pages of Problem 263, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -66,7 +66,9 @@ Erdős's formulation carries: a DeepMind prover agent had posted on 2026-02-27
 disproof of the second question for the statement without that hypothesis,
 the sequence $a_n=2^{3^n}$ except $a_n=2^n$ on a sparse set of indices. That
 counterexample is not increasing and refutes only the superseded statement, so
-it is not a claim on the current problem; the site's remarks credit it, and
+it answers a variant and settles no instance of the current problem;
+[[problems/irrationality/E0263/claims/2026_02_27_deepmind|its claim page]]
+records it as rejected. The site's remarks credit it, and
 the formal-conjectures catalog preserves its formal proof at
 [the commit before the correction](https://github.com/google-deepmind/formal-conjectures/blob/c8cf651906abe91051cf835d4232ad5648412113/FormalConjectures/ErdosProblems/263.lean#L298).
 For the corrected statement, the one pending claim is a claimed disproof of

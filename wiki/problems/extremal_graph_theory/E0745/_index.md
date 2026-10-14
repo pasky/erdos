@@ -11,14 +11,14 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 745
 
 [[problems/extremal_graph_theory/_index|..]]
 
-[[problems/extremal_graph_theory/E0745/claims/_index|claims/]]: The 4 claim pages of Problem 745, one per claimant's result; the problem's standing derives from them.
+[[problems/extremal_graph_theory/E0745/claims/_index|claims/]]: The 3 claim pages of Problem 745, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -44,11 +44,11 @@ Szemerédi's 1980 paper [KSS80] (Studia Sci. Math. Hungar. 15 (1980), 391--395)
 with proving Erdős's expectation that the second largest component has size
 $\ll\log n$ almost surely. The frontmatter standing is derived from the claim
 pages and differs from the label. The theorem of [KSS80] is correct, but it
-answers the supercritical case the site's label credited ($\lambda>1$), not the
-Statement ($p=1/n$). So it does not count toward the problem's standing, and its
-claim page,
-[[problems/extremal_graph_theory/E0745/claims/1980_01_01_komlos_sulyok_szemeredi|Komlós, Sulyok and Szemerédi 1980]],
-is rejected. The accepted full claim is
+answers a variant, the supercritical case $\lambda>1$ that the site's label
+credited, not the Statement ($p=1/n$), so it settles no instance of the problem
+and does not count toward its standing. It is a theorem of the literature, never
+submitted to the site as a claim, so it has no claim page. The accepted full
+claim is
 [[problems/extremal_graph_theory/E0745/claims/1997_04_01_aldous|Aldous 1997]],
 refereed. It describes what the problem asks for, so the claim's value is
 solved.
@@ -335,30 +335,30 @@ Not searched: MathSciNet, Google Scholar, X. Not held: [KSS80], the
 critical-window papers.
 
 **Remaining gaps.** (1) [KSS80] is not held: its theorem, its hypothesis
-$\lambda>1$ and its constant are second-hand from the site, the thread and
-the Lean docstring. Route tried: the ResearchGate page (HTTP 403); no open
-archive exists for the journal. Reopening condition: the paper read at its
-theorem, after which the theorem is paged. (2) The parameter tension is
-recorded: PROVED attaches to the expectation for $\lambda>1$, while the
-wording fixes $\lambda=1$, where the second component has order $n^{2/3}$;
-the frontmatter follows the claim pages, with [KSS80] rejected as a
-settlement of the question as worded, [Al97] the accepted full claim and the
-developments of Alexeev and Ding pending full claims, and the label is the
-catalog's to change. (3) The critical-window description rests on [Al97],
-stated from the zbMATH review (Zbl 0877.60010) and the restatement in
-Addario-Berry, Broutin and Goldschmidt (arXiv:0903.4730, Theorem 1), with
-its corollary number as later papers cite it; reopening condition: the paper
-read at Corollary 2, after which the statement is checked against the
-print. (4) The two Lean developments are described from their text and not
-built by this corpus; there is no Lean statement of the problem in the
-catalog.
+$\lambda>1$ and its constant are second-hand from the site, the thread and the
+Lean docstring. Route tried: the ResearchGate page (HTTP 403); no open archive
+exists for the journal. Reopening condition: the paper read at its theorem,
+after which the theorem is paged. (2) The parameter tension is recorded: PROVED
+attaches to the expectation for $\lambda>1$, while the wording fixes
+$\lambda=1$, where the second component has order $n^{2/3}$; the frontmatter
+follows the claim pages, with [KSS80] answering the variant $\lambda>1$ and
+settling no instance, [Al97] the accepted full claim and the developments of
+Alexeev and Ding pending full claims, and the label is the catalog's to change.
+(3) The critical-window description rests on [Al97], stated from the zbMATH
+review (Zbl 0877.60010) and the restatement in Addario-Berry, Broutin and
+Goldschmidt (arXiv:0903.4730, Theorem 1), with its corollary number as later
+papers cite it; reopening condition: the paper read at Corollary 2, after which
+the statement is checked against the print. (4) The two Lean developments are
+described from their text and not built by this corpus; there is no Lean
+statement of the problem in the catalog.
 
 ## Known results
 
 - [KSS80] (1980, not held; per the site, the thread and the Lean docstring):
   for fixed $\lambda>1$, the second largest component of $G(n,\lambda/n)$
   has $O(\log n)$ vertices with high probability; Erdős's expectation in the
-  supercritical range.
+  supercritical range. It answers that variant, not the Statement's
+  $\lambda=1$, and the site's label PROVED credits it.
 - [Al97] (1997, refereed; its claim page): for fixed $t$, the component sizes
   of $G(n,1/n+tn^{-4/3})$, scaled by $n^{-2/3}$, converge in distribution in
   $\ell^2$ to the ordered excursion lengths of $W(s)+ts-s^2/2$ above its

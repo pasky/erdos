@@ -1,10 +1,10 @@
 ---
 name: problems/diophantine_problems/E0978/claims
-desc: The 6 claim pages of Problem 978, one per claimant's result; the problem's standing derives from them.
+desc: The 7 claim pages of Problem 978, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # problems/diophantine_problems/E0978/claims
@@ -27,6 +27,12 @@ degree $d$ whenever $r\ge(3d+1)/4$. This range reaches $r=d-2$ for $d\ge9$.
 [[problems/diophantine_problems/E0978/claims/2023_10_25_carella|2023_10_25_carella]]: Carella's 2023 preprint, unrefereed and unreviewed, claims asymptotic counts
 of the squarefree values of $n^4+1$, $n^4+2$ and $n^4-2n^2+2$. This would
 answer the question about $n^4+2$.
+
+[[problems/diophantine_problems/E0978/claims/2026_03_31_deepmind|2026_03_31_deepmind]]: Answers a variant (the second question without the local condition at
+exponent $k-2$), not the Statement (which imposes it), so it does not count
+toward the problem's standing. Google DeepMind's prover agent, in a Lean proof
+posted by Moritz Firsching, claims an irreducible sextic none of whose values
+is $4$-power-free.
 
 [[problems/diophantine_problems/E0978/claims/2026_08_11_zapata_ceballos_jalalvand|2026_08_11_zapata_ceballos_jalalvand]]: Zapata Ceballos and Jalalvand's unreviewed 2026 preprint claims a positive
 density of squarefree values for monic irreducible polynomials of degree $2q$

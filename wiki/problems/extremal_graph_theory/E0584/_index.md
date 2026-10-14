@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 584
 
 [[problems/extremal_graph_theory/_index|..]]
 
-[[problems/extremal_graph_theory/E0584/claims/_index|claims/]]: The 2 claim pages of Problem 584, one per claimant's result; the problem's standing derives from them.
+[[problems/extremal_graph_theory/E0584/claims/_index|claims/]]: The 3 claim pages of Problem 584, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -47,7 +47,9 @@ $\delta=n^{-c}$ and all large $n$, and no if no $c>0$ does. Under it a result
 settles an instance only when it establishes a clause for some $c>0$ or
 excludes every $c>0$; a result that proves or refutes a clause only on a range
 of $c$ bounded away from $0$ settles nothing, and the page records such
-results without claim pages. The fixed-$\delta$ reading is recorded beside it.
+results without claim pages unless they were submitted to the site as claims,
+which keep rejected claim pages. The fixed-$\delta$ reading is recorded beside
+it.
 
 **Status.** Open, the site's label (OPEN), for a statement that no finite
 computation can settle. The page was last edited 22 January 2026. Under the
@@ -70,9 +72,12 @@ first is Fox and Sudakov's remark that the second clause fails for $\beta$ close
 to $1$. The second is the girth-10 counterexamples of a note of 21 April 2026
 posted on the thread [Ch26], which fail it for every $4/5<\beta<1$. The third is
 the obstruction of [Li26] to the first clause for $\delta=n^{-\beta}$,
-$1/3\le\beta<1/2$. These three are recorded in the Current assessment and have
-no claim pages. No result settles the first clause, so the standing derives as
-open.
+$1/3\le\beta<1/2$. These three are recorded in the Current assessment. The
+note [Ch26], posted as a counterexample, answers the uniform reading, a variant,
+and
+[[problems/extremal_graph_theory/E0584/claims/2026_04_21_chojecki|its claim page]]
+records it as rejected; the other two have no claim pages. No result settles the
+first clause, so the standing derives as open.
 
 **Source.** [erdosproblems.com/584](https://www.erdosproblems.com/584),
 accessed 2026-09-17: the problem page (OPEN;
@@ -124,8 +129,10 @@ https://www.erdosproblems.com/584, accessed 2026-09-17.
   https://www.ulam.ai/research/erdos584.pdf and linked from the discussion
   thread on 21 April 2026 by a post that credits it to GPT-5.4 Pro. Theorem
   1, Corollary 2 and Remark 3, p. 2; Proposition 4 and Remark 5, pp. 3--4.
-  Not filed: unrefereed, and its mathematics is recorded in the Current
-  assessment, not as a claim page.
+  Not filed: unrefereed; its mathematics is recorded in the Current
+  assessment, and
+  [[problems/extremal_graph_theory/E0584/claims/2026_04_21_chojecki|its claim page]]
+  records it as rejected, as answering a variant.
 - [Be66] Benson, C. T., Minimal regular graphs of girths eight and twelve.
   Canad. J. Math. 18 (1966), 1091--1094. Not held; the reference [3] that
   p. 1061 of [FoSu08b] cites for graphs with $n^{2-\beta}$ edges and no
@@ -294,11 +301,13 @@ outcomes of other readings, recorded beside it.
   sparse problem with $\delta\ge n^{-\beta_0}$ untouched; its Proposition 4
   re-proves the $\delta^3$ weak $C_6$ core, which the note itself credits to
   [DER84] (Theorem 1 there). AI-generated, unrefereed, and reviewed by no
-  named mathematician on the thread. It has no claim page: under the reading
+  named mathematician on the thread. It answers a variant: under the reading
   the page adopts, a failure confined to $4/5<\beta<1$ settles no instance,
   and under the uniform reading it gives, with an explicit range, the failure
   that Fox and Sudakov's remark on p. 1061 gives through Benson's graphs
   (recorded above).
+  [[problems/extremal_graph_theory/E0584/claims/2026_04_21_chojecki|Its claim page]]
+  records it as rejected.
 - Discussion, 24 November 2025: a reference-key repair, since addressed.
 
 **Search scope.** The problem, discussion and proof-claim

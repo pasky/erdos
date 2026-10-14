@@ -1,20 +1,15 @@
 ---
 name: problems/extremal_graph_theory/E0745/claims
-desc: The 4 claim pages of Problem 745, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 745, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-13T11:58:39Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # problems/extremal_graph_theory/E0745/claims
 
 [[problems/extremal_graph_theory/E0745/_index|..]]
-
-[[problems/extremal_graph_theory/E0745/claims/1980_01_01_komlos_sulyok_szemeredi|1980_01_01_komlos_sulyok_szemeredi]]: Komlós, Sulyok and Szemerédi bound the second largest component by $O(\log n)$
-at edge probability $\lambda/n$ with $\lambda>1$, the supercritical case the
-site's label credited. The result is correct, but the Statement has edge
-probability $1/n$, so it does not count toward the problem's standing.
 
 [[problems/extremal_graph_theory/E0745/claims/1997_04_01_aldous|1997_04_01_aldous]]: In a refereed paper in Ann. Probab. 25 (1997), Aldous proves that the ordered
 component sizes of $G(n,1/n+tn^{-4/3})$, scaled by $n^{-2/3}$, converge to

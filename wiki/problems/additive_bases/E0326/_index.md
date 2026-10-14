@@ -11,14 +11,14 @@ tags:
 status: claimed
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 326
 
 [[problems/additive_bases/_index|..]]
 
-[[problems/additive_bases/E0326/claims/_index|claims/]]: The 1 claim page of Problem 326, one per claimant's result; the problem's standing derives from them.
+[[problems/additive_bases/E0326/claims/_index|claims/]]: The 2 claim pages of Problem 326, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -50,7 +50,9 @@ the thread on 2026-04-16, which the poster attributes to GPT-5.4, answered it
 no: the note's basis is the set of positive integers whose ternary digits are
 all $0$ or $1$, and in it every sub-basis has $b_k/k^2\to0$. The site then
 rewrote the problem as the present question, which the note does not
-address, so the note gets no claim page.
+address, so the note answers a variant, and
+[[problems/additive_bases/E0326/claims/2026_04_16_chojecki|its claim page]]
+records it as rejected.
 
 **Status.** Claimed. The site's label was OPEN (page last edited 2026-04-17).
 The standing derives from one pending full claim,

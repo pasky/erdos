@@ -11,14 +11,14 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 34
 
 [[problems/number_theory/_index|..]]
 
-[[problems/number_theory/E0034/claims/_index|claims/]]: The 2 claim pages of Problem 34, one per claimant's result; the problem's standing derives from them.
+[[problems/number_theory/E0034/claims/_index|claims/]]: The 3 claim pages of Problem 34, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -63,9 +63,10 @@ $(3/2-2/\sqrt e+o(1))n^2\le\max_\pi S(\pi)\le(1/4+\pi/16+o(1))n^2$. Theorem 1.3
 shows that a uniformly random permutation has $S(\pi)=((1+e^{-2})/4+o(1))n^2$ in
 probability. Proposition 6.1 gives $\min_\pi S(\pi)\ge n^{3/2}/(4\sqrt2)$, while
 $S(\iota)=n^{2-o(1)}$ for the identity $\iota$. The proof claim of 15 September
-2026 on the minimum $g(n)$ has no claim page. It concerns a question of the
-site's commentary, not the page's question, and it settles no instance of the
-problem.
+2026 on the minimum $g(n)$ concerns a question of the site's commentary, not the
+page's question, and settles no instance of the problem;
+[[problems/number_theory/E0034/claims/2026_09_15_korsky|its claim page]] is
+rejected as answering a variant.
 
 **Source.** [erdosproblems.com/34](https://www.erdosproblems.com/34),
 accessed 2026-09-18: the problem page (DISPROVED
@@ -281,8 +282,9 @@ exponent is not optimized, that about $1.86$ was reached, and that the true
 exponent might be as small as $3/2$. The proof is an external document linked
 from the tab; the claim has no comments and no review on the site, which warns
 that listing on the tab is not a check of the proof. It does not touch the
-page's question or its label and settles no instance of the problem, so it has
-no claim page.
+page's question or its label and settles no instance of the problem, so
+[[problems/number_theory/E0034/claims/2026_09_15_korsky|its claim page]] is
+rejected as answering a variant.
 
 **Related (context, not the problem).** The monotone question of the same
 monograph paragraph, whether $a_1<\cdots<a_k\le n$ can have $cn^2$ distinct

@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 949
 
 [[problems/ramsey_theory/_index|..]]
 
-[[problems/ramsey_theory/E0949/claims/_index|claims/]]: The 1 claim page of Problem 949, one per claimant's result; the problem's standing derives from them.
+[[problems/ramsey_theory/E0949/claims/_index|claims/]]: The 2 claim pages of Problem 949, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -93,38 +93,38 @@ formalized statement. The corpus has not built the file.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN, with the site's note that no finite computation can settle it,
-last edited 11 January 2026. The commentary records Erdős's suggestion that,
-should the answer be no, one could assume instead that $S$ is Sidon (all sums
-$a+b$ with $a,b\in S$ distinct up to the order of the summands), and states
-that a comment in the thread (the account YaelDillies) proves this variant
-affirmatively, by an argument that AlphaProof found: every Sidon set
-$S\subset\mathbb R$ admits $A\subseteq\mathbb R\setminus S$ of cardinality
-continuum with $A+A\subseteq\mathbb R\setminus S$. The thread, oldest first:
-a comment of 17 August 2025 (the account DesmondWeisenberg) answering the
-then-current wording in the negative with
-$S=\bigcup_{n\in\mathbb Z}[3n+1,3n+2)$ (sum-free; every $a\notin S$ that is
-not a multiple of $3$ has a multiple in $S$, so the subsets of
-$\mathbb R\setminus S$ closed under addition are sub-semigroups of
+**The question (site formulation, accessed 2026-09-18).** The statement above;
+OPEN, with the site's note that no finite computation can settle it, last edited
+11 January 2026. The commentary records Erdős's suggestion that, should the
+answer be no, one could assume instead that $S$ is Sidon (all sums $a+b$ with
+$a,b\in S$ distinct up to the order of the summands), and states that a comment
+in the thread (the account YaelDillies) proves this variant affirmatively, by an
+argument that AlphaProof found: every Sidon set $S\subset\mathbb R$ admits
+$A\subseteq\mathbb R\setminus S$ of cardinality continuum with
+$A+A\subseteq\mathbb R\setminus S$. The thread, oldest first: a comment of 17
+August 2025 (the account DesmondWeisenberg) answering the then-current wording
+in the negative with $S=\bigcup_{n\in\mathbb Z}[3n+1,3n+2)$ (sum-free; every
+$a\notin S$ that is not a multiple of $3$ has a multiple in $S$, so the subsets
+of $\mathbb R\setminus S$ closed under addition are sub-semigroups of
 $3\mathbb Z$, all countable), later edited to note that the corrected problem
 asks for $A+A\subseteq\mathbb R\setminus S$, which the construction does not
-resolve; a comment of 17 August 2025 (the account Vjeko_Kovac) pointing out
-that the site's wording did not match the original paper (p. 57), giving the
-present wording and, for that $S$, $A=\bigcup_{n\ge1}[3n,3n+1/2)$; a reply of
-18 August 2025 that the commenter has no counterexample to the corrected
-formulation; three comments of 18 and 24 August 2025 (Vjeko_Kovac and another
-commenter) on what a nontrivial $S$ would have to look like ($S$ must contain
-points arbitrarily close to $0$, else a small ball around $0$ serves as $A$);
-the comment of 7 January 2026 (YaelDillies) with the Sidon argument below,
-which AlphaProof found, and links to the Lean proof AlphaProof discovered and
-to a cleaned-up version of it, after which the site was updated; and a
-comment of 23 January 2026 (the account Przemek Chojecki) proving the
-statement when $S$ has the property of Baire, remarking that the first case
-of the Sidon argument already covers every $S$ with $|S|<\mathfrak c$ without
-the Sidon hypothesis, and concluding that a counterexample would have to be
-very pathological: not Sidon, not measurable and without the property of
-Baire. The proof-claim tab is empty.
+resolve, and rejected as answering a variant on
+[[problems/ramsey_theory/E0949/claims/2025_08_17_weisenberg|its claim page]]; a
+comment of 17 August 2025 (the account Vjeko_Kovac) pointing out that the site's
+wording did not match the original paper (p. 57), giving the present wording
+and, for that $S$, $A=\bigcup_{n\ge1}[3n,3n+1/2)$; a reply of 18 August 2025
+that the commenter has no counterexample to the corrected formulation; three
+comments of 18 and 24 August 2025 (Vjeko_Kovac and another commenter) on what a
+nontrivial $S$ would have to look like ($S$ must contain points arbitrarily
+close to $0$, else a small ball around $0$ serves as $A$); the comment of 7
+January 2026 (YaelDillies) with the Sidon argument below, which AlphaProof
+found, and links to the Lean proof AlphaProof discovered and to a cleaned-up
+version of it, after which the site was updated; and a comment of 23 January
+2026 (the account Przemek Chojecki) proving the statement when $S$ has the
+property of Baire, remarking that the first case of the Sidon argument already
+covers every $S$ with $|S|<\mathfrak c$ without the Sidon hypothesis, and
+concluding that a counterexample would have to be very pathological: not Sidon,
+not measurable and without the property of Baire. The proof-claim tab is empty.
 
 **The origin ([Er77c], printed p. 57).** In Section 6, "Problems on infinite
 subsets", after the Graham--Rothschild conjecture proved by Hindman (Problem

@@ -13,14 +13,14 @@ parts:
 - all_n
 - continuum
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 261
 
 [[problems/diophantine_problems/_index|..]]
 
-[[problems/diophantine_problems/E0261/claims/_index|claims/]]: The 3 claim pages of Problem 261, one per claimant's result; the problem's standing derives from them.
+[[problems/diophantine_problems/E0261/claims/_index|claims/]]: The 4 claim pages of Problem 261, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -130,9 +130,10 @@ $\mathbb N\setminus\{4\}$ and over $\mathbb N\setminus\{5,6\}$; a comment of
 a misprint for $2^{\aleph_0}$. formal-conjectures marks its variant
 `erdos_261.variants.two_representations` research solved and cites
 [a Lean proof of it](https://github.com/g8r-b8/erdos261-lean/blob/976bddf21eafc93ea86a7a1bfd92b847070a6f31/Erdos261.lean)
-that follows the comment; the corpus has not built it. A thread comment is
-not a dated manuscript and the variant is not the question, so neither has
-a claim page.
+that follows the comment; the corpus has not built it. The comment answers
+a variant and settles no part of the question, and
+[[problems/diophantine_problems/E0261/claims/2026_04_27_zeraoulia|its claim page]]
+records it as rejected.
 
 **Search scope.** The site's problem page, its discussion
 thread and its proof-claim tab; the community database record; the

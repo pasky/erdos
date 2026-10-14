@@ -11,14 +11,14 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 401
 
 [[problems/factorials_binomials/_index|..]]
 
-[[problems/factorials_binomials/E0401/claims/_index|claims/]]: The 2 claim pages of Problem 401, one per claimant's result; the problem's standing derives from them.
+[[problems/factorials_binomials/E0401/claims/_index|claims/]]: The 3 claim pages of Problem 401, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -91,8 +91,9 @@ with ChatGPT) that for $r\ge2$ and $n=p_{r+1}^k-1$ the divisibility forces
 $a_1+a_2\le n+2p_{r+1}$, so no $f(r)\to\infty$ can work there. The site's
 curator confirmed in the thread (11 January 2026) that the reading with
 infinitely many $n$ is the intended one, and the formal-conjectures statement
-encodes it. The refutation of the other reading is a thread post about a
-variant and has no claim page.
+encodes it. The refutation of the other reading answers a variant, and
+[[problems/factorials_binomials/E0401/claims/2026_01_10_sothanaphan|its claim page]]
+records it as rejected.
 
 The resolution. Barreto and Leeham, with ChatGPT, proved the stated reading
 (11 January 2026) by the construction they had used for Problem 729: $n=2m$,

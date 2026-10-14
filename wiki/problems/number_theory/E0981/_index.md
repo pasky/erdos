@@ -11,14 +11,14 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 981
 
 [[problems/number_theory/_index|..]]
 
-[[problems/number_theory/E0981/claims/_index|claims/]]: The 1 claim page of Problem 981, one per claimant's result; the problem's standing derives from them.
+[[problems/number_theory/E0981/claims/_index|claims/]]: The 2 claim pages of Problem 981, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -250,8 +250,11 @@ uniformity the thread's objection of 1 October 2025 asked for. Acceptance:
 an arXiv preprint in its second version; no journal record was found on
 2026-09-18; the site's author corrected the page and credits the variant to
 it in the commentary. Nothing here is independently reviewed. Because the
-theorem concerns the variant and not the problem's threshold, it is not a
-claim on the problem and has no claim page; the problem's standing derives
+theorem concerns the variant and not the problem's threshold, it settles no
+instance of the problem; Tang posted it to the thread as a resolution of the
+page's then formulation, and
+[[problems/number_theory/E0981/claims/2025_12_27_tang_zhang|its claim page]]
+records it as rejected, as answering a variant. The problem's standing derives
 from Elliott's claim page alone.
 
 **Adjacent material (no claim).** The OpenAI Math Release manuscript
