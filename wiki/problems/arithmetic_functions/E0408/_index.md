@@ -169,8 +169,9 @@ literature search was made, and no proof was independently assessed.
 **Search scope (2026-10-14).** Plasma AI's preprint and the repository
 plasma-ai/erdos-408 at its commit of 2026-10-14, formal-conjectures' statement
 of the problem at its commit of the same date, and Theorem 5 of [FKL10], which
-that statement cites, on its library card; no proof was independently
-assessed.
+that statement cites, on its library card. The paper's argument was not
+refereed here; the formal proof's check is in
+[[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/verify/replay_receipt|the replay receipt]].
 
 ## Method connection
 
