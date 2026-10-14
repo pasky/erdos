@@ -131,27 +131,30 @@ least $N^2/2$ members, at a loss of at most $2048N$ members, to a family with a
 common point or with a long common interval core, each bounded by
 $\binom N2+O(N)$ by private-witness and progression-matching counts.
 
-The accepting body is Conjectures.io alone: its verification report records a
-static scan (no imports, axiom declarations, `sorry`, `native_decide` or unsafe
-options), "Statement unchanged", permitted axioms `propext`, `Quot.sound`,
-`Classical.choice`, "Lean kernel accepted" and a fresh isolated replay on 10
-September 2026, with the second kernel not run, so that the verdict rests on one
-kernel implementation, and the review describes itself as a decision on
-eligibility that does not vouch for originality; on 2026-09-27 there was no
-refereed publication, no write-up, no erdosproblems.com acceptance and no
+Conjectures.io's certification is reported, not counted: its verification report
+records a static scan (no imports, axiom declarations, `sorry`, `native_decide`
+or unsafe options), "Statement unchanged", permitted axioms `propext`,
+`Quot.sound`, `Classical.choice`, "Lean kernel accepted" and a fresh isolated
+replay on 10 September 2026, with the second kernel not run, so that the verdict
+rests on one kernel implementation, and the review describes itself as a
+decision on eligibility that does not vouch for originality; on 2026-09-27 there
+was no refereed publication, no write-up, no erdosproblems.com acceptance and no
 formal-conjectures catalog agreement (the erdosproblems.com forum carried no
 proof claim, and the catalog labeled the variant `research open`).
 
-This corpus has not built or audited the proof file, so it gives no
-formalized evidence. The file's target, header and the reduction chain named
-above agree with Conjectures.io's statement; the 12,791-line file contains no
-`sorry`, `axiom`, `native_decide`, `unsafe`, `implemented_by`, `extern`,
-`partial`, `opaque`, `set_option` or `import`; its header declares no author
-and no AI system, and one comment says a lemma comes "from the third supplied
-proof". The catalog commit the bounty task pinned was not reachable in the
-catalog's repository on 2026-09-27; the default branch's `szabo_strong`
-statement is identical, and Conjectures.io's "source type hash matches" check
-is the evidence that the pinned statement agrees.
+Acceptance rests on this corpus's rebuild of the proof file, unchanged, on the
+repository's pinned toolchain (Lean v4.34.1), its kernel replay of everything
+the target depends on with only `propext`, `Classical.choice` and `Quot.sound`,
+and its check that the target is the variant, as the claim page records. The
+file's target, header and the reduction chain named above agree with
+Conjectures.io's statement; the 12,791-line file contains no `sorry`, `axiom`,
+`native_decide`, `unsafe`, `implemented_by`, `extern`, `partial`, `opaque`,
+`set_option` or `import`; its header declares no author and no AI system, and
+one comment says a lemma comes "from the third supplied proof". The catalog
+commit the bounty task pinned was not reachable in the catalog's repository on
+2026-09-27; the default branch's `szabo_strong` statement is identical, and the
+replay reproduced the pinned commit, which the site builds from a public catalog
+commit and an audit patch.
 
 Search scope: erdosproblems.com (the page, its discussion thread and its
 proof-claims thread), the community database,
@@ -166,7 +169,8 @@ corpus.
 
 **Provenance of the proof file.** Conjectures.io serves the file at
 https://conjectures.io/results/c3277f4a-d573-42a9-bfca-e45fb2cb39ff/solution/download
-(600,125 bytes, 12,791 lines, read 2026-09-28); this corpus has not built it.
+(600,125 bytes, 12,791 lines, read 2026-09-28); this corpus rebuilt and replayed
+it.
 
 ## Progress
 
@@ -240,9 +244,8 @@ manuscript; Yang's are recorded on
   $t(N)\leq\binom N2+22051N$ for $N\geq N_0$ (big-O constant $30000$ as
   Conjectures.io's record quotes it). Scope: linear-error asymptotic only; not
   the exact value, not the kernel conjecture; Conjectures.io-accepted, no
-  refereed publication, no erdosproblems.com or catalog acceptance; the kernel
-  check is the bounty site's, on a single kernel, and this corpus has not built
-  the file.
+  refereed publication, no erdosproblems.com or catalog acceptance; accepted
+  here on this corpus's kernel replay of the file.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

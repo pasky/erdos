@@ -112,18 +112,19 @@ proof-claims thread.
 `/solution/download` on 2026-09-28T02:36:50Z (HTTP 200): 735,691 bytes,
 14,043 lines, with SHA-256 equal to
 the "Proof SHA-256" the solution page prints. The file is not held in this
-folder and was not built here. A text scan found no `import`, `sorry`,
-`axiom`, `native_decide`, `set_option`, `unsafe`, `implemented_by` or
-`opaque`; 806 `theorem` and 99 `def` declarations; and, of the catalog's
-names, `Erdos18.practicalH` (19 occurrences), `Erdos18.factorial_isPractical`
-(1) and the target name inside `fcTypeOfName%` (7). The file opens with
-`open Finset Filter` and has no namespace. Structure: line 4,
+folder; it was rebuilt and replayed in the kernel on the repository's pinned
+toolchain. A text scan found no `import`, `sorry`, `axiom`, `native_decide`,
+`set_option`, `unsafe`, `implemented_by` or `opaque`; 806 `theorem` and 99 `def`
+declarations; and, of the catalog's names, `Erdos18.practicalH` (19
+occurrences), `Erdos18.factorial_isPractical` (1) and the target name inside
+`fcTypeOfName%` (7). The file opens with `open Finset Filter` and has no
+namespace. Structure: line 4,
 `theorem exact_target_type : (fcTypeOfName% "Erdos18.erdos_18b") = (True ↔ ∀ ε : ℝ, 0 < ε → ∀ᶠ n : ℕ in Filter.atTop, (Erdos18.practicalH n.factorial : ℝ) < (n : ℝ) ^ ε) := by rfl`,
 pinning the target type; line 2472, `def WeightedDyadicMixing : Prop`; line
 2580,
-`theorem erdos18b_of_weighted_dyadic_mixing (hmix : WeightedDyadicMixing)`;
-line 14011, `theorem weighted_dyadic_mixing : WeightedDyadicMixing`; line
-14040, `theorem target : fcTypeOfName% "Erdos18.erdos_18b" := by exact erdos18b_of_weighted_dyadic_mixing weighted_dyadic_mixing`.
+`theorem erdos18b_of_weighted_dyadic_mixing (hmix : WeightedDyadicMixing)`; line
+14011, `theorem weighted_dyadic_mixing : WeightedDyadicMixing`; line 14040,
+`theorem target : fcTypeOfName% "Erdos18.erdos_18b" := by exact erdos18b_of_weighted_dyadic_mixing weighted_dyadic_mixing`.
 The [result page](target.md) describes the reduction.
 
 **Naming.** The verification report speaks of `Solution.lean` and

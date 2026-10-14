@@ -86,8 +86,8 @@ reads "Erdos 272: the Szabo strong variant" and pins Lean 4.33.1,
 FormalConjectures `8432eac998110a563e03df65a28c117e97c8c142` and Mathlib
 `0df444a360eaa60ab8c11dca51a86af692955474`; its final theorem (line 12788) is
 `theorem target : fcTypeOfName% "Erdos272.erdos_272.variants.szabo_strong"`.
-The file was read as text and not built here; it is not held in this folder,
-and no local kernel check is claimed.
+The file was read as text, and rebuilt and replayed in the kernel on the
+repository's pinned toolchain; it is not held in this folder.
 
 The digest on the [source card](_index.md) states the verified statement's
 reading and the route of the proof.

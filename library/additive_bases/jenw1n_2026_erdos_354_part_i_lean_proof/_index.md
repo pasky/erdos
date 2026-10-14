@@ -10,7 +10,7 @@ desc: |
   built here, and no refereed publication exists.
 license: reserved
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-08T01:51:15Z
+updated: 2026-10-14T01:10:24Z
 ---
 
 # JenW1N: Lean proof of Problem 354 part (i), Conjectures.io record 815c1d5f
@@ -18,7 +18,7 @@ updated: 2026-10-08T01:51:15Z
 [[additive_bases/_index|..]]
 
 [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/evidence/_index|evidence/]]: Retains the site's solution file Main.lean as fetched on 2026-09-28, the
-bytes the site's kernel accepted, unedited and not built here.
+bytes the site's kernel accepted, unedited; the replay rebuilt a ported copy.
 
 [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/jenw1n_2026_erdos_354_part_i_lean_proof|jenw1n_2026_erdos_354_part_i_lean_proof]]: Record identity, the site's dates and review decision, its verification
 report, the task's pinned statement and the public standing of the result
@@ -66,9 +66,10 @@ its reduction chain to two criteria on binary digits was read
 ([result page](target.md)). The mathematical core (about 9,000 lines: a
 joining and disjointness argument on the binary digit sequences of
 $\alpha$ and $\beta$ through empirical measures, tower shift spaces and
-$L^2$ rigidity) was not read line by line, and the file was not built
-here, so the kernel check is the site's, on a single kernel. No proof was
-verified here and no kernel credit is claimed.
+$L^2$ rigidity) was not read line by line; the file was rebuilt, after
+changes for Mathlib's `ProbabilityMeasure.map`, and its target replayed in the
+kernel on the repository's pinned toolchain. No proof was verified here by
+reading.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: the
 status-defining source for the first question (base $2$), answered yes
@@ -131,7 +132,7 @@ a base below 2 and does not prove part (i)"; "Fan's September 2026 completeness
 criterion leaves the relevant two-ray case unresolved"; the full proof claim
 posted on 13 September, with a repository created 12 September, "is later than
 acceptance"), and that these findings "are not a guarantee of absolute novelty".
-The accepting body is the bounty site alone: no refereed publication, no
+The site's certification is reported, not counted: no refereed publication, no
 write-up, no erdosproblems.com acceptance and no formal-conjectures catalog
 agreement was found on 2026-09-28; the catalog's default branch keeps both parts
 `research open`.

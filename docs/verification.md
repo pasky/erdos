@@ -698,10 +698,11 @@ facts, and none of them is acceptance evidence. Acceptance of such a proof rests
 on the repository's own rebuild of the file on the pinned toolchain, a kernel
 replay from an empty environment of every declaration its target depends on,
 with no axioms beyond `propext`, `Classical.choice` and `Quot.sound`, and a
-check that the target is the problem's Statement. A port to the pinned toolchain
-may change proofs, never the target's statement. Where the target alone falls
-short of the Statement, acceptance rests on the replayed lemma that meets it.
-The claim page lists this acceptance as `formalized`.
+check that the target is the problem's Statement, or for a partial claim the
+result the claim states. A port to the pinned toolchain may change proofs, never
+the target's statement. Where the target alone falls short of the Statement,
+acceptance rests on the replayed lemma that meets it. The claim page lists this
+acceptance as `formalized`.
 
 A focused assessment can check one uncertain step, an application interface, or
 artifact fidelity while assuming stated surrounding premises. It reports only

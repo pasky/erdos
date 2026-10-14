@@ -281,14 +281,15 @@ review policy v3 after a prior-art check that found no qualifying earlier
 public solution and bounds its novelty findings by the sources it inspected,
 and the record was certified on 16 September 2026 with the bounty paid; the
 site's second, independent kernel was not run, so the kernel verdict rests
-on one implementation. Under `docs/anatomy.md` "Mathematical status" this is
-documented independent acceptance of the exact statement it verified, so the
-first question is recorded as answered; it is the acceptance of a bounty
-site alone, without refereeing, erdosproblems.com acceptance or
-formal-conjectures catalog agreement (as of 2026-09-28 the erdosproblems.com
-page labeled the problem OPEN, last edited 1 December 2025, its proof-claims
-tab listed one later full-proof claim, the Yu--Chen manuscript of 13
-September 2026 with its own Lean formalization, no outside review, and PR
+on one implementation. That certification is reported, not counted: the first
+question is recorded as answered on this corpus's rebuild and kernel replay of
+the file on the repository's pinned toolchain (Lean v4.34.1) and its check of
+the target against the first question, as the claim page records, without
+refereeing, erdosproblems.com acceptance or formal-conjectures catalog agreement
+(as of 2026-09-28 the erdosproblems.com page labeled the problem OPEN, last
+edited 1 December 2025, its proof-claims tab listed one later full-proof claim,
+the Yu--Chen manuscript of 13 September 2026 with its own Lean formalization, no
+outside review, and PR
 #6433 to record the answer from that manuscript was open). The proof file is the
 record's solution download (the `.../solution` page shows its first 500 lines),
 fetched 2026-09-28: 485,414 bytes, 10,152 lines, header "A proof of the full
@@ -306,40 +307,38 @@ the pinned statement rests on the task bundle's printed type and docstring
 `interleave` by `simp` into the two floor sequences and compile only against
 the corrected `n / 2` definition of 3 December 2025, so the kernel
 acceptance itself shows the pinned definition is the corrected one. This
-corpus has not built or replayed the proof file and claims no kernel credit.
-The file's final theorem rests on a reduction chain (a scaling to
-$\alpha,\beta\ge1$, then two criteria on the binary digits of $\alpha$ and
-$\beta$); the file contains no `sorry`, `axiom`, `native_decide`, `unsafe`,
-`set_option`, `implemented_by`, `extern`, `opaque` or `_root_`, no
-`instance`, `notation`, `macro`, `elab` or `syntax`, no `partial`
-definition, `decide` only on finite Boolean lemmas and one classical
-decidability term, and no redefinition of the catalog's names, the whole
-file sitting in its own namespace; the mathematical core (a joining and
+corpus rebuilt the proof file and replayed its target in the kernel. The file's
+final theorem rests on a reduction chain (a scaling to $\alpha,\beta\ge1$, then
+two criteria on the binary digits of $\alpha$ and $\beta$); the file contains no
+`sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`, `implemented_by`,
+`extern`, `opaque` or `_root_`, no `instance`, `notation`, `macro`, `elab` or
+`syntax`, no `partial` definition, `decide` only on finite Boolean lemmas and
+one classical decidability term, and no redefinition of the catalog's names, the
+whole file sitting in its own namespace; the mathematical core (a joining and
 disjointness argument on the binary digit sequences of $\alpha$ and $\beta$,
 about 9,000 lines) rests on the site's kernel acceptance. The file's header
-names no author beyond the site's solver handle. The theorem covers base $2$
-and the irrational-ratio hypothesis only: the rational-ratio cases of
-Hegyvári's conjecture ($\alpha/\beta$ rational but not a power of $2$, one
-of $\alpha,\beta$ not a dyadic rational) are outside it and are touched by
-no 2026 source. The later Yu--Chen manuscript ([YuCh26],
+names no author beyond the site's solver handle. The theorem covers base $2$ and
+the irrational-ratio hypothesis only: the rational-ratio cases of Hegyvári's
+conjecture ($\alpha/\beta$ rational but not a power of $2$, one of
+$\alpha,\beta$ not a dyadic rational) are outside it and are touched by no 2026
+source. The later Yu--Chen manuscript ([YuCh26],
 [[../library/additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/theorem|Theorem]])
-claims the stronger strong completeness of the nonzero value set, which
-would imply the first answer; it is dated 13 September 2026, its repository
-was created 12 September, it is listed on the site's proof-claims tab and in
-an open catalog PR, and it has no outside review or acceptance evidence, so
-it changes nothing here. Its argument is reconstructed section by section in
+claims the stronger strong completeness of the nonzero value set, which would
+imply the first answer; it is dated 13 September 2026, its repository was
+created 12 September, it is listed on the site's proof-claims tab and in an open
+catalog PR, and it has no outside review or acceptance evidence, so it changes
+nothing here. Its argument is reconstructed section by section in
 [[research/erdos_354/_index|the research folder for this problem]], with
 Dirichlet's approximation theorem imported and the finite certificate of its
 Appendix A rechecked; an internal review of 2026-09-28 graded each of that
-folder's fourteen pages, the Fan and Geneson reconstructions included,
-faithful to its source and its argument sound
-([[research/erdos_354/evidence/verify/grade|the grade]]). That review covers
-the reconstructions, assigns no tier and changes no status. Van Doorn's
-results of September and October 2025 are thread posts, so they have no
-claim page. [He91], [He94], [JiMa24] and [FaHe25] settle no instance of the
-problem, since [He91] is a measure statement and the other three concern
-pairs with $\beta=2^k\alpha$, a rational ratio; they have no claim page
-either.
+folder's fourteen pages, the Fan and Geneson reconstructions included, faithful
+to its source and its argument sound
+([[research/erdos_354/evidence/verify/grade|the grade]]). That review covers the
+reconstructions, assigns no tier and changes no status. Van Doorn's results of
+September and October 2025 are thread posts, so they have no claim page. [He91],
+[He94], [JiMa24] and [FaHe25] settle no instance of the problem, since [He91] is
+a measure statement and the other three concern pairs with $\beta=2^k\alpha$, a
+rational ratio; they have no claim page either.
 
 **Standing of the second question: unresolved, two readings.** Under
 "for every $\gamma\in(1,2)$",
@@ -398,20 +397,18 @@ searched: X, Google Scholar, MathSciNet, zbMATH, journal sites; no refereed
 version of any 2026 source was looked for beyond the arXiv records, which
 show no journal reference or DOI for either preprint.
 
-**Remaining gaps.** (1) The second question's reading, "for some" or
-"for every" $\gamma$, is unfixed by the site and by both origins, and
-neither reading has acceptance evidence. (2) The first answer rests on a
-bounty site's acceptance with no refereed publication, no
-erdosproblems.com acceptance and no catalog agreement; a refereed
-version, a site update or an independent replay would remove the
-qualifications. (3) The pinned catalog commits returned HTTP 404 on
-2026-09-28; this corpus has not built the proof file, and its core rests on
-the site's kernel. (4) [He89], [JiMa24],
-[FaHe25] and van Doorn's ceiling write-up are not held; their results are
-site-attested. (5) The rational-ratio cases of Hegyvári's conjecture are
-untouched by every 2026 source. (6) The Geneson preprint also bears on
-Problems 348 (Theorem 1) and 349 (Theorem 9), and the Fan preprint on
-Problems 254 and 124; those results belong to the pages of those problems.
+**Remaining gaps.** (1) The second question's reading, "for some" or "for every"
+$\gamma$, is unfixed by the site and by both origins, and neither reading has
+acceptance evidence. (2) The first answer rests on this corpus's kernel replay
+of the bounty site's file, with no refereed publication, no erdosproblems.com
+acceptance and no catalog agreement. (3) The pinned catalog commits returned
+HTTP 404 on 2026-09-28; the replay reproduced the task's commit, and the proof's
+core rests on the kernel replay. (4) [He89], [JiMa24], [FaHe25] and van Doorn's
+ceiling write-up are not held; their results are site-attested. (5) The
+rational-ratio cases of Hegyvári's conjecture are untouched by every 2026
+source. (6) The Geneson preprint also bears on Problems 348 (Theorem 1) and 349
+(Theorem 9), and the Fan preprint on Problems 254 and 124; those results belong
+to the pages of those problems.
 
 ## Progress and known results
 
@@ -452,7 +449,7 @@ Problems 254 and 124; those results belong to the pages of those problems.
   [[../library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target|target]].
   Scope: base $2$ only, indexed (multiset) sums, no strong-completeness or
   set-union claim; site-accepted on a single kernel, no refereed publication, no
-  site or catalog acceptance; not built by this corpus.
+  site or catalog acceptance; replayed in the kernel by this corpus.
 - Yu--Chen 2026 manuscript [YuCh26] (13 September 2026; unrefereed; own Lean;
   later than the site acceptance; a proof claim on the site; catalog PR #6433
   open): claims strong completeness of

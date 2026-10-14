@@ -56,7 +56,7 @@ PDF prints for the accepted file and the "Proof SHA-256" the site's solution
 page prints; header "Erdos 416(i): proof adapted to the restricted
 conjectures.io submission format"; PrimeNumberTheoremAnd ports retained with
 Apache-2.0 notices (lines 2894, 15705 and 20072, further Apache headers, and the
-license block from line 64573); this corpus has not built it.
+license block from line 64573); this corpus rebuilt and replayed it.
 
 **Source.** [erdosproblems.com/416](https://www.erdosproblems.com/416), accessed
 2026-09-27 (the problem page: labeled OPEN and marked as not decidable by a
@@ -124,8 +124,12 @@ the proof's own `V` (line 33) counts the same Finset as the catalog's and
 `Quot.sound` and `Classical.choice`; a text scan of the 64,775-line file found
 no `sorry`, no axiom declaration, no `native_decide`, no `unsafe` and no import
 (the word "axiom" occurs once in a comment, and the only `set_option` is
-commented out); this corpus has not built the file, and the site's second kernel
-(Nanoda) was not run. `parts.ii` has no accepted proof.
+commented out); the site's second kernel (Nanoda) was not run. This corpus
+rebuilt the file on the repository's pinned toolchain (Lean v4.34.1) and
+replayed its target in the kernel with only those axioms, and acceptance of the
+claim rests on that replay and the check of the target against the first
+question; the site's certification is reported, not counted. `parts.ii` has no
+accepted proof.
 
 ## Current assessment
 
@@ -159,10 +163,10 @@ accepted file, that proves in prose only the finite counting inequality, the
 final limit reduction and the quotient lemma and maps the analytic interfaces to
 the Lean file; it is not itself verified, and its three prose arguments were
 reworked on its result pages. This corpus filed no independent review of the
-accepted file and has not built it: its audit covers the target, the key
-definitions, the write-up's line map and a scan for forbidden tokens, not the
-2,776-declaration analytic body. The OpenAI release manuscript of 25 September
-2026
+accepted file; it rebuilt the file and replayed its target in the kernel, and
+its reading covers the target, the key definitions, the write-up's line map and
+a scan for forbidden tokens, not the 2,776-declaration analytic body. The OpenAI
+release manuscript of 25 September 2026
 ([[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/_index|intake card]])
 proves the limit a second time and for every fixed $c>0$, by a different method
 (volume counting of the large prime factors of a typical preimage along Ford's
@@ -174,11 +178,12 @@ comparator fingerprint checked, and its statement audited, so it is the
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|second accepted partial claim]]
 on the first question (not reviewed outside, not refereed; formal-conjectures
 has linked it as the formal proof of `parts.i` since 11 October 2026, a catalog
-label). On the second question the same theorem gives $V(x)\sim(x/\log
-x)\,G_mA(1;\theta)$: Ford's counting scale $xG_m/\log x$ times a positive
-bounded function of the phase $\theta(x)=\{(\log B-\log\log B)/\lambda\}$,
-$B=\log\log x$ (with $\rho$, $\lambda=\log(1/\rho)\approx0.6114$ and the
-manuscript's constant $\gamma\approx0.3235$, not Euler's constant, defined on
+label). On the second question the same theorem gives
+$V(x)\sim(x/\log x)\,G_mA(1;\theta)$: Ford's counting scale $xG_m/\log x$ times
+a positive bounded function of the phase
+$\theta(x)=\{(\log B-\log\log B)/\lambda\}$, $B=\log\log x$ (with $\rho$,
+$\lambda=\log(1/\rho)\approx0.6114$ and the manuscript's constant
+$\gamma\approx0.3235$, not Euler's constant, defined on
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai_formula|the claim page]]),
 defined without reference to $V$ as the uniform limit of finite
 inclusion–exclusion sums over bounded prime data. Settled by it: Ford's
@@ -187,9 +192,9 @@ namely $e^{Q(\theta)}A(1;\theta)$, the limit of the ratio of $V(x)$ to Ford's
 elementary expression, with $Q$ an explicit quadratic in $\theta$. Not settled:
 the limit of Ford's $O(1)$ factor has no closed form, no computed value and no
 convergence rate, and whether that limit is constant is not known, so whether
-the release delivers the formula in elementary functions that Erdős asked for
-in 1974 (remark_p201) and doubted in 1979 is unsettled; the release's own
-catalog entry names only the scaling question as answered. The
+the release delivers the formula in elementary functions that Erdős asked for in
+1974 (remark_p201) and doubted in 1979 is unsettled; the release's own catalog
+entry names only the scaling question as answered. The
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai_formula|full claim]]
 is therefore recorded as pending. Before it, the best progress on the second
 question was Ford's Theorem 1
@@ -209,23 +214,22 @@ preprint says nothing about an asymptotic formula. Its unconditional argument is
 reconstructed, author-recorded, on
 [[research/erdos_416/zeraoulia_theorem_1_1_reconstruction|the reconstruction page]]
 of the Problem 416 research folder, and for every $c>1$ its cluster interval
-collapses to $\{c\}$ if the accepted results stand. The site's commentary
-also records a further question of Erdős [Er79e]: to estimate the number of
-$n\le x$ whose least solution $m$ of $\phi(m)=n$ satisfies $kx<m\le(k+1)x$.
-Theorem 2.2 of the same release manuscript
+collapses to $\{c\}$ if the accepted results stand. The site's commentary also
+records a further question of Erdős [Er79e]: to estimate the number of $n\le x$
+whose least solution $m$ of $\phi(m)=n$ satisfies $kx<m\le(k+1)x$. Theorem 2.2
+of the same release manuscript
 ([[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/theorem_2_2|Theorem 2.2 page]])
 answers it on Ford's counting scale: for each fixed integer $k\ge1$ the count is
 $(x/\log x)\,G_m(A(f_k;\theta)+o(1))$, with a coefficient built from finite
 arithmetic data and the weight $f_k$ defined on that page. The count is of order
-$V(x)$ if some totient $d$ has least preimage greater than $kd$, which holds
-for $k=1$ and $k=2$, and is zero for every $x$ otherwise; the manuscript does
-not determine which other $k$ fall under the first alternative. The manuscript
-is unrefereed, and this corpus has not built the release's Lean for these
-counts (`weighted_totient_asymptotic`, `weighted_totient_one_two`). The result
-answers a variant, not either question of the Statement, so it has no claim
-page. Search scope:
-erdosproblems.com (the problem page, its discussion thread, empty,
-and its proof-claims thread, two partial claims), the community database
+$V(x)$ if some totient $d$ has least preimage greater than $kd$, which holds for
+$k=1$ and $k=2$, and is zero for every $x$ otherwise; the manuscript does not
+determine which other $k$ fall under the first alternative. The manuscript is
+unrefereed, and this corpus has not built the release's Lean for these counts
+(`weighted_totient_asymptotic`, `weighted_totient_one_two`). The result answers
+a variant, not either question of the Statement, so it has no claim page. Search
+scope: erdosproblems.com (the problem page, its discussion thread, empty, and
+its proof-claims thread, two partial claims), the community database
 teorth/erdosproblems (`data/problems.yaml` entry 416: status open, last update
 2025-08-31, formal status unformalized, formalized 2025-09-04), conjectures.io
 (the result, solution, problem and how-it-works pages; the task bundle and
@@ -299,7 +303,7 @@ known to be elementary, is the pending claim on the second question.
   including attributed ports from PrimeNumberTheoremAnd. No refereed
   publication; not accepted by erdosproblems.com (listed there as an unverified
   partial proof claim, 2026-09-27); this corpus filed no independent review and
-  has not built the file. Claim page:
+  replayed the file in the kernel. Claim page:
   [[problems/arithmetic_functions/E0416/claims/2026_09_14_kruer_kohlmeyer|Kruer and Kohlmeyer]].
 - Fixed-scale limit for every $c>0$ (2026): Theorem 2.1 of the OpenAI release
   manuscript of 25 September 2026

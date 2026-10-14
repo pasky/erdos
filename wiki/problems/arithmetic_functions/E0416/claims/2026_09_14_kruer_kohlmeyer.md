@@ -13,7 +13,7 @@ status: accepted
 claim: proved
 scope: partial
 evidence:
-- reviewed
+- formalized
 submitted: 2026-09-27
 links:
 - url: https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42
@@ -86,24 +86,37 @@ asymptotic formula for $V(x)$; the second question is not touched.
 **Depends on.** No page of this wiki: the result rests on the accepted Lean
 file alone.
 
-**Acceptance.** Reviewed: the bounty site Conjectures.io certified the record.
-Its Lean kernel accepted the file on 14 September 2026. Fourteen gates passed,
-among them "Statement unchanged" and "Only permitted axioms" with `propext`,
-`Quot.sound` and `Classical.choice`. The site's second kernel, Nanoda, was not
-run. The site's review approved the record on 15 September 2026 under its policy
-v3. The approval rested on two language-model assessments of one model family
-and the production kernel check. It claimed no fresh replay, no complete axiom
-export and no line-by-line audit. The record was certified and its bounty paid
-on 16 September 2026. This is the site's certification, not a referee's report,
-and this corpus counts it as reviewed evidence.
+**Acceptance.** Formalized. This corpus's verification rebuilt the record's
+solution file on the repository's pinned toolchain, `leanprover/lean4:v4.34.1`
+with Mathlib at the revision `lean/lake-manifest.json` pins, after renaming the
+big-operator lemmas that Mathlib moved to `₀` names since the site's toolchain;
+the target's statement is unchanged. The kernel replayed, from an empty
+environment, every declaration the target `Bounty.target` depends on, Lean core,
+Mathlib and formal-conjectures included, and accepted them all. The target's
+axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and
+every definition its statement reaches, are identical to the formal-conjectures
+statement `Erdos416.erdos_416.parts.i` of the site's task, at the catalog commit
+the task pins, which the site builds from a public catalog commit and an audit
+patch and the replay reproduced exactly. That statement is the claim above,
+$V(2x)/V(x)\to2$ with `V` counting the values $1\le n\le\lfloor x\rfloor$.
+Acceptance rests on this replay and that check.
 
-Not formalized in the sense this corpus uses. The site's kernel checked the
-file, but this corpus has audited only the target statement, as the problem page
-records. The target theorem is the formal-conjectures statement `parts.i` by
-`exact`, and the file's own `V` equals the catalog's count by `rfl`. A text scan
-of the file found no `sorry`, no axiom declaration, no `native_decide` and no
-`unsafe`. The corpus has not built the file, and its audit does not cover the
-2,776-declaration analytic body, so no `formalized` evidence is listed.
+The bounty site Conjectures.io certified the record; the certification is
+reported, not counted. Its Lean kernel accepted the file on 14 September 2026.
+Fourteen gates passed, among them "Statement unchanged" and "Only permitted
+axioms" with `propext`, `Quot.sound` and `Classical.choice`. The site's second
+kernel, Nanoda, was not run. The site's review approved the record on 15
+September 2026 under its policy v3. The approval rested on two language-model
+assessments of one model family and the production kernel check. It claimed no
+fresh replay, no complete axiom export and no line-by-line audit. The record was
+certified and its bounty paid on 16 September 2026. This is the site's
+certification, not a referee's report.
+
+This corpus's reading audited the target statement, as the problem page records.
+The target theorem is the formal-conjectures statement `parts.i` by `exact`, and
+the file's own `V` equals the catalog's count by `rfl`. A text scan of the file
+found no `sorry`, no axiom declaration, no `native_decide` and no `unsafe`. The
+2,776-declaration analytic body is checked by the kernel replay, not by reading.
 
 Not refereed: no journal or arXiv version exists. The site erdosproblems.com
 lists the record as an unverified partial proof claim, posted by its maintainer
