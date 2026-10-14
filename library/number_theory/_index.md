@@ -3,7 +3,7 @@ name: number_theory
 title: "Other Number Theory"
 desc: "Sources filed under Other Number Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-14T01:27:55Z
 ---
 
 # Other Number Theory
@@ -90,6 +90,11 @@ purity) and proves injectivity into the function-field Brauer group.
 [[number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/_index|colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/]]: Proves finite cokernel for the Brauer comparison map and that smooth complete
 intersections of dimension at least three in characteristic zero have only
 constant Brauer classes.
+
+[[number_theory/conjectures_io_2026_lean_solutions_erdos_problems/_index|conjectures_io_2026_lean_solutions_erdos_problems/]]: Records sixteen Conjectures.io Lean solution files by URL and SHA-256, held
+under reserved terms and so not in the library, and keeps the kernel replay
+of each on the repository's pinned toolchain on which fifteen claim pages
+rest their acceptance.
 
 [[number_theory/conway_jones_1976_trigonometric_diophantine_equations_vanishing_sums_roots_unity/_index|conway_jones_1976_trigonometric_diophantine_equations_vanishing_sums_roots_unity/]]: A focused E0774 digest with a complete local Markdown reading copy.
 

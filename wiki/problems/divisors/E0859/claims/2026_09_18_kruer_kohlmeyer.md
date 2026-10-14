@@ -146,3 +146,6 @@ density, a theorem of Erdős [Er70]. So neither the entry's summary nor its link
 describes this result.
 
 What else this corpus checked is on the problem page.
+
+**Replay record.**
+[[../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0859_e060355f|The receipt of the kernel replay]].

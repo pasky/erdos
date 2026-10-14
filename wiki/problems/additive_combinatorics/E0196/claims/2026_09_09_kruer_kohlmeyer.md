@@ -142,3 +142,6 @@ is tagged open on the formal-conjectures default branch (2026-10-07). So no
 
 **Depends on.** No wiki page; the claim rests on the Lean file and its
 exposition.
+
+**Replay record.**
+[[../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0196_e73b95f7|The receipt of the kernel replay]].

@@ -120,3 +120,6 @@ second proof's gist as its `formal_proof`.
 [[../library/additive_bases/crocker_1971_sum_prime_two_powers_two/theorem_i|Crocker 1971, Theorem I]],
 the result page of Crocker's refereed theorem; the claim also rests on the
 Lean file the bounty site's kernel accepted.
+
+**Replay record.**
+[[../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0010_244ff2d0|The receipt of the kernel replay]].

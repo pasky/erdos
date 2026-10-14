@@ -144,3 +144,6 @@ deletion step above in general (Lemma 4.1 and Remark 4.5 of the manuscript on
 since Problem 97 lets the common distance vary with the vertex, only the
 direction from this problem to Problem 97 follows, and the standing of Problem
 97 is derived from its own claim pages.
+
+**Replay record.**
+[[../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0096_7ffd1c09|The receipt of the kernel replay]].

@@ -164,3 +164,6 @@ non-colorability half of the $k\ge5$ witnesses. The two upstream predicates
 `IsCritical` and `IsCriticalEdges`, which the reading inferred from the proof's
 definitional `change` steps, are among the definitions the replay found
 identical to the task's.
+
+**Replay record.**
+[[../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0944_e7afff2c|The receipt of the kernel replay]].

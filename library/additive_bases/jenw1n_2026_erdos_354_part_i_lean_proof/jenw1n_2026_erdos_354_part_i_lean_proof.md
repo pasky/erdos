@@ -16,10 +16,9 @@ record; no PDF or write-up exists. Conjectures.io's results listing shows no
 "Read explanation (PDF)" link for this record (records for Problems 944
 and 96 have one), the result and solution pages link no `/papers/` file,
 and Conjectures.io's contribution index for `erdos-354-parts-i` lists no
-contributions. The retained bytes are
-`evidence/assets/solution_815c1d5f/Main.lean` (provenance on the
-[source card](_index.md)). All facts below were read on 2026-09-28 (UTC)
-unless dated otherwise.
+contributions. The file is not held in the library; its URL, size and SHA-256
+are on the [source card](_index.md). All facts below were read on 2026-09-28
+(UTC) unless dated otherwise.
 
 **Author.** JenW1N, the solver handle Conjectures.io shows for the record ("Who
 this proof is credited to"). The file's header names no author and
@@ -137,10 +136,13 @@ discussion; both open. No refereed publication, preprint, expert comment
 or independent replay of this proof was found; the dated search scope is
 on the problem page.
 
-**Acceptance.** Documented independent acceptance by the bounty site
-alone: its kernel check, its static scan, its manual review and its
-payment, as recorded above. Nothing was built or replayed here, and no
-reviewer outside Conjectures.io has examined the proof as far as was found.
+**Acceptance.** Conjectures.io's kernel check, static scan, manual review and
+payment, as recorded above, are reported, not counted. Acceptance rests on this
+corpus's rebuild of the file and kernel replay of its target on the repository's
+pinned toolchain, which the
+[[number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0354_815c1d5f|replay receipt]]
+records. No reviewer outside Conjectures.io has examined the proof as far as was
+found.
 
 The digest on the [source card](_index.md) states the verified
 statement's reading and the route of the proof.
