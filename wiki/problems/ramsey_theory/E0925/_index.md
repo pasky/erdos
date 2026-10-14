@@ -70,7 +70,7 @@ https://www.erdosproblems.com/925, accessed 2026-09-18.
 
 - [AlRo05] Alon, N. and Rödl, V., Sharp bounds for some multicolor Ramsey
   numbers. Combinatorica 25 (2005), no. 2, 125--141,
-  doi:10.1007/s00493-005-0011-9 (Crossref record: issue
+  doi:10.1007/s00493-005-0011-9 (Crossref record accessed 2026-09-18: issue
   dated March 2005). The pages and statement numbers used here are those of
   the authors' "Final Version" manuscript (15 pages) from Alon's publication
   list; Theorem 3.2, p. 6; its proof with the
@@ -99,9 +99,9 @@ https://www.erdosproblems.com/925, accessed 2026-09-18.
   Problem 553's account and not read.
 
 **Formalization.** None. No file `ErdosProblems/925.lean` was in
-formal-conjectures when its directory was listed (673 entries);
+formal-conjectures when its directory was listed on 2026-09-18 (673 entries);
 the site's indicator reports no formalized statement, and the community
-database (teorth/erdosproblems) records the problem
+database (teorth/erdosproblems, accessed 2026-09-18) records the problem
 disproved and unformalized (record last updated 31 August 2025).
 
 ## Current assessment
@@ -169,7 +169,7 @@ for such a set in every such graph for all large $n$, has answer no for
 every $\delta>0$. Equivalently, the lower bound
 $R(3,3,m)\ge\Omega(m^3/(\log m)^{4+\delta})$ refutes $R(3,3,m)\ll m^{3-c}$
 for every $c>0$. Acceptance evidence: Combinatorica is refereed, and the
-Crossref record places the article in volume 25, issue
+Crossref record (accessed 2026-09-18) places the article in volume 25, issue
 2, March 2005; the pages cited are the authors' final manuscript's, not the
 journal typesetting's, and the two are not compared. Read depth: claims
 checked for Theorem 3.2, the two bounds and the construction's parameters

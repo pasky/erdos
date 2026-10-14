@@ -137,9 +137,9 @@ resolving the full spherical classification.
 Theorem 5.1 (p. 5) proves that the vertex set of every nondegenerate simplex
 is super-Ramsey, hence Ramsey with dimension $O_A(1+\log r)$ for $r$
 colors, and Corollary 2.3 (p. 3) that every subset of the vertex set of a
-brick is super-Ramsey. These exhibit classes of Ramsey sets; they do not characterize
-the Ramsey sets, which is what the problem asks. Corollary 6.5 (p. 7) and
-Open Problem 6.6 (p. 7) concern the stronger hyper-Ramsey property.
+brick is super-Ramsey. These exhibit classes of Ramsey sets; they do not
+characterize the Ramsey sets, which is what the problem asks. Corollary 6.5 (p.
+7) and Open Problem 6.6 (p. 7) concern the stronger hyper-Ramsey property.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

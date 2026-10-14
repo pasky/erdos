@@ -58,7 +58,7 @@ no sentence about human assistance or verification. The manuscript itself
 names no author beyond "OpenAI" and carries no statement on how it was
 produced. These are the source's historical attestations, not this corpus's
 review. No refereed publication, no arXiv version and no independent review of
-the manuscript is recorded here and nothing on this card is
+the manuscript is recorded here, and nothing on this card is
 independently reviewed.
 
 The release's Lean catalog (`lean/formalization.yaml`) lists no

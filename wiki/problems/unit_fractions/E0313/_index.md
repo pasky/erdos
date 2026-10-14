@@ -29,13 +29,13 @@ $$
 
 where $m\geq 2$ is an integer and $p_1<\cdots<p_k$ are distinct primes?
 
-**Formulation.** The site's wording (the page carries no last-edited stamp).
-Clearing denominators shows that $1/m=1-\sum1/p_i$ has numerator prime to every
-$p_i$ over the denominator $p_1\cdots p_k$, so $m=p_1\cdots p_k$ (the site's
-commentary) and a solution is the same thing as a squarefree $m>1$ with
-$1/m+\sum_{p\mid m}1/p=1$, a primary pseudoperfect number; each $m$ gives at
-most one solution. The question is whether there are infinitely many
-primary pseudoperfect numbers. With $k=1$ the equation allows
+**Formulation.** The site's wording, accessed 2026-09-18 (the page carries no
+last-edited stamp). Clearing denominators shows that $1/m=1-\sum1/p_i$ has
+numerator prime to every $p_i$ over the denominator $p_1\cdots p_k$, so
+$m=p_1\cdots p_k$ (the site's commentary) and a solution is the same thing as a
+squarefree $m>1$ with $1/m+\sum_{p\mid m}1/p=1$, a primary pseudoperfect number;
+each $m$ gives at most one solution. The question is whether there are
+infinitely many primary pseudoperfect numbers. With $k=1$ the equation allows
 $1/2=1-1/2$, so $m=2$ counts, as in OEIS A054377.
 
 **Status.** Open. Eleven solutions are known (OEIS A054377, revision of 30
@@ -68,8 +68,8 @@ The site thanks Desmond Weisenberg. Cite as: T. F. Bloom, Erdős Problem
   28, Université de Genève (1980), printed p. 40. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Wa26] Wang, H., Port fillings for primary pseudoperfect numbers.
-  arXiv:2605.21518v1 (18 May 2026), 23 pages; an unrefereed preprint.
-  Library home:
+  arXiv:2605.21518v1 (18 May 2026), 23 pages; the only version, no journal
+  record on 2026-09-18; an unrefereed preprint. Library home:
   [[../library/unit_fractions/wang_2026_port_fillings_primary_pseudoperfect_numbers/_index|wang_2026_port_fillings_primary_pseudoperfect_numbers]];
   result pages for Theorems 9.1, 11.1 and 19.5.
 - [BJM00] Butske, W., Jaje, L. M. and Mayernik, D. R., On the equation

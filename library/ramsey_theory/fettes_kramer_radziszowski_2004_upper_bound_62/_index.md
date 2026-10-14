@@ -98,12 +98,12 @@ pp. 9–13, the body of the Section 4 manuscript summary, remain unviewed.
 The analytic
 [[ramsey_theory/fettes_kramer_radziszowski_2004_upper_bound_62/theorem_3_2|Theorem 3.2 attaching-set reduction]]
 has complete independently reviewed proof coverage, including
-Lemma 3.1 and explicit elementary Ramsey upper bounds. The fresh review
-visually checked PDF pages 1 and 4–8; its
+Lemma 3.1 and explicit elementary Ramsey upper bounds. The fresh review visually
+checked PDF pages 1 and 4–8 on 2026-09-15; its
 [full report](evidence/verify/theorem_3_2_review.md),
-[distinct grade](evidence/verify/theorem_3_2_grade.md) and exact subject
-retain the scope. This supplies a bounded attaching set, not nonexistence
-of the coloring.
+[distinct grade](evidence/verify/theorem_3_2_grade.md) and exact subject retain
+the scope. This supplies a bounded attaching set, not nonexistence of the
+coloring.
 
 The final computational proof of Theorem 5.6 and Propositions 5.1–5.5
 remain outside independently accepted local proof coverage; the pipeline

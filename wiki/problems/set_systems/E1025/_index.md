@@ -87,7 +87,7 @@ the accepted partial claim of Spencer. The asymptotic constant is open. Two
 third-party Lean proofs of the two-sided estimate, one in Boris Alexeev's
 repository and one released by IIIS Lean, which the community database cites as
 the problem's formalization, are linked from the claim pages of Conlon, Fox and
-Sudakov and of Spencer; the corpus has built neither. The
+Sudakov and of Spencer; the corpus has built neither. On 2026-10-06 the
 site's page listed no comment or proof claim.
 <!-- BEGIN problem library links -->
 

@@ -32,11 +32,10 @@ $$
 
 (p. 2, quoted as printed.)
 
-**Source.** GPT-5.5 PRO, *Totient fibre extremes*, five-page note hosted in
-the repository `Shashi456/erdos-formalizations` (retrieved 2026-09-05; PDF
-metadata created 2 May 2026); Theorem 2.1 on p. 2, proof on pp. 2--4, read
-on the page images. The title page credits "GPT-5.5 PRO" and names no
-person; the
+**Source.** GPT-5.5 PRO, *Totient fibre extremes*, five-page note hosted in the
+repository `Shashi456/erdos-formalizations` (PDF metadata created 2 May 2026);
+Theorem 2.1 on p. 2, proof on pp. 2--4, read on the page images. The title page
+credits "GPT-5.5 PRO" and names no person; the
 [[arithmetic_functions/gpt_5_5_pro_2026_totient_fibre_extremes/_index|card]]
 records the provenance and the other sources' attributions.
 

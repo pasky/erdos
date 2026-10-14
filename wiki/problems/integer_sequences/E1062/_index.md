@@ -63,12 +63,13 @@ full, unreviewed).
 
 **Source.** [erdosproblems.com/1062](https://www.erdosproblems.com/1062),
 accessed 2026-09-22 (OPEN; source keys [Gu04] and [Le76]; last
-edited 6 January 2026; a formalized statement; fourteen comments and one
-proof-claim entry on 2026-10-07; OEIS A038372), and the Conjectures.io record
+edited 6 January 2026; a formalized statement; fourteen comments on
+2026-10-07; OEIS A038372), and the Conjectures.io record
 [conjectures.io/results/8d59a0af-6762-4606-93c9-72dd356a57bc](https://conjectures.io/results/8d59a0af-6762-4606-93c9-72dd356a57bc),
 read 2026-10-07 (Lean verified 21 September 2026; approved in review
-22 September 2026; certified 23 September 2026; bounty paid). Cite as: T. F. Bloom, Erdős Problem
-#1062, https://www.erdosproblems.com/1062, accessed 2026-10-07.
+22 September 2026; certified 23 September 2026; bounty paid). The site's
+proof-claims tab held one entry. Cite as: T. F. Bloom, Erdős
+Problem #1062, https://www.erdosproblems.com/1062, accessed 2026-10-07.
 
 **References.**
 

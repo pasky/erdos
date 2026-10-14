@@ -35,10 +35,10 @@ probability, is the paper's other main result and is not used for it.
 
 **Source.** G. Fiz Pontiveros, S. Griffiths and R. Morris, *The triangle-free
 process and the Ramsey number $R(3,k)$*, Mem. Amer. Math. Soc. 263 (2020), no.
-1274, v+125 pp. (DOI 10.1090/memo/1274, Crossref record read). The copy read for
-this page is arXiv:1302.6279v2 (24 March 2018, 154 pages with the 36-page
-appendix); Theorem 1.2 is on its p. 4, read on the page image and in the text
-layer of pp. 1--5. The Memoir's pagination differs and its text was not
+1274, v+125 pp. (DOI 10.1090/memo/1274, Crossref record read 2026-09-18). The
+copy read for this page is arXiv:1302.6279v2 (24 March 2018, 154 pages with the
+36-page appendix); Theorem 1.2 is on its p. 4, read on the page image and in the
+text layer of pp. 1--5. The Memoir's pagination differs and its text was not
 compared.
 
 **Read depth.** Claims checked: Theorems 1.1--1.2, display (2) and the

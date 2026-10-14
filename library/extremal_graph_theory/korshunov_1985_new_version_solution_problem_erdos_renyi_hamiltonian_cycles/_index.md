@@ -43,10 +43,10 @@ Mathematics 28; MathSciNet (MR 860592) cites the Studies number and the PDF
 prints only the Annals header. DOI 10.1016/S0304-0208(08)73618-1 (the file's
 metadata title; not printed on the page). The problem page cites the paper
 in its entry for the site's key [Ko77], whose citation is the Russian paper
-Diskret. Analiz Vyp. 31 (1977), 17--56, 90; the site's own entry for [Ko77] cites that Russian paper alone (MR 543833);
-the paper's own reference 12 gives that Russian paper as "Metody Diskret.
-Analiz. 31 (1977) 17--56 (in Russian)" and its reference 11 is the 1976
-announcement filed as
+Diskret. Analiz Vyp. 31 (1977), 17--56, 90; the site's own entry for [Ko77]
+(read 2026-10-07) cited that Russian paper alone (MR 543833); the paper's own
+reference 12 gives that Russian paper as "Metody Diskret. Analiz. 31 (1977)
+17--56 (in Russian)" and its reference 11 is the 1976 announcement filed as
 [[extremal_graph_theory/korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles]].
 Its reference 4 is the 1960 evolution paper
 [[extremal_graph_theory/erdos_1960_evolution_random_graphs/_index|erdos_1960_evolution_random_graphs]],
@@ -199,13 +199,13 @@ Nothing here is independently reviewed.
   Szemerédi 1975), $k\ge n\exp(2\sqrt{\log n\log\log n})$; "In [14] the
   proof of the main result was not correct" (Pálásti 1971); "In [17] the
   following fact was shown: if $k\ge30n\log n$ then there is a hamiltonian
-  cycle in almost every graph from $\mathscr G(n,k)$" (Pósa 1976; a filing observation, not a
-  review verdict: the problem page records, from a reading of Pósa's paper
-  in full, that its Theorem 3 gives $[c_1n\log n]$ edges without specifying
-  the constant, so the constant $30$ is this paper's attribution); [1]
-  (Angluin and Valiant 1979), a polynomial-time algorithm for
-  $k\ge cn\log n$; then the sentences quoted above on [11] (printed as
-  [1], a misprint), [12] and [9].
+  cycle in almost every graph from $\mathscr G(n,k)$" (Pósa 1976; a filing
+  observation, not a review verdict: the problem page records, from a reading of
+  Pósa's paper in full, that its Theorem 3 gives $[c_1n\log n]$ edges without
+  specifying the constant, so the constant $30$ is this paper's attribution);
+  [1] (Angluin and Valiant 1979), a polynomial-time algorithm for
+  $k\ge cn\log n$; then the sentences quoted above on [11] (printed as [1], a
+  misprint), [12] and [9].
 - References (p. 180, page image), twenty-one items, including Bollobás
   1979; Chvátal and Erdős 1972; Erdős and Rényi 1960 and 1961; Gimadi and
   Perepelica 1973 and 1974; Komlós and Szemerédi 1975 and 1983; Korshunov
@@ -245,8 +245,8 @@ structure only, and the 1977 Russian text remains not held.
 [[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_2|Theorem 2]]
 (printed p. 172) bears on #746 only through Theorem 1: it is the
 binomial-model statement from which the paper derives Theorem 1's
-sufficiency half, by the equivalence of the two models for increasing properties that the
-paper cites to Bollobás's 1979 book.
+sufficiency half, by the equivalence of the two models for increasing properties
+that the paper cites to Bollobás's 1979 book.
 
 **Results.**
 

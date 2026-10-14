@@ -28,7 +28,7 @@ them has length $\geq t$.
 
 Estimate $h_t(d)$.
 
-**Formulation.** The site's wording as of 2026-09-19, last edited 28
+**Formulation.** The site's wording as accessed 2026-09-19, last edited 28
 October 2025. The distance between two edges is the length of a shortest path
 joining an endpoint of one to an endpoint of the other, one less than their
 distance in the line graph, so $h_t(d)-1$ is the largest number of edges of a
@@ -148,11 +148,11 @@ https://www.erdosproblems.com/934, accessed 2026-09-19.
   [[../library/extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/theorem_1_11|theorem_1_11]].
 - [CvBK26] Cames van Batenburg, W. and Korsky, S., Asymptotically attaining
   the Moore bound. arXiv:2608.03965v1 (4 August 2026), "7+ε pages"; a
-  preprint; its arXiv record (abstract only).
+  preprint; its arXiv record (abstract only), accessed 2026-09-19.
 
 **Formalization.** None. formal-conjectures has no file `ErdosProblems/934.lean`
-at main the site's indicator reads "Formalised statement? No",
-and the community database (teorth/erdosproblems, `data/problems.yaml` as of
+(main on 2026-10-07), the site's indicator reads "Formalised statement? No",
+and the community database (teorth/erdosproblems, `data/problems.yaml`, read
 2026-09-19) lists the problem as open, unformalized and with no formal-proof
 field as of its last update, dated 31 August 2025. A thread post of 17 August
 2026 describes a Lean 4 proof of the single value $h_3(4)=71$ in an external

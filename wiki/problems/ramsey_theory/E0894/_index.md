@@ -64,9 +64,9 @@ gives a proper coloring of the graph with at most
 $1+c^{-1}\epsilon^{-1}|\log\epsilon|$ colors. This is the site's
 $\ll\epsilon^{-1} \log(1/\epsilon)$ bound. The same paper gives a self-contained
 elementary coloring with $4^K$ colors, $K=\lceil2\epsilon^{-1}\rceil$, on its
-p. 3. It also shows that the power of $\epsilon$ in the bound cannot be improved.
-The earlier solutions of the Diophantine question behind the reduction (de
-Mathan and Pollington, 1979--80) are the site's account of Problem 464.
+p. 3. It also shows that the power of $\epsilon$ in the bound cannot be
+improved. The earlier solutions of the Diophantine question behind the reduction
+(de Mathan and Pollington, 1979--80) are the site's account of Problem 464.
 Pollington's theorem gives a second route to finiteness through the reduction,
 without an explicit dependence on $\epsilon$. Katznelson's own Theorem 1.1 (p.
 211), "If $\Lambda$ is lacunary then $\chi(\Lambda)<\infty$", is the original
@@ -92,19 +92,19 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [PeSc10] Peres, Y. and Schlag, W., Two Erdős problems on lacunary
   sequences: chromatic number and Diophantine approximation. Bull. Lond.
   Math. Soc. 42 (2010), no. 2, 295--300, doi:10.1112/blms/bdp126 (Crossref
-  record, issued April 2010); arXiv:0706.0223v1 (1 June
-  2007, the only arXiv version, 9 pages; read). Problems A and B
-  (p. 1),
-  the reduction and Theorem 1.1 (p. 2), the elementary coloring (p. 3),
-  Theorem 3.1 (pp. 4--6), Section 4 (pp. 6--7), the Remark (p. 8). Page
-  references are to the preprint. Library home:
+  record, issued April 2010, read 2026-09-18); arXiv:0706.0223v1 (1 June 2007,
+  the only arXiv version, 9 pages). Problems A and B (p. 1), the reduction and
+  Theorem 1.1 (p. 2), the elementary coloring (p. 3), Theorem 3.1 (pp. 4--6),
+  Section 4 (pp. 6--7), the Remark (p. 8). Page references are to the preprint.
+  Library home:
   [[../library/irrationality/peres_2010_two_erdos_problems_lacunary_sequences_chromatic/_index|peres_2010_two_erdos_problems_lacunary_sequences_chromatic]].
 - [Po79b] Pollington, A. D., On the density of sequence $\{n_k\xi\}$.
   Illinois J. Math. 23 (1979), no. 4, 511--515, doi:10.1215/ijm/1256047933;
   open access at Project Euclid. Library home:
   [[../library/number_theory/pollington_1979_density_sequence_n_k_xi/_index|pollington_1979_density_sequence_n_k_xi]].
 - [Du06] Dubickas, A., On the fractional parts of lacunary sequences. Math.
-  Scand. 99 (2006), no. 1, 136--146, doi:10.7146/math.scand.a-15004. Theorem 1 (p. 136) and the chromatic bound $\chi(G)\le9(r+2)^2$ for the graph on the
+  Scand. 99 (2006), no. 1, 136--146, doi:10.7146/math.scand.a-15004. Theorem 1
+  (p. 136) and the chromatic bound $\chi(G)\le9(r+2)^2$ for the graph on the
   reals (p. 137). Library home:
   [[../library/number_theory/dubickas_2006_fractional_parts_lacunary_sequences/_index|dubickas_2006_fractional_parts_lacunary_sequences]].
 - [AkMo04] Akhunzhanov, R. K. and Moshchevitin, N. G., On the chromatic
@@ -136,9 +136,9 @@ directory `FormalConjectures/ErdosProblems/` listed in full on 2026-09-18.
 The community database (teorth/erdosproblems) records the problem proved
 (as of its last update, dated 31 August 2025) and the statement formalized
 since 2026-09-19, and its `formal_status` field reads unformalized with no
-formal proof recorded (2026-10-06); the site's indicator reads "Formalised statement?
-Yes". The formalization of Problem 464's
-statement is recorded on that page.
+formal proof recorded (2026-10-06); the site's indicator reads "Formalised
+statement? Yes" (read 2026-10-07). The formalization of Problem 464's statement
+is recorded on that page.
 
 ## Current assessment
 
@@ -155,7 +155,7 @@ colors by the position of $n\theta$ modulo $1$), so that the solution of
 Problem 464 answers the question yes; and it names Peres and Schlag's
 coloring with at most $\ll\epsilon^{-1}\log(1/\epsilon)$ colors as the best
 known quantitative bound. There are no comments and no proof claims. The
-community database record says proved.
+community database record (read 2026-09-18) says proved.
 
 **The status-defining theorem (p. 2).**
 [[../library/irrationality/peres_2010_two_erdos_problems_lacunary_sequences_chromatic/theorem_1_1|Theorem 1.1]]

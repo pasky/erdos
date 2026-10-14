@@ -120,7 +120,7 @@ https://www.erdosproblems.com/711, accessed 2026-09-18.
 - [ChKo26] Chen, K. and Korsky, S., Improved bounds for distinct multiples
   in intervals. arXiv:2607.26450 (v1 of 29 July 2026 by Chen alone, v2 of 13
   August 2026 with Korsky; no journal reference). Not held; arXiv abstract
-  read; a preprint pointed to from the thread of Problem 709.
+  read 2026-09-18; a preprint pointed to from the thread of Problem 709.
 
 **Formalization.** None found on 2026-09-18: the problem page shows no
 formalized statement; there is no `ErdosProblems/711.lean` in

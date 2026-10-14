@@ -107,10 +107,10 @@ Problem #1155, https://www.erdosproblems.com/1155, accessed 2026-10-07.
   the main result is paged at
   [[../library/extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal/theorem_1_1|theorem_1_1]].
 
-**Formalization.** None in the catalogs: formal-conjectures has no file
-`ErdosProblems/1155.lean` (main), the site's page shows no formalized
-statement, and the community database records the problem open (last update 23
-January 2026) and unformalized (both). The OpenAI release proves its theorem in
+**Formalization.** None in the catalogs: on 2026-10-07 formal-conjectures had
+no file `ErdosProblems/1155.lean` on main, the site's page showed no formalized
+statement, and the community database recorded the problem open (last update 23
+January 2026) and unformalized. The OpenAI release proves its theorem in
 Lean against its own model of the process, the declaration
 `OAI.SharpTerminalLeave.sharp_terminal_leave`; the corpus's verification built
 it at the pinned revision with the toolchain `leanprover/lean4:v4.34.1`, found
@@ -124,17 +124,18 @@ of the terminal graph.
 ## Current assessment
 
 **The question (site formulation of 2026-10-07).** The statement above;
-OPEN; last edited 25 January 2026. The site's commentary, in this page's
-words: the problem is Bollobás and Erdős's, posed in 1990 at a graph theory
-conference in Fairbanks, Alaska, as [Bo98] tells it, and [Va99] records that
-the problem came from wanting to generate a random triangle-free graph; Grable
-[Gr97] proved $\mathbb P(f(n)>n^{7/4+\epsilon})\to0$ for every $\epsilon>0$
-(an attribution qualified below); and the theorem of Bohman, Frieze and Lubetzky [BFL15], $f(n)=n^{3/2+o(1)}$
-almost surely, is restated by the commentary as
-$\mathbb P(n^{3/2-\epsilon}<f(n)<n^{3/2+\epsilon})\to1$ for every
-$\epsilon>0$. The thread's one comment (24 January 2026, marked as addressed
-by the site) reports the same theorem and the origin story from pp. 231--232
-of [Bo98]. The proof-claim tab is empty.
+last edited 25 January 2026. The site's last label was OPEN. The site's
+commentary, in this page's words: the problem is Bollobás and Erdős's, posed in
+1990 at a graph theory conference in Fairbanks, Alaska, as [Bo98] tells it, and
+[Va99] records that the problem came from wanting to generate a random
+triangle-free graph; Grable [Gr97] proved $\mathbb P(f(n)>n^{7/4+\epsilon})\to0$
+for every $\epsilon>0$ (an attribution qualified below); and the theorem of
+Bohman, Frieze and Lubetzky [BFL15], $f(n)=n^{3/2+o(1)}$ almost surely, is
+restated by the commentary as
+$\mathbb P(n^{3/2-\epsilon}<f(n)<n^{3/2+\epsilon})\to1$ for every $\epsilon>0$.
+The thread's one comment (24 January 2026, marked as addressed by the site)
+reports the same theorem and the origin story from pp. 231--232 of [Bo98]. The
+proof-claim tab was empty.
 
 **The exponent, proved.** Theorem 1 of [BFL15], as its library card records
 it: with high probability the process stops after $n^2/6-n^{3/2+o(1)}$

@@ -29,12 +29,13 @@ edges, embeds into one of the two extremal colorings.
 
 Y. Kohayakawa, M. Simonovits and J. Skokan, *The 3-colored Ramsey number of odd
 cycles*, Proceedings of GRACO2005, Electron. Notes Discrete Math. **19** (2005),
-397--402; DOI 10.1016/j.endm.2005.05.053 (the Crossref record, dates it June
-2005): an extended abstract. The full proof is the authors' CDAM Research Report
-LSE-CDAM-2008-16 (38 pages; dated September 2008 on its abstract page in the
-series, and 22 September 2008 in the PDF's metadata), which is the copy read for
-this card; no journal version of the full report was found on 2026-09-17 (a
-Crossref bibliographic query returned only the proceedings abstract).
+397--402; DOI 10.1016/j.endm.2005.05.053 (the Crossref record, read on
+2026-09-17, dates it June 2005): an extended abstract. The full proof is the
+authors' CDAM Research Report LSE-CDAM-2008-16 (38 pages; dated September 2008
+on its abstract page in the series, read 2026-10-07, and 22 September 2008 in
+the PDF's metadata), which is the copy read for this card; no journal version of
+the full report was found on 2026-09-17 (a Crossref bibliographic query returned
+only the proceedings abstract).
 
 The copy read for this card is
 the CDAM report, from the CDAM reports page of the London School of

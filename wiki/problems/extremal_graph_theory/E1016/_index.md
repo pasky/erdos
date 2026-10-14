@@ -33,7 +33,7 @@ $$
 
 where $\log_*n$ is the iterated logarithmic function?
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording as accessed 2026-09-18 (page last
 edited 27 December 2025). A graph on $n$ vertices with a cycle of
 every length from $3$ to $n$ is pancyclic; writing $m(n)$ for the least
 number of edges of a pancyclic graph on $n$ vertices, as Griffin does,
@@ -91,23 +91,24 @@ accessed 2026-09-18: the problem page (OPEN, with the site's note that no
 finite computation can settle it; last edited 27 December 2025; source key
 [Er71]; commentary citing [Bo71], [Gr13], [GKW16]; OEIS A105206 linked), its
 one-comment discussion thread (18 October 2025) and its proof-claim tab,
-empty on that date. The site's page showed OPEN and was
-last edited 27 December 2025, and its proof-claim tab held one proof claim
-with one comment. Cite as: T. F. Bloom, Erdős Problem #1016,
+empty on that date. The site's page, accessed 2026-10-07, was last edited 27
+December 2025; its last label was OPEN, and its proof-claim tab held one proof
+claim with one comment. Cite as: T. F. Bloom, Erdős Problem #1016,
 https://www.erdosproblems.com/1016, accessed 2026-10-07.
 
 **References.**
 
 - [Bo71] Bondy, J. A., Pancyclic graphs. I. J. Combinatorial Theory Ser. B 11
   (1971), no. 1, 80--84, doi:10.1016/0095-8956(71)90016-5 (received April 3,
-  1969, per p. 80; Crossref record; the record carries the publisher's
-  open-archive license). The extremal problem and its bounds,
+  1969, per p. 80; Crossref record read 2026-09-18; the record carries the
+  publisher's open-archive license). The extremal problem and its bounds,
   p. 84; the Theorem, pp. 80--81. Library home:
   [[../library/extremal_graph_theory/bondy_1971_pancyclic_graphs_i/_index|bondy_1971_pancyclic_graphs_i]];
   the bounds are paged at
   [[../library/extremal_graph_theory/bondy_1971_pancyclic_graphs_i/claim_p84|claim_p84]].
 - [Gr13] S. Griffin, Minimal Pancyclicity. arXiv:1312.0274v1 (1 December 2013;
-  dated 6 September 2013 on its first page; 6 pages; the only arXiv version): a
+  dated 6 September 2013 on its first page; 6 pages; the only arXiv version,
+  with no journal reference and no Crossref record found on 2026-09-18): a
   preprint. Table 1 and Claim 1 with its proof, p. 2; Theorem 3 and
   Proposition 2, p. 3. Library home:
   [[../library/extremal_graph_theory/griffin_2013_minimal_pancyclicity/_index|griffin_2013_minimal_pancyclicity]];
@@ -119,7 +120,7 @@ https://www.erdosproblems.com/1016, accessed 2026-10-07.
   bipancyclic graphs. SpringerBriefs in Mathematics, Springer (2016),
   xii+108 pp., doi:10.1007/978-3-319-31951-3; its Chapter 4, "Minimal
   Pancyclicity", pp. 35--47, doi:10.1007/978-3-319-31951-3_4 (Crossref
-  record read). The site names its Section 4.5 as the earliest
+  record read 2026-09-18). The site names its Section 4.5 as the earliest
   proof in print of the upper bound. The values for $n\le37$, pp. 37--42;
   Theorems 18 and 19, pp. 46--47. Library home:
   [[../library/extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/_index|george_khodkar_wallis_2016_minimal_pancyclicity]];
@@ -139,11 +140,12 @@ https://www.erdosproblems.com/1016, accessed 2026-10-07.
 - [AlKr25] Alon, Yahav and Krivelevich, Michael, Sparse pancyclic subgraphs
   of random graphs. SIAM J. Discrete Math. 39 (2025), no. 1, 562--574,
   doi:10.1137/23M1598969 (Crossref record); arXiv:2308.01564v1 (3 August
-  2023). Not held; abstract only, from the arXiv API record.
+  2023). Not held; abstract only, from the arXiv API record of 2026-09-18.
   Context.
 - [OEIS] Sequence A105206, "Number of edges in a pancyclic graph on n+2
   vertices with the fewest possible edges", by J. C. George, W. D. Wallis
-  and A. Marr (2005; terms to $n=22$ added 2011), <https://oeis.org/A105206>.
+  and A. Marr (2005; terms to $n=22$ added 2011), <https://oeis.org/A105206>,
+  read 2026-09-18.
 
 **Formalization.** None in the catalogs: formal-conjectures had no file
 `ErdosProblems/1016.lean` on 2026-09-18 (the directory
@@ -276,7 +278,7 @@ pancyclic for $23\le n\le37$, "All of these values agree with [2]" (George,
 Marr and Wallis, a preprint). In the site's notation $h(n)=0$ for $n=3$,
 $1$ for $4\le n\le5$, $2$ for $6\le n\le8$, $3$ for $9\le n\le14$, $4$ for
 $15\le n\le24$ and $5$ for $25\le n\le37$; each satisfies
-$\log_2(n-1)-1\le h(n)\le\log_2n+1$. OEIS A105206 lists
+$\log_2(n-1)-1\le h(n)\le\log_2n+1$. OEIS A105206 (read 2026-09-18) lists
 $3,5,6,8,9,10,12,13,14,15,16,17,19,20,21,22,23,24,25,26$ with offset $3$,
 which are Griffin's $m(n)$ for $3\le n\le22$; the entry's name speaks of
 "$n+2$ vertices" while its offset and its example ("For $n=3$ the answer is
@@ -352,22 +354,21 @@ thread's Jia 1996 bounds and its Shi 1994 remark are unverified reports.
 statement of the problem; the pending claim's own Lean development is
 described, not built or audited in this corpus, on its claim page.
 
-**Proof claims on the site.** The site's proof-claim
-tab carries one full claim, submitted 2026-09-24 by the account KNT, who
-credits the model GPT-6 Astra: a write-up and a Lean 4 development in an
-external repository asserting $h(n)=\log_2n+\log_*n+O(1)$ for every $n\ge3$,
-the lower bound from a bound on the probability that a random even edge set
-is a forest, which limits how many cycle lengths a graph of given cycle rank
-can realize, and the upper bound from a chord construction. The author's
-comment of 2026-09-26 replaced the first write-up by a shorter one with a
-smaller formalization. The claim, its postings, its Lean statement and its
-standing are recorded on
-[[problems/extremal_graph_theory/E1016/claims/2026_09_24_knt|the claim page]]
-as claimed: the site's label was unchanged (OPEN; page last edited 27 December
-2025), the entry has no comment but the author's, nothing is refereed or
-reviewed, and nothing was built or checked in this corpus. If it stands, it answers the
-displayed question yes and proves Bondy's upper bound, closing gaps (2) and
-(5) above; this page records it without adopting it.
+**Proof claims on the site.** The site's proof-claim tab
+carried one full claim, submitted 2026-09-24 by the account KNT, who credits the
+model GPT-6 Astra: a write-up and a Lean 4 development in an external repository
+asserting $h(n)=\log_2n+\log_*n+O(1)$ for every $n\ge3$, the lower bound from a
+bound on the probability that a random even edge set is a forest, which limits
+how many cycle lengths a graph of given cycle rank can realize, and the upper
+bound from a chord construction. The author's comment of 2026-09-26 replaced the
+first write-up by a shorter one with a smaller formalization. The claim, its
+postings, its Lean statement and its standing are recorded on
+[[problems/extremal_graph_theory/E1016/claims/2026_09_24_knt|the claim page]] as
+claimed: the site's label was unchanged (OPEN; page last edited 27 December
+2025), the entry had no comment but the author's, nothing is refereed or
+reviewed, and nothing was built or checked in this corpus. If it stands, it
+answers the displayed question yes and proves Bondy's upper bound, closing gaps
+(2) and (5) above; this page records it without adopting it.
 
 ## Known results
 

@@ -34,12 +34,13 @@ DOI (a Crossref bibliographic query on 2026-09-18 returned no record).
 The retained
 [folder-name PDF](eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3.pdf)
 is the journal's own file for paper A54, seven pages with a complete text
-layer; printed page equals PDF page. Provenance: retrieved from <http://math.colgate.edu/~integers/u54/u54.pdf>
-(HTTP 200, one request; the journal is open access); 314,157 bytes. The file
-prints no license line; the journal's home page
-(https://math.colgate.edu/~integers/, read 2026-10-02) states "All works of this
-journal are licensed under a Creative Commons Attribution 4.0 International
-License", the Creative Commons Attribution 4.0 license.
+layer; printed page equals PDF page. Provenance: retrieved from
+<http://math.colgate.edu/~integers/u54/u54.pdf> (HTTP 200, one request; the
+journal is open access); 314,157 bytes. The file prints no license line; the
+journal's home page (https://math.colgate.edu/~integers/, read 2026-10-02)
+states "All works of this journal are licensed under a Creative Commons
+Attribution 4.0 International License", the Creative Commons Attribution 4.0
+license.
 
 Read status: claims checked for Proposition 3, Theorem 1, Proposition 4,
 Corollaries 2--4 and Proposition 5, and for the introduction's history of

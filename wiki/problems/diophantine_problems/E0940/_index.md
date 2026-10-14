@@ -76,9 +76,9 @@ sieve), that the sums of three nonnegative cubes have positive lower
 density, so at $r=3$ the sums of at most three $3$-powerful numbers would
 not have density $0$; it is recorded as a conditional claim on
 [[problems/diophantine_problems/E0940/claims/2021_08_07_wang|its claim page]]
-and settles nothing unconditionally. Beyond the site record, the site's
-proof-claims tab and the sources cited, no status search is recorded on this
-page.
+and settles nothing unconditionally. Beyond the site record (accessed
+2026-09-04), the site's proof-claims tab (accessed 2026-10-06) and the sources
+cited, no status search is recorded on this page.
 
 On 2026-10-06 the site's proof-claims tab carried one partial proof
 claim, submitted 2026-09-06 by Basile Beyer de Ryke with a copy of the

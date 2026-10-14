@@ -124,10 +124,10 @@ the Statement). Not otherwise checked here.
 Lemma 2 (p. 163) is Lemma 2.7 of the author's Length and denominators of
 Egyptian fractions, II (J. Number Theory 28, 1988), and
 [[unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/lemma_4|Lemma 4]]
-(p. 164) is Theorem 1 of the author's Part I (Canad. Math. Bull. 33, 1990); neither is
-held. Lemma 1 (p. 163) is stated as "a simple consequence of prime number
-theory", and the count of summands in Lemma 5 uses Mertens's first theorem,
-cited to Tenenbaum's book (1995). Lemma 3 is proved from Lemma 2 and
+(p. 164) is Theorem 1 of the author's Part I (Canad. Math. Bull. 33, 1990);
+neither is held. Lemma 1 (p. 163) is stated as "a simple consequence of prime
+number theory", and the count of summands in Lemma 5 uses Mertens's first
+theorem, cited to Tenenbaum's book (1995). Lemma 3 is proved from Lemma 2 and
 Lemma 5 from Lemmas 2 and 3 (pp. 163--167).
 
 ## Bears on

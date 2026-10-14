@@ -47,9 +47,8 @@ records that description as the site thread's statement, not as a finding
 of its own. No notice is printed in the manuscript (pp. 1--2 and 8--9 read; the
 title page's front matter is the title, the author, whose footnote gives an
 email address and an ORCID iD, and the date "May 27, 2026"); the ResearchGate
-posting (Source below) returned HTTP 403 when read, so no
-hosting page's terms were observed, and no publisher page exists; the term is
-unstated.
+posting (Source below) returned HTTP 403 when read on 2026-10-07, so no hosting
+page's terms were observed, and no publisher page exists; the term is unstated.
 
 Let f(N) be the largest size of a subset A of [N] containing no distinct a,
 b_1, ..., b_k with 1/a = 1/b_1 + ... + 1/b_k. Theorem 1 claims f(N) <=

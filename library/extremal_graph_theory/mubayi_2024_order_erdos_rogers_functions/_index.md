@@ -29,8 +29,8 @@ proof gives the explicit constant 2 to the 100 s.
 Dhruv Mubayi, Jacques Verstraete, On the order of Erdős-Rogers functions.
 arXiv:2401.02548 (2024); published as "On the order of the classical
 Erdős–Rogers functions", Bull. Lond. Math. Soc. 57 (2025), no. 2, 582--598,
-doi:10.1112/blms.13214 (published online 20 December 2024; Crossref record
-read).
+doi:10.1112/blms.13214 (published online 20 December 2024; Crossref record read
+2026-09-18).
 
 **Retained artifact.** The
 [folder-name PDF](mubayi_2024_order_erdos_rogers_functions.pdf) is

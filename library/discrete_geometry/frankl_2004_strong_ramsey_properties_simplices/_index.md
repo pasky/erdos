@@ -62,11 +62,11 @@ printed first page identify volume 139 (2004). The publisher records December
 2004 as the issue date. The manuscript was received 27 May 2001 and revised 16
 January 2003. Physical PDF pages 1–22 are printed pages 215–236, without a
 cover. The PDF's 2007 scan-generation metadata is not a later mathematical
-version or publication date. Primary records were checked. No equivalence to a
-separate technical-report version is asserted. No notice is printed; the
-publisher's article page shows only the site-level notice "© 2026 Springer
-Nature", marks the article as a preview of subscription content and names no
-Creative Commons or open-access license
+version or publication date. Primary records were checked on 5 September 2026.
+No equivalence to a separate technical-report version is asserted. No notice is
+printed; the publisher's article page shows only the site-level notice "© 2026
+Springer Nature", marks the article as a preview of subscription content and
+names no Creative Commons or open-access license
 (https://link.springer.com/article/10.1007/BF02787550, read 2026-10-02), every
 other right reserved.
 

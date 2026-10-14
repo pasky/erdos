@@ -32,7 +32,7 @@ J. Beck, *On size Ramsey number of paths, trees and circuits. II*. In: J.
 Nešetřil and V. Rödl (eds.), *Mathematics of Ramsey Theory*, Algorithms and
 Combinatorics 5, Springer, Berlin (1990), 34--45. The pages of Problems 559
 and 720 cite it as [Be90]; erdosproblems.com has no key Be90 and cites only
-Beck's 1983 paper [Be83b] for those problems.
+Beck's 1983 paper [Be83b] for those problems (checked 2026-10-07).
 
 **Copy read.** The copy read for this card is the chapter alone, printed pp.
 34--45 (volume PDF pp. 48--59 of an image-only scan of the whole volume,

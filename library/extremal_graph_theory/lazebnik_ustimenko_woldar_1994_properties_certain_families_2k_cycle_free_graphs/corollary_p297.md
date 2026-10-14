@@ -109,10 +109,10 @@ the even circuit theorem for the upper bound.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0574/_index|Problem 574]]: through the bipartite
-  deduction above, the Corollary's graphs contradict the conjectured
-  asymptotic at $k=3$ and $k=5$, and erdosproblems.com names the paper as
-  apparently the first disproof; the
-  $k=3$ graphs are the ones the page's Füredi--Naor--Verstraëte account
-  also uses, while the page's $k=5$ case rests on this paper alone. The
-  paper is silent on $k=2$ and on every $k\ge4$ other than $5$.
+- [[../wiki/problems/extremal_graph_theory/E0574/_index|Problem 574]]: through
+  the bipartite deduction above, the Corollary's graphs contradict the
+  conjectured asymptotic at $k=3$ and $k=5$, and erdosproblems.com names the
+  paper as apparently the first disproof; the $k=3$ graphs are the ones the
+  page's Füredi--Naor--Verstraëte account also uses, while the page's $k=5$ case
+  rests on this paper alone. The paper is silent on $k=2$ and on every $k\ge4$
+  other than $5$.

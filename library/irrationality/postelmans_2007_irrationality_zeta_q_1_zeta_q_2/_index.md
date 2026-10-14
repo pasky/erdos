@@ -32,14 +32,14 @@ Number Theory **126** (2007), no. 1, 119--154, DOI
 10.1016/j.jnt.2006.11.011; Zbl 1138.11027 (reviewer W. Zudilin);
 arXiv:math/0604312.
 
-The copy read for this card is
-arXiv:math/0604312v1 (stamped 13 April 2006; 34 pages; footer "Preprint
-submitted to J. Number Theory"), with a text layer; the theorems were also
-checked on the page images. Provenance: fetched from
-<https://arxiv.org/pdf/math/0604312> on 2026-09-17 (UTC), 292,893 bytes. The
-journal version was not compared; result labels and pages below are those of the
-arXiv version. The arXiv record carries no license field, so arXiv's assumed
-license applies (arXiv:math/0604312), every other right reserved.
+The copy read for this card is arXiv:math/0604312v1
+(<https://arxiv.org/abs/math/0604312v1>; stamped 13 April 2006; 34 pages; footer
+"Preprint submitted to J. Number Theory"), with a text layer; the theorems were
+also checked on the page images. Provenance: fetched from
+<https://arxiv.org/pdf/math/0604312>, 292,893 bytes. The journal version was not
+compared; result labels and pages below are those of the arXiv version. The
+arXiv record carries no license field, so arXiv's assumed license applies
+(arXiv:math/0604312), every other right reserved.
 
 ## Contents
 

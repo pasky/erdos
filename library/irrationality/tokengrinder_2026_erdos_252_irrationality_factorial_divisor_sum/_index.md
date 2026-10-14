@@ -42,17 +42,15 @@ they stood on 2026-09-17. The folder slug names the account line of the
 README; it attributes the mathematics to no person, and the author's own
 attribution of the proof to an AI system is quoted on the source record.
 
-**Provenance.** Cloned 2026-09-17T05:38:07Z from
-<https://github.com/tokengr1nder/Erdos252> at HEAD
-`dc071aafce41bbae41caf4c015499db6dafafd11`; 17 tracked files, 434,359
-bytes. The tracked files are retained unedited under
-`evidence/assets/upstream/`, with the upstream's own `SHA256SUMS` (15 entries,
-verified at filing), its `LICENSE` and its disclaimed exposition `PROOF.pdf`;
-they are the reviewed bytes and are not edited. Toolchain pins: Lean
-`leanprover/lean4:v4.33.1`; Mathlib
+**Provenance.** Cloned from <https://github.com/tokengr1nder/Erdos252> at HEAD
+`dc071aafce41bbae41caf4c015499db6dafafd11`; 17 tracked files, 434,359 bytes. The
+tracked files are retained unedited under `evidence/assets/upstream/`, with the
+upstream's own `SHA256SUMS` (15 entries, verified at filing), its `LICENSE` and
+its disclaimed exposition `PROOF.pdf`; they are the reviewed bytes and are not
+edited. Toolchain pins: Lean `leanprover/lean4:v4.33.1`; Mathlib
 `0df444a360eaa60ab8c11dca51a86af692955474`, the commit tagged `v4.33.1`;
 `fixedToolchain: true` in `lake-manifest.json`. The upstream `main` was still at
-this commit when checked; any later commit is unreviewed.
+this commit when checked at 2026-09-17T07:49Z; any later commit is unreviewed.
 
 ## What the source contains
 
@@ -62,11 +60,10 @@ this commit when checked; any later commit is unreviewed.
   [result page](erdos_252.md) gives the Lean text, its unfolding to Mathlib
   primitives and the structure of the argument. The statement file of
   formal-conjectures (`FormalConjectures/ErdosProblems/252.lean`, `main`
-  at commit `40e7c986`) states
-  `∀ k ≥ 1, Irrational (erdos_252_sum k)` and is tagged `research open`;
-  this development does not import it, and the two agree by unfolding
-  both to Mathlib's `ArithmeticFunction.sigma`, `Nat.factorial`, `tsum`
-  and `Irrational`.
+  at commit `40e7c986`) states `∀ k ≥ 1, Irrational (erdos_252_sum k)` and is
+  tagged `research open`; this development does not import it, and the two agree
+  by unfolding both to Mathlib's `ArithmeticFunction.sigma`, `Nat.factorial`,
+  `tsum` and `Irrational`.
 - **The proposed solution file.** `Erdos252/Solution.lean`: 1,074 lines in
   one `noncomputable section`, 89 named results (85 theorems and 4 private
   theorems) and 38 definitions (36 `def`s and 2 `abbrev`s), with no

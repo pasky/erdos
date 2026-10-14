@@ -112,7 +112,8 @@ $C_6$-free graph alone need not meet the $C_5$ exclusion, so the bipartite
 part of the source is essential to this application.
 
 The same graphs are the construction of [LUW94b], which the site names as
-apparently the first disproof and which reaches $k=5$ as well. Its Theorem (p. 295, paged at
+apparently the first disproof and which reaches $k=5$ as well. Its Theorem (p.
+295, paged at
 [[../library/extremal_graph_theory/lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs/theorem_p295|theorem_p295]])
 takes a family of bipartite $2k$-cycle-free graphs of girth at least $2k+2$ with
 $(\lambda+o(1))v^r$ edges on $v$ vertices and, for $2\le t\le k-1$, replaces

@@ -67,7 +67,7 @@ sentence about authorship or assistance (the October 5 companion's README does).
 The title page names OpenAI as the sole author. These are the source's own
 statements, recorded as attestations and not as this corpus's review. No
 refereed publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 **Formalization.** The release's catalog `lean/formalization.yaml` lists,

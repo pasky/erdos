@@ -132,7 +132,7 @@ the formal statement, which turned out to be a misformalization (it assumed
 $m\ne0$ where $n\ne0$ was meant, so $n=0$ gave a trivial proof); the issue it
 filed (formal-conjectures issue 1282, opened 28 November 2025) was closed on 14
 January 2026, and the pinned statement quantifies $n$ over `ℕ+`. The community
-database (teorth/erdosproblems) lists the state
+database (teorth/erdosproblems, accessed 2026-09-18) lists the state
 `proved (Lean)` as of its last update on 23 August 2026, the statement
 formalized since 31 August 2025, and no formal-proof URL.
 

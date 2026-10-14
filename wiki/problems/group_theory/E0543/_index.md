@@ -53,7 +53,7 @@ https://www.erdosproblems.com/543.
 
 **Formalization.** None recorded: formal-conjectures holds no statement
 file for the problem, and the community database records the statement as
-not formalized (both checked).
+not formalized (both checked 2026-10-07).
 
 ## Current assessment
 

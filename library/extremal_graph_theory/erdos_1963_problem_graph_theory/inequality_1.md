@@ -29,9 +29,9 @@ comes from the proof of (2) (§3, p. 223).
 p. 220 the seven towns $T_0,\ldots,T_6$ with roads directed from $T_a$ to
 $T_{a+1}$, $T_{a+2}$ and $T_{a+4}$, indices reduced modulo $7$, have
 property $S_2$, because the pairwise differences of $1,2,4$ give all of
-$\pm1,\pm2,\pm3$; and the paper says that the proof of (1) shows no such choice is possible
-with $n\leqslant6$ towns. The guess, quoted from p. 221: "The formula
-$f(k)=2^{k+1}-1$ fits all these cases and it may well be correct for all
+$\pm1,\pm2,\pm3$; and the paper says that the proof of (1) shows no such choice
+is possible with $n\leqslant6$ towns. The guess, quoted from p. 221: "The
+formula $f(k)=2^{k+1}-1$ fits all these cases and it may well be correct for all
 $k$."
 
 **Inequality (1)** (p. 221).

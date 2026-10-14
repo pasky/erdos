@@ -42,18 +42,18 @@ claim page is
 (accepted on the refereed publication and the site's credit).
 
 **Source.** [erdosproblems.com/781](https://www.erdosproblems.com/781), accessed
-2026-10-07 (no last-edited date; empty discussion thread and proof-claim
-tab). Cite as: T. F. Bloom, Erdős Problem #781,
+2026-10-07 (no last-edited date; empty discussion thread); its proof-claim tab
+was empty. Cite as: T. F. Bloom, Erdős Problem #781,
 https://www.erdosproblems.com/781.
 
 **References.**
 
 - [AlSp89] Alon, N. and Spencer, Joel, Ascending waves. J. Combin. Theory Ser. A
   52 (1989), no. 2, 275-287, doi:10.1016/0097-3165(89)90033-2 (Crossref
-  record read); held.
+  record read 2026-10-07); held.
 - [BEF90] Brown, T. C. and Erdős, P. and Freedman, A. R., Quasi-progressions and
   descending waves. J. Combin. Theory Ser. A 53 (1990), no. 1, 81-95,
-  doi:10.1016/0097-3165(90)90021-N (Crossref record read); held.
+  doi:10.1016/0097-3165(90)90021-N (Crossref record read 2026-10-07); held.
 
 **Formalization.** The statement is in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6dfe3302c551c3a606ad87d85d880b41a7c44d9c/FormalConjectures/ErdosProblems/781.lean)

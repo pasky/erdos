@@ -124,7 +124,7 @@ built neither file, so no `formalized` evidence is listed.
 
 ## Current assessment
 
-**The question.** The site states the problem as
+**The question.** The site (accessed 2026-09-17) states the problem as
 above, showed PROVED, cites [ErGr80, p. 38], and says: Bleicher and Erdős
 [BlEr76] showed $D(b)\ll b(\log b)^2$ and $D(p)\gg p\log p$ for primes; it
 credits the solution to Yokota [Yo88], with the bound

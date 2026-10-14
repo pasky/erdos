@@ -38,7 +38,7 @@ irrationality.
 Source: <https://www.fq.math.ca/14-5.html>. No notice is printed on the file's
 three pages; the journal's issue page, which lists the article, carries the
 footer "Copyright © 2010 The Fibonacci Association. All rights reserved."
-(https://www.fq.math.ca/14-5.html), every other right reserved.
+(https://www.fq.math.ca/14-5.html, read 2026-10-02), every other right reserved.
 
 **Results.**
 

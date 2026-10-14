@@ -38,8 +38,9 @@ the Erdős--Turán paper on pp. 221--234; that existing source home keeps its ow
 identity. The scan carries no notice; the publisher's page for the journal's
 backfile, read for a 1978 article in the same journal, shows "© Akadémiai Kiadó"
 under "Reprints and permissions" with subscription access
-(https://link.springer.com/article/10.1007/BF01902213), and this article's own
-page (DOI 10.1007/BF02066686) was not consulted; every other right reserved.
+(https://link.springer.com/article/10.1007/BF01902213, read 2026-10-02), and
+this article's own page (DOI 10.1007/BF02066686) was not consulted; every other
+right reserved.
 
 For distinct $-1\le x_1<\cdots<x_n\le1$ and ordinary fundamental polynomials
 $l_k$, Theorem 1 on printed p. 235 / physical p. 1 states

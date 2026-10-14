@@ -34,7 +34,7 @@ citation artifact is Zenodo v7,
 publication date 6 September 2026 and whose record was created 7 September
 2026. Zenodo groups it with the historical v3 deposit under concept DOI
 [10.5281/zenodo.22348353](https://doi.org/10.5281/zenodo.22348353).
-The official latest-version endpoint was checked and
+The official latest-version endpoint was checked at 2026-09-07T04:33:04Z and
 returned this exact v7 metadata and file identities. That is a time-bounded
 selection record, not a promise that v7 remains the newest version later. No
 notice is printed in `gu_2026_twelve_critical_graphs.pdf`; the Zenodo record it
@@ -42,11 +42,11 @@ was selected from (https://zenodo.org/api/records/22569201, version v7, read
 2026-10-02) names the Creative Commons Attribution 4.0 license, though the
 record's metadata and files have changed since the selection and it no longer
 serves the held bytes. No notice is printed in the v3 PDF read for this card;
-its Zenodo record 22352283 (version v3) had been removed when read on
-2026-10-02 (https://zenodo.org/records/22352283 returns HTTP 410 Gone with the
-tombstone "Record deleted", removal reason "personal-data"), the concept's
-versions listing no longer includes it, and no page now states its license; the
-term is unstated.
+its Zenodo record 22352283 (version v3) had been removed when read on 2026-10-02
+(https://zenodo.org/records/22352283 returns HTTP 410 Gone with the tombstone
+"Record deleted", removal reason "personal-data"), the concept's versions
+listing no longer includes it, and no page now states its license; the term is
+unstated.
 
 ## Reported mathematical scope
 

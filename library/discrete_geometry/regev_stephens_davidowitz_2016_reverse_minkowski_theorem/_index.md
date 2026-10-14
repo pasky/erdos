@@ -28,7 +28,7 @@ extended abstract appeared in Proceedings of the 49th Annual ACM SIGACT
 Symposium on Theory of Computing (STOC 2017), 941--953, DOI
 10.1145/3055399.3055434, and the journal version in Annals of Mathematics 199
 (2024), no. 1, 1--49, DOI 10.4007/annals.2024.199.1.1 (bibliographic data from
-Crossref and the arXiv record).
+Crossref and the arXiv record, read 2026-10-07).
 
 ## Overview
 

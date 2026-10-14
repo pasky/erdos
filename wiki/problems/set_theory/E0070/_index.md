@@ -97,7 +97,7 @@ left as `sorry`. Proof coverage: none of the proofs is reconstructed in this
 corpus.
 
 Search scope: the site's problem page (last edited 23 January 2026) and its
-discussion thread (no comments and no proof claims on 2026-10-07), [Er87],
+discussion thread (no comments on 2026-10-07; no proof claims), [Er87],
 [ErRa56] and the formal-conjectures statement file at the commit linked under
 Formulation; no wider literature search is recorded.
 <!-- BEGIN problem library links -->

@@ -71,11 +71,11 @@ digests the paper.
 **Acceptance.** Refereed publication: Adv. Math. 298 (2016), 534--580,
 doi:10.1016/j.aim.2016.05.001. The site's curator, Thomas Bloom, labeled the
 problem disproved and credits Morris and Saxton [MoSa16] with exactly this
-statement. The thread and the proof-claim tab were empty on 2026-10-07 (page
-last edited 2026-01-23). The text cited is arXiv:1309.2927v3 (11 November 2015;
-v1 posted 11 September 2013, the date of this page). Proof coverage: the
-statement of Proposition 1.4 and the opening of its proof. The proofs of
-Proposition 1.4 and Theorem 1.1 are not compiled in this corpus.
+statement. The proof-claim tab was empty, and the thread was empty on
+2026-10-07 (page last edited 2026-01-23). The text cited is arXiv:1309.2927v3
+(11 November 2015; v1 posted 11 September 2013, the date of this page). Proof
+coverage: the statement of Proposition 1.4 and the opening of its proof. The
+proofs of Proposition 1.4 and Theorem 1.1 are not compiled in this corpus.
 
 **Formalization.** The module `src/latest/ErdosProblems/Erdos59.lean` of
 Boris Alexeev's repository plby/lean-proofs (Lean `v4.33.0`; first added
@@ -99,8 +99,9 @@ footnote 10 says needs $c<0.0007$; so it proves the proposition's
 statement, not their exact count. The single-file copy in
 Jayyhk/erdos-lean (`problems/59/Erdos59.lean`, 9,108 lines, added 2026-08-31
 with the plby file as its recorded source) closes with a comment reporting
-the axioms `propext`, `Classical.choice` and `Quot.sound`. Neither file is
-named by formal-conjectures, which has no file for Problem 59 at `main`; the community database records the
+the axioms `propext`, `Classical.choice` and `Quot.sound`. Neither file was
+named by formal-conjectures, which had no file for Problem 59 at `main` on
+2026-10-07; the community database (accessed 2026-10-06) records the
 problem as "disproved (Lean)" with `formal_status` Lean, its last update
 dated 2026-08-24, and names no artifact. Nothing was built, replayed or
 audited by this project, the fidelity of the Lean statement to the site's

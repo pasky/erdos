@@ -81,8 +81,8 @@ outline is a reading aid, not proof coverage.
 in Combinatorics, Probability and Computing. Crossref gives the issue date
 2007-09-01, which is the page's date. The `reviewed` evidence is the documented
 acceptance by the catalog erdosproblems.com. Its curator, Thomas Bloom, credits
-both answers to this paper in the problem's remarks, and the page carried the
-label PROVED (accessed 2026-10-07). The proof is not compiled or reviewed here.
+both answers to this paper in the problem's remarks (accessed 2026-10-07), and
+the page's last label was PROVED. The proof is not compiled or reviewed here.
 
 **Formalization.** A third party formalized both answers: `not_erdos_880` in
 `src/latest/ErdosProblems/Erdos880.lean` of Boris Alexeev's repository

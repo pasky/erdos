@@ -86,7 +86,7 @@ posted in the thread on 2026-05-12 that a standard check found no issues,
 with a caveat that the presentation overstates what the verifier did, and
 that the proof could be regarded as correct given the checkers named in the
 acknowledgments. The site's remarks (page last edited 10 May 2026) cite only
-Cambie's range; no proof claim on the site and no refereed publication
-were found on 2026-10-07. The title page credits the proof to an AI
+Cambie's range; the site listed no proof claim, and no refereed publication
+was found on 2026-10-07. The title page credits the proof to an AI
 system ("Discovered by the Multiscalar Fields System") with the two named
 authors; the attribution is recorded as the source states it.

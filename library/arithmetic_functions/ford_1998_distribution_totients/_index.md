@@ -22,7 +22,7 @@ from the 1998 article, among them a corrected statement and proof of Theorem 3
 and slightly different versions of Theorems 10, 11, 12 and 14, and neither arXiv
 version was compared with the 2012 copy read for this card. The copy read for
 this card is the author's 2012 revision from the author's publication page
-(https://ford126.web.illinois.edu/papers-ann.html), which says
+(https://ford126.web.illinois.edu/papers-ann.html, read 2026-10-02), which says
 "the PDF version here is the updated 2012 version, with various corrections and
 simplifications to the original paper" and states no terms, and the copy prints
 no notice; the term is unstated.

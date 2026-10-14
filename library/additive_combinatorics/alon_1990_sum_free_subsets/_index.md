@@ -44,14 +44,14 @@ such groups.
 
 N. Alon and D. J. Kleitman, *Sum-free subsets*, in: A Tribute to Paul Erdős (A.
 Baker, B. Bollobás and A. Hajnal, eds.), Cambridge University Press (1990),
-13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record read). The site's key
-[AlKl90] for Problem 792.
+13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record read 2026-09-18). The
+site's key [AlKl90] for Problem 792.
 
 The copy read for this card is a
 fifteen-page scan of the chapter (a cover leaf "Reprinted from A Tribute to
 Paul Erdős ... Cambridge University Press 1990" followed by printed pp.
 13--26; printed p. $n$ is PDF p. $n-11$), image-only with no text layer,
-read on rendered page images. Provenance: retrieved
+read on rendered page images. Provenance: retrieved 2026-09-18T15:40:07Z
 from the first author's publication page,
 <https://web.math.princeton.edu/~nalon/PDFS/Publications2/Sum-free%20subsets.pdf>
 (HTTP 200, one request; the page lists the chapter with this link);

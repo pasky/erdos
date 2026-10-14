@@ -25,7 +25,7 @@ updated: 2026-10-08T14:06:00Z
 **Statement.** Is there some constant $C>0$ such that any graph on $n$ vertices
 with $\geq Cr^2n$ edges contains a subdivision of $K_r$?
 
-**Formulation.** The site's wording (the page shows
+**Formulation.** The site's wording as accessed 2026-09-19 (the page shows
 no last-edited date). A subdivision of $K_r$ (a topological
 complete graph, Erdős's $K_{\mathrm{top}}(r)$) has $r$ branch vertices
 joined by internally vertex-disjoint paths; the question asks for one
@@ -108,7 +108,7 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/bollobas_thomason_1998_proof_conjecture_mader_erdos_hajnal_topological_complete_subgraphs/theorem_4|theorem_4]].
 - [BoTh96] Bollobás, Béla and Thomason, Andrew, Highly linked graphs.
   Combinatorica 16 (1996), no. 3, 313--320, doi:10.1007/BF01261316
-  (September 1996; Crossref record). The site's key; not
+  (September 1996; Crossref record accessed 2026-09-19). The site's key; not
   held. [BT98] (p. 886)
   names it, as its reference [3], as the paper where the stronger result
   that "a graph $G$ of size $22k|G|$ contains a $k$-linked subgraph" would
@@ -116,7 +116,8 @@ accessed 2026-09-19.
   smaller than 256"; whether it also states the theorem was not checked.
 - [KoSz96] Komlós, János and Szemerédi, Endre, Topological cliques in graphs.
   II. Combin. Probab. Comput. 5 (1996), no. 1, 79--90,
-  doi:10.1017/S096354830000184X (March 1996; Crossref record). Not held; its
+  doi:10.1017/S096354830000184X (March 1996; Crossref record accessed
+  2026-09-19). Not held; its
   abstract, on the publisher's page, says "This note contains a refinement of
   our paper [8], leading to an alternative proof of a conjecture of Mader and of
   Erdős and Hajnal recently proved by Bollobás and Thomason." [BT98] (p. 883)
@@ -125,7 +126,7 @@ accessed 2026-09-19.
   obtaining an alternative proof of the conjecture".
 - [Ma67] Mader, W., Homomorphieeigenschaften und mittlere Kantendichte von
   Graphen. Math. Ann. 174 (1967), no. 4, 265--268, doi:10.1007/BF01364272
-  (Crossref record). The printed article has 4 pages,
+  (Crossref record accessed 2026-09-19). The printed article has 4 pages,
   pp. 265--268 ("Eingegangen am 2. Juni 1966", p. 268). Printed p. 266:
   Satz 2, quoted under the Current assessment; the paper writes $e(G)$ for
   the number of vertices and $k(G)$ for the number of edges. Library home:
@@ -134,7 +135,7 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|satz_2]].
 - [Di60] Dirac, Gabriel Andrew, In abstrakten Graphen vorhandene vollständige
   4-Graphen und ihre Unterteilungen. Math. Nachr. 22 (1960), no. 1--2,
-  61--85, doi:10.1002/mana.19600220107 (Crossref record).
+  61--85, doi:10.1002/mana.19600220107 (Crossref record accessed 2026-09-19).
   The printed article has 25 pages, pp. 61--85 ("Eingegangen am 12. 10.
   1959", p. 61). Printed p. 68: Satz 6, the $2N-2$ theorem
   with the hypotheses finite and $N\ge4$, and the sentence that the graphs
@@ -146,7 +147,7 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/dirac_1960_in_abstrakten_graphen_vorhandene_vollstandige_4_graphen_und_ihre_unterteilungen/satz_6|satz_6]].
 - [Er81] Erdős, P., On the combinatorial problems which I would most like to
   see solved. Combinatorica 1 (1981), no. 1, 25--42, doi:10.1007/BF02579174
-  (Crossref record); Part IV, item 2, p. 8 of the
+  (Crossref record accessed 2026-09-19); Part IV, item 2, p. 8 of the
   retyped copy, which has its own pagination. Library home:
   [[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|erdos_1981_combinatorial_problems_which_i_would_most]].
 - [FLS13] Fox, Jacob and Lee, Choongbum and Sudakov, Benny, Chromatic number,
@@ -225,7 +226,7 @@ uses the theorem as a
 black box and proves nothing about it. Acceptance evidence for the label:
 the refereed publication of the two proofs
 (Combinatorics, Probability and Computing, March 1996; European Journal of
-Combinatorics, November 1998; Crossref records), the
+Combinatorics, November 1998; Crossref records accessed 2026-09-19), the
 refereed attestation just quoted, [KoSz96]'s own abstract (on the
 publisher's page) naming the conjecture as "recently proved by Bollobás and
 Thomason", and the site's account. What is not established here: the exact

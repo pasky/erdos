@@ -65,13 +65,13 @@ independently reviewed.
 
 Printed p. 886, for $p\ge3$. Mader's theorem (the paper's [12]) gives a
 subgraph $G_1$ of connectivity at least $128p^2$. Removing $3p$ vertices
-$x_i$ of $G_1$ and reserving disjoint sets of $5p$ neighbors of each in the rest, $G_2$,
-Lemma 3 (p. 885) with $k=63p^2$ supplies a dense minor of $G_2$, and
-Theorem 1 (p. 884) with $k=15p^2$ makes $G_2$ $(15p^2,7p^2)$-linked, so the
-$15p^2$ reserved neighbors contain a linkable set of size $7p^2$. Counting
-shows that $p$ of the $x_i$ each have at least $p-1$ reserved neighbors in
-that set; these $x_i$ are the branch vertices, and linkability supplies the
-connecting paths.
+$x_i$ of $G_1$ and reserving disjoint sets of $5p$ neighbors of each in the
+rest, $G_2$, Lemma 3 (p. 885) with $k=63p^2$ supplies a dense minor of $G_2$,
+and Theorem 1 (p. 884) with $k=15p^2$ makes $G_2$ $(15p^2,7p^2)$-linked, so the
+$15p^2$ reserved neighbors contain a linkable set of size $7p^2$. Counting shows
+that $p$ of the $x_i$ each have at least $p-1$ reserved neighbors in that set;
+these $x_i$ are the branch vertices, and linkability supplies the connecting
+paths.
 
 ## Dependencies
 
@@ -94,12 +94,12 @@ the conjecture with a constant smaller than 256" and "will appear elsewhere
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0718/_index|Problem 718]]: with $p=r$,
-  the abstract's "at least" form (p. 883) is the assertion the problem asks
-  about, with $C=256$, stated in the proof paper itself; the theorem that
+- [[../wiki/problems/extremal_graph_theory/E0718/_index|Problem 718]]: with
+  $p=r$, the abstract's "at least" form (p. 883) is the assertion the problem
+  asks about, with $C=256$, stated in the proof paper itself; the theorem that
   [[extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_3_1|Fox, Lee and Sudakov quote as Theorem 3.1]]
-  with "at least $256t^2n$ edges", the abstract's form. The paper's
-  introduction (p. 883) records that any such constant has $c>1/8$ (Ajtai,
-  Komlós and Szemerédi, from almost every graph) and names Komlós and
-  Szemerédi's [9] as the alternative proof completed "very shortly after we
-  had written this paper".
+  with "at least $256t^2n$ edges", the abstract's form. The paper's introduction
+  (p. 883) records that any such constant has $c>1/8$ (Ajtai, Komlós and
+  Szemerédi, from almost every graph) and names Komlós and Szemerédi's [9] as
+  the alternative proof completed "very shortly after we had written this
+  paper".

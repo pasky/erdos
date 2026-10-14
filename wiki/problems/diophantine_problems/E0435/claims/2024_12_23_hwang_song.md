@@ -58,8 +58,8 @@ division by $p$. Since the integers that are not prime powers are exactly
 those with $t\ge2$, part (1)(b) answers the question of
 [[problems/diophantine_problems/E0435/_index|Problem 435]], as Remark 0.2 of
 v3 states; v3's acknowledgment says the authors learned of the problem after
-the paper was written. No journal publication is recorded on the arXiv
-listing. The theorem and remark have been checked (the
+the paper was written. No journal publication was recorded on the arXiv
+listing on 2026-10-07. The theorem and remark have been checked (the
 paper's
 [[../library/diophantine_problems/hwang_2024_frobenius_problem_numerical_semigroups_generated_binomial/_index|library card]]);
 the proof of part (1) (Lemma 2.2, Theorem 3.2 and Corollary 3.3 of v2 and v3)
@@ -89,7 +89,7 @@ theorem `erdos_435` states, for $n\ne0$ not a prime power, that the value
 above is the greatest integer outside the set of nonnegative combinations,
 and a closing comment records the axioms `propext`, `Classical.choice` and
 `Quot.sound`. The formal-conjectures statement `erdos_435` (file added
-2026-08-03) is tagged `research solved` and carries a
+2026-08-03; main on 2026-10-07) is tagged `research solved` and carries a
 `formal_proof` link to this pinned file; the Lean suffix of the site's label
 refers to it. Nothing was built, replayed or audited here, so `formalized` is
 not listed.

@@ -37,24 +37,24 @@ paper spans several subjects.
 archive's scan of the author's typescript, 18
 pages, produced with OmniPage and carrying an OCR text layer that garbles the
 formulas; every statement below was read on rendered page images. Provenance:
-retrieved from <https://users.renyi.hu/~p_erdos/1979-18.pdf>
-(HTTP 200, one request); 1,866,109 bytes. The journal pagination 19--37 does not
-appear in the file and the printed Congressus Numerantium text was not
-consulted. The
-first page is the unnumbered title page; the pages headed 2 through 7 are the
-file's second through seventh pages; the file's eighth page is headed 9, and
-from there the header runs one ahead of the file's page count through the last
-page, headed 19, so the typescript page headed 8 is absent (the file's seventh
-page breaks off inside the second problem of item 3, and its eighth page opens
-with the references closing item 3). Locators below are the typescript headers:
-the page headed $n$ is PDF p. $n$ for $n\le7$ and PDF p. $n-1$ for $n\ge9$. No
-notice is printed in the file (the typescript's first and last pages carry no
-copyright or license line); the hosting archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints
-"(C) 2005-2007 All rights reserved. All material on this site is for scientifics
-purposes only."); Congressus Numerantium has no online publisher page and the
-article no DOI, so the publisher's page was not consulted and no Crossref
-license is recorded; the term is unstated.
+retrieved 2026-09-18T02:18:39Z from
+<https://users.renyi.hu/~p_erdos/1979-18.pdf> (HTTP 200, one request); 1,866,109
+bytes. The journal pagination 19--37 does not appear in the file and the printed
+Congressus Numerantium text was not consulted. The first page is the unnumbered
+title page; the pages headed 2 through 7 are the file's second through seventh
+pages; the file's eighth page is headed 9, and from there the header runs one
+ahead of the file's page count through the last page, headed 19, so the
+typescript page headed 8 is absent (the file's seventh page breaks off inside
+the second problem of item 3, and its eighth page opens with the references
+closing item 3). Locators below are the typescript headers: the page headed $n$
+is PDF p. $n$ for $n\le7$ and PDF p. $n-1$ for $n\ge9$. No notice is printed in
+the file (the typescript's first and last pages carry no copyright or license
+line); the hosting archive's site footer speaks for the site, not the paper
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
+rights reserved. All material on this site is for scientifics purposes only.");
+Congressus Numerantium has no online publisher page and the article no DOI, so
+the publisher's page was not consulted and no Crossref license is recorded; the
+term is unstated.
 
 Read status: claims checked for item 7.III on the page headed 15 (the
 definition of $f(n;m)$, display (1), the question for $m=[n^{1/2}]$ and the

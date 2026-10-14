@@ -83,17 +83,16 @@ $m\ge N$; Lemma 7 rests on a fourth-moment bound for the character sums
 through the large-sieve inequalities of Lemmas 2 and 3, Burgess's bound
 (Lemma 1, giving $g(\epsilon,p)\le c_1p^{1/4+\delta}$) and a divisor-sum
 estimate from Hua. (i) With $N=[\sqrt{\log\log x}]$, the primes outside
-$F(x,N,\epsilon)$ and not dividing $N!$ with $g(\epsilon,p)=\mu\le N$ are those whose symbols
-$(n/p)$, $n=2,\ldots,N$, take one of a fixed collection of value patterns,
-hence those in $d_\mu\phi(N!)$ reduced residue classes modulo $N!$, and
-$N!<\log x$ lets the Siegel--Walfisz theorem give the limiting frequency
-$d_\mu$ with error $O((\log\log x)^{-3/4})$ uniformly for $\mu\le N$.
-(ii) $\sum_{\mu<r\le2\mu}d_r\le c_4\mu^{-3/2}$ for $\mu\ge2$, from Lemma 7.
-(iii) $c(\epsilon)=\sum_\mu\mu d_\mu$ converges by (ii) over dyadic blocks.
-(iv) The primes with $g(\epsilon,p)>\sqrt N$ contribute
-$\ll(\log\log x)^{-1/8}$ to the mean, by Lemma 7 with $16\delta=1$ over
-dyadic ranges. (v) The two parts combine into the closing display. Not
-reconstructed here.
+$F(x,N,\epsilon)$ and not dividing $N!$ with $g(\epsilon,p)=\mu\le N$ are those
+whose symbols $(n/p)$, $n=2,\ldots,N$, take one of a fixed collection of value
+patterns, hence those in $d_\mu\phi(N!)$ reduced residue classes modulo $N!$,
+and $N!<\log x$ lets the Siegel--Walfisz theorem give the limiting frequency
+$d_\mu$ with error $O((\log\log x)^{-3/4})$ uniformly for $\mu\le N$. (ii)
+$\sum_{\mu<r\le2\mu}d_r\le c_4\mu^{-3/2}$ for $\mu\ge2$, from Lemma 7. (iii)
+$c(\epsilon)=\sum_\mu\mu d_\mu$ converges by (ii) over dyadic blocks. (iv) The
+primes with $g(\epsilon,p)>\sqrt N$ contribute $\ll(\log\log x)^{-1/8}$ to the
+mean, by Lemma 7 with $16\delta=1$ over dyadic ranges. (v) The two parts combine
+into the closing display. Not reconstructed here.
 
 ## Dependencies
 

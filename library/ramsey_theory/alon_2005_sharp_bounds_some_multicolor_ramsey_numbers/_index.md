@@ -24,7 +24,7 @@ conjecture on R(3,3,n) over R(3,n).
 
 N. Alon and V. Rödl, *Sharp bounds for some multicolor Ramsey numbers*,
 Combinatorica **25** (2005), no. 2, 125--141; DOI 10.1007/s00493-005-0011-9
-(the Crossref record, dates the issue March 2005).
+(the Crossref record, read on 2026-09-17, dates the issue March 2005).
 
 The copy read for this card is the authors' manuscript headed "Final Version"
 (15 pages, A4, from Alon's publication list), not the journal typesetting:
@@ -37,10 +37,10 @@ number and $r_k(H;K)$ for $r(H,\ldots,H,K)$ with $k$ copies of $H$; Problem 553
 writes $R(3,3,n)$ for $r(K_3,K_3,K_n)$ and $R(3,n)$ for $r(K_3,K_n)$. All
 logarithms are natural. That copy is the authors' manuscript headed "Final
 Version" from the author's site, which prints no notice; the version of record's
-publisher page (DOI 10.1007/s00493-005-0011-9) states "© János Bolyai
-Mathematical Society", offers the PDF behind a paywall and carries no Creative
-Commons or open-access statement, and does not govern that manuscript; the term
-is unstated.
+publisher page (DOI 10.1007/s00493-005-0011-9, read 2026-10-02) states "© János
+Bolyai Mathematical Society", offers the PDF behind a paywall and carries no
+Creative Commons or open-access statement, and does not govern that manuscript;
+the term is unstated.
 
 Read status: claims checked for Conjecture 1.1, the displays (1)--(3) (p.
 2), the notation $\tilde\Theta$ (p. 3), Theorem 3.2 with the two explicit
@@ -140,7 +140,7 @@ $r(K_3,K_3,K_m)=\tilde\Theta(m^3)$ and $r(K_3,K_m)=\Theta(m^2/\log m)$
 give a ratio of order $m$ up to polylogarithmic factors.
 [[../wiki/problems/ramsey_theory/E0925/_index|#925]]: the paper never states the problem;
 its lower-bound construction inside the proof of Theorem 3.2 (p. 7, page
-image, re-read clause by clause) at $k=2$ is what disproves
+image, read clause by clause) at $k=2$ is what disproves
 it. For $n=2^{3f}$ with $3\nmid f$, an $r$-blow-up, $r=n^{k/3-2/3}(\log
 n)^{2-\delta}$, of Alon's triangle-free $(n,d,\lambda)$-graph
 ($d=(\frac14+o(1))n^{2/3}$, $\lambda=(9+o(1))n^{1/3}$) is triangle-free

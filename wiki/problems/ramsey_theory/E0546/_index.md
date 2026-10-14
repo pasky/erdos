@@ -86,12 +86,12 @@ its empty discussion thread and its empty proof-claim tab. The site cites
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/546.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/546.lean)
-of formal-conjectures (main) declares
+of formal-conjectures (main, fetched 2026-09-17) declares
 `erdos_546 : answer(True) ↔ ∃ C > (0 : ℝ), ∀ (m : ℕ) (V : Type) [Fintype V] (G : SimpleGraph V) [DecidableRel G.Adj], (∀ v, 0 < G.degree v) → G.edgeSet.ncard = m → (SimpleGraph.diagonalGraphRamsey G : ℝ) ≤ 2 ^ (C * Real.sqrt m)`
 under `category research solved`, with proof `sorry` and no formal-proof
 attribute; the bibliographic lines of its docstring carry page numbers that
 differ from the publisher records above. The site shows the statement as
-formalized; the community database records it formalized
+formalized; the community database (read 2026-09-17) records it formalized
 since 9 September 2026, proved, and with no formal proof. A Lean proof of
 Sudakov's theorem, with the constant 65536, in Boris Alexeev's repository is
 linked on the claim page; this corpus has not built it. Nothing was built or

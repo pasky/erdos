@@ -39,7 +39,7 @@ multiplicity is handled in the rest of the paper (pp. 125--127).
 
 **Source.** P. Erdős and E. Szemerédi, *On a problem of Graham*, Publ.
 Math. Debrecen 23 (1976), no. 1--2, 123--127, DOI 10.5486/pmd.1976.23.1-2.20
-(Crossref record read; the journal's byline prints "E. Erdős");
+(Crossref record read 2026-09-18; the journal's byline prints "E. Erdős");
 the conjecture and Theorem 1 on printed p. 123 (PDF p. 1 of the five-page
 scan), read on the page image.
 

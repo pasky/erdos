@@ -53,9 +53,9 @@ https://www.erdosproblems.com/235.
   prime to $n$. II. Publ. Math. Debrecen 12 (1965), 39--49,
   doi:10.5486/pmd.1965.12.1-4.06.
 
-**Formalization.** No statement in formal-conjectures (the
-site shows no formalized statement, and the community database records the
-problem unformalized). The file
+**Formalization.** No statement in formal-conjectures (on 2026-10-07 the
+site showed no formalized statement, and the community database recorded the
+problem unformalized on 2025-08-31). The file
 `src/latest/ErdosProblems/Erdos235.lean` of `plby/lean-proofs` states
 `erdos_235`, the existence of a continuous limit of the problem's quotient
 for every $c\ge0$, with the limit $1-e^{-c}$; Hooley's claim page above

@@ -55,7 +55,8 @@ numbers and printed pages are used here. The paper writes $n$ for the
 number of elements; the digest below writes $k$, and the result pages and the
 Results list keep the paper's $n$. The journal version is Int. J. Number
 Theory 19 (2023), no. 8, 1783--1800, DOI 10.1142/S1793042123500860 (Crossref
-record read), not compared. No claim of proof verification is made.
+record read 2026-10-07), not compared. No claim of proof verification is
+made.
 
 ## Exact analytic characterization
 

@@ -38,7 +38,7 @@ Probability and Algorithms, IMA Vol. Math. Appl., Springer, New York (1995),
 111--131, doi:10.1007/978-1-4612-0801-3_9. The copy read for this card is an
 image-only scan of the printed chapter (pp. 111--131); no notice is printed in
 it, and its rendered first and last pages carry no copyright line. The
-publisher's chapter page for DOI 10.1007/978-1-4612-0801-3_9
+publisher's chapter page for DOI 10.1007/978-1-4612-0801-3_9 (read 2026-10-02)
 states "© 1995 Springer Science+Business Media New York" and offers the chapter
 as subscription content with no Creative Commons or Open Access statement,
 every other right reserved.
@@ -60,10 +60,11 @@ for their theorems.
 Section 8 (pp. 123--125) shows that for every infinite sequence of distinct
 reals the longest monotone subsequence of the window
 $x_{i+1},\ldots,x_{i+n}$, divided by $\sqrt n$, has limit superior at least
-a constant $\gamma>1$ as $i,n\to\infty$ (Theorem 8.1), while some sequence has longest monotone subsequence exactly
-$\lceil\sqrt n\rceil$ on every initial segment (p. 124). Section 9 (p. 126)
-states a $d$-descent analogue of the Erdős--Szekeres theorem, Theorem 9.1,
-whose printed proof covers only $d=1$ and $d=n$.
+a constant $\gamma>1$ as $i,n\to\infty$ (Theorem 8.1), while some sequence has
+longest monotone subsequence exactly $\lceil\sqrt n\rceil$ on every initial
+segment (p. 124). Section 9 (p. 126) states a $d$-descent analogue of the
+Erdős--Szekeres theorem, Theorem 9.1, whose printed proof covers only $d=1$ and
+$d=n$.
 
 Section 12 reports, after Chung (1980, p. 278), Erdős's question on weighted
 versions: for nonnegative weights $w_1,\ldots,w_n$ summing to $1$, determine

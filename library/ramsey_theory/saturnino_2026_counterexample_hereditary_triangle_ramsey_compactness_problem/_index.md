@@ -51,9 +51,9 @@ page linked as the revised note in the site's Problem 638 thread at 20:08 on 26
 April 2026 (its address embeds the poster's account name and is not printed
 here); the download itself was not recorded; 265,185 bytes. No notice is printed
 on any of the note's eleven pages; no arXiv record exists for it (arXiv author
-query), and the address of the file-sharing page it was obtained from is not
-recorded on this card, so no host's terms could be checked; the term is
-unstated.
+query, read 2026-10-02), and the address of the file-sharing page it was
+obtained from is not recorded on this card, so no host's terms could be checked;
+the term is unstated.
 
 Read status: claims checked for Main Theorem 1, Theorem 2 (the external
 input as stated), Definitions 3 and 6, Lemma 4, Proposition 5, Lemmas 7 and

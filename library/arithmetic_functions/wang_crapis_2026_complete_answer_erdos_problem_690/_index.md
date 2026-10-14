@@ -53,14 +53,14 @@ workflow.
 The canonical local artifact is
 [wang_crapis_2026_complete_answer_erdos_problem_690.pdf](wang_crapis_2026_complete_answer_erdos_problem_690.pdf),
 the 18-page arXiv v1, 413,851 bytes, downloaded from the versioned PDF link
-above on 2026-09-07. Printed and PDF page numbers coincide. All eighteen pages
-were read visually, at compilation, at review and again at filing. A second PDF
-of the paper in the authors' GitHub repository is not byte-identical to the
-arXiv v1 and is not the selected artifact; it is not retained. The companion
-numerical verifier described in Appendix A (p. 18) is not redistributed: the
-repository that holds it reports no license, and the article's license does not
-cover it. The arXiv record (https://arxiv.org/abs/2605.08542, read 2026-10-02)
-names the Creative Commons Attribution 4.0 license.
+above. Printed and PDF page numbers coincide. All eighteen pages were read
+visually, at compilation, at review and again at filing. A second PDF of the
+paper in the authors' GitHub repository is not byte-identical to the arXiv v1
+and is not the selected artifact; it is not retained. The companion numerical
+verifier described in Appendix A (p. 18) is not redistributed: the repository
+that holds it reports no license, and the article's license does not cover it.
+The arXiv record (https://arxiv.org/abs/2605.08542, read 2026-10-02) names the
+Creative Commons Attribution 4.0 license.
 
 ## Account
 

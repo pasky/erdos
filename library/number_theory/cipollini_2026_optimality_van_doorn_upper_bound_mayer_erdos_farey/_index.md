@@ -35,11 +35,11 @@ The retained
 [folder-name PDF](cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey.pdf)
 is the arXiv PDF of version 1 (16 pages, complete text layer), read on the
 rendered page images of pp. 1--2 and 16 and in the text layer elsewhere.
-Provenance: retained from the repository's survey download set of 5 September
-2026 (the download URL was not recorded; the identifier is
-<https://arxiv.org/abs/2607.23302>, printed on every page); 315,235 bytes. The
-arXiv record (https://arxiv.org/abs/2607.23302, read 2026-10-02) names the
-Creative Commons Attribution 4.0 license.
+Provenance: retained from the repository's survey download set (the download URL
+was not recorded; the identifier is <https://arxiv.org/abs/2607.23302>, printed
+on every page); 315,235 bytes. The arXiv record
+(https://arxiv.org/abs/2607.23302, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 Provenance declared by the manuscript (p. 16, "Acknowledgments and contribution
 statement"): the paper was written by an AI system; the author and an AI system

@@ -34,23 +34,24 @@ vertices and applying Turán's theorem to the rest.
 B. Bollobás and V. Nikiforov, *The sum of degrees in cliques*, Electron. J.
 Combin. **12** (2005), no. 1, Note 21, 10 pp.; DOI
 [10.37236/1988](https://doi.org/10.37236/1988); published 7 November 2005 (the
-journal's article record and the Crossref record, both read). The Electronic
-Journal of Combinatorics is refereed and open access; the site's reference text
-reads "Electron. J. Combin. (2005), Note 21, 10". Preprint arXiv:math/0410218.
+journal's article record and the Crossref record, both read on 2026-09-18). The
+Electronic Journal of Combinatorics is refereed and open access; the site's
+reference text reads "Electron. J. Combin. (2005), Note 21, 10". Preprint
+arXiv:math/0410218.
 
-**Edition read.** The copy read for this card is arXiv:math/0410218v1 (stamped
-"[math.CO] 8 Oct 2004" on p. 1; the arXiv record read lists this
-single version, "10 pages", and no journal reference or DOI), 10 letter-size
-pages with a complete text layer; its title page prints the compilation date
-October 28, 2018. Provenance: a download of September 2026 whose URL was not
-recorded. It is not the journal text: the journal version was not compared, and
-every locator below is a preprint page. One difference is visible from the
-records: the preprint's abstract ends "Finally, we generalize (1) to graphs with
-edge weights", a sentence absent from the journal abstract, and the preprint's
-text has no section on edge weights (its sections are the introduction, the
-greedy algorithm, the degree sums and the stability theorem). The arXiv record
-carries no license field, so arXiv's assumed license applies
-(arXiv:math/0410218), every other right reserved.
+**Edition read.** The copy read for this card is arXiv:math/0410218v1
+(<https://arxiv.org/abs/math/0410218v1>; stamped "[math.CO] 8 Oct 2004" on p. 1;
+the arXiv record read on 2026-09-18 lists this single version, "10 pages", and
+no journal reference or DOI), 10 letter-size pages with a complete text layer;
+its title page prints the compilation date October 28, 2018. Provenance: a
+download whose URL was not recorded. It is not the journal text: the journal
+version was not compared, and every locator below is a preprint page. One
+difference is visible from the records: the preprint's abstract ends "Finally,
+we generalize (1) to graphs with edge weights", a sentence absent from the
+journal abstract, and the preprint's text has no section on edge weights (its
+sections are the introduction, the greedy algorithm, the degree sums and the
+stability theorem). The arXiv record carries no license field, so arXiv's
+assumed license applies (arXiv:math/0410218), every other right reserved.
 
 Read status: claims checked for the abstract and the introduction (pp.
 1--2), Theorem 1 (p. 3), the opening of Section 3 with display (13) and

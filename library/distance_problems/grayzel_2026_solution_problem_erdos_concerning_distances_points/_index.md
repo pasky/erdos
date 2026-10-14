@@ -45,18 +45,18 @@ values of the binary quadratic form u^2 + 2v^2, so Bernays's asymptotic for
 integers represented by a primitive, positive definite integral form of
 non-square discriminant (Theorem 3) bounds the distance count (Corollary 4),
 following earlier work of Moree-Osburn on lattices with few distances, with a
-pointer to a related discussion by Sheffer. Theorem 5 verifies the local constraint by using
-Perucca's classification of the six similarity types of 4-point two-distance
-sets and ruling out each in L: no nondegenerate square (Lemma 6), no
-equilateral triangle (Lemma 7), and no regular-pentagon trapezoid (Lemma 8).
-Against the review notes, the paper is confirmed unrelated to problems 660,
-1088 and 100: it settles the planar 4-point/3-distance question (indexed as
-problem 659 on erdosproblems.com), not the R^3 convex-polyhedron distance
-question, not f_d(n), and not the separate distance problems those entries
-concern.
+pointer to a related discussion by Sheffer. Theorem 5 verifies the local
+constraint by using Perucca's classification of the six similarity types of
+4-point two-distance sets and ruling out each in L: no nondegenerate square
+(Lemma 6), no equilateral triangle (Lemma 7), and no regular-pentagon trapezoid
+(Lemma 8). Against the review notes, the paper is confirmed unrelated to
+problems 660, 1088 and 100: it settles the planar 4-point/3-distance question
+(indexed as problem 659 on erdosproblems.com), not the R^3 convex-polyhedron
+distance question, not f_d(n), and not the separate distance problems those
+entries concern.
 
 **Version read.** The copy read for this card is
-arXiv:2601.09102v2. The official arXiv history identifies
+arXiv:2601.09102v2. The official arXiv history, checked 2026-09-06, identified
 v2 from 16 January 2026 as the latest version. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2601.09102), every other right
 reserved.

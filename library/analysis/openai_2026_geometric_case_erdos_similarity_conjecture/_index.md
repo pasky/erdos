@@ -56,7 +56,7 @@ issues". The manuscript's own README carries only the title, the author line
 manuscript was produced or checked; the manuscript's text names no human author
 and no verification step. These are the source's historical attestations, not
 this corpus's review. No refereed publication, no arXiv version and no
-independent review of the manuscript is recorded here and nothing on this card
+independent review of the manuscript is recorded here, and nothing on this card
 is independently reviewed.
 
 The release's Lean catalogue (`lean/formalization.yaml`) lists no

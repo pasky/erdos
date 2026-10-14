@@ -109,26 +109,29 @@ Problem #538, https://www.erdosproblems.com/538, accessed 2026-09-18.
 - The external Lean development named by the formal-conjectures file: the
   repository `williamjblair/lean-proofs`, file
   [`starfleet/erdos-538/Research/FinalMatchingOrder.lean`](https://github.com/williamjblair/lean-proofs/blob/4f915a323443bfb1709a6805a013812016dca88a/starfleet/erdos-538/Research/FinalMatchingOrder.lean)
-  (added 23 July 2026; the link pins its revision of 30 July 2026); not a library source.
+  (added 23 July 2026; the link pins its revision of 30 July 2026); not a
+  library source.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/538.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/538.lean)
-of formal-conjectures (main) defines `Admissible r N A` (every element of `A`
-lies in $[1,N]$ and every `m` has at most `r` representations `m = p * a` with
-`p` prime and `a ∈ A`), `reciprocalMass A` $=\sum_{a\in A}1/a$ and `maxMass r
-N`, the supremum of the reciprocal mass over admissible sets, and declares
-`erdos_538 : let f : ℕ → ℕ → ℝ := answer(sorry); ∀ r : ℕ, 2 ≤ r → maxMass r
-~[atTop] f r` under `category research open` with proof `sorry`; its docstring
-says that the order $\Theta_r(\log N/\log\log N)$ "is known" and that the best
-possible upper bound "is the asymptotic size" of `maxMass`. A variant
+of formal-conjectures (main, fetched 2026-09-18) defines `Admissible r N A`
+(every element of `A` lies in $[1,N]$ and every `m` has at most `r`
+representations `m = p * a` with `p` prime and `a ∈ A`), `reciprocalMass A`
+$=\sum_{a\in A}1/a$ and `maxMass r N`, the supremum of the reciprocal mass over
+admissible sets, and declares
+`erdos_538 : let f : ℕ → ℕ → ℝ := answer(sorry); ∀ r : ℕ, 2 ≤ r → maxMass r ~[atTop] f r`
+under `category research open` with proof `sorry`; its docstring says that the
+order $\Theta_r(\log N/\log\log N)$ "is known" and that the best possible upper
+bound "is the asymptotic size" of `maxMass`. A variant
 `erdos_538.matching_order` under `category research solved`, also `sorry`, with
 a `formal_proof` attribute naming the external file above, states for $r\ge2$
-and $N\ge2$ that every admissible `A` satisfies $\log\log(N+1)\cdot\sum_{a\in
-A}1/a\le2r(1+\log(N^2))$ and that some admissible `A` satisfies
-$\log(N+1)\le4+8192(\lfloor\log_2\lfloor\log_2N\rfloor\rfloor+1)\sum_{a\in
-A}1/a$; its docstring says this "pins the order (up to the one
-iterated-logarithm factor) but not the best possible upper bound asked for". The
-community database records the problem open (record last updated 31 August
+and $N\ge2$ that every admissible `A` satisfies
+$\log\log(N+1)\cdot\sum_{a\in A}1/a\le2r(1+\log(N^2))$ and that some admissible
+`A` satisfies
+$\log(N+1)\le4+8192(\lfloor\log_2\lfloor\log_2N\rfloor\rfloor+1)\sum_{a\in A}1/a$;
+its docstring says this "pins the order (up to the one iterated-logarithm
+factor) but not the best possible upper bound asked for". The community database
+(fetched 2026-09-18) records the problem open (record last updated 31 August
 2025), the statement formalized since 7 August 2026 and no formal proof. The
 site's page marks the statement as formalized. Nothing was built.
 

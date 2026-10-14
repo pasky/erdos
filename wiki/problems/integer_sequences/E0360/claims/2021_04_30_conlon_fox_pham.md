@@ -82,11 +82,11 @@ C\cdot\mathrm{resolutionScale}\,n$ for all sufficiently large $n$, the
 two-sided form of Theorem 1.5, and prints the axioms of its two theorems with
 `#print axioms`; it carries no author header and contains no `sorry`, and the
 `Core.lean` header names a proof document `tex/360.tex` that the repository
-does not contain at the pinned commit. No outside record registers the
-development: the repository's own source list and Erdős problems index have
-no entry for the problem, the site shows no formalized statement and showed no
-Lean label, formal-conjectures has no `360.lean`, and the community database
-recorded the problem unformalized on 2025-08-31 (all). This
+does not contain at the pinned commit. No outside record registered the
+development: the site showed no Lean label, and on 2026-10-07 the repository's
+own source list and Erdős problems index had no entry for the problem, the site
+showed no formalized statement, formal-conjectures had no `360.lean`, and the
+community database recorded the problem unformalized on 2025-08-31. This
 description rests on the entry file and the two definitions and not on the
 component files, and nothing was built or audited here, so the development
 gives no `formalized` evidence and its statement's fidelity to the problem is

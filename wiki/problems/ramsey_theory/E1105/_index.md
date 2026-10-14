@@ -74,13 +74,13 @@ cycle half rests on a refereed paper, and the path half on a preprint with no
 refereed version.
 
 Paths. The formula holds for all $n\ge k\ge5$ by Theorem 1 of Yuan
-(arXiv:2102.00807v3, 9 February 2021). This is a preprint, which the site's
-curator accepts. Under the label PROVED, the commentary credits Yuan with an
-announced proof of the formula over the whole range. The community database
-lists the problem as proved as of its last update, 1 February 2026. Before Yuan,
-Simonovits and Sós (Combinatorica 1984, refereed) proved the formula for paths
-on $2t+3+\epsilon_0\ge13$ vertices and $n>ct^2$. The proofs announced in 1975
-never appeared.
+(arXiv:2102.00807v3, 9 February 2021). This is a preprint with no journal record
+found on 2026-09-18, which the site's curator accepts. Under the label PROVED,
+the commentary credits Yuan with an announced proof of the formula over the
+whole range. The community database lists the problem as proved as of its last
+update, 1 February 2026. Before Yuan, Simonovits and Sós (Combinatorica 1984,
+refereed) proved the formula for paths on $2t+3+\epsilon_0\ge13$ vertices and
+$n>ct^2$. The proofs announced in 1975 never appeared.
 
 Cycles. The exact value is Theorem 5 of Montellano-Ballesteros and Neumann-Lara
 (Graphs Combin. 21 (2005), 343--354, refereed). For every $n\ge p\ge3$ it gives
@@ -259,7 +259,7 @@ asserts rather than proves in the cited sources. Acceptance evidence: the site's
 label and commentary; the community database's `proved`, as of its last update
 on 1 February 2026; the paper is an arXiv preprint (v3, 9 February 2021) with no
 journal reference on its listing, no Crossref record and no published version
-among its seven citing records in the citation index, so the path
+among its seven citing records in the citation index (2026-09-18), so the path
 half rests on a preprint accepted by the site's curator, listed as reviewed on
 its claim page. Read depth: Theorem 1, the definitions and the quoted Turán
 inputs (pp. 1--2) and Corollaries 5--6, footnote 1 and the Remark (pp. 2--3) are
@@ -286,7 +286,7 @@ Corollary 1 (p. 353), whose printed statement carries a minus sign between
 $\frac{p-2}2$ and $\frac1{p-1}$ where the abstract and the introduction (p. 343)
 have the plus sign that the formula gives, a misprint recorded on the result
 page. Its citation record is large (98 citing works per OpenAlex; 27 Semantic
-Scholar records, scanned by title: anti-Ramsey numbers of cycles
+Scholar records, scanned by title on 2026-09-18: anti-Ramsey numbers of cycles
 in prisms, plane triangulations and outerplanar graphs, of matchings and
 forests, surveys, and a 2021 "short proof of anti-Ramsey number for cycles" in a
 journal not otherwise indexed here; none disputes the formula). In the earlier

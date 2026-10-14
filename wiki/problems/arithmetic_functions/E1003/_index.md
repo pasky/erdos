@@ -46,10 +46,10 @@ A bounded status search checked primary arXiv records, author
 paper routes, searches for consecutive equal totients, and indexed X
 announcements. It found
 [Li v2](https://arxiv.org/abs/2606.23681v2) still listed as the latest
-version and no primary proof settling unit-shift infinitude. This sampled
-search does not establish an exhaustive survey or independent acceptance
-of Li's proof. Direct catalog retrieval returned HTTP 403, so its
-2026-09-04 statement is retained without claiming a fresh site reading.
+version on 2026-09-09 and no primary proof settling unit-shift infinitude. This
+sampled search does not establish an exhaustive survey or independent acceptance
+of Li's proof. Direct catalog retrieval returned HTTP 403, so its 2026-09-04
+statement is retained without claiming a fresh site reading.
 
 Complete relevant pages were inspected: Erdős 1985 printed p. 67 /
 physical p. 3; Part II pp. 251--253 and its proof outline on pp. 257--258;

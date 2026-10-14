@@ -22,7 +22,7 @@ Problem 327.
 
 W. Sawin, *Sets of unit fractions without two members whose average is a
 unit fraction*, arXiv:2607.15419v1 [math.NT], 16 July 2026, 9 pages. A
-preprint: the arXiv listing shows one version, no journal
+preprint: the arXiv listing (read 2026-09-17) showed one version, no journal
 reference and no publisher DOI, and no citing work was found on the search
 date.
 
@@ -30,7 +30,7 @@ The retained
 [folder-name PDF](sawin_2026_sets_unit_fractions_without_two_members_average_unit_fraction.pdf)
 is the arXiv v1 file (nine typeset pages with a text layer; the arXiv stamp
 "arXiv:2607.15419v1 [math.NT] 16 Jul 2026" runs down p. 1). Provenance: retained
-from the repository's survey download set of September 2026, downloaded from
+from the repository's survey download set, downloaded from
 <https://arxiv.org/abs/2607.15419>, 335,587 bytes. The arXiv record
 (https://arxiv.org/abs/2607.15419, read 2026-10-02) names the Creative Commons
 CC0 1.0 Universal public domain dedication.

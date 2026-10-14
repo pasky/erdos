@@ -39,7 +39,7 @@ arXiv's non-exclusive distribution license (arXiv:1806.02838), every other
 right reserved.
 
 The copy read for this card is arXiv:1806.02838v1 (7 June 2018; dated June
-11, 2018 on its first page), 16 pp.; the arXiv record read
+11, 2018 on its first page), 16 pp.; the arXiv record read on 2026-10-07
 lists no later version, the journal version was not compared, and the labels
 below are v1's.
 

@@ -28,7 +28,7 @@ scan of the Congressus Numerantium 30 article, 25 pages (PDF p. n is printed p.
 or 26--27 of the scan; its download URL is not recorded, and its OmniPage
 creator and 2006 modification stamp match the Rényi archive's scans, whose site
 footer speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/,
-read: "(C) 2005-2007 All rights reserved. All material on this site
+read 2026-10-02: "(C) 2005-2007 All rights reserved. All material on this site
 is for scientifics purposes only."); the publisher has no online page for
 Congressus Numerantium, so none was consulted, and no Crossref license is
 recorded; the term is unstated.

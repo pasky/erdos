@@ -146,11 +146,11 @@ the second repository above), the negative answers to $h(n)=\Theta(n^{2/3})$ and
 $n^{2/3}=O(h(n))$ and the limit `Tendsto (fun n ↦ Real.log (cofactorThreshold n)
 / Real.log n) atTop (nhds (1/2))` (with attributes naming lines of
 `lean/Erdos539/FC.lean` in the first repository), citing Theorem A.1 of [SGD+26]
-in their docstrings. The community database records the problem open (record
-last updated 31 August 2025), the statement formalized since 16 April 2026 and
-no formal proof. The site's page marks the statement as formalized. Nothing was
-built or audited by this corpus. The two external repositories are described
-below.
+in their docstrings. The community database (read 2026-09-18) records the
+problem open (record last updated 31 August 2025), the statement formalized
+since 16 April 2026 and no formal proof. The site's page marks the statement as
+formalized. Nothing was built or audited by this corpus. The two external
+repositories are described below.
 
 ## Current assessment
 
@@ -279,12 +279,11 @@ answer to the $n^{2/3}$ question" in seminar abstracts of 2009 and 2012
 "make no claim of priority over that announcement". The site adopted the
 bound into its commentary on 15 June 2026. No refereed publication, arXiv
 version of the appendix as a separate paper, or independent review was
-found; the two thread reservations of 11 June 2026 are recorded above. Read depth: claims
-checked for Theorem A.1 and the lemma statements; the three-page proof is
-checked for its structure only, not step by step; nothing is independently
-reviewed by this project. The claim page named
-under Status records the curator's adoption of the bound and why it is not
-an acceptance.
+found; the two thread reservations of 11 June 2026 are recorded above. Read
+depth: claims checked for Theorem A.1 and the lemma statements; the three-page
+proof is checked for its structure only, not step by step; nothing is
+independently reviewed by this project. The claim page named under Status
+records the curator's adoption of the bound and why it is not an acceptance.
 
 **The two Lean developments.** Two repositories named by the
 formal-conjectures file are pinned on the claim pages; neither was built or
@@ -330,8 +329,8 @@ refereed determination of the order of $h(n)$, a refereed version of the
   the two READMEs and lakefiles).
 - The primary sources: [GrRo99] pp. 1--3; [Er73] pp. 124--125; [SGD+26]
   pp. 9--15.
-- On 2026-10-07: the site's page, thread and proof-claim tab were
-  unchanged, and the arXiv listing of 2607.09474 had one version.
+- On 2026-10-07: the site's page and thread were unchanged, and the arXiv
+  listing of 2607.09474 had one version.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X; the seminar abstracts
 of 2009 and 2012 cited by [SGD+26]; the challenge report arXiv:2606.18119.

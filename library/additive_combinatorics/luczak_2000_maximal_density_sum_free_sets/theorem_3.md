@@ -44,7 +44,7 @@ lowered below $-1/2$.
 
 **Source.** T. Łuczak and T. Schoen, *On the maximal density of sum-free
 sets*, Acta Arith. 95 (2000), no. 3, 225–229, DOI 10.4064/aa-95-3-225-229
-(Crossref record read; received 6 July 1999, revised 19 April
+(Crossref record read 2026-09-18; received 6 July 1999, revised 19 April
 2000); the retained PDF is the publisher's file, 5 pages, printed p. $n$ on
 PDF p. $n-224$. Theorem 2 on p. 225 and Theorem 3 with its proof on
 pp. 226–227, read in the text layer and on the page images of PDF pp. 2–4.

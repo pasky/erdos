@@ -27,7 +27,7 @@ exponent 1/3 on the logarithm.
 S. L. G. Choi, *On an Extremal Problem in Number Theory*, J. Number Theory
 **6** (1974), no. 2, 105--111, DOI 10.1016/0022-314X(74)90048-1 (the running
 head prints "Journal of Number Theory 6, 105--111 (1974)"; the issue number
-is the Crossref record's, read for the problem page); the author
+is the Crossref record's, read 2026-09-18 for the problem page); the author
 at the Department of Mathematics, University of British Columbia, Vancouver;
 communicated by P. Erdős, received October 22, 1970 (p. 105). Cited as
 [Ch74b] on the problem page. Its two references (p. 111) are Erdős,

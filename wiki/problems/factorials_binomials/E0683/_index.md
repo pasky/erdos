@@ -65,7 +65,7 @@ form $k^{1+c}$.
 
 **Source.** [erdosproblems.com/683](https://www.erdosproblems.com/683), accessed
 2026-09-04 and 2026-10-07 (problem page last edited 31 December 2025; its
-discussion thread held six posts and its proof-claims page listed no claim).
+discussion thread held six posts); its proof-claims page listed no claim.
 Cite as: T. F. Bloom, Erdős Problem #683, https://www.erdosproblems.com/683.
 
 **References.**

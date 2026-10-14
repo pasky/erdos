@@ -61,7 +61,7 @@ three-torus diffeomorphism with simple Lebesgue spectrum) for a different
 realization of its spectral consequence. These are the source's own provenance
 attestations, recorded as history and not as this corpus's review. No refereed
 publication, arXiv version or independent review of the manuscript is recorded
-here and nothing on this card is independently reviewed.
+here, and nothing on this card is independently reviewed.
 
 Formalization, as the release lists it: the release's Lean catalogue
 (`lean/formalization.yaml`) names this manuscript and pairs it with one
@@ -270,7 +270,7 @@ with Facts 1--2 (for Corollary 8.2 only). The manuscript flags nothing as
 numerical, computer-assisted or conditional; its results are existential with
 no rate. The release folder holds no `verification/` folder for this
 manuscript. The bibliography file in the TeX bundle carries an entry for the
-erdosproblems.com page of Problem 1150, but the
+erdosproblems.com page of Problem 1150 (accessed 21 September 2026), but the
 text never cites it and the printed references omit it; the manuscript names no
 Erdős problem by catalogue number.
 

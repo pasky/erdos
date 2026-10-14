@@ -53,7 +53,7 @@ contains at least δ_ε n^r copies of K_r, with δ_ε > 0 depending only on ε.
 
 B. Bollobás, P. Erdős and E. Szemerédi, *On complete subgraphs of
 $r$-chromatic graphs*, Discrete Math. 13 (1975), no. 2, 97--107, DOI
-10.1016/0012-365X(75)90011-4 (Crossref record read); received 7
+10.1016/0012-365X(75)90011-4 (Crossref record read 2026-09-18); received 7
 November 1974; MR 52 #10470; Zbl 306.05121. The site's key BES75b.
 
 **Edition read.** The copy read for this card is the Rényi Institute Erdős

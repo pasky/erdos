@@ -55,7 +55,7 @@ abstract.
 
 **Standing.** Pending: an arXiv preprint with no refereed version found and
 no acceptance recorded by the site, which labeled the problem OPEN and whose
-proof-claims tab did not list the paper. The two forum
+proof-claims tab did not list the paper on 2026-10-06. The two forum
 claims of the same bound are the
 [[problems/arithmetic_functions/E0520/claims/2026_07_29_korsky|Korsky claim]],
 posted two days before this preprint, and the

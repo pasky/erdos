@@ -29,10 +29,11 @@ Let $k\geq 4$ and $r\geq 1$. Must there exist a graph $G$ with chromatic number
 $k$ such that every vertex is critical, yet every critical set of edges has size
 $>r$?
 
-**Status.** Proved. This departs from the site's label OPEN, whose notes say
-that the case $k=4$ is open even for $r=1$. The Lean proof of Kruer and
-Kohlmeyer answers the question for every $k\geq4$ and $r\geq1$. Conjectures.io
-certified it on 16 September 2026. The standing derives from the
+**Status.** Proved. This departs from the site's label OPEN (page fetched
+2026-09-18), whose notes say that the case $k=4$ is open even for $r=1$. The
+Lean proof of Kruer and Kohlmeyer answers the question for every $k\geq4$ and
+$r\geq1$. Conjectures.io certified it on 16 September 2026. The standing derives
+from the
 [[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]].
 
 **Source.** [erdosproblems.com/944](https://www.erdosproblems.com/944), accessed
@@ -65,7 +66,7 @@ This corpus has not built that file.
 
 ## Current assessment
 
-The site's formulation asks whether for every $k\ge4$ and
+The site's formulation (fetched 2026-09-18) asks whether for every $k\ge4$ and
 $r\ge1$ some graph with chromatic number $k$ has every vertex critical while
 every critical set of edges has more than $r$ edges. The answer is yes for
 every such $k$ and $r$: a Lean 4 proof by Liam Kruer and Jensen Kohlmeyer,
@@ -82,7 +83,7 @@ inserted along $3t+1$ unit directions. Its $k=4$ witnesses also cover $r=1$,
 the case of Dirac's 1970 conjecture first proved in Lean by Chan and by
 Kitamura; what is new is $k=4$ for every $r\ge2$. The acceptance is the
 site's alone: this corpus has not built the file, no refereed publication
-exists, and neither erdosproblems.com nor the
+exists, and on 2026-09-18 neither erdosproblems.com nor the
 formal-conjectures catalog recorded the result.
 
 Two public Lean certificates of the $k=4$, $r=1$ case preceded it: Alex

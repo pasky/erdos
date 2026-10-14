@@ -50,7 +50,7 @@ citation block; the TeX source names "OpenAI" as author and carries no
 statement on human assistance. These sentences are recorded here as the
 source's own historical attestations, not as this corpus's review. No refereed
 publication, arXiv version or independent review of the manuscript is recorded
-here and nothing on this card is independently reviewed.
+here, and nothing on this card is independently reviewed.
 
 Formalization. The release's catalogue (`lean/formalization.yaml`) lists no
 formalization for this manuscript. The family page the release keeps for this

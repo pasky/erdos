@@ -56,7 +56,7 @@ without proving it.
 
 Source: <https://users.renyi.hu/~p_erdos/1955-11.pdf>. No notice is printed on
 pp. 347--351; the hosting archive's site footer speaks for the site,
-not the paper (https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007
+not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007
 All rights reserved. All material on this site is for scientifics purposes
 only."); the Crossref record for DOI 10.1215/s0012-7094-55-02237-7, read
 2026-10-02, names Duke University Press as publisher and no license, and the

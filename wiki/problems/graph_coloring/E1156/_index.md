@@ -38,16 +38,17 @@ $$
 
 if $n$ is sufficiently large?
 
-**Formulation.** The standing answers the site's wording, the only Statement
-shown. Its first question asks for concentration on at most $C$ values, not
-necessarily consecutive. So worded it is open: the site's discussion thread (26
-January 2026) records that concentration of $\chi(G)$ on two far-apart values
-has not been excluded. Erdős's question in the appendix to Alon and
-Spencer's *The Probabilistic Method* (1992), as Heckel [He21] quotes it, asks
-instead whether $\chi(G)$ can be shown not to be concentrated on a series of
-intervals of constant length, that is, on $C$ consecutive values. That version
-has the answer no, as the Current assessment records. The second question asks
-for non-concentration at every large $n$ and is open under either reading.
+**Formulation.** The standing answers the site's wording as accessed
+2026-09-04, the only Statement shown. Its first question asks for concentration
+on at most $C$ values, not necessarily consecutive. So worded it is open: the
+site's discussion thread (26 January 2026) records that concentration of
+$\chi(G)$ on two far-apart values has not been excluded. Erdős's question in the
+appendix to Alon and Spencer's *The Probabilistic Method* (1992), as Heckel
+[He21] quotes it, asks instead whether $\chi(G)$ can be shown not to be
+concentrated on a series of intervals of constant length, that is, on $C$
+consecutive values. That version has the answer no, as the Current assessment
+records. The second question asks for non-concentration at every large $n$ and
+is open under either reading.
 
 **Status.** Open.
 
@@ -100,9 +101,9 @@ infinitely many $n$, concentration on one value for almost all $n$ is not
 excluded either, so the second question stays open.
 
 Search scope: the site's problem page (last edited 27 January 2026), its
-discussion thread and proof-claims tab (no proof claim), the community
-database (no formalized statement), formal-conjectures (no file for Problem
-1156) and arXiv, accessed 2026-10-07.
+discussion thread, the community database (no formalized statement),
+formal-conjectures (no file for Problem 1156) and arXiv, accessed 2026-10-07,
+and the site's proof-claims tab (no proof claim).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

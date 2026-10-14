@@ -113,7 +113,7 @@ Alexeev, Zachary Hunter, and Dustin Mixon. Cite as: T. F. Bloom, Erdős Problem
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/321.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/321.lean)
-of formal-conjectures at the linked commit (main) defines
+of formal-conjectures at the linked commit (main on 2026-09-18) defines
 `R (N : ℕ) : ℕ := sSup { #A | (A) (_ : A ⊆ Finset.Icc 1 N) (_ : Set.InjOn (fun (S : Finset ℕ) ↦ ∑ n ∈ S, (1 : ℚ) / n) A.powerset) }`
 and declares `erdos_321 (N : ℕ) : R N = answer(sorry)` with proof `sorry`
 under `category research open`, three asymptotic variants (`isTheta`,
@@ -124,11 +124,12 @@ with $\log_kN\ge k$, and `variants.upper`,
 $R(N)\le\frac1{\log2}\log_rN\frac{N}{\log N}\prod_{i=3}^r\log_iN$ for $r\ge1$
 with $\log_iN\ge1$ for all $i\le2r$. The file's categories were not updated
 for the site's July 2026 resolution, and no declaration carries a
-`formal_proof` attribute. The community database records the statement as formalized, with 6 October 2025 as that
+`formal_proof` attribute (main on 2026-10-07). The community database (read
+2026-10-06) records the statement as formalized, with 6 October 2025 as that
 entry's last-update date, formal status unformalized, status solved as of the
-status entry's last update on 31 August 2025, OEIS A384927 and A391592.
-Nothing in the file has been built by this corpus, and the site's label
-carried no Lean suffix.
+status entry's last update on 31 August 2025, OEIS A384927 and A391592. Nothing
+in the file has been built by this corpus, and the site's label carried no Lean
+suffix.
 
 ## Current assessment
 
@@ -250,7 +251,7 @@ correct, that the lower bound is from the earlier work the claim cites and
 that the upper bound follows at once from the resolution of Problem 320. The
 claim page is
 [[problems/unit_fractions/E0321/claims/2026_07_15_young_zhu_luo|the order of magnitude of R(N)]].
-The Overleaf read link served no document to a request; the Lean
+The Overleaf read link served no document to a request on 2026-09-18; the Lean
 file's content is described on Problem 320 and contains no theorem about the
 order of $R(N)$ beyond the finite dissociation bridge. No refereed publication
 or independent review was found.

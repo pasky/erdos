@@ -166,7 +166,7 @@ updated on 31 August 2025, and as formalized, an entry last updated on
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation, accessed 2026-09-18).** The statement above;
 PROVED; no last-edited date; source keys [ChMa25], [Er91]. The commentary
 attributes the problem to Erdős and Hajnal, notes that $K_{n,n+1}$ shows the
 edge count $n^2+n$ does not suffice, and credits [ChMa25] with the proof, in the

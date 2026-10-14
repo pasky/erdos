@@ -32,7 +32,7 @@ N_1(n) = n^2/2 + O(n^(5/3) log^3 n).
 
 Tibor Szabó, *Intersection properties of subsets of integers*, European
 J. Combin. **20** (1999), no. 5, 429--444; DOI 10.1006/eujc.1997.0176
-(Crossref record read).
+(Crossref record read 2026-10-07).
 
 The copy read for this card is the author's 23-page preprint, not the journal
 edition. The journal version was not compared, so every page locator below is

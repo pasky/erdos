@@ -30,7 +30,7 @@ offers, as printed on pp. 35 and 36.
 
 Erdős, P., Some of my forgotten problems in number theory. Hardy-Ramanujan J.
 (1992), 34-50. The journal's open-access record gives the volume as 15 (1992)
-and the DOI 10.46298/hrj.1992.125; the retained
+and the DOI 10.46298/hrj.1992.125 (read 2026-09-18); the retained
 [PDF](../../../../library/integer_sequences/erdos_1992_my_forgotten_problems_number_theory/erdos_1992_my_forgotten_problems_number_theory.pdf)
 is the journal's 17-page file, headed "Hardy-Ramanujan Journal Vol.15 (1992)
 34-50" (printed p. 34 is PDF p. 1), whose text layer garbles the displays; the

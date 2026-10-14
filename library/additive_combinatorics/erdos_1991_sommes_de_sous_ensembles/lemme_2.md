@@ -73,7 +73,7 @@ $6N-\tfrac98-1>6(N-1)$, a contradiction.
 
 Straus's Theorem 2 (Lemme 1) and Theorem 4, from E. G. Straus, *On a
 problem in combinatorial number theory*, J. Math. Sci. 1 (1966), 77–80
-(not held; a zbMATH record for it was read).
+(not held; a zbMATH record for it was read on 2026-09-18).
 
 ## Bears on
 

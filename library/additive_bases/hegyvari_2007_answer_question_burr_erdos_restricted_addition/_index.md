@@ -46,8 +46,8 @@ https://doi.org/10.1017/S0963548306008224. The copy read for this card is the
 authors' preprint rather than the journal edition; no notice is printed in it,
 and theorem numbers cited from it are the preprint's. The author's publication
 page that lists the paper
-(https://www.cmls.polytechnique.fr/perso/plagne.alain/publications.html) states
-no terms; the term is unstated.
+(https://www.cmls.polytechnique.fr/perso/plagne.alain/publications.html, read
+2026-10-02) states no terms; the term is unstated.
 
 Source:
 <https://www.cmls.polytechnique.fr/perso/plagne.alain/publications.html>.

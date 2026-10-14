@@ -225,7 +225,7 @@ Erdős Problem #1221, https://www.erdosproblems.com/1221, accessed
 **Formalization.** None recorded. The site shows "Formalised statement? No";
 formal-conjectures at main (directory listed 2026-09-27) has no `1221.lean`;
 conjectures.io lists no problem or result for 1221 (results and problems
-pages).
+pages, read 2026-09-27).
 
 ## Current assessment
 
@@ -326,7 +326,8 @@ claim page would move to accepted only on refereed publication of [Ko26b] or
 documented independent acceptance (a site status change with review, or a
 reviewed reproof). (5) [Ko26b] proves its bounds for sequences of distinct
 points, and whether the constants over all sequences equal those over distinct
-sequences is not settled in the sources. (6) X was not searched for research announcements.
+sequences is not settled in the sources. (6) X was not searched for research
+announcements.
 
 **Status check (2026-10-05).** On 2026-10-05 the site showed OPEN (last edited 7
 September 2026) with the one full proof claim of 2026-09-08 and its two comments

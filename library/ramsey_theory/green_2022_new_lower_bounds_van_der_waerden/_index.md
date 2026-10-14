@@ -42,7 +42,7 @@ Source: <https://doi.org/10.1017/fmp.2022.12>.
 
 The retained folder-name PDF is the published article, Forum of
 Mathematics, Pi 10 (2022), e18, 1--51 (received 23 February 2021, accepted
-8 March 2022; the Crossref record was read); printed page equals
+8 March 2022; the Crossref record was read 2026-09-18); printed page equals
 PDF page. The paper's coloring convention is a blue 3-term or a red k-term
 progression; the site's Problem 721 exchanges the colors. Read status:
 claims checked for Theorem 1.1 (p. 2), Theorem 2.1 (p. 5), the June 2022

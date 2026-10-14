@@ -51,8 +51,8 @@ audited it.
 **Source.** [erdosproblems.com/140](https://www.erdosproblems.com/140), accessed
 2026-10-07 (the page, last edited 20 December 2025, credits Kelley and Meka,
 cites [ErGr80, p. 11], [Er81], [Er97c] and [KeMe23], and shows no formalized
-statement; its discussion thread and proof-claim tab were empty, and the
-site's proof-claim listings of 2026-10-06 carried none for it).
+statement; its discussion thread was empty, and the site's proof-claim
+listings of 2026-10-06 carried none for it); its proof-claim tab was empty.
 Cite as: T. F. Bloom,
 Erdős Problem #140, https://www.erdosproblems.com/140, accessed 2026-10-07.
 

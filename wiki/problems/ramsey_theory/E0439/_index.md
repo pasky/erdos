@@ -84,7 +84,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 
 - [KhSz06] Khalfalah, A. and Szemerédi, E., On the number of monochromatic
   solutions of $x+y=z^2$. Combin. Probab. Comput. 15 (2006), no. 1--2,
-  213--227; DOI 10.1017/S0963548305007169 (Crossref record).
+  213--227; DOI 10.1017/S0963548305007169 (Crossref record read 2026-09-18).
   Closed access, not held; the abstract is quoted below.
 - [ESS89] Erdős, P., Sárközy, A. and Sós, V. T., On a conjecture of Roth
   and some related problems. I. In Irregularities of Partitions, Springer
@@ -110,13 +110,13 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [ErSa77] Erdős, P. and Sárközy, A., On differences and sums of integers.
   II. Bull. Soc. Math. Grèce (N.S.) 18 (1977), no. 2, 204--223; the site's
-  reference text; pp. 204--206 and 209; public copy at
+  reference text, accessed 2026-09-18; pp. 204--206 and 209; public copy at
   https://users.renyi.hu/~p_erdos/1977-17.pdf. Library home:
   [[../library/integer_sequences/erdos_1977_differences_sums_integers_ii/_index|erdos_1977_differences_sums_integers_ii]]
   (the card carries the row for this problem).
 - [Sa20] Sanders, T., On monochromatic solutions to $x-y=z^2$. Acta Math.
   Hungar. 161 (2020), no. 2, 550--556; DOI 10.1007/s10474-020-01079-6;
-  arXiv:2008.07297v1 (Crossref and arXiv records). Its
+  arXiv:2008.07297v1 (Crossref and arXiv records read 2026-09-18). Its
   introduction (p. 1 of the arXiv version) restates the Khalfalah--Szemerédi
   theorem for squares with distinct $x$, $y$. Library home:
   [[../library/ramsey_theory/sanders_2020_monochromatic_solutions_x_minus_y_z_squared/_index|sanders_2020_monochromatic_solutions_x_minus_y_z_squared]].
@@ -133,12 +133,12 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   [[../library/integer_sequences/khalfalah_2002_tight_bound_density_sum_no_two_perfect_square/_index|khalfalah_2002_tight_bound_density_sum_no_two_perfect_square]]
   (not consumed here).
 
-**Formalization.** None found. No file `ErdosProblems/439.lean` exists in
-google-deepmind/formal-conjectures at main. The community database
-(teorth/erdosproblems) records the problem proved (last updated 31 August
-2025), not formalized, formal status unformalized and no formal-proof URL. The
-site's "Formalised statement?" indicator reads "No"; one reader has marked the
-problem "Could be formalisable".
+**Formalization.** None found. No file `ErdosProblems/439.lean` existed in
+google-deepmind/formal-conjectures at main on 2026-09-18. The community database
+(teorth/erdosproblems, read 2026-09-18) records the problem proved (last updated
+31 August 2025), not formalized, formal status unformalized and no formal-proof
+URL. The site's "Formalised statement?" indicator reads "No"; one reader has
+marked the problem "Could be formalisable".
 
 ## Current assessment
 
@@ -215,7 +215,7 @@ records it as a pending partial claim. Its Theorems 1 and 2, on the density of a
 subject of [[problems/ramsey_theory/E0484/_index|Problem 484]].
 
 **The status-defining source, second-hand.** The publisher's abstract of
-[KhSz06]: "In the present work we prove the following
+[KhSz06] (read 2026-09-18): "In the present work we prove the following
 conjecture of Erdős, Roth, Sárközy and T. Sós: Let $f$ be a polynomial of
 integer coefficients such that $2|f(z)$ for some integer $z$. Then, for any
 $k$-colouring of the integers, the equation $x+y=f(z)$ has a solution in which

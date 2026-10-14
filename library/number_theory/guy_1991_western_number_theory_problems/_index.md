@@ -77,7 +77,8 @@ names this set; the site links the PDF below.
 
 The copy read for this card is the
 conference site's copier scan of the typeset set: eighteen pages with no
-text layer, printed page $n$ = PDF p. $n$. Provenance: retrieved from
+text layer, printed page $n$ = PDF p. $n$. Provenance: retrieved
+2026-09-18T05:59:40Z from
 <https://westcoastnumbertheory.org/wp-content/uploads/2018/02/wcnt-problems-1991.pdf>
 (HTTP 200, one request; the link on the site's Problem 536 page);
 13,746,604 bytes. No notice is printed in the file (PDF pp. 1 and 18 read on the

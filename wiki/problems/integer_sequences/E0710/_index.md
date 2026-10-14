@@ -215,7 +215,7 @@ a sketch the paper does not prove in full; Theorem 3's constant $2$ is the
 proved one. (3) Proof coverage is at statement level, with the proofs of
 Theorems 1 and 3 read through only.
 
-**Proof claims on the site.** The site's proof-claim
+**Proof claims on the site (accessed 2026-10-06).** The site's proof-claim
 tab carries one full claim, submitted 2026-09-23 by David Turturean, whose
 notes name the AI system GPT-6-Astra Pro: the asymptotic formula
 $f(n)\sim(\sqrt2/e)\,n\sqrt{\log n}$ in the site's convention, by weighted

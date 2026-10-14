@@ -32,7 +32,7 @@ the copy read for this page, whose pagination is used here), Conjecture
 1.2 on p. 2, Proposition 4.2 on p. 6, read in the text layer. Journal
 version: Arch. Math. (Basel) 115 (2020), no. 5, 479--488, DOI
 10.1007/s00013-020-01507-7 (published online 29 August 2020; Crossref
-record read), not held and not compared.
+record read 2026-09-18), not held and not compared.
 
 **Read depth.** Claims checked: Conjectures 1.1 and 1.2, Proposition 4.2
 and Corollaries 4.3--4.4 were read clause by clause; the coefficient
@@ -47,15 +47,15 @@ distinct partial sums; a monomial in which every variable has degree at
 most $k$ and whose coefficient is nonzero modulo $p$ certifies the
 conjecture for size $k+1$ in $\mathbb Z_p$. For $k=11$ two coefficients
 are computed, $e_{11,1}=18128730243333160$ and
-$e_{11,2}=46383022877233608$, with $\gcd(e_{11,1},e_{11,2})=2^3$ (p. 6), from which the paper
-states the proposition. Hence for every odd prime $p$ one of them is nonzero
-modulo $p$, and a $12$-element subset of $\mathbb Z_p\setminus\{0\}$ needs
-$p\ge13$ (an inference of this page; the paper states only the gcd). For the
-smaller sizes the paper records, for $k\in[3,10]$, that
-$e_{k,j}=(-1)^{\lfloor(k-1)/2\rfloor}c_{k,j}$, the $c_{k,j}$ being the
-coefficients computed by Hicks, Ollis and Schmitt for Alspach's conjecture
-(p. 6). The transfer to torsion-free groups is the homomorphism argument of
-Section 2 adapted to the G-ADMS setting (p. 7).
+$e_{11,2}=46383022877233608$, with $\gcd(e_{11,1},e_{11,2})=2^3$ (p. 6), from
+which the paper states the proposition. Hence for every odd prime $p$ one of
+them is nonzero modulo $p$, and a $12$-element subset of
+$\mathbb Z_p\setminus\{0\}$ needs $p\ge13$ (an inference of this page; the paper
+states only the gcd). For the smaller sizes the paper records, for $k\in[3,10]$,
+that $e_{k,j}=(-1)^{\lfloor(k-1)/2\rfloor}c_{k,j}$, the $c_{k,j}$ being the
+coefficients computed by Hicks, Ollis and Schmitt for Alspach's conjecture (p.
+6). The transfer to torsion-free groups is the homomorphism argument of Section
+2 adapted to the G-ADMS setting (p. 7).
 
 ## Dependencies
 
@@ -72,5 +72,6 @@ Alspach's conjecture to Conjecture 1.2 for sets of size at most $k$.
   proposition answers the problem's question affirmatively for every prime
   $p$ and every size $t\le12$. Conjecture 1.2 with $n=p$ is that question,
   since $\mathbb Z_p=\mathbb F_p$ and, unlike Alspach's conjecture, it asks
-  only for distinct partial sums, the problem's condition. The site credits the sizes $t\le12$ to this paper and
-  its references. Nothing here concerns the sizes $13\le t\le p-1$.
+  only for distinct partial sums, the problem's condition. The site credits the
+  sizes $t\le12$ to this paper and its references. Nothing here concerns the
+  sizes $13\le t\le p-1$.

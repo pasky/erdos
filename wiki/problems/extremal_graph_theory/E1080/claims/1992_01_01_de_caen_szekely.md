@@ -54,7 +54,7 @@ the general bound, since $(n\cdot n^{2/3})^{2/3}=n^{10/9}$; the site also
 attributes the general bound to Faudree and Simonovits, without a reference.
 
 **What the corpus holds.** Nothing of the chapter. The zbMATH record
-Zbl 0795.05083 identifies it, Crossref has no record of
+Zbl 0795.05083 identifies it (accessed 2026-09-18), Crossref has no record of
 it, and the one open route tried answered HTTP 404; the problem page records
 the routes. The exponents are quoted from the site's commentary, no theorem
 is paged, and the construction was not read. The claim consumes no page of

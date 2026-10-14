@@ -47,19 +47,19 @@ Source: <https://arxiv.org/abs/1711.08076>.
 The copy read for this card is the arXiv v1 of 21 November 2017 (nine
 pages, no printed page numbers; locators are PDF pages). The paper was
 published in the Proceedings of the AAAI Conference on Artificial
-Intelligence 32 (2018), DOI 10.1609/aaai.v32i1.12209 (Crossref record read); the published version was not read. Read status: claims checked
-for the main result S(5) = 160, footnote 1 (the two conventions for S(k)),
-the definition and the bounds paragraph of p. 2, read clause by clause on
-the page images of pp. 1--2, and for the enumeration and the modular and
-palindromic variants, pp. 2--3 and 6--7; the remaining sections (pp. 2--8)
-were read for the proof pointer. The computational proof is not checkable
-here and no proof coverage is claimed. Result pages:
+Intelligence 32 (2018), DOI 10.1609/aaai.v32i1.12209 (Crossref record read
+2026-09-18); the published version was not read. Read status: claims checked for
+the main result S(5) = 160, footnote 1 (the two conventions for S(k)), the
+definition and the bounds paragraph of p. 2, read clause by clause on the page
+images of pp. 1--2, and for the enumeration and the modular and palindromic
+variants, pp. 2--3 and 6--7; the remaining sections (pp. 2--8) were read for the
+proof pointer. The computational proof is not checkable here and no proof
+coverage is claimed. Result pages:
 [[ramsey_theory/heule_2017_schur_number_five/main_result|main_result]]
 ($S(5)=160$, abstract and p. 2) and
 [[ramsey_theory/heule_2017_schur_number_five/extreme_certificates_p7|extreme_certificates_p7]]
 (the enumeration of p. 7 and $S(5)=S_{\mathrm{mod}}(5)=S_{\mathrm{pd}}(5)=160$,
-p. 2).
-The arXiv record names arXiv's non-exclusive distribution license
+p. 2). The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1711.08076), every other right reserved.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0483/_index|#483]]: the exact value

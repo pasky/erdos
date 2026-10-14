@@ -50,10 +50,9 @@ That PDF is the v1 manuscript (watermark "arXiv:1209.1050v1 [math.CO] 5 Sep
 printed numbers equal the PDF page numbers; its p. 1 date line reads
 "November 1, 2018", which matches the file's creation date, the date arXiv
 built this PDF from the 2012 submission. Provenance: downloaded from
-<https://arxiv.org/pdf/1209.1050v1> on 2026-09-22; 455,968 bytes. Labels and
-page locators below are the PDF's own. The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:1209.1050), every other right
-reserved.
+<https://arxiv.org/pdf/1209.1050v1>; 455,968 bytes. Labels and page locators
+below are the PDF's own. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:1209.1050), every other right reserved.
 
 ## Read status
 
@@ -75,7 +74,8 @@ Theorem 37 with its proof. The proofs of Theorems 3 and 5 (Sections 2--4 and
   $0\le f_k(n)-F(k,n)\le\frac{k(k-1)}8-1$ for $k\ge4$, $n\ge k+2$, so
   $\phi_k=\frac k2-\frac1{k-1}$.
 - [[extremal_graph_theory/kostochka_yancey_2012_ores_conjecture_color_critical_graphs_is_almost_true/corollary_7|Corollary 7]] (p. 4; proved p. 18): for each fixed
-  $k\ge4$, Ore's Conjecture 2 (p. 3) fails for at most $\frac{k^3}{12}-\frac{k^2}8$ values of $n$.
+  $k\ge4$, Ore's Conjecture 2 (p. 3) fails for at most
+  $\frac{k^3}{12}-\frac{k^2}8$ values of $n$.
 - [[extremal_graph_theory/kostochka_yancey_2012_ores_conjecture_color_critical_graphs_is_almost_true/theorem_37|Theorem 37]] (p. 16): orders at which (9) is exact.
 
 ## Critical-graph density theorem

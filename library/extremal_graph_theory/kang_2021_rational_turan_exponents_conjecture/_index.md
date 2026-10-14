@@ -16,7 +16,7 @@ updated: 2026-10-08T01:29:58Z
 
 Kang, Dong Yeap and Kim, Jaehoon and Liu, Hong, On the rational Turán
 exponents conjecture. J. Combin. Theory Ser. B 148 (2021), 149-172,
-doi:10.1016/j.jctb.2020.12.003 (Crossref). The version read
+doi:10.1016/j.jctb.2020.12.003 (Crossref, read 2026-10-07). The version read
 is arXiv:1811.06916v1 (16 November 2018), the only arXiv version; the labels
 and pages below are its own, and the journal text was not compared. The arXiv
 record names arXiv's non-exclusive distribution license (arXiv:1811.06916),

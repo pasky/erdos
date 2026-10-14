@@ -35,7 +35,7 @@ L. R. Ford, Jr. and D. R. Fulkerson, **Network Flow and Systems of
 Representatives**, Canadian Journal of Mathematics **10** (1958),
 78–84. [DOI](https://doi.org/10.4153/CJM-1958-009-1).
 Published scan.
-[Source record](source_record.json).
+[Source record](source_record.json). Accessed 2026-09-05.
 
 The copy read for this card is the seven-page Cambridge scan of the
 published article. The paper records receipt on 18 March 1957.

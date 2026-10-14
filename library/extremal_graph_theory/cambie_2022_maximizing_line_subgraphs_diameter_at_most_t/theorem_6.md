@@ -32,7 +32,7 @@ edges, its line graph must have diameter larger than $t$."
 **Source.** S. Cambie, W. Cames van Batenburg, R. de Joannis de Verclos and
 R. J. Kang, *Maximizing line subgraphs of diameter at most $t$*, SIAM J.
 Discrete Math. 36 (2022), no. 2, 939--950, DOI 10.1137/21M1437354 (Crossref
-record read); read in the retained arXiv:2103.11898v2 (10
+record read 2026-09-19); read in the retained arXiv:2103.11898v2 (10
 December 2021, "v2 accepted to SIAM Journal on Discrete Mathematics", 12
 pp.), Theorem 6 on p. 3, page image. The journal text was not compared. The
 artifact is identified in the

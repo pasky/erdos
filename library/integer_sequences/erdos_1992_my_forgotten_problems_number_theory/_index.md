@@ -21,22 +21,21 @@ the two rupee offers, as printed on pp. 35 and 36.
 
 Erdős, P., Some of my forgotten problems in number theory. Hardy-Ramanujan
 J. (1992), 34-50. The journal's open-access record gives the volume as 15
-(1992) and the DOI 10.46298/hrj.1992.125; the retained
+(1992) and the DOI 10.46298/hrj.1992.125 (read 2026-09-18); the retained
 [folder-name PDF](erdos_1992_my_forgotten_problems_number_theory.pdf) is the
 journal's 17-page file, headed "Hardy-Ramanujan Journal Vol.15 (1992) 34-50"
-(printed p. 34 is PDF p. 1), whose text layer garbles the displays; the
-Section 1 passages below were read on the page images of pp. 34--36. Read
-status for Section 1: claims checked for the definitions of g(n), f(n) and
-f(n;m), displays (1)--(6) and the three offers (pp. 34--36, page images); the
-paper proves nothing there beyond the outline of (1), which was not
-assessed. Read status for Section 3 (pp. 40--41, PDF pp. 7--8) and the
-Section 4 passages on (19)--(20) (pp. 42--43, PDF pp. 9--10) and on sum-free
-subsequences (pp. 46--47, PDF pp. 13--14): claims checked on the page images
-(300 dpi crops for the conjecture display of p. 40 and for (17) and (18) on
-p. 41); the paper proves nothing in these passages. No notice is printed in the
-file; the journal's record for the article shows the license field "Hal
-authorisation v1" and no Creative Commons statement
-(https://hrj.episciences.org/125, read 2026-10-02), and the journal's
+(printed p. 34 is PDF p. 1), whose text layer garbles the displays; the Section
+1 passages below were read on the page images of pp. 34--36. Read status for
+Section 1: claims checked for the definitions of g(n), f(n) and f(n;m), displays
+(1)--(6) and the three offers (pp. 34--36, page images); the paper proves
+nothing there beyond the outline of (1), which was not assessed. Read status for
+Section 3 (pp. 40--41, PDF pp. 7--8) and the Section 4 passages on (19)--(20)
+(pp. 42--43, PDF pp. 9--10) and on sum-free subsequences (pp. 46--47, PDF pp.
+13--14): claims checked on the page images (300 dpi crops for the conjecture
+display of p. 40 and for (17) and (18) on p. 41); the paper proves nothing in
+these passages. No notice is printed in the file; the journal's record for the
+article shows the license field "Hal authorisation v1" and no Creative Commons
+statement (https://hrj.episciences.org/125, read 2026-10-02), and the journal's
 publishing-policies page states "Diamond Open Access" and the license "Creative
 Commons - Attribution - CC BY 4.0" for the journal's content, with the author as
 rights holder (https://hrj.episciences.org/page/publishing-policies, read

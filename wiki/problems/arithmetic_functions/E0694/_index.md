@@ -78,7 +78,7 @@ developments, so they give no formalized evidence.
 
 ## Current assessment
 
-**The question (the site's formulation).** The statement
+**The question (the site's formulation, accessed 2026-09-04).** The statement
 above, an "Investigate" question about
 $\max_{n\le x}f_{\max}(n)/f_{\min}(n)$ over totient values $n$; SOLVED
 (LEAN). The note's abstract answers the question with an asymptotic formula;

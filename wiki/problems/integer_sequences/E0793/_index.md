@@ -57,8 +57,8 @@ review of the manuscript was found, and an arXiv posting is not refereeing.
 
 The status-defining source is Theorem 1.1 of a five-page manuscript by Przemek
 Chojecki, *The second term for strongly 2-primitive sets*. It is hosted at
-ulam.ai (its PDF metadata is dated 13 July 2026) and was posted as
-arXiv:2607.15306v1 on 14 July 2026. It proves
+ulam.ai (retrieved 2026-09-18; its PDF metadata is dated 13 July 2026) and was
+posted as arXiv:2607.15306v1 on 14 July 2026. It proves
 $F(n)=\pi(n)+(\tfrac{27}{2}+o(1))n^{2/3}/(\log n)^2$. The upper bound tracks the
 constants in the four classes of Erdős's 1938 factorization argument. The lower
 bound packs a linear 3-uniform hypergraph of prime triples, built from proper
@@ -93,8 +93,10 @@ accessed 2026-09-18.
 **References.**
 
 - [Ch26] Chojecki, P., The second term for strongly 2-primitive sets.
-  Five-page manuscript, https://www.ulam.ai/research/erdos793.pdf; undated in its text, PDF metadata 13
-  July 2026; also arXiv:2607.15306v1, posted 14 July 2026 (record read); byline "Przemek Chojecki, ulam.ai" with the footnote "AI
+  Five-page manuscript, https://www.ulam.ai/research/erdos793.pdf,
+  retrieved 2026-09-18; undated in its text, PDF metadata 13
+  July 2026; also arXiv:2607.15306v1, posted 14 July 2026 (record read
+  2026-10-02); byline "Przemek Chojecki, ulam.ai" with the footnote "AI
   assistance was used in exploring the argument and in writing this text."
   Theorem 1.1, p. 1; Propositions 2.4 (p. 3) and 3.4 (p. 5). Library home:
   [[../library/integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets/_index|chojecki_2026_second_term_strongly_2_primitive_sets]].
@@ -119,7 +121,7 @@ accessed 2026-09-18.
   [Ch11] Chan, T. H., On sets of integers, none of which divides the
   product of $k$ others. European J. Combin. 32 (2011), no. 3, 443--447,
   doi:10.1016/j.ejc.2010.11.010. Not held; cited from the discussion thread
-  for the generalization to $k\ge3$.
+  (Crossref records read 2026-09-18) for the generalization to $k\ge3$.
 - [PaSa16] Pach, P. P. and Sándor, C., Multiplicative bases and an Erdős
   problem. arXiv:1602.06724 (22 February 2016). Not held; cited from the
   thread for its Theorem 7 on the constants for general $k$.

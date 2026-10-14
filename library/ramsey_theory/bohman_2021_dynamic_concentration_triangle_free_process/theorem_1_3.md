@@ -30,7 +30,7 @@ Morris proved the same results independently and at the same time.
 
 **Source.** T. Bohman and P. Keevash, *Dynamic concentration of the
 triangle-free process*, Random Structures Algorithms 58 (2021), no. 2,
-221--293 (DOI 10.1002/rsa.20973, Crossref record read). The
+221--293 (DOI 10.1002/rsa.20973, Crossref record read 2026-09-18). The
 copy read is arXiv:1302.5963v2 (4 September 2019, 75 pages); Theorem 1.3
 is on its p. 2, read on the page image and in the text layer of pp. 1--3.
 The journal text was not read; its pagination differs and was not compared.

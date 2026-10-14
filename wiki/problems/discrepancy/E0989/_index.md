@@ -77,8 +77,8 @@ alone into "there is $A$ for every $r$". It names no informal or formal authors
 and does not present itself as a formalization of Beck's result, and its
 docstrings call the fixed-radius lower bound for every set "the unsupported
 universal square-root lower component" of the literal problem-page statement.
-The site's label carried no Lean qualifier, and the site records no
-formal-conjectures statement file for the problem.
+The site's label carried no Lean qualifier, and on 2026-10-07 the site recorded
+no formal-conjectures statement file for the problem.
 
 ## Progress
 

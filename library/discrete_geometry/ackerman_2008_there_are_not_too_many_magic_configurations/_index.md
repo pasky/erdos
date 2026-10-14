@@ -63,7 +63,7 @@ Source:
 <https://page.mi.fu-berlin.de/rote/Papers/allpapers.html#There+are+not+too+many+magic+configurations>.
 The copy read for this card is the author's manuscript dated February 27, 2007,
 which prints no notice, from the author's publications page
-(https://page.mi.fu-berlin.de/rote/Papers/allpapers.html),
+(https://page.mi.fu-berlin.de/rote/Papers/allpapers.html, read 2026-10-02),
 which states no terms; the term is unstated.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0735/_index|#735]]: the

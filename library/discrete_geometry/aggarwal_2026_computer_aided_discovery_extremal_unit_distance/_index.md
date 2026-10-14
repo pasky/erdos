@@ -68,8 +68,9 @@ code (pp. 7, 12, 14) are not part of the 16-page copy read.
 
 Source:
 <https://math.mit.edu/research/highschool/primes/materials/2025/Aggarwal.pdf>.
-No notice is printed in the paper and the hosting MIT PRIMES page was not
-consulted; the term is unstated.
+No notice is printed in the paper, an arXiv query on 2026-10-02 found no record
+for the paper, and the hosting MIT PRIMES page was not consulted; the term is
+unstated.
 
 **Result pages.**
 

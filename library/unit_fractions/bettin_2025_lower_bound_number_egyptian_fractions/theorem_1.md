@@ -40,7 +40,7 @@ the number of Egyptian fractions*, arXiv:2509.10030v1 (12 September 2025; the
 only arXiv version listed on 2026-09-18), 12 pages; Theorem 1 on p. 2 (page
 image), the definition (1) on p. 1, the proof in Section 2, pp. 3--9 (text
 layer). Published in Mathematics of Computation, DOI 10.1090/mcom/4190, online
-22 January 2026 (Crossref record read; the record gives no volume
+22 January 2026 (Crossref record read 2026-09-18; the record gives no volume
 or pages yet); the published text was not compared, and the locators here are
 v1 locators.
 

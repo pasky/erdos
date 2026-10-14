@@ -88,7 +88,7 @@ of formal-conjectures (main on 2026-09-18) declares
 `erdos_537 : answer(False) ↔ ∀ ε : ℝ, 0 < ε → ∀ᶠ N : ℕ in atTop, ∀ A ⊆ Finset.Icc 1 N, (A.card : ℝ) ≥ ε * N → ∃ a₁ ∈ A, ∃ a₂ ∈ A, ∃ a₃ ∈ A, ∃ p₁ p₂ p₃ : ℕ, p₁.Prime ∧ p₂.Prime ∧ p₃.Prime ∧ p₁ ≠ p₂ ∧ p₁ ≠ p₃ ∧ p₂ ≠ p₃ ∧ a₁ * p₁ = a₂ * p₂ ∧ a₂ * p₂ = a₃ * p₃`
 under `category research solved`, with proof `sorry` and a `formal_proof`
 attribute naming the external file above; its docstring reproduces the
-site's commentary. The community database records
+site's commentary. The community database (fetched 2026-09-18) records
 the problem disproved with Lean since 6 February 2026, `formal_status` Lean
 since the same date, the statement formalized since 3 August 2026 and no
 formal-proof URL. The site's page marks the

@@ -62,8 +62,8 @@ formalization link, which gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/59](https://www.erdosproblems.com/59), accessed
 2026-09-04 and 2026-10-07 (page last edited 23 January 2026; empty
-discussion thread and proof-claim tab). Cite as: T. F. Bloom, Erdős Problem
-#59, https://www.erdosproblems.com/59, accessed 2026-10-07.
+discussion thread); its proof-claim tab was empty. Cite as: T. F. Bloom, Erdős
+Problem #59, https://www.erdosproblems.com/59, accessed 2026-10-07.
 
 **References.**
 
@@ -83,8 +83,9 @@ discussion thread and proof-claim tab). Cite as: T. F. Bloom, Erdős Problem
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999).
 
 **Formalization.** The site's "(LEAN)" suffix is a catalog label.
-formal-conjectures has no file for Problem 59 at `main` and the site's indicator reads "Formalised statement? No". The community
-database (teorth/erdosproblems) records `status`
+formal-conjectures had no file for Problem 59 at `main` on 2026-10-07,
+and the site's indicator reads "Formalised statement? No". The community
+database (teorth/erdosproblems, accessed 2026-10-06) records `status`
 "disproved (Lean)", `formal_status` Lean and `formalized` "no", with its
 last update dated 2026-08-24, and names no artifact. The locatable artifact
 is the Lean development `src/latest/ErdosProblems/Erdos59.lean` of
@@ -96,10 +97,10 @@ Neither development was built or audited by this project.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-10-07).** The
-statement above; the site labeled it DISPROVED (LEAN). Its commentary says the
-answer is yes for non-bipartite $G$ (Erdős, Frankl and Rödl [EFR86]) and no for
-$G=C_6$, where Morris and Saxton [MoSa16] give at least
+**The question (site formulation, accessed 2026-09-04).** The statement above;
+the site labeled it DISPROVED (LEAN). Its commentary, accessed 2026-10-07, says
+the answer is yes for non-bipartite $G$ (Erdős, Frankl and Rödl [EFR86]) and no
+for $G=C_6$, where Morris and Saxton [MoSa16] give at least
 $2^{(1+c)\mathrm{ex}(n;C_6)}$ such graphs for infinitely many $n$ and some
 $c>0$; that the weaker bound $2^{O(\mathrm{ex}(n;G))}$ may still hold for every
 $G$, as Morris and Saxton conjecture; and that [Va99] asks the case $G=C_4$
@@ -136,7 +137,8 @@ page. The site's label and the Lean development both postdate the refereed
 disproof and add no acceptance evidence to it.
 
 **Search scope.** The site's problem page, thread and proof-claim tab; the
-community database as of 2026-10-06; the formal-conjectures directory listing at `main`; the catalogs of
+community database as of 2026-10-06; the formal-conjectures directory listing
+at `main`; the catalogs of
 plby/lean-proofs and Jayyhk/erdos-lean with the headers and histories of
 their Problem 59 files; the arXiv API record of 1309.2927 (v1 11 September
 2013, v3 11 November 2015); the Crossref record of the Adv. Math. article;

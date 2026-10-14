@@ -69,7 +69,7 @@ Source: <https://msp.org/pjm/1971/36-1/p09.xhtml>. The copy read for this card
 carries a journal cover page and pp. 103-107; its retrieval date is not
 recorded. No copyright line is printed; the journal's article page shows
 "© Copyright 1971 Pacific Journal of Mathematics. All rights reserved."
-(https://msp.org/pjm/1971/36-1/p09.xhtml), every other right
+(https://msp.org/pjm/1971/36-1/p09.xhtml, read 2026-10-02), every other right
 reserved.
 
 **Read status.** Claims checked: Theorem I, Lemma II and the proof of Theorem

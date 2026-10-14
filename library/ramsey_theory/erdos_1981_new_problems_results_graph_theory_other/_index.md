@@ -38,7 +38,7 @@ other right reserved.
 Read status: claims checked for items (1), (3), (5), (11), (15), (16) and
 (17) and the Rosta--Faudree--Schelp sentence on p. 13 (read clause by clause
 on the page images); nothing in the survey is proved, so there is no proof
-to check. Read again on the page images: items (3)--(5) on p. 10 (PDF p. 2), the
+to check. Read on the page images: items (3)--(5) on p. 10 (PDF p. 2), the
 whole of p. 11 (PDF p. 3: (6), (6'), (7)--(10) and the closing sentence on
 $r(n,3)$), the constructive offer and items (12)--(13) on p. 12 (PDF p. 4), (14)
 on p. 13 (PDF p. 5) and (17) on p. 14 (PDF p. 6), each clause by clause.
@@ -170,7 +170,7 @@ $r(k,n)>c_1n^{k-1}/(\log n)^{c_2}$", with the note that every attempt at (6)
 and (6') had failed, even for $k=4$.
 [[../wiki/problems/ramsey_theory/E0181/_index|#181]]: not a site key for the problem (the
 site cites BuEr75 and Er93); display (16') on printed p. 13 (PDF p. 5, page
-image, re-read clause by clause; the passage is not on
+image, read clause by clause; the passage is not on
 printed p. 11, which holds (6)--(10)): after the Burr--Erdős density
 conjecture (16), Erdős writes $G_c(n)$ for the graph of the edges of the
 $n$-dimensional cube, with $2^n$ vertices and $n\,2^{n-1}$ edges, and asks

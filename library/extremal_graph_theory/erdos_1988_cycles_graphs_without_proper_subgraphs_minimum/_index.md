@@ -62,7 +62,7 @@ images. Result pages:
 and
 [[extremal_graph_theory/erdos_1988_cycles_graphs_without_proper_subgraphs_minimum/theorem_5|theorem_5]].
 No notice is printed in the scan; the hosting archive's site footer speaks for
-the site, not the paper (https://users.renyi.hu/~p_erdos/,
+the site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02,
 prints "(C) 2005-2007 All rights reserved. All material on this site is for
 scientifics purposes only."); the volume has no publisher page or DOI for this
 edition, so the publisher's page was not consulted and no Crossref license is

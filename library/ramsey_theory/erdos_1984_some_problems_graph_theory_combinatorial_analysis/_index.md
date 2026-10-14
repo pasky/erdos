@@ -28,8 +28,9 @@ is the Rényi archive's OmniPage scan of the typeset proceedings text:
 seventeen pages, printed pp. 1--17 = PDF pp. 1--17 (printed p. $n$ is PDF
 p. $n$; the foot of p. 1 prints "GRAPH THEORY AND COMBINATORICS" and "ISBN
 0-12-111760-X" beside the copyright notice quoted below), with a text layer
-that locates passages and garbles the displays. Provenance: retrieved from <https://users.renyi.hu/~p_erdos/1984-11.pdf>
-(HTTP 200, one request); 2,191,333 bytes. The scan prints "Copyright © 1984 by
+that locates passages and garbles the displays. Provenance: retrieved
+2026-09-19T01:40:03Z from <https://users.renyi.hu/~p_erdos/1984-11.pdf> (HTTP
+200, one request); 2,191,333 bytes. The scan prints "Copyright © 1984 by
 Academic Press, London" and "All rights of reproduction in any form reserved" at
 the foot of its first page, every other right reserved.
 

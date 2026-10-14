@@ -126,6 +126,5 @@ kernel-checked or audited here, and the repository's own record calls the
 development a candidate pending an expert referee.
 
 **Standing.** Claimed: the site's label was OPEN (page last edited 17 October
-2025; proof-claims tab accessed 2026-10-07); the manuscript is a repository
-document, not on a preprint server, with no refereed version, site acceptance
-or independent review found on 2026-10-07.
+2025); the manuscript is a repository document, not on a preprint server, with
+no refereed version, site acceptance or independent review found on 2026-10-07.

@@ -24,7 +24,7 @@ the octahedron question "A particular tantalising open problem". The paper's
 **Source.** H. Liu, C. Reiher, M. Sharifzadeh and K. Staden, *Geometric
 constructions for Ramsey-Turán theory*, arXiv:2103.10423v2 (18 August 2025),
 retained; Journal of the European Mathematical Society, vol. 28, no. 1,
-79--112, doi:10.4171/jems/1712 (Crossref record read; the journal
+79--112, doi:10.4171/jems/1712 (Crossref record read 2026-09-18; the journal
 text is not held). Problem C on p. 6 of the retained version and the text
 before it on p. 5, read on the page images. The artifact is identified in
 the

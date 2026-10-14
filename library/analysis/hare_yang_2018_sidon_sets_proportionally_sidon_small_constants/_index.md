@@ -50,15 +50,15 @@ The copy read for this card is the arXiv v1 manuscript (stamp
 "arXiv:1808.03128v1 [math.FA] 9 Aug 2018" on p. 1), the only arXiv version
 listed on 2026-09-22, 10 physical pages whose printed numbers equal the PDF
 page numbers (187,189 bytes). Provenance: downloaded from
-<https://arxiv.org/pdf/1808.03128v1> on 2026-09-22. The arXiv
-record names the published version, *Canadian Mathematical Bulletin* **62**
-(2019), 798--809, DOI 10.4153/S0008439518000620 (Cambridge, subscription); that
-version was not acquired and no version of record was compared, so the labels
-and pages cited below are v1's: Definition 2 and Remark 1 (p. 3), Theorem 1
-(p. 4), Lemma 1 (p. 4), Lemma 2 and Proposition 2 (p. 5), Lemma 3 (p. 7),
-Theorem 2 (p. 8), Remark 2 and Propositions 3 and 4 (p. 9), Section 4
-(pp. 9--10). The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:1808.03128), every other right reserved.
+<https://arxiv.org/pdf/1808.03128v1>. The arXiv record names the published
+version, *Canadian Mathematical Bulletin* **62** (2019), 798--809, DOI
+10.4153/S0008439518000620 (Cambridge, subscription); that version was not
+acquired and no version of record was compared, so the labels and pages cited
+below are v1's: Definition 2 and Remark 1 (p. 3), Theorem 1 (p. 4), Lemma 1 (p.
+4), Lemma 2 and Proposition 2 (p. 5), Lemma 3 (p. 7), Theorem 2 (p. 8), Remark 2
+and Propositions 3 and 4 (p. 9), Section 4 (pp. 9--10). The arXiv record names
+arXiv's non-exclusive distribution license (arXiv:1808.03128), every other right
+reserved.
 
 Read status: claims checked. Definition 2, Remark 1, the proportionality
 terminology and Theorem 1 (pp. 3--4), Proposition 2, Lemma 3, Theorem 2 and

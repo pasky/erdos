@@ -44,7 +44,7 @@ color suffices. The theorem is read for each fixed $L$.
 **Source.** G. N. Sárközy and S. Selkow, *On an anti-Ramsey problem of
 Burr, Erdős, Graham, and T. Sós*, J. Graph Theory 52 (2006), no. 2,
 147–156, doi:10.1002/jgt.20148 (published online 25 January 2006; Crossref
-record read, whose abstract states the result informally, in
+record read 2026-09-18, whose abstract states the result informally, in
 nearly the words of the preprint's abstract). Read in the authors' preprint
 dated 5 February 2004, nine pages: Theorem 4 and the question on p. 3, on
 the page image (the text layer drops the letter c and the Greek letters).

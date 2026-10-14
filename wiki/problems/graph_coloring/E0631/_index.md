@@ -74,7 +74,7 @@ corpus has not built or audited it.
 
 ## Current assessment
 
-The site's formulation asks whether every planar graph
+The site's formulation (accessed 2026-09-04) asks whether every planar graph
 has list chromatic number at most $5$ and whether $5$ is best possible. Both
 answers are yes.
 [[problems/graph_coloring/E0631/claims/1994_09_01_thomassen|Thomassen 1994]]
@@ -116,9 +116,9 @@ statement and the formal-conjectures repository has no file for the problem
 
 Search scope: the site's page and discussion thread, the community database
 (teorth/erdosproblems), the formal-conjectures repository, the lean-proofs
-collection and Crossref. On 2026-10-07 the thread held two comments and the
-site no proof claims, and none of these sources showed another claim on the
-problem.
+collection and Crossref. The site listed no proof claims, and on 2026-10-07
+the thread held two comments and none of these sources showed another claim on
+the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

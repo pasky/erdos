@@ -23,10 +23,10 @@ paper as published in the Zenodo release archive
 the archive also holds the paper's TeX source, the certificate files and the
 scripts, which are not retained here. Provenance: archive
 downloaded from
-https://zenodo.org/api/records/21327851/files/techno-optimist/erdos-minimum-overlap-bound-v1.2.zip/content
-on 2026-09-25; the PDF is 201,241 bytes. No notice is printed in the file; the
-Zenodo record of the release archive names the Creative Commons Attribution 4.0
-license, license id "cc-by-4.0", with the access right "open"
+https://zenodo.org/api/records/21327851/files/techno-optimist/erdos-minimum-overlap-bound-v1.2.zip/content;
+the PDF is 201,241 bytes. No notice is printed in the file; the Zenodo record of
+the release archive names the Creative Commons Attribution 4.0 license, license
+id "cc-by-4.0", with the access right "open"
 (https://zenodo.org/api/records/21327851, read 2026-10-02).
 
 Kevin Russell, "A tighter upper bound for the Erdős minimum overlap constant,"

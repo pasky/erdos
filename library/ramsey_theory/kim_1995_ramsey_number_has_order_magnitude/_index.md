@@ -22,7 +22,7 @@ Kim, J. H., The Ramsey number $R(3,t)$ has order of magnitude $t^2/\log t$.
 Random Structures and Algorithms (1995), 173-207.
 
 Random Structures Algorithms 7 (1995), no. 3, 173--207, DOI
-10.1002/rsa.3240070302 (Crossref record read). The copy read for
+10.1002/rsa.3240070302 (Crossref record read 2026-09-18). The copy read for
 this card is a 36-page typescript posted on a course web page, numbered 1--36;
 it is not the journal's pagination, and the locators below are typescript
 pages. The

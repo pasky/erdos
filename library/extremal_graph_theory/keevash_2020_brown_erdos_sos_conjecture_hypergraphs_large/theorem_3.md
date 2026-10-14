@@ -41,7 +41,7 @@ and the group-structure results of Nenadov, Sudakov and Tyomkyn and of Long.
 hypergraphs of large uniformity*, arXiv:2007.14824v1 (29 July 2020, dated
 30 July 2020 on its title page, 9 pages), the copy read for this page; the paper
 appeared in Proc. Amer. Math. Soc., doi:10.1090/proc/15487 (2021; the
-Crossref record, carries no volume or page range), not
+Crossref record, read on 2026-09-18, carried no volume or page range), not
 compared. Conjectures 1-2 and Theorem 3 on pp. 1-2, read on the page
 images and in the text layer. The artifact is identified in the
 [[extremal_graph_theory/keevash_2020_brown_erdos_sos_conjecture_hypergraphs_large/_index|source digest]].
@@ -68,11 +68,10 @@ the bow-tie graph of Shapira and Tyomkyn (external, at statement level).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the conjecture in
-  the site's commentary, in its $t=2$ linear form (Conjecture 2, which the
-  paper says implies the general case through the cited reductions), proved
-  for every uniformity $r\ge r_0(\varepsilon)$, where $\varepsilon$ is the
-  linear-density bound. At a fixed uniformity, $r=3$
-  included, the theorem covers only the densities $\varepsilon$ with
-  $r_0(\varepsilon)\le r$, so it does not settle Conjecture 2 at any fixed
-  $r$.
+- [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the
+  conjecture in the site's commentary, in its $t=2$ linear form (Conjecture 2,
+  which the paper says implies the general case through the cited reductions),
+  proved for every uniformity $r\ge r_0(\varepsilon)$, where $\varepsilon$ is
+  the linear-density bound. At a fixed uniformity, $r=3$ included, the theorem
+  covers only the densities $\varepsilon$ with $r_0(\varepsilon)\le r$, so it
+  does not settle Conjecture 2 at any fixed $r$.

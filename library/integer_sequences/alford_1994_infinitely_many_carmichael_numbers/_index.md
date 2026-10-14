@@ -42,8 +42,8 @@ W. R. Alford, A. Granville and C. Pomerance, *There are infinitely many
 Carmichael numbers*, Ann. of Math. (2) **139** (1994), no. 3, 703--722
 (received 11 August 1992). The scan's running head prints "Annals of
 Mathematics, 140 (1994), 703–722"; the volume is 139 in Crossref's record
-of DOI 10.2307/2118576, and the problem page's entry
-gives no volume.
+of DOI 10.2307/2118576 (read 2026-09-17), and the problem page's entry gives no
+volume.
 
 The copy read for this card is
 an image-only scan of the twenty printed pages (physical p. $n$ is printed

@@ -22,8 +22,8 @@ an algebraic factorization rather than by a covering prime.
 Izotov, Anatoly S., A note on Sierpiński numbers. Fibonacci Quart. 33 (1995),
 no. 3, 206--207. No notice is printed on the two scanned pages; the journal's
 issue page that links the PDF carries "Copyright © 2010 The Fibonacci
-Association. All rights reserved." (https://www.fq.math.ca/33-3.html), every
-other right reserved.
+Association. All rights reserved." (https://www.fq.math.ca/33-3.html, read
+2026-10-02), every other right reserved.
 
 Sierpinski proved there are infinitely many odd k with k*2^n + 1 composite for
 all n >= 0, using the covering set {3,5,17,257,641,65537,6700417}. Izotov's

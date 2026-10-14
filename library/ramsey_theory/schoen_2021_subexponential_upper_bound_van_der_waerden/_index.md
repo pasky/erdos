@@ -25,7 +25,7 @@ Schoen, Tomasz, A subexponential upper bound for van der {W}aerden numbers
 The retained folder-name PDF is the published article: Electron. J. Combin.
 28 (2021), no. 2, Paper P2.34, 10 pages, DOI 10.37236/9704 (submitted 9 July
 2020, accepted 23 May 2021, published 4 June 2021, per the first page and
-the Crossref record read); printed page equals PDF page.
+the Crossref record read 2026-09-18); printed page equals PDF page.
 
 The van der Waerden number W(k,l) is the smallest N such that in any partition
 {1,...,N} = X ∪ Y there is an arithmetic progression of length k in X or one of

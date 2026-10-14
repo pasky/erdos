@@ -26,10 +26,10 @@ using little q-Jacobi polynomials*, Acta Arith. **138** (2009), no. 2,
 arXiv:0809.2501.
 
 The copy read for this card is the arXiv version stamped "arXiv:0809.2501v3
-[math.CA] 18 Sep 2008" (13 pages; the date line "November 15, 2018" under the
-authors is an artifact of the arXiv rendering), with a text layer; Theorem 1.1
-was also checked on the page image. Provenance: fetched from
-<https://arxiv.org/pdf/0809.2501> on 2026-09-17 (UTC), 174,380 bytes. The
+[math.CA] 18 Sep 2008" (<https://arxiv.org/abs/0809.2501v3>; 13 pages; the date
+line "November 15, 2018" under the authors is an artifact of the arXiv
+rendering), with a text layer; Theorem 1.1 was also checked on the page image.
+Provenance: fetched from <https://arxiv.org/pdf/0809.2501>, 174,380 bytes. The
 journal version was not compared; labels and pages are those of the arXiv
 version. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:0809.2501), every other right reserved.

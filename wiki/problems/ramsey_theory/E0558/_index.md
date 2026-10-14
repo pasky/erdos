@@ -130,8 +130,8 @@ Bloom, Erdős Problem #558, https://www.erdosproblems.com/558, accessed
 **Formalization.** None. No file `ErdosProblems/558.lean` exists in
 formal-conjectures (main; the directory was listed in full on 2026-09-17, and no
 such file existed on 2026-10-07), the site's page records no formalized
-statement, and the community database (teorth/erdosproblems) records the
-problem as open and unformalized with no formal-proof URL.
+statement, and the community database (teorth/erdosproblems, read 2026-10-06)
+records the problem as open and unformalized with no formal-proof URL.
 
 ## Current assessment
 

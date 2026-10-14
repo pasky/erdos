@@ -50,9 +50,10 @@ https://www.erdosproblems.com/1147.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1147.lean).
-The community database at teorth/erdosproblems records the problem's formal
-status as Lean; the two third-party Lean formalizations of Konieczny's $\sqrt2$
-counterexample, neither built by this corpus, are linked from the claim page.
+The community database at teorth/erdosproblems (accessed 2026-09-16) records
+the problem's formal status as Lean; the two third-party Lean formalizations of
+Konieczny's $\sqrt2$ counterexample, neither built by this corpus, are linked
+from the claim page.
 
 ## Progress
 

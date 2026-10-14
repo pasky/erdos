@@ -25,7 +25,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** If $G$ is a graph on $n$ vertices without a $K_4$ then how large
 a triangle-free induced subgraph must $G$ contain?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page shows no
 last-edited date). Write $f(n)$ for the largest $m$ such that every
 $K_4$-free graph on $n$ vertices has $m$ vertices spanning no triangle; the
 question asks for the order of $f(n)$. This is the Erdős--Rogers function
@@ -123,7 +123,7 @@ Problem #620, https://www.erdosproblems.com/620, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/_index|erdos_1992_covering_cliques_graph_vertices]].
 - [Kr94] Krivelevich, M., $K^s$-free graphs without large $K^r$-free
   subgraphs. Combin. Probab. Comput. 3 (1994), no. 3, 349--354,
-  doi:10.1017/S0963548300001243. The copy
+  doi:10.1017/S0963548300001243 (Crossref record of 2026-09-18). The copy
   read is the author's typescript, paginated 1--5 (no file held); locators
   below are its pages. The definition and the Bollobás--Hind bounds, p. 1;
   $f_{3,4}(7)=4$ and Theorem 1, p. 2; Theorem 2 and Corollaries 1--2, p. 5.
@@ -133,10 +133,9 @@ Problem #620, https://www.erdosproblems.com/620, accessed 2026-09-18.
   functions. arXiv:2401.02548v2 (8 February 2024; title page dated February
   12, 2024), retained; published as "On the order of the classical
   Erdős–Rogers functions", Bull. Lond. Math. Soc. 57 (2025), no. 2,
-  582--598, doi:10.1112/blms.13214 (published online 20 December 2024; the
-  journal text is not held). Equation
-  (1), Theorem 1 and the constant $2^{100s}$, p. 1; Section 4, p. 4. Library
-  home:
+  582--598, doi:10.1112/blms.13214 (published online 20 December 2024; Crossref
+  record of 2026-09-18; the journal text is not held). Equation (1), Theorem 1
+  and the constant $2^{100s}$, p. 1; Section 4, p. 4. Library home:
   [[../library/extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/_index|mubayi_2024_order_erdos_rogers_functions]].
 - [Sh95] Shearer, J. B., On the independence number of sparse graphs. Random
   Structures Algorithms 7 (1995), no. 3, 269--271, doi:10.1002/rsa.3240070305
@@ -207,7 +206,7 @@ Problem #620, https://www.erdosproblems.com/620, accessed 2026-09-18.
   the source of this page's account. Claim, recorded below.
 - [JMRS21] Joret, G., Micek, P., Reed, B. and Smid, M., Tight bounds on the
   clique chromatic number. Electron. J. Combin. 28 (2021), no. 3, Paper
-  P3.51, doi:10.37236/9659. Not held;
+  P3.51, doi:10.37236/9659 (Crossref record of 2026-09-18). Not held;
   library card
   [[../library/extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/_index|joret_2021_tight_bounds_clique_chromatic_number]],
   result page
@@ -233,7 +232,7 @@ formalized and without a formal proof.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above, labeled open. The site's commentary traces the question to Erdős and
 Rogers [ErRo62], gives it its usual name, and records the history of bounds
 on $f(n)$ through [BoHi91], [Kr94] and [Wo13] to the two bounds that stand
@@ -448,7 +447,7 @@ source of this page's derived standing; it is not accepted.
   behind the corollary. The route through [OAI26] above reaches the same bound
   without that theorem. The new part of the claim is the upper bound. A
   discussion comment of 7 September 2026 reports the preprint as a solution;
-  the site's label was OPEN and the page carries no
+  the site's label was OPEN (accessed 2026-09-18) and the page carried no
   update note. The preprint is
   unrefereed (no journal reference on the arXiv record on 2026-10-07 and no
   Crossref record on 2026-09-18) and not held; no review or acceptance
@@ -507,26 +506,25 @@ $c\sqrt{n\log n/\log\log n}$ and $2^{300}\sqrt n\log n$; Corollary 2 of
 claim recorded on Problem 610's page), and Theorem 1.1 of [OAI26] gives it
 without that theorem (an unrefereed manuscript accepted with formalized
 evidence; the deduction is not formalized), so the open part is a factor
-$(\log n)^{1/2}$. [MSV26] claims the matching upper bound $O(\sqrt{n\log n})$; what would
-settle the order is the refereed publication or documented independent
-acceptance of [MSV26], after which its theorem would be paged and its claim
-page moved to accepted. (2) The 2014 upper bound rests on a second-hand
-quotation: [DRR14] is not held, and the account uses it through a held
-refereed introduction. [Sh95], [BoHi91] and [Wo13] were read in the
+$(\log n)^{1/2}$. [MSV26] claims the matching upper bound $O(\sqrt{n\log n})$;
+what would settle the order is the refereed publication or documented
+independent acceptance of [MSV26], after which its theorem would be paged and
+its claim page moved to accepted. (2) The 2014 upper bound rests on a
+second-hand quotation: [DRR14] is not held, and the account uses it through a
+held refereed introduction. [Sh95], [BoHi91] and [Wo13] were read in the
 publishers' copies and are filed in the library (no file is held), and the
 statements of [Sh95]'s Corollary 1, [BoHi91]'s Theorems 1 and 5 and [Wo13]'s
 Theorem 1.1 are checked against the printed pages, so the lower bound and the
 1991 and 2013 bounds are first-hand, the lower bound through the two-line
 neighborhood argument recorded on the corollary's result page. (3) Proof
-coverage is statements only: the Section 3
-Theorem, Krivelevich's Theorem 1 and Corollary 1, Mubayi--Verstraete's
-Theorem 1, [BoHi91]'s Theorems 1 and 5, [Wo13]'s Theorem 1.1 and [Sh95]'s
-Corollary 1 are paged at claims checked; apart from the one-paragraph proofs
-of [BoHi91]'s Theorem 1 and [Sh95]'s Corollary 1, followed in full (the
-latter a reduction to Theorem 1 of that paper, whose proof is checked for
-structure only), no proof is followed or reviewed. (4) The journal texts of
-[MuVe24] and [Kr94] are not compared with the editions read. (5) [Er99],
-one of the site's source keys, is not held.
+coverage is statements only: the Section 3 Theorem, Krivelevich's Theorem 1 and
+Corollary 1, Mubayi--Verstraete's Theorem 1, [BoHi91]'s Theorems 1 and 5,
+[Wo13]'s Theorem 1.1 and [Sh95]'s Corollary 1 are paged at claims checked; apart
+from the one-paragraph proofs of [BoHi91]'s Theorem 1 and [Sh95]'s Corollary 1,
+followed in full (the latter a reduction to Theorem 1 of that paper, whose proof
+is checked for structure only), no proof is followed or reviewed. (4) The
+journal texts of [MuVe24] and [Kr94] are not compared with the editions read.
+(5) [Er99], one of the site's source keys, is not held.
 
 ## Known results
 

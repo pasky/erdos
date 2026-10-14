@@ -51,14 +51,14 @@ corpus has not built it.
 ## Current assessment
 
 **Proved by a refereed paper of 2003.** The site's formulation above
-(export of 2026-09-04, page read) asks whether, for a basis $A$
-of order $r$, the integers that are sums of exactly $r$ distinct elements of
-$A$ have positive lower density. The answer is yes, proved by Hegyvári,
-Hennecart and Plagne in J. Reine Angew. Math. 560 (2003), 199--220, which
-also proves the companion statement that positive upper density of the
-$r$-fold sums implies positive upper density of the restricted sums; the
-claim page records the acceptance. The paper is not held here, its theorem
-numbering is not recorded, and its proof is not compiled or reviewed here.
+(export of 2026-09-04, page read 2026-10-07) asks whether, for a basis $A$ of
+order $r$, the integers that are sums of exactly $r$ distinct elements of $A$
+have positive lower density. The answer is yes, proved by Hegyvári, Hennecart
+and Plagne in J. Reine Angew. Math. 560 (2003), 199--220, which also proves the
+companion statement that positive upper density of the $r$-fold sums implies
+positive upper density of the restricted sums; the claim page records the
+acceptance. The paper is not held here, its theorem numbering is not recorded,
+and its proof is not compiled or reviewed here.
 
 **Scope.** Read: the site's problem page, the Crossref
 record of the paper, and the header and theorem statement of the Lean file.

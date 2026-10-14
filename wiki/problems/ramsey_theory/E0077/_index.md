@@ -176,11 +176,11 @@ of formal-conjectures (main) declares `erdos_77 : Filter.Tendsto (fun k : ℕ �
 (SimpleGraph.diagonalRamsey k : ℝ) ^ (1 / (k : ℝ))) Filter.atTop (𝓝
 answer(sorry))` under `category research open`, with proof `sorry`: the
 existence of the limit with an unknown value, and a note "TODO: Add variants of
-the problem." The community database records the problem open (record dated 31
-August 2025), the statement formalized (the file was added on 9 September 2026),
-and no formal proof. Three external formal artifacts concern the upper bounds,
-not the statement: the Lean 4 repository named by [GNNW24] for its Theorem 1 and
-Corollary 6
+the problem." The community database (fetched 2026-09-18T01:45Z) records the
+problem open (record dated 31 August 2025), the statement formalized (the file
+was added on 9 September 2026), and no formal proof. Three external formal
+artifacts concern the upper bounds, not the statement: the Lean 4 repository
+named by [GNNW24] for its Theorem 1 and Corollary 6
 ([RamseyLean](https://github.com/snorin239/RamseyLean/tree/90e87da214701dd6eb3d56a2c7121839d8269d14),
 its commit of 17 August 2026; its own claims are recorded on the [GNNW24] card);
 the Isabelle formalization of [CGMS23] reported in [Pa25] (abstract only); and

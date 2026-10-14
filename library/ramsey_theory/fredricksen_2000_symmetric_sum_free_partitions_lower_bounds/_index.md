@@ -58,7 +58,7 @@ Source: <https://www.combinatorics.org/ojs/index.php/eljc/article/view/v7i1r32>.
 
 For problem 483, the copy read for this card is the journal's file (Electron. J.
 Combin. 7 (2000), #R32, nine pages, DOI 10.37236/1510 per the Crossref
-record read). Read status: claims checked for the definitions,
+record read 2026-09-18). Read status: claims checked for the definitions,
 displays (1)--(3), footnote 1 (the two conventions for S(k)), the announced
 bounds S(6) >= 536, S(7) >= 1680 and the self-assessment "There are no real
 theorems in this note" (pp. 1--2), read clause by clause on the page images;

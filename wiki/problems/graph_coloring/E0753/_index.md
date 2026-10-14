@@ -53,7 +53,7 @@ Alon's paper, are linked from the claim page; the corpus did not build them.
 
 ## Current assessment
 
-The site's formulation asks whether some constant $c>0$
+The site's formulation (accessed 2026-09-04) asks whether some constant $c>0$
 makes $\chi_L(G)+\chi_L(G^c)>n^{1/2+c}$ hold for every graph $G$ on $n$
 vertices. The answer is no:
 [[problems/graph_coloring/E0753/claims/1992_06_01_alon|Alon 1992]] gives, for

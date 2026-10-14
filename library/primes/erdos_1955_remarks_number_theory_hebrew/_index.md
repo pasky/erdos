@@ -38,7 +38,7 @@ P. Erdős: Some remarks on number theory (in Hebrew), Riveon Lematematika 9
 (1955), 45--48 MR 17,460d. No notice is printed in the file (pp. 45 and 48, read
 as page images, carry only a received-date footnote and the author's
 affiliation); the hosting archive's site footer speaks for the site, not the
-paper (https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007
+paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007
 All rights reserved. All material on this site is for scientifics purposes
 only."); the journal has no publisher page, so none was consulted, and no
 Crossref license is recorded; the term is unstated.

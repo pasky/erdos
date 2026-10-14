@@ -79,20 +79,19 @@ exactly for all n at most 37, combining an exhaustive computer search over
 Hamiltonian graphs with at most four chords, and with five chords on at most 31
 vertices (p. 2; the abstract says graphs with up to 29 vertices), with a new
 explicit five-chord construction, captioned "Construction with 23 to 37
-vertices" (Figure 1, p. 1; Table 1). The search is made feasible by Shi's theorem (Theorem 2) that a
-given chord set admits at most two cycles using exactly those chords, giving at
-most 2^{k+1}-1 cycles for k chords (Corollary 1), which together with the
-search rules out pancyclic graphs with four chords on 25 or more vertices.
-Section 1.1 states Bondy's
-bounds n + log_2(n-1) - 1 <= m(n) <= n + log_2 n + H(n) + O(1) (Claim 1), says
-that Bondy states them without proof, and proves the lower bound from
-Corollary 1. Section 1.3 studies the growth
-of m(n): Proposition 2 shows m(n+1) <= m(n)+2, and Conjecture 1 conjectures that
-m(n) < m(n+1) for all n >= 3; Theorem 4 with Corollary 2 proves this in special
-cases, for instance when some minimal pancyclic graph on n vertices has a long
-arc along its Hamiltonian cycle, and Proposition 4 with Corollary 3 gives a
-conditional alternative for an arc of length n/2 - 1. Table 1,
-the lower bound and the monotonicity conjecture are the paper's content for
+vertices" (Figure 1, p. 1; Table 1). The search is made feasible by Shi's
+theorem (Theorem 2) that a given chord set admits at most two cycles using
+exactly those chords, giving at most 2^{k+1}-1 cycles for k chords (Corollary
+1), which together with the search rules out pancyclic graphs with four chords
+on 25 or more vertices. Section 1.1 states Bondy's bounds n + log_2(n-1) - 1 <=
+m(n) <= n + log_2 n + H(n) + O(1) (Claim 1), says that Bondy states them without
+proof, and proves the lower bound from Corollary 1. Section 1.3 studies the
+growth of m(n): Proposition 2 shows m(n+1) <= m(n)+2, and Conjecture 1
+conjectures that m(n) < m(n+1) for all n >= 3; Theorem 4 with Corollary 2 proves
+this in special cases, for instance when some minimal pancyclic graph on n
+vertices has a long arc along its Hamiltonian cycle, and Proposition 4 with
+Corollary 3 gives a conditional alternative for an arc of length n/2 - 1. Table
+1, the lower bound and the monotonicity conjecture are the paper's content for
 problem 1016 on the minimum size of a pancyclic graph.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1016/_index|#1016]]: in the site's

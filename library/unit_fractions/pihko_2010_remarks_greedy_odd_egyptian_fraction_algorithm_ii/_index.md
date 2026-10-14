@@ -45,7 +45,7 @@ Provenance: obtained from the repository's survey download set of September
 bytes. No copyright line is printed on the pages (pp. 202 and 208 read); the
 journal's issue page that lists the article shows the footer "Copyright © 2010
 The Fibonacci Association. All rights reserved."
-(https://www.fq.math.ca/48-3.html), and the publisher's DOI
+(https://www.fq.math.ca/48-3.html, read 2026-10-02), and the publisher's DOI
 page, which had returned HTTP 403, was not retried, every other right reserved.
 
 Read status: claims checked. The abstract, the introduction's statement of
@@ -86,12 +86,12 @@ statement level only.
   $2,3,\dots,p-1,1$ (proof by Wilson's theorem; result page
   [[unit_fractions/pihko_2010_remarks_greedy_odd_egyptian_fraction_algorithm_ii/theorem_3_5|theorem_3_5]]).
   Corollary 3.6 (p. 206): for every odd prime $p$ and $1<a<p$ there is
-  $t\in\{1,\dots,p\}$ such that $k=-1+t\,a(a+1)\cdots(p-1)$ gives the numerator sequence
-  $a,a+1,\dots,p-1,1$ for $a/(2k+1)$, and the same sequence results for all
-  $K=-1+T\,a(a+1)\cdots(p-1)$ with $T\equiv t\pmod p$; hence, as the
-  abstract states, infinitely many odd $b$ with $\gcd(a,b)=1$ and $a<b$
-  with these numerators, for which the algorithm stops after exactly
-  $p-a+1$ steps (the step count is deduced on the result page
+  $t\in\{1,\dots,p\}$ such that $k=-1+t\,a(a+1)\cdots(p-1)$ gives the numerator
+  sequence $a,a+1,\dots,p-1,1$ for $a/(2k+1)$, and the same sequence results for
+  all $K=-1+T\,a(a+1)\cdots(p-1)$ with $T\equiv t\pmod p$; hence, as the
+  abstract states, infinitely many odd $b$ with $\gcd(a,b)=1$ and $a<b$ with
+  these numerators, for which the algorithm stops after exactly $p-a+1$ steps
+  (the step count is deduced on the result page
   [[unit_fractions/pihko_2010_remarks_greedy_odd_egyptian_fraction_algorithm_ii/corollary_3_6|corollary_3_6]]).
   Tables 2--4 (pp. 205--206) give computed examples.
 - Section 4 (pp. 207--208): all solutions $t$ modulo $p$ when

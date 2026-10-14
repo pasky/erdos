@@ -74,10 +74,10 @@ Scottish Book account [Er81b] poses the question.
 No proof text of the result is held by this corpus, and nothing on this
 page is independently reviewed by this project.
 
-**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom, labeled
-Problem 1128 disproved and credits Prikry and Mills, naming the reports of
-Todorčević and Komjáth (problem page last edited 30 December 2025, accessed
-2026-10-07). Komjáth's refereed survey independently records the result as
+**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom,
+credits Prikry and Mills, naming the reports of Todorčević and Komjáth (problem
+page last edited 30 December 2025, accessed 2026-10-07), and labeled Problem
+1128 disproved. Komjáth's refereed survey independently records the result as
 theirs. The curator and Komjáth are independent of the authors. There is no
 refereed publication of the result by its authors, so `refereed` is not listed.
 The two reports are refereed publications that record the result, not

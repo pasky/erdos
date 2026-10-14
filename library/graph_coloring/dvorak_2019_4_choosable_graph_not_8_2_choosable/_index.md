@@ -30,17 +30,16 @@ journal's typeset text (head "Advances in Combinatorics, 2019:5, 9 pp.",
 journal pages 1--9, DOI in the footer of p. 1) carrying the stamp
 "arXiv:1806.03880v2 [math.CO] 25 Oct 2019", that is, the arXiv copy of the
 published version; it has a text layer, from which the statements below were
-read. Provenance: obtained in the survey download of
-September 2026; the identifier recorded with it is the DOI 10.19086/aic.10811,
-and the download URL was not recorded; 280,209 bytes. The footer of p. 1 prints
-"© 2019 Zdeněk Dvořák and Xiaolan Hu and Jean-Sébastien Sereni" and "Licensed
-under a Creative Commons Attribution License (CC-BY)", and the journal's page
-for the article names the Creative Commons Attribution 4.0 International
-License, with the authors keeping the copyright
+read. Provenance: obtained in the survey download; the identifier recorded with
+it is the DOI 10.19086/aic.10811, and the download URL was not recorded; 280,209
+bytes. The footer of p. 1 prints "© 2019 Zdeněk Dvořák and Xiaolan Hu and
+Jean-Sébastien Sereni" and "Licensed under a Creative Commons Attribution
+License (CC-BY)", and the journal's page for the article names the Creative
+Commons Attribution 4.0 International License, with the authors keeping the
+copyright
 (https://www.advancesincombinatorics.com/article/10811-a-4-choosable-graph-that-is-not-8-2-choosable,
-read 2026-10-07); that named open license decides the term. Beside it, the
-arXiv record names arXiv's non-exclusive distribution license
-(arXiv:1806.03880).
+read 2026-10-07); that named open license decides the term. Beside it, the arXiv
+record names arXiv's non-exclusive distribution license (arXiv:1806.03880).
 
 ## Contents
 

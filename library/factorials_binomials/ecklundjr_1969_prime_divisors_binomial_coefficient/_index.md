@@ -39,7 +39,7 @@ July 8, 1968; the issue is dated June 1969. No copyright line is printed in the
 publisher PDF (its cover page, pp. 267--270, the journal's back matter and the
 issue contents); the journal's article page shows "© Copyright 1969 Pacific
 Journal of Mathematics. All rights reserved."
-(https://msp.org/pjm/1969/29-2/p04.xhtml), every other right
+(https://msp.org/pjm/1969/29-2/p04.xhtml, read 2026-10-02), every other right
 reserved.
 
 The displayed

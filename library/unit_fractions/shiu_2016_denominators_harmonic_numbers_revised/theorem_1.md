@@ -14,7 +14,7 @@ updated: 2026-10-08T01:29:58Z
 **Source.** Theorem 1, Section 1, p. 2 of arXiv:1607.02863v2
 (30 July 2024; the paper is dated 29 July 2024), proof in Section 2,
 pp. 3--4; read on the PDF pages in the text layer. Preprint, not published
-in a journal (arXiv listing checked). Notation: $H_n=c_n/d_n$
+in a journal (arXiv listing checked 2026-09-18). Notation: $H_n=c_n/d_n$
 in lowest terms and $D_n=\mathrm{lcm}(1,2,\ldots,n)$.
 
 ## Statement

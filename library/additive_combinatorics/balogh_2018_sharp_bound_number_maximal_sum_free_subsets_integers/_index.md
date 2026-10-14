@@ -21,7 +21,7 @@ sharp form of the site's answer to Problem 877.
 Balogh, József and Liu, Hong and Sharifzadeh, Maryam and Treglown, Andrew,
 Sharp bound on the number of maximal sum-free subsets of integers. J. Eur. Math.
 Soc. (JEMS) 20 (2018), no. 8, 1885--1911, DOI 10.4171/JEMS/802 (Crossref
-record read).
+record read 2026-09-18).
 
 The copy read for this card
 is arXiv:1502.07605v2 (11 May 2018; 25 pages; "to appear in the Journal of

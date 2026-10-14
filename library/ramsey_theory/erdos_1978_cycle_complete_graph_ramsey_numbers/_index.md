@@ -27,7 +27,8 @@ the quadratic bound.
 
 P. Erdős, R. J. Faudree, C. C. Rousseau and R. H. Schelp, *On cycle-complete
 graph Ramsey numbers*, J. Graph Theory 2 (1978), no. 1, 53--64; DOI
-10.1002/jgt.3190020107 (March 1978 issue; the Crossref record was read).
+10.1002/jgt.3190020107 (March 1978 issue; the Crossref record was read on
+2026-09-17).
 
 The copy read for this card is the Rényi archive's
 12-page OCR scan of the journal article (printed pp. 53--64; PDF page $n$ is

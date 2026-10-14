@@ -43,7 +43,7 @@ and has the k-Sperner property for every k.
 Stanley, Richard P., Weyl groups, the hard Lefschetz theorem, and the Sperner
 property. SIAM J. Algebraic Discrete Methods (1980), 168-184. The journal
 record is SIAM J. Algebraic Discrete Methods 1 (1980), no. 2, 168--184, DOI
-10.1137/0601021 (Crossref); received by the editors June 1,
+10.1137/0601021 (Crossref, read 2026-09-18); received by the editors June 1,
 1979 (p. 168).
 
 Stanley shows that partially ordered sets Q^X arising from cellular

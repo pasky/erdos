@@ -58,7 +58,7 @@ Finding Maximal Network Flows and an Application to the Hitchcock
 Problem**, Canadian Journal of Mathematics **9** (1957), 210–218.
 [DOI](https://doi.org/10.4153/CJM-1957-024-0).
 Published original.
-[Source record](source_record.json).
+[Source record](source_record.json). Accessed 2026-09-05.
 
 The copy read for this card is the nine-page published original
 from Cambridge's official public endpoint. Its printed

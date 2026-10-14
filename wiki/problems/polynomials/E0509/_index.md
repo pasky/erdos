@@ -44,7 +44,7 @@ adopted. It is [[problems/polynomials/E0509/claims/2026_07_19_hong|Hong 2026]],
 registered on 2026-07-19 with a write-up in a shared file. It asserts the answer
 yes for degrees two to four, with the quartic case computer-assisted, and it
 credits ChatGPT for most of the text. No review or acceptance of it is recorded
-(proof-claims thread, 2026-10-07).
+(proof-claims thread).
 
 **Source.** [erdosproblems.com/509](https://www.erdosproblems.com/509), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #509,
@@ -120,8 +120,8 @@ site's remarks, which label the problem OPEN. The pending partial claim on
 [[problems/polynomials/E0509/claims/2026_07_19_hong|Hong 2026]] asserts the
 answer yes for degrees two to four, with a write-up behind a sign-in and no
 review. Erdős asked the higher-dimensional generalization as Problem 4.23 of
-[Ha74]. Search scope: the site's problem page and proof-claims tab
-(2026-10-07), the formal-conjectures statement file, and the two Pommerenke
+[Ha74]. Search scope: the site's problem page (2026-10-07) and
+proof-claims tab, the formal-conjectures statement file, and the two Pommerenke
 papers filed in the library; no other literature search is recorded.
 
 ## Known Results

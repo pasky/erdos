@@ -47,9 +47,9 @@ cited through the site's commentary and the journal record.
 
 **Acceptance.** Refereed: the paper is a journal article (Crelle's Journal).
 Crossref gives the issue date 2003-01-07, which is the page's date. Reviewed:
-the site's curator, T. F. Bloom, credits the affirmative answer to it and
-labeled the problem proved at erdosproblems.com (page last edited 2025-10-14,
-read 2026-10-07). This is the site's acceptance. The proof is not compiled or
+the site's curator, T. F. Bloom, credits the affirmative answer to it (page last
+edited 2025-10-14, read 2026-10-07) and labeled the problem proved at
+erdosproblems.com. This is the site's acceptance. The proof is not compiled or
 reviewed here.
 
 **The Lean file.** Boris Alexeev's `lean-proofs` repository has held

@@ -65,7 +65,7 @@ is the status-defining result for Problem 581, compiled at claims-checked depth.
 That manuscript is the author's final version, byte-identical to
 <https://web.math.princeton.edu/~nalon/PDFS/bipartite3.pdf>. Published as
 Combinatorica 16 (1996), no. 3, 301-311,
-<https://doi.org/10.1007/BF01261315> (Crossref record read:
+<https://doi.org/10.1007/BF01261315> (Crossref record read on 2026-09-18:
 issued September 1996).
 
 Read status: claims checked for Theorem 1.2 (p. 2) and Proposition 3.2

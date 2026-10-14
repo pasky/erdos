@@ -51,10 +51,11 @@ the $2$-choosable graphs ([ERT80] on the problem page), not $2$-choosable.
 **Acceptance.** The paper is refereed. It appeared in Combinatorica 12 (1992),
 no. 2, 125–134, in the issue of June 1992. The publication record gives no finer
 date, so the page is dated by the first day of the issue month. The site's
-curator, Thomas Bloom, marked the problem PROVED and credits Alon and Tarsi
-[AlTa92] with the answer. This independent credit is listed as `reviewed`. The
-community database (teorth/erdosproblems) lists the problem as proved with a
-Lean proof from 2026-09-16, the date of Ren's formalization below.
+curator, Thomas Bloom, marked the problem PROVED (accessed 2026-09-04) and
+credits Alon and Tarsi [AlTa92] with the answer. This independent credit is
+listed as `reviewed`. The community database (teorth/erdosproblems) lists the
+problem as proved with a Lean proof from 2026-09-16, the date of Ren's
+formalization below.
 
 **Formalizations.** Two Lean 4 developments declare themselves formalizations of
 this theorem and are linked above at pinned commits; the corpus built neither,
@@ -76,4 +77,4 @@ whose formal authors' headers it keeps, and on Begué's schoenflies-lean
 development, and calls the work a formalization of a known theorem. The
 community database names this submission as the Lean proof behind its proved
 (Lean) status. The formal-conjectures project has no statement file for the
-problem.
+problem (checked 2026-10-07).

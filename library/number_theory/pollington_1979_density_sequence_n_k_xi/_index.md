@@ -34,15 +34,16 @@ Math. **23** (1979), no. 4, 511--515; DOI 10.1215/ijm/1256047933. Received
 The copy read for this card is the
 journal's scan of the five printed pages (pp. 511--515; PDF p. $n$ is printed
 p. $510+n$) with an OCR text layer that garbles the formulas, so every
-statement below was read on the rendered page images. Provenance: retrieved from the journal's open back file on Project Euclid,
+statement below was read on the rendered page images. Provenance: retrieved
+2026-09-18T11:26:17Z from the journal's open back file on Project Euclid,
 <https://projecteuclid.org/journalArticle/Download?urlid=10.1215%2Fijm%2F1256047933>
 (HTTP 200, `application/pdf`, one request, after the DOI resolved to the
 article's landing page); 293,566 bytes. The foot of printed p. 511 carries the
 notice "© 1979 by the Board of Trustees of the University of Illinois"; the
 journal's article page on Project Euclid (reached from
 https://doi.org/10.1215/ijm/1256047933, read 2026-10-02) shows an "Open Access"
-icon and no copyright line, Creative Commons license or rights statement, so
-no open license is named and the printed notice gives the term reserved.
+icon and no copyright line, Creative Commons license or rights statement, so no
+open license is named and the printed notice gives the term reserved.
 
 Read status: claims checked for the Theorem, the Corollary and the
 introduction's statement of Erdős's question (read clause by clause on the
@@ -113,7 +114,8 @@ Katznelson's paper is filed as
 [[number_theory/katznelson_2001_chromatic_numbers_cayley_graphs_z_recurrence/_index|katznelson_2001_chromatic_numbers_cayley_graphs_z_recurrence]];
 the reduction is that paper's proof of Theorem 1.1 on printed p. 212 (PDF p. 2),
 which divides the circle into $M$ equal arcs with $M\varepsilon>1$ and
-colors $n$ by the arc containing $n\alpha$, read there in the text layer and paged on
+colors $n$ by the arc containing $n\alpha$, read there in the text layer and
+paged on
 [[number_theory/katznelson_2001_chromatic_numbers_cayley_graphs_z_recurrence/theorem_1_1|theorem_1_1]].
 
 **Results.**

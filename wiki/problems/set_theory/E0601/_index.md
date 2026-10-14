@@ -113,8 +113,8 @@ ordinal and a threshold for independent transversals of clean columns, a
 reduction that settles no instance, and says itself that the case
 $\alpha=\omega_1^{\omega+2}$ remains model-dependent.
 
-**Search scope.** The site's problem page and commentary (its discussion
-thread had no comments and its proof-claims tab no claim on 2026-10-07), the
+**Search scope.** The site's problem page and commentary (its proof-claims tab
+had no claim, and its discussion thread had no comments on 2026-10-07), the
 zbMATH reviews of [La86], [La87], [La90] and [BL90], the Rényi archive scans of
 [EHM70] and of Erdős 1987, and the erdosproblemaday ledger. MathSciNet, Google
 Scholar and arXiv were not searched.

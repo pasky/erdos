@@ -71,10 +71,10 @@ arXiv:math/0012197 (2000); Adv. in Appl. Math. 29 (2002), no. 4, 521-538,
 DOI 10.1016/S0196-8858(02)00030-1.
 
 The copy read for this card is arXiv:math/0012197v1 (20 December 2000), 19
-pages, the only arXiv version; the journal version (Crossref record read) was
-not compared, and the labels cited here are v1's. The arXiv record carries no
-license field, so arXiv's assumed license applies (arXiv:math/0012197), every
-other right reserved.
+pages, the only arXiv version; the journal version (Crossref record read
+2026-10-07) was not compared, and the labels cited here are v1's. The arXiv
+record carries no license field, so arXiv's assumed license applies
+(arXiv:math/0012197), every other right reserved.
 
 ## Overview
 

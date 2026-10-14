@@ -23,7 +23,7 @@ N = 2^(2^(k-1)) shows that the bound cannot drop below 2^(2^(k-1)).
 
 Tom Sanders, *On monochromatic solutions to $x-y=z^2$*, Acta Math. Hungar.
 **161** (2020), no. 2, 550--556, DOI 10.1007/s10474-020-01079-6;
-arXiv:2008.07297v1 (Crossref and arXiv records read, as recorded
+arXiv:2008.07297v1 (Crossref and arXiv records read 2026-09-18, as recorded
 on Problem 439's page; the journal text was not compared). Acta Mathematica
 Hungarica is a refereed journal; the note is dedicated "To Endre Szemerédi
 on his 80th birthday" (p. 1) and thanks "the referee for a careful reading

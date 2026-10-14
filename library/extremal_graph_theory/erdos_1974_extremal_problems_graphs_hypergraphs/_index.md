@@ -70,7 +70,7 @@ $r$-graph passages of pp. 80--81 = PDF pp. 6--7 (display (9) with its
 sentences, the sentence on $\lim f(n;G_3(4;3))/n^3$, displays (10)--(13) and
 the Theorem on $G_3(5;3)$ or $G_3(6;4)$), read clause by clause on the page
 images; the paper gives almost no proofs, and none was checked; the rest of the
-digest records an earlier reading that was not repeated here.
+digest was not checked against the page images.
 
 Passages read for the problem pages that cite them. The introduction, p. 76,
 credits Turán's paper with beginning the systematic study of extremal questions

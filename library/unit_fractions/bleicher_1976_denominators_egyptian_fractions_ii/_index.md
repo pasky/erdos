@@ -40,7 +40,7 @@ September 2026 from the Erdős archive at users.renyi.hu (archive path
 copyright or license line is printed on pp. 598--599 or 612--613 of the scan;
 the hosting archive, users.renyi.hu, has a site footer that speaks for the
 site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics [sic] purposes
 only."); the Crossref record for DOI 10.1215/ijm/1256049650 (read
 2026-10-02) names Duke University Press as publisher and no license, and the

@@ -24,7 +24,7 @@ A. A. Razborov, *On 3-hypergraphs with forbidden 4-vertex configurations*,
 SIAM J. Discrete Math. **24** (2010), no. 3, 946--963,
 doi:10.1137/090747476. The year and pages are the site's entry as carried by
 [[../wiki/problems/extremal_graph_theory/E0500/_index|#500]]; the volume, issue and DOI are
-the Crossref record's, read (its abstract adds that the
+the Crossref record's, read on 2026-09-18 (its abstract adds that the
 journal version includes "significantly improving numerical bounds for
 several problems for which the exact value is not known yet"); the preprint
 carries no journal data.
@@ -42,7 +42,7 @@ describes the published version rather than that preprint, so it was not
 consulted; the term is unstated.
 
 Read status: claims checked for Theorem 1 (p. 3) and for the numerical
-remark that follows it, re-read on the page image; the proof
+remark that follows it, read on the page image; the proof
 (Section 3, pp. 11--13) was not read. Theorem 1 and the remark are paged at
 [[extremal_graph_theory/razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations/theorem_1|theorem_1]],
 which [[../wiki/problems/extremal_graph_theory/E0500/_index|#500]] consumes.

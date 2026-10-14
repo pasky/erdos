@@ -42,14 +42,14 @@ Challenge: The $3x+1$ Problem*, edited by Jeffrey C. Lagarias, American
 Mathematical Society, Providence, RI, 2010, pp. 3--29. The site's key La10.
 
 The copy read for this card is
-arXiv:2111.02635v1 [math.NT] (4 November 2021; the abstract page lists one
-version and the journal reference above), 27 pages with its
-own pagination (the arXiv text is a re-typeset copy of the 2010 chapter; the
-book's pagination is not marked, so the locators below are the preprint's
-pages). Complete text layer; the statement pages were read on the rendered
-page images of pp. 1--5 and 13--27. Source: <https://arxiv.org/abs/2111.02635>.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2111.02635), every other right reserved.
+arXiv:2111.02635v1 [math.NT] (4 November 2021; the abstract page listed one
+version and the journal reference above, read 2026-09-18), 27 pages with its own
+pagination (the arXiv text is a re-typeset copy of the 2010 chapter; the book's
+pagination is not marked, so the locators below are the preprint's pages).
+Complete text layer; the statement pages were read on the rendered page images
+of pp. 1--5 and 13--27. Source: <https://arxiv.org/abs/2111.02635>. The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:2111.02635),
+every other right reserved.
 
 Read status: claims checked for the definitions of $C(x)$ and $T(x)$ and
 the $3x+1$ Conjecture (p. 1), the Klarner passage (p. 4), the records

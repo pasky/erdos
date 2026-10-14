@@ -72,7 +72,7 @@ printed p. 302 (PDF p. 8) recorded below for #876 and
 #350, the sum-free reciprocal-sum paragraph and the February 1973 conjecture on
 distinct subset sums; the printed constant is 103 (twice), as the digest above
 says, where Erdős's 1977 restatement (Number theory day, p. 52) prints 100. The
-rest of the digest records an earlier reading that was not repeated. No notice
+rest of the digest was not checked against the page images. No notice
 is printed in the file; the Numdam record of the article shows its bibliographic
 data and no copyright, license or conditions-of-use statement
 (http://www.numdam.org/item/AST_1975__24-25__295_0/, read 2026-10-02), and

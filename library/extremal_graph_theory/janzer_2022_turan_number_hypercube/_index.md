@@ -53,7 +53,7 @@ The copy read for this card is arXiv:2211.02015v3 [math.CO] of 22 January
 abstract page listed v3 as the latest version and carried no journal
 reference. The paper is published as Forum of Mathematics, Sigma 12 (2024),
 e38, DOI 10.1017/fms.2024.27 (published online 15 March 2024, open access;
-Crossref record read 2026-09-18; read again on 2026-10-07, the record names
+Crossref record read 2026-09-18; read on 2026-10-07, the record names
 a CC BY 4.0 license from 15 March 2024); the journal version was not
 compared, and locators below are the preprint's. The v3 "Note added" (p. 17)
 records developments after the first version (Kim, Lee, Liu and Tran; Alon,

@@ -47,7 +47,7 @@ fourteen pages,
 ## Source version
 
 The copy read for this card is the twelve-page arXiv v1 PDF, its canonical
-edition. The arXiv record was checked: it still listed only v1,
+edition. The arXiv record was checked on 2026-09-05: it still listed only v1,
 named Steve Fan and Paul Pollack as authors, and supplied no journal reference.
 The same-day checks of
 [Fan's publication page](https://stvfan.github.io/publications/) and
@@ -58,7 +58,7 @@ not yet list a final article on that date. The journal published the paper on
 28 September 2026 as *Integers* **26A** (2026), #A9: the published file's first
 page prints receipt on 15 October 2025 and acceptance on 17 March 2026, and the
 volume's contents page lists the article
-(https://math.colgate.edu/~integers/vol26a.html).
+(https://math.colgate.edu/~integers/vol26a.html, read 2026-10-07).
 
 The fourteen-page accepted author version, also read, has an *Integers* layout
 that says “#A1 INTEGERS 26 (2026),” but its received, revised, accepted, and

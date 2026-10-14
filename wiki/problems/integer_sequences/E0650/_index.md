@@ -82,7 +82,7 @@ https://www.erdosproblems.com/650, accessed 2026-09-18.
 
 - [VLT26] van Doorn, W., Li, Y. and Tang, Q., Optimal bounds for an Erdős
   problem on matching integers to distinct multiples. arXiv:2603.28636v1
-  (30 March 2026; the only version; no journal
+  (30 March 2026; the only version on 2026-09-18; no journal
   reference), 8 pages; Theorem 2.1 and Remark 2.2, pp. 2--3; Theorem 3.1,
   p. 4; Theorem 4.1, p. 5; Section 5, p. 7. Library home:
   [[../library/primes/doorn_2026_optimal_bounds_erdos_problem_matching_integers/_index|doorn_2026_optimal_bounds_erdos_problem_matching_integers]];
@@ -135,13 +135,14 @@ under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `ErdosProblem650.lean` in the repository `Woett/Lean-files` on
 its `main` branch; the variants `erdos_650.variants.erdos_suranyi` ($\sqrt m\le
 f(m)$) and `erdos_650.variants.erdos_selfridge` ($f(m^2)\le2m$) are `research
-solved` with `sorry` and no attribute. The community database lists the problem
-as "solved (Lean)" with a last update of 6 March 2026, `formal_status` Lean, the
-statement as formalized with a last update of 4 August 2026, no formal-proof URL
-and OEIS A027434; those dates are when the entries were last updated, not
-necessarily when the states changed. The (LEAN) suffix of the site's label was a
-catalog label; the external file it refers to is described under "Formalization
-and the Lean label" below, and this corpus has not built it.
+solved` with `sorry` and no attribute. The community database, accessed
+2026-09-18, lists the problem as "solved (Lean)" with a last update of 6 March
+2026, `formal_status` Lean, the statement as formalized with a last update of 4
+August 2026, no formal-proof URL and OEIS A027434; those dates are when the
+entries were last updated, not necessarily when the states changed. The (LEAN)
+suffix of the site's label was a catalog label; the external file it refers to
+is described under "Formalization and the Lean label" below, and this corpus has
+not built it.
 
 ## Current assessment
 
@@ -233,35 +234,34 @@ locator on its row for this problem.
 **Status-defining source.** Theorem 2.1 of [VLT26] (p. 2;
 [[../library/primes/doorn_2026_optimal_bounds_erdos_problem_matching_integers/theorem_2_1|result page]]):
 for every positive integer $m$, $f(m)=\min(m,\lceil2\sqrt m\rceil)$;
-Remark 2.2: $f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$. The proof splits into Theorem 3.1 (p. 4), $f(st)\le s+t$ for
-all positive $s,t$, by a Chinese-remainder set of $st$ integers whose
-multiples in an interval of length $2\max A$ number at most $s+t$ (so
-$f(m)\le\lceil2\sqrt m\rceil$ through $s=k$, $t=k+1$ or $s=t=k+1$, and the
-paper notes this is "ever so slightly stronger" than $f(m^2)\le2m$), and
-Theorem 4.1 (p. 5), $f(m)\ge\min(m,\lceil2\sqrt m\rceil)$, by the defect
-form of Hall's theorem (Lemma 2.3) and the neighborhood bound
-$|\Gamma(S)|\ge2\sqrt{|S|}$ for every $S\subseteq A$ in the divisibility
-graph (display (2)). Read depth: the definition, Theorem 2.1, Remark 2.2,
-Lemma 2.3, Theorems 3.1 and 4.1 and the interval remark are checked against
-the paper; the proofs (Sections 3 and 4, pp. 4--7) are not, and nothing
-here is independently reviewed. Acceptance evidence: the site's label and
-commentary (2 April 2026), which credit the corrected paper; the thread's
-outline review by Tao and the site's curator on 7 March 2026 was of
-that day's draft, whose Case 2 injection was not injective, and did not
+Remark 2.2: $f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$. The proof splits into
+Theorem 3.1 (p. 4), $f(st)\le s+t$ for all positive $s,t$, by a
+Chinese-remainder set of $st$ integers whose multiples in an interval of length
+$2\max A$ number at most $s+t$ (so $f(m)\le\lceil2\sqrt m\rceil$ through $s=k$,
+$t=k+1$ or $s=t=k+1$, and the paper notes this is "ever so slightly stronger"
+than $f(m^2)\le2m$), and Theorem 4.1 (p. 5),
+$f(m)\ge\min(m,\lceil2\sqrt m\rceil)$, by the defect form of Hall's theorem
+(Lemma 2.3) and the neighborhood bound $|\Gamma(S)|\ge2\sqrt{|S|}$ for every
+$S\subseteq A$ in the divisibility graph (display (2)). Read depth: the
+definition, Theorem 2.1, Remark 2.2, Lemma 2.3, Theorems 3.1 and 4.1 and the
+interval remark are checked against the paper; the proofs (Sections 3 and 4, pp.
+4--7) are not, and nothing here is independently reviewed. Acceptance evidence:
+the site's label and commentary (2 April 2026), which credit the corrected
+paper; the thread's outline review by Tao and the site's curator on 7 March 2026
+was of that day's draft, whose Case 2 injection was not injective, and did not
 catch the gap, so it is not counted; the paper has no journal record on
-2026-09-18 (the arXiv
-listing carries no journal reference, a Crossref bibliographic query for
-the title returned nothing, and Semantic Scholar lists one citing
-preprint), so the preprint qualification applies until a refereed version
-or an independent review appears. Provenance, recorded not judged: the
-abstract states that "the proof strategy was first proposed by ChatGPT, and
-the detailed argument was subsequently made fully rigorous and formally
-verified in Lean by Aristotle", with "[t]he exposition and final proofs
-presented here" being "entirely human-written"; Section 1.1 names the model
-as GPT-5.4 Pro and Aristotle as Harmonic's system for formal reasoning, and
-Section 1.1 and Section 5 (p. 7) record that the initial draft's injection
-in Case 2 of the lower bound was not injective and that Aristotle's
-formalization contained a working variant, which the paper adopts.
+2026-09-18 (the arXiv listing carries no journal reference, a Crossref
+bibliographic query for the title returned nothing, and Semantic Scholar lists
+one citing preprint), so the preprint qualification applies until a refereed
+version or an independent review appears. Provenance, recorded not judged: the
+abstract states that "the proof strategy was first proposed by ChatGPT, and the
+detailed argument was subsequently made fully rigorous and formally verified in
+Lean by Aristotle", with "[t]he exposition and final proofs presented here"
+being "entirely human-written"; Section 1.1 names the model as GPT-5.4 Pro and
+Aristotle as Harmonic's system for formal reasoning, and Section 1.1 and Section
+5 (p. 7) record that the initial draft's injection in Case 2 of the lower bound
+was not injective and that Aristotle's formalization contained a working
+variant, which the paper adopts.
 
 **The displayed question, answered.** Since $f(m)=m$ for $m\le4$ and
 $f(m)=\lceil2\sqrt m\rceil\ge2\sqrt m$ for $m\ge4$, $f(m)\le\sqrt m$ holds

@@ -115,7 +115,8 @@ so the top segment has no unit subsum. Together these give
 $A(N)=(1-1/e+o(1))N$. Acceptance: the paper appeared in Int. Math. Res.
 Not. 2026, no. 2, rnaf382 (received 28 October 2025, accepted 23 December
 2025, online 14 January 2026, per the publisher's record); the locators are
-those of arXiv v1, and the published text has not been compared. The proof (p. 20) proceeds as
+those of arXiv v1, the only version the arXiv listing showed on 2026-09-17,
+and the published text has not been compared. The proof (p. 20) proceeds as
 follows: discard the integers below $\varepsilon N/2$, so that the
 remaining reciprocal sum exceeds one by a fixed amount; remove non-smooth
 integers and integers with many prime factors; prune with the paper's
@@ -146,7 +147,7 @@ verified here.
 
 **Search scope.** The search covered the site's problem,
 discussion and proof-claim pages; the community database record; the
-formal-conjectures tree, which then had no file for Problem 300; the
+formal-conjectures tree, which had no file for Problem 300 on 2026-09-17; the
 directory `src/v4.29.1/ErdosProblems` of Boris Alexeev's `lean-proofs`
 collection, which has no file for the problem; the file under `src/latest`,
 posted 17 August 2026, is recorded under Existing formalization; the arXiv

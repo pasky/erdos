@@ -28,7 +28,7 @@ is best possible.
 F. R. K. Chung and R. L. Graham, *On irregularities of distribution*. In:
 *Finite and Infinite Sets* (Eger, Hungary, 1981), Colloquia Mathematica
 Societatis János Bolyai 37, North-Holland (1984), 181--222; DOI
-10.1016/B978-0-444-86893-0.50016-4 (Crossref record read: a
+10.1016/B978-0-444-86893-0.50016-4 (Crossref record read 2026-09-18: a
 book chapter, publisher Elsevier). The site's key ChGr84 for Problem 480.
 The one-page announcement of the same results is Proc. Natl. Acad. Sci. USA
 78 (1981), 4001, filed as

@@ -102,7 +102,8 @@ $n=3$, the largest two-distance set, is
 is open; the exact value of $g_d(n)$ is open for every $n\ge3$ beyond small
 cases, the two bounds differing in their lower-order terms.
 
-Search scope. The site's problem page lists no comment and no proof claim. No other proof claim about this problem was found.
+Search scope. The site's problem page listed no proof claim, and on 2026-10-07
+it listed no comment. No other proof claim about this problem was found.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

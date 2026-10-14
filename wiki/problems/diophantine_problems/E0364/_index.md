@@ -26,9 +26,9 @@ which are powerful (i.e. if $p\mid n$ then $p^2\mid n$)?
 
 **Status.** Verifiable, the site's label. It means open, but settled by a finite
 example if one exists. The page was last edited 13 April 2026, and the problem
-page, discussion thread and proof-claims tab were read 2026-10-07. No claim
-settles the question, and the frontmatter standing is derived from the claim
-pages. The site's proof-claims tab carries one partial proof claim: Sayim's
+page and discussion thread were read 2026-10-07. No claim settles the question,
+and the frontmatter standing is derived from the claim pages. The site's
+proof-claims tab carried one partial proof claim: Sayim's
 exclusion of the two mixed shapes for the neighbors of a cube. It is recorded as
 pending on
 [[problems/diophantine_problems/E0364/claims/2026_06_12_sayim|its claim page]].
@@ -93,8 +93,8 @@ Among them, no triple has a middle below $1.83\times10^{18}$, which is weaker
 than the OEIS bound, and the number of consecutive pairs has a lower bound.
 These settle no instance, so the volume has no claim page.
 
-Search scope: the site's problem page, discussion thread and proof-claims
-tab, read 2026-10-07, the Zenodo records of Sayim's preprint and volume, and
+Search scope: the site's problem page and discussion thread, read 2026-10-07,
+its proof-claims tab, the Zenodo records of Sayim's preprint and volume, and
 the arXiv record of Ma's preprint. Nothing on this page is independently
 reviewed.
 <!-- BEGIN problem library links -->

@@ -65,9 +65,9 @@ with the disproof for $d=3$ (page last edited 18 January 2026, accessed
 2026-09-17). The curator is independent of the authors. Refereed: On size Ramsey
 numbers of graphs with bounded degree, Combinatorica 20 (2000), no. 2, 257--262.
 The paper was received on 21 December 1998 and published in the February 2000
-issue (the Crossref record), the date this page is named by. Tikhomirov (2022),
-Conlon, Nenadov and Trujić (2022) and Draganić and Petrova (2022) each cite the
-paper as the negative answer to Beck's question.
+issue (the Crossref record, accessed 2026-10-07), the date this page is named
+by. Tikhomirov (2022), Conlon, Nenadov and Trujić (2022) and Draganić and
+Petrova (2022) each cite the paper as the negative answer to Beck's question.
 
 Formalization: the Lean 4 file pinned above, in Boris Alexeev's repository,
 declares itself a formalization of a solution to this problem. It names Rödl and

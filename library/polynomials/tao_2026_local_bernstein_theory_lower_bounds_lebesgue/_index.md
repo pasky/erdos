@@ -42,7 +42,7 @@ Terence Tao, *Local Bernstein theory, and lower bounds for Lebesgue constants*,
 
 The copy read for this card is the 51-page v3 PDF. It has an arXiv version
 stamp of 22 April 2026; the title-page author date separately says 23 April
-2026. The arXiv API response read identifies v3,
+2026. The arXiv API response read at 2026-09-06T04:59:40Z identifies v3,
 updated 2026-04-22T03:16:58Z, with the comment “51 pages, 12 figures.
 Further corrections”; its first-submission timestamp is
 2026-03-23T00:15:40Z. This is a preprint. No publisher acceptance or complete

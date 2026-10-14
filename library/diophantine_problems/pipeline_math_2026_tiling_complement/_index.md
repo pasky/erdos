@@ -50,13 +50,13 @@ paper-specific author list or independent review of the manuscript.
 The copy read for this card is the unchanged [upstream
 manuscript](https://github.com/Pengbinghui/pipeline-math/blob/99d916ff32a90e77c98eb004537ccda409262346/papers/tiling-complement.pdf)
 at commit `99d916ff32a90e77c98eb004537ccda409262346`, dated 29 June 2026
-00:42:25 UTC. This is the latest file-changing revision found when accessed; the
-initial addition was on 28 June 2026. Printed and PDF page numbers both run from
-1 to 6. No journal publication or arXiv identifier was found for this manuscript
-in the status search. The manuscript prints no notice, and the hosting
-repository (https://github.com/Pengbinghui/pipeline-math, read 2026-10-02) has
-no license file, no license line in its README and no license in its sidebar;
-the term is unstated.
+00:42:25 UTC. This is the latest file-changing revision found when accessed on 9
+September 2026; the initial addition was on 28 June 2026. Printed and PDF page
+numbers both run from 1 to 6. No journal publication or arXiv identifier was
+found for this manuscript in the status search. The manuscript prints no notice,
+and the hosting repository (https://github.com/Pengbinghui/pipeline-math, read
+2026-10-02) has no license file, no license line in its README and no license in
+its sidebar; the term is unstated.
 
 ## Result and public acceptance
 

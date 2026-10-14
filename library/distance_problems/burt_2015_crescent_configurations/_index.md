@@ -38,11 +38,11 @@ with the arXiv copy.
 The copy read for this card is the arXiv build of version 1 (the margin
 stamp reads "arXiv:1509.07220v1 [math.CO] 24 Sep 2015"; the date footnote
 on p. 1 reads November 5, 2018, evidently the date this PDF was built),
-4 pages with a text layer. Provenance: obtained in September 2026 through
-the survey download; the download URL was not recorded, but the stamp
-identifies the copy as <https://arxiv.org/abs/1509.07220v1>. 339,730 bytes.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:1509.07220), every other right reserved.
+4 pages with a text layer. Provenance: obtained through the survey download; the
+download URL was not recorded, but the stamp identifies the copy as
+<https://arxiv.org/abs/1509.07220v1>. 339,730 bytes. The arXiv record names
+arXiv's non-exclusive distribution license (arXiv:1509.07220), every other right
+reserved.
 
 Read status: claims checked. Definitions 1.1 and 1.2, Theorem 1.3 and
 Remark 3.1 were read clause by clause on the page images; the proof of

@@ -111,8 +111,9 @@ method is different: a winding semistrip, conformal and quasiconformal
 maps, and a Cauchy integral construction. The result page gives the
 statement and a sketch. Theorem 3 (p. 517, a conformal-mapping theorem
 for such semistrips) and Lemmas 1–3 (pp. 517–524) are auxiliary to
-Theorem 4, bear on no problem here, and have no pages of their own. The historical normal-type question at that endpoint is
-not resolved by this construction.
+Theorem 4, bear on no problem here, and have no pages of their own. The
+historical normal-type question at that endpoint is not resolved by this
+construction.
 
 [[analysis/goldberg_1979_asymptotic_curves_entire_functions_finite_order/theorem_5|Theorem 5]],
 pp. 529–530, makes the angular measure of $|f|>1$ tend to zero on

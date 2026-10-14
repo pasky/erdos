@@ -75,10 +75,10 @@ subset sums is at least $(2+\sqrt3)/4\approx0.93301$. The coloring by the parity
 of $\lfloor\log_{2+\sqrt3}\log n\rfloor$ attains this, so the minimum is
 $c_2=(2+\sqrt3)/4$. The paper appeared in Mathematika 68 (2022), no. 4,
 1292--1301, a refereed journal. It was published online on 10 October 2022, per
-the Crossref record. The text cited here is the arXiv version v3 of 22 September
-2022, and the journal text was not compared. The site accepted the result
-(SOLVED, last edited 8 April 2026), and its curator credits the paper with the
-value in the commentary. The claim page
+the Crossref record of 2026-09-18. The text cited here is the arXiv version v3
+of 22 September 2022, and the journal text was not compared. The site accepted
+the result (SOLVED, last edited 8 April 2026), and its curator credits the paper
+with the value in the commentary. The claim page
 [[problems/ramsey_theory/E1211/claims/2021_05_31_conlon_fox_pham|Conlon, Fox and Pham 2021]]
 records the theorem, its postings and the acceptance evidence, and the
 frontmatter standing is derived from it. Erdős's expectation $c>1/2$ holds. His
@@ -112,7 +112,7 @@ https://www.erdosproblems.com/1211, accessed 2026-09-18.
   [[../library/factorials_binomials/erdos_1982_miscellaneous_problems_number_theory/_index|erdos_1982_miscellaneous_problems_number_theory]].
 - [Er82d] Erdős, P., Some new problems and results in number theory. In Number
   theory (Mysore, 1981), Lecture Notes in Math. 938, Springer (1982), 50--74;
-  the site's reference text. The Rényi archive's scan
+  the site's reference text, accessed 2026-09-18. The Rényi archive's scan
   (users.renyi.hu/~p_erdos/1982-32.pdf, 25 pp.) carries the
   passage at printed p. 54 (PDF p. 5). Library home:
   [[../library/number_theory/erdos_1982_some_new_problems_results_number_theory/_index|erdos_1982_some_new_problems_results_number_theory]]
@@ -125,13 +125,13 @@ https://www.erdosproblems.com/1211, accessed 2026-09-18.
   thresholds and bounds. J. Amer. Math. Soc. 19 (2006), 119--169; its Theorem
   7.1 is the published alternative input named in Remark 5 of [CFP22]. Not held.
 
-**Formalization.** None found. No file `ErdosProblems/1211.lean` exists in
-google-deepmind/formal-conjectures (main; [the
+**Formalization.** None found. No file `ErdosProblems/1211.lean` existed in
+google-deepmind/formal-conjectures (main, fetched 2026-09-18T05:25Z; [the
 directory](https://github.com/google-deepmind/formal-conjectures/tree/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems)
-was listed in full). The community database (teorth/erdosproblems) records the
-problem solved (last updated 4 April 2026), not formalized, formal status
-unformalized, OEIS "possible" and no formal-proof URL. The site's "Formalised
-statement?" indicator reads "No".
+was listed in full). The community database (teorth/erdosproblems, fetched
+2026-09-18) records the problem solved (last updated 4 April 2026), not
+formalized, formal status unformalized, OEIS "possible" and no formal-proof URL.
+The site's "Formalised statement?" indicator reads "No".
 
 ## Current assessment
 

@@ -47,9 +47,9 @@ the number of indices $i$ for which $\mathrm{lcm}(a_i,a_{i+1})\le x$. It
 seems likely that $A(x)=O(x^{1/2})$. It is easy to give a sequence with
 $\limsup A(x)/x^{1/2}=c$. How large can $\liminf A(x)/x^{1/2}$ be (see
 [Er-Sz (xx)a])?", the "(xx)" being the monograph's placeholder for the then
-unpublished 1980 paper. The site's label SOLVED, which the site defines as a resolution other than a proof or a disproof, covers
-the two answers: yes to the first question, and the value $1$ for the
-second.
+unpublished 1980 paper. The site's label SOLVED, which the site (read
+2026-09-18) defines as a resolution other than a proof or a disproof, covers the
+two answers: yes to the first question, and the value $1$ for the second.
 
 **Status.** Solved. Both questions are answered in Erdős and Szemerédi's 1980
 paper (Mat. Lapok 28, 121--124, in Hungarian). Mat. Lapok is the refereed

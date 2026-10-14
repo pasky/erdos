@@ -50,17 +50,17 @@ The copy read for this card
 is arXiv:1506.03306v1 (10 June 2015, the only arXiv version), 11 pages with
 a clean text layer; the identity line above is the published version,
 Combinatorica 37 (2017), no. 6, 1113--1124, doi:10.1007/s00493-016-3500-0
-(published online 28 November 2016; Crossref record read; an
+(published online 28 November 2016; Crossref record read 2026-09-18; an
 extended abstract appeared in Electron. Notes Discrete Math. 61 (2017),
 557--560), whose text is not held and was not compared, so the labels here
 are the preprint's. Read status: claims checked for the abstract, the
 introduction's history, Conjecture 1 and Theorem 1 with its sharpness
-paragraph (pp. 1--2, read clause by clause on the page images); the proof (Section 2) and the concluding remarks (Section 3)
-were not read. The introduction cites the first author's Bolyai 60 paper ([3],
-printed with the year 1991) and Huang and Shi ([7]); it does not quote the
-first author's 1988 Eger result on edge-disjoint triangles for small excess,
-the source of problem 1009.
-Theorem 1 is paged at
+paragraph (pp. 1--2, read clause by clause on the page images); the proof
+(Section 2) and the concluding remarks (Section 3) were not read. The
+introduction cites the first author's Bolyai 60 paper ([3], printed with the
+year 1991) and Huang and Shi ([7]); it does not quote the first author's 1988
+Eger result on edge-disjoint triangles for small excess, the source of
+problem 1009. Theorem 1 is paged at
 [[extremal_graph_theory/gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs/theorem_1|theorem_1]].
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1506.03306), every other right reserved.

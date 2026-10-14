@@ -53,7 +53,7 @@ README adds nothing beyond the title, author "OpenAI", the date and the
 citation block; the TeX source carries no statement on AI use or human
 assistance. The title page names no individual author. No refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 The release's Lean catalog (`lean/formalization.yaml`) lists no
@@ -218,7 +218,7 @@ group and $a(A_0)$ the order of vanishing of $L(A_0,s)$ at $s=1$.
   large positive characteristic to characteristic zero by the
   Cluckers--Hales--Loeser transfer principle. It is written against an
   undated author-hosted draft (Halleck-Dubé, *The Weighted Fundamental Lemma
-  for Non-Split Groups*, cited by section and
+  for Non-Split Groups*, retrieved 24 September 2026, cited by section and
   theorem numbers) and Ngô's fundamental lemma paper. The introduction
   calls the appendix "a separate normalized global measure comparison"
   (p. 6); the text does not say whether any step of the main proof depends on it, and
@@ -228,7 +228,7 @@ group and $a(A_0)$ the order of vanishing of $L(A_0,s)$ at $s=1$.
   of Yin, of Burungale--Tian and of Burungale--He--Tian--Ye, and
   Burungale--Tian's Annals paper on the rank-zero converse for CM curves;
   two undated author-hosted items, the Halleck-Dubé draft and the
-  Castella--Liu--Wan addendum, were both accessed. The
+  Castella--Liu--Wan addendum, were both accessed 24 September 2026. The
   TeX `references.bib` holds 96 entries, with locator notes naming the
   versions consulted, 16 of them uncited, among them an
   Atobe--Gan--Ichino--Kaletha--Mínguez--Shin preprint that the PDF does not

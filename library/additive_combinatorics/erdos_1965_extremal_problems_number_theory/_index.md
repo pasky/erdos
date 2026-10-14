@@ -192,7 +192,7 @@ The statement is on
 [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/item_5|item_5]].
 Claims checked for the passage. The journal record is Proc. Sympos. Pure
 Math. VIII (Theory of Numbers), 181--189, DOI 10.1090/pspum/008/0174539
-(Crossref).
+(Crossref, read 2026-09-18).
 
 For [[../wiki/problems/additive_combinatorics/E0792/_index|#792]], printed pp. 186--187
 (PDF pages 6--7, read on the page images, the indices of (27)
@@ -239,40 +239,38 @@ claims checked for (30), (31), the surrounding sentences and the Additions;
 the bounds (30) and (31) carry only the proof indications quoted.
 
 For [[../wiki/problems/number_theory/E0362/_index|#362]], the second part of the paper,
-printed pp. 183--184 (PDF pages 3--4, read on the page images), presents results obtained jointly with L. Moser together with
-their proofs. For $k$ distinct reals $a_1<a_2<\cdots<a_k$ it writes
-$f(n;a_1,a_2,\cdots,a_k)$ for the number of solutions of (11)
-$n=\sum_{i=1}^k\epsilon_ia_i$, $\epsilon_i=0$ or $1$, and sets
+printed pp. 183--184 (PDF pages 3--4, read on the page images), presents results
+obtained jointly with L. Moser together with their proofs. For $k$ distinct
+reals $a_1<a_2<\cdots<a_k$ it writes $f(n;a_1,a_2,\cdots,a_k)$ for the number of
+solutions of (11) $n=\sum_{i=1}^k\epsilon_ia_i$, $\epsilon_i=0$ or $1$, and sets
 $F(k)=\max_{n,a_1,\cdots,a_k}f(n;a_1,\cdots,a_k)$. Page 184 opens with the
-parenthesis that with only $a_i\ne0$ in place of distinctness one would
-have $F(k)=C_{k,[k/2]}$. Erdős then expects the maximum to occur at $n=0$
-with the $a$'s the integers $0,\pm1,\pm2,\cdots$, that is, (12)
-$F(k)=f(0;-[\frac k2],-[\frac{k-2}2],\cdots,0,1,\cdots,[\frac{k-1}2])$,
-which he and Moser could not prove and for whose right side they found no
-explicit formula; he calls $F(k)>c_12^k/k^{3/2}$ easy and says the right
-side of (12) also exceeds $c_12^k/k^{3/2}$. The conjecture (13) is
-(quoted) "$F(k)<c_22^k/k^{3/2}$", and the still sharper conjecture is
-(quoted, p. 184) "that the number of solutions of
-$n=\sum_{i=1}^k\epsilon_ia_i$, $\sum_{i=1}^k\epsilon_i=t$, $\epsilon_i=0$ or
-$1$ is less than $c_32^k/k^2$ ($c_3$ is independent of $t$)." With (13)
-open, the paper proves the weaker Theorem 1 (quoted):
-"$F(k)<c_42^k\bigl(\frac{\log k}k\bigr)^{3/2}$." The proof, pp. 184--186
-(PDF pages 4--6, page images), first proves a Lemma (quoted): "Let
-$b_1<b_2<\cdots<b_m$ be such that no $b$ equals the sum of any number of
-other $b$'s; then for every $n$ $f(n;b_1,\cdots,b_m)<c_52^m/m^{3/2}$", by
-Sperner's theorem (display (20)), then splits into two cases by whether
-some $u>0$ has at least $c_7k/\log k$ of the $a$'s in $u\le a<2u$ (display
-(21)); otherwise at least $\log k/c_7$ disjoint intervals $(u_i,2u_i)$ each
-contain an $a_i$. Page 186 adds that no explicit $c_4$ is given "since
-Theorem 1 probably does not give the right order of magnitude for $F(k)$",
-that Theorem 1 holds for distinct complex numbers and for vectors of a
-finite-dimensional Euclidean space (whether it holds in Hilbert space is left
-open), and that for
-distinct elements of an abelian group the proof gives $F(k)<c2^k/k$, best
-possible for the residues mod $k$. Conjecture (13) is the problem's first
-question, the still sharper conjecture its second, and (12) names the
-extremal set. Read status: claims checked for (11), (12), (13), the sharper
-conjecture and Theorem 1; the proof read for its structure, not checked.
+parenthesis that with only $a_i\ne0$ in place of distinctness one would have
+$F(k)=C_{k,[k/2]}$. Erdős then expects the maximum to occur at $n=0$ with the
+$a$'s the integers $0,\pm1,\pm2,\cdots$, that is, (12)
+$F(k)=f(0;-[\frac k2],-[\frac{k-2}2],\cdots,0,1,\cdots,[\frac{k-1}2])$, which he
+and Moser could not prove and for whose right side they found no explicit
+formula; he calls $F(k)>c_12^k/k^{3/2}$ easy and says the right side of (12)
+also exceeds $c_12^k/k^{3/2}$. The conjecture (13) is (quoted)
+"$F(k)<c_22^k/k^{3/2}$", and the still sharper conjecture is (quoted, p. 184)
+"that the number of solutions of $n=\sum_{i=1}^k\epsilon_ia_i$,
+$\sum_{i=1}^k\epsilon_i=t$, $\epsilon_i=0$ or $1$ is less than $c_32^k/k^2$
+($c_3$ is independent of $t$)." With (13) open, the paper proves the weaker
+Theorem 1 (quoted): "$F(k)<c_42^k\bigl(\frac{\log k}k\bigr)^{3/2}$." The proof,
+pp. 184--186 (PDF pages 4--6, page images), first proves a Lemma (quoted): "Let
+$b_1<b_2<\cdots<b_m$ be such that no $b$ equals the sum of any number of other
+$b$'s; then for every $n$ $f(n;b_1,\cdots,b_m)<c_52^m/m^{3/2}$", by Sperner's
+theorem (display (20)), then splits into two cases by whether some $u>0$ has at
+least $c_7k/\log k$ of the $a$'s in $u\le a<2u$ (display (21)); otherwise at
+least $\log k/c_7$ disjoint intervals $(u_i,2u_i)$ each contain an $a_i$. Page
+186 adds that no explicit $c_4$ is given "since Theorem 1 probably does not give
+the right order of magnitude for $F(k)$", that Theorem 1 holds for distinct
+complex numbers and for vectors of a finite-dimensional Euclidean space (whether
+it holds in Hilbert space is left open), and that for distinct elements of an
+abelian group the proof gives $F(k)<c2^k/k$, best possible for the residues mod
+$k$. Conjecture (13) is the problem's first question, the still sharper
+conjecture its second, and (12) names the extremal set. Read status: claims
+checked for (11), (12), (13), the sharper conjecture and Theorem 1; the proof
+read for its structure, not checked.
 
 **Reading and proof scope.** Complete PDF pages 1, 2 and 9 (printed pp. 181, 182
 and 189) were visually read for artifact identity, equations (3) and (4), the

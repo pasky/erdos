@@ -19,7 +19,7 @@ updated: 2026-10-08T01:51:15Z
 J. H. E. Cohn, *A conjecture of Erdős on 3-powerful numbers*, Mathematics of
 Computation **67** (1998), no. 221, 439--440,
 [doi:10.1090/S0025-5718-98-00881-3](https://doi.org/10.1090/S0025-5718-98-00881-3)
-(bibliographic data from Crossref). The text was not
+(bibliographic data from Crossref, read 2026-09-27). The text was not
 read: the publisher's article PDF at
 <https://www.ams.org/journals/mcom/1998-67-221/S0025-5718-98-00881-3/S0025-5718-98-00881-3.pdf>
 answered HTTP 403 with a browser-check page to every request made on

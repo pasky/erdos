@@ -35,7 +35,7 @@ as the site cites it (the report number was not checked); conference
 version in the Proceedings of the 48th Annual ACM Symposium on Theory of
 Computing (STOC 2016), 278--284, DOI 10.1145/2897518.2897530; journal
 version SIAM J. Comput. 50 (2021), no. 3, STOC16-30--STOC16-67, DOI
-10.1137/16M1096219 (both Crossref records read). Preprint
+10.1137/16M1096219 (both Crossref records read 2026-09-18). Preprint
 arXiv:1506.04428 (v1 14 June 2015, the only arXiv version).
 
 The copy read for this card carries the arXiv stamp 1506.04428v1 [math.CO]
@@ -43,8 +43,9 @@ The copy read for this card carries the arXiv stamp 1506.04428v1 [math.CO]
 with a text layer, paper p. $n$ $=$ PDF p. $n+2$. Neither the STOC nor the
 SIAM text has been compared with it, and the locators below are the paper's
 own page numbers. The title page and paper pp. 1--5, 15--16, 22--23, 27,
-29 and 38 were read on rendered page images. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:1506.04428), every other right reserved.
+29 and 38 were read on rendered page images. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1506.04428), every other right
+reserved.
 
 Read status: claims checked for Definition 1.1, the explicitness
 convention, Theorem 1.2, the sentence strengthening it and Table 1 (paper
@@ -89,15 +90,16 @@ source's entropy into an entropy tree, locating the entropy paths and, on
 the first source's path, the middle one of three nested block sources
 (pp. 15--16), and feeding block sources into Li's
 block-source--weak-source extractor (Theorem 4.1, pp. 22--23). The paper states
-(p. 1) that the constructed graph has a stronger property: for $k=2^{(\log\log n)^{O(1)}}$, every $k$ by $k$
-bipartite subgraph contains a relatively large subgraph of density close
-to $1/2$. This bears on problem 78, the explicit construction of Ramsey
-graphs matching the probabilistic bound, as one step in the history of
-explicit constructions: later constructions improved it, and Li's 2023
-bound $(\log N)^c$ supersedes it; Li's introduction (pp. 1--2 of
+(p. 1) that the constructed graph has a stronger property: for
+$k=2^{(\log\log n)^{O(1)}}$, every $k$ by $k$ bipartite subgraph contains a
+relatively large subgraph of density close to $1/2$. This bears on problem 78,
+the explicit construction of Ramsey graphs matching the probabilistic bound, as
+one step in the history of explicit constructions: later constructions improved
+it, and Li's 2023 bound $(\log N)^c$ supersedes it; Li's introduction (pp. 1--2
+of
 [[ramsey_theory/li_2023_two_source_extractors_asymptotically_optimal_entropy/_index|Li 2023]])
-names Li's 2019 two-source extractor as the best before Li 2023, giving
-explicit Ramsey graphs with no clique or independent set of size
+names Li's 2019 two-source extractor as the best before Li 2023, giving explicit
+Ramsey graphs with no clique or independent set of size
 $(\log N)^{O(\log\log\log N/\log\log\log\log N)}$.
 
 ## Contents
@@ -133,14 +135,14 @@ is independently reviewed.
 
 Source: <https://arxiv.org/abs/1506.04428>.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0078/_index|#78]]: Theorem 1.2 (with
-Theorems 1.6 and 1.10 behind it) and Table 1 are part of the history of
+**Bears on.** [[../wiki/problems/ramsey_theory/E0078/_index|#78]]: Theorem 1.2
+(with Theorems 1.6 and 1.10 behind it) and Table 1 are part of the history of
 explicit constructions. Theorem 1.2 gives an explicit bipartite
-$2^{(\log\log n)^{O(1)}}$-Ramsey graph; through the paper's unproved remark
-that a bipartite Ramsey graph induces a Ramsey graph with comparable
-parameters (p. 1), this inverts to a constructive $R(k)$ bound far below
-the exponential target $R(k)>C^k$. The problem page records that the site's
-author reads "explicit" in this paper's sense (p. 1).
+$2^{(\log\log n)^{O(1)}}$-Ramsey graph; through the paper's unproved remark that
+a bipartite Ramsey graph induces a Ramsey graph with comparable parameters (p.
+1), this inverts to a constructive $R(k)$ bound far below the exponential target
+$R(k)>C^k$. The problem page records that the site's author reads "explicit" in
+this paper's sense (p. 1).
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -36,9 +36,8 @@ there. It gives no `formalized` evidence, since this corpus has not built or
 audited it.
 
 **Source.** [erdosproblems.com/109](https://www.erdosproblems.com/109), accessed
-2026-10-07 (page last edited 27 September 2025; empty proof-claim tab). Cite
-as: T. F. Bloom, Erdős Problem #109,
-https://www.erdosproblems.com/109.
+2026-10-07 (page last edited 27 September 2025); its proof-claim tab was empty.
+Cite as: T. F. Bloom, Erdős Problem #109, https://www.erdosproblems.com/109.
 
 **References.**
 
