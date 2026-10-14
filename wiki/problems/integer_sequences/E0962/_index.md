@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # Problem 962
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E0962/claims/_index|claims/]]: The 3 claim pages of Problem 962, one per claimant's result; the problem's standing derives from them.
+[[problems/integer_sequences/E0962/claims/_index|claims/]]: The 2 claim pages of Problem 962, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -65,15 +65,14 @@ that is $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$. Erdős could not show
 $k(n)\le n^{1/2-c}$, "a ridiculously weak result". Nothing approaches the
 displayed question.
 
-Erdős's 1976 lower bound, his reported upper bound and Tang's dated note have
-claim pages:
+Erdős's 1976 lower bound and his reported upper bound have claim pages:
 [[problems/integer_sequences/E0962/claims/1976_01_01_erdos|Erdős 1976]]
-(accepted, refereed),
+(accepted, refereed) and
 [[problems/integer_sequences/E0962/claims/1976_01_01_erdos_upper|Erdős 1976, upper bound]]
-(claimed) and
-[[problems/integer_sequences/E0962/claims/2025_12_28_tang|Tang 2025]] (claimed).
-Tao's argument is a thread post, not a dated manuscript. So it has no claim
-page, and it is recorded below as progress. No later source was found in the
+(claimed). Tang's dated note proves the bound of Erdős's display (6) with the
+same constant, so it does not improve the best known bound, and Tao's argument
+is a thread post, not a dated manuscript. Neither has a claim page, and both
+are recorded below as progress. No later source was found in the
 search whose scope the Current assessment records. This is a bounded negative
 finding, not a certificate of openness.
 
@@ -105,8 +104,9 @@ Bloom, Erdős Problem #962, https://www.erdosproblems.com/962, accessed
   [[../library/primes/erdos_1976_problems_results_consecutive_integers/inequality_6|inequality (6)]].
 - [Ta25] Tang, Q., An improved lower bound on Erdős Problem #962. Two-page
   note (pdfTeX, dated 28 December 2025 (UTC) in its metadata) in the
-  repository `QuanyuTang/erdos-problem-962` (commit of 2025-12-28, linked
-  from the claim page); Theorems 1.2 and 2.1. A forum note, not a refereed
+  repository `QuanyuTang/erdos-problem-962`
+  ([PDF](https://github.com/QuanyuTang/erdos-problem-962/blob/023c3ac73f3b67ec0f6a0d2f2b4aa147a6491ff2/On_Erd%C5%91s_Problem_962.pdf),
+  commit of 2025-12-28); Theorems 1.2 and 2.1. A forum note, not a refereed
   source; not filed.
 - [OEIS] Schoenfield, J. E., Sequence A327909, The On-Line Encyclopedia of
   Integer Sequences (2019; entry last modified 28 October 2025, server
@@ -194,8 +194,8 @@ member) and the de Bruijn--Hildebrand estimate $\Psi(n,y)=n\rho(u)(1+o(1))$
 with $\rho(u)=u^{-u+o(u)}$; its Theorem 1.2 is the $(1/\sqrt2-o(1))$ form the
 site prints. The argument is the 1976 argument with constants and was not
 checked step by step; the note has no refereed publication or independent
-review (claimed, on its claim page). The 1965 bound
-$\exp((\log n)^{1/2-\epsilon})$ is weaker and unproved in print.
+review, and since it does not improve the 1976 bound it has no claim page. The
+1965 bound $\exp((\log n)^{1/2-\epsilon})$ is weaker and unproved in print.
 
 **Upper bounds.** The forum argument of 12 October 2025 (Tao), as the site
 accepts it: if $k\ge(1+\varepsilon)n^{1/2}$ and $n$ is large, take a prime $p$

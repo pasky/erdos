@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # Problem 138
 
 [[problems/additive_combinatorics/_index|..]]
 
-[[problems/additive_combinatorics/E0138/claims/_index|claims/]]: The 5 claim pages of Problem 138, one per claimant's result; the problem's standing derives from them.
+[[problems/additive_combinatorics/E0138/claims/_index|claims/]]: The 4 claim pages of Problem 138, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -68,11 +68,11 @@ $W(k)/2^k\to\infty$, are marked solved with `formal_proof` attributes pointing
 to Lean files outside the repository: a proof by the DeepMind prover agent,
 AlphaProof Nexus (Tsoukalas et al., Science 2026; arXiv:2605.22763), in a fork
 of formal-conjectures, and a Lean proof derived from the Atlas proofs of
-facebookresearch/atlas-lean. Neither was built by this corpus, neither is a
-formalization of the accepted OpenAI claim under Claims, and each is linked
-from its claim page.
+facebookresearch/atlas-lean. Neither was built by this corpus, and neither is
+a formalization of the accepted OpenAI claim under Claims; the first is linked
+from its claim page and the second under Claims.
 
-**Claims.** Five results have claim pages. The OpenAI mathematics release of 23
+**Claims.** Four results have claim pages. The OpenAI mathematics release of 23
 September 2026 proves $W_r(k)>k^{k\lfloor\log_2r\rfloor/100000}$ for every
 $r\ge2$ and every $k$ above an absolute threshold, so $W(k)^{1/k}\to\infty$, the
 example question the problem names; the result is accepted as a partial claim on
@@ -84,20 +84,24 @@ the difference question of [Er81] and is accepted as a partial claim on the
 refereed publication of the paper that reports it
 ([[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|claim page]];
 [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_138_difference|library page]]).
-Three further results on the questions the site's entry records are claimed on
+Two further results on the questions the site's entry records are claimed on
 their own pages: Campos, Fox and Schildkraut's lower bound
-$W(k)\ge(1-o(1))k2^{k-1}$, which also gives $W(k)/2^k\to\infty$
-([[problems/additive_combinatorics/E0138/claims/2026_08_21_campos_fox_schildkraut|claim page]]);
-a Lean proof of $W(k)/2^k\to\infty$ in Meta's atlas-lean repository
-([[problems/additive_combinatorics/E0138/claims/2026_08_28_meta|claim page]]);
+$W(k)\ge(1-o(1))k2^{k-1}$ of 21 August 2026, which also gives
+$W(k)/2^k\to\infty$
+([[problems/additive_combinatorics/E0138/claims/2026_08_21_campos_fox_schildkraut|claim page]]),
 and the notes that Nat Sothanaphan linked from the site's thread on 2026-04-10,
 written with GPT-5.4 Thinking, which refine the difference bound to
 $W_r(k+1)-W_r(k)\ge k+\min(k,F(r))+1$ for $r$ colors with an explicit
 $F(r)=\Theta(r\log\log r)$; at $r=2$ this is $W(k+1)-W(k)\ge k+1$
 ([[problems/additive_combinatorics/E0138/claims/2026_04_10_sothanaphan|claim page]]).
-The record bounds named under Formulation have no claim pages; the results that
-improve them do. Fox and Hunter's $W_3(k)^{1/k}\ge C^{\log_*k}$ [FoHu26]
-concerns three colors, not the problem's two-color number, and has no page.
+A
+[Lean proof of $W(k)/2^k\to\infty$](https://github.com/facebookresearch/atlas-lean/blob/8a68ff3f2866bf3b12a04cd11480a1490363e0d8/Atlas/FC/Erdos138_dvd_two_pow_solution.lean)
+in Meta's atlas-lean repository, added on 28 August 2026, gives $W(k)>(n+1)2^k$
+for every $n$ once $k$ is large; this does not improve Campos, Fox and
+Schildkraut's bound, so it has no claim page. The record bounds named under
+Formulation have no claim pages; the results that improve them do. Fox and
+Hunter's $W_3(k)^{1/k}\ge C^{\log_*k}$ [FoHu26] concerns three colors, not the
+problem's two-color number, and has no page.
 
 ## Progress
 

@@ -34,8 +34,9 @@ recorded below.
 
 One accepted partial claim,
 [[problems/analysis/E0513/claims/1964_12_01_clunie_hayman|Clunie and Hayman
-1964]], proves $4/7<B\le2/\pi-c$ on its refereed publication. Three pending
-partial claims certify larger lower bounds by interval arithmetic.
+1964]], proves $4/7<B\le2/\pi-c$ on its refereed publication. Three later
+partial claims certify larger lower bounds by interval arithmetic; two are
+pending and one is rejected.
 [[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
 lower bound]] is an arXiv paper of 12 February 2026, announced in the site's
 discussion thread and credited by the site's commentary. It raised the bound
@@ -47,7 +48,8 @@ holds the best lower bound.
 [[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower
 bound]] was filed on the site's proof-claims tab on 2 August 2026 with declared
 AI assistance. It certifies a bound slightly below the best one and re-verifies
-the best one. The site has adopted none of these claims as a solution, and the
+the best one, so it does not improve the best known bound and is rejected. The
+site has adopted none of these claims as a solution, and the
 derived standing is open.
 
 **Source.** [erdosproblems.com/513](https://www.erdosproblems.com/513), accessed
@@ -121,7 +123,8 @@ partial proof claim filed 2 August 2026, is
 bound]]: $B\ge0.5850788196$ from an explicit member of the He-Tang family,
 certified by interval arithmetic, together with an independent
 re-verification of Sothanaphan's bound. It does not move the frontier and
-does not touch the upper bound; it is unreviewed and stays claimed.
+does not touch the upper bound, so it is rejected as not improving the best
+known bound.
 
 **Search scope.** The site's problem page and proof-claims tab
 (2026-10-06), its discussion thread (2026-10-07), Sothanaphan's note, the

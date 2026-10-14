@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:25Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # Problem 901
 
 [[problems/set_systems/_index|..]]
 
-[[problems/set_systems/E0901/claims/_index|claims/]]: The 7 claim pages of Problem 901, one per claimant's result; the problem's standing derives from them.
+[[problems/set_systems/E0901/claims/_index|claims/]]: The 6 claim pages of Problem 901, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -85,12 +85,13 @@ Beck's
 [[problems/set_systems/E0901/claims/1977_01_01_beck|$c(\log n)2^n$ of 1977]],
 which proved the Erdős–Lovász conjecture $m(n)/2^n\to\infty$, and Beck's
 [[problems/set_systems/E0901/claims/1978_01_01_beck|$n^{1/3-o(1)}2^n$ of 1978]];
-Pluhár's
-[[problems/set_systems/E0901/claims/2009_02_10_pluhar|$0.5268\,n^{1/4}2^n$ of 2009]]
-is weaker than the record but has a two-page proof. Erdős and Lovász
-[ErLo75] suggest that $n2^n$ is the true order of $m(n)$, and Erdős's 1964
-paper guesses the same; this is a conjecture in a colloquium volume, not a
-result, so it has no claim page.
+Pluhár's $0.5268\,n^{1/4}2^n$ of 2009
+([[../library/set_systems/pluhar_2009_greedy_colorings_uniform_hypergraphs/corollary_1|cite]])
+is weaker than the record but has a two-page proof, so it does not improve the
+best known bound and has no claim page. Erdős and Lovász [ErLo75] suggest that
+$n2^n$ is the true order of $m(n)$, and Erdős's 1964 paper guesses the same;
+this is a conjecture in a colloquium volume, not a result, so it has no claim
+page.
 
 **Small values.** $m(2)=3$ (a triangle) and $m(3)=7$ (the Fano plane) are
 recorded in Erdős's 1963 paper, and $m(4)=23$ is Östergård's

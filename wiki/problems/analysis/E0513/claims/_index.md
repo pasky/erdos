@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 513, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # problems/analysis/E0513/claims
@@ -23,9 +23,9 @@ $B>0.58507$. The site's commentary credits it, but it is unrefereed.
 arithmetic that a new parameter choice in He and Tang's family gives
 $B\ge0.585078819653$. The site's commentary credits it, but it is unreviewed.
 
-[[problems/analysis/E0513/claims/2026_08_02_lystad|2026_08_02_lystad]]: T. Alexander Lystad's Zenodo record, with declared AI assistance, certifies
-$B\ge0.5850788196$ by interval arithmetic for an explicit function of the
-He–Tang family. It also re-verifies the stronger bound $0.585078819653$ and is
-unreviewed.
+[[problems/analysis/E0513/claims/2026_08_02_lystad|2026_08_02_lystad]]: Does not improve the best known bound ($B\ge0.585078819653$, Sothanaphan's
+note of 27 February 2026). T. Alexander Lystad's Zenodo record, with declared
+AI assistance, certifies $B\ge0.5850788196$ by interval arithmetic for an
+explicit function of the He–Tang family and re-verifies the stronger bound.
 
 ***
