@@ -63,7 +63,7 @@ were read in outline only and were not checked.
   $g(z)=\prod_j(1-\overline{a_j}z)$ and taking the shorter of two
   edge-disjoint arcs of the curve $\lvert g\rvert=1$ from $0$ to the circle.
 
-Source: <https://arxiv.org/abs/2606.19178>.
+Source: <https://arxiv.org/abs/2606.19178v1>.
 
 **Bears on.** [[../wiki/problems/analysis/E1120/_index|#1120]]: in the
 problem page's worst-case reading $S(n)$, Theorem 1.2 claims

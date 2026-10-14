@@ -69,7 +69,7 @@ substructure as keeping dense $k$-critical graphs away from the Turán graph. Th
 closing paragraph (p. 12) notes that it is not known whether $f_4(n)<f_5(n)$ for
 large $n$ and asks whether $f_4(n)\leq cn^2$ for some $c<\frac4{31}$.
 
-Source: <https://arxiv.org/abs/2301.01656>.
+Source: <https://arxiv.org/abs/2301.01656v1>.
 
 Read status: claims checked for the definitions (p. 1), the survey of p. 2,
 Theorems 1.1 and 1.2 with the Toft graph (p. 3), Lemma 2.1 (pp. 3--4), Lemma 3.1

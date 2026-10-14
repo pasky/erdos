@@ -36,8 +36,9 @@ the arXiv preprint, the only arXiv version; no journal version was found
 (arXiv listing and a Crossref bibliographic query, 2026-09-17), and the
 refereed papers that use its bounds cite it as a preprint. Locators are its
 own pages 1--13. Source URL:
-<https://arxiv.org/abs/1605.03612>. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:1605.03612), every other right reserved.
+<https://arxiv.org/abs/1605.03612v1>. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1605.03612), every other right
+reserved.
 
 Read status: claims checked for Theorems 1.3, 1.5, 2.4, 3.3, 4.3 and 4.5,
 Corollary 4.4 and Questions 5.1--5.3 (statements read clause by clause on

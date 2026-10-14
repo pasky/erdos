@@ -53,7 +53,7 @@ and second moments of omega(s(n)) over n outside E(x) (Theorem 3.1, Lemma
 4.1). Problem 955 is the assertion of Conjecture 1.1 and lists this paper as
 [Tr15] among its references; the paper does not settle the conjecture.
 
-Source: <https://arxiv.org/abs/1405.3587>.
+Source: <https://arxiv.org/abs/1405.3587v3>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0955/_index|#955]]:
 for each eps > 0, Theorem 1.3 shows that the set of m with |omega(m) - log

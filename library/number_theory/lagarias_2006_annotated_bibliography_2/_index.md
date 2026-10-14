@@ -36,8 +36,9 @@ function $C$, pose the $3x+1$ Conjecture and report the verification bounds
 §2 (p. 2) fixes the terminology (trajectory, stopping times, height and the
 counting function $\pi_a(x)$) used in the entries.
 
-The copy read for this card is arXiv:math/0608208v6 (dated Jan. 10, 2012;
-42 pp.). The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:math/0608208v6](https://arxiv.org/abs/math/0608208v6) (dated Jan. 10,
+2012; 42 pp.). The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:math/0608208), every other right reserved.
 
 Read status: claims checked, for the statements the bibliography makes; it

@@ -77,7 +77,7 @@ and the paper states no reduction of Theorem 1.2 for other norms; the
 [[discrete_geometry/voronov_2025_chromatic_number_plane_interval_forbidden_distances/theorem_1_2|result
 page]] records this.
 
-Source: <https://arxiv.org/abs/2304.10163>.
+Source: <https://arxiv.org/abs/2304.10163v3>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]: the
 problem forbids only the distance 1, and every coloring proper for

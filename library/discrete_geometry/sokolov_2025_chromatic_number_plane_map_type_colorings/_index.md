@@ -53,7 +53,7 @@ the area of the regions. The concluding
 Question 2 (p. 26) asks whether 7 colors are needed for locally finite maps
 when unit-circle arcs and trichromatic vertices of degree above 3 are allowed.
 
-Source: <https://arxiv.org/abs/2502.01958>.
+Source: <https://arxiv.org/abs/2502.01958v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]: the
 problem asks for the chromatic number of the plane with no restriction on the

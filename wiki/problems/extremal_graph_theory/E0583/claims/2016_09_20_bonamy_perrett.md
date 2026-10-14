@@ -14,7 +14,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/1609.06257
+- url: https://arxiv.org/abs/1609.06257v1
   kind: preprint
   date: 2016-09-20
 - url: https://doi.org/10.1016/j.disc.2019.01.005

@@ -58,7 +58,7 @@ claims checked for Theorem 1.1, Lemmas 2.1 and 2.2 and Conjectures 4.1 and
 (pp. 2--3) was read through, not verified. Nothing here is independently
 reviewed.
 
-Source: <https://arxiv.org/abs/2208.13513>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2208.13513v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2208.13513), every other right
 reserved.
 

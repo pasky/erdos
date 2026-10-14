@@ -79,7 +79,7 @@ Theorem 2.1 (p. 6): a Sidon set maximizing the reciprocal sum has
 |S cap [1, n]| > Cn^(1/4) for all n, for some C > 0.257, and positive upper
 limit of |S cap [1, n]|/n^(1/3).
 
-Source: <https://arxiv.org/abs/2505.20851>.
+Source: <https://arxiv.org/abs/2505.20851v2>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: Theorem
 6.1 and Corollary 6.4 with g = 2 (and h = 2) concern the B_2[2] sets of the

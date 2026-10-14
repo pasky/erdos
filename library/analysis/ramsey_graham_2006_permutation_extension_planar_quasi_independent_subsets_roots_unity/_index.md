@@ -52,10 +52,10 @@ Psi(m).
 L. Thomas Ramsey, Colin C. Graham, "Permutation and extension for planar quasi-independent subsets of the roots of unity," arXiv:math/0606546 (2006).
 
 **Copy read.** The copy read for this card is the arXiv preprint
-arXiv:math/0606546v1, submitted 21 June 2006; its date line and running heads
-print November 23, 2018, a date later than the submission. The arXiv record
-carries no license field, so arXiv's assumed license applies
-(arXiv:math/0606546), every other right reserved.
+[arXiv:math/0606546v1](https://arxiv.org/abs/math/0606546v1), submitted 21 June
+2006; its date line and running heads print November 23, 2018, a date later than
+the submission. The arXiv record carries no license field, so arXiv's assumed
+license applies (arXiv:math/0606546), every other right reserved.
 
 ## Research digest
 

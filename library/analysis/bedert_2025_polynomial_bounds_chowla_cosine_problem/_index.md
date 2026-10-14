@@ -36,7 +36,7 @@ exponent 1/10-o(1) by a different, graph-eigenvalue route. For problem 510,
 Chowla's cosine problem, which asks for the growth of K(n), the paper gives the
 first polynomial lower bound, short of the conjectured exponent 1/2.
 
-Source: <https://arxiv.org/abs/2509.05260>. The arXiv record
+Source: <https://arxiv.org/abs/2509.05260v3>. The arXiv record
 (https://arxiv.org/abs/2509.05260, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

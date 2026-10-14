@@ -42,7 +42,7 @@ delta where the chi <= 3 version fails. The data also support the conjectured
 value f(8) = 2/7, and Conjecture 4 proposes f(delta) = f'(delta) for all delta
 >= 4.
 
-Source: <https://arxiv.org/abs/2502.08626>.
+Source: <https://arxiv.org/abs/2502.08626v1>.
 
 The retained folder-name PDF is arXiv:2502.08626v1, stamped 12 Feb 2025, 16
 pages (11 plus appendices) with a text layer; printed and PDF pages agree. The

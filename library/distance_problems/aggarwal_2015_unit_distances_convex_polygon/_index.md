@@ -53,7 +53,7 @@ refined by the diagonal and obtuse angle properties. For Erdos problem 96,
 which asks whether U_c(n) = O(n), Theorem 1 is an upper bound of order n log n
 and does not decide the question.
 
-Source: <https://arxiv.org/abs/1009.2216>.
+Source: <https://arxiv.org/abs/1009.2216v3>.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0096/_index|#96]]:
 [[distance_problems/aggarwal_2015_unit_distances_convex_polygon/theorem_1|Theorem 1]]

@@ -66,7 +66,7 @@ makes the k=3 case explicit, (log N)^{log 1.551 - o(1)} <= f_3(N) << (log
 N)^{3/2^{2/3} - 1 + o(1)}, using the Naslund-Sawin upper bound and the
 Deuber-Erdos-Gunderson-Kostochka-Meyer construction.
 
-Source: <https://arxiv.org/abs/2512.20055>.
+Source: <https://arxiv.org/abs/2512.20055v1>.
 
 Read status: claims checked for Theorems 1.2, 1.4, 1.5 and 1.6 and
 Corollary 1.7, with the definitions they use, read clause by clause on the

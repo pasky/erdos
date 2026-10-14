@@ -60,7 +60,7 @@ Claim 2.1, read clause by clause on the page images of the arXiv version,
 with the proof (pp. 2--4) followed step by step; nothing here is
 independently reviewed.
 
-Source: <https://arxiv.org/abs/1703.02473>.
+Source: <https://arxiv.org/abs/1703.02473v2>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0531/_index|#531]]:
 [[ramsey_theory/balogh_2017_improved_lower_bound_folkman_theorem/theorem_1_1|Theorem 1.1]]

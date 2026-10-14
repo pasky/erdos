@@ -13,7 +13,7 @@ claim: proved
 scope: full
 submitted: null
 links:
-- url: https://arxiv.org/abs/2511.07465
+- url: https://arxiv.org/abs/2511.07465v1
   kind: preprint
   date: 2025-11-07
 created: 2026-10-07T12:08:09Z

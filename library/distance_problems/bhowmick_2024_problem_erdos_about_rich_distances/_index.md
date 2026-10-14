@@ -41,7 +41,7 @@ counterpressure rather than a solution: it shows that linearly many distance
 values can simultaneously have multiplicity greater than $n$, while Problem
 132 asks how many occurring distances must have multiplicity at most $n$.
 
-Source: <https://arxiv.org/abs/2407.01174>.
+Source: <https://arxiv.org/abs/2407.01174v3>.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0756/_index|#756]]
 (Theorem 1.1 answers the problem's question affirmatively),

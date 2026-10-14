@@ -49,7 +49,7 @@ improves on White's lower bound for nu_2^2 from the sixth decimal place; the
 paper does not mention the problem, and it does not touch the liminf the
 problem asks about.
 
-Source: <https://arxiv.org/abs/2602.07292>.
+Source: <https://arxiv.org/abs/2602.07292v1>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: Theorem
 1's lower bound for nu_2^2, fed into the Green-White inequality the paper quotes

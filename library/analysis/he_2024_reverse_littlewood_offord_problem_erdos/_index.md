@@ -34,9 +34,9 @@ reverse Littlewood–Offord problem of Erdős*. arXiv:2408.11034v3 [math.PR],
 The [selected PDF](he_2024_reverse_littlewood_offord_problem_erdos.pdf) is the
 arXiv v3 manuscript (watermark "arXiv:2408.11034v3 [math.PR] 30 Dec 2024" on p.
 1), 15 physical pages whose printed numbers equal the PDF page numbers; 406,561
-bytes. The arXiv record is <https://arxiv.org/abs/2408.11034>. The arXiv record
-(https://arxiv.org/abs/2408.11034, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+bytes. The arXiv record is <https://arxiv.org/abs/2408.11034v3>. The arXiv
+record (https://arxiv.org/abs/2408.11034, read 2026-10-02) names the Creative
+Commons Attribution 4.0 license.
 
 A second build of the same manuscript is linked from an author's page: a
 16-page PDF whose metadata creation date is 20 August 2026 and whose first

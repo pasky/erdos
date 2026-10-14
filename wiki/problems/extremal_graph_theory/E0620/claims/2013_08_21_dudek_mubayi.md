@@ -18,7 +18,7 @@ links:
 - url: https://doi.org/10.1002/jgt.21760
   kind: paper
   date: 2013-08-21
-- url: https://arxiv.org/abs/1309.4518
+- url: https://arxiv.org/abs/1309.4518v1
   kind: preprint
   date: 2013-09-18
 created: 2026-10-07T21:33:46Z

@@ -51,7 +51,7 @@ cyclic-quadrilateral question yes and the congruent-sides question no, and that
 the trapezoid and the two triangle questions appeared unresolved, citing
 Problem #353 of erdosproblems.com.
 
-Source: <https://arxiv.org/abs/2501.01914>.
+Source: <https://arxiv.org/abs/2501.01914v1>.
 
 **Read status.** Claims checked: Theorems 1 and 2 and the remark after
 Theorem 2 were read clause by clause on the printed pages, and the proofs

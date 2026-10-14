@@ -58,9 +58,10 @@ only if psi_r(A) <= C[A]_{p~} for every finite subset A.
 
 ***
 
-The copy read for this card is the arXiv preprint arXiv:0902.2625v1 (16
-February 2009). The arXiv record names arXiv's non-exclusive distribution
-license (arXiv:0902.2625), every other right reserved.
+The copy read for this card is the arXiv preprint
+[arXiv:0902.2625v1](https://arxiv.org/abs/0902.2625v1) (16 February 2009). The
+arXiv record names arXiv's non-exclusive distribution license (arXiv:0902.2625),
+every other right reserved.
 
 Pascal Lefèvre, Daniel Li, Hervé Queffélec, Luis Rodriguez-Piazza, "Thin sets of
 integers in Harmonic analysis and p-stable random Fourier series,"

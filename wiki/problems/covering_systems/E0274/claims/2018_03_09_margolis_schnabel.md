@@ -18,7 +18,7 @@ links:
 - url: https://doi.org/10.1007/s13366-018-0419-1
   kind: paper
   date: 2018-10-04
-- url: https://arxiv.org/abs/1803.03569
+- url: https://arxiv.org/abs/1803.03569v1
   kind: preprint
   date: 2018-03-09
 - url: https://www.erdosproblems.com/274

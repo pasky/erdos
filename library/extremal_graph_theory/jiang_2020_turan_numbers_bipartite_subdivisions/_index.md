@@ -58,7 +58,7 @@ the remark after it (pp. 1--2), Proposition 4.1 and Corollary 4.2 (p. 16),
 read clause by clause on the printed pages; the proof (§ 3, pp. 3--16) was
 read for structure only. Nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/1905.08994>.
+Source: <https://arxiv.org/abs/1905.08994v2>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0571/_index|#571]]:
 the problem asks, for every rational alpha in [1,2), for a bipartite graph G

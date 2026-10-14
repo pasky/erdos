@@ -57,7 +57,7 @@ page [[../wiki/problems/integer_sequences/E0587/claims/2008_11_09_nguyen_vu|of
 Nguyen and Vu]] records that report. The development was neither built nor
 audited here.
 
-Source: <https://arxiv.org/abs/0811.1311>. The copy read for this card is
+Source: <https://arxiv.org/abs/0811.1311v2>. The copy read for this card is
 arXiv:0811.1311v2 (29 Oct 2009), whose theorem and example labels and page
 numbers the card and its result pages use.
 

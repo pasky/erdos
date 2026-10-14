@@ -17,7 +17,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/j.aim.2020.107444
   kind: paper
-- url: https://arxiv.org/abs/1608.05705
+- url: https://arxiv.org/abs/1608.05705v1
   kind: preprint
   date: 2016-08-19
 created: 2026-10-07T07:13:08Z

@@ -55,7 +55,7 @@ tiles the plane by translation. An update on p. 12 reports the later bound
 m_1(R^2) <= 0.25442 of Ambrus and Matolcsi and an unpublished announcement by
 Parts of chi_f(R^2) >= 3.98.
 
-Source: <https://arxiv.org/abs/1810.00960>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1810.00960v4>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1810.00960), every other right
 reserved. The copy read prints on p. 1 the journal's notice "© 2021 by the
 author(s) Distributed under a Creative Commons Attribution 4.0 International

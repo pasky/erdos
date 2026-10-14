@@ -51,7 +51,7 @@ limit law for P(ord = n-k), k in K_n (Proposition 4.1). The paper presents
 this as an answer to the question of Acan et al., which it attributes to
 Erdos and Turan (Acta Math. Acad. Sci. Hungar. 19 (1968), p. 414).
 
-Source: <https://arxiv.org/abs/2510.11698>.
+Source: <https://arxiv.org/abs/2510.11698v1>.
 
 **Bears on.** [[../wiki/problems/group_theory/E1161/_index|#1161]]: the
 problem's count of permutations of order k is n! p_n(k), so Theorem 1.2 shows

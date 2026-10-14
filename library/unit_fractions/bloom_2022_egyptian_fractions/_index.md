@@ -51,7 +51,7 @@ N)^{1-1/(2^{k-1}-1)}), which recovers Vaughan's bound for m=4, k=3. The whole
 discussion of 4/n is the reference material for Erdos problem 242, the
 Erdos-Straus conjecture itself.
 
-Source: <https://arxiv.org/abs/2210.04496>.
+Source: <https://arxiv.org/abs/2210.04496v1>.
 
 The retained folder-name PDF is the typeset journal article (nine pages,
 printed 237--245; PDF p. n is printed p. 236+n), not the arXiv posting

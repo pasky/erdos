@@ -65,7 +65,7 @@ with concentration inequalities. For problem 149, the Erdos-Nesetril conjecture 
 degree Delta is at most 1.25 Delta^2, this paper held the record upper bound of
 1.772 Delta^2.
 
-Source: <https://arxiv.org/abs/2007.07874>.
+Source: <https://arxiv.org/abs/2007.07874v3>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1.6
 (printed p. 4, page image), the site's "The best bound currently available

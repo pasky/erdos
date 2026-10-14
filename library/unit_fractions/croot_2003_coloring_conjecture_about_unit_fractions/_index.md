@@ -24,7 +24,7 @@ contains a subset with reciprocal sum exactly one.
 Ernest S. Croot III, *On a coloring conjecture about unit fractions*, Annals
 of Mathematics (2) **157** (2003), no. 2, 545--556,
 [DOI 10.4007/annals.2003.157.545](https://doi.org/10.4007/annals.2003.157.545);
-[arXiv:math/0311421](https://arxiv.org/abs/math/0311421).
+[arXiv:math/0311421](https://arxiv.org/abs/math/0311421v1).
 
 The copy read for this card is
 arXiv:math/0311421v1 (24 November 2003), 12 pages, whose arXiv comment reads

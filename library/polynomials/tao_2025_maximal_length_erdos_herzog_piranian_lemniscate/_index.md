@@ -61,7 +61,7 @@ conjecture in full reduces to an explicitly bounded number of degrees, a bound
 the paper does not state. Part (iv) answers the question of
 erdosproblems.com/114 yes for every sufficiently large n.
 
-Source: <https://arxiv.org/abs/2512.12455>.
+Source: <https://arxiv.org/abs/2512.12455v2>.
 
 Read status: claims checked for Conjecture 1.1, (1.1), (1.2), Theorem 1.1,
 Proposition 1.2, Remarks 1.1 to 1.3 and Lemma 3.2, read clause by clause on

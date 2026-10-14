@@ -16,7 +16,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/2208.12563
+- url: https://arxiv.org/abs/2208.12563v1
   kind: preprint
   date: 2022-08-26
 - url: https://doi.org/10.1090/proc/16413

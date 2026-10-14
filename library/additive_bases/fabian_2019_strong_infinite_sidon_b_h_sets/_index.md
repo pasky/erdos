@@ -76,7 +76,7 @@ The paper's B_h sets require distinct h-fold sums only when the largest
 summands differ, as printed on p. 3. Section 5 closes with Question 5.1,
 whether every α-strong B_h set has lim inf S(n)/n^((1-α)/h) = 0.
 
-Source: <https://arxiv.org/abs/1911.13275>. The copy read for this card is
+Source: <https://arxiv.org/abs/1911.13275v2>. The copy read for this card is
 arXiv:1911.13275v2 (6 December 2019), not the journal version; the labels and
 pages cited here are that version's (pp. 1-15). The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1911.13275), every other right

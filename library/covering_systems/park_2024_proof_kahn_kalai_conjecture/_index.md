@@ -71,7 +71,7 @@ equations (4)--(6) on p. 2, Theorem 1.2, Conjecture 1.3, the reformulation and
 Theorem 1.4 on p. 3, Remark 1.5, the derivation of Theorem 1.1, the
 conventions and equations (8)--(10) on p. 4, Section 2.1 and Lemma 2.1 on
 p. 5, the proof of Lemma 2.1 on pp. 5--6, and Section 2.2 with Proposition 2.3
-on pp. 6--7. The arXiv record is <https://arxiv.org/abs/2203.17207>.
+on pp. 6--7. The arXiv record is <https://arxiv.org/abs/2203.17207v2>.
 
 ## Result and proof map
 

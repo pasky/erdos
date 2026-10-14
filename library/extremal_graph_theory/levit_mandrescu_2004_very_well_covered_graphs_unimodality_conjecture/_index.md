@@ -43,11 +43,12 @@ conjecture," arXiv:math/0406623 (2004).
 
 ## Source identity and edition
 
-The copy read for this card is arXiv:math/0406623v1 (watermark dated 30 June
-2004 on p. 1), 10 pages whose printed numbers equal the PDF page numbers; its
-p. 1 date line reads "June 20, 2018", a typesetting date of this PDF, not
-the 2004 submission date. Labels and page locators on this card and its
-result pages are the print's own. The arXiv record carries no license field, so arXiv's
+The copy read for this card is
+[arXiv:math/0406623v1](https://arxiv.org/abs/math/0406623v1) (watermark dated 30
+June 2004 on p. 1), 10 pages whose printed numbers equal the PDF page numbers;
+its p. 1 date line reads "June 20, 2018", a typesetting date of this PDF, not
+the 2004 submission date. Labels and page locators on this card and its result
+pages are the print's own. The arXiv record carries no license field, so arXiv's
 assumed license applies (arXiv:math/0406623), every other right reserved.
 
 ## Read status

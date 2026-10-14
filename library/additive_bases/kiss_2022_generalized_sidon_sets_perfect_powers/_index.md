@@ -58,7 +58,7 @@ A(x) >> x^{1/2 - epsilon}, but g is allowed to depend on epsilon, so it
 abandons the fixed multiplicity g = 2 that problem 158 demands and is not a
 partial resolution.
 
-Source: <https://arxiv.org/abs/2006.02783>.
+Source: <https://arxiv.org/abs/2006.02783v1>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: the
 unnumbered bound on p. 2 with k = h = 2 and g = 2 gives A(x) << x^(1/2) /

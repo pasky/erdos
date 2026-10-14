@@ -96,7 +96,7 @@ exponents, and pose Problem 7.3 and Conjectures 7.4 and 7.5. The
 realisable-exponent results are the contribution cited for problem 571, the
 Erdős--Simonovits rational exponents conjecture.
 
-Source: <https://arxiv.org/abs/1903.10631>.
+Source: <https://arxiv.org/abs/1903.10631v2>.
 
 Read status: claims checked for Theorems 1.4, 1.8, 1.12, 1.16 and 1.18,
 Corollaries 1.9, 1.13 and 7.2 and Proposition 1.17, with the definitions and

@@ -68,7 +68,7 @@ and a polygonal coloring contains every non-equilateral triangle and, by Theorem
 triangles of two different sizes. A counterexample to problem 173 must lie
 outside both classes.
 
-Source: <https://arxiv.org/abs/math/0701940>.
+Source: <https://arxiv.org/abs/math/0701940v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0173/_index|#173]]: the
 paper's Conjecture 1.2 (Conjecture 3 of Erdős et al.), that every coloring

@@ -14,7 +14,7 @@ claim: answered
 scope: full
 submitted: null
 links:
-- url: https://arxiv.org/abs/2604.19294
+- url: https://arxiv.org/abs/2604.19294v1
   kind: preprint
   date: 2026-04-21
 - url: https://www.erdosproblems.com/forum/thread/524

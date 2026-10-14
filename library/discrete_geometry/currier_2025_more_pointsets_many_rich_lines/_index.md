@@ -41,7 +41,7 @@ alpha = 1/2 with Lambda = {1} recovers Erdos's grid and alpha = 1/2 with
 Lambda = {1, sqrt k} recovers Guth-Silier. The paper does not mention Erdős
 problems; for problem 102 the relation is stated under Bears on.
 
-Source: <https://arxiv.org/abs/2510.09769>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2510.09769v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2510.09769), every other right
 reserved.
 

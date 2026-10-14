@@ -41,10 +41,10 @@ reciprocals of its distinct subgroup indices tends to 1.
 
 M. Garonzi, L. Margolis, "The Herzog-Schönheim conjecture for simple and symmetric groups," arXiv:2509.25118 (2025).
 
-The copy read for this card is the arXiv preprint arXiv:2509.25118v2 (5 May
-2026); labels and pages below are that version's. The arXiv
-record names arXiv's non-exclusive distribution license, every other right
-reserved.
+The copy read for this card is the arXiv preprint
+[arXiv:2509.25118v2](https://arxiv.org/abs/2509.25118v2) (5 May 2026); labels
+and pages below are that version's. The arXiv record names arXiv's non-exclusive
+distribution license, every other right reserved.
 
 For a finite group $G$, let
 

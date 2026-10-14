@@ -105,7 +105,7 @@ author notes (p. 2) that Theorem 1.1 does not settle the full problem, since a
 chromatic-critical subgraph of a high-chromatic graph may have
 super-polynomially many edges in its own chromatic number.
 
-Source: <https://arxiv.org/abs/2606.17901>.
+Source: <https://arxiv.org/abs/2606.17901v1>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0108/_index|#108]]: Theorem
 1.1 proves the problem's conclusion for the graphs with

@@ -59,7 +59,7 @@ version of the reduction was formalized in Lean 4/Mathlib with no sorries or
 added axioms. The result is the case k=3 of a pairwise-sums conjecture of Erdős
 and Sós, and the abstract states that it resolves Erdős Problem 865.
 
-Source: <https://arxiv.org/abs/2606.29361>.
+Source: <https://arxiv.org/abs/2606.29361v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0865/_index|#865]]: Theorem 1.1
 (p. 1) is the problem's statement with "for all $N$" in place of "for all

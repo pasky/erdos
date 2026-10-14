@@ -41,7 +41,7 @@ ES_k(n) > (1+c_k)^n for some constant c_k > 0; since ES_k(n) = 2^{o(n)} for
 every k >= 3, no such constant exists, and the answer is no in every dimension
 k >= 3.
 
-Source: <https://arxiv.org/abs/2208.04878>.
+Source: <https://arxiv.org/abs/2208.04878v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0651/_index|#651]]
 

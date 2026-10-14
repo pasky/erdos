@@ -67,7 +67,7 @@ the Ramsey number of the hypercube; it was consulted for Problem 181 as a
 Pages 1--2 were read on the page images; pp. 3--12 were not read. No proof
 was checked and nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/2601.15451>.
+Source: <https://arxiv.org/abs/2601.15451v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0181/_index|#181]]: context only. The
 quantity $f(Q_n,C_k,q)$ is a coloring number of the hypercube's edges, not

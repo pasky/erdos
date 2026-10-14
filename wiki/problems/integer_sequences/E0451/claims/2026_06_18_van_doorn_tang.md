@@ -14,7 +14,7 @@ claim: proved
 scope: partial
 submitted: 2026-04-26
 links:
-- url: https://arxiv.org/abs/2606.19863
+- url: https://arxiv.org/abs/2606.19863v1
   kind: preprint
   date: 2026-06-18
 - url: https://www.erdosproblems.com/forum/thread/451#post-5916

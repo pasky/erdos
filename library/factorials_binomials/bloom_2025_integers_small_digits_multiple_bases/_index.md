@@ -49,7 +49,7 @@ almost all digits (all but epsilon log n) are shown to be small; it establishes
 the corresponding multiple-base small-digit phenomenon for sufficiently large
 bases.
 
-Source: <https://arxiv.org/abs/2509.02835>.
+Source: <https://arxiv.org/abs/2509.02835v1>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0376/_index|#376]]
 

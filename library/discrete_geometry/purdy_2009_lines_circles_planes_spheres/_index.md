@@ -88,7 +88,7 @@ state that this is the correct lower bound and that Elliott's proof can easily
 be modified to give it for n >= 394, without writing out the modification. The
 plane and sphere bounds are the three-dimensional analogues.
 
-Source: <https://arxiv.org/abs/0907.0724>.
+Source: <https://arxiv.org/abs/0907.0724v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0506/_index|#506]]: the
 [[discrete_geometry/purdy_2009_lines_circles_planes_spheres/remark_p8|remark on p. 8]]

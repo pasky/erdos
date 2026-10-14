@@ -44,7 +44,7 @@ problem, then formalizes strict unit-distance graphs, classifies the known
 constructions into types (Section 4) and describes the minimization toolkit.
 The paper does not mention Erdős's problems.
 
-Source: <https://arxiv.org/abs/2010.12665>.
+Source: <https://arxiv.org/abs/2010.12665v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]: the
 [[discrete_geometry/parts_2020_graph_minimization_focusing_example_5_chromatic/main_theorem|main result]]

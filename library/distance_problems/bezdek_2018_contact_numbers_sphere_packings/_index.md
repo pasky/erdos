@@ -63,7 +63,7 @@ Section 7 higher dimensions and translates of a convex body (Theorem 7.1,
 Corollary 7.2, Theorem 7.8), and Section 8 non-congruent packings. The survey
 states Problems 1 to 4 and Conjectures 3.3, 3.7, 5.2 and 7.6.
 
-Source: <https://arxiv.org/abs/1601.00145>.
+Source: <https://arxiv.org/abs/1601.00145v2>.
 
 **Bears on.**
 [[../wiki/problems/distance_problems/E1084/_index|#1084]]: after scaling by

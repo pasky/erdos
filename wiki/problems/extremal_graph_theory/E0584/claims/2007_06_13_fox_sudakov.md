@@ -15,7 +15,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/0706.1920
+- url: https://arxiv.org/abs/0706.1920v1
   kind: preprint
   date: 2007-06-13
 - url: https://doi.org/10.1016/j.jctb.2007.12.003

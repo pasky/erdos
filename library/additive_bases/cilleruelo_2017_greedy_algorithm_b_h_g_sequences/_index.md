@@ -42,7 +42,7 @@ algorithm, not the classic greedy sequence; it notes that the classic algorithm
 may give a denser sequence when g > 1 but that it is not clear how to prove
 this, so it says nothing about that sequence's square-root-scale liminf.
 
-Source: <https://arxiv.org/abs/1601.00928>. The copy read for this card is
+Source: <https://arxiv.org/abs/1601.00928v2>. The copy read for this card is
 arXiv:1601.00928v2 (13 January 2016, 4 pages), not the journal version; the
 labels cited here are that version's. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1601.00928), every other right

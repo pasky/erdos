@@ -52,7 +52,7 @@ Egyptian-fraction expansions approximate a rational from below, by showing
 that greedy is optimal at two terms whenever Upsilon(p,q) <= 3 and that this
 can fail for every larger value.
 
-Source: <https://arxiv.org/abs/2306.12564>.
+Source: <https://arxiv.org/abs/2306.12564v2>.
 
 The retained folder-name PDF is arXiv:2306.12564v2 (20 January 2024), 26
 pages; v1 is of 19 June 2023; the journal version (Indag. Math. (N.S.) 35

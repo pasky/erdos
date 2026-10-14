@@ -51,7 +51,7 @@ with p dividing q+1 where greed is uniquely best at every length (Theorem 5),
 and a two-term classification on (1/3, 1] (Theorems 6 and 7), both in the
 convention allowing repeated denominators, which problem 206 does not.
 
-Source: <https://arxiv.org/abs/2202.00191>.
+Source: <https://arxiv.org/abs/2202.00191v2>.
 
 The retained folder-name PDF is arXiv:2202.00191v2 (3 February 2022), 20
 pages; v1 is of 1 February 2022; the journal version (J. Number Theory 242

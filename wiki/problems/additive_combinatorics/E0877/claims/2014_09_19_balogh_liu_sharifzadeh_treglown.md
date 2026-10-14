@@ -22,7 +22,7 @@ links:
 - url: https://doi.org/10.1090/S0002-9939-2015-12615-9
   kind: paper
   date: 2015-04-02
-- url: https://arxiv.org/abs/1409.5661
+- url: https://arxiv.org/abs/1409.5661v1
   kind: preprint
   date: 2014-09-19
 - url: https://www.erdosproblems.com/877

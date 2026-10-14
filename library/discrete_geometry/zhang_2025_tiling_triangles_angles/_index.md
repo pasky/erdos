@@ -49,7 +49,7 @@ the six had a known construction. For problem 634, this supplies new
 admissible values of N and a conjectural complete answer for the 2 pi/3
 family.
 
-Source: <https://arxiv.org/abs/2512.22696>.
+Source: <https://arxiv.org/abs/2512.22696v4>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0634/_index|#634]]
 

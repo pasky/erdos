@@ -33,7 +33,7 @@ an exponential rate beta, both given by explicit series.
 ***
 
 Damek Davis, *Forbidden subgraphs in divisor graphs and an Erdős divisibility
-problem*, [arXiv:2604.17613](https://arxiv.org/abs/2604.17613), 2026. The
+problem*, [arXiv:2604.17613](https://arxiv.org/abs/2604.17613v1), 2026. The
 copy read for this card is arXiv version v1 (stamped 19 Apr 2026). Provenance:
 the PDF was obtained from <https://arxiv.org/pdf/2604.17613> on 2026-09-23;
 505,713 bytes. The arXiv HTML rendering and source archive of the same version

@@ -54,7 +54,7 @@ amplification-inspired ideas and Zhang/Polymath refinements, ultimately using
 Kuznetsov trace formula bounds for sums of Kloosterman sums and Weil/Deligne
 style algebraic-geometry estimates.
 
-Source: <https://arxiv.org/abs/2006.06572>.
+Source: <https://arxiv.org/abs/2006.06572v2>.
 
 **Read status.** Claims checked: Theorem 1.1 and Corollaries 1.2-1.4
 (pp. 3-4) and the deductions of the corollaries from Theorem 1.1 (Section 4,

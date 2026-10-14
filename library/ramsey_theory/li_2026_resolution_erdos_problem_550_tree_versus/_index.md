@@ -28,17 +28,17 @@ author's claim, statement checked, proof not read.
 E. Li, *A resolution of Erdős Problem 550 on tree versus complete multipartite
 Ramsey numbers*, arXiv:2606.23659 (v1 22 June 2026; v2 2 August 2026). Preprint.
 
-The copy read for this card is the
-arXiv v1 (stamped 22 Jun 2026, dated June 23, 2026), 20 pages numbered 1--20
-and complete: Sections 1--9, the acknowledgments and the reference list are
-present, and every theorem, equation and section destination named inside it
-resolves within it, though the proofs cite several propositions, lemmas and
-Corollary 3.3 as "Theorem" (for example "Theorem 2.1" for Proposition 2.1,
-p. 5, and "Theorems 5.3 and 5.4" for Lemmas 5.3 and 5.4, p. 16). The arXiv listing's v2 (comment: "V2: The proof has been
-formally verified in Lean. 26 pages") was not compared;
-locators below are v1 pages. Source URL:
-<https://arxiv.org/abs/2606.23659>. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:2606.23659), every other right reserved.
+The copy read for this card is the arXiv v1 (stamped 22 Jun 2026, dated June 23,
+2026), 20 pages numbered 1--20 and complete: Sections 1--9, the acknowledgments
+and the reference list are present, and every theorem, equation and section
+destination named inside it resolves within it, though the proofs cite several
+propositions, lemmas and Corollary 3.3 as "Theorem" (for example "Theorem 2.1"
+for Proposition 2.1, p. 5, and "Theorems 5.3 and 5.4" for Lemmas 5.3 and 5.4,
+p. 16). The arXiv listing's v2 (comment: "V2: The proof has been formally
+verified in Lean. 26 pages") was not compared; locators below are v1 pages.
+Source URL: <https://arxiv.org/abs/2606.23659v1>. The arXiv record names
+arXiv's non-exclusive distribution license (arXiv:2606.23659), every other right
+reserved.
 
 Read status: claims checked for Theorem 1.1, the lower bound (1) and the
 two-sided form (3) (read clause by clause on the page images of pp. 1--2),

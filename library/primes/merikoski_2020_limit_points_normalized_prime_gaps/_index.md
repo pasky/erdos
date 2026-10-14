@@ -51,7 +51,7 @@ but pushes the known measure of L up to at least one third and shows that L has
 no arbitrarily long gaps, while noting that besides 0 and infinity no individual
 real is known to lie in L.
 
-Source: <https://arxiv.org/abs/1811.03008>.
+Source: <https://arxiv.org/abs/1811.03008v3>.
 
 Read status: claims checked for the results linked below, statements read
 clause by clause on the printed pages of arXiv v3 (Theorem 1 and Corollaries 2

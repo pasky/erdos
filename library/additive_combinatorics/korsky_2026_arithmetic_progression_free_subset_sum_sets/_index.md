@@ -79,6 +79,6 @@ and
 The arXiv record (https://arxiv.org/abs/2606.24139, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.
 
-Source: <https://arxiv.org/abs/2606.24139>.
+Source: <https://arxiv.org/abs/2606.24139v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0817/_index|#817]]

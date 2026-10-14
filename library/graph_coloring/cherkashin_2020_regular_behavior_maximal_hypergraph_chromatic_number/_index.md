@@ -60,7 +60,7 @@ converges for every fixed n but does not evaluate the limit, and Theorem 3 is
 the list-coloring version. Both rest on Theorem 1, an analytic statement about
 functions satisfying the inequality of Lemma 1 for p = 2 and p = 3.
 
-Source: <https://arxiv.org/abs/1808.01482>.
+Source: <https://arxiv.org/abs/1808.01482v4>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0832/_index|#832]]:
 [[graph_coloring/cherkashin_2020_regular_behavior_maximal_hypergraph_chromatic_number/theorem_2|Theorem 2]]

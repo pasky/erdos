@@ -74,7 +74,7 @@ Corollary 3 gives, for every f with lower limit at least 1 and every
 increasing omega tending to infinity, a set with order-h representation
 function f and positive lim sup of A(x) omega(x)/x^(1/h).
 
-Source: <https://arxiv.org/abs/0708.2853>. The copy read for this card is
+Source: <https://arxiv.org/abs/0708.2853v1>. The copy read for this card is
 arXiv:0708.2853v1, submitted 21 Aug 2007, not the journal article; the labels
 below are that preprint's. The arXiv record carries no license field, so arXiv's
 assumed license applies (arXiv:0708.2853), every other right reserved.

@@ -80,7 +80,7 @@ bounds for [n] are what the paper contributes to problem 1186; its lower bounds
 concern Z_n only. The authors conjecture (Conjecture 1) that the infimum of
 m_4(Z_n) over n not divisible by 4 is 1/12.
 
-Source: <https://arxiv.org/abs/1107.2888>.
+Source: <https://arxiv.org/abs/1107.2888v1>.
 
 ## Results
 

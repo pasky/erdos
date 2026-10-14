@@ -34,7 +34,7 @@ must be from exact-on-average and strengthens the linear-scale deviation in
 Green's problem, constraining near-exact complements without determining problem
 33's optimal limsup constant.
 
-Source: <https://arxiv.org/abs/2211.16810>. The arXiv record
+Source: <https://arxiv.org/abs/2211.16810v3>. The arXiv record
 (https://arxiv.org/abs/2211.16810, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

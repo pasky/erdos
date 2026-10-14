@@ -51,7 +51,7 @@ that this is the worst case. The proof (pp. 3--7) works with a constant m*_1
 chosen so that for all large n the Ramsey relation
 n/((log n)^2 log log n) arrow (c1 log n, (c1/m*_1) log n) holds (p. 3).
 
-Source: <https://arxiv.org/abs/math/9707226>.
+Source: <https://arxiv.org/abs/math/9707226v1>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1036/_index|#1036]]:
 Theorem 1.3 answers the problem yes: a graph with no trivial subgraph on more

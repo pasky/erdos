@@ -61,7 +61,7 @@ the distinct reading, which is what the paper's remark about a "typo" in Erdős'
 example amounts to. The arXiv record (https://arxiv.org/abs/2301.07065, read
 2026-10-02) names the Creative Commons Attribution 4.0 license.
 
-Source: <https://arxiv.org/abs/2301.07065>.
+Source: <https://arxiv.org/abs/2301.07065v1>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0013/_index|#13]]
 

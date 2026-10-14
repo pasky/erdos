@@ -45,7 +45,8 @@ arXiv's non-exclusive distribution license (arXiv:1105.3220), every other right
 reserved.
 
 **Edition read.** The copy read for this card is the arXiv preprint,
-arXiv:1105.3220v3 (24 July 2011), read in full.
+[arXiv:1105.3220v3](https://arxiv.org/abs/1105.3220v3) (24 July 2011), read in
+full.
 
 ## Research digest
 

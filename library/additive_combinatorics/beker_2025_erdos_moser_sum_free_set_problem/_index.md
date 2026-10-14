@@ -78,7 +78,7 @@ rather than exponential. The paper claims no improvement in the value of c over
 Sanders's and notes that the k-configuration approach is a priori limited to
 c < 1.
 
-Source: <https://arxiv.org/abs/2501.10203>.
+Source: <https://arxiv.org/abs/2501.10203v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0787/_index|#787]]:
 Theorem 1.2 (p. 3) gives, for each fixed $c\in(0,1/68)$, $g(n)\ge(\log n)^{1+c}$

@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/s10474-024-01496-x
   kind: paper
-- url: https://arxiv.org/abs/2211.08548
+- url: https://arxiv.org/abs/2211.08548v1
   kind: preprint
   date: 2022-11-15
 created: 2026-10-07T20:31:26Z

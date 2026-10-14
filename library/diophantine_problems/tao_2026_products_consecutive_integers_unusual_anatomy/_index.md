@@ -75,7 +75,7 @@ primes. Theorem 1.1 recalls the Sylvester-Schur and Erdős-Selfridge theorems
 as classical inputs. Remark 6.2 records as open the Erdős-Graham conjectures
 that bad intervals have length x^{o(1)} and can be arbitrarily long.
 
-Source: <https://arxiv.org/abs/2603.27990>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2603.27990v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2603.27990), every other right
 reserved.
 

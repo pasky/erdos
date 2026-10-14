@@ -68,7 +68,7 @@ explicitly disclaims any unconditional infinitude proof and any uniqueness claim
 for the nine-prime-factor example. Thus the paper does not settle Problem 313,
 where Erdos asked whether 1/p1+...+1/pk = 1 - 1/m has infinitely many solutions.
 
-Source: <https://arxiv.org/abs/2605.21518>.
+Source: <https://arxiv.org/abs/2605.21518v1>.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0313/_index|#313]]:
 [[unit_fractions/wang_2026_port_fillings_primary_pseudoperfect_numbers/theorem_9_1|Theorem 9.1]]

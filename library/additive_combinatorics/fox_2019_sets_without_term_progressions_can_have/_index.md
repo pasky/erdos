@@ -50,7 +50,7 @@ paper recalls (p. 2) that Erdős had shown log f_{3,4}(n)/log n > 1.4649 for
 infinitely many n, and that Simmons and Abbott showed f_{3,4}(n) >= n^{1.623}
 infinitely often and f_{3,k} -> 2 as k tends to infinity.
 
-Source: <https://arxiv.org/abs/1908.09905>.
+Source: <https://arxiv.org/abs/1908.09905v2>.
 
 **Read status.** Claims checked: Theorems 1.1 and 1.2 and their setting
 (pp. 1-2) were read clause by clause on the printed pages of arXiv:1908.09905v2.

@@ -48,7 +48,7 @@ known number of terms from 48 to 47 and giving computational evidence that 47 is
 optimal; the least number of terms is the question the paper attributes to Guy
 (Section 1.1, p. 2), not part of Problem 306 as stated.
 
-Source: <https://arxiv.org/abs/2009.03275>.
+Source: <https://arxiv.org/abs/2009.03275v2>.
 
 The copy read for this card is arXiv:2009.03275v2 (9 September 2020, 11
 pages; its PDF is dated September 10, 2020); no journal version was found

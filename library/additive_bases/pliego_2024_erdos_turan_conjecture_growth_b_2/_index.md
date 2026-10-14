@@ -84,7 +84,7 @@ by clause on the page images of the print; the proof of Theorem 1.1 was read
 in outline only (Sections 3, 4, 5 and 10), and the moment estimates of
 Sections 6-9 were not checked. Nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/2405.04154>.
+Source: <https://arxiv.org/abs/2405.04154v1>.
 
 **Bears on.**
 

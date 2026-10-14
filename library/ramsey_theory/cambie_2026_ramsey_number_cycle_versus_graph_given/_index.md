@@ -67,7 +67,7 @@ asymptotic statement $R(C_k,H)\leq2m+O(k)$ for large $m$ and fixed odd
 $k\geq7$, but does not determine the best constant across every $m$ and every
 odd length.
 
-Source: <https://arxiv.org/abs/2601.10238>.
+Source: <https://arxiv.org/abs/2601.10238v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0569/_index|#569]];
 [[../wiki/problems/ramsey_theory/E0570/_index|#570]].

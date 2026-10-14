@@ -116,7 +116,7 @@ by the method of Section 6, with Lemma 9.3 (p. 62) in place of Lemma 6.10. The
 Overview (p. 5) presents Section 9 as a shorter proof of the Erdős conjecture;
 the section itself states and proves only Theorem 9.4.
 
-Source: <https://arxiv.org/abs/math/0507539>.
+Source: <https://arxiv.org/abs/math/0507539v2>.
 
 Read status: claims checked for the results linked below, each read on the
 print; the proofs of Theorems 3.8, 3.12, 5.1 and 6.3 and of Lemmas 6.5 and 6.10

@@ -51,7 +51,7 @@ bounded count of divisors of m in [m^alpha, m^alpha + m^beta] for all
 0 < beta < alpha < 1 and says it would raise the exponent 2/3 - eps of Theorem
 1.1 to 1 - eps.
 
-Source: <https://arxiv.org/abs/2311.14937>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2311.14937v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2311.14937), every other right
 reserved.
 

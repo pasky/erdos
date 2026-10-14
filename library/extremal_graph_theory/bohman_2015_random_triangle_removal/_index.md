@@ -57,7 +57,7 @@ argues from that point that at least n^(3/2-o(1)) edges survive. For problem
 (equivalently uncovered pairs) left by random greedy triangle removal up to the
 n^(o(1)) factor; it does not give the expectation or the order n^(3/2) itself.
 
-Source: <https://arxiv.org/abs/1203.4223>.
+Source: <https://arxiv.org/abs/1203.4223v3>.
 
 ## Results
 

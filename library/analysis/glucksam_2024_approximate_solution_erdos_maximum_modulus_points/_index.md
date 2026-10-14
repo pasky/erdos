@@ -51,7 +51,7 @@ order (Remark 1.3). This is the reference [GlPa24] in problem 1117, whose site
 commentary cites it as an approximate affirmative analogue of the second
 question.
 
-Source: <https://arxiv.org/abs/2208.11154>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2208.11154v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2208.11154), every other right
 reserved.
 

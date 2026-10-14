@@ -58,7 +58,7 @@ and that for g >= 4 not even the existence of lim beta_g(n)/sqrt n had been
 proved (pp. 2–3), and it concerns separately optimized finite sets rather than
 the liminf of a single infinite B_2[2] sequence.
 
-Source: <https://arxiv.org/abs/0909.5024>. The copy read for this card is
+Source: <https://arxiv.org/abs/0909.5024v1>. The copy read for this card is
 arXiv:0909.5024v1, submitted 28 Sep 2009, not the journal article; the labels
 and pages below are that preprint's. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:0909.5024), every other right

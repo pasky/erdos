@@ -21,7 +21,7 @@ file is arXiv:2504.19336v1 of 27 April 2025.
 
 The retained complete Markdown reading copy is a transcription of the five-page
 manuscript; it carries no page markers. The PDF is held locally. The source is
-available at <https://arxiv.org/abs/2504.19336>. The arXiv record
+available at <https://arxiv.org/abs/2504.19336v1>. The arXiv record
 (https://arxiv.org/abs/2504.19336, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

@@ -66,7 +66,7 @@ opening of Section 6 (pp. 31--32), read on the page images
 for the result page's proof pointer. Result page:
 [[additive_combinatorics/conlon_2023_homogeneous_structures_subset_sums_non_averaging/theorem_1_6|theorem_1_6]].
 
-Source: <https://arxiv.org/abs/2311.01416>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2311.01416v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2311.01416), every other right
 reserved.
 

@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.4171/rmi/1422
   kind: paper
-- url: https://arxiv.org/abs/2204.01153
+- url: https://arxiv.org/abs/2204.01153v1
   kind: preprint
   date: 2022-04-03
 - url: https://www.erdosproblems.com/478

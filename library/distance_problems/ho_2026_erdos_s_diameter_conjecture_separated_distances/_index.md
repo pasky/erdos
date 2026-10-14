@@ -36,7 +36,7 @@ problem 100 and the review confirmed it unrelated, since it refutes a
 different high-dimensional diameter conjecture rather than addressing the
 planar diameter question of that problem.
 
-Source: <https://arxiv.org/abs/2604.15305>. The arXiv record
+Source: <https://arxiv.org/abs/2604.15305v1>. The arXiv record
 (https://arxiv.org/abs/2604.15305, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

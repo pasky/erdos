@@ -56,7 +56,7 @@ largest prime factor of n(n+1) is; taking x = 1 and y = n in Corollary 1.5 gives
 P(n(n+1)) >= kappa*(log_2 n)^2/log_3 n for all large n. The bound for n^2+1 in
 Theorem 1.1 is a separate result and does not bear on n(n+1).
 
-Source: <https://arxiv.org/abs/2312.03566>.
+Source: <https://arxiv.org/abs/2312.03566v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0368/_index|#368]]
 (lower bound only). [[arithmetic_functions/pasten_2024_largest_prime_factor_improvements_subexponential/corollary_1_5|Corollary 1.5]] at $x=1$, $y=n$

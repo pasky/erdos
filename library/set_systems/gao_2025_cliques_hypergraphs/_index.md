@@ -36,7 +36,7 @@ to contradict the existence of too many distinct clique sizes. The paper
 contrasts the hypergraph case with the graph case, where Moon and Moser showed
 g(n,2) <= n - floor(log n) and Spencer showed g(n,2) > n - log n - O(1).
 
-Source: <https://arxiv.org/abs/2510.14804>.
+Source: <https://arxiv.org/abs/2510.14804v3>.
 
 **Bears on.** [[../wiki/problems/set_systems/E0775/_index|#775]]
 

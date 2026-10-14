@@ -51,7 +51,7 @@ Corollary 1.4 give further sufficient conditions. Proposition 1.5 shows that
 choosing the smallest and second-largest distances cannot prove the general
 statement.
 
-Source: <https://arxiv.org/abs/2505.04283>.
+Source: <https://arxiv.org/abs/2505.04283v5>.
 
 **Statements recorded.**
 

@@ -18,7 +18,7 @@ links:
 - url: https://doi.org/10.5281/zenodo.23050879
   kind: preprint
   date: 2026-09-30
-- url: https://arxiv.org/abs/2610.02833
+- url: https://arxiv.org/abs/2610.02833v1
   kind: preprint
   date: 2026-10-02
 - url: https://github.com/creelie/Erdos-1183/tree/582c64e2714d3da520c1cd21340e1e27122a72f3

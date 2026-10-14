@@ -89,7 +89,7 @@ implication from χ(E²,{1}) = 5 to χ(E²,{1,d}) = 5 for some d ≠ 1. For Prob
 but the lower bounds obtained are for {1,d}, not for the unit-distance problem
 itself.
 
-Source: <https://arxiv.org/abs/1805.06055>.
+Source: <https://arxiv.org/abs/1805.06055v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]: every
 lower bound in the paper is for a plane with two forbidden distances, and since

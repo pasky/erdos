@@ -53,7 +53,7 @@ reported the search extended to 10^11
 ([[factorials_binomials/andrejic_2016_distinct_residues_factorials/_index|their card]]).
 Labels and pages on the result pages are those of the arXiv v3 print (4 pp.).
 
-Source: <https://arxiv.org/abs/1310.6403>.
+Source: <https://arxiv.org/abs/1310.6403v3>.
 
 **Read status.** Claims checked: the abstract, equations (1)--(3) and Section
 2 were read clause by clause on the print, pp. 1--4; the computations are not

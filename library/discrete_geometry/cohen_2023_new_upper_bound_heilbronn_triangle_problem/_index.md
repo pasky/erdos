@@ -37,7 +37,7 @@ quantity alpha(n), and since the unit disk lies in a square of side two, which
 scales to the unit square with areas divided by four, alpha(n) <= 4 Delta(n)
 carries the bound over.
 
-Source: <https://arxiv.org/abs/2305.18253>. The arXiv record
+Source: <https://arxiv.org/abs/2305.18253v1>. The arXiv record
 (https://arxiv.org/abs/2305.18253, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

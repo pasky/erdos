@@ -44,7 +44,7 @@ David G. Harris, “Lopsidependency in the Moser–Tardos framework: Beyond
 the lopsided Lovász local lemma,” *ACM Transactions on Algorithms* 13 (2017),
 no. 1, Article 17, 26 pp. (online December 2016),
 [DOI](https://doi.org/10.1145/3015762).  The copy read for
-this card is [arXiv:1610.02420v4](https://arxiv.org/abs/1610.02420), dated
+this card is [arXiv:1610.02420v4](https://arxiv.org/abs/1610.02420v4), dated
 1 December 2016. The arXiv record names arXiv's non-exclusive distribution
 license (arXiv:1610.02420), every other right reserved.
 

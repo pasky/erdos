@@ -56,7 +56,7 @@ and Section 2.4 turns the construction into a proper 7-tiling, with convex
 curved 11-gons and rho_6 approximately 6043, in which the seventh color
 occupies a fraction about 0.000165477642 of the plane.
 
-Source: <https://arxiv.org/abs/2010.12668>.
+Source: <https://arxiv.org/abs/2010.12668v1>.
 
 **Read status.** Claims checked: the constructions of Sections 2.2 and 2.3,
 their reported values, Table 1 and Table 2 were read against the print. The

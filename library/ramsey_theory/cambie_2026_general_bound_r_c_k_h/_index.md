@@ -63,7 +63,7 @@ $(k-1)(|H|-1)+1$ bound. Lemma 7 handles the relevant second-neighborhood
 path for $k\geq 7$. The proof has not been reconstructed or reviewed in this
 corpus.
 
-Source: <https://arxiv.org/abs/2606.11174>.
+Source: <https://arxiv.org/abs/2606.11174v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0569/_index|#569]];
 [[../wiki/problems/ramsey_theory/E0570/_index|#570]] (weaker context only)

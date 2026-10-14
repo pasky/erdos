@@ -61,7 +61,7 @@ the extremal polynomial lie on the lemniscate, and Danchenko's $2\pi n$
 $7/8$ to be improvable but call going below $1/2$ "quite a challenging
 problem" (p. 17).
 
-Source: <https://arxiv.org/abs/0808.0717>.
+Source: <https://arxiv.org/abs/0808.0717v1>.
 
 Read status: claims checked for the three results below, the Section 7
 bound, formula (6) and Lemma 1 with its rescaled form, read clause by clause

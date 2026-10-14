@@ -69,7 +69,7 @@ explicitly, but the lower bound of Theorem 1.1 is the Ramsey-number input from
 which the bound f_k(n) at least n^{1-1/(k-1)}/(log n)^{c_k} follows, since a
 K_k-free graph with small independence number has large chromatic number.
 
-Source: <https://arxiv.org/abs/2605.28793>.
+Source: <https://arxiv.org/abs/2605.28793v3>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0920/_index|#920]],
 [[../wiki/problems/ramsey_theory/E0986/_index|#986]]

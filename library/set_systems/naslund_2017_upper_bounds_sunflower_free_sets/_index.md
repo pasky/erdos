@@ -54,7 +54,7 @@ the Ellenberg-Gijswijt bound C <= 2.7552 it gives mu_3^S <= 1.938, weaker than
 Theorem 3. The best lower bound noted is mu_3^S >= 1.554, so a gap remains; this
 is the content relevant to problem 857.
 
-Source: <https://arxiv.org/abs/1606.09575>.
+Source: <https://arxiv.org/abs/1606.09575v1>.
 
 **Bears on.**
 

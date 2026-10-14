@@ -36,7 +36,7 @@ and heuristic evidence for the conjecture; it also recalls the
 Granville-Soundararajan implication that the conjecture would give infinitely
 many non-Wieferich primes.
 
-Source: <https://arxiv.org/abs/2411.01964>.
+Source: <https://arxiv.org/abs/2411.01964v1>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0011/_index|#11]]
 

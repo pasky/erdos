@@ -25,8 +25,9 @@ the arXiv preprint 1002.0095v1 (30 January 2010), nine pages numbered 1--9 and
 the only arXiv version; the Advances in Mathematics text is not held, so the
 locators below are preprint pages and the journal pagination 601--609 has not
 been matched to them. Source:
-<https://arxiv.org/abs/1002.0095>. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:1002.0095), every other right reserved.
+<https://arxiv.org/abs/1002.0095v1>. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1002.0095), every other right
+reserved.
 
 Read status: claims checked for Theorem 1.1 and for the two introductory
 remarks consumed below (the Erdős--Graham conjecture paragraph and the

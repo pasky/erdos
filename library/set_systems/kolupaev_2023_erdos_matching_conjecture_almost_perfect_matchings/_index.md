@@ -59,7 +59,7 @@ Read status: claims checked for Conjecture 1.1 and Theorems 1.1 and 1.2, read
 clause by clause on the print; the proof was read for its structure only and
 no step of it was checked. Nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/2206.01526>.
+Source: <https://arxiv.org/abs/2206.01526v2>.
 
 **Bears on.** [[../wiki/problems/set_systems/E1020/_index|#1020]]: with the
 problem's $r$ for the paper's uniformity $k$ and the problem's $k$ for $s+1$,

@@ -50,7 +50,7 @@ David Ellis, “Irredundant families of subcubes,” *Mathematical Proceedings
 of the Cambridge Philosophical Society* 150(2) (2011), 257–272.
 [Cambridge record](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/irredundant-families-of-subcubes/0598DC7938AF536906F8E5CEF99C739F),
 [DOI](https://doi.org/10.1017/S0305004110000678), and
-[arXiv:1003.2960](https://arxiv.org/abs/1003.2960). The copy read
+[arXiv:1003.2960](https://arxiv.org/abs/1003.2960v1). The copy read
 for this card is arXiv:1003.2960v1 (15 March 2010; January 2010 manuscript).
 The 2011 MPCPS citation is later publication metadata; no published-PDF byte
 identity is claimed. The arXiv record names arXiv's non-exclusive distribution

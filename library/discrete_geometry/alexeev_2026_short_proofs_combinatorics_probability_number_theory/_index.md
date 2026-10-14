@@ -67,7 +67,7 @@ Pollack's Theorem 1.3 on small prime quadratic residues, restated as
 Theorem 6.3, and Remark 6.2 notes computation suggests the largest such n for
 a = 1 is 1722.
 
-Source: <https://arxiv.org/abs/2604.06609>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2604.06609v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2604.06609), every other right
 reserved.
 

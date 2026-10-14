@@ -53,7 +53,7 @@ lambda_N <= (2-epsilon)N for some epsilon > 3/N, then M > A epsilon^2 N for an
 absolute constant A > 0; Lemma 2 (p. 3) restricts it to the frequencies
 divisible by m.
 
-Source: <https://arxiv.org/abs/math/9808061>.
+Source: <https://arxiv.org/abs/math/9808061v1>.
 
 **Bears on.**
 

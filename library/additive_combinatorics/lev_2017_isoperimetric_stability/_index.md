@@ -42,10 +42,11 @@ exponent 3.
 Vsevolod F. Lev, On Isoperimetric Stability. Discrete Analysis 2018:14, 11 pp.
 DOI 10.19086/da.3699; arXiv:1709.05539. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1709.05539), every other right
-reserved. The copy read for this card is arXiv:1709.05539v2 (4 August 2018),
-which carries the journal's typesetting and pagination and prints the notice
-"Licensed under a Creative Commons Attribution License (CC-BY)" (p. 1); the
-term above follows the arXiv record.
+reserved. The copy read for this card is
+[arXiv:1709.05539v2](https://arxiv.org/abs/1709.05539v2) (4 August 2018), which
+carries the journal's typesetting and pagination and prints the notice "Licensed
+under a Creative Commons Attribution License (CC-BY)" (p. 1); the term above
+follows the arXiv record.
 
 ## Overview
 

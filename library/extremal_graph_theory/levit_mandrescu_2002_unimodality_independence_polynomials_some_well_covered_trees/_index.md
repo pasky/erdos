@@ -51,9 +51,10 @@ independence polynomial for all m >= 2 and n >= 2.
 
 ***
 
-The copy read for this card is arXiv:math/0211036v1 (3 November 2002),
-21 pages. The arXiv record carries no license field, so arXiv's assumed
-license applies (arXiv:math/0211036), every other right reserved.
+The copy read for this card is
+[arXiv:math/0211036v1](https://arxiv.org/abs/math/0211036v1) (3 November 2002),
+21 pages. The arXiv record carries no license field, so arXiv's assumed license
+applies (arXiv:math/0211036), every other right reserved.
 
 Vadim E. Levit, Eugen Mandrescu, "On Unimodality of Independence Polynomials of
 some Well-Covered Trees," arXiv:math/0211036 (2002).

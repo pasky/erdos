@@ -45,7 +45,7 @@ to a question about dominos, which gives an algorithm for finite K. For problem
 numbers with several forbidden distances but treats a packing-density problem
 rather than a chromatic-number bound.
 
-Source: <https://arxiv.org/abs/2308.03925>.
+Source: <https://arxiv.org/abs/2308.03925v4>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|#706]]
 

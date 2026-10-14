@@ -96,7 +96,7 @@ abstract says that "this resolves a conjecture of Erdős from 1975" (p. 1).
 Pages 1--3 were read on the page images; pp. 3--59 (the proof) were not
 read. Nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/2509.22629>.
+Source: <https://arxiv.org/abs/2509.22629v2>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0565/_index|#565]]: Theorem 1.1 is the
 status-defining source, a preprint.

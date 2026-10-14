@@ -87,7 +87,7 @@ with omega(N) = 3 (Theorem 11, p. 23), the last step using matching and
 Theorem 6. Section 8 (p. 29) remarks that the arguments extend to rational
 N with exponents allowed to be negative.
 
-Source: <https://arxiv.org/abs/2308.05162>.
+Source: <https://arxiv.org/abs/2308.05162v1>.
 
 **Read status.** Claims checked: Theorems 1, 3, 6, 8, 10 and 11 were read
 clause by clause on the printed pages (pp. 2, 7, 15, 19--20 and 23). Their

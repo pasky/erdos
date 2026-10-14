@@ -67,7 +67,7 @@ force gamma_k >> 1/log log k in Conjecture 5. In the discussion thread of
 problem 1143 Thomas Bloom pointed to Proposition 4.1 as the link between that
 problem's long intervals (alpha > 3) and the arithmetic Kakeya conjecture.
 
-Source: <https://arxiv.org/abs/1712.02108>.
+Source: <https://arxiv.org/abs/1712.02108v1>.
 
 Result pages, labels and pages from the arXiv print:
 

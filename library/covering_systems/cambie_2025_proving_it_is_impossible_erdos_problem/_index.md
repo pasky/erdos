@@ -39,7 +39,7 @@ approaches do not solve the problem. It records that the complementary
 worst-case question (all a_i equal) was settled by Simpson.
 There are no numbered theorems in the paper.
 
-Source: <https://arxiv.org/abs/2508.18270>.
+Source: <https://arxiv.org/abs/2508.18270v1>.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0278/_index|#278]]
 

@@ -50,7 +50,7 @@ paper supplies an unconditional lower bound N(X) >> X^0.91709477 for the count
 of representable integers, short of the order X asked there for k = 3.
 
 The copy read for this card is arXiv:1502.01944v1 (6 February 2015), at
-<https://arxiv.org/abs/1502.01944>. The arXiv record names arXiv's
+<https://arxiv.org/abs/1502.01944v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1502.01944), every other right
 reserved.
 

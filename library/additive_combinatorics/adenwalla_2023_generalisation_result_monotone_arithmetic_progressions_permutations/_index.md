@@ -36,7 +36,7 @@ documents the line of monotone-AP-avoiding permutation constructions from Davis
 et al. (1977) on and the block-plus-mod-n technique that such a partition attack
 would use.
 
-Source: <https://arxiv.org/abs/2302.09662>. The arXiv record
+Source: <https://arxiv.org/abs/2302.09662v1>. The arXiv record
 (https://arxiv.org/abs/2302.09662, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

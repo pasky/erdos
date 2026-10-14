@@ -65,7 +65,7 @@ paper relates the problem to bounding slice-increasing sets S in [n]^3, connects
 it to a problem of Szabo and Tardos, raises an L^2 question on slice-counts,
 and notes an overlap with the joints problem.
 
-Source: <https://arxiv.org/abs/1608.04153>.
+Source: <https://arxiv.org/abs/1608.04153v2>.
 
 **Bears on.** [[../wiki/problems/set_systems/E1026/_index|#1026]]: the
 paper states the problem's question as its Problem 3.4 (p. 11), in the

@@ -43,7 +43,7 @@ endpoint x = n^2 the g=2 bound is x^(2/5)(log x)^(-2/5) up to a constant, and
 being finite it says nothing about the liminf of A(x)/sqrt(x) for a single
 infinite set.
 
-Source: <https://arxiv.org/abs/2607.02728>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2607.02728v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2607.02728), every other right
 reserved.
 

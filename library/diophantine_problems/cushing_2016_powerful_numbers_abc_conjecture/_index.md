@@ -65,7 +65,7 @@ the radical of a suitable abc triple and appeal to the conjecture. Section 6
 often under abc (item 4, p. 7) and that $(n!)^r+k$ is powerful only finitely
 often (item 5, p. 8), neither proved; $2^n-1$ is not treated.
 
-Source: <https://arxiv.org/abs/1611.01192>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1611.01192v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1611.01192), every other right
 reserved.
 

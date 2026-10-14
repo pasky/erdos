@@ -57,7 +57,7 @@ experiments, not numbered theorems. For problem 508 the paper gives a smaller,
 certified witness to the known lower bound chi(R^2) >= 5; it gives no new
 bound on the problem.
 
-Source: <https://arxiv.org/abs/1907.00929>.
+Source: <https://arxiv.org/abs/1907.00929v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]:
 [[discrete_geometry/heule_2019_trimming_graphs_using_clausal_proof_optimization/section_6_3|Section 6.3]]

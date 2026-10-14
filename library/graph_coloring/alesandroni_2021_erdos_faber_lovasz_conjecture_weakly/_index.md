@@ -49,7 +49,7 @@ of decreasing degree, which is where weak density is used, and finally the
 vertices of degree 1. The author also notes (p. 1) what a counterexample must look
 like: for some k in [2, sqrt(n)) it has more than k^2 vertices of degree k.
 
-Source: <https://arxiv.org/abs/2010.05666>.
+Source: <https://arxiv.org/abs/2010.05666v1>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0019/_index|#19]]: read on
 an edge-disjoint union of n copies of K_n (the copies' vertex sets as edges,

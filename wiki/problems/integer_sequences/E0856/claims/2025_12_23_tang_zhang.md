@@ -14,7 +14,7 @@ claim: proved
 scope: partial
 submitted: 2025-12-24
 links:
-- url: https://arxiv.org/abs/2512.20055
+- url: https://arxiv.org/abs/2512.20055v1
   kind: preprint
   date: 2025-12-23
 - url: https://github.com/QuanyuTang/erdos-problem-856-note/blob/329b6c066eb3e5530e7d58fcb434c0601d3aee27/A_note_on_Erdos_Problem_856.pdf

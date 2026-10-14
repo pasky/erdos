@@ -47,12 +47,12 @@ graphs are strongly a-gapful and the chordal ones strongly a-gapless.
 ***
 
 Kun He, Liang Li, Xingwu Liu, Yuyi Wang, and Mingji Xia, “Variable Version
-Lovász Local Lemma: Beyond Shearer's Bound,” arXiv:1709.05143v1 (2017),
-whose first page says that part of the work was published at FOCS 2017
-(FOCS 2017, 451–462, DOI
-[10.1109/FOCS.2017.48](https://doi.org/10.1109/FOCS.2017.48)). The arXiv record
-names arXiv's non-exclusive distribution license (arXiv:1709.05143), every other
-right reserved.
+Lovász Local Lemma: Beyond Shearer's Bound,”
+[arXiv:1709.05143v1](https://arxiv.org/abs/1709.05143v1) (2017), whose first
+page says that part of the work was published at FOCS 2017 (FOCS 2017, 451–462,
+DOI [10.1109/FOCS.2017.48](https://doi.org/10.1109/FOCS.2017.48)). The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:1709.05143),
+every other right reserved.
 
 Labels and pages on this card and its result pages are those of arXiv v1
 (15 September 2017, 43 pages).

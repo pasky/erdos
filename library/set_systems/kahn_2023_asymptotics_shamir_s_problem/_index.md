@@ -54,7 +54,7 @@ the Erdos problem on the threshold for perfect matchings in random hypergraphs
 (problem 747), since it replaces the order-of-magnitude threshold n log n by the
 exact asymptotic constant.
 
-Source: <https://arxiv.org/abs/1909.06834>.
+Source: <https://arxiv.org/abs/1909.06834v1>.
 
 **Bears on.** [[../wiki/problems/set_systems/E0747/_index|#747]]:
 [[set_systems/kahn_2023_asymptotics_shamir_s_problem/theorem_1_2|Theorem 1.2]]

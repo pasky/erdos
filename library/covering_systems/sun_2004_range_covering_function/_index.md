@@ -39,7 +39,7 @@ Zhi-Wei Sun, *On the range of a covering function*, Journal of Number Theory
 [DOI 10.1016/j.jnt.2004.11.004](https://doi.org/10.1016/j.jnt.2004.11.004).
 
 The copy read for this card is the seven-page
-[arXiv:math/0409279v2](https://arxiv.org/abs/math/0409279), identified on its
+[arXiv:math/0409279v2](https://arxiv.org/abs/math/0409279v2), identified on its
 first page as the final version of 21 September 2004 for the *Journal of
 Number Theory*. The result pages below use that version's PDF pagination. The
 publisher record establishes the 2005 journal identity; the publisher PDF was

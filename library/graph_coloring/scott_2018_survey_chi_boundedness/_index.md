@@ -74,7 +74,7 @@ would give, as a disjoint union, a counterexample to the problem for T. The
 survey thus records the trees T for which a triangle-free graph of infinite
 chromatic number is known to contain T as an induced subgraph.
 
-Source: <https://arxiv.org/abs/1812.07500>.
+Source: <https://arxiv.org/abs/1812.07500v3>.
 
 Read status: claims checked for 3.1, 3.3, 3.4, 3.5 and 3.6 and the list of
 known cases on p. 5, read clause by clause on the page images; the survey's

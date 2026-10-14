@@ -16,7 +16,7 @@ links:
 - url: https://doi.org/10.1090/crmp/043/12
   kind: paper
   date: 2007-10-16
-- url: https://arxiv.org/abs/math/0608109
+- url: https://arxiv.org/abs/math/0608109v1
   kind: preprint
   date: 2006-08-03
 - url: https://www.erdosproblems.com/782

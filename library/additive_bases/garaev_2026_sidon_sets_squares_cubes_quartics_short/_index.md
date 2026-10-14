@@ -79,7 +79,7 @@ equations (Sections 5 and 7) and from the Euler-Binet parametrization (Section
 6); the quartic bound of Theorem 7 comes from Euler's parametric solution
 (Section 9).
 
-Source: <https://arxiv.org/abs/2602.08807>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2602.08807v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2602.08807), every other right
 reserved.
 

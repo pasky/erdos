@@ -50,7 +50,7 @@ unconditionally E_r <= (sqrt r - 1)^2 for r >= 1, where E_r is the lower
 limit of (p_{n+r} - p_n)/log p_n. The abstract says the last unconditional
 result will be considerably improved in a later paper.
 
-Source: <https://arxiv.org/abs/math/0508185>. The copy read for this card is
+Source: <https://arxiv.org/abs/math/0508185v1>. The copy read for this card is
 the arXiv preprint (v1, 10 August 2005). The arXiv record carries no license
 field, so arXiv's assumed license applies (arXiv:math/0508185), every other
 right reserved.
