@@ -40,7 +40,7 @@ recorded. The present reading confirmed only that those statements exist and are
 cited as inputs to the upper bound; the correctness of that dependency was not
 verified here.
 
-Source: <https://arxiv.org/abs/2606.24972>. The arXiv record
+Source: <https://arxiv.org/abs/2606.24972v1>. The arXiv record
 (https://arxiv.org/abs/2606.24972, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

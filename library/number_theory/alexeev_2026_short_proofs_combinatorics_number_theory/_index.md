@@ -66,7 +66,7 @@ the paper states as a corollary of Corollary 3 of Banks, Freiberg and
 Turnage-Butterbaugh resting on the work of Maynard and Tao, and which
 supplies long runs of consecutive primes in a fixed residue class.
 
-Source: <https://arxiv.org/abs/2603.29961>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2603.29961v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2603.29961), every other right
 reserved.
 

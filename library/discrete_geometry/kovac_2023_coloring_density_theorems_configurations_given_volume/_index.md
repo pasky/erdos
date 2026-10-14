@@ -79,7 +79,7 @@ edge-lengths multiplying to 1 and results on the hyperbolic Hadwiger-Nelson
 problem; the unit-area rectangle results (Theorems 3 and 4) bear on problem
 189.
 
-Source: <https://arxiv.org/abs/2309.09973>.
+Source: <https://arxiv.org/abs/2309.09973v3>.
 
 Read status: claims checked for Theorems 1, 3, 4, 5, 6 and 7 and Corollary
 2, read clause by clause on the page images of the print; the proofs of

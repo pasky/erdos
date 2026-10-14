@@ -19,15 +19,15 @@ compactness conjecture needs a hypothesis excluding forests.
 ***
 
 Yuval Wigderson, The Erdős–Simonovits compactness conjecture needs more
-assumptions. Author's note, filed as an unpublished 2022 manuscript.
+assumptions. Author's note, an unpublished 2022 manuscript.
 
-**Selected artifact.** The
-filed two-page PDF
-has no visible date or version label. Its creation metadata is 2022-07-25;
-that is not a verified publication or access date. The actual file is 138,302
-bytes. Printed pages 1-2 are PDF pages 1-2. Both complete pages were visually
-read for source wording and scope. This identifies the local
-version actually used; no live download or current-status search was performed.
+**Edition read.** The copy read for this card is the two-page PDF at the
+source address below, 138,302 bytes; the repository does not hold it. The
+copy's retrieval date was not recorded. It has no visible date or version
+label. Its creation metadata is 2022-07-25; that is not a verified publication
+or access date. Printed pages 1-2 are PDF pages 1-2. Both complete pages were
+visually read for source wording and scope. The byte count identifies the copy
+read; no later download or current-status search was performed.
 No copyright or license line is printed on the two pages; the author's page that
 hosts it (https://ywigderson.math.ethz.ch/math/, read 2026-10-02) shows no
 license, copyright or terms statement; the term is unstated.

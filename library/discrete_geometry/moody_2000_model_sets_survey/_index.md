@@ -76,7 +76,7 @@ Section 7, Theorem 12 establishes pure point diffraction spectrum for regular
 model sets, and Theorem 13 computes the intensities from the Fourier transform
 of the window's indicator function.
 
-Source: <https://arxiv.org/abs/math/0002020>.
+Source: <https://arxiv.org/abs/math/0002020v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|#188]]: the
 survey does not mention the problem. Its definitions and theorems

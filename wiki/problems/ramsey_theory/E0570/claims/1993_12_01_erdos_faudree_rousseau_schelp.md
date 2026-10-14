@@ -21,7 +21,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1017/S096354830000078X
   kind: paper
-  date: 1993-12-01
+  date: 1993-12
 - url: https://www.erdosproblems.com/570
   kind: discussion
 created: 2026-10-07T06:12:27Z

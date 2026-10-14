@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1006/jnth.1997.2217
   kind: paper
-  date: 1998-04-01
+  date: 1998-04
 - url: https://www.erdosproblems.com/154
   kind: discussion
 - url: https://github.com/Woett/Lean-files/blob/ad562fad132b773bd5628bd66224193c5621df77/ErdosProblem154.lean

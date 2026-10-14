@@ -58,7 +58,7 @@ constant factor in the exponent, and Section 7 (pp. 24--30) completes the
 upper bound. Appendix A (pp. 31--32) proves Theorem A.1, a slight
 generalization of Simpson's theorem that gives Theorem 2.4 with $I=\emptyset$.
 
-Source: <https://arxiv.org/abs/1904.04806>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1904.04806v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1904.04806), every other right
 reserved.
 

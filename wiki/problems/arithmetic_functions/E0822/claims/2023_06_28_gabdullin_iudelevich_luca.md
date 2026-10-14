@@ -18,7 +18,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/2306.16035
+- url: https://arxiv.org/abs/2306.16035v1
   kind: preprint
   date: 2023-06-28
 - url: https://doi.org/10.1016/j.jnt.2024.03.010

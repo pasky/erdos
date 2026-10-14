@@ -41,7 +41,7 @@ the Benkoski-Erdős question of whether an odd weird number exists, by providing
 a computational lower bound, 10^21, on any such number rather than a
 resolution.
 
-Source: <https://arxiv.org/abs/2207.12906>. The copy read for this card is
+Source: <https://arxiv.org/abs/2207.12906v1>. The copy read for this card is
 arXiv:2207.12906v1 (26 July 2022); the page numbers above are that preprint's.
 
 Read status: claims checked for the results linked below, statements read

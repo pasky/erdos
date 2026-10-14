@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF02573998
   kind: paper
-  date: 1994-01-01
+  date: 1994-01
 - url: https://www.erdosproblems.com/982
   kind: discussion
 created: 2026-10-07T21:33:46Z

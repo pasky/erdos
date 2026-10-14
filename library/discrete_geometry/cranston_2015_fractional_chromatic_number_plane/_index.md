@@ -46,7 +46,7 @@ introduction (pp. 2-3) attributes the 4.3599 upper bound to Hochberg and
 O'Donnell, using a construction discovered earlier by Croft (Eureka 30, 1967),
 improving Fisher and Ullman's 8 sqrt(3)/pi, about 4.4106.
 
-Source: <https://arxiv.org/abs/1501.01647>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1501.01647v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1501.01647), every other right
 reserved.
 

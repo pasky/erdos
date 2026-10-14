@@ -76,7 +76,7 @@ and
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2602.15797), every other right reserved.
 
-Source: <https://arxiv.org/abs/2602.15797>.
+Source: <https://arxiv.org/abs/2602.15797v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]:
 Theorem 1.2 proves the statement for every prime p and every set A with C_alpha

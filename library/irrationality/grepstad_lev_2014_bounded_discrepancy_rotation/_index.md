@@ -95,13 +95,13 @@ so every translate of a bounded remainder interval is again one, and bounded
 remainder does not force the endpoints to be fractional parts of multiples
 of $\alpha$, as the site's wording of the problem asks.
 
-The copy read for this card is arXiv:1404.0165v2 (22 October 2014, 39 pp.).
-Read status: claims checked for every result linked below, read clause by
-clause on the page images with the definitions of pp. 1--3 and 6--7; the
-depth of each proof's reading is recorded on its result page, and no proof
-was checked step by step. The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:1404.0165), every other right
-reserved.
+The copy read for this card is
+[arXiv:1404.0165v2](https://arxiv.org/abs/1404.0165v2) (22 October 2014, 39
+pp.). Read status: claims checked for every result linked below, read clause by
+clause on the page images with the definitions of pp. 1--3 and 6--7; the depth
+of each proof's reading is recorded on its result page, and no proof was checked
+step by step. The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:1404.0165), every other right reserved.
 
 **Bears on.** [[../wiki/problems/irrationality/E0998/_index|#998]]: in
 dimension one, Proposition 2.4 together with Proposition 2.2 yields the

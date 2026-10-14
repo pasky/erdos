@@ -78,7 +78,7 @@ search. The tools are central-binomial-coefficient
 estimates (Lemma 2.1, Corollary 2.2) plus explicit level constructions.
 Problem 5.1 asks whether n0(r) <= 2r + C for an absolute constant C.
 
-Source: <https://arxiv.org/abs/2602.09803>.
+Source: <https://arxiv.org/abs/2602.09803v2>.
 
 **Bears on.** [[../wiki/problems/set_systems/E0776/_index|#776]]: the paper
 gives estimates for n0(r), the threshold the problem asks to estimate, with

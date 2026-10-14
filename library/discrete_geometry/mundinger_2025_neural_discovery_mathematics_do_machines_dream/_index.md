@@ -79,7 +79,7 @@ result, and it gives no bound on the
 chromatic number of the plane; the method's failure to find colorings with
 fewer than seven colors is reported as numerical evidence only (p. 7).
 
-Source: <https://arxiv.org/abs/2501.18527>.
+Source: <https://arxiv.org/abs/2501.18527v3>.
 
 **Bears on.**
 [[../wiki/problems/discrete_geometry/E0173/_index|#173]]: the paper does not

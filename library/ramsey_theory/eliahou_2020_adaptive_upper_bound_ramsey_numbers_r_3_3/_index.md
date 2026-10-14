@@ -36,7 +36,7 @@ The retained
 is the journal's own file for paper A54, seven pages with a complete text
 layer; printed page equals PDF page. Provenance: retrieved from
 <http://math.colgate.edu/~integers/u54/u54.pdf> (HTTP 200, one request; the
-journal is open access); 314,157 bytes. The file prints no license line; the
+journal is open access). The file prints no license line; the
 journal's home page (https://math.colgate.edu/~integers/, read 2026-10-02)
 states "All works of this journal are licensed under a Creative Commons
 Attribution 4.0 International License", the Creative Commons Attribution 4.0

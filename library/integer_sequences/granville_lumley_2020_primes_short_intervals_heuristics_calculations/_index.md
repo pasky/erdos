@@ -34,7 +34,7 @@ the probabilistic input of their modified Cramér heuristic.
 Andrew Granville, Allysa Lumley, "Primes in short intervals: Heuristics and
 calculations," *Experimental Mathematics* **32** (2023), no. 2, 378--404,
 [doi:10.1080/10586458.2021.1927256](https://doi.org/10.1080/10586458.2021.1927256);
-first circulated as [arXiv:2009.05000](https://arxiv.org/abs/2009.05000)
+first circulated as [arXiv:2009.05000](https://arxiv.org/abs/2009.05000v3)
 (2020).
 
 The edition read for this card is the arXiv v3 manuscript (stamp

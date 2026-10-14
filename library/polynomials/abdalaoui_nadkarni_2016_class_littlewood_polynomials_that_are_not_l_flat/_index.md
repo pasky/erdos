@@ -38,13 +38,14 @@ E. H. el Abdalaoui, M. G. Nadkarni, "A class of Littlewood polynomials that are
 not $L^α$-flat," arXiv:1606.05852 (2016; v3, 2017). The paper is by el
 Abdalaoui; its appendix (Section 5) is written jointly with Nadkarni.
 
-The copy read for this card is the arXiv text of arXiv:1606.05852v3 (10 May
-2017), read in full; pages below are that PDF's own. Read status: **claims
-checked** for the definitions (pp. 4-6) and the statements of Theorems
-2.1-2.3 (p. 7), Propositions 3.3 (p. 8) and 3.5 (p. 10), Theorem 3.6 (p. 10)
-and Theorem 4.1 (p. 11); their proofs were read for orientation but were not
-verified here. The arXiv record names arXiv's non-exclusive distribution
-license (arXiv:1606.05852), every other right reserved.
+The copy read for this card is the arXiv text of
+[arXiv:1606.05852v3](https://arxiv.org/abs/1606.05852v3) (10 May 2017), read in
+full; pages below are that PDF's own. Read status: **claims checked** for the
+definitions (pp. 4-6) and the statements of Theorems 2.1-2.3 (p. 7),
+Propositions 3.3 (p. 8) and 3.5 (p. 10), Theorem 3.6 (p. 10) and Theorem 4.1
+(p. 11); their proofs were read for orientation but were not verified here. The
+arXiv record names arXiv's non-exclusive distribution license
+(arXiv:1606.05852), every other right reserved.
 
 Result pages:
 [[polynomials/abdalaoui_nadkarni_2016_class_littlewood_polynomials_that_are_not_l_flat/theorem_2_1|Theorem 2.1]] (p. 7),

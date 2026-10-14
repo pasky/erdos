@@ -244,12 +244,16 @@ page here: this problem asks about an upper bound that the constructions above
 refute, and a weaker upper bound neither supports nor contradicts the
 disproof. It narrows from above, by an unspecified amount, the window between
 the largest claimed lower exponent, Naslund's $1.043171$, and $4/3$. The
-release's companion manuscript *The weak pinned planar distance theorem*,
-carded at
+curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists this upper bound, as a claim and not an endorsement, and
+notes that the manuscript gives no value of the saving and that the proof has
+been formalized. The release's companion manuscript *The weak pinned planar
+distance theorem*, carded at
 [[../library/distance_problems/openai_2026_weak_pinned_planar_distance_theorem/_index|openai_2026_weak_pinned_planar_distance_theorem]],
 concerns the distinct distances from a single point and bears on
-[[problems/distance_problems/E0604/_index|Problem 604]], not on this problem;
-it has no claim page here.
+[[problems/distance_problems/E0604/_index|Problem 604]], not on this problem; it
+has no claim page here.
 
 ## Formalization and the Lean label
 
@@ -462,5 +466,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/distance_problems/openai_2026_power_saving_planar_unit_distances/_index|openai_2026_power_saving_planar_unit_distances]]
 - [[../library/distance_problems/openai_2026_power_saving_planar_unit_distances/theorem_1_1|openai_2026_power_saving_planar_unit_distances / theorem_1_1]]
 - [[../library/distance_problems/openai_2026_weak_pinned_planar_distance_theorem/_index|openai_2026_weak_pinned_planar_distance_theorem]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 
 <!-- END problem library links -->

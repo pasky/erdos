@@ -51,7 +51,7 @@ does not bear on problem 326, which asks for a minimal basis with a_k/k^2
 tending to a non-zero constant; nothing in it concerns that growth
 condition.
 
-Source: <https://arxiv.org/abs/2603.03472>.
+Source: <https://arxiv.org/abs/2603.03472v1>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0868/_index|#868]]
 ([[additive_bases/larsen_2026_three_questions_erdos_nathanson_asymptotic_bases/theorem_1|Theorem 1]]'s

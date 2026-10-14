@@ -62,7 +62,7 @@ Theorem 1.3, read clause by clause on the page images of pp. 2-3; the proof
 [[ramsey_theory/alweiss_2023_monochromatic_sums_products_over/conjecture_1_1|conjecture_1_1]],
 [[ramsey_theory/alweiss_2023_monochromatic_sums_products_over/theorem_1_3|theorem_1_3]].
 
-Source: <https://arxiv.org/abs/2307.08901>.
+Source: <https://arxiv.org/abs/2307.08901v6>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0172/_index|#172]]
 

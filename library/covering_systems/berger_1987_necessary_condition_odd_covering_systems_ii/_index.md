@@ -41,8 +41,8 @@ publication year.
 
 The [canonical PDF](berger_1987_necessary_condition_odd_covering_systems_ii.pdf)
 is the published scan obtained through the
-[publisher's free download](https://www.impan.pl/shop/en/publication/transaction/download/product/105179):
-231903 bytes. The
+[publisher's free download](https://www.impan.pl/shop/en/publication/transaction/download/product/105179).
+The
 [publisher record](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/48/1/105179/necessary-condition-for-the-existence-of-an-incongruent-covering-system-with-odd-moduli-ii)
 labels the download CC BY. The PDF has four physical pages: the first contains
 printed p. 73, and the next three contain the spreads 74–75, 76–77 and 78–79.

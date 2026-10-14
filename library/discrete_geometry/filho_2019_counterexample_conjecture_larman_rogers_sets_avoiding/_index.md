@@ -48,7 +48,7 @@ statement-cited Larman-Rogers reference: it refutes their separate
 fixed-unit-ball volume conjecture in every dimension n >= 2 and gives no new
 global bound on m_1, so it is not itself a resolution of problem 1070.
 
-Source: <https://arxiv.org/abs/1808.07299>.
+Source: <https://arxiv.org/abs/1808.07299v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E1070/_index|#1070]]:
 indirect. The paper recalls Moser's conjecture, which it calls still open,

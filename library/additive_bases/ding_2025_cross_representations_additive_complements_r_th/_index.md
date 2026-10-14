@@ -33,7 +33,7 @@ exact on average additive complements of squares' refers to a substantially
 different v1 whose stronger linear-excess claim is absent here, and the present
 version does not settle the density constant in problem 33.
 
-Source: <https://arxiv.org/abs/2512.15407>. The copy read for this card is
+Source: <https://arxiv.org/abs/2512.15407v6>. The copy read for this card is
 arXiv:2512.15407v6 (stamped 9 July 2026); Theorems 1 and 2 are on p. 3. The
 arXiv record (https://arxiv.org/abs/2512.15407, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.

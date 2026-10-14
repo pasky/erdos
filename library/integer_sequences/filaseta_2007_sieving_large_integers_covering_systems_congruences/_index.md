@@ -189,7 +189,7 @@ $\alpha$-comparison deteriorates once the modulus window is allowed to become
 large. Consequently these results provide local sieve machinery, not the
 missing uniform theorem for the divergent case of Problem 25.
 
-Source: <https://arxiv.org/abs/math/0507374>.
+Source: <https://arxiv.org/abs/math/0507374v3>.
 
 The copy read for this card is the arXiv preprint, version 3
 (arXiv:math/0507374v3, 9 August 2006, 28 pages); the labels and section

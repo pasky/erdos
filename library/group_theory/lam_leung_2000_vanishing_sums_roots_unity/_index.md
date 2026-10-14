@@ -45,16 +45,16 @@ dividing m, with a weaker conclusion when chi(g) > 0.
 
 T. Y. Lam and K. H. Leung, *On vanishing sums of roots of unity*, Journal of
 Algebra 224 (1) (2000), 91–109, DOI
-[10.1006/jabr.1999.8089](https://doi.org/10.1006/jabr.1999.8089). The copy read for this card is arXiv:math/9511209v1,
+[10.1006/jabr.1999.8089](https://doi.org/10.1006/jabr.1999.8089). The copy read
+for this card is [arXiv:math/9511209v1](https://arxiv.org/abs/math/9511209v1),
 dated 13 November 1995. The published article is indexed by
 [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0021869399980894).
 The arXiv listing carries the title *On vanishing sums for roots of unity*, an
-alias of the same paper. The digest below was
-written from the arXiv version, read in full; its labels and page locators,
-which match the printed page numbers of that version, are that version's and
-may differ from the journal's. The arXiv record carries no license
-field, so arXiv's assumed license applies (arXiv:math/9511209), every other
-right reserved.
+alias of the same paper. The digest below was written from the arXiv version,
+read in full; its labels and page locators, which match the printed page numbers
+of that version, are that version's and may differ from the journal's. The arXiv
+record carries no license field, so arXiv's assumed license applies
+(arXiv:math/9511209), every other right reserved.
 
 Read status: claims checked for the Main Theorem, Theorems 2.2, 3.1, 3.3,
 4.1, 4.8, 5.2, 6.5 and 7.1, Corollaries 3.2, 3.4, 4.9 and 5.6, Lemma 5.1 and

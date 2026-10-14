@@ -101,7 +101,7 @@ below were written from the preprint.
   and the structure of the proof (Sections III-VI, pp. 103-114) were read on
   the page images for the result page's proof pointer; no proof was checked,
   and the other results were matched to the preprint's by label and statement
-  only. Provenance: the URL was not recorded; 157,858 bytes.
+  only. Provenance: the URL was not recorded.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0284/_index|#284]], whose question is
 the first Erdős--Graham question of the published introduction (p. 99),

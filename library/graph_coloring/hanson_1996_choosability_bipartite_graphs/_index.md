@@ -24,7 +24,7 @@ printed p. $182+n$) with no text layer; the first page prints the journal
 footer "ARS COMBINATORIA 44(1996), pp. 183-192", which fixes the identity of
 the scan. The statements below were read on the page images of all ten
 pages. Provenance: retained from the repository's survey download set; the
-download URL was not recorded; 536,167 bytes. No notice is printed in the scan
+download URL was not recorded. No notice is printed in the scan
 (p. 183 carries only the journal footer and p. 192 only its page number); the
 current publisher's copyright policy states "For articles published in
 Combinatorial Press journals, authors retain the copyright to their work" and

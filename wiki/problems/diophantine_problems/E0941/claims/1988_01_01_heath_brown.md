@@ -6,7 +6,8 @@ desc: |
   three powerful numbers, which answers Problem 941 affirmatively. The paper
   appeared in the Paris number theory seminar volume, and the site credits the
   result.
-authors: []
+authors:
+- D. R. Heath-Brown
 status: accepted
 claim: proved
 scope: full

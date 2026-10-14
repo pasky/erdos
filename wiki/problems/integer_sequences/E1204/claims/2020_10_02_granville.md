@@ -15,7 +15,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/2010.01211
+- url: https://arxiv.org/abs/2010.01211v1
   kind: preprint
   date: 2020-10-02
 - url: https://doi.org/10.4064/aa201002-25-6

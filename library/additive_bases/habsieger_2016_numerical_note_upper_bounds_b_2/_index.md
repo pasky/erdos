@@ -52,7 +52,7 @@ the constant for B_2[2] sets in intervals but supplies no nesting or
 cross-scale control over a single infinite B_2[2] sequence, so it does not
 settle the question.
 
-Source: <https://arxiv.org/abs/1609.02771>.
+Source: <https://arxiv.org/abs/1609.02771v3>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]:
 [[additive_bases/habsieger_2016_numerical_note_upper_bounds_b_2/theorem_1|Theorem 1]]

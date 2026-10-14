@@ -34,7 +34,7 @@ and excludes sizes twenty-four and thirty for a least counterexample.
 Kevin O'Bryant, *On Z.-W. Sun's disjoint congruence classes conjecture*.
 The copy read for this card is the
 ten-page
-[arXiv:math/0604347v2](https://arxiv.org/abs/math/0604347), dated
+[arXiv:math/0604347v2](https://arxiv.org/abs/math/0604347v2), dated
 19 April 2006. Its journal header still contains
 the placeholders “x (200x), #Axx,” so those placeholders are not publication
 metadata. The arXiv record carries no license field, so arXiv's assumed license

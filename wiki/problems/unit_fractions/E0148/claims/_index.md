@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 148, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-13T12:25:21Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # problems/unit_fractions/E0148/claims
@@ -26,9 +26,10 @@ that $ck\le\log\log F(k)\le Ck$ for all large $k$. It is accepted as a partial
 answer on the Lean declarations that the corpus's verification built and
 audited.
 
-[[problems/unit_fractions/E0148/claims/2026_10_10_van_doorn|2026_10_10_van_doorn]]: Wouter van Doorn's forum post of 10 October 2026 claims that his write-up on
-Problem 304 gives $v(k)>e^{e^{ck}}$ for Problem 293 and hence
-$F(k)>e^{e^{ck}}$. The write-up does not carry out this step, so the claim
-is a sketch; it is partial and pending.
+[[problems/unit_fractions/E0148/claims/2026_10_10_van_doorn|2026_10_10_van_doorn]]: Does not improve the best known bound ($\log\log F(k)\ge ck$, the OpenAI
+release's Corollary 1.2). Wouter van Doorn's forum post of 10 October 2026
+claims that his write-up on Problem 304 gives $v(k)>e^{e^{ck}}$ for Problem
+293 and hence $F(k)>e^{e^{ck}}$, with no value of $c$. The write-up does not
+carry out this step, so the claim is a sketch.
 
 ***

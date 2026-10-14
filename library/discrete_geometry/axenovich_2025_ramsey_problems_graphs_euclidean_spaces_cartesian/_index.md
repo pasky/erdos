@@ -69,7 +69,7 @@ exponential lower bounds in n for the induced function and for m-partite
 graphs and an upper bound for odd cycles, and Theorem 1.11 is a canonical
 monochromatic-or-rainbow result. Section 6 poses fourteen questions.
 
-Source: <https://arxiv.org/abs/2512.15516>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2512.15516v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2512.15516), every other right
 reserved.
 

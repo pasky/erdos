@@ -43,7 +43,7 @@ n + p(m), it is adjacent context on least prime factors in short intervals and
 proves nothing about that question. Theorem 1.1 answers problem 682, whether
 almost every prime gap contains such a rough number, in the affirmative.
 
-Source: <https://arxiv.org/abs/2508.06463>.
+Source: <https://arxiv.org/abs/2508.06463v1>.
 
 **Bears on.** [[../wiki/problems/primes/E0463/_index|#463]],
 [[../wiki/problems/primes/E0680/_index|#680]],

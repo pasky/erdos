@@ -91,7 +91,7 @@ a branching-random-walk model, which assumes Conjecture 5 (p. 20): S(p-1),
 the decreasing vector of log q/log(p-1) over the prime factors q of p - 1,
 has the Poisson-Dirichlet distribution PD(1).
 
-Source: <https://arxiv.org/abs/0904.0473>.
+Source: <https://arxiv.org/abs/0904.0473v4>.
 
 ## Results
 

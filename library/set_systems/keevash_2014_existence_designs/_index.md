@@ -61,7 +61,7 @@ probability has a partial triangle decomposition covering all but
 (r-1)-degree version of the theorem follows. Section 1.3 of this edition
 mentions highlights of the work in the decade after the first arXiv version.
 
-Source: <https://arxiv.org/abs/1401.3665>.
+Source: <https://arxiv.org/abs/1401.3665v4>.
 
 Read status: claims checked for every statement linked below, read clause by
 clause on the page images of the print (pp. 1--4, 10 and 13), and the method

@@ -44,12 +44,11 @@ part, it gives the asymptotic behavior $n^2/2+O(n)$ of the largest size,
 which the problem asks for.
 
 **The argument.** The paper is the second part of the authors' work on
-$s$-distance sets and proves the bound through the linear independence of
-a family of polynomials attached to the points. Its theorem is restated and
-reproved, by a different method, in Petrov and Pohoata's note, which has its
-own claim page in this folder and whose
-[[../library/distance_problems/petrov_2021_remark_sets_few_distances/theorem_1_1|Theorem
-1.1 page]] gives the complete proof of the same bound.
+$s$-distance sets and proves the bound through the linear independence of a
+family of polynomials attached to the points. Its theorem is restated and
+reproved, by a different method, in Petrov and Pohoata's note, whose
+[[../library/distance_problems/petrov_2021_remark_sets_few_distances/theorem_1_1|Theorem 1.1 page]]
+gives the complete proof of the same bound.
 
 **Acceptance.** The paper is refereed: E. Bannai, E. Bannai and D.
 Stanton, An upper bound for the cardinality of an $s$-distance subset in

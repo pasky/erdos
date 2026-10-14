@@ -51,7 +51,7 @@ chi - zeta is not whp bounded, not even by n^{1/2-o(1)}; the note's discussion
 does not imply one. The note remarks that Raphael Steiner independently found
 the same connection between chi - zeta and chromatic-number concentration.
 
-Source: <https://arxiv.org/abs/2408.13839>.
+Source: <https://arxiv.org/abs/2408.13839v2>.
 
 **Read status.** Claims checked: Theorem 1, Theorem 2 as the note states it,
 Proposition 3 and Conjecture 4 were read clause by clause on the printed pages

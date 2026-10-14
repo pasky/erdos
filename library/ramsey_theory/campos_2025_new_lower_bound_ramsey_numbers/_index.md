@@ -55,7 +55,7 @@ best lower bound from May 2025 until Hefty, Horn, King and Pfender proved the
 constant 1/2 (arXiv:2510.19718, October 2025); it shows the triangle-free
 process barrier is not the truth.
 
-Source: <https://arxiv.org/abs/2505.13371>.
+Source: <https://arxiv.org/abs/2505.13371v1>.
 
 **Bears on.**
 

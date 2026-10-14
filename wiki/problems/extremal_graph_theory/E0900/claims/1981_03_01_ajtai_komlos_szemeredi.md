@@ -20,7 +20,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF02579172
   kind: paper
-  date: 1981-03-01
+  date: 1981-03
 - url: https://www.erdosproblems.com/900
   kind: discussion
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos900.lean

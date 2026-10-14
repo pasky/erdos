@@ -20,7 +20,7 @@ obtained when its denominator is positive.
 Wei-Chun Chen and Wei-Hsuan Yu, *Bounds on two-distance sets in Euclidean space
 and Unit Sphere*, arXiv:2509.00858v1 (31 August 2025), 24 pages. The title page
 is dated 3 September 2025; the source record is
-<https://arxiv.org/abs/2509.00858>. The arXiv record
+<https://arxiv.org/abs/2509.00858v1>. The arXiv record
 (https://arxiv.org/abs/2509.00858, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -60,8 +60,8 @@ qualified algebraic consequence without claiming a complete corrected proof.
 The paper's spherical bounds and its inconsistent numerical table are outside
 this compilation.
 
-**Source verification.** The retained v1 PDF is the canonical 209,140-byte,
-24-page artifact. The abstract (p. 1), Theorem 3.1 (p. 8), and equation (3.6)
+**Source verification.** The retained v1 PDF is the canonical 24-page artifact.
+The abstract (p. 1), Theorem 3.1 (p. 8), and equation (3.6)
 in its proof (p. 9) were rendered and visually inspected; every formula and
 qualification recorded here was checked against those images.
 

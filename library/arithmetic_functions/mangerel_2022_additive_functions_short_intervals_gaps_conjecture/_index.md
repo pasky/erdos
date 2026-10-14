@@ -46,7 +46,7 @@ n <= X, with slowly varying parameters. The paper bears on problem 1122 as
 partial progress on that Erdős conjecture characterizing constant multiples of
 log n among almost everywhere monotone additive functions.
 
-Source: <https://arxiv.org/abs/2108.12351>.
+Source: <https://arxiv.org/abs/2108.12351v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1122/_index|#1122]]
 

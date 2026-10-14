@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1023/A:1006557705401
   kind: paper
-  date: 1998-04-01
+  date: 1998-04
 - url: https://github.com/plby/lean-proofs/blob/dfe2d78128b493c572cf525b1b8edf4897fb7664/src/latest/ErdosProblems/Erdos1096.lean
   kind: formalization
   date: 2026-08-30

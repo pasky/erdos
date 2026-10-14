@@ -58,7 +58,7 @@ and
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2407.01835), every other right reserved.
 
-Source: <https://arxiv.org/abs/2407.01835>.
+Source: <https://arxiv.org/abs/2407.01835v2>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]:
 [[additive_combinatorics/kravitz_2024_rearranging_small_sets_distinct_partial_sums/theorem_1_2|Theorem 1.2]]

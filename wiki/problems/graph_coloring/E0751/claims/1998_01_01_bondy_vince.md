@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: "https://doi.org/10.1002/(SICI)1097-0118(199801)27:1<11::AID-JGT3>3.0.CO;2-J"
   kind: paper
-  date: 1998-01-01
+  date: 1998-01
 - url: https://people.clas.ufl.edu/avince/files/Cycles.pdf
   kind: paper
 - url: https://github.com/SpringSense-Innovation-Institute/ai-for-math-lean/tree/ae3ead960a494cf81b28541c477e50997cb03999/erdos-problems/erdos751

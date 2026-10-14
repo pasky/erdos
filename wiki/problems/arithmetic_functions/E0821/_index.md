@@ -37,6 +37,10 @@ $x^{1-o(1)}$ primes $p$ with $2x<p\le5x$ whose predecessor $p-1$ has no prime
 factor above $x^{\delta}$, for every fixed $\delta>0$. The release has no Lean
 for it and no outside review is known, so the claim is pending on
 [[problems/arithmetic_functions/E0821/claims/2026_09_24_openai|OpenAI 2026]].
+The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that the release gives no formal proof of it.
 
 The fixed exponents proved before it have partial claim pages. Baker and
 Harman's refereed bound $g(n)>n^{0.7039}$ for infinitely many $n$ settles every
@@ -123,5 +127,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/integer_sequences/pomerance_1989_two_methods_elementary_analytic_number_theory/theorem_4_1|pomerance_1989_two_methods_elementary_analytic_number_theory / theorem_4_1]]
 - [[../library/integer_sequences/pomerance_1989_two_methods_elementary_analytic_number_theory/theorem_4_4|pomerance_1989_two_methods_elementary_analytic_number_theory / theorem_4_4]]
 - [[../library/integer_sequences/pomerance_1989_two_methods_elementary_analytic_number_theory/theorem_4_6|pomerance_1989_two_methods_elementary_analytic_number_theory / theorem_4_6]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 
 <!-- END problem library links -->

@@ -47,7 +47,7 @@ background. The paper's covolume-one optimization does not impose the
 additional condition that every four points determine at least three
 distances, so it does not by itself solve that problem.
 
-Source: <https://arxiv.org/abs/math/0604163>. The copy read for this card is
+Source: <https://arxiv.org/abs/math/0604163v2>. The copy read for this card is
 arXiv version 2 (20 October 2006), which the arXiv record's comment calls the
 final version, accepted for publication in Enseign. Math. The arXiv record
 carries no license field, so arXiv's assumed license applies

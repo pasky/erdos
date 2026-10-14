@@ -55,7 +55,10 @@ $R(Q_n)\le C2^n$ in full. The claim page
 [[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]] records it
 as claimed, since it is unrefereed and unreviewed, and the third-party Lean
 proof of the theorem that formal-conjectures links has not been built or
-audited here.
+audited here. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that the release gives no formal proof of it.
 
 **Source.** [erdosproblems.com/181](https://www.erdosproblems.com/181),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that the
@@ -349,6 +352,7 @@ These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
 - [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/ramsey_theory/burr_1975_magnitude_generalized_ramsey_numbers_graphs/_index|burr_1975_magnitude_generalized_ramsey_numbers_graphs]]
 - [[../library/ramsey_theory/burr_1975_magnitude_generalized_ramsey_numbers_graphs/problem_p239|burr_1975_magnitude_generalized_ramsey_numbers_graphs / problem_p239]]
 - [[../library/ramsey_theory/conlon_2012_two_problems_graph_ramsey_theory/_index|conlon_2012_two_problems_graph_ramsey_theory]]

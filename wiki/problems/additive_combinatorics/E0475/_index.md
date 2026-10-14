@@ -111,9 +111,9 @@ Müyesser make explicit. That paper and Costa and Della Fiore's are preprints.
 These links are recorded on the chain's page. Two of the four range results are
 unrefereed preprints, so the completion for large $p$ carries the preprint
 qualification. None of the sources cited here bounds the finite set of primes
-left unchecked. Whether the label should stand for a statement proved for all
-$p\ge p_0$ with $p_0$ unknown is a question about the catalog's vocabulary. This
-page records that question and does not decide it.
+left unchecked. A statement proved for all $p\ge p_0$ with $p_0$ unknown is a
+reduction to a finite check, and the chain's claim page records it with the
+claim value `decidable`.
 
 **Source.** [erdosproblems.com/475](https://www.erdosproblems.com/475),
 accessed 2026-09-18: the problem page (DECIDABLE, a
@@ -464,8 +464,7 @@ result page, and not a statement of the paper. (5) Proof coverage is
 statements only: the result pages record claims checked at statement level,
 and no argument of the chain has been reviewed; the anticoncentration theorem
 of [PhSa26] and the absorption argument of [BBKMM25] are the natural
-candidates for an independent review. (6) The label-versus-statement question
-above is recorded, not decided.
+candidates for an independent review.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

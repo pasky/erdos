@@ -56,7 +56,7 @@ an isosceles triangle, a right triangle and an isosceles trapezoid of area 1,
 and says that this, with Theorems 1 and 2, resolves all five of Erdős's
 questions, which are jointly formulated as problem 353.
 
-Source: <https://arxiv.org/abs/2412.11725>.
+Source: <https://arxiv.org/abs/2412.11725v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0353/_index|#353]]:
 Theorem 1 answers yes the problem's cyclic-quadrilateral question and Theorem 2

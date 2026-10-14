@@ -18,7 +18,7 @@ links:
 - url: https://doi.org/10.1016/j.ejc.2004.01.007
   kind: paper
   date: 2005-02-01
-- url: https://arxiv.org/abs/math/0405080
+- url: https://arxiv.org/abs/math/0405080v1
   kind: preprint
   date: 2004-05-05
 created: 2026-10-07T11:55:46Z

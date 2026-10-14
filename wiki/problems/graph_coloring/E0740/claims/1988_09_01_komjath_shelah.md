@@ -17,7 +17,7 @@ submitted: null
 links:
 - url: https://doi.org/10.2307/2274566
   kind: paper
-  date: 1988-09-01
+  date: 1988-09
 - url: https://shelah.logic.at/files/95727/303.pdf
   kind: paper
 created: 2026-10-07T11:10:59Z

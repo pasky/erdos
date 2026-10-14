@@ -5,7 +5,8 @@ desc: |
   Jayawardene's 1999 University of Memphis thesis is credited by the site and by
   Cambie, Freschi, Morawski, Petrova and Pokrovskiy with the case $k=5$ of the
   question. The thesis is not held and is recorded second-hand.
-authors: []
+authors:
+- C. J. Jayawardene
 status: accepted
 claim: proved
 scope: partial

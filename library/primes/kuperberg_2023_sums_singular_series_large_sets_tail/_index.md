@@ -31,7 +31,7 @@ below). The arXiv record lists the license CC BY 4.0.
 The retained
 [folder-name PDF](kuperberg_2023_sums_singular_series_large_sets_tail.pdf) is
 arXiv v2, the version that the 2026 manuscripts on problem 251 cite by number.
-Provenance: fetched from <https://arxiv.org/pdf/2210.09775v2>, 259,004 bytes.
+Provenance: fetched from <https://arxiv.org/pdf/2210.09775v2>.
 The PDF is LaTeX-generated with a text layer; page numbers below are the PDF's
 own (physical page = printed page). The arXiv record
 (https://arxiv.org/abs/2210.09775, read 2026-10-02) names the Creative Commons

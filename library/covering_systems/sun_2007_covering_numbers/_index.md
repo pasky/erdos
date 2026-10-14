@@ -92,7 +92,7 @@ with the proofs followed; Simpson's theorem, Dirichlet's theorem and the
 earlier covering results the paper cites are not proved in it. Nothing here is
 independently reviewed.
 
-Source: <https://arxiv.org/abs/math/0601017>.
+Source: <https://arxiv.org/abs/math/0601017v2>.
 
 **Bears on.**
 [[../wiki/problems/covering_systems/E1189/_index|#1189]]:

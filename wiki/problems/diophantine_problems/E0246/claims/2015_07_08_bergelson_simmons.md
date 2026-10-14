@@ -15,7 +15,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/1507.02208
+- url: https://arxiv.org/abs/1507.02208v1
   kind: preprint
   date: 2015-07-08
 - url: https://doi.org/10.4064/aa8221-10-2016

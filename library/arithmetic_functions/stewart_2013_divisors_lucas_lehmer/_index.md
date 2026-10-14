@@ -37,7 +37,7 @@ page, every other right reserved.
 
 The two editions read for this card label the result differently:
 
-- The arXiv:1008.1274v1 PDF
+- The [arXiv:1008.1274v1](https://arxiv.org/abs/1008.1274v1) PDF
   is the 18-page manuscript dated 6 August 2010. It labels the main result
   Theorem 1 and equations (7)--(8).
 - The published Acta PDF

@@ -64,7 +64,7 @@ paper recalls that Kahn answered the Erdos-Lovasz question of estimating q(k)
 by showing it is linear, without an explicit constant; it supplies small exact
 values and explicit constructions.
 
-Source: <https://arxiv.org/abs/1409.4610>.
+Source: <https://arxiv.org/abs/1409.4610v1>.
 
 Read status: claims checked for Lemma 1.1, Corollaries 1.2 and 1.3, Lemma 1.4,
 Theorem 2.1 with the example of Section 2.1, Corollary 2.2, Lemma 2.3 and

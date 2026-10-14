@@ -39,7 +39,7 @@ most 10^16. For problem 7 (odd covering systems) it rules out every distinct
 covering system (distinct moduli, all greater than 1) whose moduli avoid
 both 2 and 3.
 
-Source: <https://arxiv.org/abs/1703.02133>.
+Source: <https://arxiv.org/abs/1703.02133v2>.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0007/_index|#7]]
 

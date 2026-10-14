@@ -80,8 +80,9 @@ for l = 2 bounds the f(k,r) of Problem 644 from below.
 
 ***
 
-The copy read for this card is arXiv:1902.05055v4 (4 August 2020), 22 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:1902.05055v4](https://arxiv.org/abs/1902.05055v4) (4 August 2020), 22
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1902.05055), every other right reserved.
 
 Matija Bucić, Dániel Korándi, Benny Sudakov, "Covering graphs by monochromatic

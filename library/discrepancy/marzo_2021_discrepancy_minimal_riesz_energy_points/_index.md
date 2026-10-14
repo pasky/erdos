@@ -45,7 +45,7 @@ The point sets of problem 991, which maximize the product of mutual distances
 on S^2, are the minimizers of the logarithmic energy, the case d = 2, s = 0 of
 Theorem 1.1, which bounds their cap discrepancy by a constant times N^{-1/3}.
 
-Source: <https://arxiv.org/abs/1907.04814>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1907.04814v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1907.04814), every other right
 reserved. The edition read is arXiv:1907.04814v1 (10 July 2019, 29 pp.); the
 labels and page numbers on the result pages are that edition's, and were not

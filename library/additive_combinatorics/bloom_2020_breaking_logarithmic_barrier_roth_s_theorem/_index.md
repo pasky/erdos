@@ -63,7 +63,7 @@ Section 13 (pp. 91-94), read on the printed pages; the deduction of Corollary
 1.2 was followed step by step. Sections 4-11 were not checked. The result pages
 record each reading.
 
-Source: <https://arxiv.org/abs/2007.03528>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2007.03528v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2007.03528), every other right
 reserved.
 

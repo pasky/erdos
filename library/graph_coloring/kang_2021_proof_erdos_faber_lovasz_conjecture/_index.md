@@ -57,7 +57,7 @@ For problem 19, the Erdos-Faber-Lovasz conjecture, Theorem 1.1 gives the answer
 yes for every n beyond a threshold the paper does not compute; Theorems 1.2 and
 1.3 quantify the gain when the hypergraph avoids the extremal shapes.
 
-Source: <https://arxiv.org/abs/2101.04698>.
+Source: <https://arxiv.org/abs/2101.04698v3>.
 
 **Bears on.**
 

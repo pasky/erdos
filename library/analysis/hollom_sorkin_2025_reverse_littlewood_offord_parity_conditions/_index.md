@@ -43,7 +43,7 @@ The
 [selected PDF](hollom_sorkin_2025_reverse_littlewood_offord_parity_conditions.pdf)
 is the arXiv v1 manuscript (watermark "arXiv:2510.05044v1 [math.CO] 6 Oct 2025"
 on p. 1), 13 physical pages whose printed numbers equal the PDF page numbers.
-Provenance: downloaded from <https://arxiv.org/abs/2510.05044>; 387,239 bytes.
+Provenance: downloaded from <https://arxiv.org/abs/2510.05044>.
 The survey download set of September 2026 records the author listing as pointing
 to this arXiv record with no published replacement; no later version was
 acquired. The arXiv record (https://arxiv.org/abs/2510.05044, read 2026-10-02)

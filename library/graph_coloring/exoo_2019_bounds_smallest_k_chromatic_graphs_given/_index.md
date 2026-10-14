@@ -69,7 +69,7 @@ questions (pp. 11-12). It records the asymptotic state of the art for the
 triangle-free case from Jensen and Toft, c₁k² log k ≤ n_4(k) ≤ c₂(k log k)²,
 and that Kim's R(3,t) = Θ(t²/log t) implies n_4(k) = Θ(k² log k) (p. 2).
 
-Source: <https://arxiv.org/abs/1805.06713>.
+Source: <https://arxiv.org/abs/1805.06713v4>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0626/_index|#626]]: the
 problem asks whether g_k(n)/log n tends to a limit for k ≥ 4, where g_k(n) is

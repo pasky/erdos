@@ -69,7 +69,7 @@ blow-up loom V_{3,3} of its Example 5.5.
 Ron Aharoni, Eli Berger, Joseph Briggs, He Guo, and Shira Zerbib, “Looms.”
 The copy read for this card is the dated
 manuscript, 6 September 2023, revised 12 July 2024, identified as
-[arXiv:2309.03735](https://arxiv.org/abs/2309.03735). The work appeared as
+[arXiv:2309.03735](https://arxiv.org/abs/2309.03735v2). The work appeared as
 *Discrete Mathematics* 347(12) (2024), 114181. The copy read is this dated
 manuscript; the journal publication record was identified, but no published PDF
 was available for byte-level or wording comparison. That copy carries no arXiv

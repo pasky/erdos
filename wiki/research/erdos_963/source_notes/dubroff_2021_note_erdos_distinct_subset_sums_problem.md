@@ -19,7 +19,7 @@ Dubroff, Q., Fox, J., and Xu, M. W., "A note on the Erdős distinct subset sums
 problem," *SIAM Journal on Discrete Mathematics* **35** (2021), 322--324. The
 retained local source is arXiv:2006.12988v2, 20 July 2020. See the
 [Full paper in Markdown](../../../../library/additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/_index.md)
-and the [arXiv record](https://arxiv.org/abs/2006.12988).
+and the [arXiv record](https://arxiv.org/abs/2006.12988v2).
 
 ## Result
 

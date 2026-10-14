@@ -49,7 +49,7 @@ a variant of an example of Ruzsa, show that the difference count can reach
 N^{log 6/log 3} under the sum hypothesis alone and N^{log 8/log 4} = N^{1.5}
 with the further hypothesis.
 
-Source: <https://arxiv.org/abs/math/9906097>.
+Source: <https://arxiv.org/abs/math/9906097v3>.
 
 The copy read for this card is arXiv:math/9906097v3 (20 January 2000), 6 pages,
 which prints the journal title; the arXiv listing keeps the earlier title "A new

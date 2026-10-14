@@ -39,7 +39,7 @@ test functions. For problem 136, on coloring the edges of K_n so that every K_4
 receives at least five colors, this yields the asymptotic value 5n/6 + o(n) by
 a construction argument rather than process analysis.
 
-Source: <https://arxiv.org/abs/2208.12563>.
+Source: <https://arxiv.org/abs/2208.12563v1>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0136/_index|#136]]
 

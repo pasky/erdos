@@ -47,7 +47,8 @@ further relations of the form g_{k+r}(n) = c g_k(n), mostly with r = 9 and r =
 25 (for instance g_{k+20}(385) = 6561 g_k(385) and g_{k+14}(3393) = 729
 g_k(3393)).
 
-Source: <https://arxiv.org/abs/2504.08023>.
+Source: <https://arxiv.org/abs/2504.08023>. The copy's retrieval date was not
+recorded.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0411/_index|#411]]:
 the Theorem treats the shift r = 2 only. It shows that g_{k+2}(n) = 2 g_k(n)

@@ -46,8 +46,8 @@ repository's two commits (the first, `adcee39d`, "Release: local gap
 statistics, telescoping, and normality", is dated 2026-09-10T16:00:22Z); on
 2026-09-17T07:35Z the branch `main` still pointed at `d2c92e27`. Provenance:
 fetched from
-<https://github.com/StefanRinger/erdos-251/raw/d2c92e2795154b5410f6f534fb9037baed6bc6d5/paper/prime_gap_normality.pdf>,
-721,145 bytes; the repository's own
+<https://github.com/StefanRinger/erdos-251/raw/d2c92e2795154b5410f6f534fb9037baed6bc6d5/paper/prime_gap_normality.pdf>;
+the repository's own
 `lean/verification/paper-binding.json` records that file's SHA-256. The earlier
 commit's PDF was not fetched. The file prints no license; the hosting
 repository's `paper/LICENSE` file at the retained version reads "Creative

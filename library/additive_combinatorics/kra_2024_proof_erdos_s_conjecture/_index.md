@@ -57,7 +57,7 @@ resolves Erdős problem 656, the B + B + t conjecture, which had earlier been
 studied by Nathanson, Kazhdan and Hindman and whose B + C special case Moreira,
 Richter and Robertson settled in 2019.
 
-Source: <https://arxiv.org/abs/2206.12377>.
+Source: <https://arxiv.org/abs/2206.12377v2>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0656/_index|#656]]:
 [[additive_combinatorics/kra_2024_proof_erdos_s_conjecture/theorem_1_2|Theorem 1.2]] (i) (p. 2) gives, for every

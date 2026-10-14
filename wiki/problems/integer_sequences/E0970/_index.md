@@ -63,10 +63,12 @@ against the formulation above on 2026-10-07. That check is the claim's only
 acceptance evidence. The manuscript claims the sharper
 $h(k)\ll k^2/(\log\log 3k)^2$. The release proves it in a separate declaration,
 `erdos_970_iterated_log`, whose axioms this corpus checked on 2026-10-07 but
-which it has not accepted.
-The manuscript has no refereed version and no outside review known here.
-Jacobsthal's conjecture $h(k)\ll k^2$ was already "hopeless at present" for
-Erdős in 1965.
+which it has not accepted. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. The manuscript has no refereed version and
+no outside review known here. Jacobsthal's conjecture $h(k)\ll k^2$ was already
+"hopeless at present" for Erdős in 1965.
 
 The search, whose scope the Current assessment records, found the following
 bounds. The refereed upper bound is $h(k)\ll(k\log k)^2$ (the claim page
@@ -369,6 +371,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/_index|openai_2026_quadratic_bound_jacobsthal_function]]
 - [[../library/integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/theorem_1_1|openai_2026_quadratic_bound_jacobsthal_function / theorem_1_1]]
 - [[../library/integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/theorem_1_2|openai_2026_quadratic_bound_jacobsthal_function / theorem_1_2]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/erdos_1965_recent_advances_current_problems_number_theory/_index|erdos_1965_recent_advances_current_problems_number_theory]]
 - [[../library/number_theory/erdos_1965_recent_advances_current_problems_number_theory/display_29|erdos_1965_recent_advances_current_problems_number_theory / display_29]]
 - [[../library/number_theory/erdos_1965_recent_advances_current_problems_number_theory/display_30|erdos_1965_recent_advances_current_problems_number_theory / display_30]]

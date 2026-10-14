@@ -33,7 +33,7 @@ structural necessary conditions for a maximizer, exact results at the smallest
 orders, and two different asymptotic constructions that beat the regular
 polygon at even orders. It does not determine the maximum in general.
 
-**Source.** [arXiv:2603.07088](https://arxiv.org/abs/2603.07088). The arXiv
+**Source.** [arXiv:2603.07088](https://arxiv.org/abs/2603.07088v1). The arXiv
 record (https://arxiv.org/abs/2603.07088, read 2026-10-02) names the Creative
 Commons Attribution 4.0 license.
 

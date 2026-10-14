@@ -45,8 +45,8 @@ cover sheet (DOI, "License: Creative Commons: Attribution (CC BY)",
 and PDF p. $n+1$ is printed p. $n+20$ for $1\le n\le31$ (printed p. 22 is
 PDF p. 3). The text layer is usable; the consumed paragraph was read on the
 rendered page image. Provenance: retained from the survey download set, which
-downloaded it from the portal; the portal was not requested again. 637,027
-bytes. The file prints "Crown Copyright © 2023 Published by Elsevier Inc. This
+downloaded it from the portal; the portal was not requested again. The file
+prints "Crown Copyright © 2023 Published by Elsevier Inc. This
 is an open access article under the CC BY license
 (http://creativecommons.org/licenses/by/4.0/)." at the foot of the article's
 first page, and the repository's cover sheet reads "License: Creative Commons:

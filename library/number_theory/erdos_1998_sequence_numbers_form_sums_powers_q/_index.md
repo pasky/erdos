@@ -45,8 +45,8 @@ journal's typeset file (pdfTeX, 2007), 10 pages, printed pp. 201--210
 signs; the statements below were read on the rendered page images of
 pp. 201--202, 206 and 207. Provenance: retained from the repository's survey
 download set (the download URL was not recorded; the journal's archive at
-<https://www.impan.pl/> hosts the article under its DOI); 176,460 bytes. The
-file's text layer carries no copyright or license line; the publisher's record
+<https://www.impan.pl/> hosts the article under its DOI). The file's text layer
+carries no copyright or license line; the publisher's record
 (https://www.impan.pl/get/doi/10.4064/aa-83-3-201-210, read 2026-10-02) offers
 the PDF under the link "Pobierz zgodnie z CC-BY" ("Free download under CC-BY
 license" on the English site), a Creative Commons Attribution license whose

@@ -55,7 +55,7 @@ representation counts are bounded; having many fragile elements per
 generation is what lets the counts of the elements of $B_n$ grow
 logarithmically (p. 2). The paper works in order $2$ only.
 
-Source: <https://arxiv.org/abs/2601.18507>.
+Source: <https://arxiv.org/abs/2601.18507v1>.
 
 Read status: claims checked for Theorem 1, the constant on p. 8 and the
 statements of Lemma 2 and Proposition 5, read clause by clause on the print;

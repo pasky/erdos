@@ -56,13 +56,13 @@ first published online on 26 April 2022.
 ## Edition read
 
 The copy read for this card
-is the 12-page arXiv:2109.06110v2 manuscript, revised 8 November 2021. It is not
-a publisher facsimile. The Oxford Academic record establishes the published
-work, DOI, dates, issue, and journal pagination, but its full text was
-access-controlled during this compilation. The publisher text was not compared.
-Every theorem label and page locator below therefore refers to arXiv v2. The
-arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2109.06110), every other right reserved.
+is the 12-page [arXiv:2109.06110v2](https://arxiv.org/abs/2109.06110v2)
+manuscript, revised 8 November 2021. It is not a publisher facsimile. The Oxford
+Academic record establishes the published work, DOI, dates, issue, and journal
+pagination, but its full text was access-controlled during this compilation. The
+publisher text was not compared. Every theorem label and page locator below
+therefore refers to arXiv v2. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:2109.06110), every other right reserved.
 
 All twelve manuscript pages were inspected. The proof-bearing pages are
 pp. 2 and 4--11. The source proves that, for every $\eta>0$, some finite

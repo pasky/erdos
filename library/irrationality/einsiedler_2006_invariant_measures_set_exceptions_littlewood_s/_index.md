@@ -81,7 +81,7 @@ that Conjecture 1.1 implies it. For problem 495, whose statement is
 Littlewood's conjecture, the paper's result is this dimension-zero bound on
 the exceptional set, not a proof of the conjecture.
 
-Source: <https://arxiv.org/abs/math/0612721>. The arXiv record carries no
+Source: <https://arxiv.org/abs/math/0612721v1>. The arXiv record carries no
 license field, so arXiv's assumed license applies (arXiv:math/0612721), every
 other right reserved.
 

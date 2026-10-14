@@ -49,7 +49,7 @@ independent acceptance of the paper's complete proofs, whose local
 reconstruction remains outstanding. Theorem 1.2 is on p. 2; the Sidon convention
 on p. 1 counts unordered pairs including the diagonal.
 
-Source: <https://arxiv.org/abs/1209.0326>.
+Source: <https://arxiv.org/abs/1209.0326v2>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 

@@ -60,7 +60,7 @@ checked step by step. Result page:
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1609.07935), every other right reserved.
 
-Source: <https://arxiv.org/abs/1609.07935>.
+Source: <https://arxiv.org/abs/1609.07935v1>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0012/_index|#12]]: the
 [[integer_sequences/elsholtz_2017_erdos_sarkozy_s_sequences/theorem|Theorem]]

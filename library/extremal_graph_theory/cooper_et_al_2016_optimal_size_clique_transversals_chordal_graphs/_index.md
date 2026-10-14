@@ -26,8 +26,9 @@ vertices, which proves the 2n/7 conjecture of Andreae and Flotow.
 
 ***
 
-The copy read for this card is arXiv:1601.05305v2 (4 April 2018), 18 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:1601.05305v2](https://arxiv.org/abs/1601.05305v2) (4 April 2018), 18
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1601.05305), every other right reserved.
 
 Jacob W. Cooper, Andrzej Grzesik, Daniel Král', "Optimal-size clique

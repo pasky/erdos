@@ -59,7 +59,7 @@ records that SamKorsky independently announced the same density-one lower
 bound, with the same coefficient 3(k-1)/log 12, on the Erdős Problems forum
 (posts of 16-20 June 2026), before the preprint was posted on 22 June 2026.
 
-Source: <https://arxiv.org/abs/2606.23661>.
+Source: <https://arxiv.org/abs/2606.23661v2>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0400/_index|#400]]:
 the problem's g_k(n) is the paper's (1.1), and the paper names the problem

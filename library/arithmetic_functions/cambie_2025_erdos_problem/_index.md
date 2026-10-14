@@ -36,7 +36,7 @@ primes. Remark 2 (p. 2) conjectures, without proof, that
 g(n) = (c + o(1)) sqrt(n/log n) for a constant c with 2 <= c <= 2 sqrt(2), and
 the following discussion expects 2 < c < 2 sqrt(2).
 
-Source: <https://arxiv.org/abs/2503.22691>.
+Source: <https://arxiv.org/abs/2503.22691v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0648/_index|#648]]
 

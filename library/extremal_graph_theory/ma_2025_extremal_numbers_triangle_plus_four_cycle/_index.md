@@ -37,8 +37,8 @@ the journal's typeset article: seven pages with the journal's pagination 1--7
 "https://doi.org/10.1017/fms.2025.10100 Published online by Cambridge
 University Press". The article's own access statement (p. 1): "This is an Open
 Access article, distributed under the terms of the Creative Commons Attribution
-licence (https://creativecommons.org/licenses/by/4.0)". Provenance: 236,838
-bytes, retained from the survey download set (the DOI above is the article's
+licence (https://creativecommons.org/licenses/by/4.0)". Provenance: retained
+from the survey download set (the DOI above is the article's
 public address). The file prints on its first page "© The Author(s), 2025.
 Published by Cambridge University Press. This is an Open Access article,
 distributed under the terms of the Creative Commons Attribution licence

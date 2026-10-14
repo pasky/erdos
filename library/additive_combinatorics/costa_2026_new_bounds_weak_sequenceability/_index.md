@@ -49,7 +49,7 @@ large enough primes $p$, holds for every $c>0$ (the abstract says "for some
 constant $c>0$"). Result page:
 [[additive_combinatorics/costa_2026_new_bounds_weak_sequenceability/theorem_1_3|theorem_1_3]].
 
-Source: <https://arxiv.org/abs/2602.19989>. The arXiv record
+Source: <https://arxiv.org/abs/2602.19989v1>. The arXiv record
 (https://arxiv.org/abs/2602.19989, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

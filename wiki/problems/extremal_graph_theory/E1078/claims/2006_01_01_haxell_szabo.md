@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1017/S0963548305007157
   kind: paper
-  date: 2006-01-01
+  date: 2006-01
 - url: https://page.mi.fu-berlin.de/szabo/PDF/oddtransversal.pdf
   kind: preprint
 - url: https://www.erdosproblems.com/1078

@@ -56,7 +56,7 @@ result by a different route through linear equations in the primes, and a
 remark states that the method also yields a quantitative improvement to
 Rankin's bound, deferred to later work.
 
-Source: <https://arxiv.org/abs/1408.5110>.
+Source: <https://arxiv.org/abs/1408.5110v2>.
 
 **Read status.** Claims checked: Theorem 1, the remark, the construction of
 Section 2, Lemma 2 and Proposition 5 with its equivalent form (pp. 1--4) were

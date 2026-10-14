@@ -37,7 +37,7 @@ Erdos-Turan quantities relevant to erdosproblems.com/169, and reviews
 the general bounds M_k >= (1/2)k log 2 (Berlekamp) and M_k > (1-o(1))k log k
 (Gerver).
 
-Source: <https://arxiv.org/abs/2203.06045>. The arXiv record
+Source: <https://arxiv.org/abs/2203.06045v2>. The arXiv record
 (https://arxiv.org/abs/2203.06045, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

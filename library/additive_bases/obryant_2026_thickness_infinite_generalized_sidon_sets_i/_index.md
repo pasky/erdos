@@ -37,7 +37,7 @@ neither implies nor follows from the B_2[g] sum-multiplicity condition ({0, 1,
 2-Golomb ruler in which 10 has three representations), so the paper does not
 resolve 158 although its block-energy technique is directly adjacent.
 
-Source: <https://arxiv.org/abs/2606.28651>.
+Source: <https://arxiv.org/abs/2606.28651v3>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 

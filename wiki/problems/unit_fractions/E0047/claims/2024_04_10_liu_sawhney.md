@@ -19,7 +19,7 @@ links:
 - url: https://doi.org/10.1093/imrn/rnaf382
   kind: paper
   date: 2026-01-14
-- url: https://arxiv.org/abs/2404.07113
+- url: https://arxiv.org/abs/2404.07113v1
   kind: preprint
   date: 2024-04-10
 - url: https://www.erdosproblems.com/47

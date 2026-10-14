@@ -35,8 +35,8 @@ The arXiv record names arXiv's non-exclusive distribution license
 Paul Pollack, Akash Singha Roy, "Powerfree sums of proper divisors,"
 arXiv:2106.14953 (2021); published in Colloquium Mathematicum, 168(2),
 287-295, 2022, https://doi.org/10.4064/cm8616-10-2021. The copy read for this
-card is arXiv:2106.14953v1 (7 pages), not the published edition; page locators
-below are its pages.
+card is [arXiv:2106.14953v1](https://arxiv.org/abs/2106.14953v1) (7 pages), not
+the published edition; page locators below are its pages.
 
 ## Overview
 

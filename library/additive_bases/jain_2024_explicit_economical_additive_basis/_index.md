@@ -60,7 +60,7 @@ major open problem whether a basis of order two can have bounded
 representation counts, and recalls that Erdos and Turan conjectured that
 this is impossible (p. 1).
 
-Source: <https://arxiv.org/abs/2405.08650>.
+Source: <https://arxiv.org/abs/2405.08650v1>.
 
 Read status: claims checked for Definition 2.1, Theorem 1.1 with the
 construction (2.1) and the bounds (2.2) and (2.3), Lemma 2.2 with its proof

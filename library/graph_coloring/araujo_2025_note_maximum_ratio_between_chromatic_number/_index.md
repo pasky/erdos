@@ -39,7 +39,7 @@ the limit f(n)/(n/(log n)^2) exists, the paper lowers the upper constant and,
 through Theorem 1.2, ties the limit to that of log R(k,k)/k under
 Conjecture 1.1; it does not settle the question.
 
-Source: <https://arxiv.org/abs/2512.16062>.
+Source: <https://arxiv.org/abs/2512.16062v2>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0627/_index|#627]]
 

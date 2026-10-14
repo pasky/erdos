@@ -40,7 +40,7 @@ Erdos-Graham speculation that all such pairs come from Bohr-interval-like
 constructions: case (2) and a simple divisibility example (Example 1.6, a random
 subset of the even numbers with d(A) = 1/4, d(A+A) = 1/2) are counterexamples.
 
-Source: <https://arxiv.org/abs/2604.12864>. The arXiv record
+Source: <https://arxiv.org/abs/2604.12864v1>. The arXiv record
 (https://arxiv.org/abs/2604.12864, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

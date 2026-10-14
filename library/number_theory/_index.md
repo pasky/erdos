@@ -3,7 +3,7 @@ name: number_theory
 title: "Other Number Theory"
 desc: "Sources filed under Other Number Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T00:21:45Z
 ---
 
 # Other Number Theory
@@ -46,6 +46,11 @@ i.e. a reformulation of problem 1135.
 proving that its reduction mod 2^n has order 2^(n-4) for n >= 6, and recalls
 from earlier work that the conjecture of problem 1135 is equivalent to Z^+
 contained in Phi((1/3)Z).
+
+[[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs/]]: The catalog curator's blog post of 8 October 2026 listing the OpenAI
+mathematics release's claims on 25 Erdős problems, with a short remark on
+each and whether its proof was formalized; a summary of claims, expressly
+not an endorsement.
 
 [[number_theory/bzdega_2010_bounds_ternary_cyclotomic_coefficients/_index|bzdega_2010_bounds_ternary_cyclotomic_coefficients/]]: A theorem-indexed source review with a complete local Markdown reading copy.
 

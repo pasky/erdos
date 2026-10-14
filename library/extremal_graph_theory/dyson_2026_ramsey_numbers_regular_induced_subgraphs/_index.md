@@ -63,7 +63,7 @@ f(n)/log n and f(n) - t(n) tend to infinity, where f(n) = max{k : n >=
 N_{>=k}} and t(n) is the analogous Ramsey quantity), and Q3 and Q4 (whether
 N_k <= N_{k+1} for k >= 1, and whether N_k - N_{>=k} tends to infinity).
 
-Source: <https://arxiv.org/abs/2604.08215>.
+Source: <https://arxiv.org/abs/2604.08215v3>.
 
 Read status: claims checked for Theorems 1.1, 1.2, 2.1 and 4.2 to 4.4, read
 clause by clause on the page images of the print; the proof of Theorem 2.1

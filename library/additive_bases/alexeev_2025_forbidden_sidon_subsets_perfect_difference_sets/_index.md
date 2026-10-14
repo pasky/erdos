@@ -40,7 +40,7 @@ perfect difference set modulo p^2 + p + 1 for some prime p, Theorem 8 is the
 negative answer with {1, 2, 4, 8}, Theorem 9 strengthens it to every modulus,
 and Hall's 1947 set is the earlier disproof the authors recovered.
 
-Source: <https://arxiv.org/abs/2510.19804>. The arXiv record
+Source: <https://arxiv.org/abs/2510.19804v2>. The arXiv record
 (https://arxiv.org/abs/2510.19804, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

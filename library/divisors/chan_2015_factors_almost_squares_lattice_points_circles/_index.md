@@ -48,7 +48,7 @@ equations ax^2 - by^2 = e, cx^2 - dz^2 = f, together with its consequence
 paper bears on problem 887, extending the class of n for which boundedly many
 divisors near sqrt(n) is proved.
 
-Source: <https://arxiv.org/abs/1406.2230>. The copy read for this card is
+Source: <https://arxiv.org/abs/1406.2230v1>. The copy read for this card is
 arXiv:1406.2230v1 (9 June 2014), 6 pages. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1406.2230), every other right
 reserved.

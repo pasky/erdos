@@ -126,7 +126,7 @@ The remainder of the paper concerns Wasserman's conjecture for multinomial
 coefficients and does not strengthen the largest-common-prime conclusion needed
 for Problem 699.
 
-Source: <https://arxiv.org/abs/0806.0607>.
+Source: <https://arxiv.org/abs/0806.0607v2>.
 
 **Bears on.**
 [[../wiki/problems/factorials_binomials/E0698/_index|#698]]: Theorem 2 gives,

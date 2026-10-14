@@ -53,7 +53,7 @@ modified approximate factorization that uses the primes 2 and 3 to correct
 the other primes (Sections 8--11). The computations extend t(N) to N <=
 10^4 and give 0 <= t(9 x 10^8) - 316560601 <= 113 (p. 1).
 
-Source: <https://arxiv.org/abs/2503.20170>.
+Source: <https://arxiv.org/abs/2503.20170v4>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0391/_index|#391]]:
 Theorem 1.3(iv) (pp. 2--3) gives t(n)/n -> 1/e and, for every 0 < c < c_0,

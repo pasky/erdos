@@ -6,7 +6,8 @@ desc: |
   equidecomposable into finitely many congruent pieces, which can even be
   matched by translations alone. The paper in Crelle's journal answers Tarski's
   circle-squaring problem yes.
-authors: []
+authors:
+- Miklós Laczkovich
 status: accepted
 claim: proved
 scope: full

@@ -31,7 +31,7 @@ program solved numerically; more computation would improve the bound further.
 For problem 36, Erdős' minimum overlap problem, this was the best lower bound
 on mu when it appeared.
 
-Source: <https://arxiv.org/abs/2201.05704>.
+Source: <https://arxiv.org/abs/2201.05704v1>.
 
 The retained PDF is arXiv:2201.05704v1 (27 pages), and the page numbers below
 are its PDF pages. The arXiv record (https://arxiv.org/abs/2201.05704, read

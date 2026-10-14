@@ -18,7 +18,7 @@ updated: 2026-10-07T20:33:23Z
 
 János Nagy, Péter Pál Pach and István Tomon, *Additive bases, coset covers, and
 non-vanishing linear maps*,
-[arXiv:2111.13658v1](https://arxiv.org/abs/2111.13658) [math.CO] (26 November
+[arXiv:2111.13658v1](https://arxiv.org/abs/2111.13658v1) [math.CO] (26 November
 2021). The retained [PDF](nagy_pach_tomon_2021_additive_bases_coset_covers.pdf)
 is the 13-page v1 preprint. The arXiv record (https://arxiv.org/abs/2111.13658,
 read 2026-10-02) names the Creative Commons Attribution 4.0 license.

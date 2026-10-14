@@ -49,7 +49,7 @@ brings this down to the 1581-vertex non-4-colorable graph G of Section 5.1
 reports others confirmed with standard SAT solvers. For problem 508 this is the
 statement-cited primary source for the ordinary lower bound chi(R^2) >= 5.
 
-Source: <https://arxiv.org/abs/1804.02385>.
+Source: <https://arxiv.org/abs/1804.02385v3>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]: the
 [[discrete_geometry/grey_2018_chromatic_number_plane_is_at_least/main_theorem|main theorem]]

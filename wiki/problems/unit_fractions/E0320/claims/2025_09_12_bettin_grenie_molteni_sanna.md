@@ -19,7 +19,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/2509.10030
+- url: https://arxiv.org/abs/2509.10030v1
   kind: preprint
   date: 2025-09-12
 - url: https://doi.org/10.1090/mcom/4190

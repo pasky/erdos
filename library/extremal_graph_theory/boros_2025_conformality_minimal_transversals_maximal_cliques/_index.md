@@ -31,7 +31,7 @@ held). Not a site key for Problem 151.
 is the arXiv v2 text (the arXiv stamp "arXiv:2405.10789v2 [math.CO] 20 Jun 2025"
 on p. 1; 34 A4 pages with a clean text layer), retained from the repository's
 survey download set; its arXiv address is <https://arxiv.org/abs/2405.10789v2>.
-Provenance: the survey download set, 1,231,886 bytes. The arXiv record
+Provenance: the survey download set. The arXiv record
 (https://arxiv.org/abs/2405.10789, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

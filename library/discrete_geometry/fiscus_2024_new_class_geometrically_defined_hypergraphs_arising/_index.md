@@ -79,7 +79,7 @@ same chromatic number, and Corollary 5.1.1 (p. 9) starts it from a finite
 unit-distance graph. The paper proves no new bound on the chromatic number of
 the plane.
 
-Source: <https://arxiv.org/abs/2411.05931>.
+Source: <https://arxiv.org/abs/2411.05931v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]:
 Corollaries 3.1.1, 4.4.1 and 5.1.1 at d = 2 restate the chromatic number of the

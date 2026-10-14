@@ -64,7 +64,7 @@ the exact pairwise criterion (no difference set L_i - L_j dense) under which
 translates of given lattices can be chosen with uniformly discrete union, and
 Section 6.1 supplies the explicit three-lattice example.
 
-Source: <https://arxiv.org/abs/1907.03501>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1907.03501v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1907.03501), every other right
 reserved.
 

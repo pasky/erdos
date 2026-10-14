@@ -60,6 +60,6 @@ computed here. Nothing here is independently reviewed.
   that $m(n)/2^n\to\infty$ but is weaker for large $n$ than the
   $0.7\sqrt{n/\ln n}\,2^n$ of Radhakrishnan and Srinivasan that the paper
   cites (p. 1). It is a lower bound only; the problem asks for an estimate.
-  The problem's
-  [[../wiki/problems/set_systems/E0901/claims/2009_02_10_pluhar|claim page for this paper]]
-  records the numerical form for $n\ge3$ as the paper states it.
+  Since it does not improve the best known bound, the
+  [[../wiki/problems/set_systems/E0901/_index|problem page]] records it among
+  the known lower bounds rather than as a claim.

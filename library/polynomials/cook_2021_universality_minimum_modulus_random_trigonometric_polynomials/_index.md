@@ -28,8 +28,8 @@ Oct 2021" carrying the Discrete Analysis header, article number and DOI (46
 pages, pdfTeX, clean text layer; the journal is an arXiv overlay, so this
 posting is the published version). Provenance: retained from the repository's
 survey download set; the stamp identifies the file as
-<https://arxiv.org/abs/2101.07203v3>, and the download URL was not recorded;
-543,836 bytes. Earlier arXiv versions were not compared. The arXiv record
+<https://arxiv.org/abs/2101.07203v3>, and the download URL was not recorded.
+Earlier arXiv versions were not compared. The arXiv record
 (https://arxiv.org/abs/2101.07203, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

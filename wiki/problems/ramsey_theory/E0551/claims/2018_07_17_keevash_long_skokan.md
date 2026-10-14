@@ -10,7 +10,7 @@ authors:
 - Eoin Long
 - Jozef Skokan
 status: accepted
-claim: proved
+claim: decidable
 scope: partial
 evidence:
 - refereed

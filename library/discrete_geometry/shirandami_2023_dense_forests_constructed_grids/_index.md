@@ -42,7 +42,7 @@ to 0, so the bound approaches the optimal order epsilon^{-(n-1)}; one of
 the paper's main novelties is measuring genericity against several measures
 coming from the Iwasawa decomposition.
 
-Source: <https://arxiv.org/abs/2303.14719>.
+Source: <https://arxiv.org/abs/2303.14719v2>.
 
 **Results.**
 

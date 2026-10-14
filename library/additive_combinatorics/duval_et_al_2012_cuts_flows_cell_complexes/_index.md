@@ -86,7 +86,8 @@ The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1206.6157), every other right reserved.
 
 **Edition read.** The copy read for this card is the arXiv preprint,
-arXiv:1206.6157v3 (30 September 2014), read in full.
+[arXiv:1206.6157v3](https://arxiv.org/abs/1206.6157v3) (30 September 2014), read
+in full.
 
 ## Research digest
 

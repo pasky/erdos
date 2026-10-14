@@ -18,12 +18,12 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/1401.6711
+- url: https://arxiv.org/abs/1401.6711v1
   kind: preprint
   date: 2014-01-27
 - url: https://doi.org/10.1016/j.jctb.2016.03.005
   kind: paper
-- url: https://arxiv.org/abs/1507.00547
+- url: https://arxiv.org/abs/1507.00547v2
   kind: preprint
 - url: https://www.erdosproblems.com/1008
   kind: discussion

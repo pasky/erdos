@@ -50,7 +50,7 @@ work on the ordinal relation omega_1^2 arrow (omega_1 omega, G)^2 for K_4-free,
 K_{aleph_0,aleph_0}-free G; the paper notes Komjath's 2025 survey records no
 progress on the Erdos-Hajnal problem it attacks.
 
-Source: <https://arxiv.org/abs/2502.16625>.
+Source: <https://arxiv.org/abs/2502.16625v2>.
 
 **Bears on.** [[../wiki/problems/set_theory/E0597/_index|#597]],
 [[../wiki/problems/set_theory/E1168/_index|#1168]]

@@ -113,7 +113,7 @@ question about coalescence of iterates of n + tau(n), so it supplies
 structural reformulations and quantitative obstruction bounds rather than a
 resolution.
 
-Source: <https://arxiv.org/abs/2606.17926>.
+Source: <https://arxiv.org/abs/2606.17926v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0414/_index|#414]]: the
 paper restates the problem as connectedness of the graph joining n to T(n)

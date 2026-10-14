@@ -63,9 +63,9 @@ carries one unreviewed partial claim of a computer-assisted verification for
 $n\le19$. It is recorded as a pending partial claim on
 [[problems/extremal_graph_theory/E0580/claims/2026_07_14_zeraoulia|its claim page]].
 The site's label here stands for a statement proved for all $n\ge n_0$, with
-$n_0$ unknown, and unchecked for finitely many $n$. This page keeps the label
-and records that reading without deciding whether the label's definition fits
-it.
+$n_0$ unknown, and unchecked for finitely many $n$. That is a reduction to a
+finite check, and Zhao's claim page records it with the claim value
+`decidable`.
 
 **Source.** [erdosproblems.com/580](https://www.erdosproblems.com/580),
 accessed 2026-09-18: the problem page (DECIDABLE,
@@ -229,14 +229,12 @@ claim's external manuscript and archive. Not held: [AKS95], [EFLS95],
 **Remaining gaps.** (1) The finite remainder $n<n_0$ is not closed by any
 source on record and its extent is unknown because $n_0$ is not explicit;
 reopening condition: an explicit $n_0$, or a reviewed finite verification
-covering all $n<n_0$. (2) The site's label stands for a statement proved for
-all $n\ge n_0$ with $n_0$ unknown; whether the label's definition fits that
-is not decided here. (3) The proof-claim tab's $n\le19$ verification is
+covering all $n<n_0$. (2) The proof-claim tab's $n\le19$ verification is
 unreviewed and AI-assisted; it stays a pending partial claim on
 [[problems/extremal_graph_theory/E0580/claims/2026_07_14_zeraoulia|its claim page]].
-(4) Proof coverage is statements only:
+(3) Proof coverage is statements only:
 Theorem 1.6 and Construction 1.7 are paged at claims checked; the 57-page
-proof was not read. (5) [AKS95] and [EFLS95] are not held; the approximate
+proof was not read. (4) [AKS95] and [EFLS95] are not held; the approximate
 theorem and the conjecture's wording rest on two secondary sources, Zhao
 (the edge form) and Chung's Problem (69) (the vertex form), which differ in
 form, so the original wording of [EFLS95] is not confirmed first-hand.

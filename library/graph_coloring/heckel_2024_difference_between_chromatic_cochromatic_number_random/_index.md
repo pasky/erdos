@@ -58,7 +58,7 @@ key Proposition 5 (p. 6), proved in § 4 (pp. 6--13). The introduction
 replaceable by $\Theta(n/\log^3n)$, and § 5 (p. 14) discusses the excluded
 $n$ and states Conjecture 19.
 
-Source: <https://arxiv.org/abs/2409.17614>.
+Source: <https://arxiv.org/abs/2409.17614v2>.
 
 Read status: claims checked for Theorem 1 and display (3) (p. 2), the
 coverage computation of § 2.1 (p. 3), the definitions of § 2.2--2.3

@@ -52,7 +52,7 @@ about rational $t>1$, Theorem 1.2 with $a_n=1$ recovers Erdős's case of
 integer $t>1$; the negative-base result completed here lies outside the
 problem's range $t>1$.
 
-Source: <https://arxiv.org/abs/1206.0340>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1206.0340v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1206.0340), every other right
 reserved.
 

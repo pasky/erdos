@@ -52,7 +52,7 @@ exp(s^{1/2+eps}) in general. The paper does not mention problem 126; its
 results count consecutive S-units and give no bound for the number of distinct
 prime factors of the product of pairwise sums that the problem asks about.
 
-Source: <https://arxiv.org/abs/1902.07397>.
+Source: <https://arxiv.org/abs/1902.07397v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0126/_index|#126]]: the
 paper does not mention the problem; Theorem 1 (p. 2) counts solutions of

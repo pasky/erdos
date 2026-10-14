@@ -42,7 +42,7 @@ supplies the n-to-n+3 clique transfer over the whole relevant range, closing the
 earlier range caveat, but the paper does not improve the 3/4 or 2/3 density
 bounds and leaves Erdős' biased (1,2) clique game open, only conjectured.
 
-Source: <https://arxiv.org/abs/2505.03497>.
+Source: <https://arxiv.org/abs/2505.03497v2>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0778/_index|#778]]
 

@@ -15,7 +15,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1006/jnth.1999.2407
   kind: paper
-  date: 1999-09-01
+  date: 1999-09
 - url: https://www.erdosproblems.com/885
   kind: discussion
 created: 2026-10-07T20:00:46Z

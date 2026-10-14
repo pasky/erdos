@@ -17,8 +17,8 @@ updated: 2026-10-05T05:52:35Z
 The folder `assets/solution_815c1d5f/` holds `Main.lean` exactly as
 fetched from
 <https://conjectures.io/results/815c1d5f-3afb-4430-8e2c-260d9038f5b0/solution/download>
-on 2026-09-28T02:58:02Z: 485,414 bytes, 10,152
-lines. It is the proof the site's kernel accepted; it is not edited, it
+on 2026-09-28T02:58:02Z: 10,152 lines. It is the proof the site's kernel
+accepted; it is not edited, it
 lies outside `lean/` and the accepted native closure, and nothing here
 builds or replays it. There is no `main.py`: the evidence is a retained
 external artifact, not a repository computation, and no verification leg

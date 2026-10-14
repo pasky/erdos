@@ -41,7 +41,7 @@ of Erdos, Herzog and Piranian recorded as Erdos problem 1042 (Question 1.2, p.
 of Theorem 2.2, while linearly many components (m(K) > 0) already occur for
 suitable sets of capacity above 1/2.
 
-Source: <https://arxiv.org/abs/2312.13673>. The copy read for this card is the
+Source: <https://arxiv.org/abs/2312.13673v1>. The copy read for this card is the
 held arXiv:2312.13673v1 PDF (21 December 2023, 20 pages); theorem numbers and
 pages refer to it, not to the journal version. The arXiv record
 (https://arxiv.org/abs/2312.13673, read 2026-10-02) names the Creative Commons

@@ -25,7 +25,7 @@ erdosproblems.com proof-claims thread for Problem 416 as a partial proof claim
 posted 2026-07-29, which names a language-model system as used. Provenance:
 retrieved from
 <https://raw.githubusercontent.com/rafikmath15/fixed-scale-totient-limit-points/main/Zeraoulia_Fixed_Scale_Limit_Points_Final.pdf>
-(HTTP 200, one request); 441,376 bytes; PDF metadata Author "Rafik Zeraoulia",
+(HTTP 200, one request); PDF metadata Author "Rafik Zeraoulia",
 created 2026-07-29 UTC. No arXiv identifier and no DOI were found on 2026-09-27.
 The file itself prints no notice; the hosting repository's README states "The
 paper and accompanying materials are released under the Creative Commons

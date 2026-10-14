@@ -51,7 +51,7 @@ the theorem of Czabarka, Dankelmann and Szekely, and it leaves part (i)
 untouched (at k = 3 the bound 7n/(3delta) is weaker than part (i)'s
 16n/(7delta) at r = 2).
 
-Source: <https://arxiv.org/abs/2109.13887>.
+Source: <https://arxiv.org/abs/2109.13887v1>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0612/_index|#612]]:
 Theorem 4 at k = 4 gives part (ii) of the problem at r = 2 in the form

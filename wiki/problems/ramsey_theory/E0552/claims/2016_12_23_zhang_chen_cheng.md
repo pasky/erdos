@@ -1,5 +1,5 @@
 ---
-name: problems/ramsey_theory/E0552/claims/2017_05_01_zhang_chen_cheng
+name: problems/ramsey_theory/E0552/claims/2016_12_23_zhang_chen_cheng
 title: Zhang, Chen and Cheng, R(C_4,S_n) on two families near q(q-1)
 desc: |
   Theorems 6 and 7 of Zhang, Chen and Cheng (Finite Fields Appl. 2017) give
@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/j.ffa.2016.11.012
   kind: paper
-  date: 2017-05-01
+  date: 2017-05
 - url: https://www.erdosproblems.com/552
   kind: discussion
 created: 2026-10-07T21:33:46Z
@@ -63,7 +63,8 @@ computer value; otherwise the paper's own constructions and lemmas.
 
 **Acceptance.** Refereed: the paper is a journal publication in Finite Fields
 and Their Applications, volume 45 (May 2017). This is the `refereed` evidence.
-The issue carries no day, so this page is dated to the first day of that month.
+The paper was available online on 23 December 2016, its earliest public date,
+which dates this page.
 The site's curator refers to this paper in the commentary on exact values. But
 the site's label OPEN settles neither the problem nor a declared part of it, so
 `reviewed` is not listed. The statements are checked against the publisher's

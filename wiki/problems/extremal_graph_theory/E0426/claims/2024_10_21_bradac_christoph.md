@@ -20,7 +20,7 @@ links:
 - url: https://doi.org/10.1090/proc/17303
   kind: paper
   date: 2025-08-20
-- url: https://arxiv.org/abs/2410.16233
+- url: https://arxiv.org/abs/2410.16233v1
   kind: preprint
   date: 2024-10-21
 - url: https://www.erdosproblems.com/426

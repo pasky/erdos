@@ -60,8 +60,8 @@ arXiv:2510.15677v3, uploaded 4 December 2025 and dated
 [arXiv record](https://arxiv.org/abs/2510.15677v3).
 
 The selected
-[12-page v3](behague_2025_nearly_all_known_euclidean_ramsey_sets_subsoluble.pdf),
-178,285 bytes, is the latest arXiv version and contains substantive corrections
+[12-page v3](behague_2025_nearly_all_known_euclidean_ramsey_sets_subsoluble.pdf)
+is the latest arXiv version and contains substantive corrections
 to two group actions. The materially distinct
 [15-page v1](behague_2025_nearly_all_known_euclidean_ramsey_sets_subsoluble_arxiv_v1.pdf)
 and

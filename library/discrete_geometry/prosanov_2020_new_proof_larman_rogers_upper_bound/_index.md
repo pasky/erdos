@@ -56,8 +56,8 @@ written, 5 <= chi(R^2) <= 7 and (1.239+o(1))^n <= chi(R^n) <= (3+o(1))^n, and
 the general-norm upper bounds (5+o(1))^n of Kang and Furedi and (4+o(1))^n of
 Kupavskii.
 
-Source: <https://arxiv.org/abs/1610.02846>. Labels and pages cited on this card
-and its result pages are those of arXiv:1610.02846v3 (8 pp.).
+Source: <https://arxiv.org/abs/1610.02846v3>. Labels and pages cited on this
+card and its result pages are those of arXiv:1610.02846v3 (8 pp.).
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0704/_index|#704]]: the
 [[discrete_geometry/prosanov_2020_new_proof_larman_rogers_upper_bound/theorem_p7|Section

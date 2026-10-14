@@ -42,7 +42,7 @@ bound is (log_2 x)^{3/4+eps} rather than the (log_2 x)^{1/2} that such a law
 of the iterated logarithm would require, so it narrows but does not close the
 gap.
 
-Source: <https://arxiv.org/abs/2304.00943>.
+Source: <https://arxiv.org/abs/2304.00943v2>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0520/_index|#520]]
 

@@ -63,7 +63,7 @@ maps are 2x+1, 3x+1 and 6x+1; those are the maps of Example 4 (p. 3), which
 records their relation f_1 o f_1 o f_2 = f_3 o f_1. Pages below are those of
 the arXiv version 2.
 
-Source: <https://arxiv.org/abs/2105.09387>.
+Source: <https://arxiv.org/abs/2105.09387v2>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0481/_index|#481]]: the
 problem asks to prove that some A_k has a repeated entry when the multipliers

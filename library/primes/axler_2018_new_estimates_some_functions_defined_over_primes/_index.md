@@ -27,7 +27,7 @@ $\pi(x)$, and two results on primes in short intervals.
 
 The canonical local artifact is
 [axler_2018_new_estimates_some_functions_defined_over_primes.pdf](axler_2018_new_estimates_some_functions_defined_over_primes.pdf),
-536,871 bytes, downloaded from
+downloaded from
 [the journal's copy](https://math.colgate.edu/~integers/s52/s52.pdf). Printed
 and PDF page numbers coincide. Pages 1, 2 and 13–16 were read visually at
 filing; the two consumed statements below sit on pp. 13 and 16. No license line

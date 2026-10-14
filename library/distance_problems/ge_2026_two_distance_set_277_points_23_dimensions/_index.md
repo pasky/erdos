@@ -27,7 +27,7 @@ Hong-Jun Ge, Jack Koolen, and Akihiro Munemasa, *A 2-distance set with 277
 points in the Euclidean space of dimension 23*, arXiv:2504.18110v4 (3 August
 2026), 8 pages. The published reference is DOI
 <https://doi.org/10.1007/s00454-026-00843-9>; the source record is
-<https://arxiv.org/abs/2504.18110>. The arXiv record
+<https://arxiv.org/abs/2504.18110v4>. The arXiv record
 (https://arxiv.org/abs/2504.18110, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -49,8 +49,8 @@ Section 3's maximality proposition is a lesser computational result: its
 proof uses Magma to test 16,689,170 dual-lattice vectors and is not promoted to
 a full proof here.
 
-**Source verification.** The retained v4 PDF is the canonical 220,784-byte,
-8-page artifact. All eight pages were rendered at 180 dpi and visually
+**Source verification.** The retained v4 PDF is the canonical 8-page artifact.
+All eight pages were rendered at 180 dpi and visually
 inspected. The theorem, graph spectrum, switching-root formula, Lemma 2, and
 the page labels and external references were checked against the images.
 

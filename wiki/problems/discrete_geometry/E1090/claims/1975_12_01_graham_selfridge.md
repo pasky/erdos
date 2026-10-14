@@ -14,7 +14,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF02414146
   kind: paper
-  date: 1975-12-01
+  date: 1975-12
 - url: https://users.renyi.hu/~p_erdos/1975-25.pdf
   kind: paper
 - url: https://www.erdosproblems.com/1090

@@ -30,7 +30,7 @@ problem 249; for that problem it is adjacent work, on the binary digits of E =
 sum d(n)/2^n (the paper's (1)), the divisor-function analogue of the sum of
 phi(n)/2^n, and evidence of an active research thread.
 
-Source: <https://arxiv.org/abs/2605.24160>. The arXiv record
+Source: <https://arxiv.org/abs/2605.24160v1>. The arXiv record
 (https://arxiv.org/abs/2605.24160, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

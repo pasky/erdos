@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1112/blms/26.2.140
   kind: paper
-  date: 1994-03-01
+  date: 1994-03
 - url: https://www.erdosproblems.com/476
   kind: discussion
 created: 2026-10-07T07:56:18Z

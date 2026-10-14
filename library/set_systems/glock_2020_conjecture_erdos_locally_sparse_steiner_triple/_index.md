@@ -82,7 +82,7 @@ Conjecture 7.2, the generalization of Erdős's conjecture, and proves its
 weaker approximate form Theorem 7.5 by the local lemma and Pippenger's
 matching theorem.
 
-Source: <https://arxiv.org/abs/1802.04227>.
+Source: <https://arxiv.org/abs/1802.04227v4>.
 
 Read status: claims checked for Conjecture 1.1, Theorems 1.2, 1.3, 4.4 and
 7.5, Proposition 7.1 and Conjecture 7.2, read clause by clause on the page

@@ -35,9 +35,10 @@ The arXiv record names arXiv's non-exclusive distribution license
 Noah Lebowitz-Lockard, Paul Pollack, Akash Singha Roy, "Distribution mod $p$ of
 Euler's totient and the sum of proper divisors," arXiv:2105.12850 (2021);
 published in Michigan Math. J. 74 (2024), no. 1, 143-166, DOI
-10.1307/mmj/20216082. The copy read for this card is arXiv:2105.12850v1 (26 May
-2021, the only arXiv version); the labels, sections and equation numbers cited
-here are that version's.
+10.1307/mmj/20216082. The copy read for this card is
+[arXiv:2105.12850v1](https://arxiv.org/abs/2105.12850v1) (26 May 2021, the only
+arXiv version); the labels, sections and equation numbers cited here are that
+version's.
 
 ## Overview
 

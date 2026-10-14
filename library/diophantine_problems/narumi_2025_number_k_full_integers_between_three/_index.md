@@ -77,7 +77,7 @@ one- and two-interval densities for k = 2 and k = 3. The proofs rest on the
 multidimensional equidistribution theorem, with Besicovitch's linear
 independence of fractional powers, rather than on discrepancy estimates.
 
-Source: <https://arxiv.org/abs/2512.07438>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2512.07438v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2512.07438), every other right
 reserved.
 

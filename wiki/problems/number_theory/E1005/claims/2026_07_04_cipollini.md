@@ -15,7 +15,7 @@ evidence:
 - reviewed
 submitted: 2026-07-14
 links:
-- url: https://arxiv.org/abs/2607.23302
+- url: https://arxiv.org/abs/2607.23302v1
   kind: preprint
   date: 2026-07-25
 - url: https://www.erdosproblems.com/forum/thread/1005

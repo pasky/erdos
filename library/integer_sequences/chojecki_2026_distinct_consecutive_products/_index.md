@@ -70,7 +70,7 @@ carries no arXiv stamp and prints no notice; the arXiv abstract page of the same
 paper, its only version with the same title and author, names arXiv's
 non-exclusive distribution license (https://arxiv.org/abs/2609.17543, read
 2026-10-02), and the site's footer reads "© 2017-2026 ULAM" (read 2026-10-02),
-every other right reserved.
+every other right reserved. The copy's retrieval date was not recorded.
 
 Read status: claims checked for Theorem 1.1, the construction, Lemmas 2.1,
 2.2 and 2.3 and Proposition 4.3, read clause by clause on the page images of

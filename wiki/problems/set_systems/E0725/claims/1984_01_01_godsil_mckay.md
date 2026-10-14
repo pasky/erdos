@@ -20,7 +20,7 @@ links:
   kind: paper
 - url: https://doi.org/10.1090/S0273-0979-1984-15196-6
   kind: paper
-  date: 1984-01-01
+  date: 1984-01
 created: 2026-10-07T19:24:20Z
 updated: 2026-10-08T00:44:25Z
 ---

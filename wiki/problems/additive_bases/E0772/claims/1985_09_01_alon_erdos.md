@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/S0195-6698(85)80027-5
   kind: paper
-  date: 1985-09-01
+  date: 1985-09
 - url: https://users.renyi.hu/~p_erdos/1985-07.pdf
   kind: paper
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos772.lean

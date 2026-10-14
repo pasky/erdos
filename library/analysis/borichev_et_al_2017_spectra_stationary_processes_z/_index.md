@@ -66,9 +66,10 @@ integral of log W_A, and a lower density W^(-beta) bounds it below.
 ***
 
 The copy read for this card is the arXiv preprint, version 1 of
-arXiv:1701.03407 (12 January 2017, 22 pages); the labels and pages cited on
-this card and its result pages are that version's. The arXiv record names
-arXiv's non-exclusive distribution license, every other right reserved.
+[arXiv:1701.03407](https://arxiv.org/abs/1701.03407v1) (12 January 2017, 22
+pages); the labels and pages cited on this card and its result pages are that
+version's. The arXiv record names arXiv's non-exclusive distribution license,
+every other right reserved.
 
 Alexander Borichev, Mikhail Sodin, Benjamin Weiss, "Spectra of stationary
 processes on Z," arXiv:1701.03407 (2017).

@@ -30,7 +30,7 @@ is the journal's publisher-format PDF of the nine printed pages (head
 with a text layer. Provenance: retained from the repository's survey download
 set; the survey record identifies the source by the DOI 10.5281/zenodo.17711516
 (<https://doi.org/10.5281/zenodo.17711516>), and the download URL itself was not
-recorded; 366,525 bytes. The held file is the journal's PDF; the journal's home
+recorded. The held file is the journal's PDF; the journal's home
 page states "All works of this journal are licensed under a Creative Commons
 Attribution 4.0 International License so that all content is freely available
 without charge to the users or their institutions."

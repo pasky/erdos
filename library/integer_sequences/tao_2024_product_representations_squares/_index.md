@@ -50,7 +50,7 @@ asymptotic F(N) = (1-c+o(1))N with c = 0.171500..., notes Sandor's inequality
 F_{k+l}(N) <= max(F_k(N), F_l(N)+k) giving monotonicity c_{k+2}^{±} >= c_k^{±}
 for odd k, and discusses the logarithmic analog L_k(N) in Remark 1.1.
 
-Source: <https://arxiv.org/abs/2405.11610>. The copy read for this card is
+Source: <https://arxiv.org/abs/2405.11610v3>. The copy read for this card is
 arXiv:2405.11610v3 (23 Oct 2024), whose theorem and remark labels the card
 uses.
 

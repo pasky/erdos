@@ -69,7 +69,7 @@ answer to the first of the three questions, as a consequence of Theorem 1.4
 and Corollary 1.5 with k = 2; the paper does not state that question, and the
 second and third are answered by Alon and Frankl (1985).
 
-Source: <https://arxiv.org/abs/1411.4196>.
+Source: <https://arxiv.org/abs/1411.4196v1>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0777/_index|#777]]:
 the site's commentary derives the yes answer to the problem's first

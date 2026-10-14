@@ -97,7 +97,7 @@ this card is the 2018 Hayman-Lingham expanded draft edition, not the cited
 (p. 253) lists Problems 4.1--4.21 as those of the 1967 booklet, so the
 polynomial problem numbers above are the 1967 ones.
 
-Source: <https://arxiv.org/abs/1809.07200>.
+Source: <https://arxiv.org/abs/1809.07200v2>.
 
 Page references are the book's printed page numbers.
 

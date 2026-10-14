@@ -19,7 +19,7 @@ evidence:
 - reviewed
 submitted: null
 links:
-- url: https://arxiv.org/abs/2601.10238
+- url: https://arxiv.org/abs/2601.10238v1
   kind: preprint
   date: 2026-01-15
 - url: https://www.erdosproblems.com/570

@@ -36,7 +36,7 @@ clique-partition proof; asymptotically the maximum set has size about
 1 - 4/pi^2 ~ 59.5% of n. This resolves problem 844 (the 1992 Erdos-Sarkozy
 question) affirmatively.
 
-Source: <https://arxiv.org/abs/2507.01928>. The held PDF is arXiv:2507.01928v2
+Source: <https://arxiv.org/abs/2507.01928v2>. The held PDF is arXiv:2507.01928v2
 (3 July 2025, 13 pages), whose pages the locators on this card cite. The arXiv
 record (https://arxiv.org/abs/2507.01928, read 2026-10-02) names the Creative
 Commons Attribution 4.0 license.

@@ -33,8 +33,9 @@ x >= x_0 and every y with 3CR(2x)(log x)^2/log log x <= y <= x.
 
 ***
 
-The copy read for this card is arXiv:2503.02766v1 (4 March 2025), 10 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:2503.02766v1](https://arxiv.org/abs/2503.02766v1) (4 March 2025), 10
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2503.02766), every other right reserved.
 
 Bittu Chahal, Ertan Elma, Nic Fellini, Akshaa Vatwani, Do Nhat Tan Vo, "On the

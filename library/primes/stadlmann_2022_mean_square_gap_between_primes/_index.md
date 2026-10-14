@@ -44,7 +44,7 @@ Read status: claims checked for Theorem 1, its statement and the deduction
 of Section 2.5 (pp. 8--9) read clause by clause on the printed pages of
 arXiv v1; the proofs of Propositions 1--3 and Lemma 1 are not checked.
 
-Source: <https://arxiv.org/abs/2212.10867>.
+Source: <https://arxiv.org/abs/2212.10867v1>.
 
 **Bears on.**
 

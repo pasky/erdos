@@ -53,7 +53,7 @@ they apply to other such sets besides the practical numbers (theta(n) =
 sigma(n) + 1). The paper says nothing about representing a fixed integer t as
 a sum of distinct divisors of n.
 
-Source: <https://arxiv.org/abs/1906.07819>.
+Source: <https://arxiv.org/abs/1906.07819v3>.
 
 **Bears on.** [[../wiki/problems/divisors/E0859/_index|#859]]: by the
 definition of a practical number, if N is practical and N >= t, then t is a

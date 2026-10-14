@@ -54,7 +54,7 @@ $k$ petals), Theorem 1 gives $f(n,k)\leq(Ck\log n)^n$; this is not the
 $c_k^n$ bound the problem asks for, and the paper states that the Erdős–Rado
 conjecture remains open (p. 1).
 
-Source: <https://arxiv.org/abs/2009.09327>. The copy read for this card is the
+Source: <https://arxiv.org/abs/2009.09327v2>. The copy read for this card is the
 arXiv preprint, version 2 (revised March 17, 2021), and the labels and page
 numbers below are its. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2009.09327), every other right

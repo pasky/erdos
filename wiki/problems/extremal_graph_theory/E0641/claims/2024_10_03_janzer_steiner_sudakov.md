@@ -21,7 +21,7 @@ links:
 - url: https://doi.org/10.1112/blms.70262
   kind: paper
   date: 2025-12-17
-- url: https://arxiv.org/abs/2410.02437
+- url: https://arxiv.org/abs/2410.02437v1
   kind: preprint
   date: 2024-10-03
 - url: https://www.erdosproblems.com/641

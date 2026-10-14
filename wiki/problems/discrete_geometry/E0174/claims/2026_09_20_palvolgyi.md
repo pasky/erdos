@@ -73,7 +73,7 @@ whose criterion applies to every finite set.
 **Acceptance.** None documented. The manuscript is an arXiv preprint with no
 journal record known here. The site's statement and remarks for the problem,
 read 13 October 2026, do not mention it. The curator's post
-[Erdős problems in the OpenAI proofs](https://www.erdosproblems.com/forum/thread/blog:10)
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
 (8 October 2026; this problem added on 9 October) says that sphericity "was
 recently shown to not be sufficient", without naming a source, and mentions
 Pálvölgyi's work in preparation on transitive sets; it does not discuss this

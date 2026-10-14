@@ -43,7 +43,7 @@ theorem) and 100 < k < sqrt(n) (the original Erdos-Szemeredi argument). Its
 subject is unbalanced two-edge-colorings of complete graphs, so it does not
 address the almost-bipartite chromatic-number problem 74.
 
-Source: <https://arxiv.org/abs/2602.03865>.
+Source: <https://arxiv.org/abs/2602.03865v2>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0074/_index|#74]]: off-point
 screening only. The note concerns unbalanced two-edge-colorings of complete

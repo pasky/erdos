@@ -41,7 +41,7 @@ Two versions are held.
 - The secondary,
   [`janzer_2025_chromatic_number_regular_subgraphs_arxiv_v1.pdf`](janzer_2025_chromatic_number_regular_subgraphs_arxiv_v1.pdf),
   is arXiv:2410.02437v1, stamped "[math.CO] 3 Oct 2024" on p. 1, 6 pp.; the
-  arXiv record is <https://arxiv.org/abs/2410.02437>.
+  arXiv record is <https://arxiv.org/abs/2410.02437v1>.
 
 The labels Problem 1.1, Theorems 1.2-1.3, Lemma 2.1, Claim 2.2, Lemma 2.3,
 Conjecture 3.1 and Proposition 3.2 are the same in both versions. The journal

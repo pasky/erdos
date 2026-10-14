@@ -76,7 +76,8 @@ Read status: claims checked. The statements below were read clause by clause
 on the print; the proofs were read for their structure only and no step is
 checked here.
 
-Source: <https://www.overleaf.com/read/dckvqtggbjzn>.
+Source: <https://www.overleaf.com/read/dckvqtggbjzn>. The copy's retrieval date
+was not recorded.
 
 **Bears on.**
 

@@ -64,7 +64,7 @@ of 1/(a log a) below 1 + o(1); the k-almost primes form a primitive set with
 least element 2^k, and Theorem 1.2 shows their sums f_k tend to 1 from below,
 so the constant 1 there cannot be lowered.
 
-Source: <https://arxiv.org/abs/2303.08277>.
+Source: <https://arxiv.org/abs/2303.08277v2>.
 
 **Bears on.**
 

@@ -47,7 +47,7 @@ Gillies' approximation. For #893 the paper answers unconditionally that no
 finite limit exists, and shows divergence to infinity only conditionally; the
 problem page lists it among its references.
 
-Source: <https://arxiv.org/abs/2506.04883>.
+Source: <https://arxiv.org/abs/2506.04883v4>.
 
 **Bears on.** [[../wiki/problems/divisors/E0893/_index|#893]]: Theorem 1
 rules out every finite limit of f(2n)/f(n); Theorem 3 gives f(2n)/f(n) ->
