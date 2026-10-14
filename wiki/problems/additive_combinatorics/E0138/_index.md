@@ -60,17 +60,26 @@ https://www.erdosproblems.com/138.
   312-332.
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/138.lean)
-at its commit of 2026-10-06, linked, which states the question
-$W(k)^{1/k}\to\infty$ as `erdos_138` with `answer(sorry)` and a `sorry` body and
-no `formal_proof` attribute; two of its variants, $W(k+1)-W(k)\to\infty$ and
-$W(k)/2^k\to\infty$, are marked solved with `formal_proof` attributes pointing
-to Lean files outside the repository: a proof by the DeepMind prover agent,
-AlphaProof Nexus (Tsoukalas et al., Science 2026; arXiv:2605.22763), in a fork
-of formal-conjectures, and a Lean proof derived from the Atlas proofs of
-facebookresearch/atlas-lean. Neither was built by this corpus, neither is a
-formalization of the accepted OpenAI claim under Claims, and each is linked
-from its claim page.
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/138.lean)
+at its commit of 2026-10-11, linked, which states the example question
+$W(k)^{1/k}\to\infty$ as `erdos_138` with a `sorry` body. Until that commit
+`erdos_138` had `answer(sorry)`, the category `research open` and no
+`formal_proof` attribute; the commit marked it `research solved` with
+`answer(True)`, cited the OpenAI release's manuscript and added a `formal_proof`
+attribute linking the release's
+[`uniform_lower_bound`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/ProgressionColoring/Main.lean#L12)
+at the revision pinned on
+[[problems/additive_combinatorics/E0138/claims/2026_09_23_openai|its claim page]].
+That declaration states the uniform bound
+$W_r(k)>k^{k\lfloor\log_2r\rfloor/100000}$; the limit is the release's
+`kthRoot_tendsto` in the same file, and this corpus built both. Two of the
+file's variants, $W(k+1)-W(k)\to\infty$ and $W(k)/2^k\to\infty$, are marked
+solved with `formal_proof` attributes pointing to Lean files outside the
+repository: a proof by the DeepMind prover agent, AlphaProof Nexus (Tsoukalas et
+al., Science 2026; arXiv:2605.22763), in a fork of formal-conjectures, and a
+Lean proof derived from the Atlas proofs of facebookresearch/atlas-lean. Neither
+was built by this corpus, neither is a formalization of the accepted OpenAI
+claim under Claims, and each is linked from its claim page.
 
 **Claims.** Five results have claim pages. The OpenAI mathematics release of 23
 September 2026 proves $W_r(k)>k^{k\lfloor\log_2r\rfloor/100000}$ for every
