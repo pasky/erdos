@@ -73,7 +73,7 @@ $g(k)^{1/k}$ above by $3\cdot2^{-2/3}$ and leaves the gap to the lower
 bounds, for which see the consequence $g(k)\ge F_{k+1}$ of Chevyrev, Searles
 and Slinko's theorem drawn on the
 [[problems/divisors/E1100/_index|problem page]] and
-[[problems/divisors/E1100/claims/2026_08_04_ross|Ross's rejected golden-ratio bound]].
+[[problems/divisors/E1100/claims/2026_08_04_ross|Ross's pending golden-ratio bound]].
 The maximal-order question Erdős asked in [Er85], display (27), whether
 $\tau_\perp(n)<\exp(\epsilon\log n/\log\log n)$ for every $\epsilon>0$ and
 large $n$, is not in the site's statement and is not covered; it is the
