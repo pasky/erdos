@@ -10,14 +10,14 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T00:34:33Z
 ---
 
 # Problem 1116
 
 [[problems/analysis/_index|..]]
 
-[[problems/analysis/E1116/claims/_index|claims/]]: The 2 claim pages of Problem 1116, one per claimant's result; the problem's standing derives from them.
+[[problems/analysis/E1116/claims/_index|claims/]]: The 1 claim page of Problem 1116, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -47,9 +47,12 @@ Toppila's 1976 Theorems 2 and 3 give a meromorphic function and an entire
 function with $\limsup_{r\to\infty}n(r,a)/n(r,b)=\infty$ for every pair of
 distinct values, with finite values in the entire case
 ([[problems/analysis/E1116/claims/1976_01_01_toppila|Toppila's claim page]]).
-Gol'dberg's 1978 theorem gives an entire function with that upper limit infinite
-and the lower limit zero for every pair of distinct complex values
-([[problems/analysis/E1116/claims/1978_01_01_goldberg|Gol'dberg's claim page]]).
+Gol'dberg's refereed 1978 theorem gives an entire function with that upper
+limit infinite and the lower limit zero for every pair of distinct complex
+values
+([[../library/analysis/goldberg_1978_counting_functions_sequences_points_entire_functions/theorem|Theorem]]),
+which answers the entire-function variant that the Formulation sets aside; it
+was not submitted to the site as a claim, so it has no claim page.
 
 **Source.** [erdosproblems.com/1116](https://www.erdosproblems.com/1116),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1116,
