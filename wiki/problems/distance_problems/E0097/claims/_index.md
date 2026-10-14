@@ -1,10 +1,10 @@
 ---
 name: problems/distance_problems/E0097/claims
-desc: The 1 claim page of Problem 97, one per claimant's result; the problem's standing derives from them.
+desc: The 2 claim pages of Problem 97, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:23:36Z
 ---
 
 # problems/distance_problems/E0097/claims
@@ -15,5 +15,11 @@ updated: 2026-10-11T22:24:14Z
 every large $n$ there are $n$ points in strictly convex position each with at
 least $(1/4-o(1))\log\log n$ others at distance one, so that some convex
 polygon refutes the question.
+
+[[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|2026_10_14_plasma_ai]]: The project deduces a counterexample from Kruer and Kohlmeyer's accepted
+disproof of Problem 96: deleting points with at most three others at distance
+one from their strictly convex set with at least $13/4$ unit pairs per point
+leaves a convex polygon each of whose vertices has at least four others at
+distance one. It awaits review.
 
 ***
