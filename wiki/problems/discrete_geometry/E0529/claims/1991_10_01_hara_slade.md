@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1090/S0273-0979-1991-16085-4
   kind: paper
-  date: 1991-10-01
+  date: 1991-10
 - url: https://doi.org/10.1007/BF02099530
   kind: paper
   date: 1992-06-01

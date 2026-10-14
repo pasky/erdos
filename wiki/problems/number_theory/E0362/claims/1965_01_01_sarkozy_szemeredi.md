@@ -20,7 +20,7 @@ submitted: null
 links:
 - url: https://doi.org/10.4064/aa-11-2-205-208
   kind: paper
-  date: 1965-01-01
+  date: 1965
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos362.lean
   kind: formalization
 - url: https://www.erdosproblems.com/362

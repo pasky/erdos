@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1112/jlms/s2-45.2.215
   kind: paper
-  date: 1992-04-01
+  date: 1992-04
 - url: https://people.math.sc.edu/filaseta/papers/squarefreepaper.pdf
   kind: paper
 - url: https://www.erdosproblems.com/208

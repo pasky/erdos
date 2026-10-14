@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF01204715
   kind: paper
-  date: 1992-06-01
+  date: 1992-06
 - url: https://www.erdosproblems.com/630
   kind: discussion
 - url: https://github.com/plby/lean-proofs/blob/ad08d2a5c1e12f30810df43c4c2539c1da3d1a81/src/latest/ErdosProblems/Erdos630.lean

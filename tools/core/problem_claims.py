@@ -72,6 +72,8 @@ _INDEX = '_index.md'
 #: a claim page is named by its date, underscored as every page name is, and its claimant
 _CLAIM_NAME = re.compile(r'(\d{4})_(\d{2})_(\d{2})_([a-z0-9][a-z0-9_]*)\.md')
 _DATE = re.compile(r'\d{4}-\d{2}-\d{2}')
+#: a date known only to its month or year: no day or month is invented
+_COARSE_DATE = re.compile(r'\d{4}(?:-(?:0[1-9]|1[0-2]))?')
 _URL = re.compile(r'https?://\S+')
 _WIKILINK = re.compile(r'\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]')
 _LABEL = re.compile(r'^ {0,3}\*\*(Covers|Depends on)\.\*\*(?=\s|$)', flags=re.M)
@@ -640,8 +642,11 @@ def _link_issues(link: Any) -> list[str]:
         issues.append('url must be an http(s) URL')
     if link.get('kind') not in LINK_KINDS:
         issues.append('kind must be one of ' + ', '.join(LINK_KINDS))
-    if 'date' in link and not _calendar_date(link['date']):
-        issues.append('date must be a calendar date YYYY-MM-DD')
+    if 'date' in link and not _known_date(link['date']):
+        issues.append(
+            'date must be a calendar date YYYY-MM-DD, or YYYY-MM or YYYY'
+            ' when only the month or the year is known'
+        )
     if set(keys) - {'url', 'kind', 'date'}:
         issues.append('carries keys other than url, kind, date')
     return issues
@@ -776,6 +781,21 @@ def _visible(text: str) -> str:
             continue
         result.append(line)
     return ''.join(result)
+
+
+def _known_date(value: Any) -> bool:
+    """Return whether a value is a date to the precision known.
+
+    That is a calendar date ``YYYY-MM-DD``, or ``YYYY-MM`` or ``YYYY`` when only the
+    month or the year is known; YAML reads a bare year as an integer.
+    """
+    if isinstance(value, bool):
+        return False
+    if isinstance(value, int):
+        return 1000 <= value <= 9999
+    if isinstance(value, str) and _COARSE_DATE.fullmatch(value):
+        return True
+    return _calendar_date(value)
 
 
 def _calendar_date(value: Any) -> bool:

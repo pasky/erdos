@@ -17,7 +17,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/S0012-365X(01)00238-2
   kind: paper
-  date: 2002-04-01
+  date: 2002-04
 - url: https://www.erdosproblems.com/561
   kind: discussion
 created: 2026-10-07T21:33:46Z

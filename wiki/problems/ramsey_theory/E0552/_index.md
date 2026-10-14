@@ -62,8 +62,8 @@ $\alpha$ is an exponent for gaps between consecutive primes (below $11/20$ in
 1989). The refereed determinations have accepted partial claim pages
 ([[problems/ramsey_theory/E0552/claims/1975_01_01_parsons|Parsons 1975]],
 [[problems/ramsey_theory/E0552/claims/2015_01_24_wu_sun_zhang_radziszowski|Wu, Sun, Zhang and Radziszowski 2015]],
-[[problems/ramsey_theory/E0552/claims/2017_04_01_zhang_chen_cheng|Zhang, Chen and Cheng 2017 (Discrete Math.)]],
-[[problems/ramsey_theory/E0552/claims/2017_05_01_zhang_chen_cheng|Zhang, Chen and Cheng 2017 (Finite Fields Appl.)]]).
+[[problems/ramsey_theory/E0552/claims/2017_01_03_zhang_chen_cheng|Zhang, Chen and Cheng 2017 (Discrete Math.)]],
+[[problems/ramsey_theory/E0552/claims/2016_12_23_zhang_chen_cheng|Zhang, Chen and Cheng 2017 (Finite Fields Appl.)]]).
 Boza's preprint values have a claimed one
 ([[problems/ramsey_theory/E0552/claims/2024_09_19_boza|Boza 2024]]). None of
 these settles the second question. The search, whose scope the Current

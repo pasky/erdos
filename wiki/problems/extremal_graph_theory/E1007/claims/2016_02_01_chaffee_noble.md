@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://ajc.maths.uq.edu.au/pdf/64/ajc_v64_p327.pdf
   kind: paper
-  date: 2016-02-01
+  date: 2016-02
 - url: https://www.erdosproblems.com/1007
   kind: discussion
 - url: https://www.erdosproblems.com/forum/thread/1007#post-3461

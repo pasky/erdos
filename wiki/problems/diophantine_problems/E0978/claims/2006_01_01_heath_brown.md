@@ -14,7 +14,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/978-3-540-36364-4_2
   kind: paper
-  date: 2006-01-01
+  date: 2006
 - url: https://www.erdosproblems.com/978
   kind: discussion
 created: 2026-10-07T21:33:46Z

@@ -1,5 +1,5 @@
 ---
-name: problems/distance_problems/E1084/claims/2013_04_01_bezdek_reid
+name: problems/distance_problems/E1084/claims/2012_10_21_bezdek_reid
 title: Bezdek and Reid's upper bound for contact numbers in space
 desc: |
   Bezdek and Reid prove that among $n\ge2$ points of $\mathbb{R}^3$ at mutual
@@ -17,9 +17,10 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/s00022-013-0156-4
   kind: paper
-  date: 2013-04-01
+  date: 2013-04
 - url: https://arxiv.org/abs/1210.5756
   kind: preprint
+  date: 2012-10-21
 - url: https://www.erdosproblems.com/1084
   kind: discussion
 created: 2026-10-07T20:00:46Z
@@ -58,4 +59,4 @@ $d\ge3$.
 packings revisited, Journal of Geometry 104 (2013), no. 1, 57–83. The preprint
 is arXiv:1210.5756. The site's remarks credit the bound to this paper, but the
 site labeled the problem OPEN, so the remark is not `reviewed` evidence. The
-page is dated to the issue, April 2013.
+page is dated by the preprint's first arXiv version, of 21 October 2012.

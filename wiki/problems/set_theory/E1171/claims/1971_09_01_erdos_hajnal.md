@@ -16,7 +16,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF02029142
   kind: paper
-  date: 1971-09-01
+  date: 1971-09
 - url: https://users.renyi.hu/~p_erdos/1971-15.pdf
   kind: paper
 - url: https://www.erdosproblems.com/1171

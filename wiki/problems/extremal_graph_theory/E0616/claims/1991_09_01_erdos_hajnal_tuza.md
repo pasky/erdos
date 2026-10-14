@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/0097-3165(91)90074-Q
   kind: paper
-  date: 1991-09-01
+  date: 1991-09
 created: 2026-10-07T20:00:46Z
 updated: 2026-10-08T00:44:25Z
 ---

@@ -496,12 +496,17 @@ A problem is a folder under the mathematics wiki's `problems/` tree whose
 `_index.md` is the problem page; the results claimed about it from outside the
 project are claim pages in a `claims/` folder beside that page, one page per
 claimant's result, named `<YYYY_MM_DD>_<claimant>.md` by the claim's date and
-its claimant. The project's own theorems are claim cards (`L<n>`) and keep their
-form. When one of them settles a problem, the problem derives its standing like
-any other: a claim page names the project as claimant, under the name it uses
-for itself, links the card under **Depends on.** and lists only the evidence
-that exists, `formalized` when a landed Lean proof checks the statement and
-`reviewed` only for an outside reviewer; without either it stays `claimed`.
+its claimant. The claim's date is the earliest date the result was public, such
+as an arXiv posting or an online-first date before the print issue. No day or
+month is invented: where only the year or the month is known, the name fills the
+rest with `01` (`1936_04_01` for April 1936), and a `date` field gives only what
+is known (`1936-04`, not `1936-04-01`). The project's own theorems are claim
+cards (`L<n>`) and keep their form. When one of them settles a problem, the
+problem derives its standing like any other: a claim page names the project as
+claimant, under the name it uses for itself, links the card under **Depends
+on.** and lists only the evidence that exists, `formalized` when a landed Lean
+proof checks the statement and `reviewed` only for an outside reviewer; without
+either it stays `claimed`.
 
 A problem page carries `status`, `claim` and `tags`. `status` is derived from
 the claim pages: `solved` when an accepted claim of scope `full` settles the
@@ -550,26 +555,27 @@ and, in its settled mode, fails it. `evidence` lists the kinds of acceptance
 evidence in the fixed order `reviewed`, `refereed`, `formalized`; an accepted
 claim lists at least one, and its prose names who reviewed. `links` lists every
 posting of the claimant's result as `{url, kind, date?}`, `url` first, `kind`
-one of `paper`, `preprint`, `formalization`, `code`, `record` or `discussion`. A
-link names an external commit only where the claim relies on that exact content,
-as the external-version case of [[verification]] "Exact subjects and durable
-evidence" states; a release, DOI or arXiv version is preferred, and a link that
-only points at a project uses the project URL. `submitted` is the date the claim
-was submitted to the catalog's site, as a proof claim or a forum post, or to the
-Palomar registry: the date its **Submission note** gives, as `YYYY-MM-DD`, and
-`null` when no such submission is known. The body says what a partial claim
-settles under **Covers.**, what the claim rests on under **Depends on.**
-(wikilinks to wiki pages, or to library result pages, which the check reports
-with their read status and never counts toward the standing; an accepted claim
-depends on no unaccepted wiki page, a `solved` problem page counting as
-accepted), and states unproven hypotheses in prose. Claims are scoped and valued
-against the statement the problem page shows, the modified Statement where there
-is one: a theorem of the whole statement is `full`, one on a narrower range is
-`partial`, and the claim value follows the statement's polarity. A result that
-answers only the site's wording keeps its claim page with `status` `rejected`
-and the reason "answers the site's wording, not the modified Statement". That a
-problem is falsifiable or verifiable is a body note on an open problem, not a
-claim.
+one of `paper`, `preprint`, `formalization`, `code`, `record` or `discussion`,
+`date` the posting's date as `YYYY-MM-DD`, or `YYYY-MM` or `YYYY` when only the
+month or the year is known. A link names an external commit only where the claim
+relies on that exact content, as the external-version case of [[verification]]
+"Exact subjects and durable evidence" states; a release, DOI or arXiv version is
+preferred, and a link that only points at a project uses the project URL.
+`submitted` is the date the claim was submitted to the catalog's site, as a
+proof claim or a forum post, or to the Palomar registry: the date its
+**Submission note** gives, as `YYYY-MM-DD`, and `null` when no such submission
+is known. The body says what a partial claim settles under **Covers.**, what the
+claim rests on under **Depends on.** (wikilinks to wiki pages, or to library
+result pages, which the check reports with their read status and never counts
+toward the standing; an accepted claim depends on no unaccepted wiki page, a
+`solved` problem page counting as accepted), and states unproven hypotheses in
+prose. Claims are scoped and valued against the statement the problem page
+shows, the modified Statement where there is one: a theorem of the whole
+statement is `full`, one on a narrower range is `partial`, and the claim value
+follows the statement's polarity. A result that answers only the site's wording
+keeps its claim page with `status` `rejected` and the reason "answers the site's
+wording, not the modified Statement". That a problem is falsifiable or
+verifiable is a body note on an open problem, not a claim.
 
 Acceptance lives on the claim page: a claim moves from `claimed` to `accepted`
 only with the evidence it lists, and the problem's `status` and `claim` follow

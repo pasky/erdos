@@ -20,7 +20,7 @@ submitted: null
 links:
 - url: https://doi.org/10.2140/pjm.1962.12.187
   kind: paper
-  date: 1962-03-01
+  date: 1962-03
 - url: https://www.erdosproblems.com/494
   kind: discussion
 - url: https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/494.lean

@@ -17,7 +17,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF02757991
   kind: paper
-  date: 1975-12-01
+  date: 1975-12
 created: 2026-10-07T19:24:20Z
 updated: 2026-10-07T23:37:26Z
 ---
