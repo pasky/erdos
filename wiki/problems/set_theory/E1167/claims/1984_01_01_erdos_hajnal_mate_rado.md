@@ -4,16 +4,18 @@ title: Five cases of the negative stepping-up lemma
 desc: |
   Erdős, Hajnal, Máté and Rado's monograph (North-Holland, 1984) proves the
   stepping-up implication in five cases, under the conditions of the
-  Erdős–Hajnal list. It is recorded as claimed, since the monograph is not a
-  journal paper.
+  Erdős–Hajnal list. It is accepted on Komjáth's refereed survey, which records
+  the five cases as proved.
 authors:
 - Paul Erdős
 - András Hajnal
 - Attila Máté
 - Richard Rado
-status: claimed
+status: accepted
 claim: proved
 scope: partial
+evidence:
+- reviewed
 submitted: null
 links:
 - url: https://mathscinet.ams.org/mathscinet-getitem?mr=795592
@@ -57,7 +59,11 @@ Foundations of Mathematics 106, North-Holland, Amsterdam, 1984 (MR 795592).
 The record carries no day or month, so this page's date is the first of the
 year.
 
-**Acceptance.** None that the schema counts. The result is in a monograph,
-not a journal paper, so it is not `refereed`. The site labeled the problem
-OPEN, so its remark crediting the cases is commentary, not acceptance. The
-claim is therefore claimed.
+**Acceptance.** Reviewed: Péter Komjáth's survey, *The Erdős–Hajnal problem
+list*, Bull. Symbolic Logic 31 (2025), 418–461, DOI 10.1017/bsl.2025.1, covers
+the result in its Problem 2 commentary. It records the five cases as already
+proved, citing Section 24 of the monograph. The survey is refereed, and its
+author is not an author of the monograph. The result is in a monograph, not a
+journal paper, so `refereed` is not listed. The site labeled the problem OPEN,
+and its remark listing the cases is commentary, not counted. Nothing on this
+page is independently reviewed by this project.

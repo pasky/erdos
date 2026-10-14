@@ -1,10 +1,10 @@
 ---
 name: problems/set_systems/E0901/claims
-desc: The 7 claim pages of Problem 901, one per claimant's result; the problem's standing derives from them.
+desc: The 6 claim pages of Problem 901, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T19:24:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # problems/set_systems/E0901/claims
@@ -34,11 +34,6 @@ until 2000.
 every $n$-uniform hypergraph with at most $0.7\sqrt{n/\ln n}\,2^n$ edges is
 2-colorable. Hence $m(n)>0.7\sqrt{n/\ln n}\,2^n$, the best lower bound for
 Problem 901.
-
-[[problems/set_systems/E0901/claims/2009_02_10_pluhar|2009_02_10_pluhar]]: Corollary 1 of Pluhár's 2009 paper uses a greedy coloring along a random
-vertex order to show $m(n)>0.5268\,n^{1/4}2^n$ for $n\ge3$. This is a two-page
-refereed proof that $m(n)/2^n\to\infty$, though the bound is weaker than the
-best one.
 
 [[problems/set_systems/E0901/claims/2014_01_01_ostergard|2014_01_01_ostergard]]: Östergård's exhaustive computer search shows that the least number of edges of
 a $4$-uniform hypergraph without property B is 23, closing the earlier range

@@ -13,7 +13,7 @@ authors:
 - Abhishek Methuku
 - Deryk Osthus
 status: accepted
-claim: proved
+claim: decidable
 scope: partial
 evidence:
 - refereed

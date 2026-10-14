@@ -568,7 +568,14 @@ against the statement the problem page shows, the modified Statement where there
 is one: a theorem of the whole statement is `full`, one on a narrower range is
 `partial`, and the claim value follows the statement's polarity. A result that
 answers only the site's wording keeps its claim page with `status` `rejected`
-and the reason "answers the site's wording, not the modified Statement". That a
+and the reason "answers the site's wording, not the modified Statement". On a
+problem that asks for an order of growth or a best bound, a bound has a partial
+claim page only when it improves the best established bound (accepted, or
+published and refereed) that the problem page lists from before its date; a
+pending claim's bound counts once it is accepted. A bound that does not improve
+it is recorded among the page's known results. A submitted claim (one with a
+`submitted` date) that does not improve it keeps its claim page, with `status`
+`rejected` and the reason "does not improve the best known bound". That a
 problem is falsifiable or verifiable is a body note on an open problem, not a
 claim.
 
@@ -818,7 +825,10 @@ not quoted. A rejected claim page that answers the site's wording rather than a
 modified Statement opens its `desc` with the reason: "Correct, but answers the
 site's wording (...), not the modified Statement" when the rejected result is
 itself accepted (reviewed, refereed or formalized), and "Answers the site's
-wording (...), not the modified Statement" otherwise.
+wording (...), not the modified Statement" otherwise. A rejected claim page
+whose bound does not improve the best known bound opens its `desc` the same way:
+"Correct, but does not improve the best known bound (...)" or "Does not improve
+the best known bound (...)", the parentheses naming that bound and its source.
 
 ### Library
 
