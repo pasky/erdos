@@ -69,7 +69,8 @@ The correction of Lemma 4 to 2 q^{1/2} rests on Medrano et al. (Theorem 3 and
 Table 1 of that paper), whose Table 1 lists a q = 5 eigenvalue of absolute
 value larger than sqrt 5.
 
-Source: <https://arxiv.org/abs/math/0510092>.
+Source: <https://arxiv.org/abs/math/0510092>. The copy's retrieval date was not
+recorded.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|#188]]: the
 paper does not treat the problem. Its Lemma 1 gives, over F_q, whole lines with

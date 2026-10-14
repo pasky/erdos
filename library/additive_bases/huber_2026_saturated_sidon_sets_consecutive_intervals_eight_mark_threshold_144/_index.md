@@ -33,9 +33,9 @@ searches and audits.
 
 Felix Huber, Saturated Sidon Sets in Consecutive Intervals: The Eight-Mark
 Threshold Is 144, preprint (2026). The copy read for this card is the author's
-15-page preprint. No notice is printed in it, no arXiv record for the paper was
-found on 2026-10-02, and no source page is recorded for it; the term is
-unstated.
+15-page preprint. The copy's retrieval date was not recorded. No notice is
+printed in it, no arXiv record for the paper was found on 2026-10-02, and no
+source page is recorded for it; the term is unstated.
 
 ## Overview
 
