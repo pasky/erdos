@@ -42,7 +42,7 @@ any fixed positive power of log_(2s-1) i makes it converge.
 Conlon, David and Fox, Jacob and Sudakov, Benny, Two extensions of Ramsey's
 theorem. Duke Math. J. 162 (2013), no. 15, 2903--2927, DOI
 10.1215/00127094-2382566 (the arXiv record's journal reference and the Crossref
-record).
+record, read 2026-09-18).
 
 The copy read for this card is arXiv:1112.1548v2 (16 October 2013), headed
 "Accepted for publication in Duke Mathematical Journal", 21 self-paginated

@@ -39,7 +39,7 @@ the first, the lower bound Problem 787's page attributes to the paper.
 
 Sanders, Tom, The Erdős-Moser sum-free set problem. Canad. J. Math. 73 (2021),
 no. 1, 63-107, DOI 10.4153/S0008414X1900049X (published online 23 September
-2019; Crossref record read).
+2019; Crossref record read 2026-09-18).
 
 The copy read for this card
 is arXiv:1804.03356v3 (31 July 2019; 47 pages; the arXiv comment reads

@@ -34,9 +34,9 @@ $$
 \limsup_{N\to \infty}\frac{\sum_{m\leq N}f(m)}{\sqrt{N\log\log N}}=c?
 $$
 
-**Status.** The site labeled the problem OPEN. The derived standing is `solved`
-with the claim `disproved`. It rests on the self-contained Lean development
-submitted by Sigurd Høystad on 2026-08-04
+**Status.** The site labeled the problem OPEN (accessed 2026-10-06). The derived
+standing is `solved` with the claim `disproved`. It rests on the self-contained
+Lean development submitted by Sigurd Høystad on 2026-08-04
 ([[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|claim page]]).
 This corpus built the port of that development in `plby/lean-proofs` at its
 commit of 2026-09-15, written for Lean `v4.33.0`. It audited the port's two
@@ -103,8 +103,9 @@ on `formalized` evidence: this corpus built the port of the claimant's Lean
 development in `plby/lean-proofs`, found the axioms of `not_erdos_520` and
 `normalized_tendsto_zero` to be the three standard ones, matched both to the
 repository's comparator challenge and audited their statements clause by clause
-against the Statement above. The site labeled the problem OPEN; its proof-claims tab carries two full claims with no comments, and the community
-database records the problem open; the accepted claim has no review by the site
+against the Statement above. The site labeled the problem OPEN; on 2026-10-06
+its proof-claims tab carried two full claims with no comments, and the community
+database recorded the problem open; the accepted claim has no review by the site
 and no refereed version. The three claims assert one theorem, an almost sure
 upper bound with the exponent $1/4+\varepsilon$ on the iterated logarithm, which
 is Harper's conjectured sharp exponent; the formalized evidence certifies the
@@ -165,7 +166,7 @@ The same bound, for both the Steinhaus and the Rademacher model, is the
 theorem of Durkan and Pearce-Crump's arXiv preprint of 2026-07-31, stated
 there as settling Harper's conjecture
 ([[problems/arithmetic_functions/E0520/claims/2026_07_31_durkan_pearce_crump|claim page]]).
-Both are pending; the site labeled the problem OPEN.
+Both are pending; the site labeled the problem OPEN (accessed 2026-10-06).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

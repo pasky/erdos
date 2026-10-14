@@ -57,9 +57,9 @@ site; Problem 1009's page cites it as [BLPPPV21].
 arXiv:1909.11371v3 [math.CO], stamped 11 June 2020
 and dated "June 12, 2020" on p. 1: twenty pages with a complete text layer,
 PDF page equal to printed page, 267,447 bytes as served by arXiv
-(<https://arxiv.org/abs/1909.11371v3>) on 2026-09-18T11:22:31Z. The arXiv record
-names arXiv's non-exclusive distribution license (arXiv:1909.11371), every other
-right reserved.
+(<https://arxiv.org/abs/1909.11371v3>). The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1909.11371), every other right
+reserved.
 
 Read status: claims checked, on the page images, for the abstract (p. 1),
 the introduction's Theorems 1--3 and the statement of the main result with

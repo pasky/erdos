@@ -65,7 +65,7 @@ $f(n)\ge c\sqrt{n\log n}$, by the probabilistic method, as a corollary of the
 Komlós–Pintz–Szemerédi inequality for partial Steiner systems of large girth,
 and that this gives the true order of magnitude; the title of their paper
 names the Steiner triple systems of minimum independence number that supply
-the upper bound. The site's page listed no comment, proof
+the upper bound. On 2026-10-06 the site's page listed no comment, proof
 claim or formalization, and the community database recorded no Lean
 formalization.
 <!-- BEGIN problem library links -->

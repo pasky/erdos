@@ -73,10 +73,10 @@ paper itself (p. 34) and by Erdős, Nicolas and Sárközy (1991), and
 recorded on the problem page.
 
 **Acceptance.** Refereed: Israel Journal of Mathematics 92 (1995), no. 1--3,
-33--43, doi:10.1007/BF02762069. The Crossref record was read: it dates the issue
-to February 1995, and the paper was received March 11, 1993 and revised March
-22, 1994. The page is named by the issue's month, filled to its first day. Not
-reviewed: the site's commentary credits the affirmative answer to the authors'
-1999 paper, [DeFr99], and does not cite this one, so no curator credit attaches
-to it. This paper's result is what the 1999 paper's introduction and the site's
-"proved" label build on.
+33--43, doi:10.1007/BF02762069. The Crossref record was read on 2026-09-18: it
+dates the issue to February 1995, and the paper was received March 11, 1993 and
+revised March 22, 1994. The page is named by the issue's month, filled to its
+first day. Not reviewed: the site's commentary credits the affirmative answer to
+the authors' 1999 paper, [DeFr99], and does not cite this one, so no curator
+credit attaches to it. This paper's result is what the 1999 paper's introduction
+and the site's "proved" label build on.

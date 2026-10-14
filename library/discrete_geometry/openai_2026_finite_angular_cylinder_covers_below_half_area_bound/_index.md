@@ -62,7 +62,7 @@ the author line "OpenAI", the date and the bibtex entry above; it carries no
 statement about human assistance. The manuscript text names no author other
 than OpenAI and carries no arXiv identifier of its own. No refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 Formalization, as the release lists it: the release's Lean catalogue

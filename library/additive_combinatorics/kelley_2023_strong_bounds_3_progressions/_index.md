@@ -47,10 +47,10 @@ already gave.
 Source: <https://arxiv.org/abs/2302.05537>.
 
 The copy read for this card is the arXiv v6 of 28 October 2024 (79 pages;
-the listing read shows v1 of 10 February 2023 through v6); a
+the listing read 2026-09-18 shows v1 of 10 February 2023 through v6); a
 proceedings version appeared in the 2023 IEEE 64th Annual Symposium on
 Foundations of Computer Science, pp. 933--973, DOI
-10.1109/FOCS57990.2023.00059 (Crossref record read), and no
+10.1109/FOCS57990.2023.00059 (Crossref record read 2026-09-18), and no
 journal version was found; locators are preprint pages. For problem 721 the
 bearing is indirect: the paper never mentions van der Waerden numbers (no
 occurrence of "Waerden" in its text layer), and its

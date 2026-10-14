@@ -27,7 +27,7 @@ updated: 2026-10-08T02:16:54Z
 on $n$ vertices with no $K_{2,2,2}$ and at least $\delta n^2$ edges then $G$
 contains an independent set of size $\gg_\delta n$.
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page shows no
 last-edited date). $K_{2,2,2}$ is the complete tripartite graph with three
 classes of two vertices, the octahedron graph (the 1983
 source calls it "the two by two Turán graph"). The statement claims: for
@@ -123,7 +123,7 @@ no source either way, and the site-certified record is the first.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/e4934265-aa96-4bf5-a3c0-d01153dfcfaa/solution
-and its download link (810,011 bytes, 18,336 lines).
+and its download link, accessed 2026-10-06 (810,011 bytes, 18,336 lines).
 
 **Source.** [erdosproblems.com/579](https://www.erdosproblems.com/579),
 accessed 2026-09-18 and 2026-10-06, on both
@@ -177,19 +177,20 @@ https://www.erdosproblems.com/579, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/579.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/579.lean)
-of formal-conjectures (main as fetched, the link pinned to that
+of formal-conjectures (main as fetched 2026-09-18, the link pinned to that
 revision) defines `octahedron` as
 `completeMultipartiteGraph (fun _ : Fin 3 => Fin 2)` and declares
 `erdos_579 : answer(sorry) ↔ ∀ δ : ℝ, 0 < δ → ∃ c : ℝ, 0 < c ∧ ∀ᶠ n : ℕ in atTop, ∀ G : SimpleGraph (Fin n), octahedron.Free G → δ * (n : ℝ) ^ 2 ≤ G.edgeFinset.card → c * n ≤ (G.indepNum : ℝ)`
 under `category research open`, with proof `sorry`; the variant
 `ehss_large_delta (δ : ℝ) (hδ : 1 / 8 < δ)` states the $\delta>1/8$ case under
 `research solved`, also with proof `sorry`, and a test shows the octahedron is
-not octahedron-free. The community database (teorth/erdosproblems) records the problem open (last update 31 August 2025), the
-statement formalized (last update 2 July 2026), `formal_status` unformalized
-and no formal-proof URL; the site's indicator shows the statement as
-formalized. On 2026-10-06 the catalog's default branch carried the statement
-with `answer(sorry)` under `research open`, while the bounty site's certified
-record (Status above) proves its negation.
+not octahedron-free. The community database (teorth/erdosproblems, fetched
+2026-09-18) records the problem open (last update 31 August 2025), the statement
+formalized (last update 2 July 2026), `formal_status` unformalized and no
+formal-proof URL; the site's indicator shows the statement as formalized. On
+2026-10-06 the catalog's default branch carried the statement with
+`answer(sorry)` under `research open`, while the bounty site's certified record
+(Status above) proves its negation.
 
 ## Current assessment
 

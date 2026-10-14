@@ -25,7 +25,8 @@ the [[research/erdos_49/theorem_1_2_reconstruction|proof of Theorem 1.2]].
 changes no status and assigns no tier. The argument is written out in
 full. Its imported inputs are Lemma 4.1, itself only partly reconstructed
 (its counting steps are Ford's), and Ford's order of magnitude
-$W(x)\asymp Z(x)$, quoted from the source's p. 7 and not reread.
+$W(x)\asymp Z(x)$, quoted from the source's p. 7; Ford's paper is not read
+here.
 
 ## Definitions
 
@@ -66,7 +67,7 @@ $\mathcal W(x)$, uniformly in $S$.
   where $V(x)$ counts all totients in $[1,x]$; quoted on the source's p. 7
   from Ford (1998) (card
   [[../library/arithmetic_functions/ford_1998_distribution_totients/_index|Ford (1998)]],
-  not reread here). Used as: $Z(x)\ge c'W(x)$ for large $x$, with $c'>0$
+  not read here). Used as: $Z(x)\ge c'W(x)$ for large $x$, with $c'>0$
   absolute.
 
 ## The explicit reversed pair

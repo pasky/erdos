@@ -37,10 +37,11 @@ proceedings text: fifteen
 pages, printed pp. 3--17 = PDF pp. 1--15 (printed p. $n$ is PDF p. $n-2$;
 the page numbers are printed as "--- 15 ---"), with a text layer that
 locates passages and garbles the displays and the Italian abstract.
-Provenance: retrieved from
+Provenance: retrieved 2026-09-19T01:40:39Z from
 <https://users.renyi.hu/~p_erdos/1976-35.pdf> (HTTP 200, one request);
 2,466,239 bytes. No notice is printed in the scan; the hosting archive's site
-footer speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All rights reserved. All material on this
+footer speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/,
+read 2026-10-02, prints "(C) 2005-2007 All rights reserved. All material on this
 site is for scientifics purposes only."); the proceedings have no publisher page
 or DOI for this edition, so the publisher's page was not consulted and no
 Crossref license is recorded; the term is unstated.
@@ -77,8 +78,8 @@ proof; nothing here is independently reviewed.
   subgraphs), the coprime labelling of trees credited to Entringer, small
   non-planar subgraphs, two conjectures with Hajnal (a subgraph of given
   chromatic number and girth, and the circuit lengths of a $k$-chromatic
-  graph), on pp. 16--17 problems on the intersections of set families, then van der
-  Waerden's theorem, the Graham--Rothschild conjecture proved by Hindman,
+  graph), on pp. 16--17 problems on the intersections of set families, then van
+  der Waerden's theorem, the Graham--Rothschild conjecture proved by Hindman,
   and the Faber--Lovász--Erdős conjecture.
 
 **The p. 15 sentence** (PDF p. 13, page image), in Section 6: "Gallai and I

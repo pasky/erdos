@@ -80,7 +80,7 @@ thresholds are $1$ and a constant (van Doorn's Theorems 1 and 8).
 
 **Source.** S. L. G. Choi, P. Erdős and E. Szemerédi, *Some additive and
 multiplicative problems in number theory*, Acta Arith. 27 (1975), 37--50,
-DOI 10.4064/aa-27-1-37-50 (Crossref record read). The retained
+DOI 10.4064/aa-27-1-37-50 (Crossref record read 2026-09-18). The retained
 scan holds printed pp. 37--49 (PDF pp. 1--13; printed p. $n$ is PDF p.
 $n-36$); Section 1 on pp. 37--42, read on the page images because the
 text layer garbles the displays.

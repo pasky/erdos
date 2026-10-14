@@ -26,8 +26,8 @@ updated: 2026-10-08T02:16:54Z
 directed graph) on $f(n)$ vertices such that every set of $n$ vertices is
 dominated by at least one other vertex. Estimate $f(n)$.
 
-**Formulation.** The site's wording (the page carries no
-last-edited date). A vertex dominates a set when it
+**Formulation.** The site's wording, accessed 2026-09-19 (the page carried
+no last-edited date). A vertex dominates a set when it
 sends an edge to every member of the set; "another vertex" is one outside
 the set. The literature writes $k$ for the site's $n$: a tournament has
 Schütte's property $S_k$ if every $k$ vertices have a common dominator, and
@@ -77,7 +77,7 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
 **References.**
 
 - [Er63c] Erdős, P., On a problem in graph theory. Math. Gaz. 47 (1963),
-  220--223, doi:10.2307/3613396 (Crossref; issued
+  220--223, doi:10.2307/3613396 (Crossref, accessed 2026-09-19; issued
   October 1963). The definition, $f(1)=3$, $f(2)=7$, the guess
   $f(k)=2^{k+1}-1$ and inequalities (1), (2) and (2.1), p. 221; the
   seven-town example, p. 220. Library home:
@@ -88,11 +88,12 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
   and
   [[../library/extremal_graph_theory/erdos_1963_problem_graph_theory/inequality_2|inequality_2]].
 - [SzSz65] Szekeres, E. and Szekeres, G., On a problem of Schütte and Erdős.
-  Math. Gaz. 49 (1965), no. 369, 290--293, doi:10.2307/3612854 (Crossref; issued October 1965). Not held: the Cambridge Core
-  article page, offers an abstract and no PDF link. Its
+  Math. Gaz. 49 (1965), no. 369, 290--293, doi:10.2307/3612854 (Crossref,
+  accessed 2026-09-19; issued October 1965). Not held: the Cambridge Core
+  article page, accessed 2026-09-19, offered an abstract and no PDF link. Its
   bound and its value $f(3)=19$ are stated, without a range of $k$, in J. W.
-  Moon's zbMATH review (Zbl 0134.43502); the bound, the value and the
-  conjecture are also attested in [GrSp71], [Er82e] and [Je26].
+  Moon's zbMATH review (Zbl 0134.43502); the bound, the value and the conjecture
+  are also attested in [GrSp71], [Er82e] and [Je26].
 - [Er82e] Erdős, Paul, Some of my favourite problems which recently have
   been solved. Proceedings of the International Mathematical Conference
   (Singapore, 1981), North-Holland Math. Stud. 74 (1982), 59--79; §2, printed
@@ -100,16 +101,16 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 - [GrSp71] Graham, R. L. and Spencer, J. H., A constructive solution to a
   tournament problem. Canad. Math. Bull. 14 (1971), no. 1, 45--48,
-  doi:10.4153/CMB-1971-007-1 (Crossref). Not a site
+  doi:10.4153/CMB-1971-007-1 (Crossref, accessed 2026-09-19). Not a site
   key; cited in the thread. The quoted bounds (1) and (2), the construction
   and the Theorem, p. 45; the concluding remarks, p. 47. Library home:
   [[../library/extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/_index|graham_1971_constructive_solution_tournament_problem]];
   paged at
   [[../library/extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/theorem_p45|theorem_p45]].
 - [Je26] Jeffries, Joel, Schütte's property for sets of tournaments and an
-  application to dice games. arXiv:2604.08790v1 (9 April 2026; arXiv lists no later version and no journal reference). A preprint;
-  not a site key. Theorem 1.1, p. 1; the survey sentences, p. 2. Library
-  home:
+  application to dice games. arXiv:2604.08790v1 (9 April 2026; on 2026-09-19
+  arXiv listed no later version and no journal reference). A preprint; not a
+  site key. Theorem 1.1, p. 1; the survey sentences, p. 2. Library home:
   [[../library/extremal_graph_theory/jeffries_2026_schutte_s_property_sets_tournaments_application/_index|jeffries_2026_schutte_s_property_sets_tournaments_application]];
   paged at
   [[../library/extremal_graph_theory/jeffries_2026_schutte_s_property_sets_tournaments_application/theorem_1_1|theorem_1_1]].
@@ -212,10 +213,10 @@ The proof-claim tab is empty. The community database record says open.
   rotational tournament with $S_4$). [Je26], p. 2, reports third-hand that
   "Fisher showed computationally that $P_{67}$, $P_{331}$, and $P_{1163}$ are
   the smallest $S_4$, $S_5$, and $S_6$ Paley tournaments respectively", which is
-  OEIS A362137's sequence (1, 3, 7, 19, 67, 331, 1163 from $n=0$; the entry
-  says that its terms from 67 on are the smallest Paley examples and "only the
-  smallest sizes of the known solutions"); these are upper bounds
-  for $f(4)$, $f(5)$, $f(6)$, not values.
+  OEIS A362137's sequence (1, 3, 7, 19, 67, 331, 1163 from $n=0$; the entry,
+  read 2026-09-19, says that its terms from 67 on are the smallest Paley
+  examples and "only the smallest sizes of the known solutions"); these are
+  upper bounds for $f(4)$, $f(5)$, $f(6)$, not values.
 - The conjecture. [Je26], p. 2: Szekeres and Szekeres "conjectured that
   their lower bound is the true value for $f(k)$", that is
   $f(k)=(k+2)2^{k-1}-1$, consistent with $f(2)=7$ and $f(3)=19$ but refuted

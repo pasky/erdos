@@ -81,17 +81,18 @@ Problem 303.
 
 **Versions.** The copy read for this card is the six-page final journal PDF from
 [Cambridge University
-Press](https://www.cambridge.org/core/journals/bulletin-of-the-australian-mathematical-society/article/monochromatic-solutions-to-equations-with-unit-fractions/647E26A2255E9027AC1B1D8FCF86E8A8).
-The internally undated author copy, downloaded from the [SFU
-page](https://www.sfu.ca/~vjungic/tbrown/tom-34.pdf), has five internally
-numbered pages and earlier labels. The correspondence is: final Theorem 2.1 =
-author-copy Theorem 2.1; final Theorem 2.1a = author-copy Theorem 2.2; final
-Corollaries 2.2, 2.3, and 2.4 = author-copy Corollaries 2.1, 2.2, and 2.3; final
-Theorem 2.5 and Lemmas 2.6-2.10 = author-copy Theorem 2.3 and Lemmas 2.1-2.5. In
-the author-copy version of Corollary 2.1, the denominator under $b_1$ is printed
-as $x_1$; final Corollary 2.2 corrects it to $y_1$. The journal PDF prints
-"Copyright Clearance Centre, Inc. Serial-fee code: 0004-9729/91 $A2.00+0.00." on
-its first page (printed p. 387), and the journal's article page
+Press](https://www.cambridge.org/core/journals/bulletin-of-the-australian-mathematical-society/article/monochromatic-solutions-to-equations-with-unit-fractions/647E26A2255E9027AC1B1D8FCF86E8A8),
+accessed 2026-09-05. The internally undated author copy, downloaded from the
+[SFU page](https://www.sfu.ca/~vjungic/tbrown/tom-34.pdf), accessed 2026-09-05,
+has five internally numbered pages and earlier labels. The correspondence is:
+final Theorem 2.1 = author-copy Theorem 2.1; final Theorem 2.1a = author-copy
+Theorem 2.2; final Corollaries 2.2, 2.3, and 2.4 = author-copy Corollaries 2.1,
+2.2, and 2.3; final Theorem 2.5 and Lemmas 2.6-2.10 = author-copy Theorem 2.3
+and Lemmas 2.1-2.5. In the author-copy version of Corollary 2.1, the denominator
+under $b_1$ is printed as $x_1$; final Corollary 2.2 corrects it to $y_1$. The
+journal PDF prints "Copyright Clearance Centre, Inc. Serial-fee code:
+0004-9729/91 $A2.00+0.00." on its first page (printed p. 387), and the journal's
+article page
 (https://www.cambridge.org/core/journals/bulletin-of-the-australian-mathematical-society/article/monochromatic-solutions-to-equations-with-unit-fractions/647E26A2255E9027AC1B1D8FCF86E8A8,
 read 2026-10-02) states "Copyright © Australian Mathematical Society 1991",
 every other right reserved. The author copy prints no notice (pp. 1 and 5 read),

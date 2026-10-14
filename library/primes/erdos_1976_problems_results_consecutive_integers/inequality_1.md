@@ -41,9 +41,10 @@ Arith. 25 (1974), 365--373.
 
 **Source.** P. Erdős, *Problems and results on consecutive integers*, Publ.
 Math. Debrecen 23 (1976), no. 3--4, 271--282, DOI 10.5486/pmd.1976.23.3-4.15
-(Crossref record read); the twelve-page scan read for this page (printed pp.
-271--282 = PDF pp. 1--12, no text layer); display (1) on printed p. 271 (PDF p.
-1) and the references on p. 282 (PDF p. 12), read on the page images.
+(Crossref record read 2026-09-18); the twelve-page scan read for this page
+(printed pp. 271--282 = PDF pp. 1--12, no text layer); display (1) on printed p.
+271 (PDF p. 1) and the references on p. 282 (PDF p. 12), read on the page
+images.
 
 **Read depth.** Claims checked for the passage as Erdős's report: the
 display and its attribution were read clause by clause on the page image.

@@ -60,7 +60,7 @@ names OpenAI as the author and September 24, 2026 as the date, and the 55-page
 text carries no names of individual authors, no acknowledgment and no statement
 on how it was produced. These are the source's own attestations, recorded here
 as history and not as this corpus's review. No refereed publication, arXiv
-version or independent review of the manuscript is recorded here and nothing on
+version or independent review of the manuscript is recorded here, and nothing on
 this card is independently reviewed.
 
 The release's Lean catalogue (`lean/formalization.yaml`) lists this

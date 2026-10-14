@@ -29,13 +29,13 @@ Let $k\geq 4$ and $r\geq 1$. Must there exist a graph $G$ with chromatic number
 $k$ such that every vertex is critical, yet every critical set of edges has size
 $>r$?
 
-**Status.** Proved. This departs from the site's label OPEN, whose notes say
-that the case $k=4$ is open even for $r=1$. The Lean proof of Kruer and
-Kohlmeyer answers the question for every $k\geq4$ and $r\geq1$. Conjectures.io
-certified it on 16 September 2026; that certification is reported, not counted.
-Acceptance rests on this corpus's rebuild and kernel replay of the file on the
-repository's pinned toolchain (Lean v4.34.1) and on a check of its target
-against the Statement. The standing derives from the
+**Status.** Proved. This departs from the site's label OPEN (page fetched
+2026-09-18), whose notes say that the case $k=4$ is open even for $r=1$. The
+Lean proof of Kruer and Kohlmeyer answers the question for every $k\geq4$ and
+$r\geq1$. Conjectures.io certified it on 16 September 2026; that certification
+is reported, not counted. Acceptance rests on this corpus's rebuild and kernel
+replay of the file on the repository's pinned toolchain (Lean v4.34.1) and on a
+check of its target against the Statement. The standing derives from the
 [[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]].
 
 **Source.** [erdosproblems.com/944](https://www.erdosproblems.com/944), accessed
@@ -68,12 +68,13 @@ This corpus has not built that file.
 
 ## Current assessment
 
-The site's formulation asks whether for every $k\ge4$ and $r\ge1$ some graph
-with chromatic number $k$ has every vertex critical while every critical set of
-edges has more than $r$ edges. The answer is yes for every such $k$ and $r$: a
-Lean 4 proof by Liam Kruer and Jensen Kohlmeyer, certified by the bounty site
-Conjectures.io on 16 September 2026, proves the catalog statement of the problem
-for every such $k$ and $r$, and the frontmatter derives its standing through the
+The site's formulation (fetched 2026-09-18) asks whether for every $k\ge4$ and
+$r\ge1$ some graph with chromatic number $k$ has every vertex critical while
+every critical set of edges has more than $r$ edges. The answer is yes for every
+such $k$ and $r$: a Lean 4 proof by Liam Kruer and Jensen Kohlmeyer, certified
+by the bounty site Conjectures.io on 16 September 2026, proves the catalog
+statement of the problem for every such $k$ and $r$, and the frontmatter derives
+its standing through the
 [[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]],
 which records the theorem, this corpus's kernel replay and Statement check on
 which the acceptance rests, and the site's verification and review. The proof
@@ -83,9 +84,9 @@ witness is a new graph on $\mathbb{Z}/n$, a circulant augmented by
 Andrásfai-type graphs inserted along $3t+1$ unit directions. Its $k=4$ witnesses
 also cover $r=1$, the case of Dirac's 1970 conjecture first proved in Lean by
 Chan and by Kitamura; what is new is $k=4$ for every $r\ge2$. The site's
-certification is reported, not counted; no refereed publication exists, and
-neither erdosproblems.com nor the formal-conjectures catalog recorded the
-result.
+certification is reported, not counted; no refereed publication exists, and on
+2026-09-18 neither erdosproblems.com nor the formal-conjectures catalog recorded
+the result.
 
 Two public Lean certificates of the $k=4$, $r=1$ case preceded it: Alex
 Chan's explicit $60$-vertex graph, public in its repository from 9 September

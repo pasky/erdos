@@ -131,7 +131,7 @@ of google-deepmind/formal-conjectures on main of 2026-09-18 (673 entries) has no
 file for this problem, and the community database (teorth/erdosproblems, fetched
 2026-10-06) lists the problem as proved, as of its entry's last update
 on 26 December 2025, not formalized, with no formal proof. The site's
-formalized-statement indicator read no.
+formalized-statement indicator read no on 2026-09-18.
 
 ## Current assessment
 

@@ -57,8 +57,8 @@ published online March 23, 2018.
 ## Source versions
 
 The canonical [published PDF](conlon_2019_lines_euclidean_ramsey_theory.pdf)
-has eight pages, printed 218–225. It was obtained from the publisher on
-September 5, 2026. The published article is licensed
+has eight pages, printed 218–225. It was obtained from the publisher. The
+published article is licensed
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the proof rewrites
 and the explicitly identified repairs here are compilation work. The published
 PDF `conlon_2019_lines_euclidean_ramsey_theory.pdf` prints "© The Author(s)
@@ -66,10 +66,10 @@ PDF `conlon_2019_lines_euclidean_ramsey_theory.pdf` prints "© The Author(s)
 terms of the Creative Commons Attribution 4.0 International License
 (http://creativecommons.org/licenses/by/4.0/)" on its seventh, naming the
 Creative Commons Attribution 4.0 license. The arXiv record names arXiv's
-non-exclusive distribution license for arXiv v4 (arXiv:1705.02166), every
-other right reserved. The author-hosted manuscript prints no notice, and the
-page that links it (https://www.its.caltech.edu/~dconlon/, read 2026-10-02)
-states no copyright, license or terms; the term is unstated.
+non-exclusive distribution license for arXiv v4 (arXiv:1705.02166), every other
+right reserved. The author-hosted manuscript prints no notice, and the page that
+links it (https://www.its.caltech.edu/~dconlon/, read 2026-10-02) states no
+copyright, license or terms; the term is unstated.
 
 Two seven-page manuscripts were also read. One is
 [arXiv:1705.02166v4](https://arxiv.org/abs/1705.02166v4), dated March 20,

@@ -26,7 +26,7 @@ updated: 2026-10-08T01:29:59Z
 f(k)$ vertices with at least $\binom{n-k-1}{2}+\binom{k+2}{2}+1$ edges contains
 a cycle on $n-k$ vertices. Determine or estimate $f(k)$.
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording as accessed 2026-09-18 (page last
 edited 28 December 2025). $f(k)$ is a threshold: any $f(k)$ for
 which the implication holds for all $n\ge f(k)$, and "determine or estimate"
 asks how small it can be taken. The edge count is one more than the number of
@@ -106,8 +106,8 @@ Bloom, Erdős Problem #1012, https://www.erdosproblems.com/1012, accessed
 
 - [Wo72] Woodall, D. R., Sufficient conditions for circuits in graphs. Proc.
   London Math. Soc. (3) 24 (1972), no. 4, 739--755,
-  doi:10.1112/plms/s3-24.4.739 (Crossref record: issued May
-  1972, online at the publisher since December 2016). Corollary 11.1,
+  doi:10.1112/plms/s3-24.4.739 (Crossref record, accessed 2026-09-18: issued
+  May 1972, online at the publisher since December 2016). Corollary 11.1,
   printed p. 749: a graph on $n\ge r+3$ vertices with at least
   $\binom{n-r-1}2+\binom{r+2}2+1$ edges when $n\ge2r+3$, or $[\frac14n^2]+1$
   edges when $n<2r+3$, contains a circuit of every length from $3$ to

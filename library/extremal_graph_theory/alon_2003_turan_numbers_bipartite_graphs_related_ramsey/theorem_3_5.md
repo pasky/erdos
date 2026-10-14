@@ -43,7 +43,7 @@ $n^{1/4}$, obtained by substituting $h=n^{1/4}$ in Theorem 3.5.
 **Source.** N. Alon, M. Krivelevich and B. Sudakov, *Turán numbers of
 bipartite graphs and related Ramsey-type questions*, Combin. Probab. Comput.
 12 (2003), no. 5--6, 477--494, doi:10.1017/S0963548303005741 (Crossref
-record read); Theorem 3.5 on printed p. 483 (PDF p. 7 of the
+record read on 2026-09-18); Theorem 3.5 on printed p. 483 (PDF p. 7 of the
 publisher's typeset article), read on the page image; the p. 484
 remarks read on the page image.
 

@@ -83,7 +83,7 @@ f_2^e(n) <= (1/3 - epsilon)n^2.
 
 Source: <https://users.renyi.hu/~p_erdos/1975-40.pdf>. No notice is printed; the
 hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 the proceedings have no publisher page, and no Crossref license is recorded; the
 term is unstated.

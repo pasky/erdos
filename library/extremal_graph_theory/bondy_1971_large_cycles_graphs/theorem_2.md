@@ -20,14 +20,13 @@ order of $G$ is $|V(G)|$ and the size of $G$ is $|E(G)|$ (p. 121).
 **Theorem 2** (printed p. 125). "Let $G$ have order $n$ and size at least
 $\frac12(n^2-5n+14)$. Then $G$ has a cycle of length $n-1$."
 
-The two sentences that follow it (p. 125), quoted: "This result was conjectured by
-P. Erdös at the Conference on Combinatorial Mathematics and its Applications
+The two sentences that follow it (p. 125), quoted: "This result was conjectured
+by P. Erdös at the Conference on Combinatorial Mathematics and its Applications
 held in Oxford in July 1969. It is best possible in that the graph having
 complete blocks of orders $n-2$ and $3$ has size $\frac12(n^2-5n+12)$ but no
 $(n-1)$-cycle (provided $n>4$; for the cases $n=3,4$, the $n$-cycle shows that
 Theorem 2 is best possibel [sic])." The paragraph closes by crediting the
-corresponding results for $n$-cycles and $3$-cycles to Ore [8] and Turán
-[10].
+corresponding results for $n$-cycles and $3$-cycles to Ore [8] and Turán [10].
 
 Since $\frac12(n^2-5n+14)=\frac12(n-2)(n-3)+4=\binom{n-2}2+\binom32+1$, the
 threshold is Problem 1012's edge count $\binom{n-k-1}2+\binom{k+2}2+1$ at

@@ -65,10 +65,10 @@ Alexeev's lean-proofs repository, which declares itself a formalization of
 Neumann's solution; it is a formalization link on the claim page and not
 evidence of this project's own verification, since nothing here has built or
 audited it. Search scope: the site's problem page, discussion thread and
-proof-claims page, the formal-conjectures file and the two Lean copies; on
-2026-10-07 none of them showed another claim on the problem. The source card
-records the reading depth of the paper; nothing on this page is independently
-reviewed.
+proof-claims page, the formal-conjectures file and the two Lean copies; the
+proof-claims page showed no other claim on the problem, and on 2026-10-07 the
+other sources showed none. The source card records the reading depth of the
+paper; nothing on this page is independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

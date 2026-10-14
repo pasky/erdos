@@ -18,7 +18,7 @@ Kevin Knight, *Collatz High Cycles Do Not Exist*, HAL hal-04261183 (preprint
 dated 23 September 2023, submitted to HAL 26 October 2023; 10 pp. with HAL
 cover, printed pages 1--9 on PDF pp. 2--10); published as *Collatz high
 cycles do not exist*, Discrete Math. **349** (2026), no. 3, Article 114812,
-DOI 10.1016/j.disc.2025.114812 (the Crossref record; the
+DOI 10.1016/j.disc.2025.114812 (the Crossref record, read 2026-10-07; the
 journal text is not held and was not compared).
 
 Works with the shortcut map T. The cycles are taken over the rationals

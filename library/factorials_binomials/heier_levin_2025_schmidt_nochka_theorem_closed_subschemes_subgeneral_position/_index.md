@@ -48,9 +48,9 @@ with n at most 3, each outside a set of r of finite Lebesgue measure.
 The copy read for this card
 is the arXiv version stamped "arXiv:2308.11460v1 [math.NT] 22 Aug 2023", the
 edition this card cites. Provenance:
-downloaded from https://arxiv.org/pdf/2308.11460v1 on 2026-09-25; 320,679 bytes.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2308.11460), every other right reserved.
+downloaded from https://arxiv.org/pdf/2308.11460v1; 320,679 bytes. The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:2308.11460),
+every other right reserved.
 
 Gordon Heier, Aaron Levin, "A Schmidt-Nochka Theorem for closed subschemes in
 subgeneral position," arXiv:2308.11460 (2023). The paper appeared in J. Reine

@@ -19,18 +19,16 @@ number theory*, Monographies de L'Enseignement Mathématique **28**,
 Université de Genève, 1980, 128 pp.
 
 The [publisher's catalog](https://www.unige.ch/math/EnsMath/en/monographies)
-confirms the authors, series number, year and bibliographic extent. The
-copy read for this card
-is a 124-page scan. It begins with a title
-page and contents; printed p. 7 is PDF p. 3, and printed pp. 14–15 are PDF
-pp. 10–11. The scan's page count is not the publisher's bibliographic page
-count. The scan was read
-through a complete Markdown transcription without page markers; the scan's
-PDF page numbers run four behind the printed pagination (printed p. 20 is
-PDF p. 16). Chapter 1 (printed p. 7) says
-at the outset that the book will "almost never give proofs". No notice is
-printed in the scan (the title page, the contents page and the index of names,
-PDF pp. 1, 2 and 124, read); the publisher's catalog
+confirms the authors, series number, year and bibliographic extent. The copy
+read for this card is a 124-page scan, obtained on 5 September 2026. It begins
+with a title page and contents; printed p. 7 is PDF p. 3, and printed pp. 14–15
+are PDF pp. 10–11. The scan's page count is not the publisher's bibliographic
+page count. The scan was read through a complete Markdown transcription without
+page markers; the scan's PDF page numbers run four behind the printed pagination
+(printed p. 20 is PDF p. 16). Chapter 1 (printed p. 7) says at the outset that
+the book will "almost never give proofs". No notice is printed in the scan (the
+title page, the contents page and the index of names, PDF pp. 1, 2 and 124,
+read); the publisher's catalog
 (https://www.unige.ch/math/EnsMath/en/monographies, read 2026-10-02) lists the
 monograph with a price and states no license or copyright terms, and the scan's
 download URL is not recorded; the term is unstated.

@@ -70,9 +70,9 @@ conjectured that at least one of the exponents in the factorization of prod
 conjectures further that for every k at least k of them are 1 once n is large,
 which he calls no doubt unattainable at present (pp. 27-28). Theorem 2 (p. 31)
 shows that if prod a_i / n! is an integer with all prime factors at most n,
-a_k - a_1 < n and a_1 > (1+epsilon)n, then a_1 > 2^{n - c_3 n log log n / log n},
-proved through Lemmas 1-3 (pp. 31-35) by comparing the power of 2 dividing n!
-with the power of 2 dividing the product of those integers among a_1, ...,
+a_k - a_1 < n and a_1 > (1+epsilon)n, then a_1 > 2^{n - c_3 n log log n / log
+n}, proved through Lemmas 1-3 (pp. 31-35) by comparing the power of 2 dividing
+n! with the power of 2 dividing the product of those integers among a_1, ...,
 a_1+n-1 that have no prime factor above n. Part II adds Theorem 3: for an
 absolute constant c and every splitting of the integers into A and B there are
 infinitely many blocks (n_i, c n_i^2), each lying entirely in the
@@ -94,11 +94,12 @@ there is nothing to check. The digest's other statements (Theorems 1 and 2,
 displays (4)--(6), Part III's (30)--(31)) were checked against the page images;
 the proofs of Theorems 1 and 2 are not verified. No notice is printed on the
 scan's first or last pages; the hosting archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
-rights reserved. All material on this site is for scientifics purposes only.");
-Congressus Numerantium 34 (1982), published by Utilitas Mathematica, has no
-publisher page or DOI for this edition, so the publisher's page was not
-consulted and no Crossref license is recorded; the term is unstated.
+site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints
+"(C) 2005-2007 All rights reserved. All material on this site is for scientifics
+purposes only."); Congressus Numerantium 34 (1982), published by Utilitas
+Mathematica, has no publisher page or DOI for this edition, so the publisher's
+page was not consulted and no Crossref license is recorded; the term is
+unstated.
 
 Part II opens (printed p. 38) with A and B disjoint sets of positive integers
 that together contain every positive integer, and A^+, B^+ "the set of

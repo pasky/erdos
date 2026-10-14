@@ -38,9 +38,9 @@ x >= exp(3361), improving Platt and Trudgian's range x >= exp(3915).
 
 The copy read for this card is the arXiv version stamped "arXiv:2204.01980v2
 [math.NT] 20 Apr 2022". Provenance:
-downloaded from https://arxiv.org/pdf/2204.01980v2 on 2026-09-25; 278,380 bytes.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2204.01980), every other right reserved.
+downloaded from https://arxiv.org/pdf/2204.01980v2; 278,380 bytes. The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:2204.01980),
+every other right reserved.
 
 Daniel R. Johnston, Andrew Yang, "Some explicit estimates for the error term in
 the prime number theorem," arXiv:2204.01980 (2022); published in J. Math. Anal.

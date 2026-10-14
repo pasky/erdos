@@ -31,7 +31,7 @@ contain no complete residue hypercube modulo p for any prime p.
 
 Fritz Herzog, B. M. Stewart, Patterns of Visible and Nonvisible Lattice Points.
 The American Mathematical Monthly 78(5) (1971), 487-496. doi:10.2307/2317753.
-The copy read for this card is the JSTOR PDF. Its
+The copy read for this card is the JSTOR PDF (accessed 17 July 2026). Its
 cover sheet prints "Your use of the JSTOR archive indicates your acceptance of
 the Terms & Conditions of Use, available at https://about.jstor.org/terms" and
 names the publisher as "Taylor & Francis on behalf of the Mathematical

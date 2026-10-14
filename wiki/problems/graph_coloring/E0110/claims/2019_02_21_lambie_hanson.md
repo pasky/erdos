@@ -65,5 +65,5 @@ with Lambie-Hanson as its informal author and names Codex and GPT-5.6 Sol as
 its formal authors; its final theorem `not_erdos_110` (alias `erdos_110`)
 states that no function $F$ bounds the vertex count as the question asks, and
 its proof goes through a club-guessing construction. The formal-conjectures
-catalog had no statement file for the problem. This corpus has
+catalog had no statement file for the problem on 2026-10-07. This corpus has
 not built the file, so it is a link, not `formalized` evidence.

@@ -89,12 +89,12 @@ https://www.erdosproblems.com/667, accessed 2026-09-18.
 google-deepmind/formal-conjectures (main; none of the 673 entries of the
 directory
 [`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems)
-is for this problem), and the community database (teorth/erdosproblems) lists
-the problem as open, as of its last update of that field on 31 August 2025, not
-formalized, with no formal proof. The site's "Formalised statement?" indicator
-reads "No". On 2026-10-07 the main branch of formal-conjectures had no
-`667.lean`, and Boris Alexeev's lean-proofs (`src/latest/ErdosProblems/`) had no
-file for the problem.
+is for this problem), and the community database (teorth/erdosproblems, fetched
+2026-09-18) lists the problem as open, as of its last update of that field on 31
+August 2025, not formalized, with no formal proof. The site's "Formalised
+statement?" indicator reads "No". On 2026-10-07 the main branch of
+formal-conjectures had no `667.lean`, and Boris Alexeev's lean-proofs
+(`src/latest/ErdosProblems/`) had no file for the problem.
 
 ## Current assessment
 
@@ -105,7 +105,7 @@ Schelp, notes that $q=1$ is exactly the classical Ramsey problem, so that for
 example $1/(p-1)\le c(p,1)\le2/(p+1)$, calls $c(p,q)=1$ at $q=\binom{p-1}2+1$
 easy, and credits the four authors with $c(p,\binom{p-1}2)\le1/2$. The thread
 has one comment (18 April 2026), recorded below. The proof-claim tab is empty.
-The community database record says open.
+The community database record (fetched 2026-09-18) said open.
 
 **Origin.** [Er97f], Problem 13, printed pp. 3--4, in the corpus's words
 except where marked. For a graph $G$ of

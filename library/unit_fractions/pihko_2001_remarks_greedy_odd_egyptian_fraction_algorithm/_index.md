@@ -43,7 +43,7 @@ starts with four bad steps, its numerators running 2, 3, 4, 5, 6.
 
 Jukka Pihko, *Remarks on the "greedy odd" Egyptian fraction algorithm*,
 Fibonacci Quart. **39** (2001), no. 3, 221--227; DOI
-10.1080/00150517.2001.12428725 (Crossref record fetched).
+10.1080/00150517.2001.12428725 (Crossref record fetched 2026-09-18).
 Submitted March 1999, final revision August 1999.
 
 The copy read for this card
@@ -55,7 +55,7 @@ Provenance: obtained from the repository's survey download set of September
 recorded; 2,199,253 bytes. No copyright line is printed on the scanned pages
 (pp. 221 and 227 read); the journal's issue page that lists the article shows
 the footer "Copyright © 2010 The Fibonacci Association. All rights reserved."
-(https://www.fq.math.ca/39-3.html), and the publisher's host
+(https://www.fq.math.ca/39-3.html, read 2026-10-02), and the publisher's host
 returned HTTP 403 on 2026-10-02, every other right reserved.
 
 Read status: claims checked. Open Problem 1.1, the definition of the

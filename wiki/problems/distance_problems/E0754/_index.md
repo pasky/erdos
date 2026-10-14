@@ -83,8 +83,8 @@ and remain at the bounds the
 [[../library/distance_problems/swanepoel_2013_favorite_distances_high_dimensions/_index|source card]]
 records. Search scope: the site's problem page and discussion thread, the
 arXiv record of the paper and its publisher's record, the community database
-and Alexeev's repository of Lean proofs; on 2026-10-07 no forum claim, release
-item or lead named the problem. The exact value of
+and Alexeev's repository of Lean proofs; no forum claim named the problem, and
+on 2026-10-07 no release item or lead did. The exact value of
 $f(n)$ beyond the $O(1)$ term is not asked and is not recorded here.
 <!-- BEGIN problem library links -->
 

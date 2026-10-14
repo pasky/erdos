@@ -58,7 +58,7 @@ Source: <https://www.sfu.ca/~vjungic/tbrown/tom-18.pdf>.
 The copy read for this card is the authors' 14-page copy with its own
 pagination 1--14 (its first page carries the citation data), not the
 journal's printed pp. 21--35 of Bull. Austral. Math. Soc. 60 (1999), no. 1
-(DOI 10.1017/S0004972700033293 per the Crossref record read;
+(DOI 10.1017/S0004972700033293 per the Crossref record read 2026-09-18;
 published August 1999); every locator here is a page of that copy,
 and the journal pagination is not used. Read status: claims checked for the
 definition (p. 1), Theorem 7 and its stronger version (pp. 6--7) and

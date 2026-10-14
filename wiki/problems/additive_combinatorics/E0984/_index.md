@@ -43,9 +43,9 @@ earlier results: Spencer's three-color version with a very slowly growing bound,
 and Erdős's two-coloring with $k\ll a^{1-c}$.
 
 **Source.** [erdosproblems.com/984](https://www.erdosproblems.com/984), accessed
-2026-09-04; page and thread read 2026-10-07 (page last edited 4 April 2026;
-empty proof-claims tab). Cite as: T. F. Bloom, Erdős Problem
-#984, https://www.erdosproblems.com/984.
+2026-09-04; page and thread read 2026-10-07 (page last edited 4 April 2026);
+its proof-claims tab was empty. Cite as: T. F. Bloom, Erdős Problem #984,
+https://www.erdosproblems.com/984.
 
 **References.**
 

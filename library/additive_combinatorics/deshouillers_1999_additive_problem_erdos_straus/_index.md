@@ -48,21 +48,22 @@ The copy read for this card is the Numdam file of the article (9 pages,
 with Numdam's cover page; printed p. $n$ is PDF p. $n-139$), a scan with a
 partial text layer; the volume is Structure theory of set addition,
 Astérisque 258, Société mathématique de France (1999), the article on
-pp. 141--148 (Numdam record read: MR 1701192, Zbl 0979.11005;
-the article's own DOI is 10.24033/ast.442, per its Crossref record read). Read
-status: claims checked, on the page images (130 dpi), for the definition and the
-historical account on printed p. 141, Theorem 1, Theorem 2 and the uniqueness
-remark on printed p. 142; the proof (Sections 1--3, pp. 142--147) was read for
-its structure only and $N_0$ is not made explicit. Result page:
+pp. 141--148 (Numdam record read 2026-09-18: MR 1701192, Zbl 0979.11005;
+the article's own DOI is 10.24033/ast.442, per its Crossref record read
+2026-10-07). Read status: claims checked, on the page images (130 dpi), for the
+definition and the historical account on printed p. 141, Theorem 1, Theorem 2
+and the uniqueness remark on printed p. 142; the proof (Sections 1--3, pp.
+142--147) was read for its structure only and $N_0$ is not made explicit. Result
+page:
 [[additive_combinatorics/deshouillers_1999_additive_problem_erdos_straus/theorem_1|theorem_1]]
-(Theorem 1 with Theorem 2 and the remark). The digest's statements agree
-with the page images; part 1, cited for Theorem 2 and the $(2+o(1))\sqrt N$
-bound, is Israel J. Math. 92 (1995), 33--43 (DOI 10.1007/BF02762069,
-Crossref record read), not held. The file prints "© Société
-mathématique de France, 1999, tous droits réservés." and "Toute copie ou
-impression de ce fichier doit contenir la présente mention de copyright." on its
-Numdam cover page and "© Astérisque 258, SMF 1999" on its first article page
-(printed p. 141), every other right reserved.
+(Theorem 1 with Theorem 2 and the remark). The digest's statements agree with
+the page images; part 1, cited for Theorem 2 and the $(2+o(1))\sqrt N$ bound, is
+Israel J. Math. 92 (1995), 33--43 (DOI 10.1007/BF02762069, Crossref record read
+2026-09-18), not held. The file prints "© Société mathématique de France, 1999,
+tous droits réservés." and "Toute copie ou impression de ce fichier doit
+contenir la présente mention de copyright." on its Numdam cover page and "©
+Astérisque 258, SMF 1999" on its first article page (printed p. 141), every
+other right reserved.
 
 Source: <http://www.numdam.org/item/AST_1999__258__141_0/>.
 

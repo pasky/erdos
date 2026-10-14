@@ -64,7 +64,7 @@ below; it adds no statement about human assistance. The PDF's title page
 carries the author line "OpenAI" and the date September 26, 2026, and the
 manuscript cites no arXiv identifier or journal for itself. No refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 Formalization. The release's catalogue `lean/formalization.yaml` does not name

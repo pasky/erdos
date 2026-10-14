@@ -42,7 +42,7 @@ Hamiltonicity sentences of Part VIII (p. 16), read clause by clause on the page
 images, and for Part III item 3 (p. 7: the Erdős--Sauer function $F(n;r)$ and
 the Berge sentences), read clause by clause on the page image, and for display
 (2) of Part V (p. 9), Part III item 2 display (3) with its p. 7 upper bound and
-Part III item 3 (p. 7), re-read on the page images for the Problem 159, 714 and
+Part III item 3 (p. 7), read on the page images for the Problem 159, 714 and
 182 rows, and for Part IV, item 2 (p. 8: the Hajós and Hajnal--Mader passages,
 the exponent of Mader's bound checked on a 300 dpi crop), the Murty--Plesnik and
 Gyárfás sentences of p. 15 and the opening of Part VIII (p. 16: the singularity

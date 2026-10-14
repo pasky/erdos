@@ -163,7 +163,7 @@ revision linked under Formalization says open and not formalized. On 22
 September 2026 the thread received one comment, the computation of $k(3,4)=21$
 recorded on
 [[problems/ramsey_theory/E0112/claims/2026_09_22_muhamadiev|its claim page]];
-the proof-claim tab carried no entry on 2026-10-07.
+the proof-claim tab carried no entry.
 
 **Origin.** Erdős and Rado's
 [[../library/ramsey_theory/erdos_1967_partition_relations_transitivity_domains_binary_relations/theorem_1|Theorem 1]]
@@ -242,10 +242,10 @@ $k(n,m)=r(I_n,L_m)$ of [IRW21]. Known exactly:
   [[../library/ramsey_theory/ihringer_2017_new_bounds_ramsey_number_r_i/proposition_3_4|Proposition 3.4]]
   and two explicit oriented graphs on 14 and 22 vertices (p. 10; the
   constructions were not verified here). Acceptance evidence: Discrete
-  Mathematics 344 (2021), a refereed journal (Crossref record); the
-  locators are those of the arXiv v3 of 8 April 2020, whose arXiv comment
-  says that it incorporates reviewers' comments, not compared with the
-  journal text.
+  Mathematics 344 (2021), a refereed journal (Crossref record accessed
+  2026-09-18); the locators are those of the arXiv v3 of 8 April 2020, whose
+  arXiv comment says that it incorporates reviewers' comments, not compared with
+  the journal text.
 
 No other exact value was found in the sources read or in a refereed
 source. The paper's

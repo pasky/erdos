@@ -136,12 +136,13 @@ accepts responsibility for the paper.
 
 ## Lean files
 
-The repository's `lean/` directory (added 2026-06-02 by its commit list)
-accompanies the June 1 version; the entry point is `Erdos501/Main.lean`, with
-the statements `P`, `StrongP` and `CH` in `Erdos501/Basic.lean`, FMEA in
-`Erdos501/MeasureExtension.lean` as the existence of a countably additive
-measure on all subsets of the real line extending Lebesgue measure on measurable
-sets, the section bound under `Erdos501/External/`, and the theorems
+The repository's `lean/` directory (added 2026-06-02 by its commit list, read
+2026-09-27) accompanies the June 1 version; the entry point is
+`Erdos501/Main.lean`, with the statements `P`, `StrongP` and `CH` in
+`Erdos501/Basic.lean`, FMEA in `Erdos501/MeasureExtension.lean` as the existence
+of a countably additive measure on all subsets of the real line extending
+Lebesgue measure on measurable sets, the section bound under
+`Erdos501/External/`, and the theorems
 
 - `Erdos501.fmea_implies_P : FMEA → P`,
 - `Erdos501.fmea_implies_StrongP : FMEA → StrongP`,

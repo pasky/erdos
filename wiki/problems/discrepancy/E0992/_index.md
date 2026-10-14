@@ -68,7 +68,7 @@ Berkes and Philipp's disproof, a self-contained version of their mechanism, and
 is linked, pinned, on
 [[problems/discrepancy/E0992/claims/1994_12_01_berkes_philipp|the claim page]].
 The site records no formal-conjectures statement file, and the community
-database lists the problem as unformalized.
+database lists the problem as unformalized (read 2026-10-06).
 
 ## Progress
 

@@ -49,7 +49,7 @@ non-bipartite graph $\mathcal M$.
 
 **Source.** Z. Füredi, *The maximum number of edges in a minimal graph of
 diameter 2*, J. Graph Theory 16 (1992), no. 1, 81--98,
-doi:10.1002/jgt.3190160110 (March 1992; Crossref record read).
+doi:10.1002/jgt.3190160110 (March 1992; Crossref record read on 2026-09-19).
 The copy read for this page is the scan of IMA Preprint Series #408 (March 1988;
 PDF p. 1 is the cover, and preprint p. $n$ is PDF p. $n+1$), whose text layer
 is empty, so Conjecture 1.1, the earlier bounds (preprint p. 1 = PDF p. 2)

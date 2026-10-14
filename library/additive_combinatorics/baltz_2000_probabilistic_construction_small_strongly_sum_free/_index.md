@@ -47,15 +47,16 @@ later superseded by Ruzsa.
 The retained [folder-name PDF](baltz_2000_probabilistic_construction_small_strongly_sum_free.pdf)
 is the journal's six-page file (Colloq. Math. 86 (2000), no. 2, 171--176;
 received 4 May 1999, revised 1 December 1999; printed p. $n$ is PDF p.
-$n-170$) with a complete text layer; the Crossref record
+$n-170$) with a complete text layer; the Crossref record (read 2026-09-18)
 confirms the volume and pages. Read status: claims checked for the p. 171
 definition of strongly sum-free sets and the attributions to Choi
 ($g(n)\ge\ln n$, $g(n)=O(n^{2/5+\varepsilon})$, the integer reduction), the
 p. 172 definition of $f(n)$ with the half-open intervals $[2n,4n)$ and
 $[n,2n)$, the greedy $f(n)\ge\sqrt n$ and the report of Choi's $O(n^{3/4})$
 and conjecture $O(n^{1/2+\varepsilon})$, Theorem 2 (p. 173), Corollary 3 (p.
-174) and Theorem 4 (p. 174), each read clause by clause in the text layer; the proofs of Theorem 2 and Corollary 3 were read for their
-structure and not checked. The statements are on
+174) and Theorem 4 (p. 174), each read clause by clause in the text layer; the
+proofs of Theorem 2 and Corollary 3 were read for their structure and not
+checked. The statements are on
 [[additive_combinatorics/baltz_2000_probabilistic_construction_small_strongly_sum_free/theorem_2|theorem_2]]
 and
 [[additive_combinatorics/baltz_2000_probabilistic_construction_small_strongly_sum_free/corollary_3|corollary_3]].

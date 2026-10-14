@@ -68,10 +68,10 @@ Source: <https://arxiv.org/abs/1805.02945>.
 The copy read for this card is arXiv:1805.02945v1 (8 May 2018, 21 pages;
 the only version listed on 2026-09-18); the published version, Proc. Roy.
 Soc. Edinburgh Sect. A 150 (2020), no. 3, 1401--1427, DOI
-10.1017/prm.2018.137, online 30 January 2019 (Crossref record fetched), was
-not compared. Read status: claims checked. Theorems 1--4 and Corollaries
-1--4 were read clause by clause on the page images of pp. 1--4, and Remarks
-4 and 5 on p. 20. The proofs of Theorems 1--4 (Sections 5--7, pp. 8--20)
+10.1017/prm.2018.137, online 30 January 2019 (Crossref record fetched
+2026-09-18), was not compared. Read status: claims checked. Theorems 1--4 and
+Corollaries 1--4 were read clause by clause on the page images of pp. 1--4, and
+Remarks 4 and 5 on p. 20. The proofs of Theorems 1--4 (Sections 5--7, pp. 8--20)
 were read for their structure only and were not checked step by step.
 Theorem 3 (pp. 3--4) carries the lower bounds for general denominators n,
 among them f_3(4,n) >= exp((log 6+o(1)) log log n) for n in a set of

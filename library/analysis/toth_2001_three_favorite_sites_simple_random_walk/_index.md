@@ -23,7 +23,7 @@ finitely many times.
 
 Bálint Tóth, *No more than three favorite sites for simple random walk*,
 Ann. Probab. **29** (2001), no. 1, 484--503; DOI 10.1214/aop/1008956341
-(Crossref record read (UTC)). Received February 2000; revised
+(Crossref record read 2026-09-17 (UTC)). Received February 2000; revised
 July 2000. AMS 2000 subject classifications 60J15, 60J55.
 
 The copy read for this card is the publisher's typeset PDF of the twenty

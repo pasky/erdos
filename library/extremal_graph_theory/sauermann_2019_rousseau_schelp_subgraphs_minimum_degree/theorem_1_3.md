@@ -50,7 +50,8 @@ Rousseau and Schelp on subgraphs of minimum degree $k$*, arXiv:1705.09979v2
 Conjecture 1.2 and the deduction on p. 2, read on the page image; the
 induced-subgraph remark on p. 3 in the text layer. The proof occupies
 Sections 2--5 (pp. 3--33). Published in J. Combin. Theory Ser. B 134
-(2019), 36--75, doi:10.1016/j.jctb.2018.05.002 (Crossref record read); the journal text was not compared. The edition read is
+(2019), 36--75, doi:10.1016/j.jctb.2018.05.002 (Crossref record read on
+2026-09-18); the journal text was not compared. The edition read is
 identified in the
 [[extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/_index|source digest]].
 

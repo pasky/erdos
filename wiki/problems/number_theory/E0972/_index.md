@@ -71,7 +71,7 @@ commentary citing [Vi48]), its two-comment discussion thread (8 October
 - [BaSh07] Banks, W. D. and Shparlinski, I. E., Prime numbers with Beatty
   sequences. arXiv:0708.1015v1 (7 August 2007); Colloq. Math. 115 (2009),
   no. 2, 147--157,
-  doi:10.4064/cm115-2-1 (Crossref record; the journal
+  doi:10.4064/cm115-2-1 (Crossref record accessed 2026-09-18; the journal
   text not held or compared; locators are the preprint's). Theorem 5.1 (p. 7),
   Theorem 5.4 and Corollaries 5.5--5.6 (p. 11). Library home:
   [[../library/number_theory/banks_2007_prime_numbers_beatty_sequences/_index|banks_2007_prime_numbers_beatty_sequences]];
@@ -79,12 +79,12 @@ commentary citing [Vi48]), its two-comment discussion thread (8 October
   [[../library/number_theory/banks_2007_prime_numbers_beatty_sequences/theorem_5_4|theorem_5_4]].
 - [LiPa09] Li, H. and Pan, H., Primes of the form $\lfloor\alpha p+\beta\rfloor$.
   J. Number Theory 129 (2009), no. 10, 2328--2334,
-  doi:10.1016/j.jnt.2009.03.009 (Crossref record);
+  doi:10.1016/j.jnt.2009.03.009 (Crossref record accessed 2026-09-18);
   arXiv:0803.1740v3 (5 April 2008), known here by its abstract only. Not
   held; a lead by identifier.
 - [So21] Song, Y., A note on primes of the form $\lfloor\alpha p+\beta\rfloor$.
   J. Number Theory 225 (2021), 1--17, doi:10.1016/j.jnt.2021.01.005
-  (Crossref record; known here by its title only). A
+  (Crossref record accessed 2026-09-18; known here by its title only). A
   lead by identifier.
 - [Di20] Dimitrov, S. I., On the distribution of $\alpha p$ modulo one over
   Piatetski-Shapiro primes. arXiv:2005.05008 (v2, 1 May 2025; abstract
@@ -94,12 +94,12 @@ commentary citing [Vi48]), its two-comment discussion thread (8 October
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/972.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/972.lean)
-of formal-conjectures at the linked commit (main) defines
+of formal-conjectures at the linked commit (main on 2026-09-18) defines
 `primeSet (α : ℝ) : Set ℕ := {p : ℕ | Nat.Prime p ∧ Nat.Prime ⌊ (α * p) ⌋₊}`
 and declares
 `erdos_972 : answer(sorry) ↔ ∀ α > 1, Irrational α → (primeSet α).Infinite`
 under `category research open`, with proof `sorry`. The community database
-(teorth/erdosproblems) records the problem open (31
+(teorth/erdosproblems, accessed 2026-09-18) records the problem open (31
 August 2025), the statement formalized since 7 December 2025, and no formal
 proof. Nothing was built.
 

@@ -216,10 +216,10 @@ located on p. 367. Nothing here is independently reviewed.
   impossible to omit 5 vertices of $G$ to obtain a 2-chromatic graph"
   (p. 357) and $g(\mathsf A)=1$. (C) (p. 358) the Erdős--Gallai and
   Andrásfai theorem as display (8),
-  "$e(G^n)\le f(n;K_3)-\tfrac12m\,[\text{sic}]+O(1)$ (see [2])" for triangle-free graphs
-  that are not 2-chromatic (printed with $m$ where the bound needs $n$, a
-  filing observation), Erdős's Problem, and Theorem 2.7 with display (9),
-  paged at
+  "$e(G^n)\le f(n;K_3)-\tfrac12m\,[\text{sic}]+O(1)$ (see [2])" for
+  triangle-free graphs that are not 2-chromatic (printed with $m$ where the
+  bound needs $n$, a filing observation), Erdős's Problem, and Theorem 2.7 with
+  display (9), paged at
   [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7|theorem_2_7]];
   (p. 359) Remark 2.8 (a)--(d) with display (10), paged at
   [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/remark_2_8|remark_2_8]].

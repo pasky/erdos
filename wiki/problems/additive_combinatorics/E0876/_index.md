@@ -120,13 +120,13 @@ submitted 2026-07-18 (seven comments) and a full claim submitted
   from the site.
 - [DEM99] Deshouillers, J.-M., Erdős, P. and Melfi, G., On a question about
   sum-free sequences. Discrete Math. 200 (1999), no. 1--3, 49--54,
-  doi:10.1016/S0012-365X(98)00322-7 (its Crossref record carries the
-  publisher's open-archive license dated 2013). Not held; its
-  construction is reported from the site and described by [LuSc00], p. 228,
-  as a perturbation of the cubes.
+  doi:10.1016/S0012-365X(98)00322-7 (its Crossref record, read 2026-09-18,
+  carries the publisher's open-archive license dated 2013). Not held; its
+  construction is reported from the site and described by [LuSc00], p. 228, as a
+  perturbation of the cubes.
 - [LuSc00] Łuczak, T. and Schoen, T., On the maximal density of sum-free
   sets. Acta Arith. 95 (2000), no. 3, 225--229, doi:10.4064/aa-95-3-225-229
-  (Crossref record read). Theorem 3, p. 226; Section 3,
+  (Crossref record read 2026-09-18). Theorem 3, p. 226; Section 3,
   pp. 227--229. Library home:
   [[../library/additive_combinatorics/luczak_2000_maximal_density_sum_free_sets/_index|luczak_2000_maximal_density_sum_free_sets]];
   result pages
@@ -141,7 +141,7 @@ submitted 2026-07-18 (seven comments) and a full claim submitted
   [[../library/divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_2|Theorem 2]].
 - [Fa26] Fan, S., Strongly complete sets and a conjecture of Erdős.
   arXiv:2607.14071 (v1 15 July 2026; v5 16 September 2026; 35 pp.; arXiv
-  API record read). The preprint the tab's claim invokes for
+  API record read 2026-09-18). The preprint the tab's claim invokes for
   its Corollary 1.2 (the claim calls it a resolution of Problem 254); its
   own claim page is
   [[problems/integer_sequences/E0254/claims/2026_07_15_fan|Fan's claim on Problem 254]],
@@ -294,7 +294,8 @@ by it; the two tab claims have claim pages and are summarized here.
   decide the gap questions.
 
 **Search scope.** None of the routes below found a source deciding either
-gap question, a copy of [Er98] or [DEM99], or a determination of the reciprocal-sum maximum.
+gap question, a copy of [Er98] or [DEM99], or a determination of the
+reciprocal-sum maximum.
 
 - The site: problem page, discussion thread and proof-claim tab on
   2026-09-18; the community database record; the formal-conjectures

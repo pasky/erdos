@@ -55,7 +55,7 @@ progressions; it does not give W(k)^{1/k} → ∞.
 Source: <https://arxiv.org/abs/1409.6921>.
 
 The copy read for this card is arXiv:1409.6921v1 (24 September 2014), 16 pages,
-the only arXiv version; the journal version (Crossref record read)
+the only arXiv version; the journal version (Crossref record read 2026-10-07)
 was not compared, and the theorem numbers cited here are v1's.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0138/_index|#138]]:

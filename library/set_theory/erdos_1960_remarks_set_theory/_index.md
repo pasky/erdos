@@ -18,7 +18,7 @@ updated: 2026-10-08T01:29:58Z
 P. Erdős, A. Hajnal: Some remarks on set theory, VIII., Michigan Math. J. 7
 (1960), 187--191 (MR 22 #6718; Zentralblatt 95,39). No notice is printed in the
 file (pp. 1--2 and 4--5 read); the hosting archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, read: "(C)
+site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C)
 2005-2007 All rights reserved. All material on this site is for scientifics
 purposes only."); the Crossref record for DOI 10.1307/mmj/1028998389 (read
 2026-10-02) names no license, and the publisher's page on Project Euclid could

@@ -151,8 +151,8 @@ accessed 2026-09-18.
 **Formalization.** Statement only. The file
 [`ErdosProblems/542.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f376614d5c06a639d6765ac5ac54ede4ab6b46e6/FormalConjectures/ErdosProblems/542.lean)
 of formal-conjectures, added on 20 September 2026 and revised on 22 September
-2026 to exclude $1$ from the sets (the revision linked, the latest change to the
-file), defines `IsLcmFree n A` ($A\subseteq[1,n]$ with
+2026 to exclude $1$ from the sets (the revision linked; on 2026-10-07 it was the
+latest change to the file), defines `IsLcmFree n A` ($A\subseteq[1,n]$ with
 $\operatorname{lcm}(a,b)>n$ for distinct $a,b\in A$) and `uncovered n A`, the
 integers $1\le m\le n$ divisible by no element of `A`, and states, under
 `category research solved` with `sorry` bodies: `erdos_542.parts.i`,
@@ -216,10 +216,9 @@ whether $\rho_n>1$ holds infinitely often; a suggestion for $h$; and the
 site author's note that [Er98] calls it an old problem, that [ScSz59]
 attribute it to a personal communication of Erdős, and that the strong
 conjecture would mean $\rho_n>1$ only for $n=5$ and $n=11$. The proof-claim
-tab is empty. On 2026-10-07 the page showed the same edit date, three
-comments and no proof claim. The
-[[problems/integer_sequences/E0542/claims/_index|claim pages]] record the
-results.
+tab is empty. On 2026-10-07 the page showed the same edit date and three
+comments. The [[problems/integer_sequences/E0542/claims/_index|claim pages]]
+record the results.
 
 **The origins.** [Er73], item 14.1 (pp. 134--135): condition (14.1),
 "$[a_i,a_j]>n$, $1\le i<j\le k$. In other words, no $m\le n$ is divisible by two

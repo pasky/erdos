@@ -41,11 +41,11 @@ the proof shows.
 
 **Source.** T. C. Brown and B. M. Landman, *Monochromatic arithmetic
 progressions with large differences*, Bull. Austral. Math. Soc. 60 (1999), no.
-1, 21--35, DOI 10.1017/S0004972700033293 (Crossref record read; published August
-1999). The copy read here is the authors' 14-page copy with its own pagination
-1--14 (the first page carries the citation data), not the journal's pp. 21--35;
-locators are pages of that copy. Theorem 7 and its first proof on p. 6, the
-stronger version on p. 7, read on the page images.
+1, 21--35, DOI 10.1017/S0004972700033293 (Crossref record read 2026-09-18;
+published August 1999). The copy read here is the authors' 14-page copy with its
+own pagination 1--14 (the first page carries the citation data), not the
+journal's pp. 21--35; locators are pages of that copy. Theorem 7 and its first
+proof on p. 6, the stronger version on p. 7, read on the page images.
 
 **Read depth.** Claims checked: the definition (p. 1), Theorem 7 and the
 stronger version were read clause by clause on the page images. The

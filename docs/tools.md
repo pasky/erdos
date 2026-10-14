@@ -93,8 +93,9 @@ legs and a passing count summary go to stderr, failed legs and a failing count
 summary go to stdout, the final success line goes to stdout, and the exit code
 is 0 when no leg failed, 1 when any leg failed, and 2 on a command or usage
 error. The evidence command (`erdos evidence`, "Evidence command contract"
-below) and the one-off audits are not gate legs: nothing in the gate, the hooks,
-or the merge path runs them.
+below) and the lead audit are not gate legs: nothing in the gate, the hooks, or
+the merge path runs them. The license audit, the other one-off audit, runs as
+the gate's `library licenses` leg ("One-off audits" below).
 
 Root pytest discovery is limited to `tests/` and `tools/`, including package
 doctests; it does not collect mathematical evidence.
@@ -365,6 +366,14 @@ gate's `library licenses` leg runs the same audit.
 The rules below are specific to this repository and hold in addition to the
 shared text above; a sentence that differs from the shared text says that it
 governs here.
+
+### Historical declarations
+
+Here the `historical` declaration is the bare word, without a date: the
+program's page names the date of the text it read, and no program in this
+repository reads the date from the declaration line. The runner accepts the bare
+word and starts no program that carries it. Other copies of these contracts may
+date the declaration (`historical <YYYY-MM-DD>`); here the bare word governs.
 
 ### Shared package
 

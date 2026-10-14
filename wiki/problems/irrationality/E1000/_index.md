@@ -86,7 +86,7 @@ not been built or audited here.
 
 ## Current assessment
 
-The site records Problem 1000 as proved; it credits
+The site recorded Problem 1000 as proved (accessed 2026-09-04); it credits
 Cassels with the zero lower limit and Haight with the solution. Haight's
 thesis has no library card. No literature search beyond those sources and no
 independent assessment of proof coverage are recorded. The

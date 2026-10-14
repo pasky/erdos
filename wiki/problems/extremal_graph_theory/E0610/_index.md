@@ -40,7 +40,7 @@ $$
 
 for some absolute constant $c>0$?
 
-**Formulation.** The site's wording as of 2026-09-19 (page last edited 28
+**Formulation.** The site's wording as accessed 2026-09-19 (page last edited 28
 May 2026). The definition is the 1992 paper's: a clique
 is an inclusion-maximal complete subgraph with at least two vertices, so
 isolated vertices are not cliques (p. 279), and $\tau(G)$ is its
@@ -142,19 +142,19 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
 - [Er94] Erdős, P., Problems and results on set systems and hypergraphs.
   Extremal problems for finite sets (Visegrád, 1991), Bolyai Soc. Math. Stud.
   3, János Bolyai Math. Soc., Budapest (1994), 217--227 (the site's reference
-  text at `/bibs/Er94` gives "(1994),
+  text at `/bibs/Er94`, read 2026-09-19, gives "(1994),
   217-227. (MR 1319165)"; the volume and publisher from the graphs problem
   collection's bibliography). Not held: a 1994 volume chapter after the Rényi
-  archive's cutoff (the archive's index lists no paper
+  archive's cutoff (on 2026-09-19 the archive's index listed no paper
   after 1989), with no open copy identified. The graphs problem collection's
-  page "CliqueTransversalUpperBound" attributes to it the
+  page "CliqueTransversalUpperBound" (read 2026-09-19) attributes to it the
   question "Is it true that $\tau(G)<n-g(n)\sqrt n$ and $g(n)\to\infty$ as
   $n\to\infty$?" (its notation), the first question here.
 - [Er99] Erdős, P., A selection of problems and results in combinatorics.
   Combin. Probab. Comput. 8 (1999), 1--6. Not held; no open copy identified.
 - [Note26] *A note on the clique-transversal number*, a four-page note dated
   "April 21, 2026", with no author named in its text, hosted at
-  https://www.ulam.ai/research/erdos610.pdf (PDF metadata
+  https://www.ulam.ai/research/erdos610.pdf (read 2026-09-19; PDF metadata
   21 April 2026). Theorem 1 ($T(n)=n-\Theta(\sqrt{n\log n})$),
   Lemma 2 (the color-class transfer), Theorem 3 ([JMRS21] quoted), Corollary
   4, Lemma 5, Theorem 6 ([Ki95] quoted), Corollary 7, Remark 8. The thread
@@ -168,8 +168,8 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
   thread's 18 May 2026 post points to it. Not held.
 - [LMW23] Lichev, L., Mitsche, D. and Warnke, L., The jump of the clique
   chromatic number of random graphs. Random Structures Algorithms 62 (2023),
-  no. 4, 1016--1034, doi:10.1002/rsa.21128; named in the thread as a paper
-  whose proofs use the [JMRS21] bounds. Not held.
+  no. 4, 1016--1034, doi:10.1002/rsa.21128 (Crossref record read 2026-09-19);
+  named in the thread as a paper whose proofs use the [JMRS21] bounds. Not held.
 - [MSV26] Morris, R., Sahasrabudhe, J. and Verstraëte, J., On the
   Erdős--Rogers function. arXiv:2607.16118v1 (17 July 2026); named in the
   thread for the same reason; also a lead on Problem 620. Not held.
@@ -183,7 +183,7 @@ lists `status` "proved (Lean)" as of its record's last update of 7 June 2026,
 The development behind the label is the file `erdos610.lean` at
 https://www.ulam.ai/research/erdos610.lean, linked from the thread's 21 April
 2026 post, which describes it as a formalization in Lean by Aristotle with
-external references left as sorries (as of 2026-09-19: 336 lines, `import
+external references left as sorries (read 2026-09-19: 336 lines, `import
 Mathlib`). Its header says "This file formalizes the paper resolving Erdős
 Problem #610, showing that `T(n) = n - Θ(√(n log n))`"; it defines
 `IsMaxClique2`, `IsCliqueTransversal` and `IsCliqueColoring`, proves
@@ -300,7 +300,7 @@ little, since it essentially assumes what it needs to prove, and that the
 proofs in [JMRS21] adapt those of Molloy's paper (linking arXiv:1701.09133),
 where a proper formalization should start; a post of 17 July 2026 by the
 same account says that for this reason the site should not call the problem
-proved in Lean. The label is the site's; the frontmatter's
+proved in Lean. The label was the site's on 2026-09-19; the frontmatter's
 `proved` rests on the refereed theorem, and the suffix is recorded as the
 site's.
 
@@ -341,14 +341,14 @@ the proof of Theorem 1 was read for structure only, no erratum or correction
 to [JMRS21] appears in the Crossref record, and the two papers named as
 affected are not held. If a gap were confirmed and not repaired, Corollary 2
 would lose its proof and with it the problem's standing, since no other
-source for $\chi_c(G)=O(\sqrt{n/\log n})$ was found. The site's label and
-commentary, are unchanged since 28 May 2026.
+source for $\chi_c(G)=O(\sqrt{n/\log n})$ was found. On 2026-09-19 the
+site's label and commentary had been unchanged since 28 May 2026.
 
 **Search scope.** None of the routes below found a
 correction or retraction of [JMRS21], a published response to the gap claim,
 a second proof of the corollary, or a change of the site's label.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-19; the formal-conjectures repository (main, 2026-09-19; no file
   610); the
   community database; the site's reference text for [Er94] (`/bibs/Er94`).
@@ -361,7 +361,7 @@ a second proof of the corollary, or a change of the site's label.
   2607.16118 (one version) and 1701.09133 (two versions).
 - The note and the Lean file at ulam.ai, as linked from the thread.
 - The graphs problem collection (mathweb.ucsd.edu/~erdosproblems, the pages
-  "CliqueTransversal" and "CliqueTransversalUpperBound", as of 2026-09-19):
+  "CliqueTransversal" and "CliqueTransversalUpperBound", read 2026-09-19):
   both state the 1992 bound as "the best current bound", the second
   attributing the $g(n)\sqrt n$ question to [Er94].
 - arXiv API: `all:"clique transversal"` sorted by date (six records, 2016

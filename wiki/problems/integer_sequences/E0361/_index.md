@@ -34,8 +34,8 @@ This page and its claims read the second question as asking whether
 $f_c(n)/n$ fails to converge, the reading Beyer de Ryke's note states as its
 interpretation.
 
-**Status.** Open. The site's label was OPEN (page last edited 17 October 2025;
-thread and proof-claims tab accessed 2026-10-07). Write $f_c(n)$ for the largest
+**Status.** Open. The site's label was OPEN (page last edited 17 October 2025);
+its thread was accessed 2026-10-07. Write $f_c(n)$ for the largest
 size. Alon's refereed Corollary 2.6 of 1987 gives $f_{1/2}(n)=(1/6+o(1))n$ along
 even $n$ ([[problems/integer_sequences/E0361/claims/1986_09_08_alon|claim
 page]]). Three partial claims of 2026 are pending. The first is a proof claim

@@ -73,11 +73,11 @@ kernel-checked or audited it.
 
 **Acceptance.** Refereed: Bull. Lond. Math. Soc. 42 (2010), no. 3, 478–488,
 published online 2010-03-24. Reviewed: the site's curator, Thomas F. Bloom,
-credits the affirmative answer to this paper in the problem's commentary.
-Garaev's refereed paper of 2011 (Mosc. J. Comb. Number Theory 1 (2011), no. 3,
-42–49) takes the theorem as its starting point and sharpens the count to
-$\exp((\log\log x)^{A})$ for every $A>0$. Garaev's paper has its own accepted
-claim page,
+credits the affirmative answer to this paper in the problem's commentary (read
+2026-10-07). Garaev's refereed paper of 2011 (Mosc. J. Comb. Number Theory 1
+(2011), no. 3, 42–49) takes the theorem as its starting point and sharpens the
+count to $\exp((\log\log x)^{A})$ for every $A>0$. Garaev's paper has its own
+accepted claim page,
 [[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|Garaev 2011]].
 The site's label was PROVED (LEAN). This corpus has not built or audited the
 Lean development linked above, so no `formalized` evidence is listed.

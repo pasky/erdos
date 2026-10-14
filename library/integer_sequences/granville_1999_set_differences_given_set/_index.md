@@ -36,7 +36,8 @@ root of m distinct ratios.
 
 A. Granville and F. Roesler, *The set of differences of a given set*,
 Amer. Math. Monthly **106** (1999), no. 4, 338--344; DOI
-10.1080/00029890.1999.12005050 (journal data checked against Crossref).
+10.1080/00029890.1999.12005050 (journal data checked against Crossref on
+2026-09-17).
 
 The copy read for this card is an
 author preprint (AMS-TeX through dvips, eight letter-size pages) carrying

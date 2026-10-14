@@ -45,10 +45,11 @@ Source: <https://arxiv.org/abs/2511.16817>.
 The retained folder-name PDF is arXiv:2511.16817v2 (15 January 2026, 25 pages),
 not the 2025 first version the citation line names; the paper is published as
 The Ramanujan Journal 69 (2026), no. 2, article 31, DOI
-10.1007/s11139-025-01312-2, online 14 January 2026 (Crossref record fetched),
-and the journal version was not compared. Read status: claims checked. Theorems
-1.1--1.4, Proposition 2.1 and Corollary 2.2 were read clause by clause (p. 2 on
-the page image, pp. 3--4 in the text layer); no proof was read. Result pages:
+10.1007/s11139-025-01312-2, online 14 January 2026 (Crossref record fetched
+2026-09-18), and the journal version was not compared. Read status: claims
+checked. Theorems 1.1--1.4, Proposition 2.1 and Corollary 2.2 were read clause
+by clause (p. 2 on the page image, pp. 3--4 in the text layer); no proof was
+read. Result pages:
 [[unit_fractions/pomerance_2025_exceptions_erdos_straus_schinzel/theorem_1_1|theorem_1_1]]
 and
 [[unit_fractions/pomerance_2025_exceptions_erdos_straus_schinzel/theorem_1_3|theorem_1_3]].

@@ -46,10 +46,10 @@ something like $k^{c\log k}$".
 
 **Source.** B. Green, *New lower bounds for van der Waerden numbers*, Forum
 of Mathematics, Pi 10 (2022), e18, 1--51, DOI 10.1017/fmp.2022.12
-(received 23 February 2021, accepted 8 March 2022; the Crossref record was
-read). The retained folder-name PDF is the published article
-(printed page equals PDF page); Theorem 1.1 on p. 2, Theorem 2.1 on p. 5,
-the comments on p. 6, read on the page images.
+(received 23 February 2021, accepted 8 March 2022; the Crossref record was read
+2026-09-18). The retained folder-name PDF is the published article (printed page
+equals PDF page); Theorem 1.1 on p. 2, Theorem 2.1 on p. 5, the comments on p.
+6, read on the page images.
 
 **Read depth.** Claims checked: Theorems 1.1 and 2.1, the update note, the
 introduction's history and the Section 2.3 expectation were read clause by

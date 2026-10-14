@@ -145,49 +145,52 @@ Bloom, Erdős Problem #475, https://www.erdosproblems.com/475, accessed
   Library home:
   [[../library/additive_bases/graham_1971_sums_integers_taken_fixed_sequence/_index|graham_1971_sums_integers_taken_fixed_sequence]].
 - [Kr24] Kravitz, N., Rearranging small sets for distinct partial sums.
-  arXiv:2407.01835v2 (18 August 2024), 4 pp. Theorems 1.2 and 1.3, p. 1.
-  Library home:
+  arXiv:2407.01835v2 (18 August 2024), 4 pp.; no journal version
+  located (Crossref, 2026-09-18). Theorems 1.2 and 1.3, p. 1. Library
+  home:
   [[../library/additive_combinatorics/kravitz_2024_rearranging_small_sets_distinct_partial_sums/_index|kravitz_2024_rearranging_small_sets_distinct_partial_sums]].
 - [BeKr24] Bedert, B. and Kravitz, N., Graham's rearrangement conjecture
   beyond the rectification barrier. arXiv:2409.07403v2 (7 January 2025,
   "Incorporates referee's suggestions"), 18 pp.; Israel J. Math. 273
   (2026), no. 1, 471--500, DOI 10.1007/s11856-025-2871-6 (published online
-  30 November 2025; Crossref record; not compared).
+  30 November 2025; Crossref record, 2026-09-18; not compared).
   Theorem 1.2, p. 1. Library home:
   [[../library/additive_combinatorics/bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification/_index|bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification]].
 - [CoDe26] Costa, S. and Della Fiore, S., New bounds for (weak)
   sequenceability in $\mathbb Z_k$. arXiv:2602.19989v1 (23 February 2026),
-  9 pp. Theorem 1.3, p. 2.
+  9 pp.; no journal record (Crossref, 2026-09-18). Theorem 1.3, p. 2.
   Library home:
   [[../library/additive_combinatorics/costa_2026_new_bounds_weak_sequenceability/_index|costa_2026_new_bounds_weak_sequenceability]].
 - [PhSa26] Pham, H. T. and Sauermann, L., On Graham's rearrangement
-  conjecture. arXiv:2602.15797v1 (17 February 2026), 27 pp. Theorem 1.2,
-  p. 1; Theorem 1.3 and Corollary 1.4, p. 2. Library home:
+  conjecture. arXiv:2602.15797v1 (17 February 2026), 27 pp.; no journal
+  record (Crossref, 2026-09-18). Theorem 1.2, p. 1; Theorem 1.3 and
+  Corollary 1.4, p. 2. Library home:
   [[../library/additive_combinatorics/pham_2026_graham_s_rearrangement_conjecture/_index|pham_2026_graham_s_rearrangement_conjecture]].
 - [BBKMM25] Bedert, B., Bucić, M., Kravitz, N., Montgomery, R. and
   Müyesser, A., On Graham's rearrangement conjecture over
-  $\mathbb F_2^n$. arXiv:2508.18254v1 (25 August 2025), 43 pp. Theorem 1.4,
-  p. 3; Theorem 7.1, p. 25; Theorem A.2, p. 42. Library home:
+  $\mathbb F_2^n$. arXiv:2508.18254v1 (25 August 2025), 43 pp.; no journal
+  record (Crossref, 2026-09-18). Theorem 1.4, p. 3; Theorem 7.1, p. 25;
+  Theorem A.2, p. 42. Library home:
   [[../library/additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/_index|bedert_2025_graham_s_rearrangement_conjecture_over]].
 - [MuPo25] Müyesser, A. and Pokrovskiy, A., A random Hall--Paige
   conjecture. arXiv:2204.09666v3 (25 February 2025, "final version, to
   appear in Inventiones Mathematicae"), 73 pp.; Invent. Math. 240 (2025),
   no. 3, 779--867, DOI 10.1007/s00222-025-01328-x (published online 5 March
-  2025; Crossref record; not compared). Theorem 1.1, p. 3;
+  2025; Crossref record, 2026-09-18; not compared). Theorem 1.1, p. 3;
   Theorem 6.9, p. 51. Library home:
   [[../library/additive_combinatorics/muyesser_2022_random_hall_paige_conjecture/_index|muyesser_2022_random_hall_paige_conjecture]].
 - [CoPe20] Costa, S. and Pellegrini, M. A., Some new results about a
   conjecture by Brian Alspach. arXiv:2003.05939v2 (23 April 2020), 9 pp.;
   Arch. Math. (Basel) 115 (2020), no. 5, 479--488, DOI
   10.1007/s00013-020-01507-7 (published online 29 August 2020; Crossref
-  record; not compared). Conjecture 1.2, p. 2; Proposition
+  record, 2026-09-18; not compared). Conjecture 1.2, p. 2; Proposition
   4.2, p. 6 (arXiv pagination). Library home:
   [[../library/additive_combinatorics/costa_2020_new_results_about_conjecture_brian_alspach/_index|costa_2020_new_results_about_conjecture_brian_alspach]].
 - [HOS19] Hicks, J., Ollis, M. A. and Schmitt, J. R., Distinct partial
   sums in cyclic groups: polynomial method and constructive approaches.
   arXiv:1809.02684v1 (7 September 2018), 18 pp.; J. Combin. Des. 27
   (2019), no. 6, 369--385, DOI 10.1002/jcd.21652 (published online 31
-  January 2019; Crossref record; not compared). Conjecture 1.1,
+  January 2019; Crossref record, 2026-09-18; not compared). Conjecture 1.1,
   p. 2; Theorem 2.2, p. 6; Theorem 4.3, p. 12; Theorem 4.6, p. 15 (arXiv
   pagination). Library home:
   [[../library/additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/_index|hicks_2019_distinct_partial_sums_cyclic_groups_polynomial]].
@@ -384,10 +387,10 @@ random subset sums ([PhSa26]); absorption and a regularity decomposition
 of Cayley graphs ([BBKMM25]); the random Hall--Paige theorem through
 sorting networks ([MuPo25]). Acceptance evidence: [BeKr24], [MuPo25],
 [CoPe20] and [HOS19] are refereed; [PhSa26], [BBKMM25] and [CoDe26] are
-preprints, [PhSa26] cited by four 2026
+preprints (no journal records on 2026-09-18), [PhSa26] cited by four 2026
 preprints and [BBKMM25] by none in the citation index consulted; the site
 records the chain in its commentary (5 March 2026) under a label that
-leaves the problem open, which is not acceptance. Under the preprint
+left the problem open, which is not acceptance. Under the preprint
 qualification the completion for large $p$ is source-supported but not
 refereed in two of its four links.
 

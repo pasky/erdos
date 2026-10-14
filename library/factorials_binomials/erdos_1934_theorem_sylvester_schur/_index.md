@@ -107,29 +107,29 @@ into a common large prime, so that additional simultaneous-divisibility input
 would be required for E0699.
 
 The journal record is J. London Math. Soc. s1-9 (1934), no. 4, 282--288,
-DOI 10.1112/jlms/s1-9.4.282 (Crossref). The copy read for
+DOI 10.1112/jlms/s1-9.4.282 (Crossref, read 2026-09-18). The copy read for
 this card is a seven-page scan of the offprint ("Extracted from the
 Journal of the London Mathematical Society, Vol. 9, Part 4"; printed
 pp. 282--288 = PDF pp. 1--7) whose text layer garbles the displays, so the
-statements were read on the page images. Printed p. 282 (PDF p. 1): "The theorem in question asserts that, if $n>k$, then, in the
-set of integers $n,n+1,n+2,\ldots,n+k-1$, there is a number containing a
-prime divisor greater than $k$." Printed p. 283 (PDF p. 2) restates it as
-"If $n\ge2k$, then $\binom nk$ contains a prime divisor greater than $k$",
-states the lemma that a prime power dividing $\binom nk$ is at most $n$, and
-settles the range $8\le k\le\sqrt n$. The statement is on
+statements were read on the page images. Printed p. 282 (PDF p. 1): "The theorem
+in question asserts that, if $n>k$, then, in the set of integers
+$n,n+1,n+2,\ldots,n+k-1$, there is a number containing a prime divisor greater
+than $k$." Printed p. 283 (PDF p. 2) restates it as "If $n\ge2k$, then
+$\binom nk$ contains a prime divisor greater than $k$", states the lemma that a
+prime power dividing $\binom nk$ is at most $n$, and settles the range
+$8\le k\le\sqrt n$. The statement is on
 [[factorials_binomials/erdos_1934_theorem_sylvester_schur/theorem|theorem]].
-Read status: claims checked for the theorem, its binomial form and the
-lemma (pp. 282--283, page images); the proof map above (pp. 283--288) was
-checked against the page images, and the proof is not
-verified. No copyright line is printed on the offprint scan ("Extracted from
-the Journal of the London Mathematical Society, Vol. 9, Part 4"); the
-publisher's page could not be read on 2026-10-02 or 2026-10-07 (the DOI
-resolves to doi.wiley.com, which returned HTTP 403), and the Crossref record
-for DOI 10.1112/jlms/s1-9.4.282 (read 2026-10-07) names Wiley as publisher
-and lists only its text-and-data-mining license and its version-of-record
-terms and conditions (http://onlinelibrary.wiley.com/termsAndConditions#vor),
-the publisher's terms and no Creative Commons license, every other right
-reserved.
+Read status: claims checked for the theorem, its binomial form and the lemma
+(pp. 282--283, page images); the proof map above (pp. 283--288) was checked
+against the page images, and the proof is not verified. No copyright line is
+printed on the offprint scan ("Extracted from the Journal of the London
+Mathematical Society, Vol. 9, Part 4"); the publisher's page could not be read
+on 2026-10-02 or 2026-10-07 (the DOI resolves to doi.wiley.com, which returned
+HTTP 403), and the Crossref record for DOI 10.1112/jlms/s1-9.4.282 (read
+2026-10-07) names Wiley as publisher and lists only its text-and-data-mining
+license and its version-of-record terms and conditions
+(http://onlinelibrary.wiley.com/termsAndConditions#vor), the publisher's terms
+and no Creative Commons license, every other right reserved.
 
 Source: <https://users.renyi.hu/~p_erdos/1934-01.pdf>.
 

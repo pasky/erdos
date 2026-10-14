@@ -68,12 +68,12 @@ https://www.erdosproblems.com/165, accessed 2026-09-18.
 
 - [HHKP25] Hefty, Z., Horn, P., King, D. and Pfender, F., Improving
   $R(3,k)$ in just two bites. arXiv:2510.19718 (v1 22 October 2025; v3 19
-  February 2026, 18 pages). Preprint; no journal record. Theorem 1.2,
-  Theorem 1.3 and Conjecture 1.1, p. 2. Library home:
+  February 2026, 18 pages). Preprint; no journal record on 2026-09-18.
+  Theorem 1.2, Theorem 1.3 and Conjecture 1.1, p. 2. Library home:
   [[../library/ramsey_theory/hefty_2025_improving_just_two_bites/_index|hefty_2025_improving_just_two_bites]].
 - [CJMS25] Campos, M., Jenssen, M., Michelen, M. and Sahasrabudhe, J., A new
   lower bound for the Ramsey numbers $R(3,k)$. arXiv:2505.13371 (v1 19 May
-  2025, 52 pages). Preprint; no journal record.
+  2025, 52 pages). Preprint; no journal record on 2026-09-18.
   Theorem 1.1 and display (1), pp. 1--2; Conjecture 1.2, p. 4. Library home:
   [[../library/ramsey_theory/campos_2025_new_lower_bound_ramsey_numbers/_index|campos_2025_new_lower_bound_ramsey_numbers]].
 - [BoKe21] Bohman, T. and Keevash, P., Dynamic concentration of the
@@ -311,7 +311,7 @@ of [HHKP25], whose Theorem 1.2 is its lower half; its upper half would
 follow, [HHKP25] p. 2 says, from a conjecture of Davies, Jenssen, Perkins
 and Roberts relating the maximum and average sizes of independent sets in
 triangle-free graphs. Acceptance: [Ki95], [BoKe21] and [PGM20] are refereed
-(per their journal records; the page numbers cited are
+(per their journal records, read 2026-09-18; the page numbers cited are
 those of a typescript and two arXiv versions, which have not been compared
 with the journal texts); [CJMS25] and [HHKP25] are preprints with no
 journal record, so the constant $1/2$ carries the preprint qualification,
@@ -342,8 +342,8 @@ the question, which asks for an asymptotic formula, so it gets no claim
 page. (3) [CJMS25] p. 4 announces a companion paper with a construction
 from the sum-free process on $\mathbb F_2^d$ that would conjecturally give
 the constant $1/2$ along an infinite sequence of $k$; not found in the
-search below. (4) Semantic Scholar lists 20 records citing [HHKP25] and 24
-citing [CJMS25] (by title): the 2026 items concern
+search below. (4) On 2026-09-18 Semantic Scholar listed 20 records citing
+[HHKP25] and 24 citing [CJMS25] (by title): the 2026 items concern
 Erdős--Rogers functions, hypergraph Ramsey numbers, cycle-complete numbers,
 the odd Hadwiger conjecture and Morris's survey; none claims a constant
 above $1/2$ or a matching upper bound.

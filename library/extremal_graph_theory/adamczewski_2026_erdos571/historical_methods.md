@@ -49,7 +49,7 @@ tree embeddings; the lower estimate constructs a random polynomial graph
 and controls how many embeddings can share a root tuple. See §2.2 for the
 balanced trees and §2.3 for the lower-bound proof. Only the statements and
 introductory explanation on pp. 2–3 were checked here, not those complete
-proofs. The current arXiv record still selects v2.
+proofs. On 2026-09-05 the arXiv record still selected v2.
 
 ## Kang–Kim–Liu: single graphs and the general lower input
 
@@ -80,7 +80,7 @@ inside $R$ to cover adjacent roots: balance and internal incident density
 are unchanged, and avoidance of the smaller rooted power gives a lower
 bound for avoidance of the original one. These statements and that
 explanation were checked against pp. 4–5. The imported lower proof itself
-was not reread in full.
+was not read in full.
 
 This establishes an earlier source for the general rooted lower-bound
 framework. The present
@@ -175,10 +175,9 @@ $$
 All three introductory pages were visually inspected, including this
 statement and the definition. The proof in §5 uses the anchored
 subfamilies introduced in §3 and the embedding lemmas for subdivisions
-proved in §4; it has not been reconstructed here. The current primary
-record, still lists only v1 and no journal reference.
-This is progress before the September resolution, not a later
-strengthening of it.
+proved in §4; it has not been reconstructed here. The primary record, checked
+2026-09-05, still listed only v1 and no journal reference. This is progress
+before the September resolution, not a later strengthening of it.
 
 ## Related questions and remaining historical coverage
 

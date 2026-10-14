@@ -66,12 +66,12 @@ the text layer. The artifact is identified in the
 
 **Read depth.** Claims checked: the statement, the odd-$n$ permutation,
 the deletion sentence and the reduction of the even case to a fixed
-starting length $x<n/2$ were read clause by clause on the page images, and the odd-$n$ permutation was checked while filing to be a
-directed cycle through all $n-1$ lengths for odd $n\le39$ (a check made
-while filing, not retained evidence and not a review verdict). The
-induction for even $n$ (pp. 5--9) was read in the text layer for structure
-only; its base cases and its step are carried by Figs. 2 and 4--11, which
-were not checked. Nothing here is independently reviewed.
+starting length $x<n/2$ were read clause by clause on the page images, and the
+odd-$n$ permutation was checked while filing to be a directed cycle through all
+$n-1$ lengths for odd $n\le39$ (a check made while filing, not retained evidence
+and not a review verdict). The induction for even $n$ (pp. 5--9) was read in the
+text layer for structure only; its base cases and its step are carried by Figs.
+2 and 4--11, which were not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

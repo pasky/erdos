@@ -81,7 +81,7 @@ and GPT-5.6 Sol as formal authors (Lean and Mathlib v4.33.0; added 17 August
 yes. It is a `formalization` link on both claim pages, with the repository's
 note as the `record` link; the corpus has not built or audited it, so neither
 page lists `formalized`. No formal-conjectures statement file for the problem
-exists and the site shows the statement as not formalized.
+existed on 2026-10-07. The site showed the statement as not formalized.
 
 ## Progress
 

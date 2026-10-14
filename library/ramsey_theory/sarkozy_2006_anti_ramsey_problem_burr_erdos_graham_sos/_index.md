@@ -25,7 +25,7 @@ says the four-cycle case, Problem 810, stays open.
 G. N. Sárközy and S. Selkow, *On an anti-Ramsey problem of Burr, Erdős,
 Graham, and T. Sós*, J. Graph Theory **52** (2006), 147--156; DOI
 10.1002/jgt.20148 (no. 2; published online 25 January 2006 per the Crossref
-record read, whose abstract is the preprint's abstract up to small
+record read 2026-09-18, whose abstract is the preprint's abstract up to small
 changes of wording and states the result informally, not in the form of
 Theorem 4).
 
@@ -73,7 +73,7 @@ Read status: claims checked for Theorem 4 and the question it addresses
   proof applies the degree form of the Regularity Lemma (Lemma 1, p. 4) and
   reduces the general case to an induced $P_4$ in $L$. Page:
   [[ramsey_theory/sarkozy_2006_anti_ramsey_problem_burr_erdos_graham_sos/theorem_4|theorem_4]]
-  (the statement re-read on the page image of p. 3).
+  (the statement read on the page image of p. 3).
 
 ## Compiled scope
 

@@ -28,7 +28,7 @@ Erdős, P., Some problems on number theory, Analytic and Elementary Number
 Theory (Marseille, 1983), Publ. Math. Orsay 86-1, Univ. Paris XI, Orsay,
 1986, 53--67 (MR 87i:11006; Zentralblatt 584.10002). The copy read for this
 card carries no journal header: the venue and the two review numbers are
-those of the hosting archive's list (entry 1986-15), the
+those of the hosting archive's list (entry 1986-15, read 2026-10-07), the
 zbMATH record Zbl 0584.10002 gives the same series, volume, pages and year,
 and a citing paper (van Doorn, Li and Tang, arXiv:2603.28636v1, reference
 [8]) names the same volume.
@@ -41,13 +41,13 @@ Erdős–Selfridge theorem and its best-possibility statement (p. 60), the
 Lemma (p. 61), the weaker theorem for intervals of length at least $3p_1$
 (p. 62) and the question on $f(u)$ (pp. 62--63); the proof on pp. 60--62 was
 read for its structure and not checked step by step. The rest of the paper
-is recorded from the digest below without a re-read. No notice is printed on the
-scan's first or last pages; the hosting archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, read: "(C)
-2005-2007 All rights reserved. All material on this site is for scientifics
-purposes only."); the Orsay volume has no publisher page or DOI for this
-edition, so no publisher's page was consulted and no Crossref license is
-recorded; the term is unstated.
+is recorded from the digest below and was not checked against the page images.
+No notice is printed on the scan's first or last pages; the hosting archive's
+site footer speaks for the site, not the paper
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
+reserved. All material on this site is for scientifics purposes only."); the
+Orsay volume has no publisher page or DOI for this edition, so no publisher's
+page was consulted and no Crossref license is recorded; the term is unstated.
 
 A fifteen-page problem paper, mostly on prime numbers and divisor functions,
 opening with Erdős's conjecture that d(n)=d(n+1) infinitely often and Claudia

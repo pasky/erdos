@@ -104,9 +104,9 @@ notes that the manuscript imports two of the 2018 paper's ingredients verbatim.
 When asked in the thread why the tab lists the claim as full rather than
 partial, the curator agrees that it should be listed as partial. The reason
 given is that the original question was already answered and neither label fits
-an improvement. As of 2026-10-07 the tab shows the claim with no full or partial
-label. The page keeps `scope: full` because the bound implies the question's
-statement for every $C$, as computed above.
+an improvement. The tab showed the claim with no full or partial label. The page
+keeps `scope: full` because the bound implies the question's statement for every
+$C$, as computed above.
 
 The manuscript is not refereed, so no `refereed` evidence is listed.
 

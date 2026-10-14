@@ -65,8 +65,8 @@ Source: <https://users.renyi.hu/~p_erdos/1948-04.pdf>. No copyright or license
 line is printed on the file's four pages (pp. 63--66); the hosting archive's
 site footer speaks for the site, not the paper ("(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only.",
-https://users.renyi.hu/~p_erdos/); the publisher's page could
-not be read (the journal's current site answered HTTP 403), and no
+https://users.renyi.hu/~p_erdos/, read 2026-10-02); the publisher's page could
+not be read on 2026-10-02 (the journal's current site answered HTTP 403), and no
 Crossref record exists for the article, which has no DOI; the term is unstated.
 
 **Bears on.** [[../wiki/problems/irrationality/E0069/_index|#69]],

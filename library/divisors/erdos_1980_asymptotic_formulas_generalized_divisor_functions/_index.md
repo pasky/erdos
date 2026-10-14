@@ -67,19 +67,20 @@ that the exponent 1 - 1/(f_A(x))^{1/3} in Theorem 2 cannot be replaced by 1 -
 1/c_6^{f_A(x)}. The proof of Theorem 2 splits A according to whether a member
 has a divisor in a range of moderate size and builds integers up to x with
 many divisors in A; its last case uses two lemmas from Part III on integers
-with unusually few or unusually many prime factors in a range, consequences of a result of K. K. Norton.
-Section 5 (pp. 478--479) poses two problems on D_A(x^2). The paper bears on
-the cited problem, whether max_{n<x} d_A(n) exceeds every fixed power of f_A(x) infinitely
-often, through the Part II theorem (1) its introduction restates (p. 468), which
-answers it yes for every power when f_A(x) -> infinity, with the restated Part I
-result covering a bounded f_A(x); both are proved in the earlier parts, and this
-paper's own theorems give only multiples Omega f_A(x).
+with unusually few or unusually many prime factors in a range, consequences of a
+result of K. K. Norton. Section 5 (pp. 478--479) poses two problems on D_A(x^2).
+The paper bears on the cited problem, whether max_{n<x} d_A(n) exceeds every
+fixed power of f_A(x) infinitely often, through the Part II theorem (1) its
+introduction restates (p. 468), which answers it yes for every power when f_A(x)
+-> infinity, with the restated Part I result covering a bounded f_A(x); both are
+proved in the earlier parts, and this paper's own theorems give only multiples
+Omega f_A(x).
 
 Source: <https://users.renyi.hu/~p_erdos/1980-40.pdf>. No notice is printed on
 the pages read (pp. 1--2 and 12--13 of the edition cited above); the paper has
 no DOI and so no Crossref record, and the publisher's journal page
-(akjournals.com) could not be read; the hosting archive's site
-footer (https://users.renyi.hu/~p_erdos/), "(C) 2005-2007 All
+(akjournals.com) could not be read on 2026-10-02; the hosting archive's site
+footer (https://users.renyi.hu/~p_erdos/, read 2026-10-02), "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.",
 speaks for the site, not the paper; the term is unstated.
 
@@ -90,11 +91,15 @@ $\limsup D_A(x)/\exp(c_1(\log f_A(x))^2)=+\infty$, and the Part I theorem
 $\limsup D_A(x)/f_A(x)=+\infty$ for every infinite $A$, the results the
 problem's claim page records as answering the question yes for every $k$
 (the paper takes $n\le x$ and $a\le x$ where the problem takes $n<x$ and
-$a<x$). Both are proved in the earlier parts, not here. This paper's own results,
-[[divisors/erdos_1980_asymptotic_formulas_generalized_divisor_functions/theorem_2|Theorem 2]] and
-[[divisors/erdos_1980_asymptotic_formulas_generalized_divisor_functions/corollary_1|Corollary 1]], give only multiples $\Omega f_A(x)$, and its
-[[divisors/erdos_1980_asymptotic_formulas_generalized_divisor_functions/problem_2|Problem 2]] (p. 479), whether $f_A(x)>c_{25}(\Omega)$ forces
-$D_A(x^2)>(f_A(x))^{\Omega}$ for all large $x$, is posed and left open.
+$a<x$). Both are proved in the earlier parts, not here. This paper's own
+results,
+[[divisors/erdos_1980_asymptotic_formulas_generalized_divisor_functions/theorem_2|Theorem 2]]
+and
+[[divisors/erdos_1980_asymptotic_formulas_generalized_divisor_functions/corollary_1|Corollary 1]],
+give only multiples $\Omega f_A(x)$, and its
+[[divisors/erdos_1980_asymptotic_formulas_generalized_divisor_functions/problem_2|Problem 2]]
+(p. 479), whether $f_A(x)>c_{25}(\Omega)$ forces $D_A(x^2)>(f_A(x))^{\Omega}$
+for all large $x$, is posed and left open.
 
 **Results.**
 

@@ -90,9 +90,8 @@ accessed 2026-09-18: the problem page (DISPROVED, with
 the site's remark that the answer is negative; last edited 7 October 2025;
 source key [ErSi70]; commentary citing [Al08], [JaSu23] and Problem 1077), its
 empty discussion thread and its empty proof-claim tab. On 2026-10-07 the page
-shows "Formalised statement? Yes", with the thread and the proof-claim tab
-empty. Cite as: T. F. Bloom, Erdős Problem #803,
-https://www.erdosproblems.com/803, accessed 2026-09-18.
+shows "Formalised statement? Yes", with the thread empty. Cite as: T. F. Bloom,
+Erdős Problem #803, https://www.erdosproblems.com/803, accessed 2026-09-18.
 
 **References.**
 
@@ -150,7 +149,7 @@ carries a `formal_proof` attribute naming theorem `not_erdos_803` of
 in Boris Alexeev's lean-proofs repository (informal author Noga Alon; formal
 authors Codex and GPT-5.6 Sol); the file also states Alon's bound and Janzer
 and Sudakov's bound as variants without proofs. The community database
-(teorth/erdosproblems, `data/problems.yaml`) lists the
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-10-07) lists the
 problem as disproved (Lean), a status its file has carried since 26 September
 2026 (the entry's update date is 16 September 2026), through Collin Yuanjie
 Ren's package formalizing Alon's construction and both negative readings, and

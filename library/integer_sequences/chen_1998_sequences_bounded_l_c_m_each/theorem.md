@@ -36,7 +36,7 @@ to $1.43\sqrt x$, and that the problem is E2 and part of B26 in Guy's book.
 
 **Source.** Yong-Gao Chen, *Sequences with bounded l.c.m. of each pair of
 terms*, Acta Arith. 84 (1998), no. 1, 71--95, DOI 10.4064/aa-84-1-71-95 (the
-Crossref record was read); the retained file is the publisher's
+Crossref record was read on 2026-09-18); the retained file is the publisher's
 25-page PDF; the Theorem is on printed p. 71 = PDF p. 1 and the Note runs
 over pp. 71--72, read in the text layer and on the page images.
 

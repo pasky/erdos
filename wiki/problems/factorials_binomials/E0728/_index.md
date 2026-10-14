@@ -76,8 +76,9 @@ https://www.erdosproblems.com/728.
   [[../library/factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/_index|sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle]].
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/728.lean), which adds the upper bound $a+b-n<C'\log n$ to exclude the trivial solutions,
-is tagged solved and names as its formal proof the Lean formalization of
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/728.lean),
+which adds the upper bound $a+b-n<C'\log n$ to exclude the trivial solutions, is
+tagged solved and names as its formal proof the Lean formalization of
 Pomerance's paper in Alexeev's repository; that file and the formalization of
 the ChatGPT-5.2 argument are linked, at pinned commits, from the two accepted
 claim pages. This corpus has built neither.
@@ -133,9 +134,10 @@ $a!\,b!\mid n!$ and small constants only, and the authors of [EGRS75] left
 the question as a remark without a conjecture.
 
 Search scope: the site's problem page, its discussion thread, the community
-database, the formal-conjectures file and Alexeev's repository. On 2026-10-07
-the thread held 87 comments, the site listed no proof claim for the problem,
-and the forum carried no claim beyond those recorded on the claim pages.
+database, the formal-conjectures file and Alexeev's repository. The site
+listed no proof claim for the problem; on 2026-10-07 the thread held 87
+comments, and the forum carried no claim beyond those recorded on the claim
+pages.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

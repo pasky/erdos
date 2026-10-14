@@ -43,7 +43,7 @@ typeset version obtained from the author's homepage. It prints "© THE
 MATHEMATICAL ASSOCIATION OF AMERICA" in the footer of pp. 636, 638, 640, 642 and
 644, and the homepage entry for it reads "(Copyright 2015, Mathematical
 Association of America. All rights reserved.)"
-(https://math.dartmouth.edu/~carlp/), every other right
+(https://math.dartmouth.edu/~carlp/, read 2026-10-02), every other right
 reserved.
 
 Pomerance studies when a shift n+k divides the middle binomial coefficient

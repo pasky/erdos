@@ -39,7 +39,7 @@ $\rho=\varphi$, can be derived from the proof.
 
 **Source.** F. V. Fomin and Y. Villanger, *Treewidth computation and
 extremal combinatorics*, Combinatorica 32 (2012), no. 3, 289--308, DOI
-10.1007/s00493-012-2536-z (Crossref record read); read in
+10.1007/s00493-012-2536-z (Crossref record read 2026-09-19); read in
 arXiv:0803.1321v2 (5 May 2008, 14 pp., an extended abstract whose
 p. 8 postpones a lemma "till the full version of this paper"), Theorem 1 on
 p. 6 and its proof on pp. 6--7, page images. The journal's pagination and

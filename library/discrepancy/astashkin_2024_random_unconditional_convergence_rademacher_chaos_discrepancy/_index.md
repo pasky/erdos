@@ -69,7 +69,7 @@ The copy read for this card
 is the arXiv version 1 PDF (stamp "arXiv:2412.20107v1 [math.PR] 28 Dec
 2024"; 30 pages with a clean text layer). Provenance: the copy was obtained in the
 repository's survey download of September 2026; the stamp identifies
-the file as <https://arxiv.org/abs/2412.20107v1>, and the download itself
+the file as <https://arxiv.org/abs/2412.20107v1>, and the download URL
 was not recorded; 341,678 bytes. Later arXiv versions or a journal version, if
 any, were not compared. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2412.20107), every other right reserved.

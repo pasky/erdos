@@ -59,9 +59,9 @@ for all $k\ge5$" (p. 235). The claim page
 records the theorem, its postings and the acceptance evidence. The later
 refutations each have their own claim page, listed under Claims below. The
 frontmatter standing is derived from these pages. The standing rests on
-Theorem 4. Its proof was followed as a reduction to the paper's Theorems 2 and 3, and it
-is not independently checked. The paper is in the publisher's open archive. Its
-library home is
+Theorem 4. Its proof was followed as a reduction to the paper's Theorems 2 and
+3, and it is not independently checked. The paper is in the publisher's open
+archive. Its library home is
 [[../library/ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/_index|reid_parker_1970_disproof_conjecture_erdos_moser_tournaments]],
 with result pages
 [[../library/ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/theorem_4|Theorem 4]]
@@ -98,7 +98,7 @@ F. Bloom, Erdős Problem #1216, https://www.erdosproblems.com/1216, accessed
   subtournaments. Graphs Combin. 10 (1994), no. 2--4, 367--376,
   doi:10.1007/BF02986687; [Sa98b] Sánchez-Flores, A., On tournaments free
   of large transitive subtournaments. Graphs Combin. 14 (1998), no. 2,
-  181--200, doi:10.1007/s003730050025 (Crossref records).
+  181--200, doi:10.1007/s003730050025 (Crossref records of 2026-09-18).
   Neither held; their theorems, $R(7)\le55$ in [Sa94] and $R(7)\le54$ in
   [Sa98b], are recorded from their zbMATH reviews (Zbl 0811.05029, Zbl
   0918.05058) on their claim pages, and attested in part by [IRW21], [NMH22]
@@ -129,17 +129,18 @@ F. Bloom, Erdős Problem #1216, https://www.erdosproblems.com/1216, accessed
   directed Ramsey problem. arXiv:1401.6823 (v1 27 January 2014; v3 21
   January 2016, 17 pp.); Theorem 4.2 and the introduction's survey, cited
   from the author-hosted revised copy (14 pp., linked from the site's thread;
-  fetched 2026-09-18, 285,814 bytes). The copy thanks a referee. Not held in
-  the library.
+  fetched 2026-09-18, 285,814 bytes). No journal record was found in
+  Crossref on 2026-09-18 (two bibliographic queries); the copy thanks a
+  referee. Not held in the library.
 - [NeLa94] Neumann-Lara, V., A short proof of a theorem of Reid and Parker
   on tournaments. Graphs Combin. 10 (1994), 363--366, doi:10.1007/BF02986686
-  (Crossref record). Not held; by its zbMATH review (Zbl
+  (Crossref record of 2026-09-18). Not held; by its zbMATH review (Zbl
   0811.05028) it gives a shorter proof of Reid and Parker's Corollary 1,
   recorded on its claim page.
 
 **Formalization.** None found. No file for this problem exists in
-google-deepmind/formal-conjectures (main; [the directory
-`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems),
+google-deepmind/formal-conjectures (main, fetched 2026-09-18T10:41:20Z;
+[the directory `FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems),
 673 entries, was listed in full), and the community database
 ([teorth/erdosproblems](https://github.com/teorth/erdosproblems/blob/5466d4a29b4971ce39df3a41e3b618d853d3ec3a/data/problems.yaml))
 records the problem disproved (last updated 21 April 2026), not formalized (4

@@ -85,10 +85,11 @@ by the catalog to Simonovits's thesis through Simonovits's 1974 paper
 as
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/_index|simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs]];
 its Theorem 2.7, introduced by "I showed [13] that" with [13] the thesis, is
-on printed p. 358 (PDF p. 10), read there clause by clause on the page image and paged on
+on printed p. 358 (PDF p. 10), read there clause by clause on the page image and
+paged on
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7|theorem_2_7]].
-The theorem is printed without proof, so the determination itself is still
-known only through that statement.
+The theorem is printed without proof, so the determination itself is still known
+only through that statement.
 
 ## Dependencies
 

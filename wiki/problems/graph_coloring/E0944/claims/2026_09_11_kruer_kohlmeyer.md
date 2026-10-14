@@ -148,18 +148,18 @@ reproduced it exactly.
 **Verification record.** Besides the replay under **Acceptance.**, this corpus
 read the proof file,
 <https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70/solution>
-(459,268 bytes, 9,535 lines, as fetched). Its final theorem is the one displayed
-above, split into the cases $k=4$, $k=5$ and $k\ge6$. The file contains no
-`sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`, `implemented_by`,
-`extern`, `partial` or `opaque`, has four `decide +kernel` sites on finite
-cases, and declares nothing that shadows the catalog's or Mathlib's names (it
-sits in its own namespace with no `open`, `instance`, `notation` or `_root_`).
-The bridge lemma holds as stated, and for the $k\ge5$ witnesses at small
-parameters the punctured colorings, recomputed in exact arithmetic, are proper
-away from the puncture. Two points the reading did not reach rest on the kernel
-replay alone: the $k=4$ branch, whose witness is too large to recompute and
-whose reduction chain only was traced, and the non-colorability half of the
-$k\ge5$ witnesses. The two upstream predicates `IsCritical` and
-`IsCriticalEdges`, which the reading inferred from the proof's definitional
-`change` steps, are among the definitions the replay found identical to the
-task's.
+(459,268 bytes, 9,535 lines, as fetched on 2026-09-18). Its final theorem is the
+one displayed above, split into the cases $k=4$, $k=5$ and $k\ge6$. The file
+contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`,
+`implemented_by`, `extern`, `partial` or `opaque`, has four `decide +kernel`
+sites on finite cases, and declares nothing that shadows the catalog's or
+Mathlib's names (it sits in its own namespace with no `open`, `instance`,
+`notation` or `_root_`). The bridge lemma holds as stated, and for the $k\ge5$
+witnesses at small parameters the punctured colorings, recomputed in exact
+arithmetic, are proper away from the puncture. Two points the reading did not
+reach rest on the kernel replay alone: the $k=4$ branch, whose witness is too
+large to recompute and whose reduction chain only was traced, and the
+non-colorability half of the $k\ge5$ witnesses. The two upstream predicates
+`IsCritical` and `IsCriticalEdges`, which the reading inferred from the proof's
+definitional `change` steps, are among the definitions the replay found
+identical to the task's.

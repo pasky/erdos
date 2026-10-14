@@ -35,11 +35,11 @@ conjecture that Z(S) is the largest n with K_1 u ... u K_n embedding in S.
 Gimbel, John, Three extremal problems in cochromatic theory. Rostock. Math.
 Kolloq. 30 (1986), 73-78. No notice is printed in the file, the scan of the
 whole issue; the university repository's record for the issue
-(https://rosdok.uni-rostock.de/resolve/id/rosdok_document_0000020056) states the
-rights "alle Rechte vorbehalten" and "Das Werk darf ausschließlich nach den vom
-deutschen Urheberrechtsgesetz festgelegten Bedingungen genutzt werden." and
-marks access "frei zugänglich", which is not a reuse grant, every other right
-reserved.
+(https://rosdok.uni-rostock.de/resolve/id/rosdok_document_0000020056, read
+2026-10-02) states the rights "alle Rechte vorbehalten" and "Das Werk darf
+ausschließlich nach den vom deutschen Urheberrechtsgesetz festgelegten
+Bedingungen genutzt werden." and marks access "frei zugänglich", which is not a
+reuse grant, every other right reserved.
 
 Writing Z(G) for the cochromatic number (fewest parts in a vertex partition
 whose parts each induce a complete or an empty graph), the paper studies three
@@ -49,19 +49,19 @@ paper's O means a bounded ratio that is not o; its proof (p. 74) gives
 c_1 n/ln n < Z(n) < c_2 n/ln n for large n, by repeatedly extracting a
 complete or empty subgraph of order [j/2] with j = [log_4 n] (upper bound) and
 by using a graph on [2^{(k+1)/2}] vertices with no clique and no independent
-set of k+1 vertices (lower bound); a Corollary deduces that C(n), the minimum order
-of a graph with cochromatic number n, is O(n ln n), hence o(n^{1+eps}). A second
-Corollary disproves the conjecture of Straight that the minimum size C_1(n) of a
-graph with cochromatic number n equals n(n-1)(n+1)/6, attained by a disjoint
-union of cliques: instead cn^2 < C_1(n) < n^{2+eps} for every eps > 0 and all
-but finitely many n. The third result concerns Z(S), the largest cochromatic
-number of a graph embeddable in a surface S. It disproves Straight's conjecture
-Z(S) = Max{n : K_1 u K_2 u ... u K_n embeds in S}, which by the additivity of
-genus would give Z(S_n) = O(n^{1/3}), by proving
-d_1 sqrt(n)/ln n <= Z(S_n) <= d_2 sqrt(n) for the orientable surface S_n of
-genus n; the upper bound is the chromatic number of S_n and the lower bound
-embeds a complete graph on about sqrt(12n) vertices. The note thanks Paul Erdos
-and Carsten Thomassen for their thoughts and suggestions.
+set of k+1 vertices (lower bound); a Corollary deduces that C(n), the minimum
+order of a graph with cochromatic number n, is O(n ln n), hence o(n^{1+eps}). A
+second Corollary disproves the conjecture of Straight that the minimum size
+C_1(n) of a graph with cochromatic number n equals n(n-1)(n+1)/6, attained by a
+disjoint union of cliques: instead cn^2 < C_1(n) < n^{2+eps} for every eps > 0
+and all but finitely many n. The third result concerns Z(S), the largest
+cochromatic number of a graph embeddable in a surface S. It disproves Straight's
+conjecture Z(S) = Max{n : K_1 u K_2 u ... u K_n embeds in S}, which by the
+additivity of genus would give Z(S_n) = O(n^{1/3}), by proving d_1 sqrt(n)/ln n
+<= Z(S_n) <= d_2 sqrt(n) for the orientable surface S_n of genus n; the upper
+bound is the chromatic number of S_n and the lower bound embeds a complete graph
+on about sqrt(12n) vertices. The note thanks Paul Erdos and Carsten Thomassen
+for their thoughts and suggestions.
 
 Source: <https://rosdok.uni-rostock.de/resolve/id/rosdok_document_0000020056>.
 

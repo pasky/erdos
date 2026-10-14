@@ -51,7 +51,7 @@ the limit (1 + sqrt 5)/2.
 
 Source: <https://www.fq.math.ca/2-1.html>. No notice is printed; the journal's
 page shows "Copyright © 2010 The Fibonacci Association. All rights reserved."
-(https://www.fq.math.ca/2-1.html), every other right reserved.
+(https://www.fq.math.ca/2-1.html, read 2026-10-02), every other right reserved.
 
 Read status: claims checked for the definitions, properties (A) to (D), the
 theorem, the statements of Lemmas 1 and 2 and the concluding question, read

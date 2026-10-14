@@ -83,8 +83,8 @@ value $0$ and is not covered (see the edge normalization record).
 **Recorded results and remaining proof work.**
 
 - [[discrepancy/erdos_1971_imbalances_colorations/theorem_5|Theorem, p.380, display (5)]]:
-  exact fixed-$k$, eventual-$n$ statement, claims checked; the $k\ge2$ proof is not fully
-  reconstructed. The elementary $k=1$ case is proved there.
+  exact fixed-$k$, eventual-$n$ statement, claims checked; the $k\ge2$ proof is
+  not fully reconstructed. The elementary $k=1$ case is proved there.
 - [[discrepancy/erdos_1971_imbalances_colorations/edge_normalization|Edge normalization]]:
   complete elementary comparison of unordered, arbitrary ordered, and
   symmetric ordered sums.
@@ -99,15 +99,15 @@ value $0$ and is not covered (see the edge normalization record).
 - Lemma 1, p.381: for fixed $k\ge2$ there are $d_1,\ldots,d_k>0$
   and $t_0$. If $t>t_0$ and $A_1,\ldots,A_k$ are pairwise disjoint
   $t$-sets, then for each $1\le i\le k$ and every sign coloring $g_i$
-  of the $i$-subsets of the ground set $A=\{1,\ldots,n\}$, at least $d_i2^{ti}$ tuples
-  $(B_1,\ldots,B_i)$ with $B_j\subseteq A_j$ satisfy
-  $|g_i(B_1\cdots B_i)|\ge t^{i/2}$. This is a statement pointer,
-  not its proof.
+  of the $i$-subsets of the ground set $A=\{1,\ldots,n\}$, at least $d_i2^{ti}$
+  tuples $(B_1,\ldots,B_i)$ with $B_j\subseteq A_j$ satisfy
+  $|g_i(B_1\cdots B_i)|\ge t^{i/2}$. This is a statement pointer, not its proof.
 - Lemma 2, p.381: for fixed $c_1>0$ there are $c_2>0$ and $t_0$ such
   that, for $t\ge t_0$ and real $x_1,\ldots,x_t$ with $|x_j|\ge1$ for
   $1\le j\le c_1t$, at least $c_22^t$ sets $V\subseteq\{1,\ldots,t\}$
   have $|\sum_{j\in V}x_j|>\sqrt t$. The proof (pp.381--382) cites
-  Erdős's 1945 Littlewood--Offord paper, reference [2]. The source's anti-concentration proof is uncompiled.
+  Erdős's 1945 Littlewood--Offord paper, reference [2]. The source's
+  anti-concentration proof is uncompiled.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

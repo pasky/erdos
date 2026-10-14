@@ -117,5 +117,5 @@ double cap conjecture, and the computability sketch of Section 10.5
 
 No file of this source is held: the arXiv edition read carries no license that
 permits its redistribution. The Crossref record of the journal edition
-(<https://api.crossref.org/works/10.1007/s10107-020-01562-6>)
+(<https://api.crossref.org/works/10.1007/s10107-020-01562-6>, read 2026-10-07)
 names CC BY 4.0 for it; no copy of that edition is held.

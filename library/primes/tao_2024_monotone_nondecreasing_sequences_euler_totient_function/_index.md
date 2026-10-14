@@ -96,16 +96,16 @@ $792+j$. The arXiv v4 edition, not held, has 23 pages and is dated 6 April
 25 April 2024, acceptance on 30 April 2024 and online publication on 23 May
 2024. Exact identities and primary metadata are in the
 [source record](source_record.json). The
-[arXiv record](https://arxiv.org/abs/2309.02325) lists v4 as the latest
-version. The canonical
+[arXiv record](https://arxiv.org/abs/2309.02325), checked on 5 September 2026,
+listed v4 as the latest version. The canonical
 `tao_2024_monotone_nondecreasing_sequences_euler_totient_function.pdf` prints "©
-The Author(s) 2024" on its first page and, on printed p. 819
-(physical p. 27), "Open Access This article is licensed under a Creative
-Commons Attribution 4.0 International License" with the license address
-http://creativecommons.org/licenses/by/4.0/, the Creative Commons
-Attribution 4.0 license. For the arXiv v4 edition, the arXiv record names
-arXiv's non-exclusive distribution license (arXiv:2309.02325), every other
-right reserved.
+The Author(s) 2024" on its first page and, on printed p. 819 (physical p. 27),
+"Open Access This article is licensed under a Creative Commons Attribution 4.0
+International License" with the license address
+http://creativecommons.org/licenses/by/4.0/, the Creative Commons Attribution
+4.0 license. For the arXiv v4 edition, the arXiv record names arXiv's
+non-exclusive distribution license (arXiv:2309.02325), every other right
+reserved.
 
 For the weak maximum defined in [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/notation]],
 [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/theorem_1_1|Theorem 1.1]] proves

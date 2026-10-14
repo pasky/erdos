@@ -135,9 +135,10 @@ https://www.erdosproblems.com/584, accessed 2026-09-17.
   Not held; the source of the graphs $CD(5,q)$ that Theorem 1 of [Ch26] uses.
 
 **Formalization.** None. No file `ErdosProblems/584.lean` exists in
-formal-conjectures (main); the site's page shows the statement as not
-formalized, and the community database records the problem as open and
-unformalized, with no formal-proof URL.
+formal-conjectures (main, fetched 2026-09-17); the site's page shows
+the statement as not formalized, and the community database (fetched
+2026-09-17) records the problem as open and unformalized, with no formal-proof
+URL.
 
 ## Current assessment
 

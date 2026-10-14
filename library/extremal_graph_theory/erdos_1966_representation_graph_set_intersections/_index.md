@@ -32,7 +32,7 @@ triangles; the complete bipartite graph shows the bound is sharp.
 
 P. Erdős, A. W. Goodman, L. Pósa: The representation of a graph by set
 intersections, Canad. J. Math. 18 (1966), 106--112 (MR 32 #4034; Zentralblatt
-137,432); doi:10.4153/CJM-1966-014-3, per the Crossref record read.
+137,432); doi:10.4153/CJM-1966-014-3, per the Crossref record read 2026-10-07.
 
 The paper determines the least size of a ground set needed to represent an
 arbitrary graph as an intersection graph. Theorem 1 proves that every graph on n
@@ -72,8 +72,8 @@ problem 1017 consumes: claims checked for Theorem 2 (printed p. 107 = PDF p. 2),
 Theorem 3 and Theorem 4 (p. 108 = PDF p. 3) and the Section 5 question (i) (pp.
 109--110 = PDF pp. 4--5), read clause by clause on the page images; the proofs
 of Theorems 2 and 4 (pp. 107--109) were read for structure; Theorems 1 and 5 and
-Section 3 were not re-read. Both Theorem 2 and Theorem 4 are printed for order
-$n\ge2$. Theorem 4 is paged at
+Section 3 were not checked against the page images. Both Theorem 2 and Theorem 4
+are printed for order $n\ge2$. Theorem 4 is paged at
 [[extremal_graph_theory/erdos_1966_representation_graph_set_intersections/theorem_4|theorem_4]]
 and question (i) at
 [[extremal_graph_theory/erdos_1966_representation_graph_set_intersections/section_5_question_i|section_5_question_i]].

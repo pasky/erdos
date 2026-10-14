@@ -43,7 +43,8 @@ review was located.
 
 The copy read for this card is the arXiv v2 file
 (<https://arxiv.org/abs/2607.28387v2>, 433,491 bytes). The arXiv record names
-arXiv's non-exclusive distribution license (arXiv:2607.28387), every other right reserved.
+arXiv's non-exclusive distribution license (arXiv:2607.28387), every other right
+reserved.
 
 **Read status.** Claims checked for Theorem 1, Example 2, Corollary 3 and
 Theorem 4 (statements and definitions read clause by clause on PDF
@@ -142,8 +143,8 @@ Corollary 3, whose uniqueness hypothesis the paper takes from the
 Curtiss--Takenouchi theorem, contains the problem's statement, widened from
 strictly increasing to nondecreasing sequences; Theorem 4 drops the
 uniqueness hypothesis for every positive rational at the cost of a
-dichotomy in the conclusion; the paper presents the case $\lambda=1$ as already proved by Li and
-Tang and by Kamio).
+dichotomy in the conclusion; the paper presents the case $\lambda=1$ as already
+proved by Li and Tang and by Kamio).
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

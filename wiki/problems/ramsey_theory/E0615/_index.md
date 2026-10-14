@@ -80,7 +80,7 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
 - [FLZ15] Fox, J., Loh, P.-S. and Zhao, Y., The critical window for the
   classical Ramsey-Turán problem. Combinatorica 35 (2015), no. 4, 435--476,
   doi:10.1007/s00493-014-3025-3 (published online 22 October 2014; Crossref
-  record and the arXiv listing's journal reference);
+  record and the arXiv listing's journal reference accessed 2026-09-18);
   arXiv:1208.3276v3 (23 September 2014), the edition cited; the journal text
   was not compared. Problem 1.4, p. 3; Theorem 1.10 and the paragraph before it,
   p. 4; Theorem 1.11, p. 5. Library home:
@@ -88,13 +88,14 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
 - [EHSSS93] Erdős, P., Hajnal, A., Simonovits, M., Sós, V. T. and
   Szemerédi, E., Turán-Ramsey theorems and simple asymptotically extremal
   structures. Combinatorica 13 (1993), no. 1, 31--56 (received October 31,
-  1989), doi:10.1007/BF01202788 (Crossref record). Problem
+  1989), doi:10.1007/BF01202788 (Crossref record accessed 2026-09-18). Problem
   4, p. 54; displays (7)--(8), p. 36. Library home:
   [[../library/ramsey_theory/erdos_1993_turan_ramsey_theorems_simple_asymptotically_extremal/_index|erdos_1993_turan_ramsey_theorems_simple_asymptotically_extremal]].
 - [Su03] Sudakov, B., A few remarks on Ramsey-Turán-type problems. J.
   Combin. Theory Ser. B 88 (2003), no. 1, 99--106 (received 21 August
-  2001), doi:10.1016/S0095-8956(02)00038-2 (Crossref record). Problem 1.1,
-  p. 100; Theorem 3.1, p. 102; the $K_4$ corollary, p. 103. Library home:
+  2001), doi:10.1016/S0095-8956(02)00038-2 (Crossref record accessed
+  2026-09-18). Problem 1.1, p. 100; Theorem 3.1, p. 102; the $K_4$
+  corollary, p. 103. Library home:
   [[../library/ramsey_theory/sudakov_2003_few_remarks_ramsey_turan_type_problems/_index|sudakov_2003_few_remarks_ramsey_turan_type_problems]].
 - [EHSS83] Erdős, P., Hajnal, A., Sós, V. T. and Szemerédi, E., More
   results on Ramsey-Turán type problems. Combinatorica 3 (1983), no. 1,
@@ -114,7 +115,7 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
 **Formalization.** The suffix (LEAN) of the site's label was a catalog label.
 The file
 [`ErdosProblems/615.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/615.lean)
-of formal-conjectures, linked at the `main` commit (5,479
+of formal-conjectures, linked at the head of `main` on 2026-09-18 (5,479
 bytes), declares
 `erdos_615 : answer(False) ↔ ∃ c : ℝ, 0 < c ∧ ∀ᶠ (n : ℕ) in atTop, ∀ G : SimpleGraph (Fin n), (1 / 8 - c) * n ^ 2 ≤ G.edgeFinset.card → ¬ G.CliqueFree 4 ∨ (n : ℝ) / Real.log n ≤ G.indepNum`
 under `category research solved`, with proof `sorry`, with the variants
@@ -137,7 +138,8 @@ Codex and GPT-5.6 Sol, with a pinned Lean 4 and Mathlib version; it imports a
 companion module `ErdosProblems.Erdos615.Erdos615Construction` that carries the
 construction and is unexamined here. The file contains no `sorry` and no `axiom`
 line, a fact about its text and not a check. The file is a formalization link on
-the Fox--Loh--Zhao claim page. The community database (teorth/erdosproblems) lists the status "disproved (Lean)" and the formal status
+the Fox--Loh--Zhao claim page. The community database (teorth/erdosproblems,
+fetched 2026-09-18) lists the status "disproved (Lean)" and the formal status
 Lean, with no URL, as of its last update of those fields on 23 August 2026, and
 the statement as formalized as of that field's last update on 20 June 2026.
 Neither file was built at these pinned commits, and no local kernel credit is
@@ -145,7 +147,7 @@ claimed.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; DISPROVED (LEAN); source keys [Er91] and [EHSSS93]. The commentary
 attributes the problem to the five authors of [EHSSS93] and restates it in Ramsey--Turán notation as the question whether
 $\mathrm{rt}(n;4,n/\log n)<(1/8-c)n^2$; it records two earlier results, the
@@ -159,7 +161,7 @@ the negative, through their lower bound
 $\mathrm{rt}(n;4,ne^{-f(n)})\ge(1/8-o(1))n^2$ for every
 $f(n)=o(\sqrt{\log n/\log\log n})$; and it points to Problem 22 and to the
 entry in the graphs problem collection. The thread and the proof-claim tab
-are empty. The community database record says
+are empty. The community database record (fetched 2026-09-18) says
 disproved (Lean), formalized statement.
 
 **Origin.** [EHSSS93] poses the question as its

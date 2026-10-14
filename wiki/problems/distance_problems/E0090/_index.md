@@ -62,7 +62,7 @@ https://www.erdosproblems.com/90.
   certificates*, arXiv:2606.03419v5 [math.OC] (2026).
 - [Tori26] *Integral points on norm-one tori and the Erdős unit-distance
   exponent*, 13-page manuscript with no author line, hosted at
-  www-cdn.anthropic.com (2026).
+  www-cdn.anthropic.com, retrieved 2026-09-05 (2026).
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/90.lean).
@@ -209,7 +209,7 @@ constant absorbed for sufficiently large members of the sequence.
 A fourth route is recorded at statement depth.
 [[../library/discrete_geometry/anon_2026_integral_points_norm_one_tori_unit_distance_exponent/theorem_1_1|Theorem
 1.1]] of a 13-page manuscript with no author line, hosted at a
-content-delivery address of Anthropic, gives, for
+content-delivery address of Anthropic and retrieved 2026-09-05, gives, for
 some absolute constant $c_0>0$ and every $n$ in an infinite set $\mathcal N$ of
 integers, all at least an absolute $n_0$, the bound
 $u(n)\ge n^{1+c_0\log\log\log n/\log\log n}$, hence for every $C>0$

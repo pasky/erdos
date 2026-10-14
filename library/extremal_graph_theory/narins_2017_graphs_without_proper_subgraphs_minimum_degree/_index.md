@@ -49,7 +49,7 @@ identifying the two connectors of a graph H_i with those of a graph H_j.
 Narins, Lothar and Pokrovskiy, Alexey and Szabó, Tibor, Graphs without
 proper subgraphs of minimum degree 3 and short cycles. Combinatorica 37
 (2017), no. 3, 495--519, doi:10.1007/s00493-015-3310-9 (published online 10
-August 2016; Crossref record read; the site's reference text
+August 2016; Crossref record read on 2026-09-18; the site's reference text
 gives "Combinatorica (2017), 495--519"). Preprint arXiv:1408.5289 (v1, 22
 August 2014). The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1408.5289), every other right reserved.
@@ -57,7 +57,7 @@ August 2014). The arXiv record names arXiv's non-exclusive distribution license
 **Edition read.** The copy read for this card is arXiv:1408.5289v1, stamped
 "[math.CO] 22 Aug 2014" and dated August 25, 2014 on its first page, 22 pages
 with a complete text layer (the arXiv comment reads "22 pages, 14 figures");
-the arXiv record lists this one version and no journal
+the arXiv record (read 2026-09-18) lists this one version and no journal
 reference. The journal text was not compared; every locator
 on this card and on the result pages is a preprint page. Result pages:
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/theorem_1_2|theorem_1_2]],
@@ -169,9 +169,9 @@ Source: <https://arxiv.org/abs/1408.5289>.
 
 Statements at claims-checked depth on pp. 2--4, 6--7, 9--10, 14--16, 19 and
 21; the proofs behind the result pages were followed by their labels on
-pp. 5--20 and none was checked. Nothing here is independently reviewed. The 1988 paper has its own
-card, which holds no file of it; Bollobás and Brightwell's paper is not held,
-and its bounds appear here as this paper states them.
+pp. 5--20 and none was checked. Nothing here is independently reviewed. The 1988
+paper has its own card, which holds no file of it; Bollobás and Brightwell's
+paper is not held, and its bounds appear here as this paper states them.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0815/_index|#815]]:
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/theorem_1_2|Theorem 1.2]] gives arbitrarily large degree $3$-critical

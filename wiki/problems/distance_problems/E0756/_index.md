@@ -82,8 +82,8 @@ different regime, superlinear multiplicity for only $n^{o(1)}$ distances, which
 with $m$ large; it is not part of the question, which asks for $\gg n$ such
 distances. Search scope: the site's problem page and discussion thread, the
 arXiv and publisher records of [Bh24] and [CDL25], and the Lean repositories
-named above; on 2026-10-07 no forum proof claim, release item or lead named the
-problem.
+named above; no forum proof claim named the problem, and on 2026-10-07 no
+release item or lead did.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

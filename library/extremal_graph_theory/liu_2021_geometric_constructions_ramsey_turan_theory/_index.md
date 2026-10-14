@@ -34,7 +34,7 @@ t = 1 gives ϱ_3(5) = 1/6, by reduction to a weighted extremal problem.
 Hong Liu, Christian Reiher, Maryam Sharifzadeh, Katherine Staden, Geometric
 constructions for Ramsey-Turán theory. arXiv:2103.10423 (2021); published in
 the Journal of the European Mathematical Society, vol. 28, no. 1, 79--112,
-doi:10.4171/jems/1712 (Crossref record read, issued 20 October
+doi:10.4171/jems/1712 (Crossref record read 2026-09-18, issued 20 October
 2025; the arXiv listing says "to appear in JEMS").
 
 **Retained artifact.** The

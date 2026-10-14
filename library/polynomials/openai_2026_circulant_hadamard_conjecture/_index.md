@@ -58,7 +58,7 @@ about human assistance or review. The manuscript itself names no author beyond
 the title-page "OpenAI", no affiliation, no arXiv identifier and no journal.
 These are the source's own attestations, recorded here as history and not as
 this corpus's review: no refereed publication, arXiv version or independent
-review of the manuscript is recorded here and nothing on this card is
+review of the manuscript is recorded here, and nothing on this card is
 independently reviewed.
 
 The release's Lean catalogue (`lean/formalization.yaml`) lists the manuscript

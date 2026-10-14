@@ -123,28 +123,29 @@ Bloom, Erdős Problem #567, https://www.erdosproblems.com/567, accessed
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/567.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/567.lean)
-of formal-conjectures (main) declares three theorems `erdos_567.parts.i`,
-`erdos_567.parts.ii` and `erdos_567.parts.iii`, each `answer(sorry) ↔
-IsRamseySizeLinear G` for `Q3 := hypercube 3`, `K33 := completeBipartiteGraph
-(Fin 3) (Fin 3)` and `H5 := cycleGraph 5 ⊔ edge 0 2 ⊔ edge 1 3` (two
-vertex-disjoint chords, as the site says; the docstring also names $K_4^*$),
-under `category research open` with proof `sorry`. The community database
-records the problem open (last changed 31 August 2025), the statement formalized
-since 9 January 2026 and no formal proof; the site's formalized-statement
-indicator reads yes. Nothing was built. The definition `IsRamseySizeLinear`
-behind these statements was corrected on 9 September 2026 (formal-conjectures
-pull request #5352, "fix: Ramsey size linear"): until then it bounded the size
-Ramsey number `sizeRamsey G H`, the least number of edges of a host graph $F$
-such that every red-blue coloring of $E(F)$ has a red $G$ or a blue $H$, by
-$c\,e(H)$, and the file's docstring wrote $\hat r(G,H)\ll m$ (in the version of
-4 August 2026); since the fix it bounds `graphRamsey G H`, the least $n$ such
-that every red-blue coloring of $K_n$ has a red $G$ or a blue $H$, and the
-docstring reads $R(G,H)\ll m$, matching the site. The version of 2026-09-18
-linked above postdates the fix. Under the earlier definition the bounty site
-Conjectures.io published `erdos_567.parts.i` as a task (frozen statement `True ↔
-Erdos567.Q3.IsRamseySizeLinear`; the catalog revision the site names is one of
-its own task catalog, not of formal-conjectures) and accepted a Lean refutation
-of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052,
+of formal-conjectures (main, fetched 2026-09-18) declares three theorems
+`erdos_567.parts.i`, `erdos_567.parts.ii` and `erdos_567.parts.iii`, each
+`answer(sorry) ↔ IsRamseySizeLinear G` for `Q3 := hypercube 3`,
+`K33 := completeBipartiteGraph (Fin 3) (Fin 3)` and
+`H5 := cycleGraph 5 ⊔ edge 0 2 ⊔ edge 1 3` (two vertex-disjoint chords, as the
+site says; the docstring also names $K_4^*$), under `category research open`
+with proof `sorry`. The community database (read 2026-09-18) records the problem
+open (last changed 31 August 2025), the statement formalized since 9 January
+2026 and no formal proof; the site's formalized-statement indicator reads yes.
+Nothing was built. The definition `IsRamseySizeLinear` behind these statements
+was corrected on 9 September 2026 (formal-conjectures pull request #5352, "fix:
+Ramsey size linear"): until then it bounded the size Ramsey number
+`sizeRamsey G H`, the least number of edges of a host graph $F$ such that every
+red-blue coloring of $E(F)$ has a red $G$ or a blue $H$, by $c\,e(H)$, and the
+file's docstring wrote $\hat r(G,H)\ll m$ (in the version of 4 August 2026);
+since the fix it bounds `graphRamsey G H`, the least $n$ such that every
+red-blue coloring of $K_n$ has a red $G$ or a blue $H$, and the docstring reads
+$R(G,H)\ll m$, matching the site. The version of 2026-09-18 linked above
+postdates the fix. Under the earlier definition the bounty site Conjectures.io
+published `erdos_567.parts.i` as a task (frozen statement
+`True ↔ Erdos567.Q3.IsRamseySizeLinear`; the catalog revision the site names is
+one of its own task catalog, not of formal-conjectures) and accepted a Lean
+refutation of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052,
 [solution](https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution)
 and
 [Lean file](https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution/download);
@@ -184,7 +185,7 @@ catalog question.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution/download,
-37,650 bytes.
+fetched 2026-09-27, 37,650 bytes.
 
 ## Current assessment
 

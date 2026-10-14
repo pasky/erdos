@@ -48,8 +48,8 @@ Daniel J. Kleitman, *On a lemma of Littlewood and Offord on the
 distribution of certain sums*, *Mathematische Zeitschrift* **90**
 (1965), no. 4, 251–259,
 [DOI 10.1007/BF01158565](https://doi.org/10.1007/BF01158565); the
-issue number and DOI are from the Crossref record. Received
-19 November 1964.
+issue number and DOI are from the Crossref record read 2026-10-07
+(UTC). Received 19 November 1964.
 
 ## Source and version
 

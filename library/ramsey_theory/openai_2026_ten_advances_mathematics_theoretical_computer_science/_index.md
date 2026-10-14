@@ -39,7 +39,8 @@ copyright, license or Creative Commons line appears anywhere in the PDF's
 not this file; the term is unstated.
 
 - The copy read for this card is
-  [OpenAI's hosted report](https://cdn.openai.com/pdf/ten-proofs-oai.pdf); 253 pages, 2,487,031 bytes.
+  [OpenAI's hosted report](https://cdn.openai.com/pdf/ten-proofs-oai.pdf),
+  accessed 2026-09-08; 253 pages, 2,487,031 bytes.
 - The abstract-page footnote identifies the August 6 revision and links the
   [original version](https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf).
   That earlier version was not compared. All result locators refer to the

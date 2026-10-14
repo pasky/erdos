@@ -56,7 +56,7 @@ have issues". The manuscript's own README adds nothing beyond the author line
 on how it was produced and no author names. These are the source's own
 attestations, recorded here as history and not as this corpus's review. No
 refereed publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 The release's Lean catalog (`lean/formalization.yaml`) lists no

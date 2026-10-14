@@ -55,7 +55,7 @@ P. Erdős, M. Simonovits: Cube-supersaturated graphs and related problems,
 Progress in graph theory (Waterloo, Ont., 1982), pp. 203--218, Academic Press,
 Toronto, ON, 1984; MR 86b:05041; Zentralblatt 565.05042. No notice is printed
 in the scan; the hosting archive's site footer speaks for the site, not the
-paper (https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007
+paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007
 All rights reserved. All material on this site is for scientifics purposes
 only."); the conference volume has no online edition, so the publisher's page
 was not consulted and no Crossref license is recorded; the term is unstated.
@@ -72,26 +72,26 @@ holds for a two-colored bipartite L with ex(n,L) = O(n^{2-alpha}), alpha in
 (0,1), it also
 holds for L_t (L joined to a K_{t,t} across the coloring) with the exponent
 beta of (7); Theorem 2 does the same for L*, obtained by adding two vertices
-joined to the opposite color classes and not to each other. Theorem 3 deduces that E > C_Q n^{8/5}
-forces c E^{12}/n^{16} copies of the cube Q and c* E^{13}/n^{18} copies of Q*,
-and Theorem 4 states, for every bipartite L with L-{x,y} a tree, that
-ex(n,L) = O(n^{3/2}) and that E > C n^{3/2} gives c* E^e/n^{2e-v} copies. Proofs use two-step regularization of
-the bipartite part plus convexity counting of K_{p,q}'s (Lemma 1) and a transfer
-of Conjecture 2* to bipartite host graphs (Lemma 2). As printed, Theorem 4's
-hypothesis also admits $K_{3,3}$ (deleting two vertices of one side leaves a
-star), whose extremal number has order $n^{5/3}$; the derivation the paper
-gives, through Proposition 1 and Theorem 2 at $\alpha=1$ (outside Theorem 2's
-stated range $\alpha\in(0,1)$), reaches the graphs $T^*$ built from a tree
-$T$, as the
+joined to the opposite color classes and not to each other. Theorem 3 deduces
+that E > C_Q n^{8/5} forces c E^{12}/n^{16} copies of the cube Q and c*
+E^{13}/n^{18} copies of Q*, and Theorem 4 states, for every bipartite L with
+L-{x,y} a tree, that ex(n,L) = O(n^{3/2}) and that E > C n^{3/2} gives c*
+E^e/n^{2e-v} copies. Proofs use two-step regularization of the bipartite part
+plus convexity counting of K_{p,q}'s (Lemma 1) and a transfer of Conjecture 2*
+to bipartite host graphs (Lemma 2). As printed, Theorem 4's hypothesis also
+admits $K_{3,3}$ (deleting two vertices of one side leaves a star), whose
+extremal number has order $n^{5/3}$; the derivation the paper gives, through
+Proposition 1 and Theorem 2 at $\alpha=1$ (outside Theorem 2's stated range
+$\alpha\in(0,1)$), reaches the graphs $T^*$ built from a tree $T$, as the
 [[extremal_graph_theory/erdos_1984_cube_supersaturated_graphs_related_problems/theorem_4|Theorem 4 page]]
 records. The site cites the paper as a source of the Erdős-Simonovits
 conjectures relating $\mathrm{ex}(n,H)$ to the degeneracy of a bipartite $H$
 (its key ErSi84 on Problems 113, 146 and 147), but the paper states no such
-conjecture: its explicit conjectures are the supersaturation Conjectures 1,
-2 and 2*, its word *degenerate* classifies extremal problems (p. 204), and
-no statement about $r$-degenerate graphs appears on pp. 203--218; the
-exponent $2-1/p$ appears only for $K_{p,q}$, where Lemma 1 (p. 210) gives
-Conjecture 2* with $\tilde\alpha=1/p$.
+conjecture: its explicit conjectures are the supersaturation Conjectures 1, 2
+and 2*, its word *degenerate* classifies extremal problems (p. 204), and no
+statement about $r$-degenerate graphs appears on pp. 203--218; the exponent
+$2-1/p$ appears only for $K_{p,q}$, where Lemma 1 (p. 210) gives Conjecture 2*
+with $\tilde\alpha=1/p$.
 
 Source: <https://users.renyi.hu/~p_erdos/1984-04.pdf>.
 
@@ -100,13 +100,13 @@ Read status: claims checked, on the page images of all printed pp. 203--218
 a problem is degenerate when a forbidden graph is bipartite, equivalently
 when $\mathrm{ex}(n,\mathbb L)=o(n^2)$), Conjecture 1 (p. 205), Conjectures 2
 and 2* and Proposition 1 (p. 206), the even-cycle displays (5) and (6)
-(p. 206), Definition 1 (p. 207), Theorem B (pp. 207--208), Theorem C (p. 208), and
-Theorems 1--4 with the remark and example after them (pp. 208--209). The
+(p. 206), Definition 1 (p. 207), Theorem B (pp. 207--208), Theorem C (p. 208),
+and Theorems 1--4 with the remark and example after them (pp. 208--209). The
 proofs (pp. 210--217) were read but not checked step by step. Problem 146's
-attribution of its conjecture to this paper is the site's: Alon, Krivelevich
-and Sudakov (2003, p. 484) and Chapter 10 of OpenAI's 2026 report (p. 237)
-attribute it to Erdős's 1967 Rome paper, *Some recent results on extremal
-problems in graph theory*.
+attribution of its conjecture to this paper is the site's: Alon, Krivelevich and
+Sudakov (2003, p. 484) and Chapter 10 of OpenAI's 2026 report (p. 237) attribute
+it to Erdős's 1967 Rome paper, *Some recent results on extremal problems in
+graph theory*.
 
 **Bears on.**
 [[../wiki/problems/extremal_graph_theory/E0113/_index|#113]]: the problem

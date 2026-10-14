@@ -26,19 +26,19 @@ multilinear maps, which improves the deletion bound for every uniformity.
 D. Conlon, C. Pohoata and D. Zakharov, *Random multilinear maps and the Erdős
 box problem*, Discrete Analysis 2021:17, 8 pp., doi:10.19086/da.28336
 (received 19 November 2020, published 28 September 2021 per the article's
-title page; the Crossref record, dates the DOI 27
+title page; the Crossref record, read on 2026-09-18, dates the DOI 27
 September 2021). Discrete Analysis is a refereed journal.
 
-**Retained artifact.** The [folder-name
-PDF](conlon_2021_random_multilinear_maps_erdos_box_problem.pdf) is the journal's
-typeset article as posted to arXiv: arXiv:2011.09024v2 (25 September 2021,
-"Reformatted for Discrete Analysis" per the arXiv record read; v1 18 November
-2020), 8 pages with a text layer and the running foot "Discrete Analysis,
-2021:17, 8pp." on every page; printed and PDF pages agree. Provenance: retained
-from the repository's survey download set (the download URL was not recorded;
-the file carries the arXiv stamp); 237,101 bytes. The arXiv record
-(https://arxiv.org/abs/2011.09024, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+**Retained artifact.** The
+[folder-name PDF](conlon_2021_random_multilinear_maps_erdos_box_problem.pdf) is
+the journal's typeset article as posted to arXiv: arXiv:2011.09024v2 (25
+September 2021, "Reformatted for Discrete Analysis" per the arXiv record read on
+2026-09-18; v1 18 November 2020), 8 pages with a text layer and the running foot
+"Discrete Analysis, 2021:17, 8pp." on every page; printed and PDF pages agree.
+Provenance: retained from the repository's survey download set (the download URL
+was not recorded; the file carries the arXiv stamp); 237,101 bytes. The arXiv
+record (https://arxiv.org/abs/2011.09024, read 2026-10-02) names the Creative
+Commons Attribution 4.0 license.
 
 Read status: claims checked for Theorem 2 and Corollary 1 (p. 3) and for
 displays (1)-(3) and Theorem 1 (p. 2), read clause by clause on the page

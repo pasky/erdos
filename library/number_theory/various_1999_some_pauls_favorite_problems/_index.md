@@ -35,15 +35,15 @@ G. O. H. Katona, P. Komjáth, M. Laczkovich, L. Lovász, L. Pyber, P. Révész,
 I. Z. Ruzsa, A. Sárközy, M. Simonovits, V. T. Sós, J. Szabados, T. Szőnyi,
 K. Vesztergombi, and P. Vértesi.
 
-**Canonical source.** The nine-spread scan is hosted by [Vjekoslav Kovač at the
-University of
-Zagreb](https://web.math.pmf.unizg.hr/~vjekovac/EP/Some_of_Pauls_favorite_problems.pdf).
-The file includes handwritten introductory material and paired printed pages;
-PDF page numbers therefore differ from printed ones. The scan has cropped
-letters at some outer edges. Selected formulas were read visually; an unverified
-transcription is not the canonical source. No notice is printed on the scan's
-rendered first or last page, and the hosting directory it was taken from is a
-bare file listing with no terms (https://web.math.pmf.unizg.hr/~vjekovac/EP/);
+**Canonical source.** The nine-spread scan is hosted by
+[Vjekoslav Kovač at the University of Zagreb](https://web.math.pmf.unizg.hr/~vjekovac/EP/Some_of_Pauls_favorite_problems.pdf),
+accessed 2026-09-05. The file includes handwritten introductory material and
+paired printed pages; PDF page numbers therefore differ from printed ones. The
+scan has cropped letters at some outer edges. Selected formulas were read
+visually; an unverified transcription is not the canonical source. No notice is
+printed on the scan's rendered first or last page, and the hosting directory it
+was taken from is a bare file listing with no terms
+(https://web.math.pmf.unizg.hr/~vjekovac/EP/, read 2026-10-02);
 the booklet identifies no publisher, its last page crediting only the
 collectors; the term is unstated.
 

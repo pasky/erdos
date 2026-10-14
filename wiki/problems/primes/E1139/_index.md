@@ -82,13 +82,13 @@ Theorem (2010), unconditional since Green--Tao and Green--Tao--Ziegler
 (2012), proves such statements, so the claim page scopes the claim as full,
 resting on a published theorem. The match of the hypothesis to that theorem
 was checked here by reading the definitions for the one-pattern systems and
-by a second reading for the paired ones, with the Jacobian factor of the
-shared-target field checked by hand; these readings are the corpus's own,
-not a review. Without the hypothesis the development proves that the
-limsup is at least some $A>1$, by extending the double covering of
+by comparing the paired ones with Green and Tao's statement, with the Jacobian
+factor of the shared-target field checked by hand; these readings are the
+corpus's own, not a review. Without the hypothesis the development proves that
+the limsup is at least some $A>1$, by extending the double covering of
 [[problems/integer_sequences/E0689/_index|Problem 689]]. The registry's
-challenge comparison and axiom check cover only these unconditional
-theorems, not the full statement, and no review of the development exists.
+challenge comparison and axiom check cover only these unconditional theorems,
+not the full statement, and no review of the development exists.
 
 The thread also holds proposals that are not claims and have no claim page.
 A comment of 2026-01-24 reports that a literature search found no nontrivial

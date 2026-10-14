@@ -33,7 +33,7 @@ Bohman, Tom and Keevash, Peter, Dynamic concentration of the triangle-free
 process. Random Structures Algorithms (2021), 221-293.
 
 Random Structures Algorithms 58 (2021), no. 2, 221--293, DOI 10.1002/rsa.20973
-(Crossref record read). The copy read for this card
+(Crossref record read 2026-09-18). The copy read for this card
 is arXiv:1302.5963v2 (4 September 2019, 75 pages); the journal text was not
 read, its pagination differs and the locators below are the arXiv pages. The
 arXiv record names arXiv's non-exclusive distribution license (arXiv:1302.5963),

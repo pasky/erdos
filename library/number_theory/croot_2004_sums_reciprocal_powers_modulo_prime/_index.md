@@ -29,7 +29,7 @@ Ernie Croot, *Sums of the form $1/x_1^k+\cdots+1/x_n^k$ modulo a prime*,
 Integers **4** (2004), Paper A20; arXiv:math/0403360 (v1 22 March 2004,
 under the title "Reciprocal power sums modulo a prime"; v2 21 October 2004,
 with the comment "Light Corrections. The parameter h in the definition of T
-had to be a lot larger", the arXiv listing read). The site's
+had to be a lot larger", the arXiv listing read 2026-09-18). The site's
 Problem 1180 commentary names the author without a key.
 
 The copy read for this card is a

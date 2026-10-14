@@ -29,10 +29,8 @@ identify the bytes selected here as the published edition.
 
 **Local artifact.** The selected
 [14-page arXiv v1 PDF](benli_2023_sums_proper_divisors_missing_digits.pdf) was
-supplied by the reviewer; the exact historical acquisition time of these bytes
-was not recorded and remains unknown. The arXiv record
-(https://arxiv.org/abs/2307.12859, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+supplied by the reviewer. The arXiv record (https://arxiv.org/abs/2307.12859,
+read 2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 The paper studies the preimage under the sum-of-proper-divisors function
 $s(n)=\sigma(n)-n$ of sets whose members use only a prescribed proper subset

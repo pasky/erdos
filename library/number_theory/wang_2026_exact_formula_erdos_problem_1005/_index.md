@@ -61,8 +61,8 @@ listing).
 Read status: claims checked for the abstract, the definition (1), Theorems
 1.1--1.3 (read clause by clause on the page image of p. 1); the proofs
 (Sections 2--5) were read for their structure only, and no step was checked;
-nothing here is independently reviewed. This is a claim source: its statements are leads
-with provenance, not status.
+nothing here is independently reviewed. This is a claim source: its statements
+are leads with provenance, not status.
 
 ## Contents
 
@@ -117,8 +117,8 @@ program was not run, and nothing is independently reviewed.
 **Bears on.** [[../wiki/problems/number_theory/E1005/_index|#1005]], as a lead beyond the
 asymptotic answer: the claim that van Doorn's upper bound
 $f(n)\le\lfloor n/4\rfloor+d$ is attained for all sufficiently large $n$
-(Theorem 1.2) and, with a finite computation, a claimed exact value of $f(n)$ for
-every $n\ge4$, the bound being attained except at fifteen listed $n\le91$
+(Theorem 1.2) and, with a finite computation, a claimed exact value of $f(n)$
+for every $n\ge4$, the bound being attained except at fifteen listed $n\le91$
 (Theorem 1.3); an unrefereed AI-assisted preprint and a proof claim on the
 site's tab, not a status source.
 

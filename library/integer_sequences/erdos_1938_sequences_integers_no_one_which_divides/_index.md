@@ -81,7 +81,7 @@ primes not exceeding $n^{1/3}$ giving an A sequence of more than
 $\pi(n)+n^{2/3}/(80(\log n)^2)$ members (p. 77). The digest's A-sequence
 exponents follow these readings; the B-sequence exponents 3/4 and 3/2 of
 Section 2 are as printed. The rest of the digest
-records an earlier reading that was not repeated here.
+was not checked against the page images.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0121/_index|#121]]: Section 2,
 printed pp. 77--81 (PDF pp. 4--8, page images; statement in the

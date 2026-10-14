@@ -39,9 +39,9 @@ license, none of which governs that manuscript; the term is unstated.
 Source: <https://web.math.princeton.edu/~nalon/PDFS/publications.html>.
 
 Published in J. Combin. Theory Ser. B 76 (1999), no. 2, 280--290, DOI
-10.1006/jctb.1999.1906 (Crossref record read). The copy read for this card is a
-ten-page author manuscript (pdfTeX, A4) with a text layer; the journal version
-was not compared, and the labels below are those of the manuscript.
+10.1006/jctb.1999.1906 (Crossref record read 2026-09-17). The copy read for this
+card is a ten-page author manuscript (pdfTeX, A4) with a text layer; the journal
+version was not compared, and the labels below are those of the manuscript.
 
 The paper varies the norm-graphs of Kollár, Rónyai and Szabó. Section 2
 defines H(q,3) on GF(q^2) x GF(q)^*, with (A,a) ~ (B,b) when N(A+B) = ab, and

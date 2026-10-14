@@ -31,8 +31,9 @@ is filed as
 [[additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/_index|coppersmith_phillips_1996_question_erdos_subsequence_sums]];
 its abstract (printed p. 173, PDF p. 1) reads "impossible for
 $\epsilon=1/512$" and its Theorem 3.7 (printed p. 177, PDF p. 5) prints
-$2n/3-\lfloor n/512\rfloor+3\log_4n-1/2$, both read on the text layer, where the string $3584$ does not occur; the published figure is
-$1/512$, and the theorem is paged on
+$2n/3-\lfloor n/512\rfloor+3\log_4n-1/2$, both read on the text layer, where the
+string $3584$ does not occur; the published figure is $1/512$, and the theorem
+is paged on
 [[additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/theorem_3_7|theorem_3_7]].
 Freud's $1/3584$ is the note's report as printed, not the paper's figure.
 
@@ -61,10 +62,9 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0867/_index|Problem 867]]: the note's
-  remark, without proof, that the proportion of the problem's maximal $A$
-  in $\{1,\ldots,N\}$ cannot exceed $2/3$, and its report that Coppersmith
-  and Phillips have a construction giving $13n/24+O(1)$ and the upper
-  bound $2/3-1/3584$, the latter at variance with the published
-  $\tfrac1{512}$; both figures are recorded on the problem page with their
-  provenance.
+- [[../wiki/problems/additive_combinatorics/E0867/_index|Problem 867]]: the
+  note's remark, without proof, that the proportion of the problem's maximal $A$
+  in $\{1,\ldots,N\}$ cannot exceed $2/3$, and its report that Coppersmith and
+  Phillips have a construction giving $13n/24+O(1)$ and the upper bound
+  $2/3-1/3584$, the latter at variance with the published $\tfrac1{512}$; both
+  figures are recorded on the problem page with their provenance.

@@ -37,7 +37,7 @@ archive's scan (`1985-03.pdf`) of the six typescript pages, printed pp. 81--86
 pp.81-86"), with a degraded OCR text layer; the statements below were read
 on the rendered page images. No notice is printed in the scan; the
 hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 the proceedings series has no online publisher page and the card gives no DOI,
 so the publisher's page was not consulted and no Crossref license is recorded;

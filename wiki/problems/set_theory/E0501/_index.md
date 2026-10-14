@@ -138,10 +138,10 @@ ZFC is Flypitch's axiomatization; the sentence renders outer measure $<1$
 as a countable open-interval cover of total length $<1$; the target
 `erdos501_sentence_faithful` ties it to the verbatim formal-conjectures
 proposition. Lee's `fmea_implies_P` and `ch_implies_not_P` are formalized
-in `lsngchl/Erdos-501/lean`. The community database records
-`formal_status: unformalized` for the problem so it has
-not adopted the development as a formalized solution. No Lean build was run
-in this corpus; details on the [Gla26] card.
+in `lsngchl/Erdos-501/lean`. On 2026-09-27 the community database recorded
+`formal_status: unformalized` for the problem, so it had not adopted the
+development as a formalized solution. No Lean build was run in this corpus;
+details on the [Gla26] card.
 
 ## Current assessment
 
@@ -390,7 +390,7 @@ $\mathbb{R}$.
   $\mathfrak c^+$ random reals over the pure random algebra rather than the
   paper's route. Not built in this corpus; no independent fidelity audit
   outside the project found; the community database recorded the problem
-  as unformalized.
+  as unformalized on 2026-09-27.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

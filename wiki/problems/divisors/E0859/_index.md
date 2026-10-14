@@ -55,14 +55,13 @@ $(\log t)^{\delta}d_t\to0$.
 2026-09-22 (the problem page: OPEN, marked as not resolvable by a finite
 computation; source key [Er70]; Proof expositions (0), Comments (0), Proof
 claims (0); "Formalised statement? Yes") and 2026-10-07 (Comments
-(0); Proof claims (1), the curator's entry of 2026-09-27), and the
-Conjectures.io record
+(0)), and the Conjectures.io record
 [conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19](https://conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19),
 accessed 2026-09-22 (Lean Verified 18 September 2026; Approved in review 21
-September 2026; reward eligible, bounty pending) and 2026-10-07
-(Certified 23 September 2026; bounty paid; solver JenW1N). Cite as: T. F.
-Bloom, Erdős Problem #859, https://www.erdosproblems.com/859, accessed
-2026-10-07.
+September 2026; reward eligible, bounty pending) and 2026-10-07 (Certified 23
+September 2026; bounty paid; solver JenW1N). The site's proof-claims tab later
+held one claim, the curator's entry of 2026-09-27. Cite as: T. F. Bloom, Erdős
+Problem #859, https://www.erdosproblems.com/859, accessed 2026-10-07.
 
 **References.**
 

@@ -56,7 +56,7 @@ linked from the claim page, which the corpus has not built.
 
 ## Current assessment
 
-The site's formulation asks whether, for $c>0$ fixed and
+The site's formulation (accessed 2026-09-04) asks whether, for $c>0$ fixed and
 $n$ large, every family $\mathcal F$ of at most $c2^n$ sets of size $n$ has
 $\gg_c 2^{\lvert X\rvert}$ subsets $B$ of its union $X$ that meet every member
 and contain none. The answer is yes:

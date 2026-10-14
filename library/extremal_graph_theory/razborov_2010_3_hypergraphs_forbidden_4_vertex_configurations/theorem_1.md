@@ -41,7 +41,7 @@ not claim as a theorem.
 
 **Source.** A. A. Razborov, *On 3-hypergraphs with forbidden 4-vertex
 configurations*, SIAM J. Discrete Math. 24 (2010), no. 3, 946--963,
-doi:10.1137/090747476 (the Crossref record); the
+doi:10.1137/090747476 (the Crossref record, read on 2026-09-18); the
 copy read is the author's preprint dated 15 December 2008, Theorem 1 and
 the remark on its p. 3, read on the page image and in the text layer; the
 journal version was not compared. The artifact is identified

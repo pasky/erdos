@@ -50,7 +50,7 @@ coefficients.
 
 Source: <https://users.renyi.hu/~p_erdos/1950-08.pdf>. No notice is printed on
 pp. 105--106 or 118--119; the hosting archive's site footer speaks for the site,
-not the paper (https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007
+not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007
 All rights reserved. All material on this site is for scientifics purposes
 only."); the Crossref record for DOI 10.2307/1969500, read 2026-10-02, names no
 license, and the publisher's page was not consulted; the term is unstated.
@@ -69,8 +69,8 @@ Theorem I (sections 10--14, pp. 112--118) was read for its structure only.
   [[analysis/erdos_1950_distribution_roots_polynomials/theorem_i|Theorem I]]
   proves such a bound, with the constant 16, for closed intervals
   [alpha, beta] in [0, 2 pi] and polynomials with a_0 a_n != 0, with the
-  degree in place of the number of nonzero coefficients. The paper does not consider the
-  number of nonzero coefficients.
+  degree in place of the number of nonzero coefficients. The paper does not
+  consider the number of nonzero coefficients.
 
 **Results.**
 
@@ -85,8 +85,8 @@ Theorem I (sections 10--14, pp. 112--118) was read for its structure only.
   (p. 109; proof omitted, p. 110): if the power series 1 + a_1 z + ... has
   v^{-lambda} <= |a_v| <= v^lambda for v >= 1, the roots of its n-th section
   lying in 1 - 1/sqrt(n) <= |z| <= 1 + 1/sqrt(n) and in a closed sector
-  alpha <= arg z <= beta, for any 0 <= alpha < beta <= 2 pi, number (beta-alpha)n/(2 pi) up to an error less
-  than A_12(lambda) sqrt(n log n).
+  alpha <= arg z <= beta, for any 0 <= alpha < beta <= 2 pi, number
+  (beta-alpha)n/(2 pi) up to an error less than A_12(lambda) sqrt(n log n).
 - Real-root corollary (section 5, pp. 107--108): applying Theorem I to the
   three angles (0, 2 pi sqrt(log P/n)), (pi - 2 pi sqrt(log P/n), pi + 2 pi
   sqrt(log P/n)) and (2 pi - 2 pi sqrt(log P/n), 2 pi), the paper bounds the

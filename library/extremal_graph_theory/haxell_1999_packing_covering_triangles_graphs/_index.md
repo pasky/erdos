@@ -69,12 +69,12 @@ is unreadable in the text layer). No preprint or later version is known here.
 The version of record is available free of charge from the publisher's open
 archive, the DOI <https://doi.org/10.1016/S0012-365X(98)00183-6> resolving to
 the article's PDF on ScienceDirect (PII S0012365X98001836), 208,323 bytes; it
-was read there. It prints "© 1999 Elsevier Science B.V. All
-rights reserved". The open archive's terms are the Elsevier user license
+was read there on 2026-09-22. It prints "© 1999 Elsevier Science B.V. All rights
+reserved". The open archive's terms are the Elsevier user license
 <https://www.elsevier.com/open-access/userlicense/1.0/>, which the Crossref
 record names for the version of record (both read 2026-10-07): they allow
-non-commercial access, copying, translation and text and data mining, but
-not redistribution, display or adaptation; every other right is reserved.
+non-commercial access, copying, translation and text and data mining, but not
+redistribution, display or adaptation; every other right is reserved.
 
 Read status: claims checked for the abstract, the definitions of an
 independent family, a transversal, $\nu(G)$ and $\tau(G)$, the trivial
@@ -192,9 +192,9 @@ preprint of Yi consumes for its Corollary 1, paged on
 [[extremal_graph_theory/haxell_1999_packing_covering_triangles_graphs/lemma_3|lemma_3]] and
 [[extremal_graph_theory/haxell_1999_packing_covering_triangles_graphs/lemma_4|lemma_4]];
 the proof of Theorem 5 (Lemmas 1--4 and the displayed combination,
-pp. 252--254) was read in full on the page images and followed, with the arithmetic
-recomputed. The closing remark is recorded as an author's statement without
-a printed proof. Nothing here is independently reviewed.
+pp. 252--254) was read in full on the page images and followed, with the
+arithmetic recomputed. The closing remark is recorded as an author's statement
+without a printed proof. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0167/_index|#167]]: Theorem 5
 (printed p. 254, PDF p. 4), "We have $\tau(G)\le(3-\varepsilon)\nu$, where

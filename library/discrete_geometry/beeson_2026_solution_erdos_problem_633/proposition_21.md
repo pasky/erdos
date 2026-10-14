@@ -34,11 +34,11 @@ $$
 
 If $F(t)=q^2$ for rational $q$, then $y=6xq$ gives a rational point on
 $y^2=x^3+18x^2-27x$ with $x\ne0$. The source records that this curve has rank
-zero and torsion order two. These values are also in [LMFDB
-144.a1](https://www.lmfdb.org/EllipticCurve/Q/144/a/1); its model
-$y^2=X^3-135X+594$ uses $X=x+6$. Thus its only rational points are $\mathcal O$
-and $(0,0)$, which cannot be our point. This contradiction proves the
-proposition.
+zero and torsion order two. These values are also in
+[LMFDB 144.a1](https://www.lmfdb.org/EllipticCurve/Q/144/a/1), accessed
+2026-09-05; its model $y^2=X^3-135X+594$ uses $X=x+6$. Thus its only rational
+points are $\mathcal O$ and $(0,0)$, which cannot be our point. This
+contradiction proves the proposition.
 
 The rank calculation itself is outside this rewritten proof; see the
 dependency explanation in [[discrete_geometry/beeson_2026_solution_erdos_problem_633/proposition_19|Proposition 19]].

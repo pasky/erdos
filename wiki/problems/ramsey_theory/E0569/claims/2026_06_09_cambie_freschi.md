@@ -111,7 +111,7 @@ analyzed in the second-neighborhood step and an induction applied to a
 subgraph that may contain isolated vertices; the commenter wrote that the
 allegations had not been checked by hand. Searches found
 no reply, no repair and no later arXiv version; the arXiv record listed only
-v1 on 2026-10-07. The proof claim had two comments,
+v1 on 2026-10-07. On 9 September 2026 the proof claim had two comments,
 both of 27 July 2026: the first author's remark that this may be the only full
 claim made without AI since the site's feature changed, and the comment
 linking the audit. No journal version was found (Crossref and OpenAlex,

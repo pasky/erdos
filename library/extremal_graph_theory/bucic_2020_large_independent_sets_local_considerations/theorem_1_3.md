@@ -42,7 +42,7 @@ considerations*, arXiv:2007.03667v3 (14 January 2023), 34 pages; Theorem 1.3
 and the surrounding paragraph on p. 2, read on the page image; the
 convention on p. 5 and Section 4 on pp. 24--26 in the text layer. Published
 in Combinatorica 43 (2023), no. 3, 505--546, doi:10.1007/s00493-023-00023-w
-(Crossref record read); the journal text is not held and was
+(Crossref record read on 2026-09-18); the journal text is not held and was
 not compared. The artifact is identified in the
 [[extremal_graph_theory/bucic_2020_large_independent_sets_local_considerations/_index|source digest]].
 

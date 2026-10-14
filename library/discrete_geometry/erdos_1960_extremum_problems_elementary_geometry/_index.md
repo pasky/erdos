@@ -70,7 +70,7 @@ the angle results bearing on problem 504.
 
 Source: <https://users.renyi.hu/~p_erdos/1960-09.pdf>. No notice is printed; the
 hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 the journal has no publisher page or DOI for this edition, so none was
 consulted, and no Crossref license is recorded; the term is unstated.

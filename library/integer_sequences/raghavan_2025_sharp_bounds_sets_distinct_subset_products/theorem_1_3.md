@@ -35,7 +35,7 @@ products*, arXiv:2501.02695v2 (26 February 2026, 13 pp.);
 Theorem 1.3 on p. 1, read on the page image and in the text layer.
 Published in Acta Math. Hungar. 177 (2025), no. 2, 363--377, DOI
 10.1007/s10474-025-01578-4 (published online 25 December 2025; Crossref
-record and the arXiv listing's related DOI read); the journal
+record and the arXiv listing's related DOI read 2026-09-18); the journal
 text was not compared, so the locators are those of v2.
 
 **Read depth.** Claims checked: the statement, Question 1.2, Example 1.1

@@ -43,7 +43,7 @@ whether $f_{\max}(n)=O(2^{n/4})$, answered yes by the authors' 2018 paper.
 **Source.** J. Balogh, H. Liu, M. Sharifzadeh and A. Treglown, *The number
 of maximal sum-free subsets of integers*, Proc. Amer. Math. Soc. 143
 (2015), no. 11, 4713--4721, DOI 10.1090/S0002-9939-2015-12615-9 (Crossref
-record read). The copy read for this page is arXiv:1409.5661v1 (19
+record read 2026-09-18). The copy read for this page is arXiv:1409.5661v1 (19
 September 2014, 10 pp., "to appear in the Proceedings of the American
 Mathematical Society"), the only arXiv version on 2026-09-18, whose
 pagination is used here; the journal text was not compared. Theorem 1.1

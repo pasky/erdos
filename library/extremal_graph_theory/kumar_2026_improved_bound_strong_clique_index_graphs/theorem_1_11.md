@@ -51,7 +51,8 @@ computation on p. 13, page image. The artifact is identified in the
 
 **Read depth.** Claims checked: the statement, the two paragraphs around
 it, Conjectures 1.9--1.10 and Problem 1.12 (p. 4) and the closing
-computation (p. 13) were read clause by clause on the page images; Lemma 3.1's proof (p. 9) followed
+computation (p. 13) were read clause by clause on the page images; Lemma 3.1's
+proof (p. 9) followed
 ([[extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/lemma_3_1|lemma_3_1]]);
 Lemma 3.2's proof (pp. 9--10) read for structure; Lemmas 3.3--3.4 and the
 construction $G[H,q]$ (Section 3.2, pp. 10--13) not read.

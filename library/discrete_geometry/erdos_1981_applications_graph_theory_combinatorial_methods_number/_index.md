@@ -116,7 +116,7 @@ and Selfridge proved as added in proof.
 
 Source: <https://users.renyi.hu/~p_erdos/1981-29.pdf>. No notice is printed; the
 hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 the colloquium volume has no publisher page or DOI for this edition, so none was
 consulted, and no Crossref license is recorded; the term is unstated.
@@ -152,8 +152,8 @@ of interest (pp. 141-142)
 [[../wiki/problems/discrete_geometry/E0705/_index|#705]] and
 [[../wiki/problems/graph_coloring/E0706/_index|#706]]: Erdős's girth conjecture
 is the site's #705 question, and Wormald's girth-5 example (as reported) shows
-that k = 5 does not suffice; his question on the growth of alpha_2(r) is the site's
-#706 question (p. 142)
+that k = 5 does not suffice; his question on the growth of alpha_2(r) is the
+site's #706 question (p. 142)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/unit_distance_graphs_p142|unit_distance_graphs_p142]]).
 [[../wiki/problems/distance_problems/E0090/_index|#90]]: the site asks whether
 the reported lower bound f_2(n) > n^{1+c/log log n} gives the true order, which

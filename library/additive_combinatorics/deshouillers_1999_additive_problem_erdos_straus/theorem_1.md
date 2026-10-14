@@ -43,13 +43,14 @@ and the authors' own $|\mathcal A|\le(2+o(1))\sqrt N$ from part 1 (Israel
 J. Math. 92 (1995), 33--43), filed as
 [[additive_combinatorics/deshouillers_1995_additive_problem_erdos_straus/_index|deshouillers_1995_additive_problem_erdos_straus]];
 its Theorem 1, $\operatorname{card}\mathcal A\le2N^{1/2}+CN^{5/12}$, is on
-printed p. 34 (PDF p. 2), read there clause by clause on the page image and paged on
+printed p. 34 (PDF p. 2), read there clause by clause on the page image and
+paged on
 [[additive_combinatorics/deshouillers_1995_additive_problem_erdos_straus/theorem_1|theorem_1]].
-Theorem 1 therefore gives, for
-$N\ge N_0$, the exact value $\max|\mathcal A|=\lfloor2\sqrt{N+1/4}-1\rfloor$,
-attained by Straus's block: the block gives the lower bound and Theorem 1
-the matching upper bound. This one-line combination is made here; the
-paper states the theorem and the block computation separately.
+Theorem 1 therefore gives, for $N\ge N_0$, the exact value
+$\max|\mathcal A|=\lfloor2\sqrt{N+1/4}-1\rfloor$, attained by Straus's block:
+the block gives the lower bound and Theorem 1 the matching upper bound. This
+one-line combination is made here; the paper states the theorem and the block
+computation separately.
 
 **Theorem 2** (p. 142, quoted from part 1). "Let $\mathcal A$ be an
 admissible set included in $[1,N]$, such that
@@ -68,11 +69,11 @@ the unique admissible subset of $[1,N]$ of largest size.
 
 **Source.** J.-M. Deshouillers and G. A. Freiman, *On an additive problem of
 Erdős and Straus, 2*, in Structure theory of set addition, Astérisque 258, Soc.
-Math. France (1999), 141–148 (the Numdam record, gives MR 1701192 and Zbl
-0979.11005; the article's own DOI is 10.24033/ast.442, per its Crossref record
-read); the copy read is the Numdam file, 9 pages, printed p. $n$ on PDF p.
-$n-139$. The introduction and Theorems 1 and 2 with the remark on printed pp.
-141–142 (PDF pp. 2–3), read on the page images.
+Math. France (1999), 141–148 (the Numdam record, read 2026-09-18, gives MR
+1701192 and Zbl 0979.11005; the article's own DOI is 10.24033/ast.442, per its
+Crossref record read 2026-10-07); the copy read is the Numdam file, 9 pages,
+printed p. $n$ on PDF p. $n-139$. The introduction and Theorems 1 and 2 with the
+remark on printed pp. 141–142 (PDF pp. 2–3), read on the page images.
 
 **Read depth.** Claims checked: the definition, the historical account,
 Theorem 1, Theorem 2 and the remark were read clause by clause on the page

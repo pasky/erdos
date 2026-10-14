@@ -38,14 +38,14 @@ M_k*(q) on k(q+1) vertices has none of order m+2.
 
 D. McCarthy and C. Monico, *A Mathon-type construction for digraphs and improved
 lower bounds for Ramsey numbers*, Electron. J. Combin. 32 (2025), no. 2, Paper
-No. P2.42, DOI 10.37236/13294 (Crossref record read); the PDF's header reads
-"Submitted: Aug 11, 2024; Accepted: May 4, 2025; Published: Jun 6, 2025", CC
-BY-ND 4.0; arXiv:2408.04067 (v1 7 August 2024, v2 11 August 2024, "Corrected
-typo from V1").
+No. P2.42, DOI 10.37236/13294 (Crossref record read 2026-09-18); the PDF's
+header reads "Submitted: Aug 11, 2024; Accepted: May 4, 2025; Published: Jun 6,
+2025", CC BY-ND 4.0; arXiv:2408.04067 (v1 7 August 2024, v2 11 August 2024,
+"Corrected typo from V1").
 
 The copy read for this card
 is the journal's published PDF (10 pages, pdfTeX), read in its text layer;
-page references are the journal's. Provenance: retrieved
+page references are the journal's. Provenance: retrieved 2026-09-18T11:06:50Z
 from
 <https://www.combinatorics.org/ojs/index.php/eljc/article/download/v32i2p42/pdf>
 (HTTP 200, one request); 285,255 bytes. The file prints "© The authors. Released

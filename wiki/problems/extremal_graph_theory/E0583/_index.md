@@ -117,7 +117,7 @@ https://www.erdosproblems.com/583, accessed 2026-09-18.
 - [BoPe19] Bonamy, Marthe and Perrett, Thomas J., Gallai's path
   decomposition conjecture for graphs of small maximum degree. Discrete
   Math. 342 (2019), no. 5, 1293--1299, doi:10.1016/j.disc.2019.01.005
-  (Crossref record read; not held); pages cited from
+  (Crossref record read 2026-09-18; not held); pages cited from
   arXiv:1609.06257v1 (20 September 2016, pagination 1--11). Conjecture 1.1
   and the quoted Theorems 1.1--1.2, p. 1; Theorem 1.3 and Question 1.1, p. 2.
   Library home:
@@ -140,7 +140,7 @@ https://www.erdosproblems.com/583, accessed 2026-09-18.
   conjecture and the path number of odd semi-cliques. Discrete Math. 349
   (2026), Paper No. 114725, 6 pp., doi:10.1016/j.disc.2025.114725 (received
   18 December 2024, accepted 30 July 2025, available online 18 August 2025;
-  the Crossref record read gives the issue date February 2026).
+  the Crossref record read 2026-09-18 gives the issue date February 2026).
   Conjecture 1.1 and Theorem 1.2 (Lovász, quoted), p. 1; Theorems 1.3--1.5,
   the semi-clique definition, Conjecture 1.6 and Theorem 1.7, p. 2; the
   proof of Theorem 1.4, p. 6. Library home:
@@ -204,14 +204,14 @@ https://www.erdosproblems.com/583, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/583.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/583.lean)
-of formal-conjectures (main as fetched, the link pinned to
+of formal-conjectures (main as fetched 2026-09-18, the link pinned to
 that revision) declares `erdos_583` under `category
 research open` with proof `sorry`: for a finite connected simple graph $G$
 there is a decomposition of $G$ into subgraphs that are paths
 (`IsPathSubgraph`: the subgraph traced by a walk with no repeated vertex)
 with at most $\lceil|V|/2\rceil$ parts. The site's "Formalised statement?"
-indicator read "No" and "Yes" on 18 September 2026; the
-community database (teorth/erdosproblems) records the
+indicator read "No" on 5 September 2026 and "Yes" on 18 September 2026; the
+community database (teorth/erdosproblems, fetched 2026-09-18) records the
 problem falsifiable (31 August 2025), the statement formalized since 7
 September 2026 and no formal proof.
 

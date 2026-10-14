@@ -38,10 +38,10 @@ Brownian motion and random walks in two dimensions*, Annals of Mathematics
 ## Source versions
 
 The copy read for this card is the published PDF, the 32-page [publisher
-copy](https://annals.math.princeton.edu/wp-content/uploads/annals-v160-n2-p02.pdf).
-Printed p. 433 is PDF p. 1. The [publisher
-record](https://annals.math.princeton.edu/2004/160-2/p02) identifies the volume,
-issue and page range.
+copy](https://annals.math.princeton.edu/wp-content/uploads/annals-v160-n2-p02.pdf),
+accessed 2026-09-05. Printed p. 433 is PDF p. 1. The
+[publisher record](https://annals.math.princeton.edu/2004/160-2/p02) identifies
+the volume, issue and page range.
 
 A second copy read for this card is the
 30-page arXiv v2.

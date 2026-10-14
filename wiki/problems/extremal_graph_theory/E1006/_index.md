@@ -78,7 +78,7 @@ https://www.erdosproblems.com/1006, accessed 2026-09-18.
 - [NeRo78b] Nešetřil, Jaroslav and Rödl, Vojtěch, On a probabilistic
   graph-theoretical method. Proc. Amer. Math. Soc. 72 (1978), no. 2,
   417--421, doi:10.1090/S0002-9939-1978-0507350-7 (received 20 May 1977,
-  revised 6 January 1978; Crossref record). Corollary 3 and
+  revised 6 January 1978; Crossref record, 2026-09-18). Corollary 3 and
   Figure 1, p. 419; Corollary 4, p. 419, with its one-sentence proof on
   p. 420; Theorem 2, pp. 418--419. Library home:
   [[../library/extremal_graph_theory/nesetril_1978_probabilistic_graph_theoretical_method/_index|nesetril_1978_probabilistic_graph_theoretical_method]];
@@ -199,7 +199,7 @@ earlier and that "as far as I know there are no results".
 **Cover-graph literature.** By the equivalence in the Formulation, a graph of
 girth at least five that is not a cover graph answers the question no; the
 graphs of Corollary 4 are such graphs. The citing papers of [NeRo78b] listed by
-Semantic Scholar include five on cover graphs. O. Pretzel, "A
+Semantic Scholar (2026-09-18) include five on cover graphs. O. Pretzel, "A
 non-covering graph of girth six", Discrete Math. 63 (1987), 241--244, constructs
 such a graph explicitly (its summary on zbMATH Open, Zbl 0651.05046) and is the
 second claim page. Pretzel's "On graphs that can be oriented as diagrams of

@@ -52,7 +52,8 @@ Source:
 <https://drive.google.com/file/d/1VKaFmiMWWMW7NME-L47HVGSWOoBt9sug/view>. No
 notice is printed on the first or last two pages; the copy read for this card
 is the author's unpublished manuscript, shared by a Google Drive link
-(https://drive.google.com/file/d/1VKaFmiMWWMW7NME-L47HVGSWOoBt9sug/view) that states no terms, and no publisher page exists; the term is
+(https://drive.google.com/file/d/1VKaFmiMWWMW7NME-L47HVGSWOoBt9sug/view, read
+2026-10-02) that states no terms, and no publisher page exists; the term is
 unstated.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0326/_index|#326]]: Theorem
@@ -78,11 +79,12 @@ $i\in I$; Lemma 3.2 (p. 5), with $B$, $D$ depending only on $M$ and for all
 sufficiently large $L$, covers an interval $J=[N,N+L)$ outside a protected
 set $P\subset J$ by $S+S$ while keeping $P\cup Q$ out of $S+S$, for
 $\lvert P\rvert+\lvert Q\rvert\le M$ and $Q\cap J\subset P$, avoiding a
-forbidden set of at most $C_F\sqrt L$ points, with $\lvert S\rvert\le
-B\sqrt L$ and $S\subset[N/2-DL,N/2+DL]$; Lemma 5.3 (p. 9), when every square shell holds at most $C_*$ points,
-fills a sufficiently large shell below $X$ up to a count $q_r=O_C(1)$ without a second representation of a uniquely represented $X$; and
-Lemma 6.5 (p. 12) keeps a unique representation of $n$ unique when no element
-at most $n$ is added later.
+forbidden set of at most $C_F\sqrt L$ points, with $\lvert S\rvert\le B\sqrt L$
+and $S\subset[N/2-DL,N/2+DL]$; Lemma 5.3 (p. 9), when every square shell holds
+at most $C_*$ points, fills a sufficiently large shell below $X$ up to a count
+$q_r=O_C(1)$ without a second representation of a uniquely represented $X$; and
+Lemma 6.5 (p. 12) keeps a unique representation of $n$ unique when no element at
+most $n$ is added later.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -32,7 +32,7 @@ with $\alpha=\omega^\beta$ (Specker's yes at $\beta=2$ and no at
 $3\le\beta<\omega$, Chang's yes at $\beta=\omega$, Galvin and Larson's reduction
 to $\beta=\omega^\gamma$ for $\beta\ge3$, and Schipperus's results by the number
 of indecomposable summands of $\gamma$), and the
-[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/592.lean),
+[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/592.lean)
 asks for the countable $\beta$ with $\omega^\beta\to(\omega^\beta,3)^2$. The
 standing judges the Statement above in that reading, with $\alpha=\omega^\beta$.
 The papers in the References below write the question as

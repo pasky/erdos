@@ -80,8 +80,9 @@ and only if for every $k\geq3$ and all sufficiently large $m$, every finite
 graph $H$ with $m$ edges and no vertex of degree zero has `graphRamsey
 (cycleGraph k) H` at most $2m+\lfloor(k-1)/2\rfloor$, with proof `sorry` and no
 `formal_proof` attribute; its docstring credits the same five sources as the
-site. The community database records the statement as formalized since 9
-September 2026 and the formal status as unformalized. Nothing was built.
+site. The community database (read 2026-10-07) records the statement as
+formalized since 9 September 2026 and the formal status as unformalized. Nothing
+was built.
 
 ## Current assessment
 

@@ -121,19 +121,19 @@ https://www.erdosproblems.com/441, accessed 2026-09-18.
   [[../library/integer_sequences/chen_2007_sequences_bounded_l_c_m_each/_index|chen_2007_sequences_bounded_l_c_m_each]].
 - [Ch72b] Choi, S. L. G., The largest subset in $[1,n]$ whose integers have
   pairwise l.c.m. not exceeding $n$. Mathematika 19 (1972), no. 2,
-  221--230, DOI 10.1112/S0025579300005684 (Crossref record). The Theorem,
-  printed p. 221: $g(n)<(1+\lambda-\lambda^*)n^{1/2}+o(n^{1/2})$ with $\lambda$,
-  $\lambda^*$ two explicit series and the paper's numerical values
-  $0.6368<\lambda-\lambda^*<0.6380$, the source of the bound $1.638\sqrt n$
-  quoted by [Ch98], [Gu04] and [OEIS]; the estimate (6), printed p. 222,
-  $g(n)<(1+\lambda)n^{1/2}+o(n^{1/2})$ with $\lambda<0.87$. The bound
+  221--230, DOI 10.1112/S0025579300005684 (Crossref record accessed 2026-09-18).
+  The Theorem, printed p. 221: $g(n)<(1+\lambda-\lambda^*)n^{1/2}+o(n^{1/2})$
+  with $\lambda$, $\lambda^*$ two explicit series and the paper's numerical
+  values $0.6368<\lambda-\lambda^*<0.6380$, the source of the bound
+  $1.638\sqrt n$ quoted by [Ch98], [Gu04] and [OEIS]; the estimate (6), printed
+  p. 222, $g(n)<(1+\lambda)n^{1/2}+o(n^{1/2})$ with $\lambda<0.87$. The bound
   $1.43\sqrt n$ of its sequel (Acta Arith. 29 (1976), 105--111, not read) is
   quoted from [Ch98], p. 71. Library home:
   [[../library/integer_sequences/choi_1972_largest_subset_pairwise_l_c_m_not_exceeding_n/_index|choi_1972_largest_subset_pairwise_l_c_m_not_exceeding_n]].
 - [Er51b] Erdős, P., Problem. Mat. Lapok 2 (1951), 233 (the volume and page
-  per [Ch98]'s reference [3]). Not read: the Rényi archive's bibliography
-  listed fourteen 1951 papers and no Mat. Lapok problem entry; no other open
-  copy was located. The bound $g(N)\le(4N)^{1/2}+O(1)$
+  per [Ch98]'s reference [3]). Not read: the Rényi archive's bibliography,
+  read 2026-09-18, listed fourteen 1951 papers and no Mat. Lapok problem
+  entry; no other open copy was located. The bound $g(N)\le(4N)^{1/2}+O(1)$
   the site attributes to it is quoted from the site and from [Ch98], p. 71,
   which refers to [Er65] for a proof.
 - [Er62] Erdős, P., Számelméleti megjegyzések IV. Mat. Lapok 13 (1962),
@@ -165,7 +165,7 @@ https://www.erdosproblems.com/441, accessed 2026-09-18.
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 - [OEIS] Nomoto, N., Sequence A068509, The On-Line Encyclopedia of Integer
   Sequences (2002; entry last modified 30 May 2026, server time): $g(N)$ for
-  $N\le87$ with a table to $1000$ by W. R. Marshall.
+  $N\le87$ with a table to $1000$ by W. R. Marshall, accessed 2026-09-18.
 
 **Formalization.** Statement only in the collection, added after
 2026-09-18. No file `ErdosProblems/441.lean` existed in
@@ -250,9 +250,9 @@ the construction.
 $-2\le R(x)\le45\sqrt{x/\log x}\,\log\log x$, the constant $45$ improvable;
 they conjecture $R(x)\to\infty$. Every set counted by $g(N)$ is a set
 counted by $|A_N|$ and conversely ($A_N\subseteq[1,N]$ automatically), so
-$g(N)=|A_N|$. Acceptance: Acta Arithmetica is refereed (Crossref records). Read
-depth: claims checked for both theorems; the proofs (sieve arguments) were not
-read beyond the first lemma of each paper.
+$g(N)=|A_N|$. Acceptance: Acta Arithmetica is refereed (Crossref records
+accessed 2026-09-18). Read depth: claims checked for both theorems; the proofs
+(sieve arguments) were not read beyond the first lemma of each paper.
 
 **The second question: the construction is not optimal.**
 [[../library/integer_sequences/chen_2007_sequences_bounded_l_c_m_each/theorem_1|Chen and Dai's Theorem 1]]

@@ -58,8 +58,8 @@ online on 14 January 2026. The site's curator, Thomas Bloom, marked the problem
 solved and credits this theorem, independently of the authors.
 
 The library's locators are those of arXiv v1 of 10 April 2024, the only arXiv
-version listed. The published text has not been compared with it. The library
-covers
+version listed on 2026-09-17. The published text has not been compared with it.
+The library covers
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/theorem_1_3|the theorem]]
 with its statement and a proof sketch. It records two parameter conditions of
 the paper's Proposition 5.2 that the printed proof does not visibly meet, and

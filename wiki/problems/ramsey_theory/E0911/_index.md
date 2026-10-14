@@ -75,13 +75,13 @@ Erdős Problem #911, https://www.erdosproblems.com/911, accessed 2026-09-18.
 **Formalization.** None found. No file for this problem exists in the
 directory `FormalConjectures/ErdosProblems/` of
 google-deepmind/formal-conjectures (main, 2026-09-18), and the community
-database records the problem open, not formalized, with
+database (fetched 2026-09-18) records the problem open, not formalized, with
 no formal proof (record last updated 31 August 2025). The site's "Formalised
 statement?" indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; status OPEN; no commentary. The thread has three comments of 22 and 23
 October 2025: a reader could not find the problem in the cited reference,
 then located it on the reference's page 78, among the additions at the end of

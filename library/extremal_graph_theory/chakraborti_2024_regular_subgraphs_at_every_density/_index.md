@@ -36,7 +36,7 @@ pages with a text layer; printed and PDF pages agree, and the statement labels
 and locators below are those of this version (the paper was first posted in
 November 2024, hence the citation year). A journal version, Trans. Amer. Math.
 Soc., DOI 10.1090/tran/9694, published online 18 August 2026 (Crossref record
-read), was not compared.
+read 2026-09-17), was not compared.
 
 Read status: claims checked for Theorems 1.4 and 1.5 and Propositions 1.6 and
 1.7, read clause by clause on the page image of p. 2, where the range endpoint

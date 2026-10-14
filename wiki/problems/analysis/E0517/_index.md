@@ -95,7 +95,7 @@ The theorem statements follow the site's commentary and Murai's paper
 the papers of Fejér, Biernacki and Pólya are not held and their proofs are
 not reconstructed here. Search scope: the site's problem page, its
 discussion thread (on 2026-10-07 one comment, of 2026-03-26, citing Murai) and
-its proof-claims tab (empty on that date), the community database entry and the
+its empty proof-claims tab, the community database entry and the
 formal-conjectures file; no literature search beyond Murai's bibliography.
 
 ## Known Results

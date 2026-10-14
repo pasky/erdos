@@ -113,8 +113,8 @@ a single kernel implementation.
 
 The bounty site's certification is reported, not counted. There is no refereed
 publication, no erdosproblems.com acceptance and no formal-conjectures
-agreement. The erdosproblems.com page kept the label OPEN and shows no proof
-claim its curator has verified. The formal-conjectures default branch of
+agreement. The erdosproblems.com page kept the label OPEN and showed no proof
+claim its curator had verified. The formal-conjectures default branch of
 2026-09-18 keeps both parts `research open` with `answer(sorry)`.
 Conjectures.io's own note records that the Erdős Problem a Day report of 26 July
 2026 left both asymptotic questions unresolved.

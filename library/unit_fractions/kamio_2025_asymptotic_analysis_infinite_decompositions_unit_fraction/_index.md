@@ -23,7 +23,8 @@ Yuhi Kamio, Asymptotic Analysis of Infinite Decompositions of a Unit Fraction
 into Unit Fractions. arXiv:2503.02317 (2025).
 
 The copy read for this card is arXiv:2503.02317v1 (4 March 2025; the paper is
-dated 5 March 2025), 5 pages, the only version on the arXiv listing read; the listing carries no journal reference and no journal record was
+dated 5 March 2025), 5 pages, the only version on the arXiv listing read on
+2026-09-18; the listing carried no journal reference and no journal record was
 found (Crossref bibliographic query the same day), so the paper is an author
 preprint. Read status: claims checked. Problem 1, Definition 3,
 Proposition-Definition 4, Proposition 5 and Theorem 8 (pp. 1--3) were read
@@ -67,8 +68,8 @@ Source: <https://arxiv.org/abs/2503.02317>.
 **Results.**
 
 - Theorem 8 (p. 3; on the theorem_8 page): For a positive integer n, if
-  positive integers a_1 <= a_2 <= ... satisfy sum 1/a_i = 1/n and a_i differs from s_i(n) for
-  some i, then liminf a_i^(2^{-i}) < c_n = lim s_i(n)^(2^{-i}).
+  positive integers a_1 <= a_2 <= ... satisfy sum 1/a_i = 1/n and a_i differs
+  from s_i(n) for some i, then liminf a_i^(2^{-i}) < c_n = lim s_i(n)^(2^{-i}).
 - The case n = 1 (the paper labels no corollary; p. 1 says it solves Problem
   1 and its generalization, Theorem 8): any nondecreasing sequence of positive
   integers other than the Sylvester sequence s_i(1) = 2, 3, 7, 43, ... with sum
@@ -78,8 +79,9 @@ Source: <https://arxiv.org/abs/2503.02317>.
   c_n = lim s_i(n)^(2^{-i}) exists and satisfies sqrt(n) < c_n < sqrt(n+1),
   so c_n increases in n.
 - Proposition 5 (p. 2; on the theorem_8 page): For positive integers n and
-  j, the generalized Sylvester sequence satisfies sum_{i<j} 1/s_i(n) + 1/(s_j(n)-1) = 1/n, and s_j(n) - 1
-  is the product of the earlier terms times n.
+  j, the generalized Sylvester sequence satisfies sum_{i<j} 1/s_i(n) +
+  1/(s_j(n)-1) = 1/n, and s_j(n) - 1 is the product of the earlier terms times
+  n.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -21,8 +21,8 @@ fresh context: the reviewer has not seen the author's working context and tries
 to break the claim. A focused review can inform a research decision without
 asserting a claim tier. Tier 1 is earned only by surviving a whole-statement
 review charged to refute the claim under the full contract below. These rules
-apply whether people or isolated AI agents perform the review. The tier law and
-claim layout live in [[anatomy|the corpus law]].
+apply whether people, isolated AI agents, or another workflow perform the
+review. The tier law and claim layout live in [[anatomy|the corpus law]].
 
 An author's checks, a collaborator's exchange, or another step in the author's
 own working context can find errors and demote a claim. They do not establish
@@ -161,8 +161,8 @@ fresh reviewer unless the grader's filed materiality ruling finds the exposure
 immaterial; merely closing the channel afterward does not restore independence.
 When excluded text did reach the reviewer, the report discloses what was
 received. The grader rules on its materiality by a content test: whether
-anything in the report could only have come from it, and whether the direction
-of an attack or the strength of the refutation charge followed it. The grader
+anything in the report could only have come from it, or whether the direction of
+an attack or the strength of the refutation charge followed it. The grader
 records the ruling, and the filed record's index page and the card's Standing
 paragraph state the exposure and the ruling. An acceptance whose record shows an
 exposure with no ruling is not relied on until a grader distinct from the author
@@ -381,9 +381,11 @@ third-party file, or a preserved snapshot of reviewed text. A held source file
 carries no SHA-256 line on its source card: Git LFS records the size and SHA-256
 of every held PDF and every file over 1 MB in its pointer, and a smaller held
 file is identified by its path. An edition the repository does not hold is named
-by its bibliographic identifier, version, URL and retrieval date. Private run
-state that never reaches the default branch (working notes and receipts kept
-outside the clone) may name commits.
+by its bibliographic identifier, version, URL, and its retrieval date when
+neither its URL (pinned to an immutable version such as arXiv's vN, or to a
+commit) nor a hash recorded on the card pins the edition. Private run state that
+never reaches the default branch (working notes and receipts kept outside the
+clone) may name commits.
 
 A record cites the root `AGENTS.md` by a section heading in quotes or by a
 binding convention's number with its short name (`AGENTS.md` section "Checks";

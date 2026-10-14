@@ -64,8 +64,8 @@ Read status: claims checked for Theorems 5, 6, 7 and 8, displays (14),
 (15) and (17), the $C_4$ statement on p. 523, the remark on the limit on
 p. 525 and the concluding questions (iv) and (v) (read clause by clause on
 the page images); the proofs of Theorems 5--8 were read for structure only
-and are not checked here. Theorems 1--4 and Lemmas 1--2 are recorded from
-the earlier reading in the text layer and were not re-read.
+and are not checked here. Theorems 1--4 and Lemmas 1--2 were read in the text
+layer, not on the page images.
 
 ## Contents
 

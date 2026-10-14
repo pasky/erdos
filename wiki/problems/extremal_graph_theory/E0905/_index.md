@@ -49,10 +49,10 @@ $13$ edges and every edge on at most two triangles. The site's label PROVED
 Khadzhiivanov and V. Nikiforov, *Solution of a problem of P. Erdős about the
 maximum number of triangles with a common edge in a graph*, C. R. Acad. Bulgare
 Sci. 32 (1979), no. 10, 1315--1318 [KhNi79]. It is not held, and no online
-record of it has been located. The site's reference text prints the second
-author as "S. V. Nikiforov"; the 1988 paper, Fox and Loh, and Bollobás and
-Nikiforov give V. Nikiforov. The site marks its second prover, Edwards, as
-unpublished.
+record of it has been located (no Crossref or zbMATH record on 2026-09-18). The
+site's reference text prints the second author as "S. V. Nikiforov"; the 1988
+paper, Fox and Loh, and Bollobás and Nikiforov give V. Nikiforov. The site marks
+its second prover, Edwards, as unpublished.
 
 There are three claim pages, and the frontmatter standing is derived from the
 accepted pages.
@@ -125,7 +125,8 @@ Bloom, Erdős Problem #905, https://www.erdosproblems.com/905, accessed
   and its p. 44 calls the coauthor, in translation, the author's diploma student
   V. Nikiforov, and [FoLo12]'s reference [13] and [BoNi05]'s reference [10]
   give "V. Nikiforov"; the site's reference text prints "S. V. Nikiforov".
-  Not held; no DOI; its theorem is known through [Kh88], [BoNi05]
+  Not held; no DOI, no Crossref record (Problem 80's record) and no zbMATH
+  record found on 2026-09-18; its theorem is known through [Kh88], [BoNi05]
   and [FoLo12].
 - [Kh88] Khadzhiivanov, N., On the maximal number of triangles with a common
   edge (in Russian, with an English abstract and summary). Annuaire Univ.

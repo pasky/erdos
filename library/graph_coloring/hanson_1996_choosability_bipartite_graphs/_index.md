@@ -23,19 +23,18 @@ is an image-only scan of the ten printed pages (physical PDF p. $n$ is
 printed p. $182+n$) with no text layer; the first page prints the journal
 footer "ARS COMBINATORIA 44(1996), pp. 183-192", which fixes the identity of
 the scan. The statements below were read on the page images of all ten
-pages. Provenance: retained from the repository's survey download set of
-September 2026; the download URL was not recorded; 536,167 bytes. No notice is
-printed in the scan (p. 183 carries only the journal footer and p. 192 only its
-page number); the current publisher's copyright policy states "For articles
-published in Combinatorial Press journals, authors retain the copyright to
-their work" and "These articles are licensed under an open access Creative
-Commons CC BY 4.0 license"
-(https://combinatorialpress.com/copyright-policy/, read 2026-10-02), naming the
-Creative Commons Attribution 4.0 license with no date limit or back-volume
-carve-out, and the journal page calls the journal Diamond Open Access
-(https://combinatorialpress.com/ars/, read 2026-10-02); volume 44 was published
-by the Charles Babbage Research Centre, so whether the policy reaches this 1996
-article is unverified.
+pages. Provenance: retained from the repository's survey download set; the
+download URL was not recorded; 536,167 bytes. No notice is printed in the scan
+(p. 183 carries only the journal footer and p. 192 only its page number); the
+current publisher's copyright policy states "For articles published in
+Combinatorial Press journals, authors retain the copyright to their work" and
+"These articles are licensed under an open access Creative Commons CC BY 4.0
+license" (https://combinatorialpress.com/copyright-policy/, read 2026-10-02),
+naming the Creative Commons Attribution 4.0 license with no date limit or
+back-volume carve-out, and the journal page calls the journal Diamond Open
+Access (https://combinatorialpress.com/ars/, read 2026-10-02); volume 44 was
+published by the Charles Babbage Research Centre, so whether the policy reaches
+this 1996 article is unverified.
 
 ## Contents
 

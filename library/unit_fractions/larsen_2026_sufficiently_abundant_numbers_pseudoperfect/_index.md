@@ -45,23 +45,22 @@ replaced on 1 February 2026 (commit `39139e2b`, the repository's head on
 2026-09-18). The paper carries no date of its own; its references cite the
 site's problem pages "accessed 2026-01-29" and the PDF's creation stamp is
 1 February 2026, so the year in the slug is 2026. It is not on arXiv (API
-searches) and has no journal record (Crossref bibliographic query of
-2026-09-18); it is unrefereed.
+searches of 2026-09-18) and has no journal record (Crossref bibliographic
+query of 2026-09-18); it is unrefereed.
 
 The copy read for this card is that 9-page file, obtained from
 `https://github.com/Larsen-Daniel/Erdos-318/blob/main/318.pdf`, the link the
 site's Problem 318 thread gives (comment of 1 February 2026); 291,983 bytes; a
-fresh fetch of the raw file at commit `39139e2b` on 2026-09-18 returned
-identical bytes. An earlier 8-page version of the same title (PDF creation stamp
-30 January 2026), whose abstract states only the pseudoperfect result and which
-has no Theorem 6, was read for comparison. The text layer is
-clean; the statements below were read in it, and Theorems 1 and 6 and the
-closing acknowledgment on the page images of pp. 1, 8 and 9. No notice is
-printed in the manuscript (pp. 1--2 and 8--9 read); the hosting repository
-(https://github.com/Larsen-Daniel/Erdos-318, read 2026-10-02) holds only the PDF
-and its TeX source, has no LICENSE file, and its About panel reads "No
-description, website, or topics provided.", so no terms are stated; the term is
-unstated.
+fresh fetch of the raw file at commit `39139e2b` returned identical bytes. An
+earlier 8-page version of the same title (PDF creation stamp 30 January 2026),
+whose abstract states only the pseudoperfect result and which has no Theorem 6,
+was read for comparison. The text layer is clean; the statements below were read
+in it, and Theorems 1 and 6 and the closing acknowledgment on the page images of
+pp. 1, 8 and 9. No notice is printed in the manuscript (pp. 1--2 and 8--9 read);
+the hosting repository (https://github.com/Larsen-Daniel/Erdos-318, read
+2026-10-02) holds only the PDF and its TeX source, has no LICENSE file, and its
+About panel reads "No description, website, or topics provided.", so no terms
+are stated; the term is unstated.
 
 Read status: claims checked. Theorem 1 (p. 1), the definition of $w$ (p. 2),
 Hypothesis 3 and Theorem 4 (p. 5), Corollary 5 (p. 7) and Theorem 6 (p. 8)

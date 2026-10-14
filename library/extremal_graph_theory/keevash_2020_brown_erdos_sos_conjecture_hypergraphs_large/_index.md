@@ -26,9 +26,9 @@ large uniformity. arXiv preprint (2020). arXiv:2007.14824.
 
 The copy read for this card
 is arXiv:2007.14824v1 (29 July 2020, dated 30 July 2020 on its title page, 9
-pages, the only arXiv version per the arXiv record read). The
+pages, the only arXiv version per the arXiv record read on 2026-09-18). The
 paper appeared in Proc. Amer. Math. Soc., doi:10.1090/proc/15487 (2021; the
-Crossref record, carries no volume or page range); the
+Crossref record, read on 2026-09-18, carries no volume or page range); the
 journal version was not compared, so its labels may differ. The
 arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2007.14824), every other right reserved.
@@ -53,17 +53,16 @@ epsilon. The proof builds on Shapira and Tyomkyn's
 'bow-tie graph' B(G), whose vertices are pairs of edges meeting in one vertex,
 splitting into the cases of one large component and of many dense components.
 Theorem 12 (p. 7) carries the result to t-linear r-graphs (no two edges
-sharing at least t vertices) with no ((r-2)k+t+1, k)-configuration, by induction on t
-through vertex links; for t >= 3 that vertex count is larger than the
-(r-t)k+t+1 of Conjecture 1.
-The introduction surveys the state of the problem: Ruzsa-Szemeredi's (6,3)
-theorem, Erdos-Frankl-Rodl for k = 3, and recent partial results of
-Conlon-Gishboliner-Levanzov-Shapira, Nenadov-Sudakov-Tyomkyn and Long. For
-problem 1157, the paper documents active work through 2020 and explicitly calls
-the general conjecture one of the best-known open problems in extremal
-combinatorics. Its closing section relates the result to Erdos's high-girth
-Steiner triple system conjecture and conjectures an extension of it to
-complete t-linear r-graphs, stronger than the extension posed by
+sharing at least t vertices) with no ((r-2)k+t+1, k)-configuration, by induction
+on t through vertex links; for t >= 3 that vertex count is larger than the
+(r-t)k+t+1 of Conjecture 1. The introduction surveys the state of the problem:
+Ruzsa-Szemeredi's (6,3) theorem, Erdos-Frankl-Rodl for k = 3, and recent partial
+results of Conlon-Gishboliner-Levanzov-Shapira, Nenadov-Sudakov-Tyomkyn and
+Long. For problem 1157, the paper documents active work through 2020 and
+explicitly calls the general conjecture one of the best-known open problems in
+extremal combinatorics. Its closing section relates the result to Erdos's
+high-girth Steiner triple system conjecture and conjectures an extension of it
+to complete t-linear r-graphs, stronger than the extension posed by
 Glock-Kuhn-Lo-Osthus.
 
 Source: <https://arxiv.org/abs/2007.14824>.

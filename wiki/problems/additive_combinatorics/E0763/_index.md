@@ -48,8 +48,8 @@ Montgomery–Vaughan page is accepted on the site's credit. That paper appeared 
 an edited tribute volume whose refereeing is not documented.
 
 **Source.** [erdosproblems.com/763](https://www.erdosproblems.com/763), accessed
-2026-10-07 (empty proof-claim tab; no thread posts). Cite as: T. F. Bloom,
-Erdős Problem #763, https://www.erdosproblems.com/763.
+2026-10-07 (no thread posts); its proof-claim tab was empty. Cite as:
+T. F. Bloom, Erdős Problem #763, https://www.erdosproblems.com/763.
 
 **References.**
 

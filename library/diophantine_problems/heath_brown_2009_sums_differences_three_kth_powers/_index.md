@@ -85,15 +85,16 @@ the page images of the journal print and, for Theorems 1 and 2, of arXiv v1;
 the proofs were read for structure only. Nothing here is independently
 reviewed.
 
-**Bears on.** [[../wiki/problems/diophantine_problems/E0477/_index|Problem 477]]:
-the paper does not mention the problem; the
+**Bears on.**
+[[../wiki/problems/diophantine_problems/E0477/_index|Problem 477]]: the paper
+does not mention the problem; the
 [[diophantine_problems/pipeline_math_2026_tiling_complement/_index|pipeline-math manuscript]]
 restates
 [[diophantine_problems/heath_brown_2009_sums_differences_three_kth_powers/theorem_2|Theorem 2]]
-as a whole-box bound and cites it in the proof of its Proposition 1.6, a
-step in its construction of a set $A$ such that every integer is uniquely
-$a+m^{13}$ with $a\in A$, $m\in\mathbb Z$. The paper itself proves nothing
-about additive complements.
+as a whole-box bound and cites it in the proof of its Proposition 1.6, a step in
+its construction of a set $A$ such that every integer is uniquely $a+m^{13}$
+with $a\in A$, $m\in\mathbb Z$. The paper itself proves nothing about additive
+complements.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

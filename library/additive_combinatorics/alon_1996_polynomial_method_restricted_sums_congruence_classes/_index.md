@@ -71,12 +71,13 @@ Acrobat Distiller 2.0 and a creation date of 16 April 1996; each page
 carries the typesetter's file line in its footer), with a text layer that
 reads the prose cleanly and drops or substitutes the mathematical symbols
 (inequality signs vanish, minus signs come out as ampersands, $\ne$ as a
-brace, summation limits scatter). Provenance: read free of charge from the publisher's open archive, the DOI
-<https://doi.org/10.1006/jnth.1996.0029> resolving to the article's PDF on
-the publisher's site (PII S0022314X96900293); 366,904 bytes. That copy
-prints "Copyright © 1996 by Academic Press, Inc. All rights of reproduction
-in any form reserved." in the footer of its first page (printed p. 404),
-every other right reserved.
+brace, summation limits scatter). Provenance: read free of charge on 2026-09-22
+from the publisher's open archive, the DOI
+<https://doi.org/10.1006/jnth.1996.0029> resolving to the article's PDF on the
+publisher's site (PII S0022314X96900293); 366,904 bytes. That copy prints
+"Copyright © 1996 by Academic Press, Inc. All rights of reproduction in any form
+reserved." in the footer of its first page (printed p. 404), every other right
+reserved.
 
 Read status: claims checked for the title page and abstract (p. 404),
 Theorem 1.1, Proposition 1.2, the remark deriving the Erdős--Heilbronn
@@ -147,33 +148,32 @@ Nothing here is independently reviewed.
   $h=\prod_{i>j}(x_i-x_j)$; Proposition 1.2 follows from Lemma 3.1 and
   Theorem 2.1 since $m<p$ and the $c_i$ are pairwise distinct (paged at
   [[additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/proposition_1_2|proposition_1_2]]).
-  Theorem 3.2 (p. 410, quoted): "Let $p$ be a prime, and let $A_0,\ldots,A_k$ be nonempty
-  subsets of $Z_p$, where $|A_i|=b_i$, and suppose $b_0\ge b_1\cdots\ge
-  b_k$. Define $b'_0,\ldots,b'_k$ by $b'_0=b_0$ and
+  Theorem 3.2 (p. 410, quoted): "Let $p$ be a prime, and let $A_0,\ldots,A_k$ be
+  nonempty subsets of $Z_p$, where $|A_i|=b_i$, and suppose
+  $b_0\ge b_1\cdots\ge b_k$. Define $b'_0,\ldots,b'_k$ by $b'_0=b_0$ and
   $b'_i=\min\{b'_{i-1}-1,b_i\}$, for $1\le i\le k$. (2) If $b'_k>0$ then
   $|\bigoplus_{i=0}^kA_i|\ge\min\{p,\sum_{i=0}^kb'_i-\binom{k+2}2+1\}$.
   Moreover, the above estimate is sharp for all possible values of
-  $p\ge b_0\ge\cdots\ge b_k$." (The print omits the $\ge$ after $b_1$ in
-  the hypothesis.) Its proof passes to subsets $A'_i\subseteq
-  A_i$ of the pairwise distinct sizes $b'_i$, applies Proposition 1.2 when
-  $\sum b'_i\le p+\binom{k+2}2-1$ and otherwise trims the sizes by an
-  operator $T$ to a sequence $b''_0>\cdots>b''_k\ge1$ with
-  $\sum b''_i=p+\binom{k+2}2-1$; sharpness is the intervals
-  $A_i=\{1,2,\ldots,b_i\}$, whose distinct-summand sums lie in
-  $\{\binom{k+2}2,\ldots,\sum b'_i\}$ (paged at
-  [[additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_3_2|theorem_3_2]]). The paper then
-  derives the theorem of Dias da Silva and Hamidoune [4] from a special case of Theorem 3.2.
-  Theorem 3.3 ([4]) (p. 411, quoted): "Let $p$ be a
-  prime and let $A$ be a nonempty subset of $Z_p$. Let $s^\wedge A$ denote
-  the set of all sums of $s$ distinct elements of $A$. Then
-  $|s^\wedge A|\ge\min\{p,s|A|-s^2+1\}$." The proof takes $A_i=A$ for
-  $s=k+1$ sets, so $b'_i=|A|-i$, and computes
-  $\sum_{i=0}^k(|A|-i)-\binom{k+2}2+1=(k+1)|A|-(k+1)^2+1$. The section
-  ends with the sentence "The case $s=2$ of the last theorem settles a
-  problem of Erdős and Heilbronn" and a list of the earlier partial results
-  on the conjecture, [12], [9], [13], [11] and [6] (Rickert's 1976 thesis,
-  Mansfield 1981, Rødseth 1994, Pyber's personal communication and the
-  Freiman--Low--Pitman preprint of 1992). Paged at
+  $p\ge b_0\ge\cdots\ge b_k$." (The print omits the $\ge$ after $b_1$ in the
+  hypothesis.) Its proof passes to subsets $A'_i\subseteq A_i$ of the pairwise
+  distinct sizes $b'_i$, applies Proposition 1.2 when
+  $\sum b'_i\le p+\binom{k+2}2-1$ and otherwise trims the sizes by an operator
+  $T$ to a sequence $b''_0>\cdots>b''_k\ge1$ with $\sum b''_i=p+\binom{k+2}2-1$;
+  sharpness is the intervals $A_i=\{1,2,\ldots,b_i\}$, whose distinct-summand
+  sums lie in $\{\binom{k+2}2,\ldots,\sum b'_i\}$ (paged at
+  [[additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_3_2|theorem_3_2]]).
+  The paper then derives the theorem of Dias da Silva and Hamidoune [4] from a
+  special case of Theorem 3.2. Theorem 3.3 ([4]) (p. 411, quoted): "Let $p$ be a
+  prime and let $A$ be a nonempty subset of $Z_p$. Let $s^\wedge A$ denote the
+  set of all sums of $s$ distinct elements of $A$. Then
+  $|s^\wedge A|\ge\min\{p,s|A|-s^2+1\}$." The proof takes $A_i=A$ for $s=k+1$
+  sets, so $b'_i=|A|-i$, and computes
+  $\sum_{i=0}^k(|A|-i)-\binom{k+2}2+1=(k+1)|A|-(k+1)^2+1$. The section ends with
+  the sentence "The case $s=2$ of the last theorem settles a problem of Erdős
+  and Heilbronn" and a list of the earlier partial results on the conjecture,
+  [12], [9], [13], [11] and [6] (Rickert's 1976 thesis, Mansfield 1981, Rødseth
+  1994, Pyber's personal communication and the Freiman--Low--Pitman preprint of
+  1992). Paged at
   [[additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_3_3|theorem_3_3]].
 - § 4, Further Examples (pp. 411--414). Proposition 4.1 (from
   [1]): $|\{a+b: a\in A,\,b\in B,\,ab\ne1\}|\ge\min\{p,|A|+|B|-3\}$.

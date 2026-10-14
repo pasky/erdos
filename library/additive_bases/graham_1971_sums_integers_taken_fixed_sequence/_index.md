@@ -77,7 +77,7 @@ typescript, as if added to it. Provenance: the copy was obtained on
 through the library's acquisition, from
 <https://mathweb.ucsd.edu/~ronspubs/71_08_integer_sums.pdf>; 773,566
 bytes. No notice is printed on any page of the typescript; the author's
-publication page from which it was obtained could not be read
+publication page from which it was obtained could not be read on 2026-10-02
 (https://mathweb.ucsd.edu/~ronspubs/71_08_integer_sums.pdf; TLS certificate
 error), and the proceedings have no publisher page; the term is unstated.
 

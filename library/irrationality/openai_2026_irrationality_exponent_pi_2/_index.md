@@ -78,7 +78,7 @@ sentence about authorship or assistance. The title page names OpenAI as the sole
 author, and the manuscript has no acknowledgment or funding note. These are the
 source's own statements, recorded as attestations and not as this corpus's
 review. No refereed publication, arXiv version or independent review of the
-manuscript is recorded here and nothing on this card is independently reviewed.
+manuscript is recorded here, and nothing on this card is independently reviewed.
 
 **Formalization.** The release's Lean page for its family (`lean/docs/017.md`)
 says that the formalization proves the irrationality exponent of $\pi$ is

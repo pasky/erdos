@@ -23,7 +23,7 @@ every n.
 
 A. Biró, *An improved estimate in a power sum problem of Turán*, Indag.
 Math. (N.S.) **11** (2000), no. 3, 343--358; DOI
-10.1016/S0019-3577(00)80003-8 (Crossref record read (UTC)).
+10.1016/S0019-3577(00)80003-8 (Crossref record read 2026-09-17 (UTC)).
 Communicated by Prof. R. Tijdeman at the meeting of March 27, 2000;
 received December 1999; the issue head is dated September 25, 2000.
 

@@ -105,7 +105,7 @@ text layer that garbles exponents; the scan carries no printed page numbers,
 and the article occupies pp. 3--14 of the proceedings, so PDF p. n is printed
 p. 2 + n by that count. No notice is printed in the scan; the hosting archive's
 site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 the proceedings series has no online publisher page and the card gives no DOI,
 so the publisher's page was not consulted and no Crossref license is recorded;
@@ -115,8 +115,8 @@ Read status: claims checked for the Section 3 statements on the Erdős--Sauer
 function f(n,k), the variant A(n) and Szemerédi's F(n,k) (PDF pp. 8--9,
 printed pp. 10--11), read clause by clause on the page images; the source
 prints Chvátal's bound as f(2n+3) > 6n without the valency argument; the rest
-of the digest records an earlier reading that was not repeated here, and no
-proof was checked. Claims checked also for displays (1)--(2) of Chapter 1
+of the digest was not checked against the page images, and no proof was
+checked. Claims checked also for displays (1)--(2) of Chapter 1
 with the attribution of (2) to Klein (PDF p. 2, printed p. 4), for the end of
 Chapter 1 (PDF p. 5, printed p. 7: Reiman's bipartite graph, the girth-five
 conjecture and the sentence on Bondy and Simonovits) and for the opening of

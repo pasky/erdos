@@ -45,9 +45,10 @@ The case $r=3$ is the theorem of Ajtai, Komlós and Szemerédi, and the paper
 says the question is undecided already at $p=4$. The paper states that the
 $r=3$ bound "is best possible up to constant multiple".
 
-**Status.** Proved. The site's label was OPEN, with the remark that the problem
-cannot be resolved by a finite computation, and its proof-claims tab is empty.
-The question is settled by one accepted full claim, on
+**Status.** Proved. The site's label was OPEN on 2026-10-06, with the remark
+that the problem cannot be resolved by a finite computation, and its
+proof-claims tab was empty. The question is settled by one accepted full claim,
+on
 [[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|its claim page]].
 Theorem 1.1 of the OpenAI release manuscript of 25 September 2026 proves the
 bound for every fixed $r\ge4$. Its Lean declaration was built by this corpus's
@@ -146,13 +147,13 @@ $r\ge4$ over finite simple graphs with the average degree $2|E|/|V|$ as a real
 number, pinned by the comparator challenge `CliqueFreeLog.lean`; the corpus's
 verification built it from the pinned revision with the axioms `propext`,
 `Classical.choice` and `Quot.sound` only, and the corpus's own
-statement-fidelity audit is recorded on the claim page. Nothing else: on
-2026-09-18 google-deepmind/formal-conjectures had no file
-`ErdosProblems/802.lean` (neither the directory
-`FormalConjectures/ErdosProblems/` nor its recursive tree had one); the site's
-page shows no formalized statement; the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the problem open (last
-update 31 August 2025), unformalized, with no formal proof.
+statement-fidelity audit is recorded on the claim page. Nothing else:
+google-deepmind/formal-conjectures had no file `ErdosProblems/802.lean` on
+2026-09-18 (neither the directory `FormalConjectures/ErdosProblems/` nor its
+recursive tree had one) or on 2026-10-07; the site's page shows no formalized
+statement; the community database (teorth/erdosproblems, `data/problems.yaml`,
+read 2026-09-18) records the problem open (last update 31 August 2025),
+unformalized, with no formal proof.
 
 ## Current assessment
 

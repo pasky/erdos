@@ -34,17 +34,16 @@ cannot exceed 1/2.
 
 The retained folder-name PDF is the journal's six-page file (Integers 4
 (2004), paper A13; received 3 October 2003, accepted 26 September 2004,
-published 8 October 2004 per its header; listed on the journal's volume 4
-page). Read status: claims checked for the P-set definition,
-the Theorem (p. 2) and the introduction's attributions to Schoen, read in the
-text layer; the sieve argument of Sections 2--3 was read for structure only.
-Result page: [[integer_sequences/baier_2004_6/theorem|theorem]]. The
-paper's definition admits two equal larger elements ("not necessarily being
-different"). The journal's file prints no license line; the journal's site
-states "All works of this journal are licensed under a Creative Commons
-Attribution 4.0 International License" (https://math.colgate.edu/~integers/,
-read 2026-10-02): the Creative Commons Attribution 4.0 license, by the journal's
-current site-wide statement.
+published 8 October 2004 per its header; listed on the journal's volume 4 page,
+read 2026-09-18). Read status: claims checked for the P-set definition, the
+Theorem (p. 2) and the introduction's attributions to Schoen, read in the text
+layer; the sieve argument of Sections 2--3 was read for structure only. Result
+page: [[integer_sequences/baier_2004_6/theorem|theorem]]. The paper's definition
+admits two equal larger elements ("not necessarily being different"). The
+journal's file prints no license line; the journal's site states "All works of
+this journal are licensed under a Creative Commons Attribution 4.0 International
+License" (https://math.colgate.edu/~integers/, read 2026-10-02): the Creative
+Commons Attribution 4.0 license, by the journal's current site-wide statement.
 
 Source: <https://math.colgate.edu/~integers/vol4.html>.
 

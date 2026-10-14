@@ -47,7 +47,7 @@ Structures Algorithms 61 (2022), no. 2, 235--249.
 
 **Edition read.** The journal version is Random Structures Algorithms
 61 (2022), no. 2, 235--249, DOI 10.1002/rsa.21057 (published online 13
-November 2021; Crossref record read). The copy read for
+November 2021; Crossref record read 2026-09-19). The copy read for
 this card is the arXiv preprint arXiv:2007.04351v2 (10 July 2020,
 "References updated"), 13 pages, so the locators below are the preprint's
 and the journal text was not compared. Read status: claims checked for Conjecture 1.1, the Haxell
@@ -56,8 +56,8 @@ Lemma 1.6 with the definitions of $m$, $d$, $\xi$ and $\psi$ (p. 2), and for
 the reference entries [8] and [16] (p. 12), read clause by clause on the
 page images, paged on the result pages listed below; the structure of the
 proof (p. 2) and of Sections 4--7 and Appendix A (pp. 7--13) read in the text
-layer; the proofs not checked. The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2007.04351), every other right reserved.
+layer; the proofs not checked. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:2007.04351), every other right reserved.
 
 Tuza's conjecture asserts tau(H) <= 2 nu(H) for every graph H, where nu is the
 maximum number of edge-disjoint triangles and tau the minimum number of edges

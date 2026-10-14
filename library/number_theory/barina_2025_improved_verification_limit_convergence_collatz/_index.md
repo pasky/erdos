@@ -24,7 +24,7 @@ the current finite verification record for Problem 1135.
 David Barina, *Improved verification limit for the convergence of the
 Collatz conjecture*, J. Supercomput. **81** (2025), no. 7, Article 810, 14
 pp.; DOI 10.1007/s11227-025-07337-0. "Accepted: 21 April 2025" (p. 1);
-published online 2 May 2025 (the Crossref record); an
+published online 2 May 2025 (the Crossref record, read 2026-09-18); an
 open-access article ("© The Author(s) 2025"). Not cited by the site's
 Problem 1135 page.
 
@@ -33,12 +33,11 @@ The retained
 is the publisher's PDF, 14 pages with a complete text layer, printed as
 "810, Page $n$ of 14"; the statement pages were read on the rendered page
 images of pp. 1 and 12. Provenance: retained from the repository's survey
-download set of 5 September 2026 (the download URL was not recorded; the
-identifier is the DOI <https://doi.org/10.1007/s11227-025-07337-0> printed on
-the first page); 862,781 bytes. The file prints "© The Author(s) 2025" on its
-first page and "Open Access This article is licensed under a Creative Commons
-Attribution 4.0 International License" on p. 13: the Creative Commons
-Attribution 4.0 license.
+download set (the download URL was not recorded; the identifier is the DOI
+<https://doi.org/10.1007/s11227-025-07337-0> printed on the first page); 862,781
+bytes. The file prints "© The Author(s) 2025" on its first page and "Open Access
+This article is licensed under a Creative Commons Attribution 4.0 International
+License" on p. 13: the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the abstract, the introduction's definition
 of the map $T$ and its status sentences, the related-work list, the

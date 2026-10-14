@@ -41,7 +41,7 @@ pairwise sums all lie in a set of n + t_k integers up to 2n, for k = 3, 4,
 S. L. G. Choi, P. Erdős and E. Szemerédi, *Some additive and multiplicative
 problems in number theory*, Collection of articles in memory of Juriĭ
 Vladimirovič Linnik, Acta Arith. 27 (1975), 37--50 (MR 51 #5540; Zbl
-303.10057); DOI 10.4064/aa-27-1-37-50 (Crossref record read).
+303.10057); DOI 10.4064/aa-27-1-37-50 (Crossref record read 2026-09-18).
 
 The paper studies, for a set A of n+t integers in [1,2n], the largest k for
 which one can always find b_1 < ... < b_k with every pairwise sum b_i + b_j in

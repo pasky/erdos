@@ -74,7 +74,8 @@ accessed 2026-09-17.
 
 **Formalization.** Statement in
 [`ErdosProblems/292.lean`](https://github.com/google-deepmind/formal-conjectures/blob/573d06b08947dbff577e453ab102fa2b39d8f759/FormalConjectures/ErdosProblems/292.lean)
-of formal-conjectures, added on 22 September 2026: it declares
+of formal-conjectures, added on 22 September 2026 (no file existed on
+2026-09-17): it declares
 `erdos_292 : answer(True) ↔ A.HasDensity 1` under
 `category research solved` with a `sorry` body and a `formal_proof` attribute
 pointing to the file `src/latest/ErdosProblems/Erdos292.lean` of the
@@ -96,7 +97,7 @@ relative size of $B=\mathbb N\setminus A$ up to $x$ and a description of $B$
 as the small multiples of prime powers. It adds van Doorn's remark that
 $2n\in A$ whenever $n\in A$ and $n>1$, since halving a representation and
 adding the term $\frac12$ gives another. The thread and the proof-claim tab
-are empty. The community database recorded proved, not
+are empty. The community database, read 2026-09-17, recorded proved, not
 formalized, OEIS A092671; as of its last update, of 22 September 2026, it
 lists the statement as formalized (see Formalization).
 
@@ -129,7 +130,7 @@ and every element of $\mathcal L_1(1)$ below $x$ is at most $x/\log x$ or has
 a prime-power factor exceeding $x\log^{-24}x$. Acceptance evidence: the paper
 is published in Acta Arithmetica 95 (2000), no. 3, 231--260, a refereed
 journal (the arXiv listing's journal reference and the Crossref record for DOI
-10.4064/aa-95-3-231-260, both), and the site accepts it.
+10.4064/aa-95-3-231-260, both read 2026-09-17), and the site accepts it.
 Proof coverage: the proof of Theorem 4 (pp. 24--25) was read for structure and
 is sketched on the theorem page; its inputs (Lemmas 9, 10 and 18, the last
 resting on Proposition 5, which is reduced on pp. 5--6 to Propositions 7 and 8

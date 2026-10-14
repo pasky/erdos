@@ -52,8 +52,8 @@ bytes. Its printed pages 1–16 agree with PDF pages 1–16. All result labels a
 proof locators below refer to this manuscript. The published chapter was
 identified bibliographically but its text was not compared, so equivalence of
 versions and labels is not asserted. The manuscript read is the author's copy
-from the author's site (https://jinr.people.charleston.edu/), which states no
-terms, and it prints no notice; the term is unstated.
+from the author's site (https://jinr.people.charleston.edu/, read 2026-10-02),
+which states no terms, and it prints no notice; the term is unstated.
 
 For $C\subseteq\mathbb N_0=\{0,1,\ldots\}$, write
 $C(a,b)=|C\cap[a,b]|$, where intervals have integer endpoints, and

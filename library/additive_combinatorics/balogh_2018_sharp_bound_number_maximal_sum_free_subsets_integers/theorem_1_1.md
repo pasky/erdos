@@ -35,12 +35,12 @@ extremal constructions recalled in Section 2.2 (p. 2; details in Section 2.3).
 
 **Source.** J. Balogh, H. Liu, M. Sharifzadeh and A. Treglown, *Sharp bound
 on the number of maximal sum-free subsets of integers*, J. Eur. Math. Soc.
-(JEMS) 20 (2018), no. 8, 1885--1911, DOI 10.4171/JEMS/802 (Crossref record
-read). The copy read for this page is arXiv:1502.07605v2 (11 May 2018,
-25 pp., "to appear in the Journal of the European Mathematical Society"),
-the latest arXiv version on 2026-09-18, whose pagination is used here; the
-journal text was not compared. Theorem 1.1 on p. 2, read on the page image
-and in the text layer.
+(JEMS) 20 (2018), no. 8, 1885--1911, DOI 10.4171/JEMS/802 (Crossref record read
+2026-09-18). The copy read for this page is arXiv:1502.07605v2 (11 May 2018, 25
+pp., "to appear in the Journal of the European Mathematical Society"), the
+latest arXiv version on 2026-09-18, whose pagination is used here; the journal
+text was not compared. Theorem 1.1 on p. 2, read on the page image and in the
+text layer.
 
 **Read depth.** Claims checked: the definitions, the introduction's
 account of the earlier bounds, Theorem 1.1 and the remark on the $C_i$

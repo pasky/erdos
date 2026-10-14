@@ -84,8 +84,8 @@ T. F. Bloom, Erdős Problem #952, https://www.erdosproblems.com/952, accessed
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [JoRa70] Jordan, J. H. and Rabung, J. R., A conjecture of Paul Erdős
   concerning Gaussian primes. Math. Comp. 24 (1970), 221--223,
-  doi:10.1090/S0025-5718-1970-0256976-8 (Crossref record; the
-  paper is in the journal's open back file that the thread
+  doi:10.1090/S0025-5718-1970-0256976-8 (Crossref record, accessed
+  2026-09-18; the paper is in the journal's open back file that the thread
   links). A lead by identifier; the thread reports its statement (below).
 - [GeSt97] Gethner, E. and Stark, H. M., Periodic Gaussian moats. Experiment.
   Math. 6 (1997), no. 4, 289--292, doi:10.1080/10586458.1997.10504616.
@@ -107,7 +107,7 @@ T. F. Bloom, Erdős Problem #952, https://www.erdosproblems.com/952, accessed
   whose digest records the random model and the conjecture that no
   bounded-step infinite component of Gaussian primes exists (Conjectures
   1.1--1.2 on p. 276 and Theorem 1.1 on p. 277).
-- Withdrawn preprints (arXiv records; each has a claim
+- Withdrawn preprints (arXiv records accessed 2026-09-18; each has a claim
   page): arXiv:1908.10392 (Das, 2019; version 2 of 6 September 2024 marks
   it withdrawn: "The claim in Theorem 3 is incorrect. The defined paths P_i
   (for i=1,2,3,...) do not cover all the Gaussian primes. Additionally, the
@@ -281,7 +281,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. [JoRa70], [GWW98] and
 [Ts05] are known here by their records, and [Va98] by pp. 276--277.
 
 **Remaining gaps.** (1) The question is settled negatively by the accepted
-claim; the site's label was OPEN, and no refereed
+claim; the site's label was OPEN on 2026-09-18, and no refereed
 publication or review independent of the release is recorded. The bound $B_D$
 of [OAI26] is not explicit, so the size of the largest component for a given
 step length remains undetermined. (2) [JoRa70], [GWW98] and [Ts05] are known

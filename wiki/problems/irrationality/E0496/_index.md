@@ -130,9 +130,10 @@ The standing follows from the claim pages: Margulis's theorem is an accepted
 full claim, with the site's curator as reviewer, so the problem's status is
 solved with claim proved. Alexeev's Lean disproof of the site's wording is
 rejected and does not enter the derivation. The site (accessed 2026-10-07) and
-the community database record no formalization and no proof claim for the
-problem; the Lean development in Alexeev's repository, which neither mentions,
-is recorded under Formalization above.
+the community database record no formalization for the problem; the database
+records no proof claim, and the site's proof-claims tab listed none. The Lean
+development in Alexeev's repository, which neither mentions, is recorded under
+Formalization above.
 
 ## Known Results
 

@@ -66,7 +66,7 @@ https://www.erdosproblems.com/1038.
 
 ## Current assessment
 
-The site's formulation asks for the infimum and the
+The site's formulation (accessed 2026-09-04) asks for the infimum and the
 supremum of the measure of $E_f=\{x\in\mathbb R:|f(x)|<1\}$ over nonconstant
 monic real polynomials with all roots in $[-1,1]$. The supremum is $2\sqrt2$,
 attained by $(x^2-1)^m$: Erdős, Herzog and Piranian [EHP58] proved that bound
@@ -101,9 +101,10 @@ objection raised in the comments on Wang's claim to the citations of its first
 version, and the claimant's response, are recorded on Wang's page.
 
 Pommerenke's theorem [Po61] concerns the variant with roots in $[-2,2]$, where
-the infimum is $0$, and does not bear on the standing. The search scope, is the site page, its proof-claims tab and the comments on the three
-claims, the three manuscripts at their pinned revisions, Wang's library card and
-Tao's three notes; no wider literature search is recorded.
+the infimum is $0$, and does not bear on the standing. The search scope is the
+site page, its proof-claims tab and the comments on the three claims, the three
+manuscripts at their pinned revisions, Wang's library card and Tao's three
+notes; no wider literature search is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

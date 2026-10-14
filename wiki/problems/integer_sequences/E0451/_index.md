@@ -41,10 +41,10 @@ its commentary cites [vDTa26] and points to Problem 1095.
 
 **Status.** Open. The estimate is not settled. The best lower bound claimed is
 $n_k>\exp(\log^2k/(20\log\log k))$ for all sufficiently large $k$. It is Theorem
-1.1 of van Doorn and Tang (arXiv:2606.19863v1, 18 June 2026), a preprint taken
-into the site's commentary on 21 June 2026. It would confirm Erdős's expectation
-that $n_k$ grows faster than every power of $k$. It is recorded as a claimed
-partial claim on
+1.1 of van Doorn and Tang (arXiv:2606.19863v1, 18 June 2026), a preprint with
+no journal record found on 2026-09-18, taken into the site's commentary on 21
+June 2026. It would confirm Erdős's expectation that $n_k$ grows faster than
+every power of $k$. It is recorded as a claimed partial claim on
 [[problems/integer_sequences/E0451/claims/2026_06_18_van_doorn_tang|the van Doorn--Tang claim page]],
 since the site's commentary on a problem it labeled OPEN is no acceptance. The
 best upper bound is the elementary $n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$. Erdős
@@ -70,7 +70,8 @@ https://www.erdosproblems.com/451, accessed 2026-09-18.
 **References.**
 
 - [vDTa26] van Doorn, W. and Tang, Q., Consecutive integers free of certain
-  prime factors. arXiv:2606.19863v1 (18 June 2026), 5 pp.;
+  prime factors. arXiv:2606.19863v1 (18 June 2026; the only arXiv version
+  on 2026-09-18; no journal reference and no Crossref record), 5 pp.;
   Theorem 1.1 and the upper bound, p. 1; the declaration of AI
   usage, p. 2; Theorem 4.1, p. 3. Library home:
   [[../library/integer_sequences/doorn_2026_consecutive_integers_free_certain_prime_factors/_index|doorn_2026_consecutive_integers_free_certain_prime_factors]];
@@ -78,7 +79,7 @@ https://www.erdosproblems.com/451, accessed 2026-09-18.
   [[../library/integer_sequences/doorn_2026_consecutive_integers_free_certain_prime_factors/theorem_1_1|Theorem 1.1]].
 - [Er79d] Erdős, P., Some unconventional problems in number theory. Acta
   Math. Acad. Sci. Hungar. 33 (1979), no. 1--2, 71--80, DOI
-  10.1007/BF01903382 (Crossref record); Section 3,
+  10.1007/BF01903382 (Crossref record accessed 2026-09-18); Section 3,
   printed p. 78. Library home:
   [[../library/arithmetic_functions/erdos_1979_unconventional_problems_number_theory/_index|erdos_1979_unconventional_problems_number_theory]].
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
@@ -167,7 +168,9 @@ in the other three, the last two through a Konyagin-type inequality (Theorem
 4.1, p. 3). Read depth: claims checked for Theorem 1.1 and Theorem 4.1; the
 proof was read for its structure and not checked step by step; no step is
 independently reviewed here. Acceptance evidence: the site's commentary (21 June
-2026), and the bound carries the preprint qualification: an
+2026); on 2026-09-18 the arXiv listing showed one version and no journal
+reference, Crossref had no record, and the Semantic Scholar citation list of the
+preprint was empty, so the bound carries the preprint qualification: an
 author-recorded theorem taken into the site's commentary, without refereed
 publication or independent review found; the site labeled the problem OPEN, so
 the commentary is no acceptance. It is recorded as a claimed partial claim on

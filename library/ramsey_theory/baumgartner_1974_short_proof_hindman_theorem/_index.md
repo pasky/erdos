@@ -34,7 +34,8 @@ The copy read for this card is a
 three-page scan of the printed note (printed pp. 384--386 = PDF pp. 1--3;
 the PDF metadata names the publisher's identifier PII 0097-3165(74)90103-4
 and a 2003 capture) whose text layer garbles the formulas; every statement
-below was read on the rendered page images. Provenance: downloaded from
+below was read on the rendered page images. Provenance: downloaded on 2026-09-05
+from
 <https://people.dm.unipi.it/dinasso/ULTRABIBLIO/Baumgartner%20-%20A%20short%20proof%20of%20Hindman%27s%20Theorem%20%281974%29.pdf>;
 136,657 bytes. The scan prints "Copyright © 1974 by Academic Press, Inc. All
 rights of reproduction in any form reserved" in the footer of its first page
