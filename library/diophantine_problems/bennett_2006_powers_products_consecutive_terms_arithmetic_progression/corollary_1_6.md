@@ -61,8 +61,8 @@ and T. N. Shorey, Almost perfect powers in arithmetic progression, Acta Arith.
   progressions of length $k$ with $\omega(d)\leq D$ whose product is a
   perfect power. The problem's
   [[../wiki/problems/diophantine_problems/E0672/claims/2006_03_01_bennett_bruin_gyory_hajdu|claim page for this paper]]
-  identifies this corollary as the site's credit to the paper for $k$ large
-  in terms of the number of prime factors of $d$; it gives finiteness and
+  identifies this corollary as the erdosproblems.com credit to the paper for $k$
+  large in terms of the number of prime factors of $d$; it gives finiteness and
   excludes no instance.
 
 **Living verification.** Needs review. The statement and (8) were checked

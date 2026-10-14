@@ -125,5 +125,5 @@ are linked through Proposition 1.
   applied to a dense finite set $A\subseteq[1,N]$ with $y,z$ depending only
   on the density, produces $S\subseteq A$ with $R(S)=1/d$ for an integer
   $d\le z$, which is the qualitative form of that problem's question with
-  $a=1$ and $b=d=O_\alpha(1)$; the site attributes this observation to Liu
-  and Sawhney, whose Proposition 1.4 gives the quantitative bound)
+  $a=1$ and $b=d=O_\alpha(1)$; erdosproblems.com attributes this observation to
+  Liu and Sawhney, whose Proposition 1.4 gives the quantitative bound)

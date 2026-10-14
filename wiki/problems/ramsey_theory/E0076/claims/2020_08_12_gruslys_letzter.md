@@ -5,7 +5,7 @@ desc: |
   Theorem 1.2 of Gruslys and Letzter's 2020 arXiv paper shows that every
   two-coloring of the edges of $K_n$ contains $n^2/12+o(n^2)$ pairwise
   edge-disjoint monochromatic triangles, the question's conclusion. The paper is
-  an unrefereed preprint that the site's curator credits.
+  an unrefereed preprint that the erdosproblems.com curator credits.
 authors:
 - Vytautas Gruslys
 - Shoham Letzter
@@ -33,7 +33,7 @@ Gruslys and Letzter's
 p. 2) says that every $2$-coloring of the edges of $K_n$ admits
 $n^2/12+o(n^2)$ edge-disjoint monochromatic triangles. This is the conclusion
 [[problems/ramsey_theory/E0076/_index|Problem 76]] asks about, in the
-paper's notation $n^2/12+o(n^2)$ for the site's $(1+o(1))n^2/12$, and
+paper's notation $n^2/12+o(n^2)$ for erdosproblems.com's $(1+o(1))n^2/12$, and
 the paper presents it as confirming its Conjecture 1.1, Erdős's "Problem
 14" of 1997. The bound is best possible by the balanced two-part coloring,
 so the theorem determines the guaranteed count to first order. The proof
@@ -49,12 +49,12 @@ Theorem 2.11 (p. 7), proved in the companion preprint arXiv:2008.05313,
 and the computer-search certificates behind Lemma 2.8 (p. 6); neither is
 held here.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-PROVED and credits the proof to this paper in the problem's commentary, which
-records that the answer is yes (page last edited 23 January 2026, accessed
-2026-09-18). The discussion thread holds one comment, which corrects a
-misprinted name and is not mathematical. The proof-claim tab is empty. The
-curator is independent of the authors.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem PROVED and credits the proof to this paper in the problem's
+commentary, which records that the answer is yes (page last edited 23 January
+2026, accessed 2026-09-18). The discussion thread holds one comment, which
+corrects a misprinted name and is not mathematical. The proof-claim tab is
+empty. The curator is independent of the authors.
 
 Not refereed: no refereed version is known. On 2026-09-18 the arXiv record
 carried no journal reference, a Crossref bibliographic query for the title found

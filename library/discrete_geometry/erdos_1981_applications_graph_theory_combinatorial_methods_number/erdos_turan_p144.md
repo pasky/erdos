@@ -80,9 +80,9 @@ The infinite and finite Ramsey theorems, used as known.
 
 ## Bears on
 
-- [[../wiki/problems/additive_bases/E0028/_index|Problem 28]]: the site's
-  statement is the Erdős–Turán conjecture as the paper states it, with the
-  paper's $f(n)$ counting solutions of $n=a_i+a_j$ in place of the site's
-  $1_A\ast1_A(n)$; the two counts differ by at most a factor $2$, so the
-  conclusions $\limsup=\infty$ agree. The multiplicative analogue is the
-  product version, proved; it does not bear on the additive question.
+- [[../wiki/problems/additive_bases/E0028/_index|Problem 28]]: the
+  erdosproblems.com statement is the Erdős–Turán conjecture as the paper states
+  it, with the paper's $f(n)$ counting solutions of $n=a_i+a_j$ in place of
+  erdosproblems.com's $1_A\ast1_A(n)$; the two counts differ by at most a factor
+  $2$, so the conclusions $\limsup=\infty$ agree. The multiplicative analogue is
+  the product version, proved; it does not bear on the additive question.

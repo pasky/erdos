@@ -14,7 +14,7 @@ updated: 2026-10-05T05:52:35Z
 
 **Author.** KoishiChan.
 
-**Date shown by the site.** 05:13 on 4 December 2025.
+**Date shown by erdosproblems.com.** 05:13 on 4 December 2025.
 
 **Exact post.**
 <https://www.erdosproblems.com/forum/thread/1022#post-2004>.
@@ -29,10 +29,10 @@ was essentially correct, while noting that this construction gives
 $c_t\leq2$, rather than the strict inequality claimed in the post. Thomas
 Bloom later wrote at
 <https://www.erdosproblems.com/forum/thread/1022#post-3665> that Bloom would
-mark the problem solved. The site's edited commentary records the direct
-counterexample and the independently identified published construction of
-Wood. This named review and adoption by the site satisfy the repository's rule
-for recording a forum result.
+mark the problem solved. erdosproblems.com's edited commentary records the
+direct counterexample and the independently identified published construction of
+Wood. This named review and adoption by erdosproblems.com satisfy the
+repository's rule for recording a forum result.
 
 **Notation clarifications.** The original post first chooses $2t$ red vertices
 and calls that set $Q$, but later uses $Q$ where the construction requires a

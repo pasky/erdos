@@ -32,14 +32,14 @@ $$
 **Formulation.** The printed source [Er71, item 18] states the unpublished
 Erdős–Kleitman bounds and the conjectured asymptotic
 $\max l_n=(1+o(1))\,c\,2^n/n^{3/2}$ both with the exponent $3/2$ in place of
-$1/2$; the site prints $1/2$ and reads the printed exponent as a misprint,
-since the middle layer alone gives $F(n)\ge\binom{n}{\lfloor n/2\rfloor}$.
-With the exponent $3/2$ the conjecture is false; the Statement carries the
-site's exponent $1/2$.
+$1/2$; erdosproblems.com prints $1/2$ and reads the printed exponent as a
+misprint, since the middle layer alone gives
+$F(n)\ge\binom{n}{\lfloor n/2\rfloor}$. With the exponent $3/2$ the conjecture
+is false; the Statement carries erdosproblems.com's exponent $1/2$.
 
-**Status.** The site labeled the problem SOLVED (LEAN). It credits Hunter's
-observation, in the problem's thread, that the solution of Problem 447 settles
-it. The answer is yes: $F(n)\sim\binom{n}{\lfloor n/2\rfloor}$, so
+**Status.** Bloom's catalog labeled the problem SOLVED (LEAN). It credits
+Hunter's observation, in the problem's thread, that the solution of Problem 447
+settles it. The answer is yes: $F(n)\sim\binom{n}{\lfloor n/2\rfloor}$, so
 $c=\sqrt{2/\pi}$.
 
 **Source.** [erdosproblems.com/1023](https://www.erdosproblems.com/1023),
@@ -56,7 +56,7 @@ https://www.erdosproblems.com/1023.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1023.lean),
-marked solved there as of its commit of 18 September 2026 and pointing at a
+marked solved there at its commit of 18 September 2026 and pointing at a
 third-party Lean proof, linked from the claim page, which this corpus has not
 built.
 
@@ -72,16 +72,16 @@ $F(n)\sim\binom{n}{\lfloor n/2\rfloor}\sim\sqrt{2/\pi}\,2^n/n^{1/2}$.
 The accepted claim is
 [[problems/set_systems/E1023/claims/2025_09_13_hunter|Hunter's deduction from Kleitman's theorem]],
 whose page records the argument, the curator's acceptance and the third-party
-Lean file that formalizes Kleitman's proof and the deduction; the site's Lean
-qualification is that file, which the corpus has not built. Erdős and
-Kleitman's unpublished bounds $F(n)\asymp2^n/n^{1/2}$, which the site records
-from [Er71], are the historical state of the problem and have no page: they
-were never published, and the corrected form of their conjecture is the claim
-above. The printed statement is on the card
+Lean file that formalizes Kleitman's proof and the deduction; the
+erdosproblems.com Lean qualification is that file, which the corpus has not
+built. Erdős and Kleitman's unpublished bounds $F(n)\asymp2^n/n^{1/2}$, which
+erdosproblems.com records from [Er71], are the historical state of the problem
+and have no page: they were never published, and the corrected form of their
+conjecture is the claim above. The printed statement is on the card
 [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|Erdős 1971]].
-As of 2026-10-06 the site's thread held five comments and the site listed no
-proof claim; the community database has recorded the problem as solved (Lean)
-since 2026-02-10.
+On 2026-10-06 the erdosproblems.com thread held five comments and
+erdosproblems.com listed no proof claim; the community database has recorded the
+problem as solved (Lean) since 2026-02-10.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

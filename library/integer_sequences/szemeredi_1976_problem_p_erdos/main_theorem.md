@@ -108,7 +108,7 @@ of the ideas of the original proof" (p. 420).
 
 - [[../wiki/problems/integer_sequences/E0490/_index|Problem 490]]: the theorem is the
   problem's inequality $|A||B|\ll N^2/\log N$ for $A,B\subseteq\{1,\ldots,N\}$
-  with all products $ab$ distinct, in the paper the site names as its
+  with all products $ab$ distinct, in the paper erdosproblems.com names as its
   proof; the constant is explicit in terms of the Brun and Mertens
   constants but not evaluated. On the limit of $\max|A||B|\log N/N^2$ the
   paper only records the hope to investigate whether the bound holds "for

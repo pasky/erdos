@@ -30,22 +30,22 @@ divisible by some $a_i\in A$, where $a_1,\ldots,a_r$ are distinct.
 
 Estimate $f(m)$. In particular is it true that $f(m)\leq \sqrt{m}$?
 
-**Formulation.** The site's wording (page last edited 2 April 2026).
+**Formulation.** The erdosproblems.com wording (page last edited 2 April 2026).
 $f(m)$ is the largest $r$ such that every
 $m$-set $A\subseteq\{1,\ldots,N\}$ and every interval of length $2N$ admit $r$
 distinct integers in the interval matched to $r$ distinct members of $A$
 dividing them. Van Doorn, Li and Tang define $f(m)$ with $A$ any set of $m$
-positive integers and the open interval $(x,x+2\max A)$; the site's interval "of
-length $2N$" is not specified as open or closed, the paper's introduction (p. 2)
-says its results cover every interval multiplier $c$ with $2\le c<3$, and the
-site takes the paper's formula as its answer. Two questions: the estimate of
-$f(m)$, to which the page-level status attaches, and the displayed
-question $f(m)\le\sqrt m$, which has a negative answer (below). The site's
-header key is [Er95c, p. 5], with [ErSu59], [Er78], [Er86c] and [VLT26]
-cited in the commentary.
+positive integers and the open interval $(x,x+2\max A)$; erdosproblems.com's
+interval "of length $2N$" is not specified as open or closed, the paper's
+introduction (p. 2) says its results cover every interval multiplier $c$ with
+$2\le c<3$, and erdosproblems.com takes the paper's formula as its answer. Two
+questions: the estimate of $f(m)$, to which the page-level status attaches, and
+the displayed question $f(m)\le\sqrt m$, which has a negative answer (below).
+The erdosproblems.com header key is [Er95c, p. 5], with [ErSu59], [Er78],
+[Er86c] and [VLT26] cited in the commentary.
 
-**Status.** The site's label was Solved, and it attaches to the estimate
-$f(m)=\min(m,\lceil2\sqrt m\rceil)$ for every $m\ge1$, and
+**Status.** The erdosproblems.com label was Solved, and it attaches to the
+estimate $f(m)=\min(m,\lceil2\sqrt m\rceil)$ for every $m\ge1$, and
 $f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ (van Doorn, Li and Tang, Theorem 2.1 and
 Remark 2.2, arXiv:2603.28636v1, 30 March 2026). Consequently the displayed
 question is answered no: $f(m)>\sqrt m$ for every $m\ge2$, with equality only at
@@ -57,26 +57,26 @@ records the acceptance with its preprint qualification, and the frontmatter
 standing derives from it.
 
 The status-defining source is an arXiv preprint with no journal record found in
-the search. The site accepted it (SOLVED (LEAN), 2 April 2026), and an external
-Lean formalization accompanies it. The paper declares that its proof strategy
-was proposed by ChatGPT (GPT-5.4 Pro) and that Aristotle, Harmonic's automated
-theorem-proving system, completed and formally verified the argument, with the
-exposition human-written. The site's commentary credits the upper bound to GPT
-5.4 Pro, prompted by He, Li and Tang, and the lower bound to GPT 5.4 Pro and
-Aristotle, before citing the paper. The classical bounds are Erdős and Surányi's
-$f(m)\ge\sqrt m$ (1959) and Erdős and Selfridge's $f(k^2)\le2k$, hence
-$f(m)\le2\lceil\sqrt m\rceil$ (1978 and 1986). The site's label carried the
-suffix (Lean), a catalog label explained under Formalization and the Lean label,
-and no local kernel credit is claimed.
+the search. erdosproblems.com accepted it (SOLVED (LEAN), 2 April 2026), and an
+external Lean formalization accompanies it. The paper declares that its proof
+strategy was proposed by ChatGPT (GPT-5.4 Pro) and that Aristotle, Harmonic's
+automated theorem-proving system, completed and formally verified the argument,
+with the exposition human-written. The erdosproblems.com commentary credits the
+upper bound to GPT 5.4 Pro, prompted by He, Li and Tang, and the lower bound to
+GPT 5.4 Pro and Aristotle, before citing the paper. The classical bounds are
+Erdős and Surányi's $f(m)\ge\sqrt m$ (1959) and Erdős and Selfridge's
+$f(k^2)\le2k$, hence $f(m)\le2\lceil\sqrt m\rceil$ (1978 and 1986). The
+erdosproblems.com label carried the suffix (Lean), a catalog label explained
+under Formalization and the Lean label, and no local kernel credit is claimed.
 
 **Source.** [erdosproblems.com/650](https://www.erdosproblems.com/650),
 accessed 2026-09-18: the problem page (SOLVED
-(LEAN), the site's label for a resolution that is neither a proof nor a
-disproof and is verified in Lean; last edited 2 April 2026; header key
-[Er95c, p.5]; commentary citing [ErSu59], [Er78], [Er86c], [VLT26]; OEIS
-A027434), its 28-comment discussion thread (6 to 31 March 2026) and its
-empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #650,
-https://www.erdosproblems.com/650, accessed 2026-09-18.
+(LEAN), the erdosproblems.com label for a resolution that is neither a proof nor
+a disproof and is verified in Lean; last edited 2 April 2026; header key [Er95c,
+p.5]; commentary citing [ErSu59], [Er78], [Er86c], [VLT26]; OEIS A027434), its
+28-comment discussion thread (6 to 31 March 2026) and its empty proof-claim tab.
+Cite as: T. F. Bloom, Erdős Problem #650, https://www.erdosproblems.com/650,
+accessed 2026-09-18.
 
 **References.**
 
@@ -115,9 +115,9 @@ https://www.erdosproblems.com/650, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/_index|erdos_1978_problems_results_combinatorial_analysis_combinatorial_number]]
   (the card's row for this problem carries the same locator).
 - [Er95c] Erdős, P., Some problems in number theory. Octogon Math. Mag. 3
-  (1995), 3--5; the site cites p. 5. Not held; no open copy is known; its
-  passage is paraphrased below from the site curator's transcription in the
-  thread (7 March 2026).
+  (1995), 3--5; erdosproblems.com cites p. 5. Not held; no open copy is known;
+  its passage is paraphrased below from the erdosproblems.com curator's
+  transcription in the thread (7 March 2026).
 - [OEIS] Speed, S., Sequence A027434, The On-Line Encyclopedia of Integer
   Sequences (1999): the sequence with successive run lengths
   $1,1,2,2,3,3,\ldots$, which the thread identifies with $f$ after a shift and a
@@ -140,40 +140,41 @@ solved` with `sorry` and no attribute. The community database, accessed
 2026, `formal_status` Lean, the statement as formalized with a last update of 4
 August 2026, no formal-proof URL and OEIS A027434; those dates are when the
 entries were last updated, not necessarily when the states changed. The (LEAN)
-suffix of the site's label was a catalog label; the external file it refers to
-is described under "Formalization and the Lean label" below, and this corpus has
-not built it.
+suffix of the erdosproblems.com label was a catalog label; the external file it
+refers to is described under "Formalization and the Lean label" below, and this
+corpus has not built it.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; SOLVED (LEAN), the
-site's label for a resolution other than a proof or disproof whose resolution is
-verified in Lean, last edited 2 April 2026. The commentary records Erdős and
-Surányi's lower bound $f(m)\ge\sqrt m$ [ErSu59] and the Erdős--Selfridge bound
-$f(m^2)\le2m$ (in [Er78] and [Er86c]), hence $f(m)\le2\lceil\sqrt m\rceil$; says
-that the bound Erdős had in mind in [Er95c] is unclear beyond some improvement
-of this; credits the upper bound $f(m)\le\lceil2\sqrt m\rceil$ to GPT 5.4 Pro,
-prompted by He, Li and Tang, and a matching lower bound to GPT 5.4 Pro and
-Aristotle; and states, citing van Doorn, Li and Tang [VLT26], that
-$f(m)=\min(m,\lceil2\sqrt m\rceil)$ is now known for all $m$. The thread (28
-comments, 6 to 31 March 2026), in order of events: on 6 March Quanyu Tang, one
-of the paper's authors, writing with Yixin He and Yanyang Li, posted a
-model-generated proof of $f(m)\le2\lceil\sqrt m\rceil$ with a PDF and TeX source
-in a repository, checked by the poster and by further model sessions; on 7 March
-Terence Tao, who maintains the community database, reported, from an AI research
-query, that Erdős had already obtained the bound in [Er86c] and stated it in
-[Er78] with Selfridge, noted Erdős's remark that intervals of length $3N$ behave
-very differently, and asked for [Er95c]; the site's curator, Thomas Bloom,
-transcribed the [Er95c] passage from a library scan (below); the same day Tang
-posted a model-generated proof of $f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ (a
-second PDF), which the poster's own GPT 5.4 Pro check had judged sound; it was
-reviewed as sound in outline by Tao and by the site's curator, who reproduced
-the injection $a\mapsto(c_a,c_a+a)$ and the bound $|\Gamma(S)|\ge2|S|^{1/2}$ in
-a few lines and described the rest as routine checking of edge cases, while a
-Gemini 3.1 Pro check posted by another forum user found one small error in a
-strict inequality and a third user's check found only a typo; the formalization
-by Aristotle, Harmonic's automated prover, was announced on 7 March and extended
-to the equality on 8 March by another of the paper's authors, then to
+**The question (erdosproblems.com formulation).** The statement above; SOLVED
+(LEAN), the erdosproblems.com label for a resolution other than a proof or
+disproof whose resolution is verified in Lean, last edited 2 April 2026. The
+commentary records Erdős and Surányi's lower bound $f(m)\ge\sqrt m$ [ErSu59] and
+the Erdős--Selfridge bound $f(m^2)\le2m$ (in [Er78] and [Er86c]), hence
+$f(m)\le2\lceil\sqrt m\rceil$; says that the bound Erdős had in mind in [Er95c]
+is unclear beyond some improvement of this; credits the upper bound
+$f(m)\le\lceil2\sqrt m\rceil$ to GPT 5.4 Pro, prompted by He, Li and Tang, and a
+matching lower bound to GPT 5.4 Pro and Aristotle; and states, citing van Doorn,
+Li and Tang [VLT26], that $f(m)=\min(m,\lceil2\sqrt m\rceil)$ is now known for
+all $m$. The thread (28 comments, 6 to 31 March 2026), in order of events: on 6
+March Quanyu Tang, one of the paper's authors, writing with Yixin He and Yanyang
+Li, posted a model-generated proof of $f(m)\le2\lceil\sqrt m\rceil$ with a PDF
+and TeX source in a repository, checked by the poster and by further model
+sessions; on 7 March Terence Tao, who maintains the community database,
+reported, from an AI research query, that Erdős had already obtained the bound
+in [Er86c] and stated it in [Er78] with Selfridge, noted Erdős's remark that
+intervals of length $3N$ behave very differently, and asked for [Er95c]; the
+erdosproblems.com curator, Thomas Bloom, transcribed the [Er95c] passage from a
+library scan (below); the same day Tang posted a model-generated proof of
+$f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ (a second PDF), which the poster's own
+GPT 5.4 Pro check had judged sound; it was reviewed as sound in outline by Tao
+and by the erdosproblems.com curator, who reproduced the injection
+$a\mapsto(c_a,c_a+a)$ and the bound $|\Gamma(S)|\ge2|S|^{1/2}$ in a few lines
+and described the rest as routine checking of edge cases, while a Gemini 3.1 Pro
+check posted by another forum user found one small error in a strict inequality
+and a third user's check found only a typo; the formalization by Aristotle,
+Harmonic's automated prover, was announced on 7 March and extended to the
+equality on 8 March by another of the paper's authors, then to
 $\min(m,\lceil2\sqrt m\rceil)$ at Tao's request; Tao also ran an evolutionary
 search that found the optimal construction once the Chinese remainder step was
 hard-coded, and linked OEIS A027434; on 31 March the same author posted a
@@ -197,16 +198,17 @@ German summary (p. 48) adds "$\sqrt n$ scheint aber wieder nicht die genaue
 untere Grenze zu sein" ($\sqrt n$ again seems not to be the exact lower
 bound)
 ([[../library/integer_sequences/erdos_1959_megjegyzesek_egy_versenyfeladathoz_remarks_problem_bemerkungen/section_11|Section 11]]).
-The site's [Er95c, p. 5], as transcribed by the site's curator in the thread
-on 7 March 2026 from a library scan, recalls the 1959 paper with Surányi as
-a source of problems, and poses one: for $n$ positive integers
-$a_1<\cdots<a_n$, every interval $(x,x+2a_n)$ is easily seen to contain
+erdosproblems.com's [Er95c, p. 5], as transcribed by the erdosproblems.com
+curator in the thread on 7 March 2026 from a library scan, recalls the 1959
+paper with Surányi as a source of problems, and poses one: for $n$ positive
+integers $a_1<\cdots<a_n$, every interval $(x,x+2a_n)$ is easily seen to contain
 $n^{1/2}$ distinct integers each divisible by a distinct one of the $a$'s,
 and Erdős asks whether $\sqrt n$ can be replaced by a larger number for
 $n>n_0$. The passage is second-hand here ([Er95c] is not held) and is
 paraphrased, not quoted; Tao read the intended question as whether
-$f(n)\le\lceil\sqrt n\rceil$ for large $n$, and the site's curator agreed it
-was odd that Erdős cited only the 1959 paper and not his own upper bound.
+$f(n)\le\lceil\sqrt n\rceil$ for large $n$, and the erdosproblems.com curator
+agreed it was odd that Erdős cited only the 1959 paper and not his own upper
+bound.
 
 **The Erdős–Selfridge upper bound.** The theorem stated on printed p. 60 of
 [Er86c] and proved there in full "[s]ince our proof is not easily
@@ -246,36 +248,36 @@ $S\subseteq A$ in the divisibility graph (display (2)). Read depth: the
 definition, Theorem 2.1, Remark 2.2, Lemma 2.3, Theorems 3.1 and 4.1 and the
 interval remark are checked against the paper; the proofs (Sections 3 and 4, pp.
 4--7) are not, and nothing here is independently reviewed. Acceptance evidence:
-the site's label and commentary (2 April 2026), which credit the corrected
-paper; the thread's outline review by Tao and the site's curator on 7 March 2026
-was of that day's draft, whose Case 2 injection was not injective, and did not
-catch the gap, so it is not counted; the paper has no journal record on
-2026-09-18 (the arXiv listing carries no journal reference, a Crossref
-bibliographic query for the title returned nothing, and Semantic Scholar lists
-one citing preprint), so the preprint qualification applies until a refereed
-version or an independent review appears. Provenance, recorded not judged: the
-abstract states that "the proof strategy was first proposed by ChatGPT, and the
-detailed argument was subsequently made fully rigorous and formally verified in
-Lean by Aristotle", with "[t]he exposition and final proofs presented here"
-being "entirely human-written"; Section 1.1 names the model as GPT-5.4 Pro and
-Aristotle as Harmonic's system for formal reasoning, and Section 1.1 and Section
-5 (p. 7) record that the initial draft's injection in Case 2 of the lower bound
-was not injective and that Aristotle's formalization contained a working
-variant, which the paper adopts.
+the erdosproblems.com label and commentary (2 April 2026), which credit the
+corrected paper; the thread's outline review by Tao and the erdosproblems.com
+curator on 7 March 2026 was of that day's draft, whose Case 2 injection was not
+injective, and did not catch the gap, so it is not counted; the paper has no
+journal record on 2026-09-18 (the arXiv listing carries no journal reference, a
+Crossref bibliographic query for the title returned nothing, and Semantic
+Scholar lists one citing preprint), so the preprint qualification applies until
+a refereed version or an independent review appears. Provenance, recorded not
+judged: the abstract states that "the proof strategy was first proposed by
+ChatGPT, and the detailed argument was subsequently made fully rigorous and
+formally verified in Lean by Aristotle", with "[t]he exposition and final proofs
+presented here" being "entirely human-written"; Section 1.1 names the model as
+GPT-5.4 Pro and Aristotle as Harmonic's system for formal reasoning, and Section
+1.1 and Section 5 (p. 7) record that the initial draft's injection in Case 2 of
+the lower bound was not injective and that Aristotle's formalization contained a
+working variant, which the paper adopts.
 
 **The displayed question, answered.** Since $f(m)=m$ for $m\le4$ and
 $f(m)=\lceil2\sqrt m\rceil\ge2\sqrt m$ for $m\ge4$, $f(m)\le\sqrt m$ holds
 only for $m=1$; the answer to "is it true that $f(m)\le\sqrt m$?" is no,
 and Erdős's question whether $\sqrt n$ can be improved for large $n$ has
-the answer yes, by $2\sqrt m$ up to rounding. The site's
+the answer yes, by $2\sqrt m$ up to rounding. The erdosproblems.com
 commentary states the formula and leaves the negative answer implicit; the
 label SOLVED attaches to the estimate. Small values, from the formula:
 $f(1),\ldots,f(12)=1,2,3,4,5,5,6,6,6,7,7,7$ (computed here from the
 theorem, not by search); the thread reports a model's direct computation
 agreeing for $4\le m\le9$ with $f(m)=m$ for $m=1,2,3$.
 
-**Formalization and the Lean label.** The (LEAN) suffix of the site's label
-was a catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** The (LEAN) suffix of the erdosproblems.com
+label was a catalog label. The formal-conjectures file at the pinned commit is a
 statement with `sorry` bodies whose `formal_proof` attribute names
 `ErdosProblem650.lean` in `Woett/Lean-files` on its `main` branch, not a
 fixed commit. That file, last changed on 31 March 2026, is described here at
@@ -293,24 +295,24 @@ matching into the open interval $(x,x+2\max A)$, and proves
 and `erdos_f_eq_ge4`; its text contains no `sorry`, no `axiom` declaration
 and no `native_decide`, and its `#print axioms erdos_f_eq` line has no
 recorded output. The file's $f$ is the paper's (any positive set, interval
-$2\max A$); the formal-conjectures $f$ is the site's ($A\subseteq[1,N]$,
-interval $2N$); the two definitions differ in form, and the site identifies them
-by taking the paper's formula as its answer. This corpus has not built or
-kernel-checked the file and claims no kernel credit. Boris Alexeev's lean-proofs
-repository carries a copy, added on 6 May 2026, that declares itself a
-formalization of the solution, naming GPT-5.4 Pro, van Doorn, He, Li and Tang as
-informal authors and Aristotle and van Doorn as formal authors; it is linked on
-the claim page and has not been built either. The community database lists
-`formal_status` Lean, with the problem's entry last updated on 6 March 2026, and
-no formal-proof URL.
+$2\max A$); the formal-conjectures $f$ is erdosproblems.com's
+($A\subseteq[1,N]$, interval $2N$); the two definitions differ in form, and
+erdosproblems.com identifies them by taking the paper's formula as its answer.
+This corpus has not built or kernel-checked the file and claims no kernel
+credit. Boris Alexeev's lean-proofs repository carries a copy, added on 6 May
+2026, that declares itself a formalization of the solution, naming GPT-5.4 Pro,
+van Doorn, He, Li and Tang as informal authors and Aristotle and van Doorn as
+formal authors; it is linked on the claim page and has not been built either.
+The community database lists `formal_status` Lean, with the problem's entry last
+updated on 6 March 2026, and no formal-proof URL.
 
 **Search scope.** None of the routes below found a
 refereed version of [VLT26], an independent review of its argument, a
 dispute of the formula, or a copy of [Er95c].
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `650.lean` at the pinned commit; the community
-  database as of 2026-09-18; the Lean file, the repository's head and file
+  database, read 2026-09-18; the Lean file, the repository's head and file
   history, and the note repository (`QuanyuTang/erdos-problem-650`, whose
   head of 21 March 2026 lists five files: two claimed-proof PDFs, a gap note
   and the TeX source) through the GitHub API.
@@ -327,7 +329,7 @@ open route known).
 
 **Remaining gaps.** (1) The status rests on a preprint with no refereed
 publication and no independent expert review, whose argument the paper and
-the site attribute to ChatGPT (GPT-5.4 Pro) and Aristotle; a refereed
+erdosproblems.com attribute to ChatGPT (GPT-5.4 Pro) and Aristotle; a refereed
 version or an independent whole-argument review is the reopening condition
 for the qualification, and the label attaches to the estimate while the
 displayed question is answered no, as recorded above. (2) This corpus has

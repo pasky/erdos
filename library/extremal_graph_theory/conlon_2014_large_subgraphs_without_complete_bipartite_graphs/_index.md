@@ -34,7 +34,8 @@ best possible.
 ***
 
 David Conlon, Jacob Fox, Benny Sudakov, Large subgraphs without complete
-bipartite graphs. arXiv:1401.6711 (2014). The site's reference key CFS14b.
+bipartite graphs. arXiv:1401.6711 (2014). The erdosproblems.com reference key
+CFS14b.
 
 **Edition read.** The copy read for this card is arXiv:1401.6711v1 (27 January
 2014; 4 pages), the only arXiv version: the
@@ -87,12 +88,12 @@ are what the paper contributes to problem 1008.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1008/_index|#1008]]: the
 status-defining source. Theorem 2.1 at r = 2 gives a C_4-free subgraph with at
-least (1/4) m^{2/3} edges in every graph with m edges, the site's question
-answered in the affirmative; Theorem 2.3 at r = s = 2 shows that the order
-m^{2/3} is best possible. The Remarks on p. 2 record that at r = 2 the result
-improves an estimate of Foucaud, Krivelevich and Perarnau by a logarithmic
-factor. Theorems 3.1 and 3.2 bear on no problem page directly; at k = 2
-they are Theorem 2.1 and the case s = r of Theorem 2.3.
+least (1/4) m^{2/3} edges in every graph with m edges, the erdosproblems.com
+question answered in the affirmative; Theorem 2.3 at r = s = 2 shows that the
+order m^{2/3} is best possible. The Remarks on p. 2 record that at r = 2 the
+result improves an estimate of Foucaud, Krivelevich and Perarnau by a
+logarithmic factor. Theorems 3.1 and 3.2 bear on no problem page directly; at
+k = 2 they are Theorem 2.1 and the case s = r of Theorem 2.3.
 
 **Results.**
 

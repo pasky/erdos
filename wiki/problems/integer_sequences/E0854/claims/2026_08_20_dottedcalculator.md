@@ -33,8 +33,8 @@ a partial claim by the forum account DottedCalculator, the claimant named
 here; the write-up gives the AI system as its author. Write $P_k=n_k$ for
 the $k$th primorial, $1=a_1<\cdots<a_{\phi(P_k)}=P_k-1$ for the integers
 below $P_k$ coprime to it, and $F(k)$ for the least even integer that is
-not a difference $a_{i+1}-a_i$; this $F(k)$ is the site's even-integer form
-of the $f(k)$ of Erdős's 1985 problem list, whose library card is
+not a difference $a_{i+1}-a_i$; this $F(k)$ is erdosproblems.com's even-integer
+form of the $f(k)$ of Erdős's 1985 problem list, whose library card is
 [[../library/primes/erdos_1985_my_problems_number_theory_i_would/_index|erdos_1985_my_problems_number_theory_i_would]].
 Theorem 1.1 of the write-up: there is an absolute constant $c>0$ such that,
 for every sufficiently large $k$, every even number $2h$ with
@@ -104,13 +104,13 @@ review.
 
 **Standing.** Claimed: an unrefereed write-up in a personal repository (the
 link is pinned to the repository's revision of 2026-10-07), with no arXiv
-or journal record found. The site's label was OPEN (page last edited 4
-November 2025); the proof-claim tab showed the claim with
-no comments and the site's standing notice that appearing on the tab means
-no one at the site has examined the proof. The problem's standing is not
-changed by a partial claim. The claim value is `proved`: the result proves a
-lower bound toward the estimate the problem asks for, and it answers neither
-side of the displayed question.
+or journal record found. The erdosproblems.com label was OPEN (page last edited
+4 November 2025); the proof-claim tab showed the claim with no comments and
+erdosproblems.com's standing notice that appearing on the tab means no one at
+erdosproblems.com has examined the proof. The problem's standing is not changed
+by a partial claim. The claim value is `proved`: the result proves a lower bound
+toward the estimate the problem asks for, and it answers neither side of the
+displayed question.
 
 **Depends on.**
 [[../library/integer_sequences/ford_2018_long_gaps_between_primes/equation_1_2|Ford, Green, Konyagin, Maynard and Tao, (1.2)]]

@@ -4,8 +4,8 @@ title: A reconstruction of the gap-greedy proof with a sharper exponent
 desc: |
   Sneiderman's note of 21 July 2026 reproves Chojecki's density-one
   construction, with short rejected gaps bounded by $X^{43/50+o(1)}$. It was
-  made with GPT 5.6 Sol Ultra, posted as a site proof claim and followed by
-  Pratt's digest.
+  made with GPT 5.6 Sol Ultra, posted as an erdosproblems.com proof claim and
+  followed by Pratt's digest.
 authors:
 - Rob Sneiderman
 status: accepted
@@ -56,9 +56,9 @@ the AI system used:
 
 **The result.** R. Sneiderman, *Erdős Problem 421: audit and reconstruction*,
 a note in a GitHub repository committed on 21 July 2026 and submitted the same
-day as a proof claim on the site, where its entry says it was produced with
-GPT 5.6 Sol Ultra. The note takes the gap-greedy construction over consecutive
-primes of
+day as a proof claim on erdosproblems.com, where its entry says it was produced
+with GPT 5.6 Sol Ultra. The note takes the gap-greedy construction over
+consecutive primes of
 [[problems/integer_sequences/E0421/claims/2026_07_13_chojecki|Chojecki's claim]],
 for which its author asks that Chojecki be credited, organizes the
 equal-product witnesses of rejected gaps into a forest, counts the parentless
@@ -71,14 +71,15 @@ in almost all short intervals. Only $o(X)$ integers are discarded, so the set
 has density one. The entry's own note says the proof is posted for independent
 checking.
 
-**Acceptance.** Reviewed: Pratt's digested proof of 1 September 2026 is the
-site's proof exposition. It states that its presentation follows the proofs of
-Chojecki and Sneiderman with minor modifications. It credits Sneiderman with
-improving quantitative aspects of Chojecki's proof. The site's curator, Thomas
-Bloom, who has no part in the note, records the answer as yes and labeled the
-problem SOLVED (page last edited 1 September 2026). The proof-claim tab carries
-the site's standing notice that a listing is no guarantee of correctness and
-does not mean anyone associated with the site examined the proof. Not refereed.
+**Acceptance.** Reviewed: Pratt's digested proof of 1 September 2026 is
+erdosproblems.com's proof exposition. It states that its presentation follows
+the proofs of Chojecki and Sneiderman with minor modifications. It credits
+Sneiderman with improving quantitative aspects of Chojecki's proof. The
+erdosproblems.com curator, Thomas Bloom, who has no part in the note, records
+the answer as yes and labeled the problem SOLVED (page last edited 1 September
+2026). The proof-claim tab carries erdosproblems.com's standing notice that a
+listing is no guarantee of correctness and does not mean anyone associated with
+erdosproblems.com examined the proof. Not refereed.
 
 A Lean development by OpenAI Codex in Boris Alexeev's repository
 `plby/lean-proofs` formalizes the problem from this note, with Chojecki's

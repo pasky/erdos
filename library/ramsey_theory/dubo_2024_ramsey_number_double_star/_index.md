@@ -76,9 +76,9 @@ Pages 1--7 were read on the page images.
 No proof was checked beyond structure and nothing here is independently
 reviewed.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0549/_index|#549]]: Corollary 3 is the
-site's elementary upper bound; Theorem 2 covers the problem's tree
-$S(2k-1,k-1)$ for $k\ge3$ and gives
+**Bears on.** [[../wiki/problems/ramsey_theory/E0549/_index|#549]]: Corollary 3
+is erdosproblems.com's elementary upper bound; Theorem 2 covers the problem's
+tree $S(2k-1,k-1)$ for $k\ge3$ and gives
 $R(S(2k-1,k-1))\le(\frac{1+\sqrt{57}}2+o(1))k$, the same constant
 asymptotically (a specialization made on the Theorem 2 page, not in the
 paper), an upper bound that neither proves nor refutes the problem's

@@ -1,11 +1,11 @@
 ---
 name: problems/set_systems/E1076/claims/2022_09_28_glock_joos_kim_kuhn_lichev_pikhurko
-title: The (6,4) limit 7/36 refutes the site's wording at k = 6
+title: The (6,4) limit 7/36 refutes the erdosproblems.com wording at k = 6
 desc: |
-  Correct, but answers the site's wording (the single family $F_6$), not the
-  modified Statement (the cumulative family), so it does not count toward the
-  problem's standing. The $(6,4)$ limit is $7/36$, not $1/6$, refereed in Proc.
-  Amer. Math. Soc. Ser. B.
+  Correct, but answers the erdosproblems.com wording (the single family $F_6$),
+  not the modified Statement (the cumulative family), so it does not count
+  toward the problem's standing. The $(6,4)$ limit is $7/36$, not $1/6$,
+  refereed in Proc. Amer. Math. Soc. Ser. B.
 authors:
 - Stefan Glock
 - Felix Joos
@@ -36,25 +36,25 @@ updated: 2026-10-08T03:43:48Z
 vertices in which no four edges span at most six vertices is
 $(7/36+o(1))\,n^2$ (Glock, Joos, Kim, Kühn, Lichev and Pikhurko, main theorem,
 as the arXiv abstract and the Crossref record state it; the paper is not held
-in the library). A $3$-graph contains a member of the site's $\mathcal F_6$,
-the $3$-graphs with $6$ vertices and $4$ edges, exactly when some four of its
-edges span at most six vertices, so
+in the library). A $3$-graph contains a member of erdosproblems.com's
+$\mathcal F_6$, the $3$-graphs with $6$ vertices and $4$ edges, exactly when
+some four of its edges span at most six vertices, so
 
 $$
 \mathrm{ex}_3(n,\mathcal F_6)=\Bigl(\frac7{36}+o(1)\Bigr)n^2,
 $$
 
 not $(1+o(1))n^2/6=(6/36+o(1))n^2$: the displayed asymptotic fails at $k=6$
-with $\mathcal F_k$ the single family the site's wording defines, so the
-site's wording, an assertion about every $k\ge5$, is false. The transfer from
-the theorem to the site's wording is the identification of the two forbidden
-families. The theorem says nothing about other $k$; the earlier refutation at
-$k=5$ is on
+with $\mathcal F_k$ the single family the erdosproblems.com wording defines, so
+the erdosproblems.com wording, an assertion about every $k\ge5$, is false. The
+transfer from the theorem to the erdosproblems.com wording is the identification
+of the two forbidden families. The theorem says nothing about other $k$; the
+earlier refutation at $k=5$ is on
 [[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]].
 
-**Why it is rejected.** The result is correct, but it answers the site's
-wording, the single family $\mathcal F_6$, not the modified Statement of
-[[problems/set_systems/E1076/_index|Problem 1076]], whose family is
+**Why it is rejected.** The result is correct, but it answers the
+erdosproblems.com wording, the single family $\mathcal F_6$, not the modified
+Statement of [[problems/set_systems/E1076/_index|Problem 1076]], whose family is
 cumulative: under the modified Statement a $3$-graph avoiding
 $\mathcal F_4\cup\dots\cup\mathcal F_6$ is linear, so the theorem says nothing
 against it, and the page does not count toward the problem's standing. The
@@ -66,5 +66,5 @@ Ser. B 11 (2024), 173–186. It was published on 4 June 2024, after the arXiv
 posting of 28 September 2022. The abstract presents the result as the case $k=4$
 of Brown, Erdős and Sós's conjecture that the limit of $f^{(3)}(n;k+2,k)/n^2$
 exists. The cases $k=2$ (Brown, Erdős and Sós) and $k=3$ (Glock) came before it.
-The site does not cite the paper on this problem, and its curator makes no
-statement about it. The proof is unreviewed, and no formalization is known.
+erdosproblems.com does not cite the paper on this problem, and its curator makes
+no statement about it. The proof is unreviewed, and no formalization is known.

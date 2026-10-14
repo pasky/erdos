@@ -35,8 +35,8 @@ by the same method."
 
 Here $v(x)$ is the valency (degree) of $x$. Both displays print $\geqslant$;
 display (1) carries the second inequality $6e/n\ge2n$, which is the
-hypothesis $e\ge n^2/3$ restated. In the catalog's notation, with $r=3$ and
-$m=e$: every graph with $n$ vertices and $m\ge n^2/3$ edges has a triangle
+hypothesis $e\ge n^2/3$ restated. In the erdosproblems.com notation, with $r=3$
+and $m=e$: every graph with $n$ vertices and $m\ge n^2/3$ edges has a triangle
 with $d(x_1)+d(x_2)+d(x_3)\ge6m/n$, the $r=3$ case of Problem 904's statement
 under the hypothesis $m\ge n^2/3$ in place of $m\ge t_3(n)$ (an observation
 made here: $t_3(n)=\lfloor n^2/3\rfloor$ for every $n$ by an elementary
@@ -71,7 +71,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0904/_index|Problem 904]]: the site's [Er75,
-  p. 13] source; the $r=3$ case of the conjecture in Erdős's 1975 words,
-  under the hypothesis $e\ge n^2/3$, which the site's commentary calls "the
-  slightly weaker condition".
+- [[../wiki/problems/extremal_graph_theory/E0904/_index|Problem 904]]:
+  erdosproblems.com's [Er75, p. 13] source; the $r=3$ case of the conjecture in
+  Erdős's 1975 words, under the hypothesis $e\ge n^2/3$, which the
+  erdosproblems.com commentary calls "the slightly weaker condition".

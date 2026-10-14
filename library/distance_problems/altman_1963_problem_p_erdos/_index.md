@@ -173,20 +173,20 @@ distances; the regular $(2N+1)$-gon and the Remark's $2N$-gon (p. 157)
 show the bound is attained, which is the introduction's $f(n)=[n/2]$
 (p. 148). The problem page reads the Theorem on the page image and its
 proof as followed here; nothing is independently reviewed.
-[[../wiki/problems/distance_problems/E0095/_index|#95]]: the site says the convex-polygon
-case of that problem was solved by this paper. The paper's printed
-statements concern only the number of distinct distances; it prints no
+[[../wiki/problems/distance_problems/E0095/_index|#95]]: erdosproblems.com says
+the convex-polygon case of that problem was solved by this paper. The paper's
+printed statements concern only the number of distinct distances; it prints no
 statement about $\sum_i f(u_i)^2$, the sum of the squared multiplicities.
 By Cauchy--Schwarz the number $t$ of distinct distances satisfies
 $t\ge\binom n2^2/\sum_if(u_i)^2$, so what the problem's inequality yields
 for $t$ in convex position, $t\gg_\epsilon n^{1-\epsilon}$, is weaker than
 the Theorem's $t\ge\lfloor n/2\rfloor$; the converse direction is not in
-the paper. How the site's sentence is to be read is a filing observation
-left open here, not a review verdict.
+the paper. How the erdosproblems.com sentence is to be read is a filing
+observation left open here, not a review verdict.
 [[../wiki/problems/distance_problems/E0660/_index|#660]]: the paper is the two-dimensional
 analog the page records, the Theorem of p. 149, and it is the only Altman
-reference the site gives for that problem. Read in full on the page images,
-it treats the plane only and prints no statement about the vertices of a
+reference erdosproblems.com gives for that problem. Read in full on the page
+images, it treats the plane only and prints no statement about the vertices of a
 convex polyhedron or about three dimensions, so the linear lower bound
 $D_3>cn$ that Erdős's 1975 survey attributes to Altman is not in this
 paper.

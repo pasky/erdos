@@ -5,7 +5,7 @@ desc: |
   Swanepoel and Valtr show that on every sphere in $\mathbb R^3$ of diameter
   above 1, $n$ points can span more than a constant times $n\sqrt{\log n}$ unit
   distances. This is a second proof of the answer yes, with a stronger bound,
-  and the site's curator credits it.
+  and the erdosproblems.com curator credits it.
 authors:
 - Konrad J. Swanepoel
 - Pavel Valtr
@@ -52,15 +52,16 @@ Theorem 2 of the paper, the same bound for planar sets with no three collinear
 points and no parallelogram, is not part of this problem. The source card is
 [[../library/distance_problems/swanepoel_2004_unit_distance_problem_spheres/_index|swanepoel_2004_unit_distance_problem_spheres]].
 
-**Acceptance.** The site's curator, Thomas Bloom, records the theorem as the
-current lower bound for the problem's quantity, $u_D(n)\gg n\sqrt{\log n}$. It
-is listed beside the solution Bloom credits to Erdős, Hickerson and Pach
-(problem page accessed 2026-10-07). That record is the `reviewed` evidence. The
-venue is the one the publisher's record gives, DOI 10.1090/conm/342/06148
-(Contemporary Mathematics 342, *Towards a Theory of Geometric Graphs*, 273–279,
-2004). It is linked above with the first author's publication list. The volume
-is a proceedings volume, not a journal, and no evidence that it was refereed is
-recorded, so no `refereed` evidence is listed. The proof is unreviewed, and
-acceptance rests on the curator's credit. The site also records the upper bound
-$u_D(n)\ll n^{4/3}$ for general $D$. So the exact growth of the problem's
-quantity remains unknown, although the question itself is answered.
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, records the theorem
+as the current lower bound for the problem's quantity,
+$u_D(n)\gg n\sqrt{\log n}$. It is listed beside the solution Bloom credits to
+Erdős, Hickerson and Pach (problem page accessed 2026-10-07). That record is the
+`reviewed` evidence. The venue is the one the publisher's record gives, DOI
+10.1090/conm/342/06148 (Contemporary Mathematics 342, *Towards a Theory of
+Geometric Graphs*, 273–279, 2004). It is linked above with the first author's
+publication list. The volume is a proceedings volume, not a journal, and no
+evidence that it was refereed is recorded, so no `refereed` evidence is listed.
+The proof is unreviewed, and acceptance rests on the curator's credit.
+erdosproblems.com also records the upper bound $u_D(n)\ll n^{4/3}$ for general
+$D$. So the exact growth of the problem's quantity remains unknown, although the
+question itself is answered.

@@ -26,8 +26,8 @@ updated: 2026-10-07T23:33:05Z
 a line and no four on a circle, which determine $n-1$ distinct distances and so
 that (in some ordering of the distances) the $i$th distance occurs $i$ times?
 
-**Status.** Open. This is the site's label (OPEN). Four claim pages are
-recorded, and each answers yes for one value of $n$. The case $n=5$ is on
+**Status.** Open. This is the erdosproblems.com label (OPEN). Four claim pages
+are recorded, and each answers yes for one value of $n$. The case $n=5$ is on
 [[problems/distance_problems/E0217/claims/1983_01_01_pomerance|Pomerance's claim
 page]]. Erdős describes this construction in [Er83c], and it stays claimed
 because that transcript is its only publication. The case $n=7$ is on

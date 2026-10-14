@@ -3,7 +3,7 @@ name: extremal_graph_theory
 title: "Extremal and Structural Graph Theory"
 desc: "Sources filed under Extremal and Structural Graph Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T00:21:45Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -388,8 +388,8 @@ covering number and the line covering number of a graph on n points,
 proving the minimum n-1 with equality only for stars and the maximum
 (n^2-1)/2 for n odd, attained only by K_n, and (n^2-4)/2 for n even,
 attained only by K_4 when n = 4 and otherwise by two disjoint odd
-cliques, and extends the bounds to r-uniform hypergraphs; the site's
-source key for Problem 581, which it does not mention.
+cliques, and extends the bounds to r-uniform hypergraphs; the
+erdosproblems.com source key for Problem 581, which it does not mention.
 
 [[extremal_graph_theory/chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree/_index|chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree/]]: Chung, Gyárfás, Tuza and Trotter's 1990 theorem that a connected graph
 with no induced pair of independent edges and maximum degree at most D
@@ -828,7 +828,7 @@ Bondy's.
 [[extremal_graph_theory/gishboliner_2025_induced_subgraphs_k_r_free_graphs_erdos_rogers/_index|gishboliner_2025_induced_subgraphs_k_r_free_graphs_erdos_rogers/]]: Proves that for every r ≥ 4 and every K_{r−1}-free graph F the largest
 F-free induced subgraph guaranteed in a K_r-free graph on n vertices has order
 O(n^{1/2−ε_F}), tight in two senses; its introduction surveys the
-Erdős–Rogers function f_{3,4}, the site's Problem 620.
+Erdős–Rogers function f_{3,4}, erdosproblems.com's Problem 620.
 
 [[extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/_index|goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/]]: A hill-climbing search improves the best known lower bounds on the maximum
 number of edges in a girth-five graph for nearly all n from 74 to 198.
@@ -983,7 +983,7 @@ generalized Ramsey colorings of complete and complete bipartite graphs.
 [[extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/_index|joret_2021_tight_bounds_clique_chromatic_number/]]: Proves that every graph of maximum degree Δ has clique chromatic number at
 most (1 + ε)Δ/log Δ once Δ is large and, as a corollary, that every graph
 on n vertices has clique chromatic number O(√(n/log n)); the corollary is
-the theorem behind the site's resolution of Problem 610.
+the theorem behind erdosproblems.com's resolution of Problem 610.
 
 [[extremal_graph_theory/kadrawi_levit_2023_independence_polynomial_trees_is_not_always_log_concave_starting_from_order_26/_index|kadrawi_levit_2023_independence_polynomial_trees_is_not_always_log_concave_starting_from_order_26/]]: Gives two 26-vertex trees and infinite tree families whose independence
 polynomials fail log-concavity; the 26-vertex examples stay unimodal, and the

@@ -24,10 +24,10 @@ updated: 2026-10-08T03:43:48Z
 numbers which occur infinitely often as $a_1-a_2$ with $a_1,a_2\in A$. What
 conditions on $A$ are sufficient to ensure $D(A)$ has bounded gaps?
 
-**Status.** Open. The site credits Prikry, Tijdeman, Stewart and others with the
-sufficient condition that $A$ has positive density. Theorem 2 of Stewart and
-Tijdeman (Canad. J. Math. 1979, refereed) proves that positive upper density
-suffices. This is the accepted partial claim on
+**Status.** Open. erdosproblems.com credits Prikry, Tijdeman, Stewart and others
+with the sufficient condition that $A$ has positive density. Theorem 2 of
+Stewart and Tijdeman (Canad. J. Math. 1979, refereed) proves that positive upper
+density suffices. This is the accepted partial claim on
 [[problems/integer_sequences/E0332/claims/1979_10_01_stewart_tijdeman|its claim page]].
 Prikry's independent proof, which they cite as a private communication, was not
 published and has no page. A note linked from the thread on 4 May 2026, posted
@@ -53,17 +53,17 @@ https://www.erdosproblems.com/332.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 28 October 2025): which
-conditions on $A\subseteq\mathbb N$ ensure that $D(A)$, the set of differences
-occurring infinitely often in $A$, has bounded gaps? The site's commentary
-credits Prikry, Tijdeman, Stewart and others, through the surveys [St78] and
-[Ti79], with the sufficient condition that $A$ has positive density, and asks
-further which conditions give $D(A)$ positive density, a divergent sum of
-reciprocals, or just $D(A)\neq\emptyset$. Theorem 2 of Stewart and Tijdeman
-(Canad. J. Math. 31 (1979), refereed) proves that if $A$ has upper density
-$\varepsilon>0$, then at most $\varepsilon^{-\log3/\log2}$ translates of
-$D(A)$ cover the non-negative integers, so $D(A)$ has bounded gaps; this is the
-accepted partial claim on
+The question, as erdosproblems.com states it (page last edited 28 October 2025):
+which conditions on $A\subseteq\mathbb N$ ensure that $D(A)$, the set of
+differences occurring infinitely often in $A$, has bounded gaps? The
+erdosproblems.com commentary credits Prikry, Tijdeman, Stewart and others,
+through the surveys [St78] and [Ti79], with the sufficient condition that $A$
+has positive density, and asks further which conditions give $D(A)$ positive
+density, a divergent sum of reciprocals, or just $D(A)\neq\emptyset$. Theorem 2
+of Stewart and Tijdeman (Canad. J. Math. 31 (1979), refereed) proves that if $A$
+has upper density $\varepsilon>0$, then at most $\varepsilon^{-\log3/\log2}$
+translates of $D(A)$ cover the non-negative integers, so $D(A)$ has bounded
+gaps; this is the accepted partial claim on
 [[problems/integer_sequences/E0332/claims/1979_10_01_stewart_tijdeman|its claim page]].
 The paper cites Prikry's independent proof as a private communication; it was
 not published and has no page. Ruzsa refined the covering to at most
@@ -85,9 +85,9 @@ answer the problem asks for, and neither claims a characterization, so the
 problem stays open with one accepted partial claim and one pending partial
 claim.
 
-Search scope. As of 2026-10-07 the site's page lists no proof claim, its
-discussion thread holds one comment, of 4 May 2026, the posting that the
-pending claim page records, and the formal-conjectures statement file states
+Search scope. On 2026-10-07 the erdosproblems.com page listed no proof claim,
+its discussion thread held one comment, of 4 May 2026, the posting that the
+pending claim page records, and the formal-conjectures statement file stated
 the question as a single open theorem whose sufficient condition is left to be
 supplied, with no formal proof.
 <!-- BEGIN problem library links -->

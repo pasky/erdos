@@ -30,28 +30,28 @@ $3$?
 $n^2+n+1$ edges, where $n\geq 2$. Must $G$ contain two vertices of the same
 degree which are joined by a path of length $3$?
 
-**Notes.** The site's wording leaves $n$ free, so it includes $n=1$, where it
-is false. A path of length $3$ is a path with three edges and four distinct
-vertices: this is the reading under which the site's own example works
-($K_{n,n+1}$ has $n^2+n$ edges, its equal-degree vertices lie on one side, and
-a path with an odd number of edges joins the two sides), and it is the reading
-of [ChMa25] (proof of Lemma 4, p. 3: "$uu_1vw$ is a path of length three joining
-$u$ and $w$"). At $n=1$ the graph has $3$ vertices and $3$ edges, so it is
-$K_3$; its three vertices all have degree $2$, but a graph on three vertices
-contains no path with four vertices, so no two of them are joined by a path of
-length $3$, and the answer is no. The check needs no source. The change inserts
-"where $n\geq 2$", which excludes exactly $n=1$, the one value at which, because
-of its size, no graph can meet the conclusion; it is the corpus's own
+**Notes.** The erdosproblems.com wording leaves $n$ free, so it includes $n=1$,
+where it is false. A path of length $3$ is a path with three edges and four
+distinct vertices: this is the reading under which erdosproblems.com's own
+example works ($K_{n,n+1}$ has $n^2+n$ edges, its equal-degree vertices lie on
+one side, and a path with an odd number of edges joins the two sides), and it is
+the reading of [ChMa25] (proof of Lemma 4, p. 3: "$uu_1vw$ is a path of length
+three joining $u$ and $w$"). At $n=1$ the graph has $3$ vertices and $3$ edges,
+so it is $K_3$; its three vertices all have degree $2$, but a graph on three
+vertices contains no path with four vertices, so no two of them are joined by a
+path of length $3$, and the answer is no. The check needs no source. The change
+inserts "where $n\geq 2$", which excludes exactly $n=1$, the one value at which,
+because of its size, no graph can meet the conclusion; it is the corpus's own
 correction. The first value above it, $n=2$, holds for all four graphs (checked
 in the Current assessment). No source of higher rank supplies a range: Erdős's
 [Er91] was not read, and the statements of his question as Problem 1 of [ChMa25]
 (p. 1) and Problem 1.1 of [LiZe25] (p. 1) carry no range on $n$, so the missing
-range is not the site's alone; the site's commentary gives the range $n\ge600$
-of Chen and Ma's theorem, which is a theorem's hypothesis and not the form.
-The form follows from the size of the failing instance alone, not from the
-range of any theorem; the formal-conjectures statement file states the same
-range $n\ge2$. Results about the site's wording, credited and never counted:
-the failure at $n=1$ is this corpus's own check; the
+range is not erdosproblems.com's alone; the erdosproblems.com commentary gives
+the range $n\ge600$ of Chen and Ma's theorem, which is a theorem's hypothesis
+and not the form. The form follows from the size of the failing instance alone,
+not from the range of any theorem; the formal-conjectures statement file states
+the same range $n\ge2$. Results about the erdosproblems.com wording, credited
+and never counted: the failure at $n=1$ is this corpus's own check; the
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/dbf791ccb6137ed409b0f8c608d397acb141921b/FormalConjectures/ErdosProblems/816.lean),
 added on 2026-09-20, notes that at $n=1$ the graph is a triangle with no path
 of length $3$; and the docstring of Boris Alexeev's [Lean
@@ -59,33 +59,33 @@ development](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4
 (commit of 15 September 2026) names $K_3$ as a counterexample at $n=1$. The
 page's standing judges the modified Statement.
 
-**Formulation.** The site's wording (the page carries no last-edited date). For
-$n\ge2$ the question is the extremal problem of Erdős and Hajnal ([Er91], as
-[ChMa25] and the site attribute it): $K_{n,n+1}$ has $n^2+n$ edges and no two
-equal-degree vertices joined by a path of length $3$, and the question is
-whether one more edge forces such a pair. [ChMa25] name the extremal function
-$p_3(m)$, the largest number of edges of an $m$-vertex graph with no two
-equal-degree vertices joined by a path of length $3$; the "at least" form of the
-question asks whether $p_3(2n+1)=n^2+n$. The property "two equal-degree vertices
-joined by a path of length $3$" is not monotone in the edge set (adding edges
-changes degrees), so the statement for at least $n^2+n+1$ edges, a weaker
-hypothesis, is stronger than the statement for exactly $n^2+n+1$ edges
-([ChMa25], p. 2), and the sources prove the stronger statement. A reading not
-adopted: under the reading of a path of length $3$ as a path with three vertices
-and two edges, the statement holds at $n=1$ ($K_3$) and at $n=2$ (in each graph
-of the Current assessment the named pair has a common neighbor), but that
-reading contradicts the site's remark that $K_{n,n+1}$ shows $n^2+n$ edges do
-not suffice, since two same-side vertices of $K_{n,n+1}$ are joined by a
-two-edge path; so it is not the site's.
+**Formulation.** The erdosproblems.com wording (the page carries no last-edited
+date). For $n\ge2$ the question is the extremal problem of Erdős and Hajnal
+([Er91], as [ChMa25] and erdosproblems.com attribute it): $K_{n,n+1}$ has
+$n^2+n$ edges and no two equal-degree vertices joined by a path of length $3$,
+and the question is whether one more edge forces such a pair. [ChMa25] name the
+extremal function $p_3(m)$, the largest number of edges of an $m$-vertex graph
+with no two equal-degree vertices joined by a path of length $3$; the "at least"
+form of the question asks whether $p_3(2n+1)=n^2+n$. The property "two
+equal-degree vertices joined by a path of length $3$" is not monotone in the
+edge set (adding edges changes degrees), so the statement for at least $n^2+n+1$
+edges, a weaker hypothesis, is stronger than the statement for exactly $n^2+n+1$
+edges ([ChMa25], p. 2), and the sources prove the stronger statement. A reading
+not adopted: under the reading of a path of length $3$ as a path with three
+vertices and two edges, the statement holds at $n=1$ ($K_3$) and at $n=2$ (in
+each graph of the Current assessment the named pair has a common neighbor), but
+that reading contradicts the erdosproblems.com remark that $K_{n,n+1}$ shows
+$n^2+n$ edges do not suffice, since two same-side vertices of $K_{n,n+1}$ are
+joined by a two-edge path; so it is not erdosproblems.com's.
 
-**Status.** PROVED. This is the site's label, and it rests on the commentary's
-credit to [ChMa25], whose theorem needs $n\ge600$. The derived standing is
-claimed, proved, because the range $3\le n\le599$ rests on [LiZe25] alone. The
-modified Statement is proved for $n\ge600$ by Theorem 2 of [ChMa25] (J. Combin.
-Theory Ser. B 179 (2026), 1--18; refereed; cited from arXiv v1). The theorem
-proves it in a stronger form: $K_{n,n+1}$ is the only graph with $2n+1$ vertices
-and at least $n^2+n$ edges without such a pair. It is recorded as an accepted
-partial claim on
+**Status.** PROVED. This is the erdosproblems.com label, and it rests on the
+commentary's credit to [ChMa25], whose theorem needs $n\ge600$. The derived
+standing is claimed, proved, because the range $3\le n\le599$ rests on [LiZe25]
+alone. The modified Statement is proved for $n\ge600$ by Theorem 2 of [ChMa25]
+(J. Combin. Theory Ser. B 179 (2026), 1--18; refereed; cited from arXiv v1). The
+theorem proves it in a stronger form: $K_{n,n+1}$ is the only graph with $2n+1$
+vertices and at least $n^2+n$ edges without such a pair. It is recorded as an
+accepted partial claim on
 [[problems/extremal_graph_theory/E0816/claims/2025_03_25_chen_ma|Chen and Ma's claim page]].
 The preprint [LiZe25] (arXiv:2505.00523v2, August 2025) states the same theorem
 for every $n\ge2$ (its Theorem 1.3). That is the whole modified Statement, and
@@ -93,14 +93,15 @@ the preprint presents it as resolving the question completely. No journal record
 and no independent review of it was found on 2026-09-18, and its proof (pp.
 2--14) is unread. It is recorded as the pending full claim on
 [[problems/extremal_graph_theory/E0816/claims/2025_05_01_liu_zeng|Liu and Zeng's claim page]].
-The case $n=2$ is also checked by hand below. The site's wording, which also
-admits $n=1$, fails there (see Notes).
+The case $n=2$ is also checked by hand below. The erdosproblems.com wording,
+which also admits $n=1$, fails there (see Notes).
 
 **Source.** [erdosproblems.com/816](https://www.erdosproblems.com/816),
 accessed 2026-09-18: the problem page (PROVED, with the
-site's note that it is solved in the affirmative; no last-edited date; source
-keys [ChMa25] and [Er91]; "Formalised statement? No"), its empty discussion
-thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
+erdosproblems.com note that it is solved in the affirmative; no last-edited
+date; source keys [ChMa25] and [Er91]; "Formalised statement? No"), its empty
+discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
+Problem
 #816, https://www.erdosproblems.com/816, accessed 2026-09-18.
 
 **References.**
@@ -114,13 +115,13 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [ChMa25] Chen, K. and Ma, J., A problem of Erdős and Hajnal on paths with
   equal-degree endpoints. J. Combin. Theory Ser. B 179 (2026), 1--18,
   doi:10.1016/j.jctb.2026.01.006 (issued July 2026; Crossref record of
-  2026-09-18; the site's reference text gives "arXiv:2503.19569 (2025)");
-  arXiv:2503.19569 (v1, 25 March 2025, 15 pp.; the only arXiv
-  version, with no journal reference in the arXiv record). Problem 1 and the
-  attribution, p. 1; Theorem 2, the non-monotonicity remark and Theorem 3,
-  p. 2; the proof of Theorem 2, pp. 2--11; the remark on the constant $600$,
-  p. 11; Section 4 with $p_\ell(n)$, Theorems 12--13, Conjecture 14 and
-  Problem 15, pp. 13--15. Library home:
+  2026-09-18; the erdosproblems.com reference text gives "arXiv:2503.19569
+  (2025)"); arXiv:2503.19569 (v1, 25 March 2025, 15 pp.; the only arXiv version,
+  with no journal reference in the arXiv record). Problem 1 and the attribution,
+  p. 1; Theorem 2, the non-monotonicity remark and Theorem 3, p. 2; the proof of
+  Theorem 2, pp. 2--11; the remark on the constant $600$, p. 11; Section 4 with
+  $p_\ell(n)$, Theorems 12--13, Conjecture 14 and Problem 15, pp. 13--15.
+  Library home:
   [[../library/extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/_index|chen_2025_problem_erdos_hajnal_paths_equal_degree]];
   paged at
   [[../library/extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/theorem_2|theorem_2]].
@@ -130,7 +131,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   with no journal record found (Crossref, Semantic Scholar, 2026-09-18); v2
   on its card
   [[../library/extremal_graph_theory/liu_2025_complement_erdos_hajnal_problem_paths_equal_degree/_index|liu_2025_complement_erdos_hajnal_problem_paths_equal_degree]];
-  not cited by the site.
+  not cited by erdosproblems.com.
 - [LiZe26] Liu, Z. and Zeng, Q., Paths of length five with equal-degree
   endpoints. arXiv:2604.11664 (v1, 13 April 2026); abstract only.
   [ZWL26] Zhao, X., Wang, Y. and Lu, M., A generalization of Erdős--Hajnal
@@ -145,9 +146,9 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 
 **Formalization.** The
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/dbf791ccb6137ed409b0f8c608d397acb141921b/FormalConjectures/ErdosProblems/816.lean),
-added on 2026-09-20 (no file existed on 2026-09-18, when the site's indicator
-read "Formalised statement? No"), states the problem as `erdos_816` for every
-$n\ge2$ with exactly $n^2+n+1$ edges, the modified Statement, tagged
+added on 2026-09-20 (no file existed on 2026-09-18, when the erdosproblems.com
+indicator read "Formalised statement? No"), states the problem as `erdos_816`
+for every $n\ge2$ with exactly $n^2+n+1$ edges, the modified Statement, tagged
 `research solved` with answer true, and notes that at $n=1$ the graph is a
 triangle, which contains no path of length $3$; two variants state Theorem 2 of
 [ChMa25] for $n\ge600$ and the edge count and extremality of $K_{n,n+1}$. It
@@ -166,24 +167,25 @@ updated on 31 August 2025, and as formalized, an entry last updated on
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-PROVED; no last-edited date; source keys [ChMa25], [Er91]. The commentary
-attributes the problem to Erdős and Hajnal, notes that $K_{n,n+1}$ shows the
-edge count $n^2+n$ does not suffice, and credits [ChMa25] with the proof, in the
-stronger form that for $n\ge600$ every graph with $2n+1$ vertices and at least
-$n^2+n$ edges other than $K_{n,n+1}$ contains such a pair. The discussion thread
-and the proof-claim tab are empty. The community database lists the problem as
-proved and formalized (see Formalization). [ChMa25] state Erdős's question
-(p. 1) as "Problem 1 (Erdős-Hajnal, [4]). Is it true that every $(2n+1)$-vertex
-graph with $n^2+n+1$ edges contains two vertices of the same degree that are
-joined by a path of length three?", the site's question in other words.
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; PROVED; no last-edited date; source keys [ChMa25], [Er91]. The
+commentary attributes the problem to Erdős and Hajnal, notes that $K_{n,n+1}$
+shows the edge count $n^2+n$ does not suffice, and credits [ChMa25] with the
+proof, in the stronger form that for $n\ge600$ every graph with $2n+1$ vertices
+and at least $n^2+n$ edges other than $K_{n,n+1}$ contains such a pair. The
+discussion thread and the proof-claim tab are empty. The community database
+lists the problem as proved and formalized (see Formalization). [ChMa25] state
+Erdős's question (p. 1) as "Problem 1 (Erdős-Hajnal, [4]). Is it true that every
+$(2n+1)$-vertex graph with $n^2+n+1$ edges contains two vertices of the same
+degree that are joined by a path of length three?", the erdosproblems.com
+question in other words.
 
 **The small cases (authored checks).** The reading: a path of length $3$ has
 three edges, as fixed in the Notes.
 
 - $n=1$. Three vertices and three edges: $K_3$, whose vertices all have
   degree $2$. A path of length $3$ has four distinct vertices, so $K_3$
-  contains none, and the site's wording fails; the modified Statement
+  contains none, and the erdosproblems.com wording fails; the modified Statement
   excludes this case. Under the two-edge reading the statement holds, since
   any two vertices of $K_3$ are joined through the third.
 - $n=2$. Five vertices and seven edges; the complement has three edges, so up to
@@ -237,10 +239,10 @@ it and Chen and Ma's result "resolve the question of Erdős and Hajnal
 completely". The paper says its method "is different and useful for graphs with
 large equal degrees" (p. 1) and gives the even-order analog for $n\ge3$ (Theorem
 1.5, p. 2). It is a preprint: no journal record was found in the Crossref and
-Semantic Scholar queries of 2026-09-18, it is not cited by the site, and its
-proof (Sections 2--3 and the appendix, pp. 2--14) was not read; it is the
-pending full claim, with that qualification. Independently of it, the case $n=2$
-is checked above; the cases $3\le n\le599$ rest on the preprint alone.
+Semantic Scholar queries of 2026-09-18, it is not cited by erdosproblems.com,
+and its proof (Sections 2--3 and the appendix, pp. 2--14) was not read; it is
+the pending full claim, with that qualification. Independently of it, the case
+$n=2$ is checked above; the cases $3\le n\le599$ rest on the preprint alone.
 
 **Extensions, as leads (abstracts only; not the statement).**
 [ChMa25] define $p_\ell(m)$ for every path length $\ell$ (Definition 1,
@@ -261,7 +263,7 @@ $n=1$; the formal-conjectures statement file (added 2026-09-20) and the
 Lean development described under Formalization (commit of 15 September 2026)
 record the $n=1$ exception and state the problem for $n\ge2$.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing (no file 816 on 2026-09-18); the
   community database record (2026-09-18).
 - arXiv API: the record of 2503.19569 (v1 only, no journal reference); the
@@ -282,12 +284,12 @@ journal version of [ChMa25].
 **Remaining gaps.** (1) The modified Statement rests on the corpus's own
 exclusion of $n=1$ (see Notes); a text of Erdős's that states the range would
 replace it. (2) [Er91] was not read; Erdős's own wording and the attribution to
-Hajnal rest on [ChMa25], [LiZe25] and the site. (3) The range $3\le n\le599$
-rests on an unrefereed preprint whose proof was not read; reopening condition
-for the qualification: a refereed version or an independent check of [LiZe25],
-or a read of the published [ChMa25] if its constant is lower. (4) Proof coverage
-is statements and structure only. (5) The journal version of [ChMa25] was not
-compared with arXiv v1.
+Hajnal rest on [ChMa25], [LiZe25] and erdosproblems.com. (3) The range
+$3\le n\le599$ rests on an unrefereed preprint whose proof was not read;
+reopening condition for the qualification: a refereed version or an independent
+check of [LiZe25], or a read of the published [ChMa25] if its constant is lower.
+(4) Proof coverage is statements and structure only. (5) The journal version of
+[ChMa25] was not compared with arXiv v1.
 
 ## Known results
 
@@ -298,8 +300,8 @@ compared with arXiv v1.
   Statement for $n\ge600$.
 - [LiZe25], Theorem 1.3 (preprint, 2025): the same for every $n\ge2$, the whole
   modified Statement; a pending claim.
-- The checks above: the site's wording fails at $n=1$; the modified Statement
-  holds at $n=2$ (four graphs).
+- The checks above: the erdosproblems.com wording fails at $n=1$; the modified
+  Statement holds at $n=2$ (four graphs).
 - Chen--Ma, Theorem 3, Theorems 12--13, Conjecture 14, Problem 15, and the
   2026 preprints on other path lengths: variants, not the statement.
 <!-- BEGIN problem library links -->

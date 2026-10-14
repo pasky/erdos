@@ -74,10 +74,10 @@ Pósa's theorem (the paper's [3]) and Dirac's theorem.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the site's key
-  Er62e. The theorem is the Hamiltonian case ($k=0$ in the site's indexing)
-  in a minimum-degree form, and Ore's theorem, the site's "$f(0)=1$", is
-  quoted on p. 227 with its sharpness; the paper does not state the
-  $C_{n-k}$ result for $k\ge1$ that the site's commentary derives from it
-  (the derivation in the site's thread is recorded on the problem page with
-  its provenance).
+- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the
+  erdosproblems.com key Er62e. The theorem is the Hamiltonian case ($k=0$ in the
+  erdosproblems.com indexing) in a minimum-degree form, and Ore's theorem,
+  erdosproblems.com's "$f(0)=1$", is quoted on p. 227 with its sharpness; the
+  paper does not state the $C_{n-k}$ result for $k\ge1$ that the
+  erdosproblems.com commentary derives from it (the derivation in the
+  erdosproblems.com thread is recorded on the problem page with its provenance).

@@ -4,8 +4,8 @@ title: The triangle-free case of part (ii)
 desc: |
   Theorem 2 of Erdős, Pach, Pollack and Tuza (JCTB 1989) bounds the diameter of
   a connected triangle-free graph by $2n/\delta+O(1)$. This is the instance
-  $r=1$ of part (ii) in the site's wording, and it is refereed, so it is
-  accepted as a partial claim.
+  $r=1$ of part (ii) in the erdosproblems.com wording, and it is refereed, so it
+  is accepted as a partial claim.
 authors:
 - Paul Erdős
 - János Pach
@@ -37,18 +37,18 @@ $4\lceil(n-\delta-1)/(2\delta)\rceil$, that is $2n/\delta+O(1)$. This is
 and minimum degree*, J. Combin. Theory Ser. B **47** (1989), no. 1, 73--79,
 the paper whose Conjecture (pp. 78--79) is
 [[problems/extremal_graph_theory/E0612/_index|Problem 612]]. At $r=1$ part
-(ii) of the site's wording asks for
+(ii) of the erdosproblems.com wording asks for
 $D\le\frac{3r-1}{r}\frac nd+O(1)=\frac{2n}d+O(1)$ for connected $K_3$-free
 graphs with $3r-1=2$ dividing $d$; Theorem 2 gives this for every
 $\delta\ge2$, without the parity condition, and the paper shows the bound
 tight apart from the additive constant.
 
-**Covers.** The instance $r=1$ of part (ii), which the site's wording
-includes because it omits the paper's hypothesis $r,\delta>1$; the site's
-commentary records it as the case $2r+1=3$. The paper's own Conjecture
-excludes $r=1$, so under the paper's wording this is the triangle-free
-analogue and not a case of the conjecture. Outside this page: part (i) for
-every $r\ge2$, refuted on the page of
+**Covers.** The instance $r=1$ of part (ii), which the erdosproblems.com wording
+includes because it omits the paper's hypothesis $r,\delta>1$; the
+erdosproblems.com commentary records it as the case $2r+1=3$. The paper's own
+Conjecture excludes $r=1$, so under the paper's wording this is the
+triangle-free analogue and not a case of the conjecture. Outside this page: part
+(i) for every $r\ge2$, refuted on the page of
 [[problems/extremal_graph_theory/E0612/claims/2020_09_05_czabarka_singgih_szekely|Czabarka, Singgih and Székely]],
 and part (ii) for every $r\ge2$, the subquestion the problem page describes.
 
@@ -56,9 +56,10 @@ and part (ii) for every $r\ge2$, the subquestion the problem page describes.
 
 **Acceptance.** Refereed: J. Combin. Theory Ser. B 47 (1989), no. 1, 73--79. The
 issue is headed "Vol. 47, No. 1, August 1989", and this page's date uses the
-issue's nominal first day. The site's commentary credits the authors with the
-case $2r+1=3$, but the site labeled the problem OPEN. That is commentary, not
-acceptance, so `reviewed` is not listed. The offprint is paged on the
+issue's nominal first day. The erdosproblems.com commentary credits the authors
+with the case $2r+1=3$, but Bloom's catalog labeled the problem OPEN. That is
+commentary, not acceptance, so `reviewed` is not listed. The offprint is paged
+on the
 [[../library/extremal_graph_theory/erdos_1989_radius/_index|source card]], where
 the statement is paged at claims-checked depth. The proof (pp. 76--77) is read
 for structure only. The acceptance recorded here rests on the publication, not

@@ -51,7 +51,7 @@ these pairs $(r,H)$; the paper notes (p. 480) that the exponent is tight
 for every $r\ge2$ by norm graphs and that the assertion can also be
 deduced from Füredi's result of 1991 (its [14]), which the OpenAI report's
 Chapter 10 (p. 237) also credits with this case; Füredi's paper is not held,
-and the site's commentary credits the case to this paper.
+and the erdosproblems.com commentary credits the case to this paper.
 
 **Covers.** Every bipartite $H$ whose vertices on one side all have degree
 at most $r$, for every $r\ge1$. It says nothing about the other
@@ -69,9 +69,9 @@ Theorem 2.2 and Lemma 2.1 (pp. 479--480).
 **Acceptance.** Refereed: Combinatorics, Probability and Computing. The Crossref
 record gives volume 12, issue 5--6, pp. 477--494, with the issue dated November
 2003 and online publication on 3 December 2003. This page's date uses the
-issue's nominal first day. The site's curator names the result in the problem's
-commentary. The site labeled the problem DISPROVED (LEAN) for OpenAI's
-counterexample, so the commentary is not listed as review of this case. The
-corollary and the remark after it (p. 480) were checked clause by clause, and
-Theorem 2.2 was checked as a statement only. No proof was checked, so nothing is
-independently reviewed in this repository.
+issue's nominal first day. The erdosproblems.com curator names the result in the
+problem's commentary. Bloom's catalog labeled the problem DISPROVED (LEAN) for
+OpenAI's counterexample, so the commentary is not listed as review of this case.
+The corollary and the remark after it (p. 480) were checked clause by clause,
+and Theorem 2.2 was checked as a statement only. No proof was checked, so
+nothing is independently reviewed in this repository.

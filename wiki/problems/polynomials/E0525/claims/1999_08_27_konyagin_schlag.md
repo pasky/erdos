@@ -44,11 +44,12 @@ the exponent $-1/2$ in the second question of [[problems/polynomials/E0525/_inde
 abstract states: the power $n^{-1/2}$ cannot be improved. The order of
 magnitude itself, an upper bound $O(n^{-1/2})$ for typical $f$, follows only
 from Cook and Nguyen's limit law. The paper is not held in the library; the
-statement is recorded as the publisher's abstract, the site's commentary and
-the introduction of Cook and Nguyen's paper ([[../library/polynomials/cook_2021_universality_minimum_modulus_random_trigonometric_polynomials/_index|card]]) state it. The paper was
-received by the journal on 1997-02-05 and in revised form on 1997-09-24 and
-was published electronically on 1999-08-27, as the publisher's record
-states; the page is dated by the publication date.
+statement is recorded as the publisher's abstract, the erdosproblems.com
+commentary and the introduction of Cook and Nguyen's paper
+([[../library/polynomials/cook_2021_universality_minimum_modulus_random_trigonometric_polynomials/_index|card]])
+state it. The paper was received by the journal on 1997-02-05 and in revised
+form on 1997-09-24 and was published electronically on 1999-08-27, as the
+publisher's record states; the page is dated by the publication date.
 
 **Covers.** The lower half of the second question: for every
 $\varepsilon>0$ the limiting proportion of degree-$n$ sign polynomials with
@@ -62,8 +63,8 @@ linked above.
 
 **Acceptance.** Refereed: the paper appeared in Transactions of the American
 Mathematical Society 351 (1999), no. 12, 4963–4980. Reviewed: in the problem's
-commentary (accessed 2026-10-07), the site's curator, Thomas F. Bloom, records
-that the bound shows Konyagin's upper bound to be essentially best possible.
-Cook and Nguyen's refereed paper of 2021 records the bound in its introduction.
-No formal proof of this bound on its own is held or audited in this repository,
-so no `formalized` evidence is listed.
+commentary (accessed 2026-10-07), the erdosproblems.com curator, Thomas F.
+Bloom, records that the bound shows Konyagin's upper bound to be essentially
+best possible. Cook and Nguyen's refereed paper of 2021 records the bound in its
+introduction. No formal proof of this bound on its own is held or audited in
+this repository, so no `formalized` evidence is listed.

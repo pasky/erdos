@@ -15,7 +15,7 @@ updated: 2026-10-08T14:47:40Z
 
 Notation (p. 115): for a bipartite graph $G$, $br_k(G)$ is the least $N$
 such that every edge-coloring of $K_{N,N}$ in $k$ colors has a
-monochromatic $G$; $r_k(G)$ (p. 114) is the same for $K_N$, the site's
+monochromatic $G$; $r_k(G)$ (p. 114) is the same for $K_N$, erdosproblems.com's
 $R_k(G)$.
 
 **Lemma 1** (p. 115). "Let $m\ge2$ be an integer. Then

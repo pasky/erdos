@@ -45,5 +45,5 @@ None (a question).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0793/_index|Problem 793]]: the problem is this
-  display with $F(n)$ for $\max k$; the site's key [Er69] for the problem
-  points here.
+  display with $F(n)$ for $\max k$; the erdosproblems.com key [Er69] for the
+  problem points here.

@@ -83,6 +83,6 @@ the existence of the limit $\alpha$.
   Proposition 2 of the same paper. The paper's own note credits the first
   proof of $\alpha<2$ to Fomin, Kratsch, Todinca and Villanger and the
   sharper upper bound $\frac{1+\sqrt5}2$ to Fomin and Villanger. The
-  external Lean file behind the site's "(Lean)" label names Bradač as its
-  informal author ("Informal authors: Domagoj Bradač"); what it states is
+  external Lean file behind erdosproblems.com's "(Lean)" label names Bradač as
+  its informal author ("Informal authors: Domagoj Bradač"); what it states is
   recorded on the problem page.

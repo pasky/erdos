@@ -55,5 +55,5 @@ $K_m$ with $m\le15$.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: the paper is a publication in Discrete Mathematics.
-The site's curator credits the result while labeling the problem FALSIFIABLE,
-which is commentary on an open problem and not reviewed evidence.
+The erdosproblems.com curator credits the result while labeling the problem
+FALSIFIABLE, which is commentary on an open problem and not reviewed evidence.

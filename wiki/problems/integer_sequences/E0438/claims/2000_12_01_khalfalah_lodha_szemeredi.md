@@ -36,8 +36,8 @@ updated: 2026-10-08T00:44:25Z
 **Claim.** The largest $A\subseteq\{1,\ldots,N\}$ with no square in $A+A$ has
 $(11/32+o(1))N$ elements: the upper bound is Theorem 3 of Khalfalah, Lodha
 and Szemerédi, and the lower bound is Massias's construction. This answers
-the problem's question, up to the $o(1)$, and the site's label SOLVED covers
-this answer.
+the problem's question, up to the $o(1)$, and the erdosproblems.com label SOLVED
+covers this answer.
 
 **The result.** A. Khalfalah, S. Lodha and E. Szemerédi, *Tight bound for the
 density of sequence of integers the sum of no two of which is a perfect
@@ -79,14 +79,15 @@ doubles is a square: $2x\equiv2\pmod8$ for $x\equiv1\pmod4$, and
 $2x\equiv28,52,60\pmod{64}$ for the other three classes, none a square
 residue (checked on the library card). The exact maximum for each $N$ is not
 determined by the paper; the problem asks how large $A$ can be, and the
-asymptotic answer $(11/32+o(1))N$ is what the site records as the resolution.
+asymptotic answer $(11/32+o(1))N$ is what erdosproblems.com records as the
+resolution.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, is independent of
-the authors. Bloom labeled the problem SOLVED and credits the paper in the
-commentary (page last edited 7 April 2026; read from the cached snapshot of
-2026-09-05). The commentary names the Lagarias--Odlyzko--Shearer bounds and
-Massias's construction as the earlier steps. The discussion thread and the
-proof-claim tab are empty.
+**Acceptance.** Reviewed: Thomas Bloom, the erdosproblems.com curator, is
+independent of the authors. Bloom labeled the problem SOLVED and credits the
+paper in the commentary (page last edited 7 April 2026; read from the cached
+snapshot of 2026-09-05). The commentary names the Lagarias--Odlyzko--Shearer
+bounds and Massias's construction as the earlier steps. The discussion thread
+and the proof-claim tab are empty.
 
 Refereed: Discrete Mathematics is a refereed journal.
 

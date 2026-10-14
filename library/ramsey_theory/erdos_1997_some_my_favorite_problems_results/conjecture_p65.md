@@ -39,7 +39,7 @@ $$
 for any $\epsilon>0$ and $n>n_0(\epsilon)$. I offer \$500 for a proof or
 disproof of (5.3)."
 
-The first inequality is the statement of Problem 94, in the site's
+The first inequality is the statement of Problem 94, in the erdosproblems.com
 notation $f(u_i)=s_i$ and $\sum_if(u_i)^2\ll n^3$. It is reported as
 Fishburn's theorem without proof or reference; Fishburn's chapter
 "Distances in Convex Polygons" is in Volume II of the same work (contents,
@@ -67,7 +67,8 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/distance_problems/E0094/_index|Problem 94]]: the site's source for
-  the problem; the statement with the attribution of its proof to
-  Fishburn, in Erdős's words, and the two further conjectures (the regular
-  $n$-gon and (5.3)) that the site's statement does not carry.
+- [[../wiki/problems/distance_problems/E0094/_index|Problem 94]]: the
+  erdosproblems.com source for the problem; the statement with the attribution
+  of its proof to Fishburn, in Erdős's words, and the two further conjectures
+  (the regular $n$-gon and (5.3)) that the erdosproblems.com statement does not
+  carry.

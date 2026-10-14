@@ -123,8 +123,8 @@ of the cycle-complete paper.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]: part (i) at $m=2$ is the
-  printed proof of $r(C_4,K_n)\le(1+o(1))(n/\log n)^2$, the upper order the
-  site displays and attributes to Szemerédi, and pp. 51--52 confirm that
-  attribution while recording that the original proof was never published.
+  printed proof of $r(C_4,K_n)\le(1+o(1))(n/\log n)^2$, the upper order
+  erdosproblems.com displays and attributes to Szemerédi, and pp. 51--52 confirm
+  that attribution while recording that the original proof was never published.
   It saves $(\log n)^2$ and no fixed power of $n$, so it does not answer the
   problem's question.

@@ -40,7 +40,7 @@ $M(r)^\epsilon$)?
 **Formulation.** The statement asks three questions, the parts `path`,
 `length` and `growth` of this page. Erdős [Er61] (IV.6, p. 249) states
 the third as growth faster than a fixed function of $M(r)$, giving
-$M(r)^\epsilon$ as an example; the site's display prints "such that"
+$M(r)^\epsilon$ as an example; the erdosproblems.com display prints "such that"
 where such as is meant. The page reads the comparison function as fixed
 before the entire function is chosen, which is how both claimants read
 it: a function chosen after $f$ makes the question trivially yes, since
@@ -48,12 +48,12 @@ $\lvert f\rvert\to\infty$ along the path of the first question and any
 slower function of $M(r)$ then works. The standing targets this reading,
 with the power $M(r)^\epsilon$ as its special case.
 
-**Status.** The site labeled the problem OPEN (page last edited 18 January 2026)
-and credits Boas, unpublished, with the first question. The site has adopted
-none of the claims below. Accepted and pending claims together settle every
-part, so the derived standing is claimed. Its value is `answered` because the
-parts are answered in opposite directions. Three partial claims answer the three
-parts. The accepted claim
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 18
+January 2026) and credits Boas, unpublished, with the first question.
+erdosproblems.com has adopted none of the claims below. Accepted and pending
+claims together settle every part, so the derived standing is claimed. Its value
+is `answered` because the parts are answered in opposite directions. Three
+partial claims answer the three parts. The accepted claim
 [[problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman|Lewis, Rossi
 and Weitsman 1984]] answers the first and second questions yes, on its refereed
 publication, the second by a one-line deduction from its integral condition.
@@ -100,14 +100,14 @@ has not been built or audited in this repository.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04; page last edited 18
+**The question (erdosproblems.com formulation of 2026-09-04; page last edited 18
 January 2026).** For a transcendental entire function $f$ with maximum
 modulus $M(r)$: does a path to infinity exist on which
 $\lvert f(z)/z^n\rvert\to\infty$ for every $n$ (`path`); can the length
 of such a path be bounded in terms of $M(r)$ (`length`); and does a path
 exist on which $\lvert f\rvert$ grows faster than a fixed function of
 $M(r)$, such as $M(r)^\epsilon$ (`growth`)? The Formulation above fixes
-the reading of the third question. The label was OPEN; the site credits
+the reading of the third question. The label was OPEN; erdosproblems.com credits
 Boas, unpublished, with the first question, as [Er61] does, where Erdős
 says he conjectured it and Boas proved it without publishing; the
 statement was given the word transcendental after a thread comment of 17
@@ -126,9 +126,9 @@ subharmonic in the plane with $M(r,u)/\log r\to\infty$, a path to infinity on
 which $u(z)/\log\lvert z\rvert\to\infty$; so the first question was already
 answered in refereed print by Talpur's theorem with $u=\log\lvert f\rvert$, and
 the 1984 paper's addition is the integral condition on the same path. Talpur's
-paper has no claim page: the site does not credit it, and its theorem is the
-path clause of the accepted claim. Boas's proof has no manuscript and no page.
-The second question is answered yes by the same theorem of [LRW84]: since
+paper has no claim page: erdosproblems.com does not credit it, and its theorem
+is the path clause of the accepted claim. Boas's proof has no manuscript and no
+page. The second question is answered yes by the same theorem of [LRW84]: since
 $\lvert f\rvert\le M(R)$ on $\lvert z\rvert\le R$, the part of the path inside
 $\lvert z\rvert<R$ has length at most
 $M(R)^\epsilon\int e^{-\epsilon u}\lvert\mathrm{d}z\rvert=O(M(R)^\epsilon)$
@@ -146,27 +146,26 @@ its direct construction as a second proof; this is the pending claim
 [[problems/analysis/E0514/claims/2026_04_28_oriike|Oriike 2026]]. Chojecki's
 Theorem 2 refutes the power example $M(r)^\epsilon$ independently, from
 Langley's theorem [La22], but by its own Remark 7 not the fixed-function
-reading. Hayman's paper has no claim page: the site does not credit it, its
-theorem refutes the power example directly only as the two notes read it, and
-the deduction of the fixed-function answer is Oriike's.
+reading. Hayman's paper has no claim page: erdosproblems.com does not credit it,
+its theorem refutes the power example directly only as the two notes read it,
+and the deduction of the fixed-function answer is Oriike's.
 
 **Other inputs.** A thread post of 7 August 2026 by Eremenko names two
 papers, Gol'dberg and Eremenko [GoEr80] and Eremenko [Er80], as
 essentially settling the length and growth questions for entire functions
-of finite order; the post states no theorem, the site does not credit the
-papers, and they are recorded here without a claim page. The joint paper
-of Chojecki and Oriike announced in the thread on 5 June 2026 is not
-recorded as a preprint. Sothanaphan's thread checks of the two notes (20
-April, 29 April and 10 May 2026), and Sothanaphan's streamlined derivation of
-Chojecki's result produced with GPT-5.5 Thinking, are recorded on the two
-claim pages as thread posts, not as review evidence. The proof-claims tab
-is empty. No proof is reconstructed in this repository and no independent
-review is recorded.
+of finite order; the post states no theorem, erdosproblems.com does not credit
+the papers, and they are recorded here without a claim page. The joint paper of
+Chojecki and Oriike announced in the thread on 5 June 2026 is not recorded as a
+preprint. Sothanaphan's thread checks of the two notes (20 April, 29 April and
+10 May 2026), and Sothanaphan's streamlined derivation of Chojecki's result
+produced with GPT-5.5 Thinking, are recorded on the two claim pages as thread
+posts, not as review evidence. The proof-claims tab is empty. No proof is
+reconstructed in this repository and no independent review is recorded.
 
-**Search scope.** The site's problem page, its discussion thread and the
-community database (2026-10-07), and its proof-claims tab; the two notes
-and Oriike's Lean file at the revisions the claim pages link; arXiv for
-the announced joint paper (2026-10-07, none found).
+**Search scope.** The erdosproblems.com problem page, its discussion thread and
+the community database (2026-10-07), and its proof-claims tab; the two notes and
+Oriike's Lean file at the revisions the claim pages link; arXiv for the
+announced joint paper (2026-10-07, none found).
 
 ## Known results
 

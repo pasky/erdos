@@ -33,7 +33,7 @@ $\chi'_s(G)\le(2-\varepsilon)\Delta(G)$ [sic] for all $G$." The printed
 $\Delta(G)$ in that sentence is a slip for $\Delta(G)^2$, as Theorem 1.5 on
 the same page states.
 
-Here $\chi'_s(G)=\chi(L(G)^2)$ (p. 3) is the site's $\mathrm{sq}(G)$.
+Here $\chi'_s(G)=\chi(L(G)^2)$ (p. 3) is erdosproblems.com's $\mathrm{sq}(G)$.
 
 **Source.** E. Hurley, R. de Joannis de Verclos and R. J. Kang, *An improved
 procedure for colouring graphs of bounded local density*, Adv. Comb. 2022:7,
@@ -57,5 +57,5 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the exact question
-  in a refereed published text, with the trivial bound the site records and
-  the even-degree sharpness example.
+  in a refereed published text, with the trivial bound erdosproblems.com records
+  and the even-degree sharpness example.

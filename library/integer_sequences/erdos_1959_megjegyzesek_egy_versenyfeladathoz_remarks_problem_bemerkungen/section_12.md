@@ -60,5 +60,5 @@ Section 11's selection; elementary.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0709/_index|Problem 709]]: the upper bound
-  $f(n)\ll n^{1/2}$ of the site's commentary, with the authors' own remark
-  that it looks crude.
+  $f(n)\ll n^{1/2}$ of the erdosproblems.com commentary, with the authors' own
+  remark that it looks crude.

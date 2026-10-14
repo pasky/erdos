@@ -43,22 +43,22 @@ less than $k$ are equidecomposable by translations is Laczkovich's later
 paper, *Decomposition of sets with small boundary*, J. London Math. Soc. (2)
 46 (1992), 58--64, as Marks and Unger cite it; the 1990 paper settles the
 disk and the square. No file of either paper is held; the statement follows
-the site's page and the account in A. Marks and S. Unger, *Borel circle
-squaring*, Ann. of Math. (2) 186 (2017), no. 2, 581--605 (arXiv:1612.05833),
-whose abstract describes their result as a Borel version of Laczkovich's
-theorem.
+the erdosproblems.com page and the account in A. Marks and S. Unger, *Borel
+circle squaring*, Ann. of Math. (2) 186 (2017), no. 2, 581--605
+(arXiv:1612.05833), whose abstract describes their result as a Borel version of
+Laczkovich's theorem.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The result is refereed. It appeared in the Journal für die reine
-und angewandte Mathematik. The site's curator, Thomas Bloom, marked the problem
-proved and credits Laczkovich, recording that the decomposition uses
-translations only. The site's page, accessed 2026-10-07, printed no last-edited
-date.
+und angewandte Mathematik. The erdosproblems.com curator, Thomas Bloom, marked
+the problem proved and credits Laczkovich, recording that the decomposition uses
+translations only. The erdosproblems.com page, accessed 2026-10-07, printed no
+last-edited date.
 
 Two later theorems strengthen the result for the same class of sets without
 changing the answer. Grabowski, Máthé and Pikhurko (Ann. of Math. (2) 185
 (2017), no. 2, 671--710; arXiv:1501.06122) make the pieces Lebesgue and Baire
 measurable. Marks and Unger make them Borel, answering a question of Wagon. The
-site's thread records Laczkovich's general theorem in a comment, citing Marks
-and Unger. Neither later theorem has a page here.
+erdosproblems.com thread records Laczkovich's general theorem in a comment,
+citing Marks and Unger. Neither later theorem has a page here.

@@ -24,19 +24,19 @@ updated: 2026-10-08T01:29:59Z
 there exist $r+1$ vertices with at least one colour missing on the edges of the
 induced $K_{r+1}$.
 
-**Status.** Falsifiable, the site's label. A counterexample would be a finite
-coloring for one value of $r$ and could be checked by a finite computation,
-while a proof for every $r\ge3$ could not. The problem is open, and partial
-claims derive nothing for the standing. The cases $r=3,4$ are refereed. They are
-due to Erdős and Gyárfás 1999, on the accepted partial claim page
+**Status.** Falsifiable, the erdosproblems.com label. A counterexample would be
+a finite coloring for one value of $r$ and could be checked by a finite
+computation, while a proof for every $r\ge3$ could not. The problem is open, and
+partial claims derive nothing for the standing. The cases $r=3,4$ are refereed.
+They are due to Erdős and Gyárfás 1999, on the accepted partial claim page
 [[problems/extremal_graph_theory/E0617/claims/1999_04_01_erdos_gyarfas|1999_04_01_erdos_gyarfas]],
 and, for $r=3$, earlier to Chung and Liu 1978
 ([[problems/extremal_graph_theory/E0617/claims/1978_01_01_chung_liu|1978_01_01_chung_liu]]).
 The fixed cases $r=5,\ldots,11$ are claimed in 2026 preprints, write-ups and
 Lean developments recorded on the claim pages below. None of these is refereed,
 and none has a review that counts as acceptance. No proof for all $r\ge3$ and no
-counterexample is known (site accessed 2026-09-04; discussion thread accessed
-2026-10-07; proof-claim thread with its comments).
+counterexample is known (erdosproblems.com accessed 2026-09-04; discussion
+thread accessed 2026-10-07; proof-claim thread with its comments).
 
 **Source.** [erdosproblems.com/617](https://www.erdosproblems.com/617), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #617,
@@ -54,15 +54,15 @@ https://www.erdosproblems.com/617.
 
 ## Current assessment
 
-The site's falsifiable label is explained under **Status.** above.
+erdosproblems.com's falsifiable label is explained under **Status.** above.
 
 The 1999 Erdős--Gyárfás paper [ErGy99] (refereed) proves the conjecture for
 $r=3$ (Lemma 1, pp. 84--85: every three-coloring of $K_{10}$) and $r=4$
 (Lemma 2, pp. 85--86: every four-coloring of $K_{17}$), the accepted partial
 claim of
 [[problems/extremal_graph_theory/E0617/claims/1999_04_01_erdos_gyarfas|1999_04_01_erdos_gyarfas]].
-A comment on the site's discussion thread (15 July 2026) reports that Chung
-and Liu, *A generalization of Ramsey theory for graphs*, Discrete Math. 21
+A comment on the erdosproblems.com discussion thread (15 July 2026) reports that
+Chung and Liu, *A generalization of Ramsey theory for graphs*, Discrete Math. 21
 (1978), no. 2, 117--127, doi:10.1016/0012-365X(78)90084-5, proved the $r=3$
 case twenty-one years earlier as $R^3_2(K_4,K_4,K_4)=10$, and points to
 Harborth and Möller (1999) and Munemasa and Shinohara (arXiv:1406.2050) on
@@ -82,7 +82,7 @@ its own audit or replay report; none is independently checked in this corpus:
   a Lean and LRAT formalization of Sneiderman's argument for the exact fixed
   statement with its own axiom audit and a passing test suite, is the
   formalization link on that claim page. Three further independent proofs
-  of the same case were posted to the site in July 2026 and have claim
+  of the same case were posted to erdosproblems.com in July 2026 and have claim
   pages:
   [[problems/extremal_graph_theory/E0617/claims/2026_07_21_silverstein|Silverstein's]]
   one-color counting argument with twelve DRAT-certified formulas,
@@ -129,17 +129,17 @@ preprints, write-ups and artifacts, each recorded as a claimed partial result
 on its claim page, with AI-assisted forum reviews and reproductions that
 limit or disclaim their verdicts and no review that counts as acceptance.
 These parameter-specific results do not settle the quantified assertion for
-all $r\geq3$, so the full problem is open. Search scope: the site record
-(accessed 2026-09-04), its proof-claim thread with the comments on the claims,
-its discussion thread (accessed 2026-10-07), and the dated sources listed
-above; arXiv, citation indexes, author pages and X were not searched, so the
-date is not evidence that no further result exists. Another isolated positive
-case would extend the table but would not supply a route to the full
+all $r\geq3$, so the full problem is open. Search scope: the erdosproblems.com
+record (accessed 2026-09-04), its proof-claim thread with the comments on the
+claims, its discussion thread (accessed 2026-10-07), and the dated sources
+listed above; arXiv, citation indexes, author pages and X were not searched, so
+the date is not evidence that no further result exists. Another isolated
+positive case would extend the table but would not supply a route to the full
 problem; a uniform proof for infinitely many $r$ would be meaningful partial
 progress, while the target remains a proof for every $r$ or a rigorously
 verified counterexample.
 
-**Proof claims on the site.** The site's proof-claim
+**Proof claims on erdosproblems.com.** The erdosproblems.com proof-claim
 tab carried seven claims, all partial and all for fixed values of $r$, posted
 between 18 and 31 July 2026: Sneiderman's four preprints for $r=5$, $r=6$,
 $r=7,8$ and $r=9$ (the library sources above), Silverstein's and Rose's
@@ -147,17 +147,17 @@ computer-assisted proofs of $r=5$, and Winter's Lean development for $r=5$.
 Each has a claim page named above with its links, the claimant's own account
 of its checks and the standing claimed; Kara's formalization, not on the tab,
 is a link on Sneiderman's five-color page, and Terpstra's artifact, not on
-the tab either, has a claim page. The site's label was FALSIFIABLE (page last
-edited 1 April 2026). The comments on the claims (23 July to 1 August 2026)
-are forum users' AI-assisted reviews, reproductions and announcements, and the
-claimants' replies. None is by a named human referee, and the reviews limit
-or disclaim their verdicts; two comments announce self-declared Lean
-formalizations of Sneiderman's proofs (Kara's of $r=5$, Winter's of $r=6$),
-and one announces an unposted independent proof of $r=5$. They are recorded
-on the claim pages and give no acceptance evidence. The discussion thread,
-accessed 2026-10-07, held two comments: a typo report and the 15 July 2026
-priority report on Chung and Liu recorded above. The page's standing is derived
-from the claim pages, on which every claim is partial.
+the tab either, has a claim page. The erdosproblems.com label was FALSIFIABLE
+(page last edited 1 April 2026). The comments on the claims (23 July to 1
+August 2026) are forum users' AI-assisted reviews, reproductions and
+announcements, and the claimants' replies. None is by a named human referee, and
+the reviews limit or disclaim their verdicts; two comments announce
+self-declared Lean formalizations of Sneiderman's proofs (Kara's of $r=5$,
+Winter's of $r=6$), and one announces an unposted independent proof of $r=5$.
+They are recorded on the claim pages and give no acceptance evidence. The
+discussion thread, accessed 2026-10-07, held two comments: a typo report and the
+15 July 2026 priority report on Chung and Liu recorded above. The page's
+standing is derived from the claim pages, on which every claim is partial.
 
 <!-- BEGIN problem library links -->
 

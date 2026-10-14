@@ -5,7 +5,7 @@ desc: |
   Balandraud (Israel J. Math., 2012) proves Selfridge's conjecture: a largest
   zero-sum free subset of $\mathbb Z/p\mathbb Z$ has $k$ elements, where $k$ is
   the greatest integer with $k(k+1)/2<p$. The result is refereed and credited by
-  the site.
+  erdosproblems.com.
 authors:
 - Éric Balandraud
 status: accepted
@@ -48,9 +48,10 @@ The theorem is deduced from the paper's addition theorem for subsums
 **Covers.** Prime $N$, with the exact threshold of Theorem 9. Composite $N$
 is not covered.
 
-**Acceptance.** Refereed: the journal publication. Reviewed: the site's curator,
-Thomas Bloom, who is independent of the author, labeled the problem PROVED
-(LEAN). The commentary credits this paper with Selfridge's conjecture for prime
-$N$. The erratum has not been compared with the arXiv version.
+**Acceptance.** Refereed: the journal publication. Reviewed: the
+erdosproblems.com curator, Thomas Bloom, who is independent of the author,
+labeled the problem PROVED (LEAN). The commentary credits this paper with
+Selfridge's conjecture for prime $N$. The erratum has not been compared with the
+arXiv version.
 
 **Depends on.** No page of this wiki.

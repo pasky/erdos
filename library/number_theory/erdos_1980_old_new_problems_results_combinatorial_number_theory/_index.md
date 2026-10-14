@@ -256,8 +256,9 @@ and [Er (57)] is Nederl. Akad. Wetensch. Proc. Ser. A 60 = Indag. Math.
 whose Theorem 1 proves the two exponent variants. The $\nu$ sentence
 states the question of [[../wiki/problems/irrationality/E0069/_index|Problem 69]]; the
 $\phi$ and $\sigma$ sentence states [[../wiki/problems/irrationality/E0249/_index|Problem 249]]
-and [[../wiki/problems/irrationality/E0250/_index|Problem 250]], for which the site cites
-this page. Both are 1980 statements of open questions, not results.
+and [[../wiki/problems/irrationality/E0250/_index|Problem 250]], for which
+erdosproblems.com cites this page. Both are 1980 statements of open questions,
+not results.
 
 The book's list of further results of the same kind, with the keys [Er (58)],
 [Er (68)], [Op (68)] and [Op (71)], runs from the foot of p. 61 onto p. 62 (PDF
@@ -268,13 +269,13 @@ p. 58):
   called "probably hopeless"; and by [Er-Pom (78)] $\sum_n \varepsilon_n/2^n$
   is irrational, where $\varepsilon_n=1$ if $P(n+1)>P(n)$ and
   $\varepsilon_n=0$ if $P(n+1)<P(n)$, $P(n)$ being the largest prime factor of
-  $n$. The site cites this passage
+  $n$. erdosproblems.com cites this passage
   for [[../wiki/problems/irrationality/E0251/_index|Problem 251]]. The book's report that
   every $k$ is covered is a 1980 attribution; the cited 1958 paper proves
   $k=1$ and only asserts $k>1$, as its card records.
 - (ii) $\sum_n \sigma_k(n)/n!$ is irrational for $k=1$ and $k=2$, where
   $\sigma_k(n)$ is the sum of the $k$th powers of the divisors of $n$, and
-  this is not known for any $k>2$. The site cites this passage for
+  this is not known for any $k>2$. erdosproblems.com cites this passage for
   [[../wiki/problems/irrationality/E0252/_index|Problem 252]].
 - (iii) $\sum_n 1/(2^n-1)=\sum_n d(n)/2^n$ is known to be irrational, while
   neither $\sum_n 1/(2^n-3)$ nor $\sum_n 1/(n!-1)$ is known to be; the book
@@ -343,8 +344,8 @@ Printed p. 33 (PDF p. 29): after the estimates for the least denominator $x_1$
 that in the same way
 $\min\{x_n:\{x_1,\ldots,x_n\}\in\mathscr X_n\}\ge(1+o(1))\frac{e}{e-1}n$, and
 adds that, as before, equality may hold. This is the
-question of [[../wiki/problems/unit_fractions/E0285/_index|Problem 285]], for which the
-site cites this page.
+question of [[../wiki/problems/unit_fractions/E0285/_index|Problem 285]], for
+which erdosproblems.com cites this page.
 
 Printed p. 34 (PDF p. 30): with $\sum_{a,b}$ denoting
 $\sum_{i=0}^{b-a}1/(a+i)$, the book suggests that for each $k$ the sum
@@ -355,7 +356,7 @@ $\{2,3,4,5,6,7,9,10,17,18,34,35,84,85\}$ as such a representation of $2$. The
 wording asks only for $k$ blocks of at least two consecutive integers
 ($b_i>a_i$); it does not
 require the blocks to be distinct, disjoint or non-adjacent, the
-conditions the site's formulation of
+conditions the erdosproblems.com formulation of
 [[../wiki/problems/unit_fractions/E0289/_index|Problem 289]] adds. [Hah (78)] is L.-S.
 Hahn, Problem E2689, Amer. Math. Monthly 85 (1978), p. 47, and [Mon (79)]
 is P. Montgomery, Solution to Problem E2689, Amer. Math. Monthly 86
@@ -376,10 +377,11 @@ Straus's observation that the set of such $x_n$ is closed under multiplication,
 asks whether $x_n$ takes almost all integer values, and notes that $x_n$ is
 never a prime power, indeed that $x_n\ne ap^k$ whenever $p$ is a prime
 exceeding $a!\log a$. This is
-[[../wiki/problems/unit_fractions/E0292/_index|Problem 292]], for which the site cites
-this page; the page continues with the least integer $v(n)$ that never
-occurs among the $x_k$, the least integers $k_r(n)$ and $K(n)$ that occur as
-no $r$th-smallest denominator $x_r$ and as no denominator at all, and $U_n$.
+[[../wiki/problems/unit_fractions/E0292/_index|Problem 292]], for which
+erdosproblems.com cites this page; the page continues with the least integer
+$v(n)$ that never occurs among the $x_k$, the least integers $k_r(n)$ and $K(n)$
+that occur as no $r$th-smallest denominator $x_r$ and as no denominator at all,
+and $U_n$.
 
 Printed p. 37 (PDF p. 33), continuing a paragraph begun on p. 36: the book asks
 for the largest subset $S_n^*$ of $\{1,2,\ldots,n\}$ such that "for any
@@ -390,17 +392,17 @@ $c>\frac12$. This is [[../wiki/problems/unit_fractions/E0301/_index|Problem 301]
 $S\subseteq\{1,2,\ldots,n\}$ with $|S|>cn$ contains $t$, $x$ and $y$ with
 $\frac1t=\frac1x+\frac1y$, the question of
 [[../wiki/problems/unit_fractions/E0302/_index|Problem 302]] (the book asks for
-which $c$; the site asks whether the threshold is $\frac12$). Then it observes
-that $\frac1t=\frac1x+\frac1y$ has a solution $t$ exactly when $x+y\mid xy$,
-and asks: "Suppose $X\subseteq\{1,2,\ldots,n\}$ so that $x,y\in X$ implies
-$x+y\nmid xy$. Can $X$ be substantially more than the odd numbers? What if
-$x,y\in X$, $x\ne y$, implies $x+y\nmid2xy$? Must we have $|X|=o(n)$ in this
+which $c$; erdosproblems.com asks whether the threshold is $\frac12$). Then it
+observes that $\frac1t=\frac1x+\frac1y$ has a solution $t$ exactly when
+$x+y\mid xy$, and asks: "Suppose $X\subseteq\{1,2,\ldots,n\}$ so that $x,y\in X$
+implies $x+y\nmid xy$. Can $X$ be substantially more than the odd numbers? What
+if $x,y\in X$, $x\ne y$, implies $x+y\nmid2xy$? Must we have $|X|=o(n)$ in this
 case?" This
 is
-[[../wiki/problems/unit_fractions/E0327/_index|Problem 327]], for which the site gives no
-page number; Sawin's 2026 preprint and Della Pietra's 2026 manuscripts
-cite p. 37. The page goes on to the coloring question of Problem 303 and
-to the function $N(a,b)$.
+[[../wiki/problems/unit_fractions/E0327/_index|Problem 327]], for which
+erdosproblems.com gives no page number; Sawin's 2026 preprint and Della Pietra's
+2026 manuscripts cite p. 37. The page goes on to the coloring question of
+Problem 303 and to the function $N(a,b)$.
 
 ### Further passages of the chapter, read on the page images
 
@@ -413,7 +415,7 @@ more generally, that Graham [Gr (64) a] showed $\frac ab$ to be such a sum
 with denominators of the form $pm+q$ exactly when
 $\bigl(\frac{b}{(b,(p,q))},\frac{p}{(p,q)}\bigr)=1$; it asks whether the greedy
 algorithm terminates in these cases too. This is [[../wiki/problems/unit_fractions/E0282/_index|Problem 282]], for which
-the site cites this page.
+erdosproblems.com cites this page.
 
 Printed p. 32 (PDF p. 28): the book reports Graham's result [Gr (63) b] that
 every $m\ge78$ is the sum $\sum_{k=1}^tx_k$ of the elements of some
@@ -426,8 +428,8 @@ $\{x_1,\ldots,x_t\}\in\mathscr X$. It recalls from
 a sum $\sum p(a_i)$ over distinct $a_i$, and reports Burr's result [Burr
 ($\infty$)] that for any $k$ every sufficiently large integer is $\sum_ix_i^k$
 for some $(x_1,\ldots,x_m)\in\mathscr X'$. This is
-[[../wiki/problems/unit_fractions/E0283/_index|Problem 283]], for which the site cites
-this page.
+[[../wiki/problems/unit_fractions/E0283/_index|Problem 283]], for which
+erdosproblems.com cites this page.
 
 Printed p. 33 (PDF p. 29), continuing from the foot of p. 32: the book calls it
 trivial that $\min\{x_1:(x_1,\ldots,x_n)\in\mathscr X_n'\}=n$ and, since
@@ -436,21 +438,22 @@ distinct denominators, printed as
 "$\min\{x_1:\{x_1,\ldots,x_n\}\in\mathscr X_n\}=f(n)$", satisfies
 $f(n)\ge(1+o(1))\frac{n}{e-1}$, adding that as far as the authors know
 $f(n)=(1+o(1))\frac{n}{e-1}$ could hold. The book prints "min" where the
-estimate and the site's [[../wiki/problems/unit_fractions/E0284/_index|Problem 284]] concern the largest possible least denominator; the site cites no page
-for that problem, and the passage was located here. Lower on the same page it
-asks whether $\min\{x_n-x_1:\{x_1,\ldots,x_n\}\in\mathscr X_n\}=(e-1)n+o(n)$,
-states that the minimum exceeds $(e-1)n+\frac{ng(n)}{\log n}$ for some
-function $g(n)\to\infty$ by an easy argument, and suggests that obtaining
-$g(n)>(\log n)^\varepsilon$ may already be difficult. This
-is
-[[../wiki/problems/unit_fractions/E0286/_index|Problem 286]], for which the site cites
-this page.
+estimate and erdosproblems.com's
+[[../wiki/problems/unit_fractions/E0284/_index|Problem 284]] concern the largest
+possible least denominator; erdosproblems.com cites no page for that problem,
+and the passage was located here. Lower on the same page it asks whether
+$\min\{x_n-x_1:\{x_1,\ldots,x_n\}\in\mathscr X_n\}=(e-1)n+o(n)$, states that the
+minimum exceeds $(e-1)n+\frac{ng(n)}{\log n}$ for some function $g(n)\to\infty$
+by an easy argument, and suggests that obtaining $g(n)>(\log n)^\varepsilon$ may
+already be difficult. This is
+[[../wiki/problems/unit_fractions/E0286/_index|Problem 286]], for which
+erdosproblems.com cites this page.
 
 Printed p. 34 (PDF p. 30), after the $b(a)$ question: writing
 $\sum_{k=1}^n1/k=\frac{a}{L_n}$ with $L_n=\mathrm{lcm}\{1,\ldots,n\}$, the book
 asks whether $(a,L_n)=1$ holds infinitely often and $(a,L_n)>1$ holds
 infinitely often. This is [[../wiki/problems/unit_fractions/E0291/_index|Problem 291]],
-for which the site cites this page.
+for which erdosproblems.com cites this page.
 
 Printed p. 38 (PDF p. 34): the authors report an unpublished result of theirs
 that for any $\frac ab$ with $b$ squarefree there are infinitely many disjoint
@@ -458,20 +461,22 @@ sets $S=\{s_1,\ldots,s_r\}$ with $\frac ab=\sum_{i=1}^r\frac1{s_i}$ and every
 $s_k$ a product of three distinct primes; whether two prime factors suffice
 they call unclear, and they point to Barbeau's example [Bar (77)] of a set
 $\{x_1,\ldots,x_{101}\}\in\mathscr X$ whose members are each a product of two
-distinct primes. This is [[../wiki/problems/unit_fractions/E0306/_index|Problem 306]] (located here; the site cites no page). The page ends with Barbeau's
-remark [Bar (76)] that it is not known whether $1$ is a product of two sums
+distinct primes. This is
+[[../wiki/problems/unit_fractions/E0306/_index|Problem 306]] (located here;
+erdosproblems.com cites no page). The page ends with Barbeau's remark [Bar (76)]
+that it is not known whether $1$ is a product of two sums
 $\frac1{q_1}+\ldots+\frac1{q_k}$ with the $q_i$ distinct primes, and the
 authors' suggestion that this may be possible when the $q_i$ are only required
 to be pairwise coprime. This is [[../wiki/problems/unit_fractions/E0307/_index|Problem 307]]
-(located here; the site cites no page).
+(located here; erdosproblems.com cites no page).
 
 Printed p. 39 (PDF p. 35): for $S_n$, the set of integers of the form
 $\sum_{k=1}^r\frac1{x_k}$ with $1\le x_1<\ldots<x_r\le n$ and $r$ variable, the
 book asks for the smallest integer not in $S_n$ and whether $m\notin S_n$
 implies $m+1\notin S_n$. This is
-[[../wiki/problems/unit_fractions/E0308/_index|Problem 308]] (located here; the site cites
-no page). The page continues with $n$-element sets $Y_n$ whose reciprocal
-sums represent more integers than $\{1,\ldots,n\}$ does.
+[[../wiki/problems/unit_fractions/E0308/_index|Problem 308]] (located here;
+erdosproblems.com cites no page). The page continues with $n$-element sets $Y_n$
+whose reciprocal sums represent more integers than $\{1,\ldots,n\}$ does.
 
 Printed p. 40 (PDF p. 36) carries five questions. The authors ask how many
 integers have the form $\sum_{k=1}^n\frac{\varepsilon_k}{k}$ with
@@ -488,12 +493,12 @@ with $1\ne\sum_{s\in S_n}\frac{\varepsilon_s}{s}$ for every choice of
 $\varepsilon_s\in\{0,1\}$; they expect it to be $e^{-(c+o(1))n}$ for some
 $0<c<1$, and note that it is trivially at least
 $\mathrm{lcm}(1,2,\ldots,n)^{-1}$ and probably much larger
-([[../wiki/problems/unit_fractions/E0311/_index|Problem 311]], for which the
-site cites this page). They ask whether there is a $c>0$ such that, for fixed
-$\alpha$ and all sufficiently large $t$, $\sum_{k=1}^t\frac1{s_k}>\alpha$
-forces some choice of $\varepsilon_k\in\{0,1\}$ with
-$0\le1-\sum_{k=1}^t\frac{\varepsilon_k}{s_k}<e^{-c\alpha}$, saying that only
-$c/\alpha^2$ is known as an upper bound
+([[../wiki/problems/unit_fractions/E0311/_index|Problem 311]], for which
+erdosproblems.com cites this page). They ask whether there is a $c>0$ such that,
+for fixed $\alpha$ and all sufficiently large $t$,
+$\sum_{k=1}^t\frac1{s_k}>\alpha$ forces some choice of $\varepsilon_k\in\{0,1\}$
+with $0\le1-\sum_{k=1}^t\frac{\varepsilon_k}{s_k}<e^{-c\alpha}$, saying that
+only $c/\alpha^2$ is known as an upper bound
 ([[../wiki/problems/unit_fractions/E0312/_index|Problem 312]]; located here;
 the bound $c/\alpha^2$ is stated without proof or reference). Finally they ask
 whether $\frac1{q_1}+\ldots+\frac1{q_t}+\frac1m=1$ has infinitely many
@@ -501,25 +506,25 @@ solutions with $q_1,\ldots,q_t$ distinct primes, $\frac12+\frac13+\frac16=1$
 being one, and remark that solutions of
 $\frac1{a_1}+\ldots+\frac1{a_n}+\frac1{\mathrm{lcm}(a_1,\ldots,a_n)}=1$ are not
 hard to give ([[../wiki/problems/unit_fractions/E0313/_index|Problem 313]], for
-which the site cites this page).
+which erdosproblems.com cites this page).
 
 Printed p. 41 (PDF p. 37): with $t=t(n)$ the least integer for which
 $\varepsilon_n=\sum_{k=n}^t\frac1k-1\ge0$, the book asks how small
 $\varepsilon_n$ can be, says that as far as the authors know this has not been
 looked at, and guesses that $\liminf_nn^2\varepsilon_n=0$ but perhaps
 $n^{2+\delta}\varepsilon_n\to\infty$ for every $\delta>0$
-([[../wiki/problems/unit_fractions/E0314/_index|Problem 314]], for which the
-site cites this page). With $u_1=1$ and $u_{n+1}=u_n(u_n+1)$ as before, it
-records $\sum_{k=1}^\infty\frac1{u_k+1}=1$ (printed
+([[../wiki/problems/unit_fractions/E0314/_index|Problem 314]], for which
+erdosproblems.com cites this page). With $u_1=1$ and $u_{n+1}=u_n(u_n+1)$ as
+before, it records $\sum_{k=1}^\infty\frac1{u_k+1}=1$ (printed
 $\sum_{k=1}^\infty\frac1{u_{k+1}}=1$, a misprint) and, as printed,
 $u_k=[c_0^{2^k}+1]$ for $k\ge1$ (in fact $[c_0^{2^k}]=u_k$ and
 $[c_0^{2^k}+1]=u_k+1$), where $c_0=1.264085\ldots$, and asks whether every
 other sequence $a_1<a_2<\ldots$ with $\sum_{k=1}^\infty\frac1{a_k}=1$ has
 $\liminf_na_n^{1/2^n}<\lim_nu_n^{1/2^n}=c_0$
-([[../wiki/problems/unit_fractions/E0315/_index|Problem 315]], for which the
-site cites this page; the book prints "$=1$" after the first sum). It asks
-whether $a_1<a_2<\ldots<a_t$ with $\sum_{k=1}^t\frac1{a_k}<2$ can always be
-split into two parts each of reciprocal sum below $1$, that is, whether some
+([[../wiki/problems/unit_fractions/E0315/_index|Problem 315]], for which
+erdosproblems.com cites this page; the book prints "$=1$" after the first sum).
+It asks whether $a_1<a_2<\ldots<a_t$ with $\sum_{k=1}^t\frac1{a_k}<2$ can always
+be split into two parts each of reciprocal sum below $1$, that is, whether some
 $\varepsilon_k\in\{0,1\}$ give $\sum_{k=1}^t\frac{\varepsilon_k}{a_k}<1$ and
 $\sum_{k=1}^t\frac{1-\varepsilon_k}{a_k}<1$; it notes that this fails if only
 $a_1\le a_2\le\ldots\le a_t$ is assumed, the sequence $2,3,3,5,5,5,5$ being a
@@ -541,19 +546,19 @@ trivial bound $\bigl|\sum_{k=1}^n\frac{\delta_k}{k}\bigr|\ge\frac1{L_n}$ with
 $L_n=\mathrm{lcm}\{2,3,\ldots,n\}$, expects strict inequality for large $n$
 without being able to prove it, and gives $\frac12-\frac13-\frac14=-\frac1{12}$
 as an equality for small $n$
-([[../wiki/problems/unit_fractions/E0317/_index|Problem 317]], for which the
-site cites this page). Then it reports the theorem of Erdős and Straus [Er-Str
-(75)] that every nonconstant sequence $\delta_k\in\{\pm1\}$, $k=1,2,\ldots$,
-has a finite subsequence with $\sum_k\frac{\delta_{i_k}}{i_k}=0$, and R.
-Sattler's harder analogue [Sat (75)] for $\sum_k\frac{\delta_{i_k}}{2i_k+1}$;
-it asks whether the same holds for the general case
-$\sum_k\frac{\delta_{i_k}}{ai_k+b}$, and for any set of denominators of
-positive density. The paragraph adds that this cannot hold for all
-$\delta_k$ with the denominators $i_k^2$, since the reciprocal squares from
+([[../wiki/problems/unit_fractions/E0317/_index|Problem 317]], for which
+erdosproblems.com cites this page). Then it reports the theorem of Erdős and
+Straus [Er-Str (75)] that every nonconstant sequence $\delta_k\in\{\pm1\}$,
+$k=1,2,\ldots$, has a finite subsequence with
+$\sum_k\frac{\delta_{i_k}}{i_k}=0$, and R. Sattler's harder analogue [Sat (75)]
+for $\sum_k\frac{\delta_{i_k}}{2i_k+1}$; it asks whether the same holds for the
+general case $\sum_k\frac{\delta_{i_k}}{ai_k+b}$, and for any set of
+denominators of positive density. The paragraph adds that this cannot hold for
+all $\delta_k$ with the denominators $i_k^2$, since the reciprocal squares from
 $2$ on sum to less than $1$, but that it is conceivable for nonconstant
 $\delta_2,\delta_3,\ldots$ with the squares from $2^2$ on.
-([[../wiki/problems/unit_fractions/E0318/_index|Problem 318]], for which the site cites
-this page.)
+([[../wiki/problems/unit_fractions/E0318/_index|Problem 318]], for which
+erdosproblems.com cites this page.)
 
 Printed p. 43 (PDF p. 39): the book asks how large $A\subseteq\{1,2,\ldots,n\}$
 can be if some signs $\delta_a=\pm1$, $a\in A$, give (i)
@@ -566,15 +571,15 @@ $\sum_{k=1}^n\frac{\varepsilon_k}{k}$ with $\varepsilon_k\in\{0,1\}$, for which
 the best estimates [Bl-Er (75)] are
 $\frac{n}{\log n}\prod_{i=3}^k\log_in\le\frac{\log t(n)}{\log2}<\frac{n\log_kn}{\log n}\prod_{i=3}^k\log_in$
 for $k\ge4$ and $\log_kn\ge k$
-([[../wiki/problems/unit_fractions/E0320/_index|Problem 320]], for which the
-site cites this page). Relatedly, it asks how many integers
+([[../wiki/problems/unit_fractions/E0320/_index|Problem 320]], for which
+erdosproblems.com cites this page). Relatedly, it asks how many integers
 $a_1<a_2<\ldots<a_{r(n)}\le n$ can have all the sums
 $\sum_{i=1}^{r(n)}\frac{\varepsilon_i}{a_i}$ distinct, reports that the
 Bleicher--Erdős estimates [Bl-Er (75)] imply
 $\frac{n}{\log n}\prod_{i=3}^s\log_in<r(n)<\frac{n\log_sn}{\log n}\prod_{i=3}^s\log_in$
 for any fixed $s$, and asks whether $\frac{\log t(n)}{r(n)}\to\infty$ with $n$
-([[../wiki/problems/unit_fractions/E0321/_index|Problem 321]], for which the
-site cites this page).
+([[../wiki/problems/unit_fractions/E0321/_index|Problem 321]], for which
+erdosproblems.com cites this page).
 
 Printed p. 44 (PDF p. 40), the chapter's last page: the book states the old
 conjecture of Erdős and Straus that the equation (*)
@@ -586,7 +591,7 @@ $n\le10^8$ ([Franc (78)], [Ter (71)], [Ya (64)], [Ya (65)]), and that Schinzel
 and Sierpiński [Sie (56)] conjectured more generally that
 $\frac an=\frac1x+\frac1y+\frac1z$ is solvable for all $n>n_0(a)$
 ([[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]; located here,
-the site citing the book without a page).
+erdosproblems.com citing the book without a page).
 
 Printed p. 58 (PDF p. 54), in the chapter on completeness of sequences,
 with $P(S)$ the set of finite subset sums of $S$ and
@@ -594,8 +599,8 @@ $S^{-1}=(1/s_1,1/s_2,\ldots)$: for an increasing sequence $S=(s_1,s_2,\ldots)$
 with $s_{n+1}/s_n\ge c>1$ for some $c$, the book asks whether $P(S^{-1})$ can
 contain every rational in some interval $(\alpha,\beta)$, $\alpha<\beta$, and
 records the conjecture of Bleicher and Erdős that it cannot
-([[../wiki/problems/unit_fractions/E0355/_index|Problem 355]], for which the
-site cites this page).
+([[../wiki/problems/unit_fractions/E0355/_index|Problem 355]], for which
+erdosproblems.com cites this page).
 
 ### Passages for fourteen further assessed pages, read on the page images
 
@@ -612,8 +617,8 @@ $R_n(\frac ab)<\frac ab$; it conjectures that the same holds for every
 algebraic number, notes that some irrationals are easily shown to violate it,
 and suggests that it may nevertheless hold "for almost all reals". The last
 remark is the question of [[../wiki/problems/unit_fractions/E0206/_index|Problem 206]],
-for which the site cites this page; the rational case is stated as known,
-without proof or reference beyond the $1/m$ case.
+for which erdosproblems.com cites this page; the rational case is stated as
+known, without proof or reference beyond the $1/m$ case.
 
 Printed p. 32 (PDF p. 28), after the definition of $\mathscr X_n$: the book
 asks for the asymptotic size of $|\mathscr X_n|$, or at least good bounds,
@@ -621,8 +626,9 @@ and reports the bounds of Straus and the authors,
 $e^{n^{2-\varepsilon}}<|\mathscr X_n|\le c_0^{2^{n+1}}$ with
 $c_0=\lim_nu_n^{1/2^n}=1.264085\ldots$ (see [Ah-Sl (73)]), and suggests that
 the lower bound may be improvable to $c_0^{2^{n(1-\varepsilon)}}$. This is
-[[../wiki/problems/unit_fractions/E0148/_index|Problem 148]], for which the site cites this
-page; the estimates are stated without proof or reference.
+[[../wiki/problems/unit_fractions/E0148/_index|Problem 148]], for which
+erdosproblems.com cites this page; the estimates are stated without proof or
+reference.
 
 Printed pp. 33–34 (PDF pp. 29–30): the book recalls that
 $\{x_1,\ldots,x_n\}\in\mathscr X$ has $\max(x_{k+1}-x_k)>1$, since the
@@ -636,16 +642,18 @@ eventually always $k$ consecutive integers of the form
 $q_1,2q_2,3q_3,\ldots,kq_k$ with the $q_i$ prime, implies that
 $\max(x_{j+1}-x_j)\le k$ holds for only finitely many
 $\{x_1,\ldots,x_n\}\in\mathscr X$ (the implication finishes on p. 34). This is
-[[../wiki/problems/unit_fractions/E0287/_index|Problem 287]], for which the site cites
-these pages; the conditional statement is asserted without proof.
+[[../wiki/problems/unit_fractions/E0287/_index|Problem 287]], for which
+erdosproblems.com cites these pages; the conditional statement is asserted
+without proof.
 
 Printed p. 34 (PDF p. 30): with $\sum_{a,b}$ denoting the sum
 $\sum_{i=0}^{b-a}\frac1{a+i}$, the book finds it probable that
 $\sum_{a,b}+\sum_{c,d}$ is an integer only finitely often, but expects this to
 be difficult to prove, since even the finiteness of the integer values of
 $\sum_{a,b}+\frac1n$ is not known. This is
-[[../wiki/problems/unit_fractions/E0288/_index|Problem 288]], for which the
-site cites this page; the $k$-block continuation is described above for Problem
+[[../wiki/problems/unit_fractions/E0288/_index|Problem 288]], for which
+erdosproblems.com cites this page; the $k$-block continuation is described above
+for Problem
 289. Lower on the same page the book states that $\sum_{a,b}=\frac1n$ is only
 possible for $b=a=n$, that in fact writing $\sum_{a,b}=\frac{u_{a,b}}{v_{a,b}}$
 with $b>a$ gives $v_{a,b}\ge a(a+1)$, and that $v_{a,b}$ in general increases
@@ -653,9 +661,10 @@ with $b$ but with breaks, as $\sum_{3,5}=\frac{47}{60}$ (printed
 $\frac{37}{60}$, a misprint) and $\sum_{3,6}=\frac{19}{20}$ show; it asks,
 for fixed $a$, for the least $b=b(a)$ with $v_{a,b+1}<v_{a,b}$, and whether
 such a $b$ exists for every $a$. This is
-[[../wiki/problems/unit_fractions/E0290/_index|Problem 290]], for which the site cites
-this page; the book does not say whether $u_{a,b}/v_{a,b}$ is in lowest
-terms, which the problem page's formulation makes explicit.
+[[../wiki/problems/unit_fractions/E0290/_index|Problem 290]], for which
+erdosproblems.com cites this page; the book does not say whether
+$u_{a,b}/v_{a,b}$ is in lowest terms, which the problem page's formulation makes
+explicit.
 
 Printed p. 35 (PDF p. 31), after the $x_n$ passage described above for Problem
 292: the book asks for the least integer $v(n)>1$ that occurs as no $x_k$ ($k$
@@ -664,29 +673,30 @@ follows easily from results of Bleicher and Erdős ([Bl-Er (75)], [Bl-Er (76)
 a], [Bl-Er (76) b]), suggests that $v(n)$ may grow more like $2^{2^{\sqrt n}}$
 or $2^{2^{n(1-\varepsilon)}}$, and calls the analogous question for
 $\mathscr X_n'$ interesting too. This is
-[[../wiki/problems/unit_fractions/E0293/_index|Problem 293]], for which the
-site cites this page. Next, with $k_r(n)$ the least integer occurring as no
-$x_r$ in any $\{x_1,\ldots,x_t\}\in\mathscr X$ with $x_1<\ldots<x_t\le n$, it
-states that $k_1(n)<\frac{cn\log\log n}{\log n}$ is easy to show and that a
-slight refinement gives $k_1(n)<\frac{cn}{\log n}$, while the true size of
-$k_r(n)$, even of $k_1(n)$, is unknown. This is
-[[../wiki/problems/unit_fractions/E0294/_index|Problem 294]], for which the
-site cites this page; the page then defines $K(n)$, the least integer occurring
-as no $x_i$ at all, with $K(n)<cn/\log n$ "easy" and $k_1(n)<K(n)$ unknown. The
-page ends with $U_n=\min\{k:\{x_1,\ldots,x_k\}\in\mathscr X,\ x_1\ge n\}$: the
-authors find it likely that $\lim_n\{U_n-(e-1)n\}=\infty$ but cannot prove it,
-and report the Erdős--Straus bounds [Er-Str (71) a]
-$(e-1)n-c<U_n<(e-1)n+c'n/\log n$. This is
-[[../wiki/problems/unit_fractions/E0295/_index|Problem 295]], for which the site cites
-this page; the Erdős–Straus bounds are reported without proof.
+[[../wiki/problems/unit_fractions/E0293/_index|Problem 293]], for which
+erdosproblems.com cites this page. Next, with $k_r(n)$ the least integer
+occurring as no $x_r$ in any $\{x_1,\ldots,x_t\}\in\mathscr X$ with
+$x_1<\ldots<x_t\le n$, it states that $k_1(n)<\frac{cn\log\log n}{\log n}$ is
+easy to show and that a slight refinement gives $k_1(n)<\frac{cn}{\log n}$,
+while the true size of $k_r(n)$, even of $k_1(n)$, is unknown. This is
+[[../wiki/problems/unit_fractions/E0294/_index|Problem 294]], for which
+erdosproblems.com cites this page; the page then defines $K(n)$, the least
+integer occurring as no $x_i$ at all, with $K(n)<cn/\log n$ "easy" and
+$k_1(n)<K(n)$ unknown. The page ends with
+$U_n=\min\{k:\{x_1,\ldots,x_k\}\in\mathscr X,\ x_1\ge n\}$: the authors find it
+likely that $\lim_n\{U_n-(e-1)n\}=\infty$ but cannot prove it, and report the
+Erdős--Straus bounds [Er-Str (71) a] $(e-1)n-c<U_n<(e-1)n+c'n/\log n$. This is
+[[../wiki/problems/unit_fractions/E0295/_index|Problem 295]], for which
+erdosproblems.com cites this page; the Erdős–Straus bounds are reported without
+proof.
 
 Printed p. 36 (PDF p. 32) opens by asking how many pairwise disjoint sets
 $S_i\in\mathscr X$, $1\le i\le k$, can lie inside $\{1,2,\ldots,n\}$; the
 authors expect $k=o(\log n)$ but have not proved it. This is
-[[../wiki/problems/unit_fractions/E0296/_index|Problem 296]], for which the
-site cites this page; the paragraph goes on to disjoint sets with equal
-reciprocal sums and to the number of subsets of $\{1,\ldots,n\}$ belonging to
-$\mathscr X$. The next paragraph asks whether, however the integers are split
+[[../wiki/problems/unit_fractions/E0296/_index|Problem 296]], for which
+erdosproblems.com cites this page; the paragraph goes on to disjoint sets with
+equal reciprocal sums and to the number of subsets of $\{1,\ldots,n\}$ belonging
+to $\mathscr X$. The next paragraph asks whether, however the integers are split
 into $r$ classes, some member of $\mathscr X$ lies entirely in one class, and
 states the stronger conjecture that every sequence $x_1<x_2<\ldots$ of positive
 density contains a subset $\bar x\in\mathscr X$. The authors note that
@@ -694,21 +704,21 @@ $\sum_k1/x_k=\infty$ alone does not suffice, as the primes show, and continue:
 "However, perhaps $\sum_{k=1}^n1/x_k$ cannot grow much faster than this (i.e.,
 $\log\log n$) for the $x_i$'s to fail to contain an $\bar x\in\mathscr X$." The
 first question, on splitting the integers into $r$ classes, is
-[[../wiki/problems/unit_fractions/E0046/_index|Problem 46]], for which the
-site cites this page. The last sentence asks for the reciprocal-sum growth
-that forces a subset with reciprocal sum one, the question of
-[[../wiki/problems/unit_fractions/E0047/_index|Problem 47]] (located here; the site cites
-the book without a page): the book's guess is a threshold near $\log\log n$,
-where the problem's formulation uses $\delta\log N$. The positive-density
-conjecture is the question of Problem 298, for which no row is written here.
-Lower on the page, with $A(n)$ the largest $|S|$ for
-$S\subseteq\{1,2,\ldots,n\}$ containing no set in $\mathscr X$, the authors
-expect $A(n)=n+o(n)$ but cannot prove it, and relatedly ask for the number of
-solutions of $1=\sum_{i=1}^n\frac1{x_i}$ with $\varepsilon n<x_1<\ldots<x_n$.
-This is
-[[../wiki/problems/unit_fractions/E0300/_index|Problem 300]], for which the site cites
-this page; the expectation $A(n)=n+o(n)$ is the one the problem page
-records as later disproved.
+[[../wiki/problems/unit_fractions/E0046/_index|Problem 46]], for which
+erdosproblems.com cites this page. The last sentence asks for the reciprocal-sum
+growth that forces a subset with reciprocal sum one, the question of
+[[../wiki/problems/unit_fractions/E0047/_index|Problem 47]] (located here;
+erdosproblems.com cites the book without a page): the book's guess is a
+threshold near $\log\log n$, where the problem's formulation uses
+$\delta\log N$. The positive-density conjecture is the question of Problem 298,
+for which no row is written here. Lower on the page, with $A(n)$ the largest
+$|S|$ for $S\subseteq\{1,2,\ldots,n\}$ containing no set in $\mathscr X$, the
+authors expect $A(n)=n+o(n)$ but cannot prove it, and relatedly ask for the
+number of solutions of $1=\sum_{i=1}^n\frac1{x_i}$ with
+$\varepsilon n<x_1<\ldots<x_n$. This is
+[[../wiki/problems/unit_fractions/E0300/_index|Problem 300]], for which
+erdosproblems.com cites this page; the expectation $A(n)=n+o(n)$ is the one the
+problem page records as later disproved.
 
 Printed pp. 37–38 (PDF pp. 33–34): with $N(a,b)$ the least $t$ for which
 $\frac ab=\sum_{k=1}^t\frac1{x_k}$ with $x_1<x_2<\ldots<x_t$ is possible, and
@@ -721,9 +731,8 @@ lemma: "Every number less than $n!$ is the sum of fewer than $n$ distinct
 divisors of $n!$" (p. 37). On p. 38 it expects that, for large $n$, perhaps
 $(\log n)^c$ divisors suffice, which would give $N(b)<c'\log\log b$. This is
 [[../wiki/problems/unit_fractions/E0304/_index|Problem 304]],
-for which the site cites p. 37; the lemma is stated without proof. Page 38
-also defines $n(b)=\frac1b\sum_{a=1}^bN(a,b)$ and reports
-$n(b)>c\log\log b$.
+for which erdosproblems.com cites p. 37; the lemma is stated without proof. Page
+38 also defines $n(b)=\frac1b\sum_{a=1}^bN(a,b)$ and reports $n(b)>c\log\log b$.
 
 Printed p. 38 (PDF p. 34): with
 $D(a,b)=\min\max\{x_i:\frac ab=\sum_{i=1}^t\frac1{x_i}\}$, the least possible
@@ -733,9 +742,9 @@ results [Bl-Er (76) a] that $D(b)<cb(\log b)^2$ and that $D(p)\ge c'p\log p$
 when $b$ is a prime $p$, and the conjecture that
 $D(b)\le c(\varepsilon)b(\log b)^{1+\varepsilon}$ for every $\varepsilon>0$.
 This is
-[[../wiki/problems/unit_fractions/E0305/_index|Problem 305]], for which the site cites
-this page; the Bleicher–Erdős bounds are reported without proof, and the
-key was not resolved here.
+[[../wiki/problems/unit_fractions/E0305/_index|Problem 305]], for which
+erdosproblems.com cites this page; the Bleicher–Erdős bounds are reported
+without proof, and the key was not resolved here.
 
 ## The intersection-property passage, printed p. 20 (PDF p. 16)
 
@@ -798,9 +807,9 @@ Lower on the same page: "Is it true that for any partition of the pairs of
 positive integers into two classes, the sums $\sum_{x\in X}\frac1{\log x}$
 are unbounded where $X$ ranges over all subsets which have all pairs
 belonging to one class?" This is the question of
-[[../wiki/problems/ramsey_theory/E0191/_index|Problem 191]], for which the site cites this
-page; the book's vertex set is all the positive integers, where the site
-starts at $2$.
+[[../wiki/problems/ramsey_theory/E0191/_index|Problem 191]], for which
+erdosproblems.com cites this page; the book's vertex set is all the positive
+integers, where erdosproblems.com starts at $2$.
 
 Printed p. 87 (PDF p. 83; the index of names, p. 127, lists Silverman
 here): the book asks how large $A=\{a_1,\ldots,a_k\}\subseteq[1,n]$ can be if
@@ -811,10 +820,10 @@ integers with $\{i,j\}$ an edge whenever $i+j$ is a square, records the
 question of Erdős and D. Silverman whether the chromatic number of $G$ is
 $\aleph_0$, and the same question with $i+j$ required to be a $k$th power. The
 two coloring questions are [[../wiki/problems/ramsey_theory/E0439/_index|Problem 439]],
-for which the site cites the book without a page, in both its square and
-its $k$th-power form; the density question of the first sentences is
-Problem 438, whose added-in-proof passage on p. 107 is described in the
-Bears-on row for that problem.
+for which erdosproblems.com cites the book without a page, in both its square
+and its $k$th-power form; the density question of the first sentences is Problem
+438, whose added-in-proof passage on p. 107 is described in the Bears-on row for
+that problem.
 
 ## Five integer-sequence passages, printed pp. 87--88, 95 and 103 (PDF pp. 83--84, 91 and 99)
 
@@ -880,11 +889,12 @@ $\mathrm{lcm}(x+1,\ldots,x+n)\ne\mathrm{lcm}(y+1,\ldots,y+n)$ whenever
 $x+n\le y$, and notes that by the Thue--Siegel theorem the equation
 $\mathrm{lcm}(x+1,\ldots,x+n)=\mathrm{lcm}(y+1,\ldots,y+n)$ has only finitely
 many solutions in $x$ and $y$ for each fixed $n$. This is the same-length case
-of the problem, with the Thue--Siegel remark the site's commentary repeats. The
-adjacent question on printed p. 74 (PDF p. 70) asks for a classification of the
-solutions of $\prod_{i=1}^{k_1}(m_1+i)=\prod_{i=1}^{k_2}(m_2+i)$ with
-$1<k_1<k_2$ and $m_1+k_1\le m_2$, of which the book expects only finitely many;
-more generally, for $k_1>2$ and fixed $a$ and $b$, it expects
+of the problem, with the Thue--Siegel remark the erdosproblems.com commentary
+repeats. The adjacent question on printed p. 74 (PDF p. 70) asks for a
+classification of the solutions of
+$\prod_{i=1}^{k_1}(m_1+i)=\prod_{i=1}^{k_2}(m_2+i)$ with $1<k_1<k_2$ and
+$m_1+k_1\le m_2$, of which the book expects only finitely many; more generally,
+for $k_1>2$ and fixed $a$ and $b$, it expects
 $a\prod_{i=1}^{k_1}(m_1+i)=b\prod_{i=1}^{k_2}(m_2+i)$ to have finitely many
 solutions, and it asks what happens if $\prod_{i=1}^{k_1}(m_1+i)$ and
 $\prod_{i=1}^{k_2}(m_2+i)$ are only required to have the same prime factors
@@ -901,7 +911,8 @@ $n+a_i$ is prime for all $i$?" It continues: "In the other direction—if the
 $a_k$ do not increase too rapidly then is it true for some $n$, $n+a_i$
 represents all (or almost all) large numbers provided no covering congruence
 intervenes." The first question is Problem 429, for
-which the site cites this page; the resolving paper cites the same page.
+which erdosproblems.com cites this page; the resolving paper cites the same
+page.
 
 Printed p. 89 (PDF p. 85), for
 [[../wiki/problems/integer_sequences/E0451/_index|#451]]: with $n_k$ the least
@@ -923,8 +934,9 @@ Printed p. 93 (PDF p. 89), for [[../wiki/problems/integer_sequences/E0467/_index
 "A problem on sieves: Can one split the primes less than $n$ into two
 classes $\{q_i\}$, $\{q_i'\}$ so that for suitable choices of $a_i$ and
 $a_i'$, every integer $x$ less than $n$ satisfies $x\equiv a_i\bmod q_i$
-and $x\equiv a_i'\bmod q_i'$?" The print gives no quantifier on $i$; the
-site's Problem 467 supplies "for some $p\in A$ and $q\in B$" and says so.
+and $x\equiv a_i'\bmod q_i'$?" The print gives no quantifier on $i$;
+erdosproblems.com's Problem 467 supplies "for some $p\in A$ and $q\in B$" and
+says so.
 
 ## Consecutive sums, subset sums and inverse residues, printed pp. 58--59 and 103 (PDF pp. 54--55 and 99), with four distribution and digit passages, printed pp. 92--93, 96 and 107 (PDF pp. 88--89, 92 and 103)
 
@@ -938,8 +950,8 @@ flavor: for a sequence $a_1<\ldots<a_k\le n$ of integers and the sums
 $\sum_{i=u}^va_i$ over its blocks, the book asks whether these sums can take
 $cn^2$ distinct values for some $c>0$ (they do not for $a_i=i$), what happens
 when monotonicity is dropped and the $a_i$ are only required to be distinct,
-and, in the sentence the site's Problem 34 rests on, "Perhaps some permutation
-of $\{1,2,\ldots,n\}$ has $cn^2$ such 'interval' sums." It asks how
+and, in the sentence erdosproblems.com's Problem 34 rests on, "Perhaps some
+permutation of $\{1,2,\ldots,n\}$ has $cn^2$ such 'interval' sums." It asks how
 long a run of consecutive integers above $n$ the block sums can cover and
 whether, for every $c>0$, the run can reach $cn$; for $a_i=i$ the run
 typically stops near $2n$, since no power of $2$ is such a sum, and omitting
@@ -952,11 +964,12 @@ It also asks for the least $m$ not of the form $\sum_{i=u}^va_i$ and whether
 it can greatly exceed $n$, states (the sentence continuing on p.
 59 with a display) that the authors can show $\sum_{x<a_i<x^2}1/a_i<c$, and
 asks whether $\sum_i1/a_i$ is bounded independently of $n$. The permutation
-sentence is the question of [[../wiki/problems/number_theory/E0034/_index|Problem 34]], for which the
-site cites this page: the book asks for a permutation with $cn^2$ interval
-sums, the affirmative form of the site's $o(n^2)$ question. The monotone
-questions of the paragraph are the site's Problems 356 and 357, for which no
-row is written here.
+sentence is the question of
+[[../wiki/problems/number_theory/E0034/_index|Problem 34]], for which
+erdosproblems.com cites this page: the book asks for a permutation with $cn^2$
+interval sums, the affirmative form of erdosproblems.com's $o(n^2)$ question.
+The monotone questions of the paragraph are erdosproblems.com's Problems 356 and
+357, for which no row is written here.
 
 Printed p. 59 (PDF p. 55): for a sequence $0<a_1<\ldots<a_n$, let $F_n(t)$ be
 the number of solutions of $\sum_{i=1}^n\varepsilon_ia_i=t$ with
@@ -966,16 +979,16 @@ that the factor $(\log n)^{3/2}$ can be dropped, proved by Sárközy and
 Szemerédi [Sár-Sz (65)], and Stanley's recent result [Stan (xx)] that
 $\max F_n(t)$ is attained when the $a_i$ "form an arithmetic progression" and
 $t=\frac12\sum_{i=1}^na_i$ (see also [Lint (67)]). This is the first
-question of [[../wiki/problems/number_theory/E0362/_index|Problem 362]], for which the
-site cites this page, with its history; the page does not state the
-fixed-cardinality second question. The Stanley sentence is the book's
+question of [[../wiki/problems/number_theory/E0362/_index|Problem 362]], for
+which erdosproblems.com cites this page, with its history; the page does not
+state the fixed-cardinality second question. The Stanley sentence is the book's
 paraphrase: Stanley's Corollary 5.3 concerns sets of distinct real numbers
 and names the extremal set $\{-[(n-1)/2],\ldots,[n/2]\}$ (compiled on the
 [[number_theory/stanley_1980_weyl_groups_hard_lefschetz_theorem_sperner/corollary_5_3|corollary_5_3]]
 page), and the count $F_n(t)$ over subsets of varying size is not invariant
 under translating the $a_i$, so "form an arithmetic progression" does not by
-itself identify the maximizer; the site's thread (2 November 2025) records
-the same point, and the site now states Stanley's set.
+itself identify the maximizer; the erdosproblems.com thread (2 November 2025)
+records the same point, and erdosproblems.com now states Stanley's set.
 
 Printed p. 103 (PDF p. 99), in the chapter updating the 1963 collection,
 after the Problem 44 paragraph described above for Problem 540: the book poses
@@ -984,18 +997,19 @@ $\varepsilon>0$, there is an $f(\varepsilon)$ so that if $a_1,\ldots,a_k$,
 $k=[p^\varepsilon]$, are the residues $\frac1i$ modulo $p$, $1\le i\le k$
 (where $p$ is prime), then every residue modulo $p$ is the sum of at most
 $f(\varepsilon)$ $a_i$'s?" This is
-[[../wiki/problems/number_theory/E1180/_index|Problem 1180]], for which the site cites
-this page; the book's $f(\varepsilon)$ is the site's $C_\varepsilon$, and
-the book, like the site, does not require the summands to be distinct.
+[[../wiki/problems/number_theory/E1180/_index|Problem 1180]], for which
+erdosproblems.com cites this page; the book's $f(\varepsilon)$ is
+erdosproblems.com's $C_\varepsilon$, and the book, like erdosproblems.com, does
+not require the summands to be distinct.
 
-Printed pp. 92--93 (PDF pp. 88--89), the passage the site cites for
+Printed pp. 92--93 (PDF pp. 88--89), the passage erdosproblems.com cites for
 [[../wiki/problems/number_theory/E0465/_index|Problem 465]] and
-[[../wiki/problems/number_theory/E0466/_index|Problem 466]] (the site's [ErGr80, p. 92]),
-described for their pages: with $\|x\|$ the distance from a real $x$ to the
-nearest integer and $d(P,Q)$ the Euclidean distance in the plane, the book
-defines on p. 92: "for fixed $X>0$ and $\delta\in(0,1/2)$, let $N(X,\delta)$
-denote the maximum number of points $P_1,P_2,\ldots,P_n$ which can be chosen
-in a circle of radius $X$ so that $\|d(P_i,P_j)\|\ge\delta$ for
+[[../wiki/problems/number_theory/E0466/_index|Problem 466]] (erdosproblems.com's
+[ErGr80, p. 92]), described for their pages: with $\|x\|$ the distance from a
+real $x$ to the nearest integer and $d(P,Q)$ the Euclidean distance in the
+plane, the book defines on p. 92: "for fixed $X>0$ and $\delta\in(0,1/2)$, let
+$N(X,\delta)$ denote the maximum number of points $P_1,P_2,\ldots,P_n$ which can
+be chosen in a circle of radius $X$ so that $\|d(P_i,P_j)\|\ge\delta$ for
 $1\le i<j\le n$." On p. 93 it records Erdős's
 two conjectures: that $N(X,\delta)=o(X)$ for every $\delta\in(0,1/2)$, and that
 some $\delta_0>0$ has $\lim_{x\to\infty}N(X,\delta_0)=\infty$. The first was
@@ -1010,15 +1024,16 @@ wide gap that remains, the book asks whether $N(X,\delta)<X^{1/2+\varepsilon}$
 for every $\varepsilon>0$ and $X$ sufficiently large, and admits that even
 $N(X,\delta)<X^{1-\varepsilon}$ for some positive $\varepsilon$ is out of
 reach. The book prints the limit with a lowercase
-$x$ under $\lim$, as the site's Problem 466 statement does; its lower bound
-for small $\delta$ is $X^{1/2-\varepsilon}$ for $\delta\le\delta(\varepsilon)$,
-where the site writes $X^{1/2-\delta^{1/7}}$.
+$x$ under $\lim$, as erdosproblems.com's Problem 466 statement does; its lower
+bound for small $\delta$ is $X^{1/2-\varepsilon}$ for
+$\delta\le\delta(\varepsilon)$, where erdosproblems.com writes
+$X^{1/2-\delta^{1/7}}$.
 
 Printed p. 96 (PDF p. 92), two passages of Section 9. For
-[[../wiki/problems/number_theory/E0480/_index|Problem 480]], for which the site cites this
-page: the book states D. J. Newman's "attractive conjecture": "Let
-$x_1,x_2,x_3,\ldots$ be real numbers in the closed interval $[0,1]$. Is it true
-that there are infinitely many $m$ and $n$ such that
+[[../wiki/problems/number_theory/E0480/_index|Problem 480]], for which
+erdosproblems.com cites this page: the book states D. J. Newman's "attractive
+conjecture": "Let $x_1,x_2,x_3,\ldots$ be real numbers in the closed interval
+$[0,1]$. Is it true that there are infinitely many $m$ and $n$ such that
 $|x_{m+n}-x_m|\le\frac1{n\sqrt5}$?" It adds that this is known
 to be false, pointing to the Added in proof, p. 107. There, item (iii) (printed
 p. 107, PDF p. 103) reports the theorem just proved by Chung and Graham: "if
@@ -1033,7 +1048,7 @@ $|x_{m+1}-x_m|=\frac{3-\sqrt5}2$ for infinitely many $m$ and so rules out
 only constants above $\frac{3+\sqrt5}2>\alpha_0$, and the extremal sequence is
 Chung and Graham's own, as Problem 480 records. The book indexes the sequence
 from $x_1$. For
-[[../wiki/problems/number_theory/E0482/_index|Problem 482]] (the site's
+[[../wiki/problems/number_theory/E0482/_index|Problem 482]] (erdosproblems.com's
 [ErGr80, p. 96], which is also Stoll's "[2, p. 96]"): the
 book's "very unconventional problem" defines the integer sequence
 $(a_1,a_2,\ldots)$ by $a_1=1$ and $a_{n+1}=[\sqrt2(a_n+1/2)]$ for $n\ge1$, so
@@ -1053,7 +1068,7 @@ five sieve and prime-pattern passages above. It does not claim a complete
 reading, transcription, proof reconstruction, or verification of every
 problem-to-source mapping in the monograph. The irrationality passages on
 printed pp. 61–63 also state,
-in the site's numbering, problems 68, 247, 257, 258 and 1050 and the
+in the erdosproblems.com numbering, problems 68, 247, 257, 258 and 1050 and the
 irrationality-sequence definitions of p. 63; those extractions and links
 are not made here. Further chapters are queued for source filing and
 problem-specific extraction. Existing modern proof pages remain the
@@ -1166,39 +1181,40 @@ results of Graham and Sós [Gr-Só (xx)] give an infinite generalized A.P. in th
 complement of any sequence $b_n$ with $b_{n+1}/b_n\ge c>2$, and that Pollington
 [Poll (xx)] very recently strengthened this by proving that no sequence $b_n$
 with $b_{k+1}/b_k\ge c>1$ for all $k$ meets every generalized A.P., the
-lacunary-sequence result the site keys to this book; the bibliography, printed p. 120, PDF p. 116, resolves
-[Poll (xx)] to Pollington, "On generalized arithmetic and geometric
-progressions", listed as to appear, and printed p. 115, PDF p. 111, resolves
-[Gr-Só (xx)] to "Graham, R. L. and V. T. Sós (To appear)" without a title;
-no de Mathan entry (printed pp. 110 and 118, PDF pp. 106 and 114)),
-[[../wiki/problems/integer_sequences/E0438/_index|#438]] (printed p. 87, PDF p. 83, page
-image: the question how large $A=\{a_1,\ldots,a_k\}\subseteq[1,n]$ can be with
-no sum $a_i+a_j$ a square, the integers $\equiv1\pmod3$ showing that $k$ can be
-as large as $n/3$, and the remark that $k$ can in fact be significantly larger,
-with a pointer to the Added in proof, p. 107; the Added in proof (ii) (printed p. 107, PDF p. 103, page image) records eleven
-residue classes modulo $32$ no two of which sum to a square modulo $32$,
-so $k\ge11n/32$, and the Lagarias--Odlyzko--Shearer theorem that
-$|S|\le11n/32$ when $S\subseteq\mathbf Z_n$ and $S+S$ contains no square
-of $\mathbf Z_n$, "best possible for the modular version of the problem"),
+lacunary-sequence result erdosproblems.com keys to this book; the bibliography,
+printed p. 120, PDF p. 116, resolves [Poll (xx)] to Pollington, "On generalized
+arithmetic and geometric progressions", listed as to appear, and printed p. 115,
+PDF p. 111, resolves [Gr-Só (xx)] to "Graham, R. L. and V. T. Sós (To appear)"
+without a title; no de Mathan entry (printed pp. 110 and 118, PDF pp. 106 and
+114)), [[../wiki/problems/integer_sequences/E0438/_index|#438]] (printed p. 87,
+PDF p. 83, page image: the question how large
+$A=\{a_1,\ldots,a_k\}\subseteq[1,n]$ can be with no sum $a_i+a_j$ a square, the
+integers $\equiv1\pmod3$ showing that $k$ can be as large as $n/3$, and the
+remark that $k$ can in fact be significantly larger, with a pointer to the Added
+in proof, p. 107; the Added in proof (ii) (printed p. 107, PDF p. 103, page
+image) records eleven residue classes modulo $32$ no two of which sum to a
+square modulo $32$, so $k\ge11n/32$, and the Lagarias--Odlyzko--Shearer theorem
+that $|S|\le11n/32$ when $S\subseteq\mathbf Z_n$ and $S+S$ contains no square of
+$\mathbf Z_n$, "best possible for the modular version of the problem"),
 [[../wiki/problems/number_theory/E0034/_index|#34]] (printed p. 58, PDF p. 54, page
 image: the permutation sentence quoted above, the affirmative form of the
-site's question, in the closing paragraph of the completeness chapter),
-[[../wiki/problems/integer_sequences/E0356/_index|#356]] (printed p. 58, PDF p. 54, page
-image: whether the block sums $\sum_{i=u}^va_i$ of a sequence
-$a_1<\ldots<a_k\le n$ of integers can take $cn^2$ distinct values for some
-$c>0$, which they do not for $a_i=i$, the problem's question, followed by the permutation variant recorded above for Problem 34 and by the
-questions how long a run of consecutive integers above $n$ the sums can cover
-and whether it can reach $cn$ for every $c>0$; the problem page's
-references do not include this monograph),
-[[../wiki/problems/integer_sequences/E0357/_index|#357]] (printed pp. 58--59, PDF pp. 54--55,
-page images: the Erdős--Harzheim question described above, on the largest
-$k$ for which $1\le a_1<\ldots<a_k\le n$ can have all consecutive-block sums
-$\sum_{i=u}^va_i$ distinct and whether $k=o(n)$, with its variants dropping
-monotonicity or distinctness; the least $m$ not of the form
-$\sum_{i=u}^va_i$ and whether it can greatly exceed $n$; the authors' bound
-$\sum_{x<a_i<x^2}1/a_i<c$; and whether $\sum_i1/a_i$ is bounded independently
-of $n$: the problem's question with its two variants and the reciprocal-sum
-questions; the problem page's references do not include this
+erdosproblems.com question, in the closing paragraph of the completeness
+chapter), [[../wiki/problems/integer_sequences/E0356/_index|#356]] (printed p.
+58, PDF p. 54, page image: whether the block sums $\sum_{i=u}^va_i$ of a
+sequence $a_1<\ldots<a_k\le n$ of integers can take $cn^2$ distinct values for
+some $c>0$, which they do not for $a_i=i$, the problem's question, followed by
+the permutation variant recorded above for Problem 34 and by the questions how
+long a run of consecutive integers above $n$ the sums can cover and whether it
+can reach $cn$ for every $c>0$; the problem page's references do not include
+this monograph), [[../wiki/problems/integer_sequences/E0357/_index|#357]]
+(printed pp. 58--59, PDF pp. 54--55, page images: the Erdős--Harzheim question
+described above, on the largest $k$ for which $1\le a_1<\ldots<a_k\le n$ can
+have all consecutive-block sums $\sum_{i=u}^va_i$ distinct and whether $k=o(n)$,
+with its variants dropping monotonicity or distinctness; the least $m$ not of
+the form $\sum_{i=u}^va_i$ and whether it can greatly exceed $n$; the authors'
+bound $\sum_{x<a_i<x^2}1/a_i<c$; and whether $\sum_i1/a_i$ is bounded
+independently of $n$: the problem's question with its two variants and the
+reciprocal-sum questions; the problem page's references do not include this
 monograph),
 [[../wiki/problems/integer_sequences/E0839/_index|#839]] (printed pp. 58--59, 94--95 and
 102, PDF pp. 54--55, 90--91 and 98, page images: the consecutive-sum questions
@@ -1237,23 +1253,23 @@ image: $F(n)$, the largest size of a non-averaging subset of
 $\{1,\ldots,n\}$, one in which no element is the average of other elements;
 the Erdős--Straus bounds [Er-Str (70)] $\exp(c\sqrt{\log n})<F(n)<n^{2/3}$;
 Abbott's lower bound $F(n)>n^{1/10}$ [Ab (75)], which the book calls
-unexpected; and the open question of the true exponent; the site's key
-[ErGr80, p. 18]),
+unexpected; and the open question of the true exponent; the erdosproblems.com
+key [ErGr80, p. 18]),
 [[../wiki/problems/additive_combinatorics/E0350/_index|#350]] (printed p. 60, PDF p. 56, page
 image: the statement, conjectured by Erdős and proved by C. Ryavec, that a set
 of integers $1\le a_1<a_2<\ldots<a_n$ with all subset sums distinct, that is
 with $|P(A)|=2^n$, has $\sum_{i=1}^n1/a_i<2$, and the recent strengthening of
 Hanson, Steele and Stenger [Hanson-St-St (77)],
-$\sum_{i=1}^n(1/a_i)^s<1/(1-2^{-s})$ for all real $s\ge0$; the site's key
-[ErGr80, p. 60]),
+$\sum_{i=1}^n(1/a_i)^s<1/(1-2^{-s})$ for all real $s\ge0$; the erdosproblems.com
+key [ErGr80, p. 60]),
 [[../wiki/problems/additive_combinatorics/E0475/_index|#475]] (printed p. 95, PDF p. 91, page
 image: "An old question of Graham [Gr (71)] asks if for any set
 $\{a_1,\ldots,a_t\}$ of nonzero residues modulo a given prime $p$, there is
 always a rearrangement $(a_{i_1},a_{i_2},\ldots,a_{i_t})$ so that all the
-partial sums $\sum_{k=1}^ma_{i_k}$ are distinct modulo $p$?", the site's
-statement in Erdős's words, followed by the Erdős--Szemerédi result on $p$
-nonzero residues that is Problem 541's passage; the site's key
-[ErGr80, p. 95]),
+partial sums $\sum_{k=1}^ma_{i_k}$ are distinct modulo $p$?", the
+erdosproblems.com statement in Erdős's words, followed by the Erdős--Szemerédi
+result on $p$ nonzero residues that is Problem 541's passage; the
+erdosproblems.com key [ErGr80, p. 95]),
 [[../wiki/problems/additive_combinatorics/E0476/_index|#476]] (printed p. 95, PDF p. 91, page
 image: the old question of Erdős and Heilbronn [Er-He (64)], which the book
 finds surprising to be still open, whether $k$ distinct residues
@@ -1261,7 +1277,7 @@ $a_1,\ldots,a_k$ modulo $p$ have pair sums $a_i+a_j$, $i\ne j$, in at least
 $2k-3$ distinct residue classes modulo $p$, or in all of $\mathbf Z_p$ when
 $p\le2k-3$, followed by White's theorem [Wh (78)] that $k$ distinct elements of a
 group, none of whose subset sums is the identity, have at least $2k-1$
-distinct subset sums; the site's key [ErGr80, p. 95])
+distinct subset sums; the erdosproblems.com key [ErGr80, p. 95])
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

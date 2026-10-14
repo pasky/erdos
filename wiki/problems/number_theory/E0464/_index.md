@@ -5,7 +5,8 @@ desc: |
   Asks whether every lacunary sequence ($n_{k+1}\ge(1+\epsilon)n_k$) has an
   irrational $\theta$ with $\{\theta n_k\}$ not dense in $[0,1]$; proved by
   Pollington and de Mathan. Peres and Schlag give a separation of order
-  $\epsilon/\log(1/\epsilon)$, and the site's wording is trivially true.
+  $\epsilon/\log(1/\epsilon)$, and the erdosproblems.com wording is trivially
+  true.
 tags:
 - Number theory
 status: solved
@@ -43,8 +44,8 @@ $$
 
 is not dense in $[0,1]$ (where $\{x\}$ is the fractional part of $x$)?
 
-**Notes.** The site's wording is true at every instance for a trivial reason:
-the distance $\|x\|$ to the nearest integer never exceeds $1/2$, so the
+**Notes.** The erdosproblems.com wording is true at every instance for a trivial
+reason: the distance $\|x\|$ to the nearest integer never exceeds $1/2$, so the
 displayed set lies in $[0,1/2]$ for every real $\theta$ and is never dense in
 $[0,1]$; any irrational $\theta$, such as $\sqrt2$ for $A=\{2^k\}$, answers it
 yes, for every sequence $A$, without any use of lacunarity. The change replaces
@@ -59,35 +60,37 @@ the 1982 survey [Er82e], printed p. 63, restates it as "there is always an
 irrational $\alpha$ for which the fractional part of $n_k\alpha$ is not
 everywhere dense". Pollington's introduction (p. 511) quotes the question in
 the same form, with $\{x\}$ the fractional part, and de Mathan (p. 237) states
-it as density modulo $1$. The defect is the site's: no statement of Erdős uses
-the distance to the nearest integer. The trivial truth of the site's wording
-was pointed out by the AI system Aristotle while formalizing de Mathan's
-argument, as the forum account JoshuaB reported in the site's thread on 21 June
-2026 ([the comment](https://www.erdosproblems.com/forum/thread/464#post-7120)),
-proposing a modulo-one wording; the formal-conjectures file at the commit
-linked under Formalization says in its formalization notes that the printed
-wording "would be vacuously true". These observations are credited here and
-settle nothing about the modified Statement.
+it as density modulo $1$. The defect is erdosproblems.com's: no statement of
+Erdős uses the distance to the nearest integer. The trivial truth of the
+erdosproblems.com wording was pointed out by the AI system Aristotle while
+formalizing de Mathan's argument, as the forum account JoshuaB reported in the
+erdosproblems.com thread on 21 June 2026 ([the
+comment](https://www.erdosproblems.com/forum/thread/464#post-7120)), proposing a
+modulo-one wording; the formal-conjectures file at the commit linked under
+Formalization says in its formalization notes that the printed wording "would be
+vacuously true". These observations are credited here and settle nothing about
+the modified Statement.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page carries no
-last-edited date). The site cites [Er75i], [ErGr80] and [Er82e] as sources; the
-first and the last state the question in fractional parts, as quoted under
-Notes, and [ErGr80] (p. 18) records a related result of Pollington on
-generalized arithmetic progressions (Current assessment). The modified
-Statement asks that the fractional parts $\{\theta n_k\}$ avoid some interval
-of $[0,1)$, that is, that the sequence $(\theta n_k)$ not be dense modulo $1$;
-it is the statement the formal-conjectures file encodes, and the "Problem B" of
-Peres and Schlag (p. 1) asks the same non-density question for some
-$\theta\in(0,1)$, without the irrationality clause. Irrationality is a genuine
-clause: for $A=\{2^k\}$ and $\theta=1/3$ every $\|\theta n_k\|$ equals $1/3$,
-so rational multipliers can satisfy the separation, and a source covers the
-clause only if it produces an irrational $\theta$. The sources prove the
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+carries no last-edited date). erdosproblems.com cites [Er75i], [ErGr80] and
+[Er82e] as sources; the first and the last state the question in fractional
+parts, as quoted under Notes, and [ErGr80] (p. 18) records a related result of
+Pollington on generalized arithmetic progressions (Current assessment). The
+modified Statement asks that the fractional parts $\{\theta n_k\}$ avoid some
+interval of $[0,1)$, that is, that the sequence $(\theta n_k)$ not be dense
+modulo $1$; it is the statement the formal-conjectures file encodes, and the
+"Problem B" of Peres and Schlag (p. 1) asks the same non-density question for
+some $\theta\in(0,1)$, without the irrationality clause. Irrationality is a
+genuine clause: for $A=\{2^k\}$ and $\theta=1/3$ every $\|\theta n_k\|$ equals
+$1/3$, so rational multipliers can satisfy the separation, and a source covers
+the clause only if it produces an irrational $\theta$. The sources prove the
 stronger separation $\inf_k\|\theta n_k\|>0$, with quantitative lower bounds in
 $\epsilon$.
 
-**Status.** Proved. The site's label PROVED (LEAN) describes the site's wording,
-which is trivially true (Notes). The label is right for the modified Statement
-as well. The suffix is a catalog label explained under Formalization below.
+**Status.** Proved. The erdosproblems.com label PROVED (LEAN) describes the
+erdosproblems.com wording, which is trivially true (Notes). The label is right
+for the modified Statement as well. The suffix is a catalog label explained
+under Formalization below.
 
 Pollington's Theorem [Po79b] (Illinois J. Math. 23 (1979), refereed) applies to
 every sequence of positive numbers with consecutive ratios at least $\alpha>1$.
@@ -112,9 +115,9 @@ Katznelson's Theorem 1.2 [Ka01] (Combinatorica 21 (2001), refereed) gives the
 separation again. Its Claim 2 gives the set of multipliers with a positive
 separation Hausdorff dimension 1, so the same uncountability line supplies an
 irrational $\theta$. Pollington (p. 511), Katznelson (p. 212), Erdős's 1982
-restatement (p. 63) and the site attest that the two original solutions are
-independent. Peres and Schlag (p. 2) credit both without saying so. The three
-results are the accepted claim pages
+restatement (p. 63) and erdosproblems.com attest that the two original solutions
+are independent. Peres and Schlag (p. 2) credit both without saying so. The
+three results are the accepted claim pages
 [[problems/number_theory/E0464/claims/1979_12_01_pollington|Pollington 1979]],
 [[problems/number_theory/E0464/claims/1980_09_01_de_mathan|de Mathan 1980]] and
 [[problems/number_theory/E0464/claims/2001_04_01_katznelson|Katznelson 2001]].
@@ -140,8 +143,8 @@ multiplier. These three results settle no instance of the question and have no
 claim pages.
 
 **Source.** [erdosproblems.com/464](https://www.erdosproblems.com/464),
-accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's note
-that the answer is affirmative and the proof has been checked in Lean; no
+accessed 2026-09-18: the problem page (PROVED (LEAN), with the erdosproblems.com
+note that the answer is affirmative and the proof has been checked in Lean; no
 last-edited date; source keys [Er75i], [ErGr80], [Er82e]; commentary citing
 [dM80], [Po79b], [Ka01], [AkMo04], [Du06], [PeSc10] and Problem 894),
 its one-comment discussion thread (21 June 2026) and its empty proof-claim
@@ -153,8 +156,8 @@ https://www.erdosproblems.com/464, accessed 2026-09-18.
 - [Er75i] Erdős, P., Problems and results on diophantine approximations
   (II). In Répartition modulo 1 (Actes du Colloque de Marseille-Luminy
   1974), Lecture Notes in Mathematics 475, Springer, 1975, pp. 89--99. The
-  site's reference text (its reference service, accessed 2026-09-18) names
-  the volume alone ("Répartition modulo 1. (1975), iv+258"); the other
+  erdosproblems.com reference text (its reference service, accessed 2026-09-18)
+  names the volume alone ("Répartition modulo 1. (1975), iv+258"); the other
   sources identify Erdős's chapter in it ([Du06], reference [14], with
   pp. 89--99; [Er82e], reference list on p. 63, with pp. 89--97, two pages
   short of the chapter's printed pp. 89--99; Pollington's introduction names
@@ -168,7 +171,7 @@ https://www.erdosproblems.com/464, accessed 2026-09-18.
   crediting Pollington. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Er82e] Erdős, P., Some of my favourite problems which recently have been
-  solved. (1982), 59--79 (the site's text). Printed p. 63: Erdős's
+  solved. (1982), 59--79 (the erdosproblems.com text). Printed p. 63: Erdős's
   restatement and announcement. Library home:
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 - [Po79b] Pollington, A. D., On the density of sequence $\{n_k\xi\}$.
@@ -215,7 +218,8 @@ https://www.erdosproblems.com/464, accessed 2026-09-18.
   2026-09-18; the paper not read). A lead on the quantitative question, named
   with its identifier.
 
-**Formalization.** The site's (LEAN) suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
+file
 [`ErdosProblems/464.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/464.lean)
 of formal-conjectures, pinned in the link at the commit current on 2026-09-18,
 declares
@@ -227,8 +231,8 @@ that the conclusion is rendered as the sequence $(\theta n_k)$ not being dense
 modulo one, "implied by the $\inf_{k\ge1}\|\theta n_k\|>0$ that de Mathan and
 Pollington prove"; the lacunarity hypothesis is the repository's predicate
 `IsLacunary` (some $c>1$ with $c\,n_k<n_{k+1}$ for all large $k$), implied by
-the site's condition. So the file states the modified Statement, with the
-irrationality clause. The external file, `problems/464/Erdos464.lean` in the
+erdosproblems.com's condition. So the file states the modified Statement, with
+the irrationality clause. The external file, `problems/464/Erdos464.lean` in the
 repository `Jayyhk/erdos-lean` at the commit pinned on de Mathan's claim page
 (committer date 5 August 2026; 49,043 bytes, 950 lines, imports Mathlib),
 proves the right-hand side as a standalone `theorem erdos_464` from a
@@ -241,20 +245,20 @@ closing `#print axioms` comment lists `propext`, `Classical.choice` and
 nothing was built or audited here and no kernel credit is claimed. The
 community database (teorth/erdosproblems, accessed 2026-09-18) lists the
 problem as `proved (Lean)` as of its last update on 21 June 2026, with the
-statement formalized since 22 July 2026, and no formal-proof URL. The site's
-thread comment of 21 June 2026 reports that the AI system Aristotle, given de
-Mathan's paper, formalized, for lacunary $n_k$, a $\theta$ with $0$ outside the
-closure of $\{\|\theta n_k\|:k\ge1\}$, which the comment says "corresponds to
-the argument that proves Theorem 1 Part 1 of de Mathan" (the existence
-statement of p. 237, before its Hausdorff-dimension clause), and flagged the
-wording. The file is linked from de Mathan's claim page as a formalization of
-its result.
+statement formalized since 22 July 2026, and no formal-proof URL. The
+erdosproblems.com thread comment of 21 June 2026 reports that the AI system
+Aristotle, given de Mathan's paper, formalized, for lacunary $n_k$, a $\theta$
+with $0$ outside the closure of $\{\|\theta n_k\|:k\ge1\}$, which the comment
+says "corresponds to the argument that proves Theorem 1 Part 1 of de Mathan"
+(the existence statement of p. 237, before its Hausdorff-dimension clause), and
+flagged the wording. The file is linked from de Mathan's claim page as a
+formalization of its result.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; PROVED
-(LEAN). The commentary credits de Mathan [dM80] and Pollington [Po79b] with
-independent solutions giving, for every such $A$, a $\theta$ with
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED (LEAN). The commentary credits de Mathan [dM80] and Pollington
+[Po79b] with independent solutions giving, for every such $A$, a $\theta$ with
 $\inf_{k\ge1}\|\theta n_k\|\gg\epsilon^4/\log(1/\epsilon)$, lists the
 improvements of the bound by Katznelson [Ka01], Akhunzhanov and Moshchevitin
 [AkMo04] and Dubickas [Du06] and then Peres and Schlag's [PeSc10] bound
@@ -358,7 +362,7 @@ is $\theta\in(0,1)$ with $\inf_{j\ge1}\|\theta n_j\|>c\epsilon
 |\log\epsilon|^{-1}$, $c$ a universal constant; "up to the
 $|\log\epsilon|^{-1}$ factor, (1.2) cannot be improved" (the initial segment
 $n_j=j$, $j\le\lfloor\epsilon^{-1}\rfloor$). The paper's p. 2 reports the
-history the site repeats: de Mathan and Pollington
+history erdosproblems.com repeats: de Mathan and Pollington
 $c\epsilon^4|\log\epsilon|^{-1}$, Katznelson $c\epsilon^2|\log\epsilon|^{-1}$
 (1.1), Akhunzhanov and Moshchevitin without the logarithm, "see also Dubickas
 [4]". For $\epsilon\ge1/4$ the theorem applies with $\epsilon'=1/5$, since the
@@ -397,7 +401,7 @@ separation is Problem 894's question, compiled on that page.
 the solutions, or a bound better than $\epsilon/\log(1/\epsilon)$ for the
 separation.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   reference service's text for [Er75i]; formal-conjectures at the pinned
   commit and the external Lean file at its pinned commit (statement and
   closing lines); the community database.
@@ -421,13 +425,13 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not read: [AkMo04], [St25]
 beyond its record, Wagner 1980, Strzelecki 1975, de Mathan's 1978 Comptes
 Rendus note.
 
-**Remaining gaps.** (1) The site's wording is trivially true; the page judges
-the modified Statement, which is proved (Notes and Status). (2) De Mathan's
-Theorem 1 and Corollary 1 are cited first-hand, and the paper prints no
+**Remaining gaps.** (1) The erdosproblems.com wording is trivially true; the
+page judges the modified Statement, which is proved (Notes and Status). (2) De
+Mathan's Theorem 1 and Corollary 1 are cited first-hand, and the paper prints no
 separation bound in terms of $\lambda-1$, so the $\epsilon^4/\log(1/\epsilon)$
-that the site and Peres--Schlag attribute to de Mathan and Pollington is their
-reading of the proofs, and the paper's displayed choices give a weaker order, a
-filing observation recorded on its card and not resolved here.
+that erdosproblems.com and Peres--Schlag attribute to de Mathan and Pollington
+is their reading of the proofs, and the paper's displayed choices give a weaker
+order, a filing observation recorded on its card and not resolved here.
 Akhunzhanov--Moshchevitin's paper is not read; its statement is second-hand
 through Peres--Schlag and Dubickas. Katznelson's Theorem 1.2 and Claims 1--2
 are cited first-hand, and the paper's printed footnote bound
@@ -439,10 +443,11 @@ printed as $n_{k+1}/n_k>c>1$ where Pollington writes $\ge\alpha>1$. (4) Proof
 coverage: claims checked for Pollington's Theorem and Corollary,
 Peres--Schlag's Theorem 1.1 and Dubickas's Theorem 1; the proofs were read for
 structure only; nothing is independently reviewed; the Lean files are pointers
-inspected statically. (5) The quantitative question, whether $\inf_k\|\theta
-n_k\|\gg\epsilon$ is attainable, is open (the site's remark; [St25] is a lead
-not read). (6) The [ErGr80] passage credits a Pollington paper on generalized
-progressions "to appear", not identified with [Po79b] here.
+inspected statically. (5) The quantitative question, whether
+$\inf_k\|\theta n_k\|\gg\epsilon$ is attainable, is open (the erdosproblems.com
+remark; [St25] is a lead not read). (6) The [ErGr80] passage credits a
+Pollington paper on generalized progressions "to appear", not identified with
+[Po79b] here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

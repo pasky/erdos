@@ -4,7 +4,8 @@ title: Conditional finiteness of the exceptions by an entropy-sieve method
 desc: |
   A 2025 preprint by Rafik Zeraoulia claims that only finitely many integers
   lack the form, under a uniformity hypothesis that it says follows from the
-  Elliott-Halberstam conjecture or GRH. The site's thread disputes it.
+  Elliott-Halberstam conjecture or GRH. The erdosproblems.com thread disputes
+  it.
 authors:
 - Rafik Zeraoulia
 status: claimed
@@ -51,7 +52,7 @@ claimant's later postings predict infinitely many exceptions. A thread post of
 [[problems/diophantine_problems/E0676/claims/2026_07_25_zeraoulia|the 2026 write-up]]
 conjectures $x^{2/3+o(1)}$ exceptions in the version with any modulus. No
 acceptance evidence is on record: there is no journal publication, review or
-formalization, and the site labeled the problem OPEN.
+formalization, and Bloom's catalog labeled the problem OPEN.
 
 **Depends on.** No other wiki page; the claim rests on the preprint and its
 unproved hypothesis.

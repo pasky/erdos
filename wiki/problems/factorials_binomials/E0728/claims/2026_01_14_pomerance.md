@@ -88,11 +88,11 @@ the reply relayed on 2026-01-11 was that the ideas of the 2015 paper give the
 result and that no printed source was known. Only the 2015 method came before
 the AI-generated proof, and Sothanaphan's writeup of that proof records the
 two arguments as very similar. A first version of the note, titled *A
-remark on the middle binomial coefficient*, was announced in the site's
-thread on 2026-01-14, the date of this page; a gap in its Lemma 2.1 (the
-carry frequency for $p=3$) was pointed out in the thread on 2026-01-23 and
-repaired in the revision of 2026-01-27 linked above, whose constants the
-published paper keeps.
+remark on the middle binomial coefficient*, was announced in the
+erdosproblems.com thread on 2026-01-14, the date of this page; a gap in its
+Lemma 2.1 (the carry frequency for $p=3$) was pointed out in the thread on
+2026-01-23 and repaired in the revision of 2026-01-27 linked above, whose
+constants the published paper keeps.
 
 **Formalization.** The Lean file `Erdos728p.lean` in Boris Alexeev's
 repository of formalized Erdős problems, linked above at the pinned commits
@@ -114,6 +114,6 @@ constants. This corpus has not built or audited it, so the page lists no
 
 **Acceptance.** The paper appeared in Integers, a refereed journal, which the
 page lists as `refereed`. Its acknowledgments thank four mathematicians for
-comments and for pointing out errors. The site's curator credits Barreto and
-ChatGPT-5.2 for the problem's resolution and does not mention this paper, so no
-`reviewed` evidence is listed.
+comments and for pointing out errors. The erdosproblems.com curator credits
+Barreto and ChatGPT-5.2 for the problem's resolution and does not mention this
+paper, so no `reviewed` evidence is listed.

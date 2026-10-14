@@ -50,7 +50,7 @@ $$
 
 as $x\to\infty$, uniformly over $x/2<y<x$; the question of
 [[problems/primes/E1138/_index|Problem 1138]] asks whether $A(C)$ holds for
-every $C>1$, and this is the reading the paper, the site and the Lean
+every $C>1$, and this is the reading the paper, erdosproblems.com and the Lean
 statement in `google-deepmind/formal-conjectures` take. Theorem 1.2 of the
 paper: if $1<C_1<C_2$ and $C_2-C_1<1/2$, then $A(C_1)$ and $A(C_2)$ cannot
 both hold. Corollary 3.1: $A(C)$ fails for some $C>1$, so the answer to the
@@ -66,34 +66,36 @@ $(y_k,y_k+C_2D_k]$ and $(z_k,z_k+C_1D_k]$ share their right endpoint, and
 neither $(y_k,z_k]$ nor the gap below contains a prime, so both contain the
 same number of primes. If $A(C_1)$ and $A(C_2)$ both held, that common count
 would be asymptotic to $C_2D_k/\log y_k$ and to $C_1D_k/\log z_k$ at once;
-as $z_k/y_k\to 1$, this forces $C_2/C_1=1$, a contradiction. The site's
-remark records a shorter variant: with $x=p_n+1$ and $y=p_n-2d$ for a record
-gap $d=p_{n+1}-p_n$, the counts for $C=2$ and for any $2<C<3$ coincide.
+as $z_k/y_k\to 1$, this forces $C_2/C_1=1$, a contradiction. The
+erdosproblems.com remark records a shorter variant: with $x=p_n+1$ and
+$y=p_n-2d$ for a record gap $d=p_{n+1}-p_n$, the counts for $C=2$ and for any
+$2<C<3$ coincide.
 
 The disproof settles the question as posed, for every $C>1$ at once. Whether
 $A(C)$ fails for every single $C>1$ is open: the obstruction rules out two
-constants close together, and the site's discussion notes that a lattice
-$L\mathbb Z$ of surviving constants with $L>1$ is not excluded (constants
-exactly $1$ apart are ruled out as well: at a record gap $d$ their counts
-differ by one prime while the predicted main terms differ by $d/\log y$,
+constants close together, and the erdosproblems.com discussion notes that a
+lattice $L\mathbb Z$ of surviving constants with $L>1$ is not excluded
+(constants exactly $1$ apart are ruled out as well: at a record gap $d$ their
+counts differ by one prime while the predicted main terms differ by $d/\log y$,
 which tends to infinity); the behavior when $C$ grows slowly with $x$ is
 also open. Neither is part of this claim.
 
-**Acceptance.** The site's curator, Thomas F. Bloom, marked Problem 1138
-disproved and credits the result to Sunder, Kumrawat and Cheri together with GPT
-5.5. This is the `reviewed` evidence. The paper is H. Sunder, S. Kumrawat and K.
-Cheri, *An elementary obstruction to a uniform prime-gap asymptotic*, dated
-April 2026 and posted on the second author's page. It was announced in the
-site's discussion on 25 April 2026, the date of this page. In that announcement
-the authors state that GPT-5.5 Pro and GPT-5.5 Thinking were used in developing
-and checking the argument. The paper itself names no AI system. The three human
-authors are the claimants here, and the system is named as they name it. No
-journal publication is recorded, so no `refereed` evidence is listed.
+**Acceptance.** The erdosproblems.com curator, Thomas F. Bloom, marked Problem
+1138 disproved and credits the result to Sunder, Kumrawat and Cheri together
+with GPT 5.5. This is the `reviewed` evidence. The paper is H. Sunder, S.
+Kumrawat and K. Cheri, *An elementary obstruction to a uniform prime-gap
+asymptotic*, dated April 2026 and posted on the second author's page. It was
+announced in the erdosproblems.com discussion on 25 April 2026, the date of this
+page. In that announcement the authors state that GPT-5.5 Pro and GPT-5.5
+Thinking were used in developing and checking the argument. The paper itself
+names no AI system. The three human authors are the claimants here, and the
+system is named as they name it. No journal publication is recorded, so no
+`refereed` evidence is listed.
 
 **Formalization.** Three Lean developments formalize the disproof, each
 following the paper, so they are links on this page and not claims of their
-own. The first, posted in the site's discussion on 4 May 2026 by Lorenzo
-Luccioli and generated with Aristotle (Harmonic), pinned at the gist
+own. The first, posted in the erdosproblems.com discussion on 4 May 2026 by
+Lorenzo Luccioli and generated with Aristotle (Harmonic), pinned at the gist
 revision in the link, proves Theorem 1.2 and Corollary 3.1 for its own
 definitions. The second, `1138a.lean` in Yan Yablonovskiy's fork of
 `formal-conjectures`, pinned at the commit of 22 June 2026, reuses the

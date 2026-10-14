@@ -31,10 +31,10 @@ $$
 m(f)=\min_{\lvert z\rvert=1}\lvert f(z)\rvert?
 $$
 
-**Status.** Solved. The site's label was PROVED. The derived standing is
-`solved`/`answered`. Both questions are answered. The first is answered yes. The
-second asks for the behavior of $m(f)$, which a limit law determines rather than
-proves or disproves.
+**Status.** Solved. The erdosproblems.com label was PROVED. The derived standing
+is `solved`/`answered`. Both questions are answered. The first is answered yes.
+The second asks for the behavior of $m(f)$, which a limit law determines rather
+than proves or disproves.
 
 Kashin proved the bound $m(f)\le n^{1/2}(\log n)^{-1/3}$ in 1987. Konyagin then
 proved in 1994 that $m(f)\le n^{-1/2+o(1)}$ for all but $o(2^n)$ of the sign
@@ -48,10 +48,11 @@ that scale. All of these results are refereed. The accepted claim pages are
 [[problems/polynomials/E0525/claims/1999_08_27_konyagin_schlag|Konyagin and Schlag 1999]]
 and
 [[problems/polynomials/E0525/claims/2021_01_18_cook_nguyen|Cook and Nguyen 2021]],
-the last of scope full. The site's commentary credits the first question to
-Kashin. The account in Konyagin's paper contradicts this, as the Current
-assessment records. The site's page links a formalized statement in
-formal-conjectures. No formal proof is built or audited in this repository.
+the last of scope full. The erdosproblems.com commentary credits the first
+question to Kashin. The account in Konyagin's paper contradicts this, as the
+Current assessment records. The erdosproblems.com page links a formalized
+statement in formal-conjectures. No formal proof is built or audited in this
+repository.
 
 **Source.** [erdosproblems.com/525](https://www.erdosproblems.com/525), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #525,
@@ -83,14 +84,14 @@ records what the corpus has and has not checked.
 
 ## Current assessment
 
-**The questions (site formulation of 2026-09-04).** First,
+**The questions (erdosproblems.com formulation of 2026-09-04).** First,
 whether all but $o(2^n)$ of the degree-$n$ polynomials $f$ with $\pm1$
 coefficients have $|f(z)|<1$ somewhere on the unit circle; second, how the
-minimum modulus $m(f)=\min_{|z|=1}|f(z)|$ behaves. PROVED (the site's label).
-The site's commentary notes that the first question asks whether $m(f)<1$
-almost surely, states that Littlewood [Li66] conjectured the stronger
-$m(f)=o(1)$ almost surely, and answers both questions yes: it credits Kashin
-[Ka87] with Littlewood's conjecture, Konyagin [Ko94] with the sharpening
+minimum modulus $m(f)=\min_{|z|=1}|f(z)|$ behaves. PROVED (the erdosproblems.com
+label). The erdosproblems.com commentary notes that the first question asks
+whether $m(f)<1$ almost surely, states that Littlewood [Li66] conjectured the
+stronger $m(f)=o(1)$ almost surely, and answers both questions yes: it credits
+Kashin [Ka87] with Littlewood's conjecture, Konyagin [Ko94] with the sharpening
 $m(f)\le n^{-1/2+o(1)}$, Konyagin and Schlag [KoSc99] with showing this
 essentially best possible, and Cook and Nguyen [CoNg21] with the limiting
 distribution.
@@ -102,12 +103,12 @@ Kashin's theorem as $\mathbb{P}(m(f)>n^{1/2}(\log n)^{-1/3})\to0$, followed
 by Odlyzko's unpublished $n^{1/3+\varepsilon}$ and Konyagin's own
 $n^{-1/2+\varepsilon}$. A bound that grows with $n$ gives neither $m(f)<1$
 nor $m(f)=o(1)$, so on Konyagin's account Kashin settles neither question
-and the first question is first answered by Konyagin's bound. The site's
-commentary, the introduction of Cook and Nguyen's paper (pp. 1–2) and the
-formal-conjectures statement file (its variant `erdos_525.variants.kashin`)
-state Littlewood's question as $m(f)=o(1)$ and credit Kashin. Kashin's paper
-is not held, so the conflict is recorded rather than resolved; the pages
-follow Konyagin's account, which names the bound.
+and the first question is first answered by Konyagin's bound. The
+erdosproblems.com commentary, the introduction of Cook and Nguyen's paper (pp.
+1–2) and the formal-conjectures statement file (its variant
+`erdos_525.variants.kashin`) state Littlewood's question as $m(f)=o(1)$ and
+credit Kashin. Kashin's paper is not held, so the conflict is recorded rather
+than resolved; the pages follow Konyagin's account, which names the bound.
 
 **Standing.** Four accepted claims, all refereed. Three are partial, each a
 bound proved: [[problems/polynomials/E0525/claims/1987_01_01_kashin|Kashin 1987]] gives $m(f)\le n^{1/2}(\log n)^{-1/3}$ with probability
@@ -137,25 +138,25 @@ authors' statement that the arguments extend to odd degree. The problem's
 standing follows from the full claim. Konyagin's and Cook and Nguyen's
 statements are checked against their papers; Kashin's and Konyagin and
 Schlag's papers are not held and are recorded as Konyagin's introduction,
-the publisher's abstract, the site and Cook and Nguyen's introduction state
-them. No proof is compiled in this wiki.
+the publisher's abstract, erdosproblems.com and Cook and Nguyen's introduction
+state them. No proof is compiled in this wiki.
 
-**Formalization.** The site's page links a formalized statement (accessed
-2026-10-07). The formal-conjectures statement file, pinned above at the commit
-that last changed it, states each question as a theorem pointing to a Lean 4
-file in the lean-proofs repository as its proof, the second with the constant
-$\sqrt{\pi/12}$, and three variants without proof pointers: Littlewood's
-conjecture as $m(f)=o(1)$, attributed to Kashin against Konyagin's account,
-Konyagin's upper bound and Konyagin and Schlag's lower bound. The lean-proofs
-file declares itself a formalization of Cook and Nguyen's solution and proves
-the limit law in the degree normalization, with that constant, together with the
-$o(2^n)$ count of the first question; the claim page links it at its pinned
-commit. No formal proof is built or audited in this repository, and no
-`formalized` evidence is listed.
+**Formalization.** The erdosproblems.com page links a formalized statement
+(accessed 2026-10-07). The formal-conjectures statement file, pinned above at
+the commit that last changed it, states each question as a theorem pointing to a
+Lean 4 file in the lean-proofs repository as its proof, the second with the
+constant $\sqrt{\pi/12}$, and three variants without proof pointers:
+Littlewood's conjecture as $m(f)=o(1)$, attributed to Kashin against Konyagin's
+account, Konyagin's upper bound and Konyagin and Schlag's lower bound. The
+lean-proofs file declares itself a formalization of Cook and Nguyen's solution
+and proves the limit law in the degree normalization, with that constant,
+together with the $o(2^n)$ count of the first question; the claim page links it
+at its pinned commit. No formal proof is built or audited in this repository,
+and no `formalized` evidence is listed.
 
-**Search scope and read depth.** Search scope: the site's problem page and its
-thread (empty on 2026-10-07), the formal-conjectures file and the lean-proofs
-file; the arXiv record of Cook and Nguyen's paper for its posting
+**Search scope and read depth.** Search scope: the erdosproblems.com problem
+page and its thread (empty on 2026-10-07), the formal-conjectures file and the
+lean-proofs file; the arXiv record of Cook and Nguyen's paper for its posting
 dates and license, the publisher's record of Konyagin and Schlag's paper for
 its received and publication dates and abstract, and the arXiv posting of
 Yakir and Zeitouni's paper for its Theorems 1 and 2. Read depth: Konyagin
@@ -176,7 +177,7 @@ wiki.
 - [Ka87], Kashin: $\mathbb{P}(m(f)>n^{1/2}(\log n)^{-1/3})\to0$ for random
   $\pm1$ coefficients, as Konyagin's introduction records it, proving
   Littlewood's conjecture in the form $\mathbb{P}(m(f)>\varepsilon\sqrt n)\to0$;
-  the site and Cook and Nguyen state the conjecture as $m(f)=o(1)$ and
+  erdosproblems.com and Cook and Nguyen state the conjecture as $m(f)=o(1)$ and
   credit Kashin with it.
 - [Ko94], Konyagin, Theorem 1: for every $\varepsilon>0$,
   $\mathbb{P}(m(f)>n^{-1/2+\varepsilon})\to0$; hence $m(f)<1$ for all but

@@ -4,8 +4,8 @@ title: The distribution of t_n follows the largest prime factor
 desc: |
   Bui, Pratt and Zaharescu show that $t_n\le n^c$ holds for the same proportion
   of integers as the bound $P(n)\le n^c$ on the largest prime factor, and they
-  give upper and lower bounds on $t_n$. The paper is refereed, and the site's
-  curator labeled the problem solved.
+  give upper and lower bounds on $t_n$. The paper is refereed, and the
+  erdosproblems.com curator labeled the problem solved.
 authors:
 - Hung M. Bui
 - Kyle Pratt
@@ -52,9 +52,9 @@ $$
 
 with an effective constant. These results answer the estimate that
 [[problems/diophantine_problems/E0841/_index|Problem 841]] asks for, in the
-reading the site gives it, and refute Granville's expectation that $t_n>n^c$
-should hold for some fixed $c>0$. The paper's abstract and introduction are
-written in these terms; the library card is
+reading erdosproblems.com gives it, and refute Granville's expectation that
+$t_n>n^c$ should hold for some fixed $c>0$. The paper's abstract and
+introduction are written in these terms; the library card is
 [[../library/diophantine_problems/bui_2024_problem_erdos_graham_granville_selfridge_integral/_index|Bui, Pratt and Zaharescu 2024]].
 
 **Earlier results.** If a prime $p$ divides $n$ to an odd power, every subset
@@ -62,21 +62,23 @@ of $\{n+1,\ldots,n+t\}$ whose product with $n$ is a square must contain a
 multiple $n+j$ of $p$, so $p\mid j$ and $t_n\ge p$; in particular
 $t_n\ge P(n)$ whenever $P(n)$ divides $n$ exactly once, for example whenever
 $P(n)>\sqrt n$. Without that condition the bound fails: for $n=242=2\cdot11^2$
-the product $242\cdot245\cdot250=3850^2$ gives $t_{242}=8<11$ (the site's
-commentary states $t_n\ge P(n)$ for every $n$, which is too strong).
+the product $242\cdot245\cdot250=3850^2$ gives $t_{242}=8<11$ (the
+erdosproblems.com commentary states $t_n\ge P(n)$ for every $n$, which is too
+strong).
 [[problems/diophantine_problems/E0841/claims/2001_01_15_granville_selfridge|Granville and Selfridge]]
 (Electron. J. Combin. 8 (2001), Corollary 1, cited by the paper) proved that
 $t_n=P(n)$ whenever $P(n)>\sqrt{2n}+1$, and Guy's B30
 ([[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|Guy 2004]],
-pp. 128–129) reports Selfridge's bound $t_n\le\max(P(n),3\sqrt n)$. The site's
-commentary records that Erdős first asked whether the integers with
-$t_n\ge n^{1-o(1)}$ have density zero. These are the background to the claim,
-not part of it.
+pp. 128–129) reports Selfridge's bound $t_n\le\max(P(n),3\sqrt n)$. The
+erdosproblems.com commentary records that Erdős first asked whether the integers
+with $t_n\ge n^{1-o(1)}$ have density zero. These are the background to the
+claim, not part of it.
 
-**Acceptance.** The site's curator, Thomas Bloom, labeled the problem solved and
-credits the result to Bui, Pratt and Zaharescu in the page's commentary. This is
-the `reviewed` evidence. The paper appeared in Math. Proc. Cambridge Philos.
-Soc. 176 (2024), no. 2, 309–323, which is the `refereed` evidence.
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, labeled the problem
+solved and credits the result to Bui, Pratt and Zaharescu in the page's
+commentary. This is the `reviewed` evidence. The paper appeared in Math. Proc.
+Cambridge Philos. Soc. 176 (2024), no. 2, 309–323, which is the `refereed`
+evidence.
 
 **Formalization.** Boris Alexeev's `lean-proofs` repository holds, at the
 pinned commit linked above, a Lean development of the paper's results whose
@@ -92,14 +94,14 @@ family of small values with explicit constant $20$, and the lower bound. The
 for the problem, added 2026-09-21, tags its `erdos_841` declaration and four
 variants as research solved, points each at this development and says the
 formalization is by Codex; the community database (teorth/erdosproblems)
-records the problem as formalized, while the site's label stayed SOLVED without
-a Lean marker. Since the development names the paper's results as what it
-formalizes, it is recorded as the claimants' `formalization` link. This corpus
-has not built or audited it, so it is not `formalized` evidence.
+records the problem as formalized, while the erdosproblems.com label stayed
+SOLVED without a Lean marker. Since the development names the paper's results as
+what it formalizes, it is recorded as the claimants' `formalization` link. This
+corpus has not built or audited it, so it is not `formalized` evidence.
 
 **Scope.** The statement asks for an estimate of $t_n$, an open-ended
-request. The claim is recorded as settling it because the site reads the
-distribution theorem, the bound $t_n\le\exp(O(\sqrt{\log n\log\log n}))$ for
+request. The claim is recorded as settling it because erdosproblems.com reads
+the distribution theorem, the bound $t_n\le\exp(O(\sqrt{\log n\log\log n}))$ for
 at least $x^{1-o(1)}$ integers $n\le x$, and the lower bound as the answer;
 the order of $t_n$ for an individual non-square $n$ between the two bounds is
 not determined by the paper.

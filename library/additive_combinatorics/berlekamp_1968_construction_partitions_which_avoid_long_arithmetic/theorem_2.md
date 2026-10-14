@@ -75,8 +75,8 @@ of the same paper and its proof, and Fermat's little theorem.
 
 - [[../wiki/problems/additive_combinatorics/E0138/_index|Problem 138]]: the
   theorem gives the lower bound $W(p+1)>p\,2^p$ for prime $p$, one of the
-  bounds the site's commentary cites as the record the problem asks to
-  improve. It does not show $W(k)^{1/k}\to\infty$.
+  bounds the erdosproblems.com commentary cites as the record the problem asks
+  to improve. It does not show $W(k)^{1/k}\to\infty$.
 - [[../wiki/problems/additive_combinatorics/E0169/_index|Problem 169]]: with
   the elementary comparison $f(k)\ge\frac12\log W(k)$, the theorem gives the
   linear lower bound $f(k)\ge(\frac{\log2}{2}-o(1))k$ recorded on

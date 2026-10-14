@@ -64,8 +64,8 @@ and rectification (Lev; Bilu--Lev--Ruzsa); the theory of dissociated sets.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: the site's small
-  range $t\le e^{c(\log p)^{1/4}}$, superseding
+- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]:
+  erdosproblems.com's small range $t\le e^{c(\log p)^{1/4}}$, superseding
   [[additive_combinatorics/kravitz_2024_rearranging_small_sets_distinct_partial_sums/theorem_1_2|Kravitz's Theorem 1.2]];
   refereed (Israel J. Math. 2026). Improved in exponent to $1/3$ by
   [[additive_combinatorics/costa_2026_new_bounds_weak_sequenceability/theorem_1_3|Costa and Della Fiore]].

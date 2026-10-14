@@ -51,10 +51,10 @@ bound $f(n)\ge\sqrt{n-1}$ (a graph of diameter $2$ with every degree at most
 $d$ has at most $d^2+1$ vertices), this gives
 $\sqrt{n-1}\le f(n)\le(2/\sqrt3+o(1))\sqrt n$ for all large $n$: the order of
 growth of $f(n)$ is $\sqrt n$, and $f(n)/\sqrt n$ does not tend to infinity.
-The site's commentary states this bound (read 2026-10-07); it is the smallest
-upper constant among the sources read, and the remark in Alon's note of 2 July
-2024 calls it a better upper estimate than Hanson and Seyffarth's. Section 6
-cites the earlier bound of
+The erdosproblems.com commentary states this bound (read 2026-10-07); it is the
+smallest upper constant among the sources read, and the remark in Alon's note of
+2 July 2024 calls it a better upper estimate than Hanson and Seyffarth's.
+Section 6 cites the earlier bound of
 [[problems/extremal_graph_theory/E0133/claims/1984_01_01_hanson_seyffarth|Hanson and Seyffarth]],
 which it reports as $(2+o(1))\sqrt n$ and improves. The value of
 $\lim f(n)/\sqrt n$, if it exists, lies in $[1,2/\sqrt3]$ and is not
@@ -63,9 +63,9 @@ determined by any source read; the problem does not ask for it.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication in the Journal of Graph Theory, cited with
-its venue above. The site's curator, Thomas Bloom, marked the problem DISPROVED.
-In the commentary the curator credits the bound to Füredi and Seress under the
-reference [FuSe94] (read 2026-10-07). That credit is the `reviewed` evidence,
-and Bloom took no part in the paper. No independent review of the argument was
-made here. No proof step was checked beyond the statement and the description of
-the construction.
+its venue above. The erdosproblems.com curator, Thomas Bloom, marked the problem
+DISPROVED. In the commentary the curator credits the bound to Füredi and Seress
+under the reference [FuSe94] (read 2026-10-07). That credit is the `reviewed`
+evidence, and Bloom took no part in the paper. No independent review of the
+argument was made here. No proof step was checked beyond the statement and the
+description of the construction.

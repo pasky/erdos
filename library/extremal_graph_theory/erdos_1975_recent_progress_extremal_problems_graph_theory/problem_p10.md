@@ -70,4 +70,4 @@ of Section 2) for the upper bound on $f(n,3)$.
 - [[../wiki/problems/extremal_graph_theory/E0182/_index|Problem 182]]: the 1975 origin
   statement, with the bounds $f(n,3)<cn^{8/5}$ and $f(2n+3,3)>6n$ of that
   time, and Szemerédi's variant, which asks for a spanned (induced) regular
-  subgraph; the site's commentary calls it "connected".
+  subgraph; the erdosproblems.com commentary calls it "connected".

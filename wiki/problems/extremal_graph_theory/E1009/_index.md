@@ -25,25 +25,26 @@ updated: 2026-10-08T14:06:00Z
 every graph on $n$ vertices with at least $\lfloor n^2/4\rfloor+k$ edges, where
 $k<c n$, contains at least $k-f(c)$ many edge disjoint triangles?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
-31 October 2025). The question is for fixed $c$ and all
-$n$ and all integers $k$ with $0\le k<cn$; $f(c)$ may depend on $c$ only. It
-is Erdős's question of 1971 with $f(c)$ for his $f(c_1)$
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 31 October 2025). The question is for fixed $c$ and all $n$ and all
+integers $k$ with $0\le k<cn$; $f(c)$ may depend on $c$ only. It is Erdős's
+question of 1971 with $f(c)$ for his $f(c_1)$
 ([[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_3|item 3]]:
 "to every $c_1$ there is an $f(c_1)$ so that every $G(n;[\tfrac14n^2]+k)$,
 $k<c_1n$ contains at least $k-f(c_1)$ edge disjoint triangles"). Erdős's own
 theorem is the case $c<\tfrac12$ with $f(c)=0$, and Sauer's example, which
 Erdős reports on the same page, shows that $f(c)=0$ fails for $c=2$: in the
-site's normalization a graph on $n=2r+4$ vertices with
+erdosproblems.com normalization a graph on $n=2r+4$ vertices with
 $\lfloor n^2/4\rfloor+2n-6$ edges and only $2n-7$ edge-disjoint triangles, so
 $f(2)\ge1$. The literature writes $t_2(n)=\lfloor n^2/4\rfloor$ for the
 Turán number and $\nu(G)$ for the largest number of edge-disjoint triangles.
 
-**Status.** Proved. The site credits Győri [Gy88] with the proof. As its reading
-of the paper, the site adds that $f(c)\ll c^2$, and that no loss occurs
-($f(c)=0$) when $n$ is odd and $c<2$, or when $n$ is even and $c<3/2$. The
-no-loss sentence is a statement for $n$ large in terms of $c$. The Current
-assessment records the small cases that refute it as an all-$n$ statement.
+**Status.** Proved. erdosproblems.com credits Győri [Gy88] with the proof. As
+its reading of the paper, erdosproblems.com adds that $f(c)\ll c^2$, and that no
+loss occurs ($f(c)=0$) when $n$ is odd and $c<2$, or when $n$ is even and
+$c<3/2$. The no-loss sentence is a statement for $n$ large in terms of $c$. The
+Current assessment records the small cases that refute it as an all-$n$
+statement.
 
 Győri's paper (Combinatorics (Eger, 1987), Colloq. Math. Soc. János Bolyai 52,
 North-Holland (1988), 267--276) is print-only and not held. Its theorem is
@@ -54,12 +55,12 @@ graph with $n$ vertices and $t_2(n)+k$ edges, where $n\to\infty$ and $k=o(n^2)$,
 has at least $k-O(k^2/n^2)$ edge-disjoint triangles". Its Section 5 states the
 exact no-loss ranges for large $n$. For the same ranges, the theorem is also
 attested in the refereed paper of Balogh and Wigal (arXiv:2502.16683v2, p. 10).
-With $k<cn$ the loss $O(k^2/n^2)$ is $O(c^2)$ for all large $n$, which is the
-site's $f(c)\ll c^2$ (an authored conversion below).
+With $k<cn$ the loss $O(k^2/n^2)$ is $O(c^2)$ for all large $n$, which is
+erdosproblems.com's $f(c)\ll c^2$ (an authored conversion below).
 
-The label rested on Erdős's question, the site's acceptance and the refereed
-quotation. The text of the theorem, its constants and its range of $n$ are not
-available, as the Remaining gaps below record. The claim page
+The label rested on Erdős's question, erdosproblems.com's acceptance and the
+refereed quotation. The text of the theorem, its constants and its range of $n$
+are not available, as the Remaining gaps below record. The claim page
 [[problems/extremal_graph_theory/E1009/claims/1988_01_01_gyori|Győri 1988]]
 records the result, its attestations, the acceptance evidence and the Lean
 development of 2026 that declares itself a formalization of the result. The
@@ -67,9 +68,9 @@ standing in the frontmatter is derived from it.
 
 **Source.** [erdosproblems.com/1009](https://www.erdosproblems.com/1009),
 accessed 2026-09-18: the problem page (PROVED,
-which the site glosses as an affirmative resolution; last edited 31 October
-2025; source keys [Er71, p. 98] and [Gy88]; an additional-thanks line naming
-Stijn Cambie), its two-comment discussion thread (21 and 29 October 2025)
+which erdosproblems.com glosses as an affirmative resolution; last edited 31
+October 2025; source keys [Er71, p. 98] and [Gy88]; an additional-thanks line
+naming Stijn Cambie), its two-comment discussion thread (21 and 29 October 2025)
 and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1009,
 https://www.erdosproblems.com/1009, accessed 2026-09-18.
 
@@ -116,9 +117,9 @@ https://www.erdosproblems.com/1009, accessed 2026-09-18.
   triangles in $K_4$-free graphs. Combinatorica 37 (2017), 1113--1124.
   Library home:
   [[../library/extremal_graph_theory/gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs/_index|gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs]]
-  (the arXiv version); the $K_4$-free case with no loss, the site's Problem
-  1017; its introduction does not quote [Gy88]'s general theorem, so it is
-  context on this page, not an attestation.
+  (the arXiv version); the $K_4$-free case with no loss, erdosproblems.com's
+  Problem 1017; its introduction does not quote [Gy88]'s general theorem, so it
+  is context on this page, not an attestation.
 
 **Formalization.** The file
 [`ErdosProblems/1009.lean`](https://github.com/google-deepmind/formal-conjectures/blob/4db83b1b029388f6563ac40d87104f55f41d4dbe/FormalConjectures/ErdosProblems/1009.lean)
@@ -136,7 +137,7 @@ That file's header reads "This is a Lean formalization of a solution to
 Erdős Problem 1009" and names E. Győri as informal author and Codex and
 GPT-5.6 Sol as formal authors, so it is recorded as a formalization link on
 Győri's claim page and not as a claim of its own; the page describes the
-file, which is not built in this corpus. The site's indicator says a
+file, which is not built in this corpus. The erdosproblems.com indicator says a
 formalized statement exists (accessed 2026-10-07), and the community
 database, read 2026-10-06, records the problem proved, with its last update
 dated 31 October 2025, the statement formalized since 19 September 2026 and
@@ -144,10 +145,10 @@ no formal proof.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-PROVED; last edited 31 October 2025. The site's commentary, in this page's
-words: Erdős proved the statement for $c<1/2$, with $f(c)=0$, from the
-Erdős--Gallai theorem that a graph on $n$ vertices with at least
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED; last edited 31 October 2025. The erdosproblems.com commentary, in
+this page's words: Erdős proved the statement for $c<1/2$, with $f(c)=0$, from
+the Erdős--Gallai theorem that a graph on $n$ vertices with at least
 $(n-1)^2/4+2$ edges and chromatic number $3$ contains a triangle; he first
 expected $f(c)=0$ for larger $c$, but Sauer's example shows $f(2)\ge1$
 (Sauer's graph on $n=2r+4$ vertices: three classes of sizes $r$, $r$ and
@@ -164,9 +165,9 @@ deducing at least $k-c^3$ triangles for $k<cn$; a comment of 12:48 on 29
 October 2025 corrects it: Győri's Theorem 1 gives $k-O(k^2/n^2)$ for
 $k=o(n^2)$, the quantified sentence of [BLPPPV21] may be wrong, and the
 deduction should read $\nu_3\ge k-Ck^2/n^2\ge k-Cc^2$ for $n\ge n_1(c)$ with
-$f(c)=\max\{Cc^2,n_1(c)^2\}$. Both comments are marked as addressed by the
-site, whose page was edited on 31 October 2025. There are no proof claims.
-The community database record says proved, with its last update dated 31
+$f(c)=\max\{Cc^2,n_1(c)^2\}$. Both comments are marked as addressed by
+erdosproblems.com, whose page was edited on 31 October 2025. There are no proof
+claims. The community database record says proved, with its last update dated 31
 October 2025.
 
 **Status support.** The status-defining paper [Gy88] is not held. The
@@ -182,8 +183,8 @@ evidence in hand:
   contains a triangle", Lemma 1 of [Er62d]. Item 3 prints Sauer's graph as
   "a $G(2n+4;(n+1)^2+4n+2)$ [sic] or $k=4n+2$" with "only $4n+1$ edge
   disjoint triangles"; the graph described has $(n+2)^2+4n+2$ edges, so the
-  printed total is a misprint while $k=4n+2$ and the site's figures are
-  right (the item page records the check).
+  printed total is a misprint while $k=4n+2$ and the erdosproblems.com figures
+  are right (the item page records the check).
 - The refereed quotation: [BLPPPV21], p. 8 of the arXiv copy,
   in the proof of its Lemma 11, derives the lemma's claim from "the result
   of Győri [12, Theorem 1] that a graph with $n$ vertices and $t_2(n)+k$
@@ -195,8 +196,8 @@ evidence in hand:
   Theorem 1] for the generalization to $r$-cliques, $r\ge3$. Their [12] is
   [Gy88] and [13] is Győri, Combinatorica 11 (1991), 231--243. The thread's
   second comment doubts the quantified restatement; the first sentence, with
-  a fixed implied constant, is what the site's account uses, and it is the
-  statement relied on.
+  a fixed implied constant, is what erdosproblems.com's account uses, and it is
+  the statement relied on.
 - The exact ranges: [BaWi25], p. 10: "Győri [7] proved, see [9] for minor
   correction, $\phi_3(n,k)=k$ if $k\le2n-10$ when $n$ is odd or if $k\le1.5n-5$
   when $n$ is even", where $\phi_3(n,k)$ is the least number of edge-disjoint
@@ -206,8 +207,8 @@ evidence in hand:
   of edge-disjoint triangles, it credits Győri (with a correction in its [14])
   for large $n$ with $t\ge m-O(m^2/n^2)$ when $m=o(n^2)$, and with $t=m$ when
   $m\le2n-10$ for odd $n$ or $m\le3n/2-5$ for even $n$, both ranges being sharp.
-  The site's sentence that $f(c)=0$ when $n$ is odd and $c<2$, or $n$ is even
-  and $c<3/2$, is these ranges read for $n$ large in terms of $c$; as a
+  The erdosproblems.com sentence that $f(c)=0$ when $n$ is odd and $c<2$, or $n$
+  is even and $c<3/2$, is these ranges read for $n$ large in terms of $c$; as a
   statement for every $n$ it is false (an authored check): $K_5$ has
   $\lfloor25/4\rfloor+4$ edges and only $2$ edge-disjoint triangles, so
   $f(c)\ge2$ for odd $n=5$ and every $4/5<c<2$; $K_6$ has $\lfloor36/4\rfloor+6$
@@ -225,10 +226,10 @@ edge-disjoint triangles. For $k<cn$ and $n\ge\max(n_0,c/\delta)$ this is at
 least $k-Cc^2$; for smaller $n$ the trivial bound $0\ge k-cn>k-c\max(n_0,c/\delta)$
 holds; so $f(c)=\max\bigl(Cc^2,\,c\max(n_0,c/\delta)\bigr)$ answers the
 question, with the dependence of $C$, $\delta$, $n_0$ on nothing but the
-theorem. Whether $f(c)\ll c^2$ holds for every $c$, as the site writes,
-depends on constants not visible in the quotation and is recorded as the
-site's reading of [Gy88]. Read depth: the quotation was read clause by
-clause in the arXiv copy; nothing of Győri's proof was read.
+theorem. Whether $f(c)\ll c^2$ holds for every $c$, as erdosproblems.com writes,
+depends on constants not visible in the quotation and is recorded as
+erdosproblems.com's reading of [Gy88]. Read depth: the quotation was read clause
+by clause in the arXiv copy; nothing of Győri's proof was read.
 
 **Neighbors.** The $K_4$-free case is
 [[problems/extremal_graph_theory/E1017/_index|Problem 1017]]'s Győri--Keszegh
@@ -242,7 +243,7 @@ $k>17n^2/169$; both are outside this problem's range $k<cn$.
 **Search scope.** None of the routes below found a dispute
 of Győri's theorem or a second proof of the statement.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database (2026-09-18 and 2026-10-06); the
   formal-conjectures listing of 2026-09-18 (no file 1009 on that date; the
   file of 19 September 2026 is recorded under Formalization).
@@ -265,8 +266,8 @@ its theorem is used through one refereed quotation whose sharper second
 sentence a thread comment disputes, and through two refereed papers' reports
 of the exact ranges. Reopening condition: a readable copy of [Gy88] (and of
 the 1992 correction), after which Theorem 1 is paged with its exact
-statement, constants and range of $n$, and the site's "$f(c)\ll c^2$" is
-checked. (2) Erdős's theorem for $c<\tfrac12$ is stated without proof in
+statement, constants and range of $n$, and erdosproblems.com's "$f(c)\ll c^2$"
+is checked. (2) Erdős's theorem for $c<\tfrac12$ is stated without proof in
 [Er71]; it is not compiled in this corpus. (3) Proof coverage is statements
 only. (4) The formal-conjectures statement of 19 September 2026 points to an
 external Lean proof that declares itself a formalization of Győri's result;

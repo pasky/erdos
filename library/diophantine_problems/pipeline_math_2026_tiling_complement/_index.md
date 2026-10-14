@@ -199,8 +199,8 @@ the recorded nonconstant-family qualification. The external proofs were not
 independently reviewed; no formal verification is claimed. This records
 independently reviewed compilation proof coverage only in that premise-relative
 scope, not full-manuscript acceptance, a native L-tier or a change to catalog
-status. Primary-source reading and public acceptance of the catalog conclusion
-remain separate facts.
+status. Primary-source reading and public acceptance of the erdosproblems.com
+conclusion remain separate facts.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

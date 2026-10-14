@@ -35,7 +35,7 @@ Erdős--Gyárfás conjecture for some Cayley graphs*, Mat. Vesnik **73** (2021),
 no. 1, 37--42. The page name carries the publication year; the day is not
 recorded in any source read. Read depth: the zbMATH record
 (Zbl 1474.05221) and its summary; the paper's text was not read. The thread
-comment of 6 December 2025 that the site's remark on
+comment of 6 December 2025 that the erdosproblems.com remark on
 [[problems/extremal_graph_theory/E0064/_index|Problem 64]] points to lists
 the paper among the families where the conjecture is confirmed.
 
@@ -45,6 +45,7 @@ of order $4p$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a publication in Matematički Vesnik, the
-journal of the Mathematical Society of Serbia. The site's curator cites the
-family list that names the paper while labeling the problem FALSIFIABLE. That
-citation is commentary on an open problem and not reviewed evidence.
+journal of the Mathematical Society of Serbia. The erdosproblems.com curator
+cites the family list that names the paper while labeling the problem
+FALSIFIABLE. That citation is commentary on an open problem and not reviewed
+evidence.

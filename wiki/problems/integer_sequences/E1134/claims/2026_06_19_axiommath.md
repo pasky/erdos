@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1134/claims/2026_06_19_axiommath
 title: AxiomProver's Lean proof that the set has lower density zero
 desc: |
-  AxiomProver's Lean 4 file, posted to the site's thread in June 2026, proves
-  that the set generated from $1$ by $2x+1$, $3x+1$ and $6x+1$ has lower density
-  zero. This corpus has not built or audited it.
+  AxiomProver's Lean 4 file, posted to the erdosproblems.com thread in June
+  2026, proves that the set generated from $1$ by $2x+1$, $3x+1$ and $6x+1$ has
+  lower density zero. This corpus has not built or audited it.
 authors:
 - AxiomProver
 status: claimed
@@ -42,7 +42,7 @@ prover, as the post names it. The corpus has not built, kernel-checked or
 audited the file.
 
 **Standing.** Claimed: no outside acceptance of the file exists, since the
-site's label DISPROVED (LEAN) credits Crampin and Hilton's answer as
+erdosproblems.com label DISPROVED (LEAN) credits Crampin and Hilton's answer as
 published by Lagarias, recorded on
 [[problems/integer_sequences/E1134/claims/2016_09_28_lagarias|Lagarias's claim page]],
 and the corpus has not audited the formal statement. A copy of

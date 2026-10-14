@@ -5,7 +5,7 @@ desc: |
   integers and bounds the five-integer one by a constant.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T14:29:35Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_combinatorics/doorn_2026_cardinality_set_containing_pairwise_sums_fixed
@@ -19,7 +19,8 @@ three integers to be positive.
 
 [[additive_combinatorics/doorn_2026_cardinality_set_containing_pairwise_sums_fixed/theorem_3|theorem_3]]: Any n + 3 integers in {1, ..., 2n} contain the six pairwise sums of four
 distinct integers, and the odd integers together with 2n - 2 and 2n show
-that n + 2 do not; the exact value behind the site's earlier bound 2032.
+that n + 2 do not; the exact value behind erdosproblems.com's earlier
+bound 2032.
 
 [[additive_combinatorics/doorn_2026_cardinality_set_containing_pairwise_sums_fixed/theorem_4|theorem_4]]: The 1975 example, the odd integers together with the powers of two, gives
 a logarithmic lower bound for five distinct positive integers whose
@@ -94,8 +95,8 @@ Source: <https://arxiv.org/abs/2605.00040v1>.
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0866/_index|#866]]: Theorems 1,
 3, 5 and 8 give the problem's $g_3(N)=1$ ($N\ge3$), $g_4(N)=3$ ($N\ge2$) and
 $4\le g_5(N)<1.2\cdot10^8$ ($N\ge3$), Theorem 9 the general upper bound;
-Section 3 (p. 2) and Theorem 4 separate the site's $g_k$ (one $b_i$ may be
-non-positive) from the positive-integer version $h_k$ and correct the 1975
+Section 3 (p. 2) and Theorem 4 separate erdosproblems.com's $g_k$ (one $b_i$ may
+be non-positive) from the positive-integer version $h_k$ and correct the 1975
 lower-bound example for $k=5$; the paper is a preprint with declared AI
 assistance, qualified as such on the problem page.
 

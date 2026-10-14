@@ -70,6 +70,6 @@ for Lemma 2.1 and the isoperimetric inequality for spheres).
 - [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]: at $p=3$, $\ell=1$
   the theorem gives $K_5$-free graphs on $N=2n$ vertices with
   $\alpha_3=o(N)$ and $(1/3-o(1))n^2=(1/12-o(1))N^2$ edges, so
-  $\delta_3(5)\ge1/12$ in the site's normalization; with the origin paper's
-  upper bound this is the exact threshold recorded in
+  $\delta_3(5)\ge1/12$ in the erdosproblems.com normalization; with the origin
+  paper's upper bound this is the exact threshold recorded in
   [[extremal_graph_theory/liu_2021_geometric_constructions_ramsey_turan_theory/corollary_1_2|Corollary 1.2]].

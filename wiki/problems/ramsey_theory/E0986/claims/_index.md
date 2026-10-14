@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 986, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0986/claims
@@ -21,7 +21,7 @@ This is the case $s=4$ of the problem, with $c(4)=4$.
 
 [[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|2026_06_16_bradac]]: Bradač's Theorem 1.1 gives $r(s,k)\ge c_s k^{s-1}/(\log k)^{2s-4}$ for every
 fixed $s\ge3$, which answers the problem with $c(s)=2s-4$. It is an arXiv
-preprint, accepted by the site's curator and not refereed.
+preprint, accepted by the erdosproblems.com curator and not refereed.
 
 [[problems/ramsey_theory/E0986/claims/2026_09_24_openai|2026_09_24_openai]]: Two unreviewed manuscripts of the OpenAI mathematics release prove
 $r(s,t)=t^{s-1}/(\log t)^{s-2+o(1)}$ for $s=5$ and for every fixed $s\ge6$.

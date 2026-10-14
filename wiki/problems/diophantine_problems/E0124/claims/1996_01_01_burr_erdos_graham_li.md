@@ -50,15 +50,16 @@ $\sum_ic_ia_i$ with $a_i\in P(d_i,1)$, one term per base.
 **Covers.** The second question at $k=1$ for the four tuples $\{3,4,7\}$,
 $\{3,5,7,13\}$, $\{3,6,7,13,21\}$ and $\{3,4,5\}$: yes, every integer above
 the stated value is represented. Not covered: exponents $k\ge2$ and every
-other tuple, and the first question. The site's commentary says the authors
-proved the conjecture for $\{3,4,7\}$; the result covers only $k=1$.
+other tuple, and the first question. The erdosproblems.com commentary says the
+authors proved the conjecture for $\{3,4,7\}$; the result covers only $k=1$.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Acta Arithmetica 77 (1996), no. 2, 133--138. The
-site's commentary (page last edited 1 December 2025) credits the $\{3,4,7\}$
-case to this paper. The site labeled the problem OPEN, however, so no `reviewed`
-evidence is listed. The formal-conjectures statement file for the problem states
-the $\{3,4,7\}$ case at $k=1$ as `erdos124.ne_zero_three_four_seven`. It marks
-that statement `research solved` and credits it to this paper, but gives no
-formal proof. The computations were not reconstructed in this corpus.
+erdosproblems.com commentary (page last edited 1 December 2025) credits the
+$\{3,4,7\}$ case to this paper. Bloom's catalog labeled the problem OPEN,
+however, so no `reviewed` evidence is listed. The formal-conjectures statement
+file for the problem states the $\{3,4,7\}$ case at $k=1$ as
+`erdos124.ne_zero_three_four_seven`. It marks that statement `research solved`
+and credits it to this paper, but gives no formal proof. The computations were
+not reconstructed in this corpus.

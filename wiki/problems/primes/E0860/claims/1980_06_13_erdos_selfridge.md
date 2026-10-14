@@ -40,10 +40,11 @@ Erdős and Selfridge. The sources state it in three forms.
   B32 (p. 133): $(3-\epsilon)n\le f(n)$ for large $n$, where $f(n)$ is the
   least length for which every interval $[m+1,m+f(n)]$ holds the system,
   again this problem's $h(n)$ less one.
-- The site's commentary: $h(n)>(3-o(1))n$.
+- The erdosproblems.com commentary: $h(n)>(3-o(1))n$.
 
 The forms differ: display (19) is a limsup statement, weaker than the bound
-for all large $n$ that Guy and the site give. The sources are compiled at
+for all large $n$ that Guy and erdosproblems.com give. The sources are compiled
+at
 [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/_index|Erdős and Pomerance (1980)]]
 and
 [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|Guy (2004)]].

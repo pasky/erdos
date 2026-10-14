@@ -35,9 +35,9 @@ updated: 2026-10-07T23:33:05Z
 of size $p-3$ whose elements have nonzero sum has an ordering whose partial
 sums are distinct, the question of
 [[problems/additive_combinatorics/E0475/_index|Problem 475]] for those sets.
-The site credits the range $p-3\le t\le p-1$ to J. Hicks, M. A. Ollis and
-J. R. Schmitt, *Distinct partial sums in cyclic groups: polynomial method and
-constructive approaches*, and their references. The paper's own result is
+erdosproblems.com credits the range $p-3\le t\le p-1$ to J. Hicks, M. A. Ollis
+and J. R. Schmitt, *Distinct partial sums in cyclic groups: polynomial method
+and constructive approaches*, and their references. The paper's own result is
 [[../library/additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/theorem_4_6|Theorem 4.6]]
 (p. 15 of the arXiv version): Alspach's conjecture holds for $n=p$ prime and
 $k=p-3$, that is, every $A\subseteq\mathbb Z_p\setminus\{0\}$ of size $p-3$
@@ -74,7 +74,7 @@ its library result page.
 
 **Acceptance.** Refereed publication: Journal of Combinatorial Designs 27
 (2019), no. 6, 369--385, published online 31 January 2019 (Crossref record). The
-journal text is not held and was not compared with the arXiv version. The site's
-commentary credits the range $p-3\le t\le p-1$ to this paper and its references.
-But the site's label DECIDABLE leaves the problem open and settles no part of
-it, so that credit is not `reviewed` evidence.
+journal text is not held and was not compared with the arXiv version. The
+erdosproblems.com commentary credits the range $p-3\le t\le p-1$ to this paper
+and its references. But the erdosproblems.com label DECIDABLE leaves the problem
+open and settles no part of it, so that credit is not `reviewed` evidence.

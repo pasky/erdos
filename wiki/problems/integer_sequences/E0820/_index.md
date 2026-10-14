@@ -68,15 +68,15 @@ for all large enough $n$?
 Does a similar upper bound hold for the smallest $k\ge2$ such that
 $(k^n-1,2^n-1)=1$?
 
-**Notes.** The site's wording puts no range on the bases, and over the
-integers both minima degenerate at every $n$: for $l\ge1$ the base $k=0$
+**Notes.** The erdosproblems.com wording puts no range on the bases, and over
+the integers both minima degenerate at every $n$: for $l\ge1$ the base $k=0$
 gives $(-1,l^n-1)=1$, so over the nonnegative integers the least admissible
 $l$ is $1$ (smallest instance $n=1$, $k=0$, $l=1$, where $(-1,0)=1$), and
 over all integers every $l\le-2$ has the partner $k=-\lvert l^n-1\rvert<l$,
 since $k^n-1\equiv-1$ modulo $l^n-1$, so no least integer exists; likewise,
 in the last question $k=0$ and every negative multiple $k$ of $2^n-1$ give
-$(k^n-1,2^n-1)=1$. The site's own parenthetical, which equates $H(n)=3$ with
-$(2^n-1,3^n-1)=1$, holds only when the bases start at two. The change
+$(k^n-1,2^n-1)=1$. erdosproblems.com's own parenthetical, which equates $H(n)=3$
+with $(2^n-1,3^n-1)=1$, holds only when the bases start at two. The change
 inserts "$2\le$" before "$k<l$" in the definition of $H(n)$ and "$\ge2$"
 after "the smallest $k$" in the last question, in the form of Erdős's own
 range "$2\leq k\leq n+1$" in the lemma of the same section (printed p. 199).
@@ -86,14 +86,14 @@ Part II, printed pp. 199–200: Erdős defines $h(n)$ through the numbers
 $\{2^n-1,3^n-1,\ldots,h(n)^n-1\}$, whose bases start at two, and writes on
 p. 200 "Probably $(2^n-1,3^n-1)=1$ holds for infinitely many $n$ or
 $H(n)=h(n)=3$ infinitely often", an instance of the question that fails once
-a zero or negative base is allowed. The site's commentary corroborates it:
-its values $3,3,3,6,3,18,3,6,3,12$ for $1\le n\le10$ are exactly those of
-the corrected definition (this page's own computation; allowing $k=1$ would
-give $H(1)=2$, and allowing $k=0$ gives $H(n)=1$ throughout). The defect is
-already in the poser's text, which defines $H(n)$ ("the least integer so that
-there is a $k<l$") and $H_1(n)$ ("the smallest integer $k$") with no range.
-The failure is this page's own check; no result about the site's wording
-exists.
+a zero or negative base is allowed. The erdosproblems.com commentary
+corroborates it: its values $3,3,3,6,3,18,3,6,3,12$ for $1\le n\le10$ are
+exactly those of the corrected definition (this page's own computation; allowing
+$k=1$ would give $H(1)=2$, and allowing $k=0$ gives $H(n)=1$ throughout). The
+defect is already in the poser's text, which defines $H(n)$ ("the least integer
+so that there is a $k<l$") and $H_1(n)$ ("the smallest integer $k$") with no
+range. The failure is this page's own check; no result about the
+erdosproblems.com wording exists.
 
 **Formulation.** All bases are integers at least two. For an integer
 $n\ge2$, define
@@ -118,17 +118,17 @@ $H(n)>\exp(n^{(c-\epsilon)/\log\log n})$ for infinitely many $n$ and
 $H(n)<\exp(n^{(c+\epsilon)/\log\log n})$ for all sufficiently large $n$; and
 does a similar eventual upper bound hold for $K(n)$?
 
-**Status.** Open. The site labeled the problem OPEN (commentary last edited 2
-December 2025), and the modified Statement is open. The infinitely-often
-coprimality question is unresolved in the sources searched. The quantitative
-**existence** question would have an affirmative answer if the pending upper
-bound below holds. This follows by the limit-superior argument below, which does
-not evaluate the growth constant. The upper bound is a partial proof claim of 16
-July 2026 by Liam Price
+**Status.** Open. Bloom's catalog labeled the problem OPEN (commentary last
+edited 2 December 2025), and the modified Statement is open. The
+infinitely-often coprimality question is unresolved in the sources searched. The
+quantitative **existence** question would have an affirmative answer if the
+pending upper bound below holds. This follows by the limit-superior argument
+below, which does not evaluate the growth constant. The upper bound is a partial
+proof claim of 16 July 2026 by Liam Price
 ([[problems/integer_sequences/E0820/claims/2026_07_16_price|claim page]]). It is
 a manuscript whose proof is credited to GPT 5.6 Sol Pro. Nobody has reviewed or
 published it, and its Lean formalization was not built here. It was the only
-proof claim on the site's thread.
+proof claim on the erdosproblems.com thread.
 
 **Source.** [T. F. Bloom, Erdős Problem #820](https://www.erdosproblems.com/820),
 accessed 5 September 2026, and
@@ -195,8 +195,8 @@ a reconstructed proof.
 
 ## Quantitative progress
 
-The site's commentary credits van Doorn's comment of 15 October 2025, which
-sketches $H(n)>\exp(n^{c/\log\log n})$ for infinitely many $n$, for some
+The erdosproblems.com commentary credits van Doorn's comment of 15 October 2025,
+which sketches $H(n)>\exp(n^{c/\log\log n})$ for infinitely many $n$, for some
 $c>0$. It starts from Proposition 10 of Adleman, Pomerance and Rumely (Ann.
 of Math. (2) 117 (1983), 173–206), which gives $\omega^*(n)>n^{c/\log\log n}$
 infinitely often, and applies the same Fermat argument. Fan and Pollack's

@@ -87,7 +87,7 @@ for the $o(x)$ consequence.
   $M_<(N)=o(N)$; but for strict examples that clause is elementary without
   it, since distinct totient values give $M_<(N)\le W(N)$ directly. What
   the theorem adds is the first $o(x)$ bound for the weak variant, which
-  Erdős further asks about in the site's [Er95c]; Tao's
+  Erdős further asks about in erdosproblems.com's [Er95c]; Tao's
   [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/theorem_1_1|Theorem 1.1]]
   later gives the rate $(1+O((\log\log x)^5/\log x))\pi(x)$ and the
   [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/strict_transfer|strict transfer]]

@@ -4,8 +4,8 @@ title: Erdős and Sárközy's lower bound of order 3^n over n
 desc: |
   Theorem 4 of Erdős and Sárközy (Discrete Math. 1992) bounds the threshold
   $K(N)$ for a three-term progression among subset sums, which gives
-  $g_3(n)\gg3^n/n$ in the problem's notation. The paper is refereed and the site
-  credits it.
+  $g_3(n)\gg3^n/n$ in the problem's notation. The paper is refereed and
+  erdosproblems.com credits it.
 authors:
 - P. Erdős
 - A. Sárközy
@@ -54,10 +54,10 @@ gives the theorem's upper half only with $N$ replaced by $2N$, and the
 theorem as printed holds for large $N$ by a second-moment count (an
 observation made here, recorded on the problem page). The result page
 records these translations, which are not statements of the paper. The
-site's commentary credits Erdős and Sárközy with $g_3(n)\gg3^n/n^{O(1)}$,
-leaving the exponent unspecified; the paper's own argument gives exponent
-$1$. The lower half of the theorem is the set of powers of three, the
-problem's $g_3(n)\le3^{n-1}$. The paper asks (p. 252) whether
+erdosproblems.com commentary credits Erdős and Sárközy with
+$g_3(n)\gg3^n/n^{O(1)}$, leaving the exponent unspecified; the paper's own
+argument gives exponent $1$. The lower half of the theorem is the set of powers
+of three, the problem's $g_3(n)\le3^{n-1}$. The paper asks (p. 252) whether
 $K(N)=\log N/\log3+O(1)$, which is the problem's displayed question
 $g_3(n)\gg3^n$, and adds that it knows no $N$ with $[\log N/\log3]+2<K(N)$.
 
@@ -77,9 +77,9 @@ ternary expansion and counting.
 **Acceptance.** Refereed: the paper is the publisher's version of record in
 Discrete Mathematics (Crossref record, as the problem page records). The record
 gives the issue month, May 1992, and no day, so this page is named by the first
-day of its year. The site's curator, Thomas F. Bloom, credits the bound to Erdős
-and Sárközy in the problem page's commentary, with the label OPEN. The problem
-is not marked settled there, so the credit is recorded here and is not listed as
-`reviewed`. The theorem and the remark that follows it are checked clause by
-clause. The proof of Theorem 4 was followed step by step, with the slip in the
-count of p. 261 noted above. This is not an independent review.
+day of its year. The erdosproblems.com curator, Thomas F. Bloom, credits the
+bound to Erdős and Sárközy in the problem page's commentary, with the label
+OPEN. The problem is not marked settled there, so the credit is recorded here
+and is not listed as `reviewed`. The theorem and the remark that follows it are
+checked clause by clause. The proof of Theorem 4 was followed step by step, with
+the slip in the count of p. 261 noted above. This is not an independent review.

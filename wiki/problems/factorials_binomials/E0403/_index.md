@@ -29,10 +29,11 @@ $$
 
 with $a_1<a_2<\cdots <a_k$ have only finitely many solutions?
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
-edited 28 October 2025). The standing in the frontmatter derives from the claim
-pages. The site credits Frankl and Lin, independently, with the finiteness. The
-largest solution is $2^7=2!+3!+5!$. Lin's memorandum is recorded on
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN)
+(page last edited 28 October 2025). The standing in the frontmatter derives from
+the claim pages. erdosproblems.com credits Frankl and Lin, independently, with
+the finiteness. The largest solution is $2^7=2!+3!+5!$. Lin's memorandum is
+recorded on
 [[problems/factorials_binomials/E0403/claims/1976_01_01_lin|its claim page]].
 The Lean qualifier refers to a classification of all solutions produced by the
 AxiomProver system in June 2026. That classification names no informal source
@@ -43,7 +44,7 @@ This corpus has not built it. There is no refereed write-up.
 **Source.** [erdosproblems.com/403](https://www.erdosproblems.com/403), accessed
 2026-09-04 and, with its one-comment discussion thread, the community
 database, the formal-conjectures statement file and the two copies of the Lean
-proof, 2026-10-07; its proof-claims list was empty. The site
+proof, 2026-10-07; its proof-claims list was empty. erdosproblems.com
 cites the problem from p. 79 of Erdős and Graham's 1980 problem book [ErGr80],
 which names Burr and Erdős as the askers and reports the proofs of Frankl and
 Lin. Cite as: T. F. Bloom, Erdős Problem #403, https://www.erdosproblems.com/403.
@@ -56,9 +57,9 @@ Lin. Cite as: T. F. Bloom, Erdős Problem #403, https://www.erdosproblems.com/40
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Li76] Lin, S., On two problems of Erdős concerning sums of distinct
   factorials. Bell Laboratories internal memorandum (1976). The year is the
-  monograph's bibliography entry [Lin (76)]; the site's citation prints 1960,
-  a misprint, and the formal-conjectures file copies it. The library holds no
-  copy of the memorandum.
+  monograph's bibliography entry [Lin (76)]; the erdosproblems.com citation
+  prints 1960, a misprint, and the formal-conjectures file copies it. The
+  library holds no copy of the memorandum.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/403.lean)
@@ -71,8 +72,8 @@ This corpus has built neither.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 28 October 2025): is a
-power of two a sum of distinct factorials in only finitely many ways? The
+The question, as erdosproblems.com states it (page last edited 28 October 2025):
+is a power of two a sum of distinct factorials in only finitely many ways? The
 answer is yes, and the solutions are known. With the $a_i$ positive integers,
 as the Lean statements fix them, they are $2^0=1!$, $2^1=2!$, $2^3=2!+3!$,
 $2^5=2!+3!+4!$ and $2^7=2!+3!+5!$. If $a_1=0$ is admitted, with $0!=1$, six
@@ -92,24 +93,24 @@ solution, and that Frankl, in a personal communication the monograph cites as
 power of two dividing a sum of distinct factorials that includes $2!$, and
 that $3^m$ is such a sum only for $m\in\{0,1,2,3,6\}$. The
 [[problems/factorials_binomials/E0403/claims/1976_01_01_lin|claim page]]
-records the acceptance: the site's curator credits Frankl and Lin, the
-monograph reports both proofs, and there is no refereed publication; the
-memorandum is cited through the monograph's bibliography and the site. The
-elementary mechanism is visible in the Lean
-proof: once the smallest factorial in the sum is set aside, the remaining
-terms share a small prime factor that the sum inherits, which pins the
-smallest term to $1!$ or $2!$ and leaves a bounded check. In June 2026 the
-AxiomProver system produced a Lean 4 classification of all solutions, which
-names no informal source and is recorded as a pending claim on
+records the acceptance: the erdosproblems.com curator credits Frankl and Lin,
+the monograph reports both proofs, and there is no refereed publication; the
+memorandum is cited through the monograph's bibliography and erdosproblems.com.
+The elementary mechanism is visible in the Lean proof: once the smallest
+factorial in the sum is set aside, the remaining terms share a small prime
+factor that the sum inherits, which pins the smallest term to $1!$ or $2!$ and
+leaves a bounded check. In June 2026 the AxiomProver system produced a Lean 4
+classification of all solutions, which names no informal source and is recorded
+as a pending claim on
 [[problems/factorials_binomials/E0403/claims/2026_06_18_axiommath|its own page]];
-the site's Lean qualifier and the community database's formal status Lean,
-dated 21 June 2026, refer to it (the database's separate formalized flag,
+the erdosproblems.com Lean qualifier and the community database's formal status
+Lean, dated 21 June 2026, refer to it (the database's separate formalized flag,
 dated 22 July 2026, marks the formal-conjectures statement), and no Lean file
 is built here.
 
-Search scope: the site's problem page, its discussion thread and proof-claims
-list, the community database, the formal-conjectures statement file and the
-Lean proof in its two repositories, and the monograph's p. 79 and bibliography
-for the attribution and the dates.
+Search scope: the erdosproblems.com problem page, its discussion thread and
+proof-claims list, the community database, the formal-conjectures statement file
+and the Lean proof in its two repositories, and the monograph's p. 79 and
+bibliography for the attribution and the dates.
 [[problems/factorials_binomials/E0404/_index|Problem 404]] asks the
-companion question the site points to.
+companion question erdosproblems.com points to.

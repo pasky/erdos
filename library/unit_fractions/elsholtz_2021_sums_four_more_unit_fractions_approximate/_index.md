@@ -69,7 +69,7 @@ least 5, and Corollary 3(2) gives f_k(1,1) < c_0^{(2/5+eps) 2^{k-1}} for k at
 least k(eps), with c_0 = lim u_n^{2^{-n}} = 1.5979... for u_0 = 1, u_{n+1} =
 u_n(u_n+1); since F(k) is at most f_k(1,1), this is the upper bound for F(k).
 The constant here is the square of the Vardi constant 1.2640..., which the
-site's commentary calls c_0; see the result page.
+erdosproblems.com commentary calls c_0; see the result page.
 
 Source: <https://arxiv.org/abs/2012.05984>.
 

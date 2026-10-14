@@ -4,8 +4,8 @@ title: "Corollary 2: R_n(3) ≤ n!(e − 1/6) + 1 for all n ≥ 4"
 desc: |
   The 2002 bound of Xu, Xie and Chen on the multicolor Ramsey numbers of the
   triangle, reproved from the adaptive bound and R_4(3) at most 62; through
-  S(n) at most R_n(3) - 2 it is the site's upper bound (e - 1/6) k! on the
-  Schur function f(k) of Problem 483.
+  S(n) at most R_n(3) - 2 it is erdosproblems.com's upper bound (e - 1/6) k! on
+  the Schur function f(k) of Problem 483.
 created: 2026-09-18T06:30:00Z
 updated: 2026-10-07T20:53:40Z
 ---
@@ -28,7 +28,7 @@ readers" (p. 2).
 
 Consequence for the Schur numbers, made explicit here from Section 3.2's
 display (6), $S(n)\le R_n(3)-2$: for $k\ge4$,
-$f(k)=S(k)+1\le R_k(3)-1\le k!(e-1/6)$, the site's upper bound for
+$f(k)=S(k)+1\le R_k(3)-1\le k!(e-1/6)$, erdosproblems.com's upper bound for
 Problem 483; for $k\le3$ the exact values $f(1)=2$, $f(2)=5$, $f(3)=14$
 satisfy $f(k)\le(e-1/6)k!$ as well ($2.55$, $5.10$, $15.31$), so the bound
 holds for every $k\ge1$.
@@ -62,9 +62,9 @@ the relation $S(n)\le R_n(3)-2$ for the Schur consequence.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the upper half of the
-  site's bounds map, $f(k)\le(e-1/6)k!$, held here in a refereed English
-  proof where the site's source [XXC02] is not held.
+- [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the upper half of
+  erdosproblems.com's bounds map, $f(k)\le(e-1/6)k!$, held here in a refereed
+  English proof where the erdosproblems.com source [XXC02] is not held.
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: the best upper bound
   on the problem's $R(3;k)$ for $k\ge4$ known when the paper was written
   (abstract, p. 1), in a held refereed proof; it

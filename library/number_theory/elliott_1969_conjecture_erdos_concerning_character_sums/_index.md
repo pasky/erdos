@@ -179,7 +179,7 @@ argument. Nothing here is independently reviewed.
 p. 165, PDF p. 2; quoted above and on its page), the existence for each
 $0<\epsilon\le1$ of a constant $c(\epsilon)$ with
 $\frac1{\pi(x)}\sum_{p\le x}g(\epsilon,p)\to c(\epsilon)$ as $x\to\infty$,
-is the paper the site and Tang and Zhang cite as the proof of Erdős's
+is the paper erdosproblems.com and Tang and Zhang cite as the proof of Erdős's
 display (80), the problem's statement; the introduction (printed p. 164,
 PDF p. 1) restates (80) as its display (1) with Erdős's one-sided threshold
 $f(\epsilon,p)$, replaces it by the two-sided $g(\epsilon,p)$, the least

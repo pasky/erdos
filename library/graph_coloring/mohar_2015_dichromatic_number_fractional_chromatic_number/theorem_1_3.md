@@ -76,9 +76,9 @@ arXiv:1510.05982v1, the edition named on the
 ## Bears on
 
 - [[../wiki/problems/graph_coloring/E0761/_index|Problem 761]]: the first
-  question is the Erdős--Neumann-Lara conjecture (the site's $\delta(G)$ is
-  the paper's $\vec\chi(G)$). The theorem answers it yes for every family
-  of graphs whose chromatic number is bounded in terms of their fractional
-  chromatic number, and it answers the analogue with $\chi_f$ in place of
-  $\chi$ and $\vec\chi_f$ in place of $\delta$; it does not settle the
+  question is the Erdős--Neumann-Lara conjecture (erdosproblems.com's
+  $\delta(G)$ is the paper's $\vec\chi(G)$). The theorem answers it yes for
+  every family of graphs whose chromatic number is bounded in terms of their
+  fractional chromatic number, and it answers the analogue with $\chi_f$ in
+  place of $\chi$ and $\vec\chi_f$ in place of $\delta$; it does not settle the
   question as posed.

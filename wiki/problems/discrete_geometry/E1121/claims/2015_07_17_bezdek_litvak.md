@@ -75,8 +75,9 @@ on p. 11 of that version.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The result is refereed. It appeared in Discrete and
-Computational Geometry. The site's curator, Thomas Bloom, marked the problem
-proved and records on its page that Bezdek and Litvak give an alternative proof
-(problem page last edited 17 April 2026). The problem was first settled by
+Computational Geometry. The erdosproblems.com curator, Thomas Bloom, marked the
+problem proved and records on its page that Bezdek and Litvak give an
+alternative proof (problem page last edited 17 April 2026). The problem was
+first settled by
 [[problems/discrete_geometry/E1121/claims/1945_11_01_goodman_goodman|Goodman and Goodman]].
 This page records a different proof of the same statement.

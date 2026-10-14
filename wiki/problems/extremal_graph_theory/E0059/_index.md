@@ -38,11 +38,11 @@ quantifies over every $G$; the cycle-restricted statement is also answered
 no, by Morris and Saxton's $C_6$ construction, so the two have the same
 answer.
 
-**Status.** Disproved. The site's label read "DISPROVED (LEAN)", and its suffix
-is a catalog label explained under Formalization. The Statement quantifies over
-every graph $G$, and its answer is no. It fails trivially for forests. For
-$G=P_3$, the path with two edges, the $G$-free graphs are the matchings. Then
-$\mathrm{ex}(n;P_3)=\lfloor n/2\rfloor$, while there are
+**Status.** Disproved. The erdosproblems.com label read "DISPROVED (LEAN)", and
+its suffix is a catalog label explained under Formalization. The Statement
+quantifies over every graph $G$, and its answer is no. It fails trivially for
+forests. For $G=P_3$, the path with two edges, the $G$-free graphs are the
+matchings. Then $\mathrm{ex}(n;P_3)=\lfloor n/2\rfloor$, while there are
 $2^{(1/2+o(1))n\log_2 n}$ labeled matchings on $n$ vertices. For the stars
 $K_{1,k}$ with $k\ge4$, the bound fails even for unlabeled graphs. It also fails
 for a graph containing a cycle, by the status-defining source, Proposition 1.4
@@ -82,10 +82,10 @@ Problem #59, https://www.erdosproblems.com/59, accessed 2026-10-07.
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999).
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label.
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label.
 formal-conjectures had no file for Problem 59 at `main` on 2026-10-07,
-and the site's indicator reads "Formalised statement? No". The community
-database (teorth/erdosproblems, accessed 2026-10-06) records `status`
+and the erdosproblems.com indicator reads "Formalised statement? No". The
+community database (teorth/erdosproblems, accessed 2026-10-06) records `status`
 "disproved (Lean)", `formal_status` Lean and `formalized` "no", with its
 last update dated 2026-08-24, and names no artifact. The locatable artifact
 is the Lean development `src/latest/ErdosProblems/Erdos59.lean` of
@@ -97,11 +97,11 @@ Neither development was built or audited by this project.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-04).** The statement above;
-the site labeled it DISPROVED (LEAN). Its commentary, accessed 2026-10-07, says
-the answer is yes for non-bipartite $G$ (Erdős, Frankl and Rödl [EFR86]) and no
-for $G=C_6$, where Morris and Saxton [MoSa16] give at least
-$2^{(1+c)\mathrm{ex}(n;C_6)}$ such graphs for infinitely many $n$ and some
+**The question (erdosproblems.com formulation, accessed 2026-09-04).** The
+statement above; Bloom's catalog labeled it DISPROVED (LEAN). Its commentary,
+accessed 2026-10-07, says the answer is yes for non-bipartite $G$ (Erdős, Frankl
+and Rödl [EFR86]) and no for $G=C_6$, where Morris and Saxton [MoSa16] give at
+least $2^{(1+c)\mathrm{ex}(n;C_6)}$ such graphs for infinitely many $n$ and some
 $c>0$; that the weaker bound $2^{O(\mathrm{ex}(n;G))}$ may still hold for every
 $G$, as Morris and Saxton conjecture; and that [Va99] asks the case $G=C_4$
 separately. The thread and the proof-claim tab are empty. The Statement
@@ -133,27 +133,26 @@ proof is compiled or independently reviewed in this corpus.
 file, a database label naming no artifact, and a Lean development in
 plby/lean-proofs (2026-08-17) that declares itself a formalization of Morris
 and Saxton's proposition, recorded as a formalization link on their claim
-page. The site's label and the Lean development both postdate the refereed
-disproof and add no acceptance evidence to it.
+page. The erdosproblems.com label and the Lean development both postdate the
+refereed disproof and add no acceptance evidence to it.
 
-**Search scope.** The site's problem page, thread and proof-claim tab; the
-community database as of 2026-10-06; the formal-conjectures directory listing
-at `main`; the catalogs of
-plby/lean-proofs and Jayyhk/erdos-lean with the headers and histories of
-their Problem 59 files; the arXiv API record of 1309.2927 (v1 11 September
-2013, v3 11 November 2015); the Crossref record of the Adv. Math. article;
-the two library cards. Not searched: MathSciNet, zbMATH, Google Scholar,
-X. [EFR86] is cited from the Rényi archive scan and [MoSa16] from
-arXiv:1309.2927v3; the Füredi--Naor--Verstraëte paper, [Er90], [Er93],
+**Search scope.** The erdosproblems.com problem page, thread and proof-claim
+tab; the community database, read 2026-10-06; the formal-conjectures directory
+listing at `main`; the catalogs of plby/lean-proofs and Jayyhk/erdos-lean with
+the headers and histories of their Problem 59 files; the arXiv API record of
+1309.2927 (v1 11 September 2013, v3 11 November 2015); the Crossref record of
+the Adv. Math. article; the two library cards. Not searched: MathSciNet, zbMATH,
+Google Scholar, X. [EFR86] is cited from the Rényi archive scan and [MoSa16]
+from arXiv:1309.2927v3; the Füredi--Naor--Verstraëte paper, [Er90], [Er93],
 [Er97c] and [Va99] were not consulted.
 
 **Remaining gaps.** (1) Proof coverage is statements only. (2) [MoSa16] is cited
 from arXiv v3, not the journal text. (3) [EFR86] is cited from the public scan,
-and the problem's statement rests on the site's page. (4) The $C_4$ case of the
-question and the weaker bound $2^{O(\mathrm{ex}(n;G))}$ for general $G$ are
-separate questions the site's commentary raises; neither is this page's
-question. (5) The Lean disproof is not built or audited by this project and
-gives no `formalized` evidence.
+and the problem's statement rests on the erdosproblems.com page. (4) The $C_4$
+case of the question and the weaker bound $2^{O(\mathrm{ex}(n;G))}$ for general
+$G$ are separate questions the erdosproblems.com commentary raises; neither is
+this page's question. (5) The Lean disproof is not built or audited by this
+project and gives no `formalized` evidence.
 
 ## Known results
 

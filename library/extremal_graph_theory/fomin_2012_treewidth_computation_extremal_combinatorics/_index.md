@@ -81,7 +81,7 @@ Source: <https://arxiv.org/abs/0803.1321>.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0150/_index|#150]]: Theorem 1
 (p. 6 of the preprint, page image), $|\Delta_G|=O(1.6181^n)$ for the set of
 minimal separators of an $n$-vertex graph, with the golden ratio on p. 7;
-the site's "The upper bound is due to Fomin and Villanger [FoVi12]",
+erdosproblems.com's "The upper bound is due to Fomin and Villanger [FoVi12]",
 $\alpha\le(1+\sqrt5)/2$, since every minimal cut is a minimal separator;
 the Main Lemma (Lemma 1, p. 4) is the counting tool of that proof. The
 paper does not mention Erdős, Nešetřil or minimal cuts, and its other

@@ -221,22 +221,22 @@ independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0620/_index|#620]]: Theorem 1.1
 (printed p. 623, PDF p. 1), "For every sufficiently large $n$,
-$f_{3,4}(n)\le n^{1/2}(\ln n)^{120}$", is the bound the site's commentary
-attributes to the paper, $f(n)\ll n^{1/2}(\log n)^{120}$; $f_{3,4}(n)$,
-defined in the abstract through induced subgraphs, is the site's $f(n)$, the
-largest order of a triangle-free induced subgraph forced in every $K_4$-free
-graph on $n$ vertices, and the paper's logarithm is the natural one, which
-the site's and the later literature's $(\log n)^{120}$ absorb into the
-constant. With the Bollobás--Hind and Krivelevich lower bounds the
-paper records $\ln f_{3,4}(n)=0.5\ln n+O(\ln\ln n)$ (p. 624), the site's
-$f(n)=n^{1/2+o(1)}$. The paper leaves the polylogarithmic factor open and
-says so (p. 623: "tight up to a polylogarithmic factor"; the remark on
-p. 624); it settles nothing the problem page leaves open. Theorem 1.2 (p. 624), the
-bound $f_{3,4}(n)\le n^{1/2}(\ln n)^{110}$ at $n=q^2+q+1$ for every
-sufficiently large prime power $q$, is the step from which the paper derives
-Theorem 1.1. Its account of the
-author's preprint (p. 624: a $(\ln n)^{3/10}$ factor improvement of
-Krivelevich's $n^{3/5}(\ln n)^{1/2}$) confirms the page's reading that the
+$f_{3,4}(n)\le n^{1/2}(\ln n)^{120}$", is the bound the erdosproblems.com
+commentary attributes to the paper, $f(n)\ll n^{1/2}(\log n)^{120}$;
+$f_{3,4}(n)$, defined in the abstract through induced subgraphs, is
+erdosproblems.com's $f(n)$, the largest order of a triangle-free induced
+subgraph forced in every $K_4$-free graph on $n$ vertices, and the paper's
+logarithm is the natural one, which erdosproblems.com's and the later
+literature's $(\log n)^{120}$ absorb into the constant. With the Bollobás--Hind
+and Krivelevich lower bounds the paper records
+$\ln f_{3,4}(n)=0.5\ln n+O(\ln\ln n)$ (p. 624), erdosproblems.com's
+$f(n)=n^{1/2+o(1)}$. The paper leaves the polylogarithmic factor open and says
+so (p. 623: "tight up to a polylogarithmic factor"; the remark on p. 624); it
+settles nothing the problem page leaves open. Theorem 1.2 (p. 624), the bound
+$f_{3,4}(n)\le n^{1/2}(\ln n)^{110}$ at $n=q^2+q+1$ for every sufficiently large
+prime power $q$, is the step from which the paper derives Theorem 1.1. Its
+account of the author's preprint (p. 624: a $(\ln n)^{3/10}$ factor improvement
+of Krivelevich's $n^{3/5}(\ln n)^{1/2}$) confirms the page's reading that the
 preprint's $O(n^{3/5}(\ln n)^{1/5})$ is a different, weaker result.
 
 **Results.**

@@ -4,10 +4,10 @@ desc: |
   A five-page note whose title page credits GPT-5.5 PRO, proving that the
   largest ratio of a maximal to a minimal totient preimage over totient
   values up to x is (e^gamma + o(1)) log log x; the written form of the
-  argument the site accepted for Problem 694.
+  argument erdosproblems.com accepted for Problem 694.
 license: Apache-2.0
 created: 2026-09-21T06:26:33Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # arithmetic_functions/gpt_5_5_pro_2026_totient_fibre_extremes
@@ -17,7 +17,7 @@ updated: 2026-10-08T01:29:58Z
 [[arithmetic_functions/gpt_5_5_pro_2026_totient_fibre_extremes/theorem_2_1|theorem_2_1]]: The asymptotic for the largest ratio of a maximal to a minimal totient
 preimage over totient values up to x, with the upper bound from the
 extremal order of m/phi(m) and the lower bound from a Linnik-prime
-construction; the site's accepted resolution of Problem 694.
+construction; erdosproblems.com's accepted resolution of Problem 694.
 
 ***
 
@@ -51,8 +51,8 @@ subagents, May 2026"; the `plby/lean-proofs` file below lists "Informal
 authors: GPT-5.5 Pro, Liam Price"; the Formal Conjectures docstring says
 "GPT-5.5 Pro (prompted by Price) has proved". The card records these
 sentences as the sources' own and claims no independent check of the
-argument. The site's label for Problem 694 is SOLVED (LEAN); no refereed
-publication, arXiv version or written independent review is held. The
+argument. The erdosproblems.com label for Problem 694 is SOLVED (LEAN); no
+refereed publication, arXiv version or written independent review is held. The
 note states no license, and the repository copy held records none for it.
 
 Read status: claims checked for Lemma 1.1, Theorem 2.1 and Proposition 3.1,
@@ -100,7 +100,7 @@ described above and have no pages of their own. The three analytic inputs
 (the prime number theorem in the form $\vartheta(y)\sim y$, Mertens' product
 theorem, Linnik's theorem) are taken at statement level on p. 1 and were not
 checked here. The note's $\mathcal R(x)$ restricts the maximum to totient
-values, as the site's parenthetical does.
+values, as the erdosproblems.com parenthetical does.
 
 ## Formal artifacts (read statically, not built)
 
@@ -162,10 +162,10 @@ and the checker report are the repositories' own records.
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0694/_index|#694]]: Theorem 2.1
 answers the problem's "Investigate" with the asymptotic
 $(e^\gamma+o(1))\log\log x$ for the maximum over totient values $n\le x$;
-the site's label SOLVED (LEAN) rests on this note and the developments
-above. Proposition 3.1 is a permanence statement about collisions, of the
-same kind as the unique-preimage statement the collection's file records as
-`erdos_694.variants.inf_unique` ("Erdős has proved that if there exists an
+the erdosproblems.com label SOLVED (LEAN) rests on this note and the
+developments above. Proposition 3.1 is a permanence statement about collisions,
+of the same kind as the unique-preimage statement the collection's file records
+as `erdos_694.variants.inf_unique` ("Erdős has proved that if there exists an
 integer $n$ for which $\phi(m)=n$ has exactly one solution, then there must
 be infinitely many such $n$"); no implication between the two is asserted
 here.

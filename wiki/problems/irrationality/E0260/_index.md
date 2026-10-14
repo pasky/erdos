@@ -29,9 +29,9 @@ $$
 
 irrational?
 
-**Status.** Open, the site's label (OPEN; page last edited 2026-02-01). The
-frontmatter standing, `claimed`/`proved`, follows from the one pending full
-claim recorded:
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited
+2026-02-01). The frontmatter standing, `claimed`/`proved`, follows from the one
+pending full claim recorded:
 [[problems/irrationality/E0260/claims/2026_06_23_wang_grau_ribas|Wang and Grau Ribas's positive-density theorem]].
 It is a 2026 preprint (later versions by Wang alone) with an author-built Lean
 development, and it states that the answer is yes. An accepted partial claim
@@ -59,43 +59,44 @@ https://www.erdosproblems.com/260.
 
 ## Current assessment
 
-The site labeled Problem 260 OPEN (page accessed 2026-09-04; page last edited
-2026-02-01). The frontmatter standing, `claimed`/`proved`, is derived from the
-pending full claim page: the 2026 preprint of Han Wang and Jose Maria Grau Ribas
-(later versions by Wang alone) asserts a positive answer through a density
-theorem, with an author-built Lean development that the formal-conjectures
-catalog cites, and nothing accepts it beyond that catalog tag. In the site's
-discussion thread, an audit of v1 posted on 2026-07-08 and made with GPT-5.5 Pro
-found that the preprint's Lemma B.6 does not support its Theorems 6.1 and 6.4. A
-second attempt of 2026-07-11, with GPT-5.6 Sol Pro, did not complete the
-argument. On 2026-07-16 Wang wrote there that v1 contained errors, corrected in
-the revised version that the Lean development formalizes. The comments on the
-proof claim itself discuss only the limsup question. Erdős's 1981 note proves
-the statement under the stronger hypothesis $a_{n+1}-a_n\to\infty$, which forces
-$a_n/n\to\infty$, so it settles those instances; it is the accepted partial
-claim on
+Bloom's catalog labeled Problem 260 OPEN (page accessed 2026-09-04; page last
+edited 2026-02-01). The frontmatter standing, `claimed`/`proved`, is derived
+from the pending full claim page: the 2026 preprint of Han Wang and Jose Maria
+Grau Ribas (later versions by Wang alone) asserts a positive answer through a
+density theorem, with an author-built Lean development that the
+formal-conjectures catalog cites, and nothing accepts it beyond that catalog
+tag. In the erdosproblems.com discussion thread, an audit of v1 posted on
+2026-07-08 and made with GPT-5.5 Pro found that the preprint's Lemma B.6 does
+not support its Theorems 6.1 and 6.4. A second attempt of 2026-07-11, with
+GPT-5.6 Sol Pro, did not complete the argument. On 2026-07-16 Wang wrote there
+that v1 contained errors, corrected in the revised version that the Lean
+development formalizes. The comments on the proof claim itself discuss only the
+limsup question. Erdős's 1981 note proves the statement under the stronger
+hypothesis $a_{n+1}-a_n\to\infty$, which forces $a_n/n\to\infty$, so it settles
+those instances; it is the accepted partial claim on
 [[problems/irrationality/E0260/claims/1981_05_11_erdos|its claim page]]. The
-site's remarks also credit the same note with the case
+erdosproblems.com remarks also credit the same note with the case
 $a_n\gg n\sqrt{\log n\log\log n}$; the note does not contain that condition and
 says only that the case $a_n>cn\log n$ was known before (its reference [2]).
-The condition is printed in [ErGr80], p. 62, one of the site's source keys for
-this problem: Erdős and Graham write that the sum "is known to be irrational
-under the stronger hypothesis that $a_n>cn\sqrt{\log n\log\log n}$", without
-a proof or a reference, and in the same paragraph that the case
-$a_{n+1}-a_n\to\infty$ "can be shown". The site's attribution of the condition
-to [Er81l] is mistaken, but the condition has a printed source. Search scope:
-the site's page and remarks (2026-09-04), its proof-claims thread (2026-10-06),
-its discussion thread, the formal-conjectures file (2026-10-05 and 2026-10-07)
-and the arXiv record of the preprint (2026-10-07); no wider literature search
-was made, and no assessment of proof coverage is recorded.
+The condition is printed in [ErGr80], p. 62, one of the erdosproblems.com source
+keys for this problem: Erdős and Graham write that the sum "is known to be
+irrational under the stronger hypothesis that $a_n>cn\sqrt{\log n\log\log n}$",
+without a proof or a reference, and in the same paragraph that the case
+$a_{n+1}-a_n\to\infty$ "can be shown". The erdosproblems.com attribution of the
+condition to [Er81l] is mistaken, but the condition has a printed source. Search
+scope: the erdosproblems.com page and remarks (2026-09-04), its proof-claims
+thread (2026-10-06), its discussion thread, the formal-conjectures file
+(2026-10-05 and 2026-10-07) and the arXiv record of the preprint (2026-10-07);
+no wider literature search was made, and no assessment of proof coverage is
+recorded.
 
 ## Progress
 
 Erdős's note in the Comptes Rendus, issue of 11 May 1981, proves the case of
 gaps tending to infinity. Wang and Grau Ribas posted arXiv:2606.24972 v1 on
 2026-06-23; Wang's v2 and v3 followed on 2026-07-15 and 2026-07-17, Wang's
-proof claim on the site's proof-claims thread on 2026-07-17, and v4, retitled
-and generalized to polynomial weights and integer bases, on 2026-08-24.
+proof claim on the erdosproblems.com proof-claims thread on 2026-07-17, and v4,
+retitled and generalized to polynomial weights and integer bases, on 2026-08-24.
 formal-conjectures tagged its statement `erdos_260` research solved on
 2026-09-21, citing the paper and Wang's Lean file.
 
@@ -111,14 +112,14 @@ page
 [[problems/irrationality/E0260/claims/2026_06_23_wang_grau_ribas|Wang and Grau Ribas's positive-density theorem]]
 records the statement, Wang's disclosure of machine assistance, the Lean
 development (pinned, not built here), the formal-conjectures tag of 2026-09-21
-that marks the catalog statement `research solved` with a link to that
-development, the audit of v1 posted in the site's discussion thread on
-2026-07-08 and Wang's statement there that the revised version corrects v1's
-errors, and the site's OPEN label (page last edited 2026-02-01). The frontmatter
-stays short of `solved` under the anatomy's acceptance rule: a catalog tag
-links a formal proof without refereeing it, and no refereed version, named
-review or documented acceptance was found. One accepted partial
-claim,
+that marks the formal-conjectures statement `research solved` with a link to
+that development, the audit of v1 posted in the erdosproblems.com discussion
+thread on 2026-07-08 and Wang's statement there that the revised version
+corrects v1's errors, and erdosproblems.com's OPEN label (page last edited
+2026-02-01). The frontmatter stays short of `solved` under the anatomy's
+acceptance rule: a catalog tag links a formal proof without refereeing it, and
+no refereed version, named review or documented acceptance was found. One
+accepted partial claim,
 [[problems/irrationality/E0260/claims/1981_05_11_erdos|Erdős's 1981 theorem]],
 settles the sequences whose gaps tend to infinity.
 

@@ -38,7 +38,7 @@ cited proofs were not read.
 ## Proof pointer
 
 Pages 284--285. For $N=2M=130=2\cdot5\cdot13$ the density of odd Gaussian
-integers coprime to $N$ is $\delta(M)=0.545325\ldots$, below the site
+integers coprime to $N$ is $\delta(M)=0.545325\ldots$, below erdosproblems.com
 percolation threshold $\rho_c(1)\approx0.59$ of the square lattice. Figure 7
 (p. 285) draws the Gaussian integers coprime to $130$ in the fundamental
 triangle, which the text calls $F(65)$ although the figure spans

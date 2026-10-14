@@ -108,10 +108,10 @@ the scan, whose head reads "BULLETIN OF THE INSTITUTE OF MATHEMATICS ACADEMIA
 SINICA Volume 4, Number 2, December 1976"; the hosting archive's own notice "(C)
 2005-2007 All rights reserved. All material on this site is for scientifics
 purposes only." (https://users.renyi.hu/~p_erdos/, read 2026-10-02) speaks for
-the site, not the paper; the publisher's site has no page for the 1976 article,
-and its site-wide footer reads "© Copyright 2026. Math Sinica All Rights
-Reserved." (https://www.math.sinica.edu.tw/bulletin/, read 2026-10-02), every
-other right reserved.
+erdosproblems.com, not the paper; the publisher's site has no page for the 1976
+article, and its site-wide footer reads "© Copyright 2026. Math Sinica All
+Rights Reserved." (https://www.math.sinica.edu.tw/bulletin/, read 2026-10-02),
+every other right reserved.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0374/_index|#374]]: the
 paper defines the sets $D_k$ the problem asks about and shows $D_k$ is empty for

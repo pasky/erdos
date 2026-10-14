@@ -4,8 +4,8 @@ title: The TTT-Discover upper bound 0.380876 for the minimum overlap constant
 desc: |
   The TTT-Discover system of Yuksekgonul and ten coauthors (arXiv 2026) found a
   600-piece step function that bounds the minimum overlap constant above by
-  0.380876, the site's record. The certificate is not in the PDF, so the bound
-  is claimed.
+  0.380876, the erdosproblems.com record. The certificate is not in the PDF, so
+  the bound is claimed.
 authors:
 - M. Yuksekgonul
 - D. Koceja
@@ -53,8 +53,8 @@ it calls TTT-Discover and which trains a language model by reinforcement
 learning at test time, produced a 600-piece asymmetric step function whose
 functional value is $0.380876$, below the symmetric 95-piece function of
 AlphaEvolve with value $0.380924$ [GGTW25] and Haugland's 51-piece function
-with value $0.380927$ [Ha16]; the site's commentary credits the record
-upper bound to the TTT-Discover LLM, and the claimants are the paper's
+with value $0.380927$ [Ha16]; the erdosproblems.com commentary credits the
+record upper bound to the TTT-Discover LLM, and the claimants are the paper's
 authors. The construction is said to be released with the authors' code;
 the PDF does not print the step function, and no certificate is held in
 this corpus. Section 4.1.4 of the paper carries an invited reviewer's
@@ -70,7 +70,7 @@ upper bound, $0.38085906$, is on [[problems/additive_combinatorics/E0036/claims/
 **Depends on.** No page of this wiki.
 
 **Standing.** Claimed. The paper is a machine-learning preprint with no
-refereed publication recorded; the site's curator credits the record upper
-bound to it in the problem page's commentary (label OPEN, page last edited
+refereed publication recorded; the erdosproblems.com curator credits the record
+upper bound to it in the problem page's commentary (label OPEN, page last edited
 23 January 2026), which is not acceptance of a result; the certificate is
 outside the PDF and is not recomputed here.

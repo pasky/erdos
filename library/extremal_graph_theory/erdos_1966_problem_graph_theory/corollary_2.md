@@ -27,8 +27,8 @@ $$
 $$
 
 The source's $\mu(n)$ is exactly $\operatorname{ex}(n;C_4)$ in the
-catalog's notation. A forbidden four-cycle is an ordinary subgraph; it need
-not be induced. The limit is over all positive integers $n$, not only the
+erdosproblems.com notation. A forbidden four-cycle is an ordinary subgraph; it
+need not be induced. The limit is over all positive integers $n$, not only the
 projective-plane orders $P^2+P+1$. Equivalently,
 
 $$
@@ -64,7 +64,7 @@ independent proof of the same asymptotic by the same method.
 The complete rendered statement and proof pages were read for the exact
 interface and these dependencies. This is a source statement with a proof
 map; it is not a complete local proof reconstruction or independently
-accepted proof coverage. The source theorem resolves the catalog's
+accepted proof coverage. The source theorem resolves erdosproblems.com's
 leading-asymptotic request without relying on any later linear-term claim.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0765/_index|#765]] directly, and

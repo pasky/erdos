@@ -32,14 +32,14 @@ $$
 are disjoint for distinct $r\geq 1$. Estimate $k(N)$ - in particular, is it true
 that $k(N)\sim 2N^{1/2}$?
 
-**Formulation.** The site's wording (the page shows no last-edited date).
-$S_r$ is the set of sums of $r$ distinct elements of $A$, so the condition
-says that the sum of a subset of $A$ determines its size; such sets are Straus's *admissible* sets, and
-$k(N)$ is the $F(N)$ of Erdős, Nicolas and Sárközy and the maximal
-cardinality of Deshouillers and Freiman. The notion goes back to Erdős's
-1962 condition (1') (Deshouillers and Freiman, p. 141: "introduced by
-P. Erdős in 1962 ... and called admissibility by E.G. Straus in 1966"). The
-question has two parts, an estimate of $k(N)$ and the asymptotic
+**Formulation.** The erdosproblems.com wording (the page shows no last-edited
+date). $S_r$ is the set of sums of $r$ distinct elements of $A$, so the
+condition says that the sum of a subset of $A$ determines its size; such sets
+are Straus's *admissible* sets, and $k(N)$ is the $F(N)$ of Erdős, Nicolas and
+Sárközy and the maximal cardinality of Deshouillers and Freiman. The notion goes
+back to Erdős's 1962 condition (1') (Deshouillers and Freiman, p. 141:
+"introduced by P. Erdős in 1962 ... and called admissibility by E.G. Straus in
+1966"). The question has two parts, an estimate of $k(N)$ and the asymptotic
 $k(N)\sim2N^{1/2}$; both are answered below.
 
 **Status.** Proved. The asymptotic $k(N)\sim2N^{1/2}$ was first proved in 1995.
@@ -63,20 +63,20 @@ with the block is a one-line deduction made here.
 The earlier bounds are superseded and answer neither part of the question. They
 are $\limsup k(N)N^{-1/2}\le4/\sqrt3$ (Straus, reproved in 1991),
 $\limsup k(N)N^{-1/2}\le(143/27)^{1/2}$ (Erdős, Nicolas and Sárközy, Théorème 1)
-and Erdős's $CN^{5/6}$ (1962). Straus's paper and Erdős's 1998 paper, both site
-keys or sources, are not held. For small $N$, the equality of $k(N)$ with the
-block size is the numerical conjecture of Erdős, Nicolas and Sárközy, not a
-theorem.
+and Erdős's $CN^{5/6}$ (1962). Straus's paper and Erdős's 1998 paper, both
+erdosproblems.com keys or sources, are not held. For small $N$, the equality of
+$k(N)$ with the block size is the numerical conjecture of Erdős, Nicolas and
+Sárközy, not a theorem.
 
 The two accepted claims are recorded on the claim pages of
 [[problems/additive_combinatorics/E0874/claims/1995_02_01_deshouillers_freiman|the 1995 paper]]
-(refereed; the site credits the 1999 paper, not this one) and
+(refereed; erdosproblems.com credits the 1999 paper, not this one) and
 [[problems/additive_combinatorics/E0874/claims/1999_01_01_deshouillers_freiman|the 1999 paper]]
 (refereed, with the curator's credit).
 
 **Source.** [erdosproblems.com/874](https://www.erdosproblems.com/874),
 accessed 2026-09-18: the problem page (PROVED, with
-the site recording the answer as yes; no last-edited date; source keys
+erdosproblems.com recording the answer as yes; no last-edited date; source keys
 [Er62c], [Er98]; commentary citing [St66], [ENS91] and [DeFr99] and pointing to
 Problems 186 and 789 and to the infinite version, Problem 875;
 indicators "Formalised statement? No" and "OEIS: Possible"), its empty
@@ -98,8 +98,8 @@ Erdős Problem #874, https://www.erdosproblems.com/874, accessed
   of Erdős and Straus, 1. Israel J. Math. 92 (1995), no. 1--3, 33--43,
   doi:10.1007/BF02762069 (Crossref record read 2026-09-18, issue dated
   February 1995; received March 11, 1993, revised March 22, 1994, per
-  p. 33); not a site key. Theorem 1, the $(2+o(1))\sqrt N$ bound that
-  first answered the asymptotic question, and Theorem 2, the structure
+  p. 33); not an erdosproblems.com key. Theorem 1, the $(2+o(1))\sqrt N$ bound
+  that first answered the asymptotic question, and Theorem 2, the structure
   theorem quoted as
   Theorem 2 in [DeFr99], both p. 34. Library home:
   [[../library/additive_combinatorics/deshouillers_1995_additive_problem_erdos_straus/_index|deshouillers_1995_additive_problem_erdos_straus]];
@@ -130,19 +130,20 @@ Erdős Problem #874, https://www.erdosproblems.com/874, accessed
   [[../library/additive_combinatorics/erdos_1962_szamelmeleti_megjegyzesek/theorem_iv|Theorem IV]].
 - [Er98] Erdős, P., Some of my new and almost new problems and results in
   combinatorial number theory. Number theory (Eger, 1996), de Gruyter
-  (1998), 169--180. Not held; the site's second key.
+  (1998), 169--180. Not held; erdosproblems.com's second key.
 
 **Formalization.** None. No file `ErdosProblems/874.lean` existed in
-google-deepmind/formal-conjectures on 2026-09-18, and the site's indicator read
-"Formalised statement? No". The community database (read 2026-09-18) records the
-problem proved (31 August 2025), not formalized, no formal proof, OEIS possible.
+google-deepmind/formal-conjectures on 2026-09-18, and the erdosproblems.com
+indicator read "Formalised statement? No". The community database (read
+2026-09-18) records the problem proved (31 August 2025), not formalized, no
+formal proof, OEIS possible.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
-above; PROVED, with the site recording the answer as yes; no last-edited
-date. The site's commentary, in summary: it names the sets admissible
-after Straus [St66], attributes to him the upper bound
+**The question (erdosproblems.com formulation).** The statement
+above; PROVED, with erdosproblems.com recording the answer as yes; no
+last-edited date. The erdosproblems.com commentary, in summary: it names the
+sets admissible after Straus [St66], attributes to him the upper bound
 $\limsup k(N)/N^{1/2}\le4/\sqrt3=2.309\cdots$ and the admissibility of the
 top block $(N-k,N]\cap\mathbb N$ for $k=2m-1$ when $m^2\le N<m^2+m$ and
 $k=2m$ when $m^2+m\le N<(m+1)^2$, whence $\liminf k(N)/N^{1/2}\ge2$;
@@ -167,7 +168,7 @@ $\{N-k+1,\ldots,N\}$ for $k=2m-1$ when $m^2\le N<m^2+m$ and $k=2m$ when
 $m^2+m\le N<(m+1)^2$, whence (2) $\liminf F(N)N^{-1/2}\ge2$; [DeFr99],
 p. 141, records the block computation as "admissible if and only if
 $k\le2\sqrt{N+1/4}-1$" and the bound $|\mathcal A|\le(4/\sqrt3+o(1))\sqrt N$.
-The two decimals the site prints are the ones printed in [ENS91].
+The two decimals erdosproblems.com prints are the ones printed in [ENS91].
 
 **The intermediate bounds.**
 [[../library/additive_combinatorics/erdos_1991_sommes_de_sous_ensembles/lemme_2|Lemme 2]]
@@ -194,7 +195,7 @@ supplies the lower bound and the theorem the matching upper bound. In the
 two ranges of Straus's computation the floor is $2m-1$ and $2m$
 respectively (for $m^2\le N<m^2+m$ one has
 $2m-1<2\sqrt{N+1/4}-1<2m$, and for $m^2+m\le N<(m+1)^2$,
-$2m\le2\sqrt{N+1/4}-1<2m+1$), so the formula reproduces the site's two
+$2m\le2\sqrt{N+1/4}-1<2m+1$), so the formula reproduces erdosproblems.com's two
 cases; these inequalities were checked here. Hence $k(N)=2N^{1/2}+O(1)$,
 in particular $k(N)\sim2N^{1/2}$, which answers the displayed question.
 The proof rests on the structure theorem for admissible sets with more
@@ -213,27 +214,27 @@ elements of a set that nearly fills an arithmetic progression
 size $2N^{1/2}+O(N^{5/12})$ (Theorem 3); it was read for structure only.
 The paper remarks (p. 142) that its arguments also show that for $N$ of
 the shape $n^2$ or $n^2+n$, $n$ large, the Erdős--Straus block is the only
-maximal admissible subset of $[1,N]$, the uniqueness the site's
+maximal admissible subset of $[1,N]$, the uniqueness the erdosproblems.com
 commentary alludes to. Read depth: claims checked for Theorem 1, Theorem 2
 and the remark. Acceptance evidence: publication in Astérisque, vol. 258
 (1999), pp. 141--148, which the Crossref record of DOI 10.24033/ast.442
 types as a journal article in the Société mathématique de France's
-Astérisque, and the site's label and credit. $N_0$ is not specified, so
-the exact formula is
-proved for large $N$ only; for all $N>1$ it is Conjecture 1 of [ENS91]
-(Section 4, based on tables to $N\le50$), which Theorem 1 does not settle.
+Astérisque, and the erdosproblems.com label and credit. $N_0$ is not specified,
+so the exact formula is proved for large $N$ only; for all $N>1$ it is
+Conjecture 1 of [ENS91] (Section 4, based on tables to $N\le50$), which Theorem
+1 does not settle.
 
 **Neighbors.** [[problems/additive_combinatorics/E0875/_index|Problem 875]] is the
 infinite version (open); [[problems/additive_combinatorics/E0789/_index|Problem
 789]] asks for the largest admissible subset guaranteed inside every
 $n$-set of integers, for which the present $k(n)$ is an upper bound;
-[[problems/additive_combinatorics/E0186/_index|Problem 186]] is the site's other
-cross-reference.
+[[problems/additive_combinatorics/E0186/_index|Problem 186]] is
+erdosproblems.com's other cross-reference.
 
 **Search scope.** None of the routes below found a dispute of Theorem 1,
 a determination of $N_0$, or a copy of Straus's paper.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures listing (no file on
   2026-09-18).
 - The primary sources as stated: [DeFr99] pp. 141--142, [ENS91]
@@ -256,7 +257,7 @@ its proof (Sections 1--5) read for structure only; only the deduction of
 its Theorem 1 from it (Section 6) is read in full.
 (3) $N_0$ is unspecified; the equality $k(N)=$ block size for every $N>1$
 is conjectural. (4) The proofs were read for structure only; no
-independent review exists. (5) [Er98], a site key, is not held.
+independent review exists. (5) [Er98], an erdosproblems.com key, is not held.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

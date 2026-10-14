@@ -36,32 +36,31 @@ $$
 g_3(n) \gg 3^n?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page showed no
-last-edited date). $\langle A\rangle$ includes the empty
-sum $0$; a $k$-term progression $\{x,x+d,\ldots,x+(k-1)d\}$ is non-trivial
-when $d\ne0$ (Korsky's "nonconstant"). For $k=3$, Proposition 4.1 of [Ko26]
-shows that $\langle A\rangle$ is free of non-trivial three-term progressions
-exactly when the $3^n$ sums $\sum\varepsilon_aa$ with
-$\varepsilon_a\in\{0,1,2\}$ are all distinct, so that (Corollary 4.2)
-$g_3(n)$ is the least possible maximum of $n$ positive integers whose
-ternary coefficient sums are injective; the powers of three give
-$g_3(n)\le3^{n-1}$. The problem has two parts, the estimate of $g_k(n)$ for
-each $k$ and the displayed question for $k=3$; their status is recorded
-separately below. The site's source [Er91] is not held. The paper of
-Erdős and Sárközy in which the bound is proved, [ErSa92], never writes
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+showed no last-edited date). $\langle A\rangle$ includes the empty sum $0$; a
+$k$-term progression $\{x,x+d,\ldots,x+(k-1)d\}$ is non-trivial when $d\ne0$
+(Korsky's "nonconstant"). For $k=3$, Proposition 4.1 of [Ko26] shows that
+$\langle A\rangle$ is free of non-trivial three-term progressions exactly when
+the $3^n$ sums $\sum\varepsilon_aa$ with $\varepsilon_a\in\{0,1,2\}$ are all
+distinct, so that (Corollary 4.2) $g_3(n)$ is the least possible maximum of $n$
+positive integers whose ternary coefficient sums are injective; the powers of
+three give $g_3(n)\le3^{n-1}$. The problem has two parts, the estimate of
+$g_k(n)$ for each $k$ and the displayed question for $k=3$; their status is
+recorded separately below. The erdosproblems.com source [Er91] is not held. The
+paper of Erdős and Sárközy in which the bound is proved, [ErSa92], never writes
 $g_k(n)$ but works with $K(N)$, the least $t$ such
 that every $t$-element subset of $\{1,\ldots,N\}$ has a three-term
 arithmetic progression among its (positive) subset sums, and its
 [[../library/additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/theorem_4|Theorem 4]]
 (p. 251) states $[\log N/\log3]+2\le K(N)<(\log N+\log\log N)/\log3+2$
-for $N>N_0$; the site's $g_3(n)\gg3^n/n^{O(1)}$ is the upper half of this
-bound read through $g_3(n)\le N\Rightarrow K(N)\ge n+1$, and the paper's
+for $N>N_0$; erdosproblems.com's $g_3(n)\gg3^n/n^{O(1)}$ is the upper half of
+this bound read through $g_3(n)\le N\Rightarrow K(N)\ge n+1$, and the paper's
 interval argument (p. 261) gives $g_3(n)\gg3^n/n$ (the card records the
 translation). The displayed question appears there (p. 252) as whether
 $K(N)=\log N/\log3+O(1)$, with the authors' tentative "perhaps, we have
 $K(N)=[\log N/\log3]+2$".
 
-**Status.** Open. The site's label was OPEN on 2026-09-18 and
+**Status.** Open. The erdosproblems.com label was OPEN on 2026-09-18 and
 2026-10-06. The sources support the following bounds. For $k=3$,
 
 $$
@@ -74,9 +73,9 @@ of Korsky [Ko26] (arXiv:2606.24139v1, June 2026, a preprint with no journal
 record on 2026-09-18), recorded as the claimed partial claim
 [[problems/additive_combinatorics/E0817/claims/2026_06_23_korsky|Korsky's bounds]].
 It sharpens Erdős and Sárközy's $g_3(n)\gg3^n/n^{O(1)}$. That form of the bound
-is the site's wording. The paper's Theorem 4 (p. 251) is about $K(N)$, and its
-argument on p. 261 gives $g_3(n)\gg3^n/n$. Erdős and Sárközy's bound is recorded
-as the accepted partial claim
+is the erdosproblems.com wording. The paper's Theorem 4 (p. 251) is about
+$K(N)$, and its argument on p. 261 gives $g_3(n)\gg3^n/n$. Erdős and Sárközy's
+bound is recorded as the accepted partial claim
 [[problems/additive_combinatorics/E0817/claims/1992_01_01_erdos_sarkozy|Erdős and Sárközy's lower bound]],
 on the refereed paper. For fixed $k\ge4$, Theorems 1.2 and 1.3 of [Ko26] give
 $\liminf g_k(n)^{1/n}\ge(k-1)/(k-2)$ and
@@ -88,15 +87,16 @@ four-page preprint of September 2026 [Co26] (Zenodo, 5 September 2026;
 arXiv:2609.06303v1, 5 September 2026) proves, if correct, that
 $\liminf_{n\to\infty}g_3(n)/3^n=0$. It uses Korsky's Corollary 4.2 and a
 consequence of the construction that disproved
-[[problems/additive_combinatorics/E0001/_index|Problem 1]]. The site credits
-that construction to GPT-6 Astra run by Epoch AI. The preprint's acknowledgments
-declare the use of ChatGPT (OpenAI, GPT-5.6 Sol) in finding, checking and
-revising the argument. The claim is on the site's proof-claim tab. It was
-submitted 2026-09-05 01:48:23 and labeled full on 2026-09-05. It was labeled
-partial from 2026-09-06, when the site's moderator relabeled it and called its
-scope debatable. The site's commentary does not adopt the claim. No refereed
-version, independent review or citing paper beyond the thread was found. The
-claim has its own page,
+[[problems/additive_combinatorics/E0001/_index|Problem 1]]. erdosproblems.com
+credits that construction to GPT-6 Astra run by Epoch AI. The preprint's
+acknowledgments declare the use of ChatGPT (OpenAI, GPT-5.6 Sol) in finding,
+checking and revising the argument. The claim is on the erdosproblems.com
+proof-claim tab. It was submitted 2026-09-05 01:48:23 and labeled full on
+2026-09-05. It was labeled partial from 2026-09-06, when the erdosproblems.com
+moderator relabeled it and called its scope debatable. The erdosproblems.com
+commentary does not adopt the claim. No refereed version, independent review or
+citing paper beyond the thread was found on 2026-09-18. The claim has its own
+page,
 [[problems/additive_combinatorics/E0817/claims/2026_09_05_costa|Costa's negative answer]],
 a partial claim with status claimed. If correct, it settles the displayed
 question and leaves the estimate open. For the estimate, this is a bounded
@@ -104,8 +104,8 @@ negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/817](https://www.erdosproblems.com/817),
 accessed 2026-09-18: the problem page (labeled OPEN, with
-the site's note that the problem cannot be settled by a finite computation;
-no last-edited date; source key [Er91]; a one-sentence commentary
+the erdosproblems.com note that the problem cannot be settled by a finite
+computation; no last-edited date; source key [Er91]; a one-sentence commentary
 attributing the problem to Erdős and Sárközy and crediting them with
 $g_3(n)\gg3^n/n^{O(1)}$; a thanks line naming one contributor; OEIS
 indicator "Possible"), its discussion thread (eight comments shown and one
@@ -120,7 +120,7 @@ summarized under The 2026 claim below. Cite as: T. F. Bloom, Erdős Problem
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and
   applications, Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406. Not held;
-  the site's key.
+  the erdosproblems.com key.
 - [ErSa92] Erdős, P. and Sárközy, A., Arithmetic progressions in subset
   sums. Discrete Math. 102 (1992), no. 3, 249--264, DOI
   10.1016/0012-365x(92)90119-z (Crossref record of 2026-09-18); the
@@ -166,8 +166,8 @@ Erdős--Sárközy bound $\exists O>0$, $3^n/n^O=O(g_3(n))$, with proof
 carries both proofs as `sorry` and no formal-proof attribute.
 The community database on 2026-09-18 records the problem open, the
 statement formalized (31 August 2025), no formal proof, OEIS "possible";
-the site's indicator reads "Formalised statement? Yes". In a comment of 7
-September 2026 on the proof-claim thread, the author of [Co26] announced a
+the erdosproblems.com indicator reads "Formalised statement? Yes". In a comment
+of 7 September 2026 on the proof-claim thread, the author of [Co26] announced a
 self-contained Lean 4 verification in the second Zenodo version, starting
 from the formal-conjectures statement `Erdos817.erdos_817` and concluding
 `answer(False)`, which adapts the parts of the Lean proof for Problem 1 that
@@ -177,17 +177,16 @@ link.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-OPEN; no last-edited date; the commentary is one sentence,
-attributing the problem to Erdős and Sárközy with their bound
-$g_3(n)\gg3^n/n^{O(1)}$. The
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN; no last-edited date; the commentary is one sentence, attributing
+the problem to Erdős and Sárközy with their bound $g_3(n)\gg3^n/n^{O(1)}$. The
 thread, oldest first: 23 June 2026, the author of [Ko26] announcing the
 preprint with its $k=3$ bound $g_3(n)\ge(T_n-1)/2+\sum_{j<n}T_j$, the
 general-$k$ bounds and the construction, and noting that a second-moment
-argument already gives $\Omega(3^n/\sqrt n)$ with a worse constant; the
-site's author replying that Erdős never claimed a specific exponent, that
-Erdős and Sárközy were likely aware of $3^n/\sqrt n$, and that the
-question Erdős meant is the displayed one, whether $g_3(n)\gg3^n$; the
+argument already gives $\Omega(3^n/\sqrt n)$ with a worse constant;
+erdosproblems.com's author replying that Erdős never claimed a specific
+exponent, that Erdős and Sárközy were likely aware of $3^n/\sqrt n$, and that
+the question Erdős meant is the displayed one, whether $g_3(n)\gg3^n$; the
 announcer
 pointing to p. 261 of [ErSa92] for the simple interval argument; on 24 June
 2026 a deleted post and two short remarks that $N$ working implies $N+1$
@@ -207,13 +206,13 @@ lower bound and the preprint's bounds have their own partial claim pages,
 [[problems/additive_combinatorics/E0817/claims/2026_06_23_korsky|Korsky's bounds]]
 (claimed).
 
-**The origin.** The site's key [Er91] is not held, so the site's
-$g_k(n)$ formulation rests on the site. The Erdős--Sárközy paper [ErSa92],
-§ 3 (p. 251), defines $K(N)=\min\{t:G(N,t)\ge3\}$, "the least integer $t$ such
-that for every $\mathcal A\subset\{1,2,\ldots,N\}$ with
-$\lvert\mathcal A\rvert\ge t$ the set $\mathcal P(\mathcal A)$ contains an
-arithmetic progression of three terms", where $\mathcal P(\mathcal A)$ is
-the set of positive subset sums (p. 249), and
+**The origin.** The erdosproblems.com key [Er91] is not held, so
+erdosproblems.com's $g_k(n)$ formulation rests on erdosproblems.com. The
+Erdős--Sárközy paper [ErSa92], § 3 (p. 251), defines
+$K(N)=\min\{t:G(N,t)\ge3\}$, "the least integer $t$ such that for every
+$\mathcal A\subset\{1,2,\ldots,N\}$ with $\lvert\mathcal A\rvert\ge t$ the set
+$\mathcal P(\mathcal A)$ contains an arithmetic progression of three terms",
+where $\mathcal P(\mathcal A)$ is the set of positive subset sums (p. 249), and
 [[../library/additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/theorem_4|Theorem 4]]
 (p. 251) reads "For $N>N_0$ we have
 $[\log N/\log3]+2\le K(N)<\frac1{\log3}(\log N+\log\log N)+2$." The
@@ -234,10 +233,10 @@ with $N$ replaced by $2N$ on the right. The printed bound follows for
 large $N$ from a sharper count, the second-moment bound $3^m\ll\sqrt m\,N$
 for $m$ integers in $[1,N]$ with distinct ternary sums (an observation made
 here). The thread comment of 23 June 2026 locates the argument on p. 261
-correctly, but its interval of length $nN$ repeats the slip. In the site's
-notation the argument gives $g_3(n)\gg3^n/n$ (the card records the
-translation), so the exponent in the site's $n^{O(1)}$ is $1$ by the
-paper's own argument. The paper's question (p. 252) is "whether
+correctly, but its interval of length $nN$ repeats the slip. In the
+erdosproblems.com notation the argument gives $g_3(n)\gg3^n/n$ (the card records
+the translation), so the exponent in erdosproblems.com's $n^{O(1)}$ is $1$ by
+the paper's own argument. The paper's question (p. 252) is "whether
 $K(N)=\log N/\log3+O(1)$", equivalent to the displayed $g_3(n)\gg3^n$, and it
 adds "we have not been able to find an integer $N$ with $[\log N/\log3]+2<K(N)$
 so that, perhaps, we have $K(N)=[\log N/\log3]+2$", which would make the powers
@@ -286,7 +285,7 @@ $g_3(n)\ge c3^n$ for every $n\ge n_0$", the negation of the displayed
 question. The proof (p. 3) combines Proposition 2.1 (Korsky's Corollary
 4.2) with Proposition 2.2, labeled in the preprint as a consequence of the
 construction for Problem 1 (the tab summary calls it the OpenAI
-construction; the site credits it to GPT-6 Astra, run by Epoch AI): for
+construction; erdosproblems.com credits it to GPT-6 Astra, run by Epoch AI): for
 every $K>0$ there are
 $n$, $R$, $D$, $E$ and integer coefficients
 $a_0(t),\ldots,a_n(t)$ with $KD<R^n$, $a_i(t)/t^n\to D$, all $a_i(t)>0$ for
@@ -310,13 +309,13 @@ separately from the AI-generated construction it cites, and that the
 author "checked the mathematical statements and references and takes full
 responsibility for the paper"; the arXiv record (v1, 5 September 2026)
 carries the same abstract. Acceptance evidence: none. No journal record,
-no site adoption (label OPEN), no independent review. The
+no erdosproblems.com adoption (label OPEN), no independent review. The
 claim's thread carries four comments: on 5 September 2026 the author of
 [Ko26] thanked the claimant; on 6 September a commenter wrote that the
 argument looks correct and later edited the comment to add that it
 is not a full solution, since Erdős asked for an estimate and, as the
-site's curator had noted under Problem 1, the construction will not close
-the gap, an informal reading and not a review; on 6 September the claimant
+erdosproblems.com curator had noted under Problem 1, the construction will not
+close the gap, an informal reading and not a review; on 6 September the claimant
 replied that they regard the displayed question as the main one, and a
 moderator's note inside that comment calls the full-or-partial question
 debatable and records the relabeling of the claim from full to partial; on
@@ -325,8 +324,8 @@ Zenodo version. The thread's 9 September comment takes the result as given
 and reports the Lean verification without checking it. The claim page
 [[problems/additive_combinatorics/E0817/claims/2026_09_05_costa|Costa's negative answer]]
 records it as a partial claim with status claimed; a refereed version or a
-documented independent acceptance, including the site's, would move it to
-accepted. If correct, the claim settles the displayed question negatively.
+documented independent acceptance, including erdosproblems.com's, would move it
+to accepted. If correct, the claim settles the displayed question negatively.
 Theorem 1.1 alone gives $g_3(d\ell)\le\varepsilon3^{d\ell}$ for large
 $\ell$ with $d$ depending on $\varepsilon$, that is $\liminf g_3(n)/3^n=0$;
 with the monotonicity $g_3(n+1)\le3g_3(n)$ below, checked for this page,
@@ -358,13 +357,15 @@ thanks ChatGPT 5.6 for the adaptation; not checked in this corpus. The 23
 September 2026 comment reports $g_3(7)\le474$ with the witness
 $\{302,409,447,459,465,466,474\}$, so that by monotonicity
 $g_3(n)/3^n<0.2168$ for $n\ge7$; the witness is not checked in this
-corpus. The site states that it does not verify the comments on its pages.
+corpus. erdosproblems.com states that it does not verify the comments on its
+pages.
 
-**Search scope.** None of the routes below found a refereed source for the
-Erdős--Sárközy bound beyond the Crossref record of [ErSa92], a journal version
-of [Ko26] or [Co26], an independent check of [Co26], or a further proof claim.
+**Search scope (2026-09-18 UTC).** None of the routes below found a refereed
+source for the Erdős--Sárközy bound beyond the Crossref record of [ErSa92], a
+journal version of [Ko26] or [Co26], an independent check of [Co26], or a
+further proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab on
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
   2026-09-18; the formal-conjectures file, linked above; the community
   database on 2026-09-18.
 - The primary sources: [Ko26] pp. 1--3, 6, 8; [Co26] pp. 1--4 (the Zenodo
@@ -392,16 +393,15 @@ answer in [Co26], recorded on
 its acceptance would change the standing, and the argument (with
 Proposition 2.2's extraction from the Problem 1 exposition) is what an
 independent review would have to check. (2) The origin [Er91] is
-not held, so the site's $g_k(n)$ wording of the question is second-hand;
-the Erdős--Sárközy paper [ErSa92], Theorem 4 with the p. 261 argument, is
-the source of the bound, in the $K(N)$ formulation
-recorded on its card. (3) [Ko26] is a preprint; the preprint qualification
-applies to the $3^n/\sqrt n$ bound, recorded on its claim page. (4) The
-exact values $g_3(5)$, $g_3(6)$ and the bound $g_3(7)\le474$ are thread
-items not checked in this corpus; a reproducible finite check of the small
-values would settle them. The monotonicity $g_3(n+1)\le3g_3(n)$ is checked
-above. (5) The corpus holds no copy or build of the Lean verification the
-claimant announced.
+not held, so erdosproblems.com's $g_k(n)$ wording of the question is
+second-hand; the Erdős--Sárközy paper [ErSa92], Theorem 4 with the p. 261
+argument, is the source of the bound, in the $K(N)$ formulation recorded on its
+card. (3) [Ko26] is a preprint; the preprint qualification applies to the
+$3^n/\sqrt n$ bound, recorded on its claim page. (4) The exact values $g_3(5)$,
+$g_3(6)$ and the bound $g_3(7)\le474$ are thread items not checked in this
+corpus; a reproducible finite check of the small values would settle them. The
+monotonicity $g_3(n+1)\le3g_3(n)$ is checked above. (5) The corpus holds no copy
+or build of the Lean verification the claimant announced.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

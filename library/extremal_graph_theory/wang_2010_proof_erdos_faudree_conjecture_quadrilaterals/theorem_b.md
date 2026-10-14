@@ -34,7 +34,7 @@ disjoint cycles of length 4." The introduction (p. 833): "Erdős [4]
 conjectured that if $G$ is a graph of order $4k$ with minimum degree at
 least $2k$, then $G$ contains $k$ disjoint cycles of length 4", the
 reference [4] being Erdős, Some recent combinatorial problems, Technical
-Report, University of Bielefeld (1990), the report the site cites as
+Report, University of Bielefeld (1990), the report erdosproblems.com cites as
 [Er90c]. The introduction attributes the conjecture to Erdős alone; the
 title, the abstract and the sentence on El-Zahar's conjecture (p. 834,
 "the above conjecture of Erdős and Faudree") name Erdős and Faudree.
@@ -100,5 +100,5 @@ Graph Theory (1978). None of the three is held.
   statement as a theorem, in the paper's words ("order $4k$" for "$4k$
   vertices", "disjoint cycles of length 4" for "vertex-disjoint
   $4$-cycles"), with no lower bound on $k$ or other hypothesis beyond the
-  abstract's. The site labeled the problem PROVED and credits the proof
+  abstract's. Bloom's catalog labeled the problem PROVED and credits the proof
   to this paper; the proof is read here for structure only.

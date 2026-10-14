@@ -98,6 +98,6 @@ None outside the paper.
 - [[../wiki/problems/unit_fractions/E0293/_index|Problem 293]]: by Theorem 3 every
   denominator of a $k$-term representation of $1$ is at most $\alpha_k-1$,
   so $\alpha_k$ never occurs and $v(k)\le\alpha_k$; this is the bound quoted
-  in the site's discussion in terms of Sylvester's sequence.
+  in the erdosproblems.com discussion in terms of Sylvester's sequence.
 - [[../wiki/problems/unit_fractions/E0304/_index|Problem 304]]: Theorem 4 gives the
   largest fraction with $N(a,b)\le n$.

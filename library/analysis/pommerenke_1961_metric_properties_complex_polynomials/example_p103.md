@@ -89,8 +89,9 @@ held), and the Cauchy width formula from Bonnesen and Fenchel (1934).
   5-Stern of the author's Math. Ann. 139 paper, not on the 1959 note
   filed as
   [[analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/_index|pommerenke_1959_some_problems_erdos_herzog_piranian]],
-  which this paper cites for Problem 10b (Theorem 2, p. 98); the site's
-  status "DISPROVED (LEAN)" was not traced to a formal proof here.
+  which this paper cites for Problem 10b (Theorem 2, p. 98); the
+  erdosproblems.com status "DISPROVED (LEAN)" was not traced to a formal proof
+  here.
 - [[../wiki/problems/polynomials/E0509/_index|Problem 509]]: context only. A cover of
   $E$ by disks with radii summing to at most 2 projects onto every line to
   measure at most 4, which the example does not contradict; the paper

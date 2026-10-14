@@ -32,10 +32,10 @@ updated: 2026-10-07T22:00:44Z
 Browkin and Schinzel [BrSc95] prove that none of the numbers $2^k\cdot509203$
 with $k\ge1$ is of the form $n-\phi(n)$, so infinitely many positive integers
 are not of that form; this answers yes to the question, which Sierpiński had
-asked in 1959 and which the site attributes to Erdős and Sierpiński. The proof
-is elementary. A first lemma shows that $1018406=2\cdot509203$ is not of the
-form: congruences modulo $4$, $3$ and $12$ together with a lower bound for
-$\phi(n)/n$ confine a hypothetical $n$ to a short range that is checked
+asked in 1959 and which erdosproblems.com attributes to Erdős and Sierpiński.
+The proof is elementary. A first lemma shows that $1018406=2\cdot509203$ is not
+of the form: congruences modulo $4$, $3$ and $12$ together with a lower bound
+for $\phi(n)/n$ confine a hypothetical $n$ to a short range that is checked
 directly. A second lemma records that every $2^k\cdot509203-1$ is composite,
 a 1956 result of Riesel ($509203$ is a Riesel number), and induction on $k$
 carries the conclusion from $1018406$ to the whole family. The
@@ -48,8 +48,8 @@ received by the editors on 1994-04-11, the date this page carries. Reviewed:
 Guy's Unsolved Problems in Number Theory, third edition (2004), section B36,
 reports the theorem as the proof that infinitely many such integers exist
 ([[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|card]]).
-The site's curator, Thomas F. Bloom, records the problem as proved by it
-(problem page last edited 2025-12-08).
+The erdosproblems.com curator, Thomas F. Bloom, records the problem as proved by
+it (problem page last edited 2025-12-08).
 
 Formalization: a Lean 4 proof in the lean-proofs repository, linked above at its
 pinned commit, states `erdos_418 : { (n - n.totient : ℕ) | n }ᶜ.Infinite`. It
@@ -59,9 +59,9 @@ says that an explanation of it written by ChatGPT 5.1 Pro was auto-formalized
 into Lean by Aristotle, and it records Lean v4.24.0 and Mathlib v4.24.0. The
 formal-conjectures statement file `ErdosProblems/418.lean` credits the
 formalization to Alexeev using Aristotle and records it as the problem's formal
-proof. The site's Lean label corresponds to that recorded proof. This corpus has
-neither built that proof nor audited its statement, so it is not listed as
-evidence.
+proof. The erdosproblems.com Lean label corresponds to that recorded proof. This
+corpus has neither built that proof nor audited its statement, so it is not
+listed as evidence.
 
 **Depends on.** No page of this wiki: the result rests on the cited paper
 alone.

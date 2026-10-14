@@ -30,8 +30,8 @@ $$
 F(N) > N^{1/2-o(1)}?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-30 September 2025). "The sum of any distinct elements of
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 30 September 2025). "The sum of any distinct elements of
 $A\setminus\{a\}$" is the sum of any nonempty subset of the other elements,
 the wording of OEIS A068063 ("no element divides the sum of any nonempty
 subset of the other elements"); Erdős's 1975 wording is "no $a$ divides
@@ -43,13 +43,13 @@ Problem 13 is the two-summand relative with the summands larger than the
 divisor; here the summands may be smaller than $a$ and any number of them
 is allowed.
 
-**Status.** Labeled open on the site, for the estimate: the label OPEN attaches
-to the estimate. The estimate carries one pending full claim,
-$F(N)=N^{1/5+o(1)}$. It was submitted to the site's proof-claim tab on 24 July
-2026 and is recorded on
+**Status.** Labeled open on erdosproblems.com, for the estimate: the label OPEN
+attaches to the estimate. The estimate carries one pending full claim,
+$F(N)=N^{1/5+o(1)}$. It was submitted to the erdosproblems.com proof-claim tab
+on 24 July 2026 and is recorded on
 [[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]].
-The site has not examined it, and it is unreviewed. The frontmatter standing
-`claimed` derives from this claim and certifies nothing.
+erdosproblems.com has not examined it, and it is unreviewed. The frontmatter
+standing `claimed` derives from this claim and certifies nothing.
 
 The displayed question is answered no. Every non-dividing set is non-averaging:
 if $a$ were the average of a nonempty $B\subseteq A\setminus\{a\}$, then $a$
@@ -71,13 +71,12 @@ recorded as an accepted partial claim on
 
 **Source.** [erdosproblems.com/131](https://www.erdosproblems.com/131),
 accessed 2026-09-18: the problem page (OPEN, a label
-the site glosses as open and not resolvable by a finite computation; last
-edited 30 September 2025;
-source keys [Er75b, p. 309], [Er97b, p. 230], [ELRSS99, p. 129], with
-[PhZa24] and [Gu04] cited in the commentary; OEIS A068063), its empty
-discussion thread and its proof-claim tab with one full claim. Cite as:
-T. F. Bloom, Erdős Problem #131, https://www.erdosproblems.com/131,
-accessed 2026-09-18.
+erdosproblems.com glosses as open and not resolvable by a finite computation;
+last edited 30 September 2025; source keys [Er75b, p. 309], [Er97b, p. 230],
+[ELRSS99, p. 129], with [PhZa24] and [Gu04] cited in the commentary; OEIS
+A068063), its empty discussion thread and its proof-claim tab with one full
+claim. Cite as: T. F. Bloom, Erdős Problem #131,
+https://www.erdosproblems.com/131, accessed 2026-09-18.
 
 **References.**
 
@@ -116,10 +115,9 @@ accessed 2026-09-18.
   10.1016/S0012-365X(96)00173-2; item 10, printed pp. 230--231 (PDF
   pp. 4--5 of the publisher's open-archive file at that DOI): the problem,
   the easy bound $f(n)<cn^{1/2}$, the attribution of $f(n)>cn^{1/5}$ to a
-  Budapest student and the question $f(n)>n^{1/2-\varepsilon}$; the site
-  cites p. 230 for a construction by Csaba, and no construction is
-  printed.
-  Library home:
+  Budapest student and the question $f(n)>n^{1/2-\varepsilon}$;
+  erdosproblems.com cites p. 230 for a construction by Csaba, and no
+  construction is printed. Library home:
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|erdos_1997_some_old_new_problems_various_branches_combinatorics]];
   result page
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/section_10|Item 10]].
@@ -144,12 +142,12 @@ and `formal_status` unformalized.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-OPEN, glossed by the site as not resolvable by a finite computation, last
-edited 30 September 2025. The commentary, in this page's words: the paper
-[ELRSS99] of Erdős, Lev, Rauzy, Sándor and Sárközy names the property
-non-dividing and proves $F(N)<3N^{1/2}+1$; in [Er97b] Erdős attributes a
-construction with $F(N)\gg N^{1/5}$ to Csaba, and [ELRSS99] gives such a
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, glossed by erdosproblems.com as not resolvable by a finite
+computation, last edited 30 September 2025. The commentary, in this page's
+words: the paper [ELRSS99] of Erdős, Lev, Rauzy, Sándor and Sárközy names the
+property non-dividing and proves $F(N)<3N^{1/2}+1$; in [Er97b] Erdős attributes
+a construction with $F(N)\gg N^{1/5}$ to Csaba, and [ELRSS99] gives such a
 construction too, through non-averaging sets (Problem 186); since a
 non-dividing set is non-averaging, Pham and Zakharov's theorem [PhZa24]
 gives $F(N)\le N^{1/4+o(1)}$, which answers the displayed question no while
@@ -161,10 +159,10 @@ submitted 24 July 2026 by Theofil Xeff, who declares that GPT 5.6 Sol did
 the mathematics and Fable 5 the Lean 4 formalization, asserting
 $F(N)=N^{1/5+o(1)}$ by a normalization of the density-increment argument of
 [PhZa24] that lowers the dimension by one, with a PDF and a repository (head
-commit dated 24 July 2026) and five comments of 24--25 July 2026; the site
-has not examined it, it is unrefereed, and this page rests on no reading of
-the write-up or the Lean development. It is recorded as a pending full claim
-on
+commit dated 24 July 2026) and five comments of 24--25 July 2026;
+erdosproblems.com has not examined it, it is unrefereed, and this page rests on
+no reading of the write-up or the Lean development. It is recorded as a pending
+full claim on
 [[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]],
 from which the frontmatter standing derives.
 
@@ -179,7 +177,7 @@ $1\le a_1<\cdots<a_m\le X$ has no $a$ equal to the arithmetic mean of other
 $a$'s, determine or estimate $f(X)$. Straus proved (1) for $f(X)$ as well,
 Erdős and Straus proved $f(X)<cX^{3/4}$, Szemerédi had slightly improved
 that exponent, and Erdős thought $f(X)=\mathrm o(X^\varepsilon)$ probable
-and far out of reach. The site's form of Straus's bound,
+and far out of reach. The erdosproblems.com form of Straus's bound,
 $\exp((\sqrt{2/\log2}+o(1))\sqrt{\log N})$, is the same expression. The
 "essentially equivalent" is Erdős's word: in one direction the implication
 is exact ($F(X)\le f(X)$, below); in the other Straus's transfer theorem, as
@@ -192,8 +190,8 @@ $X^{1/5}$ and $X^{1/4+o(1)}$.
 nonempty $B\subseteq A\setminus\{a\}$ then $|B|\,a=\sum_{b\in B}b$, so $a$
 divides the sum of distinct other elements; hence a non-dividing set is
 non-averaging and $F(N)\le h(N)$, where $h(N)$ is the largest non-averaging
-subset of $\{1,\ldots,N\}$ (an elementary check, which the site's commentary
-also states). Pham and Zakharov's
+subset of $\{1,\ldots,N\}$ (an elementary check, which the erdosproblems.com
+commentary also states). Pham and Zakharov's
 [[../library/additive_combinatorics/pham_2024_sharp_bound_erdos_straus_non_averaging/theorem_1|Theorem 1]]
 (p. 2): every non-averaging $A\subseteq[n]$ has $|A|\le n^{1/4+o(1)}$, so
 $h(n)=n^{1/4+o(1)}$ (the lower bound is Bosznay's construction
@@ -202,10 +200,10 @@ $iq^3+i(i+1)/2$, $1\le i<q$, in $[q^4]$: the
 of [Bo89], pp. 155--156). Therefore $F(N)\le N^{1/4+o(1)}$, which
 contradicts $F(N)>N^{1/2-o(1)}$ for all large $N$; the answer to the
 displayed question is no. Acceptance evidence: the paper appeared in
-Geometric and Functional Analysis (December 2025, DOI above), and the site's
-commentary records the deduction. Read depth: the statement of Theorem 1;
-its proof, which rests on the Conlon--Fox--Pham structure theorem for subset
-sums, is not examined in this corpus. The deduction is recorded as an
+Geometric and Functional Analysis (December 2025, DOI above), and the
+erdosproblems.com commentary records the deduction. Read depth: the statement of
+Theorem 1; its proof, which rests on the Conlon--Fox--Pham structure theorem for
+subset sums, is not examined in this corpus. The deduction is recorded as an
 accepted partial claim on
 [[problems/integer_sequences/E0131/claims/2024_10_18_pham_zakharov|the Pham--Zakharov claim page]].
 
@@ -242,7 +240,7 @@ corpus).
 on $F(N)$ beyond those above, a copy of [ELRSS99], or a refereed account
 of the $N^{1/5+o(1)}$ claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree (no file); the community
   database; the claim repository's commit history.
 - arXiv: the API record of 2410.14624 (v2, 10 September 2025; no journal

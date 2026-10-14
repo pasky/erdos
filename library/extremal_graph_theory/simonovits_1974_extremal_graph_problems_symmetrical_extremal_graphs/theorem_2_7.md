@@ -6,7 +6,7 @@ desc: |
   without proof, that the maximum number of edges of a triangle-free graph on
   n vertices with chromatic number at least t is n^2/4 − ĝ_3(t) n/2 + O(1),
   where ĝ_3(t) is the largest m such that every such graph needs at least m
-  vertices removed to become bipartite; the expansion the catalog's
+  vertices removed to become bipartite; the expansion erdosproblems.com's
   Problem 1011 attributes to the paper.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T14:33:42Z
@@ -61,16 +61,16 @@ problem the exact solution of which is unknown to me". The function is
 printed with a hat, $\hat g_3$, which the remark distinguishes from "$g_3$
 of [1]" (Erdős, Graph theory and probability, 1959).
 
-**In the problem's notation.** The catalog's $f_r(n)$ is the least edge
+**In the problem's notation.** erdosproblems.com's $f_r(n)$ is the least edge
 count forcing a triangle in a graph on $n$ vertices of chromatic number at
 least $r$, so $f_r(n)=f_r(n;K_3)+1$ whenever a triangle-free graph on $n$
 vertices with chromatic number at least $r$ exists (Remark 2.8(a) supplies
 such graphs for every $t$ from the paper's [10]), and Theorem 2.7 with $t=r$
-gives $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ with $g(r)=\hat g_3(r)$, the
-site's expansion; the added $1$ is absorbed in the $O(1)$. The site's
-definition of $g(r)$ ("the largest $m$ such that, for any triangle-free graph
-with chromatic number $\ge r$, at least $m$ vertices of $G$ need to be
-removed to obtain a bipartite graph") is the printed definition of
+gives $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ with $g(r)=\hat g_3(r)$,
+erdosproblems.com's expansion; the added $1$ is absorbed in the $O(1)$. The
+erdosproblems.com definition of $g(r)$ ("the largest $m$ such that, for any
+triangle-free graph with chromatic number $\ge r$, at least $m$ vertices of $G$
+need to be removed to obtain a bipartite graph") is the printed definition of
 $\hat g_3(t)$ in other words.
 
 Two filing observations, not review verdicts. First, display (8) prints
@@ -141,11 +141,10 @@ further dependency is recorded.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1011/_index|Problem 1011]]: the expansion
-  $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ that the site attributes to
+  $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ that erdosproblems.com attributes to
   Simonovits's PhD thesis, citing "the discussion on p. 358" of the paper,
-  with $g(r)=\hat g_3(r)$ defined exactly as the site defines $g(r)$; the
-  theorem Erdős's 1971
-  footnote "Simonovits determined $u_r$"
+  with $g(r)=\hat g_3(r)$ defined exactly as erdosproblems.com defines $g(r)$;
+  the theorem Erdős's 1971 footnote "Simonovits determined $u_r$"
   ([[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_3|item_3]])
   refers to. The statement is printed; its proof is not, and the paper does not
   determine $\hat g_3(t)$, so the problem stays open.

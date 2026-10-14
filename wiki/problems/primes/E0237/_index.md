@@ -28,15 +28,15 @@ updated: 2026-10-08T02:16:54Z
 of solutions to $n=p+a$ for $p$ prime and $a\in A$. Is it true that $\limsup
 f(n)=\infty$?
 
-**Status.** PROVED (LEAN), the site's label. The accepted claim is
+**Status.** PROVED (LEAN), the erdosproblems.com label. The accepted claim is
 [[problems/primes/E0237/claims/2022_01_26_chen_ding|Chen and Ding's 2022 theorem]],
-refereed and credited by the site's curator. The theorem also shows that any
-infinite $A$ suffices. Erdős's 1950 theorem for $A=\{2^k:k\ge0\}$, credited in
-the site's commentary, is the accepted partial claim
+refereed and credited by the erdosproblems.com curator. The theorem also shows
+that any infinite $A$ suffices. Erdős's 1950 theorem for $A=\{2^k:k\ge0\}$,
+credited in the erdosproblems.com commentary, is the accepted partial claim
 [[problems/primes/E0237/claims/1950_11_01_erdos|a prime plus a power of two]].
-The site's page links no Lean proof. Chen and Ding's page records two Lean
-files, one conditional and one that declares itself unconditional. Neither the
-site nor this corpus built them.
+The erdosproblems.com page links no Lean proof. Chen and Ding's page records two
+Lean files, one conditional and one that declares itself unconditional. Neither
+erdosproblems.com nor this corpus built them.
 
 **Source.** [erdosproblems.com/237](https://www.erdosproblems.com/237), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #237,
@@ -50,13 +50,13 @@ https://www.erdosproblems.com/237.
   Summa Brasil. Math. (1950), 113-123.
 
 **Formalization.** No statement in `google-deepmind/formal-conjectures` is
-listed on the site, and the site's page links no Lean proof. Two Lean files
-are recorded on
+listed on erdosproblems.com, and the erdosproblems.com page links no Lean proof.
+Two Lean files are recorded on
 [[problems/primes/E0237/claims/2022_01_26_chen_ding|the claim page]]: an
-Aristotle autoformalization posted in the site's thread, conditional on the
-Maynard–Tao theorem and Mertens' third theorem, which it declares as axioms,
-and a file in Boris Alexeev's `lean-proofs` repository that declares itself
-unconditional and records an axiom check listing only Lean's standard
+Aristotle autoformalization posted in the erdosproblems.com thread, conditional
+on the Maynard–Tao theorem and Mertens' third theorem, which it declares as
+axioms, and a file in Boris Alexeev's `lean-proofs` repository that declares
+itself unconditional and records an axiom check listing only Lean's standard
 axioms, although it imports a module that declares four custom axioms. This
 corpus has built neither.
 

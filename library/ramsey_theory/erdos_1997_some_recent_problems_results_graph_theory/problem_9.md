@@ -30,11 +30,11 @@ the hypothesis and the conclusion would fail: coloring the edge $uv$ of a
 graph on $n$ vertices by the highest binary digit in which $u$ and $v$
 differ uses at most $n$ colors and leaves every color class bipartite, and
 a graph on an infinite number $m$ of vertices has at most $m$ edges, which
-an injective $m$-coloring leaves without a monochromatic triangle. The
-site's "a graph $G$" matches the item. The paper does not say whether $S$
-is closed under taking subgraphs; the site's commentary records the
-observation that without that closure a sparse family of complete graphs is
-a trivial counterexample. The paper prints no partial result.
+an injective $m$-coloring leaves without a monochromatic triangle.
+erdosproblems.com's "a graph $G$" matches the item. The paper does not say
+whether $S$ is closed under taking subgraphs; the erdosproblems.com commentary
+records the observation that without that closure a sparse family of complete
+graphs is a trivial counterexample. The paper prints no partial result.
 
 **Source.** P. Erdős, *Some recent problems and results in graph theory*,
 Discrete Math. 164 (1997), 81--85; item 9 runs from the foot of printed
@@ -57,8 +57,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0638/_index|Problem 638]]: the original wording of
-  the problem, which the site's statement follows nearly word for word,
-  and the sentence the site's commentary quotes. The paper leaves the
-  closure of $S$ under subgraphs unstated, so it neither confirms nor
+  the problem, which the erdosproblems.com statement follows nearly word for
+  word, and the sentence the erdosproblems.com commentary quotes. The paper
+  leaves the closure of $S$ under subgraphs unstated, so it neither confirms nor
   excludes the hereditary reading the page records as the corrected
   formulation.

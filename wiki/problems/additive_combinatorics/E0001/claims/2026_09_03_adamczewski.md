@@ -57,13 +57,13 @@ ending in its
 The argument is ineffective: it gives no bound on the first cardinality at
 which a prescribed $\varepsilon$ occurs, and no replacement for the false
 bound. The same sets disprove the real variant in which distinct subset sums
-must differ by at least $1$. The proof claim on the site's tab, posted by the
-site's curator on 2026-09-03, attributes the counterexample to a run of a
-prerelease version of GPT-6 Astra by Epoch AI, and the problem page's
-commentary credits the disproof to GPT-6 Astra; the public package is
-maintained by Tom Adamczewski, and the ten-page exposition posted on the
-site is unsigned prose generated from the formal proof, as the source card
-records.
+must differ by at least $1$. The proof claim on the erdosproblems.com tab,
+posted by the erdosproblems.com curator on 2026-09-03, attributes the
+counterexample to a run of a prerelease version of GPT-6 Astra by Epoch AI, and
+the problem page's commentary credits the disproof to GPT-6 Astra; the public
+package is maintained by Tom Adamczewski, and the ten-page exposition posted on
+erdosproblems.com is unsigned prose generated from the formal proof, as the
+source card records.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by GPT-6 Astra
 (account TFBloom) on 3 September 2026, giving "GPT-6 Astra" as the AI used:
@@ -79,15 +79,15 @@ records.
 > writeup of this proof can be prepared (volunteers welcome!).
 
 **Claimant and postings.** The claimant is Tom Adamczewski, the name the
-publication carries: Adamczewski packaged and maintains the repository the
-site's proof claim links, pinned above, whose Lean proofs were written by GPT-6
-Astra, as its README records, and the FrontierMath Erdős paper of Adamczewski
-and Bloom (arXiv:2609.25050, v1 2026-09-06) and Epoch AI's report, linked above,
-record the resolution. The proof was found by GPT-6 Astra, which the site's
-proof-claim entry names as its claimant and describes as a pre-release version
-run by Epoch AI, in its FrontierMath Erdős benchmark. The site's curator, a
-co-author of that paper, submitted the proof claim, so the curator's acceptance
-is not an outside review.
+publication carries: Adamczewski packaged and maintains the repository
+erdosproblems.com's proof claim links, pinned above, whose Lean proofs were
+written by GPT-6 Astra, as its README records, and the FrontierMath Erdős paper
+of Adamczewski and Bloom (arXiv:2609.25050, v1 2026-09-06) and Epoch AI's
+report, linked above, record the resolution. The proof was found by GPT-6 Astra,
+which the erdosproblems.com proof-claim entry names as its claimant and
+describes as a pre-release version run by Epoch AI, in its FrontierMath Erdős
+benchmark. The erdosproblems.com curator, a co-author of that paper, submitted
+the proof claim, so the curator's acceptance is not an outside review.
 
 **Depends on.** Nothing in this wiki: the construction is self-contained
 and uses none of the earlier lower bounds.
@@ -118,10 +118,10 @@ stated above follows by $2^n\le nN+1$ and is not separately formalized. The real
 variant is not formalized in this repository, which defines
 `IsSumDistinctRealSet` and never uses it.
 
-Not reviewed: the site labeled the problem disproved and credits GPT-6 Astra.
-However, the curator submitted this proof claim as part of the FrontierMath
-Erdős work with Epoch AI, so the site's label was not an independent review of
-it. No outside reviewer has published an examination.
+Not reviewed: Bloom's catalog labeled the problem disproved and credits GPT-6
+Astra. However, the curator submitted this proof claim as part of the
+FrontierMath Erdős work with Epoch AI, so the erdosproblems.com label was not an
+independent review of it. No outside reviewer has published an examination.
 
 Not refereed: there is no journal publication. The claim note describes the
 generated PDF and the curator's informal exposition as placeholders until a

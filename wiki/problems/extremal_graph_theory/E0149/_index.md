@@ -33,23 +33,23 @@ $$
 \mathrm{sq}(G)\leq\frac{5}{4}\Delta^2?
 $$
 
-**Formulation.** The site's wording as of 2026-09-19T06:45Z (page last edited 10
-April 2026). Two edges are strongly independent when no edge is incident to
-both, so a set of strongly independent edges is an induced matching and
-$\mathrm{sq}(G)$ is the least number of induced matchings partitioning $E(G)$;
-the sources write $\chi'_s(G)$, $\chi'_2(G)$ or $q^*(G)$ for it, and it equals
-the chromatic number $\chi(L(G)^2)$ of the square of the line graph, two edges
-being adjacent in $L(G)^2$ exactly when they are not strongly independent. The
-question is for every graph and every $\Delta$. If true the bound is sharp for
-even $\Delta$: the five-cycle with each vertex replaced by a stable set of
-$\Delta/2$ vertices has $5\Delta^2/4$ edges, no two of them strongly
-independent. Erdős's 1988 wording ("Is it then true that $G$ is the union of at
-most $5n^2/4$ sets of strongly independent edges?", item 1, p. 81) and the 1989
-statement of Faudree, Gyárfás, Schelp and Tuza ("$q^*(G)\le\frac54d^2$ when $G$
-has maximum degree $d$") agree with the site's. Recorded below and not the
-question: the odd-degree refinement, the clique form
-$\omega(L(G)^2)\le\frac54\Delta^2$, the bipartite conjecture
-$\mathrm{sq}(G)\le\Delta^2$, and the easier problem that more than
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-19T06:45Z
+(page last edited 10 April 2026). Two edges are strongly independent when no
+edge is incident to both, so a set of strongly independent edges is an induced
+matching and $\mathrm{sq}(G)$ is the least number of induced matchings
+partitioning $E(G)$; the sources write $\chi'_s(G)$, $\chi'_2(G)$ or $q^*(G)$
+for it, and it equals the chromatic number $\chi(L(G)^2)$ of the square of the
+line graph, two edges being adjacent in $L(G)^2$ exactly when they are not
+strongly independent. The question is for every graph and every $\Delta$. If
+true the bound is sharp for even $\Delta$: the five-cycle with each vertex
+replaced by a stable set of $\Delta/2$ vertices has $5\Delta^2/4$ edges, no two
+of them strongly independent. Erdős's 1988 wording ("Is it then true that $G$ is
+the union of at most $5n^2/4$ sets of strongly independent edges?", item 1,
+p. 81) and the 1989 statement of Faudree, Gyárfás, Schelp and Tuza
+("$q^*(G)\le\frac54d^2$ when $G$ has maximum degree $d$") agree with
+erdosproblems.com's. Recorded below and not the question: the odd-degree
+refinement, the clique form $\omega(L(G)^2)\le\frac54\Delta^2$, the bipartite
+conjecture $\mathrm{sq}(G)\le\Delta^2$, and the easier problem that more than
 $\frac54\Delta^2$ edges force two strongly independent edges, which is proved.
 
 **Status.** Open. No proof, disproof or proof claim for the statement was found
@@ -74,16 +74,16 @@ $(2+o(1))\Delta^2/\log\Delta$
 It is proved for graphs of large $\Delta$ without a fixed bipartite subgraph $H$
 by Vu's extension of that bound
 ([[problems/extremal_graph_theory/E0149/claims/2002_01_01_vu|claim page]]). For
-$\Delta=4$ the site records $21$ against the conjectured $20$ (Huang, Santana
-and Yu 2018). The clique form stands at $\omega(L(G)^2)\le\frac43\Delta^2$
-(Faron and Postle, refereed), with a 2026 preprint at
-$\frac{2607}{1987}\Delta^2$. For triangle-free graphs the clique form reaches
-$\frac54\Delta^2$.
+$\Delta=4$ erdosproblems.com records $21$ against the conjectured $20$ (Huang,
+Santana and Yu 2018). The clique form stands at
+$\omega(L(G)^2)\le\frac43\Delta^2$ (Faron and Postle, refereed), with a 2026
+preprint at $\frac{2607}{1987}\Delta^2$. For triangle-free graphs the clique
+form reaches $\frac54\Delta^2$.
 
 **Source.** [erdosproblems.com/149](https://www.erdosproblems.com/149),
 accessed 2026-09-19 (06:45 UTC): the problem page (OPEN, with
-the site's note that no finite computation can settle it; last edited 10
-April 2026; source keys [92], [BPP22], [BrJo18], [CGTT90], [CKP20], [Er88],
+the erdosproblems.com note that no finite computation can settle it; last edited
+10 April 2026; source keys [92], [BPP22], [BrJo18], [CGTT90], [CKP20], [Er88],
 [FGST89], [FaPo19], [HHT93], [HJK22], [HSY18], [MoRe97], [Sl16]; the
 indicator that the statement is not formalized), its four-comment
 discussion thread (14 September 2025 to
@@ -107,8 +107,8 @@ Problem #149, https://www.erdosproblems.com/149, accessed 2026-09-19.
   [[../library/extremal_graph_theory/faudree_1989_induced_matchings_bipartite_graphs/theorem_1|theorem_1]].
 - [CGTT90] Chung, F. R. K., Gyárfás, A., Tuza, Z. and Trotter, W. T., The
   maximum number of edges in $2K_2$-free graphs of bounded degree. Discrete
-  Math. 81 (1990), no. 2, 129--135, doi:10.1016/0012-365X(90)90144-7 (the site's
-  text prints no volume). Theorem 4, p. 131. Library home:
+  Math. 81 (1990), no. 2, 129--135, doi:10.1016/0012-365X(90)90144-7 (the
+  erdosproblems.com text prints no volume). Theorem 4, p. 131. Library home:
   [[../library/extremal_graph_theory/chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree/_index|chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree]]
   (the author's copy from W. T. Trotter's publication page);
   paged at
@@ -117,14 +117,14 @@ Problem #149, https://www.erdosproblems.com/149, accessed 2026-09-19.
   graphs. J. Graph Theory 17 (1993), no. 2, 151--160,
   doi:10.1002/jgt.3190170204. The Theorem, p. 152. Library home:
   [[../library/extremal_graph_theory/horak_1993_induced_matchings_cubic_graphs/_index|horak_1993_induced_matchings_cubic_graphs]]
-  (the author's copy from Trotter's publication page, the address the site's
-  thread links); paged at
+  (the author's copy from Trotter's publication page, the address the
+  erdosproblems.com thread links); paged at
   [[../library/extremal_graph_theory/horak_1993_induced_matchings_cubic_graphs/theorem_p152|theorem_p152]].
-- [92] The site's key carries no reference text. The thread (30 November 2025)
-  and the Crossref record identify the paper as Andersen, L. D., The strong
-  chromatic index of a cubic graph is at most 10. Discrete Math. 108 (1992),
-  no. 1--3, 231--252, doi:10.1016/0012-365X(92)90678-9 (received 4 January
-  1991), and the printed paper confirms the citation (its p. 231).
+- [92] The erdosproblems.com key carries no reference text. The thread (30
+  November 2025) and the Crossref record identify the paper as Andersen, L. D.,
+  The strong chromatic index of a cubic graph is at most 10. Discrete Math. 108
+  (1992), no. 1--3, 231--252, doi:10.1016/0012-365X(92)90678-9 (received 4
+  January 1991), and the printed paper confirms the citation (its p. 231).
   Theorem 1, printed p. 250 (PDF p. 20 of the publisher's open-archive file);
   the definitions and the graph $G_{10}$, pp. 231--232 (PDF pp. 1--2). Library
   home:
@@ -229,8 +229,8 @@ Problem #149, https://www.erdosproblems.com/149, accessed 2026-09-19.
   from the abstract on its arXiv record only.
 - [Ma00] Mahdian, M., The strong chromatic index of graphs. M.Sc. thesis,
   University of Toronto (2000), handle 1807/14823 (the University of Toronto
-  repository copy the site's thread links); published as Mahdian, M., The
-  strong chromatic index of $C_4$-free graphs. Random Structures Algorithms
+  repository copy the erdosproblems.com thread links); published as Mahdian, M.,
+  The strong chromatic index of $C_4$-free graphs. Random Structures Algorithms
   17 (2000), no. 3--4, 357--375. Neither is held; the $C_4$-free theorem is
   quoted through [CKP20], Theorem 4, and recorded as an accepted partial
   claim, refereed, on
@@ -244,22 +244,22 @@ Problem #149, https://www.erdosproblems.com/149, accessed 2026-09-19.
   interconnection networks: diameter and vulnerability. Surveys in Combinatorics
   1983, London Math. Soc. Lecture Note Ser. 82 (1983), 1--30; the passage on
   graphs of line diameter 2 (PDF p. 13 of the HAL deposit hal-02447135,
-  left- and right-hand typescript pages). Not a site key for this
+  left- and right-hand typescript pages). Not an erdosproblems.com key for this
   problem. Library home:
   [[../library/extremal_graph_theory/bermond_1983_graphs_interconnection_networks_diameter_vulnerability/_index|bermond_1983_graphs_interconnection_networks_diameter_vulnerability]];
   paged at
   [[../library/extremal_graph_theory/bermond_1983_graphs_interconnection_networks_diameter_vulnerability/conjecture_p13|conjecture_p13]].
 
 **Formalization.** None. No file `ErdosProblems/149.lean` existed in
-formal-conjectures on 2026-09-19 or on 2026-10-07, the site's indicator
-records no formalized statement, and the community database
+formal-conjectures on 2026-09-19 or on 2026-10-07, the erdosproblems.com
+indicator records no formalized statement, and the community database
 (teorth/erdosproblems, `data/problems.yaml`, read 2026-10-07) records the
 problem as open and unformalized, with no formal-proof field.
 
 ## Current assessment
 
-**The question (site formulation, last edited 10 April 2026).** The
-statement above; OPEN. The site's commentary, in summary: the
+**The question (erdosproblems.com formulation, last edited 10 April 2026).** The
+statement above; OPEN. The erdosproblems.com commentary, in summary: the
 question is due to Erdős and Nešetřil (1985, citing [FGST89]) and amounts to
 bounding the chromatic number of $L(G)^2$ by $\frac54\Delta^2$; a blowup of
 $C_5$ shows the constant cannot be lowered, with a possible improvement left
@@ -308,7 +308,7 @@ builds the blown-up five-cycle itself, reports only the matching upper bound
 as Kleitman's private communication and says nothing about uniqueness
 ([[../library/extremal_graph_theory/bermond_1983_graphs_interconnection_networks_diameter_vulnerability/conjecture_p13|conjecture_p13]]).
 [HHT93], p. 152, dates the problem the same way ("At a seminar in Prague at
-the end of 1985") and writes the site's notation $\mathrm{sq}(G)$.
+the end of 1985") and writes the erdosproblems.com notation $\mathrm{sq}(G)$.
 
 **Upper bounds on $\mathrm{sq}(G)$.** All four steps hold for $\Delta$ above
 an unspecified threshold, in the form
@@ -355,8 +355,8 @@ Theorem 1.4 and Proposition 8.1 "under our guidance", and drafting; the system
 is not named in the paper. It is a preprint with no journal record and no
 independent review found, recorded as claimed progress and not
 as the record; its own p. 7 compares it with "the previous best general bound
-$\chi'_s(G)\le1.772\Delta(G)^2$", which the site states as the best bound
-available at its last edit of 10 April 2026.
+$\chi'_s(G)\le1.772\Delta(G)^2$", which erdosproblems.com states as the best
+bound available at its last edit of 10 April 2026.
 
 **Small degrees.** For $\Delta\le2$ the graphs are paths and cycles and the
 statement is easy ([HHT93], p. 152: "It is easy to see that (EN) is true when
@@ -367,7 +367,7 @@ paragraph read $\le10$) gives $\mathrm{sq}(G)\le10$, best possible by "an
 8-gon with all four diagonals" and by "a 5-gon in which two consecutive
 vertices have been multiplied by 2", against the conjectured
 $\lfloor\frac54\cdot9\rfloor=11$; the paper reports that "L. Andersen [1] has
-also obtained the same theorem", the site's key [92]:
+also obtained the same theorem", the erdosproblems.com key [92]:
 [[../library/extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/theorem_1|Andersen's Theorem 1]]
 (p. 250) reads "There is a linear time algorithm for giving a strong
 edge-colouring with at most 10 colours to any graph with maximum degree at
@@ -400,9 +400,9 @@ Faudree, Gyárfás, Schelp and Tuza 1990, a paper not held).
 induced $2K_2$ and maximum degree at most $D$ has at most $5D^2/4$ edges for
 even $D$ and $(5D^2-2D+1)/4$ for odd $D$, with the blown-up five-cycle
 $C_5(D)$ as the unique extremal graph; so a graph with more than $5D^2/4$
-edges has two strongly independent edges (the site's easier problem, proved),
-and $C_5(D)$ shows the conjectured bound cannot be lowered for even $D$ ("Our
-result in this paper provides a lower bound of $5D^2/4$ by showing certain
+edges has two strongly independent edges (erdosproblems.com's easier problem,
+proved), and $C_5(D)$ shows the conjectured bound cannot be lowered for even $D$
+("Our result in this paper provides a lower bound of $5D^2/4$ by showing certain
 graphs require $5D^2/4$ colors", pp. 129--130). The theorem bounds a strong
 clique only when it is the whole edge set of its graph (Bruhn and Joos, p. 2:
 in a $2K_2$-free graph the whole edge set forms a strong clique), not the
@@ -456,9 +456,9 @@ Theorem 1.2) and $1.676\Delta_A\Delta_B$ for the side maximum degrees
 bipartite subgraphs: Mahdian's
 $\chi'_2(G)\le(2+\varepsilon)\Delta^2/\log\Delta$ for $C_4$-free graphs and
 large $\Delta$, "sharp up to the multiplicative constant factor" ([CKP20],
-Theorem 4; the site's commentary and thread cite the thesis), which settles
-the statement for $C_4$-free graphs of large $\Delta$ and is recorded as an
-accepted partial claim on
+Theorem 4; the erdosproblems.com commentary and thread cite the thesis), which
+settles the statement for $C_4$-free graphs of large $\Delta$ and is recorded as
+an accepted partial claim on
 [[problems/extremal_graph_theory/E0149/claims/2000_10_01_mahdian|its claim
 page]]; Vu's extension to any fixed forbidden bipartite $H$ (thread, 28
 October 2025, by identifier; [Vu02]), recorded as a claimed partial claim on
@@ -481,14 +481,14 @@ with the $\Delta\le3$ claims would give the statement for every planar graph.
 It has no claim page, since the proceedings volume is not shown to be refereed
 and its statement is known here only through that quotation.
 
-**Site-versus-source items (recorded, not resolved with the site).** (a) The
-commentary states the easier problem with a weak inequality, for a graph with
-at least $\frac54\Delta^2$ edges: Erdős's wording is "more than $5n^2/4$
-edges", and [CGTT90]'s $C_5(D)$ has exactly $5D^2/4$ edges and no two strongly
-independent edges for even $D$, so the inequality must be read as strict. (b)
-The key [92] carries no reference text on the site; the paper is identified
-above from the thread and a Crossref record. (c) The reference text of
-[CGTT90] omits the volume, $81$.
+**erdosproblems.com-versus-source items (recorded, not resolved with
+erdosproblems.com).** (a) The commentary states the easier problem with a weak
+inequality, for a graph with at least $\frac54\Delta^2$ edges: Erdős's wording
+is "more than $5n^2/4$ edges", and [CGTT90]'s $C_5(D)$ has exactly $5D^2/4$
+edges and no two strongly independent edges for even $D$, so the inequality must
+be read as strict. (b) The key [92] carries no reference text on
+erdosproblems.com; the paper is identified above from the thread and a Crossref
+record. (c) The reference text of [CGTT90] omits the volume, $81$.
 
 **Forum items (leads with provenance, not status).** The thread, two accounts:
 14 September 2025 (the first account), the equivalence with $\chi(L(G)^2)$,
@@ -501,16 +501,16 @@ behavior of $\omega(L(G)^2)$ when an even cycle is excluded (Cho, Choi, Kim
 and Park 2021); 30 November 2025 (the second account), Dębski and
 Śleszyńska-Nowak's 2022 result that strong cliques of circle graphs have at
 most $\frac54\Delta^2$ edges, the [HHT93] copy on Trotter's page (the copy
-cited here), and Andersen's paper as the site's [92] (the poster's title
-truncates the "10"). No comment names an AI system, and the proof-claim tab was
-empty on 2026-09-19.
+cited here), and Andersen's paper as erdosproblems.com's [92] (the poster's
+title truncates the "10"). No comment names an AI system, and the proof-claim
+tab was empty on 2026-09-19.
 
 **Search scope.** None of the routes below found a proof
 or disproof of the statement, a refereed bound below $1.772\Delta^2$, or a
 proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-19; the formal-conjectures directory listing and tree at that
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-19; the formal-conjectures directory listing and tree at that
   day's head (no file 149); the community database as fetched that day.
 - arXiv: the API records of 1504.02583 (v1 only), 1810.06704 (v1 only;
   "Submitted for publication in July 2016"), 2007.07874 (v3 with the Adv.

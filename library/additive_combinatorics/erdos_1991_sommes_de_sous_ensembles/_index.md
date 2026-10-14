@@ -5,7 +5,7 @@ desc: |
   subset sums determine the subset size, and builds an infinite such set.
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_combinatorics/erdos_1991_sommes_de_sous_ensembles
@@ -15,7 +15,7 @@ updated: 2026-10-08T01:29:58Z
 [[additive_combinatorics/erdos_1991_sommes_de_sous_ensembles/lemme_2|lemme_2]]: Straus's counting lemma P(A,k) ≥ k(|A|−k)+1 and the half-page deduction,
 following Straus, of the bound F(N) < (4/√3)N^{1/2}+1 for admissible
 subsets of the first N integers, the source on record for the square-root
-upper bound the site attributes to Straus.
+upper bound erdosproblems.com attributes to Straus.
 
 [[additive_combinatorics/erdos_1991_sommes_de_sous_ensembles/theoreme_1|theoreme_1]]: The 1991 improvement of Straus's upper bound for the largest admissible
 subset of the first N integers, from 4/√3 = 2.309401… to
@@ -49,11 +49,12 @@ Section 4 uses numerical tables of Massias and Deléglise to formulate
 Conjectures 1-4 on the exact value of F(N), on N of the form m^2 or m(m+1), and
 on the structure of N-optimal admissible sets. Theorem 2 in Section 5 constructs
 an infinite admissible set A with counting function A(x) >> x^{5-2√6}. The paper
-takes its problem from Erdős's 1962 paper (p. 56); the site's sources for Erdős
-Problem 874 are Erdős's papers of 1962 and 1998, and its commentary cites this
-paper. Problem 874 asks for k(N) with the disjointness condition on the sum sets
-S_r and in particular whether k(N) ~ 2N^{1/2}: the paper narrows the constant to
-between 2 and 2.301368 and records the conjecture that the limit is 2.
+takes its problem from Erdős's 1962 paper (p. 56); the erdosproblems.com sources
+for Erdős Problem 874 are Erdős's papers of 1962 and 1998, and its commentary
+cites this paper. Problem 874 asks for k(N) with the disjointness condition on
+the sum sets S_r and in particular whether k(N) ~ 2N^{1/2}: the paper narrows
+the constant to between 2 and 2.301368 and records the conjecture that the limit
+is 2.
 
 The copy read for this card is the Numdam file of the article (19 pages,
 with Numdam's cover page; printed p. $n$ is PDF p. $n-53$); the journal
@@ -86,7 +87,7 @@ $\limsup F(N)N^{-1/2}\le4/\sqrt3$ and block construction with
 $\liminf\ge2$, Erdős's conjecture, Théorème 1's
 $\limsup F(N)N^{-1/2}\le(143/27)^{1/2}$ and Lemme 2's
 $F(N)<(4/\sqrt3)N^{1/2}+1$; the paper's $F(N)$ is the problem's $k(N)$
-and the site's two decimals are the paper's.
+and erdosproblems.com's two decimals are the paper's.
 [[../wiki/problems/additive_combinatorics/E0875/_index|#875]]: Section 5, printed p. 65
 (PDF p. 12), page image: the conjecture $\liminf A(x)x^{-1/2}=0$ for
 infinite admissible sets, the report of Erdős's 1962 construction with an
@@ -96,8 +97,8 @@ $A(x)\gg x^{5-2\sqrt6}$ (proof pp. 65--69), the source on record for an
 infinite admissible sequence of polynomial growth, hence of consecutive
 gaps $a_{n+1}-a_n\ll n^{5+2\sqrt6}$ (a deduction made on the result page).
 [[../wiki/problems/additive_combinatorics/E0789/_index|#789]]: Lemme 2, printed p. 57
-(PDF p. 4), page image: the square-root upper bound the site attributes to
-Straus, in the form $F(N)<(4/\sqrt3)N^{1/2}+1$ with a proof following
+(PDF p. 4), page image: the square-root upper bound erdosproblems.com attributes
+to Straus, in the form $F(N)<(4/\sqrt3)N^{1/2}+1$ with a proof following
 Straus's from Lemme 1; applied to the admissible subsets of
 $\{1,\ldots,n\}$ it gives $h(n)<(4/\sqrt3)n^{1/2}+1$ for the problem's
 $h(n)$.

@@ -33,7 +33,7 @@ family of fixed graphs $H$. It does not establish the implication asked in
 [[../wiki/problems/ramsey_theory/E0568/_index|Problem 568]] for every graph satisfying the
 two test-family hypotheses.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0567/_index|#567]]: the site's first
-sentence on this paper; the five-vertex $K_4^*=H_5$ is exactly the excluded
-subdivision, so the theorem does not decide the problem;
+**Bears on.** [[../wiki/problems/ramsey_theory/E0567/_index|#567]]:
+erdosproblems.com's first sentence on this paper; the five-vertex $K_4^*=H_5$ is
+exactly the excluded subdivision, so the theorem does not decide the problem;
 [[../wiki/problems/ramsey_theory/E0568/_index|#568]].

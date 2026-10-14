@@ -4,7 +4,7 @@ title: "Theorem 1.1: for n ≡ i (mod 4) the number of maximal sum-free subsets 
 desc: |
   The 2018 exact asymptotic for the number of maximal sum-free subsets of
   the first n integers, with a constant depending only on n modulo 4, the
-  sharp form of the site's answer to Problem 877.
+  sharp form of erdosproblems.com's answer to Problem 877.
 created: 2026-09-18T15:50:00Z
 updated: 2026-10-08T14:36:58Z
 ---
@@ -68,8 +68,8 @@ small sumset, at statement level; none held here.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0877/_index|Problem 877]]: the site's
-  "$f_m(n)=(C_n+o(1))2^{n/4}$, where $C_n$ is some explicit constant
-  depending only on $n\pmod4$" is this theorem with the paper's
-  $f_{\max}$ for the site's $f_m$; the constants are not given in closed
-  form, only shown computable to any additive error.
+- [[../wiki/problems/additive_combinatorics/E0877/_index|Problem 877]]:
+  erdosproblems.com's "$f_m(n)=(C_n+o(1))2^{n/4}$, where $C_n$ is some explicit
+  constant depending only on $n\pmod4$" is this theorem with the paper's
+  $f_{\max}$ for erdosproblems.com's $f_m$; the constants are not given in
+  closed form, only shown computable to any additive error.

@@ -63,7 +63,7 @@ the largest number r of the p's dividing a single element. The construction
 rests on a lemma (proved by counting prime patterns via the prime number
 theorem) giving k^2 primes in a short interval arranged as k translated copies
 of the same k-element pattern, combined with the Chinese remainder theorem. The
-paper and the 1978 Boca Raton paper are the two references the site's
+paper and the 1978 Boca Raton paper are the two references the erdosproblems.com
 commentary on Erdős Problem 650 (source [Er95c, p. 5]) gives for the
 Erdős–Selfridge bound; the problem asks for f(m), the largest number such
 that, for every m-element set A ⊆ {1,...,N}, every interval of length 2N
@@ -77,9 +77,9 @@ Source: <https://users.renyi.hu/~p_erdos/1986-15.pdf>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0650/_index|#650]]: the theorem stated
 on printed p. 60 (PDF p. 8, page image) and proved on pp. 60--62 gives
-f(k^2) <= 2k, the site's "f(m^2) <= 2m, which implies f(m) <= 2⌈√m⌉"; the
-same theorem is Theorem 1 of Section 6 of the 1978 Boca Raton paper, which the
-site also cites.
+f(k^2) <= 2k, erdosproblems.com's "f(m^2) <= 2m, which implies f(m) <= 2⌈√m⌉";
+the same theorem is Theorem 1 of Section 6 of the 1978 Boca Raton paper, which
+erdosproblems.com also cites.
 [[../wiki/problems/primes/E1143/_index|#1143]]: with $u=k^2$ primes, the
 theorem of p. 60 gives $F_K\ge2\sqrt u$ for runs of $K\ge2p_u+2$
 consecutive integers and a set of primes with at most $2\sqrt u$ in a run of

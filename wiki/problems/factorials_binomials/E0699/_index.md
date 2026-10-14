@@ -28,20 +28,20 @@ $$
 p\mid \textrm{gcd}\left(\binom{n}{i}, \binom{n}{j}\right)?
 $$
 
-**Status.** Falsifiable: the site's label, which says the question is open and a
-single triple would refute it. The standing in the frontmatter derives from the
-claim pages. The site credits GPT 5.6, prompted by Price, with the cases
-$j\le 3i/2$ and $n=2j$ (page edited 19 July 2026); see the
+**Status.** Falsifiable: the erdosproblems.com label, which says the question is
+open and a single triple would refute it. The standing in the frontmatter
+derives from the claim pages. erdosproblems.com credits GPT 5.6, prompted by
+Price, with the cases $j\le 3i/2$ and $n=2j$ (page edited 19 July 2026); see the
 [[problems/factorials_binomials/E0699/claims/2026_07_18_price|Price claim page]].
 Van Doorn and Rocca's manuscripts reduce the problem to $i=3$ and a finite set.
 They are on their
 [[problems/factorials_binomials/E0699/claims/2026_07_25_van_doorn_rocca|claim page]]
-and are not credited on the site.
+and are not credited on erdosproblems.com.
 
 **Source.** [erdosproblems.com/699](https://www.erdosproblems.com/699), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #699,
-https://www.erdosproblems.com/699. The site attributes the problem to Erdős and
-Szekeres [ErSz78].
+https://www.erdosproblems.com/699. erdosproblems.com attributes the problem to
+Erdős and Szekeres [ErSz78].
 
 **References.**
 
@@ -72,12 +72,12 @@ settle $i=1,2$, exclude every $i\ge1476$, and prove finiteness for each fixed
 $i\ge4$. The first manuscript says that all results and arguments specific to
 its solution follow L. Price's Overleaf project *Common Prime Divisor of
 Binomial Coefficients* (2026). The manuscripts' proofs have not been reviewed
-here; the full problem remains unresolved. The site's falsifiable label means
-that a single bad triple $(n,i,j)$, checked by finite arithmetic, would refute
-the statement; the finiteness results above bound where such a triple could
-lie but do not exhibit one. This page records no literature-status search
-supporting the site's falsifiable label beyond the site record (accessed
-2026-09-04) and the sources named here.
+here; the full problem remains unresolved. erdosproblems.com's falsifiable label
+means that a single bad triple $(n,i,j)$, checked by finite arithmetic, would
+refute the statement; the finiteness results above bound where such a triple
+could lie but do not exhibit one. This page records no literature-status search
+supporting erdosproblems.com's falsifiable label beyond the erdosproblems.com
+record (accessed 2026-09-04) and the sources named here.
 
 **Claims.** The two results claimed about the problem have claim pages, from
 which the frontmatter standing derives. Price's partial claim of 2026-07-18, on
@@ -90,9 +90,9 @@ partial claim of 2026-07-25, on the
 is the forum posting of the first manuscript above, with the second added to the
 same Overleaf project later, and is pending. Neither settles the problem, and no
 claim settles the case $i=3$ (both cover only its triples with $j=4$, and
-Price's also those with $n=2j$). A proof posted to the site's thread on
-2026-04-30, since deleted, was judged invalid by the curator on 2026-05-11, who
-also found that its Lean code did not formalize the statement; as a deleted
+Price's also those with $n=2j$). A proof posted to the erdosproblems.com thread
+on 2026-04-30, since deleted, was judged invalid by the curator on 2026-05-11,
+who also found that its Lean code did not formalize the statement; as a deleted
 thread post it has no claim page.
 <!-- BEGIN problem library links -->
 

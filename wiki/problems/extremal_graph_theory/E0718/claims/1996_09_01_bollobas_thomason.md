@@ -49,9 +49,9 @@ Mader and of Erdős and Hajnal. The proof reduces to the paper's linkage
 theorem (its Theorem 1) through Mader's theorem on $k$-connected subgraphs
 and a minor of large minimum degree.
 
-**Dating and the two papers.** The site's key for the proof is the authors'
-earlier paper *Highly linked graphs*, Combinatorica **16** (1996), no. 3,
-313--320 (September 1996), which the 1998 paper names, as its reference [3],
+**Dating and the two papers.** The erdosproblems.com key for the proof is the
+authors' earlier paper *Highly linked graphs*, Combinatorica **16** (1996), no.
+3, 313--320 (September 1996), which the 1998 paper names, as its reference [3],
 as the place where the stronger result that every graph with $22k|G|$ edges
 has a $k$-linked subgraph appears, a result the 1998 paper says gives the
 conjecture with a constant below $256$ by a longer argument. Komlós and
@@ -66,8 +66,8 @@ prints the theorem itself is not checked.
 **Acceptance.** Both papers are refereed publications: Combinatorica, September
 1996, and the European Journal of Combinatorics, November 1998, received 15
 March 1997, per their Crossref records. This is the `refereed` evidence. The
-site's curator, Thomas Bloom, records the problem as proved by them together
-with the independent proof of
+erdosproblems.com curator, Thomas Bloom, records the problem as proved by them
+together with the independent proof of
 [[problems/extremal_graph_theory/E0718/claims/1996_03_01_komlos_szemeredi|Komlós and Szemerédi]].
 This is the `reviewed` evidence, and Bloom took no part in either paper. A
 refereed attestation is in print. Fox, Lee and Sudakov quote the theorem as
@@ -78,7 +78,7 @@ of Theorem 4 and its half-page proof in the 1998 paper, with the reduction
 followed at filing depth. For the proofs of that paper's Theorem 1 and Lemma 3,
 only the structure is recorded. Nothing is independently reviewed. The
 acceptance recorded here rests on the publications, the printed attestation and
-the site's acceptance, not on a local review.
+erdosproblems.com's acceptance, not on a local review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos718.lean` of
 Boris Alexeev's `plby/lean-proofs` repository, at the commit linked above,

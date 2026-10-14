@@ -5,7 +5,7 @@ desc: |
   Pommerenke proves that a monic polynomial of degree $n$ with zeros in the
   closed unit disk has modulus at most one on a disk of radius $1/(2en^2)$, so
   on a set of area at least a constant times $n^{-4}$. The result is refereed
-  and credited by the site.
+  and credited by erdosproblems.com.
 authors:
 - Ch. Pommerenke
 status: accepted
@@ -63,12 +63,12 @@ Journal in 1961 (volume 8, issue 2). The issue carries no month, so the page's
 date is the first day of the publication year. Reviewed: erdosproblems.com
 labeled the problem proved and states that the lower bound $\gg n^{-4}$ follows
 from this paper, cited as [Po61] (page last edited 2025-10-24). The corpus
-counts this as documented independent acceptance by the site's curator, T. F.
-Bloom (erdosproblems.com). The community database lists the problem as proved
-with a Lean marker (entry last updated 2026-08-24).
+counts this as documented independent acceptance by the erdosproblems.com
+curator, T. F. Bloom (erdosproblems.com). The community database lists the
+problem as proved with a Lean marker (entry last updated 2026-08-24).
 
-**Formalization.** The site's Lean marker refers to a formal proof by others,
-with a different argument: the file linked above, in the `lean-proofs`
+**Formalization.** The erdosproblems.com Lean marker refers to a formal proof by
+others, with a different argument: the file linked above, in the `lean-proofs`
 repository at the pinned commit, ends with `Erdos116.erdos_116`, which states
 that there are $c>0$ and $C\in\mathbb N$ with
 $\lvert\{z:\lvert\prod_i(z-a_i)\rvert<1\}\rvert>c\,n^{-C}$ for every $n>0$ and
@@ -81,4 +81,4 @@ is a link on this page and not a claim of its own. The formal-conjectures
 statement of the problem is marked solved with a link to this declaration. The
 development is unbuilt and unaudited against the question by this corpus, so
 the evidence lists no `formalized` kind; the standing rests on the refereeing
-and the site's acceptance.
+and erdosproblems.com's acceptance.

@@ -92,10 +92,10 @@ proof was checked and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0549/_index|#549]]: the closing question on
 p. 292 is the problem, posed as a question; the p. 285 colorings give the
-lower bound $R(T)\ge4k-1$ that the site attributes to the paper; Theorem 2.2
-gives the brooms $B_{k,2k}$, with parts $k$ and $2k$, as trees attaining
-$4k-1$. The paper shows that brooms attain the value and does not claim they
-are the only trees that do.
+lower bound $R(T)\ge4k-1$ that erdosproblems.com attributes to the paper;
+Theorem 2.2 gives the brooms $B_{k,2k}$, with parts $k$ and $2k$, as trees
+attaining $4k-1$. The paper shows that brooms attain the value and does not
+claim they are the only trees that do.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -65,6 +65,6 @@ Lemma 1, Theorem 1 and Corollary 1 of the same paper.
 
 - [[../wiki/problems/extremal_graph_theory/E0815/_index|Problem 815]]: the cases $k=3,4,5$
   of the question hold for all $n\ge6$ (the $C_4$ case through the
-  edge-deletion remark above), the positive evidence the site records; the
-  problem page also records the $C_6$ remark and its proof by Narins,
+  edge-deletion remark above), the positive evidence erdosproblems.com records;
+  the problem page also records the $C_6$ remark and its proof by Narins,
   Pokrovskiy and Szabó.

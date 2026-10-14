@@ -5,8 +5,8 @@ desc: |
   Erdős's 1943 theorem that there is an absolute constant c such that, for
   the Farey fractions of order n and any k with n > ck, the fractions at
   index distance k are similarly ordered, the linear lower bound for the
-  function f(n) of Problem 1005 that the site credits to this note; its proof
-  prints the thresholds n > 192k and n > 400k.
+  function f(n) of Problem 1005 that erdosproblems.com credits to this note; its
+  proof prints the thresholds n > 192k and n > 400k.
 created: 2026-09-18T16:00:00Z
 updated: 2026-10-08T14:49:48Z
 ---
@@ -77,9 +77,9 @@ Self-contained otherwise.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E1005/_index|Problem 1005]]: the linear lower
-  bound $f(n)\gg n$ that the site credits to this note, with the constant
-  $1/400$ that van Doorn's 2025 paper reads from the proof; van Doorn's paper
-  gives the lower bound $f(n)\ge(\frac1{12}-o(1))n$ and Cipollini's 2026
+  bound $f(n)\gg n$ that erdosproblems.com credits to this note, with the
+  constant $1/400$ that van Doorn's 2025 paper reads from the proof; van Doorn's
+  paper gives the lower bound $f(n)\ge(\frac1{12}-o(1))n$ and Cipollini's 2026
   preprint $f(n)\ge(\frac14-o(1))n$. The problem asks whether
   $f(n)=(c+o(1))n$ for a constant $c>0$; Erdős writes (p. 84) that he could
   not find the best possible value of the constant $c$ in his theorem.

@@ -62,9 +62,9 @@ which Proposition 2.3 composes with the odd-prime cases to reach every $k$.
 **Acceptance.** Published in Transactions of the American Mathematical Society
 298 (1986), no. 1, 359–370 (`refereed`). The paper prints its receipt date,
 1985-10-18. The issue is dated November 1986, and the page carries the first of
-that month. The site's curator, Thomas Bloom, listed Problem 780 as proved and
-credits the general case to Alon, Frankl and Lovász [AFL86] and the case $k=2$
-to Lovász [Lo78] (`reviewed`). The source card is
+that month. The erdosproblems.com curator, Thomas Bloom, listed Problem 780 as
+proved and credits the general case to Alon, Frankl and Lovász [AFL86] and the
+case $k=2$ to Lovász [Lo78] (`reviewed`). The source card is
 [[../library/graph_coloring/alon_1986_chromatic_number_kneser_hypergraphs/_index|Alon, Frankl and Lovász 1986]].
 
 **Formalization.** The Lean file among the links, in Boris Alexeev's repository

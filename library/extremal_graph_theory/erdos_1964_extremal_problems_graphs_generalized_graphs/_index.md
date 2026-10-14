@@ -67,14 +67,14 @@ produces for t = [4(log n)^{1/(r-1)}]+1 an r-graph on n vertices in which
 neither it nor its complement contains K^{(r)}(t,...,t). He notes it is
 unknown whether f(n;K^{(r)}(l,...,l))/n^{r-1/l^{r-1}} tends to a nonzero
 limit (by (5) it is at most 1), even for r=l=2. Bearing on Problem 1158,
-Theorem 1 is exactly the two-sided estimate whose upper exponent (in the
-site's letters, t - r^{1-t}) the problem asks to be attained up to o(1) from
-below; Erdős only states n^{r - C/l^{r-1}} with an unspecified constant C.
-Bearing on Problem 1075, (18') is the hypergraph Erdős–Stone statement: any
-r-graph with eps n^r edges contains a complete r-partite subgraph with about
-c (log n)^{1/(r-1)} vertices per class, whose edge density in its own vertex
-set is r^{-r}, and the problem asks whether a density constant strictly above
-r^{-r} can be guaranteed.
+Theorem 1 is exactly the two-sided estimate whose upper exponent (in
+erdosproblems.com's letters, t - r^{1-t}) the problem asks to be attained up to
+o(1) from below; Erdős only states n^{r - C/l^{r-1}} with an unspecified
+constant C. Bearing on Problem 1075, (18') is the hypergraph Erdős–Stone
+statement: any r-graph with eps n^r edges contains a complete r-partite subgraph
+with about c (log n)^{1/(r-1)} vertices per class, whose edge density in its own
+vertex set is r^{-r}, and the problem asks whether a density constant strictly
+above r^{-r} can be guaranteed.
 
 Source: <https://users.renyi.hu/~p_erdos/1964-13.pdf>.
 
@@ -89,11 +89,11 @@ side of (5) holding for every $n\ge lr$: for every $\epsilon>0$, a
 sufficiently small $c^{(r)}_\epsilon$ and large $n$, every $r$-graph on $n$
 vertices with at least $\epsilon n^r$ $r$-tuples contains a
 $K^{(r)}(l,\dots,l)$ with $l=[c^{(r)}_\epsilon(\log n)^{1/(r-1)}]$, whose
-$l^r$ $r$-tuples on $rl$ vertices give the site's case $c_r=r^{-r}$;
+$l^r$ $r$-tuples on $rl$ vertices give erdosproblems.com's case $c_r=r^{-r}$;
 [[../wiki/problems/extremal_graph_theory/E1158/_index|#1158]]: Theorem 1, printed p. 185 =
 PDF p. 3 (page image;
 [[extremal_graph_theory/erdos_1964_extremal_problems_graphs_generalized_graphs/theorem_1|theorem_1]]),
-the site's displayed bounds with the letters exchanged, the lower bound
+erdosproblems.com's displayed bounds with the letters exchanged, the lower bound
 carrying an unspecified constant and only a method pointer for its proof.
 
 **Results.**

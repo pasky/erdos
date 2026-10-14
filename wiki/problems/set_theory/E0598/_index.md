@@ -27,9 +27,9 @@ cardinal of $2^{\aleph_0}$. Can one colour the countable subsets of $m$ using
 $\kappa$ many colours so that every $X\subseteq m$ with $\lvert X\rvert=\kappa$
 contains subsets of all possible colours?
 
-**Status.** Open. The site labeled the problem OPEN, with no commentary and no
-proof claim. The results posted on its discussion thread and outside the site
-are recorded in the Current assessment and on the claim pages.
+**Status.** Open. Bloom's catalog labeled the problem OPEN, with no commentary
+and no proof claim. The results posted on its discussion thread and outside
+erdosproblems.com are recorded in the Current assessment and on the claim pages.
 
 **Source.** [erdosproblems.com/598](https://www.erdosproblems.com/598), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #598,
@@ -40,17 +40,18 @@ https://www.erdosproblems.com/598.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above, labeled OPEN on
-the site, with no commentary and no proof claim. Erdős's own wording, in
-Problem 8 of
+**The question (erdosproblems.com formulation).** The statement above, labeled
+OPEN on erdosproblems.com, with no commentary and no proof claim. Erdős's own
+wording, in Problem 8 of
 [[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/_index|Erdős 1987]]
 (printed pp. 225–226), asks whether for every infinite $m$ one can color
 the countable subsets of $m$ by $(2^{\aleph_0})^+$ colors so that every
-subset of size $(2^{\aleph_0})^+$ gets subsets of all the colors. The site
-fixes $m$ and asks the question for it, so a model with one failing $m$ is
-a negative instance of the site's question and a negative answer to
-Erdős's; the claim pages read the problem Erdős's way, as one question
-about every infinite $m$, and the instances are recorded separately here.
+subset of size $(2^{\aleph_0})^+$ gets subsets of all the colors.
+erdosproblems.com fixes $m$ and asks the question for it, so a model with one
+failing $m$ is a negative instance of the erdosproblems.com question and a
+negative answer to Erdős's; the claim pages read the problem Erdős's way, as one
+question about every infinite $m$, and the instances are recorded separately
+here.
 
 **Formulation.** In the notation of the claim pages, write
 $\kappa=(2^{\aleph_0})^+$ and $\mathrm{Col}_\omega(m,\kappa)$ for the
@@ -96,8 +97,8 @@ standing. Chojecki's is a partial claim of the value not provable, which is
 one-sided and leaves the problem open on its own. So the frontmatter standing
 is open with no claim.
 
-**Search scope.** The site's problem page, its discussion thread (eight
-comments) and proof-claims tab (none), MathOverflow question 511508, the
+**Search scope.** The erdosproblems.com problem page, its discussion thread
+(eight comments) and proof-claims tab (none), MathOverflow question 511508, the
 erdosproblemaday ledger and the formal-conjectures statement file, as they
 stood on 2026-10-07. arXiv, Crossref, MathSciNet, zbMATH and Google Scholar
 were not searched.

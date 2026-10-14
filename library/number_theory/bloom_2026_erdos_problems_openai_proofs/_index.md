@@ -2,7 +2,7 @@
 name: number_theory/bloom_2026_erdos_problems_openai_proofs
 title: "Bloom: Erdős problems in the OpenAI proofs"
 desc: |
-  The catalog curator's blog post of 8 October 2026 listing the OpenAI
+  The erdosproblems.com curator's blog post of 8 October 2026 listing the OpenAI
   mathematics release's claims on 25 Erdős problems, with a short remark on
   each and whether its proof was formalized; a summary of claims, expressly
   not an endorsement.

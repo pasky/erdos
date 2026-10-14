@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0710/claims/2026_09_23_turturean
 title: Turturean's asymptotic formula root 2 over e times n root log n
 desc: |
-  David Turturean's full proof claim of 23 September 2026 on the site's
-  proof-claim tab, elicited from GPT-6-Astra Pro, is that
+  David Turturean's full proof claim of 23 September 2026 on the
+  erdosproblems.com proof-claim tab, elicited from GPT-6-Astra Pro, is that
   $f(n)\sim(\sqrt2/e)\,n\sqrt{\log n}$, argued through weighted Hall-type
   matchings. The manuscript was not read.
 authors:
@@ -27,9 +27,9 @@ updated: 2026-10-08T03:54:05Z
 
 **Claim.** Submitted to the proof-claim tab of
 [[problems/integer_sequences/E0710/_index|Problem 710]] on 2026-09-23 (04:23
-UTC) by David Turturean as a full proof claim: in the site's convention,
-with $f(n)$ the least $h$ such that $(n,n+h)$ contains distinct integers
-$a_1,\ldots,a_n$ with $i\mid a_i$ for every $i\le n$,
+UTC) by David Turturean as a full proof claim: in the erdosproblems.com
+convention, with $f(n)$ the least $h$ such that $(n,n+h)$ contains distinct
+integers $a_1,\ldots,a_n$ with $i\mid a_i$ for every $i\le n$,
 
 $$
 f(n)\sim\frac{\sqrt2}{e}\,n\sqrt{\log n}.
@@ -86,9 +86,9 @@ the sharp constant, and the manuscript includes three audits by the same
 system. The manuscript is a read-only project on a shared editor and was
 not read.
 
-**Standing.** Claimed. At the access of 2026-10-06 the site's label was OPEN
-and its commentary unchanged; the claim carried four comments from forum
-contributors. On 23 September 2026 Kominers, the author of the preprint
+**Standing.** Claimed. At the access of 2026-10-06 the erdosproblems.com label
+was OPEN and its commentary unchanged; the claim carried four comments from
+forum contributors. On 23 September 2026 Kominers, the author of the preprint
 arXiv:2607.10431 on $\max_mf(n,m)$ (cited as [Ko26] on
 [[problems/integer_sequences/E0711/_index|Problem 711]]), wrote that they were
 early in digesting the argument and expected most of its measure theory

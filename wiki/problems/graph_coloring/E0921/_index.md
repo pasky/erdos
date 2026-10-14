@@ -31,8 +31,8 @@ $$
 f_k(n) \asymp n^{\frac{1}{k-2}}?
 $$
 
-**Status.** Proved. The site credits Kierstead, Szemerédi and Trotter [KST84]
-with the proof for every $k\ge4$
+**Status.** Proved. erdosproblems.com credits Kierstead, Szemerédi and Trotter
+[KST84] with the proof for every $k\ge4$
 ([[problems/graph_coloring/E0921/claims/1984_06_01_kierstead_szemeredi_trotter|claim page]]).
 Their local-coloring theorem gives $f_k(n)\ll_k n^{1/(k-2)}$, and Schrijver's
 stable Kneser graphs give the matching lower bound. The question is Erdős and

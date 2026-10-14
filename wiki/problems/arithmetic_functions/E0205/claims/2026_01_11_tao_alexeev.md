@@ -4,8 +4,8 @@ title: Tao and Alexeev quantified counterexamples
 desc: |
   For infinitely many $n$, every $n-2^k$ with $2^k\le n$ has at least a constant
   times $\sqrt{\log n/\log\log n}$ prime factors. This is the quantified
-  disproof that the site credits to Tao and Alexeev, and community Lean files
-  prove it.
+  disproof that erdosproblems.com credits to Tao and Alexeev, and community Lean
+  files prove it.
 authors:
 - ChatGPT
 - Aristotle
@@ -54,8 +54,8 @@ $\Omega(m)<f(m)$ for any $f=o(\log\log m)$, which is the negative answer to
 all three questions of
 [[problems/arithmetic_functions/E0205/_index|Problem 205]]; the problem page
 spells out this reading, which none of the linked files writes. In the
-site's discussion thread, Terence Tao proposed the square-root bound on
-2026-01-11 as the strengthening of the negative answer posted that day
+erdosproblems.com discussion thread, Terence Tao proposed the square-root bound
+on 2026-01-11 as the strengthening of the negative answer posted that day
 ([[problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham|Barreto–Leeham 2026]]),
 and Boris Alexeev posted a Lean formalization of it the same day at 05:31
 UTC, as a live Lean session loading the file `src/v4.24.0` of Alexeev's
@@ -77,17 +77,17 @@ open.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
-problem DISPROVED (LEAN). In the problem's commentary (last edited 2026-04-05),
-Bloom credits the quantified form of the negative answer to Tao and Alexeev and
-states the square-root bound there as the result. Nat Sothanaphan, in the site's
-discussion thread on 2026-01-11, posted a human-readable version of Alexeev's
-Lean proof of the bound (the `record` link above) and wrote that they had
-checked everything by hand. Tao's own acceptance of the construction in the
-thread is not counted for this page, since Tao is one of its claimants. No
-refereed publication exists. The only informal account is Sothanaphan's
-de-formalization, which no library card digests. So the evidence is `reviewed`
-alone.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas F. Bloom,
+labeled the problem DISPROVED (LEAN). In the problem's commentary (last edited
+2026-04-05), Bloom credits the quantified form of the negative answer to Tao and
+Alexeev and states the square-root bound there as the result. Nat Sothanaphan,
+in the erdosproblems.com discussion thread on 2026-01-11, posted a
+human-readable version of Alexeev's Lean proof of the bound (the `record` link
+above) and wrote that they had checked everything by hand. Tao's own acceptance
+of the construction in the thread is not counted for this page, since Tao is one
+of its claimants. No refereed publication exists. The only informal account is
+Sothanaphan's de-formalization, which no library card digests. So the evidence
+is `reviewed` alone.
 
 The written forms of the proof are Lean files, none of them built or audited by
 this corpus. The first is the `plby/lean-proofs` copy `src/latest` at the pinned

@@ -33,7 +33,7 @@ be the sum of proper divisors function.
 If $A\subset \mathbb{N}$ has density $0$ then $s^{-1}(A)$ must also have density
 $0$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 30
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 30
 September 2025). Its commentary credits proofs for the following choices of $A$:
 the primes, the integers with unusually many prime factors, the sums of two
 squares, and the sets of size $x^{1/2+o(1)}$. Each is an accepted partial claim.
@@ -75,15 +75,15 @@ https://www.erdosproblems.com/955.
 
 ## Current assessment
 
-**Search scope.** A bounded literature check found no full solution among its
-sampled sources. It covered the 2023 and 2026 arXiv records, the authors'
-publication pages, exact-title and EGPS searches, and indexed recent
-announcements including X. The July 2026 paper retains the general assertion as
-its Conjecture 1.3 and says it remains open; its
-[arXiv record](https://arxiv.org/abs/2607.18981) lists v1, and
-[Thompson's publication page](https://www.lolathompson.com/research.html) lists
-the work as submitted. No status-changing item was found on these routes. This
-is a bounded assessment, not an exhaustive literature or announcement search.
+**Search scope (2026-09-07 and 2026-09-09 UTC).** A bounded literature check
+found no full solution among its sampled sources. It covered the 2023 and 2026
+arXiv records, the authors' publication pages, exact-title and EGPS searches,
+and indexed recent announcements including X. The July 2026 paper retains the
+general assertion as its Conjecture 1.3 and says it remains open; its [arXiv
+record](https://arxiv.org/abs/2607.18981) lists v1, and [Thompson's publication
+page](https://www.lolathompson.com/research.html) lists the work as submitted.
+No status-changing item was found on these routes. This is a bounded assessment,
+not an exhaustive literature or announcement search.
 
 **Proof coverage.** The cited statements and source versions below are
 taken from the complete cited pages. The truncation, digit-target

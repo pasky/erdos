@@ -25,8 +25,8 @@ updated: 2026-10-08T02:16:54Z
 with $\geq f_r(n)$ edges and chromatic number $\geq r$ contains a triangle.
 Determine $f_r(n)$.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
-6 December 2025). Three conventions are fixed on this page, each an
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 6 December 2025). Three conventions are fixed on this page, each an
 observation made on it. First, for triangle-free graphs the condition
 "chromatic number $\ge3$" is the same as "not bipartite", since a graph is
 bipartite exactly when it has a proper $2$-coloring; Erdős's 1962 paper
@@ -42,37 +42,38 @@ condition is vacuous and the literal minimum is $0$; this happens for $r=4$
 and $n\le10$, the Grötzsch graph on $11$ vertices being the smallest
 triangle-free $4$-chromatic graph. Erdős's 1971 list writes the same function
 as $u_r$ with the same indexing ($u_2$ is Turán's $[\tfrac14n^2]+1$ and
-$u_3=[\tfrac14(n-1)^2]+2$); the site's $f_r$ and the paper's $u_r$ agree. The
-site's $g(r)$ is Simonovits's $\hat g_3(t)$ at $t=r$, defined in Theorem 2.7
-of [Si74] (p. 358) as "the largest integer $m$ such that for any graph $G$
-not containing $K_3$ and having chromatic number $\ge t$, at least $m$
-vertices of $G$ must be omitted to get a 2-chromatic graph"; the site's own
-description of $g(r)$, the largest $m$ such that every triangle-free graph of
-chromatic number at least $r$ needs at least $m$ vertex deletions to become
-bipartite (the minimum, over such graphs, of the fewest deletions that make
-the graph bipartite), says the same.
+$u_3=[\tfrac14(n-1)^2]+2$); erdosproblems.com's $f_r$ and the paper's $u_r$
+agree. erdosproblems.com's $g(r)$ is Simonovits's $\hat g_3(t)$ at $t=r$,
+defined in Theorem 2.7 of [Si74] (p. 358) as "the largest integer $m$ such that
+for any graph $G$ not containing $K_3$ and having chromatic number $\ge t$, at
+least $m$ vertices of $G$ must be omitted to get a 2-chromatic graph";
+erdosproblems.com's own description of $g(r)$, the largest $m$ such that every
+triangle-free graph of chromatic number at least $r$ needs at least $m$ vertex
+deletions to become bipartite (the minimum, over such graphs, of the fewest
+deletions that make the graph bipartite), says the same.
 
 **Status.** Open. Three exact values are known. The first is
-$f_2(n)=\lfloor n^2/4\rfloor+1$, which is Turán's theorem, as the site says and
-as [Er62d] p. 122 records. The second is $f_3(n)=\lfloor(n-1)^2/4\rfloor+2$ for
-$n\ge5$. Its upper bound is Lemma 1 of [Er62d], the Erdős--Gallai and Andrásfai
-theorem. The matching triangle-free non-bipartite graph with one edge fewer is
-on p. 124 of the same paper, and it is the graph $H_0$ of [RWWY24]. The third is
-$f_4(n)=\lfloor(n-3)^2/4\rfloor+6$ for $n\ge90$, which is Theorem 1.4 of
-[RWWY24] (arXiv v2 of 19 October 2025, a preprint). The blow-ups of the Grötzsch
-graph give the matching lower bound. The site prints the range $n\ge150$ for
-this last value, while v2 prints $n\ge90$. This site-versus-source discrepancy
-is recorded below.
+$f_2(n)=\lfloor n^2/4\rfloor+1$, which is Turán's theorem, as erdosproblems.com
+says and as [Er62d] p. 122 records. The second is
+$f_3(n)=\lfloor(n-1)^2/4\rfloor+2$ for $n\ge5$. Its upper bound is Lemma 1 of
+[Er62d], the Erdős--Gallai and Andrásfai theorem. The matching triangle-free
+non-bipartite graph with one edge fewer is on p. 124 of the same paper, and it
+is the graph $H_0$ of [RWWY24]. The third is $f_4(n)=\lfloor(n-3)^2/4\rfloor+6$
+for $n\ge90$, which is Theorem 1.4 of [RWWY24] (arXiv v2 of 19 October 2025, a
+preprint). The blow-ups of the Grötzsch graph give the matching lower bound.
+erdosproblems.com prints the range $n\ge150$ for this last value, while v2
+prints $n\ge90$. This erdosproblems.com-versus-source discrepancy is recorded
+below.
 
 For general $r$, Theorem 2.7 of [Si74] (p. 358) gives
 $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ with $g(r)=\hat g_3(r)$. Simonovits
 attributes it to the author's thesis and prints no proof. Remark 2.8(a) of the
 same paper (p. 359) asserts without proof that
-$\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$. The site reports both.
-It also reports, from its discussion thread, that $g(r)\asymp r^2\log r$. The
-inputs to the thread's derivation, Theorem 1 of [DaIl22] and Theorem 1.3 of
-[HHKP25], are checked on this page. The derivation itself is a forum argument,
-recorded with provenance and unverified.
+$\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$. erdosproblems.com
+reports both. It also reports, from its discussion thread, that
+$g(r)\asymp r^2\log r$. The inputs to the thread's derivation, Theorem 1 of
+[DaIl22] and Theorem 1.3 of [HHKP25], are checked on this page. The derivation
+itself is a forum argument, recorded with provenance and unverified.
 
 The three literature determinations have claim pages. They are
 [[problems/extremal_graph_theory/E1011/claims/1941_01_01_turan|Turán]] for
@@ -89,13 +90,13 @@ whose scope the Current assessment records. This is a bounded negative finding,
 not a certificate of openness.
 
 **Source.** [erdosproblems.com/1011](https://www.erdosproblems.com/1011),
-accessed 2026-09-18: the problem page (labeled OPEN, the site's label for a
-problem that is open and not settled by a finite computation; last edited 6
-December 2025; source key [Er71], with [Er62d], [Si74], [DaIl22], [HHKP25]
-and [RWWY24] cited in the commentary; the page thanks three contributors by
-name), its discussion thread (ten comments from 13 October 2025 to 19
-September 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
-Problem #1011, https://www.erdosproblems.com/1011, accessed 2026-09-18.
+accessed 2026-09-18: the problem page (labeled OPEN, the erdosproblems.com label
+for a problem that is open and not settled by a finite computation; last edited
+6 December 2025; source key [Er71], with [Er62d], [Si74], [DaIl22], [HHKP25] and
+[RWWY24] cited in the commentary; the page thanks three contributors by name),
+its discussion thread (ten comments from 13 October 2025 to 19 September 2026)
+and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1011,
+https://www.erdosproblems.com/1011, accessed 2026-09-18.
 
 **References.**
 
@@ -126,14 +127,16 @@ Problem #1011, https://www.erdosproblems.com/1011, accessed 2026-09-18.
   349--376, doi:10.1016/0012-365X(74)90044-2 (received 12 September 1973,
   original version 30 March 1972; Crossref record, accessed 2026-09-18, carrying
   the publisher's open-archive license dated 2013-07-17). Theorem 2.7, p. 358;
-  Remark 2.8, p. 359; the site cites "the discussion on p. 358". Library home:
+  Remark 2.8, p. 359; erdosproblems.com cites "the discussion on p. 358".
+  Library home:
   [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/_index|simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs]]
   (the publisher's open-archive copy; the card carries the row for this
   problem); paged at
   [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7|theorem_2_7]]
   and
   [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/remark_2_8|remark_2_8]].
-  The site's reference text misspells the title's first word ("Extermal").
+  The erdosproblems.com reference text misspells the title's first word
+  ("Extermal").
 - [DaIl22] Davies, E. and Illingworth, F., The $\chi$-Ramsey problem for
   triangle-free graphs. SIAM J. Discrete Math. 36 (2022), no. 2, 1124--1134,
   doi:10.1137/21M1437573 (published online 28 April 2022; Crossref record,
@@ -155,12 +158,12 @@ file `ErdosProblems/1011.lean` exists in google-deepmind/formal-conjectures
 2026-10-07); the repository's issue 1069 ("Erdős Problem 1011", opened 14
 October 2025) asks for a statement, and the claimant of the forum claims
 below commented on it on 10 and 19 September 2026 with a proposed statement
-and the announcements of the proofs. The site's indicator reads "Formalised
-statement? No" (accessed 2026-10-07), and the community database (read
-2026-09-18 and 2026-10-06) lists the problem as open as of its last update, 10
-September 2025, unformalized, with no formal proof. Forum comments of 10 and 19
-September 2026 announce an external Lean development for the cases $r=4$ (every
-$n$) and $r=5$ ($n\ge80$); each has its own claim page,
+and the announcements of the proofs. The erdosproblems.com indicator reads
+"Formalised statement? No" (accessed 2026-10-07), and the community database
+(read 2026-09-18 and 2026-10-06) lists the problem as open as of its last
+update, 10 September 2025, unformalized, with no formal proof. Forum comments of
+10 and 19 September 2026 announce an external Lean development for the cases
+$r=4$ (every $n$) and $r=5$ ($n\ge80$); each has its own claim page,
 [[problems/extremal_graph_theory/E1011/claims/2026_09_10_kentakitamura|2026_09_10_kentakitamura]]
 and
 [[problems/extremal_graph_theory/E1011/claims/2026_09_19_kentakitamura|2026_09_19_kentakitamura]],
@@ -169,21 +172,22 @@ this corpus.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN; last edited 6 December 2025. The site's commentary, in this
-page's words: Turán's theorem gives $f_2(n)=\lfloor n^2/4\rfloor+1$; Erdős
-and Gallai [Er62d] determined $f_3(n)=\lfloor\frac14(n-1)^2\rfloor+2$;
-Simonovits's thesis (the site points to the discussion on p. 358 of [Si74])
-gives $f_r(n)=\frac{n^2}4-\frac{g(r)}2n+O(1)$, where $g(r)$ is the largest
-$m$ such that every triangle-free graph of chromatic number at least $r$
-needs at least $m$ vertex deletions to become bipartite; [Si74] records
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN; last edited 6 December 2025. The erdosproblems.com
+commentary, in this page's words: Turán's theorem gives
+$f_2(n)=\lfloor n^2/4\rfloor+1$; Erdős and Gallai [Er62d] determined
+$f_3(n)=\lfloor\frac14(n-1)^2\rfloor+2$; Simonovits's thesis (erdosproblems.com
+points to the discussion on p. 358 of [Si74]) gives
+$f_r(n)=\frac{n^2}4-\frac{g(r)}2n+O(1)$, where $g(r)$ is the largest $m$ such
+that every triangle-free graph of chromatic number at least $r$ needs at least
+$m$ vertex deletions to become bipartite; [Si74] records
 $\frac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$; a thread
-observation, adopted by the site, derives $g(r)\asymp r^2\log r$ from
+observation, adopted by erdosproblems.com, derives $g(r)\asymp r^2\log r$ from
 other results, more precisely
 $(1/2-o(1))r^2\log r\le g(r)\le(2+o(1))r^2\log r$, the lower bound from
-Davies and Illingworth [DaIl22] (the site refers to Problem 1104) and the
-upper bound from the $R(3,k)$ constructions of Hefty, Horn, King and
-Pfender [HHKP25]; and Ren, Wang, Wang and Yang [RWWY24] determined
+Davies and Illingworth [DaIl22] (erdosproblems.com refers to Problem 1104) and
+the upper bound from the $R(3,k)$ constructions of Hefty, Horn, King and Pfender
+[HHKP25]; and Ren, Wang, Wang and Yang [RWWY24] determined
 $f_4(n)=\lfloor\frac{(n-3)^2}4\rfloor+6$ for $n\ge150$. The thread and the
 proof-claim tab are described below; the community database record says
 open.
@@ -195,8 +199,8 @@ smallest integer $u_r$ so that every $G(n;u_r)$ which has chromatic number
 $\geqslant r$, contains a triangle? $u_2=[\tfrac14n^2]+1$ (this is the well
 known theorem of Turán) and $u_3=[\tfrac14(n-1)^2]+2$. $u_4$ is unknown
 [5].†", with the note added in proof "† Simonovits determined $u_r$." The
-footnote is Erdős's printed attestation of the result the site takes from
-[Si74]; the theorem it refers to is Theorem 2.7 of [Si74] (p. 358), which
+footnote is Erdős's printed attestation of the result erdosproblems.com takes
+from [Si74]; the theorem it refers to is Theorem 2.7 of [Si74] (p. 358), which
 Simonovits attributes to the author's thesis.
 
 **The case $r=3$ (refereed).**
@@ -230,9 +234,9 @@ $f_3(n)=\lfloor(n-1)^2/4\rfloor+2$ for $n\ge5$; for $n\le4$ no triangle-free
 graph is non-bipartite, so the condition is vacuous. The determination is
 an accepted partial claim on its page,
 [[problems/extremal_graph_theory/E1011/claims/1962_03_01_erdos|1962_03_01_erdos]]
-(refereed; the site's commentary credits it, which on a problem the site
-labeled OPEN is not acceptance evidence). Turán's theorem, the case $r=2$,
-is an accepted partial claim on its page,
+(refereed; the erdosproblems.com commentary credits it, which on a problem
+Bloom's catalog labeled OPEN is not acceptance evidence). Turán's theorem, the
+case $r=2$, is an accepted partial claim on its page,
 [[problems/extremal_graph_theory/E1011/claims/1941_01_01_turan|1941_01_01_turan]].
 
 **The case $r=4$ (a preprint).**
@@ -249,11 +253,11 @@ edges". Conversion (made on this page): every graph on $n\ge90$ vertices with
 $\chi\ge4$ and at least $\lfloor(n-3)^2/4\rfloor+6$ edges contains a
 triangle, and the graphs of $\mathcal G(n)$ show that one edge fewer does
 not force one; so $f_4(n)=\lfloor(n-3)^2/4\rfloor+6$ for $n\ge90$, the
-site's formula. The v2 text prints $n\ge90$ where the site prints
-$n\ge150$; the thread comment of 13 October 2025 quotes $150$ from the
+erdosproblems.com formula. The v2 text prints $n\ge90$ where erdosproblems.com
+prints $n\ge150$; the thread comment of 13 October 2025 quotes $150$ from the
 preprint as it then stood, and v2 (19 October 2025) says "the proof is
-slightly improved", which is consistent with the site's figure having come
-from v1, which this corpus has not consulted. The paper is a preprint (no
+slightly improved", which is consistent with the erdosproblems.com figure having
+come from v1, which this corpus has not consulted. The paper is a preprint (no
 journal record found), so the value carries the preprint qualification; the
 proof (Section 4, through a vertex-stability form of Mantel's theorem,
 Theorem 1.5, which Section 3 proves from the lemmas of Section 2) is not
@@ -271,7 +275,7 @@ $f_t(n;K_3)=\frac14n^2-\hat g_3(t)\frac12n+O(1)$, where $\hat g_3(t)$ is the
 largest integer $m$ such that for any graph $G$ not containing $K_3$ and
 having chromatic number $\ge t$, at least $m$ vertices of $G$ must be
 omitted to get a 2-chromatic graph." With $t=r$ and $f_r(n)=f_r(n;K_3)+1$
-(the second convention above) this is the site's expansion
+(the second convention above) this is erdosproblems.com's expansion
 $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ with $g(r)=\hat g_3(r)$. The
 paper's [13] is Simonovits's thesis, "On the structure of extremal graphs,
 Ph.D. Thesis, Library of Acad. Sci. Hungar. (in Hungarian)", not held; the
@@ -279,22 +283,22 @@ paper prints no proof of Theorem 2.7.
 [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/remark_2_8|Remark 2.8(a)]]
 (p. 359) asserts, "Comparing $\hat g_3$ and $g_3$ of [1], one
 can easily prove that $c_1t^2\log t/\log\log t<\hat g_3(t)<c_2t^2(\log t)^2$",
-the site's bounds $\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$;
-[1] is Erdős's 1959 paper Graph theory and probability, and no proof is
-printed. Remark 2.8(c) calls the $K_4$ analogue "an essentially more
-difficult problem the exact solution of which is unknown to me". The thread
-comment of 13 October 2025 named "Theorem 2.7" of [Si74] with "an explicit
-function $g_3(t)$" and the thesis, On the structure of extremal graphs, as
-its source, and said its references were located by GPT-5; the theorem
-number and the thesis title are as printed, and the function is printed with a hat, $\hat g_3$, which
-the paper distinguishes from the $g_3$ of [1]. The thread's derivation of
-$g(r)\asymp r^2\log r$ (the
-accounts zach hunter, Wouter CvB and the site's maintainer, 25--26 October
-2025): $g(r)\le\min\{R(3,k)-2k:R(3,k)/k>r-1\}$ gives the upper bound from
-the triangle-free graphs with small independence number of [HHKP25], and
+erdosproblems.com's bounds
+$\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$; [1] is Erdős's 1959
+paper Graph theory and probability, and no proof is printed. Remark 2.8(c) calls
+the $K_4$ analogue "an essentially more difficult problem the exact solution of
+which is unknown to me". The thread comment of 13 October 2025 named "Theorem
+2.7" of [Si74] with "an explicit function $g_3(t)$" and the thesis, On the
+structure of extremal graphs, as its source, and said its references were
+located by GPT-5; the theorem number and the thesis title are as printed, and
+the function is printed with a hat, $\hat g_3$, which the paper distinguishes
+from the $g_3$ of [1]. The thread's derivation of $g(r)\asymp r^2\log r$ (the
+accounts zach hunter, Wouter CvB and the erdosproblems.com maintainer, 25--26
+October 2025): $g(r)\le\min\{R(3,k)-2k:R(3,k)/k>r-1\}$ gives the upper bound
+from the triangle-free graphs with small independence number of [HHKP25], and
 $g(r)\ge\min\{n:\text{some triangle-free graph on }n\text{ vertices has
 chromatic number }r-2\}$ gives the lower bound from [DaIl22]; after two
-corrections of constants within the thread the site prints
+corrections of constants within the thread erdosproblems.com prints
 $(1/2-o(1))r^2\log r\le g(r)\le(2+o(1))r^2\log r$. What is checked on this page
 is only the two inputs:
 [[../library/graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/theorem_1|Theorem 1]]
@@ -330,8 +334,8 @@ corpus. The claim page
 [[problems/extremal_graph_theory/E1011/claims/2026_09_10_kentakitamura|2026_09_10_kentakitamura]]
 records what the repository contains, the comment's disclosure of
 assistance from OpenAI Codex and ChatGPT Astra, and the standing:
-unrefereed, not accepted by the site (whose page prints $n\ge150$, accessed
-2026-10-07) or by the community database, and covering the case $r=4$
+unrefereed, not accepted by erdosproblems.com (whose page prints $n\ge150$,
+accessed 2026-10-07) or by the community database, and covering the case $r=4$
 alone, so the problem's standing is unaffected. A further comment of the
 same account (11:40 on 19 September 2026) announces, in the same
 repository, a kernel-checked Lean proof of
@@ -347,7 +351,7 @@ standing: unrefereed, accepted by nobody, and covering one case of one $r$.
 determination of $f_r(n)$ for any $r\ge5$ or a journal version of [RWWY24];
 the publisher's open-archive copy of [Si74] was accessed.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and recursive tree at
   the pinned commit (no file 1011) and its issue 1069 through the GitHub
   API; the community database at the pinned commit; the repository named in
@@ -374,17 +378,18 @@ Remark 2.8(a) at statement depth; the paper prints no proof of either,
 attributing the theorem to Simonovits's thesis (in Hungarian, not held) and
 calling the bounds easy, so the thesis remains the only route to a proof of the
 expansion. (2) The thread's $g(r)\asymp r^2\log r$ is a forum derivation whose
-inputs are checked and whose reduction is not. (3) [RWWY24] is a preprint; the
-site's $n\ge150$ against the paper's $n\ge90$ is recorded and not resolved with
-the site. (4) The Lean claims of 10 and 19 September 2026 are unreviewed and
-recorded as pending partial claims; if correct they would settle $f_4(n)$ for
-all $n$ and $f_5(n)$ for $n\ge80$. (5) Proof coverage is statements only, apart
-from the outline of Lemma 1's proof above. The list of linked library material
-below is derived from the library links and records no progress.
+inputs are checked and whose reduction is not. (3) [RWWY24] is a preprint;
+erdosproblems.com's $n\ge150$ against the paper's $n\ge90$ is recorded and not
+resolved with erdosproblems.com. (4) The Lean claims of 10 and 19 September 2026
+are unreviewed and recorded as pending partial claims; if correct they would
+settle $f_4(n)$ for all $n$ and $f_5(n)$ for $n\ge80$. (5) Proof coverage is
+statements only, apart from the outline of Lemma 1's proof above. The list of
+linked library material below is derived from the library links and records no
+progress.
 
 ## Known results
 
-- Turán's theorem: $f_2(n)=\lfloor n^2/4\rfloor+1$ (the site; [Er62d]
+- Turán's theorem: $f_2(n)=\lfloor n^2/4\rfloor+1$ (erdosproblems.com; [Er62d]
   p. 122; an accepted partial claim,
   [[problems/extremal_graph_theory/E1011/claims/1941_01_01_turan|claim page]]).
 - [[../library/extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|Erdős--Gallai (Andrásfai), Lemma 1]]

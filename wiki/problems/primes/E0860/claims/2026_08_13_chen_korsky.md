@@ -28,7 +28,7 @@ Intervals*, arXiv:2607.26450v2 (13 August 2026), by Kaizhe Chen and Samuel
 Korsky, with the arXiv comment "Improved lower and upper bounds". Its
 $h_{\mathbb P}(n)$ is the least $H$ for which every $H$ consecutive
 integers hold distinct multiples of the primes up to $n$, the $h(n)$ of
-[[problems/primes/E0860/_index|Problem 860]] less one (the site's open
+[[problems/primes/E0860/_index|Problem 860]] less one (erdosproblems.com's open
 interval holds $h(n)-1$ integers). Theorem 1.2 states
 
 $$

@@ -19,7 +19,7 @@ that their proved problem was Erdős Problem 303, and supplies the code link.
 The mathematical method summarized in this folder was extracted from that
 linked payload.
 
-**Date shown by the site.** 00:44 on 21 December 2025.
+**Date shown by erdosproblems.com.** 00:44 on 21 December 2025.
 
 **Original post.**
 <https://www.erdosproblems.com/forum/thread/330#post-2334>.
@@ -38,10 +38,10 @@ duplicated here.
 **Thread provenance.** Boris Alexeev wrote at
 <https://www.erdosproblems.com/forum/thread/303#post-2347> at 12:53 on 21
 December 2025 that Yuan's link formally solves Problem 303; the comment is
-marked as addressed by a site update. The refreshed problem page labeled the
-problem `PROVED (LEAN)` and its commentary credits Brown and Rödl's published
-proof as well as the Formal Conjectures project. The complete Problem 303
-discussion snapshot was fetched 2026-09-05.
+marked as addressed by an erdosproblems.com update. The refreshed problem page
+labeled the problem `PROVED (LEAN)` and its commentary credits Brown and Rödl's
+published proof as well as the Formal Conjectures project. The complete Problem
+303 discussion snapshot was fetched 2026-09-05.
 
 **Statement file.** The
 [Formal Conjectures declaration](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/303.lean)

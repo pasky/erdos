@@ -5,7 +5,7 @@ desc: |
   Theorem 8.1 of Balister, Bollobás, Morris, Sahasrabudhe and Tiba (Inventiones
   2022) shows that distinct moduli all at least 616000 cannot cover the
   integers. This second proof that the minimum modulus is bounded is accepted on
-  the refereed paper and the site's credit.
+  the refereed paper and the erdosproblems.com credit.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -67,15 +67,15 @@ whose earlier bound of $10^{16}$ is on
 doi:10.1007/s00222-021-01087-5, published online 2021-11-16. The arXiv v1 of
 2018-11-08 names this page.
 
-Reviewed: the site's curator, Thomas Bloom, credits the alternative proof and
-the improved bound $616000$ to [BBMST22] on the problem page (last edited 5
-April 2026). The community database records the problem disproved. The library's
-replay of the numerical certificate is author-recorded coverage by this project
-and awards nothing here.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, credits the alternative
+proof and the improved bound $616000$ to [BBMST22] on the problem page (last
+edited 5 April 2026). The community database records the problem disproved. The
+library's replay of the numerical certificate is author-recorded coverage by
+this project and awards nothing here.
 
-Not listed as formalized: the catalog's statement file
+Not listed as formalized: the formal-conjectures statement file
 (google-deepmind/formal-conjectures, `ErdosProblems/2.lean`) carries a `sorry`
-body. The development behind the site's Lean label was the file
+body. The development behind the erdosproblems.com Lean label was the file
 `src/latest/ErdosProblems/Erdos2.lean` in Boris Alexeev's lean-proofs
 repository, pinned above at the commit of 2026-09-15. The file declares itself a
 formalization of a solution to Problem 2. It names Balister, Bollobás, Morris,

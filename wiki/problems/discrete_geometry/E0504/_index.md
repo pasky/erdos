@@ -25,8 +25,8 @@ that in every set $A\subset \mathbb{R}^2$ of size $n$ there exist three distinct
 points $x,y,z\in A$ such that the angle determined by $xyz$ is at least
 $\alpha$. Determine $\alpha_n$.
 
-**Status.** Solved. The site labeled the problem SOLVED, crediting Sendov's 1993
-determination of $\alpha_N$ for every $N\ge4$, recorded on the
+**Status.** Solved. Bloom's catalog labeled the problem SOLVED, crediting
+Sendov's 1993 determination of $\alpha_N$ for every $N\ge4$, recorded on the
 [[problems/discrete_geometry/E0504/claims/1993_01_01_sendov|Sendov claim page]].
 The case $\alpha_3=\pi/3$ is the equilateral triangle. The earlier values at
 powers of two are on the

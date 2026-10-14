@@ -41,7 +41,7 @@ endpoint as excluded; so the range intended is $0\le\alpha<1/k$. The constant
 in (30) is printed as $c_k$ with no visible dependence on $\alpha$; the bound
 (29) makes its constants depend on $\alpha$, and a constant independent of
 $\alpha$ cannot be meant, since $c_k'(\alpha)\to\infty$. The statement is
-for a general number $k$ of classes; the site's Problem 563 is the case
+for a general number $k$ of classes; erdosproblems.com's Problem 563 is the case
 $k=2$, written $F(n,\alpha)$ with $c_\alpha$. Erdős introduces the passage as
 work from "another somewhat later paper (which also was forgotten and ignored
 by everybody)"; that paper is not named on the page.
@@ -73,11 +73,12 @@ None stated.
 
 - [[../wiki/problems/ramsey_theory/E0563/_index|Problem 563]]: display (30) with $k=2$ is
   the problem's statement; display (29) with $k=2$ is the known two-sided
-  bound $F(n,\alpha)\asymp_\alpha\log n$ that the site's commentary quotes.
-  The printed range "$\le\frac1k$" is the endpoint the site's discussion
-  thread calls a typo; the endpoint is excluded by Erdős's own next sentence.
+  bound $F(n,\alpha)\asymp_\alpha\log n$ that the erdosproblems.com commentary
+  quotes. The printed range "$\le\frac1k$" is the endpoint the erdosproblems.com
+  discussion thread calls a typo; the endpoint is excluded by Erdős's own next
+  sentence.
 - [[../wiki/problems/discrepancy/E0162/_index|Problem 162]]: the same question as Problem
-  563 under the site's second number (its statement writes "largest $k$"
-  for the threshold, as Conlon, Fox and Sudakov do, and carries the endpoint
-  $\alpha\le1/2$); display (30) with $k=2$ is its statement and (29) the
-  known bound.
+  563 under erdosproblems.com's second number (its statement writes "largest
+  $k$" for the threshold, as Conlon, Fox and Sudakov do, and carries the
+  endpoint $\alpha\le1/2$); display (30) with $k=2$ is its statement and (29)
+  the known bound.

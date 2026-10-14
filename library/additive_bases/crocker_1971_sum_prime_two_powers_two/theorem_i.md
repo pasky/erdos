@@ -99,14 +99,14 @@ the numerical facts on p. 107 (its reference [2]).
 
 ## Bears on
 
-- [[../wiki/problems/additive_bases/E0009/_index|Problem 9]]: the theorem is the site's
-  negative result behind the problem, which asks whether the odd integers not
-  of the form $p+2^k+2^l$ have positive upper density; the problem's form
-  allows $k,l\ge0$, while the theorem excludes only positive exponents. The
-  constructed integers avoid the zero-exponent forms as well, an observation
-  of this page rather than of the paper: $t=p+2^0+2^0$ would make $t$ a prime
-  plus $2^1$, and $t=p+2^0+2^l$ with $l\ge1$ forces $p=2$ by parity, making
-  $t$ the prime $3$ plus $2^l$; system (2) excludes both. So the set of
+- [[../wiki/problems/additive_bases/E0009/_index|Problem 9]]: the theorem is
+  erdosproblems.com's negative result behind the problem, which asks whether the
+  odd integers not of the form $p+2^k+2^l$ have positive upper density; the
+  problem's form allows $k,l\ge0$, while the theorem excludes only positive
+  exponents. The constructed integers avoid the zero-exponent forms as well, an
+  observation of this page rather than of the paper: $t=p+2^0+2^0$ would make
+  $t$ a prime plus $2^1$, and $t=p+2^0+2^l$ with $l\ge1$ forces $p=2$ by parity,
+  making $t$ the prime $3$ plus $2^l$; system (2) excludes both. So the set of
   Problem 9 is infinite; the construction does not decide whether it has
   positive upper density.
 - [[../wiki/problems/additive_bases/E0010/_index|Problem 10]]: the constructed integers,

@@ -59,8 +59,8 @@ $n!=\prod_{s\in S}(a+s)$ for some $a\ge1$ and some $S\subseteq\{0,\ldots,m\}$
 containing $0$ and $m$, so $n!=P_S(a)$ for one of the finitely many polynomials
 $P_S(X)=\prod_{s\in S}(X+s)$, each of degree $|S|\ge2$. Summing the theorem over
 these polynomials and over dyadic ranges gives, with $F_m(N)$ the number of
-$n\le N$ with $f(n)=m$, $F_m(N)\ll_m N^{33/34}$, as the site's remarks state;
-this sharpens the $o(N)$ of
+$n\le N$ with $f(n)=m$, $F_m(N)\ll_m N^{33/34}$, as the erdosproblems.com
+remarks state; this sharpens the $o(N)$ of
 [[problems/factorials_binomials/E0393/claims/1992_10_01_berend_osgood|Berend and Osgood 1992]].
 
 **Covers.** The counting bound only: $F_m(N)\ll_m N^{33/34}$ for each fixed $m$.
@@ -68,7 +68,7 @@ It does not settle whether $f(n)=1$ infinitely often, which is open
 unconditionally, nor the growth of $f(n)$ along every $n$.
 
 **Acceptance.** Refereed: Advances in Mathematics, volume 422 (June 2023),
-article 109021; the Crossref record of the DOI gives these data. The site
+article 109021; the Crossref record of the DOI gives these data. Bloom's catalog
 labeled the problem OPEN, so its remark crediting the result is commentary on an
 open problem and not acceptance, and no `reviewed` evidence is listed. The proof
 is not checked here.

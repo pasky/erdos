@@ -16,8 +16,8 @@ updated: 2026-10-08T01:29:58Z
 
 $r(G;k)$ is the least integer such that every $k$-coloring of the edges of
 $K_r$ with $r\ge r(G;k)$ has a monochromatic subgraph isomorphic to $G$
-(p. 164), the site's $R_k(G)$; $K_{s,t}$ is the complete bipartite graph
-with parts of sizes $s\le t$.
+(p. 164), erdosproblems.com's $R_k(G)$; $K_{s,t}$ is the complete bipartite
+graph with parts of sizes $s\le t$.
 
 **Theorem 1** (p. 164, quoted). "$r(K_{s,t};k)\le(t-1)(k+k^{1/s})^s$ for
 $k>1$, $t\ge s\ge2$."
@@ -75,7 +75,7 @@ not held).
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0558/_index|Problem 558]]: the upper half of the
-  site's displayed general bounds, as printed, with the conditions $k>1$
-  and $t\ge s\ge2$ the site omits; at $s=t=3$ the $(2+o(1))k^3$ that Alon,
-  Rónyai and Szabó improved to $(1+o(1))k^3$.
+- [[../wiki/problems/ramsey_theory/E0558/_index|Problem 558]]: the upper half of
+  erdosproblems.com's displayed general bounds, as printed, with the conditions
+  $k>1$ and $t\ge s\ge2$ erdosproblems.com omits; at $s=t=3$ the $(2+o(1))k^3$
+  that Alon, Rónyai and Szabó improved to $(1+o(1))k^3$.

@@ -21,7 +21,7 @@ monochromatic $G$.
 $br_k(C_{2m})\ge(1-o(1))k^{m/(m-1)}$ as $k\to\infty$."
 
 The bound is for the bipartite number only. It is not stated for
-$r_k(C_{2m})$, the site's $R_k(C_{2m})$; the passage to $r_k$ is
+$r_k(C_{2m})$, erdosproblems.com's $R_k(C_{2m})$; the passage to $r_k$ is
 [[ramsey_theory/li_lih_2009_multi_color_ramsey_numbers_even_cycles/lemma_1|Lemma 1]],
 which keeps the order $k^{m/(m-1)}$ but not the constant $1$.
 

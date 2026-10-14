@@ -5,7 +5,7 @@ desc: |
   anticomplete subgraphs of large chromatic number.
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T14:17:40Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos
@@ -15,9 +15,9 @@ updated: 2026-10-08T14:17:40Z
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/conjecture_4_1|conjecture_4_1]]: The authors' tournament strengthening of the El-Zahar-Erdős problem, with
 their announcement that another paper will prove it implies 1.1.
 
-[[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1|problem_1_1]]: The 2023 restatement of the El-Zahar-Erdős problem in the site's letters,
-the sentence "This remains open", and the authors' account of the earlier
-partial result they attribute to El-Zahar and Erdős.
+[[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1|problem_1_1]]: The 2023 restatement of the El-Zahar-Erdős problem in erdosproblems.com's
+letters, the sentence "This remains open", and the authors' account of the
+earlier partial result they attribute to El-Zahar and Erdős.
 
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_2|result_1_2]]: The strengthened partial result toward the El-Zahar-Erdős problem: under
 its hypotheses, two anticomplete sets, one inducing minimum degree at
@@ -48,8 +48,8 @@ since large complete bipartite graphs are counterexamples when only omega is
 bounded. The proofs work with the 'denseness' |E(G)|/|G| and the standard fact
 (2.1) relating minimum degree and denseness; a final section considers a
 possible tournament extension. This is direct partial progress on
-the El-Zahar-Erdos question, which is problem 1111; the site also cites the
-paper on problem 61, the Erdős–Hajnal question, which the paper never
+the El-Zahar-Erdos question, which is problem 1111; erdosproblems.com also cites
+the paper on problem 61, the Erdős–Hajnal question, which the paper never
 mentions (printed p. 1 read on the page image; the text layer
 of all ten PDF pages searched for "Hajnal" with no match).
 
@@ -77,11 +77,11 @@ The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2303.13449), every other right reserved.
 
 **Bears on.**
-[[../wiki/problems/extremal_graph_theory/E1111/_index|#1111]]: the site's key NSS24;
-Problem 1.1 (printed p. 1) restates the problem in the site's letters and
-says "This remains open"; 1.2 proves the problem's statement with $\chi(A)\ge c$
-weakened to minimum degree at least $c$ on $A$; 1.3 is the minimum-degree
-variant with $K_{t,t}$ excluded;
+[[../wiki/problems/extremal_graph_theory/E1111/_index|#1111]]: the
+erdosproblems.com key NSS24; Problem 1.1 (printed p. 1) restates the problem in
+erdosproblems.com's letters and says "This remains open"; 1.2 proves the
+problem's statement with $\chi(A)\ge c$ weakened to minimum degree at least $c$
+on $A$; 1.3 is the minimum-degree variant with $K_{t,t}$ excluded;
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/conjecture_4_1|Conjecture 4.1]]
 (p. 8) is a tournament strengthening whose implication for 1.1 is announced for
 another paper, not proved here; paged at
@@ -89,9 +89,9 @@ another paper, not proved here; paged at
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_2|result_1_2]]
 and
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_3|result_1_3]].
-[[../wiki/problems/extremal_graph_theory/E0061/_index|#61]]: the site cites
-the paper under the same key for a bound on $n$-vertex graphs with no induced
-copy of a fixed path, a clique or independent set on at least
+[[../wiki/problems/extremal_graph_theory/E0061/_index|#61]]: erdosproblems.com
+cites the paper under the same key for a bound on $n$-vertex graphs with no
+induced copy of a fixed path, a clique or independent set on at least
 $2^{(\log n)^{1-o(1)}}$ vertices (erdosproblems.com/61, read 2026-10-07); the
 paper contains no such result, and no result in it addresses the
 Erdős–Hajnal question.

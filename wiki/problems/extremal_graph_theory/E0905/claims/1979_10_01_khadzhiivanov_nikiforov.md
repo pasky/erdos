@@ -5,7 +5,7 @@ desc: |
   Khadzhiivanov and Nikiforov (C. R. Acad. Bulgare Sci. 1979) prove that every
   graph with $n$ vertices and more than $n^2/4$ edges has an edge on at least
   $n/6$ triangles. The claim is accepted on the 1988 reproof, Fox and Loh, and
-  the site's credit.
+  the erdosproblems.com credit.
 authors:
 - N. G. Khadzhiivanov
 - V. Nikiforov
@@ -41,12 +41,13 @@ Erdős about the maximum number of triangles with a common edge in a graph*, C.
 R. Acad. Bulgare Sci. 32 (1979), no. 10, 1315--1318, in Russian. The coauthor
 is V. (Vladimir) Nikiforov, as the 1988 paper's reference [2] and p. 44, Fox
 and Loh's reference [13] and Bollobás and Nikiforov's 2005 reference [10] give
-the name; the site's reference text prints "S. V. Nikiforov". The note is not
-held and has no online record found (no DOI, Crossref or zbMATH record on
-2026-09-18); its statement is known through the 1988 paper of the first author
+the name; the erdosproblems.com reference text prints "S. V. Nikiforov". The
+note is not held and has no online record found (no DOI, Crossref or zbMATH
+record on 2026-09-18); its statement is known through the 1988 paper of the
+first author
 ([[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/_index|card]]).
-That paper states the problem in the site's exact form, with $\hat t$ the
-largest number of triangles on one edge
+That paper states the problem in erdosproblems.com's exact form, with $\hat t$
+the largest number of triangles on one edge
 ([[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/problem_p44|p. 44]]):
 if $e>n^2/4$ then $\hat t\ge n/6$; it says the author solved the problem
 completely with Nikiforov in the 1979 note; and it proves the statement again
@@ -67,17 +68,17 @@ is number 10 of a twelve-issue volume, and no source read gives its day.
 and the 1979 note is cited through it.
 
 **Acceptance.** The `reviewed` evidence is documented acceptance by named
-experts and by the site's curator, T. F. Bloom, who is independent of the
-authors. Fox and Loh, in a refereed paper (Combinatorica 32 (2012); p. 2 of the
-preprint, recorded on
+experts and by the erdosproblems.com curator, T. F. Bloom, who is independent of
+the authors. Fox and Loh, in a refereed paper (Combinatorica 32 (2012); p. 2 of
+the preprint, recorded on
 [[../library/ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/theorem_1_1|the card for Problem 80]]),
 state that Edwards and Khadzhiivanov and Nikiforov proved that every $n$-vertex
 graph with more than $n^2/4$ edges has an edge in at least $n/6$ triangles. The
-site's commentary credits the proof to this note and labeled the problem proved,
-and the community database agrees. Khadzhiivanov's 1988 paper reproves the
-statement with the surplus above. It appeared in a university annual whose
-refereeing practice is not established. Bollobás and Nikiforov's refereed paper
-of 2005 (its own claim page,
+erdosproblems.com commentary credits the proof to this note and labeled the
+problem proved, and the community database agrees. Khadzhiivanov's 1988 paper
+reproves the statement with the surplus above. It appeared in a university
+annual whose refereeing practice is not established. Bollobás and Nikiforov's
+refereed paper of 2005 (its own claim page,
 [[problems/extremal_graph_theory/E0905/claims/2004_05_05_bollobas_nikiforov|Bollobás and Nikiforov]])
 credits the first proofs to Edwards and to this note and proves the statement
 again by another route. Its second author shares the 1979 coauthor's name, so it
@@ -93,9 +94,10 @@ Alexeev's repository `plby/lean-proofs`, linked above at the commit of 15
 September 2026, declares itself a Lean formalization of this note's result,
 naming Khadzhiivanov and Nikiforov as its informal authors and, as formal
 authors, the AI systems Aristotle and GPT 5.4 and its human author, who
-announced it in the site's thread on 7 April 2026 (the account andresg535)
-with a link to type-check it online (the `live.lean-lang.org` link above,
-dated 7 April 2026); the repository copy entered `plby/lean-proofs` on 12 May
+announced it in the erdosproblems.com thread on 7 April 2026 (the account
+andresg535) with a link to type-check it online (the `live.lean-lang.org` link
+above, dated 7 April 2026); the repository copy entered `plby/lean-proofs` on 12
+May
 2026. The file (Lean and Mathlib `v4.29.1`, 856 lines) proves, for a finite
 simple graph on $n$ vertices with more than $\lfloor n^2/4\rfloor$ edges, the
 lemma $n<6\hat t$ (line 764), $\hat t$ the largest number of common neighbors
@@ -107,8 +109,8 @@ Nikiforov's *Books in graphs*, through the inequality
 $3\sum_vd(v)^2\le6e\hat t+2ne$ (`bollobas_nikiforov`, line 752). A closing
 comment records the axioms `propext`, `Classical.choice` and `Quot.sound`. No
 build, replay or audit of it is recorded, so the page lists no `formalized`
-evidence; the site's suffix "(LEAN)" and the community database's "proved
-(Lean)", as of its last update dated 7 April 2026, are catalog labels. The
-formal-conjectures statement file for the problem names this proof in its
+evidence; the erdosproblems.com suffix "(LEAN)" and the community database's
+"proved (Lean)", as of its last update dated 7 April 2026, are catalog labels.
+The formal-conjectures statement file for the problem names this proof in its
 `formal_proof` attribute; it is a statement, not a formalization, and is
 described on the problem page.

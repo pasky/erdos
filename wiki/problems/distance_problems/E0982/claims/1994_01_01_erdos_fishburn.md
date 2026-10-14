@@ -43,10 +43,10 @@ $\lfloor n/3\rfloor+1$ distinct distances to the other vertices. The paper
 states this consequence itself, as
 [[../library/distance_problems/erdos_1994_postscript_distances_convex_gons/inequality_p116|the inequality]]
 $f(n)\ge\lfloor(n+3)/3\rfloor$ for $n\ge4$ on p. 116, and calls it a tiny
-improvement on Moser's $\lfloor(n+2)/3\rfloor$; it is the bound the site's
-commentary credits to the paper. The paper's introduction (p. 111) names
-Moser's bound as the best previously known lower bound on the number of
-distances at one vertex.
+improvement on Moser's $\lfloor(n+2)/3\rfloor$; it is the bound the
+erdosproblems.com commentary credits to the paper. The paper's introduction
+(p. 111) names Moser's bound as the best previously known lower bound on the
+number of distances at one vertex.
 
 **Covers.** The statement of
 [[problems/distance_problems/E0982/_index|Problem 982]] for
@@ -62,6 +62,6 @@ issue (Crossref record); the day in the page name is a placeholder.
 [[../library/distance_problems/erdos_1994_postscript_distances_convex_gons/_index|erdos_1994_postscript_distances_convex_gons]].
 
 **Acceptance.** Refereed: Discrete & Computational Geometry 11 (1994),
-no. 1, 111--117. The site's commentary credits the bound; its label,
+no. 1, 111--117. The erdosproblems.com commentary credits the bound; its label,
 FALSIFIABLE, settles nothing, so the curator's credit is not counted as
 review.

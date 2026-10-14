@@ -60,6 +60,6 @@ doi:10.1007/BF02187783; the edition read is named on the
 
 - [[../wiki/problems/distance_problems/E1085/_index|Problem 1085]], part
   `space`: the upper bound $f_3(n)=O(n^{3/2}(\lambda_6(n)/n)^{1/4})$, the
-  bound the site's remarks record as $n^{3/2}\beta(n)$. It determines no
-  order of growth and settles no part; the problem page records the later
+  bound the erdosproblems.com remarks record as $n^{3/2}\beta(n)$. It determines
+  no order of growth and settles no part; the problem page records the later
   upper bounds and Erdős's lower bound.

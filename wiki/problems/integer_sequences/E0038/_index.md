@@ -38,16 +38,17 @@ $$
 d_s(A) = \inf_{N\geq 1}\frac{\lvert A\cap\{1,\ldots,N\}\rvert}{N}.
 $$
 
-**Status.** The site labeled the problem **PROVED (LEAN)**. A six-page anonymous
-manuscript posted on 25 April 2026 constructs a set that is not an additive
-basis and has the shift property with an explicit $f(\alpha)>0$. The site
-credits the manuscript to GPT 5.5 Pro, prompted by a forum user. Thomas Bloom,
-the site's curator, accepted it. Nat Sothanaphan checked the write-up and found
-no issues. There is no refereed version. The claim page
+**Status.** Bloom's catalog labeled the problem **PROVED (LEAN)**. A six-page
+anonymous manuscript posted on 25 April 2026 constructs a set that is not an
+additive basis and has the shift property with an explicit $f(\alpha)>0$.
+erdosproblems.com credits the manuscript to GPT 5.5 Pro, prompted by a forum
+user. Thomas Bloom, the erdosproblems.com curator, accepted it. Nat Sothanaphan
+checked the write-up and found no issues. There is no refereed version. The
+claim page
 [[problems/integer_sequences/E0038/claims/2026_04_25_gebyjaff|the 2026
-construction]] records the acceptance. The site's (LEAN) suffix is a catalog
-label. The linked Lean files are a statement with a placeholder and an unbuilt
-community proof, described under Formalization.
+construction]] records the acceptance. erdosproblems.com's (LEAN) suffix is a
+catalog label. The linked Lean files are a statement with a placeholder and an
+unbuilt community proof, described under Formalization.
 
 **Source.** [erdosproblems.com/38](https://www.erdosproblems.com/38), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #38,
@@ -58,9 +59,9 @@ https://www.erdosproblems.com/38, accessed 2026-09-05.
 - [Er36c] Erdős, P., On the arithmetical density of the sum of two sequences,
   one of which forms a basis for the integers. Acta Arithmetica 1 (1935),
   197–200. DOI:
-  [10.4064/aa-1-2-197-200](https://doi.org/10.4064/aa-1-2-197-200). The
-  site/archive key labels the scan 1936; its printed received date is 11 March
-  1935.
+  [10.4064/aa-1-2-197-200](https://doi.org/10.4064/aa-1-2-197-200).
+  erdosproblems.com/archive key labels the scan 1936; its printed received date
+  is 11 March 1935.
 - [Er56] Erdős, P., Problems and results in additive number theory. Colloque
   sur la Théorie des Nombres, Bruxelles, 1955, 127–137. George Thone, Liège;
   Masson and Cie, Paris, 1956; the problem is cited there at p. 136.
@@ -73,7 +74,7 @@ https://www.erdosproblems.com/38, accessed 2026-09-05.
   [spicylemonade/erdos-38](https://github.com/spicylemonade/erdos-38) as
   38.pdf, PDF metadata dated 25 April 2026. The announcing forum post
   credits GPT 5.5 Pro with the solution and Liam Price with the final
-  cleanup of the PDF, and the site's commentary credits GPT 5.5 Pro,
+  cleanup of the PDF, and the erdosproblems.com commentary credits GPT 5.5 Pro,
   prompted by the poster gebyjaff; the PDF itself gives no author.
 - [La37] Landau, E., Über einige neuere Fortschritte der additiven
   Zahlentheorie. Cambridge Tracts in Mathematics and Mathematical Physics 35,
@@ -109,8 +110,8 @@ use that definition. It was not built here.
 
 ## Current assessment
 
-The site's record of 2026-09-05 labeled Problem 38 PROVED (LEAN) and lists
-[Er36c], [Er56], and [Li42]. Its discussion thread credits the [Sol26]
+The erdosproblems.com record of 2026-09-05 labeled Problem 38 PROVED (LEAN) and
+lists [Er36c], [Er56], and [Li42]. Its discussion thread credits the [Sol26]
 construction as a positive solution and holds Nat Sothanaphan's comment
 that a standard check of the write-up found no issues; the acceptance
 evidence is recorded on the claim page
@@ -132,8 +133,8 @@ the full range of the printed first lemma remains uncertified. The corrected
 proof is author-recorded, and the independent review reported for it has no
 report retained in this repository.
 
-No literature search beyond the site's record and the sources above was
-made.
+No literature search beyond the erdosproblems.com record and the sources above
+was made.
 
 ## Progress
 
@@ -237,11 +238,11 @@ recorded as formalized research progress rather than a checked Lean proof.
   where available, but their hypotheses and proofs are not held or
   compiled here.
 
-- The site's commentary separately reports the stronger quantitative
+- The erdosproblems.com commentary separately reports the stronger quantitative
   form $f(\alpha)\gg\alpha(1-\alpha)^2$. The six-page Sol26 source proves
   only the explicit minimum with the exponential term displayed above; no
   source cited here proves the stronger claim, so it remains an unverified
-  site report.
+  erdosproblems.com report.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

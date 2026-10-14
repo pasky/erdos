@@ -52,9 +52,9 @@ for the lower bound $f(6)\ge17$; the upper bound $f(6)\le17$ is the paper's
 own.
 
 **Acceptance.** Refereed: the paper appeared in The ANZIAM Journal, a
-journal. The paper is not among the site's references, and the site labeled
-the problem FALSIFIABLE, which settles nothing, so no `reviewed` evidence is
-listed. The computer search has not been rerun in this corpus.
+journal. The paper is not among the erdosproblems.com references, and Bloom's
+catalog labeled the problem FALSIFIABLE, which settles nothing, so no `reviewed`
+evidence is listed. The computer search has not been rerun in this corpus.
 
 **Dating.** The publisher's record dates the issue October 2006 and gives no
 day, so the day is a placeholder; the publisher's online date, 17 February

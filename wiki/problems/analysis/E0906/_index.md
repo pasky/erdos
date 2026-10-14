@@ -41,44 +41,45 @@ $$
 
 is everywhere dense?
 
-**Notes.** The site's wording is trivially true: every non-zero polynomial, the
-constant $1$ among them, is an entire non-zero function whose derivatives of
-order above its degree vanish identically, so for every sequence
+**Notes.** The erdosproblems.com wording is trivially true: every non-zero
+polynomial, the constant $1$ among them, is an entire non-zero function whose
+derivatives of order above its degree vanish identically, so for every sequence
 $n_1<n_2<\cdots$ the set contains the whole plane. The failure covers the whole
 class of polynomials, so it is a failure of setting, not of range. Tang pointed
-it out, as the site's commentary records. The change replaces "non-zero" by
-"transcendental"; a transcendental entire function is non-zero, and nothing
-else changes. The evidence is the site's own commentary, which records the
-polynomial failure and gives the intended form, $f$ transcendental, while the
-site kept the label OPEN, which only that form fits; the formal-conjectures
-statement file, which counts with the site, states the same form. The defect is
-already in the poser's text: Erdős's question (i) in [Er82e, p. 72, §IV.1] asks
-for an entire function $f(z)$ with the roots of the $f^{(n_i)}$ everywhere
-dense, with no condition that excludes polynomials, and the site's "non-zero"
-excludes only the zero function. The correction does not rest on Erdős's
-Hungarian paper (Some remarks on a paper of Kővári, Mat. Lapok 7 (1956),
-214--217), where [Er82e] says the question was raised, or on [BaSc72]. The form
-follows from the site's commentary and label, not from the results that settle
-it. The polynomial observation answers the site's wording only and counts for
+it out, as the erdosproblems.com commentary records. The change replaces
+"non-zero" by "transcendental"; a transcendental entire function is non-zero,
+and nothing else changes. The evidence is erdosproblems.com's own commentary,
+which records the polynomial failure and gives the intended form, $f$
+transcendental, while erdosproblems.com kept the label OPEN, which only that
+form fits; the formal-conjectures statement file, which counts with
+erdosproblems.com, states the same form. The defect is already in the poser's
+text: Erdős's question (i) in [Er82e, p. 72, §IV.1] asks for an entire function
+$f(z)$ with the roots of the $f^{(n_i)}$ everywhere dense, with no condition
+that excludes polynomials, and erdosproblems.com's "non-zero" excludes only the
+zero function. The correction does not rest on Erdős's Hungarian paper (Some
+remarks on a paper of Kővári, Mat. Lapok 7 (1956), 214--217), where [Er82e] says
+the question was raised, or on [BaSc72]. The form follows from the
+erdosproblems.com commentary and label, not from the results that settle it. The
+polynomial observation answers the erdosproblems.com wording only and counts for
 nothing; no claim page records it, since no one presented it as settling the
 problem. The page's standing judges the modified Statement.
 
-**Status.** The site labeled the problem OPEN (page last edited 1 October 2025),
-a label that describes the modified Statement. The derived standing is claimed.
-Four pending full claims, each with declared AI assistance, construct such a
-transcendental function. Two were posted on the site's discussion thread on 25
-April 2026:
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 1 October
+2025), a label that describes the modified Statement. The derived standing is
+claimed. Four pending full claims, each with declared AI assistance, construct
+such a transcendental function. Two were posted on the erdosproblems.com
+discussion thread on 25 April 2026:
 [[problems/analysis/E0906/claims/2026_04_25_almeida|Almeida's planar Gaussian series]]
 and
 [[problems/analysis/E0906/claims/2026_04_25_chojecki|Chojecki's Gaussian series]].
-Two are on the site's proof-claims tab:
+Two are on the erdosproblems.com proof-claims tab:
 [[problems/analysis/E0906/claims/2026_07_21_hou|Hou's random Fock series]] of 21
 July 2026 and
 [[problems/analysis/E0906/claims/2026_09_17_he|He's sparse Fock series]] of 17
 September 2026. He's claim does not claim to be the first solution. A 1973
 theorem of Boas and Reddy, as printed, excludes three of the four constructions,
-and the conflict is unresolved. The site has accepted none of them, and this
-corpus has built neither of the two Lean developments.
+and the conflict is unresolved. erdosproblems.com has accepted none of them, and
+this corpus has built neither of the two Lean developments.
 
 **Source.** [erdosproblems.com/906](https://www.erdosproblems.com/906), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #906,
@@ -102,9 +103,9 @@ the density property and tags the question open.
 **The question (page last edited 1 October 2025).** The modified Statement
 above: a transcendental entire $f$ such that for every infinite sequence
 $n_1<n_2<\cdots$ the zeros of the derivatives $f^{(n_k)}$, taken together, are
-dense in $\mathbb{C}$. The site's wording, which also admits polynomials, is
-answered yes by any non-zero polynomial, as the Notes record. The site's label
-was OPEN.
+dense in $\mathbb{C}$. The erdosproblems.com wording, which also admits
+polynomials, is answered yes by any non-zero polynomial, as the Notes record.
+The erdosproblems.com label was OPEN.
 
 **History.** Erdős [Er82e] writes that the existence of the function of his
 question (i), the problem here, and of the function of his question (ii) had
@@ -112,15 +113,15 @@ been proved more than ten years before; on p. 72 (section IV.1) the sentence
 carries footnote (1), which cites Barth and Schneider, Proc. Amer. Math. Soc. 32
 (1972), 229--232 [BaSc72], and three other papers of theirs (J. reine angew.
 Math. 234 (1969); J. London Math. Soc. (2) 2 (1970); J. London Math. Soc. (2) 4
-(1972)). The site's commentary says that Erdős gives no reference and that the
-1972 paper contains no such result; that report is the site's. No published
-solution is recorded on the site or on this wiki.
+(1972)). The erdosproblems.com commentary says that Erdős gives no reference and
+that the 1972 paper contains no such result; that report is erdosproblems.com's.
+No published solution is recorded on erdosproblems.com or on this wiki.
 
 **Pending claims.** Four full claims each construct a transcendental entire
 function whose high derivatives have a zero in every fixed nonempty open set,
 which is equivalent to the question's density condition and so answers the
-modified Statement yes. Two were posted on the site's discussion thread on 25
-April 2026, each with a dated manuscript.
+modified Statement yes. Two were posted on the erdosproblems.com discussion
+thread on 25 April 2026, each with a dated manuscript.
 [[problems/analysis/E0906/claims/2026_04_25_almeida|Almeida's claim]], whose
 manuscript says it was prepared with AI assistance and whose document metadata
 names ChatGPT, uses the planar Gaussian entire function
@@ -145,8 +146,8 @@ Astra and Aristotle, uses the explicit sparse Fock series with exponents
 $\lfloor j^{3/2}\rfloor$, locating the zeros of $F^{(n)}$ within $Cn^{-1/6}$ of
 every point of a fixed annulus, which strengthens the density condition
 quantitatively, with a Lean development, and does not claim to be the first
-solution. The site has accepted none of them, and this corpus has built and
-audited neither Lean development, so all four stay claimed and the derived
+solution. erdosproblems.com has accepted none of them, and this corpus has built
+and audited neither Lean development, so all four stay claimed and the derived
 standing is claimed, with the claim value proved, since all four assert the
 affirmative answer.
 
@@ -162,9 +163,9 @@ if correct, refutes that theorem as printed, as Hou's manuscript states.
 Chojecki's functions have order $1/(1-\beta)>2$ and lie outside it. The conflict
 is unresolved.
 
-**Search scope.** The site's problem page and proof-claims tab as cached on
-2026-10-06, and the site's discussion thread of the problem. No refereed work
-beyond the references was found.
+**Search scope.** The erdosproblems.com problem page and proof-claims tab as
+cached on 2026-10-06, and the erdosproblems.com discussion thread of the
+problem. No refereed work beyond the references was found.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

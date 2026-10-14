@@ -35,9 +35,9 @@ $A$ strictly increasing, and the proof's union bound gives the smaller value
 $0.1+0.2+1/29\approx0.334$ (p. 40). Tenenbaum's variant asks whether, for every
 thick sequence and every $\epsilon>0$, some shift has multiples of density at
 least $1-\epsilon$; the theorem refutes it. Since no shift's multiples have
-density one, the same sequence answers no to the question as the site states
-it, which the paper says Ruzsa's simpler counterexample had already resolved
-(pp. 38, 40).
+density one, the same sequence answers no to the question as erdosproblems.com
+states it, which the paper says Ruzsa's simpler counterexample had already
+resolved (pp. 38, 40).
 
 **Discrepancy: the Lean file states a different bound.** The paper (p. 40)
 gives
@@ -79,7 +79,7 @@ The Chinese remainder theorem; no other source.
 
 - [[../wiki/problems/divisors/E0026/_index|Problem 26]]: the theorem refutes
   Tenenbaum's variant, which the paper says Erdős did not pose, and through it
-  answers the site's question no with a set of divergent reciprocal sum. The
-  paper calls the problem's thread its original communication of the result
-  (p. 40). The result is recorded on the claim page
+  answers the erdosproblems.com question no with a set of divergent reciprocal
+  sum. The paper calls the problem's thread its original communication of the
+  result (p. 40). The result is recorded on the claim page
   [[../wiki/problems/divisors/E0026/claims/2026_04_06_deepmind|Google DeepMind 2026]].

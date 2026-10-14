@@ -67,16 +67,16 @@ from its argument): the proof uses the finiteness theorem for $S$-unit equations
 (the paper's Lemma 4, after van der Poorten and Schlickewei and Evertse)
 together with the complete solution, by Baker's method, of the three exponential
 equations $2^x3^y+1=2^z+3^w$, $2^x3^y+2^z=3^w+1$ and $2^x3^y+3^w=2^z+1$ (the
-paper's Theorems 1--3). The site's commentary records the result as $w(n)\le4$
-for all large $n$ under the distinct-summand convention. This page rests on the
-statement of Theorem 4 and the introduction of the paper
+paper's Theorems 1--3). The erdosproblems.com commentary records the result as
+$w(n)\le4$ for all large $n$ under the distinct-summand convention. This page
+rests on the statement of Theorem 4 and the introduction of the paper
 ([[../library/diophantine_problems/tijdeman_1988_sums_products_powers_given_prime_numbers/_index|card]]);
 the proof was not checked.
 
 **Acceptance.** The paper is a refereed publication in the Pacific Journal of
-Mathematics, which is the `refereed` evidence. The site's curator, T. F. Bloom,
-labeled the problem proved and credits this paper in the problem's commentary
-with the quantitative bound. That documented acceptance is the `reviewed`
-evidence. Bajpai and Bennett's introduction restates the theorem as their
-Theorem 2 and builds on it. Their effective version has its own
+Mathematics, which is the `refereed` evidence. The erdosproblems.com curator, T.
+F. Bloom, labeled the problem proved and credits this paper in the problem's
+commentary with the quantitative bound. That documented acceptance is the
+`reviewed` evidence. Bajpai and Bennett's introduction restates the theorem as
+their Theorem 2 and builds on it. Their effective version has its own
 [[problems/diophantine_problems/E0407/claims/2023_08_09_bajpai_bennett|page]].

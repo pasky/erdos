@@ -24,8 +24,8 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Does every finite graph with minimum degree at least 3 contain a
 cycle of length $2^k$ for some $k\geq 2$?
 
-**Status.** Falsifiable. The site labeled the problem FALSIFIABLE (page last
-edited 10 April 2026). This label is a note on an open problem (Current
+**Status.** Falsifiable. Bloom's catalog labeled the problem FALSIFIABLE (page
+last edited 10 April 2026). This label is a note on an open problem (Current
 assessment), not a claim. The frontmatter standing is derived from the seventeen
 claim pages under `claims/`: one withdrawn full claim and sixteen partial
 claims. Seven of the partial claims are accepted on refereed publications and
@@ -98,12 +98,12 @@ above are those of the 2026-09-04 access. The search was not exhaustive and
 does not establish openness or a status change from the absence of a reviewed
 resolution.
 
-**Falsifiable.** The site's label records that a counterexample would be a
-finite graph whose degrees and cycle lengths can be checked directly; no
+**Falsifiable.** The erdosproblems.com label records that a counterexample would
+be a finite graph whose degrees and cycle lengths can be checked directly; no
 counterexample is known, and the label asserts nothing about the answer.
 
-**Claims on the site (proof-claims tab and thread as of 2026-10-07; page
-last edited 10 April 2026, labeled FALSIFIABLE).** Three proof claims are
+**Claims on erdosproblems.com (proof-claims tab and thread, accessed 2026-10-07;
+page last edited 10 April 2026, labeled FALSIFIABLE).** Three proof claims are
 registered on the tab as partial. Duran Ballester's Zenodo working paper
 ([[problems/extremal_graph_theory/E0064/claims/2026_08_19_duran_ballester|claim page]])
 announced a proof by exhaustive case splits on a minimal counterexample, the
@@ -123,11 +123,11 @@ degree $3$, and adjacent cubic vertices whose other neighbors all have
 degree at least $4$ share exactly one neighbor, of degree $4$. It gets no
 claim page because it settles no instance of the question: the results
 constrain a minimal counterexample and confirm the conjecture for no class
-of graphs. The site states that a listing on the tab is no guarantee of
+of graphs. erdosproblems.com states that a listing on the tab is no guarantee of
 correctness.
 
-The site's remark credits Liu and Montgomery with the affirmative answer once
-the minimum degree exceeds an absolute constant
+The erdosproblems.com remark credits Liu and Montgomery with the affirmative
+answer once the minimum degree exceeds an absolute constant
 ([[problems/extremal_graph_theory/E0064/claims/2020_10_29_liu_montgomery|claim page]],
 accepted on the refereed paper), and points, for the families where the
 conjecture is confirmed, to the thread comment of 6 December 2025 by Alfaiz.
@@ -156,12 +156,11 @@ Nowbandegani, Esfandiari, Shirdareh Haghighi and Bibak
 ([[problems/extremal_graph_theory/E0064/claims/2011_09_25_nowbandegani_esfandiari_haghighi_bibak|claim page]]).
 The results with a journal publication are accepted on it; the proceedings
 papers and Carr's arXiv preprint, whose acceptance is author-reported, are
-claimed; the curator's remark is not reviewed evidence, since the site labeled
-the problem FALSIFIABLE. The
-comment's two further items are the 2011 result of Salehi Nowbandegani and
-Esfandiari that a bipartite counterexample has at least $32$ vertices, a
-workshop presentation whose statement and venue the claw-free paper's
-introduction and references give
+claimed; the curator's remark is not reviewed evidence, since Bloom's catalog
+labeled the problem FALSIFIABLE. The comment's two further items are the 2011
+result of Salehi Nowbandegani and Esfandiari that a bipartite counterexample has
+at least $32$ vertices, a workshop presentation whose statement and venue the
+claw-free paper's introduction and references give
 ([[problems/extremal_graph_theory/E0064/claims/2011_09_18_nowbandegani_esfandiari|claim page]]),
 and Carr's note arXiv:2605.22844 of 13 May 2026, that every vertex of a
 minimal counterexample is adjacent to a vertex of degree $3$ and at least
@@ -176,7 +175,7 @@ most $62$ vertices, which cites Tranquilli's arXiv:2608.02675 for the bound
 $60$, a dated preprint with its own
 [[problems/extremal_graph_theory/E0064/claims/2026_08_02_tranquilli|claim page]].
 Two further preprints confirming the conjecture for classes of graphs are
-paged although the site does not credit them: Garcia's SAT search
+paged although erdosproblems.com does not credit them: Garcia's SAT search
 (currentness search above;
 [[problems/extremal_graph_theory/E0064/claims/2026_09_04_garcia|claim page]])
 and the $P_{13}$-free theorem of Hegde, Sandeep and Shashank, cited in Duran

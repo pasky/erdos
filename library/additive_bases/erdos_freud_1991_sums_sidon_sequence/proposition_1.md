@@ -80,10 +80,10 @@ with the ratio of consecutive primes tending to 1.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0819/_index|Problem 819]]: the bounds
-  $(\frac38-o(1))N\le f(N)\le(\frac12+o(1))N$ the site attributes to the
-  paper, with the reflected Sidon construction behind the lower bound; the
-  site's connection to Problem 840 rests on the paper's statement (p. 204)
-  that improving this upper bound and pushing the coefficient of the
+  $(\frac38-o(1))N\le f(N)\le(\frac12+o(1))N$ erdosproblems.com attributes to
+  the paper, with the reflected Sidon construction behind the lower bound;
+  erdosproblems.com's connection to Problem 840 rests on the paper's statement
+  (p. 204) that improving this upper bound and pushing the coefficient of the
   trivial quasi-Sidon bound (37) below $\sqrt2$ are equivalent problems,
   recorded on
   [[additive_bases/erdos_freud_1991_sums_sidon_sequence/definition_p203|Definition (p. 203)]].

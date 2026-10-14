@@ -29,8 +29,8 @@ absolute constant $c>0$ such that, for all $r\geq 2$, in any $r$-uniform
 hypergraph with chromatic number $3$ there is a vertex contained in at least
 $(1+c)^r$ many edges?
 
-**Status.** Proved. The site credits the solution to Erdős and Lovász [ErLo75],
-citing their bound $2^{r-1}/(4r)$. The claim page
+**Status.** Proved. erdosproblems.com credits the solution to Erdős and Lovász
+[ErLo75], citing their bound $2^{r-1}/(4r)$. The claim page
 [[problems/graph_coloring/E0833/claims/1975_01_01_erdos_lovasz|Erdős–Lovász 1975]]
 records the result and its acceptance evidence.
 
@@ -68,12 +68,12 @@ level. The source theorem's proof has not been reconstructed or reviewed.
 **Claim record.** The problem's standing derives from one accepted claim
 page,
 [[problems/graph_coloring/E0833/claims/1975_01_01_erdos_lovasz|Erdős–Lovász 1975]]:
-a paper in a published proceedings volume, credited by the site's curator as
-the solution.
+a paper in a published proceedings volume, credited by the erdosproblems.com
+curator as the solution.
 
-**Search scope.** The site's problem page and its discussion thread, and the
-sources cited above; on 2026-09-07 the site's pages showed no other claim on
-the problem.
+**Search scope.** The erdosproblems.com problem page and its discussion thread,
+and the sources cited above; on 2026-09-07 the erdosproblems.com pages showed no
+other claim on the problem.
 
 **Remaining gaps.** The corpus has no result page with the full Erdős–Lovász
 proof, and the proof has not been independently reviewed. This is a

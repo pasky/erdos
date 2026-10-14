@@ -45,8 +45,8 @@ $m\ge4$ vertices is a triangulation in which every edge lies in two
 triangles of $H$, so $H$ contains no edge $x_iy_j$ with $i\ne1$; then every
 edge of $H$ contains $x_1$, $H$ is a star, and it has no triangle at all,
 contradicting $m\ge4$. So the example has the stated property. (In the
-words of the catalog's discussion thread, the example is the join of a tree,
-here a star, with an independent set.)
+words of the erdosproblems.com discussion thread, the example is the join of a
+tree, here a star, with an independent set.)
 
 **Source.** P. Erdős, *Über die in Graphen enthaltenen saturierten planaren
 Graphen*, Math. Nachr. 40 (1969), 13--17; the passage on printed pp. 16--17
@@ -65,7 +65,7 @@ None in the paper. Erdős's 1971 problem list restates the example ("It is
 easy to construct") and the conjecture as its item 13 and adds that
 "Simonovits has just proved this conjecture"
 ([[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_13|item_13]]);
-the catalog's Problem 1019 records the state of that attestation.
+erdosproblems.com's Problem 1019 records the state of that attestation.
 
 ## Dependencies
 
@@ -74,9 +74,9 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1019/_index|Problem 1019]]: the origin of the
-  site's question, stated here two years before the 1971 list; the site's
-  commentary attributes the "easy to construct" example to the 1971 list,
-  where the construction is not written out, while this page writes it out.
-  The site's $\lfloor n^2/4\rfloor+\lfloor\tfrac{n-1}2\rfloor$ example and
-  $\lfloor n^2/4\rfloor+\lfloor\tfrac{n+1}2\rfloor$ threshold are the
-  paper's.
+  erdosproblems.com question, stated here two years before the 1971 list; the
+  erdosproblems.com commentary attributes the "easy to construct" example to the
+  1971 list, where the construction is not written out, while this page writes
+  it out. erdosproblems.com's $\lfloor n^2/4\rfloor+\lfloor\tfrac{n-1}2\rfloor$
+  example and $\lfloor n^2/4\rfloor+\lfloor\tfrac{n+1}2\rfloor$ threshold are
+  the paper's.

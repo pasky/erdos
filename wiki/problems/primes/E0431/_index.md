@@ -24,12 +24,12 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Are there two infinite sets $A$ and $B$ such that $A+B$ agrees
 with the set of prime numbers up to finitely many exceptions?
 
-**Status.** The site's label was OPEN (page last edited 8 April 2026, no proof
-claim recorded there as of 2026-10-06). Here the problem is disproved, and the
-frontmatter standing is that of the accepted claim below. The site's commentary
-expects the answer no. It records the Elsholtz--Harper square-root bounds on a
-hypothetical decomposition as the best result in that direction. One accepted
-full claim is recorded on
+**Status.** The erdosproblems.com label was OPEN (page last edited 8 April 2026,
+no proof claim recorded there on 2026-10-06). Here the problem is disproved, and
+the frontmatter standing is that of the accepted claim below. The
+erdosproblems.com commentary expects the answer no. It records the
+Elsholtz--Harper square-root bounds on a hypothetical decomposition as the best
+result in that direction. One accepted full claim is recorded on
 [[problems/primes/E0431/claims/2026_09_24_openai|the OpenAI release's claim page]].
 A manuscript of 24 September 2026 proves Ostmann's inverse Goldbach conjecture:
 no sumset $A+B$ with $|A|,|B|\ge2$ differs from the primes in finitely many
@@ -71,9 +71,9 @@ at the revision pinned on the claim page. It also added the variant
 `erdos_431.variants.ostmann`, the inverse Goldbach form, marked
 `research solved` with a link to
 [`main`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/Ostmann/Result.lean#L14);
-the catalog's own proofs stay `sorry`. The release's declaration
-`OAI.Ostmann.twoInfiniteSummandsImpossible` proves the Statement with the
-answer no for sets of natural numbers, and
+the formal-conjectures catalog's own proofs stay `sorry`. The release's
+declaration `OAI.Ostmann.twoInfiniteSummandsImpossible` proves the Statement
+with the answer no for sets of natural numbers, and
 `OAI.Ostmann.inverseGoldbach` and `OAI.Ostmann.main` prove the stronger inverse
 Goldbach form; this corpus built all three from the pinned revision with the
 axioms `propext`, `Classical.choice` and `Quot.sound` only, as the claim page

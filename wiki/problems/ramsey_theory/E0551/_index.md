@@ -29,19 +29,18 @@ $$
 
 for $k\geq n\geq 3$ (except when $n=k=3$).
 
-**Formulation.** The site's wording as accessed 2026-09-17 (the page shows no
-last-edited date). $R(C_k,K_n)$ is the least $N$ such
-that every $2$-coloring of the edges of $K_N$ has a red cycle of length $k$
-or a blue $K_n$; equivalently, the least $N$ such that every $C_k$-free
-graph on $N$ vertices has $n$ independent vertices, which is the form the
-sources use. The sources write the cycle length first but with other
-letters: $R(C_n,K_r)$ in [BoEr73] (there $n$ is the cycle length),
-$r(C_m,K_n)$ in [EFRS78], $r(C_p,K_r)$ in [Ni05] and $r(C_\ell,K_n)$ in
-[KLS21]; this page uses the site's $k$ and $n$. The inequality
-$R(C_k,K_n)\ge(k-1)(n-1)+1$ holds for every $k\ge3$ and $n\ge1$ by the
-coloring with $n-1$ disjoint red cliques of order $k-1$ and all other
-edges blue (Chvátal and Harary, as quoted in [KLS21], p. 2), so the content
-of the problem is the upper bound. The exception is needed, since
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (the page
+shows no last-edited date). $R(C_k,K_n)$ is the least $N$ such that every
+$2$-coloring of the edges of $K_N$ has a red cycle of length $k$ or a blue
+$K_n$; equivalently, the least $N$ such that every $C_k$-free graph on $N$
+vertices has $n$ independent vertices, which is the form the sources use. The
+sources write the cycle length first but with other letters: $R(C_n,K_r)$ in
+[BoEr73] (there $n$ is the cycle length), $r(C_m,K_n)$ in [EFRS78], $r(C_p,K_r)$
+in [Ni05] and $r(C_\ell,K_n)$ in [KLS21]; this page uses erdosproblems.com's $k$
+and $n$. The inequality $R(C_k,K_n)\ge(k-1)(n-1)+1$ holds for every $k\ge3$ and
+$n\ge1$ by the coloring with $n-1$ disjoint red cliques of order $k-1$ and all
+other edges blue (Chvátal and Harary, as quoted in [KLS21], p. 2), so the
+content of the problem is the upper bound. The exception is needed, since
 $R(C_3,K_3)=R(3,3)=6$ while the formula gives $5$; the 1978 source prints
 its conjecture as "for all $m\ge n$" without the exception. Below the
 range $k\ge n$ the formula fails badly: $R(C_4,K_n)$ lies between
@@ -50,11 +49,12 @@ $cn^{3/2}/\log n$ and $(1+o(1))(n/\log n)^2$ (see
 linear formula, and [KLS21] Theorem 1.2 gives $r(C_\ell,K_n)>n\log n$ for
 $3\le\ell\le(1-\varepsilon)\log n/\log\log n$ and $n\ge n_0(\varepsilon)$.
 
-**Status.** The site labeled the problem DECIDABLE, which the site defines as
-resolved up to a finite check. The derived standing, solved, proved, departs
-from the site's DECIDABLE by counting an accepted full claim. A full proof of
-the identity, closing that check, is given by the OpenAI release's preprint of
-25 September 2026. It is accepted on the claim page
+**Status.** Bloom's catalog labeled the problem DECIDABLE, which
+erdosproblems.com defines as resolved up to a finite check. The derived
+standing, solved, proved, departs from erdosproblems.com's DECIDABLE by counting
+an accepted full claim. A full proof of the identity, closing that check, is
+given by the OpenAI release's preprint of 25 September 2026. It is accepted on
+the claim page
 [[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]] on its
 Lean proof, which this corpus built, checked for axioms and found identical to
 the release's comparator challenge. The preprint itself is unrefereed and
@@ -91,16 +91,16 @@ $n\le k\le\min\{4n+1,\lceil C\log n/\log\log n\rceil-1\}$ remain, less the
 settled $n=8$ cases. So for $n=8$ the lengths $16\le k\le33$ below the threshold
 of [KLS21] remain. This is a finite set of pairs whose extent is unknown because
 $C$ is not explicit. No refereed source closes it. The accepted 2026 result
-closes all of it. The one site comment (1 September 2025) describes the state
-before the release: reduced to a finitary problem, still open.
+closes all of it. The one erdosproblems.com comment (1 September 2025) describes
+the state before the release: reduced to a finitary problem, still open.
 
 **Source.** [erdosproblems.com/551](https://www.erdosproblems.com/551),
 accessed 2026-09-17: the problem page (DECIDABLE, defined on the page as
 resolved up to a finite check; source key [EFRS78]; no last-edited date
 shown), its one-comment
-discussion thread and its empty proof-claim tab. The site cites [BoEr73], [Ni05] and [KLS21] in its
-commentary. Cite as: T. F. Bloom, Erdős Problem #551,
-https://www.erdosproblems.com/551, accessed 2026-09-17.
+discussion thread and its empty proof-claim tab. erdosproblems.com cites
+[BoEr73], [Ni05] and [KLS21] in its commentary. Cite as: T. F. Bloom, Erdős
+Problem #551, https://www.erdosproblems.com/551, accessed 2026-09-17.
 
 **References.**
 
@@ -127,8 +127,8 @@ https://www.erdosproblems.com/551, accessed 2026-09-17.
   [[../library/ramsey_theory/nikiforov_2005_cycle_complete_graph_ramsey_numbers/theorem_1|Theorem 1]].
 - [KLS21] Keevash, P., Long, E. and Skokan, J., Cycle-complete Ramsey
   numbers. Int. Math. Res. Not. IMRN 2021, no. 1, 275--300,
-  doi:10.1093/imrn/rnz119 (online 10 July 2019; the site's reference gives
-  the pages as 277--302); arXiv:1807.06376v1 (17 July 2018, the only arXiv
+  doi:10.1093/imrn/rnz119 (online 10 July 2019; the erdosproblems.com reference
+  gives the pages as 277--302); arXiv:1807.06376v1 (17 July 2018, the only arXiv
   version); Theorem 1.1, p. 2 of the preprint. Library home:
   [[../library/ramsey_theory/keevash_2021_cycle_complete_ramsey_numbers/_index|keevash_2021_cycle_complete_ramsey_numbers]].
 - [ChHa72] Chvátal, V. and Harary, F., Generalized Ramsey theory for
@@ -182,7 +182,7 @@ https://www.erdosproblems.com/551, accessed 2026-09-17.
 **Formalization.** Statement only in formal-conjectures; the OpenAI release
 carries a Lean proof, built in this corpus (below). The file
 [`ErdosProblems/551.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/551.lean)
-of formal-conjectures, at the pinned commit of its main branch as of 2026-09-17,
+of formal-conjectures, at the pinned commit of its main branch, read 2026-09-17,
 declares
 `erdos_551 : ∀ (k n : ℕ), 3 ≤ n → n ≤ k → ¬(n = 3 ∧ k = 3) → SimpleGraph.graphRamsey (SimpleGraph.cycleGraph k) (SimpleGraph.completeGraph (Fin n)) = (k - 1) * (n - 1) + 1`
 under `category research open`, with proof `sorry`, and the variant
@@ -191,27 +191,28 @@ under `category research open`, with proof `sorry`, and the variant
 `category research solved`, also with proof `sorry` and a docstring crediting
 [KLS21]. The community database (teorth/erdosproblems, read 2026-09-17) records
 the statement as formalized since 9 September 2026 and no formal proof; the
-site's page marks the statement as formalized. The formal-conjectures file was
-not built or checked by this corpus. The OpenAI release's Lean tree, at the
-revision its claim page pins, states the theorem as `OAI.CycleClique.thm_main`
-and holds a solution module that proves it; this corpus built `thm_main`, found
-its axioms to be exactly `propext`, `Classical.choice` and `Quot.sound` and its
-fingerprint identical to the comparator challenge, and the claim page
+erdosproblems.com page marks the statement as formalized. The formal-conjectures
+file was not built or checked by this corpus. The OpenAI release's Lean tree, at
+the revision its claim page pins, states the theorem as
+`OAI.CycleClique.thm_main` and holds a solution module that proves it; this
+corpus built `thm_main`, found its axioms to be exactly `propext`,
+`Classical.choice` and `Quot.sound` and its fingerprint identical to the
+comparator challenge, and the claim page
 [[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]] records
 the files and the statement comparison.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-17).** The statement above;
-status DECIDABLE, defined on the page as resolved up to a finite check; source
-key [EFRS78]. The commentary, in summary, attributes the question to Erdős,
-Faudree, Rousseau and Schelp and records their two further questions for fixed
-$n$, the least $k$ at which the identity holds and the $k$ minimizing
-$R(C_k,K_n)$; it credits Bondy and Erdős [BoEr73] with the identity for
-$k>n^2-2$, Nikiforov [Ni05] with the extension to $k\ge4n+2$, and Keevash, Long
-and Skokan [KLS21] with the range $k\ge C\log n/\log\log n$ for a constant $C$,
-hence the conjecture for all large $n$; and it places the problem as number 18
-of the Ramsey theory section of the graphs problem collection. The discussion
+**The question (erdosproblems.com formulation accessed 2026-09-17).** The
+statement above; status DECIDABLE, defined on the page as resolved up to a
+finite check; source key [EFRS78]. The commentary, in summary, attributes the
+question to Erdős, Faudree, Rousseau and Schelp and records their two further
+questions for fixed $n$, the least $k$ at which the identity holds and the $k$
+minimizing $R(C_k,K_n)$; it credits Bondy and Erdős [BoEr73] with the identity
+for $k>n^2-2$, Nikiforov [Ni05] with the extension to $k\ge4n+2$, and Keevash,
+Long and Skokan [KLS21] with the range $k\ge C\log n/\log\log n$ for a constant
+$C$, hence the conjecture for all large $n$; and it places the problem as number
+18 of the Ramsey theory section of the graphs problem collection. The discussion
 thread has one comment (1 September 2025) saying that the problem has been
 reduced to a decidable, finitary question but is still open. The proof-claim tab
 is empty. The community database record (read 2026-09-17) says decidable (last
@@ -224,13 +225,14 @@ $m\ge n$." and "(ii) What value of $m$ gives the minimum value of
 $r(C_m,K_n)$?"
 ([[../library/ramsey_theory/erdos_1978_cycle_complete_graph_ramsey_numbers/conjecture_p64|result page]]).
 The printed conjecture has no exception at $(3,3)$; [Ni05] and [KLS21]
-state it with the exception, as the site does.
+state it with the exception, as erdosproblems.com does.
 
 **What is proved.** [BoEr73]
 [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/theorem_4|Theorem 4]]
 (printed p. 52): $R(C_n,K_r)=(r-1)(n-1)+1$ if
-$n\ge r^2-2$, that is, the identity for $k\ge n^2-2$ in the site's letters
-(the paper's range is "$\ge$", the site's commentary writes "$>$");
+$n\ge r^2-2$, that is, the identity for $k\ge n^2-2$ in erdosproblems.com's
+letters (the paper's range is "$\ge$", the erdosproblems.com commentary writes
+"$>$");
 [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/theorem_5|Theorem 5]]
 (p. 53) gives the general bound $R(C_k,K_n)\le kn^2$. [Ni05]
 [[../library/ramsey_theory/nikiforov_2005_cycle_complete_graph_ramsey_numbers/theorem_1|Theorem 1]]
@@ -246,20 +248,20 @@ reached, and conjecture a polynomial threshold $p>r^{1/k}$ (Conjecture 16). [KLS
 $r(C_\ell,K_n)=(\ell-1)(n-1)+1$ for $n\ge3$ and $\ell\ge C\log n/\log\log n$
 (logarithms to base $2$); since $n\ge C\log n/\log\log n$ for all $n$ beyond
 a threshold $n_0(C)$, this proves the identity for every $k\ge n$ once
-$n\ge n_0(C)$, which the site's commentary describes as the conjecture for
-all large $n$, and also Nikiforov's Conjecture 16. Their Theorem 1.2 shows
-the threshold is tight up to $C$. Acceptance evidence: J. Combinatorial
-Theory Ser. B, Combin. Probab. Comput. and IMRN are refereed journals, the
-`refereed` evidence of the three accepted partial claims
+$n\ge n_0(C)$, which the erdosproblems.com commentary describes as the
+conjecture for all large $n$, and also Nikiforov's Conjecture 16. Their Theorem
+1.2 shows the threshold is tight up to $C$. Acceptance evidence: J.
+Combinatorial Theory Ser. B, Combin. Probab. Comput. and IMRN are refereed
+journals, the `refereed` evidence of the three accepted partial claims
 [[problems/ramsey_theory/E0551/claims/1973_02_01_bondy_erdos|Bondy and Erdős 1973]],
 [[problems/ramsey_theory/E0551/claims/2004_04_27_nikiforov|Nikiforov 2005]]
 and
 [[problems/ramsey_theory/E0551/claims/2018_07_17_keevash_long_skokan|Keevash, Long and Skokan 2021]];
-the site's credit under its label DECIDABLE is not `reviewed` evidence,
-since that label settles neither the problem nor a declared part of it.
-[Ni05] and [KLS21] are cited from their arXiv preprints, whose journal
-texts are not compared. Read depth: claims checked for the four statements
-above and for [EFRS78]'s questions; no proof is checked beyond structure.
+the erdosproblems.com credit under its label DECIDABLE is not `reviewed`
+evidence, since that label settles neither the problem nor a declared part of
+it. [Ni05] and [KLS21] are cited from their arXiv preprints, whose journal texts
+are not compared. Read depth: claims checked for the four statements above and
+for [EFRS78]'s questions; no proof is checked beyond structure.
 
 **The finite residue.** For each $n\ge3$, [Ni05] leaves the cycle lengths
 $n\le k\le4n+1$ (for $n\ge4$) and [KLS21] leaves $k<C\log n/\log\log n$; for
@@ -280,10 +282,11 @@ the lengths $16\le k\le33$ below the threshold of [KLS21] remain. Its size is
 unknown: [KLS21] did not compute $C$ and write (p. 16) that "with more work it
 seems that a reasonable value (less than 20, say) can be obtained". No refereed
 source closes any part of it; the 2026 result below, accepted on its Lean proof,
-closes all of it. This is the finite check the site's label refers to; the label
-is kept as the catalog's. A statement that is true for all $n\ge n_0(C)$ and
-unchecked for finitely many $n$ is a reduction to a finite check, and Keevash,
-Long and Skokan's claim page records it with the claim value `decidable`.
+closes all of it. This is the finite check the erdosproblems.com label refers
+to; the label is kept as erdosproblems.com's. A statement that is true for all
+$n\ge n_0(C)$ and unchecked for finitely many $n$ is a reduction to a finite
+check, and Keevash, Long and Skokan's claim page records it with the claim value
+`decidable`.
 
 **Closure of the residue (2026).** The OpenAI mathematics release's
 preprint *Cycle--clique Ramsey numbers* [OAI26] (25 September 2026), carded at
@@ -326,7 +329,7 @@ preprint on odd cycle-complete numbers (arXiv:2511.10641) belongs there.
 **Search scope.** None of the routes below found a source
 closing the residue, a disproof or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures file at the pinned
   commit.
 - The primary sources: [EFRS78] printed p. 64, [BoEr73] pp. 46--54, [Ni05]

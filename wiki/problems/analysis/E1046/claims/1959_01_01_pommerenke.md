@@ -52,18 +52,18 @@ received January 15, 1959. The publisher's record dates the article to the
 year 1959 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the note appeared in the Michigan Mathematical
-Journal. The site's commentary, by its curator T. F. Bloom, records the answer
-to the stated question as yes, with the center of the disc at the centroid of
-the roots, and credits this paper. The site labeled the problem DISPROVED. That
-label contradicts the answer and names no result. For that reason the curator's
-credit is not counted as review, and the page departs from the site's label. The
-only refutation the commentary reports is of a different conjecture from the
-same 1958 passage: Problem 15 of the 1958 paper, that the width of a connected
-$E$ is at most $2$. In its Remarks (pp. 224--225), Pommerenke's paper computes
-the width $\sqrt3\,2^{1/3}$ exactly for a three-segment set. It deduces
-$\sup b\ge\sqrt3\,2^{1/3}>2.18$ for the width $b$ over the class with $E$
-connected. This is recorded on the problem page's reference entry and on the
-card's
+Journal. The erdosproblems.com commentary, by its curator T. F. Bloom, records
+the answer to the stated question as yes, with the center of the disc at the
+centroid of the roots, and credits this paper. Bloom's catalog labeled the
+problem DISPROVED. That label contradicts the answer and names no result. For
+that reason the curator's credit is not counted as review, and the page departs
+from the erdosproblems.com label. The only refutation the commentary reports is
+of a different conjecture from the same 1958 passage: Problem 15 of the 1958
+paper, that the width of a connected $E$ is at most $2$. In its Remarks (pp.
+224--225), Pommerenke's paper computes the width $\sqrt3\,2^{1/3}$ exactly for a
+three-segment set. It deduces $\sup b\ge\sqrt3\,2^{1/3}>2.18$ for the width $b$
+over the class with $E$ connected. This is recorded on the problem page's
+reference entry and on the card's
 [[../library/analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/theorem_4|theorem_4]]
 page. The claim value here states the mathematical outcome for the stated
 question. Nothing here is independently reviewed by this project.

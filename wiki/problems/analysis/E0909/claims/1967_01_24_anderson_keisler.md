@@ -4,8 +4,8 @@ title: Anderson and Keisler's set whose powers keep its dimension
 desc: |
   Anderson and Keisler construct in Euclidean $(n+1)$-space a set of dimension
   $n$ whose finite and countable powers all have dimension $n$, answering the
-  question yes for every $n$. The paper is refereed and credited by the site's
-  curator.
+  question yes for every $n$. The paper is refereed and credited by the
+  erdosproblems.com curator.
 authors:
 - R. D. Anderson
 - J. E. Keisler

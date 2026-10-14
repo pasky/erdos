@@ -79,10 +79,10 @@ Hungar. 10 (1959), 337--356), whose circuit bound is paged at
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1019/_index|Problem 1019]]: the site's
-  commentary sentence "Erdős [Er69c] proved that every graph with $n$
-  vertices and $\lfloor n^2/4\rfloor+k$ edges contains a saturated planar
-  graph on $\gg k/n$ vertices, answering a question of Dirac". With
+- [[../wiki/problems/extremal_graph_theory/E1019/_index|Problem 1019]]: the
+  erdosproblems.com commentary sentence "Erdős [Er69c] proved that every graph
+  with $n$ vertices and $\lfloor n^2/4\rfloor+k$ edges contains a saturated
+  planar graph on $\gg k/n$ vertices, answering a question of Dirac". With
   $f(n)=\lfloor(n+1)/2\rfloor$ the bound $c_1f(n)/n$ is a constant that the
   paper does not make explicit, so Satz 1 does not by itself give a
   saturated planar subgraph on more than three vertices at the problem's

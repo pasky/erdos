@@ -64,29 +64,29 @@ this corpus has not built.
 
 ## Current assessment
 
-The question, in the site's formulation above, asks whether some constant
-$C$ admits, for infinitely many $n$, a $3$-uniform hypergraph on $n$ vertices
-whose cliques (maximal complete subhypergraphs) take at least $n-C$ distinct
-sizes. The answer is no. Gao's Theorem 1.1 [Ga25] gives, for every
+The question, in the erdosproblems.com formulation above, asks whether some
+constant $C$ admits, for infinitely many $n$, a $3$-uniform hypergraph on $n$
+vertices whose cliques (maximal complete subhypergraphs) take at least $n-C$
+distinct sizes. The answer is no. Gao's Theorem 1.1 [Ga25] gives, for every
 $k\ge3$ and every $C$, a threshold beyond which a $k$-uniform hypergraph on
 $n$ vertices has at most $n-C$ distinct clique sizes. The accepted claim page
 [[problems/set_systems/E0775/claims/2025_10_16_gao|Gao 2025]] states the
-theorem, its layered-tree proof, the site's acceptance, and the third-party
-Lean formalization that the site's label records, which this corpus has not
-built; the paper is an arXiv preprint with no journal record. Erdős's
-construction with $n-\log_* n$ distinct clique sizes, reported in the site's
-commentary, shows that the defect $f(n,3)=n-g(n,3)$ grows slowly. The best
-bounds known are
+theorem, its layered-tree proof, erdosproblems.com's acceptance, and the
+third-party Lean formalization that the erdosproblems.com label records, which
+this corpus has not built; the paper is an arXiv preprint with no journal
+record. Erdős's construction with $n-\log_* n$ distinct clique sizes, reported
+in the erdosproblems.com commentary, shows that the defect $f(n,3)=n-g(n,3)$
+grows slowly. The best bounds known are
 $$\log(\log_*(n+1))-1\le f(n,3)\le\log_* n,$$
-the upper bound Erdős's construction as the site's remark reports it, the
-lower bound Lemma 3.1 and the concluding remarks of Gao's Section 3 [Ga25],
+the upper bound Erdős's construction as the erdosproblems.com remark reports it,
+the lower bound Lemma 3.1 and the concluding remarks of Gao's Section 3 [Ga25],
 which bound the size of a $(2,C)$-layered tree by a tower of height $2^C$;
 the exact growth of $f(n,3)$ is open. The graph case is settled separately:
 Moon and Moser [MoMo65] and Spencer [Sp71] give $g(n,2)=n-\log_2 n+O(1)$ on
 the refereed pages linked above.
 
-**Search scope.** The site's problem page and its forum thread; on 2026-10-07
-neither showed another claim on the problem.
+**Search scope.** The erdosproblems.com problem page and its forum thread; on
+2026-10-07 neither showed another claim on the problem.
 
 <!-- BEGIN problem library links -->
 

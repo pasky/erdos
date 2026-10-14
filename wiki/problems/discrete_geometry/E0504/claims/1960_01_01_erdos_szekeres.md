@@ -43,7 +43,8 @@ proof starts from a point of the configuration inside its convex hull, which
 exists only when $2^n-1$ exceeds the hull's at most $2n-1$ vertices, that is,
 for $n\ge3$. The paper also records $\alpha_3=\pi/3$,
 $\alpha_4=\pi/2$, $\alpha_5=3\pi/5$ and $\alpha_6=\alpha_7=\alpha_8=2\pi/3$,
-and the site's page also records $\alpha_{2^n}=\alpha_{2^n-1}=\pi(1-1/n)$.
+and the erdosproblems.com page also records
+$\alpha_{2^n}=\alpha_{2^n-1}=\pi(1-1/n)$.
 
 **Covers.** The values of $\alpha_N$ at $N=2^n$ and $N=2^n-1$ for $n\ge3$
 and for $N\le8$. The authors suggested that $\alpha_N=\pi(1-1/n)$ might hold
@@ -61,7 +62,8 @@ problem, [[problems/discrete_geometry/E0107/_index|Problem 107]].
 **Acceptance.** The paper is refereed: P. Erdős and G. Szekeres, On some
 extremum problems in elementary geometry, Ann. Univ. Sci. Budapest. Eötvös Sect.
 Math. 3–4 (1960/61), 53–62. Thomas Bloom, the curator of erdosproblems.com,
-records the result on the problem page with this paper as its source. The site's
-label SOLVED credits Sendov's determination of every value. The curator's
-mention is therefore context for this partial claim and not acceptance evidence.
-The page is dated to the publication year because the record gives no day.
+records the result on the problem page with this paper as its source. The
+erdosproblems.com label SOLVED credits Sendov's determination of every value.
+The curator's mention is therefore context for this partial claim and not
+acceptance evidence. The page is dated to the publication year because the
+record gives no day.

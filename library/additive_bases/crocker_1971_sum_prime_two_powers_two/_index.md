@@ -77,11 +77,12 @@ I (pp. 103-107) were read on the page images; the numerical
 verification of the covering system (1) and the existence of the primes $p_i$
 and the residue $c$ on p. 107 were not re-derived.
 
-**Bears on.** [[../wiki/problems/additive_bases/E0009/_index|#9]]: the theorem is the site's
-negative result for odd integers not a prime plus two powers of $2$.
-[[../wiki/problems/additive_bases/E0010/_index|#10]]: the construction is the input to the
-settled Grechuk variant, infinitely many even integers not a prime plus at
-most three powers of $2$, a partial result that leaves the question open.
+**Bears on.** [[../wiki/problems/additive_bases/E0009/_index|#9]]: the theorem
+is erdosproblems.com's negative result for odd integers not a prime plus two
+powers of $2$. [[../wiki/problems/additive_bases/E0010/_index|#10]]: the
+construction is the input to the settled Grechuk variant, infinitely many even
+integers not a prime plus at most three powers of $2$, a partial result that
+leaves the question open.
 
 **Results.**
 [[additive_bases/crocker_1971_sum_prime_two_powers_two/theorem_i|Theorem I]]

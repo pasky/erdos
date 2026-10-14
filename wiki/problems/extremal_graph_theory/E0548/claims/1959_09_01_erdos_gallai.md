@@ -35,9 +35,9 @@ no path of more than $l$ edges, $f(n,l)\le\frac12nl$ for $l\ge1$, with
 equality only when $l+1$ divides $n$ and the graph is a disjoint union of
 complete graphs on $l+1$ nodes. With $l=k-1$, a graph with at least
 $\frac{k-1}2n+1>\frac12n(k-1)$ edges contains a path with $k$ edges, which
-is the statement of Problem 548 for $T=P_{k+1}$. The site's commentary
-records, from [Er78], that Erdős and Gallai had proved the conjecture for a
-path.
+is the statement of Problem 548 for $T=P_{k+1}$. The erdosproblems.com
+commentary records, from [Er78], that Erdős and Gallai had proved the conjecture
+for a path.
 
 **Covers.** The instance $T$ a path on $k+1$ vertices, for every $k$ and every
 $n\ge k+1$. Every other tree is outside this claim; the full statement is
@@ -51,9 +51,9 @@ settled by the accepted claim page
 of graphs*, Acta Math. Acad. Sci. Hungar. 10 (1959), no. 3--4, 337--356,
 doi:10.1007/BF02024498, a refereed journal. The publisher's record gives the
 issue month, September 1959, and this page's date is the first day of that
-month. No `reviewed` evidence is listed. The site's label credited GPT-6 Astra
-with the full proof, and its commentary names Erdős and Gallai for the path case
-without a label of its own.
+month. No `reviewed` evidence is listed. The erdosproblems.com label credited
+GPT-6 Astra with the full proof, and its commentary names Erdős and Gallai for
+the path case without a label of its own.
 
 **Read depth.** Theorem (2.6) and the definitions of Section 2 were read in
 the text layer (Introduction and Section 2); the proof was not read, and

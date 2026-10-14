@@ -57,20 +57,20 @@ through the primes. The same paper proves that $2$ is Erdős strong (Theorem
 1.4), the case Lichtman's paper left open, and the odd form of the
 Banks--Martin conjecture (Theorem 1.3).
 
-**Development and disclosures.** The proof was worked out in the site's
-thread between 2026-04-22 and 2026-04-24: Tao proposed the flow framework on
-2026-04-22, and on 2026-04-23 Alexeev posted a write-up of the inequality
-with a Lean formalization of it, followed on 2026-04-23 by a formalization
-that $2$ is Erdős strong and on 2026-04-24 by one that every prime is Erdős
-strong, which gives the inequality; the preprint of 2026-05-01, the credited
-source, names this page, and the earlier thread posting is disclosed here.
-The paper reports that GPT-5.4 Pro assisted with
-the initial proof of Theorem 1.2 and generated the initial proofs of Theorems
-1.1 and 1.6 in autonomous runs, that an early version of GPT-5.5 Pro assisted
-with the initial proof of Theorem 1.3 and GPT-5.4 Pro helped prove Theorem
-1.4, with the human authors generating and reviewing the final proofs, and
-that the Lean formalization of this problem was generated with OpenAI's
-Codex; the thread posting calls the write-up ChatGPT Pro-created.
+**Development and disclosures.** The proof was worked out in the
+erdosproblems.com thread between 2026-04-22 and 2026-04-24: Tao proposed the
+flow framework on 2026-04-22, and on 2026-04-23 Alexeev posted a write-up of the
+inequality with a Lean formalization of it, followed on 2026-04-23 by a
+formalization that $2$ is Erdős strong and on 2026-04-24 by one that every prime
+is Erdős strong, which gives the inequality; the preprint of 2026-05-01, the
+credited source, names this page, and the earlier thread posting is disclosed
+here. The paper reports that GPT-5.4 Pro assisted with the initial proof of
+Theorem 1.2 and generated the initial proofs of Theorems 1.1 and 1.6 in
+autonomous runs, that an early version of GPT-5.5 Pro assisted with the initial
+proof of Theorem 1.3 and GPT-5.4 Pro helped prove Theorem 1.4, with the human
+authors generating and reviewing the final proofs, and that the Lean
+formalization of this problem was generated with OpenAI's Codex; the thread
+posting calls the write-up ChatGPT Pro-created.
 
 **Formalization.** The linked Lean file in Alexeev's repository declares
 itself a formalization of a solution to the problem with Codex and Boris
@@ -83,7 +83,7 @@ the formal proof, a path that dates from 2026-04-24. The corpus's reading of
 the second pinned file found no `sorry`. This corpus has not built or audited
 the file, so no `formalized` evidence is listed.
 
-**Acceptance.** The site's curator, T. F. Bloom, credits the preprint on the
-problem page as an alternative, simpler proof of the settled problem. This is
-listed as `reviewed`. The preprint is not refereed. Only the arXiv first version
-of 2026-05-01 is recorded.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, credits the preprint
+on the problem page as an alternative, simpler proof of the settled problem.
+This is listed as `reviewed`. The preprint is not refereed. Only the arXiv first
+version of 2026-05-01 is recorded.

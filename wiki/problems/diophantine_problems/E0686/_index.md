@@ -29,7 +29,7 @@ $$
 
 for some $k\geq 2$ and $m\geq n+k$?
 
-**Status.** Open. The site's label was OPEN.
+**Status.** Open. The erdosproblems.com label was OPEN.
 
 **Source.** [erdosproblems.com/686](https://www.erdosproblems.com/686), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #686,
@@ -47,9 +47,9 @@ A Lean proof of the non-square case is recorded on
 
 ## Current assessment
 
-The question was open on the site. The non-square case is settled with $k=2$ by
-a Lean proof found by AlphaProof and merged into formal-conjectures, recorded
-on
+The question was open on erdosproblems.com. The non-square case is settled with
+$k=2$ by a Lean proof found by AlphaProof and merged into formal-conjectures,
+recorded on
 [[problems/diophantine_problems/E0686/claims/2026_02_25_deepmind|its claim page]];
 this corpus has not built it. For squares, a note by Nat Sothanaphan,
 generated with GPT-5.4 Thinking and recorded on

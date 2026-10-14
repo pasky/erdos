@@ -57,8 +57,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E1071/_index|Problem 1071]]: the
-  first question is the site's first question, which Danzer's Fig. 3 and
-  the unnamed participant's Fig. 4 answer yes as Erdős reports; the
-  denumerable question is the site's second question, which the site
-  phrases as whether some region has a countably infinite maximal family.
-  The problem page records the claims for both.
+  first question is erdosproblems.com's first question, which Danzer's Fig. 3
+  and the unnamed participant's Fig. 4 answer yes as Erdős reports; the
+  denumerable question is erdosproblems.com's second question, which Bloom's
+  catalog phrases as whether some region has a countably infinite maximal
+  family. The problem page records the claims for both.

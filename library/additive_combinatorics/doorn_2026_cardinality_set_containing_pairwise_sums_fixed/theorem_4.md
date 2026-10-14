@@ -58,10 +58,11 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]: the site's "taking
-  $A$ to be the set of all odd integers and the powers of $2$ shows that
-  $g_5(N)\gg\log N$" holds for the positive-integer version $h_5$; for the
-  site's $g_5$ (one $b_i$ may be non-positive) the example fails, and the
-  known bounds are $4\le g_5(N)<1.2\cdot10^8$ for $N\ge3$
+- [[../wiki/problems/additive_combinatorics/E0866/_index|Problem 866]]:
+  erdosproblems.com's "taking $A$ to be the set of all odd integers and the
+  powers of $2$ shows that $g_5(N)\gg\log N$" holds for the positive-integer
+  version $h_5$; for erdosproblems.com's $g_5$ (one $b_i$ may be non-positive)
+  the example fails, and the known bounds are $4\le g_5(N)<1.2\cdot10^8$ for
+  $N\ge3$
   ([[additive_combinatorics/doorn_2026_cardinality_set_containing_pairwise_sums_fixed/theorem_5|Theorem 5]],
   [[additive_combinatorics/doorn_2026_cardinality_set_containing_pairwise_sums_fixed/theorem_8|Theorem 8]]).

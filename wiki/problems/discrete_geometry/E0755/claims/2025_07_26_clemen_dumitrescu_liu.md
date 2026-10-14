@@ -4,8 +4,8 @@ title: Clemen, Dumitrescu and Liu count equilateral triangles in six dimensions
 desc: |
   Clemen, Dumitrescu and Liu prove that $n$ points in $\mathbb{R}^6$ span at
   most $n^3/27+o(n^3)$ equilateral triangles of all sizes together, hence at
-  most that many of unit size. The site's curator credits the result, and no
-  refereed version was found.
+  most that many of unit size. The erdosproblems.com curator credits the result,
+  and no refereed version was found.
 authors:
 - Felix Christian Clemen
 - Adrian Dumitrescu
@@ -62,14 +62,14 @@ The lower-bound construction is on the
 (printed pp. 301–302), which gives both the printed unit-circle form and the
 radius-$1/\sqrt2$ correction.
 
-**Acceptance.** The site's curator, T. F. Bloom, marked the problem proved on
-the problem's page at erdosproblems.com (page last edited 2025-10-16). The
-curator credits the result to this paper, in a strong form. That credit is the
-`reviewed` evidence. No journal publication was found on 2026-10-07. The arXiv
-record carries no journal reference, so the claim is not `refereed`.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, marked the problem
+proved on the problem's page at erdosproblems.com (page last edited 2025-10-16).
+The curator credits the result to this paper, in a strong form. That credit is
+the `reviewed` evidence. No journal publication was found on 2026-10-07. The
+arXiv record carries no journal reference, so the claim is not `refereed`.
 
-The site's label PROVED (LEAN) carries a Lean qualifier. It refers to a
-third-party Lean formalization of the problem's unit-size bound, in a public
+The erdosproblems.com label PROVED (LEAN) carries a Lean qualifier. It refers to
+a third-party Lean formalization of the problem's unit-size bound, in a public
 repository of Lean proofs of Erdős problems. That formalization is linked above.
 It is named by the `formal_proof` attribute of the [formal-conjectures statement
 file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/755.lean).

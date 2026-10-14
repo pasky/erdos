@@ -4,7 +4,7 @@ desc: The 7 claim pages of Problem 547, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-13T17:25:54Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0547/claims
@@ -24,7 +24,7 @@ $2N-2$ when it has $N$ vertices. This is the modified Statement of Problem
 J. Combin. 2011) shows that every tree on $n$ vertices has Ramsey number at
 most $2n-2$ once $n$ is large. The threshold is not explicit.
 
-[[problems/ramsey_theory/E0547/claims/2025_09_09_montgomery_pavez_signe_yan|2025_09_09_montgomery_pavez_signe_yan]]: A 2025 preprint credited in the site's remarks gives
+[[problems/ramsey_theory/E0547/claims/2025_09_09_montgomery_pavez_signe_yan|2025_09_09_montgomery_pavez_signe_yan]]: A 2025 preprint credited in the erdosproblems.com remarks gives
 $R(T)=\max\{2t_1,t_1+2t_2\}-1\le2n-2$ for every tree $T$ on $n$ vertices with
 maximum degree at most $cn$. This is the modified Statement of Problem 547
 for those trees.
@@ -33,10 +33,10 @@ for those trees.
 every tree on $n$ vertices has Ramsey number at most $2n-2$ once $n$ is large.
 The threshold is not explicit, and the development is not built here.
 
-[[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal|2026_08_26_alexeev_literal]]: Answers the site's wording (every $n$, the one-vertex tree included), not the
-modified Statement (trees on $n\ge2$ vertices), so it does not count toward
-the problem's standing. Two Lean theorems in Alexeev's repository prove the
-site's wording false for the one-vertex tree.
+[[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal|2026_08_26_alexeev_literal]]: Answers the erdosproblems.com wording (every $n$, the one-vertex tree
+included), not the modified Statement (trees on $n\ge2$ vertices), so it does
+not count toward the problem's standing. Two Lean theorems in Alexeev's
+repository prove the erdosproblems.com wording false for the one-vertex tree.
 
 [[problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski|2026_09_03_adamczewski]]: The sharp tree-free edge bound proved for Problem 548 (a GPT-6 Astra proof in
 Adamczewski's repository) gives $R(T)\le2n-2$ for every tree on $n\ge2$

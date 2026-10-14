@@ -54,14 +54,14 @@ $E$ fails the limit relation on a set of $\alpha$ of positive measure, which is
 the weakest form any disproof implies. The answer to
 [[problems/discrepancy/E0994/_index|Problem 994]] is therefore no.
 
-**The two quantifier orders.** The site's statement, like Erdős's wording in
-Part II of the 1964 paper ("for almost all $\alpha$ and every $E$"), puts "for
-all $E$" after "for almost all $\alpha$", and so also admits a simultaneous
-reading: one set of $\alpha$ of full measure that serves every $E$ at once. That
-reading is stronger than Khintchine's question (for each $E$, almost every
-$\alpha$), which the problem page's modified Statement adopts, and it fails for
-every $\alpha$ by an elementary argument: remove the countable orbit
-$\{\{k\alpha\}:k\ge1\}$ from $(0,1)$; the remaining set is measurable, has
+**The two quantifier orders.** The erdosproblems.com statement, like Erdős's
+wording in Part II of the 1964 paper ("for almost all $\alpha$ and every $E$"),
+puts "for all $E$" after "for almost all $\alpha$", and so also admits a
+simultaneous reading: one set of $\alpha$ of full measure that serves every $E$
+at once. That reading is stronger than Khintchine's question (for each $E$,
+almost every $\alpha$), which the problem page's modified Statement adopts, and
+it fails for every $\alpha$ by an elementary argument: remove the countable
+orbit $\{\{k\alpha\}:k\ge1\}$ from $(0,1)$; the remaining set is measurable, has
 measure $1$ and is never visited, so its visit frequency is $0$. Marstrand's
 counterexample refutes the modified Statement, and with it the simultaneous
 reading too.
@@ -72,34 +72,35 @@ alone.
 **Formalization.** Two public Lean developments, neither built nor audited in
 this corpus, so no `formalized` evidence is listed. Collin Yuanjie Ren's package
 JSP-000827 (README of 2026-09-16, pinned above), the development the community
-database cites for the site's Lean qualifier, declares itself a formalization of
-Marstrand's disproof in the fixed-set order: its roots `not_khintchineFixedSet`
-and `exists_counterexample_ae` give one Borel set $E\subseteq(0,1)$ of measure
-at most $1/8$ whose visit averages fail to converge to $\lambda(E)$ for almost
-every $\alpha$, with limit superior at least $1/2$. Its README says that the
-route is an independent reconstruction and not Marstrand's argument, following a
-transference idea of Quas and Wierdl and the Rokhlin lemma of Avila and Candela
-for commuting endomorphisms, every cited result proved inside the package; it
-reports the axioms `propext`, `Classical.choice` and `Quot.sound`, and says the
-formalization was prepared with Claude (Anthropic) assistance, the design and
-hints by Claude Fable 5.1 and the Lean implementation by Claude Opus subagents.
-The file `Erdos994.lean` in Boris Alexeev's lean-proofs collection, at the
-commit of 2026-09-15 (the file entered the repository on 2026-08-17), names J.
-M. Marstrand as its informal author and Codex and GPT-5.6 Sol as its formal
-authors; its theorem `not_erdos_994` proves only that the simultaneous reading
-is false, by the orbit argument above, and its header records that Marstrand's
-fixed-set result is the deeper one. Ren's package reuses that file's
-definitions. The formal-conjectures statement file (the `record` link, pinned to
-the commit of 2026-09-22 that added it) states `erdos_994` in the fixed-set
-order, tagged research solved with the answer False and left without proof, and
-proves the variant `erdos_994.variants.simultaneous`, the falsity of the
-simultaneous reading, by the same orbit argument.
+database cites for the erdosproblems.com Lean qualifier, declares itself a
+formalization of Marstrand's disproof in the fixed-set order: its roots
+`not_khintchineFixedSet` and `exists_counterexample_ae` give one Borel set
+$E\subseteq(0,1)$ of measure at most $1/8$ whose visit averages fail to converge
+to $\lambda(E)$ for almost every $\alpha$, with limit superior at least $1/2$.
+Its README says that the route is an independent reconstruction and not
+Marstrand's argument, following a transference idea of Quas and Wierdl and the
+Rokhlin lemma of Avila and Candela for commuting endomorphisms, every cited
+result proved inside the package; it reports the axioms `propext`,
+`Classical.choice` and `Quot.sound`, and says the formalization was prepared
+with Claude (Anthropic) assistance, the design and hints by Claude Fable 5.1 and
+the Lean implementation by Claude Opus subagents. The file `Erdos994.lean` in
+Boris Alexeev's lean-proofs collection, at the commit of 2026-09-15 (the file
+entered the repository on 2026-08-17), names J. M. Marstrand as its informal
+author and Codex and GPT-5.6 Sol as its formal authors; its theorem
+`not_erdos_994` proves only that the simultaneous reading is false, by the orbit
+argument above, and its header records that Marstrand's fixed-set result is the
+deeper one. Ren's package reuses that file's definitions. The formal-conjectures
+statement file (the `record` link, pinned to the commit of 2026-09-22 that added
+it) states `erdos_994` in the fixed-set order, tagged research solved with the
+answer False and left without proof, and proves the variant
+`erdos_994.variants.simultaneous`, the falsity of the simultaneous reading, by
+the same orbit argument.
 
 **Acceptance.** The result is refereed: J. M. Marstrand, On Khinchin's
 conjecture about strong uniform distribution, Proc. London Math. Soc. (3) 21
-(1970), no. 3, 540–556. Reviewed: the site's curator, T. F. Bloom, records the
-problem as disproved by this paper. The community database lists the label
-disproved (Lean) as of its last update on 2026-09-16. The Lean there is Ren's
-package above. The paper's print date is known only to the month (November
+(1970), no. 3, 540–556. Reviewed: the erdosproblems.com curator, T. F. Bloom,
+records the problem as disproved by this paper. The community database lists the
+label disproved (Lean) as of its last update on 2026-09-16. The Lean there is
+Ren's package above. The paper's print date is known only to the month (November
 1970), so this page is dated to the first day of that month. Its theorem is
 recorded above only in the weakest form a disproof implies.

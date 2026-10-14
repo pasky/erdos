@@ -72,12 +72,12 @@ None outside the note; the argument is elementary counting.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0302/_index|Problem 302]]: this is the upper bound
-  $f(N)\le(9/10+o(1))N$ that the site attributes to van Doorn. An upper
+  $f(N)\le(9/10+o(1))N$ that erdosproblems.com attributes to van Doorn. An upper
   bound alone does not decide whether $f(N)=(1/2+o(1))N$; the problem page
   records the negative answer to that question as Cambie's construction of
-  density $5/8$ (site commentary), not as this theorem.
+  density $5/8$ (erdosproblems.com commentary), not as this theorem.
 - [[../wiki/problems/unit_fractions/E0327/_index|Problem 327]]: if $a+b\nmid ab$ for all
   distinct $a,b\in A$, then $A$ has no solution of $1/x+1/y=1/z$ with
   distinct $x,y,z\in A$ (a solution would have $x+y\mid xy$ with $x\ne y$),
   so the first question's extremal function is at most
-  $9N/10+(\log N)^3+1$; the site's $25/28$ argument is sharper.
+  $9N/10+(\log N)^3+1$; erdosproblems.com's $25/28$ argument is sharper.

@@ -81,8 +81,8 @@ Sol, Claude Fable 5, and Claude Opus 4.8" as the AI used:
 > \(S(N)\) itself. (The second finite input, at \(N=\lfloor e^{65}\rfloor\), is
 > proven inside Lean using native_decide.)
 
-**Provenance.** The claim was submitted to the site's proof-claim tab on
-22 July 2026 for Scott Duke Kominers and Joachim Neu and declares the use of
+**Provenance.** The claim was submitted to the erdosproblems.com proof-claim tab
+on 22 July 2026 for Scott Duke Kominers and Joachim Neu and declares the use of
 the AI systems GPT 5.6 Sol, Claude Fable 5 and Claude Opus 4.8. The linked
 manuscript, The asymptotic number of distinct reciprocal subset sums, is a
 56-page PDF dated 22 July 2026 on the first author's web site; it declares
@@ -107,6 +107,6 @@ $N=\lfloor e^{65}\rfloor$, is proved inside Lean with `native_decide`.
 Nothing in it has been built or checked by this corpus, and a development
 resting on declared axioms gives no `formalized` evidence in any case.
 
-**Standing.** The site has not accepted the claim, which carries one comment
-(2026-10-07). No refereed publication and no independent review were found
-on 2026-09-18. The claim is pending.
+**Standing.** erdosproblems.com has not accepted the claim, which carries one
+comment (2026-10-07). No refereed publication and no independent review were
+found on 2026-09-18. The claim is pending.

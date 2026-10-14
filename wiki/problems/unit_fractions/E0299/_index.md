@@ -33,26 +33,26 @@ with gaps $a_{i+1}-a_i\le k$ and sums $\sum_i\varepsilon_i/a_i$,
 $\varepsilon_i\in\{0,1\}$. They state it for finite sequences
 $a_1<\cdots<a_t$: probably $a_t$ is bounded in terms of $a_1$ and $k$, but
 they had not excluded an infinite sequence with this property, which is the
-site's question. The finite form has the same answer. With $a_1$ and $k$
-fixed, every prefix of such a finite sequence is again one, and each term has
-at most $k$ possible successors; so if $a_t$ were unbounded, König's lemma
+erdosproblems.com question. The finite form has the same answer. With $a_1$ and
+$k$ fixed, every prefix of such a finite sequence is again one, and each term
+has at most $k$ possible successors; so if $a_t$ were unbounded, König's lemma
 would give an infinite such sequence.
 
-**Status.** Disproved. The site's label was DISPROVED (LEAN). By Bloom's
-positive-upper-density theorem, every such bounded-gap sequence has a finite
-reciprocal sum equal to one. The linked formalization evidence is specified
-below.
+**Status.** Disproved. The erdosproblems.com label was DISPROVED (LEAN). By
+Bloom's positive-upper-density theorem, every such bounded-gap sequence has a
+finite reciprocal sum equal to one. The linked formalization evidence is
+specified below.
 
 **Source.** T. F. Bloom, Erdős Problem #299,
 https://www.erdosproblems.com/299, accessed 2026-09-05. The original
-reference is [ErGr80, p. 36]. As of that date the discussion and
+reference is [ErGr80, p. 36]. On that date the discussion and
 proof-claim pages had no comments or proof claims.
 
 **References.**
 
 - [ErGr80] P. Erdős and R. L. Graham, *Old and new problems and results in
   combinatorial number theory*, Monographies de L'Enseignement Mathématique
-  (1980), p. 36, as cited by the site.
+  (1980), p. 36, as cited by erdosproblems.com.
 - [Bl21] T. F. Bloom, *On a density conjecture about unit fractions*,
   [arXiv:2112.03726](https://arxiv.org/abs/2112.03726) (2021), v2 (2023),
   Theorem 2; with Appendix B co-written by T. F. Bloom and B. Mehta;
@@ -75,12 +75,12 @@ which rests on the accepted claim page
 [[problems/unit_fractions/E0298/claims/2021_12_07_bloom|Bloom's positive-upper-density theorem]]
 and whose acceptance
 evidence is the refereed publication of the density theorem in J. Eur.
-Math. Soc. 27 (2025). The site's curator is the theorem's author, so the
-site's label is recorded on the claim page as the catalog's label and not
-as independent review; the author's own Lean formalizations, the Lean 3
-density theorem and the Lean 4 reduction, are unbuilt here and give no
-formalized evidence. The frontmatter standing is derived from the claim
-page.
+Math. Soc. 27 (2025). The erdosproblems.com curator is the theorem's author, so
+the erdosproblems.com label is recorded on the claim page as the
+erdosproblems.com label and not as independent review; the author's own Lean
+formalizations, the Lean 3 density theorem and the Lean 4 reduction, are unbuilt
+here and give no formalized evidence. The frontmatter standing is derived from
+the claim page.
 
 Bloom's solution to [[problems/unit_fractions/E0298/_index|Problem 298]] implies
 a negative answer. A bounded-gap increasing sequence has a set of values

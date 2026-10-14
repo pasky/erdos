@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E1010/claims/1981_01_01_nikiforov_khadzhiivanov
 title: Nikiforov and Khadzhiivanov's independent proof
 desc: |
-  The site credits a 1981 note by Nikiforov and Khadzhiivanov in the Comptes
-  rendus of the Bulgarian Academy with an independent proof of the
+  erdosproblems.com credits a 1981 note by Nikiforov and Khadzhiivanov in the
+  Comptes rendus of the Bulgarian Academy with an independent proof of the
   Erdős–Rademacher conjecture. The note is not held, and no record of it was
   found.
 authors:
@@ -28,25 +28,25 @@ updated: 2026-10-08T01:29:59Z
 [[problems/extremal_graph_theory/E1010/_index|Problem 1010]] is yes, the
 same statement that
 [[problems/extremal_graph_theory/E1010/claims/1976_01_01_lovasz_simonovits|Lovász and Simonovits]]
-prove. The site credits V. S. Nikiforov and N. G. Khadzhiivanov, *Solution
-of the problem of P. Erdős on the number of triangles in graphs with $n$
-vertices and $[n^2/4]+l$ edges*, C. R. Acad. Bulgare Sci. 34 (1981),
+prove. erdosproblems.com credits V. S. Nikiforov and N. G. Khadzhiivanov,
+*Solution of the problem of P. Erdős on the number of triangles in graphs with
+$n$ vertices and $[n^2/4]+l$ edges*, C. R. Acad. Bulgare Sci. 34 (1981),
 969--970, with an independent proof. The page's date is the note's year;
 the day is not recorded in any source read.
 
 **Depends on.** Nothing in this wiki; the result is known only through
-the site's citation.
+the erdosproblems.com citation.
 
-**Acceptance.** The `reviewed` evidence is documented acceptance by the site's
-curator, Thomas Bloom, who labeled the problem PROVED and names this note as one
-of its two independent proofs. The community database agrees: it lists the
-problem as proved as of its last update, 10 September 2025. Nothing else is in
-hand. The note is not held. A Crossref bibliographic query of 2026-09-18
-returned nothing relevant, and no other online record was found. No text has
-been read and no referee record is known, so `refereed` is not listed. A 1988
-single-author paper of Khadzhiivanov on the common-edge triangle problem of
-[[problems/extremal_graph_theory/E0905/_index|Problem 905]] was once associated
-with this problem, but it is not this note. Reopening condition: a copy of the
-note, after which its statement is paged and compared with the site's. The
-problem's standing also rests on the Lovász--Simonovits page, whose 1983 text
-has been read (no file is held).
+**Acceptance.** The `reviewed` evidence is documented acceptance by the
+erdosproblems.com curator, Thomas Bloom, who labeled the problem PROVED and
+names this note as one of its two independent proofs. The community database
+agrees: it lists the problem as proved as of its last update, 10 September 2025.
+Nothing else is in hand. The note is not held. A Crossref bibliographic query of
+2026-09-18 returned nothing relevant, and no other online record was found. No
+text has been read and no referee record is known, so `refereed` is not listed.
+A 1988 single-author paper of Khadzhiivanov on the common-edge triangle problem
+of [[problems/extremal_graph_theory/E0905/_index|Problem 905]] was once
+associated with this problem, but it is not this note. Reopening condition: a
+copy of the note, after which its statement is paged and compared with
+erdosproblems.com's. The problem's standing also rests on the Lovász--Simonovits
+page, whose 1983 text has been read (no file is held).

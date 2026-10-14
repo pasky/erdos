@@ -10,7 +10,7 @@ desc: |
   (Question 3.3).
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-07T20:53:42Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/hindman_1980_partitions_sums_products_two_counterexamples
@@ -30,7 +30,7 @@ question, and by an authored substitution a disproof of Problem 1198.
 [[ramsey_theory/hindman_1980_partitions_sums_products_two_counterexamples/theorem_2_15|theorem_2_15]]: Hindman's seven-cell partition {K_i : i < 7} of the positive integers such
 that no infinite subset of a cell has all its pairwise sums and pairwise
 products in that cell; the seven-color refutation of the infinite version of
-Problem 172 that the site and the 1979 survey report.
+Problem 172 that erdosproblems.com and the 1979 survey report.
 
 ***
 
@@ -235,9 +235,9 @@ reviewed.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0172/_index|#172]]: Theorem 2.15 (printed
 p. 118 = PDF p. 6), "There do not exist $i<7$ and $A$ in $[K_i]^\omega$ such
 that $PS(A)\cup PP(A)\subseteq K_i$", is the seven-color refutation of the
-infinite version that the site and the 1979 survey report: an infinite $A$
-with all its finite sums and products of distinct elements in one cell
-$K_i$ lies in $K_i$, through the one-element sums, and has
+infinite version that erdosproblems.com and the 1979 survey report: an infinite
+$A$ with all its finite sums and products of distinct elements in one cell $K_i$
+lies in $K_i$, through the one-element sums, and has
 $PS(A)\cup PP(A)\subseteq K_i$. Theorem 2.14 (p. 117) refutes the same
 infinite version already with two cells, since $FS(A)\supseteq A\cup PS(A)$
 and $FP(A)$ is the set of finite products. Question 3.3 (p. 120), "Given
@@ -250,8 +250,8 @@ unchanged.
 [[../wiki/problems/ramsey_theory/E1198/_index|#1198]]: Theorem 2.14 (printed p. 117 = PDF
 p. 5), "It is not the case that there exist $t$ in $\{0,1\}$ and $A$ in
 $[J_t]^\omega$ such that $FP(A)\cup PS(A)\subseteq J_t$", is the
-two-coloring result the site's thread restates in its own notation, and
-the printed statement is equivalent to that restatement. The problem page
+two-coloring result the erdosproblems.com thread restates in its own notation,
+and the printed statement is equivalent to that restatement. The problem page
 derives the problem's negative answer from it by the substitution
 $b_i=a_{2i}a_{2i+1}$, an authored step recorded there and on the theorem's
 page; the paper itself presents the theorem as a negative answer to Erdős's

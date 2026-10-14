@@ -60,7 +60,7 @@ constructions are best possible. This page records no proof coverage and
 no verification tier.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — shows that, in
-the radius-$\sqrt d$ analogue of the catalog question for every $d\ge2$,
-no orthogonal-type configuration minimizes the probability for large $n$;
-its case $d=2$ concerns the catalog question's radius $\sqrt2$, and the
-proof (p. 23) derives it from Theorem 1.13.
+the radius-$\sqrt d$ analogue of the erdosproblems.com question for every
+$d\ge2$, no orthogonal-type configuration minimizes the probability for large
+$n$; its case $d=2$ concerns the erdosproblems.com question's radius $\sqrt2$,
+and the proof (p. 23) derives it from Theorem 1.13.

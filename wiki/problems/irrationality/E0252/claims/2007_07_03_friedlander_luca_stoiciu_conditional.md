@@ -63,9 +63,9 @@ explicit hypothesis for $k\ge4$, research solved, citing this paper.
 **Acceptance.** Refereed: Integers, volume 7 (2007), article A31. The paper's
 header prints that it was received 8 December 2006, revised 20 March 2007,
 accepted 12 June 2007 and published 3 July 2007. Integers is a refereed
-electronic journal. The site labeled the problem OPEN. Its curator remarks that,
-by this paper, the sum is irrational for every $k$ under Dickson's conjecture.
-That remark is commentary on an open problem and not acceptance, so no
-`reviewed` evidence is listed. The proof is not checked here.
+electronic journal. Bloom's catalog labeled the problem OPEN. Its curator
+remarks that, by this paper, the sum is irrational for every $k$ under Dickson's
+conjecture. That remark is commentary on an open problem and not acceptance, so
+no `reviewed` evidence is listed. The proof is not checked here.
 
 **Depends on.** Nothing in this wiki.

@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 537, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0537/claims
@@ -12,8 +12,8 @@ updated: 2026-10-11T22:24:14Z
 [[problems/integer_sequences/E0537/_index|..]]
 
 [[problems/integer_sequences/E0537/claims/1973_01_01_ruzsa|1973_01_01_ruzsa]]: Ruzsa's construction, reported by Erdős in 1973, gives a dense set in
-$(N/2,N)$ in which no integer is a prime times a member in three ways. The
-site accepts it, and there is an external Lean formalization by Aristotle and
-Boris Alexeev.
+$(N/2,N)$ in which no integer is a prime times a member in three ways.
+erdosproblems.com accepts it, and there is an external Lean formalization by
+Aristotle and Boris Alexeev.
 
 ***

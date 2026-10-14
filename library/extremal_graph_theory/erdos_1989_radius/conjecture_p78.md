@@ -42,9 +42,9 @@ $K_{2r}$-free. For (ii), the vertex set is $\bigcup_{i=0}^k\bigcup_{j=1}^rV_{ij}
 with $|V_{ij}|=\delta/(3r-1)$ for $i\ne0,k$ and $|V_{0j}|=|V_{kj}|=\delta$,
 edges by the same rule; such a graph is $K_{2r+1}$-free.
 
-The hypothesis $r,\delta>1$ is part of the printed statement; the site's
-restatement of the problem omits it. The case $r=1$ of (ii), triangle-free
-graphs, is the paper's
+The hypothesis $r,\delta>1$ is part of the printed statement;
+erdosproblems.com's restatement of the problem omits it. The case $r=1$ of (ii),
+triangle-free graphs, is the paper's
 [[extremal_graph_theory/erdos_1989_radius/theorem_2|Theorem 2]].
 
 **Source.** J. Combin. Theory Ser. B 47 (1989), 73--79; the Conjecture on

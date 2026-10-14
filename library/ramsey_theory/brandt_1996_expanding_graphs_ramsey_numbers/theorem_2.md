@@ -71,6 +71,6 @@ there); P. Erdős, Graph theory and probability, Canad. J. Math. 11 (1959),
 - [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: only through
   [[ramsey_theory/brandt_1996_expanding_graphs_ramsey_numbers/theorem_1|Theorem 1]],
   whose page states the relation. The growth rate of $h$ in $d$ does not by
-  itself give an explicit bound on the site's $F(n)$; the explicit
+  itself give an explicit bound on erdosproblems.com's $F(n)$; the explicit
   $F(n)<84n$ is the preprint's
   [[ramsey_theory/brandt_1996_expanding_graphs_ramsey_numbers/bound_p7|bound]].

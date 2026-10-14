@@ -41,8 +41,8 @@ associated density and Ramsey-type questions were first stated or given their
 current status, rather than a paper proving a single theorem. Statements about what was
 known in this digest describe the paper's 1979 context. The problem links
 below were checked against the chapter's twenty pages; problems the chapter
-does not state, whose site pages cite the 1980 monograph [ErGr80] (its
-pp. 26--94) and not this chapter, are not linked. Because the text is a
+does not state, whose erdosproblems.com pages cite the 1980 monograph [ErGr80]
+(its pp. 26--94) and not this chapter, are not linked. Because the text is a
 problem list, the specific numbered results are references to other papers
 rather than new theorems proved here. Problem 289, the question whether $1$
 is a sum of reciprocals over $k$ separated blocks of consecutive integers, is
@@ -55,11 +55,12 @@ card is the 20-page PDF of 1,593,809 bytes; no notice is printed in it; the
 e-periodica volume page for L'Enseignement Mathématique (2) 25 (1979),
 identifier ens-001:1979:25, shows no rights statement and does not list the
 article (read 2026-10-02), and e-periodica's terms page, which speaks for every
-item the site hosts, states that "The rights usually lie with the publishers or
-the external rights holders" and that the documents are "freely available for
-individuals to use for private, non-commercial and educational purposes", naming
-no Creative Commons license (https://www.e-periodica.ch/digbib/terms?lang=en,
-read 2026-10-02), every other right reserved.
+item erdosproblems.com hosts, states that "The rights usually lie with the
+publishers or the external rights holders" and that the documents are "freely
+available for individuals to use for private, non-commercial and educational
+purposes", naming no Creative Commons license
+(https://www.e-periodica.ch/digbib/terms?lang=en, read 2026-10-02), every other
+right reserved.
 
 ## Checked plane-coloring passage
 
@@ -96,8 +97,8 @@ The second is the question "Is it true that for any partition of the pairs
 of positive integers into two classes, the sums $\sum_{x\in X}\frac1{\log x}$
 are unbounded where $X$ ranges over all subsets which have all pairs
 belonging to one class?" This is the question of [[../wiki/problems/ramsey_theory/E0191/_index|Problem 191]], for which
-the site cites this page; the chapter's vertex set is all the positive
-integers, where the site starts at $2$.
+erdosproblems.com cites this page; the chapter's vertex set is all the positive
+integers, where erdosproblems.com starts at $2$.
 
 ## The non-averaging passage on printed p. 334 (PDF p. 10)
 
@@ -112,10 +113,10 @@ the arithmetic mean of other $a_j$'s." The chapter records the
 Erdős--Straus [Er-Str (70)] bounds $\exp(c\sqrt{\log n})<F(n)<n^{2/3}$ and
 Abbott's [Ab (75)] then new lower bound $F(n)>n^{1/10}$, which the authors
 call unexpected, and asks for the correct exponent. This is the question of
-[[../wiki/problems/additive_combinatorics/E0186/_index|Problem 186]], for which the site
-cites this page; the bibliography resolves [Er-Str (70)] to Erdős and
-Straus, Nonaveraging sets II (Colloq. Math. Soc. János Bolyai, 1970) and
-[Ab (75)] to Abbott's Aberdeen 1975 note, neither held.
+[[../wiki/problems/additive_combinatorics/E0186/_index|Problem 186]], for which
+erdosproblems.com cites this page; the bibliography resolves [Er-Str (70)] to
+Erdős and Straus, Nonaveraging sets II (Colloq. Math. Soc. János Bolyai, 1970)
+and [Ab (75)] to Abbott's Aberdeen 1975 note, neither held.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0046/_index|#46]] (a
 problem-list association, checked in the text layer of all twenty pages: the
@@ -160,7 +161,7 @@ the unbounded sums $\sum1/\log x$ over monochromatic complete sets),
 [[../wiki/problems/additive_combinatorics/E0186/_index|#186]] (printed p. 334, PDF p. 10,
 page image: the non-averaging function $F(n)$ with the Erdős--Straus bounds
 $\exp(c\sqrt{\log n})<F(n)<n^{2/3}$ and Abbott's $F(n)>n^{1/10}$, recorded
-above; the site's key [ErGr79, p. 334]),
+above; the erdosproblems.com key [ErGr79, p. 334]),
 [[../wiki/problems/additive_combinatorics/E0003/_index|#3]] (printed p. 327, PDF p. 3, page image:
 whether a set of positive integers whose reciprocal sum diverges must contain
 arbitrarily long A.P.'s, with Erdős's prize offer),

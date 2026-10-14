@@ -32,10 +32,10 @@ $$
 \lim_n \frac{q_n}{n^2}=\infty?
 $$
 
-**Status.** Open, the site's label (page last edited 7 October 2025;
-proof-claims thread accessed 2026-10-06). The site records Richter's bound
-$\liminf q_n/n^2>0.352$ [Ri76]. This refereed result is recorded as an accepted
-partial claim on
+**Status.** Open, the erdosproblems.com label (page last edited 7 October 2025;
+proof-claims thread accessed 2026-10-06). erdosproblems.com records Richter's
+bound $\liminf q_n/n^2>0.352$ [Ri76]. This refereed result is recorded as an
+accepted partial claim on
 [[problems/integer_sequences/E0455/claims/1976_01_01_richter|Richter's claim
 page]]. Erdős and Graham pose the question in [ErGr80, p. 91] and cite Richter's
 result only as $\liminf q_n/n^2>0$.
@@ -47,11 +47,12 @@ metadata says that the mathematics of the underlying draft (prepared with
 Claude) and the Lean development (Claude Opus 5.5 through Claude Code) were
 produced by AI under Lin's direction. It is recorded on
 [[problems/integer_sequences/E0455/claims/2026_09_27_lin|Lin's claim page]]. On
-6 October 2026 the user satorunet posted a partial proof claim to the site's
-proof-claims tab. It was produced with Claude Opus 5.5 and Claude Fable 5.1
-(Anthropic) and GPT-6-Astra via Codex (OpenAI), as the tab names them. It
-extends Lin's method by one prime to $0.9200$ by a computer-certified residue
-argument, and it adds constraints on a counterexample. It is recorded on
+6 October 2026 the user satorunet posted a partial proof claim to the
+erdosproblems.com proof-claims tab. It was produced with Claude Opus 5.5 and
+Claude Fable 5.1 (Anthropic) and GPT-6-Astra via Codex (OpenAI), as the tab
+names them. It extends Lin's method by one prime to $0.9200$ by a
+computer-certified residue argument, and it adds constraints on a
+counterexample. It is recorded on
 [[problems/integer_sequences/E0455/claims/2026_10_06_satorunet|its claim page]].
 
 The same user posted a claim on the tab on 5 October 2026 whose headline bound
@@ -63,9 +64,9 @@ erdosproblemaday.com (Patrick White with Claude, Anthropic) and an issue of 24
 September 2026 in the GitHub repository the-omega-institute/trureturing
 (produced with Codex CLI). Each claims the constant $0.5434$ by sharpening
 Richter's argument. The issue also excludes periodic second-difference words of
-period at most $n^{1/4-\delta}$. The notes were not submitted to the site, and
-their constant is below Lin's claimed bound. They are recorded here without
-pages of their own.
+period at most $n^{1/4-\delta}$. The notes were not submitted to
+erdosproblems.com, and their constant is below Lin's claimed bound. They are
+recorded here without pages of their own.
 
 **Source.** [erdosproblems.com/455](https://www.erdosproblems.com/455), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #455,
@@ -80,7 +81,7 @@ https://www.erdosproblems.com/455.
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique 28
   (1980); the question, with Richter's $\liminf q_n/n^2>0$, on printed p. 91,
-  the site's source key. Library home:
+  the erdosproblems.com source key. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
 **Formalization.** The file

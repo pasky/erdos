@@ -27,7 +27,7 @@ such that if $G$ is a graph on $n$ vertices with no independent set or clique of
 size $\geq \epsilon\log n$ then $G$ contains an induced subgraph with $m$ edges
 for all $m\leq \delta n^2$.
 
-**Formulation.** The site's wording of 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (the page shows no
 last-edited date). The hypothesis says that $G$ has no
 homogeneous set (clique or independent set) of size at least $\epsilon\log n$;
 the base of the logarithm is not fixed and does not matter, since the
@@ -42,34 +42,34 @@ largest trivial subgraph of which has size less than $\alpha_c\log n$
 (following a notation of Bollobás we call a complete or empty graph trivial).
 Is it true that there is an $\varepsilon$ so that for every $t<\varepsilon n^2$
 our graph has an induced subgraph which contains exactly $t$ edges? We only
-proved this for $t<\varepsilon(\log n)^2$." The site drops the hypothesis of
-$cn^2$ edges because, as its commentary says and as the source's footnote 2
-uses, Erdős and Szemerédi proved that a graph with no homogeneous set of
-logarithmic size has edge density bounded away from $0$ and $1$.
+proved this for $t<\varepsilon(\log n)^2$." erdosproblems.com drops the
+hypothesis of $cn^2$ edges because, as its commentary says and as the source's
+footnote 2 uses, Erdős and Szemerédi proved that a graph with no homogeneous set
+of logarithmic size has edge density bounded away from $0$ and $1$.
 
-**Status.** Proved. The site labeled the problem PROVED, and its curator, T. F.
-Bloom, credits the solution to Kwan, Sah, Sauermann and Sawhney in the
+**Status.** Proved. Bloom's catalog labeled the problem PROVED, and its curator,
+T. F. Bloom, credits the solution to Kwan, Sah, Sauermann and Sawhney in the
 commentary. Their Theorem 1.1 [KSSS22] fixes $C>0$ and $\eta>0$ and takes $n$
 large in terms of them. It then gives, in every $C$-Ramsey graph $G$ on $n$
 vertices, an induced subgraph with exactly $x$ edges for every integer
 $0\le x\le(1-\eta)e(G)$. The paper's footnote 2 derives the conjecture in its
 $\delta n^2$ form from the case $\eta=1/2$, through the Erdős--Szemerédi density
-bound. The deduction to the site's exact wording is written out in the Current
-assessment. The paper is published in Forum of Mathematics, Pi 11 (2023), e21
-(refereed). The locators are those of the arXiv v2 of 30 May 2024. That version
-was posted after the journal publication and has not been compared with it. Read
-depth: claims were checked for Theorem 1.1, footnote 2 and Theorem 1.2. The
-proof is not reviewed here. The claim page
+bound. The deduction to erdosproblems.com's exact wording is written out in the
+Current assessment. The paper is published in Forum of Mathematics, Pi 11
+(2023), e21 (refereed). The locators are those of the arXiv v2 of 30 May 2024.
+That version was posted after the journal publication and has not been compared
+with it. Read depth: claims were checked for Theorem 1.1, footnote 2 and Theorem
+1.2. The proof is not reviewed here. The claim page
 [[problems/ramsey_theory/E0088/claims/2022_08_04_kwan_sah_sauermann_sawhney|Kwan, Sah, Sauermann and Sawhney 2022]]
 records the result, its postings and the acceptance evidence.
 
 **Source.** [erdosproblems.com/88](https://www.erdosproblems.com/88),
-accessed 2026-09-18: the problem page (PROVED, with the site's note that the
-answer is yes; a prize; no last-edited date shown; source keys [Er92b], [Er95],
-[Er97d]; commentary citing [KSSS22]; a credit line thanking Zachary Hunter and
-Mehtaab Sawhney), its empty discussion thread and its empty proof-claim tab.
-Cite as: T. F. Bloom, Erdős Problem #88, https://www.erdosproblems.com/88,
-accessed 2026-09-18.
+accessed 2026-09-18: the problem page (PROVED, with the erdosproblems.com note
+that the answer is yes; a prize; no last-edited date shown; source keys [Er92b],
+[Er95], [Er97d]; commentary citing [KSSS22]; a credit line thanking Zachary
+Hunter and Mehtaab Sawhney), its empty discussion thread and its empty
+proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #88,
+https://www.erdosproblems.com/88, accessed 2026-09-18.
 
 **References.**
 
@@ -92,7 +92,7 @@ accessed 2026-09-18.
   [[../library/number_theory/erdos_1995_my_favourite_problems_number_theory_combinatorics/_index|erdos_1995_my_favourite_problems_number_theory_combinatorics]].
 - [Er97d] Erdős, P., Some recent problems and results in graph theory.
   Discrete Math. 164 (1997), 81--85; item 8, p. 83, the restatement cited
-  by the site and, as its [36], by [KSSS22]. Library home:
+  by erdosproblems.com and, as its [36], by [KSSS22]. Library home:
   [[../library/ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/_index|erdos_1997_some_recent_problems_results_graph_theory]].
 - [ErSz72] Erdős, P. and Szemerédi, E., On a Ramsey type theorem. Period.
   Math. Hungar. 2 (1972), 295--299. Not held; its density theorem is quoted
@@ -111,29 +111,29 @@ accessed 2026-09-18.
 at its revision of 2026-09-18 (main), and the
 [community database](https://github.com/teorth/erdosproblems/tree/3c68e941)
 at its revision of 2026-09-18 records the problem proved (its record last
-updated 31 August 2025), not formalized, with no formal proof. The site's
-"Formalised statement?" indicator reads "No". Boris Alexeev's lean-proofs
-holds
+updated 31 August 2025), not formalized, with no formal proof.
+erdosproblems.com's "Formalised statement?" indicator reads "No". Boris
+Alexeev's lean-proofs holds
 [`src/latest/ErdosProblems/Erdos88.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos88.lean),
 first committed 21 August 2026 and linked at its commit of 15 September
 2026, which declares itself a formalization of a solution to the problem,
 names Kwan, Sah, Sauermann and Sawhney as the informal authors and Codex
-and GPT-5.6 Sol as the formal authors, and states `erdos_88` in the site's
-form, for every $n$, with the natural logarithm. It is recorded on the
-claim page
+and GPT-5.6 Sol as the formal authors, and states `erdos_88` in the
+erdosproblems.com form, for every $n$, with the natural logarithm. It is
+recorded on the claim page
 [[problems/ramsey_theory/E0088/claims/2022_08_04_kwan_sah_sauermann_sawhney|Kwan, Sah, Sauermann and Sawhney 2022]];
 this corpus has not built it, so it is no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement
-above; PROVED, with the note that the answer is yes; a prize; no last-edited
-date shown. The commentary attributes the conjecture to Erdős and McKay, who
-proved it with $\delta(\log n)^2$ in place of $\delta n^2$, credits the solution
-to Kwan, Sah, Sauermann, and Sawhney [KSSS22], and notes that Erdős's original
-formulation also required $\gg n^2$ edges, a condition that an old result of
-Erdős and Szemerédi derives from the other one. The discussion thread and the
-proof-claim tab are empty.
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; PROVED, with the note that the answer is yes; a prize; no
+last-edited date shown. The commentary attributes the conjecture to Erdős and
+McKay, who proved it with $\delta(\log n)^2$ in place of $\delta n^2$, credits
+the solution to Kwan, Sah, Sauermann, and Sawhney [KSSS22], and notes that
+Erdős's original formulation also required $\gg n^2$ edges, a condition that an
+old result of Erdős and Szemerédi derives from the other one. The discussion
+thread and the proof-claim tab are empty.
 
 **The origin.** Erdős's 1992 Catania paper, Problem
 12 (printed p. 234), quoted under Formulation: "an old problem of Brandon Mc
@@ -164,19 +164,19 @@ integer $x$ with $|x-p^2e(G)|\le An^{3/2}$ once $n$ is large in terms of
 $C,\lambda,A$; p. 3), together with the theorem of Alon, Krivelevich and
 Sudakov giving every edge count up to $n^{\alpha_C}$. Acceptance evidence:
 publication in Forum of Mathematics, Pi 11 (2023), e21 (Crossref record accessed
-2026-09-18), a refereed journal, and the site's label. Version: the locators are
-those of arXiv v2 of 30 May 2024, posted after the journal publication; the
-journal text is not held and the two were not compared. Read depth: claims
-checked for Theorem 1.1, footnote 2 and Theorem 1.2; the proof (Sections 2
-onward) was not read.
+2026-09-18), a refereed journal, and the erdosproblems.com label. Version: the
+locators are those of arXiv v2 of 30 May 2024, posted after the journal
+publication; the journal text is not held and the two were not compared. Read
+depth: claims checked for Theorem 1.1, footnote 2 and Theorem 1.2; the proof
+(Sections 2 onward) was not read.
 
-**From the theorem to the site's statement (an authored deduction, following
-the paper's footnote 2).** Let $\epsilon>0$ and read the site's logarithm in
-any fixed base $b>1$. A graph with no clique or independent set of size at
-least $\epsilon\log_bn$ has no homogeneous subgraph of size $C\log_2n$ for
-$C=\epsilon\log_b2$, since $C\log_2n=\epsilon\log_bn$; so it is $C$-Ramsey in
-the paper's sense, with $C$ depending on $\epsilon$ alone. By Erdős and
-Szemerédi, as footnote 2 quotes it, there is $\varepsilon_C>0$ with
+**From the theorem to the erdosproblems.com statement (an authored deduction,
+following the paper's footnote 2).** Let $\epsilon>0$ and read
+erdosproblems.com's logarithm in any fixed base $b>1$. A graph with no clique or
+independent set of size at least $\epsilon\log_bn$ has no homogeneous subgraph
+of size $C\log_2n$ for $C=\epsilon\log_b2$, since $C\log_2n=\epsilon\log_bn$; so
+it is $C$-Ramsey in the paper's sense, with $C$ depending on $\epsilon$ alone.
+By Erdős and Szemerédi, as footnote 2 quotes it, there is $\varepsilon_C>0$ with
 $e(G)\ge\varepsilon_C\binom n2\ge\varepsilon_Cn^2/4$ for every $C$-Ramsey
 graph on $n$ vertices with $n$ sufficiently large in terms of $C$ (the size
 condition is needed: for small $n$ the edgeless graph is $C$-Ramsey). Let
@@ -187,14 +187,14 @@ applies, so every integer $m\le\delta n^2\le\varepsilon_Cn^2/8\le e(G)/2$ lies
 in the theorem's range and is realized by an induced subgraph; for $n<n_C$,
 $\delta n^2<1/2$, so the only integer $m\le\delta n^2$ is $m=0$, realized by
 the empty subgraph. Thus $\delta=\delta(\epsilon)$ works for every $n$, which
-is the site's statement. The footnote's own version takes
+is the erdosproblems.com statement. The footnote's own version takes
 $\delta_C\le\varepsilon_C/8$ and disposes of small $n$ by taking $\delta_C$
 small enough that $\delta_Cn_C^2<1$; only the base conversion is added here.
 
 **Earlier and adjacent results (second-hand, as [KSSS22] p. 2 and
 Bukh--Sudakov p. 613 report them; the papers are not held).** Erdős and
-McKay: every edge count up to $\delta(\log n)^2$ (the site; Erdős 1992).
-Calkin, Frieze and McKay (1992): the random graph $G(n,p)$ typically has
+McKay: every edge count up to $\delta(\log n)^2$ (erdosproblems.com; Erdős
+1992). Calkin, Frieze and McKay (1992): the random graph $G(n,p)$ typically has
 induced subgraphs with all edge counts up to $(1-\eta)p\binom n2$. Alon,
 Krivelevich and Sudakov (2003): every edge count up to $n^{\alpha_C}$ in a
 $C$-Ramsey graph. Narayanan, Sahasrabudhe and Tomon, then Kwan and Sudakov:
@@ -210,8 +210,8 @@ the paper's further results, not the problem.
 **Search scope.** None of the routes below found a dispute
 of the proof, a retraction, or a second proof.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory `FormalConjectures/ErdosProblems/` of formal-conjectures at the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory `FormalConjectures/ErdosProblems/` of formal-conjectures at the
   revision linked under Formalization (no file for this problem); the
   community database at the revision linked there.
 - arXiv: the abstract page of 2208.02874 (two versions; related DOI
@@ -238,12 +238,12 @@ of [KSSS22].
 
 **Remaining gaps.** (1) The proof of Theorem 1.2 and the deduction of
 Theorem 1.1 from it are not reviewed here; the status rests on the refereed
-publication and the site's acceptance, at claims-checked depth. (2) The
+publication and erdosproblems.com's acceptance, at claims-checked depth. (2) The
 journal text of [KSSS22] was not compared with the arXiv v2 preprint. (3)
 The Erdős--Szemerédi density theorem and the Alon--Krivelevich--Sudakov
 theorem enter the deduction second-hand. (4) The restatement [Er95] is
-cited as a site source key and not quoted; item 8 of [Er97d] agrees with
-the 1992 wording.
+cited as an erdosproblems.com source key and not quoted; item 8 of [Er97d]
+agrees with the 1992 wording.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

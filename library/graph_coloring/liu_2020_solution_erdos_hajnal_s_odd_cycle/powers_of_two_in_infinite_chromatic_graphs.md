@@ -25,7 +25,7 @@ Theorem 1.1 credited to Zach Hunter on T. F. Bloom,
 [Erdős Problem #63](https://www.erdosproblems.com/63), accessed
 2026-09-05, combined with de Bruijn–Erdős Theorem 1. It is a corollary of
 the published theorem, not a separately numbered result in its paper.
-The site incorporates the observation in its mathematical commentary.
+erdosproblems.com incorporates the observation in its mathematical commentary.
 
 **Statement.** Every graph with infinite chromatic number has a cycle of
 length $2^n$ for infinitely many integers $n$.

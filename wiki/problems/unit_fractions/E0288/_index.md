@@ -33,8 +33,8 @@ integers, $I=\{a,a+1,\ldots,b\}$ with $1\le a\le b$; the sum is a positive
 rational, so "in $\mathbb N$" means a positive integer. The statement fixes
 no relation between $I_1$ and $I_2$ (they may overlap or coincide; the
 formal statement below requires nothing of them), and it does not say
-$|I_2|\ge2$: the site's commentary notes that the question is open even
-when $I_2$ is a single integer, so the singleton case is part of the
+$|I_2|\ge2$: the erdosproblems.com commentary notes that the question is open
+even when $I_2$ is a single integer, so the singleton case is part of the
 problem. The example in the commentary,
 $\frac13+\frac14+\frac15+\frac16+\frac1{20}=1$, is the pair
 $I_1=\{3,4,5,6\}$, $I_2=\{20\}$. The commentary suggests that the same
@@ -43,15 +43,15 @@ related
 question with $k$ separated intervals of length at least $2$ summing to
 exactly $1$ is [[problems/unit_fractions/E0289/_index|Problem 289]].
 
-**Status.** Labeled open on the site: the label was OPEN, with no last-edited
-date shown (accessed 2026-09-17). The site marked the problem as not resolvable
-by a finite computation. The standing derived from the claim pages is open,
-claim none. The one claim page,
+**Status.** Labeled open on erdosproblems.com: the label was OPEN, with no
+last-edited date shown (accessed 2026-09-17). Bloom's catalog marked the problem
+as not resolvable by a finite computation. The standing derived from the claim
+pages is open, claim none. The one claim page,
 [[problems/unit_fractions/E0288/claims/2026_05_03_nayak|Nayak's note on the intersecting case]],
 is a pending partial claim. It claims that the pairs of intersecting intervals
 with an integer sum are exactly four small pairs. No claim settles or pends on
-the full statement. The site's proof-claim tab is empty. The other note
-announced in the discussion (Zeraoulia, recorded in the Current assessment)
+the full statement. The erdosproblems.com proof-claim tab is empty. The other
+note announced in the discussion (Zeraoulia, recorded in the Current assessment)
 offers a reduction and an obstruction for the singleton case. It is not a proof
 of finiteness, so it has no page. No proof of finiteness, no infinite family of
 pairs and no proof claim for the exact statement (or for the singleton case) was
@@ -90,8 +90,8 @@ build of the file is recorded.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks the statement above, showed
-OPEN, marked as not resolvable by a finite computation, cites [ErGr80],
+**The question.** On 2026-09-17 erdosproblems.com asks the statement above,
+showed OPEN, marked as not resolvable by a finite computation, cites [ErGr80],
 lists no proof exposition and no proof claim, and gives the example and the
 two remarks recorded under Formulation.
 
@@ -104,8 +104,8 @@ $\Sigma_{a,b}+\frac1n$ is an integer only finitely often, and they suggest
 that for each $k$ a sum $\sum_{i=1}^k\Sigma_{a_i,b_i}$ of $k$ interval sums
 is an integer only finitely often
 ([[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|monograph card]]).
-The site's statement, its singleton remark and its $k$-interval remark are
-these three sentences.
+The erdosproblems.com statement, its singleton remark and its $k$-interval
+remark are these three sentences.
 
 **What is proved.** Nothing about the finiteness of two-interval integer
 sums was located. The classical facts behind the question are that no
@@ -130,7 +130,7 @@ the continued fraction of $e$) does not address a second interval. The
 statements are checked and the proofs are compiled for structure only.
 
 **Unverified web items (none is accepted progress).** The discussion thread
-has seven comments, which the site does not verify; none is on the
+has seven comments, which erdosproblems.com does not verify; none is on the
 proof-claim tab.
 
 - 9 August 2025 (posted as "Dogmachine"): Richard K. Guy is said to have
@@ -183,8 +183,8 @@ proof-claim tab.
 
 **Claims.** One claim page, the pending partial claim
 [[problems/unit_fractions/E0288/claims/2026_05_03_nayak|Nayak 2026]] on the
-intersecting case; the site's proof-claim tab is empty. The Zeraoulia note
-has no page because its comment presents a reduction of the singleton case
+intersecting case; the erdosproblems.com proof-claim tab is empty. The Zeraoulia
+note has no page because its comment presents a reduction of the singleton case
 and not a proof; Guy's reported assertion has no source and no proof; the
 difference variant is a different question.
 
@@ -192,8 +192,8 @@ difference variant is a different question.
 none found a proof, disproof or proof claim for the two-interval or the
 singleton statement.
 
-- The site: problem page, discussion thread, proof-claim tab (empty); the
-  community database record; formal-conjectures `288.lean` at the linked
+- erdosproblems.com: problem page, discussion thread, proof-claim tab (empty);
+  the community database record; formal-conjectures `288.lean` at the linked
   commit (statement and three variants, all `sorry`).
 - The primary sources: [ErGr80] (p. 34) and [LiSt24] (arXiv v3, pp. 1--2
   and the proof structure, pp. 2--12).
@@ -206,8 +206,8 @@ singleton statement.
   abs:interval OR abs:consecutive)`: four records, none on this question.
   The API searches titles and abstracts only, so this zero is weak.
 - A general web search engine: "Erdős problem 288" with the interval terms;
-  the results were the site, arXiv items already listed and pages on other
-  problems.
+  the results were erdosproblems.com, arXiv items already listed and pages on
+  other problems.
 - The Zeraoulia DOI, which resolved on 2026-09-17 to a ResearchGate page
   that returned HTTP 403.
 

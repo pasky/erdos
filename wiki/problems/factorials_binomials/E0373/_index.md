@@ -30,10 +30,11 @@ $$
 with $n-1>a_1\geq a_2\geq \cdots \geq a_k\geq 2$, has only finitely many
 solutions.
 
-**Status.** Open. This was the site's label, OPEN, which the site explained as
-open and not resolvable by a finite computation; its page, accessed 2026-10-07,
-was last edited 29 January 2026. No claim settles the question. The one claim
-page records Luca's finiteness result under the abc conjecture
+**Status.** Open. This was the erdosproblems.com label, OPEN, which
+erdosproblems.com explained as open and not resolvable by a finite computation;
+its page, accessed 2026-10-07, was last edited 29 January 2026. No claim settles
+the question. The one claim page records Luca's finiteness result under the abc
+conjecture
 ([[problems/factorials_binomials/E0373/claims/2007_11_01_luca|claim page]]). It
 is conditional and settles no standing. The Current assessment records the other
 conditional reduction and the unconditional results.
@@ -54,12 +55,12 @@ https://www.erdosproblems.com/373.
   (1976), 25-44.
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in graph
   theory. Quaestiones Math. 16 (1993), 333--350,
-  doi:10.1080/16073606.1993.9631741. The site's key for this problem, which
-  locates nothing in this source: the survey restricts itself to graph theory
-  (abstract, printed p. 333) and contains no passage on factorials or on this
-  equation, so the site's key attaches to this paper a result it does not hold,
-  and the paper carrying the bound the commentary credits under it is not
-  identified here. Library home:
+  doi:10.1080/16073606.1993.9631741. The erdosproblems.com key for this problem,
+  which locates nothing in this source: the survey restricts itself to graph
+  theory (abstract, printed p. 333) and contains no passage on factorials or on
+  this equation, so the erdosproblems.com key attaches to this paper a result it
+  does not hold, and the paper carrying the bound the commentary credits under
+  it is not identified here. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Gu04] Guy, Richard K., Unsolved problems in number theory. Third edition,
   Problem Books in Mathematics, Springer, New York (2004), xviii+437 pp.;
@@ -88,10 +89,10 @@ lists the problem as unformalized. A statement file is not a formalization.
 
 ## Current assessment
 
-The standing judges the site's formulation of 2026-09-04 above: the nontrivial
-solutions of $n!=a_1!\cdots a_k!$ are finitely many, where the condition
-$a_1<n-1$ excludes the trivial solutions in which $n=a_2!\cdots a_k!$ and
-$a_1=n-1$. The question is open. No claim settles it; the one claim page is
+The standing judges the erdosproblems.com formulation of 2026-09-04 above: the
+nontrivial solutions of $n!=a_1!\cdots a_k!$ are finitely many, where the
+condition $a_1<n-1$ excludes the trivial solutions in which $n=a_2!\cdots a_k!$
+and $a_1=n-1$. The question is open. No claim settles it; the one claim page is
 conditional.
 
 Conditional results. Luca [Lu07b] proved finiteness under the abc
@@ -100,23 +101,23 @@ conjecture, a refereed result recorded as an accepted conditional claim on
 which settles no standing. Erdős [Er76d] proved (Theorem 2 of that paper)
 that if $P(n(n-1))>4\log n$ for all large $n$, where $P(m)$ is the largest
 prime factor of $m$, then for all large $n$ the equation has only trivial
-solutions, so finiteness follows; the site's commentary also records that
-$P(n(n+1))/\log n\to\infty$ would suffice, an observation Guy's section B23
+solutions, so finiteness follows; the erdosproblems.com commentary also records
+that $P(n(n+1))/\log n\to\infty$ would suffice, an observation Guy's section B23
 [Gu04] attributes to Erdős, and the growth of $P(n(n+1))$ is
 [[problems/arithmetic_functions/E0368/_index|Problem 368]]. Erdős's
 reduction gets no claim page: it is a conditional theorem whose hypothesis
 is itself open, it decides nothing unconditionally, and its source is a
-conference proceedings paper with no refereeing evidence while the site
+conference proceedings paper with no refereeing evidence while Bloom's catalog
 labeled the problem OPEN, so a page would carry no acceptance evidence; the
 reduction is recorded here instead.
 
 Unconditional results. Luca [Lu07b] proved that the set of $n$ with a
-nontrivial solution has asymptotic density zero; the site's commentary
-states the bound $\exp(f(x)\log x/\log\log x)$ on the number of such
-$n\le x$ for any $f(x)\to\infty$. The site credits Erdős, under its key
+nontrivial solution has asymptotic density zero; the erdosproblems.com
+commentary states the bound $\exp(f(x)\log x/\log\log x)$ on the number of such
+$n\le x$ for any $f(x)\to\infty$. erdosproblems.com credits Erdős, under its key
 [Er93], with the bound $a_1\ge n-5\log\log n$ for $k=2$ and with the wish
-for $a_1\ge n-o(\log\log n)$; the site's reference record resolves that key
-to the 1993 graph-theory survey, which contains no such passage (see
+for $a_1\ge n-o(\log\log n)$; the erdosproblems.com reference record resolves
+that key to the 1993 graph-theory survey, which contains no such passage (see
 References), so the paper holding the bound is not identified here. Bhat and
 Ramachandra [BhRa10] replace the $5$ by $(1+o(1))/\log2$ and prove the bound
 for every $k\ge2$
@@ -128,14 +129,14 @@ only nontrivial solution with $k=2$. The computations of Caldwell [Ca94] and
 Habsieger [Ha19]
 ([[../library/factorials_binomials/habsieger_2019_explicit_bounds_diophantine_equation/_index|card]])
 find no solution of $n!=a_1!\,a_2!$ other than $10!=6!\,7!$ for
-$n\le10^{3000}$, as the site's commentary records; Habsieger's
+$n\le10^{3000}$, as the erdosproblems.com commentary records; Habsieger's
 [[../library/factorials_binomials/habsieger_2019_explicit_bounds_diophantine_equation/theorem_1_4|Theorem 1.4]]
 states the stronger form, that every other solution has $a_1\ge10^{3000}$.
 Guy's section B23 [Gu04] states the equation, Hickerson's solutions and the
 searches to 18160 and $10^6$.
 
-Search scope: the site's problem page and commentary, its discussion thread
-and its proof-claims tab, which carried no claim; the community
+Search scope: the erdosproblems.com problem page and commentary, its discussion
+thread and its proof-claims tab, which carried no claim; the community
 database's entry; the formal-conjectures statement file at the pinned
 revision; the publisher's record of Luca's paper; and the library cards for
 [Er76d], [Er93], [Gu04], [BhRa10] and [Ha19]. On 2026-10-07 none of the others

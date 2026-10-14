@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 231, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_systems/E0231/claims
@@ -17,6 +17,7 @@ square, with the length printed as $2^k-1$. No construction is given.
 
 [[problems/set_systems/E0231/claims/1992_07_13_keranen|1992_07_13_keranen]]: Keränen's $85$-uniform morphism gives an infinite word over four letters with
 no abelian square, so for every $k\ge4$ some string of length $2^k$ over $k$
-letters avoids abelian squares. The site's curator credits the result.
+letters avoids abelian squares. The erdosproblems.com curator credits the
+result.
 
 ***

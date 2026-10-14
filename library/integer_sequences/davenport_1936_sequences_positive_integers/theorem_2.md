@@ -64,12 +64,12 @@ Littlewood.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0487/_index|Problem 487]]: the result the site's
-  commentary records for sets of positive upper logarithmic density. It is
-  context, not a proof of the problem: in a chain $a\mid b\mid c$ the least
-  common multiple of two members is one of them, so a chain alone gives no
-  triple of distinct members with $[a,b]=c$ (an elementary remark made on
-  the problem page).
+- [[../wiki/problems/integer_sequences/E0487/_index|Problem 487]]: the result
+  the erdosproblems.com commentary records for sets of positive upper
+  logarithmic density. It is context, not a proof of the problem: in a chain
+  $a\mid b\mid c$ the least common multiple of two members is one of them, so a
+  chain alone gives no triple of distinct members with $[a,b]=c$ (an elementary
+  remark made on the problem page).
 - Problems 281 and 486, listed on the card, rest on Theorem 1 of the same
   paper (Section 2, p. 149, the densities of the set of multiples), not on
   this theorem; their rows with locators are on the card.

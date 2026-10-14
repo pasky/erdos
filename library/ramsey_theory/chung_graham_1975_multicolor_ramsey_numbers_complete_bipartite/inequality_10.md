@@ -20,7 +20,7 @@ integer $m$ such that if $H$ is any graph on $n$ vertices with $m$ edges
 then $H$ must contain a subgraph isomorphic to $G$", the Turán number;
 $R(G;n)$ is "the minimum number of colors necessary to color $K_n$ without
 forming a monochromatic $G$"; $r(G;k)$ is the least forcing order (p. 164),
-the site's $R_k(G)$.
+erdosproblems.com's $R_k(G)$.
 
 The chain printed on p. 168, quoted: (7) "$R(G;n)>\binom n2/T(G;n)$";
 (8) "$r(G;R(G;n)-1)\le n<r(G;R(G;n))$", so that "knowledge of $T(G;n)$

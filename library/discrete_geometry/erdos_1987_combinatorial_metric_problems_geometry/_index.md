@@ -97,33 +97,35 @@ Source: <https://users.renyi.hu/~p_erdos/1987-27.pdf>.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0091/_index|#91]]: the
 Section 4 question (p. 171) whether for $n>n_0$ the minimum number of distinct
-distances $g(n)$ can always be attained in more than one way, the site's
-statement without its "and probably many"
+distances $g(n)$ can always be attained in more than one way, the
+erdosproblems.com statement without its "and probably many"
 ([[discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/question_p171|question_p171]]).
 [[../wiki/problems/distance_problems/E0097/_index|#97]]: after Danzer's convex
 nonagon (Fig. 5, p. 175) refutes the three-vertex conjecture, Erdős asks
 (p. 176) whether every convex polygon has a vertex without four other vertices
-equidistant from it, the site's statement
+equidistant from it, the erdosproblems.com statement
 ([[discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/conjecture_p176|conjecture_p176]]).
 [[../wiki/problems/distance_problems/E0212/_index|#212]]: Ulam's conjecture
 (p. 172) that an infinite plane set with all distances rational cannot be
-everywhere dense, which conjectures the negative answer to the site's question
+everywhere dense, which conjectures the negative answer to the erdosproblems.com
+question
 ([[discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/conjecture_p172|conjecture_p172]]).
 [[../wiki/problems/distance_problems/E0654/_index|#654]]: conjecture (3) and
-question (4) (p. 168) are posed for points in general position; the site's
-questions $f(n)>(1/3+c)n$ and $f(n)>(1-o(1))n$ pose (3) and the negative answer
-to (4) under the weaker hypothesis of no four points on a circle, which Erdős
-suggests for (3) on the same page
+question (4) (p. 168) are posed for points in general position; the
+erdosproblems.com questions $f(n)>(1/3+c)n$ and $f(n)>(1-o(1))n$ pose (3) and
+the negative answer to (4) under the weaker hypothesis of no four points on a
+circle, which Erdős suggests for (3) on the same page
 ([[discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/conjecture_p168|conjecture_p168]]).
 [[../wiki/problems/discrete_geometry/E1069/_index|#1069]]: the Croft-Purdy-Erdős
-conjecture (p. 169) is the site's statement, with the print's range
+conjecture (p. 169) is the erdosproblems.com statement, with the print's range
 $k\le n^{1/2}$ and no lower end, and Erdős reports it proved by Szemerédi and
 Trotter
 ([[discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/conjecture_p169|conjecture_p169]]).
 [[../wiki/problems/discrete_geometry/E1071/_index|#1071]]: the Fejes Tóth-Erdős
 question (p. 173), answered by Danzer's Fig. 3 and an unnamed participant's
 Fig. 4 as Erdős reports, and the question (p. 174) whether a maximal family of
-disjoint unit segments in a region can be denumerable, the site's two questions
+disjoint unit segments in a region can be denumerable, erdosproblems.com's two
+questions
 ([[discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/question_p173|question_p173]]).
 
 **Results.**

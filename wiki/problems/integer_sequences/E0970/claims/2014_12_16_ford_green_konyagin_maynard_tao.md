@@ -4,8 +4,8 @@ title: The long-gaps covering bound and h(k) >> k (log k)^2 log_3 k / log_2 k
 desc: |
   Display (1.2) of the 2018 long-gaps paper of Ford, Green, Konyagin, Maynard
   and Tao, applied through (1.3) at $x=p_k$, gives the refereed lower bound
-  $h(k)\gg k(\log k)^2\log_3k/\log_2k$, stronger than the site's display. The
-  order of $h(k)$ stays open.
+  $h(k)\gg k(\log k)^2\log_3k/\log_2k$, stronger than the erdosproblems.com
+  display. The order of $h(k)$ stays open.
 authors:
 - Kevin Ford
 - Ben Green
@@ -43,9 +43,9 @@ $Y(x)=j(P(x))-1$, with $j$ Jacobsthal's function. For
 [[problems/integer_sequences/E0970/_index|Problem 970]]: $P(p_k)$, the
 product of the first $k$ primes, has $k$ distinct prime factors, so
 $h(k)\ge j(P(p_k))=Y(p_k)+1$ by (1.3); with $p_k\sim k\log k$, (1.2) gives
-$h(k)\gg k(\log k)^2\log_3k/\log_2k$. The site's displayed
-$h(k)\gg k\log k\log_3k/(\log_2k)^2$ is weaker and is recorded as the
-site's.
+$h(k)\gg k(\log k)^2\log_3k/\log_2k$. erdosproblems.com's displayed
+$h(k)\gg k\log k\log_3k/(\log_2k)^2$ is weaker and is recorded as
+erdosproblems.com's.
 
 **Covers.** The lower bound on $h(k)$ only. Neither the order of magnitude
 of $h(k)$ nor $h(k)\ll k^2$ is settled by it.
@@ -54,6 +54,6 @@ of $h(k)$ nor $h(k)\ll k^2$ is settled by it.
 
 **Acceptance.** Refereed: K. Ford, B. Green, S. Konyagin, J. Maynard and
 T. Tao, Long gaps between primes, J. Amer. Math. Soc. 31 (2018), no. 1,
-65--105. The site labeled the problem OPEN, so its commentary crediting the
-lower bound is not reviewed evidence. The page is dated by the first arXiv
+65--105. Bloom's catalog labeled the problem OPEN, so its commentary crediting
+the lower bound is not reviewed evidence. The page is dated by the first arXiv
 posting, 16 December 2014, as the paper's page for Problem 4 is.

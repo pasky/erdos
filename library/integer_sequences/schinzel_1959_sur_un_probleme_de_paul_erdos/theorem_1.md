@@ -69,5 +69,5 @@ $q\le365$ and explicit inequalities for $q>365$).
 
 - [[../wiki/problems/integer_sequences/E0542/_index|Problem 542]]: proves the bound
   $31/30$ of the first question for every $n$, with equality only for
-  $\{2,3,5\}$ and $n=5$, the set the site gives as showing the bound best
-  possible.
+  $\{2,3,5\}$ and $n=5$, the set erdosproblems.com gives as showing the bound
+  best possible.

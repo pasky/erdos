@@ -28,10 +28,10 @@ that $p_i\mid a_i$, where $p_i$ denotes the $i$th prime.
 
 Estimate $h(n)$.
 
-**Status.** Open. This is the site's label (page last edited 30 September 2025).
-The proof-claims tab carries two pending partial claims. Neither would settle
-the problem, and the Current assessment records them. The accepted partial
-claims are on
+**Status.** Open. This is the erdosproblems.com label (page last edited 30
+September 2025). The proof-claims tab carries two pending partial claims.
+Neither would settle the problem, and the Current assessment records them. The
+accepted partial claims are on
 [[problems/primes/E0860/claims/1980_06_13_erdos_pomerance|the page of Erdős and Pomerance]]
 and [[problems/primes/E0860/claims/1995_01_01_ruzsa|Ruzsa's page]]. The
 Erdős--Selfridge lower bound and the joint upper bound of Chen and Korsky are
@@ -63,10 +63,10 @@ https://www.erdosproblems.com/860.
 
 ## Current assessment
 
-**Known bounds.** The site's commentary records $h(n)>(3-o(1))n$ (Erdős and
-Selfridge), $h(n)/n\to\infty$ (Ruzsa) and $h(n)\ll n^{3/2}/(\log n)^{1/2}$
-(Erdős and Pomerance [ErPo80]). The last two are refereed and recorded as
-accepted partial claims, on
+**Known bounds.** The erdosproblems.com commentary records $h(n)>(3-o(1))n$
+(Erdős and Selfridge), $h(n)/n\to\infty$ (Ruzsa) and
+$h(n)\ll n^{3/2}/(\log n)^{1/2}$ (Erdős and Pomerance [ErPo80]). The last two
+are refereed and recorded as accepted partial claims, on
 [[problems/primes/E0860/claims/1995_01_01_ruzsa|Ruzsa's page]] and
 [[problems/primes/E0860/claims/1980_06_13_erdos_pomerance|the page of Erdős and Pomerance]];
 the first is reported by Erdős and Pomerance and by Guy with no printed

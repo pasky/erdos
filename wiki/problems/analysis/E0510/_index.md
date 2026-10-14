@@ -4,7 +4,7 @@ title: Problem 510
 desc: |
   Asks whether every set $A$ of $N$ positive integers has some $\theta$ with
   $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$, for an absolute constant $c>0$. The
-  site's wording, over all integers, fails for sets containing $0$.
+  erdosproblems.com wording, over all integers, fails for sets containing $0$.
 tags:
 - Analysis
 status: open
@@ -36,24 +36,24 @@ $$
 \sum_{n\in A}\cos(n\theta) < -cN^{1/2}?
 $$
 
-**Notes.** The site's wording fails trivially: for $A=\{0\}$, of size $N=1$,
-the sum is $\cos 0=1$ for every $\theta$, and for $A=\{0,a\}$ the sum
+**Notes.** The erdosproblems.com wording fails trivially: for $A=\{0\}$, of size
+$N=1$, the sum is $\cos 0=1$ for every $\theta$, and for $A=\{0,a\}$ the sum
 $1+\cos(a\theta)$ is never negative, so no $c>0$ and $\theta$ give a sum below
 $-cN^{1/2}$. The change replaces "$A\subset \mathbb{Z}$ is a finite set" by
 "$A\subset \mathbb{N}$ is a finite set of positive integers"; nothing else
-changes. The site's source [Er61, pp. 247–248] states the question in the same
-form, for every sequence of integers $n_1<\cdots<n_k$ with a suitable absolute
-constant, after Ankeny and Chowla's conjecture that the minimum tends to
-$-\infty$. The site's own sharpness example $A=B-B$, with $B$ a Sidon set,
-contains $0$ and is meant for large $N$; Bedert [Be25c] gives the same
-construction as the nonzero differences of $B$ (§1) and states the problem
+changes. The erdosproblems.com source [Er61, pp. 247–248] states the question in
+the same form, for every sequence of integers $n_1<\cdots<n_k$ with a suitable
+absolute constant, after Ankeny and Chowla's conjecture that the minimum tends
+to $-\infty$. erdosproblems.com's own sharpness example $A=B-B$, with $B$ a
+Sidon set, contains $0$ and is meant for large $N$; Bedert [Be25c] gives the
+same construction as the nonzero differences of $B$ (§1) and states the problem
 for a finite set of positive integers (abstract and Theorem 1.1). The
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/510.lean)
 takes $A\subset\mathbb N$ with $0\notin A$ and all sufficiently large $N$,
 marked `research open` with no formal proof.
 
-**Status.** Open, the site's label (page last edited 28 September 2025), which
-fits the modified Statement.
+**Status.** Open, the erdosproblems.com label (page last edited 28 September
+2025), which fits the modified Statement.
 
 **Source.** [erdosproblems.com/510](https://www.erdosproblems.com/510), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #510,
@@ -77,12 +77,13 @@ https://www.erdosproblems.com/510.
 
 ## Current assessment
 
-**The question (site formulation).** Chowla's cosine problem: whether an
-absolute $c>0$ exists such that every finite $A\subset\mathbb Z$ of size $N$ has
-some $\theta$ with $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$. The site labeled the
-problem OPEN (page last edited 28 September 2025); the site's wording fails at
-the sets $\{0\}$ and $\{0,a\}$, as the Notes above record, and the modified
-Statement for sets of positive integers is the question the literature studies.
+**The question (erdosproblems.com formulation).** Chowla's cosine problem:
+whether an absolute $c>0$ exists such that every finite $A\subset\mathbb Z$ of
+size $N$ has some $\theta$ with $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$. Bloom's
+catalog labeled the problem OPEN (page last edited 28 September 2025); the
+erdosproblems.com wording fails at the sets $\{0\}$ and $\{0,a\}$, as the Notes
+above record, and the modified Statement for sets of positive integers is the
+question the literature studies.
 
 **Standing.** The modified Statement is open. For a set $A$ of $N$
 positive integers write $m(A)=\min_\theta\sum_{n\in A}\cos(n\theta)$.
@@ -100,8 +101,8 @@ the first arXiv version and $m(A)\le-cN^{1/7}$ in the second, of
 The best bound is Bedert's $m(A)\le-N^{1/5-o(1)}$, Theorem 1.1 of the
 third arXiv version of 24 July 2026, announced in a
 [thread post](https://www.erdosproblems.com/forum/thread/510#post-8025)
-that day; the site's commentary, last edited 28 September 2025, gives the
-second version's $-cN^{1/7}$. The example $A=B-B$ with $B$ a Sidon set shows
+that day; the erdosproblems.com commentary, last edited 28 September 2025, gives
+the second version's $-cN^{1/7}$. The example $A=B-B$ with $B$ a Sidon set shows
 that $N^{1/2}$ would be best possible. A
 [thread post of 26 August 2026](https://www.erdosproblems.com/forum/thread/510#post-8596)
 tabulates certified upper bounds on the extremal value $-\sup_A m(A)$ over
@@ -110,10 +111,10 @@ manuscript and settles no instance. None of these bounds settles an instance
 of the corrected question, so none is a claim, and the problem has no claim
 page.
 
-**Search scope.** The site's page, its three comments and its empty
+**Search scope.** The erdosproblems.com page, its three comments and its empty
 proof-claims tab, the arXiv records of [Be25c] and [JMTZ25], the
 formal-conjectures statement file and the library cards of [Bo86], [Be25c]
-and [JMTZ25]; [Ru04] and [Er61] are cited from the site and the Rényi
+and [JMTZ25]; [Ru04] and [Er61] are cited from erdosproblems.com and the Rényi
 archive scan.
 <!-- BEGIN problem library links -->
 

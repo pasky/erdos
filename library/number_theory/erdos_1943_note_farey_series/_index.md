@@ -5,7 +5,7 @@ desc: |
   index distance k are similarly ordered once n exceeds ck.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T14:49:48Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # number_theory/erdos_1943_note_farey_series
@@ -15,17 +15,17 @@ updated: 2026-10-08T14:49:48Z
 [[number_theory/erdos_1943_note_farey_series/theorem|theorem]]: Erdős's 1943 theorem that there is an absolute constant c such that, for
 the Farey fractions of order n and any k with n > ck, the fractions at
 index distance k are similarly ordered, the linear lower bound for the
-function f(n) of Problem 1005 that the site credits to this note; its proof
-prints the thresholds n > 192k and n > 400k.
+function f(n) of Problem 1005 that erdosproblems.com credits to this note; its
+proof prints the thresholds n > 192k and n > 400k.
 
 ***
 
 P. Erdős, *A note on Farey series*, Quart. J. Math. Oxford Ser. **14** (1943),
 82--85; DOI 10.1093/qmath/os-14.1.82 (the Crossref record, read 2026-09-18,
-gives volume os-14, no. 1). Received 30 March 1943. The site's key Er43. The
-paper's headnote: "This note was received in the form of a letter addressed,
-through the *Quarterly Journal*, to the late Dr. Mayer. It has been put into
-its present form by the kindness of Professor Davenport." MR 5,236b;
+gives volume os-14, no. 1). Received 30 March 1943. The erdosproblems.com key
+Er43. The paper's headnote: "This note was received in the form of a letter
+addressed, through the *Quarterly Journal*, to the late Dr. Mayer. It has been
+put into its present form by the kindness of Professor Davenport." MR 5,236b;
 Zentralblatt 61,128.
 
 The copy read for this card is the
@@ -90,8 +90,8 @@ The whole note was read on the page images; the Theorem is compiled as a
 statement with the proof pointer above, and the two thresholds were read
 where the proof prints them. No step was checked and nothing here is
 independently reviewed. The note contains nothing on interpolation or on
-the subject of Problem 1151; the site lists this paper under that problem as
-well, and that relation is not explained here.
+the subject of Problem 1151; erdosproblems.com lists this paper under that
+problem as well, and that relation is not explained here.
 
 **Bears on.** [[../wiki/problems/number_theory/E1005/_index|#1005]], as the origin of the
 linear lower bound: the Theorem says that for some absolute $c$ the Farey
@@ -100,8 +100,9 @@ $n>ck$, that is, $f(n)\ge n/c-1$ in the problem's notation, with $c=400$
 read off the proof for $k\ge3$ (Contents above); the problem asks whether
 $f(n)=(c+o(1))n$ for a constant $c>0$, and Erdős writes (p. 84) that he
 could not find the best possible value of the constant $c$ in his theorem;
-[[../wiki/problems/polynomials/E1151/_index|#1151]] only through the site's
-citation: the note says nothing on interpolation (Compiled scope above).
+[[../wiki/problems/polynomials/E1151/_index|#1151]] only through the
+erdosproblems.com citation: the note says nothing on interpolation (Compiled
+scope above).
 
 **Results.**
 

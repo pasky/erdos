@@ -69,9 +69,9 @@ cites the same extension in its footnote 2, as recorded on the
 ## Bears on
 
 - [[../wiki/problems/primes/E0049/_index|Problem 49]]: these records concern the weak
-  (nondecreasing) variant that Erdős further asks about in the site's
-  [Er95c], not the strict question of the catalog statement. For the weak
-  variant the bound that OEIS A365339 records shows that the primes are not
+  (nondecreasing) variant that Erdős further asks about in erdosproblems.com's
+  [Er95c], not the strict question of the erdosproblems.com statement. For the
+  weak variant the bound that OEIS A365339 records shows that the primes are not
   a largest example for any $x\ge31957$, and the paper's conjecture puts
   the excess at exactly 64; whether $M^\uparrow(x)-\pi(x)$ is bounded is the
   [[primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/question_p2|open p. 2 question]].

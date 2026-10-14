@@ -2,10 +2,11 @@
 name: problems/additive_combinatorics/E0328/claims/2026_06_18_axiommath
 title: AxiomMath's Lean disproof of the ordered-count statement
 desc: |
-  Answers the site's wording (ordered pairs, under which $C=2$ fails trivially),
-  not the modified Statement (sums of two distinct elements), so it does not
-  count toward the problem's standing. A Lean 4 development by AxiomProver,
-  published by AxiomMath, refutes that wording with the powers of two at $C=2$.
+  Answers the erdosproblems.com wording (ordered pairs, under which $C=2$ fails
+  trivially), not the modified Statement (sums of two distinct elements), so it
+  does not count toward the problem's standing. A Lean 4 development by
+  AxiomProver, published by AxiomMath, refutes that wording with the powers of
+  two at $C=2$.
 authors:
 - AxiomProver
 status: rejected
@@ -41,28 +42,29 @@ prover AxiomProver generated for Erdős problems, holds a file, authored on
 \geq 1$, a set $A \subseteq \mathbb N$ with at most $C$ ordered representations
 $a + b = n$ ($a, b \in A$) of every $n$ that no partition into $t$ parts brings
 below $C$ ordered representations of every $n$. That is the negation of the
-site's wording restricted to $C \geq 2$. It implies the negation of the site's
-wording over every $C \geq 1$, which the `Jayyhk/erdos-lean` copy described
-below states as its final theorem `erdos_328`. The witness is $C = 2$ and $A$
-the powers of two: a number has at most two ordered representations as a sum of
-two powers of two, while any two distinct elements $x \neq y$ of one part give
-the two ordered pairs $(x, y)$ and $(y, x)$ for $x + y$, and some part of a
-finite partition of an infinite set is infinite. The announcement was posted to
-the site's forum on 2026-06-19, which with the publication date of 2026-06-18
-dates the page. A copy of the same development, differing by a namespace and a
-final theorem `erdos_328` in the shape of the formal-conjectures statement,
-sits in the `Jayyhk/erdos-lean` repository (added 2026-06-22); the copy carries
-no credit to AxiomProver or AxiomMath and is identified as a copy by its text,
-and it appends `#print axioms erdos_328` with the recorded output `propext`,
-`Classical.choice`, `Quot.sound`. Boris Alexeev's lean-proofs repository holds
-a further copy, `src/latest/ErdosProblems/Erdos328.lean` (added 2026-08-26),
-whose header says that the imported $C = 2$ argument and formal proof are by
+erdosproblems.com wording restricted to $C \geq 2$. It implies the negation of
+the erdosproblems.com wording over every $C \geq 1$, which the
+`Jayyhk/erdos-lean` copy described below states as its final theorem
+`erdos_328`. The witness is $C = 2$ and $A$ the powers of two: a number has at
+most two ordered representations as a sum of two powers of two, while any two
+distinct elements $x \neq y$ of one part give the two ordered pairs $(x, y)$ and
+$(y, x)$ for $x + y$, and some part of a finite partition of an infinite set is
+infinite. The announcement was posted to the erdosproblems.com forum on
+2026-06-19, which with the publication date of 2026-06-18 dates the page. A copy
+of the same development, differing by a namespace and a final theorem
+`erdos_328` in the shape of the formal-conjectures statement, sits in the
+`Jayyhk/erdos-lean` repository (added 2026-06-22); the copy carries no credit to
+AxiomProver or AxiomMath and is identified as a copy by its text, and it appends
+`#print axioms erdos_328` with the recorded output `propext`,
+`Classical.choice`, `Quot.sound`. Boris Alexeev's lean-proofs repository holds a
+further copy, `src/latest/ErdosProblems/Erdos328.lean` (added 2026-08-26), whose
+header says that the imported $C = 2$ argument and formal proof are by
 AxiomProver, published by Axiom Math; both copies are linked above at their
 pins. The formal-conjectures statement file, whose own theorem is `sorry`,
 records the `Jayyhk` copy as the formal proof while noting that its
 representation function counts ordered pairs.
 
-The theorem refutes the whole of the site's wording of
+The theorem refutes the whole of the erdosproblems.com wording of
 [[problems/additive_combinatorics/E0328/_index|Problem 328]], quantified over
 every $C$, with $1_A \ast 1_A(n)$ counting ordered pairs. Under that count the
 bound $1_{A_i} \ast 1_{A_i}(n) < 2$ forces every part to have at most one
@@ -76,11 +78,11 @@ Rödl's, recorded on its own
 
 **Depends on.** No page of this wiki.
 
-**Why it is rejected.** It answers the site's wording, not the modified
-Statement. [[problems/additive_combinatorics/E0328/_index|Problem 328]] judges
-the modified Statement, which counts representations as sums of two distinct
-elements, as Erdős and Graham state the question; the problem page's Notes
-give the evidence and credit the result. The refutation settles no instance
-of the modified Statement. This corpus has not built or audited the
+**Why it is rejected.** It answers the erdosproblems.com wording, not the
+modified Statement. [[problems/additive_combinatorics/E0328/_index|Problem 328]]
+judges the modified Statement, which counts representations as sums of two
+distinct elements, as Erdős and Graham state the question; the problem page's
+Notes give the evidence and credit the result. The refutation settles no
+instance of the modified Statement. This corpus has not built or audited the
 development, so it gives no `formalized` evidence, and no outside reviewer is
 recorded.

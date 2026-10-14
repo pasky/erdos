@@ -31,11 +31,11 @@ $$
 
 is a square?
 
-**Formulation.** The site's wording leaves the number $n$ of intervals and their
-sizes free. The standing answers that wording, which is false. Skałba (Colloq.
-Math. 98 (2003), 1--3, Theorem 2) shows that once the number of blocks may vary,
-disjoint blocks of any fixed length $l\geq 4$ have a square product infinitely
-often
+**Formulation.** The erdosproblems.com wording leaves the number $n$ of
+intervals and their sizes free. The standing answers that wording, which is
+false. Skałba (Colloq. Math. 98 (2003), 1--3, Theorem 2) shows that once the
+number of blocks may vary, disjoint blocks of any fixed length $l\geq 4$ have a
+square product infinitely often
 ([[problems/diophantine_problems/E0363/claims/2003_01_01_skalba|claim page]]).
 
 Erdős and Graham's question, as Bauer and Bennett and Bennett and Van Luijk
@@ -46,9 +46,9 @@ for $n=4$ and $n\geq 6$, Bauer and Bennett's for $n=3$ and $n=5$, and Bennett
 and Van Luijk's blocks of five for $n\geq 5$ each give infinitely many
 collections for one fixed choice.
 
-**Status.** DISPROVED (LEAN). The "(LEAN)" suffix comes from the site's catalog
-label. The claim pages record the disproofs, their acceptance and the Lean
-formalization. The corpus has built no Lean for this problem.
+**Status.** DISPROVED (LEAN). The "(LEAN)" suffix comes from erdosproblems.com's
+catalog label. The claim pages record the disproofs, their acceptance and the
+Lean formalization. The corpus has built no Lean for this problem.
 
 **Source.** [erdosproblems.com/363](https://www.erdosproblems.com/363), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #363,
@@ -70,13 +70,13 @@ pinned to the repository's revision of 2026-10-06.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** The statement
+**The question (erdosproblems.com formulation of 2026-09-04).** The statement
 above; DISPROVED (LEAN), page last edited 2 December 2025. The question is
-Erdős and Graham's. The site's commentary recalls, as context, the theorem of
-Erdős and Selfridge that a product of two or more consecutive integers is never
-a perfect power, and explains why blocks of at least four are required:
-Pomerance observed that the four blocks of three consecutive integers, two
-centered at $2^{n-1}$ and $2^n$ and two ending at $2^{2n-1}$ and $2^{2n}$,
+Erdős and Graham's. The erdosproblems.com commentary recalls, as context, the
+theorem of Erdős and Selfridge that a product of two or more consecutive
+integers is never a perfect power, and explains why blocks of at least four are
+required: Pomerance observed that the four blocks of three consecutive integers,
+two centered at $2^{n-1}$ and $2^n$ and two ending at $2^{2n-1}$ and $2^{2n}$,
 always have square product.
 
 **Claims.** Four refereed papers each give infinitely many collections and
@@ -84,22 +84,22 @@ so each disproves the statement as worded:
 [[problems/diophantine_problems/E0363/claims/2003_01_01_skalba|Skałba (2003)]],
 with the number of blocks free;
 [[problems/diophantine_problems/E0363/claims/2005_01_01_ulas|Ulas (2005)]],
-for $n=4$ and every $n\geq 6$ blocks of four, the disproof the site's
+for $n=4$ and every $n\geq 6$ blocks of four, the disproof the erdosproblems.com
 curator credits;
 [[problems/diophantine_problems/E0363/claims/2007_01_01_bauer_bennett|Bauer and Bennett (2007)]],
 for $n=3$ and $n=5$ blocks of four, so for every $n\geq 3$; and
 [[problems/diophantine_problems/E0363/claims/2012_03_01_bennett_van_luijk|Bennett and Van Luijk (2012)]],
 for every $n\geq 5$ blocks of five. The last three also answer the
 fixed-$n$ reading. Each of the last three pages lists `refereed` evidence
-and the curator's credit as `reviewed`; the site does not credit Skałba, so
-the first page lists `refereed` alone. Ulas conjectured that, for every fixed
-block size, the solutions become infinite in number once $n$ is large
-enough; that conjecture is open, and
+and the curator's credit as `reviewed`; erdosproblems.com does not credit
+Skałba, so the first page lists `refereed` alone. Ulas conjectured that, for
+every fixed block size, the solutions become infinite in number once $n$ is
+large enough; that conjecture is open, and
 [[problems/diophantine_problems/E0930/_index|Problem 930]] asks a more general
 question.
 
-**Formalization and the Lean label.** The site's thread carries a Lean 4
-file posted on 2026-03-10 by Wouter van Doorn, obtained with the system
+**Formalization and the Lean label.** The erdosproblems.com thread carries a
+Lean 4 file posted on 2026-03-10 by Wouter van Doorn, obtained with the system
 Aristotle from Harmonic, proving that one of Ulas's parametrizations gives
 an infinite family; the formal-conjectures statement file, which fixes the
 number and sizes of the intervals, marks `erdos_363` solved and names a copy
@@ -112,7 +112,7 @@ weaker than either reading. The substance is the proof that Ulas's family
 consists of valid collections of positive integers. The corpus has not
 built or audited either file.
 
-**Search scope.** The site's problem page, commentary and
+**Search scope.** The erdosproblems.com problem page, commentary and
 discussion thread, with the Crossref record of [BeVL12], the e-periodica
 volume records of [Ul05] and [BaBe07], the publisher's record of Skałba's
 paper, and the repositories' commit records for dates. arXiv, MathSciNet,

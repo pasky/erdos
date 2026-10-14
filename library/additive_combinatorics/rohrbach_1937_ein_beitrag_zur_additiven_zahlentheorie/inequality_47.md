@@ -67,7 +67,7 @@ $$
 g(n)^2>\frac n{0.4992}=(2.00320\ldots)\,n\qquad(n\ge n_0),
 $$
 
-the lower half of the site's "$(2+c)n\le g(n)^2\le4n$ for some small
+the lower half of erdosproblems.com's "$(2+c)n\le g(n)^2\le4n$ for some small
 constant $c>0$", with $c=0.0032$, and Erdős 1973's
 "$g(n)>(1+\varepsilon)\sqrt{2n}$ for some $\varepsilon>0$" with
 $(1+\varepsilon)^2=1.0016\ldots$, $\varepsilon\approx0.0008$; Erdős's "still
@@ -143,8 +143,8 @@ and § 4's inequalities (34)--(36) for § 5.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0791/_index|Problem 791]]: the lower half
-  of the site's "$(2+c)n\le g(n)^2\le4n$", $g(n)^2\ge2n$ for all $n$ with
-  $g(n)\ge5$ and $g(n)^2>(2.0032\ldots)n$ for large $n$; the "Moser
+  of erdosproblems.com's "$(2+c)n\le g(n)^2\le4n$", $g(n)^2\ge2n$ for all $n$
+  with $g(n)\ge5$ and $g(n)^2>(2.0032\ldots)n$ for large $n$; the "Moser
   improved this result but his $\varepsilon$ is still very small" of Erdős
   1973 refers to a later sharpening of (47), not held. The current lower
   bound, $g(n)^2\ge(2.181\ldots+o(1))n$ from Yu's $\limsup n(k)/k^2\le

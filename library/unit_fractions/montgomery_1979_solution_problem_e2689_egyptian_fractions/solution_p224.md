@@ -81,8 +81,8 @@ None; the statement is a finite verification.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0289/_index|Problem 289]]: the primary source of the
-  five-interval representation of $2$ that the site's commentary and the
-  1980 monograph (p. 34) cite; it fixes the attribution (Montgomery's
+  five-interval representation of $2$ that the erdosproblems.com commentary and
+  the 1980 monograph (p. 34) cite; it fixes the attribution (Montgomery's
   solution, with the second set also found by Hickerson) and shows that
   Hahn's problem asked for any integer under the separated-block condition
   with the number of blocks free. The problem's status is unchanged.

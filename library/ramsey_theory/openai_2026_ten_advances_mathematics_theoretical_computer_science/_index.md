@@ -148,7 +148,7 @@ The PDF's complete Chapter 9 and its front matter were visually
 checked on the page images. Extracted text served only as a reading
 aid. The dated source check on 2026-09-08 covered the report, the first-party
 announcement, pinned formalization sources and the identified ABST interfaces.
-A direct request for the catalog page returned HTTP 403, so this check
+A direct request for the erdosproblems.com page returned HTTP 403, so this check
 did not refresh its wording. No comprehensive literature search or independent
 community-acceptance assessment is claimed.
 
@@ -163,15 +163,15 @@ page).
 [[../wiki/problems/extremal_graph_theory/E0146/_index|#146]]: Chapter 10, Theorem 1.2
 (printed p. 237, PDF p. 241, read on the page image), a fixed connected
 bipartite $2$-degenerate $H$ with $\mathrm{ex}(n,H)\ge cn^{3/2+\varepsilon}$
-for all large $n$, the disproof the site accepted on 31 August 2026;
+for all large $n$, the disproof erdosproblems.com accepted on 31 August 2026;
 compiled at claims-checked depth in `chapter_10/`.
 [[../wiki/problems/extremal_graph_theory/E0575/_index|#575]]: Chapter 10, Theorem 1.1
 (printed p. 237, PDF p. 241, read on the page image), a finite family of
 connected bipartite graphs each containing a cycle with
 $\mathrm{ex}(n,\mathcal F)=O(n^{4/3-1/48})$ and $\mathrm{ex}(n,F)=\Omega(n^{4/3})$
-for every member, the disproof of the no-forest compactness conjecture the
-site accepted on 31 August 2026; the site's wording is separately false by
-Wigderson's two-forest family.
+for every member, the disproof of the no-forest compactness conjecture
+erdosproblems.com accepted on 31 August 2026; the erdosproblems.com wording is
+separately false by Wigderson's two-forest family.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

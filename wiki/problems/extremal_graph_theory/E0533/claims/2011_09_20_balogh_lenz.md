@@ -4,7 +4,8 @@ title: Balogh and Lenz, the 3-Ramsey–Turán density of K_5 is positive
 desc: |
   Theorem 3 of Balogh and Lenz gives $\theta_3(K_5)\ge1/64$, so $K_5$-free
   graphs with sublinear triangle-free sets can have quadratically many edges. It
-  was refereed in Israel J. Math. 194 (2013) and is credited by the site.
+  was refereed in Israel J. Math. 194 (2013) and is credited by
+  erdosproblems.com.
 authors:
 - József Balogh
 - John Lenz
@@ -39,9 +40,9 @@ spanning no triangle. Balogh and Lenz prove in
 that for $t\ge2$ and $2\le\ell\le t$, with $u=\lceil t/2\rceil$,
 $\theta_t(K_{t+\ell})\ge\frac12(1-\frac1\ell)2^{-u^2}$, where $\theta_t(H)$
 is the limit of $\mathrm{RT}_t(n,H,\epsilon n)/n^2$ as $n\to\infty$ and then
-$\epsilon\to0$. At $t=3$, $\ell=2$ this is $\theta_3(K_5)\ge1/64$, the
-site's $\delta_3(5)\ge1/64>0$: for every $\epsilon>0$ and all large $n$
-there is a $K_5$-free graph on $n$ vertices with $\alpha_3\le\epsilon n$ and
+$\epsilon\to0$. At $t=3$, $\ell=2$ this is $\theta_3(K_5)\ge1/64$,
+erdosproblems.com's $\delta_3(5)\ge1/64>0$: for every $\epsilon>0$ and all large
+$n$ there is a $K_5$-free graph on $n$ vertices with $\alpha_3\le\epsilon n$ and
 at least $(1/64-o(1))n^2$ edges. With $\delta=1/128$ no $c(\delta)$ exists;
 the deduction is written out on
 [[problems/extremal_graph_theory/E0533/_index|the problem page]], together
@@ -58,11 +59,11 @@ Crossref record and the arXiv listing's journal reference of 2026-09-18). The
 text cited is the arXiv v2 of 22 September 2011, and the journal text was not
 compared.
 
-Reviewed: the site's curator, Thomas F. Bloom, credits the disproof to Balogh
-and Lenz in the problem's commentary (page labeled DISPROVED (LEAN), last edited
-27 January 2026, accessed 2026-09-18). The curator's thread comment of 27
-January 2026 says that $\delta>0$ appears to have been proved earlier by Balogh
-and Lenz. The proof-claim tab is empty.
+Reviewed: the erdosproblems.com curator, Thomas F. Bloom, credits the disproof
+to Balogh and Lenz in the problem's commentary (page labeled DISPROVED (LEAN),
+last edited 27 January 2026, accessed 2026-09-18). The curator's thread comment
+of 27 January 2026 says that $\delta>0$ appears to have been proved earlier by
+Balogh and Lenz. The proof-claim tab is empty.
 
 Not formalized: the Lean file
 [`Erdos533.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos533.lean)

@@ -107,11 +107,11 @@ are not recorded here.
   $c_1\log_{(k-1)}N<F^{(k)}(N,0)<c_2\log_{(k-1)}N$ that the conjecture of
   Erdős, Hajnal and Rado would imply, Erdős's
   prize question whether $F^{(k)}(N,\alpha)$ changes continuously or in
-  jumps (the site's Problem 161), and the consequence of Theorem 6.2 that
-  $F^{(k)}(N,\alpha)>c(\log N)^\epsilon$ for every fixed $\alpha>0$; Theorem
-  6.3 (p. 17): for all positive integers $r,k,\ell$ there is $c=c(r,k,\ell)$
-  such that the $r$-color Ramsey number of the $k$-uniform blow-up
-  $K_\ell^{(k)}(n)$, with $\ell$ parts of size $n$, satisfies
+  jumps (erdosproblems.com's Problem 161), and the consequence of Theorem 6.2
+  that $F^{(k)}(N,\alpha)>c(\log N)^\epsilon$ for every fixed $\alpha>0$;
+  Theorem 6.3 (p. 17): for all positive integers $r,k,\ell$ there is
+  $c=c(r,k,\ell)$ such that the $r$-color Ramsey number of the $k$-uniform
+  blow-up $K_\ell^{(k)}(n)$, with $\ell$ parts of size $n$, satisfies
   $r(K_\ell^{(k)}(n);r)\le e^{cn^{\ell}}$ (the exponent as printed; the
   proof's first line takes $N=e^{cn^{\ell-1}}$); Question 6.4
   (p. 18), Erdős's question on pairs $A,B$ with $|A|=|B|\ge c(\log N)^{1/2}$
@@ -132,11 +132,11 @@ blow-up's edge density tends to $1$.
 - [[../wiki/problems/ramsey_theory/E0563/_index|#563]] (Section 6.2, p. 16:
   the definition of $F^{(k)}(N,\alpha)$ and the two-sided logarithmic bound
   for $k=2$, both stated without proof; the paper's wording of the definition
-  differs from Erdős's and the site's in one word, recorded on the result
-  page; the asymptotic the problem asks for is not addressed).
+  differs from Erdős's and erdosproblems.com's in one word, recorded on the
+  result page; the asymptotic the problem asks for is not addressed).
 - [[../wiki/problems/discrepancy/E0162/_index|#162]] (Section 6.2, p. 16: the
-  same display; the site's wording of #162 prints "largest", as the paper
-  does, and corrected it asks #563's question).
+  same display; the erdosproblems.com wording of #162 prints "largest", as the
+  paper does, and corrected it asks #563's question).
 - [[../wiki/problems/discrepancy/E0161/_index|#161]] (Section 6.2, p. 17, read
   on the page image: "Erdős [4] asked (and offered a \$500 cash reward) if the
   change in $F^{(k)}(N,\alpha)$ occurs continuously, or there are jumps? He

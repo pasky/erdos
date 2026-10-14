@@ -121,15 +121,15 @@ one part, and extremal girth-five graphs inserted into those disjoint
 neighborhoods); pp. 5--7 read. No proof was checked and nothing here is
 independently reviewed. The paper's reference [7] is Erdős and Simonovits,
 Compactness results in extremal graph theory, Combinatorica 2 (1982),
-275--288, the site's [ErSi82]; its [5] is the 1938 Tomsk paper and its [6]
-the 1975 Boca Raton survey, both held in this library.
+275--288, erdosproblems.com's [ErSi82]; its [5] is the 1938 Tomsk paper and its
+[6] the 1975 Boca Raton survey, both held in this library.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0573/_index|#573]]: Conjecture 1.1
-restates the question (equivalent to the site's asymptotic by (1.1) and
+restates the question (equivalent to erdosproblems.com's asymptotic by (1.1) and
 (1.2)); Theorem 1.3 and Corollary 1.4 give the best known lower bound and
 settle the second-order term against Problem 1.2; p. 2 records the trivial
 upper bound as the best known and quotes the Erdős--Simonovits
-$\{C_4,C_5\}$ theorem the site cites.
+$\{C_4,C_5\}$ theorem erdosproblems.com cites.
 [[../wiki/problems/extremal_graph_theory/E0765/_index|#765]]: p. 2 (text layer), the
 display "$\mathrm{ex}(n,\{C_3,C_4\})\le\mathrm{ex}(n,C_4)=\tfrac12n^{3/2}+O(n)$"
 quoted as the trivial bound, with footnote 2 crediting

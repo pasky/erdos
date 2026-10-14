@@ -28,10 +28,11 @@ $$
 
 for every $x\in \mathbb{R}$ and $h>0$. Must $f$ be monotonic?
 
-**Status.** Labeled PROVED (LEAN) on the site, which credits Laczkovich [La84]
-for the solution. By Laczkovich's published Theorem 1, every such function is
-**nondecreasing**, without any regularity assumption. This result is recorded as
-an [[problems/analysis/E1125/claims/1984_01_01_laczkovich|accepted claim]].
+**Status.** Labeled PROVED (LEAN) on erdosproblems.com, which credits Laczkovich
+[La84] for the solution. By Laczkovich's published Theorem 1, every such
+function is **nondecreasing**, without any regularity assumption. This result is
+recorded as an
+[[problems/analysis/E1125/claims/1984_01_01_laczkovich|accepted claim]].
 Kemperman's earlier proof of the measurable case [Ke69] is the accepted partial
 claim [[problems/analysis/E1125/claims/1969_01_01_kemperman|Kemperman 1969]].
 The Lean part of the label refers to a public formalization of Laczkovich's
@@ -45,8 +46,8 @@ https://www.erdosproblems.com/1125, accessed 2026-09-05.
 **References.**
 
 - [Er81b] Erdős, P., My Scottish Book 'Problems'. The Scottish Book (1981),
-  27–35, problem cited by the site at p. 31. The page numbering is for the
-  second edition of *The Scottish Book*.
+  27–35, problem cited by erdosproblems.com at p. 31. The page numbering is for
+  the second edition of *The Scottish Book*.
 - [Ke69] Kemperman, J. H. B., On the regularity of generalized convex functions.
   *Transactions of the American Mathematical Society* 135 (1969), 69–93.
 - [La84] Laczkovich, M., On Kemperman's inequality
@@ -148,8 +149,9 @@ has exactly the hypothesis above and concludes `Monotone f`; its
 configuration specifies Lean and Mathlib v4.29.1. It replaces the
 continued-fraction condition with explicit controlled integer approximants
 and constructs them for $\sqrt2$ using Pell sequences. The
-[site comment](https://www.erdosproblems.com/forum/thread/1125#post-5332)
-describes that choice and links the original formalization.
+[erdosproblems.com
+comment](https://www.erdosproblems.com/forum/thread/1125#post-5332) describes
+that choice and links the original formalization.
 
 The pinned file contains no `sorry`, `admit` or axiom declaration. Its
 `#print axioms` comment reports only `propext`, `Classical.choice` and

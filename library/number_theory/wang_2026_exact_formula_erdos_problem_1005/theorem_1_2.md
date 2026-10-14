@@ -5,8 +5,8 @@ desc: |
   The claimed main theorem of the 2026 Wang-Xie-Zhao preprint: for all
   sufficiently large n the Problem 1005 function equals van Doorn's upper
   bound U(n), which is m + 1, m + 2, m + 2, m + 4 for n = 4m + 0, 1, 2, 3; an
-  AI-assisted preprint and a proof claim on the site's tab, compiled at
-  statement depth only.
+  AI-assisted preprint and a proof claim on the erdosproblems.com tab, compiled
+  at statement depth only.
 created: 2026-09-18T16:10:00Z
 updated: 2026-10-08T15:17:51Z
 ---
@@ -48,8 +48,8 @@ AI assistance and the code repository are identified in the
 **Read depth.** Claims checked: Theorems 1.1--1.3 and the definition (1)
 were read clause by clause on p. 1. The proof (Sections 2--4, pp. 2--8) was
 read for its structure only; no step was checked; nothing is independently
-reviewed. Acceptance: none beyond the site's proof-claims tab, which lists the
-claim as not yet peer reviewed.
+reviewed. Acceptance: none beyond the erdosproblems.com proof-claims tab, which
+lists the claim as not yet peer reviewed.
 
 ## Proof pointer
 

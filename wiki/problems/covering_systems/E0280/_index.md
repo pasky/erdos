@@ -31,13 +31,13 @@ $$
 $$
 
 **Status.** DISPROVED (LEAN). The status-defining source is Stijn Cambie's
-observation on the site's thread (2025-08-10). Take $n_k=2^k$ and
+observation on the erdosproblems.com thread (2025-08-10). Take $n_k=2^k$ and
 $a_k=2^{k-1}+1$. Then the only uncovered $m<n_k$ is $1$, so the count is the
 constant $1$ and the statement is false. The claim page is
 [[problems/covering_systems/E0280/claims/2025_08_10_cambie|Cambie]]. It is
-accepted on the curator's credit, and there is no refereed source. The site's
-Lean qualification refers to the Lean formalization recorded under
-Formalization.
+accepted on the curator's credit, and there is no refereed source. The
+erdosproblems.com Lean qualification refers to the Lean formalization recorded
+under Formalization.
 
 **Source.** [erdosproblems.com/280](https://www.erdosproblems.com/280), accessed
 2026-09-04 and 2026-10-07 (page last edited 18 November 2025; five
@@ -55,7 +55,7 @@ Problem #280, https://www.erdosproblems.com/280.
 (pinned to the commit of 2026-09-18), whose entry carries the category
 `research solved` and a `formal_proof` attribute pointing to the `v4.29.1`
 copy of `ErdosProblems/Erdos280.lean` in Boris Alexeev's lean-proofs
-repository on its main branch, unpinned (as of 2026-10-07). The development
+repository on its main branch, unpinned (read 2026-10-07). The development
 formalizes Cambie's counterexample and is pinned
 on [[problems/covering_systems/E0280/claims/2025_08_10_cambie|the claim page]];
 this corpus has not built or audited it, so it gives no `formalized`

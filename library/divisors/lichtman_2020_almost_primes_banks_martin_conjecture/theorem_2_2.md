@@ -79,6 +79,6 @@ and pages are those of arXiv:1909.00804v2, the edition named on the
 - [[../wiki/problems/divisors/E1196/_index|Problem 1196]]: the paper does
   not state the problem. Each $\mathbb N_k$ is a primitive set whose least
   element is $2^k$, and Theorem 2.2 gives $f(\mathbb N_k)\to1$; this is the
-  lower-bound example the problem's page reports from the site's
+  lower-bound example the problem's page reports from the erdosproblems.com
   commentary. It proves nothing about the upper bound the problem asks
   for.

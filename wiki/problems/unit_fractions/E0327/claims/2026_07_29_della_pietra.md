@@ -91,8 +91,8 @@ the AI used:
 > numerical verifier, and recorded certificate. This problem was solved using
 > GPT 5.6 Sol.
 
-**Provenance.** The claim was submitted to the site's proof-claim tab on
-29 July 2026 as a full claim, declaring the AI system GPT 5.6 Sol, by the
+**Provenance.** The claim was submitted to the erdosproblems.com proof-claim tab
+on 29 July 2026 as a full claim, declaring the AI system GPT 5.6 Sol, by the
 human submitter, who is the claimant. The release `proof-claim-v1` of the
 repository `donalddellapietra/erdos-327-proof`, published the same day at
 the release commit linked above, holds version 1 of the manuscript and the
@@ -113,11 +113,10 @@ standard axioms, and describe a numerical verifier and a recorded
 certificate in the release. This corpus has not built or audited the Lean
 archive, so it gives no `formalized` evidence.
 
-**Standing.** Claimed. The site's label was OPEN and its commentary does
-not mention the claim; the tab carries its standing notice
-that listing a claim implies no examination, and no comment stands under
-the claim. There is no arXiv or journal version, and no independent review
-was found on 2026-09-17. In a comment under Sawin's claim on 29 July 2026,
-before filing their own, the claimant said they were formalizing a solution to
-the full problem. The problem's standing, claimed, derives from this
-pending full claim.
+**Standing.** Claimed. The erdosproblems.com label was OPEN and its commentary
+does not mention the claim; the tab carries its standing notice that listing a
+claim implies no examination, and no comment stands under the claim. There is no
+arXiv or journal version, and no independent review was found on 2026-09-17. In
+a comment under Sawin's claim on 29 July 2026, before filing their own, the
+claimant said they were formalizing a solution to the full problem. The
+problem's standing, claimed, derives from this pending full claim.

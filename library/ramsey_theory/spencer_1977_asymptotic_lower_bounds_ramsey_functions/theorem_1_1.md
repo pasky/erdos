@@ -139,4 +139,4 @@ filed as
   say "is contained in the proof of Theorem 2.1 of Spencer's paper" (p. 199)
   and apply for the upper bound of their
   [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_2|Theorem 2]],
-  $f(n)<Bn^{5/3}(\log n)^{2/3}$ in the site's letters.
+  $f(n)<Bn^{5/3}(\log n)^{2/3}$ in erdosproblems.com's letters.

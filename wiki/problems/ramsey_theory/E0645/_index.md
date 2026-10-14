@@ -4,7 +4,7 @@ title: Problem 645
 desc: |
   Asks whether every 2-coloring of the positive integers has a monochromatic
   progression $x,x+d,x+2d$ with $d>x$. Proved by Brown and Landman in 1999, and
-  the site also records an elementary argument.
+  erdosproblems.com also records an elementary argument.
 tags:
 - Number theory
 - Additive combinatorics
@@ -27,10 +27,10 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** If $\mathbb{N}$ is 2-coloured then must there exist a
 monochromatic three-term arithmetic progression $x,x+d,x+2d$ such that $d>x$?
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 4 April
-2026). $\mathbb N$ is the positive integers ($x\ge1$), and the progression's
-common difference must exceed its first term. By compactness the question is
-the same as asking for a least $w$ such that every 2-coloring of
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited 4
+April 2026). $\mathbb N$ is the positive integers ($x\ge1$), and the
+progression's common difference must exceed its first term. By compactness the
+question is the same as asking for a least $w$ such that every 2-coloring of
 $\{1,\ldots,w\}$ has such a progression; in Brown and Landman's notation that
 number is $w(f,3,2)$ with $f(a)=a+1$, since $d\ge a+1$ is $d>a$. Erdős's
 wording, 1980 (printed p. 93): "Is it true that if we divide the integers into
@@ -39,13 +39,13 @@ elements are in the same class and whose difference is larger than its first
 term? If true this is best possible. To see this put in the first class the
 integers $3^{2k}\le t<3^{2k+1}$, $t=1,2,\ldots$ and in the second class the
 other integers. Clearly none of the classes contains a four term arithmetic
-progression whose difference is larger than its first term." The site's
+progression whose difference is larger than its first term." erdosproblems.com's
 quotation "perhaps this is easy or false" is not on that page and is
 presumably from the second source key [Er95c], not held.
 
-**Status.** The site labeled the problem PROVED (LEAN), a label it explains as a
-positive solution whose proof has been checked in Lean. The question is proved.
-The claim pages
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN), a label it
+explains as a positive solution whose proof has been checked in Lean. The
+question is proved. The claim pages
 [[problems/ramsey_theory/E0645/claims/1999_08_01_brown_landman|Brown and Landman 1999]]
 and
 [[problems/ramsey_theory/E0645/claims/2025_10_20_alweiss|Alweiss's argument]]
@@ -58,18 +58,19 @@ audited here. The status-defining source is Theorem 7 of Brown and Landman
 authors' own version). It states that for every function $f$ from the positive
 integers to the positive reals, $w(f,3,2)$ exists. The first proof shows
 directly that every 2-coloring of the positive integers has a monochromatic
-three-term progression with $d\ge f(a)$, and $f(a)=a+1$ is this problem. The
-site's elementary argument, attributed to Ryan Alweiss, is checked below as an
-authored verification. It is correct with one index adjusted. A Lean proof of it
-was built and audited in this corpus (see "Formalization and the Lean label"
-below). The site further remarks that the statement fails for four-term
-progressions, and this is true (Brown and Landman's Theorem 12 with $k=4$,
-$r=2$). However, the explicit coloring that the site and Erdős offer as a
-witness does not have the property (an observation made here, below).
+three-term progression with $d\ge f(a)$, and $f(a)=a+1$ is this problem.
+erdosproblems.com's elementary argument, attributed to Ryan Alweiss, is checked
+below as an authored verification. It is correct with one index adjusted. A Lean
+proof of it was built and audited in this corpus (see "Formalization and the
+Lean label" below). erdosproblems.com further remarks that the statement fails
+for four-term progressions, and this is true (Brown and Landman's Theorem 12
+with $k=4$, $r=2$). However, the explicit coloring that erdosproblems.com and
+Erdős offer as a witness does not have the property (an observation made here,
+below).
 
 **Source.** [erdosproblems.com/645](https://www.erdosproblems.com/645),
 accessed 2026-09-18: the problem page (PROVED (LEAN),
-a label the site explains as a positive solution whose proof has been
+a label erdosproblems.com explains as a positive solution whose proof has been
 checked in Lean; last edited 4 April 2026; source keys [Er80, p. 93] and
 [Er95c]; commentary with the four-term remark and the elementary argument),
 its two-comment
@@ -90,8 +91,8 @@ https://www.erdosproblems.com/645, accessed 2026-09-18.
   Discrete Math. 6 (1980), 89--115; printed p. 93. Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [Er95c] P. Erdős, Some problems in number theory. Octogon Math. Mag.
-  (1995), 3--5 (the site's reference text, per its bibliography page as
-  accessed 2026-09-18). Not held; no attempt was made (outside the archive's
+  (1995), 3--5 (the erdosproblems.com reference text, per its bibliography page
+  as accessed 2026-09-18). Not held; no attempt was made (outside the archive's
   coverage).
 
 **Formalization.** The file
@@ -104,16 +105,16 @@ on that repository's `main` branch; its docstring says that the
 formalization is by Alexeev using Aristotle and ChatGPT. The community
 database records the problem proved (Lean) since 23 November 2025,
 `formal_status` Lean, the statement formalized, and no formal-proof URL; the
-site page shows "Formalised statement? Yes". This corpus built and audited
-the `src/latest` copy of the proof in `plby/lean-proofs` at a pinned commit,
-a formalization of Alweiss's argument; "Formalization and the Lean label"
-below and
+erdosproblems.com page shows "Formalised statement? Yes". This corpus built and
+audited the `src/latest` copy of the proof in `plby/lean-proofs` at a pinned
+commit, a formalization of Alweiss's argument; "Formalization and the Lean
+label" below and
 [[problems/ramsey_theory/E0645/claims/2025_10_20_alweiss|Alweiss's claim page]]
 record what was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED (LEAN), last edited 4 April 2026. The commentary quotes
 Erdős's "perhaps this is easy or false", states that the four-term
 analogue is false, offering the coloring in which the integers of
@@ -136,11 +137,11 @@ colors, and saying that the reference was found using GPT5; a comment of 23
 November 2025 (the account BorisAlexeev) reporting a Lean formalization
 produced automatically, without human interaction, from the problem
 number: ChatGPT wrote out the argument (the comment's manual note says it
-was the site's Alweiss argument, not the Brown–Landman proof, and names the
-model as gpt-5-nano), Aristotle turned the resulting LaTeX into Lean, and
+was erdosproblems.com's Alweiss argument, not the Brown–Landman proof, and names
+the model as gpt-5-nano), Aristotle turned the resulting LaTeX into Lean, and
 the file type-checked; the comment gives the running times as 2 minutes
 for ChatGPT, 1 hour for Aristotle and 57 seconds for Lean. Both are marked
-as addressed by the site. The proof-claim tab is empty.
+as addressed by erdosproblems.com. The proof-claim tab is empty.
 
 **The origin (Er80, printed p. 93).** Quoted under
 Formulation. The preceding page (p. 92) carries the first-term variant
@@ -167,11 +168,11 @@ off one of the progressions
 $\{x+2,x+d+2,x+2d+2\}$ or $\{x,x+d+1,x+2d+2\}$; compactness gives the
 finite $w$. The stronger version (p. 7) gives an explicit bound for
 non-decreasing $f$. Acceptance evidence: a refereed journal paper cited by
-the site as the first proof, with the site's own second argument agreeing.
-Read depth: claims checked; the first proof followed here, not
-independently reviewed; the stronger version's proof not checked.
+erdosproblems.com as the first proof, with erdosproblems.com's own second
+argument agreeing. Read depth: claims checked; the first proof followed here,
+not independently reviewed; the stronger version's proof not checked.
 
-**The site's elementary argument (authored check).** Suppose a red/blue
+**erdosproblems.com's elementary argument (authored check).** Suppose a red/blue
 coloring of $\mathbb N$ has no monochromatic $x,x+d,x+2d$ with $d>x$, and
 let $1$ be red. The triple $1,3,5$ has $d=2>1$, so $3$ and $5$ are not both
 red. Case "$3$ blue": for red $n\ge6$, the triple $1,n,2n-1$ ($d=n-1>1$)
@@ -181,7 +182,7 @@ integers are red, and otherwise all $n\ge6$ are blue; either way the
 coloring is constant from some $N$ on, and $N,2N+1,3N+2$ is then
 monochromatic with $d=N+1>N$. Case "$5$ blue": the triple $1,n,2n-1$
 forces $2n-1$ blue for red $n\ge3$, and the triple $5,n+2,2n-1$ has
-$d=n-3$, which exceeds $x=5$ only when $n\ge9$; so the site's "$n\ge8$"
+$d=n-3$, which exceeds $x=5$ only when $n\ge9$; so erdosproblems.com's "$n\ge8$"
 should read $n\ge9$ for this step (at $n=8$ the triple $5,10,15$ has $d=x$
 and gives nothing). With $n\ge9$: if some $n\ge9$ is red then
 $n,n+2,n+4,\ldots$ are red, and $n,2n+1,3n+2$ (for $n$ odd, $d=n+1$) or
@@ -196,7 +197,7 @@ $n=8$ separately by a finite case analysis (below).
 (p. 10) gives, for $k=4$ and $r=2$, a 2-coloring of $\mathbb N$
 with no monochromatic four-term progression whose difference is at least a
 third of its first term, in particular none with $d>a$: color $x$ by the
-parity of $i$ where $2^i\le x<2^{i+1}$. So the site's remark that the
+parity of $i$ where $2^i\le x<2^{i+1}$. So the erdosproblems.com remark that the
 four-term analogue fails is correct. Its witness, however, is Erdős's 1980
 coloring with base $3$, the integers in $[3^{2k},3^{2k+1})$ in one class
 and all others in the other, and that coloring does not have the
@@ -232,32 +233,33 @@ Tom C. Brown, Bruce M. Landman, Ryan Alweiss and ChatGPT 5.1 Pro as its informal
 authors and Aristotle and Boris Alexeev as its formal authors. It defines
 `has_monochromatic_triple_with_d_gt_x (c : ℕ → Bool)` as $\exists x,d$, $x>0$,
 $d>x$, $c(x)=c(x+d)=c(x+2d)$, proves it for every `c` through the two cases of
-the site's argument (`case_1_impossible`, `case_2_impossible`, with the step
-lemma for the second case settling $n=8$ by a separate finite case analysis) and
-a complementation for the case `c 1 = false`, and ends with `theorem erdos_645`,
-the collection's statement verbatim. This corpus's verification built that copy
-with its comparator challenge, found the axioms of `Erdos645.erdos_645` to be
-exactly `propext`, `Classical.choice` and `Quot.sound` and its fingerprint
-identical to the challenge's, and audited the statement clause by clause: it is
-the site's question for 2-colorings of the positive integers, since the color of
-$0$ is never used. Alweiss's claim page records the acceptance. The community
-database records `formal_status` Lean and no formal-proof URL.
+erdosproblems.com's argument (`case_1_impossible`, `case_2_impossible`, with the
+step lemma for the second case settling $n=8$ by a separate finite case
+analysis) and a complementation for the case `c 1 = false`, and ends with
+`theorem erdos_645`, the collection's statement verbatim. This corpus's
+verification built that copy with its comparator challenge, found the axioms of
+`Erdos645.erdos_645` to be exactly `propext`, `Classical.choice` and
+`Quot.sound` and its fingerprint identical to the challenge's, and audited the
+statement clause by clause: it is the erdosproblems.com question for 2-colorings
+of the positive integers, since the color of $0$ is never used. Alweiss's claim
+page records the acceptance. The community database records `formal_status` Lean
+and no formal-proof URL.
 
 **Forum and AI-assisted items (leads with provenance, not status).** The
 thread's two comments declare AI assistance: the Brown–Landman reference
 was located using GPT5, and the Lean file was produced by an automated
-pipeline (ChatGPT writing out the site's argument, Aristotle formalizing
-it), as described above. The standing rests on the refereed theorem and on
-the built Lean proof of the site's argument, not on the thread comments. No
-proof claim exists on the site.
+pipeline (ChatGPT writing out erdosproblems.com's argument, Aristotle
+formalizing it), as described above. The standing rests on the refereed theorem
+and on the built Lean proof of erdosproblems.com's argument, not on the thread
+comments. No proof claim exists on erdosproblems.com.
 
 **Search scope.** None of the routes below found a
-dispute of the theorem, an earlier proof, or a source for the site's
+dispute of the theorem, an earlier proof, or a source for erdosproblems.com's
 quotation of Erdős.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database; the
-  site's bibliography page for [Er95c].
+  erdosproblems.com bibliography page for [Er95c].
 - Crossref: the record of [BrLa99] found by bibliographic query (DOI
   10.1017/S0004972700033293).
 - Semantic Scholar: the citation list of Beck 1980 (sixteen records
@@ -275,14 +277,14 @@ journal text of [BrLa99].
 
 **Remaining gaps.** (1) [BrLa99] is paged here by the authors' version; the
 journal pagination 21--35 is not in that version and was not compared.
-(2) [Er95c] is not held, so the site's quotation "perhaps this is easy or
-false" is unverified. (3) The `src/v4.24.0` Lean copy that formal-conjectures
-names was not built; the built proof is the `src/latest` copy. (4) The
-site's four-term witness coloring is defective as printed (observation
-above); the four-term statement rests on Theorem 12. (5) The site's
-argument needs $n\ge9$ rather than $n\ge8$ in its second case. (6) The
-elementary argument's attribution to Alweiss rests on the site; no
-publication of it was found.
+(2) [Er95c] is not held, so erdosproblems.com's quotation "perhaps this is easy
+or false" is unverified. (3) The `src/v4.24.0` Lean copy that formal-conjectures
+names was not built; the built proof is the `src/latest` copy. (4)
+erdosproblems.com's four-term witness coloring is defective as printed
+(observation above); the four-term statement rests on Theorem 12. (5)
+erdosproblems.com's argument needs $n\ge9$ rather than $n\ge8$ in its second
+case. (6) The elementary argument's attribution to Alweiss rests on
+erdosproblems.com; no publication of it was found.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

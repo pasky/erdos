@@ -53,7 +53,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0166/_index|#166]]: Theorem 1 is the
 problem's statement with the power of the logarithm equal to $4$, the
-refereed source behind the site's PROVED label.
+refereed source behind erdosproblems.com's PROVED label.
 [[../wiki/problems/extremal_graph_theory/E0802/_index|#802]]: context only, no result on
 the problem's statement: the introduction (p. 2 of the retained arXiv v5,
 page image) cites Ajtai, Komlós and Szemerédi [1] (J. Combin. Theory Ser. A

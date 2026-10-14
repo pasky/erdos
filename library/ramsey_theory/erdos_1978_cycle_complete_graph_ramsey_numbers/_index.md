@@ -120,11 +120,12 @@ $(1+o(1))(n/\log n)^2$ by
 (i) at $m=2$ of Caro, Li, Rousseau and Zhang (2000), the upper bound the
 problem page records; the quoted (1.4) together with
 $r(\le C_4,K_n)\le r(C_4,K_n)$ (p. 64) gives the lower bound
-$c(n/\log n)^{3/2}$ that the site displays.
+$c(n/\log n)^{3/2}$ that erdosproblems.com displays.
 [[../wiki/problems/ramsey_theory/E0551/_index|#551]]: question (i) of Section 7 (p. 64) is
 the problem's origin, "It is conjectured that this formula holds for all
-$m\ge n$", printed without the site's exception at $(3,3)$; question (ii)
-is the minimizing cycle length the site also attributes to the paper.
+$m\ge n$", printed without erdosproblems.com's exception at $(3,3)$; question
+(ii) is the minimizing cycle length erdosproblems.com also attributes to the
+paper.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

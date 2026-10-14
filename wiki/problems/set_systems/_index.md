@@ -5,9 +5,9 @@ desc: |
   Finite set systems and hypergraphs: sunflowers and delta-systems,
   intersecting and union-free families, antichains, property B, block designs,
   Latin squares and finite projective planes, together with the general
-  combinatorics problems the site tags no more finely.
+  combinatorics problems erdosproblems.com tags no more finely.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Set Systems, Designs and Hypergraphs
@@ -31,9 +31,9 @@ large Steiner triple systems exist in which any $j$ edges span at least $j+3$
 vertices for $2\le j\le g$.
 
 [[problems/set_systems/E0231/_index|E0231/]]: Asks whether every string of
-length $2^k$ over $k$ letters (the site prints $2^k-1$, Erdős's misprint)
-contains two adjacent blocks that are permutations of each other. Keränen's word
-on four letters disproves it.
+length $2^k$ over $k$ letters (erdosproblems.com prints $2^k-1$, Erdős's
+misprint) contains two adjacent blocks that are permutations of each other.
+Keränen's word on four letters disproves it.
 
 [[problems/set_systems/E0447/_index|E0447/]]: Asks how large a family of subsets
 of $\{1,\ldots,n\}$ can be when no member is the union of two other distinct
@@ -77,8 +77,8 @@ as its largest intersecting subfamily has sets.
 
 [[problems/set_systems/E0702/_index|E0702/]]: Asks whether, for $k\ge4$ and $n$
 large in terms of $k$, more $k$-subsets of $\{1,\ldots,n\}$ than those through a
-fixed pair force two that meet in one point. Frankl proved it, but the site's
-wording, with no range on $n$, fails.
+fixed pair force two that meet in one point. Frankl proved it, but the
+erdosproblems.com wording, with no range on $n$, fails.
 
 [[problems/set_systems/E0703/_index|E0703/]]: Asks for the largest family of
 subsets of $\{1,\ldots,n\}$ in which no two members meet in exactly $r$
@@ -208,7 +208,7 @@ $o(n^2)$ edges.
 Finite set systems and hypergraphs: sunflowers and delta-systems, intersecting
 and union-free families, antichains, property B, block designs, Latin squares
 and finite projective planes, together with the general combinatorics problems
-the site tags no more finely.
+erdosproblems.com tags no more finely.
 
-Site tags routed here: combinatorics, graph theory, hypergraphs, intersecting
-family.
+erdosproblems.com tags routed here: combinatorics, graph theory, hypergraphs,
+intersecting family.

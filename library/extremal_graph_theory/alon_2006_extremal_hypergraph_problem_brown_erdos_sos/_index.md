@@ -98,24 +98,23 @@ their structure only. Nothing here is
 independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1157/_index|#1157]]: with $s=3$
-edges and $k=(r-t)\cdot3+t+1$ vertices in the site's letters, Theorem 1 gives
-$n^{t-o(1)}<\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ for every $r>t\ge2$, which is
-the case $s=3$ of the general Brown-Erdős-Sós conjecture the site states,
-proved for every uniformity and every exponent. Conjecture 1 (p. 12) states
-the same two bounds for every $s\ge3$ (a conjecture);
-Proposition 5.1 (pp. 12-13) gives the lower bounds
-$\mathrm{ex}_3(n,\mathcal F)>n^{2-o(1)}$ for $(k,s)=(7,4)$ and $(8,5)$,
-lower bounds only; Proposition 5.2 (p. 13) derives the conjecture's upper
-bound for every $t$ from its case $t=2$, a conditional reduction.
-[[../wiki/problems/set_systems/E0716/_index|#716]]: pp. 1--2 (text layer), the
-"(6, 3)-problem" with the 1973 bounds $\Omega(n^{3/2})=f_3(n,6,3)=O(n^2)$
-and display (2), Ruzsa and Szemerédi's $n^{2-o(1)}<f_3(n,6,3)=o(n^2)$: the
-problem's question and its answer as this paper cites them.
-[[../wiki/problems/set_systems/E1076/_index|#1076]]: p. 1, the Brown--Erdős--Sós result
-$f_r(n,e(r-k)+k,e)=\Theta(n^k)$ for $2\le k<r$ and $e\ge3$, which at $r=3$,
-$k=2$ reads $f_3(n,e+2,e)=\Theta(n^2)$, the order of the problem's
-$\mathrm{ex}_3(n,\mathcal F_k)$ with $k=e+2$ vertices and $e$ edges (the
-constant $1/6$ the problem asks for is not discussed).
+edges and $k=(r-t)\cdot3+t+1$ vertices in erdosproblems.com's letters, Theorem 1
+gives $n^{t-o(1)}<\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ for every $r>t\ge2$, which
+is the case $s=3$ of the general Brown-Erdős-Sós conjecture erdosproblems.com
+states, proved for every uniformity and every exponent. Conjecture 1 (p. 12)
+states the same two bounds for every $s\ge3$ (a conjecture); Proposition 5.1
+(pp. 12-13) gives the lower bounds $\mathrm{ex}_3(n,\mathcal F)>n^{2-o(1)}$ for
+$(k,s)=(7,4)$ and $(8,5)$, lower bounds only; Proposition 5.2 (p. 13) derives
+the conjecture's upper bound for every $t$ from its case $t=2$, a conditional
+reduction. [[../wiki/problems/set_systems/E0716/_index|#716]]: pp. 1--2 (text
+layer), the "(6, 3)-problem" with the 1973 bounds
+$\Omega(n^{3/2})=f_3(n,6,3)=O(n^2)$ and display (2), Ruzsa and Szemerédi's
+$n^{2-o(1)}<f_3(n,6,3)=o(n^2)$: the problem's question and its answer as this
+paper cites them. [[../wiki/problems/set_systems/E1076/_index|#1076]]: p. 1, the
+Brown--Erdős--Sós result $f_r(n,e(r-k)+k,e)=\Theta(n^k)$ for $2\le k<r$ and
+$e\ge3$, which at $r=3$, $k=2$ reads $f_3(n,e+2,e)=\Theta(n^2)$, the order of
+the problem's $\mathrm{ex}_3(n,\mathcal F_k)$ with $k=e+2$ vertices and $e$
+edges (the constant $1/6$ the problem asks for is not discussed).
 [[../wiki/problems/set_systems/E1178/_index|#1178]]: the same $\Theta(n^k)$ sentence at
 $k=2$ gives $d_r(e)>(r-2)e+2$ for every $r\ge3$, and display (3)
 (Erdős--Frankl--Rödl, p. 2) with Theorem 1 at $k=2$ gives

@@ -25,15 +25,15 @@ updated: 2026-10-08T14:06:00Z
 $\gg N^{1/2}$ then there exists some non-empty $S\subseteq A$ such that
 $\sum_{n\in S}n\equiv 0\pmod{N}$?
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 6 March
-2026). "$\gg N^{1/2}$" asks for one absolute constant $c>0$ such that every
-$A\subseteq\mathbb Z/N\mathbb Z$ with $|A|\ge c\sqrt N$ has a nonempty zero-sum
-subset, for every $N$; the formal-conjectures statement reads it so. $A$ is a
-set of residues (no repetition); the residue $0$ may belong to $A$, in which
-case $\{0\}$ answers the question, so the content is the nonzero residues. Erdős
-and Heilbronn's original Conjecture 3 (1964, p. 158) has the constant $2$ for
-$k$ distinct nonzero residues, "where $p$ is not necessarily a prime", and the
-next sentence extends it to finite abelian groups of composite order and,
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited 6
+March 2026). "$\gg N^{1/2}$" asks for one absolute constant $c>0$ such that
+every $A\subseteq\mathbb Z/N\mathbb Z$ with $|A|\ge c\sqrt N$ has a nonempty
+zero-sum subset, for every $N$; the formal-conjectures statement reads it so.
+$A$ is a set of residues (no repetition); the residue $0$ may belong to $A$, in
+which case $\{0\}$ answers the question, so the content is the nonzero residues.
+Erdős and Heilbronn's original Conjecture 3 (1964, p. 158) has the constant $2$
+for $k$ distinct nonzero residues, "where $p$ is not necessarily a prime", and
+the next sentence extends it to finite abelian groups of composite order and,
 "mutatis mutandis", to non-abelian groups; Erdős's 1965 and 1973 restatements
 ask for an absolute constant and add that the right constant is "perhaps
 $\sqrt2$"; Erdős and Graham's 1980 monograph (p. 103) records the conjecture
@@ -42,18 +42,18 @@ Selfridge's conjecture (1976; monograph p. 95; Balandraud's Theorem 9): the
 largest zero-sum free subset of $\mathbb Z/p\mathbb Z$ has $k$ elements where
 $k$ is the greatest integer with $k(k+1)/2<p$.
 
-**Status.** The site's label was PROVED (LEAN). The standing derives from the
-claim page
+**Status.** The erdosproblems.com label was PROVED (LEAN). The standing derives
+from the claim page
 [[problems/integer_sequences/E0540/claims/1969_05_15_szemeredi|Szemerédi's theorem]],
-accepted on the refereed publication and the site's acceptance, so the problem
-is solved, proved. Szemerédi's Theorem (Acta Arith. 1970, refereed) gives $c>0$
-and $n_0$ with the following property: for every $n>n_0$, every abelian group of
-order $n$ and every subset $A$ with $|A|\ge c\sqrt n$, $0$ is a sum of a
-nonempty subset of $A$. For $n\le n_0$, any $c\ge\sqrt{n_0}$ makes
+accepted on the refereed publication and erdosproblems.com's acceptance, so the
+problem is solved, proved. Szemerédi's Theorem (Acta Arith. 1970, refereed)
+gives $c>0$ and $n_0$ with the following property: for every $n>n_0$, every
+abelian group of order $n$ and every subset $A$ with $|A|\ge c\sqrt n$, $0$ is a
+sum of a nonempty subset of $A$. For $n\le n_0$, any $c\ge\sqrt{n_0}$ makes
 $c\sqrt n\ge n$, so only $A=\mathbb Z/n\mathbb Z\ni0$ qualifies. Hence one
-constant serves every $N$ (a one-line remark on this page). The site's (LEAN)
-suffix is a catalog label explained under Formalization and the Lean label
-below.
+constant serves every $N$ (a one-line remark on this page). erdosproblems.com's
+(LEAN) suffix is a catalog label explained under Formalization and the Lean
+label below.
 
 Each refinement has its claim page. Olson (1968, Theorem 1) proved the prime
 case with the threshold $s>(4p-3)^{1/2}$, hence with the constant $2$
@@ -75,12 +75,12 @@ page leaves open whether it settles the non-abelian question. The paper has no
 claim page.
 
 **Source.** [erdosproblems.com/540](https://www.erdosproblems.com/540), accessed
-2026-09-18: the problem page (PROVED (LEAN), the site's label for a positive
-answer whose proof has been verified in Lean; last edited 6 March 2026; source
-keys [ErHe64], [Er65b], [Er73], [ErGr80, p. 103], with [Ol68], [Sz70], [Ba12],
-[HaZe96] and [Gu04] cited in the commentary; OEIS A034463), its two-comment
-discussion thread (8 October 2025 and 15 April 2026) and its empty proof-claim
-tab. Cite as: T. F. Bloom, Erdős Problem #540,
+2026-09-18: the problem page (PROVED (LEAN), the erdosproblems.com label for a
+positive answer whose proof has been verified in Lean; last edited 6 March 2026;
+source keys [ErHe64], [Er65b], [Er73], [ErGr80, p. 103], with [Ol68], [Sz70],
+[Ba12], [HaZe96] and [Gu04] cited in the commentary; OEIS A034463), its
+two-comment discussion thread (8 October 2025 and 15 April 2026) and its empty
+proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #540,
 https://www.erdosproblems.com/540, accessed 2026-09-18.
 
 **References.**
@@ -134,7 +134,7 @@ https://www.erdosproblems.com/540, accessed 2026-09-18.
   time): the largest number of residue classes mod $n$ with no zero-sum
   subset.
 
-**Formalization.** The site's (LEAN) suffix is a catalog label; see
+**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label; see
 "Formalization and the Lean label" below. The file
 [`ErdosProblems/540.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/540.lean)
 of formal-conjectures at the commit that was main on 2026-09-18 defines
@@ -150,7 +150,7 @@ Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED (LEAN), last edited 6 March 2026. The commentary,
 paraphrased here, traces the question to Erdős and Heilbronn [ErHe64] and
 answers it yes, naming Olson [Ol68] for prime $N$ and Szemerédi [Sz70] for
@@ -160,8 +160,8 @@ Balandraud's proof of it for prime $N$ [Ba12]; it gives Hamidoune and
 Zémor's threshold $(1+o(1))\sqrt{2N}$ for abelian groups of order $N$
 [HaZe96]; and it points to C15 of Guy's collection [Gu04]. The thread: a
 comment of 8 October 2025 supplying the Hamidoune--Zémor bound, after which
-the site was updated, and noting that Erdős and Heilbronn also asked about
-non-abelian groups; a comment of 15 April 2026 by Matteo Del Vecchio
+erdosproblems.com was updated, and noting that Erdős and Heilbronn also asked
+about non-abelian groups; a comment of 15 April 2026 by Matteo Del Vecchio
 reporting that the prover Aristotle (Harmonic) formalized, with the poster, a
 solution following Szemerédi's paper, linking a Lean file (below). The
 proof-claim tab is empty.
@@ -199,7 +199,7 @@ and Olson [Ol (75)]"; p. 95: "Selfridge [Self (76)] conjectures that a
 maximum set $A$ of distinct residues modulo $p$ having the property that no
 subset of $A$ sums to $0\pmod p$ is given by $\{-2,1,3,4,5,\ldots,t\}$ for
 an appropriate $t$. For nonprime $p$ the situation seems to be less clear",
-with Devitt and Lam's computed maxima $a(m)$ for $m\le50$. The site's
+with Devitt and Lam's computed maxima $a(m)$ for $m\le50$. erdosproblems.com's
 "$(2N)^{1/2}$" is thus Erdős's 1965 and 1973 "$\sqrt2$", and the 1964 paper's
 own constant is $2$.
 
@@ -214,9 +214,9 @@ chain-counting alternative; this page records its structure, not a check of each
 step. The paper records that the stronger conjectures ($2\sqrt n$; non-abelian
 groups) are undecided and, in an editor's footnote, that Olson proved the prime
 case. Acceptance evidence, recorded on the claim page: refereed publication in
-Acta Arithmetica, the site's label and commentary, Erdős's own 1973 and 1980
-acknowledgments, and forty citing records in Semantic Scholar (read 2026-09-18),
-none a dispute by its title. Read depth: claims checked.
+Acta Arithmetica, the erdosproblems.com label and commentary, Erdős's own 1973
+and 1980 acknowledgments, and forty citing records in Semantic Scholar (read
+2026-09-18), none a dispute by its title. Read depth: claims checked.
 
 **Refinements of the constant.** Prime modulus: Olson's
 [[../library/integer_sequences/olson_1968_addition_theorem_modulo/theorem_1|Theorem 1]]
@@ -239,11 +239,11 @@ and Prakash and by Nguyen, Szemerédi and Vu (per [Ba12], second-hand). General
 finite abelian groups: Hamidoune and Zémor's
 [[../library/integer_sequences/hamidoune_1996_zero_free_subset_sums/theorem_4_5|Theorem 4.5]]
 (p. 151): $|S|>\sqrt{2n}+\varepsilon(n)$ with $\varepsilon(n)=O(n^{1/3}\ln n)$
-implies $0\in\Sigma^*(S)$, the site's $(1+o(1))\sqrt{2N}$. For composite $N$ the
-exact maximum is not known in closed form (the monograph's p. 95 reports Devitt
-and Lam's computations; the OEIS entry A034463 lists the values, e.g. $a(20)=6$,
-$a(30)=7$, with Schoenfield's constructions in its comments; values as the OEIS
-record gives them, not recomputed). The claim pages
+implies $0\in\Sigma^*(S)$, erdosproblems.com's $(1+o(1))\sqrt{2N}$. For
+composite $N$ the exact maximum is not known in closed form (the monograph's p.
+95 reports Devitt and Lam's computations; the OEIS entry A034463 lists the
+values, e.g. $a(20)=6$, $a(30)=7$, with Schoenfield's constructions in its
+comments; values as the OEIS record gives them, not recomputed). The claim pages
 [[problems/integer_sequences/E0540/claims/1968_07_01_olson|Olson (1968)]],
 [[problems/integer_sequences/E0540/claims/1996_01_18_hamidoune_zemor|Hamidoune and Zémor (1996)]]
 and
@@ -252,9 +252,9 @@ record these results. Read depth: claims checked for each theorem; Balandraud's
 ten-line deduction of Theorem 9 from Theorem 5 is checked, Theorem 5 itself
 is not.
 
-**Formalization and the Lean label.** The site's (LEAN) suffix is a catalog
-label. The formal-conjectures file at the pinned commit is a statement with a
-`sorry` body whose `formal_proof` attribute names
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
+catalog label. The formal-conjectures file at the pinned commit is a statement
+with a `sorry` body whose `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos540.lean` in `plby/lean-proofs` on its `main`
 branch, not a fixed commit. At the repository's head of 15 September 2026, the
 commit the Szemerédi claim page links, the file (42,670 bytes, 978 lines; Lean
@@ -276,8 +276,8 @@ Lean and no formal-proof URL.
 Szemerédi's theorem, a determination of the constant for composite $N$ beyond
 Hamidoune--Zémor, or a non-abelian result.
 
-- The site: problem page, discussion thread and proof-claim tab;
-  formal-conjectures at the pinned commit; the community database as of
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
+  formal-conjectures at the pinned commit; the community database, read
   2026-09-18; the external Lean file and the gist through the
   GitHub API and the gist's raw URL.
 - arXiv: the API record of 0907.3492 (v1 only) and the query

@@ -4,7 +4,8 @@ title: "Sothanaphan: a certified parameter improvement in the He-Tang family"
 desc: |
   Sothanaphan's note, produced with GPT-5.2 Thinking, certifies by interval
   arithmetic that a new parameter choice in He and Tang's family gives
-  $B\ge0.585078819653$. The site's commentary credits it, but it is unreviewed.
+  $B\ge0.585078819653$. The erdosproblems.com commentary credits it, but it is
+  unreviewed.
 authors:
 - Nat Sothanaphan
 status: claimed
@@ -60,8 +61,8 @@ it says, corresponds to no proven entire-function construction. The note's
 disclaimer says that the document was generated in a near-autonomous process
 by GPT-5.2 Thinking, and a code package accompanies it.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 1 March
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+1 March 2026:
 
 > I have run GPT in a near-autonomous process to try to improve the constant.
 > Here is the writeup.
@@ -79,15 +80,15 @@ by GPT-5.2 Thinking, and a code package accompanies it.
 **Covers.** The lower bound $B\ge0.585078819653$ only. The value of $B$ and
 the upper bound $B\le2/\pi-c$ of Clunie and Hayman are not addressed.
 
-**Standing.** Sothanaphan announced the note in the site's discussion thread
-on 1 March 2026, describing the computation as GPT run in a near-autonomous
-process. The site's commentary (page last edited 2 April 2026) credits the
-improvement of the lower bound to $0.5850788$, a truncation of the note's
-value, to GPT as prompted by Sothanaphan, and Tao's table of bounds for the
-constant records the value with the same credit. The problem's label was
-OPEN, so the commentary's credit is not an acceptance. The note is not
-refereed and not formalized, and the only check of it recorded anywhere is
-the re-verification claimed in
+**Standing.** Sothanaphan announced the note in the erdosproblems.com discussion
+thread on 1 March 2026, describing the computation as GPT run in a
+near-autonomous process. The erdosproblems.com commentary (page last edited 2
+April 2026) credits the improvement of the lower bound to $0.5850788$, a
+truncation of the note's value, to GPT as prompted by Sothanaphan, and Tao's
+table of bounds for the constant records the value with the same credit. The
+problem's label was OPEN, so the commentary's credit is not an acceptance. The
+note is not refereed and not formalized, and the only check of it recorded
+anywhere is the re-verification claimed in
 [[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower
 bound]], itself unreviewed. The claim stays claimed.
 

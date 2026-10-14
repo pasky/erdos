@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 178, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/discrepancy/E0178/claims
@@ -18,6 +18,7 @@ Combinatorica.
 
 [[problems/discrepancy/E0178/claims/2026_09_19_korsky|2026_09_19_korsky]]: Samuel Korsky's 2026 manuscript claims that the constant in Problem 178 can be
 taken as a fixed power of $d$ with exponent $3/2+\sqrt2$, improving Beck's
-exponent $4+\epsilon$. It is a site proof claim with no review known.
+exponent $4+\epsilon$. It is an erdosproblems.com proof claim with no review
+known.
 
 ***

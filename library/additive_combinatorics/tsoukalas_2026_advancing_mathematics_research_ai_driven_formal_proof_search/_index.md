@@ -224,7 +224,7 @@ on the problem pages.
 - [[../wiki/problems/divisors/E0026/_index|#26]]:
   [[additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_26_variant|Erdős #26, More General Variant]]
   refutes Tenenbaum's variant with a thick sequence, which also answers the
-  question as the site states it no.
+  question as erdosproblems.com states it no.
 - [[../wiki/problems/diophantine_problems/E0125/_index|#125]]:
   [[additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_125|Erdős #125]]
   proves that $A+B$ has lower density zero, a no; the upper density is left

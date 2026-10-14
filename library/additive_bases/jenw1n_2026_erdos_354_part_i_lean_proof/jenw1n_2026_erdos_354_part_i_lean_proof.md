@@ -2,24 +2,25 @@
 name: additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/jenw1n_2026_erdos_354_part_i_lean_proof
 title: Source record for the Conjectures.io proof of Problem 354 part (i)
 desc: |
-  Record identity, the site's dates and review decision, its verification
+  Record identity, Conjectures.io's dates and review decision, its verification
   report, the task's pinned statement and the public standing of the result
-  as of 2026-09-28.
+  on 2026-09-28.
 created: 2026-09-28T03:20:00Z
 updated: 2026-10-05T05:52:35Z
 ---
 
 ***
 
-**Source type.** Lean 4 proof file published by a bounty-site result record; no
-PDF or write-up exists. The site's results listing shows no "Read explanation
-(PDF)" link for this record (records for Problems 944 and 96 have one), the
-result and solution pages link no `/papers/` file, and the site's contribution
-index for `erdos-354-parts-i` lists no contributions. The file is not held in
-the library; its URL, size and SHA-256 are on the [source card](_index.md). All
-facts below were read on 2026-09-28 (UTC) unless dated otherwise.
+**Source type.** Lean 4 proof file published by a bounty-site result
+record; no PDF or write-up exists. Conjectures.io's results listing shows no
+"Read explanation (PDF)" link for this record (records for Problems 944
+and 96 have one), the result and solution pages link no `/papers/` file,
+and Conjectures.io's contribution index for `erdos-354-parts-i` lists no
+contributions. The file is not held in the library; its URL, size and SHA-256
+are on the [source card](_index.md). All facts below were read on 2026-09-28
+(UTC) unless dated otherwise.
 
-**Author.** JenW1N, the solver handle the site shows for the record ("Who
+**Author.** JenW1N, the solver handle Conjectures.io shows for the record ("Who
 this proof is credited to"). The file's header names no author and
 declares no AI system.
 
@@ -32,8 +33,8 @@ declares no AI system.
   <https://conjectures.io/results/815c1d5f-3afb-4430-8e2c-260d9038f5b0/solution>.
 - Lean download:
   <https://conjectures.io/results/815c1d5f-3afb-4430-8e2c-260d9038f5b0/solution/download>.
-- Problem page (listed Solved in the site's catalog; no part (ii) task
-  exists on the site):
+- Problem page (listed Solved in Conjectures.io's catalog; no part (ii) task
+  exists on Conjectures.io):
   <https://conjectures.io/problems/erdos354-erdos-354-parts-i>.
 - Task bundle (pinned by the contribution index at commit `2a58149e`):
   <https://github.com/conjectures-io/conjectures-tasks/tree/2a58149e6edb0f1dc15b32391f8c29fdd85e9db3/pool/tier-1/erdos-354-parts-i-formalized>.
@@ -68,7 +69,7 @@ same at both pinned commits; the conjectures-tasks `main` manifest names
 `6a786f99`, so the record's `8432eac9` revision is not in that pool, a
 discrepancy recorded here and not resolved. Neither pinned commit is
 reachable in `google-deepmind/formal-conjectures` (HTTP 404); the
-statement on the catalog's default branch (`main` at
+statement on formal-conjectures' default branch (`main` at
 `e6fac203f1f66c8550969c93530ad6462e05fb7b`, 2026-09-27T21:29Z, fetched
 2026-09-28) is identical, with `FloorMultiples.interleave` in its
 corrected `n / 2` form (PR #1330, merged 2025-12-03, fixing issue #1309 of
@@ -113,8 +114,8 @@ created September 12, is later than acceptance. These findings are bounded
 by the sources inspected, including some unavailable full texts and
 incomplete social-search coverage; they are not a guarantee of absolute
 novelty." The note's sources are the erdosproblems.com page,
-arXiv:2607.14071v4 ("Fan v4"), the part (ii) repository, the site's
-proof-claims tab and the site's review policy document
+arXiv:2607.14071v4 ("Fan v4"), the part (ii) repository, the erdosproblems.com
+proof-claims tab and Conjectures.io's review policy document
 (`docs/MANUAL_REVIEW_CRITERIA.md` of `conjectures-io/conjectures-validator`
 at commit `076ead3c`).
 

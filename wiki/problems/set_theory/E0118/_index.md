@@ -65,30 +65,31 @@ https://www.erdosproblems.com/118.
 
 ## Current assessment
 
-The standing judges the site's formulation of 2026-09-04 above; in arrow
-notation it asks whether $\alpha\to(\alpha,3)^2$ forces $\alpha\to(\alpha,n)^2$
-for every finite $n$, the conjecture of Erdős and Hajnal about partition
-ordinals. The answer is no. The counterexample is $\alpha=\omega^{\omega^2}$:
-Schipperus [Sc99, Sc10] proves $\omega^{\omega^2}\to(\omega^{\omega^2},3)^2$
-(Theorem 28) and $\omega^{\omega^2}\not\to(\omega^{\omega^2},6)^2$ (Theorem
-29(1)); the paper credits Darby [Da99] with an independent proof of the negative
-relations for $\omega^{\omega^\beta}$ with $\beta$ finite and reports that Darby
-also proved the positive one independently, citing no paper for it. Larson
-[La00] sharpened the $6$ to a $5$, and Schipperus reports without proof that
-Larson also proved $\omega^{\omega^2}\to(\omega^{\omega^2},4)^2$, so $5$ is the
-exact boundary for this $\alpha$. The three results have accepted claim pages,
+The standing judges the erdosproblems.com formulation of 2026-09-04 above; in
+arrow notation it asks whether $\alpha\to(\alpha,3)^2$ forces
+$\alpha\to(\alpha,n)^2$ for every finite $n$, the conjecture of Erdős and Hajnal
+about partition ordinals. The answer is no. The counterexample is
+$\alpha=\omega^{\omega^2}$: Schipperus [Sc99, Sc10] proves
+$\omega^{\omega^2}\to(\omega^{\omega^2},3)^2$ (Theorem 28) and
+$\omega^{\omega^2}\not\to(\omega^{\omega^2},6)^2$ (Theorem 29(1)); the paper
+credits Darby [Da99] with an independent proof of the negative relations for
+$\omega^{\omega^\beta}$ with $\beta$ finite and reports that Darby also proved
+the positive one independently, citing no paper for it. Larson [La00] sharpened
+the $6$ to a $5$, and Schipperus reports without proof that Larson also proved
+$\omega^{\omega^2}\to(\omega^{\omega^2},4)^2$, so $5$ is the exact boundary for
+this $\alpha$. The three results have accepted claim pages,
 [[problems/set_theory/E0118/claims/1999_01_01_schipperus|Schipperus 1999]],
 [[problems/set_theory/E0118/claims/1999_07_01_darby|Darby 1999]] and
 [[problems/set_theory/E0118/claims/2000_09_01_larson|Larson 2000]]. Schipperus's
-page carries a refereed journal paper and the site's curator's credit; Darby's
-and Larson's carry the curator's credit alone: each account rests on the paper's
-journal record, on Schipperus's report (p. 1197) and, for Darby, on Erdős 1995
-§1, and each rests on Schipperus's proof of the positive relation for the half
-those sources do not supply. [HST10], Chapter 2.9, gives the background. Search
-scope: the site's problem page, discussion thread and proof-claims page; the
-proof-claims page carried no further claim, and on 2026-10-07 the page and
-thread carried none. Nothing on this page is independently
-reviewed.
+page carries a refereed journal paper and the erdosproblems.com curator's
+credit; Darby's and Larson's carry the curator's credit alone: each account
+rests on the paper's journal record, on Schipperus's report (p. 1197) and, for
+Darby, on Erdős 1995 §1, and each rests on Schipperus's proof of the positive
+relation for the half those sources do not supply. [HST10], Chapter 2.9, gives
+the background. Search scope: the erdosproblems.com problem page, discussion
+thread and proof-claims page; the proof-claims page carried no further claim,
+and on 2026-10-07 the page and thread carried none. Nothing on this page is
+independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

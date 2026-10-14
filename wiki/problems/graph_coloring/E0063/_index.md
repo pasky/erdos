@@ -25,9 +25,9 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Does every graph with infinite chromatic number contain a
 cycle of length $2^n$ for infinitely many $n$?
 
-**Status.** The site labeled the problem PROVED (LEAN). It credits Zach Hunter
-with deducing it from Liu and Montgomery's even-cycle interval theorem. The
-accepted full claim is
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). It credits Zach
+Hunter with deducing it from Liu and Montgomery's even-cycle interval theorem.
+The accepted full claim is
 [[problems/graph_coloring/E0063/claims/2020_10_29_liu_montgomery|powers of two from the even-cycle interval theorem]].
 The uncountable-chromatic case is an accepted partial claim,
 [[problems/graph_coloring/E0063/claims/1966_03_01_erdos_hajnal|every power of two at uncountable chromatic number]].
@@ -37,9 +37,9 @@ The Lean behind the qualifier is described below.
 [erdosproblems.com/63](https://www.erdosproblems.com/63), accessed
 2026-09-05. On that date the discussion thread held one comment, of
 15 November 2025, reporting a broken [dBEr51] reference and marked addressed
-by the site, and the proof-claims thread was empty.
+by erdosproblems.com, and the proof-claims thread was empty.
 
-**References.** Original problem references, as listed by the site:
+**References.** Original problem references, as listed by erdosproblems.com:
 [Er93, p. 342], [Er94b], [Er95], [Er95d], [Er96], [Er97b]. Of these, [Er97b]
 (Erdős, Some old and new problems in various branches of combinatorics,
 Discrete Math. 165/166 (1997), 227--231) states the Erdős--Mihók conjecture as
@@ -54,13 +54,14 @@ Existing formalizations below.
 
 **Claims.** The full claim page is accepted on the curator's credit alone:
 the theorem it rests on is refereed (J. Amer. Math. Soc. **36** (2023)), but
-the problem's statement is a deduction recorded on the site, not a theorem of
-the paper, so the page lists no `refereed` evidence; the public Lean proof of
-the statement, which declares itself a formalization of Liu and Montgomery's
-solution, is a `formalization` link on the page and not `formalized`
-evidence, because this corpus has not built it. The uncountable-chromatic
-case, which the site credits to David Penman's observation from a theorem of
-Erdős and Hajnal [ErHa66], is an accepted partial claim
+the problem's statement is a deduction recorded on erdosproblems.com, not a
+theorem of the paper, so the page lists no `refereed` evidence; the public Lean
+proof of the statement, which declares itself a formalization of Liu and
+Montgomery's solution, is a `formalization` link on the page and not
+`formalized` evidence, because this corpus has not built it. The
+uncountable-chromatic case, which erdosproblems.com credits to David Penman's
+observation from a theorem of Erdős and Hajnal [ErHa66], is an accepted partial
+claim
 ([[problems/graph_coloring/E0063/claims/1966_03_01_erdos_hajnal|claim page]]),
 filed under that theorem as the full claim is filed under Liu and
 Montgomery's. It is refereed because the cycles are subgraphs of what the
@@ -74,7 +75,7 @@ Compilation coverage is separate from the problem's standing.
 
 ## Progress
 
-The site attributes the conjecture to Mihók and Erdős. It records Zach
+erdosproblems.com attributes the conjecture to Mihók and Erdős. It records Zach
 Hunter's observation that the answer follows from
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/theorem_1_1|Liu–Montgomery, Theorem 1.1]]:
 a finite graph of sufficiently large average degree $d$ contains every
@@ -95,7 +96,7 @@ required infinitude of distinct powers.
 
 The same interval theorem yields
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/corollary_1_3|unavoidability for much more general even sequences]].
-This is a shared method, not an independent proof. The site also
+This is a shared method, not an independent proof. erdosproblems.com also
 mentions possible replacements of powers of two by other sequences,
 including squares, and links
 [[problems/extremal_graph_theory/E0064/_index|Problem 64]].
@@ -104,7 +105,7 @@ specific minimum-degree-three assertion of #64.
 
 ## The uncountable-chromatic case
 
-The site credits David Penman with a separate observation: if
+erdosproblems.com credits David Penman with a separate observation: if
 $\chi(G)>\aleph_0$, an Erdős–Hajnal theorem supplies arbitrarily large
 finite complete bipartite subgraphs. In the stronger formulation of
 [[../library/graph_coloring/reiher_2024_graphs_large_girth/theorem_3_17|Reiher, Theorem 3.17]],
@@ -137,8 +138,8 @@ problem, names Hong Liu and Richard Montgomery as its informal authors and
 Codex and GPT-5.6 Sol as its formal authors, and its theorem `erdos_63`
 states that a simple graph whose chromatic number is $\top$ has a cycle of
 length $2^n$ for infinitely many $n$. The claim page links the file at the
-commit the catalog cites; this corpus has not built it, so it is a link and
-not `formalized` evidence.
+commit the formal-conjectures catalog cites; this corpus has not built it, so it
+is a link and not `formalized` evidence.
 
 An earlier
 [LeanGenius source file](https://github.com/rjwalters/lean-genius/blob/f9c62750e76180f15c7bd6c5759be320d7feffdc/proofs/Proofs/Erdos63Problem.lean#L168)

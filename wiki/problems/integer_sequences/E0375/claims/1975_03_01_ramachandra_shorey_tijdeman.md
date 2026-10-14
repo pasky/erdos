@@ -44,8 +44,9 @@ and longer runs are not covered. The formal-conjectures statement file
 records this range as a variant of the problem.
 
 **Acceptance.** The result appeared in 1975 in the Journal für die reine und
-angewandte Mathematik, a refereed journal. This is the `refereed` evidence. The
-site labeled the problem FALSIFIABLE, which is an open label, so the credit in
-its commentary is not `reviewed` evidence. For all large $n$, the range of
+angewandte Mathematik, a refereed journal. This is the `refereed` evidence.
+Bloom's catalog labeled the problem FALSIFIABLE, which is an open label, so the
+credit in its commentary is not `reviewed` evidence. For all large $n$, the
+range of
 [[problems/integer_sequences/E0375/claims/1969_12_01_grimm|Grimm's theorem]]
 lies inside the range of this one.

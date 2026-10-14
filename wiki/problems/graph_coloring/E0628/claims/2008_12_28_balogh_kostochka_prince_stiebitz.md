@@ -31,13 +31,14 @@ updated: 2026-10-07T21:55:30Z
 $2$, with chromatic number $k$ and no $K_k$, then for every $a,b\ge2$ with
 $a+b=k+1$ it has two disjoint subgraphs of chromatic numbers at least $a$ and
 at least $b$: the question of [[problems/graph_coloring/E0628/_index|Problem
-628]] has the answer yes on these two classes. The site's commentary credits
-József Balogh, Alexandr V. Kostochka, Noah Prince and Michael Stiebitz, *The
-Erdős-Lovász Tihany conjecture for quasi-line graphs*, with both results, and
-the formal-conjectures statement file states them as its variants
+628]] has the answer yes on these two classes. The erdosproblems.com commentary
+credits József Balogh, Alexandr V. Kostochka, Noah Prince and Michael Stiebitz,
+*The Erdős-Lovász Tihany conjecture for quasi-line graphs*, with both results,
+and the formal-conjectures statement file states them as its variants
 `erdos_628.variants.quasi_line` and
 `erdos_628.variants.independence_number_2`, marked solved and unproved in
-Lean. The statements are recorded on this page as the site credits them.
+Lean. The statements are recorded on this page as erdosproblems.com credits
+them.
 
 **Covers.** Quasi-line graphs and graphs with independence number $2$, for
 every $k$ and every admissible pair $(a,b)$. It says nothing about any graph
@@ -47,6 +48,6 @@ outside these two classes.
 issue dated 28 June 2009. The article was posted online when its DOI was
 registered on 28 December 2008, the date of this page. That is the Crossref
 record's creation date, and OpenAlex gives the same day. No arXiv preprint
-exists. The site's curator credits the results in the commentary of a problem
-the site labeled FALSIFIABLE. That label settles nothing, so the credit is not
-listed as `reviewed`.
+exists. The erdosproblems.com curator credits the results in the commentary of a
+problem Bloom's catalog labeled FALSIFIABLE. That label settles nothing, so the
+credit is not listed as `reviewed`.

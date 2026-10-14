@@ -64,10 +64,10 @@ proof was checked, and nothing here is independently reviewed.
 
 - Abstract and § 1, Introduction (p. 343, page image). A subgraph $M$ of $G$
   is $\Gamma$-heterochromatic under an edge-coloring $\Gamma$ "if no two
-  edges of $M$ receive the same colour from $\Gamma$"; the site's "rainbow"
-  and the 1975 paper's "totally multicoloured". The definition, quoted:
-  "Let $h(n,p)$ be the minimum integer such that every edge-colouring of the
-  complete graph $K_n$ using exactly $h(n,p)$ colours produces at least one
+  edges of $M$ receive the same colour from $\Gamma$"; erdosproblems.com's
+  "rainbow" and the 1975 paper's "totally multicoloured". The definition,
+  quoted: "Let $h(n,p)$ be the minimum integer such that every edge-colouring of
+  the complete graph $K_n$ using exactly $h(n,p)$ colours produces at least one
   heterochromatic cycle of order $p$." The paper then sets
   $\mathbf E(n,p)=\binom{p-1}2\lfloor\frac n{p-1}\rfloor+\binom{\mathbf r(n,p-1)}2+\lceil\frac n{p-1}\rceil$,
   with $\mathbf r(n,p-1)$ the residue of $n$ modulo $p-1$, and recalls from
@@ -154,13 +154,13 @@ proof was checked, and nothing here is independently reviewed.
   function of $p$ alone, whereas the minus-sign form differs from
   $\mathbf E(n,p)$ by $\frac{2n}{p-1}+O(1)$. The sign in Corollary 1 is
   read here as a misprint.
-- Translation to the problem's notation. The site's $\mathrm{AR}(n,C_k)$ is
-  the largest number of colors with no rainbow $C_k$, so
+- Translation to the problem's notation. erdosproblems.com's
+  $\mathrm{AR}(n,C_k)$ is the largest number of colors with no rainbow $C_k$, so
   $\mathrm{AR}(n,C_k)=h(n,k)-1$ and Theorem 5 gives, for $n\ge k\ge3$,
   $\mathrm{AR}(n,C_k)=\mathbf E(n,k)-1
   =\binom{k-1}2\lfloor\frac n{k-1}\rfloor+\binom r2+\lceil\frac n{k-1}\rceil-1$
   with $r$ the residue of $n$ modulo $k-1$. For $k=3$, $r\in\{0,1\}$ and
-  $\mathbf E(n,3)=\lfloor n/2\rfloor+\lceil n/2\rceil=n$, the site's
+  $\mathbf E(n,3)=\lfloor n/2\rfloor+\lceil n/2\rceil=n$, erdosproblems.com's
   $\mathrm{AR}(n,C_3)=n-1$. The 1975 conjecture's grouped coloring ($n/(k-1)$
   groups of $k-1$ vertices, all colors distinct inside a group, one extra
   color per group toward the later groups) is the construction behind
@@ -187,8 +187,8 @@ The rest of the paper is mapped from its text layer. The proofs were read
 for structure only, and nothing is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1105/_index|#1105]]: Theorem 5 (printed
-p. 352, PDF p. 10) is the exact formula the site attributes to the paper:
-"For every pair of integers $n$ and $p$ such that $n\ge p\ge3$,
+p. 352, PDF p. 10) is the exact formula erdosproblems.com attributes to the
+paper: "For every pair of integers $n$ and $p$ such that $n\ge p\ge3$,
 $h(n,p)=\mathbf E(n,p)$", with
 $\mathbf E(n,p)=\binom{p-1}2\lfloor\frac n{p-1}\rfloor+\binom{\mathbf r(n,p-1)}2+\lceil\frac n{p-1}\rceil$
 defined on p. 343, so that in the problem's notation

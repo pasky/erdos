@@ -89,6 +89,6 @@ Lemma 10 (p. 8).
 
 - [[../wiki/problems/additive_bases/E0881/_index|Problem 881]]: the paper's
   Problem 5 is the problem's question with a basis of order $k$ read as
-  sums of exactly $k$ elements of $A$ and $0\in\mathbb N$ (the site's
+  sums of exactly $k$ elements of $A$ and $0\in\mathbb N$ (the erdosproblems.com
   definitions allow sums of at most $k$ elements); Main Theorem 6
   states the answer yes for $k=1$ and no for each $k\ge2$ in that reading.

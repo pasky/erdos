@@ -41,37 +41,38 @@ $$
 
 for some constant $c_k>0$?
 
-**Notes.** The site's wording defines $n_k(p)$ as the least $k$th power
-nonresidue of $p$ for every prime $p$, as Erdős's texts do ((79) of [Er65b],
-the site's source, printed p. 232; conjecture (4) of [Er61e], p. 11), and
-leaves it undefined at the primes with $\gcd(k,p-1)=1$, which have no $k$th
-power nonresidue. Read as a sum over the primes that have one, it includes, for
-composite $k$, the primes $p\not\equiv1\pmod k$ with $d=\gcd(k,p-1)>1$, whose
-least $k$th power nonresidue is $n_d(p)$; for prime $k$ only the primes
-$p\equiv1\pmod k$ contribute. Elliott [El67b] defines $n_k(p)$ in the paper's
-introduction for $p\equiv1\pmod k$ and sets $n_k(p)=0$ for every other prime,
-and the paper's Theorem 1 proves the asymptotic under that convention for every
-$k\ge2$ (indeed with any exponent $a<4e^{1-1/k}$ in place of $1$, and with the
-explicit constant $\sum_r k^{-r}q_r$ over the primes $q_r$ when $k$ is an odd
-prime). The site labeled the problem PROVED and its commentary says "The general
-case was proved by Elliott [El67b]", without remarking on the convention. The
-curator therefore reads the sum as Elliott does, and the modified Statement
-adopts Elliott's convention. The change inserts
+**Notes.** The erdosproblems.com wording defines $n_k(p)$ as the least $k$th
+power nonresidue of $p$ for every prime $p$, as Erdős's texts do ((79) of
+[Er65b], the erdosproblems.com source, printed p. 232; conjecture (4) of
+[Er61e], p. 11), and leaves it undefined at the primes with $\gcd(k,p-1)=1$,
+which have no $k$th power nonresidue. Read as a sum over the primes that have
+one, it includes, for composite $k$, the primes $p\not\equiv1\pmod k$ with
+$d=\gcd(k,p-1)>1$, whose least $k$th power nonresidue is $n_d(p)$; for prime $k$
+only the primes $p\equiv1\pmod k$ contribute. Elliott [El67b] defines $n_k(p)$
+in the paper's introduction for $p\equiv1\pmod k$ and sets $n_k(p)=0$ for every
+other prime, and the paper's Theorem 1 proves the asymptotic under that
+convention for every $k\ge2$ (indeed with any exponent $a<4e^{1-1/k}$ in place
+of $1$, and with the explicit constant $\sum_r k^{-r}q_r$ over the primes $q_r$
+when $k$ is an odd prime). Bloom's catalog labeled the problem PROVED and its
+commentary says "The general case was proved by Elliott [El67b]", without
+remarking on the convention. The curator therefore reads the sum as Elliott
+does, and the modified Statement adopts Elliott's convention. The change inserts
 Elliott's definition of $n_k(p)$; nothing else changes. For prime $k$ the two
 readings agree, since a prime $p\not\equiv1\pmod k$ then has every residue a
 $k$th power. For composite $k$ they differ: under the modified Statement the
 problem is proved for every $k\ge2$ by Elliott's Theorem 1
 ([[problems/integer_sequences/E0980/claims/1967_01_09_elliott|claim page]]);
-under the site's wording the contribution of the primes $p\not\equiv1\pmod k$
-with $\gcd(k,p-1)>1$ is covered by no recorded source, so that reading is open
-for composite $k$ and is recorded as a variant under Formulation. Erdős [Er61e]
-proved the case $k=2$, where the readings agree, with $c_2=\sum_j p_j/2^j$
+under the erdosproblems.com wording the contribution of the primes
+$p\not\equiv1\pmod k$ with $\gcd(k,p-1)>1$ is covered by no recorded source, so
+that reading is open for composite $k$ and is recorded as a variant under
+Formulation. Erdős [Er61e] proved the case $k=2$, where the readings agree, with
+$c_2=\sum_j p_j/2^j$
 ([[problems/integer_sequences/E0980/claims/1961_01_01_erdos|claim page]]). The
 curator's reading is inferred from the label and the credit alone; no text of
 the curator's states the convention.
 
-**Formulation.** The site's wording, read as a sum of the least $k$th power
-nonresidue over every prime that has one, is a variant of the modified
+**Formulation.** The erdosproblems.com wording, read as a sum of the least $k$th
+power nonresidue over every prime that has one, is a variant of the modified
 Statement. For prime $k$ the two coincide. For composite $k$ the variant adds
 the primes $p\not\equiv1\pmod k$ with $d=\gcd(k,p-1)>1$, each contributing
 $n_d(p)$. Theorem 1 of [El67b] does not cover that sum, and no recorded source
@@ -80,8 +81,8 @@ not enter the standing.
 
 **Status.** Labeled PROVED on erdosproblems.com. The label describes the
 modified Statement. The variant under Formulation stays open for composite $k$.
-The site credits Elliott [El67b], who proved the asymptotic for every $k$ under
-the convention of the modified Statement
+erdosproblems.com credits Elliott [El67b], who proved the asymptotic for every
+$k$ under the convention of the modified Statement
 ([[problems/integer_sequences/E0980/claims/1967_01_09_elliott|claim page]]).
 When $k$ is an odd prime, Elliott gives the constant $C_{k,1}$ as an explicit
 prime series. Earlier, Erdős [Er61e] had proved the case $k=2$
@@ -105,12 +106,12 @@ https://www.erdosproblems.com/980.
 ## Current assessment
 
 **Scope.** The standing rests on Elliott's refereed paper, Erdős's refereed
-case $k=2$ and the site's credit, as the claim pages record; the corpus has
-not checked the proofs, and no status search beyond the site is recorded. The
-target of the standing is the modified Statement. Elliott's theorem is an
-accepted full claim on it and Erdős's case $k=2$ an accepted partial one, so
-the derived standing is proved. The variant for composite $k$ (see
-Formulation) stays open and does not enter the standing.
+case $k=2$ and the erdosproblems.com credit, as the claim pages record; the
+corpus has not checked the proofs, and no status search beyond erdosproblems.com
+is recorded. The target of the standing is the modified Statement. Elliott's
+theorem is an accepted full claim on it and Erdős's case $k=2$ an accepted
+partial one, so the derived standing is proved. The variant for composite $k$
+(see Formulation) stays open and does not enter the standing.
 
 **A release manuscript on least nonresidues.** The OpenAI mathematics
 release's manuscript *Deterministic Polynomial Factorization over Prime

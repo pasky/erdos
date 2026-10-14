@@ -4,8 +4,8 @@ title: Goodman and Goodman's circle covering theorem
 desc: |
   Goodman and Goodman proved in 1945 that finitely many disks in the plane that
   no disjoint line separates lie in one disk whose radius is the sum of their
-  radii, as Erdős conjectured. The proof is refereed and credited by the site,
-  and a Lean formalization is linked.
+  radii, as Erdős conjectured. The proof is refereed and credited by
+  erdosproblems.com, and a Lean formalization is linked.
 authors:
 - A. W. Goodman
 - R. E. Goodman
@@ -43,7 +43,7 @@ conjecture of Erdős.
 Its statement and the attribution to Erdős are taken from the account in A.
 Akopyan, A. Balitskiy and M. Grigorev, *On the circle covering theorem by A.
 W. Goodman and R. E. Goodman*, Discrete Comput. Geom. 59 (2018), no. 4,
-1001--1009 (arXiv:1605.04300), and from the site's page. That account
+1001--1009 (arXiv:1605.04300), and from the erdosproblems.com page. That account
 describes Goodman and Goodman's proof as projecting the family onto
 orthogonal directions and applying the lemma for nonseparable segments on a
 line.
@@ -51,9 +51,10 @@ line.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The result is refereed. It appeared in the American Mathematical
-Monthly. The site's curator, Thomas Bloom, marked the problem proved and credits
-Goodman and Goodman with the proof (problem page last edited 17 April 2026).
-Four later published proofs settle the same statement and have their own pages:
+Monthly. The erdosproblems.com curator, Thomas Bloom, marked the problem proved
+and credits Goodman and Goodman with the proof (problem page last edited 17
+April 2026). Four later published proofs settle the same statement and have
+their own pages:
 [[problems/discrete_geometry/E1121/claims/1947_12_01_hadwiger|Hadwiger's inequalities for nonseparable convex systems]],
 [[problems/discrete_geometry/E1121/claims/2015_07_17_bezdek_litvak|Bezdek and Litvak's analytic proof]],
 [[problems/discrete_geometry/E1121/claims/2016_02_02_bezdek_langi|Bezdek and Lángi's theorem for symmetric bodies]]
@@ -66,8 +67,8 @@ independent proof.
 pinned commit linked above, a Lean 4 file whose header declares it a
 formalization of a solution to Problem 1121 with Goodman and Goodman as the
 informal authors and Aristotle (Harmonic) and Amogh Parab as the formal
-authors; Parab announced it on the site's discussion thread on 16 April 2026,
-and the site's label carried a Lean marker. Its theorem
+authors; Parab announced it on the erdosproblems.com discussion thread on 16
+April 2026, and the erdosproblems.com label carried a Lean marker. Its theorem
 `Erdos1121.erdos_1121` takes a family `circles : Fin n → Circle2D` of centers
 with positive radii in `EuclideanSpace ℝ (Fin 2)` and the hypothesis
 `CirclesNonseparable circles`, that no line at distance greater than the

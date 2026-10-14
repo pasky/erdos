@@ -24,7 +24,8 @@ $$
 monochromatic $G$ in every $k$-coloring (p. 515). The exponent carries the
 $\varepsilon$: the theorem gives $R_k(C_{2n})\ll_{\varepsilon,n}
 k^{1+(1+\varepsilon)/(n-1)}$ for every $\varepsilon>0$, which is
-$k^{1+1/(n-1)+o(1)}$, not the bare $k^{1+1/(n-1)}$ that the site prints.
+$k^{1+1/(n-1)+o(1)}$, not the bare $k^{1+1/(n-1)}$ that erdosproblems.com
+prints.
 
 The same page adds two unnumbered-theorem bounds: (14) $r(C_{2n};k)>
 (k-1)(n-1)$ for $k\ge1$, $n\ge1$, "since $C_{2n}$ contains a subtree on
@@ -59,6 +60,7 @@ The Bondy--Simonovits even-cycle theorem (the paper's [2]: Res. Rep. CORR
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0555/_index|Problem 555]]: the upper bound the site
-  writes as $R_k(C_{2n})\ll k^{1+\frac1{n-1}}$ and attributes to the 1981
-  survey; as printed here it has the extra $\varepsilon$ in the exponent.
+- [[../wiki/problems/ramsey_theory/E0555/_index|Problem 555]]: the upper bound
+  erdosproblems.com writes as $R_k(C_{2n})\ll k^{1+\frac1{n-1}}$ and attributes
+  to the 1981 survey; as printed here it has the extra $\varepsilon$ in the
+  exponent.

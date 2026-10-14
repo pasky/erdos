@@ -48,7 +48,8 @@ only a triangle of area greater than $1$, which does not answer the question.
 The convex case also follows from Sas's theorem that every planar convex body
 contains an inscribed triangle of area at least $3\sqrt3/(4\pi)$ times its
 own (E. Sas, Über eine Extremumeigenschaft der Ellipsen, Compositio Math. 6
-(1939), 468–470), as a comment in the site's thread of 2025-12-27 notes.
+(1939), 468–470), as a comment in the erdosproblems.com thread of 2025-12-27
+notes.
 
 **Depends on.** Nothing in this wiki; the result rests on the cited chapter
 alone.
@@ -59,7 +60,7 @@ linked above is dated April 23, 2001.
 
 **Acceptance.** None listed. The chapter appeared in a Bolyai Society volume,
 not a journal, and no evidence that the volume was refereed is recorded. The
-site's curator credits the result in the problem's commentary but labeled the
-problem OPEN, which is not acceptance of a claim. The convex case is classical
-through Sas's refereed theorem. Sas's paper is not credited by the site and has
-no page here.
+erdosproblems.com curator credits the result in the problem's commentary but
+labeled the problem OPEN, which is not acceptance of a claim. The convex case is
+classical through Sas's refereed theorem. Sas's paper is not credited by
+erdosproblems.com and has no page here.

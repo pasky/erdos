@@ -27,8 +27,8 @@ in terms of $N$?
 
 **Formulation.** The moduli are positive integers, so
 $1\le n_1<\cdots<n_r\le N$ for a positive integer $N$. Write $f(N)$ for the
-maximum possible $r$, as the site's commentary does. This maximum exists
-because the modulus sets and their residue assignments form a finite
+maximum possible $r$, as the erdosproblems.com commentary does. This maximum
+exists because the modulus sets and their residue assignments form a finite
 collection. Maximum cardinality differs from mere inclusion-maximality: the
 single class modulo $1$ cannot be extended, but for $N\ge4$ the classes
 $0\pmod2$ and $1\pmod4$ give a larger family. Restricting moduli to be at
@@ -114,12 +114,12 @@ the 14 May formalization, and lists as a candidate full solution the ULAM
 draft of 30 April 2026 credited to GPT-5.5 Pro, which claims the same
 asymptotic by a spread-core route and is recorded on
 [[problems/covering_systems/E0202/claims/2026_04_30_chojecki|its claim page]].
-The site, accessed 5 September 2026, labeled the problem solved with a Lean
-qualification and recorded a last edit of 28 May. Thus the mathematical status
-rests on the primary proof and dated public verification evidence, beyond the
-site's status label. The targeted primary-source search found no later
-contradiction or stronger quantitative answer; it is not an exhaustive search of
-unpublished claims.
+erdosproblems.com, accessed 5 September 2026, labeled the problem solved with a
+Lean qualification and recorded a last edit of 28 May. Thus the mathematical
+status rests on the primary proof and dated public verification evidence, beyond
+the erdosproblems.com status label. The targeted primary-source search found no
+later contradiction or stronger quantitative answer; it is not an exhaustive
+search of unpublished claims.
 
 ## Known results and proof route
 

@@ -54,34 +54,34 @@ https://www.erdosproblems.com/56.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04; the site's page was last edited
-2026-04-08) asks whether, for $N\geq p_k$, the multiples of the first $k$ primes
-form the largest subset of $\{1,\ldots,N\}$ with no $k+1$ pairwise coprime
-elements. The answer is no, and the standing derives from one accepted full
-claim,
+The erdosproblems.com formulation (accessed 2026-09-04; the erdosproblems.com
+page was last edited 2026-04-08) asks whether, for $N\geq p_k$, the multiples of
+the first $k$ primes form the largest subset of $\{1,\ldots,N\}$ with no $k+1$
+pairwise coprime elements. The answer is no, and the standing derives from one
+accepted full claim,
 [[problems/divisors/E0056/claims/1994_01_01_ahlswede_khachatrian|Ahlswede and Khachatrian 1994]],
 which exhibits a larger set for $k=212$ and $N$ in an explicit range; the
 authors expect, from results on gaps between primes, that such exceptions exist
 for arbitrarily large $k$, without proving it. The claim is refereed and
-accepted on the site curator's credit. The question Erdős asked afterwards,
-whether the conjecture holds for $N$ large in terms of $k$, is answered yes by
-the authors' 1995 sequel, the accepted partial claim
+accepted on the erdosproblems.com curator's credit. The question Erdős asked
+afterwards, whether the conjecture holds for $N$ large in terms of $k$, is
+answered yes by the authors' 1995 sequel, the accepted partial claim
 [[problems/divisors/E0056/claims/1995_01_01_ahlswede_khachatrian|Ahlswede and Khachatrian 1995]];
 that result concerns this follow-up question and leaves the stated answer
 unchanged, and Erdős's stronger form of it, with $N\geq(1+o(1))p_k^2$, is not
 settled by the sources cited here. Guy's collection discusses the problem as
 B26.
 
-The site's label carried a Lean qualification: the community database records
-that the statement and its resolution are both formalized, the resolution in
-Boris Alexeev's repository, linked from the claim page with its header's
-account of the proof it follows. The file is third-party Lean that this corpus
-has not built, so the claim lists no `formalized` evidence.
+The erdosproblems.com label carried a Lean qualification: the community database
+records that the statement and its resolution are both formalized, the
+resolution in Boris Alexeev's repository, linked from the claim page with its
+header's account of the proof it follows. The file is third-party Lean that this
+corpus has not built, so the claim lists no `formalized` evidence.
 
-Search scope: the site's problem page, the community database
-(teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures statement
-file and the Lean repository named above; no further claim was found. Nothing
-remains open in the stated question.
+Search scope, 2026-10-07: the erdosproblems.com problem page, the community
+database (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures
+statement file and the Lean repository named above; no further claim was found.
+Nothing remains open in the stated question.
 
 <!-- BEGIN problem library links -->
 

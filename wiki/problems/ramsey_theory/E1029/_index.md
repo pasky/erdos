@@ -27,18 +27,18 @@ $$
 \frac{R(k)}{k2^{k/2}}\to \infty.
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-17 (the page shows no
-last-edited date). $R(k)=R(k,k)$ is the diagonal Ramsey number. The known
-lower bounds are constant multiples of $k2^{k/2}$, Erdős's
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (the page
+shows no last-edited date). $R(k)=R(k,k)$ is the diagonal Ramsey number. The
+known lower bounds are constant multiples of $k2^{k/2}$, Erdős's
 $(1+o(1))k2^{k/2}/(e\sqrt2)$ of 1947 and Spencer's
 $(1+o(1))(\sqrt2/e)k2^{k/2}$ of 1975, so the ratio is bounded below by a
-positive constant; the statement asserts that it tends to infinity. The site's
-commentary attributes the bounds $k2^{k/2}\ll R(k)\le\binom{2k-1}{k-1}$ to
-Erdős and Szekeres [ErSz35]; the 1935 paper proves only the upper bound, in
-the form $R(k)\le\binom{2k-2}{k-1}$ (its equation (3)), and the lower bound is
-Erdős's probabilistic bound, which Spencer restates as Theorem 1 and
-Corollary 1. The formal-conjectures file encodes the statement as the
-divergence of $R(k)/(k2^{k/2})$.
+positive constant; the statement asserts that it tends to infinity. The
+erdosproblems.com commentary attributes the bounds
+$k2^{k/2}\ll R(k)\le\binom{2k-1}{k-1}$ to Erdős and Szekeres [ErSz35]; the 1935
+paper proves only the upper bound, in the form $R(k)\le\binom{2k-2}{k-1}$ (its
+equation (3)), and the lower bound is Erdős's probabilistic bound, which Spencer
+restates as Theorem 1 and Corollary 1. The formal-conjectures file encodes the
+statement as the divergence of $R(k)/(k2^{k/2})$.
 
 **Status.** Open. The best lower bound located is Spencer's Corollary 2 (J.
 Combinatorial Theory Ser. A 18 (1975)), $R(k)\ge k2^{k/2}[(\sqrt2/e)+o(1)]$, a
@@ -59,7 +59,7 @@ accessed 2026-09-17.
 **References.**
 
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
-  graph theory. Quaestiones Math. 16 (1993), 333--350; the site cites
+  graph theory. Quaestiones Math. 16 (1993), 333--350; erdosproblems.com cites
   p. 337 for the problem and the two offers. Chapter II, display (4),
   printed pp. 337--338. Erdős offers a prize for a proof of
 
@@ -105,15 +105,14 @@ proof. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
-above; labeled OPEN, with the site's note that no finite computation can
-settle it; a prize is offered. The
-commentary reports the two offers of [Er93], one for a proof and a larger one
-for a disproof, together with Erdős's own caveat that the second offer is to
-some extent phoney because he is sure the statement is true (the sentence
-is quoted from the printed page in the reference entry above); it
-attributes the bounds $k2^{k/2}\ll R(k)\le\binom{2k-1}{k-1}$ to Erdős and
-Szekeres; it records Erdős's probabilistic lower bound
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; labeled OPEN, with the erdosproblems.com note that no finite computation
+can settle it; a prize is offered. The commentary reports the two offers of
+[Er93], one for a proof and a larger one for a disproof, together with Erdős's
+own caveat that the second offer is to some extent phoney because he is sure the
+statement is true (the sentence is quoted from the printed page in the reference
+entry above); it attributes the bounds $k2^{k/2}\ll R(k)\le\binom{2k-1}{k-1}$ to
+Erdős and Szekeres; it records Erdős's probabilistic lower bound
 $R(k)\ge(1+o(1))k2^{k/2}/(\sqrt2e)$, an early use of the probabilistic
 method, and Spencer's doubling of its constant [Sp75] to
 $R(k)\ge(1+o(1))(\sqrt2/e)k2^{k/2}$; and it points to Problem 77 for
@@ -157,7 +156,7 @@ claims a lower bound for the diagonal number.
 bound for $R(k)$ of larger order than $k2^{k/2}$, a disproof, or a proof
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at main; the community database.
 - arXiv: the abstract pages of 2303.09521 (two versions) and 2507.12926
   (two versions); the API query `abs:"diagonal Ramsey" AND abs:"lower
@@ -175,13 +174,13 @@ is quoted in the reference entry.
 
 **Remaining gaps.** (1) [Er93], the source of the problem and the prizes, was
 outside the search; its display (4) and the two offers are quoted
-in the reference entry, and the site's quotation of the "phoney" sentence
-matches the printed text (p. 338), with "(4)" where the site prints "[this]";
-the survey proves nothing. (2) Spencer's proofs are compiled as statements with
-proof pointers (statements checked); the Stirling computations behind the
-corollaries were not redone. (3) Erdős's 1947 note is not held; the bound is
-taken from Spencer's restatement. (4) The [CGMS23] card is cited for context
-only; its acceptance record is noted on this page.
+in the reference entry, and erdosproblems.com's quotation of the "phoney"
+sentence matches the printed text (p. 338), with "(4)" where erdosproblems.com
+prints "[this]"; the survey proves nothing. (2) Spencer's proofs are compiled as
+statements with proof pointers (statements checked); the Stirling computations
+behind the corollaries were not redone. (3) Erdős's 1947 note is not held; the
+bound is taken from Spencer's restatement. (4) The [CGMS23] card is cited for
+context only; its acceptance record is noted on this page.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

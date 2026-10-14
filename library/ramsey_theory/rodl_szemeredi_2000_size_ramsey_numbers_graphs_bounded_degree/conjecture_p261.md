@@ -55,6 +55,6 @@ $cn\exp(c\sqrt{\log n})$.
 
 - [[../wiki/problems/ramsey_theory/E0559/_index|Problem 559]]: the growth question for
   cubic graphs that remains after the disproof; it is distinct from the
-  site's problem, which the paper's
+  erdosproblems.com problem, which the paper's
   [[ramsey_theory/rodl_szemeredi_2000_size_ramsey_numbers_graphs_bounded_degree/theorem_1|Theorem 1]]
   settles in the negative.

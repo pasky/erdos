@@ -43,6 +43,6 @@ The 1966 paper.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the bound the site's
-  commentary attributes to [Er66], restated here; the conjecture (7) on the
-  same page is the problem's question.
+- [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the bound the
+  erdosproblems.com commentary attributes to [Er66], restated here; the
+  conjecture (7) on the same page is the problem's question.

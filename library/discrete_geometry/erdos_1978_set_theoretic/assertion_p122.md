@@ -57,8 +57,8 @@ None.
   isosceles trapezoid of area $1$ and, as variants, an isosceles triangle, a
   right-angled triangle, a cyclic quadrilateral and a convex polygon with
   congruent sides of area $1$. The paper asserts the two triangle variants,
-  for every area $a$, with no proof; the site credits Koizumi with them. The
-  paper says nothing on the trapezoid, the cyclic quadrilateral or the
+  for every area $a$, with no proof; erdosproblems.com credits Koizumi with
+  them. The paper says nothing on the trapezoid, the cyclic quadrilateral or the
   polygon.
 - [[../wiki/problems/discrete_geometry/E0352/_index|Problem 352]]: the
   infinite-measure statement is the setting from which the paper passes to

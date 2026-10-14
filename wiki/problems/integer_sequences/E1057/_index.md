@@ -24,9 +24,9 @@ updated: 2026-10-13T12:25:21Z
 **Statement.** Let $C(x)$ count the number of Carmichael numbers in the interval
 $[1,x]$. Is it true that $C(x)=x^{1-o(1)}$?
 
-**Status.** The site labeled the problem OPEN (page last edited 16 January
-2026). The derived standing is solved. It comes from one accepted full claim: a
-Lean proof of the affirmative answer, submitted to the bounty site
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 16
+January 2026). The derived standing is solved. It comes from one accepted full
+claim: a Lean proof of the affirmative answer, submitted to the bounty site
 Conjectures.io under the handle JenW1N and recorded on
 [[problems/integer_sequences/E1057/claims/2026_10_10_jenw1n|its claim page]].
 Acceptance rests on this corpus's rebuild and kernel replay of the file on the
@@ -67,8 +67,9 @@ https://www.erdosproblems.com/1057.
 ## Current assessment
 
 **Scope.** The question, status and literature are not assessed here: the
-page carried the site's label (OPEN, accessed 2026-09-04) and its references,
-and no status search is recorded. The authored notes are the two below.
+page carried the erdosproblems.com label (OPEN, accessed 2026-09-04) and its
+references, and no status search is recorded. The authored notes are the two
+below.
 
 **Two release manuscripts on smooth shifted primes.** Two manuscripts of the
 OpenAI mathematics release, both dated 24 September 2026, *Weighted dilation
@@ -97,8 +98,8 @@ in either manuscript is verified in this corpus, and neither has a claim
 page.
 
 **A Lean proof of the full statement.** A Lean 4 file submitted to the bounty
-site Conjectures.io under the handle JenW1N, verified by the site's kernel on 10
-October 2026 and approved by its review on 12 October 2026, proves the
+site Conjectures.io under the handle JenW1N, verified by Conjectures.io's kernel
+on 10 October 2026 and approved by its review on 12 October 2026, proves the
 affirmative answer: its final theorem is the formal-conjectures statement that
 $\log C(x)/\log x\to1$, with no hypothesis left, and that statement is the
 question above with the same quantity, limit and polarity

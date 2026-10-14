@@ -52,5 +52,6 @@ Corollary 1.2 and the weighted Turán-type lemmas of Section 5.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]: the case $t=1$ is
-  $\varrho_3(5)=1/6$, that is $\delta_3(5)=1/12$ in the site's normalization,
-  confirming in a held paper the upper bound the origin paper proved.
+  $\varrho_3(5)=1/6$, that is $\delta_3(5)=1/12$ in the erdosproblems.com
+  normalization, confirming in a held paper the upper bound the origin paper
+  proved.

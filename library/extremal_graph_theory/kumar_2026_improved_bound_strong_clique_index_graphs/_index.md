@@ -134,13 +134,13 @@ independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Corollary 1.7
 (p. 3, page image) is the best claimed bound on the clique form
-$\omega(L(G)^2)$ of the site's conjecture, a preprint result recorded with
-that qualification; pp. 1--2 state the conjecture and its clique form in
+$\omega(L(G)^2)$ of erdosproblems.com's conjecture, a preprint result recorded
+with that qualification; pp. 1--2 state the conjecture and its clique form in
 the authors' words.
 [[../wiki/problems/extremal_graph_theory/E0934/_index|#934]]: Lemma 3.1 (p. 9) and the
-display after it refute the site's displayed $t=3$ conjecture
+display after it refute erdosproblems.com's displayed $t=3$ conjecture
 $h_3(d)\le d^3-d^2+d+2$ at $d=4$ ($h_3(4)\ge71$), Lemma 3.2 (pp. 9--10)
-at $d=15$, and Theorem 1.11 (p. 4) refutes the site's upper asymptotic
+at $d=15$, and Theorem 1.11 (p. 4) refutes erdosproblems.com's upper asymptotic
 conjecture $h_t(d)\le(1+o(1))d^t$ at $t=3$ and the $h_3$ formula for all
 large $d$; Problem 1.12 asks whether $\frac{253}{225}$ is the right constant;
 all preprint claims, recorded as such.

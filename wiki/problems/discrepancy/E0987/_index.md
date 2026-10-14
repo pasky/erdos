@@ -39,10 +39,10 @@ $$
 
 Is it possible for $A_k=o(k)$?
 
-**Status.** PROVED (LEAN), the site's label. The problem's two questions are its
-two parts, and accepted partial claims settle each part. The frontmatter
-standing derives from them as solved and proved, with the two answers counted
-together as the site's label counts them.
+**Status.** PROVED (LEAN), the erdosproblems.com label. The problem's two
+questions are its two parts, and accepted partial claims settle each part. The
+frontmatter standing derives from them as solved and proved, with the two
+answers counted together as the erdosproblems.com label counts them.
 
 Erdős himself answered the first question in 1965, with the bound $A_k>c\log k$
 for infinitely many $k$
@@ -54,18 +54,19 @@ was reproved, with a Lean formalization, on
 second question is answered by
 [[problems/discrepancy/E0987/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the 2026 construction]]
 of Alexeev, Putterman, Sawhney, Sellke and Valiant. This is an unrefereed
-preprint, accepted by the site's curator, Thomas Bloom. Each of these four
-claims covers one of the two questions, so each is an accepted partial claim.
+preprint, accepted by the erdosproblems.com curator, Thomas Bloom. Each of these
+four claims covers one of the two questions, so each is an accepted partial
+claim.
 
 For sequences with finitely many distinct values,
 [[problems/discrepancy/E0987/claims/1969_06_01_liu|Liu's 1969 theorem]] gives
 $A_k>k^{1-\delta}/5$ for infinitely many $k$. It settles neither question as a
 whole.
 
-The site's Lean qualifier matches the community database's Lean status, dated
-2026-08-23. Boris Alexeev set this status in a batch of forty problems whose
-solutions Alexeev's lean-proofs collection formalizes. That collection's file
-for this problem proves both questions (see Formalization).
+The erdosproblems.com Lean qualifier matches the community database's Lean
+status, dated 2026-08-23. Boris Alexeev set this status in a batch of forty
+problems whose solutions Alexeev's lean-proofs collection formalizes. That
+collection's file for this problem proves both questions (see Formalization).
 
 **Source.** [erdosproblems.com/987](https://www.erdosproblems.com/987), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #987,
@@ -85,24 +86,23 @@ https://www.erdosproblems.com/987.
 - [Er65c] Erdős, P., Some remarks on number theory. Israel J. Math. 3 (1965),
   no. 1, 6-12, DOI 10.1007/BF02760020; received 10 February 1965. Section 1,
   pp. 6-7; the scan in the Rényi Institute's Erdős archive is linked from
-  Erdős's claim page. The site's commentary credits the $\log k$ bound
-  to Erdős under its key [Er65b], which the site's reference record resolves
-  to the lectures above, which do not contain the passage; this
+  Erdős's claim page. The erdosproblems.com commentary credits the $\log k$
+  bound to Erdős under its key [Er65b], which the erdosproblems.com reference
+  record resolves to the lectures above, which do not contain the passage; this
   note is the paper that holds it, the 1965 Israel J. Math. note that [Liu69]
   cites, and the formal-conjectures file's reference list names it under the
-  site's key.
+  erdosproblems.com key.
 - [Ha74] Hayman, W. K., Research problems in function theory: new problems.
   (1974), 155-180.
 - [Liu69] Liu, Ming-chit, On a problem of Erdős. Proc. Amer. Math. Soc. 21
   (1969), 706-710, DOI 10.1090/S0002-9939-1969-0245795-8; MathSciNet review
-  MR0245795. Received 12 August 1968; the theorem is on p. 706. The site's
-  commentary names Liu
-  under its key [Li69], which the site's reference record resolves to
-  Lindström, B., An inequality for $B_2$-sequences, J. Combinatorial Theory
-  (1969), 211-212, the entry it shares with Problem 30 and a paper that does
-  not concern this problem; the record above is the paper the commentary
-  describes, which cites [Cl67], [Er64b] and Erdős's 1965 Israel J. Math.
-  note.
+  MR0245795. Received 12 August 1968; the theorem is on p. 706. The
+  erdosproblems.com commentary names Liu under its key [Li69], which the
+  erdosproblems.com reference record resolves to Lindström, B., An inequality
+  for $B_2$-sequences, J. Combinatorial Theory (1969), 211-212, the entry it
+  shares with Problem 30 and a paper that does not concern this problem; the
+  record above is the paper the commentary describes, which cites [Cl67],
+  [Er64b] and Erdős's 1965 Israel J. Math. note.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/987.lean)

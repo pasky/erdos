@@ -18,7 +18,7 @@ claimed by Jeffrey Zeng “using an OpenAI internal model.” It also describes 
 result as AI-assisted and Lean-formalized. The latter is a source assertion:
 no Lean file, repository, build log, or certificate is linked from the claim.
 
-**Date shown by the site.** 17:13:29 on 24 July 2026.
+**Date shown by erdosproblems.com.** 17:13:29 on 24 July 2026.
 
 **Claim.**
 [Proof claim 133](https://www.erdosproblems.com/forum/thread/770/proof-claims#proof-claim-133).
@@ -62,9 +62,9 @@ lower bound for $C(M)$ without deriving it. The linked result pages make these
 elementary steps explicit and identify each compilation expansion.
 
 **Evidence limits.** The proof-claim page warns that a listing there neither
-guarantees that the proof is correct nor shows that anyone connected with the
-site has checked any part of it. It displays zero comments on this claim. The
-claim itself says that the density, limit-inferior, and general
+guarantees that the proof is correct nor shows that anyone connected with
+erdosproblems.com has checked any part of it. It displays zero comments on this
+claim. The claim itself says that the density, limit-inferior, and general
 $\epsilon>0$ questions remain unresolved and that novelty and priority are
 undetermined. No publication, named acceptance, or reproduced formal
 verification is inferred.

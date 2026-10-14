@@ -32,7 +32,7 @@ is the statement of [[problems/integer_sequences/E1149/_index|Problem 1149]].
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Periodica Mathematica Hungarica 45 (2002). The site's
-commentary credits Bergelson and Richter, not this paper. Bergelson and
-Richter's introduction cites it for the general case. The page name's date is
-the issue's month, September 2002; the day is unknown.
+**Acceptance.** Refereed: Periodica Mathematica Hungarica 45 (2002). The
+erdosproblems.com commentary credits Bergelson and Richter, not this paper.
+Bergelson and Richter's introduction cites it for the general case. The page
+name's date is the issue's month, September 2002; the day is unknown.

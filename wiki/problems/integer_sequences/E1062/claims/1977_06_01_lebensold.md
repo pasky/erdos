@@ -28,8 +28,8 @@ updated: 2026-10-07T21:33:46Z
 **Claim.** K. Lebensold, A divisibility problem, Studies in Appl. Math. 56
 (1977), no. 3, 291--294, proves that $0.6725n\le f(n)\le0.6736n$ for all
 sufficiently large $n$, by decomposing $\{1,\ldots,n\}$ into divisibility
-chains, as the zbMATH review (Zbl 0367.10011) reports. The site and Guy's B24
-state the same bound.
+chains, as the zbMATH review (Zbl 0367.10011) reports. erdosproblems.com and
+Guy's B24 state the same bound.
 
 **Covers.** A two-sided bound on the first question of
 [[problems/integer_sequences/E1062/_index|Problem 1062]], how large $f(n)$ can
@@ -38,8 +38,9 @@ formal-conjectures
 [statement file](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/1062.lean)
 states it as the solved variant `erdos_1062.variants.lebensold_bounds`.
 
-**Acceptance.** A refereed journal publication (`refereed`). The site labeled
-the problem OPEN, so its commentary is not acceptance. The issue is dated June
-1977 and gives no day, so this page is named by the first day of that month.
+**Acceptance.** A refereed journal publication (`refereed`). Bloom's catalog
+labeled the problem OPEN, so its commentary is not acceptance. The issue is
+dated June 1977 and gives no day, so this page is named by the first day of that
+month.
 
 **Depends on.** No page of this wiki.

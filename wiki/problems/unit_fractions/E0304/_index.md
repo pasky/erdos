@@ -35,12 +35,12 @@ Estimate $N(b)=\max_{1\leq a<b}N(a,b)$. Is it true that $N(b) \ll \log\log b$?
 (p. 193); it depends only on the rational $a/b$, and $N(a,b)\le a$ always
 (p. 193, display (4)). The maximum runs over all $1\le a<b$ with no
 coprimality condition; the formal statement below does the same. The
-average $\frac1b\sum_{1\le a<b}N(a,b)\gg\log\log b$ quoted by the site is a
-separate statement of the same 1950 paper.
+average $\frac1b\sum_{1\le a<b}N(a,b)\gg\log\log b$ quoted by erdosproblems.com
+is a separate statement of the same 1950 paper.
 
-**Status.** Labeled open on the site. The label was OPEN (page last edited 29
-December 2025), and there is no proof claim on its tab. The standing derived
-from the claim pages is solved, claim proved. Theorem 1.1 of the OpenAI
+**Status.** Labeled open on erdosproblems.com. The label was OPEN (page last
+edited 29 December 2025), and there is no proof claim on its tab. The standing
+derived from the claim pages is solved, claim proved. Theorem 1.1 of the OpenAI
 mathematics release's manuscript of 25 September 2026 gives
 $N(b)\le c_2\log\log b$ for every $b\ge b_0$. So $N(b)\ll\log\log b$, and with
 Erdős's lower bound of 1950, $N(b)\asymp\log\log b$. The claim is accepted on
@@ -94,9 +94,9 @@ discussion comment and no proof claim. Cite as: T. F. Bloom, Erdős Problem
   arXiv:2512.22083 (v2 24 May 2026); Math. Proc. Cambridge Philos. Soc.,
   published online 8 July 2026, doi:10.1017/S0305004126102102; Section 3.
 - [Yo92] Yokota, H., On a sum of divisors. Canad. Math. Bull. 35 (1992),
-  no. 3, 423--430, doi:10.4153/CMB-1992-056-7. Linked from the site's
+  no. 3, 423--430, doi:10.4153/CMB-1992-056-7. Linked from the erdosproblems.com
   discussion.
-- OEIS A097847 and A097849, linked by the site.
+- OEIS A097847 and A097849, linked by erdosproblems.com.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/304.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d1a0188d60ac0e8ea40e19455a5df6db8f6e8760/FormalConjectures/ErdosProblems/304.lean)
@@ -111,13 +111,14 @@ bound as `research solved` variants whose proofs are `sorry`. Since that
 commit the lower-bound variant `erdos_304.variants.lower_1950` carries a
 `formal_proof` annotation pointing to the Lean proof by Harmonic's Aristotle
 prover recorded under Status.
-The definitions match the site's $N(a,b)$ and $N(b)$. The site's note that the
-problem is formalized in Lean refers to this statement file; it is not a
-proof, and neither it nor the annotated proof is built or audited here. On
-2026-09-17 the community database recorded a formalized statement and no
-formal proof. The release's formalization of Theorem 1.1, built and audited
-here, is recorded on the claim page linked under Status. The file's
-[revision of 11 October 2026](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/304.lean)
+The definitions match erdosproblems.com's $N(a,b)$ and $N(b)$. The
+erdosproblems.com note that the problem is formalized in Lean refers to this
+statement file; it is not a proof, and neither it nor the annotated proof is
+built or audited here. On 2026-09-17 the community database recorded a
+formalized statement and no formal proof. The release's formalization of Theorem
+1.1, built and audited here, is recorded on the claim page linked under Status.
+The file's [revision of 11 October
+2026](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/304.lean)
 moved `upper_bound` to `research solved` with `answer(True)`, kept its `sorry`
 proof, cited the release's manuscript and added a `formal_proof` attribute
 linking the release's
@@ -127,8 +128,8 @@ was not built here; the link is a catalog label, not acceptance evidence.
 
 ## Current assessment
 
-**The question.** The site states the problem as above, showed OPEN, cites
-[ErGr80, p. 37], attributes $\log\log b\ll N(b)\ll\log b/\log\log b$ to
+**The question.** erdosproblems.com states the problem as above, showed OPEN,
+cites [ErGr80, p. 37], attributes $\log\log b\ll N(b)\ll\log b/\log\log b$ to
 [Er50c] and $N(b)\ll\sqrt{\log b}$ to [Vo85], records the average bound,
 relates the problem to [[problems/divisors/E0018/_index|Problem 18]] and to
 [[problems/unit_fractions/E0293/_index|Problem 293]] through [vDTa25b], and
@@ -202,15 +203,15 @@ The note is unrefereed, its authors' Lean formalization is not built here,
 and the claim is not adopted into the bounds above; the accepted bound under
 Claims implies it.
 
-**Site and database state.** The site showed OPEN (last edited 29 December
-2025), one comment and no proof claim; the van Doorn claim above is posted on
-the proof-claims tab of Problem 18 (submitted 2026-09-16; as of 2026-10-05
-no comments, not accepted, not on arXiv, and no commits to its repository
-after 16 September 2026); the community database says open; formal-conjectures
-marked `upper_bound` `research open` until 11 October 2026 and then
-`research solved`, with a `formal_proof` link to the release's Lean (see
-Formalization), and since 18 September 2026 annotates its lower-bound variant
-with the Aristotle proof recorded under Status as its `formal_proof`;
+**erdosproblems.com and database state.** erdosproblems.com showed OPEN (last
+edited 29 December 2025), one comment and no proof claim; the van Doorn claim
+above is posted on the proof-claims tab of Problem 18 (submitted 2026-09-16; on
+2026-10-05 no comments, not accepted, not on arXiv, and no commits to its
+repository after 16 September 2026); the community database says open;
+formal-conjectures marked `upper_bound` `research open` until 11 October 2026
+and then `research solved`, with a `formal_proof` link to the release's Lean
+(see Formalization), and since 18 September 2026 annotates its lower-bound
+variant with the Aristotle proof recorded under Status as its `formal_proof`;
 there is no Palomar entry; and conjectures.io, whose bounty "Erdős problem
 304 - upper bound" for the full $O(\log\log b)$ statement had no attempt
 recorded, withdrew it on 6 October 2026, closing it on its release owner's
@@ -247,7 +248,7 @@ manuscript of 25 September 2026 is recorded under Claims.
   that "it seems likely" their method would give $v(k)\ge e^{e^{ck}}$. The
   first is a two-line argument, the second an expectation; neither changes
   the status. Their Theorem 1.1 uses Vose's construction.
-- The site's one comment (6 February 2026, user Alfaiz) suggests that a
+- erdosproblems.com's one comment (6 February 2026, user Alfaiz) suggests that a
   1992 paper of Yokota on a sum of divisors is related and links its
   publisher PDF; its bearing on $N(b)$ is not established here, and it is
   recorded as a lead only.
@@ -267,7 +268,7 @@ is open; the computation is not verified here.
 **Search scope.** Routes; none found a proof or disproof of
 $N(b)\ll\log\log b$ other than the release's, recorded under Claims.
 
-- The site's three pages; the community database (open; formalized
+- erdosproblems.com's three pages; the community database (open; formalized
   statement; no proof URL); formal-conjectures `304.lean` at the pinned
   commit and, on 2026-10-13, at its revision of 11 October 2026.
 - arXiv: the abstract page of 2512.22083; API metadata searches for

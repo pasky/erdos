@@ -70,5 +70,5 @@ derived from the free-set theorem of Erdős, Hajnal and Milner; it was not
 checked, and nothing on this page is independently reviewed by this project.
 
 **Acceptance.** Refereed: a journal paper in Periodica Mathematica Hungarica.
-The site's commentary on Problem 1171 does not cite the paper, so `reviewed`
-is not listed.
+The erdosproblems.com commentary on Problem 1171 does not cite the paper, so
+`reviewed` is not listed.

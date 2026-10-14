@@ -55,8 +55,8 @@ Molloy's theorem (quoted as Theorem 4); the paper's own induction.
 - [[../wiki/problems/extremal_graph_theory/E1011/_index|Problem 1011]]: indirect; no
   triangle-free graph on $n$ vertices has chromatic number above
   $(2+o(1))\sqrt{n/\log n}$, so the threshold $f_r(n)$ is a nontrivial
-  question only for $r$ up to that order, and the site's thread derives a
-  lower bound on Simonovits's $g(r)$ from it.
+  question only for $r$ up to that order, and the erdosproblems.com thread
+  derives a lower bound on Simonovits's $g(r)$ from it.
 - [[../wiki/problems/graph_coloring/E1104/_index|Problem 1104]]: the first part is an
   upper bound for the problem's $f(n)$, the best in the paper's Table 1,
   improving the $(2\sqrt2+o(1))\sqrt{n/\log n}$ bound of the introduction

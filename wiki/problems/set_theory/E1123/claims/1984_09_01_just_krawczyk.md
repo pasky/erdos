@@ -44,23 +44,24 @@ Axiom and Martin's Axiom, on
 [[problems/set_theory/E1123/claims/2000_01_01_farah|Farah's page]], which
 carries the full claim that the statement is independent of ZFC.
 
-**Formulation.** The site's commentary records a disagreement about what
-Erdős and Ulam asked. Just and Krawczyk say the question was posed under CH,
-and Question 48 of the list of van Douwen, Monk and Rubin [VMR80], attributed
-to Erdős, asks it only under CH; Erdős's own account in the Scottish Book
-[Er81b] states it with no such hypothesis and offers the prize for a proof or
-a disproof. Read under CH, this theorem answers the question: the algebras
+**Formulation.** The erdosproblems.com commentary records a disagreement about
+what Erdős and Ulam asked. Just and Krawczyk say the question was posed under
+CH, and Question 48 of the list of van Douwen, Monk and Rubin [VMR80],
+attributed to Erdős, asks it only under CH; Erdős's own account in the Scottish
+Book [Er81b] states it with no such hypothesis and offers the prize for a proof
+or a disproof. Read under CH, this theorem answers the question: the algebras
 are isomorphic, the opposite of what Erdős asked to prove. Read in ZFC, as
-the catalog's statement is, it is one half of the independence. The site's
-label and this corpus's standing follow the ZFC reading; the CH reading is
-disclosed here and not given a page of its own.
+the erdosproblems.com statement is, it is one half of the independence. The
+erdosproblems.com label and this corpus's standing follow the ZFC reading; the
+CH reading is disclosed here and not given a page of its own.
 
 **Source.** W. Just and A. Krawczyk, On certain Boolean algebras
 $\mathcal{P}(\omega)/I$, Trans. Amer. Math. Soc. 285 (1984), no. 1, 411--429,
 doi:10.1090/S0002-9947-1984-0748847-1. The issue is dated September 1984 and
 carries no day, so this page's date is the first of that month. The paper is not
-held by this corpus; the statement is recorded as the site's commentary states
-it. Nothing on this page is independently reviewed by this project.
+held by this corpus; the statement is recorded as the erdosproblems.com
+commentary states it. Nothing on this page is independently reviewed by this
+project.
 
 **Acceptance.** Refereed: the result is a journal paper in the Transactions of
 the American Mathematical Society. Reviewed: the curator of erdosproblems.com,

@@ -57,7 +57,7 @@ corpus's complete reconstruction of the proof is
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Stijn
 Cambie, Erik Kalviainen (account ekalvi) on 3 September 2026, giving "OpenAI
-GPT-5.6 Sol" as the AI used, which the site marks as accepted as correct:
+GPT-5.6 Sol" as the AI used, which Bloom's catalog marks as accepted as correct:
 
 > An infinite walk exists from a Gaussian-integer construction. Let \(s_2(n)\)
 > count the \(1\)s in the binary expansion of \(n\), and set
@@ -74,14 +74,14 @@ GPT-5.6 Sol" as the AI used, which the site marks as accepted as correct:
 > checked, and affirm the unconditional proof. The work was AI-assisted; neither
 > AI output nor finite computation is a premise.
 
-**Acceptance.** Thomas Bloom, the site's curator, agreed in the claim's thread
-on 2026-09-03 that the problem should be marked solved, and confirmed the update
-on 2026-09-04. The problem page credits the negative answer to Cambie and
-Kalviainen. Those comments concern this joint proof. It was posted to the site
-as proof claim 239, two days after the arXiv submission of 2026-09-01. The
-status search found no journal publication. The corpus's own review of the
-reconstruction is recorded on the source card. It is not acceptance evidence
-here.
+**Acceptance.** Thomas Bloom, the erdosproblems.com curator, agreed in the
+claim's thread on 2026-09-03 that the problem should be marked solved, and
+confirmed the update on 2026-09-04. The problem page credits the negative answer
+to Cambie and Kalviainen. Those comments concern this joint proof. It was posted
+to erdosproblems.com as proof claim 239, two days after the arXiv submission of
+2026-09-01. The status search of 2026-09-08 found no journal publication. The
+corpus's own review of the reconstruction is recorded on the source card. It is
+not acceptance evidence here.
 
 **Formalization.** The authors' repository, linked above at its pinned
 commit, holds a Lean 4 development that declares itself a formalization of

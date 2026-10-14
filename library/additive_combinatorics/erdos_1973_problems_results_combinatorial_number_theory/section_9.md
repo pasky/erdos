@@ -89,8 +89,8 @@ $j_1=j_2$.
 Survey of Combinatorial Theory (J. N. Srivastava et al., eds.), North-Holland
 (1973), Chapter 12, 117--138; printed pp. 129--130 (PDF pp. 13--14 of the
 22-page scan read for this page; printed p. $n$ is PDF p. $n-116$), read on the
-page images; the site's keys [Er73, p. 130] for Problems 787 and 790 and [Er73]
-for Problems 788, 789 and 792.
+page images; the erdosproblems.com keys [Er73, p. 130] for Problems 787 and 790
+and [Er73] for Problems 788, 789 and 792.
 
 **Read depth.** Claims checked: the section was read clause by clause on
 the page images. Every bound is reported, not proved; Choi's papers are
@@ -117,14 +117,15 @@ None stated.
   sentence with its "even if we exclude $j_1=j_2$", which the problem page
   compares with the 1965 sentence.
 - [[../wiki/problems/additive_combinatorics/E0787/_index|Problem 787]]: display (9.2),
-  the site's key for Klarner's $\log n$ and Choi's $n^{2/5+\varepsilon}$.
+  the erdosproblems.com key for Klarner's $\log n$ and Choi's
+  $n^{2/5+\varepsilon}$.
 - [[../wiki/problems/additive_combinatorics/E0788/_index|Problem 788]]: Choi's interval
-  problem as the site states it, with the conjecture $n^{1/2+\varepsilon}$
-  and the bound $n^{3/4}$; the site's only key.
+  problem as erdosproblems.com states it, with the conjecture
+  $n^{1/2+\varepsilon}$ and the bound $n^{3/4}$; erdosproblems.com's only key.
 - [[../wiki/problems/additive_combinatorics/E0789/_index|Problem 789]]: the bounds
   $c_1n^{1/3}<h(n)<c_2n^{1/2}$ (Straus for the upper bound) and Choi's
   $(n\log n)^{1/3}$, stated for integers.
 - [[../wiki/problems/additive_combinatorics/E0790/_index|Problem 790]]: the $l(n)$
   paragraph, with the printed $\sqrt{n/2}$, Choi's $(1+c)\sqrt n$, the
   expectation $l(n)/\sqrt n\to\infty$, the withdrawn $o(n)$ claim and the
-  guess $l(n)<n^{1-c}$; the site's key.
+  guess $l(n)<n^{1-c}$; the erdosproblems.com key.

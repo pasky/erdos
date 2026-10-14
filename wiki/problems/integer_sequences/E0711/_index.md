@@ -38,7 +38,7 @@ $$
 \max_m (f(n,m)-f(n,n))\to \infty.
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 11 January 2026). Two questions: the conjectured upper
 bound $\max_mf(n,m)\le n^{1+o(1)}$ (Erdős's 1992 conjecture (5)) and the
 comparison $\max_m(f(n,m)-f(n,n))\to\infty$ (his unproved (6)). The interval
@@ -46,11 +46,12 @@ is the open interval $(m,m+f(n,m))$, as in Erdős's 1992 paper (p. 36);
 Erdős and Pomerance (1980) and van Doorn (2026) use the half-open
 $(m,m+f(n,m)]$, one less, which changes neither question: the first
 concerns the order of growth and the difference in the second is the same
-in both conventions. The site's source keys are [ErPo80] and [Er92c, p. 36],
-with [vD26] cited in the commentary.
+in both conventions. The erdosproblems.com source keys are [ErPo80] and [Er92c,
+p. 36], with [vD26] cited in the commentary.
 
-**Status.** Open, in the site's label, which attaches to the pair of questions.
-The derived standing stays open while the first question is unsettled.
+**Status.** Open, in the erdosproblems.com label, which attaches to the pair of
+questions. The derived standing stays open while the first question is
+unsettled.
 
 The second question is answered yes by van Doorn's Theorem 1 (Integers 26
 (2026), #A7, a refereed journal), which gives
@@ -76,14 +77,14 @@ and
 and each of them also answers the second question. This is a bounded negative
 finding for the first question, not a certificate of openness.
 
-Erdős offered a prize for each of the two questions in 1992, and the site's
-prize converts the two offers together (below).
+Erdős offered a prize for each of the two questions in 1992, and the
+erdosproblems.com prize converts the two offers together (below).
 
 **Source.** [erdosproblems.com/711](https://www.erdosproblems.com/711), accessed
-2026-09-18: the problem page (labeled OPEN, with the site's note that no finite
-computation can settle it; a prize; last edited 11 January 2026; header keys
-[ErPo80], [Er92c, p.36]; commentary citing [vD26] and Problem 710), its
-eight-comment discussion thread (29 September 2025 to 27 July 2026) and its
+2026-09-18: the problem page (labeled OPEN, with the erdosproblems.com note that
+no finite computation can settle it; a prize; last edited 11 January 2026;
+header keys [ErPo80], [Er92c, p.36]; commentary citing [vD26] and Problem 710),
+its eight-comment discussion thread (29 September 2025 to 27 July 2026) and its
 empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #711,
 https://www.erdosproblems.com/711, accessed 2026-09-18.
 
@@ -128,29 +129,30 @@ google-deepmind/formal-conjectures (main branch, 2026-09-18); the community
 database (teorth/erdosproblems, 2026-09-18) records the problem open (as of its
 last update, dated 31 August 2025), the statement not formalized,
 `formal_status` unformalized, the prize as one of Erdős's two offers (where the
-site's field converts both) and an OEIS sequence marked possible.
+erdosproblems.com field converts both) and an OEIS sequence marked possible.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; labeled
-OPEN, with the site's note that no finite computation can settle it; a prize,
-last edited 11 January 2026. The commentary, in summary: both questions go back
-to Erdős and Pomerance [ErPo80], whose paper bounds $\max_mf(n,m)$ by a constant
-times $n^{3/2}$ and puts $f(n,n)$ between constant multiples of
-$n(\log n/\log\log n)^{1/2}$ and $n(\log n)^{1/2}$; Erdős's prize offer in
-[Er92c] for a proof of either question, converted by the site at 1992 exchange
-rates; van Doorn's affirmative answer to the second question, in the form that
-for all large $n$ some $m=m(n)$ has $f(n,m)-f(n,n)\gg n\log n/\log\log n$; and a
-cross-reference to Problem 710. The thread, oldest first: comments of 29
-September 2025 (the accounts TerenceTao and Thomas Bloom) that the first
-question heuristically implies the Kakeya conjecture in all dimensions, that the
-exponent $3/2$ matches the bound that three-dimensional Kakeya sets have
-dimension at least $2$, and that the sums-differences approach to Kakeya might
-bear on the $3/2$; a comment of 20 October 2025 (the account Woett) that the
-prize should count both offers since Erdős offered a prize for each question,
-after which the site was updated; a comment of 6 January 2026 (the same account)
-announcing the Integers reference of [vD26], after which the site was updated; a
-comment of 11 July 2026 (the author of [Ko26]) presenting a note with
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; labeled OPEN, with the erdosproblems.com note that no finite computation
+can settle it; a prize, last edited 11 January 2026. The commentary, in summary:
+both questions go back to Erdős and Pomerance [ErPo80], whose paper bounds
+$\max_mf(n,m)$ by a constant times $n^{3/2}$ and puts $f(n,n)$ between constant
+multiples of $n(\log n/\log\log n)^{1/2}$ and $n(\log n)^{1/2}$; Erdős's prize
+offer in [Er92c] for a proof of either question, converted by erdosproblems.com
+at 1992 exchange rates; van Doorn's affirmative answer to the second question,
+in the form that for all large $n$ some $m=m(n)$ has
+$f(n,m)-f(n,n)\gg n\log n/\log\log n$; and a cross-reference to Problem 710. The
+thread, oldest first: comments of 29 September 2025 (the accounts TerenceTao and
+Thomas Bloom) that the first question heuristically implies the Kakeya
+conjecture in all dimensions, that the exponent $3/2$ matches the bound that
+three-dimensional Kakeya sets have dimension at least $2$, and that the
+sums-differences approach to Kakeya might bear on the $3/2$; a comment of 20
+October 2025 (the account Woett) that the prize should count both offers since
+Erdős offered a prize for each question, after which erdosproblems.com was
+updated; a comment of 6 January 2026 (the same account) announcing the Integers
+reference of [vD26], after which erdosproblems.com was updated; a comment of 11
+July 2026 (the author of [Ko26]) presenting a note with
 $\liminf_{n\to\infty}(F(n)-f(n,n))/(n\log n)\ge1/e$ for $F(n)=\max_mf(n,m)$,
 strengthening van Doorn's scale to $n\log n$, with the remark that the $n\log n$
 scale seems intrinsic to the method and is consistent with the conjectured upper
@@ -173,8 +175,9 @@ $\max_mf(n,m)\ll n^{3/2}$ (Theorem 4). We cannot show $\max_mf(n,m)>f(n,n)$ so
 Theorem 2 gives our best lower bound for $\max_mf(n,m)$." Erdős 1992, p. 36: "We
 further proved (4) $f(n;m)<4n(n^{1/2}+1)$. We conjecture (5)
 $f(n;m)<n^{1+o(1)}$. We could not even prove $\max_mf(n;m)-f(n)\to\infty$ (6). I
-offer 1000 rupees for (5) and (6) each." The site's prize is its conversion of
-the two offers together, after the thread's remark of 20 October 2025.
+offer 1000 rupees for (5) and (6) each." The erdosproblems.com prize is its
+conversion of the two offers together, after the thread's remark of 20
+October 2025.
 
 **The second question, answered.**
 [[../library/integer_sequences/doorn_2026_length_interval_distinct_multiples/theorem_1|Theorem 1]]
@@ -187,7 +190,7 @@ $(2/\sqrt e+o(1))n\sqrt{\log n/\log\log n}<f(n,n)<(2+o(1))n\sqrt{\log n}$
 (Lemma 3) at $k=\lceil0.6\sqrt{\log n/\log\log n}\rceil$; the proof is not
 independently reviewed. Acceptance evidence: the paper is
 published in Integers, a refereed journal (received 19 February 2025,
-accepted 27 November 2025, published 5 January 2026). The site's
+accepted 27 November 2025, published 5 January 2026). The erdosproblems.com
 commentary (page last edited 11 January 2026) records the answer, while the
 label OPEN attaches to the pair of questions and is not acceptance
 evidence; the answer to the second is recorded here and on its claim page,
@@ -196,8 +199,8 @@ and the frontmatter follows the derivation from the claim pages.
 **The first question (a bounds map).** Upper bounds: Erdős and Pomerance's
 [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_4|Theorem 4]],
 $f(n,m)\le4n([\sqrt n]+1)$ for all $m,n$ (p. 155; the statement, whose proof
-is not reviewed here), the $\max_mf(n,m)\ll n^{3/2}$ of the site's commentary
-and the best published bound; the abstract of [ChKo26] states
+is not reviewed here), the $\max_mf(n,m)\ll n^{3/2}$ of the erdosproblems.com
+commentary and the best published bound; the abstract of [ChKo26] states
 $F(n)\le n^{4/3}\exp(O(\log n/\log\log n))$ for $F(n)=\max_mf(n,m)$ "from a
 new estimate for unions of arithmetic progressions", a preprint result not
 held and not refereed, a pending claim on
@@ -206,8 +209,8 @@ Lower bounds: $f(n,n)$ itself, between the 1980
 [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_2|Theorem 2]]
 and
 [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_3|Theorem 3]]
-(the site's $n(\log n/\log\log n)^{1/2}\ll f(n,n)\ll n(\log n)^{1/2}$, in the
-paper's normalization $f(n)=n+f(n,n)$); van Doorn's $n\log n/\log\log n$
+(erdosproblems.com's $n(\log n/\log\log n)^{1/2}\ll f(n,n)\ll n(\log n)^{1/2}$,
+in the paper's normalization $f(n)=n+f(n,n)$); van Doorn's $n\log n/\log\log n$
 (refereed); [Ko26]'s $F(n)\ge(1/e-o(1))n\log n$ (the note's Theorem: it adapts
 the Erdős–Pomerance smooth-number obstruction to starting points
 $m\asymp n\log n$ with smoothness threshold $y\asymp\log n$ through
@@ -230,7 +233,8 @@ on published sources it lies between $n\log n/\log\log n$ and $n^{3/2}$.
   verification, that an exchange with GPT-5.6 Sol suggested changing the
   scale of the starting point, and that Refine.ink gave feedback on a prior
   draft; the problem, final methods and written form are the author's); not
-  refereed; the site has not updated its commentary for it; a pending claim on
+  refereed; erdosproblems.com has not updated its commentary for it; a pending
+  claim on
   [[problems/integer_sequences/E0711/claims/2026_07_11_kominers|Kominers's claim page]].
 - The 13 July 2026 sketch of $\max_mf(n,m)\gg n\log n$ in the thread,
   credited in part to GPT; a forum argument, not checked.
@@ -255,7 +259,7 @@ on published sources it lies between $n\log n/\log\log n$ and $n^{3/2}$.
 proof of the first question, no refereed version of [Ko26] or [ChKo26], and no
 published bound on $\max_mf(n,m)$ beyond Theorem 4.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and full tree (no file); the
   community database.
 - arXiv: the API records of 2601.16972 (van Doorn; journal reference

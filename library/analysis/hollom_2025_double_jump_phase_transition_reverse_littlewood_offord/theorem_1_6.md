@@ -57,4 +57,4 @@ gives odd-$n$ configurations with probability exactly $2^{-\lfloor n/2\rfloor}$.
 This page records no proof coverage and no verification tier.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — the odd-$n$ unit-radius
-variant of the catalog question.
+variant of the erdosproblems.com question.

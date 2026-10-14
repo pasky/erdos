@@ -30,8 +30,8 @@ $$
 
 where $e(x)=e^{2\pi ix }$?
 
-**Status.** PROVED (LEAN), the site's label. The site credits the independent
-proofs of Littlewood's conjecture by
+**Status.** PROVED (LEAN), the erdosproblems.com label. erdosproblems.com
+credits the independent proofs of Littlewood's conjecture by
 [[problems/analysis/E0512/claims/1981_01_01_konyagin|Konyagin]] and by
 [[problems/analysis/E0512/claims/1981_05_01_mcgehee_pigno_smith|McGehee, Pigno and Smith]],
 both refereed. The Lean proof that the formal-conjectures statement names is
@@ -55,7 +55,8 @@ which names as its formal proof the file `problems/512/Erdos512.lean` of
 the `Jayyhk/erdos-lean` repository, a proof produced by Aristotle (Harmonic)
 from the paper of McGehee, Pigno and Smith, as the thread's one comment
 reports, and linked at its pinned commit from their claim page; it was not
-built here, and the "(LEAN)" suffix of the site's label was a catalog label.
+built here, and the "(LEAN)" suffix of the erdosproblems.com label was a catalog
+label.
 
 ## Current assessment
 
@@ -65,11 +66,12 @@ was proved independently in 1981 by Konyagin [Ko81] and by McGehee, Pigno
 and Smith [MPS81]. Both are accepted claims,
 [[problems/analysis/E0512/claims/1981_01_01_konyagin|Konyagin 1981]] and
 [[problems/analysis/E0512/claims/1981_05_01_mcgehee_pigno_smith|McGehee, Pigno and Smith 1981]],
-on refereed publication and the site's credit. Konyagin's paper is filed as
-a library card; the papers of McGehee, Pigno and Smith are not held, and no
-proof has been independently reviewed. The Lean proof that the site's label
-refers to, produced by Aristotle (Harmonic) from the paper of McGehee, Pigno
-and Smith, is linked from their claim page and has not been built here.
+on refereed publication and the erdosproblems.com credit. Konyagin's paper is
+filed as a library card; the papers of McGehee, Pigno and Smith are not held,
+and no proof has been independently reviewed. The Lean proof that the
+erdosproblems.com label refers to, produced by Aristotle (Harmonic) from the
+paper of McGehee, Pigno and Smith, is linked from their claim page and has not
+been built here.
 
 ## Known Results
 

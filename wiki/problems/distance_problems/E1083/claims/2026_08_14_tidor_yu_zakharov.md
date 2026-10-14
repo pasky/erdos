@@ -38,9 +38,10 @@ particular question of the problem, answered yes, for $d=3$. The previous
 lower bounds in three dimensions were $n^{1/2}$ (Clarkson, Edelsbrunner,
 Guibas, Sharir and Welzl), $n^{0.546}$ (Aronov, Pach, Sharir and Tardos) and
 $n^{3/5}$ (Solymosi and Vu combined with the planar bound of Guth and Katz;
-$n^{3/5}/(\log n)^{2/5}$ in the release preprint's statement), as the site's
-remarks record them. The result is also recorded, as general-space context,
-on the page of [[problems/distance_problems/E0660/_index|Problem 660]].
+$n^{3/5}/(\log n)^{2/5}$ in the release preprint's statement), as the
+erdosproblems.com remarks record them. The result is also recorded, as
+general-space context, on the page of
+[[problems/distance_problems/E0660/_index|Problem 660]].
 
 **Covers.** The case $d=3$ of the question whether $f_d(n)=n^{2/d-o(1)}$.
 Nothing is claimed for $d\ge4$, and the $o(1)$ in the exponent is not
@@ -52,7 +53,7 @@ $d\ge3$, which would supersede this result.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** None documented. The result is an arXiv preprint with no journal
-publication recorded. A poster reported it on the site's thread on 17 August
-2026 as solving the case $d=3$ of the problem. The site's page, last edited 16
-October 2025 and labeled OPEN, does not mention it, so there is no curator
-credit. The claim is claimed.
+publication recorded. A poster reported it on the erdosproblems.com thread on 17
+August 2026 as solving the case $d=3$ of the problem. The erdosproblems.com
+page, last edited 16 October 2025 and labeled OPEN, does not mention it, so
+there is no curator credit. The claim is claimed.

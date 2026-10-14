@@ -70,12 +70,12 @@ Theorems 2.3 and 2.4 are not checked.
 
 **Acceptance.** Refereed: Journal of Graph Theory, volume 56, issue 2 (2007),
 149--157, published online 9 August 2007, as the journal's first page and the
-Crossref record give it. Reviewed: the site's curator, T. F. Bloom, credits the
-paper with both displayed bounds in the problem's commentary and thanks Alon
-(erdosproblems.com/804, accessed 2026-10-07). The site's label was DISPROVED,
-and the site has no comment and no proof claim. The site's formulation mixes
-$f(m,n)$ with a one-variable $f(n)$. The problem page records that defect and
-the two-variable reading this page targets.
+Crossref record give it. Reviewed: the erdosproblems.com curator, T. F. Bloom,
+credits the paper with both displayed bounds in the problem's commentary and
+thanks Alon (erdosproblems.com/804, accessed 2026-10-07). The erdosproblems.com
+label was DISPROVED, and erdosproblems.com has no comment and no proof claim.
+The erdosproblems.com formulation mixes $f(m,n)$ with a one-variable $f(n)$. The
+problem page records that defect and the two-variable reading this page targets.
 
 **Formalization.** The statement file `ErdosProblems/804.lean` of
 formal-conjectures, added on 2026-09-20, names theorem `erdos_804` of

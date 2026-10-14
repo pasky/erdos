@@ -30,16 +30,17 @@ $$
 
 with distinct $a,b,c$?
 
-**Status.** Proved. The site's label was PROVED (LEAN) (page last edited 28
-December 2025). Two accepted full claims carry the standing. The first is
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN) (page last
+edited 28 December 2025). Two accepted full claims carry the standing. The first
+is
 [[problems/unit_fractions/E0303/claims/1991_06_01_brown_rodl|Brown and Rödl's 1991 theorem]],
-refereed and credited by the site, which proves the stronger positive-integer
-statement. The second is
+refereed and credited by erdosproblems.com, which proves the stronger
+positive-integer statement. The second is
 [[problems/unit_fractions/E0303/claims/2025_12_21_yuan|Yuan's Seed-Prover Lean proof]]
 of December 2025, formalized through this corpus's build of a re-proof of its
-lemmas. The site relabeled the problem PROVED (LEAN) after Alexeev's comment,
-and its commentary credits Brown and Rödl. The site's discussion carries no
-further proof claim.
+lemmas. Bloom's catalog relabeled the problem PROVED (LEAN) after Alexeev's
+comment, and its commentary credits Brown and Rödl. The erdosproblems.com
+discussion carries no further proof claim.
 
 **Source.** [erdosproblems.com/303](https://www.erdosproblems.com/303), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #303,
@@ -60,12 +61,13 @@ https://www.erdosproblems.com/303, accessed 2026-09-05.
 (`FormalConjectures/ErdosProblems/303.lean` at the linked commit on main)
 states `erdos_303` with the answer yes and the body `by sorry`; its
 attribute's `formal_proof` annotation points at the
-[site discussion](https://www.erdosproblems.com/forum/thread/303), and its
-docstring says the problem was formalized in Lean by Yuan using Seed-Prover.
-Boris Alexeev's comment of December 2025 there, which the curator marked
-addressed, links Zheng Yuan's Seed-Prover Lean code; the site relabeled the
-problem PROVED (LEAN), and its commentary credits Brown and Rödl. The code's
-original-post provenance and exact payload identity are recorded in the
+[erdosproblems.com discussion](https://www.erdosproblems.com/forum/thread/303),
+and its docstring says the problem was formalized in Lean by Yuan using
+Seed-Prover. Boris Alexeev's comment of December 2025 there, which the curator
+marked addressed, links Zheng Yuan's Seed-Prover Lean code; Bloom's catalog
+relabeled the problem PROVED (LEAN), and its commentary credits Brown and Rödl.
+The code's original-post provenance and exact payload identity are recorded in
+the
 [[../library/unit_fractions/yuan_2025_seed_prover_lean_proof_erdos_problem_303/yuan_2025_seed_prover_lean_proof_erdos_problem_303|Yuan source record]].
 A re-proof of that code's lemmas with Aristotle, Harmonic's system, is the
 file
@@ -77,9 +79,9 @@ authors for the statement, and Seed-Prover, Aristotle, Zheng Yuan and Boris
 Alexeev as formal authors. It is linked from both claim pages. This corpus
 built that file, found the axioms of `Erdos303.erdos_303` to be exactly
 `propext`, `Classical.choice` and `Quot.sound`, matched its fingerprint to
-the repository's comparator challenge and audited its statement as the
-site's; the `formalized` evidence is listed on Yuan's claim page. Yuan's
-posted payload itself was not built.
+the repository's comparator challenge and audited its statement as
+erdosproblems.com's; the `formalized` evidence is listed on Yuan's claim page.
+Yuan's posted payload itself was not built.
 
 ## Current assessment
 
@@ -100,24 +102,24 @@ x_0=x_1+x_2
 $$
 
 and applies a reciprocal transfer principle for homogeneous systems. The
-result supplies positive integers, so it also answers the site's formulation
-over the integers.
+result supplies positive integers, so it also answers the erdosproblems.com
+formulation over the integers.
 
 The paper notes that Hanno Lefmann independently obtained the transfer theorem
 without a distinctness requirement. That related result does not by itself
 give the pairwise-distinct conclusion required here.
 
 In December 2025 Alexeev's comment linking Yuan's Lean proof was marked
-addressed and the site relabeled the problem PROVED (LEAN), its commentary
-crediting Brown and Rödl. The
+addressed and Bloom's catalog relabeled the problem PROVED (LEAN), its
+commentary crediting Brown and Rödl. The
 [[../library/unit_fractions/yuan_2025_seed_prover_lean_proof_erdos_problem_303/theorem_erdos_303|rewritten mathematical proof]]
 uses finite Ramsey theory to find a special Schur triple in an inverse
 coloring built with a factorial common multiple, then converts it to the
 distinct parametrization
 $(kyz,kz(y+z),ky(y+z))$. This corpus built and audited a re-proof of the
 code's lemmas with Aristotle in Alexeev's collection; the posted code itself
-was not built. The site's discussion contains no other proof claim or proof
-exposition.
+was not built. The erdosproblems.com discussion contains no other proof claim or
+proof exposition.
 
 ## Known Results
 

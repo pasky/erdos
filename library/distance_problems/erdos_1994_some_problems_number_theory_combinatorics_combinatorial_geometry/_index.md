@@ -39,7 +39,7 @@ problems and proves nothing.
 The paper is a numbered list of open problems, with prizes, in three
 sections: 1. Number theory (1.1--1.6, pp. 261--264), 2. Combinatorics
 (2.1--2.8, pp. 264--267) and 3. Combinatorial geometry (3.1--3.5, pp.
-267--269). The items the catalog pages consume:
+267--269). The items the erdosproblems.com pages consume:
 
 - 1.3 (pp. 262--263): for an infinite sequence $A$ let $f(n)$ count the
   representations $n=a_i+a_j$ and $g_A(x)$ the number of $n<x$ with
@@ -109,8 +109,8 @@ The paper contains no proofs. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0749/_index|#749]], as the source
 of the problem (1.3, p. 263); [[../wiki/problems/ramsey_theory/E0085/_index|#85]], as the
-site's source Er94b, stating the problem and its weaker version with a
-constant $c$ (2.5, p. 266, PDF p. 6);
+erdosproblems.com source Er94b, stating the problem and its weaker version with
+a constant $c$ (2.5, p. 266, PDF p. 6);
 [[../wiki/problems/distance_problems/E0090/_index|#90]], as
 the paper in which Erdős dates the unit distance conjecture to 1946 (3.1,
 p. 267); [[../wiki/problems/distance_problems/E0099/_index|#99]], as the source of the

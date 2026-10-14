@@ -17,8 +17,8 @@ Here $f(n)=f(3,n)$ is the largest integer $q$ such that every connected
 graph of order $n$ and size $q$ is $3$-good, that is, satisfies
 $r(K_3,G)=2n-1$, and $g(n)=g(3,n)$ the largest $q$ for which some connected
 graph of order $n$ and size $q$ is $3$-good (printed p. 193). In the
-letters of Problem 1182 the paper's $f(n)$ is the site's $F(n)$ and its
-$g(n)$ the site's $f(n)$.
+letters of Problem 1182 the paper's $f(n)$ is erdosproblems.com's $F(n)$ and its
+$g(n)$ erdosproblems.com's $f(n)$.
 
 **Table I** (p. 194), "Low order values of f and g":
 
@@ -65,6 +65,6 @@ Schelp, All triangle-graph Ramsey numbers for connected graphs of order six
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in the site's letters,
-  $F(n)=1,2,5,7,8$ and $f(n)=1,2,5,8,12$ for $n=2,\ldots,6$, the small
-  values the site's commentary lists.
+- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in
+  erdosproblems.com's letters, $F(n)=1,2,5,7,8$ and $f(n)=1,2,5,8,12$ for
+  $n=2,\ldots,6$, the small values the erdosproblems.com commentary lists.

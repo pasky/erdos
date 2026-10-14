@@ -64,9 +64,9 @@ Self-contained.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0867/_index|Problem 867]]: the
-  layer argument for the upper bound $(\tfrac23+o(1))N$ that the site's
-  commentary credits to Adenwalla, here with the explicit error term
-  $\tfrac32(\log_4n+1)$; it bounds every set the problem admits from
+  layer argument for the upper bound $(\tfrac23+o(1))N$ that the
+  erdosproblems.com commentary credits to Adenwalla, here with the explicit
+  error term $\tfrac32(\log_4n+1)$; it bounds every set the problem admits from
   above and does not decide the problem, which the lower bound of
   [[additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/theorem_2_1|Theorem 2.1]]
   answers in the negative. The tightness remark matches

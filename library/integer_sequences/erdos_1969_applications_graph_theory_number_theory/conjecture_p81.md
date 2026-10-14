@@ -53,10 +53,10 @@ argument for the conjecture.
 ## Proof pointer
 
 None in the source. The conjecture as stated is false: see
-[[../wiki/problems/extremal_graph_theory/E0794/_index|Problem 794]] for the site's account
-(Balogh's observation that the second alternative implies the first,
-and Harris's 28-edge counterexample on nine vertices) and for the corrected
-question, whose bounds are on
+[[../wiki/problems/extremal_graph_theory/E0794/_index|Problem 794]] for
+erdosproblems.com's account (Balogh's observation that the second alternative
+implies the first, and Harris's 28-edge counterexample on nine vertices) and for
+the corrected question, whose bounds are on
 [[extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_3|Frankl and Füredi's Theorem 3]].
 
 ## Dependencies
@@ -65,6 +65,6 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0794/_index|Problem 794]]: the site's
-  statement is this conjecture in the site's words; the site cites
-  [Er69, p. 81].
+- [[../wiki/problems/extremal_graph_theory/E0794/_index|Problem 794]]: the
+  erdosproblems.com statement is this conjecture in erdosproblems.com's words;
+  erdosproblems.com cites [Er69, p. 81].

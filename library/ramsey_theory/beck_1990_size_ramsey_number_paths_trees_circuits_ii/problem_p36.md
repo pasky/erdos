@@ -26,7 +26,7 @@ We remark that recently Chvátal, Rödl, Szemerédi and Trotter succeeded in
 proving the analogous linear upper bound for Ramsey number."
 
 Observations made here. Beck measures the graph by its number of edges
-where the site's Problem 559 measures it by its number of vertices; for
+where erdosproblems.com's Problem 559 measures it by its number of vertices; for
 maximal degree $D$ a graph of $n$ edges without isolated vertices has
 between $2n/D$ and $2n$ vertices, so the two forms ask the same question up
 to the value of $c_2(D)$. The problem is posed here as Beck's own unsolved

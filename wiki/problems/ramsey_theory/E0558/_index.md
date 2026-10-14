@@ -31,27 +31,27 @@ $$
 where $K_{s,t}$ is the complete bipartite graph with $s$ vertices in one
 component and $t$ in the other.
 
-**Formulation.** The site's wording (page last edited 8 February 2026);
-"component" means part of the bipartition. $R_k(G)$ is the least forcing order.
-$K_{s,t}=K_{t,s}$, so one may take $s\le t$; Alon, Rónyai and Szabó write
+**Formulation.** The erdosproblems.com wording (page last edited 8 February
+2026); "component" means part of the bipartition. $R_k(G)$ is the least forcing
+order. $K_{s,t}=K_{t,s}$, so one may take $s\le t$; Alon, Rónyai and Szabó write
 $K_{t,s}$ with $t\le s$, Chung and Graham $K_{s,t}$ with $s\le t$, and both put
 the exponent on the smaller part. Alon, Rónyai and Szabó define $R_k(G)$ as the
 largest order of a complete graph that admits a $k$-coloring with no
-monochromatic $G$, one less than the site's quantity, which changes none of the
-asymptotic statements below. The question asks for $R_k(K_{s,t})$ as a function
-of $k$, $s$ and $t$. For fixed $s$ and $t$, an asymptotic formula as
+monochromatic $G$, one less than erdosproblems.com's quantity, which changes
+none of the asymptotic statements below. The question asks for $R_k(K_{s,t})$ as
+a function of $k$, $s$ and $t$. For fixed $s$ and $t$, an asymptotic formula as
 $k\to\infty$ determines the instance; an order of magnitude or a two-sided bound
-with different constants does not. This is how the site's commentary reads the
-question (it calls Chung and Graham's $K_{2,2}$ asymptotic a determination), and
-Alon, Rónyai and Szabó frame the problem as determining or estimating these
-numbers. The case $s=1$ is the stars, determined for every $k$ by Burr and
-Roberts (below), and the case $s=t=2$ is the four-cycle of
+with different constants does not. This is how the erdosproblems.com commentary
+reads the question (it calls Chung and Graham's $K_{2,2}$ asymptotic a
+determination), and Alon, Rónyai and Szabó frame the problem as determining or
+estimating these numbers. The case $s=1$ is the stars, determined for every $k$
+by Burr and Roberts (below), and the case $s=t=2$ is the four-cycle of
 [[problems/ramsey_theory/E0555/_index|Problem 555]].
 
-**Status.** Open, in the site's label (OPEN; page last edited 8 February 2026,
-accessed 2026-09-17). No source determines $R_k(K_{s,t})$ in general, and the
-search, whose scope the Current assessment records, found no proof claim. The
-one claim page,
+**Status.** Open, in the erdosproblems.com label (OPEN; page last edited 8
+February 2026, accessed 2026-09-17). No source determines $R_k(K_{s,t})$ in
+general, and the search, whose scope the Current assessment records, found no
+proof claim. The one claim page,
 [[problems/ramsey_theory/E0558/claims/1999_07_01_alon_ronyai_szabo|Alon, Rónyai and Szabó 1999]],
 settles the instance $s=t=3$ only, so the frontmatter standing derived from it
 stays open. The sources read give the following. The exact star values are
@@ -59,30 +59,32 @@ $R_k(K_{1,t})=k(t-1)+1$ when $k$ and $t$ are both even and $k(t-1)+2$ otherwise
 (Burr and Roberts, quoted by Chung and Graham). The order is $\Theta(k^t)$
 whenever $s\ge(t-1)!+1$ (Alon, Rónyai and Szabó, J. Combin. Theory Ser. B 76
 (1999)). The asymptotics are $(1+o(1))k^3$ for $K_{3,3}$ (same paper) and
-$(1+o(1))k^2$ for $K_{2,2}$. The latter is the site's sentence. It follows from
-the bounds $k^2-k+1<R_k(K_{2,2})\le k^2+k+1$ for $k-1$ a prime power, which
-Chung and Graham print. The bracket $tk^2+1\le R_k(K_{2,t+1})\le tk^2+k+2$ holds
-for $t$ and $k$ powers of one prime (Taranchuk 2024, a preprint, with Chung and
-Graham's Theorem 2). Chung and Graham also give general bounds, their Theorems 1
-and 4. This is a bounded negative finding, not a certificate of openness.
+$(1+o(1))k^2$ for $K_{2,2}$. The latter is the erdosproblems.com sentence. It
+follows from the bounds $k^2-k+1<R_k(K_{2,2})\le k^2+k+1$ for $k-1$ a prime
+power, which Chung and Graham print. The bracket
+$tk^2+1\le R_k(K_{2,t+1})\le tk^2+k+2$ holds for $t$ and $k$ powers of one prime
+(Taranchuk 2024, a preprint, with Chung and Graham's Theorem 2). Chung and
+Graham also give general bounds, their Theorems 1 and 4. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/558](https://www.erdosproblems.com/558), accessed
-2026-09-17: the problem page (OPEN, which the site qualifies as not resolvable
-by a finite computation; last edited 8 February 2026; source key [Er81c];
-commentary citing [ChGr75] and [ARS99]; additional thanks recorded to Noga
-Alon), its empty discussion thread and its empty proof-claim tab. Cite as: T. F.
-Bloom, Erdős Problem #558, https://www.erdosproblems.com/558, accessed
+2026-09-17: the problem page (OPEN, which erdosproblems.com qualifies as not
+resolvable by a finite computation; last edited 8 February 2026; source key
+[Er81c]; commentary citing [ChGr75] and [ARS99]; additional thanks recorded to
+Noga Alon), its empty discussion thread and its empty proof-claim tab. Cite as:
+T. F. Bloom, Erdős Problem #558, https://www.erdosproblems.com/558, accessed
 2026-09-17.
 
 **References.**
 
 - [Er81c] Erdős, P., Some new problems and results in graph theory and other
   branches of combinatorial mathematics. Combinatorics and graph theory
-  (Calcutta, 1980), Lecture Notes in Math. 885 (1981), 9--17. Site source key;
-  its pages 9--14 contain no statement about multicolor Ramsey numbers of
-  complete bipartite graphs (p. 13 has only the two-color $r(K(n),C_4)$, with
-  $C_4=K_{2,2}$), and Alon, Rónyai and Szabó cite it, with [ChGr75] and Chung
-  and Graham's 1998 problem book, for having raised the problem. Library home:
+  (Calcutta, 1980), Lecture Notes in Math. 885 (1981), 9--17. erdosproblems.com
+  source key; its pages 9--14 contain no statement about multicolor Ramsey
+  numbers of complete bipartite graphs (p. 13 has only the two-color
+  $r(K(n),C_4)$, with $C_4=K_{2,2}$), and Alon, Rónyai and Szabó cite it, with
+  [ChGr75] and Chung and Graham's 1998 problem book, for having raised the
+  problem. Library home:
   [[../library/ramsey_theory/erdos_1981_new_problems_results_graph_theory_other/_index|erdos_1981_new_problems_results_graph_theory_other]].
 - [ChGr75] Chung, F. R. K. and Graham, R. L., On multicolor Ramsey numbers for
   complete bipartite graphs. J. Combin. Theory Ser. B 18 (1975), 164--169, DOI
@@ -129,15 +131,16 @@ Bloom, Erdős Problem #558, https://www.erdosproblems.com/558, accessed
 
 **Formalization.** None. No file `ErdosProblems/558.lean` exists in
 formal-conjectures (main; the directory was listed in full on 2026-09-17, and no
-such file existed on 2026-10-07), the site's page records no formalized
-statement, and the community database (teorth/erdosproblems, read 2026-10-06)
-records the problem as open and unformalized with no formal-proof URL.
+such file existed on 2026-10-07), the erdosproblems.com page records no
+formalized statement, and the community database (teorth/erdosproblems, read
+2026-10-06) records the problem as open and unformalized with no formal-proof
+URL.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-17).** The statement above;
-OPEN; last edited 8 February 2026. The site's commentary credits Chung and
-Graham [ChGr75] with the general bounds, printed as
+**The question (erdosproblems.com formulation accessed 2026-09-17).** The
+statement above; OPEN; last edited 8 February 2026. The erdosproblems.com
+commentary credits Chung and Graham [ChGr75] with the general bounds, printed as
 
 $$
 (2\pi\sqrt{st})^{\frac1{s+t}}\Bigl(\frac{s+t}{e^2}\Bigr)k^{\frac{st-1}{s+t}}
@@ -151,13 +154,13 @@ as #27 in the Ramsey Theory section of the graphs collection. The thread
 and the proof-claim tab are empty. The community database record says open
 (last updated 31 August 2025), unformalized. The Chung--Graham bounds are
 the paper's Theorem 4 and Theorem 1 (below), which write $K_{s,t}$ with
-$s\le t$ as the site does; the site prints the lower bound with $\le$ where
-the paper has $>$ and omits the conditions $k>1$, $t\ge s\ge2$ of the upper
-one. In the site's statements of the [ARS99] results the roles of $s$ and
-$t$ follow that paper's $K_{t,s}$ with $s$ the larger part.
+$s\le t$ as erdosproblems.com does; erdosproblems.com prints the lower bound
+with $\le$ where the paper has $>$ and omits the conditions $k>1$, $t\ge s\ge2$
+of the upper one. In the erdosproblems.com statements of the [ARS99] results the
+roles of $s$ and $t$ follow that paper's $K_{t,s}$ with $s$ the larger part.
 
-**Origin.** The site's source key is Erdős's 1981 survey; its pages 9--14
-contain no statement about multicolor Ramsey numbers of complete bipartite
+**Origin.** The erdosproblems.com source key is Erdős's 1981 survey; its pages
+9--14 contain no statement about multicolor Ramsey numbers of complete bipartite
 graphs (p. 13 has only the two-color expectation
 $r(K(n),C_4)<n^{2-\varepsilon}$, with $C_4=K_{2,2}$, and the graph-theory part
 ends with the size Ramsey question (17), Harary's question with the partial
@@ -199,9 +202,9 @@ $(t-1)!+1>t$; the corresponding Turán problem is
 Burr and Roberts the exact values $r(K_{1,t};k)=k(t-1)+1$ if $k\equiv
 t\equiv0\pmod2$ and $k(t-1)+2$ otherwise, for every $k$ and $t$ (Burr, S. A. and
 Roberts, J. A., On Ramsey numbers for stars, Utilitas Math. 4 (1973), 217--220,
-not held; cited by Chung and Graham as "to appear"); the site's commentary does
-not mention the case. $K_{2,2}=C_4$: $R_k(K_{2,2})=(1+o(1))k^2$ is the site's
-sentence; Chung and Graham print
+not held; cited by Chung and Graham as "to appear"); the erdosproblems.com
+commentary does not mention the case. $K_{2,2}=C_4$: $R_k(K_{2,2})=(1+o(1))k^2$
+is the erdosproblems.com sentence; Chung and Graham print
 [[../library/ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/theorem_3|Theorem 3]]
 (p. 166), $r(K_{2,2};k)>k^2-k+1$ for $k-1$ a prime power, and
 [[../library/ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/corollary_1|Corollary 1]]
@@ -251,22 +254,22 @@ answer the problem asymptotically.
 which covers $s=t=3$. Chung and Graham's general bounds (their Theorems 1 and 4)
 and Theorem 8 of [ARS99] settle no instance, since they give two-sided bounds or
 an order of magnitude without matching constants, so they have no claim page.
-The $K_{2,2}$ asymptotic the site credits to Chung and Graham has no page,
-because the paper prints only $k^2-k+1<R_k(K_{2,2})\le k^2+k+1$ for $k-1$ a
-prime power, and the asymptotic for every $k$ needs the density step made on
+The $K_{2,2}$ asymptotic erdosproblems.com credits to Chung and Graham has no
+page, because the paper prints only $k^2-k+1<R_k(K_{2,2})\le k^2+k+1$ for $k-1$
+a prime power, and the asymptotic for every $k$ needs the density step made on
 this page. Taranchuk's bracket for $K_{2,t+1}$ holds only for $k$ a power of the
 prime of which $t$ is a power, so it determines no instance for every $k$. Burr
-and Roberts's exact star values determine the case $s=1$, but the site does not
-credit them and their statement is known here only through Chung and Graham's
-quotation, so they have no page until the statement is read in the paper or a
-review.
+and Roberts's exact star values determine the case $s=1$, but erdosproblems.com
+does not credit them and their statement is known here only through Chung and
+Graham's quotation, so they have no page until the statement is read in the
+paper or a review.
 
 **Search scope.** The status rests on these routes;
 none found a general determination or a proof claim.
 
-- The site: problem page, empty discussion thread and proof-claim tab; the
-  community database record; the formal-conjectures directory, listed in full on
-  2026-09-17 (no file 558).
+- erdosproblems.com: problem page, empty discussion thread and proof-claim tab;
+  the community database record; the formal-conjectures directory, listed in
+  full on 2026-09-17 (no file 558).
 - The primary sources, at the pages stated: [ARS99] pp. 1--2, 5--7 and 10
   (references); [Tar24] pp. 1--3 and 7; [ErGr75] p. 525; [Er81c] pp. 9--14; and,
   after the search, [ChGr75] pp. 164--169.
@@ -290,16 +293,16 @@ dissertation, Chung and Graham's 1998 problem book.
 
 **Remaining gaps.** (1) No general formula; the constant in $\Theta(k^t)$ and
 the balanced cases $K_{t,t}$ with $t\ge4$ are open. (2) [ChGr75] prints the
-general bounds, the $K_{2,2}$ bracket and the general conjecture; the site's
-$(1+o(1))k^2$ for $K_{2,2}$ is not printed there and rests on an elementary
-step made here, and the paper's conjecture is printed for all $t\ge s\ge2$,
-wider than Taranchuk's restatement. (3) The site's source key [Er81c] could not
-be located in the survey's pages 9--14. (4) The $s=2$ bracket rests on a
-preprint whose author reports the result was already known, and on second-hand
-upper bounds. (5) The Alon, Rónyai and Szabó theorems are read in an author
-manuscript, not the journal text, and Theorem 8 has no written proof in the
-paper. (6) Proof coverage: statements only, claims checked; nothing is
-reviewed.
+general bounds, the $K_{2,2}$ bracket and the general conjecture;
+erdosproblems.com's $(1+o(1))k^2$ for $K_{2,2}$ is not printed there and rests
+on an elementary step made here, and the paper's conjecture is printed for all
+$t\ge s\ge2$, wider than Taranchuk's restatement. (3) The erdosproblems.com
+source key [Er81c] could not be located in the survey's pages 9--14. (4) The
+$s=2$ bracket rests on a preprint whose author reports the result was already
+known, and on second-hand upper bounds. (5) The Alon, Rónyai and Szabó theorems
+are read in an author manuscript, not the journal text, and Theorem 8 has no
+written proof in the paper. (6) Proof coverage: statements only, claims checked;
+nothing is reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

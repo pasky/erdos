@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 916, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-13T17:25:54Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0916/claims
@@ -14,6 +14,6 @@ updated: 2026-10-13T17:25:54Z
 [[problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen|1974_12_01_thomassen]]: Thomassen (Arch. Math. 1974) proves that a graph with $n\ge3$ vertices and
 $2n-2$ edges has a cycle and a vertex off it joined to three of its vertices.
 This settles the modified Statement, and the result is refereed and credited
-by the site.
+by erdosproblems.com.
 
 ***

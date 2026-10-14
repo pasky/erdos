@@ -41,7 +41,8 @@ holds the publisher's copy on its
 [[../library/extremal_graph_theory/guichard_1990_note_packing_complete_graphs_trees/_index|card]]
 and pages the verification at
 [[../library/extremal_graph_theory/guichard_1990_note_packing_complete_graphs_trees/verification_p124|verification_p124]].
-The note is not a site key; a thread comment of 27 August 2026 named it.
+The note is not an erdosproblems.com key; a thread comment of 27 August 2026
+named it.
 
 **Covers.** The instances of [[problems/extremal_graph_theory/E0743/_index|Problem 743]]
 with $n=10$ and $n=11$, every family of trees included; for them the
@@ -62,7 +63,7 @@ into $H_{11}$.
 
 **Acceptance.** Refereed: the Journal of Combinatorial Mathematics and
 Combinatorial Computing, volume 8 (zbMATH record read on 2026-09-19). The
-site's commentary does not name the note, and the site labeled the problem
-FALSIFIABLE, an open problem, so no `reviewed` evidence exists. The
+erdosproblems.com commentary does not name the note, and Bloom's catalog labeled
+the problem FALSIFIABLE, an open problem, so no `reviewed` evidence exists. The
 computation itself has not been repeated, and no independent review is
 supplied.

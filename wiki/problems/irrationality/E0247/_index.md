@@ -57,11 +57,11 @@ https://www.erdosproblems.com/247.
 
 ## Current assessment
 
-The site's formulation (page last edited 20 January 2026) asks whether
-$\sum_{n\ge1}2^{-a_n}$ is transcendental for every increasing sequence of
-positive integers with $\limsup a_n/n=\infty$, and labeled the problem OPEN.
+The erdosproblems.com formulation (page last edited 20 January 2026) asks
+whether $\sum_{n\ge1}2^{-a_n}$ is transcendental for every increasing sequence
+of positive integers with $\limsup a_n/n=\infty$, and labeled the problem OPEN.
 No claim answers that question. One accepted partial claim records the
-transcendence the site credits under the stronger condition
+transcendence erdosproblems.com credits under the stronger condition
 $\limsup a_n/n^t=\infty$ for every $t\ge1$:
 [[problems/irrationality/E0247/claims/1956_12_29_erdos|Erdős 1957]], Theorem
 2 of [Er57] (printed p. 215), which shows that $\sum_k1/t^{n_k}$ satisfies no
@@ -72,12 +72,12 @@ irrationality only. The result page
 [[../library/irrationality/erdos_1957_irrationality_certain_series/theorem_2|Theorem 2]]
 carries the statement and the structure of the proof.
 
-**The site's citation.** The site credits the statement to [Er75c]. The
-sentence follows [ErGr80], p. 61, which reports the result as known for some
-time and cites its key [Er (75)], resolved by the monograph's bibliography
-(p. 112) to J. Math. Sci. 10 (1975), 1--7. That paper does not contain the
-statement. Its Theorem 2 (pp. 1--2) makes $\sum1/n_k$ a Liouville number
-when $n_k>k^{1+\varepsilon}$ and $\limsup n_k^{1/t^k}=\infty$ for every
+**The erdosproblems.com citation.** erdosproblems.com credits the statement to
+[Er75c]. The sentence follows [ErGr80], p. 61, which reports the result as known
+for some time and cites its key [Er (75)], resolved by the monograph's
+bibliography (p. 112) to J. Math. Sci. 10 (1975), 1--7. That paper does not
+contain the statement. Its Theorem 2 (pp. 1--2) makes $\sum1/n_k$ a Liouville
+number when $n_k>k^{1+\varepsilon}$ and $\limsup n_k^{1/t^k}=\infty$ for every
 $t$; for $n_k=2^{a_k}$ this asks $\limsup a_k/t^k=\infty$ for every $t$, a
 class inside the one the 1957 theorem covers, so it gets no claim page. The
 open problem it states on p. 2 asks whether $\sum_kn_k/2^{n_k}$ is
@@ -91,9 +91,9 @@ claim page of its own, and the 1957 theorem is the published proof.
 
 **Later statements.** [Er88c], p. 106, restates the transcendence for
 sequences with $n_k/k^l\to\infty$ for every $l$ and asks whether $n_k>ck^2$
-rules out a quadratic value; the site's remark rewrites this question, which
-the 1957 paper already asks on p. 213 for the square of the sum. The
-formal-conjectures file states the problem as `erdos_247`, tagged research
+rules out a quadratic value; the erdosproblems.com remark rewrites this
+question, which the 1957 paper already asks on p. 213 for the square of the sum.
+The formal-conjectures file states the problem as `erdos_247`, tagged research
 open, and also a variant `erdos_247.variants.strong_condition`, the credited
 statement with the hypothesis $\limsup n_k/k^t=\infty$ for every real
 $t\ge1$, tagged research solved and citing [ErGr80], both with `sorry`
@@ -102,11 +102,11 @@ proofs (the file at
 a statement file is not a formalization of a proof, and neither declaration
 is `formalized` evidence.
 
-**Search scope.** On 2026-10-07 the site's page and its discussion thread
-recorded no proof claim and no result on the exact question beyond the
-statements above. The site's proof-claims tab registered no claim; no wider
-literature search was made. The site's label OPEN matches the derived standing:
-the one claim is partial.
+**Search scope.** On 2026-10-07 the erdosproblems.com page and its discussion
+thread recorded no proof claim and no result on the exact question beyond the
+statements above. The erdosproblems.com proof-claims tab registered no claim; no
+wider literature search was made. The erdosproblems.com label OPEN matches the
+derived standing: the one claim is partial.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

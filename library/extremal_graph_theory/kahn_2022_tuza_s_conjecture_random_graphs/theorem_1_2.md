@@ -75,8 +75,8 @@ full range.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0167/_index|Problem 167]]: the site's "Kahn
-  and Park [KaPa22] have proved this is true for random graphs", a class
-  result on Tuza's conjecture that says nothing about the worst case; p. 1
-  attests Haxell's general bound $\frac{66}{23}$ and the tightness of $2$
-  for $K_4$ and $K_5$.
+- [[../wiki/problems/extremal_graph_theory/E0167/_index|Problem 167]]:
+  erdosproblems.com's "Kahn and Park [KaPa22] have proved this is true for
+  random graphs", a class result on Tuza's conjecture that says nothing about
+  the worst case; p. 1 attests Haxell's general bound $\frac{66}{23}$ and the
+  tightness of $2$ for $K_4$ and $K_5$.

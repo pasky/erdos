@@ -24,9 +24,9 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Is there an absolute constant $c>0$ such that, for all $1\leq k<
 n$, the binomial coefficient $\binom{n}{k}$ has a divisor in $(cn,n]$?
 
-**Status.** The site labeled the problem SOLVED, crediting Bui, Naprienko, Pratt
-and Zaharescu with the negative answer. The standing derived from the claim
-pages is `solved`, `disproved`. By the accepted claim
+**Status.** Bloom's catalog labeled the problem SOLVED, crediting Bui,
+Naprienko, Pratt and Zaharescu with the negative answer. The standing derived
+from the claim pages is `solved`, `disproved`. By the accepted claim
 [[problems/factorials_binomials/E0387/claims/2026_06_30_bui_naprienko_pratt_zaharescu|Bui, Naprienko, Pratt and Zaharescu 2026]],
 no constant $c>0$ works.
 
@@ -61,8 +61,8 @@ this corpus has not built them.
 
 ## Current assessment
 
-The dated site formulation above asks for one constant $c>0$ serving every
-$\binom nk$ with $1\leq k<n$. The answer is no:
+The dated erdosproblems.com formulation above asks for one constant $c>0$
+serving every $\binom nk$ with $1\leq k<n$. The answer is no:
 [[problems/factorials_binomials/E0387/claims/2026_06_30_bui_naprienko_pratt_zaharescu|Bui, Naprienko, Pratt and Zaharescu 2026]]
 exhibit infinitely many coefficients, with $k$ of order $(\log\log n)^{1/2}$,
 whose divisors all avoid an interval $(cn,n]$ with $c=c(n)\to0$. The same paper
@@ -72,13 +72,13 @@ $(n-n/(\log n)^{1/4},n]$, so the stronger form Guy records in section B33, a
 divisor in $(cn,n]$ for every $c<1$ and large $n$, holds in that range of $k$.
 The first version of the paper (2026-05-20) had the negative answer under the
 Generalized Riemann Hypothesis; the second (2026-06-30) is unconditional. The
-site's curator marked the problem solved on the unconditional version, and no
-journal publication is recorded. An unsigned note posted in
-the site's thread on 2026-05-29 by Przemek Chojecki, its argument credited to
-GPT-5.5 Pro, claims the same negative answer for every fixed window $(n/B,n]$
-by pairing a fixed-$B$ covering construction with the first version's divisor
-propositions; Naprienko described it as a rewriting of their own construction,
-public since 2026-05-23, and it is a pending claim on
+erdosproblems.com curator marked the problem solved on the unconditional
+version, and no journal publication is recorded. An unsigned note posted in the
+erdosproblems.com thread on 2026-05-29 by Przemek Chojecki, its argument
+credited to GPT-5.5 Pro, claims the same negative answer for every fixed window
+$(n/B,n]$ by pairing a fixed-$B$ covering construction with the first version's
+divisor propositions; Naprienko described it as a rewriting of their own
+construction, public since 2026-05-23, and it is a pending claim on
 [[problems/factorials_binomials/E0387/claims/2026_05_29_chojecki|its page]].
 
 Earlier results frame the question. Erdős had asked whether there is always a
@@ -91,11 +91,11 @@ admits an $n$ with no divisor of $\binom nk$ in $(n-k,n]$, is problem B34 of
 $n/\gcd(n,k)$ divides $\binom nk$, and $n/\gcd(n,k)\geq n/k$. Faulkner [Fa66]
 gives a prime divisor at least the least prime above $2k$ when $n$ is at least
 that prime, apart from $\binom92$ and $\binom{10}3$. Erdős wrote in [Er78g] that
-he expected a negative answer. Search scope: the site's problem page and
-discussion thread, the arXiv record of the paper (three versions on
+he expected a negative answer. Search scope: the erdosproblems.com problem page
+and discussion thread, the arXiv record of the paper (three versions on
 2026-10-07), and the formal-conjectures file. The paper's proofs are not
-checked here, and this page takes [Er78g], [Fa66] and [Sc58] from the site's
-and the library card's reports of them.
+checked here, and this page takes [Er78g], [Fa66] and [Sc58] from
+erdosproblems.com's and the library card's reports of them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

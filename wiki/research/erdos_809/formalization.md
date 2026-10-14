@@ -58,8 +58,8 @@ publication files, the Mathlib-only
 [evidence/assets/publication/](evidence/_index.md) and are not built here.
 The modules use targeted Mathlib imports and contain no incomplete proofs.
 The corpus manifest lists the claim [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], whose module `Erdos.L17` restates the
-result in the catalog's exact-edge form over graph copies and proves it from
-`statement_proved`; the full build and the universal native audit pass. The
+result in erdosproblems.com's exact-edge form over graph copies and proves it
+from `statement_proved`; the full build and the universal native audit pass. The
 independent whole-statement fidelity audit, its grade and a non-author clean
 gate are filed on the claim page, so the claim stands at tier 2 (on the
 second-cycle review and grade of 2026-10-02 and the non-author clean gate of

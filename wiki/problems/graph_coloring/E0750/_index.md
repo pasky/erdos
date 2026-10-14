@@ -69,19 +69,19 @@ $c>1/4$, as variants, research solved with `sorry` bodies and no
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, read with $f$
-nonnegative as the Formulation records, asks whether for every $f(m)\to\infty$
-some graph of infinite chromatic number has, in every $m$-vertex subgraph, an
-independent set of size at least $m/2-f(m)$. The standing is `solved`, `proved`,
-through
+The question, in the erdosproblems.com formulation accessed 2026-09-04, read
+with $f$ nonnegative as the Formulation records, asks whether for every
+$f(m)\to\infty$ some graph of infinite chromatic number has, in every $m$-vertex
+subgraph, an independent set of size at least $m/2-f(m)$. The standing is
+`solved`, `proved`, through
 [[problems/graph_coloring/E0750/claims/2026_05_03_chojecki|Chojecki's generalized Mycielski construction]],
 a note of 2026-05-03 signed with the AI system GPT-5.5 Pro that proves the
 stronger statement that every $m$-vertex finite subgraph becomes bipartite after
 deleting at most $g(m)$ vertices, for any nondecreasing unbounded $g$. The
-site's curator labeled the problem PROVED (LEAN) and credits that result; there
-is no refereed publication, and the linked Lean developments, the first
-declaring Stiebitz's theorem on generalized Mycielski graphs as an axiom and a
-later one proving it, whose single-file vendoring formal-conjectures'
+erdosproblems.com curator labeled the problem PROVED (LEAN) and credits that
+result; there is no refereed publication, and the linked Lean developments, the
+first declaring Stiebitz's theorem on generalized Mycielski graphs as an axiom
+and a later one proving it, whose single-file vendoring formal-conjectures'
 `formal_proof` attribute names, are third-party Lean, not among the corpus's
 audited builds, so the acceptance evidence is the curator's review and a named
 reader's review alone.
@@ -102,13 +102,13 @@ deleting $\epsilon n$ vertices
 Its Lemma 2.1 limits this: a graph of uncountable chromatic number has, for some
 $\epsilon>0$ and infinitely many $n$, an $n$-vertex subgraph with no independent
 set larger than $(1/2-\epsilon)n$, so for every $f$ with $f(m)=o(m)$ no graph of
-uncountable chromatic number has the property. The site's remark understates
-[ErHa67b] and misreads [Er69b]. Its credit to [ErHa67b] for $f(m)\ge cm$ with
-$c>1/4$ is correct: the paper's construction for uncountable chromatic number
-(for every uncountable cardinal $m$, an $m$-chromatic graph with independence
-density above every $c<1/4$) gives that case. The paper's main theorem already
-gives $f(m)=\epsilon m$ for every $\epsilon>0$, with chromatic number
-$\aleph_0$. [Er69b]
+uncountable chromatic number has the property. The erdosproblems.com remark
+understates [ErHa67b] and misreads [Er69b]. Its credit to [ErHa67b] for
+$f(m)\ge cm$ with $c>1/4$ is correct: the paper's construction for uncountable
+chromatic number (for every uncountable cardinal $m$, an $m$-chromatic graph
+with independence density above every $c<1/4$) gives that case. The paper's main
+theorem already gives $f(m)=\epsilon m$ for every $\epsilon>0$, with chromatic
+number $\aleph_0$. [Er69b]
 ([[../library/graph_coloring/erdos_1969_problems_results_chromatic_graph_theory/_index|card]])
 does not conjecture that case: it reports the $c<1/2$ theorem for chromatic
 number $\aleph_0$ as proved in [ErHa67b], records the $c<1/4$ result for
@@ -123,18 +123,19 @@ a-positive-answer-to-erdos-problem-74-would-imply-a-positive-answer-to-problem-7
 argues that a positive answer to Problem 74 would imply a positive answer to
 this problem; its lemma, that a graph made bipartite by deleting $\beta$ edges
 has an independent set of size at least $(n-\beta)/2$, gives this problem for
-$f$ from Problem 74 for the budget $2f$. Problem 74 has been answered no (the
-site labeled it disproved, and the corpus accepts the disproof), so the note's
-hypothesis is false. Applied rate by rate, the known positive case of Problem
-74,
+$f$ from Problem 74 for the budget $2f$. Problem 74 has been answered no
+(Bloom's catalog labeled it disproved, and the corpus accepts the disproof), so
+the note's hypothesis is false. Applied rate by rate, the known positive case of
+Problem 74,
 [[problems/graph_coloring/E0074/claims/1982_12_01_rodl|Rödl's linear budgets]],
 gives only the linear case settled in 1967. The note settles no new instance and
 has no claim page.
 
-Search scope: the site's problem page, discussion thread and proof-claims
-page, the note, the formal-conjectures statement file, the third-party Lean
-repositories at their linked commits, and the texts of [ErHa67b], [Er69b] and
-[EHS82]. The corpus holds no line-by-line check of the note's proof.
+Search scope: the erdosproblems.com problem page, discussion thread and
+proof-claims page, the note, the formal-conjectures statement file, the
+third-party Lean repositories at their linked commits, and the texts of
+[ErHa67b], [Er69b] and [EHS82]. The corpus holds no line-by-line check of the
+note's proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

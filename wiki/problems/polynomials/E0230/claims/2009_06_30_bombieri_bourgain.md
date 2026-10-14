@@ -48,12 +48,13 @@ Theorem 4. The relative error $O(n^{-1/9+\varepsilon})$
 tends to zero, so for every $c>0$ and every large $n$ the maximum of
 $\lvert P\rvert$ on the circle is below $(1+c)\sqrt n$, which refutes the
 constant asked for in [[problems/polynomials/E0230/_index|Problem 230]].
-The paper's polynomial has $n+1$ coefficients where the site's has $n$;
+The paper's polynomial has $n+1$ coefficients where erdosproblems.com's has $n$;
 replacing $\sqrt n$ by $\sqrt{n+1}$ changes the ratio by $1+O(1/n)$, and a
 shift of the index range changes nothing on the circle. The result sharpens
 Kahane's relative error $O(n^{-1/17}\sqrt{\log n})$ on the
 [[problems/polynomials/E0230/claims/1980_09_01_kahane|accepted Kahane page]]
-and is the quantitative resolution the site's commentary names. The card
+and is the quantitative resolution the erdosproblems.com commentary names. The
+card
 [[../library/polynomials/bombieri_2009_kahane_ultraflat_polynomials/_index|bombieri_2009_kahane_ultraflat_polynomials]]
 digests the statements (printed pp. 628--630), the construction through a
 smoothed quadratic-phase core, a partition of unity on an auxiliary scale, a
@@ -67,16 +68,16 @@ coefficients, so the paper does not touch the real-sign question of
 **Depends on.** Nothing in this wiki: the construction is self-contained in
 the paper.
 
-**Acceptance.** A refereed sharpening of Kahane's disproof, named by the site's
-curator.
+**Acceptance.** A refereed sharpening of Kahane's disproof, named by the
+erdosproblems.com curator.
 
 Refereed: E. Bombieri and J. Bourgain, On Kahane's ultraflat polynomials, J.
 Eur. Math. Soc. (JEMS) 11 (2009), no. 3, 627--703, received 3 September 2008,
 published 30 June 2009.
 
-Reviewed: the site's curator, Thomas Bloom, names the paper in the problem's
-commentary (page last edited 23 January 2026). The commentary describes it as
-the sharpening of Kahane's construction to a polynomial within
+Reviewed: the erdosproblems.com curator, Thomas Bloom, names the paper in the
+problem's commentary (page last edited 23 January 2026). The commentary
+describes it as the sharpening of Kahane's construction to a polynomial within
 $O(n^{7/18}(\log n)^{O(1)})$ of $\sqrt n$ on the whole circle.
 
 The card digests the paper. Its arguments are not independently rederived. No

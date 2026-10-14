@@ -53,22 +53,22 @@ https://www.erdosproblems.com/697.
 
 ## Current assessment
 
-The site's formulation of 2026-09-04 asks whether a threshold $\beta>1$
-separates limit $0$ from limit $1$ for $\delta(m,\alpha)$. Hall's refereed
-paper answers yes with $\beta=1/\log2$, and the site's curator credits it;
-that is the accepted claim. Below the threshold the trivial bound
-$\delta(m,\alpha)<(m^\alpha+1)/m$ already gives the limit $0$ for $\alpha<1$,
-and Erdős writes on p. 81 of
+The erdosproblems.com formulation of 2026-09-04 asks whether a threshold
+$\beta>1$ separates limit $0$ from limit $1$ for $\delta(m,\alpha)$. Hall's
+refereed paper answers yes with $\beta=1/\log2$, and the erdosproblems.com
+curator credits it; that is the accepted claim. Below the threshold the trivial
+bound $\delta(m,\alpha)<(m^\alpha+1)/m$ already gives the limit $0$ for
+$\alpha<1$, and Erdős writes on p. 81 of
 [[../library/divisors/erdos_1979_unconventional_problems_number_theory_asterisque/_index|Er79e]]
 that he can prove the case $\alpha=1$; the same page poses the threshold
 question, which it calls related to the estimation of the divisor chains $H(n)$
 of Problem 696.
 
 Hall's paper is not held; no proof is compiled and no independent review is
-recorded, so the account rests on the publication record and the site's credit
-(page accessed 2026-10-07). A Lean formalization of Hall's theorem by Codex and
-GPT-5.6 Sol, in Boris Alexeev's repository of Lean proofs, is linked on the
-claim page; it has not been built here.
+recorded, so the account rests on the publication record and the
+erdosproblems.com credit (page accessed 2026-10-07). A Lean formalization of
+Hall's theorem by Codex and GPT-5.6 Sol, in Boris Alexeev's repository of Lean
+proofs, is linked on the claim page; it has not been built here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

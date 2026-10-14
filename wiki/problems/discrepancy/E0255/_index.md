@@ -36,8 +36,8 @@ $$
 **Status.** PROVED (LEAN). Schmidt's 1968 theorem, refereed in the Quarterly
 Journal of Mathematics, answers yes. See
 [[problems/discrepancy/E0255/claims/1968_01_01_schmidt|the claim page]]. The
-claim page also links the unbuilt public Lean file that the site's Lean
-qualifier most likely refers to.
+claim page also links the unbuilt public Lean file that the erdosproblems.com
+Lean qualifier most likely refers to.
 
 **Source.** [erdosproblems.com/255](https://www.erdosproblems.com/255), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #255,
@@ -52,14 +52,14 @@ https://www.erdosproblems.com/255.
 - [TiWa80] Tijdeman, R. and Wagner, G., A sequence has almost nowhere small
   discrepancy. Monatsh. Math. (1980), 315-329.
 
-**Formalization.** None audited here. The site's Lean qualifier names no
-file; the 1968 claim page links the public Lean file it most likely refers
+**Formalization.** None audited here. The erdosproblems.com Lean qualifier names
+no file; the 1968 claim page links the public Lean file it most likely refers
 to, which is not built or audited here.
 
 ## Current assessment
 
 The standing rests on three accepted claim pages, each a refereed theorem
-credited by the site's curator. Schmidt's 1968 theorem
+credited by the erdosproblems.com curator. Schmidt's 1968 theorem
 ([[problems/discrepancy/E0255/claims/1968_01_01_schmidt|Schmidt 1968]])
 answers the question yes: for every sequence some interval has unbounded
 discrepancy, and the anchors $x$ at which $D_N([0,x))$ stays bounded form a
@@ -70,12 +70,12 @@ many anchored intervals $[0,x)$ answer the question. Tijdeman and Wagner's
 1980 theorem
 ([[problems/discrepancy/E0255/claims/1980_12_01_tijdeman_wagner|Tijdeman and Wagner 1980]])
 gives the rate $\limsup_N\lvert D_N([0,x))\rvert/\log N\ge1/400$ for almost
-every $x$, which the site's commentary calls essentially best possible. The
-site's Lean qualifier most likely refers to the public Lean file linked on
-the 1968 claim page, which is not built or audited here and warrants
-nothing. The Progress note below is author-recorded and not independently
-reviewed. This page records no current literature search or independent
-assessment of proof coverage.
+every $x$, which the erdosproblems.com commentary calls essentially best
+possible. The erdosproblems.com Lean qualifier most likely refers to the public
+Lean file linked on the 1968 claim page, which is not built or audited here and
+warrants nothing. The Progress note below is author-recorded and not
+independently reviewed. This page records no current literature search or
+independent assessment of proof coverage.
 
 ## Progress
 

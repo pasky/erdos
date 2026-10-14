@@ -34,8 +34,8 @@ game be guaranteed to last for?
 At least $\epsilon n$ moves? (For $\epsilon>0$ and $n$ sufficiently large.) At
 least $(1-\epsilon)\frac{n}{2}$ moves?
 
-**Status.** Labeled open on the site. The page showed OPEN and was last edited
-24 April 2026. Its proof-claims thread lists one proof claim as full. The
+**Status.** Labeled open on erdosproblems.com. The page showed OPEN and was last
+edited 24 April 2026. Its proof-claims thread lists one proof claim as full. The
 frontmatter standing derives from the claim pages, and no full claim is recorded
 there. The pending partial claim
 [[problems/divisors/E0872/claims/2026_02_14_price|Price's Shortener strategy]]
@@ -71,32 +71,32 @@ described on the claim pages; this corpus has built neither.
 
 ## Current assessment
 
-**The question.** The site formulation quoted above (page last edited 24
-April 2026) asks for the guaranteed length of the game in which two
+**The question.** The erdosproblems.com formulation quoted above (page last
+edited 24 April 2026) asks for the guaranteed length of the game in which two
 players alternately add integers from $\{2,\ldots,n\}$ to a
 common set that must stay free of divisibility between its members, one
 player prolonging and the other shortening, and poses two thresholds,
 $\epsilon n$ and $(1-\epsilon)n/2$. Erdős does not say who moves first, and
-the site's remarks note that the answer may depend on it; the forum, the
-formal-conjectures file and the pending claim all take Prolonger to move
+the erdosproblems.com remarks note that the answer may depend on it; the forum,
+the formal-conjectures file and the pending claim all take Prolonger to move
 first, and computations reported on the discussion thread (exact values up
 to $n=120$) suggest that the Shortener-first value stays close to $\pi(n)$
 while the Prolonger-first value grows faster. The game is a number-theoretic
-form of Hajnal's triangle-free game; the site's remarks cite [FuSe91] for
-its $\gg n\log n$ lower bound and [BPW16] for the upper bound
+form of Hajnal's triangle-free game; the erdosproblems.com remarks cite [FuSe91]
+for its $\gg n\log n$ lower bound and [BPW16] for the upper bound
 $(\tfrac{26}{121}+o(1))n^2$ on the graph game, and call the type a
 saturation game. Erdős poses the game in [Er92c, p. 47] as a
 number-theoretic form of Hajnal's game and says he thinks the prolonging
 player can force $(1-\epsilon)\frac n2$ moves but cannot prove even
 $\epsilon n$.
 
-**What the site records.** Every maximal set must contain the primes in
+**What erdosproblems.com records.** Every maximal set must contain the primes in
 $(n/2,n]$, so $L(n)\gg n/\log n$; a discussion-thread comment sharpens
 the argument to $L(n)\ge\pi(n)$ by counting the largest prime powers up to
-$n$. For the second threshold the site's remarks credit a Shortener strategy
-found by GPT-5.2 Pro at Liam Price's prompting (February 2026, Prolonger
-first) with the bound $(\tfrac{23}{48}+o(1))n$; that result is the pending
-partial claim
+$n$. For the second threshold the erdosproblems.com remarks credit a Shortener
+strategy found by GPT-5.2 Pro at Liam Price's prompting (February 2026,
+Prolonger first) with the bound $(\tfrac{23}{48}+o(1))n$; that result is the
+pending partial claim
 [[problems/divisors/E0872/claims/2026_02_14_price|Price's Shortener
 strategy]], and a thread comment of 17 February 2026 lowers its constant
 by changing the strategy's auxiliary set, as the claim page records.
@@ -113,7 +113,7 @@ and, being $o(n)$, settles neither displayed question, so it has no page. A
 note posted on the thread on 29 April 2026 by Jonas Silva (user jonaslsa),
 signed with GPT 5.5 Pro, raises the constant to $\tfrac12$,
 $L(n)\ge(\tfrac12-o(1))n\log\log n/\log n$, and a thread post of the
-site's curator of the same day presents the argument as a game on the
+erdosproblems.com curator of the same day presents the argument as a game on the
 bipartite graph of primes $p\sim q$ with $pq\in(n/2,n]$; neither settles a
 displayed question, so neither has a claim page. A Lean
 proof of the $23/48$ bound posted on the thread in May 2026 is recorded on
@@ -135,9 +135,9 @@ the standing stays `open`.
 its discussion thread and its proof-claims thread; on the pending claim's
 manuscript to its theorem, the outline of its argument and its
 verification notes, its Lean project unbuilt; and on Price's write-up as
-the thread and the site's remarks describe it. No independent review of
-any argument is recorded; the curator's remark on Price's result is
-commentary on a problem the site labeled OPEN.
+the thread and the erdosproblems.com remarks describe it. No independent review
+of any argument is recorded; the curator's remark on Price's result is
+commentary on a problem Bloom's catalog labeled OPEN.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

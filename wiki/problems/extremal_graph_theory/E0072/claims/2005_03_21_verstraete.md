@@ -37,14 +37,14 @@ page states it, with $A=S$ and $c=10$. The proof shows that such a set exists
 without exhibiting one.
 
 **Acceptance.** The paper is a refereed publication in the Journal of Graph
-Theory. The site's curator, Thomas Bloom, records the problem as solved by it
-and labeled the problem proved, which is the reviewed evidence listed. The
-author's undated preprint is the edition described on its
+Theory. The erdosproblems.com curator, Thomas Bloom, records the problem as
+solved by it and labeled the problem proved, which is the reviewed evidence
+listed. The author's undated preprint is the edition described on its
 [[../library/extremal_graph_theory/verstraete_2005_unavoidable_cycle_lengths_graphs/_index|source card]].
 The basis here is the statement of Theorem 1 on p. 1 of the preprint alone, not
 the proof on pp. 2--16. The journal text was not compared. The acceptance
-recorded here therefore rests on the publication and the site's acceptance, not
-on a local review.
+recorded here therefore rests on the publication and erdosproblems.com's
+acceptance, not on a local review.
 
 **Later work.**
 [[problems/extremal_graph_theory/E0072/claims/2020_10_29_liu_montgomery|Liu and Montgomery]]

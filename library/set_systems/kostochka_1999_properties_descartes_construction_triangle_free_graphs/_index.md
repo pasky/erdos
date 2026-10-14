@@ -33,7 +33,7 @@ logical pages, has a copyright or license line); the preprint series' index
 page (https://www.mff.cuni.cz/en/kam/research/kam-dimatia-series, read
 2026-10-02) states no license or terms of use for the preprints, and its site
 footer, which prints "© 2025 Charles University, Faculty of Mathematics and
-Physics" (read 2026-10-07), speaks for the site, not the paper; the
+Physics" (read 2026-10-07), speaks for erdosproblems.com, not the paper; the
 publisher's edition was not read; the term is unstated.
 
 The paper adapts Descartes' replacement construction to uniform

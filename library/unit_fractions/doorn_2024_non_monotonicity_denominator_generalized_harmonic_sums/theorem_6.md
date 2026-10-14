@@ -25,7 +25,7 @@ $\sum_{i=a}^br_i/i=u_{a,b}/v_{a,b}$ in lowest terms.
 Equivalently, $b(a)>a+(\tfrac12-\varepsilon)\log a$ for every
 $\varepsilon>0$ and all large $a$ (the form used in the overview, p. 3; the
 abstract gives the classical-case bound $b(a)>a+0.54\log a$). The shift of
-one between the paper's $b(a)$ and the site's does
+one between the paper's $b(a)$ and erdosproblems.com's does
 not change the limit inferior. Section 4.3 (p. 51), where the $r_i$ are only
 assumed bounded, notes that the proof does not use periodicity, so the bound
 also holds for bounded non-periodic sequences.

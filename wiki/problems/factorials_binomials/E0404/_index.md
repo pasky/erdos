@@ -35,9 +35,10 @@ Is there a prime $p$ and an infinite sequence $a_1<a_2<\cdots$ such that if
 $p^{m_k}$ is the highest power of $p$ dividing $\sum_{i\leq k}a_i!$ then $m_k\to
 \infty$?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 29
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 29
 September 2025). The standing in the frontmatter derives from the claim pages.
-The site credits Lin [Li76] with $f(2,2)\le254$, a pending partial claim on
+erdosproblems.com credits Lin [Li76] with $f(2,2)\le254$, a pending partial
+claim on
 [[problems/factorials_binomials/E0404/claims/1976_01_01_lin|its claim page]].
 Exact values posted in the thread in July 2026 are also pending partial claims.
 The values of $f(a,2)$ for $a\le256$ are on
@@ -54,8 +55,8 @@ https://www.erdosproblems.com/404.
 **References.**
 
 - [Li76] Lin, S., On two problems of Erdős concerning sums of distinct
-  factorials. Bell Laboratories internal memorandum (1976); the site's
-  citation prints 1960, a misprint (see
+  factorials. Bell Laboratories internal memorandum (1976); the
+  erdosproblems.com citation prints 1960, a misprint (see
   [[problems/factorials_binomials/E0403/_index|Problem 403]]).
 
 **Formalization.** None recorded: formal-conjectures has no statement file
@@ -65,12 +66,12 @@ pages; this corpus has not built them.
 
 ## Current assessment
 
-The questions, as the site states them (page last edited 29 September 2025):
-for which $a\ge1$ and primes $p$ is the exponent of $p$ in a sum of distinct
-factorials beginning with $a!$ bounded; how does the largest exponent
+The questions, as erdosproblems.com states them (page last edited 29 September
+2025): for which $a\ge1$ and primes $p$ is the exponent of $p$ in a sum of
+distinct factorials beginning with $a!$ bounded; how does the largest exponent
 $f(a,p)$ behave; and is there a prime $p$ and an infinite increasing sequence
 whose partial factorial sums are divisible by ever higher powers of $p$? All
-three are open. The site's commentary records one result, Lin's
+three are open. The erdosproblems.com commentary records one result, Lin's
 $f(2,2)\le254$ from a 1976 memorandum, so the first question has the answer
 yes at $(2,2)$. Kitamura's two repositories of July 2026 compute $f(a,2)$
 exactly for every $a\le256$, with $f(2,2)=254$ (so Lin's bound is sharp),

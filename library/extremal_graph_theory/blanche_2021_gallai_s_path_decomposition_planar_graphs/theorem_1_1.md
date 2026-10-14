@@ -33,7 +33,7 @@ vertices independent (Chu, Fan and Liu) and triangle-free planar graphs
 **Source.** A. Blanché, M. Bonamy and N. Bonichon, *Gallai's path
 decomposition in planar graphs*, arXiv:2110.08870v2 (21 June 2022; title page
 dated June 22, 2022), 95 pp.; Theorem 1.1 on p. 1 (PDF p. 1), read on the page
-image. No journal version of the full paper was found (search);
+image. No journal version of the full paper was found (search of 2026-09-18);
 an extended abstract appeared in Extended Abstracts EuroComb 2021 (Trends in
 Mathematics), pp. 758--764, doi:10.1007/978-3-030-83823-2_121, not read for
 this page. The artifact is identified in the

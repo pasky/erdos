@@ -63,12 +63,12 @@ $F$, real on the real line, whose restriction to $\mathbb R$ is not affine
 and preserves rationality in both directions; the file contains no `sorry`
 and no `axiom` command at the pinned commit. This project has not built the
 file or audited its statement against the problem, so it supplies no
-`formalized` evidence; the site's label PROVED (LEAN) refers to this
+`formalized` evidence; the erdosproblems.com label PROVED (LEAN) refers to this
 development.
 
 **Acceptance.** The paper is refereed: K. F. Barth and W. J. Schneider,
 *Entire functions mapping countable dense subsets of the reals onto each
 other monotonically*, J. London Math. Soc. (2) 2, part 4 (October 1970),
-620--626. The site's curator, Thomas F. Bloom, marked Problem 226 proved and
-credits this paper with the solution. The page is dated by the first day of
-the issue month, since the paper's first posting carries no finer date.
+620--626. The erdosproblems.com curator, Thomas F. Bloom, marked Problem 226
+proved and credits this paper with the solution. The page is dated by the first
+day of the issue month, since the paper's first posting carries no finer date.

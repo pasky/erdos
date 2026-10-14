@@ -45,13 +45,13 @@ $$
 f_k(n) \sim \frac{1}{2}\left(1-\frac{1}{\lfloor k/3\rfloor}\right)n^2?
 $$
 
-**Criticality convention.** The site defines edge-criticality. Luo–Ma–Yang
-define a $k$-critical graph by requiring every proper subgraph to be
+**Criticality convention.** erdosproblems.com defines edge-criticality.
+Luo–Ma–Yang define a $k$-critical graph by requiring every proper subgraph to be
 $(k-1)$-colorable; write $g_k(m)$ for their corresponding maximum, with
 $g_k(m)=0$ when no such graph exists. Their lower constructions therefore
-belong directly to the site's larger class. In the other direction, delete the
-isolates from a site-critical graph. Every remaining vertex $v$ lies on an
-edge $e$, and a $(k-1)$-coloring after deleting $e$ restricts to one after
+belong directly to erdosproblems.com's larger class. In the other direction,
+delete the isolates from a site-critical graph. Every remaining vertex $v$ lies
+on an edge $e$, and a $(k-1)$-coloring after deleting $e$ restricts to one after
 deleting $v$. The core is therefore proper-subgraph-critical. Conversely,
 padding such a core with isolates preserves site-criticality. Thus the exact
 convention transfer is
@@ -63,16 +63,17 @@ $$
 Luo–Ma–Yang's exact-size upper bounds must be maximized over $m\leq n$ rather
 than copied with the page's $n$ unchanged.
 
-**Status.** Open. The site's label was OPEN (accessed 2026-10-06). The three
-questions stand differently, and the frontmatter's standing is derived from the
-claim pages. Toft's constructions answer the first question yes. They also
-refute the third question's universal formula for $k\not\equiv0\pmod3$. This is
-an accepted partial claim
-([[problems/graph_coloring/E0917/claims/1970_01_01_toft|claim page]]). The site
-credits the constructions for $k\ge6$ to Stiebitz, while Luo, Ma and Yang credit
-them to Toft. That claim page records the conflict. Qiyuan Gu's preprint of
-September 2026 claims a refutation at $k=12$, a multiple of $3$. The proof-claim
-entry says GPT 6 Astra generated its proofs. It is a pending partial claim
+**Status.** Open. The erdosproblems.com label was OPEN (accessed 2026-10-06).
+The three questions stand differently, and the frontmatter's standing is derived
+from the claim pages. Toft's constructions answer the first question yes. They
+also refute the third question's universal formula for $k\not\equiv0\pmod3$.
+This is an accepted partial claim
+([[problems/graph_coloring/E0917/claims/1970_01_01_toft|claim page]]).
+erdosproblems.com credits the constructions for $k\ge6$ to Stiebitz, while Luo,
+Ma and Yang credit them to Toft. That claim page records the conflict. Qiyuan
+Gu's preprint of September 2026 claims a refutation at $k=12$, a multiple of
+$3$. The proof-claim entry says GPT 6 Astra generated its proofs. It is a
+pending partial claim
 ([[problems/graph_coloring/E0917/claims/2026_09_05_gu|claim page]]). The second
 question, $f_6(n)\sim n^2/4$, is open, and so is the formula's restriction to
 the other multiples of $3$. So the problem has no full claim.
@@ -93,8 +94,8 @@ https://www.erdosproblems.com/917, accessed 2026-09-07.
   Dirac's 6-critical graph on $n$ vertices with more than $n^2/4$ edges,
   Toft's 4-chromatic critical graph with more than $n^2/16$ edges, and that
   $f_k(n)$ is unknown for $k>3$, with not even the existence of
-  $\lim f_k(n)/n^2=\lambda_k$ established. The site cites p. 341. Library
-  home:
+  $\lim f_k(n)/n^2=\lambda_k$ established. erdosproblems.com cites p. 341.
+  Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [LMY23] Luo, Cong; Ma, Jie; and Yang, Tianchi,
   [[../library/graph_coloring/luo_2023_maximum_number_edges_critical_graphs/_index|On the maximum number of edges in $k$-critical graphs]].
@@ -121,39 +122,39 @@ corpus has not built the archive or checked its statements, so it gives no
 1. Luo–Ma–Yang report that Toft proved, for every $k\geq4$, a constant
    $c_k>0$ with $g_k(n)\geq c_kn^2$ for every $n\geq k$ except $n=k+1$.
    Since $f_k(n)\geq g_k(n)$, this proves the first question at result level.
-2. No source listed below proves or refutes $f_6(n)\sim n^2/4$, and the site
-   labeled the problem OPEN (accessed 2026-10-06).
+2. No source listed below proves or refutes $f_6(n)\sim n^2/4$, and Bloom's
+   catalog labeled the problem OPEN (accessed 2026-10-06).
 3. The Toft constants reported by Luo–Ma–Yang exceed the proposed coefficient
    for each nonzero residue class modulo $3$ along infinitely many $n$. Thus
    the universal third assertion is false. Its multiples-of-$3$ restriction
    remains unresolved on the accepted evidence.
 
-**Evidence and search scope.** Search scope: the site's problem page,
+**Evidence and search scope.** Search scope: the erdosproblems.com problem page,
 discussion thread and proof-claims tab (the tab also as it stood on
 2026-10-06), Erdős's complete 1969 survey, and arXiv:2301.01656v1 of
-Luo–Ma–Yang. The attribution of the constructions follows Luo–Ma–Yang; the
-site's competing credit to Stiebitz is recorded on Toft's claim page. On
-2026-09-07 Zenodo listed record 22569201, version 7, as the latest Gu deposit.
-No wider literature search is recorded.
+Luo–Ma–Yang. The attribution of the constructions follows Luo–Ma–Yang;
+erdosproblems.com's competing credit to Stiebitz is recorded on Toft's claim
+page. On 2026-09-07 Zenodo listed record 22569201, version 7, as the latest Gu
+deposit. No wider literature search is recorded.
 
 **Proof and review coverage.** The Luo–Ma–Yang proofs and Gu's manuscript are
 not reviewed in this corpus; no complete-proof, review or formalization credit
 is claimed.
 
 **Remaining gaps.** The $k=6$ asymptotic and the accepted multiples-of-$3$
-variant remain unresolved. The site's credit of the constructions to Stiebitz
-conflicts with Luo–Ma–Yang's credit to Toft. Luo–Ma–Yang's upper bounds require
-the core-size transfer described above before being quoted as exact bounds for
-the site's edge-critical function. Gu's version 7 mathematical claim requires
-independent proof assessment before it can affect the $k=12$ status. Its
-separate Lean claims would need verification only for formalization credit, not
-as a prerequisite for mathematical acceptance.
+variant remain unresolved. The erdosproblems.com credit of the constructions to
+Stiebitz conflicts with Luo–Ma–Yang's credit to Toft. Luo–Ma–Yang's upper bounds
+require the core-size transfer described above before being quoted as exact
+bounds for erdosproblems.com's edge-critical function. Gu's version 7
+mathematical claim requires independent proof assessment before it can affect
+the $k=12$ status. Its separate Lean claims would need verification only for
+formalization credit, not as a prerequisite for mathematical acceptance.
 
-**Proof claims on the site.** On 2026-10-06 the site's proof-claims tab
-carried one entry: Qiyuan Gu's partial claim of 5 September 2026 that the
-general formula fails at $k=12$, recorded as a pending claim on its
-[[problems/graph_coloring/E0917/claims/2026_09_05_gu|claim page]], which names
-the AI systems the entry discloses and links both Zenodo versions.
+**Proof claims on erdosproblems.com.** On 2026-10-06 the erdosproblems.com
+proof-claims tab carried one entry: Qiyuan Gu's partial claim of 5 September
+2026 that the general formula fails at $k=12$, recorded as a pending claim on
+its [[problems/graph_coloring/E0917/claims/2026_09_05_gu|claim page]], which
+names the AI systems the entry discloses and links both Zenodo versions.
 
 ## Progress
 
@@ -201,9 +202,9 @@ $$
 
 Since $f_k(n)\geq g_k(n)$, the last two are strictly larger than the page's
 coefficient $\frac12(1-1/m)$ and disprove the proposed asymptotic for
-$k\not\equiv0\pmod3$. The site attributes these nonmultiple constructions to
-Stiebitz, while Luo–Ma–Yang attribute the displayed formula to Toft; Toft's
-claim page follows Luo–Ma–Yang and records the conflict.
+$k\not\equiv0\pmod3$. erdosproblems.com attributes these nonmultiple
+constructions to Stiebitz, while Luo–Ma–Yang attribute the displayed formula to
+Toft; Toft's claim page follows Luo–Ma–Yang and records the conflict.
 
 For the narrower proper-subgraph-critical convention, Luo–Ma–Yang prove on
 p. 3 that, for fixed $k\geq4$ and sufficiently large $n$,
@@ -215,8 +216,8 @@ c_k\geq\frac{1}{36(k-1)^2},
 $$
 
 and that $g_4(n)<0.164n^2$. These are upper-bound progress, not solutions to
-the $k=6$ or multiples-of-$3$ asymptotics. For the site's convention they must
-be applied to the non-isolated core and then maximized over its size.
+the $k=6$ or multiples-of-$3$ asymptotics. For the erdosproblems.com convention
+they must be applied to the non-isolated core and then maximized over its size.
 
 Gu's AI-assisted version 7 preprint claims twelve-critical graphs with
 

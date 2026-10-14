@@ -46,5 +46,5 @@ The 1938 paper.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0793/_index|Problem 793]]: the classical
-  two-sided bound; the site's key [Er70b] for the problem points to this
-  page and the conjecture (2) that follows it.
+  two-sided bound; the erdosproblems.com key [Er70b] for the problem points to
+  this page and the conjecture (2) that follows it.

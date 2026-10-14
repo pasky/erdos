@@ -49,16 +49,16 @@ large $n$ is subcomplete, where $A(n)$ counts the terms at most $n$ with
 multiplicity and subcomplete means that the finite subset sums contain an
 infinite arithmetic progression. The constant is one absolute constant, which
 the proof takes large: it needs $a_j\le j/C\le j/5$ and a lemma that holds for
-$C$ sufficiently large. The problem's Notes give the two other readings of the
-site's hypothesis $\lvert A\cap\{1,\ldots,N\}\rvert\gg N$ for all $N$ and the
-answer under each.
+$C$ sufficiently large. The problem's Notes give the two other readings of
+erdosproblems.com's hypothesis $\lvert A\cap\{1,\ldots,N\}\rvert\gg N$ for all
+$N$ and the answer under each.
 
 **Acceptance.** Refereed: the paper is a journal article (J. Amer. Math. Soc.;
-published online 2005-09-13). Reviewed: the site's curator, T. F. Bloom, credits
-the affirmative answer to it and labeled the problem PROVED at erdosproblems.com
-(page last edited 2025-12-02). This is the site's acceptance. The page's date is
-that of the arXiv posting, the first posting of the result. The proof is not
-compiled or reviewed here.
+published online 2005-09-13). Reviewed: the erdosproblems.com curator, T. F.
+Bloom, credits the affirmative answer to it and labeled the problem PROVED at
+erdosproblems.com (page last edited 2025-12-02). This is erdosproblems.com's
+acceptance. The page's date is that of the arXiv posting, the first posting of
+the result. The proof is not compiled or reviewed here.
 
 **Lean developments.** Two Lean 4 files bear on the problem; this project has
 built neither, so no `formalized` evidence is listed. Boris Alexeev's

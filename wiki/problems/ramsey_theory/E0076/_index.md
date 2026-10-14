@@ -4,7 +4,7 @@ title: Problem 76
 desc: |
   Asks whether every $2$-coloring of the edges of $K_n$ has at least
   $(1+o(1))n^2/12$ edge-disjoint monochromatic triangles; yes, by a 2020 theorem
-  of Gruslys and Letzter that the site accepted.
+  of Gruslys and Letzter that erdosproblems.com accepted.
 tags:
 - Graph theory
 - Ramsey theory
@@ -31,8 +31,8 @@ $$
 
 many edge-disjoint monochromatic triangles?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
-23 January 2026). The triangles are pairwise edge-disjoint and each is
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 23 January 2026). The triangles are pairwise edge-disjoint and each is
 monochromatic; different triangles may have different colors. Writing $h(n)$
 for the largest number of such triangles guaranteed in every $2$-coloring of
 $K_n$, the question is whether $h(n)=(1+o(1))n^2/12$, and the resolving paper
@@ -43,10 +43,10 @@ and the edges inside the parts blue, every monochromatic triangle is blue and
 lies inside a part, so at most
 $\bigl(\binom{\lceil n/2\rceil}2+\binom{\lfloor n/2\rfloor}2\bigr)/3=n^2/12+O(n)$
 edge-disjoint monochromatic triangles exist (an elementary count made here,
-the example the site and Erdős's 1995 paper give). Erdős's printed forms are
-item 8 of Part II of his 1995 paper ("A problem of Faudree, Ordman and myself
-... We conjectured that $h(n)=(1+o(1))\frac{n^2}{12}$ (13)", p. 11) and item
-3.54 of the 1999 booklet ("Is it true that $f(n)=(1+o(1))\frac{n^2}{12}$?",
+the example erdosproblems.com and Erdős's 1995 paper give). Erdős's printed
+forms are item 8 of Part II of his 1995 paper ("A problem of Faudree, Ordman and
+myself ... We conjectured that $h(n)=(1+o(1))\frac{n^2}{12}$ (13)", p. 11) and
+item 3.54 of the 1999 booklet ("Is it true that $f(n)=(1+o(1))\frac{n^2}{12}$?",
 attributed to Erdős, Faudree and Ordman); the 1997 paper's item 14 ([Er97d],
 p. 84: "Ordman, Faudree and I asked: Let $f(n)$ be the smallest integer for
 which if we color the edges of $K(n)$ by two colors there are at least $f(n)$
@@ -54,28 +54,28 @@ edge disjoint monochromatic triangles. Is it true that
 $f(n)=(1+o(1))\frac{n^2}{12}$?") is the wording the resolving paper's
 Conjecture 1.1 restates, its footnote saying that paper "attributes the
 question to Ordman, Faudree and himself" while later publications attribute it
-to Erdős alone. The site's second question, the number of edge-disjoint
-monochromatic triangles all of one color (the site expects at least $cn^2$ for
-some constant $c>1/24$), is a separate question recorded below and is not the
-statement.
+to Erdős alone. erdosproblems.com's second question, the number of edge-disjoint
+monochromatic triangles all of one color (erdosproblems.com expects at least
+$cn^2$ for some constant $c>1/24$), is a separate question recorded below and is
+not the statement.
 
 **Status.** Proved. Theorem 1.2 of Gruslys and Letzter, arXiv:2008.05311v2 (14
 August 2020), states exactly the question's conclusion: "Every $2$-coloured
 $K_n$ contains a collection of $n^2/12+o(n^2)$ pairwise edge-disjoint
 monochromatic triangles." The status-defining source is this arXiv paper. The
-site's curator accepted it, recording in the commentary that the answer is yes
-by Gruslys and Letzter [GrLe20]. That acceptance is the label's evidence. On it,
-the claim page records the result as accepted, with no refereed version, and the
-frontmatter standing is derived from it. Two ingredients of the proof lie
-outside the paper and are not held: Theorem 2.11, proved in a companion
-preprint, and the computer-search certificates behind Lemma 2.8. Read depth:
-claims were checked for Theorem 1.2 and the statements around it. The proof is
-not reviewed here.
+erdosproblems.com curator accepted it, recording in the commentary that the
+answer is yes by Gruslys and Letzter [GrLe20]. That acceptance is the label's
+evidence. On it, the claim page records the result as accepted, with no refereed
+version, and the frontmatter standing is derived from it. Two ingredients of the
+proof lie outside the paper and are not held: Theorem 2.11, proved in a
+companion preprint, and the computer-search certificates behind Lemma 2.8. Read
+depth: claims were checked for Theorem 1.2 and the statements around it. The
+proof is not reviewed here.
 
 **Source.** [erdosproblems.com/76](https://www.erdosproblems.com/76),
 accessed 2026-09-18: the problem page (PROVED, the
-site's label for a question answered yes; last edited 23 January 2026;
-source keys [Er95], [Er97d], [Va99, 3.54]; commentary citing [GrLe20] and
+erdosproblems.com label for a question answered yes; last edited 23 January
+2026; source keys [Er95], [Er97d], [Va99, 3.54]; commentary citing [GrLe20] and
 linking OEIS A060407; an acknowledgment line thanking two contributors),
 its one-comment discussion thread (20 July 2026, a correction of a
 misprinted name in the commentary, with a disclosed use of GPT-5.5 to find
@@ -131,24 +131,24 @@ T. F. Bloom, Erdős Problem #76, https://www.erdosproblems.com/76, accessed
 
 **Formalization.** None. No file for this problem existed in
 google-deepmind/formal-conjectures (main on 2026-09-18; the directory
-`FormalConjectures/ErdosProblems/` had 673 entries there), the site's indicator
-read "Formalised statement? No", and the community database
+`FormalConjectures/ErdosProblems/` had 673 entries there), the erdosproblems.com
+indicator read "Formalised statement? No", and the community database
 (teorth/erdosproblems, accessed 2026-09-18) recorded the problem proved (record
 dated 31 August 2025) and not formalized, with no formal proof.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement
-above; PROVED, the site's label for a question answered yes; last edited 23
-January 2026. The commentary attributes the conjecture to Erdős, Faudree
-and Ordman (with Faudree's name misprinted; the thread's one comment
-corrects it), explains that the bound would be best possible by the
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; PROVED, the erdosproblems.com label for a question answered
+yes; last edited 23 January 2026. The commentary attributes the conjecture to
+Erdős, Faudree and Ordman (with Faudree's name misprinted; the thread's one
+comment corrects it), explains that the bound would be best possible by the
 balanced two-part coloring with red edges between the parts and blue edges
 inside them, records the question as answered, yes, by Gruslys and Letzter
 [GrLe20], and adds a second question from [Er97d]: how many edge-disjoint
 monochromatic triangles one color alone (the better of the two) must
-supply, which the site expects to be at least $cn^2$ for some $c>1/24$. The
-proof-claim tab is empty. The OEIS entry the page links, A060407 (accessed
+supply, which erdosproblems.com expects to be at least $cn^2$ for some $c>1/24$.
+The proof-claim tab is empty. The OEIS entry the page links, A060407 (accessed
 2026-09-18), gives the exact values of the maximum guaranteed number of
 edge-disjoint monochromatic triangles for $3\le n\le11$:
 $0,0,0,1,2,2,3,4,6$, from [EFGJL01].
@@ -197,9 +197,9 @@ cited is arXiv v2 of 14 August 2020; the arXiv record (accessed 2026-09-18)
 carries no journal reference, a Crossref bibliographic query for the title
 found no record, and the three papers Semantic Scholar lists as citing it
 are the companion paper and two papers on tournament inversions, so no
-refereed version is known here; the site's curator accepted the result,
-labeling the problem PROVED and crediting the paper in the commentary, and
-that acceptance, by a reader independent of the authors, is the evidence on
+refereed version is known here; the erdosproblems.com curator accepted the
+result, labeling the problem PROVED and crediting the paper in the commentary,
+and that acceptance, by a reader independent of the authors, is the evidence on
 which the claim page
 [[problems/ramsey_theory/E0076/claims/2020_08_12_gruslys_letzter|Gruslys and Letzter, Theorem 1.2]]
 records the result as accepted, with `reviewed` listed and no refereed
@@ -227,22 +227,21 @@ triangles (a source of Problem 639) says on p. 42 that the conjecture
 
 **The same-color question (not the statement).** Erdős's companion
 question, whether more than $(1+c)n^2/24$ edge-disjoint monochromatic
-triangles of one color exist, is what the site's commentary attributes to
-[Er97d], expecting at least $cn^2$ for some constant $c>1/24$; the paper's
-wording (p. 84, quoted under Origins) agrees. [GrLe20] Section 8
-(p. 30) says, with footnote 3 attributing the question to Faudree, Ordman
-and Erdős: "Erdős believed that the answer should exceed
-$(1+\varepsilon)n^2/24$. This is indeed the case: it readily follows from
-our stability result, Theorem 1.3", without a written deduction, and
-states Jacobson's conjecture $n^2/20+o(n^2)$ as Conjecture 8.2, tight for a
-balanced pentagon blow-up. Question 8.1 (p. 29) asks for the exact minimum
-number of edge-disjoint monochromatic triangles. These are adjacent
-questions; the site attaches no label to them.
+triangles of one color exist, is what the erdosproblems.com commentary
+attributes to [Er97d], expecting at least $cn^2$ for some constant $c>1/24$; the
+paper's wording (p. 84, quoted under Origins) agrees. [GrLe20] Section 8 (p. 30)
+says, with footnote 3 attributing the question to Faudree, Ordman and Erdős:
+"Erdős believed that the answer should exceed $(1+\varepsilon)n^2/24$. This is
+indeed the case: it readily follows from our stability result, Theorem 1.3",
+without a written deduction, and states Jacobson's conjecture $n^2/20+o(n^2)$ as
+Conjecture 8.2, tight for a balanced pentagon blow-up. Question 8.1 (p. 29) asks
+for the exact minimum number of edge-disjoint monochromatic triangles. These are
+adjacent questions; erdosproblems.com attaches no label to them.
 
 **Search scope.** None of the routes below found a
 journal version of [GrLe20], a dispute of the theorem, or a second proof.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing of 2026-09-18 (no file); the
   community database record accessed 2026-09-18.
 - arXiv: the API records of 2008.05311 (two versions, no journal
@@ -261,13 +260,13 @@ journal version of [GrLe20], a dispute of the theorem, or a second proof.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [GrLe20b],
 [EFGJL01], [KeSu04b], [HaRö01], Tyomkyn's paper.
 
-**Remaining gaps.** (1) The acceptance rests on the site's curator alone:
-the arXiv paper has no refereed version, and no independent review of
+**Remaining gaps.** (1) The acceptance rests on the erdosproblems.com curator
+alone: the arXiv paper has no refereed version, and no independent review of
 Theorem 1.2 is recorded; a journal version would add `refereed` to the
 claim page's evidence. (2) The proof is compiled as statements only; two of
 its inputs are outside the paper (the companion preprint and the computer
-certificates), neither held. (3) [Er97d], the site's key and the source of
-Problem 14, is quoted above from its item 14; the printed "smallest
+certificates), neither held. (3) [Er97d], the erdosproblems.com key and the
+source of Problem 14, is quoted above from its item 14; the printed "smallest
 integer" for the guaranteed count is recorded as printed on its result
 page. (4) The same-color question is open in the sources recorded here beyond
 the paper's unwritten remark; Jacobson's $n^2/20$ conjecture and the exact

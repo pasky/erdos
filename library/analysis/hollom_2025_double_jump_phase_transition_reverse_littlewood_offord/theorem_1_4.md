@@ -54,4 +54,4 @@ radius above one and at most $O(n^{-3/2})$ at radius one. This page
 records no proof coverage and no verification tier.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — the odd-$n$ variant of
-the catalog question at radii between one and $\sqrt2$.
+the erdosproblems.com question at radii between one and $\sqrt2$.

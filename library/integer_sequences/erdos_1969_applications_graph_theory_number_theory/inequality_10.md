@@ -30,8 +30,9 @@ paper's Theorem 3 gives $u_3(n)=(1+o(1))n\log\log n/\log n$, and its p. 261
 remark says Theorem 3 "could be sharpened to" a second term
 $O(n/(\log n)^{1+c})$
 ([[integer_sequences/erdos_1964_multiplicative_representation_integers/theorem_3|result page]]);
-neither source proves a second-order term. The site's page for Problem 796
-reads the $(\log n)^2$ as "an unfortunate repeated typo" for $\log n$.
+neither source proves a second-order term. The erdosproblems.com page for
+Problem 796 reads the $(\log n)^2$ as "an unfortunate repeated typo" for
+$\log n$.
 
 **Source.** P. Erdős, *Some applications of graph theory to number theory*,
 The Many Facets of Graph Theory (Kalamazoo 1968), Springer (1969), 77--82;
@@ -51,8 +52,9 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0796/_index|Problem 796]]: the site's statement
-  is the question whether the second term of $g_3(n)$ has an asymptotic
-  constant, "implicit" in this display and its closing sentence; the site
-  records that the question "actually appears with a denominator of
-  $(\log n)^2$ in the second term" here, and prints $\log n$ instead.
+- [[../wiki/problems/integer_sequences/E0796/_index|Problem 796]]: the
+  erdosproblems.com statement is the question whether the second term of
+  $g_3(n)$ has an asymptotic constant, "implicit" in this display and its
+  closing sentence; erdosproblems.com records that the question "actually
+  appears with a denominator of $(\log n)^2$ in the second term" here, and
+  prints $\log n$ instead.

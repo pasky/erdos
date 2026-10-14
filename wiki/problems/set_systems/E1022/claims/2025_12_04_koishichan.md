@@ -4,8 +4,8 @@ title: KoishiChan's direct two-level counterexample
 desc: |
   For every $t$ there is a $(t+1)$-uniform hypergraph without property B with at
   most $2|X|$ edges inside every vertex set $X$, so no valid constant exceeds 2
-  and $c_t$ cannot tend to infinity. The site accepts the claim, which has a
-  third-party Lean formalization.
+  and $c_t$ cannot tend to infinity. erdosproblems.com accepts the claim, which
+  has a third-party Lean formalization.
 authors: []
 status: accepted
 claim: disproved
@@ -65,12 +65,12 @@ its [[problems/set_systems/E1022/claims/2013_10_10_wood|own claim page]].
 **Acceptance.** Terence Tao replied in the thread on 4 December 2025 that the
 argument looked essentially correct to Tao. Tao ran ChatGPT Pro on it, and
 ChatGPT Pro corrected $c_t<2$ to $c_t\le2$ for the construction. On 23 January
-2026 the site's curator, Thomas Bloom, wrote that Bloom would mark the problem
-solved by KoishiChan. The site marked the problem settled, under the label
-PROVED (LEAN). Its commentary says the statement is false and credits the
-counterexample (`reviewed`). The label's polarity is the reverse of the outcome,
-and the problem page records this. There is no manuscript and no refereed
-publication.
+2026 the erdosproblems.com curator, Thomas Bloom, wrote that Bloom would mark
+the problem solved by KoishiChan. Bloom's catalog marked the problem settled,
+under the label PROVED (LEAN). Its commentary says the statement is false and
+credits the counterexample (`reviewed`). The label's polarity is the reverse of
+the outcome, and the problem page records this. There is no manuscript and no
+refereed publication.
 
 **Formalization.** The Lean file among the links, in Boris Alexeev's
 repository `lean-proofs`, declares itself a formalization of a solution to
@@ -79,8 +79,8 @@ Alexeev as its formal authors; it states the problem's existential as
 `erdos_1022` and proves its negation `not_erdos_1022` through the lemma
 `c_t_le_two`. Alexeev announced it in the thread on 22 January 2026, and Tao
 recorded it there as a formalization of KoishiChan's solution. The link is
-pinned to the repository's commit of 24 August 2026, the file's latest
-revision as of 2026-10-07. This corpus has not built it, so the formalization
-is a link and not `formalized` evidence. The formal-conjectures
-statement file for the problem records the negative answer and points at the
-same file; a statement file is not a formalization.
+pinned to the repository's commit of 24 August 2026, on 2026-10-07 the file's
+latest revision. This corpus has not built it, so the formalization is a link
+and not `formalized` evidence. The formal-conjectures statement file for the
+problem records the negative answer and points at the same file; a statement
+file is not a formalization.

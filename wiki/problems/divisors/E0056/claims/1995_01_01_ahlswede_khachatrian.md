@@ -47,14 +47,14 @@ for families of $l$-sets with no $k+1$ pairwise disjoint members.
 [[problems/divisors/E0056/_index|Problem 56]] with $N>n(k)$, each answered yes.
 The stated question, which asks this for every $N\geq p_k$, stays answered no by
 [[problems/divisors/E0056/claims/1994_01_01_ahlswede_khachatrian|the 1994 claim]].
-Erdős's stronger form of the follow-up, recorded on the site from [Er92b] and
-[Er95], asks whether the conjecture holds once $N\geq(1+o(1))p_k^2$; the theorem
-gives no such bound on $n(k)$, so that form is not settled.
+Erdős's stronger form of the follow-up, recorded on erdosproblems.com from
+[Er92b] and [Er95], asks whether the conjecture holds once $N\geq(1+o(1))p_k^2$;
+the theorem gives no such bound on $n(k)$, so that form is not settled.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
 **Acceptance.** Refereed: Acta Arith. 72 (1995), no. 1, 77--100, a refereed
-journal. The site's DISPROVED (LEAN) label credited the 1994 paper, not this
-one, so no `reviewed` evidence is listed. The page is dated by the publication
-year alone. The publisher's record gives 1995 without a month, so the first day
-of the year stands in for the issue date.
+journal. erdosproblems.com's DISPROVED (LEAN) label credited the 1994 paper, not
+this one, so no `reviewed` evidence is listed. The page is dated by the
+publication year alone. The publisher's record gives 1995 without a month, so
+the first day of the year stands in for the issue date.

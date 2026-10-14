@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 139, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0139/claims
@@ -12,9 +12,9 @@ updated: 2026-10-11T22:24:14Z
 [[problems/additive_combinatorics/E0139/_index|..]]
 
 [[problems/additive_combinatorics/E0139/claims/1975_01_01_szemeredi|1975_01_01_szemeredi]]: Szemerédi's 1975 theorem in Acta Arithmetica states that $r_k(N)=o(N)$ for
-every $k$. It is accepted on the refereed publication and the site's credit,
-and the page links the unaudited Lean formalization of it in Boris Alexeev's
-repository.
+every $k$. It is accepted on the refereed publication and the
+erdosproblems.com credit, and the page links the unaudited Lean formalization
+of it in Boris Alexeev's repository.
 
 [[problems/additive_combinatorics/E0139/claims/2017_05_04_green_tao|2017_05_04_green_tao]]: Theorem 1.1 of Green and Tao (Mathematika 2017) bounds the size of a subset of
 the first $N$ integers with no four-term progression by $N$ over a power of

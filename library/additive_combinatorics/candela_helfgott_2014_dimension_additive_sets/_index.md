@@ -23,8 +23,8 @@ the footer of its first page (printed p. 91); IMPAN's record for the article
 offers the PDF "Free download under CC-BY license", no version named
 (https://www.impan.pl/get/doi/10.4064/aa167-1-5, read 2026-10-02), and that
 named license on the publisher's page decides over the printed line; the site
-footer "Copyright © 2026 by IMPAN. All rights reserved." speaks for the site,
-not the article.
+footer "Copyright © 2026 by IMPAN. All rights reserved." speaks for
+erdosproblems.com, not the article.
 
 **Local artifact.** The complete Markdown reading copy
 marks its ten physical pages; physical pages 1--10 correspond to printed pages

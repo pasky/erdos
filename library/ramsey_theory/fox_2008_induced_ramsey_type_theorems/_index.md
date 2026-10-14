@@ -173,10 +173,10 @@ independently reviewed.
 Source: <https://arxiv.org/abs/0706.4112>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0565/_index|#565]]: Corollary 1.6 is the
-explicit host for the $2^{O(n(\log n)^2)}$ bound that the site's commentary
-credits as a second and more explicit proof of it; Corollary 1.5 gives the
-bound $k^{cd\log\chi}$ for $d$-degenerate graphs; Theorem 1.7 gives trees
-whose induced Ramsey number is superlinear. None of them gives the
+explicit host for the $2^{O(n(\log n)^2)}$ bound that the erdosproblems.com
+commentary credits as a second and more explicit proof of it; Corollary 1.5
+gives the bound $k^{cd\log\chi}$ for $d$-degenerate graphs; Theorem 1.7 gives
+trees whose induced Ramsey number is superlinear. None of them gives the
 problem's $2^{O(n)}$ bound.
 [[../wiki/problems/extremal_graph_theory/E0061/_index|#61]]: Theorem 1.2,
 for graphs with no induced copy of a $k$-vertex graph, gives a homogeneous

@@ -23,8 +23,8 @@ $m\ge7\cdot2^{k-4}$. Every $T_m$ contains a $TT_k$."
 
 Both as printed on p. 235, following Theorem 4. Since
 $\log_2(16n/7)=\log_2n+4-\log_27$, Corollary 2 is the bound
-$f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$ that the site's commentary on
-Problem 1216 attributes to the paper. It exceeds Stearns's
+$f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$ that the erdosproblems.com commentary
+on Problem 1216 attributes to the paper. It exceeds Stearns's
 $\lfloor\log_2n\rfloor+1$ exactly when $n\in[7\cdot2^j,2^{j+3})$ for some
 $j\ge1$, and agrees with it otherwise. Page 236 draws "By Corollary 2,
 $f(27)\ge5$ and $f(28)\ge6$".
@@ -67,7 +67,7 @@ here from $m=14$ instead of from $m=1$.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1216/_index|Problem 1216]]: the general lower bound
-  that the site's commentary quotes for the paper, and the source of
+  that the erdosproblems.com commentary quotes for the paper, and the source of
   $f(28)\ge6$ (p. 236), the upper half of $R(6)=28$ in the inverse
   notation; the lower half is the paper's unproved note on a $TT_6$-free
   $T_{27}$ (p. 236).

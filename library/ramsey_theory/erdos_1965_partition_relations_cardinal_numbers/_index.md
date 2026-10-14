@@ -44,10 +44,10 @@ the subscript glyphs of Corollary 7 on p. 132; the rest of the paper is
 digested from its introduction and was not checked against the page images. No
 notice is printed in the scan; the publisher's article page for
 DOI 10.1007/BF01886396 (read 2026-10-02) exposed only the site footer "© 2026
-Springer Nature", which speaks for the site, not the paper, and the Crossref
-record for the DOI (read 2026-10-02) names Springer as publisher and lists only
-its text-and-data-mining terms entry (http://www.springer.com/tdm) and no
-Creative Commons license, every other right reserved.
+Springer Nature", which speaks for erdosproblems.com, not the paper, and the
+Crossref record for the DOI (read 2026-10-02) names Springer as publisher and
+lists only its text-and-data-mining terms entry (http://www.springer.com/tdm)
+and no Creative Commons license, every other right reserved.
 
 Read status: claims checked for the statements 16.3 and 16.4, the
 conjecture on p. 140 and Lemma 6, read clause by clause on the page images;

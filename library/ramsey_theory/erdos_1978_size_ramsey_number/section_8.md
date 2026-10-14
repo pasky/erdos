@@ -92,5 +92,5 @@ Graham 1975 for the ordinary Ramsey number.
   $b_1n^22^{n/2}\le\hat r(K_{n,n})\le b_2n^32^{n-1}$.
 - [[../wiki/problems/ramsey_theory/E0720/_index|Problem 720]]: the origin of the path
   question, asked here as the existence of $\lim\hat r(P_n)/n$ and the
-  $o$-sequence property; the site's divergence question and its cycle
+  $o$-sequence property; erdosproblems.com's divergence question and its cycle
   question come from Erdős's later problem papers, not from this page.

@@ -24,9 +24,9 @@ updated: 2026-10-08T02:16:54Z
 point. Let $f(n)$ be the maximum possible sum of the side-lengths of the
 squares. Is $f(k^2+1)=k$?
 
-**Status.** DISPROVED (LEAN). The site credits a packing of seventeen squares
-with total side length above $4$, so $f(17)>4$. It was found by Claude Opus 5
-prompted by Conner Silverstein (2026). See the
+**Status.** DISPROVED (LEAN). erdosproblems.com credits a packing of seventeen
+squares with total side length above $4$, so $f(17)>4$. It was found by Claude
+Opus 5 prompted by Conner Silverstein (2026). See the
 [[problems/discrete_geometry/E0106/claims/2026_07_29_silverstein|claim page]].
 
 **Source.** [erdosproblems.com/106](https://www.erdosproblems.com/106), accessed

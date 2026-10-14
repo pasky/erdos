@@ -39,20 +39,20 @@ unsolved problems raised, the authors highlight one above the others (p. 428):
 Here, $\lambda$ denotes the order type of the linear continuum." Problem 1172 is
 not this question: it is Erdős and Hajnal's problem on partition relations for
 pairs from $\omega_2$ and $\omega_3$ under the generalized continuum
-hypothesis (the site's keys [ErHa74, p. 272] and [Va99, 7.87]). The site cites
-this paper for the Erdős--Rado partition theorem, for Theorem 25 and for
-Theorem 31 (see Bears on).
+hypothesis (the erdosproblems.com keys [ErHa74, p. 272] and [Va99, 7.87]).
+erdosproblems.com cites this paper for the Erdős--Rado partition theorem, for
+Theorem 25 and for Theorem 31 (see Bears on).
 
 Source: <https://users.renyi.hu/~p_erdos/1956-02.pdf>.
 
-**Bears on.** [[../wiki/problems/set_theory/E1172/_index|#1172]]: the site cites
-this paper for the Erdős--Rado partition theorem
+**Bears on.** [[../wiki/problems/set_theory/E1172/_index|#1172]]:
+erdosproblems.com cites this paper for the Erdős--Rado partition theorem
 $(2^\kappa)^+\to(\kappa^++1)^2_\kappa$. The paper lists $(a^a)^+\to(a^+)^2_a$
 for $a\ge\aleph_0$ as Theorem 4 (i) among its previous results (p. 431, PDF
 p. 5), credited to Erdős's 1942 paper [3], and p. 471 (PDF p. 45) deduces it
 from Theorem 39 (i) through $\omega_{m_0+1}\to(\omega_{n+1}+1)^2_{\omega_n}$,
-where $2^{\aleph_n}=\aleph_{m_0}$, which is the site's form. The problem itself
-is Erdős and Hajnal's and is not posed here.
+where $2^{\aleph_n}=\aleph_{m_0}$, which is the erdosproblems.com form. The
+problem itself is Erdős and Hajnal's and is not posed here.
 [[../wiki/problems/ramsey_theory/E0112/_index|#112]]: Theorem 25 (printed p. 440 = PDF
 p. 14, page image) defines $l_0=l_0(m,n)$, for $2\le m,n<\omega_0$, as the
 least $l$ with Property $P_{mn}$: whenever $\rho(\lambda,\mu)<2$ for

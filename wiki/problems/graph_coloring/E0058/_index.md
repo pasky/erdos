@@ -26,8 +26,8 @@ updated: 2026-10-08T01:29:59Z
 lengths then $\chi(G)\leq 2k+2$, with equality if and only if $G$ contains
 $K_{2k+2}$.
 
-**Status.** The site labeled the problem proved, crediting Gyárfás [Gy92]. The
-accepted claim is
+**Status.** Bloom's catalog labeled the problem proved, crediting Gyárfás
+[Gy92]. The accepted claim is
 [[problems/graph_coloring/E0058/claims/1992_05_01_gyarfas|Gyárfás's bound with its equality case]].
 The strengthening by Gao, Huo and Ma [GaHuMa21] is an accepted partial claim,
 [[problems/graph_coloring/E0058/claims/2020_12_19_gao_huo_ma|consecutive odd cycle lengths]].
@@ -48,27 +48,27 @@ https://www.erdosproblems.com/58.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/58.lean),
-added on 2026-09-09, after the site access. The Lean development that
+added on 2026-09-09, after erdosproblems.com access. The Lean development that
 declares itself a formalization of Gyárfás's solution is linked from the
 solution's claim page.
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether a
-graph whose odd cycles have at most $k$ distinct lengths has chromatic number
-at most $2k+2$, with equality exactly when it contains $K_{2k+2}$. The answer
-is yes: the accepted claim is
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether a graph whose odd cycles have at most $k$ distinct lengths has chromatic
+number at most $2k+2$, with equality exactly when it contains $K_{2k+2}$. The
+answer is yes: the accepted claim is
 [[problems/graph_coloring/E0058/claims/1992_05_01_gyarfas|Gyárfás's bound with its equality case]],
-refereed in Discrete Math. 103 (1992) and credited by the site's curator, and
-the standing is solved with claim proved. Gao, Huo and Ma's consecutive
-odd lengths
+refereed in Discrete Math. 103 (1992) and credited by the erdosproblems.com
+curator, and the standing is solved with claim proved. Gao, Huo and Ma's
+consecutive odd lengths
 ([[problems/graph_coloring/E0058/claims/2020_12_19_gao_huo_ma|claim page]])
-are an accepted partial claim on the inequality alone. The site's remark
-that Bollobás and Shelah confirmed the case $k=1$ has no claim page: the
-check is reported by Gyárfás and by the site, has no publication of its own,
-and Gyárfás's theorem covers $k=1$.
+are an accepted partial claim on the inequality alone. The erdosproblems.com
+remark that Bollobás and Shelah confirmed the case $k=1$ has no claim page: the
+check is reported by Gyárfás and by erdosproblems.com, has no publication of its
+own, and Gyárfás's theorem covers $k=1$.
 
-Search scope: the site's problem page and its commentary, the
+Search scope: the erdosproblems.com problem page and its commentary, the
 community database (which lists the problem as proved and its statement as
 formalized as of its last update), the formal-conjectures statement file
 (added 2026-09-09, proof left as `sorry`, no formal proof named) and the Lean

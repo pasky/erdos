@@ -70,10 +70,10 @@ and 2025-11-27; the link is pinned to the last commit that touched the file at
 its present path. This corpus has not built or audited the file, so no
 `formalized` evidence is listed.
 
-**Acceptance.** The site's curator, T. F. Bloom, marked the problem disproved
-and credits this paper for the case $k=212$. This is listed as `reviewed`. The
-paper is R. Ahlswede and L. H. Khachatrian, On extremal sets without coprimes,
-Acta Arith. 66 (1994), no. 1, 89--99. It appeared in a refereed journal and is
-listed as `refereed`. The page is dated by the publication year alone. The
-publisher's record gives 1994 without a month, so the first day of the year
-stands in for the issue date.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, marked the problem
+disproved and credits this paper for the case $k=212$. This is listed as
+`reviewed`. The paper is R. Ahlswede and L. H. Khachatrian, On extremal sets
+without coprimes, Acta Arith. 66 (1994), no. 1, 89--99. It appeared in a
+refereed journal and is listed as `refereed`. The page is dated by the
+publication year alone. The publisher's record gives 1994 without a month, so
+the first day of the year stands in for the issue date.

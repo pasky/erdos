@@ -47,9 +47,9 @@ $\varepsilon\to0$, the density $f(c)$ of
 equals $1-e^{-c}$, a continuous function of $c$, which is both assertions of
 the problem. The passage from $\log p_n$ to $\log n$ is this corpus's own
 one-line deduction, not a statement of either paper. Tao states the same
-consequence on the site's discussion thread (29 September 2025): on the prime
-tuples conjecture the normalized gaps have an exponential distribution, so
-$f(c)=1-e^{-c}$.
+consequence on the erdosproblems.com discussion thread (29 September 2025): on
+the prime tuples conjecture the normalized gaps have an exponential
+distribution, so $f(c)=1-e^{-c}$.
 
 **Hypothesis.** Gallagher's theorem assumes the Hardy–Littlewood asymptotic
 for prime tuples: for each fixed $k$, the number of $n\le N$ for which
@@ -67,10 +67,11 @@ its continuity is known. A one-sided unconditional tail bound claimed in a
 
 **Acceptance.** The result is refereed: P. X. Gallagher, On the distribution of
 primes in short intervals, Mathematika 23 (1976), no. 1, 4--9, the `paper` link,
-with a corrigendum in Mathematika 28 (1981), 86. The site labeled the problem
-OPEN and its commentary does not mention the result, so no curator acceptance is
-listed. The page is dated by the issue's publication month, June 1976, as the
-publisher's record gives it. The day in the page name is a placeholder.
+with a corrigendum in Mathematika 28 (1981), 86. Bloom's catalog labeled the
+problem OPEN and its commentary does not mention the result, so no curator
+acceptance is listed. The page is dated by the issue's publication month, June
+1976, as the publisher's record gives it. The day in the page name is a
+placeholder.
 
 **Depends on.** Nothing on this wiki beyond the cited paper; its hypothesis
 is stated above.

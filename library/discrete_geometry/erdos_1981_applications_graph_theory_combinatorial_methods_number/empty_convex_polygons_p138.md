@@ -52,8 +52,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/discrete_geometry/E0216/_index|Problem 216]]: the
-  site's $g(k)$ is the paper's $n_k$, with the paper's hypothesis that no
-  three points lie on a line. The paper reports $g(4)=5$ and $g(5)=10$ and
-  poses whether $g(6)$ exists, the first open case of the site's question
-  as it stood in 1978.
+- [[../wiki/problems/discrete_geometry/E0216/_index|Problem 216]]:
+  erdosproblems.com's $g(k)$ is the paper's $n_k$, with the paper's hypothesis
+  that no three points lie on a line. The paper reports $g(4)=5$ and $g(5)=10$
+  and poses whether $g(6)$ exists, the first open case of the erdosproblems.com
+  question as it stood in 1978.

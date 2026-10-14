@@ -55,7 +55,7 @@ its deletion could be extended to it using a missing neighbor color,
 a contradiction. Such $F$ is connected: otherwise the component of
 largest chromatic number would be a smaller qualifying induced subgraph.
 This explains the finite connected subgraphs and minimum-degree
-reduction in the site's discussion of #63.
+reduction in the erdosproblems.com discussion of #63.
 
 **Method relationship.** Compactness supplies the finite instances to
 which quantitative extremal theorems can be applied. For

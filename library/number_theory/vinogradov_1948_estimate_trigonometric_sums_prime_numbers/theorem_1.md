@@ -105,8 +105,8 @@ Lemma 5 of Chapter IX, used on p. 236.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0972/_index|Problem 972]]: the site's
-  commentary cites this paper for the uniform distribution of
+- [[../wiki/problems/number_theory/E0972/_index|Problem 972]]: the
+  erdosproblems.com commentary cites this paper for the uniform distribution of
   $\{p\alpha\}$, $\alpha$ irrational. Theorem 1 needs a rational
   approximation to a coefficient of degree $s\ge2$, so it does not bound the
   linear sums $\sum_{p\le P}e^{2\pi ilp\alpha}$ that the one-prime statement

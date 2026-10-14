@@ -67,14 +67,14 @@ $\gcd(N,d)=1$.
 
 The standing derives from the accepted claim page
 [[problems/diophantine_problems/E0937/claims/2023_02_06_bajpai_bennett_chan|Bajpai–Bennett–Chan 2023]],
-whose evidence is the refereed publication and the site's credit. No forum
-proof claim and no other outside claim to settle the problem was found (search
-scope: the site's forum and proof-claim tab, 2026-10-06; the community
-database, teorth/erdosproblems, 2026-10-07); Bennett–Walsh [BW24], cited under
-Progress, quotes Erdős's question but only computes a smaller example. This
-page records checks of the examples by exact integer arithmetic, but no
-independent review of the full infinitude construction. The examples illustrate
-the theorem; the separate minimality question is described below.
+whose evidence is the refereed publication and the erdosproblems.com credit. No
+forum proof claim and no other outside claim to settle the problem was found
+(search scope: the erdosproblems.com forum and proof-claim tab, 2026-10-06; the
+community database, teorth/erdosproblems, 2026-10-07); Bennett–Walsh [BW24],
+cited under Progress, quotes Erdős's question but only computes a smaller
+example. This page records checks of the examples by exact integer arithmetic,
+but no independent review of the full infinitude construction. The examples
+illustrate the theorem; the separate minimality question is described below.
 
 ## Progress
 

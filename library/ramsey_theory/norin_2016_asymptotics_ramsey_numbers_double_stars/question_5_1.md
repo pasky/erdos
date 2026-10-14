@@ -41,5 +41,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0549/_index|Problem 549]]: the successor question after
-  the disproof. The site says the authors "conjectured that $R(T)=(4.2+o(1))k$";
-  the paper poses it as a question and declines to conjecture.
+  the disproof. erdosproblems.com says the authors "conjectured that
+  $R(T)=(4.2+o(1))k$"; the paper poses it as a question and declines to
+  conjecture.

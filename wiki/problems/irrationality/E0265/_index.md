@@ -29,24 +29,25 @@ $$
 
 are both rational?
 
-**Formulation.** The site notes that the original source is ambiguous as to
-what the problem is, and the community database marks the problem with an
+**Formulation.** erdosproblems.com notes that the original source is ambiguous
+as to what the problem is, and the community database marks the problem with an
 ambiguous statement. The hypothesis that the sequence be strictly increasing
-was added to the site's statement after Vjekoslav Kovač's comment of
+was added to the erdosproblems.com statement after Vjekoslav Kovač's comment of
 2026-01-19 ([post](https://www.erdosproblems.com/forum/thread/265#post-3447)),
 which notes that without it the remaining question would be trivial, since
 any sequence making both sums rational could be rearranged to grow as fast as
 one likes along a subsequence.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 21 January
-2026). Its commentary says that Kovač and Tao [KoTa24] have almost completely
-solved the problem by constructing a sequence growing doubly exponentially,
-$a_n^{1/\beta^n}\to\infty$ for some $\beta>1$. It says the remaining question is
-the exact exponent, in particular whether $\limsup a_n^{1/2^n}>1$ is possible,
-since a folklore result makes the sum irrational once $\lim a_n^{1/2^n}=\infty$.
-Their result, for every base $\beta<\sqrt{6/5}$, is the accepted partial claim
-on [[problems/irrationality/E0265/claims/2024_11_27_kovac_tao|the Kovač–Tao
-claim page]]. There are also two pending partial claims. One,
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 21
+January 2026). Its commentary says that Kovač and Tao [KoTa24] have almost
+completely solved the problem by constructing a sequence growing doubly
+exponentially, $a_n^{1/\beta^n}\to\infty$ for some $\beta>1$. It says the
+remaining question is the exact exponent, in particular whether
+$\limsup a_n^{1/2^n}>1$ is possible, since a folklore result makes the sum
+irrational once $\lim a_n^{1/2^n}=\infty$. Their result, for every base
+$\beta<\sqrt{6/5}$, is the accepted partial claim on
+[[problems/irrationality/E0265/claims/2024_11_27_kovac_tao|the Kovač–Tao claim page]].
+There are also two pending partial claims. One,
 [[problems/irrationality/E0265/claims/2026_08_28_cam|a residual-state
 construction of 2026]], asserts that every exponent $\beta<(\sqrt{13}-1)/2$ can
 be reached. The other,

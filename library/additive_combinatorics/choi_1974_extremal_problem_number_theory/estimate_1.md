@@ -105,11 +105,10 @@ of Erdős [1] is the result it sharpens, not a dependency.
 
 - [[../wiki/problems/additive_combinatorics/E0789/_index|Problem 789]]: a lower
   bound for the problem's $h(n)$, the improvement to
-  $h(n)\gg(n\log n)^{1/3}$ that the site's commentary credits to [Er62c] and
-  Choi [Ch74b]; the paper proves it as printed
-  for sets of $n$ nonzero integers (a set of $n$ integers containing $0$ has
-  $n-1$ nonzero elements, so the same order follows for the problem's
-  $A\subseteq\mathbb Z$, a deduction made here and not printed). The printed
-  exponent of the logarithm is $1/3$, the form of Erdős's 1973 report of the
-  bound, not the $cn^{1/3}\log n$ (printed "$en^{1/3}\log n$", p. 190) of the
-  Additions to his 1965 survey.
+  $h(n)\gg(n\log n)^{1/3}$ that the erdosproblems.com commentary credits to
+  [Er62c] and Choi [Ch74b]; the paper proves it as printed for sets of $n$
+  nonzero integers (a set of $n$ integers containing $0$ has $n-1$ nonzero
+  elements, so the same order follows for the problem's $A\subseteq\mathbb Z$, a
+  deduction made here and not printed). The printed exponent of the logarithm is
+  $1/3$, the form of Erdős's 1973 report of the bound, not the $cn^{1/3}\log n$
+  (printed "$en^{1/3}\log n$", p. 190) of the Additions to his 1965 survey.

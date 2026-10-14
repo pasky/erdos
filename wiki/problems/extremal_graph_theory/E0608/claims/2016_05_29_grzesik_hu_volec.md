@@ -5,7 +5,8 @@ desc: |
   The Füredi–Maleki construction, Construction 2 of Grzesik, Hu and Volec (JCTB
   2019), gives graphs above the Mantel threshold with only
   $\frac{2+\sqrt2}{16}n^2+O(n)$ edges on pentagons, which disproves the
-  statement. It is refereed, and the site's curator Thomas Bloom credits it.
+  statement. It is refereed, and the erdosproblems.com curator Thomas Bloom
+  credits it.
 authors:
 - Andrzej Grzesik
 - Ping Hu
@@ -82,14 +83,14 @@ independently reviewed here.
 **Acceptance.** `refereed`: the Journal of Combinatorial Theory, Series B is a
 refereed journal. The Crossref record of the DOI gives the issue as July 2019.
 `reviewed`: a thread comment of 25 October 2025 reported the construction. The
-site's curator, Thomas Bloom, then adopted the negative answer in the problem's
-commentary, crediting Füredi and Maleki as described by this paper and recording
-the sharp constant (page last edited 25 October 2025, accessed 2026-10-07). The
-thread records that the site was updated in response. The community database
-(read 2026-10-07) lists the problem as disproved (last update 25 October 2025).
-It also lists its status as "disproved (Lean)" (last update 29 July 2026), on
-the strength of the Lean development described below. That development is not
-`formalized` evidence here.
+erdosproblems.com curator, Thomas Bloom, then adopted the negative answer in the
+problem's commentary, crediting Füredi and Maleki as described by this paper and
+recording the sharp constant (page last edited 25 October 2025, accessed
+2026-10-07). The thread records that erdosproblems.com was updated in response.
+The community database (read 2026-10-07) lists the problem as disproved (last
+update 25 October 2025). It also lists its status as "disproved (Lean)" (last
+update 29 July 2026), on the strength of the Lean development described below.
+That development is not `formalized` evidence here.
 
 **Depends on.** Nothing in this wiki.
 
@@ -116,8 +117,8 @@ README reports no `sorry`, an axiom audit listing `propext`,
 `Classical.choice` and `Quot.sound`, and discloses that the Lean proofs were
 written by AI agents, Anthropic's Claude (Fable 5), from a human-approved
 statement. The repository is the URL the community database records as the
-problem's formal status, the artifact behind the suffix of the site's label
-DISPROVED (LEAN); the site's page shows no formalized statement and its
-proof-claim tab is empty. The corpus holds no build, axiom audit or
+problem's formal status, the artifact behind the suffix of the erdosproblems.com
+label DISPROVED (LEAN); the erdosproblems.com page shows no formalized statement
+and its proof-claim tab is empty. The corpus holds no build, axiom audit or
 statement-fidelity audit of this development and has read no source of it
 beyond the README, so the evidence lists no `formalized`.

@@ -56,18 +56,19 @@ covered: the range $1/2<c\leq3/4$, which the problem asks about and which
 remains open; the logarithmic factor in the criterion excludes $c=3/4$
 itself.
 
-**Credit.** The site's remark credits the range $c>3/4$ to Heath-Brown, and
-Browning and Haynes credit the two-interval bound to Heath-Brown's article
-*Arithmetic applications of Kloosterman sums*, Nieuw Arch. Wiskd. (5) 1 (2000),
-380–384. That article displays the count for the origin box $1\le m,n\le M$
-only, for a general residue, which for the problem's residue $1$ settles no
-instance; the problem page records it in its Current assessment. The site's
-remark also credits Heilbronn, without a publication, with the case of $c$
-sufficiently close to $1$.
+**Credit.** The erdosproblems.com remark credits the range $c>3/4$ to
+Heath-Brown, and Browning and Haynes credit the two-interval bound to
+Heath-Brown's article *Arithmetic applications of Kloosterman sums*, Nieuw Arch.
+Wiskd. (5) 1 (2000), 380–384. That article displays the count for the origin box
+$1\le m,n\le M$ only, for a general residue, which for the problem's residue $1$
+settles no instance; the problem page records it in its Current assessment. The
+erdosproblems.com remark also credits Heilbronn, without a publication, with the
+case of $c$ sufficiently close to $1$.
 
 **Acceptance.** Refereed: International Journal of Number Theory 9, no. 2
-(2013), 481–486. The site labeled the problem OPEN, so its remark crediting
-the range $c>3/4$ is not an acceptance, and no `reviewed` evidence is listed.
+(2013), 481–486. Bloom's catalog labeled the problem OPEN, so its remark
+crediting the range $c>3/4$ is not an acceptance, and no `reviewed` evidence is
+listed.
 
 **Depends on.**
 [[../library/diophantine_problems/browning_2013_incomplete_kloosterman_sums/theorem_1|Theorem 1 of Browning and Haynes]]

@@ -41,9 +41,9 @@ Bulgarian; the text on the page images is Russian, and the title page prints
 1988. The journal's article record
 (<https://annual.uni-sofia.bg/index.php/fmi/article/view/521>, read 2026-09-18)
 lists volume 82, number 1, pp. 37--49, dated 12 December 1991, and reproduces
-the English abstract. Not a source key of the site: the site's key KhNi79 for
-Problem 905 is the author's 1979 note with Nikiforov, this paper's reference
-[2], which is not held.
+the English abstract. Not a source key of erdosproblems.com: the
+erdosproblems.com key KhNi79 for Problem 905 is the author's 1979 note with
+Nikiforov, this paper's reference [2], which is not held.
 
 **Edition read.** The copy read for this card is a 13-page image-only
 PDF (a print-to-PDF of a scan named `82-1.pdf`, per its metadata; no text
@@ -160,8 +160,8 @@ Problem 1034 consumes Corollary 3 as the book bound behind its lower bound
   on graphs, Dokl. BAN 29 (1976), no. 11, 1567--1570; [2] Khadzhiivanov and
   Nikiforov, Solution of a problem of P. Erdős on the largest number of
   triangles with a common edge in a graph, Dokl. BAN 32 (1979), no. 10,
-  1315--1318 (the site's KhNi79); [3] C. S. Edwards, The largest number of
-  triangles with a common edge in a graph, Colloques internationaux C.N.R.S.
+  1315--1318 (erdosproblems.com's KhNi79); [3] C. S. Edwards, The largest number
+  of triangles with a common edge in a graph, Colloques internationaux C.N.R.S.
   260, Paris 1978, 123--126; [4] P. Erdős, On a theorem of Rademacher--Turán,
   Illinois J. Math. 6 (1962), 122--127; [5] P. Erdős, On the number of
   complete subgraphs and circuits contained in graphs, Časopis pěst. mat. 94
@@ -183,16 +183,16 @@ carries the original solution, Edwards's C.N.R.S. announcement [3] and the
 Aberdeen collection [6] are not held.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0905/_index|#905]]: the p. 44
-passage states the problem in the exact form the site asks ($e>n^2/4$
+passage states the problem in the exact form erdosproblems.com asks ($e>n^2/4$
 forces $\hat t\ge n/6$), traces it to Erdős's 1962 and 1969 papers and to the
 1975 Aberdeen collection, and attributes its complete solution to the
-author's 1979 note with Nikiforov, the site's KhNi79
+author's 1979 note with Nikiforov, erdosproblems.com's KhNi79
 ([[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/problem_p44|problem_p44]]);
 Corollary 3 (p. 45) proves the statement with a surplus, $\hat t>n/6$ once
 $e>[n^2/4]$, from Theorem 1 and Lemma 4, and Corollary 5 gives the exact
 minimum $\lceil n/6\rceil$
 ([[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|corollary_3]]);
-the account of Edwards's paper (p. 48) bears on the site's "Edwards
+the account of Edwards's paper (p. 48) bears on erdosproblems.com's "Edwards
 (unpublished)".
 [[../wiki/problems/ramsey_theory/E0080/_index|#80]]: Corollary 3 (p. 45 = PDF p. 9, page
 image), $\hat t>n/6$ whenever $e>[n^2/4]$, is the bound $f_c(n)\ge n/6$ for
@@ -212,7 +212,7 @@ $f_{2/9}(n)\le n/9$ for $9\mid n$
 [[../wiki/problems/extremal_graph_theory/E1034/_index|#1034]]: Corollary 3 (p. 45 = PDF
 p. 9, page image), $\hat t>n/6$ whenever
 $e>[n^2/4]$, is the "classical result on the existence of a book of size
-$n/6$" that the Ma--Tang note and the site combine with the disproving
+$n/6$" that the Ma--Tang note and erdosproblems.com combine with the disproving
 construction to bound the general threshold $h(n)$ from below: an edge on more
 than $n/6$ triangles gives a triangle with more than $n/6-1$ further vertices
 joined to two of its vertices, so $h(n)\ge(\frac16-o(1))n$ (a one-line

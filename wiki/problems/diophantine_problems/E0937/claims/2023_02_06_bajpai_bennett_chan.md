@@ -4,8 +4,8 @@ title: Infinitely many coprime four-term progressions of powerful numbers
 desc: |
   Bajpai, Bennett and Chan construct infinitely many four-term arithmetic
   progressions of pairwise coprime powerful numbers, which answers Problem 937
-  affirmatively. The paper was refereed in Int. J. Number Theory, and the site
-  credits it.
+  affirmatively. The paper was refereed in Int. J. Number Theory, and
+  erdosproblems.com credits it.
 authors:
 - Prajeet Bajpai
 - Michael A. Bennett
@@ -53,8 +53,8 @@ infinitely many progressions $x^2, y^2, z^2, 73^3w^2$ (up to reversal), and a
 direct gcd argument makes every pair of terms coprime.
 
 **Acceptance.** The paper is refereed: Int. J. Number Theory 20 (2024), no. 1,
-19–45. The site's curator, Thomas Bloom, marked Problem 937 proved and credits
-this paper for the proof.
+19–45. The erdosproblems.com curator, Thomas Bloom, marked Problem 937 proved
+and credits this paper for the proof.
 
 The community database (teorth/erdosproblems) also records the problem as proved
 in Lean. The formal-conjectures statement for Problem 937 carries a formal-proof

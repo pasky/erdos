@@ -75,20 +75,20 @@ and, hence, the sum of their reciprocals converges" (p. 620), is followed
 by the admission that the authors could not prove it, while the existence
 of the density of the pseudoperfect numbers follows by the methods of
 their reference [2]; the problem's set $A$ is the primitive pseudoperfect
-numbers and its question is this reciprocal sum, the site's key [BeEr74].
-[[../wiki/problems/additive_combinatorics/E0350/_index|#350]]: Theorem 1, printed p. 617
-(PDF p. 1), page image, with Ryavec's proof on pp. 617--619 and the
-refinement on p. 619 (PDF p. 3): a finite set $1\le a_1<\cdots<a_n$ of
+numbers and its question is this reciprocal sum, the erdosproblems.com key
+[BeEr74]. [[../wiki/problems/additive_combinatorics/E0350/_index|#350]]: Theorem
+1, printed p. 617 (PDF p. 1), page image, with Ryavec's proof on pp. 617--619
+and the refinement on p. 619 (PDF p. 3): a finite set $1\le a_1<\cdots<a_n$ of
 integers with all $2^n$ sums $\sum\varepsilon_ia_i$ distinct has
 $\sum1/a_i<2$, and indeed $\le2-2^{1-n}$ with equality only for
 $a_i=2^{i-1}$; the status-defining source for the problem's statement,
-whose "dissociated" is the theorem's hypothesis, and the source of the
-site's refinement, reproduced by the site as "Ryavec's proof delivers".
-[[../wiki/problems/additive_combinatorics/E0876/_index|#876]]: Theorem 2, printed p. 619
-(PDF p. 3), page image, with the outline on pp. 619--620: a finite or
-infinite sequence no term of which is a distinct sum of other terms has
-$\sum1/a_i<C$ for an absolute constant $C$, "It seems certain that
-$C<10$"; the English outline of Erdős's 1962 Theorem II behind the
+whose "dissociated" is the theorem's hypothesis, and the source of
+erdosproblems.com's refinement, reproduced by erdosproblems.com as "Ryavec's
+proof delivers". [[../wiki/problems/additive_combinatorics/E0876/_index|#876]]:
+Theorem 2, printed p. 619 (PDF p. 3), page image, with the outline on pp.
+619--620: a finite or infinite sequence no term of which is a distinct sum of
+other terms has $\sum1/a_i<C$ for an absolute constant $C$, "It seems certain
+that $C<10$"; the English outline of Erdős's 1962 Theorem II behind the
 problem's reciprocal-sum question.
 
 **Results.**

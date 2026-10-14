@@ -4,8 +4,8 @@ title: Problem 466
 desc: |
   Asks whether, for some $\delta>0$, the largest number $N(X,\delta)$ of points
   in a disc of radius $X$ with all pairwise distances at least $\delta$ from the
-  integers tends to infinity with $X$. The site misprints the limit variable;
-  Sárközy's power lower bound proves the modified Statement.
+  integers tends to infinity with $X$. erdosproblems.com misprints the limit
+  variable; Sárközy's power lower bound proves the modified Statement.
 tags:
 - Number theory
 status: solved
@@ -55,26 +55,26 @@ $$
 \lim_{X\to \infty}N(X,\delta)=\infty?
 $$
 
-**Notes.** The site's display takes its limit in a variable $x$ that does not
-occur in $N(X,\delta)$, so read literally the display does not take the limit
-in the radius, and a comment in the site's discussion thread (11 May 2026) asks
-for the capital letter. The change replaces the lowercase $x$ under the limit
-by the radius $X$, the only variable the expression contains; nothing else
-changes. The evidence is Erdős's own statement of the question in his 1982
-survey [Er82e], Chapter II, §9, printed p. 67, which writes the radius as $x$
-throughout and conjectures "$N(x,\delta)\to\infty$", the limit in the radius;
-Sárközy, who states the question as Erdős's conjecture, writes
+**Notes.** The erdosproblems.com display takes its limit in a variable $x$ that
+does not occur in $N(X,\delta)$, so read literally the display does not take the
+limit in the radius, and a comment in the erdosproblems.com discussion thread
+(11 May 2026) asks for the capital letter. The change replaces the lowercase $x$
+under the limit by the radius $X$, the only variable the expression contains;
+nothing else changes. The evidence is Erdős's own statement of the question in
+his 1982 survey [Er82e], Chapter II, §9, printed p. 67, which writes the radius
+as $x$ throughout and conjectures "$N(x,\delta)\to\infty$", the limit in the
+radius; Sárközy, who states the question as Erdős's conjecture, writes
 "$\lim_{X\to+\infty}N(X,\delta_0)=+\infty$" in Part II of [Sa76], printed p.
-105, and as (4) in Part I, printed p. 37. The defect is not the site's alone:
-the 1980 monograph [ErGr80], printed p. 93, prints
-"$\lim_{x\to\infty}N(X,\delta_0)=\infty$" with the lowercase $x$ the site
-reproduces, so the misprint is the monograph's and the site's wording copies
-it. The site's commentary, which credits Graham and Sárközy with proving the
-question, answers the modified Statement. The standing judges the modified
-Statement.
+105, and as (4) in Part I, printed p. 37. The defect is not erdosproblems.com's
+alone: the 1980 monograph [ErGr80], printed p. 93, prints
+"$\lim_{x\to\infty}N(X,\delta_0)=\infty$" with the lowercase $x$
+erdosproblems.com reproduces, so the misprint is the monograph's and the
+erdosproblems.com wording copies it. The erdosproblems.com commentary, which
+credits Graham and Sárközy with proving the question, answers the modified
+Statement. The standing judges the modified Statement.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 16
-September 2025; the thread's correction is not applied). As on
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 16 September 2025; the thread's correction is not applied). As on
 [[problems/number_theory/E0465/_index|Problem 465]], the points lie in the disc
 of radius $X$, the condition forces $\delta\le1/2$ once there are two points,
 and $N(X,\delta)$ is nondecreasing in $X$ (a disc of radius $X$ contains every
@@ -82,12 +82,12 @@ smaller disc), so "$N(X,\delta)\to\infty$ as $X\to\infty$" and "$N(X,\delta)$ is
 unbounded in $X$" say the same thing (an authored one-line remark). Erdős's 1982
 survey writes the radius as a lowercase $x$ throughout and Sárközy as a capital
 $X$; both state the question with the limit in the radius, and the modified
-Statement keeps the site's capital $X$.
+Statement keeps erdosproblems.com's capital $X$.
 
-**Status.** PROVED, the site's label (page last edited 16 September 2025). The
-label describes the modified Statement. The commentary credits Graham's
-construction and Sárközy's power lower bound. The derived standing is solved,
-proved. The result is recorded as an
+**Status.** PROVED, the erdosproblems.com label (page last edited 16 September
+2025). The label describes the modified Statement. The commentary credits
+Graham's construction and Sárközy's power lower bound. The derived standing is
+solved, proved. The result is recorded as an
 [[problems/number_theory/E0466/claims/1976_01_01_sarkozy|accepted full claim]].
 Sárközy's Theorem 1 of [Sa76] Part II (Studia Sci. Math. Hungar. 11 (1976),
 refereed; p. 106) gives $N(X,\delta)>X^{1/2-\delta^{1/7}}$ for
@@ -95,19 +95,19 @@ $0<\delta\le1/(6\cdot8^4)$ and $X$ large depending on $\delta$. So
 $N(X,\delta)\to\infty$ as $X\to\infty$ for every such $\delta$, and in
 particular for $\delta=1/(6\cdot8^4)$. The same paper (pp. 105--106) reports
 Graham's construction, the points $(x_i,x_i^2)$ with $x_1=10$, $x_n=2x_{n-1}$.
-It gives $N(X,1/10)>\frac1{10}\log X$ for large $X$, the result the site's
-commentary credits to Graham. Sárközy reports Graham's argument with a sketch.
-Erdős (1980, 1982) reports Graham's bound without a construction, and no
-separate paper of Graham's was located. So the claim page rests first-hand on
-Sárközy's Theorem 1. It reports Graham's construction second-hand, as Sárközy
-gives it, without depending on it.
+It gives $N(X,1/10)>\frac1{10}\log X$ for large $X$, the result the
+erdosproblems.com commentary credits to Graham. Sárközy reports Graham's
+argument with a sketch. Erdős (1980, 1982) reports Graham's bound without a
+construction, and no separate paper of Graham's was located. So the claim page
+rests first-hand on Sárközy's Theorem 1. It reports Graham's construction
+second-hand, as Sárközy gives it, without depending on it.
 
 **Source.** [erdosproblems.com/466](https://www.erdosproblems.com/466), accessed
-2026-09-18: the problem page (PROVED, with the site's note that the answer is
-affirmative; last edited 16 September 2025; source keys [Er72], [ErGr80],
-[Er82e]; commentary citing [Sa76] and Problems 465 and 953; "Formalised
-statement? No"), its one-comment discussion thread (11 May 2026) and its empty
-proof-claims tab. Cite as: T. F. Bloom, Erdős Problem #466,
+2026-09-18: the problem page (PROVED, with the erdosproblems.com note that the
+answer is affirmative; last edited 16 September 2025; source keys [Er72],
+[ErGr80], [Er82e]; commentary citing [Sa76] and Problems 465 and 953;
+"Formalised statement? No"), its one-comment discussion thread (11 May 2026) and
+its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem #466,
 https://www.erdosproblems.com/466, accessed 2026-09-18.
 
 
@@ -164,8 +164,8 @@ records the statement formalized since 20 September 2026.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; PROVED. The commentary
-credits Graham with the answer yes, with the bound
+**The question (erdosproblems.com formulation).** The statement above; PROVED.
+The commentary credits Graham with the answer yes, with the bound
 $N(X,1/10)>\frac{\log X}{10}$, and Sárközy [Sa76] with the much stronger
 $N(X,\delta)>X^{1/2-\delta^{1/7}}$ for all sufficiently small $\delta>0$, and
 points to Problem 465 for upper bounds and to Problem 953 for a related problem.
@@ -232,15 +232,15 @@ p. 106 (if $a$ is a positive integer and $3\delta<b^2/a<2(1-\delta)$ then
 $\|\sqrt{a^2+b^2}\|>\delta$) applied to the coordinate differences. The
 remark on p. 110 adds that the same method gives $N(X,1/10)>X^C$ for an
 absolute constant $C$. Acceptance: a refereed journal (Studia Sci. Math.
-Hungar.); the monograph's [Sár (xx) b] and Konyagin's [2] cite it; the
-site accepts it. Part I (p. 37) records the conjecture as (4) and attests
-Graham's proof from Erdős's oral communication; Konyagin's introduction
+Hungar.); the monograph's [Sár (xx) b] and Konyagin's [2] cite it;
+erdosproblems.com accepts it. Part I (p. 37) records the conjecture as (4) and
+attests Graham's proof from Erdős's oral communication; Konyagin's introduction
 (p. 630) attests that R. L. Graham proved the conjecture and
 reports Sárközy's two lower bounds. Graham's construction has no separate
 publication among the sources read: the monograph cites "[Gr ($\infty$)]",
 Sárközy alone gives the construction, with the words "it is easy to
 show", Erdős (1980, 1982) reports Graham's bound without a construction,
-and the site names no paper of Graham's; the accepted claim does not
+and erdosproblems.com names no paper of Graham's; the accepted claim does not
 depend on it.
 
 **The upper bounds and the gap.** Problem 465's page compiles the upper
@@ -254,17 +254,18 @@ known lower bound is $X^C$ with an unspecified absolute $C$. The
 higher-dimensional analog is a lead ([GoMo26], abstract only).
 
 **Search scope.** The routes of Problem 465's search were run for both pages:
-the site (problem page, thread and tab), the formal-conjectures listing and the
-community database; the primary sources [Sa76] I--II, [ErGr80], [Er82e], [Er72]
-and [Ko01] at the pages stated; the mathnet.ru and Crossref records of [Ko01];
-Semantic Scholar's record of the Math. Notes translation (no citing records; its
-title search was unavailable and is not covered); the arXiv API query
-`all:"near integers" AND all:distances` (three records, one of them [GoMo26])
-and the two lead abstracts; REAL-J's volume list and the 1976 volume, the open
-scan that contains the two papers. Not searched: MathSciNet, zbMATH, Google
-Scholar, X. Nothing found disputes the results or names a paper of Graham's.
+erdosproblems.com (problem page, thread and tab), the formal-conjectures listing
+and the community database; the primary sources [Sa76] I--II, [ErGr80], [Er82e],
+[Er72] and [Ko01] at the pages stated; the mathnet.ru and Crossref records of
+[Ko01]; Semantic Scholar's record of the Math. Notes translation (no citing
+records; its title search was unavailable and is not covered); the arXiv API
+query `all:"near integers" AND all:distances` (three records, one of them
+[GoMo26]) and the two lead abstracts; REAL-J's volume list and the 1976 volume,
+the open scan that contains the two papers. Not searched: MathSciNet, zbMATH,
+Google Scholar, X. Nothing found disputes the results or names a paper of
+Graham's.
 
-**Remaining gaps.** (1) The site's wording keeps the misprinted limit
+**Remaining gaps.** (1) The erdosproblems.com wording keeps the misprinted limit
 variable that the thread asks to correct; the standing judges the modified
 Statement. (2) Graham's construction is known only as Sárközy reports it, with
 a sketch, and as the third-party Lean proof under Formalization renders it,

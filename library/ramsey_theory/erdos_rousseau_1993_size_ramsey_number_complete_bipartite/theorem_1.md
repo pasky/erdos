@@ -82,8 +82,8 @@ paper's [2], Spencer's Ten Lectures on the Probabilistic Method (SIAM,
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]]: the site's lower bound
-  $\frac1{60}n^22^n<\hat R(K_{n,n})$ with its constant, stated in the paper
-  for all $n\ge1$ and not only for $n\ge6$ as the site's commentary says;
-  the order $\Omega(n^22^n)$, which Conlon, Fox and Wigderson's Theorem 1.1
-  matches on the diagonal.
+- [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]]:
+  erdosproblems.com's lower bound $\frac1{60}n^22^n<\hat R(K_{n,n})$ with its
+  constant, stated in the paper for all $n\ge1$ and not only for $n\ge6$ as the
+  erdosproblems.com commentary says; the order $\Omega(n^22^n)$, which Conlon,
+  Fox and Wigderson's Theorem 1.1 matches on the diagonal.

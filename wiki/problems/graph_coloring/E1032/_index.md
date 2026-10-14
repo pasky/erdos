@@ -44,8 +44,8 @@ https://www.erdosproblems.com/1032.
   for $4$- and $5$-chromatic graphs, and names the independent constructions
   of Simonovits [36] and Toft [37] of $4$-chromatic critical graphs on $n$
   vertices with every degree greater than $cn^{1/3}$ as the best result known
-  to him. The site cites p. 341 ([Er93,p.341]), where the library card locates
-  the passage. Library home:
+  to him. erdosproblems.com cites p. 341 ([Er93,p.341]), where the library card
+  locates the passage. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Si72] Simonovits, M., On colour-critical graphs. Studia Sci. Math. Hungar.
   (1972), 67-81.

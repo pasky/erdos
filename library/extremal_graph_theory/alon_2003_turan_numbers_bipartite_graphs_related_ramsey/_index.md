@@ -5,7 +5,7 @@ desc: |
   exponential Ramsey conjecture for bipartite graphs with m edges.
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey
@@ -18,7 +18,7 @@ least two by norm graphs.
 
 [[extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey/theorem_3_5|theorem_3_5]]: The published general upper bound for the Turán number of an r-degenerate
 bipartite graph, with exponent 2 minus one over four r; the partial result
-the site records on Problem 146.
+erdosproblems.com records on Problem 146.
 
 [[extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey/theorem_5_2|theorem_5_2]]: The bipartite case of Erdős's exponential-in-root-m Ramsey conjecture, with
 an explicit constant and a half-page proof.
@@ -113,9 +113,9 @@ in the text layer as stated; the remaining pages were skimmed in the text
 layer. No proof was checked and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0146/_index|#146]]: Theorem 3.5
-(p. 483), the site's $\operatorname{ex}(n;H)\ll n^{2-1/4r}$ for bipartite
-$r$-degenerate $H$, and Corollary 2.3 (p. 480), the one-sided case of the
-conjectured bound, both read on the page images.
+(p. 483), erdosproblems.com's $\operatorname{ex}(n;H)\ll n^{2-1/4r}$ for
+bipartite $r$-degenerate $H$, and Corollary 2.3 (p. 480), the one-sided case of
+the conjectured bound, both read on the page images.
 [[../wiki/problems/extremal_graph_theory/E0926/_index|#926]]: Theorem 6.1
 (Section 6, p. 491, read on the page image), whose case $t=2$, $s=1$ is the
 problem's graph $H_k$, the first three layers of the Boolean $k$-cube, and

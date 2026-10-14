@@ -62,4 +62,4 @@ Standard sieve results (Halberstam--Richert, the paper's [6]).
 
 - [[../wiki/problems/integer_sequences/E0441/_index|Problem 441]]: answers the first
   question asymptotically: $g(N)=|A_N|\sim(9N/8)^{1/2}$, the value of Erdős's
-  construction, which is the site's "Chen established the asymptotic".
+  construction, which is erdosproblems.com's "Chen established the asymptotic".

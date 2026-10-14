@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 753, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/graph_coloring/E0753/claims
@@ -13,6 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/graph_coloring/E0753/claims/1992_06_01_alon|1992_06_01_alon]]: Alon shows that for every $n$ a complete equipartite graph $G$ on $n$ vertices
 has $\chi_L(G)+\chi_L(G^c)$ of order $(n\log n)^{1/2}$, so no exponent $1/2+c$
-works. The result was refereed in 1992 and is credited by the site's curator.
+works. The result was refereed in 1992 and is credited by the
+erdosproblems.com curator.
 
 ***

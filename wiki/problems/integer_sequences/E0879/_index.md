@@ -49,11 +49,11 @@ factors, as in Erdős's source [Er84e], p. 120, where the case of more than one
 prime factor is called easy and is phrased as not every element being a prime
 power.
 
-**Status.** Open. The site's label was OPEN. The standing in the frontmatter is
-derived from the claim pages. The first question is open, and the results
-bearing on it are under Progress. Two pending partial claims bear on the second
-question. One is Erdős's statement of 1984, which the site credits to Erdős and
-van Lint, that it holds at $k=2$
+**Status.** Open. The erdosproblems.com label was OPEN. The standing in the
+frontmatter is derived from the claim pages. The first question is open, and the
+results bearing on it are under Progress. Two pending partial claims bear on the
+second question. One is Erdős's statement of 1984, which erdosproblems.com
+credits to Erdős and van Lint, that it holds at $k=2$
 ([[problems/integer_sequences/E0879/claims/1984_01_01_erdos_van_lint|claim page]]).
 The other is Kenta Kitamura's Lean development of September 2026, made with
 OpenAI Codex and ChatGPT Astra, which answers it no at $k=3$
@@ -80,7 +80,7 @@ it was submitted to formal-conjectures as pull request 5302.
 Erdős and van Lint prove that
 $G(n)=\sum_{p\le n}p+(1+o(1))\,n\,\pi(n^{1/2})$ ([Er84e], p. 120, display
 (30)). Erdős adds there that their proof gives an upper bound $G(n)<H(n)$ and a
-lower bound that the site states as $G(n)>H(n)-n^{3/2-o(1)}$, and that
+lower bound that erdosproblems.com states as $G(n)>H(n)-n^{3/2-o(1)}$, and that
 $(H(n)-G(n))/n\to\infty$ is not entirely trivial to prove. These bounds settle
 no instance of the first question.
 

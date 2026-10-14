@@ -4,16 +4,17 @@ desc: The 4 claim pages of Problem 301, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/unit_fractions/E0301/claims
 
 [[problems/unit_fractions/E0301/_index|..]]
 
-[[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|2025_09_16_van_doorn]]: An elementary argument, credited to Wouter van Doorn in the site's commentary,
-that $f(N)\le(25/28+o(1))N$ for Problem 301, by counting disjoint dilates of
-$\{2,3,4,6,12\}$. It exists only as site commentary and is pending.
+[[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|2025_09_16_van_doorn]]: An elementary argument, credited to Wouter van Doorn in the erdosproblems.com
+commentary, that $f(N)\le(25/28+o(1))N$ for Problem 301, by counting disjoint
+dilates of $\{2,3,4,6,12\}$. It exists only as erdosproblems.com commentary
+and is pending.
 
 [[problems/unit_fractions/E0301/claims/2026_05_27_wang|2026_05_27_wang]]: An unrefereed manuscript of 27 May 2026 by Xinjun Wang claims
 $f(N)\le(667/806+o(1))N$ for the extremal function of Problem 301. The

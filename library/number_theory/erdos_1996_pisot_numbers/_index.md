@@ -22,8 +22,8 @@ strengthening of Bugeaud's characterization through all digit sets.
 
 Erdős, P. and Joó, I. and Schnitzer, F. J., On {P}isot numbers. Ann. Univ.
 Sci. Budapest. Eötvös Sect. Math. **39** (1996), 95--99. "Received October
-6, 1995" (p. 95). The site's key EJS96. No Crossref record exists for the
-paper (bibliographic query, 2026-09-18).
+6, 1995" (p. 95). The erdosproblems.com key EJS96. No Crossref record exists for
+the paper (bibliographic query, 2026-09-18).
 
 The copy read for this card is not the
 paper alone: it is the journal archive's file of the whole volume 39
@@ -86,15 +86,15 @@ the two remarks on Lemma 4 on pp. 96 and 98; the Theorem is compiled as a
 statement with a proof pointer; no proof was checked and nothing here is
 independently reviewed.
 
-**Bears on.** [[../wiki/problems/number_theory/E1096/_index|#1096]], as the site's source
-for the digit-$2$ characterization: for $1<q<(1+\sqrt5)/2$, the spacings of
-the sums with digits $0,1,2$ stay bounded away from $0$ exactly when $q$ is
-Pisot; a result about a denser sequence than the problem's, which the site
-records as the improvement of Bugeaud's characterization, and which does not
-decide the problem: for Pisot $q$ it bounds the gaps of the problem's sums (a
-subset of the digit-$2$ sums) away from $0$, but the smallest Pisot number
-is about $1.3247$, and for non-Pisot $q$ its small gaps may use the digit
-$2$.
+**Bears on.** [[../wiki/problems/number_theory/E1096/_index|#1096]], as the
+erdosproblems.com source for the digit-$2$ characterization: for
+$1<q<(1+\sqrt5)/2$, the spacings of the sums with digits $0,1,2$ stay bounded
+away from $0$ exactly when $q$ is Pisot; a result about a denser sequence than
+the problem's, which erdosproblems.com records as the improvement of Bugeaud's
+characterization, and which does not decide the problem: for Pisot $q$ it bounds
+the gaps of the problem's sums (a subset of the digit-$2$ sums) away from $0$,
+but the smallest Pisot number is about $1.3247$, and for non-Pisot $q$ its small
+gaps may use the digit $2$.
 
 **Results.**
 

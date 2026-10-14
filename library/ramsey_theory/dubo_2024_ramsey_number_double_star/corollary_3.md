@@ -59,8 +59,8 @@ which uses Lemmas 4 and 5 and, as Lemma 6, Lemma 2.3 of Norin, Sun and Zhao
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0549/_index|Problem 549]]: the site's elementary upper
-  bound. The corollary concerns $S(2m,m)$, with classes $2m+1$ and $m+1$; for
-  the problem's tree $S(2k-1,k-1)$ Theorem 2 applies when $k\ge3$ and gives
-  the same constant asymptotically (the specialization is written on the
-  Theorem 2 page and the problem page).
+- [[../wiki/problems/ramsey_theory/E0549/_index|Problem 549]]:
+  erdosproblems.com's elementary upper bound. The corollary concerns $S(2m,m)$,
+  with classes $2m+1$ and $m+1$; for the problem's tree $S(2k-1,k-1)$ Theorem 2
+  applies when $k\ge3$ and gives the same constant asymptotically (the
+  specialization is written on the Theorem 2 page and the problem page).

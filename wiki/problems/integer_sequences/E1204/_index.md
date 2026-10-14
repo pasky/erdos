@@ -36,7 +36,7 @@ $$
 B(k)=\min \frac{a_1+\cdots+a_k}{k}.
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 7 April 2026). Only the primes $p\le k$ matter, since $k$
 integers cannot fill $p>k$ classes. $A(k)$ is the minimal diameter $H(k)$ of
 an admissible $k$-tuple, the quantity of the bounded-gaps literature and of
@@ -59,15 +59,14 @@ estimate $B_k=\min(a_1+\cdots+a_k)/k$, remarking that the two minima need
 not come from the same sequence. The item ends with the greedy sequence,
 each $a_i$ the least integer above $a_{i-1}$ that keeps $a_1,\ldots,a_i$
 short of a complete residue system modulo every prime, whose $a_k$ Erdős
-asks to estimate as well as possible. The site says that [Er80] misstates
-the bounds and gives $(1/2+o(1))k\log k\le A(k)\le(1+o(1))k\log k$; the
-printed display is twice
-that, as quoted, and where the site has Erdős crediting the upper bound to
-Davenport, the print reads "The lower bound in (5) is due to Davenport".
-Both are recorded; the discrepancy is between the site
-and its source and does not touch the status. The greedy sequence's first
-term is not fixed in the print; the site takes $a_1=0$, giving the sequence
-$0,2,6,8,12,18,20,26,\ldots$ of OEIS A135311.
+asks to estimate as well as possible. erdosproblems.com says that [Er80]
+misstates the bounds and gives $(1/2+o(1))k\log k\le A(k)\le(1+o(1))k\log k$;
+the printed display is twice that, as quoted, and where erdosproblems.com has
+Erdős crediting the upper bound to Davenport, the print reads "The lower bound
+in (5) is due to Davenport". Both are recorded; the discrepancy is between
+erdosproblems.com and its source and does not touch the status. The greedy
+sequence's first term is not fixed in the print; erdosproblems.com takes
+$a_1=0$, giving the sequence $0,2,6,8,12,18,20,26,\ldots$ of OEIS A135311.
 
 **Status.** Open. What is known is the two-sided bound
 $(1/2+o(1))k\log k\le A(k)\le(1+o(1))k\log k$, together with second-order
@@ -82,27 +81,27 @@ $\rho^*(x)-\pi(x)\ge(\log2-\varepsilon)x/(\log x)^2$ for large $x$, where
 $\rho^*(x)$ is the size of the largest admissible tuple in an interval of $x$
 integers. A 2022 announcement by Konyagin, with no published proof, claims a
 further second-order improvement (Current assessment). The lower bound is an
-application of the Brun--Titchmarsh inequality. The site credits it to Elliott
-(1965, not held), and the Polymath paper credits it to the project's earlier
-work.
+application of the Brun--Titchmarsh inequality. erdosproblems.com credits it to
+Elliott (1965, not held), and the Polymath paper credits it to the project's
+earlier work.
 
 On the asymptotic, the Polymath paper expects $H(k)=(1+o(1))k\log k$ (p. 80) and
-conjectures $k\log k+k$ as an upper bound for large $k$ (p. 79). The site
-records that the prime tuples conjecture together with
+conjectures $k\log k+k$ as an upper bound for large $k$ (p. 79).
+erdosproblems.com records that the prime tuples conjecture together with
 $\pi(x+y)\le\pi(x)+(1+o(1))\pi(y)$ (Problem 855) would give
 $A(k)\ge(1+o(1))k\log k$. Hensley and Richards proved that the prime $k$-tuples
 conjecture is incompatible with $\pi(x+y)\le\pi(x)+\pi(y)$.
 
 For $B(k)$ only elementary bounds are known. First, $B(k)<A(k)$. Second, the $k$
 primes above $k$ give $B(k)\le(1/2+o(1))k\log k$. Third, $a_j\ge A(j)$ with the
-known lower bound gives $B(k)\ge(1/4-o(1))k\log k$ (the site's deduction). No
-source proving or refuting either asymptotic was found in the search whose scope
-the Current assessment records. This is a bounded negative finding, not a
-certificate of openness.
+known lower bound gives $B(k)\ge(1/4-o(1))k\log k$ (erdosproblems.com's
+deduction). No source proving or refuting either asymptotic was found in the
+search whose scope the Current assessment records. This is a bounded negative
+finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/1204](https://www.erdosproblems.com/1204),
 accessed 2026-09-18: the problem page (OPEN, with the
-site's note that no finite computation can settle it; last edited 7
+erdosproblems.com note that no finite computation can settle it; last edited 7
 April 2026; source keys [El65], [Er80, p. 108], [HeRi73], [Po14c]; OEIS
 A008407, A023193, A135311), its one-comment discussion thread (5 September
 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
@@ -118,10 +117,10 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
   intervals containing many primes. Res. Math. Sci. 1 (2014), Art. 12, 83 pp.,
   DOI 10.1186/s40687-014-0012-7 (Crossref record accessed 2026-09-18);
   arXiv:1407.4897 (v1 18 July 2014 to v4 22 December 2014, not held). The pages
-  cited are the journal version's, whose sections carry no numbers; the site's
-  "Section 10" is its section "Narrow admissible tuples" (pp. 76--81): the
-  two-sided bound on p. 1 and p. 10, Theorem 17 on p. 10, displays (149)--(150)
-  on p. 78, the conjectured bound on p. 79. Library home:
+  cited are the journal version's, whose sections carry no numbers;
+  erdosproblems.com's "Section 10" is its section "Narrow admissible tuples"
+  (pp. 76--81): the two-sided bound on p. 1 and p. 10, Theorem 17 on p. 10,
+  displays (149)--(150) on p. 78, the conjectured bound on p. 79. Library home:
   [[../library/integer_sequences/polymath_2014_variants_selberg_sieve_bounded_intervals_containing/_index|polymath_2014_variants_selberg_sieve_bounded_intervals_containing]];
   result page
   [[../library/integer_sequences/polymath_2014_variants_selberg_sieve_bounded_intervals_containing/inequality_150|display (150)]].
@@ -137,14 +136,13 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
 - [HeRi73] Hensley, D. and Richards, I., On the incompatibility of two
   conjectures concerning primes. Analytic number theory (Proc. Sympos. Pure
   Math. 24, St. Louis 1972), Amer. Math. Soc. (1973), 123--127, DOI
-  10.1090/pspum/024/9945. The site's key; not held, and no open copy is
-  known. The 1974 paper above is the authors' full account of the same
-  sieve.
+  10.1090/pspum/024/9945. The erdosproblems.com key; not held, and no open copy
+  is known. The 1974 paper above is the authors' full account of the same sieve.
 - [El65] Elliott, P. D. T. A., On sequences of integers. Quart. J. Math.
   Oxford Ser. (2) 16 (1965), 35--45, DOI 10.1093/qmath/16.1.35. Not held:
   the one request to the publisher's page on 2026-09-18 returned HTTP 403
-  with a challenge page. The lower bound is quoted from the site and the
-  Polymath paper.
+  with a challenge page. The lower bound is quoted from erdosproblems.com and
+  the Polymath paper.
 - [OEIS] Sequence A008407 (T. Forbes, 1996; entry last modified 7 February
   2026, server time), the minimal diameter of an admissible $k$-tuple, with
   a table to $k=342$ and the note that later listed values are only best
@@ -155,33 +153,31 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
 
 **Formalization.** None found on 2026-09-18: there was no
 `ErdosProblems/1204.lean` in google-deepmind/formal-conjectures (main), and
-the site's page showed no formalized statement. The community database
-(teorth/erdosproblems, as of 2026-09-18)
-records the problem open (last changed 4 April 2026), the statement not
-formalized, `formal_status` unformalized, no formal-proof URL and the OEIS
-entries above.
+the erdosproblems.com page showed no formalized statement. The community
+database (teorth/erdosproblems, read 2026-09-18) records the problem open (last
+changed 4 April 2026), the statement not formalized, `formal_status`
+unformalized, no formal-proof URL and the OEIS entries above.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The
-statement above; OPEN, with the site's note that no finite computation can
-settle it,
-last edited 7 April 2026. The commentary, in this page's words: Erdős
-attributes the problem to Elliott; the bounds printed in [Er80] are wrong,
-and what is known is $(1/2+o(1))k\log k\le A(k)\le(1+o(1))k\log k$; Erdős
-credits the upper bound to Davenport, and it comes from the $k$ smallest
-primes above $k$; Hensley and Richards improved its lower-order terms
-([HeRi73], with the site pointing to Section 10 of [Po14c] for the
-details); the lower bound is Elliott's [El65], found again by the Polymath
-project on bounded gaps between primes; the bound
-$\pi(x+y)\le\pi(x)+(1+o(1))\pi(y)$ of Problem 855 together with the prime
+**The question (erdosproblems.com formulation of 2026-09-18).** The
+statement above; OPEN, with the erdosproblems.com note that no finite
+computation can settle it, last edited 7 April 2026. The commentary, in this
+page's words: Erdős attributes the problem to Elliott; the bounds printed in
+[Er80] are wrong, and what is known is
+$(1/2+o(1))k\log k\le A(k)\le(1+o(1))k\log k$; Erdős credits the upper bound to
+Davenport, and it comes from the $k$ smallest primes above $k$; Hensley and
+Richards improved its lower-order terms ([HeRi73], with erdosproblems.com
+pointing to Section 10 of [Po14c] for the details); the lower bound is Elliott's
+[El65], found again by the Polymath project on bounded gaps between primes; the
+bound $\pi(x+y)\le\pi(x)+(1+o(1))\pi(y)$ of Problem 855 together with the prime
 tuples conjecture would give $A(k)\ge(1+o(1))k\log k$; $B(k)<A(k)$ is
 trivial, the first $k$ primes above $k$ give $B(k)\le(1/2+o(1))k\log k$,
 and $a_j\ge A(j)$ gives $B(k)\ge\frac1k\sum_{j\le k}A(j)$, so a lower bound
-$A(k)\ge(c-o(1))k\log k$ yields $B(k)\ge(c/2-o(1))k\log k$, which leads the
-site to expect $B(k)\sim(1/2+o(1))k\log k$; and Erdős also asks about the
-greedy admissible sequence. The thread has one comment (5 September 2026;
-below). The proof-claim tab is empty.
+$A(k)\ge(c-o(1))k\log k$ yields $B(k)\ge(c/2-o(1))k\log k$, which leads
+erdosproblems.com to expect $B(k)\sim(1/2+o(1))k\log k$; and Erdős also asks
+about the greedy admissible sequence. The thread has one comment (5 September
+2026; below). The proof-claim tab is empty.
 
 **The origin.** Item 5 of Section 6, "Some
 problems on sieve methods", of the 1980 survey, printed p. 108, quoted
@@ -194,9 +190,9 @@ nothing.
 
 - Lower bound. $H(k)\ge(\tfrac12+o(1))k\log k$, "an application of the
   Brun-Titchmarsh theorem" ([Po14c], p. 10, which cites the project's earlier
-  paper for the bound and slight refinements; the same display is on p. 1). The
-  site credits Elliott's 1965 paper, which is not held; the credit is
-  second-hand here.
+  paper for the bound and slight refinements; the same display is on p. 1).
+  erdosproblems.com credits Elliott's 1965 paper, which is not held; the credit
+  is second-hand here.
 - Upper bounds. The $k$ smallest primes above $k$ are admissible (no prime
   $p\le k$ divides any of them, so they miss the class $0$), and the prime
   number theorem gives $H(k)\le k\log k+k\log\log k-k+o(k)$, [Po14c] Theorem 17
@@ -221,16 +217,17 @@ nothing.
 - The asymptotic. Whether $A(k)\sim k\log k$ is the question; the two sides
   differ by the factor $2$. The Polymath paper expects "a narrow admissible
   $k$-tuple to have diameter $d=(1+o(1))k\log k$" (p. 80) and lists $k\log k+k$
-  as a conjectured upper bound for large $k$ (Table 4 and p. 79); the site's
-  conditional remark ties $A(k)\ge(1+o(1))k\log k$ to Problem 855 with the prime
-  tuples conjecture. Hensley and Richards's Corollary (p. 380) is that the prime
-  $k$-tuples conjecture and $\pi(x+y)\le\pi(x)+\pi(y)$ cannot both hold, since
-  the tuples conjecture gives $\rho(x)=\rho_1(x)=\rho^*(x)>\pi(x)$ for large
-  $x$; that is the question of Problem 855, recorded here as context.
-- $B(k)$. Nothing beyond the site's remarks: $B(k)<A(k)$;
+  as a conjectured upper bound for large $k$ (Table 4 and p. 79);
+  erdosproblems.com's conditional remark ties $A(k)\ge(1+o(1))k\log k$ to
+  Problem 855 with the prime tuples conjecture. Hensley and Richards's Corollary
+  (p. 380) is that the prime $k$-tuples conjecture and
+  $\pi(x+y)\le\pi(x)+\pi(y)$ cannot both hold, since the tuples conjecture gives
+  $\rho(x)=\rho_1(x)=\rho^*(x)>\pi(x)$ for large $x$; that is the question of
+  Problem 855, recorded here as context.
+- $B(k)$. Nothing beyond the erdosproblems.com remarks: $B(k)<A(k)$;
   $B(k)\le(\tfrac12+o(1))k\log k$; and, since $a_j\ge A(j)$, the known
-  lower bound gives $B(k)\ge(\tfrac14-o(1))k\log k$ (the site's deduction
-  with $c=1/2$). No source states more.
+  lower bound gives $B(k)\ge(\tfrac14-o(1))k\log k$ (erdosproblems.com's
+  deduction with $c=1/2$). No source states more.
 
 **Data.** OEIS A008407 lists $H(k)=A(k)$ for $k\le342$:
 $0,2,6,8,12,16,20,26,30,32,\ldots$ for $k=1,\ldots,10$, with the values beyond
@@ -260,7 +257,7 @@ label.
 $A(k)\sim k\log k$, an asymptotic for $B(k)$, or an improvement of the
 two-sided bound.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and tree (no file); the community
   database; the thread's repository.
 - arXiv: the abstract page of 1407.4897 (four versions; journal reference
@@ -306,9 +303,10 @@ proves nothing. None of this is progress on either asymptotic. The manuscripts
 are unreviewed release preprints with no arXiv or journal record known here; the
 release's Lean declarations cover the half-plane and the Siegel bound and no
 application to admissible tuples, and nothing was built or audited in this
-corpus. The verifiable-or-falsifiable question does not arise: the site's note
-that no finite computation can settle the problem is recorded in the Source
-paragraph, and both asymptotics are statements about all large $k$.
+corpus. The verifiable-or-falsifiable question does not arise: the
+erdosproblems.com note that no finite computation can settle the problem is
+recorded in the Source paragraph, and both asymptotics are statements about all
+large $k$.
 
 **Remaining gaps.** (1) Elliott's paper and the 1973 symposium paper are not
 held; the routes tried are recorded above, and the attribution of the lower
@@ -316,10 +314,10 @@ bound to Elliott stays second-hand until an open copy or a library copy appears.
 (2) The Polymath paper's admissible-tuple section and Hensley and Richards's
 proof are compiled as statements with proof pointers (claims checked; the 1974
 lemmas read for structure); nothing is reviewed. (3) The printed display (5) and
-its Davenport attribution differ from the site's account; both are recorded and
-the difference was not raised with the site. (4) The asymptotic of $B(k)$ rests
-on a heuristic and on data to $k=147$ from an unrefereed forum computation, of
-which only $k\le10$ was recomputed here.
+its Davenport attribution differ from erdosproblems.com's account; both are
+recorded and the difference was not raised with erdosproblems.com. (4) The
+asymptotic of $B(k)$ rests on a heuristic and on data to $k=147$ from an
+unrefereed forum computation, of which only $k\le10$ was recomputed here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

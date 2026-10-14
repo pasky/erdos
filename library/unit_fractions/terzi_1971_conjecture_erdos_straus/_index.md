@@ -186,21 +186,21 @@ nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0242/_index|#242]]: congruence (9) with
 Table 2 (printed p. 214, PDF p. 3), "$n\equiv N_2\pmod{120120}$ where
-$N_2$ takes all 198 values from Table 2", is the partial result the site's
-commentary attributes to Terzi, "all $n$ outside $198$ bad classes modulo
-$120120$": for a prime $n$ coprime to $120120$ outside these classes the
-first algorithm has represented the class by one of (4)--(7), so Rosati's
-(2) or (3) holds and $4/n$ is a sum of three unit fractions; the paper
+$N_2$ takes all 198 values from Table 2", is the partial result the
+erdosproblems.com commentary attributes to Terzi, "all $n$ outside $198$ bad
+classes modulo $120120$": for a prime $n$ coprime to $120120$ outside these
+classes the first algorithm has represented the class by one of (4)--(7), so
+Rosati's (2) or (3) holds and $4/n$ is a sum of three unit fractions; the paper
 allows repeated denominators, and the problem page's Formulation converts
 such a representation into one with three distinct terms. The same
 algorithm at $M=840$ prints the six classes $1,121,169,289,361,529$
-(p. 213, PDF p. 2), the list the site gives for Mordell, here credited to
-Yamamoto. The verification statement (p. 215, PDF p. 4), "the correctness
-of the Erdös--Straus conjecture is now proved for all $n\le10^8$", is the
-$10^8$ entry of the finite-verification history, with the printed Table 3
-covering seven of the primes it is said to cover, two of its rows misprinted.
-The paper proves neither the conjecture nor a counterexample and leaves
-the problem's status unchanged.
+(p. 213, PDF p. 2), the list erdosproblems.com gives for Mordell, here credited
+to Yamamoto. The verification statement (p. 215, PDF p. 4), "the correctness of
+the Erdös--Straus conjecture is now proved for all $n\le10^8$", is the $10^8$
+entry of the finite-verification history, with the printed Table 3 covering
+seven of the primes it is said to cover, two of its rows misprinted. The paper
+proves neither the conjecture nor a counterexample and leaves the problem's
+status unchanged.
 
 **Results.**
 

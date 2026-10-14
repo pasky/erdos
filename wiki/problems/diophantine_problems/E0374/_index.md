@@ -27,7 +27,7 @@ square. Let $D_k=\{ m : F(m)=k\}$. What is the order of growth of $\lvert
 D_k\cap\{1,\ldots,n\}\rvert$ for $3\leq k\leq 6$? For example, is it true that
 $\lvert D_6\cap \{1,\ldots,n\}\rvert \gg n$?
 
-**Status.** OPEN was the site's label; its discussion thread was read
+**Status.** OPEN was the erdosproblems.com label; its discussion thread was read
 2026-10-07. The derived standing, solved and answered,
 departs from the label. It rests on two accepted claims that reach the same
 conclusions, Hartley and Olson's
@@ -37,14 +37,14 @@ and Yudin's
 Jacob Parish at Plasma AI checked and accepted both, and this corpus built
 Hartley and Olson's Lean development and audited the statements it proves, which
 are also the statements with which Yudin's claim answers the question. The
-site's curator has credited neither claim. The site's proof-claims tab carries
-three proof claims. Hartley and Olson and Yudin each claim the full
-determination. Hartley and Olson's forum submission covered the positive lower
-density of $D_6$, and their revised paper adds the orders of growth of $D_3$
-through $D_5$. Zeraoulia's partial claim of 2026-07-27 is the bound
-$D_6(x)=\omega(x/\log x)$ with certified computations. It determines no order of
-growth and does not reach $D_6(x)\gg x$. So it settles no instance and has no
-claim page.
+erdosproblems.com curator has credited neither claim. The erdosproblems.com
+proof-claims tab carries three proof claims. Hartley and Olson and Yudin each
+claim the full determination. Hartley and Olson's forum submission covered the
+positive lower density of $D_6$, and their revised paper adds the orders of
+growth of $D_3$ through $D_5$. Zeraoulia's partial claim of 2026-07-27 is the
+bound $D_6(x)=\omega(x/\log x)$ with certified computations. It determines no
+order of growth and does not reach $D_6(x)\gg x$. So it settles no instance and
+has no claim page.
 
 **Source.** [erdosproblems.com/374](https://www.erdosproblems.com/374), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #374,
@@ -58,23 +58,23 @@ https://www.erdosproblems.com/374.
   [[../library/diophantine_problems/luca_2014_squares_factorials_products_factorials/_index|Squares and factorials in products of factorials]].
   Monatsh. Math. (2014), 385-400.
 
-**Formalization.** No formal-conjectures statement: the site's problem page
-showed none on 2026-10-06. Hartley and Olson's Lean development proves the
-orders of growth of $D_3$ through $D_6$, with the asymptotic for $D_3$; this
-corpus built it, checked its axioms and audited its statements on 2026-10-12, as
-their
+**Formalization.** No formal-conjectures statement: the erdosproblems.com
+problem page showed none on 2026-10-06. Hartley and Olson's Lean development
+proves the orders of growth of $D_3$ through $D_6$, with the asymptotic for
+$D_3$; this corpus built it, checked its axioms and audited its statements on
+2026-10-12, as their
 [[problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson|claim page]]
 records.
 
 ## Current assessment
 
-The standing judges the site's formulation of 2026-09-04 above: the order of
-growth of $\lvert D_k\cap\{1,\ldots,n\}\rvert$ for $3\le k\le6$, with the
-conjecture of Erdős and Graham [ErGr76] that $D_6$ has positive lower density as
-the example question. The classical facts, by the site's commentary and the
-sources: no $D_k$ contains a prime, $D_2$ is the set of squares above $1$, $D_3$
-is sparse against $D_4$, the least element of $D_6$ is $527$, and $D_k$ is empty
-for $k>6$ ([ErGr76],
+The standing judges the erdosproblems.com formulation of 2026-09-04 above: the
+order of growth of $\lvert D_k\cap\{1,\ldots,n\}\rvert$ for $3\le k\le6$, with
+the conjecture of Erdős and Graham [ErGr76] that $D_6$ has positive lower
+density as the example question. The classical facts, by the erdosproblems.com
+commentary and the sources: no $D_k$ contains a prime, $D_2$ is the set of
+squares above $1$, $D_3$ is sparse against $D_4$, the least element of $D_6$ is
+$527$, and $D_k$ is empty for $k>6$ ([ErGr76],
 [[../library/diophantine_problems/erdos_1976_products_factorials/_index|card]]);
 Luca, Saradha and Shorey [LSS14] bound $D_3$ by
 $X/\exp(c_0(\log X)^{1/4}(\log\log X)^{3/4})$
@@ -113,11 +113,11 @@ coauthors were first with $D_6$ (SSRN, 2026-09-29) and Yudin with the full
 determination (arXiv, 2026-10-01). Whether Hartley and Olson's arguments for
 $D_3$ and $D_5$, first public on 2026-10-04 and citing Yudin's preprint until
 2026-10-05, were found independently is not settled by the record, as both claim
-pages record. Search scope: the site's problem page and discussion thread,
-read 2026-10-07, its proof-claims tab with its comments, the arXiv record, the
-Zenodo record and the GitHub repository named on the Hartley–Olson claim page;
-the SSRN posting is outside that scope. This corpus holds no independent
-verification record of either proof.
+pages record. Search scope: the erdosproblems.com problem page and discussion
+thread, read 2026-10-07, its proof-claims tab with its comments, the arXiv
+record, the Zenodo record and the GitHub repository named on the Hartley–Olson
+claim page; the SSRN posting is outside that scope. This corpus holds no
+independent verification record of either proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -59,5 +59,5 @@ Same chapter: Lemma 3.1 (p. 239), Lemmas 3.2 and 3.3 (p. 240), Definitions
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0575/_index|Problem 575]]: the upper half of
-  the accepted disproof, the site's "$\mathrm{ex}(n;\mathcal F)\ll n^{4/3-c}$
-  where $c=1/48$".
+  the accepted disproof, erdosproblems.com's
+  "$\mathrm{ex}(n;\mathcal F)\ll n^{4/3-c}$ where $c=1/48$".

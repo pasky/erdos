@@ -30,11 +30,12 @@ $\chi(\Lambda)<\infty$."
 The paper's opening sentence (p. 211) is the question the theorem answers:
 "In 1987 Paul Erdős asked me if the Cayley graph defined on $\mathbb Z$ by
 a lacunary sequence has necessarily a finite chromatic number. Below is my
-answer, delivered to him on the spot but never published". In the site's
-notation, with $A=\{n_1<n_2<\cdots\}$ and $n_{k+1}\ge(1+\epsilon)n_k$, the
-graph is $\mathbb Z_A$ with parameter $\rho=1+\epsilon$, and a proper
-coloring of $\mathbb Z_A$ with finitely many colors restricts to a finite
-coloring of $\mathbb N$ with no monochromatic $a-b\in A$.
+answer, delivered to him on the spot but never published". In the
+erdosproblems.com notation, with $A=\{n_1<n_2<\cdots\}$ and
+$n_{k+1}\ge(1+\epsilon)n_k$, the graph is $\mathbb Z_A$ with parameter
+$\rho=1+\epsilon$, and a proper coloring of $\mathbb Z_A$ with finitely many
+colors restricts to a finite coloring of $\mathbb N$ with no monochromatic
+$a-b\in A$.
 
 **Source.** Y. Katznelson, *Chromatic numbers of Cayley graphs on
 $\mathbb Z$ and recurrence*, Combinatorica 21 (2) (2001), 211--219; the
@@ -90,10 +91,10 @@ self-contained.
 - [[../wiki/problems/ramsey_theory/E0894/_index|Problem 894]]: the theorem is the answer
   to the problem's question, in the paper that records Erdős asking it in
   1987; its proof is the reduction from the Diophantine separation to the
-  coloring, on which the site's account and Peres and Schlag's Theorem 1.1
-  rest, and the § 1.2 proof is a self-contained elementary route to
+  coloring, on which erdosproblems.com's account and Peres and Schlag's Theorem
+  1.1 rest, and the § 1.2 proof is a self-contained elementary route to
   finiteness with $5^d$ colors.
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: the chromatic consequence
-  of that problem's separation, stated by the site as "This problem has
+  of that problem's separation, stated by erdosproblems.com as "This problem has
   consequences for [894]"; the mathematics of the separation is on the
   Theorem 1.2 page.

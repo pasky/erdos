@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 914, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0914/claims
@@ -13,22 +13,22 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/extremal_graph_theory/E0914/claims/1952_01_01_dirac|1952_01_01_dirac]]: Dirac (Proc. London Math. Soc. 1952, refereed) proves that a graph on $n\ge3$
 vertices with minimum degree at least $n/2$ has a Hamiltonian cycle. Through a
-perfect matching this gives the case $r=2$, and the site credits it.
+perfect matching this gives the case $r=2$, and erdosproblems.com credits it.
 
 [[problems/extremal_graph_theory/E0914/claims/1963_09_01_corradi_hajnal|1963_09_01_corradi_hajnal]]: Corrádi and Hajnal (Acta Math. Acad. Sci. Hungar. 1963, refereed) prove that a
 graph on at least $3k$ vertices with minimum degree at least $2k$ has $k$
-disjoint cycles. At $3m$ vertices this gives the case $r=3$, and the site
-credits it.
+disjoint cycles. At $3m$ vertices this gives the case $r=3$, and
+erdosproblems.com credits it.
 
 [[problems/extremal_graph_theory/E0914/claims/1970_01_01_hajnal_szemeredi|1970_01_01_hajnal_szemeredi]]: Hajnal and Szemerédi (1970) prove Erdős's conjecture that every graph with
 $rm$ vertices and minimum degree at least $m(r-1)$ has $m$ disjoint copies of
-$K_r$. The claim is accepted on the site's credit and Kierstead and
+$K_r$. The claim is accepted on the erdosproblems.com credit and Kierstead and
 Kostochka's refereed reproof.
 
 [[problems/extremal_graph_theory/E0914/claims/2008_03_01_kierstead_kostochka|2008_03_01_kierstead_kostochka]]: Kierstead and Kostochka (Combin. Probab. Comput. 2008) give a short proof of
 the Hajnal–Szemerédi theorem, whose clique form is Problem 914. The proof is
-refereed, credited by the site, and formalized in an unbuilt external Lean
-file.
+refereed, credited by erdosproblems.com, and formalized in an unbuilt external
+Lean file.
 
 [[problems/extremal_graph_theory/E0914/claims/2010_03_01_kierstead_kostochka_mydlarz_szemeredi|2010_03_01_kierstead_kostochka_mydlarz_szemeredi]]: Theorem 1 of Kierstead, Kostochka, Mydlarz and Szemerédi (Combinatorica 2010)
 restates the Hajnal–Szemerédi theorem and proves it algorithmically. It is the

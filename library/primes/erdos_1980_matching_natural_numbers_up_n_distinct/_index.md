@@ -6,7 +6,7 @@ desc: |
   of log n.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # primes/erdos_1980_matching_natural_numbers_up_n_distinct
@@ -14,7 +14,7 @@ updated: 2026-10-08T01:29:58Z
 [[primes/_index|..]]
 
 [[primes/erdos_1980_matching_natural_numbers_up_n_distinct/inequality_11|inequality_11]]: The sketched improvement of Theorem 3's constant from 2 to 1.7398, where r
-solves e^(-r) = r; the constant the site prints for Problem 710.
+solves e^(-r) = r; the constant erdosproblems.com prints for Problem 710.
 
 [[primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_2|theorem_2]]: The Erdős–Pomerance lower bound for the shortest interval above n that
 holds distinct multiples of 1 through n, from counts of smooth numbers.
@@ -67,10 +67,10 @@ Theorem 1, de Bruijn's non-sharp asymptotic for log psi(x,y) in Theorem 2)
 and the upper bounds on the Koenig-Hall matching theorem. After Theorem 3 the
 paper sketches the improvement (11), p. 154: f(n) <= (c+o(1)) n sqrt(log n)
 with c = sqrt(r)/(1-r) = 1.7398..., where r solves e^{-r} = r; this sketched
-constant, not the theorem's 2, is the one the site prints for problem 710.
-Theorem 4 gives the uniform extreme-value bound f(n,m) <= 4n([sqrt n]+1) for
-all m (the introduction's max_m f(n,m) << n^{3/2}), and Theorems 5 and 6
-bracket the average of f(n,m) over residue classes mod lcm(1,...,n) between
+constant, not the theorem's 2, is the one erdosproblems.com prints for
+problem 710. Theorem 4 gives the uniform extreme-value bound f(n,m) <= 4n([sqrt
+n]+1) for all m (the introduction's max_m f(n,m) << n^{3/2}), and Theorems 5 and
+6 bracket the average of f(n,m) over residue classes mod lcm(1,...,n) between
 n(log n)^alpha with alpha = 0.08607... (via Tenenbaum's divisor density) and
 n exp((beta+o(1)) log n / log log n) with beta = 1.6825.... Section 6 is the
 part cited for problem 860: it defines the prime-matching maximum h_P(n) =
@@ -91,26 +91,26 @@ Source: <https://users.renyi.hu/~p_erdos/1980-13.pdf>.
 pp. 159--160 (PDF pp. 13--14, page images): $h_{\mathcal P}(n)=\max_m
 f_{\mathcal P}(n,m)$, where $f_{\mathcal P}(n,m)$ is the least number such
 that $(m,m+f_{\mathcal P}(n,m)]$ holds distinct $b_1,\ldots,b_{\pi(n)}$
-with $p_i\mid b_i$, the problem's $h(n)$ (the site's open interval shifts
-the count by one); "We know very little about $h_{\mathcal P}(n)$": (19)
+with $p_i\mid b_i$, the problem's $h(n)$ (erdosproblems.com's open interval
+shifts the count by one); "We know very little about $h_{\mathcal P}(n)$": (19)
 $\limsup h_{\mathcal P}(n)/n\ge3$ (Erdős and Selfridge, Brun's method,
 from sets of $k^2$ primes $p_1<\cdots<p_{k^2}$ with only $2k$ multiples in
 some interval of length $(3-o(1))p_{k^2}$, p. 160) and (20)
 $h_{\mathcal P}(n)/n\ll\sqrt{n/\log n}$ from (17) with $k=\pi(n)$; "We do not
 know how to narrow the immense gulf between (19) and (20)";
 [[../wiki/problems/integer_sequences/E0710/_index|#710]]: Theorems 2 and 3 (pp. 150, 153) are
-the two sides of the site's display, Theorem 2 as printed and the upper side
-as the sketched (11) of p. 154; the site's f(n), the least length of the open
-interval (n, n+f(n)) holding the system, is the paper's f(n,n) + 1, a shift
-that the o(1) terms absorb;
+the two sides of the erdosproblems.com display, Theorem 2 as printed and the
+upper side as the sketched (11) of p. 154; erdosproblems.com's f(n), the least
+length of the open interval (n, n+f(n)) holding the system, is the paper's
+f(n,n) + 1, a shift that the o(1) terms absorb;
 [[../wiki/problems/integer_sequences/E0711/_index|#711]]: Theorem 4 (p. 155) is the bound
-max_m f(n,m) << n^{3/2} of the site's commentary and the best published bound
-on the problem's first question; Theorems 2 and 3 are the site's bounds on
-f(n,n); the introduction (p. 148) says the paper cannot show
-max_m f(n,m) > f(n,n); p. 160 conjectures max_m f(n,m) - f(n,n) -> infinity,
-the problem's second question (proved in 2026 by van Doorn), and proves only
-(21), max_m f(n,m) - f(n,n) >= 1 for infinitely many n (every large prime,
-p. 161).
+max_m f(n,m) << n^{3/2} of the erdosproblems.com commentary and the best
+published bound on the problem's first question; Theorems 2 and 3 are
+erdosproblems.com's bounds on f(n,n); the introduction (p. 148) says the paper
+cannot show max_m f(n,m) > f(n,n); p. 160 conjectures max_m f(n,m) - f(n,n) ->
+infinity, the problem's second question (proved in 2026 by van Doorn), and
+proves only (21), max_m f(n,m) - f(n,n) >= 1 for infinitely many n (every large
+prime, p. 161).
 
 **Results.**
 

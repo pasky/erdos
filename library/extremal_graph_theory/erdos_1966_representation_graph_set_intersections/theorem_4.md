@@ -60,8 +60,8 @@ the arithmetic identity (4).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1017/_index|Problem 1017]]: the universal
-  bound $f(n,k)\le[n^2/4]$ in the site's partition sense, with edges and
-  triangles, sharp for the complete bipartite graph; the question asks how
+  bound $f(n,k)\le[n^2/4]$ in erdosproblems.com's partition sense, with edges
+  and triangles, sharp for the complete bipartite graph; the question asks how
   it improves for $k>n^2/4$.
 - [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]]: context for the
   decomposition question of Section 5; the theorem decomposes every graph

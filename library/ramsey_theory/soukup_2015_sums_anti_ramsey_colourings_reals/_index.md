@@ -47,10 +47,10 @@ Institute of Mathematics and the University of Toronto. Its reference list
 cites Hindman, Leader and Strauss "(to appear in Abh. Math. Sem. Univ.
 Hamburg)" and Komjáth, A certain 2-coloring of the reals, "to appear in ???",
 so the text predates both publications (Komjáth's in 2016, the
-Hindman--Leader--Strauss paper in 2017). The site's Problem 965 page cites it
-in its commentary as "Soukup and Weiss" with no key; the formal-conjectures
-file for that problem cites it as `[SWCol]` from the first author's site
-(`danieltsoukup.github.io/academic/finset_colouring.pdf`).
+Hindman--Leader--Strauss paper in 2017). erdosproblems.com's Problem 965 page
+cites it in its commentary as "Soukup and Weiss" with no key; the
+formal-conjectures file for that problem cites it as `[SWCol]` from the first
+author's site (`danieltsoukup.github.io/academic/finset_colouring.pdf`).
 
 **Edition read.** The copy read for this card is the manuscript as typeset
 by the authors (pdfTeX; its metadata gives a creation date of 7 September

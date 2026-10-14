@@ -3,9 +3,9 @@ name: problems/arithmetic_functions/E0897/claims/2025_12_26_archivara
 title: Archivara's explicit additive counterexample
 desc: |
   Archivara's 2025 manuscript, written by its research agent, constructs an
-  explicit additive function that answers both questions no. The site's thread
-  reads it as a rediscovery of Wirsing's construction, and it was later
-  formalized in Lean.
+  explicit additive function that answers both questions no. The
+  erdosproblems.com thread reads it as a rediscovery of Wirsing's construction,
+  and it was later formalized in Lean.
 authors:
 - Archivara Math Research Agent
 status: accepted
@@ -38,11 +38,12 @@ construction gives $\limsup_{p,k}f(p^k)/\log p^k=\infty$,
 $\limsup_n(f(n+1)-f(n))/\log n\le4$, $f(n)>0$ for all large $n$, and
 $\limsup_n f(n+1)/f(n)=1$, so both questions have answer no. The claimant
 is the organization Archivara, which published the manuscript on its platform
-under its agent's name; a member of its team posted the link on the site's
-discussion thread the same day, and the team's mathematician states there that
-they verified the proof before publication and that no human took part in
-writing it. The team also published a human-written companion exposition on
-the same platform, which contains no proof and is not listed among the links.
+under its agent's name; a member of its team posted the link on the
+erdosproblems.com discussion thread the same day, and the team's mathematician
+states there that they verified the proof before publication and that no human
+took part in writing it. The team also published a human-written companion
+exposition on the same platform, which contains no proof and is not listed among
+the links.
 
 **Formalization.** The second link is a Lean 4 file proving `erdos_897.parts.i`
 and `erdos_897.parts.ii`: for each question, the statement that every additive
@@ -76,12 +77,12 @@ independent rediscovery of a counterexample already in the literature. That
 counterexample is the one Wirsing published in 1981, recorded on
 [[problems/arithmetic_functions/E0897/claims/1981_01_01_wirsing|Wirsing 1981]].
 
-The site's curator, Thomas F. Bloom, credits the construction to Wirsing and
-does not name the manuscript. So Bloom's credit is recorded on Wirsing's page
-and not as evidence here. The formalization was posted on the thread on
-2025-12-27. After that, the site labeled the problem DISPROVED (LEAN) (page last
-edited 1 April 2026), and the community database records the formal status Lean.
-The formal-conjectures statement file, at the commit linked above, marks both
-parts research solved, with their formal-proof attribute pointing at this Lean
-file on its repository's main branch. The problem page is
+The erdosproblems.com curator, Thomas F. Bloom, credits the construction to
+Wirsing and does not name the manuscript. So Bloom's credit is recorded on
+Wirsing's page and not as evidence here. The formalization was posted on the
+thread on 2025-12-27. After that, Bloom's catalog labeled the problem DISPROVED
+(LEAN) (page last edited 1 April 2026), and the community database records the
+formal status Lean. The formal-conjectures statement file, at the commit linked
+above, marks both parts research solved, with their formal-proof attribute
+pointing at this Lean file on its repository's main branch. The problem page is
 [[problems/arithmetic_functions/E0897/_index|Problem 897]].

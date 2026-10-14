@@ -44,7 +44,7 @@ is justified by a uniform tail bound obtained from high-moment estimates for
 S_m(p) using the quadratic large sieve for m <= x^{1/6-kappa} and quadratic
 reciprocity together with Heath-Brown's large sieve and Polya-Vinogradov for
 larger m. This settles the first-passage formulation of Erdos's eventual-time
-conjecture as it had been stated on the Erdos problems site as problem 981; the
+conjecture as it had been stated on erdosproblems.com as problem 981; the
 authors note that an earlier version of that page misstated the problem in the
 first-passage form rather than the eventual-time threshold F_eps(p), whose
 asymptotic sum_{p<=x} F_eps(p) ~ C_eps x/log x was proved by Elliott, and that
@@ -55,7 +55,7 @@ Source: <https://arxiv.org/abs/2512.24631>.
 **Bears on.** [[../wiki/problems/number_theory/E0981/_index|#981]] (Theorem 1.2, p. 2, the
 first-passage variant f_eps of the problem's eventual-time threshold F_eps;
 the introduction's attestation that Elliott proved Erdős's display (80), the
-problem's statement; footnote 1, the site's earlier misstatement;
+problem's statement; footnote 1, erdosproblems.com's earlier misstatement;
 [[number_theory/tang_2025_average_first_passage_times_character_sums/theorem_1_2|theorem_1_2]])
 
 **Results.**

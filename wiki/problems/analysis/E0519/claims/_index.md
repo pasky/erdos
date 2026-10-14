@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 519, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/analysis/E0519/claims
@@ -14,7 +14,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/analysis/E0519/claims/1961_01_01_atkinson|1961_01_01_atkinson]]: Atkinson proves that the largest modulus of the first $n$ power sums of
 complex numbers with $z_1=1$ exceeds $1/6$, an absolute constant independent
 of $n$. The paper is refereed in Acta Math. Acad. Sci. Hungar. and credited by
-the site.
+erdosproblems.com.
 
 [[problems/analysis/E0519/claims/1994_09_01_biro|1994_09_01_biro]]: Biró proves, by Newton--Girard identities and a planar dichotomy, that the
 largest modulus among the first $n$ power sums of complex numbers with $z_1=1$

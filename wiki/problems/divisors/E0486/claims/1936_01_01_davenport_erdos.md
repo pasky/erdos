@@ -56,19 +56,19 @@ through the integers supported on the first $k$ primes.
 **Covers.** Every instance in which every $X_n$ is the zero class, for every
 choice of $A$; for these the answer is yes. Not covered: any instance with a
 nonzero residue in some $X_n$, including the singleton case
-$|X_n|=1$ of Problem 25, which the site's remark says this problem
+$|X_n|=1$ of Problem 25, which the erdosproblems.com remark says this problem
 generalizes, and the general case, for which Wang's 2026 manuscript on its
 own [[problems/divisors/E0486/claims/2026_07_16_wang|claim page]] claims a
-disproof. Besicovitch's examples, cited in the site's remark, show that
-natural density can fail even when $X_n=\{0\}$ for all $n$, which is why the
-problem asks for logarithmic density.
+disproof. Besicovitch's examples, cited in the erdosproblems.com remark, show
+that natural density can fail even when $X_n=\{0\}$ for all $n$, which is why
+the problem asks for logarithmic density.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The `refereed` evidence is the 1936 journal publication in Acta
 Arithmetica, together with the 1951 elementary proof in the Journal of the
-Indian Mathematical Society. The site labeled the problem OPEN. Its remark (page
-last edited 8 April 2026) credits both papers with the case $X_n=\{0\}$. A
-remark on an open problem is not an acceptance, so no `reviewed` evidence is
-listed. The records give the publication years and no finer dates, so the page
-carries the first day of 1936.
+Indian Mathematical Society. Bloom's catalog labeled the problem OPEN. Its
+remark (page last edited 8 April 2026) credits both papers with the case
+$X_n=\{0\}$. A remark on an open problem is not an acceptance, so no `reviewed`
+evidence is listed. The records give the publication years and no finer dates,
+so the page carries the first day of 1936.

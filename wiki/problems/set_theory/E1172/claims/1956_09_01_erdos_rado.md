@@ -31,7 +31,7 @@ updated: 2026-10-07T19:24:20Z
 **Claim.** Erdős and Rado prove, for every infinite cardinal $\kappa$, that
 $(2^\kappa)^+\to(\kappa^+)^2_\kappa$: every coloring of the pairs of a set of
 size $(2^\kappa)^+$ with $\kappa$ colors has a homogeneous set of size
-$\kappa^+$. The site's remark quotes the stronger ordinal form
+$\kappa^+$. The erdosproblems.com remark quotes the stronger ordinal form
 $(2^\kappa)^+\to(\kappa^++1)^2_\kappa$; the cardinal form suffices here.
 
 The step to the first relation of
@@ -44,8 +44,8 @@ contains subsets of types $\omega_2$ and $\omega_1+2$. Whichever color the
 homogeneous set has, the relation $\omega_3\to(\omega_2,\omega_1+2)^2$ holds.
 
 **Covers.** The first relation, $\omega_3\to(\omega_2,\omega_1+2)^2$ under
-GCH, as the site prints it. The problem page's Formulation records that the
-booklet's version of this relation is cut off, so the printed target may not
+GCH, as erdosproblems.com prints it. The problem page's Formulation records that
+the booklet's version of this relation is cut off, so the printed target may not
 be the one Erdős and Hajnal intended. The second and third relations and the
 consistency question are not covered.
 

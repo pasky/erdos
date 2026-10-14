@@ -80,9 +80,9 @@ conjectured $R(3,k)=(\frac12+o(1))k^2/\log k$ (a preprint result); paged at
 Theorem 1.3 (p. 2) gives triangle-free graphs on $n$ vertices with
 independence number below $(1+\varepsilon)\sqrt{n\log n}$, hence with
 chromatic number of order $\sqrt{n/\log n}$, so the problem's $f_r(n)$ is
-nontrivial up to $r$ of that order; the site's discussion thread derives
-from it the upper half of $g(r)\asymp r^2\log r$ for Simonovits's $g(r)$, a
-forum derivation recorded on the problem page; paged at
+nontrivial up to $r$ of that order; the erdosproblems.com discussion thread
+derives from it the upper half of $g(r)\asymp r^2\log r$ for Simonovits's
+$g(r)$, a forum derivation recorded on the problem page; paged at
 [[ramsey_theory/hefty_2025_improving_just_two_bites/theorem_1_3|theorem_1_3]].
 [[../wiki/problems/graph_coloring/E1104/_index|#1104]]: Theorem 1.3 (p. 2, text layer)
 gives triangle-free graphs on $n$ vertices with

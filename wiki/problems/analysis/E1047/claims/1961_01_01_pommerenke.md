@@ -53,8 +53,8 @@ received November 26, 1960. The publisher's record dates the article to the
 year 1961 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
-Journal. Reviewed: the site's curator, T. F. Bloom, labeled the problem
-disproved and credits the negative answer to this theorem, stating the
+Journal. Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled the
+problem disproved and credits the negative answer to this theorem, stating the
 polynomial and the parameter range. Nothing here is independently reviewed
 by this project.
 
@@ -62,8 +62,8 @@ by this project.
 disprove Grunsky's question for the open sublevel set at a critical level, and
 the paper does not treat the problem's closed set
 ([[problems/analysis/E1047/claims/1966_04_01_goodman|Goodman's page]]); the Lean
-qualifier of the site's label refers to a Lean proof with $z^6-z$, built and
-checked by this corpus's verification and accepted on
+qualifier of the erdosproblems.com label refers to a Lean proof with $z^6-z$,
+built and checked by this corpus's verification and accepted on
 [[problems/analysis/E1047/claims/2026_01_21_alexeev|Alexeev's page]].
 
 **Depends on.** Nothing on the wiki; the proof uses elementary calculus only.

@@ -30,12 +30,12 @@ exponent is best possible.
 ***
 
 Brown, W. G. and Erdős, P. and Sós, V. T., Some extremal problems on
-{$r$}-graphs. (1973), 53--63. The venue, absent from the site's reference text,
-is New Directions in the Theory of Graphs (Proc. Third Ann Arbor Conf., Univ.
-Michigan, Ann Arbor, Mich., 1971), Academic Press, New York, 1973: the scan's
-running head reads "THE THEORY OF GRAPHS", and the 2024 arXiv abstract of Glock,
-Kim, Lichev, Pikhurko and Sun (arXiv:2403.04474) cites the paper with exactly
-this volume and page range.
+{$r$}-graphs. (1973), 53--63. The venue, absent from the erdosproblems.com
+reference text, is New Directions in the Theory of Graphs (Proc. Third Ann Arbor
+Conf., Univ. Michigan, Ann Arbor, Mich., 1971), Academic Press, New York, 1973:
+the scan's running head reads "THE THEORY OF GRAPHS", and the 2024 arXiv
+abstract of Glock, Kim, Lichev, Pikhurko and Sun (arXiv:2403.04474) cites the
+paper with exactly this volume and page range.
 
 The copy read for this card is an
 eleven-page scan of the typescript (printed pp. 53--63 = PDF pp. 1--11, so
@@ -102,16 +102,16 @@ and $s=k-2$ gives $f^{(3)}(n;k,k-2)>cn^2$, and Section 5, p. 62 = PDF
 p. 10, proves the matching $O(n^2)$ upper bound
 ([[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_p62|theorem_p62]]) and conjectures that
 $\lim n^{-2}f^{(3)}(n;k,k-2)$ exists
-([[extremal_graph_theory/brown_1973_extremal_problems_graphs/conjecture_p62|conjecture_p62]]); under the site's wording the
-problem asks whether that limit is $1/6$, a value the paper does not state
-for $k\ge5$;
+([[extremal_graph_theory/brown_1973_extremal_problems_graphs/conjecture_p62|conjecture_p62]]);
+under the erdosproblems.com wording the problem asks whether that limit is
+$1/6$, a value the paper does not state for $k\ge5$;
 [[../wiki/problems/extremal_graph_theory/E1157/_index|#1157]]: the Theorem of Section 4,
 printed p. 59 = PDF p. 7 (page image;
 [[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|theorem_section_4]]),
-the site's displayed lower bound $n^{(rs-k)/(s-1)}$ for all $k>r$ and $s>1$,
-with the p. 55 definition under which the site's $\mathrm{ex}_r(n,\mathcal F)$
-is $f^{(r)}(n;k,s)-1$, and in the case $r=3$, $k=s+2$ the Section 5
-bound and conjecture above;
+erdosproblems.com's displayed lower bound $n^{(rs-k)/(s-1)}$ for all $k>r$ and
+$s>1$, with the p. 55 definition under which erdosproblems.com's
+$\mathrm{ex}_r(n,\mathcal F)$ is $f^{(r)}(n;k,s)-1$, and in the case $r=3$,
+$k=s+2$ the Section 5 bound and conjecture above;
 [[../wiki/problems/set_systems/E1178/_index|#1178]]: the same theorem with $k=(r-2)s+2$,
 where the exponent is $2$, gives the lower half $d_r(e)\ge(r-2)e+3$ of the
 problem's conjecture, a reading recorded on the result page, and for

@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1179, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E1179/claims
@@ -19,6 +19,6 @@ superseded in 1976.
 [[problems/additive_combinatorics/E1179/claims/1976_01_01_erdos_hall|1976_01_01_erdos_hall]]: The Theorem of Erdős and Hall (Houston J. Math. 1976, refereed)
 equidistributes the subset sums of almost all choices of $(1+o(1))\log_2N$
 elements of an abelian group of order $N$, so $g_\epsilon(N)=(1+o(1))\log_2N$.
-The site credits this result.
+erdosproblems.com credits this result.
 
 ***

@@ -35,7 +35,7 @@ Radziszowski and Xu report it in the text of their history of $F_e(3,3;4)$
 (arXiv:1207.3750v2, Section 2: Frankl and Rödl "showed that
 $F_e(3,3;4)<7.02\times10^{11}$"); their Table 1 lists $8\times10^{11}$, Lu (SIAM
 J. Discrete Math. 21 (2008), p. 1053) writes $f(2,3,4)\le7\times10^{11}$, and
-the site writes $7\cdot10^{11}$. Radziszowski and Xu
+erdosproblems.com writes $7\cdot10^{11}$. Radziszowski and Xu
 ([[../library/ramsey_theory/radziszowski_2007_most_wanted_folkman_graph/_index|their survey]])
 count the proof among the probabilistic ones: a random graph with one edge
 removed from each $K_4$ is shown to arrow $(3,3)$ with positive probability. The
@@ -47,5 +47,6 @@ $K_4$, is not held; the statement is taken from these accounts of it.
 **Acceptance.** Refereed: P. Frankl and V. Rödl, *Large triangle-free
 subgraphs in graphs without $K_4$*, Graphs and Combinatorics 2 (1986), no.
 1, 135--144 (December 1986 by its Crossref record; the day is a
-placeholder). The site's label rested on Folkman's existence proof, so the
-site's commentary crediting Frankl and Rödl is not listed as evidence.
+placeholder). The erdosproblems.com label rested on Folkman's existence proof,
+so the erdosproblems.com commentary crediting Frankl and Rödl is not listed as
+evidence.

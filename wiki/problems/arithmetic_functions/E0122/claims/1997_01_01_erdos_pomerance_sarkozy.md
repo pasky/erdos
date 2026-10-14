@@ -36,7 +36,7 @@ the result in *Problems in number theory*, New Zealand J. Math. 26 (1997),
 46 (1997), 527--537, p. 533: he writes that he, Pomerance and Sárközy can prove
 it for $\tau$ and $\omega$, and that it probably fails for $\phi$ and $\sigma$.
 Neither paper gives an argument and no publication of the proof is recorded; the
-site's commentary (page last edited 2026-04-01) repeats the report.
+erdosproblems.com commentary (page last edited 2026-04-01) repeats the report.
 
 **Covers.** $f=\tau$ and $f=\omega$, in the corrected reading of the
 question: $F(n)/f(n)\to0$ for almost all $n$, with the width $F(x)\to\infty$
@@ -50,19 +50,21 @@ Ramanujan J. (1997), 227--241), proves results for $f=\omega$ at single
 widths only. Its Theorem 1 gives, for every large $x$, some $n\le x$ with
 more than $c(\log x)^{1/2}(\log\log x)^{-1}$ values $m$ satisfying
 $m+\omega(m)=n$: clustering at a bounded width. Its method gives, as the
-site's commentary and the curator's thread comment of 2026-03-27 record, an
-interval $I\subseteq[1,O(x)]$ of width about $((\log x)/\log\log x)^{1/2}$
-whose points $n$ all have $n+\omega(n)$ in one interval $J$ of width about
-$(\log\log x)^{1/2}$. Each result fixes one width $F$ and settles no instance
-of the property, which quantifies over every $F$, so neither is a claim on
-this problem. In the same comment the curator, Thomas Bloom, wrote that the
-results Erdős describes do not really appear in that paper.
+erdosproblems.com commentary and the curator's thread comment of 2026-03-27
+record, an interval $I\subseteq[1,O(x)]$ of width about
+$((\log x)/\log\log x)^{1/2}$ whose points $n$ all have $n+\omega(n)$ in one
+interval $J$ of width about $(\log\log x)^{1/2}$. Each result fixes one width
+$F$ and settles no instance of the property, which quantifies over every $F$, so
+neither is a claim on this problem. In the same comment the curator, Thomas
+Bloom, wrote that the results Erdős describes do not really appear in that
+paper.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** None recorded. Erdős's report is the poser's word that a proof
 exists, with no argument to examine. This page does not count it as acceptance
-evidence. The site labeled the problem OPEN (page last edited 2026-04-01), and
-its proof-claims tab has no entry, so the commentary that repeats the report
-credits nothing. The curator's doubt of 2026-03-27 is not a refutation. There is
-no refereed proof and no formalization, so the claim stays `claimed`.
+evidence. Bloom's catalog labeled the problem OPEN (page last edited
+2026-04-01), and its proof-claims tab has no entry, so the commentary that
+repeats the report credits nothing. The curator's doubt of 2026-03-27 is not a
+refutation. There is no refereed proof and no formalization, so the claim stays
+`claimed`.

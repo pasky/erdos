@@ -102,10 +102,10 @@ The paper has no reference list.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the site's
-  "$f(0)=1$", in the paper's terms: $\binom{n-1}2+2$ edges force a
-  Hamilton circuit, and $\binom{n-1}2+1$ edges do not, the extremal graph
-  being $K_{n-1}$ with a pendant edge, which is the problem's sharpness
+- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]:
+  erdosproblems.com's "$f(0)=1$", in the paper's terms: $\binom{n-1}2+2$ edges
+  force a Hamilton circuit, and $\binom{n-1}2+1$ edges do not, the extremal
+  graph being $K_{n-1}$ with a pendant edge, which is the problem's sharpness
   graph ($K_{n-k-1}$ and $K_{k+2}$ sharing a vertex) at $k=0$. This is the
   theorem that Erdős's 1962 note quotes on p. 227, paged at
   [[extremal_graph_theory/erdos_1962_remarks_paper_posa/theorem_p227|theorem_p227]],

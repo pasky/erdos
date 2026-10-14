@@ -5,7 +5,7 @@ desc: |
   Asks whether every graph on $n\ge k+1$ vertices with at least
   $\frac{k-1}{2}n+1$ edges contains every tree on $k+1$ vertices. The Erdős–Sós
   tree edge bound is proved, and the page records the precise relation between
-  its sharp threshold and the site's statement.
+  its sharp threshold and the erdosproblems.com statement.
 tags:
 - Graph theory
 status: solved
@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Let $n\geq k+1$. Every graph on $n$ vertices with at least
 $\frac{k-1}{2}n+1$ edges contains every tree on $k+1$ vertices.
 
-**Status.** Proved. The site labeled the problem proved and formalized,
+**Status.** Proved. Bloom's catalog labeled the problem proved and formalized,
 crediting GPT-6 Astra with the full proof. The corpus accepts that result on the
 [[problems/extremal_graph_theory/E0548/claims/2026_09_03_adamczewski|claim page]]
 on reviewed and formalized evidence, so the problem stands solved and proved.
@@ -34,9 +34,9 @@ three standard ones. Its compared declaration was matched to the comparator
 challenge, and its statement was audited against the Statement above. Three
 arXiv papers by mathematicians independent of the claimant and the curator
 affirm the proof (Riordan and Scott, Wood, and Frederickson; Current assessment,
-below). The site's own acceptance is not an independent review, since its
-curator submitted the proof-claim entry and co-wrote the publication. Nothing is
-refereed. The
+below). erdosproblems.com's own acceptance is not an independent review, since
+its curator submitted the proof-claim entry and co-wrote the publication.
+Nothing is refereed. The
 [[../library/extremal_graph_theory/adamczewski_2026_erdos548/theorem_1|sharp tree-free edge bound]]
 also establishes the classical strict threshold $e(G)>(k-1)n/2$. The formal
 verification and the preliminary state of the human-readable exposition are
@@ -97,30 +97,30 @@ but not compared. The
 identifies the exact PDF, formal source, verification limits, and exposition
 corrections. The file
 [`ErdosProblems/548.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/548.lean)
-of formal-conjectures, at the pinned commit, states `erdos_548` in the site's
-form (for $k+1\le n$, a graph on `Fin n` with at least $\frac{k-1}2n+1$ edges
-contains every tree on `Fin (k + 1)`) under `category research solved`, with
-proof `sorry`; the file was added on 7 September 2026 and its `formal_proof`
-attribute, added on 15 September 2026, points to a file in the
-Jayyhk/erdos-lean repository that is a copy of the claimant's resolution
-module above, with the same header and lemma names, differing only in its
-namespace and `open` lines and an added `#print axioms` line. That copy is
-linked from the claim page as a further posting of the claimant's
-formalization and is not an independent proof; the formal-conjectures entry
-syncs the site's status and is not acceptance evidence. The Lean developments
-of the two strengthenings on the
+of formal-conjectures, at the pinned commit, states `erdos_548` in the
+erdosproblems.com form (for $k+1\le n$, a graph on `Fin n` with at least
+$\frac{k-1}2n+1$ edges contains every tree on `Fin (k + 1)`) under
+`category research solved`, with proof `sorry`; the file was added on 7
+September 2026 and its `formal_proof` attribute, added on 15 September 2026,
+points to a file in the Jayyhk/erdos-lean repository that is a copy of the
+claimant's resolution module above, with the same header and lemma names,
+differing only in its namespace and `open` lines and an added `#print axioms`
+line. That copy is linked from the claim page as a further posting of the
+claimant's formalization and is not an independent proof; the formal-conjectures
+entry syncs the erdosproblems.com status and is not acceptance evidence. The
+Lean developments of the two strengthenings on the
 [[problems/extremal_graph_theory/E0548/claims/2026_09_07_debiasio|DeBiasio page]]
 have not been built here.
 
 ## Current assessment
 
-**Search scope.** The site's statement, comments and proof
-claim, the five-page exposition, the pinned formal repository and public
+**Search scope (2026-09-05 UTC).** The erdosproblems.com statement, comments and
+proof claim, the five-page exposition, the pinned formal repository and public
 verification records, and the [FrontierMath primary
 report](https://epoch.ai/files/frontiermath-erdos.pdf); the FrontierMath Erdős
 paper of Adamczewski and Bloom
 ([arXiv:2609.25050](https://arxiv.org/abs/2609.25050), v1 6 September 2026)
-records the resolution. Searches beyond the site also located earlier
+records the resolution. Searches beyond erdosproblems.com also located earlier
 special-case and asymptotic work; older descriptions of the full conjecture as
 open precede this announcement. The repository metadata and the curator's
 proof-claim note state that expert digestion and independent refereeing
@@ -136,16 +136,16 @@ and Thomassé; D. R. Wood, *The Erdős--Sós Theorem*, arXiv:2609.17877 (v1 15
 September 2026), an exposition of the proof; and B. Frederickson, *Erdős-Sós
 via random cyclic orderings*, arXiv:2609.21159 (v1 18 September 2026), a
 simplified proof that also proves the antidirected-tree conjecture. None is
-refereed. The site's discussion lists the three in comments of 19 and 21
-September 2026, and the site's expositions section also links an AI-assisted
-alternative version of the curator's exposition by Ben Golub. Riordan and
-Scott and Frederickson prove stronger theorems with their own arguments and
-have the claimed full pages
+refereed. The erdosproblems.com discussion lists the three in comments of 19 and
+21 September 2026, and erdosproblems.com's expositions section also links an
+AI-assisted alternative version of the curator's exposition by Ben Golub.
+Riordan and Scott and Frederickson prove stronger theorems with their own
+arguments and have the claimed full pages
 [[problems/extremal_graph_theory/E0548/claims/2026_09_14_riordan_scott|Riordan--Scott 2026]]
 and
 [[problems/extremal_graph_theory/E0548/claims/2026_09_18_frederickson|Frederickson 2026]];
 Wood's paper is an exposition of the claimant's proof and has no page. A
-comment of 7 September 2026 on the site's proof claim points to Louis
+comment of 7 September 2026 on erdosproblems.com's proof claim points to Louis
 DeBiasio's repository of two strengthenings, proved and formalized with GPT-6
 Astra, paged as
 [[problems/extremal_graph_theory/E0548/claims/2026_09_07_debiasio|DeBiasio 2026]].
@@ -173,10 +173,10 @@ path result]], Theorem (2.6) of [ErGa59], settles the instance $T$ a path on
 $k+1$ vertices for every $k$ and $n$, and has the accepted partial claim page
 [[problems/extremal_graph_theory/E0548/claims/1959_09_01_erdos_gallai|Erdős--Gallai 1959]];
 the star case, which [Er78] calls trivial, is a remark with no paper behind it
-and gets no page. The site's commentary, last edited 7 September 2026, also
-credits Reed and Stein: [ReSt26] proves the statement for every $k\ge\gamma n$
-once $n$ is large in terms of $\gamma>0$, infinitely many instances, and has
-the claimed partial page
+and gets no page. The erdosproblems.com commentary, last edited 7 September
+2026, also credits Reed and Stein: [ReSt26] proves the statement for every
+$k\ge\gamma n$ once $n$ is large in terms of $\gamma>0$, infinitely many
+instances, and has the claimed partial page
 [[problems/extremal_graph_theory/E0548/claims/2026_09_04_reed_stein|Reed--Stein 2026]].
 The results that restrict the host graph settle no instance $(n,k,T)$ of the
 statement and have no claim pages: [BrDo96] (girth at least $5$), [SaWo97]
@@ -222,7 +222,7 @@ Ramsey bounds]] in [[problems/ramsey_theory/E0547/_index|#547]] and
 and includes the parity refinement for an odd tree order and an even
 number of colors.
 
-The site's additional conjecture about containing **every forest** with
+erdosproblems.com's additional conjecture about containing **every forest** with
 $k$ edges has a different threshold. The tree theorem here does not by
 itself establish that separate assertion.
 

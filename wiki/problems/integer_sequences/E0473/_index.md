@@ -4,7 +4,8 @@ title: Problem 473
 desc: |
   Asks whether the positive integers can be permuted so that every two
   consecutive terms sum to a prime; yes, by an unpublished construction of
-  Odlyzko reported by Erdős and Graham in 1980 and accepted by the site.
+  Odlyzko reported by Erdős and Graham in 1980 and accepted by
+  erdosproblems.com.
 tags:
 - Number theory
 status: solved
@@ -24,26 +25,26 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Is there a permutation $a_1,a_2,\ldots$ of the positive integers
 such that $a_k+a_{k+1}$ is always prime?
 
-**Status.** Proved. The site records that Odlyzko showed the answer is yes, and
-that no reference is given. Erdős and Graham report on printed p. 94 of their
-1980 monograph that Odlyzko constructed a permutation with prime consecutive
-sums. This settled the question Segal had posed in 1977. Their bibliography
-marks the construction unpublished. The claim page
+**Status.** Proved. erdosproblems.com records that Odlyzko showed the answer is
+yes, and that no reference is given. Erdős and Graham report on printed p. 94 of
+their 1980 monograph that Odlyzko constructed a permutation with prime
+consecutive sums. This settled the question Segal had posed in 1977. Their
+bibliography marks the construction unpublished. The claim page
 [[problems/integer_sequences/E0473/claims/1980_01_01_odlyzko|Odlyzko]] records
 it. The claim is accepted on Erdős and Graham's published report and on the
-PROVED label set by the site's curator, Thomas Bloom, who credits Odlyzko. The
-construction has not been located, so it has not been checked. A thread exchange
-of 8 October 2025 looked for it without success.
+PROVED label set by the erdosproblems.com curator, Thomas Bloom, who credits
+Odlyzko. The construction has not been located, so it has not been checked. A
+thread exchange of 8 October 2025 looked for it without success.
 
-The site's commentary also carries side questions that do not bear on the
-standing. Watts asked two questions about the greedy permutation ($a_1=1$, and
-$a_{n+1}$ the least unused $x$ with $a_n+x$ prime): whether it is onto the
+The erdosproblems.com commentary also carries side questions that do not bear on
+the standing. Watts asked two questions about the greedy permutation ($a_1=1$,
+and $a_{n+1}$ the least unused $x$ with $a_n+x$ prime): whether it is onto the
 positive integers, and whether every prime occurs as a consecutive sum. A thread
 comment of 8 October 2025 settles the second in the negative: $197$ never occurs
 as a sum. Segal's finite version asks for a permutation of $\{1,\ldots,n\}$ with
-prime consecutive sums for every $n\ge2$. The site reports it as expected on
-probabilistic grounds and true for infinitely many $n$, with a link to a
-MathOverflow discussion. A thread comment of 8 October 2025 points to the
+prime consecutive sums for every $n\ge2$. erdosproblems.com reports it as
+expected on probabilistic grounds and true for infinitely many $n$, with a link
+to a MathOverflow discussion. A thread comment of 8 October 2025 points to the
 bounded-gaps argument given there.
 
 A preprint of 16 September 2026 [She26] claims a prime circle of order $2n$ for
@@ -62,8 +63,8 @@ $a_1,a_2,\ldots$, so it is a variant, not a claim on the question.
 **Source.** [erdosproblems.com/473](https://www.erdosproblems.com/473), accessed
 2026-09-04 and, for the page (last edited 2 December 2025), its
 three-comment discussion thread and its empty proof-claim tab, 2026-09-05,
-with the site's history view accessed 2026-10-07. Cite as: T. F. Bloom, Erdős
-Problem #473, https://www.erdosproblems.com/473.
+with the erdosproblems.com history view accessed 2026-10-07. Cite as: T. F.
+Bloom, Erdős Problem #473, https://www.erdosproblems.com/473.
 
 **References.**
 

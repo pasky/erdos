@@ -46,18 +46,19 @@ https://www.erdosproblems.com/104.
 
 ## Current assessment
 
-This account rests on the site's page (accessed 2026-09-04) and on the library
-cards of the two release preprints named below; no status search beyond the site
-is recorded, no claim is recorded for this problem, and the standing is the
-site's label. In [Er81d] Erdős states, without giving an argument, that at most
-$n(n-1)$ unit circles pass through three or more of $n$ points
+This account rests on the erdosproblems.com page (accessed 2026-09-04) and on
+the library cards of the two release preprints named below; no status search
+beyond erdosproblems.com is recorded, no claim is recorded for this problem, and
+the standing is the erdosproblems.com label. In [Er81d] Erdős states, without
+giving an argument, that at most $n(n-1)$ unit circles pass through three or
+more of $n$ points
 ([[../library/discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/unit_circles_p143|source page]]).
 A double count, each pair of points lying on at most two unit circles, gives
 at most $n(n-1)/3$, as Harborth and Mengersen [HaMe86] note, and that order is
 what the question asks to beat. Elekes [El84] gives $n$-point sets
-determining $\gg n^{3/2}$ such circles, as the site reports, so the answer, if
-yes, cannot be improved below that order; in [Er92e] Erdős offered a prize for a
-proof or disproof that the count is $O(n^{3/2})$.
+determining $\gg n^{3/2}$ such circles, as erdosproblems.com reports, so the
+answer, if yes, cannot be improved below that order; in [Er92e] Erdős offered a
+prize for a proof or disproof that the count is $O(n^{3/2})$.
 
 One result of 2026 is recorded here because it concerns unit distances
 among planar points and could be mistaken for progress on this problem.

@@ -62,10 +62,10 @@ the container theorem it applies.
 
 **Acceptance.** Refereed: J. Balogh and J. Solymosi, On the number of points
 in general position in the plane, Discrete Analysis 2018:16, 20 pp., received
-1 September 2016 and revised 17 April 2017 as the paper prints. The site's
-commentary records the bound, but the site labeled the problem OPEN, so that
-remark is not acceptance of the problem and the page lists no `reviewed`
-evidence. The proof is not compiled in this corpus.
+1 September 2016 and revised 17 April 2017 as the paper prints. The
+erdosproblems.com commentary records the bound, but Bloom's catalog labeled the
+problem OPEN, so that remark is not acceptance of the problem and the page lists
+no `reviewed` evidence. The proof is not compiled in this corpus.
 
 **Dating.** The page is dated by the first public posting, arXiv:1704.05089
 of 17 April 2017. The journal's record dates the publication 13 September

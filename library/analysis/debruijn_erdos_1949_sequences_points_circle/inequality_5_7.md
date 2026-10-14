@@ -30,9 +30,9 @@ $$
 \mu_r\ \ge\ 1+\frac1r .
 $$
 
-For $r=1$ this is $\mu_1\ge2$, attained by the Section 2 sequence. The
-site quotes (5.7); the p. 14 introduction calls it all the authors can
-prove about $\mu_r$.
+For $r=1$ this is $\mu_1\ge2$, attained by the Section 2 sequence.
+erdosproblems.com quotes (5.7); the p. 14 introduction calls it all the authors
+can prove about $\mu_r$.
 
 **Source.** N. G. de Bruijn and P. Erdős, *Sequences of points on a
 circle*, Proc. 52 (1949), 14--17; Section 5 on printed pp. 16--17 (PDF
@@ -81,8 +81,8 @@ The trivial inequalities $nM_n^r(a)\ge r\ge nm_n^r(a)$ of Section 1.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the third of the three bounds
-  the site quotes, so $r(\mu_r-1)\ge1$ for every $r$; the third part of the
-  problem asks whether this expression tends to infinity (the p. 14
+  erdosproblems.com quotes, so $r(\mu_r-1)\ge1$ for every $r$; the third part of
+  the problem asks whether this expression tends to infinity (the p. 14
   introduction conjectures only that it is unbounded). The fixed-$r$
   improvement $\mu_r\ge1+r/(r^2-1)$ for $r\ge2$, over sequences of distinct
   points, is

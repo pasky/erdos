@@ -4,8 +4,8 @@ title: Östergård's value m(4) = 23
 desc: |
   Östergård's exhaustive computer search shows that the least number of edges of
   a $4$-uniform hypergraph without property B is 23, closing the earlier range
-  $21\le m(4)\le23$. This refereed result gives $m(4)=23$, the value the site
-  lists for Problem 901.
+  $21\le m(4)\le23$. This refereed result gives $m(4)=23$, the value
+  erdosproblems.com lists for Problem 901.
 authors:
 - Patric R.J. Östergård
 status: accepted
@@ -34,8 +34,8 @@ hypergraphs with fewer than $23$ edges and no proper 2-coloring, which
 finds none.
 
 **Covers.** The instance $n=4$ of the question, the exact value $m(4)=23$,
-which the site lists without a source. The values $m(2)=3$ and $m(3)=7$ are
-recorded in
+which erdosproblems.com lists without a source. The values $m(2)=3$ and $m(3)=7$
+are recorded in
 [[problems/set_systems/E0901/claims/1963_01_01_erdos|Erdős's 1963 paper]].
 No value $m(n)$ with $n\ge5$ is known, and the order of $m(n)$ stays open.
 
@@ -44,7 +44,7 @@ No value $m(n)$ with $n\ge5$ is known, and the order of $m(n)$ stays open.
 **Acceptance.** P. R. J. Östergård, *On the minimum size of 4-uniform
 hypergraphs without property B*, Discrete Appl. Math. 163 (2014), part 2,
 199--204, a refereed journal (`refereed`). The record dates the issue to January
-2014 without a day, so the page is dated to the first day of that month. The
-site lists $m(4)=23$ in the problem's commentary without crediting a source, and
-it labeled the problem OPEN. The commentary is therefore not acceptance of this
-partial claim.
+2014 without a day, so the page is dated to the first day of that month.
+erdosproblems.com lists $m(4)=23$ in the problem's commentary without crediting
+a source, and it labeled the problem OPEN. The commentary is therefore not
+acceptance of this partial claim.

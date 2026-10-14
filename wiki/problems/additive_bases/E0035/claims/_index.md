@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 35, one per claimant's result; the problem's s
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_bases/E0035/claims
@@ -13,6 +13,6 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|1970_07_01_plunnecke]]: Plünnecke's 1970 theorem gives $d_s(A+B)\ge\alpha^{1-1/k}$ for a basis $B$ of
 order $k$ and a set $A$ of Schnirelmann density $\alpha$, which implies the
-asked increment. It was refereed in Crelle, and the site records it.
+asked increment. It was refereed in Crelle, and erdosproblems.com records it.
 
 ***

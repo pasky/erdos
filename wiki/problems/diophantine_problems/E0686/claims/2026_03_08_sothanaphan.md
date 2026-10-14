@@ -34,8 +34,8 @@ $m=(X_r(y)-3)/2$ give a representation. Thus $A_2(y)=2y$, $A_3(y)=4y^2-1$ and
 $A_4(y)=4y(2y^2-1)$. For example, $36=A_2(3)^2$ and $1225=A_3(3)^2$ are
 representable.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 8 March
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+8 March 2026:
 
 > The $k=2$ case is now settled by GPT-5.4 Thinking with near-autonomous process
 > in this note. The solution uses Pell theory.
@@ -61,4 +61,4 @@ non-square case, which the posting takes from the forum, is recorded on
 **Depends on.** No other wiki page; the square case rests on the note alone.
 
 **Acceptance.** None recorded: there is no review, publication or
-formalization, and the site labeled the problem OPEN.
+formalization, and Bloom's catalog labeled the problem OPEN.

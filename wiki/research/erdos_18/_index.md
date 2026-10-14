@@ -93,12 +93,12 @@ extension costs four divisors),
 (the iteration and its recurrence) and
 [[research/erdos_18/doorn_theorem_1_1_reconstruction|Theorem 1.1]],
 infinitely many practical $n$ with $h(n)\le c_0(\log\log n)^2$,
-$c_0=14/\log2$. Every `doorn_` page is labeled *claimed*: the note is a
-site proof claim without documented independent acceptance.
+$c_0=14/\log2$. Every `doorn_` page is labeled *claimed*: the note is an
+erdosproblems.com proof claim without documented independent acceptance.
 
 ## Where things stand
 
-**Status unchanged.** Question (b) is proved by the site-accepted Lean
+**Status unchanged.** Question (b) is proved by the Conjectures.io-accepted Lean
 proof filed as
 [[../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/_index|the accepted record]],
 which has no written proof, so it is not reconstructed here. Question (a)

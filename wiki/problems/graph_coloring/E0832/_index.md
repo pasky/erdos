@@ -38,14 +38,14 @@ edges, with equality only for the complete graph on $(r-1)(k-1)+1$ vertices?
 complete $r$-uniform hypergraph on $(r-1)(k-1)+1$ vertices, which has exactly
 $\binom{(r-1)(k-1)+1}{r}$ edges and chromatic number $k$; Alon states the
 Erdős–Hajnal conjecture as equality, for large chromatic number, in the bound
-this hypergraph gives. Read as the site words it, the equality clause fails for
-every $r\geq3$, since that hypergraph attains the bound and is not a graph.
-Under either reading the answer is no, because Alon's counterexamples refute the
-lower bound itself; the equality clause of the corrected reading is not refuted
-separately.
+this hypergraph gives. Read as Bloom's catalog words it, the equality clause
+fails for every $r\geq3$, since that hypergraph attains the bound and is not a
+graph. Under either reading the answer is no, because Alon's counterexamples
+refute the lower bound itself; the equality clause of the corrected reading is
+not refuted separately.
 
-**Status.** Disproved. The site labeled the problem DISPROVED and credits the
-disproof to Alon [Al85]. It says that the case $r=3$ is open. The claim page
+**Status.** Disproved. Bloom's catalog labeled the problem DISPROVED and credits
+the disproof to Alon [Al85]. It says that the case $r=3$ is open. The claim page
 [[problems/graph_coloring/E0832/claims/1985_12_01_alon|Alon 1985]] records the
 result and its acceptance evidence.
 
@@ -71,9 +71,9 @@ which this corpus has not built.
 
 ## Current assessment
 
-**Status target and answer.** The status targets the site's wording. Its
-lower-bound assertion is false, so the answer is no both as the site words it
-and under the Formulation's reading. Alon's
+**Status target and answer.** The status targets the erdosproblems.com wording.
+Its lower-bound assertion is false, so the answer is no both as Bloom's catalog
+words it and under the Formulation's reading. Alon's
 [[../library/graph_coloring/alon_1985_hypergraphs_high_chromatic_number/proposition_3|Proposition 3]]
 gives counterexamples at arbitrarily large uniformity and chromatic number. This
 settles the universal question without settling the equality clause of the
@@ -92,16 +92,17 @@ reviewed.
 
 **Claim record.** The problem's standing derives from one accepted claim
 page, [[problems/graph_coloring/E0832/claims/1985_12_01_alon|Alon 1985]]:
-a refereed journal note, credited by the site's curator as the disproof.
+a refereed journal note, credited by the erdosproblems.com curator as the
+disproof.
 
-**Search scope.** The site's problem page and its discussion thread, and the
-sources cited above; on 2026-09-07 the site's pages showed no other claim on
-the problem.
+**Search scope.** The erdosproblems.com problem page and its discussion thread,
+and the sources cited above; on 2026-09-07 the erdosproblems.com pages showed no
+other claim on the problem.
 
 **Remaining gaps.** The proof of Proposition 3 has not been rewritten. The
 equality clause of the Formulation's reading was not separately assessed, and
-the fixed case $r=3$ was open on the site and in Cherkashin–Petrov's 2019
-report. Akolzin and Shabanov's bounds are taken from the site.
+the fixed case $r=3$ was open on erdosproblems.com and in Cherkashin–Petrov's
+2019 report. Akolzin and Shabanov's bounds are taken from erdosproblems.com.
 
 ## Progress
 
@@ -143,8 +144,9 @@ fixed $n>1$ that $m(n,q)/q^n$ converges as $q\to\infty$, where $m(n,q)$ is
 the least edge count of a non-$q$-colorable $n$-uniform hypergraph. The known
 bounds $c_nq^n<m(n,q)<C_nq^n$ make the limit finite and positive. Their
 Further questions section (p. 7) reports in the 2019 arXiv version that
-Erdős's conjecture is still open for $n=3$. That dated report and the site's
-remarks support this page's assessment; neither surveys the later literature.
+Erdős's conjecture is still open for $n=3$. That dated report and the
+erdosproblems.com remarks support this page's assessment; neither surveys the
+later literature.
 
 ## Known Results
 

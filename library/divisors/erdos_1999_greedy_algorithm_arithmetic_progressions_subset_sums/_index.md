@@ -10,7 +10,7 @@ desc: |
   one another.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums
@@ -26,7 +26,7 @@ guess Q(n) > n^{1/2 - epsilon}, the displayed question of Problem 131.
 [[divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/corollary_2|corollary_2]]: The explicit upper bound Q(n) < 3 n^{1/2} + 1 on the largest subset of the
 first n integers in which no element divides a sum of distinct other
 elements, deduced from Theorem 2's bound on Property P and Corollary 1 of
-the group-theoretic Theorem 3; the upper bound the site quotes for
+the group-theoretic Theorem 3; the upper bound erdosproblems.com quotes for
 Problem 131.
 
 [[divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/theorem_5|theorem_5]]: The two-sided bound on R(n), the largest subset of the first n integers no
@@ -251,7 +251,7 @@ under Property Q as printed on p. 127 ("$A$ is *non-dividing*. That is,
 $a_i\mid a_{j_1}+\cdots+a_{j_l}$ ($j_1<\cdots<j_l$, $i\ne j_k$ for
 $k=1,2,\ldots,l$) never holds"), the source of the name. Corollary 2
 (p. 128), "$Q(n)<3\sqrt n+1$ for all $n\in\mathbb N$", is the explicit
-upper bound the site quotes, deduced from Theorem 2 through
+upper bound erdosproblems.com quotes, deduced from Theorem 2 through
 $Q(n)\le P(n)$ and ultimately from Corollary 1 of the group-theoretic
 Theorem 3. The lower bound $Q(n)\gg n^{1/5}$ (p. 128), which the paper
 credits to the results of Straus and Bosznay, is a deduction from Straus's

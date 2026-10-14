@@ -23,8 +23,8 @@ epsilon squared for ratio 1 + epsilon.
 
 Dubickas, Artūras, On the fractional parts of lacunary sequences. Math. Scand.
 **99** (2006), no. 1, 136--146; DOI 10.7146/math.scand.a-15004 (Crossref record,
-issued 1 September 2006, read 2026-09-18). Received 20 July 2005. The site's key
-Du06.
+issued 1 September 2006, read 2026-09-18). Received 20 July 2005. The
+erdosproblems.com key Du06.
 
 The copy read for this card is
 the journal's typeset article (Acrobat Distiller, 2006), eleven pages with
@@ -87,9 +87,10 @@ publication", every other right reserved.
 Pages 136--137 were read on the page images and the rest in the text layer;
 Theorem 1 is compiled as a statement with a proof pointer; no proof step was
 checked and nothing here is independently reviewed. The graph $G$ of p. 137
-is on the real line with a real lacunary distance set; the site's Problem
-894 concerns the induced subgraph on the integers with an integer sequence,
-and Problem 464 the Diophantine question rather than the chromatic one.
+is on the real line with a real lacunary distance set; erdosproblems.com's
+Problem 894 concerns the induced subgraph on the integers with an integer
+sequence, and Problem 464 the Diophantine question rather than the chromatic
+one.
 
 **Bears on.** [[../wiki/problems/number_theory/E0464/_index|#464]], for whose corrected
 formulation (fractional parts of $\theta n_k$ not dense modulo $1$) Theorem

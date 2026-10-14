@@ -42,15 +42,15 @@ that $\varphi(m)=n$ for some $m$. Then $V(2x)/V(x)\to2$ as real
 $x\to\infty$. This is the first question of
 [[problems/arithmetic_functions/E0416/_index|Problem 416]], answered yes. The
 proof is a Lean file of 64,775 lines submitted to the bounty site
-Conjectures.io under the site's account JenW1N; the write-up the site
-publishes beside it is by Liam Kruer and Jensen Kohlmeyer
+Conjectures.io under Conjectures.io's account JenW1N; the write-up
+Conjectures.io publishes beside it is by Liam Kruer and Jensen Kohlmeyer
 ([[../library/arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/_index|card]],
 dated 18 September 2026), and this page carries their names. The file's
 target theorem closes the formal-conjectures statement
-`Erdos416.erdos_416.parts.i`, whose `V` counts the same finite set as the
-site's: values $n$ with $1\le n\le\lfloor x\rfloor$, preimages unrestricted,
-$m=0$ contributing only the excluded value $0$. The method, as the write-up
-describes it
+`Erdos416.erdos_416.parts.i`, whose `V` counts the same finite set as
+erdosproblems.com's: values $n$ with $1\le n\le\lfloor x\rfloor$, preimages
+unrestricted, $m=0$ contributing only the excluded value $0$. The method, as the
+write-up describes it
 ([[../library/arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/theorem_1_1|Theorem 1.1 on its card]]):
 a finite counting inequality separates missing values from repeated
 representations; families of prime–core pairs $b(p-1)$, with cores chosen
@@ -89,43 +89,45 @@ file alone.
 **Acceptance.** Formalized. This corpus's verification rebuilt the record's
 solution file on the repository's pinned toolchain, `leanprover/lean4:v4.34.1`
 with Mathlib at the revision `lean/lake-manifest.json` pins, after renaming the
-big-operator lemmas that Mathlib moved to `₀` names since the site's toolchain;
-the target's statement is unchanged. The kernel replayed, from an empty
-environment, every declaration the target `Bounty.target` depends on, Lean core,
-Mathlib and formal-conjectures included, and accepted them all. The target's
-axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and
-every definition its statement reaches, are identical to the formal-conjectures
-statement `Erdos416.erdos_416.parts.i` of the site's task, at the catalog commit
-the task pins, which the site builds from a public catalog commit and an audit
-patch and the replay reproduced exactly. That statement is the claim above,
-$V(2x)/V(x)\to2$ with `V` counting the values $1\le n\le\lfloor x\rfloor$.
-Acceptance rests on this replay and that check.
+big-operator lemmas that Mathlib moved to `₀` names since Conjectures.io's
+toolchain; the target's statement is unchanged. The kernel replayed, from an
+empty environment, every declaration the target `Bounty.target` depends on, Lean
+core, Mathlib and formal-conjectures included, and accepted them all. The
+target's axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its
+type, and every definition its statement reaches, are identical to the
+formal-conjectures statement `Erdos416.erdos_416.parts.i` of Conjectures.io's
+task, at the formal-conjectures commit the task pins, which Conjectures.io
+builds from a public catalog commit and an audit patch and the replay reproduced
+exactly. That statement is the claim above, $V(2x)/V(x)\to2$ with `V` counting
+the values $1\le n\le\lfloor x\rfloor$. Acceptance rests on this replay and that
+check.
 
 The bounty site Conjectures.io certified the record; the certification is
 reported, not counted. Its Lean kernel accepted the file on 14 September 2026.
 Fourteen gates passed, among them "Statement unchanged" and "Only permitted
-axioms" with `propext`, `Quot.sound` and `Classical.choice`. The site's second
-kernel, Nanoda, was not run. The site's review approved the record on 15
-September 2026 under its policy v3. The approval rested on two language-model
-assessments of one model family and the production kernel check. It claimed no
-fresh replay, no complete axiom export and no line-by-line audit. The record was
-certified and its bounty paid on 16 September 2026. This is the site's
-certification, not a referee's report.
+axioms" with `propext`, `Quot.sound` and `Classical.choice`. Conjectures.io's
+second kernel, Nanoda, was not run. Conjectures.io's review approved the record
+on 15 September 2026 under its policy v3. The approval rested on two
+language-model assessments of one model family and the production kernel check.
+It claimed no fresh replay, no complete axiom export and no line-by-line audit.
+The record was certified and its bounty paid on 16 September 2026. This is
+Conjectures.io's certification, not a referee's report.
 
 This corpus's reading audited the target statement, as the problem page records.
 The target theorem is the formal-conjectures statement `parts.i` by `exact`, and
-the file's own `V` equals the catalog's count by `rfl`. A text scan of the file
-found no `sorry`, no axiom declaration, no `native_decide` and no `unsafe`. The
-2,776-declaration analytic body is checked by the kernel replay, not by reading.
+the file's own `V` equals the formal-conjectures catalog's count by `rfl`. A
+text scan of the file found no `sorry`, no axiom declaration, no `native_decide`
+and no `unsafe`. The 2,776-declaration analytic body is checked by the kernel
+replay, not by reading.
 
-Not refereed: no journal or arXiv version exists. The site erdosproblems.com
+Not refereed: no journal or arXiv version exists. erdosproblems.com
 lists the record as an unverified partial proof claim, posted by its maintainer
 on 2026-09-27 with an explicit non-endorsement, and labeled the problem OPEN.
 The formal-conjectures statement `parts.i` was categorized `research open` from
-the file's addition in July 2025 until 11 October 2026, when the catalog marked
-it `research solved` with a `formal_proof` link to the OpenAI release's theorem,
-not to this file
-([`416.lean` at that commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/416.lean)).
+the file's addition in July 2025 until 11 October 2026, when the
+formal-conjectures catalog marked it `research solved` with a `formal_proof`
+link to the OpenAI release's theorem, not to this file ([`416.lean` at that
+commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/416.lean)).
 A second, independent formal proof of the same limit, for every real scale
 $c>0$, is the OpenAI release's
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|accepted partial claim]].

@@ -73,10 +73,10 @@ on packing or decomposing K_n into a prescribed sequence of trees, this settles
 the bounded degree case for all large n. The introduction (p. 1) credits
 Fishburn [15] with verifying that the degree sequences of T_1, ..., T_n can be
 "packed" into the degree sequence of K_n; [15] is the J. Combin. Theory Ser.
-A 34 (1983) 98--101 note, the site's key Fi83 for problem 743, and the n <= 9
-verification the site attributes to that key is in Fishburn's other 1983 paper
-(J. Graph Theory 7, 369--383) per Janzer and Montgomery and per Guichard and
-Massman.
+A 34 (1983) 98--101 note, the erdosproblems.com key Fi83 for problem 743, and
+the n <= 9 verification erdosproblems.com attributes to that key is in
+Fishburn's other 1983 paper (J. Graph Theory 7, 369--383) per Janzer and
+Montgomery and per Guichard and Massman.
 
 Read status: claims checked for Conjecture 1.1 and the introduction's
 attributions (p. 1), for Theorems 1.2 and 1.3 with the remarks after them,
@@ -97,9 +97,9 @@ Source: <https://arxiv.org/abs/1606.03953>.
 [[extremal_graph_theory/joos_2019_optimal_packings_bounded_degree_trees/theorem_1_2|Theorem 1.2]]
 (arXiv v2 p. 2, page image), the conjecture for all large n when the trees
 beyond the first epsilon n have maximum degree at most Delta, the bounded
-degree case the site records; Conjecture 1.1 (p. 1) is the problem's
-statement in the paper's words, attributed to Gyárfás and Lehel; the site's
-key JKKO19.
+degree case erdosproblems.com records; Conjecture 1.1 (p. 1) is the problem's
+statement in the paper's words, attributed to Gyárfás and Lehel; the
+erdosproblems.com key JKKO19.
 [[extremal_graph_theory/joos_2019_optimal_packings_bounded_degree_trees/theorem_1_3|Theorem 1.3]]
 (p. 2) covers the case where every tree has maximum degree at most Delta,
 for large n (a corpus observation recorded on its page), and

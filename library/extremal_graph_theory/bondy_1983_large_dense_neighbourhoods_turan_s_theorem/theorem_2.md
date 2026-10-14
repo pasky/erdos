@@ -17,8 +17,8 @@ updated: 2026-10-08T15:07:46Z
 Notation (printed pp. 109--110): $T_r(n)$ is the complete $r$-partite graph
 on $n$ vertices whose color classes have $\lfloor n/r\rfloor$ or
 $\lceil n/r\rceil$ vertices, $t_r(n)$ is its number of edges (in the
-catalog's notation $\mathrm{ex}(n;K_{r+1})$), $\varepsilon(H)$ is the number
-of edges of a graph $H$ and $\Delta(H)$ its maximum degree.
+erdosproblems.com notation $\mathrm{ex}(n;K_{r+1})$), $\varepsilon(H)$ is the
+number of edges of a graph $H$ and $\Delta(H)$ its maximum degree.
 
 **Theorem 2** (printed p. 110). "Let $G$ be a simple graph on $n$ vertices
 and more than $t_r(n)$ edges, where $r\ge2$, and let $v$ be a vertex in $G$
@@ -118,11 +118,11 @@ asserted, not printed.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the result the
-  site attributes to [Bo83b], "if $G$ has $>\mathrm{ex}(n;K_r)$ edges then
-  the corresponding vertex can be chosen to be of maximum degree in $G$";
-  its hypothesis is at least Erdős's $f_r(n)$ edges and its conclusion
-  exactly his "at least $f_{r-1}(m)$ edges" of
+- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the
+  result erdosproblems.com attributes to [Bo83b], "if $G$ has
+  $>\mathrm{ex}(n;K_r)$ edges then the corresponding vertex can be chosen to be
+  of maximum degree in $G$"; its hypothesis is at least Erdős's $f_r(n)$ edges
+  and its conclusion exactly his "at least $f_{r-1}(m)$ edges" of
   [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p14|Er75, p. 14]],
   and the examples show that "$>$" cannot be weakened to "$\ge$" for a
   vertex of maximum degree.

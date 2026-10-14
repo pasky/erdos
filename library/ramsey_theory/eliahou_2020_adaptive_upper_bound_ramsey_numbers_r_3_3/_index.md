@@ -7,7 +7,7 @@ desc: |
   most R_n(3) - 2, the factorial upper bound on Schur numbers.
 license: CC-BY-4.0
 created: 2026-09-18T06:30:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3
@@ -16,8 +16,8 @@ updated: 2026-10-08T01:29:58Z
 
 [[ramsey_theory/eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3/corollary_2|corollary_2]]: The 2002 bound of Xu, Xie and Chen on the multicolor Ramsey numbers of the
 triangle, reproved from the adaptive bound and R_4(3) at most 62; through
-S(n) at most R_n(3) - 2 it is the site's upper bound (e - 1/6) k! on the
-Schur function f(k) of Problem 483.
+S(n) at most R_n(3) - 2 it is erdosproblems.com's upper bound (e - 1/6) k! on
+the Schur function f(k) of Problem 483.
 
 [[ramsey_theory/eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3/theorem_1|theorem_1]]: The adaptive upper bound: any bound on one multicolor Ramsey number of the
 triangle propagates through the Greenwood–Gleason recursion to a factorial
@@ -27,9 +27,9 @@ bound with an improved constant for every larger number of colors.
 
 S. Eliahou, *An adaptive upper bound on the Ramsey numbers $R(3,\ldots,3)$*,
 Integers 20 (2020), Paper A54, 7 pages (received 12/10/19, accepted 6/22/20,
-published 7/24/20, per the article's first page). The site's reference key
-[El20] for Problem 483 names this paper; the journal's articles carry no
-DOI (a Crossref bibliographic query on 2026-09-18 returned no record).
+published 7/24/20, per the article's first page). The erdosproblems.com
+reference key [El20] for Problem 483 names this paper; the journal's articles
+carry no DOI (a Crossref bibliographic query on 2026-09-18 returned no record).
 
 The retained
 [folder-name PDF](eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3.pdf)
@@ -112,13 +112,13 @@ but not independently reviewed. The finite input is held at
 [[ramsey_theory/fettes_kramer_radziszowski_2004_upper_bound_62/theorem_5_6|Fettes–Kramer–Radziszowski, Theorem 5.6]]
 and is taken at statement level here, as the paper takes it.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0483/_index|#483]]: the site's upper
-bound $f(k)\le(e-1/6)k!$ rests on Xu, Xie and Chen [XXC02], which is not
-held; Corollary 2 is a held refereed proof of the same bound for $R_n(3)$,
-and with $S(n)\le R_n(3)-2$ it gives $f(k)=S(k)+1\le R_k(3)-1\le(e-1/6)k!$
-for $k\ge4$; the introduction attests the earlier bounds credited to
-Whitehead's 1971/72 note (a different paper from the site's [Wh73]) and to
-Wan (the site's [Wa97]).
+**Bears on.** [[../wiki/problems/ramsey_theory/E0483/_index|#483]]:
+erdosproblems.com's upper bound $f(k)\le(e-1/6)k!$ rests on Xu, Xie and Chen
+[XXC02], which is not held; Corollary 2 is a held refereed proof of the same
+bound for $R_n(3)$, and with $S(n)\le R_n(3)-2$ it gives
+$f(k)=S(k)+1\le R_k(3)-1\le(e-1/6)k!$ for $k\ge4$; the introduction attests the
+earlier bounds credited to Whitehead's 1971/72 note (a different paper from
+erdosproblems.com's [Wh73]) and to Wan (erdosproblems.com's [Wa97]).
 [[../wiki/problems/ramsey_theory/E0183/_index|#183]]: the introduction (pp. 1--2, text
 layer) summarizes the upper bounds on $R_n(3)$, from $n!e+1$ through
 Whitehead's and Wan's to $n!(e-1/6)+1$ for $n\ge4$, with the recurrence (1)

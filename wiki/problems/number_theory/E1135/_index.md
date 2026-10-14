@@ -4,8 +4,8 @@ title: Problem 1135
 desc: |
   Asks whether every orbit of the shortcut Collatz map reaches $1$; open, with
   verification below $2^{71}$, no nontrivial cycle with at most $91$ local
-  minima, and Tao's almost-all theorem. The site adds a caveat on the reported
-  Erdős prize figure.
+  minima, and Tao's almost-all theorem. erdosproblems.com adds a caveat on the
+  reported Erdős prize figure.
 tags:
 - Number theory
 - Iterated functions
@@ -26,7 +26,7 @@ and $f(n)=\frac{3n+1}{2}$ if $n$ is odd.
 
 Given any integer $m\geq 1$ does there exist $k\geq 1$ such that $f^{(k)}(m)=1$?
 
-**Formulation.** The site's wording on 2026-09-18 (page last edited
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (page last edited
 12 January 2026). The map $f$ is the shortcut form of the
 Collatz iteration, the "$3x+1$ function" $T$ of Lagarias, in which the
 division by $2$ that must follow every odd step is built in; the sources
@@ -39,40 +39,41 @@ exactly when the $f$-orbit does, and the two orbits have the same minimum
 (one authored line; Tao's paper states the equality of the minima on its
 p. 3). The question, whether every $m\ge1$ reaches $1$ under iteration of
 $f$ (for $m=1$, $f(1)=2$, $f(2)=1$, the trivial cycle $\{1,2\}$), is the
-Collatz conjecture. It is not Erdős's problem: the site includes it to
+Collatz conjecture. It is not Erdős's problem: erdosproblems.com includes it to
 record the history of the link between Erdős and the problem, and asks that
 comments stay at that intersection; this page does the same.
 
-**Status.** The site labeled the problem OPEN (page last edited 12 January 2026,
-label accessed 2026-09-18). No proof, disproof or accepted resolution was found
-in the search whose scope the Current assessment records. This is a bounded
-negative finding, not a certificate of openness. The formal-conjectures file is
-`research open`. The sources cited here prove partial results only. Every
-starting value below $2^{71}$ reaches $1$ (Barina, J. Supercomput. 81 (2025),
-refereed). No nontrivial cycle of $f$ has at most $91$ local minima (Hercher, J.
-Integer Seq. 26 (2023), refereed). Almost all orbits attain almost bounded
-values in logarithmic density (Tao, Forum Math. Pi 10 (2022), refereed). At
-least $X^{0.84}$ of the integers up to $X$ reach $1$ (Krasikov and Lagarias,
-Acta Arith. 109 (2003), reported by Lagarias's survey and Tao's introduction).
-Unrefereed manuscripts claiming proofs exist on the arXiv listing and are
-recorded below as leads only.
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 12
+January 2026, label accessed 2026-09-18). No proof, disproof or accepted
+resolution was found in the search whose scope the Current assessment records.
+This is a bounded negative finding, not a certificate of openness. The
+formal-conjectures file is `research open`. The sources cited here prove partial
+results only. Every starting value below $2^{71}$ reaches $1$ (Barina, J.
+Supercomput. 81 (2025), refereed). No nontrivial cycle of $f$ has at most $91$
+local minima (Hercher, J. Integer Seq. 26 (2023), refereed). Almost all orbits
+attain almost bounded values in logarithmic density (Tao, Forum Math. Pi 10
+(2022), refereed). At least $X^{0.84}$ of the integers up to $X$ reach $1$
+(Krasikov and Lagarias, Acta Arith. 109 (2003), reported by Lagarias's survey
+and Tao's introduction). Unrefereed manuscripts claiming proofs exist on the
+arXiv listing and are recorded below as leads only.
 
-The site lists a prize with its own caveat. The figure comes from Lagarias's
-1985 survey [La85]. In a personal communication that the site reports, Lagarias
-traced it to a conversation around 1983. In that conversation Graham asked where
-Erdős would put the problem on the Erdős prize scale, and Erdős named a sum. So,
-the site says, Erdős never offered the sum as a prize. The figure is listed only
-to place the problem on that scale beside the problems Erdős did rate. The 1985
-survey's p. 4 lists Erdős's figure among three prizes offered for a solution,
-beside Coxeter's of 1970 and a later one of Thwaites. It gives no source, date
-or occasion for the Erdős figure
+erdosproblems.com lists a prize with its own caveat. The figure comes from
+Lagarias's 1985 survey [La85]. In a personal communication that
+erdosproblems.com reports, Lagarias traced it to a conversation around 1983. In
+that conversation Graham asked where Erdős would put the problem on the Erdős
+prize scale, and Erdős named a sum. So, erdosproblems.com says, Erdős never
+offered the sum as a prize. The figure is listed only to place the problem on
+that scale beside the problems Erdős did rate. The 1985 survey's p. 4 lists
+Erdős's figure among three prizes offered for a solution, beside Coxeter's of
+1970 and a later one of Thwaites. It gives no source, date or occasion for the
+Erdős figure
 ([[../library/number_theory/lagarias_1985_3x1_problem_generalizations/erdos_remarks_p3_p4|the passage]]).
 
 **Source.** [erdosproblems.com/1135](https://www.erdosproblems.com/1135),
 accessed 2026-09-18: the problem page (OPEN, with the
-site's note that no finite computation can settle it; a prize; last edited 12
-January 2026; source keys [La85], [Er97e, p. 537], [La16]; commentary citing
-[La10], [La16], [La85], [Gu04] and Problem 1134; OEIS A006370 and A008908
+erdosproblems.com note that no finite computation can settle it; a prize; last
+edited 12 January 2026; source keys [La85], [Er97e, p. 537], [La16]; commentary
+citing [La10], [La16], [La85], [Gu04] and Problem 1134; OEIS A006370 and A008908
 linked; a formalized statement; the page thanks Lagarias and one other
 contributor), its four-comment discussion thread (11 January to 16 July 2026)
 and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem #1135,
@@ -84,23 +85,23 @@ https://www.erdosproblems.com/1135, accessed 2026-09-18.
   Amer. Math. Monthly 92 (1985), no. 1, 3--23, doi:10.2307/2322189. The
   passages relied on are pp. 3--4 (the Erdős dictum and the prize sentence)
   and its references [27], [36] and [69] on pp. 21--23. The origin of the Erdős
-  prize figure per the site, and the source of the Erdős dictum Lagarias's 2010
-  survey quotes from its p. 3. Library home:
+  prize figure per erdosproblems.com, and the source of the Erdős dictum
+  Lagarias's 2010 survey quotes from its p. 3. Library home:
   [[../library/number_theory/lagarias_1985_3x1_problem_generalizations/_index|lagarias_1985_3x1_problem_generalizations]].
 - [Er97e] Erdős, Paul, Some of my favourite unsolved problems. Math. Japon.
-  46 (1997), 527--537; the site cites p. 537. What p. 537 says about this
-  problem is not checked.
+  46 (1997), 527--537; erdosproblems.com cites p. 537. What p. 537 says about
+  this problem is not checked.
 - [La16] Lagarias, Jeffrey C., Erdős, Klarner, and the $3x+1$ problem. Amer.
   Math. Monthly 123 (2016), no. 8, 753--776,
   doi:10.4169/amer.math.monthly.123.08.753 as printed (JSTOR's stable
   identifier is 10.4169/amer.math.monthly.123.8.753). The closing paragraph,
-  printed p. 775, is the site's source for the remark that the closest Erdős
-  came to such problems is the theorem on Problem 1134: Erdős published no
-  result on the $3x+1$ problem, called it "hopeless" in conversation, and
-  his orbit-size bound (Theorem 3, p. 759) seems to be the closest he came.
-  Section 10 (pp. 772--775) gives the map $T$, the page's $f$, and the
-  problem's history; the paper does not mention the Erdős prize figure. Library
-  home:
+  printed p. 775, is the erdosproblems.com source for the remark that the
+  closest Erdős came to such problems is the theorem on Problem 1134: Erdős
+  published no result on the $3x+1$ problem, called it "hopeless" in
+  conversation, and his orbit-size bound (Theorem 3, p. 759) seems to be the
+  closest he came. Section 10 (pp. 772--775) gives the map $T$, the page's $f$,
+  and the problem's history; the paper does not mention the Erdős prize figure.
+  Library home:
   [[../library/number_theory/lagarias_2016_erdos_klarner_3x1_problem/_index|lagarias_2016_erdos_klarner_3x1_problem]];
   the theorem is paged as
   [[../library/number_theory/lagarias_2016_erdos_klarner_3x1_problem/theorem_3|Theorem 3]].
@@ -180,25 +181,26 @@ last update on 13 January 2026, no formal proof, a prize and the comment
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; OPEN; a
-prize; last edited 12 January 2026. The commentary, in summary: the problem is
-the Collatz conjecture, for whose history and theory the site refers to
-Lagarias's overview [La10]; it is not Erdős's problem but was devised by Collatz
-before 1952; Erdős called it hopeless on several occasions; as Lagarias [La16]
-notes, the nearest Erdős came to such problems is the theorem in the remarks to
-Problem 1134; the often-repeated claim that Erdős offered a prize for a solution
-goes back to Lagarias's 1985 survey [La85], with the prize story summarized in
-the Status; and the problem is E16 of Guy's collection [Gu04], where Guy quotes
-Erdős as saying that mathematics may not be ready for such problems. The thread:
-two moderation notices of 11 January 2026 (the site's comment policy on
-AI-written and long formal-proof comments, and the request that comments stay at
-the intersection of Erdős and Collatz, since the problem needs no further
-publicity from the site), a historical comment of 12 January 2026 (Erdős and
-Collatz both attended the 1950 International Congress at Harvard; a group
-photograph), and a third-party notice of 16 July 2026 (a company's prize for a
-proof, with a 2031 deadline); none is a mathematical source. The proof-claims
-tab is empty. The community database record, fetched 2026-09-18, lists the
-problem as open as of its last update on 11 January 2026.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN; a prize; last edited 12 January 2026. The commentary, in summary:
+the problem is the Collatz conjecture, for whose history and theory
+erdosproblems.com refers to Lagarias's overview [La10]; it is not Erdős's
+problem but was devised by Collatz before 1952; Erdős called it hopeless on
+several occasions; as Lagarias [La16] notes, the nearest Erdős came to such
+problems is the theorem in the remarks to Problem 1134; the often-repeated claim
+that Erdős offered a prize for a solution goes back to Lagarias's 1985 survey
+[La85], with the prize story summarized in the Status; and the problem is E16 of
+Guy's collection [Gu04], where Guy quotes Erdős as saying that mathematics may
+not be ready for such problems. The thread: two moderation notices of 11 January
+2026 (the erdosproblems.com comment policy on AI-written and long formal-proof
+comments, and the request that comments stay at the intersection of Erdős and
+Collatz, since the problem needs no further publicity from erdosproblems.com), a
+historical comment of 12 January 2026 (Erdős and Collatz both attended the 1950
+International Congress at Harvard; a group photograph), and a third-party notice
+of 16 July 2026 (a company's prize for a proof, with a 2031 deadline); none is a
+mathematical source. The proof-claims tab is empty. The community database
+record, fetched 2026-09-18, lists the problem as open as of its last update on
+11 January 2026.
 
 **The Erdős connection (the account this page keeps).** Lagarias's 2010 survey
 prints: "We also note that Paul Erdős said, in conversation, about its
@@ -207,39 +209,41 @@ that there are no known methods of approach which gave any promise of solving
 the problem" (p. 23; [25] is "P. Erdős, Private communication with J. C.
 Lagarias"), and "To quote a still valid dictum of Paul Erdős ([58, p. 3]) on the
 problem: 'Mathematics is not yet ready for such problems'" (p. 14; [58] is
-[La85]), which the site quotes from Guy's E16 as "Mathematics may not be ready
-for such problems". The 1985 survey's p. 3 prints the 2010 wording: "Paul Erdős
-commented concerning the intractability of the $3x+1$ problem: 'Mathematics is
-not yet ready for such problems.'", with no occasion, date or source given
+[La85]), which erdosproblems.com quotes from Guy's E16 as "Mathematics may not
+be ready for such problems". The 1985 survey's p. 3 prints the 2010 wording:
+"Paul Erdős commented concerning the intractability of the $3x+1$ problem:
+'Mathematics is not yet ready for such problems.'", with no occasion, date or
+source given
 ([[../library/number_theory/lagarias_1985_3x1_problem_generalizations/erdos_remarks_p3_p4|the passage]]).
-Guy's E16 [Gu04], printed p. 330, prints the site's wording, "Erdős has said
-that 'Mathematics may not be ready for such problems'", with no source, date or
-occasion, and sends the reader to the 1985 survey; so the two wordings are Guy's
-and Lagarias's, and neither book nor survey says where Erdős said it. The prize
-figure is the site's account of Lagarias's communication; the 1985 survey's p. 4
-prints it as one of three prizes "offered", "\$50 by H. S. M. Coxeter in 1970,
-then \$500 by Paul Erdős, and more recently £1000 by B. Thwaites [69]", sourcing
-Coxeter's figure to Trigg (its reference [27]) and Thwaites's to [69] and giving
-none for Erdős's, so the 1983 conversation the site reports is not in the paper
-and rests on the site alone. [La16], p. 775, prints a third account of the
-remark: Erdős "did not publish any result on the $3x+1$ problem, which he
-characterized in conversation as 'hopeless'", again with no date or occasion,
-and the paper says nothing of the Erdős prize figure or of a 1983 conversation
-with Graham (Graham is named on p. 775 only as coauthor of two cited works).
-What the site's third key, [Er97e, p. 537], says about the problem is not
-checked. The Klarner connection (survey, p. 4): Klarner's 1971 interaction with
-Erdős at Reading led to "a (solved) Erdős prize problem" on the density of the
-smallest set containing $1$ and closed under $x\mapsto2x+1$, $3x+1$, $6x+1$,
-proved of density zero by Crampin and Hilton ("The solvers collected £10 from
-Erdős"), with Klarner's revised problem still open; [La16] tells the story at
-length (pp. 755--768): Erdős's 1972 bound on orbit sizes
+Guy's E16 [Gu04], printed p. 330, prints the erdosproblems.com wording, "Erdős
+has said that 'Mathematics may not be ready for such problems'", with no source,
+date or occasion, and sends the reader to the 1985 survey; so the two wordings
+are Guy's and Lagarias's, and neither book nor survey says where Erdős said it.
+The prize figure is erdosproblems.com's account of Lagarias's communication; the
+1985 survey's p. 4 prints it as one of three prizes "offered", "\$50 by H. S. M.
+Coxeter in 1970, then \$500 by Paul Erdős, and more recently £1000 by B.
+Thwaites [69]", sourcing Coxeter's figure to Trigg (its reference [27]) and
+Thwaites's to [69] and giving none for Erdős's, so the 1983 conversation
+erdosproblems.com reports is not in the paper and rests on erdosproblems.com
+alone. [La16], p. 775, prints a third account of the remark: Erdős "did not
+publish any result on the $3x+1$ problem, which he characterized in conversation
+as 'hopeless'", again with no date or occasion, and the paper says nothing of
+the Erdős prize figure or of a 1983 conversation with Graham (Graham is named on
+p. 775 only as coauthor of two cited works). What erdosproblems.com's third key,
+[Er97e, p. 537], says about the problem is not checked. The Klarner connection
+(survey, p. 4): Klarner's 1971 interaction with Erdős at Reading led to "a
+(solved) Erdős prize problem" on the density of the smallest set containing $1$
+and closed under $x\mapsto2x+1$, $3x+1$, $6x+1$, proved of density zero by
+Crampin and Hilton ("The solvers collected £10 from Erdős"), with Klarner's
+revised problem still open; [La16] tells the story at length (pp. 755--768):
+Erdős's 1972 bound on orbit sizes
 ([[../library/number_theory/lagarias_2016_erdos_klarner_3x1_problem/theorem_3|its Theorem 3]]),
 the prize problem it led him to pose, and Crampin and Hilton's unpublished
 negative answer, reconstructed as
 [[../library/number_theory/lagarias_2016_erdos_klarner_3x1_problem/theorem_6|its Theorem 6]].
-That circle of questions is the site's Problem 1134, and the theorem [La16]
-means, "the closest he ever came to working on problems like the $3x+1$ problem"
-(p. 775), is the orbit bound.
+That circle of questions is erdosproblems.com's Problem 1134, and the theorem
+[La16] means, "the closest he ever came to working on problems like the $3x+1$
+problem" (p. 775), is the orbit bound.
 
 **The frontier (eight statements; the map is the page's $f$ in every source).**
 Verification:
@@ -250,8 +254,9 @@ verify this conjecture for all numbers below $2^{68}$", superseded by
 (p. 12): "we have managed to verify the convergence of the Collatz conjecture
 for all numbers up to the limit of $2^{71}$ (which is equal to
 $2\,048\times2^{60}$)", the $2^{71}$ milestone dated 15 January 2025 in the
-paper's Table 10; both are computations the corpus has not rerun, and the site's
-label said that no finite computation can settle the problem. Cycles:
+paper's Table 10; both are computations the corpus has not rerun, and the
+erdosproblems.com label said that no finite computation can settle the problem.
+Cycles:
 [[../library/number_theory/hercher_2023_no_mcycles_91/theorem_23|Hercher's Theorem 23]]
 (p. 15): "There is no $m$-cycle with $m\le91$", an $m$-cycle being a nontrivial
 cycle of $f$ with $m$ local minima, proved by iterating continued-fraction lower
@@ -298,21 +303,21 @@ The eight statements are checked against their theorems, not their proofs (Tao's
 58 pages included); no computation is rerun, and none of them is independently
 reviewed.
 
-**Proof claims (leads with provenance, not status).** The site's tab is empty
-and its commentary reports no claim. The arXiv listing (the search below)
-carries unrefereed manuscripts whose titles claim a proof of the conjecture
-(among the newest: arXiv:2309.09991, arXiv:2402.00001, arXiv:2502.20642, the
-last applying a fixed-point theorem), recorded from their titles or abstracts
-only, with no acceptance evidence found; an algorithm preprint
-(arXiv:2602.10466, February 2026) proposes a faster check for the next
-verification exponent and reports no new bound. Following the site's request,
-none of these is pursued on this page.
+**Proof claims (leads with provenance, not status).** The erdosproblems.com tab
+is empty and its commentary reports no claim. The arXiv listing (the search
+below) carries unrefereed manuscripts whose titles claim a proof of the
+conjecture (among the newest: arXiv:2309.09991, arXiv:2402.00001,
+arXiv:2502.20642, the last applying a fixed-point theorem), recorded from their
+titles or abstracts only, with no acceptance evidence found; an algorithm
+preprint (arXiv:2602.10466, February 2026) proposes a faster check for the next
+verification exponent and reports no new bound. Following erdosproblems.com's
+request, none of these is pursued on this page.
 
 **Search scope.** None of the routes below found a proof,
 disproof or accepted resolution, or a verification or cycle bound beyond
 those above.
 
-- The site: problem page, discussion thread and proof-claims tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claims tab; the
   formal-conjectures file and the Collatz module it points to at the pinned
   commit; the community database as fetched 2026-09-18.
 - The primary sources, at these pages: [La10] pp. 1, 4, 14--15 and 23; [Ta22]
@@ -339,16 +344,16 @@ Lagarias 2003.
 E16 the dictum, without a source; [La16] prints the "hopeless" remark as said in
 conversation, again without a date or occasion, and does not mention that
 figure; and [Er97e] is not checked, so the 1983 conversation behind the figure,
-the "hopeless" remark's occasions and Erdős's own 1997 words rest on the site
-and on Lagarias's 2010 survey. Reopening condition: a check of [Er97e]. (2) The
-conjecture is open; finite verification and cycle exclusion cannot settle it,
-and the almost-all theorem decides no single value. (3) Proof coverage: the
-eight statements are checked against their theorems, not their proofs; no
-computation is rerun. (4) The arXiv proof claims are unchecked and unreviewed.
-(5) The Lean statement is the standard map's; the bridge to the page's $f$ is
-the one-line map remark. (6) The sixteen other library cards the page links
-(surveys, bibliographies, stochastic models, cycle and density papers) have no
-result pages.
+the "hopeless" remark's occasions and Erdős's own 1997 words rest on
+erdosproblems.com and on Lagarias's 2010 survey. Reopening condition: a check of
+[Er97e]. (2) The conjecture is open; finite verification and cycle exclusion
+cannot settle it, and the almost-all theorem decides no single value. (3) Proof
+coverage: the eight statements are checked against their theorems, not their
+proofs; no computation is rerun. (4) The arXiv proof claims are unchecked and
+unreviewed. (5) The Lean statement is the standard map's; the bridge to the
+page's $f$ is the one-line map remark. (6) The sixteen other library cards the
+page links (surveys, bibliographies, stochastic models, cycle and density
+papers) have no result pages.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

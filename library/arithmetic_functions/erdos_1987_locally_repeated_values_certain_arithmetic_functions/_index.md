@@ -139,7 +139,7 @@ Source: <https://users.renyi.hu/~p_erdos/1987-15.pdf>.
   [[arithmetic_functions/erdos_1987_locally_repeated_values_certain_arithmetic_functions/intro_phi_bound_p1|introduction]] recalls paper II's upper bound
   $x/\exp\{(\log x)^{1/3}\}$ for consecutive equal totients; paper III
   proves nothing about the equation.
-- [[../wiki/problems/arithmetic_functions/E1004/_index|#1004]]: the catalog
+- [[../wiki/problems/arithmetic_functions/E1004/_index|#1004]]: Bloom's catalog
   cites this paper for a bound on blocks of pairwise distinct totient values,
   which it does not state; no result here bears on the problem.
 

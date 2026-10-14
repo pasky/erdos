@@ -66,5 +66,5 @@ None.
   result as printed here, taken at $k=4$, would give a convex polygon every
   vertex of which has four other vertices equidistant from it, a negative
   answer to the problem's question. The survey gives no construction and
-  reports the example as unpublished; the problem page records the site's
-  remark on this report.
+  reports the example as unpublished; the problem page records the
+  erdosproblems.com remark on this report.

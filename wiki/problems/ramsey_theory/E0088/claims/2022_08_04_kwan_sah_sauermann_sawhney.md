@@ -5,7 +5,7 @@ desc: |
   Theorem 1.1 of Kwan, Sah, Sauermann and Sawhney (2022) shows that a $C$-Ramsey
   graph $G$ on $n$ vertices has induced subgraphs of every edge count up to
   $(1-\eta)e(G)$, which gives the Erdős–McKay conjecture of Problem 88. The
-  paper is refereed, and the site listed Problem 88 as PROVED.
+  paper is refereed, and erdosproblems.com listed Problem 88 as PROVED.
 authors:
 - Matthew Kwan
 - Ashwin Sah
@@ -57,12 +57,12 @@ anticoncentration bound of order $n^{-3/2}$ for the edge count of a random
 vertex subset, together with the Alon--Krivelevich--Sudakov theorem for
 small edge counts.
 
-**Scope.** Full. The deduction from the theorem to the site's exact wording
-follows the footnote. Read the site's logarithm in any fixed base $b>1$: a
-graph with no clique or independent set of size at least $\epsilon\log_bn$
-is $C$-Ramsey for $C=\epsilon\log_b2$, which depends on $\epsilon$ alone.
-By Erdős and Szemerédi, as the footnote quotes it, every $C$-Ramsey graph on
-$n$ vertices with $n$ large in terms of $C$ has
+**Scope.** Full. The deduction from the theorem to erdosproblems.com's exact
+wording follows the footnote. Read erdosproblems.com's logarithm in any fixed
+base $b>1$: a graph with no clique or independent set of size at least
+$\epsilon\log_bn$ is $C$-Ramsey for $C=\epsilon\log_b2$, which depends on
+$\epsilon$ alone. By Erdős and Szemerédi, as the footnote quotes it, every
+$C$-Ramsey graph on $n$ vertices with $n$ large in terms of $C$ has
 $e(G)\ge\varepsilon_C\binom n2\ge\varepsilon_Cn^2/4$. Let $n_C$ be at
 least the threshold of Theorem 1.1 for $\eta=1/2$ and at least the
 threshold of that density bound, and put
@@ -72,31 +72,31 @@ $\delta n^2<1/2$, so the only such $m$ is $0$, the empty subgraph. The
 footnote's own version takes $\delta_C\le\varepsilon_C/8$ and handles
 small $n$ the same way ($\delta_Cn_C^2<1$); only the base change is added
 here. Erdős's original hypothesis of $cn^2$ edges is implied by the other
-condition, as the site's commentary and the footnote both note.
+condition, as the erdosproblems.com commentary and the footnote both note.
 
 **Depends on.** Nothing in this wiki; the deduction above is the only step
 beyond the cited paper.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-PROVED, with the note that the answer is yes, and credits the solution to the
-four authors in the problem's commentary (page accessed 2026-09-18). The thread
-and the proof-claim tab are empty. The site's credit line thanks Mehtaab
-Sawhney, one of the four authors. The PROVED label and the credit in the
-commentary are the curator's, and the refereed publication stands independently.
-Refereed: the paper is published in Forum of Mathematics, Pi 11 (2023), e21, DOI
-10.1017/fmp.2023.17 (published online 24 August 2023; Crossref record accessed
-2026-09-18). The text read is arXiv v2 of 30 May 2024, posted after the journal
-publication. The journal text is not held and was not compared with it. The
-claims of Theorem 1.1, footnote 2 and Theorem 1.2 are checked, and the proof is
-not. Nothing here is independently reviewed.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem PROVED, with the note that the answer is yes, and credits the
+solution to the four authors in the problem's commentary (page accessed
+2026-09-18). The thread and the proof-claim tab are empty. The erdosproblems.com
+credit line thanks Mehtaab Sawhney, one of the four authors. The PROVED label
+and the credit in the commentary are the curator's, and the refereed publication
+stands independently. Refereed: the paper is published in Forum of Mathematics,
+Pi 11 (2023), e21, DOI 10.1017/fmp.2023.17 (published online 24 August 2023;
+Crossref record accessed 2026-09-18). The text read is arXiv v2 of 30 May 2024,
+posted after the journal publication. The journal text is not held and was not
+compared with it. The claims of Theorem 1.1, footnote 2 and Theorem 1.2 are
+checked, and the proof is not. Nothing here is independently reviewed.
 
 **Postings.** arXiv:2208.02874, v1 of 4 August 2022 (the first posting,
 which dates this page) and v2 of 30 May 2024, the version read; the
-journal article; the site's problem page, whose thread and proof-claim tab
-were empty on 2026-09-18. Boris Alexeev's lean-proofs repository holds
-Erdos88.lean (first committed 21 August 2026, linked above at its commit of
-15 September 2026). Its header declares it a Lean formalization of a
-solution to Problem 88, with Kwan, Sah, Sauermann and Sawhney as informal
-authors and Codex and GPT-5.6 Sol as formal authors. Its theorem
-`erdos_88` states the site's form, for every $n$, with the natural
-logarithm. This corpus has not built it, so it adds no formalized evidence.
+journal article; the erdosproblems.com problem page, whose thread and
+proof-claim tab were empty on 2026-09-18. Boris Alexeev's lean-proofs repository
+holds Erdos88.lean (first committed 21 August 2026, linked above at its commit
+of 15 September 2026). Its header declares it a Lean formalization of a solution
+to Problem 88, with Kwan, Sah, Sauermann and Sawhney as informal authors and
+Codex and GPT-5.6 Sol as formal authors. Its theorem `erdos_88` states the
+erdosproblems.com form, for every $n$, with the natural logarithm. This corpus
+has not built it, so it adds no formalized evidence.

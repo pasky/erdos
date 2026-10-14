@@ -27,25 +27,26 @@ every large integer the sum of distinct integers of the form $a^kb^lc^m$
 ($k,l,m\geq 0$), none of which divide any other?
 
 **Formulation.** Erdős also posed the question under the weaker hypothesis that
-$a,b,c$ have no common factor. The site's commentary reports the suggestion in
-the paper that offers the prize ([Er97], [Er97e]; neither is held here), and
-Burr, Erdős, Graham and Li recall the conjecture of [ErLe96] in that form, for
-any $k\geq2$ positive integers $a_1,\ldots,a_k$ with $\gcd(a_1,\ldots,a_k)=1$
-[BEGL96, Section 3, pp. 137--138], printing every exponent as at least $1$. The
-answer to that form is no, as the site's commentary shows: with $a=6$, $b=10$,
-$c=15$, the terms with $k+m>0$ are multiples of $3$ and the remaining terms
-$10^l$ are $\equiv 1 \pmod 3$, so a representation of an integer
-$\equiv 2 \pmod 3$ must use two terms $10^l$ and $10^{l'}$, one of which divides
-the other. The Statement is Erdős and Lewin's conjecture (i) of [ErLe96, p.
-840], which asks for three pairwise relatively prime integers; the site's
-$a,b,c>1$ excludes the base $1$, with which the terms reduce to $b^lc^m$, and
-the Corollary of [ErLe96, p. 838] shows that those are $d$-complete only for
+$a,b,c$ have no common factor. The erdosproblems.com commentary reports the
+suggestion in the paper that offers the prize ([Er97], [Er97e]; neither is held
+here), and Burr, Erdős, Graham and Li recall the conjecture of [ErLe96] in that
+form, for any $k\geq2$ positive integers $a_1,\ldots,a_k$ with
+$\gcd(a_1,\ldots,a_k)=1$ [BEGL96, Section 3, pp. 137--138], printing every
+exponent as at least $1$. The answer to that form is no, as the
+erdosproblems.com commentary shows: with $a=6$, $b=10$, $c=15$, the terms with
+$k+m>0$ are multiples of $3$ and the remaining terms $10^l$ are
+$\equiv 1 \pmod 3$, so a representation of an integer $\equiv 2 \pmod 3$ must
+use two terms $10^l$ and $10^{l'}$, one of which divides the other. The
+Statement is Erdős and Lewin's conjecture (i) of [ErLe96, p. 840], which asks
+for three pairwise relatively prime integers; erdosproblems.com's $a,b,c>1$
+excludes the base $1$, with which the terms reduce to $b^lc^m$, and the
+Corollary of [ErLe96, p. 838] shows that those are $d$-complete only for
 $\{b,c\}=\{2,3\}$. Erdős's stronger conjecture of [Er92b] for $2,3,5$, with all
 summands in a window $[x,(1+\epsilon)x)$, is discussed with the claims below.
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN). The proof
-and its acceptance are recorded on the claim pages. This corpus has built none
-of the Lean.
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN).
+The proof and its acceptance are recorded on the claim pages. This corpus has
+built none of the Lean.
 
 **Source.** [erdosproblems.com/123](https://www.erdosproblems.com/123), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #123,
@@ -76,22 +77,22 @@ https://www.erdosproblems.com/123.
 ## Current assessment
 
 **The question.** The statement above; PROVED (LEAN), page last edited 17
-July 2026. The site's commentary explains that a sequence is $d$-complete when
-every large integer is a sum of distinct terms no one of which divides another,
-and that Erdős and Lewin [ErLe96] conjectured this case; the prize is for a
-proof or disproof. The weaker hypothesis of no common factor, under which the
-answer is no, is recorded under Formulation.
+July 2026. The erdosproblems.com commentary explains that a sequence is
+$d$-complete when every large integer is a sum of distinct terms no one of which
+divides another, and that Erdős and Lewin [ErLe96] conjectured this case; the
+prize is for a proof or disproof. The weaker hypothesis of no common factor,
+under which the answer is no, is recorded under Formulation.
 
-**Claims.** Two proofs were posted on the site in July 2026, the first
+**Claims.** Two proofs were posted on erdosproblems.com in July 2026, the first
 found with GPT 5.6 and the second with GPT 5.6 and Opus 4.8, both with Lean
 developments that this corpus has not built. The first,
 [[problems/diophantine_problems/E0123/claims/2026_07_15_snyder|Snyder's proof found with GPT 5.6]]
-(2026-07-15), is accepted by the site's curator and settles the problem;
-its acceptance evidence is that curator review alone. The second,
+(2026-07-15), is accepted by the erdosproblems.com curator and settles the
+problem; its acceptance evidence is that curator review alone. The second,
 [[problems/diophantine_problems/E0123/claims/2026_07_20_principia_math|Principia Math's proof]]
 (2026-07-20), claims the stronger statement that the summands can be taken
 from a window $[x,\rho x)$ for any fixed $1<\rho<\min(a,b,c)$, which would
-also give Erdős's conjecture of [Er92b] for $2,3,5$; the site shows no
+also give Erdős's conjecture of [Er92b] for $2,3,5$; erdosproblems.com shows no
 verdict for it and it stays `claimed`.
 
 **Earlier partial results.** Before the proofs, $d$-completeness had been
@@ -106,8 +107,9 @@ recorded as an accepted partial claim:
 [[problems/diophantine_problems/E0123/claims/2016_02_03_ma_chen|Ma and Chen's criterion and triples]]
 and
 [[problems/diophantine_problems/E0123/claims/2023_03_20_chen_yu|Chen and Yu's ranges]].
-The site credits Snyder, not these papers, with settling the problem. The
-site's commentary lists these; the papers other than [ErLe96] are not held.
+erdosproblems.com credits Snyder, not these papers, with settling the problem.
+The erdosproblems.com commentary lists these; the papers other than [ErLe96] are
+not held.
 
 **Formalization and the Lean label.** The formal-conjectures statement file, at
 its commit of 2026-09-18
@@ -120,7 +122,7 @@ $2,3$ solved without proofs, and keeps Erdős's conjecture for $2,3,5$
 built, kernel-checked or audited in this corpus, and no statement-fidelity
 review exists.
 
-**Search scope.** The site's problem page, commentary and
+**Search scope.** The erdosproblems.com problem page, commentary and
 proof-claims page, and the two claimants' repositories for their headers
 and commit dates. arXiv, Crossref, MathSciNet, zbMATH, Google Scholar and X
 were not searched.
@@ -129,8 +131,8 @@ were not searched.
 acceptance rests on the curator's review of Snyder's claim. (2) Neither Lean
 development has been built in this corpus, so neither page lists `formalized`
 evidence. (3) The two developments' author headers attribute the first proof to
-different AI systems (GPT 5.6 on the site's entry, Claude Fable 5 in the
-repository copy); the discrepancy is recorded on the claim page and not
+different AI systems (GPT 5.6 on the erdosproblems.com entry, Claude Fable 5 in
+the repository copy); the discrepancy is recorded on the claim page and not
 resolved. (4) Erdős's stronger conjecture for $2,3,5$ is claimed only by the
 pending claim.
 <!-- BEGIN problem library links -->

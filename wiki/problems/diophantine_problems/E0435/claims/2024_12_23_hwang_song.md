@@ -65,22 +65,23 @@ paper's
 the proof of part (1) (Lemma 2.2, Theorem 3.2 and Corollary 3.3 of v2 and v3)
 was not checked.
 
-The formula was found independently in the site's thread: on 2025-09-29 the
-forum user MichaelPeake conjectured it, on 2025-09-30 Stijn Cambie (the forum
-user StijnC) posted proofs that every larger integer is representable and
-that the formula's value is not, and later on 2025-09-30 a post identified
-this paper. The site's commentary credits that independent derivation. The
-posts are forum comments, not a dated manuscript, so they have no claim page
-of their own and are recorded here; the OEIS entry A389479 lists the
-sequence of values.
+The formula was found independently in the erdosproblems.com thread: on
+2025-09-29 the forum user MichaelPeake conjectured it, on 2025-09-30 Stijn
+Cambie (the forum user StijnC) posted proofs that every larger integer is
+representable and that the formula's value is not, and later on 2025-09-30 a
+post identified this paper. The erdosproblems.com commentary credits that
+independent derivation. The posts are forum comments, not a dated manuscript, so
+they have no claim page of their own and are recorded here; the OEIS entry
+A389479 lists the sequence of values.
 
-**Acceptance.** The site's curator, T. F. Bloom, labeled the problem proved and
-credits this paper with the first proof. That documented acceptance is the
-`reviewed` evidence. The paper is a preprint, so `refereed` is not listed.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, labeled the problem
+proved and credits this paper with the first proof. That documented acceptance
+is the `reviewed` evidence. The paper is a preprint, so `refereed` is not
+listed.
 
-**Formalization.** On 2026-02-04 Boris Alexeev posted in the site's thread
-that Cambie's forum proof had been formalized by the AI system Aristotle. The
-file `src/v4.29.1/ErdosProblems/Erdos435.lean` of Alexeev's repository
+**Formalization.** On 2026-02-04 Boris Alexeev posted in the erdosproblems.com
+thread that Cambie's forum proof had been formalized by the AI system Aristotle.
+The file `src/v4.29.1/ErdosProblems/Erdos435.lean` of Alexeev's repository
 `plby/lean-proofs` (Lean and Mathlib v4.29.1; 2,393 lines at the pinned
 commit of 2026-06-30) declares itself a formalization of a solution of
 Problem 435, naming Hwang, Song, Peake and
@@ -90,6 +91,6 @@ above is the greatest integer outside the set of nonnegative combinations,
 and a closing comment records the axioms `propext`, `Classical.choice` and
 `Quot.sound`. The formal-conjectures statement `erdos_435` (file added
 2026-08-03; main on 2026-10-07) is tagged `research solved` and carries a
-`formal_proof` link to this pinned file; the Lean suffix of the site's label
-refers to it. Nothing was built, replayed or audited here, so `formalized` is
-not listed.
+`formal_proof` link to this pinned file; the Lean suffix of the
+erdosproblems.com label refers to it. Nothing was built, replayed or audited
+here, so `formalized` is not listed.

@@ -63,8 +63,8 @@ Lemma 2.3.
 Mathematics, volume 28, number 3 (1979). It was received on 8 May 1978 and
 revised on 22 May 1979. This is the `refereed` evidence. The issue carries no
 month in its record, so this page is dated to the first day of the year. The
-site's curator credits the disproof to Norin, Sun and Zhao, not to this paper,
-so `reviewed` is not listed. The same paper conjectures (p. 254) that
-$r(S(2k-1,k-1))=4k$ for $k\ge4$. The asymptotic bound of
+erdosproblems.com curator credits the disproof to Norin, Sun and Zhao, not to
+this paper, so `reviewed` is not listed. The same paper conjectures (p. 254)
+that $r(S(2k-1,k-1))=4k$ for $k\ge4$. The asymptotic bound of
 [[problems/ramsey_theory/E0549/claims/2016_05_11_norin_sun_zhao|Norin, Sun and Zhao 2016]]
 refutes this conjecture for large $k$.

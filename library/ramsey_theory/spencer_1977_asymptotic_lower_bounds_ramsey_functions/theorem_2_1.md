@@ -102,14 +102,14 @@ Outside it: nothing.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0986/_index|Problem 986]]: the case $s=3$ of the
-  problem's statement, $R(3,k)\gg k^2/(\log k)^2$, which the site credits to
-  this paper and which the paper credits to Erdős; the constant $1/27$ is
-  the paper's contribution.
+  problem's statement, $R(3,k)\gg k^2/(\log k)^2$, which erdosproblems.com
+  credits to this paper and which the paper credits to Erdős; the constant
+  $1/27$ is the paper's contribution.
 - [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: the bound Burr, Erdős,
   Faudree, Rousseau and Schelp 1980 quote as their display (2) for
   [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_1|Theorem 1]](b),
-  $F(n)<(27/4+\varepsilon)n(\log n)^2$ in the site's letters (a $K_l$ with a
-  path attached, $l$ the least $t$ with $r(K_3,K_t)>2n-1$), and, through
+  $F(n)<(27/4+\varepsilon)n(\log n)^2$ in erdosproblems.com's letters (a $K_l$
+  with a path attached, $l$ the least $t$ with $r(K_3,K_t)>2n-1$), and, through
   the reduction (1), the form of the local lemma their
   [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_2|Theorem 2]]
   applies for $f(n)<Bn^{5/3}(\log n)^{2/3}$; the constant $27/4$ of Theorem

@@ -59,17 +59,17 @@ $$
 \mathcal{L}^nf(x) \to f(x)?
 $$
 
-**Status.** The site labeled the problem OPEN (page last edited 23 January
-2026). The derived standing is claimed. Two pending full claims on the site's
-proof-claims tab, both with declared AI assistance, answer both questions yes
-with one construction. The first is
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 23
+January 2026). The derived standing is claimed. Two pending full claims on the
+erdosproblems.com proof-claims tab, both with declared AI assistance, answer
+both questions yes with one construction. The first is
 [[problems/analysis/E0671/claims/2026_06_22_price|Price's claim]] of 22 June
 2026 (filed on the tab on 15 July), with a write-up and a Lean file. The second
 is
 [[problems/analysis/E0671/claims/2026_07_24_quietmethod|QuietMethod's re-derivation]]
 of 24 July 2026, which declares itself a verification and refinement of the
-first. The site has accepted neither, and this corpus has built neither Lean
-file.
+first. erdosproblems.com has accepted neither, and this corpus has built neither
+Lean file.
 
 **Source.** [erdosproblems.com/671](https://www.erdosproblems.com/671), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #671,
@@ -86,7 +86,7 @@ https://www.erdosproblems.com/671.
 - [Er58] P. Erdős, Problems and results on the theory of interpolation. I.
   Acta Math. Acad. Sci. Hungar. 9 (1958), no. 3-4, 381-388,
   [doi:10.1007/BF02020269](https://doi.org/10.1007/BF02020269). Not in the
-  site's list; cited for the withdrawn assertion recorded under Known
+  erdosproblems.com list; cited for the withdrawn assertion recorded under Known
   results.
 
 **Formalization.** No formal-conjectures statement is recorded for this
@@ -100,9 +100,9 @@ page]].
 
 ## Current assessment
 
-**The questions (site formulation accessed 2026-09-04; page last edited 23
-January 2026).** The statement above, two questions about a triangular array
-of interpolation nodes in $[-1,1]$, with
+**The questions (erdosproblems.com formulation accessed 2026-09-04; page last
+edited 23 January 2026).** The statement above, two questions about a triangular
+array of interpolation nodes in $[-1,1]$, with
 $\lambda_n(x)=\sum_{i\le n}\lvert p_i^n(x)\rvert$ the Lebesgue function of
 the $n$th row. The first asks for a node system such that every continuous
 $f$ has a point $x$ where
@@ -110,10 +110,10 @@ $\limsup_n\lambda_n(x)=\infty$ and yet $\mathcal{L}^nf(x)\to f(x)$; the second
 asks for a node system with $\limsup_n\lambda_n(x)=\infty$ at every point of
 $[-1,1]$ such that every continuous $f$ still has a point of convergence. A
 system answering the second question answers the first, since each of its
-points has an unbounded Lebesgue function. The site's label was OPEN.
+points has an unbounded Lebesgue function. The erdosproblems.com label was OPEN.
 
-**Known results.** As the site's commentary records them: Bernstein [Be31]
-proved that for every node system some $x_0\in[-1,1]$ has
+**Known results.** As the erdosproblems.com commentary records them: Bernstein
+[Be31] proved that for every node system some $x_0\in[-1,1]$ has
 $\limsup_n\lambda_n(x_0)=\infty$, so an unbounded Lebesgue function at some
 point is unavoidable; Erdős and Vértesi [ErVe80] proved that for every node
 system some continuous $f$ has $\limsup_n\lvert\mathcal{L}^nf(x)\rvert=\infty$
@@ -130,27 +130,27 @@ it and that the original proof was probably incomplete. The assertion and
 its withdrawal are recorded on
 [[problems/analysis/E0671/claims/1958_09_01_erdos|Erdős's withdrawn claim page]].
 
-**Pending claims.** The site's proof-claims tab carries two full claims,
-each answering both questions yes with a node system whose Lebesgue
+**Pending claims.** The erdosproblems.com proof-claims tab carries two full
+claims, each answering both questions yes with a node system whose Lebesgue
 functions are unbounded everywhere. The first,
 [[problems/analysis/E0671/claims/2026_06_22_price|Price's claim]], posted on
 the discussion thread on 22 June 2026 and filed on the tab on 15 July 2026,
 attributes the proof to the AI system named as GPT Pro and a Lean
 formalization to the system named as GPT-5.5 in Codex; the tab entry's
-thirteen comments concern the truncation of its live-editor link by the
-site, not the mathematics. The second,
+thirteen comments concern the truncation of its live-editor link by
+erdosproblems.com, not the mathematics. The second,
 [[problems/analysis/E0671/claims/2026_07_24_quietmethod|QuietMethod's
 re-derivation]], filed 24 July 2026, declares itself an independent
 verification and quantitative refinement of the first, re-deriving a staged
 coalescing-node construction with $k^2+1$ cluster values per stage in place
 of $k^3+1$, with assistance from the system named as OpenAI Codex (GPT-5) and
 a Lean file whose self-reported axiom report is the three standard axioms.
-The site has accepted neither and this corpus has built neither Lean file,
-so both stay claimed and the derived standing is claimed, with the claim
+erdosproblems.com has accepted neither and this corpus has built neither Lean
+file, so both stay claimed and the derived standing is claimed, with the claim
 value proved, since both assert the affirmative answers.
 
-**Search scope.** The site's problem page, its discussion thread (five
-comments, among them the post of 22 June 2026) and its proof-claims tab,
+**Search scope.** The erdosproblems.com problem page, its discussion thread
+(five comments, among them the post of 22 June 2026) and its proof-claims tab,
 accessed 2026-10-06, including the comments on the first claim. No refereed
 work beyond the references was found.
 <!-- BEGIN problem library links -->

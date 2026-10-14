@@ -60,10 +60,10 @@ the matching upper bound and any asymptotic.
 
 **Acceptance.** Refereed: the paper appeared in Mathematics of Computation, DOI
 10.1090/mcom/4190, published online 22 January 2026. The page is dated by the
-arXiv posting of 12 September 2025. Reviewed: the site's curator, Thomas Bloom,
-labeled the problem SOLVED for the order of magnitude. The commentary credits
-this bound and notes that it grows faster than the 1975 bound. This bound is the
-lower half of that order. The matching upper half is
+arXiv posting of 12 September 2025. Reviewed: the erdosproblems.com curator,
+Thomas Bloom, labeled the problem SOLVED for the order of magnitude. The
+commentary credits this bound and notes that it grows faster than the 1975
+bound. This bound is the lower half of that order. The matching upper half is
 [[problems/unit_fractions/E0320/claims/2026_07_15_young_zhu_luo|Young, Zhu and Luo's accepted claim]],
 which takes its lower bound from this theorem. The curator is independent of the
 authors. The proof is not verified by this corpus.

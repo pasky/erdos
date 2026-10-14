@@ -34,9 +34,9 @@ $$
 s_{n+1}-s_n \leq (1+o(1))\frac{\pi^2}{6}\frac{\log s_n}{\log\log s_n}?
 $$
 
-**Status.** Open: the site labeled the problem OPEN (page last edited 19 October
-2025). Neither question is answered. Filaseta and Trifonov (1992) proved the
-first for every $\epsilon>1/5$. Pandey's 2024 preprint claims it for every
+**Status.** Open: Bloom's catalog labeled the problem OPEN (page last edited 19
+October 2025). Neither question is answered. Filaseta and Trifonov (1992) proved
+the first for every $\epsilon>1/5$. Pandey's 2024 preprint claims it for every
 $\epsilon>1/5-\eta$ with some $\eta>0$, as a pending partial claim. Granville
 (1998) proved it for every $\epsilon>0$ under the abc conjecture. The second
 question is open. Erdős's 1951 lower bound shows that its constant $\pi^2/6$
@@ -64,17 +64,17 @@ https://www.erdosproblems.com/208.
 
 ## Current assessment
 
-**The question (site formulation).** The two questions above, labeled OPEN,
-page last edited 19 October 2025. The site's commentary, in this page's
-words: Erdős [Er51] proved that infinitely many $n$ have
-$s_{n+1}-s_n>(1+o(1))\frac{\pi^2}{6}\frac{\log s_n}{\log\log s_n}$, so the
+**The question (erdosproblems.com formulation).** The two questions above,
+labeled OPEN, page last edited 19 October 2025. The erdosproblems.com
+commentary, in this page's words: Erdős [Er51] proved that infinitely many $n$
+have $s_{n+1}-s_n>(1+o(1))\frac{\pi^2}{6}\frac{\log s_n}{\log\log s_n}$, so the
 bound of the second question, if true, is best possible; in [Er79] Erdős
 suggests that perhaps $s_{n+1}-s_n\ll\log s_n$ but calls himself very
 doubtful of it; Filaseta and Trifonov [FiTr92] proved the upper bound
 $s_n^{1/5+o(1)}$; Pandey [Pa24] lowered the exponent to $1/5-c$ for some
 $c>0$; and Granville [Gr98] derived $s_{n+1}-s_n\ll_\epsilon s_n^\epsilon$
-for every $\epsilon>0$ from the abc conjecture. The site lists Problems 489
-and 145 as related and Problem 1101 as a more general form. No forum claim
+for every $\epsilon>0$ from the abc conjecture. erdosproblems.com lists Problems
+489 and 145 as related and Problem 1101 as a more general form. No forum claim
 and no AI-assisted result on the problem is recorded.
 
 **Claims.** The first question asks for the bound $s_{n+1}-s_n\ll_\epsilon
@@ -93,9 +93,10 @@ claim page: Erdős's 1951 theorem is a lower bound for infinitely many $n$,
 which shows that the constant $\pi^2/6$ could not be lowered but answers neither
 question, so it has no claim page; the Richert--Rankin bound $n^{2/9+\epsilon}$
 that [Er79] reports, and the earlier exponents the [FiTr92] card lists, are
-superseded by [FiTr92] and are recorded on the cards only. The site labeled the
-problem OPEN, so the curator's commentary is not acceptance of any claim and no
-page lists `reviewed`; the corpus records no check of any of the proofs.
+superseded by [FiTr92] and are recorded on the cards only. Bloom's catalog
+labeled the problem OPEN, so the curator's commentary is not acceptance of any
+claim and no page lists `reviewed`; the corpus records no check of any of the
+proofs.
 
 **Formal statement.** The formal-conjectures file at its revision of
 2026-09-18
@@ -104,17 +105,17 @@ states both questions as separate parts and the $\log s_n$ bound as a
 variant, all with `sorry` and the category `research open`, and names no
 formal proof.
 
-**Search scope.** The site's problem page and the
+**Search scope.** The erdosproblems.com problem page and the
 formal-conjectures file at the revision above; the library cards of [Er51],
 [Er79], [FiTr92] and [Pa24]; the publishers' records of [FiTr92] and [Gr98]
 and the arXiv record of [Pa24]. No wider literature search is recorded, and
-the openness of the two questions rests on the site's label and these
+the openness of the two questions rests on the erdosproblems.com label and these
 sources.
 
 **Remaining gaps.** The first question for $\epsilon\le1/5-\eta$ without a
 hypothesis, and the second question entirely. The library holds no copy of
-[Gr98], whose result this page records from the site's commentary and the
-publisher's record.
+[Gr98], whose result this page records from the erdosproblems.com commentary and
+the publisher's record.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

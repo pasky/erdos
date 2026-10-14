@@ -27,7 +27,7 @@ $$
 \mathrm{ex}(n; K_{r,r}) \gg n^{2-1/r}?
 $$
 
-**Formulation.** The site's wording on 2026-09-17 (page last edited
+**Formulation.** The erdosproblems.com wording on 2026-09-17 (page last edited
 23 January 2026). $\mathrm{ex}(n;K_{r,r})$ is the largest
 number of edges of a graph on $n$ vertices with no subgraph (not necessarily
 induced) isomorphic to the complete bipartite graph $K_{r,r}$. The question
@@ -40,11 +40,11 @@ appears in Erdős's own words in [Er81] ("Is it true that
 $f(n;K(r,r))>cn^{2-1/r}$?", display (3)) and, in matrix form, already in
 [KST54] (inequality (6.1)).
 
-**Status.** Open. The site labeled the problem OPEN. No full claim is recorded,
-and the frontmatter standing derives from the partial claims. The answer is yes
-for $r=2$ (Kővári, Sós and Turán 1954; Erdős, Rényi and Sós 1966; Brown 1966)
-and for $r=3$ (Brown 1966). These results are recorded as accepted partial
-claims on the pages
+**Status.** Open. Bloom's catalog labeled the problem OPEN. No full claim is
+recorded, and the frontmatter standing derives from the partial claims. The
+answer is yes for $r=2$ (Kővári, Sós and Turán 1954; Erdős, Rényi and Sós 1966;
+Brown 1966) and for $r=3$ (Brown 1966). These results are recorded as accepted
+partial claims on the pages
 [[problems/extremal_graph_theory/E0714/claims/1954_01_01_kovari_sos_turan|Kővári, Sós and Turán]],
 [[problems/extremal_graph_theory/E0714/claims/1966_02_01_erdos_renyi_sos|Erdős, Rényi and Sós]]
 and [[problems/extremal_graph_theory/E0714/claims/1966_08_01_brown|Brown]]. For
@@ -62,8 +62,8 @@ with $s\ge C^r$ for an absolute constant $C$ (Bukh 2024).
 **Source.** [erdosproblems.com/714](https://www.erdosproblems.com/714),
 accessed 2026-09-17: the problem page (OPEN;
 last edited 23 January 2026), its empty discussion thread and its empty
-proof-claim tab. The site lists [Er64c], [Er67b], [Er69], [Er71, p. 103],
-[Er74c, p. 77], [Er75], [Er81] and [Er93, p. 334] as the problem's sources
+proof-claim tab. erdosproblems.com lists [Er64c], [Er67b], [Er69], [Er71, p.
+103], [Er74c, p. 77], [Er75], [Er81] and [Er93, p. 334] as the problem's sources
 and cites [KST54], [Br66] and [ERS66] in its commentary. Cite as: T. F. Bloom,
 Erdős Problem #714, https://www.erdosproblems.com/714, accessed 2026-09-17.
 
@@ -92,23 +92,23 @@ Erdős Problem #714, https://www.erdosproblems.com/714, accessed 2026-09-17.
   doi:10.1006/jctb.1999.1906. Corollary 6 (p. 7 of the author manuscript on
   Alon's publication page, the edition the card names). Library home:
   [[../library/ramsey_theory/alon_1999_norm_graphs_variations_applications/_index|alon_1999_norm_graphs_variations_applications]]. Not cited
-  by the site.
+  by erdosproblems.com.
 - [KRS96] Kollár, J., Rónyai, L. and Szabó, T., Norm-graphs and bipartite
   Turán numbers. Combinatorica 16 (1996), 399--406. Not held; cited through
-  [ARS99]. Not cited by the site.
+  [ARS99]. Not cited by erdosproblems.com.
 - [BaPe12] Ball, S. and Pepe, V., Asymptotic improvements to the lower bound
   of certain bipartite Turán numbers. Combin. Probab. Comput. 21 (2012),
   no. 3, 323--329; doi:10.1017/S0963548311000423 (published online 3 October
   2011). Not held; its abstract is known as deposited in the Crossref record:
   graphs on $n$ vertices with no $K_{5,5}$ and about a constant times
-  $n^{7/4}$ edges, so $\mathrm{ex}(n,K_{5,5})\gg n^{7/4}$. Not cited by the
-  site.
+  $n^{7/4}$ edges, so $\mathrm{ex}(n,K_{5,5})\gg n^{7/4}$. Not cited by
+  erdosproblems.com.
 - [Bu24] Bukh, B., Extremal graphs without exponentially small bicliques.
   Duke Math. J. 173 (2024), no. 11; doi:10.1215/00127094-2023-0043 (issued
   15 August 2024). Preprint arXiv:2107.04167 (9 July 2021; v3 of 6 August
   2023, titled "Extremal graphs without exponentially-small bicliques"). Not
   held; its abstract is known from the arXiv record: $K_{s,t}$-free graphs
-  with $\Omega(n^{2-1/s})$ edges for $t=C^s$. Not cited by the site.
+  with $\Omega(n^{2-1/s})$ edges for $t=C^s$. Not cited by erdosproblems.com.
 - [Er64c] Erdős, P., Extremal problems in graph theory. Theory of Graphs and
   its Applications (Proc. Sympos. Smolenice, 1963) (1964), 29--36. Library
   home:
@@ -117,8 +117,8 @@ Erdős Problem #714, https://www.erdosproblems.com/714, accessed 2026-09-17.
   problem's bound and which the paper reports proved only for $k=2$, is paged
   at
   [[../library/extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/conjecture_p33|conjecture_p33]].
-- [Er67b] A 1967 source key of the site; its bibliographic entry is not in
-  the site's reference export and is unresolved.
+- [Er67b] A 1967 source key of erdosproblems.com; its bibliographic entry is not
+  in the erdosproblems.com reference export and is unresolved.
 - [Er69] Erdős, Paul, Some applications of graph theory to number theory. The
   Many Facets of Graph Theory (Proc. Conf., Kalamazoo, 1968) (1969), 77--82.
   Library home:
@@ -126,7 +126,7 @@ Erdős Problem #714, https://www.erdosproblems.com/714, accessed 2026-09-17.
   its passage on this problem is not compiled.
 - [Er71] Erdős, P., Some unsolved problems in graph theory and combinatorial
   analysis. Combinatorial Mathematics and its Applications (Proc. Conf.,
-  Oxford, 1969) (1971), 97--109; the site cites p. 103. Library home:
+  Oxford, 1969) (1971), 97--109; erdosproblems.com cites p. 103. Library home:
   [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis]];
   its item 15 (printed p. 103), paged at
   [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_15|item 15]],
@@ -135,8 +135,8 @@ Erdős Problem #714, https://www.erdosproblems.com/714, accessed 2026-09-17.
   and $r=3$ but no good lower bound is known for $r\geqslant4$", a 1971
   confirmation of the status.
 - [Er74c] Erdős, Paul, Extremal problems on graphs and hypergraphs.
-  Hypergraph Seminar, Lecture Notes in Math. 411 (1974), 75--84; the site
-  cites p. 77. Library home:
+  Hypergraph Seminar, Lecture Notes in Math. 411 (1974), 75--84;
+  erdosproblems.com cites p. 77. Library home:
   [[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/_index|erdos_1974_extremal_problems_graphs_hypergraphs]];
   its passage on this problem is not compiled; the card's digest records its
   display (2), the Kővári--Sós--Turán bound, as conjectured sharp and proved
@@ -154,15 +154,15 @@ Erdős Problem #714, https://www.erdosproblems.com/714, accessed 2026-09-17.
   a retyped text without the journal's pagination, with the display on its
   p. 6.
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
-  graph theory. Quaestiones Math. 16 (1993), 333--350; the site cites p. 334.
-  Chapter I, display (4), printed p. 334: Erdős writes that "Kövári, V.T. Sós, Turán [6] and I proved"
-  the bound (4), $T(n;K(r,r))<cn^{2-1/r}$, for the complete bipartite graph
-  $K(r,r)$ with $r$ vertices on each side, and continues: "The exponent
-  $2-\tfrac1r$ is almost certainly best possible but this is known only for
-  $r=2$ and $r=3$", citing Erdős, Rényi and Sós and, independently, Brown,
-  and "As far as I know $T(n;K(4,4))/n^{5/3}\to\infty$ is not even known";
-  the "and I" attaches Erdős to the Kővári--Sós--Turán bound, as printed.
-  Library home:
+  graph theory. Quaestiones Math. 16 (1993), 333--350; erdosproblems.com cites
+  p. 334. Chapter I, display (4), printed p. 334: Erdős writes that "Kövári,
+  V.T. Sós, Turán [6] and I proved" the bound (4), $T(n;K(r,r))<cn^{2-1/r}$, for
+  the complete bipartite graph $K(r,r)$ with $r$ vertices on each side, and
+  continues: "The exponent $2-\tfrac1r$ is almost certainly best possible but
+  this is known only for $r=2$ and $r=3$", citing Erdős, Rényi and Sós and,
+  independently, Brown, and "As far as I know $T(n;K(4,4))/n^{5/3}\to\infty$ is
+  not even known"; the "and I" attaches Erdős to the Kővári--Sós--Turán bound,
+  as printed. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 
 **Formalization.** Statement only. The file
@@ -175,25 +175,25 @@ atTop, c * (n : ℝ) ^ ((2 : ℝ) - 1 / (r : ℝ)) ≤ (extremalNumber n
 (completeBipartiteGraph (Fin r) (Fin r)) : ℝ)`
 
 under `category research open, AMS 5`, with proof `sorry`. It is a statement
-without a proof and gives no `formalized` evidence. The site's page shows the
-statement as formalized, and the community database, accessed 2026-09-17,
-lists the problem as open and the statement as formalized, as of its entry's
-last update on 7 September 2026, with no formal-proof URL.
+without a proof and gives no `formalized` evidence. The erdosproblems.com page
+shows the statement as formalized, and the community database, accessed
+2026-09-17, lists the problem as open and the statement as formalized, as of its
+entry's last update on 7 September 2026, with no formal-proof URL.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
-above; OPEN (the site's label for an open problem beyond any finite
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; OPEN (the erdosproblems.com label for an open problem beyond any finite
 computation), last edited 23 January 2026, no comments, no proof claims. The
 commentary says Kővári, Sós and Turán proved $\mathrm{ex}(n;K_{r,r})\ll n^{2-1/r}$
 for all $r\ge2$, that Brown and, independently, Erdős, Rényi and Sós proved
 the conjectured lower bound when $r=3$, and that for $r=2$
-$\mathrm{ex}(n;K_{2,2})=(\tfrac12+o(1))n^{3/2}$ is known, pointing to the site's
-problem 768 because $K_{2,2}=C_4$, to problem 147, and to the hypergraph
-generalization, problem 1158. The commentary credits Erdős, Rényi and Sós
-with $r=3$, but their paper settles $r=2$ (Corollary 2 of [ERS66]), and
-$r=3$ is Brown's alone. The site's commentary points to its Problem 768, a
-divisor question; the intended reference is
+$\mathrm{ex}(n;K_{2,2})=(\tfrac12+o(1))n^{3/2}$ is known, pointing to the
+erdosproblems.com problem 768 because $K_{2,2}=C_4$, to problem 147, and to the
+hypergraph generalization, problem 1158. The commentary credits Erdős, Rényi and
+Sós with $r=3$, but their paper settles $r=2$ (Corollary 2 of [ERS66]), and
+$r=3$ is Brown's alone. The erdosproblems.com commentary points to its Problem
+768, a divisor question; the intended reference is
 [[problems/extremal_graph_theory/E0765/_index|Problem 765]], the page on the
 asymptotics of $\mathrm{ex}(n;C_4)$. The other cross-references are
 [[problems/extremal_graph_theory/E0147/_index|Problem 147]] and
@@ -213,8 +213,8 @@ a system of $p^j$ combinations for $n=p^j$; the case $j=2$ is its Section 5.
 them: [[problems/extremal_graph_theory/E0714/claims/1954_01_01_kovari_sos_turan|Kővári, Sós and Turán]]
 ($r=2$), [[problems/extremal_graph_theory/E0714/claims/1966_02_01_erdos_renyi_sos|Erdős, Rényi and Sós]]
 ($r=2$) and [[problems/extremal_graph_theory/E0714/claims/1966_08_01_brown|Brown]]
-($r=3$ and $r=2$), each on refereed evidence alone, since the site labeled
-the problem OPEN. For $r=2$, [KST54]'s (1.3), $\lim k_2(n)/n^{3/2}=1$,
+($r=3$ and $r=2$), each on refereed evidence alone, since Bloom's catalog
+labeled the problem OPEN. For $r=2$, [KST54]'s (1.3), $\lim k_2(n)/n^{3/2}=1$,
 proved by the Section 5 construction, already gives a bipartite
 $C_4$-free graph with $n$ vertices a side and $n^{3/2}$ edges, hence
 $\mathrm{ex}(N;K_{2,2})\gg N^{3/2}$; $K_{2,2}=C_4$ and
@@ -283,7 +283,7 @@ listed under Linked library material below relates Ramsey numbers to a matrix
 Zarankiewicz problem and states no bound on $\mathrm{ex}(n;K_{r,r})$; it is
 related activity, not progress.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the pinned
 commit; the Crossref records for Brown's paper (doi:10.4153/CMB-1966-036-2) and
 for the Kollár--Rónyai--Szabó and Alon--Rónyai--Szabó papers (bibliographic
@@ -303,14 +303,14 @@ Kollár--Rónyai--Szabó's, Bukh's and Ball--Pepe's papers beyond their abstract
 [Er71] is compiled through its item 15 and [Er93] at statement depth, as the
 References record. Nothing found changes the status.
 
-**Remaining gaps.** (1) The site's key [Er67b] was not resolved to a
-bibliographic entry. (2) Of the Erdős sources the site lists, [Er81], [Er71]
-(display (2), through its item page) and [Er93] (at statement depth, adding
-no result beyond the cases $r=2,3$) are compiled; the passages of [Er64c],
-[Er67b], [Er69], [Er74c] and [Er75] are not. (3) Füredi's
-asymptotic for $K_{3,3}$ and the Kollár--Rónyai--Szabó theorem are recorded
-second-hand from [ARS99]. (4) Proof coverage is statements only: (1.5), (3.1),
-(6.1), Brown's construction and (2.8), Corollary 2 of [ERS66] and Corollary 6 of
+**Remaining gaps.** (1) The erdosproblems.com key [Er67b] was not resolved to a
+bibliographic entry. (2) Of the Erdős sources erdosproblems.com lists, [Er81],
+[Er71] (display (2), through its item page) and [Er93] (at statement depth,
+adding no result beyond the cases $r=2,3$) are compiled; the passages of
+[Er64c], [Er67b], [Er69], [Er74c] and [Er75] are not. (3) Füredi's asymptotic
+for $K_{3,3}$ and the Kollár--Rónyai--Szabó theorem are recorded second-hand
+from [ARS99]. (4) Proof coverage is statements only: (1.5), (3.1), (6.1),
+Brown's construction and (2.8), Corollary 2 of [ERS66] and Corollary 6 of
 [ARS99] are claims checked; the proofs of (1.5) and of Brown's theorem were read
 for structure and not checked, and nothing is independently reviewed. (5) The
 Lean file is a statement without a proof. (6) [Bu24] and [BaPe12] are known

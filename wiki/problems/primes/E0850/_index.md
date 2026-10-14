@@ -25,11 +25,11 @@ updated: 2026-10-07T21:33:46Z
 have the same prime factors, $x+1,y+1$ have the same prime factors, and
 $x+2,y+2$ also have the same prime factors?
 
-**Formulation.** The site leaves the range of $x$ and $y$ implicit. Its curator
-states in
-[the problem's forum thread](https://www.erdosproblems.com/forum/thread/850#post-3438)
-(19 January 2026) that $x,y\ge1$ is meant. The
-[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/850.lean)
+**Formulation.** erdosproblems.com leaves the range of $x$ and $y$ implicit. Its
+curator states in [the problem's forum
+thread](https://www.erdosproblems.com/forum/thread/850#post-3438) (19
+January 2026) that $x,y\ge1$ is meant. The [formal-conjectures
+statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/850.lean)
 takes $x$ and $y$ to be natural numbers, and zero adds no solution. Over all
 integers the question has the trivial answer yes ($x=2$, $y=-4$: the pairs
 $2,-4$, $3,-3$ and $4,-2$ each have the same prime factors), but that is not
@@ -64,8 +64,9 @@ https://www.erdosproblems.com/850.
 
 ## Current assessment
 
-The status above is imported from the dated site record. Shorey and Tijdeman
-prove that the answer is no under Baker's explicit form of the abc conjecture;
+The status above is imported from the dated erdosproblems.com record. Shorey and
+Tijdeman prove that the answer is no under Baker's explicit form of the abc
+conjecture;
 [[problems/primes/E0850/claims/2016_12_16_shorey_tijdeman|their claim page]]
 records that conditional result, which gives no unconditional answer. The note
 below records an author-recorded reconstruction from a research folder and is

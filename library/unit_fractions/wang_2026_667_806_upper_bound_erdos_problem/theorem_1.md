@@ -4,7 +4,7 @@ title: "Theorem 1: f(N) ≤ (667/806 + o(1))N for unit-fraction-free subsets of 
 desc: |
   The manuscript's claimed upper bound for the extremal function of Problem
   301, from a finite divisor certificate on the divisors of 720; an
-  unrefereed manuscript that the site's discussion describes as
+  unrefereed manuscript that the erdosproblems.com discussion describes as
   AI-generated.
 created: 2026-09-17T16:25:00Z
 updated: 2026-10-08T14:47:55Z
@@ -31,16 +31,16 @@ f(N)\le\Bigl(\frac{667}{806}+o(1)\Bigr)N.
 $$
 
 Numerically (p. 2) $667/806\approx0.8275434243<163/195\approx0.8358974359<25/28\approx0.8928571429$,
-where $25/28$ is the bound the site records.
+where $25/28$ is the bound erdosproblems.com records.
 
 **Source.** Xinjun Wang, *A 667/806 Upper Bound for Erdős Problem #301 on
 Unit-Fraction-Free Sets*, the nine-page manuscript (title page
 dated May 27, 2026; posted on ResearchGate; no arXiv version, no journal),
 Theorem 1 on p. 2, read on the page image and in the text layer. This is
 an author's claim with no acceptance evidence: the manuscript is not
-refereed, the site does not cite it, and the site's Problem 301 discussion
-thread (comment by the account Woett, 04 Jul 2026) describes it as
-AI-generated without a disclaimer; the manuscript itself carries no statement
+refereed, erdosproblems.com does not cite it, and erdosproblems.com's Problem
+301 discussion thread (comment by the account Woett, 04 Jul 2026) describes it
+as AI-generated without a disclaimer; the manuscript itself carries no statement
 about its authorship process.
 
 **Read depth.** Claims checked for the statement only: Theorem 1 and the
@@ -72,12 +72,11 @@ $v_3(m)\equiv0\pmod3$ and $v_5(m)\equiv0\pmod2$ (equation (4), p. 4);
 Lemma 2 (p. 4) shows the dilates $mD$, $m\in\mathcal M$, are pairwise
 disjoint, and Lemma 3 (p. 4) gives $\mathcal M$ density $120/403$. Summing
 the forced omissions $j-\alpha(D_j)$ over the partial blocks $mD\cap[N]$
-(Section 4, pp. 4--5; the same multiplicative-shift device as the site's
-$25/28$ argument) gives the weighted sum $139/240$ (equation (6), p. 5) and
-a forced missing density of $(120/403)(139/240)=139/806$, hence the bound
-$1-139/806=667/806$. The
-script's reported output (p. 9) is `forced_omission_density = 139/806`
-and `upper_bound = 667/806`.
+(Section 4, pp. 4--5; the same multiplicative-shift device as
+erdosproblems.com's $25/28$ argument) gives the weighted sum $139/240$ (equation
+(6), p. 5) and a forced missing density of $(120/403)(139/240)=139/806$, hence
+the bound $1-139/806=667/806$. The script's reported output (p. 9) is
+`forced_omission_density = 139/806` and `upper_bound = 667/806`.
 
 ## Dependencies
 
@@ -92,6 +91,6 @@ and `upper_bound = 667/806`.
 
 - [[../wiki/problems/unit_fractions/E0301/_index|Problem 301]]: the smallest upper-bound
   constant stated in a written manuscript read for that page, recorded
-  there as a qualified lead (unrefereed, AI-generated per the site
+  there as a qualified lead (unrefereed, AI-generated per the erdosproblems.com
   thread, certificate not rerun) and not as an established bound; it does
   not approach the conjectured $\frac12$.

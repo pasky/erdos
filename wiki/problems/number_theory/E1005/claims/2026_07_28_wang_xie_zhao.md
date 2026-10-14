@@ -67,17 +67,18 @@ Wang (account dct) on 28 July 2026, giving "GPT 5.6" as the AI used:
 > Notes: This proposed proof has not yet been peer reviewed. Comments,
 > corrections, and counterexamples are welcome.
 
-**Standing.** The claim was filed on the site's proof-claims tab on 28 July 2026
-by the first author, Y. Wang, with a link to the manuscript in the authors'
-repository, committed the same day; the preprint, by Wang, Xie and Zhao, was
-posted to arXiv on 16 August 2026, the only version, with the computation's code
-in the same repository (listed, not run). The tab entry names GPT 5.6 as the
-system used, and the paper's AI-use declaration (p. 9) says that the authors
-used ChatGPT-5.6 to assist in generating candidate proof strategies and verified
-and refined every suggestion. The entry itself notes that the proof is not peer
-reviewed. The site has not accepted the claim (its commentary rests on
-Cipollini's lower bound), no refereed publication, no formalization and no
-outside review was found (2026-09-18). The claim stays claimed.
+**Standing.** The claim was filed on the erdosproblems.com proof-claims tab on
+28 July 2026 by the first author, Y. Wang, with a link to the manuscript in the
+authors' repository, committed the same day; the preprint, by Wang, Xie and
+Zhao, was posted to arXiv on 16 August 2026, the only version, with the
+computation's code in the same repository (listed, not run). The tab entry names
+GPT 5.6 as the system used, and the paper's AI-use declaration (p. 9) says that
+the authors used ChatGPT-5.6 to assist in generating candidate proof strategies
+and verified and refined every suggestion. The entry itself notes that the proof
+is not peer reviewed. erdosproblems.com has not accepted the claim (its
+commentary rests on Cipollini's lower bound), no refereed publication, no
+formalization and no outside review was found (2026-09-18). The claim stays
+claimed.
 
 **Depends on.**
 [[problems/number_theory/E1005/claims/2026_07_04_cipollini|Cipollini's page]],

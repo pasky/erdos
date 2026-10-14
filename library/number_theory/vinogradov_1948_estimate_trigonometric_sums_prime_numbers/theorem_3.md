@@ -91,9 +91,9 @@ and Lemma 8 of the same paper; the theorem of Chapter VIII of the author's
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0972/_index|Problem 972]]: the site's
-  commentary and Erdős's 1965 lecture cite this paper for the uniform
-  distribution of $\{p\alpha\}$, $\alpha$ irrational, from which the
+- [[../wiki/problems/number_theory/E0972/_index|Problem 972]]: the
+  erdosproblems.com commentary and Erdős's 1965 lecture cite this paper for the
+  uniform distribution of $\{p\alpha\}$, $\alpha$ irrational, from which the
   problem page derives the one-prime statement. Theorem 3 is a distribution
   law of that kind for polynomial phases with a coefficient of degree at
   least $2$ near a rational, and does not state the linear case; it does not

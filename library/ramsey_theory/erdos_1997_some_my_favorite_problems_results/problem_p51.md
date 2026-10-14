@@ -31,7 +31,7 @@ present."
 
 Two filing observations, not review verdicts. The chapter's $r_k(n)$ is the
 smallest size that forces a $k$-term progression, which is one more than
-the site's $r_k(N)$, the largest size of a progression-free subset; an
+erdosproblems.com's $r_k(N)$, the largest size of a progression-free subset; an
 asymptotic formula for one is an asymptotic formula for the other, and the
 bounds transfer unchanged. The Salem--Spencer exponent is printed
 "$1-c\log\log n$" where their bound is $n^{1-c/\log\log n}$, and Roth's
@@ -61,12 +61,12 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0140/_index|Problem 140]]: the site's source
-  for the problem; the offer for $r_3(n)<n/(\log n)^c$ for every $c$
-  is the problem's statement and the prize the site records, in the
-  "smallest forcing size" normalization recorded above, which leaves the
-  bound unchanged.
-- [[../wiki/problems/additive_combinatorics/E0142/_index|Problem 142]]: the site's source
-  for the problem; the request for an asymptotic formula for $r_k(n)$ with
-  a prize offer, in the "smallest forcing size"
+- [[../wiki/problems/additive_combinatorics/E0140/_index|Problem 140]]: the
+  erdosproblems.com source for the problem; the offer for $r_3(n)<n/(\log n)^c$
+  for every $c$ is the problem's statement and the prize erdosproblems.com
+  records, in the "smallest forcing size" normalization recorded above, which
+  leaves the bound unchanged.
+- [[../wiki/problems/additive_combinatorics/E0142/_index|Problem 142]]: the
+  erdosproblems.com source for the problem; the request for an asymptotic
+  formula for $r_k(n)$ with a prize offer, in the "smallest forcing size"
   normalization recorded above.

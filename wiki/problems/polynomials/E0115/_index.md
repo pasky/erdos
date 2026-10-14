@@ -36,9 +36,9 @@ $$
 \max_{\substack{z\in\mathbb{C}\\ \lvert p(z)\rvert\leq 1}} \lvert p'(z)\rvert \leq (\tfrac{1}{2}+o(1))n^2?
 $$
 
-**Notes.** The site's wording puts no normalization on $p$. The change writes
-$p(z)=z^n+\ldots$, so that $p$ is monic; nothing else changes. The evidence is
-Erdős's own statement of the problem. [Er61], Problem IV.1, p. 246
+**Notes.** The erdosproblems.com wording puts no normalization on $p$. The
+change writes $p(z)=z^n+\ldots$, so that $p$ is monic; nothing else changes. The
+evidence is Erdős's own statement of the problem. [Er61], Problem IV.1, p. 246
 ([[../library/number_theory/erdos_1961_unsolved_problems/_index|Some unsolved problems]]),
 opens "Let $z^n+\ldots$ be a polynomial of degree $n$" and asks on p. 247
 whether $\max_{z\in E_f^{(n)}}\lvert f'(z)\rvert<\frac{n^2}{2}$ when
@@ -48,12 +48,12 @@ first of which, Problem 4.7, takes $f(z)=z^n+a_1z^{n-1}+\ldots+a_n$
 ([[../library/polynomials/hayman_lingham_2018_research_problems_function_theory/_index|Research Problems in Function Theory]],
 the 2018 edition, which keeps the 1967 numbering), and Eremenko and Lempert
 state it from there with $f(z)\sim z^n$ as $z\to\infty$, their (1) on p. 191.
-The site's own commentary fits only monic polynomials: it says the maximum is
-at least $n$, with equality only for $p(z)=z^n$, and for $cz^n$ with
-$\lvert c\rvert<1$ the maximum is $n\lvert c\rvert^{1/n}<n$. The defect is the
-site's; Erdős's text carries the normalization. The form comes from [Er61],
-not from the hypotheses of the theorem that settles it. No result about the
-site's wording is recorded.
+erdosproblems.com's own commentary fits only monic polynomials: it says the
+maximum is at least $n$, with equality only for $p(z)=z^n$, and for $cz^n$ with
+$\lvert c\rvert<1$ the maximum is $n\lvert c\rvert^{1/n}<n$. The defect is
+erdosproblems.com's; Erdős's text carries the normalization. The form comes from
+[Er61], not from the hypotheses of the theorem that settles it. No result about
+the erdosproblems.com wording is recorded.
 
 **Formulation.** Erdős asked for the exact bound $n^2/2$ in place of
 $(\tfrac12+o(1))n^2$ [Er61, p. 247, (IV.1.1)], with a strict inequality, and
@@ -61,21 +61,21 @@ added that (IV.1.1), if true, is best possible, as the $n$-th Chebyshev
 polynomial shows. That question has the answer no for every $n$: Eremenko and
 Lempert's extremal polynomial $f_n(z)=T_n(2^{(1-n)/n}z+1)$ is monic, has its
 critical values at $\pm1$, so that its set $E_{f_n}$ is connected, and has
-$f_n(0)=1$ and $f_n'(0)=2^{1/n-1}n^2>n^2/2$ [ErLe94, pp. 191--192]. The site
-records that Szabados observed that the bound without the $o(1)$ term is too
-strong; Eremenko and Lempert report that a later survey of Erdős noted that
-the bound must be replaced by $\tfrac12\{1+o(1)\}n^2$, and Hayman's Update
-4.8 records Eremenko's remark that the bound $\tfrac12n^2$ fails for
-Chebyshev's polynomials. The site states the problem with the $o(1)$ term,
-and that question, made monic, sets the standing.
+$f_n(0)=1$ and $f_n'(0)=2^{1/n-1}n^2>n^2/2$ [ErLe94, pp. 191--192].
+erdosproblems.com records that Szabados observed that the bound without the
+$o(1)$ term is too strong; Eremenko and Lempert report that a later survey of
+Erdős noted that the bound must be replaced by $\tfrac12\{1+o(1)\}n^2$, and
+Hayman's Update 4.8 records Eremenko's remark that the bound $\tfrac12n^2$ fails
+for Chebyshev's polynomials. erdosproblems.com states the problem with the
+$o(1)$ term, and that question, made monic, sets the standing.
 
-**Status.** Proved. The site's label was PROVED (LEAN), and it describes the
-modified Statement. Its Lean marker refers to a formal proof by others, linked
-from the claim page. That proof is unbuilt and unaudited in this corpus. The
-modified Statement is proved. Eremenko and Lempert [ErLe94] prove the sharp
-bound $2^{1/n-1}n^2$, which a shifted Chebyshev polynomial attains. Their paper
-is refereed in the Proceedings of the AMS and credited by the site. The corpus
-accepts it on the claim page
+**Status.** Proved. The erdosproblems.com label was PROVED (LEAN), and it
+describes the modified Statement. Its Lean marker refers to a formal proof by
+others, linked from the claim page. That proof is unbuilt and unaudited in this
+corpus. The modified Statement is proved. Eremenko and Lempert [ErLe94] prove
+the sharp bound $2^{1/n-1}n^2$, which a shifted Chebyshev polynomial attains.
+Their paper is refereed in the Proceedings of the AMS and credited by
+erdosproblems.com. The corpus accepts it on the claim page
 [[problems/polynomials/E0115/claims/1994_09_01_eremenko_lempert|Eremenko and Lempert 1994]].
 
 **Source.** [erdosproblems.com/115](https://www.erdosproblems.com/115), accessed
@@ -115,20 +115,20 @@ $(2^{1/n}-1)/2$, about $(\log2)/(2n)$, since
 $2^{1/n-1}n^2=(\tfrac12+\tfrac12(2^{1/n}-1))n^2$. The lower bound $n$ is
 trivial, attained only by $z^n$, and the connectedness hypothesis cannot be
 dropped, as $z^2+10z+1$ shows; Pommerenke [Po59a] had the bound $\tfrac e2n^2$.
-The accepted claim page carries the acceptance (refereed, credited by the site)
-and records a Lean proof of the sharp bound by others. Proof coverage: the
-library card records Theorem 1 and its sharpness and does not verify the proof,
-so the paper's proof is unverified in this corpus, and the Lean development is
-unbuilt and unaudited.
+The accepted claim page carries the acceptance (refereed, credited by
+erdosproblems.com) and records a Lean proof of the sharp bound by others. Proof
+coverage: the library card records Theorem 1 and its sharpness and does not
+verify the proof, so the paper's proof is unverified in this corpus, and the
+Lean development is unbuilt and unaudited.
 
-Search scope: the site's problem page, the community database entry
-(proved with a Lean marker as of its last update), the formal-conjectures
-statement and the linked `lean-proofs` file at its pinned commit, and the
-library card
+Search scope, 2026-10-07: the erdosproblems.com problem page, the community
+database entry (proved with a Lean marker as of its last update), the
+formal-conjectures statement and the linked `lean-proofs` file at its pinned
+commit, and the library card
 [[../library/polynomials/eremenko_1994_extremal_problem_polynomials/_index|Eremenko and Lempert 1994]];
 no forum proof claim and no OpenAI release item names this problem. No wider
-literature search was made, none being needed for a refereed answer the site
-credits.
+literature search was made, none being needed for a refereed answer
+erdosproblems.com credits.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 320, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/unit_fractions/E0320/claims
@@ -26,8 +26,8 @@ magnitude.
 
 [[problems/unit_fractions/E0320/claims/2026_07_15_young_zhu_luo|2026_07_15_young_zhu_luo]]: Young, Zhu and Luo's AI-assisted proof that $\log S(N)$ has the order of
 $\frac{N}{\log N}\prod_{j=3}^{k}\log_jN$, with $\log_kN$ the last iterated
-logarithm exceeding $1$, matching the refereed lower bound. The site accepts
-it.
+logarithm exceeding $1$, matching the refereed lower bound. erdosproblems.com
+accepts it.
 
 [[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|2026_07_22_kominers_neu]]: Kominers and Neu's AI-assisted claim of an asymptotic formula for $\log S(N)$
 with a non-constant periodic phase factor and a second-order term. It comes

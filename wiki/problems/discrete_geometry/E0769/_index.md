@@ -27,13 +27,13 @@ $n$-dimensional unit cube can be decomposed into $k$ homothetic $n$-dimensional
 cubes. Give good bounds for $c(n)$ - in particular, is it true that $c(n) \gg
 n^n$?
 
-**Status.** Labeled open on the site. The erdosproblems.com page labeled the
-problem OPEN (page last edited 1 October 2025). Its proof-claims tab carries two
-partial proof claims: Jeffrey Zeng's listing of 24 July 2026 and Samuel Korsky's
-manuscript of 5 August 2026. A third partial claim is not on the tab. It is the
-Lean disproof of the $n^n$ bound, which Star Fleet Math lists with a report
-dated 14 July 2026 and which the formal-conjectures catalog links. Each of the
-three is recorded on its own page under
+**Status.** Labeled open on erdosproblems.com. The erdosproblems.com page
+labeled the problem OPEN (page last edited 1 October 2025). Its proof-claims tab
+carries two partial proof claims: Jeffrey Zeng's listing of 24 July 2026 and
+Samuel Korsky's manuscript of 5 August 2026. A third partial claim is not on the
+tab. It is the Lean disproof of the $n^n$ bound, which Star Fleet Math lists
+with a report dated 14 July 2026 and which the formal-conjectures catalog links.
+Each of the three is recorded on its own page under
 [[problems/discrete_geometry/E0769/claims/_index|claims]] without being adopted.
 The standing in the frontmatter is derived from the claim pages.
 
@@ -52,10 +52,10 @@ https://www.erdosproblems.com/769.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/769.lean),
-pinned at the catalog's revision of 2026-09-18: the theorem `erdos_769`,
-stating that the answer to $c(n)\gg n^n$ is no, is tagged `research solved`
-with a `sorry` proof and a `formal_proof` attribute naming Star Fleet Math's
-Lean disproof, linked since 2026-08-07, while the variant
+pinned at the formal-conjectures revision of 2026-09-18: the theorem
+`erdos_769`, stating that the answer to $c(n)\gg n^n$ is no, is tagged
+`research solved` with a `sorry` proof and a `formal_proof` attribute naming
+Star Fleet Math's Lean disproof, linked since 2026-08-07, while the variant
 `erdos_769.variants.growth_rate`, asking whether $\log c(n)/(n\log n)$ has a
 limit, is tagged `research open`; the claim page
 [[problems/discrete_geometry/E0769/claims/2026_07_14_snyder|Star Fleet Math]]
@@ -63,12 +63,12 @@ links that proof.
 
 ## Current assessment
 
-- **Question and standing.** The site formulation above asks for the order of
-  $c(n)$, the least $k_0$ such that the unit $n$-cube splits into $k$
-  homothetic cubes for every $k\ge k_0$, and in particular whether $c(n)\gg
-  n^n$. No claim settles the problem, so it is open. Three pending partial
-  claims bear on the particular question, each giving a negative answer. The
-  earliest is
+- **Question and standing.** The erdosproblems.com formulation above asks for
+  the order of $c(n)$, the least $k_0$ such that the unit $n$-cube splits into
+  $k$ homothetic cubes for every $k\ge k_0$, and in particular whether
+  $c(n)\gg n^n$. No claim settles the problem, so it is open. Three pending
+  partial claims bear on the particular question, each giving a negative answer.
+  The earliest is
   [[problems/discrete_geometry/E0769/claims/2026_07_14_snyder|Star Fleet Math's Lean development]],
   dated 14 July 2026, whose theorem states that no absolute constant bounds
   $c(n)/n^n$ below, through the threshold $n\,2^n\lceil49n/100\rceil^n+2$ for
@@ -87,10 +87,10 @@ links that proof.
   bound in the case $n+1$ prime, where Erdős expected $c(n)>n^n$ and where the
   known upper bound is of order $n^{n+1}$; Korsky's lower bound alone reaches
   that case, since it holds for every large even $n$.
-- **Known results.** The site records the value $c(2)=6$, Meier's conjecture
-  $c(3)=48$ and Hadwiger's lower bound $c(n)\ge2^n+2^{n-1}$; [Er74b] records
-  that bound without a reference, and the site cites none, so it has no claim
-  page. Three published bounds have partial claim pages:
+- **Known results.** erdosproblems.com records the value $c(2)=6$, Meier's
+  conjecture $c(3)=48$ and Hadwiger's lower bound $c(n)\ge2^n+2^{n-1}$; [Er74b]
+  records that bound without a reference, and erdosproblems.com cites none, so
+  it has no claim page. Three published bounds have partial claim pages:
   [[problems/discrete_geometry/E0769/claims/1974_01_01_burgess_erdos|Burgess and Erdős]]
   [Er74b], $c(n)\le(2^n-2)((n+1)^n-2)-1$, with $c(n)\ll n^{n+1}$ stated
   without proof, in a congress volume and so claimed;
@@ -129,7 +129,7 @@ links that proof.
   character-nonresidue step of Korsky's argument, whose exponent rests on
   Pollack's Burgess-scale estimate, but no one has written that deduction, so
   the item is background here and gives no claim page.
-- **Status search.** The site's page and proof-claims tab, the
+- **Status search.** The erdosproblems.com page and proof-claims tab, the
   formal-conjectures catalog and the community database (which lists the
   problem as formalized) are the sources of the claims above. No broader
   literature search is recorded.

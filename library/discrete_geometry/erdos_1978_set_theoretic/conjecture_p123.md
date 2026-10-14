@@ -55,6 +55,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/analysis/E0120/_index|Problem 120]]: the conjecture is
-  the problem, whose site statement asks for a set of positive measure
-  containing no set $aA+b$ with $a\ne0$. The paper states it as open and
+  the problem, whose erdosproblems.com statement asks for a set of positive
+  measure containing no set $aA+b$ with $a\ne0$. The paper states it as open and
   proves nothing toward it.

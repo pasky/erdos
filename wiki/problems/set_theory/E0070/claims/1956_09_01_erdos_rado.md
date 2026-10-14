@@ -35,9 +35,9 @@ countable. With the two colors exchanged, $\lambda\to(\beta,4)^3_2$ for every
 $\beta<\omega 2$: every two-coloring of the triples of reals has either a set of
 reals of order type $\beta$ all of whose triples have the first color or a set
 of four reals all of whose triples have the second. The relation
-$\mathfrak c\to(\omega+n,4)^3_2$ that the site's commentary credits to Erdős and
-Rado is the case $\beta=\omega+n$, and Erdős [Er87] calls it an old result of
-Rado and himself. The source card is
+$\mathfrak c\to(\omega+n,4)^3_2$ that the erdosproblems.com commentary credits
+to Erdős and Rado is the case $\beta=\omega+n$, and Erdős [Er87] calls it an old
+result of Rado and himself. The source card is
 [[../library/set_theory/erdos_1956_partition_calculus_set_theory/_index|erdos_1956_partition_calculus_set_theory]].
 
 **Covers.** The instances $(\beta,n)$ of
@@ -52,7 +52,8 @@ linked above.
 **Acceptance.** Refereed: Bull. Amer. Math. Soc. 62 (1956), no. 5, 427–489,
 received by the editors on 17 May 1955. Theorem 31 is on p. 447, and the proof
 of (30) is on pp. 454–457. The page is dated by the September 1956 issue. The
-issue gives no day, so the first of the month stands in for it. The site credits
-the result in its commentary but labeled the problem OPEN, so the commentary is
-not `reviewed` evidence. No formal proof of the relation is recorded, so no
-`formalized` evidence is listed. Nothing here is this project's own review.
+issue gives no day, so the first of the month stands in for it.
+erdosproblems.com credits the result in its commentary but labeled the problem
+OPEN, so the commentary is not `reviewed` evidence. No formal proof of the
+relation is recorded, so no `formalized` evidence is listed. Nothing here is
+this project's own review.

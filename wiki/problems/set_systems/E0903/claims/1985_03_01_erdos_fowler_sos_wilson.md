@@ -4,7 +4,7 @@ title: Erdős, Fowler, Sós and Wilson's gap theorem for 2-designs
 desc: |
   Erdős, Fowler, Sós and Wilson (1985) prove that no 2-design on $n=p^2+p+1$
   points has a block count strictly between $n$ and $n+p$, and that $n+p$ is
-  attained. The paper is refereed, and the site credits it.
+  attained. The paper is refereed, and erdosproblems.com credits it.
 authors:
 - P. Erdős
 - Joel C. Fowler
@@ -54,8 +54,8 @@ $p^2+2p+1$ blocks comes from a projective plane of order $p$ by replacing one
 line with a near pencil or a projective plane on its points, and Theorem 4 says
 that a design on these points that is not a projective plane, a near pencil or
 obtained from a projective plane by replacing one line has more than
-$p^2+(2+c)p$ blocks with $c=0.147899$; the site's commentary reports the
-latter as $t\ge n+cp$ with $c\approx1.148$. The
+$p^2+(2+c)p$ blocks with $c=0.147899$; the erdosproblems.com commentary reports
+the latter as $t\ge n+cp$ with $c\approx1.148$. The
 [[../library/set_systems/erdos_1985_2_designs/_index|source card]] records
 the paper's results, including Theorem 1 on the block counts a 2-design on
 $v$ points can have.
@@ -65,11 +65,11 @@ $v$ points can have.
 **Acceptance.** Published in the Journal of Combinatorial Theory, Series A 38
 (1985), no. 2, 131–142 (`refereed`). The paper prints its receipt date,
 1982-12-09. The issue is dated March 1985 without a day, so the page is dated to
-the first day of that month. The site's curator, Thomas Bloom, listed Problem
-903 as proved and credits it to Erdős, Fowler, Sós and Wilson [EFSW85]
+the first day of that month. The erdosproblems.com curator, Thomas Bloom, listed
+Problem 903 as proved and credits it to Erdős, Fowler, Sós and Wilson [EFSW85]
 (`reviewed`). The reference was reported in the problem's forum thread on 14
-October 2025 by a commenter who says it was located with GPT-5, and the site's
-page was updated to credit it. No Lean formalization is known. The
-formal-conjectures statement file, linked from the problem page, states the
+October 2025 by a commenter who says it was located with GPT-5, and the
+erdosproblems.com page was updated to credit it. No Lean formalization is known.
+The formal-conjectures statement file, linked from the problem page, states the
 result as `research solved` with a `sorry` body and no `formal_proof` pointer. A
 statement file is not a formalization.

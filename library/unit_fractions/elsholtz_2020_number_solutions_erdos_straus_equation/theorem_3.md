@@ -84,8 +84,9 @@ examined here.
 
 ## Bears on
 
-- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: the site's "for almost all
-  $n$, $f(n)\ge(\log n)^{\log6+o(1)}$" is the case $m=4$ of the last bound
+- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]:
+  erdosproblems.com's "for almost all $n$, $f(n)\ge(\log n)^{\log6+o(1)}$" is
+  the case $m=4$ of the last bound
   ($\exp((\log6+o(1))\log\log n)=(\log n)^{\log6+o(1)}$); $f_3$ counts
   nondecreasing triples, so repeated denominators are not excluded; a lower
   bound on a density-one set says nothing about the remaining $n$.

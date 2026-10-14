@@ -41,8 +41,9 @@ $n!=\prod_{s\in S}(a+s)$ for some $a\ge1$ and some $S\subseteq\{0,\ldots,m\}$
 containing $0$ and $m$, so $n!=P_S(a)$ for one of the finitely many polynomials
 $P_S(X)=\prod_{s\in S}(X+s)$, each of degree $|S|\ge2$. Each of these equations
 is solvable for a set of $n$ of density zero, so with $F_m(N)$ the number of
-$n\le N$ with $f(n)=m$, $F_m(N)=o(N)$ for each fixed $m$, as the site's remarks
-state; equivalently, for every $M$ the $n$ with $f(n)\le M$ have density zero.
+$n\le N$ with $f(n)=m$, $F_m(N)=o(N)$ for each fixed $m$, as the
+erdosproblems.com remarks state; equivalently, for every $M$ the $n$ with
+$f(n)\le M$ have density zero.
 
 **Covers.** The density statement only: for each fixed $m$, $F_m(N)=o(N)$, so
 $f(n)\le M$ holds on a set of density zero for every $M$. It settles no bound on
@@ -53,7 +54,7 @@ unconditionally.
 
 **Acceptance.** Refereed: the Journal of Number Theory, volume 42, issue 2
 (October 1992), pp. 189--193; the Crossref record of the DOI gives these data.
-The site labeled the problem OPEN, so its remark crediting the result is
+Bloom's catalog labeled the problem OPEN, so its remark crediting the result is
 commentary on an open problem and not acceptance, and no `reviewed` evidence is
 listed. The proof is not checked here.
 

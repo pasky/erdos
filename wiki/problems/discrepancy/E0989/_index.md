@@ -37,15 +37,15 @@ diophantine approximations, Compositio Math. 16 (1964), p. 54, defines $f(r)$
 as the largest value of $N(z_0,r)-\pi r^2$ over circles of radius $r$, without
 the absolute value. It asks how fast $f(r)$ or its running maximum
 $F(r)=\max_{0\le R\le r}f(R)$ tends to infinity. The second question is read
-as its source reads it: a question about the growth of $f$ or of $F$, with the
-site's absolute value kept. In this reading Beck's bounds answer it: the least
-possible $F(r)$ lies between constant multiples of $r^{1/2}$ and
+as its source reads it: a question about the growth of $f$ or of $F$, with
+erdosproblems.com's absolute value kept. In this reading Beck's bounds answer
+it: the least possible $F(r)$ lies between constant multiples of $r^{1/2}$ and
 $(r\log r)^{1/2}$. The growth of $f$ at each fixed radius for one set is not
 determined.
 
-**Status.** Solved, the site's label. Beck [Be87] proved two results. First, for
-every infinite $A$ and every $r\ge1$, some disc of radius in $[cr,r]$ has
-discrepancy $\gg r^{1/2}$. So the running maximum $F(r)=\max_{R\le r}f(R)$
+**Status.** Solved, the erdosproblems.com label. Beck [Be87] proved two results.
+First, for every infinite $A$ and every $r\ge1$, some disc of radius in $[cr,r]$
+has discrepancy $\gg r^{1/2}$. So the running maximum $F(r)=\max_{R\le r}f(R)$
 satisfies $F(r)\gg r^{1/2}$, and $f(r)$ is unbounded for every $A$. Second, for
 each $r$ a periodic set keeps every disc of radius at most $r$ within
 $O((r\log r)^{1/2})$. These bounds concern $F(r)$ and an $r$-dependent
@@ -77,8 +77,8 @@ alone into "there is $A$ for every $r$". It names no informal or formal authors
 and does not present itself as a formalization of Beck's result, and its
 docstrings call the fixed-radius lower bound for every set "the unsupported
 universal square-root lower component" of the literal problem-page statement.
-The site's label carried no Lean qualifier, and on 2026-10-07 the site recorded
-no formal-conjectures statement file for the problem.
+The erdosproblems.com label carried no Lean qualifier, and on 2026-10-07
+erdosproblems.com recorded no formal-conjectures statement file for the problem.
 
 ## Progress
 

@@ -35,8 +35,9 @@ $$
 \liminf_{n\to \infty}h_\alpha(n) \ll_\alpha 1?
 $$
 
-**Status.** Proved. The site credits Vose [Vo84]. The accepted claim is recorded
-on [[problems/divisors/E1099/claims/1984_10_01_vose|Vose's claim page]].
+**Status.** Proved. erdosproblems.com credits Vose [Vo84]. The accepted claim is
+recorded on
+[[problems/divisors/E1099/claims/1984_10_01_vose|Vose's claim page]].
 Tenenbaum's 1987 theorem settles the question along the factorials, the least
 common multiples and the primorials. It is recorded on
 [[problems/divisors/E1099/claims/1987_01_01_tenenbaum|its own claim page]].
@@ -75,21 +76,22 @@ The question is whether $\liminf_n h_\alpha(n)\ll_\alpha1$ for each fixed
 $\alpha>1$; the term $i=1$ makes the limit inferior at least $1$. Vose's 1984
 construction answers yes, and Tenenbaum's 1987 Théorème 1 answers it again
 along the factorials, the least common multiples $\mathrm{lcm}(1,\dots,k)$ and
-the primorials, the sequences Erdős proposed, which the site's commentary
-(problem page last edited 19 October 2025) reports as unsettled. The standing
-derives from the two accepted claim pages:
+the primorials, the sequences Erdős proposed, which the erdosproblems.com
+commentary (problem page last edited 19 October 2025) reports as unsettled. The
+standing derives from the two accepted claim pages:
 [[problems/divisors/E1099/claims/1984_10_01_vose|Vose's]], on the curator's
 credit and the journal publication, and
 [[problems/divisors/E1099/claims/1987_01_01_tenenbaum|Tenenbaum's]], on the
 journal publication alone. A thread comment of 4 July 2026 reports a chat
 transcript in which GPT-5.5 claims an improved bound, with no manuscript; it
 is not recorded as a claim. Neither proof has been reproduced or reviewed in
-this wiki. No literature search beyond the site's page and thread is recorded.
+this wiki. No literature search beyond the erdosproblems.com page and thread is
+recorded.
 
 ## Known Results
 
 - Vose's 1984 construction [Vo84]: $\liminf_n h_\alpha(n)\ll_\alpha1$ for every
-  fixed $\alpha>1$; the site's accepted answer, on
+  fixed $\alpha>1$; erdosproblems.com's accepted answer, on
   [[problems/divisors/E1099/claims/1984_10_01_vose|Vose's claim page]].
 - Tenenbaum's 1987 Théorème 1 [Te87]: $h_\alpha$ is bounded along $k!$,
   $\mathrm{lcm}(1,\dots,k)$ and the primorials, on

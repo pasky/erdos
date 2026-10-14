@@ -43,7 +43,7 @@ $T$, so $c(n)\le\mathsf{sep}(n)$, where $\mathsf{sep}(n)$ is the largest
 number of minimal separators of a graph on $n$ vertices, and the bound gives
 $\limsup_n c(n)^{1/n}\le1.7087$. Bradač's note (J. Graph Theory 108 (2025),
 p. 1) and Gaspers and Mackenzie (J. Graph Theory 87 (2018), p. 2) credit the
-paper with this bound, and the site's commentary on
+paper with this bound, and the erdosproblems.com commentary on
 [[problems/extremal_graph_theory/E0150/_index|Problem 150]] credits it with
 the first proof that $\alpha<2$. Read depth: the journal record and its
 abstract; the paper itself was not read.
@@ -56,6 +56,6 @@ existence of the limit is not addressed.
 is the one line above.
 
 **Acceptance.** Refereed: the paper is a publication in the SIAM Journal on
-Computing. The site's curator credits the paper in the problem's commentary. The
-site lists no parts, and its label credited Bradač's note for the whole problem,
-so the credit is not listed as reviewed evidence.
+Computing. The erdosproblems.com curator credits the paper in the problem's
+commentary. erdosproblems.com lists no parts, and its label credited Bradač's
+note for the whole problem, so the credit is not listed as reviewed evidence.

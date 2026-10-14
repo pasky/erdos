@@ -6,7 +6,7 @@ desc: |
   B y^{x-1} log log y / log y for x at least 3, in the paper's convention in
   which R(x,y) is the largest order of a graph with no K_x and no y
   independent points, by induction on x from Proposition 9; the Ramsey
-  statement behind the site's chromatic-number bound on Problem 920.
+  statement behind erdosproblems.com's chromatic-number bound on Problem 920.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-07T15:37:17Z
 ---
@@ -75,13 +75,13 @@ repeat the counting of Proposition 9 at the higher levels.
 ## Bears on
 
 - [[../wiki/problems/graph_coloring/E0920/_index|Problem 920]]: the paper's statement
-  behind the site's "Graver and Yackel [GrYa68] proved
+  behind erdosproblems.com's "Graver and Yackel [GrYa68] proved
   $f_k(n)\ll(n\log\log n/\log n)^{1-1/(k-1)}$" for the largest chromatic
   number of a $K_k$-free graph on $n$ vertices. The translation on the
   source digest, removing largest independent sets in turn, gives
   $f_k(n)\ll n^{1-1/(k-1)}(\log\log n/\log n)^{1/(k-1)}$ from this
-  corollary; for $k=3$ that is the site's display, and for $k\ge4$ the
-  site's display, Erdős's 1969 form (4) read with the slash its print
-  omits, puts the larger exponent $1-1/(k-1)$ on the logarithmic factor,
+  corollary; for $k=3$ that is the erdosproblems.com display, and for $k\ge4$
+  the erdosproblems.com display, Erdős's 1969 form (4) read with the slash its
+  print omits, puts the larger exponent $1-1/(k-1)$ on the logarithmic factor,
   which this corollary's single factor does not yield. The problem's solved
   status rests on lower bounds from other papers and is unchanged.

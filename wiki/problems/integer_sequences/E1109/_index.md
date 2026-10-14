@@ -26,8 +26,8 @@ updated: 2026-10-14T00:16:44Z
 particular, is it true that $f(N)\leq N^{o(1)}$, or even $f(N) \leq (\log
 N)^{O(1)}$?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 3 December
-2025). Its commentary credits three sets of bounds: Erdős and Sárközy's
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 3
+December 2025). Its commentary credits three sets of bounds: Erdős and Sárközy's
 $\log N\ll f(N)\ll N^{3/4}\log N$,
 [[problems/integer_sequences/E1109/claims/1987_03_01_erdos_sarkozy|Erdős and Sárközy 1987]];
 Gyarmati's second proof of $f(N)\gg\log N$, by graph theory [Gy01], which does
@@ -37,7 +37,7 @@ $\log^2N\log\log N\ll f(N)\ll N^{11/15+o(1)}$, the best known,
 None answers either question. G. N. Sárközy [Sa92c] extends the problem to sums
 $A+B$ and to $k$-power-free sums. As Konyagin records (p. 494), Sárközy also
 improves the upper bound to $f(N)\ll N^{3/4}$. That bound is superseded by
-Konyagin's, and the site does not credit it, so it has no claim page.
+Konyagin's, and erdosproblems.com does not credit it, so it has no claim page.
 
 **Source.** [erdosproblems.com/1109](https://www.erdosproblems.com/1109),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1109,

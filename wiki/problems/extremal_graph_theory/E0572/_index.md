@@ -29,16 +29,16 @@ $$
 \mathrm{ex}(n;C_{2k})\gg n^{1+\frac{1}{k}}.
 $$
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 18
-January 2026). $\mathrm{ex}(n;C_{2k})$ is the largest number of edges of a graph
-on $n$ vertices with no cycle of length $2k$ as a subgraph. The question is
-asked for every fixed $k\ge3$, with the implied constant allowed to depend on
-$k$; the formal statement at the pinned commit (below) makes this explicit: some
-$c=c(k)>0$ with $\mathrm{ex}(n;C_{2k})\ge cn^{1+1/k}$ for all large $n$. The
-matching upper bound $\mathrm{ex}(n;C_{2k})\ll_kn^{1+1/k}$ was stated by Erdős
-in 1964 without proof and proved by Bondy and Simonovits in 1974, so the
-question is whether that bound is sharp in the exponent for every $k$. The
-wording excludes $k=2$, the $C_4$ case of
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 18 January 2026). $\mathrm{ex}(n;C_{2k})$ is the largest number of edges
+of a graph on $n$ vertices with no cycle of length $2k$ as a subgraph. The
+question is asked for every fixed $k\ge3$, with the implied constant allowed to
+depend on $k$; the formal statement at the pinned commit (below) makes this
+explicit: some $c=c(k)>0$ with $\mathrm{ex}(n;C_{2k})\ge cn^{1+1/k}$ for all
+large $n$. The matching upper bound $\mathrm{ex}(n;C_{2k})\ll_kn^{1+1/k}$ was
+stated by Erdős in 1964 without proof and proved by Bondy and Simonovits in
+1974, so the question is whether that bound is sharp in the exponent for every
+$k$. The wording excludes $k=2$, the $C_4$ case of
 [[problems/extremal_graph_theory/E0765/_index|Problem 765]], where the exponent
 $3/2$ is attained.
 
@@ -52,19 +52,20 @@ refereed in Canad. J. Math., which settles the instances $k=3$ and $k=5$. The
 instance $k=3$ is also the accepted partial claim
 [[problems/extremal_graph_theory/E0572/claims/1995_01_01_lazebnik_ustimenko_woldar|Lazebnik, Ustimenko and Woldar 1995]].
 Neither settles the problem. For $k=4$ and every $k\ge6$, no construction
-reaching the exponent $1+1/k$ is known. The best general lower bound the site
-cites is $\mathrm{ex}(n;C_{2k})\gg n^{1+2/(3k-3+\nu)}$, with $\nu=0$ for odd $k$
-and $\nu=1$ for even $k$. It comes from Lazebnik, Ustimenko and Woldar's 1995
-paper (the site cites their 1999 paper for history). It is of a smaller order
-than $n^{1+1/k}$ for every $k\ge4$, and at $k=3$ it gives the instance itself.
-The parity term is the paper's own (Corollary 3.3), and Chung's 1997 survey
-quotes the bound without it. The search whose scope the Current assessment
-records found no proof or disproof for any $k$ outside $\{3,5\}$. This is a
-bounded negative finding, not a certificate of openness.
+reaching the exponent $1+1/k$ is known. The best general lower bound
+erdosproblems.com cites is $\mathrm{ex}(n;C_{2k})\gg n^{1+2/(3k-3+\nu)}$, with
+$\nu=0$ for odd $k$ and $\nu=1$ for even $k$. It comes from Lazebnik, Ustimenko
+and Woldar's 1995 paper (erdosproblems.com cites their 1999 paper for history).
+It is of a smaller order than $n^{1+1/k}$ for every $k\ge4$, and at $k=3$ it
+gives the instance itself. The parity term is the paper's own (Corollary 3.3),
+and Chung's 1997 survey quotes the bound without it. The search dated 2026-09-18
+UTC whose scope the Current assessment records found no proof or disproof for
+any $k$ outside $\{3,5\}$. This is a bounded negative finding, not a certificate
+of openness.
 
 **Source.** [erdosproblems.com/572](https://www.erdosproblems.com/572),
 accessed 2026-09-18: the problem page (labeled OPEN; last edited 18 January 2026), its three-comment discussion thread and
-its empty proof-claim tab. The site cites [Er64c], [Er71, p. 103] and
+its empty proof-claim tab. erdosproblems.com cites [Er64c], [Er71, p. 103] and
 [Er74c, p. 78] as the problem's sources and [Er38], [BoSi74], [Be66], [LUW95]
 and [LUW99] in its commentary; it points to Problem 765 and gives the
 problem's number, 46, in the extremal chapter of the graphs problem
@@ -106,7 +107,7 @@ Problem #572, https://www.erdosproblems.com/572, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/equation_5|equation_5]].
 - [Er75] Erdős, P., Some recent progress on extremal problems in graph
   theory. Congr. Numer. XIV (1975), 3--14; Chapter 1, printed pp. 4 and 7.
-  Not cited by the site for this problem.
+  Not cited by erdosproblems.com for this problem.
   Library home:
   [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|erdos_1975_recent_progress_extremal_problems_graph_theory]];
   the passage is paged at
@@ -121,11 +122,11 @@ Problem #572, https://www.erdosproblems.com/572, accessed 2026-09-18.
 - [LUW99] Lazebnik, Felix and Ustimenko, Vasiliy A. and Woldar, Andrew J.,
   Polarities and $2k$-cycle-free graphs. Discrete Math. 197/198 (1999),
   503--513; doi:10.1016/S0012-365X(99)90107-3 (the Crossref record carries the
-  publisher's open-archive license dated 17 July 2013). Not held; the site cites
-  it for the history and further references.
+  publisher's open-archive license dated 17 July 2013). Not held;
+  erdosproblems.com cites it for the history and further references.
 - [Ch97] Chung, F. R. K., Open problems of Paul Erdős in graph theory. J.
   Graph Theory 25 (1997), 3--36; Problem (35), p. 9 of the author preprint.
-  Not cited by the site; named in the discussion thread. Library
+  Not cited by erdosproblems.com; named in the discussion thread. Library
   home:
   [[../library/extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/_index|chung_1997_open_problems_paul_erdos_graph_theory]];
   paged at
@@ -134,15 +135,15 @@ Problem #572, https://www.erdosproblems.com/572, accessed 2026-09-18.
   certain families of $2k$-cycle-free graphs. J. Combin. Theory Ser. B 60
   (1994), 293--298; the Note added in proof, p. 297. Library home:
   [[../library/extremal_graph_theory/lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs/_index|lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs]].
-  Not cited by the site for this problem.
+  Not cited by erdosproblems.com for this problem.
 - [FuGu15] Füredi, Z. and Gunderson, D. S., Extremal numbers for odd cycles.
   Combin. Probab. Comput. 24 (2015), no. 4, 641--645; arXiv:1310.6766; Theorem
-  1. Not cited by the site; not in the library.
+  1. Not cited by erdosproblems.com; not in the library.
 - [JaSu24] Janzer, O. and Sudakov, B., On the Turán number of the hypercube.
   Forum Math. Sigma 12 (2024), doi:10.1017/fms.2024.27; arXiv:2211.02015 (v3,
   22 January 2024), p. 1. Library home:
   [[../library/extremal_graph_theory/janzer_2022_turan_number_hypercube/_index|janzer_2022_turan_number_hypercube]].
-  Not cited by the site.
+  Not cited by erdosproblems.com.
 - [CLWWY26] Chen, Yaobin, Liu, Hong, Wang, Xia, Wei, Xin and Yang, Fan, The
   Erdős--Gallai bound for consecutive even cycle lengths. arXiv:2608.27404
   (v1 27 August 2026, 70 pp.; v2 7 September 2026, 39 pp. and a 5-page
@@ -156,15 +157,15 @@ of formal-conjectures, at the pinned commit, declares
 
 under `category research open, AMS 5`, with proof `sorry`; its docstring cites
 [Er64c], [BoSi74] and [LUW95]. It is a statement; the corpus has not built or
-audited the file. The site's page shows the statement as formalized, and the
-community database (teorth/erdosproblems, `data/problems.yaml`, as of
+audited the file. The erdosproblems.com page shows the statement as formalized,
+and the community database (teorth/erdosproblems, `data/problems.yaml`, read
 2026-09-18) records the problem as open (last update 31 August 2025), the
 statement formalized since 9 September 2026, and no formal proof.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; OPEN, last edited 18
-January 2026. The site's commentary notes that
+**The question (erdosproblems.com formulation).** The statement above; OPEN,
+last edited 18 January 2026. The erdosproblems.com commentary notes that
 $\mathrm{ex}(n;C_{2k+1})=\lfloor n^2/4\rfloor$ for every $k\ge1$ and $n>2k+1$,
 because a bipartite graph has no odd cycle (the bipartite graph gives only the
 lower bound, and the range is right only for $k\le2$: at $k=3$, $n=8$, a $K_6$
@@ -190,9 +191,9 @@ without proof" and prove
 [[../library/extremal_graph_theory/bondy_1974_cycles_even_length_graphs/theorem_1|Theorem 1]]
 (p. 98): if $e(G^n)>100k\,n^{1+1/k}$ then $C^{2l}\subset G^n$ for every integer
 $l\in[k,kn^{1/k}]$; in particular $\mathrm{ex}(n;C_{2k})\le100k\,n^{1+1/k}$, the
-site's display with an explicit constant. It follows from Theorem 1* on the same
-page: with $E=e(G^n)$, $C^{2l}\subset G^n$ for every integer $l\ge2$ with
-$l\le E/(100n)$ and $ln^{1/l}\le E/(10n)$. Acceptance evidence: J. Combin.
+erdosproblems.com display with an explicit constant. It follows from Theorem 1*
+on the same page: with $E=e(G^n)$, $C^{2l}\subset G^n$ for every integer $l\ge2$
+with $l\le E/(100n)$ and $ln^{1/l}\le E/(10n)$. Acceptance evidence: J. Combin.
 Theory Ser. B is refereed (received 21 February 1973); the statements are
 checked clause by clause here, and the proof (pp. 99--104) is not. Erdős's own
 account is display (5) of [Er74c]
@@ -224,8 +225,8 @@ $\frac n2(q+1)$ edges and no cycle shorter than $12$, and $\frac n2\le(q+1)^5$,
 so $\mathrm{ex}(n;C_{10})\ge2^{-6/5}n^{6/5}$. Since $\mathrm{ex}(n;C_{2k})$ is
 nondecreasing in $n$ and consecutive prime powers differ by a factor at most
 $2$, both bounds hold for all $n$ with smaller constants. This deduction is what
-the site's statement that Benson proved the conjecture for $k=3$ and $k=5$ rests
-on, and the two instances are the accepted partial claim
+the erdosproblems.com statement that Benson proved the conjecture for $k=3$ and
+$k=5$ rests on, and the two instances are the accepted partial claim
 [[problems/extremal_graph_theory/E0572/claims/1966_01_01_benson|Benson 1966]].
 [BoSi74]'s
 [[../library/extremal_graph_theory/bondy_1974_cycles_even_length_graphs/remark_1|Remark 1]]
@@ -250,7 +251,7 @@ $f(n;C_4)>c_2n^{3/2}$". The asymptotic
 $\mathrm{ex}(n;C_4)\sim\tfrac12n^{3/2}$ is compiled on
 [[problems/extremal_graph_theory/E0765/_index|Problem 765]].
 
-**The general lower bound.** The site quotes
+**The general lower bound.** erdosproblems.com quotes
 $\mathrm{ex}(n;C_{2k})\gg n^{1+2/(3k-3+\nu)}$ from [LUW95], with [LUW99] for
 history; [LUW95] states it as Corollary 3.3 (p. 77), and at $k=3$ it is the
 accepted partial claim
@@ -263,9 +264,9 @@ $t(n,C_{2k})\ge n^{1+2/(3k-3)}$", after "A lower bound of order $n^{1+1/(2k-1)}$
 can be proved by probabilistic methods" and "The bipartite Ramanujan graph ...
 gives $t(n,C_{2k})\ge n^{1+2/3k}$", and adds "This conjecture is open except for
 the case of $C_4$, $C_6$ and $C_{10}$ (see Benson [21] and also Wenger [215] for
-a different construction)". The survey's exponent has no parity term where the
-site's has $\nu$. The parity form is the authors' own: [LUW95], Corollary 3.3
-(p. 77), gives
+a different construction)". The survey's exponent has no parity term where
+erdosproblems.com's has $\nu$. The parity form is the authors' own: [LUW95],
+Corollary 3.3 (p. 77), gives
 $\mathrm{ex}(v,\{C_3,\dots,C_{2s+1}\})=\Omega(v^{1+2/(3s-3+\epsilon)})$ for
 $s\ge2$, with $\epsilon=0$ for odd $s$ and $1$ for even $s$, along an infinite
 sequence of $v$ (p. 74). The Note added in proof of
@@ -276,8 +277,8 @@ $2/(3k-3)<1/k$ exactly when $k>3$. The smallest open case is $C_8$ ($k=4$),
 which Janzer and Sudakov
 ([[../library/extremal_graph_theory/janzer_2022_turan_number_hypercube/_index|On the Turán number of the hypercube]],
 Forum Math. Sigma 12 (2024); p. 1 of arXiv v3) also name among the simple
-bipartite graphs whose Turán exponent is unknown; for $k=4$ the site's bound is
-$n^{6/5}$ against the asked $n^{5/4}$.
+bipartite graphs whose Turán exponent is unknown; for $k=4$ erdosproblems.com's
+bound is $n^{6/5}$ against the asked $n^{5/4}$.
 
 **Erdős's other statements.** [Er71], item 15, p. 103 (quoted on the
 card): "Very likely $c_r^{(1)}n^{1+1/r}<f(n;C_{2r})<c_r^{(2)}n^{1+1/r}$
@@ -296,7 +297,7 @@ cycle-length-distribution function, and a comment listing surveys of the
 conjecture, of which [Ch97] is cited above, while Füredi and Simonovits (Erdős
 Centennial, 2013), Verstraëte (Extremal problems for cycles in graphs, 2016) and
 Lai and Liu (2014) are not held; it also names Ma and Yang's 2023 paper on
-$\mathrm{ex}(n,C_4)$, which the site cites on
+$\mathrm{ex}(n,C_4)$, which erdosproblems.com cites on
 [[problems/extremal_graph_theory/E0765/_index|Problem 765]] for its upper bound,
 and a book chapter through a third-party site, not cited here. [CLWWY26]: the
 abstract of v2 and the first theorem of v1 state that for every sufficiently
@@ -306,13 +307,13 @@ $K_{2t+1}$; this forces an interval of even cycle lengths at the Erdős--Gallai
 threshold and says nothing about $\mathrm{ex}(n;C_{2k})$ for a single $k$.
 Adjacent; not in the library.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 construction reaching the exponent $1+1/k$ for a $k$ outside $\{2,3,5\}$, a
 disproof, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as accessed
-  on 2026-09-18; the community database record; the formal-conjectures file at the
-  pinned commit.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab as
+  accessed on 2026-09-18; the community database record; the formal-conjectures
+  file at the pinned commit.
 - The primary sources, at the pages stated: [Er64c] pp. 33 and 35, [BoSi74]
   pp. 97--98 and 104--105, [Be66] pp. 1091--1093, [Er38] pp. 78--80, [Er71]
   p. 103, [Er74c] pp. 77--78, [Er75] pp. 4 and 7, [Ch97] preprint p. 9.

@@ -39,19 +39,19 @@ $$
 Because $n\geq1$, the identity $n!=n(n-1)!$ holds and $(n-1)!>0$.
 Cancellation gives the assertion.
 
-For the site's wording of [[../wiki/problems/extremal_graph_theory/E0548/_index|#548]],
-put $t=k+1$. If $k\geq1$ and $e(G)\geq(k-1)n/2+1$, the absence of a
-given $T$ would imply both $2e(G)\leq(k-1)n$ and
-$2e(G)\geq(k-1)n+2$, a contradiction. For $k=0$, the target tree is a
-single vertex, present because the question assumes $n\geq1$.
+For the erdosproblems.com wording of
+[[../wiki/problems/extremal_graph_theory/E0548/_index|#548]], put $t=k+1$. If
+$k\geq1$ and $e(G)\geq(k-1)n/2+1$, the absence of a given $T$ would imply both
+$2e(G)\leq(k-1)n$ and $2e(G)\geq(k-1)n+2$, a contradiction. For $k=0$, the
+target tree is a single vertex, present because the question assumes $n\geq1$.
 
 ## Endpoint and formalization
 
 The theorem also proves the classical strict threshold
-$e(G)>(k-1)n/2$. The literal site's threshold
+$e(G)>(k-1)n/2$. The literal erdosproblems.com's threshold
 $e(G)\geq(k-1)n/2+1$ is slightly stronger as a hypothesis when $(k-1)n$
 is odd: for integral $e(G)$ it asks for one additional edge. Thus a proof
-only of the site's wording would not, by itself, establish the sharp
+only of the erdosproblems.com wording would not, by itself, establish the sharp
 classical bound. Here the stronger bound is proved in the argument above
 and appears explicitly as `tree_free_edge_bound` in the pinned Lean source.
 The public Comparator target is the final literal theorem `erdos_548`, not

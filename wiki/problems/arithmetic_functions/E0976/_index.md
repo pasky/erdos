@@ -37,18 +37,19 @@ constant $c>0$? Or even $\gg n^d$?
 $F_f(n)\gg_f n^{1+c_f}$ hold for some $c_f>0$, or even
 $F_f(n)\gg_f n^d$? This records the asymptotic questions on
 [the live catalog page](https://www.erdosproblems.com/976), last edited
-1 February 2026. The site says "some constant $c>0$" after fixing $f$; it
-does not explicitly require one exponent to work for all polynomials. The
+1 February 2026. erdosproblems.com says "some constant $c>0$" after fixing $f$;
+it does not explicitly require one exponent to work for all polynomials. The
 stronger quantifier order $\exists c>0\,\forall f$ is separate. Constants
 and thresholds here may depend on the fixed polynomial. Read greatest prime
 factors on absolute values, with $P^+(1)=1$ for any small unit products.
 Irreducibility and $d\geq2$ exclude zero factors, and the products have
 absolute value greater than one eventually.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 1 February
-2026). Neither the general fixed-$f$ power-gain question nor the stronger
-degree-scale question is resolved for every irreducible polynomial. The general
-subpower theorem and the special-family power bounds below fall short of both.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 1
+February 2026). Neither the general fixed-$f$ power-gain question nor the
+stronger degree-scale question is resolved for every irreducible polynomial. The
+general subpower theorem and the special-family power bounds below fall short of
+both.
 [[problems/arithmetic_functions/E0976/claims/2026_04_16_bhalla|Bhalla's conditional note]]
 of 2026-04-16 gives the degree-scale bound only under an unproved prime-values
 hypothesis.
@@ -94,16 +95,16 @@ These six catalog references are retained as historical bibliography.
 
 ## Current assessment
 
-On 2026-09-09 the site labeled the problem OPEN with no proof claim. The
-sources below are the results found as of that date: the general subpower
-bound, the special-family papers, and Bhalla's forum announcement of a
+On 2026-09-09 Bloom's catalog labeled the problem OPEN with no proof claim. The
+sources below are the results found in a search on that date: the general
+subpower bound, the special-family papers, and Bhalla's forum announcement of a
 conditional note. None of them gives an unconditional general resolution.
 
 The Dartyge--Maynard and Grimmelt--Merikoski statements are cited from
 their preprints. No theorem detail is adopted from the older
 [[../library/arithmetic_functions/erdos_1990_greatest_prime_factor/_index|Erdős--Schinzel digest]].
 
-On 2026-10-05 the site labeled the problem OPEN (last edited 1 February
+On 2026-10-05 Bloom's catalog labeled the problem OPEN (last edited 1 February
 2026); its thread held three comments, the newest of 16 April 2026 (Bhalla's
 announcement and a reply reporting a check that found no issue), and no proof
 claim; the community database listed the problem open; neither
@@ -302,11 +303,11 @@ records a route to $F_f(n)\gg_f n^d$ under its Hypothesis 3.1: for every
 irreducible $g\in\mathbb Z[x]$ with positive leading coefficient and no fixed
 prime divisor, there exist $A_g>1$ and $X_0(g)$ such that every real
 $X\geq X_0(g)$ admits an integer $t\in[X,A_gX]$ for which $g(t)$ is prime.
-Theorem 3.2 on p. 3 assumes that premise. The announcing post in the site's
-thread (16 April 2026) says the note was produced using GPT 5.4. The premise
-is unproved and the note's conditional proof is unreviewed; this is a research
-lead with no unconditional solution credit. The
-result is recorded as
+Theorem 3.2 on p. 3 assumes that premise. The announcing post in the
+erdosproblems.com thread (16 April 2026) says the note was produced using GPT
+5.4. The premise is unproved and the note's conditional proof is unreviewed;
+this is a research lead with no unconditional solution credit. The result is
+recorded as
 [[problems/arithmetic_functions/E0976/claims/2026_04_16_bhalla|a conditional claim]],
 pending and settling nothing unconditionally; the lead keeps its scope.
 

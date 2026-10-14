@@ -73,9 +73,9 @@ unstated.
   Appendix B.2, Theorem 2, p. 10, reports the result. This short report
   is not the complete proof source.
 
-The exposition's p. 1 statement that the site still records the problem
-as open is stale. The dated site snapshot records **DISPROVED (LEAN)**,
-with Bloom's initial informal exposition and an accepted headline
+The exposition's p. 1 statement that erdosproblems.com still records the problem
+as open is stale. The dated erdosproblems.com snapshot records **DISPROVED
+(LEAN)**, with Bloom's initial informal exposition and an accepted headline
 resolution. Bloom explicitly calls the prose expositions preliminary.
 The benchmark report says expert understanding of the proofs and their
 relationship to prior work remains incomplete. This record does not
@@ -124,7 +124,7 @@ All essential steps in the PDF's route have complete rewritten proofs:
   [[graph_coloring/bruijn_1951_colour_problem_infinite_graphs_problem_theory/theorem_1|de Bruijn–Erdős compactness theorem]]
   to pass from finite subgraphs to an arbitrary graph.
 
-Bloom's site sketch suggests a budget of order $\log n/\log\log n$;
+Bloom's erdosproblems.com sketch suggests a budget of order $\log n/\log\log n$;
 this rate is not a quantitative Lean endpoint. Bloom's sketch also uses
 an edge-count profile $D(n)$; the full proof consistently uses the
 vertex-count profile $h_G(n)$.
@@ -179,9 +179,9 @@ separate compilation and review.
 The original problem appears in Erdős, Hajnal and Szemerédi's
 [[graph_coloring/erdos_1982_almost_bipartite_large_chromatic_graphs/_index|1982 paper]].
 Its historical results have not been reconstructed in this source unit.
-The dated site attributes a positive result for $f(n)=\epsilon n$,
-with chromatic number $\aleph_0$, and a hypergraph analog to Rödl's
-*Nearly bipartite graphs with large chromatic number*, Combinatorica 2
+The dated erdosproblems.com page attributes a positive result for
+$f(n)=\epsilon n$, with chromatic number $\aleph_0$, and a hypergraph analog to
+Rödl's *Nearly bipartite graphs with large chromatic number*, Combinatorica 2
 (1982), 377–383. That paper's proof remains uncompiled here. The
 $f(n)=\sqrt n$ case is still recorded as open.
 

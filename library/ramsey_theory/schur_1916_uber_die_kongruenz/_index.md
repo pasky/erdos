@@ -112,10 +112,10 @@ independently reviewed.
 Printed pp. 114--117 were read on the page images. No statement here is
 independently reviewed.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0554/_index|#554]]: the site credits Schur
-with $C^k\ll R_k(K_3)\ll k!$; the paper contains the Hilfssatz, the source
-of the factorial upper bound on Schur numbers, and on p. 117 the
-construction $N_{m+1}\ge3N_m+1$ giving the exponential lower bound
+**Bears on.** [[../wiki/problems/ramsey_theory/E0554/_index|#554]]:
+erdosproblems.com credits Schur with $C^k\ll R_k(K_3)\ll k!$; the paper contains
+the Hilfssatz, the source of the factorial upper bound on Schur numbers, and on
+p. 117 the construction $N_{m+1}\ge3N_m+1$ giving the exponential lower bound
 $N_m\ge(3^m-1)/2$ on the largest sum-free-partitionable interval
 ([[ramsey_theory/schur_1916_uber_die_kongruenz/lower_bound_p117|lower bound, p. 117]]),
 both read on the page images; it says nothing about graphs or Ramsey numbers.
@@ -125,7 +125,8 @@ $R_k(K_3)$ comes from running the Hilfssatz's argument on edge colorings (the
 Greenwood--Gleason recursion), not from $S(k)<k!\,e$.
 [[../wiki/problems/ramsey_theory/E0483/_index|#483]]: the Hilfssatz is the origin of the
 factorial upper bound on the Schur function, $f(m)\le\lfloor m!\,e\rfloor+1$
-in the site's convention $f(m)=S(m)+1$ (read on the page image of p. 114; the
+in the erdosproblems.com convention $f(m)=S(m)+1$ (read on the page image of p.
+114; the
 [[ramsey_theory/schur_1916_uber_die_kongruenz/hilfssatz_p114|Hilfssatz]] page
 records the statement), and p. 117 gives the lower bound $S(m)=N_m\ge(3^m-1)/2$,
 so $f(m)\ge(3^m+1)/2$

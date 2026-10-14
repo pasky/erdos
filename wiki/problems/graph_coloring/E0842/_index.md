@@ -32,8 +32,8 @@ parity theorem on Eulerian arc sets, was read for structure and not checked.
 Sachs's 1993 published chapter contains the exact cycle-plus-triangles corollary
 and a stronger parity theorem. The chapter prints its proof, but that proof was
 not reconstructed or given a correctness review. So the direct primary statement
-is checked from both sources, without complete-proof or final-review credit. The
-site credits the proof to Fleischner and Stiebitz. The claim pages
+is checked from both sources, without complete-proof or final-review credit.
+erdosproblems.com credits the proof to Fleischner and Stiebitz. The claim pages
 [[problems/graph_coloring/E0842/claims/1992_05_01_fleischner_stiebitz|Fleischner–Stiebitz 1992]]
 and [[problems/graph_coloring/E0842/claims/1993_01_01_sachs|Sachs 1993]] record
 the two published proofs and their acceptance evidence.
@@ -70,16 +70,16 @@ Fleischner–Stiebitz claim page, which this corpus has not built.
 ## Current assessment
 
 **Status target and answer.** The status applies to the graph class in the
-dated site formulation. Deleting its Hamiltonian-cycle edges leaves exactly
-the $n$ disjoint triangles. Sachs's source class consists of finite nonempty
-graphs $G$ with a Hamilton circuit $H$ such that $G-E(H)$ consists of pairwise
-disjoint triangles covering $V(G)$. His displayed corollary says every such
-graph is feasibly $3$-colorable. Since the triangle decomposition is
-nonempty, this gives $\chi(G)=3$ and in particular answers the site's “at most
-$3$” question affirmatively.
+dated erdosproblems.com formulation. Deleting its Hamiltonian-cycle edges leaves
+exactly the $n$ disjoint triangles. Sachs's source class consists of finite
+nonempty graphs $G$ with a Hamilton circuit $H$ such that $G-E(H)$ consists of
+pairwise disjoint triangles covering $V(G)$. His displayed corollary says every
+such graph is feasibly $3$-colorable. Since the triangle decomposition is
+nonempty, this gives $\chi(G)=3$ and in particular answers erdosproblems.com's
+“at most $3$” question affirmatively.
 
-**Evidence and search window.** Search scope: the site's problem page,
-discussion thread and proof-claims listing. The complete 1993 proceedings
+**Evidence and search window.** Search scope: the erdosproblems.com problem
+page, discussion thread and proof-claims listing. The complete 1993 proceedings
 volume containing Sachs's chapter is in the HUN-REN Rényi Institute's Bolyai
 Archive, whose whole-volume PDF has the source class on printed p. 347 (PDF p.
 348) and the theorem and corollary on printed p. 348 (PDF p. 349). The
@@ -88,10 +88,10 @@ Fleischner–Stiebitz article is in the publisher's open archive, and its Theore
 abstract and provides bibliographic identity only. No other source search is
 recorded.
 
-**Proof and review coverage.** The site formulation was compared directly
-with the hypothesis of Fleischner and Stiebitz's Theorem 1.1 and with Sachs's
-source-class definition and corollary. The Fleischner–Stiebitz proof reduces
-Theorem 1.1 on printed p. 43 to their Theorem 2.1, the congruence
+**Proof and review coverage.** The erdosproblems.com formulation was compared
+directly with the hypothesis of Fleischner and Stiebitz's Theorem 1.1 and with
+Sachs's source-class definition and corollary. The Fleischner–Stiebitz proof
+reduces Theorem 1.1 on printed p. 43 to their Theorem 2.1, the congruence
 $e(D)\equiv2\pmod4$ for the number of Eulerian arc sets of an Eulerian
 orientation, through Alon and Tarsi's orientation criterion; the reduction was
 followed and the proof of Theorem 2.1 (printed pp. 44–47) was read for structure
@@ -103,12 +103,12 @@ complete-proof or final mathematical-review credit is claimed.
 **Claim record.** The problem's standing derives from the accepted claim
 page; two claim pages agree:
 [[problems/graph_coloring/E0842/claims/1992_05_01_fleischner_stiebitz|Fleischner–Stiebitz 1992]],
-a refereed journal paper credited by the site's curator as the proof, and
-[[problems/graph_coloring/E0842/claims/1993_01_01_sachs|Sachs 1993]], an
-independent elementary proof in an edited volume that the site does not
+a refereed journal paper credited by the erdosproblems.com curator as the proof,
+and [[problems/graph_coloring/E0842/claims/1993_01_01_sachs|Sachs 1993]], an
+independent elementary proof in an edited volume that erdosproblems.com does not
 mention, recorded as claimed because neither a journal record nor an outside
-review of it was found. No other claim about the problem, on the site's forum or
-elsewhere, was found in the sources named above.
+review of it was found. No other claim about the problem, on the
+erdosproblems.com forum or elsewhere, was found in the sources named above.
 
 **Remaining gaps.** Reconstruct and independently review either proof:
 Fleischner and Stiebitz's Theorem 2.1 with the Alon–Tarsi criterion it feeds,
@@ -117,17 +117,17 @@ the 1993 published chapter, so their equivalence is not assumed.
 
 ## Progress
 
-The site reports that Fleischner and Stiebitz answered the question yes, and
-Sachs's 1993 published chapter also attributes the earlier theorem to them.
-Theorem 1.1 of their article [FlSt92] (printed p. 39) reads: "Let $n$ be a
+erdosproblems.com reports that Fleischner and Stiebitz answered the question
+yes, and Sachs's 1993 published chapter also attributes the earlier theorem to
+them. Theorem 1.1 of their article [FlSt92] (printed p. 39) reads: "Let $n$ be a
 positive integer, and let $G$ be a 4-regular graph on $3n$ vertices.
 Assume that $G$ has a decomposition into a Hamiltonian circuit and $n$ pairwise
-vertex disjoint triangles. Then $\chi(G)=3$." The site's graph is 4-regular and
-decomposes into its Hamiltonian cycle and its $n$ triangles, so the theorem
-answers the question. The paper's proof directs the cycle and each triangle,
-obtaining an Eulerian orientation $D$ of $G$, proves that the number $e(D)$ of
-Eulerian arc sets of $D$ is $\equiv2\pmod4$ (Theorem 2.1, p. 43), and applies
-Alon and Tarsi's criterion, that a $2k$-regular graph with an Eulerian
+vertex disjoint triangles. Then $\chi(G)=3$." erdosproblems.com's graph is
+4-regular and decomposes into its Hamiltonian cycle and its $n$ triangles, so
+the theorem answers the question. The paper's proof directs the cycle and each
+triangle, obtaining an Eulerian orientation $D$ of $G$, proves that the number
+$e(D)$ of Eulerian arc sets of $D$ is $\equiv2\pmod4$ (Theorem 2.1, p. 43), and
+applies Alon and Tarsi's criterion, that a $2k$-regular graph with an Eulerian
 orientation having unequal numbers of even and odd Eulerian arc sets is
 $(k+1)$-colorable and $(k+1)$-choosable (Corollaries 1.4 and 1.6, pp. 41–42);
 the paper's final remark (p. 48) notes that the same argument gives
@@ -149,8 +149,8 @@ recorded at statement level; their printed proof has not been reviewed.
 ## Known Results
 
 - [[../library/graph_coloring/fleischner_stiebitz_1992_solution_colouring_problem_erdos/theorem_1_1|Fleischner–Stiebitz Theorem 1.1]]
-  [FlSt92]: the published solution cited by the site, $\chi(G)=3$ for every
-  graph of the problem's class, with $\chi_l(G)\le3$ by the same argument;
+  [FlSt92]: the published solution cited by erdosproblems.com, $\chi(G)=3$ for
+  every graph of the problem's class, with $\chi_l(G)\le3$ by the same argument;
   checked at statement depth, its proof via
   [[../library/graph_coloring/fleischner_stiebitz_1992_solution_colouring_problem_erdos/theorem_2_1|Theorem 2.1]]
   read for structure and not reviewed.

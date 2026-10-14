@@ -61,7 +61,7 @@ statement level.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0012/_index|Problem 12]]: the best upper bound in
-  hand for the pairwise coprime case, quoted by the site as "Baier has
+  hand for the pairwise coprime case, quoted by erdosproblems.com as "Baier has
   improved this to $\ll N^{2/3}/\log N$"; it says nothing about general
   sets with property P, for which the 2026 constructions give
   $N/(\log N)^{O(\log\log\log N)}$ for all large $N$.

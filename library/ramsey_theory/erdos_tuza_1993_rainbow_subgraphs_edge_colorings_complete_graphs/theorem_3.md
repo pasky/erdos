@@ -36,9 +36,9 @@ $4$-coloring of $K_n$, in which every color has degree $(n-1)/4$ at every
 vertex, contains a rainbow $C_4$: $d(n,C_4)$ is finite and $C_4$ is in the
 answer set of Problem 811, as p. 81 states ("the trees, the triangle $K_3$,
 and the 4-cycle $C_4$ are the only graphs for which we can prove that they
-satisfy the requirements of Problems 1 and 2"). The two bounds are the
-site's displayed "$\lfloor n/6\rfloor\le d_{C_4}(n)\le(\frac14-c)n$ for
-some constant $c>0$".
+satisfy the requirements of Problems 1 and 2"). The two bounds are
+erdosproblems.com's displayed "$\lfloor n/6\rfloor\le d_{C_4}(n)\le(\frac14-c)n$
+for some constant $c>0$".
 
 **Source.** P. Erdős and Zs. Tuza, *Rainbow subgraphs in edge-colorings of
 complete graphs*, Quo Vadis, Graph Theory?, Ann. Discrete Math. 55 (1993),
@@ -99,6 +99,7 @@ Turán's theorem, cited by name.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0811/_index|Problem 811]]: the site's bounds on
-  $d_{C_4}(n)$ for the quantitative version, first-hand; $C_4$ is in the
-  problem's answer set, and the best constant $c$ is open in the paper.
+- [[../wiki/problems/ramsey_theory/E0811/_index|Problem 811]]:
+  erdosproblems.com's bounds on $d_{C_4}(n)$ for the quantitative version,
+  first-hand; $C_4$ is in the problem's answer set, and the best constant $c$ is
+  open in the paper.

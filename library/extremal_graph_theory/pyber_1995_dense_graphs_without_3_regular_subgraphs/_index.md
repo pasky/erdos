@@ -34,10 +34,10 @@ Inc."); received January 5, 1993 (p. 41); the authors at the Mathematical
 Institute of the Hungarian Academy of Sciences, Budapest, the Department of
 Mathematics and Computer Science, Emory University, and the Department of
 Computer Science, Rutgers University. Cited as [PRS95] on the problem pages,
-whose site reference list titles it "Dense subgraphs without 3-regular
-subgraphs"; the printed title is as above, and the running head is "Dense
-graphs without subgraphs". Its references (pp. 53--54) include four papers of
-Erdős: [E1], the 1975 survey filed as
+whose erdosproblems.com reference list titles it "Dense subgraphs without
+3-regular subgraphs"; the printed title is as above, and the running head is
+"Dense graphs without subgraphs". Its references (pp. 53--54) include four
+papers of Erdős: [E1], the 1975 survey filed as
 [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|erdos_1975_recent_progress_extremal_problems_graph_theory]];
 [E2], the Aberdeen 1975 problem paper filed as
 [[extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/_index|erdos_1976_problems_results_graph_theory_combinatorial_analysis]];

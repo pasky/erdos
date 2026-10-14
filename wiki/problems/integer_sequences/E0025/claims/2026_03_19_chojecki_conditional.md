@@ -41,8 +41,8 @@ statements are recorded on its card
 [[../library/integer_sequences/chojecki_2026_truncated_congruence_sieves_erdos_problem_25/_index|chojecki_2026_truncated_congruence_sieves_erdos_problem_25]];
 no step of its proofs has been checked independently.
 
-**Submission note.** Posted to the site's forum by Przemyslaw Chojecki on 19
-March 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Przemyslaw
+Chojecki on 19 March 2026:
 
 > After extensive back-and-forth with GPT-5.4 Pro I've managed to get 2
 > unconditional proofs for special cases and then a general strategy with
@@ -65,12 +65,12 @@ entropy scale, so the charges cannot be omitted, and its abstract says that
 it isolates a missing lemma rather than a complete proof. The hypothesis is
 unproven, so this page derives nothing for the problem's standing.
 
-**Standing.** Przemek Chojecki posted the note in the site's thread on 19
-March 2026 as the outcome of extended work with GPT-5.4 Pro; Chojecki is the
-claimant as its submitter, and GPT-5.4 Pro is the system they name. The note
+**Standing.** Przemek Chojecki posted the note in the erdosproblems.com thread
+on 19 March 2026 as the outcome of extended work with GPT-5.4 Pro; Chojecki is
+the claimant as its submitter, and GPT-5.4 Pro is the system they name. The note
 has no refereed publication, no formalization and no outside review, and the
-site's label was unchanged (OPEN). The claim stays claimed. The note's two
-unconditional special cases are the partial claim on
+erdosproblems.com label was unchanged (OPEN). The claim stays claimed. The
+note's two unconditional special cases are the partial claim on
 [[problems/integer_sequences/E0025/claims/2026_03_19_chojecki|its own page]].
 
 **Depends on.** Nothing on the wiki.

@@ -49,8 +49,8 @@ identifying the two connectors of a graph H_i with those of a graph H_j.
 Narins, Lothar and Pokrovskiy, Alexey and Szabó, Tibor, Graphs without
 proper subgraphs of minimum degree 3 and short cycles. Combinatorica 37
 (2017), no. 3, 495--519, doi:10.1007/s00493-015-3310-9 (published online 10
-August 2016; Crossref record read on 2026-09-18; the site's reference text
-gives "Combinatorica (2017), 495--519"). Preprint arXiv:1408.5289 (v1, 22
+August 2016; Crossref record read on 2026-09-18; the erdosproblems.com reference
+text gives "Combinatorica (2017), 495--519"). Preprint arXiv:1408.5289 (v1, 22
 August 2014). The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1408.5289), every other right reserved.
 
@@ -175,9 +175,11 @@ paper is not held, and its bounds appear here as this paper states them.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0815/_index|#815]]:
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/theorem_1_2|Theorem 1.2]] gives arbitrarily large degree $3$-critical
-graphs without $C_{23}$, so the problem's statement fails for $k=23$ under the
-site's induced definition, and Section 6 (p. 21) says the method gives the same
-for every odd $k\ge23$; it rests on [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/theorem_1_3|Theorem 1.3]](ii) and
+graphs without $C_{23}$, so the problem's statement fails for $k=23$ under
+erdosproblems.com's induced definition, and Section 6 (p. 21) says the method
+gives the same for every odd $k\ge23$; it rests on
+[[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/theorem_1_3|Theorem 1.3]](ii)
+and
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/lemma_2_1|Lemma 2.1]], and Theorem 1.3(i) shows the method cannot omit
 an odd cycle shorter than $23$. [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/proposition_5_1|Proposition 5.1]] proves
 the case $k=6$ for $n\ge6$. [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/theorem_1_4|Theorem 1.4]], from
@@ -186,8 +188,8 @@ wording the graphs are pancyclic; it says nothing about the induced class.
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/lemma_4_2|Lemma 4.2]] describes the class.
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/problem_6_1|Problem 6.1]] asks for all even lengths up to $2C(n)$, which
 holds exactly when every fixed even $k$ holds for large $n$ (an equivalence
-worked out on the Problem 6.1 page, not stated in the paper); the site records
-the even case as open.
+worked out on the Problem 6.1 page, not stated in the paper); erdosproblems.com
+records the even case as open.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

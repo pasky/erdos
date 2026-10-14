@@ -57,11 +57,12 @@ set $\{2^i+m2^m:0\le i<m\}$ and $n=2^{m-1}+m2^m$, and that he and Sárközy
 had expected this after the greedy algorithm gave only $(1-o(1))\log_3 n$.
 
 **Acceptance.** The paper is a refereed journal publication (Discrete
-Mathematics 200, April 1999), which is the `refereed` evidence. The site's
-curator, Thomas Bloom, marked the problem solved. In the problem's remarks the
-curator credits the lower bound to this paper and the upper bound to the
-distinct-subset-sums bound of Problem 1. This is the `reviewed` evidence. The
-statement and its proof are recorded on the library result page
+Mathematics 200, April 1999), which is the `refereed` evidence. The
+erdosproblems.com curator, Thomas Bloom, marked the problem solved. In the
+problem's remarks the curator credits the lower bound to this paper and the
+upper bound to the distinct-subset-sums bound of Problem 1. This is the
+`reviewed` evidence. The statement and its proof are recorded on the library
+result page
 [[../library/divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/theorem_5|Theorem 5]]
 of the source card
 [[../library/divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/_index|erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums]].
@@ -75,8 +76,8 @@ informal authors and Codex and GPT-5.6 Sol as its formal authors. Its
 theorem `erdos_882` proves only the lower bound, $\log_2 n-1<R(n)$ for
 $n\ge1$, through the witness set above; it does not formalize the upper
 bound. The file has no `sorry`. This corpus has not built or audited it, so
-no `formalized` evidence is listed. The site records no formal-conjectures
-statement for the problem.
+no `formalized` evidence is listed. erdosproblems.com records no
+formal-conjectures statement for the problem.
 
 **Relation to the question.** Read as the problem page's Formulation
 records, "What is the size of the largest $A$" asks for that size to leading

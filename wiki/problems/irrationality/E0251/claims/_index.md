@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 251, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/irrationality/E0251/claims
@@ -19,6 +19,6 @@ unreviewed.
 [[problems/irrationality/E0251/claims/2026_09_07_ringer|2026_09_07_ringer]]: Ringer's manuscript of 2026-09-11, written with two AI systems, claims that
 Kuperberg's uniform prime-tuples conjecture implies that $\sum_n p_n/2^n$ is
 normal to base $2$, hence irrational. It is the only proof claim registered on
-the site.
+erdosproblems.com.
 
 ***

@@ -105,4 +105,5 @@ does not certify the rest of the paper and does not alter either source
 PDF.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — a repair inside the
-cited proof of the catalog question; not a result on the problem itself.
+cited proof of the erdosproblems.com question; not a result on the problem
+itself.

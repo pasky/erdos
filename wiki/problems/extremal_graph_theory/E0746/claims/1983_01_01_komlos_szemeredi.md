@@ -58,8 +58,8 @@ count $(\tfrac12+\epsilon)n\log n$ is $k$ with
 $c_n=\epsilon\log n-\tfrac12\log\log n\to\infty$, so the third case gives
 that the random graph with $(\tfrac12+\epsilon)n\log n$ edges is almost
 surely Hamiltonian, and Hamiltonicity is preserved by adding edges, which
-is the site's "$\ge$". The threshold itself had been announced and proved
-by Korshunov, on
+is erdosproblems.com's "$\ge$". The threshold itself had been announced and
+proved by Korshunov, on
 [[problems/extremal_graph_theory/E0746/claims/1976_01_22_korshunov|his claim page]];
 the paper's abstract credits him with the case $c_n\to\infty$, and
 Korshunov's 1985 comment calls this paper an independent solution.
@@ -67,12 +67,12 @@ Korshunov's 1985 comment calls this paper an independent solution.
 **Acceptance.** Refereed: Discrete Mathematics 43 (1983), no. 1, per the
 publisher's Crossref record. Reviewed: Erdős cites the paper, then "to appear",
 as settling the conjecture in his 1981 Combinatorica paper (Part VIII) and in
-his 1982 Singapore paper (§ 1). The site's curator, Thomas Bloom, labeled the
-problem proved and records the limit law in the problem's commentary. Frieze's
-2021 bibliography records the paper. Theorems 1 and 2 are taken as printed, and
-the proof (§§ 1--2) for structure only. The equivalence of the two random-graph
-models is asserted on p. 56 without argument. This corpus supplies no
-independent proof review.
+his 1982 Singapore paper (§ 1). The erdosproblems.com curator, Thomas Bloom,
+labeled the problem proved and records the limit law in the problem's
+commentary. Frieze's 2021 bibliography records the paper. Theorems 1 and 2 are
+taken as printed, and the proof (§§ 1--2) for structure only. The equivalence of
+the two random-graph models is asserted on p. 56 without argument. This corpus
+supplies no independent proof review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos746.lean` of
 Boris Alexeev's `plby/lean-proofs` repository, linked above at a pinned
@@ -84,10 +84,10 @@ added to the repository on 20 August 2026. Its theorem `erdos_746` states
 that for every $\epsilon>0$ and every edge-count sequence $m(n)$ eventually
 at least $(\tfrac12+\epsilon)n\log n$ and at most $\binom n2$, the
 probability that the uniform random graph with $n$ vertices and $m(n)$
-edges is Hamiltonian tends to $1$, which is the site's statement; the proof
-goes through an expansion estimate and a sprinkling argument, by the file's
-own summary, and the file ends with a `#print axioms` command whose output
-is not recorded. Because the file names this paper's authors as the
+edges is Hamiltonian tends to $1$, which is the erdosproblems.com statement; the
+proof goes through an expansion estimate and a sprinkling argument, by the
+file's own summary, and the file ends with a `#print axioms` command whose
+output is not recorded. Because the file names this paper's authors as the
 informal authors, it is a link on this page and not its own claim; this
 corpus has not built, audited or kernel-checked it, so it is no `formalized`
 evidence.

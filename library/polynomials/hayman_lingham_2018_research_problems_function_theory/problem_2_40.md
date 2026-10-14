@@ -73,8 +73,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1118/_index|Problem 1118]]: the same two
-  questions. The book asks whether $E(c')$ has finite measure for $c'<c$; the
-  site asks whether there must exist some $c'<c$ for which it does. Update
-  2.40 credits the growth bound and its sharpness to Camera, independent
+  questions. The book asks whether $E(c')$ has finite measure for $c'<c$;
+  erdosproblems.com asks whether there must exist some $c'<c$ for which it does.
+  Update 2.40 credits the growth bound and its sharpness to Camera, independent
   proofs to Hansen and Gol'dberg, and Gol'dberg with an example finite for
   some $c$ but not for all $c$.

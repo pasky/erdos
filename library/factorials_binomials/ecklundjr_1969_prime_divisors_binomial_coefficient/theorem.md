@@ -429,8 +429,8 @@ and the E384 symmetry transfer. The theorem component includes all three
 analytic cases, the small cases, range assembly, and the exact-integer replay
 of the two finite ranges. It proves the displayed maximum-form theorem for
 positive integers $n,k$ with $n\geq2k$, with exception $\binom73=35$. The
-transfer proves only the corrected weak E384 formulation; the strict site
-formulation is instead disproved by $\binom62=15$.
+transfer proves only the corrected weak E384 formulation; the strict
+erdosproblems.com formulation is instead disproved by $\binom62=15$.
 
 **Source version.** The source reviewed is E. F. Ecklund, Jr., *On prime
 divisors of the binomial coefficient*, Pacific Journal of Mathematics 29

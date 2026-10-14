@@ -25,20 +25,20 @@ updated: 2026-10-08T14:17:37Z
 then is the length of the curve $\{ z\in \mathbb{C} : \lvert p(z)\rvert=1\}$
 maximised when $p(z)=z^n-1$?
 
-**Status.** Falsifiable. The site's label was FALSIFIABLE (page last edited
-2026-01-23): open, but refutable by a finite counterexample. Six partial claims
-are recorded, and none settles the question. Degree $2$ is proved twice, by Wang
-([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]], accepted,
-refereed) and by Eremenko and Hayman
+**Status.** Falsifiable. The erdosproblems.com label was FALSIFIABLE (page last
+edited 2026-01-23): open, but refutable by a finite counterexample. Six partial
+claims are recorded, and none settles the question. Degree $2$ is proved twice,
+by Wang ([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]],
+accepted, refereed) and by Eremenko and Hayman
 ([[problems/polynomials/E0114/claims/1999_09_01_eremenko_hayman|Eremenko–Hayman 1999]],
 accepted, refereed). Tao proves all sufficiently large degrees in an arXiv
 preprint ([[problems/polynomials/E0114/claims/2025_12_13_tao|Tao 2025]],
 pending). Degree $3$ has two pending claims, and no review or acceptance of
-either is recorded. Dahlke's Zenodo manuscript was announced on the site's
-discussion thread on 2026-05-21
+either is recorded. Dahlke's Zenodo manuscript was announced on the
+erdosproblems.com discussion thread on 2026-05-21
 ([[problems/polynomials/E0114/claims/2026_05_20_dahlke|Dahlke 2026]]).
 Chatelet's write-up and Lean development were posted in August 2026 and
-registered on the site's proof-claims tab on 2026-09-07
+registered on the erdosproblems.com proof-claims tab on 2026-09-07
 ([[problems/polynomials/E0114/claims/2026_08_22_chatelet|Chatelet 2026]]).
 Chatelet's claim asserts the cubic case under a domain reduction cited from
 Eremenko–Hayman and Tao. Mendoza's computer search claimed degrees $3$ to $14$,
@@ -71,9 +71,10 @@ https://www.erdosproblems.com/114.
   Michigan Math. J. 6 (1959), no. 3, 221--225, DOI 10.1307/mmj/1028998227.
   Theorem 2, p. 222: "If $E$ is connected, the length of $C$ is at least $2\pi$,
   with equality only for $f(z)=z^n$", $C$ the lemniscate $|f(z)|=1$ and $E$ its
-  interior; this is the result behind the site's remark that Pommerenke [Po59]
-  settled the connected-case question of [EHP58]. The paper does not treat this
-  page's question, whether $z^n-1$ maximizes the length. Library home:
+  interior; this is the result behind the erdosproblems.com remark that
+  Pommerenke [Po59] settled the connected-case question of [EHP58]. The paper
+  does not treat this page's question, whether $z^n-1$ maximizes the length.
+  Library home:
   [[../library/analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/_index|pommerenke_1959_some_problems_erdos_herzog_piranian]]
   and its
   [[../library/analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/theorem_2|theorem_2]]
@@ -96,29 +97,30 @@ statement file for the problem.
 
 ## Current assessment
 
-The site labeled the problem FALSIFIABLE: a single monic polynomial whose
+Bloom's catalog labeled the problem FALSIFIABLE: a single monic polynomial whose
 lemniscate is longer than that of $z^n-1$ of the same degree would refute the
 conjecture by a finite computation of two lengths. Remark 1.3 of
 [[../library/polynomials/tao_2025_maximal_length_erdos_herzog_piranian_lemniscate/_index|Tao 2025]]
 adds that the constants of its proof are effective, so the conjecture reduces to
 finitely many degrees, and that only an exact tie between the lemniscate lengths
 of $z^n-1$ and of a competitor in some bounded degree could keep it from being
-decided by a finite computation. The site's remarks record the question as
-settled for $n=2$ by Eremenko and Hayman [ErHa99], a case Wang [Wa98] had proved
-a year earlier in a paper a comment on the site's discussion thread pointed to,
-and for all sufficiently large $n$ by Tao [Ta25], with $z^n-1$ the unique
-maximizer up to rotation and translation; each result settles the instances it
-names and has its own partial claim page, the first two accepted on their
-refereeing ([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]],
+decided by a finite computation. The erdosproblems.com remarks record the
+question as settled for $n=2$ by Eremenko and Hayman [ErHa99], a case Wang
+[Wa98] had proved a year earlier in a paper a comment on the erdosproblems.com
+discussion thread pointed to, and for all sufficiently large $n$ by Tao [Ta25],
+with $z^n-1$ the unique maximizer up to rotation and translation; each result
+settles the instances it names and has its own partial claim page, the first two
+accepted on their refereeing
+([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]],
 [[problems/polynomials/E0114/claims/1999_09_01_eremenko_hayman|Eremenko–Hayman 1999]]),
 the third pending as an arXiv preprint
 ([[problems/polynomials/E0114/claims/2025_12_13_tao|Tao 2025]]); because the
-site's label was an open one, its remarks are commentary and not acceptance. The
-general upper bounds $f(n)\le 2\pi n$ [Da07] and $f(n)\le 2n+O(n^{7/8})$
-[FrNa09] precede Tao's result. The degrees from $3$ up to Tao's bound remain
-open; two pending claims treat degree 3, Dahlke's manuscript
-([[problems/polynomials/E0114/claims/2026_05_20_dahlke|Dahlke 2026]]) and
-Chatelet's write-up
+erdosproblems.com label was an open one, its remarks are commentary and not
+acceptance. The general upper bounds $f(n)\le 2\pi n$ [Da07] and
+$f(n)\le 2n+O(n^{7/8})$ [FrNa09] precede Tao's result. The degrees from $3$ up
+to Tao's bound remain open; two pending claims treat degree 3, Dahlke's
+manuscript ([[problems/polynomials/E0114/claims/2026_05_20_dahlke|Dahlke 2026]])
+and Chatelet's write-up
 ([[problems/polynomials/E0114/claims/2026_08_22_chatelet|Chatelet 2026]]), the
 latter's Lean development at the pinned commit stating its cited reduction as a
 hypothesis that is stronger than the cited results and false, so that its formal
@@ -130,11 +132,12 @@ showed that its lengths and margins were estimates rather than bounds and that
 half of the coefficient box was never evaluated for $n\ge6$. A research note on
 degree $4$ posted on the thread on 2026-08-10 says itself that it does not solve
 that case; it settles no degree and has no claim page. Search scope:
-the site's references, its proof-claims tab and its discussion thread (nine
-comments, the last of 2026-09-05), the Zenodo records of Dahlke and Mendoza, the
-Mendoza repository and its issue #4, Chatelet's Zenodo record and repository,
-and the zbMATH record of Wang 1998; no wider literature search is recorded.
-Proof coverage: none of the proofs is reconstructed or compiled in this corpus.
+the erdosproblems.com references, its proof-claims tab and its discussion thread
+(nine comments, the last of 2026-09-05), the Zenodo records of Dahlke and
+Mendoza, the Mendoza repository and its issue #4, Chatelet's Zenodo record and
+repository, and the zbMATH record of Wang 1998; no wider literature search is
+recorded. Proof coverage: none of the proofs is reconstructed or compiled in
+this corpus.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

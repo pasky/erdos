@@ -81,4 +81,4 @@ and de Bruijn's reduction (de Bruijn 1951, §1, cited by the paper as [1]).
   $h>0$; the identity $\Delta_uf(x)=-\Delta_{-u}f(x+u)$ for $u<0$, where
   $\Delta_tf(x)=f(x+t)-f(x)$, recorded on the problem page, carries it to
   every real shift. The theorem does not give a continuous summand, the
-  site's wording, which the problem page shows to be false.
+  erdosproblems.com wording, which the problem page shows to be false.

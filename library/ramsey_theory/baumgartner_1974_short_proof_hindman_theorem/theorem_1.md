@@ -64,9 +64,9 @@ None outside the note; Theorem 2 is proved in it from first principles.
 
 - [[../wiki/problems/ramsey_theory/E0532/_index|Problem 532]]: the case $k=2$ over the
   positive integers, with the $x_n$ read as distinct and positive (above), is
-  the site's statement (assign $0$ to either class; nothing need be removed
-  from $X$, an observation made on that page); the site's commentary "for
-  any number of colours" is the theorem's $k$.
+  the erdosproblems.com statement (assign $0$ to either class; nothing need be
+  removed from $X$, an observation made on that page); the erdosproblems.com
+  commentary "for any number of colours" is the theorem's $k$.
 - [[../wiki/problems/ramsey_theory/E0531/_index|Problem 531]]: the infinite
   version over $\mathbb{N}$ of the problem's finite question, as the
   problem's page records it; the note says nothing about $F(k)$ and proves

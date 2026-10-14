@@ -47,7 +47,7 @@ stays open.
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Acceptance.** Refereed: Acta Arithmetica 48 (1987), no. 1, 73--79,
-doi:10.4064/aa-48-1-73-79. Not reviewed: the site labeled the problem
+doi:10.4064/aa-48-1-73-79. Not reviewed: Bloom's catalog labeled the problem
 VERIFIABLE, an open label, and its commentary does not cite the paper. Not
 formalized: no Lean proof of the corollary is recorded. The library's
 compilation is author-recorded coverage by this project and awards nothing here.

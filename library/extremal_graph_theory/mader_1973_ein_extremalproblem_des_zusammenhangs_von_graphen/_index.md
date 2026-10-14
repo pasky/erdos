@@ -10,7 +10,7 @@ desc: |
   Satz 2, a girth-restricted vertex-disjoint bound.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:01:53Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen
@@ -22,14 +22,14 @@ edges force two vertices joined by n internally disjoint paths, for odd
 n ≥ 5 and even n ≥ 6: from an (n − 2)-regular graph with m cut cliques and a
 universal vertex, graphs with (n/2)(e − 1) + m(n/2 − 2), or m(n − 5), edges
 and no two vertices joined by n such paths; the disproof of the
-vertex-disjoint form of the Bollobás–Erdős conjecture the site records as
-k_m(n) > (m/2)n + C.
+vertex-disjoint form of the Bollobás–Erdős conjecture erdosproblems.com
+records as k_m(n) > (m/2)n + C.
 
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/korollar|korollar]]: Mader's exact edge-disjoint threshold: every graph with more than
 (n/2)(e(G) − 1) edges has two vertices joined by n edge-disjoint paths, and
 for every m ≥ n ≥ 2 there is a graph on m vertices with [(n/2)(m − 1)]
-edges and no such pair; in the site's notation ℓ_m(n) = [(m/2)(n − 1)] + 1,
-which is 1 + n·C(m,2) at the problem's parameters.
+edges and no such pair; in the erdosproblems.com notation ℓ_m(n) = [(m/2)(n −
+1)] + 1, which is 1 + n·C(m,2) at the problem's parameters.
 
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|satz_1]]: Mader's theorem that every finite graph G on at least n vertices with more
 than (n/2)(e(G) − 1) − (1/2)σ_n(G) edges, σ_n(G) the sum over vertices of
@@ -135,8 +135,8 @@ were recomputed here (below). Nothing here is independently reviewed.
   =\sum_{x\in E_{n-1}(G)}(n-1-\gamma(x,G))$, $n$ a natural number. A filing
   note: a vertex of degree $d\le n-1$ is counted by $e_d,\ldots,e_{n-2}$,
   that is $n-1-d$ times, so the two forms of $\sigma_n$ agree; $e_m(G)$
-  counts vertices of degree at most $m$, as the site's thread reads it, not
-  of degree exactly $m$.
+  counts vertices of degree at most $m$, as the erdosproblems.com thread reads
+  it, not of degree exactly $m$.
 - Satz 1 and its proof (pp. 223--226; the statement on the page image of
   PDF p. 1, the proof on the page images of PDF pp. 1--4 for structure),
   paged at
@@ -300,26 +300,26 @@ Satz 2 (p. 229), which the problem page lists, is paged at
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_2|satz_2]].
 The structural results (Z) and (Y) and Satz 2 are recorded as statements
 read on the page images with their proofs read for structure. A filing
-observation, not a review verdict: the site and the filed Sørensen--Thomassen
-paper report the vertex-disjoint bound for $m\ge6$ ($k>5$), while the
-printed examples are stated "für ungerades $n\ge5$ (bzw. gerades $n\ge6$)",
-so the printed range includes $n=5$, where the excess is
+observation, not a review verdict: erdosproblems.com and the filed
+Sørensen--Thomassen paper report the vertex-disjoint bound for $m\ge6$ ($k>5$),
+while the printed examples are stated "für ungerades $n\ge5$ (bzw. gerades
+$n\ge6$)", so the printed range includes $n=5$, where the excess is
 $m(\frac52-2)=\frac m2$. Nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key
-Ma73 and the source of both of the page's readings of "disjoint". Under the
-edge-disjoint reading, Satz 1 (printed p. 223, PDF p. 1), "Jeder endliche
-Graph $G$ mit $\kappa(G)>\frac n2(e(G)-1)-\frac12\sigma_n(G)$ und $e(G)\ge n$
-enthält zwei Ecken $x$ und $y$ mit $\lambda(x,y;G)\ge n$", is the theorem the
-site records as "if a graph with $n$ vertices has
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the
+erdosproblems.com key Ma73 and the source of both of the page's readings of
+"disjoint". Under the edge-disjoint reading, Satz 1 (printed p. 223, PDF p. 1),
+"Jeder endliche Graph $G$ mit $\kappa(G)>\frac n2(e(G)-1)-\frac12\sigma_n(G)$
+und $e(G)\ge n$ enthält zwei Ecken $x$ und $y$ mit $\lambda(x,y;G)\ge n$", is
+the theorem erdosproblems.com records as "if a graph with $n$ vertices has
 $>\frac m2(n-1)-\frac12(e_0(G)+\cdots+e_{m-2}(G))$ edges then $G$ contains
 two vertices connected by $m$ edge-disjoint paths", and its Korollar
 (printed p. 226, PDF p. 4), "Für jeden Graphen $G$ mit
 $\kappa(G)>\frac n2(e(G)-1)$ gilt $\bar\lambda(G)\ge n$. Zu jeder ganzen Zahl
 $m\ge n\ge2$ existiert ein Graph $G$ mit $e(G)=m$,
-$\kappa(G)=\bigl[\frac n2(e(G)-1)\bigr]$ und $\bar\lambda(G)<n$", is the
-site's $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$ for every $m\ge2$; at the
-problem's parameters, a graph on $1+n(m-1)$ vertices with $1+n\binom m2$
+$\kappa(G)=\bigl[\frac n2(e(G)-1)\bigr]$ und $\bar\lambda(G)<n$", is
+erdosproblems.com's $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$ for every $m\ge2$;
+at the problem's parameters, a graph on $1+n(m-1)$ vertices with $1+n\binom m2$
 edges has more than $\frac m2\cdot n(m-1)=n\binom m2$ edges and at least $m$
 vertices, so the answer is yes for every $m\ge2$ under that reading, and the
 extremal graphs of the Korollar's proof at $e(G)=1+n(m-1)$, a universal
@@ -328,14 +328,15 @@ short (an arithmetic check made here). Under the vertex-disjoint reading,
 the examples of pp. 228--229 (PDF pp. 6--7) show "daß keine Konstante $c_n$
 mit der Eigenschaft existiert, daß für jeden endlichen (2-fach
 zusammenhängenden) Graphen $G$ mit $\kappa(G)\ge\frac n2e(G)+c_n$ gilt
-$\bar\mu(G)\ge n$", for odd $n\ge5$ and even $n\ge6$: the site's "for all
-$m\ge6$ and any $C>0$, there exists an $n$ such that $k_m(n)>\frac m2n+C$",
-which the site and Sørensen--Thomassen report as disproving the conjectured
-$k_m(1+(m-1)n)=1+\binom m2n$ for every such $m$; the paper prints no
+$\bar\mu(G)\ge n$", for odd $n\ge5$ and even $n\ge6$: erdosproblems.com's "for
+all $m\ge6$ and any $C>0$, there exists an $n$ such that $k_m(n)>\frac m2n+C$",
+which erdosproblems.com and Sørensen--Thomassen report as disproving the
+conjectured $k_m(1+(m-1)n)=1+\binom m2n$ for every such $m$; the paper prints no
 statement about the conjecture itself under this reading and does not name
 Bollobás and Erdős.
 The paper settles nothing the page leaves open: the page's status is the
-site's label attached to the vertex-disjoint disproof, which is recorded through
+erdosproblems.com label attached to the vertex-disjoint disproof, which is
+recorded through
 [[extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/theorem_4|Sørensen and Thomassen's Theorem 4]]
 and
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/counterexample_p281|Leonard's counterexample]],

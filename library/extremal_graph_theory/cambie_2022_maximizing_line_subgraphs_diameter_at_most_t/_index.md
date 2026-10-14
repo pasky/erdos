@@ -60,19 +60,19 @@ EuroComb 2021 proceedings). The [folder-name
 PDF](cambie_2022_maximizing_line_subgraphs_diameter_at_most_t.pdf) is the arXiv
 preprint arXiv:2103.11898v2 (10 December 2021, "v2 accepted to SIAM Journal on
 Discrete Mathematics"), 12 pages, titled "Maximising line subgraphs of diameter
-at most $t$" where the journal's title (Crossref) and the site's reference text
-spell "Maximizing"; the locators and labels below are the preprint's, and the
-journal text was not compared. Read status: claims checked for the introduction
-with Erdős's quotation and the $t\le2$ history (p. 1), Conjecture 1, Theorem 2,
-Conjectures 3--4 and Proposition 5 with its proof (p. 2), Theorems 6--8 and
-Corollary 9 (p. 3) and Theorem 10 (p. 4), read clause by clause on the page
-images, paged at the seven result pages listed above; the proof of Proposition 5
-followed, the closing remark of the proof of Theorem 2 (p. 11) read in the text
-layer, the other proofs not read. The site's thread reported (17 August 2026)
-that the paper's Conjecture 1 says "with equality if", not the site's "if and
-only if"; the retained v2 prints "if". The arXiv record
-(https://arxiv.org/abs/2103.11898, read 2026-10-02) names the Creative Commons
-Attribution-ShareAlike 4.0 license.
+at most $t$" where the journal's title (Crossref) and the erdosproblems.com
+reference text spell "Maximizing"; the locators and labels below are the
+preprint's, and the journal text was not compared. Read status: claims checked
+for the introduction with Erdős's quotation and the $t\le2$ history (p. 1),
+Conjecture 1, Theorem 2, Conjectures 3--4 and Proposition 5 with its proof (p.
+2), Theorems 6--8 and Corollary 9 (p. 3) and Theorem 10 (p. 4), read clause by
+clause on the page images, paged at the seven result pages listed above; the
+proof of Proposition 5 followed, the closing remark of the proof of Theorem 2
+(p. 11) read in the text layer, the other proofs not read. The erdosproblems.com
+thread reported (17 August 2026) that the paper's Conjecture 1 says "with
+equality if", not erdosproblems.com's "if and only if"; the retained v2 prints
+"if". The arXiv record (https://arxiv.org/abs/2103.11898, read 2026-10-02) names
+the Creative Commons Attribution-ShareAlike 4.0 license.
 
 The paper studies h_t(Delta), the least number of edges forcing a graph of
 maximum degree Delta to have line-graph diameter greater than t, a problem posed
@@ -104,14 +104,14 @@ Source: <https://arxiv.org/abs/2103.11898>.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0934/_index|#934]]: p. 1 (page
 image) quotes Erdős's 1988 statement, restates the problem as "an edge
 version of the ... degree--diameter problem", records $h_1(\Delta)=\Delta+1$
-(without the $\Delta\ge3$ qualification the site's thread supplies), the
-trivial $2\Delta^t$ and the $t=2$ history (Erdős--Nešetřil and Bermond,
+(without the $\Delta\ge3$ qualification the erdosproblems.com thread supplies),
+the trivial $2\Delta^t$ and the $t=2$ history (Erdős--Nešetřil and Bermond,
 Bond, Paoli and Peyrat independently; Chung, Gyárfás, Tuza and Trotter's
-confirmation); Theorem 6 (p. 3) is the site's $\frac32d^t+1$, Proposition
-5 (p. 2) its $0.629^td^t$, Theorem 2 (p. 2) its $h_3(3)=23$, Conjecture 1
-(p. 2) its $h_3$ formula, Conjectures 3--4 (p. 2) its two asymptotic
-conjectures, and Theorem 7 (p. 3) the $C_{2t+1}$-free case of Conjecture 4;
-the paper is the site's key CCJK22.
+confirmation); Theorem 6 (p. 3) is erdosproblems.com's $\frac32d^t+1$,
+Proposition 5 (p. 2) its $0.629^td^t$, Theorem 2 (p. 2) its $h_3(3)=23$,
+Conjecture 1 (p. 2) its $h_3$ formula, Conjectures 3--4 (p. 2) its two
+asymptotic conjectures, and Theorem 7 (p. 3) the $C_{2t+1}$-free case of
+Conjecture 4; the paper is the erdosproblems.com key CCJK22.
 
 **Results.**
 

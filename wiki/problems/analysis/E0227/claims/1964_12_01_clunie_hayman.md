@@ -40,14 +40,14 @@ $$
 $$
 
 Any $\lambda>0$ is a counterexample, so the answer to the question is no.
-The site's [[problems/analysis/E0513/_index|Problem 513]] asks a different
-question about the same ratio, the greatest possible value of its limit
-inferior, and is open. The paper is not held in the library, so its
-construction is not compiled here; this page records the result as the site
-credits it.
+erdosproblems.com's [[problems/analysis/E0513/_index|Problem 513]] asks a
+different question about the same ratio, the greatest possible value of its
+limit inferior, and is open. The paper is not held in the library, so its
+construction is not compiled here; this page records the result as
+erdosproblems.com credits it.
 
 **Acceptance.** The paper is refereed: J. Clunie and W. K. Hayman, *The
 maximum term of a power series*, J. Analyse Math. 12 (1964), 143--186. The
-site's curator, Thomas F. Bloom, marked Problem 227 disproved and credits this
-paper with the disproof. The page is dated by the first day of the issue
-month, since the paper's first posting carries no finer date.
+erdosproblems.com curator, Thomas F. Bloom, marked Problem 227 disproved and
+credits this paper with the disproof. The page is dated by the first day of the
+issue month, since the paper's first posting carries no finer date.

@@ -44,7 +44,7 @@ The retained folder-name PDF is the published article, Forum of
 Mathematics, Pi 10 (2022), e18, 1--51 (received 23 February 2021, accepted
 8 March 2022; the Crossref record was read 2026-09-18); printed page equals
 PDF page. The paper's coloring convention is a blue 3-term or a red k-term
-progression; the site's Problem 721 exchanges the colors. Read status:
+progression; erdosproblems.com's Problem 721 exchanges the colors. Read status:
 claims checked for Theorem 1.1 (p. 2), Theorem 2.1 (p. 5), the June 2022
 update note and the introduction's history (p. 2) and the Section 2.3
 expectation (p. 6), read clause by clause on the page images; the proof
@@ -59,7 +59,7 @@ naming the Creative Commons Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0721/_index|#721]]: the first
 superpolynomial lower bound, W(3,k) >= exp(c (log k)^{4/3} / (log log k)^{1/3})
-in the site's form; the "non-trivial lower bounds" challenge.
+in the erdosproblems.com form; the "non-trivial lower bounds" challenge.
 [[../wiki/problems/additive_combinatorics/E0138/_index|#138]]: p. 2 (page image), the
 history paragraphs of Section 1: van der Waerden's theorem gives that w(3,k)
 is finite, the best upper bound is Schoen's w(3,k) < e^{k^{1-c}} (also a

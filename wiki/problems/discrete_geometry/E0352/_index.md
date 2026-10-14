@@ -50,16 +50,16 @@ proof and no variants.
 
 ## Current assessment
 
-The question is the site's formulation as accessed 2026-09-04: whether some
-$c>0$ makes every measurable $A\subseteq\mathbb{R}^2$ of measure at least $c$
-contain the vertices of a triangle of area $1$. Erdős raised it in Real Anal.
-Exchange 4 (1978/79), pp. 122–123 ([Er78d]), again in 1981 (p. 30 of his
-Scottish Book problems, the site's [Er81b]) and at Oberwolfach in 1983
-([Er83d], p. 323), speculating that $C=4\pi/\sqrt{27}$ might be the right
+The question is the erdosproblems.com formulation as accessed 2026-09-04:
+whether some $c>0$ makes every measurable $A\subseteq\mathbb{R}^2$ of measure at
+least $c$ contain the vertices of a triangle of area $1$. Erdős raised it in
+Real Anal. Exchange 4 (1978/79), pp. 122–123 ([Er78d]), again in 1981 (p. 30 of
+his Scottish Book problems, erdosproblems.com's [Er81b]) and at Oberwolfach in
+1983 ([Er83d], p. 323), speculating that $C=4\pi/\sqrt{27}$ might be the right
 constant: the open disk of radius $2\cdot3^{-3/4}$ has that area and contains
 no triangle of area $1$, since the largest triangle inscribed in a circle is
-equilateral. The site labeled the problem OPEN, and no claim page settles it,
-so the standing is open with claim none; the claimed partial results below
+equilateral. Bloom's catalog labeled the problem OPEN, and no claim page settles
+it, so the standing is open with claim none; the claimed partial results below
 settle special cases only.
 
 Three special cases are recorded as claimed partial results, none accepted,
@@ -70,13 +70,14 @@ yes with any $c>4\pi/\sqrt{27}$, by Freiling and Mauldin's outer-measure
 theorem of 2002
 ([[problems/discrete_geometry/E0352/claims/2002_01_01_freiling_mauldin|Freiling and Mauldin 2002]]),
 and already by Sas's theorem of 1939 on the largest triangle inscribed in a
-convex body, which the site's thread cites; that page records both. The same
-threshold is sharp for unions of the interiors of at most three compact
+convex body, which the erdosproblems.com thread cites; that page records both.
+The same threshold is sharp for unions of the interiors of at most three compact
 convex sets, by the argument Mauldin writes out in a 2013 survey
 ([[problems/discrete_geometry/E0352/claims/2013_01_01_freiling_mauldin|Freiling and Mauldin 2013]]).
 Sets of infinite measure contain a triangle of every area, by Erdős's
 density-theorem argument left to the reader, and unbounded sets of positive
-measure contain one of area $1$ by a statement of Mauldin's and the site's
+measure contain one of area $1$ by a statement of Mauldin's and
+erdosproblems.com's
 ([[problems/discrete_geometry/E0352/claims/1978_01_01_erdos|Erdős 1978]]).
 Mauldin's chapters also record two reductions: the question is equivalent to
 its restriction to unions of the interiors of finitely many compact convex
@@ -87,9 +88,9 @@ general, though not the best constant.
 The best general bound is a density estimate that settles no instance of the
 question and so has no claim page. Bulj and Kovač, On hyperbolic corners and
 unit-area triangles in planar sets of large measure, arXiv:2605.30033
-(posted 2026-05-28; Kovač linked it in the site's thread on 2026-05-29),
-prove in their Theorem 2 that a measurable $A\subseteq[0,R]^2$ containing no
-three points spanning a triangle of area $1$ has
+(posted 2026-05-28; Kovač linked it in the erdosproblems.com thread on
+2026-05-29), prove in their Theorem 2 that a measurable $A\subseteq[0,R]^2$
+containing no three points spanning a triangle of area $1$ has
 $\lvert A\rvert\ll R^2(\log\log R/\log R)^{1/2}$ for $R\ge10$; their
 Appendix B reconstructs a remark of Graham to derive the weaker $o(R^2)$. The
 authors write that they know no nontrivial lower bound and that the Erdős
@@ -100,13 +101,13 @@ mathematics and the writing being their own. The thread also holds a
 discrete reformulation on grid points and computed extremal sets for small
 sizes, which are explorations and not results about the question.
 
-Status search: the site's problem page and its thread, the formal-conjectures
-statement file (a research-open theorem with no proof and no variants at the
-commit linked under Formalization), the cited survey and chapters and the arXiv
-listing; on 2026-10-07 the Bulj–Kovač preprint was the only paper in them that
-states the problem and bears on the general case. The standing is
-open with claim none. No formalization and no independent proof review is
-recorded here.
+Status search: the erdosproblems.com problem page and its thread, the
+formal-conjectures statement file (a research-open theorem with no proof and no
+variants at the commit linked under Formalization), the cited survey and
+chapters and the arXiv listing; on 2026-10-07 the Bulj–Kovač preprint was the
+only paper in them that states the problem and bears on the general case. The
+standing is open with claim none. No formalization and no independent proof
+review is recorded here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

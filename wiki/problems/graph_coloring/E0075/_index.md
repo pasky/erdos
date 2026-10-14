@@ -30,8 +30,8 @@ $>n^{1-\epsilon}$?
 
 What about an independent set of size $\gg n$?
 
-**Status.** Open, the site's label. The first question has a pending partial
-claim,
+**Status.** Open, the erdosproblems.com label. The first question has a pending
+partial claim,
 [[problems/graph_coloring/E0075/claims/2026_04_12_chojecki|the Specker graph answers the n^(1-epsilon) question]].
 
 **Source.** [erdosproblems.com/75](https://www.erdosproblems.com/75), accessed
@@ -52,21 +52,21 @@ https://www.erdosproblems.com/75.
 
 ## Current assessment
 
-The site's formulation (page last edited 29 January 2026) asks for a graph of
-chromatic number $\aleph_1$ on $\aleph_1$ vertices whose subgraphs on $n$
-vertices, for $n$ large, contain independent sets of size above
+The erdosproblems.com formulation (page last edited 29 January 2026) asks for a
+graph of chromatic number $\aleph_1$ on $\aleph_1$ vertices whose subgraphs on
+$n$ vertices, for $n$ large, contain independent sets of size above
 $n^{1-\epsilon}$ for every $\epsilon>0$, and then asks the same with $\gg n$ in
-place of $n^{1-\epsilon}$. The site attributes the question to Erdős, Hajnal
-and Szemerédi [EHS82] and records that Erdős's 1995 wording in [Er95] omitted
-the $\aleph_1$-vertex condition by oversight, since [EHS82] already gives such
-a construction; the paper *Semi-Autonomous Mathematics Discovery with Gemini:
-A Case Study on the Erdős Problems* (arXiv:2601.22401, Appendix A) reports that
-its agent Aletheia solved the problem as the site then stated it, before
-experts found that wording not to be the intended one.
+place of $n^{1-\epsilon}$. erdosproblems.com attributes the question to Erdős,
+Hajnal and Szemerédi [EHS82] and records that Erdős's 1995 wording in [Er95]
+omitted the $\aleph_1$-vertex condition by oversight, since [EHS82] already
+gives such a construction; the paper *Semi-Autonomous Mathematics Discovery with
+Gemini: A Case Study on the Erdős Problems* (arXiv:2601.22401, Appendix A)
+reports that its agent Aletheia solved the problem as erdosproblems.com then
+stated it, before experts found that wording not to be the intended one.
 
 **Claims.** One claim page, pending. The first question has a positive
 answer in a note by Przemek Chojecki, obtained with GPT-5.4 Pro and posted in
-the site's discussion thread on 12 April 2026
+the erdosproblems.com discussion thread on 12 April 2026
 ([[problems/graph_coloring/E0075/claims/2026_04_12_chojecki|claim page]]): the
 Specker graph $G_1(\omega_1,3)$ has chromatic number and size $\aleph_1$, and
 its finite subgraphs on $n$ vertices have independent sets of size at least
@@ -74,21 +74,21 @@ $n/(C\log_2 n)$, by the chromatic-number bound for finite type-graphs of
 Avart, Kay, Reiher and Rödl (2017). A commenter's check with GPT-5.4 Thinking
 found one minor issue and noted the stronger bound $\gg n/\log n$; the curator
 replied that the construction was already studied in [EHS82] and that the
-lower bound was perhaps known but unpublished. The note is unrefereed and the
-site labeled the problem OPEN, so the claim is partial and pending, and the
-problem's standing is open. The second question, an independent set of size
-$\gg n$, has no claim: [EHS82, Theorem 2] bounds the least independence number
-over $m$-vertex subsets of the countable Specker graph by
-$O(m\log\log m/\log m)$, so no Specker graph answers it. The site's
+lower bound was perhaps known but unpublished. The note is unrefereed and
+Bloom's catalog labeled the problem OPEN, so the claim is partial and pending,
+and the problem's standing is open. The second question, an independent set of
+size $\gg n$, has no claim: [EHS82, Theorem 2] bounds the least independence
+number over $m$-vertex subsets of the countable Specker graph by
+$O(m\log\log m/\log m)$, so no Specker graph answers it. The erdosproblems.com
 proof-claims tab lists no claim.
 
-Search scope: the site's page and remarks, its discussion thread (three
-comments of 12 April 2026) and proof-claims tab, the note itself, the
+Search scope: the erdosproblems.com page and remarks, its discussion thread
+(three comments of 12 April 2026) and proof-claims tab, the note itself, the
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/75.lean)
 (`erdos_75`, tagged research open, with no formal proof) and the Gemini
 case-study paper. Erdős's prize offer in [Er95d] for a complete solution to all
 problems of this type, with [[problems/graph_coloring/E0074/_index|Problem 74]]
-as an example, is recorded by the site; the vertex-deletion relative is
+as an example, is recorded by erdosproblems.com; the vertex-deletion relative is
 [[problems/graph_coloring/E0750/_index|Problem 750]]. The library's card for the
 original source is
 [[../library/graph_coloring/erdos_1982_almost_bipartite_large_chromatic_graphs/_index|erdos_1982_almost_bipartite_large_chromatic_graphs]];

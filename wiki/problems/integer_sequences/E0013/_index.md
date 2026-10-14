@@ -25,57 +25,58 @@ updated: 2026-10-08T02:55:41Z
 $a,b,c\in A$ such that $a\mid(b+c)$ and $a<\min(b,c)$. Is it true that $\lvert
 A\rvert\leq N/3+O(1)$?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 8
-April 2026), is unambiguous. The condition quantifies over all $a,b,c\in A$ with
-$a<\min(b,c)$ and does not require $b\ne c$, so a pair $a<b$ with $a\mid2b$ is
-also forbidden; this is Bedert's Definition 1 ("no three numbers $x,y,z\in A$
-with $z<x,y$ and $z\mid x+y$") and the formal-conjectures predicate
-`IsForbiddenTripleFree`. Erdős's own finite conjecture is a separate variant,
-not a reading of the site's wording: it forbids a term dividing the sum of
-two *distinct* larger terms. It is the 1970 paper's (1),
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 8 April 2026), is unambiguous. The condition quantifies over all
+$a,b,c\in A$ with $a<\min(b,c)$ and does not require $b\ne c$, so a pair $a<b$
+with $a\mid2b$ is also forbidden; this is Bedert's Definition 1 ("no three
+numbers $x,y,z\in A$ with $z<x,y$ and $z\mid x+y$") and the formal-conjectures
+predicate `IsForbiddenTripleFree`. Erdős's own finite conjecture is a separate
+variant, not a reading of the erdosproblems.com wording: it forbids a term
+dividing the sum of two *distinct* larger terms. It is the 1970 paper's (1),
 $\max A(x)=[\tfrac13x]+1$, attained by the $[\tfrac13x]+1$ largest integers up
 to $x$, and the 1975, 1977 and 1980 restatements, each in substance
 $k\le[x/3]+1$, with equality for $x=3n$ and the integers $2n,2n+1,\ldots,3n$;
 the 1992 paper prints the strict "$k<[x/3]+1$", and the 1997 paper [Er97b]
 prints "$\max k\le m/3+0(1)$" [sic] with the example $2m/3<a_i\le m$ (p. 230),
-the site's $O(1)$ form with a half-open example that excludes $2m/3$. The two
-questions differ when $3\mid N$ (whether they agree otherwise is not decided by
-the source): the set $\{2n,\ldots,3n\}$, $N=3n$, has $n+1$ elements and no term
-dividing the sum of two distinct larger terms, but $2n\mid3n+3n$ (an observation
-made here; it is what Bedert's remark on p. 2 about a "typo" in Erdős's example
-amounts to). The standing judges the site's question, which asks only for
-$N/3+O(1)$, and Bedert proves that bound. Whether the same bound holds for
-Erdős's distinct-terms variant does not follow from Bedert's theorem as stated,
-and no result on that variant is recorded. The site's commentary also records
-the $r$-fold generalization from the 1992 paper, in which no $a\in A$ divides a
-sum $b_1+\cdots+b_r$ of $r$ elements of $A$ larger than $a$, asking whether
-$|A|\le N/(r+1)+O(1)$, which the formal-conjectures file carries as the open
-variant `erdos_13.variants.general`; the 1992 page prints $k\le x/r+O(1)$ with
-the example $x(1-1/r)\le a_i\le x$, a form that is inconsistent for $r=2$ (see
-the 1992 card), so the site's $N/(r+1)$ is taken as the intended reading.
+erdosproblems.com's $O(1)$ form with a half-open example that excludes $2m/3$.
+The two questions differ when $3\mid N$ (whether they agree otherwise is not
+decided by the source): the set $\{2n,\ldots,3n\}$, $N=3n$, has $n+1$ elements
+and no term dividing the sum of two distinct larger terms, but $2n\mid3n+3n$ (an
+observation made here; it is what Bedert's remark on p. 2 about a "typo" in
+Erdős's example amounts to). The standing judges the erdosproblems.com question,
+which asks only for $N/3+O(1)$, and Bedert proves that bound. Whether the same
+bound holds for Erdős's distinct-terms variant does not follow from Bedert's
+theorem as stated, and no result on that variant is recorded. The
+erdosproblems.com commentary also records the $r$-fold generalization from the
+1992 paper, in which no $a\in A$ divides a sum $b_1+\cdots+b_r$ of $r$ elements
+of $A$ larger than $a$, asking whether $|A|\le N/(r+1)+O(1)$, which the
+formal-conjectures file carries as the open variant `erdos_13.variants.general`;
+the 1992 page prints $k\le x/r+O(1)$ with the example $x(1-1/r)\le a_i\le x$, a
+form that is inconsistent for $r=2$ (see the 1992 card), so erdosproblems.com's
+$N/(r+1)$ is taken as the intended reading.
 
 **Status.** PROVED (LEAN). Bedert's Theorem 1 (2023) gives an absolute constant
 $C$ with $|A|\le N/3+C$ for every $N$ and every $A\subseteq\{1,\ldots,N\}$ with
 property P. Theorem 2 gives $|A|\le\lceil N/3\rceil$ for all sufficiently
 large $N$, which is sharp for the set $\{\lfloor2N/3\rfloor+1,\ldots,N\}$. The
 status-defining source is an arXiv preprint (v1, 17 January 2023) for which no
-journal record was found on 2026-09-18. Thomas Bloom, the site's curator,
-accepted it as the resolution, and named Bedert's paper in the commentary as the
-proof that the answer is yes. The formal-conjectures collection marks the
-statement `research solved`. An outside Lean proof of the $N/3+C$ statement, not
-built here, is linked from the claim page. The claim page
+journal record was found on 2026-09-18. Thomas Bloom, the erdosproblems.com
+curator, accepted it as the resolution, and named Bedert's paper in the
+commentary as the proof that the answer is yes. The formal-conjectures
+collection marks the statement `research solved`. An outside Lean proof of the
+$N/3+C$ statement, not built here, is linked from the claim page. The claim page
 [[problems/integer_sequences/E0013/claims/2023_01_17_bedert|Bedert 2023]]
-records the acceptance with this preprint qualification. The site's (LEAN)
-suffix is a catalog label, explained under Formalization and the Lean label
-below.
+records the acceptance with this preprint qualification. erdosproblems.com's
+(LEAN) suffix is a catalog label, explained under Formalization and the Lean
+label below.
 
 **Source.** [erdosproblems.com/13](https://www.erdosproblems.com/13), accessed
-2026-09-18: the problem page (labeled PROVED (LEAN), with the site's standard
-note for that label, that the answer is yes and the proof has been checked in
-Lean; a prize; last edited 8 April 2026; source keys [Er73], [Er75b], [Er77c],
-[Er80, p. 113], [Er92c], [Er95c], [Er97], [Er97b], [Er97e], [Er98], with [Be23]
-cited in the commentary; OEIS A002264), its empty discussion thread and its
-empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #13,
+2026-09-18: the problem page (labeled PROVED (LEAN), with erdosproblems.com's
+standard note for that label, that the answer is yes and the proof has been
+checked in Lean; a prize; last edited 8 April 2026; source keys [Er73], [Er75b],
+[Er77c], [Er80, p. 113], [Er92c], [Er95c], [Er97], [Er97b], [Er97e], [Er98],
+with [Be23] cited in the commentary; OEIS A002264), its empty discussion thread
+and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #13,
 https://www.erdosproblems.com/13, accessed 2026-09-18.
 
 **References.**
@@ -127,9 +128,9 @@ https://www.erdosproblems.com/13, accessed 2026-09-18.
   result page
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/section_9|Item 9]].
 - [Er95c], [Er97], [Er97e], [Er98]: Erdős's problem papers of 1995--1998
-  cited by the site; not held (see Problem 12 for the entries).
+  cited by erdosproblems.com; not held (see Problem 12 for the entries).
 
-**Formalization.** The site's (LEAN) suffix is a catalog label; see
+**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label; see
 "Formalization and the Lean label" below for the Lean files. The file
 [`ErdosProblems/13.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/13.lean)
 of formal-conjectures, at the linked revision of 17 September 2026, defines
@@ -149,15 +150,15 @@ location. Nothing was built here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; PROVED
-(LEAN), a prize, last edited 8 April 2026. The commentary attributes the
-question to Erdős and Sárközy, notes that the integers in $(2N/3,N]$ form such a
-set, and names Bedert's paper [Be23] as the proof that the answer is yes; it
-points to Problem 12 for the infinite version, to Problem 131 as related, and to
-[Er92c] for the $r$-fold version, in which no element of $A$ divides a sum of
-$r$ larger elements and the question is whether $|A|\le N/(r+1)+O(1)$. Thread
-and proof-claim tab: empty. The site's OEIS link A002264 is the sequence
-$\lfloor n/3\rfloor$.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED (LEAN), a prize, last edited 8 April 2026. The commentary
+attributes the question to Erdős and Sárközy, notes that the integers in
+$(2N/3,N]$ form such a set, and names Bedert's paper [Be23] as the proof that
+the answer is yes; it points to Problem 12 for the infinite version, to Problem
+131 as related, and to [Er92c] for the $r$-fold version, in which no element of
+$A$ divides a sum of $r$ larger elements and the question is whether
+$|A|\le N/(r+1)+O(1)$. Thread and proof-claim tab: empty. The erdosproblems.com
+OEIS link A002264 is the sequence $\lfloor n/3\rfloor$.
 
 **The origin.** Erdős and Sárközi 1970, p. 97, display (1): "We believe that if
 $A$ has property P then $\max A(x)=[\tfrac13x]+1$"; p. 98: "It is perhaps
@@ -177,7 +178,7 @@ where he also asks the $r$-fold version. Bedert's introduction says Erdős
 offered a prize in his final open problems paper for the $N/3+C$ form; [Er97b]
 (item 9, p. 230) prints the $m/3+O(1)$ form with the example $2m/3<a_i\le m$ and
 no prize, so the final open problems paper is another of the 1997--1998 items,
-which are not held, and the prize is taken from the site.
+which are not held, and the prize is taken from erdosproblems.com.
 
 **Status-defining source.** Bedert 2023,
 [[../library/integer_sequences/bedert_2023_problem_erdos_sarkozy_about_sequences_no/theorem_1|Theorem 1]]
@@ -189,8 +190,8 @@ for all sufficiently large $n$ such an $A$ has $|A|\le\lceil n/3\rceil$,
 sharp for $\{\lfloor2n/3\rfloor+1,\ldots,n\}$ (the abstract prints the
 large-$n$ bound as $\lfloor n/3\rfloor+1$, the same unless $3\mid n$). The
 proof is a case analysis on $|A\cap(\tfrac23n,n]|$ across three regimes
-(pp. 4--43). Acceptance evidence: the site's label and commentary (the
-page was edited to PROVED before 8 April 2026); the formal-conjectures
+(pp. 4--43). Acceptance evidence: the erdosproblems.com label and commentary
+(the page was edited to PROVED before 8 April 2026); the formal-conjectures
 entry `research solved`; an external Lean proof of the $N/3+C$ statement
 (below). Not found on 2026-09-18: a journal record (arXiv listed none;
 Crossref bibliographic query; zbMATH Open, which listed the preprint only), a
@@ -198,7 +199,7 @@ citing paper (Semantic Scholar returned none), or any dispute. Read depth:
 claims checked for Definition 1 and Theorems 1--2; the 40-page proof was not
 read.
 
-**Formalization and the Lean label.** The site's (LEAN) suffix is a
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body and no `formal_proof` attribute. Boris
 Alexeev's collection `lean-proofs` holds, at its revision of 15 September
@@ -219,7 +220,7 @@ no field for a formal proof's location.
 journal version of [Be23], a review or dispute of its proof, or a result on
 the $r$-fold variant.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database; the
   external Lean file at the pinned commit.
 - arXiv: the API record of 2301.07065 (v1 only, no journal reference);
@@ -239,13 +240,13 @@ Not searched: MathSciNet, Google Scholar, X. Not held: [Er95c], [Er97],
 file (see the reference).
 
 **Remaining gaps.** (1) The status rests on an unrefereed preprint with
-documented site acceptance and an external, unbuilt Lean proof; a refereed
-version or an independent review is the reopening condition for the
+documented erdosproblems.com acceptance and an external, unbuilt Lean proof; a
+refereed version or an independent review is the reopening condition for the
 qualification. (2) The proof is compiled at statement level only. (3) Erdős's
 own distinct-terms conjecture, with maximum $[x/3]+1$, is a separate variant
 that Bedert's theorem as stated does not decide. (4) The $r$-fold generalization
-is open, with the source's printed $x/r$ against the site's $N/(r+1)$ recorded
-on the 1992 card.
+is open, with the source's printed $x/r$ against erdosproblems.com's $N/(r+1)$
+recorded on the 1992 card.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -4,8 +4,8 @@ title: Problem 783
 desc: |
   Asks which set of pairwise coprime integers in $\{2,\ldots,N\}$ with
   reciprocal sum at most a fixed $C$ leaves the fewest integers up to $N$
-  divisible by none of its elements. Following the site, it is read up to an
-  error of $o(N)$, and then the largest primes up to $N$ are optimal.
+  divisible by none of its elements. Following erdosproblems.com, it is read up
+  to an error of $o(N)$, and then the largest primes up to $N$ are optimal.
 tags:
 - Number theory
 status: solved
@@ -36,61 +36,62 @@ $\sum_{n\in A}\frac{1}{n}\leq C$.
 What choice of such an $A$ minimises, up to an error of $o(N)$ as $N\to\infty$
 with $C$ fixed, the number of integers $m\leq N$ not divisible by any $a\in A$?
 
-**Notes.** The site's wording is Erdős's question in [Er73], p. 135, verbatim in
-substance: for $a$'s satisfying $\sum 1/a_i<c_1$, $(a_i,a_j)=1$ and $1<a_i\le n$
-(display (14.3)), "For what choice of the $a$'s satisfying (14.3), the number of
-integers $m\leq n$ not divisible by any $a$ is minimal?" Read as the site words
-it, it asks, for each $N$, which admissible $A$ attains the exact minimum. Erdős
-proposed the largest primes up to $N$ whose reciprocal sum stays within the
-budget (display (14.4)) and wrote that this "either gives the extremal sequence
-(or at least nearly gives the minimum). I made no progress with this question."
-The first alternative is false in general: a thread comment of 4 February 2026
-(Hunter) observed that when the budget allows, the smallest prime of the tail
-can be swapped for the next smaller prime, which sifts more, so the tail is not
-always the exact minimizer; Tao's numerical experiments reported in the thread
-the same day found sets beating the construction for small $N$; and no result on
-record determines the exact minimizer for a given $N$, which Tao's post of 23
-February 2026 and Chojecki's Remark 31 both leave open. The site's curator reads
-the problem as Erdős's second alternative: the commentary (page last edited 28
-May 2026) says that Tao "suggests the problem (which is likely what Erdős meant)
-of whether the minimum number of integers in $[1,N]$ not divisible by any
-$a\in A$ is $(\rho(e^C)+o(1))N$", with $\rho$ the Dickman function, and labeled
-the problem SOLVED because "Tao has resolved this question (asymptotically at
-least)". The evidence for that reading is Erdős's own parenthesis "or at least
-nearly gives the minimum", quoted in the thread on 4 February 2026 (Woett),
-Erdős's "$N$ large" framing, and the fact that the exact question has no clean
-answer once the perturbations are known. The modified Statement adopts this
-reading with the smallest change to the site's words: the minimum is sought up
-to $o(N)$ as $N\to\infty$ with $C$ fixed. Under the modified Statement the
-answer is known: the primes in $(N^{e^{-C}+o(1)},N]$, Erdős's construction
-(14.4), have reciprocal sum $C+o(1)$ by Mertens's theorem and leave
-$(\rho(e^C)+o(1))N$ integers unsifted by Dickman's theorem, and Tao [Ta26],
-Theorem 1.1, proved that every admissible $A$ leaves at least
-$(\rho(e^C)+o(1))N$, so the prime tail minimizes up to $o(N)$ and nothing does
-better. Hildebrand [Hi87b], Corollary 1, had proved this when $A$ consists of
-primes, answering Problem 1 of Erdős and Ruzsa [ErRu80], who had asserted
-without a written proof (their display (1.12)) that pairwise coprime sets do no
-better than sets of primes up to $o(N)$; Chojecki [Ch26a] proved the case
-$C\le\log 2$, where the tail starts above $\sqrt N$ and the union bound is
-sharp. Under the site's wording the answer is unknown: the exact minimizer for a
-given $N$ is not determined by any result on record, Erdős's prime tail is not
-always it, and the error term in $(\rho(e^C)+o(1))N$ is open (Tao's write-up
-remarks that the prime case gives $O((\log N)^{-c})$ and that the general error
-is not determined). The commentary's sentence that Chojecki "proved this is the
-extremal sequence when $C\le\log 2$" overstates Chojecki's Theorem 1.1, which is
-the asymptotic form $1-C+o(1)$ attained by the tail up to $o(1)$; the exact
-extremal sequence is not determined for any $C$. The standing below judges the
-modified Statement; the exact-minimizer question is recorded here and on the
-claim pages, not as a standing.
+**Notes.** The erdosproblems.com wording is Erdős's question in [Er73], p. 135,
+verbatim in substance: for $a$'s satisfying $\sum 1/a_i<c_1$, $(a_i,a_j)=1$ and
+$1<a_i\le n$ (display (14.3)), "For what choice of the $a$'s satisfying (14.3),
+the number of integers $m\leq n$ not divisible by any $a$ is minimal?" Read as
+Bloom's catalog words it, it asks, for each $N$, which admissible $A$ attains
+the exact minimum. Erdős proposed the largest primes up to $N$ whose reciprocal
+sum stays within the budget (display (14.4)) and wrote that this "either gives
+the extremal sequence (or at least nearly gives the minimum). I made no progress
+with this question." The first alternative is false in general: a thread comment
+of 4 February 2026 (Hunter) observed that when the budget allows, the smallest
+prime of the tail can be swapped for the next smaller prime, which sifts more,
+so the tail is not always the exact minimizer; Tao's numerical experiments
+reported in the thread the same day found sets beating the construction for
+small $N$; and no result on record determines the exact minimizer for a given
+$N$, which Tao's post of 23 February 2026 and Chojecki's Remark 31 both leave
+open. The erdosproblems.com curator reads the problem as Erdős's second
+alternative: the commentary (page last edited 28 May 2026) says that Tao
+"suggests the problem (which is likely what Erdős meant) of whether the minimum
+number of integers in $[1,N]$ not divisible by any $a\in A$ is
+$(\rho(e^C)+o(1))N$", with $\rho$ the Dickman function, and labeled the problem
+SOLVED because "Tao has resolved this question (asymptotically at least)". The
+evidence for that reading is Erdős's own parenthesis "or at least nearly gives
+the minimum", quoted in the thread on 4 February 2026 (Woett), Erdős's "$N$
+large" framing, and the fact that the exact question has no clean answer once
+the perturbations are known. The modified Statement adopts this reading with the
+smallest change to erdosproblems.com's words: the minimum is sought up to $o(N)$
+as $N\to\infty$ with $C$ fixed. Under the modified Statement the answer is
+known: the primes in $(N^{e^{-C}+o(1)},N]$, Erdős's construction (14.4), have
+reciprocal sum $C+o(1)$ by Mertens's theorem and leave $(\rho(e^C)+o(1))N$
+integers unsifted by Dickman's theorem, and Tao [Ta26], Theorem 1.1, proved that
+every admissible $A$ leaves at least $(\rho(e^C)+o(1))N$, so the prime tail
+minimizes up to $o(N)$ and nothing does better. Hildebrand [Hi87b], Corollary 1,
+had proved this when $A$ consists of primes, answering Problem 1 of Erdős and
+Ruzsa [ErRu80], who had asserted without a written proof (their display (1.12))
+that pairwise coprime sets do no better than sets of primes up to $o(N)$;
+Chojecki [Ch26a] proved the case $C\le\log 2$, where the tail starts above
+$\sqrt N$ and the union bound is sharp. Under the erdosproblems.com wording the
+answer is unknown: the exact minimizer for a given $N$ is not determined by any
+result on record, Erdős's prime tail is not always it, and the error term in
+$(\rho(e^C)+o(1))N$ is open (Tao's write-up remarks that the prime case gives
+$O((\log N)^{-c})$ and that the general error is not determined). The
+commentary's sentence that Chojecki "proved this is the extremal sequence when
+$C\le\log 2$" overstates Chojecki's Theorem 1.1, which is the asymptotic form
+$1-C+o(1)$ attained by the tail up to $o(1)$; the exact extremal sequence is not
+determined for any $C$. The standing below judges the modified Statement; the
+exact-minimizer question is recorded here and on the claim pages, not as a
+standing.
 
-**Status.** The site labeled the problem SOLVED. The modified Statement is
-settled. Tao [Ta26] proved that every admissible $A$ leaves at least
+**Status.** Bloom's catalog labeled the problem SOLVED. The modified Statement
+is settled. Tao [Ta26] proved that every admissible $A$ leaves at least
 $(\rho(e^C)+o(1))N$ integers up to $N$ unsifted. The prime tail attains that
 count, so it minimizes up to $o(N)$. The exact minimizer for a given $N$, the
-site's wording, is not determined by any result on record; see Notes. Claim
-pages: [[problems/integer_sequences/E0783/claims/2026_02_20_tao|Tao 2026]]
-(accepted, full, on the site's documented acceptance; not refereed: the author
-wrote on 23 February 2026 that there was no plan to publish),
+erdosproblems.com wording, is not determined by any result on record; see Notes.
+Claim pages: [[problems/integer_sequences/E0783/claims/2026_02_20_tao|Tao 2026]]
+(accepted, full, on erdosproblems.com's documented acceptance; not refereed: the
+author wrote on 23 February 2026 that there was no plan to publish),
 [[problems/integer_sequences/E0783/claims/1987_01_01_hildebrand|Hildebrand 1987]]
 (accepted, partial: the prime case, refereed),
 [[problems/integer_sequences/E0783/claims/1980_08_01_erdos_ruzsa|Erdős and Ruzsa 1980, reduction to primes]]
@@ -120,9 +121,9 @@ https://www.erdosproblems.com/783.
   multiplicative functions. II. Acta Arith. 48 (1987), 209-260. Library home:
   [[../library/integer_sequences/hildebrand_1987_quantitative_mean_value_theorems_nonnegative_multiplicative/_index|hildebrand_1987_quantitative_mean_value_theorems_nonnegative_multiplicative]];
   Corollary 1, in the introduction, is the prime case.
-- [Ta26] Tao, T., Sieving by coprime numbers. Write-up posted to the site's
-  thread, three versions of 20, 22 and 23 February 2026 (the last dated February
-  22, 2026),
+- [Ta26] Tao, T., Sieving by coprime numbers. Write-up posted to the
+  erdosproblems.com thread, three versions of 20, 22 and 23 February 2026 (the
+  last dated February 22, 2026),
   <https://terrytao.wordpress.com/wp-content/uploads/2026/02/erdos783-3.pdf>;
   Theorem 1.1.
 - [Ch26a] Chojecki, P., Extremal coprime coverings under a reciprocal budget and

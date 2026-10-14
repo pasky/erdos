@@ -47,8 +47,8 @@ Sidorenko proved the same theorem independently
 ([[problems/ramsey_theory/E0569/claims/1993_07_01_sidorenko|Sidorenko 1993]]);
 the same theorem is the case $k=3$ of Problem 570, recorded on
 [[problems/ramsey_theory/E0570/claims/1994_02_01_goddard_kleitman|its claim page there]].
-A comment of 27 March 2026 in the site's discussion thread credits the case
-$k=1$ to this paper and to Sidorenko.
+A comment of 27 March 2026 in the erdosproblems.com discussion thread credits
+the case $k=1$ to this paper and to Sidorenko.
 
 **Covers.** The case $k=1$, $c_1=3$. Nothing about $k\ge2$.
 
@@ -58,7 +58,7 @@ and the one-edge endpoint is elementary.
 **Acceptance.** Refereed: W. Goddard and D. J. Kleitman, An upper bound for the
 Ramsey numbers $r(K_3,G)$, Discrete Math. 125 (1994), no. 1--3, 177--182, in the
 February 1994 issue, the month this page is dated by. The day is a placeholder.
-The site labeled the problem OPEN, so its pages are not acceptance.
+Bloom's catalog labeled the problem OPEN, so its pages are not acceptance.
 
 **Read depth.** The statement on p. 1 of the author manuscript described on
 the source card was checked against the problem's formula; the proof was not

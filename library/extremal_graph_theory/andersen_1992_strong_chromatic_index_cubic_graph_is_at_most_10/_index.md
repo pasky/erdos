@@ -32,10 +32,10 @@ Computer Science, Institute of Electronic Systems, Aalborg University,
 Denmark (p. 231). The paper's own citation line (p. 231) reads "Andersen,
 L.D., The strong chromatic index of a cubic graph is at most 10, Discrete
 Mathematics 108 (1992) 231--252." Cited as [92] on the problem page, the
-site's key, which carries no reference text there. Its four references
-(p. 252) are Chung, Gyárfás, Trotter and Tuza, The maximum number of edges in
-$2K_2$-free graphs of bounded degree, Discrete Math. 81 (1990) 129--135,
-filed as
+erdosproblems.com key, which carries no reference text there. Its four
+references (p. 252) are Chung, Gyárfás, Trotter and Tuza, The maximum number of
+edges in $2K_2$-free graphs of bounded degree, Discrete Math. 81 (1990)
+129--135, filed as
 [[extremal_graph_theory/chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree/_index|chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree]];
 Faudree, Gyárfás, Schelp and Tuza, Induced matchings in bipartite graphs,
 Discrete Math. 78 (1989) 83--87, filed as
@@ -234,16 +234,16 @@ text. Nothing here is independently reviewed.
 algorithm that strongly edge-colors every graph of maximum degree at most
 $3$ with at most $10$ colors, for graphs with multiple edges and no loops
 (p. 231); this is the bound $\mathrm{sq}(G)\le10$ for $\Delta\le3$ that the
-problem page credits to the paper the site keys as [92], and the abstract's
-first sentence (p. 231) states the bound on its own, apart from the
+problem page credits to the paper erdosproblems.com keys as [92], and the
+abstract's first sentence (p. 231) states the bound on its own, apart from the
 algorithm. Since $10\le\lfloor\frac54\cdot9\rfloor=11$, it gives the
 problem's bound for every graph with $\Delta=3$; for $\Delta\le2$ the
 problem's bound ($5$ when $\Delta=2$) is below $10$, so the theorem does not
 give it there, and it says nothing for $\Delta\ge4$. Page 232
 shows the bound $10$ is attained ("the strong chromatic index of $G_{10}$ is
 10") by a seven-vertex graph, the 1993 paper's second sharpness example
-rather than the site's $C_8$ with all four diagonals, and attributes the
-conjecture $\frac54\Delta^2$ to Erdős and Nešetřil through the paper's
+rather than erdosproblems.com's $C_8$ with all four diagonals, and attributes
+the conjecture $\frac54\Delta^2$ to Erdős and Nešetřil through the paper's
 [1]--[3]. Page 231 records that Horák, He and Trotter (printed there as
 "P. Horák, H. Quin and W.T. Trotter Jr") also had a proof that the strong
 chromatic index of a cubic graph is at most $10$, known to the author

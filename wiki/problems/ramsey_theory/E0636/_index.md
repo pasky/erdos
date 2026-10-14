@@ -26,8 +26,8 @@ graph or independent set on $\gg \log n$ many vertices. Must $G$ contain $\gg
 n^{5/2}$ induced subgraphs which pairwise differ in either the number of
 vertices or the number of edges?
 
-**Status.** Proved. The site labeled the problem PROVED, and its curator credits
-the proof to Kwan and Sudakov [KwSu21]. The claim page
+**Status.** Proved. Bloom's catalog labeled the problem PROVED, and its curator
+credits the proof to Kwan and Sudakov [KwSu21]. The claim page
 [[problems/ramsey_theory/E0636/claims/2017_12_15_kwan_sudakov|Kwan and Sudakov 2017]]
 records the result, its postings and the acceptance evidence, and the
 frontmatter standing derives from it. The status-defining source is Theorem 1.1
@@ -47,9 +47,9 @@ and Sós, records their bound of order $n^{3/2}$ and their remark that the
 exponent $5/2$ could not be improved, notes that Erdős credits the question
 to Alon and Bollobás in [Er93], and credits the proof to Kwan and Sudakov
 [KwSu21]). Nothing from the discussion thread or the proof-claim tab is
-recorded here; the site's record cited is the commentary's credit. Cite as:
-T. F. Bloom, Erdős Problem #636, https://www.erdosproblems.com/636, accessed
-2026-09-04.
+recorded here; the erdosproblems.com record cited is the commentary's credit.
+Cite as: T. F. Bloom, Erdős Problem #636, https://www.erdosproblems.com/636,
+accessed 2026-09-04.
 
 **References.**
 
@@ -67,8 +67,9 @@ T. F. Bloom, Erdős Problem #636, https://www.erdosproblems.com/636, accessed
   Faudree and
   he conjectured $cn^{5/2}$ induced subgraphs pairwise differing in vertex or
   edge count for a graph with no trivial subgraph of size $c\log n$, that they
-  proved $cn^{3/2}$, and that $cn^{5/2}$ would be best possible; the site's
-  attribution to the three authors follows this item. Library home:
+  proved $cn^{3/2}$, and that $cn^{5/2}$ would be best possible; the
+  erdosproblems.com attribution to the three authors follows this item. Library
+  home:
   [[../library/ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/_index|erdos_1997_some_recent_problems_results_graph_theory]].
 - [KwSu21] M. Kwan and B. Sudakov, Proof of a conjecture on induced subgraphs of
   Ramsey graphs. Selected manuscript: arXiv:1712.05656v4 (2021). Published in
@@ -81,8 +82,8 @@ formal-conjectures had no file for it on 2026-10-07.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** The statement above;
-PROVED. The commentary attributes the problem to Erdős, Faudree and Sós,
+**The question (erdosproblems.com formulation of 2026-09-04).** The statement
+above; PROVED. The commentary attributes the problem to Erdős, Faudree and Sós,
 records their $n^{3/2}$ bound and their remark that $5/2$ is the largest
 possible exponent, notes Erdős's 1993 credit of the question to Alon and
 Bollobás, and credits the proof to Kwan and Sudakov [KwSu21]. Erdős's two
@@ -107,10 +108,10 @@ The paper's remark that the order $n^{5/2}$ cannot be improved, by the
 random graph $G(n,1/2)$, is context recorded on the claim page, not part of
 the claim.
 
-**Search scope.** Bounded searches by exact title and by
+**Search scope (2026-09-09 UTC).** Bounded searches by exact title and by
 author and problem, including correction, erratum and counterexample terms,
 located no claim reversing the conclusion. This is not an exhaustive
-literature search; the site's formulation is that of the access of
+literature search; the erdosproblems.com formulation is that of the access of
 2026-09-04, and the search did not cover its thread or proof-claim tab.
 
 ## Progress

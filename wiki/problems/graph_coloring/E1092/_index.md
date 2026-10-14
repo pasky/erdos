@@ -31,8 +31,8 @@ chromatic number $\leq r+1$.
 Is it true that $f_2(n) \gg n$? More generally, is $f_r(n)\gg_r n$?
 
 **Formulation.** The definition is read with the edge budget imposed at
-every subgraph size at once. This is how the deduction the site credits uses
-it, and how formal-conjectures has stated it since 2026-09-15. A budget $g$
+every subgraph size at once. This is how the deduction erdosproblems.com credits
+uses it, and how formal-conjectures has stated it since 2026-09-15. A budget $g$
 is admissible for $r$ when every graph whose $m$-vertex subgraphs are, for
 every $m$, an $r$-colorable graph plus at most $g(m)$ edges has chromatic
 number at most $r+1$. Admissible budgets have no pointwise maximum, so
@@ -46,9 +46,9 @@ vertices meets the hypothesis vacuously, so no budget, not even zero,
 satisfies it; the fixed-size Lean statement's convention gives $f_r(m)=0$.
 Both questions again have the answer no.
 
-**Status.** The site labeled the problem DISPROVED (LEAN), crediting Rödl's
-construction of nearly bipartite graphs of large chromatic number [Ro82] as
-noted in the thread. The Lean behind the qualifier is described under
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN), crediting
+Rödl's construction of nearly bipartite graphs of large chromatic number [Ro82]
+as noted in the thread. The Lean behind the qualifier is described under
 Formalization. The accepted claim is
 [[problems/graph_coloring/E1092/claims/1982_12_01_rodl|Rödl's nearly bipartite graphs]].
 It answers both questions in the negative. Here the subgraph condition is read
@@ -77,8 +77,8 @@ claim page at its pinned commit, with the route its own docstring describes.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04), read as the Formulation sets
-out, asks whether an edge budget linear in the subgraph order can be
+The erdosproblems.com formulation (accessed 2026-09-04), read as the Formulation
+sets out, asks whether an edge budget linear in the subgraph order can be
 admissible: whether $f_2(n)\gg n$, and more generally $f_r(n)\gg_r n$, where
 a budget $f_r$ is admissible when every graph whose $m$-vertex subgraphs are
 each an $r$-colorable graph plus at most $f_r(m)$ edges has chromatic number
@@ -88,21 +88,21 @@ of large chromatic number, in which every $m$-vertex subgraph is bipartite
 after deleting at most $\varepsilon m$ edges, meet the hypothesis for any
 budget that is at least $cm$ for all large $m$ once $\varepsilon$ is small
 enough, with the subgraph condition read as chromatic number $\leq r$. The
-result is refereed in Combinatorica and credited by the site's curator, and
-the problem's standing derives from that accepted claim. The site's
-commentary states the conclusion as $f_r(n)=o(n)$, which the construction
-does not give when $f_r$ ranges over admissible budgets; the claim page
-records the caveat. A note posted in the site's thread on 28 April 2026 by
-Przemek Chojecki, written by GPT-5.5 Pro according to the poster, proves the
-same negative answer for every fixed $r\geq2$ by joining a clique to Rödl's
-graph and supplies the small-subgraph step of the deduction; it is disclosed
-on Rödl's page and has no page of its own. Which sublinear budgets are
+result is refereed in Combinatorica and credited by the erdosproblems.com
+curator, and the problem's standing derives from that accepted claim. The
+erdosproblems.com commentary states the conclusion as $f_r(n)=o(n)$, which the
+construction does not give when $f_r$ ranges over admissible budgets; the claim
+page records the caveat. A note posted in the erdosproblems.com thread on 28
+April 2026 by Przemek Chojecki, written by GPT-5.5 Pro according to the poster,
+proves the same negative answer for every fixed $r\geq2$ by joining a clique to
+Rödl's graph and supplies the small-subgraph step of the deduction; it is
+disclosed on Rödl's page and has no page of its own. Which sublinear budgets are
 admissible is not assessed here.
 
 Search scope, with the changing sources as they stood on 2026-10-07: the
-site's page and discussion thread (six posts: Tang's deduction of 2025-11-03, a
-link to Rödl's paper, Chojecki's note of 2026-04-28 with two replies, and the
-curator's reading of 2026-05-12), the community database
+erdosproblems.com page and discussion thread (six posts: Tang's deduction of
+2025-11-03, a link to Rödl's paper, Chojecki's note of 2026-04-28 with two
+replies, and the curator's reading of 2026-05-12), the community database
 (teorth/erdosproblems: formalized, with the Lean qualifier), the
 formal-conjectures catalog (the statement file, added 2026-01-08 and corrected
 2026-09-15, without a proof) and Boris Alexeev's lean-proofs collection. None

@@ -58,8 +58,9 @@ the prime factors of $N$ and $n=N$. The source card
 
 **Acceptance.** The result is refereed: R. Ahlswede and L. H. Khachatrian, Sets
 of integers with pairwise common divisor and a factor from a specified set of
-primes, Acta Arith. 75 (1996), no. 3, 259-276. Thomas Bloom, the site's curator,
-marked the problem solved and credits this paper on the problem page.
+primes, Acta Arith. 75 (1996), no. 3, 259-276. Thomas Bloom, the
+erdosproblems.com curator, marked the problem solved and credits this paper on
+the problem page.
 
 Boris Alexeev's repository of formalized Erdős problems holds a Lean
 development, added on 2026-08-20. Its index page of 2026-08-22 is linked above

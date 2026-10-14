@@ -82,6 +82,6 @@ doi:10.1016/S0195-6698(85)80027-5; the edition read is named on the
   every $B_2^{(k)}$ sequence of $n$ integers a Sidon subsequence of at least
   $c_4^{(k)}n^{2/3}$ terms, which answers both of the problem's questions yes
   for each fixed $k$. The paper counts representations as a sum of two
-  distinct terms, the site's hypothesis counts ordered pairs with
+  distinct terms, erdosproblems.com's hypothesis counts ordered pairs with
   repetition; the problem's claim page records that translation. By (3) the
   exponent $2/3$ cannot be raised for $k\ge2$ in the paper's count.

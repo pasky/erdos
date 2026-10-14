@@ -49,11 +49,11 @@ Representability of every $N\ne2,5$ is a computer-assisted theorem of the
 paper that uses an explicit form of Helfgott's ternary Goldbach theorem.
 
 The paper's section on methodology and AI usage says that the project ran
-from November 2025 to August 2026 with partial results posted in the site's
-thread. It states that some proofs in E. Hou's part were generated with the
-help of Anthropic's Claude Opus 5 and OpenAI's GPT-5.6 Sol and audited by
-Claude Fable 5 and GPT-6 Astra before E. Hou verified them; that Principia
-Math's autonomous research harness, with GPT-5.5 and Claude Opus 4.8,
+from November 2025 to August 2026 with partial results posted in the
+erdosproblems.com thread. It states that some proofs in E. Hou's part were
+generated with the help of Anthropic's Claude Opus 5 and OpenAI's GPT-5.6 Sol
+and audited by Claude Fable 5 and GPT-6 Astra before E. Hou verified them; that
+Principia Math's autonomous research harness, with GPT-5.5 and Claude Opus 4.8,
 resolved the limsup question, first posted as
 [[problems/divisors/E1054/claims/2026_06_22_principia_math|Principia Math's
 write-up]]; and that ChatGPT-6 Astra was used for copyediting. The authors
@@ -77,5 +77,5 @@ It is third-party Lean that this corpus has not built or audited, so no
 `formalized` evidence is listed.
 
 **Standing.** Claimed. The manuscript is posted in a public repository, with
-no refereed publication or review recorded, and the site labeled the problem
-OPEN. Nothing here is independently reviewed by this project.
+no refereed publication or review recorded, and Bloom's catalog labeled the
+problem OPEN. Nothing here is independently reviewed by this project.

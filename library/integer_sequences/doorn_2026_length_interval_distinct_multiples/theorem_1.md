@@ -66,14 +66,14 @@ Lemma 2 is elementary.
 
 - [[../wiki/problems/integer_sequences/E0711/_index|Problem 711]]: the second question,
   $\max_m(f(n,m)-f(n,n))\to\infty$, is answered yes in this quantitative
-  form; the site's $f(n,m)$ uses the open interval $(m,m+f(n,m))$, one more
-  than the paper's half-open convention, and the difference
-  $f(n,m)-f(n,n)$ is the same in both.
-- [[../wiki/problems/integer_sequences/E0709/_index|Problem 709]]: the site's
-  commentary deduces $f(n)\gg\log n/\log\log n$ for that problem from this
-  theorem, and a comment of 15 March 2026 in the problem's discussion thread
-  obtains it by restricting to the set $\{2,\ldots,n+1\}$; the deduction is
-  the site's.
+  form; erdosproblems.com's $f(n,m)$ uses the open interval $(m,m+f(n,m))$, one
+  more than the paper's half-open convention, and the difference $f(n,m)-f(n,n)$
+  is the same in both.
+- [[../wiki/problems/integer_sequences/E0709/_index|Problem 709]]: the
+  erdosproblems.com commentary deduces $f(n)\gg\log n/\log\log n$ for that
+  problem from this theorem, and a comment of 15 March 2026 in the problem's
+  discussion thread obtains it by restricting to the set $\{2,\ldots,n+1\}$; the
+  deduction is erdosproblems.com's.
 - [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]: context; the theorem
   concerns $\max_mf(n,m)$, not the diagonal $f(n,n)$ that problem asks
   about.

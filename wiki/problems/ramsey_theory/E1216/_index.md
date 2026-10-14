@@ -29,19 +29,17 @@ vertices (i.e. one such that if $i\to j\to k$ then $i\to k$).
 
 Is it true that $f(n)=\lfloor \log_2 n\rfloor +1$?
 
-**Formulation.** The site's wording (page last edited 12 April 2026). $f(n)$
-is the largest such integer, as
-Erdős and Moser define it ("the largest number $f(n)$ such that every
-oriented graph on $n$ vertices in which every pair of distinct vertices is
-jointed [sic] by a directed edge has at least one subgraph of $f(n)$
-vertices in which the orientation is transitive", 1964, p. 125); the site
-omits
-"largest". The literature also writes $F(n)$ for this function, and the
-inverse function $R(k)$, the least $n$ such that every tournament on $n$
-vertices contains a transitive subtournament on $k$ vertices ($TT_k$), is
-called the directed Ramsey number; $f(n)\ge k$ exactly when $R(k)\le n$ (an
-elementary remark). The question asks whether Stearns's lower bound
-$f(n)\ge\lfloor\log_2n\rfloor+1$ is exact for every $n$; one $n$ with a
+**Formulation.** The erdosproblems.com wording (page last edited 12 April 2026).
+$f(n)$ is the largest such integer, as Erdős and Moser define it ("the largest
+number $f(n)$ such that every oriented graph on $n$ vertices in which every pair
+of distinct vertices is jointed [sic] by a directed edge has at least one
+subgraph of $f(n)$ vertices in which the orientation is transitive", 1964, p.
+125); erdosproblems.com omits "largest". The literature also writes $F(n)$ for
+this function, and the inverse function $R(k)$, the least $n$ such that every
+tournament on $n$ vertices contains a transitive subtournament on $k$ vertices
+($TT_k$), is called the directed Ramsey number; $f(n)\ge k$ exactly when
+$R(k)\le n$ (an elementary remark). The question asks whether Stearns's lower
+bound $f(n)\ge\lfloor\log_2n\rfloor+1$ is exact for every $n$; one $n$ with a
 larger value refutes it.
 
 **Status.** Disproved. Reid and Parker (J. Combinatorial Theory 9 (1970),
@@ -73,12 +71,11 @@ origin itself.
 
 **Source.** [erdosproblems.com/1216](https://www.erdosproblems.com/1216),
 accessed 2026-09-18 at 10:39 UTC: the problem page (DISPROVED,
-with the site's note that it is solved in the negative; last edited 12
-April 2026; source key [ErMo64, p. 127]; commentary citing [St59],
-[RePa70], [Sa94], [Sa98b]), its three-comment
-discussion thread (12 April 2026) and its empty proof-claim tab. Cite as: T.
-F. Bloom, Erdős Problem #1216, https://www.erdosproblems.com/1216, accessed
-2026-09-18.
+with the erdosproblems.com note that it is solved in the negative; last edited
+12 April 2026; source key [ErMo64, p. 127]; commentary citing [St59], [RePa70],
+[Sa94], [Sa98b]), its three-comment discussion thread (12 April 2026) and its
+empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1216,
+https://www.erdosproblems.com/1216, accessed 2026-09-18.
 
 **References.**
 
@@ -128,8 +125,8 @@ F. Bloom, Erdős Problem #1216, https://www.erdosproblems.com/1216, accessed
 - [Na14] Nagy, Z. L., Density version of the Ramsey problem and the
   directed Ramsey problem. arXiv:1401.6823 (v1 27 January 2014; v3 21
   January 2016, 17 pp.); Theorem 4.2 and the introduction's survey, cited
-  from the author-hosted revised copy (14 pp., linked from the site's thread;
-  fetched 2026-09-18, 285,814 bytes). No journal record was found in
+  from the author-hosted revised copy (14 pp., linked from the erdosproblems.com
+  thread; fetched 2026-09-18, 285,814 bytes). No journal record was found in
   Crossref on 2026-09-18 (two bibliographic queries); the copy thanks a
   referee. Not held in the library.
 - [NeLa94] Neumann-Lara, V., A short proof of a theorem of Reid and Parker
@@ -144,35 +141,36 @@ google-deepmind/formal-conjectures (main, fetched 2026-09-18T10:41:20Z;
 673 entries, was listed in full), and the community database
 ([teorth/erdosproblems](https://github.com/teorth/erdosproblems/blob/5466d4a29b4971ce39df3a41e3b618d853d3ec3a/data/problems.yaml))
 records the problem disproved (last updated 21 April 2026), not formalized (4
-April 2026), with no formal proof. The site's "Formalised statement?" indicator
-reads "No".
+April 2026), with no formal proof. erdosproblems.com's "Formalised statement?"
+indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-DISPROVED, with the site's note that it is solved in the negative; last edited
-12 April 2026. The commentary names the inverse of $f$ the directed Ramsey
-number; attributes the lower bound $f(n)\ge\lfloor\log_2n\rfloor+1$ to Stearns
-[St59], by a greedy argument from a vertex of out-degree at least $(n-1)/2$;
-attributes the upper bound $f(n)\le2\lfloor\log_2n\rfloor+1$ and the value
-$f(7)=3$ to Erdős and Moser [ErMo64]; records that Reid and Parker [RePa70]
-answered the question in the negative for every $n\ge14$ by proving
-$f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$ there (the phrase "for every $n\ge14$"
-overstates the result: the formula $\lfloor\log_2n\rfloor+1$ holds again for
-$16\le n\le27$ and for $n=32,33$, as the values assembled below show, and fails
-for infinitely many $n$); and lists the improvements of Sánchez-Flores,
-$f(n)\ge\lfloor\log_2n-\log_2(55)\rfloor+7$ for $n\ge55$ [Sa94] and
-$f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$ for $n\ge32$ [Sa98b], noting that
-$7-\log_2(54)\approx1.24$. The thread (three comments, 12 April 2026): the
-site's maintainer phrases the Erdős--Moser upper bound probabilistically (a
-random orientation has no transitive $k$-subtournament when
-$\binom nkk!<2^{\binom k2}$, so for $n<2^{(k-1)/2}$) and says a standard
-application of the local lemma should give $f(n)\le2\log_2n-1$ for large $n$,
-asking for a citation; a reply the same day, which says the reference was found
-with GPT-5.4 Thinking, points to Theorem 4.2 of Nagy's paper, noting that Nagy's
-$F(n)$ is this $f(n)$, and the maintainer confirms it is the calculation meant.
-The proof-claim tab is empty. The community database record of 2026-09-18 says
-disproved (last updated 21 April 2026) and not formalized.
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; DISPROVED, with the erdosproblems.com note that it is solved in
+the negative; last edited 12 April 2026. The commentary names the inverse of $f$
+the directed Ramsey number; attributes the lower bound
+$f(n)\ge\lfloor\log_2n\rfloor+1$ to Stearns [St59], by a greedy argument from a
+vertex of out-degree at least $(n-1)/2$; attributes the upper bound
+$f(n)\le2\lfloor\log_2n\rfloor+1$ and the value $f(7)=3$ to Erdős and Moser
+[ErMo64]; records that Reid and Parker [RePa70] answered the question in the
+negative for every $n\ge14$ by proving $f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$
+there (the phrase "for every $n\ge14$" overstates the result: the formula
+$\lfloor\log_2n\rfloor+1$ holds again for $16\le n\le27$ and for $n=32,33$, as
+the values assembled below show, and fails for infinitely many $n$); and lists
+the improvements of Sánchez-Flores, $f(n)\ge\lfloor\log_2n-\log_2(55)\rfloor+7$
+for $n\ge55$ [Sa94] and $f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$ for $n\ge32$
+[Sa98b], noting that $7-\log_2(54)\approx1.24$. The thread (three comments, 12
+April 2026): the erdosproblems.com maintainer phrases the Erdős--Moser upper
+bound probabilistically (a random orientation has no transitive
+$k$-subtournament when $\binom nkk!<2^{\binom k2}$, so for $n<2^{(k-1)/2}$) and
+says a standard application of the local lemma should give $f(n)\le2\log_2n-1$
+for large $n$, asking for a citation; a reply the same day, which says the
+reference was found with GPT-5.4 Thinking, points to Theorem 4.2 of Nagy's
+paper, noting that Nagy's $F(n)$ is this $f(n)$, and the maintainer confirms it
+is the calculation meant. The proof-claim tab is empty. The community database
+record of 2026-09-18 says disproved (last updated 21 April 2026) and not
+formalized.
 
 **Origin.**
 [[../library/ramsey_theory/erdos_1964_representation_directed_graphs_as_unions_orderings/theorem_1|Theorem 1]]
@@ -217,10 +215,10 @@ either), this is $R(5)=14$.
 [[../library/ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/corollary_2|Corollary 2]]
 (p. 235), $f(n)\ge\lfloor\log_2(16n/7)\rfloor$ for $n\ge14$, follows from
 Corollary 1 (every $T_m$ with $m\ge7\cdot2^{k-4}$ contains a $TT_k$ for
-$k\ge5$, by induction from Theorem 4 with Stearns's doubling step) and is the
-site's bound $f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$. The later sources'
-attestations agree with it: [IRW21], p. 2, whose $r(I_2,L_n)$ is $R(n)$,
-lists $R(3)=4$, $R(4)=8$ and, citing the Reid--Parker paper (its [18]),
+$k\ge5$, by induction from Theorem 4 with Stearns's doubling step) and is
+erdosproblems.com's bound $f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$. The later
+sources' attestations agree with it: [IRW21], p. 2, whose $r(I_2,L_n)$ is
+$R(n)$, lists $R(3)=4$, $R(4)=8$ and, citing the Reid--Parker paper (its [18]),
 $R(5)=14$ and $R(6)=28$; it attributes $R(n)\le2^{n-1}$ to Stearns, the
 improvement $R(n)\le7\cdot2^{n-4}$ for $n>4$ to Reid and Parker,
 $R(n)\le55\cdot2^{n-7}$ for $n>6$ to Sánchez-Flores and the lower bound
@@ -230,8 +228,8 @@ the known values without a citation;
 p. 7: "$R(3)=4$, $R(4)=8$ [2], $R(5)=14$ [10], $R(6)=28$ [11]" with [10] the
 Reid--Parker paper; [Na14], introduction: Erdős and Moser "conjectured that
 the lower bound of Stearns in fact holds with equality. However this turned
-out to be false [24]", [24] being the Reid--Parker paper. The site's bound
-$f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$ for $n\ge14$ is
+out to be false [24]", [24] being the Reid--Parker paper. erdosproblems.com's
+bound $f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$ for $n\ge14$ is
 $R(k)\le7\cdot2^{k-4}$ for $k\ge5$, the paper's Corollary 1, read inversely.
 None of these later sources reproduces the proof; [NeLa94] gives a shorter
 proof of Corollary 1 (its zbMATH review), and the label rested on the paper's
@@ -273,19 +271,19 @@ named).** Through $f(n)\ge k$ if and only if $R(k)\le n$:
   $f(n)=7$ for $47\le n\le56$. Table 1 of [MM25] gives lower bounds on
   $R(m)$ up to $m=20$.
 
-General bounds. Lower: the site's $\lfloor\log_2n-\log_2(54)\rfloor+7$ for
-$n\ge32$ from [Sa98b], which proves $R(7)\le54$ (its zbMATH review), and the
+General bounds. Lower: erdosproblems.com's $\lfloor\log_2n-\log_2(54)\rfloor+7$
+for $n\ge32$ from [Sa98b], which proves $R(7)\le54$ (its zbMATH review), and the
 earlier $55$-form from [Sa94], which proves $R(7)\le55$ (its zbMATH review);
-the site's attribution of the $55$-form to the 1994 paper is right, and
-[Na14]'s introduction, which attributes $F(n)\ge\lfloor\log_2(n/55)\rfloor+7$
-to the 1998 paper, is in error on this point. The same doubling step that
-produces these formulas, $R(k+1)\le2R(k)$ (Stearns's recursion, in [Na14]'s
-words "$F(2n)\ge F(n)+1$"), applied to $R(7)\le47$ gives
-$f(n)\ge\lfloor\log_2(n/47)\rfloor+7$ for $n\ge47$, a slightly better
-constant ($7-\log_247\approx1.44$); this one line is written here and is not
-a source's statement. Upper: $f(n)\le2\lfloor\log_2n\rfloor+1$ ([ErMo64]) and
-Theorem 4.2 of [Na14], $F(n)<2\log_2n-1+o(1)$, by the Lovász local lemma on a
-random tournament (the author-hosted copy, p. 11; the paper's $F$ is this
+the erdosproblems.com attribution of the $55$-form to the 1994 paper is right,
+and [Na14]'s introduction, which attributes
+$F(n)\ge\lfloor\log_2(n/55)\rfloor+7$ to the 1998 paper, is in error on this
+point. The same doubling step that produces these formulas, $R(k+1)\le2R(k)$
+(Stearns's recursion, in [Na14]'s words "$F(2n)\ge F(n)+1$"), applied to
+$R(7)\le47$ gives $f(n)\ge\lfloor\log_2(n/47)\rfloor+7$ for $n\ge47$, a slightly
+better constant ($7-\log_247\approx1.44$); this one line is written here and is
+not a source's statement. Upper: $f(n)\le2\lfloor\log_2n\rfloor+1$ ([ErMo64])
+and Theorem 4.2 of [Na14], $F(n)<2\log_2n-1+o(1)$, by the Lovász local lemma on
+a random tournament (the author-hosted copy, p. 11; the paper's $F$ is this
 $f$). The factor $2$ between the lower and upper bounds is the open question
 behind the disproved statement; the maintainer's comment compares it with the
 factor $2$ in the lower bound $2^{n/2}$ for the diagonal Ramsey numbers.
@@ -319,8 +317,8 @@ for $47\le n\le56$ come from the lower bounds above.
 of the disproof, or an improvement of the bounds on $R(7)$ or on the asymptotic
 constant. The paper is in the publisher's open archive.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures at the pinned commit (no file for
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing of formal-conjectures at the pinned commit (no file for
   this problem); the community database of 2026-09-18.
 - The primary sources: [ErMo64] printed pp. 125--127; [ErRa67] pp. 624--625
   and 632; [IRW21] p. 2; [NMH22] pp. 1--3 and 12--13; [MM25] pp. 1--2 and
@@ -357,12 +355,12 @@ its proof followed as a reduction to Theorems 2 and 3, and the case analysis
 of Theorem 3 (pp. 227--235) read for structure only and not checked;
 [NeLa94]'s shorter proof is recorded from its zbMATH review, and nothing is
 independently reviewed. (2) The Sánchez-Flores theorems are recorded from
-their zbMATH reviews and their proofs are not checked; the site's general
-bounds follow from them by Stearns's doubling step. (3) The computer-assisted
-bounds on $R(7)$ and $R(8)$ were not replayed. (4) The exact function is open
-for $34\le n\le46$ and from $n=57$ on, and the asymptotic constant lies
-between $1$ and $2$. (5) [Na14] has no journal record found here; its Theorem
-4.2 is cited from an author-hosted copy.
+their zbMATH reviews and their proofs are not checked; erdosproblems.com's
+general bounds follow from them by Stearns's doubling step. (3) The
+computer-assisted bounds on $R(7)$ and $R(8)$ were not replayed. (4) The exact
+function is open for $34\le n\le46$ and from $n=57$ on, and the asymptotic
+constant lies between $1$ and $2$. (5) [Na14] has no journal record found here;
+its Theorem 4.2 is cited from an author-hosted copy.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

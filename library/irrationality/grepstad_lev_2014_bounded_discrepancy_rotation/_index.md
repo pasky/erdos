@@ -93,7 +93,7 @@ $0\le u<v\le1$ and $v-u<1$, counted along the orbit from one point. The
 criterion constrains only the length,
 so every translate of a bounded remainder interval is again one, and bounded
 remainder does not force the endpoints to be fractional parts of multiples
-of $\alpha$, as the site's wording of the problem asks.
+of $\alpha$, as the erdosproblems.com wording of the problem asks.
 
 The copy read for this card is
 [arXiv:1404.0165v2](https://arxiv.org/abs/1404.0165v2) (22 October 2014, 39
@@ -111,7 +111,7 @@ Proposition 2.4 page and not printed in the paper; Theorem 2.6 is the
 converse, which the problem page credits to Hecke and Ostrowski. The problem
 page credits the modified Statement to Kesten. The paper recalls the
 one-dimensional criterion and does not treat the problem itself, and neither
-result says anything about the endpoints that the site's wording asks
+result says anything about the endpoints that the erdosproblems.com wording asks
 about.
 
 **Results.**

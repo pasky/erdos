@@ -66,8 +66,9 @@ sorting-network method.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: the site's "very
-  large $A$ case", $t\ge(1-o(1))p$, credited by the site to Müyesser and
-  Pokrovskiy; this is the explicit subset statement, for $G=\mathbb F_p$ and
-  every fixed $\gamma>0$, that the site's thread (24 February 2026) says was
-  "only made explicit" here.
+- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]:
+  erdosproblems.com's "very large $A$ case", $t\ge(1-o(1))p$, credited by
+  erdosproblems.com to Müyesser and Pokrovskiy; this is the explicit subset
+  statement, for $G=\mathbb F_p$ and every fixed $\gamma>0$, that the
+  erdosproblems.com thread (24 February 2026) says was "only made explicit"
+  here.

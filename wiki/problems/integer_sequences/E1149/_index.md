@@ -27,8 +27,8 @@ integers $n\geq 1$ for which $(n,\lfloor n^\alpha\rfloor)=1$ is $6/\pi^2$.
 Springer Festschrift volume, arXiv:1611.08044) gives density $6/\pi^2$ for the
 integers $n$ coprime to $\lfloor f(n)\rfloor$. It covers every Hardy-field $f$
 meeting its growth conditions, and $f(t)=t^\alpha$ with $\alpha>0$ a non-integer
-is among them. The site's curator, Thomas Bloom, records this as the proof. The
-claim page
+is among them. The erdosproblems.com curator, Thomas Bloom, records this as the
+proof. The claim page
 [[problems/integer_sequences/E1149/claims/2016_11_24_bergelson_richter|Bergelson and Richter 2017]]
 records the acceptance. Earlier, Delmer and Deshouillers (2002) proved the
 statement for every non-integer $\alpha>0$

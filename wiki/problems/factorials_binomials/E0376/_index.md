@@ -43,10 +43,10 @@ https://www.erdosproblems.com/376.
   doi:10.1007/978-0-387-26677-0. Section B33 "Largest divisor of a binomial
   coefficient", printed p. 135, reports Graham's offer, the base 3, 5 and 7
   digit conditions and the 14 known values below $7^{10}$. The amount of the
-  offer is in conflict: Guy prints an amount different from the one the site
-  attributes to [Gu04] and [BeHa98]; Berend and Harmse (Section 4, from a
-  personal communication of Graham) and Pomerance [Po15c] (Section 4) both print
-  the site's amount. Library home:
+  offer is in conflict: Guy prints an amount different from the one
+  erdosproblems.com attributes to [Gu04] and [BeHa98]; Berend and Harmse
+  (Section 4, from a personal communication of Graham) and Pomerance [Po15c]
+  (Section 4) both print erdosproblems.com's amount. Library home:
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 - [Po15c] Pomerance, Carl, Divisors of the middle binomial coefficient. Amer.
   Math. Monthly (2015), 636-644.

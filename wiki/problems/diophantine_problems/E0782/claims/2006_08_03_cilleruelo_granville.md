@@ -37,8 +37,8 @@ consists of distinct squares. In such a cube, each element $x^2$ of the
 subcube over $\{3,\dots,d\}$ makes $(x^2+b_1)(x^2+b_2)(x^2+b_1+b_2)$ a
 square. So at least $2^{d-2}$ integers $x$ make that product a square, and
 Bombieri-Lang, through Caporaso, Harris and Mazur, bounds that number
-uniformly for polynomials of degree five or six without repeated roots. The
-site reads this as a negative answer to the second question of
+uniformly for polynomials of degree five or six without repeated roots.
+erdosproblems.com reads this as a negative answer to the second question of
 [[problems/diophantine_problems/E0782/_index|Problem 782]]. Since a positive
 answer to the first question implies one to the second, the first would also
 be negative. The library card is
@@ -47,5 +47,5 @@ and the conjecture with this derivation is recorded on
 [[../library/diophantine_problems/cilleruelo_2007_lattice_points_circles_squares_arithmetic_progressions/conjecture_6|Conjecture 6]].
 
 The Bombieri-Lang conjecture is unproved. No acceptance evidence is on record:
-the volume is a proceedings volume with no evidence of refereeing, and the
-site labeled the problem OPEN.
+the volume is a proceedings volume with no evidence of refereeing, and Bloom's
+catalog labeled the problem OPEN.

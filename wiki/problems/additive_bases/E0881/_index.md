@@ -29,11 +29,11 @@ $A\backslash B$ is not a basis of order $k$.
 Must there exist an infinite $B\subset A$ such that $A\backslash B$ is a basis
 of order $k+1$?
 
-**Formulation.** The site's definitions page (read 2026-10-13) calls a set
-$A\subseteq\mathbb N$ an additive basis of order $r$ when "all sufficiently
-large integers are the sum of at most $r$ integers from $A$". The page reads
-the question with that definition, at order $k$ in the hypothesis and at order
-$k+1$ in the conclusion. Counting sums of exactly $k$ elements gives a
+**Formulation.** The erdosproblems.com definitions page (read 2026-10-13) calls
+a set $A\subseteq\mathbb N$ an additive basis of order $r$ when "all
+sufficiently large integers are the sum of at most $r$ integers from $A$". The
+page reads the question with that definition, at order $k$ in the hypothesis and
+at order $k+1$ in the conclusion. Counting sums of exactly $k$ elements gives a
 different question, the reading of formal-conjectures (`erdos_881`) and of
 Svyable's manuscript, whose set $A=C\cup\{1\}$ with
 $C\subset\{2,3,\ldots\}$ does not contain $0$, so shorter sums cannot be
@@ -46,16 +46,16 @@ manuscript's minimality hypothesis (no infinite deletion is a basis with
 exactly $k$ summands) nor its conclusion (no infinite deletion is a basis with
 exactly $k+1$ summands) carries over to the reading with at most $k$ and at
 most $k+1$ summands, and its counterexample settles no instance of the
-question as this page reads it.
+question as this page reads it. The exactly-$k$ reading is a variant, which
+this page sets aside.
 
-**Status.** Open. The site's label was OPEN, and the site lists no proof
-claim. One pending claim is recorded,
+**Status.** Open. The erdosproblems.com label was OPEN, and erdosproblems.com
+lists no proof claim. One claim is recorded,
 [[problems/additive_bases/E0881/claims/2026_05_03_svyable|Svyable]], a
-manuscript posted in the site's thread on 2026-05-03. It claims a complete
-answer, no for every $k\ge2$, but it counts sums of exactly $k$ elements, so
-under the Formulation above its counterexample is to a different question and
-the claim is partial. A reader's AI check also finds fatal defects in its
-proof.
+manuscript posted in the erdosproblems.com thread on 2026-05-03. It claims a
+complete answer, no for every $k\ge2$, but it counts sums of exactly $k$
+elements, a variant the Formulation above sets aside, so its claim page is
+rejected. A reader's AI check also finds fatal defects in its proof.
 
 **Source.** [erdosproblems.com/881](https://www.erdosproblems.com/881), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #881,

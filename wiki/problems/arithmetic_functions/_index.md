@@ -306,5 +306,5 @@ Problems on the values, distribution and iterates of named arithmetic functions
 largest prime factor — along with general additive and multiplicative functions
 and perfect, amicable and aliquot-type questions.
 
-Site tags routed here: divisors, iterated functions, number theory, powerful,
-probability, unit fractions.
+erdosproblems.com tags routed here: divisors, iterated functions, number theory,
+powerful, probability, unit fractions.

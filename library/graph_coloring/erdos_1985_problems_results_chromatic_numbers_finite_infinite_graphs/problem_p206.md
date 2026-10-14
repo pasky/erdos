@@ -68,7 +68,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]: the site's second
-  source; Erdős's restatement of the problem (his $n(k,\ell)$ is the site's
-  $d(\ell,k)$), his report that the case $k=3$ is proved for every $\ell$,
-  and his remark on the difficulty at $k=4$, as of 1985.
+- [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]:
+  erdosproblems.com's second source; Erdős's restatement of the problem (his
+  $n(k,\ell)$ is erdosproblems.com's $d(\ell,k)$), his report that the case
+  $k=3$ is proved for every $\ell$, and his remark on the difficulty at $k=4$,
+  as of 1985.

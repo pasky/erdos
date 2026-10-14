@@ -57,6 +57,6 @@ is on
 
 **Acceptance.** Refereed publication: J. Combin. Theory Ser. A 115 (2008), no.
 1, 185--192, doi:10.1016/j.jcta.2007.03.006. The arXiv version was posted 19
-September 2006, the date of this page. The site's commentary records both
-bounds, but the site labeled the problem OPEN, so its commentary is not
-acceptance and no `reviewed` evidence is listed.
+September 2006, the date of this page. The erdosproblems.com commentary records
+both bounds, but Bloom's catalog labeled the problem OPEN, so its commentary is
+not acceptance and no `reviewed` evidence is listed.

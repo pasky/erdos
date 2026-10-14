@@ -29,15 +29,15 @@ $$
 \limsup_{x\to \infty} \frac{\max_{n<x}d_A(n)}{\left(\sum_{n\in A\cap[1,x)}\frac{1}{n}\right)^k}=\infty?
 $$
 
-**Status.** Proved. The site labeled the problem PROVED. By the Erdős–Sárközy
-theorem, $\max_{n\le x}d_A(n)$ exceeds $\exp(c(\log f_A(x))^2)$ infinitely
-often, where $f_A(x)$ is the reciprocal sum. This answers the question yes for
-every $k$, as the claim page below records.
+**Status.** Proved. Bloom's catalog labeled the problem PROVED. By the
+Erdős–Sárközy theorem, $\max_{n\le x}d_A(n)$ exceeds $\exp(c(\log f_A(x))^2)$
+infinitely often, where $f_A(x)$ is the reciprocal sum. This answers the
+question yes for every $k$, as the claim page below records.
 
 **Source.** [erdosproblems.com/444](https://www.erdosproblems.com/444), accessed
-2026-09-04. The site cites the problem from Erdős and Graham's 1980 problem
-book [ErGr80] and credits [ErSa80]. Cite as: T. F. Bloom, Erdős Problem #444,
-https://www.erdosproblems.com/444.
+2026-09-04. erdosproblems.com cites the problem from Erdős and Graham's 1980
+problem book [ErGr80] and credits [ErSa80]. Cite as: T. F. Bloom, Erdős Problem
+#444, https://www.erdosproblems.com/444.
 
 **References.**
 
@@ -54,7 +54,7 @@ https://www.erdosproblems.com/444.
 
 ## Current assessment
 
-The question is the site's formulation of 2026-09-04: for an infinite
+The question is the erdosproblems.com formulation of 2026-09-04: for an infinite
 $A\subseteq\mathbb{N}$, whether the largest number of elements of $A$
 dividing a single $n<x$ exceeds every fixed power of $\sum_{a\in A,\,a<x}1/a$
 along a sequence of $x$. The answer is yes.
@@ -67,9 +67,9 @@ The Erdős–Sárközy series on generalized divisor functions settles it: Part 
 proves $\limsup D_A(x)/f_A(x)=\infty$ for every infinite $A$, and Part II
 (J. Number Theory 15 (1982), 115–136) proves that $f_A(x)\to\infty$ implies
 $\limsup D_A(x)/\exp(c_1(\log f_A(x))^2)=\infty$, a bound beyond every fixed
-power of $f_A(x)$. The site credits Part IV [ErSa80], whose introduction
-restates both results and whose own Theorem 2 concerns the smallest $y$ with
-$D_A(y)>\Omega f_A(x)$
+power of $f_A(x)$. erdosproblems.com credits Part IV [ErSa80], whose
+introduction restates both results and whose own Theorem 2 concerns the smallest
+$y$ with $D_A(y)>\Omega f_A(x)$
 ([[../library/divisors/erdos_1980_asymptotic_formulas_generalized_divisor_functions/_index|card]]).
 The claim page
 [[problems/divisors/E0444/claims/1982_08_01_erdos_sarkozy|Erdős and Sárközy]]
@@ -80,8 +80,8 @@ Nothing in the question remains open. The true order of $D_A(x)$ against
 $f_A(x)$, and the smallest $y(x)$ with $D_A(y(x))/f_A(x)\to\infty$, are the
 series' further questions and not part of this problem. No formalization is
 recorded, and this repository has not checked the proofs independently; the
-account rests on the site page, the problem book, Part IV's introduction and
-the journal records of Parts I to III.
+account rests on the erdosproblems.com page, the problem book, Part IV's
+introduction and the journal records of Parts I to III.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

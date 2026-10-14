@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 570, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0570/claims
@@ -24,13 +24,14 @@ $R(C_{2j},H)\le2m+j-1$ once $m$ is large.
 with $q$ edges and no isolated vertices has Ramsey number at most $2q+1$
 against a triangle. This is the case $k=3$ of the question for every $m$.
 
-[[problems/ramsey_theory/E0570/claims/1999_01_01_jayawardene|1999_01_01_jayawardene]]: Jayawardene's 1999 University of Memphis thesis is credited by the site and by
-Cambie, Freschi, Morawski, Petrova and Pokrovskiy with the case $k=5$ of the
-question. The thesis is not held and is recorded second-hand.
+[[problems/ramsey_theory/E0570/claims/1999_01_01_jayawardene|1999_01_01_jayawardene]]: Jayawardene's 1999 University of Memphis thesis is credited by
+erdosproblems.com and by Cambie, Freschi, Morawski, Petrova and Pokrovskiy
+with the case $k=5$ of the question. The thesis is not held and is recorded
+second-hand.
 
 [[problems/ramsey_theory/E0570/claims/2026_01_15_cambie_freschi_morawski_petrova_pokrovskiy|2026_01_15_cambie_freschi_morawski_petrova_pokrovskiy]]: The 2026 preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy proves
 the bound for odd cycle lengths $k\ge7$ once $m$ is large (Theorem 3). With
 the earlier cases it states the bound for every $k$, settling the question,
-and it is accepted on the site curator's credit.
+and it is accepted on the erdosproblems.com curator's credit.
 
 ***

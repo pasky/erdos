@@ -50,14 +50,14 @@ found with ChatGPT 5.5 Pro and that the write-up is the authors'. A remark added
 in the pinned revision cites a related construction in Hardy and Subbarao, *A
 modified problem of Pillai and some related questions*, Amer. Math. Monthly
 (2002), Remark 2.8, p. 556, which a forum reply pointed out. The note was posted
-on the site's forum on 3 June 2026; the pinned revision of 4 June 2026 adds that
-remark and a corrected bibliography.
+on the erdosproblems.com forum on 3 June 2026; the pinned revision of 4 June
+2026 adds that remark and a corrected bibliography.
 
 **Covers.** The case $k=3$ of
 [[problems/diophantine_problems/E1056/_index|Problem 1056]], for infinitely
 many primes $p$, under the sources' reading recorded in the problem page's
 Formulation; since the common residue is $1$, the interval $\{1\}$ gives a
-fourth interval under the site's wording. The case $k=3$ itself was
+fourth interval under the erdosproblems.com wording. The case $k=3$ itself was
 already settled by
 [[problems/diophantine_problems/E1056/claims/1983_01_01_makowski|Mąkowski's
 example]].
@@ -69,6 +69,6 @@ $p>N$ has a tetrad. It is third-party Lean that this corpus has not built or
 audited, so no `formalized` evidence is listed.
 
 **Standing.** Claimed. The note is posted in a public repository and on the
-site's forum, with no review or refereed publication recorded, and the site
-labeled the problem OPEN. Nothing here is independently reviewed by this
-project.
+erdosproblems.com forum, with no review or refereed publication recorded, and
+Bloom's catalog labeled the problem OPEN. Nothing here is independently reviewed
+by this project.

@@ -67,5 +67,5 @@ of the 1962 paper) for the graphs inserted in the classes of $T$.
 - [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]: the source of the
   paper's displayed value $1/64\le\theta_3(K_5)$ (which at $q=1$ is the value
   of Theorem 3 itself) and of the comparison with the upper bound $1/12$ of
-  the origin paper; the Erdős--Rogers graphs it uses are the site's
+  the origin paper; the Erdős--Rogers graphs it uses are erdosproblems.com's
   $\delta_3(7)\ge1/4$ ingredient.

@@ -17,7 +17,7 @@ updated: 2026-10-08T01:29:58Z
 Definition 1 (printed pp. 379--380 = PDF pp. 3--4, page images): "$G_n$
 [sic] is $d$-regular, if
 $d\min_{x\in G^n}\sigma(x)\ge\max_{x\in G^n}\sigma(x)$ ($d\ge1$)", where
-$\sigma(x)$ is the valency of $x$ (p. 377). This is the catalog's
+$\sigma(x)$ is the valency of $x$ (p. 377). This is erdosproblems.com's
 $D$-balanced or $D$-almost-regular graph; the paper's word "$d$-regular"
 does not mean regular of degree $d$.
 
@@ -75,9 +75,9 @@ None stated.
 - [[../wiki/problems/extremal_graph_theory/E1077/_index|Problem 1077]]: the 1970 positive
   result behind the problem's question, with the subgraph on
   $n^{\alpha(1-\alpha)/(1+\alpha)}$ vertices, an exponent below the $\alpha$
-  the site now calls the correct one; the site's commentary paraphrases this
-  theorem with "$\gg m^{1+\alpha}$ edges".
+  erdosproblems.com now calls the correct one; the erdosproblems.com commentary
+  paraphrases this theorem with "$\gg m^{1+\alpha}$ edges".
 - [[../wiki/problems/extremal_graph_theory/E0803/_index|Problem 803]]: the "similar claim
-  replacing $\log n$ and $\log m$ by $n^c$ and $m^c$" of the site's
+  replacing $\log n$ and $\log m$ by $n^c$ and $m^c$" of the erdosproblems.com
   commentary, the dense-case theorem whose sparse analog the problem asks
   for.

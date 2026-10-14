@@ -60,7 +60,7 @@ None outside the statement's hypothesis.
   proposition proves no case of the problem; it shows that this upper half
   would imply $f_r(n,e(r-k)+k+1,e)=o(n^k)$ for every $2\le k<r$.
 - [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the conclusion
-  is the Brown-Erdős-Sós conjecture the site's commentary states, in the
-  site's letters $\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ at
+  is the Brown-Erdős-Sós conjecture the erdosproblems.com commentary states, in
+  erdosproblems.com's letters $\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ at
   $k=(r-t)s+t+1$ for every $r>t\ge2$, conditional on the hypothesis above.
   A conditional reduction, not a proof of any open case.

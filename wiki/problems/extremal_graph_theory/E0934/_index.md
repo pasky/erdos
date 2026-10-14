@@ -28,21 +28,22 @@ them has length $\geq t$.
 
 Estimate $h_t(d)$.
 
-**Formulation.** The site's wording as accessed 2026-09-19, last edited 28
-October 2025. The distance between two edges is the length of a shortest path
-joining an endpoint of one to an endpoint of the other, one less than their
-distance in the line graph, so $h_t(d)-1$ is the largest number of edges of a
-graph of maximum degree at most $d$ whose line graph has diameter at most $t$
-(the 2022 paper's reading, p. 1). The statement is a request for estimates and
-asserts nothing; the page-level status is open as the site's, and nothing is
-defective in the wording. Two side remarks. The site's $h_1(d)=d+1$ holds for
-$d\ge3$ and fails at $d=2$, where $K_3$ has three pairwise intersecting edges
-and $h_1(2)=4$ (the thread's correction, conceded by the site's author on 25
-March 2026; the 2022 paper prints the same unqualified sentence). Erdős's 1988
-text says "The order of magnitude of $h_r(n)$ is easily seen to be $n^{r+1}$
-[sic]" (p. 81), one power above the $\Theta(d^t)$ of the later normalization
-($h_1\sim d$, $h_2\sim\frac54d^2$); recorded as printed. The site's two
-displayed conjectures of 2022 are variants recorded below, not the question.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-19, last
+edited 28 October 2025. The distance between two edges is the length of a
+shortest path joining an endpoint of one to an endpoint of the other, one less
+than their distance in the line graph, so $h_t(d)-1$ is the largest number of
+edges of a graph of maximum degree at most $d$ whose line graph has diameter at
+most $t$ (the 2022 paper's reading, p. 1). The statement is a request for
+estimates and asserts nothing; the page-level status is open as
+erdosproblems.com's, and nothing is defective in the wording. Two side remarks.
+erdosproblems.com's $h_1(d)=d+1$ holds for $d\ge3$ and fails at $d=2$, where
+$K_3$ has three pairwise intersecting edges and $h_1(2)=4$ (the thread's
+correction, conceded by erdosproblems.com's author on 25 March 2026; the 2022
+paper prints the same unqualified sentence). Erdős's 1988 text says "The order
+of magnitude of $h_r(n)$ is easily seen to be $n^{r+1}$ [sic]" (p. 81), one
+power above the $\Theta(d^t)$ of the later normalization ($h_1\sim d$,
+$h_2\sim\frac54d^2$); recorded as printed. erdosproblems.com's two displayed
+conjectures of 2022 are variants recorded below, not the question.
 
 **Status.** Open. The search whose scope the Current assessment records found no
 estimate of $h_t(d)$ up to a factor $1+o(1)$ for general $t$, and no "nice
@@ -65,11 +66,11 @@ the 2022 conjecture $h_3(d)\le d^3-d^2+d+2$ at $d=4$, with $h_3(4)\ge71>54$.
 They also prove $\liminf h_3(d)/d^3\ge\frac{253}{225}$. This is a pending
 partial claim on
 [[problems/extremal_graph_theory/E0934/claims/2026_07_02_kumar_mohar_pragada|its claim page]].
-Korsky claims on the site's proof-claim tab, and Cames van Batenburg and Korsky
-claim in a preprint, that $h_t(d)\ge(1-o(1))d^t$ as $d\to\infty$ for every
-$t\ge3$. The preprint's abstract states it for every $t\ge2$. The result was
-first submitted to the tab on 29 July 2026 and is recorded as a pending partial
-claim on
+Korsky claims on the erdosproblems.com proof-claim tab, and Cames van Batenburg
+and Korsky claim in a preprint, that $h_t(d)\ge(1-o(1))d^t$ as $d\to\infty$ for
+every $t\ge3$. The preprint's abstract states it for every $t\ge2$. The result
+was first submitted to the tab on 29 July 2026 and is recorded as a pending
+partial claim on
 [[problems/extremal_graph_theory/E0934/claims/2026_07_29_korsky|its claim page]].
 Separately, a thread post and Zenodo manuscript of 17 August 2026 claim the
 exact value $h_3(4)=71$ with a Lean 4 development. This is a pending partial
@@ -78,10 +79,10 @@ claim on
 
 **Source.** [erdosproblems.com/934](https://www.erdosproblems.com/934),
 accessed 2026-09-19: the problem page (labeled OPEN,
-with the site's note that no finite computation can settle it; last edited
-28 October 2025; source keys [BBPP83], [CCJK22], [CGTT90], [Er88]; "Formalised
-statement? No"; OEIS "Possible"), its six-comment discussion thread (24
-March 2026 to 17 August 2026) and its proof-claim tab with one partial claim
+with the erdosproblems.com note that no finite computation can settle it; last
+edited 28 October 2025; source keys [BBPP83], [CCJK22], [CGTT90], [Er88];
+"Formalised statement? No"; OEIS "Possible"), its six-comment discussion thread
+(24 March 2026 to 17 August 2026) and its proof-claim tab with one partial claim
 (29 July 2026). Cite as: T. F. Bloom, Erdős Problem #934,
 https://www.erdosproblems.com/934, accessed 2026-09-19.
 
@@ -95,30 +96,29 @@ https://www.erdosproblems.com/934, accessed 2026-09-19.
   interconnection networks: diameter and vulnerability. Surveys in
   Combinatorics 1983 (Proc. Ninth British Combinatorial Conference), London
   Math. Soc. Lecture Note Ser. 82 (1983), 1--30 (the venue from the citing
-  papers; the site's text prints "(1983), 1-30"). The HAL deposit is a
-  two-up scan of the typescript without page numbers; in it the passage
-  is on PDF p. 13 (left- and right-hand typescript pages) and the
-  Kleitman reference on PDF p. 16 (the list begins on PDF p. 14). Library
-  home:
+  papers; the erdosproblems.com text prints "(1983), 1-30"). The HAL deposit is
+  a two-up scan of the typescript without page numbers; in it the passage is on
+  PDF p. 13 (left- and right-hand typescript pages) and the Kleitman reference
+  on PDF p. 16 (the list begins on PDF p. 14). Library home:
   [[../library/extremal_graph_theory/bermond_1983_graphs_interconnection_networks_diameter_vulnerability/_index|bermond_1983_graphs_interconnection_networks_diameter_vulnerability]];
   paged at
   [[../library/extremal_graph_theory/bermond_1983_graphs_interconnection_networks_diameter_vulnerability/conjecture_p13|conjecture_p13]].
 - [CGTT90] Chung, F. R. K., Gyárfás, A., Tuza, Z. and Trotter, W. T., The
   maximum number of edges in $2K_2$-free graphs of bounded degree. Discrete
   Math. 81 (1990), no. 2, 129--135, doi:10.1016/0012-365X(90)90144-7 (the
-  site's text prints no volume). Theorem 4, p. 131; the attribution, p. 129.
-  Library home:
+  erdosproblems.com text prints no volume). Theorem 4, p. 131; the attribution,
+  p. 129. Library home:
   [[../library/extremal_graph_theory/chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree/_index|chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree]]
   (the author's copy on W. T. Trotter's publication page); paged at
   [[../library/extremal_graph_theory/chung_1990_maximum_number_edges_2k2_free_graphs_bounded_degree/theorem_4|theorem_4]].
 - [CCJK22] Cambie, S., Cames van Batenburg, W., de Joannis de Verclos, R.
   and Kang, R. J., Maximising line subgraphs of diameter at most $t$. SIAM J.
   Discrete Math. 36 (2022), no. 2, 939--950, doi:10.1137/21M1437354 (the
-  site's text spells "Maximizing"). Pages are those of arXiv:2103.11898v2
-  (10 December 2021, "v2 accepted to SIAM Journal on Discrete Mathematics",
-  12 pp.); the introduction, p. 1; Conjecture 1, Theorem 2, Conjectures 3--4
-  and Proposition 5, p. 2; Theorems 6--8 and Corollary 9, p. 3; Theorem 10,
-  p. 4. Library home:
+  erdosproblems.com text spells "Maximizing"). Pages are those of
+  arXiv:2103.11898v2 (10 December 2021, "v2 accepted to SIAM Journal on Discrete
+  Mathematics", 12 pp.); the introduction, p. 1; Conjecture 1, Theorem 2,
+  Conjectures 3--4 and Proposition 5, p. 2; Theorems 6--8 and Corollary 9, p. 3;
+  Theorem 10, p. 4. Library home:
   [[../library/extremal_graph_theory/cambie_2022_maximizing_line_subgraphs_diameter_at_most_t/_index|cambie_2022_maximizing_line_subgraphs_diameter_at_most_t]];
   paged at
   [[../library/extremal_graph_theory/cambie_2022_maximizing_line_subgraphs_diameter_at_most_t/theorem_6|theorem_6]],
@@ -131,8 +131,8 @@ https://www.erdosproblems.com/934, accessed 2026-09-19.
   [[../library/extremal_graph_theory/cambie_2022_maximizing_line_subgraphs_diameter_at_most_t/conjecture_4|conjecture_4]].
 - [FGST89] Faudree, R. J., Gyárfás, A., Schelp, R. H. and Tuza, Zs., Induced
   matchings in bipartite graphs. Discrete Math. 78 (1989), 83--87; printed
-  p. 83, the attribution of the $t=2$ question and value. Not a
-  site key for this problem. Library home:
+  p. 83, the attribution of the $t=2$ question and value. Not an
+  erdosproblems.com key for this problem. Library home:
   [[../library/extremal_graph_theory/faudree_1989_induced_matchings_bipartite_graphs/_index|faudree_1989_induced_matchings_bipartite_graphs]];
   paged at
   [[../library/extremal_graph_theory/faudree_1989_induced_matchings_bipartite_graphs/problem_p83|problem_p83]].
@@ -151,33 +151,33 @@ https://www.erdosproblems.com/934, accessed 2026-09-19.
   preprint; its arXiv record (abstract only), accessed 2026-09-19.
 
 **Formalization.** None. formal-conjectures has no file `ErdosProblems/934.lean`
-(main on 2026-10-07), the site's indicator reads "Formalised statement? No",
-and the community database (teorth/erdosproblems, `data/problems.yaml`, read
-2026-09-19) lists the problem as open, unformalized and with no formal-proof
-field as of its last update, dated 31 August 2025. A thread post of 17 August
-2026 describes a Lean 4 proof of the single value $h_3(4)=71$ in an external
-repository, recorded on
+(main on 2026-10-07), the erdosproblems.com indicator reads "Formalised
+statement? No", and the community database (teorth/erdosproblems,
+`data/problems.yaml`, read 2026-09-19) lists the problem as open, unformalized
+and with no formal-proof field as of its last update, dated 31 August 2025. A
+thread post of 17 August 2026 describes a Lean 4 proof of the single value
+$h_3(4)=71$ in an external repository, recorded on
 [[problems/extremal_graph_theory/E0934/claims/2026_08_17_bitterlemma|its claim page]];
 it is not a formalization of the problem's statement, and the corpus has not
 built it.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement above; OPEN;
-last edited 28 October 2025. The commentary attributes the problem to Erdős and
-Nešetřil and quotes Erdős's 1988 remark that the problem is interesting only if
-$h_t(d)$ has a nice expression (quoted under The origin below); calls
-$h_t(d)\le2d^t$ and $h_1(d)=d+1$ easy; records the $t=2$ conjecture
-$h_2(d)\le\frac54d^2+1$ with equality for even $d$, made independently by Erdős
-and Nešetřil and by Bermond, Bond, Paoli and Peyrat, with the proof credited to
-Chung, Gyárfás, Tuza and Trotter in [CGTT90] and a pointer to Problem 149;
-records the 2022 conjectures that $h_3(d)\le d^3-d^2+d+2$, with equality exactly
-when $d-1$ is a prime power, and that for all $t\ge3$, $h_t(d)\ge(1-o(1))d^t$
-for infinitely many $d$ and $h_t(d)\le(1+o(1))d^t$ for all $d$, beside the value
-$h_3(3)=23$; and records the same authors' bounds $h_t(d)\ge0.629^td^t$ for
-infinitely many $d$ when $t$ is large and $h_t(d)\le\frac32d^t+1$ for all
-$t\ge1$. The thread's six comments and the tab's one claim are recorded below;
-the community database says open, unformalized.
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
+above; OPEN; last edited 28 October 2025. The commentary attributes the problem
+to Erdős and Nešetřil and quotes Erdős's 1988 remark that the problem is
+interesting only if $h_t(d)$ has a nice expression (quoted under The origin
+below); calls $h_t(d)\le2d^t$ and $h_1(d)=d+1$ easy; records the $t=2$
+conjecture $h_2(d)\le\frac54d^2+1$ with equality for even $d$, made
+independently by Erdős and Nešetřil and by Bermond, Bond, Paoli and Peyrat, with
+the proof credited to Chung, Gyárfás, Tuza and Trotter in [CGTT90] and a pointer
+to Problem 149; records the 2022 conjectures that $h_3(d)\le d^3-d^2+d+2$, with
+equality exactly when $d-1$ is a prime power, and that for all $t\ge3$,
+$h_t(d)\ge(1-o(1))d^t$ for infinitely many $d$ and $h_t(d)\le(1+o(1))d^t$ for
+all $d$, beside the value $h_3(3)=23$; and records the same authors' bounds
+$h_t(d)\ge0.629^td^t$ for infinitely many $d$ when $t$ is large and
+$h_t(d)\le\frac32d^t+1$ for all $t\ge1$. The thread's six comments and the tab's
+one claim are recorded below; the community database says open, unformalized.
 
 **The origin.** Erdős's 1988 paper, Section 1, printed p. 81 (the Er88
 card's #934 row records the passage), poses the problem in one
@@ -186,8 +186,8 @@ so that every $G$ of $h_r(n)$ edges each vertex of which has degree $\le n$
 contains two edges so that the shortest path joining these edges has length
 $\ge r$." He then calls the order of magnitude easy to see, printing it as
 $n^{r+1}$ (the Formulation note above records the slip), says the exact
-value is unknown, and adds the remark the site quotes: "This problem seems
-to be interesting only if there is a nice expression for $h_r(n)$." The
+value is unknown, and adds the remark erdosproblems.com quotes: "This problem
+seems to be interesting only if there is a nice expression for $h_r(n)$." The
 1983 survey states the $t=2$ case in the
 language of hypergraphs of maximum degree $2$
 ([[../library/extremal_graph_theory/bermond_1983_graphs_interconnection_networks_diameter_vulnerability/conjecture_p13|conjecture_p13]],
@@ -226,8 +226,8 @@ only for the blown-up five-cycle $C_5(D)$, where $f(D)=5D^2/4$ for even $D$
 and $(5D^2-2D+1)/4$ for odd $D$; hence (authored, one line) a graph with
 $f(D)+1$ edges and maximum degree at most $D$ has two strongly independent
 edges, in one component by the theorem or in two, and $C_5(D)$ has none, so
-$h_2(D)=f(D)+1$, the site's statement that $h_2(d)\le\frac54d^2+1$ with
-equality for even $d$, and $\frac{5d^2-2d+1}4+1$ for odd $d$. Acceptance
+$h_2(D)=f(D)+1$, the erdosproblems.com statement that $h_2(d)\le\frac54d^2+1$
+with equality for even $d$, and $\frac{5d^2-2d+1}4+1$ for odd $d$. Acceptance
 evidence: Discrete Math. 81 (1990), refereed, cited from the author's
 copy of the journal pages; the accepted partial claim is
 [[problems/extremal_graph_theory/E0934/claims/1990_04_01_chung_gyarfas_tuza_trotter|its claim page]]. This is the "easier problem" of
@@ -243,8 +243,8 @@ Their
 1]] (p. 2): "$h_3(\Delta)\le\Delta^3-\Delta^2+\Delta+2$, with equality if
 $\Delta$ is one more than a prime power", from the incidence graphs of
 projective planes ($\Delta^3-\Delta^2+\Delta$ edges, line diameter $3$) with one
-subdivided edge; the printed word is "if", not the site's "if and only if"
-(as arXiv v2 prints it; the thread of 17 August 2026 makes the same point).
+subdivided edge; the printed word is "if", not erdosproblems.com's "if and only
+if" (as arXiv v2 prints it; the thread of 17 August 2026 makes the same point).
 The preprint [KMP26] refutes it:
 [[../library/extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/lemma_3_1|Lemma 3.1]] (p. 9) shows
 $\mathrm{diam}(L(O_4))\le3$ for the odd graph $O_4=\mathrm{KG}(7,3)$, which is
@@ -305,24 +305,24 @@ or, as far as the search found, independently reviewed. The 1983 survey's
 $\liminf n(2,D,r)r^{-D}\ge(\frac12)^{D-1}$ is a precursor of Conjecture 3
 with a weaker constant.
 
-**Site-versus-source items (recorded, not resolved with the site).** (a)
-The site's $h_1(d)=d+1$ without the restriction $d\ge3$, false at $d=2$
-(the thread's correction, conceded; the 2022 paper's p. 1 is the source of
-the sentence and prints it the same way). (b) The site's version of the 2022 Conjecture 1 makes the
-paper's equality condition necessary and sufficient, where the paper prints
-only "if". (c) The two 2022 conjectures displayed as
-open, where a 2026 preprint refutes one and half of the other and another
-claims the remaining half; preprint status, so no correction of the site is
-implied. (d) Erdős's "$n^{r+1}$" against the later $\Theta(d^t)$, a slip in
-the origin recorded as printed.
+**erdosproblems.com-versus-source items (recorded, not resolved with
+erdosproblems.com).** (a) erdosproblems.com's $h_1(d)=d+1$ without the
+restriction $d\ge3$, false at $d=2$ (the thread's correction, conceded; the 2022
+paper's p. 1 is the source of the sentence and prints it the same way). (b) The
+erdosproblems.com version of the 2022 Conjecture 1 makes the paper's equality
+condition necessary and sufficient, where the paper prints only "if". (c) The
+two 2022 conjectures displayed as open, where a 2026 preprint refutes one and
+half of the other and another claims the remaining half; preprint status, so no
+correction of erdosproblems.com is implied. (d) Erdős's "$n^{r+1}$" against the
+later $\Theta(d^t)$, a slip in the origin recorded as printed.
 
 **Forum and proof-claim items (recorded with provenance, not status).** The
 thread: 24 March 2026 (the account Adenwalla) asks whether $K_3$ refutes
-the site's $h_1(2)=3$; 25 March 2026 (the site's author) agrees, saying the
-sentence $h_1(d)=d+1$ was taken from [CCJK22] and holds for $d\ge3$ but
-fails at $d=2$ because of $K_3$; 25 March 2026 (the account StijnC) gives
-the $d=2$ case ($h_t(2)=2t+2$) and the proof for $d\ge3$; 9 August 2026 (the
-account Xiao Hu) announces the Korsky and Cames van Batenburg preprint,
+erdosproblems.com's $h_1(2)=3$; 25 March 2026 (erdosproblems.com's author)
+agrees, saying the sentence $h_1(d)=d+1$ was taken from [CCJK22] and holds for
+$d\ge3$ but fails at $d=2$ because of $K_3$; 25 March 2026 (the account StijnC)
+gives the $d=2$ case ($h_t(2)=2t+2$) and the proof for $d\ge3$; 9 August 2026
+(the account Xiao Hu) announces the Korsky and Cames van Batenburg preprint,
 arXiv:2608.03965; 17 August 2026, 13:33 (the account BitterLemma) posts the
 three corrections above, citing [KMP26]'s Lemma 3.1 and Theorem 1.11 and a
 third-party working report of 28 July 2026, with a signature describing the
@@ -350,16 +350,16 @@ $t>2$ by a construction from complete flags over $\mathbb F_q^t$ for a prime
 power $q\sim d^{1/(t-1)}$, with an external link to a shared-drive file
 (linked from its claim page) and three comments recorded on its
 claim page; the
-site's tab page carries its standing disclaimer that a listing is no
+erdosproblems.com tab page carries its standing disclaimer that a listing is no
 guarantee of correctness. The claim is the statement of Conjecture 3 later
 posted as [CvBK26]. None of these items changes the status; the
 $h_3(4)=71$ value, if confirmed, would be one exact value at one $(t,d)$.
 
 **Search scope.** None of the routes below found an
 asymptotic determination of $h_t(d)$, a refereed change to the 2022 bounds,
-or a resolution of the site's request.
+or a resolution of erdosproblems.com's request.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and tree (no file 934); the
   community database.
 - arXiv: the API records of 2103.11898 (v1 22 March 2021, v2 10 December

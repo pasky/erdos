@@ -81,9 +81,10 @@ from Lemme 1 and states Lemme 1 with a one-line proof pointer.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0874/_index|Problem 874]]: the intermediate
-  upper bound the site quotes, $\limsup k(N)/N^{1/2}\le(143/27)^{1/2}=2.301\cdots$,
-  and the paper's own record of Straus's $4/\sqrt3=2.309\cdots$, of the
-  block construction giving $\liminf\ge2$, and of Erdős's conjecture,
-  proved for large $N$ by Deshouillers and Freiman
+  upper bound erdosproblems.com quotes,
+  $\limsup k(N)/N^{1/2}\le(143/27)^{1/2}=2.301\cdots$, and the paper's own
+  record of Straus's $4/\sqrt3=2.309\cdots$, of the block construction giving
+  $\liminf\ge2$, and of Erdős's conjecture, proved for large $N$ by Deshouillers
+  and Freiman
   ([[additive_combinatorics/deshouillers_1999_additive_problem_erdos_straus/theorem_1|Theorem 1]]).
   The paper's $F(N)$ is the problem's $k(N)$.

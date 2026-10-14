@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 679, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T20:32:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/arithmetic_functions/E0679/claims
@@ -14,7 +14,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/arithmetic_functions/E0679/claims/2026_01_11_dottedcalculator|2026_01_11_dottedcalculator]]: For every constant $C$, every large $n$ has some $k<n$ with
 $\omega(n-k)\ge\log k/\log\log k+C$, so the version with an $O(1)$ error term
 is false. The argument is a thread post by DottedCalculator, credited in the
-site's remarks, and it comes with a Lean proof.
+erdosproblems.com remarks, and it comes with a Lean proof.
 
 [[problems/arithmetic_functions/E0679/claims/2026_04_16_lau|2026_04_16_lau]]: Under a conjecture on short intervals containing integers with many prime
 factors, Lau shows that every large $n$ has some large $k<n$ with

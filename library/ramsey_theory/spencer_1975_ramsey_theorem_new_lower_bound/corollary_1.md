@@ -56,8 +56,8 @@ None outside the paper (Lemma 1 is the union bound).
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1029/_index|Problem 1029]]: the bound
-  $R(k)\ge(1+o(1))k2^{k/2}/(e\sqrt2)$ the site's commentary quotes; it
-  bounds $R(k)/(k2^{k/2})$ below by a constant and says nothing about
+  $R(k)\ge(1+o(1))k2^{k/2}/(e\sqrt2)$ the erdosproblems.com commentary quotes;
+  it bounds $R(k)/(k2^{k/2})$ below by a constant and says nothing about
   divergence.
 - [[../wiki/problems/ramsey_theory/E0077/_index|Problem 77]]: the source read here for
   $\liminf_{k\to\infty}R(k)^{1/k}\ge\sqrt2$, the lower end of the interval

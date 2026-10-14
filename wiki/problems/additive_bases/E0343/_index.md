@@ -52,13 +52,13 @@ $$
 
 must contain an infinite arithmetic progression?
 
-**Notes.** The site's wording leaves the implied constant in $\gg N$
-unquantified, and the question changes with it. The site's source, Erdős and
-Graham's monograph [ErGr80], p. 54, asks Folkman's question for a
+**Notes.** The erdosproblems.com wording leaves the implied constant in $\gg N$
+unquantified, and the question changes with it. The erdosproblems.com source,
+Erdős and Graham's monograph [ErGr80], p. 54, asks Folkman's question for a
 nondecreasing sequence with $s_n<cn$ "for some $c$ and all $n$", and Folkman's
 own closing question ([Fo66], p. 655) is whether $a_n\le Mn$ for all $n$
-forces subcompleteness; in both the constant may depend on the sequence. The
-site labeled the problem PROVED and its commentary says that "the original
+forces subcompleteness; in both the constant may depend on the sequence. Bloom's
+catalog labeled the problem PROVED and its commentary says that "the original
 question was answered by Szemerédi and Vu [SzVu06] (who proved that the answer
 is yes)"; its thread has no comments. The curator's reading is therefore the
 statement Szemerédi and Vu prove, which they state as Folkman's conjecture
@@ -83,12 +83,12 @@ commit of 2026-08-17; formal authors the AI systems Codex and GPT-5.6 Sol)
 proves that trivial form with $C=1$ by Brown's criterion and says so; it is
 credited here and counts for nothing. Collin Yuanjie Ren's submission
 `jsp-000285-cyr` (pinned commit of 2026-09-16), which the community database
-credits for the site's "(LEAN)" qualification, states the modified Statement
-as `erdos_343_eventual` with the explicit constant $C=512F^2$,
+credits for erdosproblems.com's "(LEAN)" qualification, states the modified
+Statement as `erdos_343_eventual` with the explicit constant $C=512F^2$,
 $F=200000\cdot200^{49}$; this corpus has not built it, so it gives no
 `formalized` evidence. Unread: Section 6 of [ErGr80] beyond p. 54.
 
-**Status.** The site labeled the problem PROVED (LEAN) (page last edited
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN) (page last edited
 2025-12-02), and the label describes the modified Statement. The community
 database has listed it as proved (Lean) since its commit of 2026-09-26. Folkman
 [Fo66] proved the case of counting function $\gg N^{1+\epsilon}$ and showed that
@@ -111,9 +111,9 @@ https://www.erdosproblems.com/343.
 - [SzVu06] Szemerédi, E. and Vu, V., Long arithmetic progressions in sumsets:
   thresholds and bounds. J. Amer. Math. Soc. (2006), 119-169.
 
-**Formalization.** None recorded on the site. Two Lean 4 files are linked at
-their pinned commits from Szemerédi and Vu's claim page, neither built here:
-Boris Alexeev's `lean-proofs` file `Erdos343.lean` (formal authors the AI
+**Formalization.** None recorded on erdosproblems.com. Two Lean 4 files are
+linked at their pinned commits from Szemerédi and Vu's claim page, neither built
+here: Boris Alexeev's `lean-proofs` file `Erdos343.lean` (formal authors the AI
 systems Codex and GPT-5.6 Sol), which proves the universal-constant all-$N$
 reading with the constant $1$ by Brown's criterion and not Szemerédi and Vu's
 theorem, and Collin Yuanjie Ren's submission `jsp-000285-cyr`, which the
@@ -128,16 +128,18 @@ published online 2005-09-13), proves that there is an absolute constant $C$
 such that every multiset $A$ with at least $CN$ terms up to $N$ for all
 sufficiently large $N$ is subcomplete, that is, its finite subset sums contain
 an infinite arithmetic progression; the claim page records the acceptance. The
-site's formulation above (page last edited 2025-12-02) asks, following
-Folkman, whether a multiset with $\lvert A\cap\{1,\ldots,N\}\rvert\gg N$ for
-all $N$ is subcomplete, and leaves the implied constant unquantified; the
-modified Statement is the form Szemerédi and Vu prove. As Folkman and Erdős
-and Graham printed it, with a constant depending on $A$, the question is open
-for constants below $C$ as far as the cited sources show.
+erdosproblems.com formulation above (page last edited 2025-12-02) asks,
+following Folkman, whether a multiset with
+$\lvert A\cap\{1,\ldots,N\}\rvert\gg N$ for all $N$ is subcomplete, and leaves
+the implied constant unquantified; the modified Statement is the form Szemerédi
+and Vu prove. As Folkman and Erdős and Graham printed it, with a constant
+depending on $A$, the question is open for constants below $C$ as far as the
+cited sources show.
 
 **Formulation.** The page's standing judges the modified Statement, the form
 Szemerédi and Vu prove. The poser's question, Folkman's as Erdős and Graham
-print it, reads the site's $\gg N$ as its source reads it: Erdős and Graham's
+print it, reads erdosproblems.com's $\gg N$ as its source reads it: Erdős and
+Graham's
 [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|1980 monograph]]
 (p. 54) asks the question for sequences with $s_n<cn$ for some $c$ and all
 $n$, so the implied constant may depend on $A$. Theorem 6.3 answers that
@@ -167,7 +169,7 @@ $a_1=1$, and Brown's criterion then makes every natural number a subset sum;
 the `lean-proofs` file linked from Szemerédi and Vu's claim page proves
 exactly that reading and says so.
 
-**Search scope.** The site's problem page, the Folkman source
+**Search scope.** The erdosproblems.com problem page, the Folkman source
 card, the Crossref and arXiv records of the Szemerédi--Vu paper and its
 Section 6 statements, the community database's entry, and the headers and
 main statements of the two Lean files; neither paper's proof is reviewed

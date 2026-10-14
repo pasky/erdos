@@ -31,8 +31,8 @@ Here $t(n,G)$ is the survey's notation for $\mathrm{ex}(n;G)$; the survey's
 [130] is P. Erdős and M. Simonovits, Some extremal problems in graph theory,
 Combinatorial theory and its applications, I (Proc. Colloq., Balatonfüred,
 1969), 377--390, North-Holland, Amsterdam, 1970 (reference list, text layer).
-The wording "Determine $t(n,Q_k)$" is the site's wording of Problem 576 up
-to notation; the 1997 state of the bounds for $Q_3$ is the state in 2026.
+The wording "Determine $t(n,Q_k)$" is the erdosproblems.com wording of Problem
+576 up to notation; the 1997 state of the bounds for $Q_3$ is the state in 2026.
 
 **Source.** F. R. K. Chung, *Open problems of Paul Erdős in graph theory*,
 J. Graph Theory 25 (1997), 3--36; Problem (36) on p. 9 of the
@@ -57,5 +57,5 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: a 1997 survey
-  statement of the problem in the site's general form, attributing it to
-  Erdős and Simonovits 1970, with the bounds for $Q_3$ then and now.
+  statement of the problem in erdosproblems.com's general form, attributing it
+  to Erdős and Simonovits 1970, with the bounds for $Q_3$ then and now.

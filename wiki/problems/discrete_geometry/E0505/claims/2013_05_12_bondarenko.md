@@ -54,7 +54,7 @@ from the $Fi_{23}$ graph.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The result is refereed, since Discrete and Computational
-Geometry published it. The site's label, DISPROVED (LEAN), credits
+Geometry published it. The erdosproblems.com label, DISPROVED (LEAN), credits
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
 with the disproof and
 [[problems/discrete_geometry/E0505/claims/2014_11_06_jenrich_brouwer|Jenrich and Brouwer]]

@@ -30,11 +30,11 @@ Does this process always terminate if $x$ has odd denominator and $A$ is the set
 of odd numbers? More generally, for which pairs $x$ and $A$ does this process
 terminate?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page showed
-no last-edited date). The step "choose the minimal $n\in A$ such that
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+showed no last-edited date). The step "choose the minimal $n\in A$ such that
 $n\ge1/x$" does not by itself exclude a denominator already used:
 for $x=2/3$ and $A$ the odd numbers it picks $3$ twice (discussion comment
-of 7 July 2026), and the site's owner replied the same day that the
+of 7 July 2026), and the erdosproblems.com owner replied the same day that the
 intended algorithm takes at each stage the largest unit fraction with an
 allowed denominator that has not yet been used. The
 formal-conjectures file models that reading (each used denominator is
@@ -50,22 +50,22 @@ for $x\ge2/3$ they part at the second step ($3,3,\dots$ against $3,5,\dots$),
 and whether they terminate on the same such inputs is not settled by the
 sources. The first question is Stein's odd-denominator question; the second,
 "for which pairs $x$ and $A$", is the general classification, of which the
-site's commentary names two further instances, denominators in a residue class
-and square denominators.
+erdosproblems.com commentary names two further instances, denominators in a
+residue class and square denominators.
 
-**Status.** Labeled open on the site: the label was OPEN on 2026-09-18, with no
-last-edited date shown. The site marked the problem as not resolvable by a
-finite computation. The frontmatter standing, open, claim none, rests on no
-claim page. The site's proof-claim tab is empty, and no manuscript located
-claims either question. No proof, disproof or accepted resolution of the
-odd-denominator question, and no classification of the terminating pairs
-$(x,A)$, was found in the search whose scope the Current assessment records. The
-published sources cited state the odd-denominator question as open (Pihko 2001
-and 2010, Louwsma and Martino 2023, Koizumi 2025). The results recorded are
-existence criteria, which say which rationals have a representation at all, and
-termination for prescribed finite numbers of steps. None of them decides
-termination in general. This is a bounded negative finding, not a certificate of
-openness.
+**Status.** Labeled open on erdosproblems.com: the label was OPEN on 2026-09-18,
+with no last-edited date shown. Bloom's catalog marked the problem as not
+resolvable by a finite computation. The frontmatter standing, open, claim none,
+rests on no claim page. The erdosproblems.com proof-claim tab is empty, and no
+manuscript located claims either question. No proof, disproof or accepted
+resolution of the odd-denominator question, and no classification of the
+terminating pairs $(x,A)$, was found in the search whose scope the Current
+assessment records. The published sources cited state the odd-denominator
+question as open (Pihko 2001 and 2010, Louwsma and Martino 2023, Koizumi 2025).
+The results recorded are existence criteria, which say which rationals have a
+representation at all, and termination for prescribed finite numbers of steps.
+None of them decides termination in general. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/282](https://www.erdosproblems.com/282),
 accessed 2026-09-18: the problem page (OPEN, marked as not resolvable by a
@@ -79,7 +79,7 @@ T. F. Bloom, Erdős Problem #282, https://www.erdosproblems.com/282, accessed
 
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
-  28, Université de Genève (1980), pp. 30--31 (the site cites p. 30).
+  28, Université de Genève (1980), pp. 30--31 (erdosproblems.com cites p. 30).
   Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Gr64b] Graham, R. L., On finite sums of unit fractions. Proc. London Math.
@@ -154,7 +154,7 @@ was not built here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN. The commentary recalls that Fibonacci observed in 1202 that the
 process terminates for every $x$ when $A=\mathbb N$, attributes the case of
 the odd numbers to Stein, and raises the general question in two further
@@ -205,7 +205,7 @@ from S. K. Stein.
 
 - *Existence criteria, not termination.*
   [[../library/unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/corollary_1|Corollary 1 of Graham 1964]]
-  (p. 91) is the site's criterion for square denominators, a
+  (p. 91) is erdosproblems.com's criterion for square denominators, a
   case of
   [[../library/unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/theorem_4|Theorem 4]]
   for distinct $n$th powers (the paper notes that Erdős also obtained the
@@ -213,9 +213,9 @@ from S. K. Stein.
   first-hand: section 4(1) of [Gr64b] (p. 206; card
   [[../library/unit_fractions/graham_1964_finite_sums_unit_fractions/_index|graham_1964_finite_sums_unit_fractions]])
   states that $p/q$ is a sum of distinct reciprocals of terms of an
-  arithmetic progression exactly under the gcd condition the site quotes,
-  and the paper recalls on p. 193 the Stewart--Breusch theorem that every
-  rational with odd reduced denominator is a sum of distinct odd unit
+  arithmetic progression exactly under the gcd condition erdosproblems.com
+  quotes, and the paper recalls on p. 193 the Stewart--Breusch theorem that
+  every rational with odd reduced denominator is a sum of distinct odd unit
   fractions, the case $a=2$, $b=1$ of that criterion; the card records that
   the paper defers the proofs of its section 4 applications to its proved
   Theorem 5, and that every positive remainder of the odd greedy process,
@@ -311,7 +311,7 @@ tab.
 **Search scope.** The status rests on these routes;
 none found a proof, a disproof or a proof claim.
 
-- The site: problem page, discussion thread, empty proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread, empty proof-claim tab; the
   community database record; formal-conjectures `282.lean` at the pinned
   commit.
 - The primary sources at the cited passages: [ErGr80] (pp. 30--31), [Gr64c]
@@ -332,7 +332,7 @@ Wagon's problem book.
 
 **Remaining gaps.** (1) Stein's question has no publication by its poser:
 the monograph cites a personal communication, and Guy's book attributes the
-question to Stein, Selfridge, Graham and others. (2) The site's
+question to Stein, Selfridge, Graham and others. (2) erdosproblems.com's
 unused-denominator convention and Pihko's agree on every $x<2/3$
 (Remark 2.4); whether they terminate on the same inputs $x\ge2/3$ is not
 settled by the sources. (3) [LoMa23] is consumed at the abstract level;

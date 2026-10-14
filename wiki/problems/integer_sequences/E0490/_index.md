@@ -28,25 +28,24 @@ $$
 \lvert A\rvert \lvert B\rvert \ll \frac{N^2}{\log N}?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-28 December 2025). The hypothesis is that the
-multiplication map $A\times B\to\mathbb N$, $(a,b)\mapsto ab$, is injective;
-the conclusion asks for an absolute constant $c$ with
-$|A||B|\le cN^2/\log N$ for all $N\ge2$. Erdős's printings use
-$1\le a_1<\dots<a_k\le n$, $1\le b_1<\dots<b_l\le n$ with the products
-$a_ib_j$ distinct and ask $kl<cn^2/\log n$ (1972, 1973), or
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 28 December 2025). The hypothesis is that the multiplication map
+$A\times B\to\mathbb N$, $(a,b)\mapsto ab$, is injective; the conclusion asks
+for an absolute constant $c$ with $|A||B|\le cN^2/\log N$ for all $N\ge2$.
+Erdős's printings use $1\le a_1<\dots<a_k\le n$, $1\le b_1<\dots<b_l\le n$ with
+the products $a_ib_j$ distinct and ask $kl<cn^2/\log n$ (1972, 1973), or
 $kq<cn^2/\log n$ (1969); the 1961 problem takes both sets below
 $\sqrt n$ and asks $xy<cn/\log n$, the same statement with $N=\sqrt n$
-up to the constant. The site's example (the integers up to $N/2$ against
-the primes in $(N/2,N]$) shows the bound is best possible up to the
+up to the constant. The erdosproblems.com example (the integers up to $N/2$
+against the primes in $(N/2,N]$) shows the bound is best possible up to the
 constant; Erdős and Szemerédi's construction (1976, display (6)) gives
 $|A||B|>N^2/\log N-N^2\log\log N/(\log N)^2+o(N^2\log\log N/(\log N)^2)$.
 
-**Status.** The site's label was PROVED (LEAN). The site records the statement
-as true and attributes the proof to Szemerédi [Sz76] (J. Number Theory 8 (1976),
-264--270). The standing derives from the claim pages.
+**Status.** The erdosproblems.com label was PROVED (LEAN). erdosproblems.com
+records the statement as true and attributes the proof to Szemerédi [Sz76] (J.
+Number Theory 8 (1976), 264--270). The standing derives from the claim pages.
 [[problems/integer_sequences/E0490/claims/1972_05_02_szemeredi|Szemerédi's claim]]
-is accepted on the refereed publication and the site's acceptance, and
+is accepted on the refereed publication and erdosproblems.com's acceptance, and
 [[problems/integer_sequences/E0490/claims/1974_12_01_erdos_szemeredi|the Erdős--Szemerédi claim]]
 is accepted on its refereed publication. So the problem is solved, proved. What
 the label's suffix (LEAN) refers to is set out under Formalization and the Lean
@@ -67,8 +66,8 @@ argument "the surprisingly simple proof of (2)". A second proof is Theorem 1 of
 Erdős and Szemerédi, *On multiplicative representations of integers*, J.
 Austral. Math. Soc. Ser. A 21 (1976), 418--427 (refereed; printed p. 421). It
 proves the statement, $kl<cx^2/\log x$, by "a simpler proof of (4), which
-nevertheless uses many of the ideas of the original proof". The site's
-discussion thread links it.
+nevertheless uses many of the ideas of the original proof". The
+erdosproblems.com discussion thread links it.
 
 The limit question Erdős asked next is open: whether $\max|A||B|\log N/N^2$
 converges, and to what. [Sz76] records only the hope to investigate whether the
@@ -145,32 +144,33 @@ attribute naming `src/latest/ErdosProblems/Erdos490.lean` in
 records Erdős's limit question under `category research open`. No file for
 this problem existed on 2026-09-18. The community database (snapshot of
 2026-10-06) records the problem proved with Lean and `formal_status` Lean
-since 22 May 2026 and the statement formalized since 19 September 2026. The
-site's (LEAN) suffix is a catalog label; the two external developments, the
-file the attribute names and the file the site's thread links, are described
-under "Formalization and the Lean label" below; neither was built here.
+since 22 May 2026 and the statement formalized since 19 September 2026.
+erdosproblems.com's (LEAN) suffix is a catalog label; the two external
+developments, the file the attribute names and the file the erdosproblems.com
+thread links, are described under "Formalization and the Lean label" below;
+neither was built here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; PROVED
-(LEAN), last edited 28 December 2025. The commentary makes four points: the
-bound would be best possible, the pair $A=[1,N/2]\cap\mathbb N$,
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; PROVED (LEAN), last edited 28 December 2025. The commentary makes four
+points: the bound would be best possible, the pair $A=[1,N/2]\cap\mathbb N$,
 $B=\{N/2<p\le N:p\text{ prime}\}$ being the example; the statement holds and
 Szemerédi [Sz76] proved it; in [Er72] Erdős went on to ask whether
 $\lim_{N\to\infty}\max_{A,B\subseteq[N]}|A||B|\log N/N^2$ exists and what its
 value is; and, after van Doorn's comments on Problem 896, the limit is at
 least $1$ if it exists. Problems 425 and 896 are cross-referenced. The thread,
-oldest first: a comment of 17 May 2026 (the account Woett, whom the site names
-as Wouter van Doorn) linking a Lean formalization of Szemerédi's result with
-the explicit constant $60$ for large $n$, which the comment describes as an
-improved version of Szemerédi's proof written up by ChatGPT (the file's header
-names ChatGPT 5.5 Pro) and then formalized by Aristotle, resting on four added
-axioms, all explicit prime bounds taken from Dusart; a reply of the same day
-by the site's curator, Thomas Bloom, asking whether the state of knowledge is
-$1\le c\le\approx55$; a comment of the same day (Woett) that the natural guess
-is $|A||B|\le(1+o(1))n^2/\log n$, that Erdős and Szemerédi's 1976 paper
-(linked from the Rényi archive) gives a shorter proof and explicitly
-conjectures the constant $1$, even suggesting
+oldest first: a comment of 17 May 2026 (the account Woett, whom
+erdosproblems.com names as Wouter van Doorn) linking a Lean formalization of
+Szemerédi's result with the explicit constant $60$ for large $n$, which the
+comment describes as an improved version of Szemerédi's proof written up by
+ChatGPT (the file's header names ChatGPT 5.5 Pro) and then formalized by
+Aristotle, resting on four added axioms, all explicit prime bounds taken from
+Dusart; a reply of the same day by the erdosproblems.com curator, Thomas Bloom,
+asking whether the state of knowledge is $1\le c\le\approx55$; a comment of the
+same day (Woett) that the natural guess is $|A||B|\le(1+o(1))n^2/\log n$, that
+Erdős and Szemerédi's 1976 paper (linked from the Rényi archive) gives a shorter
+proof and explicitly conjectures the constant $1$, even suggesting
 $|A||B|\le n^2/\log n-(1-\epsilon)n^2\log\log n/\log^2n$, and recording their
 two structural questions (whether an extremal pair splits the primes into two
 classes; whether two disjoint classes of primes always give
@@ -203,8 +203,8 @@ $1\le b_1<\dots<b_l\le y$ be two sequences of integers. Assume that the
 products $a_ib_j$ are all distinct. Is it true that $kl<cx^2/\log x$?"
 (with "$\le y$" as printed).
 
-**Status support.** The status-defining source the site names, [Sz76], is
-paged as
+**Status support.** The status-defining source erdosproblems.com names, [Sz76],
+is paged as
 [[../library/integer_sequences/szemeredi_1976_problem_p_erdos/main_theorem|main theorem]]:
 the abstract quoted under Status (p. 264), the body's problem "Let
 $1\le a_1<\cdots<a_k\le n$ and $b_1<\cdots<b_l\le n$ be two sequences of
@@ -239,20 +239,20 @@ and Mertens to Lemma 2 and the closing count); the comparison is at that level
 only. Acceptance evidence, recorded on the two claim pages: the two refereed
 journal publications ([Sz76], J. Number Theory, communicated by P. Erdős,
 received 2 May 1972, revised 10 April 1973; [ErSz76], J. Austral. Math. Soc.,
-received 1 December 1974) and the site's acceptance of Szemerédi's theorem.
-The exact maxima of A397205 for $n\le39$ (not verified here) are context only;
-finite values do not bear on an asymptotic bound. Read depth: claims checked
-for the statement and the constant of [Sz76] and for Theorem 1, the conjecture
-(5) and the construction (6) of [ErSz76]; the origins claims checked against
-the printed pages.
+received 1 December 1974) and erdosproblems.com's acceptance of Szemerédi's
+theorem. The exact maxima of A397205 for $n\le39$ (not verified here) are
+context only; finite values do not bear on an asymptotic bound. Read depth:
+claims checked for the statement and the constant of [Sz76] and for Theorem 1,
+the conjecture (5) and the construction (6) of [ErSz76]; the origins claims
+checked against the printed pages.
 
 **The limit and the constant (open; leads).** Erdős's question (2) of 1972
-asks whether $\max_{A,B}|A||B|\log N/N^2$ converges. Known: the site's example
-gives $|A||B|\sim N^2/(4\log N)$, which shows that the order is sharp but
-bounds the limit inferior only by $1/4$. The limit inferior is at least $1$ by
-the construction (1) of [Sz76] (p. 264: the $a$'s the primes in
-$(n/\log n,n)$, the $b$'s the integers up to $n$ not divisible by any $a$) and
-by the construction (6) of [ErSz76] (the $a$'s the primes in $(x/t,x)$, the
+asks whether $\max_{A,B}|A||B|\log N/N^2$ converges. Known: the
+erdosproblems.com example gives $|A||B|\sim N^2/(4\log N)$, which shows that the
+order is sharp but bounds the limit inferior only by $1/4$. The limit inferior
+is at least $1$ by the construction (1) of [Sz76] (p. 264: the $a$'s the primes
+in $(n/\log n,n)$, the $b$'s the integers up to $n$ not divisible by any $a$)
+and by the construction (6) of [ErSz76] (the $a$'s the primes in $(x/t,x)$, the
 $b$'s the integers up to $x$ with all prime factors at most $x/t$,
 $t=\log x\,(1+o(1))$), and [ErSz76] conjectured (5) $kl\le(1+o(1))x^2/\log x$,
 saying of (6) "Conceivably it is best possible, but we have no evidence for
@@ -266,33 +266,33 @@ valuation $2\bmod3$; the commenter attributes the example to ChatGPT, reports
 that similar constructions reach a constant a little above $1.06$, and doubts
 that the limit can be determined. Nothing about the construction was checked
 here; it refutes conjecture (5) if correct, and does not affect the status of
-the problem, whose statement has an absolute constant. The site's remark that
-the limit, if it exists, is at least $1$ is a forum observation on Problem 896
-recorded by the site. The Lean development of 17 May 2026 proves the bound
-with the constant $60$ for large $n$ (below), and a "blueprint" PDF in the
-same author's repository claims $54.43$; the exact maxima for $n\le39$ are in
-A397205. Erdős's further question in [Er72], to estimate the number of
-integers with exactly one representation $a_ib_j$, is Problem 896 and not this
-problem.
+the problem, whose statement has an absolute constant. The erdosproblems.com
+remark that the limit, if it exists, is at least $1$ is a forum observation on
+Problem 896 recorded by erdosproblems.com. The Lean development of 17 May 2026
+proves the bound with the constant $60$ for large $n$ (below), and a "blueprint"
+PDF in the same author's repository claims $54.43$; the exact maxima for
+$n\le39$ are in A397205. Erdős's further question in [Er72], to estimate the
+number of integers with exactly one representation $a_ib_j$, is Problem 896 and
+not this problem.
 
-**Formalization and the Lean label.** The site's (LEAN) suffix is a catalog
-label, which the community database records since 22 May 2026. At that date
-the Lean development on record was the thread's file of 17 May 2026, mirrored
-in `plby/lean-proofs` from 19 May, which rests on four declared axioms. The
-formal-conjectures file above, added on 19 September 2026, names the later
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
+catalog label, which the community database records since 22 May 2026. At that
+date the Lean development on record was the thread's file of 17 May 2026,
+mirrored in `plby/lean-proofs` from 19 May, which rests on four declared axioms.
+The formal-conjectures file above, added on 19 September 2026, names the later
 axiom-free version of the second file as its proof. Two external developments
 exist, both linked from Szemerédi's claim page as formalizations of the
-theorem. The first, the one the site's thread names, is `ErdosProblem490.lean`
-in the repository `Woett/Lean-files`, linked from the claim page at the
-repository's head of 10 September 2026 (the file last changed on 17 May 2026;
-232,045 bytes, 3,029 lines). Its header says it formalizes Szemerédi's theorem
-with the explicit constant $60$ for sufficiently large $n$, from an improved
-version of Szemerédi's original argument written down by ChatGPT 5.5 Pro and
-formalized by Aristotle (the systems as the header names them; the thread
-comment says ChatGPT and Aristotle), in Lean `v4.28.0`. It declares four
-axioms, the explicit prime estimates of Dusart (Ramanujan J. 45 (2018),
-227--251): the Mertens product estimate for $x\ge2278382$, the lower bound
-$\pi(x)\ge x/\log x+x/\log^2x+2x/\log^3x$ for $x\ge88789$, the upper bound
+theorem. The first, the one the erdosproblems.com thread names, is
+`ErdosProblem490.lean` in the repository `Woett/Lean-files`, linked from the
+claim page at the repository's head of 10 September 2026 (the file last changed
+on 17 May 2026; 232,045 bytes, 3,029 lines). Its header says it formalizes
+Szemerédi's theorem with the explicit constant $60$ for sufficiently large $n$,
+from an improved version of Szemerédi's original argument written down by
+ChatGPT 5.5 Pro and formalized by Aristotle (the systems as the header names
+them; the thread comment says ChatGPT and Aristotle), in Lean `v4.28.0`. It
+declares four axioms, the explicit prime estimates of Dusart (Ramanujan J. 45
+(2018), 227--251): the Mertens product estimate for $x\ge2278382$, the lower
+bound $\pi(x)\ge x/\log x+x/\log^2x+2x/\log^3x$ for $x\ge88789$, the upper bound
 $\pi(x)\le x/\log x+x/\log^2x+2.53816\,x/\log^3x$ for $x>1$, and
 $|\psi(x)-x|<1.66\,x/\log^2x$ for $x\ge2$; it proves
 `theorem main_theorem : ∃ N₀ : ℕ, ∀ n : ℕ, N₀ ≤ n → ∀ A B : Finset ℕ, A ⊆ Finset.Icc 1 n → B ⊆ Finset.Icc 1 n → (∀ a₁ ∈ A, ∀ b₁ ∈ B, ∀ a₂ ∈ A, ∀ b₂ ∈ B, a₁ * b₁ = a₂ * b₂ → a₁ = a₂ ∧ b₁ = b₂) → A.card * B.card < 60 * n ^ 2 / Real.log n`,
@@ -324,9 +324,9 @@ and neither file is acceptance evidence.
 dispute of the theorem or a determination of the limit; [Sz76] is open
 access in the publisher's archive (References).
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and full tree of 2026-09-18 (no file
-  for this problem); the community database as of 2026-09-18.
+  for this problem); the community database, read 2026-09-18.
 - The publisher's open archive for [Sz76] (the DOI and its landing page);
   the Crossref records of [Sz76] and [ErSz76]; the Rényi archive for
   [ErSz76] (pp. 418, 420--421).

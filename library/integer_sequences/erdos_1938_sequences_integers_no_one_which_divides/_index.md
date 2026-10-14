@@ -103,8 +103,8 @@ $F(n)=\pi(n)+(c+o(1))n^{3/4}(\log n)^{-3/2}$ for a constant $c$.
 [[../wiki/problems/extremal_graph_theory/E0572/_index|#572]],
 [[../wiki/problems/extremal_graph_theory/E0765/_index|#765]]: the p. 78 bipartite
 C_4-free bound and Klein's p. 79 lemma (a projective plane of prime order),
-the site's [Er38] for ex(n;C_4) ≍ n^{3/2}; for #572 this is the case k = 2
-that the problem's wording excludes.
+erdosproblems.com's [Er38] for ex(n;C_4) ≍ n^{3/2}; for #572 this is the case
+k = 2 that the problem's wording excludes.
 [[../wiki/problems/integer_sequences/E0793/_index|#793]]: Section 1, printed pp. 74--77
 (PDF pp. 1--4), the theorem that an A sequence has fewer than
 $\pi(n)+O(n^{2/3}/(\log n)^2)$ members up to $n$, with Lemmas I and II and

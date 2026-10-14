@@ -28,40 +28,39 @@ $$
 M(n,k) \neq M(m,k)?
 $$
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 30
-September 2025). The blocks $\{n+1,\ldots,n+k\}$ and
-$\{m+1,\ldots,m+k\}$ are disjoint when $m\ge n+k$, and the question is
-whether their least common multiples always differ; $k$ ranges over all
-positive integers (the formal statement below takes $k>0$). For $k=1$ and
-$k=2$ the answer is trivially yes, since $M(n,1)=n+1$ and $M(n,2)=(n+1)(n+2)$
-increase with $n$. Erdős's 1979 wording (Math. Mag., item 2, printed p. 67)
-conjectures $M(n;k)\ne M(m;k)$ for $m\ge n+k$ and, more
-generally, $M(n;k)\ne M(m;l)$ for $l\ge k$ and $m\ge n+k$, expects the
-equation $M(n;k)=M(m;l)$ to have very few solutions when $m\ge n+k$ and
-$l>1$, gives the two he knew, and conjectures the same for the products
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited
+30 September 2025). The blocks $\{n+1,\ldots,n+k\}$ and $\{m+1,\ldots,m+k\}$ are
+disjoint when $m\ge n+k$, and the question is whether their least common
+multiples always differ; $k$ ranges over all positive integers (the formal
+statement below takes $k>0$). For $k=1$ and $k=2$ the answer is trivially yes,
+since $M(n,1)=n+1$ and $M(n,2)=(n+1)(n+2)$ increase with $n$. Erdős's 1979
+wording (Math. Mag., item 2, printed p. 67) conjectures $M(n;k)\ne M(m;k)$ for
+$m\ge n+k$ and, more generally, $M(n;k)\ne M(m;l)$ for $l\ge k$ and $m\ge n+k$,
+expects the equation $M(n;k)=M(m;l)$ to have very few solutions when $m\ge n+k$
+and $l>1$, gives the two he knew, and conjectures the same for the products
 $A(n;k)=\prod_{i\le k}(n+i)$; the passage is quoted under Current
-assessment. The site's source keys are
+assessment. The erdosproblems.com source keys are
 [Er79], [Er79d] and [ErGr80], with [Gu04] cited in the commentary.
 
-**Status.** The site's label was Open. No proof or disproof of the same-$k$
-conjecture was found in the search whose scope the Current assessment records.
-This is a bounded negative finding, not a certificate of openness.
+**Status.** The erdosproblems.com label was Open. No proof or disproof of the
+same-$k$ conjecture was found in the search whose scope the Current assessment
+records. This is a bounded negative finding, not a certificate of openness.
 
-The record holds the following. The 1980 monograph (p. 76) remarks, and the site
-repeats, that the Thue–Siegel theorem gives only finitely many pairs $m\ge n+k$
-with $M(n,k)=M(m,k)$ for each fixed $k$. The monograph states this without proof
-or reference. Erdős gave two solutions of the general equation $M(n,k)=M(m,l)$
-with $l\ne k$: $M(4,3)=M(13,2)=210$ and $M(3,4)=M(19,2)=420$. Further solutions
-were posted in the thread in 2026: $M(8,4)=M(43,2)=1980$,
-$M(153,3)=M(1363,2)=1861860$ and the padded forms $M(n,7-n)=M(19,2)$ for $n\le2$
-(all recomputed here). In 1979 ([Er79d]) Erdős asked a stronger question:
-whether two disjoint blocks of $k>2$ consecutive integers can have products with
-the same set of prime factors more than finitely often. A forum repository of
-prover-generated Lean lemmas is a lead.
+The record holds the following. The 1980 monograph (p. 76) remarks, and
+erdosproblems.com repeats, that the Thue–Siegel theorem gives only finitely many
+pairs $m\ge n+k$ with $M(n,k)=M(m,k)$ for each fixed $k$. The monograph states
+this without proof or reference. Erdős gave two solutions of the general
+equation $M(n,k)=M(m,l)$ with $l\ne k$: $M(4,3)=M(13,2)=210$ and
+$M(3,4)=M(19,2)=420$. Further solutions were posted in the thread in 2026:
+$M(8,4)=M(43,2)=1980$, $M(153,3)=M(1363,2)=1861860$ and the padded forms
+$M(n,7-n)=M(19,2)$ for $n\le2$ (all recomputed here). In 1979 ([Er79d]) Erdős
+asked a stronger question: whether two disjoint blocks of $k>2$ consecutive
+integers can have products with the same set of prime factors more than finitely
+often. A forum repository of prover-generated Lean lemmas is a lead.
 
 **Source.** [erdosproblems.com/677](https://www.erdosproblems.com/677),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can settle it; last edited 30 September 2025; header
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; last edited 30 September 2025; header
 keys [Er79], [Er79d], [ErGr80]; commentary citing
 [Gu04] and Problems 678, 686 and 850), its eight-comment discussion thread
 (31 March to 2 April 2026) and its empty proof-claim tab. Cite as: T. F.
@@ -82,7 +81,7 @@ Bloom, Erdős Problem #677, https://www.erdosproblems.com/677, accessed
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
   28 (1980); printed p. 76: the same-length conjecture with the Thue–Siegel
-  finiteness remark; the site gives no page. Library home:
+  finiteness remark; erdosproblems.com gives no page. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
   (the card also locates the product question on printed p. 74).
 - [Gu04] Guy, R. K., Unsolved Problems in Number Theory, 3rd ed. Problem
@@ -121,12 +120,12 @@ December 2025, `formal_status` unformalized, no formal proof and OEIS
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-OPEN, with the site's note that no finite computation can settle
-it, last edited 30 September 2025. The commentary, in this page's words:
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it, last edited 30 September 2025. The commentary, in this page's words:
 the Thue–Siegel theorem leaves, for each fixed $k$, finitely many disjoint
-pairs of blocks with equal least common multiple; the site then asks for
-the number of solutions of the mixed-length equation $M(n,k)=M(m,l)$ with
+pairs of blocks with equal least common multiple; erdosproblems.com then asks
+for the number of solutions of the mixed-length equation $M(n,k)=M(m,l)$ with
 $m\ge n+k$ and $l>1$, which Erdős expected to be very small, with none at
 all once $l\ge k$, his only examples being $M(4,3)=M(13,2)$ and
 $M(3,4)=M(19,2)$; it records the stronger question of [Er79d], whether two
@@ -174,12 +173,12 @@ conjecture of Erdős asserts that if $x+n\le y$ then
 $\mathrm{lcm}(x+1,\ldots,x+n)\ne\mathrm{lcm}(y+1,\ldots,y+n)$. It follows
 from the Thue-Siegel theorem that for $n$ fixed,
 $\mathrm{lcm}(x+1,\ldots,x+n)=\mathrm{lcm}(y+1,\ldots,y+n)$ has only
-finitely many solutions in $x$ and $y$", the source of the site's remark;
-the monograph gives no proof or reference for it. Guy's B35 [Gu04],
+finitely many solutions in $x$ and $y$", the source of the erdosproblems.com
+remark; the monograph gives no proof or reference for it. Guy's B35 [Gu04],
 printed p. 138, states the conjecture in the finiteness form "for $l>1$,
 $n\ge m+k$, $L(m;k)=L(n;l)$ has only a finite number of solutions", weaker
-than the site's same-$k$ inequality, with the two examples and no proof or
-further result. None of the four sources proves anything on the conjecture.
+than erdosproblems.com's same-$k$ inequality, with the two examples and no proof
+or further result. None of the four sources proves anything on the conjecture.
 
 **What is known (a bounded map).** For the same-$k$ question: nothing
 beyond the trivial cases $k\le2$ and the finiteness remark for each fixed
@@ -218,7 +217,7 @@ $n(n+1)\cdots(n+k)/\operatorname{lcm}(n,\ldots,n+k)$ and is context only.
 disproof, further solution of the same-$k$ equation, or a paper on the
 conjecture.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `677.lean` at the pinned commit; the community
   database (2026-09-18); the thread's repository (contents, README and
   declarations file) through the GitHub API.

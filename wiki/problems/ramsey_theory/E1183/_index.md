@@ -33,13 +33,13 @@ closed under taking unions. Estimate $F(n)$. In particular, is it true that
 $F(n)\geq n^{\omega(n)}$ for some $\omega(n)\to \infty$ as $n\to \infty$, and
 $F(n)<(1+o(1))^n$?
 
-**Formulation.** The site's wording (the page shows no last-edited date). All
-$2^n$ subsets are colored (Erdős: "Split the $2^n$ subsets of $S$ into two
-classes"). A family closed under unions and intersections is a sublattice of the
-Boolean lattice; the $F$ question asks only for closure under unions. Erdős's
-printed conjectures (1978, p. 39) are "$F(n)>n^c$ for every $c$ if $n>n_0(c)$"
-and "$F(n)<(1+\varepsilon)^n$ for every $\varepsilon>0$ if
-$n>n_0(\varepsilon)$"; the site's $F(n)\ge n^{\omega(n)}$ with
+**Formulation.** The erdosproblems.com wording (the page shows no last-edited
+date). All $2^n$ subsets are colored (Erdős: "Split the $2^n$ subsets of $S$
+into two classes"). A family closed under unions and intersections is a
+sublattice of the Boolean lattice; the $F$ question asks only for closure under
+unions. Erdős's printed conjectures (1978, p. 39) are "$F(n)>n^c$ for every $c$
+if $n>n_0(c)$" and "$F(n)<(1+\varepsilon)^n$ for every $\varepsilon>0$ if
+$n>n_0(\varepsilon)$"; erdosproblems.com's $F(n)\ge n^{\omega(n)}$ with
 $\omega(n)\to\infty$ and $F(n)<(1+o(1))^n$ are the same two statements in
 another notation (a remark made here). The two "in particular" questions ask
 whether $F(n)$ is superpolynomial and whether it is subexponential;
@@ -50,24 +50,24 @@ statement was found in the search whose scope the Current assessment records,
 beyond a forum-posted AI-assisted manuscript and a posted chat record of
 March 2026. This is a bounded negative finding, not a certificate of openness. A
 partial proof claim of 30 September 2026, with the authors' own Lean
-development, was listed on the site's tab on 5 October 2026. Chojecki's
-manuscript and that claim have claim pages below. The March chat record is
-described in the Current assessment without a claim page, since a thread post
-without a dated manuscript gets none. All three report partial results on the
-two "in particular" questions, so the derived standing stays open. The only
-bounds verified here are two from the origin. One is the trivial
+development, was listed on the erdosproblems.com tab on 5 October 2026.
+Chojecki's manuscript and that claim have claim pages below. The March chat
+record is described in the Current assessment without a claim page, since a
+thread post without a dated manuscript gets none. All three report partial
+results on the two "in particular" questions, so the derived standing stays
+open. The only bounds verified here are two from the origin. One is the trivial
 $f(n)\ge(n+1)/2$. The other is the origin's Theorem 2, which bounds the number
 of generators with distinct monochromatic unions by $(1+o(1))\log_2n$, and not
 $F(n)$ itself.
 
 **Source.** [erdosproblems.com/1183](https://www.erdosproblems.com/1183),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can settle it; source key [Er78, p. 39]; no last-edited
-date shown), its ten-comment discussion thread (all of 18 March 2026) and its
-empty proof-claim tab; by 2026-10-06 the thread had eleven comments and the
-tab one partial claim, the label and the commentary unchanged. Cite as: T. F.
-Bloom, Erdős Problem #1183, https://www.erdosproblems.com/1183, accessed
-2026-09-18.
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; source key [Er78, p. 39]; no
+last-edited date shown), its ten-comment discussion thread (all of 18
+March 2026) and its empty proof-claim tab; by 2026-10-06 the thread had eleven
+comments and the tab one partial claim, the label and the commentary unchanged.
+Cite as: T. F. Bloom, Erdős Problem #1183, https://www.erdosproblems.com/1183,
+accessed 2026-09-18.
 
 **References.**
 
@@ -92,26 +92,26 @@ directory [`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmin
 673 entries, was listed in full), and the community database
 ([teorth/erdosproblems](https://github.com/teorth/erdosproblems/blob/5466d4a29b4971ce39df3a41e3b618d853d3ec3a/data/problems.yaml))
 records the problem open (last updated 7 March 2026), not formalized, with no
-formal proof. The site's "Formalised statement?" indicator reads "No". The
-authors of the partial claim of 30 September 2026 publish their own Lean 4
+formal proof. erdosproblems.com's "Formalised statement?" indicator reads "No".
+The authors of the partial claim of 30 September 2026 publish their own Lean 4
 development, linked on its claim page below; it was not built or audited here
 and is no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; OPEN; no last-edited
-date. The commentary attributes the problem to Erdős and Ulam, records the
-trivial $f(n)\ge\frac{n+1}2$ from a chain of $n+1$ nested subsets, says this
-appears to be all they knew, repeats from [Er78] Erdős's admission that he and
-Ulam could not guess the order of magnitude of $f(n)$ (his sentence is quoted
-under Origin below), adds that they had no better guess for $F(n)$, and
-reports from [Er78] Howorka's unreferenced theorem that $F(n)>n^{\omega(n)}$
+**The question (erdosproblems.com formulation).** The statement above; OPEN; no
+last-edited date. The commentary attributes the problem to Erdős and Ulam,
+records the trivial $f(n)\ge\frac{n+1}2$ from a chain of $n+1$ nested subsets,
+says this appears to be all they knew, repeats from [Er78] Erdős's admission
+that he and Ulam could not guess the order of magnitude of $f(n)$ (his sentence
+is quoted under Origin below), adds that they had no better guess for $F(n)$,
+and reports from [Er78] Howorka's unreferenced theorem that $F(n)>n^{\omega(n)}$
 for some $\omega(n)\to\infty$ when all subsets of one size receive the same
-color. As of 2026-09-18 the thread's ten comments (18 March 2026) concerned
-the AI-assisted manuscript and chat record below, the site's commentary did
-not mention them, and the proof-claim tab was empty; the partial claim listed
-on the tab in October 2026 is also below. The community database record of
-2026-09-18 says open and not formalized.
+color. On 2026-09-18 the thread's ten comments (18 March 2026) concerned
+the AI-assisted manuscript and chat record below, the erdosproblems.com
+commentary did not mention them, and the proof-claim tab was empty; the partial
+claim listed on the tab in October 2026 is also below. The community database
+record of 2026-09-18 says open and not formalized.
 
 **Origin.** Section 6 of [Er78], "Work with Ulam and Selfridge" (heading
 printed p. 35), reaches the problem on printed p. 39. Erdős presents it as a
@@ -143,12 +143,12 @@ and $n>n_0(c)$. No reference is given for Howorka or for Rado and Sanders. The
 $2^n$ subsets include the empty set in the problem's statement, while the
 count in the proof of Theorem 2 excludes it.
 
-**What is proved.** From [Er78]: $f(n)\ge\lceil(n+1)/2\rceil$ (the chain; the
-site prints $(n+1)/2$), hence $F(n)\ge\lceil(n+1)/2\rceil$; and Theorem 2, a
-coloring under which no $k>(1+\varepsilon)\log_2n$ sets have all their
-nonempty unions distinct and of one color. Theorem 2 bounds the "free rank" of
-a monochromatic union-closed family, the largest number of members with all
-nonempty unions distinct, not its size: a union-closed family can be large
+**What is proved.** From [Er78]: $f(n)\ge\lceil(n+1)/2\rceil$ (the chain;
+erdosproblems.com prints $(n+1)/2$), hence $F(n)\ge\lceil(n+1)/2\rceil$; and
+Theorem 2, a coloring under which no $k>(1+\varepsilon)\log_2n$ sets have all
+their nonempty unions distinct and of one color. Theorem 2 bounds the "free
+rank" of a monochromatic union-closed family, the largest number of members with
+all nonempty unions distinct, not its size: a union-closed family can be large
 while its free rank is small (a chain of any length has free rank $1$), so
 Theorem 2 alone bounds no size; Chojecki's manuscript reaches a size bound
 only by adding a Sauer--Shelah step. So no upper bound on $F(n)$ or $f(n)$
@@ -162,7 +162,7 @@ identified, so it is second-hand from [Er78].
 The thread of 18 March 2026 carries two reports of partial results and the
 proof-claim tab one partial claim listed in October 2026, each obtained with AI
 assistance according to its authors (the systems are named below) and none
-accepted by the site or by a named mathematician:
+accepted by erdosproblems.com or by a named mathematician:
 
 - A nine-page manuscript by P. Chojecki dated 18 March 2026, hosted at ulam.ai
   and linked in the first comment, obtained with GPT-5.4 Pro according to the
@@ -197,15 +197,15 @@ accepted by the site or by a named mathematician:
   orders of $F(n)$ and $f(n)$ stay open. If it holds, both "in particular"
   questions have the answer yes. Its claim page rests on the repository's
   README and file listing and the Zenodo and arXiv records; nothing was built
-  or audited, the site's label was unchanged (OPEN), and nothing here depends
-  on it.
+  or audited, the erdosproblems.com label was unchanged (OPEN), and nothing here
+  depends on it.
 
 **Search scope.** None of the routes below found a
 refereed result on either function, a disproof, or a proof claim on the
-site's tab.
+erdosproblems.com tab.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures of 2026-09-18 (no file for this
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing of formal-conjectures of 2026-09-18 (no file for this
   problem); the community database of 2026-09-18.
 - The primary source: [Er78], printed pp. 35 and 39--40.
 - arXiv: the API queries `abs:"union-closed"` with `abs:monochromatic`,
@@ -223,12 +223,12 @@ remark.
 **Remaining gaps.** (1) Nothing proved bounds $F(n)$ or $f(n)$ from above
 below $2^n$, and nothing bounds them from below beyond the chain; both
 estimates and both "in particular" questions are open as far as refereed or
-site-accepted sources go. (2) The two 2026 manuscripts and the chat record are
-unreviewed and AI-assisted; Chojecki's would answer the subexponential
-question yes and the Bhattacharjee--Mandal--Bhattacharya preprint both
-questions. (3) Howorka's theorem and the Rado--Sanders result rest on [Er78]'s
-unreferenced attributions. (4) Theorem 2 is compiled as a statement; its
-half-page counting proof is not checked line by line.
+erdosproblems.com-accepted sources go. (2) The two 2026 manuscripts and the chat
+record are unreviewed and AI-assisted; Chojecki's would answer the
+subexponential question yes and the Bhattacharjee--Mandal--Bhattacharya preprint
+both questions. (3) Howorka's theorem and the Rado--Sanders result rest on
+[Er78]'s unreferenced attributions. (4) Theorem 2 is compiled as a statement;
+its half-page counting proof is not checked line by line.
 
 <!-- BEGIN problem library links -->
 

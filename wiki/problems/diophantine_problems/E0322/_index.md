@@ -69,8 +69,8 @@ $9^{-1/3}N^{1/12}$ ways, so $1_A^{(3)}(n)>n^c$ holds for infinitely many $n$
 for every $c<1/12$
 ([[problems/diophantine_problems/E0322/claims/1936_04_01_mahler|its claim page]]).
 The order of growth for $k=3$ and both questions for $k\ge4$ are open; the
-site's commentary records Erdős's belief that Hypothesis K fails for every
-$k\ge4$. The bound $1_A^{(k)}(n)\gg n^{c/\log\log n}$ for infinitely many
+erdosproblems.com commentary records Erdős's belief that Hypothesis K fails for
+every $k\ge4$. The bound $1_A^{(k)}(n)\gg n^{c/\log\log n}$ for infinitely many
 $n$, proved independently by Erdős [Er36] and Chowla for every $k\ge3$, is
 smaller than every fixed power of $n$, so it settles no instance of the
 second question and has no claim page.

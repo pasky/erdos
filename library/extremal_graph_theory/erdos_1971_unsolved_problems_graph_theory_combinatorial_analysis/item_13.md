@@ -35,7 +35,7 @@ whose pp. 16--17 write out the example and state the conjecture
 ([[extremal_graph_theory/erdos_1969_uber_die_graphen_enthaltenen_saturierten_planaren/conjecture_p17|conjecture_p17]]);
 [34] (p. 109) is Erdős, *On extremal problems of graphs and generalized
 graphs*, Israel J. Math. 2, 183--190, listed under the year 1969: the 1964 paper
-the catalog keys Er64f (the year is misprinted), which the 1969 paper cites
+Bloom's catalog keys Er64f (the year is misprinted), which the 1969 paper cites
 for the methods of its Satz 5. Neither reference is a paper of Simonovits.
 The displays were read on a 300 dpi crop.
 
@@ -55,8 +55,8 @@ Simonovits is a printed attestation without a reference to a text by Simonovits.
 ## Proof pointer
 
 None in the paper. The attested proof is Simonovits's PhD thesis (Chapter 9,
-per the catalog's discussion thread), unpublished and not held; the
-catalog's Problem 1019 records the state of the evidence.
+per the erdosproblems.com discussion thread), unpublished and not held;
+erdosproblems.com's Problem 1019 records the state of the evidence.
 
 ## Dependencies
 
@@ -64,8 +64,9 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1019/_index|Problem 1019]]: the site's source
-  passage ([Er71, p. 102]); the site's statement is the conjecture with
-  $\lfloor n^2/4\rfloor+\lfloor\tfrac{n+1}2\rfloor$ edges, its commentary
-  quotes "easy to construct", and its `proved` label rested on the last
-  sentence together with the thread's account of the thesis.
+- [[../wiki/problems/extremal_graph_theory/E1019/_index|Problem 1019]]: the
+  erdosproblems.com source passage ([Er71, p. 102]); the erdosproblems.com
+  statement is the conjecture with
+  $\lfloor n^2/4\rfloor+\lfloor\tfrac{n+1}2\rfloor$ edges, its commentary quotes
+  "easy to construct", and its `proved` label rested on the last sentence
+  together with the thread's account of the thesis.

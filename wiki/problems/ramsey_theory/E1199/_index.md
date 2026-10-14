@@ -3,9 +3,9 @@ name: problems/ramsey_theory/E1199
 title: Problem 1199
 desc: |
   Asks whether every two-coloring of $\mathbb{N}$ admits an infinite set whose
-  pairwise sums, doubles included, share one color (Owings's question). The site
-  listed it as open, the analogue for three colors is false, and a proof for two
-  colors is claimed.
+  pairwise sums, doubles included, share one color (Owings's question).
+  erdosproblems.com listed it as open, the analogue for three colors is false,
+  and a proof for two colors is claimed.
 tags:
 - Additive combinatorics
 - Ramsey theory
@@ -26,33 +26,34 @@ updated: 2026-10-08T14:06:00Z
 **Statement.** Is it true that in any $2$-colouring of $\mathbb{N}$ there exists
 an infinite set $A$ such that all elements of $A+A$ are the same colour?
 
-**Formulation.** The site's wording; the site's page shows no last-edited date.
-Here $A+A=\{a+b:a,b\in A\}$ includes the doubles $2a$; without them, for the
-pairwise sums of distinct elements, every finite coloring has such an $A$:
-Leader and Williams derive this from Ramsey's theorem, and the site's commentary
-from Hindman's theorem ([[problems/ramsey_theory/E0532/_index|Problem 532]]).
-Owings's original wording ([Ow74], Amer. Math. Monthly problem E 2494, p. 902;
-the quotation in [HLSXXZ26], p. 1, agrees with it): "Prove or disprove: Given
-any subset $B$ of $N$, there exists an infinite set $A\subseteq N$ such that
-$A+A\subseteq B$ or $A+A\subseteq N\setminus B$", where the print's $N$ is the
-set of natural numbers, with $A+A$ defined on the same page as the set of sums
-$a_1+a_2$, $a_1,a_2\in A$, so that the doubles are included; the proposal is
-posed to prove or disprove and states no expected answer. Erdős's versions ask
-for an infinite sequence with "all the sums $x_i+x_j$ ($i=j$ permitted)" in one
-class ([Er77c], p. 58; [Er80], p. 104, writes the sums as $a_i+a_j$). Hindman's
-form ([Hi79], p. 19) asks the same for $r$ cells: "Must there exist some $i<r$
-and some sequence $\langle x_n\rangle_{n<\omega}$ of distinct members of $N$
-such that $x_m+x_n\in A_i$ whenever $\{m,n\}\subseteq\omega$?" The site's
+**Formulation.** The erdosproblems.com wording; the erdosproblems.com page shows
+no last-edited date. Here $A+A=\{a+b:a,b\in A\}$ includes the doubles $2a$;
+without them, for the pairwise sums of distinct elements, every finite coloring
+has such an $A$: Leader and Williams derive this from Ramsey's theorem, and the
+erdosproblems.com commentary from Hindman's theorem
+([[problems/ramsey_theory/E0532/_index|Problem 532]]). Owings's original wording
+([Ow74], Amer. Math. Monthly problem E 2494, p. 902; the quotation in
+[HLSXXZ26], p. 1, agrees with it): "Prove or disprove: Given any subset $B$ of
+$N$, there exists an infinite set $A\subseteq N$ such that $A+A\subseteq B$ or
+$A+A\subseteq N\setminus B$", where the print's $N$ is the set of natural
+numbers, with $A+A$ defined on the same page as the set of sums $a_1+a_2$,
+$a_1,a_2\in A$, so that the doubles are included; the proposal is posed to prove
+or disprove and states no expected answer. Erdős's versions ask for an infinite
+sequence with "all the sums $x_i+x_j$ ($i=j$ permitted)" in one class ([Er77c],
+p. 58; [Er80], p. 104, writes the sums as $a_i+a_j$). Hindman's form ([Hi79],
+p. 19) asks the same for $r$ cells: "Must there exist some $i<r$ and some
+sequence $\langle x_n\rangle_{n<\omega}$ of distinct members of $N$ such that
+$x_m+x_n\in A_i$ whenever $\{m,n\}\subseteq\omega$?" The erdosproblems.com
 question is $r=2$, and the answer is no for every $r\ge3$ ([Hi79], p. 19: "It is
-shown in section 2 that the answer is 'no' if $r\ge3$"). The site's source key
-is [Er80, p. 104].
+shown in section 2 that the answer is 'no' if $r\ge3$"). The erdosproblems.com
+source key is [Er80, p. 104].
 
 **Status.** Open. For two colors in general, a preprint of Huang, Lian, Shao,
 Xiao, Xu and Zhang ([HLSXXZ26], arXiv:2607.17333, v3 of 29 July 2026) claims an
 affirmative answer (its Theorem 1.1). No refereed version, independent review or
-citing paper of that claim was found. The site had not adopted it: its label was
-OPEN on 2026-09-18, seven weeks after a thread comment of 1 August 2026 reported
-it. The claim is recorded as a pending full claim on its
+citing paper of that claim was found. erdosproblems.com had not adopted it: its
+label was OPEN on 2026-09-18, seven weeks after a thread comment of 1 August
+2026 reported it. The claim is recorded as a pending full claim on its
 [[problems/ramsey_theory/E1199/claims/2026_07_19_huang_lian_shao_xiao_xu_zhang|claim page]],
 and the frontmatter standing `claimed`, `proved` is derived from it. For the
 two-color statement, the absence of acceptance evidence is a bounded negative
@@ -63,12 +64,12 @@ Ser. A 27 (1979), 19--32, refereed) constructed a three-cell partition with no
 infinite $A$ having $A+A$ monochromatic
 ([[../library/ramsey_theory/hindman_1979_partitions_sums_integers_repetition/theorem_2_4|Theorem 2.4]],
 p. 21, with its proof on pp. 21--23, followed below). The result rests on the
-paper, to which the site, [LeWi24], [HLSXXZ26] and Erdős's 1977 and 1980 surveys
-all attribute it. An external Lean file behind the formal-conjectures variant
-records a different explicit three-coloring, which is checked below by an
-elementary argument. The three-color Theorem 2.4, which the site credits,
-answers a variant and settles no instance of the two-color question, so it has
-no claim page.
+paper, to which erdosproblems.com, [LeWi24], [HLSXXZ26] and Erdős's 1977 and
+1980 surveys all attribute it. An external Lean file behind the
+formal-conjectures variant records a different explicit three-coloring, which is
+checked below by an elementary argument. The three-color Theorem 2.4, which
+erdosproblems.com credits, answers a variant and settles no instance of the
+two-color question, so it has no claim page.
 
 For two colors, the paper itself settles only the admissible partitions. These
 are the partitions with a class containing, for a fixed difference $d$,
@@ -81,9 +82,9 @@ paper closes its § 2 with the conjecture that the restriction can be removed (p
 28).
 
 **Source.** [erdosproblems.com/1199](https://www.erdosproblems.com/1199),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no finite
-computation can settle it; no last-edited date; source key [Er80, p.104];
-commentary citing [Ow74], [Hi79] and Problem 532; indicators "Formalised
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; no last-edited date; source key [Er80,
+p.104]; commentary citing [Ow74], [Hi79] and Problem 532; indicators "Formalised
 statement? Yes" and "OEIS: Possible"), its four-comment discussion thread (three
 comments of 11 April 2026, one of 1 August 2026) and its empty proof-claim tab.
 Cite as: T. F. Bloom, Erdős Problem #1199, https://www.erdosproblems.com/1199,
@@ -93,7 +94,7 @@ accessed 2026-09-18.
 
 - [Ow74] Owings, J. C., Jr., Problem E 2494, in Elementary Problems:
   E2492--E2496. Amer. Math. Monthly 81 (1974), no. 8, 901--902, the problem on
-  p. 902 (the site's and the papers' citation; the Crossref record for
+  p. 902 (erdosproblems.com's and the papers' citation; the Crossref record for
   doi:10.2307/2319455 names the column and its first page, 901). The column
   prints the proposal only, on p. 902, with no solution; no file of it is held.
   Library home:
@@ -168,26 +169,26 @@ Lean file.
 
 ## Current assessment
 
-**The question (the site's formulation).** The statement above; OPEN, with the
-site's note that no finite computation can settle it; no last-edited date. The
-commentary attributes the conjecture to Owings [Ow74], reports that Hindman
-[Hi79] showed it false for three colors, and notes that once the doubles $2a$,
-$a\in A$, are left out, Hindman's theorem gives a positive answer (Problem 532).
-The thread: on 11 April 2026 a commenter proposed coloring $n$ by the parity of
-$v_2(n)$, so that $n$ and $2n$ always differ; the site's author replied that $n$
-and $2n$ need not both lie in $A+A$, and that $A=\{n\equiv1\pmod4\}$ makes all
-of $A+A$ blue in that coloring (checked here: $a+b\equiv2\pmod4$ has
-$v_2(a+b)=1$); the proposer agreed. On 1 August 2026 a comment reported that the
-six authors of [HLSXXZ26] claim an affirmative answer and linked the arXiv
-preprint. No reply and no change of label followed by 18 September 2026. The
-proof-claim tab is empty.
+**The question (the erdosproblems.com formulation).** The statement above; OPEN,
+with the erdosproblems.com note that no finite computation can settle it; no
+last-edited date. The commentary attributes the conjecture to Owings [Ow74],
+reports that Hindman [Hi79] showed it false for three colors, and notes that
+once the doubles $2a$, $a\in A$, are left out, Hindman's theorem gives a
+positive answer (Problem 532). The thread: on 11 April 2026 a commenter proposed
+coloring $n$ by the parity of $v_2(n)$, so that $n$ and $2n$ always differ;
+erdosproblems.com's author replied that $n$ and $2n$ need not both lie in $A+A$,
+and that $A=\{n\equiv1\pmod4\}$ makes all of $A+A$ blue in that coloring
+(checked here: $a+b\equiv2\pmod4$ has $v_2(a+b)=1$); the proposer agreed. On 1
+August 2026 a comment reported that the six authors of [HLSXXZ26] claim an
+affirmative answer and linked the arXiv preprint. No reply and no change of
+label followed by 18 September 2026. The proof-claim tab is empty.
 
 **The origin.** The Monthly proposal
 ([[../library/ramsey_theory/owings_1974_e2494_sumset_within_set_or_complement/problem_e2494|Problem E 2494]]
 of [Ow74], p. 902) poses the two-class question in the department's "Prove or
-disprove" form and states no expected answer; the site's attribution of a
-conjecture to Owings and the 1980 survey's "Ewing conjectured" are their words
-([Er77c] speaks of a question of "Ewings"). [Er77c], p. 58, reports that
+disprove" form and states no expected answer; the erdosproblems.com attribution
+of a conjecture to Owings and the 1980 survey's "Ewing conjectured" are their
+words ([Er77c] speaks of a question of "Ewings"). [Er77c], p. 58, reports that
 Hindman, answering a question of "Ewings", proved, in a paper to appear in the
 Journal of Combinatorial Theory, that when the integers are divided into two
 classes there is always an infinite sequence $x_1<x_2<\ldots$ with "all the sums
@@ -238,19 +239,19 @@ $f$-small and such that there are no $i<3$ and no sequence
 $\langle x_n\rangle_{n<\omega}$ of distinct members of $N$ with $x_m+x_n\in A_i$
 whenever $\{m,n\}\subseteq\omega$." The pairs $\{m,n\}$ include $m=n$, so the
 excluded sets are exactly the sums $A+A$, doubles included, of an infinite set
-$A$, the site's pattern. The partition (pp. 22--23) is by intervals: with
-increasing sequences $a_n<b_n<c_n<d_n<a_{n+1}$ satisfying $d_n=2b_n$,
+$A$, erdosproblems.com's pattern. The partition (pp. 22--23) is by intervals:
+with increasing sequences $a_n<b_n<c_n<d_n<a_{n+1}$ satisfying $d_n=2b_n$,
 $c_{n+1}=2d_n$, $a_{n+1}=2c_n$ and $c_n\le2a_n$, the cells are
 $A_0=\bigcup_{n\ge k}[d_n,a_{n+1})$, $A_1=\bigcup_n[a_n,c_n)$ and
 $A_2=N\setminus(A_0\cup A_1)$; doubling sends $[d_n,a_{n+1})$, $[a_n,b_n)$,
 $[b_n,c_n)$ and $[c_n,d_n)$ into $A_2$, $A_2$, $A_0$ and $A_1$ respectively,
 while the gaps grow so that, for a sequence inside one of the four sets, the
-sums $x_0+x_n$ for large $n$ avoid the cell holding the doubles. The site,
-[LeWi24] (p. 1: "it is a simple matter to find a 3-colouring yielding no such
-monochromatic set"), [HLSXXZ26] (p. 2) and the two Erdős surveys attribute the
-three-color counterexample to this theorem. The external Lean file behind the
-collection's variant records a different explicit coloring, which is checked
-here as an authored argument: color $n\ge1$ by
+sums $x_0+x_n$ for large $n$ avoid the cell holding the doubles.
+erdosproblems.com, [LeWi24] (p. 1: "it is a simple matter to find a 3-colouring
+yielding no such monochromatic set"), [HLSXXZ26] (p. 2) and the two Erdős
+surveys attribute the three-color counterexample to this theorem. The external
+Lean file behind the collection's variant records a different explicit coloring,
+which is checked here as an authored argument: color $n\ge1$ by
 $c(n)=\lfloor\log_4(n^3)\rfloor\bmod3$. Given an infinite $A$, pick $a\in A$
 with $a>0$ and then $b\in A$ with $b>4a$; both $a+b$ and $2b$ lie in $A+A$. The
 ratio $r=2b/(a+b)$ satisfies $8/5<r<2$, so $4<(8/5)^3<r^3<8<16$ and
@@ -308,9 +309,9 @@ the Owings passages.
 [[../library/ramsey_theory/huang_2026_affirmative_answer_owings_sumset_question/theorem_1_1|Theorem 1.1]]
 of [HLSXXZ26] (p. 2): "Let $\mathbb{N}=C_1\sqcup C_2$. Then there exist
 $i\in\{1,2\}$ and an infinite $B\subseteq\mathbb{N}$ such that
-$B+B\subseteq C_i$." This is the same statement as the site's question, with a
-two-cell partition in place of a 2-coloring and $B+B$ in place of $A+A$. The
-preprint's Theorem 1.6 (p. 4) claims the weighted form,
+$B+B\subseteq C_i$." This is the same statement as the erdosproblems.com
+question, with a two-cell partition in place of a 2-coloring and $B+B$ in place
+of $A+A$. The preprint's Theorem 1.6 (p. 4) claims the weighted form,
 $(m+\ell)B\cup\{mx+\ell y:x,y\in B,x<y\}$ monochromatic for every
 $m,\ell\in\mathbb{N}$, and its Section 5.3 (p. 35) claims that the three-fold
 version ($B+B+B$ monochromatic) fails for some two-coloring. The route, named
@@ -324,19 +325,20 @@ revised to v3 on 29 July 2026 with the comment "we resolve the weighted form of
 Owings's sumset question completely". Acceptance evidence recorded on
 2026-09-18: none. No journal record (a Crossref bibliographic query for the
 title found none), no citing paper (Semantic Scholar's citation list is empty),
-no site adoption (label OPEN; the thread's report of 1 August 2026 unanswered),
-no independent review found, and the community database of 9 September 2026
-records the problem open. The claim is recorded as a pending full claim on
+no erdosproblems.com adoption (label OPEN; the thread's report of 1 August 2026
+unanswered), no independent review found, and the community database of 9
+September 2026 records the problem open. The claim is recorded as a pending full
+claim on
 [[problems/ramsey_theory/E1199/claims/2026_07_19_huang_lian_shao_xiao_xu_zhang|its claim page]],
 from which the frontmatter standing `claimed`, `proved` is derived; a refereed
 publication or a documented independent acceptance would move the claim page to
 `accepted` and the standing with it.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 refereed proof or disproof of the two-color statement, a review of the
 preprint, or a second proof.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file and the external Lean file at the commits linked
   above; the community database of 9 September 2026.
 - arXiv: the API records of 2607.17333 (v1 and v3, no journal reference)

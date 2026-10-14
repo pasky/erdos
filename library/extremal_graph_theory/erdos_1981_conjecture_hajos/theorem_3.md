@@ -77,7 +77,7 @@ The chromatic number of almost all graphs, $\chi(G)>C_1n/\log n$, cited to
 
 - [[../wiki/problems/extremal_graph_theory/E0717/_index|Problem 717]]: the lower bound in
   the problem's order, $\chi(G)\gg\frac{n^{1/2}}{\log n}\sigma(G)$ for
-  almost all graphs, which the site's commentary quotes; the paper's
+  almost all graphs, which the erdosproblems.com commentary quotes; the paper's
   [[extremal_graph_theory/erdos_1981_conjecture_hajos/conjecture_p143|closing conjecture]]
   that this order is also an upper bound is the problem's statement.
 - [[../wiki/problems/extremal_graph_theory/E0718/_index|Problem 718]]: display

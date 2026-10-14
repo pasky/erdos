@@ -41,16 +41,16 @@ terms, one in which no integer has more than $k$ representations as a sum of
 two distinct terms, contains a Sidon subsequence of at least $c_4(k)\,n^{2/3}$
 terms. In the problem's notation this is $H_k(n)\gg_k n^{2/3}$, so
 $H_k(n)/n^{1/2}\to\infty$ and $H_k(n)>n^{1/2+c}$ for every $c<1/6$ and all
-large $n$: both questions are answered yes. The site's hypothesis
+large $n$: both questions are answered yes. erdosproblems.com's hypothesis
 $\|1_A\ast 1_A\|_\infty\leq k$ counts ordered pairs with repetition and the
 paper's counts unordered pairs of distinct terms; the two differ by a factor at
 most $2$ in $k$, which the $k$-dependent constant absorbs. The exponent is
-sharp for $k\geq4$ in the site's count ($k\geq2$ in the paper's): Erdős's
-$B_2^{(2)}$ set of $n$ terms of the form $4^u+4^v$, in which any sum has at
-most four ordered representations, has no Sidon subset of more than
+sharp for $k\geq4$ in erdosproblems.com's count ($k\geq2$ in the paper's):
+Erdős's $B_2^{(2)}$ set of $n$ terms of the form $4^u+4^v$, in which any sum has
+at most four ordered representations, has no Sidon subset of more than
 $O(n^{2/3})$ elements
 ([[../library/additive_bases/erdos_1984_extremal_problems_number_theory/_index|Erdős 1984]]).
-For $k=2,3$ the site's hypothesis makes $H_k(n)$ of order $n$: for
+For $k=2,3$ erdosproblems.com's hypothesis makes $H_k(n)$ of order $n$: for
 $k=2$ the set $A$ is itself Sidon, and for $k=3$ the only coincidences are
 $a+b=2c$, each element the midpoint of at most one, so a Sidon subset of
 $\gg n$ elements remains. For $k=1$ the hypothesis is met by no set of two
@@ -67,16 +67,16 @@ required size when $c=c(k)$ is small. Inequality (4) is the main ingredient of t
 Theorem 1, that such a sequence is a union of $O_k(n^{1/3})$ Sidon sequences,
 which is sharp up to the constant.
 
-**Acceptance.** The paper is refereed (European J. Combin.). The site's curator,
-T. F. Bloom, records the answer yes with this bound and its proof on the problem
-page. This is the `reviewed` evidence named here. The month of the issue,
-September 1985, supplies the page's date.
+**Acceptance.** The paper is refereed (European J. Combin.). The
+erdosproblems.com curator, T. F. Bloom, records the answer yes with this bound
+and its proof on the problem page. This is the `reviewed` evidence named here.
+The month of the issue, September 1985, supplies the page's date.
 
-**Formalization.** A Lean 4 formalization of the argument for the site's
-ordered count, posted on 2026-08-17 in Boris
-Alexeev's repository of formalized Erdős problems and linked above at a pinned
-commit, written by Codex and GPT-5.6 Sol with Alon and Erdős named as informal
-authors, proves both parts for every $k\geq1$ (`erdos_772`, from
+**Formalization.** A Lean 4 formalization of the argument for
+erdosproblems.com's ordered count, posted on 2026-08-17 in Boris Alexeev's
+repository of formalized Erdős problems and linked above at a pinned commit,
+written by Codex and GPT-5.6 Sol with Alon and Erdős named as informal authors,
+proves both parts for every $k\geq1$ (`erdos_772`, from
 $n^{2/3}\leq16(k+1)H_k(n)$); the formal-conjectures statement file names it
 as its formal proof, and the community database has listed the problem as
 formalized since 2026-09-20. This corpus has not built it, so `formalized` is

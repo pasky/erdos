@@ -56,7 +56,7 @@ updated journal version. The journal article was published online on 5
 March 2024.
 
 **Acceptance.** Refereed: Annals of Mathematics (2) 199 (2024), no. 2, 919--941.
-The site's commentary credits Mattheus and Verstraete with the case $s=4$. But
-the site's PROVED label settles the problem through
+The erdosproblems.com commentary credits Mattheus and Verstraete with the case
+$s=4$. But erdosproblems.com's PROVED label settles the problem through
 [[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|Bradač's claim]], so the
 curator's credit is not listed as review of this one.

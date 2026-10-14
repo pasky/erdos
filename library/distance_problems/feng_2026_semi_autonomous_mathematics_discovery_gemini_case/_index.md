@@ -108,13 +108,13 @@ mathematical result is credited.
 
 **Appendix A.** Beyond the thirteen, Appendix A (pp. 34--39) documents
 [[../wiki/problems/graph_coloring/E0075/_index|#75]]: Theorem 12 (p. 35)
-answers the $n^{1-\epsilon}$ question as the site then listed it, by
+answers the $n^{1-\epsilon}$ question as erdosproblems.com then listed it, by
 reduction to a 2020 theorem of Lambie-Hanson, and Theorem 14 (p. 37)
 answers, under the continuum hypothesis, the strengthened $\gg n$ version as
 the paper poses it. Neither wording (pp. 35, 37) requires the graph to have
 $\aleph_1$ vertices, and neither theorem asserts it. The paper states that
-the problem as listed on the site was not the intended formulation (p. 34)
-and that the correct strengthened statement also demands cardinality
+the problem as listed on erdosproblems.com was not the intended formulation
+(p. 34) and that the correct strengthened statement also demands cardinality
 $\aleph_1$ (p. 37).
 
 **Bears on.** Each row states what the paper's text gives; standing is

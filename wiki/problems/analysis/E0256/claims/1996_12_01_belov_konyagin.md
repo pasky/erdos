@@ -41,8 +41,8 @@ $c>0$. This is the bound of A. S. Belov and S. V. Konyagin, *An estimate of the
 free term of a non-negative trigonometric polynomial with integer
 coefficients*, Izv. Math. 60 (1996), no. 6, 1123--1182 (Russian original Izv.
 Ross. Akad. Nauk Ser. Mat. 60 (1996), no. 6, 31--90). It is recorded as the
-site's commentary states it and as Q. Tang, *An improved lower bound for
-Erdős–Szekeres products*, Proc. Amer. Math. Soc. 154 (2026), no. 8,
+erdosproblems.com commentary states it and as Q. Tang, *An improved lower bound
+for Erdős–Szekeres products*, Proc. Amer. Math. Soc. 154 (2026), no. 8,
 3381--3388 (arXiv:2509.14182), states it in citing the paper as its reference
 [3].
 
@@ -56,7 +56,7 @@ settled: the bounds in force are $2\sqrt n\le f(n)\le\exp(C(\log n)^4)$.
 (1996), no. 6, at the DOIs linked above. The translation's record dates the
 issue to 31 December 1996, and the Russian original's record gives only the year
 and issue. The page is named by the issue month, December 1996, filled to the
-first of the month. Reviewed is not listed: the site credits the bound in its
-commentary on a problem it labeled OPEN, which is commentary and not acceptance
-of a solution. Formalized is not listed: no Lean statement or proof of the bound
-is recorded.
+first of the month. Reviewed is not listed: erdosproblems.com credits the bound
+in its commentary on a problem it labeled OPEN, which is commentary and not
+acceptance of a solution. Formalized is not listed: no Lean statement or proof
+of the bound is recorded.

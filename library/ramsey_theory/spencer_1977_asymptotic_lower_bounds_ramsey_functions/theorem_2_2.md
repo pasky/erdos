@@ -94,9 +94,9 @@ held.
   $R(4,t)\ge c(t/\ln t)^{5/2}[1-o(1)]$, the exponent $5/2$ that stood until
   Mattheus and Verstraete's
   [[ramsey_theory/mattheus_2023_asymptotics_r_4_t/theorem_1|Theorem 1]]
-  reached $3$; the site's commentary prints the bound as
+  reached $3$; the erdosproblems.com commentary prints the bound as
   $R(4,k)\gg(k\log k)^{5/2}$, where the paper prints the quotient
-  $(t/\ln t)^{5/2}$, so the site's form differs from the paper's; the
+  $(t/\ln t)^{5/2}$, so the erdosproblems.com form differs from the paper's; the
   paper's remark that $\alpha(4)=3$ "is not even known for $k=4$" is the
   problem's question as of 1977.
 - [[../wiki/problems/ramsey_theory/E0986/_index|Problem 986]]: with $\beta=(s+1)/2$, the

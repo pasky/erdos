@@ -33,10 +33,10 @@ A conjecture; the paper proves only the case $k=4$, in its reference [4].
 
 ## Bears on
 
-- [[../wiki/problems/set_systems/E1076/_index|Problem 1076]]: under the site's
-  wording the problem asks whether this limit, for each $k\ge5$, equals
-  $1/6$; the conjecture asks only that the limit exist, and the value is not
-  part of it.
+- [[../wiki/problems/set_systems/E1076/_index|Problem 1076]]: under the
+  erdosproblems.com wording the problem asks whether this limit, for each
+  $k\ge5$, equals $1/6$; the conjecture asks only that the limit exist, and the
+  value is not part of it.
 - [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the
   conjecture concerns the problem's function in the case $r=3$, $k=s+2$,
   whose limit the problem page's quadratic-regime notes discuss.

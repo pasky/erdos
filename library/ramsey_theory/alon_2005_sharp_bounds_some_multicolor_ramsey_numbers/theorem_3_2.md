@@ -88,8 +88,8 @@ and Kim (Random Structures Algorithms 7 (1995)) for
 $r(K_3,K_m)=\Theta(m^2/\log m)$; Shearer (Random Structures Algorithms 7
 (1995)) for the independence bound; Alon (1994) for the explicit
 triangle-free pseudorandom graphs. Same-paper: Theorem 2.1 and Lemma 3.1.
-The Shearer paper the proof uses is not the Shearer (1983) note that the
-site cites for $R(3,n)\ll n^2/\log n$.
+The Shearer paper the proof uses is not the Shearer (1983) note that
+erdosproblems.com cites for $R(3,n)\ll n^2/\log n$.
 
 ## Bears on
 
@@ -104,6 +104,6 @@ site cites for $R(3,n)\ll n^2/\log n$.
   triangle and whose independence number is below $c\,n^{1/3}(\log n)^2\le
   c\,N^{1/3}(\log N)^2$, so no $\delta>0$ can give independent sets of size
   $\gg N^{1/3+\delta}$ in every such graph; equivalently, the lower bound
-  $r_2(K_3;K_m)\ge\Omega(m^3/(\log m)^{4+\delta})$ refutes the site's
+  $r_2(K_3;K_m)\ge\Omega(m^3/(\log m)^{4+\delta})$ refutes erdosproblems.com's
   reformulation $R(3,3,m)\ll m^{3-c}$. The conversion is the problem
   page's, named there as authored.

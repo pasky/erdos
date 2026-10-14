@@ -50,10 +50,11 @@ The lower-bound observation below is due to DesmondWeisenberg,
 witnesses for each fixed strict linear lower bound. This is an author-recorded
 reconstruction of that third-party argument, not a new project result. No
 independent review of the reconstruction is recorded. The Status gives the
-site's label; no literature search beyond the site and its thread is recorded.
+erdosproblems.com label; no literature search beyond erdosproblems.com and its
+thread is recorded.
 
-The site's commentary (page last edited 28 January 2026) records the upper
-bounds $f(n)\ll n^{3/2}$ of [CES96] and $f(n)\ll n(\log n)^8$ of [DMMS24],
+The erdosproblems.com commentary (page last edited 28 January 2026) records the
+upper bounds $f(n)\ll n^{3/2}$ of [CES96] and $f(n)\ll n(\log n)^8$ of [DMMS24],
 the latter the best known: by its Theorem 1.1, for large $n$ every
 $n$-vertex graph with at least $n\log^8n$ edges has a cycle with at least as
 many chords as vertices. Three other comments on the thread bear on the
@@ -157,13 +158,14 @@ would eventually find a witness whenever the bound is true. This is a
 procedure that halts on a witness, with no claimed halting guarantee when the
 bound is false.
 
-The catalog question is equivalent to asking whether $\Lambda$ is finite:
-a finite supremum bounds all ratios, while an eventual linear upper bound also
-bounds the finitely many earlier ratios. The argument does not determine that
-value, provide witnesses for arbitrarily large $c$, or give a finite decision
-procedure for the whole problem. The proof above supplies the cycle and chord
-confinement details and the Fekete argument omitted from the source comment,
-without using the upper-bound papers or any native L-claim as a premise.
+The erdosproblems.com question is equivalent to asking whether $\Lambda$ is
+finite: a finite supremum bounds all ratios, while an eventual linear upper
+bound also bounds the finitely many earlier ratios. The argument does not
+determine that value, provide witnesses for arbitrarily large $c$, or give a
+finite decision procedure for the whole problem. The proof above supplies the
+cycle and chord confinement details and the Fekete argument omitted from the
+source comment, without using the upper-bound papers or any native L-claim as a
+premise.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -35,14 +35,14 @@ $$
 **Status.** PROVED (LEAN). Montgomery and Vaughan (1986) prove
 $\sum(a_{k+1}-a_k)^\gamma\ll n^\gamma/\phi(n)^{\gamma-1}$ for every
 $\gamma\geq 1$. The case $\gamma=2$ answers the question yes. Thomas Bloom, the
-site's curator, attributes the answer to their paper, and Guy's collection
-records that they won the prize. The claim page
+erdosproblems.com curator, attributes the answer to their paper, and Guy's
+collection records that they won the prize. The claim page
 [[problems/integer_sequences/E0220/claims/1986_03_01_montgomery_vaughan|Montgomery and Vaughan 1986]]
-records the acceptance. The site's Lean suffix refers to a 2026 formalization in
-Boris Alexeev's public repository. That formalization declares Montgomery and
-Vaughan its informal authors, so it is a formalization link on the claim page.
-The corpus has neither built nor audited it, and it gives no `formalized`
-evidence.
+records the acceptance. The erdosproblems.com Lean suffix refers to a 2026
+formalization in Boris Alexeev's public repository. That formalization declares
+Montgomery and Vaughan its informal authors, so it is a formalization link on
+the claim page. The corpus has neither built nor audited it, and it gives no
+`formalized` evidence.
 
 **Source.** [erdosproblems.com/220](https://www.erdosproblems.com/220), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #220,

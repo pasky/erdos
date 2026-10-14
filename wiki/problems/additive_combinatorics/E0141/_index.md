@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Let $k\geq 3$. Are there $k$ consecutive primes in arithmetic
 progression?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 28
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 28
 September 2025). Its commentary reports such progressions for every $k\le10$ and
 notes that whether infinitely many exist is open even for three terms. The
 instances $3\le k\le10$ are the accepted partial claim on
@@ -46,8 +46,8 @@ https://www.erdosproblems.com/141.
   Nelson, H. and Zimmermann, P., Ten consecutive primes in arithmetic
   progression. Math. Comp. 71 (2002), no. 239, 1323-1328,
   doi:10.1090/S0025-5718-01-01374-6; published online 28 November 2001. Not
-  a site key; the paper behind the site's remark that the progressions have
-  been found for $k\le10$.
+  an erdosproblems.com key; the paper behind the erdosproblems.com remark that
+  the progressions have been found for $k\le10$.
 - [GrTa08] Green, Ben and Tao, Terence, The primes contain arbitrarily long
   arithmetic progressions. Ann. of Math. (2) 167 (2008), no. 2, 481-547,
   doi:10.4007/annals.2008.167.481.
@@ -62,8 +62,8 @@ https://www.erdosproblems.com/141.
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 - [ScSi58] Schinzel, A. and Sierpiński, W., Sur certaines hypothèses
   concernant les nombres premiers. Acta Arith. 4 (1958), no. 3, 185-208,
-  doi:10.4064/aa-4-3-185-208. Not a site key; the paper that derives
-  arbitrarily long progressions of consecutive primes from Hypothesis H.
+  doi:10.4064/aa-4-3-185-208. Not an erdosproblems.com key; the paper that
+  derives arbitrarily long progressions of consecutive primes from Hypothesis H.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/141.lean)
@@ -75,19 +75,19 @@ solved tag is a statement, not a Lean proof, and gives no `formalized` evidence.
 
 ## Current assessment
 
-The site records Problem 141 as OPEN (page last edited 28 September 2025).
-Its commentary notes that Green and Tao [GrTa08] give $k$ primes in
+erdosproblems.com records Problem 141 as OPEN (page last edited 28 September
+2025). Its commentary notes that Green and Tao [GrTa08] give $k$ primes in
 arithmetic progression for every $k$, but not consecutive ones, that Erdős
 judged the problem out of reach, that such progressions are known for every
 $k\le10$, and that whether infinitely many exist is open even for three
 terms. The computational record is the ten consecutive primes in arithmetic
 progression of 1998, reported in [DFLMNZ02], which settle $3\le k\le10$; a
 progression of eleven consecutive primes needs a common difference divisible
-by $2310$, and the site's commentary (page last edited 28 September 2025)
-reports none. Under Hypothesis H, Schinzel and Sierpiński [ScSi58] derive
-infinitely many progressions of $n$ consecutive primes for every $n$ and
-every admissible common difference, so the conjecture is expected to hold
-for every $k$. The two claims are checked against the papers' published
+by $2310$, and the erdosproblems.com commentary (page last edited 28
+September 2025) reports none. Under Hypothesis H, Schinzel and Sierpiński
+[ScSi58] derive infinitely many progressions of $n$ consecutive primes for every
+$n$ and every admissible common difference, so the conjecture is expected to
+hold for every $k$. The two claims are checked against the papers' published
 records only (the Math. Comp. abstract; the Acta Arithmetica paper's
 consequences $C_1$ and $C_{1.4}$); the computations and the derivation are
 not rechecked, and no literature search goes beyond the sources named here.

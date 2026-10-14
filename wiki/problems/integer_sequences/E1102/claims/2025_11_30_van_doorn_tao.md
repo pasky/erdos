@@ -84,16 +84,17 @@ $\overline P_\infty$ (upper density strictly below $6/\pi^2$, approachable from
 below) and the maximal admissible subset of $\{1,\ldots,x\}$; the
 [[../library/integer_sequences/doorn_2025_growth_rates_sequences_governed_squarefree_properties/_index|library card]]
 lists the theorems. Whether $2^n\pm1$ or $n!\pm1$ has property $P$ is left
-open, a side question of the site's commentary and not of the statement.
+open, a side question of the erdosproblems.com commentary and not of the
+statement.
 
-**Acceptance.** The site's curator, Thomas Bloom, credits the paper with the
-result. The problem page was labeled SOLVED (LEAN). Its commentary (last edited
-2 December 2025, accessed 2026-10-07) states that most of the questions are
-resolved by this paper and summarizes the density results above. The thread's
-posts of October and November 2025 carry the development of the arguments before
-the paper, and the arXiv announcement was posted there on 2 December 2025. Both
-authors took part in that thread. The curator is independent of them, and the
-curator's credit is the `reviewed` evidence listed.
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, credits the paper
+with the result. The problem page was labeled SOLVED (LEAN). Its commentary
+(last edited 2 December 2025, accessed 2026-10-07) states that most of the
+questions are resolved by this paper and summarizes the density results above.
+The thread's posts of October and November 2025 carry the development of the
+arguments before the paper, and the arXiv announcement was posted there on 2
+December 2025. Both authors took part in that thread. The curator is independent
+of them, and the curator's credit is the `reviewed` evidence listed.
 
 Refereed: the paper is published as Growth rates of sequences governed by the
 squarefree properties of their translates, Acta Arith. 224 (2026), 173–195 (DOI
@@ -108,18 +109,19 @@ in the repository `Woett/Lean-files`, one per theorem group, whose proofs were
 produced by Aristotle, Harmonic's prover, as the post and every file header
 name it; the headers state the toolchain, Lean v4.24.0 with a pinned Mathlib
 commit, and the four files total 7,085 lines. The property-$P$ and property-$Q$
-files end by proving the catalog's statements for Problem 1102, and the catalog
-pins those two files at the commit of the links dated 23 February 2026; at that
-commit the $\overline P$ and fast-growth files take the prime-number-theorem
-asymptotics they need as a hypothesis, the structure `SieveAssumptions`. On 4
-May 2026 the first author replaced all four files with versions for Lean
-v4.28.0, 7,446 lines in all, which the author describes as fully unconditional:
-the $\overline P$ file builds `SieveAssumptions` from Chebyshev bounds, and the
-fast-growth file no longer uses it. The post's online type-checker links, which
-run Mathlib v4.28.0, load these later files. The catalog's own statement file
-for the problem is not a formalization of the paper and is not linked here.
-Nothing was built or audited here, so `formalized` is not listed and the site's
-(LEAN) suffix warrants no kernel credit.
+files end by proving the formal-conjectures statements for Problem 1102, and the
+formal-conjectures catalog pins those two files at the commit of the links dated
+23 February 2026; at that commit the $\overline P$ and fast-growth files take
+the prime-number-theorem asymptotics they need as a hypothesis, the structure
+`SieveAssumptions`. On 4 May 2026 the first author replaced all four files with
+versions for Lean v4.28.0, 7,446 lines in all, which the author describes as
+fully unconditional: the $\overline P$ file builds `SieveAssumptions` from
+Chebyshev bounds, and the fast-growth file no longer uses it. The post's online
+type-checker links, which run Mathlib v4.28.0, load these later files. The
+formal-conjectures catalog's own statement file for the problem is not a
+formalization of the paper and is not linked here. Nothing was built or audited
+here, so `formalized` is not listed and erdosproblems.com's (LEAN) suffix
+warrants no kernel credit.
 
 **Scope.** Full for the modified Statement's question, which asks how fast
 sequences with property $P$ or $Q$ must increase: the paper gives the sharp

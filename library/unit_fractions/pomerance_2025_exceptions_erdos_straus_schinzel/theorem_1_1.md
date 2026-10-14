@@ -61,5 +61,5 @@ as adapted in Section 2; not examined here.
 
 - [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: concerns Schinzel's
   generalization with $m$ varying; it neither proves nor refutes the fixed
-  case $m=4$, and the site cites the paper for "background and results on
-  this generalisation".
+  case $m=4$, and erdosproblems.com cites the paper for "background and results
+  on this generalisation".

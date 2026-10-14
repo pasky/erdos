@@ -57,11 +57,11 @@ well). The proof works through reduction modulo primes and arguments in
 cyclotomic and division fields. Theorem 2 is the elliptic analogue for points
 on an elliptic curve, not needed here.
 
-**Acceptance.** Refereed: J. Number Theory 64 (1997). Reviewed: the site's
-curator, Thomas Bloom, marked the problem proved and credits the paper with the
-positive answer. The problem page was last edited 2026-04-12, and the community
-database records the proved status from 2026-04-21. This corpus has not
-independently verified the proof.
+**Acceptance.** Refereed: J. Number Theory 64 (1997). Reviewed: the
+erdosproblems.com curator, Thomas Bloom, marked the problem proved and credits
+the paper with the positive answer. The problem page was last edited 2026-04-12,
+and the community database records the proved status from 2026-04-21. This
+corpus has not independently verified the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos1214.lean` of
 Boris Alexeev's repository `lean-proofs` (998 lines at the pinned commit)

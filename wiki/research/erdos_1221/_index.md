@@ -122,10 +122,10 @@ review; they change no status and assign no tier.
 
 ## Where things stand
 
-**The problem stays open.** The site's wording is defective in its first two
-parts, and the assessed question is the mean-normalized reading: whether
-$\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ tend to infinity. The 1949 note
-proves $\Lambda_r-r\ge\tfrac12+o(1)$
+**The problem stays open.** The erdosproblems.com wording is defective in its
+first two parts, and the assessed question is the mean-normalized reading:
+whether $\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ tend to infinity. The 1949
+note proves $\Lambda_r-r\ge\tfrac12+o(1)$
 ([[research/erdos_1221/dber49_inequality_3_3_reconstruction|Section 3]]),
 $r-\lambda_r\ge\tfrac12+o(1)$
 ([[research/erdos_1221/dber49_inequality_4_3_reconstruction|(4.3)]]) and

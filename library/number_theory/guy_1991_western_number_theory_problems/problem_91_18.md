@@ -48,7 +48,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E1096/_index|Problem 1096]]: the first
-  question is the problem's (the site orders the same sums from $x_1=0$),
-  and this item is the 1991 problem session the site cites as [GWNT91]. The
-  guess for every $q$ below the smallest Pisot number goes beyond the
-  problem's statement. The set records no result on either.
+  question is the problem's (erdosproblems.com orders the same sums from
+  $x_1=0$), and this item is the 1991 problem session erdosproblems.com cites as
+  [GWNT91]. The guess for every $q$ below the smallest Pisot number goes beyond
+  the problem's statement. The set records no result on either.

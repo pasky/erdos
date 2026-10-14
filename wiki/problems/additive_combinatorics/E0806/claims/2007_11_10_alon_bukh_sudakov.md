@@ -50,9 +50,9 @@ $A\bmod n$ in $\mathbb Z/n\mathbb Z$ to the basis $B'\cup(B'-n)$ of $A$ in
 $\mathbb Z$ at the cost of a factor $2$. The order is sharp up to constants:
 Erdős and Newman's remark that most sets of type $(n,n^2)$ need a basis of
 size $c\,n\log\log n/\log n$, which the paper restates for every finite group.
-The problem page's Formulation records that the site's question is Erdős and
-Newman's closing question with $N=n^2$, and that the theorem covers the
-site's $|A|\le n^{1/2}$ directly. Result page
+The problem page's Formulation records that the erdosproblems.com question is
+Erdős and Newman's closing question with $N=n^2$, and that the theorem covers
+erdosproblems.com's $|A|\le n^{1/2}$ directly. Result page
 [[../library/additive_combinatorics/alon_2009_discrete_kakeya_type_problems_small_bases/theorem_1_4|Theorem 1.4]];
 library home
 [[../library/additive_combinatorics/alon_2009_discrete_kakeya_type_problems_small_bases/_index|alon_2009_discrete_kakeya_type_problems_small_bases]]
@@ -74,13 +74,13 @@ doi:10.1007/s11856-009-0115-9. The Crossref record dates the issue to November
 2009 without a day. The arXiv preprint 0711.1604 was submitted 10 November 2007,
 which names this page.
 
-Reviewed: the site's curator, Thomas Bloom, credits the resolution to Alon, Bukh
-and Sudakov in the problem page's commentary and labeled the problem PROVED
-(no last-edited date). The problem's discussion thread
-and proof-claim tab were empty. The community database lists the problem as
-proved as of its entry's last update of 31 August 2025; that update does not
-date any change of state. The acceptance rests on the publication and the
-curator's credit, not on any review of this project's own.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, credits the resolution to
+Alon, Bukh and Sudakov in the problem page's commentary and labeled the problem
+PROVED (no last-edited date). The problem's discussion thread and proof-claim
+tab were empty. The community database lists the problem as proved as of its
+entry's last update of 31 August 2025; that update does not date any change of
+state. The acceptance rests on the publication and the curator's credit, not on
+any review of this project's own.
 
 **Formalization.** Not counted as evidence: the file `Erdos806.lean` in
 Boris Alexeev's lean-proofs repository, linked above at its commit of 15
@@ -96,6 +96,6 @@ not of the header), and the file contains no `sorry`. The formal-conjectures
 statement file `ErdosProblems/806.lean`, added on 2026-09-20 and linked above
 at a pinned commit, names this file as the formal proof of its own `sorry`
 theorem. This corpus has not built or audited the file, and the fidelity of
-the formal statement to the site's question is not reviewed in this corpus,
-so no `formalized` evidence is listed; the standing rests on the refereed
-paper.
+the formal statement to the erdosproblems.com question is not reviewed in this
+corpus, so no `formalized` evidence is listed; the standing rests on the
+refereed paper.

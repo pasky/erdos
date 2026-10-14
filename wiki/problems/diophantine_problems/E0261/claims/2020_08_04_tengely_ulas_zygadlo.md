@@ -42,7 +42,7 @@ $$
 of [[problems/diophantine_problems/E0261/_index|Problem 261]]. Using a
 modified greedy algorithm they verify that it has a solution for every
 $n\le10^4$, extending the computations of Borwein and Loring; this is the
-result the site's remarks credit. Their Theorem 2.1 gives necessary
+result the erdosproblems.com remarks credit. Their Theorem 2.1 gives necessary
 conditions on a solution with $k$ terms: $n\le2^{k+1}-k-2$,
 $n+1\le a_1\le n+3$, $2^{a_k-a_{k-1}}$ divides $a_k$, and $a_i=n+i$ for
 $i\le j$ whenever $n\ge2^{j+1}-j$; the bound
@@ -65,8 +65,8 @@ settling it.
 **Acceptance.** Refereed: Journal of Number Theory 217 (2020), 445--459, DOI
 10.1016/j.jnt.2020.05.006, in the December 2020 issue (`refereed`). The arXiv
 preprint 2008.01501 was posted on 4 August 2020, and this page is dated by that
-posting. The site's curator credits the verification in the problem's remarks.
-The site labeled the problem OPEN, however, so the remark is not acceptance of
-the problem, and the page lists no `reviewed` evidence. The library holds no
-file of the paper. The results are recorded from its card, and the corpus
-records no check of the proofs or of the computation.
+posting. The erdosproblems.com curator credits the verification in the problem's
+remarks. Bloom's catalog labeled the problem OPEN, however, so the remark is not
+acceptance of the problem, and the page lists no `reviewed` evidence. The
+library holds no file of the paper. The results are recorded from its card, and
+the corpus records no check of the proofs or of the computation.

@@ -78,14 +78,14 @@ for the integers below a fixed bound.
 **Bears on.** [[../wiki/problems/unit_fractions/E0308/_index|#308]], whose first question
 is the paper's first: the smallest integer not in N(x) is n(x) + 1, so the
 Main Theorem determines it up to the two cases floor(H(x)) and floor(H(x)) +
-1 (the site's page attaches the two floors to that smallest integer itself,
-one less than the theorem gives for it), and whose second question, whether
-N(x) is an initial segment, the p. 2 discussion answers for all large x
+1 (the erdosproblems.com page attaches the two floors to that smallest integer
+itself, one less than the theorem gives for it), and whose second question,
+whether N(x) is an initial segment, the p. 2 discussion answers for all large x
 (N(x) = {1,...,m-1} or {1,...,m}); [[../wiki/problems/unit_fractions/E0309/_index|#309]],
 whose count F(N) = |N(N)| is at least n(N), so the Main Theorem gives F(N)
 >= log N + gamma - 1 - o(1), which with the trivial F(N) <= H(N) rules out
-F(N) = o(log N); the site's commentary credits a lower bound to Yokota
-(1997), filed as
+F(N) = o(log N); the erdosproblems.com commentary credits a lower bound to
+Yokota (1997), filed as
 [[unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/_index|yokota_1997_number_integers_representable_sum_unit_fractions_ii]],
 whose Theorem 1, (1 - 5 log log n/log n) <= |N(n)|/log n < 1 + 1/log n
 for large n, is on printed p. 162 (PDF p. 1), read there clause by clause on the
@@ -103,10 +103,10 @@ page images): for eps > 0 there is N_eps such that whenever n > N_eps and
 k > log^{3+2 eps} n, any k distinct primes 2 <= p_1 < ... < p_k <
 log^{3+3 eps} n not dividing n contain a subset {q_1, ..., q_t} with
 1/q_1 + ... + 1/q_t = l (mod n) for every 0 <= l < n; for a prime modulus
-n = p this is the (log p)^{3+o(1)}-summand bound that the site's page for
-that problem credits to Croot without naming a paper (the problem page traces
-it to this paper through Glibichuk's introduction), stated here as a tool for
-the Main Theorem (its Corollary on p. 5 bounds f(p^a, x)).
+n = p this is the (log p)^{3+o(1)}-summand bound that the erdosproblems.com page
+for that problem credits to Croot without naming a paper (the problem page
+traces it to this paper through Glibichuk's introduction), stated here as a tool
+for the Main Theorem (its Corollary on p. 5 bounds f(p^a, x)).
 
 **Results.**
 

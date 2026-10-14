@@ -46,7 +46,8 @@ the $k=3$ case with the abc conjecture itself as the hypothesis. Hughes posted
 the result in the problem's thread on 2026-06-10 with the repository, pinned
 above at its commit of that day.
 
-**Submission note.** Posted to the site's forum by S. D. Hughes on 10 June 2026:
+**Submission note.** Posted to the erdosproblems.com forum by S. D. Hughes on 10
+June 2026:
 
 > Some progress on this problem and its $B_r$ extension. The main constructions
 > are vibe formalized in Lean 4/Mathlib — zero sorries, standard axioms, the
@@ -86,8 +87,8 @@ apart from its stated hypothesis.
 **Standing.** Claimed, conditional. The result decides nothing unconditionally:
 the first question stays open, and the page is kept for the
 hypothesis-to-conclusion implication the Lean proves. The paper the repository's
-README cites has no public posting, and the site's commentary does not mention
-the result; the corpus has not built or audited the repository, so no evidence
-of any kind is listed. The unconditional part of Hughes's work, the sharpened
-lower bound at $k=3$, is
+README cites has no public posting, and the erdosproblems.com commentary does
+not mention the result; the corpus has not built or audited the repository, so
+no evidence of any kind is listed. The unconditional part of Hughes's work, the
+sharpened lower bound at $k=3$, is
 [[problems/arithmetic_functions/E0367/claims/2026_06_10_hughes|a partial claim]].

@@ -313,6 +313,6 @@ basis conjecture, Sidon and B_h sets in which sums or differences are almost
 distinct, and complete sequences whose subset sums represent every large
 integer.
 
-Site tags routed here: additive basis, additive combinatorics, complete
-sequences, distances, geometry, irrational, number theory, primes, sidon sets,
-squares.
+erdosproblems.com tags routed here: additive basis, additive combinatorics,
+complete sequences, distances, geometry, irrational, number theory, primes,
+sidon sets, squares.

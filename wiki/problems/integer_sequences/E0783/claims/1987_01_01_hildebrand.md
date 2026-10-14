@@ -72,13 +72,13 @@ display (1.12);
 That display and this corollary together would give the modified Statement,
 and [[problems/integer_sequences/E0783/claims/2026_02_20_tao|Tao's claim page]]
 deduces the extension from this corollary with a written proof. The exact
-minimizer for a given $N$, the site's wording, is determined by none of
-them.
+minimizer for a given $N$, the erdosproblems.com wording, is determined by none
+of them.
 
 **Acceptance.** Refereed: Acta Arithmetica, volume 48, issue 3, pages 209--260,
 DOI 10.4064/aa-48-3-209-260, published under the journal's Creative Commons
-Attribution license. Reviewed: the site's curator, Thomas Bloom, who is
-independent of the author, writes in the commentary (page last edited 28 May
+Attribution license. Reviewed: the erdosproblems.com curator, Thomas Bloom, who
+is independent of the author, writes in the commentary (page last edited 28 May
 2026, accessed 2026-09-05) that Hildebrand proved the weak form of the
 conjecture when $A$ is a set of primes, answering the question of Erdős and
 Ruzsa. A thread comment of 4 February 2026 first pointed the thread to the

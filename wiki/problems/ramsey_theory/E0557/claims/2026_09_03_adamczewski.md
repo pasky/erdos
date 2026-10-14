@@ -72,28 +72,28 @@ of the
 [[../library/extremal_graph_theory/adamczewski_2026_erdos548/_index|source card]].
 
 **Claimant and postings.** The claimant is Tom Adamczewski, the name the
-publication carries: the proof repository the site's proof claim links,
+publication carries: the proof repository erdosproblems.com's proof claim links,
 pinned above, is Adamczewski's, and the FrontierMath Erdős paper of Adamczewski
 and Bloom (arXiv:2609.25050, v1 6 September 2026) and Epoch AI's report, linked
 above, record the resolution. The proof of Problem 548 was found by GPT-6
-Astra, which the site's proof-claim entry names as its claimant and
+Astra, which the erdosproblems.com proof-claim entry names as its claimant and
 describes as a pre-release version of GPT-6 Astra run by Epoch AI; the
 entry's summary says the proof was formalized in that run and is short and
-elementary. The entry itself was submitted on the site's proof-claim tab
-for Problem 548 by the site's curator, T. F. Bloom, on 3 September 2026,
-the date this page is named by, with the five-page exposition generated
-from the formal proof, linked above. The site's commentary on this
-problem, edited on 2 September 2026, already stated that a positive answer
-follows from the proof of Problem 548; its edit of 7 September 2026
+elementary. The entry itself was submitted on the erdosproblems.com proof-claim
+tab for Problem 548 by the erdosproblems.com curator, T. F. Bloom, on 3
+September 2026, the date this page is named by, with the five-page exposition
+generated from the formal proof, linked above. The erdosproblems.com commentary
+on this problem, edited on 2 September 2026, already stated that a positive
+answer follows from the proof of Problem 548; its edit of 7 September 2026
 replaced that sentence by a credit to Reed and Stein's dense case of the
 Erdős--Sós conjecture, an independent proof of the large-$n$ bound
 $k(n-2)+3$ recorded on its own page
 [[problems/ramsey_theory/E0557/claims/2026_09_04_reed_stein|Reed and Stein 2026]].
 The corollary is not a numbered
 result of the exposition or a target of the repository's formal
-comparison: the site's problem page states the implication, the site's
-discussion of 4 September 2026 states the parity refinement and names
-stars as the extremal trees, and this corpus wrote the deduction. A
+comparison: the erdosproblems.com problem page states the implication, the
+erdosproblems.com discussion of 4 September 2026 states the parity refinement
+and names stars as the extremal trees, and this corpus wrote the deduction. A
 comment of 17 September 2026 in the same discussion, by Jun Zhang under the
 username zhangjun, announces Zhang's Lean 4 formalization of the deduction,
 pinned above, whose statements and proofs its README says were written with
@@ -183,16 +183,16 @@ September 2026. Only its input theorem is the GPT-6 Astra proof published in
 Adamczewski's repository. The repository reports its own build and axiom check,
 so this corpus's build is the first independent check of it.
 
-Not reviewed: the site's label of 2 September 2026, PROVED (FORMALIZED), rested
-on the proof of Problem 548. The community database lists the problem as proved
-(Lean), with last update 3 September 2026. But the curator's commentary of 7
-September 2026 credits Reed and Stein's theorem instead and no longer mentions
-this proof. The curator's earlier credit was in any case not independent,
-because Bloom submitted the site's proof claim and is a co-author of the
-FrontierMath Erdős paper. This corpus's own six-page proof chain, corollary
-included, passed the fresh proof-chain review of 2026-09-18, whose records the
-source card lists. That is the project's own review, and it awards no
-acceptance.
+Not reviewed: the erdosproblems.com label of 2 September 2026, PROVED
+(FORMALIZED), rested on the proof of Problem 548. The community database lists
+the problem as proved (Lean), with last update 3 September 2026. But the
+curator's commentary of 7 September 2026 credits Reed and Stein's theorem
+instead and no longer mentions this proof. The curator's earlier credit was in
+any case not independent, because Bloom submitted erdosproblems.com's proof
+claim and is a co-author of the FrontierMath Erdős paper. This corpus's own
+six-page proof chain, corollary included, passed the fresh proof-chain review of
+2026-09-18, whose records the source card lists. That is the project's own
+review, and it awards no acceptance.
 
 Not refereed: the exposition is a preliminary account. The proof-claim note of 3
 September 2026 calls it a placeholder pending a proper write-up and an

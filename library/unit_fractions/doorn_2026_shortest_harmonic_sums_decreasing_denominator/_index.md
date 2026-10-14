@@ -29,7 +29,7 @@ W. van Doorn, *The shortest harmonic sums with decreasing denominator*,
 arXiv:2609.00104v1 (31 August 2026), 9 pages. Preprint: no journal record was
 found on 2026-09-17 (Crossref bibliographic query), no citing paper was listed
 by Semantic Scholar, and no independent review was located. The author
-submitted it to the site as a partial proof claim for problem 290 on 2
+submitted it to erdosproblems.com as a partial proof claim for problem 290 on 2
 September 2026.
 
 The edition read for this card is arXiv v1,
@@ -60,8 +60,8 @@ here). No independent check of the proof is claimed by this card.
 
 For positive integers $a<b$ write $\sum_{i=a}^b1/i=u_{a,b}/v_{a,b}$ in lowest
 terms and let $b(a)$ be the smallest $b>a$ with $v_{a,b}<v_{a,b-1}$ (one more
-than the site's $b(a)$ for problem 290, which is the last index before the
-drop). With $f_d(x)=\sum_{i=0}^d\prod_{j\ne i}(x-j)$, $\delta(f_d)$ the
+than erdosproblems.com's $b(a)$ for problem 290, which is the last index before
+the drop). With $f_d(x)=\sum_{i=0}^d\prod_{j\ne i}(x-j)$, $\delta(f_d)$ the
 density of primes modulo which $f_d$ has a root (it exists by Chebotarev's
 theorem) and $c=\sum_{d\ge1}\delta(f_d)/(d(d+1))$, the author's 2024 paper had
 $0.54<1/(1+c)\le\liminf_{a\to\infty}(b(a)-a)/\log a\le1/(2c)<0.61$ (p. 1).
@@ -117,8 +117,8 @@ in the read status and disclosure paragraphs.
 **Bears on.** [[../wiki/problems/unit_fractions/E0290/_index|#290]]: Theorem 1
 states the exact value $1/(1+c)$ of $\liminf_{a\to\infty}(b(a)-a)/\log a$,
 part of the growth question (the one-step shift between the paper's $b(a)$
-and the site's does not change it); Theorem 3 is the reduction behind the
-upper bound in Theorem 1, conditional on the existence of $x$.
+and erdosproblems.com's does not change it); Theorem 3 is the reduction behind
+the upper bound in Theorem 1, conditional on the existence of $x$.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

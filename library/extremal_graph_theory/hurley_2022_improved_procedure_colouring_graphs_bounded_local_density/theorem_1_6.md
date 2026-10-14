@@ -63,7 +63,7 @@ $L(G)^2$ from Bonamy, Perrett and Postle's method.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the best
-  refereed upper bound on the site's quantity for large $\Delta$, per the site's
-  "The best bound currently available is $1.772\Delta^2$" (page accessed
-  2026-09-19); the same page attests the earlier constants in the
+  refereed upper bound on erdosproblems.com's quantity for large $\Delta$, per
+  erdosproblems.com's "The best bound currently available is $1.772\Delta^2$"
+  (page accessed 2026-09-19); the same page attests the earlier constants in the
   $\varepsilon$-form and that the conjecture is proved only for $\Delta\le3$.

@@ -31,7 +31,7 @@ journal reference and DOI as the arXiv record carried them on 2026-09-18;
 the journal text was not compared). Crossref records the version of record,
 published online 20 August 2020, under a CC BY 4.0 license (record read
 2026-10-07). The Bulletin of the London Mathematical Society is a refereed
-journal. Not a source key of the site; Problem 1018's page cites it as
+journal. Not a source key of erdosproblems.com; Problem 1018's page cites it as
 [Ja21]. A different paper from the author's 2019 *Improved bounds for the
 extremal number of subdivisions* (this paper's [8]), filed as
 [[extremal_graph_theory/janzer_2019_improved_bounds_extremal_number_subdivisions/_index|janzer_2019_improved_bounds_extremal_number_subdivisions]].
@@ -70,9 +70,9 @@ read in outline; Sections 3 and 4 (pp. 5--11) were not read; the reference list
   vertices; Janzer adds that this was the first result to give a subdivided
   $K_t$ of bounded size. Reference [5]
   is Erdős, Some unsolved problems in graph theory and combinatorial
-  analysis, 1971 (the site's Er71); [11] is Kostochka and Pyber, Small
+  analysis, 1971 (erdosproblems.com's Er71); [11] is Kostochka and Pyber, Small
   topological complete subgraphs of "dense" graphs, Combinatorica 8 (1988),
-  83--86 (the site's KoPy88).
+  83--86 (erdosproblems.com's KoPy88).
 - Jiang (p. 1, their [9], J. Graph Theory 67 (2011), 139--152): for any $t$
   and $0<\varepsilon<1/2$,
   $\mathrm{ex}(n,\mathcal F_{t,\lceil10/\varepsilon\rceil})=O(n^{1+\varepsilon})$;

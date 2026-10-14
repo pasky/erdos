@@ -18,7 +18,7 @@ osztójuk? $k=3$ esetén se tudok erről a kérdésről érdemleges eredményt."
 In English: at most how many integers can be given up to $n$ so that no
 $k$ of them have pairwise the same greatest common divisor? Even for $k=3$
 Erdős knows no substantial result on this question. The maximum is
-$A_k(n)$; it is the site's $f_k(N)$ of Problem 535.
+$A_k(n)$; it is erdosproblems.com's $f_k(N)$ of Problem 535.
 
 Recorded there (pp. 236--237): Schinzel had just communicated
 $A_3(n)<cn\log\log\log n/\log n$; L. Moser had just asked for the largest
@@ -84,9 +84,10 @@ held); external premise at statement level.
   $A_k(n)<n/\exp((\log n)^{1/2-\varepsilon})$; the 1964 paper cites this
   problem as its reference [1] and improves the upper bound to
   $n^{3/4+\varepsilon}$.
-- [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]: the site's commentary
-  cites [Er62] for the four-element least-common-multiple result; the
-  paper's problem 14 is the greatest-common-divisor problem and its problem
-  15 (p. 238) the pairwise-least-common-multiple-at-most-$n$ problem, and
-  no statement about three or four integers with equal pairwise least
-  common multiples appears on these pages.
+- [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]: the
+  erdosproblems.com commentary cites [Er62] for the four-element
+  least-common-multiple result; the paper's problem 14 is the
+  greatest-common-divisor problem and its problem 15 (p. 238) the
+  pairwise-least-common-multiple-at-most-$n$ problem, and no statement about
+  three or four integers with equal pairwise least common multiples appears on
+  these pages.

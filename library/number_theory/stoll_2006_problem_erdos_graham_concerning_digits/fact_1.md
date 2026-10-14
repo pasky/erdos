@@ -80,5 +80,5 @@ None beyond the definition of the sequence.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E0482/_index|Problem 482]]: the identity stated in the
-  problem's first paragraph, attributed by the site to Graham and Pollak
-  [GrPo70]; held here through Stoll's restatement.
+  problem's first paragraph, attributed by erdosproblems.com to Graham and
+  Pollak [GrPo70]; held here through Stoll's restatement.

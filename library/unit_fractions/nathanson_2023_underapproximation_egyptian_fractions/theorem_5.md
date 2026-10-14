@@ -62,6 +62,6 @@ Claims checked (statement read clause by clause on PDF p. 9); the proof was
 read for structure; not rewritten in full and not independently reviewed.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0206/_index|#206]]: the case $a\mid b+1$
-with $a/b\le1$ of the site's commentary; Chu's
+with $a/b\le1$ of the erdosproblems.com commentary; Chu's
 [[unit_fractions/chu_2023_threshold_best_two_term_underapproximation_egyptian/theorem_1_12|Theorem 1.12]]
 extends it.

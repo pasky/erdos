@@ -7,7 +7,7 @@ desc: |
   conjecture that the lower bound is best possible or nearly so, the
   Erdős–Sós questions on the extremal configurations including whether
   f_2(n) − a_2 tends to infinity, and the later bounds he reports for f_2(n)
-  and g_2(n); the site's source for Problem 959.
+  and g_2(n); the erdosproblems.com source for Problem 959.
 created: 2026-10-08T14:30:02Z
 updated: 2026-10-08T14:30:02Z
 ---
@@ -75,16 +75,17 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/distance_problems/E0959/_index|Problem 959]]: the site's
-  [Er84d] source. The printed question is whether $f_2(n)-a_2\to\infty$.
-  Filing observation, not a review verdict: the sentence before it concerns
-  the configurations attaining $f_2(n)$, and the print does not say whether
-  $a_2$ is taken in such a configuration; the site instead asks to estimate
-  the largest gap $a_1-a_2$ over all $n$-point sets, a different quantity.
+- [[../wiki/problems/distance_problems/E0959/_index|Problem 959]]:
+  erdosproblems.com's [Er84d] source. The printed question is whether
+  $f_2(n)-a_2\to\infty$. Filing observation, not a review verdict: the sentence
+  before it concerns the configurations attaining $f_2(n)$, and the print does
+  not say whether $a_2$ is taken in such a configuration; erdosproblems.com
+  instead asks to estimate the largest gap $a_1-a_2$ over all $n$-point sets, a
+  different quantity.
 - [[../wiki/problems/distance_problems/E0090/_index|Problem 90]]: the
   conjecture that the lower bound in (12) is best possible, read as
   $f_2(n)\le n^{1+O(1/\log\log n)}$, is the question of Problem 90, the
   largest distance multiplicity being the largest number of unit distances
   after scaling. The print's alternative "or at least not far from being
-  best possible" is weaker and unquantified. Not among the site's sources
-  for the problem.
+  best possible" is weaker and unquantified. Not among the erdosproblems.com
+  sources for the problem.

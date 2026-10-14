@@ -25,9 +25,10 @@ Subject Classification 05C35, 05C15, and a short abstract: Erdős notes that he
 has written many papers under similar titles, and says this one gives no proofs,
 stays within graph theory, tries for full references and opens with Turán-type
 extremal problems. The last page gives the affiliation (Technion, Haifa) and
-"Received 6 November 1991". Cited as [Er93] on the problem pages, the site's
-key; on eighteen of the pages the site's key names a printed page (334, 336,
-337, 338, 339, 340, 344, 345 or 346), which the rows below locate.
+"Received 6 November 1991". Cited as [Er93] on the problem pages, the
+erdosproblems.com key; on eighteen of the pages the erdosproblems.com key names
+a printed page (334, 336, 337, 338, 339, 340, 344, 345 or 346), which the rows
+below locate.
 
 The copy read for this card is the publisher's per-article PDF: 19 PDF pages,
 a 2010 scan of the printed pages (Acrobat Paper Capture in the PDF's metadata)
@@ -142,11 +143,11 @@ identification made in this card and not by the problem page. Because
 the survey has no section headings below the chapter numerals, a row
 names the chapter and, in Chapter V, the printed problem number, then
 the display numbers as printed. Where the survey's notation differs from
-the site's, the row says so. One page cites the survey for a question no
-passage of it states (Problem 373); its row says so. The prizes are
-recorded as printed in 1993; the site's figures may differ. The generated
-incoming-library block of each problem page derives from these rows; the
-problem pages themselves are not changed by this card.
+erdosproblems.com's, the row says so. One page cites the survey for a question
+no passage of it states (Problem 373); its row says so. The prizes are recorded
+as printed in 1993; the erdosproblems.com figures may differ. The generated
+incoming-library block of each problem page derives from these rows; the problem
+pages themselves are not changed by this card.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0019/_index|#19]], no page cited: Chapter
 IV, p. 341 (PDF p. 10, page image): the Erdős--Faber--Lovász conjecture, dated
@@ -242,12 +243,12 @@ passage: the survey restricts itself to graph theory (abstract, p. 333)
 and contains no passage on factorials or on the equation
 $n!=a_1!\cdots a_k!$; the text layer of all 19 PDF pages was searched for
 "factorial" and "!" and the page images of printed pp. 333--347 were read
-without finding one. The page's reference entry is the site's key for
+without finding one. The page's reference entry is the erdosproblems.com key for
 the problem and locates nothing in this source.
 [[../wiki/problems/ramsey_theory/E0544/_index|#544]], the page cites p. 339:
 Chapter II, display (9), p. 339 (PDF p. 8, page image), "Vera Sós and I
 conjectured (9) $\dfrac{r(3,n+1)-r(3,n)}{n}\to0$ but
-$r(3,n+1)-r(3,n)\to\infty$", the problem's two statements in the site's
+$r(3,n+1)-r(3,n)\to\infty$", the problem's two statements in erdosproblems.com's
 reverse order; p. 340 adds that the difficulty of proving (9) and (10)
 perhaps lies in the probabilistic nature of the known lower bounds for $r(n)$
 and of both bounds for $r(3,n)$.
@@ -298,14 +299,13 @@ here he narrows that claim: Faudree's argument covers
 $G(2n+1;\binom{2n+1}2-\binom n2-1)$ and, so far, graphs on $2n+2$ or $2n+3$
 vertices, "but the general case still seems to be open"; the statement was
 meant as a tool for size Ramsey problems, with details in [50]. This is the
-reference the site's commentary means by Faudree's unpublished $2n+1$-vertex
-case.
-[[../wiki/problems/ramsey_theory/E0636/_index|#636]], no page cited: Chapter
-V, problem 14, p. 346 (PDF p. 15, page image), a question of Noga Alon and
-Bollobás: "Assume $G(n)$ does not contain a trivial subgraph of size
-$c\log n$. Does it then contain $cn^2$ induced subgraphs no two of which have
-the same number of edges and vertices." Erdős and V. T. Sós proved this with
-$n^{3/2}$ in place of $cn^2$, and Erdős writes that "the truth is probably
+reference the erdosproblems.com commentary means by Faudree's unpublished
+$2n+1$-vertex case. [[../wiki/problems/ramsey_theory/E0636/_index|#636]], no
+page cited: Chapter V, problem 14, p. 346 (PDF p. 15, page image), a question of
+Noga Alon and Bollobás: "Assume $G(n)$ does not contain a trivial subgraph of
+size $c\log n$. Does it then contain $cn^2$ induced subgraphs no two of which
+have the same number of edges and vertices." Erdős and V. T. Sós proved this
+with $n^{3/2}$ in place of $cn^2$, and Erdős writes that "the truth is probably
 $n^{5/2}$", the problem's $n^{5/2}$ question as a guess.
 [[../wiki/problems/extremal_graph_theory/E0714/_index|#714]], the page cites
 p. 334: Chapter I, display (4), p. 334 (PDF p. 3, page image): Kövári, V. T.

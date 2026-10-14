@@ -51,6 +51,6 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1006/_index|Problem 1006]]: the site's second
-  source key, Er76b; the 1975 restatement of the question with "as far as I
-  know there are no results".
+- [[../wiki/problems/extremal_graph_theory/E1006/_index|Problem 1006]]:
+  erdosproblems.com's second source key, Er76b; the 1975 restatement of the
+  question with "as far as I know there are no results".

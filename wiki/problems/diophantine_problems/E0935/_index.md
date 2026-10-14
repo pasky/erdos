@@ -79,21 +79,21 @@ $Q_2(n(n+1)\cdots(n+\ell))<n^{2+\epsilon}$ for every $\epsilon>0$ once $n$ is
 large), `limsup` (whether the ratio to $n^2$ is unbounded for $\ell\geq 2$)
 and `limit` (whether the ratio to $n^{\ell+1}$ tends to $0$ for
 $\ell\geq 2$). Erdős [Er76d] wrote that a proof, if the answer is yes, would
-be very difficult. The site notes that a theorem of Mahler gives a limsup of
-at least $1$ for the ratio to $n^2$ for every $\ell\geq 1$, and that each
-question can be asked with $Q_r$, the part made of prime powers with exponent
-at least $r$, in place of $Q_2$.
+be very difficult. erdosproblems.com notes that a theorem of Mahler gives a
+limsup of at least $1$ for the ratio to $n^2$ for every $\ell\geq 1$, and that
+each question can be asked with $Q_r$, the part made of prime powers with
+exponent at least $r$, in place of $Q_2$.
 
 The second question is answered yes by a Pell construction. Wouter van Doorn
-posted it on 20 November 2025 as a comment on the site's thread for
+posted it on 20 November 2025 as a comment on the erdosproblems.com thread for
 [[problems/arithmetic_functions/E0367/_index|Problem 367]], whose question is
 the same up to constants; a thread comment gets no claim page, and the Lean
 formalization of that comment posted on the same thread on 22 November 2025,
 produced with Aristotle, is context, not built here. The same construction,
 found by the Gemini-based agent Aletheia, is the claimed partial page
 [[problems/diophantine_problems/E0935/claims/2026_01_29_feng|Feng and coauthors 2026]].
-The site labeled the problem OPEN while crediting the construction with the
-second part, and the preprint has no journal publication, so the claim stays
+Bloom's catalog labeled the problem OPEN while crediting the construction with
+the second part, and the preprint has no journal publication, so the claim stays
 claimed.
 
 Remark 4.2 of the same preprint states, without proof, that the abc conjecture

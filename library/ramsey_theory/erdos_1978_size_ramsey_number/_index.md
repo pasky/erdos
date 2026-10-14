@@ -30,12 +30,13 @@ Rényi archive's 17-page OmniPage scan of the journal article (printed p. n is
 PDF p. n-144) whose OCR text layer garbles the formulas; the statements
 consumed below were read on the page images of pp. 145, 146, 150, 154, 160 and
 161. The paper writes hat-r for the size Ramsey number and reserves
-hat-R(G_1,G_2) for C(r(G_1,G_2),2); the site's problem pages write hat-R for
-the size Ramsey number. No notice is printed on the scanned journal pages; the
-publisher's article page (https://link.springer.com/article/10.1007/BF02018930,
-read 2026-10-02) shows the site footer "© 2026 Springer Nature", a "Reprints
-and permissions" link and a paywalled article, and names no Creative Commons or
-open access license, every other right reserved.
+hat-R(G_1,G_2) for C(r(G_1,G_2),2); the erdosproblems.com problem pages write
+hat-R for the size Ramsey number. No notice is printed on the scanned journal
+pages; the publisher's article page
+(https://link.springer.com/article/10.1007/BF02018930, read 2026-10-02) shows
+the site footer "© 2026 Springer Nature", a "Reprints and permissions" link and
+a paywalled article, and names no Creative Commons or open access license, every
+other right reserved.
 
 Read status: claims checked for the definitions (p. 146), Problems A and B
 (p. 150), Theorem 6 (p. 154), the Section 8 question and bounds
@@ -67,9 +68,9 @@ for m >= 2 fixed and n large) applied at m = n. The paper's last paragraph
 (p. 161, page image) is the origin of Problem 720: after noting that r(P_n)
 = n + [n/2] - 1 and that K_{n,n} -> P_n, so that hat-r(P_n) <= n^2 < hat-R(P_n),
 it asks whether lim hat-r(P_n)/n exists and, if so, what its value is, and
-whether {P_n} is an o-sequence; the site's questions, whether hat-r(P_n)/n
-tends to infinity and hat-r(P_n)/n^2 to 0, are Erdős's later restatements
-in his problem papers, and the paper says nothing about cycles.
+whether {P_n} is an o-sequence; the erdosproblems.com questions, whether
+hat-r(P_n)/n tends to infinity and hat-r(P_n)/n^2 to 0, are Erdős's later
+restatements in his problem papers, and the paper says nothing about cycles.
 
 Source: <https://users.renyi.hu/~p_erdos/1978-48.pdf>.
 

@@ -76,5 +76,5 @@ inputs were not reconstructed. This is a claims-checked source interface
 and proof pointer, without a full proof check or independent acceptance.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0024/_index|#24]] as a stronger
-eventual refinement at general orders; Corollary 3.3 already supplies the
-catalog's $5n$-vertex bound for every positive $n$.
+eventual refinement at general orders; Corollary 3.3 already supplies
+erdosproblems.com's $5n$-vertex bound for every positive $n$.

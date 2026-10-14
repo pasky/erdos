@@ -52,6 +52,6 @@ claim pages.
 
 **Standing.** Claimed. The construction's only publication is Erdős's lecture
 transcript, not a refereed paper by the claimant, and the elementary check of
-its distances is not an outside review; the site's remarks credit the example
-to Pomerance on a problem the site labeled OPEN, which is commentary and not
-acceptance.
+its distances is not an outside review; the erdosproblems.com remarks credit the
+example to Pomerance on a problem Bloom's catalog labeled OPEN, which is
+commentary and not acceptance.

@@ -57,9 +57,9 @@ a subgraph in which every two edges lie on a short common cycle. It is one of
 the two papers erdosproblems.com cites as sources of the Erdős problem asking
 for large subgraphs in which every pair of edges lies on a short common cycle
 (problem 584), the other being the 1984 paper of Duke, Erdős and Rödl; it
-supplies the fixed-density result (Corollary 1) that the site's commentary
-credits to it, while its remarks on p. 258 about graphs with cnf(n) edges are
-stated without proof and bound no cycle length.
+supplies the fixed-density result (Corollary 1) that the erdosproblems.com
+commentary credits to it, while its remarks on p. 258 about graphs with cnf(n)
+edges are stated without proof and bound no cycle length.
 
 Source: <https://users.renyi.hu/~p_erdos/1982-35.pdf>.
 

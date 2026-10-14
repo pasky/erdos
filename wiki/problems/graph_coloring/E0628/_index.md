@@ -26,10 +26,10 @@ updated: 2026-10-08T01:29:59Z
 If $a,b\geq 2$ and $a+b=k+1$ then must there exist two disjoint subgraphs of $G$
 with chromatic numbers $\geq a$ and $\geq b$ respectively?
 
-**Status.** Labeled falsifiable on the site, with the label FALSIFIABLE. The
-page was last edited 6 December 2025. No result settles or claims to settle the
-question, so the problem is open. Four published partial results are accepted
-partial claims, each on its refereed publication:
+**Status.** Labeled falsifiable on erdosproblems.com, with the label
+FALSIFIABLE. The page was last edited 6 December 2025. No result settles or
+claims to settle the question, so the problem is open. Four published partial
+results are accepted partial claims, each on its refereed publication:
 [[problems/graph_coloring/E0628/claims/1969_03_01_brown_jung|Brown and Jung's case $a=b=3$]],
 [[problems/graph_coloring/E0628/claims/2008_12_28_balogh_kostochka_prince_stiebitz|Balogh, Kostochka, Prince and Stiebitz's quasi-line and independence-number-2 cases]],
 [[problems/graph_coloring/E0628/claims/2018_05_27_song|Song's graphs with no short hole]]
@@ -60,27 +60,27 @@ proof.
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether a
-graph with chromatic number $k$ and no $K_k$ has, for every $a,b\ge 2$ with
-$a+b=k+1$, two disjoint subgraphs of chromatic numbers at least $a$ and at
-least $b$; the site calls such a graph $(a,b)$-splittable and the question
-the Erdős–Lovász Tihany conjecture. The standing is open: no result settles
-or claims to settle the question. The site labeled the problem falsifiable,
-since a counterexample is a single finite graph whose chromatic number,
-clique number and pairs of disjoint subgraphs can be checked by finite
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether a graph with chromatic number $k$ and no $K_k$ has, for every $a,b\ge 2$
+with $a+b=k+1$, two disjoint subgraphs of chromatic numbers at least $a$ and at
+least $b$; erdosproblems.com calls such a graph $(a,b)$-splittable and the
+question the Erdős–Lovász Tihany conjecture. The standing is open: no result
+settles or claims to settle the question. Bloom's catalog labeled the problem
+falsifiable, since a counterexample is a single finite graph whose chromatic
+number, clique number and pairs of disjoint subgraphs can be checked by finite
 enumeration; this is a body note, not a claim. Two partial results credited
-by the site are accepted partial claims on their refereed publications: Brown
-and Jung [BrJu69] proved the case $a=b=3$, which contains the question Erdős
-[Er68b] asked for large $5$-chromatic critical graphs, by showing that such a
-graph contains two vertex-disjoint odd cycles
+by erdosproblems.com are accepted partial claims on their refereed publications:
+Brown and Jung [BrJu69] proved the case $a=b=3$, which contains the question
+Erdős [Er68b] asked for large $5$-chromatic critical graphs, by showing that
+such a graph contains two vertex-disjoint odd cycles
 ([[problems/graph_coloring/E0628/claims/1969_03_01_brown_jung|claim page]]);
 Balogh, Kostochka, Prince and Stiebitz [BKPS09] proved the conjecture for
 quasi-line graphs and for graphs with independence number $2$
 ([[problems/graph_coloring/E0628/claims/2008_12_28_balogh_kostochka_prince_stiebitz|claim
 page]]). Song [So22] surveys the further partial results; three of them,
-linked from the site's discussion thread, have their own pages: Song's
-refereed theorem for graphs with independence number at least $3$ and no hole
-of length between $4$ and $2\alpha(G)-1$
+linked from the erdosproblems.com discussion thread, have their own pages:
+Song's refereed theorem for graphs with independence number at least $3$ and no
+hole of length between $4$ and $2\alpha(G)-1$
 ([[problems/graph_coloring/E0628/claims/2018_05_27_song|claim page]]) and
 Longbrake and Tariq's refereed theorems for the pairs $(s,t)$ with $t\le s+2$
 in graphs containing $K_s$, with $t\le 4s-3$ in claw-free graphs containing
@@ -103,8 +103,8 @@ community database (teorth/erdosproblems) lists the problem as falsifiable
 and unformalized, with a formalized statement since 2026-08-03, which is that
 file.
 
-Search scope: the site's problem page (last edited 6 December 2025, no proof
-claims filed) and discussion thread, the community database, the
+Search scope: the erdosproblems.com problem page (last edited 6 December 2025,
+no proof claims filed) and discussion thread, the community database, the
 formal-conjectures statement file, Crossref and the references listed above.
 <!-- BEGIN problem library links -->
 

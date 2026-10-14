@@ -5,7 +5,7 @@ desc: |
   Ford, Green, Konyagin and Tao prove that the largest prime gap below $X$
   exceeds Rankin's 1938 scale by a factor tending to infinity, so the question's
   bound holds for every constant. The refereed paper appeared in the Annals and
-  is credited by the site's curator.
+  is credited by the erdosproblems.com curator.
 authors:
 - Kevin Ford
 - Ben Green
@@ -61,8 +61,8 @@ day later by a sieve route; Maynard's result has
 [[problems/primes/E0004/claims/2014_08_21_maynard|its own claim page]].
 
 **Acceptance.** The paper is a refereed journal publication, the `refereed`
-evidence. The site's curator, Thomas Bloom, labeled the problem proved and
-credits its solution to this paper and to Maynard's, the `reviewed`
+evidence. The erdosproblems.com curator, Thomas Bloom, labeled the problem
+proved and credits its solution to this paper and to Maynard's, the `reviewed`
 evidence. The page is dated by the preprint's first posting; the journal
 issue appeared in May 2016.
 

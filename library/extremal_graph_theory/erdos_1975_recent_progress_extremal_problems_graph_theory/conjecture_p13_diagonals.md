@@ -36,11 +36,11 @@ $g(n;[kn])$ in the last sentence; $G(n;m)$ is a graph with $n$ vertices and
 $m$ edges. A diagonal of a circuit is a chord; a vertex of $C_l$ with $k-1$
 diagonals is joined to its two neighbors on the circuit and to $k-1$ further
 vertices of it, which is the parenthetical "$k+1$ other vertices". The
-paper's index therefore counts $k-1$ chords at a vertex where the catalog's
-$g_k(n)$ (Problem 767) counts $k$; the conversion between the two is an
-authored remark on the problem page, not made here. Lewin's refutation is
-stated for "large $k$" without a reference; Pósa's $ck^2$ result is stated
-as unpublished.
+paper's index therefore counts $k-1$ chords at a vertex where
+erdosproblems.com's $g_k(n)$ (Problem 767) counts $k$; the conversion between
+the two is an authored remark on the problem page, not made here. Lewin's
+refutation is stated for "large $k$" without a reference; Pósa's $ck^2$ result
+is stated as unpublished.
 
 **Source.** P. Erdős, *Some recent progress on extremal problems in graph
 theory*, Congr. Numer. XIV (1975), 3--14; Chapter 4, printed pp. 13--14 =
@@ -67,8 +67,9 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0767/_index|Problem 767]]: the site's [Er75]
-  source; the conjecture $r(n;k)=k(n-k)+1$ for $n>n_0(k)$ in Erdős's 1975
-  index (which counts $k-1$ diagonals), the bipartite extremal example, and
-  the sentence that Lewin refuted $n_0(k)=2k$ for large $k$, against the
-  site's "perhaps Lewin only disproved this for small $n$".
+- [[../wiki/problems/extremal_graph_theory/E0767/_index|Problem 767]]:
+  erdosproblems.com's [Er75] source; the conjecture $r(n;k)=k(n-k)+1$ for
+  $n>n_0(k)$ in Erdős's 1975 index (which counts $k-1$ diagonals), the bipartite
+  extremal example, and the sentence that Lewin refuted $n_0(k)=2k$ for large
+  $k$, against erdosproblems.com's "perhaps Lewin only disproved this for small
+  $n$".

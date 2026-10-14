@@ -61,8 +61,9 @@ None.
 
 - [[../wiki/problems/set_theory/E0595/_index|Problem 595]]: the opening
   question is this problem's question; a finite graph is always a finite union
-  of triangle-free graphs (single edges), so the site's word "infinite" adds
-  nothing. The paper records the finite analogue and no result on the question.
+  of triangle-free graphs (single edges), so erdosproblems.com's word "infinite"
+  adds nothing. The paper records the finite analogue and no result on the
+  question.
 - [[../wiki/problems/set_theory/E1174/_index|Problem 1174]]: a graph is the
   union of $\aleph_0$ triangle-free graphs exactly when its edges can be colored
   with countably many colors without a monochromatic triangle, so the opening

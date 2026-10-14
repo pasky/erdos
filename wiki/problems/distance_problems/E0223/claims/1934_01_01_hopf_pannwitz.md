@@ -38,10 +38,9 @@ about $d\ge3$.
 Deutschen Mathematiker-Vereinigung 43 (1934), 114, a posed problem whose
 published solutions followed, cited with its volume as the bibliography of
 [[../library/distance_problems/swanepoel_2009_unit_distances_diameters_euclidean_spaces/_index|Swanepoel's
-2009 paper]] gives it; the site records that Erdős's 1946 note describes a
-short proof. That note's Theorem 3, that the maximum
-distance among $n$ planar points occurs at most $n$ times, is summarized on
-the library's
+2009 paper]] gives it; erdosproblems.com records that Erdős's 1946 note
+describes a short proof. That note's Theorem 3, that the maximum distance among
+$n$ planar points occurs at most $n$ times, is summarized on the library's
 [[../library/distance_problems/erdos_1946_sets_distances_points/_index|card
 for Erdős's note]]; the bound is attained, for odd $n$, by the vertices of a
 regular $n$-gon, whose longest diagonals form a cycle of length $n$. Erdős

@@ -4,8 +4,8 @@ title: Kang, Kelly, Kühn, Methuku and Osthus prove the conjecture for large n
 desc: |
   Kang, Kelly, Kühn, Methuku and Osthus (Ann. of Math. 2023) prove that for
   every sufficiently large $n$, an edge-disjoint union of $n$ copies of $K_n$
-  has chromatic number $n$. The threshold is not computed, and the site reads
-  the remaining finite range of $n$ as decidable.
+  has chromatic number $n$. The threshold is not computed, and erdosproblems.com
+  reads the remaining finite range of $n$ as decidable.
 authors:
 - Dong Yeap Kang
 - Tom Kelly
@@ -65,18 +65,19 @@ $n\le 10$ is settled by
 [[problems/graph_coloring/E0019/claims/1981_06_01_hindman|Hindman's partial
 claim]]. The claim proves the statement for every $n\ge n_0$ and does not
 settle the exact question for every $n$: the remaining $n<n_0$ form a finite
-check whose size no published argument specifies, and the site's label
-decidable is its reading of that remaining range.
+check whose size no published argument specifies, and the erdosproblems.com
+label decidable is its reading of that remaining range.
 
 **Acceptance.** Refereed: Kang, Dong Yeap, Kelly, Tom, Kühn, Daniela, Methuku,
 Abhishek and Osthus, Deryk, A proof of the Erdős–Faber–Lovász conjecture, Ann.
 of Math. (2) 198 (2023), no. 2, 537–618, doi:10.4007/annals.2023.198.2.2. The
-Crossref record dates the issue to September 2023. The site's reference key
-[KKKMO21] cites the arXiv preprint, first posted on 12 January 2021, which is
-the claim's date. The site's curator, Thomas Bloom, credits the authors with the
-answer yes for all sufficiently large $n$ and labeled the problem decidable.
-That label does not settle the problem, so the credit is context and not
-`reviewed` evidence. The acceptance rests on the refereed publication.
+Crossref record dates the issue to September 2023. The erdosproblems.com
+reference key [KKKMO21] cites the arXiv preprint, first posted on 12 January
+2021, which is the claim's date. The erdosproblems.com curator, Thomas Bloom,
+credits the authors with the answer yes for all sufficiently large $n$ and
+labeled the problem decidable. That label does not settle the problem, so the
+credit is context and not `reviewed` evidence. The acceptance rests on the
+refereed publication.
 
 The Lean 4 file linked above, in Boris Alexeev's repository of Lean proofs,
 formalizes the result. Its theorem `erdos19` states that for some $N$ and every

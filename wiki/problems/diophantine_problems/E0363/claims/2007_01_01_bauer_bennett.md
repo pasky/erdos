@@ -61,10 +61,10 @@ of integral points on the hypersurfaces defined by the product equation,
 extending the polynomial identities Ulas used.
 
 **Acceptance.** The result appeared in a refereed journal in 2007, which is the
-`refereed` evidence. The site's curator, Thomas Bloom, credits Bauer and Bennett
-in the problem's commentary with the cases $n=3$ and $n=5$ of blocks of four.
-That curator credit is the `reviewed` evidence. Bennett and Van Luijk's 2012
-paper
+`refereed` evidence. The erdosproblems.com curator, Thomas Bloom, credits Bauer
+and Bennett in the problem's commentary with the cases $n=3$ and $n=5$ of blocks
+of four. That curator credit is the `reviewed` evidence. Bennett and Van Luijk's
+2012 paper
 ([[../library/diophantine_problems/bennett_2012_squares_blocks_consecutive_integers_problem_erdos/_index|card]])
 builds on the method. It is the second author's own later work, so it is not
 independent review. Ulas's earlier disproof is on

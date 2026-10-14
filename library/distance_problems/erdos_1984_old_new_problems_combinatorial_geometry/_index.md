@@ -57,9 +57,9 @@ u_i are all distinct; when all the u_i equal a common value t_n, he notes that
 t_n = 1 is possible, that t_n = n is possible if and only if n is odd, and that
 t_n <= n by Pannwitz's diameter result, and asks which values t_n can take. The
 paper prints no statement of Problem 132's question (must two distances occur,
-each between at most n pairs), although the site cites this paper for it; what
-it holds nearest to that question is Pannwitz's bound that the diameter occurs
-at most n times (p. 135).
+each between at most n pairs), although erdosproblems.com cites this paper for
+it; what it holds nearest to that question is Pannwitz's bound that the diameter
+occurs at most n times (p. 135).
 
 Read status: claims checked. The whole paper, pp. 129-136, was read on the page
 images; the statements listed under Results were read clause by clause, and the
@@ -76,11 +76,11 @@ of the distinct distances are not a permutation of 1, ..., n-1 unless the points
 are equidistant on a line or a circle, printed with the n = 4 example and with
 Pomerance's n = 5 and Berkes's n = 6 counterexamples
 ([[distance_problems/erdos_1984_old_new_problems_combinatorial_geometry/conjecture_p135|conjecture_p135]]).
-[[../wiki/problems/distance_problems/E0132/_index|#132]]: the site cites this
-paper for the problem, but the paper prints no statement of its question; it
-gives, on p. 135, Pannwitz's bound that the diameter occurs at most n times, the
-regular (2k+1)-gon in which every distance occurs 2k+1 times, and the question
-which common multiplicities t_n are possible
+[[../wiki/problems/distance_problems/E0132/_index|#132]]: erdosproblems.com
+cites this paper for the problem, but the paper prints no statement of its
+question; it gives, on p. 135, Pannwitz's bound that the diameter occurs at most
+n times, the regular (2k+1)-gon in which every distance occurs 2k+1 times, and
+the question which common multiplicities t_n are possible
 ([[distance_problems/erdos_1984_old_new_problems_combinatorial_geometry/question_p135|question_p135]]).
 
 **Results.**

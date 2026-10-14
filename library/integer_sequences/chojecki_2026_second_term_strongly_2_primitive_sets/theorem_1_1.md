@@ -3,8 +3,9 @@ name: integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets/theo
 title: "Theorem 1.1: F(n) = π(n) + (27/2 + o(1)) n^{2/3}/(log n)^2"
 desc: |
   The second-order asymptotic for the largest subset of one through n in which
-  no member divides the product of two others; the site's accepted resolution
-  of Problem 793, from a manuscript whose author declares AI assistance.
+  no member divides the product of two others; erdosproblems.com's accepted
+  resolution of Problem 793, from a manuscript whose author declares AI
+  assistance.
 created: 2026-09-18T06:15:00Z
 updated: 2026-10-08T15:15:22Z
 ---
@@ -27,7 +28,7 @@ The introduction (p. 1) states Erdős's 1938 two-sided bound
 $\pi(n)+c_1n^{2/3}/(\log n)^2\le F(n)\le\pi(n)+c_2n^{2/3}/(\log n)^2$, with
 absolute constants $c_1,c_2>0$, and says that Erdős "later asked whether the
 error term has an asymptotic constant [4]; this is also Erdős Problem 793
-[1]". The manuscript's convention is the site's; it differs from the
+[1]". The manuscript's convention is erdosproblems.com's; it differs from the
 convention of its reference [2], in which $b$ and $c$ must be distinct.
 
 **Source.** P. Chojecki, *The second term for strongly 2-primitive sets*,
@@ -35,10 +36,11 @@ five-page manuscript hosted at ulam.ai (retrieved 2026-09-18; PDF metadata
 dated 13 July 2026); Theorem 1.1 on p. 1, read on the page image and in the
 text layer; the proof is Propositions 2.4 (p. 3) and 3.4 (p. 5). The byline
 footnote (p. 1) declares AI assistance "in exploring the argument and in
-writing this text"; the site's commentary attributes the proof to an AI
-model prompted by the author. The manuscript is also posted as
+writing this text"; the erdosproblems.com commentary attributes the proof to an
+AI model prompted by the author. The manuscript is also posted as
 arXiv:2607.15306 (submitted 14 July 2026), and the arXiv posting is not
-refereeing; the site accepted the manuscript as the resolution on 14 July
+refereeing; erdosproblems.com accepted the manuscript as the resolution on 14
+July
 2026. The card records the provenance.
 
 **Read depth.** Claims checked: the statement, the definition and
@@ -93,7 +95,7 @@ No result of the literature beyond these is consumed.
 
 - [[../wiki/problems/integer_sequences/E0793/_index|Problem 793]]: the statement is the
   problem's asymptotic with $C=27/2$, under the problem's convention
-  ($b=c$ allowed); the site labeled the problem PROVED (LEAN) and its
+  ($b=c$ allowed); Bloom's catalog labeled the problem PROVED (LEAN) and its
   commentary credits this manuscript. The two halves are
   [[integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets/proposition_2_4|Proposition 2.4]] (upper bound) and
   [[integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets/proposition_3_4|Proposition 3.4]] (lower bound).

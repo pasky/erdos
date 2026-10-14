@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 1010, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E1010/claims
@@ -20,8 +20,8 @@ $\lfloor n^2/4\rfloor+k$ edges, where $k<n/2$, has at least
 $k\lfloor n/2\rfloor$ triangles. The proof is in the 1976 paper and in the
 1983 chapter.
 
-[[problems/extremal_graph_theory/E1010/claims/1981_01_01_nikiforov_khadzhiivanov|1981_01_01_nikiforov_khadzhiivanov]]: The site credits a 1981 note by Nikiforov and Khadzhiivanov in the Comptes
-rendus of the Bulgarian Academy with an independent proof of the
+[[problems/extremal_graph_theory/E1010/claims/1981_01_01_nikiforov_khadzhiivanov|1981_01_01_nikiforov_khadzhiivanov]]: erdosproblems.com credits a 1981 note by Nikiforov and Khadzhiivanov in the
+Comptes rendus of the Bulgarian Academy with an independent proof of the
 Erdős–Rademacher conjecture. The note is not held, and no record of it was
 found.
 

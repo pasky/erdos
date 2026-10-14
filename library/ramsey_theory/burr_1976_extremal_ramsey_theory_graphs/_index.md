@@ -116,16 +116,17 @@ All twelve pages were read on the page images (pp. 247--248, 251--253 and
 checked and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0549/_index|#549]]: Lemma 4.1 gives the
-trees $S_{2k,k}$, with parts $2k$ and $k$, attaining $r=4k-1$ (the site's
-path-with-two-stars family), and Theorem 4.1 shows that $4k-1$ is the least
-Ramsey number over all connected bipartite graphs with parts $2k$ and $k$;
-the problem asks whether every tree with these parts attains it. The extremal
-functions $\operatorname{exr}$ and $\operatorname{Exr}$ themselves are not the
-problem's question. [[../wiki/problems/ramsey_theory/E0545/_index|#545]]: the p. 257
-conjecture is the $t=0$ case of the problem with the restriction $k\ge4$, and
-the p. 251 conjecture concerns the case $t=1$: it asserts that the problem's
-graph $H$ there, $K_n$ with one pendant edge, has the same Ramsey number as
-$K_n$ for $n\ge4$, which Theorem 3 of
+trees $S_{2k,k}$, with parts $2k$ and $k$, attaining $r=4k-1$
+(erdosproblems.com's path-with-two-stars family), and Theorem 4.1 shows that
+$4k-1$ is the least Ramsey number over all connected bipartite graphs with parts
+$2k$ and $k$; the problem asks whether every tree with these parts attains it.
+The extremal functions $\operatorname{exr}$ and $\operatorname{Exr}$ themselves
+are not the problem's question.
+[[../wiki/problems/ramsey_theory/E0545/_index|#545]]: the p. 257 conjecture is
+the $t=0$ case of the problem with the restriction $k\ge4$, and the p. 251
+conjecture concerns the case $t=1$: it asserts that the problem's graph $H$
+there, $K_n$ with one pendant edge, has the same Ramsey number as $K_n$ for
+$n\ge4$, which Theorem 3 of
 [[ramsey_theory/burr_1989_difference_between_consecutive_ramsey_numbers/_index|Burr, Erdős, Faudree and Schelp (1989)]]
 with $m=n\ge4$ proves (a specialization made here).
 

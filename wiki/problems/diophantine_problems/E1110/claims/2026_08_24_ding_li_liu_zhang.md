@@ -32,13 +32,13 @@ that are sums of numbers $2^a5^b$ no one of which divides another has
 positive lower density: its counting function satisfies $\mathcal{R}(x)\gg
 x$. The manuscript *On a problem on $d$-complete sequences* by Yuchen Ding,
 Huixi Li, Honghu Liu and Zihan Zhang was posted on ResearchGate and claimed
-on the site's proof-claims tab on 2026-08-24 as a partial proof, with the AI
-system GPT 5.6 Sol named as used. Yu and Chen [YuCh22] had shown that the
+on the erdosproblems.com proof-claims tab on 2026-08-24 as a partial proof, with
+the AI system GPT 5.6 Sol named as used. Yu and Chen [YuCh22] had shown that the
 representable numbers have density zero for $q>3$, for $q=3$ with $p>6$ and
 for $q=2$ with $p>10$; the pair $(5,2)$ lies outside those ranges, and the
 claim shows that its representable numbers are a positive proportion rather
 than a null set. The description below follows the claim's summary and
-notes on the site's proof-claims tab, not the manuscript.
+notes on the erdosproblems.com proof-claims tab, not the manuscript.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Yuchen
 Ding, Huixi Li, Honghu Liu, Zihan Zhang (account Honghu_Liu) on 24 August 2026,
@@ -98,8 +98,8 @@ bound for this pair, positive lower density of the representable integers,
 without determining the density.
 
 **Standing.** Claimed. The claim is a manuscript on a preprint-sharing
-site with no journal record found; the site labeled the problem open (page
-last edited 1 April 2026); no review is recorded. The later claim
+site with no journal record found; Bloom's catalog labeled the problem open
+(page last edited 1 April 2026); no review is recorded. The later claim
 [[problems/diophantine_problems/E1110/claims/2026_09_29_becart|Bécart 2026]]
 describes itself as an extension of this finite-certificate method to the
 pair $(7,2)$. Nothing on this page is independently reviewed by this project.

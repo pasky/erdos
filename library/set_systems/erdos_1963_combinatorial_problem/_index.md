@@ -58,7 +58,7 @@ bound C_p of the sum of 2^{-alpha_i} over finite or infinite families of finite
 sets without property B with alpha_i >= p >= 2 for all i, and states without
 proof that positive absolute constants c_1 and c_2 exist with (1+c_1)^s <
 m(p,s) < (1+c_2)^s for the analogous function of property B(s). For problem
-901 this paper supplies the lower bound 2^p << m(p) quoted on the site.
+901 this paper supplies the lower bound 2^p << m(p) quoted on erdosproblems.com.
 
 Source: <https://users.renyi.hu/~p_erdos/1963-06.pdf>.
 

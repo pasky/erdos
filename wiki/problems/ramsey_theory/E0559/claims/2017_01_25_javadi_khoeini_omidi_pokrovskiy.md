@@ -59,10 +59,10 @@ Not covered: other graphs.
 
 **Acceptance.** Refereed: On the size-Ramsey number of cycles, Combin. Probab.
 Comput. 28 (2019), no. 6, 871--880, published online 17 July 2019 (the Crossref
-record). The site's curator, T. F. Bloom, credits the paper in the problem's
-commentary with an alternative proof for cycles with better constants. But the
-DISPROVED label settles the problem in the negative and credits no positive
-sub-claim, so the credit is not `reviewed` evidence.
+record). The erdosproblems.com curator, T. F. Bloom, credits the paper in the
+problem's commentary with an alternative proof for cycles with better constants.
+But the DISPROVED label settles the problem in the negative and credits no
+positive sub-claim, so the credit is not `reviewed` evidence.
 
 **Read depth.** Claims checked: Theorem 1.1 and the abstract (pp. 1--2)
 and the two-color consequences of Theorems 3.4 and 3.6 (pp. 11--12) in

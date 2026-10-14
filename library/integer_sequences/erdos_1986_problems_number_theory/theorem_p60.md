@@ -91,7 +91,7 @@ prime-rich interval (p. 61); the Chinese remainder theorem.
   primes and $N=p_1$, an interval of length $2N$ inside the interval $I$ of
   length $(3-\epsilon)p_1$ (for $\epsilon<1$) contains at most $2k$ distinct
   multiples of members of $A$, so $f(k^2)\le2k$ (a deduction made here); this
-  is the bound the site states as "$f(m^2)\le2m$, which implies
+  is the bound erdosproblems.com states as "$f(m^2)\le2m$, which implies
   $f(m)\le2\lceil\sqrt m\rceil$".
 - [[../wiki/problems/primes/E1143/_index|Problem 1143]]: in the problem's
   notation (primes $p_1<\cdots<p_u$, so $p_u$ is the largest), take $u=k^2$.

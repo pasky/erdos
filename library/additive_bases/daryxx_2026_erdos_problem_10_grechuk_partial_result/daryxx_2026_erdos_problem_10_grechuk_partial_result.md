@@ -28,12 +28,12 @@ raw URLs at that revision (HTTP 200):
 - `ERDOSPROBLEMS_PARTIAL_PROOF.md`, 73 lines, 2,820 bytes; its text follows
   below.
 - `Main.lean`, 2,289 lines, 100,643 bytes, with SHA-256 matching the digest
-  the write-up and the site proof claim state. It is not held here. Its final
-  declaration (lines 2287-2289) is `theorem target :`
+  the write-up and the erdosproblems.com proof claim state. It is not held here.
+  Its final declaration (lines 2287-2289) is `theorem target :`
   `Set.Infinite ({n : ℕ | Even n} \ Erdos10.sumPrimeAndTwoPows 3)`, closed
   by `exact CrockerCRTAssembly.erdos10_grechuk`. A text scan found no
   `sorry`, `native_decide`, `axiom`, `unsafe`, `import` or `set_option`. The
-  file was read as text and not built; the site's kernel acceptance of it
+  file was read as text and not built; Conjectures.io's kernel acceptance of it
   (Conjectures.io record `ce95887b-8b61-4a89-9069-9131a58906e0`) is recorded
   on the
   [[additive_bases/daryxx_2026_erdos_problem_10_grechuk_partial_result/_index|digest]].

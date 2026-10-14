@@ -4,8 +4,8 @@ title: Problem 129
 desc: |
   Asks for a constant $C=C(r)>1$ with $R(n;3,r)<C^{\sqrt n}$, where $R(n;3,r)$
   is the least $N$ such that every $r$-coloring of $K_N$ has $n$ vertices with
-  no triangle in some color. A random coloring refutes the site's wording, and
-  no source gives another intended form.
+  no triangle in some color. A random coloring refutes the erdosproblems.com
+  wording, and no source gives another intended form.
 tags:
 - Graph theory
 - Ramsey theory
@@ -32,52 +32,54 @@ $$
 R(n;3,r) < C^{\sqrt{n}}.
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
-last-edited date). The commentary attributes the problem to Erdős and Gyárfás
-and credits them with a proof of $R(n;3,r)>C^{\sqrt n}$ for some $C>1$,
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited date). The commentary attributes the problem to Erdős and
+Gyárfás and credits them with a proof of $R(n;3,r)>C^{\sqrt n}$ for some $C>1$,
 records Erdős's expectation that $C_1^{n^{1/k-1}}<R(n;k,r)<C_2^{n^{1/k-1}}$
-for all $r,k\ge2$ (the exponent as the site prints it), and notes that $r=k=2$
-gives the classical Ramsey numbers. All three statements are in [Er97b], item
-2 (printed p. 228), quoted below; the Erdős--Gyárfás paper of 1997 on
-$(p,q)$-colorings, [ErGy97], does not contain the problem. The site's
+for all $r,k\ge2$ (the exponent as erdosproblems.com prints it), and notes that
+$r=k=2$ gives the classical Ramsey numbers. All three statements are in [Er97b],
+item 2 (printed p. 228), quoted below; the Erdős--Gyárfás paper of 1997 on
+$(p,q)$-colorings, [ErGy97], does not contain the problem. The erdosproblems.com
 commentary guesses that Erdős had a different question in mind, one in which a
 random construction yields only $C^{\sqrt n}$, the bound he and Gyárfás
 reported, and says that it cannot identify that question; its information box
 records that the original source leaves the intended problem ambiguous. The
 guess names no definite question, so there is no variant to answer. No source
-named here states a variant that the site or a paper endorses as the intended
-question; [Er97b] itself states the question in the site's form and no other
-(below), and the bound $C^{\sqrt n}$ is Erdős's own print there.
+named here states a variant that erdosproblems.com or a paper endorses as the
+intended question; [Er97b] itself states the question in the erdosproblems.com
+form and no other (below), and the bound $C^{\sqrt n}$ is Erdős's own print
+there.
 
-**Status.** Labeled open on the site. The site explains the label by the
-ambiguity of the original source: the OPEN describes the question Erdős
-intended, which the site cannot identify, not the question the site prints. The
-frontmatter standing is claimed, through the full claim on the claim page
+**Status.** Labeled open on erdosproblems.com. erdosproblems.com explains the
+label by the ambiguity of the original source: the OPEN describes the question
+Erdős intended, which erdosproblems.com cannot identify, not the question
+erdosproblems.com prints. The frontmatter standing is claimed, through the full
+claim on the claim page
 [[problems/ramsey_theory/E0129/claims/2025_10_20_girao|Girão's observation]].
 That page records the disproof and its postings as a pending claim. The curator
 wrote its only posting and kept the problem OPEN, so there is no independent
 review.
 
 The Statement asks for a constant $C(r)$ with $R(n;3,r)<C^{\sqrt n}$, and it
-fails for every $r$. The site says so: its commentary credits Girão with the
-observation that a random coloring gives $R(n;3,2)\ge C^n$ for some $C>1$. The
-argument runs as follows. Take a uniformly random red-blue coloring of $K_N$ and
-a fixed set $S$ of $n$ vertices. The set $S$ contains $t\gg n^2$ edge-disjoint
-triangles, each monochromatic red with probability $1/8$ independently. So the
-probability that $S$ has no red triangle is at most $(7/8)^t$, and the same
-holds for blue. Sum over the $\binom Nn\le(eN/n)^n$ sets $S$ and the two colors.
-The expected number of $n$-sets missing a triangle in some color is at most
-$2(eN/n)^n(7/8)^t<1$ once $N\le C^n$ for a suitable absolute $C>1$. So some
-coloring has every $n$-set containing both a red and a blue triangle, and
-$R(n;3,2)>N$. The thread's Steiner-triple-system version extends the argument to
-an exponential lower bound for every $r\ge3$. For large $n$, no $C^{\sqrt n}$
-exceeds an exponential in $n$. The failure holds for every $r$ and every large
-$n$, not only at boundary values. The bound is also Erdős's own print in
-[Er97b]. For these reasons the Statement is judged as printed.
+fails for every $r$. erdosproblems.com says so: its commentary credits Girão
+with the observation that a random coloring gives $R(n;3,2)\ge C^n$ for some
+$C>1$. The argument runs as follows. Take a uniformly random red-blue coloring
+of $K_N$ and a fixed set $S$ of $n$ vertices. The set $S$ contains $t\gg n^2$
+edge-disjoint triangles, each monochromatic red with probability $1/8$
+independently. So the probability that $S$ has no red triangle is at most
+$(7/8)^t$, and the same holds for blue. Sum over the $\binom Nn\le(eN/n)^n$ sets
+$S$ and the two colors. The expected number of $n$-sets missing a triangle in
+some color is at most $2(eN/n)^n(7/8)^t<1$ once $N\le C^n$ for a suitable
+absolute $C>1$. So some coloring has every $n$-set containing both a red and a
+blue triangle, and $R(n;3,2)>N$. The thread's Steiner-triple-system version
+extends the argument to an exponential lower bound for every $r\ge3$. For large
+$n$, no $C^{\sqrt n}$ exceeds an exponential in $n$. The failure holds for every
+$r$ and every large $n$, not only at boundary values. The bound is also Erdős's
+own print in [Er97b]. For these reasons the Statement is judged as printed.
 
 **Source.** [erdosproblems.com/129](https://www.erdosproblems.com/129),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that the
-problem cannot be settled by a finite computation; no last-edited date
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that the problem cannot be settled by a finite computation; no last-edited date
 shown; source key [Er97b]; no formalized statement; an information box
 saying that the original source leaves the problem ambiguous), its
 three-comment discussion thread and its empty proof-claim tab. Cite as: T. F.
@@ -88,9 +90,9 @@ Bloom, Erdős Problem #129, https://www.erdosproblems.com/129, accessed
 
 - [Er97b] Erdős, Paul, Some old and new problems in various branches of
   combinatorics. Discrete Math. 165/166 (1997), 227--231,
-  doi:10.1016/S0012-365X(96)00173-2. The site's reference text for the key
-  (2026-09-18) names this paper, the same one the site cites for Problems
-  130, 131, 133 and 135. Item 2, printed p. 228: the definition of
+  doi:10.1016/S0012-365X(96)00173-2. The erdosproblems.com reference text for
+  the key (2026-09-18) names this paper, the same one erdosproblems.com cites
+  for Problems 130, 131, 133 and 135. Item 2, printed p. 228: the definition of
   $f_k^{(r)}(n)$, the bound (1), the conjecture (2) and the expectation
   (3), quoted below. Library home:
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|erdos_1997_some_old_new_problems_various_branches_combinatorics]];
@@ -98,17 +100,18 @@ Bloom, Erdős Problem #129, https://www.erdosproblems.com/129, accessed
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/section_2|Item 2]].
 - [ErGy97] Erdős, P. and Gyárfás, A., A variant of the classical Ramsey
   problem. Combinatorica 17 (1997), no. 4, 459--467, doi:10.1007/BF01195000
-  (Crossref record, 2026-09-18; received 15 September 1996). It is not the
-  site's [Er97b] and it does not state this problem (below).
+  (Crossref record, 2026-09-18; received 15 September 1996). It is not
+  erdosproblems.com's [Er97b] and it does not state this problem (below).
 
 **Formalization.** None. formal-conjectures has no statement file for Problem
-129 (main, 2026-09-18); the site's indicator shows no formalized statement, and
-the community database (teorth/erdosproblems), records the problem open (31
-August 2025), unformalized, with a comment that the statement is ambiguous.
+129 (main, 2026-09-18); the erdosproblems.com indicator shows no formalized
+statement, and the community database (teorth/erdosproblems), records the
+problem open (31 August 2025), unformalized, with a comment that the statement
+is ambiguous.
 
 ## Current assessment
 
-**The question (site formulation, 2026-09-18).** The statement
+**The question (erdosproblems.com formulation, 2026-09-18).** The statement
 above; OPEN; source key [Er97b]. The commentary attributes the conjecture
 to Erdős and Gyárfás, who proved $R(n;3,r)>C^{\sqrt n}$ for some $C>1$,
 notes that $r=k=2$ gives the classical Ramsey numbers, and records Erdős's
@@ -131,8 +134,8 @@ was intended. The proof-claim tab is empty. The community database record, read
 2026-09-18, says open (31 August 2025), not formalized, with a comment that the
 statement is ambiguous.
 
-**The origin, located.** The site's key [Er97b] is Erdős's Discrete Mathematics
-problem paper of 1997 (Discrete Math. 165/166 (1997),
+**The origin, located.** The erdosproblems.com key [Er97b] is Erdős's Discrete
+Mathematics problem paper of 1997 (Discrete Math. 165/166 (1997),
 doi:10.1016/S0012-365X(96)00173-2; its library card and Item 2 result page are
 linked under References); its item 2 (printed p. 228) states the problem:
 "Denote by $f_k^{(r)}(n)$ the largest integer for which one can color the edges
@@ -147,33 +150,34 @@ $\exp(c_1^{(r)}n^{1/k-1})<f_k^{(r)}(n)<\exp(c_2^{(r)}n^{1/k-1})$ as his display
 (3), whose lower bound the probabilistic proof will probably give, and promises
 a separate paper with Gyárfás on related problems. Since $f_k^{(r)}(n)+1$ is the
 least $N$ such that every $r$-coloring of $K_N$ has an $n$-set missing $K_k$ in
-some color, the site's $R(n;k,r)$, the site's statement is (2), the lower bound
-$R(n;3,r)>C^{\sqrt n}$ it credits to Erdős and Gyárfás is (1), and its
-expectation with the exponent printed "$1/k-1$" is (3); the site transcribes the
-item faithfully. The random-coloring argument above applies to (2) as printed:
-$f_3^{(2)}(n)\ge C^n$, so (2) is false and (1) is true but far from the truth.
-No proof of (1) is printed. The 1997 Combinatorica paper of Erdős and Gyárfás,
-[ErGy97], the natural candidate for the joint work behind the site's
-attribution, studies $f(n,p,q)$, the least number of colors in an edge-coloring
-of $K_n$ in which every $K_p$ receives at least $q$ colors (a $(p,q)$-coloring),
-and the only square roots in it bound numbers of colors, not orders of complete
-graphs: "the $o(n)$ upper bound (*) is improved here to $c\sqrt n$" for
-$f(n,4,3)$ (p. 460, "a special case of Theorem 1"), and "it is already noted in
-(*) that $c\sqrt n\le f(n,4,4)$ because a color class in a $(4,4)$-coloring of
-$K_n$ can not contain a cycle of length four" (p. 466). The paper defines no
-function of the form $R(n;k,r)$, states no bound of the form $C^{\sqrt n}$ on a
-Ramsey number, and its problems (Problems 1--3 and Section 8) concern the
-linearity and growth of $f(n,p,q)$. So it is not the origin of the site's
-statement; the "separate paper" that item 2 promises is not identified. The
-ambiguity the site's commentary records is therefore about what Erdős intended,
-not about what he wrote. No source named here supplies another intended form.
+some color, erdosproblems.com's $R(n;k,r)$, the erdosproblems.com statement is
+(2), the lower bound $R(n;3,r)>C^{\sqrt n}$ it credits to Erdős and Gyárfás is
+(1), and its expectation with the exponent printed "$1/k-1$" is (3);
+erdosproblems.com transcribes the item faithfully. The random-coloring argument
+above applies to (2) as printed: $f_3^{(2)}(n)\ge C^n$, so (2) is false and (1)
+is true but far from the truth. No proof of (1) is printed. The 1997
+Combinatorica paper of Erdős and Gyárfás, [ErGy97], the natural candidate for
+the joint work behind the erdosproblems.com attribution, studies $f(n,p,q)$, the
+least number of colors in an edge-coloring of $K_n$ in which every $K_p$
+receives at least $q$ colors (a $(p,q)$-coloring), and the only square roots in
+it bound numbers of colors, not orders of complete graphs: "the $o(n)$ upper
+bound (*) is improved here to $c\sqrt n$" for $f(n,4,3)$ (p. 460, "a special
+case of Theorem 1"), and "it is already noted in (*) that $c\sqrt n\le f(n,4,4)$
+because a color class in a $(4,4)$-coloring of $K_n$ can not contain a cycle of
+length four" (p. 466). The paper defines no function of the form $R(n;k,r)$,
+states no bound of the form $C^{\sqrt n}$ on a Ramsey number, and its problems
+(Problems 1--3 and Section 8) concern the linearity and growth of $f(n,p,q)$. So
+it is not the origin of the erdosproblems.com statement; the "separate paper"
+that item 2 promises is not identified. The ambiguity the erdosproblems.com
+commentary records is therefore about what Erdős intended, not about what he
+wrote. No source named here supplies another intended form.
 
 **Search scope.** None of the routes below found another
 source stating the problem, a variant endorsed by a source, a proof, or a
 proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
-  site's reference text for the key [Er97b]; the community database
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  erdosproblems.com reference text for the key [Er97b]; the community database
   record; the formal-conjectures directory (no file 129).
 - arXiv: the API searches `all:Erdos AND all:Gyarfas AND all:Ramsey AND
   all:variant` (no records), `abs:Erdos AND abs:Gyarfas AND abs:Ramsey AND
@@ -186,19 +190,21 @@ proof claim.
   $n$ vertices" and "Problem".
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Item 2 of [Er97b], the
-passage the site cites, confirms the site's transcription (above).
+passage erdosproblems.com cites, confirms erdosproblems.com's transcription
+(above).
 
-**Remaining gaps.** (1) The Statement is false for every $r$ by the site's
-argument, given under Status, and the standing describes it; the site's OPEN
-is recorded as the site's label. If a source identifies the intended question,
-it enters the Formulation as a variant with its own answer, and the Statement
-keeps the site's wording. (2) The origin is located: item 2 of [Er97b] states
-the problem, the lower bound (1) and the expectation (3) in the site's form,
-with no proof of (1) printed and the joint paper with Gyárfás unidentified;
-[ErGy97] does not state the problem, so the site's attribution of the conjecture
-and of the lower bound $C^{\sqrt n}$ to Erdős and Gyárfás rests on Erdős's
-report in [Er97b]. (3) No source supports a form other than the site's, so
-nothing is compiled beyond the disproof of the Statement.
+**Remaining gaps.** (1) The Statement is false for every $r$ by
+erdosproblems.com's argument, given under Status, and the standing describes it;
+erdosproblems.com's OPEN is recorded as the erdosproblems.com label. If a source
+identifies the intended question, it enters the Formulation as a variant with
+its own answer, and the Statement keeps the erdosproblems.com wording. (2) The
+origin is located: item 2 of [Er97b] states the problem, the lower bound (1) and
+the expectation (3) in the erdosproblems.com form, with no proof of (1) printed
+and the joint paper with Gyárfás unidentified; [ErGy97] does not state the
+problem, so the erdosproblems.com attribution of the conjecture and of the lower
+bound $C^{\sqrt n}$ to Erdős and Gyárfás rests on Erdős's report in [Er97b]. (3)
+No source supports a form other than erdosproblems.com's, so nothing is compiled
+beyond the disproof of the Statement.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -53,13 +53,13 @@ and the finite-dimension remark at
 of the source card.
 
 **Acceptance.** The result is refereed, since it appeared in the Bulletin of the
-American Mathematical Society. Thomas Bloom, the site's curator, marked the
-problem disproved. The curator credits Kahn and Kalai for the disproof, and
-Brouwer and Jenrich for the smallest dimension the site records (problem page
-last edited 30 December 2025). The corpus's own rewritten chain for Theorem 1
-passed an independent review at its stated scope, and that review is retained
-on the source card. The record is local proof coverage and is not counted as
-acceptance evidence here.
+American Mathematical Society. Thomas Bloom, the erdosproblems.com curator,
+marked the problem disproved. The curator credits Kahn and Kalai for the
+disproof, and Brouwer and Jenrich for the smallest dimension erdosproblems.com
+records (problem page last edited 30 December 2025). The corpus's own rewritten
+chain for Theorem 1 passed an independent review at its stated scope, and that
+review is retained on the source card. The record is local proof coverage and is
+not counted as acceptance evidence here.
 
 **Formalization.** Boris Alexeev's GitHub repository `lean-proofs` holds, at
 the pinned commit linked above, a Lean 4 file whose header declares it a
@@ -69,11 +69,11 @@ self-contained Kahn--Kalai type construction in dimension 946: it defines the
 Borsuk number, constructs a finite set in $\mathbb R^{946}$ and proves that
 its Borsuk number is at least 1650 (`Erdos505.f_946_ge_1650`,
 `Erdos505.not_erdos_505`), under Lean 4.24.0 and the Mathlib revision the
-file's header names. Alexeev announced it on the site's discussion thread on
-3 February 2026; the site's label carried a Lean marker. The dimension and
-the explicit set differ from the paper's $n=1325$, and this corpus has not
-built the file, audited its axioms or reviewed its statement, so the file is
-a link here and not `formalized` evidence.
+file's header names. Alexeev announced it on the erdosproblems.com discussion
+thread on 3 February 2026; the erdosproblems.com label carried a Lean marker.
+The dimension and the explicit set differ from the paper's $n=1325$, and this
+corpus has not built the file, audited its axioms or reviewed its statement, so
+the file is a link here and not `formalized` evidence.
 
 The formal-conjectures file
 [BorsukConjecture.lean](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/Wikipedia/BorsukConjecture.lean),

@@ -72,5 +72,5 @@ Rödl. External premises are taken at statement level.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0986/_index|Problem 986]]: the statement is the
-  problem's inequality with $c(s)=2s-4$; the site records the problem as
-  proved on its strength.
+  problem's inequality with $c(s)=2s-4$; erdosproblems.com records the problem
+  as proved on its strength.

@@ -61,14 +61,14 @@ Theorem 1.1 of the same paper and the sorting-network lemmas of Section
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: the site credits
-  the "very large $A$ case", $t\ge(1-o(1))p$, to this paper. The paper does
-  not state that case for subsets; Theorem 6.9 in the division digraph
-  yields it, by the following reading made here and not in the source. In
-  $K_{\mathbb F_p}^-$ a directed rainbow path $v_0\to v_1\to\cdots\to v_t$
-  with color set $C$ uses each $c\in C$ once as a step $v_i-v_{i-1}$, so
-  its colors in path order form an ordering of $C$ whose partial sums
-  $v_i-v_0$ are distinct, and conversely. Given
+- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]:
+  erdosproblems.com credits the "very large $A$ case", $t\ge(1-o(1))p$, to this
+  paper. The paper does not state that case for subsets; Theorem 6.9 in the
+  division digraph yields it, by the following reading made here and not in the
+  source. In $K_{\mathbb F_p}^-$ a directed rainbow path
+  $v_0\to v_1\to\cdots\to v_t$ with color set $C$ uses each $c\in C$ once as a
+  step $v_i-v_{i-1}$, so its colors in path order form an ordering of $C$ whose
+  partial sums $v_i-v_0$ are distinct, and conversely. Given
   $S\subseteq\mathbb F_p\setminus\{0\}$ with $|S|\ge p-p^{1/2}+1$ and $p$
   large: if $\sum S\ne0$, take $C=S$, $x=0$, $y=\sum S$ and $V$ any
   $|S|-1$ further elements, and Theorem 6.9 gives a valid ordering of $S$;

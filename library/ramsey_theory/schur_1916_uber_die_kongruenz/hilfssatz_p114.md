@@ -29,12 +29,12 @@ The paper concerns integers and congruences only. The passage from a
 sum-free partition of $\{1,\ldots,N\}$ to a triangle-free $m$-coloring of
 $K_{N+1}$ (color the edge $\{i,j\}$ by the class of $|i-j|$), and hence the
 lower bound $R_m(K_3)\ge S(m)+2$, and the factorial upper bound
-$R_m(K_3)\le m!\,e+1$ that the site's page for Problem 554 credits to
+$R_m(K_3)\le m!\,e+1$ that the erdosproblems.com page for Problem 554 credits to
 Schur, which comes from the Greenwood--Gleason recursion rather than from
 this lemma, are not in the paper; Erdős's 1981 survey (p. 10) writes
 the bound as $r_k(C_3)<e\cdot k!$ and attributes it to Schur, and Day and
 Johnson (2017, p. 3) credit $R_k(C_3)\le ek!+1$ to Greenwood and Gleason
-"see also Schur". The lower-bound construction the site also credits to
+"see also Schur". The lower-bound construction erdosproblems.com also credits to
 Schur is on printed pp. 116--117
 ([[ramsey_theory/schur_1916_uber_die_kongruenz/lower_bound_p117|lower bound, p. 117]]):
 $N_{m+1}\ge3N_m+1$,
@@ -69,15 +69,15 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0554/_index|Problem 554]]: the source of the
-  factorial bound $S(m)<m!\,e$ on Schur numbers that the site's page credits
-  to Schur as a bound on $R_k(K_3)$; the difference coloring gives only
+  factorial bound $S(m)<m!\,e$ on Schur numbers that the erdosproblems.com page
+  credits to Schur as a bound on $R_k(K_3)$; the difference coloring gives only
   $R_k(K_3)\ge S(k)+2$, and the factorial upper bound $R_k(K_3)\le k!\,e+1$
   is the Greenwood--Gleason recursion's, a translation the paper itself does
   not make.
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the origin of the
-  factorial upper bound on the Schur function: in the site's convention
-  $f(m)=S(m)+1$, the Hilfssatz gives $f(m)\le\lfloor m!\,e\rfloor+1$ (the
-  least $N$ forcing a monochromatic $x+y=z$ is at most the least integer
-  exceeding $m!\,e$); the site's current bound $(e-1/6)m!$ is not obtained
-  from the Hilfssatz but through the Ramsey numbers $R_m(3)$, by the bound
-  $f(m)\le R_m(3)-1$.
+  factorial upper bound on the Schur function: in the erdosproblems.com
+  convention $f(m)=S(m)+1$, the Hilfssatz gives $f(m)\le\lfloor m!\,e\rfloor+1$
+  (the least $N$ forcing a monochromatic $x+y=z$ is at most the least integer
+  exceeding $m!\,e$); erdosproblems.com's current bound $(e-1/6)m!$ is not
+  obtained from the Hilfssatz but through the Ramsey numbers $R_m(3)$, by the
+  bound $f(m)\le R_m(3)-1$.

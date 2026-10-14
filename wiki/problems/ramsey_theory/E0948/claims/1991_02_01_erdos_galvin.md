@@ -63,9 +63,9 @@ alone.
 
 **Acceptance.** Refereed: P. Erdős and F. Galvin, Some Ramsey-type
 theorems, Discrete Math. 87 (1991), no. 3, 261--269 (received 3 January
-1989). Reviewed: the site's curator, T. F. Bloom, credits Galvin's coloring
-with the negative answer for $k=2$ in the problem's commentary, on the page
-labeled SOLVED (last edited 5 July 2026).
+1989). Reviewed: the erdosproblems.com curator, T. F. Bloom, credits Galvin's
+coloring with the negative answer for $k=2$ in the problem's commentary, on the
+page labeled SOLVED (last edited 5 July 2026).
 
 **Dating.** The page is dated by the issue month, February 1991 in the
 Crossref record; the day is a placeholder.

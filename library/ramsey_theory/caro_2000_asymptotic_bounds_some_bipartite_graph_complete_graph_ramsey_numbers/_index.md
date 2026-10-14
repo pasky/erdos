@@ -210,10 +210,10 @@ page here. Nothing here is independently reviewed.
 (printed p. 53, PDF p. 3), "For $m\ge2$ and $n\to\infty$,
 $r(K_{2,m},K_n)\le(m-1+o(1))(n/\log n)^2$", at $m=2$, where
 $K_{2,2}=C_4$, is the printed proof of the upper bound
-$r(C_4,K_n)\le(1+o(1))(n/\log n)^2$, the order $n^2/(\log n)^2$ that the
-site displays and attributes to Szemerédi. The paper's own account of the
-case (pp. 51--52, PDF pp. 1--2): "For $m=4$, our result is not new. Around
-1980, the bound $r(C_4,K_n)\le c(n/\log n)^2$, was noted by Szemerédi and
+$r(C_4,K_n)\le(1+o(1))(n/\log n)^2$, the order $n^2/(\log n)^2$ that
+erdosproblems.com displays and attributes to Szemerédi. The paper's own account
+of the case (pp. 51--52, PDF pp. 1--2): "For $m=4$, our result is not new.
+Around 1980, the bound $r(C_4,K_n)\le c(n/\log n)^2$, was noted by Szemerédi and
 widely reported by Erdős. However, the proof was never published, and its
 details were subsequently forgotten." This confirms the attribution the
 problem page reads in Erdős's 1984 ICM paper and supplies the proof that

@@ -4,7 +4,8 @@ title: Alon and Erdős's bounds of order n to the one third
 desc: |
   Alon and Erdős's 1996 Theorem 1.1 places $f(n)$ between
   $n^{1/3}/(\log n)^{4/3}$ and $n^{1/3}(\log\log n)^{1/3}/(\log n)^{1/3}$ up to
-  constants, so $f(n)=n^{1/3+o(1)}$. It is refereed, and the site records it.
+  constants, so $f(n)=n^{1/3+o(1)}$. It is refereed, and erdosproblems.com
+  records it.
 authors:
 - Noga Alon
 - Paul Erdős
@@ -57,7 +58,7 @@ checked on this page.
 two displayed bounds; it does not determine the order of magnitude of $f$,
 which the later full claim does.
 
-Accepted: the result is refereed (Acta Arithmetica). The site's commentary
-records both bounds, but its SOLVED label credited the order of growth to
-Conlon, Fox and Pham, so the curator's label is not review of this result.
-Nothing here is this project's own review.
+Accepted: the result is refereed (Acta Arithmetica). The erdosproblems.com
+commentary records both bounds, but its SOLVED label credited the order of
+growth to Conlon, Fox and Pham, so the curator's label is not review of this
+result. Nothing here is this project's own review.

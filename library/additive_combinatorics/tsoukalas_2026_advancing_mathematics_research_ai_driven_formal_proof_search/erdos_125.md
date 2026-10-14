@@ -36,9 +36,9 @@ formal-conjectures' `erdos_125.variants.positive_lower_density`, through the
 lemmas `A_B_gap`, `dirichlet_approx`, `scale_step`, `density_multi_scale` (for
 every $d$ some $N>0$ with $|(A+B)\cap[0,N)|\le(11/12)^dN$) and
 `density_tends_to_zero`. The file's factor is $11/12$ where the prose uses
-$0.99$. The proof posted on the site's thread in March 2026 and pinned on the
-claim page is a different Lean file, with different lemmas. Read statically,
-not built.
+$0.99$. The proof posted on the erdosproblems.com thread in March 2026 and
+pinned on the claim page is a different Lean file, with different lemmas. Read
+statically, not built.
 
 **Read depth.** Claims checked: the question and the proof's conclusion were
 read clause by clause on the page images of pp. 34--35. The proof was read for
@@ -68,6 +68,6 @@ other source.
 - [[../wiki/problems/diophantine_problems/E0125/_index|Problem 125]]: the
   problem asks whether $A+B$ has positive lower density; the theorem answers it
   no. Whether $A+B$ has positive upper density stays open. The paper calls post
-  5110 of the site's thread its original communication of the result (p. 35).
-  The result is recorded on the claim page
+  5110 of the erdosproblems.com thread its original communication of the result
+  (p. 35). The result is recorded on the claim page
   [[../wiki/problems/diophantine_problems/E0125/claims/2026_03_30_deepmind|Google DeepMind 2026]].

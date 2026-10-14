@@ -68,8 +68,8 @@ combinatorial Nullstellensatz with the Hicks-Ollis-Schmitt techniques and Magma
 computations; this extends to torsion-free abelian groups and to Z_n with large
 prime factors (Corollaries 4.3 and 4.4). Section 4.2 derives the same sizes for
 the CMPP conjecture on zero-sum sets without pairs {x, -x} (Corollaries 4.6 and
-4.7). The paper is the site's reference for the sizes t <= 12 of Problem 475 on
-distinct partial sums.
+4.7). The paper is the erdosproblems.com reference for the sizes t <= 12 of
+Problem 475 on distinct partial sums.
 
 The copy read for this card is arXiv:2003.05939v2 (23 April 2020, 9 pp.),
 whose pagination is used here; the journal version is Arch. Math. (Basel)

@@ -66,4 +66,4 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1078/_index|Problem 1078]]: the origin of the
-  problem in the form the site's $o(1)$ reflects; now a theorem.
+  problem in the form erdosproblems.com's $o(1)$ reflects; now a theorem.

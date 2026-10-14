@@ -52,13 +52,13 @@ its Theorem 1.1 for the extremal family.
 
 **Standing.** Claimed: an arXiv preprint with no refereed version, no
 formalization and no outside review known to this corpus. The author
-announced it in a comment of 21 September 2026 on the site's claim of
+announced it in a comment of 21 September 2026 on erdosproblems.com's claim of
 [[problems/extremal_graph_theory/E0081/claims/2026_09_08_morluto_luo_huang_lee|Morluto, Luo, Huang and Lee]],
 whose manuscript the tab credits to GPT-5.6 and GPT-6 Astra, stating that the
 author had solved the problem earlier in the month by a different and more
 general approach; the submitters of that claim replied that the arXiv posting
 followed their public release by a week and asked for a disclosure of AI use,
 which the abstract does not carry. The priority dispute is recorded, not
-adjudicated. The paper is not registered on the site's proof-claims tab, and
-the site labeled the problem OPEN; its page, accessed 2026-10-07, was last
-edited 28 December 2025.
+adjudicated. The paper is not registered on the erdosproblems.com proof-claims
+tab, and Bloom's catalog labeled the problem OPEN; its page, accessed
+2026-10-07, was last edited 28 December 2025.

@@ -39,8 +39,8 @@ holds with $\aleph_0$ colors, and indeed for every infinite cardinal. That
 guess is false: the pair $(C_4,C_6)$ has both properties, as the same paragraph
 records and as Known Results states with the wider class of such pairs. Erdős
 then asks for which $G_1$ and $G_2$ the original guess holds. Those are exactly
-the pairs without both properties, so his question and the site's ask for one
-characterization, and the Statement sets the standing.
+the pairs without both properties, so his question and erdosproblems.com's ask
+for one characterization, and the Statement sets the standing.
 
 **Status.** Open. One accepted partial claim,
 [[problems/set_theory/E0596/claims/1987_09_01_nesetril_rodl|Nešetřil–Rödl 1987]],
@@ -56,22 +56,22 @@ https://www.erdosproblems.com/596.
 
 ## Current assessment
 
-The site labeled the problem OPEN. Erdős and Hajnal originally guessed that no
-pair $(G_1,G_2)$ has both properties, and the site's remarks record that the
-guess fails for $G_1=C_4$ and $G_2=C_6$: Nešetřil and Rödl proved the finite
-property and Erdős and Hajnal the countable one, every $C_4$-free graph being
-a countable union of trees. Both results are refereed, in Trans. Amer. Math.
-Soc. 303 (1987), Theorem 7.2, and Acta Math. Acad. Sci. Hungar. 18 (1967),
-Theorem 10, and the example is the accepted partial claim on
+Bloom's catalog labeled the problem OPEN. Erdős and Hajnal originally guessed
+that no pair $(G_1,G_2)$ has both properties, and the erdosproblems.com remarks
+record that the guess fails for $G_1=C_4$ and $G_2=C_6$: Nešetřil and Rödl
+proved the finite property and Erdős and Hajnal the countable one, every
+$C_4$-free graph being a countable union of trees. Both results are refereed, in
+Trans. Amer. Math. Soc. 303 (1987), Theorem 7.2, and Acta Math. Acad. Sci.
+Hungar. 18 (1967), Theorem 10, and the example is the accepted partial claim on
 [[problems/set_theory/E0596/claims/1987_09_01_nesetril_rodl|Nešetřil–Rödl 1987]];
 Erdős's 1987 problem paper (Logic and Combinatorics, Contemp. Math. 65,
-223–228), the site's source, states it the same way and calls $(K_4,K_3)$
-the most interesting case. The characterization of all such pairs, which is
-what the problem asks, is open, so the derived standing is `open` with every
-claim an accepted partial claim. The formal-conjectures statement file, read on
-2026-10-07, marked the $(C_4,C_6)$ example and the falsity of the original guess
-research solved and the characterization open; the community database lists the
-problem as open.
+223–228), the erdosproblems.com source, states it the same way and calls
+$(K_4,K_3)$ the most interesting case. The characterization of all such pairs,
+which is what the problem asks, is open, so the derived standing is `open` with
+every claim an accepted partial claim. The formal-conjectures statement file,
+read on 2026-10-07, marked the $(C_4,C_6)$ example and the falsity of the
+original guess research solved and the characterization open; the community
+database lists the problem as open.
 
 ## Known Results
 

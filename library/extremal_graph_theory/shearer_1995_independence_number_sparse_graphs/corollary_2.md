@@ -27,7 +27,7 @@ $\alpha\ge c'(r)n\frac{\ln d}{d\ln\ln d}$."
 **In the problem's notation.** Problem 802 asks, for each fixed $r\ge3$,
 whether every $K_r$-free graph on $n$ vertices with average degree $t$ has
 an independent set of size $\gg_r\frac{\log t}tn$. Corollary 2 with the
-paper's $d$ as the site's $t$ is the site's second display,
+paper's $d$ as erdosproblems.com's $t$ is erdosproblems.com's second display,
 $\alpha\gg_r\frac{\log t}{\log\log t}\cdot\frac nt$, a factor $\log\log t$
 below the conjectured order; the base of the logarithm changes only the
 constant. The paper's introduction (p. 269) places the result exactly

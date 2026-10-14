@@ -30,54 +30,55 @@ for all $k$).
 Is it true that there must exist a finite colouring of $\mathbb{N}$ with no
 monochromatic solutions to $a-b\in A$?
 
-**Formulation.** The site's wording as read on 2026-09-18 (the page carries no
-last-edited date). The question asks whether the graph on $\mathbb N$ in which
-$a$ and $b$ are adjacent when $|a-b|\in A$ has finite chromatic number; the
-site's commentary says the same for the Cayley graph on $\mathbb Z$. The
-status-defining paper [PeSc10] states the question for the graph on
-$\mathbb Z$ (its Problem A, with the strict ratio $n_{j+1}>(1+\epsilon)n_j$);
-a coloring of $\mathbb Z$ restricts to one of $\mathbb N$ with the same
-property, and the theorem below assumes only $n_{j+1}/n_j\ge1+\epsilon$, so
-the two forms carry the same answer. Theorem 1.1 of [PeSc10] is stated for
-$0<\epsilon<1/4$; a sequence with ratio at least $1+\epsilon$ for some
-$\epsilon\ge1/4$ also has ratio at least $1+1/5$, so the theorem applies to it
-with $\epsilon'=1/5$ (an authored one-line reduction). The site's dating of
-the question to 1987 on Katznelson's authority is [PeSc10]'s footnote 1 and,
-first-hand, the opening sentence of [Ka01] (p. 211): "In 1987 Paul Erdős asked
-me if the Cayley graph defined on $\mathbb Z$ by a lacunary sequence has
-necessarily a finite chromatic number."
+**Formulation.** The erdosproblems.com wording as read on 2026-09-18 (the page
+carries no last-edited date). The question asks whether the graph on $\mathbb N$
+in which $a$ and $b$ are adjacent when $|a-b|\in A$ has finite chromatic number;
+the erdosproblems.com commentary says the same for the Cayley graph on
+$\mathbb Z$. The status-defining paper [PeSc10] states the question for the
+graph on $\mathbb Z$ (its Problem A, with the strict ratio
+$n_{j+1}>(1+\epsilon)n_j$); a coloring of $\mathbb Z$ restricts to one of
+$\mathbb N$ with the same property, and the theorem below assumes only
+$n_{j+1}/n_j\ge1+\epsilon$, so the two forms carry the same answer. Theorem 1.1
+of [PeSc10] is stated for $0<\epsilon<1/4$; a sequence with ratio at least
+$1+\epsilon$ for some $\epsilon\ge1/4$ also has ratio at least $1+1/5$, so the
+theorem applies to it with $\epsilon'=1/5$ (an authored one-line reduction).
+erdosproblems.com's dating of the question to 1987 on Katznelson's authority is
+[PeSc10]'s footnote 1 and, first-hand, the opening sentence of [Ka01] (p. 211):
+"In 1987 Paul Erdős asked me if the Cayley graph defined on $\mathbb Z$ by a
+lacunary sequence has necessarily a finite chromatic number."
 
 **Status.** Proved. The frontmatter standing is derived from the claim pages.
 Peres and Schlag's theorem
 ([[problems/ramsey_theory/E0894/claims/2007_06_01_peres_schlag|claim page]]) and
 Katznelson's
 ([[problems/ramsey_theory/E0894/claims/2001_04_01_katznelson|claim page]]) are
-accepted full claims, on their refereed publications and on the site's
-commentary, which credits both papers. Theorem 1.1 of Peres and Schlag [PeSc10]
-was published in the Bulletin of the London Mathematical Society in 2010
-(refereed). It is cited from the arXiv version, and page references follow the
-preprint. For every lacunary $S$ with ratio at least $1+\epsilon$,
-$0<\epsilon<1/4$, the theorem gives a $\theta\in(0,1)$ with
+accepted full claims, on their refereed publications and on the
+erdosproblems.com commentary, which credits both papers. Theorem 1.1 of Peres
+and Schlag [PeSc10] was published in the Bulletin of the London Mathematical
+Society in 2010 (refereed). It is cited from the arXiv version, and page
+references follow the preprint. For every lacunary $S$ with ratio at least
+$1+\epsilon$, $0<\epsilon<1/4$, the theorem gives a $\theta\in(0,1)$ with
 $\inf_j\|\theta n_j\|>c\epsilon |\log\epsilon|^{-1}$. By Katznelson's reduction
 (the proof of Theorem 1.1 of [Ka01], p. 212; restated in the same paper), this
 gives a proper coloring of the graph with at most
-$1+c^{-1}\epsilon^{-1}|\log\epsilon|$ colors. This is the site's
+$1+c^{-1}\epsilon^{-1}|\log\epsilon|$ colors. This is erdosproblems.com's
 $\ll\epsilon^{-1} \log(1/\epsilon)$ bound. The same paper gives a self-contained
 elementary coloring with $4^K$ colors, $K=\lceil2\epsilon^{-1}\rceil$, on its
 p. 3. It also shows that the power of $\epsilon$ in the bound cannot be
 improved. The earlier solutions of the Diophantine question behind the reduction
-(de Mathan and Pollington, 1979--80) are the site's account of Problem 464.
-Pollington's theorem gives a second route to finiteness through the reduction,
-without an explicit dependence on $\epsilon$. Katznelson's own Theorem 1.1 (p.
-211), "If $\Lambda$ is lacunary then $\chi(\Lambda)<\infty$", is the original
-answer. It is proved from Theorem 1.2 of [Ka01] by the reduction, and again,
-elementarily, with $5^d$ colors where $\rho^d\ge5$ (p. 212).
+(de Mathan and Pollington, 1979--80) are erdosproblems.com's account of
+Problem 464. Pollington's theorem gives a second route to finiteness through the
+reduction, without an explicit dependence on $\epsilon$. Katznelson's own
+Theorem 1.1 (p. 211), "If $\Lambda$ is lacunary then $\chi(\Lambda)<\infty$", is
+the original answer. It is proved from Theorem 1.2 of [Ka01] by the reduction,
+and again, elementarily, with $5^d$ colors where $\rho^d\ge5$ (p. 212).
 
 **Source.** [erdosproblems.com/894](https://www.erdosproblems.com/894),
 accessed 2026-09-18: the problem page (PROVED, which
-the site glosses as solved in the affirmative; no last-edited date; source key
-[Ka01]; commentary citing [PeSc10] and Problem 464), its empty discussion
-thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
+erdosproblems.com glosses as solved in the affirmative; no last-edited date;
+source key [Ka01]; commentary citing [PeSc10] and Problem 464), its empty
+discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
+Problem
 #894, https://www.erdosproblems.com/894, accessed 2026-09-18.
 
 **References.**
@@ -130,27 +131,27 @@ formalizes the elementary finiteness argument of [PeSc10]'s introduction, not
 Theorem 1.1's bound. It is recorded as a formalization link on
 [[problems/ramsey_theory/E0894/claims/2007_06_01_peres_schlag|Peres and Schlag's claim page]].
 The corpus has not built either file, and the problem's standing rests on
-the refereed papers and the site's acceptance,
+the refereed papers and erdosproblems.com's acceptance,
 not on `formalized` evidence. No file for the problem existed in the
 directory `FormalConjectures/ErdosProblems/` listed in full on 2026-09-18.
 The community database (teorth/erdosproblems) records the problem proved
 (as of its last update, dated 31 August 2025) and the statement formalized
 since 2026-09-19, and its `formal_status` field reads unformalized with no
-formal proof recorded (2026-10-06); the site's indicator reads "Formalised
-statement? Yes" (read 2026-10-07). The formalization of Problem 464's statement
-is recorded on that page.
+formal proof recorded (2026-10-06); the erdosproblems.com indicator reads
+"Formalised statement? Yes" (read 2026-10-07). The formalization of Problem
+464's statement is recorded on that page.
 
 ## Current assessment
 
-**The question (site formulation as read on 2026-09-18).** The statement
-above; PROVED, glossed by the site as solved in the affirmative. The commentary
-dates the question to 1987 on Katznelson's authority and restates it as the
-finiteness of the chromatic number of the Cayley graph on $\mathbb Z$ defined
-by a lacunary sequence; it records Katznelson's observation that a positive
-answer follows from the answer to Problem 464, an irrational $\theta$ and a
-$\delta>0$ with $\inf_k\|\theta n_k\|>\delta$, by dividing
+**The question (erdosproblems.com formulation as read on 2026-09-18).** The
+statement above; PROVED, glossed by erdosproblems.com as solved in the
+affirmative. The commentary dates the question to 1987 on Katznelson's authority
+and restates it as the finiteness of the chromatic number of the Cayley graph on
+$\mathbb Z$ defined by a lacunary sequence; it records Katznelson's observation
+that a positive answer follows from the answer to Problem 464, an irrational
+$\theta$ and a $\delta>0$ with $\inf_k\|\theta n_k\|>\delta$, by dividing
 $\mathbb R/\mathbb Z$ into intervals of length at most $\delta$ and coloring
-$n$ by the interval of $\|\theta n\|$ (as the site writes it; the paper
+$n$ by the interval of $\|\theta n\|$ (as erdosproblems.com writes it; the paper
 colors by the position of $n\theta$ modulo $1$), so that the solution of
 Problem 464 answers the question yes; and it names Peres and Schlag's
 coloring with at most $\ll\epsilon^{-1}\log(1/\epsilon)$ colors as the best
@@ -182,12 +183,12 @@ This is the printed proof of Katznelson's Theorem 1.1 ([Ka01] p. 212):
 with $M\varepsilon>1$. Using the $\alpha$ given by Theorem 1.2, set $C(n)=j$
 if $n\alpha\in I_j$."
 A proper coloring of the graph on $\mathbb Z$ is a finite coloring of
-$\mathbb N$ with no monochromatic $a-b\in A$, which is the site's question.
-The proof of Theorem 1.1 (Section 3, through Theorem 3.1 and a one-sided
-form of the Lovász local lemma, Lemma 2.1) is not compiled in this wiki;
-the constant $c$ is not made explicit ($c_0=1/240$ appears in
-Theorem 3.1). Acceptance: the Bulletin record; the arXiv abstract page (read
-2026-09-18) carries one version and no journal reference.
+$\mathbb N$ with no monochromatic $a-b\in A$, which is the erdosproblems.com
+question. The proof of Theorem 1.1 (Section 3, through Theorem 3.1 and a
+one-sided form of the Lovász local lemma, Lemma 2.1) is not compiled in this
+wiki; the constant $c$ is not made explicit ($c_0=1/240$ appears in Theorem
+3.1). Acceptance: the Bulletin record; the arXiv abstract page (read 2026-09-18)
+carries one version and no journal reference.
 
 **Sharpness and the elementary route (pp. 2--3).** "Up
 to the $|\log\epsilon|^{-1}$ factor, (1.2) cannot be improved": with $n_j=j$
@@ -259,11 +260,11 @@ not intersective" (p. 7), and Corollary 4.1 gives $\int_0^1T\ge c\epsilon
 |\log\epsilon|^{-1}$ for nonnegative trigonometric polynomials with
 frequencies in $S$ and $T(0)=1$. Context, not the problem.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 retraction, a dispute, or a bound removing the logarithm in the number of
 colors.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing of 2026-09-18 (no file; the file of
   2026-09-19 is recorded under Formalization); the community database.
 - The primary sources, in the public versions the References cite: [PeSc10]
@@ -299,8 +300,8 @@ the elementary $4^K$ argument is short enough for an independent
 whole-argument review. (3) Page references to [PeSc10] follow the arXiv
 version, not the journal text. (4) The order of the best bound is open
 between $\epsilon^{-1}$ and $\epsilon^{-1}\log(1/\epsilon)$ (on Problem 464
-the site's commentary says that a bound of order $\epsilon$ would be the
-best possible).
+the erdosproblems.com commentary says that a bound of order $\epsilon$ would be
+the best possible).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

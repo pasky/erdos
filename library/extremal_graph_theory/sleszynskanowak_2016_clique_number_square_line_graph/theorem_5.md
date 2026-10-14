@@ -85,6 +85,6 @@ both in the paper; no outside result.
   degree threshold; the problem's bound $\mathrm{sq}(G)\le\frac54\Delta^2$
   would give the clique form $\omega(L(G)^2)\le\frac54\Delta^2$, which
   this theorem does not reach. It bounds the clique number only, not
-  $\mathrm{sq}(G)$. The problem page quotes the site's
+  $\mathrm{sq}(G)$. The problem page quotes erdosproblems.com's
   "Śleszyńska-Nowak [Sl16] proved $\omega\le\frac32\Delta^2$" and records
   the later clique bound $\frac43\Delta^2$ of Faron and Postle.

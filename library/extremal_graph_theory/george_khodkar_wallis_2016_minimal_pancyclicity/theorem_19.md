@@ -72,8 +72,8 @@ problem's thread reports for Jia's 1996 bound, and not the form
 $\log_2n+\log_*n+O(1)$ of the claim on p. 84 of Bondy's 1971 paper
 ([[extremal_graph_theory/bondy_1971_pancyclic_graphs_i/claim_p84|claim_p84]]);
 the chapter prints no logarithmic form of any bound and nowhere mentions
-Bondy's bounds, an iterated logarithm, or the site's question. (2) Theorem
-19 is stated only on its windows: for successive $h$ they are
+Bondy's bounds, an iterated logarithm, or the erdosproblems.com question. (2)
+Theorem 19 is stated only on its windows: for successive $h$ they are
 $[136,263]$, $[4109,8204]$, $[2^{21}+22,\,2^{22}+21]$,
 $[2^{38}+39,\,2^{39}+38]$, and so on, and the orders between one window and
 the next are not covered by the theorem as printed; up to $2^{22}+20$
@@ -164,13 +164,13 @@ Bondy's 1971 claim is not cited.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1016/_index|Problem 1016]]: the passage the
-  site names, as "Chapter 4.5 of George, Khodkar, and Wallis", for the
-  first published proof of $h(n)\le\log_2n+\log_*n+O(1)$. What it prints is
-  Theorem 18, $h(n)<\log_2n+2$ for $53\le n\le2^{22}+20$, and Theorem 19,
-  $h(n)\le2^h+2h$ on the stated windows, which reads
+- [[../wiki/problems/extremal_graph_theory/E1016/_index|Problem 1016]]: the
+  passage erdosproblems.com names, as "Chapter 4.5 of George, Khodkar, and
+  Wallis", for the first published proof of $h(n)\le\log_2n+\log_*n+O(1)$. What
+  it prints is Theorem 18, $h(n)<\log_2n+2$ for $53\le n\le2^{22}+20$, and
+  Theorem 19, $h(n)\le2^h+2h$ on the stated windows, which reads
   $\log_2n+\log_2\log_2n+O(1)$ there; no bound with an iterated logarithm
   is stated, so the upper half of the problem's window still has no
-  proof in the site's form in this source (a filing observation, not a review verdict).
-  The question whether the lower bound can be raised to
+  proof in the erdosproblems.com form in this source (a filing observation, not
+  a review verdict). The question whether the lower bound can be raised to
   $\log_2n+\log_*n-O(1)$ is not touched.

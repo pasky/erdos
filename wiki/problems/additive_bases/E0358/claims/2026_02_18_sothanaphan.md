@@ -31,15 +31,15 @@ updated: 2026-10-08T03:53:58Z
 **Claim.** There is a set $A$ of positive integers and a constant $c>0$ with
 $f(n)\ge c\log n$ for all large $n$, which answers both questions of
 [[problems/additive_bases/E0358/_index|Problem 358]] yes; it is the bound that
-Tao's later Theorem 1.1 states. Nat Sothanaphan announced on the site's
-discussion thread on 17 February 2026 (post 4343) that GPT-5.2 Thinking,
-working under Sothanaphan's supervision, appeared to have found a full solution,
-and posted the write-up on 18 February 2026, asking for errors to be reported.
-It follows the strategy that Terence Tao proposed on the thread on 7 February
-2026.
+Tao's later Theorem 1.1 states. Nat Sothanaphan announced on the
+erdosproblems.com discussion thread on 17 February 2026 (post 4343) that GPT-5.2
+Thinking, working under Sothanaphan's supervision, appeared to have found a full
+solution, and posted the write-up on 18 February 2026, asking for errors to be
+reported. It follows the strategy that Terence Tao proposed on the thread on 7
+February 2026.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 18
-February 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+18 February 2026:
 
 > Alright, here goes. Link to PDF file. Link to Tex files.
 >
@@ -50,7 +50,7 @@ February 2026:
 >
 > Hope it works 🙏.
 
-Posted to the site's forum by Nat Sothanaphan on 20 February 2026:
+Posted to the erdosproblems.com forum by Nat Sothanaphan on 20 February 2026:
 
 > After some amount of work, it does not appear that GPT is able to fix the gap.
 > (At least with the current process I'm using.)

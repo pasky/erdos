@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0566
 title: Problem 566
 desc: |
   Asks whether every graph whose subgraphs on $k\ge2$ vertices have at most
-  $2k-3$ edges is Ramsey size linear; open. This corrects the site's wording,
-  which no graph meets, since a one-vertex subgraph exceeds the bound.
+  $2k-3$ edges is Ramsey size linear; open. This corrects the erdosproblems.com
+  wording, which no graph meets, since a one-vertex subgraph exceeds the bound.
 tags:
 - Graph theory
 - Ramsey theory
@@ -38,42 +38,43 @@ $$
 R(G,H)\ll m?
 $$
 
-**Notes.** The site's wording fails at the smallest subgraph sizes. Its
-hypothesis quantifies over every subgraph on $k$ vertices, including $k=1$, and
-a single vertex has $0>2\cdot1-3=-1$ edges, so no graph with a vertex satisfies
-it (the vertexless graph, if admitted, fails at $k=0$, where $0>-3$); the
-question then concerns an empty class of graphs and holds only for want of an
-instance. The failure is this page's own elementary check. The defect is already
-in the posers' text: [EFRS93] Question 1 (p. 398) asks "If every subgraph $S$ of
-$G$ satisfies $q(S)\le2p(S)-3$, is $G$ necessarily Ramsey size linear?", and its
-prose form on p. 395 ("each subgraph $H$ of order $m$ has size at most $2m-3$")
-is unrestricted as well. The change inserts "$\geq 2$" after "any subgraph on
-$k$", which excludes exactly the sizes $k\le1$ at which no graph can meet the
-hypothesis; it is an exclusion of size-degenerate values, the formal-conjectures
-file states the same restriction to vertex sets of at least two elements (it
-follows the site and is not a further source), and no source of higher rank
-supplies a range. Above the excluded sizes no failure remains: for $k=2$ and
-$k=3$ the bound ($1$ and $3$ edges) holds in every graph, and at $k=4$ it
-excludes exactly $K_4$, which is not Ramsey size linear by [EFRS93] Corollary 1
-($p=4$, $q=6=2p-2$). No result about the site's wording exists beyond the
-vacuity check recorded here, which settles no instance of the modified
-Statement.
+**Notes.** The erdosproblems.com wording fails at the smallest subgraph sizes.
+Its hypothesis quantifies over every subgraph on $k$ vertices, including $k=1$,
+and a single vertex has $0>2\cdot1-3=-1$ edges, so no graph with a vertex
+satisfies it (the vertexless graph, if admitted, fails at $k=0$, where $0>-3$);
+the question then concerns an empty class of graphs and holds only for want of
+an instance. The failure is this page's own elementary check. The defect is
+already in the posers' text: [EFRS93] Question 1 (p. 398) asks "If every
+subgraph $S$ of $G$ satisfies $q(S)\le2p(S)-3$, is $G$ necessarily Ramsey size
+linear?", and its prose form on p. 395 ("each subgraph $H$ of order $m$ has size
+at most $2m-3$") is unrestricted as well. The change inserts "$\geq 2$" after
+"any subgraph on $k$", which excludes exactly the sizes $k\le1$ at which no
+graph can meet the hypothesis; it is an exclusion of size-degenerate values, the
+formal-conjectures file states the same restriction to vertex sets of at least
+two elements (it follows erdosproblems.com and is not a further source), and no
+source of higher rank supplies a range. Above the excluded sizes no failure
+remains: for $k=2$ and $k=3$ the bound ($1$ and $3$ edges) holds in every graph,
+and at $k=4$ it excludes exactly $K_4$, which is not Ramsey size linear by
+[EFRS93] Corollary 1 ($p=4$, $q=6=2p-2$). No result about the erdosproblems.com
+wording exists beyond the vacuity check recorded here, which settles no instance
+of the modified Statement.
 
-**Formulation.** The site's wording as of the refresh of 2026-09-17T15:40Z (page
-last edited 18 January 2026). $R(G,H)$ is the least $N$ such that every red-blue
-coloring of the edges of $K_N$ has a red $G$ or a blue $H$, and "$R(G,H)\ll m$"
-means $R(G,H)\le C_G\,m$ with $C_G$ depending only on $G$: in the words of
-[EFRS93] (Definition 1, p. 390), $G$ is Ramsey size linear. The statement is
-Question 1 of that paper (p. 398), quoted under Notes. On subgraphs with at
-least two vertices the density condition is automatic for $k\le3$ (a triangle
-has $3=2\cdot3-3$ edges) and first bites at $k=4$, where it excludes $K_4$. The
-threshold is the largest possible: by [EFRS93] Corollary 1, a graph with $p\ge3$
-vertices and $q\ge2p-2$ edges is not Ramsey size linear. The site's commentary
-credits [EFRS93] with Ramsey size linearity for every graph on $n$ vertices
-having at most $n+1$ edges; [EFRS93] Theorem 4 states this for connected $G$.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17T15:40Z
+(page last edited 18 January 2026). $R(G,H)$ is the least $N$ such that every
+red-blue coloring of the edges of $K_N$ has a red $G$ or a blue $H$, and
+"$R(G,H)\ll m$" means $R(G,H)\le C_G\,m$ with $C_G$ depending only on $G$: in
+the words of [EFRS93] (Definition 1, p. 390), $G$ is Ramsey size linear. The
+statement is Question 1 of that paper (p. 398), quoted under Notes. On subgraphs
+with at least two vertices the density condition is automatic for $k\le3$ (a
+triangle has $3=2\cdot3-3$ edges) and first bites at $k=4$, where it excludes
+$K_4$. The threshold is the largest possible: by [EFRS93] Corollary 1, a graph
+with $p\ge3$ vertices and $q\ge2p-2$ edges is not Ramsey size linear. The
+erdosproblems.com commentary credits [EFRS93] with Ramsey size linearity for
+every graph on $n$ vertices having at most $n+1$ edges; [EFRS93] Theorem 4
+states this for connected $G$.
 
-**Status.** The site labeled the problem OPEN, and the modified Statement is
-open. No full claim exists, so the problem is open with no claim. The search
+**Status.** Bloom's catalog labeled the problem OPEN, and the modified Statement
+is open. No full claim exists, so the problem is open with no claim. The search
 whose scope the Current assessment records found no proof or disproof. Partial
 results are known from two refereed papers, both recorded as accepted partial
 claims. The first, [EFRS93], covers connected graphs with at most one more edge
@@ -89,15 +90,15 @@ all $2$-trees, which meet the hypothesis with equality. It is a partial claim,
 recorded unreviewed on
 [[problems/ramsey_theory/E0566/claims/2026_09_28_barria|its claim page]]. The
 minimal undecided instances named in 1993 are $K_{3,3}$, $K_5-(K_{1,2}\cup K_2)$
-and $Q_3$ (Question 2, the site's Problem 567). They remain undecided in the
-sources found. This is a bounded negative finding, not a certificate of
+and $Q_3$ (Question 2, erdosproblems.com's Problem 567). They remain undecided
+in the sources found. This is a bounded negative finding, not a certificate of
 openness.
 
 **Source.** [erdosproblems.com/566](https://www.erdosproblems.com/566), accessed
-2026-09-17: the problem page (OPEN, with the site's note that no finite
-computation can resolve it; last edited 18 January 2026; source key [EFRS93];
-listed as implying Problem 567), its empty discussion thread and its proof-claim
-tab, empty as refreshed on 2026-09-17T15:40Z and later carrying one
+2026-09-17: the problem page (OPEN, with the erdosproblems.com note that no
+finite computation can resolve it; last edited 18 January 2026; source key
+[EFRS93]; listed as implying Problem 567), its empty discussion thread and its
+proof-claim tab, empty as refreshed on 2026-09-17T15:40Z and later carrying one
 proof claim, submitted 29 September 2026 and partial by its own summary. Cite
 as: T. F. Bloom, Erdős Problem #566, https://www.erdosproblems.com/566, accessed
 2026-09-17.
@@ -142,24 +143,24 @@ induced one. Until 9 September 2026 (formal-conjectures pull request #5352,
 the database's formalized date of 8 January 2026 refers to that statement, and
 the statement described above is the one that pull request put in its place. The
 community database (fetched 2026-09-17) records the statement as formalized
-since 8 January 2026 and no formal proof; the site's formalized-statement
-indicator reads yes.
+since 8 January 2026 and no formal proof; the erdosproblems.com
+formalized-statement indicator reads yes.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17T15:40Z).** The statement above;
-status OPEN (the site's label, which describes the modified Statement; the
-wording's degeneracy is recorded under Notes); last edited 18 January 2026. The
-commentary restates the question as asking whether $G$ is Ramsey size linear,
-notes that a graph $G$ on $n$ vertices with $2n-2$ edges is not Ramsey size
-linear, $H=K_n$ being a witness, credits [EFRS93] with Ramsey size linearity for
-every graph on $n$ vertices having at most $n+1$ edges, and records that the
-problem implies [567]. The graphs problem collection lists the problem as number
-31 of its Ramsey theory section, and its page states the hypothesis for
-subgraphs on $p$ vertices with the bound $2p-3$. There are no comments; the one
-proof claim (29 September 2026) states a partial result and has its claim page.
-The community database record says open (31 August 2025) and formalized (8
-January 2026).
+**The question (erdosproblems.com formulation of 2026-09-17T15:40Z).** The
+statement above; status OPEN (the erdosproblems.com label, which describes the
+modified Statement; the wording's degeneracy is recorded under Notes); last
+edited 18 January 2026. The commentary restates the question as asking whether
+$G$ is Ramsey size linear, notes that a graph $G$ on $n$ vertices with $2n-2$
+edges is not Ramsey size linear, $H=K_n$ being a witness, credits [EFRS93] with
+Ramsey size linearity for every graph on $n$ vertices having at most $n+1$
+edges, and records that the problem implies [567]. The graphs problem collection
+lists the problem as number 31 of its Ramsey theory section, and its page states
+the hypothesis for subgraphs on $p$ vertices with the bound $2p-3$. There are no
+comments; the one proof claim (29 September 2026) states a partial result and
+has its claim page. The community database record says open (31 August 2025) and
+formalized (8 January 2026).
 
 **Origin.** [EFRS93], printed pp. 389, 390, 392--396, 398 and 399. Definition 1
 (p. 390) defines Ramsey size linear graphs after Sidorenko's theorem
@@ -177,9 +178,9 @@ at most $4$ except $K_4$ are Ramsey size linear, that every graph of order $5$
 that neither contains $K_4$ nor has at least $8$ edges is Ramsey size linear
 except $K_5-(K_2\cup K_{1,2})$, which is undecided (those containing $K_4$ or
 having $8$ or more edges are not, by Example 1, p. 393, and Corollary 1), and
-that $K_{3,3}$ is undecided; these are the site's Problem 567. Definition 2 and
-Question 6 (p. 399) concern minimal Ramsey size linear graphs, the site's
-Problem 79, answered by [Wi24].
+that $K_{3,3}$ is undecided; these are erdosproblems.com's Problem 567.
+Definition 2 and Question 6 (p. 399) concern minimal Ramsey size linear graphs,
+erdosproblems.com's Problem 79, answered by [Wi24].
 
 **What is proved around the question.** From [EFRS93]:
 
@@ -188,13 +189,14 @@ Problem 79, answered by [Wi24].
   (p. 390), a graph with $p\ge3$ and $q\ge2p-2$ is not Ramsey size linear,
   from Theorem 2's local-lemma bound
   $r(G,K_n)>C(n/\log n)^{(q-1)/(p-2)}$, whose exponent exceeds $2$; this is
-  the failure the site's commentary notes for $2n-2$ edges against $H=K_n$.
+  the failure the erdosproblems.com commentary notes for $2n-2$ edges against
+  $H=K_n$.
 - Sparse connected graphs:
   [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/theorem_4|Theorem 4]]
   (p. 393), a connected graph with $q\le p+1$ is Ramsey size linear, while
   $K_4$ with a pendant tree ($q=p+2$) is not; the paper's summary (p. 394)
-  places the undetermined band at $p+2\le q\le2p-3$. The site's commentary
-  omits the connectedness hypothesis.
+  places the undetermined band at $p+2\le q\le2p-3$. The erdosproblems.com
+  commentary omits the connectedness hypothesis.
 - A family at the threshold:
   [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/corollary_2|Corollary 2]]
   (p. 392), $r(K_1+T_{p-1},H_n)\le2(p-1)n$ for every tree $T_{p-1}$ and every
@@ -228,8 +230,8 @@ statement about the $2k-3$ condition, as its card records.
 none found a proof, disproof, preprint or claim on the density question or
 on the Question 2 graphs.
 
-- The site: problem page, discussion thread and proof-claim tab from the
-  refresh; the community database record; the formal-conjectures file at the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab from
+  the refresh; the community database record; the formal-conjectures file at the
   pinned commit (statement only).
 - The primary sources read as stated: [EFRS93] on page images; [Wi24]
   pp. 1--2 on page images; the [BGS24] card and its result pages.
@@ -258,13 +260,13 @@ of Balister, Schelp and Simonovits that [BGS24] extends (not identified here).
 **Remaining gaps.** (1) Question 1 is open, and its minimal test cases
 $K_{3,3}$, $K_5-(K_{1,2}\cup K_2)$ and $Q_3$ (Problem 567) are undecided in the
 sources found; reopening condition: a proof for one of them, a counterexample to
-the density question, or a general proof. (2) The site's wording is met by no
-graph; the modified Statement excludes only the sizes $k\le1$, and no source
-gives a different restriction; the two accepted claims and the one pending claim
-are partial, so the problem is open. (3) Proof coverage: statements checked; the
-proofs of Theorems 3, 4 and 5 were read for structure; nothing is independently
-reviewed and there is no resolving proof to compile. (4) The Lean file is a
-statement, not a proof.
+the density question, or a general proof. (2) The erdosproblems.com wording is
+met by no graph; the modified Statement excludes only the sizes $k\le1$, and no
+source gives a different restriction; the two accepted claims and the one
+pending claim are partial, so the problem is open. (3) Proof coverage:
+statements checked; the proofs of Theorems 3, 4 and 5 were read for structure;
+nothing is independently reviewed and there is no resolving proof to compile.
+(4) The Lean file is a statement, not a proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

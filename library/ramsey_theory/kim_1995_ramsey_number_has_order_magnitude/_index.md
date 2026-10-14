@@ -64,9 +64,9 @@ most $9\sqrt{n\log n}$ for every large $n$; in a triangle-free graph the
 cliques are the edges and the clique-transversal number is $n$ minus the
 independence number (Lemma 1(b) of the 1992 Erdős--Gallai--Tuza paper), so
 these graphs have clique-transversal number at least
-$n-9\sqrt{n\log n}$, which is why the site calls the Erdős--Gallai--Tuza
-order $\sqrt{n\log n}$ "best possible" and why the problem's answer is
-$n-\Theta(\sqrt{n\log n})$;
+$n-9\sqrt{n\log n}$, which is why erdosproblems.com calls the
+Erdős--Gallai--Tuza order $\sqrt{n\log n}$ "best possible" and why the problem's
+answer is $n-\Theta(\sqrt{n\log n})$;
 [[ramsey_theory/kim_1995_ramsey_number_has_order_magnitude/theorem_1_1|theorem_1_1]]),
 [[../wiki/problems/graph_coloring/E1104/_index|#1104]]
 

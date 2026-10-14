@@ -34,9 +34,9 @@ $$
 \limsup_{N\to \infty}\frac{\sum_{m\leq N}f(m)}{\sqrt{N\log\log N}}=c?
 $$
 
-**Status.** The site labeled the problem OPEN (accessed 2026-10-06). The derived
-standing is `solved` with the claim `disproved`. It rests on the self-contained
-Lean development submitted by Sigurd Høystad on 2026-08-04
+**Status.** Bloom's catalog labeled the problem OPEN (accessed 2026-10-06). The
+derived standing is `solved` with the claim `disproved`. It rests on the
+self-contained Lean development submitted by Sigurd Høystad on 2026-08-04
 ([[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|claim page]]).
 This corpus built the port of that development in `plby/lean-proofs` at its
 commit of 2026-09-15, written for Lean `v4.33.0`. It audited the port's two
@@ -82,11 +82,11 @@ it a formalization by Høystad, with GPT-5.6 Pro and Claude Fable 5, from the
 `normalized_tendsto_zero` (almost surely the normalized sums tend to $0$)
 and `not_erdos_520` (no positive constant is the almost sure limit
 superior), for a model that is exactly the problem's Rademacher model; the
-catalog's statement quantifies over every family satisfying its
-`IsRademacherMultiplicative` predicate, and the catalog's change records a
-separately compiled bridge from that model to its statement, which matters
-only for the catalog's statement over all such models. That file is a
-formalization link on the
+formal-conjectures statement quantifies over every family satisfying its
+`IsRademacherMultiplicative` predicate, and the formal-conjectures catalog's
+change records a separately compiled bridge from that model to its statement,
+which matters only for the formal-conjectures statement over all such models.
+That file is a formalization link on the
 [[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|Høystad claim page]]
 and gets no page of its own. This corpus built `plby/lean-proofs` at its
 commit of 2026-09-15, the repository's port of the `v1.1.0` development to
@@ -103,17 +103,17 @@ on `formalized` evidence: this corpus built the port of the claimant's Lean
 development in `plby/lean-proofs`, found the axioms of `not_erdos_520` and
 `normalized_tendsto_zero` to be the three standard ones, matched both to the
 repository's comparator challenge and audited their statements clause by clause
-against the Statement above. The site labeled the problem OPEN; on 2026-10-06
-its proof-claims tab carried two full claims with no comments, and the community
-database recorded the problem open; the accepted claim has no review by the site
-and no refereed version. The three claims assert one theorem, an almost sure
-upper bound with the exponent $1/4+\varepsilon$ on the iterated logarithm, which
-is Harper's conjectured sharp exponent; the formalized evidence certifies the
-answer no, not that bound, and the claims of Korsky and of Durkan and
-Pearce-Crump are pending. Search scope: the site's problem page and proof-claims
-tab (2026-10-06), the arXiv record of Durkan and Pearce-Crump (2026-10-07), the
-formal-conjectures statement file and the community database entry; no
-literature search beyond these sources.
+against the Statement above. Bloom's catalog labeled the problem OPEN; on
+2026-10-06 its proof-claims tab carried two full claims with no comments, and
+the community database recorded the problem open; the accepted claim has no
+review by erdosproblems.com and no refereed version. The three claims assert one
+theorem, an almost sure upper bound with the exponent $1/4+\varepsilon$ on the
+iterated logarithm, which is Harper's conjectured sharp exponent; the formalized
+evidence certifies the answer no, not that bound, and the claims of Korsky and
+of Durkan and Pearce-Crump are pending. Search scope: the erdosproblems.com
+problem page and proof-claims tab (2026-10-06), the arXiv record of Durkan and
+Pearce-Crump (2026-10-07), the formal-conjectures statement file and the
+community database entry; no literature search beyond these sources.
 
 ## Progress
 
@@ -128,10 +128,10 @@ Results and on the claim pages under `claims/`.
 
 Accepted on formalized evidence, Høystad's Lean development: the
 formal-conjectures catalog tagged its statement of the problem `research solved`
-with a linked formal proof on 2026-09-18, crediting Høystad 2026, while the site
-labeled the problem OPEN and the community database records it open. The linked
-file, `src/latest/ErdosProblems/Erdos520.lean` in Boris Alexeev's repository
-`plby/lean-proofs`, is a 35-line wrapper whose header declares it a
+with a linked formal proof on 2026-09-18, crediting Høystad 2026, while Bloom's
+catalog labeled the problem OPEN and the community database records it open. The
+linked file, `src/latest/ErdosProblems/Erdos520.lean` in Boris Alexeev's
+repository `plby/lean-proofs`, is a 35-line wrapper whose header declares it a
 formalization by Høystad with GPT-5.6 Pro and Claude Fable 5 from the `v1.1.0`
 tag of Høystad's repository. It derives two theorems from the development's
 unconditional ones: `normalized_tendsto_zero`, that almost surely
@@ -139,23 +139,24 @@ $|\sum_{m\le N}f(m)|/\sqrt{N\log\log N}\to0$, and `not_erdos_520`, that no
 constant $c>0$ is almost surely the limit superior. Their model is exactly the
 problem's: independent fair signs on the primes, products over the prime factors
 on squarefree integers, $0$ elsewhere, and the partial sums normalized by
-$\sqrt{N\log\log N}$. The catalog's statement quantifies over every family
-satisfying its `IsRademacherMultiplicative` predicate, and the catalog's change
-records a separately compiled bridge to that statement, which matters only for
-the catalog's statement over all such models. This corpus built the repository
-at its commit of 2026-09-15 (the port of the `v1.1.0` development to Lean
-`v4.33.0`), checked that both theorems use only the three standard axioms, found
-their fingerprints identical to the repository's comparator challenge and
-audited their statements against the question above, so the
+$\sqrt{N\log\log N}$. The formal-conjectures statement quantifies over every
+family satisfying its `IsRademacherMultiplicative` predicate, and the
+formal-conjectures catalog's change records a separately compiled bridge to that
+statement, which matters only for the formal-conjectures statement over all such
+models. This corpus built the repository at its commit of 2026-09-15 (the port
+of the `v1.1.0` development to Lean `v4.33.0`), checked that both theorems use
+only the three standard axioms, found their fingerprints identical to the
+repository's comparator challenge and audited their statements against the
+question above, so the
 [[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|Høystad claim]]
 is accepted; the evidence does not cover the development's
 $(\log\log N)^{1/4+\eta}$ bound, which no challenge compares. The claim was
-registered on the site's proof-claims page on 2026-08-04 as a self-contained
-Lean proof that the Rademacher sums are almost surely
+registered on the erdosproblems.com proof-claims page on 2026-08-04 as a
+self-contained Lean proof that the Rademacher sums are almost surely
 $\ll\sqrt N(\log\log N)^{1/4+\eta}$ for every $\eta>0$; no refereed version,
-site acceptance or independent review was found.
+erdosproblems.com acceptance or independent review was found.
 
-The site's proof-claims tab also carries the full claim of 2026-07-29
+The erdosproblems.com proof-claims tab also carries the full claim of 2026-07-29
 submitted by Samuel Korsky, an argument produced by GPT 5.6-Pro that
 sharpens Caich's almost sure bound to Harper's exponent $1/4+\varepsilon$ by
 a conditional high-moment estimate on each block of primes, with a partial
@@ -166,7 +167,8 @@ The same bound, for both the Steinhaus and the Rademacher model, is the
 theorem of Durkan and Pearce-Crump's arXiv preprint of 2026-07-31, stated
 there as settling Harper's conjecture
 ([[problems/arithmetic_functions/E0520/claims/2026_07_31_durkan_pearce_crump|claim page]]).
-Both are pending; the site labeled the problem OPEN (accessed 2026-10-06).
+Both are pending; Bloom's catalog labeled the problem OPEN (accessed
+2026-10-06).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

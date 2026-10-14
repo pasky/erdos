@@ -24,16 +24,17 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Does there exist, for every $\alpha \in [0,1]$, a ring or field
 in $\mathbb{R}$ with Hausdorff dimension $\alpha$?
 
-**Status.** Open. The site labeled the problem NOT DISPROVABLE. It credits the
-label to Mauldin's theorem that, assuming the continuum hypothesis, every
-$\alpha \in [0,1]$ is the Hausdorff dimension of a subfield of $\mathbb{R}$. So
-ZFC cannot refute the existence asked about unless ZFC is inconsistent. The
-claim page
+**Status.** Open. Bloom's catalog labeled the problem NOT DISPROVABLE. It
+credits the label to Mauldin's theorem that, assuming the continuum hypothesis,
+every $\alpha \in [0,1]$ is the Hausdorff dimension of a subfield of
+$\mathbb{R}$. So ZFC cannot refute the existence asked about unless ZFC is
+inconsistent. The claim page
 [[problems/analysis/E1154/claims/2016_03_31_mauldin|Mauldin's subfields of every dimension under CH]]
 records that consistency result as accepted. It settles one side only. Whether
-ZFC alone proves the existence is not settled. This page departs from the site's
-label because one side alone leaves the question open. A matching result that
-ZFC does not prove the existence would settle the problem as independent.
+ZFC alone proves the existence is not settled. This page departs from the
+erdosproblems.com label because one side alone leaves the question open. A
+matching result that ZFC does not prove the existence would settle the problem
+as independent.
 
 **Source.** [erdosproblems.com/1154](https://www.erdosproblems.com/1154),
 accessed 2026-09-04 and 2026-10-07 (problem page and discussion thread), with
@@ -74,14 +75,15 @@ that no Borel subring of $\mathbb{R}$ has Hausdorff dimension strictly
 between $0$ and $1$, the Erdős-Volkmann ring conjecture, together with the
 Katz-Tao ring conjecture. Mauldin [Ma16b] then proved, assuming the continuum
 hypothesis, that subfields of every dimension $\alpha \in [0,1]$ exist, which
-is the ground of the site's label and of the accepted claim: the existence is
-consistent with ZFC, so it cannot be disproved there, while its provability in
-ZFC alone remains open. The search behind this account covers the site's
-problem page, discussion thread and proof-claims page as of 2026-10-07 and the
-arXiv record of the one preprint posted against the problem; within that scope,
-no refereed work beyond the references above appears.
+is the ground of the erdosproblems.com label and of the accepted claim: the
+existence is consistent with ZFC, so it cannot be disproved there, while its
+provability in ZFC alone remains open. The search behind this account covers the
+erdosproblems.com problem page, discussion thread and proof-claims page,
+accessed 2026-10-07, and the arXiv record of the one preprint posted against the
+problem; within that scope, no refereed work beyond the references above
+appears.
 
-Two proof claims stand on the site's proof-claims page. The first, of
+Two proof claims stand on the erdosproblems.com proof-claims page. The first, of
 2026-07-20 by Yongxi Lin, is a summary on the proof-claims page with no
 manuscript and gets no claim page; it sketches, in ZF with strong Turing
 determinacy and with an AI system named as GPT5.6, that a subring of positive

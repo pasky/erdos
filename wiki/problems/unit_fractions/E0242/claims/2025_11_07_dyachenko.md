@@ -47,9 +47,9 @@ $n>2$.
 **Standing.** Claimed. The arXiv listing shows a single version, not
 withdrawn, under a CC BY-NC-ND 4.0 license, with no journal reference and no
 comments field; no citing paper, review or acceptance record was found, the
-preprint is not on the site's proof-claim tab, and the problem's thread does
-not mention it. Read depth: the abstract and the arXiv record; the argument
-is unexamined. The site's label was FALSIFIABLE (page last edited 7 May 2026)
-and its commentary does not mention the preprint. The author's second 2025
-preprint, arXiv:2511.17716, concerns $5/P$ and is not a claim about this
-problem.
+preprint is not on the erdosproblems.com proof-claim tab, and the problem's
+thread does not mention it. Read depth: the abstract and the arXiv record; the
+argument is unexamined. The erdosproblems.com label was FALSIFIABLE (page last
+edited 7 May 2026) and its commentary does not mention the preprint. The
+author's second 2025 preprint, arXiv:2511.17716, concerns $5/P$ and is not a
+claim about this problem.

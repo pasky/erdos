@@ -60,11 +60,11 @@ every $k$ edges has at least $k+1$ vertices. The theorem is labeled
 where Theorem 5 gives the full inductive proof.
 
 This citation chain locates the coloring theorem that the 1971 Erdős problem
-reports as due to Lovász. It does not validate the site's bibliographic key
-[Lo68], which names the different 1968 paper *On covering of graphs*. The claim
-that [Lo68] does not contain the result remains attributed to the site; the
-source check here establishes the theorem's presence in the separately
-identified *Graphs and set systems*.
+reports as due to Lovász. It does not validate erdosproblems.com's bibliographic
+key [Lo68], which names the different 1968 paper *On covering of graphs*. The
+claim that [Lo68] does not contain the result remains attributed to
+erdosproblems.com; the source check here establishes the theorem's presence in
+the separately identified *Graphs and set systems*.
 
 The copy read for this card is a complete scan of the published article,
 including printed pp. 3–12 and the proceedings cover. It was recovered on

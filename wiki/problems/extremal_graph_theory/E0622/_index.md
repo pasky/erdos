@@ -28,16 +28,16 @@ Must $G$ have $\gg 2^{2n}$ subsets that are spanned by a cycle?
 has a Hamilton cycle, using exactly its vertices. Distinct subsets are
 counted, not distinct cycles on the same subset.
 
-**Status.** Proved by Draganić, Keevash, and Müyesser (2025). The site labeled
-the problem PROVED and credits the resolution to [DKM25]. The result is recorded
-as an accepted claim on
+**Status.** Proved by Draganić, Keevash, and Müyesser (2025). Bloom's catalog
+labeled the problem PROVED and credits the resolution to [DKM25]. The result is
+recorded as an accepted claim on
 [[problems/extremal_graph_theory/E0622/claims/2025_03_03_draganic_keevash_muyesser|its claim page]],
-on the basis of the refereed venue and the site's acceptance. The frontmatter
-standing is derived from that page.
+on the basis of the refereed venue and erdosproblems.com's acceptance. The
+frontmatter standing is derived from that page.
 
 **Source.** T. F. Bloom, Erdős Problem #622,
 [erdosproblems.com/622](https://www.erdosproblems.com/622), accessed
-2026-09-05. The original source key [Er99] is retained from the site.
+2026-09-05. The original source key [Er99] is retained from erdosproblems.com.
 
 **References.**
 
@@ -50,14 +50,14 @@ standing is derived from that page.
   [DOI](https://doi.org/10.1093/imrn/rnaf215);
   [arXiv:2503.01826v2](https://arxiv.org/abs/2503.01826v2).
 
-**Formalization.** None recorded (site and community database, 2026-09-05;
-no formal-conjectures file on 2026-10-07).
+**Formalization.** None recorded (erdosproblems.com and community database,
+2026-09-05; no formal-conjectures file on 2026-10-07).
 
 ## Current assessment
 
-The site (2026-09-05) labeled the problem PROVED, reports the asymptotic
-result of [DKM25] and records no formalized statement; its discussion holds
-one comment, about a bibliography link that had been broken, and its
+erdosproblems.com (2026-09-05) labeled the problem PROVED, reports the
+asymptotic result of [DKM25] and records no formalized statement; its discussion
+holds one comment, about a bibliography link that had been broken, and its
 proof-claims tab is empty.
 
 A separate search checked arXiv version history, the published IMRN article,

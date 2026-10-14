@@ -27,35 +27,35 @@ $x_1,\ldots,x_n\in I$ such that $a_i\mid x_i$.
 
 Obtain good bounds for $f(n)$, or even an asymptotic formula.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-23 March 2026). $f(n)$ is a multiplier: the interval has
-$f(n)\max(A)$ consecutive integers, and the requirement is a system of
-distinct multiples, one for each member of $A$. Erdős and Surányi defined
-$f(n)$ in 1959 for positive integers $a_1<\cdots<a_n$ (Section 10, printed
-p. 45), and Erdős restated it in 1992 for sequences $1<a_1<\cdots<a_n$
-(p. 35), the convention the site's $A\subseteq[2,\infty)$ follows; a member
-equal to $1$ imposes no condition. The 1959 paper notes $2\le f(n)\le n$.
-The site's source keys are [ErSu59] and [Er92c], with [vD26] cited in the
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 23 March 2026). $f(n)$ is a multiplier: the interval has $f(n)\max(A)$
+consecutive integers, and the requirement is a system of distinct multiples, one
+for each member of $A$. Erdős and Surányi defined $f(n)$ in 1959 for positive
+integers $a_1<\cdots<a_n$ (Section 10, printed p. 45), and Erdős restated it in
+1992 for sequences $1<a_1<\cdots<a_n$ (p. 35), the convention
+erdosproblems.com's $A\subseteq[2,\infty)$ follows; a member equal to $1$
+imposes no condition. The 1959 paper notes $2\le f(n)\le n$. The
+erdosproblems.com source keys are [ErSu59] and [Er92c], with [vD26] cited in the
 commentary.
 
 **Status.** Open. No asymptotic formula, and no bounds beyond those below, were
 found in the search whose scope the Current assessment records. This is a
 bounded negative finding, not a certificate of openness. Erdős and Surányi
-(1959, Sections 10--12) give $c(\log n)^\alpha<f(n)<c'\sqrt n$, which the site
-writes as $(\log n)^c\ll f(n)\ll n^{1/2}$. A further known bound is
-$f(n)\gg\log n/\log\log n$. The site's commentary derives it from van Doorn's
-2026 theorem on Problem 711, and the thread's summary of 15 March 2026 obtains
-it by restricting to the set $\{2,\ldots,n+1\}$. A forum comment of 14 September
-2026 reports two more items, and both are leads. One is a further lower bound
-$f(n)\ge\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$ from a July 2026 preprint.
-The other is an unreviewed claim of an upper bound $n^{1/3+o(1)}$, attributed by
-the commenter to GPT Astra.
+(1959, Sections 10--12) give $c(\log n)^\alpha<f(n)<c'\sqrt n$, which
+erdosproblems.com writes as $(\log n)^c\ll f(n)\ll n^{1/2}$. A further known
+bound is $f(n)\gg\log n/\log\log n$. The erdosproblems.com commentary derives it
+from van Doorn's 2026 theorem on Problem 711, and the thread's summary of 15
+March 2026 obtains it by restricting to the set $\{2,\ldots,n+1\}$. A forum
+comment of 14 September 2026 reports two more items, and both are leads. One is
+a further lower bound $f(n)\ge\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$ from
+a July 2026 preprint. The other is an unreviewed claim of an upper bound
+$n^{1/3+o(1)}$, attributed by the commenter to GPT Astra.
 
 **Source.** [erdosproblems.com/709](https://www.erdosproblems.com/709),
 accessed 2026-09-18: the problem page (labeled OPEN,
-with the site's note that no finite computation can settle it; last edited 23
-March 2026; header keys [ErSu59], [Er92c]; commentary citing [vD26] and
-Problem 708), its three-comment discussion thread (15 March and 14
+with the erdosproblems.com note that no finite computation can settle it; last
+edited 23 March 2026; header keys [ErSu59], [Er92c]; commentary citing [vD26]
+and Problem 708), its three-comment discussion thread (15 March and 14
 September 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
 Problem #709, https://www.erdosproblems.com/709, accessed 2026-09-18.
 
@@ -87,7 +87,7 @@ Problem #709, https://www.erdosproblems.com/709, accessed 2026-09-18.
 - [ErPo80] Erdős, P. and Pomerance, C., Matching the natural numbers up to
   $n$ with distinct multiples in another interval. Indag. Math. (Proc.) 83
   (1980), no. 2, 147--161, DOI 10.1016/1385-7258(80)90018-9; cited by the
-  thread, not by the site's page. Library home:
+  thread, not by the erdosproblems.com page. Library home:
   [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/_index|erdos_1980_matching_natural_numbers_up_n_distinct]];
   result page
   [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_2|Theorem 2]].
@@ -108,12 +108,12 @@ sequence marked possible.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; labeled OPEN, with the site's note that no finite computation can
-settle it; last edited 23 March 2026. The commentary, in summary: the
-question goes back to Erdős and Surányi [ErSu59], whose bounds put $f(n)$
-between a fixed power of $\log n$ and $n^{1/2}$; the lower bound improves to
-$\log n/\log\log n\ll f(n)$ through van Doorn's lower bound for Problem 711
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; labeled OPEN, with the erdosproblems.com note that no finite
+computation can settle it; last edited 23 March 2026. The commentary, in
+summary: the question goes back to Erdős and Surányi [ErSu59], whose bounds put
+$f(n)$ between a fixed power of $\log n$ and $n^{1/2}$; the lower bound improves
+to $\log n/\log\log n\ll f(n)$ through van Doorn's lower bound for Problem 711
 in [vD26]; and a cross-reference to Problem 708. The thread, oldest first:
 a comment of 15 March 2026 (the account Zeraoulia Rafik, declaring the use
 of ChatGPT Thinking 5.4) deriving
@@ -132,7 +132,7 @@ $f(n)\ge\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$, and that GPT Astra
 asserts that the argument of that paper's Lemma 2.1 extends, with a GCD-sum
 estimate (arXiv:1402.0249) and a counting argument, to
 $f(n)\le n^{1/3+o(1)}$, an extension the commenter had not yet checked. The
-proof-claim tab is empty. The site's commentary predates
+proof-claim tab is empty. The erdosproblems.com commentary predates
 the September comment.
 
 **The origin.** Erdős and Surányi, Section 10 (printed p. 45):
@@ -166,8 +166,8 @@ independently reviewed.
 $c(\log n)^\alpha$ (1959); $\sqrt{\log n/\log\log n}$ (the thread's
 deduction from Erdős–Pomerance's
 [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_2|Theorem 2]],
-a forum remark); $\log n/\log\log n$ (the site's commentary derives it
-from van Doorn's
+a forum remark); $\log n/\log\log n$ (the erdosproblems.com commentary derives
+it from van Doorn's
 [[../library/integer_sequences/doorn_2026_length_interval_distinct_multiples/theorem_1|Theorem 1]],
 Integers 26 (2026), refereed, and names no set; the thread's summary of 15
 March 2026 restricts to the set $\{2,\ldots,n+1\}$ of size $n$ and maximum
@@ -176,15 +176,15 @@ $2,\ldots,n+1$, hence of $1,\ldots,n+1$, so the theorem's interval of
 length $0.36(n+1)\log(n+1)/\log\log(n+1)$ without such a system forces
 $f(n)(n+1)$ to exceed it; since $f(n)$ must serve every $n$-element $A$,
 one set without a system bounds it below, so the deduction is complete; it
-is the site's and the thread's, checked in this sentence); and, as a lead only,
-$\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$, the commenter's deduction of
-14 September 2026 from the lower bound $F(n)\ge n\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$
-that the abstract of [ChKo26] states for $F(n)=\max_mf(n,m)$ in the
-notation of Problem 711 (a preprint, not held, not refereed; the deduction
-is the same passage to $\{2,\ldots,n+1\}$). Upper bound: $C'\sqrt n$
-(1959); no published improvement was found, and the only claim of one is the
-unreviewed $n^{1/3+o(1)}$ that the September comment attributes to GPT
-Astra. So
+is erdosproblems.com's and the thread's, checked in this sentence); and, as a
+lead only, $\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$, the commenter's
+deduction of 14 September 2026 from the lower bound
+$F(n)\ge n\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$ that the abstract of
+[ChKo26] states for $F(n)=\max_mf(n,m)$ in the notation of Problem 711 (a
+preprint, not held, not refereed; the deduction is the same passage to
+$\{2,\ldots,n+1\}$). Upper bound: $C'\sqrt n$ (1959); no published improvement
+was found, and the only claim of one is the unreviewed $n^{1/3+o(1)}$ that the
+September comment attributes to GPT Astra. So
 $\log n/\log\log n\ll f(n)\ll n^{1/2}$ on published sources, and the
 exponent of $n$, if there is one, is undetermined.
 
@@ -195,7 +195,7 @@ exponent of $n$, if there is one, is undetermined.
   711's first question) and GPT Astra's extension claim
   $f(n)\le n^{1/3+o(1)}$, unreviewed by its reporter.
 - The 15 March 2026 comments: the deduction from van Doorn's theorem
-  (which the site's commentary, last edited 23 March 2026, adopts),
+  (which the erdosproblems.com commentary, last edited 23 March 2026, adopts),
   obtained with ChatGPT Thinking 5.4 by its poster's declaration, and the
   exponent $0.086$ for the 1959 argument, credited to a conversation with a
   named contributor and GPT.
@@ -205,9 +205,9 @@ exponent of $n$, if there is one, is undetermined.
 asymptotic formula, a published bound beyond those above, or a refereed
 version of [ChKo26].
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-18; the formal-conjectures directory listing and full tree at the
-  pinned commit (no file); the community database (linked above).
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures directory listing and full tree at
+  the pinned commit (no file); the community database (linked above).
 - arXiv: the API records of 2601.16972 (van Doorn; journal reference
   Integers (2026), #A7), 2607.26450 (Chen and Korsky; two versions, no
   journal reference) and 1402.0249 (Bondarenko and Seip, the GCD-sum
@@ -230,7 +230,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [ChKo26]
 and $n^{1/2}$ on published sources; the two September 2026 leads (a
 preprint's lower bound and GPT Astra's upper-bound claim) are unreviewed, and
 a refereed version of [ChKo26] is the reopening condition for the lower
-side. (2) Provenance: the lower bound $\log n/\log\log n$ is the site's
+side. (2) Provenance: the lower bound $\log n/\log\log n$ is erdosproblems.com's
 commentary's and the thread's deduction from van Doorn's theorem through the
 set $\{2,\ldots,n+1\}$, which suffices because $f(n)$ must serve every
 $n$-element $A$; no source states it for $f(n)$, and the deduction is

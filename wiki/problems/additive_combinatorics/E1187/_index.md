@@ -34,18 +34,20 @@ $k$?
 Are there monochromatic arithmetic progressions of length $k$ whose common
 difference is a prime?
 
-**Formulation.** The second question is read, as the site's commentary and
-the formal-conjectures statement read it, with the first question's
-quantifier: whether, for $k\ge3$, every finite coloring of the integers has
-a monochromatic $k$-term progression whose common difference is a prime. Read
-as asking about some coloring, it would be trivially yes (one color).
+**Formulation.** The second question is read, as the erdosproblems.com
+commentary and the formal-conjectures statement read it, with the first
+question's quantifier: whether, for $k\ge3$, every finite coloring of the
+integers has a monochromatic $k$-term progression whose common difference is a
+prime. Read as asking about some coloring, it would be trivially yes (one
+color).
 
-**Status.** Claimed. The site labeled the problem SOLVED (page last edited 8
-April 2026), but the derived standing is claimed. The first
-question's yes is an accepted claim. The second question's no rests only on the
-site's own modulo-4 argument and on Kitamura's unbuilt Lean proof of it for the
-natural numbers, both pending claim pages. They are pending because the argument
-has no publication and the curator who labeled the problem wrote it.
+**Status.** Claimed. Bloom's catalog labeled the problem SOLVED (page last
+edited 8 April 2026), but the derived standing is claimed. The first question's
+yes is an accepted claim. The second question's no rests only on
+erdosproblems.com's own modulo-4 argument and on Kitamura's unbuilt Lean proof
+of it for the natural numbers, both pending claim pages. They are pending
+because the argument has no publication and the curator who labeled the problem
+wrote it.
 
 The two questions have different answers. The first is yes for every $k\ge3$ by
 the Green–Tao theorem [GrTa08]. Some color class of a finite coloring has
@@ -57,7 +59,7 @@ the other. This coloring has no monochromatic $3$-term progression with prime
 difference.
 
 **Source.** [erdosproblems.com/1187](https://www.erdosproblems.com/1187)
-with its discussion thread (as of 2026-10-07: page last edited 8 April 2026);
+with its discussion thread (accessed 2026-10-07: page last edited 8 April 2026);
 its proof-claims tab was empty. Cite as: T. F. Bloom, Erdős Problem #1187,
 https://www.erdosproblems.com/1187.
 
@@ -88,11 +90,11 @@ linked from
 [[problems/additive_combinatorics/E1187/claims/2004_04_08_green_tao|the Green–Tao claim page]]
 as a self-declared formalization of their result. The discussion thread
 also carries a Lean 4 development posted on 12 May 2026 by Kenta Kitamura,
-who names Codex and GPT-5.5 xhigh as its assistants, which formalizes the
-site's standard modulo-$4$ counterexample for colorings of the natural
-numbers, the extension to colorings of the integers not formalized, together
-with a Lean statement of the first question without a proof; its repository
-is linked at a pinned commit from
+who names Codex and GPT-5.5 xhigh as its assistants, which formalizes
+erdosproblems.com's standard modulo-$4$ counterexample for colorings of the
+natural numbers, the extension to colorings of the integers not formalized,
+together with a Lean statement of the first question without a proof; its
+repository is linked at a pinned commit from
 [[problems/additive_combinatorics/E1187/claims/2026_05_12_kitamura|its claim page]].
 This corpus has built and audited none of these, so none gives formalized
 evidence.
@@ -104,9 +106,9 @@ the claim pages, one part per question. Green and Tao's theorem answers the
 first question yes for every $k\ge3$, an accepted partial claim on
 [[problems/additive_combinatorics/E1187/claims/2004_04_08_green_tao|its claim page]],
 accepted on the refereed Annals publication. The modulo-$4$ coloring answers the
-second question no; it is the site's own argument, which the curator gives in
-the commentary and credits to nobody, and it has no publication, so it is
-pending on
+second question no; it is erdosproblems.com's own argument, which the curator
+gives in the commentary and credits to nobody, and it has no publication, so it
+is pending on
 [[problems/additive_combinatorics/E1187/claims/2026_04_08_bloom|its claim page]].
 Kitamura's Lean proof of it for the natural numbers, posted on the discussion
 thread on 12 May 2026, is pending on

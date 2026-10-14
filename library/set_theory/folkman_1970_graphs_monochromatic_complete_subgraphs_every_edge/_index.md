@@ -106,7 +106,7 @@ and the paper constructs none.
 k1 = k2 = l is the case k = 2 of the problem for every l; the Remarks (printed
 pp. 23--24, PDF pp. 6--7) state the case of k >= 3 colors as Folkman's
 conjecture, with his inequality as a bound asserted with no proof printed; the
-site's key [Fo70].
+erdosproblems.com key [Fo70].
 
 **Results.**
 

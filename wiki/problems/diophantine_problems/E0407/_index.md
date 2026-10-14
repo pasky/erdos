@@ -29,15 +29,15 @@ $$
 with $a,b,c,d\geq 0$ integers. Is it true that $w(n)$ is bounded by some
 absolute constant?
 
-**Status.** Proved, the site's label. The site's commentary credits Evertse,
-Győry, Stewart and Tijdeman with the proof. The frontmatter standing is derived
-from the accepted claim pages
+**Status.** Proved, the erdosproblems.com label. The erdosproblems.com
+commentary credits Evertse, Győry, Stewart and Tijdeman with the proof. The
+frontmatter standing is derived from the accepted claim pages
 [[problems/diophantine_problems/E0407/claims/1988_10_13_evertse_gyory_stewart_tijdeman|their proof]],
 [[problems/diophantine_problems/E0407/claims/1988_03_01_tijdeman_wang|Tijdeman and Wang's bound of four]]
 and
 [[problems/diophantine_problems/E0407/claims/2023_08_09_bajpai_bennett|Bajpai and Bennett's effective bounds]].
-Each is accepted on the site's credit. The two journal papers are also accepted
-on their refereed publication.
+Each is accepted on the erdosproblems.com credit. The two journal papers are
+also accepted on their refereed publication.
 
 **Source.** [erdosproblems.com/407](https://www.erdosproblems.com/407), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #407,

@@ -25,32 +25,31 @@ updated: 2026-10-08T01:29:59Z
 graph or independent set on $\gg \log n$ vertices then $G$ contains an induced
 subgraph on $\gg n$ vertices which contains $\gg n^{1/2}$ distinct degrees.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
-last-edited date). Read with constants: for every $C>0$
-there are $\alpha,\beta>0$ depending only on $C$ such that every graph $G$
-on $n$ vertices with no clique or independent set on more than $C\log n$
-vertices has an induced subgraph on at least $\alpha n$ vertices in which at
-least $\beta\sqrt n$ vertices have pairwise distinct degrees, the degrees
-taken in the induced subgraph. This is Bukh and Sudakov's Theorem 1.1 term
-for term, with $\hom(G)\le C\log n$ as the hypothesis and "order $\alpha n$
-with $\beta\sqrt n$ vertices of different degrees" as the conclusion; the base
-of the logarithm rescales $C$ and nothing else. Erdős's printed wording (1992,
-Problem 13, printed p. 234): "V. T. Sós, Faudree and
-I thought taht [sic] such a $G(n)$ has an induced subgraph of size $c_1n$ and at
-least $[c_2\sqrt n]$ vertices of different degree", where "such a $G(n)$" has
-largest trivial (complete or empty) subgraph of size less than $c\log n$; the
-site cites the 1997 restatement [Er97d], whose item 7 (p. 83) reads "We
-also conjectured that our $G(n)$ has an induced
-subgraph of size $c_1n$ where the vertices have $c_2n^{1/2}$ different
-degrees. An old result with Hajnal only gives that the number of vertices
-with distinct degrees tends to infinity with $n$", and Bukh and Sudakov cite
-both. The
-quantity $f(G)$ of Jenssen, Keevash, Long and Yepremyan, the largest number
-of distinct degrees in an induced subgraph of any size, is a different
-quantity from the one this statement bounds; see the assessment.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited date). Read with constants: for every $C>0$ there are
+$\alpha,\beta>0$ depending only on $C$ such that every graph $G$ on $n$ vertices
+with no clique or independent set on more than $C\log n$ vertices has an induced
+subgraph on at least $\alpha n$ vertices in which at least $\beta\sqrt n$
+vertices have pairwise distinct degrees, the degrees taken in the induced
+subgraph. This is Bukh and Sudakov's Theorem 1.1 term for term, with
+$\hom(G)\le C\log n$ as the hypothesis and "order $\alpha n$ with $\beta\sqrt n$
+vertices of different degrees" as the conclusion; the base of the logarithm
+rescales $C$ and nothing else. Erdős's printed wording (1992, Problem 13,
+printed p. 234): "V. T. Sós, Faudree and I thought taht [sic] such a $G(n)$ has
+an induced subgraph of size $c_1n$ and at least $[c_2\sqrt n]$ vertices of
+different degree", where "such a $G(n)$" has largest trivial (complete or empty)
+subgraph of size less than $c\log n$; erdosproblems.com cites the 1997
+restatement [Er97d], whose item 7 (p. 83) reads "We also conjectured that our
+$G(n)$ has an induced subgraph of size $c_1n$ where the vertices have
+$c_2n^{1/2}$ different degrees. An old result with Hajnal only gives that the
+number of vertices with distinct degrees tends to infinity with $n$", and Bukh
+and Sudakov cite both. The quantity $f(G)$ of Jenssen, Keevash, Long and
+Yepremyan, the largest number of distinct degrees in an induced subgraph of any
+size, is a different quantity from the one this statement bounds; see the
+assessment.
 
-**Status.** Proved. The site labeled the problem PROVED, and its curator credits
-the proof to Bukh and Sudakov. The claim page
+**Status.** Proved. Bloom's catalog labeled the problem PROVED, and its curator
+credits the proof to Bukh and Sudakov. The claim page
 [[problems/ramsey_theory/E0637/claims/2006_11_14_bukh_sudakov|Bukh and Sudakov 2006]]
 records the result, its postings and the acceptance evidence, and the
 frontmatter standing derives from it. The statement is Bukh and Sudakov's
@@ -67,10 +66,10 @@ strengthening"; no proof is reviewed here.
 
 **Source.** [erdosproblems.com/637](https://www.erdosproblems.com/637),
 accessed 2026-09-18: the problem page (PROVED, a
-label the site glosses as solved in the affirmative; no last-edited date
-shown; source key
-[Er97d]; commentary citing [BuSu07] and [JKLY20]), its empty discussion
-thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
+label erdosproblems.com glosses as solved in the affirmative; no last-edited
+date shown; source key [Er97d]; commentary citing [BuSu07] and [JKLY20]), its
+empty discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom,
+Erdős Problem
 #637, https://www.erdosproblems.com/637, accessed 2026-09-18.
 
 **References.**
@@ -92,8 +91,8 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   p. 234. Library home:
   [[../library/extremal_graph_theory/erdos_1992_my_favourite_problems_various_branches_combinatorics/_index|erdos_1992_my_favourite_problems_various_branches_combinatorics]].
 - [Er97d] Erdős, P., Some recent problems and results in graph theory.
-  Discrete Math. 164 (1997), 81--85; item 7, p. 83; the site's source key,
-  and Bukh and Sudakov's [9]. Library home:
+  Discrete Math. 164 (1997), 81--85; item 7, p. 83; the erdosproblems.com source
+  key, and Bukh and Sudakov's [9]. Library home:
   [[../library/ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/_index|erdos_1997_some_recent_problems_results_graph_theory]].
 - [LoPl22] Long, E. and Ploscaru, L., Distinct degrees and homogeneous sets.
   J. Combin. Theory Ser. B 159 (2023), 61--100, DOI
@@ -113,13 +112,14 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 in google-deepmind/formal-conjectures on its main branch (the directory
 `FormalConjectures/ErdosProblems/` listed in full), and the community database
 recorded the problem proved (last changed 31 August 2025), not formalized, with
-no formal proof. The site's "Formalised statement?" indicator reads "No".
+no formal proof. erdosproblems.com's "Formalised statement?" indicator reads
+"No".
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; PROVED; no last-edited date shown. The commentary attributes the
-problem to Erdős, Faudree and Sós, credits the proof to Bukh and Sudakov
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; PROVED; no last-edited date shown. The commentary attributes
+the problem to Erdős, Faudree and Sós, credits the proof to Bukh and Sudakov
 [BuSu07], and records the later theorem of Jenssen, Keevash, Long and
 Yepremyan [JKLY20], an induced subgraph of unrestricted size with
 $\gg n^{2/3}$ distinct degrees. The discussion thread and the proof-claim
@@ -127,12 +127,12 @@ tab are empty.
 
 **The origin.** Erdős's 1992 Catania paper, Problem
 13 (printed p. 234): after the Alon--Bollobás question on induced subgraphs
-with distinct vertex and edge counts (the site's Problem 636, with Erdős and
-Sós's $n^{3/2}$ against the guessed $n^{5/2}$), the sentence quoted under
-Formulation states the distinct-degrees conjecture for graphs whose largest
-trivial subgraph has fewer than $c\log n$ vertices. Bukh and Sudakov (p. 613)
-attribute the conjecture to Erdős, Faudree and Sós, citing this paper and
-[Er97d].
+with distinct vertex and edge counts (erdosproblems.com's Problem 636, with
+Erdős and Sós's $n^{3/2}$ against the guessed $n^{5/2}$), the sentence quoted
+under Formulation states the distinct-degrees conjecture for graphs whose
+largest trivial subgraph has fewer than $c\log n$ vertices. Bukh and Sudakov
+(p. 613) attribute the conjecture to Erdős, Faudree and Sós, citing this paper
+and [Er97d].
 
 **Status-defining source.**
 [[../library/ramsey_theory/bukh_2007_induced_subgraphs_ramsey_graphs_many_distinct/theorem_1_1|Theorem 1.1]]
@@ -144,7 +144,7 @@ omits floors and ceilings and assumes $n$ large
 (p. 613); logarithms are to the base $2$ (p. 612). Acceptance evidence: a
 refereed journal article (the published article records receipt on 21 June
 2006 and online availability on 14 November 2006, and the acknowledgments
-thank both referees), and the site's label. The proof (Section 2,
+thank both referees), and the erdosproblems.com label. The proof (Section 2,
 pp. 613--616) is checked for structure only; in outline, Lemma 2.2 finds a
 linear-size induced subgraph that is $c$-diverse, using the
 Erdős--Szemerédi density theorem (not held; second-hand), and Lemma 2.3 finds
@@ -202,9 +202,9 @@ loss; context, not a change to the status.
 of either theorem, a retraction, or a stronger statement about linear-size
 induced subgraphs.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures on its main branch (no file for
-  this problem); the community database as of 2026-09-18.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing of formal-conjectures on its main branch (no file for
+  this problem); the community database, read 2026-09-18.
 - arXiv: the abstract page of 1910.01361 (one version, 13 pages, no journal
   reference carried); the API queries `abs:"distinct degrees" AND abs:Ramsey`
   (two records, 2409.14134 and 1910.01361) and
@@ -225,15 +225,15 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [CMSS]
 and the Kwan--Sudakov paper [JKLY20] uses.
 
 **Remaining gaps.** (1) Neither proof is reviewed here; the status rests on
-the refereed publication of [BuSu07] and the site's acceptance, at
+the refereed publication of [BuSu07] and erdosproblems.com's acceptance, at
 claims-checked depth. (2) [JKLY20] is cited from the arXiv v1; the
 Proceedings text was not compared and its theorem numbering not checked.
-(3) [Er97d], the site's source key, is cited from its text; its item 7
-agrees with the 1992 wording. (4) The exponent $2/3$ for linear-size
-induced subgraphs, the problem's own quantity, rests on the observation
-recorded above about [JKLY20]'s proof, which no source states and nothing
-here reviews; the published statement of Theorem 1.1 gives $1/2$, which is
-all the site's problem asks.
+(3) [Er97d], the erdosproblems.com source key, is cited from its text; its item
+7 agrees with the 1992 wording. (4) The exponent $2/3$ for linear-size induced
+subgraphs, the problem's own quantity, rests on the observation recorded above
+about [JKLY20]'s proof, which no source states and nothing here reviews; the
+published statement of Theorem 1.1 gives $1/2$, which is all the
+erdosproblems.com problem asks.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

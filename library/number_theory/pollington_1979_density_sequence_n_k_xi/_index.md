@@ -29,7 +29,7 @@ of de Mathan's.
 
 A. D. Pollington, *On the density of sequence $\{n_k\xi\}$*, Illinois J.
 Math. **23** (1979), no. 4, 511--515; DOI 10.1215/ijm/1256047933. Received
-14 February 1979. The site's key Po79b.
+14 February 1979. The erdosproblems.com key Po79b.
 
 The copy read for this card is the
 journal's scan of the five printed pages (pp. 511--515; PDF p. $n$ is printed
@@ -98,19 +98,20 @@ supplies it (an uncountable set of reals contains irrationals), which the
 consuming pages state as an authored line.
 
 **Bears on.** [[../wiki/problems/number_theory/E0464/_index|#464]], as one of the two
-independent solutions the site names (p. 511 credits de Mathan, whose 1978
-Comptes Rendus note is its [3], with a similar result): the Theorem with
+independent solutions erdosproblems.com names (p. 511 credits de Mathan, whose
+1978 Comptes Rendus note is its [3], with a similar result): the Theorem with
 $t_k=n_k$ and $\alpha=1+\epsilon$ gives irrational $\theta$ with
 $\{\theta n_k\}\in[\beta,1-\beta]$ for all $k$, hence not dense modulo $1$
 and $\inf_k\|\theta n_k\|\ge\beta>0$, the
-modified Statement of that page (the site's wording is trivially true);
-the introduction quotes Erdős's 1975 question with its irrational clause,
-and the reference list places that question in the LNM 475 volume the site
-cites as Er75i. [[../wiki/problems/ramsey_theory/E0894/_index|#894]], where the same
-separation gives, through Katznelson's reduction, a proper coloring of the
-lacunary difference graph with $\lceil\beta^{-1}\rceil$ colors, a second
-first-hand proof of finiteness without an explicit dependence on $\epsilon$.
-Katznelson's paper is filed as
+modified Statement of that page (the erdosproblems.com wording is trivially
+true); the introduction quotes Erdős's 1975 question with its irrational clause,
+and the reference list places that question in the LNM 475 volume
+erdosproblems.com cites as Er75i.
+[[../wiki/problems/ramsey_theory/E0894/_index|#894]], where the same separation
+gives, through Katznelson's reduction, a proper coloring of the lacunary
+difference graph with $\lceil\beta^{-1}\rceil$ colors, a second first-hand proof
+of finiteness without an explicit dependence on $\epsilon$. Katznelson's paper
+is filed as
 [[number_theory/katznelson_2001_chromatic_numbers_cayley_graphs_z_recurrence/_index|katznelson_2001_chromatic_numbers_cayley_graphs_z_recurrence]];
 the reduction is that paper's proof of Theorem 1.1 on printed p. 212 (PDF p. 2),
 which divides the circle into $M$ equal arcs with $M\varepsilon>1$ and

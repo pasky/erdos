@@ -69,16 +69,16 @@ audited neither.
 
 ## Current assessment
 
-The site's formulation of 2026-10-07 asks two questions about Sidon sets
-$A,B\subseteq\{1,\ldots,N\}$ with $(A-A)\cap(B-B)=\{0\}$: whether
+The erdosproblems.com formulation of 2026-10-07 asks two questions about Sidon
+sets $A,B\subseteq\{1,\ldots,N\}$ with $(A-A)\cap(B-B)=\{0\}$: whether
 $\binom{\lvert A\rvert}{2}+\binom{\lvert B\rvert}{2}$ is at most
 $\binom{f(N)}{2}+O(1)$, and whether for $\lvert A\rvert=\lvert B\rvert$ it is
 at most $(1-c+o(1))\binom{f(N)}{2}$ for some $c>0$. The second question
 originally read $(1-c)\binom{f(N)}{2}$; small counterexamples to that
-wording posted in 2025-12 (for $N=8$ and $N=24$ among others) led the site to
-the asymptotic form, which the curator noted is what Erdős meant. Both
-questions are answered no, each on its own claim page. The second fails by
-Barreto's Bose–Chowla construction on
+wording posted in 2025-12 (for $N=8$ and $N=24$ among others) led
+erdosproblems.com to the asymptotic form, which the curator noted is what Erdős
+meant. Both questions are answered no, each on its own claim page. The second
+fails by Barreto's Bose–Chowla construction on
 [[problems/additive_bases/E0043/claims/2025_12_19_barreto|Barreto's claim
 page]], with $\lvert A\rvert=\lvert B\rvert$ and
 $\binom{\lvert A\rvert}{2}+\binom{\lvert B\rvert}{2}\geq(1-o(1))\binom{f(N)}{2}$
@@ -86,9 +86,9 @@ for infinitely many $N$. The first fails because the solution of
 [[problems/additive_bases/E0042/_index|Problem 42]] gives, for
 $\lvert A\rvert=f(N)$, a companion $B$ of any fixed size, as
 [[problems/additive_bases/E0043/claims/2026_04_27_sandhu|the first
-question's claim page]] records, crediting the solution of Problem 42 as the
-site does. The second answer is formalized in Lean 4 in the thread, and
-Alexeev's later formalization covers both; the corpus has built or reviewed
+question's claim page]] records, crediting the solution of Problem 42 as
+erdosproblems.com does. The second answer is formalized in Lean 4 in the thread,
+and Alexeev's later formalization covers both; the corpus has built or reviewed
 none of this.
 
 Known bounds. Erdős's upper bound $(1+o(1))N/2$, equivalent to the asymptotic
@@ -101,9 +101,9 @@ note of 2026-04-30 in the thread proves; the $O(\sqrt N)$ error stated in the
 comment does not follow from it. The curator's reply to that note
 (2026-04-30), calling the bound an immediate generalization of the Erdős–Turán
 argument, gives $\sum_i\lvert A_i\rvert^2\leq N+O(m^{1/2}N^{3/4})$ for $m$
-Sidon sets with pairwise disjoint nonzero differences. On 2026-10-07 the site's
-page and remarks, its thread, Problem 42's thread and the formal-conjectures
-file recorded no refereed publication of either answer.
+Sidon sets with pairwise disjoint nonzero differences. On 2026-10-07 the
+erdosproblems.com page and remarks, its thread, Problem 42's thread and the
+formal-conjectures file recorded no refereed publication of either answer.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -65,6 +65,6 @@ Display (13) of the same lecture (Erdős 1935) and Brun's method, as cited.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]]: the earliest two-sided
-  bound for the problem's $h(k)$ in the site's cited source; the left side
-  is stronger by a factor of $\log r$ than the lower bound the site's
-  commentary displays.
+  bound for the problem's $h(k)$ in erdosproblems.com's cited source; the left
+  side is stronger by a factor of $\log r$ than the lower bound the
+  erdosproblems.com commentary displays.

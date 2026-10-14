@@ -50,10 +50,10 @@ for every rational $\alpha\in[1,2)$ is settled by the accepted claim page
 exponents conjecture*, J. Combin. Theory Ser. B 148 (2021), 149--172,
 doi:10.1016/j.jctb.2020.12.003, a refereed journal. First posting:
 arXiv:1811.06916, v1 16 November 2018 (the date this page is named by). No
-`reviewed` evidence is listed. The site's commentary lists these exponents among
-the Turán exponents known before 2026 and credits the paper. But the site's
-label credited GPT-6 Astra with the full proof and is not an acceptance of this
-result.
+`reviewed` evidence is listed. The erdosproblems.com commentary lists these
+exponents among the Turán exponents known before 2026 and credits the paper. But
+the erdosproblems.com label credited GPT-6 Astra with the full proof and is not
+an acceptance of this result.
 
 **Read depth.** The statements are taken from the paper's abstract and the
 result list on the library card; no proof was read, and nothing is

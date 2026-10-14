@@ -52,9 +52,9 @@ https://www.erdosproblems.com/400.
 ## Current assessment
 
 **Open; a constant $c_k$ would lie between $3(k-1)/\log12$ and
-$(k-1)/\log2$, but no constant is shown to exist.** The site's commentary
-(read 2026-09-05) reports Erdős and Graham's remark [ErGr80, p. 77] that
-$g_k(n)\ll_k\log n$ is easy to show while the best possible constant is
+$(k-1)/\log2$, but no constant is shown to exist.** The erdosproblems.com
+commentary (read 2026-09-05) reports Erdős and Graham's remark [ErGr80, p. 77]
+that $g_k(n)\ll_k\log n$ is easy to show while the best possible constant is
 unknown, and points to
 [[problems/factorials_binomials/E0401/_index|Problem 401]]. Eric Li's
 preprint [[../library/factorials_binomials/li_2026_prime_power_rarefaction_density_one_lower/_index|Li 2026]]
@@ -101,12 +101,12 @@ has results parallel to Pomerance's; they are context here. A thread comment
 of 24 July 2026 reports exact values of $g_2(n)$ for $n\le10^5$, finite data
 that decide nothing about the limit.
 
-**Search scope.** The site's problem page, its discussion thread (eleven
-comments) and its proof-claims tab (no claims); the arXiv record of
+**Search scope.** The erdosproblems.com problem page, its discussion thread
+(eleven comments) and its proof-claims tab (no claims); the arXiv record of
 2606.23661 (two versions, no journal reference) and an arXiv title and
 abstract query for "Problem 400" (Li's preprint only); the library cards of
 the three sources above. [ErGr80] p. 77 was not read; its remark is cited as
-the site gives it. Not searched: MathSciNet, zbMATH, Google Scholar, X.
+erdosproblems.com gives it. Not searched: MathSciNet, zbMATH, Google Scholar, X.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

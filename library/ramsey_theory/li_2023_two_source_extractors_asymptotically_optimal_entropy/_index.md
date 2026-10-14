@@ -127,7 +127,7 @@ survey (pp. 1--2) names as the previous best two-source extractor in entropy
 that of its reference [81] (Li, CCC 2019), whose Ramsey graph has no clique
 or independent set of size $(\log N)^{O(\log\log\log N/\log\log\log\log N)}$,
 short of a polylogarithmic bound. The library has no card for [81] or for the
-Chattopadhyay--Zuckerman papers [24] and [26], and the site credits the
+Chattopadhyay--Zuckerman papers [24] and [26], and erdosproblems.com credits the
 $(\log n)^C$ bound to this paper.
 
 ## Contents

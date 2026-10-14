@@ -27,9 +27,9 @@ $$
 *then $C^{2l}\subset G^n$ for every integer $l\in[k,kn^{1/k}]$.*"
 
 In particular $\mathrm{ex}(n;C_{2k})\le100k\,n^{1+1/k}$ for every $k\ge2$
-and $n$, the site's $\mathrm{ex}(n;C_{2k})\ll kn^{1+1/k}$ with an explicit
-constant. The theorem proves the statement that Erdős "published without
-proof" (p. 97, quoted there as: there exist $c_k$ and $n_0(k)$ such that
+and $n$, erdosproblems.com's $\mathrm{ex}(n;C_{2k})\ll kn^{1+1/k}$ with an
+explicit constant. The theorem proves the statement that Erdős "published
+without proof" (p. 97, quoted there as: there exist $c_k$ and $n_0(k)$ such that
 $e(G^n)>c_kn^{1+1/k}$ and $n>n_0$ imply $C^{2k}\subset G^n$) and Erdős's
 later question whether that hypothesis gives $C^{2l}\subset G^n$ for every
 integer $l\in[k,n^{1/k}]$ (p. 98).

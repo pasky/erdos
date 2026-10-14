@@ -68,13 +68,13 @@ $A$ and $B$ two sequences of integers in $(1,n)$ and $N(A,B;n)$ the number
 of integers $m$ for which $m=a_ib_j$ has precisely one solution, "Determine
 or estimate $\max N(A,B;n)$ where the maximum is taken over all
 subsequences $A$ and $B$ of $(1,n)$", with the remark that Szemerédi's
-method may help; the problem's question with $n$ for its $N$; the
-site does not key this paper for the problem
+method may help; the problem's question with $n$ for its $N$;
+erdosproblems.com does not key this paper for the problem
 ([[integer_sequences/erdos_1972_extremal_problems_number_theory/section_i|section_i]]).
 [[../wiki/problems/number_theory/E0466/_index|#466]] and
 [[../wiki/problems/number_theory/E0465/_index|#465]]: Section IV, printed p. 83 (PDF
-p. 4, page image), the site's source key Er72 for Problem 466. Erdős says
-he asked the question the year before: "Let $z_i$, $|z_i|<n$ be complex
+p. 4, page image), the erdosproblems.com source key Er72 for Problem 466. Erdős
+says he asked the question the year before: "Let $z_i$, $|z_i|<n$ be complex
 numbers so that the numbers $|z_i-z_j|$ differ from an integer by more than
 $c$ where $0<c<\frac12$. Determine or estimate $t=t(c,n)$." He adds that
 the real case is trivial, reports the lower bound $t>n^{\alpha_c}$ for every
@@ -97,8 +97,8 @@ maximal number and the Graham--Sárközy and Sárközy bounds; the problem's
 measure question is not stated, and the closing sentence poses the same
 problem for higher dimensions.
 [[../wiki/problems/additive_combinatorics/E0865/_index|#865]]: Section III, printed
-pp. 82--83 (PDF pp. 3--4, page images), the site's source key Er72. Erdős
-announces a theorem of Choi, Szemerédi and himself: for every $\ell$ there
+pp. 82--83 (PDF pp. 3--4, page images), the erdosproblems.com source key Er72.
+Erdős announces a theorem of Choi, Szemerédi and himself: for every $\ell$ there
 is an $\varepsilon_\ell>0$ such that every sequence of integers
 $1\le a_1<\ldots<a_k\le n$ with $k>(\frac23-\varepsilon_\ell)n$ and
 $n>n_0(\varepsilon_\ell,\ell)$ contains $\ell$ terms
@@ -111,8 +111,8 @@ forces three terms $a_{i_1},a_{i_2},a_{i_3}$ whose three pairwise sums
 1972 announcement of the Choi--Erdős--Szemerédi theorem and the $5n/8+c$
 conjecture.
 [[../wiki/problems/additive_combinatorics/E0866/_index|#866]]: Section III, printed p. 83
-(PDF p. 4, page image), the continuation of the same passage; the site does
-not key this paper for the problem. Erdős reports further results of the
+(PDF p. 4, page image), the continuation of the same passage; erdosproblems.com
+does not key this paper for the problem. Erdős reports further results of the
 three authors in which the integers $b_1,\ldots,b_\ell$ need not belong to
 $A$, only their pairwise sums: if $k>\frac n2+n^{1-\varepsilon_\ell}$ there
 are $\ell$ integers whose $\binom{\ell}2$ sums $b_i+b_j$ are distinct and in

@@ -14,14 +14,14 @@ parts:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:55:41Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 978
 
 [[problems/diophantine_problems/_index|..]]
 
-[[problems/diophantine_problems/E0978/claims/_index|claims/]]: The 6 claim pages of Problem 978, one per claimant's result; the problem's standing derives from them.
+[[problems/diophantine_problems/E0978/claims/_index|claims/]]: The 7 claim pages of Problem 978, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -54,15 +54,16 @@ question's exponent $k-2$, squarefreeness at $k=4$. The claims recorded below
 for the second and third questions need neither the exclusion nor the sign
 condition on the leading coefficient, so they answer either reading.
 
-**Status.** Proved, departing from the site's label OPEN. The frontmatter
-derives this standing from Hooley's and OpenAI's claim pages together, since
-between them they settle every part. The frontmatter lists the three questions
-as the problem's parts, and each is settled by an accepted partial claim page.
+**Status.** Proved, departing from the erdosproblems.com label OPEN. The
+frontmatter derives this standing from Hooley's and OpenAI's claim pages
+together, since between them they settle every part. The frontmatter lists the
+three questions as the problem's parts, and each is settled by an accepted
+partial claim page.
 [[problems/diophantine_problems/E0978/claims/1967_06_01_hooley|Hooley's asymptotic]]
 settles the first question.
 [[problems/diophantine_problems/E0978/claims/2026_09_24_openai|OpenAI's density theorem]]
-settles the second and third. The site's page was last edited on 31 March 2026,
-and its proof-claims tab was empty on 2026-10-06.
+settles the second and third. The erdosproblems.com page was last edited on 31
+March 2026, and its proof-claims tab was empty on 2026-10-06.
 
 **Source.** [erdosproblems.com/978](https://www.erdosproblems.com/978), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #978,
@@ -102,16 +103,16 @@ statement file, not a formalization of any solution.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks three questions about an
-irreducible $f\in\mathbb{Z}[x]$ of degree $k>2$ with positive leading
+The erdosproblems.com formulation (accessed 2026-09-04) asks three questions
+about an irreducible $f\in\mathbb{Z}[x]$ of degree $k>2$ with positive leading
 coefficient, excluding $k=2^l$: whether the $n$ with $f(n)$ $(k-1)$-power-free
 have positive density; whether, for $k>3$ and $f$ without a fixed prime
 $(k-2)$-th power divisor, $f(n)$ is $(k-2)$-power-free infinitely often; and
-whether $n^4+2$ is squarefree infinitely often. The site's remarks record the
-literature as follows. Erdős [Er53] proved that $f(n)$ is $(k-1)$-power-free for
-infinitely many $n$, except in the case $k=2^l$ with $2^{k-1}$ dividing every
-value, which does occur, for instance at $f(x)=k!\left(\binom{x}{k}+1\right)$;
-the library card is
+whether $n^4+2$ is squarefree infinitely often. The erdosproblems.com remarks
+record the literature as follows. Erdős [Er53] proved that $f(n)$ is
+$(k-1)$-power-free for infinitely many $n$, except in the case $k=2^l$ with
+$2^{k-1}$ dividing every value, which does occur, for instance at
+$f(x)=k!\left(\binom{x}{k}+1\right)$; the library card is
 [[../library/diophantine_problems/erdos_1953_arithmetical_properties_polynomials/_index|Erdős 1953]].
 Hooley [Ho67] answered the first question with an asymptotic count, recorded on
 [[problems/diophantine_problems/E0978/claims/1967_06_01_hooley|its claim page]].
@@ -141,11 +142,12 @@ first question is settled by Hooley's asymptotic, recorded as the accepted
 partial claim
 [[problems/diophantine_problems/E0978/claims/1967_06_01_hooley|Hooley 1967]] on
 `refereed` evidence (the journal publication; the curator's remark crediting
-Hooley is commentary on a problem the site labeled OPEN); that page states why
-the Euler-product constant is positive under the question's hypotheses. The
-three questions are the problem's parts, each settled by an accepted partial
-claim, so the derived standing is solved with the claim proved, every answer
-being yes. The site's last edit (31 March 2026) predates the release.
+Hooley is commentary on a problem Bloom's catalog labeled OPEN); that page
+states why the Euler-product constant is positive under the question's
+hypotheses. The three questions are the problem's parts, each settled by an
+accepted partial claim, so the derived standing is solved with the claim proved,
+every answer being yes. erdosproblems.com's last edit (31 March 2026) predates
+the release.
 
 Two earlier preprints claim the third question and are recorded as pending
 partial claims.
@@ -165,22 +167,25 @@ $\mathbb{Q}(\sqrt{-2})$ and its fixed divisor is $1$. The release manuscript
 cites both preprints and uses neither. Both claims agree with the accepted
 answer and leave the derived standing unchanged.
 
-The site's discussion thread (16 comments as of 2026-10-07) records the
-formulation's history. On 31 March 2026 a comment reported that a DeepMind
-prover agent had found a counterexample to the second question as then
-worded, without the local condition: the sextic
-$X^6+33X^5+21X^4+63X^3+18X^2+24X+48$ is congruent to $X(X-1)\cdots(X-5)$
-modulo $16$, so $16$ divides every value and no value is $4$-power-free. The
-curator added the local condition the same day, and the statement above
-carries it. A comment of the same day reports that two AI systems, named there
-as ChatGPT 5.4 and Gemini 3.1 Pro, claim a positive answer for $n^4+2$ under
-the abc conjecture; no manuscript is linked, and a result conditional on abc
-decides nothing, so it gets no claim page. Earlier comments (September 2025 to
-March 2026) explain the exclusion of $k=2^l$ through Erdős's examples, note
-that Bunyakovsky's conjecture would make $n^4+2$ prime, hence squarefree,
-infinitely often, and correct the statement's wording.
+The erdosproblems.com discussion thread (16 comments, accessed 2026-10-07)
+records the formulation's history. On 31 March 2026 Moritz Firsching posted a
+counterexample, found by a DeepMind prover agent and proved in Lean, to the
+second question as then worded, without the local condition: the sextic
+$X^6+33X^5+21X^4+63X^3+18X^2+24X+48$ is congruent to $X(X-1)\cdots(X-5)$ modulo
+$16$, so $16$ divides every value and no value is $4$-power-free. It answers
+only that earlier wording, and
+[[problems/diophantine_problems/E0978/claims/2026_03_31_deepmind|its claim page]]
+records it as rejected, answering a variant. The curator added the local
+condition the same day, and the statement above carries it. A comment of the
+same day reports that two AI systems, named there as ChatGPT 5.4 and Gemini 3.1
+Pro, claim a positive answer for $n^4+2$ under the abc conjecture; no manuscript
+is linked, and a result conditional on abc decides nothing, so it gets no claim
+page. Earlier comments (September 2025 to March 2026) explain the exclusion of
+$k=2^l$ through Erdős's examples, note that Bunyakovsky's conjecture would make
+$n^4+2$ prime, hence squarefree, infinitely often, and correct the statement's
+wording.
 
-Search scope: the site's problem page, remarks, discussion thread and
+Search scope: the erdosproblems.com problem page, remarks, discussion thread and
 proof-claims tab (empty on 2026-10-06); the release manuscript, its
 Lean catalog and the corpus's verification record; the arXiv records of the
 two preprints above; the formal-conjectures file at its revision of

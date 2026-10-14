@@ -78,9 +78,9 @@ $\frac34$ figures.
   asks how large the larger upper logarithmic density of the two subset-sum
   sets must be when the natural numbers are split into two classes. For
   $k=2$ the claim is the lower bound $\frac12$ for that quantity, stated
-  without proof. The block partition is the construction behind the site's
-  example of the $n$ with $\lfloor\log_4\log n\rfloor$ even. Conlon, Fox
-  and Pham take Erdős's example as the coloring by the parity of
+  without proof. The block partition is the construction behind the
+  erdosproblems.com example of the $n$ with $\lfloor\log_4\log n\rfloor$ even.
+  Conlon, Fox and Pham take Erdős's example as the coloring by the parity of
   $\lfloor\log_4\log_2n\rfloor$ and compute, as their card records, that
   both subset-sum sets then have upper logarithmic density $\frac{14}{15}$,
   not at most $\frac34$. The problem page records the standing.

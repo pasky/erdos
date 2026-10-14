@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 1011, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E1011/claims
@@ -28,11 +28,11 @@ status is claimed.
 
 [[problems/extremal_graph_theory/E1011/claims/2026_09_10_kentakitamura|2026_09_10_kentakitamura]]: Kenta Kitamura's forum comment of 10 September 2026 announces a Lean 4
 development said to determine $f_4(n)$ for every $n$, extending the preprint's
-range. It was read as text only, is unreviewed and is not accepted by the
-site.
+range. It was read as text only, is unreviewed and is not accepted by
+erdosproblems.com.
 
 [[problems/extremal_graph_theory/E1011/claims/2026_09_19_kentakitamura|2026_09_19_kentakitamura]]: Kenta Kitamura's forum comment of 19 September 2026 announces a kernel-checked
 Lean 4 proof that $f_5(n)=\lfloor n^2/4\rfloor-3n+15$ for every $n\ge80$. It
-was read as text only, is unreviewed and is not accepted by the site.
+was read as text only, is unreviewed and is not accepted by erdosproblems.com.
 
 ***

@@ -49,9 +49,9 @@ still not clear what the actual order of the function $f_{r,s}(n)$ is. An
 improvement in the lower bound for $f_{r,s}(n)$ would be of particular
 interest."
 
-**In the problem's notation.** The site's $f(n)$ for Problem 620 is
+**In the problem's notation.** erdosproblems.com's $f(n)$ for Problem 620 is
 $f_{3,4}(n)$, so Theorem 5 reads $f(n)\le n^{7/10+\epsilon}$ for every
-$\epsilon>0$ and all large $n$, the site's $f(n)\ll n^{7/10+o(1)}$.
+$\epsilon>0$ and all large $n$, erdosproblems.com's $f(n)\ll n^{7/10+o(1)}$.
 
 **Source.** B. Bollobás and H. R. Hind, *Graphs without large triangle free
 subgraphs*, Discrete Mathematics 87 (1991), 119--131,
@@ -147,8 +147,8 @@ which the introduction names as the model for the upper bounds.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the upper bound
-  $f(n)\le n^{7/10+\epsilon}$ that the site's commentary attributes to the
-  paper, $f(n)\ll n^{7/10+o(1)}$, since improved by Krivelevich's
+  $f(n)\le n^{7/10+\epsilon}$ that the erdosproblems.com commentary attributes
+  to the paper, $f(n)\ll n^{7/10+o(1)}$, since improved by Krivelevich's
   $cn^{2/3}(\log n)^{1/3}$
   ([[extremal_graph_theory/krivelevich_1994_free_graphs_without_large_free_subgraphs/corollary_1|Corollary 1]]
   of 1994, whose closing paragraph compares the two), by Wolfovitz's

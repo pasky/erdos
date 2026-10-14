@@ -17,9 +17,9 @@ updated: 2026-10-07T20:23:45Z
 
 P. Erdős, *Some unsolved problems*, in: B. Bollobás and A. Thomason (eds.),
 *Combinatorics, Geometry and Probability: A Tribute to Paul Erdős*,
-Cambridge University Press, Cambridge, 1997, pp. 1--10. The site's entry,
-carried by six of the seven citing pages, reads "Combinatorics, geometry and
-probability (Cambridge, 1993) (1997), 1-10"; the volume collects the papers
+Cambridge University Press, Cambridge, 1997, pp. 1--10. The erdosproblems.com
+entry, carried by six of the seven citing pages, reads "Combinatorics, geometry
+and probability (Cambridge, 1993) (1997), 1-10"; the volume collects the papers
 of the Cambridge conference for Erdős's eightieth birthday in March 1993
 (preface, p. ix). Chapter DOI 10.1017/CBO9780511662034.004, from the
 compilation's access record; it is not printed in the scan.
@@ -136,9 +136,9 @@ posing the pentagon count with Győri's partial results;
 Pyber's exponential bounds; [[../wiki/problems/polynomials/E0119/_index|#119]], as
 Problem 23, posing the three questions on $M_n$, the last with the prize;
 [[../wiki/problems/ramsey_theory/E0667/_index|#667]], as Problem 13 (pp. 3--4, PDF pp.
-26--27), the site's only source: the definition of $H(n;p,q)$ and $c(p,q)$
-as a lower limit, the strict-increase conjecture over $1\le q\le
-\binom{p-1}2+1$, the endpoint values and the unreferenced bound
+26--27), erdosproblems.com's only source: the definition of $H(n;p,q)$ and
+$c(p,q)$ as a lower limit, the strict-increase conjecture over
+$1\le q\le \binom{p-1}2+1$, the endpoint values and the unreferenced bound
 $c(p,\binom{p-1}2)\le1/2$;
 [[../wiki/problems/set_systems/E0664/_index|#664]], as the general form of
 Problem 7 (p. 3): for $|\mathcal S|=n$ and subsets $A_i$ with

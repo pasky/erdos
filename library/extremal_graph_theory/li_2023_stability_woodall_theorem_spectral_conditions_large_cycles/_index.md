@@ -53,8 +53,8 @@ conditions for large cycles*, Electron. J. Combin. **30** (2023), no. 1,
 Paper No. 1.39, 20 pp., DOI 10.37236/11641; submitted 1 November 2022,
 accepted 13 February 2023, published 24 February 2023; "Released under the
 CC BY-ND license (International 4.0)" (p. 1). The Electronic Journal of
-Combinatorics is a refereed open-access journal. Not a source key of the
-site; Problem 1012's page cites it as [LiNi23].
+Combinatorics is a refereed open-access journal. Not a source key of
+erdosproblems.com; Problem 1012's page cites it as [LiNi23].
 
 **Edition read.** The copy read for this card is the journal's typeset
 article: twenty pages with the running foot "the
@@ -122,7 +122,7 @@ inequalities not checked; Section 2.3, the proof of Theorem 13
 - References (pp. 18--20): [4] J. A. Bondy, Large cycles in graphs,
   Discrete Math. 1 (1971/1972), 121--132; [37] D. R. Woodall, Sufficient
   conditions for circuits in graphs, Proc. London Math. Soc. 24 (1972),
-  739--755 (the site's Wo72); [38] D. R. Woodall, Maximal circuits of
+  739--755 (erdosproblems.com's Wo72); [38] D. R. Woodall, Maximal circuits of
   graphs. I, Acta Math. Acad. Sci. Hungar. 28 (1976), 77--80.
 
 ## Compiled scope

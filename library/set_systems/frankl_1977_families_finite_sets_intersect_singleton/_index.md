@@ -60,7 +60,7 @@ contain two members meeting in exactly s elements; the author can prove it
 only with c_k binom(n-s-1,k-s-1) in place of binom(n-s-1,k-s-1), c_k a large
 constant depending only on k. Problem 702's modified Statement, with
 Erdős's range n>n_0(k), is the Erdős-Sós conjecture proved here, and the
-problem's site credits this paper with the proof for all k>=4.
+problem's erdosproblems.com page credits this paper with the proof for all k>=4.
 
 Source:
 <https://www.cambridge.org/core/journals/bulletin-of-the-australian-mathematical-society/article/on-families-of-finite-sets-no-two-of-which-intersect-in-a-singleton/F69C00E560F03498962EB8E21CC67C03>.

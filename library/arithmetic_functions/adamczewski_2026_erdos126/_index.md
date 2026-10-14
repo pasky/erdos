@@ -30,12 +30,13 @@ with every assigned vertex used at most twice.
 exposition generated from a GPT-6 Astra formal proof and supplied by Thomas
 F. Bloom. Tom Adamczewski maintains the original proof repository as part of
 the FrontierMath Erdős work with Bloom. The source slug identifies that
-repository's maintainer; the site credits the proof to GPT-6 Astra.
+repository's maintainer; erdosproblems.com credits the proof to GPT-6 Astra.
 
 **Canonical source.** The three-page PDF was downloaded 2026-09-05 from
-[the site's proof link](https://www.erdosproblems.com/static/126-proof.pdf). All
-three pages were inspected. Bloom's
-[proof-claim note](https://www.erdosproblems.com/forum/thread/126/proof-claims#proof-claim-244),
+[erdosproblems.com's proof
+link](https://www.erdosproblems.com/static/126-proof.pdf). All three pages were
+inspected. Bloom's [proof-claim
+note](https://www.erdosproblems.com/forum/thread/126/proof-claims#proof-claim-244),
 submitted 2026-09-03, identifies this as a preliminary exposition pending a
 proper writeup. The source is not a refereed paper. No notice is printed in the
 file, and the hosting site states no copyright, license or terms
@@ -126,12 +127,12 @@ proof associated with a separate JohnVictor36 claim also remains outside
 the accepted proof chain pending independent review and acceptance evidence.
 Upload dates alone do not establish mathematical priority or independence.
 
-The dated status check covers the site's statement and discussion, Bloom's
-proof-claim entry for GPT-6 Astra, the pinned public proof repository and
-its CI, and the
-[FrontierMath report](https://epoch.ai/files/frontiermath-erdos.pdf). It
-establishes the reported resolution and the source of the stronger written
-proof; it is not an exhaustive novelty search or a proof of optimality.
+The dated status check covers the erdosproblems.com statement and discussion,
+Bloom's proof-claim entry for GPT-6 Astra, the pinned public proof repository
+and its CI, and the [FrontierMath
+report](https://epoch.ai/files/frontiermath-erdos.pdf). It establishes the
+reported resolution and the source of the stronger written proof; it is not an
+exhaustive novelty search or a proof of optimality.
 
 **Bears on.**
 

@@ -5,7 +5,7 @@ desc: |
   sets and point distances, with many stated conjectures.
 license: unstated
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_bases/erdos_1984_extremal_problems_number_theory
@@ -15,20 +15,21 @@ updated: 2026-10-08T14:30:02Z
 [[additive_bases/erdos_1984_extremal_problems_number_theory/construction_p57|construction_p57]]: Erdős's 1983 ICM construction, the numbers 4^u + 4^v with 1 ≤ u ≤ n < v ≤
 n + n^2, a B_2^{(2)} sequence of n^3 terms none of whose subsequences of
 more than 2n^2 terms is Sidon, with his remark that he cannot decide whether
-the exponent 2/3 is best possible; the site's source for Problem 772.
+the exponent 2/3 is best possible; the erdosproblems.com source for
+Problem 772.
 
 [[additive_bases/erdos_1984_extremal_problems_number_theory/display_12|display_12]]: Erdős's 1983 ICM statement of his 1945 bounds on f_2(n), the largest
 number of times one distance can occur among n points in the plane, his
 conjecture that the lower bound is best possible or nearly so, the
 Erdős–Sós questions on the extremal configurations including whether
 f_2(n) − a_2 tends to infinity, and the later bounds he reports for f_2(n)
-and g_2(n); the site's source for Problem 959.
+and g_2(n); the erdosproblems.com source for Problem 959.
 
 [[additive_bases/erdos_1984_extremal_problems_number_theory/display_31|display_31]]: Erdős's 1983 ICM statement that r(K(m), C_4) < m^{2−ε} seems very likely,
 that it is not even known that r(K(m), C_4)/r(K(m), C_3) tends to zero,
 and Szemerédi's observation r(K(m), C_4) < cm^2/(log m)^2, which follows
 from the Ajtai–Komlós–Szemerédi independence lemma; with the bounds (29)
-on r(K(3), K(m)) they are compared against; the site's source for
+on r(K(3), K(m)) they are compared against; the erdosproblems.com source for
 Problem 159.
 
 ***
@@ -89,15 +90,15 @@ unstated.
 
 Source: <https://users.renyi.hu/~p_erdos/1984-06.pdf>.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0159/_index|#159]], the site's
-[Er84d] source: displays (31)--(33), printed pp. 66--67 (PDF pp. 16--17,
-page images), the conjecture $r(K(m),C_4)<m^{2-\varepsilon}$, stated as very
-likely with no quantifier on $\varepsilon$, the unproved comparison (32) and
-Szemerédi's observation (33), the printed source of the site's attribution
-of the $m^2/(\log m)^2$ upper bound to Szemerédi; paged on
+**Bears on.** [[../wiki/problems/ramsey_theory/E0159/_index|#159]],
+erdosproblems.com's [Er84d] source: displays (31)--(33), printed pp. 66--67 (PDF
+pp. 16--17, page images), the conjecture $r(K(m),C_4)<m^{2-\varepsilon}$, stated
+as very likely with no quantifier on $\varepsilon$, the unproved comparison (32)
+and Szemerédi's observation (33), the printed source of the erdosproblems.com
+attribution of the $m^2/(\log m)^2$ upper bound to Szemerédi; paged on
 [[additive_bases/erdos_1984_extremal_problems_number_theory/display_31|display_31]].
-[[../wiki/problems/additive_bases/E0772/_index|#772]], the site's [Er84d]
-source: the $B_2^{(2)}$ construction (p. 57), $n^3$ terms with every sum
+[[../wiki/problems/additive_bases/E0772/_index|#772]], erdosproblems.com's
+[Er84d] source: the $B_2^{(2)}$ construction (p. 57), $n^3$ terms with every sum
 represented at most twice and no Sidon subsequence of more than $2n^2$
 terms, gives $H_k(n^3)\le2n^2$ for every $k\ge4$ (two unordered
 representations are at most four ordered ones in $1_A\ast1_A$); the
@@ -105,15 +106,15 @@ printed remark there leaves open whether the exponent $\frac{2}{3}$ is best
 possible and doubts that it could be improved to $\frac{1}{2}$, the exponent
 the problem asks about; paged on
 [[additive_bases/erdos_1984_extremal_problems_number_theory/construction_p57|construction_p57]].
-[[../wiki/problems/distance_problems/E0959/_index|#959]], the site's [Er84d]
-source: the Erdős--Sós question (p. 59) whether $f_2(n)-a_2\to\infty$,
-the print not saying in which configuration $a_2$ is taken, where the site
-asks to estimate the largest gap $a_1-a_2$ over all
-$n$-point sets; paged on
+[[../wiki/problems/distance_problems/E0959/_index|#959]], erdosproblems.com's
+[Er84d] source: the Erdős--Sós question (p. 59) whether $f_2(n)-a_2\to\infty$,
+the print not saying in which configuration $a_2$ is taken, where
+erdosproblems.com asks to estimate the largest gap $a_1-a_2$ over all $n$-point
+sets; paged on
 [[additive_bases/erdos_1984_extremal_problems_number_theory/display_12|display_12]].
-[[../wiki/problems/distance_problems/E0090/_index|#90]], not the site's
-source: Erdős's conjecture after (12) (p. 59) that the lower bound
-$n^{1+c/\log\log n}$ for $f_2(n)$ is best possible is the problem's
+[[../wiki/problems/distance_problems/E0090/_index|#90]], not the
+erdosproblems.com source: Erdős's conjecture after (12) (p. 59) that the lower
+bound $n^{1+c/\log\log n}$ for $f_2(n)$ is best possible is the problem's
 question, his alternative "or at least not far from being best possible"
 a weaker unquantified form; paged on
 [[additive_bases/erdos_1984_extremal_problems_number_theory/display_12|display_12]].

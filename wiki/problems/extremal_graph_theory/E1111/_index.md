@@ -28,31 +28,31 @@ If $t,c\geq 1$ then there exists $d\geq 1$ such that if $\chi(G)\geq d$ and
 $\omega(G)<t$ then there are anticomplete sets $A,B$ with $\chi(A)\geq
 \chi(B)\geq c$.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-7 December 2025). $\chi(A)$ is the chromatic number of the induced subgraph
-on $A$; $\omega(G)<t$ says $G$ has no complete subgraph on
-$t$ vertices. The site writes $d(t,c)$ for the least such $d$. In [ElEr85]
-the same quantity is $f(r,n)$: "Is there a minimal integer $f(r,n)$ such
-that each graph $G$ with $\chi(G)\ge f(r,n)$ and which does not contain a
-complete subgraph of order $r$ must contain two non-neighboring
-$n$-chromatic subgraphs?" (p. 295), so $f(r,n)=d(r,n)$ with the excluded
-clique order first and the chromatic number second; in [Er85b] it is
-$n(k,\ell)$ with the letters reversed (p. 206). The site's values $t(2,2)=2$,
-$t(3,2)=4$ and $t(4,2)=5$ are the paper's $f(2,2)=2$, $f(3,2)=4$,
-$f(4,2)=5$, that is, values of $d(\cdot,2)$; the letter $t$ there is a slip
-of the commentary. The statement is for all $t,c\ge1$ and asks for the
-existence of $d$; the site's remark that the case $t\le c$ suffices is
-the paper's reduction, "for a fixed $n$, an upper bound for $f(r,n)$, $r>n$, is
-given in terms of $f(r,n)$, $r\le n$" (p. 295; the bound is Theorem 1), which a
-thread comment of 16 December 2025 reads as the implication from $d(c,c)<\infty$
-to $d(t,c)<\infty$ for all $t$. The statement is a conjecture; the site's label
-OPEN marks a problem that is open and not settled by a finite computation.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 7 December 2025). $\chi(A)$ is the chromatic number of the induced
+subgraph on $A$; $\omega(G)<t$ says $G$ has no complete subgraph on $t$
+vertices. erdosproblems.com writes $d(t,c)$ for the least such $d$. In [ElEr85]
+the same quantity is $f(r,n)$: "Is there a minimal integer $f(r,n)$ such that
+each graph $G$ with $\chi(G)\ge f(r,n)$ and which does not contain a complete
+subgraph of order $r$ must contain two non-neighboring $n$-chromatic subgraphs?"
+(p. 295), so $f(r,n)=d(r,n)$ with the excluded clique order first and the
+chromatic number second; in [Er85b] it is $n(k,\ell)$ with the letters reversed
+(p. 206). erdosproblems.com's values $t(2,2)=2$, $t(3,2)=4$ and $t(4,2)=5$ are
+the paper's $f(2,2)=2$, $f(3,2)=4$, $f(4,2)=5$, that is, values of $d(\cdot,2)$;
+the letter $t$ there is a slip of the commentary. The statement is for all
+$t,c\ge1$ and asks for the existence of $d$; the erdosproblems.com remark that
+the case $t\le c$ suffices is the paper's reduction, "for a fixed $n$, an upper
+bound for $f(r,n)$, $r>n$, is given in terms of $f(r,n)$, $r\le n$" (p. 295; the
+bound is Theorem 1), which a thread comment of 16 December 2025 reads as the
+implication from $d(c,c)<\infty$ to $d(t,c)<\infty$ for all $t$. The statement
+is a conjecture; the erdosproblems.com label OPEN marks a problem that is open
+and not settled by a finite computation.
 
 **Status.** Open. The most recent refereed treatment is
 [[../library/extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1|Problem 1.1]]
 of [NSS24] (J. Combin. Theory Ser. B 165 (2024), 211--222; cited in the arXiv v1
-text of March 2023). It restates the statement in the site's letters and says
-"This remains open."
+text of March 2023). It restates the statement in erdosproblems.com's letters
+and says "This remains open."
 
 Two cases are settled. The case $c=2$ holds for every $t$, through Wagon's
 [[../library/extremal_graph_theory/wagon_1980_bound_chromatic_number_graphs_without_certain_induced_subgraphs/theorem_p345|Theorem]]
@@ -85,12 +85,12 @@ not a certificate of openness.
 
 **Source.** [erdosproblems.com/1111](https://www.erdosproblems.com/1111),
 accessed 2026-09-18: the problem page
-(labeled OPEN, the site's label for a problem that is open and not settled
-by a finite computation; last edited 7 December 2025; source keys [ElEr85],
-[Er85b], with [Wa80b] and [NSS24] cited in the commentary), its two-comment
-discussion thread (8 and
-16 December 2025) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
-Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
+(labeled OPEN, the erdosproblems.com label for a problem that is open and not
+settled by a finite computation; last edited 7 December 2025; source keys
+[ElEr85], [Er85b], with [Wa80b] and [NSS24] cited in the commentary), its
+two-comment discussion thread (8 and 16 December 2025) and its empty proof-claim
+tab. Cite as: T. F. Bloom, Erdős Problem #1111,
+https://www.erdosproblems.com/1111, accessed 2026-09-18.
 
 **References.**
 
@@ -110,7 +110,7 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
 - [Er85b] Erdős, P., Problems and results on chromatic numbers in finite
   and infinite graphs. Graph theory with applications to algorithms and
   computer science (Kalamazoo, Mich., 1984), Wiley-Interscience (1985),
-  201--213 (the site's reference text, read 2026-09-18). The passage,
+  201--213 (the erdosproblems.com reference text, read 2026-09-18). The passage,
   printed p. 206, is PDF p. 6 of the Rényi archive's scan `1985-26.pdf`.
   Library home:
   [[../library/graph_coloring/erdos_1985_problems_results_chromatic_numbers_finite_infinite_graphs/_index|erdos_1985_problems_results_chromatic_numbers_finite_infinite_graphs]];
@@ -154,18 +154,18 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
   checked.
 
 **Formalization.** None. No file `ErdosProblems/1111.lean` exists in
-google-deepmind/formal-conjectures (main on 2026-09-18); the site's
+google-deepmind/formal-conjectures (main on 2026-09-18); the erdosproblems.com
 indicator shows no formalized statement, and the community database
 (teorth/erdosproblems, `data/problems.yaml`, read 2026-09-18) records the
 problem open (last changed 7 December 2025), unformalized, with no formal proof.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN; last edited 7 December 2025. The site's commentary, in this
-page's words: the problem is El-Zahar and Erdős's [ElEr85], who show that
-the case $t\le c$ suffices; $d(t,c)$ denotes the least such $d$; El-Zahar
-and Erdős derive $d(t,2)\le\binom t2+1$, and in fact
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN; last edited 7 December 2025. The erdosproblems.com
+commentary, in this page's words: the problem is El-Zahar and Erdős's [ElEr85],
+who show that the case $t\le c$ suffices; $d(t,c)$ denotes the least such $d$;
+El-Zahar and Erdős derive $d(t,2)\le\binom t2+1$, and in fact
 $d(t+1,2)\le d(t,2)+t$, from a result of Wagon [Wa80b]; the small values
 $d(2,2)=2$, $d(3,2)=4$ and $d(4,2)=5$ are listed (printed with the letter
 $t$, the slip noted in the Formulation); El-Zahar and Erdős proved
@@ -178,8 +178,8 @@ account Alfaiz) reporting, from [KlNe24], that the problem is equivalent to
 a statement about tournaments of large dichromatic number in which every arc
 between the two sets $A$ and $B$ is directed from $A$ to $B$, which the
 comment describes as close to a conjecture of [NSS23]; and one of 16
-December 2025 (the account zach hunter) on the site's phrase that the case
-$t\le c$ suffices, noting the trivial monotonicity $d(t,c)\le d(t,c+1)$ and
+December 2025 (the account zach hunter) on the erdosproblems.com phrase that the
+case $t\le c$ suffices, noting the trivial monotonicity $d(t,c)\le d(t,c+1)$ and
 reading the intended sense as the implication from $d(c,c)<\infty$ to
 $d(t,c)<\infty$ for all $t$. The proof-claim tab is
 empty; the community database record says open.
@@ -215,7 +215,7 @@ triangle-free $5$-chromatic graph described by Mycielski [1] does not contain
 two non-neighboring odd circuits. This shows that $f(3,3)\ge6$", and
 [[../library/extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/corollary_3|Corollary 3]]:
 "$f(r,3)\le2\binom{r-1}3+7\binom{r-1}2+r$ $(r>3)$", "From Theorems 1 and
-2". In the site's letters these are $d(t,2)\le\binom t2+1$,
+2". In erdosproblems.com's letters these are $d(t,2)\le\binom t2+1$,
 $d(3,3)\le8$ (with $d(3,3)\ge6$) and $d(t,3)\le2\binom{t-1}3+7\binom{t-1}2+t$.
 Section 4 (graphs without two independent edges, Theorems 4--5 and
 Corollaries 1--2, pp. 297--300) does not bear on the problem. Acceptance
@@ -273,7 +273,7 @@ months apart). The passage is paged at
 **The 2024 paper (arXiv v1).** [NSS24], printed p. 1,
 calls it "a well-known problem of El-Zahar and Erdős" and states it as
 [[../library/extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1|1.1 Problem]],
-in the site's letters: is it true that for all integers $t,c\ge1$ some
+in erdosproblems.com's letters: is it true that for all integers $t,c\ge1$ some
 $d\ge1$ makes every $G$ with $\chi(G)\ge d$ and $\omega(G)<t$ contain
 anticomplete subsets $A,B\subseteq V(G)$ with $\chi(A),\chi(B)\ge c$? The
 paper adds: "This remains open." It attributes to El-Zahar and Erdős the
@@ -313,10 +313,10 @@ case (Corollary 3) and [Er85b] says "We proved this for $k=3$ and every $\ell$"
 disproof of the statement, a determination of $d(t,c)$ for any $c\ge4$, or a
 proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the site's
-  reference text for [Er85b]; the formal-conjectures directory listing and
-  recursive tree at main, read 2026-09-18 (no file 1111); the community
-  database entry, read 2026-09-18.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  erdosproblems.com reference text for [Er85b]; the formal-conjectures directory
+  listing and recursive tree at main, read 2026-09-18 (no file 1111); the
+  community database entry, read 2026-09-18.
 - Crossref: the records of [ElEr85], [NSS24] and [Wa80b] by bibliographic
   query and DOI.
 - arXiv API: the record of 2303.13449 (v1 only, no journal reference); the

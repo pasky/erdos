@@ -48,7 +48,7 @@ relation is imported in the exact case used, with its provenance, as
 Theorem A on the theorem page, together with the Baumgartner and Hajnal
 relation the deposit's introduction cites (Theorem B, not used) and the
 consistency of $\mathrm{MA}_{\aleph_1}$ that turns the theorem into the
-catalog's status (Theorem C).
+erdosproblems.com status (Theorem C).
 
 ## Where things stand
 
@@ -67,8 +67,8 @@ problem's status is unchanged. Every deduction the deposit makes is written out
 on the two pages; the only external input to the proof is Baumgartner's theorem
 in the case $n=3$, whose chapter is not held, so its proof is not reconstructed
 and the chain is conditional on that refereed source. The problem page's status
-is open; the site labeled the problem NOT DISPROVABLE. Its accepted partial
-claim
+is open; Bloom's catalog labeled the problem NOT DISPROVABLE. Its accepted
+partial claim
 [[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Baumgartner 1989]],
 that the relation holds under Martin's axiom and so is not refuted by ZFC, rests
 on Baumgartner's theorem through either this bridge or the finite-Ramsey bridge

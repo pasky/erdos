@@ -52,8 +52,8 @@ Read depth: claims checked; the proof read through, not verified.
 Part (iii) gives infinitely many $n$ with $d_n<d_{n-1}$, and any such $n$
 has $d_n<D_n$, that is $(a_n,L_n)>1$ in the notation of Problem 291; this
 is a second route to the trivial half of that problem, beside the
-leading-digit observation the site records. The theorem says nothing about
-the open half, $d_n=D_n$ infinitely often, which the paper states as a
+leading-digit observation erdosproblems.com records. The theorem says nothing
+about the open half, $d_n=D_n$ infinitely often, which the paper states as a
 conjecture (the
 [[unit_fractions/shiu_2016_denominators_harmonic_numbers_revised/conjecture_p2|conjecture page]]).
 The non-monotonicity of $d_n$ is also the $a=1$ case of the denominator

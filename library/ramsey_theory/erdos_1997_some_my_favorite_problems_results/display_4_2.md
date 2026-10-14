@@ -73,12 +73,12 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0077/_index|Problem 77]]: the site's source for the
-  problem; the offers for the existence and value of
-  $\lim f(n)^{1/n}$, the bounds $\sqrt2\le c\le4$ from (4.2) and the guess
-  "Perhaps $c=2$?", in the same terms as the 1988, 1990 and 1995 papers
+- [[../wiki/problems/ramsey_theory/E0077/_index|Problem 77]]: the
+  erdosproblems.com source for the problem; the offers for the existence and
+  value of $\lim f(n)^{1/n}$, the bounds $\sqrt2\le c\le4$ from (4.2) and the
+  guess "Perhaps $c=2$?", in the same terms as the 1988, 1990 and 1995 papers
   quoted on the problem page.
-- [[../wiki/problems/ramsey_theory/E0078/_index|Problem 78]]: the site's source for the
-  problem; the offer for a constructive proof of
-  $f(n)>(1+\epsilon)^n$, with Frankl and Wilson's $n^{c\log n}$ named as
-  the constructive record.
+- [[../wiki/problems/ramsey_theory/E0078/_index|Problem 78]]: the
+  erdosproblems.com source for the problem; the offer for a constructive proof
+  of $f(n)>(1+\epsilon)^n$, with Frankl and Wilson's $n^{c\log n}$ named as the
+  constructive record.

@@ -49,24 +49,24 @@ for $A$: in a Sidon set distinct unordered pairs $\{a,b\}$ have distinct sums,
 so the elements of $A+A$ in a residue class $r$ modulo $m$ are in bijection
 with the unordered pairs whose residues add to $r$, and equidistribution of $A$
 among the $m$ classes puts $(1/m+o(1))$ of the pairs in each class. In
-particular about half the elements of $A+A$ are even and half odd. The site's
-remark records the same deduction in its own words.
+particular about half the elements of $A+A$ are even and half odd. The
+erdosproblems.com remark records the same deduction in its own words.
 
 **Depends on.** No page of this wiki; the result is the paper's.
 
 **Acceptance.** Refereed: B. Lindström, Well distribution of Sidon sets in
 residue classes, J. Number Theory 69 (1998), no. 2, 197–200. The issue is dated
 April 1998, and the page name uses the first day of that month. Reviewed: the
-site's curator, T. F. Bloom, labeled Problem 154 proved at erdosproblems.com on
-the basis of this result and Kolountzakis's strengthening. This is the site's
-acceptance.
+erdosproblems.com curator, T. F. Bloom, labeled Problem 154 proved at
+erdosproblems.com on the basis of this result and Kolountzakis's strengthening.
+This is erdosproblems.com's acceptance.
 
 Two outside Lean files formalize the argument. The first was posted by Wouter
-van Doorn to the site's thread on 2026-02-06 and is pinned at its commit of
-2026-03-02. It proves the statement for $A$ (`sidon_density_limit`). It is a
-formalization, by Harmonic's Aristotle, of a write-up of Lindström's proof
-produced with ChatGPT. The second was first posted on 2026-06-27 and is pinned
-at its commit of 2026-08-22. It derives the sumset statement
+van Doorn to the erdosproblems.com thread on 2026-02-06 and is pinned at its
+commit of 2026-03-02. It proves the statement for $A$ (`sidon_density_limit`).
+It is a formalization, by Harmonic's Aristotle, of a write-up of Lindström's
+proof produced with ChatGPT. The second was first posted on 2026-06-27 and is
+pinned at its commit of 2026-08-22. It derives the sumset statement
 (`erdos_154_sumset`) from the first. formal-conjectures links both. Neither file
 has been built or audited in this corpus. So `formalized` is not listed, and the
-Lean qualification of the site's label was the site's.
+Lean qualification of the erdosproblems.com label was erdosproblems.com's.

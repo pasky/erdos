@@ -55,6 +55,6 @@ It does not cover the second question.
 **Acceptance.** Refereed: Matthew Foreman and Richard Laver, Some downwards
 transfer properties for $\aleph_2$, Adv. in Math. 67 (1988), no. 2, 230--238,
 DOI 10.1016/0001-8708(88)90041-2. The issue is dated February 1988 and
-carries no day, so this page is dated the first of that month. The site
+carries no day, so this page is dated the first of that month. Bloom's catalog
 labeled the problem OPEN, so no curator acceptance is listed. Its proof is not
 reviewed in this corpus.

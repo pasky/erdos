@@ -75,8 +75,8 @@ separation $\|\xi t_n\|\ge q^{-1}$ to the chromatic bound $q$.
 
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: an explicit separation
   $\|\xi n_k\|\ge1/(9(r+2)^2)$, $r=\epsilon^{-1}$, for the corrected
-  formulation, the "Dubickas" step in the site's list of improvements between
-  Katznelson and Peres--Schlag; not the irrationality clause.
+  formulation, the "Dubickas" step in the erdosproblems.com list of improvements
+  between Katznelson and Peres--Schlag; not the irrationality clause.
 - [[../wiki/problems/ramsey_theory/E0894/_index|Problem 894]]: restricted to the integers,
   the chromatic bound $9(r+2)^2$ colors the lacunary difference graph with
   $O(\epsilon^{-2})$ colors.

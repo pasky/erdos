@@ -73,9 +73,10 @@ and a Cramer-Hadamard bound for integer solutions of linear systems (Lemma
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the case $s=3$ of
-  the general Brown-Erdős-Sós conjecture stated on the site, in the site's
-  letters $\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ for $k=(r-t)\cdot3+t+1$,
-  proved for every $r>t\ge2$ with the matching lower bound $n^{t-o(1)}$.
+  the general Brown-Erdős-Sós conjecture stated on erdosproblems.com, in
+  erdosproblems.com's letters $\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ for
+  $k=(r-t)\cdot3+t+1$, proved for every $r>t\ge2$ with the matching lower bound
+  $n^{t-o(1)}$.
 - [[../wiki/problems/set_systems/E1178/_index|Problem 1178]]: at $k=2$ the theorem
   (already Erdős--Frankl--Rödl's display (3)) gives
   $f_r(n,3(r-2)+3,3)=o(n^2)$, and the Brown--Erdős--Sós bound

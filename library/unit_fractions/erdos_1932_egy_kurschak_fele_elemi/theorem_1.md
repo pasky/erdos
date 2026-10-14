@@ -93,11 +93,11 @@ If a representation $1=\sum_{i=1}^k1/n_i$ by distinct integers $1<n_1<\cdots<n_k
 had every consecutive gap equal to $1$, its denominators would form a
 progression $a,a+1,\ldots,a+(k-1)$ and the theorem with $d=1$ (Kürschák's
 case) would be contradicted; so every such representation has
-$\max(n_{i+1}-n_i)\ge2$. This is the "lower bound of $\ge2$" in the site's
-commentary. The theorem concerns complete arithmetic progressions only: a
-set of denominators whose gaps mix $1$ and $2$ is not a progression, so
-beyond excluding all gaps $1$ ($d=1$) and all gaps $2$ ($d=2$), the theorem
-says nothing about the gap-$3$ question itself.
+$\max(n_{i+1}-n_i)\ge2$. This is the "lower bound of $\ge2$" in the
+erdosproblems.com commentary. The theorem concerns complete arithmetic
+progressions only: a set of denominators whose gaps mix $1$ and $2$ is not a
+progression, so beyond excluding all gaps $1$ ($d=1$) and all gaps $2$ ($d=2$),
+the theorem says nothing about the gap-$3$ question itself.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0287/_index|#287]] (the gap-$\ge2$
 fact through the case $d=1$; not the gap-$\ge3$ statement);

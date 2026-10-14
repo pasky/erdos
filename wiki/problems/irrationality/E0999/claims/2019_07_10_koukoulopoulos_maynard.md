@@ -4,8 +4,8 @@ title: Proof of the Duffin-Schaeffer conjecture
 desc: |
   Koukoulopoulos and Maynard prove the Duffin-Schaeffer conjecture, the
   divergence half of Problem 999, in a refereed paper in the Annals of
-  Mathematics (2020) that the site's curator credits. The other half is the
-  Borel-Cantelli lemma.
+  Mathematics (2020) that the erdosproblems.com curator credits. The other half
+  is the Borel-Cantelli lemma.
 authors:
 - Dimitris Koukoulopoulos
 - James Maynard
@@ -55,27 +55,27 @@ coprimality condition, as a corollary. The
 digests the paper.
 
 **Acceptance.** Refereed: Annals of Mathematics, Second Series, volume 192,
-issue 1, July 2020. Reviewed: the site's curator, Thomas Bloom, labeled Problem
-999 PROVED. In the problem's remarks Bloom credits this paper with the proof of
-the full conjecture (erdosproblems.com page accessed 2026-10-07). The forum
-thread has no comments or proof claims. The formal-conjectures statement file
-for the problem is tagged as solved research. This corpus has not reproved the
-theorem and awards no tier of its own.
+issue 1, July 2020. Reviewed: the erdosproblems.com curator, Thomas Bloom,
+labeled Problem 999 PROVED. In the problem's remarks Bloom credits this paper
+with the proof of the full conjecture (erdosproblems.com page accessed
+2026-10-07). The forum thread has no comments or proof claims. The
+formal-conjectures statement file for the problem is tagged as solved research.
+This corpus has not reproved the theorem and awards no tier of its own.
 
-**Formalization.** A third party formalized the site's statement: `erdos_999`
-in `src/latest/ErdosProblems/Erdos999.lean` of Boris Alexeev's repository
-https://github.com/plby/lean-proofs, pinned above at the commit of 2026-09-01
-that last touched the file (the file was added on 2026-08-20). Its header
-names Koukoulopoulos and Maynard as informal authors and Codex and GPT-5.6 Sol
-as formal authors, and cites the Annals paper as its primary reference, so it
-is a link on this page and not an independent claim. Its theorem covers
-$f:\mathbb{N}\to\mathbb{N}$, the site's wording, on the unit circle: almost
-every point has infinitely many reduced approximations within $f(q)/q$ exactly
-when $\sum_q \phi(q) f(q)/q$ diverges. For integer-valued $f$ the file proves
-the divergence direction by a large-values argument it attributes to
-Pollington and Vaughan, so it formalizes the site's literal integer-valued
-statement rather than the general real-valued theorem of the paper. The file
-contains no `sorry`. This corpus has not built or audited it, so the claim
-carries no `formalized` evidence.
+**Formalization.** A third party formalized the erdosproblems.com statement:
+`erdos_999` in `src/latest/ErdosProblems/Erdos999.lean` of Boris Alexeev's
+repository https://github.com/plby/lean-proofs, pinned above at the commit of
+2026-09-01 that last touched the file (the file was added on 2026-08-20). Its
+header names Koukoulopoulos and Maynard as informal authors and Codex and
+GPT-5.6 Sol as formal authors, and cites the Annals paper as its primary
+reference, so it is a link on this page and not an independent claim. Its
+theorem covers $f:\mathbb{N}\to\mathbb{N}$, the erdosproblems.com wording, on
+the unit circle: almost every point has infinitely many reduced approximations
+within $f(q)/q$ exactly when $\sum_q \phi(q) f(q)/q$ diverges. For
+integer-valued $f$ the file proves the divergence direction by a large-values
+argument it attributes to Pollington and Vaughan, so it formalizes
+erdosproblems.com's literal integer-valued statement rather than the general
+real-valued theorem of the paper. The file contains no `sorry`. This corpus has
+not built or audited it, so the claim carries no `formalized` evidence.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper alone.

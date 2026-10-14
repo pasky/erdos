@@ -67,7 +67,8 @@ $n\ge7$ points and the second, asymptotic question are not touched.
 Mathematica Hungarica, volume 177, issue 1. The Crossref record dates the issue
 to October 2025 and the online publication to 12 November 2025. The preprint
 arXiv:2505.04283 was first posted on 7 May 2025, the date this page carries. Not
-reviewed under the corpus's rule: the site's commentary credits [CDL25] with the
-convex case and a case of nearly convex sets, but the site labeled the problem
-OPEN. That commentary is therefore a credit on an open problem, not an
-acceptance that settles it. This corpus did not independently review the proofs.
+reviewed under the corpus's rule: the erdosproblems.com commentary credits
+[CDL25] with the convex case and a case of nearly convex sets, but Bloom's
+catalog labeled the problem OPEN. That commentary is therefore a credit on an
+open problem, not an acceptance that settles it. This corpus did not
+independently review the proofs.

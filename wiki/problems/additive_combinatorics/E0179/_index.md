@@ -39,14 +39,14 @@ $$
 \lim_{N\to \infty}\frac{\log F_3(N,\ell)}{\log N}=2?
 $$
 
-**Status.** Proved, the site's label. Fox and Pohoata answer both displayed
-questions yes
+**Status.** Proved, the erdosproblems.com label. Fox and Pohoata answer both
+displayed questions yes
 ([[problems/additive_combinatorics/E0179/claims/2019_08_26_fox_pohoata|claim page]]).
 Their bounds tie $F_k(N,\ell)$ to the largest $\ell$-term-progression-free
 subset of $\{1,\ldots,N\}$, so the Szemerédi bounds of Leng, Sah and Sawhney
 [LSS24] sharpen the upper bound. The claim is accepted on the refereed
-publication in Random Structures and Algorithms (2021) and the site's adoption.
-Nothing rests on a review by this project.
+publication in Random Structures and Algorithms (2021) and erdosproblems.com's
+adoption. Nothing rests on a review by this project.
 
 **Source.** [erdosproblems.com/179](https://www.erdosproblems.com/179), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #179,

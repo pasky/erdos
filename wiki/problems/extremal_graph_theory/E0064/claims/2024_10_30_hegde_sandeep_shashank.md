@@ -39,7 +39,7 @@ pages), whose abstract says the proof is obtained with the aid of a computer
 search. Read depth: the arXiv record and abstract; the proof was
 not read. Duran Ballester's manuscript
 ([[problems/extremal_graph_theory/E0064/claims/2026_08_19_duran_ballester|claim page]])
-cites the theorem; the site's remark and the thread's family list of
+cites the theorem; the erdosproblems.com remark and the thread's family list of
 6 December 2025 do not name it.
 
 **Covers.** The statement of Problem 64 for $P_{13}$-free graphs.
@@ -48,5 +48,5 @@ cites the theorem; the site's remark and the thread's family list of
 
 **Standing.** Claimed: an arXiv preprint with no refereed version,
 formalization or outside review known to this corpus, and a computer search
-that is author-reported and has not been replayed here. The site labeled the
-problem FALSIFIABLE and its commentary does not credit the paper.
+that is author-reported and has not been replayed here. Bloom's catalog labeled
+the problem FALSIFIABLE and its commentary does not credit the paper.

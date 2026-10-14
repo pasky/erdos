@@ -32,7 +32,8 @@ and $r=8$ of [[problems/extremal_graph_theory/E0617/_index|Problem 617]]. This
 is Theorem 1.1 (Theorems 3.1 and 5.1 for the two cases) of Robert Sneiderman,
 *The seven- and eight-color cases of an Erdős–Gyárfás balanced-coloring
 problem*, a 21-page preprint added to the author's repository on 2026-07-20
-and posted to the site's proof-claim tab the same day; its digest is on
+and posted to the erdosproblems.com proof-claim tab the same day; its digest is
+on
 [[../library/extremal_graph_theory/sneiderman_2026_seven_eight_color_cases_balanced_coloring/_index|its card]].
 The common reduction uses all colors at once: in a hypothetical balanced
 coloring every color graph has independence number at most $r$, every
@@ -68,9 +69,9 @@ $r=9$, arbitrary $r$ and any Lean formalization.
 
 **Depends on.** Nothing in this wiki.
 
-**Reported gap.** A review posted on the site by Nick Winter on 31 July 2026
-(as a comment on the claimant's $r=9$ claim, naming this manuscript's source
-`r7-r8/main.tex` at line 403 and the $r=9$ source at line 299) reports an
+**Reported gap.** A review posted on erdosproblems.com by Nick Winter on 31 July
+2026 (as a comment on the claimant's $r=9$ claim, naming this manuscript's
+source `r7-r8/main.tex` at line 403 and the $r=9$ source at line 299) reports an
 inference the two manuscripts share: at $m=ar+1$ they conclude from the old
 parts having total order $ar$ that every old part has order exactly $r$, which
 the review says does not follow on its own. Its three-step repair: a part with
@@ -89,5 +90,5 @@ peer review and names no human referee, so it is no acceptance evidence.
 **Standing.** Claimed. Unrefereed and computer-assisted, with GPT 5.6 named
 in the proof-claim entry as the system used; the repository's replay of the
 $r=7$ enumeration and of the $r=8$ reconstructions and certificates is the
-author's own; the site's label was FALSIFIABLE, and the claim itself carries no
-comments. A partial claim derives nothing for the problem's standing.
+author's own; the erdosproblems.com label was FALSIFIABLE, and the claim itself
+carries no comments. A partial claim derives nothing for the problem's standing.

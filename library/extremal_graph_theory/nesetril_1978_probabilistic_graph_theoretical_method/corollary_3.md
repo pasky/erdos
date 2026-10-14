@@ -29,8 +29,8 @@ The paper adds (p. 419): "(For $s=3$ the statement is evident, for $s=4$ it
 was proved by Ore. Gallai showed that the Grötsch [sic] graph is an example
 for $s=4$. For $s>4$ this was asked by Erdös [4].)" Its [4] is Erdős's 1971
 Oxford problem list, which it cites as pp. 97--99 (the list runs to p. 109;
-the site's [Er71], item 7). The abstract says the method "gives the full
-solution of an Erdös-Ore problem", and the introduction (p. 417) says that
+erdosproblems.com's [Er71], item 7). The abstract says the method "gives the
+full solution of an Erdös-Ore problem", and the introduction (p. 417) says that
 the existence of sparse hypergraphs containing a prescribed ordered
 subhypergraph under every ordering "has been asked by Erdös [4] in response
 to a theorem of Ore and Gallai (Corollary 3)".

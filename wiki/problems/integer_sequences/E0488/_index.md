@@ -33,9 +33,9 @@ $$
 \frac{\lvert B\cap [1,m]\rvert }{m}< 2\frac{\lvert B\cap [1,n]\rvert}{n}?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 8
-April 2026). $B$ is the set of positive multiples of elements of $A$, and
-the question compares the density of $B$ up to $m$ with twice its density up
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 8 April 2026). $B$ is the set of positive multiples of elements of $A$,
+and the question compares the density of $B$ up to $m$ with twice its density up
 to $n$, for every $m>n\ge\max A$. The factor $2$ cannot be lowered: for
 $A=\{a\}$, $n=2a-1$, $m=2a$ the two densities are $1/a$ and $1/(2a-1)$, with
 ratio $2-1/a$ (recomputed here). Erdős's printed sources differ among
@@ -58,34 +58,35 @@ and $m>n$: take the $a$'s to be the integers between $n/2$ and $n$ and
 $m=m(n)$ large, then $B(m)/m<\varepsilon/2$ for $n>n_0(\varepsilon)$ (citing
 his 1935 note on sequences no one of which divides another). The sharpness
 example works only for the multiples reading (for non-multiples the ratio is
-below $1$), so Erdős's own example fixes the reading the site uses; the site
-judges the 1961 wording a probable misprint, a thread comment of 27 August
-2026 notes that the 1980 survey repeats it and that Guy's E5 is titled for
-sequences divisible by at least one of a given set (the title and the
-multiples wording appear on printed p. 315 of [Gu04]), and the site's author
-wrote in the thread (30 November 2025) that the statement was corrected to
-multiples with the non-multiples version kept as a remark. The site's
-wording, from [Er66], is the problem. The non-multiples reading of [Er61]
-and [Er80] is a variant with its own answer, no, by the finite examples
-recorded under the Current assessment. No source states a variant of the
-question that survives the counterexample: [Er61], [Er66] and [Er80] ask the
+below $1$), so Erdős's own example fixes the reading erdosproblems.com uses;
+erdosproblems.com judges the 1961 wording a probable misprint, a thread comment
+of 27 August 2026 notes that the 1980 survey repeats it and that Guy's E5 is
+titled for sequences divisible by at least one of a given set (the title and the
+multiples wording appear on printed p. 315 of [Gu04]), and erdosproblems.com's
+author wrote in the thread (30 November 2025) that the statement was corrected
+to multiples with the non-multiples version kept as a remark. The
+erdosproblems.com wording, from [Er66], is the problem. The non-multiples
+reading of [Er61] and [Er80] is a variant with its own answer, no, by the finite
+examples recorded under the Current assessment. No source states a variant of
+the question that survives the counterexample: [Er61], [Er66] and [Er80] ask the
 same doubling question in the two divisibility readings, both answered no,
 and the forum items recorded under the Current assessment are partial
 positive results for restricted classes of $A$, not a restated question.
 
-**Status.** The site's label was FALSIFIABLE, which the site explains as an open
-problem that a finite counterexample could settle. It is recorded here as the
-site's label, not as the standing. The standing derives from the claim pages.
-The full claim of 5 September 2026 on the site's proof-claim tab,
+**Status.** The erdosproblems.com label was FALSIFIABLE, which erdosproblems.com
+explains as an open problem that a finite counterexample could settle. It is
+recorded here as the erdosproblems.com label, not as the standing. The standing
+derives from the claim pages. The full claim of 5 September 2026 on the
+erdosproblems.com proof-claim tab,
 [[problems/integer_sequences/E0488/claims/2026_09_05_gessel|Gessel's
 counterexample]], asserts a disproof. The statement is a universal statement
 over $A$, $n$ and $m$. The claim exhibits a counterexample built on the
 $257$-smooth integers in $(T,256T]$ at a scale $T=256^k$ with $k<4096$, a scale
-that its pigeonhole argument guarantees but does not name. The site has not
-reviewed or acted on that claim: its label and the commentary of 8 April 2026
-were unchanged on 2026-09-18. The claim's Lean file is neither built nor audited
-here, and no referee or named expert has examined it. So the claim is `claimed`,
-and the problem's standing is claimed, disproved.
+that its pigeonhole argument guarantees but does not name. erdosproblems.com has
+not reviewed or acted on that claim: its label and the commentary of 8 April
+2026 were unchanged on 2026-09-18. The claim's Lean file is neither built nor
+audited here, and no referee or named expert has examined it. So the claim is
+`claimed`, and the problem's standing is claimed, disproved.
 
 There are four partial claims. The first, of 20 March 2026, is
 [[problems/integer_sequences/E0488/claims/2026_03_20_chojecki|Chojecki's note]]
@@ -155,8 +156,8 @@ $0\notin A$ and $1\notin A$ are the file's additions, with a comment pointing
 to the collection's pull request 256 for the reasons. The community
 database (pinned copy of 2026-09-18) records the problem falsifiable (last
 changed 29 March 2026), the statement formalized since 31 August 2025,
-`formal_status` unformalized and no formal proof; the site's indicator reads
-"Yes". The external artifacts below were not built, audited or
+`formal_status` unformalized and no formal proof; the erdosproblems.com
+indicator reads "Yes". The external artifacts below were not built, audited or
 kernel-checked here. (a) The counterexample claim's gist at the revision the
 claim links (5 September 2026, 22:27 UTC; the proof note was added in the
 revision of 23:27 UTC, which the claim page links, and the evening's last
@@ -181,29 +182,29 @@ to the statement's former wording. (c) The excess-fifteen claim's
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-FALSIFIABLE, last edited 8 April 2026; source keys [Er61, p. 236], [Er66, p.
-150], [Er80, p. 112]. The FALSIFIABLE label is a body note, not a claim: the
-site marked the problem as one a finite counterexample could settle, and the
-pending claim below offers one. The commentary: the constant $2$ is best
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; FALSIFIABLE, last edited 8 April 2026; source keys [Er61, p. 236], [Er66,
+p. 150], [Er80, p. 112]. The FALSIFIABLE label is a body note, not a claim:
+Bloom's catalog marked the problem as one a finite counterexample could settle,
+and the pending claim below offers one. The commentary: the constant $2$ is best
 possible, by $A=\{a\}$, $n=2a-1$, $m=2a$; the problem is E5 of Guy's
 collection; in [Er61] the problem has $a\nmid n$ in place of $a\mid n$,
-which the site takes for a probable misprint because [Er66] states the
+which erdosproblems.com takes for a probable misprint because [Er66] states the
 multiples form; for that alternate problem Cambie observed that $A$ the
 primes up to $n$ and $m=2n$ give
 $|B\cap[1,m]|/m=(\pi(2n)-\pi(n)+1)/(2n)\sim1/(2\log n)$ against
 $|B\cap[1,n]|/n=1/n$, and further counterexamples by Alexeev and by
 Aristotle, an automated prover, are in the comments. The thread's 31
 comments (27 November 2025 to 27 August 2026): the identification of the
-typo (Alexeev, 27 November 2025, from the sharpness example; the site's
+typo (Alexeev, 27 November 2025, from the sharpness example; erdosproblems.com's
 author, 30 November 2025 (two comments), on correcting the statement and
 keeping the old version as a remark; van Doorn's find of the 1966 Hungarian
 statement, 30 November 2025); the smallest counterexample to the alternate
 reading, $A=\{2,3,5,7\}$, $n=9$, $m=13$ (Alexeev; recomputed here:
 $|B\cap[1,9]|=|\{1\}|=1$, $|B\cap[1,13]|=|\{1,11,13\}|=3$, and $3/13>2/9$),
 and Aristotle's $A=\{2,3,5,7,11,13\}$, $n=13$, $m=200$ (recomputed: $1$
-against $41$, and $41/200>2/13$); a typo in the site's own statement, whose
-definition of $B$ then read "for all $a\in A$", which a reader pointed out
+against $41$, and $41/200>2/13$); a typo in erdosproblems.com's own statement,
+whose definition of $B$ then read "for all $a\in A$", which a reader pointed out
 on 31 December 2025, the curator confirmed the same day, and the statement
 was corrected to "for some $a\in A$"; and the work on the corrected problem
 listed below. The proof-claim tab: a partial claim of 28 August 2026 (a
@@ -232,7 +233,8 @@ with a divisor in $(n/2,n]$ as $n\to\infty$, and it shows the doubling
 inequality cannot be reversed.
 
 **What is known for the statement (forum items, leads with
-provenance).** The site's commentary records no theorem. The thread has:
+provenance).** The erdosproblems.com commentary records no theorem. The thread
+has:
 
 - Two-element sets (Will Blair, 6 June 2026, found, the comment says,
   while working with Codex/ChatGPT-style tools):
@@ -295,8 +297,8 @@ are $n=256T$ and $m=2TQ$ with $Q$ the product of the odd primes below $257$,
 and the inequality $3Q<16\varphi(Q)$ is used; that inequality holds
 ($\varphi(Q)/Q=0.2007\ldots>3/16$, recomputed here from the 53 odd primes
 below 257). The file proves only that some scale index $k<4096$ works, by
-pigeonhole, and names none. The site shows no comment on the claim and no
-change of label, and no independent review of the file was found; the claim
+pigeonhole, and names none. erdosproblems.com shows no comment on the claim and
+no change of label, and no independent review of the file was found; the claim
 stays an author's proof claim in the sense of the status rules, distinct
 from community acceptance and from independent review, and nothing on this
 page speaks to the file's build, axioms or statement fidelity. An explicit
@@ -307,7 +309,7 @@ problem 398, which the service reports kernel-checked.
 refereed proof or disproof of the statement, or a review of the September
 2026 claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `488.lean` at the pinned commit; the community
   database entry.
 - GitHub API: the claim's gist at the linked revision and at its head
@@ -323,19 +325,20 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X; no query on the
 multiples-density literature (Besicovitch, Erdős, Tenenbaum) was run beyond
 the sources above.
 
-**Remaining gaps.** (1) The statement has no refereed disproof and the site has
-not accepted the counterexample claim, so the standing is claimed. The site's
-proof claim itself remains unreviewed and unbuilt here, and the site's label was
-unchanged; the site's acceptance, a referee's report or a named expert's review
-would move the claim to accepted and with it the problem to solved, disproved,
-while a build of its Lean file without a statement audit would add no acceptance
-evidence. Gessel's file names no scale; Jig's statement 41 reports an explicit
-witness at $k=48$. (2) The positive results are forum items and four partial
-claims with declared AI assistance and no publication. (3) [Er61]'s and [Er80]'s
-non-multiples wording is Erdős's own and is refuted by the finite examples
-above; the page follows the site's reading, which Erdős's example and his 1966
-text support. (4) Guy's E5 (printed p. 315) states the multiples reading with
-the same sharpness example and proves nothing.
+**Remaining gaps.** (1) The statement has no refereed disproof and
+erdosproblems.com has not accepted the counterexample claim, so the standing is
+claimed. erdosproblems.com's proof claim itself remains unreviewed and unbuilt
+here, and the erdosproblems.com label was unchanged; erdosproblems.com's
+acceptance, a referee's report or a named expert's review would move the claim
+to accepted and with it the problem to solved, disproved, while a build of its
+Lean file without a statement audit would add no acceptance evidence. Gessel's
+file names no scale; Jig's statement 41 reports an explicit witness at $k=48$.
+(2) The positive results are forum items and four partial claims with declared
+AI assistance and no publication. (3) [Er61]'s and [Er80]'s non-multiples
+wording is Erdős's own and is refuted by the finite examples above; the page
+follows erdosproblems.com's reading, which Erdős's example and his 1966 text
+support. (4) Guy's E5 (printed p. 315) states the multiples reading with the
+same sharpness example and proves nothing.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

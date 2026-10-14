@@ -51,6 +51,6 @@ Nash-Williams's arboricity theorem (the paper's [7]: J. London Math. Soc. 39
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0555/_index|Problem 555]]: the lower bound the site
-  writes as $k^{1+\frac1{2n}}\ll R_k(C_{2n})$ and attributes to the 1981
-  survey; it is proved here.
+- [[../wiki/problems/ramsey_theory/E0555/_index|Problem 555]]: the lower bound
+  erdosproblems.com writes as $k^{1+\frac1{2n}}\ll R_k(C_{2n})$ and attributes
+  to the 1981 survey; it is proved here.

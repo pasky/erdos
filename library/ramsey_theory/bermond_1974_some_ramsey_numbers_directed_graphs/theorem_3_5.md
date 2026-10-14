@@ -72,6 +72,6 @@ edition is identified in the
   contain a directed path of length $m-1$ (on $m$ vertices) or $n$
   independent vertices is
   $(m-1)(n-1)+1$, so the largest order avoiding both is $(m-1)(n-1)$, the
-  figure the problem page reports from the site as an unpublished
+  figure the problem page reports from erdosproblems.com as an unpublished
   observation of Hunter and Steiner. The problem page does not cite this
   paper for it.

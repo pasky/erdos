@@ -33,5 +33,5 @@ not give the all-no-isolate-target conclusion in
 tree-plus-clique criterion.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0567/_index|#567]]: the $H_5$ case of the
-problem restricted to bipartite targets $H$, the site's second sentence on
-this paper; [[../wiki/problems/ramsey_theory/E0568/_index|#568]].
+problem restricted to bipartite targets $H$, erdosproblems.com's second sentence
+on this paper; [[../wiki/problems/ramsey_theory/E0568/_index|#568]].

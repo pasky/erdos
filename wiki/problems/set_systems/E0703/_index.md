@@ -33,17 +33,17 @@ $$
 T(n,r)<(2-\delta)^n?
 $$
 
-**Status.** Labeled proved on the site (label PROVED at the access of
+**Status.** Labeled proved on erdosproblems.com (label PROVED at the access of
 2026-09-04; page last edited 16 October 2025). The community database lists the
 status as proved (Lean) as of its last update, dated 2026-09-16. The Lean
 qualification rests on Collin Yuanjie Ren's formalization of the Frankl–Füredi
 theorem, which is linked from
 [[problems/set_systems/E0703/claims/1984_03_01_frankl_furedi|the Frankl–Füredi claim page]].
-The site records that $T(n,0)=2^{n-1}$ trivially. It records that Frankl and
-Füredi [FrFu84b] determined $T(n,r)$ for fixed $r$ and $n$ large in terms of
-$r$. Their extremal family consists of the sets of size less than $r$ together
-with the large sets of Katona's family, in its odd and even forms. Frankl
-[Fr77b] had done the case $r=1$ for every $n$. A yes answer to the second
+erdosproblems.com records that $T(n,0)=2^{n-1}$ trivially. It records that
+Frankl and Füredi [FrFu84b] determined $T(n,r)$ for fixed $r$ and $n$ large in
+terms of $r$. Their extremal family consists of the sets of size less than $r$
+together with the large sets of Katona's family, in its odd and even forms.
+Frankl [Fr77b] had done the case $r=1$ for every $n$. A yes answer to the second
 question implies that the chromatic number of the unit-distance graph of
 $\mathbb R^n$ grows exponentially. Frankl and Wilson [FrWi81] proved this by
 other means (see [[problems/discrete_geometry/E0704/_index|Problem 704]]).
@@ -99,8 +99,8 @@ Füredi (1984)]], a partial claim giving the exact value of $T(n,r)$ for fixed
 $r$ and large $n$, accepted on its refereed publication. Frankl's $r=1$
 theorem [Fr77b] lies outside the problem's range $r\ge2$ and has no page.
 
-Search scope: the site's problem page, its discussion thread (no
-comments) and proof-claims tab (none), the community database entry
+Search scope, 2026-10-07: the erdosproblems.com problem page, its discussion
+thread (no comments) and proof-claims tab (none), the community database entry
 (teorth/erdosproblems), the formal-conjectures statement file, and the
 lean-proofs catalog (one file for the problem, linked from the Frankl–Rödl
 page). No other claim on the problem was found.

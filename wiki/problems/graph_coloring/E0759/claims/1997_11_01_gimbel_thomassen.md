@@ -5,7 +5,7 @@ desc: |
   Gimbel and Thomassen show that the largest cochromatic number of a graph
   embeddable on the orientable surface of genus $n$ is of order
   $n^{1/2}/\log n$. It was refereed in Trans. Amer. Math. Soc. and is credited
-  by the site's curator.
+  by the erdosproblems.com curator.
 authors:
 - John Gimbel
 - Carsten Thomassen
@@ -63,9 +63,9 @@ lower bound, whose construction the proof of Theorem 3.4 cites.
 **Acceptance.** Refereed: J. Gimbel and C. Thomassen, Coloring graphs with fixed
 genus and girth, Trans. Amer. Math. Soc. 349 (1997), no. 11, 4555–4564. The
 issue is dated November 1997, and this page carries the first of that month
-because the day is not recorded. Reviewed: the site's curator, Thomas Bloom,
-marked Problem 759 solved on the problem page and credits Gimbel and Thomassen
-[GiTh97].
+because the day is not recorded. Reviewed: the erdosproblems.com curator, Thomas
+Bloom, marked Problem 759 solved on the problem page and credits Gimbel and
+Thomassen [GiTh97].
 
 **Formalizations.** Two Lean 4 developments declare themselves
 formalizations of this result and are linked above. The file in Boris

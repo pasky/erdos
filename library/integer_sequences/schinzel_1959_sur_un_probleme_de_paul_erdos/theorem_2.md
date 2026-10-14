@@ -50,5 +50,5 @@ page).
 - [[../wiki/problems/integer_sequences/E0542/_index|Problem 542]]: context for Erdős's
   speculation in his 1973 survey that the sum is at most $1+o(1)$: the paper
   proves $c+o(1)$ with $c=1.017262\ldots$, above the value $1.017099\ldots$
-  of $\{3,4,5,7,11\}$; the site's commentary records Chen's 1996 refinement
-  (not held here).
+  of $\{3,4,5,7,11\}$; the erdosproblems.com commentary records Chen's 1996
+  refinement (not held here).

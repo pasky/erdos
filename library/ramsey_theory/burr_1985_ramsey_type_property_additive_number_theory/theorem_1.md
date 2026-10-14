@@ -64,8 +64,8 @@ None outside the paper.
 - [[../wiki/problems/ramsey_theory/E0054/_index|Problem 54]]: the second of the two
   bounds the problem asks to improve, Theorem 1 on printed p. 5 (PDF
   p. 1), page image, with Theorem 1a and the construction of Theorem 1b on
-  p. 6 (PDF p. 2). The site's "there exists a Ramsey $2$-complete $A$ such
-  that for all large $N$, $|A\cap\{1,\ldots,N\}|<(2\log_2N)^3$" is the
+  p. 6 (PDF p. 2). erdosproblems.com's "there exists a Ramsey $2$-complete $A$
+  such that for all large $N$, $|A\cap\{1,\ldots,N\}|<(2\log_2N)^3$" is the
   cumulative form of the window bound $A(x)-A(x/2)<2\lg^2x$, which the
   proof of Theorem 1a sums to $A(x)<(2+\varepsilon)\lg^3x$; the problem's
   "Ramsey $2$-complete" is the paper's Ramsey-complete for two classes.

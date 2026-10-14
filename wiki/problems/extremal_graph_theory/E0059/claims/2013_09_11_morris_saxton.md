@@ -45,34 +45,34 @@ containing no copy of $G$ is at most $2^{(1+o(1))\mathrm{ex}(n;G)}$; the claimed
 result is Proposition 1.4 of Robert Morris and David Saxton, *The number of
 $C_{2\ell}$-free graphs*: there is a constant $c>0$ such that for infinitely
 many $n$ there are at least $2^{(1+c)\mathrm{ex}(n;C_6)}$ graphs on $n$ vertices
-with no six-cycle. So the bound fails for $G=C_6$. The site's wording quantifies
-over every $G$ and already fails for forests, as the problem page records;
-Morris and Saxton state it for every $G$ containing a cycle (Section 1.2);
-Erdős, Frankl and Rödl called it likely for every bipartite $G$; $C_6$ refutes
-both, so the answer is no on every reading. The proof (Section 2.3 of the
-manuscript) takes the $\{K_3,C_6\}$-free graph of Füredi, Naor and Verstraëte on
-$n/3$ vertices with more than $0.5338\,(n/3)^{4/3}$ edges, blows each vertex up
-to three copies and replaces each edge by one of the matchings between the
-copies; the resulting family is $C_6$-free and large, and the
+with no six-cycle. So the bound fails for $G=C_6$. The erdosproblems.com wording
+quantifies over every $G$ and already fails for forests, as the problem page
+records; Morris and Saxton state it for every $G$ containing a cycle (Section
+1.2); Erdős, Frankl and Rödl called it likely for every bipartite $G$; $C_6$
+refutes both, so the answer is no on every reading. The proof (Section 2.3 of
+the manuscript) takes the $\{K_3,C_6\}$-free graph of Füredi, Naor and
+Verstraëte on $n/3$ vertices with more than $0.5338\,(n/3)^{4/3}$ edges, blows
+each vertex up to three copies and replaces each edge by one of the matchings
+between the copies; the resulting family is $C_6$-free and large, and the
 Füredi--Naor--Verstraëte upper bound on $\mathrm{ex}(n;C_6)$ makes it exceed
 $2^{(1+c)\mathrm{ex}(n;C_6)}$. The same paper's Theorem 1.1 proves the weaker
 bound $2^{O(n^{1+1/\ell})}$ for every even cycle $C_{2\ell}$, and its
 introduction proposes a balanced supersaturation conjecture for bipartite $H$
 (Conjecture 1.6), which by its Proposition 1.7 would give at most
-$2^{O(\mathrm{ex}(n,H))}$ $H$-free graphs; the site's commentary credits Morris
-and Saxton with conjecturing that weaker bound for all $G$. For non-bipartite
-$G$ the question's bound is true, by Theorem 1.6 of Erdős, Frankl and Rödl
-(1986), the accepted partial claim on
+$2^{O(\mathrm{ex}(n,H))}$ $H$-free graphs; the erdosproblems.com commentary
+credits Morris and Saxton with conjecturing that weaker bound for all $G$. For
+non-bipartite $G$ the question's bound is true, by Theorem 1.6 of Erdős, Frankl
+and Rödl (1986), the accepted partial claim on
 [[problems/extremal_graph_theory/E0059/claims/1986_12_01_erdos_frankl_rodl|their claim page]].
 The library card
 [[../library/extremal_graph_theory/morris_2016_number_free_graphs/_index|morris_2016_number_free_graphs]]
 digests the paper.
 
 **Acceptance.** Refereed publication: Adv. Math. 298 (2016), 534--580,
-doi:10.1016/j.aim.2016.05.001. The site's curator, Thomas Bloom, labeled the
-problem disproved and credits Morris and Saxton [MoSa16] with exactly this
-statement. The proof-claim tab was empty, and the thread was empty on
-2026-10-07 (page last edited 2026-01-23). The text cited is arXiv:1309.2927v3
+doi:10.1016/j.aim.2016.05.001. The erdosproblems.com curator, Thomas Bloom,
+labeled the problem disproved and credits Morris and Saxton [MoSa16] with
+exactly this statement. The proof-claim tab was empty, and the thread was empty
+on 2026-10-07 (page last edited 2026-01-23). The text cited is arXiv:1309.2927v3
 (11 November 2015; v1 posted 11 September 2013, the date of this page). Proof
 coverage: the statement of Proposition 1.4 and the opening of its proof. The
 proofs of Proposition 1.4 and Theorem 1.1 are not compiled in this corpus.
@@ -104,8 +104,8 @@ named by formal-conjectures, which had no file for Problem 59 at `main` on
 2026-10-07; the community database (accessed 2026-10-06) records the
 problem as "disproved (Lean)" with `formal_status` Lean, its last update
 dated 2026-08-24, and names no artifact. Nothing was built, replayed or
-audited by this project, the fidelity of the Lean statement to the site's
-question (in particular the labeled count and the two bundled halves) was
-not independently reviewed, and no outside examination is published, so the
-page lists no `formalized` evidence; the acceptance rests on the refereed
+audited by this project, the fidelity of the Lean statement to the
+erdosproblems.com question (in particular the labeled count and the two bundled
+halves) was not independently reviewed, and no outside examination is published,
+so the page lists no `formalized` evidence; the acceptance rests on the refereed
 publication and the curator's credit.

@@ -47,9 +47,9 @@ holds a Lean project for the problem (`788/lean`: toolchain
 greatest integer with the problem's universal guarantee over
 `Finset.Ioo n (2 * n)` and `Finset.Ioo (2 * n) (4 * n)` with distinct summands,
 and `Statement.lean` defines `MainTheorem` as the manuscript's two-sided
-theorem together with the site's upper-bound question in $\varepsilon$ form)
-and a workflow `erdos788-lean.yml` that rejects `sorry`, `admit`, `axiom` and
-`sorryAx` by a text search and builds the project; the GitHub API listed one
+theorem together with erdosproblems.com's upper-bound question in $\varepsilon$
+form) and a workflow `erdos788-lean.yml` that rejects `sorry`, `admit`, `axiom`
+and `sorryAx` by a text search and builds the project; the GitHub API listed one
 run of the workflow (23 July 2026, at an earlier commit, conclusion success).
 Sixteen of the 44 Lean files were fetched at the head commit on 2026-09-18 and
 contain no `sorry`, `axiom` or `native_decide`; the rest were not read. All of
@@ -61,11 +61,12 @@ is the 15-page manuscript `788/paper.pdf` of the author's public repository
 (PDF metadata dated 22 July 2026; no arXiv stamp; the held copy is
 byte-identical to that file at the repository's head commit of 2 August 2026,
 compared 2026-09-18). No arXiv version and no journal record (Crossref
-bibliographic query, 2026-09-18); the site's proof-claim tab for Problem 788
-carries the author's full claim of 19 July 2026 and the site's label stayed
-OPEN. Read status: claims checked for the definitions, Theorem 1.1 and Remark
-1.2 (pp. 1--2, text layer), read as a claim; the proof was not assessed and no
-acceptance beyond the author's exists. The claim page is
+bibliographic query, 2026-09-18); the erdosproblems.com proof-claim tab for
+Problem 788 carries the author's full claim of 19 July 2026 and the
+erdosproblems.com label stayed OPEN. Read status: claims checked for the
+definitions, Theorem 1.1 and Remark 1.2 (pp. 1--2, text layer), read as a claim;
+the proof was not assessed and no acceptance beyond the author's exists. The
+claim page is
 [[additive_combinatorics/wang_2026_proposed_solution_erdos_problem_788/theorem_1_1|theorem_1_1]].
 The file prints no notice of its own on pp. 1--2 or 14--15; the repository
 holding it carries a LICENSE file that GitHub shows as "MIT license", the MIT

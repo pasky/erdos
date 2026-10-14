@@ -56,13 +56,13 @@ $f(d)\le d^2+1$ and Erdős's earlier lower bound $d^{4/3-\epsilon}$ for large
 $d$. The accepted claim page
 [[problems/graph_coloring/E0797/claims/1991_09_01_alon_mcdiarmid_reed|Alon, McDiarmid and Reed 1991]]
 states the bounds, the probabilistic proofs and the acceptance evidence, a
-refereed journal paper credited by the site's curator. The exact order of
-$f(d)$ between the two bounds is not determined by the paper; the problem as
-posed does not ask for it.
+refereed journal paper credited by the erdosproblems.com curator. The exact
+order of $f(d)$ between the two bounds is not determined by the paper; the
+problem as posed does not ask for it.
 
-**Search scope.** The site's problem page and its discussion thread, and the
-sources cited above; on 2026-10-07 the site's pages showed no other claim on
-the problem.
+**Search scope.** The erdosproblems.com problem page and its discussion thread,
+and the sources cited above; on 2026-10-07 the erdosproblems.com pages showed no
+other claim on the problem.
 
 <!-- BEGIN problem library links -->
 

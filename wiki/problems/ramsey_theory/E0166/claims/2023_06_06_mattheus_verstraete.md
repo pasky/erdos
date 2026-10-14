@@ -4,7 +4,7 @@ title: Mattheus and Verstraete, r(4,t) is at least of order t cubed over the fou
 desc: |
   Theorem 1 of Mattheus and Verstraete gives $r(4,t)=\Omega(t^3/\log^4t)$ and so
   proves the statement. It was refereed in the Annals (2024) and is credited by
-  the site's curator.
+  the erdosproblems.com curator.
 authors:
 - Sam Mattheus
 - Jacques Verstraete
@@ -56,16 +56,17 @@ updated journal version); v1 was posted on 6 June 2023.
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) marked the problem
-PROVED, solved in the affirmative. In the problem's commentary the curator
-credits Mattheus and Verstraete's theorem with the proof of the statement (page
-last edited 23 January 2026). Refereed: Annals of Mathematics (2) 199 (2024),
-no. 2, 919--941. The paper was received 19 June 2023, accepted 18 October 2023
-and published online 5 March 2024 (the journal's article page and its Crossref
-record). The page numbers cited are those of arXiv v5, not compared with the
-printed text. Morris's 2026 ICM survey states the bound as Theorem 1.3. This is
-an attestation beside the evidence listed above. Semantic Scholar listed 79
-records citing the paper on 2026-09-18, none a dispute or refutation.
+**Acceptance.** Reviewed: the erdosproblems.com curator (T. F. Bloom) marked the
+problem PROVED, solved in the affirmative. In the problem's commentary the
+curator credits Mattheus and Verstraete's theorem with the proof of the
+statement (page last edited 23 January 2026). Refereed: Annals of Mathematics
+(2) 199 (2024), no. 2, 919--941. The paper was received 19 June 2023, accepted
+18 October 2023 and published online 5 March 2024 (the journal's article page
+and its Crossref record). The page numbers cited are those of arXiv v5, not
+compared with the printed text. Morris's 2026 ICM survey states the bound as
+Theorem 1.3. This is an attestation beside the evidence listed above. Semantic
+Scholar listed 79 records citing the paper on 2026-09-18, none a dispute or
+refutation.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos166.lean` of
 Boris Alexeev's `lean-proofs` repository (GitHub `plby/lean-proofs`), linked

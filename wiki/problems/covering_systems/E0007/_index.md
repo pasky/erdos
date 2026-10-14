@@ -26,17 +26,17 @@ odd?
 
 **Formulation.** A distinct covering system is a finite family of congruence
 classes $a_i\pmod{n_i}$ with pairwise distinct moduli $n_i>1$ that covers
-every integer. This is how the site defines the term in
+every integer. This is how erdosproblems.com defines the term in
 [[problems/covering_systems/E1188/_index|Problem 1188]] (“distinct integers
 $1<n_1<\cdots<n_k$”) and how the formal-conjectures statement encodes it.
 The question asks whether one exists with every $n_i$ odd. The bound $n_i>1$
 matters, since the single class $0\pmod1$ covers every integer with an odd
 modulus.
 
-**Status.** Verifiable, the site's label for this open question. None of the
-claims below settles the exact unrestricted question, so the derived standing is
-open. Two full disproof claims from the site's discussion thread are recorded on
-claim pages. One is
+**Status.** Verifiable, the erdosproblems.com label for this open question. None
+of the claims below settles the exact unrestricted question, so the derived
+standing is open. Two full disproof claims from the erdosproblems.com discussion
+thread are recorded on claim pages. One is
 [[problems/covering_systems/E0007/claims/2026_05_02_lee|rejected]], and the
 other is
 [[problems/covering_systems/E0007/claims/2026_01_11_gebyjaff|conditional on an unproved axiom]].
@@ -79,13 +79,13 @@ carries no `formal_proof` attribute.
 
 ## Current assessment
 
-The site's formulation (page last edited 22 January 2026) asks whether a
-finite covering system with distinct odd moduli greater than one exists. The
-site's label was VERIFIABLE and its proof-claim listing for the problem is
-empty. The label is a note on an open problem, not a claim:
-a positive answer could be witnessed by a finite covering system with
-distinct odd moduli, checked over one period of its moduli, and no such
-covering has been found.
+The erdosproblems.com formulation (page last edited 22 January 2026) asks
+whether a finite covering system with distinct odd moduli greater than one
+exists. The erdosproblems.com label was VERIFIABLE and its proof-claim listing
+for the problem is empty. The label is a note on an open problem, not a claim: a
+positive answer could be witnessed by a finite covering system with distinct odd
+moduli, checked over one period of its moduli, and no such covering has been
+found.
 
 The problem's
 [discussion thread](https://www.erdosproblems.com/forum/thread/7) holds two
@@ -96,8 +96,8 @@ Hough–Nielsen theorem and an unproved axiom, and is the conditional claim on
 [[problems/covering_systems/E0007/claims/2026_01_11_gebyjaff|its claim page]].
 The note and Lean development posted on 2026-05-02, audited by Aristotle,
 rested on an axiom shown false as encoded four days later; the author
-conceded and the site's curator closed technical discussion, so the claim
-is rejected on
+conceded and the erdosproblems.com curator closed technical discussion, so the
+claim is rejected on
 [[problems/covering_systems/E0007/claims/2026_05_02_lee|its claim page]].
 Neither changes the standing.
 

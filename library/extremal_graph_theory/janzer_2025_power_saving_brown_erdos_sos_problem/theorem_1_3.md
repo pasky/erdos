@@ -57,8 +57,8 @@ Same-paper lemmas; external premises at statement level.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: in the site's
-  letters ($r=3$, $s$ edges, $k$ vertices) this is
+- [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: in
+  erdosproblems.com's letters ($r=3$, $s$ edges, $k$ vertices) this is
   $\mathrm{ex}_3(n,\mathcal F)=O(n^{2-\varepsilon})$ for
   $k=s+\lfloor\log_2s\rfloor+38$, a power saving where the Brown-Erdős-Sós
   conjecture ($k=s+3$) asks only for $o(n^2)$ and is open for $s\ge4$.

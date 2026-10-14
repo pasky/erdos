@@ -25,9 +25,9 @@ David R. Guichard and John D. Massman, *A note on packing complete graphs
 with trees*, J. Combin. Math. Combin. Comput. (JCMCC) 8 (1990), 123--126
 (Whitman College; "Research supported in part by an Abshire award from
 Whitman College"; zbMATH record 22649, read on 2026-09-19; no DOI and no
-Crossref record). Not a site key: the erdosproblems.com page for Problem 743
-cites Fishburn's $n\le9$ and does not list this note; a thread comment of 27
-August 2026 named it.
+Crossref record). Not an erdosproblems.com key: the erdosproblems.com page for
+Problem 743 cites Fishburn's $n\le9$ and does not list this note; a thread
+comment of 27 August 2026 named it.
 
 **Retained artifact.** The
 [folder-name PDF](guichard_1990_note_packing_complete_graphs_trees.pdf) is the
@@ -44,7 +44,7 @@ the rendered page images. The scan prints no notice beyond the stamp "JCMCC 8
 read 2026-10-02) links its "License" label to
 https://creativecommons.org/licenses/by/4.0/deed.en, the Creative Commons
 Attribution 4.0 license, and its footer "1970-2026 CP (Manitoba, Canada) unless
-otherwise stated" speaks for the site, not the paper.
+otherwise stated" speaks for erdosproblems.com, not the paper.
 
 Read status: claims checked for the abstract and introduction (p. 123),
 Fishburn's Conjectures 1 and 2, the definition of the universally recursive
@@ -119,9 +119,9 @@ authors' report. Nothing here is independently reviewed.
 frontier of the finite verification of the tree packing conjecture, $n\le11$
 (p. 124), beyond Fishburn's $n\le9$, which the introduction credits to the
 note's references [2,3] and p. 124 derives from the universally recursive
-families of [3], J. Graph Theory 7 (1983) 369--383, while the site's key Fi83
-is the note's reference [2], J. Combin. Theory Ser. A 34 (1983) 98--101; the
-abstract's remark (p. 123) that an approach suggested by Fishburn "is
-unlikely to work in general", which the closing paragraph (p. 126) puts more
+families of [3], J. Graph Theory 7 (1983) 369--383, while the erdosproblems.com
+key Fi83 is the note's reference [2], J. Combin. Theory Ser. A 34 (1983)
+98--101; the abstract's remark (p. 123) that an approach suggested by Fishburn
+"is unlikely to work in general", which the closing paragraph (p. 126) puts more
 cautiously: "It seems to indicate that the universally recursive graphs will
 not be of much help in proving the conjectures."

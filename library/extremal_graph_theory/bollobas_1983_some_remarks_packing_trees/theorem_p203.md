@@ -35,13 +35,13 @@ No argument is printed for it.
 
 **In the problem's wording.** Since $\sqrt2$ is irrational, $s<n/\sqrt2$ is
 $s\le\lfloor n/\sqrt2\rfloor$. With the trees indexed $T_1,\ldots,T_n$, $T_1$
-edgeless, as the later sources index them (the site's statement starts at
-$T_2$), the theorem packs $T_1,\ldots,T_s$ for $s=\lfloor n/\sqrt2\rfloor$
-(for $n\ge5$, so that $s\ge3$): the site's "smallest
-$\lfloor n/\sqrt2\rfloor$ many trees", counted with $T_1$. The
-extension clause is the site's "greedily": the trees are placed in descending
-order of size and each fits wherever the larger ones were put, so no choice
-made for the larger trees can block a smaller one.
+edgeless, as the later sources index them (the erdosproblems.com statement
+starts at $T_2$), the theorem packs $T_1,\ldots,T_s$ for
+$s=\lfloor n/\sqrt2\rfloor$ (for $n\ge5$, so that $s\ge3$): erdosproblems.com's
+"smallest $\lfloor n/\sqrt2\rfloor$ many trees", counted with $T_1$. The
+extension clause is erdosproblems.com's "greedily": the trees are placed in
+descending order of size and each fits wherever the larger ones were put, so no
+choice made for the larger trees can block a smaller one.
 
 **Source.** Béla Bollobás, Some remarks on packing trees, Discrete Math. 46
 (1983), no. 2, 203--204; the Theorem and the proof through relation (2) on
@@ -109,8 +109,8 @@ the Erdős--Sós conjecture, the note's [2], which is open.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0743/_index|Problem 743]]: the smallest-trees
-  regime of the tree packing conjecture, the site's "Bollobás [Bo83] proved
-  that the smallest $\lfloor n/\sqrt2\rfloor$ many trees can always be packed
-  greedily into $K_n$"; the theorem gives more, since any packing of the
+  regime of the tree packing conjecture, erdosproblems.com's "Bollobás [Bo83]
+  proved that the smallest $\lfloor n/\sqrt2\rfloor$ many trees can always be
+  packed greedily into $K_n$"; the theorem gives more, since any packing of the
   larger trees among the first $s$ extends. The remark is the conditional
   $(\sqrt3/2)n$ that later sources cite.

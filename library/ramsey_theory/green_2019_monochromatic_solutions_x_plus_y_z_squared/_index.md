@@ -26,7 +26,7 @@ $x+y=z^2$*, Canad. J. Math. **71** (2019), no. 3, 579--605, DOI
 10.4153/CJM-2017-036-1; received 29 August 2017, published electronically
 17 January 2018 (p. 579); arXiv:1608.08374 (per Sanders's reference [GL19]).
 The Canadian Journal of Mathematics is a refereed journal. Not a source key
-of the site; Problem 439's page cites it as [GrLi19].
+of erdosproblems.com; Problem 439's page cites it as [GrLi19].
 
 **Copy read.** The copy read for this card is the journal's typeset
 article: twenty-seven pages carrying the journal's pagination 579--605
@@ -79,9 +79,9 @@ Result page:
   $x$ and $y$ having the same colour (but not necessarily $z$)." Reference
   [9] (p. 605): A. Khalfallah and E. Szemerédi, On the number of
   monochromatic solutions of $x+y=z^2$, Combin. Probab. Comput. 15 (2006),
-  no. 1--2, 213--227 (the site's KhSz06; the paper spells the first author
-  "Khalfallah"). For primes $p>p_0(k)$ the second author (their [12], listed
-  as S. Lindqvist, Partition regularity of generalised Fermat equations,
+  no. 1--2, 213--227 (erdosproblems.com's KhSz06; the paper spells the first
+  author "Khalfallah"). For primes $p>p_0(k)$ the second author (their [12],
+  listed as S. Lindqvist, Partition regularity of generalised Fermat equations,
   arXiv:1606.07334) found $\gg_k p^2$ monochromatic solutions of
   $x+y=z^2$ in every $k$-coloring of $\mathbb Z/p\mathbb Z$.
 
@@ -99,9 +99,10 @@ solution of $x+y=z^2$ with $x$ and $y$ of one color and $z$ unconstrained,
 though without the condition $x\ne y$ that the problem asks for, and
 distinguishes it from the fully monochromatic question; Theorem 1.1
 (p. 579) settles that fully monochromatic question for squares (two colors
-force infinitely many solutions, three do not), an adjacent result the site
-does not ask, and as printed it does not state $x\ne y$ for the solutions it
-supplies; context, not a source of the status. The relation is stated on
+force infinitely many solutions, three do not), an adjacent result
+erdosproblems.com does not ask, and as printed it does not state $x\ne y$ for
+the solutions it supplies; context, not a source of the status. The relation is
+stated on
 [[ramsey_theory/green_2019_monochromatic_solutions_x_plus_y_z_squared/theorem_1_1|Theorem 1.1's page]].
 
 No file of this source is held: no license on record permits its redistribution,

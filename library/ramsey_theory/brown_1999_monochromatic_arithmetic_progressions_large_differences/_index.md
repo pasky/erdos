@@ -5,7 +5,7 @@ desc: |
   a function of the first term, bounding the three-term two-color case.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/brown_1999_monochromatic_arithmetic_progressions_large_differences
@@ -15,7 +15,7 @@ updated: 2026-10-08T01:29:58Z
 [[ramsey_theory/brown_1999_monochromatic_arithmetic_progressions_large_differences/theorem_12|theorem_12]]: The three-term two-color case of Theorem 7 is the only one: with more
 terms or more colors some coloring of the positive integers has no
 monochromatic k-term progression whose difference is at least c times its
-first term; the source of the site's four-term remark on Problem 645.
+first term; the source of erdosproblems.com's four-term remark on Problem 645.
 
 [[ramsey_theory/brown_1999_monochromatic_arithmetic_progressions_large_differences/theorem_7|theorem_7]]: Every two-coloring of the positive integers has a monochromatic three-term
 progression whose difference is at least a prescribed function of its first

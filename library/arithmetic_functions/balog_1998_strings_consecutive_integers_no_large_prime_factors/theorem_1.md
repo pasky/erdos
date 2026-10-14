@@ -76,9 +76,9 @@ of the same paper.
   $u=1/\epsilon$ (for $\epsilon<1$; a larger $\epsilon$ follows from a smaller
   one) the theorem gives infinitely many $m$ with $m+1,\ldots,m+k$ all
   $m^\epsilon$-smooth, for every $k$. Such a run lies in $\{1,\ldots,n\}$ and
-  is $n^\epsilon$-smooth for every $n\ge m+k$, which gives the site's wording
-  with a nontrivial run; each member $x$ is $x^\epsilon$-smooth, which is the
-  first reading on the problem page; and the run lies in $[n/2,n]$ for
+  is $n^\epsilon$-smooth for every $n\ge m+k$, which gives the erdosproblems.com
+  wording with a nontrivial run; each member $x$ is $x^\epsilon$-smooth, which
+  is the first reading on the problem page; and the run lies in $[n/2,n]$ for
   infinitely many $n$ only, not for all large $n$ as the second reading asks.
   The paper does not state the problem. The problem's
   [[../wiki/problems/arithmetic_functions/E0369/claims/1998_04_01_balog_wooley|claim page for this paper]]
@@ -86,7 +86,7 @@ of the same paper.
 - [[../wiki/problems/arithmetic_functions/E0370/_index|Problem 370]]: with
   $u=2$ and $m=n+1$, the theorem gives infinitely many $m$ whose largest
   prime factor and that of $m+1$ are at most $n^{1/2}$, hence below
-  $m^{1/2}$ and $(m+1)^{1/2}$ respectively, which answers the site's question
-  yes (an observation of this page; the paper does not state the problem).
-  The site's wording is already settled by a trivial construction recorded
-  on the problem page.
+  $m^{1/2}$ and $(m+1)^{1/2}$ respectively, which answers the erdosproblems.com
+  question yes (an observation of this page; the paper does not state the
+  problem). The erdosproblems.com wording is already settled by a trivial
+  construction recorded on the problem page.

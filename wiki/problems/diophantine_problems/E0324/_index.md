@@ -25,8 +25,8 @@ updated: 2026-10-07T21:38:27Z
 **Statement.** Does there exist a polynomial $f(x)\in\mathbb{Z}[x]$ such that
 all the sums $f(a)+f(b)$ with $a<b$ nonnegative integers are distinct?
 
-**Status.** Open, the site's label. The site's commentary credits Dubickas and
-Novikas with the exclusion of cubic polynomials
+**Status.** Open, the erdosproblems.com label. The erdosproblems.com commentary
+credits Dubickas and Novikas with the exclusion of cubic polynomials
 ([[problems/diophantine_problems/E0324/claims/2021_10_03_dubickas_novikas|claim page]]).
 
 **Source.** [erdosproblems.com/324](https://www.erdosproblems.com/324), accessed
@@ -52,22 +52,22 @@ https://www.erdosproblems.com/324.
 ## Current assessment
 
 No polynomial of degree at most three works. Degrees one and two fail by
-explicit families of colliding sums (the site calls the quadratic case easy
-to check; Dubickas and Novikas give the families in their introduction), and
-the cubic case is Theorem 1.1 of Dubickas and Novikas [DuNo21], a refereed
+explicit families of colliding sums (erdosproblems.com calls the quadratic case
+easy to check; Dubickas and Novikas give the families in their introduction),
+and the cubic case is Theorem 1.1 of Dubickas and Novikas [DuNo21], a refereed
 result on
 [[problems/diophantine_problems/E0324/claims/2021_10_03_dubickas_novikas|its claim page]].
-The site's commentary calls the failure of $x^4$ classical; Euler's identity
-$59^4+158^4=133^4+134^4$ is a collision. Collin Yuanjie Ren's Lean proof of
-the degree-at-most-two and $x^4$ cases, prepared with Claude Code, is a
+The erdosproblems.com commentary calls the failure of $x^4$ classical; Euler's
+identity $59^4+158^4=133^4+134^4$ is a collision. Collin Yuanjie Ren's Lean
+proof of the degree-at-most-two and $x^4$ cases, prepared with Claude Code, is a
 pending claim on
 [[problems/diophantine_problems/E0324/claims/2026_09_16_ren|its page]].
 Ruzsa's set $\{n^5+\lfloor cn^4\rfloor:n\ge n_0\}$ [Ru01b] is a Sidon set
 for some $c\in[0,1]$ but is not the value set of a polynomial, so it settles
-no instance. The site expects $f(x)=x^5$ to work, and notes that the Lander,
-Parkin and Selfridge conjecture would give the property for $x^n$ with every
-$n\ge5$. The sources cited here decide no polynomial of degree four or more
-other than $x^4$.
+no instance. erdosproblems.com expects $f(x)=x^5$ to work, and notes that the
+Lander, Parkin and Selfridge conjecture would give the property for $x^n$ with
+every $n\ge5$. The sources cited here decide no polynomial of degree four or
+more other than $x^4$.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

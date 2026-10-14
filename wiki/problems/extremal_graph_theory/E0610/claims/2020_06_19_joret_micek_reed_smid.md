@@ -5,7 +5,7 @@ desc: |
   Corollary 2 of Joret, Micek, Reed and Smid (2021), which bounds the clique
   chromatic number by $O(\sqrt{n/\log n})$, gives $\tau(G)\le n-c\sqrt{n\log n}$
   through the largest color class and so answers both questions. The result is
-  refereed and credited by the site.
+  refereed and credited by erdosproblems.com.
 authors:
 - Gwenaël Joret
 - Piotr Micek
@@ -37,9 +37,9 @@ updated: 2026-10-08T03:53:47Z
 every $n$-vertex graph is $O(\sqrt{n/\log n})$: for $n$ large, every graph on
 $n$ vertices has a clique coloring with at most $A\sqrt{n/\log n}$ colors for
 an absolute constant $A$. Taking the complement of a largest color class, the
-elementary transfer that the site's curator and the problem page both write
-out, this gives an absolute constant $c>0$ such that every graph $G$ on $n$
-vertices, $n$ large, has a clique transversal of size
+elementary transfer that the erdosproblems.com curator and the problem page both
+write out, this gives an absolute constant $c>0$ such that every graph $G$ on
+$n$ vertices, $n$ large, has a clique transversal of size
 
 $$
 \tau(G)\le n-c\sqrt{n\log n},
@@ -70,8 +70,8 @@ clique coloring with $q$ colors some class has at least $\lceil n/q\rceil$
 vertices, every clique meets two classes and so has a vertex outside the
 largest one, hence the complement of a largest class is a clique transversal
 and $\tau(G)\le n-\lceil n/q\rceil\le n-\frac1A\sqrt{n\log n}$ for $n\ge n_0$.
-The site's commentary states the same step, and so does Lemma 2 of the
-unrefereed 2026 note recorded on
+The erdosproblems.com commentary states the same step, and so does Lemma 2 of
+the unrefereed 2026 note recorded on
 [[problems/extremal_graph_theory/E0610/claims/2026_04_21_przemek_chojecki|its claim page]];
 the deduction is elementary and carries no independent review. The constant
 $A$ is not explicit, so no value of $c$ is recorded. The lower bound
@@ -90,19 +90,19 @@ library result.
 **Acceptance.** `refereed`: the Electronic Journal of Combinatorics is a
 refereed journal. The paper's first page records its acceptance on 21 July 2021
 and publication on 10 September 2021, and the Crossref record, read 2026-09-19,
-listed no correction. `reviewed`: the site's curator, Thomas Bloom, labeled the
-problem PROVED (LEAN). In the problem's commentary (the page, read 2026-09-19,
-was last edited 28 May 2026), Bloom derives the inequality
+listed no correction. `reviewed`: the erdosproblems.com curator, Thomas Bloom,
+labeled the problem PROVED (LEAN). In the problem's commentary (the page, read
+2026-09-19, was last edited 28 May 2026), Bloom derives the inequality
 $\tau(G)\le n-c\sqrt{n\log n}$ from this paper's clique-coloring bound, by
 taking the complement of the largest color class. This is a documented
-acceptance by the site. The community database, read 2026-09-19, listed the
-problem as proved (Lean), as of its record's last update of 7 June 2026. The
-suffix of the site's label rested on the separate pending claim recorded on its
-own page, not on this paper.
+acceptance by erdosproblems.com. The community database, read 2026-09-19, listed
+the problem as proved (Lean), as of its record's last update of 7 June 2026. The
+suffix of the erdosproblems.com label rested on the separate pending claim
+recorded on its own page, not on this paper.
 
-**The disputed input.** A post of 26 August 2026 on the site's thread reports
-that GPT-5.6 Sol claims a gap in the proof of Theorem 1 of this paper, the
-theorem from which Corollary 2 is derived, and names two later papers whose
+**The disputed input.** A post of 26 August 2026 on the erdosproblems.com thread
+reports that GPT-5.6 Sol claims a gap in the proof of Theorem 1 of this paper,
+the theorem from which Corollary 2 is derived, and names two later papers whose
 proofs use the paper's bounds. The post gives no argument on the page and
 names no step; the thread records only that the authors were contacted; no
 erratum or correction appears in the Crossref record, and no published source

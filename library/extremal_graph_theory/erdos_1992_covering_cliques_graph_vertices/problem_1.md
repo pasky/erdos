@@ -49,7 +49,7 @@ paged with its rewriting as the lower bound on $r(n)$ on
 [[ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_3|theorem_3]];
 and Erdős, Canad. J. Math. 13 (1961), 346--352 (the upper bound; filed as
 [[graph_coloring/erdos_1961_graph_theory_probability/_index|erdos_1961_graph_theory_probability]]).
-Problem 1 is the site's Problem 151 with
+Problem 1 is erdosproblems.com's Problem 151 with
 $H(n)$ for $r(n)$; the expectation sentence is the first displayed question
 of Problem 610. Lemma 1(b) (p. 282) is the equivalence the first sentence
 refers to: for a triangle-free graph $\tau_C(G)=|V(G)|-\alpha(G)$, so
@@ -83,14 +83,14 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0151/_index|Problem 151]]: the exact primary
-  formulation of the problem (the site's second source key, "[EGT92, p.
+  formulation of the problem (erdosproblems.com's second source key, "[EGT92, p.
   280]"), with the authors' remark that no examples worse than triangle-free
   ones were known.
 - [[../wiki/problems/extremal_graph_theory/E0610/_index|Problem 610]]: the sentence "we
   expect that $\tau_C(G)\le n-f(n)\sqrt n$ holds for some function $f(n)$
   tending to infinity with $n$" (p. 280) is the problem's first displayed
-  question, and the conjecture $\tau_C(G)\le n-r(n)$ is what the site's
-  commentary says the authors "speculate".
+  question, and the conjecture $\tau_C(G)\le n-r(n)$ is what the
+  erdosproblems.com commentary says the authors "speculate".
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the
   paper writes on p. 280 (PDF p. 2, page image): "An interesting particular
   case of Problem 1 is to prove $\tau_C(G)\le n-r(n)$ for 'sparse' graphs;

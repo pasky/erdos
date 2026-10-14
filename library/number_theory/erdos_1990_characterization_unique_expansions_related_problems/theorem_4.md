@@ -82,10 +82,10 @@ Sövegjártó, "to appear") and [9] (Rauzy, "to appear"), not held, for d).
 ## Bears on
 
 - [[../wiki/problems/number_theory/E1096/_index|Problem 1096]]: a) is the bound
-  $x_{k+1}-x_k\le1$ for all $k$ the site attributes to this paper; c) and
-  d) are the paper's Pisot obstruction, one explicit Pisot number below the
+  $x_{k+1}-x_k\le1$ for all $k$ erdosproblems.com attributes to this paper; c)
+  and d) are the paper's Pisot obstruction, one explicit Pisot number below the
   golden ratio whose gaps do not tend to $0$ and, with the recalled Pisot
-  fact, the mechanism the site summarizes as "any Pisot--Vijayaraghavan
+  fact, the mechanism erdosproblems.com summarizes as "any Pisot--Vijayaraghavan
   number cannot have this property" (the general statement $L(q)>0$ for all
   Pisot numbers is attributed to this paper by the authors' 1998 sequel and
   is not printed here as a theorem).

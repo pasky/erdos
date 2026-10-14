@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 584
 
 [[problems/extremal_graph_theory/_index|..]]
 
-[[problems/extremal_graph_theory/E0584/claims/_index|claims/]]: The 2 claim pages of Problem 584, one per claimant's result; the problem's standing derives from them.
+[[problems/extremal_graph_theory/E0584/claims/_index|claims/]]: The 3 claim pages of Problem 584, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -29,33 +29,34 @@ $6$, and furthermore if two edges share a vertex they are on a cycle of length
 $4$, and $H_2$ has $\gg \delta^2n^2$ edges and every two edges in $H_2$ are
 contained in a cycle of length at most $8$.
 
-**Formulation.** The site's wording, accessed 2026-09-17 (page last edited
-22 January 2026). The cycles are required inside $H_1$ and
-$H_2$ (the sources' "cycle-connected" subgraphs). The statement does not say
-whether $\delta$ is a fixed constant or may depend on $n$, and the two
-readings have different standings, recorded in the Current assessment: with
-$\delta$ fixed and $n\ge n_0(\delta)$, the implied constants may depend on
-$\delta$ and the $\delta^3$ and $\delta^2$ carry no content beyond the
-existence of $H_1$ and $H_2$ with $\gg n^2$ edges; with absolute implied
-constants and $\delta$ allowed to shrink as a power of $n$, the question is
-the sparse-regime problem of Duke, Erdős and Rödl (1984), which the site's
-commentary singles out as the real challenge: to prove both clauses when
-$\delta=n^{-c}$ for some $c>0$. The page adopts this second reading as its
-question, in the form the commentary gives it: the answer is yes if some $c>0$
-exists for which both clauses hold, with absolute implied constants, for
-$\delta=n^{-c}$ and all large $n$, and no if no $c>0$ does. Under it a result
-settles an instance only when it establishes a clause for some $c>0$ or
-excludes every $c>0$; a result that proves or refutes a clause only on a range
-of $c$ bounded away from $0$ settles nothing, and the page records such
-results without claim pages. The fixed-$\delta$ reading is recorded beside it.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-17 (page last
+edited 22 January 2026). The cycles are required inside $H_1$ and $H_2$ (the
+sources' "cycle-connected" subgraphs). The statement does not say whether
+$\delta$ is a fixed constant or may depend on $n$, and the two readings have
+different standings, recorded in the Current assessment: with $\delta$ fixed and
+$n\ge n_0(\delta)$, the implied constants may depend on $\delta$ and the
+$\delta^3$ and $\delta^2$ carry no content beyond the existence of $H_1$ and
+$H_2$ with $\gg n^2$ edges; with absolute implied constants and $\delta$ allowed
+to shrink as a power of $n$, the question is the sparse-regime problem of Duke,
+Erdős and Rödl (1984), which the erdosproblems.com commentary singles out as the
+real challenge: to prove both clauses when $\delta=n^{-c}$ for some $c>0$. The
+page adopts this second reading as its question, in the form the commentary
+gives it: the answer is yes if some $c>0$ exists for which both clauses hold,
+with absolute implied constants, for $\delta=n^{-c}$ and all large $n$, and no
+if no $c>0$ does. Under it a result settles an instance only when it establishes
+a clause for some $c>0$ or excludes every $c>0$; a result that proves or refutes
+a clause only on a range of $c$ bounded away from $0$ settles nothing, and the
+page records such results without claim pages unless they were submitted to
+erdosproblems.com as claims, which keep rejected claim pages. The fixed-$\delta$
+reading is recorded beside it.
 
-**Status.** Open, the site's label (OPEN), for a statement that no finite
-computation can settle. The page was last edited 22 January 2026. Under the
-reading the Formulation adopts, the first clause with $\delta^3$ is proved for
-no $c>0$. It is proved only with $\delta^5$ in place of $\delta^3$, for every
-$0<c<1/2$ (Duke, Erdős and Rödl 1984, Theorem 3). The $\delta^3$ version of the
-first clause has been open since 1984. The second clause is proved for every
-$c<1/5$
+**Status.** Open, the erdosproblems.com label (OPEN), for a statement that no
+finite computation can settle. The page was last edited 22 January 2026. Under
+the reading the Formulation adopts, the first clause with $\delta^3$ is proved
+for no $c>0$. It is proved only with $\delta^5$ in place of $\delta^3$, for
+every $0<c<1/2$ (Duke, Erdős and Rödl 1984, Theorem 3). The $\delta^3$ version
+of the first clause has been open since 1984. The second clause is proved for
+every $c<1/5$
 ([[problems/extremal_graph_theory/E0584/claims/2007_06_13_fox_sudakov|Fox--Sudakov 2008]],
 refereed). A 2026 preprint announced on the thread [Li26] claims it for every
 $c\le1/3$
@@ -70,17 +71,20 @@ first is Fox and Sudakov's remark that the second clause fails for $\beta$ close
 to $1$. The second is the girth-10 counterexamples of a note of 21 April 2026
 posted on the thread [Ch26], which fail it for every $4/5<\beta<1$. The third is
 the obstruction of [Li26] to the first clause for $\delta=n^{-\beta}$,
-$1/3\le\beta<1/2$. These three are recorded in the Current assessment and have
-no claim pages. No result settles the first clause, so the standing derives as
-open.
+$1/3\le\beta<1/2$. These three are recorded in the Current assessment. The
+note [Ch26], posted as a counterexample, answers the uniform reading, a variant,
+and
+[[problems/extremal_graph_theory/E0584/claims/2026_04_21_chojecki|its claim page]]
+records it as rejected; the other two have no claim pages. No result settles the
+first clause, so the standing derives as open.
 
 **Source.** [erdosproblems.com/584](https://www.erdosproblems.com/584),
 accessed 2026-09-17: the problem page (OPEN;
 last edited 22 January 2026), its four-comment discussion thread and its
-empty proof-claim tab. The site cites [DuEr82] and [DER84] as the problem's
-sources and [FoSu08b] in its commentary, and links the entry "EdgePairsInCycles"
-of the graphs problem collection. Cite as: T. F. Bloom, Erdős Problem #584,
-https://www.erdosproblems.com/584, accessed 2026-09-17.
+empty proof-claim tab. erdosproblems.com cites [DuEr82] and [DER84] as the
+problem's sources and [FoSu08b] in its commentary, and links the entry
+"EdgePairsInCycles" of the graphs problem collection. Cite as: T. F. Bloom,
+Erdős Problem #584, https://www.erdosproblems.com/584, accessed 2026-09-17.
 
 **References.**
 
@@ -105,12 +109,12 @@ https://www.erdosproblems.com/584, accessed 2026-09-17.
 - [DER91] Duke, R. A., Erdős, P. and Rödl, V., Extremal problems for
   cycle-connected graphs. Proceedings of the Twenty-Second Southeastern
   Conference on Combinatorics, Graph Theory, and Computing (Baton Rouge, La.,
-  1991), Congr. Numer. 83 (1991), 147--151. Not held and not cited by the
-  site; known only through p. 1057 of [FoSu08b].
+  1991), Congr. Numer. 83 (1991), 147--151. Not held and not cited by
+  erdosproblems.com; known only through p. 1057 of [FoSu08b].
 - [DER92] Duke, R. A., Erdős, P. and Rödl, V., Cycle-connected graphs.
   Discrete Math. 108 (1992), no. 1--3, 261--278;
   doi:10.1016/0012-365X(92)90680-E (received 4 January 1991). Not cited by
-  the site. Fixed-density statement and the set-system Theorem, p. 262;
+  erdosproblems.com. Fixed-density statement and the set-system Theorem, p. 262;
   recalled bounds (1)--(3), p. 263; concluding remarks, p. 277. Library home:
   [[../library/extremal_graph_theory/duke_1992_cycle_connected_graphs/_index|duke_1992_cycle_connected_graphs]] (the publisher's
   open-archive edition).
@@ -124,8 +128,10 @@ https://www.erdosproblems.com/584, accessed 2026-09-17.
   https://www.ulam.ai/research/erdos584.pdf and linked from the discussion
   thread on 21 April 2026 by a post that credits it to GPT-5.4 Pro. Theorem
   1, Corollary 2 and Remark 3, p. 2; Proposition 4 and Remark 5, pp. 3--4.
-  Not filed: unrefereed, and its mathematics is recorded in the Current
-  assessment, not as a claim page.
+  Not filed: unrefereed; its mathematics is recorded in the Current
+  assessment, and
+  [[problems/extremal_graph_theory/E0584/claims/2026_04_21_chojecki|its claim page]]
+  records it as rejected, as answering a variant.
 - [Be66] Benson, C. T., Minimal regular graphs of girths eight and twelve.
   Canad. J. Math. 18 (1966), 1091--1094. Not held; the reference [3] that
   p. 1061 of [FoSu08b] cites for graphs with $n^{2-\beta}$ edges and no
@@ -135,24 +141,24 @@ https://www.erdosproblems.com/584, accessed 2026-09-17.
   Not held; the source of the graphs $CD(5,q)$ that Theorem 1 of [Ch26] uses.
 
 **Formalization.** None. No file `ErdosProblems/584.lean` exists in
-formal-conjectures (main, fetched 2026-09-17); the site's page shows
+formal-conjectures (main, fetched 2026-09-17); the erdosproblems.com page shows
 the statement as not formalized, and the community database (fetched
 2026-09-17) records the problem as open and unformalized, with no formal-proof
 URL.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
-above; OPEN, the site's label for a statement that no finite computation can
-settle; last edited 22 January 2026. The commentary attributes the problem to
-Erdős, Duke and Rödl, credits Duke and Erdős [DuEr82] with the first
-statement for $n$ large in terms of $\delta$, names the case $\delta=n^{-c}$,
-$c>0$, as the hard one, credits Duke, Erdős and Rödl [DER84] with the first
-statement at $\delta^5$ rather than $\delta^3$, and credits Fox and Sudakov
-[FoSu08b] with the second statement for $\delta>n^{-1/5}$. The thread holds
-four comments (24
-November 2025, two of 21 April 2026, 10 June 2026), recorded below; the
-proof-claim tab is empty; the community database record says open.
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; OPEN, the erdosproblems.com label for a statement that no finite
+computation can settle; last edited 22 January 2026. The commentary attributes
+the problem to Erdős, Duke and Rödl, credits Duke and Erdős [DuEr82] with the
+first statement for $n$ large in terms of $\delta$, names the case
+$\delta=n^{-c}$, $c>0$, as the hard one, credits Duke, Erdős and Rödl [DER84]
+with the first statement at $\delta^5$ rather than $\delta^3$, and credits Fox
+and Sudakov [FoSu08b] with the second statement for $\delta>n^{-1/5}$. The
+thread holds four comments (24 November 2025, two of 21 April 2026, 10 June
+2026), recorded below; the proof-claim tab is empty; the community database
+record says open.
 
 **The first clause ($H_1$).** At fixed density,
 [[../library/extremal_graph_theory/duke_1982_subgraphs_which_each_pair_edges_lies/corollary_1|Corollary 1]] of Duke and Erdős
@@ -167,8 +173,10 @@ arguments "would yield something of the form $f(c)=\alpha c^3$", which is not
 a proved theorem. In the sparse regime $\delta=n^{-\varepsilon}$,
 $0<\varepsilon<1/2$, [[../library/extremal_graph_theory/duke_1984_more_results_subgraphs_many_short_cycles/theorem_3|Theorem 3]] of Duke, Erdős and Rödl
 (p. 299) gives a subgraph with $cn^{2-5\varepsilon}=c\delta^5n^2$
-edges having both properties, the $\delta^5$ for $\delta^3$ that the site's
-commentary records; [[../library/extremal_graph_theory/duke_1984_more_results_subgraphs_many_short_cycles/theorem_1|Theorem 1]] (p. 296) gives
+edges having both properties, the $\delta^5$ for $\delta^3$ that the
+erdosproblems.com commentary records;
+[[../library/extremal_graph_theory/duke_1984_more_results_subgraphs_many_short_cycles/theorem_1|Theorem 1]]
+(p. 296) gives
 $c_1n^{2-3\varepsilon}\le f_3(n,\varepsilon)\le c_2n^{2-3\varepsilon}$, the
 exponent $\delta^3$ with the cycle condition alone and no condition on
 adjacent edges, and shows $\delta^3$ cannot be improved. Whether
@@ -239,13 +247,13 @@ $\beta<1/5$, fails for every $4/5<\beta<1$ and is undecided for
 $1/5\le\beta\le4/5$; the first clause is known with $\delta^5$ for every
 $0<\beta<1/2$ and with $\delta^3$ for no $\beta$, and [Li26] claims it fails
 with $\delta^3$ for $1/3\le\beta<1/2$. Read uniformly over all $\delta$, the
-statement is false; read as the site's commentary puts it, as a question about
-some $c>0$, it is open, since no $c>0$ is known for which the first clause holds
-with $\delta^3$ and no argument excludes every $c>0$. The page's standing
-describes that question. The fixed-$\delta$ reading (both clauses answered, the
-second by the statement of [DER92] with its proof in the unheld [DER91]) and the
-failures at $4/5<\beta<1$ and, if [Li26] holds, at $1/3\le\beta<1/2$ are
-outcomes of other readings, recorded beside it.
+statement is false; read as the erdosproblems.com commentary puts it, as a
+question about some $c>0$, it is open, since no $c>0$ is known for which the
+first clause holds with $\delta^3$ and no argument excludes every $c>0$. The
+page's standing describes that question. The fixed-$\delta$ reading (both
+clauses answered, the second by the statement of [DER92] with its proof in the
+unheld [DER91]) and the failures at $4/5<\beta<1$ and, if [Li26] holds, at
+$1/3\le\beta<1/2$ are outcomes of other readings, recorded beside it.
 
 **Leads with provenance, not status.**
 
@@ -294,14 +302,16 @@ outcomes of other readings, recorded beside it.
   sparse problem with $\delta\ge n^{-\beta_0}$ untouched; its Proposition 4
   re-proves the $\delta^3$ weak $C_6$ core, which the note itself credits to
   [DER84] (Theorem 1 there). AI-generated, unrefereed, and reviewed by no
-  named mathematician on the thread. It has no claim page: under the reading
+  named mathematician on the thread. It answers a variant: under the reading
   the page adopts, a failure confined to $4/5<\beta<1$ settles no instance,
   and under the uniform reading it gives, with an explicit range, the failure
   that Fox and Sudakov's remark on p. 1061 gives through Benson's graphs
   (recorded above).
+  [[problems/extremal_graph_theory/E0584/claims/2026_04_21_chojecki|Its claim page]]
+  records it as rejected.
 - Discussion, 24 November 2025: a reference-key repair, since addressed.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 directory (no file 584); the Crossref records for
 doi:10.1016/j.jctb.2007.12.003 and, by bibliographic query, for [DER92]; the
@@ -325,13 +335,14 @@ concern $C_4$-connected subgraphs and edge sets, their statements compared
 with the page images of pp. 267--275 and their proofs read for structure
 only. (3) The range of $\delta$ the
 problem intends is not
-fixed by the statement; reopening condition: a site edit fixing the range of
-$\delta$, or a source settling the first clause with $\delta^3$ for some
-$c>0$. (4) The first clause with $\delta^3$ and the adjacent-$C_4$ condition is
-open in the sparse regime in the sources cited here; [Li26]'s claims about it
-are known from its abstract and are unrefereed. (5) Proof coverage is statements
-only: Corollary 1, Theorems 1 and 3 of [DER84] and Theorem 1.2 of [FoSu08b]
-are paged at claims checked, the proofs read for structure at most.
+fixed by the statement; reopening condition: an erdosproblems.com edit fixing
+the range of $\delta$, or a source settling the first clause with $\delta^3$ for
+some $c>0$. (4) The first clause with $\delta^3$ and the adjacent-$C_4$
+condition is open in the sparse regime in the sources cited here; [Li26]'s
+claims about it are known from its abstract and are unrefereed. (5) Proof
+coverage is statements only: Corollary 1, Theorems 1 and 3 of [DER84] and
+Theorem 1.2 of [FoSu08b] are paged at claims checked, the proofs read for
+structure at most.
 
 ## Known results
 

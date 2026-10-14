@@ -32,18 +32,18 @@ $$
 
 contains all rationals in some open interval?
 
-**Formulation.** The site's wording (page last edited 18 November 2025). $A$
-is an infinite strictly increasing sequence of positive integers with a
-uniform lower bound $\lambda>1$ on the ratio of consecutive terms; the set
-in question is the set of finite sums of distinct reciprocals of its terms;
-and the question is whether this set can contain every rational number of
-some non-empty open interval. Bleicher and Erdős conjectured that it cannot
-(Conjecture 4 of their 1976 paper, quoted below); the answer is yes.
+**Formulation.** The erdosproblems.com wording (page last edited 18 November
+2025). $A$ is an infinite strictly increasing sequence of positive integers with
+a uniform lower bound $\lambda>1$ on the ratio of consecutive terms; the set in
+question is the set of finite sums of distinct reciprocals of its terms; and the
+question is whether this set can contain every rational number of some non-empty
+open interval. Bleicher and Erdős conjectured that it cannot (Conjecture 4 of
+their 1976 paper, quoted below); the answer is yes.
 
-**Status.** Proved, with the answer yes. The site's label was PROVED (LEAN). Van
-Doorn and Kovač's Theorem 1(a) (Acta Arith. 223 (2026), 275--295; refereed)
-constructs, for every $\lambda\in(1,2)$, a $\lambda$-lacunary sequence of
-positive integers whose finite reciprocal sums contain every rational in
+**Status.** Proved, with the answer yes. The erdosproblems.com label was PROVED
+(LEAN). Van Doorn and Kovač's Theorem 1(a) (Acta Arith. 223 (2026), 275--295;
+refereed) constructs, for every $\lambda\in(1,2)$, a $\lambda$-lacunary sequence
+of positive integers whose finite reciprocal sums contain every rational in
 $[0,2]$. Their Theorem 1(c) shows that no $2$-lacunary sequence does this, and
 hence no sequence with $\lambda\ge2$ does. The Bleicher--Erdős conjecture is
 refuted. The label's suffix is a catalog label whose scope is qualified under
@@ -53,15 +53,14 @@ The claim page is
 from which the standing derives.
 
 **Source.** [erdosproblems.com/355](https://www.erdosproblems.com/355),
-accessed 2026-09-18: the problem page (PROVED (LEAN), which the site glosses
-as an affirmative solution with a proof verified in Lean; source keys
+accessed 2026-09-18: the problem page (PROVED (LEAN), which erdosproblems.com
+glosses as an affirmative solution with a proof verified in Lean; source keys
 [BlEr76, p. 167] and [ErGr80, p. 58]; last edited 18 November 2025; the
 formalised-statement flag set to yes; no OEIS entry), its eighteen-comment
 discussion thread (19 August 2025 to 13 March 2026) and its empty
-proof-claim tab. The site cites [DoKo25] in its commentary and thanks Will
-Sawin and Stefan Steinerberger. Cite as:
-T. F. Bloom, Erdős Problem #355, https://www.erdosproblems.com/355, accessed
-2026-09-18.
+proof-claim tab. erdosproblems.com cites [DoKo25] in its commentary and thanks
+Will Sawin and Stefan Steinerberger. Cite as: T. F. Bloom, Erdős Problem #355,
+https://www.erdosproblems.com/355, accessed 2026-09-18.
 
 **References.**
 
@@ -107,16 +106,16 @@ the Lean label below.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; PROVED (LEAN);
-last edited 18 November 2025; source keys [BlEr76, p. 167] and [ErGr80, p.
-58]. The site's commentary records that Bleicher and Erdős conjectured a
-negative answer, that the answer is in fact yes for every lacunarity
-constant $\lambda\in(1,2)$ but not for $\lambda=2$, and that van Doorn and
-Kovač [DoKo25] proved it. The thread: 19--22 August 2025, Kovač's guess that
-the answer is yes, their construction of a sequence with ratios in $[3/2,2]$
-whose finite reciprocal sums contain all rationals in $[0,1)$ (Claims 1 and
-2, with the first terms $2,4,6,12,24,48,72,120,180,360,720,\ldots$) and their
-preliminary draft, van Doorn's variants (products of the first primes,
+**The question (erdosproblems.com formulation).** The statement above; PROVED
+(LEAN); last edited 18 November 2025; source keys [BlEr76, p. 167] and [ErGr80,
+p. 58]. The erdosproblems.com commentary records that Bleicher and Erdős
+conjectured a negative answer, that the answer is in fact yes for every
+lacunarity constant $\lambda\in(1,2)$ but not for $\lambda=2$, and that van
+Doorn and Kovač [DoKo25] proved it. The thread: 19--22 August 2025, Kovač's
+guess that the answer is yes, their construction of a sequence with ratios in
+$[3/2,2]$ whose finite reciprocal sums contain all rationals in $[0,1)$ (Claims
+1 and 2, with the first terms $2,4,6,12,24,48,72,120,180,360,720,\ldots$) and
+their preliminary draft, van Doorn's variants (products of the first primes,
 lacunarity arbitrarily close to $2$, all rationals in $[0,x]$ for any $x$),
 and Kovač's note that the question is Conjecture 4 of the 1976 paper; 29--30
 August 2025, a blog-post proof by Sayan Dutta that $\lambda>2$ fails, with
@@ -140,8 +139,8 @@ recalling Graham's and Erdős and Stein's results on reciprocal bases: "Suppose
 $S=(s_1,s_2,\ldots)$ is an increasing sequence satisfying $s_{n+1}/s_n\ge c>1$
 for some $c$. Is it possible for $P(S^{-1})$ to contain all the rationals in
 some interval $(\alpha,\beta)$, $\alpha<\beta$? It has been conjectured by
-Bleicher and Erdős that the answer is no." The site's statement follows the
-monograph.
+Bleicher and Erdős that the answer is no." The erdosproblems.com statement
+follows the monograph.
 
 **Status support.** The status-defining source is van Doorn and Kovač's
 [[../library/unit_fractions/doorn_2025_lacunary_sequences_whose_reciprocal_sums_represent/theorem_1|Theorem 1]]
@@ -165,7 +164,7 @@ here (the library records claims checked). Acceptance evidence: the paper is
 published in Acta Arithmetica 223 (2026), 275--295 (online 15 April 2026), a
 refereed journal, and its acknowledgments thank an anonymous referee; the
 published text is not compared with arXiv v3, so the locators are the
-preprint's. The site accepts the result. Their
+preprint's. erdosproblems.com accepts the result. Their
 [[../library/unit_fractions/doorn_2025_lacunary_sequences_whose_reciprocal_sums_represent/theorem_2|Theorem 2]]
 (pp. 2--3; claims checked) gives the least upper bound $R(\lambda)$ on the
 length of a rational interval that a $\lambda$-lacunary sequence can fill:
@@ -177,9 +176,9 @@ a $\lambda$-lacunary sequence with $n_{i+1}>\Lambda n_i$ for infinitely many
 $i$ whose finite reciprocal sums contain every rational in
 $[0,\sum_i1/n_i)$.
 
-**Formalization and the Lean label.** The Lean suffix of the site's label
-PROVED (LEAN) is a catalog label. The formal-conjectures file at the pinned
-commit is a statement with a `sorry` body whose `formal_proof` attribute
+**Formalization and the Lean label.** The Lean suffix of the erdosproblems.com
+label PROVED (LEAN) is a catalog label. The formal-conjectures file at the
+pinned commit is a statement with a `sorry` body whose `formal_proof` attribute
 names `ErdosProblem355.lean` in the repository `Woett/Lean-files` on its
 `main` branch, not a fixed commit. That file was last changed on 1 June
 2026, the commit that the formalization link on
@@ -205,7 +204,7 @@ the paper's Theorems 1--3 and 12. Nothing is built or kernel-checked here
 and no local credit is claimed. The community database lists `formal_status`
 Lean, with the update date 2 February 2026, and no formal-proof URL.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-18 UTC).** The erdosproblems.com problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
 file at the pinned commit; the commit history of the external Lean file
 and the file at its last commit; the arXiv abstract

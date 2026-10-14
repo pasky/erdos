@@ -48,7 +48,7 @@ Erdős singled out, and the other, $C_6$, stays open.
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
 **Acceptance.** Refereed: Electronic Journal of Combinatorics, volume 30
-(2023), no. 3, Paper No. 3.17. The site's commentary credits the paper for
-$K_4$, but the site labeled the problem OPEN, so no `reviewed` evidence is
-listed. This corpus checked the statement and did not recheck the $K_{13}$
-coloring.
+(2023), no. 3, Paper No. 3.17. The erdosproblems.com commentary credits the
+paper for $K_4$, but Bloom's catalog labeled the problem OPEN, so no `reviewed`
+evidence is listed. This corpus checked the statement and did not recheck the
+$K_{13}$ coloring.

@@ -69,5 +69,5 @@ Theorem 1's argument for the triangle $vyu$ and the edge counts of pp.
 - [[../wiki/problems/extremal_graph_theory/E1033/_index|Problem 1033]]: the first
   nontrivial lower bound, $h(n)\ge(1+\eta)n$ for a fixed $\eta>0$ and large
   $n$, in the form the paper proves it (a triangle with degree sum
-  $>n(1+\eta)$ in every $G(n,[n^2/4]+1)$); the site's [ErLa85] key, whose
-  commentary says the upper bound "is not made explicit" here.
+  $>n(1+\eta)$ in every $G(n,[n^2/4]+1)$); erdosproblems.com's [ErLa85] key,
+  whose commentary says the upper bound "is not made explicit" here.

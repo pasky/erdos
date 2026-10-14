@@ -82,7 +82,7 @@ by an approach similar to that of [3] and different from the paper's.
 Source: <https://arxiv.org/abs/2007.04351>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0167/_index|#167]]: Theorem 1.2
-(p. 1 of the preprint, page image), the site's "Kahn and Park [KaPa22]
+(p. 1 of the preprint, page image), erdosproblems.com's "Kahn and Park [KaPa22]
 have proved this is true for random graphs"; p. 1 also attests Haxell's
 general bound $\tau(H)\le\frac{66}{23}\nu(H)$ ("the best general result
 remains that of Haxell [8]") and the tightness of $2$ for $K_4$ and $K_5$,

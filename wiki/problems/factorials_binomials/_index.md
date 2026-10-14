@@ -5,7 +5,7 @@ desc: |
   Divisibility, prime factorization and digit arithmetic of factorials,
   binomial coefficients, and products of consecutive integers.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Factorials and Binomial Coefficients
@@ -40,8 +40,8 @@ Cambie, Kovač and Tao.
 
 [[problems/factorials_binomials/E0384/_index|E0384/]]: Asks whether, for
 $1<k<n-1$, every $\binom{n}{k}$ other than $\binom{7}{3}$ has a prime divisor
-$p\le n/2$. Proved by Ecklund in 1969, while the site's strict bound $p<n/2$
-fails at $\binom{4}{2}$.
+$p\le n/2$. Proved by Ecklund in 1969, while erdosproblems.com's strict bound
+$p<n/2$ fails at $\binom{4}{2}$.
 
 [[problems/factorials_binomials/E0386/_index|E0386/]]: Asks whether
 $\binom{n}{k}$ with $2\le k\le n-2$ can be a product of consecutive primes
@@ -189,5 +189,5 @@ $k\ge 2$, and only finitely many powerful numbers.
 Divisibility, prime factorization and digit arithmetic of factorials, binomial
 coefficients, and products of consecutive integers.
 
-Site tags routed here: base representations, binomial coefficients, factorials,
-number theory, primes.
+erdosproblems.com tags routed here: base representations, binomial coefficients,
+factorials, number theory, primes.

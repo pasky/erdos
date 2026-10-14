@@ -5,7 +5,7 @@ desc: |
   Mathialagan proves that among $k\le n^{1/3}$ points, some point determines
   $\Omega(\sqrt{kn})$ distinct distances to $n$ other points. So
   $\alpha_k=\Omega(\sqrt k)$ and the answer is yes; the paper is refereed and
-  credited by the site's curator.
+  credited by the erdosproblems.com curator.
 authors:
 - Surya Mathialagan
 status: accepted
@@ -58,26 +58,27 @@ theorem with $P=\{x_1,\ldots,x_k\}$ and $Q$ the remaining $n-k$ points: some
 $x_i$ with $i\le k$ determines $\Omega(\sqrt{k(n-k)})$ distances to $Q$, so
 $R(x_k)\ge R(x_i)\gg\sqrt{kn}$ for every $n$-point set once $n$ is large. By
 the definition of $\alpha_k$ this forces $\alpha_k\gg k^{1/2}$, and
-$\alpha_k\to\infty$. The deduction is the one the site's curator records
-beside the theorem, and it uses nothing beyond the ordering. In the other
-direction the site records Elekes's result that $R(x_k)\ll_k n^{1/2}$ is
-attainable for every fixed $k$ and all large $n$, so each $\alpha_k$ is
-finite and the question was exactly whether these finite constants are
-bounded. A reader's comment on the site's thread (30 January 2026) observes
-that the paper's Section 2, which restates Elekes's construction, gives
-$\alpha_k=O(k^{1/2})$, which would make the order $k^{1/2}$ sharp; this page
-credits only the lower bound.
+$\alpha_k\to\infty$. The deduction is the one the erdosproblems.com curator
+records beside the theorem, and it uses nothing beyond the ordering. In the
+other direction erdosproblems.com records Elekes's result that
+$R(x_k)\ll_k n^{1/2}$ is attainable for every fixed $k$ and all large $n$, so
+each $\alpha_k$ is finite and the question was exactly whether these finite
+constants are bounded. A reader's comment on the erdosproblems.com thread (30
+January 2026) observes that the paper's Section 2, which restates Elekes's
+construction, gives $\alpha_k=O(k^{1/2})$, which would make the order $k^{1/2}$
+sharp; this page credits only the lower bound.
 
 **Acceptance.** The paper is refereed. The Electronic Journal of Combinatorics
-accepted it on 1 November 2021 and published it on 19 November 2021. The site's
-curator, Thomas Bloom, labeled the problem proved, cites the paper as [Ma21] and
-states the theorem with the deduction above (problem page last edited 18 January
-2026). This is the `reviewed` evidence. The proof has the journal's refereeing
-and the curator's endorsement. No other review of it is recorded.
+accepted it on 1 November 2021 and published it on 19 November 2021. The
+erdosproblems.com curator, Thomas Bloom, labeled the problem proved, cites the
+paper as [Ma21] and states the theorem with the deduction above (problem page
+last edited 18 January 2026). This is the `reviewed` evidence. The proof has the
+journal's refereeing and the curator's endorsement. No other review of it is
+recorded.
 
-**Later reports of the same deduction.** The site's discussion thread of
-January 2026 records a web page by Mehmet Mars Seven presenting a deduction by
-ChatGPT 5.2-Pro of the answer from Theorem 14, relayed to the thread on 17
+**Later reports of the same deduction.** The erdosproblems.com discussion thread
+of January 2026 records a web page by Mehmet Mars Seven presenting a deduction
+by ChatGPT 5.2-Pro of the answer from Theorem 14, relayed to the thread on 17
 January 2026; on 18 January 2026 Terence Tao reported that Gemini Deepthink
 confirmed that deduction, and Tao, reading the paper, located the
 theorem as Theorem 3.6 of arXiv:1912.01883; Boris Alexeev noted that this is

@@ -39,37 +39,37 @@ updated: 2026-10-08T02:31:50Z
 independence ratio below 1/4*, arXiv:2606.28157, posted 26 June 2026, announced
 by Varga in the problem's thread on 29 June 2026 as answering the second part of
 the question in the negative, and submitted as a partial proof claim on the
-site's proof-claims tab of [[problems/discrete_geometry/E1070/_index|Problem
-1070]] on 29 July 2026; the tab records the result as obtained using GPT-5.5 and
-Codex, and its notes say that the authors developed the mathematical ideas and
-the proof themselves, with the systems used as a programming aid, which the
-notes call crucial to finding the description of the optimal face below. Their
-Theorem 1 states that there is a finite unit-distance graph $G$ in the plane, a
-finite set of points with an edge between every two at Euclidean distance one,
-with $\alpha(G)/|V(G)|<1/4$. Taking its $n=|V(G)|$ vertices as the point set,
-any $n/4$ or more of them contain two at distance one, so $f(n)<n/4$ for that
-$n$ and the particular question, whether $f(n)\ge n/4$ for every $n$, has answer
-no; disjoint copies of $G$ placed far apart extend this to every large $n$, as
-the Covers paragraph states. The authors work in the geometric fractional
-chromatic number framework of Matolcsi, Ruzsa, Varga and Zsámboki [MRVZ23]:
-adding two points to that paper's 27-vertex graph gives a 29-vertex
-unit-distance graph whose geometric fractional chromatic number exceeds $4$
-(their Lemma 1, $\chi_{gf}(G_{29})>4.0007$, certified by a rational dual
-solution of a linear program with $16\,860$ variables and $498\,168$
-constraints; the paper says that the certificate is not claimed to be optimal
-and that the exact value of $\chi_{gf}(G_{29})$ is not determined), and the two
-blow-up theorems of [MRVZ23] give finite unit-distance graphs with independence
-ratio arbitrarily close to $1/\chi_{gf}(G_{29})$, among them the graph of
-Theorem 1, which is shown to exist and not written down, its size being
-astronomical. The search for the two points rests on a description of every
-optimal geometric fractional coloring of the 27-vertex graph as a convex
-combination of $23$ extremal ones. The theorem contradicts Conjecture 1 of
-[MRVZ23], that the upper bound $f(n)\le(1/4+o(1))n$ is sharp, and the paper's
-corollaries give $\chi_f(\mathbb R^2)>4$ for the fractional chromatic number of
-the plane (Corollary 1), $\chi(\mathbb R^2)\ge5$ again (Corollary 2), and
-$m_1(\mathbb R^2)<1/4$ (Corollary 3), the last a new proof of a result of
-Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki, who proved $m_1\le0.247$. The
-paper's source card is
+erdosproblems.com proof-claims tab of
+[[problems/discrete_geometry/E1070/_index|Problem 1070]] on 29 July 2026; the
+tab records the result as obtained using GPT-5.5 and Codex, and its notes say
+that the authors developed the mathematical ideas and the proof themselves, with
+the systems used as a programming aid, which the notes call crucial to finding
+the description of the optimal face below. Their Theorem 1 states that there is
+a finite unit-distance graph $G$ in the plane, a finite set of points with an
+edge between every two at Euclidean distance one, with $\alpha(G)/|V(G)|<1/4$.
+Taking its $n=|V(G)|$ vertices as the point set, any $n/4$ or more of them
+contain two at distance one, so $f(n)<n/4$ for that $n$ and the particular
+question, whether $f(n)\ge n/4$ for every $n$, has answer no; disjoint copies of
+$G$ placed far apart extend this to every large $n$, as the Covers paragraph
+states. The authors work in the geometric fractional chromatic number framework
+of Matolcsi, Ruzsa, Varga and Zsámboki [MRVZ23]: adding two points to that
+paper's 27-vertex graph gives a 29-vertex unit-distance graph whose geometric
+fractional chromatic number exceeds $4$ (their Lemma 1,
+$\chi_{gf}(G_{29})>4.0007$, certified by a rational dual solution of a linear
+program with $16\,860$ variables and $498\,168$ constraints; the paper says that
+the certificate is not claimed to be optimal and that the exact value of
+$\chi_{gf}(G_{29})$ is not determined), and the two blow-up theorems of [MRVZ23]
+give finite unit-distance graphs with independence ratio arbitrarily close to
+$1/\chi_{gf}(G_{29})$, among them the graph of Theorem 1, which is shown to
+exist and not written down, its size being astronomical. The search for the two
+points rests on a description of every optimal geometric fractional coloring of
+the 27-vertex graph as a convex combination of $23$ extremal ones. The theorem
+contradicts Conjecture 1 of [MRVZ23], that the upper bound $f(n)\le(1/4+o(1))n$
+is sharp, and the paper's corollaries give $\chi_f(\mathbb R^2)>4$ for the
+fractional chromatic number of the plane (Corollary 1), $\chi(\mathbb R^2)\ge5$
+again (Corollary 2), and $m_1(\mathbb R^2)<1/4$ (Corollary 3), the last a new
+proof of a result of Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki, who proved
+$m_1\le0.247$. The paper's source card is
 [[../library/discrete_geometry/ducz_2026_unit_distance_graph_plane_independence_ratio/_index|ducz_2026_unit_distance_graph_plane_independence_ratio]].
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Ákos Dúcz
@@ -122,9 +122,9 @@ are the claimants' result formalized, so they are links on this page and not
 claims of their own. The corpus has built neither, so no `formalized` evidence
 is listed.
 
-**Standing.** The preprint is unrefereed; the site's label was unchanged, its
-page was last edited on 22 January 2026 and the tab showed no comment on the
-entry; the site's thanks to Varga on the problem page is
+**Standing.** The preprint is unrefereed; the erdosproblems.com label was
+unchanged, its page was last edited on 22 January 2026 and the tab showed no
+comment on the entry; erdosproblems.com's thanks to Varga on the problem page is
 not an acceptance of the result. No outside review is recorded, and the
 certificate and the blow-ups have not been independently checked. The claim
 is therefore claimed.

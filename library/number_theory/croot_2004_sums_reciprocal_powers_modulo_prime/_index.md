@@ -29,7 +29,7 @@ Ernie Croot, *Sums of the form $1/x_1^k+\cdots+1/x_n^k$ modulo a prime*,
 Integers **4** (2004), Paper A20; arXiv:math/0403360 (v1 22 March 2004,
 under the title "Reciprocal power sums modulo a prime"; v2 21 October 2004,
 with the comment "Light Corrections. The parameter h in the definition of T
-had to be a lot larger", the arXiv listing read 2026-09-18). The site's
+had to be a lot larger", the arXiv listing read 2026-09-18). erdosproblems.com's
 Problem 1180 commentary names the author without a key.
 
 The copy read for this card is a
@@ -125,9 +125,10 @@ enlarging $N$ (p. 2); that step needs $N$ read as a bound on the number of
 summands, since for $p^\epsilon<2$, and for $p=2$ at every $\epsilon\le1$,
 the only admissible $x_i$ is $1$, and exactly $N$ of them give the single
 residue $N\bmod p$. The paper does not state the $(\log p)^{3+o(1)}$ bound
-that the site's Problem 1180 commentary attributes to Croot; Glibichuk's
-introduction attributes that bound to Croot's 1999 Mathematika paper, filed
-as [[unit_fractions/crootiii_1999_questions_erdos_graham_about_egyptian_fractions/_index|crootiii_1999_questions_erdos_graham_about_egyptian_fractions]].
+that erdosproblems.com's Problem 1180 commentary attributes to Croot;
+Glibichuk's introduction attributes that bound to Croot's 1999 Mathematika
+paper, filed as
+[[unit_fractions/crootiii_1999_questions_erdos_graham_about_egyptian_fractions/_index|crootiii_1999_questions_erdos_graham_about_egyptian_fractions]].
 
 **Bears on.** [[../wiki/problems/number_theory/E1180/_index|#1180]] (Theorem 2 with $k=1$,
 p. 2: at most $C_\epsilon=N(\epsilon,1)$ summands suffice for every prime

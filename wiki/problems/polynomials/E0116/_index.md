@@ -32,16 +32,16 @@ $$
 
 (or perhaps even $>(\log n)^{-O(1)}$)?
 
-**Status.** The site labeled the problem PROVED (LEAN). The Lean suffix refers
-to a formal proof by others, recorded on the Pommerenke claim page. This corpus
-has not built or audited that proof. The site credits the answer yes to
-Pommerenke [Po61]. He proves that the set contains a disk of radius
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). The Lean suffix
+refers to a formal proof by others, recorded on the Pommerenke claim page. This
+corpus has not built or audited that proof. erdosproblems.com credits the answer
+yes to Pommerenke [Po61]. He proves that the set contains a disk of radius
 $(2e)^{-1}n^{-2}$, so its area is at least a constant times $n^{-4}$. His paper
 is refereed in the Michigan Mathematical Journal, and its claim page is
 [[problems/polynomials/E0116/claims/1961_01_01_pommerenke|Pommerenke 1961]]. The
 parenthetical stronger bound asks for an area of at least $(\log n)^{-O(1)}$.
 Krishnapur, Lundberg and Ramachandran [KLR25] prove it with exponent $1$, in a
-preprint the site credits. Its claim page is
+preprint erdosproblems.com credits. Its claim page is
 [[problems/polynomials/E0116/claims/2025_03_24_krishnapur_lundberg_ramachandran|Krishnapur, Lundberg and Ramachandran 2025]].
 See Current assessment for the evidence.
 
@@ -75,40 +75,41 @@ pinned commit; both are unbuilt and unaudited by this corpus.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 2025-10-24), asks whether
-the area of $\{z:\lvert p(z)\rvert<1\}$ is at least $n^{-O(1)}$ for every monic
-$p$ of degree $n$ with zeros in the closed unit disk, and in parentheses whether
-it is even at least $(\log n)^{-O(1)}$. The conjecture is from Erdős, Herzog and
-Piranian [EHP58], whose Theorem 4 bounds the area above in terms of the part
-inside the unit disk and whose corollary shows the infimum is $0$ when the zeros
-lie on the unit circle; Pólya [Po28] gives the upper bound $\pi$, attained only
-when all zeros coincide. The main question is answered yes by Pommerenke [Po61],
-Theorem 4: the set contains a disk of radius $(2e)^{-1}n^{-2}$, so the area is
-at least $\pi(2e)^{-2}n^{-4}$; that paper is refereed and the site credits it,
-and the claim page carries the acceptance. The parenthetical form is proved by
-Krishnapur, Lundberg and Ramachandran [KLR25]: the least area is between
-$c/\log n$ and $C/\log\log n$ for $n\ge3$, the upper bound improving Wagner's
-construction [Wa88] with area $\ll_\varepsilon(\log\log n)^{-1/2+\varepsilon}$;
-the site credits the preprint, which the corpus accepts as the curator's review,
-while no journal version is recorded, so its page carries no refereed evidence.
-A preprint of Pendyala, *Sharp order in Erdős's minimum-area problem for
-polynomial lemniscates* (arXiv:2606.17097, 13 June 2026, unrefereed), claims the
-matching upper bound in its Theorem 1.1: the least area is at most $C/\log n$
-for every $n\ge3$, even when all zeros lie on the unit circle. With the lower
-bound of [KLR25], which it credits, the order would be $1/\log n$. The new
-result bounds the area from above and settles no case of the question, so it has
-no claim page. The 1958 question of which polynomials attain the minimum remains
-open. The Lean proof the site's marker refers to, by others and by a different
-argument, is recorded on the Pommerenke claim page. Proof coverage: none; the
-Lean development is unbuilt and unaudited by this corpus, and neither paper's
-proof has been verified by it.
+The question, as erdosproblems.com states it (page last edited 2025-10-24), asks
+whether the area of $\{z:\lvert p(z)\rvert<1\}$ is at least $n^{-O(1)}$ for
+every monic $p$ of degree $n$ with zeros in the closed unit disk, and in
+parentheses whether it is even at least $(\log n)^{-O(1)}$. The conjecture is
+from Erdős, Herzog and Piranian [EHP58], whose Theorem 4 bounds the area above
+in terms of the part inside the unit disk and whose corollary shows the infimum
+is $0$ when the zeros lie on the unit circle; Pólya [Po28] gives the upper bound
+$\pi$, attained only when all zeros coincide. The main question is answered yes
+by Pommerenke [Po61], Theorem 4: the set contains a disk of radius
+$(2e)^{-1}n^{-2}$, so the area is at least $\pi(2e)^{-2}n^{-4}$; that paper is
+refereed and erdosproblems.com credits it, and the claim page carries the
+acceptance. The parenthetical form is proved by Krishnapur, Lundberg and
+Ramachandran [KLR25]: the least area is between $c/\log n$ and $C/\log\log n$
+for $n\ge3$, the upper bound improving Wagner's construction [Wa88] with area
+$\ll_\varepsilon(\log\log n)^{-1/2+\varepsilon}$; erdosproblems.com credits the
+preprint, which the corpus accepts as the curator's review, while no journal
+version is recorded, so its page carries no refereed evidence. A preprint of
+Pendyala, *Sharp order in Erdős's minimum-area problem for polynomial
+lemniscates* (arXiv:2606.17097, 13 June 2026, unrefereed), claims the matching
+upper bound in its Theorem 1.1: the least area is at most $C/\log n$ for every
+$n\ge3$, even when all zeros lie on the unit circle. With the lower bound of
+[KLR25], which it credits, the order would be $1/\log n$. The new result bounds
+the area from above and settles no case of the question, so it has no claim
+page. The 1958 question of which polynomials attain the minimum remains open.
+The Lean proof the erdosproblems.com marker refers to, by others and by a
+different argument, is recorded on the Pommerenke claim page. Proof coverage:
+none; the Lean development is unbuilt and unaudited by this corpus, and neither
+paper's proof has been verified by it.
 
-Search scope: the site's problem page as exported (last edited 2025-10-24), the
-community database entry (proved, Lean marker, entry last updated 2026-08-24),
-the site's discussion thread (five comments, the last of 17 June 2026), the
-formal-conjectures file and the linked `lean-proofs` file at its pinned commit,
-the arXiv record of 2503.18270 and a Crossref search for a journal version, and
-the library cards
+Search scope: the erdosproblems.com problem page as exported (last edited
+2025-10-24), the community database entry (proved, Lean marker, entry last
+updated 2026-08-24), the erdosproblems.com discussion thread (five comments, the
+last of 17 June 2026), the formal-conjectures file and the linked `lean-proofs`
+file at its pinned commit, the arXiv record of 2503.18270 and a Crossref search
+for a journal version, and the library cards
 [[../library/analysis/pommerenke_1961_metric_properties_complex_polynomials/_index|Pommerenke
 1961]],
 [[../library/polynomials/krishnapur_2025_area_polynomial_lemniscates/_index|Krishnapur,

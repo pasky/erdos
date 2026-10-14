@@ -65,7 +65,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E0107/_index|Problem 107]]: the
-  site's statement is Szekeres's conjecture as the paper states it, with
-  the paper's $f(k)$ the site's $f(n)$. Display (1) records the lower half
-  of the conjectured equality as proved, and the Makai–Turán value
+  erdosproblems.com statement is Szekeres's conjecture as the paper states it,
+  with the paper's $f(k)$ erdosproblems.com's $f(n)$. Display (1) records the
+  lower half of the conjectured equality as proved, and the Makai–Turán value
   $f(5)=9$ is the conjectured value at $k=5$.

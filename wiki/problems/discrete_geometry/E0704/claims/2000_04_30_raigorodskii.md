@@ -67,6 +67,7 @@ which remains open.
 
 **Acceptance.** The note is refereed. It appeared in the journal Uspekhi
 Matematicheskikh Nauk, volume 55 (2000), with an English translation in Russian
-Mathematical Surveys. The site labeled the problem OPEN. Its remark (page last
-edited 10 April 2026) credits Raigorodskii [Ra00] with the larger base. A remark
-on an open problem is not an acceptance, so no `reviewed` evidence is listed.
+Mathematical Surveys. Bloom's catalog labeled the problem OPEN. Its remark (page
+last edited 10 April 2026) credits Raigorodskii [Ra00] with the larger base. A
+remark on an open problem is not an acceptance, so no `reviewed` evidence is
+listed.

@@ -30,7 +30,7 @@ $\sum_{i\in S}\delta_i/i=0$: the positive integers have property $P_1$. This
 is the case $A=\mathbb N$, the progression $\{1,2,3,\ldots\}$, of the first
 question of [[problems/unit_fractions/E0318/_index|Problem 318]]. The paper is
 not held in the library, and the statement follows printed p. 42 of the 1980
-monograph of Erdős and Graham, which the site's commentary repeats.
+monograph of Erdős and Graham, which the erdosproblems.com commentary repeats.
 
 **Covers.** The one progression $A=\mathbb N$. It does not settle the
 arithmetic-progression question in general, the positive-density question or
@@ -41,11 +41,11 @@ the squares question.
 **Source and acceptance.** P. Erdős and E. G. Straus, Solution to Problem
 387, Nieuw Arch. Wisk. (3) 23 (1975), 183: a solution published in a journal,
 which is the `refereed` evidence; the volume has no DOI and no online copy is
-known, so the paper is cited here and only the site's page is linked. The
-site's curator credits the result in the problem's commentary, but the result
-settles only one progression and not the part, so that credit is not listed
-as `reviewed`. The result is contained in Sattler's 1982 theorem that every
-infinite arithmetic progression has property $P_1$,
+known, so the paper is cited here and only the erdosproblems.com page is linked.
+The erdosproblems.com curator credits the result in the problem's commentary,
+but the result settles only one progression and not the part, so that credit is
+not listed as `reviewed`. The result is contained in Sattler's 1982 theorem that
+every infinite arithmetic progression has property $P_1$,
 [[problems/unit_fractions/E0318/claims/1982_01_01_sattler|Sattler's theorem on arithmetic progressions]].
 
 **Dating.** The page is dated by the publication year; the volume gives no

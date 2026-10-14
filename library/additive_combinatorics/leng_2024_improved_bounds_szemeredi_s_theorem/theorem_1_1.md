@@ -86,5 +86,5 @@ inequality.
 - [[../wiki/problems/additive_combinatorics/E0179/_index|Problem 179]]: the
   paper does not treat $F_k(N,\ell)$. For $\ell\ge5$ its bound on $r_\ell(N)$
   can be inserted into Fox and Pohoata's upper bounds for $F_k(N,\ell)$ in
-  terms of $r_\ell(N)$; the site's commentary records the result as
+  terms of $r_\ell(N)$; the erdosproblems.com commentary records the result as
   $F_k(N,\ell)\le N^2/\exp((\log\log N)^{c_\ell})$ for some $c_\ell>0$.

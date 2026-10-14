@@ -158,5 +158,5 @@ Lemma 3 the constant $c_k$ and the range of the product are not made
 explicit; Lemma 4 uses only the "in particular" bound.
 
 **Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]] (context: this is the
-$k\ge2$ half of the theorem the site's remark attributes wholly to Erdős
-1958; it says nothing about $\sum p_n/2^n$).
+$k\ge2$ half of the theorem the erdosproblems.com remark attributes wholly to
+Erdős 1958; it says nothing about $\sum p_n/2^n$).

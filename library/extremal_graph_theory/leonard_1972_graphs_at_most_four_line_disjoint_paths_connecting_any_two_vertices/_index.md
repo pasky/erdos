@@ -169,7 +169,7 @@ independently reviewed.
   $l_r(n)$, and leaves whether it is also an upper bound as "an open
   question". An arithmetic note made here: $\left[\frac{r(n-1)+2}2\right]
   =\left\lfloor\frac r2(n-1)\right\rfloor+1$, the value the problem page
-  records for Mader's 1973 theorem in the site's notation
+  records for Mader's 1973 theorem in the erdosproblems.com notation
   $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$; the abstract's
   $\left[\frac{5n-3}2\right]$ is this formula at $r=5$, equal to $5n'-2$
   at $n=2n'$ and $5n'+1$ at $n=2n'+1$.
@@ -187,20 +187,20 @@ report of the $k_5$ counterexample is a forward citation of the author's
 own paper [6], not a text of that paper. Nothing here is independently
 reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key
-Le72. P. 243 (page image) defines a line $r$-way as $r$ paths joining two
-points "no pair of which have lines in common, although they may have
-points in common", the edge-disjoint reading of the problem's "disjoint
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the
+erdosproblems.com key Le72. P. 243 (page image) defines a line $r$-way as $r$
+paths joining two points "no pair of which have lines in common, although they
+may have points in common", the edge-disjoint reading of the problem's "disjoint
 paths", against the point $r$-way of the vertex-disjoint reading; p. 244
 defines $l_r(n)$ and states "for these values of $r$ we have
-$l_r(n)=k_r(n)$" for $r=2,3,4$, the site's "$\ell_m(n)=k_m(n)$ for
+$l_r(n)=k_r(n)$" for $r=2,3,4$, erdosproblems.com's "$\ell_m(n)=k_m(n)$ for
 $2\le m\le4$", so the two readings of the problem agree for $m\le4$; the
 Theorem, parts (1) and (4) (pp. 246--247), "Any $G[2n,5n-2]$ contains a
 5-way" and "Any $G[2n+1,5n+1]$ contains a 5-way", with the $J$-graphs of
 Figures 2 and 3 (pp. 245--246, "$l_5(2n)\ge5n-2$, $l_5(2n+1)\ge5n+1$, for
 any $n\ge3$"), give $l_5(2n)=5n-2$ and $l_5(2n+1)=5n+1$ (p. 250) for
-$n\ge3$, the range of the lower bounds, the site's values of $\ell_5$. At
-the problem's parameters, $1+4n'$ vertices and $1+10n'$ edges,
+$n\ge3$, the range of the lower bounds, erdosproblems.com's values of $\ell_5$.
+At the problem's parameters, $1+4n'$ vertices and $1+10n'$ edges,
 $l_5(1+4n')=l_5(2\cdot2n'+1)=10n'+1=1+n'\binom52$ (an arithmetic check
 made here; the paper's range covers $n'\ge2$, and at $n'=1$ the value
 $l_5(5)=11$ holds because $K_5$ has no 5-way and no graph on $5$ points has

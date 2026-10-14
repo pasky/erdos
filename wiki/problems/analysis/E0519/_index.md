@@ -28,13 +28,14 @@ $$
 \max_{1\leq k\leq n}\left\lvert \sum_{i}z_i^k\right\rvert>c?
 $$
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
-edited 1 February 2026) and credits Atkinson [At61b] with the solution, $c=1/6$.
-It also names Biró's improvements to $c=1/2$ [Bi94] and to an absolute constant
-above $1/2$ [Bi00]. The Lean qualifier refers to formalizations of Atkinson's
-proof that have not been built here (see Formalization). Three accepted claim
-pages record three full proofs, each on its refereed venue and the site's
-credit: [[problems/analysis/E0519/claims/1961_01_01_atkinson|Atkinson 1961]],
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN)
+(page last edited 1 February 2026) and credits Atkinson [At61b] with the
+solution, $c=1/6$. It also names Biró's improvements to $c=1/2$ [Bi94] and to an
+absolute constant above $1/2$ [Bi00]. The Lean qualifier refers to
+formalizations of Atkinson's proof that have not been built here (see
+Formalization). Three accepted claim pages record three full proofs, each on its
+refereed venue and the erdosproblems.com credit:
+[[problems/analysis/E0519/claims/1961_01_01_atkinson|Atkinson 1961]],
 [[problems/analysis/E0519/claims/1994_09_01_biro|Biró 1994]] and
 [[problems/analysis/E0519/claims/2000_09_25_biro|Biró 2000]]. The frontmatter
 standing derives from them.
@@ -71,16 +72,16 @@ carries the links and the standing rests on the papers.
 
 ## Current assessment
 
-The question, in the site's formulation of 2026-09-04, is Turán's: among
-the first $n$ power sums of complex numbers $z_1,\ldots,z_n$ with $z_1=1$,
+The question, in the erdosproblems.com formulation of 2026-09-04, is Turán's:
+among the first $n$ power sums of complex numbers $z_1,\ldots,z_n$ with $z_1=1$,
 is the largest modulus bounded below by a positive constant independent of
 $n$? Turán's own bound was of order $1/n$. The answer is yes. Three
 refereed proofs have claim pages: Atkinson's 1961 theorem gives $c=1/6$ and
-is the solution the site credits, Biró's 1994 Theorem 1 gives the strict
-bound $1/2$, and Biró's 2000 theorem gives an effectively computable
+is the solution erdosproblems.com credits, Biró's 1994 Theorem 1 gives the
+strict bound $1/2$, and Biró's 2000 theorem gives an effectively computable
 absolute constant above $1/2$ without computing it. Each is accepted here
-on its refereed publication and the site's credit, on the claim pages named
-in the Status sentence. Between Atkinson's and Biró's papers lie two
+on its refereed publication and the erdosproblems.com credit, on the claim pages
+named in the Status sentence. Between Atkinson's and Biró's papers lie two
 further papers of Atkinson, which the introduction of [Bi94] (p. 209)
 records: the first proved $R_n>1/3$, and the second, *Some further
 estimates concerning sums of powers of complex numbers*, Acta Math. Acad.
@@ -99,10 +100,10 @@ for all large $n$ ($0.69368$ by Harcos's computation) and bound the limit
 superior of the optimal constants $R_n$, so none of the lower bounds is
 presented as sharp. The Lean formalizations named under
 Formalization have not been built or audited here. The status search
-covered the site, its forum thread and the community database; on 2026-10-07
-the thread's one formal result was the autoformalization of Atkinson's proof,
-recorded on his claim page, and none of these sources recorded another claim of
-the result.
+covered erdosproblems.com, its forum thread and the community database; on
+2026-10-07 the thread's one formal result was the autoformalization of
+Atkinson's proof, recorded on his claim page, and none of these sources recorded
+another claim of the result.
 
 ## Progress
 

@@ -66,9 +66,9 @@ Erdős's log^2 x bound must use properties of the primes besides their growth
 (p. 2).
 
 The page of [[../wiki/problems/integer_sequences/E0329/_index|Problem 329]]
-lists this paper under the key [Ko96] because the site's reference record
-resolves that key to it; the B_2[2] construction that page credits to [Ko96] is
-in Kolountzakis's other 1996 paper, on B_h[g] sequences
+lists this paper under the key [Ko96] because the erdosproblems.com reference
+record resolves that key to it; the B_2[2] construction that page credits to
+[Ko96] is in Kolountzakis's other 1996 paper, on B_h[g] sequences
 ([[additive_bases/kolountzakis_1996_density_b_h_g_sequences_minimum/_index|its card]]),
 and no result here concerns Sidon sets.
 

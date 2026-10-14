@@ -77,7 +77,7 @@ The Chinese remainder theorem only.
 
 - [[../wiki/problems/integer_sequences/E0687/_index|Problem 687]]: the transfer from
   $Y(x)$ to prime gaps and the identity with Jacobsthal's function that the
-  site's commentary alludes to ("associated with Jacobsthal").
+  erdosproblems.com commentary alludes to ("associated with Jacobsthal").
 - [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]]: (1.3) is the identity
   through which the paper's bound (1.2) becomes a lower bound for the
   Jacobsthal function of a number with $\pi(x)$ prime factors.

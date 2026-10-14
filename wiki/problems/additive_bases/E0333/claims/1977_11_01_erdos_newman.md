@@ -54,18 +54,19 @@ most $N_k$, so $\lvert B\cap\{0,\ldots,N_k\}\rvert\ge m_{A_k}>N_k^{1/2}/2$
 and $\lvert B\cap\{1,\ldots,N_k\}\rvert>N_k^{1/2}/2-1$ for every $k$, and
 the counting function of $B$ is not $o(N^{1/2})$. The forum thread's comment
 of 2025-12-25 sketches this deduction in one sentence, with pieces of
-$n=N^{0.6}$ elements glued along dyadic $N$, and the site's commentary says
-only that Theorem 2 implies a negative answer; the fuller argument above
-expands that sketch, has no independent review and rests on the statement of
-Theorem 2 as printed.
+$n=N^{0.6}$ elements glued along dyadic $N$, and the erdosproblems.com
+commentary says only that Theorem 2 implies a negative answer; the fuller
+argument above expands that sketch, has no independent review and rests on the
+statement of Theorem 2 as printed.
 
 **Acceptance.** Refereed: Theorem 2 is a journal theorem (J. Number Theory).
 Reviewed: the deduction of the negative answer from it was pointed out in the
-problem's forum thread on 2025-12-25. The site's curator, T. F. Bloom, then
-relabeled the problem disproved (site page last edited 2025-12-27). The
-commentary records that the theorem settles the question negatively, and that
-Erdős and Graham seem not to have noticed this. The curator took no part in the
-claim. This is the site's acceptance and the only review listed.
+problem's forum thread on 2025-12-25. The erdosproblems.com curator, T. F.
+Bloom, then relabeled the problem disproved (erdosproblems.com page last edited
+2025-12-27). The commentary records that the theorem settles the question
+negatively, and that Erdős and Graham seem not to have noticed this. The curator
+took no part in the claim. This is erdosproblems.com's acceptance and the only
+review listed.
 
 The preprint of Feng, Trinh, Bingham and coauthors (arXiv:2601.22401, January
 2026) is the identifying team's own account, not an independent one. Its Remark
@@ -78,9 +79,9 @@ not compiled.
 
 **Context.** Erdős and Newman proved in the same paper (p. 423) that the first
 $n$ squares have a basis of at most $n/(\log n)^{M}$ elements for every fixed
-$M$; the site's remark credits them with the infinite positive case, a basis
-of the squares with counting function $o(N^{1/2})$, which is the case the
-problem generalizes. A separate direct construction with a Lean 4 proof is
+$M$; the erdosproblems.com remark credits them with the infinite positive case,
+a basis of the squares with counting function $o(N^{1/2})$, which is the case
+the problem generalizes. A separate direct construction with a Lean 4 proof is
 recorded at
 [[problems/additive_bases/E0333/claims/2025_12_25_barreto|Barreto 2025]].
 The page's date is the paper's issue month, November 1977, taken from the

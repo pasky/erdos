@@ -185,19 +185,20 @@ followed, and the proof of its lower half and the greedy example (pp. 79--82)
 read for structure only. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0787/_index|#787]]: the Theorem
-(printed p. 77, PDF p. 1), whose upper half is the upper bound the site
+(printed p. 77, PDF p. 1), whose upper half is the upper bound erdosproblems.com
 attributes to the paper: "$\frac2{\log3}\log n-1<l(n)\ll e^{c\sqrt{\log n}}$ with
 arbitrary $c>\sqrt{8\log2}$", where $l(n)=\min\{\lambda(A):A\subset\mathbb
 N,\ |A|=n\}$ and $\lambda(A)$ is the largest size of $S\subset A$ with
 $s+s'\notin A$ for all $s\ne s'$ in $S$, the problem's condition on $B$
-inside $A$. The site's $g(n)$ ranges over real sets: since an $n$-element
-set of positive integers is such a set, $g(n)\le l(n)\ll e^{c\sqrt{\log n}}$
-with no reduction step, which the site displays without the constant, as
-$g(n)\ll\exp(\sqrt{\log n})$; read as the site words it, with $c=1$, that
+inside $A$. erdosproblems.com's $g(n)$ ranges over real sets: since an
+$n$-element set of positive integers is such a set,
+$g(n)\le l(n)\ll e^{c\sqrt{\log n}}$ with no reduction step, which
+erdosproblems.com displays without the constant, as
+$g(n)\ll\exp(\sqrt{\log n})$; read as Bloom's catalog words it, with $c=1$, that
 display claims more than the Theorem, which is proved only for
 $c>\sqrt{8\log2}\approx2.35$; the lower half, $l(n)>\frac2{\log3}\log n-1$,
 transfers to $g(n)$ through Choi's reduction of the real problem to the
-integers, which the site records and the paper does not print. The
+integers, which erdosproblems.com records and the paper does not print. The
 construction is a union of dilated lattice balls
 $\bigcup_{i<r}2^i(B_{r-i}+y)\subset\mathbb Z^d$ with
 $d\approx\sqrt{(2/\log2)\log n}$, projected to the positive integers and

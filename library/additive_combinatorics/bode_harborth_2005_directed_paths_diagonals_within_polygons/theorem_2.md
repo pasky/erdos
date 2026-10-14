@@ -35,9 +35,9 @@ $x\in\mathbb Z_n\setminus\{0\}$ with $2x\ne0$, the set
 $\mathbb Z_n\setminus\{0,x\}$ has an ordering whose partial sums
 $s_0=0,s_1,\ldots,s_{n-2}$ are pairwise distinct, that is, whose proper
 partial sums are distinct and nonzero. For a prime $p$ this is Alspach's
-conjecture for every subset of size $p-2$, the size $p-2$ that the site's
-near-full range $p-3\le t\le p-1$ for Problem 475 takes from this paper, as
-Hicks, Ollis and Schmitt report on their p. 2; their Theorem 4.3,
+conjecture for every subset of size $p-2$, the size $p-2$ that
+erdosproblems.com's near-full range $p-3\le t\le p-1$ for Problem 475 takes from
+this paper, as Hicks, Ollis and Schmitt report on their p. 2; their Theorem 4.3,
 attributed to this paper ("Let $n$ be odd and take
 $x\in\mathbb Z_n\setminus\{0\}$. Then the elements of
 $\mathbb Z_n\setminus\{0,x\}$ can be ordered so that the partial sums are
@@ -51,9 +51,9 @@ $n-1$ vertices are distinct and it returns to its start. Its partial sums
 $s_1,\ldots,s_{n-1}$ are therefore pairwise distinct, with
 $s_{n-1}=\binom n2\equiv0$. For $n=p$ an odd prime this is an ordering of
 the whole of $\mathbb Z_p\setminus\{0\}$ with distinct partial sums, a
-valid ordering for $t=p-1$ in the site's sense for Problem 475, the case
-the site and Erdős (1973) attribute to Graham and that no held source
-states with a proof. The paper does not remark on it.
+valid ordering for $t=p-1$ in erdosproblems.com's sense for Problem 475, the
+case erdosproblems.com and Erdős (1973) attribute to Graham and that no held
+source states with a proof. The paper does not remark on it.
 
 **Source.** J.-P. Bode and H. Harborth, Directed paths of diagonals within
 polygons, Discrete Math. 299 (2005), 3--10, doi:10.1016/j.disc.2005.05.006;
@@ -135,16 +135,17 @@ inputs to the proof.
 
 - [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: Alspach's
   conjecture for every subset of $\mathbb Z_p\setminus\{0\}$ of size $p-2$,
-  the size the site's range $p-3\le t\le p-1$ takes from this paper; with
+  the size erdosproblems.com's range $p-3\le t\le p-1$ takes from this paper;
+  with
   [[additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/theorem_4_6|Theorem 4.6]]
   of Hicks, Ollis and Schmitt (size $p-3$; their Theorem 4.3, attributed
   to this paper, is the odd-$n$ half of Theorem 2) and the implication of
-  Archdeacon, Dinitz, Mattern and Stinson (not held) it gives the site's
-  statement for those sizes, except for the $(p-3)$-sets of sum $0$. Those
-  sets are outside Alspach's conjecture (Hicks, Ollis and Schmitt set them
-  aside, their p. 16), and an ordering of one in the site's sense ends at
-  $0$, so its first $p-4$ terms order a $(p-4)$-set with distinct nonzero
-  partial sums, a size neither paper covers for every $p$. The reading above
-  records that the odd-$n$ cycle is itself a valid ordering of
-  $\mathbb Z_p\setminus\{0\}$ in the site's sense, Graham's case $t=p-1$.
-  The paper does not settle the problem.
+  Archdeacon, Dinitz, Mattern and Stinson (not held) it gives the
+  erdosproblems.com statement for those sizes, except for the $(p-3)$-sets of
+  sum $0$. Those sets are outside Alspach's conjecture (Hicks, Ollis and Schmitt
+  set them aside, their p. 16), and an ordering of one in erdosproblems.com's
+  sense ends at $0$, so its first $p-4$ terms order a $(p-4)$-set with distinct
+  nonzero partial sums, a size neither paper covers for every $p$. The reading
+  above records that the odd-$n$ cycle is itself a valid ordering of
+  $\mathbb Z_p\setminus\{0\}$ in erdosproblems.com's sense, Graham's case
+  $t=p-1$. The paper does not settle the problem.

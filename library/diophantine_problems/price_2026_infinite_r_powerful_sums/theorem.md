@@ -28,8 +28,8 @@ $$
 Coprimality is joint: the gcd of all summands is $1$, and the summands need
 not be pairwise coprime. The formal-conjectures declaration
 `erdos_939.variants.infinite_of_six_le` (`∀ r ≥ 6, (Erdos939Sums r).Infinite`,
-tagged research solved with proof `sorry`, catalog main as of commit
-`6fbb54f2`, 2026-09-18) states the same fact for the catalog's `Finset`
+tagged research solved with proof `sorry`, catalog main on
+2026-09-18) states the same fact for formal-conjectures' `Finset`
 formulation with positive summands; the decoded playground theorem
 `infinite_rpowerful_sums` states it with an injective summand tuple, and it
 is kernel-checked as part of the

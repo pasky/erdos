@@ -4,7 +4,7 @@ title: "Theorem 2 (p. 314): f(n,t,p) > c_1 (n/t) log A with A = (log t)/p"
 desc: |
   The 1981 lower bound for the independence number of K_p-free graphs of
   average valency t, which beats Turán's bound whenever p = o(log t); the
-  bound the site records for Problem 802.
+  bound erdosproblems.com records for Problem 802.
 created: 2026-09-18T15:55:00Z
 updated: 2026-10-08T15:07:22Z
 ---
@@ -36,7 +36,7 @@ and that the authors cannot decide whether (3) holds even for $p=4$.
 
 Here $\log x=\max\{1,\ln x\}$ (p. 313), so $\log A\ge1$ and the bound never
 falls below $c_1n/t$. For fixed $p$ the bound is of order $(n/t)\log\log t$,
-the form in which the site and Alon's 1996 paper quote it.
+the form in which erdosproblems.com and Alon's 1996 paper quote it.
 
 **Source.** M. Ajtai, P. Erdős, J. Komlós and E. Szemerédi, *On Turán's
 theorem for sparse graphs*, Combinatorica 1 (1981), no. 4, 313--317; printed
@@ -78,5 +78,5 @@ and Lemma$^*$ of Section 3 (pp. 315--316).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0802/_index|Problem 802]]: the bound
-  $\gg_r\frac{\log\log t}tn$ the site attributes to the paper, and the
+  $\gg_r\frac{\log\log t}tn$ erdosproblems.com attributes to the paper, and the
   paper's own record that the conjectured $\log t$ is undecided at $p=4$.

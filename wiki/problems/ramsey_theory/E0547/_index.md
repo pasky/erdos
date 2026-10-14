@@ -4,7 +4,7 @@ title: Problem 547
 desc: |
   Asks whether every tree $T$ on $n\ge2$ vertices has $R(T)\le2n-2$; proved in
   2026, on the evidence of a third party's Lean proof that was built here. The
-  site's wording also covers the one-vertex tree, where it fails.
+  erdosproblems.com wording also covers the one-vertex tree, where it fails.
 tags:
 - Graph theory
 - Ramsey theory
@@ -35,12 +35,12 @@ R(T) \leq 2n-2.
 $$
 
 **Notes.** Burr and Erdős ([BuEr76], p. 257) print the conjecture with no range
-on $n$, and the site's wording keeps $n$ free. Read as the site words it, it
-includes the one-vertex tree $K_1$, where it is false: the host $K_{2n-2}$ is
-$K_0$, which has no vertex and so contains no copy of $K_1$, and
-$R(K_1)=1>0=2n-2$. Hua Xu noted this in the site's discussion on 1 May 2026, and
-two Lean developments in Boris Alexeev's repository, both of 26 August 2026,
-prove the same failure (`Erdos547.not_erdos_547` in
+on $n$, and the erdosproblems.com wording keeps $n$ free. Read as Bloom's
+catalog words it, it includes the one-vertex tree $K_1$, where it is false: the
+host $K_{2n-2}$ is $K_0$, which has no vertex and so contains no copy of $K_1$,
+and $R(K_1)=1>0=2n-2$. Hua Xu noted this in the erdosproblems.com discussion on
+1 May 2026, and two Lean developments in Boris Alexeev's repository, both of 26
+August 2026, prove the same failure (`Erdos547.not_erdos_547` in
 [Erdos547.lean](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos547.lean)
 and `Erdos547b.not_literalErdos547` in
 [Erdos547b.lean](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos547b.lean)).
@@ -48,42 +48,42 @@ It is the only failing instance: every tree on two, three or four vertices is a
 path or a star, Theorem 1 of [GeGy67] gives $R(P_n)=n-1+\lfloor n/2\rfloor$,
 that is $2$, $3$ and $5$, and
 [[../library/extremal_graph_theory/adamczewski_2026_erdos548/star_sharpness|the two-color star value]]
-$R(K_{1,3})=6$ completes $n=4$, each at most $2n-2$. The site reads the question
-as the bound for every $n$: its label DECIDABLE ("Resolved up to a finite
-check") records that the large-$n$ bound is proved and a finite range of small
-$n$ remains, the reading its editor gave in the discussion on 11 September 2025
-when changing the label from solved to decidable because "the question was for
-all $n$"; the commentary credits the large-$n$ bound to the Erdős--Sós
-implication and to Zhao [Zh11]. The site has not addressed $n=1$, and its label
-and commentary (last edited 18 January 2026) predate the proof of
+$R(K_{1,3})=6$ completes $n=4$, each at most $2n-2$. erdosproblems.com reads the
+question as the bound for every $n$: its label DECIDABLE ("Resolved up to a
+finite check") records that the large-$n$ bound is proved and a finite range of
+small $n$ remains, the reading its editor gave in the discussion on 11 September
+2025 when changing the label from solved to decidable because "the question was
+for all $n$"; the commentary credits the large-$n$ bound to the Erdős--Sós
+implication and to Zhao [Zh11]. erdosproblems.com has not addressed $n=1$, and
+its label and commentary (last edited 18 January 2026) predate the proof of
 [[problems/extremal_graph_theory/E0548/_index|#548]] (3 September 2026) and the
 two requests in the discussion (6 and 17 September 2026) to relabel the problem
 proved. The modified Statement excludes exactly $n=1$, the one value at which,
 because of its size, no host can meet the conclusion; it is the corpus's
-correction, not the site's, and the formal-conjectures statement file, which
-counts with the site, states the bound for $n\geq2$ as well (Formalization,
-below). Under the site's wording the answer is: false at $n=1$ and true for
-every $n\geq2$. Under the modified Statement the answer is yes, proved for
-every $n\geq2$ by the Ramsey corollary of the #548 theorem, with $R(T)\leq2n-3$
-for odd $n$ (Progress, below). The problem's standing judges the modified
-Statement. The $n=1$ refutations answer the site's wording (every $n$, the
-one-vertex tree included), not the modified Statement (trees on $n\geq2$
-vertices), so they do not count toward the problem's standing; they are credited
-here and on
+correction, not erdosproblems.com's, and the formal-conjectures statement file,
+which counts with erdosproblems.com, states the bound for $n\geq2$ as well
+(Formalization, below). Under the erdosproblems.com wording the answer is: false
+at $n=1$ and true for every $n\geq2$. Under the modified Statement the answer is
+yes, proved for every $n\geq2$ by the Ramsey corollary of the #548 theorem, with
+$R(T)\leq2n-3$ for odd $n$ (Progress, below). The problem's standing judges the
+modified Statement. The $n=1$ refutations answer the erdosproblems.com wording
+(every $n$, the one-vertex tree included), not the modified Statement (trees on
+$n\geq2$ vertices), so they do not count toward the problem's standing; they are
+credited here and on
 [[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal|Alexeev's rejected claim page]].
 
-**Formulation.** The site's wording as of 2026-10-07 (page last edited 18
-January 2026). The question is Burr and Erdős's: [BuEr76], p. 257, conjectures
-that the largest Ramsey number of a tree on $n$ points is $2n-2$ for even $n$
-and $2n-3$ for odd $n$, with stars extremal. The Statement is the upper bound
-$2n-2$ for every $n$, one weaker than the conjecture for odd $n$. The
+**Formulation.** The erdosproblems.com wording as accessed 2026-10-07 (page last
+edited 18 January 2026). The question is Burr and Erdős's: [BuEr76], p. 257,
+conjectures that the largest Ramsey number of a tree on $n$ points is $2n-2$ for
+even $n$ and $2n-3$ for odd $n$, with stars extremal. The Statement is the upper
+bound $2n-2$ for every $n$, one weaker than the conjecture for odd $n$. The
 conjecture has the same answer for $n\geq2$: the parity refinement
 $R(T)\leq2n-3$ for odd $n$ (Progress, below) and the star construction prove
 it.
 
-**Status.** DECIDABLE, the site's label (page last edited 18 January 2026). The
-label describes the large-$n$ bound: $R(T)\leq2n-2$ for every tree on $n$
-vertices once $n$ is large, with the threshold not explicit. The frontmatter
+**Status.** DECIDABLE, the erdosproblems.com label (page last edited 18 January
+2026). The label describes the large-$n$ bound: $R(T)\leq2n-2$ for every tree on
+$n$ vertices once $n$ is large, with the threshold not explicit. The frontmatter
 standing, solved and proved, derives from the claim page
 [[problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski|from the 2026 proof of #548]].
 That page records an accepted full claim: the modified Statement, the bound for
@@ -93,23 +93,25 @@ every $n\geq2$, follows from the new proof of
 The acceptance rests on a third party's Lean derivation of that consequence,
 announced in the problem's discussion on 17 September 2026, which this corpus
 built and audited (Formalization, below). The modified Statement's exclusion of
-$n=1$ is the corpus's own correction. The site has not addressed $n=1$ (Notes,
-above).
+$n=1$ is the corpus's own correction. erdosproblems.com has not addressed $n=1$
+(Notes, above).
 
-The site attributes the large-$n$ bound to two sources. One is the implication
-from the Erdős--Sós conjecture under the announced, unpublished
+erdosproblems.com attributes the large-$n$ bound to two sources. One is the
+implication from the Erdős--Sós conjecture under the announced, unpublished
 Ajtai--Komlós--Simonovits--Szemerédi proof of
 [[problems/extremal_graph_theory/E0548/_index|#548]]. The other is Zhao's
 alternative proof. Zhao's is the refereed one, recorded on the accepted partial
 claim page [[problems/ramsey_theory/E0547/claims/2011_02_04_zhao|Zhao 2011]].
-The label and the commentary predate the proof of #548, which the site itself
-marked PROVED (FORMALIZED) on 3 September 2026. Two comments in the problem's
-discussion, of 6 and 17 September 2026, asked for the label PROVED. No curator
-reply follows them. The site states the implication on its pages for #548 and
+The label and the commentary predate the proof of #548, which erdosproblems.com
+itself marked PROVED (FORMALIZED) on 3 September 2026. Two comments in the
+problem's discussion, of 6 and 17 September 2026, asked for the label PROVED. No
+curator reply follows them. erdosproblems.com states the implication on its
+pages for
+#548 and
 #547 but has not relabeled #547. The curator posted the #548 proof claim, so the
-site's statement of the implication is not an independent review. The corollary
-has no refereed writeup, and this corpus's own review of the corollary awards no
-acceptance.
+erdosproblems.com statement of the implication is not an independent review. The
+corollary has no refereed writeup, and this corpus's own review of the corollary
+awards no acceptance.
 
 Four more partial claims have pages. The path case of
 [[problems/ramsey_theory/E0547/claims/1967_01_01_gerencser_gyarfas|Gerencsér and Gyárfás 1967]]
@@ -123,10 +125,10 @@ in
 [[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev|Alexeev's repository]]
 is claimed. The same repository's two refutations at $n=1$ are recorded on
 [[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal|a rejected claim page]].
-The star formula the site credits to Harary [Ha72] has no page. It appears in a
-proceedings volume the corpus has not examined. Also, every star on $N\geq3$
-vertices is the double star $S(N-2,0)$, an instance the Grossman--Harary--Klawe
-page already covers.
+The star formula erdosproblems.com credits to Harary [Ha72] has no page. It
+appears in a proceedings volume the corpus has not examined. Also, every star on
+$N\geq3$ vertices is the double star $S(N-2,0)$, an instance the
+Grossman--Harary--Klawe page already covers.
 
 **Source.** [erdosproblems.com/547](https://www.erdosproblems.com/547),
 accessed 2026-10-07: the problem page (last edited 18 January 2026) and its
@@ -203,22 +205,22 @@ variant; a statement file is not a formalization.
 
 ## Current assessment
 
-**Search scope.** The site's statement, discussion and empty proof-claim
-thread, the #548 primary PDF and the pinned formal source, through which the
-implication was traced. The site's label DECIDABLE describes the large-order
-bound, by the Erdős--Sós implication under the announced
-Ajtai--Komlós--Simonovits--Szemerédi proof and by Zhao's theorem, and predates
-the #548 proof; the label's partial result is recorded as an accepted partial
-claim and the modified Statement as an accepted full claim, on the third
+**Search scope.** The erdosproblems.com statement, discussion and empty
+proof-claim thread, the #548 primary PDF and the pinned formal source, through
+which the implication was traced. The erdosproblems.com label DECIDABLE
+describes the large-order bound, by the Erdős--Sós implication under the
+announced Ajtai--Komlós--Simonovits--Szemerédi proof and by Zhao's theorem, and
+predates the #548 proof; the label's partial result is recorded as an accepted
+partial claim and the modified Statement as an accepted full claim, on the third
 party's formalization of it that this corpus built and audited (Formalization,
-above); the site states the implication without relabeling the problem, and
-nothing refereed or independently reviewed accepts the consequence. The #548
+above); erdosproblems.com states the implication without relabeling the problem,
+and nothing refereed or independently reviewed accepts the consequence. The #548
 proof that the corollary consumes is affirmed by three arXiv papers of
 mathematicians independent of its claimant and of the curator (Riordan and
 Scott, Wood, and Frederickson, recorded on the
 [[problems/extremal_graph_theory/E0548/claims/2026_09_03_adamczewski|#548
-claim page]]); none of them treats the Ramsey corollary. The discussion thread
-as of 2026-10-07 holds seven comments; the announcement of 17 September 2026 of
+claim page]]); none of them treats the Ramsey corollary. On 2026-10-07 the
+discussion thread held seven comments; the announcement of 17 September 2026 of
 that formalization is recorded under Formalization, and a comment of the same
 day restates the odd-order parity argument. The community database gives the
 problem the informal status proved, updated 3 September 2026, marks the
@@ -261,7 +263,7 @@ improves the conclusion to $R(T)\leq2n-3$. Both deductions are proved in the
 [[../library/extremal_graph_theory/adamczewski_2026_erdos548/tree_ramsey_corollary|canonical
 Ramsey corollary]], which also gives the multicolor result in
 [[problems/ramsey_theory/E0557/_index|#557]]. A comment of 4 September 2026 in
-the site's discussion states the parity refinement.
+the erdosproblems.com discussion states the parity refinement.
 
 For two given trees $T_1,T_2$ of vertex orders $n_1,n_2\geq2$, the
 [[../library/extremal_graph_theory/adamczewski_2026_erdos548/two_tree_corollary|two-tree

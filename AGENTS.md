@@ -283,21 +283,21 @@ uv run --no-sync wiki update --path library
 uv run --no-sync wiki lint --path library
 ```
 
-The problems JSON maps each problem number to its site data — tags, status,
-prize, statement, references, formalization links, desc — and is produced
-outside the repository from the erdosproblems.com cache and the community
-database at teorth/erdosproblems.
+The problems JSON maps each problem number to its erdosproblems.com data — tags,
+status, prize, statement, references, formalization links, desc — and is
+produced outside the repository from the erdosproblems.com cache and the
+community database at teorth/erdosproblems.
 
 Every problem page carries `status`, `claim` and `tags` in its frontmatter, the
 first two derived from the claim pages under its `claims/` folder as
 `docs/anatomy.md` "Problems and claims" states; the `problem claims` gate leg
-checks them. Its `tags` are the site's tags after the edits under `tag_edits` in
-`scripts/taxonomy.json`. Keep the claim pages consistent with the exact question
-and the evidence and qualifications in the body; compilation progress is
-separate. Establish current standing through primary literature and searches
-beyond erdosproblems.com, tracing research announcements to their proofs and
-acceptance evidence. See `docs/anatomy.md` "Problem pages" for the layout and
-the status-review rules.
+checks them. Its `tags` are the erdosproblems.com tags after the edits under
+`tag_edits` in `scripts/taxonomy.json`. Keep the claim pages consistent with the
+exact question and the evidence and qualifications in the body; compilation
+progress is separate. Establish current standing through primary literature and
+searches beyond erdosproblems.com, tracing research announcements to their
+proofs and acceptance evidence. See `docs/anatomy.md` "Problem pages" for the
+layout and the status-review rules.
 
 ### Incoming library links
 

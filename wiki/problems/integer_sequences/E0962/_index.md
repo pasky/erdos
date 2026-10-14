@@ -36,8 +36,8 @@ $$
 \log k(n) \leq (\log n)^{1/2+o(1)}?
 $$
 
-**Formulation.** The site's wording (page last edited 3 April 2026). $k(n)$
-is Erdős's 1965 function (item 5 of his 1965 survey). Erdős's 1976 paper
+**Formulation.** The erdosproblems.com wording (page last edited 3 April 2026).
+$k(n)$ is Erdős's 1965 function (item 5 of his 1965 survey). Erdős's 1976 paper
 works with the inverse: $n_k$ is the least $n$ such that each of
 $n+1,\ldots,n+k$ has a prime factor greater than $k$; since some $m\le n$
 works for $k$ exactly when $n_k\le n$, one has $k(n)=\max\{k:n_k\le n\}$,
@@ -46,7 +46,7 @@ inverse (an observation made here). Two questions: the estimate of $k(n)$,
 to which the page-level status attaches, and the displayed question, which
 is the inverse form of Erdős's 1976 conjecture (7),
 $n_k>\exp((\log k)^{2-\epsilon})$ for every $\epsilon>0$ and large $k$. The
-site's source keys are [Er65] and [Er76e, p. 273].
+erdosproblems.com source keys are [Er65] and [Er76e, p. 273].
 
 **Status.** Open, for both questions.
 
@@ -55,15 +55,16 @@ $\log k(n)\ge(\log n)^{1/2-o(1)}$ as "not hard to prove", without proof. Erdős'
 1976 display (6), $n_k<k^{\log k/\log\log k}$, is proved by a short
 smooth-number count. It gives the bound
 $\log k(n)\ge(1/\sqrt2-o(1))\sqrt{\log n\log\log n}$ by a substitution made
-here; the site prints $\log k(n)\gg\sqrt{\log n\log\log n}$. A forum note of
-December 2025 (Tang) also proves this bound directly, with the same constant.
+here; erdosproblems.com prints $\log k(n)\gg\sqrt{\log n\log\log n}$. A forum
+note of December 2025 (Tang) also proves this bound directly, with the same
+constant.
 
 Two upper bounds are in hand. A forum argument of October 2025 by Tao gives
-$k(n)\le(1+o(1))n^{1/2}$. It was accepted into the site's commentary and checked
-here. Erdős reported in 1976, without proof, that $n_k>k^2\exp((\log k)^c)$,
-that is $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$. Erdős could not show
-$k(n)\le n^{1/2-c}$, "a ridiculously weak result". Nothing approaches the
-displayed question.
+$k(n)\le(1+o(1))n^{1/2}$. It was accepted into the erdosproblems.com commentary
+and checked here. Erdős reported in 1976, without proof, that
+$n_k>k^2\exp((\log k)^c)$, that is $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$. Erdős
+could not show $k(n)\le n^{1/2-c}$, "a ridiculously weak result". Nothing
+approaches the displayed question.
 
 Erdős's 1976 lower bound and his reported upper bound have claim pages:
 [[problems/integer_sequences/E0962/claims/1976_01_01_erdos|Erdős 1976]]
@@ -78,9 +79,9 @@ finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/962](https://www.erdosproblems.com/962),
 accessed 2026-09-18: the problem page (labeled OPEN,
-with the site's note that no finite computation can settle it; last edited
-3 April 2026; source keys [Er65], [Er76e, p. 273]; a thanks line crediting
-Terence Tao and Quanyu Tang), its five-comment discussion thread (12
+with the erdosproblems.com note that no finite computation can settle it; last
+edited 3 April 2026; source keys [Er65], [Er76e, p. 273]; a thanks line
+crediting Terence Tao and Quanyu Tang), its five-comment discussion thread (12
 October 2025 to 2 May 2026) and its empty proof-claim tab. Cite as: T. F.
 Bloom, Erdős Problem #962, https://www.erdosproblems.com/962, accessed
 2026-09-18.
@@ -127,12 +128,12 @@ GitHub note) and `tao_upper_bound` ($k(n)\le(1+\varepsilon(n))\sqrt n$, citing
 the forum thread). The community database (teorth/erdosproblems, accessed
 2026-09-18) lists the problem open as of its last update, of 31 August 2025,
 the statement formalized since 3 May 2026, `formal_status` unformalized, OEIS
-A327909 and no formal-proof URL; the site's indicator shows the statement
-formalized. Nothing was built.
+A327909 and no formal-proof URL; the erdosproblems.com indicator shows the
+statement formalized. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above, labeled OPEN with the note that no finite computation can settle it,
 last edited 3 April 2026. The commentary, in summary: it records Erdős's
 1965 remarks that the lower bound $\log k(n)\ge(\log n)^{1/2-o(1)}$ is easy
@@ -146,10 +147,10 @@ $k(n)\le n^{1/2-c}$ for any $c>0$, a target he found ridiculously weak; and
 it records Tang's lower bound
 $\log k(n)\ge(\frac1{\sqrt2}-o(1))\sqrt{\log n\log\log n}$. The thread,
 oldest first: 12 October 2025 (the account TerenceTao), the
-$(1+o(1))n^{1/2}$ argument (below; the site was updated); 28 October 2025
-(TerenceTao), a pointer to initial numerics in an issue of the community
+$(1+o(1))n^{1/2}$ argument (below; erdosproblems.com was updated); 28 October
+2025 (TerenceTao), a pointer to initial numerics in an issue of the community
 database's repository; 28 December 2025 (the account
-Quanyu Tang), the note [Ta25] (the site was updated); 3 April 2026 (the
+Quanyu Tang), the note [Ta25] (erdosproblems.com was updated); 3 April 2026 (the
 account Thomas Bloom), the finding that [Er76e] proves
 $\log k(n)\gg\sqrt{\log n\log\log n}$, the same order as Tang's bound, with
 the constant Erdős's argument gives left unchecked there, and a report of
@@ -165,7 +166,7 @@ prime $>k$? It is not hard to prove that $k(n)>\exp(\log n)^{1/2-\varepsilon}$.
 It seems likely that $k(n)=o(n^\varepsilon)$, but I have not been able to obtain
 any non-trivial upper bound for $k(n)$." The display is printed as
 $\exp(\log n)^{1/2-\varepsilon}$; the exponent is $(\log n)^{1/2-\varepsilon}$,
-as the site reads it.
+as erdosproblems.com reads it.
 [[../library/primes/erdos_1976_problems_results_consecutive_integers/inequality_6|The $n_k$ passage of [Er76e]]],
 printed p. 273: "Denote by $n_k$ the smallest integer with $f(n_k,k)=k$" (so
 that all of $n_k+1,\ldots,n_k+k$ have a prime factor $>k$); the Chinese
@@ -185,39 +186,40 @@ gives $\log k(n)\ge(1/\sqrt2-o(1))\sqrt{\log n\log\log n}$: with
 $\log k=c\sqrt{\log n\log\log n}$ the exponent $(\log k)^2/\log\log k$ of (6)
 equals $(2c^2+o(1))\log n$, which is at most $\log n$ for large $n$ when
 $c<1/\sqrt2$, so $n_k\le n$ and $k(n)\ge k$ (a substitution made here, named
-as such; the site prints the $\gg$ form). Tang's note [Ta25] proves the same
-constant directly: Theorem 2.1, for every fixed $0<c<1/\sqrt2$ and
+as such; erdosproblems.com prints the $\gg$ form). Tang's note [Ta25] proves the
+same constant directly: Theorem 2.1, for every fixed $0<c<1/\sqrt2$ and
 $n\ge n_0(c)$, $k(n)\ge\lfloor\exp(c\sqrt{\log n\log\log n})\rfloor$, by a
 pigeonhole lemma (if fewer than $\lfloor n/y\rfloor$ integers up to $n$ are
 $y$-smooth, some block of $y$ consecutive integers below $n$ has no $y$-smooth
 member) and the de Bruijn--Hildebrand estimate $\Psi(n,y)=n\rho(u)(1+o(1))$
-with $\rho(u)=u^{-u+o(u)}$; its Theorem 1.2 is the $(1/\sqrt2-o(1))$ form the
-site prints. The argument is the 1976 argument with constants and was not
-checked step by step; the note has no refereed publication or independent
-review, and since it does not improve the 1976 bound it has no claim page. The
-1965 bound $\exp((\log n)^{1/2-\epsilon})$ is weaker and unproved in print.
+with $\rho(u)=u^{-u+o(u)}$; its Theorem 1.2 is the $(1/\sqrt2-o(1))$ form
+erdosproblems.com prints. The argument is the 1976 argument with constants and
+was not checked step by step; the note has no refereed publication or
+independent review, and since it does not improve the 1976 bound it has no claim
+page. The 1965 bound $\exp((\log n)^{1/2-\epsilon})$ is weaker and unproved in
+print.
 
-**Upper bounds.** The forum argument of 12 October 2025 (Tao), as the site
-accepts it: if $k\ge(1+\varepsilon)n^{1/2}$ and $n$ is large, take a prime $p$
-with $n^{1/2}<p<(1+\varepsilon)n^{1/2}$ (such primes exist by the prime number
-theorem, and $k>p$); the first $p$ terms $m+1,\ldots,m+p$ of the block contain
-a multiple of $p$, and that multiple is at most $m+p\le n+p<(1+\varepsilon)n$,
-so it cannot also carry a prime factor $q>k$, since then it would be at least
-$pq>(1+\varepsilon)n$; hence $k(n)\le(1+o(1))n^{1/2}$. The multiple is taken
-among the first $p$ terms so that the bound $(1+\varepsilon)n$ holds whatever
-the size of $k$: the last term $m+k$ of the block is below $(1+\varepsilon)n$
-only when $k<\varepsilon n$. The same end is reached by first reducing to
-$k=\lceil(1+\varepsilon)n^{1/2}\rceil$, since a sub-block of a block whose
-terms all have a prime factor $>k$ is such a block for the smaller length.
-Both repairs were made here; the inequalities were checked here; the argument
-is elementary and the site calls it simple. The comment adds that it is
-unclear what Erdős meant by the trivial bound. Erdős's 1976 report
-$n_k>k^2\exp((\log k)^c)$, if granted, gives
+**Upper bounds.** The forum argument of 12 October 2025 (Tao), as
+erdosproblems.com accepts it: if $k\ge(1+\varepsilon)n^{1/2}$ and $n$ is large,
+take a prime $p$ with $n^{1/2}<p<(1+\varepsilon)n^{1/2}$ (such primes exist by
+the prime number theorem, and $k>p$); the first $p$ terms $m+1,\ldots,m+p$ of
+the block contain a multiple of $p$, and that multiple is at most
+$m+p\le n+p<(1+\varepsilon)n$, so it cannot also carry a prime factor $q>k$,
+since then it would be at least $pq>(1+\varepsilon)n$; hence
+$k(n)\le(1+o(1))n^{1/2}$. The multiple is taken among the first $p$ terms so
+that the bound $(1+\varepsilon)n$ holds whatever the size of $k$: the last term
+$m+k$ of the block is below $(1+\varepsilon)n$ only when $k<\varepsilon n$. The
+same end is reached by first reducing to $k=\lceil(1+\varepsilon)n^{1/2}\rceil$,
+since a sub-block of a block whose terms all have a prime factor $>k$ is such a
+block for the smaller length. Both repairs were made here; the inequalities were
+checked here; the argument is elementary and erdosproblems.com calls it simple.
+The comment adds that it is unclear what Erdős meant by the trivial bound.
+Erdős's 1976 report $n_k>k^2\exp((\log k)^c)$, if granted, gives
 $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$ for some $c'>0$ (since
-$\log k\ge(\log n)^{1/2-o(1)}$; a substitution made here, matching the site's
-translation), and the unproved $n_k>k^{2+\epsilon}$ would give
-$k(n)\le n^{1/2-c}$; neither has a proof in print. The displayed question is
-the inverse of conjecture (7): $n_k>\exp((\log k)^{2-\epsilon})$ for all
+$\log k\ge(\log n)^{1/2-o(1)}$; a substitution made here, matching
+erdosproblems.com's translation), and the unproved $n_k>k^{2+\epsilon}$ would
+give $k(n)\le n^{1/2-c}$; neither has a proof in print. The displayed question
+is the inverse of conjecture (7): $n_k>\exp((\log k)^{2-\epsilon})$ for all
 $\epsilon>0$ is $\log k(n)\le(\log n)^{1/(2-\epsilon)}$, that is
 $\log k(n)\le(\log n)^{1/2+o(1)}$. Erdős writes that (6) is "fairly sharp", so
 his expectation is that the lower bound above is close to the truth.
@@ -230,8 +232,8 @@ $\kappa>1/e$ would give $k(n)\ll n^{1/e+o(1)}$; the fourth moment reduces to a
 variance bound and a level-4 sieve discrepancy (its L5 and L6), which the
 author supports numerically and cannot prove, stating explicitly that no
 theorem improving Erdős's 1976 bound $k(n)\le\exp(-(\log n)^c)n^{1/2}$ is
-claimed. Nothing about it was checked here, the site's commentary does not
-mention it, and it changes no bound.
+claimed. Nothing about it was checked here, the erdosproblems.com commentary
+does not mention it, and it changes no bound.
 
 **The bounds map.**
 $(1/\sqrt2-o(1))\sqrt{\log n\log\log n}\le\log k(n)\le\tfrac12\log n+o(1)$,
@@ -247,7 +249,7 @@ $n=1,2,\ldots$, that is $n_k+1$ in Erdős's notation; a data lead only.
 those above, a proof of Erdős's reported upper bound, or a refereed version
 of the forum results.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `962.lean` at the pinned commit; the community
   database.
 - The note [Ta25], in full.

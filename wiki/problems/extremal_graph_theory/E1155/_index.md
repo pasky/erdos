@@ -36,20 +36,21 @@ $$
 
 and that $f(n) \ll n^{3/2}$ almost surely?
 
-**Formulation.** The site's wording as of 2026-10-07 (page last edited 25
-January 2026). The process is the random greedy triangle packing of $K_n$,
-and $f(n)$ is the number of edges of the terminal triangle-free graph, the
-leave of that packing. The processes for different $n$ are not coupled, so
-this page reads "almost surely", as the site's own commentary does, as with
-probability tending to one as $n\to\infty$: the second question asks for a
+**Formulation.** The erdosproblems.com wording as accessed 2026-10-07 (page last
+edited 25 January 2026). The process is the random greedy triangle packing of
+$K_n$, and $f(n)$ is the number of edges of the terminal triangle-free graph,
+the leave of that packing. The processes for different $n$ are not coupled, so
+this page reads "almost surely", as erdosproblems.com's own commentary does, as
+with probability tending to one as $n\to\infty$: the second question asks for a
 constant $C$ with $\mathbb P(f(n)\le Cn^{3/2})\to1$. The statement has three
 parts: the open-ended request for the typical parameters and structure, and
-the two displayed questions on the order of $f(n)$. Of the site's two source
-keys, the 1999 booklet's item ([Va99], 3.61) poses only the open-ended
+the two displayed questions on the order of $f(n)$. Of erdosproblems.com's two
+source keys, the 1999 booklet's item ([Va99], 3.61) poses only the open-ended
 request: it describes the process and asks for the typical parameters and
 structure of the final graph, adding that the problem came from the task of
 generating a random triangle-free graph. Neither displayed question appears
-in it, so the two come from the site's other key, [Bo98], which is not held.
+in it, so the two come from erdosproblems.com's other key, [Bo98], which is not
+held.
 
 **Status.** Open. What is proved: $f(n)=n^{3/2+o(1)}$ with high probability,
 that is $\mathbb P(n^{3/2-\epsilon}<f(n)<n^{3/2+\epsilon})\to1$ for every
@@ -85,10 +86,11 @@ Problem #1155, https://www.erdosproblems.com/1155, accessed 2026-10-07.
   (Theorem 1 and the introduction are recorded on the card).
 - [Bo98] Bollobás, Béla, To prove and conjecture: Paul Erdős and his
   mathematics. Amer. Math. Monthly 105 (1998), 209--237; pp. 231--232 per
-  the site and its thread. Not held.
+  erdosproblems.com and its thread. Not held.
 - [Gr97] Grable, David A., On random greedy triangle packing. Electron. J.
   Combin. 4 (1997), Research Paper 11, 19 pp. Not held; its bounds are
-  taken from the site, the introduction of [BFL15] and Section 1 of [OAI26].
+  taken from erdosproblems.com, the introduction of [BFL15] and Section 1 of
+  [OAI26].
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999; item
   3.61 in Section 3.4, Random structures. Library home:
@@ -108,10 +110,10 @@ Problem #1155, https://www.erdosproblems.com/1155, accessed 2026-10-07.
   [[../library/extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal/theorem_1_1|theorem_1_1]].
 
 **Formalization.** None in the catalogs: on 2026-10-07 formal-conjectures had
-no file `ErdosProblems/1155.lean` on main, the site's page showed no formalized
-statement, and the community database recorded the problem open (last update 23
-January 2026) and unformalized. The OpenAI release proves its theorem in
-Lean against its own model of the process, the declaration
+no file `ErdosProblems/1155.lean` on main, the erdosproblems.com page showed no
+formalized statement, and the community database recorded the problem open (last
+update 23 January 2026) and unformalized. The OpenAI release proves its theorem
+in Lean against its own model of the process, the declaration
 `OAI.SharpTerminalLeave.sharp_terminal_leave`; the corpus's verification built
 it at the pinned revision with the toolchain `leanprover/lean4:v4.34.1`, found
 its axioms to be exactly `propext`, `Classical.choice` and `Quot.sound` and its
@@ -123,19 +125,19 @@ of the terminal graph.
 
 ## Current assessment
 
-**The question (site formulation of 2026-10-07).** The statement above;
-last edited 25 January 2026. The site's last label was OPEN. The site's
-commentary, in this page's words: the problem is Bollobás and Erdős's, posed in
-1990 at a graph theory conference in Fairbanks, Alaska, as [Bo98] tells it, and
-[Va99] records that the problem came from wanting to generate a random
-triangle-free graph; Grable [Gr97] proved $\mathbb P(f(n)>n^{7/4+\epsilon})\to0$
-for every $\epsilon>0$ (an attribution qualified below); and the theorem of
-Bohman, Frieze and Lubetzky [BFL15], $f(n)=n^{3/2+o(1)}$ almost surely, is
-restated by the commentary as
+**The question (erdosproblems.com formulation of 2026-10-07).** The statement
+above; last edited 25 January 2026. erdosproblems.com's last label was OPEN. The
+erdosproblems.com commentary, in this page's words: the problem is Bollobás and
+Erdős's, posed in 1990 at a graph theory conference in Fairbanks, Alaska, as
+[Bo98] tells it, and [Va99] records that the problem came from wanting to
+generate a random triangle-free graph; Grable [Gr97] proved
+$\mathbb P(f(n)>n^{7/4+\epsilon})\to0$ for every $\epsilon>0$ (an attribution
+qualified below); and the theorem of Bohman, Frieze and Lubetzky [BFL15],
+$f(n)=n^{3/2+o(1)}$ almost surely, is restated by the commentary as
 $\mathbb P(n^{3/2-\epsilon}<f(n)<n^{3/2+\epsilon})\to1$ for every $\epsilon>0$.
-The thread's one comment (24 January 2026, marked as addressed by the site)
-reports the same theorem and the origin story from pp. 231--232 of [Bo98]. The
-proof-claim tab was empty.
+The thread's one comment (24 January 2026, marked as addressed by
+erdosproblems.com) reports the same theorem and the origin story from pp.
+231--232 of [Bo98]. The proof-claim tab was empty.
 
 **The exponent, proved.** Theorem 1 of [BFL15], as its library card records
 it: with high probability the process stops after $n^2/6-n^{3/2+o(1)}$
@@ -151,7 +153,7 @@ to one, the two displayed questions, which ask for the order without the
 $n^{o(1)}$ factor. Basis: the theorem and the introduction, as the card
 records them; the proof was not read.
 
-**Grable's bounds.** The site and the abstract of [BFL15] credit Grable
+**Grable's bounds.** erdosproblems.com and the abstract of [BFL15] credit Grable
 [Gr97] with $f(n)\le n^{7/4+o(1)}$ with high probability. The introduction
 of [BFL15] says that Grable proved $n^{11/6+o(1)}$ with high probability and
 described how similar arguments, with more delicate calculations, should
@@ -176,23 +178,23 @@ while the manuscript has no journal or arXiv version and no independent review.
 It says nothing about the typical structure of the terminal graph beyond its
 edge count.
 
-**Search scope.** The site's problem page, discussion thread and proof-claim
-tab, the formal-conjectures tree and the community database, with the library
-cards of [BFL15], [Va99] and [OAI26], the last with the release's comparator
-statement and solution module. No database, arXiv or publisher search was made
-for this problem. [Bo98], [Gr97] and [JoKu24] are not held; what this page says
-of them comes from the site, its thread, the introduction of [BFL15] and the
-release manuscript's own account.
+**Search scope.** The erdosproblems.com problem page, discussion thread and
+proof-claim tab, the formal-conjectures tree and the community database, with
+the library cards of [BFL15], [Va99] and [OAI26], the last with the release's
+comparator statement and solution module. No database, arXiv or publisher search
+was made for this problem. [Bo98], [Gr97] and [JoKu24] are not held; what this
+page says of them comes from erdosproblems.com, its thread, the introduction of
+[BFL15] and the release manuscript's own account.
 
 **Remaining gaps.** (1) The displayed questions are answered by the sharp
 constant, accepted on its formalization alone: the refereed result gives the
 exponent only, and the manuscript has no outside review. (2) The request for the
 typical parameters and structure of the terminal graph has no result or claim
 recorded on this page; the release manuscript asserts no fluctuation law. (3) No
-literature search beyond the site's sources was made, and the proof of [BFL15]
-was not read. (4) There is no Lean statement of the problem in the catalogs; the
-release's statement models the process in its own terms, and the corpus's audit
-found that model faithful to the process of the Statement.
+literature search beyond the erdosproblems.com sources was made, and the proof
+of [BFL15] was not read. (4) There is no Lean statement of the problem in the
+catalogs; the release's statement models the process in its own terms, and the
+corpus's audit found that model faithful to the process of the Statement.
 
 ## Known results
 
@@ -200,7 +202,7 @@ found that model faithful to the process of the Statement.
   (refereed): $f(n)=n^{3/2+o(1)}$ with high probability, the exponent
   conjectured by Bollobás and Erdős.
 - Grable 1997 (not held): $f(n)\le n^{11/6+o(1)}$ with high probability, as
-  the introduction of [BFL15] reports it; the site and the abstract of
+  the introduction of [BFL15] reports it; erdosproblems.com and the abstract of
   [BFL15] credit Grable with $n^{7/4+o(1)}$, which [BFL15] and [OAI26] describe
   as outlined, not proved.
 - [[../library/extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal/theorem_1_1|OpenAI 2026, Theorem 1.1]]

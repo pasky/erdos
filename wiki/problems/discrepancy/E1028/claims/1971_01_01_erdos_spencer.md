@@ -4,8 +4,8 @@ title: Erdős and Spencer determine the order of the edge imbalance
 desc: |
   Theorem (5) of Erdős and Spencer (Networks, 1972) shows that the
   unordered-edge minimax $H(n)$ has order $n^{3/2}$ for all large $n$. It is the
-  refereed resolution of the question as the historical papers and the site
-  intend it.
+  refereed resolution of the question as the historical papers and
+  erdosproblems.com intend it.
 authors:
 - P. Erdös
 - J. Spencer
@@ -54,8 +54,8 @@ $H(n)$ that Erdős's 1963 paper introduced with the bounds
 $n/4\le H(n)<C_4n^{3/2}$, so the theorem settles the order of the edge
 imbalance: $H(n)$ has order $n^{3/2}$ for all sufficiently large $n$.
 This is the question [[problems/discrepancy/E1028/_index|Problem 1028]]
-intends; the site's label, solved, names the order of magnitude and no
-exact constant. The result page
+intends; the erdosproblems.com label, solved, names the order of magnitude and
+no exact constant. The result page
 [[../library/discrepancy/erdos_1971_imbalances_colorations/theorem_5|Theorem (5)]]
 records the quantifiers and the proof pointers, and the convention record
 [[../library/discrepancy/erdos_1971_imbalances_colorations/edge_normalization|edge normalization]]
@@ -69,14 +69,14 @@ with independent signs on ordered pairs the minimax is $0$, and with
 symmetric signs it is $2H(n)$. The problem page's modified Statement
 fixes the unordered-edge reading, and its Notes record the others. The
 claim settles the modified Statement, the question as the historical papers
-and the site's label intend it, and asserts no exact finite-$n$ value or
-leading constant.
+and the erdosproblems.com label intend it, and asserts no exact finite-$n$ value
+or leading constant.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-solved. In the site's commentary the curator credits the lower bound
-$H(n)\gg n^{3/2}$ to Erdős and Spencer [ErSp71] and the upper bound to Erdős
-[Er63d]. The site's label on 2026-09-04 was SOLVED (LEAN). The curator is
-independent of the authors.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem solved. In the erdosproblems.com commentary the curator credits the
+lower bound $H(n)\gg n^{3/2}$ to Erdős and Spencer [ErSp71] and the upper bound
+to Erdős [Er63d]. The erdosproblems.com label on 2026-09-04 was SOLVED (LEAN).
+The curator is independent of the authors.
 
 Refereed: the paper appeared in the journal *Networks*, volume 1, issue 4, pp.
 379--385, under DOI 10.1002/net.3230010407. Its imprint gives the year 1972,
@@ -111,11 +111,11 @@ and are not recorded as a claim of their own; the files' own summary
 describes a proof through Hoeffding's inequality and a Paley--Zygmund
 step, with explicit constants the paper does not print. The links are
 pinned to the commit of 24 June 2026 that placed the v4.29.1 file, its
-only revision as of 2026-09-06. This corpus has not built the files or
+only revision (read 2026-09-06). This corpus has not built the files or
 audited the formal statement against the problem's intended quantity, so
-`formalized` is not listed. The site's proof-claims tab lists no claim and
-the thread records no reply to the post; the site's label on 2026-09-04 was
-SOLVED (LEAN).
+`formalized` is not listed. The erdosproblems.com proof-claims tab lists no
+claim and the thread records no reply to the post; the erdosproblems.com label
+on 2026-09-04 was SOLVED (LEAN).
 
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem, together with the 1963 upper bound it reproves.

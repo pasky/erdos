@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 198, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0198/claims
@@ -12,16 +12,18 @@ updated: 2026-10-11T22:24:14Z
 [[problems/additive_combinatorics/E0198/_index|..]]
 
 [[problems/additive_combinatorics/E0198/claims/1975_03_01_baumgartner|1975_03_01_baumgartner]]: Choosing one element of each infinite arithmetic progression, each beyond
-twice the previous choice, gives a Sidon set that meets every progression. The
-site credits Baumgartner, whom Erdős and Graham credit with the answer yes.
+twice the previous choice, gives a Sidon set that meets every progression.
+erdosproblems.com credits Baumgartner, whom Erdős and Graham credit with the
+answer yes.
 
 [[problems/additive_combinatorics/E0198/claims/2025_05_15_deepmind|2025_05_15_deepmind]]: The set of the numbers $(n+1)!+n$ is Sidon and meets every infinite arithmetic
 progression. It was found by Google DeepMind's AlphaProof, written out on the
-site's page, and formalized in Lean by Alexeev with Aristotle in
+erdosproblems.com page, and formalized in Lean by Alexeev with Aristotle in
 November 2025.
 
-[[problems/additive_combinatorics/E0198/claims/2025_09_02_dutta|2025_09_02_dutta]]: Dutta's Baire-category argument, posted in the site's thread in 2025, shows
-that for every $x>2$ outside a meager set, the integer parts of the powers of
-$x$ form a Sidon set meeting every infinite arithmetic progression.
+[[problems/additive_combinatorics/E0198/claims/2025_09_02_dutta|2025_09_02_dutta]]: Dutta's Baire-category argument, posted in the erdosproblems.com thread in
+2025, shows that for every $x>2$ outside a meager set, the integer parts of
+the powers of $x$ form a Sidon set meeting every infinite arithmetic
+progression.
 
 ***

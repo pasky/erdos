@@ -68,11 +68,11 @@ None beyond elementary counting; the paper cites [6] for the method.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the site's
-  displayed lower bound $\mathrm{ex}_r(n,\mathcal F)\gg_{k,s}n^{(rs-k)/(s-1)}$
-  for $k>r$ and $s>1$, since the site's $\mathrm{ex}_r(n,\mathcal F)$ is
-  $f^{(r)}(n;k,s)-1$; the remark records where the exponent is sharp and
-  where it is not.
+- [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]:
+  erdosproblems.com's displayed lower bound
+  $\mathrm{ex}_r(n,\mathcal F)\gg_{k,s}n^{(rs-k)/(s-1)}$ for $k>r$ and $s>1$,
+  since erdosproblems.com's $\mathrm{ex}_r(n,\mathcal F)$ is $f^{(r)}(n;k,s)-1$;
+  the remark records where the exponent is sharp and where it is not.
 - [[../wiki/problems/set_systems/E0716/_index|Problem 716]]: with $r=3$, $k=6$, $s=3$ the
   theorem gives $f^{(3)}(n;6,3)>c\,n^{3/2}$, a bound p. 58 already lists from
   the authors' earlier paper; the theorem says nothing about the $o(n^2)$

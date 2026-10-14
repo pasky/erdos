@@ -5,7 +5,7 @@ desc: |
   Asks whether there are $f$ and $k$ such that every $k$-coloring of the
   integers has a sequence $a_1<a_2<\cdots$ with $a_n<f(n)$ for infinitely many
   $n$ whose finite subset sums miss a color. No, by a 2026 AI-generated coloring
-  that the site accepted after review.
+  that erdosproblems.com accepted after review.
 tags:
 - Number theory
 - Ramsey theory
@@ -37,58 +37,61 @@ does not contain all colours?
 with no quantifier on $n$, read as all $n$; the answer there is also no, since a
 sequence with $a_n<f(n)$ for all $n$ has it for infinitely many $n$. The printed
 sentence reads "there is a sequence $a_1<a_2<\ldots$, $a_n<f(n)$ so that at
-least one of the classes is disjoint from the set of all sums". The site's
-wording (page last edited 5 July 2026) has "for infinitely many $n$", which
-repeats the wording of Erdős's first question on the same page, the
-monochromatic one, and is the quantifier printed in Problem 4.2 of [ErGa91], p.
-268 (PDF p. 8): "$x_n\le\varphi(n)$ for infinitely many $n$", with $k+1$ classes
-where the site has $k$ colors. The disproof below answers the site's wording and
-so both questions. The sequence is infinite and strictly increasing; the sums
-run over nonempty finite index sets $S$ (the Lean artifact below and the
-formal-conjectures statement both take $S$ nonempty), and "does not contain all
-colours" asks that the whole set of finite sums miss some color. With $k=2$ the
-question is Erdős's original monochromatic one. The thread of September 2025
-records how the site's wording was settled: the sequence does not depend on $n$
-(otherwise Folkman's theorem answers yes) and the bound is required infinitely
-often. Source keys [Er77c, p.57] and [ErGa91, p.268].
+least one of the classes is disjoint from the set of all sums". The
+erdosproblems.com wording (page last edited 5 July 2026) has "for infinitely
+many $n$", which repeats the wording of Erdős's first question on the same page,
+the monochromatic one, and is the quantifier printed in Problem 4.2 of [ErGa91],
+p. 268 (PDF p. 8): "$x_n\le\varphi(n)$ for infinitely many $n$", with $k+1$
+classes where erdosproblems.com has $k$ colors. The disproof below answers the
+erdosproblems.com wording and so both questions. The sequence is infinite and
+strictly increasing; the sums run over nonempty finite index sets $S$ (the Lean
+artifact below and the formal-conjectures statement both take $S$ nonempty), and
+"does not contain all colours" asks that the whole set of finite sums miss some
+color. With $k=2$ the question is Erdős's original monochromatic one. The thread
+of September 2025 records how the erdosproblems.com wording was settled: the
+sequence does not depend on $n$ (otherwise Folkman's theorem answers yes) and
+the bound is required infinitely often. Source keys [Er77c, p.57] and [ErGa91,
+p.268].
 
-**Status.** Disproved. The site labeled the problem SOLVED. The claim page
-[[problems/ramsey_theory/E0948/claims/2026_06_21_price|the 2026 coloring]]
-records the result, its postings and its acceptance evidence under the site's
-label, and the frontmatter standing derives from it. Beside it,
+**Status.** Disproved. Bloom's catalog labeled the problem SOLVED. The claim
+page [[problems/ramsey_theory/E0948/claims/2026_06_21_price|the 2026 coloring]]
+records the result, its postings and its acceptance evidence under the
+erdosproblems.com label, and the frontmatter standing derives from it. Beside
+it,
 [[problems/ramsey_theory/E0948/claims/1991_02_01_erdos_galvin|Galvin's two-coloring]]
-(Theorem 4.1 of [ErGa91], refereed and credited by the site's curator) is an
-accepted partial claim for the case $k=2$. The status-defining source is an
-AI-generated disproof, a note titled "A Negative Answer to an Erdős--Galvin
-Problem" (as its Lean formalization names it). It was produced by GPT Pro at the
-prompting of a contributor, Liam Price. Price posted it to the site's thread on
-21 June 2026, together with a Lean formalization made with Aristotle. The site's
-commentary credits the answer to GPT Pro, prompted by Price. The Lean file's
-header writes the model's name as GPT-5.5 Pro. The theorem states that for every
-$f:\mathbb{N}\to\mathbb{N}$ there is a coloring of $\mathbb{N}$ by $\mathbb{N}$
-such that, for every strictly increasing sequence with $a_n<f(n)$ for infinitely
-many $n$, the finite sums take every color. Hence for every $k$ there is a
-$k$-coloring with the same property. The acceptance evidence has several parts.
-Stijn Cambie, a contributor to the thread, reviewed the note, and Cambie's
-comment of 22 June 2026 reports that the review confirmed the proof. There is
-also a screening comment of 21 June 2026. The site's curator, Thomas Bloom,
-adopted the result (label SOLVED, page last edited 5 July 2026, the commentary's
-paragraph and the curator's sketch of the construction in the thread on 6 July
-2026). The remaining evidence is the community database (6 July 2026) and the
-community's AI-contributions wiki (a full solution with a Lean formalization, 21
-June 2026). This is a source-supported solution accepted by the site, distinct
-from a claim of journal refereeing. No refereed publication, no arXiv version
-and no written expert review beyond the thread were found on 2026-09-18. The
-argument document is an online editable document whose read link gives the
-editor's application page, with no PDF or export. The page rests on the site's
+(Theorem 4.1 of [ErGa91], refereed and credited by the erdosproblems.com
+curator) is an accepted partial claim for the case $k=2$. The status-defining
+source is an AI-generated disproof, a note titled "A Negative Answer to an
+Erdős--Galvin Problem" (as its Lean formalization names it). It was produced by
+GPT Pro at the prompting of a contributor, Liam Price. Price posted it to the
+erdosproblems.com thread on 21 June 2026, together with a Lean formalization
+made with Aristotle. The erdosproblems.com commentary credits the answer to GPT
+Pro, prompted by Price. The Lean file's header writes the model's name as
+GPT-5.5 Pro. The theorem states that for every $f:\mathbb{N}\to\mathbb{N}$ there
+is a coloring of $\mathbb{N}$ by $\mathbb{N}$ such that, for every strictly
+increasing sequence with $a_n<f(n)$ for infinitely many $n$, the finite sums
+take every color. Hence for every $k$ there is a $k$-coloring with the same
+property. The acceptance evidence has several parts. Stijn Cambie, a contributor
+to the thread, reviewed the note, and Cambie's comment of 22 June 2026 reports
+that the review confirmed the proof. There is also a screening comment of 21
+June 2026. The erdosproblems.com curator, Thomas Bloom, adopted the result
+(label SOLVED, page last edited 5 July 2026, the commentary's paragraph and the
+curator's sketch of the construction in the thread on 6 July 2026). The
+remaining evidence is the community database (6 July 2026) and the community's
+AI-contributions wiki (a full solution with a Lean formalization, 21 June 2026).
+This is a source-supported solution accepted by erdosproblems.com, distinct from
+a claim of journal refereeing. No refereed publication, no arXiv version and no
+written expert review beyond the thread were found on 2026-09-18. The argument
+document is an online editable document whose read link gives the editor's
+application page, with no PDF or export. The page rests on erdosproblems.com's
 account, the review comment and the Lean file [Le26]. The Lean file's theorem
 statements and declared axioms are the basis here, and this corpus has not built
 or audited it. Two vocabulary points about the label are recorded below.
 
 **Source.** [erdosproblems.com/948](https://www.erdosproblems.com/948),
 accessed 2026-09-18: the problem page (SOLVED, the
-site's label for a resolution that is neither a proof nor a disproof; last
-edited 5 July 2026; source keys [Er77c, p.57][ErGa91, p.268]; commentary on
+erdosproblems.com label for a resolution that is neither a proof nor a disproof;
+last edited 5 July 2026; source keys [Er77c, p.57][ErGa91, p.268]; commentary on
 Galvin's coloring, [ErGa91], Problem 532 and the June 2026 disproof), its
 nineteen-comment discussion thread (22 September 2025 to 6 July 2026) and
 its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #948,
@@ -105,7 +108,7 @@ https://www.erdosproblems.com/948, accessed 2026-09-18.
   Math. 87 (1991), no. 3, 261--269, doi:10.1016/0012-365X(91)90135-O
   (received 3 January 1989; February 1991 per the Crossref record; zbMATH
   0759.05095). The PDF pages cited here are those of the publisher's
-  open-archive file. The site cites p. 268 (PDF p. 8), which carries
+  open-archive file. erdosproblems.com cites p. 268 (PDF p. 8), which carries
   Theorem 4.1 (Galvin's coloring with its proof), Problem 4.2 (this
   problem) and Theorem 4.3 (the interval-sums theorem); Theorem 2.1 (p. 262,
   PDF p. 2) is quoted below. Library home:
@@ -113,15 +116,15 @@ https://www.erdosproblems.com/948, accessed 2026-09-18.
 - [Pr26] "A Negative Answer to an Erdős--Galvin Problem", the argument
   note, title as given in the Lean file's docstring. Linked from the thread
   comment of 21 June 2026 as an online editable document
-  (https://www.overleaf.com/read/grttvnmptzwz) and from the site's
+  (https://www.overleaf.com/read/grttvnmptzwz) and from the erdosproblems.com
   commentary as a project link
   (https://www.overleaf.com/project/6a37c43804fb818b104241f5). The read
   link returns the editor's application page (a script-driven page with a
   login form, no PDF and no export), so the document is inaccessible; the
-  project link requires an account. Authorship as the thread and the site
-  give it: prompted and posted by the contributor Liam Price, the argument
-  credited to GPT Pro; the Lean file's header names the model GPT-5.5 Pro
-  and prints the contributor's first name differently.
+  project link requires an account. Authorship as the thread and
+  erdosproblems.com give it: prompted and posted by the contributor Liam Price,
+  the argument credited to GPT Pro; the Lean file's header names the model
+  GPT-5.5 Pro and prints the contributor's first name differently.
 - [Le26] The Lean formalization:
   [`plby/lean-proofs` `src/latest/ErdosProblems/Erdos948.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos948.lean),
   the `main` head of 15 September 2026 (23,716 bytes; toolchain comment
@@ -153,20 +156,21 @@ theorem, `erdos_948.variants.monochromatic` (`research solved`,
 `answer(False)`, `sorry`, the same `formal_proof` attribute), is the
 original monochromatic question with $k\ge2$. The statement file is not a
 formalization of the claim: it proves nothing itself, and the proof it points to
-is the external file, which this corpus has not built. The site's indicator
-reports a formalized statement, and the community database (2026-10-06) records
-the statement formalized since 18 September 2026, lists the problem as solved as
-of its last update on 6 July 2026, and gives `formal_status` unformalized and no
-formal-proof URL. The site's label carried no (Lean) suffix. The external Lean
-file behind the site's account is described under "The disproof and its Lean
+is the external file, which this corpus has not built. The erdosproblems.com
+indicator reports a formalized statement, and the community database
+(2026-10-06) records the statement formalized since 18 September 2026, lists the
+problem as solved as of its last update on 6 July 2026, and gives
+`formal_status` unformalized and no formal-proof URL. The erdosproblems.com
+label carried no (Lean) suffix. The external Lean file behind
+erdosproblems.com's account is described under "The disproof and its Lean
 artifact" below.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; SOLVED, the site's label for a resolution that is neither a proof
-nor a disproof, last edited 5 July 2026. The commentary recounts that Erdős
-first asked for the set of sums to be monochromatic, and that Galvin
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; SOLVED, the erdosproblems.com label for a resolution that is neither a
+proof nor a disproof, last edited 5 July 2026. The commentary recounts that
+Erdős first asked for the set of sums to be monochromatic, and that Galvin
 answered that question in the negative with the two-coloring that writes
 $n=2^km$ with $m$ odd and colors $n$ by whether $m\ge F(k)$, for a
 sufficiently fast-growing $F$, so that the present question has answer no
@@ -181,23 +185,23 @@ by Price, and states the theorem: for any $f$ there is a coloring
 of $\mathbb{N}$ by $\mathbb{N}$ under which every sequence $a_1<\cdots$ with
 $a_n<f(n)$ for infinitely many $n$ has finite sums of every color, the
 finite-color case following at once. The thread, oldest first: 22 September
-2025, the site's author and two commenters, one of them Stijn Cambie, on the
-formulation (if the sequence may depend on $n$ the answer is yes by Folkman's
-theorem; the site's author re-read [Er77c] and posted the revised wording with
-"for infinitely many $n$"; a proposed simple coloring was shown not to work;
-Cambie explained why Galvin's coloring works and, on 23 September, noted that
-two natural three-color extensions of it fail); 22 October 2025, a comment
-identifying the problem as Problem 4.2 of [ErGa91] and Galvin's example as
-Theorem 4.1 there, while the $\aleph_0$ version appears only in the earlier
-problem paper; 21 June 2026, Liam Price posting the disproof that GPT Pro
-produced, with two links (the argument document and a Lean web-editor page), the
-argument formalized in Lean with Aristotle; the same day, a comment reporting
-that a screening check it links to found no issue and that the Lean matched the
-paper, and judging the argument an extension of [ErGa91]; 22 June 2026, Cambie
-on notation and then reporting that their review had confirmed the proof, with
-minor comments sent to the author for the note, a comment the site marked as
-addressed; 6 July 2026, the site's author with a sketch of the construction
-(below). The proof-claim tab is empty.
+2025, erdosproblems.com's author and two commenters, one of them Stijn Cambie,
+on the formulation (if the sequence may depend on $n$ the answer is yes by
+Folkman's theorem; erdosproblems.com's author re-read [Er77c] and posted the
+revised wording with "for infinitely many $n$"; a proposed simple coloring was
+shown not to work; Cambie explained why Galvin's coloring works and, on 23
+September, noted that two natural three-color extensions of it fail); 22 October
+2025, a comment identifying the problem as Problem 4.2 of [ErGa91] and Galvin's
+example as Theorem 4.1 there, while the $\aleph_0$ version appears only in the
+earlier problem paper; 21 June 2026, Liam Price posting the disproof that GPT
+Pro produced, with two links (the argument document and a Lean web-editor page),
+the argument formalized in Lean with Aristotle; the same day, a comment
+reporting that a screening check it links to found no issue and that the Lean
+matched the paper, and judging the argument an extension of [ErGa91]; 22 June
+2026, Cambie on notation and then reporting that their review had confirmed the
+proof, with minor comments sent to the author for the note, a comment Bloom's
+catalog marked as addressed; 6 July 2026, erdosproblems.com's author with a
+sketch of the construction (below). The proof-claim tab is empty.
 
 **The origin ([Er77c], p. 57).** After the
 Graham--Rothschild conjecture and Hindman's theorem
@@ -210,8 +214,8 @@ $n=2^xy$ with $y$ odd and puts $n$ in the first class when $y\ge F(x)$ and
 in the second otherwise, for $F(m)\to\infty$ fast enough; Erdős calls it
 easy to see that this gives a counterexample. He then offers two ways to
 save a nontrivial problem. The first, printed without a quantifier on $n$,
-is the site's question: "Is it true that there is an $f(n)$ so that if we
-split the integers into $k$ (or $\aleph_0$) classes there is a sequence
+is the erdosproblems.com question: "Is it true that there is an $f(n)$ so that
+if we split the integers into $k$ (or $\aleph_0$) classes there is a sequence
 $a_1<a_2<\ldots$, $a_n<f(n)$ so that at least one of the classes is disjoint
 from the set of all sums $\sum\varepsilon_ka_k$?" He adds a weaker variant:
 split the integers into continuum many classes $A_\alpha$,
@@ -240,28 +244,29 @@ for some $i\in\{1,\ldots,k+1\}$ and $x_n\le\varphi(n)$ for infinitely many
 $n$?", for finitely many classes only (the $\aleph_0$ version stays with
 [Er77c], as the thread's comment of 22 October 2025 says), and records "By
 Theorem 4.1, the answer is negative for $k=1$. We know nothing about the
-case $k=2$" (three classes, the site's $k=3$). Its Theorem 4.3 (p. 268,
-proof pp. 268--269) is the interval-sums result the site quotes: for every
-$k$ there is $c>0$ such that any partition $\mathbb{N}=C_1\cup\cdots\cup C_k$
-has a set $X$ with $\mathrm{CFS}(X)\subseteq C_i\cup C_j$ for some $i,j$ and
+case $k=2$" (three classes, erdosproblems.com's $k=3$). Its Theorem 4.3 (p. 268,
+proof pp. 268--269) is the interval-sums result erdosproblems.com quotes: for
+every $k$ there is $c>0$ such that any partition
+$\mathbb{N}=C_1\cup\cdots\cup C_k$ has a set $X$ with
+$\mathrm{CFS}(X)\subseteq C_i\cup C_j$ for some $i,j$ and
 $|X\cap\{1,\ldots,n\}|\ge c\log\log n$ for infinitely many $n$, proved from
 its Corollary 2.2 with $r=2$ applied to the coloring of $\{a,b\}$ by the class
 of $2^b-2^a$. The theorem gives $a_n<2^{2^{O(n)}}$ for infinitely many $n$,
-while the site's commentary states the bound for every $n$. The paper's main
-result, Theorem 2.1 (p. 262, PDF p. 2), is as the zbMATH review states it: for
-positive integers $r,k$ and a function $\varphi:\mathbb{N}\to\mathbb{R}$ with
-$n\to(\varphi(n))^r_{k+1}$ for all large $n$, every coloring
-$f:[\mathbb{N}]^r\to\{1,\ldots,k\}$ has a set $A\subseteq\mathbb{N}$ with
-$|\{f(X):X\in[A]^r\}|\le2^{r-1}$ and $|A\cap\{1,\ldots,n\}|\ge\varphi(n)$ for
-infinitely many $n$; its proof (pp. 263--265) is an ultrafilter argument.
-Result pages:
+while the erdosproblems.com commentary states the bound for every $n$. The
+paper's main result, Theorem 2.1 (p. 262, PDF p. 2), is as the zbMATH review
+states it: for positive integers $r,k$ and a function
+$\varphi:\mathbb{N}\to\mathbb{R}$ with $n\to(\varphi(n))^r_{k+1}$ for all large
+$n$, every coloring $f:[\mathbb{N}]^r\to\{1,\ldots,k\}$ has a set
+$A\subseteq\mathbb{N}$ with $|\{f(X):X\in[A]^r\}|\le2^{r-1}$ and
+$|A\cap\{1,\ldots,n\}|\ge\varphi(n)$ for infinitely many $n$; its proof (pp.
+263--265) is an ultrafilter argument. Result pages:
 [[../library/ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems/theorem_4_1|Theorem 4.1]],
 [[../library/ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems/problem_4_2|Problem 4.2]]
 and
 [[../library/ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems/theorem_4_3|Theorem 4.3]].
 
 **The disproof and its Lean artifact (not built).** The note itself
-is inaccessible (References). Its content is known from the site's
+is inaccessible (References). Its content is known from erdosproblems.com's
 sketch of 6 July 2026 and from the Lean file. The sketch: a coloring with
 countably many colors is built (the finite version for $k$ follows by
 reducing the color modulo $k$); with $G$ a fast-growing function depending
@@ -304,27 +309,28 @@ and an alias `erdos_948`. The file contains no `sorry` and no `axiom`
 declaration. Two points about its statements (no fidelity review exists): the
 packaged positive assertion quantifies over all finite index sets including the
 empty one, whose sum is $0$, so its negation alone is slightly weaker than the
-negation of the site's statement with nonempty $S$; the theorems `countable`,
-`finite` and `finite_nat`, which produce a nonempty index set for every color,
-cover the site's reading directly, and the formal-conjectures statement file
-(Formalization above), which states the problem with nonempty $S$, points its
-`formal_proof` attribute at `finite`. This corpus has not built or
-kernel-checked the file, and no step of the argument has been checked.
+negation of the erdosproblems.com statement with nonempty $S$; the theorems
+`countable`, `finite` and `finite_nat`, which produce a nonempty index set for
+every color, cover erdosproblems.com's reading directly, and the
+formal-conjectures statement file (Formalization above), which states the
+problem with nonempty $S$, points its `formal_proof` attribute at `finite`. This
+corpus has not built or kernel-checked the file, and no step of the argument has
+been checked.
 
-**Which question the disproof answers.** Exactly the site's statement:
-for every $f$ and every number of colors $k\ge1$, and for $\aleph_0$ colors,
-there is a coloring under which every strictly increasing sequence with
+**Which question the disproof answers.** Exactly the erdosproblems.com
+statement: for every $f$ and every number of colors $k\ge1$, and for $\aleph_0$
+colors, there is a coloring under which every strictly increasing sequence with
 $a_n<f(n)$ for infinitely many $n$ has finite sums of every color, so no
 pair $(f,k)$ has the asked property; under the "all $n$" reading of Erdős's
 question the same coloring works (Formulation). Erdős's "weaker statement"
 about continuum many almost disjoint classes is a different structure and is
-not addressed by the artifact or by the site. Galvin's coloring remains the
-two-color case in its original monochromatic form; the 2026 coloring is,
-as the screening comment says, in the spirit of [ErGa91].
+not addressed by the artifact or by erdosproblems.com. Galvin's coloring remains
+the two-color case in its original monochromatic form; the 2026 coloring is, as
+the screening comment says, in the spirit of [ErGa91].
 
-**Label and commentary notes.** (a) The site's
+**Label and commentary notes.** (a) The erdosproblems.com
 label was SOLVED, its label for a resolution that is neither a proof nor a
-disproof, although the answer is negative; the site labeled
+disproof, although the answer is negative; Bloom's catalog labeled
 [[problems/ramsey_theory/E1198/_index|Problem 1198]], answered negatively the same
 spring, DISPROVED. (b) The commentary's statement that the original
 question remains open even for countably many colors stands beside the
@@ -339,7 +345,7 @@ $\aleph_0$. Under either reading the sentence predates the disproof.
 refereed or arXiv version of the note, a written review beyond the thread,
 a dispute of the argument, or a second proof.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing (no file before the statement file
   of 18 September 2026, described under Formalization);
   the community database and its snapshot of 2026-10-06; the
@@ -369,7 +375,7 @@ Not searched: MathSciNet, Google Scholar, X.
 
 **Remaining gaps.** (1) The argument note is inaccessible; an exported PDF
 or an arXiv version of the note would close that gap. (2) No step of the
-argument has been checked beyond the theorem statements and the site's
+argument has been checked beyond the theorem statements and erdosproblems.com's
 sketch; this corpus has not built the Lean file, and the empty-index-set
 point above is not a fidelity review. (3) The almost-disjoint-classes
 variant of [Er77c] is untouched. (4) The label vocabulary and the

@@ -5,7 +5,7 @@ desc: |
   Theorem 1.1 of Conlon, Fox and Pham's 2021 preprint, at $r=2$, gives a Ramsey
   2-complete sequence with $O(\log^2 n)$ terms up to $n$, and shows that none
   has $c\log^2 n$ terms up to every large $n$. The preprint is unrefereed, and
-  the site's curator credits it as the resolution.
+  the erdosproblems.com curator credits it as the resolution.
 authors:
 - David Conlon
 - Jacob Fox
@@ -37,9 +37,9 @@ a sequence with at most $cr\log^2n$ terms up to $n$ for every large $n$ is
 never $r$-Ramsey complete. At $r=2$ this answers
 [[problems/ramsey_theory/E0054/_index|Problem 54]]: the constructed
 sequence has $|A\cap[n]|\le2C\log^2n$ for all $n$, which replaces the
-cube of the logarithm in the site's second display by its square, and the
-lower bound matches the site's first display up to the constant, so the
-sparsest Ramsey $2$-complete sequence has counting function of order
+cube of the logarithm in erdosproblems.com's second display by its square, and
+the lower bound matches erdosproblems.com's first display up to the constant, so
+the sparsest Ramsey $2$-complete sequence has counting function of order
 $\log^2n$ and only the constant factor remains. The paper identifies the
 problem as the Burr--Erdős question carrying Erdős's prize and says its first
 theorem solves it together with the question for $r\ge3$, which is
@@ -47,12 +47,12 @@ theorem solves it together with the question for $r\ge3$, which is
 the paper's threshold $n(A)$ makes the constructed sequence entirely Ramsey
 $2$-complete with the same bound up to an additive constant.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-SOLVED and credits the resolution to the paper in the problem's commentary. The
-commentary records the constructed Ramsey $2$-complete sequence with counting
-function $\ll(\log N)^2$ (page last edited 28 October 2025, accessed
-2026-09-18). The discussion thread and the proof-claim tab are empty. The
-curator is independent of the authors.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem SOLVED and credits the resolution to the paper in the problem's
+commentary. The commentary records the constructed Ramsey $2$-complete sequence
+with counting function $\ll(\log N)^2$ (page last edited 28 October 2025,
+accessed 2026-09-18). The discussion thread and the proof-claim tab are empty.
+The curator is independent of the authors.
 
 Not refereed: the paper is an arXiv preprint. Version 1 of 30 April 2021 was the
 only version on the listing on 2026-09-18, and no journal version was found

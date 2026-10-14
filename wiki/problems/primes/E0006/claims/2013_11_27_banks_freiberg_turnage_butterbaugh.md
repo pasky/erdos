@@ -71,9 +71,9 @@ paper, digested on
 
 **Acceptance.** The paper is a refereed journal publication, the `refereed`
 evidence. The publisher's record gives the year 2015, and the page is dated by
-the preprint's first posting. The site's curator, Thomas Bloom, labeled the
-problem proved and credits the affirmative answer to this paper, the `reviewed`
-evidence.
+the preprint's first posting. The erdosproblems.com curator, Thomas Bloom,
+labeled the problem proved and credits the affirmative answer to this paper, the
+`reviewed` evidence.
 
 **Formalization.** The linked Lean file in Boris Alexeev's `lean-proofs`
 repository, pinned at the commit in the link, declares itself a Lean
@@ -87,8 +87,8 @@ text scan of that top file alone, not of the modules it imports (it imports
 found no `sorry`, `axiom`, `native_decide` or `admit` token. The statement
 file in `google-deepmind/formal-conjectures` states the question and the two
 general runs with `sorry`, marked research solved, so it is not a
-formalization link. The site's Lean qualification is matched by no proof
-link on the problem page itself; this file is the only Lean proof of the
+formalization link. The erdosproblems.com Lean qualification is matched by no
+proof link on the problem page itself; this file is the only Lean proof of the
 statement found. This corpus has not built or kernel-checked it, so no
 `formalized` evidence is listed.
 

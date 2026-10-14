@@ -58,7 +58,7 @@ the bound along a sequence $b_q$ with $b_{q+1}/b_q\to1$.
 
 ## Bears on
 
-No problem in the catalog is recorded here as concerning this theorem. It
+No problem in Bloom's catalog is recorded here as concerning this theorem. It
 sums component diameters, while
 [[polynomials/erdos_1958_metric_properties_polynomials/problem_7|Problem 7]]
 (#1048) asks for one large component.

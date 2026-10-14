@@ -32,8 +32,8 @@ updated: 2026-10-08T00:44:25Z
 **Claim.** B. A. Sørensen and C. Thomassen, *On $k$-rails in graphs*,
 J. Combinatorial Theory Ser. B **17** (1974), no. 2, 143--159, write $f_k(n)$
 for the least number of edges forcing a $k$-rail, two vertices joined by $k$
-internally disjoint paths, in a graph on $n$ vertices; this is the site's
-$k_m(n)$. Their
+internally disjoint paths, in a graph on $n$ vertices; this is
+erdosproblems.com's $k_m(n)$. Their
 [[../library/extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/theorem_4|Theorem 4]]
 (p. 158) gives $f_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge6$, $n\ne7$,
 $n\ne12$, with $f_5(7)=16$ and $f_5(12)=28$, and their
@@ -66,17 +66,17 @@ The first published counterexample, at $m=5$, is
 **Acceptance.** Refereed: Journal of Combinatorial Theory, Series B, volume 17,
 issue 2, pp. 143--159. Its Crossref record, accessed 2026-10-07, gives the issue
 date as October 1974, and this page's date is the issue's nominal first day.
-Reviewed: the site's curator, T. F. Bloom, independent of the authors, credits
-the paper with the exact $k_5(n)$ and the general lower bound in the problem's
-commentary. The thread post of 27 October 2025 that led to the label describes
-the paper as disproving the question for all $k\ge5$ while proving the $k=5$
-case for 3-connected graphs. The source, the publisher's open-archive file, has
-a library
+Reviewed: the erdosproblems.com curator, T. F. Bloom, independent of the
+authors, credits the paper with the exact $k_5(n)$ and the general lower bound
+in the problem's commentary. The thread post of 27 October 2025 that led to the
+label describes the paper as disproving the question for all $k\ge5$ while
+proving the $k=5$ case for 3-connected graphs. The source, the publisher's
+open-archive file, has a library
 [[../library/extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/_index|source card]].
 Read depth: Theorems 3 and 4 and Corollary 2. Lemma 5, which lies behind the
 corollary, and the value $f_5(12)=28$ are printed without proof, and no proof is
-checked. The acceptance rests on the publication and the site's acceptance.
-Nothing is independently reviewed by this project.
+checked. The acceptance rests on the publication and erdosproblems.com's
+acceptance. Nothing is independently reviewed by this project.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos915.lean` of
 Alexeev's repository `plby/lean-proofs`, linked above at the repository's head

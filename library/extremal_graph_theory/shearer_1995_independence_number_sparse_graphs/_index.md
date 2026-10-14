@@ -37,7 +37,7 @@ with the copyright line "1995 John Wiley & Sons, Inc." and the code CCC
 Research Center, Yorktown Heights (p. 269). Cited as [Sh95] on the problem
 pages. Its two references (p. 271) are Ajtai, Erdős, Komlós and Szemerédi,
 On Turán's theorem for sparse graphs, Combinatorica 1 (1981), 313--317 (the
-paper's [1], the site's AEKS81, filed as
+paper's [1], erdosproblems.com's AEKS81, filed as
 [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/_index|ajtai_1981_turan_s_theorem_sparse_graphs]];
 its Theorem 2 is the bound this paper improves and its display (3) the
 question this paper leaves open), and Kleitman, Shearer and Sturtevant,
@@ -164,13 +164,13 @@ statements read on the page images with their proofs read for structure
 only. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0802/_index|#802]]: Corollary 2
-(printed p. 271, PDF p. 3) is the site's second display, the best bound
+(printed p. 271, PDF p. 3) is erdosproblems.com's second display, the best bound
 in the refereed record for $r\ge4$: a $K_r$-free graph on $n$ vertices with
 average degree $d$ has $\alpha\ge c'(r)\,n\ln d/(d\ln\ln d)$ for large $d$,
-in the site's indexing ($K_r$-free, $r\ge4$) and with the site's $t$ as the
-paper's $d$; the introduction (p. 269) names the 1981 bound
-$c'(r)\,n\ln\ln d/d$ as the one improved and says the result "does not
-settle the question (asked in [1])" of the $\ln d/d$ order, which is the
+in the erdosproblems.com indexing ($K_r$-free, $r\ge4$) and with
+erdosproblems.com's $t$ as the paper's $d$; the introduction (p. 269) names the
+1981 bound $c'(r)\,n\ln\ln d/d$ as the one improved and says the result "does
+not settle the question (asked in [1])" of the $\ln d/d$ order, which is the
 problem's statement, so the paper records the problem open as of 1995 and
 settles nothing on it.
 [[../wiki/problems/extremal_graph_theory/E0620/_index|#620]]: Corollary 1 (p. 271, PDF
@@ -184,8 +184,8 @@ Sudakov print; the paper itself states neither.
 [[../wiki/problems/ramsey_theory/E0553/_index|#553]]: Corollary 1 (p. 271, PDF p. 3) is
 the independence bound for $K_s$-free graphs of maximum degree $D$ that the
 proof of Theorem 3.2 of Alon and Rödl consumes, their reference [22], in
-the induction on the number of triangle colors; it is not the 1983 note the
-site cites for $R(3,n)\ll n^2/\log n$.
+the induction on the number of triangle colors; it is not the 1983 note
+erdosproblems.com cites for $R(3,n)\ll n^2/\log n$.
 
 **Results.**
 

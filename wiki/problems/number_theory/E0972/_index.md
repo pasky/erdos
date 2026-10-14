@@ -22,8 +22,8 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Let $\alpha>1$ be irrational. Are there infinitely many primes
 $p$ such that $\lfloor p\alpha\rfloor$ is also prime?
 
-**Formulation.** The site's wording (the page carries no last-edited date).
-The question asks, for every fixed irrational $\alpha>1$, for infinitely
+**Formulation.** The erdosproblems.com wording (the page carries no last-edited
+date). The question asks, for every fixed irrational $\alpha>1$, for infinitely
 many primes $p$ such that the Beatty-sequence value $\lfloor p\alpha\rfloor$
 is prime. Erdős's 1965 print (p. 210) poses it as "whether there are
 infinitely many primes $p$ for which $[p\alpha]=q$" right after recording
@@ -31,10 +31,10 @@ that for every irrational $\alpha>1$ the equation $[n\alpha]=p$ has
 infinitely many prime solutions, the one-prime statement. The thread notes
 that the question makes sense for every positive $\alpha$ outside
 $\mathbb N$ and that for $\alpha=1/2$ it is the infinitude of Sophie Germain
-primes; those are variants of the site's $\alpha>1$. The formal-conjectures
-file encodes the site's statement exactly. The heuristic count of such
-primes up to $x$ is of order $x/(\log x)^2$, as for twin primes (the
-thread), a heuristic and not a result.
+primes; those are variants of erdosproblems.com's $\alpha>1$. The
+formal-conjectures file encodes the erdosproblems.com statement exactly. The
+heuristic count of such primes up to $x$ is of order $x/(\log x)^2$, as for twin
+primes (the thread), a heuristic and not a result.
 
 **Status.** Open. No proof, disproof, preprint or proof claim for the exact
 statement was found in the search whose scope the Current assessment records.
@@ -47,9 +47,9 @@ question. The thread's judgment puts it at the difficulty of the twin prime
 conjecture.
 
 **Source.** [erdosproblems.com/972](https://www.erdosproblems.com/972),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can settle it; no last-edited date; source key [Er65b];
-commentary citing [Vi48]), its two-comment discussion thread (8 October
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; no last-edited date; source key
+[Er65b]; commentary citing [Vi48]), its two-comment discussion thread (8 October
 2025) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #972, https://www.erdosproblems.com/972, accessed 2026-09-18.
 
@@ -57,8 +57,8 @@ commentary citing [Vi48]), its two-comment discussion thread (8 October
 
 - [Er65b] Erdős, P., Some recent advances and current problems in number
   theory. Lectures on Modern Mathematics, Vol. III, Wiley (1965), 196--244.
-  Printed p. 210; the site's key gives no page. Erdős's reference [24]
-  there groups Turán's 1937 Acta Szeged paper on primes in arithmetic
+  Printed p. 210; the erdosproblems.com key gives no page. Erdős's reference
+  [24] there groups Turán's 1937 Acta Szeged paper on primes in arithmetic
   progressions, Erdős's 1949 paper on applications of Brun's method (Acta
   Szeged 13, 57--63) and Vinogradov's 1948 paper [Vi48] (reference list,
   printed pp. 240--241). Library home:
@@ -105,7 +105,7 @@ proof. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN; no last-edited date. The commentary derives the one-prime
 statement from Vinogradov's theorem [Vi48] that $\{p\alpha\}$ is uniformly
 distributed for every irrational $\alpha$: a prime $p$ has the form
@@ -132,7 +132,7 @@ is not known whether there are infinitely many primes $p$ for which
 $[p\alpha]=q$." The passage records the one-prime statement as known and
 poses the two-prime question; it proves nothing.
 
-**The one-prime statement (settled; not the problem).** The site's
+**The one-prime statement (settled; not the problem).** erdosproblems.com's
 argument is checked here: for $\alpha>1$ irrational and a prime $p$, the
 interval $[p/\alpha,(p+1)/\alpha)$ has length $\alpha^{-1}<1$ and contains
 an integer $n$ exactly when the fractional part of its left endpoint
@@ -140,8 +140,8 @@ exceeds $1-\alpha^{-1}$, so $p=\lfloor n\alpha\rfloor$ for some $n$ if and
 only if $\{p\alpha^{-1}\}>1-\alpha^{-1}$, and the uniform distribution of
 $\{p\alpha^{-1}\}$ over the primes gives a proportion $\alpha^{-1}$ of the
 primes of this form. The uniform distribution of $\{p\theta\}$ for
-irrational $\theta$ is Vinogradov's theorem, which Erdős and the site both
-cite to [Vi48]. The 1948 paper does not state it: its standing notation
+irrational $\theta$ is Vinogradov's theorem, which Erdős and erdosproblems.com
+both cite to [Vi48]. The 1948 paper does not state it: its standing notation
 fixes an integer constant $n\ge10$ bounding the degree of the phase
 (pp. 225--226); Theorem 1 (pp. 234--235) bounds
 $S=\sum_{p\le P}e^{2\pi ilf(p)}$ for $f(p)=a_np^n+\cdots+a_1p$ when a
@@ -187,19 +187,19 @@ $\pi^*_{\alpha,\beta}(x)=\#\{p\le x:\text{both }p\text{ and }[\alpha
 p+\beta]\text{ are primes}\}$". With $\beta=0$ this gives infinitely many primes
 $p$ with $[\alpha p]$ prime for almost every $\alpha$, at the heuristic order
 $x/(\log x)^2$ along a sequence of $x$; it says nothing about any individual
-$\alpha$, so the site's question, which quantifies over every irrational
-$\alpha>1$, is untouched. The paper's statement is known here from its abstract
-only. The title of [So21] names the same primes; its results are not recorded
-here. The citing records of [BaSh07] (52 records, scanned by title) concern
-Beatty primes in short intervals, in intersections of Beatty sequences and in
-Piatetski-Shapiro sequences, consecutive primes and bounded gaps between primes
-in Beatty sequences, and $k$-free values of $\lfloor\alpha p\rfloor$; none
-claims the two-prime statement for every $\alpha$.
+$\alpha$, so the erdosproblems.com question, which quantifies over every
+irrational $\alpha>1$, is untouched. The paper's statement is known here from
+its abstract only. The title of [So21] names the same primes; its results are
+not recorded here. The citing records of [BaSh07] (52 records, scanned by title)
+concern Beatty primes in short intervals, in intersections of Beatty sequences
+and in Piatetski-Shapiro sequences, consecutive primes and bounded gaps between
+primes in Beatty sequences, and $k$-free values of $\lfloor\alpha p\rfloor$;
+none claims the two-prime statement for every $\alpha$.
 
 **Search scope.** None of the routes below found a proof,
 disproof, preprint or proof claim for every irrational $\alpha>1$.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database as
   accessed 2026-09-18.
 - The primary sources: [Er65b] p. 210 and its reference list; [Vi48]
@@ -223,11 +223,11 @@ Problem 997, does not bear on this question.
 $\alpha$; the almost-all result is second-hand from an abstract; reopening
 condition: a source proving the statement for every irrational $\alpha>1$,
 or a disproof for some $\alpha$. (2) Source identity: the equidistribution
-theorem the site's argument uses is not stated in the 1948 paper, and
+theorem erdosproblems.com's argument uses is not stated in the 1948 paper, and
 Vinogradov's earlier work carrying it is not held; the remark above records
-the citation as Erdős's and the site's. (3) Proof coverage: claims checked
-for Theorem 5.4 and its corollaries and for the hypotheses of Theorems 1--4
-of [Vi48]; nothing is proved or reviewed here, and there is no resolving
+the citation as Erdős's and erdosproblems.com's. (3) Proof coverage: claims
+checked for Theorem 5.4 and its corollaries and for the hypotheses of Theorems
+1--4 of [Vi48]; nothing is proved or reviewed here, and there is no resolving
 proof to compile. (4) The Lean file is a statement, not a proof.
 <!-- BEGIN problem library links -->
 

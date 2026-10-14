@@ -47,7 +47,7 @@ proving that its reduction mod 2^n has order 2^(n-4) for n >= 6, and recalls
 from earlier work that the conjecture of problem 1135 is equivalent to Z^+
 contained in Phi((1/3)Z).
 
-[[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs/]]: The catalog curator's blog post of 8 October 2026 listing the OpenAI
+[[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs/]]: The erdosproblems.com curator's blog post of 8 October 2026 listing the OpenAI
 mathematics release's claims on 25 Erdős problems, with a short remark on
 each and whether its proof was formalized; a summary of claims, expressly
 not an endorsement.
@@ -59,7 +59,7 @@ factorizations, correcting Oppenheim, and gives a new lower bound for the
 smooth-number count Psi(x,y) with a uniform asymptotic.
 
 [[number_theory/chamberland_2003_update_survey/_index|chamberland_2003_update_survey/]]: Survey of the 3x+1 problem organized by attack surface, the same survey
-genre the site cites (La85/La10/La16) for problem 1135.
+genre erdosproblems.com cites (La85/La10/La16) for problem 1135.
 
 [[number_theory/chamberland_2015_averaging_structure/_index|chamberland_2015_averaging_structure/]]: Its results are identities for the generating functions of the iterates of
 qx+r maps, whose polar coefficients stay fixed in n when q = 3, except the
@@ -81,8 +81,8 @@ problem behind both; the proof announced in their 1981 PNAS note.
 [[number_theory/cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey/_index|cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey/]]: A 2026 arXiv preprint, with declared AI assistance, claiming the matching
 lower bound f(n) >= (1/4 - o(1)) n for the minimum number of Farey fractions
 between a badly ordered pair, so that f(n) = (1/4 + o(1)) n; the source
-behind the site's SOLVED label for Problem 1005, accepted by the site and
-not refereed.
+behind erdosproblems.com's SOLVED label for Problem 1005, accepted by
+erdosproblems.com and not refereed.
 
 [[number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes/_index|colliot_thelene_skorobogatov_2021_brauer_groups_schemes/]]: Surveys Brauer groups of schemes (Azumaya versus cohomological, residues,
 purity) and proves injectivity into the function-field Brauer group.
@@ -297,8 +297,8 @@ and names, the prizes offered for it (by Coxeter, Erdős and Thwaites),
 Erdős's dictum "Mathematics is not yet ready for such problems" (p. 3),
 Terras's stopping-time theory and the density bounds of Theorems A-F, the
 cycle results of Theorems H-J, the 2-adic connections, and Conway's
-undecidability theorems; the origin of the Erdős prize the site attaches to
-Problem 1135.
+undecidability theorems; the origin of the Erdős prize erdosproblems.com
+attaches to Problem 1135.
 
 [[number_theory/lagarias_2003_annotated_bibliography_1/_index|lagarias_2003_annotated_bibliography_1/]]: Lagarias's annotated bibliography of the 3x+1 literature 1963-1999, which
 poses the 3x+1 Conjecture of Problem 1135 and records Erdős's prize problem
@@ -442,8 +442,8 @@ proving the rational case via Hilbert reciprocity and Hasse–Minkowski.
 Problem 1005 function equals van Doorn's upper bound floor(n/4) + d, with
 d = 1, 2, 2, 4 for n = 0, 1, 2, 3 mod 4, for all sufficiently large n and,
 with a computer verification, its exact value for every n >= 4, the bound
-failing only at fifteen listed n up to 91; a proof claim on the site's tab,
-recorded as a lead, not refereed.
+failing only at fifteen listed n up to 91; a proof claim on the
+erdosproblems.com tab, recorded as a lead, not refereed.
 
 ***
 

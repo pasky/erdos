@@ -54,6 +54,6 @@ the corrected Elliott bound it prints is not proved there.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Acta Mathematica Hungarica published the paper. The
-site's curator labeled the problem DECIDABLE and credits Purdy and Smith. The
-remark that this paper reported the corrected bound without explanation is
-context and not acceptance evidence.
+erdosproblems.com curator labeled the problem DECIDABLE and credits Purdy and
+Smith. The remark that this paper reported the corrected bound without
+explanation is context and not acceptance evidence.

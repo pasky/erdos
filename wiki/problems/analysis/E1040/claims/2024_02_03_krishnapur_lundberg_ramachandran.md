@@ -53,7 +53,7 @@ theorem on
 [[problems/analysis/E1040/claims/2026_04_03_ghosh_ramachandran|the page of Ghosh
 and Ramachandran]], which needs no regularity assumption.
 
-**Refereed.** J. Approx. Theory 299 (2024), Paper No. 106018. The site does not
-name the paper.
+**Refereed.** J. Approx. Theory 299 (2024), Paper No. 106018. erdosproblems.com
+does not name the paper.
 
 **Depends on.** Nothing in this wiki.

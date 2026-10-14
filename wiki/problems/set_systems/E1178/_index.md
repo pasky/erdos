@@ -39,13 +39,14 @@ $$
 
 for all $r,e\geq 3$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 26 January
-2026). Two accepted partial claims, each together with the Brown–Erdős–Sós lower
-bound, settle the case $e=3$ for every $r\ge3$:
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 26
+January 2026). Two accepted partial claims, each together with the
+Brown–Erdős–Sós lower bound, settle the case $e=3$ for every $r\ge3$:
 [[problems/set_systems/E1178/claims/1986_12_01_erdos_frankl_rodl|Erdős, Frankl and Rödl's theorem]]
 and
 [[problems/set_systems/E1178/claims/2004_12_01_sarkozy_selkow|Sárközy and Selkow's bound]].
-The other results the site credits have no claim page here, for these reasons:
+The other results erdosproblems.com credits have no claim page here, for these
+reasons:
 
 - Ruzsa and Szemerédi's $d_3(3)=6$ [RuSz78] appeared in a proceedings volume,
   lies inside Erdős, Frankl and Rödl's theorem, and has its accepted claim
@@ -93,11 +94,12 @@ https://www.erdosproblems.com/1178.
 
 The case $e=3$ is settled for every $r\ge3$ by the two accepted partial claims
 named under Status, each combined with the Brown–Erdős–Sós lower bound; every
-case $e\ge4$ is open. The upper bounds the site credits for those cases are
-Sárközy and Selkow's $(r-2)e+2+\lfloor\log_2e\rfloor$ for all $r$, and for $r=3$
-Solymosi and Solymosi's $d_3(10)\le14$ and Conlon, Gishboliner, Levanzov and
-Shapira's $e+O(\log e/\log\log e)$. Search scope: the site's problem page and
-the references it lists; no wider literature search is recorded.
+case $e\ge4$ is open. The upper bounds erdosproblems.com credits for those cases
+are Sárközy and Selkow's $(r-2)e+2+\lfloor\log_2e\rfloor$ for all $r$, and for
+$r=3$ Solymosi and Solymosi's $d_3(10)\le14$ and Conlon, Gishboliner, Levanzov
+and Shapira's $e+O(\log e/\log\log e)$. Search scope: the erdosproblems.com
+problem page and the references it lists; no wider literature search is
+recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -285,6 +285,6 @@ file that the
 records; the theorem `infinite_rpowerful_sums` of the same file states the
 infinitude for the set of sums $N$, which the proof above also gives.
 Neither states that $N$ differs from the summands, which positivity
-supplies. Both are kernel-checked by that site and not built in this
+supplies. Both are kernel-checked by Conjectures.io and not built in this
 repository; neither is a native L-claim here, and this reconstruction was
 not compared with the Lean text line by line.

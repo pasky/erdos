@@ -36,9 +36,9 @@ $F_G(\aleph_1)\cap F_H(\aleph_1)$ is non-empty.
 If $\kappa,\lambda$ are uncountable cardinals and $F_G(\kappa)$ is non-empty
 then $F_G(\lambda)$ is non-empty.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 23 January
-2026). The one result claimed against the problem is recorded on its claim page,
-and the standing in the frontmatter is derived from it.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 23
+January 2026). The one result claimed against the problem is recorded on its
+claim page, and the standing in the frontmatter is derived from it.
 
 **Source.** [erdosproblems.com/1177](https://www.erdosproblems.com/1177),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1177,
@@ -50,9 +50,9 @@ https://www.erdosproblems.com/1177.
   Erdős and his mathematics", Budapest, July 1999; item 7.94, attributed to
   Erdős, Galvin and Hajnal, whose parts (a), (b) and (c) are the three
   assertions, with one difference: the booklet phrases (a) and (b) for
-  uncountably chromatic triple systems, where the site asks for chromatic number
-  exactly $\aleph_1$; Li's corollary proves the exact version and notes that it
-  implies the booklet's. Library home:
+  uncountably chromatic triple systems, where erdosproblems.com asks for
+  chromatic number exactly $\aleph_1$; Li's corollary proves the exact version
+  and notes that it implies the booklet's. Library home:
   [[../library/number_theory/various_1999_some_pauls_favorite_problems/_index|various_1999_some_pauls_favorite_problems]].
 
 **Formalization.** Statement in
@@ -60,10 +60,10 @@ https://www.erdosproblems.com/1177.
 
 ## Current assessment
 
-Search scope: the site's problem page, discussion thread and proof-claims tab,
-Li's arXiv preprint and the README of the claimant's repository, and the
-booklet's item 7.94. Not searched: arXiv beyond the preprint, zbMATH, MathSciNet
-and X. The proofs of the claimed resolution have
+Search scope: the erdosproblems.com problem page, discussion thread and
+proof-claims tab, Li's arXiv preprint and the README of the claimant's
+repository, and the booklet's item 7.94. Not searched: arXiv beyond the
+preprint, zbMATH, MathSciNet and X. The proofs of the claimed resolution have
 not been independently checked.
 
 **Claims.** One result is claimed from outside the project.
@@ -73,11 +73,11 @@ development) answers the three assertions yes, no and yes: the first and third
 from a dichotomy that every finite triple system outside an explicit class is
 avoided by triple systems of every uncountable chromatic number, with a witness
 of size at most $2^{2^{\aleph_0}}$ at $\aleph_1$, and the second refuted by two
-triples sharing a pair together with the loose $7$-cycle. The site has not
-accepted it, the corpus has not built its Lean, and the claim stays `claimed`,
-so the problem's standing is `claimed` with the claim `answered`, a mixed
-outcome: the second assertion fails while the first and third hold. The same
-manuscript claims the classification asked by
+triples sharing a pair together with the loose $7$-cycle. erdosproblems.com has
+not accepted it, the corpus has not built its Lean, and the claim stays
+`claimed`, so the problem's standing is `claimed` with the claim `answered`, a
+mixed outcome: the second assertion fails while the first and third hold. The
+same manuscript claims the classification asked by
 [[problems/set_theory/E0593/_index|Problem 593]].
 
 ## Known Results

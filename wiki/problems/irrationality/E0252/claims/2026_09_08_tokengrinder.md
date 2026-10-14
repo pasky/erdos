@@ -107,10 +107,10 @@ the GitHub login `tokengr1nder`, with the README author line "Tokengrinder";
 the author attributes the mathematics to an AI system ("GPT 6 Astra") and
 asked to stay anonymous, so the claim is recorded under the name the author
 published it under, with that attribution as the author's own. The same day
-the author registered a full-proof claim on the site's proof-claims page for
-the problem and opened issue #5334 in formal-conjectures; the pinned commit
-of 2026-09-13 is the repository's HEAD of that day, and only that commit is
-reviewed. The repository also carries the author's written exposition,
+the author registered a full-proof claim on the erdosproblems.com proof-claims
+page for the problem and opened issue #5334 in formal-conjectures; the pinned
+commit of 2026-09-13 is the repository's HEAD of that day, and only that commit
+is reviewed. The repository also carries the author's written exposition,
 `PROOF.pdf` with its source `PROOF.tex` and the outline `PROOF.md` (the
 `preprint` link), posted from 2026-09-08; the exposition states that the Lean
 source, not the exposition, is the checked artifact.
@@ -126,9 +126,9 @@ and its whole import closure from an empty environment with `leanchecker
 
 A fresh-context blind reviewer then read the theorem as it stood on 2026-09-18
 through a frozen extraction. The reviewer unfolded the statement to Mathlib's
-primitives and found it faithful to the site's question and strictly stronger
-(verdict refutation-failed). A distinct grader passed that review for its
-contract and for independence. These records, the third-round
+primitives and found it faithful to the erdosproblems.com question and strictly
+stronger (verdict refutation-failed). A distinct grader passed that review for
+its contract and for independence. These records, the third-round
 [[../library/irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/verify/fidelity_review_r3|fidelity review]]
 and its
 [[../library/irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/verify/fidelity_grade_r3|grade]],
@@ -151,8 +151,8 @@ accepted the theorem against that challenge with only `propext`,
 language model (`codex:gpt-6-sol`) with outcome neutral. The `formalized`
 evidence remains the build and review of the pinned commit.
 
-No `reviewed` or `refereed` evidence exists. The site labeled the problem open
-(page last edited 2026-01-22) and listed the author's entry under its
+No `reviewed` or `refereed` evidence exists. Bloom's catalog labeled the problem
+open (page last edited 2026-01-22) and listed the author's entry under its
 disclaimer. On 2026-10-13 the community database and formal-conjectures listed
 it open, with the issue unanswered. At the revision of 2026-10-06 linked as the
 first `record`, the formal-conjectures statement `erdos_252` is tagged research

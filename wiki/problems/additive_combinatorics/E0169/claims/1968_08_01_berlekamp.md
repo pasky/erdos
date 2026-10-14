@@ -4,8 +4,8 @@ title: Berlekamp's linear lower bound through van der Waerden numbers
 desc: |
   Berlekamp's Galois-field two-coloring shows $W(p+1)>p\,2^p$ for prime $p$.
   With the trivial comparison to $\log W(k)$, this gives
-  $f(k)\ge\bigl(\tfrac{\log2}{2}-o(1)\bigr)k$, the bound the site credits to
-  him.
+  $f(k)\ge\bigl(\tfrac{\log2}{2}-o(1)\bigr)k$, the bound erdosproblems.com
+  credits to him.
 authors:
 - E. R. Berlekamp
 status: accepted
@@ -36,8 +36,8 @@ in the Galois field of $2^t$ elements. In the notation of
 concerns $k$-term progressions, this is $W(p+1)>p\,2^p$ for every prime $p$.
 One class of a two-coloring of $\{1,\ldots,W(k)-1\}$ without a monochromatic
 $k$-term progression carries at least half of the harmonic sum, so
-$f(k)\ge\tfrac12H_{W(k)-1}>\tfrac12\log W(k)$, the trivial comparison the
-site records; Theorem 2 therefore gives
+$f(k)\ge\tfrac12H_{W(k)-1}>\tfrac12\log W(k)$, the trivial comparison
+erdosproblems.com records; Theorem 2 therefore gives
 $f(p+1)>\tfrac12(p\log2+\log p)$ for every prime $p$, and since $f$ is
 nondecreasing in $k$ and the primes have gaps $o(k)$,
 
@@ -45,7 +45,7 @@ $$
 f(k)\ge\Bigl(\frac{\log 2}{2}-o(1)\Bigr)k\qquad(k\to\infty),
 $$
 
-the linear lower bound the site's commentary credits to Berlekamp as
+the linear lower bound the erdosproblems.com commentary credits to Berlekamp as
 $f(k)\ge\frac{\log2}{2}k$. Walker's introduction records it in the same form.
 
 **Covers.** The lower bound $W(p+1)>p\,2^p$ for prime $p$ and the linear lower
@@ -60,9 +60,9 @@ comparison with $\log W(k)$ is the elementary one stated above.
 
 **Acceptance.** Refereed: E. R. Berlekamp, A construction for partitions which
 avoid long arithmetic progressions, Canad. Math. Bull. 11 (1968), no. 3,
-409–414. The site's curator credits the bound in the problem's commentary. The
-site labeled the problem OPEN, so that commentary is not acceptance of the
-problem, and the page lists no `reviewed` evidence.
+409–414. The erdosproblems.com curator credits the bound in the problem's
+commentary. Bloom's catalog labeled the problem OPEN, so that commentary is not
+acceptance of the problem, and the page lists no `reviewed` evidence.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 August 1968; the day is a placeholder.

@@ -43,12 +43,12 @@ an improvement on the upper bound of $W(n)$", and "Our proof uses the
 question of Spencer has interest: Is there a *recursive* 2-coloring of the
 integers with $F(d)\le(1+\varepsilon)\log_2d$?"
 
-What the theorem says about the site's $f(d)$ (the best function such
+What the theorem says about erdosproblems.com's $f(d)$ (the best function such
 that some class has, for infinitely many $d$, a progression of difference
 $d$ and length $f(d)$): for every $\varepsilon>0$ there is a 2-coloring
 under which, for all large $d$, no monochromatic progression of difference
 $d$ has more than $(1+\varepsilon)\log_2d$ terms; so
-$f(d)\le(1+o(1))\log_2d$, as the site writes it. The "best possible"
+$f(d)\le(1+o(1))\log_2d$, as erdosproblems.com writes it. The "best possible"
 remark is relative to the 1980 bound $W(n)\le\log_2n$ and is not an
 absolute optimality claim.
 
@@ -98,5 +98,5 @@ and the compactness principle.
 
 - [[../wiki/problems/ramsey_theory/E0187/_index|Problem 187]]: the best known upper bound
   $f(d)\le(1+o(1))\log_2d$, with the same "for infinitely many $d$"
-  quantifier as the site's statement; no lower bound is proved here or
-  anywhere found.
+  quantifier as the erdosproblems.com statement; no lower bound is proved here
+  or anywhere found.

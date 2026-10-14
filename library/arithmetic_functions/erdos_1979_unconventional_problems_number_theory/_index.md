@@ -75,11 +75,11 @@ covering exponent eps_n of p. 79), saying that almost certainly lim sup eps_n =
 infinity (but eps_n -> 0 for almost all n) and that probably eps_n < n^eps for n
 > n_0(eps) and every eps > 0. On #688 it introduces, as a modification of the
 Brun function B(n), the quantity eps_n: the smallest number (the paper's word;
-the 1980 survey and the site say largest) such that residues b_p can be chosen
-for every prime with n^{eps_n} < p <= n covering all positive x <= n; it asks
-whether eps_n -> 0 and states the lower bound eps_n > c log log log n/log log n
-with "I can prove" and no proof, and further asks for residues covering every x
-at least 2 (or at least r) times (#689).
+the 1980 survey and erdosproblems.com say largest) such that residues b_p can be
+chosen for every prime with n^{eps_n} < p <= n covering all positive x <= n; it
+asks whether eps_n -> 0 and states the lower bound eps_n > c log log log n/log
+log n with "I can prove" and no proof, and further asks for residues covering
+every x at least 2 (or at least r) times (#689).
 
 Source: <https://users.renyi.hu/~p_erdos/1979-23.pdf>.
 
@@ -100,11 +100,11 @@ and the asserted bound eps_n > c log log log n/log log n.
 image), the covering function B(n), the inverse of that problem's Y(x):
 Iwaniec's B(n) > c sqrt(n) as the best lower bound known, the wish
 B(n) > C n^{1/2} for every C, the expectation B(n) > n^{1-eps}, and
-Rankin's upper bound as printed; the site's header locator [Er79d, p. 79].
-[[../wiki/problems/integer_sequences/E0689/_index|#689]]: printed p. 79 (PDF p. 9, page
-image), the closing question whether one residue class c_p mod p can be
-picked for each prime p <= n so that each x in [1, n] falls in two or more
-(or r or more) of the chosen classes; no qualification on n is printed.
+Rankin's upper bound as printed; the erdosproblems.com header locator [Er79d, p.
+79]. [[../wiki/problems/integer_sequences/E0689/_index|#689]]: printed p. 79
+(PDF p. 9, page image), the closing question whether one residue class c_p mod p
+can be picked for each prime p <= n so that each x in [1, n] falls in two or
+more (or r or more) of the chosen classes; no qualification on n is printed.
 [[../wiki/problems/integer_sequences/E0929/_index|#929]]: printed p. 79 (PDF p. 9, page
 image), B(n) is that problem's S(n), the least prime cutoff whose residue
 classes cover [1, n]; "It is likely that B(n) > n^{1-eps}" is its displayed
@@ -117,10 +117,10 @@ p. 8, page image), the Erdos-Pomerance function q(n, k), the bound (10) q(n, k)
 and (2 + o(1)) log n, which works only with the product taken from i = 0 or with
 n + 1 as that product) with q(n, [log n]) as large as (2 + o(1)) log n, and the
 questions whether q(n, [log n]) < (2 + eps) log n and whether
-q(n, [log n]) < (1 - eps)(log n)^2; the site's header locator [Er79d, p. 78].
-[[../wiki/problems/integer_sequences/E0451/_index|#451]]: printed p. 78 (PDF p. 8, page
-image), the smallest m_n >= n for which the product of m_n + i over
-1 <= i <= n has no prime factor in (n, 2n), with the expectation m_n > n^k
+q(n, [log n]) < (1 - eps)(log n)^2; the erdosproblems.com header locator [Er79d,
+p. 78]. [[../wiki/problems/integer_sequences/E0451/_index|#451]]: printed p. 78
+(PDF p. 8, page image), the smallest m_n >= n for which the product of m_n + i
+over 1 <= i <= n has no prime factor in (n, 2n), with the expectation m_n > n^k
 for every k and m_n < e^{eps n}; a shifted variant of that problem's n_k.
 [[../wiki/problems/integer_sequences/E0677/_index|#677]]: printed p. 78 (PDF p. 8, page
 image), the conjecture that [n+1, ..., n+k] and [m+1, ..., m+k] differ for

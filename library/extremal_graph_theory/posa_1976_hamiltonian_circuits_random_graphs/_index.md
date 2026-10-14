@@ -196,8 +196,8 @@ and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: Theorem 3
 (p. 364), quoted above, a Hamiltonian circuit with probability tending to 1
-in the random graph on $n$ vertices with $[c_1n\log n]$ edges, is the
-site's "Pósa [Po76] proved
+in the random graph on $n$ vertices with $[c_1n\log n]$ edges, is
+erdosproblems.com's "Pósa [Po76] proved
 that almost surely a random graph with $\ge Cn\log n$ edges is Hamiltonian
 for some large constant $C$", in the uniform model $G(n;N)$ the problem is
 posed in; the paper leaves the constant unspecified and does not reach the

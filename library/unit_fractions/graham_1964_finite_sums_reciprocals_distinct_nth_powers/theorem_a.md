@@ -52,6 +52,6 @@ and the completeness of distinct $n$th powers named above.
 - [[../wiki/problems/unit_fractions/E0282/_index|Problem 282]]: one of the two
   inputs to
   [[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/theorem_4|Theorem 4]],
-  whose case $n=2$ is the square-denominator criterion the site's commentary
-  quotes; it concerns which rationals have a representation and says nothing
-  about the greedy algorithm.
+  whose case $n=2$ is the square-denominator criterion the erdosproblems.com
+  commentary quotes; it concerns which rationals have a representation and says
+  nothing about the greedy algorithm.

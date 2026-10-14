@@ -98,7 +98,7 @@ proofs of Lemma 1 (pp. 296--297), the Corollary (p. 297), Theorem 3 (pp.
 were read on the page images for structure only and not checked. No proof is
 verified, and nothing here is independently reviewed. The problem page consumes
 no result of the paper; it records that the paper does not contain the statement
-the site credits to it.
+erdosproblems.com credits to it.
 
 ## Contents
 
@@ -243,7 +243,7 @@ images and quoted above. Result pages:
 read for structure only, and nothing is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0560/_index|#560]]: negative bearing. The
-site's commentary credits this paper, with the 1978 size Ramsey paper
+erdosproblems.com commentary credits this paper, with the 1978 size Ramsey paper
 [[ramsey_theory/erdos_1978_size_ramsey_number/_index|erdos_1978_size_ramsey_number]],
 for the upper bound $\hat R(K_{n,n})<\frac32n^32^n$. The paper, read in
 full on the page images of PDF pp. 1--6 (printed pp. 295--300), contains no
@@ -266,7 +266,7 @@ which prints $\hat r(K_{n,n})\le b_2n^32^{n-1}$ with an unnamed constant
 $b_2$ (p. 161), and display (1) of
 [[ramsey_theory/erdos_rousseau_1993_size_ramsey_number_complete_bipartite/inequality_1|Erdős and Rousseau 1993]],
 which prints the constant $\frac32$ and credits the bound to the 1978
-paper; the site's credit to this paper is not supported by its text.
+paper; the erdosproblems.com credit to this paper is not supported by its text.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

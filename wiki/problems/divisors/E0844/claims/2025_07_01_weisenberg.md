@@ -49,21 +49,22 @@ pairwise non-coprime set is an intersecting subfamily. The Theorem of
 $1$, which here is the set of even squarefree numbers. Asymptotically the
 maximum size is $(1-4/\pi^2+o(1))N$.
 
-**Source and date.** The site's page for the problem carries Weisenberg's
-argument in its commentary without a date. The earliest record of it is the
-Alexeev--Mixon--Sawin preprint of 2 July 2025, which reproduces the
+**Source and date.** The erdosproblems.com page for the problem carries
+Weisenberg's argument in its commentary without a date. The earliest record of
+it is the Alexeev--Mixon--Sawin preprint of 2 July 2025, which reproduces the
 reduction in its Subsection 1.1, names Desmond Weisenberg, and cites the
-site's page as "retrieved July 1, 2025" (its reference [2]); that retrieval date
-names this page as the latest date by which the argument was public.
+erdosproblems.com page as "retrieved July 1, 2025" (its reference [2]); that
+retrieval date names this page as the latest date by which the argument was
+public.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marked Problem 844
-proved and presents Weisenberg's argument as the proof, with
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, marked
+Problem 844 proved and presents Weisenberg's argument as the proof, with
 [[problems/divisors/E0844/claims/2025_07_02_alexeev_mixon_sawin|the independent proof of Alexeev, Mixon and Sawin]]
 as the alternative. Chvátal's theorem is transcribed on its library card, and
 its proof is not checked. Nothing here is independently reviewed by this corpus.
 
-**Formalization.** John Jennings posted on the site's thread on 26 April
-2026 a Lean 4 file authored as Jennings and Aristotle (Harmonic), which
+**Formalization.** John Jennings posted on the erdosproblems.com thread on 26
+April 2026 a Lean 4 file authored as Jennings and Aristotle (Harmonic), which
 proves Chvátal's theorem for an arbitrary finite ground set
 (`chvatal_theorem`) and the bound `erdos_sarkozy`: every admissible
 $A\subseteq\{1,\ldots,N\}$ has at most as many elements as the even numbers

@@ -26,26 +26,25 @@ x\}=A\sqcup B$ into two non-empty sets such that, for all $n<x$, there exist
 some $p\in A$ and $q\in B$ such that $n\equiv a_p\pmod{p}$ and $n\equiv
 a_q\pmod{q}$.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-28 October 2025), which the site presents with the caveat that it is the
-curator's reading of the intended problem, since the print in [ErGr80]
-omits some crucial quantifiers and the reading may be mistaken; the
-community database annotates the entry as having an ambiguous statement.
-The source sentence, printed p. 93 of the 1980 monograph, reads: "A problem
-on sieves: Can one split the primes less than $n$ into two classes
-$\{q_i\}$, $\{q_i'\}$ so that for suitable choices of $a_i$ and $a_i'$,
-every integer $x$ less than $n$ satisfies $x\equiv a_i\bmod q_i$ and
-$x\equiv a_i'\bmod q_i'$?" The print does not say for which $i$ the two
-congruences are to hold; the site reads them as holding for some $p\in A$
-and some $q\in B$, so that each class alone covers the integers below the
-bound with one residue class per prime, and it asks for a statement holding
-for all large $x$ where the print asks a question for a given $n$ with the
-roles of $n$ and $x$ exchanged. The site's wording is a meaningful question
-and is the problem this page records; no source fixes another reading of
-the print, which is recorded here and is not treated as defective. Two
-observations: the statement implies that every $n<x$ satisfies at least two
-of the chosen congruences $a_p\pmod p$, which is the case $f(x)\ge2$ of
-Problem 689 as Erdős's 1980 survey [Er80] states it ("I can not even prove
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 28 October 2025), which erdosproblems.com presents with the caveat that
+it is the curator's reading of the intended problem, since the print in [ErGr80]
+omits some crucial quantifiers and the reading may be mistaken; the community
+database annotates the entry as having an ambiguous statement. The source
+sentence, printed p. 93 of the 1980 monograph, reads: "A problem on sieves: Can
+one split the primes less than $n$ into two classes $\{q_i\}$, $\{q_i'\}$ so
+that for suitable choices of $a_i$ and $a_i'$, every integer $x$ less than $n$
+satisfies $x\equiv a_i\bmod q_i$ and $x\equiv a_i'\bmod q_i'$?" The print does
+not say for which $i$ the two congruences are to hold; erdosproblems.com reads
+them as holding for some $p\in A$ and some $q\in B$, so that each class alone
+covers the integers below the bound with one residue class per prime, and it
+asks for a statement holding for all large $x$ where the print asks a question
+for a given $n$ with the roles of $n$ and $x$ exchanged. The erdosproblems.com
+wording is a meaningful question and is the problem this page records; no source
+fixes another reading of the print, which is recorded here and is not treated as
+defective. Two observations: the statement implies that every $n<x$ satisfies at
+least two of the chosen congruences $a_p\pmod p$, which is the case $f(x)\ge2$
+of Problem 689 as Erdős's 1980 survey [Er80] states it ("I can not even prove
 that $f(x)\ge2$ for $x>x_0$", printed p. 108); a thread comment of 9 August
 2025 makes the same remark, that this statement is stronger than Problem
 689. And each class alone must cover $[1,x)$ with one residue class per
@@ -55,14 +54,14 @@ system needs.
 
 **Status.** Open. The only source in hand is the 1980 sentence. The search whose
 scope the Current assessment records found no proof, disproof, partial result or
-proof claim for the site's statement. Nothing found bears on it beyond its
-relation to Problems 687 and 689. This is a bounded negative finding, not a
-certificate of openness.
+proof claim for the erdosproblems.com statement. Nothing found bears on it
+beyond its relation to Problems 687 and 689. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/467](https://www.erdosproblems.com/467),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can settle it; last edited 28 October 2025; source key
-[ErGr80, p. 93]; a panel recording that the original source is ambiguous
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; last edited 28 October 2025; source
+key [ErGr80, p. 93]; a panel recording that the original source is ambiguous
 about what the problem is), its one-comment discussion thread (9 August
 2025) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #467, https://www.erdosproblems.com/467, accessed 2026-09-18.
@@ -92,18 +91,18 @@ about what the problem is), its one-comment discussion thread (9 August
 **Formalization.** None found on 2026-09-18: formal-conjectures had no file
 `ErdosProblems/467.lean` on [its main
 branch](https://github.com/google-deepmind/formal-conjectures/tree/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems)
-that day, and the site's indicator records no formalized statement. The
-community database (teorth/erdosproblems, as fetched on 2026-09-18) records the
-problem open (last changed 31 August 2025), the statement not formalized,
+that day, and the erdosproblems.com indicator records no formalized statement.
+The community database (teorth/erdosproblems, as fetched on 2026-09-18) records
+the problem open (last changed 31 August 2025), the statement not formalized,
 `formal_status` unformalized, no formal-proof URL and a comment that the
 statement is ambiguous.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-OPEN, with the site's note that no finite computation can settle it, last
-edited 28 October 2025. The commentary is the caveat recorded under
-Formulation. The thread holds the one comment of 9 August 2025 comparing
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it, last edited 28 October 2025. The commentary is the caveat recorded
+under Formulation. The thread holds the one comment of 9 August 2025 comparing
 the problem with Problem 689: that problem is posed as a question, while
 this one is worded as an assertion expected to hold. The proof-claim tab is
 empty, so the problem has no claim page and its standing is open.
@@ -111,7 +110,7 @@ empty, so the problem has no claim page and its standing is open.
 **The origin.** Printed p. 93 of the monograph, in Section 9, on
 miscellaneous problems, between the account of Sárközy's and Graham's
 bounds for the function $N(X,\delta)$ and a question on sums of divisors of
-$n$; the sentence is quoted in full under Formulation. The site cites
+$n$; the sentence is quoted in full under Formulation. erdosproblems.com cites
 p. 93 only. In the 1979 advance chapter, the plan on printed p. 326 lists
 "II. Covering congruences" among the monograph's chapters, and the
 chapter's own passages on disjoint covering sequences (printed
@@ -120,20 +119,20 @@ $S(\alpha,\beta)=\{[\alpha n+\beta]\}$ and Fraenkel's conjecture, not
 residue classes modulo primes; the two-class question does not appear in
 it.
 
-**What is known.** Nothing beyond the sentence. The site records no
+**What is known.** Nothing beyond the sentence. erdosproblems.com records no
 progress, no source proves or refutes the statement, and the two neighbors
 say only this: a positive answer would give, for every large $x$, a choice
 of residue classes $a_p\pmod p$ for the primes $p\le x$ under which every
 $n<x$ satisfies at least two of the congruences, that is $f(x)\ge2$ in the
-notation of Problem 689, which Erdős could not prove in 1980 and which the
-site kept open; and each of the two classes is itself a covering of
+notation of Problem 689, which Erdős could not prove in 1980 and which
+erdosproblems.com kept open; and each of the two classes is itself a covering of
 $[1,x)$ by one residue class per prime, the object whose least prime bound
 Problem 687 asks for. Neither remark is a result about this problem.
 
 **Search scope.** None of the routes below found a proof,
 disproof, partial result or proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory on its main branch (no file); the community
   database record.
 - arXiv: the API query
@@ -147,8 +146,8 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X; the monograph's
 Section 3, on covering congruences (printed pp. 24--29).
 
 **Remaining gaps.** (1) The problem rests on one sentence whose quantifiers
-the site supplied; a different reading of the print (one congruence from
-each class with the same index $i$ for every $x$, say) would be a different
+erdosproblems.com supplied; a different reading of the print (one congruence
+from each class with the same index $i$ for every $x$, say) would be a different
 problem, and no other source of the question was found. (2) No result bears
 on the statement itself; the relation to Problems 687 and 689 is recorded
 as context. (3) No formalization was found on 2026-09-18.

@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1063/claims/2026_08_04_cipollini
 title: A lower bound of order (log k)^2 for log n_k
 desc: |
-  Ricky Cipollini's proof claim, posted to the site's proof-claim tab on 4
-  August 2026, asserts that $\log n_k\ge c(\log k)^2$, a superpolynomial lower
-  bound on $n_k$. The write-up requires a sign-in, and the claim is unreviewed.
+  Ricky Cipollini's proof claim, posted to the erdosproblems.com proof-claim tab
+  on 4 August 2026, asserts that $\log n_k\ge c(\log k)^2$, a superpolynomial
+  lower bound on $n_k$. The write-up requires a sign-in, and the claim is
+  unreviewed.
 authors:
 - Ricky Cipollini
 status: claimed
@@ -34,9 +35,9 @@ $$
 
 for all $k$ (the tab's summary states no range, so the range is recorded as
 the summary gives it). Ricky Cipollini
-submitted this to the site's proof-claim tab on 4 August 2026 (the page
-name's date), attributing the proof to the model GPT-5.6 Sol. The result is a
-bound rather than the estimate Erdős and Selfridge asked for, so the page
+submitted this to the erdosproblems.com proof-claim tab on 4 August 2026 (the
+page name's date), attributing the proof to the model GPT-5.6 Sol. The result is
+a bound rather than the estimate Erdős and Selfridge asked for, so the page
 records it as partial. The tab's note says the model wrote the paper from a
 modified version of a prompt in circulation. The write-up is the same
 read-only link on a collaborative editing service as the claimant's
@@ -81,7 +82,7 @@ the two claims share one write-up link and are independent results.
 
 **Standing.** Claimed. The write-up has no arXiv version and no journal
 record, the tab carried no comment under the claim, and the
-site's label was OPEN (page last edited 1 February 2026). Nothing here is
-this project's review, and no acceptance evidence is listed.
+erdosproblems.com label was OPEN (page last edited 1 February 2026). Nothing
+here is this project's review, and no acceptance evidence is listed.
 
 **Depends on.** No page of this wiki.

@@ -30,9 +30,9 @@ made bipartite by deleting $m$ edges.
 Is it true that $f_k(n)\to \infty$ as $n\to \infty$? In particular, is it true
 that $f_4(n) \gg \log n$?
 
-**Status.** Disproved. The site labeled the problem DISPROVED and credits Rödl
-and Tuza. They show that $f_k(n)$ is the constant $\binom{k-1}{2}$ for all large
-$n$, so it does not tend to infinity.
+**Status.** Disproved. Bloom's catalog labeled the problem DISPROVED and credits
+Rödl and Tuza. They show that $f_k(n)$ is the constant $\binom{k-1}{2}$ for all
+large $n$, so it does not tend to infinity.
 
 **Source.** [erdosproblems.com/744](https://www.erdosproblems.com/744), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #744,
@@ -58,29 +58,30 @@ August 2025.
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether
-$f_k(n)$, the fewest edges whose deletion makes some $n$-vertex $k$-critical
-graph bipartite, tends to infinity for large fixed $k$, and in particular
-whether $f_4(n)\gg\log n$. The standing is `solved`, `disproved`, through
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether $f_k(n)$, the fewest edges whose deletion makes some $n$-vertex
+$k$-critical graph bipartite, tends to infinity for large fixed $k$, and in
+particular whether $f_4(n)\gg\log n$. The standing is `solved`, `disproved`,
+through
 [[problems/graph_coloring/E0744/claims/1985_06_01_rodl_tuza|Rödl and Tuza's eventually constant value]]:
 for each large fixed $k$, $f_k(n)=\binom{k-1}{2}$ for all sufficiently large
-$n$, so $f_k$ is bounded, and the site's record applies the value to $k=4$,
-giving $f_4(n)=3$ eventually. The printed source of the question is Erdős's 1981
-survey [Er81]
+$n$, so $f_k$ is bounded, and the erdosproblems.com record applies the value to
+$k=4$, giving $f_4(n)=3$ eventually. The printed source of the question is
+Erdős's 1981 survey [Er81]
 ([[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|card]]),
 Part VII, which states it as a conjecture of the then-forthcoming paper of
 Erdős, Hajnal and Szemerédi, for $k>k_0$, adding that it no doubt holds already
-for $k=4$ while odd circuits make it false for $k=3$. The site attributes the
-problem to that paper, [EHS82]
+for $k=4$ while odd circuits make it false for $k=3$. erdosproblems.com
+attributes the problem to that paper, [EHS82]
 ([[../library/graph_coloring/erdos_1982_almost_bipartite_large_chromatic_graphs/_index|card]]),
 whose text does not state the critical-graph question. Odd cycles give
 $f_3(n)=1$, and the earlier upper bounds were Gallai's $f_4(n)\ll n^{1/2}$
-[Ga68] and Lovász's $f_k(n)\ll n^{1-1/(k-2)}$, as the site records.
+[Ga68] and Lovász's $f_k(n)\ll n^{1-1/(k-2)}$, as erdosproblems.com records.
 
-Search scope: the site's problem page and discussion thread and the
+Search scope: the erdosproblems.com problem page and discussion thread and the
 Crossref record of the Rödl–Tuza paper. That paper is not held in the library;
-the exact value and the range of $n$ follow the site's record (accessed
-2026-09-04).
+the exact value and the range of $n$ follow the erdosproblems.com record
+(accessed 2026-09-04).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

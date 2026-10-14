@@ -58,9 +58,10 @@ alone.
 
 **Acceptance.** None listed. The chapter is part of a conference volume whose
 refereeing is not documented in its Crossref record or on the library card, so
-`refereed` is not listed. The site's curator, T. F. Bloom, labeled the problem
-PROVED and credits that label to Khalfalah and Szemerédi. The commentary also
-says that Erdős, Sárközy and Sós proved the statement for two or three colors
-(page last edited 7 April 2026). That sentence mentions this result but is not
-the label's credit, so `reviewed` is not listed either. The volume gives no day
-of publication, so the day in the page name is a placeholder for 1989.
+`refereed` is not listed. The erdosproblems.com curator, T. F. Bloom, labeled
+the problem PROVED and credits that label to Khalfalah and Szemerédi. The
+commentary also says that Erdős, Sárközy and Sós proved the statement for two or
+three colors (page last edited 7 April 2026). That sentence mentions this result
+but is not the label's credit, so `reviewed` is not listed either. The volume
+gives no day of publication, so the day in the page name is a placeholder
+for 1989.

@@ -24,10 +24,11 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Are there infinitely many $n$ such that $n-k^2$ is prime for all
 $k$ with $(n,k)=1$ and $k^2<n$?
 
-**Status.** The site labeled the problem DISPROVED (LEAN). It credits the
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN). It credits the
 finiteness theorem of [APSSV26b]. The authors of that paper attribute the proof
-to an internal OpenAI model. The site's Lean marker refers to third-party
-formalizations that this corpus has not built. The standing derives from
+to an internal OpenAI model. The erdosproblems.com Lean marker refers to
+third-party formalizations that this corpus has not built. The standing derives
+from
 [[problems/primes/E1141/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the claim page]].
 
 **Source.** [erdosproblems.com/1141](https://www.erdosproblems.com/1141),
@@ -47,22 +48,22 @@ https://www.erdosproblems.com/1141.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/e75502b6b4ce309a0e41e255607ca0c80ff455b2/FormalConjectures/ErdosProblems/1141.lean),
 whose `formal_proof` attribute points to a third-party Lean proof; that proof,
-an earlier one posted in the site's thread and two earlier files in Boris
-Alexeev's repository, one of them avoiding Pollack's theorem, are
+an earlier one posted in the erdosproblems.com thread and two earlier files in
+Boris Alexeev's repository, one of them avoiding Pollack's theorem, are
 `formalization` links on the claim page. The corpus has not built any of them.
 
 ## Current assessment
 
-The site's formulation (as of 2026-10-07, with its commentary last edited 9
-April 2026) asks whether infinitely many $n$ have $n-k^2$ prime for every $k$
-coprime to $n$ with $k^2<n$. The answer is no: Theorem 6.1 of [APSSV26b] proves,
-for each fixed $a\geq1$, that only finitely many $n$ have $n-ak^2$ prime for
-every $k\geq1$ with $(k,n)=1$ and $ak^2<n$, by a short deduction from Pollack's
-Theorem 1.3 [Po17] on small primes at which a quadratic character equals $1$;
-the case $a=1$ is the question. The bound is ineffective, since Pollack's
-theorem uses Siegel's theorem, and the thread records that an effective version
-would need progress on Siegel zeros. The authors attribute the proof to an
-internal OpenAI model. The accepted claim is recorded on
+The erdosproblems.com formulation (accessed 2026-10-07, with its commentary last
+edited 9 April 2026) asks whether infinitely many $n$ have $n-k^2$ prime for
+every $k$ coprime to $n$ with $k^2<n$. The answer is no: Theorem 6.1 of
+[APSSV26b] proves, for each fixed $a\geq1$, that only finitely many $n$ have
+$n-ak^2$ prime for every $k\geq1$ with $(k,n)=1$ and $ak^2<n$, by a short
+deduction from Pollack's Theorem 1.3 [Po17] on small primes at which a quadratic
+character equals $1$; the case $a=1$ is the question. The bound is ineffective,
+since Pollack's theorem uses Siegel's theorem, and the thread records that an
+effective version would need progress on Siegel zeros. The authors attribute the
+proof to an internal OpenAI model. The accepted claim is recorded on
 [[problems/primes/E1141/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the
 claim page]] with the curator's credit; the preprint is the source, with no
 journal publication known, and the corpus has not built the
@@ -73,10 +74,10 @@ sieve that few integers have the property. Theorem 2.1 of the
 [note](https://github.com/QuanyuTang/erdos-problem-1141/blob/5208af7a852221fd656c5651058673aeaa218cef/On_Erd%C5%91s_Problem_1141.pdf)
 *A note on Problem #1141* (25 January 2026, with ChatGPT-5.2 Thinking named as
 co-author) states that the number $g(N)$ of such $n\leq N$ satisfies
-$g(N)\ll_\varepsilon N^{1/2+\varepsilon}$ for every $\varepsilon>0$. The site's
-commentary credits the bound, but a counting bound decides no instance of the
-question and the note is not refereed, so it has no claim page. The booklet
-[Va99] asks whether $968$ is the largest such $n$, which fails since
+$g(N)\ll_\varepsilon N^{1/2+\varepsilon}$ for every $\varepsilon>0$. The
+erdosproblems.com commentary credits the bound, but a counting bound decides no
+instance of the question and the note is not refereed, so it has no claim page.
+The booklet [Va99] asks whether $968$ is the largest such $n$, which fails since
 $968-3^2=7\cdot137$; the integers with the property are OEIS sequence A214583,
 whose largest known member is $1722$, and [APSSV26b] remarks that computation
 suggests it is the largest. The thread also holds a summary of the argument for
@@ -90,8 +91,8 @@ $n$ are very thin unconditionally, and a remark that $30$ is the largest $n$
 with $n-k$ never composite for every admissible $k$, by Bonse's inequality;
 none of these is a claim on the question, so none has a page.
 
-Search scope: the site page, its thread, the arXiv record and the linked
-repositories.
+Search scope: the erdosproblems.com page, its thread, the arXiv record and the
+linked repositories.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

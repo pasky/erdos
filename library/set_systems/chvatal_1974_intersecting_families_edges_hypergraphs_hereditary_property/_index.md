@@ -100,9 +100,10 @@ independently reviewed.
 
 - [[../wiki/problems/set_systems/E0701/_index|#701]]: the
   [[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/conjecture_p65|Conjecture (p. 65)]] is the problem's modified
-  Statement (Chvátal's conjecture), with the finite ground set that the site's
-  wording omits; the [[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/theorem_p62|Theorem (p. 62)]] proves its
-  conclusion, with the star at $1$, for families of subsets of
+  Statement (Chvátal's conjecture), with the finite ground set that the
+  erdosproblems.com wording omits; the
+  [[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/theorem_p62|Theorem (p. 62)]]
+  proves its conclusion, with the star at $1$, for families of subsets of
   $\{1,\dots,n\}$ closed under left shifts, a subclass of the families
   closed under taking subsets. The chapter proves nothing further about the
   conjecture.

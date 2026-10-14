@@ -32,18 +32,18 @@ Does there exist a graph $G$ with no $K_{\aleph_1}$ such that every edge
 colouring of $G$ with countably many colours contains a monochromatic
 $K_{\aleph_0}$?
 
-**Status.** Open. The site labeled the problem NOT DISPROVABLE, crediting Shelah
-with the consistency of a graph with either property. The problem has two parts,
-which the frontmatter lists, and each has an accepted consistency result. The
-first part has
+**Status.** Open. Bloom's catalog labeled the problem NOT DISPROVABLE, crediting
+Shelah with the consistency of a graph with either property. The problem has two
+parts, which the frontmatter lists, and each has an accepted consistency result.
+The first part has
 [[problems/set_theory/E1174/claims/1989_01_01_shelah|Shelah's K_4-free graph]],
 and the second has
 [[problems/set_theory/E1174/claims/1993_03_01_komjath_shelah|Komjáth and Shelah's edge partition theorem]].
 Each result settles only one side of its part. Relative to the hypotheses it
 assumes, it shows that ZFC does not refute the existence of the graph the part
 asks for. Neither result shows that ZFC cannot prove the graph's existence. The
-page departs from the site's label because one side alone leaves a question
-open. So both parts, and the problem, are open.
+page departs from the erdosproblems.com label because one side alone leaves a
+question open. So both parts, and the problem, are open.
 
 **Source.** [erdosproblems.com/1174](https://www.erdosproblems.com/1174),
 accessed 2026-09-04 and 2026-10-07: the problem page (remark crediting Shelah
@@ -74,44 +74,46 @@ https://www.erdosproblems.com/1174.
   property (section 7). Library home:
   [[../library/number_theory/various_1999_some_pauls_favorite_problems/_index|various_1999_some_pauls_favorite_problems]].
 
-**Formalization.** None recorded. The site answers its formalized-statement
-field with "No" and the community database marks the problem unformalized.
+**Formalization.** None recorded. erdosproblems.com answers its
+formalized-statement field with "No" and the community database marks the
+problem unformalized.
 
 ## Current assessment
 
-The site formulation (accessed 2026-09-04 and 2026-10-07, unchanged between
-those dates) asks two questions: whether a $K_4$-free graph exists every
+The erdosproblems.com formulation (accessed 2026-09-04 and 2026-10-07, unchanged
+between those dates) asks two questions: whether a $K_4$-free graph exists every
 countable edge coloring of which has a monochromatic triangle, and whether a
 $K_{\aleph_1}$-free graph exists every countable edge coloring of which has a
 monochromatic $K_{\aleph_0}$. Both are questions of Erdős and Hajnal; the first
-is [[problems/set_theory/E0595/_index|Problem 595]] in other words. The site's
-label, not disprovable, is the consistency of both, credited to Shelah. The
-first question is Lemma 5.1 of [Sh89] (§5, with $k(*)=3$ and $\mu=\aleph_0$), a
-forcing that needs no large cardinal, so that the consistency is relative to
-ZFC alone (the claim page gives the reason); the second is Theorem 2 of
-[KoSh93], the consistency, from a proper class of measurable cardinals (which
-the paper says can be eliminated through §§3--4 of [Sh89]), that for every graph
-$Y$ and cardinal $\mu$ some graph $X$ has $X\to(Y)^2_\mu$ with an induced copy
-and omits every complete graph $Y$ omits, applied to $Y=K_{\aleph_0}$,
-$\mu=\aleph_0$; its introduction names the second question as an old
-Erdős--Hajnal question that the paper solves consistently.
-Each result is an accepted partial claim page (the site's label and credit; for
+is [[problems/set_theory/E0595/_index|Problem 595]] in other words. The
+erdosproblems.com label, not disprovable, is the consistency of both, credited
+to Shelah. The first question is Lemma 5.1 of [Sh89] (§5, with $k(*)=3$ and
+$\mu=\aleph_0$), a forcing that needs no large cardinal, so that the consistency
+is relative to ZFC alone (the claim page gives the reason); the second is
+Theorem 2 of [KoSh93], the consistency, from a proper class of measurable
+cardinals (which the paper says can be eliminated through §§3--4 of [Sh89]),
+that for every graph $Y$ and cardinal $\mu$ some graph $X$ has $X\to(Y)^2_\mu$
+with an induced copy and omits every complete graph $Y$ omits, applied to
+$Y=K_{\aleph_0}$, $\mu=\aleph_0$; its introduction names the second question as
+an old Erdős--Hajnal question that the paper solves consistently. Each result is
+an accepted partial claim page (the erdosproblems.com label and credit; for
 [KoSh93] also the refereed journal publication) naming the part it settles, with
 the value not disprovable. Each settles one side of its part only: ZFC does not
 refute a positive answer. No result recorded here shows that ZFC cannot prove
 one, and one side alone leaves a question open, so the derived standing is open
-for both parts and for the problem, departing from the site's label. The ZFC
-question is open for both: Komjáth [Ko25] records the consistency results only
-(Problems 51-53) and notes that such graphs have more than $2^{\aleph_0}$
-vertices, as the Known Results below record. Either question would be settled as
-independent by a matching consistency result for the negative answer, or
-outright by a construction of such a graph in ZFC. Search scope: the site's
-problem page, discussion thread and proof-claims tab; the community database
-(entry 1174: not disprovable since 2026-03-19, unformalized); Komjáth's survey,
-Problems 51-54; the Shelah archive entries Sh:289 and Sh:414 and the scan of
-[KoSh93]; [Va99], item 7.91. Not searched: arXiv, zbMATH, MathSciNet and X. The
-proofs of Lemma 5.1 and of Theorems 1 and 2 were not followed; nothing on this
-page is independently reviewed.
+for both parts and for the problem, departing from the erdosproblems.com label.
+The ZFC question is open for both: Komjáth [Ko25] records the consistency
+results only (Problems 51-53) and notes that such graphs have more than
+$2^{\aleph_0}$ vertices, as the Known Results below record. Either question
+would be settled as independent by a matching consistency result for the
+negative answer, or outright by a construction of such a graph in ZFC. Search
+scope, 2026-10-07: the erdosproblems.com problem page, discussion thread and
+proof-claims tab; the community database (entry 1174: not disprovable since
+2026-03-19, unformalized); Komjáth's survey, Problems 51-54; the Shelah archive
+entries Sh:289 and Sh:414 and the scan of [KoSh93]; [Va99], item 7.91. Not
+searched: arXiv, zbMATH, MathSciNet and X. The proofs of Lemma 5.1 and of
+Theorems 1 and 2 were not followed; nothing on this page is independently
+reviewed.
 
 ## Known Results
 

@@ -53,10 +53,10 @@ $$
 \varepsilon(A_z)\ge\exp\bigl(-(1+o(1))R(A_z)\log R(A_z)\bigr).
 $$
 
-(The same construction appears in a discussion comment on the site of 18
-August 2025.) So no bound better than $\exp(-(1+o(1))K\log K)$ can hold
-for all multisets, and the $e^{-cK}$ that Erdős and Graham asked about lies
-between the theorem and this barrier.
+(The same construction appears in a discussion comment on erdosproblems.com of
+18 August 2025.) So no bound better than $\exp(-(1+o(1))K\log K)$ can hold for
+all multisets, and the $e^{-cK}$ that Erdős and Graham asked about lies between
+the theorem and this barrier.
 
 ## Proof pointer and sketch
 

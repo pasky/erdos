@@ -95,7 +95,7 @@ $k>6n\log n$, and that its own proof differs from the earlier ones.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the
-  announcement of the theorem the site attributes to [Ko77]; its sufficiency
-  half, with $\varphi(n)=2\varepsilon\ln n-\ln\ln n$, gives the problem's
-  statement. The note states the theorem without proof; the proof is the
-  1985 paper's.
+  announcement of the theorem erdosproblems.com attributes to [Ko77]; its
+  sufficiency half, with $\varphi(n)=2\varepsilon\ln n-\ln\ln n$, gives the
+  problem's statement. The note states the theorem without proof; the proof is
+  the 1985 paper's.

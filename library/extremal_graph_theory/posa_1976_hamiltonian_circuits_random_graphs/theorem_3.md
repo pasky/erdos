@@ -40,8 +40,8 @@ Theorem 3 is stated in the uniform model of Problem 746, one graph chosen
 at random among those with exactly $N=[c_1n\log n]$ edges on $n$ labeled
 vertices, which the proof makes explicit ("the graphs $G_2$ that arise
 when $S$ holds have precisely $[c_1n\log n]$ edges, and each one has the
-same probability", p. 364). It is the site's "$\ge Cn\log n$ edges" bound:
-since adding edges preserves a Hamiltonian circuit, the statement at
+same probability", p. 364). It is erdosproblems.com's "$\ge Cn\log n$ edges"
+bound: since adding edges preserves a Hamiltonian circuit, the statement at
 $N=[c_1n\log n]$ gives it for every larger $N$ (an elementary remark, not
 in the paper). The constant is not specified; the paper's abstract says
 "if $c$ is sufficiently large".
@@ -141,8 +141,8 @@ paper, not held), but uses neither.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the site's
-  "Pósa [Po76] proved that almost surely a random graph with
+- [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]:
+  erdosproblems.com's "Pósa [Po76] proved that almost surely a random graph with
   $\ge Cn\log n$ edges is Hamiltonian for some large constant $C$", and
   Erdős's 1982 account (p. 69) that the conjecture "was proved by Pósa in
   a very ingenious way with $cn\log n$ instead of

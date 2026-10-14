@@ -24,15 +24,15 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** For any finite colouring of the integers is there a covering
 system all of whose moduli are monochromatic?
 
-**Status.** DISPROVED (LEAN), the site's label. The answer is no. Color each
-integer up to Hough's minimum-modulus bound with its own color, and color all
-larger integers with one more color. Then no color class contains the moduli of
-a covering system. The same bound answers no to the density version that Erdős
-and Graham asked. The deduction is the site's and rests on Hough's refereed
-theorem. It is recorded on
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. The answer is no.
+Color each integer up to Hough's minimum-modulus bound with its own color, and
+color all larger integers with one more color. Then no color class contains the
+moduli of a covering system. The same bound answers no to the density version
+that Erdős and Graham asked. The deduction is erdosproblems.com's and rests on
+Hough's refereed theorem. It is recorded on
 [[problems/covering_systems/E0008/claims/2013_07_02_hough|its claim page]],
-accepted on that publication and the site's credit, not on any review by this
-project. The label's Lean mark is traced to a Lean development in Boris
+accepted on that publication and the erdosproblems.com credit, not on any review
+by this project. The label's Lean mark is traced to a Lean development in Boris
 Alexeev's lean-proofs repository. That development is linked on the claim page
 and was not built here. Formalization below records it.
 
@@ -46,12 +46,13 @@ https://www.erdosproblems.com/8.
   systems. Ann. of Math. (2) 181 (2015), no. 1, 361-382.
 
 **Formalization.** The catalog (google-deepmind/formal-conjectures) had no
-statement file for this problem on 2026-10-07. The development behind the site's
-Lean mark and the community database's formal status Lean (since 2026-08-24) is
-the file `src/latest/ErdosProblems/Erdos8.lean` in Boris Alexeev's lean-proofs
-repository, which declares itself a formalization of Hough's solution with Codex
-and GPT-5.6 Sol as formal authors and proves the negative answer from the
-repository's Problem 2 development; it is linked at a pinned commit on
+statement file for this problem on 2026-10-07. The development behind the
+erdosproblems.com Lean mark and the community database's formal status Lean
+(since 2026-08-24) is the file `src/latest/ErdosProblems/Erdos8.lean` in Boris
+Alexeev's lean-proofs repository, which declares itself a formalization of
+Hough's solution with Codex and GPT-5.6 Sol as formal authors and proves the
+negative answer from the repository's Problem 2 development; it is linked at a
+pinned commit on
 [[problems/covering_systems/E0008/claims/2013_07_02_hough|the claim page]].
 Nothing was built here.
 

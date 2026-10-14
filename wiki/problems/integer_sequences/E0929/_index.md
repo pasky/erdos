@@ -33,17 +33,17 @@ are all divisible by primes $\leq x$.
 
 Estimate $S(k)$ - in particular, is it true that $S(k)\geq k^{1-o(1)}$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
-2 December 2025). "Divisible by primes $\le x$" means that
-each $n+i$ has a prime factor at most $x$; $S(k)$ is the least such $x$, and
-it is a prime. The covering form, an elementary equivalence made here: if
-residue classes $a_p$, one for each prime $p\le x$, cover $[1,k]$, then every
-$n\equiv-a_p\pmod p$ for all $p\le x$, a residue class modulo
-$P(x)=\prod_{p\le x}p$ of density $1/P(x)>0$, has $n+i\equiv0$ modulo the $p$
-with $i\equiv a_p$; conversely a single $n$ with every $n+1,\ldots,n+k$
-divisible by a prime $\le x$ gives the covering $a_p:=-n\bmod p$. So
-$S(k)$ is the least $x$ with $Y(x)\ge k$, where $Y$ is the covering function
-of [[problems/integer_sequences/E0687/_index|Problem 687]]; that is, $S$ is the
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 2 December 2025). "Divisible by primes $\le x$" means that each $n+i$ has
+a prime factor at most $x$; $S(k)$ is the least such $x$, and it is a prime. The
+covering form, an elementary equivalence made here: if residue classes $a_p$,
+one for each prime $p\le x$, cover $[1,k]$, then every $n\equiv-a_p\pmod p$ for
+all $p\le x$, a residue class modulo $P(x)=\prod_{p\le x}p$ of density
+$1/P(x)>0$, has $n+i\equiv0$ modulo the $p$ with $i\equiv a_p$; conversely a
+single $n$ with every $n+1,\ldots,n+k$ divisible by a prime $\le x$ gives the
+covering $a_p:=-n\bmod p$. So $S(k)$ is the least $x$ with $Y(x)\ge k$, where
+$Y$ is the covering function of
+[[problems/integer_sequences/E0687/_index|Problem 687]]; that is, $S$ is the
 inverse function of $Y$, and it is Erdős's $B(k)$ of [Er79d] p. 79 and
 $f(k)$ of [Er80] p. 106, both defined as the least prime cutoff whose
 residue classes cover an initial interval. The displayed question
@@ -55,21 +55,21 @@ $L(n,k)=p_\ell$; $S(k)=p_\ell$ for the least $\ell$ with $\alpha(k,\ell)>0$.
 Two questions: the estimate, to which the label OPEN attaches, and the
 displayed question, also open.
 
-**Status.** The site labeled the problem OPEN. No source approaching
+**Status.** Bloom's catalog labeled the problem OPEN. No source approaching
 $S(k)\ge k^{1-o(1)}$ was found in the search whose scope the Current assessment
-records. The site's proof-claim tab was empty. One partial claim
+records. The erdosproblems.com proof-claim tab was empty. One partial claim
 is recorded: the refereed upper bound of [FGKMT18], inverted below. This is a
 bounded negative finding, not a certificate of openness.
 
-Lower bounds. The site's Rosser bound $S(k)>k^{1/2-o(1)}$ is Erdős's report in
-[Er76d] p. 26 ("Rosser proved [13] that $\ell>k^{1/2-\varepsilon}$", cited to
-the Halberstam--Richert book). The stronger $S(k)\gg k^{1/2}$ is Iwaniec's
-$Y(x)\ll x^2$ read through the equivalence. This is how [Er79d] p. 79 states it
-("Iwaniec's result $B(n)>c\sqrt n$ is the best lower bound known"). The bound is
-the Corollary of [Iw78], p. 226, which gives $C(r)\ll r^2\log^2r$ for the
-longest run of consecutive integers each divisible by one of $r$ arbitrary
-primes, taken at $r=\pi(x)$, and it remains the best refereed lower bound.
-The best lower bound is $S(k)\gg k^{1/2}\log k$, with an unspecified
+Lower bounds. erdosproblems.com's Rosser bound $S(k)>k^{1/2-o(1)}$ is Erdős's
+report in [Er76d] p. 26 ("Rosser proved [13] that $\ell>k^{1/2-\varepsilon}$",
+cited to the Halberstam--Richert book). The stronger $S(k)\gg k^{1/2}$ is
+Iwaniec's $Y(x)\ll x^2$ read through the equivalence. This is how [Er79d] p. 79
+states it ("Iwaniec's result $B(n)>c\sqrt n$ is the best lower bound known").
+The bound is the Corollary of [Iw78], p. 226, which gives $C(r)\ll r^2\log^2r$
+for the longest run of consecutive integers each divisible by one of $r$
+arbitrary primes, taken at $r=\pi(x)$, and it remains the best refereed lower
+bound. The best lower bound is $S(k)\gg k^{1/2}\log k$, with an unspecified
 constant: the inversion of $Y(x)\ll x^2/(\log x)^2$, which is accepted, not
 refereed, on Problem 687
 ([[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]])
@@ -78,20 +78,21 @@ and rests on the Lean bound for Jacobsthal's function of the OpenAI release of
 $B(n)>Cn^{1/2}$ for every $C$; the exponent stays $1/2$ (Current assessment).
 
 Upper bounds. There is the trivial $S(k)\le k+1$, and [Er76d]'s Rankin-type
-bound as printed. The site gives $S(k)\ll k\log_3k/(\log_2k\log_4k)$, which it
-deduced from [FGKMT18], and this bound is recorded here as the site's. The
-direct inversion of [FGKMT18]'s display (1.2) gives
+bound as printed. erdosproblems.com gives $S(k)\ll k\log_3k/(\log_2k\log_4k)$,
+which it deduced from [FGKMT18], and this bound is recorded here as
+erdosproblems.com's. The direct inversion of [FGKMT18]'s display (1.2) gives
 $S(k)\ll k\log_2k/(\log k\log_3k)$. This is an authored one-line derivation,
 recorded below and on
 [[problems/integer_sequences/E0929/claims/2014_12_16_ford_green_konyagin_maynard_tao|its claim page]].
-It is smaller than the site's display and implies it. The same inversion of
-the covering theorem accepted on Problem 4, $Y(x)\gg x\log x/\log_3x$, gives
-the smaller $S(k)\ll k\log_3k/\log k$ (Current assessment).
+It is smaller than the erdosproblems.com display and implies it. The same
+inversion of the covering theorem accepted on Problem 4,
+$Y(x)\gg x\log x/\log_3x$, gives the smaller $S(k)\ll k\log_3k/\log k$ (Current
+assessment).
 
 **Source.** [erdosproblems.com/929](https://www.erdosproblems.com/929),
 accessed 2026-09-18: the problem page (OPEN, with
-the site's note that the problem cannot be settled by a finite computation;
-last edited 2 December 2025; source key [Er76d]; commentary citing
+the erdosproblems.com note that the problem cannot be settled by a finite
+computation; last edited 2 December 2025; source key [Er76d]; commentary citing
 [FGKMT18] and Problem 4; a thanks line naming one contributor; no formalized
 statement; OEIS marked possible), its one-comment discussion thread (15
 October 2025) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
@@ -148,26 +149,26 @@ Problem #929, https://www.erdosproblems.com/929, accessed 2026-09-18.
 **Formalization.** None in formal-conjectures: no file `ErdosProblems/929.lean`
 existed in google-deepmind/formal-conjectures (main on 2026-09-18, when the
 directory `FormalConjectures/ErdosProblems/` had 673 entries and the recursive
-tree 1,740 entries, none of them this file), and the site's indicator showed no
-formalized statement. The community database (teorth/erdosproblems, read
-2026-09-18) records the problem open (its record last updated 31 August 2025),
-the statement not formalized, `formal_status` unformalized, no formal-proof URL
-and OEIS "possible".
+tree 1,740 entries, none of them this file), and the erdosproblems.com indicator
+showed no formalized statement. The community database (teorth/erdosproblems,
+read 2026-09-18) records the problem open (its record last updated 31 August
+2025), the statement not formalized, `formal_status` unformalized, no
+formal-proof URL and OEIS "possible".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; OPEN, with the site's note that the problem cannot be settled by a
-finite computation; last edited 2 December 2025. The site's commentary
-makes three points, in this page's words: Rosser's sieve gives the lower
-bound $S(k)>k^{1/2-o(1)}$; the upper bound $S(k)\le k+1$ is trivial, by
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that the problem cannot be settled
+by a finite computation; last edited 2 December 2025. The erdosproblems.com
+commentary makes three points, in this page's words: Rosser's sieve gives the
+lower bound $S(k)>k^{1/2-o(1)}$; the upper bound $S(k)\le k+1$ is trivial, by
 taking $n\equiv1\pmod{(k+1)!}$; and the large-gap theorem of [FGKMT18], via
 Problem 4, gives $S(k)\ll k\log_3k/(\log_2k\log_4k)$. The thread holds one
 comment of 15 October 2025, which pointed out that the trivial bound had
 been stated as $S(k)\le k$ with $n\equiv1\pmod{k!}$, under which $n+k$ need
 not have a prime factor $\le k$, and proposed $S(k)\le k+1$ with
-$n\equiv1\pmod{(k+1)!}$; the site notes under the comment that the page was
-corrected accordingly. The correction is checked here:
+$n\equiv1\pmod{(k+1)!}$; erdosproblems.com notes under the comment that the page
+was corrected accordingly. The correction is checked here:
 $n+i\equiv i+1\pmod{(k+1)!}$, so $i+1$ divides $n+i$ for $1\le i\le k$, and
 every $n+i$ has a prime factor at most $k+1$. The proof-claim tab was empty, as
 it had been on 2026-09-18.
@@ -193,9 +194,9 @@ is the best lower bound known at present. It would be very nice if one could
 prove that $B(n)>Cn^{1/2}$ for every $C$ and $n>n_0(C)$. It is likely that
 $B(n)>n^{1-\varepsilon}$ for every $\varepsilon>0$ and $n>n_1(\varepsilon)$". In
 [Er80] p. 106 it is $f(x)$ ("In particular must $f(x)$ be significantly larger
-than $x^{1/2}$?"), with the offer that the site records on Problem 687; both
-passages are quoted at length on that page. The site's source key for this
-problem is [Er76d] alone.
+than $x^{1/2}$?"), with the offer that erdosproblems.com records on Problem 687;
+both passages are quoted at length on that page. The erdosproblems.com source
+key for this problem is [Er76d] alone.
 
 **The covering form and its consequences.** Because $S(k)$ is the least
 $x$ with $Y(x)\ge k$ (Formulation), every bound on $Y$ inverts into a bound
@@ -208,7 +209,7 @@ $Y(x)\le C(\pi(x))\ll x^2$ is a one-line step made on that result
 page, and [FGKMT18] p. 4 attests the bound in this form) gives
 $S(k)\gg k^{1/2}$: if $Y(x)\le Cx^2$ and $Y(x)\ge k$ then
 $x\ge(k/C)^{1/2}$. This is [Er79d]'s "$B(n)>c\sqrt n$" and it is stronger
-than the site's $k^{1/2-o(1)}$. (ii) [FGKMT18]'s
+than erdosproblems.com's $k^{1/2-o(1)}$. (ii) [FGKMT18]'s
 [[../library/integer_sequences/ford_2018_long_gaps_between_primes/equation_1_2|display (1.2)]],
 $Y(x)\ge cx\log x\log_3x/\log_2x$ for large $x$ (J. Amer. Math. Soc. 2018,
 refereed; the statement checked against the paper; its own claim page is
@@ -220,14 +221,14 @@ $$
 S(k)\ \ll\ \frac{k\log_2k}{\log k\,\log_3k}.
 $$
 
-(iii) The site's displayed bound $S(k)\ll k\log_3k/(\log_2k\log_4k)$ is
+(iii) erdosproblems.com's displayed bound $S(k)\ll k\log_3k/(\log_2k\log_4k)$ is
 larger than (ii) by a factor $\log k(\log_3k)^2/((\log_2k)^2\log_4k)\to\infty$,
 so it is implied by (ii) and true, but it is not the inversion of (1.2); it
 has the shape of the prime-gap factor of Theorem 1 with $X$ replaced by $k$.
-It is recorded as the site's statement, and the difference is recorded as a
-site-versus-source note that does not affect the label. (iv)
-Rankin's $Y(x)\gg x\log x\log_3x/(\log_2x)^2$ (as [FGKMT18] p. 4 states it)
-inverts to $S(k)\ll k(\log_2k)^2/(\log k\log_3k)$; Erdős's printed
+It is recorded as the erdosproblems.com statement, and the difference is
+recorded as an erdosproblems.com-versus-source note that does not affect the
+label. (iv) Rankin's $Y(x)\gg x\log x\log_3x/(\log_2x)^2$ (as [FGKMT18] p. 4
+states it) inverts to $S(k)\ll k(\log_2k)^2/(\log k\log_3k)$; Erdős's printed
 Rankin-type bounds, $\ell<ck(\log_3k)^2/(\log k\log_2k\log_4k)$ for the index
 $\ell=\pi(S(k))$ in [Er76d] and $B(n)<cn(\log_3n)^2/(\log n\log_2n\log_4n)$ in
 [Er79d], share a shape that this inversion does not reproduce; they are
@@ -235,8 +236,8 @@ recorded as printed and not reconciled here. (v) The covering theorem
 $Y(x)\ge c_0x\log x/\log_3x$ for large $x$, of the AI-written manuscript posted
 by the forum user DottedCalculator, is accepted, not refereed, on
 [[problems/primes/E0004/claims/2026_08_26_dottedcalculator|its claim page on Problem 4]]
-on the site curator's credit, and Problem 687 records it as the best lower
-bound for $Y$. It gives $S(k)\le x$ for every large $x$ with
+on the erdosproblems.com curator's credit, and Problem 687 records it as the
+best lower bound for $Y$. It gives $S(k)\le x$ for every large $x$ with
 $c_0x\log x/\log_3x\ge k$. Take $x=Ck\log_3k/\log k$ with a constant
 $C>1/c_0$: then $\log x\sim\log k$ and $\log_3x\sim\log_3k$, so
 $c_0x\log x/\log_3x\sim c_0Ck>k$ for large $k$, and
@@ -272,17 +273,17 @@ $k^{1/2}$; the upper bound by inversion (v) of the covering theorem accepted on
 Problem 4, the best upper bound from a refereed statement being (ii),
 $k\log_2k/(\log k\log_3k)$),
 against the trivial $S(k)\le k+1$ and the conjectured $S(k)\ge k^{1-o(1)}$
-(Erdős 1976 and 1979; the site's displayed question). The exponent gap between
-$1/2$ and $1$ is untouched. Any progress on the exponent is progress on Problem
-687's second question, and conversely.
+(Erdős 1976 and 1979; erdosproblems.com's displayed question). The exponent gap
+between $1/2$ and $1$ is untouched. Any progress on the exponent is progress on
+Problem 687's second question, and conversely.
 
 **Search scope.** The routes below, as they stood on 2026-09-18, showed no
 lower bound with exponent above $1/2$, no upper bound below the inversion of
 (1.2) and no proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures directory and tree as of 2026-09-18 (no file); the
-  community database as of 2026-09-18.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  formal-conjectures directory and tree, read 2026-09-18 (no file); the
+  community database, read 2026-09-18.
 - arXiv: the API queries `all:Jacobsthal` (40 newest records),
   `abs:"large gaps between primes" OR abs:"long gaps between primes" OR
   abs:"Jacobsthal function"` (21 records) and `abs:"residue class" AND
@@ -301,7 +302,7 @@ lower bound with exponent above $1/2$, no upper bound below the inversion of
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [HaRi74],
 [Ra38]. [Iw78] was not available at the time of the search; the References
-cite its pages. The site's proof-claim tab was empty.
+cite its pages. The erdosproblems.com proof-claim tab was empty.
 
 **Remaining gaps.** (1) The best refereed lower bound, $k^{1/2}$, rests on the
 Corollary of [Iw78] and on two one-line steps made on its result page and here,
@@ -309,14 +310,15 @@ from $C(\pi(x))$ to $Y(x)$ and from $Y(x)$ to $S(k)$; the paper's Theorem is
 cited as stated and its proof is not checked here. The best lower bound,
 $k^{1/2}\log k$, rests on the release's Lean bound, the authored step to $Y$
 reviewed on Problem 687 and the inversion (vi) made here; it has no refereed
-version, and its constant is not explicit. (2) The site's displayed upper bound
-and the inversion of (1.2) differ; the site's is recorded as the site's and the
-difference is not resolved with the site. (3) Erdős's two printed Rankin-type
-bounds are recorded as printed and not reconciled with the inversion. (4) The
-site's page does not cross-reference Problem 687, of which this problem is the
-inverse form; recorded here as an observation. (5) The best upper bound rests
-on the covering theorem accepted on Problem 4 on the site curator's credit; it
-has no refereed version, and its manuscript is not checked here.
+version, and its constant is not explicit. (2) erdosproblems.com's displayed
+upper bound and the inversion of (1.2) differ; erdosproblems.com's is recorded
+as erdosproblems.com's and the difference is not resolved with
+erdosproblems.com. (3) Erdős's two printed Rankin-type bounds are recorded as
+printed and not reconciled with the inversion. (4) The erdosproblems.com page
+does not cross-reference Problem 687, of which this problem is the inverse form;
+recorded here as an observation. (5) The best upper bound rests on the covering
+theorem accepted on Problem 4 on the erdosproblems.com curator's credit; it has
+no refereed version, and its manuscript is not checked here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

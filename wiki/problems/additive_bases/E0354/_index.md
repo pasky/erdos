@@ -40,23 +40,23 @@ for some finite $S,T\subset \mathbb{N}$?
 
 What if $2$ is replaced by some $\gamma\in(1,2)$?
 
-**Formulation.** The site's wording as of 2026-09-28 (page last edited 1
-December 2025; the history shows one earlier version, of 20 October 2025, with
-the same statement). Two questions. The first fixes its reading in the "That is"
-clause: indices, not values, are used at most once, so equal values
-$\lfloor2^s\alpha\rfloor=\lfloor2^t\beta\rfloor$ count separately (the
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-28 (page last
+edited 1 December 2025; the history shows one earlier version, of 20 October
+2025, with the same statement). Two questions. The first fixes its reading in
+the "That is" clause: indices, not values, are used at most once, so equal
+values $\lfloor2^s\alpha\rfloor=\lfloor2^t\beta\rfloor$ count separately (the
 multiset), and zero terms are harmless. The second, "What if $2$ is replaced
 by some $\gamma\in(1,2)$?", does not say whether "some $\gamma$" means "for
 some $\gamma$" or "for every $\gamma$"; Graham's original (Question 12,
 printed p. 36, quoted on the library card) has the same wording, "What if 2
 is replaced by some $\gamma$, $1<\gamma<2$?", and the 1980 monograph's
-restatement (p. 58, the site's key) reads "What if 2 is replaced by $\gamma$
-where $1<\gamma<2$?"; the two readings have different answers below. The
-site's source key is [ErGr80, p.58].
+restatement (p. 58, the erdosproblems.com key) reads "What if 2 is replaced by
+$\gamma$ where $1<\gamma<2$?"; the two readings have different answers below.
+The erdosproblems.com source key is [ErGr80, p.58].
 
-**Status.** Open, the site's label OPEN (accessed 2026-09-28), which attached to
-the pair of questions. No claim settles the pair of questions, so the derived
-standing is open.
+**Status.** Open, the erdosproblems.com label OPEN (accessed 2026-09-28), which
+attached to the pair of questions. No claim settles the pair of questions, so
+the derived standing is open.
 
 The first question (base $2$) has two accepted partial claims. One is
 [[problems/additive_bases/E0354/claims/2026_09_11_jenw1n|the bounty site Conjectures.io's certified Lean proof]],
@@ -79,9 +79,9 @@ answers yes under the reading "for some $\gamma\in(1,2)$".
 answers no under the reading "for every $\gamma\in(1,2)$".
 
 **Source.** [erdosproblems.com/354](https://www.erdosproblems.com/354),
-accessed 2026-09-28: the problem page (OPEN, with the site's note that no
-finite computation can resolve it; source key [ErGr80, p.58]; no prize; last
-edited 01 December 2025; commentary citing [Gr71], [He89], [He91], [He94],
+accessed 2026-09-28: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can resolve it; source key [ErGr80, p.58]; no prize;
+last edited 01 December 2025; commentary citing [Gr71], [He89], [He91], [He94],
 [JiMa24], [FaHe25] and van Doorn's comments), its history (one earlier
 version, 2025-10-20), its eleven-comment discussion thread (20 September
 2025 to 5 September 2026) and its proof-claims tab (one full-proof claim,
@@ -92,10 +92,11 @@ https://www.erdosproblems.com/354, accessed 2026-09-28.
 
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results
   in combinatorial number theory. Monographies de L'Enseignement
-  Mathématique 28 (1980), printed p. 58, the site's source key. Library home:
+  Mathématique 28 (1980), printed p. 58, the erdosproblems.com source key.
+  Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [FaHe25] Fang, J.-H. and He, J.-Y., On a problem of Erdős and Graham.
-  Acta Math. Hungar. 175 (2025), 532--542. Not held; site-attested.
+  Acta Math. Hungar. 175 (2025), 532--542. Not held; erdosproblems.com-attested.
 - [Gr71] Graham, R. L., On sums of integers taken from a fixed sequence.
   Proceedings of the Washington State University Conference on Number
   Theory (1971), 22--40; Question 12, printed p. 36, is the problem in this
@@ -106,8 +107,8 @@ https://www.erdosproblems.com/354, accessed 2026-09-28.
   [[../library/additive_bases/graham_1971_sums_integers_taken_fixed_sequence/question_12|Question 12]].
 - [He89] Hegyvári, N., Some remarks on a problem of Erdős and Graham. Acta
   Math. Hungar. 53 (1989), 149--154, DOI 10.1007/BF02170065. Not held;
-  site-attested, and as summarized by [Fa26], [Ge26] and [YuCh26]; claim
-  page
+  erdosproblems.com-attested, and as summarized by [Fa26], [Ge26] and [YuCh26];
+  claim page
   [[problems/additive_bases/E0354/claims/1989_03_01_hegyvari|Hegyvári 1989]].
 - [He91] Hegyvári, N., On complete sequences. Ann. Univ. Sci. Budapest.
   Eötvös Sect. Math. 34 (1991), 7--10. Library home:
@@ -116,7 +117,7 @@ https://www.erdosproblems.com/354, accessed 2026-09-28.
   (1994), 115--122. Library home:
   [[../library/additive_bases/hegyvari_1994_sumset_certain_sets/_index|hegyvari_1994_sumset_certain_sets]].
 - [JiMa24] Jiang, X.-W. and Ma, W.-X., A conjecture of Hegyvári. Int. J.
-  Number Theory 20 (2024), 915--933. Not held; site-attested.
+  Number Theory 20 (2024), 915--933. Not held; erdosproblems.com-attested.
 - [JW26] JenW1N (solver handle), Lean proof of Erdős problem 354, part (i).
   Conjectures.io record `815c1d5f-3afb-4430-8e2c-260d9038f5b0`; verified
   11 September 2026, review approved 15 September 2026, certified 16
@@ -160,13 +161,13 @@ https://www.erdosproblems.com/354, accessed 2026-09-28.
 pinned to the default branch's revision of 2026-09-27 (the file's last change
 is of 2026-09-18): `erdos_354.parts.i` (base $2$) and `erdos_354.parts.ii`
 (`∃ γ ∈ Set.Ioo (1 : ℝ) 2, ...`), both `research open` with
-`answer(sorry)` as of 2026-09-28. The `FloorMultiples.interleave` definition
+`answer(sorry)` on 2026-09-28. The `FloorMultiples.interleave` definition
 was corrected on 3 December 2025 (PR #1330, index `n` to `n / 2`, fixing
 issue #1309; the earlier form is the misformalization the forum comment of
 1 December 2025 reports as disproved), and part (ii) received its bound
 base `γ` on 1 September 2026 (PR #5243; before that it passed the literal
 `2` and repeated part (i); PR #1519 of 7 January 2026 had made `γ` real).
-Open as of 2026-09-28: PR #6433 (20 September 2026, labels
+Open on 2026-09-28: PR #6433 (20 September 2026, labels
 `erdos-problems`, `solution found`) to record an affirmative part (i)
 from the Yu--Chen repository, with issue #6431 (20 September 2026, no
 labels); PR #5286 (5 September 2026, labels `erdos-problems`,
@@ -176,34 +177,34 @@ Kitamura's proof; issue #6542 (24 September 2026, labels
 does not capture the source's variable-base question. PR #2890 (closed
 unmerged, 3 March 2026) concerned a former `erdos_354.variants.known_result`
 declaration the current file no longer has. The Conjectures.io acceptance
-is of `parts.i` as fixed; see Status. The site's page marks the statement
-as formalized; the community database's `formal_status` field reads
+is of `parts.i` as fixed; see Status. The erdosproblems.com page marks the
+statement as formalized; the community database's `formal_status` field reads
 "unformalized" while its `formalized` field reads yes (2025-09-05), a
 stale pair.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; OPEN, with the
-site's note that no finite computation can resolve it; no prize; last edited
-1 December 2025. The site's commentary, in summary: Graham [Gr71] first
-raised the question. Hegyvári proved completeness when $\alpha=m/2^n$ is a
-dyadic rational and $\beta$ is not [He89], proved, in the site's account,
-that for fixed $\alpha>0$ the set of $\beta$ giving completeness has
-Lebesgue measure $0$ or infinite measure [He91] (the paper's Theorem, p. 7,
-concerns the set of $\beta$ giving incompleteness, which it proves
-measurable, as Progress and known results below records; the dichotomy does
-not carry over to its complement, so the site's wording reverses the two
-sets), and proved that continuum many pairs $(\alpha,\beta)$ have subset
+**The question (erdosproblems.com formulation).** The statement above; OPEN,
+with the erdosproblems.com note that no finite computation can resolve it; no
+prize; last edited 1 December 2025. The erdosproblems.com commentary, in
+summary: Graham [Gr71] first raised the question. Hegyvári proved completeness
+when $\alpha=m/2^n$ is a dyadic rational and $\beta$ is not [He89], proved, in
+erdosproblems.com's account, that for fixed $\alpha>0$ the set of $\beta$ giving
+completeness has Lebesgue measure $0$ or infinite measure [He91] (the paper's
+Theorem, p. 7, concerns the set of $\beta$ giving incompleteness, which it
+proves measurable, as Progress and known results below records; the dichotomy
+does not carry over to its complement, so the erdosproblems.com wording reverses
+the two sets), and proved that continuum many pairs $(\alpha,\beta)$ have subset
 sums containing no infinite arithmetic
 progression [He94]. Incompleteness holds when $\alpha\ge2$ and
 $\beta=2^k\alpha$ with $k\ge0$ [He89], and when $1<\alpha<2$ and
-$\beta=2^k\alpha$ with $k$ large enough [JiMa24], [FaHe25]. The site records
-Hegyvári's conjecture that the irrationality hypothesis can be weakened to
-$\alpha/\beta\ne2^k$ together with one of $\alpha,\beta$ not a dyadic
+$\beta=2^k\alpha$ with $k$ large enough [JiMa24], [FaHe25]. erdosproblems.com
+records Hegyvári's conjecture that the irrationality hypothesis can be weakened
+to $\alpha/\beta\ne2^k$ together with one of $\alpha,\beta$ not a dyadic
 rational, and credits van Doorn's comments with completeness when
 $\alpha<2<\beta<3$ and with completeness of the ceiling analogue whenever
-$\alpha$ or $\beta$ is not a dyadic rational. The site thanks Wouter van
-Doorn and marks the statement as formalized. The thread, oldest first: 20
+$\alpha$ or $\beta$ is not a dyadic rational. erdosproblems.com thanks Wouter
+van Doorn and marks the statement as formalized. The thread, oldest first: 20
 September 2025 (van Doorn, posting as the account Woett): two propositions
 with proofs, that $P(\alpha,\beta)$ holds when $\alpha$ is a dyadic rational
 and $\beta$ is not (through $P(2\alpha,\beta)\Rightarrow P(\alpha,\beta)$,
@@ -237,11 +238,12 @@ misformalizations; 5 September 2026 (Kitamura): the announcement of the part
 (ii) Lean proof, with the two concerns quoted on its card. The proof-claims
 tab: one full-proof claim, credited to Yingzhe Yu and Kani Chen, submitted
 2026-09-13 15:48:40, with a summary of the strong-completeness argument,
-links to the proof and the formalization, and no comments, under the site's
-notice that a listing there does not vouch for the proof's correctness. The
-community database record (entry 354, copy accessed 2026-09-27): status open
-(2025-08-31), formal status "unformalized" while "formalized: yes"
-(2025-09-05), no OEIS entry, tags number theory and complete sequences.
+links to the proof and the formalization, and no comments, under
+erdosproblems.com's notice that a listing there does not vouch for the proof's
+correctness. The community database record (entry 354, copy accessed
+2026-09-27): status open (2025-08-31), formal status "unformalized" while
+"formalized: yes" (2025-09-05), no OEIS entry, tags number theory and complete
+sequences.
 
 **Origin.** Graham's 1971 survey, Question 12 (printed p. 36): "Let
 $\alpha$ and $\beta$ be positive
@@ -257,21 +259,21 @@ $([\alpha],[\beta],[2\alpha],[2\beta],\ldots,[2^n\alpha],[2^n\beta],\ldots)$.
 Is $S$ complete? What if 2 is replaced by $\gamma$ where $1<\gamma<2$?",
 among the section's questions on sums of subsets, with no result.
 
-**Standing of the first question: answered yes on a site-accepted Lean
+**Standing of the first question: answered yes on a Conjectures.io-accepted Lean
 proof.** The status-defining source is
 [[../library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target|the accepted theorem]]
 of Conjectures.io record `815c1d5f-3afb-4430-8e2c-260d9038f5b0` ([JW26],
 "Erdős problem 354 - part i", attacked as Prove), whose type is the
-catalog's `erdos_354.parts.i` with answer true,
+formal-conjectures catalog's `erdos_354.parts.i` with answer true,
 `True ↔ ∀ α > 0, ∀ β > 0, Irrational (α / β) → IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β 2)`,
-and whose unfolding is the site's "That is" clause word for word:
+and whose unfolding is erdosproblems.com's "That is" clause word for word:
 `interleave α β 2` is the sequence
 $\lfloor\alpha\rfloor,\lfloor\beta\rfloor,\lfloor2\alpha\rfloor,\lfloor2\beta\rfloor,\ldots$
 in $\mathbb Z$, `subseqSums'` takes sums over finite sets of indices (each
 index at most once, equal values at different indices counted separately)
 and `IsAddCompleteNatSeq'` asks that every sufficiently large integer be
 such a sum; a finite index set is exactly a pair $(S,T)$, and zero terms
-change no sum. The acceptance evidence is the site's: its Lean kernel
+change no sum. The acceptance evidence is Conjectures.io's: its Lean kernel
 accepted the proof on 11 September 2026 with `propext`, `Quot.sound` and
 `Classical.choice` as the only permitted axioms, its static scan found no
 imports, axiom declarations, `sorry`, `native_decide` or unsafe options, its
@@ -279,17 +281,17 @@ report records that the theorem proved has exactly the task's canonical
 type, its manual review approved the record on 15 September 2026 under its
 review policy v3 after a prior-art check that found no qualifying earlier
 public solution and bounds its novelty findings by the sources it inspected,
-and the record was certified on 16 September 2026 with the bounty paid; the
-site's second, independent kernel was not run, so the kernel verdict rests
-on one implementation. That certification is reported, not counted: the first
-question is recorded as answered on this corpus's rebuild and kernel replay of
-the file on the repository's pinned toolchain (Lean v4.34.1) and its check of
-the target against the first question, as the claim page records, without
-refereeing, erdosproblems.com acceptance or formal-conjectures catalog agreement
-(as of 2026-09-28 the erdosproblems.com page labeled the problem OPEN, last
-edited 1 December 2025, its proof-claims tab listed one later full-proof claim,
-the Yu--Chen manuscript of 13 September 2026 with its own Lean formalization, no
-outside review, and PR
+and the record was certified on 16 September 2026 with the bounty paid;
+Conjectures.io's second, independent kernel was not run, so the kernel verdict
+rests on one implementation. That certification is reported, not counted: the
+first question is recorded as answered on this corpus's rebuild and kernel
+replay of the file on the repository's pinned toolchain (Lean v4.34.1) and its
+check of the target against the first question, as the claim page records,
+without refereeing, erdosproblems.com acceptance or formal-conjectures catalog
+agreement (on 2026-09-28 the erdosproblems.com page labeled the problem OPEN,
+last edited 1 December 2025, its proof-claims tab listed one later full-proof
+claim, the Yu--Chen manuscript of 13 September 2026 with its own Lean
+formalization, no outside review, and PR
 #6433 to record the answer from that manuscript was open). The proof file is the
 record's solution download (the `.../solution` page shows its first 500 lines),
 fetched 2026-09-28: 10,152 lines, header "A proof of the full
@@ -297,15 +299,15 @@ Erdős 354(levelIndex) proposition", 130 `Source: <name>.lean` sections in
 namespace `Erdos354Formal`, final theorem `target` at line 10148; the
 library card
 [[../library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/_index|jenw1n_2026_erdos_354_part_i_lean_proof]]
-records it. The record page pins the catalog statement at commit `8432eac9`
-and the task bundle at `6a786f99`, both with the same source type hash;
-neither commit was publicly retrievable on 2026-09-28, so the identity of
+records it. The record page pins the formal-conjectures statement at commit
+`8432eac9` and the task bundle at `6a786f99`, both with the same source type
+hash; neither commit was publicly retrievable on 2026-09-28, so the identity of
 the pinned statement rests on the task bundle's printed type and docstring
 (identical to the default-branch file's, which tags both parts
 `research open`), the shared source type hash, and the proof's own lemmas
-`interleave_even` and `interleave_odd`, which unfold the catalog's
-`interleave` by `simp` into the two floor sequences and compile only against
-the corrected `n / 2` definition of 3 December 2025, so the kernel
+`interleave_even` and `interleave_odd`, which unfold the formal-conjectures
+catalog's `interleave` by `simp` into the two floor sequences and compile only
+against the corrected `n / 2` definition of 3 December 2025, so the kernel
 acceptance itself shows the pinned definition is the corrected one. This
 corpus rebuilt the proof file and replayed its target in the kernel. The file's
 final theorem rests on a reduction chain (a scaling to $\alpha,\beta\ge1$, then
@@ -313,21 +315,21 @@ two criteria on the binary digits of $\alpha$ and $\beta$); the file contains no
 `sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`, `implemented_by`,
 `extern`, `opaque` or `_root_`, no `instance`, `notation`, `macro`, `elab` or
 `syntax`, no `partial` definition, `decide` only on finite Boolean lemmas and
-one classical decidability term, and no redefinition of the catalog's names, the
-whole file sitting in its own namespace; the mathematical core (a joining and
-disjointness argument on the binary digit sequences of $\alpha$ and $\beta$,
-about 9,000 lines) rests on the site's kernel acceptance. The file's header
-names no author beyond the site's solver handle. The theorem covers base $2$ and
-the irrational-ratio hypothesis only: the rational-ratio cases of Hegyvári's
-conjecture ($\alpha/\beta$ rational but not a power of $2$, one of
-$\alpha,\beta$ not a dyadic rational) are outside it and are touched by no 2026
-source. The later Yu--Chen manuscript ([YuCh26],
+one classical decidability term, and no redefinition of the formal-conjectures
+catalog's names, the whole file sitting in its own namespace; the mathematical
+core (a joining and disjointness argument on the binary digit sequences of
+$\alpha$ and $\beta$, about 9,000 lines) rests on Conjectures.io's kernel
+acceptance. The file's header names no author beyond Conjectures.io's solver
+handle. The theorem covers base $2$ and the irrational-ratio hypothesis only:
+the rational-ratio cases of Hegyvári's conjecture ($\alpha/\beta$ rational but
+not a power of $2$, one of $\alpha,\beta$ not a dyadic rational) are outside it
+and are touched by no 2026 source. The later Yu--Chen manuscript ([YuCh26],
 [[../library/additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/theorem|Theorem]])
 claims the stronger strong completeness of the nonzero value set, which would
 imply the first answer; it is dated 13 September 2026, its repository was
-created 12 September, it is listed on the site's proof-claims tab and in an open
-catalog PR, and it has no outside review or acceptance evidence, so it changes
-nothing here. Its argument is reconstructed section by section in
+created 12 September, it is listed on the erdosproblems.com proof-claims tab and
+in an open catalog PR, and it has no outside review or acceptance evidence, so
+it changes nothing here. Its argument is reconstructed section by section in
 [[research/erdos_354/_index|the research folder for this problem]], with
 Dirichlet's approximation theorem imported and the finite certificate of its
 Appendix A rechecked; an internal review of 2026-09-28 graded each of that
@@ -358,21 +360,21 @@ are reconstructed in the same research folder, with Dubickas's theorem
 imported, and the internal review graded both reconstructions faithful and
 sound, with no tier; acceptance of Geneson's claim on that review is pending
 until the project's reviewer signs off.
-Under "for some $\gamma\in(1,2)$", the catalog's existential form,
+Under "for some $\gamma\in(1,2)$", the formal-conjectures catalog's existential
+form,
 [[../library/additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|Kitamura's theorem]]
 ([Ki26]) answers yes with $\gamma=\sqrt\varphi$: the single sequence
 $\lfloor\gamma^n\alpha\rfloor$ is complete for every $\alpha>0$, so the
 second sequence and the irrational ratio are not needed; an unreviewed
 GitHub proof of 5 September 2026 (the author's axiom report only), its
 catalog PR open and the existential quantifier disputed as a
-misformalization in issue #6542. The thread adds two site-attested items,
-neither verified by anyone in the thread or by this corpus: van Doorn's remark
-of 20 September 2025 that the
-proof of completeness for $\min(\alpha,\beta)<2$, $\max(\alpha,\beta)<3$
-carries over at once to every base $\gamma\in(1,2)$, and van Doorn's suspicion
-of 19 October 2025 that Hegyvári 1989 settles $\gamma=\sqrt2$ or even
-$1<\gamma\le\sqrt2$, which nobody in the thread verified. Fan's Remark
-4.2 ([Fa26],
+misformalization in issue #6542. The thread adds two erdosproblems.com-attested
+items, neither verified by anyone in the thread or by this corpus: van Doorn's
+remark of 20 September 2025 that the proof of completeness for
+$\min(\alpha,\beta)<2$, $\max(\alpha,\beta)<3$ carries over at once to every
+base $\gamma\in(1,2)$, and van Doorn's suspicion of 19 October 2025 that
+Hegyvári 1989 settles $\gamma=\sqrt2$ or even $1<\gamma\le\sqrt2$, which nobody
+in the thread verified. Fan's Remark 4.2 ([Fa26],
 [[../library/additive_bases/fan_2026_strongly_complete_sets_conjecture_erdos/remark_4_2|Remark 4.2]])
 concerns base $2$ only (the threshold $M_2^*=2$ would imply Hegyvári's
 conjecture; the paper proves $2\le M_2^*\le5$) and is context. Neither
@@ -400,17 +402,17 @@ version of any 2026 source was looked for beyond the arXiv records, which
 show no journal reference or DOI for either preprint.
 
 **Remaining gaps.** (1) The second question's reading, "for some" or "for every"
-$\gamma$, is unfixed by the site and by both origins, and neither reading has
-acceptance evidence. (2) The first answer rests on this corpus's kernel replay
-of the bounty site's file, with no refereed publication, no erdosproblems.com
-acceptance and no catalog agreement. (3) The pinned catalog commits returned
-HTTP 404 on 2026-09-28; the replay reproduced the task's commit, and the proof's
-core rests on the kernel replay. (4) [He89], [JiMa24], [FaHe25] and van Doorn's
-ceiling write-up are not held; their results are site-attested. (5) The
-rational-ratio cases of Hegyvári's conjecture are untouched by every 2026
-source. (6) The Geneson preprint also bears on Problems 348 (Theorem 1) and 349
-(Theorem 9), and the Fan preprint on Problems 254 and 124; those results belong
-to the pages of those problems.
+$\gamma$, is unfixed by erdosproblems.com and by both origins, and neither
+reading has acceptance evidence. (2) The first answer rests on this corpus's
+kernel replay of the bounty site's file, with no refereed publication, no
+erdosproblems.com acceptance and no catalog agreement. (3) The pinned catalog
+commits returned HTTP 404 on 2026-09-28; the replay reproduced the task's
+commit, and the proof's core rests on the kernel replay. (4) [He89], [JiMa24],
+[FaHe25] and van Doorn's ceiling write-up are not held; their results are
+erdosproblems.com-attested. (5) The rational-ratio cases of Hegyvári's
+conjecture are untouched by every 2026 source. (6) The Geneson preprint also
+bears on Problems 348 (Theorem 1) and 349 (Theorem 9), and the Fan preprint on
+Problems 254 and 124; those results belong to the pages of those problems.
 
 ## Progress and known results
 
@@ -418,12 +420,12 @@ to the pages of those problems.
   wording, both questions, stated without result;
   [[../library/additive_bases/graham_1971_sums_integers_taken_fixed_sequence/question_12|Question 12]];
   restated in the 1980 monograph, p. 58.
-- Hegyvári 1989 [He89] (not held; site-attested, also as summarized by Fan,
-  Geneson and Yu--Chen): complete when exactly one of $\alpha,\beta$ is a
-  dyadic rational, recorded at
+- Hegyvári 1989 [He89] (not held; erdosproblems.com-attested, also as summarized
+  by Fan, Geneson and Yu--Chen): complete when exactly one of $\alpha,\beta$ is
+  a dyadic rational, recorded at
   [[problems/additive_bases/E0354/claims/1989_03_01_hegyvari|Hegyvári 1989]];
-  not complete when $\alpha\ge2$ and $\beta=2^k\alpha$ (the site: $k\ge0$;
-  Geneson: a positive integer $k$).
+  not complete when $\alpha\ge2$ and $\beta=2^k\alpha$ (erdosproblems.com:
+  $k\ge0$; Geneson: a positive integer $k$).
 - Hegyvári 1991 [He91] (library card; no file held): for fixed $\alpha>0$
   the set of $\beta$ with the pair incomplete is measurable of Lebesgue
   measure $0$ or infinite;
@@ -433,15 +435,16 @@ to the pages of those problems.
   outside the irrationality hypothesis, whose subset sums contain no
   infinite arithmetic progression;
   [[../library/additive_bases/hegyvari_1994_sumset_certain_sets/_index|hegyvari_1994_sumset_certain_sets]].
-- Jiang--Ma 2024 [JiMa24] and Fang--He 2025 [FaHe25] (not held; site-attested):
-  not complete when $1<\alpha<2$ and $\beta=2^k\alpha$ for $k$ sufficiently
-  large.
-- van Doorn, forum comments of September--October 2025 (site-attested and
-  credited on the site): complete when $\min(\alpha,\beta)<2$ and
-  $\max(\alpha,\beta)<3$ (the site: $\alpha<2<\beta<3$), with the remark that
-  the proof generalizes to bases $\gamma\in(1,2)$; with ceilings in place of
-  floors the sequence is complete whenever $\alpha$ or $\beta$ is not a dyadic
-  rational (write-up linked from the thread; not held).
+- Jiang--Ma 2024 [JiMa24] and Fang--He 2025 [FaHe25] (not held;
+  erdosproblems.com-attested): not complete when $1<\alpha<2$ and
+  $\beta=2^k\alpha$ for $k$ sufficiently large.
+- van Doorn, forum comments of September--October 2025
+  (erdosproblems.com-attested and credited on erdosproblems.com): complete when
+  $\min(\alpha,\beta)<2$ and $\max(\alpha,\beta)<3$ (erdosproblems.com:
+  $\alpha<2<\beta<3$), with the remark that the proof generalizes to bases
+  $\gamma\in(1,2)$; with ceilings in place of floors the sequence is complete
+  whenever $\alpha$ or $\beta$ is not a dyadic rational (write-up linked from
+  the thread; not held).
 - Conjectures.io-accepted Lean proof [JW26] (verified 11 September 2026, review
   approved 15 September 2026, certified 16 September 2026): the first question
   answered yes, for all $\alpha,\beta>0$ with $\alpha/\beta$ irrational, every
@@ -450,11 +453,12 @@ to the pages of those problems.
   $S,T\subset\mathbb N$;
   [[../library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target|target]].
   Scope: base $2$ only, indexed (multiset) sums, no strong-completeness or
-  set-union claim; site-accepted on a single kernel, no refereed publication, no
-  site or catalog acceptance; replayed in the kernel by this corpus.
+  set-union claim; Conjectures.io-accepted on a single kernel, no refereed
+  publication, no erdosproblems.com or catalog acceptance; replayed in the
+  kernel by this corpus.
 - Yu--Chen 2026 manuscript [YuCh26] (13 September 2026; unrefereed; own Lean;
-  later than the site acceptance; a proof claim on the site; catalog PR #6433
-  open): claims strong completeness of
+  later than Conjectures.io acceptance; a proof claim on erdosproblems.com;
+  catalog PR #6433 open): claims strong completeness of
   $\{\lfloor2^n\alpha\rfloor,\lfloor2^n\beta\rfloor\}\setminus\{0\}$ for
   $\alpha/\beta$ irrational, every finite deletion leaving all sufficiently
   large integers as sums of distinct remaining values, which implies the first
@@ -462,10 +466,10 @@ to the pages of those problems.
   [[../library/additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/theorem|Theorem]];
   a claim with no outside review, reconstructed in the research folder.
 - Kitamura 2026 Lean proof [Ki26] (5 September 2026; unreviewed; PR #5286 open;
-  issue #6542 disputes the formalization): the catalog's existential form of the
-  second question holds with $\gamma=\sqrt\varphi\approx1.2720$, at which the
-  single sequence $\lfloor\gamma^n\alpha\rfloor$ is complete for every
-  $\alpha>0$;
+  issue #6542 disputes the formalization): the formal-conjectures catalog's
+  existential form of the second question holds with
+  $\gamma=\sqrt\varphi\approx1.2720$, at which the single sequence
+  $\lfloor\gamma^n\alpha\rfloor$ is complete for every $\alpha>0$;
   [[../library/additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|erdos_354_part_ii_solved]];
   settles only the reading "for some $\gamma\in(1,2)$".
 - Geneson 2026 [Ge26] (arXiv:2609.25107v1, 20 September 2026, preprint),
@@ -484,10 +488,11 @@ to the pages of those problems.
   $\alpha/\beta$ is not a power of $2$ and one of $\alpha,\beta$ is not a dyadic
   rational;
   [[../library/additive_bases/fan_2026_strongly_complete_sets_conjecture_erdos/remark_4_2|Remark 4.2]];
-  it leaves the two-ray case unresolved, as the site's review notes.
-- Hegyvári's conjecture (site; Fan): the hypothesis $\alpha/\beta$ irrational
-  can be weakened to $\alpha/\beta\ne2^k$ with $\alpha$ or $\beta$ not a dyadic
-  rational; open, its rational-ratio cases untouched by every 2026 source.
+  it leaves the two-ray case unresolved, as Conjectures.io's review notes.
+- Hegyvári's conjecture (erdosproblems.com; Fan): the hypothesis $\alpha/\beta$
+  irrational can be weakened to $\alpha/\beta\ne2^k$ with $\alpha$ or $\beta$
+  not a dyadic rational; open, its rational-ratio cases untouched by every 2026
+  source.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

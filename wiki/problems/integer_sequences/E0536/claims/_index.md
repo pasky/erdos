@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 536, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0536/claims
@@ -17,16 +17,16 @@ no three with equal pairwise least common multiples.
 
 [[problems/integer_sequences/E0536/claims/2026_05_03_saturnino|2026_05_03_saturnino]]: Brian Saturnino's note of May 2026 bounds the largest lcm-triangle-free set up
 to $N$ by $(43/48+o(1))N$, using disjoint forbidden triples. It was posted to
-the site's thread and is unreviewed.
+the erdosproblems.com thread and is unreviewed.
 
 [[problems/integer_sequences/E0536/claims/2026_06_22_kitamura|2026_06_22_kitamura]]: Kenta Kitamura's Lean development of June 2026, prepared with Codex 5.5 and
 ChatGPT 5.5 Pro, proves that an lcm-triangle-free set in $\{1,\ldots,N\}$ has
 at most $N-\lfloor N/6\rfloor$ elements. The corpus has not built it.
 
 [[problems/integer_sequences/E0536/claims/2026_07_14_wang|2026_07_14_wang]]: Shouqiao Wang's AI-assisted manuscript of July 2026 claims $f(N)=o(N)$ by a
-cap-set argument. It was posted to the site's proof-claims tab and is
-unreviewed, and the curator relabeled it partial because it does not estimate
-$f(N)$.
+cap-set argument. It was posted to the erdosproblems.com proof-claims tab and
+is unreviewed, and the curator relabeled it partial because it does not
+estimate $f(N)$.
 
 [[problems/integer_sequences/E0536/claims/2026_08_17_logsdon|2026_08_17_logsdon]]: Sara Logsdon's Lean development of August 2026, prepared with ChatGPT and
 Codex, refines the $5/6$ lattice bound for lcm-triangle-free sets to

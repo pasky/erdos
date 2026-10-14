@@ -145,7 +145,7 @@ reviewed.
   $n+\lfloor\sqrt{n-1}\rfloor+2$ for all $n\ge2$", adding that an
   affirmative answer would refute Conjecture 1. A filing observation: for
   every integer $n\ge2$, $\lfloor\sqrt{n-1}\rfloor+1=\lceil\sqrt n\rceil$,
-  so the paper's two lines are the site's $n+\lceil\sqrt n\rceil$ and
+  so the paper's two lines are erdosproblems.com's $n+\lceil\sqrt n\rceil$ and
   $n+\lceil\sqrt n\rceil+1$.
 - § 2, Graph $\Gamma_q$ and its properties (pp. 76--79; p. 78 on the page
   image, the rest in the text layer). Construction: for a prime power $q$,
@@ -227,15 +227,15 @@ power, $t=2,4,\ldots,2\lceil\frac q4\rceil$. Then
 $R(C_4,K_{1,q(q-1)-t})=q^2-t$", with the paper's own placement of every
 value on the lines $n+\lfloor\sqrt{n-1}\rfloor+1$ and
 $n+\lfloor\sqrt{n-1}\rfloor+2$ (p. 75), which are $n+\lceil\sqrt n\rceil$
-and $n+\lceil\sqrt n\rceil+1$. The site (page last edited 1 February 2026)
-names no family of the paper: it refers to it and to [ZCC17b], with the
-papers of Parsons and of Wu et al., for a precise description of the
+and $n+\lceil\sqrt n\rceil+1$. erdosproblems.com (page last edited 1
+February 2026) names no family of the paper: it refers to it and to [ZCC17b],
+with the papers of Parsons and of Wu et al., for a precise description of the
 extensions of Parsons's values, which it places at $n=q^2\pm t$ with $q$ a
 prime power and $0\le t\le q$; neither theorem fits that description, since
 Theorem 7's new values at $n=40$ and $38$ ($q=7$) and Theorem 6's values at
 $n=226$, $225$ and $223$ ($q=16$) lie at no such $n$. The speculation
-the site reports is the question of printed p. 76 (PDF p. 4): "Our question
-is whether $R(C_4,K_{1,n})=n+\lfloor\sqrt{n-1}\rfloor+1$ or
+erdosproblems.com reports is the question of printed p. 76 (PDF p. 4): "Our
+question is whether $R(C_4,K_{1,n})=n+\lfloor\sqrt{n-1}\rfloor+1$ or
 $n+\lfloor\sqrt{n-1}\rfloor+2$ for all $n\ge2$", with the remark that an
 affirmative answer would refute Conjecture 1, where Conjecture 1 (p. 74) is
 the problem's displayed inequality in the form "$R(C_4,K_{1,n})<n+\sqrt n-c$

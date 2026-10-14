@@ -58,8 +58,9 @@ and the odd $n$ below the unnamed threshold.
 optimisation, Adv. Math. 376 (2021), Paper No. 107444 (the Crossref record). The
 preprint is arXiv:1608.05705v1 of 19 August 2016, the date this page is named
 by. It is the only version the arXiv listing shows. The journal text was not
-compared with it, so locators are the preprint's. The site's commentary on this
-problem does not cite the paper, so no curator credit is listed.
+compared with it, so locators are the preprint's. The erdosproblems.com
+commentary on this problem does not cite the paper, so no curator credit is
+listed.
 
 **Read depth.** Claims checked: Conjecture 1.1, display (1.1) and Theorem
 1.2 (p. 2), clause by clause; the proof was not read, and nothing is

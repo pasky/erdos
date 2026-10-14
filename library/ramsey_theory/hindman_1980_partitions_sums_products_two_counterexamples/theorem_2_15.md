@@ -5,7 +5,7 @@ desc: |
   Hindman's seven-cell partition {K_i : i < 7} of the positive integers such
   that no infinite subset of a cell has all its pairwise sums and pairwise
   products in that cell; the seven-color refutation of the infinite version of
-  Problem 172 that the site and the 1979 survey report.
+  Problem 172 that erdosproblems.com and the 1979 survey report.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-07T19:30:53Z
 ---
@@ -61,7 +61,7 @@ of whose finite sums and finite products of distinct elements lie in one
 class of a finite coloring. Such an $A$ inside a cell $K_i$ would have
 $PS(A)\cup PP(A)\subseteq FS(A)\cup FP(A)\subseteq K_i$, and $A\subseteq K_i$
 through the one-element sums, so the theorem refutes that version for seven
-colors, the statement the site and the 1979 survey report; Theorem 2.14
+colors, the statement erdosproblems.com and the 1979 survey report; Theorem 2.14
 refutes it for two colors, since $FS(A)$ contains $A$ and $PS(A)$. The
 finite problem itself is Question 3.3 (p. 120), which the paper leaves open.
 
@@ -116,8 +116,8 @@ the theorem does not use.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0172/_index|Problem 172]]: the seven-color refutation
-  of the problem's infinite version, the statement the site's commentary
-  and the 1979 survey attribute to the paper; the finite problem is stated
-  in the paper as
+  of the problem's infinite version, the statement the erdosproblems.com
+  commentary and the 1979 survey attribute to the paper; the finite problem is
+  stated in the paper as
   [[ramsey_theory/hindman_1980_partitions_sums_products_two_counterexamples/question_3_3|Question 3.3]]
   and left open.

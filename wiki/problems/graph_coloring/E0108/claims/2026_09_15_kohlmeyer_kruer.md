@@ -105,49 +105,52 @@ credits Kohlmeyer and Kruer with the negative solution.
 
 **Formal statement.** The file's final theorem is the negation of the catalog
 statement `Erdos108.erdos_108` of formal-conjectures (the
-[catalog file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/108.lean)
-at its revision of 18 September 2026; the catalog commit the Conjectures.io
-record names does not resolve in the public repository, and the record page
-displays the same statement), whose Lean form matches the wording clause by
-clause except that its $r$ ranges over the extended naturals, so $r=\infty$ is
-admitted, where a girth of at least $\infty$ means acyclic and the formal
-statement is trivially false, so the negation the target states is trivial and
-proves nothing about the problem. The proof does not use that defect: it
-instantiates $r=5$ and $k=7$, both inside the wording's range, and its
-counterexamples are finite graphs lifted to every universe, so the refutation
-holds under both a finite-graph and an all-graphs reading of "every graph".
+[formal-conjectures
+file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/108.lean)
+at its revision of 18 September 2026; the formal-conjectures commit the
+Conjectures.io record names does not resolve in the public repository, and the
+record page displays the same statement), whose Lean form matches the wording
+clause by clause except that its $r$ ranges over the extended naturals, so
+$r=\infty$ is admitted, where a girth of at least $\infty$ means acyclic and the
+formal statement is trivially false, so the negation the target states is
+trivial and proves nothing about the problem. The proof does not use that
+defect: it instantiates $r=5$ and $k=7$, both inside the wording's range, and
+its counterexamples are finite graphs lifted to every universe, so the
+refutation holds under both a finite-graph and an all-graphs reading of "every
+graph".
 
 **Acceptance.** Formalized. This corpus's verification rebuilt the record's
 solution file on the repository's pinned toolchain, `leanprover/lean4:v4.34.1`
 with Mathlib at the revision `lean/lake-manifest.json` pins, after two lemma
-renames that Mathlib made since the site's toolchain; the target's statement is
-unchanged. The kernel replayed, from an empty environment, every declaration the
-target `Bounty.target` depends on, Lean core, Mathlib and formal-conjectures
-included, and accepted them all. The target's axioms are exactly `propext`,
-`Classical.choice` and `Quot.sound`, and its type, and every definition its
-statement reaches, are identical to the formal-conjectures statement of the
-site's task. That target alone is trivial. The refutation is the lemma
-`Bounty.counterexample_family`, from which the file derives the target and which
-the kernel replayed with it: for every $M$ it gives a graph of chromatic number
-at least $M$ all of whose subgraphs of girth at least $5$ are $6$-colorable. A
-separate instance check confirmed that its witness graphs are finite, so the
-lemma refutes the Statement at $r=5$ and $k=7$. Acceptance rests on the replay
-of that lemma and this check.
+renames that Mathlib made since Conjectures.io's toolchain; the target's
+statement is unchanged. The kernel replayed, from an empty environment, every
+declaration the target `Bounty.target` depends on, Lean core, Mathlib and
+formal-conjectures included, and accepted them all. The target's axioms are
+exactly `propext`, `Classical.choice` and `Quot.sound`, and its type, and every
+definition its statement reaches, are identical to the formal-conjectures
+statement of Conjectures.io's task. That target alone is trivial. The refutation
+is the lemma `Bounty.counterexample_family`, from which the file derives the
+target and which the kernel replayed with it: for every $M$ it gives a graph of
+chromatic number at least $M$ all of whose subgraphs of girth at least $5$ are
+$6$-colorable. A separate instance check confirmed that its witness graphs are
+finite, so the lemma refutes the Statement at $r=5$ and $k=7$. Acceptance rests
+on the replay of that lemma and this check.
 
 Conjectures.io's certification is reported, not counted. Conjectures.io records
 the proof as verified on 15 September 2026. Its Lean kernel accepted the file
 with `propext`, `Quot.sound` and `Classical.choice` as the only axioms, after a
 static scan found no imports, axiom declarations, `sorry`, `native_decide` or
-unsafe options. The site's second kernel was not run, so the verdict rests on
-one kernel implementation. Conjectures.io records its review as approved on 16
-September 2026, on two independent agent assessments covering formal semantics
-and prior-source eligibility. It marks the record as certified on 17 September
-2026, with the bounty paid. The result is not refereed.
+unsafe options. Conjectures.io's second kernel was not run, so the verdict rests
+on one kernel implementation. Conjectures.io records its review as approved on
+16 September 2026, on two independent agent assessments covering formal
+semantics and prior-source eligibility. It marks the record as certified on 17
+September 2026, with the bounty paid. The result is not refereed.
 
-On 27 September 2026 the site's curator, Thomas Bloom, posted the claim on the
-erdosproblems.com proof-claims forum so that it could be discussed. The curator
-stated that they had not verified the proof, did not claim the formalization
-correct and did not endorse the platform. The site labeled the problem OPEN.
+On 27 September 2026 the erdosproblems.com curator, Thomas Bloom, posted the
+claim on the erdosproblems.com proof-claims forum so that it could be discussed.
+The curator stated that they had not verified the proof, did not claim the
+formalization correct and did not endorse the platform. Bloom's catalog labeled
+the problem OPEN.
 
 **Replay record.**
 [[../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0108_8c083793|The receipt of the kernel replay]].

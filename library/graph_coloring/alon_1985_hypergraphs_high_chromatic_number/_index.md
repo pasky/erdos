@@ -89,11 +89,11 @@ Further questions section (physical and printed p. 7) says Erdős's conjecture
 was still open for $n=3$, and the current E832 evidence separately retains that
 case as open. The source's dated assessment is not itself a current-literature
 search. Proposition 3 also does not by itself separately refute the conditional
-equality characterization in E832. The site's illustrative factor $(7/8)^r$
-is not presented as Alon's printed
-formula: the checked Proposition 3 has the factor $(3/4)^k$ shown on its
-result page. This filing records the source and a proof pointer, not a complete
-reconstruction or a new final mathematical review of Alon's argument.
+equality characterization in E832. erdosproblems.com's illustrative factor
+$(7/8)^r$ is not presented as Alon's printed formula: the checked Proposition 3
+has the factor $(3/4)^k$ shown on its result page. This filing records the
+source and a proof pointer, not a complete reconstruction or a new final
+mathematical review of Alon's argument.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0832/_index|#832]]:
 Proposition 3 gives, at large uniformity and chromatic number, hypergraphs with

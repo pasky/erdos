@@ -20,9 +20,9 @@ consecutive integers, with the prime-power lemma (2) behind the proof.
 
 Erdős, P., Egy Kürschák-féle elemi számelméleti tétel általánosítása
 [Generalization of an elementary number-theoretic theorem of Kürschák].
-Matematikai és Fizikai Lapok **39** (1932); eight-page offprint. The site's
-reference key [Er32] prints the title as "Egy Kürschak-féle elemi számelméti
-tétel áltadánositása" in "MAt. es Phys. Lapok".
+Matematikai és Fizikai Lapok **39** (1932); eight-page offprint. The
+erdosproblems.com reference key [Er32] prints the title as "Egy Kürschak-féle
+elemi számelméti tétel áltadánositása" in "MAt. es Phys. Lapok".
 
 The copy read for this card is a
 scan of the offprint ("Különlenyomat a «Matematikai és Fizikai Lapok» XXXIX.
@@ -58,8 +58,8 @@ term, and d = 2 by the highest power of 3. Erdős cites Theisinger
 (1915), Obláth (1918) and Kürschák (1918) as the earlier theorems being
 generalized. For Problem 287,
 which asks whether distinct denominators with unit fractions summing to 1 must
-contain a gap of at least 3, the site cites this paper for the bound 2: the
-reciprocals of an arithmetic progression never sum to an integer, so in
+contain a gap of at least 3, erdosproblems.com cites this paper for the bound 2:
+the reciprocals of an arithmetic progression never sum to an integer, so in
 particular no run of consecutive integers can represent 1. For Problem 288,
 on pairs of intervals, the case d = 1 is the background fact that no interval
 of two or more consecutive integers has an integer reciprocal sum.

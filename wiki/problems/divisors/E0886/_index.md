@@ -24,8 +24,8 @@ updated: 2026-10-07T20:00:46Z
 **Statement.** Let $\epsilon>0$. Is it true that, for all large $n$, the number
 of divisors of $n$ in $(n^{1/2},n^{1/2}+n^{1/2-\epsilon})$ is $O_\epsilon(1)$?
 
-**Status.** The site labeled the problem OPEN. The answer is yes for every
-$\epsilon\ge1/4$, by
+**Status.** Bloom's catalog labeled the problem OPEN. The answer is yes for
+every $\epsilon\ge1/4$, by
 [[problems/divisors/E0886/claims/1997_01_01_erdos_rosenfeld|Erdős and Rosenfeld's bound]].
 The range $0<\epsilon<1/4$ is open.
 
@@ -43,18 +43,18 @@ https://www.erdosproblems.com/886.
 
 ## Current assessment
 
-The site labeled the problem OPEN (page last edited 1 February 2026). For every
-$\epsilon\ge1/4$ the answer is yes: the window lies within $n^{1/4}$ of
+Bloom's catalog labeled the problem OPEN (page last edited 1 February 2026). For
+every $\epsilon\ge1/4$ the answer is yes: the window lies within $n^{1/4}$ of
 $\sqrt n$, where the bound of Erdős and Rosenfeld allows at most two divisors
 for every $n$
 ([[problems/divisors/E0886/claims/1997_01_01_erdos_rosenfeld|claim page]]). For
 $0<\epsilon<1/4$ the problem is open. Their Proposition 4.2 gives infinitely
-many $n$ with four divisors within about $8n^{1/4}$ of $\sqrt n$ (the site
-prints $16n^{1/4}$, the paper's bound on the factor differences), which settles
-no instance. Letendre's preprint
+many $n$ with four divisors within about $8n^{1/4}$ of $\sqrt n$
+(erdosproblems.com prints $16n^{1/4}$, the paper's bound on the factor
+differences), which settles no instance. Letendre's preprint
 ([[../library/divisors/letendre_2025_divisors_integer_short_interval/_index|card]]),
-cited in the site's thread, gives $O(1/(\epsilon-1/4))$ divisors for every
-$\epsilon>1/4$ (its Proposition 1 at $\theta=1/2$). That range is already
+cited in the erdosproblems.com thread, gives $O(1/(\epsilon-1/4))$ divisors for
+every $\epsilon>1/4$ (its Proposition 1 at $\theta=1/2$). That range is already
 settled with a stronger bound, and the preprint is not refereed, so it has no
 claim page.
 <!-- BEGIN problem library links -->

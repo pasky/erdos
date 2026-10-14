@@ -53,31 +53,31 @@ assessment.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04; the site's page was last edited
-2026-04-08) states that the density of integers with two divisors
-$d_1<d_2<2d_1$ exists and equals one; Erdős also asked the form with $2$
-replaced by any constant $c>1$. Both hold, and the standing derives from one
+The erdosproblems.com formulation (accessed 2026-09-04; the erdosproblems.com
+page was last edited 2026-04-08) states that the density of integers with two
+divisors $d_1<d_2<2d_1$ exists and equals one; Erdős also asked the form with
+$2$ replaced by any constant $c>1$. Both hold, and the standing derives from one
 accepted full claim,
 [[problems/divisors/E0144/claims/1984_02_01_maier_tenenbaum|Maier and Tenenbaum 1984]],
 whose theorem gives almost all $n$ a pair of divisors with ratio below
 $1+(\log n)^{-\beta}$ for every $\beta<\log 3-1$. The claim is refereed and
-accepted on the site curator's credit. The exponent is sharp by Erdős and
-Hall's 1979 paper, which also withdrew Erdős's earlier claim of the
+accepted on the erdosproblems.com curator's credit. The exponent is sharp by
+Erdős and Hall's 1979 paper, which also withdrew Erdős's earlier claim of the
 density-one statement; that claim, announced without proof in 1964 and
 restated in 1970, has its own page,
 [[problems/divisors/E0144/claims/1964_01_01_erdos|Erdős 1964]], with status
 withdrawn, and the Maier and Tenenbaum page records the sharpness. Guy's
 collection discusses the problem as E3.
 
-The site's label carried a Lean qualification: the community database records
-that the resolution is formalized while no formal-conjectures statement file
-exists; the Lean proof lives in Boris Alexeev's repository and is linked from
-the claim page. The file is third-party Lean that this corpus has not built,
-so the claim lists no `formalized` evidence.
+The erdosproblems.com label carried a Lean qualification: the community database
+records that the resolution is formalized while no formal-conjectures statement
+file exists; the Lean proof lives in Boris Alexeev's repository and is linked
+from the claim page. The file is third-party Lean that this corpus has not
+built, so the claim lists no `formalized` evidence.
 
-Search scope: the site's problem page, the community database
-(teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures project
-and the Lean repository named above; no claim beyond the two pages was
+Search scope, 2026-10-07: the erdosproblems.com problem page, the community
+database (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures
+project and the Lean repository named above; no claim beyond the two pages was
 found. Nothing remains open in the stated question.
 
 <!-- BEGIN problem library links -->

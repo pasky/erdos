@@ -30,12 +30,13 @@ $$
 
 converges, where $p_n$ is the sequence of primes?
 
-**Status.** Open. The site's label was OPEN. The best result is conditional. Tao
-proves that the series converges assuming a quantitative Hardy-Littlewood prime
-tuples conjecture (Theorem 1.4 of arXiv:2308.07205, published as Comm. Amer.
-Math. Soc. 4 (2024), 80-96). The result is recorded as the accepted conditional
-claim page [[problems/primes/E0015/claims/2023_08_14_tao|Tao 2023]], which
-derives no standing.
+**Status.** Open. The erdosproblems.com label was OPEN. The best result is
+conditional. Tao proves that the series converges assuming a quantitative
+Hardy-Littlewood prime tuples conjecture (Theorem 1.4 of arXiv:2308.07205,
+published as Comm. Amer. Math. Soc. 4 (2024), 80-96). The result is recorded as
+the accepted conditional claim page
+[[problems/primes/E0015/claims/2023_08_14_tao|Tao 2023]], which derives no
+standing.
 
 A Lean file accepted by the bounty site Conjectures.io proves the negation of
 the formal-conjectures statement as it stood from 2026-04-17 to 2026-09-09,
@@ -47,10 +48,10 @@ accessed 2026-09-28;
 The file was kernel verified 5 August 2026 and was certified 6 August 2026. The
 review outcome was a formalization-defect award under Conjectures.io's policy
 v1. The decision file is dated 2026-08-05, and Conjectures.io displays the
-decision as made 25 August 2026. That statement is not the site's question.
-Mathlib's `Summable` is unconditional summability, which over the reals is
-equivalent to absolute convergence, and its rational coefficients demand a
-rational limit. So the file refutes the absolute-convergence variant
+decision as made 25 August 2026. That statement is not the erdosproblems.com
+question. Mathlib's `Summable` is unconditional summability, which over the
+reals is equivalent to absolute convergence, and its rational coefficients
+demand a rational limit. So the file refutes the absolute-convergence variant
 ($\sum n/p_n$ diverges since $n/p_n\sim 1/\log n$) and says nothing about the
 partial sums. Conjectures.io's review records that the result does not settle
 the informal Erdős problem. Conjectures.io withdrew the problem from its pool on
@@ -86,11 +87,11 @@ Status).
 
 ## Current assessment
 
-The site formulation of 2026-09-27 (history page: one prior revision dated
-2025-10-20) asks whether the partial sums of $\sum(-1)^n n/p_n$ converge; the
-wording is not defective. Status open: convergence is known only under Tao's
-quantitative Hardy-Littlewood hypothesis (Theorem 1.4, refereed in Comm. Amer.
-Math. Soc. 4 (2024), 80-96), and the absolute series diverges. The
+The erdosproblems.com formulation of 2026-09-27 (history page: one prior
+revision dated 2025-10-20) asks whether the partial sums of $\sum(-1)^n n/p_n$
+converge; the wording is not defective. Status open: convergence is known only
+under Tao's quantitative Hardy-Littlewood hypothesis (Theorem 1.4, refereed in
+Comm. Amer. Math. Soc. 4 (2024), 80-96), and the absolute series diverges. The
 Conjectures.io acceptance of 5-6 August 2026 refutes a misformalization
 (`Summable` over ℚ) and Conjectures.io's own review says it settles nothing;
 formal-conjectures corrected the statement on 2026-09-09.
@@ -150,19 +151,20 @@ the Known Results below.
   Mathlib `Summable` is unconditional summability (absolute
   convergence over the reals) and the rational coefficients demand a rational
   limit, so the refuted statement is a variant strictly stronger than the
-  catalog question. Conjectures.io's review classed the acceptance as a
-  formalization-defect award and states that the result must not be described
+  erdosproblems.com question. Conjectures.io's review classed the acceptance as
+  a formalization-defect award and states that the result must not be described
   as a solution or counterexample to the informal problem; formal-conjectures
   corrected the statement to convergence of the real partial sums on
-  2026-09-09 (PR #4990). Settles no part of the catalog question.
-- Companion series from [Er98] (site remarks, not the catalog question):
-  $\sum(-1)^n/(p_{n+1}-p_n)$ diverges, because the bounded gaps of
+  2026-09-09 (PR #4990). Settles no part of the erdosproblems.com question.
+- Companion series from [Er98] (erdosproblems.com remarks, not the
+  erdosproblems.com question): $\sum(-1)^n/(p_{n+1}-p_n)$ diverges, because the
+  bounded gaps of
   [[../library/primes/zhang_2014_bounded_gaps_between_primes/_index|Zhang 2014]] give infinitely many terms
-  of absolute value at least a fixed constant (an observation the site credits
-  to Weisenberg); a forum comment of 11 August 2025 sketches, assuming the
-  prime $k$-tuples conjecture, that this series is unbounded in at least one
-  direction (an unrefereed sketch). Erdős and Nathanson reported, and the site
-  records a Selberg-sieve argument it credits to Sawhney, that
+  of absolute value at least a fixed constant (an observation erdosproblems.com
+  credits to Weisenberg); a forum comment of 11 August 2025 sketches, assuming
+  the prime $k$-tuples conjecture, that this series is unbounded in at least one
+  direction (an unrefereed sketch). Erdős and Nathanson reported, and
+  erdosproblems.com records a Selberg-sieve argument it credits to Sawhney, that
   $\sum(-1)^n/(n(p_{n+1}-p_n)(\log\log n)^c)$ converges absolutely for $c>2$,
   while Erdős conjectured convergence for every $c>0$.
 <!-- BEGIN problem library links -->

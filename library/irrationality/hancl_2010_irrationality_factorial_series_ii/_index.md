@@ -173,8 +173,8 @@ reviewed.
 
 **Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]] (mention: p. 2
 reports that Schlage-Puchta [14] confirmed Erdős's claim that
-$\sum p_n^k/n!$ is irrational for $k=2,3,\ldots$, the series of the site
-remark on the problem page; nothing in the paper concerns
+$\sum p_n^k/n!$ is irrational for $k=2,3,\ldots$, the series of the
+erdosproblems.com remark on the problem page; nothing in the paper concerns
 $\sum p_n/2^n$),
 [[../wiki/problems/irrationality/E0252/_index|#252]] (mention: p. 2 lists who
 proved the irrationality of $\sum\sigma_k(n)/n!$ for $k=0,1,2,3$ and

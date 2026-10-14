@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 783, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0783/claims
@@ -23,18 +23,18 @@ of $\log x$. This is the problem's prime case.
 
 [[problems/integer_sequences/E0783/claims/2026_01_23_chojecki|2026_01_23_chojecki]]: Chojecki proves that for a reciprocal budget $C\le\log 2$ the least proportion
 of unsifted integers is $1-C+o(1)$, attained up to $o(1)$ by the largest
-primes. The proof is a note posted to the site's thread in January 2026, and
-the site credits it.
+primes. The proof is a note posted to the erdosproblems.com thread in January
+2026, and erdosproblems.com credits it.
 
-[[problems/integer_sequences/E0783/claims/2026_02_20_tao|2026_02_20_tao]]: Tao's February 2026 write-up, credited by the site, proves that a pairwise
-coprime set with reciprocal sum at most $C$ leaves at least
+[[problems/integer_sequences/E0783/claims/2026_02_20_tao|2026_02_20_tao]]: Tao's February 2026 write-up, credited by erdosproblems.com, proves that a
+pairwise coprime set with reciprocal sum at most $C$ leaves at least
 $(\rho(e^C)+o(1))N$ integers up to $N$ unsifted. So the prime tail is optimal
-up to $o(N)$, which settles the problem read up to $o(N)$, as the site reads
-it.
+up to $o(N)$, which settles the problem read up to $o(N)$, as
+erdosproblems.com reads it.
 
 [[problems/integer_sequences/E0783/claims/2026_02_23_chojecki|2026_02_23_chojecki]]: Chojecki's write-up claims that for every budget $C>\log 2$ each
 near-minimizing pairwise coprime set is close in reciprocal sum to a tail of
-primes. It was posted to the site's thread in February 2026, and no one has
-reviewed it.
+primes. It was posted to the erdosproblems.com thread in February 2026, and no
+one has reviewed it.
 
 ***

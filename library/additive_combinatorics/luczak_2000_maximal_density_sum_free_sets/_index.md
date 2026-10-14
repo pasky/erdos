@@ -65,18 +65,18 @@ is printed in the file; the publisher's record offers the PDF under the link
 no version or URL named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/95/3/111910/on-the-maximal-density-of-sum-free-sets,
 read 2026-10-02); the site footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the article.
+reserved." speaks for erdosproblems.com, not the article.
 
 Source:
 <https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/95/3/111910/on-the-maximal-density-of-sum-free-sets>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0876/_index|#876]]: Theorem 3,
 printed p. 226 (PDF p. 2), page image: a sum-free set has
-$A(n)\le403\sqrt{n\log n}$ for infinitely many $n$, where the site's
+$A(n)\le403\sqrt{n\log n}$ for infinitely many $n$, where the erdosproblems.com
 commentary writes the bound "for all large $N$"; the Section 3
 construction, printed pp. 227--229 (PDF pp. 3--5): for every
 $\varepsilon>0$ a sum-free set with $A(n)\ge n^{1/2}(\log n)^{-1/2-\varepsilon}$
-for all large $n$, where the site writes a single set with exponent
+for all large $n$, where erdosproblems.com writes a single set with exponent
 $1/2+o(1)$; the paper's sum-free condition ($A\cap\mathcal P'(A)=\emptyset$,
 no element a sum of two or more distinct other elements) is the problem's.
 

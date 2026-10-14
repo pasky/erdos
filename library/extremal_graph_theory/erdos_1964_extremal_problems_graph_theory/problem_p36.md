@@ -27,16 +27,17 @@ result, and I can prove it for $k=3$ and $k=4$ also."
 The page continues with the theorem on a circuit and $r$ vertices adjacent to
 all of it, and the references.
 
-Conversion to the catalog's notation (made here): the site's $g_k(n)$ counts
-$k$ chords at one cycle vertex and is a maximum number of edges avoiding
-them; the paper counts $k-1$ diagonals and writes the least forcing number.
-With $k'=k+1$, the paper's claim taken at $k'$ (on $n$ vertices, $k'n+c$
+Conversion to the erdosproblems.com notation (made here): erdosproblems.com's
+$g_k(n)$ counts $k$ chords at one cycle vertex and is a maximum number of edges
+avoiding them; the paper counts $k-1$ diagonals and writes the least forcing
+number. With $k'=k+1$, the paper's claim taken at $k'$ (on $n$ vertices, $k'n+c$
 edges force a cycle with at least $k'-1$ chords at one of its vertices), at
 $c=1-k'^2$, says $g_k(n)\le(k+1)n-(k+1)^2$ for $n>n_0$; "$c\ge1-k^2$" says
-the bound cannot be lowered, so the question "Perhaps $c=1-k^2$?" is the site's
-$g_k(n)=(k+1)n-(k+1)^2$; Pósa's $k'=2$ case is $g_1(n)=2n-4$, and the paper's
-"$k=3$ and $k=4$" are the site's $k=2$ and $k=3$. The paper's threshold
-$n>n_0(k)$ is the site's "for $n$ sufficiently large".
+the bound cannot be lowered, so the question "Perhaps $c=1-k^2$?" is
+erdosproblems.com's $g_k(n)=(k+1)n-(k+1)^2$; Pósa's $k'=2$ case is
+$g_1(n)=2n-4$, and the paper's "$k=3$ and $k=4$" are erdosproblems.com's $k=2$
+and $k=3$. The paper's threshold $n>n_0(k)$ is erdosproblems.com's "for $n$
+sufficiently large".
 
 **Source.** P. Erdős, *Extremal problems in graph theory*, Theory of Graphs
 and its Applications (Proc. Sympos. Smolenice, 1963), Prague, 1964, 29--36;
@@ -53,9 +54,9 @@ paper", p. 30); Pósa's and Czipszer's arguments are cited, not printed.
 
 None in the source. Erdős's 1975 survey (printed pp. 13--14) restates the
 question as $r(n;k)=k(n-k)+1$ for $n>n_0(k)$ and records Lewin's refutation
-of $n_0(k)=2k$; the conjectured formula was proved for $n\ge3k+3$ (the site's
-indexing) by Jiang, J. Graph Theory 46 (2004), 180--182, not held; see the
-problem page.
+of $n_0(k)=2k$; the conjectured formula was proved for $n\ge3k+3$ (the
+erdosproblems.com indexing) by Jiang, J. Graph Theory 46 (2004), 180--182, not
+held; see the problem page.
 
 ## Dependencies
 

@@ -64,7 +64,7 @@ families.
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Acceptance.** Refereed: Acta Arithmetica 157 (2013), no. 4, 381–392,
-doi:10.4064/aa157-4-5. Not reviewed: the site labeled the problem SOLVED (LEAN)
-and credits the answer to Ho's result, not to this paper. The page is named by
-the publication year. The journal record gives no day, and the author manuscript
-dated 2 October 2012 on Kevin Ford's site carries no posting date.
+doi:10.4064/aa157-4-5. Not reviewed: Bloom's catalog labeled the problem SOLVED
+(LEAN) and credits the answer to Ho's result, not to this paper. The page is
+named by the publication year. The journal record gives no day, and the author
+manuscript dated 2 October 2012 on Kevin Ford's site carries no posting date.

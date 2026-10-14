@@ -243,5 +243,5 @@ Distinct, repeated and unit distances among finite point sets, diameters and
 nearest-neighbor conditions, and distance problems for points in convex
 position.
 
-Site tags routed here: chromatic number, convex, distances, geometry, graph
-theory, ramsey theory.
+erdosproblems.com tags routed here: chromatic number, convex, distances,
+geometry, graph theory, ramsey theory.

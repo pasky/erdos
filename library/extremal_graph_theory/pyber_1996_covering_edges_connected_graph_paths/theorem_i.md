@@ -107,8 +107,8 @@ filed as
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0583/_index|Problem 583]]: the covering bound
-  the site records for the paper. The paths may share edges, so the theorem
-  bounds the covering number and not the problem's path number; the Example
-  shows that the corresponding asymptotic statement for edge-disjoint paths
-  is equivalent to the conjecture itself. The site's [Fa02] later gave
-  $\lceil n/2\rceil$ covering paths (not held).
+  erdosproblems.com records for the paper. The paths may share edges, so the
+  theorem bounds the covering number and not the problem's path number; the
+  Example shows that the corresponding asymptotic statement for edge-disjoint
+  paths is equivalent to the conjecture itself. erdosproblems.com's [Fa02] later
+  gave $\lceil n/2\rceil$ covering paths (not held).

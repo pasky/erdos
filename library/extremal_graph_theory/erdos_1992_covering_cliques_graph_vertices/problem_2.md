@@ -41,8 +41,8 @@ vertices and $\tau_C(G)$ the least size of a set meeting every clique
 (p. 279); $n=|V(G)|$. The paper's constructions are in its Section 5 (the
 substitution $G\langle F\rangle$ and Theorem 5, pp. 287--288); "Section 3" is
 the printed text (Section 3 is the linear-time algorithm), recorded as
-printed. The site's Problem 611 asks two specializations: whether cliques of
-at least $cn$ vertices force $\tau_C(G)=o_c(n)$ (the $o(n)$ clause at
+printed. erdosproblems.com's Problem 611 asks two specializations: whether
+cliques of at least $cn$ vertices force $\tau_C(G)=o_c(n)$ (the $o(n)$ clause at
 $k(n)=cn$), and the least $k_c(n)$ forcing $\tau_C(G)<(1-c)n$ (the $n-cn$
 clause). The paper's Note added in proof (p. 288) reports the threshold for
 $\tau_C(G)=1$, "Motivated by Problem 2"

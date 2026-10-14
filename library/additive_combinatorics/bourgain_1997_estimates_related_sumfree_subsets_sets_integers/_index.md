@@ -234,7 +234,7 @@ their statements read on the page images and their proofs for structure
 only. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0792/_index|#792]]: Proposition
-1.3 (printed p. 72, PDF p. 2) is the bound $f(n)\ge(n+2)/3$ the site
+1.3 (printed p. 72, PDF p. 2) is the bound $f(n)\ge(n+2)/3$ erdosproblems.com
 attributes to the paper, paged on
 [[additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/proposition_1_3|proposition_1_3]]:
 "$S(B)\ge\frac13(|B|+2)$, for any

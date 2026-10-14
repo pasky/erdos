@@ -30,15 +30,15 @@ $$
 \max_{\lvert z\rvert=1}\lvert P(z)\rvert > (1+c)\sqrt{n}?
 $$
 
-**Status.** OPEN, the site's label (page last edited 23 January 2026; problem
-page accessed 2026-10-06, its proof-claims tab empty). The derived standing is
-solved and disproved. It departs from the label, which predates the release. The
-reason is Theorem 1.1 of the OpenAI release's manuscript of 23 September 2026.
-It gives, for every $\eta>0$ and every large $N$, signs $\pm1$ whose polynomial
-of length $N$ has maximum modulus at most $(1+\eta)\sqrt N$ on the circle. So no
-$c>0$ works. This corpus's verification built its Lean declaration
-`OAI.AsymptoticallyMinimalLittlewood.main` with only the three standard axioms
-and audited its statement. The corpus accepts it on
+**Status.** OPEN, the erdosproblems.com label (page last edited 23 January 2026;
+problem page accessed 2026-10-06, its proof-claims tab empty). The derived
+standing is solved and disproved. It departs from the label, which predates the
+release. The reason is Theorem 1.1 of the OpenAI release's manuscript of 23
+September 2026. It gives, for every $\eta>0$ and every large $N$, signs $\pm1$
+whose polynomial of length $N$ has maximum modulus at most $(1+\eta)\sqrt N$ on
+the circle. So no $c>0$ works. This corpus's verification built its Lean
+declaration `OAI.AsymptoticallyMinimalLittlewood.main` with only the three
+standard axioms and audited its statement. The corpus accepts it on
 [[problems/polynomials/E1150/claims/2026_09_23_openai|the claim page]].
 Outside this repository two acknowledgments are known, neither a review. The
 curator's post
@@ -52,11 +52,11 @@ and that it is not an endorsement. The formal-conjectures catalog marked its
 statement solved on 2026-10-11, linking that declaration (see Formalization), a
 catalog label. No outside review is known.
 
-The site's commentary was written before the release. It restates the question
-as whether ultraflat polynomials with coefficients $\pm1$ exist. It notes that
-ultraflat polynomials do exist when the coefficients may be any points of the
-unit circle ([[problems/polynomials/E0230/_index|Problem 230]]), so the
-unimodular analogue of the Statement has the answer no. It notes that
+The erdosproblems.com commentary was written before the release. It restates the
+question as whether ultraflat polynomials with coefficients $\pm1$ exist. It
+notes that ultraflat polynomials do exist when the coefficients may be any
+points of the unit circle ([[problems/polynomials/E0230/_index|Problem 230]]),
+so the unimodular analogue of the Statement has the answer no. It notes that
 $\max\lvert P\rvert\ge\sqrt n$ is Parseval's identity. It also points to the
 weaker flatness question [[problems/polynomials/E0228/_index|Problem 228]].
 
@@ -106,22 +106,23 @@ circle against the declaration's pointwise bound.
 declaration this corpus built and audited (2026-10-07); outside this repository,
 the curator's post of 2026-10-08 lists it as a formalized claim without
 endorsing it, and formal-conjectures labeled it solved on 2026-10-11.** The
-question, as the site states it (page last edited 2026-01-23), asks for one
-$c>0$ such that every $\pm1$ polynomial of every large degree $n$ has maximum
-modulus above $(1+c)\sqrt n$ on the unit circle; the lower bound $\sqrt n$ is
-Parseval's identity, and the complex-coefficient relative, where Kahane's
-ultraflat polynomials give the answer no, is
+question, as erdosproblems.com states it (page last edited 2026-01-23), asks for
+one $c>0$ such that every $\pm1$ polynomial of every large degree $n$ has
+maximum modulus above $(1+c)\sqrt n$ on the unit circle; the lower bound
+$\sqrt n$ is Parseval's identity, and the complex-coefficient relative, where
+Kahane's ultraflat polynomials give the answer no, is
 [[problems/polynomials/E0230/_index|Problem 230]]. The release's Theorem 1.1
 answers no for real signs: the minimal normalized maximum $m_N$ tends to $1$
 through all lengths. The accepted claim page records the bridge from length $N$
 to degree $N-1$, the declaration, the build with axioms `propext`,
 `Classical.choice` and `Quot.sound` only, the comparator pin and the fidelity
 audit; the evidence is `formalized` alone, since nobody outside the repository
-has reviewed or refereed the result and the site listed the problem OPEN with an
-empty proof-claims tab (accessed 2026-10-06). What the result trusts is Lean's
-kernel and the consistency of Mathlib; what it does not give is a lower bound on
-the circle, as the manuscript's remark after Theorem 1.1 says, nor a convergence
-rate or a signing algorithm, as the release's family document says.
+has reviewed or refereed the result and erdosproblems.com listed the problem
+OPEN with an empty proof-claims tab (accessed 2026-10-06). What the result
+trusts is Lean's kernel and the consistency of Mathlib; what it does not give is
+a lower bound on the circle, as the manuscript's remark after Theorem 1.1 says,
+nor a convergence rate or a signing algorithm, as the release's family document
+says.
 
 What remains is quantitative. The release's manuscript notes that Erdélyi's
 2026 bound $\max_{\lvert z\rvert=1}\lvert P(z)\rvert^2\ge N+(N-1)^{1/3}/38$
@@ -148,9 +149,9 @@ both. El Abdalaoui's April 2025 preprint, that $\pm1$ polynomials are never
 $L^\alpha$-flat for even $\alpha>2$, which would give a universal gap, is
 rejected on
 [[problems/polynomials/E1150/claims/2025_04_30_el_abdalaoui|its claim page]]:
-in the site's thread the curator found that the final step of its proof, on
-p. 9, does not contradict its Lemma 5, which gives only one function with
-concentration, and Tao asked that its claims be treated as unconfirmed, and
+in the erdosproblems.com thread the curator found that the final step of its
+proof, on p. 9, does not contradict its Lemma 5, which gives only one function
+with concentration, and Tao asked that its claims be treated as unconfirmed, and
 the accepted theorem gives $L^\alpha$ flatness for every finite $\alpha$
 along its polynomials, contradicting the conclusion.
 
@@ -165,7 +166,7 @@ its Theorem 1.1, the statement on orders, is formally verified here, as
 records, while of the Barker consequence only the even-length direction is, and
 the manuscript claims nothing about this problem and gets no claim page.
 
-Search scope: the site's problem page and proof-claims tab (accessed
+Search scope: the erdosproblems.com problem page and proof-claims tab (accessed
 2026-10-06) and its discussion thread (accessed 2026-10-07), the release's
 manuscripts, family document and `lean/` folder at the pinned revision, the
 acceptance recorded on

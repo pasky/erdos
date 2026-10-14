@@ -23,21 +23,22 @@ updated: 2026-10-08T00:51:02Z
 **Statement.** What is the size of the largest $A\subseteq \{1,\ldots,N\}$ such
 that, for all $\emptyset\neq S\subseteq A$, $\sum_{n\in S}n$ is not a square?
 
-**Formulation.** The site's wording (page last edited 27 October 2025). The
-question is read, as its source reads it, as asking for the order of magnitude
-of the largest size. Nguyen and Vu present Erdős's question as determining the
-largest cardinality of a square-sum-free subset of $\{1,\ldots,N\}$, and they
-answer it with the order $N^{1/3+o(1)}$. The site calls the problem essentially
-solved by their bound. The exact size and the power of the logarithm are not
-determined, so the standing attaches to the exponent. The site's commentary
-dates the question to 1985, when Erdős asked it of the young Terence Tao, whose
-recollection and a letter of Erdős describing the problem the site acknowledges;
-Nguyen and Vu date it to 1986.
+**Formulation.** The erdosproblems.com wording (page last edited 27 October
+2025). The question is read, as its source reads it, as asking for the order of
+magnitude of the largest size. Nguyen and Vu present Erdős's question as
+determining the largest cardinality of a square-sum-free subset of
+$\{1,\ldots,N\}$, and they answer it with the order $N^{1/3+o(1)}$.
+erdosproblems.com calls the problem essentially solved by their bound. The exact
+size and the power of the logarithm are not determined, so the standing attaches
+to the exponent. The erdosproblems.com commentary dates the question to 1985,
+when Erdős asked it of the young Terence Tao, whose recollection and a letter of
+Erdős describing the problem erdosproblems.com acknowledges; Nguyen and Vu date
+it to 1986.
 
-**Status.** Solved. The site's curator, Thomas Bloom, labeled the problem SOLVED
-and credits Nguyen and Vu, describing the problem as solved in essence. The
-Formulation above records the reading under which the label attaches to the
-order of magnitude. The claim page
+**Status.** Solved. The erdosproblems.com curator, Thomas Bloom, labeled the
+problem SOLVED and credits Nguyen and Vu, describing the problem as solved in
+essence. The Formulation above records the reading under which the label
+attaches to the order of magnitude. The claim page
 [[problems/integer_sequences/E0587/claims/2008_11_09_nguyen_vu|of Nguyen and
 Vu]] records the acceptance, and the frontmatter standing derives from it.
 Nguyen and Vu (2010) prove that a square-sum-free subset of $\{1,\ldots,N\}$ has
@@ -46,7 +47,7 @@ Erdős's construction of order $N^{1/3}$ up to the logarithmic factor. That
 construction takes the first $k$ multiples of a prime $p\approx N^{2/3}$ with
 $1+\cdots+k<p$. So the largest such set has size $N^{1/3+o(1)}$. A public Lean
 development reports a gap in the proof of the paper's Lemma 4.2 and proves the
-bound by a corrected route (see the claim page). The site points to
+bound by a corrected route (see the claim page). erdosproblems.com points to
 [[problems/integer_sequences/E0438/_index|Problem 438]] as related.
 
 **Source.** [erdosproblems.com/587](https://www.erdosproblems.com/587), accessed
@@ -65,10 +66,10 @@ https://www.erdosproblems.com/587, accessed 2026-10-07.
   [[../library/integer_sequences/nguyen_2010_squares_sumsets/_index|nguyen_2010_squares_sumsets]].
 - [Er89] Erdős, P., Some problems and results on combinatorial number
   theory. Graph theory and its applications: East and West (Jinan, 1986),
-  Ann. New York Acad. Sci. 576 (1989), 132--145. Not held. The site's
-  header key is identified with this paper by inference, not by a site
-  record: Nguyen and Vu write that Erdős raised the question in 1986 and
-  cite, as their reference [4], his *Some problems and results on
+  Ann. New York Acad. Sci. 576 (1989), 132--145. Not held. The erdosproblems.com
+  header key is identified with this paper by inference, not by an
+  erdosproblems.com record: Nguyen and Vu write that Erdős raised the question
+  in 1986 and cite, as their reference [4], his *Some problems and results on
   combinatorial number theory* in the proceedings of the first China
   conference on combinatorics (1986), which is the Jinan conference whose
   proceedings appeared in 1989.
@@ -82,12 +83,13 @@ the claim pages record it.
 
 ## Current assessment
 
-The target is the site's formulation (accessed 2026-09-04; page last edited 27
-October 2025), read as the Formulation above records. The site labeled the
-problem SOLVED and credits Nguyen and Vu; the problem stands solved and answered
-on the [[problems/integer_sequences/E0587/claims/2008_11_09_nguyen_vu|Nguyen and
-Vu claim page]], whose evidence is the curator's credit. Nothing on this page is
-the corpus's own review of a proof.
+The target is the erdosproblems.com formulation (accessed 2026-09-04; page last
+edited 27 October 2025), read as the Formulation above records. Bloom's catalog
+labeled the problem SOLVED and credits Nguyen and Vu; the problem stands solved
+and answered on the
+[[problems/integer_sequences/E0587/claims/2008_11_09_nguyen_vu|Nguyen and Vu claim page]],
+whose evidence is the curator's credit. Nothing on this page is the corpus's own
+review of a proof.
 
 **Known results.** Erdős's construction gives $SF(N)\gg N^{1/3}$: the first $k$
 multiples of a prime $p\approx N^{2/3}$ with $1+\cdots+k<p$. The earlier upper
@@ -110,24 +112,25 @@ development as a self-declared formalization of their bounds; the reconstruction
 is the pending claim
 [[problems/integer_sequences/E0587/claims/2026_08_27_alexeev|Alexeev's log-log
 page]]. Nothing was built or audited here; the proof dispute is unresolved in
-this corpus, and the site's credit, from October 2025, predates it. The
-reconstruction describes itself as distinct from an unavailable manuscript of
-Conlon, Fox and Pham and uses results of their preprint *Homogeneous structures
-in subset sums and non-averaging sets* (arXiv:2311.01416, 2023), whose abstract
-concerns homogeneous progressions in subset sums and non-averaging sets, not
-square-sum-free sets; the development's audit also records that an inference in
-one lemma of that preprint cannot be used as written, while stating that this is
-not a counterexample to the preprint's theorem. No manuscript of Conlon, Fox and
-Pham on the square-sum-free problem was found.
+this corpus, and the erdosproblems.com credit, from October 2025, predates it.
+The reconstruction describes itself as distinct from an unavailable manuscript
+of Conlon, Fox and Pham and uses results of their preprint *Homogeneous
+structures in subset sums and non-averaging sets* (arXiv:2311.01416, 2023),
+whose abstract concerns homogeneous progressions in subset sums and
+non-averaging sets, not square-sum-free sets; the development's audit also
+records that an inference in one lemma of that preprint cannot be used as
+written, while stating that this is not a counterexample to the preprint's
+theorem. No manuscript of Conlon, Fox and Pham on the square-sum-free problem
+was found.
 
-**Search scope.** The sources below, as they stood on 2026-10-07: the site's
-page, discussion thread and proof-claims tab (no comments, no proof claims); the
-community database (teorth/erdosproblems: solved, formalized statement, no Lean
-proof recorded); formal-conjectures (`ErdosProblems/587.lean` states the
-problem and a variant for Nguyen and Vu's bound and carries no `formal_proof`);
-the arXiv records of Nguyen and Vu and of Conlon, Fox and Pham; Crossref for the
-chapter; and Alexeev's repository plby/lean-proofs, whose Erdős 587 development
-was the only Lean proof found.
+**Search scope.** The sources below, as they stood on 2026-10-07: the
+erdosproblems.com page, discussion thread and proof-claims tab (no comments, no
+proof claims); the community database (teorth/erdosproblems: solved, formalized
+statement, no Lean proof recorded); formal-conjectures (`ErdosProblems/587.lean`
+states the problem and a variant for Nguyen and Vu's bound and carries no
+`formal_proof`); the arXiv records of Nguyen and Vu and of Conlon, Fox and Pham;
+Crossref for the chapter; and Alexeev's repository plby/lean-proofs, whose Erdős
+587 development was the only Lean proof found.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -69,5 +69,5 @@ External: Jensen's inequality. Same paper: the halving step of Section 3.
   $t=2$, $s=1$ is the problem's $H_k$ under the problem page's distinct-pair
   reading (vertex $x$ as $x_0$, the pair vertex of $y_i,y_j$ as
   $x_{\{i,j\}}^1$) and gives
-  $\operatorname{ex}(2n,H_k)\le4kn^{3/2}$, the site's
+  $\operatorname{ex}(2n,H_k)\le4kn^{3/2}$, erdosproblems.com's
   $\operatorname{ex}(n;H_k)\ll kn^{3/2}$.

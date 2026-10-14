@@ -205,15 +205,15 @@ were read for structure only, and nothing is independently reviewed. The
 1998 Corrigendum is not held.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0309/_index|#309]]: Theorem 1 (printed
-p. 162, PDF p. 1) gives the lower bound the site's commentary credits to
-the paper: "There exists a constant $n_0$ such that for all $n>n_0$
+p. 162, PDF p. 1) gives the lower bound the erdosproblems.com commentary credits
+to the paper: "There exists a constant $n_0$ such that for all $n>n_0$
 $(1-\frac{5\log_2n}{\log n})\le\frac{|N(n)|}{\log n}<(1+\frac1{\log n})$",
 where $N(n)$ contains $0$ (every $\varepsilon_i=0$), so the problem's count
 $F(N)$ of positive integers is $|N(N)|-1$; the lower bound reads
-$F(N)\ge\log N-5\log\log N-1$, the site's $\log N-O(\log\log N)$, and with the
-trivial upper bound gives $F(N)\sim\log N$, so $F(N)$ is not $o(\log N)$.
-The upper bound is the trivial $|N(n)|\le\log n+1$ recalled on the same
-page. The 1998 Corrigendum is not held, so the theorem is quoted as printed
+$F(N)\ge\log N-5\log\log N-1$, erdosproblems.com's $\log N-O(\log\log N)$, and
+with the trivial upper bound gives $F(N)\sim\log N$, so $F(N)$ is not
+$o(\log N)$. The upper bound is the trivial $|N(n)|\le\log n+1$ recalled on the
+same page. The 1998 Corrigendum is not held, so the theorem is quoted as printed
 in 1997; Croot's 1999 introduction states the range
 $\{n:1\le n\le\log x-5\log\log x\}\subseteq N(x)$ but credits it to the
 Corrigendum (its [6]), so it does not confirm the 1997 printing, whose last

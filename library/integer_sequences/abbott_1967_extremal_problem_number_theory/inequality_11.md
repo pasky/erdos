@@ -56,9 +56,9 @@ statement level.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]: the site's
-  $f(N)\ge(1-o(1))(\log\log N)N/\log N$ credited to Abbott and Gardner. The
-  site's thread has since improved the lower bound to
-  $(\log\log N)^{\omega(N)}N/\log N$ with $\omega(N)\to\infty$ by
-  $k$-almost primes with a residue condition on the indices of their prime
-  factors, a construction of the same kind.
+- [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]:
+  erdosproblems.com's $f(N)\ge(1-o(1))(\log\log N)N/\log N$ credited to Abbott
+  and Gardner. The erdosproblems.com thread has since improved the lower bound
+  to $(\log\log N)^{\omega(N)}N/\log N$ with $\omega(N)\to\infty$ by $k$-almost
+  primes with a residue condition on the indices of their prime factors, a
+  construction of the same kind.

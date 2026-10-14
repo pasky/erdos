@@ -59,6 +59,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0554/_index|Problem 554]]: the site's source key for
-  the problem; it restates the 1975 question (v) as a conjecture and says
-  the case $n=2$ is open, as the site's commentary still does.
+- [[../wiki/problems/ramsey_theory/E0554/_index|Problem 554]]: the
+  erdosproblems.com source key for the problem; it restates the 1975 question
+  (v) as a conjecture and says the case $n=2$ is open, as the erdosproblems.com
+  commentary still does.

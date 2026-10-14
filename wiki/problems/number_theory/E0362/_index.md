@@ -41,35 +41,35 @@ $$
 
 with the implied constant independent of $l$ and $t$?
 
-**Formulation.** The site's wording (page last edited 27 December 2025). Write
-$f_A(t)=\#\{S\subseteq A:\sum_{n\in S}n=t\}$. The first question asks for an
-absolute constant $c$ with $f_A(t)\le c\,2^N/N^{3/2}$ for every $N$, every
-$N$-element $A\subseteq\mathbb N$ and every $t$; the second asks for an absolute
-$c'$ with $\#\{S\subseteq A:|S|=l,\ \sum S=t\}\le c'2^N/N^2$ for all $N$, $A$,
-$l$ and $t$. The two questions have separate sources and separate standing here.
-The sources work with distinct real numbers: Erdős's 1965 survey with $k$
-distinct reals and $F(k)$ the maximal multiplicity, Sárközy and Szemerédi with
-arbitrary distinct positive reals and the maximum over all real $t\ge0$, Stanley
-with sets of distinct reals, Halász with $n$ vectors $\mathbf a_k=(a_k,1)$ in
-the plane, $|a_k-a_{k'}|\ge1$ for $k\ne k'$, the $2^n$ signed sums
-$\sum_k\varepsilon_k\mathbf a_k$ ($\varepsilon_k=\pm1$) and the largest number
-of them in an open unit ball. Positive integers are positive reals, so the
-Sárközy--Szemerédi bound applies to the page's sets $A$ (an authored one-line
-reading), Stanley's exact maximizers are stated for the class they range over,
-and the passage from Halász's signed sums to the page's fixed-size counts is the
-authored reduction under The second question below. If $\mathbb N$ is read to
-include $0$ and $0\in A$, then $S$ and $S\cup\{0\}$ have the same sum and sizes
-differing by one, so each count for $A$ is the sum of two counts of the same
-kind for $A\setminus\{0\}$, a set of $N-1$ positive integers, and both bounds
-hold for $A$ with a larger absolute constant (an authored line; Stanley's
-Corollary 5.1 with $\zeta=1$ gives the first count's exact maximum in that
-case). The site's label PROVED (LEAN) refers to the Lean development described
-under Formalization.
+**Formulation.** The erdosproblems.com wording (page last edited 27 December
+2025). Write $f_A(t)=\#\{S\subseteq A:\sum_{n\in S}n=t\}$. The first question
+asks for an absolute constant $c$ with $f_A(t)\le c\,2^N/N^{3/2}$ for every $N$,
+every $N$-element $A\subseteq\mathbb N$ and every $t$; the second asks for an
+absolute $c'$ with $\#\{S\subseteq A:|S|=l,\ \sum S=t\}\le c'2^N/N^2$ for all
+$N$, $A$, $l$ and $t$. The two questions have separate sources and separate
+standing here. The sources work with distinct real numbers: Erdős's 1965 survey
+with $k$ distinct reals and $F(k)$ the maximal multiplicity, Sárközy and
+Szemerédi with arbitrary distinct positive reals and the maximum over all real
+$t\ge0$, Stanley with sets of distinct reals, Halász with $n$ vectors
+$\mathbf a_k=(a_k,1)$ in the plane, $|a_k-a_{k'}|\ge1$ for $k\ne k'$, the $2^n$
+signed sums $\sum_k\varepsilon_k\mathbf a_k$ ($\varepsilon_k=\pm1$) and the
+largest number of them in an open unit ball. Positive integers are positive
+reals, so the Sárközy--Szemerédi bound applies to the page's sets $A$ (an
+authored one-line reading), Stanley's exact maximizers are stated for the class
+they range over, and the passage from Halász's signed sums to the page's
+fixed-size counts is the authored reduction under The second question below. If
+$\mathbb N$ is read to include $0$ and $0\in A$, then $S$ and $S\cup\{0\}$ have
+the same sum and sizes differing by one, so each count for $A$ is the sum of two
+counts of the same kind for $A\setminus\{0\}$, a set of $N-1$ positive integers,
+and both bounds hold for $A$ with a larger absolute constant (an authored line;
+Stanley's Corollary 5.1 with $\zeta=1$ gives the first count's exact maximum in
+that case). The erdosproblems.com label PROVED (LEAN) refers to the Lean
+development described under Formalization.
 
-**Status.** PROVED (LEAN), on the site's label, which the two refereed sources
-support, one for each question. The derived frontmatter standing is solved,
-proved. The page lists the two questions as its parts, and each is settled by an
-accepted partial claim page.
+**Status.** PROVED (LEAN), on the erdosproblems.com label, which the two
+refereed sources support, one for each question. The derived frontmatter
+standing is solved, proved. The page lists the two questions as its parts, and
+each is settled by an accepted partial claim page.
 [[problems/number_theory/E0362/claims/1965_01_01_sarkozy_szemeredi|Sárközy and
 Szemerédi 1965]] settles the first question and
 [[problems/number_theory/E0362/claims/1977_09_01_halasz|Halász 1977]] the
@@ -90,7 +90,7 @@ J. Algebraic Discrete Methods 1 (1980), 168--184, refereed) identifies the exact
 maximum over $N$ distinct positive reals as the middle coefficient of
 $(1+q)(1+q^2)\cdots(1+q^N)$, attained by $\{1,\ldots,N\}$. Corollary 5.3
 identifies the maximum over all sets of $N$ distinct reals, attained by
-$\{-\lfloor(N-1)/2\rfloor,\ldots,\lfloor N/2\rfloor\}$, the site's set.
+$\{-\lfloor(N-1)/2\rfloor,\ldots,\lfloor N/2\rfloor\}$, erdosproblems.com's set.
 
 Second question: yes, by Halász's Theorem 2 and the remark that follows it
 (Period. Math. Hungar. 8 (1977), 197--211, refereed). Take $n$ vectors
@@ -103,10 +103,10 @@ $\sum_k\varepsilon_k\mathbf a_k$ lie in any open unit ball. The remark records
 $N\le c2^nn^{-2}$ if $\mathbf a_k=(a_k,1)$, $|a_k-a_{k'}|\ge1$, i.e., if in the
 above result of Sárközi and Szemerédi the number of $+$ signs in $\mathbf S$ is
 also fixed". Theorem 2 and this remark are the multidimensional theorem that the
-site's commentary credits and its consequence. For the page, the subsets
-$S\subseteq A$ with $|S|=l$ and $\sum S=t$ are the sign vectors whose sum
-$\sum_k\varepsilon_k(a_k,1)$ is the point $(2t-\sum A,\,2l-N)$. Translating $A$
-so that its middle element is $0$ leaves the fixed-size counts unchanged. It
+erdosproblems.com commentary credits and its consequence. For the page, the
+subsets $S\subseteq A$ with $|S|=l$ and $\sum S=t$ are the sign vectors whose
+sum $\sum_k\varepsilon_k(a_k,1)$ is the point $(2t-\sum A,\,2l-N)$. Translating
+$A$ so that its middle element is $0$ leaves the fixed-size counts unchanged. It
 supplies the condition on $\delta$ with $\delta=1/4$ for $N\ge6$, so the count
 is at most $c(1/4,2)2^N/N^2$ with an absolute constant. This is an authored
 reduction, recorded under The second question below. The case $N\le5$ is covered
@@ -120,13 +120,13 @@ sequence. Halász's printed proof of Theorem 2 is a one-paragraph modification
 here.
 
 **Source.** [erdosproblems.com/362](https://www.erdosproblems.com/362), accessed
-2026-09-18: the problem page (PROVED (LEAN), with the site's note that the
-answer is affirmative and the proof has been checked in Lean; last edited 27
-December 2025; source keys [Er65], [Er73, p. 129], [ErGr80, p. 59]; commentary
-citing [SaSz65], [St80] and [Ha77]; the formalization indicator then showing no
-formalized statement, superseded by the files described under Formalization),
-its one-comment discussion thread (2 November 2025) and its empty proof-claim
-tab. Cite as: T. F. Bloom, Erdős Problem #362,
+2026-09-18: the problem page (PROVED (LEAN), with the erdosproblems.com note
+that the answer is affirmative and the proof has been checked in Lean; last
+edited 27 December 2025; source keys [Er65], [Er73, p. 129], [ErGr80, p. 59];
+commentary citing [SaSz65], [St80] and [Ha77]; the formalization indicator then
+showing no formalized statement, superseded by the files described under
+Formalization), its one-comment discussion thread (2 November 2025) and its
+empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #362,
 https://www.erdosproblems.com/362, accessed 2026-09-18.
 
 **References.**
@@ -178,8 +178,8 @@ https://www.erdosproblems.com/362, accessed 2026-09-18.
   monograph's [Lint (67)]); Peck, Studies in Applied Math., "to appear"
   (Stanley's [35]).
 
-**Formalization.** The (LEAN) suffix of the site's label refers to a Lean
-development. The file
+**Formalization.** The (LEAN) suffix of the erdosproblems.com label refers to a
+Lean development. The file
 [`ErdosProblems/362.lean`](https://github.com/google-deepmind/formal-conjectures/blob/3495ef3347a76dd45ad4c527898195a4d00cd9b3/FormalConjectures/ErdosProblems/362.lean)
 of formal-conjectures (at the linked commit of 19 September 2026, the only one
 to touch the file by 2026-10-07) declares, under `category research solved` and
@@ -213,20 +213,20 @@ lists the statement as formalized, as of its last update on 19 September 2026.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The two questions
-above; PROVED (LEAN); last edited 27 December 2025; source keys [Er65], [Er73,
-p. 129], [ErGr80, p. 59]. The commentary records that the bound of Erdős and
-Moser [Er65] for the first question carried an extra factor $(\log n)^{3/2}$,
-that Sárközy and Szemerédi [SaSz65] removed it and so answered the first
-question yes, that Stanley [St80] showed the count to be largest for
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The two
+questions above; PROVED (LEAN); last edited 27 December 2025; source keys
+[Er65], [Er73, p. 129], [ErGr80, p. 59]. The commentary records that the bound
+of Erdős and Moser [Er65] for the first question carried an extra factor
+$(\log n)^{3/2}$, that Sárközy and Szemerédi [SaSz65] removed it and so answered
+the first question yes, that Stanley [St80] showed the count to be largest for
 $A=\{-\lfloor(N-1)/2\rfloor,\ldots,\lfloor N/2\rfloor\}$, and that Halász [Ha77]
 answered the second question yes as a consequence of a more general result in
 higher dimensions. The one comment (2 November 2025) supplies the locators
-[Er73, p. 129] and [ErGr80, p. 59] and objects that the site had stated
+[Er73, p. 129] and [ErGr80, p. 59] and objects that erdosproblems.com had stated
 Stanley's result in the monograph's form, which the commenter finds wrong or at
 best vague, because a count over subsets of varying sizes is not preserved under
 translation, and points to the corollaries of Section 5 of Stanley's paper (the
-comment calls it Chapter 5) as the correct statements; the site marks the
+comment calls it Chapter 5) as the correct statements; Bloom's catalog marks the
 comment as addressed, and the commentary, read 2026-09-18, names Stanley's set.
 There are no proof claims. The community database record, at its revision of
 2026-09-18, lists the status proved (Lean) as of its last update on 24 August
@@ -290,7 +290,7 @@ proof (pp. 205--208: a Lemma modifying a theorem of Katona, proved from
 Sperner's theorem, applied to the solution sets split between the $[n/2]$
 smallest and the remaining elements) was read for structure and not checked.
 Acceptance: refereed publication in Acta Arithmetica (Crossref record); Erdős's
-own 1973 and 1980 reports; the site. For the page: an $N$-element
+own 1973 and 1980 reports; erdosproblems.com. For the page: an $N$-element
 $A\subseteq\mathbb N$ is a set of distinct positive reals, so
 $f_A(t)<(1+\varepsilon)(8/\sqrt\pi)2^N/N^{3/2}$ for $N>n_0(\varepsilon)$, and
 $f_A(t)\le2^N$ covers the finitely many smaller $N$ (authored line).
@@ -316,16 +316,16 @@ middle coefficient of $\prod_{i=1}^N(1+q^i)$, the number of subsets of
 $\{1,\ldots,N\}$ with the central sum, attained by $A=\{1,\ldots,N\}$, a
 quantity of order $2^N/N^{3/2}$ by the Sárközy--Szemerédi bound and the
 $c_32^n/n^{3/2}$ remark; Corollary 5.3 with $k=1$ gives the maximum over all
-$N$-sets of distinct reals, attained by $\{-\lfloor(N-1)/2\rfloor,\ldots,\lfloor
-N/2\rfloor\}$, the site's sentence, a set outside $\mathbb N$ since it contains
-$0$ and negative numbers; the count is not invariant under translating $A$,
-which is the thread's point against the monograph's "arithmetic progression"
-paraphrase. Read depth: claims checked; the proofs (Theorem 3.1, property S of
-the Bruhat-order posets $W^J$ from the hard Lefschetz theorem; Proposition 2.5,
-on products of varieties with cellular decompositions; and Lemma 5.2) were not
-checked. Acceptance: refereed publication (Crossref record); Nguyen [Ng12] calls
-it "the ultimate result" and proves stability of the optimal sets (abstract
-only; a lead by identifier).
+$N$-sets of distinct reals, attained by
+$\{-\lfloor(N-1)/2\rfloor,\ldots,\lfloor N/2\rfloor\}$, the erdosproblems.com
+sentence, a set outside $\mathbb N$ since it contains $0$ and negative numbers;
+the count is not invariant under translating $A$, which is the thread's point
+against the monograph's "arithmetic progression" paraphrase. Read depth: claims
+checked; the proofs (Theorem 3.1, property S of the Bruhat-order posets $W^J$
+from the hard Lefschetz theorem; Proposition 2.5, on products of varieties with
+cellular decompositions; and Lemma 5.2) were not checked. Acceptance: refereed
+publication (Crossref record); Nguyen [Ng12] calls it "the ultimate result" and
+proves stability of the optimal sets (abstract only; a lead by identifier).
 
 **The second question (Halász).**
 [[../library/number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/theorem_2|Theorem
@@ -376,18 +376,18 @@ that a unit ball holds a bounded number of the $\mathbf a_k$ so that the paper's
 $\mu$ is bounded, "and this accounts for the gain of $n^{-1}$"; that paragraph
 was followed, the proof of Theorem 4 was read for structure only, and nothing
 was checked. Acceptance: refereed publication in Periodica Mathematica Hungarica
-(received 29 January 1976; Crossref record); the site's attribution; the
-conjecture is Erdős's, stated in 1965 with the constant independent of the
+(received 29 January 1976; Crossref record); the erdosproblems.com attribution;
+the conjecture is Erdős's, stated in 1965 with the constant independent of the
 subset size (his $t$, the page's $l$) and in 1973, as (8.8), with the constant
 independent of $t$, $l$, $n$ and the sequence, and reported there as never
 proved, before the paper was received.
 
-**Search scope.** None of the routes below found a dispute of the theorems or
-a Lean file for the problem.
+**Search scope, 2026-09-18 ([Ha77] 2026-09-22).** None of the routes below found
+a dispute of the theorems or a Lean file for the problem.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures at its revision of 2026-09-18 (no file
-  for the problem); the community database at its 2026-09-18 revision.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing of formal-conjectures at its revision of 2026-09-18 (no
+  file for the problem); the community database at its 2026-09-18 revision.
 - The primary sources: [SaSz65] pp. 205--208; [St80] pp. 168, 178--179 and 184;
   [Er65] pp. 183--186, [Er73] p. 129 and [ErGr80] p. 59; [Ha77] pp. 197--211.
 - Crossref: the DOI records 10.4064/aa-11-2-205-208, 10.1137/0601021 and
@@ -399,8 +399,8 @@ a Lean file for the problem.
   and anticoncentration literature; titles scanned for Erdős--Moser items).
 - arXiv: the record of 1112.0755.
 
-Not searched: MathSciNet, zbMATH, Google Scholar, X, the site's reference
-service. Not held: van Lint 1967, Peck, Katona.
+Not searched: MathSciNet, zbMATH, Google Scholar, X, the erdosproblems.com
+reference service. Not held: van Lint 1967, Peck, Katona.
 
 **Remaining gaps.** (1) The second question rests on Halász's Theorem 2, whose
 printed proof is a one-paragraph modification (p. 208) of the proof of Theorem

@@ -31,7 +31,7 @@ Is there a basis $A$ of order $2$ such that if $A=A_1\sqcup A_2$ then $A_1+A_1$
 and $A_2+A_2$ cannot both have bounded gaps?
 
 **Formulation.** Erdős [Er94b] asks the first question with positive
-density. The site's wording, positive (upper) density, reads this as
+density. The erdosproblems.com wording, positive (upper) density, reads this as
 positive upper density, which its commentary calls the reading most likely
 to capture the question, and the page's standing targets that reading. If
 positive density means that the density exists and is positive, the first
@@ -40,21 +40,22 @@ question has the answer no (the counterexample on the
 the formal-conjectures file under Formalization lists the lower-density
 reading as an open variant (`erdos_741.variants.lower`).
 
-**Status.** Proved. The site labeled the problem SOLVED (LEAN), and the suffix
-is a catalog label explained under Formalization. Both questions are answered
-yes. The first is answered under the upper-density reading of the Formulation.
-The second is answered by an explicit basis of order $2$ that no bipartition
-splits into two self-sumsets with bounded gaps. There are three claim pages. The
-first is
+**Status.** Proved. Bloom's catalog labeled the problem SOLVED (LEAN), and the
+suffix is a catalog label explained under Formalization. Both questions are
+answered yes. The first is answered under the upper-density reading of the
+Formulation. The second is answered by an explicit basis of order $2$ that no
+bipartition splits into two self-sumsets with bounded gaps. There are three
+claim pages. The first is
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|Google DeepMind's three Lean proofs]],
 found by its AlphaProof Nexus system, which the thread calls a DeepMind prover
-agent, and posted on the site's thread by Moritz Firsching. It is a full claim,
-accepted on the site curator's credit and on the refereed publication of the
-paper that proves both answers, [TKS26]. The second is the
+agent, and posted on the erdosproblems.com thread by Moritz Firsching. It is a
+full claim, accepted on the erdosproblems.com curator's credit and on the
+refereed publication of the paper that proves both answers, [TKS26]. The second
+is the
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev–Putterman–Sawhney–Sellke–Valiant basis]]
 from arXiv:2603.29961, which its authors attribute to an internal OpenAI model.
-It is a partial claim, for the second question only, accepted on the site
-curator's credit. The third is a
+It is a partial claim, for the second question only, accepted on the
+erdosproblems.com curator's credit. The third is a
 [[problems/additive_combinatorics/E0741/claims/2026_04_24_chojecki|note of April 2026]]
 that reproves all three statements (claimed). [TKS26] is the only refereed
 publication of either answer.
@@ -78,7 +79,7 @@ Problem #741, https://www.erdosproblems.com/741.
   answers. Library home:
   [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]].
 
-**Formalization.** The site's (LEAN) suffix is a catalog label. The
+**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
 statement is in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/741.lean),
 which at its commit of 2026-10-06 states the first question for upper density

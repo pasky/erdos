@@ -46,13 +46,13 @@ proved on this page.
 
 ## Relation to Problem 282
 
-The site's statement asks the same question for $A$ the set of odd numbers
-and $x\in(0,1)$ with odd denominator, with the greedy step "choose the
-minimal $n\in A$ such that $n\ge1/x$"; the site's owner reads the step as
-excluding denominators already used (discussion comment of 7 July 2026),
+The erdosproblems.com statement asks the same question for $A$ the set of odd
+numbers and $x\in(0,1)$ with odd denominator, with the greedy step "choose the
+minimal $n\in A$ such that $n\ge1/x$"; the erdosproblems.com owner reads the
+step as excluding denominators already used (discussion comment of 7 July 2026),
 which differs from the paper's convention only when $a/b\ge2/3$, from the
 second denominator on: the paper then repeats $x_2=x_1=3$ (Remark 2.4),
-while the site's reading takes $x_2=5$. The introduction attributes the
+while erdosproblems.com's reading takes $x_2=5$. The introduction attributes the
 question to the works it cites, its [3], [4] and [5]; Stein, whom the 1980
 monograph credits, is not named in the paper.
 

@@ -55,8 +55,8 @@ that its main proofs were developed with the assistance of ChatGPT 5.6 Sol,
 and the second that the authors used ChatGPT-5.6 Sol as an exploratory and
 proof-auditing tool.
 
-**Submission note.** Posted to the site's forum by Samuel Korsky on 14 September
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Samuel Korsky on
+14 September 2026:
 
 > Kaizhe’s and my paper https://arxiv.org/pdf/2607.26450 immediately implies the
 > improved lower bound $f(n) \ge \exp\left(\left(\frac{\log
@@ -76,8 +76,8 @@ Pomerance (1980), $f(n,n)\ll n\sqrt{\log n}$, gives $F(n)-f(n,n)\to\infty$. It
 does not cover the first question, since the bound $n^{4/3+o(1)}$ settles no
 instance of it.
 
-**Standing.** Pending. There is no journal reference, and the site has not
-credited the preprint.
+**Standing.** Pending. There is no journal reference, and erdosproblems.com has
+not credited the preprint.
 
 **Depends on.**
 [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_3|Erdős and Pomerance (1980), Theorem 3]].

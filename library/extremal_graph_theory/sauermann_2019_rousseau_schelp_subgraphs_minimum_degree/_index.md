@@ -26,11 +26,11 @@ largest t this proves the Erdős–Faudree–Rousseau–Schelp conjecture.
 
 Sauermann, Lisa, A proof of a conjecture of Erdős, Faudree, Rousseau and Schelp
 on subgraphs of minimum degree $k$. J. Combin. Theory Ser. B 134 (2019), 36--75,
-doi:10.1016/j.jctb.2018.05.002 (Crossref record read on 2026-09-18; the site's
-reference text gives "J. Combin. Theory Ser. B (2019), 36--75"). Preprint
-arXiv:1705.09979 (v1 28 May 2017; v2 26 June 2018). The arXiv record names
-arXiv's non-exclusive distribution license (arXiv:1705.09979), every other right
-reserved.
+doi:10.1016/j.jctb.2018.05.002 (Crossref record read on 2026-09-18; the
+erdosproblems.com reference text gives "J. Combin. Theory Ser. B (2019),
+36--75"). Preprint arXiv:1705.09979 (v1 28 May 2017; v2 26 June 2018). The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:1705.09979),
+every other right reserved.
 
 **Edition read.** The copy read for this card is arXiv:1705.09979v2, stamped
 "[math.CO] 26 Jun 2018" and dated June 28, 2018 on its title page, 34 pages

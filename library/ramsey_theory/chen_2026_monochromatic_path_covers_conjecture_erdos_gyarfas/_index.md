@@ -4,7 +4,8 @@ desc: |
   An unrefereed 2026 arXiv preprint claiming the Erdős–Gyárfás monochromatic
   path cover conjecture for every n, by a minimal counterexample argument
   ruling out the small cases left by Pokrovskiy, Versteegen and Williams;
-  submitted to the site as a proof claim, not adopted, not checked here.
+  submitted to erdosproblems.com as a proof claim, not adopted, not checked
+  here.
 license: CC-BY-NC-SA-4.0
 created: 2026-09-18T11:30:00Z
 updated: 2026-10-08T01:29:58Z
@@ -25,14 +26,15 @@ Hangdi Chen and Yaojun Chen, *On monochromatic path covers conjecture of
 Erdős--Gyárfás*. arXiv:2607.21915 [math.CO]; v1 posted 24 July 2026, the only
 version on 2026-09-18 (the arXiv record carried no journal reference or DOI;
 a Semantic Scholar citation request for the identifier answered HTTP 429 and
-was not repeated). An unrefereed preprint. On the site's Problem 518
+was not repeated). An unrefereed preprint. On erdosproblems.com's Problem 518
 proof-claims tab it is the one entry, "A full proof claimed by Hangdi Chen,
 Yaojun Chen", summary "This paper rules out counterexamples for all small
 remaining values of n, thereby proving that the result holds exactly for
-every n≥1", submitted 2026-07-29 by a site user with an external link to the
-proof and no comments; the site's label stayed PROVED with the resolution
-attributed to Pokrovskiy, Versteegen and Williams, and the problem page's
-commentary does not mention the preprint (refresh of 2026-09-18T10:39Z).
+every n≥1", submitted 2026-07-29 by an erdosproblems.com user with an external
+link to the proof and no comments; the erdosproblems.com label stayed PROVED
+with the resolution attributed to Pokrovskiy, Versteegen and Williams, and the
+problem page's commentary does not mention the preprint (refresh of
+2026-09-18T10:39Z).
 
 The copy read for this card is arXiv:2607.21915v1, 14 pages with a complete text
 layer, pp. 1--3, 13 and 14 read on the rendered page images and the rest in the
@@ -80,7 +82,7 @@ the text layer. No proof was read and nothing here is independently
 reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0518/_index|#518]]: Theorem 1.5 (p. 2)
-claims the site's statement for every $n\ge1$, closing the range
+claims the erdosproblems.com statement for every $n\ge1$, closing the range
 $n\le20^{40}$ that the refereed theorem of Pokrovskiy, Versteegen and Williams
 leaves; recorded on that page as an unreviewed proof claim with its
 provenance, not as status.

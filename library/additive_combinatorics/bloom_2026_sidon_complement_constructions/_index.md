@@ -30,14 +30,15 @@ source unit; no canonical PDF exists for those online expositions. The capture
 `discussion_20260905.html.gz` (the page titled "198 Discussion Thread | Erdős
 Problems", snapshotted 2026-09-05) contains no copyright, license or terms line,
 the captured pages' only reuse-related text being a recommended citation format,
-and the site's homepage and FAQ (https://www.erdosproblems.com/ and
+and erdosproblems.com's homepage and FAQ (https://www.erdosproblems.com/ and
 https://www.erdosproblems.com/faq, read 2026-10-02) state no copyright, license
 or terms of use; the term is unstated. The capture `problem_20260905.html.gz`
 (the page titled "198 | Erdős Problems", snapshotted 2026-09-05) contains no
-copyright, license or terms line, and the same site pages state no terms; the
-term is unstated. The capture `proof_claims_20260905.html.gz` (the page titled
-"Erdős Problems", snapshotted 2026-09-05) contains no copyright, license or
-terms line, and the same site pages state no terms; the term is unstated.
+copyright, license or terms line, and the same erdosproblems.com pages state no
+terms; the term is unstated. The capture `proof_claims_20260905.html.gz` (the
+page titled "Erdős Problems", snapshotted 2026-09-05) contains no copyright,
+license or terms line, and the same erdosproblems.com pages state no terms; the
+term is unstated.
 
 All three constructions disprove
 [[../wiki/problems/additive_combinatorics/E0198/_index|Problem 198]]. A common

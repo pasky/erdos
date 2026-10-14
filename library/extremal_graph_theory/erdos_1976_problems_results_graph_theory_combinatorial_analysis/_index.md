@@ -28,8 +28,9 @@ he knew of no results.
 P. Erdős, *Problems and results in graph theory and combinatorial analysis*,
 Proceedings of the Fifth British Combinatorial Conference (Univ. Aberdeen,
 Aberdeen, 1975), Congressus Numerantium XV, Utilitas Math., Winnipeg (1976),
-169--192; MR 409246. The site's reference key Er76b (its reference text read
-on 2026-09-18). The author's address on p. 169 is "University of Cambridge".
+169--192; MR 409246. The erdosproblems.com reference key Er76b (its reference
+text read on 2026-09-18). The author's address on p. 169 is "University of
+Cambridge".
 
 **Copy read.** The copy read for this card is the Rényi archive's scan
 `1976-36.pdf`: 24 pages, an image scan of the
@@ -58,8 +59,8 @@ proves nothing, so there is no proof to check.
 
 - P. 169: the author's list of his previous problem papers, among them "2.
   Problems and results of combinatorial analysis, Symposium held in Rome
-  September 1973 will appear soon" (the site's key Er76, the Rome colloquium
-  paper of 1976) and "3. Some unsolved problems in graph theory and
+  September 1973 will appear soon" (the erdosproblems.com key Er76, the Rome
+  colloquium paper of 1976) and "3. Some unsolved problems in graph theory and
   combinatorial analysis, Combinatorial Math. and its Applications, Oxford
   Conference 1969, Acad. Press, London 1971, 97--109" (the
   [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|1971 list]]).
@@ -106,26 +107,26 @@ used only to locate Problems 8 and 29. Nothing else in the paper is compiled,
 and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0585/_index|#585]]: the origin,
-Problem 29 on p. 191; the site's question asks for the maximum number of
-edges of an $n$-vertex graph with no two edge-disjoint cycles on the same
+Problem 29 on p. 191; the erdosproblems.com question asks for the maximum number
+of edges of an $n$-vertex graph with no two edge-disjoint cycles on the same
 vertex set, which is $f_2(n)-1$ in the paper's notation. Chakraborti, Janzer,
 Methuku and Montgomery cite this problem as "Erdős [19, Problem 29]" on p. 1
 of their paper and restate it as their Problem 1.
-[[../wiki/problems/extremal_graph_theory/E1006/_index|#1006]]: the site's key Er76b;
-Problem 8 on p. 175 restates the orientation question of the 1971 list's
-item 7 for graphs of girth greater than four, with "as far as I know there
-are no results"; paged at
+[[../wiki/problems/extremal_graph_theory/E1006/_index|#1006]]: the
+erdosproblems.com key Er76b; Problem 8 on p. 175 restates the orientation
+question of the 1971 list's item 7 for graphs of girth greater than four, with
+"as far as I know there are no results"; paged at
 [[extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/problem_8|problem_8]].
-[[../wiki/problems/set_systems/E0702/_index|#702]]: the site's key Er76b,
-cited at p. 186; Problem 22 states the conjecture of Erdős and Sós with the
-range "$n>n_0(k)$" as (1) $f(n;k,1)=\binom{n-2}{k-2}+1$, the form and range
+[[../wiki/problems/set_systems/E0702/_index|#702]]: the erdosproblems.com key
+Er76b, cited at p. 186; Problem 22 states the conjecture of Erdős and Sós with
+the range "$n>n_0(k)$" as (1) $f(n;k,1)=\binom{n-2}{k-2}+1$, the form and range
 of #702's modified Statement, reports Katona's unpublished proof for $k=4$,
 and determines $f(n;3,1)$ for every $n$ in (2); transcribed under Contents
 above.
 [[../wiki/problems/extremal_graph_theory/E0767/_index|#767]]: the end of Problem 29,
-printed pp. 191--192 = PDF pp. 23--24 (page images), a source the site does
-not cite for this problem (its keys there, read 2026-10-07, are Er64c, Er69b
-and Er75). The paper defines $g_i(n)$ in the words "Denote by $g_i(n)$ the
+printed pp. 191--192 = PDF pp. 23--24 (page images), a source erdosproblems.com
+does not cite for this problem (its keys there, read 2026-10-07, are Er64c,
+Er69b and Er75). The paper defines $g_i(n)$ in the words "Denote by $g_i(n)$ the
 smallest integer for which every $G(n;g_i(n))$ contains a $C_\ell$ with at
 least $i$ diagonals emanating from one of its vertices" (p. 191), records
 $g_1(n)=2n-3$ from Pósa's result and, from
@@ -135,9 +136,9 @@ $g_i(n)=(i+1)n-(i+1)^2+1$. (1) would follow if $g_i(2i)=i^2+1$ would hold,
 but M. Lecvin disproved this and thus (1) is in doubt", adding that (1), if
 it holds, is easily seen to be best possible. "Lecvin" is the print's
 spelling of Lewin, and this $g_i(n)$ is the least forcing number, so (1) is
-the site's formula $g_k(n)=(k+1)n-(k+1)^2$ for the largest avoiding number,
-with the doubt resting on the case the print writes as $g_i(2i)=i^2+1$. In
-this paper's own indexing (1) gives $g_i(2i)=i^2$, and its base case is
+the erdosproblems.com formula $g_k(n)=(k+1)n-(k+1)^2$ for the largest avoiding
+number, with the doubt resting on the case the print writes as $g_i(2i)=i^2+1$.
+In this paper's own indexing (1) gives $g_i(2i)=i^2$, and its base case is
 $g_i(2i+2)=(i+1)^2+1$; the printed case is that base case in the indexing of
 1964 and 1975, as the problem page's Current assessment records.
 

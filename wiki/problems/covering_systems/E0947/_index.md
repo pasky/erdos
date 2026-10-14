@@ -26,16 +26,16 @@ updated: 2026-10-08T03:43:48Z
 of congruence classes $a_i\pmod{n_i}$ with distinct $n_i$ such that every
 integer satisfies exactly one of these congruence classes.
 
-**Formulation.** Read as the site words it, the single class $0\pmod1$ is an
-exact covering system with distinct moduli. Erdős's covering systems have moduli
-above one ($1<n_1<\cdots<n_k$ in his 1952 Mat. Lapok paper), and the
+**Formulation.** Read as Bloom's catalog words it, the single class $0\pmod1$ is
+an exact covering system with distinct moduli. Erdős's covering systems have
+moduli above one ($1<n_1<\cdots<n_k$ in his 1952 Mat. Lapok paper), and the
 formal-conjectures statement excludes the trivial system the same way. The
 standing concerns that reading: no finite family of at least two congruence
 classes with distinct moduli, equivalently with all moduli at least $2$,
 partitions the integers.
 
-**Status.** PROVED (LEAN), the site's label. The standing derives from the
-accepted claim on
+**Status.** PROVED (LEAN), the erdosproblems.com label. The standing derives
+from the accepted claim on
 [[problems/covering_systems/E0947/claims/1952_01_01_mirsky_newman|its claim page]].
 The curator credits the theorem to Mirsky and Newman and, independently, to
 Davenport and Rado. The Lean mark refers to a third-party Lean 4 proof described
@@ -50,8 +50,8 @@ https://www.erdosproblems.com/947.
 - [Er50] Erdős, Paul, On integers of the form $2^k+p$ and some related
   problems. Summa Brasil. Math. 2 (1950), 113-123. The paper that introduced
   covering systems; it does not state the theorem, which the
-  formal-conjectures docstring says first appeared there; the site cites only
-  [Er77c]. Library home:
+  formal-conjectures docstring says first appeared there; erdosproblems.com
+  cites only [Er77c]. Library home:
   [[../library/primes/erdos_1950_integers_form_related_problems/_index|erdos_1950_integers_form_related_problems]].
 - [Er52] Erdős, Paul, Egy kongruenciarendszerekről szóló problémáról (On a
   problem concerning systems of congruences). Mat. Lapok 3 (1952), 122-128.
@@ -63,11 +63,11 @@ https://www.erdosproblems.com/947.
 - [Ne71] Newman, Morris, Roots of unity and covering sets. Math. Ann. 191
   (1971), 279-282.
 
-**Formalization.** The site's Lean qualification rests on a third-party Lean
-4 proof of the theorem, Wouter van Doorn's file of 2026-02-02 written by
-Aristotle, carried in Boris Alexeev's lean-proofs repository and linked as
-the formal proof from the
-[formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/c08a3f54d729f64e069d42191a5a01082b8e14fd/FormalConjectures/ErdosProblems/947.lean)
+**Formalization.** The erdosproblems.com Lean qualification rests on a
+third-party Lean 4 proof of the theorem, Wouter van Doorn's file of 2026-02-02
+written by Aristotle, carried in Boris Alexeev's lean-proofs repository and
+linked as the formal proof from the [formal-conjectures statement
+file](https://github.com/google-deepmind/formal-conjectures/blob/c08a3f54d729f64e069d42191a5a01082b8e14fd/FormalConjectures/ErdosProblems/947.lean)
 `ErdosProblems/947.lean`, linked at the commit of 2026-09-19 that added it,
 whose own body is a `sorry`; the pinned links to the proof files are on the
 [[problems/covering_systems/E0947/claims/1952_01_01_mirsky_newman|claim page]].
@@ -76,17 +76,17 @@ None of these files is among the Lean the corpus has built and audited.
 ## Current assessment
 
 **Settled by the Mirsky–Newman theorem, accepted on the printed proof and
-the curator's credit.** The site formulation above, read as the Formulation
-states, asserts that no finite family of at least two congruence classes with
-distinct moduli partitions the integers. The theorem is Mirsky and Newman's,
-found independently by Davenport and Rado, and was first printed with its
-root-of-unity proof by Erdős in Mat. Lapok 3 (1952), p. 126 [Er52]; the 1950
+the curator's credit.** The erdosproblems.com formulation above, read as the
+Formulation states, asserts that no finite family of at least two congruence
+classes with distinct moduli partitions the integers. The theorem is Mirsky and
+Newman's, found independently by Davenport and Rado, and was first printed with
+its root-of-unity proof by Erdős in Mat. Lapok 3 (1952), p. 126 [Er52]; the 1950
 paper [Er50] introduces covering systems without stating it. The result is
 recorded on
 [[problems/covering_systems/E0947/claims/1952_01_01_mirsky_newman|the claim
 page]] as an accepted full claim with `reviewed` and `refereed` evidence.
-The site's Lean mark rests on third-party Lean 4 files that formalize the
-classical theorem, linked on the claim page and not among the Lean the
+The erdosproblems.com Lean mark rests on third-party Lean 4 files that formalize
+the classical theorem, linked on the claim page and not among the Lean the
 corpus has built and audited, so no `formalized` is listed. No forum claim,
 release item or lead names the problem; the thread holds one comment, of
 2026-02-02, in which van Doorn posts the Lean 4 formalization described

@@ -4,8 +4,8 @@ title: Haxell and Szabó's exact threshold for Problem 1078
 desc: |
   Haxell and Szabó (Combin. Probab. Comput. 2006) determine the sharp
   minimum-degree threshold for a $K_r$ in an $r$-partite graph, which lies below
-  $(r-\frac32)n$ for every $r$ and $n$. The paper is refereed and named by the
-  site.
+  $(r-\frac32)n$ for every $r$ and $n$. The paper is refereed and named by
+  erdosproblems.com.
 authors:
 - P. Haxell
 - T. Szabó
@@ -58,8 +58,8 @@ from $\Delta(r,n)$ to $f_r(n)=(r-1)n-\Delta(r,n)$ is the complementation
 inside the complete $r$-partite graph, under which a $K_r$ with one vertex
 in each part becomes an independent transversal; it is written out on the
 problem page as that page's own deduction and is not part of the source.
-The threshold is the one the site's commentary prints and credits to this
-paper.
+The threshold is the one the erdosproblems.com commentary prints and credits to
+this paper.
 
 **Depends on.** Nothing in this wiki beyond the complementation written on
 [[problems/extremal_graph_theory/E1078/_index|the problem page]].
@@ -68,13 +68,13 @@ paper.
 record: volume 15, issue 1--2, pp. 193--211, issued January 2006). The day in
 this page's date is the issue's nominal first day.
 
-Reviewed: the site's curator, T. F. Bloom, labeled the problem proved and
-credits this paper with the sharp threshold, which contains the statement.
+Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled the problem proved
+and credits this paper with the sharp threshold, which contains the statement.
 
 The locators are pages of the authors' preprint. The preprint is posted on
 Szabó's publication page and linked above, and it is described on the
 [[../library/extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/_index|source card]].
 Theorem 1.1 and the introduction are checked at claims checked. The proof
 (Sections 2--4) was not read, and the journal text was not compared with the
-preprint. The acceptance recorded here rests on the publication and the site's
-acceptance, not on a local review.
+preprint. The acceptance recorded here rests on the publication and
+erdosproblems.com's acceptance, not on a local review.

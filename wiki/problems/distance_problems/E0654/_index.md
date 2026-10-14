@@ -38,10 +38,10 @@ $$
 
 for some $c>0$, for all large $n$?
 
-**Status.** Open, the site's label. The site's commentary credits Aletheia
-[Fe26] with disproving the strongest form, $f(n)>(1-o(1))n$. The construction
-uses points on two lines with no four on a circle. The result is a claimed
-partial claim, on
+**Status.** Open, the erdosproblems.com label. The erdosproblems.com commentary
+credits Aletheia [Fe26] with disproving the strongest form, $f(n)>(1-o(1))n$.
+The construction uses points on two lines with no four on a circle. The result
+is a claimed partial claim, on
 [[problems/distance_problems/E0654/claims/2026_01_29_feng|Feng and coauthors' claim page]].
 Whether $f(n)>(1/3+c)n$ for some $c>0$ remains open. The version with no three
 points on a line also remains open.

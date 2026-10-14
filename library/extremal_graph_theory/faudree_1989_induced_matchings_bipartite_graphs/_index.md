@@ -33,7 +33,7 @@ R. J. Faudree, A. Gyárfás, R. H. Schelp and Zs. Tuza, *Induced matchings in
 bipartite graphs*, Discrete Math. 78 (1989), no. 1--2, 83--87; DOI
 10.1016/0012-365X(89)90163-5 (Crossref record read 2026-09-19); received 2
 December 1987, revised 4 June 1988; "Dedicated to the memory of our friend
-Tory Parsons". The site's key FGST89 on Problem 149.
+Tory Parsons". The erdosproblems.com key FGST89 on Problem 149.
 
 **Edition read.** The copy read for this card is a
 5-page scan of the journal pages 83--87 with an OCR text layer (Acrobat
@@ -120,12 +120,12 @@ strong clique is the whole edge set.
 image) states the problem, dating it to the Prague seminar at the end of
 1985 (Erdős's 1988 problem paper, p. 81, had printed the conjecture
 earlier, without date or place), and states the conjecture
-$q^*(G)\le\frac54d^2$ in the form the site asks, with the blown-up
+$q^*(G)\le\frac54d^2$ in the form erdosproblems.com asks, with the blown-up
 five-cycle credited to the 1983 survey; p. 84 states the bipartite
 subquestion $q^*(G)\le d^2$, and Theorem 1 with $k=1$ is the case, with
 the strong clique the whole edge set, of the bipartite strong clique bound
-$\Delta^2$ that the site's commentary reaches through Cames van Batenburg,
-Kang and Pirot.
+$\Delta^2$ that the erdosproblems.com commentary reaches through Cames van
+Batenburg, Kang and Pirot.
 [[../wiki/problems/extremal_graph_theory/E0934/_index|#934]]: p. 83 (page image) records
 that the case $k=1$ of $f(k,d)$, which is $h_2(d)-1$, "was asked earlier by
 Bermond, Bond and Peyrat (see [1])" and that $f(1,d)=\frac54d^2$ for even

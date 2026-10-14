@@ -5,7 +5,7 @@ desc: |
   integers has density at most exp of minus a ninth power of log N.
 license: CC-BY-4.0
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_combinatorics/bloom_2023_improvement_kelley_meka_bounds_three_term
@@ -14,7 +14,7 @@ updated: 2026-10-08T01:29:58Z
 
 [[additive_combinatorics/bloom_2023_improvement_kelley_meka_bounds_three_term/theorem_1|theorem_1]]: The sharpened Kelley–Meka bound, exponent 1/9 in place of 1/12, from a
 modification of the almost-periodicity step; the source of the exponent in
-the site's upper bound exp(O((log k)^9)) for W(3,k).
+erdosproblems.com's upper bound exp(O((log k)^9)) for W(3,k).
 
 ***
 
@@ -46,12 +46,12 @@ Crossref bibliographic query on 2026-09-18 returned the authors' separate
 exposition in Essential Number Theory 2 (2023), 15--44, not this note), so the
 paper is held as a preprint. For problem 721 the bearing is indirect: the note
 never mentions van der Waerden numbers (no occurrence of "Waerden" in its text
-layer); the site's upper bound W(3,k) << exp(O((log k)^9)) takes the exponent 9
-as the reciprocal of Theorem 1's 1/9 through the density argument stated in
-Hunter's footnote 1 and Schoen's remark, a derivation written in no held source.
-Read status for problem 721: claims checked for Theorem 1 and its surrounding
-paragraph, read clause by clause on the page image of p. 1; the proof was not
-read. Result page:
+layer); erdosproblems.com's upper bound W(3,k) << exp(O((log k)^9)) takes the
+exponent 9 as the reciprocal of Theorem 1's 1/9 through the density argument
+stated in Hunter's footnote 1 and Schoen's remark, a derivation written in no
+held source. Read status for problem 721: claims checked for Theorem 1 and its
+surrounding paragraph, read clause by clause on the page image of p. 1; the
+proof was not read. Result page:
 [[additive_combinatorics/bloom_2023_improvement_kelley_meka_bounds_three_term/theorem_1|theorem_1]].
 The arXiv record (https://arxiv.org/abs/2309.02353, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.

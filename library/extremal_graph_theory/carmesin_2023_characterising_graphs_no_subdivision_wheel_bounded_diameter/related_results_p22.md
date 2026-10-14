@@ -28,14 +28,14 @@ $K_3$ or $K_{3,3}$)."
 Here $n$ is the number of vertices and $e(G)$ the number of edges. Reference
 [16] (p. 51) is Carsten Thomassen, *A minimal condition implying a special
 $K_4$-subdivision in a graph*, Arch. Math. 25 (1) (1974) 210--215, the
-site's key Th74 for Problem 916. The restatement carries no lower bound on
-$n$; read as worded, it fails for the one-vertex graph, which has $0=2n-2$
-edges and no cycle, so Thomassen's own statement must carry a hypothesis the
-restatement omits. It does: the Theorem on printed p. 212 (PDF p. 3) of the
-held copy reads "If $G$ is a graph with $n(G)\ge3$ and $e(G)\ge2n(G)-3$
-then either $G$ has property $p$ or $G$ is a $(K_3,K_{3,3})$-cockade. In
-particular $e(G)\ge2n(G)-2$ implies that $G$ has property $p$", read
-clause by clause on the page image; the hypothesis is
+erdosproblems.com key Th74 for Problem 916. The restatement carries no lower
+bound on $n$; read as worded, it fails for the one-vertex graph, which has
+$0=2n-2$ edges and no cycle, so Thomassen's own statement must carry a
+hypothesis the restatement omits. It does: the Theorem on printed p. 212 (PDF
+p. 3) of the held copy reads "If $G$ is a graph with $n(G)\ge3$ and
+$e(G)\ge2n(G)-3$ then either $G$ has property $p$ or $G$ is a
+$(K_3,K_{3,3})$-cockade. In particular $e(G)\ge2n(G)-2$ implies that $G$ has
+property $p$", read clause by clause on the page image; the hypothesis is
 $n(G)\ge3$, and the restatement is otherwise faithful to the "in
 particular" sentence and the cockade characterization.
 
@@ -72,8 +72,8 @@ None; an attestation.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0916/_index|Problem 916]]: the held refereed
-  attestation of the theorem behind the site's label, in the words of a 2023
-  paper in the same journal family as the problem's literature; the 1974
+  attestation of the theorem behind the erdosproblems.com label, in the words of
+  a 2023 paper in the same journal family as the problem's literature; the 1974
   statement, held and paged on
   [[extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/theorem|theorem]],
   carries the hypothesis $n(G)\ge3$ that the restatement omits.

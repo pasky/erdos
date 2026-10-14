@@ -51,6 +51,6 @@ CC BY 4.0; no journal version is recorded. The library's
 [[../library/divisors/alexeev_2025_independence_clique_cover_numbers_squarefree_graph/_index|source card]]
 digests the paper; its theorems are not transcribed as result pages.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marked Problem
-844 proved and credits the paper as an independent alternative proof. The
-preprint is not refereed, and this corpus has not reviewed it.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, marked
+Problem 844 proved and credits the paper as an independent alternative proof.
+The preprint is not refereed, and this corpus has not reviewed it.

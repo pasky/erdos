@@ -25,7 +25,7 @@ read: the publisher's article PDF at
 answered HTTP 403 with a browser-check page to every request made on
 2026-09-27, so the article's numbering and proof have not been read here.
 
-**Result as recorded by the site and by a citing source.** The article
+**Result as recorded by erdosproblems.com and by a citing source.** The article
 constructs infinitely many triples of coprime $3$-powerful numbers $a,b,c$
 with $a+b=c$ none of which is a perfect cube, strengthening the
 [[diophantine_problems/nitaj_1995_conjecture_erdos_3_powerful_numbers/_index|Nitaj construction]],
@@ -42,5 +42,5 @@ affirmative answer to its third question, with the extra property that no
 term is a cube; a refereed publication.
 
 **Read status.** Unread; the citation and DOI are bibliographic metadata,
-and the result statement is consumed through the site's record and Walsh's
-citation, not from the text.
+and the result statement is consumed through the erdosproblems.com record and
+Walsh's citation, not from the text.

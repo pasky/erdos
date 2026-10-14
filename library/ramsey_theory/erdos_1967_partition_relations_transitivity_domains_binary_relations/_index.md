@@ -5,7 +5,7 @@ desc: |
   transitivity domains of binary relations on infinite cardinals.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/erdos_1967_partition_relations_transitivity_domains_binary_relations
@@ -19,8 +19,8 @@ l_0(m,2) = 2^{m-1} for m at most 4.
 
 [[ramsey_theory/erdos_1967_partition_relations_transitivity_domains_binary_relations/theorem_2|theorem_2]]: Erdős and Rado's 1967 extension of the finite-index partition relation to
 every initial ordinal ω_α, with the explicit bound on the least index that
-the site quotes as the Erdős–Rado upper bound for k(n,m), and the matching
-negative relation below the threshold.
+erdosproblems.com quotes as the Erdős–Rado upper bound for k(n,m), and the
+matching negative relation below the threshold.
 
 ***
 
@@ -132,14 +132,15 @@ not read. No proof was checked and nothing here is independently reviewed.
 
 Source: <https://users.renyi.hu/~p_erdos/1967-19.pdf>.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0112/_index|#112]]: the site's key ErRa67.
-Theorem 1's characterization of $l_0(m,n)$ (printed p. 624 = PDF p. 1, page
-image) is the problem's $k(n,m)$ in the letters of the site (transitive
-tournament of size $m$ in case (i), independent set of size $n$ in case
-(ii)), and relation (3) of Theorem 2 (printed p. 625 = PDF p. 2, page image)
-at $\alpha=0$ is the bound $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$ that the
-site's commentary prints; Remark (i) is the conjecture $l_\alpha=l_0$ settled
-by Baumgartner in 1974. [[../wiki/problems/ramsey_theory/E1216/_index|#1216]]: pp. 624--625
+**Bears on.** [[../wiki/problems/ramsey_theory/E0112/_index|#112]]: the
+erdosproblems.com key ErRa67. Theorem 1's characterization of $l_0(m,n)$
+(printed p. 624 = PDF p. 1, page image) is the problem's $k(n,m)$ in the letters
+of erdosproblems.com (transitive tournament of size $m$ in case (i), independent
+set of size $n$ in case (ii)), and relation (3) of Theorem 2 (printed p. 625 =
+PDF p. 2, page image) at $\alpha=0$ is the bound
+$k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$ that the erdosproblems.com commentary
+prints; Remark (i) is the conjecture $l_\alpha=l_0$ settled by Baumgartner
+in 1974. [[../wiki/problems/ramsey_theory/E1216/_index|#1216]]: pp. 624--625
 attest Stearns's theorem, the lower bound of Erdős and Moser's Theorem 1, and
 name Erdős and Moser 1964, p. 126, as the place where Stearns's proof is
 reproduced; Theorem 4 (i) is that theorem in the paper's own words.

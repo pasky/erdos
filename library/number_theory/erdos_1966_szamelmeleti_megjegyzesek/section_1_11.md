@@ -28,8 +28,8 @@ the series.
 **Source.** P. Erdős, *Számelméleti megjegyzések, V. Extremális problémák a
 számelméletben, II*, Mat. Lapok 17 (1966), 135--155; Section I.11 on
 printed pp. 138--141 (PDF pp. 4--7 of the Rényi archive's 21-page scan), read on
-the page images; the site's key for Problem 795 cites the paper without a
-page.
+the page images; the erdosproblems.com key for Problem 795 cites the paper
+without a page.
 
 **Read depth.** Claims checked: the statement (1) and its two sentences
 were read clause by clause on the page image of p. 138. The proof sketch
@@ -61,9 +61,10 @@ section.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the bound the site's
-  commentary attributes to [Er66], $g(n)\le\pi(n)+O(n^{1/2}/\log n)$, with
-  its proof sketch. The problem's own question is display (13) on p. 140,
+- [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the bound the
+  erdosproblems.com commentary attributes to [Er66],
+  $g(n)\le\pi(n)+O(n^{1/2}/\log n)$, with its proof sketch. The problem's own
+  question is display (13) on p. 140,
   $\max Z=\pi(n)+\pi(n^{1/2})+o(n^{1/2}/\log n)$, which Erdős calls not
   impossible while saying he cannot decide it; after a construction made
   with Pósa (14), he gives the lower bound (15) from sets with distinct

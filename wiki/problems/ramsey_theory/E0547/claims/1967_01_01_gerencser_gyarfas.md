@@ -39,8 +39,8 @@ $$
 R(P_n)=n-1+\lfloor n/2\rfloor,
 $$
 
-which is at most $2n-2$ for every $n\ge2$. The site's commentary on the
-problem states the same value for paths and credits the paper.
+which is at most $2n-2$ for every $n\ge2$. The erdosproblems.com commentary on
+the problem states the same value for paths and credits the paper.
 
 **Covers.** The modified Statement of
 [[problems/ramsey_theory/E0547/_index|Problem 547]] for every path $P_n$,
@@ -55,4 +55,5 @@ claim]].
 problems*, Ann. Univ. Sci. Budapest. Eötvös Sect. Math. 10 (1967), 167--170, a
 journal of the Eötvös University. The volume is dated 1967, and this page's date
 is the first day of that year. No `reviewed` evidence is listed, because the
-site's label DECIDABLE settles neither the problem nor any part of it.
+erdosproblems.com label DECIDABLE settles neither the problem nor any part of
+it.

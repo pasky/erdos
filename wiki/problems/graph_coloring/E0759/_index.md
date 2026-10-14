@@ -43,28 +43,29 @@ https://www.erdosproblems.com/759.
 - [GiTh97] Gimbel, John and Thomassen, Carsten, [[../library/graph_coloring/gimbel_1997_coloring_graphs_fixed_genus_girth/_index|Coloring
   graphs with fixed genus and girth]]. Trans. Amer. Math. Soc. (1997), 4555-4564.
 
-**Formalization.** None recorded by the site or the community database; two
-third-party Lean formalizations of Gimbel and Thomassen's theorem are linked
+**Formalization.** None recorded by erdosproblems.com or the community database;
+two third-party Lean formalizations of Gimbel and Thomassen's theorem are linked
 from the claim page, and the corpus did not build them.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks for the growth rate of
-$z(S_n)$, the largest cochromatic number of a graph embeddable on the orientable
-surface of genus $n$. It is $\sqrt n/\log n$ up to constants:
+The erdosproblems.com formulation (accessed 2026-09-04) asks for the growth rate
+of $z(S_n)$, the largest cochromatic number of a graph embeddable on the
+orientable surface of genus $n$. It is $\sqrt n/\log n$ up to constants:
 [[problems/graph_coloring/E0759/claims/1997_11_01_gimbel_thomassen|Gimbel and Thomassen 1997]],
-Theorem 3.4, refereed in Trans. Amer. Math. Soc. and credited by the site's
-curator, closes the gap between the bounds $\sqrt n/\log n\ll z(S_n)\ll\sqrt n$
-of [[problems/graph_coloring/E0759/claims/1986_01_01_gimbel|Gimbel 1986]], whose
+Theorem 3.4, refereed in Trans. Amer. Math. Soc. and credited by the
+erdosproblems.com curator, closes the gap between the bounds
+$\sqrt n/\log n\ll z(S_n)\ll\sqrt n$ of
+[[problems/graph_coloring/E0759/claims/1986_01_01_gimbel|Gimbel 1986]], whose
 lower bound already has the right order and which is accepted on its refereed
 publication; the problem's standing derives from the accepted full claim. The
 constants are not determined and the question does not ask for them.
 
-Search scope: the site's page and discussion thread, the community database
-(teorth/erdosproblems), the lean-proofs and erdos-lean catalogs, the Justin Sun
-Prize awards repository, and Crossref; on 2026-10-07 none of them showed a
-further claim on the problem. Two third-party Lean formalizations are linked
-from the claim page; the corpus did not build them.
+Search scope: the erdosproblems.com page and discussion thread, the community
+database (teorth/erdosproblems), the lean-proofs and erdos-lean catalogs, the
+Justin Sun Prize awards repository, and Crossref; on 2026-10-07 none of them
+showed a further claim on the problem. Two third-party Lean formalizations are
+linked from the claim page; the corpus did not build them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

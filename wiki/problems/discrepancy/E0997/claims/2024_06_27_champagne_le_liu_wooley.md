@@ -54,11 +54,12 @@ alone.
 
 **Acceptance.** The result is refereed: J. Champagne, T. H. Lê, Y.-R. Liu and T.
 D. Wooley, Well-distribution modulo one and the primes, Proc. Amer. Math. Soc.
-153 (2025), no. 12, 5069–5074, published electronically 2025-10-23. The site's
-commentary mentions the paper as the one that established the existence of such
-an $\alpha$. The site's label PROVED (LEAN), however, settles the problem
-through the later full result. The curator's remark is therefore commentary on
-this partial result, and it is not listed as `reviewed`.
+153 (2025), no. 12, 5069–5074, published electronically 2025-10-23. The
+erdosproblems.com commentary mentions the paper as the one that established the
+existence of such an $\alpha$. The erdosproblems.com label PROVED (LEAN),
+however, settles the problem through the later full result. The curator's remark
+is therefore commentary on this partial result, and it is not listed as
+`reviewed`.
 
 The formal-conjectures statement file
 [`ErdosProblems/997.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/997.lean)

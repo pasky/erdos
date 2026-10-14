@@ -38,7 +38,8 @@ the publisher's volume listing offers the article "Free download under CC-BY
 license", a Creative Commons Attribution license with no version or URL named
 (https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/134,
 read 2026-10-02), the article's own page not opened; the site footer "Copyright
-© 2026 by IMPAN. All rights reserved." speaks for the site, not the article.
+© 2026 by IMPAN. All rights reserved." speaks for erdosproblems.com, not the
+article.
 
 For
 

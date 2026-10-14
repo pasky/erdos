@@ -23,12 +23,12 @@ updated: 2026-10-07T19:24:20Z
 **Statement.** Does every graph with chromatic number $\aleph_1$ contain a
 countable subgraph which is infinitely vertex-connected?
 
-**Formulation.** Under the site's definition of infinite connectivity (any two
-vertices joined by infinitely many pairwise vertex-disjoint paths), a subgraph
-with a single vertex qualifies vacuously, which would make the question trivial.
-The question is read as its sources read it, as asking for a countably infinite,
-infinitely connected subgraph. Bowler and Pitz pose it so in Remark (3) of their
-note [BoPi24], for every uncountably chromatic graph. The
+**Formulation.** Under the erdosproblems.com definition of infinite connectivity
+(any two vertices joined by infinitely many pairwise vertex-disjoint paths), a
+subgraph with a single vertex qualifies vacuously, which would make the question
+trivial. The question is read as its sources read it, as asking for a countably
+infinite, infinitely connected subgraph. Bowler and Pitz pose it so in Remark
+(3) of their note [BoPi24], for every uncountably chromatic graph. The
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1068.lean)
 requires at least two vertices in its definition of infinite connectivity, and
 two vertices joined by infinitely many disjoint paths need infinitely many

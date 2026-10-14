@@ -82,7 +82,7 @@ primes"); Claim 4 is elementary.
 - [[../wiki/problems/integer_sequences/E0678/_index|Problem 678]]: with $n=x-1$ and
   $m=y-1$ the theorem reads $M(n,k)>C\cdot M(m,k+1)$ with $m>n+k$, so for
   $C=1$ every large $k$ gives a triple $(m,n,k)$ with $m\ge n+k$ and
-  $M(n,k)>M(m,k+1)$; this is the site's affirmative answer.
+  $M(n,k)>M(m,k+1)$; this is erdosproblems.com's affirmative answer.
 - [[../wiki/problems/integer_sequences/E0677/_index|Problem 677]]: the same-$k$ equation
   $M(n,k)=M(m,k)$ is not treated in the paper; the theorem is adjacent
   context only.

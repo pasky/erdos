@@ -22,8 +22,8 @@ Here $r(G;k)$ is the least $r$ such that every partition of the edges of
 $K_r$ into $k$ classes has a class containing a copy of $G$ (p. 515); it is
 the $R_k(G)$ of the problem pages. Since the lower bound is proved by a
 coloring of $K_{2^kn}$ with no monochromatic $C_{2n+1}$, it reads
-$R_k(C_{2n+1})\ge n2^k+1$, the form the site quotes. With the cycle length
-written $m=2n+1$ this is $2^{k-1}(m-1)+1$, the form in which Bondy and
+$R_k(C_{2n+1})\ge n2^k+1$, the form erdosproblems.com quotes. With the cycle
+length written $m=2n+1$ this is $2^{k-1}(m-1)+1$, the form in which Bondy and
 Erdős state the same bound (their p. 53) and in which Jenssen and Skokan
 restate it (their display (1.1)); the three forms agree.
 

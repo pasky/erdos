@@ -48,21 +48,21 @@ DOI 10.1006/jcta.1999.2972 (Crossref record accessed 2026-10-07; issued
 November 1999, whose nominal first day is this page's date). The paper is
 not held here, and its statement is known through the signed zbMATH review
 (Zbl 0934.05090, accessed 2026-10-07), which states it in
-the form above, and through the site's commentary, which states it with
-$O_c(\log n)$ vertices for every $c>0$. The step from universality to the
+the form above, and through the erdosproblems.com commentary, which states it
+with $O_c(\log n)$ vertices for every $c>0$. The step from universality to the
 question is an authored deduction made here: take $c_1=10$ and let
 $m=\lfloor c_2\log_2 n\rfloor$; for $n$ large enough that $m\ge4$, the
 cycle $C_m$ is a regular graph on $m$ vertices that is neither complete nor
 empty, so a graph with no trivial subgraph on $10\log n$ vertices contains
 an induced non-trivial regular subgraph on $m\gg\log n$ vertices. The base
-of the logarithm changes $c_1$ and $c_2$ by constant factors only, and the
-site's $\gg\log n$ is read, as its notation implies, for all sufficiently
-large $n$: for small $n$ the hypothesis holds for every graph, the empty
-graph included, since $10\log n\ge n$ there, while the conclusion fails for
-the empty graph, which has no non-trivial induced subgraph at all.
-The site's remark that Ramsey's theorem gives every graph a trivial subgraph
-on $\gg\log n$ vertices explains why the hypothesis is the natural scale.
-Erdős stated the question with Fajtlowicz and Staton in [Er93], p. 340,
+of the logarithm changes $c_1$ and $c_2$ by constant factors only, and
+erdosproblems.com's $\gg\log n$ is read, as its notation implies, for all
+sufficiently large $n$: for small $n$ the hypothesis holds for every graph, the
+empty graph included, since $10\log n\ge n$ there, while the conclusion fails
+for the empty graph, which has no non-trivial induced subgraph at all. The
+erdosproblems.com remark that Ramsey's theorem gives every graph a trivial
+subgraph on $\gg\log n$ vertices explains why the hypothesis is the natural
+scale. Erdős stated the question with Fajtlowicz and Staton in [Er93], p. 340,
 quoted on the problem page
 ([[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|card]]),
 without proof or reference.
@@ -89,12 +89,12 @@ its axioms. The development is therefore a link on this page, and
 **Acceptance.** The `refereed` evidence is the publication in the Journal of
 Combinatorial Theory, Series A, cited with its venue above.
 
-The `reviewed` evidence is the site's documented acceptance. The site's curator,
-Thomas Bloom, who took no part in the paper, labeled the problem PROVED and
-credits Prömel and Rödl [PrRo99] with the proof in the commentary. The
-commentary was revised after the forum comment of 13 September 2025 pointed to
-the paper, which Bloom acknowledged the same day. The proof-claim tab is empty,
-and the community database records the problem proved.
+The `reviewed` evidence is erdosproblems.com's documented acceptance. The
+erdosproblems.com curator, Thomas Bloom, who took no part in the paper, labeled
+the problem PROVED and credits Prömel and Rödl [PrRo99] with the proof in the
+commentary. The commentary was revised after the forum comment of 13 September
+2025 pointed to the paper, which Bloom acknowledged the same day. The
+proof-claim tab is empty, and the community database records the problem proved.
 
 The signed zbMATH review (Zbl 0934.05090, by R. J. Faudree) restates the theorem
 as proved. It is a second pointer, carried as the `record` link, and does not

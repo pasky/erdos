@@ -196,7 +196,7 @@ function; the abstract alone was checked, and it supplies neither a
 strengthening nor a proof of #571 here.
 
 The other historical ranges retained on #571 have their existing source
-digests and the site's citations. Their complete proofs, the original
+digests and the erdosproblems.com citations. Their complete proofs, the original
 Erdős problem passages, and exhaustive priority comparisons remain
 uncompiled by this source unit. Historical descriptions of #571 as open,
 or of a range as the frontier, are source-date claims; current status is

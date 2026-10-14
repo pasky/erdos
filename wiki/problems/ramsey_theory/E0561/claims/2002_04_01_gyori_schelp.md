@@ -62,8 +62,9 @@ alone.
 graphs with bounded degree in both colors, Discrete Math. 249 (2002), no. 1--3,
 105--110 (received 29 June 1999, accepted 26 March 2001). The Crossref record
 dates the issue April 2002, the month this page is dated by. The day is a
-placeholder. The site's commentary credits the condition to this paper. But the
-site labeled the problem OPEN, so its pages are not acceptance.
+placeholder. The erdosproblems.com commentary credits the condition to this
+paper. But Bloom's catalog labeled the problem OPEN, so its pages are not
+acceptance.
 
 **Read depth.** The statement, its announcement on p. 106 and the proof of
 Theorem 2 were read and the proof's reduction followed; the proof of

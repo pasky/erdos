@@ -218,12 +218,12 @@ unnumbered bound on
 (with $a_n\le N$ for $A\subseteq\{1,\ldots,N\}$), and its asymptotic form
 $(\sqrt{2/\pi}-o(1))\,n^{-1/2}2^n$ is
 [[additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/theorem_1|Theorem 1]];
-the site lists the paper as [DFX21]. The page's status, disproved, rests on
-the 2026 construction filed separately, not on this source. Both statements
-are claims checked against the arXiv v2 only; the proofs are not verified
-here. [[../wiki/problems/number_theory/E0963/_index|#963]]: the upper bound for the interval
-competitor $d([N])$ derived above, which constrains one admissible
-competitor and does not bound $f(N)$ from below.
+erdosproblems.com lists the paper as [DFX21]. The page's status, disproved,
+rests on the 2026 construction filed separately, not on this source. Both
+statements are claims checked against the arXiv v2 only; the proofs are not
+verified here. [[../wiki/problems/number_theory/E0963/_index|#963]]: the upper
+bound for the interval competitor $d([N])$ derived above, which constrains one
+admissible competitor and does not bound $f(N)$ from below.
 
 **Results.**
 

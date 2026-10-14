@@ -35,7 +35,7 @@ theorem is for: every $G(n,m)$ with $m\ge t_r(n)$ contains an $r$-clique $R$
 with $\sum_{i\in R}d(i)\ge2rm/n$ (display (13)), which "is trivial for
 regular graphs" (every vertex then has degree $2m/n$, and Theorem 1(i) gives
 an $r$-clique) and holds with strict inequality otherwise by this theorem.
-In the catalog's notation, with $x_1,\dots,x_r$ the clique,
+In the erdosproblems.com notation, with $x_1,\dots,x_r$ the clique,
 $d(x_1)+\dots+d(x_r)\ge2rm/n$ whenever $m\ge t_r(n)$: the statement of
 Problem 904, proved for every $n\ge r$.
 
@@ -73,5 +73,5 @@ inequalities (3) and (4) of Section 1.1.
 
 - [[../wiki/problems/extremal_graph_theory/E0904/_index|Problem 904]]: the status-defining
   theorem, with the trivial regular case, for every $r\ge2$, $n\ge r$ and
-  $m\ge t_r(n)$; the site's "The full conjecture was proved by Bollobás and
-  Nikiforov".
+  $m\ge t_r(n)$; erdosproblems.com's "The full conjecture was proved by Bollobás
+  and Nikiforov".

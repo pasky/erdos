@@ -60,13 +60,13 @@ determining the constant.
 
 **Standing.** Claimed. The claimant is Donald Della Pietra, whose repository
 announces the bound beside the lower bound of the claimant's partial proof
-claim filed on the site's proof-claim tab the same day; the tab's claim and its
-summary state the lower bound only, and no manuscript states the upper bound:
-its write-up is a section of the README, with the C++ certificate at $M=5040$
-(exact integer arithmetic, no floating point; transcripts in the repository's
-supplement folder) as its certificate. The README says that both bounds are
-unrefereed and audited only on the author's side, and that AI systems provided
-substantial assistance with literature search, adversarial proof audit,
+claim filed on the erdosproblems.com proof-claim tab the same day; the tab's
+claim and its summary state the lower bound only, and no manuscript states the
+upper bound: its write-up is a section of the README, with the C++ certificate
+at $M=5040$ (exact integer arithmetic, no floating point; transcripts in the
+repository's supplement folder) as its certificate. The README says that both
+bounds are unrefereed and audited only on the author's side, and that AI systems
+provided substantial assistance with literature search, adversarial proof audit,
 exploration, parameter search, the certificates, the Lean implementation and
 the exposition. The repository's Lean development formalizes the upper bound
 only in part: the $M=60$ divisor-block certificate (block maximum exactly
@@ -76,7 +76,7 @@ prefix summation are not formalized, so there is no Lean theorem of the form
 $f(N)\le(c+o(1))N$, and the formalized block corresponds to the constant
 $145/168\approx0.8631$, not to $15437/19344$. Nothing was built here and no
 `formalized` evidence is listed. The result has no arXiv version, no journal
-record and no independent review; the site's label was OPEN, and its commentary
-(page last edited 16 January 2026, accessed 2026-10-07) records the bound
-$25/28$ of
+record and no independent review; the erdosproblems.com label was OPEN, and its
+commentary (page last edited 16 January 2026, accessed 2026-10-07) records the
+bound $25/28$ of
 [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|van Doorn's claim page]].

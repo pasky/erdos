@@ -31,7 +31,7 @@ $$
 
 for $i=1,2$?
 
-**Formulation.** The site's wording, accessed 2026-09-18
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18
 (page last edited 5 March 2026; source key [ErGr80]). $A$ is a finite set of
 integers at least $2$ with reciprocal sum below $2$, and the question asks
 for a partition of $A$ into two disjoint parts each of whose reciprocal sums
@@ -41,39 +41,38 @@ reciprocal sum exactly $1$. The 1980 monograph (printed p. 41) asks the
 same question for $a_1<a_2<\cdots<a_t$ and adds that it fails when
 repetitions are allowed, with the multiset $2,3,3,5,5,5,5$; its
 wording does not exclude $a_1=1$, but with $1\in A$ no admissible split
-exists, so the site's $A\subset\mathbb N\setminus\{1\}$ makes the exclusion
-explicit.
+exists, so erdosproblems.com's $A\subset\mathbb N\setminus\{1\}$ makes the
+exclusion explicit.
 
-**Status.** Disproved. The site's label was DISPROVED (LEAN), and the answer is
-no. The divisors of $120$ other than $1$ and $120$ have reciprocal sum
-$239/120<2$ and no admissible split. The site attributes this set to Sándor's
-1997 paper. The eleven-element set $\{2,3,4,5,6,7,10,11,13,14,15\}$ of the
-site's commentary (sum $120047/60060$) has no admissible split either. Both are
-finite computations, rechecked here with exact arithmetic. Sándor's paper (J.
-Number Theory 63 (1997), refereed) is not held, so its statements are recorded
-second-hand from the site. The label's Lean qualifier is a catalog label whose
-referent is the formal-conjectures file. That file proves the disproof by a
-`decide +kernel` step on the eleven-element set. Nothing was built here, and no
-local kernel credit is claimed (see Formalization). The accepted claim is
-recorded on
+**Status.** Disproved. The erdosproblems.com label was DISPROVED (LEAN), and the
+answer is no. The divisors of $120$ other than $1$ and $120$ have reciprocal sum
+$239/120<2$ and no admissible split. erdosproblems.com attributes this set to
+Sándor's 1997 paper. The eleven-element set $\{2,3,4,5,6,7,10,11,13,14,15\}$ of
+the erdosproblems.com commentary (sum $120047/60060$) has no admissible split
+either. Both are finite computations, rechecked here with exact arithmetic.
+Sándor's paper (J. Number Theory 63 (1997), refereed) is not held, so its
+statements are recorded second-hand from erdosproblems.com. The label's Lean
+qualifier is a catalog label whose referent is the formal-conjectures file. That
+file proves the disproof by a `decide +kernel` step on the eleven-element set.
+Nothing was built here, and no local kernel credit is claimed (see
+Formalization). The accepted claim is recorded on
 [[problems/unit_fractions/E0316/claims/1997_04_01_sandor|Sándor's claim page]].
 
 **Source.** [erdosproblems.com/316](https://www.erdosproblems.com/316),
 accessed 2026-09-18: the problem page
-(DISPROVED (LEAN), with the site's banner saying the question is answered
-in the negative and the proof verified in Lean; source key [ErGr80]; last
-edited 05 March 2026), its
-one-comment discussion thread (3 March 2026) and its empty proof-claim tab.
-The site cites [Sa97] in its commentary and thanks Tom Stobart. Cite as:
-T. F. Bloom, Erdős Problem #316, https://www.erdosproblems.com/316,
-accessed 2026-09-18.
+(DISPROVED (LEAN), with the erdosproblems.com banner saying the question is
+answered in the negative and the proof verified in Lean; source key [ErGr80];
+last edited 05 March 2026), its one-comment discussion thread (3 March 2026) and
+its empty proof-claim tab. erdosproblems.com cites [Sa97] in its commentary and
+thanks Tom Stobart. Cite as: T. F. Bloom, Erdős Problem #316,
+https://www.erdosproblems.com/316, accessed 2026-09-18.
 
 **References.**
 
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
-  28, Université de Genève (1980), printed p. 41 (the site gives no page;
-  the thread's comment of 3 March 2026 does). Library home:
+  28, Université de Genève (1980), printed p. 41 (erdosproblems.com gives no
+  page; the thread's comment of 3 March 2026 does). Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Sa97] Sándor, Csaba, On a problem of Erdős. J. Number Theory 63 (1997),
   no. 2, 203--210, DOI 10.1006/jnth.1997.2113. Not held; the Crossref record
@@ -108,21 +107,21 @@ set. Nothing was built or checked here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-DISPROVED (LEAN); last edited 5 March 2026. The commentary makes three points:
-the multiset $2,3,3,5,5,5,5$ already fails the conclusion when repetitions are
-allowed; the answer is no for sets as well, which the site credits to Sándor
-[Sa97] with the proper divisors of $120$, the divisors other than $1$ and
-$120$, as the counterexample, together with the general theorem that for every
-$n\ge2$ a finite set $A\subseteq\mathbb N\setminus\{1\}$ exists with
-reciprocal sum below $n$ and no partition into $n$ parts of reciprocal sum
-below $1$; and the eleven-element set $\{2,3,4,5,6,7,10,11,13,14,15\}$,
-credited to Tom Stobart, is described as the minimal counterexample. The one
-comment (3 March 2026) says that the result of [Sa97] was improved by Chen
-[Ch06] and then by Fang and Chen [FaCh08], and locates the problem at [ErGr80,
-p. 41]. The proof-claim tab is empty. The community database record: disproved
-(Lean) as of its last update on 2 September 2025, statement formalized, no
-OEIS entry.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED (LEAN); last edited 5 March 2026. The commentary makes three
+points: the multiset $2,3,3,5,5,5,5$ already fails the conclusion when
+repetitions are allowed; the answer is no for sets as well, which
+erdosproblems.com credits to Sándor [Sa97] with the proper divisors of $120$,
+the divisors other than $1$ and $120$, as the counterexample, together with the
+general theorem that for every $n\ge2$ a finite set
+$A\subseteq\mathbb N\setminus\{1\}$ exists with reciprocal sum below $n$ and no
+partition into $n$ parts of reciprocal sum below $1$; and the eleven-element set
+$\{2,3,4,5,6,7,10,11,13,14,15\}$, credited to Tom Stobart, is described as the
+minimal counterexample. The one comment (3 March 2026) says that the result of
+[Sa97] was improved by Chen [Ch06] and then by Fang and Chen [FaCh08], and
+locates the problem at [ErGr80, p. 41]. The proof-claim tab is empty. The
+community database record: disproved (Lean) as of its last update on 2 September
+2025, statement formalized, no OEIS entry.
 
 **Origin.** Printed p. 41 of the 1980 monograph: "Is it true that if
 $a_1<a_2<\cdots<a_t$ and $\sum_{k=1}^t\frac1{a_k}<2$ then there exist
@@ -141,38 +140,38 @@ concern it.
 **The disproof (finite checks, recomputed here).** Write
 $\sigma(B)=\sum_{n\in B}1/n$.
 
-- Sándor's set as the site describes it:
+- Sándor's set as erdosproblems.com describes it:
   $D=\{2,3,4,5,6,8,10,12,15,20,24,30,40,60\}$, the divisors of $120$ other
-  than $1$ and $120$ (the site's term is proper divisors). Then
+  than $1$ and $120$ (erdosproblems.com's term is proper divisors). Then
   $\sigma(D)=(360-1-120)/120=239/120<2$, and an exhaustive check of the
   $2^{14}$ subsets $B\subseteq D$ finds none with $\sigma(B)<1$ and
   $\sigma(D\setminus B)<1$. So $D$ answers the question in the negative. The
   check was run here with exact rational arithmetic.
-- The site's eleven-element set $E=\{2,3,4,5,6,7,10,11,13,14,15\}$:
+- erdosproblems.com's eleven-element set $E=\{2,3,4,5,6,7,10,11,13,14,15\}$:
   $\sigma(E)=120047/60060<2$, and none of its $2^{11}$ subsets gives an
-  admissible split (same check). The site describes it as the minimal
+  admissible split (same check). erdosproblems.com describes it as the minimal
   counterexample.
 - Both $D$ and $E$ split into two parts with sums at most $1$: $\{2,3,6\}$
   has sum exactly $1$ and the rest has sum below $1$. The strict inequality
   in the question is therefore essential.
-- The monograph's and the site's multiset $2,3,3,5,5,5,5$: total $59/30<2$,
-  and no split of the seven terms gives two sums below $1$ (checked here).
+- The monograph's and erdosproblems.com's multiset $2,3,3,5,5,5,5$: total
+  $59/30<2$, and no split of the seven terms gives two sums below $1$ (checked
+  here).
 
 These are author-recorded finite checks; the two implementations agree, no
 one else has reviewed them, and the `decide +kernel` step on $E$ in the
 formal-conjectures file was not rebuilt here.
 
 **What is second-hand.** Sándor's paper is not held: its counterexample is
-taken from the site and confirmed by the computation above, and its general
-theorem (that for every $n\ge2$ some finite set $A$ has $\sigma(A)<n$ yet
-admits no partition into $n$ parts of sum below $1$) is recorded as the
-site's statement. Stobart's eleven-element set is recorded on Sándor's claim
-page and has no claim page of its own, because it appears only in the
-undated commentary.
-Chen [Ch06] and Fang--Chen [FaCh08] are the thread's leads; neither is
-held.
+taken from erdosproblems.com and confirmed by the computation above, and its
+general theorem (that for every $n\ge2$ some finite set $A$ has $\sigma(A)<n$
+yet admits no partition into $n$ parts of sum below $1$) is recorded as the
+erdosproblems.com statement. Stobart's eleven-element set is recorded on
+Sándor's claim page and has no claim page of its own, because it appears only in
+the undated commentary. Chen [Ch06] and Fang--Chen [FaCh08] are the thread's
+leads; neither is held.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
 pinned commit; Crossref records for [Sa97], [Ch06] and [FaCh08]
 (DOI lookup and bibliographic queries); an arXiv API search for
@@ -197,9 +196,11 @@ disproof itself is complete as a finite check and has no proof to compile.
 - Sándor (1997, not held): the divisors of $120$ other than $1$ and $120$
   answer the question in the negative (checked here: sum $239/120$, no
   admissible split); for every $n\ge2$ a finite set with reciprocal sum below
-  $n$ and no partition into $n$ parts of sum below $1$ (site commentary).
-- Stobart (site commentary, undated): the eleven-element counterexample
-  $\{2,3,4,5,6,7,10,11,13,14,15\}$ (checked here; sum $120047/60060$).
+  $n$ and no partition into $n$ parts of sum below $1$ (erdosproblems.com
+  commentary).
+- Stobart (erdosproblems.com commentary, undated): the eleven-element
+  counterexample $\{2,3,4,5,6,7,10,11,13,14,15\}$ (checked here; sum
+  $120047/60060$).
 - Chen (2006) and Fang--Chen (2008): improvements named in the thread;
   unread.
 - Formalization: the formal-conjectures file proves the disproof by a

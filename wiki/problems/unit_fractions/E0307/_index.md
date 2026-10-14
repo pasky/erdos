@@ -27,7 +27,7 @@ $$
 1=\left(\sum_{p\in P}\frac{1}{p}\right)\left(\sum_{q\in Q}\frac{1}{q}\right)?
 $$
 
-**Formulation.** The site's wording on 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (the page shows no
 last-edited date). Both sets must be nonempty for the product to be $1$. For a
 finite set $P$ of primes the sum $\sum_{p\in P}1/p$ equals $N(P)/\prod P$ with
 $N(P)=\sum_{p\in P}\prod P/p$, and $N(P)$ is coprime to $\prod P$ (modulo each
@@ -35,27 +35,27 @@ $p\in P$ every term of $N(P)$ but $\prod P/p$ vanishes), so the fraction is in
 lowest terms and is never an integer; hence, if the product is $1$, then
 $N(P)N(Q)=\prod P\prod Q$ forces $N(P)=\prod Q$ and $N(Q)=\prod P$, and a
 common prime of $P$ and $Q$ would divide $N(P)$ and $\prod P$ at once, which
-is impossible: the sets are disjoint, as the site says and as Robert Israel
-observed in a comment on [MO19] on 14 January 2019 (the $p$-adic order of
+is impossible: the sets are disjoint, as erdosproblems.com says and as Robert
+Israel observed in a comment on [MO19] on 14 January 2019 (the $p$-adic order of
 $\sum_{p\in P}1/p$ is $-1$ for each $p\in P$, so a shared prime would give the
 product order $-2$). For the two-cycles of the arithmetic derivative that
 solutions give (see the Current assessment), Ufnarovski and Åhlander (J.
 Integer Seq. 6 (2003)) proved that both members are squarefree with disjoint
-supports, as [Ko12] and [Bo26] report. The site's weakened version drops
-primality and asks only that the elements of $P$ be pairwise coprime and
-likewise for $Q$; it has solutions when $1$ is allowed as an element, and the
-site records none with $1\notin P\cup Q$. Expanding the product, a solution of
-the problem would give $1=\sum_{p\in P,q\in Q}1/(pq)$, a representation of $1$
-by reciprocals of distinct semiprimes, which is the case $a/b=1$ of
-[[problems/unit_fractions/E0306/_index|Problem 306]] in a very special shape;
-that problem's representations do not conversely factor.
+supports, as [Ko12] and [Bo26] report. erdosproblems.com's weakened version
+drops primality and asks only that the elements of $P$ be pairwise coprime and
+likewise for $Q$; it has solutions when $1$ is allowed as an element, and
+erdosproblems.com records none with $1\notin P\cup Q$. Expanding the product, a
+solution of the problem would give $1=\sum_{p\in P,q\in Q}1/(pq)$, a
+representation of $1$ by reciprocals of distinct semiprimes, which is the case
+$a/b=1$ of [[problems/unit_fractions/E0306/_index|Problem 306]] in a very
+special shape; that problem's representations do not conversely factor.
 
-**Status.** Verifiable, the site's label for this open question. The site
-explains that the problem is open but a finite example could prove it, since one
-pair $(P,Q)$ would witness a positive answer and exact arithmetic could check
-it. The label does not mean that such a pair has been found. The standing
-derived from the claim pages is open, claim none. Both claim pages are partial
-claims giving necessary conditions on a solution:
+**Status.** Verifiable, the erdosproblems.com label for this open question.
+erdosproblems.com explains that the problem is open but a finite example could
+prove it, since one pair $(P,Q)$ would witness a positive answer and exact
+arithmetic could check it. The label does not mean that such a pair has been
+found. The standing derived from the claim pages is open, claim none. Both claim
+pages are partial claims giving necessary conditions on a solution:
 [[problems/unit_fractions/E0307/claims/2012_03_25_kovic|Kovič's conditions on two-cycles]]
 (accepted, refereed) and
 [[problems/unit_fractions/E0307/claims/2026_06_13_bonfioli|Bonfioli's barrier of sixty primes]]
@@ -74,8 +74,8 @@ bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/307](https://www.erdosproblems.com/307), accessed
 2026-09-18: the problem page (VERIFIABLE, explained by
-the site as open but provable by a finite example; source key [ErGr80]; no
-last-edited date shown; additional thanks to Stijn Cambie), its discussion
+erdosproblems.com as open but provable by a finite example; source key [ErGr80];
+no last-edited date shown; additional thanks to Stijn Cambie), its discussion
 thread (6 comments, 9 August 2025 to 30 May 2026, one of them deleted) and its
 empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #307,
 https://www.erdosproblems.com/307, accessed 2026-09-18.
@@ -84,13 +84,13 @@ https://www.erdosproblems.com/307, accessed 2026-09-18.
 
 - [Ba76] Barbeau, E. J., Computer challenge corner: Problem 477: A brute
   force program. J. Rec. Math. 9 (1976/77), p. 30, as the bibliography of
-  [ErGr80] gives it under [Bar (76)]; the site gives the year 1976, and the
-  unrefereed manuscript [Bo26] reports the same volume and page. No open
+  [ErGr80] gives it under [Bar (76)]; erdosproblems.com gives the year 1976, and
+  the unrefereed manuscript [Bo26] reports the same volume and page. No open
   archive copy was found, and the question is quoted second-hand from
   [ErGr80] and stated first-hand in [Ba77].
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
-  28, Université de Genève (1980), p. 38 (the site gives no page).
+  28, Université de Genève (1980), p. 38 (erdosproblems.com gives no page).
   Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Ba77] Barbeau, E. J., Expressing one as a sum of distinct reciprocals:
@@ -154,10 +154,10 @@ since 31 August 2025, no formal proof and no OEIS entry.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-VERIFIABLE. The commentary attributes the question to Barbeau [Ba76] and asks
-whether it can be answered once primality is dropped and the elements of $P$,
-and those of $Q$, are only required to be pairwise coprime; it reports that
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; VERIFIABLE. The commentary attributes the question to Barbeau [Ba76] and
+asks whether it can be answered once primality is dropped and the elements of
+$P$, and those of $Q$, are only required to be pairwise coprime; it reports that
 Cambie has found several examples of that weakened version, among them
 $1=(1+\frac15)(\frac12+\frac13)$ and
 $1=(1+\frac1{41})(\frac12+\frac13+\frac17)$, that no example of the weakened
@@ -188,13 +188,13 @@ later one, the monograph says, citing Barbeau [Bar (76)], that "it is not
 known if $1$ can be expressed as the product of two sums of the form
 $\frac1{q_1}+\ldots+\frac1{q_k}$ where the $q_i$ are distinct primes.
 Perhaps this can be done if the $q_i$ are just assumed to be pairwise
-relatively prime." The site's weakened version is the monograph's
-suggestion; Cambie's examples answer it when $1$ is admitted, and the site
-records no example without $1$. Barbeau's own article of 1977 [Ba77]
-(p. 178) poses the question from the arithmetic derivative $D$: an integer
-$n$ with $D(D(n))=n\ne D(n)$ would give $1=(\sum_i1/p_i)(\sum_j1/q_j)$ for
-two sets of distinct primes, and the author writes of not knowing whether such a
-representation exists; Barbeau's 101-term example of $1$ follows as the
+relatively prime." erdosproblems.com's weakened version is the monograph's
+suggestion; Cambie's examples answer it when $1$ is admitted, and
+erdosproblems.com records no example without $1$. Barbeau's own article of 1977
+[Ba77] (p. 178) poses the question from the arithmetic derivative $D$: an
+integer $n$ with $D(D(n))=n\ne D(n)$ would give $1=(\sum_i1/p_i)(\sum_j1/q_j)$
+for two sets of distinct primes, and the author writes of not knowing whether
+such a representation exists; Barbeau's 101-term example of $1$ follows as the
 representation such a product would in particular give. The MathOverflow
 answer of 19 August 2019 points to the same monograph page, gives Barbeau's
 1976 and 1977 references and lists Johnson's 48 two-prime denominators for
@@ -210,7 +210,7 @@ finite check on this page, with the public source that states it.
   disjointness lemma the Israel mechanism). Neither sum is
   $1$, since $\sum_{p\in P}1/p=N(P)/\prod P$ is in lowest terms with
   $\prod P>1$; so with $s=\sum_P1/p$ and $t=\sum_Q1/q$, $st=1$ and $s\ne1$
-  give $s+t>2$ strictly, that is, $\sum_{p\in P\cup Q}1/p>2$ (the site
+  give $s+t>2$ strictly, that is, $\sum_{p\in P\cup Q}1/p>2$ (erdosproblems.com
   writes $\ge2$).
 - *At least $59$ primes.* Julian Rosen's comment on [MO19] of 15 January
   2019: two numbers with product $1$ sum to at least $2$, and the
@@ -219,7 +219,7 @@ finite check on this page, with the public source that states it.
   first $58$ primes have reciprocal sum $1.99874\ldots<2$ and the first $59$
   (up to $277$) have $2.00235\ldots>2$ (exact rational arithmetic). So
   $|P\cup Q|\ge59$, which [Bo26] calls Rosen's bound (p. 2) and proves as
-  its Lemma 4.2, titled after Rosen (p. 6). The site's conclusion that
+  its Lemma 4.2, titled after Rosen (p. 6). erdosproblems.com's conclusion that
   $|P\cup Q|\ge60$ does not follow from the displayed mass condition alone:
   $59$ primes can carry mass above $2$, so excluding $59$-element supports
   needs a further argument; [Bo26] says the same (p. 2) and supplies one by
@@ -234,9 +234,10 @@ finite check on this page, with the public source that states it.
   representations of $1$ by semiprime reciprocals do not have this product
   shape, and Problem 306's statement, even if true, would not produce one.
 
-**Verifiability.** The site's label is a body note on this page, not a claim: one
-pair $(P,Q)$ would settle the question affirmatively by exact arithmetic,
-and no such pair is known; no finite computation can settle it negatively.
+**Verifiability.** The erdosproblems.com label is a body note on this page, not
+a claim: one pair $(P,Q)$ would settle the question affirmatively by exact
+arithmetic, and no such pair is known; no finite computation can settle it
+negatively.
 
 **The pending partial claim and its formal pointers.** The manuscript [Bo26]
 has the claim page
@@ -278,7 +279,7 @@ which this page records only through that report.
 **Search scope.** The status rests on these routes; none found an example,
 a proof of nonexistence or a proof claim.
 
-- The site: problem page, discussion thread, empty proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread, empty proof-claim tab; the
   community database record; formal-conjectures `307.lean` at the pinned
   commit, with the GitHub API for the repository and the two commits its
   attributes name.
@@ -301,7 +302,7 @@ the Lean files of [Bo26].
 
 **Remaining gaps.** (1) Barbeau's 1976 posing [Ba76] is known second-hand
 (the monograph and [MO19]); the 1977 article [Ba77] states the question
-first-hand. (2) The site's bound $60$ rests,
+first-hand. (2) erdosproblems.com's bound $60$ rests,
 beyond the elementary $59$, on an unrefereed finite verification; the
 commentary's inference overstates what the displayed inequality gives. (3)
 The manuscript's barrier and its formal pointers are recorded only at the

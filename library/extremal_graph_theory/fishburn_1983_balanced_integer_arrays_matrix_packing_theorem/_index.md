@@ -185,16 +185,16 @@ recorded below. Nothing here is independently reviewed.
   trailing 0 moved to the front.
 - Translation to the problem's wording. The note states the graph
   conjecture for trees on $2,\ldots,n+1$ vertices and the complete graph on
-  $n+1$ vertices; the site's Problem 743 packs $T_2,\ldots,T_n$ into $K_n$,
-  so the site's $n$ is the note's $n+1$. In the site's indexing, Graham's
-  observation is that a packing of $T_2,\ldots,T_n$ into $K_n$ would give,
-  at each vertex, degrees in the trees containing it summing to $n-1$, so
-  the degree sequences of $T_2,\ldots,T_n$ would fill the rows of an
-  $(n-1)\times n$ matrix with every column sum $n-1$; Proposition 1 at the
-  note's $n-1$ shows that this matrix always exists, whatever the trees. The
-  condition is necessary for the conjecture and the note proves it holds;
-  the note does not claim, and Proposition 1 does not give, a packing of the
-  trees themselves for any $n$.
+  $n+1$ vertices; erdosproblems.com's Problem 743 packs $T_2,\ldots,T_n$ into
+  $K_n$, so erdosproblems.com's $n$ is the note's $n+1$. In the
+  erdosproblems.com indexing, Graham's observation is that a packing of
+  $T_2,\ldots,T_n$ into $K_n$ would give, at each vertex, degrees in the trees
+  containing it summing to $n-1$, so the degree sequences of $T_2,\ldots,T_n$
+  would fill the rows of an $(n-1)\times n$ matrix with every column sum $n-1$;
+  Proposition 1 at the note's $n-1$ shows that this matrix always exists,
+  whatever the trees. The condition is necessary for the conjecture and the note
+  proves it holds; the note does not claim, and Proposition 1 does not give, a
+  packing of the trees themselves for any $n$.
 
 ## Compiled scope
 
@@ -216,8 +216,8 @@ observation (printed p. 99) and the note's remark after it that $t^i$ is
 the degree sequence of a tree on $i+1$ vertices less one of its $1$'s, so
 that the packing Graham's remark requires exists: the degree sequences of
 any trees on $2,\ldots,n+1$ vertices pack into the degree sequence of
-$K_{n+1}$, a fact the Joos, Kim, Kühn and Osthus paper also states. The
-site
+$K_{n+1}$, a fact the Joos, Kim, Kühn and Osthus paper also states.
+erdosproblems.com
 cites this note for the verification of the tree packing conjecture for
 $n\le9$; the note, read in full on the page images, states no such result
 and no result on the conjecture itself, only the degree-sequence packing

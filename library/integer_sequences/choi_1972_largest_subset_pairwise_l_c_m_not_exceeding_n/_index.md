@@ -192,16 +192,16 @@ the sieve computations proving them were not checked. Nothing here is
 independently reviewed.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0441/_index|#441]]: the Theorem
-(p. 221) is the improvement of Erdős's $g(n)\le2n^{1/2}$ that the site's
-commentary attributes to the paper and that [Ch98], Guy's B26 and the OEIS
-entry quote as $1.638\sqrt n$: in the problem's notation,
+(p. 221) is the improvement of Erdős's $g(n)\le2n^{1/2}$ that the
+erdosproblems.com commentary attributes to the paper and that [Ch98], Guy's B26
+and the OEIS entry quote as $1.638\sqrt n$: in the problem's notation,
 $g(N)<(1+\lambda-\lambda^*)N^{1/2}+o(N^{1/2})$ with the constant printed as
 lying between $1.6368$ and $1.6380$ (the quotations drop the $o(N^{1/2})$
 term). The estimate (6) (p. 222), $g(N)<(1+\lambda)N^{1/2}+o(N^{1/2})$
 with $\lambda<0.87$, has a half-page
 proof followed here and implies the bound $g(N)\le(4N)^{1/2}$ for large $N$
-that the site attributes to Erdős's 1951 problem; the paper itself (p. 221)
-attributes $g(n)\le2n^{1/2}$ to Problem 12 of Erdős's Monographies de
+that erdosproblems.com attributes to Erdős's 1951 problem; the paper itself
+(p. 221) attributes $g(n)\le2n^{1/2}$ to Problem 12 of Erdős's Monographies de
 l'Enseignement Mathématique No. 6. The paper restates Erdős's conjecture
 (p. 221) and does not address whether the construction is optimal, so it
 leaves the problem's status untouched.

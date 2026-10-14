@@ -29,7 +29,7 @@ BAKKAOUI, posts 8701 and 8709, 3 September 2026, in the
 The [saved source excerpt](bakkaoui_2026_dissociated_interval_counterexample.md)
 retains both posts, the author's correction, and the disclosure of
 AI-assisted searches and literature checking. It was read from the pinned
-saved thread, not the live site.
+saved thread, not the live erdosproblems.com.
 
 The source gives a concrete set A* of 13 positive integers and reports that
 its largest dissociated subset has size four, compared with five for [13].

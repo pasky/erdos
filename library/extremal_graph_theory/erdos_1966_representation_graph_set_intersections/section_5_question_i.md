@@ -54,4 +54,4 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1017/_index|Problem 1017]]: the first printed
-  form of the question, one of the site's two sources.
+  form of the question, one of erdosproblems.com's two sources.

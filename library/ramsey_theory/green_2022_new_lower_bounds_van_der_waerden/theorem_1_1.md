@@ -16,8 +16,8 @@ updated: 2026-10-08T03:52:50Z
 Convention (p. 2): for $k\ge3$, $w(3,k)$ is the smallest $N$ such that
 however $[N]=\{1,\ldots,N\}$ is colored blue and red, there is a blue
 3-term arithmetic progression or a red $k$-term arithmetic progression.
-(The site's Problem 721 writes the same number with the colors exchanged:
-a red 3-term or a blue $k$-term progression.)
+(erdosproblems.com's Problem 721 writes the same number with the colors
+exchanged: a red 3-term or a blue $k$-term progression.)
 
 **Theorem 1.1** (p. 2). "There is a blue-red colouring of $[N]$ with no
 blue 3-term progression and no red progression of length
@@ -30,10 +30,10 @@ red/blue colouring of $[N]$ with no blue 3-term progression and no red
 progression of length $N^{1/r}$." Taking $r=c(\log N/\log\log N)^{1/4}$
 recovers Theorem 1.1 (p. 5).
 
-Since $k^{b(k)}=\exp(b(k)\log k)$, the bound is $w(3,k)\ge\exp\bigl(c(\log
-k)^{4/3}/(\log\log k)^{1/3}\bigr)$, the form the site prints. The paper's
-"Update, June 2022" (p. 2) records that Hunter improved the exponent to
-$b'(k)=c\log k/\log\log k$
+Since $k^{b(k)}=\exp(b(k)\log k)$, the bound is
+$w(3,k)\ge\exp\bigl(c(\log k)^{4/3}/(\log\log k)^{1/3}\bigr)$, the form
+erdosproblems.com prints. The paper's "Update, June 2022" (p. 2) records that
+Hunter improved the exponent to $b'(k)=c\log k/\log\log k$
 ([[ramsey_theory/hunter_2022_improved_lower_bounds_van_der_waerden/theorem_1|result
 page]]). The introduction (p. 2) records the earlier lower bounds $w(3,k)\gg
 k^{2-1/\log\log k}$ (Brown, Landman and Robertson) and $w(3,k)\gg(k/\log k)^2$
@@ -77,4 +77,4 @@ black box in the statement.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0721/_index|Problem 721]]: the "non-trivial lower
-  bounds" challenge; the site's first displayed lower bound.
+  bounds" challenge; erdosproblems.com's first displayed lower bound.

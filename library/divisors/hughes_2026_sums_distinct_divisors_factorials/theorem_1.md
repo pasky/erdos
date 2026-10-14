@@ -77,4 +77,4 @@ asymptotic $\sum_{j\le n}1/\log j\sim n/\log n$.
 
 - [[../wiki/problems/divisors/E0018/_index|Problem 18]]: the best explicit bound on $h(n!)$
   by the elementary greedy route; far from $(\log n)^{O(1)}$, and superseded
-  as a bound by the site-accepted proof of $h(n!)<n^{o(1)}$.
+  as a bound by the Conjectures.io-accepted proof of $h(n!)<n^{o(1)}$.

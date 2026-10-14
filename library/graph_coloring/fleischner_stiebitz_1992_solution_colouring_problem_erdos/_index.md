@@ -216,11 +216,11 @@ Nothing here is independently reviewed.
 p. 39, PDF p. 1; quoted under § 1 above), that a 4-regular graph on $3n$
 vertices decomposing into a Hamiltonian circuit and $n$ pairwise
 vertex-disjoint triangles has $\chi(G)=3$, is the
-affirmative answer the site attributes to the paper: the problem's graph, $n$
-vertex-disjoint triangles plus a Hamiltonian cycle whose edges are all new, is
-4-regular and decomposes as the theorem assumes (the paper admits multiple
-edges, so the case $n=1$, where the cycle doubles the triangle's edges, is
-included), and the introduction names it "an affirmative solution to a
+affirmative answer erdosproblems.com attributes to the paper: the problem's
+graph, $n$ vertex-disjoint triangles plus a Hamiltonian cycle whose edges are
+all new, is 4-regular and decomposes as the theorem assumes (the paper admits
+multiple edges, so the case $n=1$, where the cycle doubles the triangle's edges,
+is included), and the introduction names it "an affirmative solution to a
 colouring problem posed by P. Erdős" (p. 39). The route is Corollary 1.6
 (p. 42) applied with $k=2$, $p=3n$ to the Eulerian orientation that directs
 the circuit and each triangle, whose $e(D)\equiv2\pmod4$ is Theorem 2.1

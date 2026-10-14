@@ -96,7 +96,8 @@ Pages 1-3 were read on the page images and in the text layer; the proof was
 not read and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1158/_index|#1158]]: for the
-balanced case $r=2$ in the site's letters ($t$ the uniformity), Corollary 1
-gives $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/\lceil(2^t-1)/t\rceil})$, the best
+balanced case $r=2$ in erdosproblems.com's letters ($t$ the uniformity),
+Corollary 1 gives
+$\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/\lceil(2^t-1)/t\rceil})$, the best
 general lower bound this library holds against the asked exponent
 $t-2^{1-t}$; the two agree only for $t=2$.

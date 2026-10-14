@@ -69,10 +69,10 @@ The cited Füredi--Simonovits Theorem 2.32 was not inspected.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0575/_index|Problem 575]]: the site's
-  statement admits this family (both members are bipartite), so the literal
-  question is answered no; the site's own account rests on the no-forest
-  form and its 2026 disproof, recorded on the problem page.
+- [[../wiki/problems/extremal_graph_theory/E0575/_index|Problem 575]]: the
+  erdosproblems.com statement admits this family (both members are bipartite),
+  so the literal question is answered no; erdosproblems.com's own account rests
+  on the no-forest form and its 2026 disproof, recorded on the problem page.
 - [[../wiki/problems/extremal_graph_theory/E0180/_index|Problem 180]]: the problem's
   unrestricted question; the family answers it in the negative, the
   elementary check above making the printed equality precise for $n\ge2$.

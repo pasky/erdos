@@ -2,7 +2,7 @@
 name: problems/factorials_binomials/E0419/claims/1996_01_01_erdos_graham_ivic_pomerance
 title: Erdős, Graham, Ivić and Pomerance, the limit points are 1 and 1+1/m
 desc: |
-  Erdős, Graham, Ivić and Pomerance, credited by the site, prove that
+  Erdős, Graham, Ivić and Pomerance, credited by erdosproblems.com, prove that
   $\tau(n!)/\tau((n-1)!)=1+P(n)/n+O(n^{-1/2})$, with $P(n)$ the largest prime
   factor of $n$. So the limit points of the ratio are exactly $1$ and the
   numbers $1+1/m$.
@@ -62,24 +62,24 @@ which is Corollary 1. Shifting the index by one gives the set above for the
 problem's ratio $\tau((n+1)!)/\tau(n!)$. Erdős and Graham had known that every
 $1+1/m$, and hence $1$, is a limit point, and asked whether there are others.
 
-**The site's argument.** The site's problem page gives an argument, which the
-curator attributes to Mehtaab Sawhney, reaching the same set: factor the ratio
-over the primes dividing $n+1$ as a product of factors $1+v_p(n+1)/(v_p(n!)+1)$;
-the primes up to $n^{2/3}$ together contribute $1+o(1)$, because
-$v_p(n!)\geq\lfloor n/p\rfloor$, so $v_p(n!)+1>n/p$, while $n+1$ has at most
-$\log_2(n+1)$ distinct prime factors, each with exponent
+**erdosproblems.com's argument.** The erdosproblems.com problem page gives an
+argument, which the curator attributes to Mehtaab Sawhney, reaching the same
+set: factor the ratio over the primes dividing $n+1$ as a product of factors
+$1+v_p(n+1)/(v_p(n!)+1)$; the primes up to $n^{2/3}$ together contribute
+$1+o(1)$, because $v_p(n!)\geq\lfloor n/p\rfloor$, so $v_p(n!)+1>n/p$, while
+$n+1$ has at most $\log_2(n+1)$ distinct prime factors, each with exponent
 $v_p(n+1)\leq\log_2(n+1)$, so each such factor is below $1+\log_2(n+1)/n^{1/3}$
 and the product of at most $\log_2(n+1)$ of them is $1+o(1)$; and at most one
 prime factor of $n+1$ exceeds $n^{2/3}$, contributing exactly $1+1/((n+1)/p)$.
-The site's page writes the looser bounds $v_p(n!)\geq n/p$ and
+The erdosproblems.com page writes the looser bounds $v_p(n!)\geq n/p$ and
 $v_p(n+1)<\log n$, which fail for infinitely many $n$:
 $v_p(n!)=\lfloor n/p\rfloor<n/p$ for every prime factor $p>\sqrt n$ of $n+1$
 (for instance $v_3(5!)=1<5/3$), and $v_2(2^m)=m>\log(2^m-1)$ for every $m\ge1$
 (for instance $v_2(1024)=10>\log 1023$); the bounds above are the ones the
 argument needs, and its conclusion stands. The curator records that the same
 argument was already in the paper of 1996, which is why the paper is the
-credited source and this page is dated by it; the site's argument is a remark on
-the problem page, not a dated manuscript, and has no page of its own.
+credited source and this page is dated by it; erdosproblems.com's argument is a
+remark on the problem page, not a dated manuscript, and has no page of its own.
 
 **Formalization.** The Lean file `Erdos419.lean` in Boris Alexeev's repository
 of Lean proofs declares itself a formalization of a solution to the problem,
@@ -95,11 +95,11 @@ statement file for the problem tags `erdos_419` solved and names this file as
 its formal proof. This corpus has not built or audited the file, so the page
 lists no `formalized` evidence.
 
-**Acceptance.** The site's curator, T. F. Bloom, marked the problem solved and
-credits this paper. The page lists this as `reviewed`. The paper is P. Erdős, S.
-W. Graham, A. Ivić and C. Pomerance, On the number of divisors of $n!$, in
-Analytic Number Theory, Birkhäuser Boston (1996), 337--355. It appeared in an
-edited conference volume rather than a journal, so the page lists no `refereed`
-evidence. The page is dated by the publication year alone. The publisher's
-record gives 1996 without a month, so the first day of the year stands in for
-the issue date.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, marked the problem
+solved and credits this paper. The page lists this as `reviewed`. The paper is
+P. Erdős, S. W. Graham, A. Ivić and C. Pomerance, On the number of divisors of
+$n!$, in Analytic Number Theory, Birkhäuser Boston (1996), 337--355. It appeared
+in an edited conference volume rather than a journal, so the page lists no
+`refereed` evidence. The page is dated by the publication year alone. The
+publisher's record gives 1996 without a month, so the first day of the year
+stands in for the issue date.

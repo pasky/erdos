@@ -122,7 +122,8 @@ $A\subseteq\mathbb F_p$ (the problem's $A\hat{+}A$ is the paper's
 $2^\wedge A$; for $|A|\le1$ both sides are trivial), proved here by the
 polynomial method from Theorem 1 and attributed by the paper to Dias da
 Silva and Hamidoune (their Bull. London Math. Soc. paper, which the
-problem's site names as the source of the resolution, is filed as
+problem's erdosproblems.com page names as the source of the resolution, is filed
+as
 [[additive_combinatorics/dias_da_silva_hamidoune_1994_cyclic_spaces_grassmann_derivatives_additive_theory/_index|dias_da_silva_hamidoune_1994_cyclic_spaces_grassmann_derivatives_additive_theory]],
 where its more general theorem on sums of $m$ distinct elements, Theorem
 4.1 (p. 144), was read on the page image).

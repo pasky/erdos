@@ -29,7 +29,7 @@ self-published, 2026. Distributed as
 file, from the Google Drive link (file id `12f4eP2EJQO7tYGHXkFyPjNcjWfkvm1lF`)
 that the erdosproblems.com page attaches to the problem. No journal version
 and no arXiv record were found on 2026-09-27. The attribution to Glazer
-rests on the site's problem text, its proof-claims thread and the
+rests on the erdosproblems.com problem text, its proof-claims thread and the
 repository, not on the PDF. Provenance: fetched from
 <https://raw.githubusercontent.com/elliotglazer/erdos501/main/docs/paper/erdos501_random_profiles_rev10.pdf>;
 the Drive copy has the same size and hash. An earlier draft,
@@ -167,7 +167,7 @@ $$
   4.3; F4 Lemmas 4.1, 4.2 and Proposition 4.4; F5 Lemma 4.5; F6 Theorem
   5.1), only the last three mentioning forcing.
 
-The references are the site's page, Erdős–Hajnal 1960 (filed as
+The references are the erdosproblems.com page, Erdős–Hajnal 1960 (filed as
 [[set_theory/erdos_1960_remarks_set_theory/_index|erdos_1960_remarks_set_theory]]),
 Hechler's Bull. Acad. Polon. Sci. note of 1972, Kunen's handbook chapter on
 random and Cohen reals, Laczkovich–Miller 1996, Lee's note (filed as
@@ -192,7 +192,8 @@ the vendored Flypitch development. Read from the source:
    bounded sets with `volume.toOuterMeasure (A x) < 1` and no infinite
    independent set; a theorem of ZFC at Mathlib level. Its docstring cites
    Hechler to Israel J. Math. 11 (1972), 231–248, a different paper from
-   the Bull. Acad. Polon. Sci. note that the draft, the site and Lee cite.
+   the Bull. Acad. Polon. Sci. note that the draft, erdosproblems.com and Lee
+   cite.
 4. `erdos501_not_refutable`: `¬ (ZFC ⊨ᵇ ∼Erdos501)`.
 5. `erdos501_not_provable`: `¬ (ZFC ⊨ᵇ Erdos501)`.
 6. `erdos501_independent`: the conjunction of 4 and 5.
@@ -232,8 +233,8 @@ GitHub Actions runs (32072935717 on 2026-08-17; 32243311676, 32247636527,
 "success". The community database (teorth/erdosproblems,
 `data/problems.yaml`, read 2026-09-27) records `formal_status: unformalized` for
 the problem, so the database has not adopted this development as a formalized
-solution; the site's one proof claim (submitted 2026-08-17) and the repository
-assert it. No fidelity audit by anyone outside the project was found.
+solution; erdosproblems.com's one proof claim (submitted 2026-08-17) and the
+repository assert it. No fidelity audit by anyone outside the project was found.
 
 ## Relation to E501
 
@@ -256,11 +257,11 @@ disprovable" in teorth/erdosproblems pull request #400 (opened 2026-09-05,
 merged 2026-09-18 by the database owner, whose recorded reasoning is that
 the label composes the parts by "the strongest statement that applies to
 all component parts simultaneously" and that the conjunction reading would
-give "independent"); the site's proof-claims thread holds one full proof
-claim for the problem, submitted 2026-08-17. The draft is not refereed and
+give "independent"); the erdosproblems.com proof-claims thread holds one full
+proof claim for the problem, submitted 2026-08-17. The draft is not refereed and
 not on arXiv; the author's forum post of 2026-08-16 offered the argument as
 an autoformalization candidate and said that they had vetted neither it nor
 Lee's; the machine check is the author's own development, checked by the
 comparator and public CI; and no review of the forcing argument by anyone
-else was found. The problem page takes the site's label with these limits
-stated.
+else was found. The problem page takes the erdosproblems.com label with these
+limits stated.

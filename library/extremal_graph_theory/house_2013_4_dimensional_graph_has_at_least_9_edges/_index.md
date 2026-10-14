@@ -76,10 +76,10 @@ independently reviewed.
   that $G$ has a unit-distance representation in $\mathbb R^n$, i.e., every
   edge is of length 1. The vertices of $G$ are mapped to distinct points of
   $\mathbb R^n$, but edges may cross." Non-adjacent vertices are
-  unconstrained, so the convention is the site's and Chaffee and Noble's.
-  Examples: a path has dimension 1, a cycle dimension 2, $K_4$ dimension 3
-  (the regular tetrahedron). Problem 2, attributed to Erdős in 1991 and
-  taken from [3, p. 93], quoted: "What is the smallest number of edges in a
+  unconstrained, so the convention is erdosproblems.com's and Chaffee and
+  Noble's. Examples: a path has dimension 1, a cycle dimension 2, $K_4$
+  dimension 3 (the regular tetrahedron). Problem 2, attributed to Erdős in 1991
+  and taken from [3, p. 93], quoted: "What is the smallest number of edges in a
   graph $G$ such that $\dim(G)=4$?" The paragraph after it announces the
   answer, 9, and the uniqueness of $K_{3,3}$ among 4-dimensional graphs
   with 9 edges, both proved in the rest of the note.
@@ -156,7 +156,8 @@ independently reviewed.
   candidates and the identification of the drawings with the Atlas graphs
   rest on Read and Wilson's Atlas, not held, and on the figures. (c) The
   year of Erdős's question is printed as 1991 (p. 1783, citing Soifer,
-  p. 93); the site says January 1992. Both rest on Soifer's book, not held.
+  p. 93); erdosproblems.com says January 1992. Both rest on Soifer's book, not
+  held.
 - References (p. 1789), three items, listed above.
 
 ## Compiled scope
@@ -170,20 +171,20 @@ with Definition 1 and Problem 2 (p. 1783) and the candidate count of § 4
 drawn embedding of each of the other 42, was followed as a route; no drawing
 was checked, and nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1007/_index|#1007]]: the site's key
-Ho13 and the first proof of the site's answer. Problem 2 (printed p. 1783,
-PDF p. 1) is the problem's question in the paper's words, "What is the
-smallest number of edges in a graph $G$ such that $\dim(G)=4$?", under
-Definition 1, the site's convention; the paragraph answering it (p. 1783),
-which announces the answer 9 and the uniqueness of $K_{3,3}$, and the
-closing sentence (printed p. 1789, PDF p. 7), quoted, "Thus the minimum
-number of edges which a 4-dimensional graph can have is 9, and there is
-only one such graph, namely $K_{3,3}$", are the site's "The smallest number
-of edges is $9$, achieved solely by $K_{3,3}$, proved by House". Chaffee
-and Noble's report of the paper on their p. 328 (the answer
-9; $K_{3,3}$ the unique graph achieving it) matches the paper as printed.
-The problem page reads the result on the page images at statement depth;
-the proof was followed for structure only.
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1007/_index|#1007]]: the
+erdosproblems.com key Ho13 and the first proof of erdosproblems.com's answer.
+Problem 2 (printed p. 1783, PDF p. 1) is the problem's question in the paper's
+words, "What is the smallest number of edges in a graph $G$ such that
+$\dim(G)=4$?", under Definition 1, the erdosproblems.com convention; the
+paragraph answering it (p. 1783), which announces the answer 9 and the
+uniqueness of $K_{3,3}$, and the closing sentence (printed p. 1789, PDF p. 7),
+quoted, "Thus the minimum number of edges which a 4-dimensional graph can have
+is 9, and there is only one such graph, namely $K_{3,3}$", are
+erdosproblems.com's "The smallest number of edges is $9$, achieved solely by
+$K_{3,3}$, proved by House". Chaffee and Noble's report of the paper on their p.
+328 (the answer 9; $K_{3,3}$ the unique graph achieving it) matches the paper as
+printed. The problem page reads the result on the page images at statement
+depth; the proof was followed for structure only.
 
 **Results.**
 

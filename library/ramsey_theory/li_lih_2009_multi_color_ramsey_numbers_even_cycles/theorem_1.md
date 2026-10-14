@@ -16,9 +16,9 @@ updated: 2026-10-08T14:47:40Z
 
 Notation (printed p. 114): "The $k$-color Ramsey number $r_k(G)$ is defined
 as the minimum integer $N$ such that in any edge-coloring of the complete
-graph $K_N$ in $k$ colors, there is a monochromatic $G$", the site's
-$R_k(G)$; $C_{2m}$ is the cycle on $2m$ vertices, the site's $C_{2n}$ with
-$n=m$. For a bipartite $G$ (p. 115), $br_k(G)$ is "the minimum integer $N$
+graph $K_N$ in $k$ colors, there is a monochromatic $G$", erdosproblems.com's
+$R_k(G)$; $C_{2m}$ is the cycle on $2m$ vertices, erdosproblems.com's $C_{2n}$
+with $n=m$. For a bipartite $G$ (p. 115), $br_k(G)$ is "the minimum integer $N$
 such that, in any edge-coloring of the complete bipartite graph $K_{N,N}$ in
 $k$ colors, there is a monochromatic $G$".
 
@@ -139,8 +139,8 @@ specializes Lazebnik and Woldar 2001 (the paper's [14], not held).
   exponent $1+(1+\varepsilon)/(n-1)$
   ([[ramsey_theory/erdos_1975_partition_theorems_finite_graphs/theorem_6|Theorem 6]])
   with the $\varepsilon$ removed;
-  the result the site's thread comment attributes to the paper, confirmed
-  on the page image. For other $n$ the paper's display (2) states the
+  the result the erdosproblems.com thread comment attributes to the paper,
+  confirmed on the page image. For other $n$ the paper's display (2) states the
   upper bound $k^{n/(n-1)}$ without the $\varepsilon$ and proves nothing
   new about the lower bound. The paper determines no value of
   $R_k(C_{2n})$.

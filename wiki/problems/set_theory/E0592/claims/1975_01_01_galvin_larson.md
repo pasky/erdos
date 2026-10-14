@@ -42,7 +42,7 @@ of the paper adds the converse, that $\omega^\varepsilon$ cannot be pinned to
 $\omega^3$ when $\varepsilon$ is indecomposable (Theorem 8), so pinning gives
 no negative relation at the exponents left open. The paper is F. Galvin and
 J. Larson, *Pinning countable ordinals*, Fund. Math. 82 (1974/75), no. 4,
-357--361, DOI 10.4064/fm-82-4-357-361, the site's [GaLa74], received 10
+357--361, DOI 10.4064/fm-82-4-357-361, erdosproblems.com's [GaLa74], received 10
 September 1973; the publisher's record gives the year 1975 and no month or
 day, so the page name carries 1 January 1975. The paper is filed with a
 transcription on the library's
@@ -62,6 +62,6 @@ $\omega^3\not\to(\omega^3,3)^2$ and the transfer of partition relations along
 pinning maps, which the paper's proof of Theorem 9 cites.
 
 **Acceptance.** Refereed: the paper appeared in Fundamenta Mathematicae,
-volume 82. The site labeled the problem OPEN. Its commentary credits Galvin and
-Larson, but credit on an open problem is not an acceptance, so no `reviewed`
-evidence is listed.
+volume 82. Bloom's catalog labeled the problem OPEN. Its commentary credits
+Galvin and Larson, but credit on an open problem is not an acceptance, so no
+`reviewed` evidence is listed.

@@ -41,20 +41,20 @@ $$
 \sum_{\substack{x <n\\ x\in A}}\frac{1}{x}=o(\log n)?
 $$
 
-**Formulation.** The two displayed assertions are read as two questions, as the
-site and the literature read them: the site credits the $o(\log n)$ theorem as a
-partial resolution and attaches its prize to resolving the questions of the
-statement, and Koukoulopoulos, Lamzouri and Lichtman treat Erdős's 1948
-conditions, divergence of $\sum1/(\alpha\log\alpha)$ and positive upper
-logarithmic density, separately and resolve the second. The word "or" therefore
-does not form a disjunction, which the $o(\log n)$ theorem alone would answer
-yes. Read as $\lvert A\cap[1,x]\rvert/x\to0$, "sparse" would fail outright by
-Besicovitch's sets (see The logarithmic-density theorem below), so that reading
-adds no open question. The page's parts are `convergence`, the first displayed
-assertion, and `log_density`, the second.
+**Formulation.** The two displayed assertions are read as two questions, as
+erdosproblems.com and the literature read them: erdosproblems.com credits the
+$o(\log n)$ theorem as a partial resolution and attaches its prize to resolving
+the questions of the statement, and Koukoulopoulos, Lamzouri and Lichtman treat
+Erdős's 1948 conditions, divergence of $\sum1/(\alpha\log\alpha)$ and positive
+upper logarithmic density, separately and resolve the second. The word "or"
+therefore does not form a disjunction, which the $o(\log n)$ theorem alone would
+answer yes. Read as $\lvert A\cap[1,x]\rvert/x\to0$, "sparse" would fail
+outright by Besicovitch's sets (see The logarithmic-density theorem below), so
+that reading adds no open question. The page's parts are `convergence`, the
+first displayed assertion, and `log_density`, the second.
 
-**Status.** Labeled OPEN on the site (page last edited 24 April 2026; its
-proof-claims tab carries one claim, listed there as full).
+**Status.** Labeled OPEN on erdosproblems.com (page last edited 24 April 2026;
+its proof-claims tab carries one claim, listed there as full).
 
 **Source.** [erdosproblems.com/143](https://www.erdosproblems.com/143), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #143,
@@ -97,20 +97,21 @@ this corpus has not built it.
 
 ## Current assessment
 
-**The question.** The site formulation quoted above (page last edited 24 April
-2026, accessed 2026-10-07) takes a countably infinite $A\subset(1,\infty)$ in
-which every element stays at distance at least $1$ from every positive integer
-multiple of every other element, asks whether such a set must be sparse, and
-names two senses: the convergence of $\sum_{x\in A}1/(x\log x)$ and the estimate
-$\sum_{x<n,\,x\in A}1/x=o(\log n)$. Apicella's manuscript traces the question to
-problem II of Erdős's 1948 Bulletin paper on the density of sequences of
-integers, and the prize offer is display (2.20) of [Er97c], whose printed signs
-the result page records. For a set of integers the hypothesis is primitivity,
-and there both senses are classical: the first sum converges by Erdős's theorem
-of 1935 [Er35], and $\sum_{a<n,\,a\in A}1/a=O(\log n/\sqrt{\log\log n})$ by
-Behrend's theorem of 1935 [Be35], which is already $o(\log n)$; Erdős, Sárközy
-and Szemerédi [ESS67] improved Behrend's bound to $o(\log n/\sqrt{\log\log n})$.
-Erdős reported in [Er73] and [Er77c] an unpublished argument of Haight giving
+**The question.** The erdosproblems.com formulation quoted above (page last
+edited 24 April 2026, accessed 2026-10-07) takes a countably infinite
+$A\subset(1,\infty)$ in which every element stays at distance at least $1$ from
+every positive integer multiple of every other element, asks whether such a set
+must be sparse, and names two senses: the convergence of
+$\sum_{x\in A}1/(x\log x)$ and the estimate $\sum_{x<n,\,x\in A}1/x=o(\log n)$.
+Apicella's manuscript traces the question to problem II of Erdős's 1948 Bulletin
+paper on the density of sequences of integers, and the prize offer is display
+(2.20) of [Er97c], whose printed signs the result page records. For a set of
+integers the hypothesis is primitivity, and there both senses are classical: the
+first sum converges by Erdős's theorem of 1935 [Er35], and
+$\sum_{a<n,\,a\in A}1/a=O(\log n/\sqrt{\log\log n})$ by Behrend's theorem of
+1935 [Be35], which is already $o(\log n)$; Erdős, Sárközy and Szemerédi [ESS67]
+improved Behrend's bound to $o(\log n/\sqrt{\log\log n})$. Erdős reported in
+[Er73] and [Er77c] an unpublished argument of Haight giving
 $\lvert A\cap[1,x]\rvert/x\to0$ when $A$ is linearly independent over
 $\mathbb{Q}$, and in later papers asked for quantitative forms, down to
 Behrend's rate.
@@ -119,12 +120,13 @@ Behrend's rate.
 [[problems/divisors/E0143/claims/2025_02_13_koukoulopoulos_lamzouri_lichtman|the
 logarithmic-density theorem]] of Koukoulopoulos, Lamzouri and Lichtman (2025)
 gives the second estimate for every set satisfying the hypothesis, and with it
-$\liminf\lvert A\cap[1,x]\rvert/x=0$; the site's remarks credit the paper with
-this partial resolution. The full density need not tend to $0$ without Haight's
-hypothesis: a primitive set of integers above $1$ satisfies the hypothesis, and
-Besicovitch (Math. Ann. 110 (1934), 336--341) constructed primitive sets of
-upper density above $1/2-\epsilon$ for every $\epsilon>0$, as the
-Koukoulopoulos--Lamzouri--Lichtman introduction and Erdős's note [Er35] recall.
+$\liminf\lvert A\cap[1,x]\rvert/x=0$; the erdosproblems.com remarks credit the
+paper with this partial resolution. The full density need not tend to $0$
+without Haight's hypothesis: a primitive set of integers above $1$ satisfies the
+hypothesis, and Besicovitch (Math. Ann. 110 (1934), 336--341) constructed
+primitive sets of upper density above $1/2-\epsilon$ for every $\epsilon>0$, as
+the Koukoulopoulos--Lamzouri--Lichtman introduction and Erdős's note [Er35]
+recall.
 
 **The rational counterexample.** The pending partial claim
 [[problems/divisors/E0143/claims/2026_10_02_apicella|Apicella's rational

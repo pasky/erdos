@@ -5,7 +5,7 @@ desc: |
   disprove a conjectured form for bipartite extremal exponents.
 license: unstated
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/erdos_1970_extremal_problems_graph_theory
@@ -23,7 +23,7 @@ thirds is also a lower bound.
 [[extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/question_p388|question_p388]]: The first of the two open problems closing the Erdős-Simonovits paper of
 1970, asking whether every graph with n^{1+α} edges contains an
 almost-regular subgraph on more than n^{1−α} vertices with more than
-εm^{1+α} edges; the origin of Problem 1077, whose wording on the site
+εm^{1+α} edges; the origin of Problem 1077, whose wording on erdosproblems.com
 is false.
 
 [[extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/question_p389|question_p389]]: The second open problem closing the Erdős-Simonovits paper of 1970, asking
@@ -99,8 +99,8 @@ and display (4), the order n^{3/2} for the cube minus an edge
 the paper states no lower bound for the cube itself beyond the 4-cycle bound
 (2) it quotes;
 [[../wiki/problems/extremal_graph_theory/E0713/_index|#713]]: Erdős's conjecture
-(6)--(7) (pp. 378--379 = PDF pp. 2--3; the site's key [ErSi70, p. 379]) that
-for bipartite $L$ the limit of $f(n;L)/n^\alpha$ exists for some
+(6)--(7) (pp. 378--379 = PDF pp. 2--3; the erdosproblems.com key [ErSi70, p.
+379]) that for bipartite $L$ the limit of $f(n;L)/n^\alpha$ exists for some
 $\alpha=\alpha(L)$, and perhaps always $\alpha=1+1/k$ or $\alpha=2-1/k$ with
 $k$ an integer; the paper refutes (7) only, by display (8): for fixed $t$ the
 exponents of its two bounds for $f(n;E(t,k,3))$ converge as $k\to\infty$
@@ -113,7 +113,7 @@ $e(G^m)>\varepsilon m\log m$ where $m$ tends to infinity together with $n$?"
 ([[extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/question_p389|question_p389]]),
 with Theorem 1 (p. 380 = PDF p. 4;
 [[extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/theorem_1|theorem_1]])
-as the dense-case theorem the site's commentary paraphrases;
+as the dense-case theorem the erdosproblems.com commentary paraphrases;
 [[../wiki/problems/extremal_graph_theory/E1077/_index|#1077]]: the first open problem,
 printed pp. 388--389 = PDF pp. 12--13 (page images), "Is it true that for
 every $\varepsilon$ and $\alpha$ if $n>n_0(\varepsilon,\alpha)$ and
@@ -121,9 +121,9 @@ $d>d\cdot(\varepsilon,\alpha)$ [sic] every $G^n$ $e(G^n)>n^{1+\alpha}$
 contains a $d$-regular subgraph $G^m$, $m>n^{1-\alpha}$,
 $e(G^m)>\varepsilon m^{1+\alpha}$?"
 ([[extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/question_p388|question_p388]]),
-the site's key [ErSi70, p. 388], and Theorem 1's exponent
+the erdosproblems.com key [ErSi70, p. 388], and Theorem 1's exponent
 $\alpha(1-\alpha)/(1+\alpha)$ as the 1970 positive result; the paper's
-"$d$-regular" (Definition 1, pp. 379--380) is the site's $D$-balanced.
+"$d$-regular" (Definition 1, pp. 379--380) is erdosproblems.com's $D$-balanced.
 
 **Results.**
 

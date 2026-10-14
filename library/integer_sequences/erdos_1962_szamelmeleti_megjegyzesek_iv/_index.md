@@ -129,14 +129,14 @@ which is unreliable for formulas; problems 19--34 were not read. Nothing
 here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0535/_index|#535]]: problem 14
-(pp. 236--238) is the 1962 form of that problem, $A_k(n)$ being the site's
-$f_k(N)$, with the first bounds
+(pp. 236--238) is the 1962 form of that problem, $A_k(n)$ being
+erdosproblems.com's $f_k(N)$, with the first bounds
 $\exp(c_3\log n/\log\log n)<A_3(n)<cn\log\log\log n/\log n$ and
 $A_k(n)<n/\exp((\log n)^{1/2-\varepsilon})$ recorded there; the 1964 paper
-that the site cites for the problem names this problem as its reference
+that erdosproblems.com cites for the problem names this problem as its reference
 [1]. [[../wiki/problems/integer_sequences/E0536/_index|#536]]: cited as
-[Er62] in the site's commentary for the four-element least-common-multiple
-result; problem 14 is the greatest-common-divisor form of
+[Er62] in the erdosproblems.com commentary for the four-element
+least-common-multiple result; problem 14 is the greatest-common-divisor form of
 the problem's question, the largest set of integers up to $n$ with no $k$
 members having pairwise equal gcd, with the bounds above for $k=3$ and
 general $k$. The least-common-multiple form asked on the problem page (no

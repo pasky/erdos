@@ -84,7 +84,7 @@ Obligatory Triple Systems and Exact Spectra, arXiv:2606.24882v1
 ## Bears on
 
 - [[../wiki/problems/set_theory/E1177/_index|Problem 1177]]: the corollary
-  claims the site's three assertions, in their exact-chromatic-number form,
-  are true, false and true respectively. The claim page
+  claims erdosproblems.com's three assertions, in their exact-chromatic-number
+  form, are true, false and true respectively. The claim page
   [[../wiki/problems/set_theory/E1177/claims/2026_06_23_li|Li's exact spectra]]
   records it as a claim on the problem.

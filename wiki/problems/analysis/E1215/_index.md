@@ -42,13 +42,13 @@ $$
 everywhere except at $z=0$, which connects $0$ to the unit circle of length at
 most $C$?
 
-**Notes.** The site's wording fails for every $P$. Since $P(0)=1$, the point $0$
-is not in $\{z:\lvert P(z)\rvert<1\}$, so no path inside that set starts at $0$,
-and the answer is no for every $C$, trivially; the smallest instance is
-$P(z)=1-z$. It fails a second way at the constant polynomial $P=1$, which has
-$P(0)=1$ and no roots: its set is empty, so no path exists even with the
-starting point exempt. The change inserts "everywhere except at $z=0$" after the
-set and "nonconstant" before "polynomial"; nothing else changes. The first
+**Notes.** The erdosproblems.com wording fails for every $P$. Since $P(0)=1$,
+the point $0$ is not in $\{z:\lvert P(z)\rvert<1\}$, so no path inside that set
+starts at $0$, and the answer is no for every $C$, trivially; the smallest
+instance is $P(z)=1-z$. It fails a second way at the constant polynomial $P=1$,
+which has $P(0)=1$ and no roots: its set is empty, so no path exists even with
+the starting point exempt. The change inserts "everywhere except at $z=0$" after
+the set and "nonconstant" before "polynomial"; nothing else changes. The first
 insertion is in the posers' own words. Erdős, Herzog and Piranian [EHP55, §1,
 p. 347] (library card:
 [[../library/analysis/erdos_1955_polynomials_whose_zeros_lie_unit_circle/_index|erdos_1955_polynomials_whose_zeros_lie_unit_circle]])
@@ -59,27 +59,28 @@ constant $L$ exists such that for every polynomial (1) "the inequality $|P| < 1$
 holds on a path which connects the origin to $C$ and has length at most $L$",
 their $C$ being the unit circle; the question repeats the phrase of Cohen's
 theorem, and the posers report that Mac Lane answered it in the negative. The
-site's commentary states Cohen's theorem in the words of the site's question, a
-path in the set that connects $0$ to the unit circle, which is true only with
-the starting point exempt. The second insertion is the corpus's own correction.
-It excludes exactly the polynomials of degree $0$, at which no path can meet the
-conclusion. At degree $1$, $P(z)=1-z/\omega$ with $\lvert\omega\rvert=1$, the
-radius from $0$ to $\omega$ has $\lvert P\rvert<1$ except at $0$ and length $1$,
-and at every degree $n\ge1$ Cohen's theorem gives a path, so no other degree
-fails this way. The defect is already in the posers' question, which states the
-exemption for Cohen's path but not again in the question, and says nothing of
-degree $0$. The one result about the site's wording is the trivial answer above,
-the corpus's own observation, published nowhere else; it is credited here and
-counts for nothing. Mac Lane's theorem answers the modified Statement no, and
-the problem's label and standing judge the modified Statement.
+erdosproblems.com commentary states Cohen's theorem in the words of the
+erdosproblems.com question, a path in the set that connects $0$ to the unit
+circle, which is true only with the starting point exempt. The second insertion
+is the corpus's own correction. It excludes exactly the polynomials of degree
+$0$, at which no path can meet the conclusion. At degree $1$, $P(z)=1-z/\omega$
+with $\lvert\omega\rvert=1$, the radius from $0$ to $\omega$ has
+$\lvert P\rvert<1$ except at $0$ and length $1$, and at every degree $n\ge1$
+Cohen's theorem gives a path, so no other degree fails this way. The defect is
+already in the posers' question, which states the exemption for Cohen's path but
+not again in the question, and says nothing of degree $0$. The one result about
+the erdosproblems.com wording is the trivial answer above, the corpus's own
+observation, published nowhere else; it is credited here and counts for nothing.
+Mac Lane's theorem answers the modified Statement no, and the problem's label
+and standing judge the modified Statement.
 
-**Status.** Disproved, the site's label, which describes the modified
+**Status.** Disproved, the erdosproblems.com label, which describes the modified
 Statement. Mac Lane proved that for every compact set inside a simply connected
 subdomain of the open disc avoiding $0$, all large degrees admit such a
 polynomial with modulus above $2$ on the set. A spiral forces arbitrarily long
 paths. The accepted claim is
 [[problems/analysis/E1215/claims/1954_10_16_maclane|Mac Lane's unbounded path length]],
-refereed and credited by the site's curator.
+refereed and credited by the erdosproblems.com curator.
 
 **Source.** [erdosproblems.com/1215](https://www.erdosproblems.com/1215),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1215,

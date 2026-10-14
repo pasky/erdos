@@ -91,7 +91,7 @@ which the paper states without details.
   $N(k,ck)>n$. That is a lower bound exponential in $c^2k$; the problem asks
   for upper bounds, and the bound settles none of its displayed questions.
   The paper states no bound in the form $N(k,ck)>(1+\alpha_c)^k$ that the
-  site's commentary attributes to it; that form's limit $\sqrt2-1$ as
+  erdosproblems.com commentary attributes to it; that form's limit $\sqrt2-1$ as
   $c\to1$ matches the base of the van der Waerden lower bound (8) the paper
   records, not Theorem III. The reading above has not been checked by review
   or formalization.

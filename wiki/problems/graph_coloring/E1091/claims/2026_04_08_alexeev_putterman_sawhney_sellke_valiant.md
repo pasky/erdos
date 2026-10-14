@@ -67,11 +67,11 @@ $f(r)$ diagonals. The first question, answered in the affirmative on
 [[problems/graph_coloring/E1091/claims/1982_06_01_voss|Voss's page]], is not
 at issue here.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, marked the problem
-solved and credits the negative answer to the second question to an internal
-OpenAI model through this paper. The paper is a preprint, arXiv:2604.06609,
-posted 2026-04-08. Its arXiv record lists no journal, so the page lists no
-`refereed` evidence.
+**Acceptance.** Reviewed: Thomas Bloom, the erdosproblems.com curator, marked
+the problem solved and credits the negative answer to the second question to an
+internal OpenAI model through this paper. The paper is a preprint,
+arXiv:2604.06609, posted 2026-04-08. Its arXiv record lists no journal, so the
+page lists no `refereed` evidence.
 
 Boris Alexeev's lean-proofs collection has a Lean file for the problem, linked
 above at its pinned commit. The file names OpenAI Codex as its author and

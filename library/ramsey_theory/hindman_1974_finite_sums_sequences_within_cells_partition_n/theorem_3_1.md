@@ -50,8 +50,8 @@ the new sequence is strictly increasing and its terms form an infinite set
 $A$ with all finite subset sums in $A_i$; and the sequence the proof of
 Theorem 3.1 constructs is already the increasing enumeration of the
 support of a point $s\in\{0,1\}^N$ whose terms are all at least $1$. With
-$a=2$ the theorem is the site's statement; the site's remark that the
-result holds however many colors are used is the theorem's $a$.
+$a=2$ the theorem is the erdosproblems.com statement; the erdosproblems.com
+remark that the result holds however many colors are used is the theorem's $a$.
 
 **Source.** N. Hindman, Finite sums from sequences within cells of a
 partition of $N$, J. Combinatorial Theory Ser. A 17 (1974), no. 1, 1--11,
@@ -114,9 +114,9 @@ Corollary 3.3 (p. 10).
 
 - [[../wiki/problems/ramsey_theory/E0532/_index|Problem 532]]: the theorem behind the
   problem's label, in the problem's positive integers; the case $a=2$ is
-  the site's statement once the sequence is made strictly increasing by
-  Lemma 2.2, and the site's remark that the result holds however many
-  colors are used is the theorem's $a$.
+  the erdosproblems.com statement once the sequence is made strictly increasing
+  by Lemma 2.2, and the erdosproblems.com remark that the result holds however
+  many colors are used is the theorem's $a$.
 - [[../wiki/problems/ramsey_theory/E1198/_index|Problem 1198]]: the sums-only case of the
   problem's expressions, in which every $S_i$ is a singleton; the paper
   never considers products.

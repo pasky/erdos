@@ -33,8 +33,8 @@ $$
 
 for every $k\geq 1$?
 
-**Status.** Disproved. This is the site's label. Nicolas's 1971 upper bound
-$Q(x)\ll(\log x)^{1+c'}$ answers the question no, as the claim page below
+**Status.** Disproved. This is the erdosproblems.com label. Nicolas's 1971 upper
+bound $Q(x)\ll(\log x)^{1+c'}$ answers the question no, as the claim page below
 records.
 
 **Source.** [erdosproblems.com/381](https://www.erdosproblems.com/381), accessed
@@ -52,8 +52,8 @@ https://www.erdosproblems.com/381.
 
 ## Current assessment
 
-The question is the site's formulation, unchanged between 2026-09-04 and
-2026-10-07: with $Q(x)$ the number of highly composite numbers in $[1,x]$,
+The question is the erdosproblems.com formulation, unchanged between 2026-09-04
+and 2026-10-07: with $Q(x)$ the number of highly composite numbers in $[1,x]$,
 whether $Q(x)\gg_k(\log x)^k$ for every $k\ge1$. The answer is no.
 
 Erdős [Er44] proved $Q(x)>(\log x)^{1+c}$ for some $c>0$, through the gap
@@ -77,8 +77,9 @@ What remains is the exact growth: both bounds are powers of $\log x$ with
 unknown exponents, and Nicolas conjectures
 $\log Q(x)/\log\log x\to\log30/\log16=1.2267\ldots$; no later result on the
 exponent is recorded here. No formalization is recorded, and this repository
-has not checked Nicolas's proof independently; the account rests on the site
-page, accessed 2026-10-07, and the two cited papers' publication records.
+has not checked Nicolas's proof independently; the account rests on the
+erdosproblems.com page, accessed 2026-10-07, and the two cited papers'
+publication records.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

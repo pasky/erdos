@@ -33,8 +33,8 @@ log K(n) at most an absolute constant times tau(n) log-squared(n+2).
 *Coprime Power Differences*, a public manuscript whose author line reads
 **GPT 5.6 Sol Pro**, shared by **Liam Price** in a
 [partial proof claim for Erdős #820](https://www.erdosproblems.com/forum/thread/820/proof-claims#proof-claim-64),
-submitted 16 July 2026 at 18:02:16 as displayed by the site. Price's claim
-attributes the mathematical work to GPT 5.6 Sol Pro and the formalization
+submitted 16 July 2026 at 18:02:16 as displayed by erdosproblems.com. Price's
+claim attributes the mathematical work to GPT 5.6 Sol Pro and the formalization
 to Claude Fable 5. The manuscript itself has no date or version number.
 
 **Canonical snapshot.** The [public Overleaf
@@ -100,10 +100,10 @@ result pages; no independent review of them is recorded.
 
 ## Public claim and formal evidence
 
-The claim's summary presents it as answering the upper-bound question, and the
-site explicitly does not certify submitted claims. The two visible claim
-comments were also retrieved on 5 September 2026. One, by Price on 16 July,
-links the proposed Lean source; the other, by account `rickyc` on 17 July,
+The claim's summary presents it as answering the upper-bound question, and
+erdosproblems.com explicitly does not certify submitted claims. The two visible
+claim comments were also retrieved on 5 September 2026. One, by Price on 16
+July, links the proposed Lean source; the other, by account `rickyc` on 17 July,
 reports that GPT Sol independently suggested the same result. That comment is
 not a mathematical referee report or formal verification record. No publication
 or broader community acceptance is established by these materials.

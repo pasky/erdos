@@ -49,5 +49,5 @@ None.
 
 - [[../wiki/problems/set_systems/E0701/_index|Problem 701]]: this Conjecture
   is the problem's modified Statement, which restores the finite ground set
-  $S$ that the site's wording omits. The paper records no proof of it; the
-  claims about it are recorded on the problem page.
+  $S$ that the erdosproblems.com wording omits. The paper records no proof of
+  it; the claims about it are recorded on the problem page.

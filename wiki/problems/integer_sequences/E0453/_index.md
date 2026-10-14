@@ -29,18 +29,19 @@ $$
 
 where $p_k$ is the $k$th prime?
 
-**Status.** Disproved, the site's label, with a Lean suffix that is a catalog
-label. The Lean file announced in the thread is linked from the claim page as a
-formalization of Pomerance's proof. It was neither built nor audited here. This
-page records the statement file of formal-conjectures, which points at that Lean
-file. The disproof is Pomerance's 1979 corollary that infinitely many $n$ have
-$p_n^2>p_{n-i}p_{n+i}$ for all $0<i<n$. It is recorded on the claim page
+**Status.** Disproved, the erdosproblems.com label, with a Lean suffix that is a
+catalog label. The Lean file announced in the thread is linked from the claim
+page as a formalization of Pomerance's proof. It was neither built nor audited
+here. This page records the statement file of formal-conjectures, which points
+at that Lean file. The disproof is Pomerance's 1979 corollary that infinitely
+many $n$ have $p_n^2>p_{n-i}p_{n+i}$ for all $0<i<n$. It is recorded on the
+claim page
 [[problems/integer_sequences/E0453/claims/1979_01_01_pomerance|Pomerance's infinitely many good primes]]
-(accepted; refereed in Mathematics of Computation, and the result the site's
-commentary names).
+(accepted; refereed in Mathematics of Computation, and the result the
+erdosproblems.com commentary names).
 
 **Source.** [erdosproblems.com/453](https://www.erdosproblems.com/453),
-accessed 2026-09-05: the problem page (DISPROVED (LEAN), which the site
+accessed 2026-09-05: the problem page (DISPROVED (LEAN), which erdosproblems.com
 glosses as solved in the
 negative with the proof verified in Lean; last edited 8 April 2026; source
 keys [Er70b, p. 140], [Er74b, p. 203], [Er77c, p. 65], [Er80, p. 113],
@@ -80,7 +81,7 @@ linked, at a fixed commit, from the claim page
 [[problems/integer_sequences/E0453/claims/1979_01_01_pomerance|Pomerance's infinitely many good primes]].
 The community database (teorth/erdosproblems, accessed 2026-10-07) lists the
 problem as disproved (Lean) as of its last update on 31 January 2026, and the
-statement as formalized as of 6 July 2026. Nothing was built or audited here,
+statement as formalized since 6 July 2026. Nothing was built or audited here,
 and the Lean suffix is a catalog label.
 
 ## Progress

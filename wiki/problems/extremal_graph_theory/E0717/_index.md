@@ -30,8 +30,8 @@ $$
 \chi(G) \ll \frac{n^{1/2}}{\log n}\sigma(G)?
 $$
 
-**Formulation.** The site's wording, accessed 2026-09-19 (the page shows no
-last-edited date). The question asks for an absolute constant $C$ with
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-19 (the page
+shows no last-edited date). The question asks for an absolute constant $C$ with
 $\chi(G)\le Cn^{1/2}\sigma(G)/\log n$ for every graph on $n\ge2$ vertices; in
 the sources' notation, with $H(n)$ the maximum of $\chi(G)/\sigma(G)$ over
 $n$-vertex graphs, it asks whether $H(n)=O(n^{1/2}/\log n)$. A subdivision of
@@ -56,9 +56,9 @@ random graph at $p=1-e^{-2}$. The claim page
 [[problems/extremal_graph_theory/E0717/claims/2011_07_11_fox_lee_sudakov|Fox, Lee and Sudakov 2011]]
 records the result, its scope and its acceptance evidence, and the frontmatter
 standing is derived from it. The acceptance evidence is publication in
-Combinatorica (per its Crossref record), the credit of the site's curator,
-Thomas Bloom, and the citing literature found by the search, which contains no
-dispute.
+Combinatorica (per its Crossref record), the credit of the erdosproblems.com
+curator, Thomas Bloom, and the citing literature found by the search of
+2026-09-19, which contains no dispute.
 
 **Source.** [erdosproblems.com/717](https://www.erdosproblems.com/717),
 accessed 2026-09-19: the problem page (PROVED, with
@@ -74,7 +74,7 @@ https://www.erdosproblems.com/717, accessed 2026-09-19.
   clique subdivisions, and the conjectures of Hajós and Erdős-Fajtlowicz.
   Combinatorica 33 (2013), no. 2, 181--197, doi:10.1007/s00493-013-2853-x
   (issued April 2013, online 14 June 2013, per the Crossref record; the
-  site's reference text gives the journal, year and pages without the
+  erdosproblems.com reference text gives the journal, year and pages without the
   volume). Paged from arXiv:1107.1920v3 (14 February 2012, 14 pp., the
   latest arXiv version): Theorem 1.1 and Theorem 1.2, p. 2; the
   deduction, pp. 3--4; Theorem 3.1, p. 4. Library home:
@@ -102,35 +102,36 @@ https://www.erdosproblems.com/717, accessed 2026-09-19.
   Catlin's later paper, Hajós' graph-coloring conjecture: variations and
   counterexamples, J. Combin. Theory Ser. B 26 (1979), 268--274, for the
   disproof, as does [FLS13] ("in 1979, Catlin [6] disproved the conjecture for
-  all $\chi(G)\ge7$"); the site's key is the 1974 paper, which Erdős's 1981
-  paper also cites for it.
+  all $\chi(G)\ge7$"); the erdosproblems.com key is the 1974 paper, which
+  Erdős's 1981 paper also cites for it.
 - [Di52] Dirac, G. A., A property of $4$-chromatic graphs and some remarks on
   critical graphs. J. London Math. Soc. 27 (1952), 85--92,
   doi:10.1112/jlms/s1-27.1.85. Not held; context, the case $\chi(G)\le4$ of
-  Hajós's conjecture, quoted from the site and [FLS13].
+  Hajós's conjecture, quoted from erdosproblems.com and [FLS13].
 
 **Formalization.** None. Formal-conjectures had no file
-`ErdosProblems/717.lean` on its main branch on 2026-09-19; the site's page
-records no formalized statement; the community database (teorth/erdosproblems,
-`data/problems.yaml`, 2026-09-19) records the problem proved and unformalized,
-with no formalized statement (its entry's last update is dated 31 August
-2025). A third-party Lean development that declares itself a formalization of
-[FLS13], which the catalog does not cite, is linked from the claim page and
-described under the Current assessment; this project has not built or audited
-it, and it gives no `formalized` evidence.
+`ErdosProblems/717.lean` on its main branch on 2026-09-19; the erdosproblems.com
+page records no formalized statement; the community database
+(teorth/erdosproblems, `data/problems.yaml`, 2026-09-19) records the problem
+proved and unformalized, with no formalized statement (its entry's last update
+is dated 31 August 2025). A third-party Lean development that declares itself a
+formalization of [FLS13], which Bloom's catalog does not cite, is linked from
+the claim page and described under the Current assessment; this project has not
+built or audited it, and it gives no `formalized` evidence.
 
 ## Current assessment
 
-**The question (the site's formulation, accessed 2026-09-19).** The statement
-above; PROVED, with the note that the answer is affirmative; no last-edited
-date. The commentary, in this page's words, traces the history: Hajós's original
-conjecture $\chi(G)\le\sigma(G)$, settled positively by Dirac [Di52] when
-$\chi(G)=4$ and refuted by Catlin [Ca74] whenever $\chi(G)\ge7$; the much
-stronger refutation of Erdős and Fajtlowicz [ErFa81], for whom the typical
+**The question (the erdosproblems.com formulation, accessed 2026-09-19).** The
+statement above; PROVED, with the note that the answer is affirmative; no
+last-edited date. The commentary, in this page's words, traces the history:
+Hajós's original conjecture $\chi(G)\le\sigma(G)$, settled positively by Dirac
+[Di52] when $\chi(G)=4$ and refuted by Catlin [Ca74] whenever $\chi(G)\ge7$; the
+much stronger refutation of Erdős and Fajtlowicz [ErFa81], for whom the typical
 $n$-vertex graph has $\chi(G)\gg n^{1/2}\sigma(G)/\log n$; and the affirmative
-answer, which the site credits to Fox, Lee and Sudakov [FLS13]. The discussion
-thread has no comments and the proof-claim tab is empty. The community database
-records the problem as proved (its entry's last update is dated 31 August 2025).
+answer, which erdosproblems.com credits to Fox, Lee and Sudakov [FLS13]. The
+discussion thread has no comments and the proof-claim tab is empty. The
+community database records the problem as proved (its entry's last update is
+dated 31 August 2025).
 
 **Status support.** The status-defining source is
 [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_1_1|Theorem 1.1]]
@@ -151,13 +152,14 @@ theorem, which the paper quotes as
 [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_3_1|Theorem 3.1]]
 (every graph with $n$ vertices and at least $256t^2n$ edges contains a
 subdivision of $K_t$; Problem 718). Acceptance evidence: Combinatorica is
-refereed (volume 33, issue 2, April 2013 per the Crossref record); the site's
-curator, Thomas Bloom, marked the problem proved and credits the paper; none of
-the twelve citing papers found by the search disputes or
-sharpens the theorem. Read depth: the statements of Theorems 1.1, 1.2 and 3.1
-(pp. 2 and 4) are checked, and the one-page deduction of Theorem 1.1 from
-Theorem 1.2 was read for structure; the proof of Theorem 1.2 (pp. 4--12) was
-not read. The journal text is not held and was not compared with the preprint.
+refereed (volume 33, issue 2, April 2013 per the Crossref record); the
+erdosproblems.com curator, Thomas Bloom, marked the problem proved and credits
+the paper; none of the twelve citing papers found by the search of 2026-09-19
+disputes or sharpens the theorem. Read depth: the statements of Theorems 1.1,
+1.2 and 3.1 (pp. 2 and 4) are checked, and the one-page deduction of Theorem 1.1
+from Theorem 1.2 was read for structure; the proof of Theorem 1.2 (pp. 4--12)
+was not read. The journal text is not held and was not compared with the
+preprint.
 
 **The lower bound and the origin.** [ErFa81] (p. 141) defines
 $H(G)=\chi(G)/\sigma(G)$ and $H(n)=\max_{G(n)}H(G(n))$ and announces "there is
@@ -193,16 +195,16 @@ topologically complete graph "or $r$ vertices" is the copy's misprint for
 proofs of [ErFa81] were read for structure only.
 
 **Adjacent facts (context, not the problem).** Dirac's theorem for $\chi(G)\le4$
-and Catlin's counterexamples for $\chi(G)\ge7$ are quoted from the site,
-[ErFa81] and [FLS13]; the papers are not held. [FLS13] (p. 2) records that Kühn
-and Osthus proved Hajós's conjecture for graphs of girth at least 186 and that
-[ErFa81]'s random-graph example has $\sigma(G)=\Theta(n^{1/2})$ and
-$\chi(G)=\Theta(n/\log n)$; how $H(n)\log n/n^{1/2}$ behaves between the bounds
-$\frac1{e\sqrt2}-o(1)$ and $10^{120}$ that [FLS13] gives (p. 2; the lower bound
-from the Bollobás--Catlin and Bollobás random-graph results it cites) is not
-asked by the site and is recorded only as the gap between the proved constants.
-Problem 718 is the edge threshold for a topological $K_r$ that Theorem 3.1
-states.
+and Catlin's counterexamples for $\chi(G)\ge7$ are quoted from
+erdosproblems.com, [ErFa81] and [FLS13]; the papers are not held. [FLS13] (p. 2)
+records that Kühn and Osthus proved Hajós's conjecture for graphs of girth at
+least 186 and that [ErFa81]'s random-graph example has
+$\sigma(G)=\Theta(n^{1/2})$ and $\chi(G)=\Theta(n/\log n)$; how
+$H(n)\log n/n^{1/2}$ behaves between the bounds $\frac1{e\sqrt2}-o(1)$ and
+$10^{120}$ that [FLS13] gives (p. 2; the lower bound from the Bollobás--Catlin
+and Bollobás random-graph results it cites) is not asked by erdosproblems.com
+and is recorded only as the gap between the proved constants. Problem 718 is the
+edge threshold for a topological $K_r$ that Theorem 3.1 states.
 
 **A third-party Lean formalization (linked, not evidence).** Boris Alexeev's
 repository `plby/lean-proofs`, at its commit of 15 September 2026 that the
@@ -218,14 +220,14 @@ command; the file contains no `sorry`. The file declares itself a
 formalization of [FLS13], so it is a `formalization` link on the claim page of
 Fox, Lee and Sudakov. Read depth: the header (first 60 lines) and the note;
 this project has not built, audited or kernel-checked the file, so the claim
-page lists no `formalized` evidence. The site's page, its label and the
-community database do not cite this development.
+page lists no `formalized` evidence. The erdosproblems.com page, its label and
+the community database do not cite this development.
 
-**Search scope.** None of the routes below found a dispute
+**Search scope (2026-09-19 UTC).** None of the routes below found a dispute
 of Theorem 1.1, a sharper determination of the constant, or a change of
 status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory `FormalConjectures/ErdosProblems/` (682
   entries) and recursive tree (1,751 entries) on main (no file 717); the
   community database entry (as recorded under Formalization).
@@ -234,8 +236,8 @@ status.
   subdivision" OR abs:"clique subdivisions" OR abs:Hajos) AND abs:chromatic`
   sorted by date (three records: [FLS13], a 2015 coloring note and a 2009
   degree-sequence paper; none on $H(n)$).
-- Crossref: the site's DOI form 10.1007/s00493-013-2853-9 has no Crossref
-  record; a bibliographic query returned the article's record under
+- Crossref: erdosproblems.com's DOI form 10.1007/s00493-013-2853-9 has no
+  Crossref record; a bibliographic query returned the article's record under
   10.1007/s00493-013-2853-x, which this page cites; the records for
   [ErFa81], [Er81], [Ca74] and [Di52].
 - Semantic Scholar: the citation list of [FLS13] by arXiv identifier (twelve
@@ -260,11 +262,11 @@ structure; nothing is independently reviewed. (2) The journal version of
 [FLS13] was not compared with arXiv v3. (3) The sufficient
 constant $10^{120}$ is the paper's, not optimal; the true constant is
 unknown. (4) [Ca74], [Di52] and Catlin's 1979 paper are not held; the
-history rests on [ErFa81], [FLS13], [Er81] and the site. (5) The third-party
-Lean development was read as its header only and is linked from the claim
-page without evidence standing; there is no Lean statement of the problem in
-the catalog. The Linked library material below is derived from the library
-links and is not progress.
+history rests on [ErFa81], [FLS13], [Er81] and erdosproblems.com. (5) The
+third-party Lean development was read as its header only and is linked from the
+claim page without evidence standing; there is no Lean statement of the problem
+in the formal-conjectures catalog. The Linked library material below is derived
+from the library links and is not progress.
 
 ## Known results
 

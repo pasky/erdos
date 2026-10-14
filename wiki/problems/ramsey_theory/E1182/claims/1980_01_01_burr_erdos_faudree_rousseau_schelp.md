@@ -31,7 +31,8 @@ updated: 2026-10-07T21:33:46Z
 
 **Claim.** In the letters of
 [[problems/ramsey_theory/E1182/_index|Problem 1182]] (the paper writes $f$ for
-the site's $F$ and $g$ for the site's $f$), the paper proves the following.
+erdosproblems.com's $F$ and $g$ for erdosproblems.com's $f$), the paper proves
+the following.
 [[../library/ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem_1|Theorem 1]]
 (p. 198): $F(n)\ge(17n+1)/15$ for every $n\ge4$, and for fixed $\varepsilon>0$
 and all sufficiently large $n$, $F(n)<(27/4+\varepsilon)n(\log n)^2$.
@@ -52,8 +53,8 @@ upper bound from a $K_l$ with a path attached and Spencer's lower bound on
 $r(K_3,K_t)$; Theorem 2's lower bound from the Ajtai--Komlós--Szemerédi bound
 $r(K_3,K_s)<cs^2/\log s$, and its upper bound from the Lovász local lemma in the
 form contained in the proof of Spencer's Theorem 2.1. The paper's Theorem 3 (p.
-202), bounds for the $K_m$ versions that the site also credits, is stated
-without proof and is a variant outside this claim.
+202), bounds for the $K_m$ versions that erdosproblems.com also credits, is
+stated without proof and is a variant outside this claim.
 
 **Covers.** These bounds on $F(n)$ and $f(n)$ and the small values. The closing
 question, whether $F(n)/n\to\infty$, is left open: the paper's
@@ -74,8 +75,8 @@ the inputs of the paper's bounds.
 **Acceptance.** Refereed: S. A. Burr, P. Erdős, R. J. Faudree, C. C. Rousseau
 and R. H. Schelp, *An extremal problem in generalized Ramsey theory*, Ars
 Combin. 10 (1980), 193--203 (MR 82b:05096; no Crossref record). The scan in the
-Rényi Institute's Erdős archive is linked above. Not reviewed: the site's
-commentary credits the paper with these bounds, but the site labeled the problem
-OPEN. So no curator credit exists, and `reviewed` is not listed. The journal
-issue gives only the year, so this page is dated the first of January 1980.
-Nothing here is independently reviewed by this project.
+Rényi Institute's Erdős archive is linked above. Not reviewed: the
+erdosproblems.com commentary credits the paper with these bounds, but Bloom's
+catalog labeled the problem OPEN. So no curator credit exists, and `reviewed` is
+not listed. The journal issue gives only the year, so this page is dated the
+first of January 1980. Nothing here is independently reviewed by this project.

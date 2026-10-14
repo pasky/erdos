@@ -4,7 +4,8 @@ title: Density Hales-Jewett theorem of Furstenberg and Katznelson
 desc: |
   Furstenberg and Katznelson's 1991 theorem shows that every dense enough subset
   of a large cube of words over $t$ letters contains a combinatorial line, as
-  the problem asks. It is refereed, and the site adopts it as the proof.
+  the problem asks. It is refereed, and erdosproblems.com adopts it as the
+  proof.
 authors:
 - H. Furstenberg
 - Y. Katznelson
@@ -51,12 +52,12 @@ the Polymath reproof is an independent second route, not an input.
 **Acceptance.** Refereed: the paper appeared in Journal d'Analyse Mathématique,
 volume 57, issue 1. The publication record dates the issue to December 1991
 without a day, so this page is named by the first day of that month. Reviewed:
-the site's curator, Thomas Bloom, records the problem as proved by Furstenberg
-and Katznelson in the commentary of the problem page (label PROVED (LEAN), page
-last edited 25 January 2026). The Polymath paper's Theorem 1.4 also attributes
-the theorem to them. This is documented acceptance outside this project. The
-site's Lean marker traces to a formalization of the Dodos--Kanellopoulos--Tyros
-proof of the theorem, which is pinned on
+the erdosproblems.com curator, Thomas Bloom, records the problem as proved by
+Furstenberg and Katznelson in the commentary of the problem page (label PROVED
+(LEAN), page last edited 25 January 2026). The Polymath paper's Theorem 1.4 also
+attributes the theorem to them. This is documented acceptance outside this
+project. The erdosproblems.com Lean marker traces to a formalization of the
+Dodos--Kanellopoulos--Tyros proof of the theorem, which is pinned on
 [[problems/additive_combinatorics/E0171/claims/2012_09_22_dodos_kanellopoulos_tyros|their claim page]].
 It is not a formalization of this proof, so no `formalized` evidence is listed.
 Nothing here is this project's own review of the proof.

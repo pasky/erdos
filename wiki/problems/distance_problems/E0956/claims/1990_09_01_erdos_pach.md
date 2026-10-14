@@ -33,8 +33,8 @@ plane, at most $O(n^{4/3})$ pairs are at distance exactly $1$. Source:
 P. Erdős and J. Pach, Variations on the theme of repeated distances,
 Combinatorica 10 (1990), no. 3, 261–269; Valtr's Oberwolfach abstract of 2005
 and Chojecki's note of 2026 both state the bound as their Theorem 1 and
-Theorem 2 respectively, citing this paper. The bounds the site's remarks
-also credit to the paper, for disjoint convex sets that need not be
+Theorem 2 respectively, citing this paper. The bounds the erdosproblems.com
+remarks also credit to the paper, for disjoint convex sets that need not be
 translates, concern a different function.
 
 **Covers.** The upper bound on $h(n)$ only. Neither the order of $h(n)$ nor
@@ -43,5 +43,5 @@ $h(n)>n^{1+c}$ follows from it.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in Combinatorica. Not reviewed:
-the site's remarks credit the bound to the paper, but the site labeled the
-problem OPEN, so the remark is not an acceptance.
+the erdosproblems.com remarks credit the bound to the paper, but Bloom's catalog
+labeled the problem OPEN, so the remark is not an acceptance.

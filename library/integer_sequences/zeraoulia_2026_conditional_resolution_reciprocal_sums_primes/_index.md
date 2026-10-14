@@ -37,13 +37,13 @@ equidistribution estimate over primes, Proposition 1.12 of
 [[factorials_binomials/matomaki_2022_singmaster_s_conjecture_interior_pascal_s/_index|Matomäki, Radziwiłł, Shao, Tao and Teräväinen]],
 to the range $|N|\le\exp(P^c)$ for primes $p\asymp P$. The abstract states
 that the hypothesis is unproved and that no unconditional resolution is
-claimed. The preprint was posted on the site's proof-claims thread for Problem
-726 on 11 August 2026 as a full proof, with the submitter's own note that the
-result is conditional; a comment of 12 August 2026 on that thread classes it as
-partial, and a third-party evidence record of 16 August 2026, linked from the
-thread on 24 August 2026, lists no independent rerun, assessment or review. A
-conditional theorem does not resolve the problem, whatever the standing of the
-argument.
+claimed. The preprint was posted on the erdosproblems.com proof-claims thread
+for Problem 726 on 11 August 2026 as a full proof, with the submitter's own note
+that the result is conditional; a comment of 12 August 2026 on that thread
+classes it as partial, and a third-party evidence record of 16 August 2026,
+linked from the thread on 24 August 2026, lists no independent rerun, assessment
+or review. A conditional theorem does not resolve the problem, whatever the
+standing of the argument.
 
 Source: <https://doi.org/10.5281/zenodo.21882603>.
 

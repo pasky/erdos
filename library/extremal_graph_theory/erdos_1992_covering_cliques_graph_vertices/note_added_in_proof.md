@@ -4,9 +4,9 @@ title: "Note added in proof (p. 288 = PDF p. 10): if every clique has at least n
 desc: |
   The Bollobás–Erdős–Gallai–Tuza threshold for a single vertex meeting every
   clique, reported without proof in the paper's Note added in proof as a
-  result proved with Bollobás in Oberwolfach in 1990; the site's "Bollobás
-  and Erdős proved that if every maximal clique has at least n + 3 − 2√n
-  vertices then τ(G) = 1" on Problem 611.
+  result proved with Bollobás in Oberwolfach in 1990; erdosproblems.com's
+  "Bollobás and Erdős proved that if every maximal clique has at least n + 3 −
+  2√n vertices then τ(G) = 1" on Problem 611.
 created: 2026-09-19T07:40:00Z
 updated: 2026-10-07T12:37:57Z
 ---
@@ -24,14 +24,14 @@ possible for every $n\ge2$. For $k\ge2$, however, we do not have a similar
 condition for $\tau_C(G)\le k$."
 
 Cliques are inclusion-maximal complete subgraphs with at least two vertices
-(p. 279). The brackets around $2\sqrt n$ are printed as a ceiling; the site's
-Problem 611 page writes the threshold as $n+3-2\sqrt n$ and attributes the
-result to Bollobás and Erdős. The note gives no proof and cites no paper;
-where the proof appeared, if anywhere, was not located (the site's other keys
-for the problem, Erdős's 1994 and 1999 collections, are not held). Read
-literally, the hypothesis is vacuous for an edgeless graph, whose
-clique-transversal number is $0$; the statement is about graphs with at
-least one clique.
+(p. 279). The brackets around $2\sqrt n$ are printed as a ceiling;
+erdosproblems.com's Problem 611 page writes the threshold as $n+3-2\sqrt n$ and
+attributes the result to Bollobás and Erdős. The note gives no proof and cites
+no paper; where the proof appeared, if anywhere, was not located
+(erdosproblems.com's other keys for the problem, Erdős's 1994 and 1999
+collections, are not held). Read literally, the hypothesis is vacuous for an
+edgeless graph, whose clique-transversal number is $0$; the statement is about
+graphs with at least one clique.
 
 **Source.** P. Erdős, T. Gallai and Zs. Tuza, *Covering the cliques of a graph
 with vertices*, Discrete Math. 108 (1992), 279--289,
@@ -57,7 +57,7 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0611/_index|Problem 611]]: the exact threshold
-  for $\tau(G)=1$ the site attributes to Bollobás and Erdős, "best possible",
-  attested here as an announcement in the refereed paper; the only sharp
-  result on the problem's second question in the sources read, and it
+  for $\tau(G)=1$ erdosproblems.com attributes to Bollobás and Erdős, "best
+  possible", attested here as an announcement in the refereed paper; the only
+  sharp result on the problem's second question in the sources read, and it
   concerns $\tau(G)=1$ rather than $\tau(G)<(1-c)n$.

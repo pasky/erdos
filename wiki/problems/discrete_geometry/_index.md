@@ -246,5 +246,5 @@ coverings, packings and geometric measure problems, together with Euclidean
 Ramsey theory and the colorings of the plane and of R^n descended from the
 Hadwiger-Nelson problem.
 
-Site tags routed here: chromatic number, combinatorics, convex, geometry, graph
-theory, number theory, probability, ramsey theory.
+erdosproblems.com tags routed here: chromatic number, combinatorics, convex,
+geometry, graph theory, number theory, probability, ramsey theory.

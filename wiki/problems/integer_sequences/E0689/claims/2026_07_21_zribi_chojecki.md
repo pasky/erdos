@@ -3,9 +3,9 @@ name: problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki
 title: The joint full proof claim of Zribi and Chojecki
 desc: |
   Zribi and Chojecki's AI-assisted full proof claim of 21 July 2026 on the
-  site's tab merges their notes, pairing leftover integers through prime
-  progressions and a Selberg sieve. A shorter version followed in September, and
-  the claim is pending.
+  erdosproblems.com tab merges their notes, pairing leftover integers through
+  prime progressions and a Selberg sieve. A shorter version followed in
+  September, and the claim is pending.
 authors:
 - Malek Zribi
 - Przemek Chojecki
@@ -39,10 +39,10 @@ updated: 2026-10-08T02:31:50Z
 
 **Claim.** A full proof of
 [[problems/integer_sequences/E0689/_index|Problem 689]], claimed by Malek
-Zribi and Przemek Chojecki and submitted to the site's proof-claim tab on 21
-July 2026 under the account MalekZ, with three AI systems named as used, GPT
-5.6 Sol Ultra, GPT 5.5 Pro and Claude Opus 4.8 as the tab gives them. The
-submission's own summary, in this page's words: an easy preliminary cover
+Zribi and Przemek Chojecki and submitted to the erdosproblems.com proof-claim
+tab on 21 July 2026 under the account MalekZ, with three AI systems named as
+used, GPT 5.6 Sol Ultra, GPT 5.5 Pro and Claude Opus 4.8 as the tab gives them.
+The submission's own summary, in this page's words: an easy preliminary cover
 first; the integers still short of two hits are grouped into about $n/\log n$
 tokens; Green--Tao-type progressions in primes, counted with a Selberg sieve,
 pair many tokens so that one free large prime covers two of them, saving
@@ -99,20 +99,20 @@ with AI models used for exploration, computation checks and literature
 search and an automated prover for the partial formalization. On 5
 September 2026 the claimants posted a substantially shorter new version,
 crediting significant help from two named collaborators; the
-site's maintainer asked the same day why the method gives two hits and
-nothing higher, and the answer was the $\log\log n$ gap: most integers have
+erdosproblems.com maintainer asked the same day why the method gives two hits
+and nothing higher, and the answer was the $\log\log n$ gap: most integers have
 at least two distinct prime factors, so the two-hit shortfall is only about
 $n/\log n$, while for three hits the integers with exactly two distinct
 prime factors, about $n\log\log n/\log n$ of them, exceed what the pairing
 argument can absorb, a limit of the argument and not a claim that higher
 coverings fail.
 
-**Standing.** Claimed. The site's label was OPEN (page last edited 8 April
-2026); the tab itself warns that listing a claim does not mean anyone connected
-with the site has examined it, and the maintainer's pinned thread comment of 2
-June 2026 defers any change of label to a refereed publication or an expert's
-careful reading. No refereed or arXiv version, independent review or site
-acceptance was found on 2026-10-07. The comments above are forum checks and
-objections, not a review.
+**Standing.** Claimed. The erdosproblems.com label was OPEN (page last edited 8
+April 2026); the tab itself warns that listing a claim does not mean anyone
+connected with erdosproblems.com has examined it, and the maintainer's pinned
+thread comment of 2 June 2026 defers any change of label to a refereed
+publication or an expert's careful reading. No refereed or arXiv version,
+independent review or erdosproblems.com acceptance was found on 2026-10-07. The
+comments above are forum checks and objections, not a review.
 
 **Depends on.** No page of this wiki.

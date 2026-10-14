@@ -29,12 +29,12 @@ $$
 \mathrm{ex}_3(n,\mathcal{F})=o(n^2)?
 $$
 
-**Status.** The site labeled the problem PROVED (LEAN). It notes that the
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). It notes that the
 question is a conjecture of Brown, Erdős and Sós [BES73]. It credits the answer
 yes to Ruzsa and Szemerédi [RuSz78], in the result known as the Ruzsa–Szemerédi
 or $(6,3)$-theorem. The Lean qualification refers to a Lean 4 proof posted on
-the site's discussion thread on 2026-06-20. The proof is held in Boris Alexeev's
-lean-proofs collection, linked from
+the erdosproblems.com discussion thread on 2026-06-20. The proof is held in
+Boris Alexeev's lean-proofs collection, linked from
 [[problems/set_systems/E0716/claims/1978_01_01_ruzsa_szemeredi|the Ruzsa and Szemerédi six-three theorem]].
 This corpus has not built it.
 
@@ -59,16 +59,16 @@ added on 2026-10-07 and marked research solved there with no formal proof
 named; the community database records the statement formalized from that
 date and the formal status Lean from 2026-06-21. Boris Alexeev's lean-proofs
 collection holds a Lean 4 port of the proof posted in the Lean web editor on
-the site's discussion thread on 2026-06-20, whose header names Ruzsa and
-Szemerédi as the informal authors and Aristotle and JoshuaB as the formal
+the erdosproblems.com discussion thread on 2026-06-20, whose header names Ruzsa
+and Szemerédi as the informal authors and Aristotle and JoshuaB as the formal
 authors; the claim page links it and describes both copies. Neither has been
 built or audited here.
 
 ## Current assessment
 
-The question, in the site's formulation, asks whether a $3$-uniform hypergraph
-on $n$ vertices with no three edges on six vertices has $o(n^2)$ edges. The
-standing is `solved`, `proved`, through
+The question, in the erdosproblems.com formulation, asks whether a $3$-uniform
+hypergraph on $n$ vertices with no three edges on six vertices has $o(n^2)$
+edges. The standing is `solved`, `proved`, through
 [[problems/set_systems/E0716/claims/1978_01_01_ruzsa_szemeredi|the Ruzsa and Szemerédi six-three theorem]]:
 such a hypergraph has $o(n^2)$ edges, and a Behrend-type construction gives
 $n^{2-o(1)}$ edges, so no power saving is possible in this case. The theorem is
@@ -83,15 +83,16 @@ cite the theorem and the lower bound, and
 [[../library/extremal_graph_theory/brown_1973_extremal_problems_graphs/_index|Brown, Erdős and Sós 1973]]
 supplies the general lower bound $n^{(rs-k)/(s-1)}$, here $n^{3/2}$, against
 which the conjecture was posed. The Ruzsa–Szemerédi paper itself is not held,
-and no proof review is recorded. The site's Lean qualification refers to a proof
-posted in the Lean web editor on the discussion thread on 2026-06-20, attributed
-there to Aristotle, and held since 2026-08-26 in Boris Alexeev's lean-proofs
-collection as a port to a later Mathlib; this corpus has built neither copy.
+and no proof review is recorded. The erdosproblems.com Lean qualification refers
+to a proof posted in the Lean web editor on the discussion thread on 2026-06-20,
+attributed there to Aristotle, and held since 2026-08-26 in Boris Alexeev's
+lean-proofs collection as a port to a later Mathlib; this corpus has built
+neither copy.
 
-Search scope: the site's problem page, discussion thread (one comment on
-2026-10-07) and proof-claims page (none), the community database
-entry (teorth/erdosproblems), the formal-conjectures statement file, the
-lean-proofs catalog, and the library cards named above.
+Search scope: the erdosproblems.com problem page, discussion thread (one comment
+on 2026-10-07) and proof-claims page (none), the community database entry
+(teorth/erdosproblems), the formal-conjectures statement file, the lean-proofs
+catalog, and the library cards named above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

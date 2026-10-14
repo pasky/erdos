@@ -43,8 +43,8 @@ $$
 In view of (2.12), this would be best possible."
 
 Two filing observations. The modulus is $p^2+p+1$ with $p=q^\alpha$ a
-prime power, as in Singer's theorem, where the site's Problem 707 asks for
-a prime $p$; a disproof for prime $p$ is not by itself a disproof of the
+prime power, as in Singer's theorem, where erdosproblems.com's Problem 707 asks
+for a prime $p$; a disproof for prime $p$ is not by itself a disproof of the
 printed form. No prize is printed for this conjecture; the prize on the
 same page is offered for (2.14) and (2.15), the size of a maximal Sidon set
 in $\{1,\ldots,n\}$.
@@ -71,7 +71,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/additive_bases/E0707/_index|Problem 707]]: the site's source for the
-  problem; the conjecture as Erdős stated it in 1997, modulo $p^2+p+1$ for a
-  prime power $p$, the author's own doubt about it, and the weaker completion
-  conjecture he offered instead.
+- [[../wiki/problems/additive_bases/E0707/_index|Problem 707]]: the
+  erdosproblems.com source for the problem; the conjecture as Erdős stated it in
+  1997, modulo $p^2+p+1$ for a prime power $p$, the author's own doubt about it,
+  and the weaker completion conjecture he offered instead.

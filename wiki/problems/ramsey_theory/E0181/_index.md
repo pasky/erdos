@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0181
 title: Problem 181
 desc: |
   Asks whether $R(Q_n)\ll 2^n$ for the $n$-dimensional hypercube graph $Q_n$,
-  which has $2^n$ vertices. It was open on the site, and a 2026 OpenAI release
-  preprint claims the linear bound in full.
+  which has $2^n$ vertices. It was open on erdosproblems.com, and a 2026 OpenAI
+  release preprint claims the linear bound in full.
 tags:
 - Graph theory
 - Ramsey theory
@@ -29,29 +29,29 @@ $$
 R(Q_n) \ll 2^n.
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
-last-edited date). $R(Q_n)$ is the least $N$ such that every red-blue coloring
-of the edges of $K_N$ contains a monochromatic copy of $Q_n$, and
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited date). $R(Q_n)$ is the least $N$ such that every red-blue
+coloring of the edges of $K_N$ contains a monochromatic copy of $Q_n$, and
 "$R(Q_n)\ll2^n$" means
 $R(Q_n)\le C\,2^n$ for an absolute constant $C$; in the words of the 1975
 source, whether the set of cubes is an $L$-set. The commentary's attribution of
-the conjecture to Burr and Erdős is the site's wording: the 1975 paper poses the
-cubes as "an interesting test case" with a prize and states no expected answer,
-and Erdős's 1981 survey says "Burr and I expected (16) to be true and (16') to
-be false" ([Er81], p. 13).
+the conjecture to Burr and Erdős is the erdosproblems.com wording: the 1975
+paper poses the cubes as "an interesting test case" with a prize and states no
+expected answer, and Erdős's 1981 survey says "Burr and I expected (16) to be
+true and (16') to be false" ([Er81], p. 13).
 
-**Status.** Open: the site labeled the problem OPEN (accessed 2026-09-18). The
-derived standing is claimed, through the claim page of a preprint that appeared
-after the search described here. The best bounds located in that search, whose
-scope the Current assessment records, are the following. The first is the
-trivial $R(Q_n)\ge2^n$, since a copy of $Q_n$ needs $2^n$ vertices. The second
-is Tikhomirov's $R(Q_n)\le2^{2n-cn+1}+2$ for all large $n$ with $c=0.03656$,
-that is $R(Q_n)\le2^{1.96344n+1}+2$ (European J. Combin. 120 (2024), 103954,
-refereed; cited from the arXiv v3). The search found no proof of the linear
-bound, no counterexample, no preprint and no proof claim. This is a bounded
-negative finding, not a certificate of openness. After that search, the OpenAI
-release's preprint of 23 September 2026 claimed the linear bound
-$R(Q_n)\le C2^n$ in full. The claim page
+**Status.** Open: Bloom's catalog labeled the problem OPEN (accessed
+2026-09-18). The derived standing is claimed, through the claim page of a
+preprint that appeared after the search described here. The best bounds located
+in that search dated 2026-09-18 UTC, whose scope the Current assessment records,
+are the following. The first is the trivial $R(Q_n)\ge2^n$, since a copy of
+$Q_n$ needs $2^n$ vertices. The second is Tikhomirov's $R(Q_n)\le2^{2n-cn+1}+2$
+for all large $n$ with $c=0.03656$, that is $R(Q_n)\le2^{1.96344n+1}+2$
+(European J. Combin. 120 (2024), 103954, refereed; cited from the arXiv v3). The
+search found no proof of the linear bound, no counterexample, no preprint and no
+proof claim. This is a bounded negative finding, not a certificate of openness.
+After that search, the OpenAI release's preprint of 23 September 2026 claimed
+the linear bound $R(Q_n)\le C2^n$ in full. The claim page
 [[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]] records it
 as claimed, since it is unrefereed and unreviewed, and the third-party Lean
 proof of the theorem that formal-conjectures links has not been built or
@@ -61,11 +61,11 @@ audited here. The curator's blog post
 that the release gives no formal proof of it.
 
 **Source.** [erdosproblems.com/181](https://www.erdosproblems.com/181),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that the
-problem is open and not decidable by a finite computation; no last-edited
-date shown; source keys [BuEr75], [Er93, p. 346]; commentary citing [Ti22];
-the formalized-statement indicator set), its one-comment discussion thread
-and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #181,
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that the problem is open and not decidable by a finite computation; no
+last-edited date shown; source keys [BuEr75], [Er93, p. 346]; commentary citing
+[Ti22]; the formalized-statement indicator set), its one-comment discussion
+thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #181,
 https://www.erdosproblems.com/181, accessed 2026-09-18.
 
 **References.**
@@ -74,25 +74,25 @@ https://www.erdosproblems.com/181, accessed 2026-09-18.
   European J. Combin. 120 (2024), 103954, doi:10.1016/j.ejc.2024.103954
   (Crossref record accessed 2026-09-18: issue dated August 2024);
   arXiv:2208.14568 (v1 30 August 2022, v3 2 March 2024; 24 pages; the arXiv
-  listing carries no journal reference). The site's text cites the arXiv
-  number with the year 2022. Theorem 1.1, the Remark after it and
+  listing carries no journal reference). The erdosproblems.com text cites the
+  arXiv number with the year 2022. Theorem 1.1, the Remark after it and
   Corollary 1.2, p. 2; Remark 1.3, p. 3. Library home:
   [[../library/ramsey_theory/tikhomirov_2024_remark_ramsey_number_hypercube/_index|tikhomirov_2024_remark_ramsey_number_hypercube]].
 - [BuEr75] Burr, S. A. and Erdős, P., On the magnitude of generalized Ramsey
   numbers for graphs. Infinite and finite sets (Colloq., Keszthely, 1973),
   Vol. I, Colloq. Math. Soc. János Bolyai 10, North-Holland (1975),
-  215--240. The site's text prints no venue. The cube question, p. 239.
-  Library home:
+  215--240. The erdosproblems.com text prints no venue. The cube question,
+  p. 239. Library home:
   [[../library/ramsey_theory/burr_1975_magnitude_generalized_ramsey_numbers_graphs/_index|burr_1975_magnitude_generalized_ramsey_numbers_graphs]]
   (the Rényi archive scan).
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
   graph theory. Quaestiones Math. 16 (1993), 333--350; Chapter V, problem
-  12, printed p. 346. The site cites p. 346. The survey writes $C^{(n)}$
-  for the page's $Q_n$. Library home:
+  12, printed p. 346. erdosproblems.com cites p. 346. The survey writes
+  $C^{(n)}$ for the page's $Q_n$. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Er81] Erdős, P., Some new problems and results in graph theory and other
   branches of combinatorial mathematics. Lecture Notes in Math. 885 (1981),
-  9--17. Not a site key; display (16') on p. 13. Library home:
+  9--17. Not an erdosproblems.com key; display (16') on p. 13. Library home:
   [[../library/ramsey_theory/erdos_1981_new_problems_results_graph_theory_other/_index|erdos_1981_new_problems_results_graph_theory_other]]
   (a scan).
 - [Le17] Lee, Choongbum, Ramsey numbers of degenerate graphs. Ann. of Math.
@@ -114,12 +114,11 @@ https://www.erdosproblems.com/181, accessed 2026-09-18.
 - [CFS16] Conlon, D., Fox, J. and Sudakov, B., Short proofs of some
   extremal results II. J. Combin. Theory Ser. B 121 (2016), 173--196,
   doi:10.1016/j.jctb.2016.03.005; arXiv:1507.00547v2 (11 February 2016;
-  the journal text is not held). Not a site key; it is the reference [4]
-  of [Ti22] and the reference [11] of [Le17]. Theorem 4.1 and Corollary
-  4.2, preprint p. 7: "For every
-  bipartite graph $H$ on $n$ vertices with maximum degree $\Delta$,
-  $r(H)\le2^{\Delta+6}n$" and "For every positive integer $d$,
-  $r(Q_d)\le2^{2d+6}$". Library home:
+  the journal text is not held). Not an erdosproblems.com key; it is the
+  reference [4] of [Ti22] and the reference [11] of [Le17]. Theorem 4.1 and
+  Corollary 4.2, preprint p. 7: "For every bipartite graph $H$ on $n$ vertices
+  with maximum degree $\Delta$, $r(H)\le2^{\Delta+6}n$" and "For every positive
+  integer $d$, $r(Q_d)\le2^{2d+6}$". Library home:
   [[../library/set_systems/conlon_2016_short_proofs_extremal_results_ii/_index|conlon_2016_short_proofs_extremal_results_ii]].
 - [HSZ26] Heath, E., Schwieder, C. and Zerbib, S., Generalized Ramsey
   numbers in the hypercube. arXiv:2601.15451v1 (21 January 2026), 12
@@ -129,8 +128,8 @@ https://www.erdosproblems.com/181, accessed 2026-09-18.
 - [OAI26] OpenAI, The hypercube Ramsey number has linear order. Preprint of
   the OpenAI mathematics release, 23 September 2026
   ([paper.pdf](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-hypercube-Ramsey-number-has-linear-order-September-23-2026/paper.pdf)
-  at the release's pinned revision); not a site key; unrefereed; the
-  release's Lean proves only its Lemma 2.1 and elementary bounds, not
+  at the release's pinned revision); not an erdosproblems.com key; unrefereed;
+  the release's Lean proves only its Lemma 2.1 and elementary bounds, not
   Theorem 1.1, and a third-party Lean proof of Theorem 1.1, not built here,
   is recorded under Formalization. Claims checked for Theorem 1.1, Lemma
   2.1 and the staging statements of the proof; the proof read for
@@ -162,24 +161,25 @@ kernel and the independent checker nanoda accept the proof; the claim page
 [[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]]
 describes it. The community database (teorth/erdosproblems) lists the problem
 as open and its statement as formalized, with entries last updated 31 August
-2025 and 7 September 2026, and the formal status as unformalized; the site's
-indicator reads "Formalised statement? Yes" (it read "No" on 2026-09-05).
-Nothing was built or checked here.
+2025 and 7 September 2026, and the formal status as unformalized; the
+erdosproblems.com indicator reads "Formalised statement? Yes" (it read "No" on
+2026-09-05). Nothing was built or checked here.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement above;
-OPEN; source keys [BuEr75] and [Er93, p. 346]. The commentary, in summary,
-attributes the conjecture to Burr and Erdős while noting that in [Er93] Erdős
-describes the behavior of $R(Q_n)$ as a question he and Sós could not decide,
-namely whether $R(Q_n)/2^n$ tends to infinity; it gives the trivial bound
-$R(Q_n)\le R(K_{2^n})\le C^{2^n}$, says that it was improved several times,
-names Tikhomirov's $R(Q_n)\ll2^{(2-c)n}$ with $c\approx0.03656$ permissible as
-the best bound, and places the problem as number 20 of the Ramsey theory section
-of the graphs problem collection. The thread has one comment (23 July 2026),
-reporting a misspelling in the commentary that its author says was found with an
-AI assistant; the proof-claim tab is empty. The community database record
-(accessed 2026-09-18) lists the problem as open and its statement as formalized.
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN; source keys [BuEr75] and [Er93, p. 346]. The commentary,
+in summary, attributes the conjecture to Burr and Erdős while noting that in
+[Er93] Erdős describes the behavior of $R(Q_n)$ as a question he and Sós could
+not decide, namely whether $R(Q_n)/2^n$ tends to infinity; it gives the trivial
+bound $R(Q_n)\le R(K_{2^n})\le C^{2^n}$, says that it was improved several
+times, names Tikhomirov's $R(Q_n)\ll2^{(2-c)n}$ with $c\approx0.03656$
+permissible as the best bound, and places the problem as number 20 of the Ramsey
+theory section of the graphs problem collection. The thread has one comment (23
+July 2026), reporting a misspelling in the commentary that its author says was
+found with an AI assistant; the proof-claim tab is empty. The community database
+record (accessed 2026-09-18) lists the problem as open and its statement as
+formalized.
 
 **Origin.** [BuEr75], in the Rényi archive scan. Section 7, "Problems and
 conjectures" (printed pp. 238--239), after recording that the linear-Ramsey
@@ -199,14 +199,14 @@ absolute constant $c_1$ $r(G_c(n),G_c(n))<c_1\cdot2^n$ (16') is true. (16)
 and (16') seem to me to be two very attractive problems. Burr and I expected
 (16) to be true and (16') to be false." So the sources pose a question, and
 in 1981 Erdős records that he and Burr expected a negative answer; the
-attribution of a conjecture to Burr and Erdős is the site's own wording, and
-the site's later sentence that Erdős and Sós could not decide the question
-matches the sources. [Er93], the site's other key,
+attribution of a conjecture to Burr and Erdős is erdosproblems.com's own
+wording, and erdosproblems.com's later sentence that Erdős and Sós could not
+decide the question matches the sources. [Er93], erdosproblems.com's other key,
 Chapter V, problem 12 (printed p. 346): "Vera Sós and I tried to determine
 $r(C^{(n)},C^{(n)})$, the Ramsey number of $C^{(n)}$. We could not decide
 whether $\lim_{n\to\infty}r(C^{(n)},C^{(n)})/2^n=\infty$ is true", with
 $C^{(n)}$ the $n$-dimensional cube; a question with no conjectured
-answer, as the site's commentary reports.
+answer, as the erdosproblems.com commentary reports.
 
 **Best known bounds.** Upper: Tikhomirov's
 [[../library/ramsey_theory/tikhomirov_2024_remark_ramsey_number_hypercube/corollary_1_2|Corollary 1.2]],
@@ -220,23 +220,22 @@ $2^{2n-cn}$ and edge density at least $1/2$, and the Remark after it says
 "one can take $c=0.03656$ assuming that $n_0$ is sufficiently large". The
 paper does not print the exponent numerically; $2-0.03656=1.96344$ is a
 subtraction made here, so the bound reads $R(Q_n)\le2^{1.96344n+1}+2$ for
-all large $n$, the site's $R(Q_n)\ll2^{(2-c)n}$ with $c\approx0.03656$.
+all large $n$, erdosproblems.com's $R(Q_n)\ll2^{(2-c)n}$ with $c\approx0.03656$.
 Acceptance
 evidence: the European Journal of Combinatorics is refereed, and the
 Crossref record (accessed 2026-09-18) places the article in volume 120 (2024),
 article 103954; the version cited is the arXiv v3 and the journal text
-was not compared. Before it: the trivial $R(Q_n)\le R(K_{2^n})\le C^{2^n}$ (the
-site); the $O(2^{2n})$ bound of [CFS16], p. 7 of its preprint: Theorem
-4.1, "For every bipartite graph $H$ on $n$
-vertices with maximum degree $\Delta$, $r(H)\le2^{\Delta+6}n$", and
-Corollary 4.2, "For every positive integer $d$, $r(Q_d)\le2^{2d+6}$", the
-same page recording Fox and Sudakov's earlier $r(Q_d)\le d2^{2d+5}$ and
-that "results similar to Theorem 4.1 and Corollary 4.2 were proved by Lee".
-[Ti22] (p. 1) quotes it, as its Theorem ([4, Theorem 4.1]), as "For
-every bipartite graph $H$ on $m$ vertices with maximum degree $d$, one has
-$r(H)\le2^{d+6}m$", and [Le17] (p. 4) as "the current best known bound
-$r(Q_n)\le2^{2n+6}$ of Conlon, Fox, and Sudakov"; their [4] and [11] are
-both [CFS16]. The theorem is not in [CFS12], whose published text has
+was not compared. Before it: the trivial $R(Q_n)\le R(K_{2^n})\le C^{2^n}$
+(erdosproblems.com); the $O(2^{2n})$ bound of [CFS16], p. 7 of its preprint:
+Theorem 4.1, "For every bipartite graph $H$ on $n$ vertices with maximum degree
+$\Delta$, $r(H)\le2^{\Delta+6}n$", and Corollary 4.2, "For every positive
+integer $d$, $r(Q_d)\le2^{2d+6}$", the same page recording Fox and Sudakov's
+earlier $r(Q_d)\le d2^{2d+5}$ and that "results similar to Theorem 4.1 and
+Corollary 4.2 were proved by Lee". [Ti22] (p. 1) quotes it, as its Theorem ([4,
+Theorem 4.1]), as "For every bipartite graph $H$ on $m$ vertices with maximum
+degree $d$, one has $r(H)\le2^{d+6}m$", and [Le17] (p. 4) as "the current best
+known bound $r(Q_n)\le2^{2n+6}$ of Conlon, Fox, and Sudakov"; their [4] and [11]
+are both [CFS16]. The theorem is not in [CFS12], whose published text has
 concluding remarks as its Section 4 and no bipartite theorem. [Le17]'s own
 remark after Theorem 1.3 (p. 4): "Theorem 1.3 with
 $\varepsilon=\frac{n^2}{2^n}$ and $\alpha=\frac12$ shows that
@@ -258,7 +257,7 @@ component is too small for $Q_n$, and a blue copy would need $2^{n-1}$
 vertices in each block), which [OAI26]'s introduction states with that
 argument and attributes to the introduction of Conlon, Fox, Lee and
 Sudakov, *Ramsey numbers of cubes versus cliques*, Combinatorica 36
-(2016), 37--70, a paper outside this page's sources; the site gives no
+(2016), 37--70, a paper outside this page's sources; erdosproblems.com gives no
 lower bound. So
 $3\cdot2^{n-1}-1\le R(Q_n)\le2^{1.96344n+1}+2$ for large $n$, and the
 question is whether the exponent can be brought down to $n$.
@@ -292,11 +291,11 @@ pp. 1--2); it is a coloring number of the cube's
 edges, contains no statement about $R(Q_n)$, and is recorded as 2026 work
 on hypercube colorings, not as progress.
 
-**Search scope.** None of the routes below found a proof
+**Search scope (2026-09-18 UTC).** None of the routes below found a proof
 of $R(Q_n)\ll2^n$, a counterexample, a bound better than [Ti22]'s, a
 preprint or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures file at the pinned
   commit (statement only).
 - arXiv: the API records of 2208.14568 (v3 latest; no journal reference),
@@ -333,9 +332,9 @@ refereed version or a documented independent acceptance of that proof, a
 build here of the third-party Lean proof with an audit of its statement, a
 superlinear lower bound, or an independent improvement of the exponent.
 (2) [Er93],
-one of the site's two keys, has its problem 12 (p. 346) quoted above,
-confirming the site's account of the Erdős--Sós question; the prior bound
-$2^{2n+6}$ is cited from [CFS16]'s preprint, whose journal text was not
+one of erdosproblems.com's two keys, has its problem 12 (p. 346) quoted above,
+confirming erdosproblems.com's account of the Erdős--Sós question; the prior
+bound $2^{2n+6}$ is cited from [CFS16]'s preprint, whose journal text was not
 compared. (3) Proof coverage is statements
 only: Theorem 1.1 and Corollary 1.2 of [Ti22] are paged at claims checked,
 and of [OAI26]'s claimed proof of the linear bound the statements of

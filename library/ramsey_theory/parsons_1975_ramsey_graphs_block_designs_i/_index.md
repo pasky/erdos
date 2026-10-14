@@ -106,7 +106,7 @@ and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0552/_index|#552]]: Theorem 1,
 proved through Lemma 1, is in integer form the upper bound
-$R(C_4,S_n)\le n+\lceil\sqrt n\rceil+1$ the site quotes, and Theorems 1
+$R(C_4,S_n)\le n+\lceil\sqrt n\rceil+1$ erdosproblems.com quotes, and Theorems 1
 and 2 are the exact values $R(C_4,S_n)=n+\lceil\sqrt n\rceil$ at
 $n=q^2+1$ and $n+\lceil\sqrt n\rceil+1$ at $n=q^2$ for prime powers $q$;
 the Remark on p. 35 gives $R(C_4,S_7)=11$ and asks whether the upper bound

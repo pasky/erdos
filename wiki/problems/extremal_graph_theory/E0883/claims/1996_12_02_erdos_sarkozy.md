@@ -55,5 +55,6 @@ the second question, settled by
 
 **Acceptance.** `refereed`: the paper appeared in the Electronic Journal of
 Combinatorics, submitted 20 June 1996 and accepted and published 2 December
-1996. The site's curator credits the result in commentary on a problem the
-site labeled OPEN, so the commentary gives no `reviewed` evidence.
+1996. The erdosproblems.com curator credits the result in commentary on a
+problem Bloom's catalog labeled OPEN, so the commentary gives no `reviewed`
+evidence.

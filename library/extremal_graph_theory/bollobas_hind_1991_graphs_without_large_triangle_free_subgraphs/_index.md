@@ -197,14 +197,14 @@ read for structure only. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0620/_index|#620]]: Theorem 1
 (printed p. 120, PDF p. 2), "If $n>4$ then $f_{3,4}(n)\ge(2n)^{1/2}$", and
 Theorem 5 (printed p. 127, PDF p. 9), "For $\epsilon>0$ and sufficiently
-large $n$, $f_{3,4}(n)\le n^{(7/10)+\epsilon}$", are the bounds the site's
-commentary attributes to the paper, $n^{1/2}\ll f(n)\ll n^{7/10+o(1)}$;
-$f_{3,4}(n)$, defined on pp. 119--120 through vertex induced subgraphs, is
-the site's $f(n)$, the largest order of a triangle-free induced subgraph
-forced in every $K^4$-free graph on $n$ vertices. Theorem 6 (p. 128) and
-Corollary 10 (p. 131) are the general bounds
-$n^{1/(s-r+1)}\le f_{r,s}(n)\le n^{(s-3)/(s-2)+2/(s+1)(s-2)+\epsilon}$ that
-the introduction of
+large $n$, $f_{3,4}(n)\le n^{(7/10)+\epsilon}$", are the bounds the
+erdosproblems.com commentary attributes to the paper,
+$n^{1/2}\ll f(n)\ll n^{7/10+o(1)}$; $f_{3,4}(n)$, defined on pp. 119--120
+through vertex induced subgraphs, is erdosproblems.com's $f(n)$, the largest
+order of a triangle-free induced subgraph forced in every $K^4$-free graph on
+$n$ vertices. Theorem 6 (p. 128) and Corollary 10 (p. 131) are the general
+bounds $n^{1/(s-r+1)}\le f_{r,s}(n)\le n^{(s-3)/(s-2)+2/(s+1)(s-2)+\epsilon}$
+that the introduction of
 [[extremal_graph_theory/krivelevich_1994_free_graphs_without_large_free_subgraphs/_index|krivelevich_1994_free_graphs_without_large_free_subgraphs]]
 quotes, so that second-hand quotation, which the problem page records,
 agrees with the printed statements. The paper leaves the order of

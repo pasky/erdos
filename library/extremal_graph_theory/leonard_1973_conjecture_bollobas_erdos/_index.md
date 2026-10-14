@@ -53,8 +53,8 @@ reference [6] of
 [[extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/_index|sorensen_thomassen_1974_k_rails_graphs]],
 which reports it on p. 143. The library's other 1973 Leonard paper,
 [[extremal_graph_theory/leonard_1973_graphs_ways/_index|leonard_1973_graphs_ways]]
-(the site's Le73b), is a different paper, the Canadian journal paper named
-in this note's Added in proof.
+(erdosproblems.com's Le73b), is a different paper, the Canadian journal paper
+named in this note's Added in proof.
 
 The copy read for this card is the
 publisher's scan of the printed article: 4 pages, printed pp. 281--284 =
@@ -156,11 +156,11 @@ $F$", was not checked. Nothing here is independently reviewed.
   $6+3(26j-1)=78j+3$ points and $12+3\cdot65j$ edges, and $F_6$ has
   $6+2(k(78j+2)-1)=2k(78j+2)+4$ points and $12+2k(195j+11)$ edges, as
   printed, and the excess $12k+2$ follows. The note prints no constant $c$;
-  with $j=2$, $F_6$ has $n=316k+4$ points and $\frac52n+12k+2
-  =\frac52n+\frac3{79}(n-4)+2$ edges, so the site's remark on the paper,
-  that "one can take $c=\frac3{80}$" in $k_5(n)>(\frac52+c)n-O(1)$, is
-  consistent with this sequence (an arithmetic note made here, not a review
-  verdict).
+  with $j=2$, $F_6$ has $n=316k+4$ points and
+  $\frac52n+12k+2 =\frac52n+\frac3{79}(n-4)+2$ edges, so the erdosproblems.com
+  remark on the paper, that "one can take $c=\frac3{80}$" in
+  $k_5(n)>(\frac52+c)n-O(1)$, is consistent with this sequence (an arithmetic
+  note made here, not a review verdict).
 - Closing (p. 283, page image). Quoted: "We suspect that the conjecture
   will be valid if the requirement that the paths be disjoint (i.e., have
   no points in common, save the endpoints) is replaced with the weaker
@@ -195,17 +195,17 @@ constructed graphs was not checked. The opening's report of Bollobás's $m=4$
 result is the author's citation of [1], not a text of that paper. Nothing
 here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key
-Le73 and the first published disproof of the conjecture under the
-vertex-disjoint reading. P. 281 (page image) states the conjecture in the
-problem's exact form, "every graph having $1+n(m-1)$ points and
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the
+erdosproblems.com key Le73 and the first published disproof of the conjecture
+under the vertex-disjoint reading. P. 281 (page image) states the conjecture in
+the problem's exact form, "every graph having $1+n(m-1)$ points and
 $1+n\binom m2$ edges contains two points which are joined by $m$ disjoint
 paths", with "disjoint" glossed on p. 283 as "have no points in common,
 save the endpoints", and announces the graph $G$ with 57 points and 141
 edges ($m=5$, $n=14$) and no 5-way; p. 282 constructs $G$ by deleting one
 edge from $F_3$, which has 57 points and 142 edges (the announcement is
-quoted in Contents above), the site's "57 vertices and 141 edges", so the
-answer at $m=5$, $n=14$ is no under that reading, consistent with
+quoted in Contents above), erdosproblems.com's "57 vertices and 141 edges", so
+the answer at $m=5$, $n=14$ is no under that reading, consistent with
 $k_5(57)=149$
 from
 [[extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/theorem_4|Sørensen and Thomassen's Theorem 4]].
@@ -214,7 +214,7 @@ than $[5n/2]+s$ edges, containing no 5-way", so "$k_5(n)$ cannot be given
 by a linear function of $n$ with coefficient $5/2$", the statement behind
 [[extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/remark_p244|Leonard 1972]]'s
 report (p. 242) that "for any constant $c$ there is a value of $n$ with
-$k_5(n)>5n/2+c$". The site's $k_5(n)>(\frac52+c)n-O(1)$ is not printed:
+$k_5(n)>5n/2+c$". erdosproblems.com's $k_5(n)>(\frac52+c)n-O(1)$ is not printed:
 the note prints no $c$, and the linear excess comes from the counts of
 $F_6$ with $j$ fixed (see
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/bound_p282|bound_p282]]). P. 281 also reports Bollobás's $m=4$ result, citing the

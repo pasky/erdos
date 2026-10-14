@@ -45,10 +45,11 @@ https://www.erdosproblems.com/26.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04; the site's page was last edited
-2026-04-08) asks whether every infinite $A\subset\mathbb{N}$ has a shift $k$
-for which almost all integers have a divisor in $A+k$. The answer is no, and
-the standing derives from three accepted full claims. Two are older:
+The erdosproblems.com formulation (accessed 2026-09-04; the erdosproblems.com
+page was last edited 2026-04-08) asks whether every infinite
+$A\subset\mathbb{N}$ has a shift $k$ for which almost all integers have a
+divisor in $A+k$. The answer is no, and the standing derives from three accepted
+full claims. Two are older:
 [[problems/divisors/E0026/claims/1951_01_01_davenport_erdos|Davenport and Erdős 1951]],
 whose theorem that a set of multiples of density one needs a divergent
 reciprocal sum predates the question and refutes it for every infinite set with
@@ -56,28 +57,29 @@ a convergent reciprocal sum, and
 [[problems/divisors/E0026/claims/1995_01_01_ruzsa|Ruzsa's counterexample]],
 an explicit sequence built by the Chinese remainder theorem whose shifted copies
 all miss a positive-density progression, whose existence Erdős reported in
-[Er95]. Both are accepted on the site curator's credit; the 1951 paper is
-refereed. The site reports van Doorn's modification of Ruzsa's construction to a
-set with divergent reciprocal sum, and the formal-conjectures statement file
-restricts the question to such sets while the site's statement does not.
+[Er95]. Both are accepted on the erdosproblems.com curator's credit; the 1951
+paper is refereed. erdosproblems.com reports van Doorn's modification of Ruzsa's
+construction to a set with divergent reciprocal sum, and the formal-conjectures
+statement file restricts the question to such sets while the erdosproblems.com
+statement does not.
 
-The site's label carried a Lean qualification: the community database records
-that the statement and its resolution are both formalized, the resolution in
-Boris Alexeev's repository as a formalization of Ruzsa's construction, linked
-from that claim page. The file proves Ruzsa's set as its own statement and the
-formal-conjectures variant for sets with convergent reciprocal sum with the
-witness $2^{2^n}$; the project's main statement, which restricts the question
-to sets with divergent reciprocal sum, is not proved by it, although the
-statement file points to it. The file is third-party Lean that this corpus has
-not built, so no claim lists `formalized` evidence.
+The erdosproblems.com label carried a Lean qualification: the community database
+records that the statement and its resolution are both formalized, the
+resolution in Boris Alexeev's repository as a formalization of Ruzsa's
+construction, linked from that claim page. The file proves Ruzsa's set as its
+own statement and the formal-conjectures variant for sets with convergent
+reciprocal sum with the witness $2^{2^n}$; the project's main statement, which
+restricts the question to sets with divergent reciprocal sum, is not proved by
+it, although the statement file points to it. The file is third-party Lean that
+this corpus has not built, so no claim lists `formalized` evidence.
 
 Tenenbaum's weaker variant, that for every $\epsilon>0$ some shift makes
 the multiples of $A+k$ reach density at least $1-\epsilon$, is a different
-question. The site reports it resolved in the negative by a DeepMind prover
-agent, with an infinite $A$ such that for every $k\geq 1$ the multiples of
-$A+k$ have upper density below $0.34$; the result was posted in the site's
-thread on 2026-04-06 with a
-[Lean proof](https://github.com/mo271/formal-conjectures/blob/09c54540aa51cb40dff73660c94a82e2631386f8/FormalConjectures/ErdosProblems/26.lean#L625)
+question. erdosproblems.com reports it resolved in the negative by a DeepMind
+prover agent, with an infinite $A$ such that for every $k\geq 1$ the multiples
+of $A+k$ have upper density below $0.34$; the result was posted in the
+erdosproblems.com thread on 2026-04-06 with a [Lean
+proof](https://github.com/mo271/formal-conjectures/blob/09c54540aa51cb40dff73660c94a82e2631386f8/FormalConjectures/ErdosProblems/26.lean#L625)
 in a fork of formal-conjectures. The agent is Google DeepMind's AlphaProof
 Nexus, whose refereed paper (Tsoukalas et al., Science, 2026) proves the
 result in its Appendix B.4, with the bound stated as upper density below $3/4$
@@ -90,10 +92,10 @@ sets. It is the third accepted full claim, recorded on
 accepted on the paper's refereed publication; the curator credits the result
 for the variant only, and this corpus has not built the Lean files.
 
-Search scope: the site's problem page and thread, the community database
-(teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures statement
-file and the Lean repository named above. On 2026-10-07 none of them held a
-further claim on the stated question. Nothing remains open in the stated
+Search scope: the erdosproblems.com problem page and thread, the community
+database (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures
+statement file and the Lean repository named above. On 2026-10-07 none of them
+held a further claim on the stated question. Nothing remains open in the stated
 question.
 
 <!-- BEGIN problem library links -->

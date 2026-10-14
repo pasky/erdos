@@ -41,8 +41,8 @@ It says it simplifies DeepMind's proofs along the lines Tao suggested, and
 that its sets also satisfy the reading in which the two larger elements may
 coincide (Remark 1.2).
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 7 April
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+7 April 2026:
 
 > GPT-5.4 Thinking and I have simplified DeepMind's proofs according to Tao's
 > suggestions. We use a common construction template, which is close to
@@ -52,8 +52,8 @@ coincide (Remark 1.2).
 
 **Covers.** The first two questions; not the third.
 
-**Standing.** Claimed: posted in the thread and not refereed. The site's label
-was OPEN; its commentary credits DeepMind's construction and thanks the
-author.
+**Standing.** Claimed: posted in the thread and not refereed. The
+erdosproblems.com label was OPEN; its commentary credits DeepMind's construction
+and thanks the author.
 
 **Depends on.** No page of this wiki.

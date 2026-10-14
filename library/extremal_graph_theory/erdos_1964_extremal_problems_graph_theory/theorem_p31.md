@@ -93,9 +93,9 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0766/_index|Problem 766]]: the Dirac--Erdős
-  statements of the paper and the identity of their sources; the site's
-  commentary sentence on $l=\lfloor k^2/4\rfloor+1$ is the p. 34 statement
-  paged at
+  statements of the paper and the identity of their sources; the
+  erdosproblems.com commentary sentence on $l=\lfloor k^2/4\rfloor+1$ is the p.
+  34 statement paged at
   [[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/theorem_p34|theorem_p34]],
   and the present page is the $k=4$ instance $f(n;4,5)=[n^2/4]+1$ with the
   $K_{k+1}$-minus-an-edge theorem beside it.

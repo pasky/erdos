@@ -4,8 +4,8 @@ title: "Conjecture 2 (p. 2): the independence number of the random Cayley graph 
 desc: |
   The conjecture, attributed to Alon's earlier work and restated by Alon and
   Pham, that random Cayley graphs G(p) have independence number O~(1/p) whp,
-  as random regular graphs of the same degree do; the site's account says it
-  would give the conjectured n^(1/2+o(1)) of Problem 788.
+  as random regular graphs of the same degree do; erdosproblems.com's account
+  says it would give the conjectured n^(1/2+o(1)) of Problem 788.
 created: 2026-10-08T14:54:07Z
 updated: 2026-10-08T14:54:07Z
 ---
@@ -60,9 +60,9 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0788/_index|Problem 788]]: the
-  site's account, adopted in its commentary, is that the reduction turning
-  an almost-sure independence bound $\ll p^{-c-o(1)}$ into
+- [[../wiki/problems/additive_combinatorics/E0788/_index|Problem 788]]:
+  erdosproblems.com's account, adopted in its commentary, is that the reduction
+  turning an almost-sure independence bound $\ll p^{-c-o(1)}$ into
   $f(n)\le n^{c/(c+1)+o(1)}$ would, with this conjecture's exponent $c=1$,
   give the conjectured $f(n)\le n^{1/2+o(1)}$. That reduction is the
   thread's, not a statement of this paper, which does not mention the

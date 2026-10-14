@@ -28,8 +28,8 @@ $$
 g(n) > n^{1-\epsilon}?
 $$
 
-**Status.** Claimed: a pending full claim would settle it. The site labeled the
-problem OPEN (page last edited 1 October 2025; accessed 2026-09-04).
+**Status.** Claimed: a pending full claim would settle it. Bloom's catalog
+labeled the problem OPEN (page last edited 1 October 2025; accessed 2026-09-04).
 
 The OpenAI release of September 2026 claims a proof that for every $\epsilon>0$
 infinitely many $n$ have $g(n)>n^{1-\epsilon}$. The proof uses a count of
@@ -47,8 +47,8 @@ Harman's refereed bound $g(n)>n^{0.7039}$ for infinitely many $n$ settles every
 $\epsilon\ge0.2961$. It is on
 [[problems/arithmetic_functions/E0821/claims/1998_01_01_baker_harman|Baker and Harman 1998]].
 Lichtman's bound $g(n)\ge n^{0.7156}$ for infinitely many $n$ settles every
-$\epsilon\ge0.2844$. It is strict by Theorem 1.1 of [Li22], it is the site's
-best known bound, and it is on
+$\epsilon\ge0.2844$. It is strict by Theorem 1.1 of [Li22], it is
+erdosproblems.com's best known bound, and it is on
 [[problems/arithmetic_functions/E0821/claims/2022_11_14_lichtman|Lichtman 2022]].
 
 **Source.** [erdosproblems.com/821](https://www.erdosproblems.com/821), accessed
@@ -83,9 +83,9 @@ library's
 whose Theorem 1.1 is the exact question answered yes and whose Theorem 1.2
 supplies the smooth shifted primes; its companion on the
 [[../library/arithmetic_functions/openai_2026_poisson_dirichlet_law_prime_predecessors/_index|Poisson–Dirichlet law for prime predecessors]]
-claims the stronger positive-proportion statement the site's commentary names
-as sufficient. Both are recorded on the claim page above as manuscript
-statements; no outside review of either is known, and no independent
+claims the stronger positive-proportion statement the erdosproblems.com
+commentary names as sufficient. Both are recorded on the claim page above as
+manuscript statements; no outside review of either is known, and no independent
 assessment of proof coverage is recorded. The fixed-exponent records before the
 release each settle a range of $\epsilon$ and have partial claim pages:
 Corollary 1 of Baker and Harman [BaHa98] gives $g(n)>n^{0.7039}$ for
@@ -93,12 +93,12 @@ infinitely many $n$, every $\epsilon\ge0.2961$, an accepted partial claim on the
 refereed paper; Corollary 1.3 of Lichtman [Li22] gives $g(n)\ge n^{0.7156}$
 for infinitely many $n$, and its Theorem 1.1 makes the inequality strict, every
 $\epsilon\ge0.2844$, a partial claim that is pending
-because the arXiv paper has no journal record and the site's commentary on a
-problem it labeled OPEN is not an acceptance. Erdős [Er35b] proved
-$g(n)>n^{c}$ for infinitely many $n$ with some $c>0$, but the exponent is not
-explicit (Part 3 of the paper gives $m^{C_5}$ with $C_5>\sigma/2$ for a small
-unspecified $\sigma$), so the result settles no named $\epsilon$ and gets no
-claim page.
+because the arXiv paper has no journal record and the erdosproblems.com
+commentary on a problem it labeled OPEN is not an acceptance. Erdős [Er35b]
+proved $g(n)>n^{c}$ for infinitely many $n$ with some $c>0$, but the exponent is
+not explicit (Part 3 of the paper gives $m^{C_5}$ with $C_5>\sigma/2$ for a
+small unspecified $\sigma$), so the result settles no named $\epsilon$ and gets
+no claim page.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

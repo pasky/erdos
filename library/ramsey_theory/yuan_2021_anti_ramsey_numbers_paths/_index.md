@@ -22,8 +22,8 @@ question of Problem 1105, answered in a preprint.
 
 Long-Tu Yuan, The anti-Ramsey number for paths. arXiv:2102.00807v3 (9
 February 2021). The PDF's title is singular; the arXiv listing's title,
-"Anti-Ramsey numbers for paths", is plural, and the site's reference text
-uses the singular.
+"Anti-Ramsey numbers for paths", is plural, and the erdosproblems.com reference
+text uses the singular.
 
 **Retained artifact.** The
 [folder-name PDF](yuan_2021_anti_ramsey_numbers_paths.pdf) is arXiv:2102.00807v3
@@ -31,11 +31,11 @@ uses the singular.
 layer. The arXiv listing carries no journal reference, a Crossref bibliographic
 query for the title found no journal record, and the Semantic Scholar citation
 list (seven records, 2022--2026) contains no published version (all read
-2026-09-18). A preprint: the site accepts it as the proof of the path formula,
-and the community database records the problem as proved since 1 February 2026;
-no refereed version and no independent review are known here. The arXiv record
-(https://arxiv.org/abs/2102.00807, read 2026-10-02) names the CC0 1.0 Universal
-public domain dedication.
+2026-09-18). A preprint: erdosproblems.com accepts it as the proof of the path
+formula, and the community database records the problem as proved since 1
+February 2026; no refereed version and no independent review are known here. The
+arXiv record (https://arxiv.org/abs/2102.00807, read 2026-10-02) names the CC0
+1.0 Universal public domain dedication.
 
 Read status: claims checked for the definitions, Theorem 1, the two
 Erdős–Simonovits–Sós colorings and the prior-work sentences (p. 1, page

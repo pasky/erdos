@@ -87,7 +87,7 @@ its proved case (cited as the paper's [25]; not held).
 - [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: context. The remark's
   hypothesis $M_2^*=2$ is unproved ($2\le M_2^*\le5$ is what the paper
   gives), so it resolves neither the irrational-ratio question, which the
-  site-accepted Lean proof on the
+  Conjectures.io-accepted Lean proof on the
   [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/_index|Conjectures.io card]]
   answers, nor the rational-ratio cases of Hegyvári's conjecture with
   neither number a dyadic rational (the paper reports that Hegyvári

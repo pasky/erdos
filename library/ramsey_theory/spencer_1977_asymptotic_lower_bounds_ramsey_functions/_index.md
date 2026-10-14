@@ -9,7 +9,7 @@ desc: |
   chromatic number cn^{1/(k−1)}/ln n.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-07T20:53:41Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions
@@ -32,8 +32,8 @@ with β = [C(k,2) − 1]/(k − 2), which equals (k + 1)/2; at k = 4 the exponen
 lower bound of Problem 986.
 
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_3_1|theorem_3_1]]: The lower bound r(C_4,K_t) ≥ c(t/ln t)^{3/2}, the lower bound of Problem 159
-as the site states it, proved by a sketch from the local lemma with a random
-coloring of edge probability c_1 n^{−2/3}.
+as erdosproblems.com states it, proved by a sketch from the local lemma with a
+random coloring of edge probability c_1 n^{−2/3}.
 
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_3_3|theorem_3_3]]: The lower bound r(≤C_k,K_t) ≥ c(t/ln t)^{(k−1)/(k−2)} for fixed k, which
 forbids every red cycle of length 3 to k, with Theorem 3.2 for a single
@@ -312,21 +312,21 @@ structure with its constant followed; Theorems 2.2, 3.1 and 3.3 are proved
 by parameter sketches only, and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0159/_index|#159]]: Theorem 3.1 (printed
-p. 75, PDF p. 7), "$r(C_4,K_t)\ge c(t/\ln t)^{3/2}$", is the site's lower
-bound $R(C_4,K_n)\gg n^{3/2}/(\log n)^{3/2}$ stated directly, and Theorem
+p. 75, PDF p. 7), "$r(C_4,K_t)\ge c(t/\ln t)^{3/2}$", is erdosproblems.com's
+lower bound $R(C_4,K_n)\gg n^{3/2}/(\log n)^{3/2}$ stated directly, and Theorem
 3.3 (p. 75), "$r(\le C_k,K_t)\ge c(t/\ln t)^{(k-1)/(k-2)}$" for fixed $k$, is
 the bound the 1978 paper of Erdős, Faudree, Rousseau and Schelp quotes as
-its display (1.4), whose case $k=4$ is the site's bound;
+its display (1.4), whose case $k=4$ is erdosproblems.com's bound;
 the paper also records the upper bound $r(C_4,K_t)=o(t^2)$ of its [4] and
 prints no constant.
 [[../wiki/problems/ramsey_theory/E0166/_index|#166]]: Theorem 2.2 (printed p. 74, PDF
 p. 6), "Fix $k\ge3$. There exists a constant $c$ so that
 $R(k,t)\ge c(t/\ln t)^\beta[1-o(1)]$, $\beta=[\binom k2-1]/(k-2)$", at $k=4$
 gives $R(4,t)\ge c(t/\ln t)^{5/2}[1-o(1)]$, the exponent $5/2$ that stood
-until Mattheus and Verstraete; the site's commentary prints the bound with
-the product $(k\log k)^{5/2}$, where the paper prints the quotient
-$t/\ln t$, so the site's form differs from the paper's; the paper's own
-remark that $\alpha(k)=k-1$ "is not even known for $k=4$" is the problem's
+until Mattheus and Verstraete; the erdosproblems.com commentary prints the bound
+with the product $(k\log k)^{5/2}$, where the paper prints the quotient
+$t/\ln t$, so the erdosproblems.com form differs from the paper's; the paper's
+own remark that $\alpha(k)=k-1$ "is not even known for $k=4$" is the problem's
 question in 1977.
 [[../wiki/problems/ramsey_theory/E0986/_index|#986]]: Theorem 2.2 (p. 74) with
 $\beta=(k+1)/2$ is the pre-2010 lower bound
@@ -334,16 +334,15 @@ $R(s,k)\gg(k/\log k)^{(s+1)/2}$ for every fixed $s\ge3$ that Bradač 2026
 (p. 2) and Bohman and Keevash (arXiv v1, p. 4) quote, and Theorem 2.1
 (printed p. 72, PDF p. 4),
 "$R(3,t)\ge(c-o(1))(t/\ln t)^2$, $c=1/27$", is the case $s=3$ of the
-problem's statement, with $c(3)=2$, which the site credits to this paper
-and which the paper credits to Erdős [2], proved there by a very different
+problem's statement, with $c(3)=2$, which erdosproblems.com credits to this
+paper and which the paper credits to Erdős [2], proved there by a very different
 method and without an explicit constant.
 [[../wiki/problems/ramsey_theory/E1182/_index|#1182]]: Theorem 2.1 (p. 72) is the bound
 $r(K_3,K_t)>(1/27-o(1))(t/\log t)^2$ that Burr, Erdős, Faudree, Rousseau and
 Schelp 1980 quote as their display (2) for the upper bound of their Theorem
-1(b), $F(n)<(27/4+\varepsilon)n(\log n)^2$ in the site's letters, and the
-local-lemma reduction (1) (p. 73) proving it is the form of the Lovász
-local lemma their Theorem 2 applies for the upper bound
-$f(n)<Bn^{5/3}(\log n)^{2/3}$.
+1(b), $F(n)<(27/4+\varepsilon)n(\log n)^2$ in erdosproblems.com's letters, and
+the local-lemma reduction (1) (p. 73) proving it is the form of the Lovász local
+lemma their Theorem 2 applies for the upper bound $f(n)<Bn^{5/3}(\log n)^{2/3}$.
 [[../wiki/problems/ramsey_theory/E0187/_index|#187]]: Theorem 1.1 (printed p. 70, PDF
 p. 2), the local lemma with weights $0<x_i<1$ and
 $P(A_i)\le(1-x_i)\prod_{\{i,j\}\in G}x_j$, is the statement Beck 1980 quotes

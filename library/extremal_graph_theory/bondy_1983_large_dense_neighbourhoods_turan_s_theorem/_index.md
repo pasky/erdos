@@ -197,26 +197,26 @@ it. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1079/_index|#1079]]: the note's
 $t_r(n)$ is the problem's $\mathrm{ex}(n;K_{r+1})$, so the note's $r$ is the
 problem's $r-1$ throughout. Theorem 2 (printed p. 110, PDF p. 2) is the
-result the site attributes to the note: "Let $G$ be a simple graph on $n$
-vertices and more than $t_r(n)$ edges, where $r\ge2$, and let $v$ be a vertex
-in $G$ of degree $m=\Delta(G)$. Then the subgraph induced by the neighbours of
-$v$ has more than $t_{r-1}(m)$ edges"; in the problem's letters, a graph with
-more than $\mathrm{ex}(n;K_r)$ edges, that is with at least Erdős's $f_r(n)$
-edges, has at every vertex of maximum degree $m$ a neighborhood inducing more
-than $\mathrm{ex}(m;K_{r-1})$ edges, that is at least $f_{r-1}(m)$ edges,
-which is the conclusion Erdős asked for in 1975
+result erdosproblems.com attributes to the note: "Let $G$ be a simple graph on
+$n$ vertices and more than $t_r(n)$ edges, where $r\ge2$, and let $v$ be a
+vertex in $G$ of degree $m=\Delta(G)$. Then the subgraph induced by the
+neighbours of $v$ has more than $t_{r-1}(m)$ edges"; in the problem's letters, a
+graph with more than $\mathrm{ex}(n;K_r)$ edges, that is with at least Erdős's
+$f_r(n)$ edges, has at every vertex of maximum degree $m$ a neighborhood
+inducing more than $\mathrm{ex}(m;K_{r-1})$ edges, that is at least $f_{r-1}(m)$
+edges, which is the conclusion Erdős asked for in 1975
 ([[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p14|Er75, p. 14]],
 the note's [3]). Theorem 1 (printed p. 109, PDF p. 1) is the note's statement
-of the Bollobás--Thomason theorem, the site's [BoTh81]: for at least
+of the Bollobás--Thomason theorem, erdosproblems.com's [BoTh81]: for at least
 $t_r(n)$ edges, "either $G\cong T_r(n)$ or there is a vertex $v$" whose
 neighborhood induces more than $t_{r-1}(m)$ edges, with the degree bound (1),
-$d(v)>(1-\frac1r-\frac1{1+\sqrt r})n$; this fixes the site's wording (its
-exception for the Turán graph and its "at least $\mathrm{ex}(n;K_r)$") as the
-hypothesis "at least" with the Turán graph excepted and the conclusion "more
+$d(v)>(1-\frac1r-\frac1{1+\sqrt r})n$; this fixes the erdosproblems.com wording
+(its exception for the Turán graph and its "at least $\mathrm{ex}(n;K_r)$") as
+the hypothesis "at least" with the Turán graph excepted and the conclusion "more
 than", and lets Erdős's constant be $c_r=1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$
 in the problem's letters, second-hand. The examples of p. 111 show that with
 exactly $t_r(n)$ edges the vertex of maximum degree cannot in general be
-taken, so the site's "$>$" in its account of the note is essential. The
+taken, so erdosproblems.com's "$>$" in its account of the note is essential. The
 problem page reads Theorems 1 and 2 on the page images; the proof of Theorem
 2 was read in full, and no proof of Theorem 1 is in the note.
 

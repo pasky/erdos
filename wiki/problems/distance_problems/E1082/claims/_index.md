@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 1082, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T11:54:58Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/distance_problems/E1082/claims
@@ -23,8 +23,8 @@ are seen. So the second question has a negative answer.
 statement, that eight points with no three on a line need not contain a point
 seeing four distinct distances. So the answer to the second question is no.
 
-[[problems/distance_problems/E1082/claims/2026_08_31_sallerk|2026_08_31_sallerk]]: An unreviewed, dated note linked from the site's thread deduces from the
-published maximum planar $k$-distance sets that the first question holds for
-every $n\le15$.
+[[problems/distance_problems/E1082/claims/2026_08_31_sallerk|2026_08_31_sallerk]]: An unreviewed, dated note linked from the erdosproblems.com thread deduces
+from the published maximum planar $k$-distance sets that the first question
+holds for every $n\le15$.
 
 ***

@@ -63,7 +63,7 @@ says that he cannot prove it even in a special case with $r=2$. The case
 $r=1$ is that theorem of Erdős and Selfridge [ErSe75], with $k=2$, recorded as
 the accepted partial claim
 [[problems/diophantine_problems/E0930/claims/1975_06_01_erdos_selfridge|Erdős and Selfridge 1975]].
-The site notes that the lengths must be allowed to grow with $r$: the
+erdosproblems.com notes that the lengths must be allowed to grow with $r$: the
 constructions of
 [[problems/diophantine_problems/E0363/_index|Problem 363]] show that for $r=2$
 short intervals can have a perfect power as product, and that problem treats

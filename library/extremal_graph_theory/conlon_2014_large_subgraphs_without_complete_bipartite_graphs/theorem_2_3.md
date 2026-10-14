@@ -54,6 +54,6 @@ None beyond the counting argument of Kővári, Sós and Turán (the paper's [5])
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1008/_index|Problem 1008]]: at $r=s=2$ the
-  order $m^{2/3}$ of the site's question is best possible; Folkman's example
-  $K_{m,m^2}$, recorded on the problem page from Erdős's 1971 item 1, is the
-  same construction with $m^3$ edges.
+  order $m^{2/3}$ of the erdosproblems.com question is best possible; Folkman's
+  example $K_{m,m^2}$, recorded on the problem page from Erdős's 1971 item 1, is
+  the same construction with $m^3$ edges.

@@ -58,8 +58,8 @@ $n$, the first inequality gives a graph with at least $\epsilon n^2$ edges
 whose edges can be $n$-colored with every $C_4$ totally multicolored, and
 the answer to Problem 810 is yes; equivalently, a negative answer to
 Problem 810 forces $g(n;7,4)<\epsilon n^2/c$ for infinitely many $n$, for
-every $\epsilon>0$. The site's remark that $g(n;7,4)=o(n^2)$ is unknown but
-likely is its Problem 1178, linked under Bears on below.
+every $\epsilon>0$. The erdosproblems.com remark that $g(n;7,4)=o(n^2)$ is
+unknown but likely is its Problem 1178, linked under Bears on below.
 
 **Source.** S. A. Burr, P. Erdős, R. L. Graham and V. T. Sós, *Maximal
 antiramsey graphs and the strong chromatic number*, J. Graph Theory 13
@@ -94,8 +94,8 @@ $g(n;7,4)$ to $r_4(n)$; Behrend (1946) for the $P_4$ bound.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0810/_index|Problem 810]]: the problem's statement in
-  the authors' words (the site's source key, printed "[BEGS8, p.273]" on
-  the page, is this page), with the authors' expectation that the answer is
+  the authors' words (the erdosproblems.com source key, printed "[BEGS8, p.273]"
+  on the page, is this page), with the authors' expectation that the answer is
   no and the two unproved $C_4$ upper bounds that tie the problem to
   $g(n;7,4)$ and $r_4(n)$.
 - [[../wiki/problems/set_systems/E1178/_index|Problem 1178]]: the unproved upper bound

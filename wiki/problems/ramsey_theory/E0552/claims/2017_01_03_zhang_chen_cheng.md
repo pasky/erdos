@@ -57,7 +57,7 @@ constructions and lemmas.
 Mathematics, volume 340, number 4 (April 2017). This is the `refereed` evidence.
 The paper was available online on 3 January 2017, its earliest public date,
 which dates this page.
-The site's curator refers to this paper in the commentary on exact values. But
-the site's label OPEN settles neither the problem nor a declared part of it, so
-`reviewed` is not listed. The statement is checked against the publisher's text,
-and the proof is read for structure only.
+The erdosproblems.com curator refers to this paper in the commentary on exact
+values. But the erdosproblems.com label OPEN settles neither the problem nor a
+declared part of it, so `reviewed` is not listed. The statement is checked
+against the publisher's text, and the proof is read for structure only.

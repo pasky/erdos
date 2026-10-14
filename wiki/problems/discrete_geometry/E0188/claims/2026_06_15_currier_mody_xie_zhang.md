@@ -55,7 +55,7 @@ bound $6330$, and v2 of 31 August 2026, which improves the paper's general
 exponential base to $6.79$ and leaves the planar bound unchanged.
 
 **Acceptance.** None. No journal publication or outside review is recorded,
-the site's page does not mention the result, and the library's
+the erdosproblems.com page does not mention the result, and the library's
 reconstruction is author-recorded, so the claim stays `claimed`.
 
 **Depends on.**

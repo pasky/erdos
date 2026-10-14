@@ -25,20 +25,20 @@ updated: 2026-10-08T01:29:58Z
 n^{1/2}$. Must there exist some $B\subset\mathbb{Z}$ with $\lvert
 B\rvert=o(n^{1/2})$ such that $A\subseteq B+B$?
 
-**Formulation.** The site's wording as of 2026-09-18 (the page shows no
-last-edited date). $B$ is a *basis* for $A$ when every $a\in A$ is $b+b'$ with
-$b,b'\in B$; Erdős and Newman write $m_A$ for the least size of a basis and call
-$A$ of type $(n,N)$ when it has $n$ elements with largest element $N$ ([ErNe77],
-pp. 420--421). Their closing question (p. 425) is "whether *any* set of type
-$(n,n^2)$ needs $cn$ elements in its basis. In short let $M_n=\max_Am_A$, taken
-over all $A$ of type $(n,n^2)$, is $M_n=o(n)$?" With $N=n^2$ this is the site's
-question for sets of exactly $N^{1/2}$ elements in $[1,N]$; the site allows
-$|A|\le N^{1/2}$, which the resolving theorem covers directly. The question asks
-about a single $o(\cdot)$ for all $A$, that is about $M_n=o(n)$, as the origin
-makes explicit.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited date). $B$ is a *basis* for $A$ when every $a\in A$ is
+$b+b'$ with $b,b'\in B$; Erdős and Newman write $m_A$ for the least size of a
+basis and call $A$ of type $(n,N)$ when it has $n$ elements with largest element
+$N$ ([ErNe77], pp. 420--421). Their closing question (p. 425) is "whether *any*
+set of type $(n,n^2)$ needs $cn$ elements in its basis. In short let
+$M_n=\max_Am_A$, taken over all $A$ of type $(n,n^2)$, is $M_n=o(n)$?" With
+$N=n^2$ this is the erdosproblems.com question for sets of exactly $N^{1/2}$
+elements in $[1,N]$; erdosproblems.com allows $|A|\le N^{1/2}$, which the
+resolving theorem covers directly. The question asks about a single $o(\cdot)$
+for all $A$, that is about $M_n=o(n)$, as the origin makes explicit.
 
-**Status.** Proved. The site labeled the problem PROVED. Theorem 1.4 of Alon,
-Bukh and Sudakov [ABS09] (Israel J. Math. 174 (2009) 285--301, refereed;
+**Status.** Proved. Bloom's catalog labeled the problem PROVED. Theorem 1.4 of
+Alon, Bukh and Sudakov [ABS09] (Israel J. Math. 174 (2009) 285--301, refereed;
 [[../library/additive_combinatorics/alon_2009_discrete_kakeya_type_problems_small_bases/theorem_1_4|result page]])
 concerns a group of order $n$ containing a non-doubling set of size between
 $\sqrt n\log^2n$ and $\sqrt n\log^{10}n$. It shows that such a group satisfies
@@ -52,16 +52,17 @@ lies in $B+B$ for some $B\subset\mathbb Z$ with
 $|B|\le100\,n^{1/2}\log\log n/\log n=o(n^{1/2})$. The order is sharp up to
 constants. Erdős and Newman [ErNe77] (J. Number Theory 9 (1977), refereed) state
 on p. 423 that most sets of type $(n,n^2)$ have $m_A>c\,n\log\log n/\log n$,
-which is the site's lower bound. They assert this remark without proof. [ABS09]
-(pp. 2--3) restates it and carries it to every finite group. The claim page is
+which is erdosproblems.com's lower bound. They assert this remark without proof.
+[ABS09] (pp. 2--3) restates it and carries it to every finite group. The claim
+page is
 [[problems/additive_combinatorics/E0806/claims/2007_11_10_alon_bukh_sudakov|Alon, Bukh and Sudakov]]
-(accepted on the refereed publication and the site's credit).
+(accepted on the refereed publication and the erdosproblems.com credit).
 
 **Source.** [erdosproblems.com/806](https://www.erdosproblems.com/806),
-accessed 2026-09-18: the problem page (labeled PROVED, with the site's
-banner for an affirmative resolution; no last-edited date; source key
-[ErNe77]; commentary citing [ABS09] and cross-referencing Problem 333; OEIS
-indicator set to possible), its empty discussion thread and its empty
+accessed 2026-09-18: the problem page (labeled PROVED, with the
+erdosproblems.com banner for an affirmative resolution; no last-edited date;
+source key [ErNe77]; commentary citing [ABS09] and cross-referencing Problem
+333; OEIS indicator set to possible), its empty discussion thread and its empty
 proof-claim tab.
 Cite as: T. F. Bloom, Erdős Problem #806, https://www.erdosproblems.com/806,
 accessed 2026-09-18.
@@ -102,7 +103,7 @@ was added to google-deepmind/formal-conjectures on 2026-09-20; none existed on
 and the community database listed the problem proved as of its entry's last
 update of 31 August 2025, which does not date any change of state, unformalized,
 OEIS "possible", with no formal proof. At the commit linked above, its theorem
-`erdos_806` states the site's question with the answer yes: for every
+`erdos_806` states the erdosproblems.com question with the answer yes: for every
 $\varepsilon>0$ and all large $n$, every $A\subseteq\{1,\ldots,n\}$ with
 $|A|\le\sqrt n$ lies in $B+B$ for some finite $B\subset\mathbb Z$ with
 $|B|\le\varepsilon\sqrt n$. It is marked research solved, its own proof is
@@ -120,7 +121,7 @@ standing rests on the refereed paper.
 
 ## Current assessment
 
-**The question (site formulation as of 2026-09-18).** The statement above;
+**The question (erdosproblems.com formulation).** The statement above;
 labeled PROVED; no last-edited date. The commentary attributes the problem to
 Erdős and Newman [ErNe77], credits them with sets $A$ of size about $n^{1/2}$
 every basis of which has $\gg n^{1/2}\log\log n/\log n$ elements, credits the
@@ -147,8 +148,8 @@ $m_A>c\,n(\log\log n/\log n)$ while $m_{A_0}<n/\log^2n$ (for example)";
 the improvement is not proved in the paper. The closing question (p. 425)
 is quoted under Formulation
 ([[../library/additive_bases/erdos_1977_bases_sets_integers/question_p425|result page]]).
-The site's lower bound is this p. 423 remark; [ABS09] (p. 2) describes it
-as what "the counting argument only yielded" in the borderline case
+erdosproblems.com's lower bound is this p. 423 remark; [ABS09] (p. 2) describes
+it as what "the counting argument only yielded" in the borderline case
 $m\asymp\sqrt n$ and (p. 3) notes that "The lower bound of Erdős and
 Newman immediately carries over to any finite group $G$: there is always a
 set $A$ with at most $\sqrt{|G|}$ elements for which every basis is of
@@ -173,21 +174,20 @@ multiplicative constant of 2 the Erdős-Newman problem is a problem about
 bases for subsets of $\mathbb Z/n\mathbb Z$." Hence for large $n$ every
 $A\subseteq\{1,\ldots,n\}$ with $|A|\le n^{1/2}$ has
 $B\subset\mathbb Z$ with $A\subseteq B+B$ and
-$|B|\le100\sqrt n\log\log n/\log n$, the affirmative answer with the site's
-quantitative form. The proof (pp. 8--9, structure only, unverified): a
-set $Y$ of at most $\sqrt n/\log n$ elements with $YX=G$, which a random
-choice gives with positive probability (Lemma 3.1); $A$ is split along the
-shifts $y_iX$ into blocks of $k=\log n/(30\log\log n)$ elements;
-a $k$-universal set $U$ for $X$ of size below $\sqrt n/\log^5n$ (Theorem
-1.2, a random construction for non-doubling sets) contains a translate of
-every block; $B$ is $U$ together with the at most
-$40\sqrt n\log\log n/\log n$ translating elements. Acceptance evidence:
-the Israel Journal of Mathematics is refereed; the site's commentary; the
-paper's remark (p. 10) that it "seems plausible that in fact every finite
-group satisfies the EN-condition". Read depth: claims checked for the
-definitions, Theorem 1.4, Corollary 1.5 and the reduction; the proofs of
-Theorems 1.2 and 1.4 read for structure and not checked step by step;
-nothing is independently reviewed.
+$|B|\le100\sqrt n\log\log n/\log n$, the affirmative answer with
+erdosproblems.com's quantitative form. The proof (pp. 8--9, structure only,
+unverified): a set $Y$ of at most $\sqrt n/\log n$ elements with $YX=G$, which a
+random choice gives with positive probability (Lemma 3.1); $A$ is split along
+the shifts $y_iX$ into blocks of $k=\log n/(30\log\log n)$ elements; a
+$k$-universal set $U$ for $X$ of size below $\sqrt n/\log^5n$ (Theorem 1.2, a
+random construction for non-doubling sets) contains a translate of every block;
+$B$ is $U$ together with the at most $40\sqrt n\log\log n/\log n$ translating
+elements. Acceptance evidence: the Israel Journal of Mathematics is refereed;
+the erdosproblems.com commentary; the paper's remark (p. 10) that it "seems
+plausible that in fact every finite group satisfies the EN-condition". Read
+depth: claims checked for the definitions, Theorem 1.4, Corollary 1.5 and the
+reduction; the proofs of Theorems 1.2 and 1.4 read for structure and not checked
+step by step; nothing is independently reviewed.
 
 **Adjacent results (context, not the problem).** The squares: Erdős and
 Newman's $n^{2/3-\varepsilon}\le m_{A_0}\le n/\log^Mn$ ([ErNe77], p. 423),
@@ -195,16 +195,16 @@ and [ABS09]'s Theorem 1.6 (p. 3) for $d$th powers, no basis of size
 $O(n^{3/4-1/(2\sqrt d)-1/(2(d-1))-\varepsilon})$; the discontinuity of $m_A$
 under small perturbations ([ErNe77], p. 425). The infinite, density-zero
 form of the question is [[problems/additive_bases/E0333/_index|Problem 333]],
-which the site cross-references. Later work found by the citation search
-(a 2024 paper on additive bases under change of domain, a 2026 preprint on
-a conjecture of Bukh, van Hintum and Keevash on additive bases; titles
-only) does not bear on this statement.
+which erdosproblems.com cross-references. Later work found by the citation
+search (a 2024 paper on additive bases under change of domain, a 2026 preprint
+on a conjecture of Bukh, van Hintum and Keevash on additive bases; titles only)
+does not bear on this statement.
 
 **Search scope.** None of the routes below found a dispute of Theorem
 1.4, an error report, or a source changing the order
 $\sqrt n\log\log n/\log n$.
 
-- The site: problem page, discussion thread and proof-claim tab on
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
   2026-09-18; the formal-conjectures directory listing (no file on that
   date; the file of 2026-09-20 is recorded under Formalization) and the
   community database, both on 2026-09-18.
@@ -226,7 +226,7 @@ proof in the paper, restated by [ABS09]; it does not affect the status,
 which needs only the upper bound. (2) The [ABS09] edition read is the
 authors' version; the journal text was not compared. (3) Proof coverage is
 statements only: Theorem 1.4's proof was read for structure, not checked,
-and Theorem 1.2's random construction not verified. (4) The site's
+and Theorem 1.2's random construction not verified. (4) The erdosproblems.com
 statement asks for $o(n^{1/2})$ without a rate; the sharp order
 $\sqrt n\log\log n/\log n$ (up to constants) is recorded, the constants
 $50$ and $c$ are not compared.

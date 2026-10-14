@@ -34,35 +34,36 @@ $$
 f(k)=(1+o(1))\frac{e}{e-1}k?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-17 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
 edited 1 October 2025). The denominators are distinct positive
 integers and $k\ge3$: one term represents $1$ only as $1/1$, and two
 distinct unit fractions never sum to $1$. So $f(k)$ is the least possible
 largest denominator over all $k$-term representations of $1$, the sequence
 $6,12,15,15,18,20,\ldots$ of OEIS A030659 (offset $3$); in Martin's
 notation it is $M_k(1)$. The trivial lower bound
-$f(k)\ge(1+o(1))\frac{e}{e-1}k$ (site commentary) comes from
+$f(k)\ge(1+o(1))\frac{e}{e-1}k$ (erdosproblems.com commentary) comes from
 $\sum_{u\le n\le eu}1/n=1+o(1)$: the $k$ reciprocals of distinct
 denominators at most $f(k)$ sum to $1$, so $k\le\frac{e-1}{e}f(k)+o(f(k))$.
 The question is whether the matching upper bound holds.
 
-**Status.** The site's label was PROVED (LEAN). Its Lean suffix refers to a
-public Lean proof of the statement in Boris Alexeev's repository, recorded under
-Formalization and the Lean label below. The corpus has not built it, and no
-local kernel credit is claimed. Martin's Theorem 2 (Acta Arith. 95 (2000), no.
-3, 231--260; refereed) gives $M_t(r)=t/(1-e^{-r})+O_r(t\log\log3t/\log3t)$ for
-every positive rational $r$ and all $t\ge t_0(r)$, and this is best possible. At
-$r=1$ this is $f(k)=\frac{e}{e-1}k+O(k\log\log k/\log k)$, so the answer is yes.
-The standing in the frontmatter derives from the accepted claim page
+**Status.** The erdosproblems.com label was PROVED (LEAN). Its Lean suffix
+refers to a public Lean proof of the statement in Boris Alexeev's repository,
+recorded under Formalization and the Lean label below. The corpus has not built
+it, and no local kernel credit is claimed. Martin's Theorem 2 (Acta Arith. 95
+(2000), no. 3, 231--260; refereed) gives
+$M_t(r)=t/(1-e^{-r})+O_r(t\log\log3t/\log3t)$ for every positive rational $r$
+and all $t\ge t_0(r)$, and this is best possible. At $r=1$ this is
+$f(k)=\frac{e}{e-1}k+O(k\log\log k/\log k)$, so the answer is yes. The standing
+in the frontmatter derives from the accepted claim page
 [[problems/unit_fractions/E0285/claims/1998_11_18_martin|Martin 1998]].
 
 **Source.** [erdosproblems.com/285](https://www.erdosproblems.com/285),
 accessed 2026-09-17: the problem page (PROVED (LEAN), whose label tooltip
 reports an affirmative solution with a proof verified in Lean; source key
 [ErGr80, p. 33]; last edited 1 October 2025), its empty discussion thread
-and its empty proof-claim tab. The site cites [Ma00] in its commentary and
-thanks Zach Hunter. Cite as: T. F. Bloom,
-Erdős Problem #285, https://www.erdosproblems.com/285, accessed 2026-09-17.
+and its empty proof-claim tab. erdosproblems.com cites [Ma00] in its commentary
+and thanks Zach Hunter. Cite as: T. F. Bloom, Erdős Problem #285,
+https://www.erdosproblems.com/285, accessed 2026-09-17.
 
 **References.**
 
@@ -87,9 +88,9 @@ revision) declares `erdos_285 : answer(True) ↔ ...` under
 `category research solved` with proof `sorry`, a docstring "Proved by
 Martin [Ma00]", a variant `erdos_285.variants.lb` for the trivial lower
 bound (also `sorry`), and no `formal_proof` attribute. The proof behind the
-site's label was the file `src/latest/ErdosProblems/Erdos285.lean` of Boris
-Alexeev's lean-proofs repository, added 2026-08-15, whose header names Greg
-Martin as the informal author and Codex and GPT-5.6 Sol as the formal
+erdosproblems.com label was the file `src/latest/ErdosProblems/Erdos285.lean` of
+Boris Alexeev's lean-proofs repository, added 2026-08-15, whose header names
+Greg Martin as the informal author and Codex and GPT-5.6 Sol as the formal
 authors and whose theorem `erdos_285` proves the formal-conjectures
 statement from the repository's formalization of Martin's upper bound; the
 claim page [[problems/unit_fractions/E0285/claims/1998_11_18_martin|Martin
@@ -100,8 +101,8 @@ below.
 
 ## Current assessment
 
-**The question (site formulation as accessed 2026-09-17).** The statement
-above; status PROVED (LEAN), last edited 1 October 2025; source key
+**The question (erdosproblems.com formulation as accessed 2026-09-17).** The
+statement above; status PROVED (LEAN), last edited 1 October 2025; source key
 [ErGr80, p. 33]. The commentary gives the trivial lower bound restated in the
 Formulation, credits the proof to Martin [Ma00], and adds that the
 problem's statement is one of the Lean formalizations of Google DeepMind's
@@ -119,8 +120,8 @@ $\sum1/x_k=1$ (p. 32): after the bound for the smallest denominator $x_1$
 printed with "min" where the largest possible $x_1$ is meant), with the
 remark that equality could hold, the authors observe that in the same way
 $\min\{x_n:\{x_1,\ldots,x_n\}\in\mathscr X_n\}\ge(1+o(1))\frac{e}{e-1}n$,
-and that, as before, equality may hold here too. The site's statement is
-this question, with $f(k)$ for the minimum.
+and that, as before, equality may hold here too. The erdosproblems.com statement
+is this question, with $f(k)$ for the minimum.
 
 **Status support.** The status-defining source is Martin's
 [[../library/unit_fractions/martin_2000_denser_egyptian_fractions/theorem_2|Theorem 2]]
@@ -134,16 +135,16 @@ be lowered (display (9), p. 5). Acceptance evidence: the paper is published in
 Acta Arithmetica 95 (2000), no. 3, 231--260, a refereed journal (the arXiv
 listing's journal reference and the Crossref record for DOI
 10.4064/aa-95-3-231-260, both accessed 2026-09-17); the author writes that the
-theorem "completely resolves Erdős and Graham's question" (p. 2), and the site
-accepts it. Proof coverage: the reduction of Theorem 2 to Propositions 5 and 6
-(pp. 4--5) is recorded on the theorem page; the proofs of Propositions 6--8
-(Sections 3--5, pp. 7--19; Proposition 5 follows from 7 and 8 on pp. 5--6)
-have not been checked, which is the remaining proof-coverage obligation.
-Locators are those of the arXiv preprint; the journal text has not been
-compared.
+theorem "completely resolves Erdős and Graham's question" (p. 2), and
+erdosproblems.com accepts it. Proof coverage: the reduction of Theorem 2 to
+Propositions 5 and 6 (pp. 4--5) is recorded on the theorem page; the proofs of
+Propositions 6--8 (Sections 3--5, pp. 7--19; Proposition 5 follows from 7 and 8
+on pp. 5--6) have not been checked, which is the remaining proof-coverage
+obligation. Locators are those of the arXiv preprint; the journal text has not
+been compared.
 
-**Formalization and the Lean label.** The site prints PROVED (LEAN). The
-formal-conjectures statement file has proof `sorry` and, unlike the files
+**Formalization and the Lean label.** erdosproblems.com prints PROVED (LEAN).
+The formal-conjectures statement file has proof `sorry` and, unlike the files
 for Problems 45 and 290, no `formal_proof` attribute, and the community
 database gives no formal-proof URL; the proof the label refers to is in
 Boris Alexeev's lean-proofs repository, `src/latest/ErdosProblems/Erdos285.lean`
@@ -157,10 +158,10 @@ $f(k)=(1+o(k))\frac{e}{e-1}(k+1)$ with $o$ tending to zero; the proof
 imports the repository's `Erdos285/MartinUpperFinal.lean`, a formalization
 of Martin's upper bound, and the file contains no `sorry`. The corpus has
 not built or audited the development, and the Lean statement has not been
-compared clause by clause with the site's; the claim page lists no
+compared clause by clause with erdosproblems.com's; the claim page lists no
 `formalized` evidence.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages as accessed 2026-09-17; the community database record; the
 formal-conjectures file at the pinned commit; the arXiv listing for
 math/9811112 (one
@@ -178,10 +179,10 @@ reduction sketch only; the proofs of Propositions 6--8 (Sections 3--5,
 pp. 7--19) have not been checked, and Proposition 5 follows from 7 and 8
 (pp. 5--6). (2) The journal version is not held; the preprint's numbering is
 used throughout. (3) The corpus has not built or audited the Lean proof behind
-the site's label, in Alexeev's repository, and its statement has not been
-compared clause by clause with the site's. (4) Martin's theorem fixes the
-order of the error term but not its constant; OEIS A030659 lists the exact
-values to $k=147$ and no formula.
+the erdosproblems.com label, in Alexeev's repository, and its statement has not
+been compared clause by clause with erdosproblems.com's. (4) Martin's theorem
+fixes the order of the error term but not its constant; OEIS A030659 lists the
+exact values to $k=147$ and no formula.
 
 ## Progress and known results
 

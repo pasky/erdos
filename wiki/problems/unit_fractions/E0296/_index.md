@@ -27,20 +27,20 @@ disjoint $A_1,\ldots,A_k\subseteq \{1,\ldots,N\}$ with $\sum_{n\in
 A_i}\frac{1}{n}=1$ for all $i$. Estimate $k(N)$. Is it true that $k(N)=o(\log
 N)$?
 
-**Formulation.** The site's wording on 2026-09-17 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-17 (the page shows no
 last-edited date). The $A_i$ are pairwise disjoint and
 each has reciprocal sum exactly one; $k(N)\ge1$ because of $\{1\}$, and
 disjointness gives $k(N)\le\sum_{n\le N}1/n$. The closing question is Erdős
 and Graham's guess ("No doubt $k=o(\log n)$ but we have not proved this",
 monograph printed p. 36).
 
-**Status.** The site's label was PROVED (LEAN), and it attaches to the estimate.
-The Lean suffix is a catalog label qualified under Existing formalization below.
-The Lean files are formalization links on the claim page, and no local kernel
-credit is claimed. The estimate is $k(N)=(1-o(1))\log N$. It follows from
-Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) combined with a greedy removal
-argument. The site credits this observation to Hunter and Sawhney, and it is
-written out below. This is the accepted claim
+**Status.** The erdosproblems.com label was PROVED (LEAN), and it attaches to
+the estimate. The Lean suffix is a catalog label qualified under Existing
+formalization below. The Lean files are formalization links on the claim page,
+and no local kernel credit is claimed. The estimate is $k(N)=(1-o(1))\log N$. It
+follows from Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) combined with a
+greedy removal argument. erdosproblems.com credits this observation to Hunter
+and Sawhney, and it is written out below. This is the accepted claim
 [[problems/unit_fractions/E0296/claims/2024_06_16_hunter_sawhney|Hunter and Sawhney]],
 recorded with the value answered. It determines $k(N)$ to first order. It also
 answers the closing question in the negative, since $k(N)/\log N\to1$ rules out
@@ -49,7 +49,7 @@ $k(N)=o(\log N)$.
 **Source.** [erdosproblems.com/296](https://www.erdosproblems.com/296),
 accessed 2026-09-17: the problem page (PROVED (LEAN)), its discussion thread
 (two comments, of 22 April and 26 May 2026) and its empty proof-claim tab.
-The site cites [ErGr80] as the problem's
+erdosproblems.com cites [ErGr80] as the problem's
 source and [Bl21] in its commentary. Cite as: T. F. Bloom, Erdős Problem
 #296, https://www.erdosproblems.com/296, accessed 2026-09-17.
 
@@ -72,14 +72,14 @@ source and [Bl21] in its commentary. Cite as: T. F. Bloom, Erdős Problem
 
 **Formalization.** Statement in
 [`ErdosProblems/296.lean`](https://github.com/google-deepmind/formal-conjectures/blob/40e7c98697de6f66b8cbdbf641749ab39ed9c152/FormalConjectures/ErdosProblems/296.lean)
-of formal-conjectures, as of 2026-09-17, with an external proof tag; the
+of formal-conjectures with an external proof tag; the
 thread links a conditional and an unconditional Lean 4 file. None was built
 by this corpus. See Existing formalization.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks for the order of $k(N)$ and
-whether $k(N)=o(\log N)$ and showed PROVED (LEAN). Its commentary credits
+**The question.** On 2026-09-17 erdosproblems.com asks for the order of $k(N)$
+and whether $k(N)=o(\log N)$ and showed PROVED (LEAN). Its commentary credits
 Hunter and Sawhney with noticing that Bloom's Theorem 3, applied repeatedly
 by a greedy removal, gives $k(N)=(1-o(1))\log N$, and raises the wider
 question of how many pairwise disjoint subsets of $\{1,\ldots,N\}$ can share
@@ -104,14 +104,14 @@ independently reviewed) through the explicit variant of its Proposition 1
 used by the existing formalization. The passage from Theorem 3 to the
 estimate of $k(N)$ is the elementary greedy argument in the next section,
 written for this page and not taken from a source; it needs nothing
-beyond Theorem 3 and the size of the harmonic sum. The site attributes the
-observation to Hunter and Sawhney.
+beyond Theorem 3 and the size of the harmonic sum. erdosproblems.com attributes
+the observation to Hunter and Sawhney.
 
 **The answer to the closing question is no.** Since $k(N)/\log N\to1$,
-$k(N)$ is not $o(\log N)$. The site's label PROVED belongs to the estimate;
-the monograph's guess is refuted by the same estimate.
+$k(N)$ is not $o(\log N)$. The erdosproblems.com label PROVED belongs to the
+estimate; the monograph's guess is refuted by the same estimate.
 
-**Search scope.** The site's problem, discussion and
+**Search scope.** The erdosproblems.com problem, discussion and
 proof-claim pages on 2026-09-17; the community database record; the
 formal-conjectures file, the external Lean file it tags and the two files the
 thread links; the arXiv listing for 2112.03726 (v1 7 December 2021,
@@ -125,10 +125,10 @@ searched: MathSciNet, zbMATH, full-text search engines for scholarly
 literature, X. Nothing found refines the error term below or concerns the
 equal-sums variant; this is a bounded negative finding.
 
-**Remaining gaps.** The equal-sums variant (the site's "more generally")
-is recorded only as the site's and the monograph's statement; the sunflower
-argument is not compiled. The greedy deduction has no independent review. The
-Lean files are not built or audited by this corpus.
+**Remaining gaps.** The equal-sums variant (erdosproblems.com's "more
+generally") is recorded only as erdosproblems.com's and the monograph's
+statement; the sunflower argument is not compiled. The greedy deduction has no
+independent review. The Lean files are not built or audited by this corpus.
 
 ## The estimate and its deduction
 
@@ -159,8 +159,8 @@ which is $k(N)=(1-o(1))\log N$. Replacing Theorem 3 by
 gives, for every fixed $\varepsilon>0$ and $N$ large in terms of
 $\varepsilon$, the sharper lower bound
 $k(N)>\log N-(\log N)^{4/5+\varepsilon}$. The argument is the greedy removal
-the site's commentary refers to; it is elementary and carries no independent
-review.
+the erdosproblems.com commentary refers to; it is elementary and carries no
+independent review.
 
 ## History and the equal-sums variant
 
@@ -172,10 +172,11 @@ with reciprocal sum one, and continues: "More generally, how many disjoint
 sets $T_i\subseteq\{1,2,\ldots,n\}$ are there so that all the sums
 $\sum_{t\in T_i}1/t$ are equal. [sic] By using strong $\Delta$-systems
 [Er-Ra (60)], it can be shown that there are at least $n/e^{c\sqrt{\log n}}$
-such $T_i$. Is this the right order of magnitude?" The site's commentary
-repeats the second question with the same bound. The sunflower argument is
-not given in either place and no reconstruction of it is compiled; the
-equal-sums question is a variant that the estimate of $k(N)$ does not answer.
+such $T_i$. Is this the right order of magnitude?" The erdosproblems.com
+commentary repeats the second question with the same bound. The sunflower
+argument is not given in either place and no reconstruction of it is compiled;
+the equal-sums question is a variant that the estimate of $k(N)$ does not
+answer.
 
 ## Existing formalization
 
@@ -192,7 +193,7 @@ under `category research solved` with proof `sorry` and the attribute
 `formal_proof using lean4 at` the file
 `src/v4.29.1/ErdosProblems/Erdos296.lean` of the collection
 `plby/lean-proofs`. This is the two-sided estimate above, not the yes-or-no
-question. The external file (branch main, as of 2026-09-17, linked from
+question. The external file (branch main on 2026-09-17, linked from
 the claim page at that revision) names Bloom, Hunter and
 Sawhney as informal authors and "Aristotle" and John Jennings as formal
 authors, with a copyright line "John Jennings, Aristotle (Harmonic)"; it
@@ -226,9 +227,9 @@ formalization from plby/unit-fractions and proves
 HasDisjointUnitDecomps N ⌊(1 - ε) * Real.log N⌋₊`
 
 with a comment recording the same three axioms. None of the three files was
-built, audited or kernel-checked by this corpus; the site's Lean suffix is a
-catalog label, and the community database records no formal-proof URL. The
-three files are formalization links on the claim page, which lists no
+built, audited or kernel-checked by this corpus; the erdosproblems.com Lean
+suffix is a catalog label, and the community database records no formal-proof
+URL. The three files are formalization links on the claim page, which lists no
 `formalized` evidence.
 <!-- BEGIN problem library links -->
 

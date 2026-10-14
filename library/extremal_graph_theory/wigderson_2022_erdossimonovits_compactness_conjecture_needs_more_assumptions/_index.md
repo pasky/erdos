@@ -91,14 +91,14 @@ announcement or theorem is verified by this PDF reading.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0180/_index|#180]]: the
 Observation (p. 1, page image), the family $\{K_{1,2},2K_2\}$ with
 $\mathrm{ex}(n,\mathcal F)=1$ and $\mathrm{ex}(n,H)=\Theta(n)$ for both
-members, answers the question in the site's wording in the negative; the
-problem page records it as a claim beside the accepted disproof of the
+members, answers the question in the erdosproblems.com wording in the negative;
+the problem page records it as a claim beside the accepted disproof of the
 no-forest form in Chapter 10 of OpenAI's 2026 report.
-[[../wiki/problems/extremal_graph_theory/E0575/_index|#575]]: the site's
-statement admits this family (both members are bipartite), so the
-Observation answers the question in the site's wording no as well; the p. 2
-Conjecture is the no-forest form on which the site's own account rests, and
-the note assigns it no status.
+[[../wiki/problems/extremal_graph_theory/E0575/_index|#575]]: the
+erdosproblems.com statement admits this family (both members are bipartite), so
+the Observation answers the question in the erdosproblems.com wording no as
+well; the p. 2 Conjecture is the no-forest form on which erdosproblems.com's own
+account rests, and the note assigns it no status.
 
 **Results.**
 

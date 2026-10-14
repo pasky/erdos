@@ -4,7 +4,7 @@ title: Szemerédi and Trotter's bound on line-compatible sequences
 desc: |
   Theorem 4 of Szemerédi and Trotter (1983) shows that at most $2^{O(\sqrt n)}$
   sequences of line sizes are realizable by $n$ points in the plane. It was
-  refereed in Combinatorica and is credited by the site's curator.
+  refereed in Combinatorica and is credited by the erdosproblems.com curator.
 authors:
 - Endre Szemerédi
 - William T. Trotter, Jr.
@@ -56,8 +56,8 @@ answered by Theorem 4, which gives only the upper bound. The matching lower
 bound $\exp(cn^{1/2})$, which Erdős called easy, is not proved in the paper.
 
 **Acceptance.** The paper is refereed. It appeared in Combinatorica, volume 3
-(1983). The site's curator, Thomas Bloom, labeled the problem proved and credits
-Szemerédi and Trotter.
+(1983). The erdosproblems.com curator, Thomas Bloom, labeled the problem proved
+and credits Szemerédi and Trotter.
 
 **Formalization.** A third party formalized the theorem: `erdos_733` in
 `src/latest/ErdosProblems/Erdos733.lean` of

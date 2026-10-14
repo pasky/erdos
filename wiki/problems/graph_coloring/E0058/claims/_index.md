@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 58, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/graph_coloring/E0058/claims
@@ -13,7 +13,8 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/graph_coloring/E0058/claims/1992_05_01_gyarfas|1992_05_01_gyarfas]]: Gyárfás proves that a graph whose odd cycles have $k$ distinct lengths has
 chromatic number at most $2k+2$, with equality only when a block is
-$K_{2k+2}$. The result is refereed and credited by the site's curator.
+$K_{2k+2}$. The result is refereed and credited by the erdosproblems.com
+curator.
 
 [[problems/graph_coloring/E0058/claims/2020_12_19_gao_huo_ma|2020_12_19_gao_huo_ma]]: Gao, Huo and Ma prove that a graph of chromatic number at least $2k+3$ has
 cycles of $k+1$ consecutive odd lengths. This strengthens the inequality of

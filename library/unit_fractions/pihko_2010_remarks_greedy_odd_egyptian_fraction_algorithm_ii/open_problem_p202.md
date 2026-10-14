@@ -42,8 +42,8 @@ proved on this page.
 
 The paper uses the 2001 paper's convention, the greatest odd unit fraction
 not exceeding the remainder, with no rule excluding a denominator already
-used. How that convention compares with the site's statement of Problem 282
-is recorded on the
+used. How that convention compares with the erdosproblems.com statement of
+Problem 282 is recorded on the
 [[unit_fractions/pihko_2001_remarks_greedy_odd_egyptian_fraction_algorithm/open_problem_1_1|2001 Open Problem 1.1]]
 page.
 

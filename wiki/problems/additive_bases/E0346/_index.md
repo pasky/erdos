@@ -35,12 +35,12 @@ $$
 \lim_n \frac{a_{n+1}}{a_n}=\frac{1+\sqrt{5}}{2}?
 $$
 
-**Formulation.** The site's wording follows Erdős and Graham ([ErGr80],
-p. 57), who ask whether every sequence with $s_{n+1}/s_n\ge1+\epsilon$ and
-both deletion properties must have $\lim_n s_{n+1}/s_n=(1+\sqrt5)/2$.
-Convergence of the ratios is part of the conclusion, and Price's
-counterexample refutes the Statement in that form. Erdős and Graham add that
-very irregular sequences, with $\liminf s_{n+1}/s_n=1$ and
+**Formulation.** The erdosproblems.com wording follows Erdős and Graham
+([ErGr80], p. 57), who ask whether every sequence with
+$s_{n+1}/s_n\ge1+\epsilon$ and both deletion properties must have
+$\lim_n s_{n+1}/s_n=(1+\sqrt5)/2$. Convergence of the ratios is part of the
+conclusion, and Price's counterexample refutes the Statement in that form. Erdős
+and Graham add that very irregular sequences, with $\liminf s_{n+1}/s_n=1$ and
 $\limsup s_{n+1}/s_n=\infty$, have both deletion properties; the ratio bound
 $1+\epsilon$ excludes them.
 
@@ -59,16 +59,16 @@ partial claim
 covering the sequences whose ratios converge; the answer yes on the variant is
 claimed, not accepted.
 
-**Status.** SOLVED, in the site's label (page last edited 1 September 2026). The
-derived standing, solved and disproved, is more specific than the site's label,
-which names no polarity, because the accepted claim is a counterexample to the
-Statement. The site's remarks credit the counterexample that GPT Pro produced at
-Liam Price's prompting. It is a sequence with both deletion properties and
-$a_{n+1}/a_n\ge6/5$ whose ratios have the two subsequential limits $\varphi$ and
-$\varphi+1/4$. The statement is therefore disproved, and the answer to the
-question as posed is no. See the
+**Status.** SOLVED, in the erdosproblems.com label (page last edited 1 September
+2026). The derived standing, solved and disproved, is more specific than the
+erdosproblems.com label, which names no polarity, because the accepted claim is
+a counterexample to the Statement. The erdosproblems.com remarks credit the
+counterexample that GPT Pro produced at Liam Price's prompting. It is a sequence
+with both deletion properties and $a_{n+1}/a_n\ge6/5$ whose ratios have the two
+subsequential limits $\varphi$ and $\varphi+1/4$. The statement is therefore
+disproved, and the answer to the question as posed is no. See the
 [[problems/additive_bases/E0346/claims/2026_06_19_price|claim page]], which also
-carries the site's proof-claim entry of 2026-07-15.
+carries the erdosproblems.com proof-claim entry of 2026-07-15.
 
 **Source.** [erdosproblems.com/346](https://www.erdosproblems.com/346), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #346,

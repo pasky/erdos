@@ -37,9 +37,9 @@ from $A$ of distance $d$ apart.
 Is it true that $k=n-1$ and $\{f(d_i)\}=\{n-1,\ldots,1\}$ if and only if $A$ is
 a set of equidistant points on a line or a circle?
 
-**Notes.** The site's wording counts ordered pairs, and under that count it
-fails at every $n\ge2$: each unordered pair at distance $d$ gives two ordered
-pairs, so every multiplicity is even and the profile
+**Notes.** The erdosproblems.com wording counts ordered pairs, and under that
+count it fails at every $n\ge2$: each unordered pair at distance $d$ gives two
+ordered pairs, so every multiplicity is even and the profile
 $\{f(d_i)\}=\{n-1,\ldots,1\}$, which contains $1$, never occurs. The $n$
 equally spaced points $0,1,\ldots,n-1$ on a line, which the question names,
 then have the multiplicities $2(n-1),\ldots,2$, so the "if" direction fails and
@@ -53,12 +53,13 @@ $1,2,\dots,n-1$" unless the points are equidistant on a line or a circle; such
 multiplicities sum to $\binom n2$, the number of unordered pairs, and equally
 spaced points on a line achieve the profile only under that count. [CDL25,
 Section 5, p. 9] states the question for multiplicities whose sum is
-$\binom n2$. The site's own commentary credits the arc-and-center family of
-[CDL25] as a further configuration with the profile, which it is only under the
-unordered count. The defect is the site's: Erdős's text speaks of the
-multiplicities of the distances and not of ordered pairs. The form follows from
-these sources, not from the results that settle it. No result concerns the
-ordered count alone. The page's standing judges the modified Statement.
+$\binom n2$. erdosproblems.com's own commentary credits the arc-and-center
+family of [CDL25] as a further configuration with the profile, which it is only
+under the unordered count. The defect is erdosproblems.com's: Erdős's text
+speaks of the multiplicities of the distances and not of ordered pairs. The form
+follows from these sources, not from the results that settle it. No result
+concerns the ordered count alone. The page's standing judges the modified
+Statement.
 
 **Formulation.** Erdős [Er84c, p. 135] conjectured the characterization for
 $n>4$, noting that for $n=4$ the profile is "clearly possible" off lines and
@@ -69,20 +70,20 @@ that he was fairly sure the conjecture holds for sufficiently large $n$,
 perhaps for all $n>5$. [CDL25] poses the question for all sufficiently large
 $n$, reporting that Erdős conjectured the characterization for large $n$, and
 the formal-conjectures statement file at the revision linked below asks it for
-all sufficiently large $n$ as well. The site's wording asks the question for
-every $n$, without Erdős's condition. That omission is not corrected: the
-characterization fails at every $n\ge4$ by the arc-and-center family of
-[CDL25], and Erdős himself reports failures of his $n>4$ form at $n=5$ and
-$n=6$, so the failures are not confined to the smallest $n$ and no range
+all sufficiently large $n$ as well. The erdosproblems.com wording asks the
+question for every $n$, without Erdős's condition. That omission is not
+corrected: the characterization fails at every $n\ge4$ by the arc-and-center
+family of [CDL25], and Erdős himself reports failures of his $n>4$ form at $n=5$
+and $n=6$, so the failures are not confined to the smallest $n$ and no range
 removes them. The three questions, for every $n$, for $n>4$ and for all
 sufficiently large $n$, have the same answer, no, as the Current assessment
 records.
 
-**Status.** DISPROVED (LEAN), in the site's label. The site marked the problem
-disproved and credits Clemen, Dumitrescu and Liu with a second family of
-configurations. It also flags a Lean proof of a four-point counterexample. Both
-have the profile under the unordered count, so the label describes the modified
-Statement. See the
+**Status.** DISPROVED (LEAN), in the erdosproblems.com label. Bloom's catalog
+marked the problem disproved and credits Clemen, Dumitrescu and Liu with a
+second family of configurations. It also flags a Lean proof of a four-point
+counterexample. Both have the profile under the unordered count, so the label
+describes the modified Statement. See the
 [[problems/distance_problems/E0958/claims/2025_05_07_clemen_dumitrescu_liu|accepted claim page]]
 and the
 [[problems/distance_problems/E0958/claims/2025_12_27_alexeev|Lean claim page]].
@@ -104,12 +105,12 @@ https://www.erdosproblems.com/958.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/958.lean),
 which at the revision linked asks the question for all sufficiently large
 $n$, marks it solved with the answer false crediting [CDL25], names the
-four-point set below among the small exceptions, and repeats the site's remark
-on Erdős's conjecture. Boris Alexeev's repository holds a Lean proof, with
-Aristotle (Harmonic) as formal co-author, that the four points $(0,0)$,
-$(1,0)$, $(0,1)$, $(0,-1)$ have the profile and lie on no line and no circle;
-its multiplicities count unordered pairs of distinct points, so it refutes the
-modified Statement. It is recorded on
+four-point set below among the small exceptions, and repeats the
+erdosproblems.com remark on Erdős's conjecture. Boris Alexeev's repository holds
+a Lean proof, with Aristotle (Harmonic) as formal co-author, that the four
+points $(0,0)$, $(1,0)$, $(0,1)$, $(0,-1)$ have the profile and lie on no line
+and no circle; its multiplicities count unordered pairs of distinct points, so
+it refutes the modified Statement. It is recorded on
 [[problems/distance_problems/E0958/claims/2025_12_27_alexeev|its own claim page]],
 has not been built here, and is not native Lean coverage.
 
@@ -124,21 +125,21 @@ accepted
 give $n-1$ equally spaced points on a short arc of a unit circle together
 with the center, which has the profile for every $n\geq4$ and lies on no
 line or circle; the paper is refereed (Acta Math. Hungar. 177 (2025)) and the
-site's curator credits it. The standing derives from that claim page. The
-same family refutes Erdős's conjecture, for $n>4$ [Er84c, p. 135] and for all
-sufficiently large $n$. The first refutation in print is Erdős's own $n=4$
+erdosproblems.com curator credits it. The standing derives from that claim page.
+The same family refutes Erdős's conjecture, for $n>4$ [Er84c, p. 135] and for
+all sufficiently large $n$. The first refutation in print is Erdős's own $n=4$
 configuration in [Er84c, p. 135], which he gave as an exception lying outside
 his conjecture rather than as an answer to the question; it has no claim page
 of its own, and the four-point set on the
 [[problems/distance_problems/E0958/claims/2025_12_27_alexeev|Lean claim page]]
 is an instance of it.
 
-**Contradiction.** The site's remark, which the formal-conjectures docstring
-repeats, says that Erdős conjectured the answer to be no, that is, that other
-configurations exist. Erdős's own text [Er84c, p. 135] and Section 5 of
-[CDL25], which calls its family a counterexample to his conjecture, say the
-opposite. The contradiction is unresolved on the site; this page follows the
-two sources.
+**Contradiction.** The erdosproblems.com remark, which the formal-conjectures
+docstring repeats, says that Erdős conjectured the answer to be no, that is,
+that other configurations exist. Erdős's own text [Er84c, p. 135] and Section 5
+of [CDL25], which calls its family a counterexample to his conjecture, say the
+opposite. The contradiction is unresolved on erdosproblems.com; this page
+follows the two sources.
 
 **The "if" direction.** Equally spaced points on a line have the profile, and
 so do equally spaced points on a circle whenever the $n-1$ chord lengths they
@@ -159,13 +160,13 @@ the claim page discloses. It refutes the modified Statement at $n=4$ and
 leaves Erdős's question for $n>4$, and for all sufficiently large $n$ as the
 formal-conjectures file reads it, to the family of Clemen, Dumitrescu and
 Liu. The technical report on ByteDance's Seed-Prover 1.5 (arXiv:2512.17260,
-19 December 2025), to which a comment on the site's discussion thread points,
-lists Problem 958 among fifteen Erdős problems that system solved, adding that
-these problems are mathematically relatively simple; it releases no proof and
-no Lean file for the problem, so it asserts a solution with nothing to page
-and gets no claim page. Search scope: the site's problem page and discussion
-thread, the arXiv and publisher records of [CDL25], [Er84c], the Lean
-repository and the formal-conjectures file; no forum proof claim named the
+19 December 2025), to which a comment on the erdosproblems.com discussion thread
+points, lists Problem 958 among fifteen Erdős problems that system solved,
+adding that these problems are mathematically relatively simple; it releases no
+proof and no Lean file for the problem, so it asserts a solution with nothing to
+page and gets no claim page. Search scope: the erdosproblems.com problem page
+and discussion thread, the arXiv and publisher records of [CDL25], [Er84c], the
+Lean repository and the formal-conjectures file; no forum proof claim named the
 problem, and on 2026-10-07 no release item or lead did.
 <!-- BEGIN problem library links -->
 

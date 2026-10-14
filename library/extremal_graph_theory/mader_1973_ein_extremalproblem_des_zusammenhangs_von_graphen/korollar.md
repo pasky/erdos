@@ -5,8 +5,8 @@ desc: |
   Mader's exact edge-disjoint threshold: every graph with more than
   (n/2)(e(G) − 1) edges has two vertices joined by n edge-disjoint paths, and
   for every m ≥ n ≥ 2 there is a graph on m vertices with [(n/2)(m − 1)]
-  edges and no such pair; in the site's notation ℓ_m(n) = [(m/2)(n − 1)] + 1,
-  which is 1 + n·C(m,2) at the problem's parameters.
+  edges and no such pair; in the erdosproblems.com notation ℓ_m(n) = [(m/2)(n −
+  1)] + 1, which is 1 + n·C(m,2) at the problem's parameters.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -35,7 +35,7 @@ $\bigl[\frac n2(m-1)\bigr]+1$.
 
 **In the problem's notation.** With $m$ for the number of paths and $n$ for
 the order, $\ell_m(n)=\lfloor\frac m2(n-1)\rfloor+1$ for all $n\ge m\ge2$,
-the site's $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$. At the problem's
+erdosproblems.com's $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$. At the problem's
 parameters, $n$ replaced by $1+n(m-1)$, this is
 $\frac m2\cdot n(m-1)+1=1+n\binom m2$, the conjectured value, so the
 edge-disjoint form of the conjecture holds for every $m\ge2$ with the
@@ -90,9 +90,9 @@ cited to Harary, Graph Theory (1969), Satz 6.2 (the paper's [3], not held).
   all $n\ge m\ge2$, equal to $1+n\binom m2$ at the problem's parameters, so
   the conjecture is true and sharp under that reading for every $m\ge2$;
   the extremal graphs, a universal vertex over a near-regular graph of
-  degree $m-2$, are the ones the site's thread describes (11 October 2025)
-  and the $K_1+nK_{m-1}$ of the problem's own example is one of them. The
-  cases $m=5$ and $m=6$ are the filed
+  degree $m-2$, are the ones the erdosproblems.com thread describes (11
+  October 2025) and the $K_1+nK_{m-1}$ of the problem's own example is one of
+  them. The cases $m=5$ and $m=6$ are the filed
   [[extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/theorem_p246|Leonard 1972]]
   and
   [[extremal_graph_theory/leonard_1973_graphs_ways/theorem_p688|Leonard 1973]].

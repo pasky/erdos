@@ -25,11 +25,11 @@ updated: 2026-10-08T14:17:37Z
 in $\mathbb{R}^d$, all of distance at least $1$ apart, there are at most
 $f_d(n)$ many pairs of points which are distance $1$ apart. Estimate $f_d(n)$.
 
-**Status.** Open, in the site's label (OPEN; page last edited 8 February 2026).
-The standing in the frontmatter, derived from the claim pages, is open, because
-the problem asks for $f_d(n)$ in every dimension. The site's remarks credit
-exact values for $d=1$ and $d=2$ and an upper bound for $d=3$. These are
-recorded as partial claims in `claims/`.
+**Status.** Open, in the erdosproblems.com label (OPEN; page last edited 8
+February 2026). The standing in the frontmatter, derived from the claim pages,
+is open, because the problem asks for $f_d(n)$ in every dimension. The
+erdosproblems.com remarks credit exact values for $d=1$ and $d=2$ and an upper
+bound for $d=3$. These are recorded as partial claims in `claims/`.
 
 **Source.** [erdosproblems.com/1084](https://www.erdosproblems.com/1084),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1084,
@@ -59,7 +59,7 @@ page]].
 
 ## Current assessment
 
-The site's formulation (page last edited 8 February 2026) asks for an
+The erdosproblems.com formulation (page last edited 8 February 2026) asks for an
 estimate of $f_d(n)$, the largest number of pairs at distance exactly $1$
 among $n$ points of $\mathbb{R}^d$ at mutual distance at least $1$; this is
 the contact number problem for packings of congruent balls. The answer is

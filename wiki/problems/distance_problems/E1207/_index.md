@@ -32,9 +32,10 @@ $$
 
 for some constant $c>0$?
 
-**Status.** Open. The site's label was OPEN (page last edited 7 September 2026).
-Its remark of that date credits [LPZ26] with answering the particular question.
-The remark keeps the problem open for the general estimate of $P_d(n)$.
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 7
+September 2026). Its remark of that date credits [LPZ26] with answering the
+particular question. The remark keeps the problem open for the general estimate
+of $P_d(n)$.
 
 **Source.** [erdosproblems.com/1207](https://www.erdosproblems.com/1207),
 accessed 2026-09-04 and 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #1207,
@@ -55,14 +56,14 @@ https://www.erdosproblems.com/1207.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-10-07) asks for estimates of $P_d(n)$,
-the size of an isosceles-free subset that every set of $n$ points in
+The erdosproblems.com formulation (accessed 2026-10-07) asks for estimates of
+$P_d(n)$, the size of an isosceles-free subset that every set of $n$ points in
 $\mathbb{R}^d$ is guaranteed to contain, and in particular whether
-$P_2(n)<n^{1-c}$ for some $c>0$. The site's label was OPEN.
+$P_2(n)<n^{1-c}$ for some $c>0$. The erdosproblems.com label was OPEN.
 
-**Known bounds.** By the site's remarks, Erdős [Er80] attributes the problem
-to Riddell and notes that $P_d(n)>n^{\epsilon_d}$ with $\epsilon_d\to 0$ as
-$d\to\infty$: a subset with all distances distinct contains no isosceles
+**Known bounds.** By the erdosproblems.com remarks, Erdős [Er80] attributes the
+problem to Riddell and notes that $P_d(n)>n^{\epsilon_d}$ with $\epsilon_d\to 0$
+as $d\to\infty$: a subset with all distances distinct contains no isosceles
 triangle, so $P_d(n)\ge f_d(n)\ge n^{1/(3d-3)-o(1)}$, with $f_d(n)$ as in
 [[problems/distance_problems/E1208/_index|Problem 1208]]. In the plane, the
 bound of
@@ -82,13 +83,14 @@ particular question and leaves the general estimate open; it is a preprint
 without journal publication or Lean proof, so it stays claimed.
 
 **Not recorded as a claim.** Section 5.3 of [BMP05] asserts that the regular
-polygon gives $P_2(n)\ll n^{1/2}$ but gives no details, and the site disputes
-the assertion: the isosceles triangles on the vertices of a regular polygon
-correspond to three-term progressions among the vertex indices, so the polygon
-bounds $P_2(n)$ only by about $r_3(n)$, the largest size of a progression-free
-subset of $\{1,\ldots,n\}$. The assertion has no proof to record.
+polygon gives $P_2(n)\ll n^{1/2}$ but gives no details, and erdosproblems.com
+disputes the assertion: the isosceles triangles on the vertices of a regular
+polygon correspond to three-term progressions among the vertex indices, so the
+polygon bounds $P_2(n)$ only by about $r_3(n)$, the largest size of a
+progression-free subset of $\{1,\ldots,n\}$. The assertion has no proof to
+record.
 
-Search scope: the site's problem page and the arXiv
+Search scope: the erdosproblems.com problem page and the arXiv
 record and text of [LPZ26]. Not searched: zbMATH and MathSciNet.
 <!-- BEGIN problem library links -->
 

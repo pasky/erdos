@@ -31,9 +31,9 @@ $0$?
 
 **Formulation.** The question is read for every $C>0$: as Erdős posed it
 ([Er92b], Problem 21, p. 239: for summands $2^k3^l$ almost all integers should
-fail even when $b_t/b_1$ may be a large constant), as the site labeled it, and
-as the
-[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/845.lean)
+fail even when $b_t/b_1$ may be a large constant), as Bloom's catalog labeled
+it, and as the [formal-conjectures
+statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/845.lean)
 quantifies it. The standing concerns that reading. For a single $C$ the answer
 is yes for $C<3$ (density zero), no for $C\ge6$ (every positive integer is such
 a sum), and unproved for $3\le C<6$; see

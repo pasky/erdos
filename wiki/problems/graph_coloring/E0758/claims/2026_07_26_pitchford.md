@@ -34,8 +34,8 @@ updated: 2026-10-08T00:44:25Z
 vertices into six sets each inducing a complete or an empty graph, and some
 graph on 20 vertices needs six.
 
-**Covers.** The value $z(20)$, which the site's remark leaves open between 6
-and 7; nothing about $z(n)$ for $n\ge21$.
+**Covers.** The value $z(20)$, which the erdosproblems.com remark leaves open
+between 6 and 7; nothing about $z(n)$ for $n\ge21$.
 
 The candidate proof was published on 2026-07-26 as the release
 candidate-2026-07-26 of the repository linked above, whose pinned commit holds
@@ -54,10 +54,11 @@ enumeration, checking that all 12,346 graphs on 8 vertices are 3-cocolorable and
 all 1,449,166 graphs on 12 vertices with no $K_4$ in the graph or its complement
 are 4-cocolorable, a route that avoids the chromatic-number reduction of
 [[problems/graph_coloring/E0758/claims/2024_09_15_mehta|Mehta's computation]];
-the deposit credits these re-derivations to Claude Opus 5. The site's page
-records $z(20)$ as unknown as of 2026-10-07, and on that date the site and its
-thread, the community database, the Justin Sun Prize awards repository,
-Crossref and Zenodo showed no refereed or independently verified account.
+the deposit credits these re-derivations to Claude Opus 5. On 2026-10-07 the
+erdosproblems.com page recorded $z(20)$ as unknown, and on that date
+erdosproblems.com and its thread, the community database, the Justin Sun Prize
+awards repository, Crossref and Zenodo showed no refereed or independently
+verified account.
 
 **Formalizations.** Two Lean 4 developments state $z(20)=6$ and are linked
 above. Collin Yuanjie Ren's submission to the Justin Sun Prize awards

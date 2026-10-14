@@ -61,4 +61,5 @@ None stated beyond Turán's theorem for the extremal graph (reference [13]).
 - [[../wiki/problems/extremal_graph_theory/E1033/_index|Problem 1033]]: the proof's
   triangle $vyu$ has $\deg v+\deg y>n$, the mechanism behind the paper's
   lower bound on the triangle degree sum; the theorem itself concerns the
-  size of a chordal subgraph, the site's "concerned with chordal subgraphs".
+  size of a chordal subgraph, erdosproblems.com's "concerned with chordal
+  subgraphs".

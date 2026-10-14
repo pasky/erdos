@@ -106,6 +106,6 @@ the records; nothing was built, kernel-checked or audited here.
 
 **Standing.** Claimed: the result was announced as a comment under the
 earlier claim, not filed as a proof claim of its own; the manuscript is a
-repository document, not on a preprint server; the site's label was OPEN (page
-last edited 17 October 2025), and no refereed version, site acceptance or
-independent review was found on 2026-10-07.
+repository document, not on a preprint server; the erdosproblems.com label was
+OPEN (page last edited 17 October 2025), and no refereed version,
+erdosproblems.com acceptance or independent review was found on 2026-10-07.

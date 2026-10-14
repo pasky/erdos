@@ -25,16 +25,17 @@ updated: 2026-10-07T20:39:38Z
 that $ab+1$ is never squarefree (for all $a,b\in A$) achieved by taking those
 $n\equiv 7\pmod{25}$?
 
-**Status.** The site's label was DECIDABLE (page last edited 6 December 2025;
-proof-claim tab accessed 2026-10-06). The label means that the site counts the
-problem as resolved except for a finite check. It is recorded here, not adopted
-as the standing. The standing derives from the claim pages.
+**Status.** The erdosproblems.com label was DECIDABLE (page last edited 6
+December 2025; proof-claim tab accessed 2026-10-06). The label means that
+erdosproblems.com counts the problem as resolved except for a finite check. It
+is recorded here, not adopted as the standing. The standing derives from the
+claim pages.
 
 The accepted partial claim
 [[problems/integer_sequences/E0848/claims/2025_10_19_sawhney|Sawhney]] is a note
-that the site's curator, Thomas Bloom, credits in the commentary. Its Section 4
-names ChatGPT 5 Pro as having assisted the proof. It proves that for all
-sufficiently large $N$ the class $7\bmod25$ attains the maximum, with a
+that the erdosproblems.com curator, Thomas Bloom, credits in the commentary. Its
+Section 4 names ChatGPT 5 Pro as having assisted the proof. It proves that for
+all sufficiently large $N$ the class $7\bmod25$ attains the maximum, with a
 stability statement. It leaves the finite range of small $N$ unchecked and
 unquantified. The pending partial claim
 [[problems/integer_sequences/E0848/claims/2026_03_23_sothanaphan|Sothanaphan 2026]]
@@ -50,14 +51,14 @@ with OpenAI Codex as its reported author and Ian Pitchford as its publisher. It
 works by certificates and exact-rational envelope arguments up to Sothanaphan's
 threshold. The second is
 [[problems/integer_sequences/E0848/claims/2026_07_30_li|Li 2026]], released on
-30 July 2026 and submitted to the site's proof-claim tab on 16 August 2026. Its
-tools line names OpenAI ChatGPT 5.5, OpenAI ChatGPT 5.6 and a proof-engineering
-system of the author's own, and it comes with a Lean 4 project. The site has
-acted on none of the three, no referee or named expert has examined them, and
-nothing was built or audited here. So they are `claimed`, and the problem's
-standing is claimed, proved.
+30 July 2026 and submitted to the erdosproblems.com proof-claim tab on 16
+August 2026. Its tools line names OpenAI ChatGPT 5.5, OpenAI ChatGPT 5.6 and a
+proof-engineering system of the author's own, and it comes with a Lean 4
+project. erdosproblems.com has acted on none of the three, no referee or named
+expert has examined them, and nothing was built or audited here. So they are
+`claimed`, and the problem's standing is claimed, proved.
 
-The site's commentary also records the bound
+The erdosproblems.com commentary also records the bound
 $\lvert A\rvert\le(0.108\ldots+o(1))N$ sent by van Doorn. It comes from the fact
 that $a^2+1$ must be divisible by the square of a prime $p\equiv1\pmod4$.
 Weisenberg sharpened it to about $0.105N$.
@@ -82,21 +83,22 @@ claim page. Nothing was built or audited here.
 
 ## Current assessment
 
-The Statement is read for every $N\ge1$, as the site's label, which leaves a
-finite check of the small sizes, reads it. Search scope: the site's problem
-page, commentary and proof-claim tab; the statement, remark and section outline
-of Sawhney's note, the discussion thread (48 comments on 2026-10-07), the
-comments on the proof-claim tab, the first page of Sothanaphan's note, the
-Zenodo record and README of Pitchford's repository and the release list of Li's
-repository. Not part of that basis: Sawhney's proof, Sothanaphan's proof, the
-two full claims' manuscripts and Li's Lean project; no literature search beyond
-the site was made. The question is settled for all sufficiently large $N$ by the
-accepted partial claim, which gives no explicit threshold, so what remains on
-the site's account is a finite check of the small sizes; the pending partial
-claim puts the threshold at $2.64\cdot10^{17}$, and the two pending full claims
-assert that check closed with the exact value $\lfloor(N+18)/25\rfloor$ for
-every $N\ge1$, by different routes. The answer to the question is yes if either
-full claim stands, and yes for all large $N$ on the accepted evidence.
+The Statement is read for every $N\ge1$, as the erdosproblems.com label, which
+leaves a finite check of the small sizes, reads it. Search scope: the
+erdosproblems.com problem page, commentary and proof-claim tab; the statement,
+remark and section outline of Sawhney's note, the discussion thread (48 comments
+on 2026-10-07), the comments on the proof-claim tab, the first page of
+Sothanaphan's note, the Zenodo record and README of Pitchford's repository and
+the release list of Li's repository. Not part of that basis: Sawhney's proof,
+Sothanaphan's proof, the two full claims' manuscripts and Li's Lean project; no
+literature search beyond erdosproblems.com was made. The question is settled for
+all sufficiently large $N$ by the accepted partial claim, which gives no
+explicit threshold, so what remains on erdosproblems.com's account is a finite
+check of the small sizes; the pending partial claim puts the threshold at
+$2.64\cdot10^{17}$, and the two pending full claims assert that check closed
+with the exact value $\lfloor(N+18)/25\rfloor$ for every $N\ge1$, by different
+routes. The answer to the question is yes if either full claim stands, and yes
+for all large $N$ on the accepted evidence.
 
 **The thread (to 2026-10-07).** Oldest first: comments of 29 August 2025
 on the density bound (the accounts DesmondWeisenberg and Woett, improving

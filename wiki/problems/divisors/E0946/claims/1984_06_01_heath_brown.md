@@ -65,9 +65,10 @@ formal-conjectures statement file of the problem points at it through a
 `formal_proof` attribute since 18 September 2026. This corpus has not built
 or audited it, so no `formalized` evidence is listed.
 
-**Acceptance.** Thomas Bloom, the site's curator, labeled the problem proved and
-credits Heath-Brown's paper for the proof on the problem page, last edited 2
-February 2026. That credit is the `reviewed` evidence. The paper is a refereed
-article in Mathematika, which is the `refereed` evidence. The paper is not held
-in the library, and its proof has not been reproduced here. The count is
-recorded as the problem page and the Erdős, Pomerance and Sárközy card state it.
+**Acceptance.** Thomas Bloom, the erdosproblems.com curator, labeled the problem
+proved and credits Heath-Brown's paper for the proof on the problem page, last
+edited 2 February 2026. That credit is the `reviewed` evidence. The paper is a
+refereed article in Mathematika, which is the `refereed` evidence. The paper is
+not held in the library, and its proof has not been reproduced here. The count
+is recorded as the problem page and the Erdős, Pomerance and Sárközy card state
+it.

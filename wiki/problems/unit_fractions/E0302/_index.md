@@ -33,7 +33,7 @@ with distinct $a,b,c\in A$?
 
 Estimate $f(N)$. In particular, is $f(N)=(\tfrac{1}{2}+o(1))N$?
 
-**Formulation.** The site's wording on 2026-09-17 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-17 (the page shows no
 last-edited date). The forbidden relation is the two-term one with $a,b,c$
 distinct elements of $A$; since $\frac1a=\frac1b+\frac1c$ forces $a<b$ and
 $a<c$, distinctness only excludes $b=c$, that is, the pairs $\{n,2n\}$. The
@@ -43,14 +43,15 @@ and the coloring version is [[problems/unit_fractions/E0303/_index|Problem 303]]
 $f(N)$ is OEIS A390395 ($1,2,3,4,5,5,6,\ldots$, to $N=731$). The statement
 asks for an estimate and whether $f(N)=(1/2+o(1))N$.
 
-**Status.** Open: the site's label was OPEN (no last-edited date shown), and the
-site marked the problem as not resolvable by a finite computation. The standing
-derived from the claim pages is open, claim none. There are five pending partial
-claims, and none of them would settle the estimation question.
+**Status.** Open: the erdosproblems.com label was OPEN (no last-edited date
+shown), and Bloom's catalog marked the problem as not resolvable by a finite
+computation. The standing derived from the claim pages is open, claim none.
+There are five pending partial claims, and none of them would settle the
+estimation question.
 [[problems/unit_fractions/E0302/claims/2025_03_25_cambie|Cambie's construction of density 5/8]]
 and
 [[problems/unit_fractions/E0302/claims/2025_08_11_van_doorn|van Doorn's upper bound 9/10]]
-are both recorded from the site's commentary.
+are both recorded from the erdosproblems.com commentary.
 [[problems/unit_fractions/E0302/claims/2026_07_20_schuh|Schuh's 373/420]] and
 [[problems/unit_fractions/E0302/claims/2026_08_16_khanukov|Khanukov's two-sided bounds]]
 come from the proof-claim tab.
@@ -58,33 +59,35 @@ come from the proof-claim tab.
 comes from the discussion thread.
 
 The bounds supported by sources read here are
-$(5/8+o(1))N\le f(N)\le(25/28+o(1))N$. The upper bound comes from the site's
-$25/28$ argument for Problem 301 (elementary; its counting facts checked on that
-problem's page). That argument uses only two-term relations. It sharpens van
-Doorn's Theorem 2, $f(N)<9N/10+(\log N)^3+1$, from an undated GitHub note of
-2025 (unrefereed; statement checked, proof read for structure). The lower bound
-is Cambie's construction in the site's commentary (elementary, checked here).
-Since $5/8>1/2$, the site's particular guess $f(N)=(1/2+o(1))N$ fails. That
-negative answer is Cambie's partial claim. It is pending because the site's
-commentary credits it while the site's label was OPEN, which the site kept for
-the estimation question. No proof, disproof or accepted determination of the
-asymptotic constant was found in the search whose scope the Current assessment
-records.
+$(5/8+o(1))N\le f(N)\le(25/28+o(1))N$. The upper bound comes from
+erdosproblems.com's $25/28$ argument for Problem 301 (elementary; its counting
+facts checked on that problem's page). That argument uses only two-term
+relations. It sharpens van Doorn's Theorem 2, $f(N)<9N/10+(\log N)^3+1$, from an
+undated GitHub note of 2025 (unrefereed; statement checked, proof read for
+structure). The lower bound is Cambie's construction in the erdosproblems.com
+commentary (elementary, checked here). Since $5/8>1/2$, erdosproblems.com's
+particular guess $f(N)=(1/2+o(1))N$ fails. That negative answer is Cambie's
+partial claim. It is pending because the erdosproblems.com commentary credits it
+while the erdosproblems.com label was OPEN, which erdosproblems.com kept for the
+estimation question. No proof, disproof or accepted determination of the
+asymptotic constant was found in the search dated 2026-09-17 UTC whose scope the
+Current assessment records.
 
 **Source.** [erdosproblems.com/302](https://www.erdosproblems.com/302),
-accessed 2026-09-17: the problem page (OPEN, with the site's note that no
-finite computation can resolve the problem; source keys [ErGr80] and [BrRo91];
-no last-edited date shown), its discussion thread (two comments, of 5 July and
-25 September 2026, as of 2026-10-07) and its proof-claim tab with two partial
-claims (20 July and 13 September 2026). The site thanks Stijn Cambie, Zachary
-Hunter, Mehtaab Sawhney and Wouter van Doorn. Cite as: T. F. Bloom, Erdős
-Problem #302, https://www.erdosproblems.com/302, accessed 2026-09-17.
+accessed 2026-09-17: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can resolve the problem; source keys [ErGr80] and
+[BrRo91]; no last-edited date shown), its discussion thread (two comments, of 5
+July and 25 September 2026, accessed 2026-10-07) and its proof-claim tab with
+two partial claims (20 July and 13 September 2026). erdosproblems.com thanks
+Stijn Cambie, Zachary Hunter, Mehtaab Sawhney and Wouter van Doorn. Cite as: T.
+F. Bloom, Erdős Problem #302, https://www.erdosproblems.com/302, accessed
+2026-09-17.
 
 **References.**
 
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
-  28, Université de Genève (1980), p. 37 (the site gives no page).
+  28, Université de Genève (1980), p. 37 (erdosproblems.com gives no page).
   Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [BrRo91] Brown, Tom C. and Rödl, Vojtěch, Monochromatic solutions to
@@ -96,7 +99,7 @@ Problem #302, https://www.erdosproblems.com/302, accessed 2026-09-17.
 - [vD25] van Doorn, W., Two-colouring and density lead to many solutions
   of $1/x+1/y=1/z$. Undated four-page note in the author's GitHub
   repository `Woett/Mathematical-shorts` (PDF created 31 July 2025;
-  committed 11 August 2025 per the GitHub API); the note the site's
+  committed 11 August 2025 per the GitHub API); the note the erdosproblems.com
   commentary links and the formal-conjectures file cites as [va25]; unrefereed.
   Theorem 2, p. 3. Library home:
   [[../library/unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/_index|doorn_2025_two_coloring_density_solutions_unit_fraction_equation]].
@@ -104,9 +107,9 @@ Problem #302, https://www.erdosproblems.com/302, accessed 2026-09-17.
   Sequences (2025; entry last modified 30 November 2025, server time):
   $f(n)$ for $n\le731$ (b-file by C. W. Wu and S. Kesarwani); read
   2026-09-17.
-- The site's commentary attributes the $5/8$ construction and the
+- The erdosproblems.com commentary attributes the $5/8$ construction and the
   non-distinct $2/3$ remark to Stijn Cambie; neither has a written source
-  beyond the site.
+  beyond erdosproblems.com.
 
 **Formalization.** The file
 [`ErdosProblems/302.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/302.lean)
@@ -129,8 +132,8 @@ Nothing was built or checked here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement above;
-OPEN; no last-edited date shown. The commentary records that the coloring
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; OPEN; no last-edited date shown. The commentary records that the coloring
 version is Problem 303, solved by Brown and Rödl [BrRo91]; that the odd
 integers up to $N$, or the integers in $[N/2,N]$, give $f(N)\ge(1/2+o(1))N$;
 that Wouter van Doorn has proved $f(N)\le(9/10+o(1))N$ in a linked note; that
@@ -149,7 +152,7 @@ $S\subseteq\{1,2,\ldots,n\}$ with $|S|>cn$ then $S$ contains $t$, $x$ and
 $y$ with $\frac1t=\frac1x+\frac1y$", followed by "Of course,
 $\frac1t=\frac1x+\frac1y$ holds if and only if $x+y\mid xy$" and the
 divisibility questions of Problem 327. The book asks for which $c$ this
-holds; the site asks whether $\frac12$ is the threshold.
+holds; erdosproblems.com asks whether $\frac12$ is the threshold.
 
 **Bounds supported by sources read here.** Upper bound: van Doorn's
 [[../library/unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/theorem_2|Theorem 2]]
@@ -159,16 +162,16 @@ $f(N)<9N/10+(\log N)^3+1$. The proof (pp. 3--4, read for structure) counts
 disjoint dilates of the triples $\{2,3,6\}$ and $\{4,5,20\}$, each of which a
 solution-free set must miss in one element. The note is an undated GitHub file
 of 2025 with no journal, no arXiv version and no independent review found; the
-site's commentary credits it to van Doorn and links it, and formal-conjectures
-cites it. Lower bound (site commentary, checked here):
-$A_0=\{a\le N/4:a\text{ odd}\}\cup[N/2,N]$ has $5N/8+O(1)$ elements and no
-solution. A solution $1/a=1/b+1/c$ with $a<b,c$ satisfies $(b-a)(c-a)=a^2$; if
-$a\ge N/2$ then $(b-a)(c-a)\le(N-a)^2\le a^2$ with equality only for $b=c=N$,
+erdosproblems.com commentary credits it to van Doorn and links it, and
+formal-conjectures cites it. Lower bound (erdosproblems.com commentary, checked
+here): $A_0=\{a\le N/4:a\text{ odd}\}\cup[N/2,N]$ has $5N/8+O(1)$ elements and
+no solution. A solution $1/a=1/b+1/c$ with $a<b,c$ satisfies $(b-a)(c-a)=a^2$;
+if $a\ge N/2$ then $(b-a)(c-a)\le(N-a)^2\le a^2$ with equality only for $b=c=N$,
 which distinctness excludes; if $a\le N/4$ is odd then $a^2$ is odd, so $b-a$
 and $c-a$ are odd, $b$ and $c$ are even and hence lie in $[N/2,N]$, whence
 $b-a,c-a\ge N/4\ge a$ and $(b-a)(c-a)=a^2$ forces $b=c=2a$, excluded. The
 trivial bound $1/2$ of the commentary (odd numbers, or $[N/2,N]$) follows from
-the same two observations. The site's $25/28$ argument for
+the same two observations. erdosproblems.com's $25/28$ argument for
 [[problems/unit_fractions/E0301/_index|Problem 301]], recorded on
 [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|its claim page there]],
 transfers: its relations inside $D=\{2,3,4,6,12\}$ include the two-term
@@ -180,25 +183,24 @@ manuscript (Section 1) calls it the transferable bound for this problem and
 Schuh's text the previously applicable bound. So $5/8\le\liminf f(N)/N$ and
 $\limsup f(N)/N\le25/28$; the particular guess $f(N)=(1/2+o(1))N$ is false, as
 the formal-conjectures file also records, while the estimation question stays
-open. The non-distinct variant (site commentary, attributed to Cambie):
-allowing $b=c$, the pair $\{n,2n\}$ is a solution $1/n=1/2n+1/2n$, so any $A$
-with $|A|\ge(2/3+o(1))N$, which contains such a pair, has a solution; the
-constant $2/3$ is the largest density of a set without a pair $\{n,2n\}$. It is
-a variant, not the problem, and was not checked beyond reading.
+open. The non-distinct variant (erdosproblems.com commentary, attributed to
+Cambie): allowing $b=c$, the pair $\{n,2n\}$ is a solution $1/n=1/2n+1/2n$, so
+any $A$ with $|A|\ge(2/3+o(1))N$, which contains such a pair, has a solution;
+the constant $2/3$ is the largest density of a set without a pair $\{n,2n\}$. It
+is a variant, not the problem, and was not checked beyond reading.
 
 **Claims and forum items.** Five claim pages, all pending partial claims:
-two recorded from the site's commentary, two from the proof-claim tab and one
-from the discussion thread.
-The problem lists no parts, so its partial claims derive no standing and
-the frontmatter is open, claim none.
+two recorded from the erdosproblems.com commentary, two from the proof-claim tab
+and one from the discussion thread. The problem lists no parts, so its partial
+claims derive no standing and the frontmatter is open, claim none.
 
 - [[problems/unit_fractions/E0302/claims/2025_03_25_cambie|Stijn Cambie's construction]]:
   the lower bound $5/8$ above, recorded from the curator's credit in the
   commentary, which answers the particular question in the negative;
-  pending, since the site labeled the problem OPEN and lists no parts; the
-  page is dated by the earliest archived copy of the site's page that
-  carries the observation (25 March 2025), the site showing no last-edited
-  date.
+  pending, since Bloom's catalog labeled the problem OPEN and lists no parts;
+  the page is dated by the earliest archived copy of the erdosproblems.com page
+  that carries the observation (25 March 2025), erdosproblems.com showing no
+  last-edited date.
 - [[problems/unit_fractions/E0302/claims/2025_08_11_van_doorn|Wouter van Doorn's Theorem 2]]:
   the upper bound $9/10$ above, credited in the commentary; pending for
   the same reason; dated by the note's GitHub commit.
@@ -209,7 +211,7 @@ the frontmatter is open, claim none.
   products $mp$ with $m$ odd and all consecutive divisor ratios of $m$ at
   least $2$ (a counting result the comment cites for such $m$),
   $m\le N^{1/2}/10$ and $p$ prime in $(N/(4m),N/(2m))$; not checked and
-  not accepted by the site. A thread comment without a manuscript,
+  not accepted by erdosproblems.com. A thread comment without a manuscript,
   so it has no page.
 - [[problems/unit_fractions/E0302/claims/2026_07_20_schuh|Robert Schuh, 20 July 2026]]:
   the partial claim filed by the account 15Redstones, naming the systems
@@ -236,7 +238,7 @@ the frontmatter is open, claim none.
 None of the three pending claims from the tab and the thread has acceptance
 evidence or independent review, and none changes the standing.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-17 UTC).** The erdosproblems.com problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
 file at the pinned commit; the GitHub API for the commit history of the
 note's file in `Woett/Mathematical-shorts` (one commit, 11 August 2025) and
@@ -249,11 +251,11 @@ card and Corollary 2.3 page) and [ErGr80] read as stated. Not searched:
 MathSciNet, zbMATH, Google Scholar, X. Nothing found is refereed or
 determines the constant.
 
-**Remaining gaps.** (1) The bounds rest on the site's commentary: the upper
-bound on its Problem 301 argument, with its counting facts checked, and the
-lower bound on Cambie's construction, both elementary and checked here to the
-depth stated; van Doorn's weaker upper bound is an unrefereed GitHub note, and
-no refereed source states either bound. (2) The proof of Theorem 2 was read
+**Remaining gaps.** (1) The bounds rest on the erdosproblems.com commentary: the
+upper bound on its Problem 301 argument, with its counting facts checked, and
+the lower bound on Cambie's construction, both elementary and checked here to
+the depth stated; van Doorn's weaker upper bound is an unrefereed GitHub note,
+and no refereed source states either bound. (2) The proof of Theorem 2 was read
 for structure, its Lemma 4 inequalities not rechecked. (3) The forum comments
 and the three pending claims from the tab and the thread were consulted only
 for their statements. (4) The gap between $5/8$ and $25/28$ is the open
@@ -262,13 +264,14 @@ estimation question. There is no status-defining theorem to compile.
 ## Progress and known results
 
 Established here: $(5/8+o(1))N\le f(N)\le(25/28+o(1))N$, the upper bound
-the site's argument for [[problems/unit_fractions/E0301/_index|Problem 301]]
-(checked there), which sharpens
+erdosproblems.com's argument for
+[[problems/unit_fractions/E0301/_index|Problem 301]] (checked there), which
+sharpens
 [[../library/unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/theorem_2|van Doorn's Theorem 2]],
 $f(N)<9N/10+(\log N)^3+1$
 ([[problems/unit_fractions/E0302/claims/2025_08_11_van_doorn|claim page]]),
-and the lower bound Cambie's construction (site commentary, checked here;
-[[problems/unit_fractions/E0302/claims/2025_03_25_cambie|claim page]]);
+and the lower bound Cambie's construction (erdosproblems.com commentary, checked
+here; [[problems/unit_fractions/E0302/claims/2025_03_25_cambie|claim page]]);
 hence $f(N)\ne(1/2+o(1))N$. Claimed, unrefereed: $373/420$
 ([[problems/unit_fractions/E0302/claims/2026_07_20_schuh|Schuh]]),
 $5/8+\delta$ and about $0.86085$

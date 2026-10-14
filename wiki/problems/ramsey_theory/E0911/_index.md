@@ -31,20 +31,20 @@ $$
 \hat{R}(G) > f(C) e?
 $$
 
-**Formulation.** The statement is the site's wording (the page shows no
-last-edited date and its commentary is empty). "$H$ is Ramsey for $G$" means
+**Formulation.** The statement is the erdosproblems.com wording (the page shows
+no last-edited date and its commentary is empty). "$H$ is Ramsey for $G$" means
 that every $2$-coloring of the edges of $H$ contains a monochromatic copy of
 $G$; the sources write $\hat r(G)$. Erdős's printed question [Er82e] (p. 78)
 is: "Let $G(n;e)$ be a graph of $n$ vertices and $e$ edges. We assume that
 $e/n$ is large. Is it true that there is a function $f(x)$, $f(x)/x\to\infty$
-as $x\to\infty$ for which $\hat r(G(n;e))>e\,f(e/n)$?" The site evaluates $f$
-at any $C\le e/n$ where Erdős evaluates it at $e/n$ itself. The two forms are
-equivalent (an elementary check made here): the site's implies Erdős's with
-$C=e/n$, and given Erdős's $f$, the nondecreasing $g(x)=\inf_{y\ge x}f(y)$
-still has $g(x)/x\to\infty$ and satisfies the site's form. Since
-$\hat R(G)\ge e$ trivially, the question asks whether the ratio $\hat R(G)/e$
-must exceed any linear function of the average degree once that degree is
-large, uniformly over all graphs.
+as $x\to\infty$ for which $\hat r(G(n;e))>e\,f(e/n)$?" erdosproblems.com
+evaluates $f$ at any $C\le e/n$ where Erdős evaluates it at $e/n$ itself. The
+two forms are equivalent (an elementary check made here): erdosproblems.com's
+implies Erdős's with $C=e/n$, and given Erdős's $f$, the nondecreasing
+$g(x)=\inf_{y\ge x}f(y)$ still has $g(x)/x\to\infty$ and satisfies the
+erdosproblems.com form. Since $\hat R(G)\ge e$ trivially, the question asks
+whether the ratio $\hat R(G)/e$ must exceed any linear function of the average
+degree once that degree is large, uniformly over all graphs.
 
 **Status.** Open. No source read states a bound of this kind for all graphs
 of given density, and no proof or disproof, preprint or proof claim was found
@@ -76,17 +76,17 @@ Erdős Problem #911, https://www.erdosproblems.com/911, accessed 2026-09-18.
 directory `FormalConjectures/ErdosProblems/` of
 google-deepmind/formal-conjectures (main, 2026-09-18), and the community
 database (fetched 2026-09-18) records the problem open, not formalized, with
-no formal proof (record last updated 31 August 2025). The site's "Formalised
-statement?" indicator reads "No".
+no formal proof (record last updated 31 August 2025). erdosproblems.com's
+"Formalised statement?" indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; status OPEN; no commentary. The thread has three comments of 22 and 23
-October 2025: a reader could not find the problem in the cited reference,
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; status OPEN; no commentary. The thread has three comments of 22
+and 23 October 2025: a reader could not find the problem in the cited reference,
 then located it on the reference's page 78, among the additions at the end of
-the paper, and the site's maintainer added the page number. There are no
-proof claims. The community database record says open and not formalized
+the paper, and the erdosproblems.com maintainer added the page number. There are
+no proof claims. The community database record says open and not formalized
 (record last updated 31 August 2025).
 
 **Origin.** [Er82e], printed p. 78. A paragraph on the paper's last page
@@ -108,8 +108,8 @@ edge density and superlinear size Ramsey numbers, the disproof recorded on
 [[problems/ramsey_theory/E0559/_index|Problem 559]] (an observation made
 here; Erdős's "first feeling" was right). The page closes with a third item,
 Rödl's proof of Erdős's weighted-clique conjecture (3), which does not
-concern size Ramsey numbers. The site's statement follows the printed one up
-to the reformulation noted above.
+concern size Ramsey numbers. The erdosproblems.com statement follows the printed
+one up to the reformulation noted above.
 
 **What is known.** Nothing beyond the trivial in the sources read. The
 trivial lower bound is $\hat R(G)\ge e$. The bounded-degree results of
@@ -134,8 +134,8 @@ names this problem or Erdős's displayed inequality.
 the form $\hat R(G)>f(C)e$ for all graphs of density at least $C$, a
 counterexample family, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures of 2026-09-18 (no file); the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  full directory listing of formal-conjectures of 2026-09-18 (no file); the
   community database record.
 - The primary source: [Er82e] pp. 70 and 78--79.
 - arXiv: the searches `("size Ramsey" OR "size-Ramsey") AND (density OR
@@ -158,11 +158,11 @@ identifier.
 **Remaining gaps.** (1) The question is open with no partial result found;
 reopening condition: a source proving or refuting a uniform superlinear
 dependence on the density, or a family of graphs of large density with
-$\hat R(G)=O(Ce)$. (2) The site's reference text carries only the key; the
-passage is located on the printed page the thread names and quoted above.
-(3) There is nothing to compile: no proof exists for the statement, and the
-page's account rests on the origin passage and the search recorded above. (4)
-There is no Lean statement of the problem.
+$\hat R(G)=O(Ce)$. (2) The erdosproblems.com reference text carries only the
+key; the passage is located on the printed page the thread names and quoted
+above. (3) There is nothing to compile: no proof exists for the statement, and
+the page's account rests on the origin passage and the search recorded above.
+(4) There is no Lean statement of the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

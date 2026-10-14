@@ -66,24 +66,25 @@ read off its own numbered entry.
 Source: <https://users.renyi.hu/~p_erdos/1961-22.pdf>.
 
 For [[../wiki/problems/ramsey_theory/E0483/_index|#483]], item 20 of Part I, printed
-pp. 232--233 (PDF pp. 12--13 of the archive's scan, read on the page images; the
-site cites p. 233), is the origin of the problem. Quoted: "SCHUR proved that if
-we split the integers $<en!$ into $n$ classes the equation $x+y=z$ is always
-solvable in integers of the same class. Denote by $f(n)$ the smallest integer
-with this property. It seems likely that $f(n)$ is very much less than $en!$, in
-fact it has been conjectured that $f(n)<c^n$ and $f(n)^{1/n}\to C$." The item
-then records Turán's unpublished result that any two-coloring of the integers
-$n<k\le5n+3$ has a solution of $x+y=z$ with $x\ne y$ in one color, that
-$5n+2$ in place of $5n+3$ does not suffice, and that the analogue for
-three classes was open. The references printed with
-the item are Schur, Jahresbericht der Deutschen Math. Ver. 25 (1916) 114,
-and Rado, Studien zur Kombinatorik, Math. Z. 36 (1933) 424--480. The site's
+pp. 232--233 (PDF pp. 12--13 of the archive's scan, read on the page images;
+erdosproblems.com cites p. 233), is the origin of the problem. Quoted: "SCHUR
+proved that if we split the integers $<en!$ into $n$ classes the equation
+$x+y=z$ is always solvable in integers of the same class. Denote by $f(n)$ the
+smallest integer with this property. It seems likely that $f(n)$ is very much
+less than $en!$, in fact it has been conjectured that $f(n)<c^n$ and
+$f(n)^{1/n}\to C$." The item then records Turán's unpublished result that any
+two-coloring of the integers $n<k\le5n+3$ has a solution of $x+y=z$ with
+$x\ne y$ in one color, that $5n+2$ in place of $5n+3$ does not suffice, and that
+the analogue for three classes was open. The references printed with the item
+are Schur, Jahresbericht der Deutschen Math. Ver. 25 (1916) 114, and Rado,
+Studien zur Kombinatorik, Math. Z. 36 (1933) 424--480. erdosproblems.com's
 $f(k)$ is this $f(n)$ less one (read as printed, "the smallest integer with this
 property" is the least $N$ for which every split of the integers below $N$ into
-$n$ classes has a solution in one class, while the site's $f(k)$ is the least
-$N$ that forces one in $\{1,\ldots,N\}$); the shift does not affect growth, and
-the site's question "is it true that $f(k)<c^k$" is the conjecture quoted here;
-claims checked for the passage, which states no result of its own.
+$n$ classes has a solution in one class, while erdosproblems.com's $f(k)$ is the
+least $N$ that forces one in $\{1,\ldots,N\}$); the shift does not affect
+growth, and the erdosproblems.com question "is it true that $f(k)<c^k$" is the
+conjecture quoted here; claims checked for the passage, which states no result
+of its own.
 
 For [[../wiki/problems/integer_sequences/E0487/_index|#487]], the sentence closing item 26
 of Part I, printed p. 236 (PDF p. 16 of the archive's scan, read on the page
@@ -130,27 +131,27 @@ $\varphi$ of $f(n)$ triplets formed from the $n$ elements there are always
 four elements all four triplets of which occur in $\varphi$." The
 references printed with the item
 are Turán, "On the theory of graphs", Coll. Math. 3 (1954) 19--30, and
-König, Theorie der endlichen und unendlichen Graphen. The site's
+König, Theorie der endlichen und unendlichen Graphen. erdosproblems.com's
 $\mathrm{ex}_3(n,K_4^3)$ is this $f(n)-1$; the item states the question
 without a bound or a conjectured value. Claims checked for the passage,
 which states no result of its own.
 
 For [[../wiki/problems/number_theory/E0492/_index|#492]], item 31 of Part I, printed
-p. 238 (PDF p. 18 of the archive's scan, read on the page image), the site's
-source key Er61 for the problem: "31) The following
-problem is due to W. LE VEQUE: Let $a_1<a_2<\ldots$ be an infinite sequence
-tending to infinity satisfying $a_{i+1}/a_i\to1$. Let $a_i\le x_n<a_{i+1}$,
-put $y_n=\frac{x_n-a_i}{a_{i+1}-a_i}$, $0\le y_n<1$. We say that the
-sequence $x_n$, $1\le n<\infty$ is uniformly distributed mod $a_1,a_2,\ldots$
-if $y_n$ $1\le n<\infty$ is uniformly distributed. Is it true that for
-almost all $\alpha$ the sequence $n\alpha$, $1\le n<\infty$ is uniformly
-distributed mod $a_1,a_2,\ldots$?" The item credits LeVeque with special
-cases. The reference printed with the item is LeVeque, "On uniform
-distribution modulo a subdivision", Pacific J. of Math. 3 (1953) 757--771.
-The item does not require the $a_i$ to be integers (the site's statement
-adds $A\subseteq\mathbb N$) and places no sign condition on $\alpha$; its
-$y_n$ is the site's $f(x_n)$. Claims checked for the passage, which states
-no result of its own.
+p. 238 (PDF p. 18 of the archive's scan, read on the page image), the
+erdosproblems.com source key Er61 for the problem: "31) The following problem is
+due to W. LE VEQUE: Let $a_1<a_2<\ldots$ be an infinite sequence tending to
+infinity satisfying $a_{i+1}/a_i\to1$. Let $a_i\le x_n<a_{i+1}$, put
+$y_n=\frac{x_n-a_i}{a_{i+1}-a_i}$, $0\le y_n<1$. We say that the sequence $x_n$,
+$1\le n<\infty$ is uniformly distributed mod $a_1,a_2,\ldots$ if $y_n$
+$1\le n<\infty$ is uniformly distributed. Is it true that for almost all
+$\alpha$ the sequence $n\alpha$, $1\le n<\infty$ is uniformly distributed mod
+$a_1,a_2,\ldots$?" The item credits LeVeque with special cases. The reference
+printed with the item is LeVeque, "On uniform distribution modulo a
+subdivision", Pacific J. of Math. 3 (1953) 757--771. The item does not require
+the $a_i$ to be integers (the erdosproblems.com statement adds
+$A\subseteq\mathbb N$) and places no sign condition on $\alpha$; its $y_n$ is
+erdosproblems.com's $f(x_n)$. Claims checked for the passage, which states no
+result of its own.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0077/_index|#77]],
 [[../wiki/problems/ramsey_theory/E0165/_index|#165]],

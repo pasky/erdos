@@ -23,15 +23,15 @@ updated: 2026-10-08T00:44:24Z
 **Statement.** Does there exist an infinite Sidon set which is an asymptotic
 basis of order 3?
 
-**Status.** Proved, the site's label. The site's curator credits Pilatte. The
-standing rests on two accepted claim pages. The first is
+**Status.** Proved, the erdosproblems.com label. The erdosproblems.com curator
+credits Pilatte. The standing rests on two accepted claim pages. The first is
 [[problems/additive_bases/E0157/claims/2023_03_16_pilatte|Pilatte 2023]], the
 construction refereed in Compositio Mathematica (2024). The second is
 [[problems/additive_bases/E0157/claims/2026_08_25_alexeev|an AI-generated
 elementary proof]]. It was first posted as a Lean development on 2026-08-25 and
-registered on the site's proof-claims page on 2026-09-15 with a write-up. This
-corpus built and audited its Lean theorem, in an earlier form of the
-construction.
+registered on the erdosproblems.com proof-claims page on 2026-09-15 with a
+write-up. This corpus built and audited its Lean theorem, in an earlier form of
+the construction.
 
 **Source.** [erdosproblems.com/157](https://www.erdosproblems.com/157), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #157,
@@ -42,7 +42,7 @@ https://www.erdosproblems.com/157.
 - [Pi23] Pilatte, C., A solution to the Erdős-Sárközy-Sós problem on asymptotic
   Sidon bases of order 3. arXiv:2303.09659 (2023).
 
-**Formalization.** The site records none, and formal-conjectures has no
+**Formalization.** erdosproblems.com records none, and formal-conjectures has no
 statement file for the problem. Boris Alexeev's lean-proofs repository proves
 the statement as `Erdos157.erdos_157`, by an earlier form of the elementary
 construction over the field of $2^{1024}$ elements; this corpus built and

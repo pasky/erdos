@@ -45,13 +45,13 @@ Cochromatic Numbers of a Random Graph*, [arXiv:2608.30604v1][arxiv], submitted
 31 August 2026; manuscript dated 30 August 2026, 51 pages.
 
 **Current standing.** The uniform quantitative theorem is the accepted full
-claim on E625, accepted on the site curator's review and recorded on
+claim on E625, accepted on the erdosproblems.com curator's review and recorded
+on
 [[../wiki/problems/graph_coloring/E0625/claims/2026_07_14_petkov|its claim page]];
-the curator changed the site's label for the problem from OPEN to SOLVED on
-5 September 2026. The Palomar record and its automated
-review cited below are third-party checks the corpus did not build. They
-confer no local whole-proof acceptance, native formalization, or native
-verification tier.
+the curator changed the erdosproblems.com label for the problem from OPEN to
+SOLVED on 5 September 2026. The Palomar record and its automated review cited
+below are third-party checks the corpus did not build. They confer no local
+whole-proof acceptance, native formalization, or native verification tier.
 
 ## Selected source
 

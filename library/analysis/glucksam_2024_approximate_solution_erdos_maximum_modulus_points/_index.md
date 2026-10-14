@@ -47,9 +47,9 @@ leaves open that only a uniformly bounded number of the arcs of the approximate
 maximum modulus set on $\{|z|=r\}$ contain a maximum modulus point (p. 3). The
 construction pastes multiples of $\exp(z^{2^n})$ on sectors by Hörmander's
 solution of the $\bar\partial$-equation, and the function has infinite lower
-order (Remark 1.3). This is the reference [GlPa24] in problem 1117, whose site
-commentary cites it as an approximate affirmative analogue of the second
-question.
+order (Remark 1.3). This is the reference [GlPa24] in problem 1117, whose
+erdosproblems.com commentary cites it as an approximate affirmative analogue of
+the second question.
 
 Source: <https://arxiv.org/abs/2208.11154v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2208.11154), every other right

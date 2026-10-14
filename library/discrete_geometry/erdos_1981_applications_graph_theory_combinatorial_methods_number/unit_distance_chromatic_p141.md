@@ -70,13 +70,14 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/discrete_geometry/E0508/_index|Problem 508]]: the
-  site's chromatic number of the plane is the paper's $\alpha_2$, for which
-  the paper reports $4\le\alpha_2\le7$ and the belief that $\alpha_2>4$.
-- [[../wiki/problems/discrete_geometry/E0704/_index|Problem 704]]: the
-  site's $\chi(G_n)$ is the paper's $\alpha_n$. The paper reports
+- [[../wiki/problems/discrete_geometry/E0508/_index|Problem 508]]:
+  erdosproblems.com's chromatic number of the plane is the paper's $\alpha_2$,
+  for which the paper reports $4\le\alpha_2\le7$ and the belief that
+  $\alpha_2>4$.
+- [[../wiki/problems/discrete_geometry/E0704/_index|Problem 704]]:
+  erdosproblems.com's $\chi(G_n)$ is the paper's $\alpha_n$. The paper reports
   $\alpha_k<3^k$ and Frankl's $\alpha_k>k^c$, conjectures exponential
   growth and reports in proof that Frankl proved it, and calls it of
   interest to determine $\lim_{k\to\infty}\alpha_k^{1/k}$, the limit in
-  the site's last question; the paper does not address whether the limit
-  exists.
+  erdosproblems.com's last question; the paper does not address whether the
+  limit exists.

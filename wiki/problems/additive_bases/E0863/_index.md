@@ -35,9 +35,9 @@ If $\lvert A\rvert\sim c_rN^{1/2}$ as $N\to \infty$ and $\lvert B\rvert \sim
 c_r'N^{1/2}$ as $N\to \infty$ then is it true that $c_r\neq c_r'$ for $r\geq 2$?
 Is it true that $c_r'<c_r$?
 
-**Status.** Proved. The site credits Ho (with GPT-5.4 Pro) with observing that
-the separation $c_r'\leq\sqrt r<c_r$ follows from a window count and the
-Cilleruelo–Ruzsa–Trujillo construction. The accepted claim is
+**Status.** Proved. erdosproblems.com credits Ho (with GPT-5.4 Pro) with
+observing that the separation $c_r'\leq\sqrt r<c_r$ follows from a window count
+and the Cilleruelo–Ruzsa–Trujillo construction. The accepted claim is
 [[problems/additive_bases/E0863/claims/2026_04_22_ho|Ho]].
 
 **Source.** [erdosproblems.com/863](https://www.erdosproblems.com/863), accessed

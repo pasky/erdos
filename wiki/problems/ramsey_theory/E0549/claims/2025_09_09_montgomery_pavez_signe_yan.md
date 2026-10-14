@@ -55,6 +55,6 @@ Tingley (2002).
 
 **Standing.** Claimed: the paper is an arXiv preprint, posted on 9
 September 2025, the only version, with no journal record found on
-2026-09-17; its 59-page proof is not checked in this corpus. The site's
-curator lists the result in the commentary, but the label DISPROVED credits
-the disproof, not this case, so `reviewed` is not listed.
+2026-09-17; its 59-page proof is not checked in this corpus. The
+erdosproblems.com curator lists the result in the commentary, but the label
+DISPROVED credits the disproof, not this case, so `reviewed` is not listed.

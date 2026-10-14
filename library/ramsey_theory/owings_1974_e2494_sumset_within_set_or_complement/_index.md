@@ -31,7 +31,7 @@ edited by Emory P. Starke (masthead, p. 901); its proposals E 2492 through
 E 2497 are by Knuth, Cooper, Owings, Klamkin, Whittekin, and King and
 Hosford, and p. 902 ends at the head of the solution of E 1085. The proposer
 is named as "J. C. Owings, Jr., University of Maryland" (p. 902). Cited as
-[Ow74] on the problem page; the site's citation "Amer. Math. Monthly
+[Ow74] on the problem page; the erdosproblems.com citation "Amer. Math. Monthly
 (1974), 902", which omits the volume, and Hindman's "Amer. Math. Monthly 81
 (1974), 902" are confirmed by the page image. The
 edition read for this card is the version of record as JSTOR serves it; no other
@@ -116,13 +116,13 @@ contains no solution, so the source settles nothing about the answer.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1199/_index|#1199]]: Problem E 2494
 (printed p. 902, PDF p. 3) is the origin of the problem, the two-class
-question the site states. Quoted in the part where the exact wording
+question erdosproblems.com states. Quoted in the part where the exact wording
 matters (p. 902): "Prove or disprove: Given any subset $B$ of $N$, there
 exists an infinite set $A\subseteq N$ such that $A+A\subseteq B$ or
 $A+A\subseteq N\setminus B$." Taking $B$ as one color class of a
-two-coloring, this is the site's question, with $A+A$ defined on the same
-page to include the doubles. The proposal is a prove-or-disprove problem
-with no stated expectation; the site's "A conjecture of Owings" and the
+two-coloring, this is the erdosproblems.com question, with $A+A$ defined on the
+same page to include the doubles. The proposal is a prove-or-disprove problem
+with no stated expectation; erdosproblems.com's "A conjecture of Owings" and the
 1980 Erdős survey's "Ewing conjectured" (p. 104; the 1977 survey, p. 58,
 writes "Answering a question of Ewings") are their words, not the
 Monthly's. The column prints the proposal only and leaves the problem's

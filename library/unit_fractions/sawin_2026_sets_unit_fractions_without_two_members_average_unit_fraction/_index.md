@@ -65,7 +65,7 @@ role in that reduction. Nothing here is independently reviewed.
   through the pairs $u,v$ of Lemma 2 by mean values of nonnegative
   multiplicative functions (de la Bretèche and Tenenbaum [3]). The paper's
   own declaration (p. 2): the author had ChatGPT search Cambie's largest
-  example for $N=500$ from the site's Problem 327 thread for patterns,
+  example for $N=500$ from erdosproblems.com's Problem 327 thread for patterns,
   which suggested the change of variables and the observation behind the
   construction; the rigorous version and the strategy follow Stef's 1992
   thesis [8], with the condition $\Omega(b)\le\Omega(a)$ in place of
@@ -80,7 +80,7 @@ role in that reduction. Nothing here is independently reviewed.
 - Proof of Theorem 1 (p. 9): (1) is immediate since one of
   $\Omega(a)\le\Omega(b)$, $\Omega(b)\le\Omega(a)$ holds; (2) follows from
   Lemmas 3, 7 and 4 as $|A_N|>|S|/2$.
-- References (p. 9): Cambie's and leon2k2k2k's comments on the site's
+- References (p. 9): Cambie's and leon2k2k2k's comments on erdosproblems.com's
   Problem 327 thread, de la Bretèche--Tenenbaum 2012 and 2025, the
   Erdős--Graham monograph, Korsky 2026, Matthiesen 2020, Stef's thesis and
   Tenenbaum's textbook.

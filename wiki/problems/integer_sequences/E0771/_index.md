@@ -31,15 +31,16 @@ $$
 f(n) = \left(\frac{1}{2}+o(1)\right)\frac{n}{\log n}?
 $$
 
-**Status.** Proved. This was a conjecture of Erdős and Graham. The site labeled
-the problem PROVED and credits the paper of Alon and Freiman [AlFr88]. Erdős and
-Graham observed the lower bound $f(n)\ge(\frac12+o(1))\frac n{\log n}$. For
-every $m$, which one may take below $\binom{n+1}2$, the multiples of the least
-prime not dividing $m$ avoid $m$ as a subset sum, and that prime is below
-$(2+o(1))\log n$. Alon and Freiman proved the matching upper bound. They exhibit
-an $m$ whose avoiding sets have at most $(\frac12+o(1))\frac n{\log n}$
-elements: the least common multiple of the integers below $s$, with $s$ largest
-such that $m\le n^2/(20\log^2n)$. Claim page:
+**Status.** Proved. This was a conjecture of Erdős and Graham. Bloom's catalog
+labeled the problem PROVED and credits the paper of Alon and Freiman [AlFr88].
+Erdős and Graham observed the lower bound
+$f(n)\ge(\frac12+o(1))\frac n{\log n}$. For every $m$, which one may take below
+$\binom{n+1}2$, the multiples of the least prime not dividing $m$ avoid $m$ as a
+subset sum, and that prime is below $(2+o(1))\log n$. Alon and Freiman proved
+the matching upper bound. They exhibit an $m$ whose avoiding sets have at most
+$(\frac12+o(1))\frac n{\log n}$ elements: the least common multiple of the
+integers below $s$, with $s$ largest such that $m\le n^2/(20\log^2n)$. Claim
+page:
 [[problems/integer_sequences/E0771/claims/1988_12_01_alon_freiman|Alon and Freiman 1988]]
 (accepted, refereed in Combinatorica).
 

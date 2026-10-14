@@ -16,8 +16,8 @@ As restated on p. 2: "Yongqi, Yuansheng, Feng, and Bingxi [18] provide a
 construction which shows that $R_k(C_n)\ge(k-1)(n-2)+2$ for any $k$ and for
 even $n$." The paper's [18] is S. Yongqi, Y. Yuansheng, X. Feng and L.
 Bingxi, New lower bounds on the multicolor Ramsey numbers $R_r(C_{2m})$,
-Graphs Combin. 22 (2006), 283--288 (p. 12). In the site's parameter, with
-$n=2m$, the bound reads $R_k(C_{2m})\ge(k-1)(2m-2)+2$, which is the form
+Graphs Combin. 22 (2006), 283--288 (p. 12). In erdosproblems.com's parameter,
+with $n=2m$, the bound reads $R_k(C_{2m})\ge(k-1)(2m-2)+2$, which is the form
 $R_r(C_{2m})\ge2(r-1)(m-1)+2$ of the cited paper's abstract (publisher's
 abstract page read; the paper itself is not held).
 

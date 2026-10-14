@@ -34,10 +34,11 @@ $$
 
 where $W(k)$ is the van der Waerden number?
 
-**Status.** Open. The site's label was OPEN (page last edited 4 April 2026). Six
-partial claims are recorded, and none bears on the displayed limit question.
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 4 April
+2026). Six partial claims are recorded, and none bears on the displayed limit
+question.
 
-The refereed lower bounds the site credits are accepted partial claims.
+The refereed lower bounds erdosproblems.com credits are accepted partial claims.
 [[problems/additive_combinatorics/E0169/claims/1968_08_01_berlekamp|Berlekamp]]
 gives $f(k)\ge(\frac{\log2}{2}-o(1))k$ through his two-coloring bound
 $W(p+1)>p\,2^p$ for prime $p$.
@@ -56,8 +57,8 @@ claims that $f(k)$ is finite for every $k\ge3$. It gives the bound
 $f(k)\le\sum_{m\ge0}2^{-m}r_k(2^m)$ and no numerical value. The finiteness
 itself follows from the reciprocal-sum theorem of
 [[problems/additive_combinatorics/E0003/_index|Problem 3]], by Gerver's
-equivalence recorded in the site's commentary. This corpus accepts that theorem
-on
+equivalence recorded in the erdosproblems.com commentary. This corpus accepts
+that theorem on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|that problem's claim page]].
 The explicit bound stays claimed. Neither gives an estimate of $f(k)$ or
 anything on the displayed limit question.
@@ -78,7 +79,8 @@ $\log W(k)\ge ck\log k$. The result is accepted with formalized evidence on
 It makes no claim about $f(k)$ or the ratio $f(k)/\log W(k)$, and it does not
 name this problem. So it is recorded here as an input to the limit question and
 gets no claim page. Gerver's lower bound and the trivial $f(k)/\log W(k)\ge1/2$
-recorded by the site are unchanged by these results, so the problem stays open.
+recorded by erdosproblems.com are unchanged by these results, so the problem
+stays open.
 
 **Source.** [erdosproblems.com/169](https://www.erdosproblems.com/169), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #169,

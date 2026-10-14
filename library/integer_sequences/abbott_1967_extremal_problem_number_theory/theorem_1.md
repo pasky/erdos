@@ -66,6 +66,6 @@ with all prime exponents above one); external premises at statement level.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0535/_index|Problem 535]]: the regime
-  $k=[\log^\alpha n]$ neighboring the site's fixed-$r$ question; for fixed
-  $r$ the paper only restates Erdős's and Abbott's bounds (displays (1) and
-  (2)).
+  $k=[\log^\alpha n]$ neighboring erdosproblems.com's fixed-$r$ question; for
+  fixed $r$ the paper only restates Erdős's and Abbott's bounds (displays (1)
+  and (2)).

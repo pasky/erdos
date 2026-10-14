@@ -49,13 +49,13 @@ common difference divisible by $2310$.
 
 **Covers.** The instances $k=3,4,\dots,10$. Not covered: every $k\ge11$,
 and the question whether infinitely many such progressions exist for any
-$k\ge3$, which the site's commentary records as open even for $k=3$.
+$k\ge3$, which the erdosproblems.com commentary records as open even for $k=3$.
 Schinzel and Sierpiński derive every $k$ from Hypothesis H on
 [[problems/additive_combinatorics/E0141/claims/1958_01_01_schinzel_sierpinski|their conditional page]].
 
 **Acceptance.** Refereed: Mathematics of Computation, volume 71, number 239
-(July 2002), pp. 1323--1328, as given by the Crossref record of the DOI. The
-site labeled the problem OPEN (page last edited 28 September 2025). Its
+(July 2002), pp. 1323--1328, as given by the Crossref record of the DOI. Bloom's
+catalog labeled the problem OPEN (page last edited 28 September 2025). Its
 commentary says that such progressions have been found for every $k\le10$. That
 is commentary on an open problem and not acceptance, so no `reviewed` evidence
 is listed. The corpus holds no card for the paper and has not recomputed the

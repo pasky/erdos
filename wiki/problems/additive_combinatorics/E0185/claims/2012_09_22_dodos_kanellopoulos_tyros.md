@@ -52,10 +52,10 @@ combinatorial line and has density tending to zero: $f_3(n)=o(3^n)$, the
 question of [[problems/additive_combinatorics/E0185/_index|Problem 185]],
 answered yes. The proof is a purely combinatorial density-increment
 argument modeled on Polymath's but shorter, using the uniform measure
-only. The paper is not held in the library and is not among the site's
-references; its statement is taken from its abstract and from the Lean file
-below. The same corollary through the original proof of Furstenberg and
-Katznelson has its own claim page
+only. The paper is not held in the library and is not among the
+erdosproblems.com references; its statement is taken from its abstract and from
+the Lean file below. The same corollary through the original proof of
+Furstenberg and Katznelson has its own claim page
 ([[problems/additive_combinatorics/E0185/claims/1991_12_01_furstenberg_katznelson|claim page]]).
 
 **Depends on.**
@@ -65,10 +65,10 @@ its statement.
 
 **Acceptance.** Refereed: the paper appeared in International Mathematics
 Research Notices. Its Crossref record dates it to 15 March 2013 online and to
-the 2014 volume, issue 12, in print. Not reviewed: the site's curator credits
-the answer to the theorem of Furstenberg and Katznelson, not to this paper. No
-outside reviewer of this proof is documented. Nothing here is this project's own
-review of the proof.
+the 2014 volume, issue 12, in print. Not reviewed: the erdosproblems.com curator
+credits the answer to the theorem of Furstenberg and Katznelson, not to this
+paper. No outside reviewer of this proof is documented. Nothing here is this
+project's own review of the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos185.lean` of
 Boris Alexeev's lean-proofs repository (first added 2026-08-17, last
@@ -89,5 +89,5 @@ formal proof. The community database (teorth/erdosproblems) lists the
 problem as "proved (Lean)" with `formal_status` Lean and `formalized`
 "yes", as of its entry's last update of 2026-08-24, without dating the
 state changes. This corpus has not built or audited the development, and
-the fidelity of its definitions to the site's question has not been
+the fidelity of its definitions to the erdosproblems.com question has not been
 independently reviewed, so the page lists no `formalized` evidence.

@@ -37,8 +37,8 @@ bounded radius, a bound on the shortest odd cycle of a non-bipartite graph in
 terms of such components, and a random choice of sides that extracts a large
 set spanning no edge across given pairs. The paper is A. Girão and Z. Hunter,
 *Monochromatic odd cycles in edge-coloured complete graphs*, arXiv:2412.07708,
-first version of 10 December 2024, the site's [GiHu24]. It is paged on the
-library's
+first version of 10 December 2024, erdosproblems.com's [GiHu24]. It is paged on
+the library's
 [[../library/ramsey_theory/girao_2024_monochromatic_odd_cycles_edge_coloured_complete/_index|source card]].
 
 **Covers.** The upper bound $f(n)\le(2^n+1)/n^{1-\varepsilon}$ for each fixed
@@ -50,8 +50,8 @@ $O(n^{3/2}2^{n/2})$.
 **Depends on.** No page of this wiki.
 
 **Standing.** Claimed. The paper is an arXiv preprint with no journal record
-in Crossref, and the site labeled the problem OPEN, so its commentary crediting
-Girão and Hunter is not an acceptance; no evidence kind is listed.
+in Crossref, and Bloom's catalog labeled the problem OPEN, so its commentary
+crediting Girão and Hunter is not an acceptance; no evidence kind is listed.
 
 **Read depth.** The statement of Theorem 1.2 is checked; the proof was not
 reconstructed.

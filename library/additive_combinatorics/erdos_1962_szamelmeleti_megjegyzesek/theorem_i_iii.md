@@ -27,7 +27,7 @@ has no solution for any $k$ and $r$: no term is a sum of distinct other
 terms (the display is printed with the index condition $i_1<\cdots<i_r$
 alone; the English summary on printed p. 38 writes it with $i_r<k$, and
 Theorem I's hypothesis, that no $a$ splits into a sum of distinct $a$'s,
-implies the same; the site's Problem 876 writes the same
+implies the same; erdosproblems.com's Problem 876 writes the same
 condition as $a=b_1+\cdots+b_r$ with $b_1<\cdots<b_r<a$ in $A$).
 
 **Theorem I** (printed p. 28). If no $a$ can be written as a sum of distinct
@@ -115,11 +115,11 @@ None; the arguments are elementary. Footnote 1 (p. 29) refers to Problem
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0876/_index|Problem 876]]: the density-zero
-  theorem the site attributes to this paper; the reciprocal-sum bound $103$
-  that opens the reciprocal-sum question of the site's commentary (Erdős's
-  later restatements print $103$ in 1975 and $100$ in 1977); Theorem III
-  and the $x^{2/7}$ construction as the 1962 bounds on how dense such a
-  sequence can be, both superseded on the density side by Łuczak and
+  theorem erdosproblems.com attributes to this paper; the reciprocal-sum bound
+  $103$ that opens the reciprocal-sum question of the erdosproblems.com
+  commentary (Erdős's later restatements print $103$ in 1975 and $100$ in 1977);
+  Theorem III and the $x^{2/7}$ construction as the 1962 bounds on how dense
+  such a sequence can be, both superseded on the density side by Łuczak and
   Schoen's
   [[additive_combinatorics/luczak_2000_maximal_density_sum_free_sets/theorem_3|Theorem 3]]
   and

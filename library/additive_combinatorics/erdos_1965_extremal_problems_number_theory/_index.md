@@ -5,7 +5,7 @@ desc: |
   sums with distinct summands and on sum-free selection from n reals.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_combinatorics/erdos_1965_extremal_problems_number_theory
@@ -21,9 +21,9 @@ contain k of them none of which is the sum of others, with the lower
 bound sqrt(n/2) by the rotation method, the withdrawn claim g(n) = o(n)
 and the guess g(n) < n^(1-c).
 
-[[additive_combinatorics/erdos_1965_extremal_problems_number_theory/inequality_31|inequality_31]]: Erdős's 1965 definition of the function the site calls h(n), the largest
-k such that any n reals contain k of them two of whose subset sums agree
-only when they have the same number of summands, with the lower bound
+[[additive_combinatorics/erdos_1965_extremal_problems_number_theory/inequality_31|inequality_31]]: Erdős's 1965 definition of the function erdosproblems.com calls h(n), the
+largest k such that any n reals contain k of them two of whose subset sums
+agree only when they have the same number of summands, with the lower bound
 n^(1/3) by the rotation method and the report h(n) < c n^(5/6).
 
 [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/item_5|item_5]]: Erdős's 1965 question defining k(n), the largest k for which some block
@@ -102,7 +102,7 @@ by this reading.
 
 For [[../wiki/problems/number_theory/E0963/_index|#963]], the relevant paragraph is on printed
 p. 188 (PDF page 8), immediately after the different quantities $g(n)$ and
-$h(n)$ in (30)--(31). In the terminology now used by the catalog, for an
+$h(n)$ in (30)--(31). In the terminology now used by Bloom's catalog, for an
 $n$-element set $A\subset\mathbb R$ let $d(A)$ be the maximum size of a
 dissociated subset: a subset $B$ for which the $2^{|B|}$ sums
 $\sum_{b\in S}b$, $S\subseteq B$, are all distinct. The intended extremal
@@ -148,8 +148,8 @@ to decide whether $H(n)>c\log n$ holds for a certain $c>0$." The page then
 defines $H^*(n)$, the same with "no element of $\mathcal L_i$
 ($1\le i\le H^*(n)$) is the sum of distinct elements of $\mathcal L_i$", for
 which "$H^*(n)>c\log n$ follows immediately from [5]" (the sentence continues
-on p. 189). $H(n)$ is the inverse of the site's $f(k)$: $H(n)>c\log n$ for
-all $n$ is the exponential bound $f(k)<C^k$ that Problem 483 asks about.
+on p. 189). $H(n)$ is the inverse of erdosproblems.com's $f(k)$: $H(n)>c\log n$
+for all $n$ is the exponential bound $f(k)<C^k$ that Problem 483 asks about.
 Claims checked for the passage, which proves nothing.
 
 For [[../wiki/problems/integer_sequences/E0795/_index|#795]], printed p. 182 (PDF page 2,

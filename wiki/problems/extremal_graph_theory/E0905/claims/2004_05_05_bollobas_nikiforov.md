@@ -71,10 +71,11 @@ self-contained.
 the European Journal of Combinatorics. The Crossref record gives volume 26,
 issue 2, pp. 259--270, with the issue dated February 2005, and the arXiv comment
 of May 2004 says the paper was accepted there. No `reviewed` evidence is listed.
-The site's commentary credits Edwards and the 1979 note and does not name this
-paper. The external Lean file's docstring calls this paper's proof cleaner and
-follows its route, but it is not an independent review. Because of the shared
-author, this page is not used as independent acceptance of the 1979 note on
+The erdosproblems.com commentary credits Edwards and the 1979 note and does not
+name this paper. The external Lean file's docstring calls this paper's proof
+cleaner and follows its route, but it is not an independent review. Because of
+the shared author, this page is not used as independent acceptance of the 1979
+note on
 [[problems/extremal_graph_theory/E0905/claims/1979_10_01_khadzhiivanov_nikiforov|its claim page]].
 It does independently attest Edwards's 1977 manuscript, recorded on
 [[problems/extremal_graph_theory/E0905/claims/1977_01_01_edwards|Edwards's page]].

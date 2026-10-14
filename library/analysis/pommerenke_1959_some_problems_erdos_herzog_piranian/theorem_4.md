@@ -96,12 +96,13 @@ for the examples; none held.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1046/_index|Problem 1046]]: the width example of p. 224 is
-  the site's "Their guess that the width is always at most $2$ is false, as
-  Pommerenke [Po59] gave an example with width $>\sqrt3\,2^{1/3}\approx2.18$";
-  it refutes the width conjecture of the 1958 Problem 15, which the site's
-  commentary reports on this problem's page. The problem's stated question
-  is the disc question of Problem 14, answered yes by
+  erdosproblems.com's "Their guess that the width is always at most $2$ is
+  false, as Pommerenke [Po59] gave an example with width
+  $>\sqrt3\,2^{1/3}\approx2.18$"; it refutes the width conjecture of the 1958
+  Problem 15, which the erdosproblems.com commentary reports on this problem's
+  page. The problem's stated question is the disc question of Problem 14,
+  answered yes by
   [[analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/theorem_3|Theorem 3]];
-  the site's DISPROVED label sits beside both statements, and which one it
-  attaches to is not decided here. Theorem 4 itself gives $2\le d<4$ and
+  erdosproblems.com's DISPROVED label sits beside both statements, and which one
+  it attaches to is not decided here. Theorem 4 itself gives $2\le d<4$ and
   $b^2\le32/3$ for a connected $E$.

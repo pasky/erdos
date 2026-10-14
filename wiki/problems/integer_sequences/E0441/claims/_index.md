@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 441, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0441/claims
@@ -19,8 +19,8 @@ answers the first question in the asymptotic form Erdős conjectured.
 for infinitely many $N$, an admissible set larger than Erdős's construction by
 an unbounded amount. So the construction is not a largest set.
 
-[[problems/integer_sequences/E0441/claims/2026_06_19_axiommath|2026_06_19_axiommath]]: AxiomProver's Lean 4 file, posted to the site's thread in June 2026, exhibits
-$N=336$ and a 21-element admissible set that beats Erdős's 18-element
-construction. The file has not been built or audited here.
+[[problems/integer_sequences/E0441/claims/2026_06_19_axiommath|2026_06_19_axiommath]]: AxiomProver's Lean 4 file, posted to the erdosproblems.com thread in June
+2026, exhibits $N=336$ and a 21-element admissible set that beats Erdős's
+18-element construction. The file has not been built or audited here.
 
 ***

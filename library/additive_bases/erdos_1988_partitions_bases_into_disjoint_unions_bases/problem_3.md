@@ -58,7 +58,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/additive_bases/E0870/_index|#870]]: the problem page cites
-  this paper as its source for this question. The site asks it for $k\ge3$
-  with $r(n)$ counting representations of $n$ as a sum of at most $k$
+  this paper as its source for this question. erdosproblems.com asks it for
+  $k\ge3$ with $r(n)$ counting representations of $n$ as a sum of at most $k$
   elements, where the paper asks it for $h>2$ with $f(n)$ as above. The paper
   poses the question and does not answer it.

@@ -3,9 +3,9 @@ name: problems/additive_combinatorics/E0139/claims/1975_01_01_szemeredi
 title: Szemerédi's theorem on sets without long progressions
 desc: |
   Szemerédi's 1975 theorem in Acta Arithmetica states that $r_k(N)=o(N)$ for
-  every $k$. It is accepted on the refereed publication and the site's credit,
-  and the page links the unaudited Lean formalization of it in Boris Alexeev's
-  repository.
+  every $k$. It is accepted on the refereed publication and the
+  erdosproblems.com credit, and the page links the unaudited Lean formalization
+  of it in Boris Alexeev's repository.
 authors:
 - E. Szemerédi
 status: accepted
@@ -59,15 +59,15 @@ workable upper bound on the van der Waerden function. The page name carries
 the publication year; the publication records give only the year.
 
 **Acceptance.** Refereed: Acta Arithmetica 27 (1975), 199–245, the DOI linked
-above. Reviewed: the site's curator, Thomas Bloom, marked the problem proved and
-credits the proof to Szemerédi [Sz75] in the problem's commentary (page last
-edited 2026-04-04). The community database also lists the problem as proved. The
-theorem has been reproved independently by different methods. Furstenberg
-reproved it through multiple recurrence in measure-preserving systems (J.
-Analyse Math. 31, 1977). Gowers reproved it with the uniformity norms and a
-quantitative bound (Geom. Funct. Anal. 11, 2001). This corpus has built and
-audited no formal proof of the statement, so `formalized` is not listed as
-evidence.
+above. Reviewed: the erdosproblems.com curator, Thomas Bloom, marked the problem
+proved and credits the proof to Szemerédi [Sz75] in the problem's commentary
+(page last edited 2026-04-04). The community database also lists the problem as
+proved. The theorem has been reproved independently by different methods.
+Furstenberg reproved it through multiple recurrence in measure-preserving
+systems (J. Analyse Math. 31, 1977). Gowers reproved it with the uniformity
+norms and a quantitative bound (Geom. Funct. Anal. 11, 2001). This corpus has
+built and audited no formal proof of the statement, so `formalized` is not
+listed as evidence.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos139.lean` of Boris
 Alexeev's repository plby/lean-proofs, at the pinned commit linked above,
@@ -93,8 +93,8 @@ Lean and Mathlib v4.33.0, and the first commit of the problem file is dated
 2026-08-16, the same day as the theorem module. The formal-conjectures
 statement file for the problem, at its commit of 2026-10-06, carries the
 category `research solved` and a `formal_proof` attribute pointing to the
-problem file at this commit; the site's Lean qualification refers to this
-lean-proofs proof, which the formal-conjectures entry also cites. This
+problem file at this commit; the erdosproblems.com Lean qualification refers to
+this lean-proofs proof, which the formal-conjectures entry also cites. This
 corpus has not built the development, printed its axioms, or audited the
 definition behind `r` against the problem statement, and no outside review of
 it beyond the formal-conjectures pointer is known; it therefore adds nothing

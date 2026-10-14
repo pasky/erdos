@@ -57,6 +57,6 @@ the case $n=5$ is new.
 **Depends on.** No page of this wiki.
 
 **Standing.** An arXiv preprint, first posted on 7 March 2026 and linked from
-the site's thread on 10 March 2026, with no journal publication recorded. The
-site's commentary credits the paper, but the site labeled the problem OPEN, so
-the credit is not review.
+the erdosproblems.com thread on 10 March 2026, with no journal publication
+recorded. The erdosproblems.com commentary credits the paper, but Bloom's
+catalog labeled the problem OPEN, so the credit is not review.

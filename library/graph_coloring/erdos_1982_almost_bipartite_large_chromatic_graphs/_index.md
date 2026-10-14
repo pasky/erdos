@@ -82,10 +82,10 @@ and f^3_G(n,r) ≤ n^{1+epsilon}, where f^3_G(n,r) is the least number of edge
 deletions that leaves any n-vertex subgraph r-colorable; the proof goes through
 the ordered edge graph construction and the induction of Theorem 4. Problems 1,
 2 and 3 are left open, Problem 3 asking how slowly f^3_G(n) can grow when
-chi(G) = omega. The problem site cites this paper for Problems 74, 75, 110, 111,
-744 and 750. Problem 3 is Problem 74's question for chromatic number omega; for
-chi(G) > omega, page 121 deduces from Lemma 2.1 that f^3_G(n) ≥ epsilon n for
-some epsilon > 0, a linear lower bound for the h_G(n) of Problem 111, whose
+chi(G) = omega. erdosproblems.com cites this paper for Problems 74, 75, 110,
+111, 744 and 750. Problem 3 is Problem 74's question for chromatic number omega;
+for chi(G) > omega, page 121 deduces from Lemma 2.1 that f^3_G(n) ≥ epsilon n
+for some epsilon > 0, a linear lower bound for the h_G(n) of Problem 111, whose
 question whether h_G(n)/n tends to infinity the paper does not ask. Problem 2
 (p. 120) asks for a graph with chi(G) = |G| = omega_1 and f^1_G(n) ≥ cn, the
 linear-size part of Problem 75, and Theorem 2 shows that the Specker graph

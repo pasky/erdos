@@ -19,14 +19,15 @@ pp. 6--9).
 
 For integers $1\le a\le b$ write $\sum_{i=a}^b1/i=u_{a,b}/v_{a,b}$ in lowest
 terms, and let $b(a)$ be the least $b>a$ with $v_{a,b}<v_{a,b-1}$ (the index
-at which the denominator drops; the site's $b$ for problem 290 is one less).
+at which the denominator drops; erdosproblems.com's $b$ for problem 290 is one
+less).
 
 **Corollary 1** (p. 10): "If $r_i=1$ for all $i$, then $b(a)\le6(a-1)$, for all
 $a>1$."
 
 The proof gives more: if $3^k<a\le3^{k+1}$ then $v_{a,f(a)}<v_{a,f(a)-1}$ for
-$f(a)=2\cdot3^{k+1}$, which is the site's "one can take $b=2\cdot3^{k+1}-1$"
-in its convention.
+$f(a)=2\cdot3^{k+1}$, which is erdosproblems.com's "one can take
+$b=2\cdot3^{k+1}-1$" in its convention.
 
 ## Proof pointer and sketch
 

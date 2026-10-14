@@ -78,9 +78,9 @@ reference [19] is the Aberdeen 1975 proceedings paper, filed as
   first two resolved with linear bounds (Bollobás 1978, Chen--Erdős--Staton
   1996 for $k$ cycles; Fernández, Kim, Kim and Liu), the third the paper's
   subject.
-- P. 2: Problem 1 (the site's question, nearly verbatim); the quoted lower
-  bound $\Omega(n\log\log n)$ from the Pyber--Rödl--Szemerédi graphs with no
-  4-regular subgraph; the Turán-type upper bounds $O(n^{7/4})$ (Chen, Erdős
+- P. 2: Problem 1 (the erdosproblems.com question, nearly verbatim); the quoted
+  lower bound $\Omega(n\log\log n)$ from the Pyber--Rödl--Szemerédi graphs with
+  no 4-regular subgraph; the Turán-type upper bounds $O(n^{7/4})$ (Chen, Erdős
   and Staton via Kővári--Sós--Turán, since $K_{4,4}$ contains two edge-disjoint
   cycles on its vertex set) and $n^{3/2+o(1)}$ (Janzer, via the 2-blowup of a
   cycle), and the remark that no Turán-type argument beats $n^{3/2+o(1)}$;
@@ -107,9 +107,9 @@ the section and lemma locators of the proof pointers, and the reference list
 [36] and [37]. The proofs were not read. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0585/_index|#585]]: Problem 1 (p. 2)
-is the site's question; Theorem 2 gives its upper bound $n(\log n)^{O(1)}$ and
-the quoted Pyber--Rödl--Szemerédi construction its lower bound
-$\Omega(n\log\log n)$, both for the case $k=2$ of the paper's statements.
+is the erdosproblems.com question; Theorem 2 gives its upper bound
+$n(\log n)^{O(1)}$ and the quoted Pyber--Rödl--Szemerédi construction its lower
+bound $\Omega(n\log\log n)$, both for the case $k=2$ of the paper's statements.
 [[../wiki/problems/extremal_graph_theory/E0642/_index|#642]]: Theorem 2 with $k=2$ bounds
 E642's $f(n)$ by $c(2)n(\log n)^t$, since every edge of the second of two
 edge-disjoint cycles on one vertex set is a chord of the first.

@@ -57,17 +57,18 @@ $$
 **The case $n=1$.** The paper labels no corollary; it states (p. 1) that
 it solves its Problem 1 and its generalization, Theorem 8. With $n=1$ the
 excluded sequence is Sylvester's $2,3,7,43,\ldots$ and the constant is
-$c_1=\lim s_i(1)^{2^{-i}}=1.2640\ldots$, the constant the site's Problem 315
-writes as $c_0=\lim u_n^{1/2^n}$ with $u_n+1=s_n(1)$ (the two limits agree
-since $(u_n+1)/u_n\to1$). So every nondecreasing sequence of positive
+$c_1=\lim s_i(1)^{2^{-i}}=1.2640\ldots$, the constant erdosproblems.com's
+Problem 315 writes as $c_0=\lim u_n^{1/2^n}$ with $u_n+1=s_n(1)$ (the two limits
+agree since $(u_n+1)/u_n\to1$). So every nondecreasing sequence of positive
 integers other than $2,3,7,43,\ldots$ with reciprocal sum $1$, in particular
 every strictly increasing one, has $\liminf a_i^{2^{-i}}<c_1$. The indexing
-matches the site's ($a_1$ is the first term and the exponent is $2^{-i}$).
+matches erdosproblems.com's ($a_1$ is the first term and the exponent is
+$2^{-i}$).
 
 **A wording note.** Problem 1 as printed (p. 1) defines the Sylvester
 sequence by "$u_0=1$ and $u_{i+1}=u_i(u_i+1)+1$", with a footnote saying this
-corrects the monograph's $u_{i+1}=u_i(u_i+1)$ after the site's page; that
-recursion gives $1,3,13,183,\ldots$, whose reciprocals do not sum to $1$
+corrects the monograph's $u_{i+1}=u_i(u_i+1)$ after the erdosproblems.com page;
+that recursion gives $1,3,13,183,\ldots$, whose reciprocals do not sum to $1$
 (checked here). Theorem 8 does not use it: it is stated for $s_i(n)$, and
 $s_i(1)$ is Sylvester's sequence.
 
@@ -98,6 +99,7 @@ pp. 1 and 3 and the text layer of p. 2, rechecked on the page images of pp.
 
 - [[../wiki/problems/unit_fractions/E0315/_index|Problem 315]]: the case $n=1$ is the
   problem's question, answered yes for every nondecreasing sequence, which
-  includes the strictly increasing ones the problem asks about. The site
-  credits this paper and, independently, Li and Tang. The other route is
+  includes the strictly increasing ones the problem asks about.
+  erdosproblems.com credits this paper and, independently, Li and Tang. The
+  other route is
   [[unit_fractions/li_2025_conjecture_erdos_graham_about_sylvester_s/corollary_1_7|Li and Tang's Corollary 1.7]].

@@ -47,8 +47,8 @@ at $k=n^{1/3}$; the
 [[../library/set_systems/erdos_1946_asymptotic_number_latin_rectangles/series_p234|sketched expansion of Section 4]]
 suggests, without proof, that the formula ceases to be valid at about
 $k=n^{1/3}$. [[problems/set_systems/E0725/claims/1951_01_01_yamamoto|Yamamoto]]
-proved the formula for every $k<n^{1/3-\delta}$. The site records the theorem
-with its range under [ErKa46].
+proved the formula for every $k<n^{1/3-\delta}$. erdosproblems.com records the
+theorem with its range under [ErKa46].
 
 **Covers.** The asymptotic count for every $k<(\log n)^{3/2-\epsilon}$. It
 says nothing about larger $k$, so
@@ -57,7 +57,8 @@ asymptotic formula without restricting $k$, is not settled by it.
 
 **Acceptance.** Refereed: Amer. J. Math. **68** (1946), no. 2, 230–236. The
 issue is dated April 1946, and the page is dated to the first day of that month.
-The site's curator records the theorem under [ErKa46] and labeled the problem
-OPEN. This credits the partial result without settling the problem, so the page
-lists no `reviewed` evidence. The library card records the paper's theorems. The
-proof has not been reconstructed or independently reviewed in this corpus.
+The erdosproblems.com curator records the theorem under [ErKa46] and labeled the
+problem OPEN. This credits the partial result without settling the problem, so
+the page lists no `reviewed` evidence. The library card records the paper's
+theorems. The proof has not been reconstructed or independently reviewed in this
+corpus.

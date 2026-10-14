@@ -34,14 +34,15 @@ Erdős [Er87, Problem 3, p. 223] poses the question as an extension of
 $\mathfrak c\to(\omega+n,4)^3_2$, which he calls an old result of Rado and
 himself; that result is Theorem 31 of [ErRa56], proved for the uncountable order
 types into which neither $\omega_1$ nor $\omega_1^*$ embeds, a hypothesis the
-real line meets and the initial ordinal of the continuum does not. The site's
-commentary credits the same relation. The statement in
+real line meets and the initial ordinal of the continuum does not. The
+erdosproblems.com commentary credits the same relation. The statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/70.lean)
 poses the main question on $\mathbb R$ with its usual order, after a correction
 of 2026-09-12, while its variant `omega_three` uses the initial ordinal of the
 continuum.
 
-**Status.** Open. The site's label was OPEN. One accepted partial claim,
+**Status.** Open. The erdosproblems.com label was OPEN. One accepted partial
+claim,
 [[problems/set_theory/E0070/claims/1956_09_01_erdos_rado|Erdős and Rado 1956]],
 settles the instances with $\beta<\omega 2$ and $n\le4$. The question stays
 open.
@@ -60,20 +61,20 @@ https://www.erdosproblems.com/70.
   Amer. Math. Soc. 62 (1956), no. 5, 427–489; Theorem 31, p. 447. Library home:
   [[../library/set_theory/erdos_1956_partition_calculus_set_theory/_index|erdos_1956_partition_calculus_set_theory]].
 - [Va99] Some of Paul's favorite problems, booklet for the conference "Paul
-  Erdős and his mathematics", Budapest, July 1999; item 7.83, as the site cites
-  it.
+  Erdős and his mathematics", Budapest, July 1999; item 7.83, as
+  erdosproblems.com cites it.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/70.lean).
 
 ## Current assessment
 
-The question, in the site's formulation read as the Formulation says, asks
-whether $\lambda\to(\beta,n)^3_2$ for every countable ordinal $\beta$ and every
-finite $n\ge2$, where $\lambda$ is the order type of the real line. The site
-labeled the problem OPEN, and its only remark credits Erdős and Rado with
-$\mathfrak c\to(\omega+n,4)^3_2$ for every finite $n\ge2$. That result is
-Theorem 31, relation (30), of [ErRa56], and it is the accepted partial claim
+The question, in the erdosproblems.com formulation read as the Formulation says,
+asks whether $\lambda\to(\beta,n)^3_2$ for every countable ordinal $\beta$ and
+every finite $n\ge2$, where $\lambda$ is the order type of the real line.
+Bloom's catalog labeled the problem OPEN, and its only remark credits Erdős and
+Rado with $\mathfrak c\to(\omega+n,4)^3_2$ for every finite $n\ge2$. That result
+is Theorem 31, relation (30), of [ErRa56], and it is the accepted partial claim
 [[problems/set_theory/E0070/claims/1956_09_01_erdos_rado|Erdős and Rado 1956]],
 refereed in the Bulletin of the American Mathematical Society; it gives
 $\lambda\to(\beta,4)^3_2$ for every $\beta<\omega 2$, and so every instance with
@@ -96,8 +97,8 @@ claim page; its variant `erdos_rado` states the accepted result with its proof
 left as `sorry`. Proof coverage: none of the proofs is reconstructed in this
 corpus.
 
-Search scope: the site's problem page (last edited 23 January 2026) and its
-discussion thread (no comments on 2026-10-07; no proof claims), [Er87],
+Search scope: the erdosproblems.com problem page (last edited 23 January 2026)
+and its discussion thread (no comments on 2026-10-07; no proof claims), [Er87],
 [ErRa56] and the formal-conjectures statement file at the commit linked under
 Formulation; no wider literature search is recorded.
 <!-- BEGIN problem library links -->

@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 777, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0777/claims
@@ -17,8 +17,8 @@ which answers the third question yes. Their Example 6.1 answers the second
 question no.
 
 [[problems/extremal_graph_theory/E0777/claims/2014_11_15_alon_das_glebov_sudakov|2014_11_15_alon_das_glebov_sudakov]]: Alon, Das, Glebov and Sudakov prove a stability theorem for comparable pairs,
-from which the site derives a yes answer to the first question. The paper
-appeared, refereed, in JCTB 115 (2015), and the site credits it with that
-answer.
+from which erdosproblems.com derives a yes answer to the first question. The
+paper appeared, refereed, in JCTB 115 (2015), and erdosproblems.com credits it
+with that answer.
 
 ***

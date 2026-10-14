@@ -131,6 +131,6 @@ independent review has been filed; until a whole-claim review of this page
 and the density page is filed under this card's `evidence/verify/`, the
 proof is not independently accepted compilation proof coverage.
 
-**Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]] (context: the site's
-remark on problem 251 attributes $\sum p_n^k/n!$ for every $k\ge1$ to this
-paper; the paper proves $k=1$).
+**Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]] (context: the
+erdosproblems.com remark on problem 251 attributes $\sum p_n^k/n!$ for every
+$k\ge1$ to this paper; the paper proves $k=1$).

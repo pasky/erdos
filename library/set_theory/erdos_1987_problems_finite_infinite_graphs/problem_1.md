@@ -50,7 +50,7 @@ None.
 
 - [[../wiki/problems/set_theory/E0592/_index|Problem 592]]: the request for a
   complete characterization is this problem's question, with the print's
-  $\alpha$ in the role of the problem's $\beta$; the site asks for the
+  $\alpha$ in the role of the problem's $\beta$; erdosproblems.com asks for the
   countable $\beta$, and the print leaves $\alpha$ unqualified. The paper
   poses it and records no result on it beyond the remark that $\alpha$ must
   be a power of $\omega$.

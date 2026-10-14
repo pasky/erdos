@@ -32,42 +32,43 @@ $$
 
 a strictly increasing function of $q$ for $1\leq q\leq \binom{p-1}{2}+1$?
 
-**Formulation.** The site's wording of 2026-09-18 (the page carries no
-last-edited date). The site writes "$H(n)=H(N;p,q)$"
-with two letters for one variable; the source writes $H(n;p,q)$ throughout,
-and $n$ is meant. The lower limit is as $n\to\infty$; the source prints
-$c(p,q)$ with an underlined $\lim$, the usual notation for the lower limit,
-so the site's $\liminf$ is the source's definition. The problem is Problem
-13 of Erdős's 1997 chapter [Er97f], which says that "Faudree, Rousseau,
-Schelp and I investigated the behaviour of $H(n;p,q)$ as a function of
-$n$"; the site's attribution to the four follows it. That $c(p,q)$ is
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (the page carries
+no last-edited date). erdosproblems.com writes "$H(n)=H(N;p,q)$" with two
+letters for one variable; the source writes $H(n;p,q)$ throughout, and $n$ is
+meant. The lower limit is as $n\to\infty$; the source prints $c(p,q)$ with an
+underlined $\lim$, the usual notation for the lower limit, so
+erdosproblems.com's $\liminf$ is the source's definition. The problem is Problem
+13 of Erdős's 1997 chapter [Er97f], which says that "Faudree, Rousseau, Schelp
+and I investigated the behaviour of $H(n;p,q)$ as a function of $n$"; the
+erdosproblems.com attribution to the four follows it. That $c(p,q)$ is
 nondecreasing in $q$ is immediate from the definitions (a graph meeting the
 condition for $q+1$ meets it for $q$, so the forced clique can only grow);
 the question is strictness.
 
-**Status.** The site labeled the problem OPEN, with the note that no finite
-computation can settle it. No claim about it has been found, so the problem is
-open. The source records the bounds the site repeats. For $q=1$, the condition
-says that $G$ has no independent set of size $p$, so $H(n;p,1)$ is governed by
-Ramsey numbers and $1/(p-1)\le c(p,1)\le2/(p+1)$. For $q=\binom{p-1}2+1$, the
-complement of $G$ has all components of order below $p$, so $G$ has a clique of
-order at least $n/(p-1)$ and $c(p,q)=1$ (a three-line argument printed in the
-source). The source also states, without proof or reference, "we have shown that
-$H(n;p,\binom{p-1}2)\le cn^{1/2}$, so $c(p,\binom{p-1}2)\le1/2$". The paper
-behind this last bound was not identified, and the bound is disputed. A comment
-in the site's thread (18 April 2026) gives an elementary argument, recomputed
-below, that $c(2k,\binom{2k-1}2)\ge 1-1/k>1/2$ for every $k\ge3$. The elementary
-arguments recorded below show three things. The bound is incompatible with the
-source's own conjecture for every $p\ge4$. It fails for odd $p\ge7$ as well. The
-printed inequality $H(n;p,\binom{p-1}2)\le cn^{1/2}$ is false for every $p\ge3$.
-No source found addresses strict monotonicity for any $p\ge4$. The search whose
+**Status.** Bloom's catalog labeled the problem OPEN, with the note that no
+finite computation can settle it. No claim about it has been found, so the
+problem is open. The source records the bounds erdosproblems.com repeats. For
+$q=1$, the condition says that $G$ has no independent set of size $p$, so
+$H(n;p,1)$ is governed by Ramsey numbers and $1/(p-1)\le c(p,1)\le2/(p+1)$. For
+$q=\binom{p-1}2+1$, the complement of $G$ has all components of order below $p$,
+so $G$ has a clique of order at least $n/(p-1)$ and $c(p,q)=1$ (a three-line
+argument printed in the source). The source also states, without proof or
+reference, "we have shown that $H(n;p,\binom{p-1}2)\le cn^{1/2}$, so
+$c(p,\binom{p-1}2)\le1/2$". The paper behind this last bound was not identified,
+and the bound is disputed. A comment in the erdosproblems.com thread (18
+April 2026) gives an elementary argument, recomputed below, that
+$c(2k,\binom{2k-1}2)\ge 1-1/k>1/2$ for every $k\ge3$. The elementary arguments
+recorded below show three things. The bound is incompatible with the source's
+own conjecture for every $p\ge4$. It fails for odd $p\ge7$ as well. The printed
+inequality $H(n;p,\binom{p-1}2)\le cn^{1/2}$ is false for every $p\ge3$. No
+source found addresses strict monotonicity for any $p\ge4$. The search whose
 scope the Current assessment records had found no proof, disproof, preprint or
 proof claim for the question on 2026-09-18. This is a bounded negative finding,
 not a certificate of openness.
 
 **Source.** [erdosproblems.com/667](https://www.erdosproblems.com/667),
-accessed 2026-09-18: the problem page (labeled OPEN, with the site's note
-that no finite computation can settle it; no last-edited date; source key
+accessed 2026-09-18: the problem page (labeled OPEN, with the erdosproblems.com
+note that no finite computation can settle it; no last-edited date; source key
 [Er97f]), its one-comment discussion thread (18 April 2026) and its empty
 proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #667,
 https://www.erdosproblems.com/667, accessed 2026-09-18.
@@ -91,21 +92,22 @@ directory
 [`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems)
 is for this problem), and the community database (teorth/erdosproblems, fetched
 2026-09-18) lists the problem as open, as of its last update of that field on 31
-August 2025, not formalized, with no formal proof. The site's "Formalised
-statement?" indicator reads "No". On 2026-10-07 the main branch of
+August 2025, not formalized, with no formal proof. erdosproblems.com's
+"Formalised statement?" indicator reads "No". On 2026-10-07 the main branch of
 formal-conjectures had no `667.lean`, and Boris Alexeev's lean-proofs
 (`src/latest/ErdosProblems/`) had no file for the problem.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; labeled
-OPEN, with the site's note that no finite computation can settle it. The
-commentary, in summary, attributes the problem to Erdős, Faudree, Rousseau and
-Schelp, notes that $q=1$ is exactly the classical Ramsey problem, so that for
-example $1/(p-1)\le c(p,1)\le2/(p+1)$, calls $c(p,q)=1$ at $q=\binom{p-1}2+1$
-easy, and credits the four authors with $c(p,\binom{p-1}2)\le1/2$. The thread
-has one comment (18 April 2026), recorded below. The proof-claim tab is empty.
-The community database record (fetched 2026-09-18) said open.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; labeled OPEN, with the erdosproblems.com note that no finite computation
+can settle it. The commentary, in summary, attributes the problem to Erdős,
+Faudree, Rousseau and Schelp, notes that $q=1$ is exactly the classical Ramsey
+problem, so that for example $1/(p-1)\le c(p,1)\le2/(p+1)$, calls $c(p,q)=1$ at
+$q=\binom{p-1}2+1$ easy, and credits the four authors with
+$c(p,\binom{p-1}2)\le1/2$. The thread has one comment (18 April 2026), recorded
+below. The proof-claim tab is empty. The community database record (fetched
+2026-09-18) said open.
 
 **Origin.** [Er97f], Problem 13, printed pp. 3--4, in the corpus's words
 except where marked. For a graph $G$ of
@@ -145,9 +147,9 @@ $H(n;2k,\binom{2k-1}2)\ge c_kn^{1-1/k}$ and $c(2k,\binom{2k-1}2)\ge1-1/k$, which
 exceeds $1/2$ for $k\ge3$ and equals $1/2$ for $k=2$. The deduction is
 elementary and is consistent with the source's exponent claim only for $p\le5$;
 for even $p\ge6$ the two are incompatible, and this page records the conflict
-without resolving it: the source's sentence is quoted as printed, the site's
-commentary repeats it, and the correction rests on a forum comment and an unheld
-classical theorem. The same comment claims further:
+without resolving it: the source's sentence is quoted as printed, the
+erdosproblems.com commentary repeats it, and the correction rests on a forum
+comment and an unheld classical theorem. The same comment claims further:
 $c(p,\binom{p-1}2)\le2p/(2p+1)$ for all $p$, from Erdős's 1959 theorem that for
 fixed $k$ there are graphs of girth greater than $k$ on $N$ vertices with
 independence number below $N^{2k/(2k+1)}$ (the complement of such a graph, with
@@ -221,7 +223,7 @@ reviewed. The source's own conjecture is not settled by any of this: (a)
 shows only that the source's two sentences conflict, and no theorem or
 counterexample on strictness for any $p\ge4$ was found.
 
-**The unidentified paper.** The site and the chapter credit the bound
+**The unidentified paper.** erdosproblems.com and the chapter credit the bound
 $H(n;p,\binom{p-1}2)\le cn^{1/2}$ to Erdős, Faudree, Rousseau and Schelp. zbMATH
 Open lists twenty-nine joint papers of the four (queried 2026-09-18); no title
 names the fixed-$p$ edge condition, $H(n;p,q)$ or $c(p,q)$. The nearest titles
@@ -233,14 +235,14 @@ home:
 it concerns the edge count forcing a subgraph of minimum degree $k$ and says
 nothing about cliques, $H(n;p,q)$ or the condition that every $p$ vertices span
 at least $q$ edges, so it is not the paper behind the bound. The bound is
-therefore recorded as attributed by the site and the chapter to a paper not
-identified here.
+therefore recorded as attributed by erdosproblems.com and the chapter to a paper
+not identified here.
 
 **Search scope.** None of the routes below found a proof,
 disproof, preprint or proof claim on the strict monotonicity of $c(p,q)$,
 or the paper behind the $n^{1/2}$ bound.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures listing at the pinned commit (no file); the community
   database as fetched 2026-09-18.
 - The primary source: [Er97f] printed pp. 3--4 and 9--10.
@@ -264,12 +266,12 @@ thread's argument for even $p$, resting on an unheld classical theorem, and the
 girth count (b) for odd $p$), and for every $p\ge4$ it is incompatible with the
 source's own conjecture, since the two-line argument (a) gives
 $c(p,\binom{p-2}2+1)\ge1/2$ at a smaller $q$; the printed inequality
-$H(n;p,\binom{p-1}2)\le cn^{1/2}$ fails for every $p\ge3$ by (c). This is a
-site-versus-source tension that does not touch the status field; the question of
-strictness stays open for every $p\ge4$. (3) Proof coverage: the chapter's
-three-line endpoint argument is the only proof on record; nothing is
-independently reviewed; there is no resolving proof to compile. (4) The site's
-"$H(N;p,q)$" is a typographical slip recorded above.
+$H(n;p,\binom{p-1}2)\le cn^{1/2}$ fails for every $p\ge3$ by (c). This is an
+erdosproblems.com-versus-source tension that does not touch the status field;
+the question of strictness stays open for every $p\ge4$. (3) Proof coverage: the
+chapter's three-line endpoint argument is the only proof on record; nothing is
+independently reviewed; there is no resolving proof to compile. (4)
+erdosproblems.com's "$H(N;p,q)$" is a typographical slip recorded above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

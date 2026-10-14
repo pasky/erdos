@@ -44,9 +44,9 @@ for every graph $G$ with chromatic number $\chi(G)=k$?
 Even stronger, is there some $c>0$ such that, for all large $k$, $R(G)>cR(k)$
 for every graph $G$ with chromatic number $\chi(G)=k$?
 
-**Notes.** The site's "Let $\epsilon>0$" admits every positive $\epsilon$, and
-for $\epsilon\ge2$ the first question fails trivially: for even $k$ the factor
-$(1-\epsilon)^k$ is at least $1$, and $G=K_k$ has $\chi(G)=k$ and
+**Notes.** erdosproblems.com's "Let $\epsilon>0$" admits every positive
+$\epsilon$, and for $\epsilon\ge2$ the first question fails trivially: for even
+$k$ the factor $(1-\epsilon)^k$ is at least $1$, and $G=K_k$ has $\chi(G)=k$ and
 $R(G)=R(k)\le(1-\epsilon)^kR(k)$, so the inequality fails for every even $k$.
 The smallest instance is $\epsilon=2$, where $(1-\epsilon)^k=1$ for every even
 $k$. The check is elementary and was made here; the formal-conjectures
@@ -58,69 +58,70 @@ changes. The evidence is the poser's own words. Erdős [Er95], Section II.15,
 p. 14 of the typescript
 ([[../library/number_theory/erdos_1995_my_favourite_problems_number_theory_combinatorics/_index|its card]]),
 writes that "$r(G,G)>(1-\varepsilon)^nr(n)$ should hold for some
-$0<\varepsilon<1$", so Erdős's $\varepsilon$ lies in $(0,1)$. The site's
-commentary agrees: its remark "Since $R(k)\leq 4^k$ this is trivial for
-$\epsilon\geq 3/4$" rests on $(1-\epsilon)^k4^k\le1$, which holds for every $k$
-only when $3/4\le\epsilon\le5/4$, so the remark is true only when $\epsilon$ is
-bounded and does not contemplate the trivially false $\epsilon\ge2$; the
-formal-conjectures statement, which counts with the site, takes $0<\epsilon<1$.
-No text of the poser lets $\epsilon$ exceed $1$, so the defect is the site's.
-The site's universal question against Erdős's "for some" is the site's own
-restatement and stands; Formulation records Erdős's wording with its answer. The
-change moves no standing: both questions of the modified Statement are open,
-and no result about the site's wording beyond the trivial failure above is
-recorded.
+$0<\varepsilon<1$", so Erdős's $\varepsilon$ lies in $(0,1)$. The
+erdosproblems.com commentary agrees: its remark "Since $R(k)\leq 4^k$ this is
+trivial for $\epsilon\geq 3/4$" rests on $(1-\epsilon)^k4^k\le1$, which holds
+for every $k$ only when $3/4\le\epsilon\le5/4$, so the remark is true only when
+$\epsilon$ is bounded and does not contemplate the trivially false
+$\epsilon\ge2$; the formal-conjectures statement, which counts with
+erdosproblems.com, takes $0<\epsilon<1$. No text of the poser lets $\epsilon$
+exceed $1$, so the defect is erdosproblems.com's. erdosproblems.com's universal
+question against Erdős's "for some" is erdosproblems.com's own restatement and
+stands; Formulation records Erdős's wording with its answer. The change moves no
+standing: both questions of the modified Statement are open, and no result about
+the erdosproblems.com wording beyond the trivial failure above is recorded.
 
 **Formulation.** Erdős's own questions differ from the Statement and have
 known answers. Erdős's original conjecture is the unweakened $R(G)\ge R(k)$ for
 every $G$ with $\chi(G)=k$ (display (13) of [Er81c], p. 12; display (18) of
 [Er95], p. 13, where Erdős says Bondy and Murty's book states it), which the
-site's commentary records as what Erdős originally conjectured. It is trivial
-for $k=3$ and false for $k=4$: Faudree and McKay's $r(W_6)=17<18=R(4)$
+erdosproblems.com commentary records as what Erdős originally conjectured. It is
+trivial for $k=3$ and false for $k=4$: Faudree and McKay's $r(W_6)=17<18=R(4)$
 [FaMc93]. The first weakening in [Er95], p. 14, is existential, "should hold
 for some $0<\varepsilon<1$", and is trivially true: $\varepsilon=3/4$ works for
-every $k\ge2$, since $(1/4)^kR(k)\le1<R(G)$ by $R(k)\le4^k$. The site asks the
-inequality for every $\epsilon$, the question that is not trivial. The second
-weakening, "perhaps even $\lim_{n\to0}r(G,G)/r(n)>0$ [sic]", has an evident
-misprint for $n\to\infty$; the site's "for all large $k$" form is the
-corresponding uniform statement.
+every $k\ge2$, since $(1/4)^kR(k)\le1<R(G)$ by $R(k)\le4^k$. erdosproblems.com
+asks the inequality for every $\epsilon$, the question that is not trivial. The
+second weakening, "perhaps even $\lim_{n\to0}r(G,G)/r(n)>0$ [sic]", has an
+evident misprint for $n\to\infty$; erdosproblems.com's "for all large $k$" form
+is the corresponding uniform statement.
 
 $R(G)=r(G,G)$ is the least $N$ such that every red-blue coloring of the edges
 of $K_N$ contains a monochromatic copy of $G$, and $R(k)=R(K_k)$. Faudree and
-McKay state the unweakened conjecture for $\chi(G)\ge k$ where the site fixes
-$\chi(G)=k$; the two readings are equivalent for every question on this page,
-because a graph with $\chi(G)\ge k$ has an induced subgraph $H$ with
+McKay state the unweakened conjecture for $\chi(G)\ge k$ where erdosproblems.com
+fixes $\chi(G)=k$; the two readings are equivalent for every question on this
+page, because a graph with $\chi(G)\ge k$ has an induced subgraph $H$ with
 $\chi(H)=k$ and $R(G)\ge R(H)$ (an observation made here). The unweakened
 conjecture is not the page's question; the two weakened questions are.
 
-**Status.** Open, the site's label (OPEN). Neither question of the modified
-Statement has a source in either direction. Erdős proposed them in 1995, after
-the unweakened conjecture had been refuted at $k=4$. The refutation is Faudree
-and McKay's computer-search value $r(W_6)=17<18=r(K_4)$ (J. Combin. Math.
-Combin. Comput. 13 (1993)), and Erdős's 1995 paper confirms it. Erdős wrote that
-"Both conjectures may be unattackable at present". The lower bounds in hand for
-$R(G)$ with $\chi(G)=k$ are exponential in $k$, but far below the known upper
-bounds for $R(k)$. One is Chvátal and Harary's $r(G,G)>(1+c)^k$, as quoted by
-Erdős in 1981. The other is the site's remark, attributed to Wigderson, that
-$R(G)\gg2^{k/2}$ by a random coloring. This bound is within a factor of order
-$k$ of the best known lower bound for $R(k)$. The search whose scope the Current
-assessment records found no source proving or refuting either weakening. This is
-a bounded negative finding, not a certificate of openness.
+**Status.** Open, the erdosproblems.com label (OPEN). Neither question of the
+modified Statement has a source in either direction. Erdős proposed them in
+1995, after the unweakened conjecture had been refuted at $k=4$. The refutation
+is Faudree and McKay's computer-search value $r(W_6)=17<18=r(K_4)$ (J. Combin.
+Math. Combin. Comput. 13 (1993)), and Erdős's 1995 paper confirms it. Erdős
+wrote that "Both conjectures may be unattackable at present". The lower bounds
+in hand for $R(G)$ with $\chi(G)=k$ are exponential in $k$, but far below the
+known upper bounds for $R(k)$. One is Chvátal and Harary's $r(G,G)>(1+c)^k$, as
+quoted by Erdős in 1981. The other is the erdosproblems.com remark, attributed
+to Wigderson, that $R(G)\gg2^{k/2}$ by a random coloring. This bound is within a
+factor of order $k$ of the best known lower bound for $R(k)$. The search whose
+scope the Current assessment records found no source proving or refuting either
+weakening. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/87](https://www.erdosproblems.com/87), accessed
-2026-09-18: the problem page (labeled OPEN, with the site's note that no finite
-computation can settle it; last edited 17 January 2026; source key [Er95, p.
-14]; commentary citing [FaMc93]; a credit line thanking Yuval Wigderson), its
-empty discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom,
-Erdős Problem #87, https://www.erdosproblems.com/87, accessed 2026-09-18.
+2026-09-18: the problem page (labeled OPEN, with the erdosproblems.com note that
+no finite computation can settle it; last edited 17 January 2026; source key
+[Er95, p. 14]; commentary citing [FaMc93]; a credit line thanking Yuval
+Wigderson), its empty discussion thread and its empty proof-claim tab. Cite as:
+T. F. Bloom, Erdős Problem #87, https://www.erdosproblems.com/87, accessed
+2026-09-18.
 
 **References.**
 
 - [Er95] Erdős, P., Some of my favourite problems in number theory,
   combinatorics, and geometry. Resenhas 2 (1995), 165--186. Section II.15,
   on pp. 13--14 of the 20-page author typescript, whose running heads
-  carry the numbers 1--20 and not the journal's pages; the site's "p. 14"
-  matches the running head. Library home:
+  carry the numbers 1--20 and not the journal's pages; erdosproblems.com's "p.
+  14" matches the running head. Library home:
   [[../library/number_theory/erdos_1995_my_favourite_problems_number_theory_combinatorics/_index|erdos_1995_my_favourite_problems_number_theory_combinatorics]].
 - [FaMc93] Faudree, R. J. and McKay, B. D., A conjecture of Erdős and the
   Ramsey number $r(W_6)$. J. Combin. Math. Combin. Comput. 13 (1993),
@@ -152,18 +153,17 @@ September 2026, and no formal proof. Nothing was built.
 
 ## Current assessment
 
-**The question.** The modified Statement above; the site's page was labeled
-OPEN, with the site's note that no finite computation can settle it; last
-edited 17 January 2026; no prize. The commentary, restated
-here, makes three points: Erdős's original conjecture was the unweakened
-$R(G)\ge R(k)$, trivial at $k=3$ and false at $k=4$ by Faudree and McKay's
-value $17$ for the pentagonal wheel [FaMc93]; the first question is
-trivial for $\epsilon\ge3/4$, within $\epsilon<1$, because $R(k)\le4^k$;
-and, in a remark the
-site credits to Wigderson, a random coloring gives $R(G)\gg2^{k/2}$ for
-every $G$ with chromatic number $k$, the order of the best known lower
-bounds for $R(k)$. The discussion thread and the proof-claim tab are
-empty, and the site records a formalized statement.
+**The question.** The modified Statement above; the erdosproblems.com page was
+labeled OPEN, with the erdosproblems.com note that no finite computation can
+settle it; last edited 17 January 2026; no prize. The commentary, restated here,
+makes three points: Erdős's original conjecture was the unweakened
+$R(G)\ge R(k)$, trivial at $k=3$ and false at $k=4$ by Faudree and McKay's value
+$17$ for the pentagonal wheel [FaMc93]; the first question is trivial for
+$\epsilon\ge3/4$, within $\epsilon<1$, because $R(k)\le4^k$; and, in a remark
+erdosproblems.com credits to Wigderson, a random coloring gives $R(G)\gg2^{k/2}$
+for every $G$ with chromatic number $k$, the order of the best known lower
+bounds for $R(k)$. The discussion thread and the proof-claim tab are empty, and
+erdosproblems.com records a formalized statement.
 
 **Origin.** Erdős 1995, Section II.15 (typescript pp. 13--14), recalls that
 Bondy and Murty's book states Erdős's old conjecture (Problem 26, p. 250) that
@@ -195,7 +195,7 @@ Thus, the Erdős conjecture in the case $k=4$ is equivalent to $r(W_6)\ge18$",
 so with Greenwood and Gleason's $r(K_4)=18$ "the Erdős conjecture is false for
 $k=4$". The value is an exhaustive computer search (their Section 3; not rerun
 here); the paper appeared in a refereed journal and Erdős's 1995 text accepts
-the refutation, as does the site. The same paper gives Theorem 2,
+the refutation, as does erdosproblems.com. The same paper gives Theorem 2,
 $r(K_4,W_6)=19$, by which "the only exception to the off-diagonal form of the
 conjecture for $k=4$ comes from the pair $(W_6,W_6)$" (p. 2), and Theorem 3,
 $r(W_5)=15$ (with $\chi(W_5)=3$), and tabulates $r(W_i,W_j)$ for $3\le
@@ -207,20 +207,20 @@ unweakened conjecture for any $k\ge5$; Erdős's "Probably the conjecture fails
 for every $n>4$" ([Er95], p. 13) is an expectation.
 
 **What bears on the weakened questions.** Nothing in hand proves or
-refutes either. Two elementary bounds frame them. The site notes that the
-first question is trivial for $\epsilon\ge3/4$. The reason, that
+refutes either. Two elementary bounds frame them. erdosproblems.com notes that
+the first question is trivial for $\epsilon\ge3/4$. The reason, that
 $R(k)\le4^k$ gives $(1-\epsilon)^kR(k)\le1<R(G)$, holds for
 $3/4\le\epsilon\le5/4$, so the first question of the modified Statement is
 trivial for $3/4\le\epsilon<1$. On the lower side, Chvátal and Harary's
 $r(G,G)>(1+c)^t$ for $t$-chromatic $G$ (as quoted in [Er81c], p. 12) and
-the site's remark that $R(G)\gg2^{k/2}$ for every $G$ with $\chi(G)=k$
-(attributed to Wigderson; the site's own commentary, not checked here)
-are exponential in $k$ but far below the known upper bounds for $R(k)$; the
-second is within a factor of order $k$ of the best lower bound for $R(k)$,
-$(\sqrt2/e+o(1))k2^{k/2}$, and the growth constant of $R(k)$ is the subject
-of [[problems/ramsey_theory/E0077/_index|Problem 77]]. An observation made here:
-the remark's base $2^{1/2}$ is also the best known lower base for $R(k)$
-itself, so the first weakening would follow from it only if
+the erdosproblems.com remark that $R(G)\gg2^{k/2}$ for every $G$ with
+$\chi(G)=k$ (attributed to Wigderson; erdosproblems.com's own commentary, not
+checked here) are exponential in $k$ but far below the known upper bounds for
+$R(k)$; the second is within a factor of order $k$ of the best lower bound for
+$R(k)$, $(\sqrt2/e+o(1))k2^{k/2}$, and the growth constant of $R(k)$ is the
+subject of [[problems/ramsey_theory/E0077/_index|Problem 77]]. An observation
+made here: the remark's base $2^{1/2}$ is also the best known lower base for
+$R(k)$ itself, so the first weakening would follow from it only if
 $\lim R(k)^{1/k}$ were $\sqrt2$, and it gives nothing for any larger value
 of that limit. Recent preprints on the Ramsey numbers of wheels
 $R(W_n)$ (arXiv:2604.11937, 2604.13850 and 2605.22116, by their
@@ -233,7 +233,7 @@ or refutation of either weakened question, a bound of the form
 $R(G)\ge f(k)R(k)$ with $f(k)$ larger than exponentially small, or a proof
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the commit linked above; the community database; OEIS
   A059442 (the table of $R(n,k)$; it links this
   problem and carries no statement about general graphs).
@@ -254,11 +254,11 @@ in [FaMc93] and [Er81c].
 without the journal's pagination, so locators are its running-head pages;
 the journal text was not compared. (2) Faudree and McKay's computation is a
 1993 exhaustive search with no certificate on record; it was not rerun
-(claims checked only). (3) The remark $R(G)\gg2^{k/2}$ rests on the site's
-commentary; no written source for it was located. (4) No source bears on
-the two weakened questions, so there is nothing to compile for the
-page-level status beyond the origin passages; the questions stand as
-Erdős left them in 1995.
+(claims checked only). (3) The remark $R(G)\gg2^{k/2}$ rests on the
+erdosproblems.com commentary; no written source for it was located. (4) No
+source bears on the two weakened questions, so there is nothing to compile for
+the page-level status beyond the origin passages; the questions stand as Erdős
+left them in 1995.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

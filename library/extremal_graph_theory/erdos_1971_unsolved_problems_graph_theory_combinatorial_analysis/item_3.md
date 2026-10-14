@@ -56,10 +56,10 @@ between the $y$'s and the $z$'s and $6$ among the $z$'s, that is
 $n^2+8n+6=(n+2)^2+4n+2$ edges, and $[\tfrac14(2n+4)^2]=(n+2)^2$, so the
 printed excess $k=4n+2$ is right while the printed total "$(n+1)^2+4n+2$"
 is $2n+3$ short of the graph described. The display is recorded as printed.
-In the catalog's normalization ($n=2r+4$ vertices, the complete tripartite
-graph on $[r]\times[r]\times[4]$ with a $K_4$ on the four vertices) the graph
-has $\lfloor n^2/4\rfloor+2n-6$ edges and $2n-7$ edge-disjoint triangles,
-which agrees with $k=4r+2$ and $4r+1$ triangles in Erdős's letters.
+In the erdosproblems.com normalization ($n=2r+4$ vertices, the complete
+tripartite graph on $[r]\times[r]\times[4]$ with a $K_4$ on the four vertices)
+the graph has $\lfloor n^2/4\rfloor+2n-6$ edges and $2n-7$ edge-disjoint
+triangles, which agrees with $k=4r+2$ and $4r+1$ triangles in Erdős's letters.
 
 **Source.** P. Erdős, *Some unsolved problems in graph theory and
 combinatorial analysis*, Combinatorial Mathematics and its Applications
@@ -78,11 +78,11 @@ reference for Simonovits's determination of $u_r$.
 ## Proof pointer
 
 None in the paper. The question with $f(c_1)$ was answered by Győri in 1988
-(Colloq. Math. Soc. János Bolyai 52, 267--276; not held), as the catalog's
+(Colloq. Math. Soc. János Bolyai 52, 267--276; not held), as erdosproblems.com's
 Problem 1009 records; the determination of $u_r$ for every $r$ is attributed
-by the catalog to Simonovits's thesis through Simonovits's 1974 paper
-(Discrete Math. 7, 349--376), the catalog's Problem 1011. That paper is filed
-as
+by Bloom's catalog to Simonovits's thesis through Simonovits's 1974 paper
+(Discrete Math. 7, 349--376), erdosproblems.com's Problem 1011. That paper is
+filed as
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/_index|simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs]];
 its Theorem 2.7, introduced by "I showed [13] that" with [13] the thesis, is
 on printed p. 358 (PDF p. 10), read there clause by clause on the page image and
@@ -97,13 +97,14 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1009/_index|Problem 1009]]: the site's source
-  passage ([Er71, p. 98]); the site's statement is the third paragraph's
-  question with $f(c)$ for $f(c_1)$, and its commentary repeats the first
-  paragraph's theorem (with $f(c)=0$ for $c<\tfrac12$) and Sauer's example.
+- [[../wiki/problems/extremal_graph_theory/E1009/_index|Problem 1009]]: the
+  erdosproblems.com source passage ([Er71, p. 98]); the erdosproblems.com
+  statement is the third paragraph's question with $f(c)$ for $f(c_1)$, and its
+  commentary repeats the first paragraph's theorem (with $f(c)=0$ for
+  $c<\tfrac12$) and Sauer's example.
 - [[../wiki/problems/extremal_graph_theory/E1011/_index|Problem 1011]]: the fourth
-  paragraph's question. The site's $f_r(n)$, the least edge count forcing a
-  triangle in an $n$-vertex graph of chromatic number at least $r$, is
+  paragraph's question. erdosproblems.com's $f_r(n)$, the least edge count
+  forcing a triangle in an $n$-vertex graph of chromatic number at least $r$, is
   Erdős's $u_r$ under the same definition (the sign is $\geqslant$ in the
-  print), with $u_2$ and $u_3$ as the site gives them; the footnote is a
-  printed attestation that Simonovits determined $u_r$.
+  print), with $u_2$ and $u_3$ as erdosproblems.com gives them; the footnote is
+  a printed attestation that Simonovits determined $u_r$.

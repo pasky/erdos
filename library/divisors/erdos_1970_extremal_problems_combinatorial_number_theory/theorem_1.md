@@ -82,9 +82,9 @@ premises at statement level.
 
 - [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]: the four-element analog
   of the problem fails, $F(4,x)>cx$, so the question is specific to three
-  elements; the site's commentary attributes the four-element result to
-  [Er62] "with a proof given in [Er70]", but this paper calls it recent,
-  and the corpus's reading of the 1962 paper found no least-common-multiple
+  elements; the erdosproblems.com commentary attributes the four-element result
+  to [Er62] "with a proof given in [Er70]", but this paper calls it recent, and
+  the corpus's reading of the 1962 paper found no least-common-multiple
   statement there
   ([[integer_sequences/erdos_1962_szamelmeleti_megjegyzesek_iv/_index|its card]]). Erdős's own remark that
   integers with two coprime divisors $b_1<b_2<2b_1$ have density $1$

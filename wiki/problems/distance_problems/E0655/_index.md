@@ -31,14 +31,15 @@ $$
 distinct distances determined between the $x_i$, for some constant $c>0$ and all
 $n$ sufficiently large?
 
-**Status.** OPEN, the site's label. The derived standing departs from the label.
-It is claimed and disproved, because the page shows only the site's Statement
-and Zach Hunter's regular polygon disproves it. That claim stays pending because
-it is unrefereed and the corpus has not built the Lean proof that the
-formal-conjectures catalog records. The site's commentary records Hunter's
-observation that equally spaced points on a circle disprove the statement as
-printed. The commentary presumes that a general-position hypothesis was
-intended. The page's database box flags the original source as ambiguous.
+**Status.** OPEN, the erdosproblems.com label. The derived standing departs from
+the label. It is claimed and disproved, because the page shows only the
+erdosproblems.com Statement and Zach Hunter's regular polygon disproves it. That
+claim stays pending because it is unrefereed and the corpus has not built the
+Lean proof that the formal-conjectures catalog records. The erdosproblems.com
+commentary records Hunter's observation that equally spaced points on a circle
+disprove the statement as printed. The commentary presumes that a
+general-position hypothesis was intended. The page's database box flags the
+original source as ambiguous.
 
 **Source.** [erdosproblems.com/655](https://www.erdosproblems.com/655), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #655,
@@ -49,19 +50,19 @@ https://www.erdosproblems.com/655.
 
 ## Current assessment
 
-- **Printed statement.** The page shows only the site's Statement, so the
-  standing answers the site's wording, and that wording is false: the regular
-  $n$-gon satisfies the hypothesis and spans only $\lfloor n/2\rfloor$
-  distances, as
+- **Printed statement.** The page shows only the erdosproblems.com Statement, so
+  the standing answers the erdosproblems.com wording, and that wording is false:
+  the regular $n$-gon satisfies the hypothesis and spans only
+  $\lfloor n/2\rfloor$ distances, as
   [[problems/distance_problems/E0655/claims/2025_04_24_hunter|the claim page credited to Hunter]]
-  records. That claim is unrefereed, the site labeled the problem OPEN, and the
-  Lean proof of it that the formal-conjectures catalog records is not built by
-  the corpus, so the derived standing is claimed and disproved. Chojecki's note
-  of 22 April 2026 shows that $\lfloor n/2\rfloor$ is the exact minimum under
-  the hypothesis.
-- **Corrected versions.** The site presumes that points in general position,
-  no three on a line and no four on a circle, were meant. That version is
-  open, and the formal-conjectures catalog states it as a separate open
+  records. That claim is unrefereed, Bloom's catalog labeled the problem OPEN,
+  and the Lean proof of it that the formal-conjectures catalog records is not
+  built by the corpus, so the derived standing is claimed and disproved.
+  Chojecki's note of 22 April 2026 shows that $\lfloor n/2\rfloor$ is the exact
+  minimum under the hypothesis.
+- **Corrected versions.** erdosproblems.com presumes that points in general
+  position, no three on a line and no four on a circle, were meant. That version
+  is open, and the formal-conjectures catalog states it as a separate open
   variant. Adding only no three on a line, or only convex position, does not
   repair the statement, since the regular polygon still qualifies. Chojecki
   traces the $n/2$ scale to Erdős's 1988 question whether, with no four

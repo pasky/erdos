@@ -31,30 +31,31 @@ $$
 with $(r_i,s_i)=1$ and $s_2<s_1$? If so, how does this $b(a)$ grow with $a$?
 
 **Formulation.** Write $u_{a,b}/v_{a,b}$ for $\sum_{a\le n\le b}1/n$ in
-lowest terms. The site's $b$ is the last index before a drop of the
+lowest terms. erdosproblems.com's $b$ is the last index before a drop of the
 denominator, $v_{a,b+1}<v_{a,b}$, and $b(a)$ is the least such $b>a$; this
 is also the wording of the 1980 monograph and the convention of OEIS
 A375081. Van Doorn's papers define $b(a)$ as the least $b>a$ with
 $v_{a,b}<v_{a,b-1}$, the index at which the drop happens, which is one more
-than the site's $b(a)$. Existence is the same question in both conventions
-and the asymptotic statements below do not depend on the shift; where an
-exact inequality is quoted, its convention is named. The formal-conjectures
-statement uses the site's convention.
+than erdosproblems.com's $b(a)$. Existence is the same question in both
+conventions and the asymptotic statements below do not depend on the shift;
+where an exact inequality is quoted, its convention is named. The
+formal-conjectures statement uses the erdosproblems.com convention.
 
-**Status.** The site's label was PROVED (LEAN), and the Lean suffix is a catalog
-label explained under Formalization. For every $a\ge1$ such a $b$ exists, and
-$b(a)$ grows linearly. van Doorn's Corollary 1 gives $b(a)\le6(a-1)$ for $a>1$,
-and Theorem 2 gives $b(a)\le4.374(a-1)$ for $a\ge6$, both in van Doorn's
-convention. Corollary 1 comes from the $3$-adic valuation of the block ending at
-$2\cdot3^{k+1}$. Theorem 2 comes from a computer-checked table of endpoints for
-$a\le3^{10}$, and beyond that from $3$-adic valuations at endpoints chosen on
-six subintervals of $(3^k,3^{k+1}]$. This is the accepted claim
+**Status.** The erdosproblems.com label was PROVED (LEAN), and the Lean suffix
+is a catalog label explained under Formalization. For every $a\ge1$ such a $b$
+exists, and $b(a)$ grows linearly. van Doorn's Corollary 1 gives $b(a)\le6(a-1)$
+for $a>1$, and Theorem 2 gives $b(a)\le4.374(a-1)$ for $a\ge6$, both in van
+Doorn's convention. Corollary 1 comes from the $3$-adic valuation of the block
+ending at $2\cdot3^{k+1}$. Theorem 2 comes from a computer-checked table of
+endpoints for $a\le3^{10}$, and beyond that from $3$-adic valuations at
+endpoints chosen on six subintervals of $(3^k,3^{k+1}]$. This is the accepted
+claim
 [[problems/unit_fractions/E0290/claims/2024_11_05_van_doorn|van Doorn 2024]]. It
-is an arXiv paper without a journal version, credited by the site's curator. It
-has an external Lean proof of the existence statement, of which no build is
-recorded. Its value is solved because the problem pairs a yes-or-no question
-with a growth question, and the paper answers both: the first with a proof and
-the second with a two-sided estimate.
+is an arXiv paper without a journal version, credited by the erdosproblems.com
+curator. It has an external Lean proof of the existence statement, of which no
+build is recorded. Its value is solved because the problem pairs a yes-or-no
+question with a growth question, and the paper answers both: the first with a
+proof and the second with a two-sided estimate.
 
 The finer growth of $b(a)-a$ is of order $\log a$ at its smallest:
 $a+0.54\log a<b(a)$ for all large $a$, and $b(a)<a+0.61\log a$ for infinitely
@@ -72,8 +73,8 @@ September 2026 sketches $b(a)-a\ll a^{61/80}$ (see the forum items below).
 accessed 2026-09-17: the problem page (PROVED (LEAN); last edited 28
 December 2025), its discussion thread and its
 proof-claim tab, which later held five comments and two proof
-claims. The site cites [ErGr80, p. 34]. Cite as: T. F. Bloom, Erdős Problem #290,
-https://www.erdosproblems.com/290, accessed 2026-09-17.
+claims. erdosproblems.com cites [ErGr80, p. 34]. Cite as: T. F. Bloom, Erdős
+Problem #290, https://www.erdosproblems.com/290, accessed 2026-09-17.
 
 **References.**
 
@@ -111,17 +112,17 @@ the Lean label" below.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-17).** The statement
-above; status PROVED (LEAN), last edited 28 December 2025. The commentary
-gives the example $\sum_{3\le n\le5}1/n=47/60$, $\sum_{3\le n\le6}1/n=19/20$
-(checked by exact arithmetic), points to OEIS A375081 for the least $b$, and summarizes van
-Doorn [vD24]: $b(a)$ always exists and $b(a)\ll a$; for $a\in(3^k,3^{k+1}]$
-one can take $b=2\cdot3^{k+1}-1$; $b(a)>a+(1/2-o(1))\log a$; more precisely
-$b(a)<4.374a$ for all $a>1$, $b(a)>a+0.54\log a$ for all large $a$ and
-$b(a)<a+0.61\log a$ for infinitely many $a$; the author expects infinitely
-many $a$ with $b(a)>a+(\log a)^2$, and the site finds $b(a)\le(1+o(1))a$,
-perhaps $b(a)\le a+(\log a)^{O(1)}$, likely. The origin is printed p. 34 of
-the
+**The question (erdosproblems.com formulation, accessed 2026-09-17).** The
+statement above; status PROVED (LEAN), last edited 28 December 2025. The
+commentary gives the example $\sum_{3\le n\le5}1/n=47/60$,
+$\sum_{3\le n\le6}1/n=19/20$ (checked by exact arithmetic), points to OEIS
+A375081 for the least $b$, and summarizes van Doorn [vD24]: $b(a)$ always exists
+and $b(a)\ll a$; for $a\in(3^k,3^{k+1}]$ one can take $b=2\cdot3^{k+1}-1$;
+$b(a)>a+(1/2-o(1))\log a$; more precisely $b(a)<4.374a$ for all $a>1$,
+$b(a)>a+0.54\log a$ for all large $a$ and $b(a)<a+0.61\log a$ for infinitely
+many $a$; the author expects infinitely many $a$ with $b(a)>a+(\log a)^2$, and
+erdosproblems.com finds $b(a)\le(1+o(1))a$, perhaps $b(a)\le a+(\log a)^{O(1)}$,
+likely. The origin is printed p. 34 of the
 [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|1980 monograph]]:
 with $\sum_{a,b}=u_{a,b}/v_{a,b}$, "$v_{a,b}$ is
 increasing with $b$ but there can be breaks in the increase", the $a=3$
@@ -139,14 +140,14 @@ $v_{a,2\cdot3^{k+1}}<v_{a,2\cdot3^{k+1}-1}$. Its
 [[../library/unit_fractions/doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums/theorem_2|Theorem 2]]
 (p. 10): $b(a)\le4.374(a-1)$ for all $a\ge6$, by a table of endpoints for
 $a\le3^{10}$ checked by computer and six subintervals of $(3^k,3^{k+1}]$
-for $k\ge10$. In the site's convention these read $b(a)\le6a-7$ for $a>1$
-and $b(a)<4.374a$ for $a\ge6$; the site's commentary states the bound
-$b(a)<4.374a$ for every $a>1$, which also covers $2\le a\le5$, where the
+for $k\ge10$. In the erdosproblems.com convention these read $b(a)\le6a-7$ for
+$a>1$ and $b(a)<4.374a$ for $a\ge6$; the erdosproblems.com commentary states the
+bound $b(a)<4.374a$ for every $a>1$, which also covers $2\le a\le5$, where the
 least $b$ are $5,5,17,17$. Corollary 2 (p. 28)
 gives infinitely many drops for every $a$ and every periodic sequence, and
 Theorem 5 (p. 28) an explicit linear bound $b(a)<ca$ in general. Acceptance
 evidence: the paper has no journal record (arXiv lists none; Crossref
-bibliographic query, 2026-09-17); the site accepted the resolution and
+bibliographic query, 2026-09-17); erdosproblems.com accepted the resolution and
 attributes it, van Doorn's bounds are formula lines of A375081, and the
 existence statement with $b\le6a$ has an external Lean proof (below). The
 $a=1$ case was also settled independently by Shiu ([Sh]; [vD24] says on
@@ -240,11 +241,11 @@ the problem.
   gives $b\le a$ (for $a=11$, $p=5$ and $b=9$), and taking the next prime
   instead gave a drop in every such case.
 - OEIS A375081 (R. Stephan, July 2024; entry last modified 10 September 2025, server time):
-  the site's $b(a)$ for $a\le10000$ and van Doorn's formula lines.
+  erdosproblems.com's $b(a)$ for $a\le10000$ and van Doorn's formula lines.
 
-**Formalization and the Lean label.** The site's Lean suffix, in the label
-PROVED (LEAN), is a catalog label. The formal-conjectures file at the pinned
-commit is a statement with a `sorry` body whose `formal_proof` attribute
+**Formalization and the Lean label.** The erdosproblems.com Lean suffix, in the
+label PROVED (LEAN), is a catalog label. The formal-conjectures file at the
+pinned commit is a statement with a `sorry` body whose `formal_proof` attribute
 names `ErdosProblem290.lean` in the repository `Woett/Lean-files` on its
 `main` branch, not a fixed commit. That file was last changed on 2 March
 2026, the commit the 2024 claim page links. At that commit (35,552 bytes,
@@ -267,7 +268,7 @@ lists no `formalized` evidence. The community database
 refereed version of [vD24] or [vD26], a citing paper beyond [vD26], or an
 upper bound below linear.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database file at
   its current commit; the three Lean files and the AI-note repository
   through the GitHub API.
@@ -287,8 +288,8 @@ has a library card; for this problem only its header, its abstract and the
 Theorem 1(iii) statement recorded on its card are compiled.
 
 **Remaining gaps.** (1) The status rests on an unrefereed arXiv paper with
-documented site acceptance and an external, unbuilt Lean proof of the
-existence statement; a refereed version, an independent review or a local
+documented erdosproblems.com acceptance and an external, unbuilt Lean proof of
+the existence statement; a refereed version, an independent review or a local
 build would strengthen it. (2) The proofs are compiled as statements and
 structure only: Theorem 2's computer-checked table was not rerun, Section
 3.3 (pp. 37--42) is not compiled in full, and the lower-bound argument of

@@ -62,7 +62,8 @@ without the prime number theorem.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the lower bound the
-  site quotes as $g(n)\ge\pi(n)+\pi(n^{1/2})+\pi(n^{1/3})/3-O(1)$, which
-  disproves the stronger conjecture of Erdős's 1980 survey (printed
-  p. 103) that the next terms are $\pi(n^{1/4})+\pi(n^{1/7})+\cdots$.
+- [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the lower
+  bound erdosproblems.com quotes as
+  $g(n)\ge\pi(n)+\pi(n^{1/2})+\pi(n^{1/3})/3-O(1)$, which disproves the stronger
+  conjecture of Erdős's 1980 survey (printed p. 103) that the next terms are
+  $\pi(n^{1/4})+\pi(n^{1/7})+\cdots$.

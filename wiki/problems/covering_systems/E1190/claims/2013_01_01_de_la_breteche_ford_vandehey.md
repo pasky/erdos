@@ -42,8 +42,8 @@ decide. Theorem 1 of their paper
 ([[../library/covering_systems/de_la_breteche_2013_non_intersecting_arithmetic_progressions/theorem_1|result page]]),
 printed p. 382, is $xL(x)^{-1+o(1)}\le f(x)\le xL(x)^{-\sqrt3/2+o(1)}$;
 the paper states no theorem about $\epsilon_m$. The two bounds on
-$\epsilon_m$ are the consequences the site's commentary draws: the upper
-bound by partial summation, since a family above $m$ whose moduli up to
+$\epsilon_m$ are the consequences the erdosproblems.com commentary draws: the
+upper bound by partial summation, since a family above $m$ whose moduli up to
 $t$ number $A(t)\le f(t)$ has reciprocal sum at most
 $\int_m^\infty f(t)t^{-2}\,dt$, and the lower bound from their
 [[../library/covering_systems/de_la_breteche_2013_non_intersecting_arithmetic_progressions/lower_bound|construction]]
@@ -63,7 +63,7 @@ determines and which supersedes these bounds.
 linked above.
 
 **Acceptance.** Refereed: the paper appeared in Acta Arithmetica 157 (2013), no.
-4, 381–392. It was received 24 March 2012 and revised 3 October 2012. The site's
-commentary credits the paper with these bounds. But the site's label, SOLVED
-(LEAN), credits the resolution through Ho's manuscript, so the curator's credit
-is not listed as review of this page.
+4, 381–392. It was received 24 March 2012 and revised 3 October 2012. The
+erdosproblems.com commentary credits the paper with these bounds. But the
+erdosproblems.com label, SOLVED (LEAN), credits the resolution through Ho's
+manuscript, so the curator's credit is not listed as review of this page.

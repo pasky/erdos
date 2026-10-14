@@ -117,8 +117,8 @@ $p\le\beta n$ (in the proof of Lemma 5).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0441/_index|Problem 441]]: the
-  improvement of Erdős's upper bound that the site's commentary attributes
-  to the paper and that [Ch98], Guy's B26 and the OEIS entry quote as
+  improvement of Erdős's upper bound that the erdosproblems.com commentary
+  attributes to the paper and that [Ch98], Guy's B26 and the OEIS entry quote as
   $1.638\sqrt N$, in the form
   $g(N)<(1+\lambda-\lambda^*)N^{1/2}+o(N^{1/2})$ with the constant printed
   as at most $1.638$; the estimate (6) gives the earlier bound

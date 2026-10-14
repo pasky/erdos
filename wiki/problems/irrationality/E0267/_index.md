@@ -30,13 +30,13 @@ $$
 
 be irrational?
 
-**Status.** Claimed. The site labeled the problem OPEN (page last edited 18
-January 2026). The frontmatter standing follows from one pending full claim,
+**Status.** Claimed. Bloom's catalog labeled the problem OPEN (page last edited
+18 January 2026). The frontmatter standing follows from one pending full claim,
 [[problems/irrationality/E0267/claims/2026_07_15_snyder|a Lean 4 proof of 2026]],
 which asserts the answer yes for every $c>1$. The case $c\ge2$ is settled by
 Badea's 1993 corollary, the accepted partial claim on
 [[problems/irrationality/E0267/claims/1993_01_01_badea|the Badea claim page]].
-The site's commentary records the case $1<c<2$ as open.
+The erdosproblems.com commentary records the case $1<c<2$ as open.
 
 **Source.** [erdosproblems.com/267](https://www.erdosproblems.com/267), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #267,
@@ -69,21 +69,21 @@ corpus records no build or audit of either.
 
 ## Current assessment
 
-The site records Problem 267 as OPEN (page last edited 18 January 2026). The
-Progress note below records the two literature results and the index range
-they leave open, $1<c<2$; the corpus records a check of their statements
+erdosproblems.com records Problem 267 as OPEN (page last edited 18 January
+2026). The Progress note below records the two literature results and the index
+range they leave open, $1<c<2$; the corpus records a check of their statements
 against the papers, no check of their proofs, and no literature search beyond
 the sources named below. The pending claim described next would close that
 range.
 
-**Proof claims on the site.** The proof-claims tab carries one full claim,
-submitted 2026-07-15 by Colin Snyder with an AI system credited for the
+**Proof claims on erdosproblems.com.** The proof-claims tab carries one full
+claim, submitted 2026-07-15 by Colin Snyder with an AI system credited for the
 proof: a Lean 4 development stating that the sum is irrational for every index
 sequence with $n_{k+1}/n_k\ge c$ for some real $c>1$, which would close the
 range $1<c<2$. The claim page
 [[problems/irrationality/E0267/claims/2026_07_15_snyder|records the formal statement and its standing]]:
-the site labeled the problem OPEN, the proof-claim entry has no comments, the
-only referee report is an automated one on the hosting site, and the
+Bloom's catalog labeled the problem OPEN, the proof-claim entry has no comments,
+the only referee report is an automated one on the hosting site, and the
 formal-conjectures catalog tags the statement solved and cites the proof. The
 corpus records no build or audit of the Lean files. The problem's discussion
 thread carries four remarks, all on results within $c\ge2$ or within Badea's
@@ -113,8 +113,8 @@ $2^k$ gives a quadratic irrational, consistent with the original question.
 
 Every $c\ge2$ is settled by Badea 1993, the accepted partial claim on
 [[problems/irrationality/E0267/claims/1993_01_01_badea|the Badea page]]. Its
-condition also contains the instance results the site and its thread record,
-each an accepted partial claim of its own: Good 1974 on
+condition also contains the instance results erdosproblems.com and its thread
+record, each an accepted partial claim of its own: Good 1974 on
 [[problems/irrationality/E0267/claims/1974_12_01_good|the Good page]] and
 Hoggatt and Bicknell 1976 on
 [[problems/irrationality/E0267/claims/1976_12_01_hoggatt_bicknell|the Hoggatt–Bicknell page]]
@@ -132,9 +132,9 @@ irrationality to transcendence for $c>2$. André-Jeannin's 1989 irrationality
 of $\sum1/F_n$ itself concerns the full sequence, whose index ratios tend to
 $1$, outside the problem's hypothesis, so it settles no instance and has no
 claim page. No result among the sources named on this page settles the whole
-range $1<c<2$, which the site's commentary records as open; the pending
-[[problems/irrationality/E0267/claims/2026_07_15_snyder|Snyder claim]] asserts
-the answer yes there.
+range $1<c<2$, which the erdosproblems.com commentary records as open; the
+pending [[problems/irrationality/E0267/claims/2026_07_15_snyder|Snyder claim]]
+asserts the answer yes there.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -54,9 +54,9 @@ Minimalbasis zweiter Ordnung für eine natürliche Zahl $n>1$ ist kleiner
 als $2\sqrt n$."
 
 In the problem's notation: $g(n)<2\sqrt n$ for all $n>1$, so $g(n)^2<4n$,
-the upper half of the site's "$(2+c)n\le g(n)^2\le4n$". The statement is
-(4) of the introduction (p. 3), where it is announced as the sharper form
-of Schur's conjecture $k_m<c\sqrt n$. In the inverse function, (9) reads
+the upper half of erdosproblems.com's "$(2+c)n\le g(n)^2\le4n$". The statement
+is (4) of the introduction (p. 3), where it is announced as the sharper form of
+Schur's conjecture $k_m<c\sqrt n$. In the inverse function, (9) reads
 $n_2(k)\ge\frac{k^2}4+\frac32k-\frac{11}4$ for all $k>1$, and Satz 4 (p. 8)
 raises the linear term to $2k-\delta$ for even $k\ge12$ (equation (15))
 and $\frac{11}6k-\delta'$ for odd $k\ge43$ (equation (16)) by the longer
@@ -107,7 +107,7 @@ None outside the paper; Satz 1 and Satz 2 (pp. 4--5).
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0791/_index|Problem 791]]: the upper bound
-  $g(n)^2\le4n$ (strictly, $g(n)<2\sqrt n$ for $n>1$) that the site's
+  $g(n)^2\le4n$ (strictly, $g(n)<2\sqrt n$ for $n>1$) that the erdosproblems.com
   commentary attributes to Rohrbach; the construction (6) is the explicit
   basis behind it, and its range (9) has the linear term $\frac32k$ that
   the conjecture of p. 9

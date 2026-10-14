@@ -4,8 +4,8 @@ title: Problem 908
 desc: |
   Asks whether a real function $f$ with every difference $f(x+h)-f(x)$
   measurable is the sum of a measurable function, an additive function and a
-  function $r$ with $r(x+h)=r(x)$ for each $h$ and almost all $x$. The site's
-  wording asks for a continuous first term.
+  function $r$ with $r(x+h)=r(x)$ for each $h$ and almost all $x$. The
+  erdosproblems.com wording asks for a continuous first term.
 tags:
 - Analysis
 status: solved
@@ -44,23 +44,24 @@ $r(x+h)-r(x)=0$ for every $h$ and almost all (depending on $h$) $x$?
 
 **Notes.** The change replaces "continuous" by "measurable" as the condition
 on $g$; nothing else changes. The evidence is the posers' own words. De Bruijn,
-whom the site credits as co-poser, records the conjecture as Erdős's in [dB51],
-printed p. 195, "where $g(x)$ is measurable". Erdős's 1982 retrospective
+whom erdosproblems.com credits as co-poser, records the conjecture as Erdős's in
+[dB51], printed p. 195, "where $g(x)$ is measurable". Erdős's 1982 retrospective
 [Er82e], Chapter V, §3, printed p. 76, prints "where $g(x)$ is continuous",
 cites [dB51] and [La80] beside the problem and reports that Laczkovich proved
 it. Laczkovich proved the measurable form: Theorem 3 of [La80], printed
 p. 224, proves it, and the paper's introduction, printed p. 217, states Erdős's
 conjecture with $g$ measurable. The defect is already in [Er82e], and the
-site's wording follows it. The site's label and the problem's standing judge
-the modified Statement. The site also cites [Er81b], Erdős's 'Problems' in
-The Scottish Book (1981), whose statement of the problem is not recorded here;
-the correction rests on [dB51], [Er82e] and [La80].
+erdosproblems.com wording follows it. The erdosproblems.com label and the
+problem's standing judge the modified Statement. erdosproblems.com also cites
+[Er81b], Erdős's 'Problems' in The Scottish Book (1981), whose statement of the
+problem is not recorded here; the correction rests on [dB51], [Er82e] and
+[La80].
 
-**Status.** PROVED, the site's label (page last edited 30 December 2025), which
-describes the modified Statement. The site's commentary calls the problem a
-conjecture of de Bruijn and Erdős and credits Laczkovich [La80] with the
-affirmative answer. Laczkovich's Theorem 3 proves the modified Statement and is
-recorded as an
+**Status.** PROVED, the erdosproblems.com label (page last edited 30 December
+2025), which describes the modified Statement. The erdosproblems.com commentary
+calls the problem a conjecture of de Bruijn and Erdős and credits Laczkovich
+[La80] with the affirmative answer. Laczkovich's Theorem 3 proves the modified
+Statement and is recorded as an
 [[problems/analysis/E0908/claims/1980_03_01_laczkovich|accepted full claim]].
 
 **Source.** [erdosproblems.com/908](https://www.erdosproblems.com/908), accessed
@@ -94,11 +95,11 @@ https://www.erdosproblems.com/908.
 ## Current assessment
 
 Laczkovich's Theorem 3 proves the modified Statement. The theorem is
-refereed and the site's curator credits it; its proof is not reconstructed
-in this corpus. The negative-shift identity that carries the positive-shift
-hypothesis to every shift is elementary and recorded below. Keleti's
-stronger-hypothesis Theorem 2.13 is recorded below; its general source proofs
-are uncompiled. No formal verification is recorded.
+refereed and the erdosproblems.com curator credits it; its proof is not
+reconstructed in this corpus. The negative-shift identity that carries the
+positive-shift hypothesis to every shift is elementary and recorded below.
+Keleti's stronger-hypothesis Theorem 2.13 is recorded below; its general source
+proofs are uncompiled. No formal verification is recorded.
 
 ## Progress
 

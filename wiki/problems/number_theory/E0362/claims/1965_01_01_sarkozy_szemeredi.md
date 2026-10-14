@@ -86,17 +86,18 @@ the claim of
 [[problems/number_theory/E0362/claims/1977_09_01_halasz|Halász's page]]. The
 file contains no `sorry`, no `axiom` command and no `native_decide` at the
 pinned commit. This project has not built the file or audited its statement
-against the problem, so it supplies no `formalized` evidence; the site's label
-PROVED (LEAN) refers to this development.
+against the problem, so it supplies no `formalized` evidence; the
+erdosproblems.com label PROVED (LEAN) refers to this development.
 
 **Acceptance.** The paper is refereed: A. Sárközy and E. Szemerédi, *Über ein
 Problem von Erdös und Moser*, Acta Arith. 11, no. 2 (1965), 205--208, received
-26 November 1964. The paper prints the first author as Sárközy, while the site's
-key and Erdős's 1973 survey write Sárközi. Erdős's surveys of 1973 and 1980
-report the theorem as the proof of his conjecture with Moser. The site's
-curator, Thomas F. Bloom, marked Problem 362 proved and credits this paper with
-the affirmative answer to the first question. The page is dated by the first day
-of the publication year, since the paper's first posting carries no finer date.
+26 November 1964. The paper prints the first author as Sárközy, while the
+erdosproblems.com key and Erdős's 1973 survey write Sárközi. Erdős's surveys of
+1973 and 1980 report the theorem as the proof of his conjecture with Moser. The
+erdosproblems.com curator, Thomas F. Bloom, marked Problem 362 proved and
+credits this paper with the affirmative answer to the first question. The page
+is dated by the first day of the publication year, since the paper's first
+posting carries no finer date.
 
 **Depends on.**
 [[../library/number_theory/sarkozi_1965_uber_ein_problem_von_erdos_und/satz|Sárközi and Szemerédi 1965, the Satz]].

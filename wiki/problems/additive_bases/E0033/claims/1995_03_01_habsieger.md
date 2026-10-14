@@ -63,11 +63,11 @@ the smallest possible limsup is at least $4/\pi$.
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: L. Habsieger, On the additive completion of polynomial
-sets, J. Number Theory 51 (1995), no. 1, 130–135. The site's curator records the
-bound in the problem's remarks. But the site labeled the problem OPEN, so that
-remark is not acceptance of the problem, and the page lists no `reviewed`
-evidence. The edition read is a scan of the journal paper. Its proof is not
-compiled in this corpus.
+sets, J. Number Theory 51 (1995), no. 1, 130–135. The erdosproblems.com curator
+records the bound in the problem's remarks. But Bloom's catalog labeled the
+problem OPEN, so that remark is not acceptance of the problem, and the page
+lists no `reviewed` evidence. The edition read is a scan of the journal paper.
+Its proof is not compiled in this corpus.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 March 1995; the day is a placeholder.

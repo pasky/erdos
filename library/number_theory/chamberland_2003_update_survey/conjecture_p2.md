@@ -60,4 +60,4 @@ None.
   stated for $T$ in place of $C$; the two orbits reach $1$ together, as the
   problem page's map remark explains. The survey states the conjecture and
   proves nothing about it. Its form of the Erdős remark reads "is not ready"
-  where the site, quoting Guy, has "may not be ready".
+  where erdosproblems.com, quoting Guy, has "may not be ready".

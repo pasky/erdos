@@ -4,8 +4,8 @@ title: Eggleston's proof of Borsuk's assertion in dimension three
 desc: |
   Eggleston proves that every set of diameter $1$ in $\mathbb R^3$ is the union
   of four sets of smaller diameter, the instance $n=3$ of the question. The
-  result is refereed, and the site and the formal-conjectures statement file
-  credit it.
+  result is refereed, and erdosproblems.com and the formal-conjectures statement
+  file credit it.
 authors:
 - H. G. Eggleston
 status: accepted
@@ -39,7 +39,7 @@ and the question is answered no in general by the full claims recorded on
 this problem's other pages. The page is dated to the publication year, the
 record giving no day.
 
-**Covers.** The instance $n=3$ of the question. The site's commentary
+**Covers.** The instance $n=3$ of the question. The erdosproblems.com commentary
 records the dimension-three result with this paper as its source, and the
 formal-conjectures statement file for the problem, at its commit of
 2026-10-07
@@ -58,14 +58,14 @@ in a fork of that repository, whose proof file names the result as
 Eggleston's and proves it by the Gale--Grünbaum--Heppes cover method rather
 than by Eggleston's argument; this corpus has not built it, so it gives no
 `formalized` evidence here. The least dimension in which the assertion fails
-is not part of the site's question; the dimensions $4$ to $8$ are settled by
-no source recorded here.
+is not part of the erdosproblems.com question; the dimensions $4$ to $8$ are
+settled by no source recorded here.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The result is refereed, since the Journal of the London
-Mathematical Society published the paper. The site's label, DISPROVED (LEAN),
-credits
+Mathematical Society published the paper. The erdosproblems.com label, DISPROVED
+(LEAN), credits
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
 and
 [[problems/discrete_geometry/E0505/claims/2014_11_06_jenrich_brouwer|Jenrich and Brouwer]]

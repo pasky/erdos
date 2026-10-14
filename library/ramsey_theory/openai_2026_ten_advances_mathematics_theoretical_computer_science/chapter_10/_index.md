@@ -7,7 +7,7 @@ desc: |
   member's by a power of n, and a connected bipartite 2-degenerate graph
   with extremal number above n to the three halves plus epsilon.
 created: 2026-09-18T06:10:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Chapter 10 - Counterexamples to the compactness and degeneracy conjectures for extremal numbers
@@ -28,13 +28,13 @@ over the layers.
 
 [[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_10/theorem_1_1|theorem_1_1]]: A finite family of connected bipartite graphs, each containing a cycle,
 whose joint extremal number is O(n^{4/3-1/48}) while every member has
-extremal number of order at least n^{4/3}; the site's accepted disproof
-of the no-forest compactness conjecture.
+extremal number of order at least n^{4/3}; erdosproblems.com's accepted
+disproof of the no-forest compactness conjecture.
 
 [[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_10/theorem_1_2|theorem_1_2]]: A fixed connected bipartite 2-degenerate graph whose extremal number is
 at least c n^{3/2+epsilon} for all large n, refuting the conjectured
-O(n^{2-1/r}) bound for r-degenerate bipartite graphs at r = 2; the
-site's accepted disproof of Problem 146.
+O(n^{2-1/r}) bound for r-degenerate bipartite graphs at r = 2;
+erdosproblems.com's accepted disproof of Problem 146.
 
 ***
 
@@ -95,15 +95,15 @@ are candidates for an independent whole-argument review.
   of Section 7 is $H$-free; the proof of Theorem 1.2 (pp. 247--248)
   combines it with a second-moment count of the edges of $G_m$ and padding.
 - Context recorded on p. 237: the folklore family $\{K_{1,2},2K_2\}$
-  refutes the original formulation (cited to Wigderson's note and the
-  site's Problem 180), the corrected form (1) requires every member to
-  contain a cycle, Alon--Krivelevich--Sudakov's Theorem 3.5 is the weaker
+  refutes the original formulation (cited to Wigderson's note and
+  erdosproblems.com's Problem 180), the corrected form (1) requires every member
+  to contain a cycle, Alon--Krivelevich--Sudakov's Theorem 3.5 is the weaker
   general bound $O(n^{2-1/(4r)})$, the degeneracy conjecture is cited to
-  Erdős's 1967 Rome paper and 1997 survey and the site's Problem 146, and
-  Janzer's 3-regular construction disproved the reverse implication of the
-  related $2$-degenerate equivalence conjecture (the site's Problem 113)
-  while "Janzer's construction does not address the forward implication,
-  which is the $r=2$ case of (3)".
+  Erdős's 1967 Rome paper and 1997 survey and erdosproblems.com's Problem 146,
+  and Janzer's 3-regular construction disproved the reverse implication of the
+  related $2$-degenerate equivalence conjecture (erdosproblems.com's
+  Problem 113) while "Janzer's construction does not address the forward
+  implication, which is the $r=2$ case of (3)".
 
 ## Compiled scope
 
@@ -124,13 +124,14 @@ lines, imports only Mathlib and contains no `sorry`, `axiom` or
 and no local credit is claimed; the problem pages record the pins.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0146/_index|#146]]: Theorem 1.2 is
-the site's accepted disproof of the degeneracy conjecture (the case $r=2$).
-[[../wiki/problems/extremal_graph_theory/E0575/_index|#575]]: Theorem 1.1 is the site's
-accepted disproof of the no-forest compactness conjecture; the site's
-statement is separately false by the two-forest family the chapter records
-on p. 237. [[../wiki/problems/extremal_graph_theory/E0180/_index|#180]]: p. 237 (PDF
-p. 241, text layer) records the folklore family $\{K_{1,2},2K_2\}$, cited
-to the site's Problem 180, with its three values for $n\ge4$ as the
+erdosproblems.com's accepted disproof of the degeneracy conjecture (the case
+$r=2$). [[../wiki/problems/extremal_graph_theory/E0575/_index|#575]]: Theorem
+1.1 is erdosproblems.com's accepted disproof of the no-forest compactness
+conjecture; the erdosproblems.com statement is separately false by the
+two-forest family the chapter records on p. 237.
+[[../wiki/problems/extremal_graph_theory/E0180/_index|#180]]: p. 237 (PDF p.
+241, text layer) records the folklore family $\{K_{1,2},2K_2\}$, cited to
+erdosproblems.com's Problem 180, with its three values for $n\ge4$ as the
 refutation of the original formulation, and Theorem 1.1 disproves the
 corrected form (1), the no-forest variant the problem's page leaves
 unassessed. [[../wiki/problems/extremal_graph_theory/E0113/_index|#113]]: the p. 237

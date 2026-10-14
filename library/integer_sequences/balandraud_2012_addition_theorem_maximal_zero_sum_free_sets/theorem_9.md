@@ -69,6 +69,6 @@ Nathanson and Ruzsa with Gessel--Viennot binomial determinants.
   exact threshold: every subset of $\mathbb Z/p\mathbb Z$ with more than
   $k$ elements, $k(k+1)/2<p\le(k+1)(k+2)/2$, has a nonempty zero-sum
   subset, and $\{1,\ldots,k\}$ shows the bound is sharp; since
-  $k\sim\sqrt{2p}$ this is the constant $\sqrt2$ Erdős speculated, which the
-  site calls "also a conjecture of Selfridge" that "has been proved when $N$
-  is prime by Balandraud". The composite case is not treated.
+  $k\sim\sqrt{2p}$ this is the constant $\sqrt2$ Erdős speculated, which
+  erdosproblems.com calls "also a conjecture of Selfridge" that "has been proved
+  when $N$ is prime by Balandraud". The composite case is not treated.

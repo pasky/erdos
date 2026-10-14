@@ -71,13 +71,13 @@ and, through it,
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: the paper's
-  Conjecture 3 says, in the site's letters, that $F(n)\ge cn$ for every fixed
-  $c$ once $n$ is large, which is the positive answer to the problem's closing
-  question whether $F(n)/n\to\infty$; the paper states that Theorem 1 makes
-  Conjecture 3 false. The route (a remark of this page): with $G=K_3$, an even
-  $d\ge3$ with $h(K_3,d)\ge2$ and the connectedness of almost every $d$-regular
-  graph that the paper notes on p. 5, some connected graph of order $n$ and
-  size $dn/2$ has $r(K_3,H)>2n-1$ for large $n$, so $F(n)<dn/2$, if the
+  Conjecture 3 says, in erdosproblems.com's letters, that $F(n)\ge cn$ for every
+  fixed $c$ once $n$ is large, which is the positive answer to the problem's
+  closing question whether $F(n)/n\to\infty$; the paper states that Theorem 1
+  makes Conjecture 3 false. The route (a remark of this page): with $G=K_3$, an
+  even $d\ge3$ with $h(K_3,d)\ge2$ and the connectedness of almost every
+  $d$-regular graph that the paper notes on p. 5, some connected graph of order
+  $n$ and size $dn/2$ has $r(K_3,H)>2n-1$ for large $n$, so $F(n)<dn/2$, if the
   theorem's proof holds. Theorem 1
   gives no explicit constant; the explicit one is the preprint's
   [[ramsey_theory/brandt_1996_expanding_graphs_ramsey_numbers/bound_p7|bound]]

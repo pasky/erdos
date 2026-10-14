@@ -38,11 +38,11 @@ $$
 \sum_{n\ge1}\frac{\omega(n)}{2^n}=\sum_p\frac{1}{2^p-1}=0.5169428\ldots
 $$
 
-is irrational. The $n=1$ term is zero, so the sum from $n\ge2$ in the site's
-statement is the same number; the identity comes from writing
+is irrational. The $n=1$ term is zero, so the sum from $n\ge2$ in the
+erdosproblems.com statement is the same number; the identity comes from writing
 $\omega(n)=\sum_{p\mid n}1$ and summing the geometric series
-$\sum_{m\ge1}2^{-pm}$ for each prime $p$, an observation the site's remarks
-credit to Tao. In that form the theorem is the case of
+$\sum_{m\ge1}2^{-pm}$ for each prime $p$, an observation the erdosproblems.com
+remarks credit to Tao. In that form the theorem is the case of
 [[problems/irrationality/E0257/_index|Problem 257]] in which the infinite set
 is the set of primes. The source card is
 [[../library/arithmetic_functions/tao_2025_quantitative_correlations_problems_prime_factors_consecutive/_index|tao_2025_quantitative_correlations_problems_prime_factors_consecutive]];
@@ -76,7 +76,7 @@ page carried the label PROVED (last edited 2026-04-15). The problem has no forum
 comments and no proof claim. Crossref and the arXiv record listed no journal
 publication on 2026-10-07, so the claim carries no `refereed` evidence. The
 formal-conjectures statement file (the `record` link, pinned at its commit of
-2026-10-06) records no formal proof. As of that commit, it tags `erdos_69`
+2026-10-06) records no formal proof. At that commit, it tags `erdos_69`
 textbook and its specialization of Problem 257 research solved, and it leaves
 both as `sorry`. This corpus has not reproved the theorem and awards no tier of
 its own.

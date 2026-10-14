@@ -23,14 +23,14 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Is there an entire non-linear function $f$ such that, for all
 $x\in\mathbb{R}$, $x$ is rational if and only if $f(x)$ is?
 
-**Status.** PROVED (LEAN). The site credits Barth and Schneider [BaSc70]. Their
-theorem for arbitrary countable dense subsets of the reals gives the function at
-$A=B=\mathbb Q$. The claim page
+**Status.** PROVED (LEAN). erdosproblems.com credits Barth and Schneider
+[BaSc70]. Their theorem for arbitrary countable dense subsets of the reals gives
+the function at $A=B=\mathbb Q$. The claim page
 [[problems/analysis/E0226/claims/1970_10_01_barth_schneider|Barth and Schneider
-1970]] records it, accepted on its refereed publication and the site's credit.
-The site's Lean qualification refers to Boris Alexeev's formalization of that
-solution. The formalization is linked from the claim page and is not built by
-this corpus.
+1970]] records it, accepted on its refereed publication and the
+erdosproblems.com credit. The erdosproblems.com Lean qualification refers to
+Boris Alexeev's formalization of that solution. The formalization is linked from
+the claim page and is not built by this corpus.
 
 **Source.** [erdosproblems.com/226](https://www.erdosproblems.com/226), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #226,
@@ -55,14 +55,15 @@ Barth and Schneider's solution; this project has not built it.
 
 ## Current assessment
 
-The site's formulation of 2026-09-04 asks for an entire function, not linear,
-that is rational at exactly the rational reals. Barth and Schneider's 1970
-theorem produces a transcendental entire function, real on the real line,
+The erdosproblems.com formulation of 2026-09-04 asks for an entire function, not
+linear, that is rational at exactly the rational reals. Barth and Schneider's
+1970 theorem produces a transcendental entire function, real on the real line,
 that maps a prescribed countable dense set $A\subset\mathbb R$ onto a
 prescribed countable dense set $B$ and no other real point into $B$; with
 $A=B=\mathbb Q$ it answers the question yes, and their 1972 sequel does the
 same for countable dense subsets of $\mathbb C$. The standing rests on the
-refereed paper and the site's credit, as the claim page records. The paper is
-not held in the library, so this corpus compiles and reviews no proof, and the
-Lean development the site's label refers to has not been built or audited by
-this project. No status search beyond the site is recorded.
+refereed paper and the erdosproblems.com credit, as the claim page records. The
+paper is not held in the library, so this corpus compiles and reviews no proof,
+and the Lean development the erdosproblems.com label refers to has not been
+built or audited by this project. No status search beyond erdosproblems.com is
+recorded.

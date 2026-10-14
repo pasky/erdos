@@ -55,8 +55,8 @@ out under Progress. The same paper's
 gives, without an explicit constant, some $\delta_H>0$ for every fixed
 $C_4$-free bipartite $H$ with degree at most two on one side, a second route
 to the question since $G_k$ meets both conditions. The theorem gives no
-uniform bound when $k$ grows with $n$, and the site's commentary records that
-Erdős and Simonovits showed, in unpublished work, that $c_k\to0$ as
+uniform bound when $k$ grows with $n$, and the erdosproblems.com commentary
+records that Erdős and Simonovits showed, in unpublished work, that $c_k\to0$ as
 $k\to\infty$ is forced.
 
 **Depends on.** Nothing in this wiki; the identification $G_k=H_k$ is
@@ -65,15 +65,15 @@ written on the problem page and carries no independent review.
 **Acceptance.** The `refereed` evidence is the publication in International
 Mathematics Research Notices, cited with its venue above.
 
-The `reviewed` evidence is the documented acceptance of the site's curator,
-Thomas Bloom, who took no part in the paper. The site's label was PROVED, and
-its commentary credits the proof to [CoLe21] with the value $c_k=6^{-k}$. A
-forum comment of 13 September 2025 pointed to the restatement of the theorem in
-Conlon, Janzer and Lee's later paper (arXiv:1903.10631, its Theorem 1.3), and
-the site marks that comment as addressed. The curator's comment of 21 January
-2026 explains that both resolving papers appeared on arXiv in 2018, this one a
-few months before Janzer's. The proof-claim tab is empty, and the community
-database records the problem proved.
+The `reviewed` evidence is the documented acceptance of the erdosproblems.com
+curator, Thomas Bloom, who took no part in the paper. The erdosproblems.com
+label was PROVED, and its commentary credits the proof to [CoLe21] with the
+value $c_k=6^{-k}$. A forum comment of 13 September 2025 pointed to the
+restatement of the theorem in Conlon, Janzer and Lee's later paper
+(arXiv:1903.10631, its Theorem 1.3), and Bloom's catalog marks that comment as
+addressed. The curator's comment of 21 January 2026 explains that both resolving
+papers appeared on arXiv in 2018, this one a few months before Janzer's. The
+proof-claim tab is empty, and the community database records the problem proved.
 
 This page's date is the arXiv v1 posting, 13 July 2018 (arXiv record,
 2026-10-07).

@@ -25,29 +25,29 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** If $A\subset \mathbb{N}$ is a Sidon set then must the complement
 of $A$ contain an infinite arithmetic progression?
 
-**Status.** DISPROVED (LEAN), the site's label. Three constructions, each on its
-own claim page, give a Sidon set meeting every infinite arithmetic progression.
-The first is the successive selection that the site writes out and credits to
-Baumgartner
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. Three constructions,
+each on its own claim page, give a Sidon set meeting every infinite arithmetic
+progression. The first is the successive selection that erdosproblems.com writes
+out and credits to Baumgartner
 ([[problems/additive_combinatorics/E0198/claims/1975_03_01_baumgartner|claim page]]).
 The second is the factorial set that Google DeepMind's AlphaProof found
 ([[problems/additive_combinatorics/E0198/claims/2025_05_15_deepmind|claim page]]),
-formalized in Lean in November 2025 and linked by the catalog. The third is
-Dutta's power sequences
+formalized in Lean in November 2025 and linked by the formal-conjectures
+catalog. The third is Dutta's power sequences
 ([[problems/additive_combinatorics/E0198/claims/2025_09_02_dutta|claim page]]).
 The factorial and power-sequence claims are accepted on the documented credit of
-the site's curator. The successive selection stays claimed, since the curator
-wrote it out personally. The natural-language proofs on the linked library pages
-are author-recorded. The Lean files behind the label's Lean mark are linked on
-Google DeepMind's claim page and were not built by this corpus.
+the erdosproblems.com curator. The successive selection stays claimed, since the
+curator wrote it out personally. The natural-language proofs on the linked
+library pages are author-recorded. The Lean files behind the label's Lean mark
+are linked on Google DeepMind's claim page and were not built by this corpus.
 
-The site's answer changed between November 2024 and mid-May 2025, while its
-label stayed SOLVED. It had answered yes, crediting Baumgartner [Ba75]. It then
-switched to no, wrote out the successive selection as implicit in [Ba75], and
-credited the factorial construction to AlphaProof after Google DeepMind reported
-the counterexample to the curator. The Baumgartner and Google DeepMind claim
-pages record this with their evidence. Web archive captures first show the label
-DISPROVED on 2025-09-17 and DISPROVED (LEAN) on 2025-12-06.
+erdosproblems.com's answer changed between November 2024 and mid-May 2025, while
+its label stayed SOLVED. It had answered yes, crediting Baumgartner [Ba75]. It
+then switched to no, wrote out the successive selection as implicit in [Ba75],
+and credited the factorial construction to AlphaProof after Google DeepMind
+reported the counterexample to the curator. The Baumgartner and Google DeepMind
+claim pages record this with their evidence. Web archive captures first show the
+label DISPROVED on 2025-09-17 and DISPROVED (LEAN) on 2025-12-06.
 
 **Source.** [erdosproblems.com/198](https://www.erdosproblems.com/198), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #198,
@@ -72,17 +72,17 @@ The enumerated, factorial, and Baire constructions supply the recorded
 counterexamples. Their four natural-language proof components are complete and
 author-recorded; the independent review of 2026-09-05 that the construction
 source reports is not filed with it and supplies no review credit, and the
-Lean formalizations the site and the catalog report were not built by this
-corpus. The filed Baumgartner paper contains no explicit Sidon theorem, and
-the contradictory historical attribution retains the limits described below.
-The site's label history is on the claim pages: web archive captures of
-2024-06-19 and 2024-11-07 show the answer yes credited to Baumgartner, and the
-answer no with the written-out construction and the AlphaProof credit appears
-by May 2025, dated by the formal-conjectures catalog's issue of 2025-05-13 and
-pull request of 2025-05-15. Status-search scope: the site's page and forum
-thread, the formal-conjectures catalog with the forks its `formal_proof` links
-name, the community database and the web archive captures named on the claim
-pages; no literature search beyond them is recorded.
+Lean formalizations erdosproblems.com and the formal-conjectures catalog report
+were not built by this corpus. The filed Baumgartner paper contains no explicit
+Sidon theorem, and the contradictory historical attribution retains the limits
+described below. The erdosproblems.com label history is on the claim pages: web
+archive captures of 2024-06-19 and 2024-11-07 show the answer yes credited to
+Baumgartner, and the answer no with the written-out construction and the
+AlphaProof credit appears by May 2025, dated by the formal-conjectures catalog's
+issue of 2025-05-13 and pull request of 2025-05-15. Status-search scope: the
+erdosproblems.com page and forum thread, the formal-conjectures catalog with the
+forks its `formal_proof` links name, the community database and the web archive
+captures named on the claim pages; no literature search beyond them is recorded.
 
 ## Progress
 

@@ -39,7 +39,7 @@ Fan's § 2 is the one that prints the construction.
 **In the problem's notation.** At $e=\lfloor n^2/4\rfloor+1$ with $n\ge4$
 (so that $e<n^2/3$, as the bound requires),
 $4\sqrt{3e}\le4\sqrt{3(n^2/4+1)}=2\sqrt3\,n\sqrt{1+4/n^2}\le2\sqrt3\,n+4\sqrt3/n$,
-so the bound reads $h(n)<2(\sqrt3-1)n+5+4\sqrt3/n$, the site's
+so the bound reads $h(n)<2(\sqrt3-1)n+5+4\sqrt3/n$, erdosproblems.com's
 $h(n)\le2(\sqrt3-1)n+O(1)$ with an explicit constant (a one-line
 substitution made here). The graph is the one the problem page recomputes
 as an authored check, with the side $M$ of size $m\approx n/\sqrt3$
@@ -85,9 +85,9 @@ None outside the paper; the construction is credited to Erdős and Laskar's
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1033/_index|Problem 1033]]: the explicit
-  source of the upper bound $h(n)\le2(\sqrt3-1)n+O(1)$ that the site
+  source of the upper bound $h(n)\le2(\sqrt3-1)n+O(1)$ that erdosproblems.com
   credits to Erdős and Laskar and says "is not made explicit" in their
-  note, and that the site says "is made more explicit" here; the value
+  note, and that erdosproblems.com says "is made more explicit" here; the value
   $2(\sqrt3-1)\approx1.4641$ is the constant of the problem's "in
   particular" question, which asks whether this construction is
   asymptotically best. The gap to the

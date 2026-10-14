@@ -57,9 +57,9 @@ memoir.
 **Acceptance.** Refereed: Glock, S., Kühn, D., Lo, A. and Osthus, D., The
 existence of designs via iterative absorption: hypergraph $F$-designs for
 arbitrary $F$, Mem. Amer. Math. Soc. 284 (2023), no. 1406, published 2023-03-21.
-The preprint was first posted 2016-11-21, the date of this page. The site
-credits the problem to Keevash and does not name this proof, so the page lists
-no `reviewed` evidence. No formalization of this proof is recorded. The Lean
-development linked from
+The preprint was first posted 2016-11-21, the date of this page.
+erdosproblems.com credits the problem to Keevash and does not name this proof,
+so the page lists no `reviewed` evidence. No formalization of this proof is
+recorded. The Lean development linked from
 [[problems/set_systems/E0722/claims/2014_01_15_keevash|Keevash's page]] names
 Keevash as its informal author. The proof was not reconstructed in this corpus.

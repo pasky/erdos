@@ -8,7 +8,7 @@ desc: |
   (1/6 − o(1))n ≤ h(n) ≤ (2 − √(5/2) + o(1))n for the general question.
 license: unstated
 created: 2026-09-19T07:40:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/ma_2025_erdos_problem_1034
@@ -24,34 +24,33 @@ records for it; the limit h(n)/n is stated to be open.
 bipartite graph between a clique-partitioned side and an independent side,
 optimized at α* = 1 − 1/√10, in which every triangle has at most
 (2 − √(5/2) + ε)n ≈ 0.4189n vertices adjacent to at least two of its
-vertices; the site's accepted disproof of Problem 1034.
+vertices; erdosproblems.com's accepted disproof of Problem 1034.
 
 ***
 
 Jie Ma and Quanyu Tang, *On Erdős problem #1034*. A three-page note, hosted
 on the first author's page at <http://staff.ustc.edu.cn/~jiema/Erdos-1034.pdf>,
-the file the site's Problem 1034 page links ("see their note here"). The
-text carries no date, no arXiv identifier and no journal; its reference [1]
-cites the site "accessed 2025-10-20", and the PDF metadata gives a creation
-date of 21 October 2025. Affiliations on p. 3: School of Mathematical
+the file erdosproblems.com's Problem 1034 page links ("see their note here").
+The text carries no date, no arXiv identifier and no journal; its reference [1]
+cites erdosproblems.com "accessed 2025-10-20", and the PDF metadata gives a
+creation date of 21 October 2025. Affiliations on p. 3: School of Mathematical
 Sciences, University of Science and Technology of China, and Yau
 Mathematical Sciences Center, Tsinghua University (Ma); School of
-Mathematics and Statistics, Xi'an Jiaotong University (Tang). The site's
-thread records (20 October 2025) that an earlier version gave the constant
-$\sqrt2-1$ and that the note was updated to $2-\sqrt{5/2}$; the copy read for
-this card prints $2-\sqrt{5/2}$ throughout and is the updated version. A
-Crossref bibliographic query for the title, an OpenAlex title search and two
-arXiv author queries on 2026-09-19 returned no record of a refereed publication
-or an arXiv version of the note.
+Mathematics and Statistics, Xi'an Jiaotong University (Tang). The
+erdosproblems.com thread records (20 October 2025) that an earlier version gave
+the constant $\sqrt2-1$ and that the note was updated to $2-\sqrt{5/2}$; the
+copy read for this card prints $2-\sqrt{5/2}$ throughout and is the updated
+version. A Crossref bibliographic query for the title, an OpenAlex title search
+and two arXiv author queries on 2026-09-19 returned no record of a refereed
+publication or an arXiv version of the note.
 
 The copy read for this card is that file,
 three letter-size pages with a complete text layer, read on the rendered page
 images and in the text layer. Provenance: downloaded in September 2026, the
-exact date not recorded; the site's link above is the identified origin;
-368,697 bytes. No
-notice is printed in the file; no arXiv record for the note was found on
-2026-10-02 (an arXiv query for the two authors returned nothing), and the
-author's site that hosts it (the file at
+exact date not recorded; the erdosproblems.com link above is the identified
+origin; 368,697 bytes. No notice is printed in the file; no arXiv record for the
+note was found on 2026-10-02 (an arXiv query for the two authors returned
+nothing), and the author's site that hosts it (the file at
 http://staff.ustc.edu.cn/~jiema/Erdos-1034.pdf; its index page read 2026-10-02)
 carries no license text; the term is unstated.
 
@@ -68,7 +67,7 @@ the Section 3 passage with its displayed bounds (p. 3), read clause by clause
 on the page images; the two-page proof of Theorem 2.1 (pp. 1--2) was read and
 followed (the construction, the triangle types, displays (2.1)--(2.3), the
 interval for $c$, the choice of $s$ and the minimization of $\Phi$) and not
-checked step by step; nothing here is independently reviewed. The site
+checked step by step; nothing here is independently reviewed. erdosproblems.com
 accepted the disproof (its label DISPROVED (LEAN), page last edited 28 October
 2025), and an external Lean development proves the negation of the
 collection's formal statement with the standard axioms only; that acceptance
@@ -77,7 +76,7 @@ is recorded on the problem page.
 ## Contents
 
 - Section 1 (p. 1): the note attributes the conjecture to Erdős and
-  Faudree at [2, p. 344], points to the site's Problem #1034 [1], and
+  Faudree at [2, p. 344], points to erdosproblems.com's Problem #1034 [1], and
   states it as Conjecture 1.1, quoted: "Let $G$ be a graph on $n$ vertices
   with more than $n^2/4$ edges. Then there exists a triangle $T$ in $G$ and
   vertices $y_1,\dots,y_t$, where $t>(\frac12-o(1))n$, such that every
@@ -119,9 +118,10 @@ is recorded on the problem page.
   [[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Khadzhiivanov's Corollary 3]]);
   and "Determining the exact asymptotic constant $c_*:=\lim_{n\to\infty}h(n)/n$
   remains open."
-- References (p. 3): [1] the site's Problem 1034 page, accessed 2025-10-20;
-  [2] P. Erdős, Some of my favorite solved and unsolved problems in graph
-  theory, Quaestiones Math. (1993), 333--350 (the site's Er93; not held).
+- References (p. 3): [1] erdosproblems.com's Problem 1034 page, accessed
+  2025-10-20; [2] P. Erdős, Some of my favorite solved and unsolved problems in
+  graph theory, Quaestiones Math. (1993), 333--350 (erdosproblems.com's Er93;
+  not held).
 
 ## Compiled scope
 
@@ -134,15 +134,15 @@ held, is read on its own card,
 [[extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]],
 and the two texts are compared on
 [[extremal_graph_theory/ma_2025_erdos_problem_1034/section_3|section_3]].
-The $K_4$-free strengthening the authors sketched in the site's thread
-(27 October 2025, constant $2\sqrt3-3$) is not in the note.
+The $K_4$-free strengthening the authors sketched in the erdosproblems.com
+thread (27 October 2025, constant $2\sqrt3-3$) is not in the note.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1034/_index|#1034]]: Theorem 2.1
-(p. 1, page image) is the status-defining disproof, the construction the site
-describes ("every triangle has at most $(2-(5/2)^{1/2}+o(1))n$ vertices
-adjacent to at least two of its vertices"); Section 3 (p. 3) supplies the
-site's quotation of Erdős's "perhaps this conjecture is a bit too optimistic"
-and the general question $h(n)$ with the bounds
+(p. 1, page image) is the status-defining disproof, the construction
+erdosproblems.com describes ("every triangle has at most $(2-(5/2)^{1/2}+o(1))n$
+vertices adjacent to at least two of its vertices"); Section 3 (p. 3) supplies
+erdosproblems.com's quotation of Erdős's "perhaps this conjecture is a bit too
+optimistic" and the general question $h(n)$ with the bounds
 $(\frac16-o(1))n\le h(n)\le(2-\sqrt{5/2}+o(1))n$
 ([[extremal_graph_theory/ma_2025_erdos_problem_1034/theorem_2_1|theorem_2_1]],
 [[extremal_graph_theory/ma_2025_erdos_problem_1034/section_3|section_3]]);

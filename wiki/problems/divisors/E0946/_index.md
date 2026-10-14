@@ -24,8 +24,8 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Are there infinitely many $n$ such that $\tau(n)=\tau(n+1)$,
 where $\tau$ is the divisor function?
 
-**Status.** Proved. The site credits Heath-Brown [He84] with the proof. The
-accepted claim is recorded on the
+**Status.** Proved. erdosproblems.com credits Heath-Brown [He84] with the proof.
+The accepted claim is recorded on the
 [[problems/divisors/E0946/claims/1984_06_01_heath_brown|claim page]].
 Hildebrand's 1987 count and Pinner's 1997 theorem for every shift each answer
 the question again. They are recorded on
@@ -98,7 +98,7 @@ $0.4888$ (its Remark 1.6): the conjectured asymptotic for almost all scales;
 the card's local check covered its Remark 1.4 and not that theorem. The
 question goes back to Erdős and Mirsky [ErMi52], and Guy's collection [Gu04]
 reports the same chain of results. No proof has been reproduced or reviewed
-here, and no literature search beyond the site's page is recorded.
+here, and no literature search beyond the erdosproblems.com page is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

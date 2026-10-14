@@ -55,12 +55,12 @@ bound N(b) << (log b)^{1/2} for the least number of unit fractions needed to
 write a/b. For the upper side, v(k) <= k F(k) + 2 together with Elsholtz and
 Planitzer's count of decompositions gives v(k) <= c_0^{(1/5 + o(1)) 2^k}
 with c_0 the Vardi constant. The paper's c_0 = 1.264085... (footnote 1: OEIS
-A076393) with exponent (1/5 + o(1)) 2^k is the site's form of the upper bound
-for problem 148; Elsholtz and Planitzer's Corollary 3(2) prints f_k(1,1) <
-c_0^{(2/5 + epsilon) 2^{k-1}} with their c_0 = lim u_n^{2^{-n}} = 1.5979...,
-u_0 = 1, u_{n+1} = u_n(u_n + 1), the square of the Vardi constant, which is the
-Vardi constant to the power (2/5 + epsilon) 2^k, twice the exponent written
-here; the difference is recorded on the problem 148 page and on the
+A076393) with exponent (1/5 + o(1)) 2^k is the erdosproblems.com form of the
+upper bound for problem 148; Elsholtz and Planitzer's Corollary 3(2) prints
+f_k(1,1) < c_0^{(2/5 + epsilon) 2^{k-1}} with their c_0 = lim u_n^{2^{-n}} =
+1.5979..., u_0 = 1, u_{n+1} = u_n(u_n + 1), the square of the Vardi constant,
+which is the Vardi constant to the power (2/5 + epsilon) 2^k, twice the exponent
+written here; the difference is recorded on the problem 148 page and on the
 elsholtz_2021 corollary_3 page. The paper thereby advances problem 293, and
 Section 3 explains its link with problem 304 on N(b): if the conjecture N(b)
 << log log b holds, the authors expect (p. 6) that the lower bound could

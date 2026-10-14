@@ -5,7 +5,7 @@ desc: |
   The explicit upper bound Q(n) < 3 n^{1/2} + 1 on the largest subset of the
   first n integers in which no element divides a sum of distinct other
   elements, deduced from Theorem 2's bound on Property P and Corollary 1 of
-  the group-theoretic Theorem 3; the upper bound the site quotes for
+  the group-theoretic Theorem 3; the upper bound erdosproblems.com quotes for
   Problem 131.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-07T19:30:53Z
@@ -104,8 +104,8 @@ Math. Monthly 62, the paper's [24]); none held.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0131/_index|Problem 131]]: the explicit upper
-  bound $F(N)<3N^{1/2}+1$ that the site's commentary quotes for the paper,
-  and the definition of Property Q that names non-dividing sets. It is
+  bound $F(N)<3N^{1/2}+1$ that the erdosproblems.com commentary quotes for the
+  paper, and the definition of Property Q that names non-dividing sets. It is
   superseded as an upper bound by the $N^{1/4+o(1)}$ bound for
   non-averaging sets ([[additive_combinatorics/pham_2024_sharp_bound_erdos_straus_non_averaging/theorem_1|Pham and Zakharov, Theorem 1]]),
   since every non-dividing set is non-averaging.

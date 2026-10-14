@@ -2,9 +2,9 @@
 name: extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1
 title: "Problem 1.1 (p. 1): the El-Zahar-Erdős question, with the authors' 2023 statement that it remains open"
 desc: |
-  The 2023 restatement of the El-Zahar-Erdős problem in the site's letters,
-  the sentence "This remains open", and the authors' account of the earlier
-  partial result they attribute to El-Zahar and Erdős.
+  The 2023 restatement of the El-Zahar-Erdős problem in erdosproblems.com's
+  letters, the sentence "This remains open", and the authors' account of the
+  earlier partial result they attribute to El-Zahar and Erdős.
 created: 2026-09-18T11:40:00Z
 updated: 2026-10-08T14:17:34Z
 ---
@@ -58,4 +58,5 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]: the statement in
-  the site's letters and the authors' 2023 statement that it remains open.
+  erdosproblems.com's letters and the authors' 2023 statement that it remains
+  open.

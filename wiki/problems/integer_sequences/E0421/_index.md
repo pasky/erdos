@@ -4,7 +4,7 @@ title: Problem 421
 desc: |
   Asks whether there is an increasing sequence of density $1$ whose products of
   blocks of consecutive terms are all distinct. Chojecki and Sneiderman answered
-  yes in July 2026, in work the site accepts but that is not refereed.
+  yes in July 2026, in work erdosproblems.com accepts but that is not refereed.
 tags:
 - Number theory
 status: solved
@@ -24,19 +24,19 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Is there a sequence $1\leq d_1<d_2<\cdots$ with density $1$ such
 that all products $\prod_{u\leq i\leq v}d_i$ are distinct?
 
-**Status.** Solved: the answer is yes. The site labeled the problem SOLVED (page
-last edited 1 September 2026). The site's curator records the answer as yes. The
-curator describes its provenance as an approach sketched by Tao and fleshed out
-by Chojecki, full proofs claimed from GPT by several people independently, and
-Pratt's simplified exposition. The result is Theorem 1.1 of Chojecki's preprint
-of 13 July 2026 (arXiv 2609.17543, 14 July 2026). It is a gap-greedy
-construction over consecutive primes, and the preprint states that its proof was
-found by GPT-5.6 Sol. Sneiderman's note of 21 July 2026 reproves it with a
-sharper exponent. Pratt's digested proof of 1 September 2026, posted as the
-site's proof exposition, presents the argument in full following both. As of
-2026-10-07 no refereed publication exists, and no formal proof has been built in
-this corpus. Three further AI-assisted claims stand unreviewed. Chojecki's
-claimed proof of January 2026 is recorded as rejected.
+**Status.** Solved: the answer is yes. Bloom's catalog labeled the problem
+SOLVED (page last edited 1 September 2026). The erdosproblems.com curator
+records the answer as yes. The curator describes its provenance as an approach
+sketched by Tao and fleshed out by Chojecki, full proofs claimed from GPT by
+several people independently, and Pratt's simplified exposition. The result is
+Theorem 1.1 of Chojecki's preprint of 13 July 2026 (arXiv 2609.17543, 14 July
+2026). It is a gap-greedy construction over consecutive primes, and the preprint
+states that its proof was found by GPT-5.6 Sol. Sneiderman's note of 21 July
+2026 reproves it with a sharper exponent. Pratt's digested proof of 1 September
+2026, posted as erdosproblems.com's proof exposition, presents the argument in
+full following both. No refereed publication exists, and no formal proof has
+been built in this corpus. Three further AI-assisted claims stand unreviewed.
+Chojecki's claimed proof of January 2026 is recorded as rejected.
 
 Claim pages:
 [[problems/integer_sequences/E0421/claims/2026_07_13_chojecki|Chojecki]] and
@@ -68,7 +68,7 @@ Erdős Problem #421, https://www.erdosproblems.com/421.
   19 January 2026, PDFs served by the author's organization; rejected on
   acknowledged errors and superseded by [Ch26]. Not held.
 - [Pr26] Pratt, K., A "digested" proof of Erdős Problem #421. Note of 19
-  pages posted as the site's proof exposition (last edited 1 September
+  pages posted as erdosproblems.com's proof exposition (last edited 1 September
   2026). Not held.
 - [Sn26] Sneiderman, R., Erdős Problem 421: audit and reconstruction. Note in
   a GitHub repository, 21 July 2026. Not held.

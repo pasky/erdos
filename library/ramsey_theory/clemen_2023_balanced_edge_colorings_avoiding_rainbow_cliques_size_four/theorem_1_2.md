@@ -75,5 +75,5 @@ a computer search whose certificate is the printed matrix.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0811/_index|Problem 811]]: the negative answer at
-  $G=K_4$, one of the two graphs Erdős singled out; the site records it as
-  "Clemen and Wagner proved that $K_4$ does lack this property".
+  $G=K_4$, one of the two graphs Erdős singled out; erdosproblems.com records it
+  as "Clemen and Wagner proved that $K_4$ does lack this property".

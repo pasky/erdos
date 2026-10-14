@@ -27,7 +27,7 @@ $r$-coloured, all sufficiently large integers can be written as a monochromatic
 sum of elements of $A$. Prove any non-trivial bounds about the growth rate of
 such an $A$ for $r>2$.
 
-**Formulation.** The site's wording on 2026-09-17 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-17 (the page shows no
 last-edited date). A monochromatic sum is a sum of distinct elements of one
 color class: Burr and Erdős's $P(A)$ is the set of sums of distinct terms of
 $A$ (a repeated term may be used as often as it occurs), and Conlon, Fox and
@@ -41,18 +41,18 @@ $r\ge3$ classes, for which the 1985 paper had no result.
 possible growth for every $r\ge2$, up to an absolute constant factor. There is
 an $r$-Ramsey complete $A$ with $|A\cap[n]|\le Cr\log^2n$ for all $n$. No $A$
 with $|A\cap[n]|\le cr\log^2n$ for all large $n$ is $r$-Ramsey complete. The
-problem asks for bounds rather than for a proposition, so the catalog label is
-SOLVED and not PROVED. The status-defining source is an arXiv preprint of 2021.
-The site's curator accepted it and names it as the solution. On the curator's
-acceptance, the claim page records the result as accepted, with no refereed
-version, and the frontmatter standing is derived from it.
+problem asks for bounds rather than for a proposition, so the erdosproblems.com
+label is SOLVED and not PROVED. The status-defining source is an arXiv preprint
+of 2021. The erdosproblems.com curator accepted it and names it as the solution.
+On the curator's acceptance, the claim page records the result as accepted, with
+no refereed version, and the frontmatter standing is derived from it.
 
 **Source.** [erdosproblems.com/55](https://www.erdosproblems.com/55), accessed
-2026-09-17: the problem page (SOLVED, the site's label for a resolution other
-than a proof or disproof; no last-edited date; source key [Er95]; commentary
-citing [BuEr85] and [CFP21] and pointing to Problems 54 and 843), its empty
-discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
-Problem #55, https://www.erdosproblems.com/55, accessed 2026-09-17.
+2026-09-17: the problem page (SOLVED, the erdosproblems.com label for a
+resolution other than a proof or disproof; no last-edited date; source key
+[Er95]; commentary citing [BuEr85] and [CFP21] and pointing to Problems 54 and
+843), its empty discussion thread and its empty proof-claim tab. Cite as: T. F.
+Bloom, Erdős Problem #55, https://www.erdosproblems.com/55, accessed 2026-09-17.
 
 **References.**
 
@@ -65,19 +65,19 @@ Problem #55, https://www.erdosproblems.com/55, accessed 2026-09-17.
   [[../library/ramsey_theory/burr_1985_ramsey_type_property_additive_number_theory/_index|burr_1985_ramsey_type_property_additive_number_theory]].
 - [CFP21] Conlon, D., Fox, J. and Pham, H. T., Subset sums, completeness and
   colorings. arXiv:2104.14766v1 (30 April 2021), 75 pages; the only arXiv
-  version, and no journal version found. Library home:
+  version, and no journal version found on 2026-09-17. Library home:
   [[../library/integer_sequences/conlon_2021_subset_sums_completeness_colorings/_index|conlon_2021_subset_sums_completeness_colorings]].
 
 **Formalization.** None. No file `ErdosProblems/55.lean` existed in
-formal-conjectures (`main`, fetched 2026-09-17); the site's page said
+formal-conjectures (`main`, fetched 2026-09-17); the erdosproblems.com page said
 "Formalised statement? No", and the community database (fetched 2026-09-17)
 recorded the problem as solved and unformalized with no formal-proof URL.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site states the problem as above, showed
-SOLVED, and cites [Er95] as its source. Its commentary recalls the two-color
-bounds of Burr and Erdős [BuEr85] (no Ramsey $2$-complete $A$ has
+**The question.** On 2026-09-17 erdosproblems.com states the problem as above,
+showed SOLVED, and cites [Er95] as its source. Its commentary recalls the
+two-color bounds of Burr and Erdős [BuEr85] (no Ramsey $2$-complete $A$ has
 $|A\cap\{1,\ldots,N\}|\le c(\log N)^2$ for all large $N$, while some Ramsey
 $2$-complete $A$ has $|A\cap\{1,\ldots,N\}|\ll(\log N)^3$), reports Burr's
 unpublished theorem that the $k$th powers are Ramsey $r$-complete for all
@@ -119,10 +119,11 @@ integers below a threshold $n(A)$. Acceptance evidence: the paper is arXiv v1 of
 30 April 2021, the only version on the listing, with no journal reference on
 arXiv and no Crossref record on 2026-09-17; the Semantic Scholar record of the
 same date listed eight citing works (on subset sums and knapsack algorithms,
-none disputing it); and the site's curator accepted it as the solution, labeling
-the problem SOLVED and crediting the paper in the commentary. The status
-therefore rests on an unrefereed preprint accepted by the site's curator, a
-reader independent of the authors; on that acceptance the claim page
+none disputing it); and the erdosproblems.com curator accepted it as the
+solution, labeling the problem SOLVED and crediting the paper in the commentary.
+The status therefore rests on an unrefereed preprint accepted by the
+erdosproblems.com curator, a reader independent of the authors; on that
+acceptance the claim page
 [[problems/ramsey_theory/E0055/claims/2021_04_30_conlon_fox_pham|Conlon, Fox and Pham, Theorem 1.1]]
 records the result as accepted, with `reviewed` listed and no refereed version,
 and the frontmatter standing is derived from it. Read depth: the statement of
@@ -139,21 +140,21 @@ printed); the explicit construction is Theorem 1b.
 $A(x)-A(x/2)<\varepsilon\lg x$ for all large $x$ is Ramsey-complete; Theorem 2a
 states the growth form $a_x>2^{C\sqrt x}$ without proof. Here $\lg$ is the
 binary logarithm and $A(x)$ counts the terms at most $x$; in counting function
-terms Theorems 1a and 2a are the site's $(\log N)^3$ and $c(\log N)^2$, the
-latter stronger than Theorem 2 and unproved in the paper. Theorem 2 transfers to
-$r\ge3$ classes because an $r$-Ramsey complete sequence is $2$-Ramsey complete:
-a two-class partition refines to an $r$-class one, and a sum of distinct terms
-of one of the $r$ classes is a sum of distinct terms of the class of the two
-that contains it. Conlon, Fox and Pham call this transfer clear (p. 3) and state
-it in counting form. Their theorem at $r=2$ closes the gap between the two
-Burr--Erdős bounds up to constants, which is Problem 54's question and is
-recorded on that page, not here.
+terms Theorems 1a and 2a are erdosproblems.com's $(\log N)^3$ and $c(\log N)^2$,
+the latter stronger than Theorem 2 and unproved in the paper. Theorem 2
+transfers to $r\ge3$ classes because an $r$-Ramsey complete sequence is
+$2$-Ramsey complete: a two-class partition refines to an $r$-class one, and a
+sum of distinct terms of one of the $r$ classes is a sum of distinct terms of
+the class of the two that contains it. Conlon, Fox and Pham call this transfer
+clear (p. 3) and state it in counting form. Their theorem at $r=2$ closes the
+gap between the two Burr--Erdős bounds up to constants, which is Problem 54's
+question and is recorded on that page, not here.
 
-**Search scope.** The site's three pages; the community
-database record; the formal-conjectures directory listing (`main`; no file); the
-arXiv abstract page of 2104.14766 (one version, no journal reference); Crossref
-bibliographic queries for the title (no journal record; the only
-Conlon--Fox--Pham record returned is a different 2022 Mathematika paper on
+**Search scope (2026-09-17 UTC).** erdosproblems.com's three pages; the
+community database record; the formal-conjectures directory listing (`main`; no
+file); the arXiv abstract page of 2104.14766 (one version, no journal
+reference); Crossref bibliographic queries for the title (no journal record; the
+only Conlon--Fox--Pham record returned is a different 2022 Mathematika paper on
 monochromatic subset sums); the Semantic Scholar list of works citing the paper
 (eight, none on Ramsey completeness); arXiv API searches for "Ramsey complete"
 (one record, the paper itself) and "monochromatic sum" or "monochromatic sums"
@@ -162,15 +163,16 @@ monochromatic subset sums); the Semantic Scholar list of works citing the paper
 Google Scholar, X. Nothing found changes the status or supplies a journal
 version.
 
-**Remaining gaps.** (1) The acceptance rests on the site's curator alone: the
-preprint has no journal version, and no independent review of Theorem 1.1 is
-recorded; a journal version would add `refereed` to the claim page's evidence.
-(2) The proof of Theorem 1.1 is not compiled (statement only). (3) Burr's proof
-that the $k$th powers are Ramsey $r$-complete, reported by Erdős in 1995 and
-described by [CFP21] (p. 4) as never published, is subsumed by their Theorem
-1.2; the squares are [[problems/diophantine_problems/E0843/_index|Problem 843]];
-neither is compiled here. (4) The Burr--Erdős proofs (Theorem 1b, pp. 6--7;
-Theorem 2, pp. 7--9) are not covered.
+**Remaining gaps.** (1) The acceptance rests on the erdosproblems.com curator
+alone: the preprint has no journal version, and no independent review of Theorem
+1.1 is recorded; a journal version would add `refereed` to the claim page's
+evidence. (2) The proof of Theorem 1.1 is not compiled (statement only). (3)
+Burr's proof that the $k$th powers are Ramsey $r$-complete, reported by Erdős in
+1995 and described by [CFP21] (p. 4) as never published, is subsumed by their
+Theorem 1.2; the squares are
+[[problems/diophantine_problems/E0843/_index|Problem 843]]; neither is compiled
+here. (4) The Burr--Erdős proofs (Theorem 1b, pp. 6--7; Theorem 2, pp. 7--9) are
+not covered.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

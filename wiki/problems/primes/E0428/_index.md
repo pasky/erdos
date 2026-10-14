@@ -38,17 +38,18 @@ https://www.erdosproblems.com/428.
 
 ## Current assessment
 
-The displayed `open` label is retained from the cited site. No dated
-current-status search or independent proof review is recorded on this page.
+The displayed `open` label is retained from the cited erdosproblems.com. No
+dated current-status search or independent proof review is recorded on this
+page.
 
 Erdős and Graham's monograph (printed p. 85) is the source of the exact
 question and of a separate conditional variant, both described below. The
 historical passage does not resolve the displayed question, and the
 conditional proof it reports is not compiled on this page.
 
-The site's discussion holds three posts on the exact question; as thread
-posts they have no claim page. On 2 July 2026 Steve Fan posted an argument
-that every set $A$ with the problem's property has
+The erdosproblems.com discussion holds three posts on the exact question; as
+thread posts they have no claim page. On 2 July 2026 Steve Fan posted an
+argument that every set $A$ with the problem's property has
 $\limsup A(x)/\pi(x)\le2$: the numbers $n-a$ with $a\le x$ are primes in an
 interval of length $x$, and the Brun–Titchmarsh inequality bounds their count
 by $(2+o(1))x/\log x$. Fan also posted a construction of such a set with

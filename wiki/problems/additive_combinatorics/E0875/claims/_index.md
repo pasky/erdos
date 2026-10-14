@@ -4,16 +4,16 @@ desc: The 1 claim page of Problem 875, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0875/claims
 
 [[problems/additive_combinatorics/E0875/_index|..]]
 
-[[problems/additive_combinatorics/E0875/claims/2026_05_07_mazur|2026_05_07_mazur]]: A note and Lean development posted to the site's thread on 2026-05-07 by Lech
-Mazur, with the derivation credited to GPT-5.5 Pro, construct an infinite
-admissible set with gaps at most $n^{3+2\sqrt2}$. It is a post, so its status
-is claimed.
+[[problems/additive_combinatorics/E0875/claims/2026_05_07_mazur|2026_05_07_mazur]]: A note and Lean development posted to the erdosproblems.com thread on
+2026-05-07 by Lech Mazur, with the derivation credited to GPT-5.5 Pro,
+construct an infinite admissible set with gaps at most $n^{3+2\sqrt2}$. It is
+a post, so its status is claimed.
 
 ***

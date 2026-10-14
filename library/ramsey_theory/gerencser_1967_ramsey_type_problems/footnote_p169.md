@@ -24,8 +24,8 @@ Read as a statement about two-colorings: in every red-blue coloring of the
 edges of $K_n$ there are a red path and a blue path, sharing exactly one
 vertex, whose union covers all $n$ vertices; in particular the vertex set is
 covered by two monochromatic paths, not necessarily of the same color. This
-is the fact the site's Problem 518 page attributes to the paper ("if the
-paths do not need to be of the same colour, then two paths suffice") and
+is the fact erdosproblems.com's Problem 518 page attributes to the paper ("if
+the paths do not need to be of the same colour, then two paths suffice") and
 that Pokrovskiy, Versteegen and Williams (2024) state as their Theorem 1.1,
 "observed" by Gerencsér and Gyárfás "with a very short and elegant proof";
 the paper itself prints it only as this footnote, with the proof left as
@@ -56,7 +56,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0518/_index|Problem 518]]: the two-color cover the
-  problem sharpens; the site's commentary quotes it from this paper. Erdős
-  and Gyárfás's 1995 theorem and the problem concern covers by paths of the
-  same color, where two paths do not suffice and $\sqrt n$ is the
+  problem sharpens; the erdosproblems.com commentary quotes it from this paper.
+  Erdős and Gyárfás's 1995 theorem and the problem concern covers by paths of
+  the same color, where two paths do not suffice and $\sqrt n$ is the
   conjectured order.

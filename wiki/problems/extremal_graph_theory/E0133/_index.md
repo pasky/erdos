@@ -32,7 +32,7 @@ with degree $\geq f(n)$.
 
 What is the order of growth of $f(n)$? Does $f(n)/\sqrt{n}\to \infty$?
 
-**Notes.** The site's wording takes the least $f(n)$ such that every
+**Notes.** The erdosproblems.com wording takes the least $f(n)$ such that every
 triangle-free graph of diameter $2$ on $n$ vertices has a vertex of degree at
 least $f(n)$. Every value up to the least maximum degree of such a graph has
 that property, so the least one is $0$ for every $n$ and both questions become
@@ -45,13 +45,13 @@ poser's own statement of the question: [Er97b] item 7, p. 229, defines $f(n)$
 as the smallest integer for which some triangle-free graph on $n$ vertices of
 diameter two has maximum degree $f(n)$, and states the Erdős--Pach conjecture
 $f(n)/n^{1/2}\to\infty$ for that function. Füredi and Seress define their
-$D_2(n)$ in the same way (Section 6 of [FuSe94], p. 23), and the site's own
-commentary derives the lower bound $f(n)\ge(1-o(1))\sqrt n$, which holds only
-for the corrected $f(n)$. The defect is the site's; [Er97b] has the right
-extremum. No result about the site's wording is recorded.
+$D_2(n)$ in the same way (Section 6 of [FuSe94], p. 23), and erdosproblems.com's
+own commentary derives the lower bound $f(n)\ge(1-o(1))\sqrt n$, which holds
+only for the corrected $f(n)$. The defect is erdosproblems.com's; [Er97b] has
+the right extremum. No result about the erdosproblems.com wording is recorded.
 
-**Status.** Disproved. The site's label answers the second question. Erdős and
-Pach conjectured $f(n)/\sqrt n\to\infty$, and $f(n)$ has order exactly
+**Status.** Disproved. The erdosproblems.com label answers the second question.
+Erdős and Pach conjectured $f(n)/\sqrt n\to\infty$, and $f(n)$ has order exactly
 $\sqrt n$.
 
 The trivial bound $f(n)\ge\sqrt{n-1}$ holds because a graph of diameter $2$ with
@@ -59,10 +59,10 @@ every degree at most $d$ has at most $d^2+1$ vertices. Cayley graphs on
 symmetric complete sum-free sets match it. Hanson and Seyffarth [HaSe84] gave
 $f(n)=O(\sqrt n)$
 ([[problems/extremal_graph_theory/E0133/claims/1984_01_01_hanson_seyffarth|claim
-page]], partial). The site, Füredi and Seress, and Alon state this bound for all
-large $n$, while Haviv and Levy state it for the sequence $n=m^2+5m+2$. Haviv
-and Levy [HaLe18] constructed such sets in every large cyclic group, proving
-$f(n)=O(\sqrt n)$ for every large $n$
+page]], partial). erdosproblems.com, Füredi and Seress, and Alon state this
+bound for all large $n$, while Haviv and Levy state it for the sequence
+$n=m^2+5m+2$. Haviv and Levy [HaLe18] constructed such sets in every large
+cyclic group, proving $f(n)=O(\sqrt n)$ for every large $n$
 ([[problems/extremal_graph_theory/E0133/claims/2017_03_12_haviv_levy|claim
 page]]). Füredi and Seress's projective-plane construction [FuSe94] gives the
 best known constant, $f(n)\le(2/\sqrt3+o(1))\sqrt n$ for all large $n$
@@ -72,11 +72,11 @@ page]]). These last two results are refereed and settle the problem.
 The constant, between $1$ and $2/\sqrt3$, is not asked and is open. Alon's 2024
 note, also cited on [[problems/extremal_graph_theory/E0134/_index|Problem 134]],
 conjectures $f(n)\sim\sqrt n$. One unreviewed proof claim of 2026-09-15 on the
-site's proof-claim tab asserts that the constant is $1$
+erdosproblems.com proof-claim tab asserts that the constant is $1$
 ([[problems/extremal_graph_theory/E0133/claims/2026_09_15_korsky|claim page]]).
 A Lean development attributed to Hanson and Seyffarth's result is linked from
-their claim page and is not built here. Search scope: the site's commentary,
-its comment thread (empty on 2026-10-07) and its proof-claim tab.
+their claim page and is not built here. Search scope: the erdosproblems.com
+commentary, its comment thread (empty on 2026-10-07) and its proof-claim tab.
 
 **Source.** [erdosproblems.com/133](https://www.erdosproblems.com/133), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #133,
@@ -108,11 +108,11 @@ https://www.erdosproblems.com/133.
 
 **Formalization.** The formal-conjectures statement file
 [`ErdosProblems/133.lean`](https://github.com/google-deepmind/formal-conjectures/blob/77c90187db81f732f137114fcf8f15d2ef94f866/FormalConjectures/ErdosProblems/133.lean),
-added on 2026-09-20 and shown on the site's page as the formalized statement,
-defines $f(n)$ as the least possible maximum degree and marks `erdos_133`
-(the divergence question, answered false) and `erdos_133.variants.isTheta`
-(the order $\sqrt n$) research solved, each with a `formal_proof` pointer to
-the declaration `erdos_133` of
+added on 2026-09-20 and shown on the erdosproblems.com page as the formalized
+statement, defines $f(n)$ as the least possible maximum degree and marks
+`erdos_133` (the divergence question, answered false) and
+`erdos_133.variants.isTheta` (the order $\sqrt n$) research solved, each with a
+`formal_proof` pointer to the declaration `erdos_133` of
 [`Erdos133.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos133.lean#L597)
 in Boris Alexeev's repository plby/lean-proofs, a Lean development that
 declares itself a formalization of Hanson and Seyffarth's result and is

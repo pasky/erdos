@@ -36,7 +36,7 @@ R. L. Graham, *On sums of integers taken from a fixed sequence*, Proceedings
 of the Washington State University Conference on Number Theory (1971),
 22--40. The scan prints the title, the author's name and the page numbers
 22--40, and no venue, year, running head or received date; the venue and
-year are those of the catalog's citation, which the three problem pages
+year are those of the erdosproblems.com citation, which the three problem pages
 carry as [Gr71] and the author's publication page files under 1971. The
 text is consistent with that date: its latest dated reference is
 Mendelsohn's 1970 paper (reference 35), and it cites four works as to
@@ -232,15 +232,15 @@ proof, so no proof depth applies. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]: Question 10
 (printed p. 36, PDF p. 15) is the problem's origin, in the wording the
-site's statement follows: "Let $p$ be a prime and suppose $a_1,\ldots,a_k$
-are distinct nonzero elements of $Z_p$. Conjecture: There always exists an
-arrangement $a_{i_1},\ldots,a_{i_k}$ of the $a_i$ such that all partial
-sums $\sum_{j=1}^ta_{i_j}$, $1\le t\le k$, are distinct modulo $p$." The
+erdosproblems.com statement follows: "Let $p$ be a prime and suppose
+$a_1,\ldots,a_k$ are distinct nonzero elements of $Z_p$. Conjecture: There
+always exists an arrangement $a_{i_1},\ldots,a_{i_k}$ of the $a_i$ such that all
+partial sums $\sum_{j=1}^ta_{i_j}$, $1\le t\le k$, are distinct modulo $p$." The
 paper proves nothing about it and does not mention the case $k=p-1$ that
 Erdős's 1973 chapter credits to Graham; Question 11 on the same page is the
 1973 chapter's second problem of Graham.
 [[../wiki/problems/additive_bases/E0354/_index|#354]]: Question 12 (printed p. 36, PDF
-p. 15) is the problem's origin, in the wording the site's statement
+p. 15) is the problem's origin, in the wording the erdosproblems.com statement
 follows: "Let $\alpha$ and $\beta$ be positive reals with $\alpha/\beta$
 irrational. Let $S$ denote the sequence
 $([\alpha],[\beta],[2\alpha],[2\beta],\ldots,[2^n\alpha],[2^n\beta],\ldots)$.

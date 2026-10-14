@@ -29,11 +29,11 @@ A together with A + b hold at least (alpha + f(alpha))N elements of
 “A resolution of Erdős Problem 38,” six-page manuscript, posted in the
 [spicylemonade/erdos-38](https://github.com/spicylemonade/erdos-38) repository
 as 38.pdf. The PDF metadata gives creation date 25 April 2026 and no author;
-the site discussion credits GPT 5.5 Pro for the solution and Liam Price for a
-later cleanup. The copy read for this card is that file, six pages, 223,509
-bytes, read page by page. The copy's retrieval date was not recorded. No notice
-is printed in the six-page manuscript, and the repository that posted it has no
-license file and no license in GitHub's record
+the erdosproblems.com discussion credits GPT 5.5 Pro for the solution and Liam
+Price for a later cleanup. The copy read for this card is that file, six pages,
+223,509 bytes, read page by page. The copy's retrieval date was not recorded. No
+notice is printed in the six-page manuscript, and the repository that posted it
+has no license file and no license in GitHub's record
 (https://github.com/spicylemonade/erdos-38, read 2026-10-02); the term is
 unstated.
 

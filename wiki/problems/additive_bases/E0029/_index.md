@@ -25,16 +25,16 @@ updated: 2026-10-08T17:47:46Z
 \mathbb{N}$ such that $A+A=\mathbb{N}$ but $1_A\ast 1_A(n)=o(n^\epsilon)$ for
 every $\epsilon>0$?
 
-**Formulation.** The site does not define explicit; the page reads the word
-as [JPSZ24] do, as membership in $A$ testable in time polynomial in the
+**Formulation.** erdosproblems.com does not define explicit; the page reads the
+word as [JPSZ24] do, as membership in $A$ testable in time polynomial in the
 number of digits.
 
-**Status.** PROVED (LEAN), the site's label (page last edited 28 December 2025).
-Jain, Pham, Sawhney and Zakharov [JPSZ24] give an explicit set with
-$A+A=\mathbb{N}$ and $1_A\ast1_A(n)\le Cn^{c/\log\log n}$, so the answer is yes.
-The site's Lean marker corresponds to the proof the formal-conjectures catalog
-links. That proof is a third party's Lean proof of a weaker existence statement
-(see Formalization). The claim page
+**Status.** PROVED (LEAN), the erdosproblems.com label (page last edited 28
+December 2025). Jain, Pham, Sawhney and Zakharov [JPSZ24] give an explicit set
+with $A+A=\mathbb{N}$ and $1_A\ast1_A(n)\le Cn^{c/\log\log n}$, so the answer is
+yes. The erdosproblems.com Lean marker corresponds to the proof the
+formal-conjectures catalog links. That proof is a third party's Lean proof of a
+weaker existence statement (see Formalization). The claim page
 [[problems/additive_bases/E0029/claims/2024_05_14_jain_pham_sawhney_zakharov|An
 explicit economical additive basis]] records the acceptance evidence: the
 refereed publication and the curator of erdosproblems.com, Thomas Bloom. The
@@ -56,11 +56,11 @@ https://www.erdosproblems.com/29.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/87f11b8ce586ce939ec3a9398be445272a27040d/FormalConjectures/ErdosProblems/29.lean),
 at its revision of 2026-09-19: tagged `research solved`
 with `answer(True)` and linking the Lean proof `Erdos29.erdos_29` in Boris
-Alexeev's repository https://github.com/plby/lean-proofs. The catalog's
+Alexeev's repository https://github.com/plby/lean-proofs. The formal-conjectures
 statement and that theorem assert only that some $A$ has $A+A=\mathbb{N}$ and
 $1_A\ast1_A(n)=o(n^\epsilon)$ for every $\epsilon>0$, which Erdős's
-probabilistic theorem already gives. As the catalog's docstring notes, the
-statement records only existence while the linked proof's witness is an
+probabilistic theorem already gives. As the formal-conjectures docstring notes,
+the statement records only existence while the linked proof's witness is an
 explicit construction; explicitness is not formalized. The corpus has not
 built or audited the proof, so the label supplies no formal-verification
 credit; the claim page gives the pinned link.

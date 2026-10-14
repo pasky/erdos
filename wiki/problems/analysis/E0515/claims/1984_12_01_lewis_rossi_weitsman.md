@@ -4,8 +4,8 @@ title: Lewis, Rossi and Weitsman's integrable path for every transcendental enti
 desc: |
   Lewis, Rossi and Weitsman prove that every nonpolynomial entire function has a
   locally rectifiable path to infinity along which every negative power of its
-  modulus is integrable. The paper is refereed in Ark. Mat. and credited by the
-  site.
+  modulus is integrable. The paper is refereed in Ark. Mat. and credited by
+  erdosproblems.com.
 authors:
 - John Lewis
 - John Rossi
@@ -64,9 +64,10 @@ there]].
 **Acceptance.** Refereed: the paper appeared in Arkiv för Matematik, a refereed
 journal. The publisher's record (Crossref) dates the issue December 1984, and
 this page's date is the first day of that month. Reviewed: on
-erdosproblems.com/515 (page last edited 19 October 2025), the site's curator,
-Thomas Bloom, labeled the problem PROVED and credits this paper with the general
-case. The community database agrees and records the problem as proved. No
-independent review is recorded in this repository and none is claimed.
+erdosproblems.com/515 (page last edited 19 October 2025), the erdosproblems.com
+curator, Thomas Bloom, labeled the problem PROVED and credits this paper with
+the general case. The community database agrees and records the problem as
+proved. No independent review is recorded in this repository and none is
+claimed.
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own.

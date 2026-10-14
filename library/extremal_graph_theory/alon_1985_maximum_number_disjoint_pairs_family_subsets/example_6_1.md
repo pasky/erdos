@@ -58,4 +58,4 @@ the edition read is named on the
   pairs, the edges of the problem's graph, among $m$ sets with
   $m/2^{n/2}$ unbounded as $n$ grows. The problem's second question asks
   whether $cm^2$ edges force $m\ll_c2^{n/2}$; the problem page records
-  that the site credits the paper with the answer no.
+  that erdosproblems.com credits the paper with the answer no.

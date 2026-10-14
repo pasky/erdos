@@ -75,5 +75,5 @@ None.
 - [[../wiki/problems/extremal_graph_theory/E0182/_index|Problem 182]]: Erdős's own
   statement of the problem for general $k$ (the 1975 and 1978 statements treat
   $k=3$), the 1988 state of the art $cn\log\log n<f_3(n)$ and
-  $f_k(n)<c_2k^2n\log n$, and the induced variant $F_k(n)$ that the site's
-  commentary attributes to Szemerédi.
+  $f_k(n)<c_2k^2n\log n$, and the induced variant $F_k(n)$ that the
+  erdosproblems.com commentary attributes to Szemerédi.

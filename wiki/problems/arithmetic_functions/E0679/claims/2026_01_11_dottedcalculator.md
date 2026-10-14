@@ -5,7 +5,7 @@ desc: |
   For every constant $C$, every large $n$ has some $k<n$ with
   $\omega(n-k)\ge\log k/\log\log k+C$, so the version with an $O(1)$ error term
   is false. The argument is a thread post by DottedCalculator, credited in the
-  site's remarks, and it comes with a Lean proof.
+  erdosproblems.com remarks, and it comes with a Lean proof.
 authors: []
 status: claimed
 claim: disproved
@@ -46,9 +46,10 @@ $\log k/\log\log k\le m-(1+o(1))\,m/\log m$ and hence
 $\omega(n-k)-\log k/\log\log k\to\infty$ with $n$. The post takes the largest
 primorial below $n$, so its $k$ can be small; the formalization takes the
 previous primorial, which makes $k$ at least the gap between consecutive
-primorials and so large. The site's remarks state the sharper form, that for
-all large $n$ some $k<n$ has $\omega(n-k)\ge\log k/\log\log k+c\log k/(\log\log
-k)^2$ for a constant $c>0$, which follows from the same estimate.
+primorials and so large. The erdosproblems.com remarks state the sharper form,
+that for all large $n$ some $k<n$ has
+$\omega(n-k)\ge\log k/\log\log k+c\log k/(\log\log k)^2$ for a constant $c>0$,
+which follows from the same estimate.
 
 **Covers.** The second question only. The first question, whether infinitely
 many $n$ have $\omega(n-k)<(1+\epsilon)\log k/\log\log k$ for all large
@@ -72,7 +73,7 @@ earlier ones assumed the stronger asymptotic
 $p_n=n(\log n+\log\log n-1+o(1))$. This corpus has not built the file, so it
 gives no `formalized` evidence.
 
-**Standing.** Claimed. The site's remarks (page last edited 17 April 2026)
-credit DottedCalculator with disproving the stronger version, but the site
-labeled the problem OPEN, so the remark is commentary and not acceptance.
-There is no refereed version.
+**Standing.** Claimed. The erdosproblems.com remarks (page last edited 17
+April 2026) credit DottedCalculator with disproving the stronger version, but
+Bloom's catalog labeled the problem OPEN, so the remark is commentary and not
+acceptance. There is no refereed version.

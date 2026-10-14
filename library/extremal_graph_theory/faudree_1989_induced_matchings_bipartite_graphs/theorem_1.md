@@ -61,7 +61,7 @@ None.
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the case of the
   bipartite clique bound $\omega(L(G)^2)\le\Delta^2$ in which the strong
-  clique is the whole edge set; the general bound, which the site's
+  clique is the whole edge set; the general bound, which the erdosproblems.com
   commentary reaches through Cames van Batenburg, Kang and Pirot (their
   Theorem 5) and which Faron and Postle state as their Theorem 1.3, is
   cited by both to the same authors' 1990 paper; the coloring form

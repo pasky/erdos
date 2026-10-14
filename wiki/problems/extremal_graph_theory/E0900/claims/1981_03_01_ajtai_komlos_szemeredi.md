@@ -5,7 +5,7 @@ desc: |
   Theorem 2 of Ajtai, Komlós and Szemerédi (Combinatorica 1981) shows that for
   $\beta>1/2$, the uniform random graph with $\beta n$ edges almost surely has a
   path of length $c(\beta)n$. The claim is accepted on the refereed publication
-  and the site's credit.
+  and the erdosproblems.com credit.
 authors:
 - Miklós Ajtai
 - János Komlós
@@ -57,8 +57,8 @@ transfers this to the undirected model $G_{n,p}$, $p=\alpha/n$, and Remark 2
 as containing a path of a given length, between $G_{n,p}$ and the uniform
 model $G'_{n,N}$ with $N=p\binom n2$.
 
-**How the printed theorems reach the site's statement.** The paper defines
-no single function $f$. The problem page's Status support writes the
+**How the printed theorems reach the erdosproblems.com statement.** The paper
+defines no single function $f$. The problem page's Status support writes the
 deduction, made in this corpus and not in the paper: let $c^*(\beta)$ be the
 supremum of the fractions almost surely reached in $G'_{n,\beta n}$; Theorem
 2 gives $c^*(\beta)>0$, monotonicity in $\beta$ holds because added random
@@ -80,14 +80,15 @@ elementary deduction above are the whole argument.
 **Acceptance.** The paper is a refereed publication in Combinatorica (Crossref,
 accessed 2026-09-19: volume 1, issue 1, pp. 1--12, issued March 1981). This is
 the `refereed` evidence. The `reviewed` evidence is documented acceptance by a
-named expert and by the site's curator. Erdős reported in his 1982 collection of
-recently solved problems (§1, printed p. 69 of
+named expert and by the erdosproblems.com curator. Erdős reported in his 1982
+collection of recently solved problems (§1, printed p. 69 of
 [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|Erdős 1982]])
 that Ajtai, Komlós and Szemerédi proved his conjectures on the longest path in a
-random graph, in the formulation the site uses. The site's curator, Thomas
-Bloom, labeled the problem proved and credits this paper, and the community
-database agrees. Claims were checked for Theorem 2, the Exponential rate, the
-Corollary and Remarks 1 and 2. The proofs (pp. 4--12) were not read.
+random graph, in the formulation erdosproblems.com uses. The erdosproblems.com
+curator, Thomas Bloom, labeled the problem proved and credits this paper, and
+the community database agrees. Claims were checked for Theorem 2, the
+Exponential rate, the Corollary and Remarks 1 and 2. The proofs (pp. 4--12) were
+not read.
 
 **Formalization.** Boris Alexeev's repository `plby/lean-proofs` holds, at
 its commit of 15 September 2026, the file

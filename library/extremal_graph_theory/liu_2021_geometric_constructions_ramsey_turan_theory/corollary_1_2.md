@@ -60,5 +60,5 @@ Theorem 1.4.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]: $\varrho_3(5)=1/6$
-  is $\delta_3(5)=1/12$ in the site's normalization by $n^2$
-  ($\binom n2=n^2/2+O(n)$), the "correct threshold" the site records.
+  is $\delta_3(5)=1/12$ in the erdosproblems.com normalization by $n^2$
+  ($\binom n2=n^2/2+O(n)$), the "correct threshold" erdosproblems.com records.

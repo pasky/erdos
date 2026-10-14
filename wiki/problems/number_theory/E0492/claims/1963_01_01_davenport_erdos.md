@@ -42,8 +42,8 @@ $\alpha F_\alpha(N)/I(N\alpha)\to1$ for almost all $\alpha>0$; taking the
 lower $\lambda$-parts of the gaps of $\{z_j\}$ as the intervals, for each
 $0<\lambda<1$, gives (9). No monotonicity of the gaps is assumed. The
 counting condition is the case $a_n\gg n^{1/2+\epsilon}$ in which the
-site's commentary and Schmidt's introduction state the theorem (at most
-$CN^{2-\delta}$ terms below $N$ gives $a_n\gg n^{1/(2-\delta)}$, and
+erdosproblems.com commentary and Schmidt's introduction state the theorem (at
+most $CN^{2-\delta}$ terms below $N$ gives $a_n\gg n^{1/(2-\delta)}$, and
 conversely). The Theorem and (9) are compiled on the result page
 [[../library/number_theory/davenport_1963_theorem_uniform_distribution/theorem|theorem]];
 the digest is on the card
@@ -55,7 +55,7 @@ $a_1<a_2<\cdots$ tending to infinity with $a_{i+1}/a_i\to1$ and at most
 $\ll N^{2-\delta}$ terms below $N$ for some fixed $\delta>0$: for each
 such sequence $f(\alpha n)$ is uniformly distributed in $[0,1)$ for almost
 all $\alpha>0$. An infinite set of positive integers has at most $N$ terms
-below $N$, so the case contains every such set and answers the site's
+below $N$, so the case contains every such set and answers the erdosproblems.com
 wording, with $A\subseteq\mathbb N$, yes; the problem page's Notes credit it
 for that. The problem as a whole is answered no on
 [[problems/number_theory/E0492/claims/1969_01_01_schmidt|Schmidt's page]],
@@ -66,12 +66,12 @@ every $\delta>0$ its number of terms below $N$ is not $O(N^{2-\delta})$
 **Acceptance.** Refereed: H. Davenport and P. Erdős, *A theorem on uniform
 distribution*, Magyar Tud. Akad. Mat. Kutató Int. Közl. 8 (1963), 3--11. The
 publication record carries no finer date than the year, so the page is named by
-its first day. In the problem's commentary, the site's curator credits the paper
-with the case $a_n\gg n^{1/2+\epsilon}$. But the site's label DISPROVED rests on
-Schmidt's theorem, so the credit is not an acceptance of this case, and no
-`reviewed` evidence is listed. Schmidt's 1969 introduction also attests the
-theorem, and no source read disputes it. The proof (pp. 5--10) is not
-independently reviewed here.
+its first day. In the problem's commentary, the erdosproblems.com curator
+credits the paper with the case $a_n\gg n^{1/2+\epsilon}$. But the
+erdosproblems.com label DISPROVED rests on Schmidt's theorem, so the credit is
+not an acceptance of this case, and no `reviewed` evidence is listed. Schmidt's
+1969 introduction also attests the theorem, and no source read disputes it. The
+proof (pp. 5--10) is not independently reviewed here.
 
 **Depends on.** Nothing on the wiki; the result rests on the refereed paper
 linked above.

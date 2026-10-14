@@ -103,7 +103,7 @@ Corollary 2, Theorem 4, Theorem 5, Definition 2 and Question 6, read clause
 by clause on the page images; the proofs of Theorems 3, 4 and 5 were read for
 structure only and are not checked here.
 
-The three graphs of Question 2 are the site's
+The three graphs of Question 2 are erdosproblems.com's
 [[../wiki/problems/ramsey_theory/E0567/_index|Problem 567]], whose $H_5$ ($C_5$ with two
 vertex-disjoint chords) is the paper's $G_5$ and the $K_4^*$ of later work;
 p. 395 records that $K_4$ is the only graph of order at most $4$ that is not
@@ -145,10 +145,10 @@ Question 5, on printed p. 399 (physical p. 12), asks whether
 $r(C_k,H_m)\leq2m+\lfloor(k-1)/2\rfloor$ for every $k\geq3$ and every graph
 $H_m$ with $m$ edges and no isolated vertices (the paper writes $C_m$ and
 $H_n$), with no sufficiently-large condition. It is the origin of
-[[../wiki/problems/ramsey_theory/E0570/_index|Problem 570]], whose site form
-asks the bound only for sufficiently large $m$. For that form, Corollary 4
-supplies the exact claimed bound for all even cycle lengths: for $k=2j$,
-$\lfloor(k-1)/2\rfloor=j-1$. It does not supply the odd-cycle cases.
+[[../wiki/problems/ramsey_theory/E0570/_index|Problem 570]], whose
+erdosproblems.com form asks the bound only for sufficiently large $m$. For that
+form, Corollary 4 supplies the exact claimed bound for all even cycle lengths:
+for $k=2j$, $\lfloor(k-1)/2\rfloor=j-1$. It does not supply the odd-cycle cases.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0079/_index|#79]]: Definition 2 (p. 395)
 and Question 6 (p. 399) are the origin of the problem, answered by Wigderson;

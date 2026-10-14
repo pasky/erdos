@@ -66,11 +66,11 @@ earlier one of Filaseta, Ford, Konyagin, Pomerance and Yu, which is on
 
 **Acceptance.** Refereed: Inventiones mathematicae 228 (2022), no. 1, 377–414,
 doi:10.1007/s00222-021-01087-5, published online 2021-11-16. The arXiv v1 of
-2018-11-08 names this page. On the problem page, the site's curator cites the
-paper only for its bound $616000$ on the minimum modulus of a covering system.
-The curator credits the answer to Filaseta, Ford, Konyagin, Pomerance and Yu, so
-no `reviewed` evidence is listed. The library's compilation of the proof is
-author-recorded coverage by this project and awards nothing here. No
+2018-11-08 names this page. On the problem page, the erdosproblems.com curator
+cites the paper only for its bound $616000$ on the minimum modulus of a covering
+system. The curator credits the answer to Filaseta, Ford, Konyagin, Pomerance
+and Yu, so no `reviewed` evidence is listed. The library's compilation of the
+proof is author-recorded coverage by this project and awards nothing here. No
 formalization of this theorem is recorded.
 
 **Not covered.** Nothing of the question remains. The optimal order of the

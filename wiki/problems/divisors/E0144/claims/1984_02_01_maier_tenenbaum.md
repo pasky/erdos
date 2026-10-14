@@ -61,14 +61,15 @@ itself a formalization of a solution to the problem with Maier and Tenenbaum as
 informal authors and Codex and GPT-5.6 Sol as formal authors; its docstring
 says it specializes their result to the factor two the problem asks for. The
 link is pinned to the last commit that touched the file, which was added on
-2026-08-17; the community database records the site's formal status on
+2026-08-17; the community database records erdosproblems.com's formal status on
 2026-08-24. The formal-conjectures project had no statement file for this
 problem on 2026-10-07. This corpus has not built or audited the file, so no
 `formalized` evidence is listed.
 
-**Acceptance.** The site's curator, T. F. Bloom, marked the problem proved and
-credits this paper. This is listed as `reviewed`. The paper is H. Maier and G.
-Tenenbaum, On the set of divisors of an integer, Invent. Math. 76 (1984), no. 1,
-121--128, received 1983-09-20. It appeared in a refereed journal and is listed
-as `refereed`. The page is dated by the publisher's record, which gives February
-1984 for the issue. The first day of that month stands in for the issue date.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, marked the problem
+proved and credits this paper. This is listed as `reviewed`. The paper is H.
+Maier and G. Tenenbaum, On the set of divisors of an integer, Invent. Math. 76
+(1984), no. 1, 121--128, received 1983-09-20. It appeared in a refereed journal
+and is listed as `refereed`. The page is dated by the publisher's record, which
+gives February 1984 for the issue. The first day of that month stands in for the
+issue date.

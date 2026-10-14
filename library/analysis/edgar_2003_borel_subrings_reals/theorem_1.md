@@ -97,5 +97,5 @@ dimension, and Cohn, Prop. 8.6.2, for Borel isomorphism.
   subfield, has Hausdorff dimension $0$ or is $\mathbb R$. No witness for
   $0<\alpha<1$ can therefore be Borel or analytic. The theorem says nothing
   about rings outside these classes, and it decides no $\alpha$ in $(0,1)$.
-  The problem page's account of a proof claim on the site invokes the
+  The problem page's account of a proof claim on erdosproblems.com invokes the
   generated-ring consequence of the Remarks.

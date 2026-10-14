@@ -45,8 +45,8 @@ DIMACS certificates and a Sage checker. The corpus records the statement at
 of the source card.
 
 **Standing.** The note is unpublished and unrefereed, and no independent
-acceptance is recorded: the site's problem page does not mention it, and
-no run of the verifier, audit of the certificates or review of the proof is
+acceptance is recorded: the erdosproblems.com problem page does not mention it,
+and no run of the verifier, audit of the certificates or review of the proof is
 recorded. The question itself was already answered no by
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
 and in dimension 64 by

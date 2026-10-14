@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 1121, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/discrete_geometry/E1121/claims
@@ -13,8 +13,8 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/discrete_geometry/E1121/claims/1945_11_01_goodman_goodman|1945_11_01_goodman_goodman]]: Goodman and Goodman proved in 1945 that finitely many disks in the plane that
 no disjoint line separates lie in one disk whose radius is the sum of their
-radii, as Erdős conjectured. The proof is refereed and credited by the site,
-and a Lean formalization is linked.
+radii, as Erdős conjectured. The proof is refereed and credited by
+erdosproblems.com, and a Lean formalization is linked.
 
 [[problems/discrete_geometry/E1121/claims/1947_12_01_hadwiger|1947_12_01_hadwiger]]: Hadwiger proves that for a nonseparable system of plane convex curves, the
 perimeter, diameter and circumradius of the convex hull are at most the sums

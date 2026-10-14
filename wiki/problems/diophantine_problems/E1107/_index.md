@@ -46,7 +46,7 @@ The problem is open for every $r\geq3$. The case $r=2$ is Heath-Brown's
 theorem that every large integer is a sum of at most three 2-powerful numbers,
 an accepted partial claim on
 [[problems/diophantine_problems/E1107/claims/1988_01_01_heath_brown|its claim page]],
-credited by the site's curator on
+credited by the erdosproblems.com curator on
 [[problems/diophantine_problems/E0941/_index|Problem 941]].
 
 ## Progress

@@ -79,16 +79,16 @@ item (11) and the shortest-odd-cycle problem after it (p. 12), the two-color
 remark and (15), and, on p. 13, the expectation from the work with Faudree,
 Rousseau and Schelp that $r(K(n),C_4)<n^{2-\varepsilon}$ for some
 $\varepsilon>0$ and all large $n$, where all they could prove was
-$r(K(n),C_r)<n^{2-\varepsilon}$ for $r\ge5$. The site's pages for Problems
-555 and 558 carry this paper as their source key; the passages they would
-rest on were not found in the scan read, and the bounds the site quotes for
-Problem 555 are Theorems 5 and 6 of Erdős and Graham's 1975 paper, which this
-survey lists among its references (p. 14).
+$r(K(n),C_r)<n^{2-\varepsilon}$ for $r\ge5$. The erdosproblems.com pages for
+Problems 555 and 558 carry this paper as their source key; the passages they
+would rest on were not found in the scan read, and the bounds erdosproblems.com
+quotes for Problem 555 are Theorems 5 and 6 of Erdős and Graham's 1975 paper,
+which this survey lists among its references (p. 14).
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0544/_index|#544]]: the site's source
-key Er81c; printed p. 11 (PDF p. 3, page image) states the problem in the
-paper's notation $r(n,3)$: two statements that Sós and Erdős had recently
-needed, (9) $r(n+1,3)-r(n,3)\to\infty$ and (9')
+**Bears on.** [[../wiki/problems/ramsey_theory/E0544/_index|#544]]: the
+erdosproblems.com source key Er81c; printed p. 11 (PDF p. 3, page image) states
+the problem in the paper's notation $r(n,3)$: two statements that Sós and Erdős
+had recently needed, (9) $r(n+1,3)-r(n,3)\to\infty$ and (9')
 $r([n(1+c_1)],3)>(1+c_2)\,r(n,3)$, which Erdős says "must certainly be true"
 but which they could not prove, and the guess (10)
 $(r(n+1,3)-r(n,3))/n^{1/2}\to0$. All three, he notes, would follow easily
@@ -99,10 +99,10 @@ $c_1n^2/(\log n)^2<r(3,n)<c_2n^2/\log n$, the upper bound then newly proved
 by Ajtai, Komlós and Szemerédi, improving Graver and Yackel's
 $cn^2\log\log n/\log n$, pp. 10--11) and the p. 11 remark cited above that an
 asymptotic formula for $r(n,3)$ was nowhere in sight.
-[[../wiki/problems/ramsey_theory/E0166/_index|#166]]: not a site key for the problem, but
-p. 11 states its conjecture as (6) "Very likely for every $k$ and
-$\varepsilon>0$, if $n\to\infty$ $r(k,n)>n^{k-1-\varepsilon}$" and (6')
-"In fact probably $r(k,n)>c_1n^{k-1}/(\log n)^{c_2}$", adding that every
+[[../wiki/problems/ramsey_theory/E0166/_index|#166]]: not an erdosproblems.com
+key for the problem, but p. 11 states its conjecture as (6) "Very likely for
+every $k$ and $\varepsilon>0$, if $n\to\infty$ $r(k,n)>n^{k-1-\varepsilon}$" and
+(6') "In fact probably $r(k,n)>c_1n^{k-1}/(\log n)^{c_2}$", adding that every
 attempt to prove (6) or (6') had failed, even for $k=4$.
 [[../wiki/problems/ramsey_theory/E0077/_index|#77]]: item (3) on p. 10, the bounds
 $c_1n^{1/2}2^{n/2}<r(n,n)<c_2\binom n{[n/2]}\log\log n/\log n$ (the upper bound
@@ -112,12 +112,12 @@ equivalent in Swiss Francs) for a proof or disproof of
 $\lim_{n\to\infty}r(n,n)^{1/n}=C$" and "another 1000 rupees for the value of
 $C$"; p. 12 adds the offer for a
 constructive proof of $r(n,n)>(1+c)^n$ and Frankl's
-$\lim r(n,n)/n^k=\infty$. [[../wiki/problems/ramsey_theory/E0078/_index|#78]]: not a
-site key for the problem; p. 12 (PDF p. 4, page image): Erdős suggests that
-the lack of constructive methods for good lower bounds on $r(m,n)$ may be one
-reason such simple statements resist proof, and writes "I offer 1000 rupees
-for a constructive proof of $r(n,n)>(1+c)^n$"; the sharpest constructive
-bound then known, he records, was Frankl's
+$\lim r(n,n)/n^k=\infty$. [[../wiki/problems/ramsey_theory/E0078/_index|#78]]:
+not an erdosproblems.com key for the problem; p. 12 (PDF p. 4, page image):
+Erdős suggests that the lack of constructive methods for good lower bounds on
+$r(m,n)$ may be one reason such simple statements resist proof, and writes "I
+offer 1000 rupees for a constructive proof of $r(n,n)>(1+c)^n$"; the sharpest
+constructive bound then known, he records, was Frankl's
 $\lim_{n\to\infty}r(n,n)/n^k=\infty$ for every $k$.
 [[../wiki/problems/ramsey_theory/E0087/_index|#87]]: item (13)
 on p. 12, "After learning of (12) I conjectured that $\min_Gr(G,G)=r(t,t)$"
@@ -131,10 +131,10 @@ $\hat r(P_n,P_n)/n^2\to0$ but $\hat r(P_n,P_n)/n\to\infty$? (17)"; Erdős adds
 that one would really like $\hat r(P_n,P_n)$ exactly, or at least
 asymptotically, but that no progress had been made even on (17). Here
 $\hat r(G_1,G_2)$ is the size Ramsey number defined at the foot of p. 13.
-[[../wiki/problems/ramsey_theory/E0812/_index|#812]]: not a site key for
-the problem (the site keys the 1991 Kalamazoo paper, not held); p. 11 (PDF
-p. 3, page image): after remarking that almost nothing was known about the
-local growth of $r(n,m)$, Erdős states the Burr--Erdős conjecture (7)
+[[../wiki/problems/ramsey_theory/E0812/_index|#812]]: not an erdosproblems.com
+key for the problem (erdosproblems.com keys the 1991 Kalamazoo paper, not held);
+p. 11 (PDF p. 3, page image): after remarking that almost nothing was known
+about the local growth of $r(n,m)$, Erdős states the Burr--Erdős conjecture (7)
 $r(n+1,n)>(1+c)\,r(n,n)$, calling it "at the moment ... intractable", and
 the lemma (8) $\lim_{n\to\infty}(r(n+1,n)-r(n,n))/n=\infty$ that he,
 Faudree, Schelp and Rousseau had recently needed and proved without much
@@ -144,41 +144,41 @@ $\lim_{n\to\infty}r(n+1,n)/r(n,n)=C^{1/2}$ with
 $C=\lim_{n\to\infty}r(n,n)^{1/n}$. These are the off-diagonal step forms of
 the page's two questions.
 [[../wiki/problems/ramsey_theory/E0554/_index|#554]]: item (11) is the
-site's source for the problem and restates the 1975 question as a
+erdosproblems.com source for the problem and restates the 1975 question as a
 conjecture, open even for $n=2$. [[../wiki/problems/ramsey_theory/E0555/_index|#555]]: the
-site's source key; the pages read state neither the question nor the
-bounds the site attributes to it, and supply as context only the two-color
-remark, the three-color conjecture (15) and, on p. 13, the expected
+erdosproblems.com source key; the pages read state neither the question nor the
+bounds erdosproblems.com attributes to it, and supply as context only the
+two-color remark, the three-color conjecture (15) and, on p. 13, the expected
 $r(K(n),C_4)<n^{2-\varepsilon}$ with the proved
 $r(K(n),C_r)<n^{2-\varepsilon}$ for $r\ge5$.
 [[../wiki/problems/ramsey_theory/E0556/_index|#556]]: display (15) on printed p. 13 (PDF
 p. 5, page image), "Bondy and I conjectured $r(C_n,C_n,C_n)\le4n-3$, (15)
 which is still open. For odd $n$, (15), if true, is best possible.", the
 survey's statement of the three-color conjecture the problem asks about.
-[[../wiki/problems/ramsey_theory/E1030/_index|#1030]]: not a site key for the problem (the
-site cites [Er93]); display (7) on printed p. 11 (PDF p. 3, page image),
-described under #812 above, the Burr--Erdős conjecture
-$r(n+1,n)>(1+c)\,r(n,n)$ that Erdős called intractable, is the problem's
-statement in its 1981 form, with (8),
+[[../wiki/problems/ramsey_theory/E1030/_index|#1030]]: not an erdosproblems.com
+key for the problem (erdosproblems.com cites [Er93]); display (7) on printed p.
+11 (PDF p. 3, page image), described under #812 above, the Burr--Erdős
+conjecture $r(n+1,n)>(1+c)\,r(n,n)$ that Erdős called intractable, is the
+problem's statement in its 1981 form, with (8),
 $\lim(r(n+1,n)-r(n,n))/n=\infty$, as the proved weaker step and the
 expectation $\lim r(n+1,n)/r(n,n)=C^{1/2}$.
-[[../wiki/problems/ramsey_theory/E0986/_index|#986]]: not a site key for the problem (the
-site cites [Er90b, p. 18]); displays (6) and (6') on p. 11 (PDF p. 3, page
-image), quoted under #166 above, state the problem's conjecture for every
-$k$: $r(k,n)>n^{k-1-\varepsilon}$ and "probably
+[[../wiki/problems/ramsey_theory/E0986/_index|#986]]: not an erdosproblems.com
+key for the problem (erdosproblems.com cites [Er90b, p. 18]); displays (6) and
+(6') on p. 11 (PDF p. 3, page image), quoted under #166 above, state the
+problem's conjecture for every $k$: $r(k,n)>n^{k-1-\varepsilon}$ and "probably
 $r(k,n)>c_1n^{k-1}/(\log n)^{c_2}$", with the note that every attempt at (6)
 and (6') had failed, even for $k=4$.
-[[../wiki/problems/ramsey_theory/E0181/_index|#181]]: not a site key for the problem (the
-site cites BuEr75 and Er93); display (16') on printed p. 13 (PDF p. 5, page
-image, read clause by clause; the passage is not on
-printed p. 11, which holds (6)--(10)): after the Burr--Erdős density
+[[../wiki/problems/ramsey_theory/E0181/_index|#181]]: not an erdosproblems.com
+key for the problem (erdosproblems.com cites BuEr75 and Er93); display (16') on
+printed p. 13 (PDF p. 5, page image, read clause by clause; the passage is not
+on printed p. 11, which holds (6)--(10)): after the Burr--Erdős density
 conjecture (16), Erdős writes $G_c(n)$ for the graph of the edges of the
 $n$-dimensional cube, with $2^n$ vertices and $n\,2^{n-1}$ edges, and asks
 (16') whether $r(G_c(n),G_c(n))<c_1\cdot2^n$ for some absolute constant
 $c_1$, a question he and Burr could not decide; he calls (16) and (16') two
 very attractive problems, and records that "Burr and I expected (16) to be
 true and (16') to be false." The problem's statement in its 1981 form, with
-the expectation, recorded nowhere on the site, that the cube inequality
+the expectation, recorded nowhere on erdosproblems.com, that the cube inequality
 fails.
 
 **Results.**

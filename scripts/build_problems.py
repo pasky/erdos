@@ -243,7 +243,7 @@ def render_page(number: str, folder: str, record: dict, accessed: str) -> str:
         '## Current assessment',
         '',
         'No current assessment is recorded. The status above is imported from the '
-        'dated site record. This page records no current literature search or '
+        'dated erdosproblems.com record. This page records no current literature search or '
         'independent assessment of proof coverage.',
         '',
     ]
@@ -267,7 +267,7 @@ def render_index(folder: dict, routed_tags: list[str]) -> str:
         '',
         textwrap.fill(folder['description'], width=80, break_long_words=False, break_on_hyphens=False),
         '',
-        textwrap.fill(f'Site tags routed here: {tags}.', width=80, break_long_words=False, break_on_hyphens=False),
+        textwrap.fill(f'erdosproblems.com tags routed here: {tags}.', width=80, break_long_words=False, break_on_hyphens=False),
         '',
     ])
 

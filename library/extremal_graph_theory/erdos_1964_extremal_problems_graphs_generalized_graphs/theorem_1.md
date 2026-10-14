@@ -70,8 +70,9 @@ lower bound's method; both external, at statement level.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1158/_index|Problem 1158]]: the site's
-  displayed bounds $n^{t-O(r^{1-t})}\le\mathrm{ex}_t(n,K_t(r))\ll n^{t-r^{1-t}}$
-  are this theorem with the letters exchanged ($t$ for the paper's $r$, $r$
-  for its $l$); the constant $C$ is unspecified, and the site's question is
-  whether it can be replaced by $1+o(1)$ in the exponent.
+- [[../wiki/problems/extremal_graph_theory/E1158/_index|Problem 1158]]:
+  erdosproblems.com's displayed bounds
+  $n^{t-O(r^{1-t})}\le\mathrm{ex}_t(n,K_t(r))\ll n^{t-r^{1-t}}$ are this theorem
+  with the letters exchanged ($t$ for the paper's $r$, $r$ for its $l$); the
+  constant $C$ is unspecified, and the erdosproblems.com question is whether it
+  can be replaced by $1+o(1)$ in the exponent.

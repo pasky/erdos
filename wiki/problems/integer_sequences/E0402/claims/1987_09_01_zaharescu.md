@@ -46,9 +46,9 @@ then many $\beta$ with $r_p(\beta)\ge1$ coprime to it, a contradiction once
 $p$ is close enough to $2N$; by the nature of the prime-gap input the
 threshold is of the order $e^{10^6}$. That introduction counts the result as
 the conjecture "in its weaker form", without the equality case, and the
-review states only the inequality, while the site's commentary credits
-Szegedy and Zaharescu with the sharper version that characterizes equality;
-the page records the disagreement. Szegedy's independent proof is on
+review states only the inequality, while the erdosproblems.com commentary
+credits Szegedy and Zaharescu with the sharper version that characterizes
+equality; the page records the disagreement. Szegedy's independent proof is on
 [[problems/integer_sequences/E0402/claims/1986_03_01_szegedy|its own page]],
 and the full resolution on
 [[problems/integer_sequences/E0402/claims/1996_01_01_balasubramanian_soundararajan|the page of Balasubramanian and Soundararajan]].
@@ -60,8 +60,8 @@ $N_0$ elements, where $N_0$ is of the order $e^{10^6}$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in volume 27 (1987) of the Journal
-of Number Theory, a refereed journal. The site's commentary credits Szegedy and
-Zaharescu with the large-set case. The site's PROVED label, however, settles the
-problem through Balasubramanian and Soundararajan, so no `reviewed` evidence is
-listed here. The journal record dates the issue to September 1987, so the page
-is dated to the first day of that month.
+of Number Theory, a refereed journal. The erdosproblems.com commentary credits
+Szegedy and Zaharescu with the large-set case. erdosproblems.com's PROVED label,
+however, settles the problem through Balasubramanian and Soundararajan, so no
+`reviewed` evidence is listed here. The journal record dates the issue to
+September 1987, so the page is dated to the first day of that month.

@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0281/claims/2026_01_18_koishichan
 title: An elementary proof from Davenport-Erdős and Rogers
 desc: |
-  KoishiChan observed on the site that the Davenport-Erdős theorem on sets of
-  multiples and Rogers' theorem on zero residues together answer the question
-  yes in a few lines. It is accepted on the curator's credit.
+  KoishiChan observed on erdosproblems.com that the Davenport-Erdős theorem on
+  sets of multiples and Rogers' theorem on zero residues together answer the
+  question yes in a few lines. It is accepted on the curator's credit.
 authors: []
 status: accepted
 claim: proved
@@ -48,11 +48,11 @@ As first posted (2026-01-18), the observation cited Theorem 12 of Chapter V
 of Halberstam and Roth, that the logarithmic density of $B$ equals
 $\lim_k\delta_k$, and Rogers' theorem from p. 242 of that book; Terence Tao
 traced the density statement to the 1936 paper of Davenport and Erdős the
-same day, and the site's commentary gives the argument in that form. R. R.
-Hall and G. Tenenbaum's paper *On Behrend sequences* (Math. Proc. Cambridge
-Philos. Soc. 112 (1992), 467--482), linked from a follow-up comment, spells
-out the zero-residue step: by the Davenport-Erdős theorem, when almost all
-integers are multiples of the sequence, the multiples of a long enough
+same day, and the erdosproblems.com commentary gives the argument in that form.
+R. R. Hall and G. Tenenbaum's paper *On Behrend sequences* (Math. Proc.
+Cambridge Philos. Soc. 112 (1992), 467--482), linked from a follow-up comment,
+spells out the zero-residue step: by the Davenport-Erdős theorem, when almost
+all integers are multiples of the sequence, the multiples of a long enough
 initial segment have density at least $1-\epsilon$. The paper does not
 treat other residues or Rogers' theorem. Tao posted a proof of Rogers'
 theorem on Tao's blog on 2026-01-19, since the theorem has no separate
@@ -65,13 +65,13 @@ Davenport-Erdős theorem to nonzero residues, which Erdős asked about, is
 [[problems/covering_systems/E0281/claims/2026_01_17_somani|Somani's argument]],
 which settles the problem by a different route.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, wrote this argument
-into the problem's commentary as an alternative elementary proof and credits
-KoishiChan in the page's acknowledgments (page last edited 18 January 2026). On
-the thread, Terence Tao confirmed on 2026-01-18 that the result follows from the
-Davenport-Erdős theorem once Rogers' theorem is applied. Tao also reported,
-quoting with permission, that Gérald Tenenbaum confirmed by email that the
-solution is immediate given the two classical results. Not refereed: the two
-ingredients are published theorems, and their combination is a forum
-observation. No formalization of this route is known to this corpus. The Lean
-development recorded on Somani's page formalizes the other argument.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, wrote
+this argument into the problem's commentary as an alternative elementary proof
+and credits KoishiChan in the page's acknowledgments (page last edited 18
+January 2026). On the thread, Terence Tao confirmed on 2026-01-18 that the
+result follows from the Davenport-Erdős theorem once Rogers' theorem is applied.
+Tao also reported, quoting with permission, that Gérald Tenenbaum confirmed by
+email that the solution is immediate given the two classical results. Not
+refereed: the two ingredients are published theorems, and their combination is a
+forum observation. No formalization of this route is known to this corpus. The
+Lean development recorded on Somani's page formalizes the other argument.

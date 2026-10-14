@@ -52,6 +52,7 @@ groups, and so for infinite groups, stays open.
 
 **Acceptance.** Refereed: Beiträge zur Algebra und Geometrie 60 (2019), no. 3,
 399--418, doi:10.1007/s13366-018-0419-1, published online 2018-10-04. The arXiv
-v1 of 2018-03-09 names this page. Not reviewed: the site's commentary credits
-the theorem, but the site labeled the problem OPEN, so the credit is not counted
-as review. Not formalized: no Lean proof of the theorem is recorded.
+v1 of 2018-03-09 names this page. Not reviewed: the erdosproblems.com commentary
+credits the theorem, but Bloom's catalog labeled the problem OPEN, so the credit
+is not counted as review. Not formalized: no Lean proof of the theorem is
+recorded.

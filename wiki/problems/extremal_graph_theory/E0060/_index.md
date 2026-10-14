@@ -40,21 +40,21 @@ https://www.erdosproblems.com/60.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04; the site's page was last edited
-18 November 2025) asks whether every graph on $n$ vertices with more than
-$\mathrm{ex}(n;C_4)$ edges contains $\gg n^{1/2}$ copies of $C_4$, the
-conjecture of Erdős and Simonovits, who could not prove that even two copies
-are guaranteed. The problem is open. One accepted partial claim settles an
-infinite family of orders:
+The erdosproblems.com formulation (accessed 2026-09-04; the erdosproblems.com
+page was last edited 18 November 2025) asks whether every graph on $n$ vertices
+with more than $\mathrm{ex}(n;C_4)$ edges contains $\gg n^{1/2}$ copies of
+$C_4$, the conjecture of Erdős and Simonovits, who could not prove that even two
+copies are guaranteed. The problem is open. One accepted partial claim settles
+an infinite family of orders:
 [[problems/extremal_graph_theory/E0060/claims/2019_12_02_he_ma_yang|He, Ma and Yang's theorem]]
 (J. Combin. Theory Ser. B 2021; first posted as arXiv:1912.00986v1 on
 2 December 2019) gives at least $q-1$ four-cycles in every graph on
 $q^2+q+1$ vertices with $\frac12q(q+1)^2+1$ edges for large even $q$, which
 is the conjecture at $n=q^2+q+1$ when $q$ is a large power of $2$, where
 $\mathrm{ex}(n;C_4)=\frac12q(q+1)^2$ by Füredi's theorem and the polarity
-graph. The site's commentary credits the paper for every even $q$; the claim
-page records why only powers of $2$ reach the problem. For all other $n$,
-including every $n$ at which $\mathrm{ex}(n;C_4)$ is unknown, nothing is
+graph. The erdosproblems.com commentary credits the paper for every even $q$;
+the claim page records why only powers of $2$ reach the problem. For all other
+$n$, including every $n$ at which $\mathrm{ex}(n;C_4)$ is unknown, nothing is
 established on this page, and no proof that two copies are guaranteed is
 recorded.
 
@@ -68,10 +68,10 @@ that two copies are guaranteed for large $n$, with no citation; this page
 records no source for the second. The 2026-09-12 commit restricted the first
 variant from even $q$ to powers of $2$.
 
-Search scope: the site's problem page and its thread, the formal-conjectures
-statement file, and the arXiv and Crossref records of [HeMaYa21]. On
-2026-10-07 the thread was empty and none of these held a further claim on the
-stated question.
+Search scope: the erdosproblems.com problem page and its thread, the
+formal-conjectures statement file, and the arXiv and Crossref records of
+[HeMaYa21]. On 2026-10-07 the thread was empty and none of these held a further
+claim on the stated question.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

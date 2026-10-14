@@ -49,7 +49,8 @@ number theory (1967); Mordell, Diophantine equations (1969); Bernstein
 $4/n=1/x+1/y+1/z$; Sierpiński (1956) and Palamà (1958) on $5/n$; Prachar,
 Primzahlverteilung (1957); and Bombieri, On the large sieve (1965). None of
 the eleven is held; Mordell's book is [Mo69] on the problem page and
-Obláth's paper [Ob50] there, dated 1950 by the site and 1949 by this paper.
+Obláth's paper [Ob50] there, dated 1950 by erdosproblems.com and 1949 by this
+paper.
 
 The copy read for this card is the
 publisher's PDF of the printed article: 6 pages, printed pp. 193--198 =
@@ -99,7 +100,7 @@ and nothing here is independently reviewed.
   $n<8000$ (Bernstein), $n<20{,}000$ (Shapiro), $n<106{,}128$ (Obláth),
   $n<171{,}649$ (Rosati) and $n<10^7$ (Yamamoto); for $a=5$: $n<1000$
   (Sierpiński) and $n<922{,}321$ (Palamà). A filing observation, not a
-  review verdict: the Rosati figure $171{,}649$ agrees with the site
+  review verdict: the Rosati figure $171{,}649$ agrees with erdosproblems.com
   thread's list and differs from the $141{,}648$ of Table 1 of
   [[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/_index|Elsholtz and Tao]]
   and the $n<141649$ that
@@ -183,13 +184,13 @@ p. 193, PDF p. 1), $E_a(N)\ll N\exp\{-(\log N)^{2/3}/C(a)\}$ with $E_a(N)$
 the number of $n\le N$ for which $a/n$ is not a sum of three unit
 fractions in positive integers, is at $a=4$ the bound
 $N\exp(-c(\log N)^{2/3})$ on the exceptions to the Erdős--Straus
-conjecture that the site's commentary attributes to Vaughan and that the
-1980 monograph and the 2022 survey quote; it shows the conjecture holds
-for almost every $n$ and, since the bound is $o(N/\log N)$, for almost
-every prime, and decides no single case. The paper's convention allows
-repeated denominators, and the problem page's Formulation converts such a
-representation into one with three distinct terms. The paper proves neither
-the conjecture nor a counterexample and leaves the problem's status unchanged.
+conjecture that the erdosproblems.com commentary attributes to Vaughan and that
+the 1980 monograph and the 2022 survey quote; it shows the conjecture holds for
+almost every $n$ and, since the bound is $o(N/\log N)$, for almost every prime,
+and decides no single case. The paper's convention allows repeated denominators,
+and the problem page's Formulation converts such a representation into one with
+three distinct terms. The paper proves neither the conjecture nor a
+counterexample and leaves the problem's status unchanged.
 [[unit_fractions/pomerance_2025_exceptions_erdos_straus_schinzel/theorem_1_3|Theorem 1.3 of Pomerance and Weingartner]]
 restates the bound uniformly in the numerator and describes its proof as
 largely derivative of this paper's.

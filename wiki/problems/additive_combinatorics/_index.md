@@ -7,7 +7,7 @@ desc: |
   that force them (van der Waerden numbers), difference bases and perfect
   rulers, and sets with distinct subset sums.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T14:08:51Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Sumsets and Arithmetic Progressions
@@ -161,8 +161,8 @@ Conjectures.io accepted.
 [[problems/additive_combinatorics/E0328/_index|E0328/]]: Asks whether a set in
 which each $n$ is a sum of two distinct elements at most $C$ times splits into
 boundedly many parts in which each $n$ is such a sum fewer than $C$ times.
-Nešetřil and Rödl answer no, and the site's count of ordered pairs makes $C=2$
-trivial.
+Nešetřil and Rödl answer no, and erdosproblems.com's count of ordered pairs
+makes $C=2$ trivial.
 
 [[problems/additive_combinatorics/E0331/_index|E0331/]]: Asks whether two sets
 of integers whose counting functions are both $\gg N^{1/2}$ must share
@@ -289,7 +289,8 @@ include at least $\epsilon n$ forming no such progression.
 [[problems/additive_combinatorics/E0865/_index|E0865/]]: Asks whether every
 subset of $\{1,\ldots,N\}$ of size at least $\frac58N+C$, for some constant $C$,
 contains three distinct members whose pairwise sums also lie in the set. It was
-proved in a 2026 preprint, developed with GPT-5.5 Pro, which the site accepted.
+proved in a 2026 preprint, developed with GPT-5.5 Pro, which erdosproblems.com
+accepted.
 
 [[problems/additive_combinatorics/E0866/_index|E0866/]]: Estimates, for $k\ge3$,
 how far above $N$ the size of a subset of $\{1,\ldots,2N\}$ must be to force $k$
@@ -375,6 +376,6 @@ progressions in dense sets of integers together with the coloring problems that
 force them (van der Waerden numbers), difference bases and perfect rulers, and
 sets with distinct subset sums.
 
-Site tags routed here: additive combinatorics, analysis, arithmetic
+erdosproblems.com tags routed here: additive combinatorics, analysis, arithmetic
 progressions, combinatorics, graph theory, number theory, primes, probability,
 sidon sets.

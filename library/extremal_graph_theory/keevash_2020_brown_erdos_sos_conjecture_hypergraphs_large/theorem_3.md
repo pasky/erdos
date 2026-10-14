@@ -69,9 +69,9 @@ the bow-tie graph of Shapira and Tyomkyn (external, at statement level).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1157/_index|Problem 1157]]: the
-  conjecture in the site's commentary, in its $t=2$ linear form (Conjecture 2,
-  which the paper says implies the general case through the cited reductions),
-  proved for every uniformity $r\ge r_0(\varepsilon)$, where $\varepsilon$ is
-  the linear-density bound. At a fixed uniformity, $r=3$ included, the theorem
-  covers only the densities $\varepsilon$ with $r_0(\varepsilon)\le r$, so it
-  does not settle Conjecture 2 at any fixed $r$.
+  conjecture in the erdosproblems.com commentary, in its $t=2$ linear form
+  (Conjecture 2, which the paper says implies the general case through the cited
+  reductions), proved for every uniformity $r\ge r_0(\varepsilon)$, where
+  $\varepsilon$ is the linear-density bound. At a fixed uniformity, $r=3$
+  included, the theorem covers only the densities $\varepsilon$ with
+  $r_0(\varepsilon)\le r$, so it does not settle Conjecture 2 at any fixed $r$.

@@ -44,9 +44,9 @@ form is what [FFKPY07] prove (their Theorem B, with any $d_C<1/C$
 admissible) and what Theorem 5.1 of [BBMST22] proves again with a threshold
 on $N$ independent of $C$; both claim pages record the uniform form.
 
-**Status.** Disproved, the site's label. The answer is no, by Filaseta, Ford,
-Konyagin, Pomerance and Yu (J. Amer. Math. Soc. 2007, refereed), whom the site
-credits. The acceptance evidence is on
+**Status.** Disproved, the erdosproblems.com label. The answer is no, by
+Filaseta, Ford, Konyagin, Pomerance and Yu (J. Amer. Math. Soc. 2007, refereed),
+whom erdosproblems.com credits. The acceptance evidence is on
 [[problems/covering_systems/E0027/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu|their claim page]].
 A second proof, Theorem 5.1 of Balister, Bollobás, Morris, Sahasrabudhe and Tiba
 (Invent. Math. 2022, refereed), has
@@ -69,15 +69,15 @@ https://www.erdosproblems.com/27.
 - [Ho15] Hough, Bob, Solution of the minimum modulus problem for covering
   systems. Ann. of Math. (2) (2015), 361-382.
 
-**Formalization.** The site's indicator reads "Formalised statement? No" and
-the community database records the problem as not formalized (2026-10-07). The
-locatable artifact is the Lean development
+**Formalization.** The erdosproblems.com indicator reads "Formalised statement?
+No" and the community database records the problem as not formalized
+(2026-10-07). The locatable artifact is the Lean development
 `src/latest/ErdosProblems/Erdos27.lean` of Boris Alexeev's lean-proofs
 repository (added 2026-08-17; pinned on the
 [[problems/covering_systems/E0027/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu|Filaseta–Ford–Konyagin–Pomerance–Yu claim page]]
-as a formalization of their solution), which states the site's question under
-its own definitions and proves its negation. This corpus has not built or
-checked it, and no local kernel credit is claimed.
+as a formalization of their solution), which states the erdosproblems.com
+question under its own definitions and proves its negation. This corpus has not
+built or checked it, and no local kernel credit is claimed.
 
 ## Progress
 

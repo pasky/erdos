@@ -6,7 +6,7 @@ desc: |
   $2^\lambda\to(\kappa_\alpha+1)_{\alpha<\gamma}^{r+1}$ implies
   $\lambda\to(\kappa_\alpha)_{\alpha<\gamma}^{r}$; open under the Erdős–Hajnal
   list's conditions $\gamma\geq2$ and all $\kappa_\alpha>r$, which exclude the
-  failures of the site's wording.
+  failures of the erdosproblems.com wording.
 tags:
 - Set theory
 - Ramsey theory
@@ -61,38 +61,39 @@ $$
 Here $+$ means cardinal addition, so that $\kappa_\alpha+1=\kappa_\alpha$ if
 $\kappa_\alpha$ is infinite.
 
-**Notes.** The site's wording follows the booklet item [Va99, 7.79] and puts no
-condition on $\gamma$ or on the $\kappa_\alpha$, and, read as the site words it,
-the implication is false. For $\gamma=1$ and $\kappa_0=\lambda^+$, the premise
-$2^\lambda\to(\lambda^+)^{r+1}_1$ says only that $2^\lambda\ge\lambda^+$, which
-holds, while $\lambda\to(\lambda^+)^r_1$ needs a subset of $\lambda$ of size
-$\lambda^+$. For $\gamma=2$, $\kappa_0=\lambda^+$ and $\kappa_1=r$, the premise
-holds: either some $(r+1)$-set has color $1$, or all of $2^\lambda$ is
-homogeneous in color $0$. The constant coloring of $[\lambda]^r$ with color $0$
-refutes the conclusion. Both failures are boundary cases of a dropped range, and
-the change adds the conditions $\gamma\ge2$ and $\kappa_\alpha>r$ of the
-Erdős–Hajnal list, which exclude them. Komjáth's Problem 2 ([Ko25b], p. 419)
-states the question for finite $r$ with $\kappa_\nu>r$ and a condition on
-$\gamma$ that the site's curator reads as $\gamma\ge2$, taking the printed
-inequality for a misprint. The curator's reply in the
-[discussion thread](https://www.erdosproblems.com/forum/thread/1167) points to
-these conditions rather than accepting a disproof, and the site kept the label
-OPEN. The
-[formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1167.lean)
+**Notes.** The erdosproblems.com wording follows the booklet item [Va99, 7.79]
+and puts no condition on $\gamma$ or on the $\kappa_\alpha$, and, read as
+Bloom's catalog words it, the implication is false. For $\gamma=1$ and
+$\kappa_0=\lambda^+$, the premise $2^\lambda\to(\lambda^+)^{r+1}_1$ says only
+that $2^\lambda\ge\lambda^+$, which holds, while $\lambda\to(\lambda^+)^r_1$
+needs a subset of $\lambda$ of size $\lambda^+$. For $\gamma=2$,
+$\kappa_0=\lambda^+$ and $\kappa_1=r$, the premise holds: either some
+$(r+1)$-set has color $1$, or all of $2^\lambda$ is homogeneous in color $0$.
+The constant coloring of $[\lambda]^r$ with color $0$ refutes the conclusion.
+Both failures are boundary cases of a dropped range, and the change adds the
+conditions $\gamma\ge2$ and $\kappa_\alpha>r$ of the Erdős–Hajnal list, which
+exclude them. Komjáth's Problem 2 ([Ko25b], p. 419) states the question for
+finite $r$ with $\kappa_\nu>r$ and a condition on $\gamma$ that the
+erdosproblems.com curator reads as $\gamma\ge2$, taking the printed inequality
+for a misprint. The curator's reply in the [discussion
+thread](https://www.erdosproblems.com/forum/thread/1167) points to these
+conditions rather than accepting a disproof, and erdosproblems.com kept the
+label OPEN. The [formal-conjectures statement
+file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1167.lean)
 adds $\gamma\ge2$ and $\kappa_\alpha>r$ and proves the first counterexample as
 its test lemma `erdos_1167.unrestricted_is_false`. That lemma is in a statement
 file, so it is not a formalization link and gets no claim page, and the corpus
 has not built it. Rafik Zeraoulia gave the first counterexample in a note of 31
-January 2026. It answers the site's wording, not the modified Statement, so it
-does not count toward the problem's standing; it is credited here and recorded
-on
+January 2026. It answers the erdosproblems.com wording, not the modified
+Statement, so it does not count toward the problem's standing; it is credited
+here and recorded on
 [[problems/set_theory/E1167/claims/2026_01_31_zeraoulia|Zeraoulia's rejected claim page]].
 The problem's standing judges the modified Statement.
 
-**Status.** The site's label was OPEN. The modified Statement, with the
-conditions $\gamma\ge2$ and $\kappa_\alpha>r$, is open. The counterexample to
-the site's wording at $\gamma=1$ is credited in the Notes and recorded on a
-rejected claim page.
+**Status.** The erdosproblems.com label was OPEN. The modified Statement, with
+the conditions $\gamma\ge2$ and $\kappa_\alpha>r$, is open. The counterexample
+to the erdosproblems.com wording at $\gamma=1$ is credited in the Notes and
+recorded on a rejected claim page.
 
 **Source.** [erdosproblems.com/1167](https://www.erdosproblems.com/1167),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1167,
@@ -116,25 +117,26 @@ https://www.erdosproblems.com/1167.
 
 ## Current assessment
 
-The site's Statement, as the site gave it on 2026-09-04 (page last edited 1
-September 2026), puts no condition on $\gamma$ or on the $\kappa_\alpha$, and,
-read as the site words it, it is false: for $\gamma=1$ and $\kappa_0=\lambda^+$
-the premise holds and the conclusion fails. Rafik Zeraoulia gave this
-counterexample in a note of 31 January 2026, recorded as rejected on
+The erdosproblems.com Statement, as erdosproblems.com gave it on 2026-09-04
+(page last edited 1 September 2026), puts no condition on $\gamma$ or on the
+$\kappa_\alpha$, and, read as Bloom's catalog words it, it is false: for
+$\gamma=1$ and $\kappa_0=\lambda^+$ the premise holds and the conclusion fails.
+Rafik Zeraoulia gave this counterexample in a note of 31 January 2026, recorded
+as rejected on
 [[problems/set_theory/E1167/claims/2026_01_31_zeraoulia|Zeraoulia's page]],
-since it answers the site's wording, not the modified Statement. The site
-labeled the problem OPEN, and its curator's reply in the discussion thread
-points to the conditions of the Erdős–Hajnal list rather than accepting a
-disproof. The modified Statement, which adds those conditions, is the statement
-this page's standing judges.
+since it answers the erdosproblems.com wording, not the modified Statement.
+Bloom's catalog labeled the problem OPEN, and its curator's reply in the
+discussion thread points to the conditions of the Erdős–Hajnal list rather than
+accepting a disproof. The modified Statement, which adds those conditions, is
+the statement this page's standing judges.
 
 The modified Statement, with the list's conditions $2\le r<\omega$,
 $\gamma\ge2$ and $\kappa_\alpha>r$, is open. Erdős, Hajnal, Máté and Rado prove
 five cases of it (see Known Results), and the case Erdős and Hajnal named as the
 most difficult in [ErHa71], $r=2$ with one singular $\kappa_\alpha$ and the
 others finite, is open even under GCH. This page records no current literature
-search beyond the site, its thread, the formal-conjectures file and Komjáth's
-survey.
+search beyond erdosproblems.com, its thread, the formal-conjectures file and
+Komjáth's survey.
 
 ## Known Results
 

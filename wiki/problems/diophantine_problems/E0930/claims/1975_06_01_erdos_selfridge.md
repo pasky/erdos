@@ -39,8 +39,8 @@ divisible by $l$.
 interval of positive integers, $k=2$ already works.
 
 **Standing.** The claim is `accepted` on refereed evidence: the theorem was
-published in Illinois J. Math. 19 (1975), no. 2, 292-301. The site's remark
-crediting the case $r=1$ to this paper is not counted as review, since the site
-labeled the problem OPEN.
+published in Illinois J. Math. 19 (1975), no. 2, 292-301. The erdosproblems.com
+remark crediting the case $r=1$ to this paper is not counted as review, since
+Bloom's catalog labeled the problem OPEN.
 
 **Depends on.** No page of this wiki.

@@ -188,7 +188,7 @@ the Theorem 3.1 page and not paged separately. Nothing here is
 independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1012/_index|#1012]]: Theorem 4.3
-(printed p. 320, PDF p. 6) is the site's "$f(0)=1$": "A graph with
+(printed p. 320, PDF p. 6) is erdosproblems.com's "$f(0)=1$": "A graph with
 $\nu_e(G)\ge\frac12(n-1)(n-2)+2$ edges has a Hamilton circuit", that is,
 $\binom{n-1}2+2$ edges force a cycle on all $n$ vertices, and its second
 sentence gives the sharpness, since $U_{n-1}$ with a single edge to an

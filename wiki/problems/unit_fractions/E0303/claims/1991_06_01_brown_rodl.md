@@ -5,7 +5,7 @@ desc: |
   Brown and Rödl's 1991 theorem states that every finite coloring of the
   positive integers has pairwise distinct $a,b,c$ of one color with
   $1/a=1/b+1/c$. It answers Problem 303 in the affirmative, is refereed, and is
-  credited by the site.
+  credited by erdosproblems.com.
 authors:
 - Tom C. Brown
 - Voijtech Rödl
@@ -64,8 +64,9 @@ solutions to equations with unit fractions, Bull. Austral. Math. Soc. 43 (1991),
 no. 3, 387--392. The publisher's record dates the issue June 1991 and gives no
 day. The day in this page's name is the first of that month.
 
-Reviewed: the site's curator, Thomas Bloom, marked Problem 303 proved and
-credits the coloring statement to Brown and Rödl in the problem's commentary.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, marked Problem 303 proved
+and credits the coloring statement to Brown and Rödl in the problem's
+commentary.
 
 The library holds the journal PDF and the author's copy on the
 [[../library/unit_fractions/brown_1991_monochromatic_solutions_equations_unit_fractions/_index|source card]].
@@ -79,9 +80,9 @@ Boris Alexeev's `lean-proofs` collection at the pinned commit (the third
 link) declares itself a Lean formalization of a solution to Problem 303 and
 names Brown and Rödl as its informal authors, the Formal Conjectures authors
 for the statement, and Seed-Prover, Aristotle, Zheng Yuan and Boris Alexeev
-as its formal authors. Its theorem `erdos_303` proves the site's integer
-formulation, distinct nonzero same-colored $a,b,c$ with $1/a=1/b+1/c$ for
-every finite coloring of the integers, by a re-proof with Aristotle of the
+as its formal authors. Its theorem `erdos_303` proves erdosproblems.com's
+integer formulation, distinct nonzero same-colored $a,b,c$ with $1/a=1/b+1/c$
+for every finite coloring of the integers, by a re-proof with Aristotle of the
 lemmas of Yuan's Seed-Prover proof, an independently produced proof that
 specializes this paper's reciprocal transfer to the single equation, with
 the finite Ramsey theorem (Schur's theorem) in place of Rado's theorem and

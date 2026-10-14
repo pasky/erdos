@@ -27,31 +27,33 @@ updated: 2026-10-08T02:16:54Z
 with at least $n^3+1$ edges must contain either a subgraph on $4$ vertices with
 $3$ edges or a subgraph on $5$ vertices with $7$ edges?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page carries no
-last-edited date). It restates Erdős's 1969 conjecture, printed as "Every
-$G_3(3n;n^3+1)$ contains either a $G_3(4;3)$ or a $G_3(5;7)$" ([Er69], p. 81;
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+carries no last-edited date). It restates Erdős's 1969 conjecture, printed as
+"Every $G_3(3n;n^3+1)$ contains either a $G_3(4;3)$ or a $G_3(5;7)$" ([Er69], p.
+81;
 [[../library/integer_sequences/erdos_1969_applications_graph_theory_number_theory/conjecture_p81|result page]]).
 The threshold $n^3+1$ and both forbidden configurations are Erdős's own print,
 and none of his words contradicts them, so the wording is judged as printed. Two
-facts recorded by the site's commentary and checked below bear on it: the second
-alternative is redundant, since a five-vertex 3-graph with seven edges always
-contains four vertices spanning three edges (Balogh's observation), and the
-statement is false, since the complete 3-partite 3-graph with three classes of
-$n$ vertices plus one triple inside a class has $n^3+1$ edges and no four
-vertices spanning three edges (Harris's counterexample at $n=3$). The threshold
-$n^3+1$ on $3n$ vertices corresponds to the density $(n^3+1)/\binom{3n}3\to2/9$.
+facts recorded by the erdosproblems.com commentary and checked below bear on it:
+the second alternative is redundant, since a five-vertex 3-graph with seven
+edges always contains four vertices spanning three edges (Balogh's observation),
+and the statement is false, since the complete 3-partite 3-graph with three
+classes of $n$ vertices plus one triple inside a class has $n^3+1$ edges and no
+four vertices spanning three edges (Harris's counterexample at $n=3$). The
+threshold $n^3+1$ on $3n$ vertices corresponds to the density
+$(n^3+1)/\binom{3n}3\to2/9$.
 
-The site's commentary calls the statement probably misstated and reads it as
-Turán's $(4,3)$ problem: determine $\mathrm{ex}_3(n,K_4^-)$, the largest number
-of triples on $n$ vertices with no four vertices spanning three of them, that is
-$m(n,3,4,3)$ in the notation of [FrFu84], and ask whether its density
-$\pi(K_4^-)=\lim\mathrm{ex}_3(n,K_4^-)/\binom n3$ equals $2/9$. It records that
-Turán had conjectured $1/4$ before [Er69] (the asymptotic $n^3/24$ of [FrFu84],
-p. 323), that Frankl and Füredi's construction gives at least $2/7$, which it
-calls the conjectured truth, and that the statement likely carries a typo. That
-reading is a guess no label acts on, so it is a variant with its own answer. Its
-question whether $\pi(K_4^-)$ equals $2/9$ has the answer no: Theorem 3 of
-[FrFu84]
+The erdosproblems.com commentary calls the statement probably misstated and
+reads it as Turán's $(4,3)$ problem: determine $\mathrm{ex}_3(n,K_4^-)$, the
+largest number of triples on $n$ vertices with no four vertices spanning three
+of them, that is $m(n,3,4,3)$ in the notation of [FrFu84], and ask whether its
+density $\pi(K_4^-)=\lim\mathrm{ex}_3(n,K_4^-)/\binom n3$ equals $2/9$. It
+records that Turán had conjectured $1/4$ before [Er69] (the asymptotic $n^3/24$
+of [FrFu84], p. 323), that Frankl and Füredi's construction gives at least
+$2/7$, which it calls the conjectured truth, and that the statement likely
+carries a typo. That reading is a guess no label acts on, so it is a variant
+with its own answer. Its question whether $\pi(K_4^-)$ equals $2/9$ has the
+answer no: Theorem 3 of [FrFu84]
 ([[../library/extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_3|result page]]),
 $\frac{2+o(1)}7\binom n3\le m(n,3,4,3)\le\frac13\binom n3\frac n{n-2}$, the
 lower bound from an iterated six-way blow-up and the upper bound de Caen's,
@@ -67,21 +69,21 @@ Current assessment records; this is a bounded negative finding for the exact
 value of $\pi(K_4^-)$, not a certificate of openness.
 
 **Status.** Disproved, by an elementary counterexample to the statement as
-printed. The site's label was DISPROVED (LEAN). It carries a catalog suffix
-explained under Formalization: the counterexample has been checked in Lean in
-external files the corpus has not built. The frontmatter standing is derived
-from the accepted claim page
+printed. The erdosproblems.com label was DISPROVED (LEAN). It carries a catalog
+suffix explained under Formalization: the counterexample has been checked in
+Lean in external files the corpus has not built. The frontmatter standing is
+derived from the accepted claim page
 [[problems/extremal_graph_theory/E0794/claims/2025_09_08_harris|Harris's counterexample]].
-Its acceptance evidence is the site's own, and it also carries the links to the
-Lean checks of the example. A pending claim page,
+Its acceptance evidence is erdosproblems.com's own, and it also carries the
+links to the Lean checks of the example. A pending claim page,
 [[problems/extremal_graph_theory/E0794/claims/2026_02_06_alexeev|Aristotle's Lean proof published by Alexeev]],
 records an independent Lean proof of the construction for every $n\ge3$. The
-counterexample is the site's, due to Harris, and is recomputed in the Current
-assessment. Take the $3$-uniform hypergraph on $\{1,\dots,9\}$ whose $28$ edges
-are the $27$ triples with one element in each of $\{1,2,3\}$, $\{4,5,6\}$,
-$\{7,8,9\}$, together with the triple $\{1,2,3\}$. It has $3^3+1$ edges on
-$3\cdot3$ vertices, and no four of its vertices span three edges (the check is
-in the Current assessment). So the statement fails at $n=3$. The same
+counterexample is erdosproblems.com's, due to Harris, and is recomputed in the
+Current assessment. Take the $3$-uniform hypergraph on $\{1,\dots,9\}$ whose
+$28$ edges are the $27$ triples with one element in each of $\{1,2,3\}$,
+$\{4,5,6\}$, $\{7,8,9\}$, together with the triple $\{1,2,3\}$. It has $3^3+1$
+edges on $3\cdot3$ vertices, and no four of its vertices span three edges (the
+check is in the Current assessment). So the statement fails at $n=3$. The same
 construction, the complete 3-partite 3-graph on $3n$ vertices plus one triple
 inside a class, fails it for every $n\ge3$ by the same check (a class needs
 three vertices to hold the extra triple).
@@ -107,19 +109,21 @@ https://www.erdosproblems.com/794, accessed 2026-09-18.
   [[../library/integer_sequences/erdos_1969_applications_graph_theory_number_theory/conjecture_p81|conjecture_p81]].
 - [FrFu84] Frankl, P. and Füredi, Z., An exact result for $3$-graphs. Discrete
   Math. 50 (1984), 323--328, doi:10.1016/0012-365X(84)90058-X (Crossref record
-  read on 2026-09-18; the site's reference text gives "Discrete Math. (1984),
-  323--328"); Theorem 3, p. 325; the disproof sentence, p. 324. Library home:
+  read on 2026-09-18; the erdosproblems.com reference text gives "Discrete Math.
+  (1984), 323--328"); Theorem 3, p. 325; the disproof sentence, p. 324. Library
+  home:
   [[../library/extremal_graph_theory/frankl_1984_exact_result_graphs/_index|frankl_1984_exact_result_graphs]].
 - [Er74c] Erdős, Paul, Extremal problems on graphs and hypergraphs. Hypergraph
-  Seminar, Lecture Notes in Math. 411 (1974), 75--84; p. 81. Not cited by the
-  site for this problem. Library home:
+  Seminar, Lecture Notes in Math. 411 (1974), 75--84; p. 81. Not cited by
+  erdosproblems.com for this problem. Library home:
   [[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/_index|erdos_1974_extremal_problems_graphs_hypergraphs]].
 - [JLM26] Jain, V., Luo, H. and Mubayi, D., On the maximum density of $r$-graphs
   in which every $(r+1)$-set spans $0$ or $2$ edges. arXiv:2606.20367 (18 June
   2026; abstract read). A preprint on Problem 1 of [FrFu84]; lead,
   recorded below.
 
-**Formalization.** The site's "(Lean)" suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's "(Lean)" suffix is a catalog label. The
+file
 [`ErdosProblems/794.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/794.lean)
 of formal-conjectures (main on 2026-09-18; the link is pinned to that revision)
 declares
@@ -142,9 +146,10 @@ external file named by the attribute, at the lean-proofs commit of 15 September
 2026 pinned on the claim page: 84 lines, headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, importing `Mathlib`, naming Phillip
 Harris as informal author and Aristotle, ChatGPT and Boris Alexeev as formal
-authors, and linking the site's thread. It defines the parts `S1 = {1, 2, 3}`,
-`S2 = {4, 5, 6}`, `S3 = {7, 8, 9}`, the edge set `counterexample_edges` (the
-transversal triples and `extra_edge = {1, 2, 3}`) and
+authors, and linking the erdosproblems.com thread. It defines the parts
+`S1 = {1, 2, 3}`, `S2 = {4, 5, 6}`, `S3 = {7, 8, 9}`, the edge set
+`counterexample_edges` (the transversal triples and `extra_edge = {1, 2, 3}`)
+and
 `has_subgraph E v e := ∃ s, s ⊆ V_set ∧ s.card = v ∧ (E.filter (· ⊆ s)).card ≥ e`
 with `V_set = Finset.Icc 1 9`; proves `counterexample_disproves_conjecture`
 (every edge has three elements, at least $3^3+1$ edges, no `(4, 3)` and no
@@ -169,12 +174,12 @@ The corpus has not built or audited any of these files, and no local credit is
 claimed. The community database (teorth/erdosproblems, `data/problems.yaml`,
 read 2026-09-18) records `status` "disproved (Lean)" and `formal_status` Lean as
 of its last update on 5 February 2026, the statement formalized since 4 August
-2026, and no formal-proof field; the site's indicator reads "Yes".
+2026, and no formal-proof field; the erdosproblems.com indicator reads "Yes".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-DISPROVED (LEAN); no last-edited date. The commentary records Balogh's
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED (LEAN); no last-edited date. The commentary records Balogh's
 observation that the statement is probably misstated, since a $3$-graph with
 seven edges on five vertices always has four vertices spanning three edges, so
 the second alternative is redundant; it then takes the question to be the Turán
@@ -190,16 +195,16 @@ later, since the file it links was first committed on 6 February 2026): a
 comment by Alexeev (19:27) reporting that Harris's counterexample was formalized
 by the direct finite check, with a link to the external file, a variant using
 `native_decide` and an update that Aristotle proved the result by itself without
-a supplied proof, with essentially the same example, to which the site appended
-a note that the page had been updated in response; a second commenter's remark
-(19:33) on the difference between `native_decide` and `decide`; and a comment by
-Alexeev (19:45) on the axioms each proof uses. The proof-claim tab is empty. The
-community database lists the problem as disproved (Lean) as of its last update
-on 5 February 2026.
+a supplied proof, with essentially the same example, to which erdosproblems.com
+appended a note that the page had been updated in response; a second commenter's
+remark (19:33) on the difference between `native_decide` and `decide`; and a
+comment by Alexeev (19:45) on the axioms each proof uses. The proof-claim tab is
+empty. The community database lists the problem as disproved (Lean) as of its
+last update on 5 February 2026.
 
 **The statement (the corpus's own checks).** Two elementary checks, the corpus's
-own and named as such; the site attributes the observations to Balogh and
-Harris.
+own and named as such; erdosproblems.com attributes the observations to Balogh
+and Harris.
 
 - Balogh's observation. A 3-uniform hypergraph on five vertices has at most
   $\binom53=10$ edges; each of its five four-vertex subsets contains four of
@@ -228,11 +233,11 @@ The disproof is therefore elementary and needs no unreviewed source; the
 external Lean file records the $n=3$ check by `decide`, as described under
 Formalization.
 
-**The Turán variant.** The site's reading, recorded in the Formulation as a
-variant: Erdős's threshold $n^3+1$ on $3n$ vertices (density $2/9$) was meant
-for the Turán-type problem of forbidding four vertices spanning three edges,
-that is $\mathrm{ex}_3(n,K_4^-)$, where the complete 3-partite construction is
-not extremal. The source-supported bounds are on
+**The Turán variant.** erdosproblems.com's reading, recorded in the Formulation
+as a variant: Erdős's threshold $n^3+1$ on $3n$ vertices (density $2/9$) was
+meant for the Turán-type problem of forbidding four vertices spanning three
+edges, that is $\mathrm{ex}_3(n,K_4^-)$, where the complete 3-partite
+construction is not extremal. The source-supported bounds are on
 [[../library/extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_3|Theorem 3 of Frankl and Füredi]]
 (p. 325):
 $\frac{2+o(1)}7\binom n3\le m(n,3,4,3)\le\frac13\binom n3\frac n{n-2}$, where
@@ -278,7 +283,7 @@ conjecture for $r$-graphs: Every $G_3(3n;n^3+1)$ contains either a
 $G_3(4;3)$ or a $G_3(5;7)$." No argument is given, and the paper turns to
 number theory. (The printed $\delta_{2,s}=1/2-1/2s$ differs from Turán's
 value $\frac12(1-\frac1{s-1})$ in this normalization; recorded on the result
-page, not corrected.) The site's key [Er69, p. 81] matches.
+page, not corrected.) The erdosproblems.com key [Er69, p. 81] matches.
 
 **Leads with provenance, not status.** [JLM26] (abstract read)
 improves the lower bound for Problem 1 of [FrFu84] (the maximum density of an
@@ -294,10 +299,10 @@ $\pi(K_4^-)$.
 **Search scope.** None of the routes below found a dispute
 of the disproof, a determination of $\pi(K_4^-)$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-18; the formal-conjectures file at the revision pinned above; the
-  external Lean file and the repository's directory listings at its head
-  of 15 September 2026; the community database record.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures file at the revision pinned above;
+  the external Lean file and the repository's directory listings at its head of
+  15 September 2026; the community database record.
 - The primary sources, at the pages cited: [Er69] pp. 80--81, [FrFu84]
   pp. 323--328, [Er74c] pp. 80--81.
 - Crossref: a bibliographic query for [FrFu84] (top record the Discrete

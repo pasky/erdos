@@ -49,13 +49,13 @@ arithmetic hypotheses.
 
 **Postings.** arXiv:2105.09387, first posted 19 May 2021 (revised 15 September
 2021); Proc. Amer. Math. Soc. 150 (2022), 2301--2307, published online 16
-March 2022. The paper is digested on its library card. The site's
+March 2022. The paper is digested on its library card. The erdosproblems.com
 commentary of 3 December 2025 names it as a generalization of Klarner's
 result.
 
 **Acceptance.** The evidence is the refereed publication in the Proceedings of
-the American Mathematical Society, together with the acceptance of the site's
-curator, Thomas Bloom. The commentary names the paper as a generalization of
-Klarner's result. Nothing was reviewed here.
+the American Mathematical Society, together with the acceptance of the
+erdosproblems.com curator, Thomas Bloom. The commentary names the paper as a
+generalization of Klarner's result. Nothing was reviewed here.
 
 **Depends on.** No page of this wiki.

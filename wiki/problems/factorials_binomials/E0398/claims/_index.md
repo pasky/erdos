@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 398, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/factorials_binomials/E0398/claims
@@ -17,7 +17,8 @@ $n!+1=m^2$ by modular congruences. The author withdrew it in 2015 and again in
 
 [[problems/factorials_binomials/E0398/claims/2017_02_14_sabihi|2017_02_14_sabihi]]: Ahmad Sabihi's ResearchGate manuscript claims a short solution of $n!=x^2-1$,
 that $n=4,5,7$ are the only solutions, and a generalization. The claim was
-rejected after a concrete error was shown in the site's discussion thread.
+rejected after a concrete error was shown in the erdosproblems.com discussion
+thread.
 
 [[problems/factorials_binomials/E0398/claims/2025_08_15_naciri|2025_08_15_naciri]]: Naciri proves that the only solutions of $n!+1=x^2$ with $x+1$ or $x-1$ 7-free
 are $n=4,5,7$, and that $n=4$ is the only one with $x+1$ or $x-1$ a prime

@@ -38,11 +38,11 @@ $$
 where $A$ ranges over all measurable subsets of $\mathbb{R}^2$ without two
 points distance $1$ apart. In particular, is $m_1\leq 1/4$?
 
-**Status.** Proved. The site's label answers the particular question. Ambrus,
-Csiszárik, Matolcsi, Varga and Zsámboki proved $m_1\le0.247<1/4$. This answers
-the site's question. It also proves Erdős's conjecture $m_1<1/4$ [Er85], read
-with the circle's area as the normalization. The result is recorded in `claims/`
-as an accepted claim. The
+**Status.** Proved. The erdosproblems.com label answers the particular question.
+Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki proved $m_1\le0.247<1/4$. This
+answers the erdosproblems.com question. It also proves Erdős's conjecture
+$m_1<1/4$ [Er85], read with the circle's area as the normalization. The result
+is recorded in `claims/` as an accepted claim. The
 [[../library/distance_problems/erdos_1985_problems_results_combinatorial_geometry/conjecture_p4|conjecture as printed]]
 (p. 4) divides the measure by $R^2$ rather than by the area $\pi R^2$, and in
 that form it is false. The estimate of $m_1$ itself remains between Croft's

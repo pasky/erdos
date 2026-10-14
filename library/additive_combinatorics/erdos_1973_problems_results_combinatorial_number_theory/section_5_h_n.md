@@ -46,7 +46,8 @@ $a_j/(a_i,a_j)$.
 theory*, A Survey of Combinatorial Theory (J. N. Srivastava et al., eds.),
 North-Holland (1973), Chapter 12, 117--138; printed pp. 124--125 (PDF
 pp. 8--9 of the 22-page scan read for this page; printed p. $n$ is PDF p. $n-116$),
-read on the page images; the site's key for Problem 539 is [Er73, p. 125].
+read on the page images; the erdosproblems.com key for Problem 539 is [Er73, p.
+125].
 
 **Read depth.** Claims checked: the section was read clause by clause on
 the page images. The bounds (5.2) are reported ("Szemerédi and I showed")
@@ -70,7 +71,7 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0539/_index|Problem 539]]: Erdős's statement of
-  the problem, the bounds (5.2) the site quotes as
+  the problem, the bounds (5.2) erdosproblems.com quotes as
   $n^{1/2}\ll h(n)\ll n^{1-c}$, and the limit question.
 - Problem 402: Graham's problem (5.1) is that problem's question; not
   assessed here.

@@ -36,18 +36,19 @@ formal-conjectures file states this question as a variant marked solved by that
 example. The Statement is the question printed just before that one, whether
 $B_2(n)=n$, $B_3(n+1)=n+1$ has no solution, with the $2$-full member first; it
 is open. The community database marks the original source as ambiguous about
-which question is meant, and the site's commentary discusses the pairs $8,9$ and
-$12167,12168$ under this number, but the site's wording renders the first
-question as printed, and that question sets the standing. Erdős expects in
-[Er76d, p. 31] that no two consecutive integers are both $3$-full, a weaker
-question that the site places in section B16 of Guy's collection [Gu04] as well.
+which question is meant, and the erdosproblems.com commentary discusses the
+pairs $8,9$ and $12167,12168$ under this number, but the erdosproblems.com
+wording renders the first question as printed, and that question sets the
+standing. Erdős expects in [Er76d, p. 31] that no two consecutive integers are
+both $3$-full, a weaker question that erdosproblems.com places in section B16 of
+Guy's collection [Gu04] as well.
 
-**Status.** Verifiable, the site's label (VERIFIABLE; page last edited 16 July
-2026). The site explained this label as open but provable by a finite example.
-No claim settles the question. The site's proof-claims tab carried one partial
-proof claim: Xeff's bound on any solution under Baker's
-explicit abc conjecture. It decides nothing and gets no claim page. The Current
-assessment records it with the reason.
+**Status.** Verifiable, the erdosproblems.com label (VERIFIABLE; page last
+edited 16 July 2026). erdosproblems.com explained this label as open but
+provable by a finite example. No claim settles the question. The
+erdosproblems.com proof-claims tab carried one partial proof claim: Xeff's bound
+on any solution under Baker's explicit abc conjecture. It decides nothing and
+gets no claim page. The Current assessment records it with the reason.
 
 **Source.** [erdosproblems.com/366](https://www.erdosproblems.com/366), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #366,
@@ -69,8 +70,8 @@ https://www.erdosproblems.com/366.
   Books in Mathematics, Springer, New York (2004), xviii+437 pp.; section B16
   "Powerful numbers. Squarefree numbers.", printed p. 106, which carries
   Erdős's questions on $k$-full numbers, among them the question on
-  consecutive full numbers that the site's commentary places there. Library
-  home:
+  consecutive full numbers that the erdosproblems.com commentary places there.
+  Library home:
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 
 **Formalization.** Statement in
@@ -83,21 +84,23 @@ example $12167$, $12168$. A statement file is not a formalization.
 ## Current assessment
 
 The question whether some $2$-full $n$ is followed by a $3$-full $n+1$ is open.
-It is verifiable in the site's sense, since one such $n$ would settle it; this
-page records that as a note, not as a claim. The site's commentary recalls that
-pairs of consecutive powerful numbers are infinite, as Mahler answered Erdős
-from the Pell equation $x^2=8y^2+1$, and that in the known pairs $8,9$ and
-$12167,12168$ (the second known to Golomb [Go70] and recalled by a reader) the
-$3$-full member comes first; by the OEIS sequence A060355 there is no further
-pair of that order below $10^{22}$. On the discussion thread, Turturean observed
-on 2026-04-14 that the abc conjecture implies only finitely many $n$ of the kind
-asked for, which a second reader confirmed and thought may be folklore.
+It is verifiable in erdosproblems.com's sense, since one such $n$ would settle
+it; this page records that as a note, not as a claim. The erdosproblems.com
+commentary recalls that pairs of consecutive powerful numbers are infinite, as
+Mahler answered Erdős from the Pell equation $x^2=8y^2+1$, and that in the known
+pairs $8,9$ and $12167,12168$ (the second known to Golomb [Go70] and recalled by
+a reader) the $3$-full member comes first; by the OEIS sequence A060355 there is
+no further pair of that order below $10^{22}$. On the discussion thread,
+Turturean observed on 2026-04-14 that the abc conjecture implies only finitely
+many $n$ of the kind asked for, which a second reader confirmed and thought may
+be folklore.
 
 The one proof claim is Theofil Xeff's manuscript *An elementary explicit
 conditional bound for a 2-full integer followed by a 3-full integer*
 ([PDF](https://theofilxeff.github.io/Erdos_366.pdf), dated 2026-07-22),
-submitted to the site's proof-claims tab the same day as a partial claim
-([proof claim 107](https://www.erdosproblems.com/forum/thread/366/proof-claims#proof-claim-107))
+submitted to the erdosproblems.com proof-claims tab the same day as a partial
+claim ([proof claim
+107](https://www.erdosproblems.com/forum/thread/366/proof-claims#proof-claim-107))
 with a Lean development
 ([repository](https://github.com/theofilxeff/erdos_366/tree/866c5c5e21589b55808f7b8ad1ec6e4ebf9dc346)
 at its public-release commit of 2026-07-22). Its theorem: under Baker's
@@ -116,16 +119,16 @@ the theorem with the conjecture as a hypothesis, and its README reports that
 the proof uses only the axioms `propext`, `Classical.choice` and
 `Quot.sound`. The result gets no claim page: it holds only under an unproved
 hypothesis and, even under it, settles no instance of the question, since it
-only bounds where a solution could lie, far beyond any computation. The site's
-label was unchanged, the curator has not credited the result, and the one
-comment on the claim approves of the bound in passing and is not a review.
-The Lean development was not built or audited by this corpus.
+only bounds where a solution could lie, far beyond any computation. The
+erdosproblems.com label was unchanged, the curator has not credited the result,
+and the one comment on the claim approves of the bound in passing and is not a
+review. The Lean development was not built or audited by this corpus.
 
-Search scope: the site's problem page, discussion thread and proof-claims tab,
-the manuscript's abstract and main statements, the Lean repository's README, and
-the community database's entry (formal status unformalized); the tab recorded no
-other claim on the problem, and on 2026-10-07 none of the others did. Nothing on
-this page is independently reviewed.
+Search scope: the erdosproblems.com problem page, discussion thread and
+proof-claims tab, the manuscript's abstract and main statements, the Lean
+repository's README, and the community database's entry (formal status
+unformalized); the tab recorded no other claim on the problem, and on 2026-10-07
+none of the others did. Nothing on this page is independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

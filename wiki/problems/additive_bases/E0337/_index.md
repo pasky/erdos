@@ -29,10 +29,10 @@ $$
 \lim_{N\to \infty}\frac{\lvert (A+A)\cap \{1,\ldots,N\}\rvert}{\lvert A\cap \{1,\ldots,N\}\rvert}=\infty?
 $$
 
-**Status.** Disproved, the site's label (DISPROVED (LEAN)). Turjányi [Tu84] gave
-a counterexample basis of every order $k\ge4$. Ruzsa and Turjányi [RT85] gave
-one of every order $h\ge3$, with the $(h-1)$-fold sumset in place of $A+A$.
-Their order-3 construction has a Lean 4 proof, which is the label's Lean
+**Status.** Disproved, the erdosproblems.com label (DISPROVED (LEAN)). Turjányi
+[Tu84] gave a counterexample basis of every order $k\ge4$. Ruzsa and Turjányi
+[RT85] gave one of every order $h\ge3$, with the $(h-1)$-fold sumset in place of
+$A+A$. Their order-3 construction has a Lean 4 proof, which is the label's Lean
 qualifier. The accepted claims are
 [[problems/additive_bases/E0337/claims/1984_01_01_turjanyi|Turjányi 1984]] and
 [[problems/additive_bases/E0337/claims/1985_01_01_ruzsa_turjanyi|Ruzsa and Turjányi 1985]].
@@ -54,8 +54,9 @@ https://www.erdosproblems.com/337.
 ## Current assessment
 
 **Disproved by Turjányi's 1984 construction (proceedings) and by Ruzsa and
-Turjányi's refereed 1985 paper.** The site's formulation above asks whether
-every additive basis $A$ of finite order with counting function $o(N)$ has
+Turjányi's refereed 1985 paper.** The erdosproblems.com formulation above asks
+whether every additive basis $A$ of finite order with counting function $o(N)$
+has
 $\lvert (A+A)\cap\{1,\ldots,N\}\rvert/\lvert A\cap\{1,\ldots,N\}\rvert\to\infty$.
 The answer is no. Turjányi's 1984 note builds a basis of order $k$ with a
 bounded $\liminf$ for every $k\ge4$; Ruzsa and Turjányi's Theorem 1 (1985)
@@ -69,15 +70,15 @@ $A\cap\{0,\ldots,N\}$, as the
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/337.lean)
 records with that derivation and a formal proof in a contributor's fork. The
 Lean 4 proof posted to the thread on 2025-12-10 (formal authors Aristotle and
-Boris Alexeev) formalizes the order-3 construction and gives the site's label
-its Lean qualifier; the same formal-conjectures file names it as the formal
-proof of its statement while noting two differences of form, and this project
-has not built or audited it, so the acceptance rests on the refereed 1985
-paper and the site's record. The statements of the 1985 paper are recorded on
-its source card; no proof is compiled or reviewed here, and Turjányi's note is
-not held in the library.
+Boris Alexeev) formalizes the order-3 construction and gives the
+erdosproblems.com label its Lean qualifier; the same formal-conjectures file
+names it as the formal proof of its statement while noting two differences of
+form, and this project has not built or audited it, so the acceptance rests on
+the refereed 1985 paper and the erdosproblems.com record. The statements of the
+1985 paper are recorded on its source card; no proof is compiled or reviewed
+here, and Turjányi's note is not held in the library.
 
-**Search scope.** The account above rests on the site's problem page
+**Search scope.** The account above rests on the erdosproblems.com problem page
 and forum thread (its comment of 2025-12-10), the
 formal-conjectures statement file, the header and theorem statements of the
 linked Lean file, and the Ruzsa and Turjányi source card. Neither paper's

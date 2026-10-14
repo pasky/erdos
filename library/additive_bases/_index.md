@@ -3,7 +3,7 @@ name: additive_bases
 title: "Additive Bases and Sidon Sets"
 desc: "Sources filed under Additive Bases and Sidon Sets, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:32:08Z
+updated: 2026-10-14T01:39:13Z
 ---
 
 # Additive Bases and Sidon Sets
@@ -327,9 +327,9 @@ grow slower than any power, answering a question of Erdos.
 [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/_index|jenw1n_2026_erdos_354_part_i_lean_proof/]]: Lean proof, accepted and paid by the bounty site Conjectures.io in September
 2026, that for two positive reals with irrational ratio every sufficiently
 large integer is a sum of floors of their doubling multiples with each index
-used at most once, the first question of Problem 354 in the site's exact
-reading; the Conjectures.io solution file is not held, was read as text and
-was replayed in the kernel here, and no refereed publication exists.
+used at most once, the first question of Problem 354 in erdosproblems.com's
+exact reading; Conjectures.io's solution file is not held, was read as text
+and was replayed in the kernel here, and no refereed publication exists.
 
 [[additive_bases/jin_2014_density_versions_plunnecke_inequality/_index|jin_2014_density_versions_plunnecke_inequality/]]: Gives Jin's simplified proof of Plünnecke's Schnirelmann density bound and
 epsilon-delta variants for lower asymptotic and Banach densities.
@@ -343,7 +343,7 @@ of the formal-conjectures statement of the second question of Problem
 354, which asks for some base between 1 and 2; the witness is the square
 root of the golden ratio, at which one floor sequence alone is already
 complete for every positive coefficient, so the pair and the irrational
-ratio play no role; a variant of the site's question, disputed as a
+ratio play no role; a variant of the erdosproblems.com question, disputed as a
 misformalization.
 
 [[additive_bases/kohayakawa_2015_number_sidon_sets_sparse_random_set_integers/_index|kohayakawa_2015_number_sidon_sets_sparse_random_set_integers/]]: Bounds the number of Sidon subsets of an interval exponentially in its

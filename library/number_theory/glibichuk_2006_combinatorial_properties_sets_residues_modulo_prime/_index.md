@@ -115,7 +115,7 @@ independently reviewed.
 p. 385, PDF p. 2, page image: for every $\varepsilon>0$, every sufficiently
 large prime $p$ and every residue $a$, pairwise distinct positive integers
 $x_1,\ldots,x_N\le p^\varepsilon$ with $N=8([1/\varepsilon+1/2]+1)^2$ and
-$a\equiv x_1^{-1}+\cdots+x_N^{-1}\pmod p$, the site's
+$a\equiv x_1^{-1}+\cdots+x_N^{-1}\pmod p$, erdosproblems.com's
 $C_\varepsilon\ll\varepsilon^{-2}$ for $p$ large in terms of $\varepsilon$;
 Lemma 4, p. 391, page image: for each integer $m>8([1/\varepsilon+1/2]+1)^2$ and
 $p$ large in terms of $\varepsilon$, every residue is a sum of $m$ inverses of

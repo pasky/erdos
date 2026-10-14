@@ -57,9 +57,9 @@ $\chi_L(G(n,1/2))=(1+o(1))\,n/(2\log_2 n)$ almost surely, an argument
 described in Alon's survey of choosability.
 
 **Acceptance.** Published in Combinatorica 19 (1999), no. 4, 453–472, dated
-1999-10-01 in the record (`refereed`). The site's curator, Thomas Bloom, listed
-Problem 799 as proved and credits the improvement to Alon, Krivelevich and
-Sudakov [AKS99] (`reviewed`). The source card is
+1999-10-01 in the record (`refereed`). The erdosproblems.com curator, Thomas
+Bloom, listed Problem 799 as proved and credits the improvement to Alon,
+Krivelevich and Sudakov [AKS99] (`reviewed`). The source card is
 [[../library/graph_coloring/alon_1999_list_coloring_random_pseudo_random_graphs/_index|Alon, Krivelevich and Sudakov 1999]].
 
 **Formalization.** The Lean file among the links, in Boris Alexeev's repository

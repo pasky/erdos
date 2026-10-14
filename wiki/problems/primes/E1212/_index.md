@@ -37,29 +37,30 @@ in a talk at Michigan State University Erdős asked whether there is an infinite
 path through visible lattice points no coordinate of which is $1$, and offered a
 prize for a proof. That question has the answer yes. The same evening Stewart
 joined $(p_k,p_{k+1})$ to $(p_{k+1},p_{k+2})$, where $p_k$ is the $k$th prime,
-by Chebyshev's theorem; the site's commentary writes the route out, through
-$(p_k,p_{k+2})$, and it stays in the graph when no multiple of $p_k$ lies in
-$[p_{k+1},p_{k+2}]$, which holds for $k\ge4$ since then $p_{k+2}<2p_k$. The path
-passes through the pairs $(p_k,p_{k+1})$, both of whose coordinates are prime.
-Erdős then wrote that perhaps the question should have asked for a path going to
-infinity that avoids the points both of whose coordinates are prime and the
-points with a coordinate $1$; that is the Statement, since for coprime pairs
+by Chebyshev's theorem; the erdosproblems.com commentary writes the route out,
+through $(p_k,p_{k+2})$, and it stays in the graph when no multiple of $p_k$
+lies in $[p_{k+1},p_{k+2}]$, which holds for $k\ge4$ since then $p_{k+2}<2p_k$.
+The path passes through the pairs $(p_k,p_{k+1})$, both of whose coordinates are
+prime. Erdős then wrote that perhaps the question should have asked for a path
+going to infinity that avoids the points both of whose coordinates are prime and
+the points with a coordinate $1$; that is the Statement, since for coprime pairs
 with both coordinates above $1$, avoiding pairs of primes is the same as having
 a composite coordinate. The passage also asks for a monotone path, every step
 increasing the distance from the origin, and for one that changes direction
-after a bounded number of steps; the site's commentary repeats both questions,
-which are not part of the Statement.
+after a bounded number of steps; the erdosproblems.com commentary repeats both
+questions, which are not part of the Statement.
 
-**Status.** OPEN. This is the site's label (page last edited 08 April 2026),
-with the explanation that the question cannot be settled by a finite
+**Status.** OPEN. This is the erdosproblems.com label (page last edited 08 April
+2026), with the explanation that the question cannot be settled by a finite
 computation. The derived standing departs from the label because of a pending
 proof. A pending full claim gives the derived standing `claimed` with claim
-`proved`, while the site's label records no accepted proof. The site's
-proof-claims tab carries one entry, a full claim by Alex Chengyu Li. It was
-published on Zenodo on 2026-09-06 and filed on the tab on 2026-09-07. Its tools
-line names Proof Engine, ChatGPT 5.6 and ChatGPT 6 Astra, and it comes with a
-Lean development this corpus has not built. The claim answers the Statement yes.
-The site has not accepted it, and it is recorded as pending on
+`proved`, while the erdosproblems.com label records no accepted proof. The
+erdosproblems.com proof-claims tab carries one entry, a full claim by Alex
+Chengyu Li. It was published on Zenodo on 2026-09-06 and filed on the tab on
+2026-09-07. Its tools line names Proof Engine, ChatGPT 5.6 and ChatGPT 6 Astra,
+and it comes with a Lean development this corpus has not built. The claim
+answers the Statement yes. erdosproblems.com has not accepted it, and it is
+recorded as pending on
 [[problems/primes/E1212/claims/2026_09_06_li|Li's claim page]].
 
 **Source.** [erdosproblems.com/1212](https://www.erdosproblems.com/1212),
@@ -80,16 +81,16 @@ corpus has not built it.
 
 ## Current assessment
 
-The site's wording carries one misprint, "the differ" for "they differ",
-flagged in the thread on 21 July 2026; "there by $\pm1$" follows Erdős's
-wording in [Er80] (p. 114) and means by $\pm1$ in that coordinate. The graph
-is thus the one in which two coprime pairs are adjacent when they differ by
-$1$ in exactly one coordinate. The site's commentary reports, after [Er80],
-that Herzog and Stewart studied this graph of visible lattice points and
-proved that it has a single infinite component, while noting that [HeSt71]
-does not address the question. Stewart's answer to Erdős's first question,
-recorded under Formulation, does not bear on the Statement, since its path
-runs through pairs of primes.
+The erdosproblems.com wording carries one misprint, "the differ" for "they
+differ", flagged in the thread on 21 July 2026; "there by $\pm1$" follows
+Erdős's wording in [Er80] (p. 114) and means by $\pm1$ in that coordinate. The
+graph is thus the one in which two coprime pairs are adjacent when they differ
+by $1$ in exactly one coordinate. The erdosproblems.com commentary reports,
+after [Er80], that Herzog and Stewart studied this graph of visible lattice
+points and proved that it has a single infinite component, while noting that
+[HeSt71] does not address the question. Stewart's answer to Erdős's first
+question, recorded under Formulation, does not bear on the Statement, since its
+path runs through pairs of primes.
 
 Li's claim is the only proof claim; its page records the route and its
 standing. The thread also holds observations that are not claims and have

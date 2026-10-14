@@ -39,7 +39,8 @@ problems, quoted from the 1985 survey.
 
 Lagarias, Jeffrey C., The {$3x+1$} problem: an overview. In *The Ultimate
 Challenge: The $3x+1$ Problem*, edited by Jeffrey C. Lagarias, American
-Mathematical Society, Providence, RI, 2010, pp. 3--29. The site's key La10.
+Mathematical Society, Providence, RI, 2010, pp. 3--29. The erdosproblems.com key
+La10.
 
 The copy read for this card is
 arXiv:2111.02635v1 [math.NT] (4 November 2021; the abstract page listed one
@@ -103,7 +104,7 @@ papers), and the problem page cites the current values from those cards.
   and closed under $x\mapsto2x+1$, $3x+1$, $6x+1$ have positive lower
   density? proved of density zero by Crampin and Hilton, unpublished, "The
   solvers collected £10 from Erdős", sourced to Hilton's 2010 private
-  communication [50]), which is the site's Problem 1134, and Klarner's
+  communication [50]), which is erdosproblems.com's Problem 1134, and Klarner's
   revised open problem with the maps $2x$, $3x+2$, $6x+3$ ("Klarner's
   Integer Sequence Problem").
 - Sections 3--5 (pp. 5--14): behavior of iterates, stochastic models,
@@ -114,7 +115,7 @@ papers), and the problem page cites the current values from those cards.
   and that a solution is out of reach at present, then, quoted: "To quote a
   still valid dictum of Paul Erdős ([58, p. 3]) on the problem: 'Mathematics
   is not yet ready for such problems.'" ([58] is Lagarias's 1985 Monthly
-  survey, the site's La85.)
+  survey, erdosproblems.com's La85.)
 - Sections 7--10 (pp. 16--23): why the problem is hard (pseudorandomness,
   non-computability), future prospects (the conjectures (C1)--(C5) and the
   open problem $\pi_1(x)>c(\epsilon)x^{1-\epsilon}$, p. 20, of which
@@ -141,10 +142,10 @@ subsidiary conjectures (C1)--(C2) are compiled as four statement pages, and
 the two Erdős quotations as quotations with locators; the survey proves
 nothing and nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: the site's pointer
-"for a detailed discussion of the history and theory"; the definitions of
-the two maps and the conjecture, the 2010 records (W1)--(W5), the "not yet
-ready" dictum quoted from Lagarias's 1985 survey and the "Hopeless.
+**Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: the
+erdosproblems.com pointer "for a detailed discussion of the history and theory";
+the definitions of the two maps and the conjecture, the 2010 records (W1)--(W5),
+the "not yet ready" dictum quoted from Lagarias's 1985 survey and the "Hopeless.
 Absolutely hopeless." remark from a private communication, and the Klarner
 prize-problem passage that connects Erdős to the $3x+1$ circle. The pages:
 [[number_theory/lagarias_2010_problem_overview/conjecture_p1|the $3x+1$ Conjecture]]
@@ -157,7 +158,7 @@ range over all integers and are implied on the positive integers by an
 affirmative answer, not the reverse; and
 [[number_theory/lagarias_2010_problem_overview/problem_p4|the Klarner passage]]
 is history, not mathematics of the problem. The source
-of the site's "'hopeless'" and of its citation of La85 for the prize
+of erdosproblems.com's "'hopeless'" and of its citation of La85 for the prize
 figure is not this survey (the prize figure does not occur in it).
 [[../wiki/problems/integer_sequences/E1134/_index|#1134]]: Section 2, p. 4 (page
 image), traces the problem to Klarner's contact with Erdős at the University of

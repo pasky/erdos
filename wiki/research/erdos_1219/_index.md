@@ -5,7 +5,7 @@ desc: "Author-recorded reconstruction of Shelah's Canonization Lemma 1.1, Theore
 tags: []
 sources: []
 created: 2026-09-28T04:33:22Z
-updated: 2026-10-08T13:55:35Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Shelah's canonization proof for Problem 1219
@@ -14,8 +14,8 @@ updated: 2026-10-08T13:55:35Z
 
 [[research/erdos_1219/corollary_1_3_reconstruction|corollary_1_3_reconstruction]]: Reconstructs Shelah's Corollary 1.3, the specialization of Theorem 1.2 to
 λ = ℵ_ω under ℵ_ω < 2^{ℵ_{n(0)}} < 2^{ℵ_{n(1)}} < ⋯, and proves that
-the sum over all n equals the catalog's sum over the subsequence, so the
-corollary states the relation asked by Problem 1219.
+the sum over all n equals the erdosproblems.com sum over the subsequence, so
+the corollary states the relation asked by Problem 1219.
 
 [[research/erdos_1219/evidence/_index|evidence/]]: Review records for the three reconstruction pages of Shelah's canonization
 proof; no executable evidence is held.
@@ -59,7 +59,7 @@ against page images of the held scan:
   $\chi=\sum_{\mu<\lambda}2^\mu\to(\lambda)^2_2$.
 - [[research/erdos_1219/corollary_1_3_reconstruction|Corollary 1.3]]
   (p. 1260): the case $\lambda=\aleph_\omega$, together with the proof
-  that the paper's sum over all $n$ equals the catalog's sum over the
+  that the paper's sum over all $n$ equals the erdosproblems.com sum over the
   subsequence.
 
 ## Where things stand

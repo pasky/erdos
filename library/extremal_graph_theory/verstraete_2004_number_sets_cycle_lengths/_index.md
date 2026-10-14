@@ -22,7 +22,7 @@ is o(2^n).
 
 J. Verstraëte, *On the number of sets of cycle lengths*, Combinatorica
 **24** (2004), no. 4, 719--730, DOI 10.1007/s00493-004-0043-6. The year and
-pages are the site's entry as carried by
+pages are the erdosproblems.com entry as carried by
 [[../wiki/problems/extremal_graph_theory/E0084/_index|#84]]; the volume, issue
 and DOI are the Crossref record's (read 2026-10-07; it gives no pages); the
 preprint read for this card carries no journal data.

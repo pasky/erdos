@@ -38,12 +38,12 @@ $$
 
 as $n\to \infty$?
 
-**Status.** SOLVED, the site's label. Schmidt's 1969 theorem, refereed in
-Inventiones Mathematicae, answers the question yes in every dimension. The
-derived standing is solved and proved, because the accepted claim on
-[[problems/discrepancy/E0988/claims/1969_03_01_schmidt|the claim page]] proves
-the statement. This standing is more specific than the site's label, which names
-no polarity.
+**Status.** SOLVED, the erdosproblems.com label. Schmidt's 1969 theorem,
+refereed in Inventiones Mathematicae, answers the question yes in every
+dimension. The derived standing is solved and proved, because the accepted claim
+on [[problems/discrepancy/E0988/claims/1969_03_01_schmidt|the claim page]]
+proves the statement. This standing is more specific than the erdosproblems.com
+label, which names no polarity.
 
 **Source.** [erdosproblems.com/988](https://www.erdosproblems.com/988), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #988,
@@ -56,9 +56,9 @@ https://www.erdosproblems.com/988.
 - [Sc69b] Schmidt, Wolfgang M., Irregularities of distribution. IV. Invent.
   Math. (1969), 55-82.
 
-**Formalization.** No formal-conjectures statement: the site's indicator
-reports no formalized statement and the community database records none. The
-file `src/latest/ErdosProblems/Erdos988.lean` of the GitHub repository
+**Formalization.** No formal-conjectures statement: the erdosproblems.com
+indicator reports no formalized statement and the community database records
+none. The file `src/latest/ErdosProblems/Erdos988.lean` of the GitHub repository
 `plby/lean-proofs` declares itself a Lean formalization of a solution to the
 problem, with Schmidt as its informal author and Codex and GPT-5.6 Sol as its
 formal authors; it proves $\lvert P\rvert\le512\,D(P)^4$ for every finite

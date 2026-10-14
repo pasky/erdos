@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0296/claims/2024_06_16_hunter_sawhney
 title: Hunter and Sawhney's estimate of k(N) from Bloom's theorem
 desc: |
-  Hunter and Sawhney's observation, recorded on the site, that Bloom's Theorem 3
-  applied by greedy removal gives $k(N)=(1-o(1))\log N$ disjoint subsets of
-  $\{1,\ldots,N\}$ with reciprocal sum one. This refutes the guess
+  Hunter and Sawhney's observation, recorded on erdosproblems.com, that Bloom's
+  Theorem 3 applied by greedy removal gives $k(N)=(1-o(1))\log N$ disjoint
+  subsets of $\{1,\ldots,N\}$ with reciprocal sum one. This refutes the guess
   $k(N)=o(\log N)$.
 authors:
 - Zachary Hunter
@@ -67,18 +67,19 @@ supplies Theorem 3; the greedy removal is the only further step. The
 sharpening of the error term rests on
 [[problems/unit_fractions/E0047/claims/2024_04_10_liu_sawhney|Liu and Sawhney's threshold]].
 
-**Acceptance.** The observation appears in no publication. The site's commentary
-records it and credits Hunter and Sawhney. An archived copy of the problem page
-captured on 16 June 2024 (the record link above) already shows the remark, the
-thanks to Zachary Hunter and Mehtaab Sawhney, and the label SOLVED. So the
-remark predates that date, and that date dates this page. The site's revision
-history begins only with a version of 20 October 2025 and records no finer date.
+**Acceptance.** The observation appears in no publication. The erdosproblems.com
+commentary records it and credits Hunter and Sawhney. An archived copy of the
+problem page captured on 16 June 2024 (the record link above) already shows the
+remark, the thanks to Zachary Hunter and Mehtaab Sawhney, and the label SOLVED.
+So the remark predates that date, and that date dates this page. The
+erdosproblems.com revision history begins only with a version of 20 October 2025
+and records no finer date.
 
-The site's curator, Thomas Bloom, labeled the problem proved on the strength of
-the estimate and credits the observation to Hunter and Sawhney. The curator is
-not one of them, and that credit is the `reviewed` evidence. The curator is the
-author of Theorem 3, which is refereed, but the deduction itself is unpublished,
-so `refereed` is not listed.
+The erdosproblems.com curator, Thomas Bloom, labeled the problem proved on the
+strength of the estimate and credits the observation to Hunter and Sawhney. The
+curator is not one of them, and that credit is the `reviewed` evidence. The
+curator is the author of Theorem 3, which is refereed, but the deduction itself
+is unpublished, so `refereed` is not listed.
 
 Three Lean files declare themselves formalizations of the estimate and are
 linked above. The first is the file in `plby/lean-proofs` that the

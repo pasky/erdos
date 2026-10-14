@@ -79,11 +79,11 @@ pins the PDF, the September 2 Palomar mechanical verification and automated
 statement review, and the exact external formal revision. The recorded
 kernel checks cover this uniform quantitative theorem. They and the
 exact-statement review are third-party checks the corpus did not build; the
-theorem is the accepted full claim on E625, accepted on the site curator's
-review and recorded on
+theorem is the accepted full claim on E625, accepted on the erdosproblems.com
+curator's review and recorded on
 [[../wiki/problems/graph_coloring/E0625/claims/2026_07_14_petkov|its claim page]],
-and the site labeled the problem SOLVED. The external checks do not cover the
-separate phase-dependent manuscript claim. Local reading checked the
+and Bloom's catalog labeled the problem SOLVED. The external checks do not cover
+the separate phase-dependent manuscript claim. Local reading checked the
 statement and final assembly visually, and selected intermediate interfaces
 in text. Human peer review and independent review of the entire manuscript
 have not been established here. No local full-manuscript audit, formal

@@ -32,31 +32,32 @@ $$
 
 which lie in $D$ is at most $\binom{n}{\lfloor n/2\rfloor}$?
 
-**Formulation.** The site's wording does not say whether the disc is open or
-closed. It is read as Erdős reads the question in his 1945 paper
-(pp. 898–899): an open disc, as in his Hilbert-space form, which counts the
-sign assignments whose sum lies in an open ball of radius one, so sums are
-counted by sign choice, with multiplicity. Read as a closed disc with moduli
-at least one, the assertion fails at $n=1$: with $z_1=1$, the closed unit
-disc about $0$ contains both sums $1$ and $-1$. When every modulus is
-strictly greater than one, a closed disc is allowed (Kleitman's Theorem I).
-Kleitman's 1965 plane theorem and its
+**Formulation.** The erdosproblems.com wording does not say whether the disc is
+open or closed. It is read as Erdős reads the question in his 1945 paper (pp.
+898–899): an open disc, as in his Hilbert-space form, which counts the sign
+assignments whose sum lies in an open ball of radius one, so sums are counted by
+sign choice, with multiplicity. Read as a closed disc with moduli at least one,
+the assertion fails at $n=1$: with $z_1=1$, the closed unit disc about $0$
+contains both sums $1$ and $-1$. When every modulus is strictly greater than
+one, a closed disc is allowed (Kleitman's Theorem I). Kleitman's 1965 plane
+theorem and its
 [[../library/analysis/kleitman_1965_lemma_littlewood_offord_distribution_certain_sums/open_disc_transfer|finite scaling consequence]]
 give the open-disc formulation; the linked result also records the endpoint
 counterexample.
 
-**Status.** PROVED (LEAN), the site's label. The site's Lean label is qualified
-in the formalization section below. The accepted claims are
+**Status.** PROVED (LEAN), the erdosproblems.com label. The erdosproblems.com
+Lean label is qualified in the formalization section below. The accepted claims
+are
 [[problems/analysis/E0498/claims/1965_08_01_kleitman|Kleitman's Theorem I with its open-disc consequence]]
 and
 [[problems/analysis/E0498/claims/1970_08_01_kleitman|Kleitman's Hilbert-space theorem]],
-both refereed and credited by the site's curator.
+both refereed and credited by the erdosproblems.com curator.
 [[problems/analysis/E0498/claims/1945_12_01_erdos|Erdős's real case]] is an
 accepted partial claim.
 
 **Source.** T. F. Bloom, [Erdős Problem #498](https://www.erdosproblems.com/498),
-accessed 2026-09-05. The original question above retains the site's wording;
-its linked formal statement uses the open-disc reading recorded above.
+accessed 2026-09-05. The original question above retains the erdosproblems.com
+wording; its linked formal statement uses the open-disc reading recorded above.
 
 **Formalization.** An exact formal statement and public proof sources are
 recorded under Public formalization evidence below; independent kernel
@@ -64,12 +65,12 @@ verification has not been reproduced here.
 
 ## Current assessment
 
-Search scope: the problem page, its sole discussion comment, the
+Search scope, 2026-09-05: the problem page, its sole discussion comment, the
 empty exposition and proof-claim listings, the original 1965 journal pages,
-and the exact formal targets with their version records. The site's
-`PROVED (LEAN)` label is recorded as site evidence. The ordinary proved
-status is supported by the source proof independently of that label. Of the
-three live-editor sources, the first (strict moduli, closed ball) has a
+and the exact formal targets with their version records. erdosproblems.com's
+`PROVED (LEAN)` label is recorded as erdosproblems.com evidence. The ordinary
+proved status is supported by the source proof independently of that label. Of
+the three live-editor sources, the first (strict moduli, closed ball) has a
 persistent copy in the `plby/lean-proofs` file recorded under Public
 formalization evidence below, pinned at its commit from Kleitman's claim
 page; no persistent copy or build log of the third source (moduli at least
@@ -133,10 +134,11 @@ Kleitman's 1965 paper resolves the complex-plane case. Its later
 has only its stated source claims and proof pointers recorded; its
 geometric proofs are separate from the complete plane argument.
 
-The site's broader Hilbert-space attribution is to Kleitman's 1970 paper.
-Its [original-publisher DOI](https://doi.org/10.1016/0001-8708(70)90038-1) and
-the accessible
-[2009 reprint abstract](https://link.springer.com/chapter/10.1007/978-0-8176-4842-8_32)
+erdosproblems.com's broader Hilbert-space attribution is to Kleitman's 1970
+paper. Its [original-publisher
+DOI](https://doi.org/10.1016/0001-8708(70)90038-1) and the accessible [2009
+reprint
+abstract](https://link.springer.com/chapter/10.1007/978-0-8176-4842-8_32)
 identify that separate work, which has its own accepted claim page,
 [[problems/analysis/E0498/claims/1970_08_01_kleitman|Kleitman 1970]]. No
 reconstructed proof of that generalization is claimed; the plane proof of

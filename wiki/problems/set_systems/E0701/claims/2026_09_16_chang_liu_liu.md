@@ -76,7 +76,7 @@ The Palomar registry's description of entry PALOMAR-2026-09-17-000004:
 > completely prepared by GPT-6.
 
 **Formulation.** The problem page's modified Statement adds Chvátal's finite
-ground set to the site's wording, and the theorem is that Statement.
+ground set to the erdosproblems.com wording, and the theorem is that Statement.
 
 **Formalization.** Boon Suan Ho's Lean 4 development *A formalization of
 Chang, Liu, and Liu's proof of Chvátal's conjecture*, registered at the
@@ -105,7 +105,7 @@ pages, both of which credit this preprint with the first proof and build on
 its ideas.
 
 **Acceptance.** None recorded. The preprint is not refereed, the forum entry has
-no comments, and the site labeled the problem OPEN. Two later
+no comments, and Bloom's catalog labeled the problem OPEN. Two later
 preprints by other authors state the conjecture as proved by this one. That is
 scholarly acknowledgment, not a review record. The claim stays `claimed` until
 an independent acceptance or a refereed publication is recorded.

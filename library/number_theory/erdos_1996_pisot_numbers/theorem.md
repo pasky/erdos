@@ -32,9 +32,9 @@ The introduction (p. 95) records the results it strengthens: Bugeaud proved
 ([2]) that for $1<q<2$, $q$ is Pisot if and only if $l_k(q)>0$ for all
 $k\ge1$; a former result ([8]) gives $q$ Pisot $\Rightarrow l_1(q)>0$, and
 "The same proof shows that $q$ is Pisot $\Rightarrow l_k(q)>0$ for all $k$."
-The Remark: "The proof improves some ideas from [7]." The site's Problem
-1096 page states the theorem with $\liminf(x^2_{k+1}-x^2_k)>0$ in place of
-$l_2(q)>0$; the two agree because for this sequence the infimum of the gaps
+The Remark: "The proof improves some ideas from [7]." erdosproblems.com's
+Problem 1096 page states the theorem with $\liminf(x^2_{k+1}-x^2_k)>0$ in place
+of $l_2(q)>0$; the two agree because for this sequence the infimum of the gaps
 equals their lower limit (the observation of Erdős, Joó and Komornik's 1998
 Acta Arithmetica paper, p. 201, for the digit set $\{0,1\}$; the same
 argument, adding a large power of $q$ to both ends of a small gap, applies
@@ -90,10 +90,10 @@ Erdős, Joó and Komornik's Acta Arithmetica paper, cited as an IRMA preprint
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E1096/_index|Problem 1096]]: the site's digit-$2$
-  characterization, "if $1<q<(1+\sqrt5)/2$, then $q$ is a
-  Pisot--Vijayaraghavan number if and only if $\liminf(x^2_{k+1}-x^2_k)>0$";
-  context for the problem's digit-$\{0,1\}$ sequence, whose gaps it bounds
-  away from $0$ at Pisot $q$ below $(1+\sqrt5)/2$, all above $1.32$, while
-  at other $q$ it says nothing about them, so it does not decide the
-  problem.
+- [[../wiki/problems/number_theory/E1096/_index|Problem 1096]]:
+  erdosproblems.com's digit-$2$ characterization, "if $1<q<(1+\sqrt5)/2$, then
+  $q$ is a Pisot--Vijayaraghavan number if and only if
+  $\liminf(x^2_{k+1}-x^2_k)>0$"; context for the problem's digit-$\{0,1\}$
+  sequence, whose gaps it bounds away from $0$ at Pisot $q$ below
+  $(1+\sqrt5)/2$, all above $1.32$, while at other $q$ it says nothing about
+  them, so it does not decide the problem.

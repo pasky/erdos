@@ -28,8 +28,8 @@ ready for such problems.' Despite this doleful pronouncement, study of the
 $3x+1$ problem has not been without reward." No occasion, date, reference or
 footnote is attached to the remark. Reference [36] is Guy's Unsolved
 Problems in Number Theory (1981), cited here for Problem B6 (aliquot
-sequences); the same book's Problem E16 is the site's source for the dictum
-in the wording "Mathematics may not be ready for such problems".
+sequences); the same book's Problem E16 is the erdosproblems.com source for the
+dictum in the wording "Mathematics may not be ready for such problems".
 
 **The prize sentence** (printed p. 4, PDF p. 3, fifth paragraph of § 1). "In
 the last ten years the $3x+1$ problem has forsaken its underground existence
@@ -47,17 +47,17 @@ note in which "B. Thwaites states he originated the $3x+1$ problem in 1952
 and offers 1000 pounds for a proof of the $3x+1$ Conjecture." The Erdős
 figure has no reference, date or occasion.
 
-**What follows for the problem page.** The site's caveat, that the prize
-"originated in a survey article by Lagarias [La85]" and that Lagarias later
-traced it to a conversation around 1983 in which Erdős rated the problem on
-his prize scale without offering a prize, is consistent with this paper: the
+**What follows for the problem page.** erdosproblems.com's caveat, that the
+prize "originated in a survey article by Lagarias [La85]" and that Lagarias
+later traced it to a conversation around 1983 in which Erdős rated the problem
+on his prize scale without offering a prize, is consistent with this paper: the
 paper lists a prize from Erdős among prizes "offered", between Coxeter's
 1970 figure and Thwaites's 1982 one, and gives no source. The 1983
-conversation is not in the paper; it rests on the site's report of a later
-communication. The dictum's wording here agrees with the 2010 overview's
+conversation is not in the paper; it rests on erdosproblems.com's report of a
+later communication. The dictum's wording here agrees with the 2010 overview's
 quotation of it
 ([[number_theory/lagarias_2010_problem_overview/section_6|Section 6 of the 2010 overview]],
-"[58, p. 3]") and differs in two words from the site's, which is Guy's
+"[58, p. 3]") and differs in two words from erdosproblems.com's, which is Guy's
 ("is not yet ready" against "may not be ready").
 
 **Source.** J. C. Lagarias, *The $3x+1$ Problem and Its Generalizations*,
@@ -81,7 +81,7 @@ source for either Erdős remark.
 ## Dependencies
 
 None within the paper. Outside it: Guy 1981 (its [36]), not held; its 2004
-third edition, the site's [Gu04], filed as
+third edition, erdosproblems.com's [Gu04], filed as
 [[number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]],
 whose section E16 (printed p. 330, PDF p. 348, read clause by clause on the
 page image) prints the dictum as "Mathematics may not be ready for such
@@ -90,8 +90,8 @@ problems" with no date, occasion or source; Trigg, Dodge and Meyers 1976
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E1135/_index|Problem 1135]]: the origin the site names
-  for the Erdős prize, printed here as one of three prizes "offered"
-  and without a source, and the printed form of the Erdős dictum, "not yet
-  ready", against the site's "may not be ready" from Guy. The paper does
-  not settle the problem or change its status.
+- [[../wiki/problems/number_theory/E1135/_index|Problem 1135]]: the origin
+  erdosproblems.com names for the Erdős prize, printed here as one of three
+  prizes "offered" and without a source, and the printed form of the Erdős
+  dictum, "not yet ready", against erdosproblems.com's "may not be ready" from
+  Guy. The paper does not settle the problem or change its status.

@@ -34,14 +34,15 @@ written for $n$ positive integers ((3.1), p. 310); the paper does not spell
 out the passage to arbitrary distinct integers (an observation made here).
 
 The paper's closing remark on how far $f(n)$ might grow, including the
-sentence the site renders as the authors' conjecture, is on its own page,
+sentence erdosproblems.com renders as the authors' conjecture, is on its own
+page,
 [[additive_combinatorics/choi_1975_sum_free_subsequences/remark_p313|Remark (p. 313)]].
 
 **Source.** S. L. G. Choi, J. Komlós and E. Szemerédi, *On sum-free
 subsequences*, Trans. Amer. Math. Soc. 212 (1975), 307--313, DOI
 10.1090/S0002-9947-1975-0376594-1 (received 13 August 1974); the definition
 and the Theorem on printed p. 307, read in the journal's printing; the
-site's key [CKS75] for Problem 790.
+erdosproblems.com key [CKS75] for Problem 790.
 
 **Read depth.** Claims checked: the definition and the Theorem were read
 clause by clause on the page image. The two proofs (Sections 2 and 3,

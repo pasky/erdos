@@ -7,7 +7,7 @@ desc: |
   asking for their density, counting function, gaps or growth, including
   covering-congruence and sieve questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T00:18:09Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Sequences and Densities of Integers
@@ -121,8 +121,8 @@ finite set $A$ of integers has two members $a,b$ with $\gcd(a,b)\leq a/|A|$.
 
 [[problems/integer_sequences/E0421/_index|E0421/]]: Asks whether there is an
 increasing sequence of density $1$ whose products of blocks of consecutive terms
-are all distinct. Chojecki and Sneiderman answered yes in July 2026, in work the
-site accepts but that is not refereed.
+are all distinct. Chojecki and Sneiderman answered yes in July 2026, in work
+erdosproblems.com accepts but that is not refereed.
 
 [[problems/integer_sequences/E0422/_index|E0422/]]: Asks how the sequence given
 by $f(1)=f(2)=1$ and $f(n)=f(n-f(n-1))+f(n-f(n-2))$ behaves, and whether it
@@ -136,7 +136,7 @@ earlier terms.
 [[problems/integer_sequences/E0424/_index|E0424/]]: Asks whether the integers
 that eventually appear, starting from $2,3$ and repeatedly appending every
 $a_ia_j-1$ with $i\neq j$, have positive density, read as positive lower density
-following the site's curator.
+following the erdosproblems.com curator.
 
 [[problems/integer_sequences/E0429/_index|E0429/]]: Asks whether every
 sufficiently sparse $A\subseteq\mathbb{N}$ that misses a residue class modulo
@@ -193,8 +193,8 @@ $q_n/n^2\to\infty$.
 [[problems/integer_sequences/E0457/_index|E0457/]]: Asks whether some
 $\epsilon>0$ gives infinitely many $n$ such that every prime
 $p\le(2+\epsilon)\log n$ divides $\prod_{1\le i\le\log n}(n+i)$; yes, by a 2026
-AI construction the site accepted. Erdős's 1979 form, which asks the opposite,
-has the answer no.
+AI construction erdosproblems.com accepted. Erdős's 1979 form, which asks the
+opposite, has the answer no.
 
 [[problems/integer_sequences/E0460/_index|E0460/]]: Asks whether
 $\sum_{0<a_i<n}1/a_i\to\infty$ for the greedy sequence with $a_0=0$, $a_1=1$ and
@@ -210,7 +210,7 @@ only source.
 [[problems/integer_sequences/E0471/_index|E0471/]]: Asks whether some finite set
 of primes grows without bound when one repeatedly adds every prime that is a sum
 of three distinct members; yes, by Vinogradov's three-primes theorem, an
-observation the site accepted.
+observation erdosproblems.com accepted.
 
 [[problems/integer_sequences/E0472/_index|E0472/]]: Asks whether some finite
 starting sequence of primes $q_1<\cdots<q_m$ makes infinite the sequence in
@@ -219,7 +219,7 @@ which each next term $q_{n+1}$ is the least prime of the form $q_n+q_i-1$.
 [[problems/integer_sequences/E0473/_index|E0473/]]: Asks whether the positive
 integers can be permuted so that every two consecutive terms sum to a prime;
 yes, by an unpublished construction of Odlyzko reported by Erdős and Graham in
-1980 and accepted by the site.
+1980 and accepted by erdosproblems.com.
 
 [[problems/integer_sequences/E0481/_index|E0481/]]: Asks whether, when $\sum_i
 1/a_i>1$, iterating the maps $x\mapsto a_ix+b_i$ from $A_1=(1)$ must produce
@@ -326,8 +326,8 @@ of $1/e$.
 
 [[problems/integer_sequences/E0689/_index|E0689/]]: Asks whether, for large $n$,
 one residue class can be chosen for each prime $p\le n$ so that every integer in
-$[1,n]$ lies in at least two of them. It was open on the site, with three
-pending AI-assisted full claims from April and July 2026.
+$[1,n]$ lies in at least two of them. It was open on erdosproblems.com, with
+three pending AI-assisted full claims from April and July 2026.
 
 [[problems/integer_sequences/E0691/_index|E0691/]]: Asks for a necessary and
 sufficient condition on a set of positive integers for its set of multiples to
@@ -387,8 +387,8 @@ dissociated sets.
 [[problems/integer_sequences/E0783/_index|E0783/]]: Asks which set of pairwise
 coprime integers in $\{2,\ldots,N\}$ with reciprocal sum at most a fixed $C$
 leaves the fewest integers up to $N$ divisible by none of its elements.
-Following the site, it is read up to an error of $o(N)$, and then the largest
-primes up to $N$ are optimal.
+Following erdosproblems.com, it is read up to an error of $o(N)$, and then the
+largest primes up to $N$ are optimal.
 
 [[problems/integer_sequences/E0784/_index|E0784/]]: Asks whether a set of
 integers in $[2,x]$ with reciprocal sum at most $C$ must leave $\gg x/(\log
@@ -401,7 +401,7 @@ products of distinct elements only with equally many factors.
 [[problems/integer_sequences/E0793/_index|E0793/]]: Asks whether the largest
 $A\subseteq\{1,\ldots,n\}$ in which no element divides the product of two others
 has size $\pi(n)+(C+o(1))n^{2/3}(\log n)^{-2}$. Chojecki's 2026 manuscript,
-accepted by the site, proves this with $C=27/2$.
+accepted by erdosproblems.com, proves this with $C=27/2$.
 
 [[problems/integer_sequences/E0795/_index|E0795/]]: Asks whether the largest
 $A\subseteq\{1,\ldots,n\}$ with all subset products distinct has size at most
@@ -508,8 +508,8 @@ than $r$ members divisible only by primes from some set of $r$ primes, and
 whether $2\pi(n^{1/2})-f(\pi(n)+1,n)\to\infty$.
 
 [[problems/integer_sequences/E0985/_index|E0985/]]: Asks whether every prime
-$p>2$ has a primitive root modulo $p$ that is a prime $q<p$. The site's wording
-also includes $p=2$, where it fails.
+$p>2$ has a primitive root modulo $p$ that is a prime $q<p$. The
+erdosproblems.com wording also includes $p=2$, where it fails.
 
 [[problems/integer_sequences/E1057/_index|E1057/]]: Asks whether the number
 $C(x)$ of Carmichael numbers up to $x$ satisfies $C(x)=x^{1-o(1)}$. The answer
@@ -580,8 +580,8 @@ $\tfrac14k\log k$ and $\tfrac12k\log k$.
 
 [[problems/integer_sequences/E1205/_index|E1205/]]: Asks for estimates of
 $F(x)$, the largest $F$ such that some choice of one class $a_n\pmod n$ for each
-$n\le x$ makes every $m\le x$ satisfy at least $F$ of the congruences. The
-site's own argument, a pending claim, gives $F(x)\sim\log x$.
+$n\le x$ makes every $m\le x$ satisfy at least $F$ of the congruences.
+erdosproblems.com's own argument, a pending claim, gives $F(x)\sim\log x$.
 
 [[problems/integer_sequences/E1209/_index|E1209/]]: Asks whether one $n$ making
 every $n+a_k$ prime, for a fast-growing integer sequence $a_k$, forces
@@ -599,5 +599,5 @@ gcd or lcm, or residue conditions, or by avoiding a pattern, asking for their
 density, counting function, gaps or growth, including covering-congruence and
 sieve questions.
 
-Site tags routed here: additive combinatorics, number theory, primes, sidon
-sets, squares.
+erdosproblems.com tags routed here: additive combinatorics, number theory,
+primes, sidon sets, squares.

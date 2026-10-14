@@ -37,7 +37,7 @@ paper's answer to Rabinowitz and Gilbert's question about ternary digits.
 Th. Stoll, *On families of nonlinear recurrences related to digits*, J.
 Integer Seq. **8** (2005), Article 05.3.2, 8 pp. Received 1 April 2005,
 revised version received 12 May 2005, published 24 May 2005 (the dates
-printed on p. 8). The site's key St05.
+printed on p. 8). The erdosproblems.com key St05.
 
 The copy read for this card is the journal's PDF, 8 pages whose printed
 page numbers equal the PDF page numbers. Its text layer garbles the
@@ -118,10 +118,10 @@ independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E0482/_index|#482]], whose
 first paragraph is the Graham--Pollak identity (Fact 1 here) and whose second
-asks for similar results for $\sqrt m$ and other algebraic numbers; the site's
-commentary cites this paper and Stoll's 2006 paper. Theorem 1.1 restates
-Rabinowitz and Gilbert's binary recurrence for every positive real $w$;
-Theorem 1.2 gives, for every positive real $w$, two infinite families of
+asks for similar results for $\sqrt m$ and other algebraic numbers; the
+erdosproblems.com commentary cites this paper and Stoll's 2006 paper. Theorem
+1.1 restates Rabinowitz and Gilbert's binary recurrence for every positive real
+$w$; Theorem 1.2 gives, for every positive real $w$, two infinite families of
 recurrences of the Graham--Pollak shape whose differences
 $u_{2n+1}-2u_{2n-1}$ are the binary digits of $w$; Theorem 1.3 gives, for
 every positive real $w$ and every integer base $g\ge2$, one pair of

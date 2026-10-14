@@ -32,15 +32,16 @@ $$
 
 (as $S$ ranges over all non-empty finite subsets of $A$) are monochromatic?
 
-**Formulation.** The site's wording on 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (the page shows no
 last-edited date). The set of finite subset sums of $A$ is its finite-sums set
 $FS(A)$, and the question asks whether one of the two color classes contains
-such a set for an infinite $A$ (the site's phrase: an IP set). The site fixes
-two colors and attributes the question to Graham and Rothschild, with source
-keys [Er73], [Er75b] and [Er77c]; Hindman's theorem gives the conclusion for
-every finite number of colors, and the two-color statement is its instance.
-Hindman states the theorem for a finite partition of $N$, the positive
-integers, and concludes with a sequence rather than a set; its Lemma 2.2 (p.
+such a set for an infinite $A$ (the erdosproblems.com phrase: an IP set).
+erdosproblems.com fixes two colors and attributes the question to Graham and
+Rothschild, with source keys [Er73], [Er75b] and [Er77c]; Hindman's theorem
+gives the conclusion for every finite number of colors, and the two-color
+statement is its instance. Hindman states the theorem for a finite partition of
+$N$, the positive integers, and concludes with a sequence rather than a set; its
+Lemma 2.2 (p.
 2) replaces any such sequence by a strictly increasing one whose finite sums
 lie among the original ones, so the sequence's terms form the infinite set $A$
 (an observation made here from the printed lemma). Baumgartner states the
@@ -49,41 +50,43 @@ $X=\{x_n:n\ge1\}$ and neither "infinite" nor "distinct" in the printed
 wording; it is read here with the $x_n$ distinct and positive, which his
 derivation of Theorem 1 from Theorem 2 supplies, since the $x_n$ are the
 values $\sum_{i\in s}2^i$ of infinitely many pairwise disjoint nonempty finite
-sets $s$. With that reading the site's positive integers with two colors
-follow by assigning $0$ to either class, and no removal of $0$ from $X$ is
-needed (an observation made here).
+sets $s$. With that reading erdosproblems.com's positive integers with two
+colors follow by assigning $0$ to either class, and no removal of $0$ from $X$
+is needed (an observation made here).
 
-**Status.** The site labeled the problem PROVED (LEAN), and its curator credits
-Hindman [Hi74] with the proof for every finite number of colors. Hindman's
-theorem (J. Combin. Theory Ser. A 17 (1974), 1--11, refereed) answers the
-question for every finite coloring. The paper is in the publisher's open
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN), and its curator
+credits Hindman [Hi74] with the proof for every finite number of colors.
+Hindman's theorem (J. Combin. Theory Ser. A 17 (1974), 1--11, refereed) answers
+the question for every finite coloring. The paper is in the publisher's open
 archive. Its Theorem 3.1 (p. 9) is the statement for a finite partition of the
 positive integers. Its proof (Lemmas 2.2--2.12, pp. 2--9, and a compactness
 argument on p. 9) was read for structure only. The second refereed proof is
 Baumgartner's note [Ba74] (J. Combin. Theory Ser. A 17 (1974), 384--386). Its
 Theorem 1 (p. 384) is the statement for $k$ cells of the nonnegative integers,
 and its Theorem 2, the finite-unions form, is proved in two pages. The theorem
-statements were checked here, and the proof was read for structure only. The
-site's "(LEAN)" suffix is a catalog label. The theorem is in Mathlib
-(`Hindman.FS_partition_regular`, `Hindman.exists_FS_of_finite_cover`), and an
-external Lean file derives the site's statement from it. Both are cited from
-their text at pinned commits. Nothing was built, and no local kernel credit is
-claimed (Formalization below). Label, sources and field agree. The claim pages
+statements were checked here, and the proof was read for structure only.
+erdosproblems.com's "(LEAN)" suffix is a catalog label. The theorem is in
+Mathlib (`Hindman.FS_partition_regular`, `Hindman.exists_FS_of_finite_cover`),
+and an external Lean file derives the erdosproblems.com statement from it. Both
+are cited from their text at pinned commits. Nothing was built, and no local
+kernel credit is claimed (Formalization below). Label, sources and field agree.
+The claim pages
 [[problems/ramsey_theory/E0532/claims/1974_07_01_hindman|Hindman 1974]] and
 [[problems/ramsey_theory/E0532/claims/1974_11_01_baumgartner|Baumgartner 1974]]
 record the results, their postings and their acceptance evidence, and the
 frontmatter standing derives from them. Both are accepted on their refereed
-publications, and Hindman's is also accepted on the site's credit. The Mathlib
-proof and the external Lean derivation of the site's statement are formalization
-links on Hindman's page, not built here.
+publications, and Hindman's is also accepted on the erdosproblems.com credit.
+The Mathlib proof and the external Lean derivation of the erdosproblems.com
+statement are formalization links on Hindman's page, not built here.
 
 **Source.** [erdosproblems.com/532](https://www.erdosproblems.com/532),
 accessed 2026-09-18: the problem page (labeled
-PROVED (LEAN), with the site's note that the answer is yes and that the
-proof has a Lean verification; no last-edited date; source keys [Er73][Er75b][Er77c]; commentary
-citing [Hi74] and Problems 531 and 948), its one-comment discussion thread
-(31 January 2026) and its empty proof-claim tab. Cite as: T. F. Bloom,
-Erdős Problem #532, https://www.erdosproblems.com/532, accessed 2026-09-18.
+PROVED (LEAN), with the erdosproblems.com note that the answer is yes and that
+the proof has a Lean verification; no last-edited date; source keys
+[Er73][Er75b][Er77c]; commentary citing [Hi74] and Problems 531 and 948), its
+one-comment discussion thread (31 January 2026) and its empty proof-claim tab.
+Cite as: T. F. Bloom, Erdős Problem #532, https://www.erdosproblems.com/532,
+accessed 2026-09-18.
 
 **References.**
 
@@ -121,30 +124,30 @@ Erdős Problem #532, https://www.erdosproblems.com/532, accessed 2026-09-18.
 - [Er80] Erdős, P., A survey of problems in combinatorial number theory.
   Ann. Discrete Math. (1980), 89--115; Section 5, pp. 104--105. Not a
   source key of this
-  problem on the site; its sentences on the theorem's three proofs are
+  problem on erdosproblems.com; its sentences on the theorem's three proofs are
   quoted below. Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label; see
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label; see
 "Formalization and the Lean label" below for the artifacts cited. The file
 [`ErdosProblems/532.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/532.lean)
 of formal-conjectures (main, fetched 2026-09-18) declares
 `erdos_532 : answer(True) ↔ ∀ (c : ℕ → Fin 2), ∃ A : Set ℕ, A.Infinite ∧ ∃ color : Fin 2, ∀ S : Finset ℕ, S.Nonempty → ↑S ⊆ A → c (∑ n ∈ S, n) = color`
 under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `plby/lean-proofs` `src/v4.29.1/ErdosProblems/Erdos532.lean` on
-that repository's `main` branch; its docstring repeats the site's attribution of
-the question to Graham and Rothschild and its credit of the proof to Hindman
-[Hi74], whatever the number of colors. The community database (record of 9
-September 2026) lists the problem as "proved (Lean)" as of its last update on 31
-January 2026, the statement formalized since 26 June 2026, `formal_status` Lean
-and no formal-proof URL; the site's indicator shows the statement as formalized.
-Nothing was built or kernel-checked here.
+that repository's `main` branch; its docstring repeats the erdosproblems.com
+attribution of the question to Graham and Rothschild and its credit of the proof
+to Hindman [Hi74], whatever the number of colors. The community database (record
+of 9 September 2026) lists the problem as "proved (Lean)" as of its last update
+on 31 January 2026, the statement formalized since 26 June 2026, `formal_status`
+Lean and no formal-proof URL; the erdosproblems.com indicator shows the
+statement as formalized. Nothing was built or kernel-checked here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above, labeled PROVED (LEAN) with the site's note that the answer is yes
-and that the proof has a Lean verification; no last-edited date. The
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above, labeled PROVED (LEAN) with the erdosproblems.com note that the answer is
+yes and that the proof has a Lean verification; no last-edited date. The
 commentary restates the question as asking for a color class that is an IP
 set, attributes it to
 Graham and Rothschild, credits Hindman [Hi74] with the proof, whatever the
@@ -152,8 +155,8 @@ number of colors, and points to Problems 531 and 948. The thread has one comment
 of 31 January 2026, reporting that the result is proved in Lean, that
 Hindman's theorem is in Mathlib with David Wärn as its author, and that the
 Mathlib proof takes the standard route through ultrafilters on
-$\mathbb{N}$; the site marks the comment as addressed. The proof-claim tab
-is empty.
+$\mathbb{N}$; Bloom's catalog marks the comment as addressed. The proof-claim
+tab is empty.
 
 **The origin (four Erdős passages).** [Er73],
 p. 122: "Graham and Rotschild [sic] ask the following beautiful question:
@@ -201,8 +204,8 @@ $FS(\langle x_n\rangle_{n=1}^\infty)=\{\sum_{n\in F}x_n:F\subseteq_fN\}$
 and $F\subseteq_fN$ means that $F$ is a non-empty finite subset of $N$
 (Definition 2.1 and the notation line, p. 1); the paper's $N$ is the
 positive integers (p. 9 writes $N\cup\{0\}$ for the set that admits
-$0$). With $a=2$ this is the site's statement, the sequence made strictly
-increasing by Lemma 2.2 (p. 2) as the Formulation notes. The abstract
+$0$). With $a=2$ this is the erdosproblems.com statement, the sequence made
+strictly increasing by Lemma 2.2 (p. 2) as the Formulation notes. The abstract
 (p. 1) states the two-class case in words: "if the natural numbers are
 divided into two classes, then there is a sequence drawn from one of those
 classes such that all finite sums of distinct members of that sequence
@@ -234,10 +237,10 @@ $X$ is infinite nor that the $x_n$ are distinct, and read literally it is
 met by $X=\{0\}$ in the cell holding $0$; the theorem is read here with the
 $x_n$ distinct and positive, as its derivation from Theorem 2 supplies
 (below). With $k=2$, and with $0$ placed in either class, this is then the
-site's statement over the positive integers, with nothing to remove from
-$X$; the site's parenthetical that the result holds however many colors
-are used is the theorem's $k$. Baumgartner proves the
-equivalent finite-unions form
+erdosproblems.com statement over the positive integers, with nothing to remove
+from $X$; the erdosproblems.com parenthetical that the result holds however many
+colors are used is the theorem's $k$. Baumgartner proves the equivalent
+finite-unions form
 ([[../library/ramsey_theory/baumgartner_1974_short_proof_hindman_theorem/theorem_2|Theorem 2]]:
 in any finite partition of the finite nonempty subsets of $N$ some cell
 contains an infinite pairwise disjoint family all of whose finite unions
@@ -251,12 +254,12 @@ depth: claims checked for Theorems 1 and 2 and the definitions; the lemma
 statements were read; no proof step was checked here, and nothing is
 independently reviewed. Acceptance evidence: two refereed journal
 publications (Hindman's and Baumgartner's), the four Erdős
-surveys reporting the theorem as proved, the site's label and the
+surveys reporting the theorem as proved, the erdosproblems.com label and the
 theorem's presence in Mathlib.
 
-**Formalization and the Lean label.** The site's "(LEAN)" suffix is a catalog
-label. Three artifacts are cited at pinned commits; none was built here. (1)
-Mathlib's
+**Formalization and the Lean label.** erdosproblems.com's "(LEAN)" suffix is a
+catalog label. Three artifacts are cited at pinned commits; none was built here.
+(1) Mathlib's
 [`Mathlib/Combinatorics/Hindman.lean`](https://github.com/leanprover-community/mathlib4/blob/4541bc634ebcfb60dee900d88eaaafe03c8df5d0/Mathlib/Combinatorics/Hindman.lean)
 (`master` of 2026-09-18T04:00Z; 12,911 bytes; header "Authors: David Wärn")
 proves Hindman's theorem "using idempotent ultrafilters" for an arbitrary
@@ -283,9 +286,10 @@ with a `sorry` body and a `formal_proof` attribute pointing at the `main`
 branch of (2), not at a commit; the head named above is the one cited here.
 The relation claimed: the theorem in (2) is, symbol for symbol, the right side
 of the collection's `erdos_532`; no statement-fidelity review beyond that
-comparison was made, and the convention that Lean's `ℕ` contains `0` while the
-site's $\mathbb{N}$ is the positive integers was not bridged formally. The
-community database records `formal_status` Lean and no formal-proof URL.
+comparison was made, and the convention that Lean's `ℕ` contains `0` while
+erdosproblems.com's $\mathbb{N}$ is the positive integers was not bridged
+formally. The community database records `formal_status` Lean and no
+formal-proof URL.
 
 **Neighbors.** [[problems/ramsey_theory/E0531/_index|Problem 531]] asks for the
 growth of the finite Folkman numbers, whose existence [Er73] states on the
@@ -294,8 +298,8 @@ sequence can be made to grow slowly, which Galvin's coloring and a 2026
 disproof answer negatively. [[problems/ramsey_theory/E1198/_index|Problem 1198]]
 asks the same for sums of products of disjoint blocks (disproved through a
 1995 theorem of Smith) and [[problems/ramsey_theory/E1199/_index|Problem 1199]]
-for $A+A$ with the doubles included (open on the site; Hindman's theorem
-gives the version without them, as the site notes).
+for $A+A$ with the doubles included (open on erdosproblems.com; Hindman's
+theorem gives the version without them, as erdosproblems.com notes).
 [[problems/ramsey_theory/E0172/_index|Problem 172]] is the finite
 sums-and-products question.
 
@@ -303,7 +307,7 @@ sums-and-products question.
 of the theorem, a retraction, or anything else bearing on the status; the
 additional items are leads recorded from their titles.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database
   record.
 - Crossref records for [Hi74] (JCTA 17 (1974), no. 1, 1--11, July 1974;
@@ -331,9 +335,9 @@ and Lemma 2.2 is proved in Hindman's 1972 paper, which was not read. (2)
 Baumgartner's two-page proof was read for structure only, and no step of
 Lemmas 1--4 was checked. (3) The Lean developments are cited from their text
 and not built; the `0`-versus-positive-integer convention between the
-collection's statement and the site's wording was not bridged. (4) Glazer's
-ultrafilter proof, the route Mathlib takes, is not compiled here, and its
-source (Comfort's survey) was not read.
+collection's statement and the erdosproblems.com wording was not bridged. (4)
+Glazer's ultrafilter proof, the route Mathlib takes, is not compiled here, and
+its source (Comfort's survey) was not read.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

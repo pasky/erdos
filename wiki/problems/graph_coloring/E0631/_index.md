@@ -34,22 +34,23 @@ distinct colours.
 
 Does every planar graph $G$ have $\chi_L(G)\leq 5$? Is this best possible?
 
-**Status.** Proved. The site answers both questions yes. It credits Thomassen
-[Th94] with the upper bound $\chi_L(G)\le 5$ for all planar $G$. It credits
-Voigt [Vo93] with a planar graph that is not $4$-choosable, so the bound is
-sharp. It credits Gutner [Gu96] with a simpler construction, a planar graph of
-$75$ vertices against Voigt's $238$. Each result is an accepted partial claim:
-[[problems/graph_coloring/E0631/claims/1994_09_01_thomassen|Thomassen]] for the
-first question, and
+**Status.** Proved. erdosproblems.com answers both questions yes. It credits
+Thomassen [Th94] with the upper bound $\chi_L(G)\le 5$ for all planar $G$. It
+credits Voigt [Vo93] with a planar graph that is not $4$-choosable, so the bound
+is sharp. It credits Gutner [Gu96] with a simpler construction, a planar graph
+of $75$ vertices against Voigt's $238$. Each result is an accepted partial
+claim: [[problems/graph_coloring/E0631/claims/1994_09_01_thomassen|Thomassen]]
+for the first question, and
 [[problems/graph_coloring/E0631/claims/1993_09_01_voigt|Voigt]] and
 [[problems/graph_coloring/E0631/claims/1996_11_01_gutner|Gutner]] for the
 second.
 [[problems/graph_coloring/E0631/claims/1996_01_01_mirzakhani|Mirzakhani's]]
-$63$-vertex witness is also an accepted partial claim. The site does not credit
-it, but the discussion thread links it. The problem page lists the two questions
-as its parts: the upper bound and its sharpness. The accepted partial claims
-settle both. So the standing derived from the claim pages is solved with the
-claim proved. See also [[problems/graph_coloring/E0630/_index|Problem 630]].
+$63$-vertex witness is also an accepted partial claim. erdosproblems.com does
+not credit it, but the discussion thread links it. The problem page lists the
+two questions as its parts: the upper bound and its sharpness. The accepted
+partial claims settle both. So the standing derived from the claim pages is
+solved with the claim proved. See also
+[[problems/graph_coloring/E0630/_index|Problem 630]].
 
 **Source.** [erdosproblems.com/631](https://www.erdosproblems.com/631), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #631,
@@ -66,32 +67,32 @@ https://www.erdosproblems.com/631.
 - [Vo93] Voigt, Margit, List colourings of planar graphs. Discrete Math. (1993),
   215-219.
 
-**Formalization.** None recorded by the site. A Lean 4 development in Boris
-Alexeev's lean-proofs collection declares itself a formalization of a solution
-to the problem and names Thomassen and Voigt as its informal authors; it is
-linked from their claim pages and described under Current assessment. This
+**Formalization.** None recorded by erdosproblems.com. A Lean 4 development in
+Boris Alexeev's lean-proofs collection declares itself a formalization of a
+solution to the problem and names Thomassen and Voigt as its informal authors;
+it is linked from their claim pages and described under Current assessment. This
 corpus has not built or audited it.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks whether every planar graph
-has list chromatic number at most $5$ and whether $5$ is best possible. Both
-answers are yes.
+The erdosproblems.com formulation (accessed 2026-09-04) asks whether every
+planar graph has list chromatic number at most $5$ and whether $5$ is best
+possible. Both answers are yes.
 [[problems/graph_coloring/E0631/claims/1994_09_01_thomassen|Thomassen 1994]]
 proves the bound $\chi_L(G)\le5$ for every planar graph;
 [[problems/graph_coloring/E0631/claims/1993_09_01_voigt|Voigt 1993]] gives a
 planar graph on $238$ vertices that is not $4$-choosable, and
 [[problems/graph_coloring/E0631/claims/1996_11_01_gutner|Gutner 1996]] one on
-$75$ vertices. All three are refereed and credited by the site's curator, and
-the two parts of the problem, the upper bound and its sharpness, are settled by
-these accepted partial claims, so the standing derived from them is solved
-with the claim proved. The question was raised by Erdős, Rubin and Taylor
-[ERT80], who conjectured both answers. A smaller witness than Gutner's exists:
-Mirzakhani, *A small non-4-choosable planar graph*, Bull. Inst. Combin. Appl.
-17 (1996), 15--18, gives a $3$-colorable planar graph on $63$ vertices that is
-not $4$-choosable, which a comment of 4 December 2025 in the site's discussion
-thread describes as the smallest known; it is an accepted partial claim on its
-refereed publication
+$75$ vertices. All three are refereed and credited by the erdosproblems.com
+curator, and the two parts of the problem, the upper bound and its sharpness,
+are settled by these accepted partial claims, so the standing derived from them
+is solved with the claim proved. The question was raised by Erdős, Rubin and
+Taylor [ERT80], who conjectured both answers. A smaller witness than Gutner's
+exists: Mirzakhani, *A small non-4-choosable planar graph*, Bull. Inst. Combin.
+Appl. 17 (1996), 15--18, gives a $3$-colorable planar graph on $63$ vertices
+that is not $4$-choosable, which a comment of 4 December 2025 in the
+erdosproblems.com discussion thread describes as the smallest known; it is an
+accepted partial claim on its refereed publication
 ([[problems/graph_coloring/E0631/claims/1996_01_01_mirzakhani|claim page]]),
 although the curator does not credit it and it changes no part's standing. The
 size of the smallest planar graph that is not $4$-choosable is not part of the
@@ -114,11 +115,11 @@ lists `formalized` evidence; the community database records no formalized
 statement and the formal-conjectures repository has no file for the problem
 (2026-10-07).
 
-Search scope: the site's page and discussion thread, the community database
-(teorth/erdosproblems), the formal-conjectures repository, the lean-proofs
-collection and Crossref. The site listed no proof claims, and on 2026-10-07
-the thread held two comments and none of these sources showed another claim on
-the problem.
+Search scope: the erdosproblems.com page and discussion thread, the community
+database (teorth/erdosproblems), the formal-conjectures repository, the
+lean-proofs collection and Crossref. erdosproblems.com listed no proof claims,
+and on 2026-10-07 the thread held two comments and none of these sources showed
+another claim on the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

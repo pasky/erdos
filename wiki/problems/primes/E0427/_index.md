@@ -30,12 +30,13 @@ $$
 
 where $p_r$ denotes the $r$th prime?
 
-**Status.** PROVED (LEAN), the site's label. The site credits Cédric Pilatte's
-observation that the answer follows from Shiu's theorem on runs of consecutive
-primes in one residue class [Sh00]. It also records Lean proofs of the statement
-outside this corpus. The deduction, the credit and the Lean developments are on
-the [[problems/primes/E0427/claims/2024_05_25_pilatte|claim page]]. None of the
-Lean proofs is built here.
+**Status.** PROVED (LEAN), the erdosproblems.com label. erdosproblems.com
+credits Cédric Pilatte's observation that the answer follows from Shiu's theorem
+on runs of consecutive primes in one residue class [Sh00]. It also records Lean
+proofs of the statement outside this corpus. The deduction, the credit and the
+Lean developments are on the
+[[problems/primes/E0427/claims/2024_05_25_pilatte|claim page]]. None of the Lean
+proofs is built here.
 
 **Source.** [erdosproblems.com/427](https://www.erdosproblems.com/427), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #427,

@@ -85,8 +85,8 @@ decomposition of graphs*, Acta Math. Acad. Sci. Hungar. 18 (1967), no. 3-4,
 
 **Acceptance.** Refereed: both results appeared in refereed journals, cited
 above: Transactions of the American Mathematical Society and Acta Mathematica
-Academiae Scientiarum Hungaricae. The site labeled the problem OPEN, since the
-characterization is open. For this pair, its remarks credit Nešetřil and Rödl
-with the first property and Erdős and Hajnal with the second. Credit on an OPEN
-problem is not counted as `reviewed`. Nothing on this page is independently
-reviewed by this project.
+Academiae Scientiarum Hungaricae. Bloom's catalog labeled the problem OPEN,
+since the characterization is open. For this pair, its remarks credit Nešetřil
+and Rödl with the first property and Erdős and Hajnal with the second. Credit on
+an OPEN problem is not counted as `reviewed`. Nothing on this page is
+independently reviewed by this project.

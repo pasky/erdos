@@ -39,9 +39,9 @@ diameter of triangle-free graphs*, Combinatorica **18** (1998), no. 4,
 $h(G)$ for $h_2(G)$ and takes logarithms to base two. So every sequence of
 triangle-free graphs of bounded maximum degree has $h_2(G_n)=O(n\log n)$,
 which is $o(n^2)$, and the modified Statement holds for such sequences. The
-upper bound needs no assumption on isolated vertices; the site's commentary
-states the result for graphs without isolated vertices, an assumption that
-belongs to the paper's matching lower bound
+upper bound needs no assumption on isolated vertices; the erdosproblems.com
+commentary states the result for graphs without isolated vertices, an assumption
+that belongs to the paper's matching lower bound
 ([[../library/extremal_graph_theory/erdos_1998_decrease_diameter_triangle_free_graphs/theorem_2_6|Theorem 2.6]]
 and
 [[../library/extremal_graph_theory/erdos_1998_decrease_diameter_triangle_free_graphs/corollary_2_7|Corollary 2.7]]).
@@ -55,10 +55,11 @@ $o(n^{1/2})$, is the accepted full claim
 **Depends on.** Nothing in this wiki; the proof is the paper's own, rewritten
 on the result page linked above.
 
-**Acceptance.** Refereed: Combinatorica 18 (1998), no. 4, 493--501. The site's
-commentary credits the authors with the bounded-degree bound. But the site's
-PROVED (LEAN) label credited Alon's solution, so the curator's credit is not an
-acceptance of this result, and `reviewed` is not listed.
+**Acceptance.** Refereed: Combinatorica 18 (1998), no. 4, 493--501. The
+erdosproblems.com commentary credits the authors with the bounded-degree bound.
+But erdosproblems.com's PROVED (LEAN) label credited Alon's solution, so the
+curator's credit is not an acceptance of this result, and `reviewed` is not
+listed.
 
 **Dating.** The page is dated by the issue date Crossref records for the
 paper, 1 April 1998; the day is the issue's nominal first day.

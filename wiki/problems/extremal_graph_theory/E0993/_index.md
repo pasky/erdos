@@ -27,12 +27,12 @@ size $k$ in a graph $G$, and $T$ is any tree or forest, then for some $m\geq 0$
 $$i_{0}(T)\leq i_{1}(T)\leq\cdots\leq i_{m}(T)\geq i_{m+1}(T)\geq
 i_{m+2}(T)\geq\cdots.$$
 
-**Status.** Falsifiable. The label is the site's (FALSIFIABLE on 2026-10-06;
-page last edited 1 February 2026). It is a body note, not a standing: a
-counterexample would be one forest whose sequence is not unimodal, which is a
-finite check. The frontmatter standing is derived from the claim pages. There is
-a pending full claim, so the standing is `claimed`. Two claims are recorded, and
-neither is accepted. Zhang and Li's manuscript, on
+**Status.** Falsifiable. The label is erdosproblems.com's (FALSIFIABLE on
+2026-10-06; page last edited 1 February 2026). It is a body note, not a
+standing: a counterexample would be one forest whose sequence is not unimodal,
+which is a finite check. The frontmatter standing is derived from the claim
+pages. There is a pending full claim, so the standing is `claimed`. Two claims
+are recorded, and neither is accepted. Zhang and Li's manuscript, on
 [[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|its claim page]],
 claims the conjecture for every finite forest. It was revised on 6 October 2026
 with Vallier and a Lean development. Its first arXiv submission was withdrawn
@@ -71,20 +71,20 @@ statement of formal-conjectures pull request #4192 renamed, on `propext`,
 
 ## Current assessment
 
-The site's label FALSIFIABLE (2026-10-06) is a body note, not a standing.
-The compiled source note concerns arbitrary graphs; it gives no tree or
-forest counterexample. The later literature on the conjecture is linked
-below and not compiled on this page.
+The erdosproblems.com label FALSIFIABLE (2026-10-06) is a body note, not a
+standing. The compiled source note concerns arbitrary graphs; it gives no tree
+or forest counterexample. The later literature on the conjecture is linked below
+and not compiled on this page.
 
-**Falsifiability.** The site's label records that the conjecture is
+**Falsifiability.** The erdosproblems.com label records that the conjecture is
 falsifiable: a single forest whose independence sequence fails to be unimodal
 refutes it, and the sequence of a given forest is a finite computation. The
 label says nothing about whether such a forest exists, and the problem's
 standing is derived from the claim pages, not from the label.
 
-**Claims on the site.** On 2026-10-06 the site carried two claims, recorded on
-their claim pages and summarized in the Status paragraph. The partial claim of
-Fang, Lu, Nevo, Yao and Zheng
+**Claims on erdosproblems.com.** On 2026-10-06 erdosproblems.com carried two
+claims, recorded on their claim pages and summarized in the Status paragraph.
+The partial claim of Fang, Lu, Nevo, Yao and Zheng
 ([[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|claim page]])
 reaches every forest above an existential threshold and leaves the small
 forests, and so the conjecture itself, open; the full claim of Zhang and Li
@@ -95,8 +95,8 @@ this corpus has built or reviewed none of their Lean developments; the Palomar
 registry's kernel replay of the registered formalization of the Zhang–Li
 revision (11 October 2026) is neither a build by this corpus nor a review. The
 developments are described as their READMEs and the registry's record state
-them. The site labeled the problem FALSIFIABLE (2026-10-06), and the page adopts
-neither claim.
+them. Bloom's catalog labeled the problem FALSIFIABLE (2026-10-06), and the page
+adopts neither claim.
 
 ## Known Results
 

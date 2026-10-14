@@ -30,9 +30,9 @@ $$
 
 irrational, where $\tau(n)$ is the number of divisors of $n$?
 
-**Status.** Proved. The catalog labeled the problem PROVED (LEAN) (page last
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (LEAN) (page last
 edited 28 May 2026). It says the proof was verified in Lean and credits Chojecki
-and GPT-5.4 Pro via Tao--Teräväinen [TaTe25]. The label is retained from the
+and GPT-5.4 Pro via Tao--Teräväinen [TaTe25]. The label is retained from Bloom's
 catalog. The frontmatter standing derives from the
 [[problems/irrationality/E0258/claims/2026_04_14_chojecki|claim page]] for
 Chojecki's deduction. That deduction is accepted on the curator's credit and on
@@ -64,20 +64,20 @@ https://www.erdosproblems.com/258.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/258.lean),
 tagged research solved (revision of 2026-10-06), whose `formal_proof`
 attribute cites a Lean 4 gist that the user ster (GitHub `ster-oc`) posted to
-the site's thread on 2026-04-21. The gist's header calls it Chojecki's
-original formalization. Ster writes that Aristotle was used to make it
-conditional on Theorem 1.1 of Tao and Teräväinen itself, and the gist declares
-that theorem as a Lean `axiom` and proves the deduction from it. Chojecki's
-own formalization, which Chojecki writes was obtained with Aristotle (thread,
-2026-04-14), rests instead on the corollary $\tau(N+k)\le\Lambda^k$, which
-it leaves as a `sorry`. No Lean build, dependency audit, or axiom audit was
-performed here; the claim page links both.
+the erdosproblems.com thread on 2026-04-21. The gist's header calls it
+Chojecki's original formalization. Ster writes that Aristotle was used to make
+it conditional on Theorem 1.1 of Tao and Teräväinen itself, and the gist
+declares that theorem as a Lean `axiom` and proves the deduction from it.
+Chojecki's own formalization, which Chojecki writes was obtained with Aristotle
+(thread, 2026-04-14), rests instead on the corollary $\tau(N+k)\le\Lambda^k$,
+which it leaves as a `sorry`. No Lean build, dependency audit, or axiom audit
+was performed here; the claim page links both.
 
 ## Current assessment
 
 Remark 1.4 is direct source-stated evidence for the exact nonmonotone question.
 This compilation records its statement and proof pointer. The recorded
-acceptance is the catalog's PROVED (LEAN) label with its credit and the
+acceptance is the erdosproblems.com PROVED (LEAN) label with its credit and the
 adoption of the deduction by the authors of the input theorem, listed as
 `reviewed` on the claim page; refereed publication, independent proof review
 and a local formal verification are not recorded, and this corpus awards no
@@ -89,7 +89,7 @@ $|a_n|>c(\log n)^{3/4}$, are the accepted partial claim on
 [[problems/irrationality/E0258/claims/1971_03_01_erdos_straus|their claim page]];
 they settle classes of instances and not the question.
 
-Search scope: the site's page, its discussion thread (eight comments,
+Search scope: the erdosproblems.com page, its discussion thread (eight comments,
 2026-04-14 to 2026-05-18, no proof claims), the formal-conjectures file and
 Chojecki's note at ulam.ai; no dispute or contrary claim was found, and no
 wider literature search was made.

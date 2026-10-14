@@ -81,11 +81,11 @@ bound $N_m<m!\,e$ quoted beside it; the lower bound itself uses nothing else.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: in the site's
-  convention $f(m)=S(m)+1=N_m+1$, the bound gives $f(m)\ge(3^m+1)/2$, an
-  exponential lower bound with base $3$; it does not touch the question
-  whether $f(k)<c^k$, which asks for an upper bound.
-- [[../wiki/problems/ramsey_theory/E0554/_index|Problem 554]]: the site
+- [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: in the
+  erdosproblems.com convention $f(m)=S(m)+1=N_m+1$, the bound gives
+  $f(m)\ge(3^m+1)/2$, an exponential lower bound with base $3$; it does not
+  touch the question whether $f(k)<c^k$, which asks for an upper bound.
+- [[../wiki/problems/ramsey_theory/E0554/_index|Problem 554]]: erdosproblems.com
   credits Schur with $C^k\ll R_k(K_3)$; the paper concerns integers only, and
   the passage to Ramsey numbers is the later difference coloring (color the
   edge $\{i,j\}$ of $K_{N_m+1}$ by the row of $|i-j|$), which gives

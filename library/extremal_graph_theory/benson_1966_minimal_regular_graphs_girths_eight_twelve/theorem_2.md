@@ -82,6 +82,6 @@ preserving the distinguished lines (stated as known).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0572/_index|Problem 572]]: the $k=5$
-  construction behind the site's "Benson has proved this conjecture for
+  construction behind erdosproblems.com's "Benson has proved this conjecture for
   $k=5$", giving $\mathrm{ex}(n;C_{10})\gg n^{6/5}$ through the deduction
   above.

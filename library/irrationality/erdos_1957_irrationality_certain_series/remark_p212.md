@@ -50,11 +50,11 @@ and $\sum 1/t^{n+p_n}$, $p_n$ the greatest prime factor of $n$, since the
 analogue of (1) with $\varphi$, $\sigma$ or the greatest prime factor in
 place of $d$ is false.
 
-## Relation to the catalog
+## Relation to Bloom's catalog
 
 Problem 249 asks the first question for $t=2$, Problem 250 the second and
 Problem 69 the third ($\nu=\omega$). The paper poses them for every integer
-base $t>1$; the catalog fixes $t=2$, and the all-base statement is a
+base $t>1$; Bloom's catalog fixes $t=2$, and the all-base statement is a
 variant of each problem, not the problem. Theorem 1 of the same paper
 settles the exponent variants $\sum 1/t^{\varphi(n)}$ and
 $\sum 1/t^{\sigma(n)}$, which are different series and say nothing about

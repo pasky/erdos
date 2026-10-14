@@ -56,13 +56,13 @@ $1+o(1)$, which Yokota's theorem
 does. The paper's introduction (p. 598) conjectures that the exponent $2$
 can be replaced by $1+\delta$, the question itself.
 
-**Attribution.** The site's commentary attaches this paper's exponent-2
-bound to the first paper's key [BlEr76]; the problem page records the
+**Attribution.** The erdosproblems.com commentary attaches this paper's
+exponent-2 bound to the first paper's key [BlEr76]; the problem page records the
 collision.
 
 **Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of
 Egyptian fractions II, Illinois J. Math. 20 (1976), no. 4, 598--613. The
-publisher's record dates the issue 1 December 1976. The site's PROVED
+publisher's record dates the issue 1 December 1976. erdosproblems.com's PROVED
 label credited Yokota's paper, not this one, so no `reviewed` evidence is
 listed. This claim is partial: it settles the lower half of the estimate,
 not the question.

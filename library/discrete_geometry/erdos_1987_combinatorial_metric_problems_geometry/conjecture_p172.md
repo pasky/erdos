@@ -56,8 +56,8 @@ integral-distance theorem.
 
 ## Bears on
 
-- [[../wiki/problems/distance_problems/E0212/_index|Problem 212]]: the site
-  asks whether some dense subset of $\mathbb R^2$ has all pairwise
-  distances rational; Ulam's conjecture as reported here is that no
+- [[../wiki/problems/distance_problems/E0212/_index|Problem 212]]:
+  erdosproblems.com asks whether some dense subset of $\mathbb R^2$ has all
+  pairwise distances rational; Ulam's conjecture as reported here is that no
   infinite plane set with all distances rational is everywhere dense, the
   negative answer.

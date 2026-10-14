@@ -40,18 +40,18 @@ and $z_k=i$ for $2\le k\le n$, both coordinates of every signed sum are odd
 integers, so every signed sum has absolute value at least $\sqrt2$. They
 proposed radius $\sqrt d$ in dimension $d$ [CaCa11, Conjecture 4, p. 156],
 whose planar case is the Statement, and left open whether radius $1$
-suffices for odd $n$. The site states the problem with radius $\sqrt2$, and
-that question sets the standing; the formal-conjectures file states the
+suffices for odd $n$. erdosproblems.com states the problem with radius $\sqrt2$,
+and that question sets the standing; the formal-conjectures file states the
 radius-$1$ form as the variant `erdos_395.variants.one`, with the answer no.
 The Current assessment records what is known for odd $n$ at radius $1$.
 
-**Status.** Proved. The site showed PROVED (LEAN), a catalog label explained
-under Formalization. Two accepted full claims answer the question. The first is
-[[problems/analysis/E0395/claims/1983_03_01_beck|Beck's 1983 theorem]], a
-refereed journal paper. It is recorded as [HJNS24] and [HPS25] quote it, and its
-planar case is the question. The second is
+**Status.** Proved. erdosproblems.com showed PROVED (LEAN), a catalog label
+explained under Formalization. Two accepted full claims answer the question. The
+first is [[problems/analysis/E0395/claims/1983_03_01_beck|Beck's 1983 theorem]],
+a refereed journal paper. It is recorded as [HJNS24] and [HPS25] quote it, and
+its planar case is the question. The second is
 [[problems/analysis/E0395/claims/2024_08_20_he_juskevicius_narayanan_spiro|Theorem 1.1 of He, Juškevičius, Narayanan and Spiro]]
-[HJNS24], an arXiv preprint credited by the site's curator.
+[HJNS24], an arXiv preprint credited by the erdosproblems.com curator.
 
 **Source.** [erdosproblems.com/395](https://www.erdosproblems.com/395), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #395,
@@ -77,7 +77,7 @@ https://www.erdosproblems.com/395.
   parity conditions. arXiv:2510.05044v1 (6 October 2025). Library home:
   [[../library/analysis/hollom_sorkin_2025_reverse_littlewood_offord_parity_conditions/_index|hollom_sorkin_2025_reverse_littlewood_offord_parity_conditions]].
 
-**Formalization.** The site's (LEAN) suffix is a catalog label. A
+**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. A
 statement file in `google-deepmind/formal-conjectures` and the proof file
 it names in `plby/lean-proofs` are described, at the commits their links
 pin, under "Formalization and the Lean label" below; neither was built or
@@ -91,7 +91,7 @@ independent uniform signs, and the probability that
 $\lvert\sum_i\epsilon_iz_i\rvert\le\sqrt2$, asked to be $\gg1/n$. The
 radius $\sqrt2$ replaces the radius $1$ of Erdős's 1945 conjecture,
 which fails for even $n$ as the Formulation records ([HJNS24], p. 2,
-crediting [CaCa11]). The site label was PROVED (LEAN).
+crediting [CaCa11]). The erdosproblems.com label was PROVED (LEAN).
 
 **Status: proved.** The status-defining source is [HJNS24], Theorem 1.1
 (arXiv v3, p. 2): there is an absolute constant $c>0$ such that for any
@@ -109,7 +109,7 @@ linked from an author's page and labelled "Submitted" in its listing of
 2026-09-05, carries the same text; no journal publication of it was
 identified. Both [HPS25] (p. 2) and [HS25] (p. 2) treat the
 radius-$\sqrt2$ question as settled and build on it. The order $1/n$ is
-best possible ([HJNS24], p. 14). Search scope: the sources above.
+best possible ([HJNS24], p. 14). Search scope, 2026-09-05: the sources above.
 
 **Local proof coverage.** The
 [[../library/analysis/he_2024_reverse_littlewood_offord_problem_erdos/theorem_1_1|Theorem 1.1 page]]
@@ -174,9 +174,9 @@ quote it.
 
 ## Formalization and the Lean label
 
-The site labeled the problem PROVED (LEAN). The site's page (accessed
-2026-09-05) carried that label and supplied no proof-claim record, exposition or
-link to a formal statement or proof. The community database
+Bloom's catalog labeled the problem PROVED (LEAN). The erdosproblems.com page
+(accessed 2026-09-05) carried that label and supplied no proof-claim record,
+exposition or link to a formal statement or proof. The community database
 (`teorth/erdosproblems`, `data/problems.yaml` at its revision of 2026-09-18)
 records `formal_status` Lean, last updated 2026-08-24, and no formal-proof URL.
 The two files below are described at the commits their links pin; nothing was
@@ -187,8 +187,8 @@ built or kernel-checked here, and no local kernel credit is claimed.
 [`FormalConjectures/ErdosProblems/395.lean`](https://github.com/google-deepmind/formal-conjectures/blob/568ea401e53e67cdadb1e60064c6dfd520103177/FormalConjectures/ErdosProblems/395.lean)
 is 82 lines at the linked commit of 19 September 2026, titled "Add Erdős
 Problem 395 (the reverse Littlewood–Offord problem), link the formal proof
-(#6168)", the last to touch the file on the `main` branch as of
-2026-09-22. In namespace `Erdos395` it
+(#6168)", on 2026-09-22 the last to touch the file on the `main`
+branch. In namespace `Erdos395` it
 defines `signedSumCount {n : ℕ} (z : Fin n → ℂ) (r : ℝ) : ℕ` as the `ncard` of the
 set of `ε : Fin n → ℤ` with every `ε i = -1 ∨ ε i = 1` and
 `‖∑ i, (ε i : ℂ) * z i‖ ≤ r`, and states
@@ -232,14 +232,13 @@ copy and links an online type-checker; it carries no build report or
 axiom audit, and no public build is linked.
 
 **What this does and does not settle.** Both formal statements read as
-the site's question: unit complex numbers, uniform independent signs, the
-closed disk of radius $\sqrt2$, and a lower bound $c/n$ on the
-probability. The statement file counts integer sign vectors and the proof
-file counts Boolean ones, so the two definitions differ and no bridging
-statement between them is recorded here. No statement-fidelity review
-exists; the proof was not built or kernel-checked here; and the
-description above rests on the named lines and the token search alone.
-The label is retained as the site's; the
+the erdosproblems.com question: unit complex numbers, uniform independent signs,
+the closed disk of radius $\sqrt2$, and a lower bound $c/n$ on the probability.
+The statement file counts integer sign vectors and the proof file counts Boolean
+ones, so the two definitions differ and no bridging statement between them is
+recorded here. No statement-fidelity review exists; the proof was not built or
+kernel-checked here; and the description above rests on the named lines and the
+token search alone. The label is retained as erdosproblems.com's; the
 mathematical status above rests on [HJNS24] and the quoted Beck theorem,
 not on the label or on these files.
 <!-- BEGIN problem library links -->

@@ -34,10 +34,10 @@ the only arXiv version on 2026-09-18; the journal version
 was not compared, and page numbers below are the preprint's. The paper
 attributes the question and the lower bound 2^(floor(n/4)) to Cameron and
 Erdős's 1999 paper (Combin. Probab. Comput. 8 (1999), 95--107, its [6]) and
-the conjecture f(n) = O(2^(n/2)) to their 1990 Banff paper (its [5]); the
-site keys problem 877 to the 1990 paper. Read status: claims checked for
-the definitions, the attribution paragraph, the Łuczak--Schoen and Wolfovitz
-bounds as quoted, Theorem 1.1, the two constructions and Question 1.2
+the conjecture f(n) = O(2^(n/2)) to their 1990 Banff paper (its [5]);
+erdosproblems.com keys problem 877 to the 1990 paper. Read status: claims
+checked for the definitions, the attribution paragraph, the Łuczak--Schoen and
+Wolfovitz bounds as quoted, Theorem 1.1, the two constructions and Question 1.2
 (pp. 1--2; p. 2 on the page image); Section 2's tools (Lemma 2.1, Theorem
 2.2, Lemmas 2.3--2.4) read as statements; the proof (Section 3) not read;
 nothing here is independently reviewed. The statement is on
@@ -64,7 +64,7 @@ Source: <https://arxiv.org/abs/1409.5661>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0877/_index|#877]]: Theorem 1.1
 (p. 2) answers the problem's displayed question $f_m(n)=o(2^{n/2})$ with the
-order $2^{(1/4+o(1))n}$; the paper's $f_{\max}$ is the site's $f_m$.
+order $2^{(1/4+o(1))n}$; the paper's $f_{\max}$ is erdosproblems.com's $f_m$.
 [[additive_combinatorics/balogh_2015_number_maximal_sum_free_subsets_integers/question_1_2|Question 1.2]]
 (p. 2) asks whether $f_m(n)=O(2^{n/4})$, a sharpening of the problem's
 request to estimate $f_m(n)$; this paper poses it without answering it.

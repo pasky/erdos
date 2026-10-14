@@ -170,8 +170,8 @@ quantifiers and full deduction still require their own source-based review.
 separate *Problems* contribution that follows the article,
 [[../wiki/problems/integer_sequences/E0453/_index|#453]]: question 4.33.2 I of
 Erdős and Straus (printed p. 203), whether there are infinitely many primes
-$p_k$ with $p_k^2>p_{k+i}p_{k-i}$ for every $i<k$, which the site cites as
-[Er74b, p. 203].
+$p_k$ with $p_k^2>p_{k+i}p_{k-i}$ for every $i<k$, which erdosproblems.com cites
+as [Er74b, p. 203].
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

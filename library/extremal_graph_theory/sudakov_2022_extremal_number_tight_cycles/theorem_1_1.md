@@ -93,8 +93,8 @@ recorded here.
 
 No problem page consumes this theorem. Problem 576
 ([[../wiki/problems/extremal_graph_theory/E0576/_index|#576]]) cites this paper
-for the bound $\mathrm{ex}(n;Q_k)=o(n^{2-1/k})$ that the site attributes to it,
-and cites that bound only as Janzer and Sudakov's
+for the bound $\mathrm{ex}(n;Q_k)=o(n^{2-1/k})$ that erdosproblems.com
+attributes to it, and cites that bound only as Janzer and Sudakov's
 [[extremal_graph_theory/janzer_2022_turan_number_hypercube/theorem_1_2|Theorem 1.2]],
 which they attribute to this paper's published version;
 Theorem 1.1 concerns tight cycles in uniform hypergraphs and is not a bound

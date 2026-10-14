@@ -25,9 +25,10 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** If $n$ distinct points in $\mathbb{R}^2$ form a convex polygon
 then they determine at least $\lfloor \frac{n}{2}\rfloor$ distinct distances.
 
-**Status.** Proved. The site's export of 2026-09-04 labeled the problem "PROVED
-(LEAN)" (page last edited 19 October 2025) and credits Altman's 1963 proof. See
-the [[problems/distance_problems/E0093/claims/1963_02_01_altman|claim page]].
+**Status.** Proved. The erdosproblems.com export of 2026-09-04 labeled the
+problem "PROVED (LEAN)" (page last edited 19 October 2025) and credits Altman's
+1963 proof. See the
+[[problems/distance_problems/E0093/claims/1963_02_01_altman|claim page]].
 
 **Source.** [erdosproblems.com/93](https://www.erdosproblems.com/93), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #93,
@@ -47,8 +48,8 @@ https://www.erdosproblems.com/93.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/93.lean).
 Boris Alexeev's repository holds a Lean 4 file, produced with Gemini 3.0
 Flash and Pro, Claude Opus 4.5 and 4.6, the Numina Lean Agent and Aristotle
-and announced on the site's discussion thread on 17 February 2026, whose
-header declares it a formalization of Altman's solution; it is a
+and announced on the erdosproblems.com discussion thread on 17 February 2026,
+whose header declares it a formalization of Altman's solution; it is a
 formalization link on
 [[problems/distance_problems/E0093/claims/1963_02_01_altman|Altman's claim page]],
 not a claim of its own, and this corpus has not built it. There is no native
@@ -56,14 +57,14 @@ Lean coverage.
 
 ## Current assessment
 
-**Proved.** The site formulation above (page last edited 19 October 2025)
-is Erdős's conjecture that the vertices of a convex $n$-gon
-in the plane determine at least $\lfloor n/2\rfloor$ distinct distances.
+**Proved.** The erdosproblems.com formulation above (page last edited 19
+October 2025) is Erdős's conjecture that the vertices of a convex $n$-gon in the
+plane determine at least $\lfloor n/2\rfloor$ distinct distances.
 [[problems/distance_problems/E0093/claims/1963_02_01_altman|Altman]] (Amer.
-Math. Monthly 1963, refereed; credited by the site's curator) proved it, and
-the regular polygon shows the bound is sharp; the Lean formalization the site
-flags is linked on the claim page. The standing derives from this accepted
-claim.
+Math. Monthly 1963, refereed; credited by the erdosproblems.com curator) proved
+it, and the regular polygon shows the bound is sharp; the Lean formalization
+erdosproblems.com flags is linked on the claim page. The standing derives from
+this accepted claim.
 
 Related questions are separate problems. Whether some single vertex of a
 convex $n$-gon determines at least $\lfloor n/2\rfloor$ distinct distances is
@@ -73,7 +74,7 @@ conjecture that the numbers $R(x)$ of distinct distances from the vertices
 sum to at least $\binom n2$, and Szemerédi's variant with convexity replaced
 by no three points on a line
 ([[problems/distance_problems/E1082/_index|Problem 1082]]), are stronger
-statements the site records as open; the three-dimensional analog is
+statements erdosproblems.com records as open; the three-dimensional analog is
 [[problems/distance_problems/E0660/_index|Problem 660]].
 
 **Compiled proof coverage.** The Theorem is paged at

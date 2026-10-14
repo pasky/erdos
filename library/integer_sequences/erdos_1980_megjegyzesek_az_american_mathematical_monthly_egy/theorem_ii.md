@@ -24,7 +24,7 @@ The value $1$ is attained by $A=\mathbb N$: $F(\mathbb N,X,2)$ counts the $n$
 with $n(n+1)\le X$, which is $\lfloor(\sqrt{4X+1}-1)/2\rfloor$, so
 $F(\mathbb N,X,2)/X^{1/2}\to1$ (an elementary check made here; for
 $X=10^{4},10^{6},10^{8}$ the ratio is $0.99$, $0.999$, $0.9999$). The paper
-does not state this example; the site's commentary does.
+does not state this example; the erdosproblems.com commentary does.
 
 **Source.** P. Erdős and E. Szemerédi, *Megjegyzések az American
 Mathematical Monthly egy problémájához*, Mat. Lapok 28 (1980), 121--124;

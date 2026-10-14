@@ -50,7 +50,7 @@ $$
 the worst case occurring just before a new digit of $B$ appears. The paper
 says that this "settles the original question in the negative" for
 $\varepsilon=1/\sqrt2$ (p. 100) and credits no one else for the
-construction, which is the one the site credits to Ruzsa, recorded on
+construction, which is the one erdosproblems.com credits to Ruzsa, recorded on
 [[problems/additive_combinatorics/E0331/claims/2024_06_19_ruzsa|its claim page]].
 The rest of the paper studies pairs $A$, $B$ whose equation $a_i-a_j=b_k-b_l$
 has only trivial solutions: Theorem 1 (p. 101) shows that
@@ -77,10 +77,10 @@ and not checked.
 
 **Acceptance.** Refereed publication: Journal of Number Theory 18 (1984), no. 1,
 99--109. It was received 20 January 1982, communicated by H. Zassenhaus, and
-issued February 1984, the date of this page. The site's label credited Ruzsa and
-does not cite this paper, so no `reviewed` evidence is listed. The page of the
-site's credited counterexample discloses this earlier publication. The paper is
-linked at the publisher's record and at the Rényi Institute's archive of Erdős's
-papers. Its
+issued February 1984, the date of this page. The erdosproblems.com label
+credited Ruzsa and does not cite this paper, so no `reviewed` evidence is
+listed. The page of erdosproblems.com's credited counterexample discloses this
+earlier publication. The paper is linked at the publisher's record and at the
+Rényi Institute's archive of Erdős's papers. Its
 [[../library/additive_combinatorics/erdos_freud_1984_disjoint_sets_differences/_index|library card]]
 pages the counterexample of p. 100 and Theorem 4.

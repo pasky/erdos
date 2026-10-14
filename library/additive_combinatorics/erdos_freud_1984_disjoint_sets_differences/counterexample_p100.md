@@ -89,6 +89,6 @@ None: the uniqueness of binary expansion and counting.
   $\lvert A\cap\{1,\ldots,N\}\rvert\gg N^{1/2}$ and the same for $B$, the
   pair above (with $0$ removed if $\mathbb N$ excludes it, which lowers
   each count by one) has both counts at least $\sqrt{N/2}-1$ and no
-  solution of $a_1-a_2=b_1-b_2\ne0$. It is the construction the site
+  solution of $a_1-a_2=b_1-b_2\ne0$. It is the construction erdosproblems.com
   credits to Ruzsa; this refereed publication of 1984 is the earlier
   record.

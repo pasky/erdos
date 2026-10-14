@@ -31,13 +31,14 @@ $$
 What is the maximum possible value of $\Delta$? Is it maximised by taking the
 $z_i$ to be the vertices of a regular polygon?
 
-**Status.** Open, the site's label (page last edited 02 April 2026). Danzer and
-Pommerenke's accepted partial claim determines the maximum for $n\le4$. It also
-answers the regular-polygon question negatively for every even $n\ge4$. Pending
-partial claims determine the maximum for $n=5$ and $n=6$. They also include
-[[problems/analysis/E1045/claims/2026_09_22_hu|Boyang Hu]]'s manuscript, which
-determines the maximizer for every odd $n\ge2^{10^8}$ and every even
-$n\ge2^{10^{120}}$. None covers every $n$, so the standing stays open.
+**Status.** Open, the erdosproblems.com label (page last edited 02 April 2026).
+Danzer and Pommerenke's accepted partial claim determines the maximum for
+$n\le4$. It also answers the regular-polygon question negatively for every even
+$n\ge4$. Pending partial claims determine the maximum for $n=5$ and $n=6$. They
+also include [[problems/analysis/E1045/claims/2026_09_22_hu|Boyang Hu]]'s
+manuscript, which determines the maximizer for every odd $n\ge2^{10^8}$ and
+every even $n\ge2^{10^{120}}$. None covers every $n$, so the standing stays
+open.
 
 **Source.** [erdosproblems.com/1045](https://www.erdosproblems.com/1045),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1045,
@@ -128,8 +129,8 @@ arXiv:2512.14251v1 (16 December 2025) has no claim page: its lower bound
 $\liminf\Delta_{\max}(n)/n^n\ge1.0378$ along even $n$ settles no instance
 that Danzer and Pommerenke had not settled in 1967, and the 2026 paper
 improves its constant. Cambie's argument of 3 October 2025 that the regular
-polygon fails for every even $n\ge4$, which the site credits, has no claim
-page either: it is a thread post without a manuscript, and Danzer and
+polygon fails for every even $n\ge4$, which erdosproblems.com credits, has no
+claim page either: it is a thread post without a manuscript, and Danzer and
 Pommerenke's theorem covers it.
 
 The repository github.com/coleski/erdos1045-n6 (11 September 2026, developed
@@ -138,16 +139,16 @@ six-point maximum $64(2\sqrt3-2)^{18}$ with a Lean proof that this corpus has
 not built. It is recorded as
 [[problems/analysis/E1045/claims/2026_09_11_coleski|a pending partial claim]].
 
-**Proof claim on the site (accessed 2026-10-06).** The site's proof-claims
-tab carries a claim, filed as full, by Boyang Hu under the username Rogerhu
-(initial draft generated with GPT-6 Pro and a Lean development built with
-Astra, as the claim's notes say), submitted 2026-09-23 with a manuscript and
-a Lean repository: for every odd $n\ge2^{10^8}$ the regular polygon is the
-unique maximizer, and for every even $n\ge2^{10^{120}}$ the maximizer is
-unique and its diameter graph is a cycle on $n-3$ vertices with three
-pendant edges. The one thread comment notes that the problem asks for every
-$n$. The site labeled the problem OPEN (page last edited 02 April 2026),
-and the claim is recorded as a partial claim on
+**Proof claim on erdosproblems.com (accessed 2026-10-06).** The
+erdosproblems.com proof-claims tab carries a claim, filed as full, by Boyang Hu
+under the username Rogerhu (initial draft generated with GPT-6 Pro and a Lean
+development built with Astra, as the claim's notes say), submitted 2026-09-23
+with a manuscript and a Lean repository: for every odd $n\ge2^{10^8}$ the
+regular polygon is the unique maximizer, and for every even $n\ge2^{10^{120}}$
+the maximizer is unique and its diameter graph is a cycle on $n-3$ vertices with
+three pendant edges. The one thread comment notes that the problem asks for
+every $n$. Bloom's catalog labeled the problem OPEN (page last edited 02 April
+2026), and the claim is recorded as a partial claim on
 [[problems/analysis/E1045/claims/2026_09_22_hu|its page]].
 <!-- BEGIN problem library links -->
 

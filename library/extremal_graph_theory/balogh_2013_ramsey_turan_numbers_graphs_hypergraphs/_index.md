@@ -34,8 +34,8 @@ arXiv listing shows v1 of 20 September 2011 and this v2), 20 pages with a
 text layer; its title page prints the compilation date "November 6, 2018".
 Page numbers here are the preprint's, not the journal's, and the journal text
 was not compared. The paper's theta_t(H) divides RT_t(n, H, epsilon n) by n^2
-(display (1), p. 2), the normalization the site uses for Problem 533. The
-arXiv record names arXiv's non-exclusive distribution license
+(display (1), p. 2), the normalization erdosproblems.com uses for Problem 533.
+The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1109.4428), every other right reserved.
 
 Read status: claims checked for the definitions (p. 2), Problems 1, 2 and

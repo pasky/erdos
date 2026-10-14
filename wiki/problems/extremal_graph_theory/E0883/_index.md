@@ -67,21 +67,22 @@ $$
 then $G(A)$ must contain a complete $(1,\ell,\ell)$ triparite graph on $2\ell+1$
 vertices?
 
-**Notes.** The site's wording of the first question carries no largeness
-quantifier. On the problem's proof-claims thread (29 July 2026) the site's
-curator wrote that the question was meant for sufficiently large $n$, with the
-small cases a subsidiary problem, and the modified Statement follows that
-reading. What Erdős printed in [Er98], the site's source for the question, is
-not recorded: the paper is not held, so its wording, its page and whether it
-carries a largeness quantifier have not been read. The question refines Theorem
-1 of [ErSa97], which is asymptotic: it holds for $n\ge n_0$ with an unspecified
-constant $c$ in place of $1/6$. Della Pietra's pending claim answers the
-corrected first question; Pan's pending claim answers it for every $n$, so it
-also answers the site's wording.
+**Notes.** The erdosproblems.com wording of the first question carries no
+largeness quantifier. On the problem's proof-claims thread (29 July 2026) the
+erdosproblems.com curator wrote that the question was meant for sufficiently
+large $n$, with the small cases a subsidiary problem, and the modified Statement
+follows that reading. What Erdős printed in [Er98], the erdosproblems.com source
+for the question, is not recorded: the paper is not held, so its wording, its
+page and whether it carries a largeness quantifier have not been read. The
+question refines Theorem 1 of [ErSa97], which is asymptotic: it holds for
+$n\ge n_0$ with an unspecified constant $c$ in place of $1/6$. Della Pietra's
+pending claim answers the corrected first question; Pan's pending claim answers
+it for every $n$, so it also answers the erdosproblems.com wording.
 
 **Formulation.** The two questions are the problem's parts, `odd_cycles` and
-`tripartite`. The site's wording of the first question has no sufficiently-large
-quantifier, and the modified Statement adds one. The result it refines,
+`tripartite`. The erdosproblems.com wording of the first question has no
+sufficiently-large quantifier, and the modified Statement adds one. The result
+it refines,
 [[problems/extremal_graph_theory/E0883/claims/1996_12_02_erdos_sarkozy|Theorem 1 of Erdős and Sárközy]],
 is stated for $n\ge n_0$ with an unspecified constant $c$ in place of $1/6$, and
 its authors' remark proposes $c=1/6$ as the best value. The second question, on
@@ -90,14 +91,14 @@ constants $c,n_0$ such that for $n\ge n_0$ and $A\subseteq\{1,\ldots,n\}$ with
 $|A|>\lfloor n/2\rfloor+\lfloor n/3\rfloor-\lfloor n/6\rfloor$, the graph $G(A)$
 contains $K(1,\ell,\ell)$ with $\ell=\lfloor c\log n/\log\log\log n\rfloor$;
 since this $\ell$ tends to infinity, every fixed $\ell$ is reached once $n$ is
-large, which is what the question asks. The site's commentary credits [Sa99]
-with the weaker bound $\ell\gg\log n/\log\log n$, and Della Pietra's manuscript
-of 27 July 2026 (p. 1) also records the second question as settled by [Sa99].
-The result is recorded on the claim page
+large, which is what the question asks. The erdosproblems.com commentary credits
+[Sa99] with the weaker bound $\ell\gg\log n/\log\log n$, and Della Pietra's
+manuscript of 27 July 2026 (p. 1) also records the second question as settled by
+[Sa99]. The result is recorded on the claim page
 [[problems/extremal_graph_theory/E0883/claims/1999_05_01_sarkozy|Sárközy's Theorem 1]].
 
-**Status.** Claimed. The site's label was OPEN. Pending claims answer the first
-question, and an accepted claim settles the second.
+**Status.** Claimed. The erdosproblems.com label was OPEN. Pending claims answer
+the first question, and an accepted claim settles the second.
 
 **Source.** [erdosproblems.com/883](https://www.erdosproblems.com/883), accessed
 2026-09-04 and 2026-10-06, with its proof-claims thread (source keys [Er98],
@@ -108,9 +109,10 @@ https://www.erdosproblems.com/883.
 
 - [Er98] Erdős, P., Some of my new and almost new problems and results in
   combinatorial number theory. Proceedings of the 1996 Eger number theory
-  conference (1998). The site's third source key; [Sa99] cites it as its [5]
-  and quotes in its introduction the passage that poses the second question,
-  with the request to determine or estimate the largest possible $\ell$.
+  conference (1998). erdosproblems.com's third source key; [Sa99] cites it as
+  its [5] and quotes in its introduction the passage that poses the second
+  question, with the request to determine or estimate the largest possible
+  $\ell$.
 - [ErSa97] Erdős, Paul and Sárközy, Gábor N., On cycles in the coprime graph of
   integers. Electron. J. Combin. 4 (1997), no. 2, Research Paper 8,
   doi:10.37236/1323. Library card

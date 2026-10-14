@@ -198,5 +198,5 @@ Divisor functions and the distribution of divisors, multiplication tables, sets
 of multiples, primitive sets in which no element divides another, and other sets
 of integers defined by divisibility or coprimality conditions.
 
-Site tags routed here: divisors, factorials, intersecting family, number theory,
-primitive sets.
+erdosproblems.com tags routed here: divisors, factorials, intersecting family,
+number theory, primitive sets.

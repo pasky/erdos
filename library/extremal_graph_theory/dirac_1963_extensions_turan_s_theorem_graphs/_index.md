@@ -198,8 +198,8 @@ independently reviewed.
 where $\alpha$ is any integer $\le1$, contains as a subgraph at least one
 graph with $n'$ vertices and at least $d_k(n')+\alpha$ edges for
 $n'=k,k+1,\ldots,n-1$", at $k=3$ (where $d_3(n)=[n^2/4]$) and $\alpha=1$, is
-the Dirac publication of the site's commentary "Dirac and Erdős proved
-independently that when $l=\lfloor k^2/4\rfloor+1$,
+the Dirac publication of the erdosproblems.com commentary "Dirac and Erdős
+proved independently that when $l=\lfloor k^2/4\rfloor+1$,
 $f(n;k,l)\le\lfloor n^2/4\rfloor+1$", in the $f_1$ normalization of the 1964
 survey's p. 34 sentence (paged at
 [[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/theorem_p34|theorem_p34]]),

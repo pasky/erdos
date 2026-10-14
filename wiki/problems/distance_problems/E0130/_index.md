@@ -30,10 +30,10 @@ if they are an integer distance apart.
 How large can the chromatic number and clique number of this graph be? In
 particular, can the chromatic number be infinite?
 
-**Status.** Open. The site's label was OPEN, and its page credits neither of the
-two claims below. Two pending partial claims answer the particular question yes.
-The first is Lloyd.H's proof claim of 17 July 2026 on the site's proof-claims
-tab, recorded on
+**Status.** Open. The erdosproblems.com label was OPEN, and its page credits
+neither of the two claims below. Two pending partial claims answer the
+particular question yes. The first is Lloyd.H's proof claim of 17 July 2026 on
+the erdosproblems.com proof-claims tab, recorded on
 [[problems/distance_problems/E0130/claims/2026_07_17_lloyd_h|its claim page]].
 The second is Star Fleet Math's Lean development, posted on its site by 15 July
 2026, two days before Lloyd.H's claim. It is recorded on
@@ -77,22 +77,22 @@ is proper, since a cell has diameter below $1$. An example with infinite
 chromatic number therefore also answers the chromatic half of the first
 question, the largest possible value being $\aleph_0$, and only the
 clique-number half remains open. Nothing is recorded that settles the
-clique-number part. The site's remarks of 2026-09-04 attribute the question to
-Andrásfai and Erdős, and note that the further question Erdős raised in [Er97b],
-whether such a graph can contain an infinite complete subgraph, is answered no
-by Anning and Erdős [AnEr45], whose theorem says that an infinite plane set with
-all pairwise distances integers lies on a line; the site also points to
-[[problems/distance_problems/E0213/_index|Problem 213]]. Finite cliques are the
-finite integer distance sets in general position of Problem 213, so the
-clique-number question is tied to how large those sets can be. The library's
-card for Greenfeld, Iliopoulou and Peluse,
+clique-number part. The erdosproblems.com remarks of 2026-09-04 attribute the
+question to Andrásfai and Erdős, and note that the further question Erdős raised
+in [Er97b], whether such a graph can contain an infinite complete subgraph, is
+answered no by Anning and Erdős [AnEr45], whose theorem says that an infinite
+plane set with all pairwise distances integers lies on a line; erdosproblems.com
+also points to [[problems/distance_problems/E0213/_index|Problem 213]]. Finite
+cliques are the finite integer distance sets in general position of Problem 213,
+so the clique-number question is tied to how large those sets can be. The
+library's card for Greenfeld, Iliopoulou and Peluse,
 [[../library/distance_problems/greenfeld_2024_integer_distance_sets/_index|greenfeld_2024_integer_distance_sets]],
 records their Corollary 1.3, a polylogarithmic bound in $N$ on the size of an
 integer distance set inside $[-N,N]^2$ with no three points collinear and no
 four concyclic, and notes that the largest known such set has seven points; that
 card is a digest, and its results have no claim page. The assessment covers the
-site's page and proof-claims tab, the references listed above, the library cards
-linked below and the formal-conjectures statement file, which at
+erdosproblems.com page and proof-claims tab, the references listed above, the
+library cards linked below and the formal-conjectures statement file, which at
 [its revision of 18 September 2026](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/130.lean)
 marks the chromatic question `research solved` with the answer true and points
 its `formal_proof` attribute at Star Fleet Math's Lean development, an edit of 7
@@ -101,25 +101,25 @@ August 2026. No further literature search was made.
 ## Proof claims
 
 Lloyd.H's manuscript *Integer-Distance Graphs in General Position*, posted on
-the site's proof-claims tab on 17 July 2026 with a Lean 4 development, asserts a
-countably infinite set in the required general position whose integer-distance
-graph splits into finite connected components, each triangle-free, with
-chromatic numbers that are unbounded, so that the chromatic number is $\aleph_0$
-and the clique number of that set is $2$; the components are realized through a
-rational parametrization and placed by translations so that no integer distance
-arises between them. The claim page records the postings, the AI systems named,
-the Lean declarations the repository reports and the absence of acceptance
-evidence. Star Fleet Math's Lean development, posted with a written report on
-the Star Fleet Math site by 15 July 2026 and hosted in the
-`williamjblair/lean-proofs` repository on 23 July 2026, where it is credited to
-Colin Snyder, states and claims to prove the theorem
+the erdosproblems.com proof-claims tab on 17 July 2026 with a Lean 4
+development, asserts a countably infinite set in the required general position
+whose integer-distance graph splits into finite connected components, each
+triangle-free, with chromatic numbers that are unbounded, so that the chromatic
+number is $\aleph_0$ and the clique number of that set is $2$; the components
+are realized through a rational parametrization and placed by translations so
+that no integer distance arises between them. The claim page records the
+postings, the AI systems named, the Lean declarations the repository reports and
+the absence of acceptance evidence. Star Fleet Math's Lean development, posted
+with a written report on the Star Fleet Math site by 15 July 2026 and hosted in
+the `williamjblair/lean-proofs` repository on 23 July 2026, where it is credited
+to Colin Snyder, states and claims to prove the theorem
 `Erdos130.erdos130_infinite_chromatic`: an infinite set in general position
 whose integer-distance graph has no proper coloring with any finite number of
 colors, assembled from finite rational blocks translated along a cubic curve.
-The claim page records the posting and its report, the hosting, the catalog's
-`formal_proof` link, the AI system named by the claimant's site and the absence
-of acceptance evidence. Neither claimant's Lean files were built or audited by
-this corpus.
+The claim page records the posting and its report, the hosting, the
+formal-conjectures `formal_proof` link, the AI system named by the claimant's
+site and the absence of acceptance evidence. Neither claimant's Lean files were
+built or audited by this corpus.
 
 <!-- BEGIN problem library links -->
 

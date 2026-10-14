@@ -86,10 +86,10 @@ x with Y(x) >= k, so (1.2) inverts to an upper bound for S(k) on its page.
 image and text layer), G(X) >> log X log_2 X log_4 X / log_3 X for large
 X, exceeds the problem's gap C log n log_2 n log_4 n / (log_3 n)^2 for
 every C (a factor log_3 X to spare, with log p_n ~ log n); the historical
-paragraph on p. 2 records that the authors' 2014 paper and Maynard's, the
-site's [FGKT16] and [Ma16], already showed the Rankin constant can be
-arbitrarily large, "answering in the affirmative a long-standing
-conjecture of Erdős", the problem's question
+paragraph on p. 2 records that the authors' 2014 paper and Maynard's,
+erdosproblems.com's [FGKT16] and [Ma16], already showed the Rankin constant can
+be arbitrarily large, "answering in the affirmative a long-standing conjecture
+of Erdős", the problem's question
 ([[integer_sequences/ford_2018_long_gaps_between_primes/theorem_1|theorem_1]]).
 
 **Results.**

@@ -84,8 +84,8 @@ $\mathfrak m=\aleph_1$ and $\mathfrak c=\aleph_2$.
 
 **Acceptance.** The result appeared in a refereed journal, *Fundamenta
 Mathematicae*, in 2017. This is the `refereed` evidence. The preprint was not
-compared with the published version. The site's curator, Thomas Bloom, marked
-the problem INDEPENDENT. The commentary records that Kumar and Shelah gave a
-model with $\mathfrak c=\aleph_2$ in which the answer is yes for
+compared with the published version. The erdosproblems.com curator, Thomas
+Bloom, marked the problem INDEPENDENT. The commentary records that Kumar and
+Shelah gave a model with $\mathfrak c=\aleph_2$ in which the answer is yes for
 $\mathfrak m=\aleph_1$. That curator credit is the `reviewed` evidence. No
 formalization of this result is known.

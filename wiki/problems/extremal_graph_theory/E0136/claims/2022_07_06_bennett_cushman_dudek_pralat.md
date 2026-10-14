@@ -61,9 +61,9 @@ triangle-removal process, with each chosen triangle getting one color twice
 and a second color once, analyzed by the differential equation method; the
 second phase colors the remaining edges with fresh colors and the Lovász Local
 Lemma. The problem's instruction to determine the size of $f(n)$ is read, as
-the site reads it, as asking for the constant $c$ in $f(n)\sim cn$: the
-site's commentary states the result as $f(n)\sim\frac56n$, while the exact
-value of $f(n)$ is not known. The result also settles the disagreement
+erdosproblems.com reads it, as asking for the constant $c$ in $f(n)\sim cn$: the
+erdosproblems.com commentary states the result as $f(n)\sim\frac56n$, while the
+exact value of $f(n)$ is not known. The result also settles the disagreement
 recorded in Erdős and Gyárfás's 1997 paper, where Erdős expected the
 constant $1$ and Gyárfás a constant near $\frac56$. The independent later
 proof of the same asymptotic is
@@ -88,11 +88,12 @@ problem page). The corpus has not built, kernel-checked or audited the file,
 so the evidence stays `reviewed` and `refereed`.
 
 **Acceptance.** Refereed publication in the Journal of Combinatorial Theory,
-Series B, cited with its venue above. The site's curator, Thomas Bloom, marked
-the problem SOLVED. In the commentary the curator credits the asymptotic to this
-paper under the reference [BCDP22]. That credit is the `reviewed` evidence, and
-Bloom took no part in the paper. Joos and Mubayi (Proc. Amer. Math. Soc. 152
-(2024)) reprove the asymptotic by a different method and present their argument
-as a new proof of this result. They are a second documented acceptance by named
-experts. No independent review of the argument was made here. No proof step was
-checked beyond the statement and the proof overview.
+Series B, cited with its venue above. The erdosproblems.com curator, Thomas
+Bloom, marked the problem SOLVED. In the commentary the curator credits the
+asymptotic to this paper under the reference [BCDP22]. That credit is the
+`reviewed` evidence, and Bloom took no part in the paper. Joos and Mubayi (Proc.
+Amer. Math. Soc. 152 (2024)) reprove the asymptotic by a different method and
+present their argument as a new proof of this result. They are a second
+documented acceptance by named experts. No independent review of the argument
+was made here. No proof step was checked beyond the statement and the proof
+overview.

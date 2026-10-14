@@ -51,13 +51,14 @@ substitution $k=3$ are elementary and written above.
 **Acceptance.** Refereed: published in the Journal of Combinatorial Theory,
 Series B, cited with its venue above.
 
-No `reviewed` evidence is listed. The site's PROVED label settles the whole
-problem and credits Conlon and Lee and Janzer, whose claim pages carry it. The
-site's remark on $k=3$ credits Erdős [Er64c] and Bondy and Simonovits, and it
-misprints the bound as $\mathrm{ex}(n,C_6)\ll n^{7/6}$.
+No `reviewed` evidence is listed. erdosproblems.com's PROVED label settles the
+whole problem and credits Conlon and Lee and Janzer, whose claim pages carry it.
+The erdosproblems.com remark on $k=3$ credits Erdős [Er64c] and Bondy and
+Simonovits, and it misprints the bound as $\mathrm{ex}(n,C_6)\ll n^{7/6}$.
 
-The site also credits Erdős's 1964 proceedings paper [Er64c] with this case.
-There Erdős stated the even-cycle bound without proof. Bondy and Simonovits (p.
+erdosproblems.com also credits Erdős's 1964 proceedings paper [Er64c] with this
+case. There Erdős stated the even-cycle bound without proof. Bondy and
+Simonovits (p.
 97) describe Erdős's theorem as published without proof. Erdős writes in his
 1974 survey
 ([[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/equation_5|equation 5]])

@@ -47,23 +47,23 @@ https://www.erdosproblems.com/1194.
 
 ## Current assessment
 
-The site labeled the problem OPEN (remarks last edited 2026-04-24). Here $a_n$
-is the larger member of the unique representation $n=a_n-b_n$, not the $n$th
-element of $A$; the curator's post of 2026-04-23 in the site's thread warns
-against the second reading.
+Bloom's catalog labeled the problem OPEN (remarks last edited 2026-04-24). Here
+$a_n$ is the larger member of the unique representation $n=a_n-b_n$, not the
+$n$th element of $A$; the curator's post of 2026-04-23 in the erdosproblems.com
+thread warns against the second reading.
 
 Lower bounds hold for infinitely many $n$. Erdős's theorem that an infinite
 Sidon set has $O((x/\log x)^{1/2})$ elements up to $x$ for infinitely many $x$
-gives $a_n\gg n\log n$, as the site's remarks derive. A note by GPT-5.4 Pro that
-Price posted claims $a_n\gg n^{3/2}$
+gives $a_n\gg n\log n$, as the erdosproblems.com remarks derive. A note by
+GPT-5.4 Pro that Price posted claims $a_n\gg n^{3/2}$
 ([[problems/additive_bases/E1194/claims/2026_04_23_price|Price]]). The same day
 the curator posted in the thread an argument GPT Pro found at their request,
 giving $a_n\gg n^{2-o(1)}$ and, they believed, $a_n\gg n^2/f(n)$ for every
-reasonable $f$ with $\sum1/(nf(n))$ convergent. The site's remarks credit this
-argument to GPT-5.4 Pro but state the condition as divergence of the series, a
-misprint that a reader pointed out in the thread on 2026-04-24 and the curator
-acknowledged. The argument is a thread post, not a manuscript, so it has no
-claim page. Mazur claims $a_n>n^2/(2\log2\,(\log n-\log\log n+B))$ for every
+reasonable $f$ with $\sum1/(nf(n))$ convergent. The erdosproblems.com remarks
+credit this argument to GPT-5.4 Pro but state the condition as divergence of the
+series, a misprint that a reader pointed out in the thread on 2026-04-24 and the
+curator acknowledged. The argument is a thread post, not a manuscript, so it has
+no claim page. Mazur claims $a_n>n^2/(2\log2\,(\log n-\log\log n+B))$ for every
 $B>\tfrac12+\gamma-\log\log2$
 ([[problems/additive_bases/E1194/claims/2026_05_02_mazur|Mazur]]), a bound of
 order $n^2/\log n$.

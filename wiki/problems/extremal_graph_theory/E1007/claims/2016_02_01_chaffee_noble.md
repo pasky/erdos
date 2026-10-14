@@ -52,26 +52,26 @@ without isolated vertices. The corpus states the three on its result pages
 [[../library/extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/lemma_3|Lemma 3]]
 and
 [[../library/extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/theorem_7|Theorem 7]]
-(pp. 328--329). The paper's convention, stated on p. 327, is the site's: an
-embedding need not be induced. The proof of Theorem 6 (twenty-one lines,
-followed): a graph with at most eight edges and no embedding in $\mathbb R^3$,
-with the fewest edges among such graphs, has minimum degree at least $3$, so
-after adding edges its degree sequence is $(4,3,3,3,3)$ and it is a subgraph
-of $K_5-e$, which has dimension $3$ by Lemma 2 ($\dim(K_n-e)=n-2$) and Lemma 4
-(monotonicity), both attributed by the paper to Erdős, Harary and Tutte, whose
-note prints the first but not the second (immediate from the definition). The
-paper introduces the result as an alternative to House's proof
+(pp. 328--329). The paper's convention, stated on p. 327, is
+erdosproblems.com's: an embedding need not be induced. The proof of Theorem 6
+(twenty-one lines, followed): a graph with at most eight edges and no embedding
+in $\mathbb R^3$, with the fewest edges among such graphs, has minimum degree at
+least $3$, so after adding edges its degree sequence is $(4,3,3,3,3)$ and it is
+a subgraph of $K_5-e$, which has dimension $3$ by Lemma 2 ($\dim(K_n-e)=n-2$)
+and Lemma 4 (monotonicity), both attributed by the paper to Erdős, Harary and
+Tutte, whose note prints the first but not the second (immediate from the
+definition). The paper introduces the result as an alternative to House's proof
 ([[problems/extremal_graph_theory/E1007/claims/2013_06_04_house|House's claim page]]),
 and its Theorems 10 and 11 add the dimension-$5$ value $15$, attained only by
-$K_6$ and $K_{1,3,3}$, which the site records as context.
+$K_6$ and $K_{1,3,3}$, which erdosproblems.com records as context.
 
 **Acceptance.** Refereed publication in the Australasian Journal of
 Combinatorics, an open-access journal. The paper was received 14 January 2015
 and revised 19 July and 27 October 2015. It appeared in volume 64, part 2,
 of 2016. The journal's volume listing (2026-09-18 and 2026-10-07) dates volume
 64 February 2016, and this page's date is that month's nominal first day. The
-site's curator, Thomas Bloom, labeled the problem solved and credits the
-alternative proof to Chaffee and Noble [ChNo16]. This is the `reviewed`
+erdosproblems.com curator, Thomas Bloom, labeled the problem solved and credits
+the alternative proof to Chaffee and Noble [ChNo16]. This is the `reviewed`
 evidence, and Bloom took no part in the paper. The proof-claim tab is empty.
 Read depth: claims checked for Lemma 3, Theorem 6 and Theorem 7. The proof of
 Theorem 6 was followed. It rests on values that Erdős, Harary and Tutte assert
@@ -83,7 +83,7 @@ publication and the curator's credit.
 **Formalization.** The file `src/v4.29.1/ErdosProblems/Erdos1007.lean` of
 Boris Alexeev's repository plby/lean-proofs (Lean v4.29.1 with Mathlib
 v4.29.1; 1,101 lines at the pinned commit of 2026-09-15, linked above),
-announced in the site's forum on 19 January 2026, declares itself a
+announced in the erdosproblems.com forum on 19 January 2026, declares itself a
 formalization of this result: its header names House, Chaffee and Noble as
 informal authors and the automated theorem-proving system Aristotle and
 Alexeev as formal authors. Under its own definition of dimension (the least

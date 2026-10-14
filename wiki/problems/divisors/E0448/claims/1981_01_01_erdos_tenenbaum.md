@@ -40,7 +40,7 @@ the paper names C4, that $\tau^+(n)/\tau(n)\to0$ outside a set of density zero,
 is false. The authors remark that the bound suggests $\tau^+(n)/\tau(n)$ has a
 continuous increasing distribution function on $[0,1]$. Its library card is
 [[../library/divisors/erdos_1981_sur_la_structure_de_la_suite/_index|Erdős and Tenenbaum 1981]].
-The site's commentary adds that the upper density of
+The erdosproblems.com commentary adds that the upper density of
 $\{n:\tau^+(n)<\alpha\tau(n)\}$ has order $\alpha^{1-o(1)}$; the sharper bound
 $\ll\alpha\log(2/\alpha)$ of Hall and Tenenbaum, Divisors (Cambridge Tracts in
 Mathematics 90, 1988), Section 4.6, and their theorem that $\tau^+(n)/\tau(n)$
@@ -59,10 +59,11 @@ its formal authors, and proves `not_erdos_448`: it is not the case that for
 every $\varepsilon>0$ the set $\{n:\tau^+(n)<\varepsilon\tau(n)\}$ has
 density one, the exact negation of the formal-conjectures statement. It has
 not been built or audited in this repository, so it gives no `formalized`
-evidence; the site's Lean qualifier on its DISPROVED label refers to it.
+evidence; the erdosproblems.com Lean qualifier on its DISPROVED label refers to
+it.
 
 **Acceptance.** Refereed: Ann. Inst. Fourier (Grenoble) 31 (1981), no. 1,
-17–37. Reviewed: the site's curator, T. F. Bloom, marked Problem 448 disproved
-and credits this paper. The page's date is the year of the paper, whose
-publication record gives no month or day. This repository has not checked
+17–37. Reviewed: the erdosproblems.com curator, T. F. Bloom, marked Problem 448
+disproved and credits this paper. The page's date is the year of the paper,
+whose publication record gives no month or day. This repository has not checked
 the proof independently.

@@ -32,14 +32,14 @@ computer-assisted lower bound for covering systems with prime-minus-one moduli*
 (dated 26 July 2026, six pages, deposited on Zenodo as version 1, the record
 created on 2026-07-26 UTC with publication date 2026-07-27), a partial result
 toward [[problems/covering_systems/E0273/_index|Problem 273]]: it neither
-constructs such a system nor excludes one. Distinctness is the site's convention
-for covering systems and, as the paper notes, is implicit in the question, since
-without it the four classes modulo $4=5-1$ cover the integers. The proof has
-three stages. Every modulus of a system with least common multiple $L$ lies in
-$M(L)=\{m\mid L: m\ge4,\ m+1\text{ prime}\}$, and a covering by classes with
-pairwise distinct moduli forces $\sum_i1/m_i>1$ (equality would make the
-covering exact, and the largest modulus of an exact covering repeats, so an
-exact covering cannot have distinct moduli); an integer sieve over all
+constructs such a system nor excludes one. Distinctness is the erdosproblems.com
+convention for covering systems and, as the paper notes, is implicit in the
+question, since without it the four classes modulo $4=5-1$ cover the integers.
+The proof has three stages. Every modulus of a system with least common multiple
+$L$ lies in $M(L)=\{m\mid L: m\ge4,\ m+1\text{ prime}\}$, and a covering by
+classes with pairwise distinct moduli forces $\sum_i1/m_i>1$ (equality would
+make the covering exact, and the largest modulus of an exact covering repeats,
+so an exact covering cannot have distinct moduli); an integer sieve over all
 $L<393120$ finds exactly $28$ values with $\sum_{m\in M(L)}1/m>1$, from $55440$
 to $388080$. A parity argument about the forced moduli $4$ and $6$, neither of
 whose reciprocals can be dropped, eliminates $23$ of them, and an exact density
@@ -78,13 +78,13 @@ own account.
 that OpenAI ChatGPT 5.6 (the proof claim names OpenAI GPT-5.6 Thinking) was used
 as an assistive tool for exploratory computation, code, checking and language
 editing, that they reviewed the arguments and reran the verification, and that
-the paper reports a partial result only. The proof claim on the site, submitted
-2026-07-27 and marked partial, had no comments, and the site's
-label was OPEN (problem page last edited 1 October 2025). The problem's
-discussion thread bears on the claim. A research note of July 2026 by the
-pseudonymous user ideal_ombrer, posted on the thread on 2026-07-12 and predating
-this deposit, claims to prove that every such covering system uses a modulus
-$p-1$ with $p>877$ and that its reciprocal sum is at least
+the paper reports a partial result only. The proof claim on erdosproblems.com,
+submitted 2026-07-27 and marked partial, had no comments, and the
+erdosproblems.com label was OPEN (problem page last edited 1 October 2025). The
+problem's discussion thread bears on the claim. A research note of July 2026 by
+the pseudonymous user ideal_ombrer, posted on the thread on 2026-07-12 and
+predating this deposit, claims to prove that every such covering system uses a
+modulus $p-1$ with $p>877$ and that its reciprocal sum is at least
 $1+\exp(-3.363054\times10^{21})$; it is a dated manuscript and has
 [[problems/covering_systems/E0273/claims/2026_07_11_ideal_ombrer|its own claim page]].
 A second pseudonymous user wrote on 2026-09-24 that they re-implemented this

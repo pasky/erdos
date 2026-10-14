@@ -125,8 +125,8 @@ difference is not resolved here.
   limit c_alpha(G) (display (1)), and conversely every G has a rational alpha
   satisfying (1), with a prize for a proof or disproof; as printed, (1) cannot
   hold for 1 < alpha < 2, since f(n;G) < n^2, so the range or the exponent is
-  misprinted (the site's Problem 571 takes the exponent as alpha in [1,2)); and
-  the
+  misprinted (erdosproblems.com's Problem 571 takes the exponent as alpha in
+  [1,2)); and the
   [[extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/problem_p31|problem of Erdős and Sauer]]
   (printed p. 31): f_3(n), the least number of edges that forces a 3-regular
   subgraph in a graph on n vertices; "almost certainly f_3(n) < n^{1+eps}";
@@ -136,7 +136,7 @@ difference is not resolved here.
   believed c tends to 1 as C grows while Szemerédi believed the longest path
   is o(n). The print carries a superscript 2 after $cn$ ("a path of length
   $>cn^2$"), which a path in a graph on $n$ vertices cannot have and which
-  the site's quotation of the passage omits; recorded as printed.
+  erdosproblems.com's quotation of the passage omits; recorded as printed.
 - Section 4 (printed pp. 33--34): asks on p. 33 whether hat-r(P_n,P_n)/n
   tends to infinity (2) and hat-r(P_n,P_n)/n^2 tends to 0 (3), with prizes for
   each, for both and for an asymptotic formula; defines on p. 33 $f(n)$
@@ -200,8 +200,8 @@ Source: <https://users.renyi.hu/~p_erdos/1978-36.pdf>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0019/_index|#19]],
 [[../wiki/problems/ramsey_theory/E0159/_index|#159]],
-[[../wiki/problems/ramsey_theory/E0165/_index|#165]]: the site's key Er78, p. 34 (PDF
-p. 6): display (4), "Graver, Yackel and I proved that (4)
+[[../wiki/problems/ramsey_theory/E0165/_index|#165]]: the erdosproblems.com key
+Er78, p. 34 (PDF p. 6): display (4), "Graver, Yackel and I proved that (4)
 $c_1n^2/(\log n)^2<r(C_3,K_n)<c_2n^2\log\log n/\log n$", followed by "It
 would be interesting to obtain an asymptotic formula for $r(C_3,K_n)$, but
 this will probably be very difficult",
@@ -218,43 +218,43 @@ $a\in I$ with $a\equiv0\pmod{p_r}$ for some $0\le r\le u$; the paper
 further shows, as a strong form of sharpness, that "Every interval of length
 $>2p_u$ contains at least $2k$ distinct multiples of the $p$'s", with the
 proof beginning on the same page,
-[[../wiki/problems/ramsey_theory/E0720/_index|#720]]: the site's key Er78, p. 33 (PDF
-p. 5, page image): Section 4, "Further problems", opens with the definition
-of $\hat r(G_1,G_2)$ (the size Ramsey number: the smallest number of edges
-of a graph whose two-colorings all contain $G_1$ in one color or $G_2$ in
-the other), then: "The most annoying problem is to determine or estimate
+[[../wiki/problems/ramsey_theory/E0720/_index|#720]]: the erdosproblems.com key
+Er78, p. 33 (PDF p. 5, page image): Section 4, "Further problems", opens with
+the definition of $\hat r(G_1,G_2)$ (the size Ramsey number: the smallest number
+of edges of a graph whose two-colorings all contain $G_1$ in one color or $G_2$
+in the other), then: "The most annoying problem is to determine or estimate
 $\hat r(P_n,P_n)$, where $P_n$ is a path of length $n$. We could not even
 prove that (2) $\lim_{n=\infty}\hat r(P_n,P_n)/n=\infty$ and (3)
 $\lim\hat r(P_n,P_n)/n^2=0$. I give 25 dollars for a proof or disproof of
 either (2) or (3) (i.e. 50 for both) and 100 dollars for an asymptotic
 formula for $\hat r(P_n,P_n)$",
-[[../wiki/problems/extremal_graph_theory/E0900/_index|#900]]: the site's key Er78, cited
-by the site with "p.32"; Section 3, printed p. 32 (PDF p. 4, page image):
-"It is true that almost all graphs $G(n;[Cn])$ contain a path of length
-$>cn^2$ [sic]", where "almost all" means all but
-$o\bigl(\binom{\binom n2}{Cn}\bigr)$ of the graphs $G(n;[Cn])$; Erdős says he
-conjectured this and believed that $c\to1$ as $C\to\infty$, while "Szemerédi
-disagrees; he believes that for every $C$ the longest path is almost surely
-$o(n)$", and neither view could then be decided. The print's exponent on $cn$
-cannot be meant (a path in a graph on $n$ vertices has fewer than $n$ edges)
-and the site quotes the passage without it; the problem's origin in the site's
-first key, with the disagreement the site's commentary calls curious,
-[[../wiki/problems/ramsey_theory/E1182/_index|#1182]]: the site's key Er78, p. 33 (PDF
-p. 5, page image): Section 4 defines $f(n)$ (the largest integer for which
-some $G(n;f(n))$ has $r(K_3;G(n;f(n)))\le2n-1$) with the bounds
-"$f(n)>cn\log n/\log\log n$" and "$f(n)<n^{5/3+e}$ [sic]", and $F(n)$
-(the largest integer so that every $G(n;\ell)$ with $\ell\le F(n)$ has
-$r(K_3;G(n;\ell))\le2n-1$); p. 34 (PDF p. 6): "Clearly $f(n)\ge F(n)$. It
-seems certain that $f(n)/F(n)\to\infty$, $F(n)/n\to\infty$. We have no
-idea of the true order of magnitude of $F(n)$ and $f(n)$", the origin of
-the site's closing question, in the letters the site uses,
-[[../wiki/problems/ramsey_theory/E1183/_index|#1183]]: the site's key Er78, p. 39 (PDF
-p. 11, page image): Section 6's Erdős--Ulam problem with the definitions of
-$f(n)$ and $F(n)$, the trivial bound $f(n)\ge(n+1)/2$, "We have no plausible
-conjecture for the true order of magnitude of $f(n)$", the conjectures
-"$F(n)>n^c$ for every $c$ if $n>n_0(c)$" and "$F(n)<(1+\varepsilon)^n$ for
-every $\varepsilon>0$ if $n>n_0(\varepsilon)$" (the site writes
-$n^{\omega(n)}$ and $(1+o(1))^n$), and
+[[../wiki/problems/extremal_graph_theory/E0900/_index|#900]]: the
+erdosproblems.com key Er78, cited by erdosproblems.com with "p.32"; Section 3,
+printed p. 32 (PDF p. 4, page image): "It is true that almost all graphs
+$G(n;[Cn])$ contain a path of length $>cn^2$ [sic]", where "almost all" means
+all but $o\bigl(\binom{\binom n2}{Cn}\bigr)$ of the graphs $G(n;[Cn])$; Erdős
+says he conjectured this and believed that $c\to1$ as $C\to\infty$, while
+"Szemerédi disagrees; he believes that for every $C$ the longest path is almost
+surely $o(n)$", and neither view could then be decided. The print's exponent on
+$cn$ cannot be meant (a path in a graph on $n$ vertices has fewer than $n$
+edges) and erdosproblems.com quotes the passage without it; the problem's origin
+in erdosproblems.com's first key, with the disagreement the erdosproblems.com
+commentary calls curious, [[../wiki/problems/ramsey_theory/E1182/_index|#1182]]:
+the erdosproblems.com key Er78, p. 33 (PDF p. 5, page image): Section 4 defines
+$f(n)$ (the largest integer for which some $G(n;f(n))$ has
+$r(K_3;G(n;f(n)))\le2n-1$) with the bounds "$f(n)>cn\log n/\log\log n$" and
+"$f(n)<n^{5/3+e}$ [sic]", and $F(n)$ (the largest integer so that every
+$G(n;\ell)$ with $\ell\le F(n)$ has $r(K_3;G(n;\ell))\le2n-1$); p. 34 (PDF p.
+6): "Clearly $f(n)\ge F(n)$. It seems certain that $f(n)/F(n)\to\infty$,
+$F(n)/n\to\infty$. We have no idea of the true order of magnitude of $F(n)$ and
+$f(n)$", the origin of erdosproblems.com's closing question, in the letters
+erdosproblems.com uses, [[../wiki/problems/ramsey_theory/E1183/_index|#1183]]:
+the erdosproblems.com key Er78, p. 39 (PDF p. 11, page image): Section 6's
+Erdős--Ulam problem with the definitions of $f(n)$ and $F(n)$, the trivial bound
+$f(n)\ge(n+1)/2$, "We have no plausible conjecture for the true order of
+magnitude of $f(n)$", the conjectures "$F(n)>n^c$ for every $c$ if $n>n_0(c)$"
+and "$F(n)<(1+\varepsilon)^n$ for every $\varepsilon>0$ if $n>n_0(\varepsilon)$"
+(erdosproblems.com writes $n^{\omega(n)}$ and $(1+o(1))^n$), and
 [[extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/theorem_2|Theorem 2]];
 pp. 39--40 (PDF pp. 11--12): the proof; p. 40 (PDF p. 12): the remark that
 no acceptable lower bound has been obtained, and Howorka's restricted-coloring

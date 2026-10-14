@@ -39,7 +39,7 @@ for prime $\ell$, and its Section 5 corrects the argument of Győry, Hajdu
 and Saradha for $\ell=3$. Library home:
 [[../library/diophantine_problems/bennett_2006_powers_products_consecutive_terms_arithmetic_progression/_index|bennett_2006_powers_products_consecutive_terms_arithmetic_progression]].
 These are the lengths $4\le k\le11$ of
-[[problems/diophantine_problems/E0672/_index|Problem 672]]. The site's
+[[problems/diophantine_problems/E0672/_index|Problem 672]]. erdosproblems.com's
 second credit to the paper, for $k$ large in terms of the number of prime
 factors of $d$, is Corollary 1.6 (printed p. 276), which gives finitely many
 solutions and settles no instance.
@@ -51,5 +51,6 @@ Not covered: every length $k\ge12$.
 
 **Acceptance.** Refereed: Proceedings of the London Mathematical Society
 (3) 92 (2006), no. 2 (received 27 September 2004, revised 7 June 2005). The
-site's commentary credits the theorem, but the site labeled the problem
-VERIFIABLE, an open label, so the commentary is not `reviewed` evidence.
+erdosproblems.com commentary credits the theorem, but Bloom's catalog labeled
+the problem VERIFIABLE, an open label, so the commentary is not `reviewed`
+evidence.

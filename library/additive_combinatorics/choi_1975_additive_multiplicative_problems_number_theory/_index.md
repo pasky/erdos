@@ -5,7 +5,7 @@ desc: |
   be found, and gives probabilistic multiplicative analogs.
 license: LicenseRef-CC-BY
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory
@@ -28,7 +28,7 @@ all pairwise sums in the set, by Varnavides's theorem on three-term
 progressions.
 
 [[additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/theorem_8|theorem_8]]: The refinement of Theorem 7 that lowers the density threshold below two
-thirds by a constant depending on k, the source of the site's bound
+thirds by a constant depending on k, the source of erdosproblems.com's bound
 f_k(N) at most (2/3 - ε_k)N on Problem 865.
 
 [[additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/theorems_1_4|theorems_1_4]]: The four theorems of Section 1 that fix the order of magnitude of the least
@@ -99,16 +99,17 @@ The file's text layer carries no copyright or license line; IMPAN's volume
 listing offers the article "Free download under CC-BY license", no version named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/27,
 read 2026-10-02), the article's own page not opened; the site footer "Copyright
-© 2026 by IMPAN. All rights reserved." speaks for the site, not the article.
+© 2026 by IMPAN. All rights reserved." speaks for erdosproblems.com, not the
+article.
 
 Source: <https://users.renyi.hu/~p_erdos/1975-39.pdf>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0865/_index|#865]]: Section 2,
-Theorems 7 and 8 (printed p. 46, page image), the site's bound
+Theorems 7 and 8 (printed p. 46, page image), erdosproblems.com's bound
 $f_k(N)\le(\tfrac23-\epsilon_k)N$ for $k$ members of $A\subseteq[1,n]$ with all
 pairwise sums in $A$;
 [[../wiki/problems/additive_combinatorics/E0866/_index|#866]]: Section 1, Theorems 1--6
-(printed pp. 37--43, page images), the site's $g_3(N)=2$, $g_4(N)\ll1$,
+(printed pp. 37--43, page images), erdosproblems.com's $g_3(N)=2$, $g_4(N)\ll1$,
 $g_5(N)\asymp\log N$, $g_6(N)\asymp N^{1/2}$, the general upper bound and the
 $N^{1-\epsilon}$ lower bound, for the paper's $t_k$ with the $b_i$ not required
 in $A$; the lower-bound examples for $k=3$ and $k=5$ assume positive $b_i$.

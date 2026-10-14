@@ -45,8 +45,8 @@ null set excluded from each variable, the hypothesis is Hartman's, which de
 Bruijn records as the earlier partial result; it is a special case of the
 plane-measure hypothesis, so the answer is the same.
 
-**Status.** Labeled PROVED (LEAN) on the site, which credits the result as
-proved independently by de Bruijn [dB66] and Jurkat [Ju65]. Both proofs are
+**Status.** Labeled PROVED (LEAN) on erdosproblems.com, which credits the result
+as proved independently by de Bruijn [dB66] and Jurkat [Ju65]. Both proofs are
 recorded as accepted claims: de Bruijn's
 [[problems/analysis/E1126/claims/1966_01_01_debruijn|translation-difference proof]]
 and Jurkat's
@@ -89,7 +89,7 @@ linked formal files.
 
 ## Progress
 
-Erdős posed the question as Problem P 310 in 1960. The site credits the
+Erdős posed the question as Problem P 310 in 1960. erdosproblems.com credits the
 result as proved independently by Jurkat [Ju65] and de Bruijn [dB66].
 
 Jurkat's Theorem I works with a real-valued function that may initially be

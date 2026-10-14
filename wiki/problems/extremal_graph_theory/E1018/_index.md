@@ -26,7 +26,7 @@ updated: 2026-10-08T01:29:59Z
 all large $n$, every graph on $n$ vertices with at least $n^{1+\epsilon}$ edges
 must contain a subgraph on at most $C_\epsilon$ vertices which is non-planar?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
 carries no last-edited date). The question is for fixed
 $\epsilon>0$, with $C_\epsilon$ depending on $\epsilon$ only and $n$ at least
 some $n_0(\epsilon)$. It is Erdős's item 12 of 1971 with $C_\epsilon$ for his
@@ -36,17 +36,17 @@ $c_\varepsilon$ and "for all large $n$" made explicit
 is non-planar and has at most $c_\varepsilon$ vertices?"). By Kuratowski's
 theorem a graph is non-planar exactly when it contains a subdivision of
 $K_5$ or of $K_{3,3}$, so a subdivided $K_5$ of bounded order is a
-non-planar subgraph of the kind asked for. The site labeled the problem
+non-planar subgraph of the kind asked for. Bloom's catalog labeled the problem
 SOLVED, its label for a resolution that is neither a proof nor a disproof,
-although the answer is yes; the label is the site's, and the claim value
-recorded on the claim page is proved.
+although the answer is yes; the label is erdosproblems.com's, and the claim
+value recorded on the claim page is proved.
 
-**Status.** Solved. The site's label was SOLVED on 2026-09-18. On 2026-10-07 the
-page printed no label, and the community database listed the problem as solved
-(Lean), with a last update of 16 September 2026. The answer is yes. Kostochka
-and Pyber (Combinatorica 8 (1988), no. 1, 83--86; refereed) state Erdős's
-question in their introduction and answer it with their Theorem (p. 83): "Every
-$G[n,4^{t^2}n^{1+\varepsilon}]$ contains a $TK_t$ of size at most
+**Status.** Solved. The erdosproblems.com label was SOLVED on 2026-09-18. On
+2026-10-07 the page printed no label, and the community database listed the
+problem as solved (Lean), with a last update of 16 September 2026. The answer is
+yes. Kostochka and Pyber (Combinatorica 8 (1988), no. 1, 83--86; refereed) state
+Erdős's question in their introduction and answer it with their Theorem (p. 83):
+"Every $G[n,4^{t^2}n^{1+\varepsilon}]$ contains a $TK_t$ of size at most
 $c(\varepsilon,t)\le7t^2\log t/\varepsilon$ for all $t\in\mathbb N$ and
 $\varepsilon>0$". Here $G[n,m]$ is a graph with $n$ vertices and $m$ edges, and
 $TK_t$ is a topological complete graph (a subdivided $K_t$) of $t$ vertices. The
@@ -57,24 +57,24 @@ result page
 
 With $t=5$ this gives a non-planar subgraph on $O(1/\epsilon)$ vertices in every
 graph with $n^{1+\epsilon}$ edges once $n$ is large (an authored conversion
-below). The site's account and the restatement in Janzer's refereed paper of
-2021 (Bull. London Math. Soc. 53, 108--118; quoted from its arXiv copy) agree
-with the printed statement. The label rested on Erdős's question, the site's
-acceptance and the Theorem as printed. The proof (p. 85) was followed for
-structure and not checked.
+below). erdosproblems.com's account and the restatement in Janzer's refereed
+paper of 2021 (Bull. London Math. Soc. 53, 108--118; quoted from its arXiv copy)
+agree with the printed statement. The label rested on Erdős's question,
+erdosproblems.com's acceptance and the Theorem as printed. The proof (p. 85) was
+followed for structure and not checked.
 
 The claim page
 [[problems/extremal_graph_theory/E1018/claims/1988_03_01_kostochka_pyber|Kostochka and Pyber]]
 records the result, its acceptance evidence and its postings, and the standing
 derives from it. The question is answered in the affirmative, so the claim's
-value is proved, while the first word of this text keeps the site's label. Jiang
-(J. Graph Theory 67 (2011), 139--152; not held) later sharpened the bound, as
-Janzer reports.
+value is proved, while the first word of this text keeps the erdosproblems.com
+label. Jiang (J. Graph Theory 67 (2011), 139--152; not held) later sharpened the
+bound, as Janzer reports.
 
 **Source.** [erdosproblems.com/1018](https://www.erdosproblems.com/1018),
 accessed 2026-09-18: the problem page (SOLVED, the
-site's label for a resolution that is neither a proof nor a disproof; no
-last-edited date; source keys [Er71] and [KoPy88]; the page thanks one
+erdosproblems.com label for a resolution that is neither a proof nor a disproof;
+no last-edited date; source keys [Er71] and [KoPy88]; the page thanks one
 contributor by name), its two-comment discussion thread (13 September 2025) and its
 empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1018,
 https://www.erdosproblems.com/1018, accessed 2026-09-18.
@@ -119,31 +119,32 @@ https://www.erdosproblems.com/1018, accessed 2026-09-18.
 
 **Formalization.** None in formal-conjectures: no file `ErdosProblems/1018.lean`
 existed in `FormalConjectures/ErdosProblems/` on 2026-09-18 or on 2026-10-07,
-and the site's indicator records no formalized statement. The community database
-(teorth/erdosproblems, `data/problems.yaml`) recorded the problem solved (as of
-its last update of 12 December 2025) and unformalized on 2026-09-18; on
-2026-10-07 it listed the status "solved (Lean)", with a last update of 16
-September 2026, pointing to Collin Yuanjie Ren's submission JSP-000848 (whose
-commit is of 16 September 2026; described as an AI-assisted Lean formalization
-of eventual bounded-size non-planar subgraphs with ordinary topological
-non-planarity, reusing a credited compact-$K_5$ development), while its
-formalized-statement field reads no. Two Lean developments state and prove the
-problem outside formal-conjectures, both declaring themselves formalizations of
-Kostochka and Pyber's result: the file `src/latest/ErdosProblems/Erdos1018.lean`
-of Boris Alexeev's repository plby/lean-proofs (first committed 17 August 2026;
-informal authors Kostochka and Pyber, formal authors Codex and GPT-5.6 Sol),
-whose `erdos_1018` proves the statement with non-planarity defined through
-Kuratowski subdivisions, and Ren's JSP-000848 (commit of 16 September 2026),
-which reuses Alexeev's five-file proof and Álvaro Begué's Schoenflies
-development and concludes with ordinary topological non-planarity (no
-crossing-free plane drawing). Both are recorded as formalization links on
+and the erdosproblems.com indicator records no formalized statement. The
+community database (teorth/erdosproblems, `data/problems.yaml`) recorded the
+problem solved (as of its last update of 12 December 2025) and unformalized on
+2026-09-18; on 2026-10-07 it listed the status "solved (Lean)", with a last
+update of 16 September 2026, pointing to Collin Yuanjie Ren's submission
+JSP-000848 (whose commit is of 16 September 2026; described as an AI-assisted
+Lean formalization of eventual bounded-size non-planar subgraphs with ordinary
+topological non-planarity, reusing a credited compact-$K_5$ development), while
+its formalized-statement field reads no. Two Lean developments state and prove
+the problem outside formal-conjectures, both declaring themselves formalizations
+of Kostochka and Pyber's result: the file
+`src/latest/ErdosProblems/Erdos1018.lean` of Boris Alexeev's repository
+plby/lean-proofs (first committed 17 August 2026; informal authors Kostochka and
+Pyber, formal authors Codex and GPT-5.6 Sol), whose `erdos_1018` proves the
+statement with non-planarity defined through Kuratowski subdivisions, and Ren's
+JSP-000848 (commit of 16 September 2026), which reuses Alexeev's five-file proof
+and Álvaro Begué's Schoenflies development and concludes with ordinary
+topological non-planarity (no crossing-free plane drawing). Both are recorded as
+formalization links on
 [[problems/extremal_graph_theory/E1018/claims/1988_03_01_kostochka_pyber|Kostochka and Pyber's claim page]],
 which describes them; neither was built or audited in this corpus, so the
 claim lists no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; SOLVED; no last-edited date. The commentary, in this page's words,
 records Erdős's remark in [Er71] that $C_\epsilon\to\infty$ as
 $\epsilon\to0$ is easy to see, and credits Kostochka and Pyber [KoPy88]
@@ -152,8 +153,8 @@ which is non-planar, on a number of vertices bounded in terms of
 $\epsilon$. The thread: a comment of
 14:18 on 13 September 2025 (the account zach hunter) pointing out that the
 answer follows from a result of Janzer (arXiv:1905.08001), since any
-subdivision of $K_5$ is non-planar, and the site's curator's reply of 14:31
-the same day, that Janzer's paper shows the problem to have been answered
+subdivision of $K_5$ is non-planar, and the erdosproblems.com curator's reply of
+14:31 the same day, that Janzer's paper shows the problem to have been answered
 much earlier, by Kostochka and Pyber in 1988. There are no proof
 claims. The community database record listed the problem as solved as of its
 last update of 12 December 2025 on 2026-09-18 and, on 2026-10-07, as solved
@@ -215,20 +216,20 @@ $(1+\alpha)^{l-1}\ge2^{\alpha(l-1)}$ and reads $\log(2t^2)$ as $1+2\log t$,
 so the base is $2$; a filing observation recorded on the result page); a
 subdivision of $K_5$ is non-planar by Kuratowski's theorem. So
 $C_\epsilon=\lfloor350\log_25/\epsilon\rfloor$ works for all
-$n\ge4^{50/\epsilon}$, an explicit form of the site's $O_\epsilon(1)$ bound.
-Read depth: the Theorem, the abstract, Erdős's question as the paper states
-it and the Notation (p. 83) were checked clause by clause; the proof (p. 85)
-and the lemmas (p. 84) were followed for structure only and not checked;
+$n\ge4^{50/\epsilon}$, an explicit form of erdosproblems.com's $O_\epsilon(1)$
+bound. Read depth: the Theorem, the abstract, Erdős's question as the paper
+states it and the Notation (p. 83) were checked clause by clause; the proof
+(p. 85) and the lemmas (p. 84) were followed for structure only and not checked;
 the constants above are the original's.
 
 **Erdős's remark on $c_\varepsilon\to\infty$.** Recorded as Erdős's ("not
-difficult to see"), as the site records it; no source cited here proves
+difficult to see"), as erdosproblems.com records it; no source cited here proves
 it, and it is not checked on this page.
 
 **Search scope.** None of the routes below found a dispute
 of the Kostochka--Pyber theorem or a different first solution.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database entry; the formal-conjectures listing (no file 1018).
 - The primary sources: [Er71] p. 102; [Ja21] p. 1 of the arXiv copy;
   [FLS13] (no quotation).

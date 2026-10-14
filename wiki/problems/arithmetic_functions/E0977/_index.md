@@ -59,8 +59,8 @@ added on 2026-09-20 and pinned at that commit. It tags `erdos_977` as
 its variants for Schinzel's bound, Stewart's 2013 bound and Lai's factorial
 bound are tagged `research solved` and stated with `sorry`, and the factorial
 variant $P(n!+1)/n\to\infty$ is tagged `research open`. The Lean proof was not
-built or audited here, so the catalog's label supplies no formal-verification
-credit; the claim page gives the pinned link.
+built or audited here, so the formal-conjectures label supplies no
+formal-verification credit; the claim page gives the pinned link.
 
 ## Current assessment
 
@@ -162,7 +162,7 @@ $$
 For every $\varepsilon>0$, the inputs satisfying $n!+f(n)>1$ and
 $P(n!+f(n))>(1+9\log2-\varepsilon)n$ have positive lower density.
 The choice $f=1$ concerns $n!+1$, the related question mentioned in the
-catalog remarks. It is a different sequence and a different conclusion
+erdosproblems.com remarks. It is a different sequence and a different conclusion
 from $P(2^n-1)/n\to\infty$; this finite limsup lower bound does not prove
 a divergent factorial limit either.
 

@@ -72,11 +72,11 @@ $s=0$, which is $O(N^{-1/4})$ on $S^2$. The paper is not held in the library.
 alone.
 
 **Acceptance.** Refereed: Math. Comp. 77 (2008), 1599–1613, published
-electronically 2008-02-06. Reviewed: the site's curator, T. F. Bloom, listed the
-problem as proved. The curator credits this paper with the rate $\ll n^{3/4}$
-and with the remark that the qualitative statement is classical potential
-theory. The site notes that the attribution is therefore unclear (site page
-last edited 2025-09-16).
+electronically 2008-02-06. Reviewed: the erdosproblems.com curator, T. F. Bloom,
+listed the problem as proved. The curator credits this paper with the rate
+$\ll n^{3/4}$ and with the remark that the qualitative statement is classical
+potential theory. erdosproblems.com notes that the attribution is therefore
+unclear (erdosproblems.com page last edited 2025-09-16).
 
 The thread's one comment (2025-10-17) is by Terence Tao, not by the curator. It
 reports a literature search with ChatGPT (the version the comment calls
@@ -87,7 +87,7 @@ among the standard texts the paper cites. It adds no acceptance evidence beyond
 the curator's label.
 
 This corpus has not reproduced the proof. The standing rests on the refereed
-paper and the site's acceptance.
+paper and erdosproblems.com's acceptance.
 
 **Relation to the other claim.** The rate here, $O(n^{3/4})$, is weaker
 than the $O(n^{2/3})$ of

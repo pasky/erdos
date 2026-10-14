@@ -42,9 +42,9 @@ The page is named by the date the paper was received.
 **Covers.** The lower bound only; neither $f(N)=o(N)$ nor the order of
 $f(N)$ is settled.
 
-**Acceptance.** Refereed: the journal publication. The site's commentary credits
-the bound, but the site labeled the problem OPEN, so the credit is not
-acceptance.
+**Acceptance.** Refereed: the journal publication. The erdosproblems.com
+commentary credits the bound, but Bloom's catalog labeled the problem OPEN, so
+the credit is not acceptance.
 
 **Depends on.** Nothing in this wiki: the bound and its proof are contained in
 the cited paper, whose card is linked above.

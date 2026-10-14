@@ -58,6 +58,6 @@ open.
 **Depends on.** Nothing in this wiki; the claim is the cited paper's
 theorem.
 
-**Acceptance.** Refereed: Revista Matemática Iberoamericana 40 (2024). The site
-labeled the problem OPEN. Its remarks credit this paper with the best known
-lower bound, but that credit is not acceptance.
+**Acceptance.** Refereed: Revista Matemática Iberoamericana 40 (2024). Bloom's
+catalog labeled the problem OPEN. Its remarks credit this paper with the best
+known lower bound, but that credit is not acceptance.

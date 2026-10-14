@@ -61,9 +61,9 @@ of Theorem 2.1 met and the construction for Theorem 2.2 reaching about
 from below how strong a sums-differences statement can be, which is the content
 relevant to problem 1097. The link to problem 1097 runs through the reduction of
 the common differences of three-term arithmetic progressions to
-SD(0,1,infinity), reported on the site and credited to Chan and not stated in
-this paper; through it, Theorem 2.1 gives sets of n integers with more than
-n^1.77898 common differences, answering the O(n^{3/2}) question in the
+SD(0,1,infinity), reported on erdosproblems.com and credited to Chan and not
+stated in this paper; through it, Theorem 2.1 gives sets of n integers with more
+than n^1.77898 common differences, answering the O(n^{3/2}) question in the
 negative.
 
 Source: <https://arxiv.org/abs/1404.3745v2>.

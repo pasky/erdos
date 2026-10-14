@@ -24,8 +24,8 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Let $g_1=g(n)=n+\phi(n)$ and $g_k(n)=g(g_{k-1}(n))$. For which
 $n$ and $r$ is it true that $g_{k+r}(n)=2g_k(n)$ for all large $k$?
 
-**Status.** Open, the site's label (OPEN, page last edited 28 October 2025). The
-one claim recorded,
+**Status.** Open, the erdosproblems.com label (OPEN, page last edited 28 October
+2025). The one claim recorded,
 [[problems/arithmetic_functions/E0411/claims/2025_04_10_steinerberger|Steinerberger 2025]],
 is partial. It reduces shift two to the equation $\phi(m)+\phi(m+\phi(m))=m$ and
 puts every solution into two branches by its odd part. It claims to settle the
@@ -48,30 +48,30 @@ https://www.erdosproblems.com/411.
 ## Current assessment
 
 **Open; shift two is reduced to one totient equation, with one of its two
-branches claimed settled by an arXiv preprint.** The site formulation above
-(page last edited 28 October 2025) asks for which $n$ and $r$ the iterates of
-$g(n)=n+\phi(n)$ satisfy $g_{k+r}(n)=2g_k(n)$ for all large $k$. The site
-records the solutions $n=10$ and $n=94$ for $r=2$, Selfridge and Weintraub's
-solutions of the multiplier-$9$ relation $g_{k+9}(n)=9g_k(n)$, and Weintraub's
-$g_{k+25}(3114)=729g_k(3114)$ for $k\ge6$. The one claim recorded is
-Steinerberger's 2025 preprint
+branches claimed settled by an arXiv preprint.** The erdosproblems.com
+formulation above (page last edited 28 October 2025) asks for which $n$ and $r$
+the iterates of $g(n)=n+\phi(n)$ satisfy $g_{k+r}(n)=2g_k(n)$ for all large $k$.
+erdosproblems.com records the solutions $n=10$ and $n=94$ for $r=2$, Selfridge
+and Weintraub's solutions of the multiplier-$9$ relation $g_{k+9}(n)=9g_k(n)$,
+and Weintraub's $g_{k+25}(3114)=729g_k(3114)$ for $k\ge6$. The one claim
+recorded is Steinerberger's 2025 preprint
 ([[problems/arithmetic_functions/E0411/claims/2025_04_10_steinerberger|claim page]];
 [[../library/arithmetic_functions/steinerberger_2025_iterated_arithmetic_function_problem_erdos_graham/_index|library card]]):
 the relation with $r=2$ holds from step $k$ on exactly when $m=g_k(n)$ solves
 $\phi(m)+\phi(m+\phi(m))=m$; every solution has odd part in $\{1,3,5,7,35,47\}$
 or is $2^\ell(8t+7)$ or $2^\ell(6t+5)$ with $8t+7\ge10^{10}$ prime and
 $\phi(6t+5)=4t+4$; and the first branch's solutions are exactly $2^a s$ with $s$
-in that set and $a\ge a_s$ ($a_1=2$, $a_s=1$ otherwise). The site's commentary
-credits the reduction and the branches to the preprint and relates the second
-branch to whether $\phi(q)=\tfrac23(q+1)$ has infinitely many solutions; it
-labeled the problem OPEN, so the claim is pending, not accepted. The preprint is
-on arXiv only, with no journal reference on its record.
+in that set and $a\ge a_s$ ($a_1=2$, $a_s=1$ otherwise). The erdosproblems.com
+commentary credits the reduction and the branches to the preprint and relates
+the second branch to whether $\phi(q)=\tfrac23(q+1)$ has infinitely many
+solutions; it labeled the problem OPEN, so the claim is pending, not accepted.
+The preprint is on arXiv only, with no journal reference on its record.
 
-**Proof claim on the site.** The site's proof-claims tab carries one partial
-claim, posted 2026-09-08 by Alateng Pan (write-up on Zenodo, fourth version
-of 2026-08-18; three earlier versions claimed a complete proof of the $r=2$
-case and were retitled), which claims to settle the first branch of the
-reduction by the six base orbits $n=4,6,10,14,70,94$ and a doubling step and
+**Proof claim on erdosproblems.com.** The erdosproblems.com proof-claims tab
+carries one partial claim, posted 2026-09-08 by Alateng Pan (write-up on Zenodo,
+fourth version of 2026-08-18; three earlier versions claimed a complete proof of
+the $r=2$ case and were retitled), which claims to settle the first branch of
+the reduction by the six base orbits $n=4,6,10,14,70,94$ and a doubling step and
 leaves the second branch open; the submission states that the system
 DeepSeek was used for language polishing and formatting only, with the
 mathematics the author's own. Its result is the first-branch classification
@@ -79,18 +79,18 @@ already in the 2025 preprint, so under the rule that the credited source
 names the page it is disclosed on the Steinerberger claim page and gets no
 page of its own.
 
-**Material reported by the site without a result on the problem.** The site
-reports Cambie's conjecture that the only solutions have $r=2$ and $n=2^lp$ with
-$l\ge1$ and $p\in\{2,3,5,7,35,47\}$. Read with the problem's "for all large $k$"
-this cannot hold, since every $n$ whose orbit reaches such a value also
-qualifies ($n=18$ and $n=22$ satisfy the relation from $k=1$). It is therefore
-read as concerning the $n$ for which the relation holds from $k=0$, which are
-the solutions of Steinerberger's equation. Cambie has reduced the problem to the
-question of which integers $r,t\ge1$ and primes $p\equiv7\pmod8$ satisfy
-$g_r(2p^t)=4p^t$ (the site prints $g_k$). The known cases are $g_2(14)=28$ and
-$g_2(94)=188$, and Cambie conjectures no solutions beyond $t=1$ and
-$p\in\{7,47\}$. The site also reports Cambie's observed shift-four relations
-$g_{k+4}(738)=3g_k(738)$, $g_{k+4}(148646)=4g_k(148646)$ and
+**Material reported by erdosproblems.com without a result on the problem.**
+erdosproblems.com reports Cambie's conjecture that the only solutions have $r=2$
+and $n=2^lp$ with $l\ge1$ and $p\in\{2,3,5,7,35,47\}$. Read with the problem's
+"for all large $k$" this cannot hold, since every $n$ whose orbit reaches such a
+value also qualifies ($n=18$ and $n=22$ satisfy the relation from $k=1$). It is
+therefore read as concerning the $n$ for which the relation holds from $k=0$,
+which are the solutions of Steinerberger's equation. Cambie has reduced the
+problem to the question of which integers $r,t\ge1$ and primes $p\equiv7\pmod8$
+satisfy $g_r(2p^t)=4p^t$ (erdosproblems.com prints $g_k$). The known cases are
+$g_2(14)=28$ and $g_2(94)=188$, and Cambie conjectures no solutions beyond $t=1$
+and $p\in\{7,47\}$. erdosproblems.com also reports Cambie's observed shift-four
+relations $g_{k+4}(738)=3g_k(738)$, $g_{k+4}(148646)=4g_k(148646)$ and
 $g_{k+4}(4325798)=4g_k(4325798)$ for all $k\ge1$. None of these settles an
 instance of the multiplier-$2$ question: the conjecture and the reduction decide
 no $n$, and the three examples have multipliers $3$ and $4$. The forum thread
@@ -104,12 +104,12 @@ solution by adjoining one prime); the remaining comments are Pan's announcements
 of the claim above. None of these decides an instance of the problem either.
 
 **Formalization and search scope.** No formal-conjectures statement file exists
-(the site reports no formalised statement; the community database lists the
-problem as open and unformalized as of its last update on 2025-08-31, with the
-comment "partial r=2 result"). Search scope: the
-site's page, discussion thread and proof-claims tab, the arXiv record of [St25],
-the Zenodo record of the later claim and its version history, the community
-database, and the monograph page recorded below.
+(erdosproblems.com reports no formalised statement; the community database lists
+the problem as open and unformalized as of its last update on 2025-08-31, with
+the comment "partial r=2 result"). Search scope: the erdosproblems.com page,
+discussion thread and proof-claims tab, the arXiv record of [St25], the Zenodo
+record of the later claim and its version history, the community database, and
+the monograph page recorded below.
 
 ## Known Results
 

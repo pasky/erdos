@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E1063/claims/2026_07_27_cipollini
 title: An upper bound of order k log log k / log k for log n_k
 desc: |
-  Ricky Cipollini's proof claim, posted to the site's proof-claim tab on 27 July
-  2026, asserts that
+  Ricky Cipollini's proof claim, posted to the erdosproblems.com proof-claim tab
+  on 27 July 2026, asserts that
   $\log n_k\le\frac{k}{\log k}(\log\log k+\log\log\log k+\log2+o(1))$. The
   write-up requires a sign-in, and the claim is unreviewed.
 authors:
@@ -33,8 +33,8 @@ $$
 \log n_k\le\frac{k}{\log k}\bigl(\log\log k+\log\log\log k+\log2+o(1)\bigr).
 $$
 
-Ricky Cipollini submitted this to the site's proof-claim tab on 27 July
-2026 (the page name's date), attributing the proof to the model GPT-5.6
+Ricky Cipollini submitted this to the erdosproblems.com proof-claim tab on 27
+July 2026 (the page name's date), attributing the proof to the model GPT-5.6
 Sol. The result is a bound rather than the estimate Erdős and Selfridge
 asked for, so the page records it as partial. The tab's summary says that
 the claimant first proved the weaker bound
@@ -55,12 +55,12 @@ Cipollini (account rickyc) on 27 July 2026, giving "GPT-5.6 Sol" as the AI used:
 > in the paper. Notes: The paper was written by GPT 5.6-Sol using a slightly
 > modified version of Liam Price's prompt.
 
-**Context.** The upper bounds in the site's commentary before this claim
-are Monier's $n_k\le k!$ for $k\ge3$ (1985), which gives
+**Context.** The upper bounds in the erdosproblems.com commentary before this
+claim are Monier's $n_k\le k!$ for $k\ge3$ (1985), which gives
 $\log n_k\le(1+o(1))\,k\log k$, and Cambie's sharpening
 $n_k\le k\,[2,3,\ldots,k-1]\le e^{(1+o(1))k}$, where $[\cdots]$ is the least
 common multiple, posted to the discussion thread on 1 October 2025 and
-adopted in the site's commentary, which improves this to
+adopted in the erdosproblems.com commentary, which improves this to
 $\log n_k\le(1+o(1))k$. The claimed bound divides the exponent of Cambie's
 bound by a factor of order $\log k/\log\log k$. The discussion thread's
 computed values of $n_k$, to
@@ -77,7 +77,7 @@ the two claims share one write-up link and are independent results.
 
 **Standing.** Claimed. The write-up has no arXiv version and no journal
 record, the tab carried no comment under the claim, and the
-site's label was OPEN (page last edited 1 February 2026). Nothing here is
-this project's review, and no acceptance evidence is listed.
+erdosproblems.com label was OPEN (page last edited 1 February 2026). Nothing
+here is this project's review, and no acceptance evidence is listed.
 
 **Depends on.** No page of this wiki.

@@ -99,9 +99,9 @@ count. The related f(n) above instead controls the interval length needed to
 assign distinct multiples. These quantities must not be interchanged.
 
 The formulation account on [[../wiki/problems/integer_sequences/E0708/_index|Problem 708]]
-distinguishes the site's literal exact-size requirement from an explicit
-at-most normalization. The latter is a source-supported interpretation, not a
-printed erratum, and receives no status from this digest. The 1992 paper's
+distinguishes erdosproblems.com's literal exact-size requirement from an
+explicit at-most normalization. The latter is a source-supported interpretation,
+not a printed erratum, and receives no status from this digest. The 1992 paper's
 definition uses x >= 0 and positive intervals; no equivalence with
 arbitrary consecutive intervals is asserted here.
 
@@ -113,14 +113,13 @@ No live source or current literature-status search was performed.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0650/_index|#650]]: Section 11,
 pp. 45--46 (PDF pp. 7--8, page images): any 2a_n consecutive integers contain
-at least sqrt(n) distinct multiples of distinct a_i, the site's lower bound
-f(m) >= sqrt(m);
-[[../wiki/problems/integer_sequences/E0708/_index|#708]]: Section 1, p. 39, poses
-Gallai's selection question (its two- and three-integer cases are Problem 6
-of the 1954 Schweitzer competition); Section 6, Theorem II, p. 42, shows
-that at most four selections suffice for three integers; Section 9, p. 44,
-and the summaries, pp. 47--48, show that more than (2-ε)n selections can be
-needed and ask whether worse cases occur;
+at least sqrt(n) distinct multiples of distinct a_i, erdosproblems.com's lower
+bound f(m) >= sqrt(m); [[../wiki/problems/integer_sequences/E0708/_index|#708]]:
+Section 1, p. 39, poses Gallai's selection question (its two- and three-integer
+cases are Problem 6 of the 1954 Schweitzer competition); Section 6, Theorem II,
+p. 42, shows that at most four selections suffice for three integers; Section 9,
+p. 44, and the summaries, pp. 47--48, show that more than (2-ε)n selections can
+be needed and ask whether worse cases occur;
 [[../wiki/problems/integer_sequences/E0709/_index|#709]]: Section 10, p. 45 (PDF p. 7, page
 image), defines the problem's f(n) and proves f(n) >= c(log n)^α; Sections
 11--12, pp. 45--47 (PDF pp. 7--9), prove f(n) <= C'·sqrt(n); the summary,

@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 551, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0551/claims
@@ -13,7 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/ramsey_theory/E0551/claims/1973_02_01_bondy_erdos|1973_02_01_bondy_erdos]]: Theorem 4 of Bondy and Erdős (1973) gives $R(C_k,K_n)=(k-1)(n-1)+1$ whenever
 $k\ge n^2-2$, the first infinite range of the identity. It is refereed and
-credited by the site's commentary.
+credited by the erdosproblems.com commentary.
 
 [[problems/ramsey_theory/E0551/claims/2004_04_27_nikiforov|2004_04_27_nikiforov]]: Theorem 1 of Nikiforov's preprint arXiv:math/0404501v1 (journal version
 Combin. Probab. Comput. 14 (2005)) gives $R(C_k,K_n)=(k-1)(n-1)+1$ whenever

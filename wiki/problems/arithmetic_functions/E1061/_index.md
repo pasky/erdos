@@ -40,25 +40,26 @@ $$
 with $a+b\leq x$, where $\sigma$ is the sum of divisors function? Is it
 $\sim cx$ for some constant $c>0$, or of higher order?
 
-**Notes.** The site's first question is ambiguous between asking for the order
-of growth and asking Guy's dichotomy. Guy [Gu04], B15, p. 105, fixes it as the
-dichotomy, reporting Erdős's question as whether the number of solutions with
-$a+b\le x$ is $cx+o(x)$ or of higher order, and the formal-conjectures
-statement `erdos_1061` formalizes the same yes-or-no question, whether
-$S(x)\sim cx$ for some $c>0$. Ordered pairs are counted. There are no
-solutions with $a=b$ (Remark 1.2 of
+**Notes.** erdosproblems.com's first question is ambiguous between asking for
+the order of growth and asking Guy's dichotomy. Guy [Gu04], B15, p. 105, fixes
+it as the dichotomy, reporting Erdős's question as whether the number of
+solutions with $a+b\le x$ is $cx+o(x)$ or of higher order, and the
+formal-conjectures statement `erdos_1061` formalizes the same yes-or-no
+question, whether $S(x)\sim cx$ for some $c>0$. Ordered pairs are counted. There
+are no solutions with $a=b$ (Remark 1.2 of
 [[problems/arithmetic_functions/E1061/claims/2026_06_24_li|Li 2026]]), so the
 unordered count is exactly half. A proof that the count exceeds $x(\log x)^R$
 for every $R>0$ answers the modified Statement in the higher-order direction,
 and the answer to whether the count is $\sim cx$ is no. Such a bound does not
 determine the order of growth, which remains open.
 
-**Status.** Open. The site labeled the problem OPEN. Li's preprint of June 2026
-(arXiv:2606.25849, written with GPT-5.5 Pro) claims that the number of solutions
-with $a+b\le x$ exceeds $x(\log x)^{R}$ for every fixed $R>0$, so that no
-asymptotic $cx$ holds. The author posted it as a full proof claim on the site's
-proof-claims tab on 2026-07-26. No outside review is known, and the claim is
-pending on [[problems/arithmetic_functions/E1061/claims/2026_06_24_li|Li 2026]]
+**Status.** Open. Bloom's catalog labeled the problem OPEN. Li's preprint of
+June 2026 (arXiv:2606.25849, written with GPT-5.5 Pro) claims that the number of
+solutions with $a+b\le x$ exceeds $x(\log x)^{R}$ for every fixed $R>0$, so that
+no asymptotic $cx$ holds. The author posted it as a full proof claim on the
+erdosproblems.com proof-claims tab on 2026-07-26. No outside review is known,
+and the claim is pending on
+[[problems/arithmetic_functions/E1061/claims/2026_06_24_li|Li 2026]]
 (proof-claims thread accessed 2026-10-06).
 
 **Source.** [erdosproblems.com/1061](https://www.erdosproblems.com/1061),
@@ -81,18 +82,18 @@ commit; no formal proof is filed there).
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-04).** How many pairs
-$(a,b)$ with $a+b\le x$ satisfy $\sigma(a)+\sigma(b)=\sigma(a+b)$, and
-whether the count is $\sim cx$ for some constant $c>0$. The site labeled the
-problem OPEN.
+**The question (erdosproblems.com formulation, accessed 2026-09-04).** How many
+pairs $(a,b)$ with $a+b\le x$ satisfy $\sigma(a)+\sigma(b)=\sigma(a+b)$, and
+whether the count is $\sim cx$ for some constant $c>0$. Bloom's catalog labeled
+the problem OPEN.
 
 **Standing.** Claimed, disproved: the full claim
 [[problems/arithmetic_functions/E1061/claims/2026_06_24_li|Li 2026]]
 (arXiv:2606.25849, first version submitted 2026-06-24, written with GPT-5.5
 Pro) asserts that the count exceeds $x(\log x)^{R}$ for every fixed $R>0$,
 so that no asymptotic $cx$ holds. The author posted it as a full proof claim
-on the site's proof-claims tab on 2026-07-26; the thread carried no comments
-as of 2026-10-06, and no referee report or outside review of the proof is
+on the erdosproblems.com proof-claims tab on 2026-07-26; the thread carried no
+comments on 2026-10-06, and no referee report or outside review of the proof is
 known. The claim's full scope rests on the modified Statement above: it answers
 Guy's dichotomy and the question whether the count is $\sim cx$, but it does
 not determine the order of growth.
@@ -106,9 +107,9 @@ commit pinned in the Formalization paragraph, states the question with
 many solutions there are with $q+r<x$, whether $cx+o(x)$ or of higher order;
 in that formulation the Li claim asserts the count is of higher order.
 
-**Search scope.** The site's problem page, accessed 2026-09-04, and its
-proof-claims thread, accessed 2026-10-06; the formal-conjectures file at the
-pinned commit and the lean-proofs repository, as of 2026-10-07; and Guy's
+**Search scope.** The erdosproblems.com problem page, accessed 2026-09-04, and
+its proof-claims thread, accessed 2026-10-06; the formal-conjectures file at the
+pinned commit and the lean-proofs repository, read 2026-10-07; and Guy's
 B15. The proof is not compiled in this wiki.
 <!-- BEGIN problem library links -->
 

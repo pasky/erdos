@@ -3,9 +3,9 @@ name: problems/additive_combinatorics/E0138/claims/2026_04_10_sothanaphan
 title: Sothanaphan's refinement of the van der Waerden difference bound
 desc: |
   A five-page note by Nat Sothanaphan, written with GPT-5.4 Thinking and linked
-  from the site's thread, proves $W_r(k+1)-W_r(k)\ge k+\min\{k,F(r)\}+1$ for $r$
-  colors. For the problem's two colors this gives $W(k+1)-W(k)\ge k+1$, and the
-  result is claimed.
+  from the erdosproblems.com thread, proves
+  $W_r(k+1)-W_r(k)\ge k+\min\{k,F(r)\}+1$ for $r$ colors. For the problem's two
+  colors this gives $W(k+1)-W(k)\ge k+1$, and the result is claimed.
 authors:
 - Nat Sothanaphan
 status: claimed
@@ -27,7 +27,7 @@ updated: 2026-10-08T00:36:27Z
 
 **Claim.** Nat Sothanaphan, *A sieve refinement for van der Waerden
 differences*, a five-page note dated 11 April 2026 in print and linked from
-the site's thread for
+the erdosproblems.com thread for
 [[problems/additive_combinatorics/E0138/_index|Problem 138]] on 10 April
 2026. Its AI disclosure says it was produced with GPT-5.4 Thinking. For $r$
 colors let $W_r(k)$ be the $r$-color van der Waerden number, so that
@@ -46,8 +46,8 @@ coloring that it credits, for the method, to the DeepMind argument and to the
 curator's comment on the thread. The argument was not reconstructed in this
 corpus.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 10 April
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+10 April 2026:
 
 > GPT-5.4 Thinking and I in these notes have refined the difference bound to:
 > $$
@@ -66,6 +66,6 @@ $W_r$ and not the problem's two-color number.
 **Depends on.** No page of this wiki.
 
 **Standing.** Claimed: the note has no journal record and no outside review,
-the site's commentary does not mention it, and the site labeled the problem
-OPEN. No Lean formalization of the note's theorem is known, and this corpus
-has built nothing, so the page lists no evidence.
+the erdosproblems.com commentary does not mention it, and Bloom's catalog
+labeled the problem OPEN. No Lean formalization of the note's theorem is known,
+and this corpus has built nothing, so the page lists no evidence.

@@ -37,14 +37,14 @@ through Zhao's reference [8], the Erdős--Füredi--Loebl--Sós paper
 *Discrepancy of trees* (Studia Sci. Math. Hungar. 30 (1995), 47--57), and
 points to the Chung--Graham problem book, p. 44, for the name.
 
-**Relation to Problem 580.** The site asks whether $G$ contains "every tree
-on at most $n/2$ vertices". A tree on at most $n/2$ vertices has at most
+**Relation to Problem 580.** erdosproblems.com asks whether $G$ contains "every
+tree on at most $n/2$ vertices". A tree on at most $n/2$ vertices has at most
 $n/2-1<\lfloor n/2\rfloor+1$ edges, so it has at most $\lfloor n/2\rfloor$
 edges, and "at least $n/2$ vertices of degree at least $n/2$" implies "at
 least $\lceil n/2\rceil$ vertices of degree at least $\lceil n/2\rceil$"
-(degrees and counts are integers). Hence Theorem 1.6 answers the site's
-question affirmatively for every $n\ge n_0$ and says nothing about
-$n<n_0$.
+(degrees and counts are integers). Hence Theorem 1.6 answers the
+erdosproblems.com question affirmatively for every $n\ge n_0$ and says nothing
+about $n<n_0$.
 
 **Source.** Y. Zhao, *Proof of the $(n/2-n/2-n/2)$ Conjecture for large
 $n$*, Electron. J. Combin. 18 (2011), no. 1, Paper 27, 61 pp.,
@@ -55,8 +55,8 @@ image.
 
 **Read depth.** Claims checked: Conjecture 1.3, Theorem 1.5 and Theorem 1.6
 were read clause by clause on the page image of p. 2, with the deduction to
-the site's wording made here. The proof (Sections 3--7 and the appendix,
-pp. 5--61) was not read.
+the erdosproblems.com wording made here. The proof (Sections 3--7 and the
+appendix, pp. 5--61) was not read.
 
 ## Proof pointer
 
@@ -84,7 +84,7 @@ otherwise self-contained was not checked.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0580/_index|Problem 580]]: the
-  status-supporting theorem; it proves the site's statement for all
+  status-supporting theorem; it proves the erdosproblems.com statement for all
   $n\ge n_0$ with $n_0$ not explicit, and the sharpness
   [[extremal_graph_theory/zhao_2011_proof_n_2_n_2_n_2_conjecture_large_n/construction_1_7|Construction 1.7]]
   shows the count $n/2$ of large-degree vertices cannot be lowered much.

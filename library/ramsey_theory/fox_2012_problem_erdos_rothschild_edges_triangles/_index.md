@@ -45,7 +45,7 @@ A book of size h is a set of h triangles sharing an edge. Erdős and
 Rothschild asked to estimate h(n,c), "the largest integer such that every
 n-vertex graph with at least cn^2 edges, each of which is contained in at
 least one triangle, must contain an edge that is in at least h(n,c)
-triangles" (p. 1), the function the site's Problem 80 calls f_c(n). The
+triangles" (p. 1), the function erdosproblems.com's Problem 80 calls f_c(n). The
 introduction records: Szemerédi's regularity lemma gives h(n,c) -> infinity
 for every c > 0; Ruzsa and Szemerédi showed that h(n,c) > 1 for fixed c and
 large n implies Roth's theorem and is equivalent to the (6,3)-theorem; Alon
@@ -75,16 +75,16 @@ height logarithmic in 1/epsilon yields a lower bound exponential in log* n.
 p. 2) answers the page's first "in particular" question, whether f_c(n) >
 n^epsilon for some epsilon > 0, negatively for every fixed c < 1/4; the
 paper records the opposite answer, f_c(n) >= n/6, for c > 1/4 on the
-authority of Edwards and of Khadžiivanov and Nikiforov (the site's key
-KhNi79, not held), and, for every fixed c > 0, a lower bound exponential
-in log* n, far below the page's second question f_c(n) >> log n.
+authority of Edwards and of Khadžiivanov and Nikiforov (the erdosproblems.com
+key KhNi79, not held), and, for every fixed c > 0, a lower bound exponential in
+log* n, far below the page's second question f_c(n) >> log n.
 [[../wiki/problems/extremal_graph_theory/E0905/_index|#905]]: the introduction (arXiv v2
 p. 2, page image) states the problem's theorem as settled, "independent
 results of Edwards [4] and Khadžiivanov and Nikiforov [13] state that any
 n-vertex graph with more than n^2/4 edges contains an edge in at least n/6
-triangles", the refereed attestation of the site's KhNi79 (not held) and of
-"Edwards (unpublished)" (listed as a 1977 unpublished manuscript) that the
-problem page cites; the paper proves nothing about the problem itself
+triangles", the refereed attestation of erdosproblems.com's KhNi79 (not held)
+and of "Edwards (unpublished)" (listed as a 1977 unpublished manuscript) that
+the problem page cites; the paper proves nothing about the problem itself
 ([[ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/theorem_1_1|theorem_1_1]]).
 
 **Results.**

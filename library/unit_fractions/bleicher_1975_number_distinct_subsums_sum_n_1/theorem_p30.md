@@ -88,6 +88,6 @@ Rosser--Schoenfeld's explicit prime-counting bounds (Illinois J. Math. 6
   $\alpha=3/2$) has all its subset reciprocal sums distinct, the lower bound
   for $Q_k(N)$ is the classical lower bound
   $R(N)\ge\frac{N}{\log N}\prod_{j=3}^{k+1}\log_jN$ for $\log_{k+1}N\ge k+1$,
-  the one the site prints with $k+1$ renamed $k$.
+  the one erdosproblems.com prints with $k+1$ renamed $k$.
 - [[../wiki/problems/unit_fractions/E0320/_index|Problem 320]]: through
   [[unit_fractions/bleicher_1975_number_distinct_subsums_sum_n_1/corollary_3|Corollary 3]].

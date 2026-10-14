@@ -29,8 +29,8 @@ $$
 
 for some integers $a_i\geq 2$?
 
-**Status.** PROVED (LEAN), the site's label. The site credits Seamans's two-term
-identity. The claim page
+**Status.** PROVED (LEAN), the erdosproblems.com label. erdosproblems.com
+credits Seamans's two-term identity. The claim page
 [[problems/diophantine_problems/E0493/claims/2024_07_21_seamans|Seamans]]
 records the result and its acceptance.
 [[problems/diophantine_problems/E0493/claims/2025_12_27_alexeev|Alexeev's AI-generated Lean proof]]
@@ -58,17 +58,17 @@ audited here, and the statement file is not a formalization link.
 
 ## Current assessment
 
-The site asks whether some fixed $k$ lets every sufficiently large integer
-be written as $a_1\cdots a_k-(a_1+\cdots+a_k)$ with all $a_i\ge2$. As
+erdosproblems.com asks whether some fixed $k$ lets every sufficiently large
+integer be written as $a_1\cdots a_k-(a_1+\cdots+a_k)$ with all $a_i\ge2$. As
 stated the answer is yes with $k=2$: for $n\ge0$, $a_1=2$ and $a_2=n+2$
-give $2(n+2)-(n+4)=n$. The site's commentary credits this observation to Eli
-Seamans without a date, and the site's curator labeled the problem proved on
-its strength; the
+give $2(n+2)-(n+4)=n$. The erdosproblems.com commentary credits this observation
+to Eli Seamans without a date, and the erdosproblems.com curator labeled the
+problem proved on its strength; the
 [[problems/diophantine_problems/E0493/claims/2024_07_21_seamans|claim page]]
 records the identity, its acceptance and the dated records: an archived
-capture of the site's page of 21 July 2024 already carries the credit, and
-the community database, which listed the problem as proved before December
-2025, has recorded it as proved (Lean) since 27 December 2025.
+capture of the erdosproblems.com page of 21 July 2024 already carries the
+credit, and the community database, which listed the problem as proved before
+December 2025, has recorded it as proved (Lean) since 27 December 2025.
 
 The question is weaker than Schinzel probably intended. Erdős's 1961 survey
 ([[../library/number_theory/erdos_1961_unsolved_problems/_index|card]])
@@ -77,19 +77,19 @@ suggests on the thread that it may have been meant for every $k\ge2$, and
 a thread comment examines $k=3$ through covering congruences. Those
 variants have no standing here.
 
-The site's label carried the mark Lean. The proof it refers to is a file in
-Boris Alexeev's repository, posted on the thread on 27 December 2025, whose
-header names Seed-Prover 1.5, Aristotle, ChatGPT and Zheng Yuan as formal
+The erdosproblems.com label carried the mark Lean. The proof it refers to is a
+file in Boris Alexeev's repository, posted on the thread on 27 December 2025,
+whose header names Seed-Prover 1.5, Aristotle, ChatGPT and Zheng Yuan as formal
 authors and no informal author, and which proves the same identity with
 axioms `propext`, `Classical.choice` and `Quot.sound` by its own print. It
 is recorded as the pending claim
 [[problems/diophantine_problems/E0493/claims/2025_12_27_alexeev|Alexeev 2025]];
 this repository has not built or audited that file.
 
-The status search covered the site's problem page, its revision history and
-forum thread, the formal-conjectures file, the pinned Lean file's header, the
-community database and the 1961 survey's card. On 7 October 2026 none of these
-sources recorded another claim or dispute.
+The status search covered the erdosproblems.com problem page, its revision
+history and forum thread, the formal-conjectures file, the pinned Lean file's
+header, the community database and the 1961 survey's card. On 7 October 2026
+none of these sources recorded another claim or dispute.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

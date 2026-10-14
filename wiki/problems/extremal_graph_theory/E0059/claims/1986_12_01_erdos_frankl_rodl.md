@@ -55,7 +55,8 @@ digests the paper.
 Nothing for bipartite $G$, where the problem's answer is no by Morris and
 Saxton's $C_6$ construction
 ([[problems/extremal_graph_theory/E0059/claims/2013_09_11_morris_saxton|their claim page]]);
-the $C_4$ case the site's commentary raises separately is not covered.
+the $C_4$ case the erdosproblems.com commentary raises separately is not
+covered.
 
 **Depends on.** Nothing in this wiki.
 
@@ -63,11 +64,11 @@ the $C_4$ case the site's commentary raises separately is not covered.
 publisher's record gives volume 2, issue 1, pp. 113--121, issued December 1986.
 The day is the issue's nominal first day, used for this page's date. The paper
 prints "Received: September 30, 1985" and "Revised: March 10, 1986". In the
-problem's commentary, the site's curator, Thomas Bloom, credits this theorem
-with the answer yes for non-bipartite $G$. But the site's label settles the
-problem by Morris and Saxton's disproof, so that commentary is not listed as
-`reviewed` evidence. The text cited is the scan in the Rényi Institute's Erdős
-archive, https://users.renyi.hu/~p_erdos/1986-17.pdf. Proof coverage: the
-statements of Theorems 1.4, 1.5 and 1.6 and the authors' remark on the bipartite
-case. No proof is compiled in this corpus. This claim is partial, so the
-problem's standing derives from Morris and Saxton's full claim.
+problem's commentary, the erdosproblems.com curator, Thomas Bloom, credits this
+theorem with the answer yes for non-bipartite $G$. But the erdosproblems.com
+label settles the problem by Morris and Saxton's disproof, so that commentary is
+not listed as `reviewed` evidence. The text cited is the scan in the Rényi
+Institute's Erdős archive, https://users.renyi.hu/~p_erdos/1986-17.pdf. Proof
+coverage: the statements of Theorems 1.4, 1.5 and 1.6 and the authors' remark on
+the bipartite case. No proof is compiled in this corpus. This claim is partial,
+so the problem's standing derives from Morris and Saxton's full claim.

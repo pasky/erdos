@@ -16,7 +16,7 @@ updated: 2026-10-07T20:23:45Z
 ## Statement
 
 $r(G;k)$ is the least integer such that every $k$-coloring of the edges of
-$K_r$ with $r\ge r(G;k)$ has a monochromatic $G$ (p. 164), the site's
+$K_r$ with $r\ge r(G;k)$ has a monochromatic $G$ (p. 164), erdosproblems.com's
 $R_k(G)$; $K_{s,t}$ has parts of sizes $s\le t$.
 
 **The limit** (p. 169, quoted). "It can also be shown using results from

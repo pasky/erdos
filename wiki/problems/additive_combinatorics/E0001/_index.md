@@ -28,11 +28,12 @@ $$
 N \gg 2^{n}.
 $$
 
-**Status.** DISPROVED (FORMALIZED), the site's label. In fact, for every
-$\varepsilon>0$ there are examples of arbitrarily large cardinality with
+**Status.** DISPROVED (FORMALIZED), the erdosproblems.com label. In fact, for
+every $\varepsilon>0$ there are examples of arbitrarily large cardinality with
 $N\leq\varepsilon2^{|A|}$. There are two claim pages. The first is the 2026
 [[problems/additive_combinatorics/E0001/claims/2026_09_03_adamczewski|GPT-6 Astra disproof]],
-posted on the proof-claim tab by the site's curator. The second is the
+posted on the proof-claim tab by the erdosproblems.com curator. The second is
+the
 [[problems/additive_combinatorics/E0001/claims/2026_09_15_alexeev|dyadic-graph Lean disproof]]
 in Boris Alexeev's lean-proofs repository, which gives an explicit bound at
 every cardinality. Both are accepted on their Lean developments. Each is pinned
@@ -50,12 +51,12 @@ T. F. Bloom, Erdős Problem #1, https://www.erdosproblems.com/1.
 
 - [Bo98b] Bohman, T., A construction for sets of integers with distinct subset
   sums. Electron. J. Combin. 5 (1998), Research Paper 3, doi:10.37236/1341. The
-  site's commentary credits the bound $N\le0.22002\cdot2^n$ to Bohman under its
-  key [Bo98], which the site's reference record resolves to Bollobás, B., To
-  prove and conjecture: Paul Erdős and his mathematics, Amer. Math. Monthly
-  (1998), 209--237, a different paper; the record above is the paper the
-  commentary describes, cited as [Bo98b] in the site's proof exposition. Library
-  home:
+  erdosproblems.com commentary credits the bound $N\le0.22002\cdot2^n$ to Bohman
+  under its key [Bo98], which the erdosproblems.com reference record resolves to
+  Bollobás, B., To prove and conjecture: Paul Erdős and his mathematics, Amer.
+  Math. Monthly (1998), 209--237, a different paper; the record above is the
+  paper the commentary describes, cited as [Bo98b] in erdosproblems.com's proof
+  exposition. Library home:
   [[../library/additive_combinatorics/bohman_1997_construction_sets_integers_distinct_subset_sums/_index|bohman_1997_construction_sets_integers_distinct_subset_sums]].
 - [CoGu68] J. H. Conway and R. K. Guy, Sets of natural numbers with distinct
   sums. Notices Amer. Math. Soc. (1968), 345.
@@ -125,9 +126,9 @@ pages record.
 
 ## Current assessment
 
-The site's formulation (page last edited 3 September 2026) asks whether a
-sum-distinct $A\subseteq\{1,\ldots,N\}$ with $|A|=n$ forces $N\gg2^n$. The
-answer is no: for every $\varepsilon>0$ there are sum-distinct sets of
+The erdosproblems.com formulation (page last edited 3 September 2026) asks
+whether a sum-distinct $A\subseteq\{1,\ldots,N\}$ with $|A|=n$ forces $N\gg2^n$.
+The answer is no: for every $\varepsilon>0$ there are sum-distinct sets of
 arbitrarily large cardinality with $N\le\varepsilon2^{|A|}$. The standing is
 solved through two accepted full disproofs, the
 [[problems/additive_combinatorics/E0001/claims/2026_09_03_adamczewski|GPT-6 Astra disproof]]
@@ -135,8 +136,8 @@ of 2026-09-03 and the
 [[problems/additive_combinatorics/E0001/claims/2026_09_15_alexeev|dyadic-graph disproof]]
 of 2026-09-15, each on Lean declarations pinned by its repository's comparator
 challenges, which this corpus built and whose axioms it checked. Neither is
-reviewed or refereed: the site's curator co-authored the FrontierMath Erdős
-work that produced the first claim, so the curator's label is not an
+reviewed or refereed: the erdosproblems.com curator co-authored the FrontierMath
+Erdős work that produced the first claim, so the curator's label is not an
 independent review of it, and neither route has a refereed write-up.
 
 The best bounds on the least $N$ admitting a sum-distinct $n$-set are the
@@ -146,16 +147,17 @@ $N<2^{n+1}/\log_2n$ for every $n\ge2$ and
 $N<((9/4)^{1/3}+o(1))\,2^n/n^{1/3}$ for large $n$. The first disproof is
 ineffective and gives no rate.
 
-Search scope: the site's page, discussion and proof-claim tab, the FrontierMath
-Erdős paper (arXiv:2609.25050, v1 2026-09-06), Epoch AI's report, the two Lean
-repositories at the commits pinned on the claim pages, and the
+Search scope: the erdosproblems.com page, discussion and proof-claim tab, the
+FrontierMath Erdős paper (arXiv:2609.25050, v1 2026-09-06), Epoch AI's report,
+the two Lean repositories at the commits pinned on the claim pages, and the
 formal-conjectures statement file at its commit of 2026-10-06. No refereed
 write-up or outside review of either disproof was located.
 
 ## Progress
 
-The strongest pre-disproof lower bound recorded in the site's commentary
-(page last edited 3 September 2026) is due to Dubroff, Fox, and Xu [DFX21]:
+The strongest pre-disproof lower bound recorded in the erdosproblems.com
+commentary (page last edited 3 September 2026) is due to Dubroff, Fox, and Xu
+[DFX21]:
 
 $$
 N\geq\binom n{\lfloor n/2\rfloor}

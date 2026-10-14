@@ -36,8 +36,8 @@ Kohayakawa, Simonovits and Skokan (their (2), citing [4]) and by Benevides
 and Skokan (their (1), citing [4]), and Jenssen and Skokan write of the
 general formula $R_k(C_n)=2^{k-1}(n-1)+1$ as "attributed to Bondy and
 Erdős". With the cycle length written $2n+1$ the bounds read
-$n2^k+1\le R_k(C_{2n+1})\le(2n+1)(k+2)!$; the site's commentary on Problem
-554 writes the upper bound as $2n(k+2)!$ and credits both bounds to this
+$n2^k+1\le R_k(C_{2n+1})\le(2n+1)(k+2)!$; the erdosproblems.com commentary on
+Problem 554 writes the upper bound as $2n(k+2)!$ and credits both bounds to this
 paper and to Erdős and Graham (1975).
 
 The same section continues with two-color remarks: since $R(C_4,K_4)=10$
@@ -69,8 +69,8 @@ None stated.
 
 - [[../wiki/problems/ramsey_theory/E0554/_index|Problem 554]]: the lower bound
   $R_k(C_{2n+1})\ge n2^k+1$ and the upper bound $(2n+1)(k+2)!$, stated here
-  without proof; the site cites the paper for these bounds together with
-  Erdős and Graham (1975).
+  without proof; erdosproblems.com cites the paper for these bounds together
+  with Erdős and Graham (1975).
 - [[../wiki/problems/ramsey_theory/E0556/_index|Problem 556]]: the case $k=3$ gives
   $R_3(C_n)\ge4n-3$ for odd $n$, the reason the problem's bound $4n-3$ is
   sharp for odd $n$; the equality conjecture the problem asks about is

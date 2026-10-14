@@ -77,8 +77,8 @@ alone.
 **Acceptance.** Refereed: P. Erdős, R. J. Faudree, C. C. Rousseau and R. H.
 Schelp, Ramsey size linear graphs, Combin. Probab. Comput. 2 (1993), no. 4,
 389--399. The paper was received on 12 March 1993 and printed in the December
-1993 issue, the month this page is dated by. The day is a placeholder. The site
-labeled the problem OPEN, and its commentary is not an acceptance. The
+1993 issue, the month this page is dated by. The day is a placeholder. Bloom's
+catalog labeled the problem OPEN, and its commentary is not an acceptance. The
 commentary credits the paper with Ramsey size linearity for graphs on $n$
 vertices with at most $n+1$ edges, and it omits the connectedness that Theorem 4
 requires.

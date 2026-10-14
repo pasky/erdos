@@ -95,7 +95,8 @@ layer, not on the page images.
   multicolor Ramsey numbers for complete bipartite graphs, "to appear"
   (p. 527); the published paper states the lower bound for $k-1$ a prime power
   ([[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/theorem_3|Theorem 3]]),
-  as the site's page for Problem 555 does, and the upper bound for $k>1$
+  as the erdosproblems.com page for Problem 555 does, and the upper bound for
+  $k>1$
   ([[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/corollary_1|Corollary 1]]);
   the printed "for all $k$" fails at $k=1$, where $r(C_4;1)=4$.
 - [[ramsey_theory/erdos_1975_partition_theorems_finite_graphs/theorem_7|Theorem 7]]
@@ -134,23 +135,24 @@ p. 526 (PDF p. 12, page image), "is it true that
 $r(K_n;k)\ge r(G_{\binom n2};k)$, $k\ge1$, $n\ge1$, for any graph
 $G_{\binom n2}$ with $\binom n2$ edges?", is the $k$-color form of the
 problem's question for $t=0$; the paper does not answer it.
-[[../wiki/problems/ramsey_theory/E0554/_index|#554]]: Theorem 7 gives the
-site's bounds $n2^k+1\le R_k(C_{2n+1})\le2n(k+2)!$, Theorem 8 the second
-upper bound, and question (v) with the p. 525 remark is the problem's
+[[../wiki/problems/ramsey_theory/E0554/_index|#554]]: Theorem 7 gives
+erdosproblems.com's bounds $n2^k+1\le R_k(C_{2n+1})\le2n(k+2)!$, Theorem 8 the
+second upper bound, and question (v) with the p. 525 remark is the problem's
 origin in the authors' words; the paper does not decide it.
 [[../wiki/problems/ramsey_theory/E0555/_index|#555]]: Theorems 5 and 6 are the bounds
-$k^{1+1/2n}\ll R_k(C_{2n})\ll k^{1+(1+\varepsilon)/(n-1)}$ that the site
-attributes to the 1981 survey, and p. 523 records the Chung--Graham bounds
-for $C_4$ from its reference [3], which the reference list on p. 527 marks
-"to appear". [[../wiki/problems/ramsey_theory/E0557/_index|#557]]:
-p. 516 says the Erdős--Sós conjecture would sharpen Theorem 1 to (1$'$)
-$r(T_n;k)<kn+O(1)$, "which may be asymptotically correct", and concluding
-question (i) on p. 525 asks whether $r(T_n;k)=kn+O(1)$ for trees; these
-are the problem's origin, with $T_n$ a tree on $n$ edges where the site's
-tree has $n$ vertices, a difference of $k$ that the $O(1)$ absorbs for
-fixed $k$. [[../wiki/problems/ramsey_theory/E0558/_index|#558]]: the p. 525
-remark $r(K_{n,n};k)<(c_2k)^n$ is the earliest general upper bound in the
-library for the balanced complete bipartite case.
+$k^{1+1/2n}\ll R_k(C_{2n})\ll k^{1+(1+\varepsilon)/(n-1)}$ that
+erdosproblems.com attributes to the 1981 survey, and p. 523 records the
+Chung--Graham bounds for $C_4$ from its reference [3], which the reference list
+on p. 527 marks "to appear".
+[[../wiki/problems/ramsey_theory/E0557/_index|#557]]: p. 516 says the Erdős--Sós
+conjecture would sharpen Theorem 1 to (1$'$) $r(T_n;k)<kn+O(1)$, "which may be
+asymptotically correct", and concluding question (i) on p. 525 asks whether
+$r(T_n;k)=kn+O(1)$ for trees; these are the problem's origin, with $T_n$ a tree
+on $n$ edges where erdosproblems.com's tree has $n$ vertices, a difference of
+$k$ that the $O(1)$ absorbs for fixed $k$.
+[[../wiki/problems/ramsey_theory/E0558/_index|#558]]: the p. 525 remark
+$r(K_{n,n};k)<(c_2k)^n$ is the earliest general upper bound in the library for
+the balanced complete bipartite case.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

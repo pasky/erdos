@@ -55,7 +55,7 @@ linked above.
 
 **Acceptance.** Refereed: the paper appeared in Atti della Accademia
 Nazionale dei Lincei, Rendiconti Lincei Matematica e Applicazioni 20 (2009),
-no. 1, 95–98. Reviewed: the site's curator, Thomas F. Bloom, records the
-improvement $f(k)\gg\log k$ in the problem's commentary (page last edited
+no. 1, 95–98. Reviewed: the erdosproblems.com curator, Thomas F. Bloom, records
+the improvement $f(k)\gg\log k$ in the problem's commentary (page last edited
 2026-04-08, read 2026-10-07). No formal proof of this bound is held or
 audited here, so no `formalized` evidence is listed.

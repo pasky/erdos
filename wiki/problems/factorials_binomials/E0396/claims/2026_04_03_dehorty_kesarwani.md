@@ -42,8 +42,8 @@ independently. A witness is checked through Kummer's theorem, as
 [[problems/factorials_binomials/E0396/claims/2024_07_29_stephan|Stephan's page]]
 explains.
 
-**Submission note.** Posted to the site's forum by Justin Dehorty on 4 April
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Justin Dehorty on
+4 April 2026:
 
 > Really awesome to see this result. This matches the exact result computed on
 > April 1st by myself (using Rust and the algorithm Sharvil and I co-developed)
@@ -72,5 +72,6 @@ explicit witness.
 **Depends on.** No page of this wiki.
 
 **Standing.** The entry is an edited database record and the thread posts
-unrefereed announcements; the site's commentary on a problem it labeled OPEN
-points to the entry without accepting a result. The claim stays claimed.
+unrefereed announcements; the erdosproblems.com commentary on a problem it
+labeled OPEN points to the entry without accepting a result. The claim stays
+claimed.

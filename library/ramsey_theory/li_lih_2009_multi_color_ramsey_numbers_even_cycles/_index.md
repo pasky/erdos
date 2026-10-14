@@ -94,7 +94,7 @@ checked beyond that reading, and nothing here is independently reviewed.
   of the $k$-color Ramsey numbers $r_k(C_{2m})$ is $k^{m/(m-1)}$ for
   $m=2,3,5$ as $k\to\infty$." The paper's $r_k(G)$ is the least $N$ such
   that every $k$-coloring of the edges of $K_N$ has a monochromatic copy of
-  $G$, the site's $R_k(G)$, and $ex(n;G)$ is the Turán number, the most
+  $G$, erdosproblems.com's $R_k(G)$, and $ex(n;G)$ is the Turán number, the most
   edges of an $n$-vertex graph with no copy of $G$. The introduction
   recalls that $ex(n;C_4)$ has order $n^{3/2}$ (Erdős--Rényi, Brown), the
   even-cycle bound (1), quoted, "$ex(n;C_{2m})\le c\,n^{1+1/m}$" of Erdős
@@ -182,8 +182,8 @@ checked beyond that reading, and nothing here is independently reviewed.
   bijection fixing $X$ and translating the first $m-1$ coordinates of $Y$
   by $S$; the acknowledgment says Lemma 6 "was pointed out by one of" the
   referees.
-- Translation to the problem's notation. The site's $R_k(C_{2n})$ is the
-  paper's $r_k(C_{2m})$ with $m=n$, so Theorem 1 reads
+- Translation to the problem's notation. erdosproblems.com's $R_k(C_{2n})$ is
+  the paper's $r_k(C_{2m})$ with $m=n$, so Theorem 1 reads
   $R_k(C_{2n})=\Theta_n(k^{n/(n-1)})$ for $n\in\{2,3,5\}$: $R_k(C_4)$ has
   order $k^2$, $R_k(C_6)$ order $k^{3/2}$ and $R_k(C_{10})$ order
   $k^{5/4}$. The exponent $n/(n-1)=1+1/(n-1)$ is the exponent of the
@@ -221,11 +221,11 @@ Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0555/_index|#555]]: Theorem 1 (printed
 p. 115, PDF p. 2), "Fix $m=2,3$, or $5$. The order of magnitude of
-$r_k(C_{2m})$ is $k^{m/(m-1)}$ as $k\to\infty$", is the result the site's
-thread comment attributes to the paper, $R_k(C_{2n})=\Theta(k^{n/(n-1)})$
-for $n\in\{2,3,5\}$ in the problem's notation, so that for $C_4$, $C_6$ and
-$C_{10}$ the order of $R_k(C_{2n})$ in $k$ is $k^{n/(n-1)}$, up to constants
-the paper does not state; its lower bound is
+$r_k(C_{2m})$ is $k^{m/(m-1)}$ as $k\to\infty$", is the result the
+erdosproblems.com thread comment attributes to the paper,
+$R_k(C_{2n})=\Theta(k^{n/(n-1)})$ for $n\in\{2,3,5\}$ in the problem's notation,
+so that for $C_4$, $C_6$ and $C_{10}$ the order of $R_k(C_{2n})$ in $k$ is
+$k^{n/(n-1)}$, up to constants the paper does not state; its lower bound is
 [[ramsey_theory/li_lih_2009_multi_color_ramsey_numbers_even_cycles/lemma_5|Lemma 5]]
 (p. 118), from the coloring of
 [[ramsey_theory/li_lih_2009_multi_color_ramsey_numbers_even_cycles/lemma_4|Lemma 4]]

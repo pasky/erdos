@@ -39,12 +39,12 @@ Then some $d_i$ is even. This is Theorem 1.1 of P. Balister, B. Bollobás,
 R. Morris, J. Sahasrabudhe and M. Tiba, *The Erdős–Selfridge problem with
 square-free moduli*, Algebra & Number Theory 15 (2021), no. 3, 609--626. It
 answers no to the question of Erdős and Selfridge whether a covering system
-with distinct odd square-free moduli exists, which the site's commentary
-records beside [[problems/covering_systems/E0007/_index|Problem 7]]. By the
-Chinese remainder theorem a distinct odd square-free cover is a nonparallel
-cover of a box of odd-prime coordinates by hyperplanes, and the paper's
-geometric sieve excludes such a cover; the complete proof, with its exact
-finite certificates, is compiled on the library's
+with distinct odd square-free moduli exists, which the erdosproblems.com
+commentary records beside [[problems/covering_systems/E0007/_index|Problem 7]].
+By the Chinese remainder theorem a distinct odd square-free cover is a
+nonparallel cover of a box of odd-prime coordinates by hyperplanes, and the
+paper's geometric sieve excludes such a cover; the complete proof, with its
+exact finite certificates, is compiled on the library's
 [[../library/covering_systems/balister_2021_erdos_selfridge_problem_square_free_moduli/theorem_1_1|Theorem 1.1 page]].
 
 **Covers.** The square-free special case, together with the extension the
@@ -62,8 +62,8 @@ stays open.
 **Acceptance.** Refereed: Algebra & Number Theory 15 (2021), no. 3, 609--626,
 doi:10.2140/ant.2021.15.609. The paper was received 31 January 2019, accepted 18
 September 2020 and published 20 May 2021. The arXiv v1 of 2019-01-31 names this
-page. Not reviewed: the site's commentary credits the result, but the site
-labeled the problem VERIFIABLE, an open label. On the site's own account, the
-credit therefore settles no part of the problem. Not formalized: the library's
-exact certificate checks are author-recorded coverage by this project and award
-nothing here.
+page. Not reviewed: the erdosproblems.com commentary credits the result, but
+Bloom's catalog labeled the problem VERIFIABLE, an open label. On
+erdosproblems.com's own account, the credit therefore settles no part of the
+problem. Not formalized: the library's exact certificate checks are
+author-recorded coverage by this project and award nothing here.

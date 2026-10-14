@@ -283,10 +283,10 @@ publishing and shared the prize (the check is Figure 2), and, in footnote
 Theorem 6 (p. 767, PDF p. 16) is the paper's reconstructed proof of the
 negative answer: $|S\cap[0,T]|\le C(\epsilon)T^{\tau_1+\epsilon}$ with
 $\tau_1\approx0.900526<1$, so $S$ has density zero; this is the source of
-the page's status. The paper also settles the relation between the site's
-generators and Guy's E36 generators $2x$, $3x+2$, $6x+3$: those are
-Klarner's free semigroup $\mathcal S_2$ of Theorem 11 (p. 771, PDF p. 20),
-one of six "(corrected) variants of the problem raised by Erdős" (p. 772),
+the page's status. The paper also settles the relation between
+erdosproblems.com's generators and Guy's E36 generators $2x$, $3x+2$, $6x+3$:
+those are Klarner's free semigroup $\mathcal S_2$ of Theorem 11 (p. 771, PDF p.
+20), one of six "(corrected) variants of the problem raised by Erdős" (p. 772),
 and Klarner's Question, whether the orbit of $0$ under any of the six has
 positive density, "has not been answered for any of these six sequences"
 (p. 772, PDF p. 21); so Guy's problem is a different, open question, not a
@@ -294,12 +294,12 @@ restatement of the solved one. For the two-generator set
 $\langle2x+1,3x+1:1\rangle$, Corollary 1 (p. 761) gives density zero and
 Theorem 8 (p. 769) gives the complement as a finite disjoint union of
 infinite arithmetic progressions.
-[[../wiki/problems/number_theory/E1135/_index|#1135]]: the site's remark that "the closest
-Erdős ever came to working on problems of this nature" is the theorem of
-Problem 1134 is the paper's closing paragraph (printed p. 775, PDF p. 24):
-Erdős published no result on the $3x+1$ problem, called it "hopeless" in
-conversation, and the orbit-size bound of Theorem 3 (p. 759) seems to be
-the closest he came to such problems. The remark carries no date or
+[[../wiki/problems/number_theory/E1135/_index|#1135]]: the erdosproblems.com
+remark that "the closest Erdős ever came to working on problems of this nature"
+is the theorem of Problem 1134 is the paper's closing paragraph (printed p. 775,
+PDF p. 24): Erdős published no result on the $3x+1$ problem, called it
+"hopeless" in conversation, and the orbit-size bound of Theorem 3 (p. 759) seems
+to be the closest he came to such problems. The remark carries no date or
 occasion, and the paper does not mention the prize figure or a 1983
 conversation with Graham (Graham is named on p. 775 only as coauthor of
 two cited works), so it adds a third printed source for "hopeless" (after

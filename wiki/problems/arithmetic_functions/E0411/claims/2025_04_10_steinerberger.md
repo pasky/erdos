@@ -54,13 +54,14 @@ $$
 The shift-two solutions $n$ of the problem are the $n$ whose orbit reaches such
 an $m$; they include $n$ with other odd parts, such as $n=18$ (orbit
 $18\to24\to32\to48$) and $n=22$ (orbit $22\to32\to48$), which satisfy the
-relation from $k=1$. The two solutions the site records, $n=10$ and $n=94$, are
-first-branch solutions with $a=1$. The preprint's computer search (Section 2.10)
-finds no prime $8t+7\le10^{10}$ with $\phi(6t+5)=4t+4$ other than $7$ and $47$
-($t=0,5$), the primes behind the first-branch odd parts $7,5$ and $47,35$; it
-relates the second branch to whether $\phi(q)=\tfrac23(q+1)$ has infinitely many
-solutions ($q=5,35,1295,1679615$ are known). The site's commentary reports the
-reduction and the two branches and credits them to [St25].
+relation from $k=1$. The two solutions erdosproblems.com records, $n=10$ and
+$n=94$, are first-branch solutions with $a=1$. The preprint's computer search
+(Section 2.10) finds no prime $8t+7\le10^{10}$ with $\phi(6t+5)=4t+4$ other than
+$7$ and $47$ ($t=0,5$), the primes behind the first-branch odd parts $7,5$ and
+$47,35$; it relates the second branch to whether $\phi(q)=\tfrac23(q+1)$ has
+infinitely many solutions ($q=5,35,1295,1679615$ are known). The
+erdosproblems.com commentary reports the reduction and the two branches and
+credits them to [St25].
 
 **Covers.** The first branch of the reduction for $r=2$: the solutions $m$
 of $\phi(m)+\phi(m+\phi(m))=m$ with odd part in $\{1,3,5,7,35,47\}$ are
@@ -73,8 +74,9 @@ classification over all $n$ and $r$ stays open.
 **Depends on.** No page of this wiki.
 
 **Later claim of the same result.** A partial proof claim by Alateng Pan,
-posted on the site's proof-claims tab on 2026-09-08 under the user name
-Tonycollatz ([proof claim 287](https://www.erdosproblems.com/forum/thread/411/proof-claims#proof-claim-287)),
+posted on the erdosproblems.com proof-claims tab on 2026-09-08 under the user
+name Tonycollatz ([proof claim
+287](https://www.erdosproblems.com/forum/thread/411/proof-claims#proof-claim-287)),
 asserts the first-branch classification above, with the thresholds $a_1=2$
 and $a_s=1$, by the six base cases $n=4,6,10,14,70,94$ and the doubling
 step; its forum summary names it the first branch of Steinerberger's
@@ -91,8 +93,8 @@ author's own. The result being the one this page records, the claim is
 disclosed here and gets no page of its own.
 
 **Standing.** An arXiv preprint (v1 of 2025-04-10) with no journal reference on
-its arXiv record and no formalization; the site's commentary reports the result
-but labeled the problem OPEN (page last edited 28 October 2025; the later claim
-carries no comments), and the community database notes a partial $r=2$ result
-without changing the problem's open status, so no acceptance evidence is listed
-and the claim stays claimed.
+its arXiv record and no formalization; the erdosproblems.com commentary reports
+the result but labeled the problem OPEN (page last edited 28 October 2025; the
+later claim carries no comments), and the community database notes a partial
+$r=2$ result without changing the problem's open status, so no acceptance
+evidence is listed and the claim stays claimed.

@@ -63,8 +63,8 @@ None stated in the pages read.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the case
-  $\Delta\le3$ of the site's statement, the site's "$\mathrm{sq}(G)\le10$
-  when $\Delta\le3$ ... best possible, as shown e.g. by a $C_8$ with all four
-  diagonals", with the site's second prover Andersen credited by the paper
-  itself; the first nontrivial case of the conjecture, the paper calling the
-  case $\Delta(G)\le2$ easy (p. 152).
+  $\Delta\le3$ of the erdosproblems.com statement, erdosproblems.com's
+  "$\mathrm{sq}(G)\le10$ when $\Delta\le3$ ... best possible, as shown e.g. by a
+  $C_8$ with all four diagonals", with erdosproblems.com's second prover
+  Andersen credited by the paper itself; the first nontrivial case of the
+  conjecture, the paper calling the case $\Delta(G)\le2$ easy (p. 152).

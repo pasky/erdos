@@ -30,8 +30,8 @@ $$
 
 have a connected component with diameter $>2-r$?
 
-**Status.** The site's label was DISPROVED (LEAN). Pommerenke's 1961 example
-$z^n-r^n$ is the accepted disproof
+**Status.** The erdosproblems.com label was DISPROVED (LEAN). Pommerenke's 1961
+example $z^n-r^n$ is the accepted disproof
 ([[problems/analysis/E1048/claims/1961_01_01_pommerenke|Pommerenke's claim page]]).
 For $1<r<2$ its sublevel set has $n$ components of diameter tending to $0$, so
 it refutes the question for every $1<r<2$. The same paper's Theorem 3 gives the

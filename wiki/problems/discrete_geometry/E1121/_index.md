@@ -26,9 +26,9 @@ $r_1,\ldots,r_n$ such that no line disjoint from all the circles divides them
 into two non-empty sets then the circles can be covered by a circle of radius
 $r=\sum r_i$.
 
-**Status.** PROVED (LEAN). The site credits Goodman and Goodman's 1945 proof. It
-also records Hadwiger's 1947 generalization and Bezdek and Litvak's 2016
-alternative proof, and it flags a Lean formalization. See the
+**Status.** PROVED (LEAN). erdosproblems.com credits Goodman and Goodman's 1945
+proof. It also records Hadwiger's 1947 generalization and Bezdek and Litvak's
+2016 alternative proof, and it flags a Lean formalization. See the
 [[problems/discrete_geometry/E1121/claims/_index|claim pages]].
 
 **Source.** [erdosproblems.com/1121](https://www.erdosproblems.com/1121),
@@ -42,11 +42,12 @@ https://www.erdosproblems.com/1121.
 - [GoGo45] Goodman, A. W. and Goodman, R. E., A circle covering theorem. Amer.
   Math. Monthly (1945), 494-498.
 - [Ha47] Hadwiger, H., Nonseparable convex systems. Amer. Math. Monthly 54
-  (1947), no. 10, 583-585. The site's commentary cites [Ha47] for Hadwiger's
-  generalization, and the formal-conjectures statement file lists this paper
-  under the key, but the site's reference record resolves the key to Marshall
-  Hall's Cyclic projective planes, Duke Math. J. 14 (1947), 1079-1090, a paper
-  on another problem; Hadwiger's paper is the one the commentary means.
+  (1947), no. 10, 583-585. The erdosproblems.com commentary cites [Ha47] for
+  Hadwiger's generalization, and the formal-conjectures statement file lists
+  this paper under the key, but the erdosproblems.com reference record resolves
+  the key to Marshall Hall's Cyclic projective planes, Duke Math. J. 14 (1947),
+  1079-1090, a paper on another problem; Hadwiger's paper is the one the
+  commentary means.
 - [ABG18] Akopyan, A., Balitskiy, A. and Grigorev, M., On the circle covering
   theorem by A. W. Goodman and R. E. Goodman. Discrete Comput. Geom. 59
   (2018), no. 4, 1001-1009; arXiv:1605.04300.
@@ -57,8 +58,8 @@ https://www.erdosproblems.com/1121.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1121.lean).
 Boris Alexeev's repository holds a Lean 4 file, formalized by Aristotle
-(Harmonic) with Amogh Parab and announced on the site's discussion thread on
-16 April 2026, whose header declares it a formalization of Goodman and
+(Harmonic) with Amogh Parab and announced on the erdosproblems.com discussion
+thread on 16 April 2026, whose header declares it a formalization of Goodman and
 Goodman's solution; it is a formalization link on
 [[problems/discrete_geometry/E1121/claims/1945_11_01_goodman_goodman|Goodman and Goodman's claim page]],
 not a claim of its own, and this corpus has not built it. There is no native
@@ -66,19 +67,20 @@ Lean coverage.
 
 ## Current assessment
 
-**Proved.** The site formulation above (page last edited 17 April 2026) is the
-circle covering theorem: finitely many disks in the plane that no disjoint line
-separates lie in one disk whose radius is the sum of their radii. Five
-published proofs settle it, each with an accepted
+**Proved.** The erdosproblems.com formulation above (page last edited 17
+April 2026) is the circle covering theorem: finitely many disks in the plane
+that no disjoint line separates lie in one disk whose radius is the sum of their
+radii. Five published proofs settle it, each with an accepted
 [[problems/discrete_geometry/E1121/claims/_index|claim page]]:
 
 - [[problems/discrete_geometry/E1121/claims/1945_11_01_goodman_goodman|Goodman and Goodman]]
-  (Amer. Math. Monthly 1945, refereed; credited by the site's curator) center
-  the covering disk at the radius-weighted mean of the centers and project the
-  family onto orthogonal directions chosen arbitrarily, two in the plane and
-  $d$ in $\mathbb R^d$, applying a lemma on nonseparable segments to each
-  projection, as [ABG18] records; their argument also gives balls in every
-  dimension. The Lean formalization the site flags is linked on this page.
+  (Amer. Math. Monthly 1945, refereed; credited by the erdosproblems.com
+  curator) center the covering disk at the radius-weighted mean of the centers
+  and project the family onto orthogonal directions chosen arbitrarily, two in
+  the plane and $d$ in $\mathbb R^d$, applying a lemma on nonseparable segments
+  to each projection, as [ABG18] records; their argument also gives balls in
+  every dimension. The Lean formalization erdosproblems.com flags is linked on
+  this page.
 - [[problems/discrete_geometry/E1121/claims/1947_12_01_hadwiger|Hadwiger]]
   (Amer. Math. Monthly 1947, refereed; recorded by the curator as a
   generalization that cites Goodman and Goodman) proves that the perimeter,
@@ -90,15 +92,15 @@ published proofs settle it, each with an accepted
   alternative proof) obtain the circumradius bound in their Theorem 6.1 from
   an integral-geometric lemma on section integrals.
 - [[problems/discrete_geometry/E1121/claims/2016_02_02_bezdek_langi|Bezdek and Lángi]]
-  (Discrete Comput. Geom. 2016, refereed; not mentioned by the site) prove in
-  their Theorem 4 that a nonseparable family of positive homothets of an
-  o-symmetric convex body $K_0\subset\mathbb R^d$ with ratios $\tau_i$ is
+  (Discrete Comput. Geom. 2016, refereed; not mentioned by erdosproblems.com)
+  prove in their Theorem 4 that a nonseparable family of positive homothets of
+  an o-symmetric convex body $K_0\subset\mathbb R^d$ with ratios $\tau_i$ is
   covered by a translate of $(\sum_i\tau_i)K_0$, which for balls of any norm
   contains the Euclidean plane case asked here; their abstract names Erdős's
   conjecture and the Goodman and Goodman proof.
 - [[problems/discrete_geometry/E1121/claims/2016_05_13_akopyan_balitskiy_grigorev|Akopyan, Balitskiy and Grigorev]]
-  (Discrete Comput. Geom. 2018, refereed; not mentioned by the site) prove in
-  their Theorem 2.1 that nonseparable homothets of a convex body
+  (Discrete Comput. Geom. 2018, refereed; not mentioned by erdosproblems.com)
+  prove in their Theorem 2.1 that nonseparable homothets of a convex body
   $K\subset\mathbb R^d$ with ratios $\tau_i$ are covered by a translate of
   $\frac{\sigma+1}2(\sum_i\tau_i)K$, where $\sigma$ is the asymmetry
   parameter of $K$; $\sigma=1$ for the disk, and the factor
@@ -107,8 +109,8 @@ published proofs settle it, each with an accepted
 
 The standing derives from these accepted claims.
 
-**Status search.** The search covers the site's page (last edited 17 April
-2026), the community database's record of the problem (proved, with a
+**Status search.** The search covers the erdosproblems.com page (last edited 17
+April 2026), the community database's record of the problem (proved, with a
 formalization listed), the formal-conjectures statement file, and the arXiv
 and Crossref records of the papers cited above. It found the Bezdek and Lángi
 proof [BeLa16] and the generalization in [ABG18], cited above, and on 2026-10-07

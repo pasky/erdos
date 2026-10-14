@@ -31,7 +31,7 @@ The paper's [4] is the 1993 Erdős--Hajnal--Simonovits--Sós--Szemerédi paper
 (its
 [[ramsey_theory/erdos_1993_turan_ramsey_theorems_simple_asymptotically_extremal/problem_4|Problem 4]])
 and [10] the Simonovits--Sós survey. The first part is Erdős problem 615
-with $\ln n$ for the site's $\log n$ (the base changes the independence
+with $\ln n$ for erdosproblems.com's $\log n$ (the base changes the independence
 threshold only by a constant factor, $n/\log_bn=(\ln b)\,n/\ln n$, and
 does not affect the answer, since the answer "no" of Fox, Loh and Zhao
 holds for every $m=e^{-o((\log n/\log\log n)^{1/2})}n$, which contains
@@ -67,6 +67,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0615/_index|Problem 615]]: the first
-  part is the problem restated with $\ln n$; the paper is the one the site
-  cites as [Su03], for the $K_4$ corollary of Theorem 3.1. It poses the question and
-  does not answer it.
+  part is the problem restated with $\ln n$; the paper is the one
+  erdosproblems.com cites as [Su03], for the $K_4$ corollary of Theorem 3.1. It
+  poses the question and does not answer it.

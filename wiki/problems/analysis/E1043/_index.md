@@ -29,13 +29,13 @@ $$
 
 onto $\ell$ has measure at most $2$?
 
-**Status.** Labeled DISPROVED (LEAN) on the site. Pommerenke's 1961 example is
-the accepted disproof
+**Status.** Labeled DISPROVED (LEAN) on erdosproblems.com. Pommerenke's 1961
+example is the accepted disproof
 ([[problems/analysis/E1043/claims/1961_01_01_pommerenke|Pommerenke's claim page]]).
 It is a monic polynomial whose set $\{|f|\le1\}$ has a projection of measure
-above $2.386$ onto every line. The Lean qualifier of the site's label refers to
-Alexeev's Lean disproof by the different polynomial $z^{16}-1$, found by
-Aristotle. This corpus built and audited a later revision of it, so it is a
+above $2.386$ onto every line. The Lean qualifier of the erdosproblems.com label
+refers to Alexeev's Lean disproof by the different polynomial $z^{16}-1$, found
+by Aristotle. This corpus built and audited a later revision of it, so it is a
 second accepted disproof
 ([[problems/analysis/E1043/claims/2025_12_28_alexeev|Alexeev's claim page]]).
 Pommerenke also proved that some line always receives a projection of measure
@@ -54,7 +54,7 @@ https://www.erdosproblems.com/1043.
   Theorem 1, p. 221, answers the second part of Problem 10 of [EHP58] in the
   negative: a lemniscate $|f(z)|=1$ with a point of support $z_0$ such that
   $|z-z_0|<2$ on the whole lemniscate. The first part of that problem, this
-  page's projection question, is not treated in the paper; the site's
+  page's projection question, is not treated in the paper; the erdosproblems.com
   commentary attributes the negative answer to [Po61] using Pommerenke's
   previous work under the key [Po59], which its reference record resolves to
   this note; the thread post of 12 October 2025 that the commentary answers

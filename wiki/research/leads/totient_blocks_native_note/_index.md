@@ -30,9 +30,9 @@ permits its redistribution, is titled *A
 partial result on distinct consecutive values of Euler's function*. It is the
 file linked from
 [forum post 6051](https://www.erdosproblems.com/forum/thread/1004#post-6051)
-of the site's discussion of Problem 1004, by the account aditya, posted at
-18:09 on 29 April 2026 (the page's own clock; the page read 2026-09-07). The
-post links a Google Drive view address,
+of the erdosproblems.com discussion of Problem 1004, by the account aditya,
+posted at 18:09 on 29 April 2026 (the page's own clock; the page read
+2026-09-07). The post links a Google Drive view address,
 <https://drive.google.com/file/d/1qNREx0WwSBi3P4FYCglifN_D78p5zelH/view?usp=sharing>,
 from which the file was downloaded. The post opens "Gpt 5.5 pro
 found a partial result"; that attribution is the post's. No author, venue or

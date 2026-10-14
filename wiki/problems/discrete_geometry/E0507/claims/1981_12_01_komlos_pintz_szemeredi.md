@@ -54,6 +54,6 @@ it gives no lower bound and not the order of $\alpha(n)$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the Journal of the London Mathematical Society
-published the paper. The site's commentary names the exponent $8/7$ as the one
-the later bounds improved. The site labeled the problem OPEN, so that mention is
-context and not `reviewed` evidence.
+published the paper. The erdosproblems.com commentary names the exponent $8/7$
+as the one the later bounds improved. Bloom's catalog labeled the problem OPEN,
+so that mention is context and not `reviewed` evidence.

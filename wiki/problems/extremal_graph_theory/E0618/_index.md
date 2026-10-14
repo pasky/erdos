@@ -4,8 +4,8 @@ title: Problem 618
 desc: |
   Asks whether every triangle-free graph with maximum degree $o(n^{1/2})$ can be
   given diameter $2$, still triangle-free, by adding $o(n^2)$ edges; proved by
-  Alon. The page also records the catalog's notation and diameter qualifications
-  and the earlier bounded-degree results.
+  Alon. The page also records the erdosproblems.com notation and diameter
+  qualifications and the earlier bounded-degree results.
 tags:
 - Graph theory
 status: solved
@@ -32,29 +32,30 @@ smallest number of edges that need to be added to $G$ so that it has diameter
 $2$ and is still triangle-free. Is it true that if $G$ has maximum degree
 $o(n^{1/2})$ then $h_2(G)=o(n^2)$?
 
-**Notes.** The site's wording defines $h_2(G)$ and then asks about $h(G)$,
-which it never defines, so the question is undefined for every graph. The
-change replaces "$h(G)$" in the question by "$h_2(G)$". The evidence is the
+**Notes.** The erdosproblems.com wording defines $h_2(G)$ and then asks about
+$h(G)$, which it never defines, so the question is undefined for every graph.
+The change replaces "$h(G)$" in the question by "$h_2(G)$". The evidence is the
 posers' own text: Erdős, Gyárfás and Ruszinkó [EGR98], p. 493, let $h(G)$ be
 the least number of edges whose addition gives a maximal triangle-free
 extension, that is a triangle-free graph on the same vertex set of diameter at
 most two, and write "$h_2(G)=h(G)$"; their Problem 4.1 (pp. 498--499) asks the
-question in terms of $h(G)$. So the site's $h$ is the posers' name for the
-site's $h_2$, and the defect is the site's: it renamed the function in the
-definition but not in the question. The site's "diameter $2$" differs from the
-source's "diameter at most two" but changes nothing: for $n\geq3$ a
-triangle-free completion of diameter at most two cannot have diameter one,
-since it would then be a complete graph containing a triangle, and the
-question is asymptotic in $n$. No result about the site's wording is recorded.
+question in terms of $h(G)$. So erdosproblems.com's $h$ is the posers' name for
+erdosproblems.com's $h_2$, and the defect is erdosproblems.com's: it renamed the
+function in the definition but not in the question. erdosproblems.com's
+"diameter $2$" differs from the source's "diameter at most two" but changes
+nothing: for $n\geq3$ a triangle-free completion of diameter at most two cannot
+have diameter one, since it would then be a complete graph containing a
+triangle, and the question is asymptotic in $n$. No result about the
+erdosproblems.com wording is recorded.
 
-**Status.** PROVED (LEAN). The site's label credited Alon's note with the
-solution. The frontmatter standing is derived from the accepted claim page
+**Status.** PROVED (LEAN). The erdosproblems.com label credited Alon's note with
+the solution. The frontmatter standing is derived from the accepted claim page
 [[problems/extremal_graph_theory/E0618/claims/2024_07_01_alon|Alon's theorem]],
-whose acceptance evidence is the site's own. The standing judges the modified
-Statement. The Lean part of the label refers to the formalization of Alon's
-solution that is linked from that claim page. The formalization's header names
-Aristotle and Alexeev as formal authors. The corpus has not built that Lean
-file, so it gives no `formalized` evidence.
+whose acceptance evidence is erdosproblems.com's own. The standing judges the
+modified Statement. The Lean part of the label refers to the formalization of
+Alon's solution that is linked from that claim page. The formalization's header
+names Aristotle and Alexeev as formal authors. The corpus has not built that
+Lean file, so it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/618](https://www.erdosproblems.com/618), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #618,

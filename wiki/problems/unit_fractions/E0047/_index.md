@@ -27,18 +27,18 @@ and $A\subseteq\{1,\ldots,N\}$ is such that $\sum_{a\in A}\frac{1}{a}>\delta
 \log N$ then must there exist $S\subseteq A$ such that $\sum_{n\in
 S}\frac{1}{n}=1$?
 
-**Formulation.** The site's wording on 2026-09-17 (page last edited 7 April
-2026). For each fixed $\delta>0$ the conclusion is required for every
+**Formulation.** The erdosproblems.com wording on 2026-09-17 (page last edited 7
+April 2026). For each fixed $\delta>0$ the conclusion is required for every
 $N\ge N_0(\delta)$ and every $A\subseteq\{1,\ldots,N\}$ whose reciprocal sum
 exceeds $\delta\log N$; $S$ is a subset of $A$, hence a set of distinct
 integers. Write $R(A)=\sum_{a\in A}1/a$ for the reciprocal sum.
 
-**Status.** Proved. The site records "PROVED (LEAN)". The Lean suffix is a
-catalog label, qualified under Existing formalization below, and no local kernel
-credit is claimed. Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) gives a unit
-subsum from a reciprocal sum of order $\log N\log\log\log N/\log\log N$. This is
-below $\delta\log N$ for large $N$. Liu and Sawhney (Int. Math. Res. Not. 2026)
-lowered the threshold to $(\log N)^{4/5+o(1)}$. The claim pages
+**Status.** Proved. erdosproblems.com records "PROVED (LEAN)". The Lean suffix
+is a catalog label, qualified under Existing formalization below, and no local
+kernel credit is claimed. Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) gives
+a unit subsum from a reciprocal sum of order $\log N\log\log\log N/\log\log N$.
+This is below $\delta\log N$ for large $N$. Liu and Sawhney (Int. Math. Res.
+Not. 2026) lowered the threshold to $(\log N)^{4/5+o(1)}$. The claim pages
 [[problems/unit_fractions/E0047/claims/2021_12_07_bloom|Bloom 2021]] and
 [[problems/unit_fractions/E0047/claims/2024_04_10_liu_sawhney|Liu and Sawhney 2024]]
 record the two results, their postings and the acceptance evidence from which
@@ -47,10 +47,10 @@ this standing derives.
 
 **Source.** [erdosproblems.com/47](https://www.erdosproblems.com/47), accessed
 2026-09-17: the problem page (PROVED (LEAN); a prize; last edited 7 April 2026),
-its empty discussion thread and its empty proof-claim tab. The site cites
-[Er80, p. 105], [ErGr80], [Er92c], [Er95], [Er96b] and [Er97c] as the problem's
-sources and [Bl21] and [LiSa24] in its commentary, and links Problems 46
-and 298. Cite as: T. F. Bloom, Erdős Problem #47,
+its empty discussion thread and its empty proof-claim tab. erdosproblems.com
+cites [Er80, p. 105], [ErGr80], [Er92c], [Er95], [Er96b] and [Er97c] as the
+problem's sources and [Bl21] and [LiSa24] in its commentary, and links Problems
+46 and 298. Cite as: T. F. Bloom, Erdős Problem #47,
 https://www.erdosproblems.com/47, accessed 2026-09-17.
 
 **References.**
@@ -70,11 +70,11 @@ https://www.erdosproblems.com/47, accessed 2026-09-17.
   combinatorial number theory. Monographies de L'Enseignement Mathématique
   28, Université de Genève (1980). Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]];
-  the site gives no page; the reciprocal-sum growth sentence is on printed
-  p. 36, quoted on the card, with the book's guess of a threshold near
+  erdosproblems.com gives no page; the reciprocal-sum growth sentence is on
+  printed p. 36, quoted on the card, with the book's guess of a threshold near
   $\log\log n$.
 - [Er80] Erdős, Paul, A survey of problems in combinatorial number theory.
-  Ann. Discrete Math. 6 (1980), 89--115; p. 105 as cited by the site.
+  Ann. Discrete Math. 6 (1980), 89--115; p. 105 as cited by erdosproblems.com.
   Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]];
   the finite form with the $o((\log\log n)^\alpha)$ or $\varepsilon\log n$
@@ -109,16 +109,16 @@ of Theorem 3. This corpus has built neither. See Existing formalization.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks whether, for fixed $\delta>0$ and
-large $N$, $R(A)>\delta\log N$ forces a subset of $A$ with reciprocal sum one,
-showed PROVED (LEAN) with a prize, and says in its commentary that Bloom solved
-it with the threshold $R(A)\gg\log N\log\log\log N/\log\log N$, that Liu and
-Sawhney improved this to $R(A)\gg(\log N)^{4/5+o(1)}$, and that Erdős speculated
-that even $\gg(\log\log N)^2$ might suffice, which a construction of Pomerance
-in the appendix of [Bl21] shows would be best possible. The thread and the
-proof-claim tab are empty. The community database record (teorth/erdosproblems,
-fetched 2026-09-17) says proved (Lean), statement formalized, no formal-proof
-URL.
+**The question.** On 2026-09-17 erdosproblems.com asks whether, for fixed
+$\delta>0$ and large $N$, $R(A)>\delta\log N$ forces a subset of $A$ with
+reciprocal sum one, showed PROVED (LEAN) with a prize, and says in its
+commentary that Bloom solved it with the threshold
+$R(A)\gg\log N\log\log\log N/\log\log N$, that Liu and Sawhney improved this to
+$R(A)\gg(\log N)^{4/5+o(1)}$, and that Erdős speculated that even
+$\gg(\log\log N)^2$ might suffice, which a construction of Pomerance in the
+appendix of [Bl21] shows would be best possible. The thread and the proof-claim
+tab are empty. The community database record (teorth/erdosproblems, fetched
+2026-09-17) says proved (Lean), statement formalized, no formal-proof URL.
 
 **Status support.** The status-defining source is
 [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_3|Bloom's Theorem 3]]
@@ -162,7 +162,7 @@ is not known; Bloom suspects (p. 2) that
 $\lambda(N)\le(\log N)^{o(1)}$. This quantitative question lies beyond the
 yes-or-no question the page carries and does not affect the status.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 file at the pinned commit and the external Lean file it tags; the arXiv
 listings for 2112.03726 (v1 7 December 2021, v2 12 October 2023) and
@@ -251,7 +251,7 @@ at line 2042 of `src/final_results.lean`; Appendix B of the paper describes
 that verification. No formalization of the Liu–Sawhney threshold was found. The
 collection's README says its source subdirectories "build as a whole (last
 I checked)". This corpus has built, audited or kernel-checked none of it;
-the site's Lean suffix is a catalog label, and the community database
+the erdosproblems.com Lean suffix is a catalog label, and the community database
 records no formal-proof URL.
 <!-- BEGIN problem library links -->
 

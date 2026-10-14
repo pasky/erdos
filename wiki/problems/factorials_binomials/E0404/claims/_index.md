@@ -4,16 +4,16 @@ desc: The 3 claim pages of Problem 404, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/factorials_binomials/E0404/claims
 
 [[problems/factorials_binomials/E0404/_index|..]]
 
-[[problems/factorials_binomials/E0404/claims/1976_01_01_lin|1976_01_01_lin]]: Lin's Bell Laboratories memorandum shows, as the site reports, that no sum of
-distinct factorials beginning with $2!$ is divisible by $2^{255}$. So
-$f(2,2)\le254$, and the first question has the answer yes at $a=2$, $p=2$.
+[[problems/factorials_binomials/E0404/claims/1976_01_01_lin|1976_01_01_lin]]: Lin's Bell Laboratories memorandum shows, as erdosproblems.com reports, that
+no sum of distinct factorials beginning with $2!$ is divisible by $2^{255}$.
+So $f(2,2)\le254$, and the first question has the answer yes at $a=2$, $p=2$.
 
 [[problems/factorials_binomials/E0404/claims/2026_07_07_kitamura|2026_07_07_kitamura]]: Kenta Kitamura's repository computes $f(a,2)$ exactly for every
 $1\le a\le256$, and certifies each value by a witness and an exhaustive finite

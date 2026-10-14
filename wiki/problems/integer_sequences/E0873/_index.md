@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-14T00:14:27Z
 ---
 
 # Problem 873
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E0873/claims/_index|claims/]]: The 3 claim pages of Problem 873, one per claimant's result; the problem's standing derives from them.
+[[problems/integer_sequences/E0873/claims/_index|claims/]]: The 4 claim pages of Problem 873, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -35,10 +35,10 @@ $$
 F(A,X,k)<X^\epsilon?
 $$
 
-**Status.** Open. The site's label was OPEN. The standing in the frontmatter is
-derived from the claim pages. Three pending partial claims answer the question
-yes for a range of exponents. The first is the bound $F(A,X,3)\ll X^{1/3}\log X$
-that Erdős reports with Szemerédi in 1992
+**Status.** Open. The erdosproblems.com label was OPEN. The standing in the
+frontmatter is derived from the claim pages. Three pending partial claims answer
+the question yes for a range of exponents. The first is the bound
+$F(A,X,3)\ll X^{1/3}\log X$ that Erdős reports with Szemerédi in 1992
 ([[problems/integer_sequences/E0873/claims/1992_01_01_erdos_szemeredi|claim page]]).
 The second is Ritvik Nayak's note of April 2026, with exponents below $1/3$ for
 $k=6$ and $k=11$
@@ -53,11 +53,13 @@ Kenta Kitamura's Lean development (thread post of 11 September 2026) claims a
 proof that every increasing sequence has
 $\liminf_{X\to\infty}F(A,X,3)/X^{1/3}\le6$. As the post discloses, it was
 developed with ChatGPT and OpenAI Codex using GPT-6 (Astra). If correct, this
-refutes Erdős's suggestion in [Er92c], p. 48, repeated in the site's
+refutes Erdős's suggestion in [Er92c], p. 48, repeated in the erdosproblems.com
 commentary, that some sequence satisfies $F(A,X,3)\gg X^{1/3}\log X$ for
 every $X$. Formal-conjectures registers the development as the formal proof of
-its variant `erdos_873.variants.supplement_all_scale`. It settles no instance of
-the question asked, so it has no claim page. It was not built or audited here.
+its variant `erdos_873.variants.supplement_all_scale`. It answers that variant
+and settles no instance of the question asked, so
+[[problems/integer_sequences/E0873/claims/2026_09_11_kitamura|its claim page]]
+is rejected. It was not built or audited here.
 
 **Source.** [erdosproblems.com/873](https://www.erdosproblems.com/873), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #873,

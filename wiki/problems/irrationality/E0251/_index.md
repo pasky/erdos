@@ -28,9 +28,9 @@ $$
 
 irrational? (Here $p_n$ is the $n$th prime.)
 
-**Status.** Open, as the site's label (OPEN) also has it. No unconditional proof
-or disproof is known. Two claimed conditional proofs have claim pages,
-[[problems/irrationality/E0251/claims/2026_09_06_land|Land]] and
+**Status.** Open, as the erdosproblems.com label (OPEN) also has it. No
+unconditional proof or disproof is known. Two claimed conditional proofs have
+claim pages, [[problems/irrationality/E0251/claims/2026_09_06_land|Land]] and
 [[problems/irrationality/E0251/claims/2026_09_07_ringer|Ringer]]. Both assume
 Kuperberg's uniform Hardy–Littlewood prime-tuples conjecture. Neither is
 refereed or independently reviewed. Both would leave the problem open even if
@@ -60,7 +60,7 @@ Problem #251, https://www.erdosproblems.com/251, accessed 2026-09-17.
   series. J. Reine Angew. Math. 571 (2004), 145--158.
 - [ScPu07] Schlage-Puchta, J.-C., The irrationality of some number
   theoretical series. Acta Arith. 126 (2007), no. 4, 295--303;
-  arXiv:1105.1451 (the site's key [ScPu11]).
+  arXiv:1105.1451 (the erdosproblems.com key [ScPu11]).
 - [Po12] Pollack, P., The average least quadratic nonresidue modulo $m$ and
   other variations on a theme of Erdős. J. Number Theory 132 (2012), no. 6,
   1185--1202.
@@ -76,10 +76,10 @@ Problem #251, https://www.erdosproblems.com/251, accessed 2026-09-17.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/251.lean) as
 `answer(sorry) ↔ Irrational (∑' n : ℕ, (Nat.nth Nat.Prime n) / (2 ^ n))`
 with the tag `category research open` and a `sorry` proof (the file's
-revision as of 2026-09-17, the commit of 2026-07-16 that the link carries).
+revision on 2026-09-17, the commit of 2026-07-16 that the link carries).
 Since `Nat.nth Nat.Prime` is zero-based, that real number is
-$\sum_{n\ge0}p_{n+1}/2^n=2S$, twice the site's constant $S$;
-irrationality is unaffected, but the formal object is not the site's
+$\sum_{n\ge0}p_{n+1}/2^n=2S$, twice erdosproblems.com's constant $S$;
+irrationality is unaffected, but the formal object is not the erdosproblems.com
 number. Two author repositories hold conditional Lean statements with
 Kuperberg's conjecture as an explicit hypothesis (see Progress); neither is
 part of this repository's accepted Lean closure, and no statement of either
@@ -87,15 +87,15 @@ has been compared with its manuscript.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-17; last edited 28 September 2025) asks
-whether $S=\sum_{n\ge1}p_n/2^n$ is irrational, with $p_1=2$, so
-$S=2/2+3/4+5/8+\cdots=3.67464396601\ldots$ (OEIS A098990). The frontmatter
-status `open` concerns this question. The status search covered the
+The erdosproblems.com formulation (accessed 2026-09-17; last edited 28
+September 2025) asks whether $S=\sum_{n\ge1}p_n/2^n$ is irrational, with
+$p_1=2$, so $S=2/2+3/4+5/8+\cdots=3.67464396601\ldots$ (OEIS A098990). The
+frontmatter status `open` concerns this question. The status search covered the
 primary sources (the 1958, 1980 and 1988 passages), the arXiv API, the
-catalog's problem page, discussion thread, proof-claims page and history page,
-the community database and its "AI contributions" wiki, and web search; zbMATH,
-MathSciNet and Google Scholar were not searched. No unconditional proof or
-disproof was found. A failure to find a proof does not by itself establish
+erdosproblems.com problem page, discussion thread, proof-claims page and history
+page, the community database and its "AI contributions" wiki, and web search;
+zbMATH, MathSciNet and Google Scholar were not searched. No unconditional proof
+or disproof was found. A failure to find a proof does not by itself establish
 openness, so the scope is recorded and the outstanding claims are listed.
 
 **Origin and wording.** Erdős posed the question in 1958 (p. 94), after proving
@@ -111,17 +111,17 @@ I can prove the irrationality of (2) only under much more restrictive
 conditions; $g_n=p_n+1$ shows that some growth condition is needed for the
 irrationality of (2)."
 ([[../library/irrationality/erdos_1988_irrationality_certain_series_problems_results/problem_p103|problem_p103]]
-carries the passage.) The site's word "conjectures" for these two statements is
-stronger than Erdős's "could not prove" and "seems reasonable to expect"; the
-main question ($k=1$) is the same in every source. The status judges the
-Statement; the $k\ge2$ power series and the variable-denominator statement are
-auxiliary questions treated below.
+carries the passage.) erdosproblems.com's word "conjectures" for these two
+statements is stronger than Erdős's "could not prove" and "seems reasonable to
+expect"; the main question ($k=1$) is the same in every source. The status
+judges the Statement; the $k\ge2$ power series and the variable-denominator
+statement are auxiliary questions treated below.
 
-**The site remark on $\sum p_n^k/n!$.** The site says Erdős [Er58b] proved
-$\sum p_n^k/n!$ irrational for every $k\ge1$. The 1958 paper proves $k=1$
-(Section 2) and says the proof for $k>1$ is too complicated to include;
-the 1980 book repeats the all-$k$ attribution. The first published proof
-for $k\ge2$ is Schlage-Puchta's Theorem 3 [ScPu07]
+**The erdosproblems.com remark on $\sum p_n^k/n!$.** erdosproblems.com says
+Erdős [Er58b] proved $\sum p_n^k/n!$ irrational for every $k\ge1$. The 1958
+paper proves $k=1$ (Section 2) and says the proof for $k>1$ is too complicated
+to include; the 1980 book repeats the all-$k$ attribution. The first published
+proof for $k\ge2$ is Schlage-Puchta's Theorem 3 [ScPu07]
 ([[../library/irrationality/schlagepuchta_2011_irrationality_number_theoretical_series/theorem_3|theorem_3]]):
 $1,S_0,S_1,S_2,\dots$ are $\mathbb Q$-linearly independent, where
 $S_k=\sum p_n^k/n!$; Schlage-Puchta's paper says (p. 2) "it appears that,
@@ -144,9 +144,9 @@ argument is elementary; this compilation
 carries a proof sketch as author-recorded, and no independent review is
 filed. The note is unrefereed and AI-generated by its byline, the check
 reported on the discussion thread was AI-run, the community wiki lists the
-note as "Solution to variant problem", and the site's text is unchanged.
-Kovač's own comment notes that Erdős may have intended nondecreasing $g_n$;
-the construction is not monotone, so the monotone-denominator theorems
+note as "Solution to variant problem", and the erdosproblems.com text is
+unchanged. Kovač's own comment notes that Erdős may have intended nondecreasing
+$g_n$; the construction is not monotone, so the monotone-denominator theorems
 below are untouched. The construction concerns one particular sequence,
 not the constant sequence $g_n=2$ of the problem. This page therefore
 records a claimed counterexample to the auxiliary statement as a body note,
@@ -177,8 +177,8 @@ implication, not the irrationality, and would leave the status `open`.
   UniformHardyLittlewoodConjecture) : Irrational Erdos251.realSeries`, with
   `realSeries = ∑' n, (p n : ℝ) / 2^(n+1)` and zero-based `p`, encodes $S$
   exactly; the repository's README reports an author-run build and axiom
-  audit. No proof claim is registered on the site. Claimed, unreviewed.
-- S. Ringer, manuscript dated 11 September 2026, the site's single
+  audit. No proof claim is registered on erdosproblems.com. Claimed, unreviewed.
+- S. Ringer, manuscript dated 11 September 2026, erdosproblems.com's single
   registered proof claim (submitted 2026-09-13 and labeled partial, with
   the AI systems GPT 6 Astra and Fable 5.1 named in its title; claim page
   [[problems/irrationality/E0251/claims/2026_09_07_ringer|Ringer]]):
@@ -279,12 +279,13 @@ Dated record of work on the exact question; none changes the status.
   $\sum p_n2^{-n}$ is normal to base $2$, hence irrational; announced on
   the thread on 2026-09-07 (the repository's first commit is dated
   2026-09-10; the card digests the text at the commit of 2026-09-13) and
-  registered on the site
+  registered on erdosproblems.com
   on 2026-09-13 as a partial proof claim naming the AI systems GPT 6 Astra
   and Fable 5.1; author-run Lean build; no independent review. Claim page:
   [[problems/irrationality/E0251/claims/2026_09_07_ringer|Ringer]].
 
-The dated site record (page, discussion, proof claim, history) is filed as
+The dated erdosproblems.com record (page, discussion, proof claim, history) is
+filed as
 [[../library/irrationality/bloom_2026_erdos_problem_251_discussion/_index|bloom_2026_erdos_problem_251_discussion]].
 
 ## Known Results
@@ -305,7 +306,7 @@ Auxiliary statement and adjacent theorems, each with its source:
   ([[../library/irrationality/erdos_1958_sur_certaines_series_valeur_irrationnelle_french/remark_p94|remark_p94]]).
 - [[../library/irrationality/schlagepuchta_2011_irrationality_number_theoretical_series/theorem_3|Schlage-Puchta 2007, Theorem 3]]:
   $1,S_0,S_1,\dots$ are $\mathbb Q$-linearly independent, the $k\ge2$ case
-  of the site remark in print.
+  of the erdosproblems.com remark in print.
 - [[../library/irrationality/erdos_1988_irrationality_certain_series_problems_results/problem_p103|Erdős 1988, p. 103]],
   and
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Erdős–Graham 1980]],

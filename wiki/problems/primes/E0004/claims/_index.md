@@ -4,7 +4,7 @@ desc: The 7 claim pages of Problem 4, one per claimant's result; the problem's s
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/primes/E0004/claims
@@ -18,12 +18,12 @@ appeared in the Journal of the London Mathematical Society.
 [[problems/primes/E0004/claims/2014_08_20_ford_green_konyagin_tao|2014_08_20_ford_green_konyagin_tao]]: Ford, Green, Konyagin and Tao prove that the largest prime gap below $X$
 exceeds Rankin's 1938 scale by a factor tending to infinity, so the question's
 bound holds for every constant. The refereed paper appeared in the Annals and
-is credited by the site's curator.
+is credited by the erdosproblems.com curator.
 
 [[problems/primes/E0004/claims/2014_08_21_maynard|2014_08_21_maynard]]: Maynard proves that the ratio of the prime gap to Rankin's scale has infinite
 limit superior, so the question's bound holds for every constant. The refereed
-paper appeared in the Annals and is credited by the site's curator beside the
-independent 2014 proof.
+paper appeared in the Annals and is credited by the erdosproblems.com curator
+beside the independent 2014 proof.
 
 [[problems/primes/E0004/claims/2014_12_16_ford_green_konyagin_maynard_tao|2014_12_16_ford_green_konyagin_maynard_tao]]: Ford, Green, Konyagin, Maynard and Tao prove that the largest prime gap below
 $X$ is $\gg\log X\log\log X\log\log\log\log X/\log\log\log X$, a factor

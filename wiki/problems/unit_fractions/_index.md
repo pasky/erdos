@@ -213,4 +213,5 @@ Egyptian fractions and reciprocal sums, including the Erdos-Straus conjecture
 and the Erdos-Graham problems on representing rationals as sums of unit
 fractions.
 
-Site tags routed here: number theory, ramsey theory, unit fractions.
+erdosproblems.com tags routed here: number theory, ramsey theory, unit
+fractions.

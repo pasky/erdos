@@ -28,16 +28,16 @@ C^k\rfloor$, for some prime $p$ and $k\geq 0$, have density $>0$?
 statement and as the
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/244.lean)
 reads it: for every real $C>1$, does the set have positive lower density? The
-site's commentary reads it the same way, since it counts Romanoff's
+erdosproblems.com commentary reads it the same way, since it counts Romanoff's
 lower-density theorem as a yes for integer $C$. Romanoff's theorem and Ding's
 theorems are lower-density statements, and none of them shows that the
 natural density exists. Whether $k$ starts at $0$ or at $1$ does not matter,
 since the integers $p+1$ have density zero.
 
-**Status.** Open, the site's label (OPEN; page last edited 28 October 2025). No
-claim covers every $C>1$, so the problem stays open. Romanoff's theorem [Ro34]
-gives positive lower density for every integer $C\ge2$. It is recorded as the
-accepted partial claim on
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited 28 October
+2025). No claim covers every $C>1$, so the problem stays open. Romanoff's
+theorem [Ro34] gives positive lower density for every integer $C\ge2$. It is
+recorded as the accepted partial claim on
 [[problems/primes/E0244/claims/1934_12_01_romanoff|Romanoff's claim page]].
 Ding's theorems [Di25] give positive lower density for almost every real $C>1$
 and for the golden ratio. They are the pending partial claim on

@@ -22,8 +22,8 @@ coloring in $\ell$ colors containing no rainbow $K_m$.
 The paper introduces it (p. 5): "We prove the following Theorem which
 implies both Theorems 1.4 and 1.6 quickly, and in fact provides many
 examples of graphs, asides form cliques, answering Question 1.1 and 1.5 in
-the negative." ("asides form" as printed.) The site's commentary on Problem
-811 quotes this statement with $3.5$ for $7/2$.
+the negative." ("asides form" as printed.) The erdosproblems.com commentary on
+Problem 811 quotes this statement with $3.5$ for $7/2$.
 
 **Source.** M. Axenovich and F. C. Clemen, *Rainbow subgraphs in
 edge-colored complete graphs: answering two questions by Erdős and Tuza*,

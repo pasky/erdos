@@ -46,7 +46,7 @@ K. Mieczkowska, On matchings in hypergraphs, Electron. J. Combin. 19 (2012),
 no. 2, Paper 42, carded at
 [[../library/set_systems/frankl_2012_matchings_hypergraphs/_index|On matchings in hypergraphs]].
 
-**Covers.** The range $n>2r^2(k-1)/\log r$, which the site records as
+**Covers.** The range $n>2r^2(k-1)/\log r$, which erdosproblems.com records as
 $n>2kr^2/\log r$. It improves
 [[problems/set_systems/E1020/claims/2011_07_27_huang_loh_sudakov|Huang, Loh and Sudakov 2012]]
 by the logarithm and was superseded by the linear range of
@@ -56,7 +56,7 @@ by the logarithm and was superseded by the linear range of
 
 **Acceptance.** Refereed: the paper appeared in the Electronic Journal of
 Combinatorics, volume 19, issue 2, Paper 42, published on 2012-06-13, which is
-the page's date. The site's commentary credits the range to the paper as
-[FLM12]. The site labeled the problem FALSIFIABLE, which is an open label, so
-this commentary is not acceptance and no `reviewed` is listed. Nothing here
-rests on this project's own review.
+the page's date. The erdosproblems.com commentary credits the range to the paper
+as [FLM12]. Bloom's catalog labeled the problem FALSIFIABLE, which is an open
+label, so this commentary is not acceptance and no `reviewed` is listed. Nothing
+here rests on this project's own review.

@@ -73,9 +73,9 @@ reviewed.
   a nondegenerate solution, all terms being positive, of
   (1/n)x1 + (1/n)x2 + (1/n)x3 = 1 in a subgroup of (Q*)^3 of rank 4, so
   [[diophantine_problems/evertse_schlickewei_schmidt_2002_linear_equations_multiplicative_group/theorem_1_1|Theorem 1.1]] bounds the number of
-  representations by a constant independent of n. The problem's site credits
-  the proof that the count is bounded to Evertse, Győry, Stewart and
-  Tijdeman (1988), before this paper.
+  representations by a constant independent of n. The problem's
+  erdosproblems.com page credits the proof that the count is bounded to Evertse,
+  Győry, Stewart and Tijdeman (1988), before this paper.
 
 **Results.**
 

@@ -28,19 +28,19 @@ $$
 \frac{\tau((n+1)!)}{\tau(n!)}?
 $$
 
-**Status.** The site labeled the problem SOLVED (LEAN). The standing derived
-from the claim page is `solved`, `answered`. By
+**Status.** Bloom's catalog labeled the problem SOLVED (LEAN). The standing
+derived from the claim page is `solved`, `answered`. By
 [[problems/factorials_binomials/E0419/claims/1996_01_01_erdos_graham_ivic_pomerance|Erdős, Graham, Ivić and Pomerance 1996]],
-credited by the site's curator, the limit points are exactly $1$ and the numbers
-$1+1/m$ for $m\geq 1$. The Lean proof the site's label refers to is third-party
-work not built here.
+credited by the erdosproblems.com curator, the limit points are exactly $1$ and
+the numbers $1+1/m$ for $m\geq 1$. The Lean proof the erdosproblems.com label
+refers to is third-party work not built here.
 
 **Source.** [erdosproblems.com/419](https://www.erdosproblems.com/419), accessed
 2026-09-04 and 2026-10-07; the problem page was last edited 14 October 2025.
-The site cites the problem from p. 83 of Erdős and Graham's 1980 problem book
-[ErGr80], where Erdős and Graham state that every $1+1/k$ is a limit point and
-that they cannot exclude others. Cite as: T. F. Bloom, Erdős Problem #419,
-https://www.erdosproblems.com/419.
+erdosproblems.com cites the problem from p. 83 of Erdős and Graham's 1980
+problem book [ErGr80], where Erdős and Graham state that every $1+1/k$ is a
+limit point and that they cannot exclude others. Cite as: T. F. Bloom, Erdős
+Problem #419, https://www.erdosproblems.com/419.
 
 **References.**
 
@@ -63,8 +63,8 @@ built here.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 14 October 2025): what is
-the set of limit points of $\tau((n+1)!)/\tau(n!)$, where $\tau$ counts
+The question, as erdosproblems.com states it (page last edited 14 October 2025):
+what is the set of limit points of $\tau((n+1)!)/\tau(n!)$, where $\tau$ counts
 divisors? The answer is $\{1\}\cup\{1+1/m : m\geq 1\}$.
 
 The resolution. Erdős, Graham, Ivić and Pomerance [EGIP96] prove that
@@ -73,23 +73,23 @@ factor of $n$ (Theorem 2), and deduce the set of limit points (Corollary 1):
 $P(n)/n$ is always $1/m$ for the integer $m=n/P(n)$, each $1/m$ occurs
 infinitely often, and these values accumulate only at $0$. Erdős and Graham
 had known that every $1+1/m$ is a limit point and asked whether there are
-others; there are none. The site's page carries an argument attributed to
-Mehtaab Sawhney that reaches the same set by factoring the ratio over the
-primes dividing $n+1$, and the curator records that the paper of 1996 already
-contains essentially that argument. The
+others; there are none. The erdosproblems.com page carries an argument
+attributed to Mehtaab Sawhney that reaches the same set by factoring the ratio
+over the primes dividing $n+1$, and the curator records that the paper of 1996
+already contains essentially that argument. The
 [[problems/factorials_binomials/E0419/claims/1996_01_01_erdos_graham_ivic_pomerance|claim page]]
-records the theorem, the site's argument and the acceptance: a published
-paper credited by the site's curator; it appeared in a conference volume, so
-no `refereed` evidence is listed. The same paper's bounds on how far one must
-go for the divisor count of a factorial to double bear on
+records the theorem, erdosproblems.com's argument and the acceptance: a
+published paper credited by the erdosproblems.com curator; it appeared in a
+conference volume, so no `refereed` evidence is listed. The same paper's bounds
+on how far one must go for the divisor count of a factorial to double bear on
 [[problems/arithmetic_functions/E0420/_index|Problem 420]].
 
-Search scope: the site's problem page, its discussion thread (one post, of
-2026-01-31, announcing the Lean proof) and its proof-claims page, which listed
-no proof claim for the problem; the formal-conjectures statement
-file at the commit the Formalization field links; and the Lean file in
-Alexeev's repository at the commit the claim page links. Neither Lean file
-has been built here.
+Search scope: the erdosproblems.com problem page, its discussion thread (one
+post, of 2026-01-31, announcing the Lean proof) and its proof-claims page, which
+listed no proof claim for the problem; the formal-conjectures statement file at
+the commit the Formalization field links; and the Lean file in Alexeev's
+repository at the commit the claim page links. Neither Lean file has been built
+here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

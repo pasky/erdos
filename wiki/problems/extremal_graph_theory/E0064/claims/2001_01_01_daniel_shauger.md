@@ -31,9 +31,10 @@ graphs*, Congr. Numer. **153** (2001), 129--139, whose summary says the proof
 depends on work of Dean and of Dean, Lesniak and Saito. The page name carries
 the publication year; the day is not recorded in any source read. The paper
 is not held by this corpus; the statement follows the zbMATH record
-(Zbl 0997.05053) and the thread comment of 6 December 2025 that the site's
-remark on [[problems/extremal_graph_theory/E0064/_index|Problem 64]] points to
-for the families where the conjecture is confirmed.
+(Zbl 0997.05053) and the thread comment of 6 December 2025 that the
+erdosproblems.com remark on
+[[problems/extremal_graph_theory/E0064/_index|Problem 64]] points to for the
+families where the conjecture is confirmed.
 
 **Covers.** The statement of Problem 64 for planar claw-free graphs.
 
@@ -41,6 +42,6 @@ for the families where the conjecture is confirmed.
 
 **Standing.** Claimed: Congressus Numerantium is a proceedings series, and no
 evidence that the volume was refereed is recorded, so the publication is not
-listed as refereed evidence. The site's curator cites the family list that
-names the paper while labeling the problem FALSIFIABLE, which is commentary
+listed as refereed evidence. The erdosproblems.com curator cites the family list
+that names the paper while labeling the problem FALSIFIABLE, which is commentary
 on an open problem and not acceptance.

@@ -33,8 +33,8 @@ $$
 
 where $\tau$ is the divisor function?
 
-**Status.** Open. The site labeled the problem OPEN, with its note that no
-finite computation can settle it (page last edited 27 December 2025).
+**Status.** Open. Bloom's catalog labeled the problem OPEN, with its note that
+no finite computation can settle it (page last edited 27 December 2025).
 
 **Source.** [erdosproblems.com/975](https://www.erdosproblems.com/975), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #975,
@@ -45,8 +45,8 @@ https://www.erdosproblems.com/975.
 - [Er52b] Erdős, P., On the sum $\sum^x_{k=1} d(f(k))$. J. London Math. Soc. 27
   (1952), 7-15.
 - [Ho63] Hooley, Christopher, On the number of divisors of quadratic
-  polynomials. Acta Math. 110 (1963), 97-114; the site prints the title as "of a
-  quadratic polynomial".
+  polynomials. Acta Math. 110 (1963), 97-114; erdosproblems.com prints the title
+  as "of a quadratic polynomial".
 - [Mc95] McKee, James, On the average number of divisors of quadratic
   polynomials. Math. Proc. Cambridge Philos. Soc. (1995), 389-392.
 - [Mc97] McKee, James, A note on the number of divisors of quadratic
@@ -67,12 +67,12 @@ statement file is not a formalization of a result.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 27 December 2025).** The
-statement above; OPEN, with the site's note that no finite computation can
-settle it. The site's header source is [Er65b], and its commentary credits
-van der Corput [Va39], Erdős [Er52b], Hooley [Ho63] and McKee [Mc95],
-[Mc97], [Mc99]. The derived standing is open: every claim page is
-partial.
+**The question (erdosproblems.com formulation, page last edited 27 December
+2025).** The statement above; OPEN, with the erdosproblems.com note that no
+finite computation can settle it. The erdosproblems.com header source is
+[Er65b], and its commentary credits van der Corput [Va39], Erdős [Er52b], Hooley
+[Ho63] and McKee [Mc95], [Mc97], [Mc99]. The derived standing is open: every
+claim page is partial.
 
 **Order of magnitude.** For every $f$ as in the statement,
 
@@ -80,8 +80,8 @@ $$
 X\log X\ll_f\sum_{n\le X}\tau(f(n))\ll_fX\log X,
 $$
 
-the lower bound credited by the site to van der Corput [Va39] and the upper
-bound Erdős's theorem [Er52b], proved by elementary means; the
+the lower bound credited by erdosproblems.com to van der Corput [Va39] and the
+upper bound Erdős's theorem [Er52b], proved by elementary means; the
 [[../library/polynomials/erdos_1952_sum/_index|card for Erdős's paper]]
 records the theorem and its lemmas. Erdős's paper says that the lower bound
 was essentially known, citing Bellman, and that for degree two Bellman and
@@ -107,13 +107,13 @@ treats the non-monic $ax^2+bx+c$ with negative discriminant prime to $a$;
 it is recorded on
 [[problems/polynomials/E0975/claims/1997_01_30_mckee|its claim page]] as a
 claimed partial claim, since no evidence that the volume was refereed is
-recorded. The site's commentary says that such an asymptotic "is known whenever
-$f$ is an irreducible quadratic, as proved by Hooley [Ho63]"; the attribution is
-inexact, since [Ho63] treats only $x^2+a$. The asymptotic does hold for every
-irreducible quadratic, by the square-root argument that Tao's
+recorded. The erdosproblems.com commentary says that such an asymptotic "is
+known whenever $f$ is an irreducible quadratic, as proved by Hooley [Ho63]"; the
+attribution is inexact, since [Ho63] treats only $x^2+a$. The asymptotic does
+hold for every irreducible quadratic, by the square-root argument that Tao's
 [blog post](https://terrytao.wordpress.com/2011/07/23/erdos-divisor-bound/) of
-23 July 2011, which the site cites, gives for $n^2+1$ and says extends to other
-quadratics. Pairing each divisor of $f(n)$ with its complement gives
+23 July 2011, which erdosproblems.com cites, gives for $n^2+1$ and says extends
+to other quadratics. Pairing each divisor of $f(n)$ with its complement gives
 $\sum_{n\le X}\tau(f(n))=2\sum_{d\le\sqrt{f(X)}}\rho(d)(X-g(d))/d+O(X)$, where
 $\rho(d)$ counts the roots of $f$ modulo $d$, for large $n$ one has $f(n)>d^2$
 exactly when $n>g(d)$, $g(d)\ll d$, and the $O(\log X)$ square values of $f$
@@ -129,10 +129,10 @@ reports. Scourfield's paper of 1961 (Proc. Glasgow Math. Assoc. 5,
 8--20) gets no page: Hooley's introduction credits it with the formula
 $A_2(a)x\log x+O(x)$ for $x^2+a$, which Hooley's theorem contains, and no
 review states its theorem. For $f(n)=n^2+1$ the constant is $3/\pi$:
-$\sum_{n\le x}\tau(n^2+1)=\frac3\pi x\log x+O(x)$, the example the site
-gives from Tao's blog post on Erdős's bound. The site's discussion thread
-(16 June 2026) points to Lapkova's paper (arXiv:1704.02498), whose Theorem
-1 proves the asymptotic with the constant $2L(1,\chi)/\zeta(2)$ for
+$\sum_{n\le x}\tau(n^2+1)=\frac3\pi x\log x+O(x)$, the example erdosproblems.com
+gives from Tao's blog post on Erdős's bound. The erdosproblems.com discussion
+thread (16 June 2026) points to Lapkova's paper (arXiv:1704.02498), whose
+Theorem 1 proves the asymptotic with the constant $2L(1,\chi)/\zeta(2)$ for
 $n^2+2bn+c$ with squarefree $b^2-c\not\equiv1\pmod4$ and whose Theorem 2
 gives an explicit upper bound with the same main term. Lapkova's Theorem 1
 gets no page: $n^2+2bn+c=(n+b)^2-(b^2-c)$ is a translate of $x^2+a$ with
@@ -142,11 +142,12 @@ asymptotic is known for any irreducible $f$ of degree at least three, and
 Erdős wrote in 1952 that the asymptotic very likely holds for every degree
 but that he could not prove it.
 
-Search scope, with the sources as they stood on 2026-10-06: the site's problem
-page (OPEN, last edited 27 December 2025, no proof claims) and its four-comment
-discussion thread (September 2025 to June 2026); the community database listed
-the problem as open and as having a formal statement as of its last update; the
-formal-conjectures statement file is described above.
+Search scope, with the sources as they stood on 2026-10-06: the
+erdosproblems.com problem page (OPEN, last edited 27 December 2025, no proof
+claims) and its four-comment discussion thread (September 2025 to June 2026);
+the community database listed the problem as open and as having a formal
+statement as of its last update; the formal-conjectures statement file is
+described above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

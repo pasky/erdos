@@ -109,8 +109,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0811/_index|Problem 811]]: the original formulation of
-  the problem, the site's source [ErTu93], with the definitions the site's
-  quantitative version $d_G(n)$ uses; the paper's own list of the graphs in
-  the answer set (trees, $K_3$, $C_4$) and of the candidates for
-  counterexamples ($K_4$, $C_6$, $2K_3$), the last two open in the sources
+  the problem, the erdosproblems.com source [ErTu93], with the definitions
+  erdosproblems.com's quantitative version $d_G(n)$ uses; the paper's own list
+  of the graphs in the answer set (trees, $K_3$, $C_4$) and of the candidates
+  for counterexamples ($K_4$, $C_6$, $2K_3$), the last two open in the sources
   read.

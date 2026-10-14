@@ -29,22 +29,22 @@ If $\{p,q\}\neq \{2,3\}$ then what can be said about the density of
 non-representable numbers? Are there infinitely many coprime non-representable
 numbers?
 
-**Formulation.** The site asks whether there are infinitely many "coprime
-non-representable numbers", and Erdős and Lewin (p. 840) also say only coprime.
-The phrase reads either as infinitely many non-representable numbers coprime to
-$pq$ or as an infinite pairwise coprime family of non-representable numbers.
-The pairwise reading implies the other, since each prime factor of $pq$ divides
-at most one member of a pairwise coprime family. The formal-conjectures
-statement takes the pairwise reading. The page's standing targets the site's
-wording, and each claim page that bears on the second question says which
-reading it covers.
+**Formulation.** erdosproblems.com asks whether there are infinitely many
+"coprime non-representable numbers", and Erdős and Lewin (p. 840) also say only
+coprime. The phrase reads either as infinitely many non-representable numbers
+coprime to $pq$ or as an infinite pairwise coprime family of non-representable
+numbers. The pairwise reading implies the other, since each prime factor of $pq$
+divides at most one member of a pairwise coprime family. The formal-conjectures
+statement takes the pairwise reading. The page's standing targets the
+erdosproblems.com wording, and each claim page that bears on the second question
+says which reading it covers.
 
-**Status.** Open. The site labeled the problem open (page last edited 1 April
-2026; proof-claims thread accessed 2026-10-06). The site's proof-claims tab
-carries three partial proof claims. Each is recorded on its own claim page, and
-none is adopted here. In a claim of 2026-08-05, the forum user Apiros3 claims
-that each of the three pairs Yu and Chen left open has an infinite
-pairwise-coprime sequence of non-representable numbers prime to $pq$
+**Status.** Open. Bloom's catalog labeled the problem open (page last edited 1
+April 2026; proof-claims thread accessed 2026-10-06). The erdosproblems.com
+proof-claims tab carries three partial proof claims. Each is recorded on its own
+claim page, and none is adopted here. In a claim of 2026-08-05, the forum user
+Apiros3 claims that each of the three pairs Yu and Chen left open has an
+infinite pairwise-coprime sequence of non-representable numbers prime to $pq$
 ([[problems/diophantine_problems/E1110/claims/2026_08_05_apiros3|claim page]]).
 In a claim of 2026-08-24, Ding, Li, Liu and Zhang claim that the representable
 integers for $(5,2)$ have positive lower density
@@ -79,27 +79,27 @@ proof named.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) poses two questions for coprime
-$p>q\geq 2$ with $\{p,q\}\neq\{2,3\}$: what can be said about the density of
-the non-representable numbers, and whether there are infinitely many coprime
-non-representable numbers. Both questions are the ones Erdős and Lewin put
-on p. 840 of
+The erdosproblems.com formulation (accessed 2026-09-04) poses two questions for
+coprime $p>q\geq 2$ with $\{p,q\}\neq\{2,3\}$: what can be said about the
+density of the non-representable numbers, and whether there are infinitely many
+coprime non-representable numbers. Both questions are the ones Erdős and Lewin
+put on p. 840 of
 [[../library/diophantine_problems/erdos_1996_d_complete_sequences_integers/_index|Erdős and Lewin 1996]],
 after their Theorem 1 and its Corollary showed that every integer is
 representable only for $\{p,q\}=\{2,3\}$ and that the non-representable
-numbers are closed under multiplication by $p$ and $q$. The site's remarks
-record that Erdős [Er92b] had conjectured the $\{2,3\}$ case and that it has
-a short induction proof. In the literature the site cites, Yu and Chen
-[YuCh22] proved that the representable numbers have density zero when $q>3$,
-when $q=3$ and $p>6$, and when $q=2$ and $p>10$, and that there are
+numbers are closed under multiplication by $p$ and $q$. The erdosproblems.com
+remarks record that Erdős [Er92b] had conjectured the $\{2,3\}$ case and that it
+has a short induction proof. In the literature erdosproblems.com cites, Yu and
+Chen [YuCh22] proved that the representable numbers have density zero when
+$q>3$, when $q=3$ and $p>6$, and when $q=2$ and $p>10$, and that there are
 infinitely many coprime non-representable numbers when $q>3$, when $q=3$ and
-$p\neq 5$, and when $q=2$ and $p\notin\{3,5,9\}$. The site also records a
-threshold question of Erdős and Lewin for the pair $\{2,3\}$: with $f(n)$
-the fastest-growing function such that every large $n$ is a sum of numbers
-$2^k3^l$, none dividing another, all exceeding $f(n)$, Yu and Chen proved
+$p\neq 5$, and when $q=2$ and $p\notin\{3,5,9\}$. erdosproblems.com also records
+a threshold question of Erdős and Lewin for the pair $\{2,3\}$: with $f(n)$ the
+fastest-growing function such that every large $n$ is a sum of numbers $2^k3^l$,
+none dividing another, all exceeding $f(n)$, Yu and Chen proved
 $n/(\log n)^{\log_2 3}\ll f(n)\ll n/\log n$, Yang and Zhao [YaZh25] raised
-the lower bound to $n/\log n$, and a comment on the site observes that a
-result of Blecksmith, McCallum and Selfridge [BMS98] already gives
+the lower bound to $n/\log n$, and a comment on erdosproblems.com observes that
+a result of Blecksmith, McCallum and Selfridge [BMS98] already gives
 $f(n)\sim\tfrac{1}{2}(\log 2)(\log 3)\,n/\log n$.
 [[problems/diophantine_problems/E0123/_index|Problem 123]],
 [[problems/diophantine_problems/E0845/_index|Problem 845]] and
@@ -121,11 +121,11 @@ $(5,2)$ and $(7,2)$, two pairs outside Yu and Chen's density-zero range, and
 Bécart's repository adds a draft of the same for $(4,3)$, a third such pair,
 so that the first question's answer differs between pairs. None of the three
 would settle the problem alone, none is accepted, and the derived standing
-is open. The search behind this account covered the site's page, its
+is open. The search behind this account covered the erdosproblems.com page, its
 proof-claims thread, the claimants' postings and the formal-conjectures
 statement file; the statements attributed above to Yu and
-Chen [YuCh22] and to Yang and Zhao [YaZh25] follow the site's remarks, not
-the papers.
+Chen [YuCh22] and to Yang and Zhao [YaZh25] follow the erdosproblems.com
+remarks, not the papers.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

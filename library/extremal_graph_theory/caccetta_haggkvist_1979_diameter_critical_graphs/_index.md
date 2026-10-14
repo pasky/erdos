@@ -239,11 +239,11 @@ Lemma 1 was read for structure only. Nothing here is independently reviewed.
 2-critical graph, then $\varepsilon(G)\le[\nu^2/4]$, with equality holding if
 and only if $G\cong K_{[\nu/2],[(\nu+1)/2]}$", is the problem's statement
 with an equality clause added, printed here for the first time so far as the
-sources cited here show: the site's commentary says "A conjecture of Murty and
-Plesnik (see [CaHa79])", Erdős's 1981 reference [67] reads "U. S. R. Murty,
-unpublished. See L. Caccetta and R. Häggkvist, On diameter critical graphs",
-and Füredi's Conjecture 1.1 cites "Simon and Murty (see in [CH])". The paper
-itself credits Simon and Murty, with Murty's private communication as its
+sources cited here show: the erdosproblems.com commentary says "A conjecture of
+Murty and Plesnik (see [CaHa79])", Erdős's 1981 reference [67] reads "U. S. R.
+Murty, unpublished. See L. Caccetta and R. Häggkvist, On diameter critical
+graphs", and Füredi's Conjecture 1.1 cites "Simon and Murty (see in [CH])". The
+paper itself credits Simon and Murty, with Murty's private communication as its
 reference [2], and does not name Plesník. Theorem 1 (printed p. 228, PDF
 p. 6), "If $G$ is a 2-critical graph, then
 $\varepsilon<\bigl(\frac{1+\sqrt5}{12}\bigr)\nu^2<0.27\nu^2$", is the bound

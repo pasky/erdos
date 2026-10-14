@@ -4,8 +4,8 @@ title: Problem 998
 desc: |
   Asks whether, for irrational $\alpha$, an interval $[u,v)$ with bounded
   discrepancy along the fractional parts $\{\alpha m\}$ must have length
-  $v-u=\{\alpha j\}$ for some integer $j$. The site's wording, which asks this
-  of both endpoints, is false.
+  $v-u=\{\alpha j\}$ for some integer $j$. The erdosproblems.com wording, which
+  asks this of both endpoints, is false.
 tags:
 - Analysis
 - Diophantine approximation
@@ -41,52 +41,54 @@ $$
 
 then $v-u=\{\alpha j\}$ for some integer $j$?
 
-**Notes.** The site's wording is Erdős's. In [Er64b], p. 62, after the theorem
-of Hecke and Ostrowski (display (24)) that $N_n(u,v)=n(v-u)+O(1)$ when both $u$
-and $v$ are of the form $(k\alpha)$, Erdős writes: "Szüsz and I conjectured the
-converse of this theorem, i.e. if (24) holds then $u=(k_1\alpha)$,
-$v=(k_2\alpha)$, unfortunately we had not been able to make any progress with
-this conjecture"
+**Notes.** The erdosproblems.com wording is Erdős's. In [Er64b], p. 62, after
+the theorem of Hecke and Ostrowski (display (24)) that $N_n(u,v)=n(v-u)+O(1)$
+when both $u$ and $v$ are of the form $(k\alpha)$, Erdős writes: "Szüsz and I
+conjectured the converse of this theorem, i.e. if (24) holds then
+$u=(k_1\alpha)$, $v=(k_2\alpha)$, unfortunately we had not been able to make any
+progress with this conjecture"
 ([[../library/discrepancy/erdos_1964_problems_results_diophantine_approximations/conjecture_p62|the conjecture card]]).
 Boris Alexeev's Lean theorem `not_erdos_998` (formal authors Codex and GPT-5.6
-Sol) refutes that endpoint converse for $\alpha=\sqrt2/10$, $u=1/4$. The site
-labeled the problem PROVED and its commentary says "This is true, and was
-proved by Kesten [Ke66]." The theorem credited, Theorem 4 of Kesten's paper
+Sol) refutes that endpoint converse for $\alpha=\sqrt2/10$, $u=1/4$. Bloom's
+catalog labeled the problem PROVED and its commentary says "This is true, and
+was proved by Kesten [Ke66]." The theorem credited, Theorem 4 of Kesten's paper
 (Acta Arith. 12 (1966), p. 193), is the length criterion: for fixed $\xi$ and
 $0\le a<b\le1$ with $b-a<1$, the discrepancy of $[a,b)$ is bounded in $M$ if
 and only if $b-a=\{j\xi\}$ for some integer $j$. Kesten writes that this
 "confirms a recent conjecture of Erdős and Szüsz [2]" and, in Section 4, that
 "except for a slight modification this was conjectured by Erdős and Szüsz
 ([2], p. 61)"; the modification is the passage from the two endpoints to the
-length, made by the prover and adopted by the site's label and attribution.
-The page follows that reading. The modified Statement replaces the conclusion
-"$u=\{\alpha k\}$ and $v=\{\alpha\ell\}$ for some integers $k$ and $\ell$" by
-"$v-u=\{\alpha j\}$ for some integer $j$" and adds Kesten's range
+length, made by the prover and adopted by the erdosproblems.com label and
+attribution. The page follows that reading. The modified Statement replaces the
+conclusion "$u=\{\alpha k\}$ and $v=\{\alpha\ell\}$ for some integers $k$ and
+$\ell$" by "$v-u=\{\alpha j\}$ for some integer $j$" and adds Kesten's range
 $0\le u<v\le1$, $v-u<1$, which excludes only the full interval $[0,1)$, whose
 discrepancy is identically $0$ and whose length $1$ is not a fractional part;
 nothing else changes. Under the modified Statement the answer is yes:
 sufficiency is the theorem of Hecke [He22] and Ostrowski [Os27], [Os30] that
-the site's commentary calls the converse, and necessity is Kesten [Ke66]
+the erdosproblems.com commentary calls the converse, and necessity is Kesten
+[Ke66]
 ([[problems/irrationality/E0998/claims/1966_01_01_kesten|Kesten's claim page]],
-accepted, full, refereed). Under the site's wording the answer is no, by
-Alexeev's Lean disproof, recorded on
+accepted, full, refereed). Under the erdosproblems.com wording the answer is no,
+by Alexeev's Lean disproof, recorded on
 [[problems/irrationality/E0998/claims/2026_08_17_alexeev|a claim page]]
-rejected because it answers the site's wording (both endpoints on the orbit),
-not the modified Statement (the length on the orbit), so it does not count
-toward the problem's standing. The anchored case $u=0$ of the site's
-wording, that a bounded-discrepancy interval $[0,v)$ has $v=\{\alpha\ell\}$, is
-true and is the case of Kesten's necessity reconstructed on
+rejected because it answers the erdosproblems.com wording (both endpoints on the
+orbit), not the modified Statement (the length on the orbit), so it does not
+count toward the problem's standing. The anchored case $u=0$ of the
+erdosproblems.com wording, that a bounded-discrepancy interval $[0,v)$ has
+$v=\{\alpha\ell\}$, is true and is the case of Kesten's necessity reconstructed
+on
 [[../library/discrepancy/kesten_1966_bounded_remainder/theorem_4|the theorem page]].
 
-**Status.** The site labeled the problem PROVED and credits Kesten [Ke66]. The
-site was accessed 2026-09-04, and the page was last edited 2025-10-05. The
-modified Statement is proved. Necessity is Kesten's Theorem 4 and sufficiency
-is the theorem of Hecke and Ostrowski, as accepted on the
+**Status.** Bloom's catalog labeled the problem PROVED and credits Kesten
+[Ke66]. erdosproblems.com was accessed 2026-09-04, and the page was last edited
+2025-10-05. The modified Statement is proved. Necessity is Kesten's Theorem 4
+and sufficiency is the theorem of Hecke and Ostrowski, as accepted on the
 [[problems/irrationality/E0998/claims/1966_01_01_kesten|Kesten page]]. Alexeev's
-Lean disproof of the site's wording is a rejected claim page, on the
+Lean disproof of the erdosproblems.com wording is a rejected claim page, on the
 [[problems/irrationality/E0998/claims/2026_08_17_alexeev|Alexeev page]]. It is
-rejected because it answers the site's wording rather than the modified
-Statement.
+rejected because it answers the erdosproblems.com wording rather than the
+modified Statement.
 
 **Source.** [erdosproblems.com/998](https://www.erdosproblems.com/998), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #998,
@@ -111,15 +113,16 @@ https://www.erdosproblems.com/998.
 here. The theorem `not_erdos_998` in
 [Boris Alexeev's repository](https://github.com/plby/lean-proofs/blob/cecc3fc4b7725db36692f0eca3c24712a481cfba/src/latest/ErdosProblems/Erdos998.lean)
 (formal authors Codex and GPT-5.6 Sol; file added 2026-08-17, linked at the
-commit of 2026-08-24 that last touched it) refutes the site's wording for
-$\alpha=\sqrt2/10$ and is recorded on the
+commit of 2026-08-24 that last touched it) refutes the erdosproblems.com wording
+for $\alpha=\sqrt2/10$ and is recorded on the
 [[problems/irrationality/E0998/claims/2026_08_17_alexeev|Alexeev page]].
 Collin Yuanjie Ren's AI-assisted development
 [`Kesten.bounded_remainder_iff`](https://github.com/CollinYuanjieRen/awards/blob/c2ecac9d6afd79ad1547324cb222d43018931959/submissions/jsp-000831-cyr/README.md)
 formalizes the length criterion of the modified Statement and is linked on the
 [[problems/irrationality/E0998/claims/1966_01_01_kesten|Kesten page]]. The
 community database at teorth/erdosproblems records Ren's development in a note
-and lists the problem as not formalized; the site shows no formal statement.
+and lists the problem as not formalized; erdosproblems.com shows no formal
+statement.
 
 ## Current assessment
 
@@ -135,12 +138,12 @@ corpus.
 The claim pages record two positions. The
 [[problems/irrationality/E0998/claims/1966_01_01_kesten|Kesten page]] records
 Kesten's Theorem 4, the length criterion, as the proof of the modified
-Statement, accepted on its refereed publication and the site's documented
-acceptance; it holds Ren's formalization of the criterion as a link. The
-[[problems/irrationality/E0998/claims/2026_08_17_alexeev|Alexeev page]], an
+Statement, accepted on its refereed publication and erdosproblems.com's
+documented acceptance; it holds Ren's formalization of the criterion as a link.
+The [[problems/irrationality/E0998/claims/2026_08_17_alexeev|Alexeev page]], an
 outside Lean disproof with a single witness, is rejected: it is correct, but it
-answers the site's wording, not the modified Statement. The frontmatter
-standing follows from those pages.
+answers the erdosproblems.com wording, not the modified Statement. The
+frontmatter standing follows from those pages.
 
 ## Known Results
 

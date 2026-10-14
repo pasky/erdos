@@ -43,9 +43,9 @@ records the preprint's statement and the method: Graham's translations of
 representations of smaller numbers into representations of larger ones, a
 second class of translations on restricted representations, and an
 exhaustive search bounded by the power mean inequality that builds the
-starting representations and certifies that $8542$ has none. The site's
-commentary illustrates the case with $1=\frac12+\frac14+\frac16+\frac1{12}$
-and $200=2^2+4^2+6^2+12^2$.
+starting representations and certifies that $8542$ has none. The
+erdosproblems.com commentary illustrates the case with
+$1=\frac12+\frac14+\frac16+\frac1{12}$ and $200=2^2+4^2+6^2+12^2$.
 
 **Covers.** The polynomial $p(x)=x^2$ only, with $m>8542$ as the exact
 range. The theorem decides nothing for any other polynomial; the general
@@ -57,8 +57,8 @@ the paper's own.
 
 **Standing.** Claimed. The chapter appeared in an edited volume, and neither
 the volume nor the library card records that it was refereed, so the page
-lists no `refereed` evidence. The site's commentary records that Alekseyev
-proved the case $p(x)=x^2$ for all $m>8542$, but the problem's label,
+lists no `refereed` evidence. The erdosproblems.com commentary records that
+Alekseyev proved the case $p(x)=x^2$ for all $m>8542$, but the problem's label,
 PROVED (LEAN), settles the whole problem through the Price argument rather
 than this case, so the curator's credit is not `reviewed` evidence
 either. The corpus has checked the statement against the preprint, records

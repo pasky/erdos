@@ -49,12 +49,13 @@ of whether a Lebesgue measurable such set exists.
 The result is refereed twice. The detailed proof is Steve Jackson and R.
 Daniel Mauldin, On a lattice problem of H. Steinhaus, J. Amer. Math. Soc. 15
 (2002), no. 4, 817-856, published electronically on 2002-06-13; the
-announcement cited by the site is Steve Jackson and R. Daniel Mauldin, Sets
-meeting isometric copies of the lattice $\mathbb Z^2$ in exactly one point,
-Proc. Natl. Acad. Sci. USA 99 (2002), no. 25, 15883-15887. The site's curator,
-T. F. Bloom, marked the problem proved and credits the result to this work.
+announcement cited by erdosproblems.com is Steve Jackson and R. Daniel Mauldin,
+Sets meeting isometric copies of the lattice $\mathbb Z^2$ in exactly one point,
+Proc. Natl. Acad. Sci. USA 99 (2002), no. 25, 15883-15887. The erdosproblems.com
+curator, T. F. Bloom, marked the problem proved and credits the result to this
+work.
 
-The site's label carried a Lean qualification:
+The erdosproblems.com label carried a Lean qualification:
 [the formal-conjectures entry for the problem](https://github.com/google-deepmind/formal-conjectures/blob/11a72f9b4ffeb8a92af67ea9fd22d7a880850db1/FormalConjectures/ErdosProblems/215.lean)
 points to a Lean development in the lean-proofs repository that declares itself
 a formalization of Jackson and Mauldin's solution, with the systems Codex and

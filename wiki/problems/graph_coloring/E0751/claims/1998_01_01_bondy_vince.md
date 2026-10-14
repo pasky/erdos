@@ -53,18 +53,18 @@ whose lengths differ by at most two. So $\min(m_{i+1}-m_i)\le 2$ for every graph
 of chromatic number four, and large girth does not change this. The paper poses
 the minimum-degree form of the question, attributing it to Erdős and colleagues,
 and does not mention chromatic number; the reduction from chromatic number four
-to minimum degree three is the standard observation the site records, with the
-finite subgraph supplied as above. The page is dated by the paper's journal
-issue, January 1998; the day is not recorded.
+to minimum degree three is the standard observation erdosproblems.com records,
+with the finite subgraph supplied as above. The page is dated by the paper's
+journal issue, January 1998; the day is not recorded.
 
 **Acceptance.** Refereed: Bondy, J. A. and Vince, A., Cycles in a graph whose
 lengths differ by one or two, J. Graph Theory 27 (1998), no. 1, 11–15. Reviewed:
-the site's curator, Thomas Bloom, labeled the problem DISPROVED (LEAN) and
-credits the result to Bondy and Vince, independently of its authors.
+the erdosproblems.com curator, Thomas Bloom, labeled the problem DISPROVED
+(LEAN) and credits the result to Bondy and Vince, independently of its authors.
 
 A Lean 4 development by the SpringSense Innovation Institute was posted on the
-site's discussion thread on 2026-01-27 and is linked above at its commit. It
-describes itself as following Bondy and Vince's approach. It proves
+erdosproblems.com discussion thread on 2026-01-27 and is linked above at its
+commit. It describes itself as following Bondy and Vince's approach. It proves
 `erdos_751_strong`: every finite simple graph with chromatic number at least
 four has two cycles whose lengths differ by exactly one or two. Its vertex type
 is finite, so the Lean does not cover the infinite case, which the de

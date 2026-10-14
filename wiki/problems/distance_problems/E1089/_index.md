@@ -32,13 +32,14 @@ $$
 
 exist?
 
-**Status.** Labeled SOLVED on the site. The derived standing is solved and
-proved. This is more specific than the site's label, which names no polarity,
-because the accepted claim proves that the limit exists. The site gives, for
-$n\ge2$, the bounds $\binom{d+1}{n-1}+1\le g_d(n)\le\binom{d+n-1}{n-1}+1$. So
-the limit exists and equals $1/(n-1)!$, and the limit question is answered yes.
-The site credits the lower bound to the Aletheia agent of Feng et al. [Fe26] and
-the upper bound to Bannai, Bannai and Stanton [BBS83]. The accepted proof is
+**Status.** Labeled SOLVED on erdosproblems.com. The derived standing is solved
+and proved. This is more specific than the erdosproblems.com label, which names
+no polarity, because the accepted claim proves that the limit exists.
+erdosproblems.com gives, for $n\ge2$, the bounds
+$\binom{d+1}{n-1}+1\le g_d(n)\le\binom{d+n-1}{n-1}+1$. So the limit exists and
+equals $1/(n-1)!$, and the limit question is answered yes. erdosproblems.com
+credits the lower bound to the Aletheia agent of Feng et al. [Fe26] and the
+upper bound to Bannai, Bannai and Stanton [BBS83]. The accepted proof is
 recorded on
 [[problems/distance_problems/E1089/claims/2026_01_29_feng|its claim page]]. The
 exact value of $g_d(n)$ is not determined.
@@ -56,14 +57,14 @@ https://www.erdosproblems.com/1089.
   Proc. London Math. Soc. (3) 12 (1962), 400-424.
 - [BB81] Bannai, Eiichi and Bannai, Etsuko, An upper bound for the cardinality
   of an $s$-distance subset in real Euclidean space. Combinatorica 1 (1981),
-  no. 2, 99-102, as [Fe26] cites it. Not on the site's list; Remark 4.4 of
-  [Fe26] reports that its Remark 3(ii) already answers the problem.
+  no. 2, 99-102, as [Fe26] cites it. Not on the erdosproblems.com list; Remark
+  4.4 of [Fe26] reports that its Remark 3(ii) already answers the problem.
 - [Er75f] Erdős, Paul, On some problems of elementary and combinatorial
   geometry. Ann. Mat. Pura Appl. (4) 103 (1975), 99-108.
 - [Fe26] T. Feng et al, Semi-Autonomous Mathematics Discovery with Gemini: A
   Case Study on the Erdős Problems. arXiv:2601.22401 (2026).
 
-**Formalization.** The site points to the [Formal Conjectures statement
+**Formalization.** erdosproblems.com points to the [Formal Conjectures statement
 file](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/1089.lean),
 which declares the limit statement for $n\ge2$ and the two bounds with proof
 bodies marked `sorry`, annotates them as solved and points to the community Lean
@@ -71,11 +72,11 @@ proof linked on the claim page; this corpus has built neither.
 
 ## Current assessment
 
-The site's formulation (page last edited 2026-02-01, accessed 2026-10-07) asks
-for an estimate of $g_d(n)$ and whether $g_d(n)/d^{n-1}$ converges as
-$d\to\infty$ for fixed $n$. The question was raised by Kelly and posed by
-Erdős in [Er75f], who remarked that the lower bound $g_d(n)\gg d^{n-1}$ is
-easy and reported an unpublished upper bound of Erdős and Straus of the form
+The erdosproblems.com formulation (page last edited 2026-02-01, accessed
+2026-10-07) asks for an estimate of $g_d(n)$ and whether $g_d(n)/d^{n-1}$
+converges as $d\to\infty$ for fixed $n$. The question was raised by Kelly and
+posed by Erdős in [Er75f], who remarked that the lower bound $g_d(n)\gg d^{n-1}$
+is easy and reported an unpublished upper bound of Erdős and Straus of the form
 $c^{d^{1-b_n}}$ with constants $c>0$ and $b_n>0$. Both parts are settled to
 leading order for $n\ge2$: since $g_d(n)-1$ is the largest size of an
 $(n-1)$-distance set in $\mathbb{R}^d$, Theorem 1 of [BBS83] gives
@@ -89,8 +90,8 @@ corpus has not built. The paper itself reports, in its Remark 4.4, that the
 problem was already answered by Remark 3(ii) of [BB81], whose authors, the
 paper says, seem not to have connected their remark to Erdős's question; the
 1981 remark is prior art disclosed on the claim page and not a claim of its
-own, since it was not put forward as an answer to this problem and the site
-credits the lower bound to Aletheia.
+own, since it was not put forward as an answer to this problem and
+erdosproblems.com credits the lower bound to Aletheia.
 
 Small cases and relations. $g_1(3)=4$ trivially, $g_2(3)=6$, and Croft
 [Cr62] proved $g_3(3)=7$; the vertices of the $d$-cube show
@@ -102,8 +103,9 @@ $n=3$, the largest two-distance set, is
 is open; the exact value of $g_d(n)$ is open for every $n\ge3$ beyond small
 cases, the two bounds differing in their lower-order terms.
 
-Search scope. The site's problem page listed no proof claim, and on 2026-10-07
-it listed no comment. No other proof claim about this problem was found.
+Search scope. The erdosproblems.com problem page listed no proof claim, and on
+2026-10-07 it listed no comment. No other proof claim about this problem was
+found.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

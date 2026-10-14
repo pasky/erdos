@@ -51,4 +51,4 @@ None within the paper.
 
 ## Bears on
 
-No problem in the catalog is recorded here as concerning this theorem.
+No problem in Bloom's catalog is recorded here as concerning this theorem.

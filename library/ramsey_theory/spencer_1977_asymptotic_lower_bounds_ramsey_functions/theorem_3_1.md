@@ -3,8 +3,8 @@ name: ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theore
 title: "Theorem 3.1: r(C_4,K_t) ≥ c(t/ln t)^{3/2}, the four-cycle-versus-clique lower bound"
 desc: |
   The lower bound r(C_4,K_t) ≥ c(t/ln t)^{3/2}, the lower bound of Problem 159
-  as the site states it, proved by a sketch from the local lemma with a random
-  coloring of edge probability c_1 n^{−2/3}.
+  as erdosproblems.com states it, proved by a sketch from the local lemma with a
+  random coloring of edge probability c_1 n^{−2/3}.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -29,9 +29,9 @@ is $r(C_4,K_n)<c(n\log\log n/\log n)^2$. The theorem is the case $k=4$ of
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_3_3|Theorems 3.2 and 3.3]],
 since $(k-1)/(k-2)=3/2$ at $k=4$.
 
-**In the notation of Problem 159.** The site's $R(C_4,K_n)$ is the paper's
-$r(C_4,K_n)$, so the theorem is $R(C_4,K_n)\gg n^{3/2}/(\log n)^{3/2}$, the
-site's lower bound, and the lower half of the bracket
+**In the notation of Problem 159.** erdosproblems.com's $R(C_4,K_n)$ is the
+paper's $r(C_4,K_n)$, so the theorem is $R(C_4,K_n)\gg n^{3/2}/(\log n)^{3/2}$,
+erdosproblems.com's lower bound, and the lower half of the bracket
 $c_1(n/\log n)^{3/2}<R(C_4,K_n)\le(1+o(1))(n/\log n)^2$ the problem page
 records. It saves no power of $n$ from the exponent $2$ and does not bear on
 the problem's question.
@@ -67,10 +67,10 @@ Within the paper: Theorem 1.3 (p. 71) through the reduction (1) of Theorem
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]: the site's lower bound
-  $R(C_4,K_n)\gg n^{3/2}/(\log n)^{3/2}$, "due to Spencer [Sp77]", stated
-  directly for $C_4$, and also the case $k=4$ of Theorem 3.3, which the 1978
-  paper quotes. Bohman and Keevash's
+- [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]:
+  erdosproblems.com's lower bound $R(C_4,K_n)\gg n^{3/2}/(\log n)^{3/2}$, "due
+  to Spencer [Sp77]", stated directly for $C_4$, and also the case $k=4$ of
+  Theorem 3.3, which the 1978 paper quotes. Bohman and Keevash's
   [[ramsey_theory/bohman_2010_early_evolution_free_process/theorem_1_3|Theorem 1.3]]
   prints the same order for the $C_4$-free process; inverting their Theorem
   1.9 at $\ell=4$ gives the larger $\Omega(t^{3/2}/\log t)$.

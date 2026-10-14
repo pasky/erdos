@@ -2,11 +2,11 @@
 name: problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson
 title: The two-forest counterexample
 desc: |
-  Answers the site's wording (every finite family), not the modified Statement
-  (every family other than a star with a matching), so it does not count toward
-  the problem's standing. Wigderson's note records the folklore example: the
-  two-edge star and the two-edge matching have joint extremal number 1, while
-  each alone has a linear extremal number.
+  Answers the erdosproblems.com wording (every finite family), not the modified
+  Statement (every family other than a star with a matching), so it does not
+  count toward the problem's standing. Wigderson's note records the folklore
+  example: the two-edge star and the two-edge matching have joint extremal
+  number 1, while each alone has a linear extremal number.
 authors:
 - Yuval Wigderson
 status: rejected
@@ -55,19 +55,20 @@ the note and calls the family folklore
 
 **Why it is rejected.** It answers the printed wording, not the modified
 Statement. [[problems/extremal_graph_theory/E0180/_index|Problem 180]] judges
-the modified Statement, which follows the site's curator in excluding the
-families $\{H_1,H_2\}$ of a star and a matching with at least two edges each;
-the problem page's Notes give the evidence. This family is one of those
+the modified Statement, which follows the erdosproblems.com curator in excluding
+the families $\{H_1,H_2\}$ of a star and a matching with at least two edges
+each; the problem page's Notes give the evidence. This family is one of those
 excluded, so the counterexample settles no instance of the modified
 Statement. The problem page's Notes credit the result.
 
-**Acceptance.** No outside acceptance of this note is documented. The site's
-curator records the family in the problem's commentary as the folklore
-counterexample provided by Hunter, with $\mathrm{ex}(n;\mathcal F)\ll1$ and
-$\mathrm{ex}(n;H_i)\asymp n$ for both members (erdosproblems.com/180, commentary
-last edited 31 August 2026). But the curator credits the thread post rather than
-this note. The curator also writes that the conjecture may still hold for every
-other family, and attaches the DISPROVED (LEAN) label to the accepted
+**Acceptance.** No outside acceptance of this note is documented. The
+erdosproblems.com curator records the family in the problem's commentary as the
+folklore counterexample provided by Hunter, with $\mathrm{ex}(n;\mathcal F)\ll1$
+and $\mathrm{ex}(n;H_i)\asymp n$ for both members (erdosproblems.com/180,
+commentary last edited 31 August 2026). But the curator credits the thread post
+rather than this note. The curator also writes that the conjecture may still
+hold for every other family, and attaches the DISPROVED (LEAN) label to the
+accepted
 [[problems/extremal_graph_theory/E0180/claims/2026_08_01_openai|OpenAI disproof]]
 of the form that excludes forests. That credit does not treat the family as
 settling the problem, so `reviewed` is not listed. The note is unpublished, so

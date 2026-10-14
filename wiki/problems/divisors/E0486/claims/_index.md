@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 486, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T14:38:22Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/divisors/E0486/claims
@@ -18,7 +18,7 @@ elementary methods (1951).
 
 [[problems/divisors/E0486/claims/2026_07_16_wang|2026_07_16_wang]]: Shouqiao Wang's AI-assisted manuscript of July 2026 claims a fixed system of
 moduli and residue sets whose survivor set has no logarithmic density. It was
-posted to the site's proof-claims tab with a Lean development and is
-unreviewed.
+posted to the erdosproblems.com proof-claims tab with a Lean development and
+is unreviewed.
 
 ***

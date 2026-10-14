@@ -32,25 +32,25 @@ $$
 then $\lvert S\rvert=r$. Must there be at most two distinct residues amongst the
 $a_i$?
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 8 April
-2026). $p$ is a prime, as in the formal-conjectures statement (`Fact p.Prime`)
-and in every source; the site's author said in the thread (31 December 2025)
-that they believed, since the letter $p$ was used, that both original sources
-asked only about primes; the composite case is Gao, Hamidoune and Wang's
-extension, which the site's commentary credits separately. The $a_i$ form a
-sequence of length $p$ with repetition; the residue $0$ is not excluded by the
-site (if $0$ occurs, $\{i\}$ is a zero-sum set of size $1$), whereas Erdős and
-Szemerédi's statement of Graham's conjecture has "non-zero residues" (1976, p.
-123), as does the 1980 monograph (p. 95); Erdős's 1973 (p. 126) and 1980
-survey (p. 112) statements have "not necessarily distinct residues" without
-that restriction, the 1973 one also without "not all $\varepsilon_i=0$". The
-status-defining theorem admits $0$ and every modulus, so the site's wording is
-covered in full. Two distinct values do occur with a unique zero-sum length:
-$1^{p-1}x$ for any $x$, and $1^{p-2}(q+1)^2$ for $p=2q+1$
-(Gao--Hamidoune--Wang, p. 2).
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited 8
+April 2026). $p$ is a prime, as in the formal-conjectures statement
+(`Fact p.Prime`) and in every source; erdosproblems.com's author said in the
+thread (31 December 2025) that they believed, since the letter $p$ was used,
+that both original sources asked only about primes; the composite case is Gao,
+Hamidoune and Wang's extension, which the erdosproblems.com commentary credits
+separately. The $a_i$ form a sequence of length $p$ with repetition; the residue
+$0$ is not excluded by erdosproblems.com (if $0$ occurs, $\{i\}$ is a zero-sum
+set of size $1$), whereas Erdős and Szemerédi's statement of Graham's conjecture
+has "non-zero residues" (1976, p. 123), as does the 1980 monograph (p. 95);
+Erdős's 1973 (p. 126) and 1980 survey (p. 112) statements have "not necessarily
+distinct residues" without that restriction, the 1973 one also without "not all
+$\varepsilon_i=0$". The status-defining theorem admits $0$ and every modulus, so
+the erdosproblems.com wording is covered in full. Two distinct values do occur
+with a unique zero-sum length: $1^{p-1}x$ for any $x$, and $1^{p-2}(q+1)^2$ for
+$p=2q+1$ (Gao--Hamidoune--Wang, p. 2).
 
-**Status.** The site's label was PROVED (LEAN). The frontmatter standing derives
-from the claim pages. The pages
+**Status.** The erdosproblems.com label was PROVED (LEAN). The frontmatter
+standing derives from the claim pages. The pages
 [[problems/integer_sequences/E0541/claims/2009_02_27_gao_hamidoune_wang|Gao, Hamidoune and Wang 2009]]
 and
 [[problems/integer_sequences/E0541/claims/2009_03_18_grynkiewicz|Grynkiewicz 2009]]
@@ -63,15 +63,15 @@ corpus. Gao, Hamidoune and Wang's Theorem 1.1 (J. Number Theory 2010, refereed)
 states that a sequence of $n$ integers in $[0,n-1]$ taking at least three
 distinct values has two nonempty zero-sum subsequences modulo $n$ of distinct
 lengths. Read contrapositively with $n=p$ (an authored one-line deduction,
-below), it gives the site's statement for every prime, and indeed for every
-modulus. Erdős and Szemerédi proved the conjecture for all sufficiently large
-primes in 1976, for nonzero residues, by a longer argument. The site's (LEAN)
-suffix refers to the Lean proof described under Formalization and the Lean label
-below.
+below), it gives the erdosproblems.com statement for every prime, and indeed for
+every modulus. Erdős and Szemerédi proved the conjecture for all sufficiently
+large primes in 1976, for nonzero residues, by a longer argument.
+erdosproblems.com's (LEAN) suffix refers to the Lean proof described under
+Formalization and the Lean label below.
 
 **Source.** [erdosproblems.com/541](https://www.erdosproblems.com/541),
-accessed 2026-09-18: the problem page (PROVED (LEAN), the site's label for
-a positive answer whose proof has been verified in Lean; last edited 8
+accessed 2026-09-18: the problem page (PROVED (LEAN), the erdosproblems.com
+label for a positive answer whose proof has been verified in Lean; last edited 8
 April 2026; source keys [Er73, p. 126], [Er80, p. 112], [ErGr80, p. 95],
 with [ErSz76] and [GHW10] cited in the
 commentary), its five-comment discussion thread (31 December 2025 and 14
@@ -113,7 +113,7 @@ Problem #541, https://www.erdosproblems.com/541, accessed 2026-09-18.
   28 (1980); printed p. 95. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
-**Formalization.** The site's (LEAN) suffix is a catalog label; see
+**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label; see
 "Formalization and the Lean label" below. The file
 [`ErdosProblems/541.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/541.lean)
 of formal-conjectures (main on 2026-09-18) declares
@@ -133,7 +133,7 @@ records the acceptance.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED (LEAN), last edited 8 April 2026. The commentary attributes
 the question to Graham and credits the proof to Erdős and Szemerédi
 [ErSz76] for all sufficiently large $p$ and to Gao, Hamidoune and Wang
@@ -141,7 +141,7 @@ the question to Graham and credits the proof to Erdős and Szemerédi
 December 2025 by Boris Alexeev reporting a Lean proof produced with the
 prover Aristotle and with ChatGPT after many runs, connected to the
 formal-conjectures statement and type-checked by the poster (a 3,000-line file
-taking twenty minutes to check), with a link to the file; the site's
+taking twenty minutes to check), with a link to the file; the erdosproblems.com
 curator, Thomas Bloom, noting the same day that the proof covers the
 statement for all primes, so sits between [ErSz76] and [GHW10], and, after
 the reply that the prime reading was ChatGPT's, that both original sources
@@ -193,12 +193,12 @@ zero-sum subsequences have length $r$ and splits on $r\ge n/2$ (Lemma B: a
 zero-sum subsequence of length at most the maximal multiplicity) and $r<n/2$
 (Theorem D of Savchev--Chen and Yuan on long zero-sum free sequences); read
 for structure, not checked. Acceptance evidence: refereed publication in the
-Journal of Number Theory; the site's label and commentary; nineteen citing
-records in Semantic Scholar on 2026-09-18 (scanned by title: generalizations
-and structure results, none a dispute), among them a 2015 paper titled "A
-generalization of Graham's conjecture" and a 2025 preprint on the structure
-of sequences with zero-sum subsequences of the same length. Read depth:
-claims checked.
+Journal of Number Theory; the erdosproblems.com label and commentary; nineteen
+citing records in Semantic Scholar on 2026-09-18 (scanned by title:
+generalizations and structure results, none a dispute), among them a 2015 paper
+titled "A generalization of Graham's conjecture" and a 2025 preprint on the
+structure of sequences with zero-sum subsequences of the same length. Read
+depth: claims checked.
 
 **The large-prime theorem.** Erdős and Szemerédi's
 [[../library/integer_sequences/erdos_1976_problem_graham/theorem_1|Theorem 1]]
@@ -209,7 +209,7 @@ combination of the $a_i$; splitting $a_1,\ldots,a_p$ into two sets satisfying
 the hypothesis shows the zero-sum length cannot be unique when every
 residue has multiplicity below $\eta_0p$, and the remaining case (a residue
 of high multiplicity) occupies pp. 125--127. This proves the conjecture for
-nonzero residues and all sufficiently large primes, the site's first
+nonzero residues and all sufficiently large primes, erdosproblems.com's first
 attribution; the small primes and the residue $0$ are covered by Theorem
 1.1 above. Grynkiewicz's [Gr11] Theorem 3.4 (p. 5 of the preprint) proves
 the same statement for every finite abelian group of order
@@ -219,7 +219,7 @@ such sequences; the introduction (pp. 1--2) presents it as a short proof of
 the original conjecture using only the Cauchy--Davenport theorem and the
 pigeonhole principle for prime moduli. Its proof was not read.
 
-**Formalization and the Lean label.** The site's (LEAN) suffix is a
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.24.0/ErdosProblems/Erdos541.lean` in `plby/lean-proofs` on its
@@ -245,10 +245,10 @@ records the acceptance. The `v4.24.0` copy the attribute names was not
 built. The community database records `formal_status` Lean and no
 formal-proof URL.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 dispute of either theorem or a further result on the question.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database; the
   external Lean file and its index page through the GitHub API.
 - arXiv: the query `abs:Graham AND abs:"zero-sum" AND (abs:"distinct lengths" OR abs:"distinct length")`

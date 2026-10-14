@@ -271,8 +271,8 @@ not a review verdict, is recorded on the Theorem IV
 result page: the proof of Theorem IV opens its first case with the strict
 inequality $q<2^{1/4}$ where the theorem allows equality, and the argument
 applies unchanged at $q=2^{1/4}$. On notation, the paper's $p_1,p_2$ (the
-first and second Pisot numbers, $\approx1.325$ and $\approx1.380$) are the
-site's $q_0,q_1$ on the problem page. Nothing here is independently
+first and second Pisot numbers, $\approx1.325$ and $\approx1.380$) are
+erdosproblems.com's $q_0,q_1$ on the problem page. Nothing here is independently
 reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E1096/_index|#1096]]: Theorem IV (printed
@@ -288,10 +288,10 @@ covered, so the problem's $\epsilon$ may be any number at most
 $\sqrt{p_2}-1\approx0.175$, and every $q$ in $(\sqrt{p_2},2^{1/4}]$ as
 well. Of the two second-hand
 accounts the problem page recorded, Feng's ($1<q\le2^{1/4}$ with the
-possible exception of $\sqrt{p_2}$) is the printed statement, and the
-site's ($1<q<\sqrt{q_1}\approx1.175$) is its part below the excluded point.
-The proof (pp. 77--78) covers $q=\sqrt{p_1}\approx1.151$, where Feng's
-Theorem 1.4 is silent, by a separate case through $q^3$. The paper's
+possible exception of $\sqrt{p_2}$) is the printed statement, and
+erdosproblems.com's ($1<q<\sqrt{q_1}\approx1.175$) is its part below the
+excluded point. The proof (pp. 77--78) covers $q=\sqrt{p_1}\approx1.151$, where
+Feng's Theorem 1.4 is silent, by a separate case through $q^3$. The paper's
 [[number_theory/erdos_komornik_1998_developments_non_integer_bases/theorem_i|Theorem I]]
 (b) (p. 58), applied with $m=1$ at the base $q^2$ (at $q^3$ for
 $q=\sqrt{p_1}$), supplies the first hypothesis of Lemma 3.2 in that proof

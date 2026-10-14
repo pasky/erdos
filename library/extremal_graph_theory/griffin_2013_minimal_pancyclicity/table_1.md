@@ -35,8 +35,8 @@ chord number $k$ for $3\le n\le37$:
 | 13 | 3 | 16 | 25 | 5 | 30 | 37 | 5 | 42 |
 | 14 | 3 | 17 | 26 | 5 | 31 |  |  |  |
 
-In the notation of Erdős's 1971 list and of the site, $h(n)=m(n)-n=k$: it
-is $0$ for $n=3$, $1$ for $4\le n\le5$, $2$ for $6\le n\le8$, $3$ for
+In the notation of Erdős's 1971 list and of erdosproblems.com, $h(n)=m(n)-n=k$:
+it is $0$ for $n=3$, $1$ for $4\le n\le5$, $2$ for $6\le n\le8$, $3$ for
 $9\le n\le14$, $4$ for $15\le n\le24$ and $5$ for $25\le n\le37$.
 
 How the values were obtained (p. 2), in this page's words: a computer search

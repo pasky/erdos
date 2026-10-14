@@ -39,16 +39,16 @@ $$
 
 is false?
 
-**Status.** Open, the site's label (page last edited 17 April 2026). The
-standing in the frontmatter derives from the claim pages under the parts
+**Status.** Open, the erdosproblems.com label (page last edited 17 April 2026).
+The standing in the frontmatter derives from the claim pages under the parts
 `epsilon_version` and `stronger_version`. The second question has the pending
 partial claim on
 [[problems/arithmetic_functions/E0679/claims/2026_01_11_dottedcalculator|DottedCalculator's page]].
 The first has only the conditional result on
 [[problems/arithmetic_functions/E0679/claims/2026_04_16_lau|Lau's page]]. So the
-problem stays open. The site's remarks credit the forum user DottedCalculator
-with disproving the stronger version, which is the second question. They also
-record Lau's unconditional bound.
+problem stays open. The erdosproblems.com remarks credit the forum user
+DottedCalculator with disproving the stronger version, which is the second
+question. They also record Lau's unconditional bound.
 
 **Source.** [erdosproblems.com/679](https://www.erdosproblems.com/679), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #679,
@@ -67,25 +67,25 @@ this corpus has not built it, so it gives no formalized evidence.
 
 ## Current assessment
 
-**The questions (site formulation accessed 2026-09-04; page last edited 17
-April 2026).** The statement above, two questions about the integers $n$
-whose predecessors $n-k$ all have few distinct prime factors. The first asks
+**The questions (erdosproblems.com formulation accessed 2026-09-04; page last
+edited 17 April 2026).** The statement above, two questions about the integers
+$n$ whose predecessors $n-k$ all have few distinct prime factors. The first asks
 whether, for each $\epsilon>0$, infinitely many $n$ have
 $\omega(n-k)<(1+\epsilon)\log k/\log\log k$ for all $k<n$ large in terms of
 $\epsilon$; the second asks whether the version with $\log k/\log\log k+O(1)$
-in place of the factor $1+\epsilon$ is false. The site's label was OPEN. The
-remarks add that the analogous questions can be asked for $\Omega$, with
-$\log k/\log 2$ in place of $\log k/\log\log k$.
+in place of the factor $1+\epsilon$ is false. The erdosproblems.com label was
+OPEN. The remarks add that the analogous questions can be asked for $\Omega$,
+with $\log k/\log 2$ in place of $\log k/\log\log k$.
 
 **The second question.** Answered yes, that is, the stronger version is
 false, by the primorial argument on
 [[problems/arithmetic_functions/E0679/claims/2026_01_11_dottedcalculator|DottedCalculator's claim page]]:
 for every constant $C$, every large $n$ has some $k<n$ with
-$\omega(n-k)\ge\log k/\log\log k+C$, and the site's remarks state the sharper
-form with $c\log k/(\log\log k)^2$ in place of $C$. The site credits the
-result in its remarks but labeled the problem OPEN, so the claim stays
-claimed; a Lean proof of it, assuming the prime number theorem's asymptotic
-for the $n$th prime, is linked on that page and is not built here.
+$\omega(n-k)\ge\log k/\log\log k+C$, and the erdosproblems.com remarks state the
+sharper form with $c\log k/(\log\log k)^2$ in place of $C$. erdosproblems.com
+credits the result in its remarks but labeled the problem OPEN, so the claim
+stays claimed; a Lean proof of it, assuming the prime number theorem's
+asymptotic for the $n$th prime, is linked on that page and is not built here.
 
 **The first question.** Open. Lau [La26], Theorem 1.3, proves that for some
 constant $C$ infinitely many $n$ have $\omega(n-k)\le\Omega(n-k)\le C\log k$
@@ -97,10 +97,10 @@ containing integers with many prime factors, the conditional claim on
 [[problems/arithmetic_functions/E0679/claims/2026_04_16_lau|Lau's claim page]].
 Neither result settles an instance of the question.
 
-**Search scope.** The site's problem page, its discussion thread (the posts
-of 11 and 12 January 2026) and the two arXiv versions of [La26]; the site's
-proof-claims tab lists no claim for the problem; no literature database
-searched.
+**Search scope.** The erdosproblems.com problem page, its discussion thread (the
+posts of 11 and 12 January 2026) and the two arXiv versions of [La26]; the
+erdosproblems.com proof-claims tab lists no claim for the problem; no literature
+database searched.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

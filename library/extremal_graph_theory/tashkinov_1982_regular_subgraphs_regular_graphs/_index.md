@@ -33,10 +33,10 @@ regular graphs), Dokl. Akad. Nauk SSSR **265** (1982), no. 1, 43--44 (in
 Russian; UDC 519.1; presented by Academician Yu. V. Prokhorov on 4 February
 1982, received 19 February 1982; MR 0671639 and Zbl 0512.05056 as the
 Math-Net.Ru record lists them). English translation: Soviet Math. Dokl. 26
-(1982), 37--38, the site's reference text for its key Ta82 and reference [4]
-of Alon, Friedland and Kalai's 1984 note; not compared. The author's address is
-the Novosibirsk branch of the Institute of Fine Mechanics and Computer
-Engineering, Academy of Sciences of the USSR.
+(1982), 37--38, the erdosproblems.com reference text for its key Ta82 and
+reference [4] of Alon, Friedland and Kalai's 1984 note; not compared. The
+author's address is the Novosibirsk branch of the Institute of Fine Mechanics
+and Computer Engineering, Academy of Sciences of the USSR.
 
 **Edition read.** The copy read for this card is
 Math-Net.Ru's scan of the two printed pages 43--44 (PDF pp. 1--2; p. 44 also
@@ -141,8 +141,8 @@ in Soviet Math. Dokl. was not compared.
 status-defining source. Theorem 1 (p. 43) answers the
 first question, every 4-regular graph has a 3-regular subgraph, and Theorem 2
 (p. 43) the second, for every $r\ge3$, stated as the solution of the problem
-Erdős posed in his 1981 Combinatorica paper; the site's key Ta82 is the
-English translation of this note.
+Erdős posed in his 1981 Combinatorica paper; the erdosproblems.com key Ta82 is
+the English translation of this note.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

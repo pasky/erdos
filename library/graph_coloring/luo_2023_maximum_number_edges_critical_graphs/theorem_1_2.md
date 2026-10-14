@@ -79,6 +79,6 @@ graphs, the paper's [11]; Reiman's bound, the paper's [9].
 
 - [[../wiki/problems/graph_coloring/E0917/_index|#917]]: an upper bound on
   $f_4(n)$ under the paper's proper-subgraph convention, which the problem page
-  transfers to the site's edge-critical function through its convention note.
-  At $k=4$ the problem asks only whether $f_4(n)\gg n^2$, a lower bound this
-  theorem does not address; it decides none of the problem's questions.
+  transfers to erdosproblems.com's edge-critical function through its convention
+  note. At $k=4$ the problem asks only whether $f_4(n)\gg n^2$, a lower bound
+  this theorem does not address; it decides none of the problem's questions.

@@ -70,7 +70,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/distance_problems/E0091/_index|Problem 91]]: the
-  question is the site's statement, that for sufficiently large $n$ there
-  are at least two non-similar $n$-point sets minimizing the number of
-  distinct distances; the site's "and probably many" is not in this
+  question is the erdosproblems.com statement, that for sufficiently large $n$
+  there are at least two non-similar $n$-point sets minimizing the number of
+  distinct distances; erdosproblems.com's "and probably many" is not in this
   paper's question.

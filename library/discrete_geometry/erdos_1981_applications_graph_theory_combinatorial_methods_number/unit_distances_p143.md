@@ -54,8 +54,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/distance_problems/E0090/_index|Problem 90]]: the
-  site asks whether $f_2(n)\le n^{1+O(1/\log\log n)}$, that is, whether the
-  reported lower bound gives the true order up to the constant, which is
-  what Erdős calls probably close to the truth. The paper's conjecture
-  $f_2(n)<n^{1+\epsilon}$ is weaker than the site's question.
+- [[../wiki/problems/distance_problems/E0090/_index|Problem 90]]:
+  erdosproblems.com asks whether $f_2(n)\le n^{1+O(1/\log\log n)}$, that is,
+  whether the reported lower bound gives the true order up to the constant,
+  which is what Erdős calls probably close to the truth. The paper's conjecture
+  $f_2(n)<n^{1+\epsilon}$ is weaker than the erdosproblems.com question.

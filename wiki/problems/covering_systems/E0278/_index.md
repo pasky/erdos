@@ -29,25 +29,25 @@ congruences $a_i\pmod{n_i}$?
 
 Is the minimum density achieved when all the $a_i$ are equal?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 20 January
-2026). The page lists the two questions as parts, the maximum covered density
-and equal residues. Simpson's accepted claim settles the second. Onishi's
-pending claim asserts a complete answer to the first: an exact characterization
-of the maximum for every finite set of moduli. The problem's standing is
-therefore claimed through that claim, without adopting it.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 20
+January 2026). The page lists the two questions as parts, the maximum covered
+density and equal residues. Simpson's accepted claim settles the second.
+Onishi's pending claim asserts a complete answer to the first: an exact
+characterization of the maximum for every finite set of moduli. The problem's
+standing is therefore claimed through that claim, without adopting it.
 
-The site's commentary records the second question as settled. Simpson's
-inclusion-exclusion lower bound for the covered density is attained when all the
-residues agree, so equal residues cover least. This is the accepted partial
-claim on
+The erdosproblems.com commentary records the second question as settled.
+Simpson's inclusion-exclusion lower bound for the covered density is attained
+when all the residues agree, so equal residues cover least. This is the accepted
+partial claim on
 [[problems/covering_systems/E0278/claims/1986_04_01_simpson|Simpson's claim page]].
 The same theorem, credited to Rogers, had appeared in Halberstam and Roth's
 *Sequences* in 1966. It is recorded as an accepted partial result on
 [[problems/covering_systems/E0278/claims/1966_01_01_rogers|Rogers' claim page]].
 
-The first question was open on the site. Three claims about it are recorded
-without adoption, two from the proof-claims tab and one from the discussion
-thread. The curator has ruled on none of the three.
+The first question was open on erdosproblems.com. Three claims about it are
+recorded without adoption, two from the proof-claims tab and one from the
+discussion thread. The curator has ruled on none of the three.
 
 [[problems/covering_systems/E0278/claims/2025_08_25_cambie|Cambie]] argues that
 no efficient general formula should be expected. The argument rests on exact
@@ -55,7 +55,7 @@ balanced-partition formulas for structured moduli, a hard knapsack order for
 distinct moduli, and NP-hardness of deciding zero uncovered density for lists
 with repeated moduli. It is an arXiv note, submitted as a proof claim on
 2026-08-17. The note credits its NP-hardness observation to GPT Pro Sol 5.6, the
-system that the site's claim names GPT pro 5.6 Sol.
+system that erdosproblems.com's claim names GPT pro 5.6 Sol.
 
 [[problems/covering_systems/E0278/claims/2026_09_10_onishi|Onishi]] claims an
 exact characterization of the maximum covered density as the largest clique

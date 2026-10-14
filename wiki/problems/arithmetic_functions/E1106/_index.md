@@ -31,10 +31,11 @@ $$
 
 Does $F(n)\to \infty$ with $n$? Is $F(n)>n$ for all sufficiently large $n$?
 
-**Status.** Open, the site's label (OPEN, page last edited 16 November 2025).
-The first question is answered yes (Schinzel, with the proof in [ErIv90];
-[ScWi87]; [On00]). The second question, whether $F(n)>n$ for all large $n$, is
-open. The page lists the two parts as `tends_to_infinity` and `exceeds_n`.
+**Status.** Open, the erdosproblems.com label (OPEN, page last edited 16
+November 2025). The first question is answered yes (Schinzel, with the proof in
+[ErIv90]; [ScWi87]; [On00]). The second question, whether $F(n)>n$ for all large
+$n$, is open. The page lists the two parts as `tends_to_infinity` and
+`exceeds_n`.
 
 **Source.** [erdosproblems.com/1106](https://www.erdosproblems.com/1106),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1106,
@@ -48,7 +49,7 @@ https://www.erdosproblems.com/1106.
   consecutive integers]]. Number Theory, Vol. I (Budapest, 1987), Colloq. Math.
   Soc. János Bolyai 51 (1990), 45-91.
 - [Ob1] P. Erdős, Oberwolfach Mathematical Problems, Volume 1, Mathematisches
-  Forschungsinstitut Oberwolfach; the site's source for the problem.
+  Forschungsinstitut Oberwolfach; the erdosproblems.com source for the problem.
 - [On00] [[../library/arithmetic_functions/ono_2000_distribution_partition_function_modulo_m/_index|Ono, Ken, Distribution of the partition function modulo $m$]]. Ann. of
   Math. (2) (2000), 293-307.
 - [ScWi87] Schinzel, A. and Wirsing, E., Multiplicative properties of the

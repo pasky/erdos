@@ -56,5 +56,5 @@ out).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0535/_index|Problem 535]]: the regime $k=[n^{1/t}]$,
-  far from the site's fixed-$r$ question; recorded as the paper's second
-  result.
+  far from erdosproblems.com's fixed-$r$ question; recorded as the paper's
+  second result.

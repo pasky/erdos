@@ -75,7 +75,8 @@ reserved.
 (p. 3) with d = 4 gives f_4(n) <= n^2/2 + 2c_1 n; if every point x of an
 n-point set in R^4 has at least f(n) points at one distance r(x), then n f(n)
 <= e_r(S), so f(n) <= n/2 + 2c_1, the bound the problem asks for. The paper
-does not mention the problem; the site credits the problem to this bound.
+does not mention the problem; erdosproblems.com credits the problem to this
+bound.
 
 **Results.**
 

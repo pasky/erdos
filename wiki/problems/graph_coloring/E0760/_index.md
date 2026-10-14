@@ -52,22 +52,24 @@ variants, is linked from the claim page; the corpus did not build it.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04; its wording "independent set" for
-a color class replaced "empty graph" on 2026-04-24, with no change of meaning)
-asks whether every graph with chromatic number $m$ has a subgraph $H$ with
-$\zeta(H)\gg m/\log m$. The answer is yes:
+The erdosproblems.com formulation (accessed 2026-09-04; its wording "independent
+set" for a color class replaced "empty graph" on 2026-04-24, with no change of
+meaning) asks whether every graph with chromatic number $m$ has a subgraph $H$
+with $\zeta(H)\gg m/\log m$. The answer is yes:
 [[problems/graph_coloring/E0760/claims/1997_08_01_alon_krivelevich_sudakov|Alon, Krivelevich and Sudakov 1997]],
 Theorem 1.1, gives $\zeta(H)\ge(1/4+o(1))\,m/\log_2 m$, refereed in J. Graph
-Theory and credited by the site's curator; the problem's standing derives from
-that accepted claim. The bound is tight up to the constant, by the complete
-graph; the constant is not determined and the question does not ask for it.
+Theory and credited by the erdosproblems.com curator; the problem's standing
+derives from that accepted claim. The bound is tight up to the constant, by the
+complete graph; the constant is not determined and the question does not ask for
+it.
 
-Search scope: the site's page and discussion thread, the community database
-(teorth/erdosproblems), the formal-conjectures statement file, the lean-proofs
-and erdos-lean catalogs, and Crossref; on 2026-10-07 none of them showed
-another claim on the problem. Del Vecchio's Lean proof of the theorem is
+Search scope: the erdosproblems.com page and discussion thread, the community
+database (teorth/erdosproblems), the formal-conjectures statement file, the
+lean-proofs and erdos-lean catalogs, and Crossref; on 2026-10-07 none of them
+showed another claim on the problem. Del Vecchio's Lean proof of the theorem is
 linked from the claim page in its original posting and two later variants; the
-corpus did not build them, and the site's Lean qualifier rests on them.
+corpus did not build them, and the erdosproblems.com Lean qualifier rests on
+them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

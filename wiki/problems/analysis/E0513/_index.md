@@ -28,27 +28,27 @@ $$
 \liminf_{r\to \infty} \frac{\max_n\lvert a_nr^n\rvert}{\max_{\lvert z\rvert=r}\lvert f(z)\rvert}?
 $$
 
-**Status.** Open, the site's label (page last edited 2 April 2026). The value
-asked for, the supremum $B$, is known to lie in an interval whose ends are
-recorded below.
+**Status.** Open, the erdosproblems.com label (page last edited 2 April 2026).
+The value asked for, the supremum $B$, is known to lie in an interval whose ends
+are recorded below.
 
 One accepted partial claim,
 [[problems/analysis/E0513/claims/1964_12_01_clunie_hayman|Clunie and Hayman
 1964]], proves $4/7<B\le2/\pi-c$ on its refereed publication. Three pending
 partial claims certify larger lower bounds by interval arithmetic.
 [[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
-lower bound]] is an arXiv paper of 12 February 2026, announced in the site's
-discussion thread and credited by the site's commentary. It raised the bound
-from $4/7$ to $0.58507$.
+lower bound]] is an arXiv paper of 12 February 2026, announced in the
+erdosproblems.com discussion thread and credited by the erdosproblems.com
+commentary. It raised the bound from $4/7$ to $0.58507$.
 [[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's certified
 parameter improvement]] is a note of 27 February 2026 produced with GPT-5.2
 Thinking, announced in the discussion thread and credited by the commentary. It
 holds the best lower bound.
 [[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower
-bound]] was filed on the site's proof-claims tab on 2 August 2026 with declared
-AI assistance. It certifies a bound slightly below the best one and re-verifies
-the best one. The site has adopted none of these claims as a solution, and the
-derived standing is open.
+bound]] was filed on the erdosproblems.com proof-claims tab on 2 August 2026
+with declared AI assistance. It certifies a bound slightly below the best one
+and re-verifies the best one. erdosproblems.com has adopted none of these claims
+as a solution, and the derived standing is open.
 
 **Source.** [erdosproblems.com/513](https://www.erdosproblems.com/513), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #513,
@@ -68,26 +68,25 @@ https://www.erdosproblems.com/513.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04; page last edited 2
+**The question (erdosproblems.com formulation of 2026-09-04; page last edited 2
 April 2026).** The statement above: with $\mu(r,f)=\max_n\lvert a_nr^n\rvert$
 the maximum term and $M(r,f)$ the maximum modulus of a transcendental entire
 $f$ on $\lvert z\rvert=r$, the question asks for the largest possible value
 of $\liminf_{r\to\infty}\mu(r,f)/M(r,f)$; write $B$ for the supremum of
-these values over all such $f$. The label was OPEN; the site cross-references
-[[problems/analysis/E0227/_index|Problem 227]]. The discussion thread
-holds six comments: two of December 2025 agreeing that the
-statement needs the word transcendental, which Clunie and Hayman assumed;
-Tang's announcement of 13 February 2026 of the paper [HeTa26]; Tao's of the
-same day of a page for the constant $B$ in Tao's repository of optimization
-constants; Sothanaphan's of 1 March 2026 announcing the computation recorded
-below; and the curator's of 2 April 2026 on citing the upper bound
-$2/\pi-c$.
+these values over all such $f$. The label was OPEN; erdosproblems.com
+cross-references [[problems/analysis/E0227/_index|Problem 227]]. The discussion
+thread holds six comments: two of December 2025 agreeing that the statement
+needs the word transcendental, which Clunie and Hayman assumed; Tang's
+announcement of 13 February 2026 of the paper [HeTa26]; Tao's of the same day of
+a page for the constant $B$ in Tao's repository of optimization constants;
+Sothanaphan's of 1 March 2026 announcing the computation recorded below; and the
+curator's of 2 April 2026 on citing the upper bound $2/\pi-c$.
 
-**Known results.** As the site's commentary records them: $1/2\le B\le1$ is
-elementary; Kövári observed, unpublished, that $B>1/2$; an argument of
-Clunie reported by Gray and Shah [GrSh63] gives $B\le2/\pi\approx0.63662$;
-Clunie and Hayman [ClHa64] proved $4/7<B\le2/\pi-c$ for an absolute $c>0$,
-with $4/7\approx0.57143$, the accepted partial claim
+**Known results.** As the erdosproblems.com commentary records them:
+$1/2\le B\le1$ is elementary; Kövári observed, unpublished, that $B>1/2$; an
+argument of Clunie reported by Gray and Shah [GrSh63] gives
+$B\le2/\pi\approx0.63662$; Clunie and Hayman [ClHa64] proved $4/7<B\le2/\pi-c$
+for an absolute $c>0$, with $4/7\approx0.57143$, the accepted partial claim
 [[problems/analysis/E0513/claims/1964_12_01_clunie_hayman|Clunie and Hayman
 1964]], the best refereed bounds on $B$; the Gray and Shah note has no claim
 page, because its bound $B\le2/\pi$ is Clunie's argument reported by the
@@ -110,7 +109,7 @@ thus $0.585078819653\le B\le2/\pi-c$, and the value of $B$ is open.
 
 **Pending claims.** He and Tang's paper, recorded above, is a dated arXiv
 manuscript announced in the discussion thread and not on the proof-claims
-tab; it is unrefereed, and the commentary's credit on a problem the site
+tab; it is unrefereed, and the commentary's credit on a problem Bloom's catalog
 labeled OPEN is not an acceptance, so it stays claimed on its page,
 [[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
 lower bound]]. Sothanaphan's note, recorded above, is a dated manuscript
@@ -123,7 +122,7 @@ certified by interval arithmetic, together with an independent
 re-verification of Sothanaphan's bound. It does not move the frontier and
 does not touch the upper bound; it is unreviewed and stays claimed.
 
-**Search scope.** The site's problem page and proof-claims tab
+**Search scope.** The erdosproblems.com problem page and proof-claims tab
 (2026-10-06), its discussion thread (2026-10-07), Sothanaphan's note, the
 description of Lystad's Zenodo record, and the library card of [HeTa26]. No
 refereed work beyond the references was found.

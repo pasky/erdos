@@ -3,8 +3,9 @@ name: extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/coro
 title: "Corollary 2 (p. 2): the clique chromatic number of an n-vertex graph is O(√(n/log n))"
 desc: |
   The vertex-count form of the Joret–Micek–Reed–Smid bound, derived from
-  Theorem 1 by stripping large neighborhoods; the theorem behind the site's
-  resolution of Problem 610 through the complement of the largest color class.
+  Theorem 1 by stripping large neighborhoods; the theorem behind
+  erdosproblems.com's resolution of Problem 610 through the complement of the
+  largest color class.
 created: 2026-09-19T07:35:00Z
 updated: 2026-10-07T19:30:53Z
 ---

@@ -35,8 +35,8 @@ series $\sum1/t^{n_k}$, not these three.
 
 ## Relation to problem 251
 
-The second series is exactly problem 251, which the site labeled open. Section
-3 of the paper (p. 99) returns to it as the case $q_n=2$ of the
+The second series is exactly problem 251, which Bloom's catalog labeled open.
+Section 3 of the paper (p. 99) returns to it as the case $q_n=2$ of the
 [[irrationality/erdos_1958_sur_certaines_series_valeur_irrationnelle_french/theorem_section_3|section 3 theorem]]
 that "m'échappe entièrement", and the 1988 survey repeats the expectation
 on

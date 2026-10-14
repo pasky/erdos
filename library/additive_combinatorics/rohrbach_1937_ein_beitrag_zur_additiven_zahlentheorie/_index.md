@@ -165,9 +165,9 @@ $k\le59$. Nothing here is independently reviewed.
   zweiter Ordnung mit $k$ Elementen darstellen lassen, so liefert die
   kleinste ganze Zahl $k$, für die $n_2(k)\ge n$ ist, zu gegebenem $n$ das
   gesuchte $k$" (p. 4). The system counts the zero: (6) begins with $0$ and has
-  $2x+y$ elements, so Rohrbach's $k$ is the site's $|A|$ and Kohonen's $k$
-  for Problem 791, and $n_2(k)$ is Kohonen's $n(k)$ (Mrose's $n_2(k)$
-  counts positive elements and is Kohonen's $n(k+1)$). Definition: a system
+  $2x+y$ elements, so Rohrbach's $k$ is erdosproblems.com's $|A|$ and Kohonen's
+  $k$ for Problem 791, and $n_2(k)$ is Kohonen's $n(k)$ (Mrose's $n_2(k)$ counts
+  positive elements and is Kohonen's $n(k+1)$). Definition: a system
   $a_1,\ldots,a_k$ is *symmetrisch* if $a_k-a_\kappa$ belongs to it with
   each $a_\kappa$. Satz 1 (p. 4, quoted): "Jedes symmetrische System
   $a_1,a_2,\ldots,a_k$, das eine Basis zweiter Ordnung für die Zahl $a_k$
@@ -316,11 +316,11 @@ images, and those of Satz 10 to Satz 12 read for structure. Nothing here
 is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0791/_index|#791]]: the paper
-defines the problem's function in the site's exact form, $g(n)$ being
+defines the problem's function in erdosproblems.com's exact form, $g(n)$ being
 "die kleinste ganze Zahl $k$, für die $n_2(k)\ge n$ ist," (printed p. 4,
-PDF p. 4; the count $k$ includes the zero, as the site's does), and
-supplies the classical bounds the site attributes to it. The upper bound
-$g(n)^2\le4n$ is Satz 3 (p. 5), "Die Anzahl der Elemente einer
+PDF p. 4; the count $k$ includes the zero, as erdosproblems.com's does), and
+supplies the classical bounds erdosproblems.com attributes to it. The upper
+bound $g(n)^2\le4n$ is Satz 3 (p. 5), "Die Anzahl der Elemente einer
 Minimalbasis zweiter Ordnung für eine natürliche Zahl $n>1$ ist kleiner
 als $2\sqrt n$", proved by the explicit basis (6) of Satz 2 with the
 parameters (7)--(8) and the range (9) $n=\frac{k^2}4+\frac32k-\gamma$; it
@@ -330,15 +330,15 @@ The lower bound $(2+c)n\le g(n)^2$ is the Folgerung to Satz 6 (p. 15),
 $n\le\frac{k^2}2$", that is $g(n)^2\ge2n$, sharpened by (47) (p. 18),
 "$n<0{,}4992k^2$ für genügend große $k$": since $g(n)\to\infty$, the
 minimal basis has $n<0.4992\,g(n)^2$ for large $n$, so
-$g(n)^2>(2.0032\ldots)n$, the site's $(2+c)n$ with $c=0.0032$ and the
+$g(n)^2>(2.0032\ldots)n$, erdosproblems.com's $(2+c)n$ with $c=0.0032$ and the
 "$g(n)>(1+\varepsilon)\sqrt{2n}$ for some $\varepsilon>0$" of Erdős 1973
 with $\varepsilon\approx0.0008$; Satz 7's $0.4654$ (p. 18) holds only for
 bases whose elements are at most $[\frac{n+1}2]$ and is not the
 unconditional constant. The "in particular" question is the paper's
 conjecture (p. 9), "Es ist zu vermuten, daß $n_2(k)=\frac{k^2}4+O(k)$
 ist", which is $g(n)=2\sqrt n+O(1)$; Erdős 1973 reports it as
-"$g(n)=2\sqrt n+o(1)$" and the site as $g(n)\sim2n^{1/2}$, and all three
-forms are refuted by
+"$g(n)=2\sqrt n+o(1)$" and erdosproblems.com as $g(n)\sim2n^{1/2}$, and all
+three forms are refuted by
 [[additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|Mrose's equation (3)]],
 $n_2(k)\ge\frac87(\frac k2)^2+O(k)$. Satz 9 (p. 25) at $h=2$,
 $\frac{k^2}4<n_2(k)<\frac{k^2+k}2$, is weaker on both sides than (9) and,

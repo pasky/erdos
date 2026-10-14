@@ -58,7 +58,7 @@ most $X$; $F(A,X,2)=A(X)$.
 holds then $\liminf F(A,X,2)/X^{1/2}=0$.
 [[../library/integer_sequences/erdos_1980_megjegyzesek_az_american_mathematical_monthly_egy/theorem_ii|Theorem II]]
 (printed p. 121): $\liminf_{X\to\infty}F(A,X,2)/X^{1/2}\le1$ for every $A$.
-The example $A=\mathbb N$ is the site's, not the paper's:
+The example $A=\mathbb N$ is erdosproblems.com's, not the paper's:
 $A(x)=\lfloor(\sqrt{4x+1}-1)/2\rfloor$, so $A(x)/x^{1/2}\to1$ (an elementary
 check made in this corpus). Theorem I's proof (pp. 122--123) splits the terms
 into the
@@ -75,8 +75,8 @@ constant factor for every $\alpha<1$, and the argument as printed does not
 give $\liminf\le1$. The theorem is true: the problem page records an
 authored averaging proof, a note of this corpus and not acceptance evidence.
 
-**What the paper does not settle.** The site's commentary says the constant
-$c$ is optimal, attributing this to [ErSz80]; the paper exhibits no
+**What the paper does not settle.** The erdosproblems.com commentary says the
+constant $c$ is optimal, attributing this to [ErSz80]; the paper exhibits no
 sequence attaining it, and Theorem I says only that equality
 would force the liminf to zero. This point is outside the problem's two
 questions and is left as recorded on the problem page. The paper's Theorem
@@ -85,11 +85,12 @@ problem.
 
 **Acceptance.** Reviewed: a thread comment of 26 October 2025 asked whether
 Theorem II holds for every $A$, since $A=\mathbb N$ would then settle the
-problem. Thomas Bloom, the site's curator, is independent of the authors. On 27
-December 2025 Bloom answered that, going by a machine translation of the
-Hungarian, it does, and then relabeled the problem SOLVED (page last edited the
-same day). The commentary credits [ErSz80] for both the liminf bound and the
-constant (site page and thread accessed 2026-09-05 and 2026-09-18).
+problem. Thomas Bloom, the erdosproblems.com curator, is independent of the
+authors. On 27 December 2025 Bloom answered that, going by a machine translation
+of the Hungarian, it does, and then relabeled the problem SOLVED (page last
+edited the same day). The commentary credits [ErSz80] for both the liminf bound
+and the constant (erdosproblems.com page and thread accessed 2026-09-05 and
+2026-09-18).
 
 The commentary also credits two later proofs of the first answer. Tao's thread
 comment of 26 October 2025
@@ -128,9 +129,9 @@ some sequence attains $c$; every normalized liminf is at most $1$; and $1$ is
 attained by the positive integers. The first, fourth and fifth answer the
 problem's two questions; the third asserts what the paper does not state.
 The file contains no `sorry` and no `axiom`; nothing was built,
-replayed or audited in this corpus, no statement-fidelity review exists, the
-site did not label the problem Lean, and the file gives no `formalized`
-evidence.
+replayed or audited in this corpus, no statement-fidelity review exists,
+erdosproblems.com did not label the problem Lean, and the file gives no
+`formalized` evidence.
 
 **Depends on.** No page of this wiki. The proofs are self-contained in the
 paper.

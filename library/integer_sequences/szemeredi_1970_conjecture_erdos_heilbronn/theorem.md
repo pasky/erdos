@@ -69,7 +69,7 @@ None outside the paper.
 
 - [[../wiki/problems/integer_sequences/E0540/_index|Problem 540]]: the statement for
   $G=\mathbb Z/N\mathbb Z$ is the problem's question with an unspecified
-  constant; the site's "proved ... for all $N$ by Szemerédi [Sz70] (in fact
-  for arbitrary finite abelian groups)". The paper leaves the constant
+  constant; erdosproblems.com's "proved ... for all $N$ by Szemerédi [Sz70] (in
+  fact for arbitrary finite abelian groups)". The paper leaves the constant
   ($2$, or $\sqrt2$ as Erdős later speculated) and the non-abelian case
   open.

@@ -37,14 +37,14 @@ well-distributed, if $p_n$ is the sequence of primes?
 [APSSV26] showed that $\{\alpha p_n\}$ is not well-distributed for every real
 $\alpha$. This is the accepted claim
 [[problems/discrepancy/E0997/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev, Putterman, Sawhney, Sellke and Valiant 2026]],
-accepted on the site's label and Terence Tao's thread comment. No journal
-version of the preprint was found on 2026-10-07. The site's Lean qualification
-refers to a formalization that takes the Banks–Freiberg–Turnage-Butterbaugh
-theorem [BFT15] as an axiom. A later public development in Boris Alexeev's
-repository states an unconditional proof of the same statement. Neither is built
-or audited here, so the claim page lists no `formalized` evidence. Champagne,
-Lê, Liu and Wooley [CLLW24] had earlier found one irrational $\alpha$ with this
-property. This is the partial claim
+accepted on the erdosproblems.com label and Terence Tao's thread comment. No
+journal version of the preprint was found on 2026-10-07. The erdosproblems.com
+Lean qualification refers to a formalization that takes the
+Banks–Freiberg–Turnage-Butterbaugh theorem [BFT15] as an axiom. A later public
+development in Boris Alexeev's repository states an unconditional proof of the
+same statement. Neither is built or audited here, so the claim page lists no
+`formalized` evidence. Champagne, Lê, Liu and Wooley [CLLW24] had earlier found
+one irrational $\alpha$ with this property. This is the partial claim
 [[problems/discrepancy/E0997/claims/2024_06_27_champagne_le_liu_wooley|Champagne, Lê, Liu and Wooley 2024]].
 
 **Source.** [erdosproblems.com/997](https://www.erdosproblems.com/997), accessed
@@ -85,7 +85,7 @@ had never been able to reconstruct the proof, while holding the second as
 beyond doubt for every irrational $\alpha$. Champagne, Lê, Liu and Wooley
 [CLLW24] proved the existence statement in 2024, and Alexeev, Putterman,
 Sawhney, Sellke and Valiant [APSSV26] proved the conjecture for every real
-$\alpha$ in 2026; the site accepted the latter as the resolution.
+$\alpha$ in 2026; erdosproblems.com accepted the latter as the resolution.
 
 ## Known Results
 

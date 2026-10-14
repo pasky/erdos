@@ -22,7 +22,7 @@ so no absolute constants give εm log m edges.
 
 N. Alon, *Problems and results in extremal combinatorics---II*, Discrete
 Math. **308** (2008), no. 19, 4460--4472, doi:10.1016/j.disc.2007.08.090
-(Crossref record read on 2026-09-18; the site's reference text gives
+(Crossref record read on 2026-09-18; the erdosproblems.com reference text gives
 "Discrete Math. (2008), 4460-4472"). Dedicated to Miklós Simonovits for his
 sixtieth birthday; a sequel to *Problems and results in extremal
 combinatorics---I*, Discrete Math. 273 (2003), 31--53.
@@ -96,7 +96,7 @@ $D$-balanced $m$-vertex subgraphs have average degree
 $O(\sqrt{\log m}+\log D)$, hence $O(m\sqrt{\log m}+m\log D)$ edges, which
 refutes the problem's $\gg m\log m$ for every fixed large $m$ and for
 $m\to\infty$; the section's printed problem is the form of the question the
-site's statement follows.
+erdosproblems.com statement follows.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

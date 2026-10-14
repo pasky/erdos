@@ -56,9 +56,9 @@ progression-free sets, coloring each member by the first set containing it
 would give an $n$-coloring without a monochromatic progression; so $X$ is
 not such a union. The paper proves the theorem for every $k\ge3$ through its
 Hales--Jewett version (Theorem 1.7) by the partite construction method, and
-notes that $\mu>\tfrac{k-1}k$ is impossible; the site's commentary states
-the range $0<\mu<\tfrac12$, which lies inside the paper's. The digest is on
-the
+notes that $\mu>\tfrac{k-1}k$ is impossible; the erdosproblems.com commentary
+states the range $0<\mu<\tfrac12$, which lies inside the paper's. The digest is
+on the
 [[../library/additive_combinatorics/reiher_2024_colouring_versus_density_integers_hales_jewett_cubes/_index|source card]];
 the statement is recorded from the card's reading of the paper, which
 records the read depth.
@@ -70,14 +70,14 @@ Paper No. e12987, 24 pp., doi:10.1112/jlms.12987, published online 2024-10-10
 (Crossref record of 2026-10-07). The preprint arXiv:2311.08556 was posted on
 2023-11-14, the date of this page.
 
-Reviewed: the site's curator, Thomas Bloom, labeled the problem disproved and
-credits the negative answer to Reiher, Rödl and Sales [RRS24] (page last edited
-2026-01-27; the proof-claim tab was empty). The site's thread
-records how the label came about. A comment of 2026-01-19 reported a response of
-GPT 5.2 Pro that identified the paper as a negative solution. A second comment
-of the same day (Nat Sothanaphan) confirmed that Theorem 1.4 with $k=3$ gives
-the counterexample. A comment of 2026-02-16 noted the paper's range
-$\mu<\tfrac23$ and why no larger $\mu$ is possible.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the problem
+disproved and credits the negative answer to Reiher, Rödl and Sales [RRS24]
+(page last edited 2026-01-27; the proof-claim tab was empty). The
+erdosproblems.com thread records how the label came about. A comment of
+2026-01-19 reported a response of GPT 5.2 Pro that identified the paper as a
+negative solution. A second comment of the same day (Nat Sothanaphan) confirmed
+that Theorem 1.4 with $k=3$ gives the counterexample. A comment of 2026-02-16
+noted the paper's range $\mu<\tfrac23$ and why no larger $\mu$ is possible.
 
 **Formalization.** Not counted as evidence: Boris Alexeev's lean-proofs
 repository added on 2026-08-16 a Lean 4 development for the problem (the file's

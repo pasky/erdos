@@ -69,8 +69,8 @@ $C_5$, where the function is constant or linear.
 Priority: the seven-cycle argument is the project's own in authorship, not in
 priority. Asad Shahab's independent proof claim, a proof of the $C_7$ case with
 a Lean development whose headline theorem covers every odd cycle $C_{2k+1}$ with
-$k\ge3$, was filed on the site's proof-claims tab first, as proof claim 358,
-before the project's 367 on the same day, 27 September 2026 (preprint
+$k\ge3$, was filed on the erdosproblems.com proof-claims tab first, as proof
+claim 358, before the project's 367 on the same day, 27 September 2026 (preprint
 arXiv:2609.38286, 29 September 2026), as
 [[problems/ramsey_theory/E0809/_index|the problem page]] records with its dated
 check of 2026-10-05; this corpus built that development at its pinned commit and

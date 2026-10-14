@@ -61,9 +61,9 @@ Albertson and Berman's 1976 paper on the acyclic chromatic number.
 **Acceptance.** Published in Random Structures & Algorithms 2 (1991), no. 3,
 277–288 (`refereed`). The paper prints its receipt date, 1990-04-04. The record
 dates the issue to September 1991 without a day, so the page is dated to the
-first day of that month. The site's curator, Thomas Bloom, listed Problem 797 as
-proved and credits the resolution to Alon, McDiarmid and Reed [AMR91]
-(`reviewed`). The source card is
+first day of that month. The erdosproblems.com curator, Thomas Bloom, listed
+Problem 797 as proved and credits the resolution to Alon, McDiarmid and Reed
+[AMR91] (`reviewed`). The source card is
 [[../library/graph_coloring/alon_1991_acyclic_coloring_graphs/_index|Alon, McDiarmid and Reed 1991]].
 
 **Formalization.** The Lean file among the links, in Boris Alexeev's repository

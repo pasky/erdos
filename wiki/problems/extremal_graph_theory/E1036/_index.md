@@ -26,21 +26,22 @@ trivial (empty or complete) graph on more than $c\log n$ vertices. Must $G$
 contain at least $2^{\Omega_c(n)}$ many induced subgraphs which are not pairwise
 isomorphic?
 
-**Status.** Proved. The site credits Shelah [Sh98], whose Theorem 1.3 proves the
-conjecture of Erdős and Rényi in the question's form (J. Combin. Theory Ser. A
-82 (1998), 179--185; refereed; arXiv:math/9707226). For every $c_1>0$ there is
-$c_2>0$ such that, for $n$ large, a graph on $n$ vertices with no complete or
-edgeless subgraph on $c_1\log n$ vertices has at least $2^{c_2n}$ induced
-subgraphs up to isomorphism. The claim page
+**Status.** Proved. erdosproblems.com credits Shelah [Sh98], whose Theorem 1.3
+proves the conjecture of Erdős and Rényi in the question's form (J. Combin.
+Theory Ser. A 82 (1998), 179--185; refereed; arXiv:math/9707226). For every
+$c_1>0$ there is $c_2>0$ such that, for $n$ large, a graph on $n$ vertices with
+no complete or edgeless subgraph on $c_1\log n$ vertices has at least $2^{c_2n}$
+induced subgraphs up to isomorphism. The claim page
 [[problems/extremal_graph_theory/E1036/claims/1997_07_15_shelah|Shelah]] records
-it as accepted on the refereed venue and on the site's acceptance after the
-forum comment of 13 September 2025. The site's Lean suffix is its catalog label
-for the external Lean development that declares itself a formalization of
-Shelah's theorem. That development is carried as a `formalization` link on the
-claim page and described under Formalization below. It was not built or audited
-here. The proof-claim tab is empty, and nothing is independently reviewed here.
+it as accepted on the refereed venue and on erdosproblems.com's acceptance after
+the forum comment of 13 September 2025. The erdosproblems.com Lean suffix is its
+catalog label for the external Lean development that declares itself a
+formalization of Shelah's theorem. That development is carried as a
+`formalization` link on the claim page and described under Formalization below.
+It was not built or audited here. The proof-claim tab is empty, and nothing is
+independently reviewed here.
 
-The site also records two further results. Alon and Hajnal's bound
+erdosproblems.com also records two further results. Alon and Hajnal's bound
 $\exp(n(\log n)^{-O(\log\log n)})$ [AlHa91] falls short of $2^{\Omega_c(n)}$ for
 every graph the question concerns, so it settles no case of it. The
 Erdős--Hajnal theorem [ErHa89b] answers the question yes for the graphs in which
@@ -61,7 +62,8 @@ https://www.erdosproblems.com/1036.
 - [Sh98] Shelah, Saharon, Erdős and Rényi conjecture. J. Combin. Theory Ser. A
   82 (1998), no. 2, 179--185.
 
-**Formalization.** The site's Lean suffix is a catalog label. The file
+**Formalization.** The erdosproblems.com Lean suffix is a catalog label. The
+file
 [`ErdosProblems/1036.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/1036.lean)
 of formal-conjectures at the pinned commit (4,172 bytes) declares `erdos_1036 :
 answer(True) ↔ ∀ c : ℝ, 0 < c → ∃ δ : ℝ, 0 < δ ∧ ∀ᶠ n : ℕ in atTop, ∀ G :
@@ -81,8 +83,8 @@ $c\log_2 n$, with a comment after `#print axioms` recording `propext`,
 [[problems/extremal_graph_theory/E1036/claims/1997_07_15_shelah|Shelah]]
 carries it as a `formalization` link and describes it. Nothing was built,
 audited or kernel-checked here, and no local credit is claimed. The
-community database records "proved (Lean)" and the site's indicator reads
-"Formalised statement? Yes".
+community database records "proved (Lean)" and the erdosproblems.com indicator
+reads "Formalised statement? Yes".
 
 ## Progress
 

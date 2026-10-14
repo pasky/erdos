@@ -78,5 +78,5 @@ or checked here.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0721/_index|Problem 721]]: the second challenge,
-  "prove that $W(3,k)<\exp(k^c)$ for some constant $c<1$"; the site: "The
-  first to show that $W(3,k)<\exp(k^c)$ for some $c<1$ was Schoen [Sc21]."
+  "prove that $W(3,k)<\exp(k^c)$ for some constant $c<1$"; erdosproblems.com:
+  "The first to show that $W(3,k)<\exp(k^c)$ for some $c<1$ was Schoen [Sc21]."

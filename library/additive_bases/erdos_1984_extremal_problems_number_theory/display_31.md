@@ -6,7 +6,7 @@ desc: |
   that it is not even known that r(K(m), C_4)/r(K(m), C_3) tends to zero,
   and Szemerédi's observation r(K(m), C_4) < cm^2/(log m)^2, which follows
   from the Ajtai–Komlós–Szemerédi independence lemma; with the bounds (29)
-  on r(K(3), K(m)) they are compared against; the site's source for
+  on r(K(3), K(m)) they are compared against; the erdosproblems.com source for
   Problem 159.
 created: 2026-10-08T14:30:02Z
 updated: 2026-10-08T14:30:02Z
@@ -93,11 +93,12 @@ recorded on the Problem 159 page.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]: the site's
-  [Er84d] source. Since $r(K(m),C_4)=R(C_4,K_m)$, (31) is the problem's
-  question, stated as "very likely" with no quantifier on $\varepsilon$
-  where the site asks for some constant $c>0$. (33) is the printed source of
-  the site's attribution of the $m^2/(\log m)^2$ upper bound to Szemerédi,
-  printed as an observation without proof. Filing observation, not a review
-  verdict: (31) with the lower bound in (29) would give (32) outright; the
-  comparison that only just fails is (33) against that lower bound.
+- [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]:
+  erdosproblems.com's [Er84d] source. Since $r(K(m),C_4)=R(C_4,K_m)$, (31) is
+  the problem's question, stated as "very likely" with no quantifier on
+  $\varepsilon$ where erdosproblems.com asks for some constant $c>0$. (33) is
+  the printed source of the erdosproblems.com attribution of the
+  $m^2/(\log m)^2$ upper bound to Szemerédi, printed as an observation without
+  proof. Filing observation, not a review verdict: (31) with the lower bound in
+  (29) would give (32) outright; the comparison that only just fails is (33)
+  against that lower bound.

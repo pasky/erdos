@@ -4,8 +4,8 @@ title: Kelley and Meka's quasipolynomial bound for three-term progressions
 desc: |
   Theorem 1.1 of Kelley and Meka (FOCS 2023) bounds the size of a
   progression-free subset of the first $N$ integers by $N/(\log N)^C$ for every
-  fixed $C$. It is accepted on the site's credit and on Bloom and Sisask's
-  refereed exposition.
+  fixed $C$. It is accepted on the erdosproblems.com credit and on Bloom and
+  Sisask's refereed exposition.
 authors:
 - Zander Kelley
 - Raghu Meka
@@ -44,8 +44,8 @@ with no nontrivial three-term arithmetic progression has density at most
 $2^{-\Omega((\log N)^\beta)}$, that is, $r_3(N)\le N\,2^{-c(\log N)^\beta}$
 for some $c>0$ and all large $N$. Since $(\log N)^\beta/\log\log N\to\infty$,
 the factor $2^{-c(\log N)^\beta}$ is eventually below $(\log N)^{-C}$ for
-every fixed $C$, which is the site's question. The quantitative form is
-Theorem 1.2 (density at least $2^{-d}$ forces $2^{-O(d^{12})}N^2$ solutions
+every fixed $C$, which is the erdosproblems.com question. The quantitative form
+is Theorem 1.2 (density at least $2^{-d}$ forces $2^{-O(d^{12})}N^2$ solutions
 of $x+y=2z$, so $\beta$ can be taken as $1/12$); the result page
 [[../library/additive_combinatorics/kelley_2023_strong_bounds_3_progressions/theorem_1_1|Theorem 1.1]]
 records both statements (pp. 1--2 of arXiv v6). The
@@ -54,11 +54,11 @@ absolute $c>0$, gave a single power above one and not every power.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labeled the problem
-proved and credits the proof to Kelley and Meka, citing [KeMe23] (page last
-edited 20 December 2025). The page's proof-claim tab was empty, and its
-discussion thread was empty on 2026-10-07. In addition, Bloom and Sisask, two
-named experts on the problem, re-derived the full argument in their refereed
+**Acceptance.** Reviewed: the erdosproblems.com curator (T. F. Bloom) labeled
+the problem proved and credits the proof to Kelley and Meka, citing [KeMe23]
+(page last edited 20 December 2025). The page's proof-claim tab was empty, and
+its discussion thread was empty on 2026-10-07. In addition, Bloom and Sisask,
+two named experts on the problem, re-derived the full argument in their refereed
 exposition *The Kelley--Meka bounds for sets free of three-term arithmetic
 progressions*, Essential Number Theory 2 (2023), 15--44,
 doi:10.2140/ent.2023.2.15. They then sharpened the exponent to $1/9$ in

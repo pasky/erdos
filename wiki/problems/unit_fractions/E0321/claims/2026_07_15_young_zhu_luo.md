@@ -55,14 +55,14 @@ proof of the refereed
 of Bettin, Grenié, Molteni and Sanna, which has distinct subset reciprocal
 sums and the stated size. The claim determines the order of magnitude of
 $R(N)$, the question of [[problems/unit_fractions/E0321/_index|Problem 321]],
-and no asymptotic formula, as its notes say; the site reads the order of
-magnitude as the resolution, and this page follows that reading. It answers
+and no asymptotic formula, as its notes say; erdosproblems.com reads the order
+of magnitude as the resolution, and this page follows that reading. It answers
 the monograph's rider question, whether $\log S(N)/R(N)\to\infty$, in the
 negative.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by RayYoung,
 Keheng Zhu, Yanping Luo (account RayYoung) on 15 July 2026, giving "GPT 5.6 Sol
-Pro" as the AI used, which the site marks as accepted as correct:
+Pro" as the AI used, which Bloom's catalog marks as accepted as correct:
 
 > We prove that the largest reciprocal-dissociated subset of $\{1,\ldots,N\}$
 > has order\[\frac{N}{\log N}\prod_{j=3}^{\kappa(N)}\log_jN.\]The upper bound
@@ -82,8 +82,8 @@ the refereed bounds determine $R(N)$ only up to an unbounded factor $\log_rN$.
 [[problems/unit_fractions/E0321/claims/2025_09_12_bettin_grenie_molteni_sanna|The dissociated set of Bettin, Grenié, Molteni and Sanna]]
 supplies the lower half.
 
-**Provenance.** The claim was submitted to the site's proof-claim tab on
-15 July 2026 by the account RayYoung for RayYoung, Keheng Zhu and Yanping
+**Provenance.** The claim was submitted to the erdosproblems.com proof-claim tab
+on 15 July 2026 by the account RayYoung for RayYoung, Keheng Zhu and Yanping
 Luo, hours after the same authors' claim on Problem 320; its notes say that
 the manuscript submitted for Problem 320 also contains a proposed
 order-of-magnitude resolution of this problem without an exact asymptotic,
@@ -97,14 +97,14 @@ and that $2^{|\mathcal U(N)|}$ is at most the number of subset sums
 about the order of $R(N)$, and it has not been built by this corpus, so it is
 a link and no `formalized` evidence.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked the claim on the tab as
-accepted by the site as correct. On 16 July 2026 the curator marked the problem
-resolved, with a thread comment saying that the order of magnitude of $R(N)$ is
-now known and that finer questions such as an asymptotic remain open. The
-problem page's commentary attributes the upper bound to the AI system prompted
-by the claimants and points to Problem 320. The curator is independent of the
-claimants, and that acceptance is the `reviewed` evidence. No refereed
-publication and no independent review were found on 2026-09-18. The claim had
-one comment, the curator's comment of 16 July 2026. It says that the proof is
-correct, that the lower bound is from the earlier work the claim cites, and that
-the upper bound follows at once from the resolution of Problem 320.
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, marked the claim on
+the tab as accepted by erdosproblems.com as correct. On 16 July 2026 the curator
+marked the problem resolved, with a thread comment saying that the order of
+magnitude of $R(N)$ is now known and that finer questions such as an asymptotic
+remain open. The problem page's commentary attributes the upper bound to the AI
+system prompted by the claimants and points to Problem 320. The curator is
+independent of the claimants, and that acceptance is the `reviewed` evidence. No
+refereed publication and no independent review were found on 2026-09-18. The
+claim had one comment, the curator's comment of 16 July 2026. It says that the
+proof is correct, that the lower bound is from the earlier work the claim cites,
+and that the upper bound follows at once from the resolution of Problem 320.

@@ -81,8 +81,8 @@ the paper's appendix; not examined here.
 
 ## Bears on
 
-- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: the site's
-  $\sum_{p\le N}f(p)=N(\log N)^{2+o(1)}$ is the corollary's two bounds
-  combined; an average count does not give $f(p)>0$ for every $p$, and the
-  paper's own Remark 1.2 treats the Poisson heuristic drawn from it as a
+- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]:
+  erdosproblems.com's $\sum_{p\le N}f(p)=N(\log N)^{2+o(1)}$ is the corollary's
+  two bounds combined; an average count does not give $f(p)>0$ for every $p$,
+  and the paper's own Remark 1.2 treats the Poisson heuristic drawn from it as a
   heuristic only.

@@ -72,7 +72,7 @@ reserved.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0186/_index|#186]]: Theorem 1.6
 (p. 5, text layer), $|A|\le Cn^{\sqrt2-1}(\log n)^2$ for non-averaging
-$A\subseteq[n]$, the upper bound the site's commentary places between
+$A\subseteq[n]$, the upper bound the erdosproblems.com commentary places between
 Erdős--Sárközy's $(N\log N)^{1/2}$ and Pham--Zakharov's $N^{1/4+o(1)}$,
 which supersedes it; the paper's $h(n)$ is the problem's $F(N)$, and its
 introduction (p. 4) is the attestation on record of Straus's, Erdős--Straus's,
@@ -87,7 +87,7 @@ and paged on
 [[additive_combinatorics/bosznay_1989_lower_estimation_non_averaging_sets/theorem|theorem]].
 [[../wiki/problems/additive_combinatorics/E0789/_index|#789]]: the paper's subject,
 homogeneous progressions in subset sums, is the structure behind the
-site's cross-reference; it states no bound for that problem's $h(n)$
+erdosproblems.com cross-reference; it states no bound for that problem's $h(n)$
 (subsets whose subset sums determine the number of summands), which is a
 different function from the non-averaging $h(n)$ above.
 

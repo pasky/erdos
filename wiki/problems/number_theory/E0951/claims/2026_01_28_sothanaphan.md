@@ -67,9 +67,10 @@ proof.
 counterexample]], whose greedy extension step turns each finite set of
 generators into an infinite sequence with the separation property.
 
-**Standing.** Claimed. The site's commentary (page last edited 06 April
+**Standing.** Claimed. The erdosproblems.com commentary (page last edited 06
+April
 2026) credits the $x=10$ counterexample only and does not mention these
-notes; they are not refereed, not registered on the site's proof-claim tab
-and not reviewed by anyone named. No independent check of their numerical
-certificates is recorded; the three rational generators of 28 January 2026
-can be checked by exact enumeration of their products up to any bound.
+notes; they are not refereed, not registered on the erdosproblems.com
+proof-claim tab and not reviewed by anyone named. No independent check of their
+numerical certificates is recorded; the three rational generators of 28 January
+2026 can be checked by exact enumeration of their products up to any bound.

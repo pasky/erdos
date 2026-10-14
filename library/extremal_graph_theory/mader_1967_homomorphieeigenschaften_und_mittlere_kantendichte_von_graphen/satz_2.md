@@ -5,7 +5,7 @@ desc: |
   Mader's theorem that every finite graph with at least 2^(C(n-1,2)-1) (n-1)
   times its order in edges contains a subdivision of the complete graph on n
   vertices; the first edge bound for Problem 718's question, sharper than the
-  2^C(r,2) n form in which Erdős and the site quote it.
+  2^C(r,2) n form in which Erdős and erdosproblems.com quote it.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-07T15:58:30Z
 ---
@@ -35,8 +35,8 @@ $\ge$ here.
 **In the problem's notation.** With $n$ for the order and $r$ for the
 complete graph: every graph on $n$ vertices with at least
 $2^{\binom{r-1}2-1}(r-1)\,n$ edges contains a subdivision of $K_r$. Erdős's
-1981 paper and the site quote the bound as $2^{\binom r2}n$ edges. Since
-$\binom r2=\binom{r-1}2+(r-1)$, one has
+1981 paper and erdosproblems.com quote the bound as $2^{\binom r2}n$ edges.
+Since $\binom r2=\binom{r-1}2+(r-1)$, one has
 $2^{\binom r2}=2^{\binom{r-1}2-1}\cdot2^r$, and $r-1<2^r$ for every $r\ge1$,
 so $2^{\binom{r-1}2-1}(r-1)<2^{\binom r2}$: the quoted form follows from
 Satz 2, and the printed constant is the smaller one. This comparison is a
@@ -104,9 +104,10 @@ the paper's companion theorem and is not used here.
 - [[../wiki/problems/extremal_graph_theory/E0718/_index|Problem 718]]: the first edge
   bound for the problem's question, a function $f(r)$ with
   $f(r)=2^{\binom{r-1}2-1}(r-1)$ where the problem asks for $Cr^2$; the
-  bound Erdős's 1981 paper quotes as $K_{\mathrm{top}}(r)\subset\mathcal
-  G(n;2^{\binom r2}n)$ and the site as "$\ge2^{\binom r2}n$ edges suffices",
-  a weaker form that follows from it. The problem's affirmative answer is
+  bound Erdős's 1981 paper quotes as
+  $K_{\mathrm{top}}(r)\subset\mathcal G(n;2^{\binom r2}n)$ and erdosproblems.com
+  as "$\ge2^{\binom r2}n$ edges suffices", a weaker form that follows from it.
+  The problem's affirmative answer is
   [[extremal_graph_theory/bollobas_thomason_1998_proof_conjecture_mader_erdos_hajnal_topological_complete_subgraphs/theorem_4|Theorem 4 of Bollobás and Thomason]],
   whose introduction names this paper as the first source of such a
   function.

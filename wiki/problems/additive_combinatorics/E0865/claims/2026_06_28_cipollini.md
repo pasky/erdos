@@ -5,7 +5,7 @@ desc: |
   Theorem 1.1 of Cipollini's 2026 arXiv preprint, developed with GPT-5.5 Pro:
   every subset of $\{1,\ldots,N\}$ with at least $5N/8+C$ members, for a
   constant $C$, contains three members whose three pairwise sums lie in it. It
-  is accepted on the site's review.
+  is accepted on erdosproblems.com's review.
 authors:
 - Ricky Cipollini
 status: accepted
@@ -58,25 +58,26 @@ posed in 1972 and again in 1992; the cases $k\ge4$ remain open. The
 manuscript's first page declares that it was written by an AI model,
 GPT-5.5 Pro, from a proof developed by the author together with that
 model, and that the Lean formalization was carried out with the prover
-Aristotle; the site's commentary credits the solution to Cipollini and GPT
-Pro. The statement and the sharpness example are those of arXiv v1 of
+Aristotle; the erdosproblems.com commentary credits the solution to Cipollini
+and GPT Pro. The statement and the sharpness example are those of arXiv v1 of
 2026-06-28; the proof is not independently reviewed.
 
 **Depends on.** Nothing in this wiki: arXiv v1 is
 self-contained, an earlier version's input from the 1975 theorem of Choi,
 Erdős and Szemerédi having been replaced by the induction.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, accepted the
-solution on 2026-07-02. The curator labeled the problem proved and credited
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, accepted
+the solution on 2026-07-02. The curator labeled the problem proved and credited
 Cipollini and GPT Pro with [Ci26] in the commentary. The curator's acceptance
 alone carries the `reviewed` evidence.
 
-Stijn Cambie confirmed the paper on the site's thread on 2026-06-27. Cambie
-reported that they had read a previous version in detail, had noticed that its
-$O(1)$ could be improved to about $3$, and had checked the crucial points of the
-major revision briefly. The paper's acknowledgments thank Cambie for feedback
-and improvements. As an acknowledged contributor, Cambie is not independent of
-the author, so the confirmation is recorded and not counted as review.
+Stijn Cambie confirmed the paper on the erdosproblems.com thread on 2026-06-27.
+Cambie reported that they had read a previous version in detail, had noticed
+that its $O(1)$ could be improved to about $3$, and had checked the crucial
+points of the major revision briefly. The paper's acknowledgments thank Cambie
+for feedback and improvements. As an acknowledged contributor, Cambie is not
+independent of the author, so the confirmation is recorded and not counted as
+review.
 
 Not refereed: on 2026-09-18 the paper had no journal publication, no later arXiv
 version, no citing paper and no written review beyond the thread, by the routes
@@ -97,21 +98,20 @@ above and both described at the fixed commits the links
 above pin, prove the natural-number form
 $8\lvert A\rvert\le5N+53$ for every triple-free
 $A\subseteq\{1,\ldots,N\}$ and every $N$, from which the
-site's statement follows with any $C\ge7$: the author's own Lake project
-`mrricky22/erdos-865-lean` (the repository the paper's acknowledgments name;
-seven modules; no `sorry` and no `axiom`
-declaration; no printed axiom output, the project's own notes asserting the
-standard axioms only), and the single file `problems/865/Erdos865.lean` of
-`Jayyhk/erdos-lean`, which carries the same definitions and theorem names,
-credits the theorem in its docstring to Cipollini and GPT-5.5 Pro [Ci26],
-proves `erdos_865` in the shape above
-together with the sharpness example, and records `#print axioms` as
-`propext`, `Classical.choice` and `Quot.sound` in a closing comment. Neither
-states the formal-conjectures theorem, whose own body is `sorry`, and no
-bridging declaration or statement-fidelity review exists. The corpus holds
-no build of either development, so neither gives formalized evidence; the
-community database, read 2026-09-18, lists the problem as "proved (Lean)" as
-of its last update on 2026-07-02, which does not date the change of state.
-The problem's standing rests on the site's documented review of the
-preprint, and a refereed version or an independent whole-argument review is
-the condition for the qualification on the problem page to be lifted.
+erdosproblems.com statement follows with any $C\ge7$: the author's own Lake
+project `mrricky22/erdos-865-lean` (the repository the paper's acknowledgments
+name; seven modules; no `sorry` and no `axiom` declaration; no printed axiom
+output, the project's own notes asserting the standard axioms only), and the
+single file `problems/865/Erdos865.lean` of `Jayyhk/erdos-lean`, which carries
+the same definitions and theorem names, credits the theorem in its docstring to
+Cipollini and GPT-5.5 Pro [Ci26], proves `erdos_865` in the shape above together
+with the sharpness example, and records `#print axioms` as `propext`,
+`Classical.choice` and `Quot.sound` in a closing comment. Neither states the
+formal-conjectures theorem, whose own body is `sorry`, and no bridging
+declaration or statement-fidelity review exists. The corpus holds no build of
+either development, so neither gives formalized evidence; the community
+database, read 2026-09-18, lists the problem as "proved (Lean)" as of its last
+update on 2026-07-02, which does not date the change of state. The problem's
+standing rests on erdosproblems.com's documented review of the preprint, and a
+refereed version or an independent whole-argument review is the condition for
+the qualification on the problem page to be lifted.

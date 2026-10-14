@@ -5,7 +5,7 @@ desc: |
   McGehee, Pigno and Smith prove Littlewood's conjecture that the $L^1$ norm of
   a sum of $N$ distinct exponentials is at least a constant times $\log N$,
   through a Hardy-type inequality. Their refereed paper appeared in the Annals,
-  and the site credits it.
+  and erdosproblems.com credits it.
 authors:
 - O. Carruth McGehee
 - Louis Pigno
@@ -46,15 +46,16 @@ O. C. McGehee, L. Pigno and B. Smith, *Hardy's inequality and the $L^1$ norm
 of exponential sums*, Ann. of Math. (2) 113 (1981), no. 3, 613–618,
 announced in *Hardy's inequality and the Littlewood conjecture*, Bull. Amer.
 Math. Soc. (N.S.) 5 (1981), no. 1, 71–72. Neither paper is held by the
-library, and the statement is recorded at the level the site's problem page
-gives it; the method's name, a Hardy-type inequality and a dual
+library, and the statement is recorded at the level the erdosproblems.com
+problem page gives it; the method's name, a Hardy-type inequality and a dual
 construction, is taken from the titles and from the Lean file below.
 
 **Acceptance.** The Annals paper is a refereed journal publication, the
 `refereed` evidence. The publisher's record dates the issue to May 1981 and
-gives no day, so this page is dated to the first day of that month. The site's
-curator, Thomas Bloom, labeled the problem proved and credits the proof of
-Littlewood's conjecture independently to this paper and to Konyagin, whose
+gives no day, so this page is dated to the first day of that month. The
+erdosproblems.com curator, Thomas Bloom, labeled the problem proved and credits
+the proof of Littlewood's conjecture independently to this paper and to
+Konyagin, whose
 [[problems/analysis/E0512/claims/1981_01_01_konyagin|claim page]] records
 Konyagin's proof. That curator credit is the `reviewed` evidence.
 
@@ -78,7 +79,7 @@ Aristotle (Harmonic): the repository's README states that each proof file
 imports only Mathlib, lists this problem as complete and points to the
 `sources` field of its `data/problems.yaml` for original sources, and that
 entry for problem 512 lists an Aristotle request together with the one
-comment of the site's discussion thread,
+comment of the erdosproblems.com discussion thread,
 [JoshuaB's post of 22 June 2026](https://www.erdosproblems.com/forum/thread/512#post-7140),
 which reports that Aristotle used the paper of McGehee, Pigno and Smith to
 formalize the problem. The file prints the axioms of `erdos_512` and records

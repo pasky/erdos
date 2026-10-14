@@ -5,7 +5,7 @@ desc: |
   Shparlinski's Theorem 3 of 2002: for every $\varepsilon$, every large prime
   $p$ and every residue $c$, about $4\varepsilon^{-3}$ distinct integers up to
   $p^\varepsilon$ have inverses summing to $c$. It is the first answer, refereed
-  and credited by the site.
+  and credited by erdosproblems.com.
 authors:
 - Igor E. Shparlinski
 status: accepted
@@ -63,9 +63,9 @@ checked against its inputs.
 **Acceptance.** Refereed: Igor E. Shparlinski, *On a question of Erdős and
 Graham*, Arch. Math. (Basel) 78 (2002), no. 6, 445--448, received 30
 August 2000. The publisher's record dates the issue 1 June 2002, the date this
-page is named by. Reviewed: the site's curator, Thomas F. Bloom, labeled the
-problem proved. In the problem's commentary, the curator credits Shparlinski
-with answering the original question in the affirmative with
+page is named by. Reviewed: the erdosproblems.com curator, Thomas F. Bloom,
+labeled the problem proved. In the problem's commentary, the curator credits
+Shparlinski with answering the original question in the affirmative with
 $C_\epsilon\ll\epsilon^{-3}$. The curator neither wrote nor submitted the
 result. Croot's 2004 paper and Glibichuk's 2006 paper cite the theorem as the
 first answer. Nothing here is independently reviewed by this project.

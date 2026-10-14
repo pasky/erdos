@@ -28,23 +28,25 @@ least $\log n$ must contain an independent set of size at least $f(n)$.
 Estimate $f(n)$. In particular, is it true that $f((\log n)^2,n) \geq
 n^{1/2-o(1)}$? Is it true that $f((\log n)^3,n)\gg (\log n)^3$?
 
-**Formulation.** The catalog mixes $f(m,n)$ with an undefined one-variable
+**Formulation.** Bloom's catalog mixes $f(m,n)$ with an undefined one-variable
 $f(n)$. The interpretation of [AlSu07], which states both questions from [Er91]
 for the subgraph orders $(\log n)^2$ and $(\log n)^3$ within its general
 $f(n,s,t)$, uses $f(m,n)$ in both places: the largest independence number
-guaranteed for every graph satisfying the stated $m$-vertex local condition. The
-site labeled the problem DISPROVED for this formulation as written; the
-frontmatter standing derives from the claim page under the two-variable reading.
-Separately, the source results refute the two displayed lower-bound proposals
-under the two-variable reading; they do not resolve the general estimation
-problem.
+guaranteed for every graph satisfying the stated $m$-vertex local condition.
+Bloom's catalog labeled the problem DISPROVED for this formulation as written;
+the frontmatter standing derives from the claim page under the two-variable
+reading. Separately, the source results refute the two displayed lower-bound
+proposals under the two-variable reading; they do not resolve the general
+estimation problem.
 
-**Status.** Disproved. The site labeled the problem DISPROVED. Its commentary
-credits Alon and Sudakov with the two bounds that refute the displayed
-proposals. The frontmatter standing is derived from the accepted claim page
+**Status.** Disproved. Bloom's catalog labeled the problem DISPROVED. Its
+commentary credits Alon and Sudakov with the two bounds that refute the
+displayed proposals. The frontmatter standing is derived from the accepted claim
+page
 [[problems/extremal_graph_theory/E0804/claims/2007_06_27_alon_sudakov|Alon and Sudakov's bounds]],
-whose acceptance evidence is the refereed journal and the site's own commentary.
-The standing targets the two-variable reading stated in the Formulation.
+whose acceptance evidence is the refereed journal and erdosproblems.com's own
+commentary. The standing targets the two-variable reading stated in the
+Formulation.
 
 **Source.** [erdosproblems.com/804](https://www.erdosproblems.com/804), accessed
 2026-09-10. Cite as: T. F. Bloom, Erdős Problem #804,
@@ -55,19 +57,19 @@ https://www.erdosproblems.com/804.
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and
   applications, Vol. 1 (Kalamazoo, MI, 1988), Wiley, New York (1991),
-  397--406; the site's source key, where the site calls the problem a
-  question of Erdős and Hajnal; [AlSu07] cites it as its reference [3] for
-  both displayed questions and for Erdős's remark that they expected the
+  397--406; the erdosproblems.com source key, where erdosproblems.com calls the
+  problem a question of Erdős and Hajnal; [AlSu07] cites it as its reference [3]
+  for both displayed questions and for Erdős's remark that they expected the
   bound $n^{1/2-\epsilon}$.
 - [AlSu07] Alon, Noga and Sudakov, Benny, On graphs with subgraphs having large
   independence numbers. J. Graph Theory 56 (2007), no. 2, 149--157,
-  doi:10.1002/jgt.20264 (published online 9 August 2007; the site's reference
-  text gives "J. Graph Theory (2007), 149-157" with no volume); arXiv:0706.4099
-  (v1, 27 June 2007).
+  doi:10.1002/jgt.20264 (published online 9 August 2007; the erdosproblems.com
+  reference text gives "J. Graph Theory (2007), 149-157" with no volume);
+  arXiv:0706.4099 (v1, 27 June 2007).
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3a399b0c007be6005fdf4651e2e9da8fa8502500/FormalConjectures/ErdosProblems/804.lean),
-file `ErdosProblems/804.lean`, added on 2026-09-20. As of that commit it
+file `ErdosProblems/804.lean`, added on 2026-09-20. At that commit it
 defines $f(m,n)$ in the two-variable reading of the Formulation (the
 threshold $\log n$ rounded up), states the two displayed questions as
 `erdos_804.parts.i` and `erdos_804.parts.ii`, each answered `False`, and the
@@ -79,17 +81,17 @@ Sudakov; formal authors Codex and GPT-5.6 Sol), the `formalization` link on
 The community database (teorth/erdosproblems, `data/problems.yaml`) lists
 the problem disproved as of its entry's last update of 31 August 2025, which
 does not date any change of state, with a formalized statement since
-2026-09-20 and its formal status unformalized; the site's indicator reads
-"Formalised statement? Yes". The corpus has not built the Lean, so it gives
-no `formalized` evidence.
+2026-09-20 and its formal status unformalized; the erdosproblems.com indicator
+reads "Formalised statement? Yes". The corpus has not built the Lean, so it
+gives no `formalized` evidence.
 
 ## Current assessment
 
-The catalog formulation defines $f(m,n)$ but writes $f(n)$ in its guarantee and
-in the general estimation request. The site labeled the problem DISPROVED for
-this formulation as written. Under the two-variable reading of [AlSu07], the two
-displayed lower-bound proposals are false; the general estimation problem is not
-thereby resolved.
+The erdosproblems.com formulation defines $f(m,n)$ but writes $f(n)$ in its
+guarantee and in the general estimation request. Bloom's catalog labeled the
+problem DISPROVED for this formulation as written. Under the two-variable
+reading of [AlSu07], the two displayed lower-bound proposals are false; the
+general estimation problem is not thereby resolved.
 [[../library/extremal_graph_theory/alon_2007_graphs_subgraphs_having_large_independence_numbers/_index|Alon and Sudakov]]
 give the two negative answers in equations (1) and (2) of arXiv:0706.4099v1 (27
 June 2007), pp. 1–2. The same bounds appear on p. 150 of the [published

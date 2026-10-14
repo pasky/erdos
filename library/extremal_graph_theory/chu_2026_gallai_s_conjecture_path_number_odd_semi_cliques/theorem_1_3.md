@@ -37,7 +37,7 @@ of odd-degree vertices is even, so $n$ and $m$ have the same parity and
 the odd case of the theorem is the case $m\in\{1,3,\ldots,15\}$; and for
 $n$ even the bound $\lfloor n/2\rfloor+1=n/2+1$ exceeds the conjecture's
 $n/2$ by one, so the theorem proves the conjecture for this class only
-when $n$ is odd, as the site records.
+when $n$ is odd, as erdosproblems.com records.
 
 **Theorem 1.4** (printed p. 2, the result proved), the paper's general
 form, is stated on its own page,
@@ -86,6 +86,6 @@ of the paper (p. 2, proved p. 6), with the dependencies listed there.
   paths, which is the conjecture's $\lceil n/2\rceil$ when $n$ is odd, for
   every graph whose even-degree vertices induce a complete graph on at most
   $15$ vertices; for $n$ even it is one more than the conjecture's $n/2$.
-  This is the row that page's table records for the paper from the site's
-  account, read here at first hand. Lovász's row of the same table is the
-  case $m\le1$. A special class, not the general statement.
+  This is the row that page's table records for the paper from
+  erdosproblems.com's account, read here at first hand. Lovász's row of the same
+  table is the case $m\le1$. A special class, not the general statement.

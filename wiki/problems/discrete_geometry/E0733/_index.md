@@ -35,9 +35,9 @@ $$
 
 many line-compatible sequences.
 
-**Status.** Proved. The site credits Szemerédi and Trotter, whose Theorem 4
-bounds the number of line-compatible sequences by $2^{c\sqrt n}$. The accepted
-claim is
+**Status.** Proved. erdosproblems.com credits Szemerédi and Trotter, whose
+Theorem 4 bounds the number of line-compatible sequences by $2^{c\sqrt n}$. The
+accepted claim is
 [[problems/discrete_geometry/E0733/claims/1983_09_01_szemeredi_trotter|their 1983 theorem]].
 
 **Source.** [erdosproblems.com/733](https://www.erdosproblems.com/733), accessed

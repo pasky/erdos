@@ -1,10 +1,10 @@
 ---
 name: problems/number_theory/E0034/claims
-desc: The 2 claim pages of Problem 34, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 34, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # problems/number_theory/E0034/claims
@@ -20,5 +20,11 @@ of Problem 34.
 consecutive sums of odd length are pairwise distinct. So it has at least
 $n^2/4$ distinct consecutive sums, and $S(\pi)=o(n^2)$ fails, which refutes
 Problem 34.
+
+[[problems/number_theory/E0034/claims/2026_09_15_korsky|2026_09_15_korsky]]: Answers a variant (the commentary's question on the minimum
+$g(n)=\min_\pi S(\pi)$), not the Statement (whether every permutation has
+$S(\pi)=o(n^2)$), so it does not count toward the problem's standing. Samuel
+Korsky's proof claim, made with GPT Astra, claims $g(n)=O(n^{\log_635})$
+along an infinite sequence, against the expectation $g(n)\ge n^{2-o(1)}$.
 
 ***

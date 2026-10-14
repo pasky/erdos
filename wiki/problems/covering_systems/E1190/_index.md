@@ -46,39 +46,39 @@ two such congruences.
 
 Estimate $\epsilon_m$.
 
-**Notes.** The site's wording asks for a maximum where the extremal value
-its sources mean is a supremum, and the correction rests on the sources cited
-next: Erdős's 1980 survey, the site's commentary and the formal-conjectures
-statement. The change replaces "max" with "sup" and "maximum" with
-"supremum"; nothing else changes. The defect is already in the poser's text:
-Erdős's
+**Notes.** The erdosproblems.com wording asks for a maximum where the extremal
+value its sources mean is a supremum, and the correction rests on the sources
+cited next: Erdős's 1980 survey, the erdosproblems.com commentary and the
+formal-conjectures statement. The change replaces "max" with "sup" and "maximum"
+with "supremum"; nothing else changes. The defect is already in the poser's
+text: Erdős's
 [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|1980 survey]],
 printed p. 96, puts $\varepsilon_m=\max\sum1/n_i$ over all disjoint systems
 with $n_1>m$, right after recalling Mirsky and Newman's theorem that every
-such sum is less than $1$, and the site follows him. His own words about the
-question need a value at every $m$: he asks to determine or estimate
+such sum is less than $1$, and erdosproblems.com follows him. His own words
+about the question need a value at every $m$: he asks to determine or estimate
 $\varepsilon_m$ as well as possible and says that he could not decide
 whether $\varepsilon_m\to0$, and only the supremum, the extremal value his
-maximum names, gives one. The site's commentary treats $\epsilon_m$ the same
-way: it states the bounds
+maximum names, gives one. The erdosproblems.com commentary treats $\epsilon_m$
+the same way: it states the bounds
 $L(m)^{-1+o(1)}<\epsilon_m<L(m)^{-\sqrt3/2+o(1)}$ that [BFV13] imply and the
 estimate $\epsilon_m=L(m)^{-1+o(1)}$ under the label SOLVED (LEAN), which
 only the supremum fits, and the formal-conjectures statement, which counts
-with the site, defines $\epsilon_m$ as an `sSup`. The form rests on these
-sources alone; Ho's manuscript and both Lean developments, which settle the
-modified Statement, use the same supremum. Allowing the empty family, with
+with erdosproblems.com, defines $\epsilon_m$ as an `sSup`. The form rests on
+these sources alone; Ho's manuscript and both Lean developments, which settle
+the modified Statement, use the same supremum. Allowing the empty family, with
 sum zero, does not change the supremum.
 
-**Status.** Solved with a Lean qualification; the site's label was SOLVED
-(LEAN), and its page, accessed 2026-10-07, was last edited 28 May 2026. The site
-describes the supremum of the modified Statement and derives the estimate from
-the resolution of Problem 202. The modified Statement is solved at the sharp
-logarithmic scale by
+**Status.** Solved with a Lean qualification; the erdosproblems.com label was
+SOLVED (LEAN), and its page, accessed 2026-10-07, was last edited 28 May 2026.
+erdosproblems.com describes the supremum of the modified Statement and derives
+the estimate from the resolution of Problem 202. The modified Statement is
+solved at the sharp logarithmic scale by
 [[problems/covering_systems/E1190/claims/2026_04_23_ho|Ho's accepted claim page]].
 
 **Source.** [erdosproblems.com/1190](https://www.erdosproblems.com/1190)
-(the statement above is the site's wording as of 2026-09-05; page last
-edited 28 May 2026). Cite as: T. F. Bloom, Erdős Problem #1190,
+(the statement above is the erdosproblems.com wording as accessed 2026-09-05;
+page last edited 28 May 2026). Cite as: T. F. Bloom, Erdős Problem #1190,
 https://www.erdosproblems.com/1190. The Statement (modified) above
 replaces its maximum with a supremum.
 
@@ -152,10 +152,11 @@ The dated [Problem 202 discussion](https://www.erdosproblems.com/202#comments)
 records the 14 May implementations and Nat Sothanaphan's confirmation of both
 formalizations, including the Park–Pham input. The
 [community ledger](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems)
-records Ho's full solution and the 14 May formalization. The site's page,
-accessed 5 September 2026, labeled this problem SOLVED (LEAN) and recorded a
-last edit of 28 May. These dated records supplement the primary proof; the
-solved answer to the modified Statement does not rest on the site label alone.
+records Ho's full solution and the 14 May formalization. The erdosproblems.com
+page, accessed 5 September 2026, labeled this problem SOLVED (LEAN) and recorded
+a last edit of 28 May. These dated records supplement the primary proof; the
+solved answer to the modified Statement does not rest on the erdosproblems.com
+label alone.
 
 Two other contemporary notes posted in the
 [Problem 1190 discussion](https://www.erdosproblems.com/1190#comments)

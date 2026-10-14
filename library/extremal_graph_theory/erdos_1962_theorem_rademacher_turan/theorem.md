@@ -76,9 +76,9 @@ Turán's theorem (the paper's footnote 1). The paper's own Lemmas 1--3.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1010/_index|Problem 1010]]: the site's
-  question is the conjecture as printed, "for $t<[n/2]$"; the Theorem is
-  the linear-range case; the even-$n$ construction shows the range is
-  sharp, and the odd-$n$ remarks go beyond the site's range. The full
+- [[../wiki/problems/extremal_graph_theory/E1010/_index|Problem 1010]]: the
+  erdosproblems.com question is the conjecture as printed, "for $t<[n/2]$"; the
+  Theorem is the linear-range case; the even-$n$ construction shows the range is
+  sharp, and the odd-$n$ remarks go beyond erdosproblems.com's range. The full
   conjecture is proved in Lovász and Simonovits's 1983 chapter
   ([[extremal_graph_theory/lovasz_1983_number_complete_subgraphs_graph_ii/theorem_4|Theorem 4]]).

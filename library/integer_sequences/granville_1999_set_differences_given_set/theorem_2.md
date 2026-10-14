@@ -54,10 +54,10 @@ and Lev without a reference).
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0539/_index|Problem 539]]: in the site's notation
-  $m^{1/2}\le h(m)\lesssim(3/2)(2m)^{2/3}$, the two refereed bounds the
-  site's commentary credits to Erdős–Szemerédi and to Freiman–Lev, saying
-  that a proof of both can be found in this paper. The 2026 upper bound
-  $e^{O(\sqrt{\log m})}m^{1/2}$ attributed on the site to an automated
-  proof system replaces the exponent $2/3$ by $1/2+o(1)$ through sets in
-  growing dimension.
+- [[../wiki/problems/integer_sequences/E0539/_index|Problem 539]]: in the
+  erdosproblems.com notation $m^{1/2}\le h(m)\lesssim(3/2)(2m)^{2/3}$, the two
+  refereed bounds the erdosproblems.com commentary credits to Erdős–Szemerédi
+  and to Freiman–Lev, saying that a proof of both can be found in this paper.
+  The 2026 upper bound $e^{O(\sqrt{\log m})}m^{1/2}$ attributed on
+  erdosproblems.com to an automated proof system replaces the exponent $2/3$ by
+  $1/2+o(1)$ through sets in growing dimension.

@@ -63,5 +63,5 @@ None (a conjecture).
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0561/_index|Problem 561]]: the problem's statement in
-  its original source; the site's wording follows it, with the site adding
-  $n_s\ge1$, $m_t\ge1$ explicitly.
+  its original source; the erdosproblems.com wording follows it, with
+  erdosproblems.com adding $n_s\ge1$, $m_t\ge1$ explicitly.

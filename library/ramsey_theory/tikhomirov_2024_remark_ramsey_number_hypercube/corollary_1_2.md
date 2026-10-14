@@ -24,9 +24,9 @@ $$
 The Remark after Theorem 1.1 allows $c=0.03656$ for $n_0$ large; the paper
 does not print the resulting exponent, and $2-0.03656=1.96344$ is a
 subtraction made here, so the bound reads $r(Q_n)\le2^{1.96344n+1}+2$ for
-all large $n$. The site's Problem 181 records it as "$R(Q_n)\ll2^{(2-c)n}$
-for some small constant $c>0$. (In fact $c\approx0.03656$ is
-permissible.)"
+all large $n$. erdosproblems.com's Problem 181 records it as
+"$R(Q_n)\ll2^{(2-c)n}$ for some small constant $c>0$. (In fact $c\approx0.03656$
+is permissible.)"
 
 **Source.** K. Tikhomirov, *A remark on the Ramsey number of the
 hypercube*, European J. Combin. 120 (2024), 103954,

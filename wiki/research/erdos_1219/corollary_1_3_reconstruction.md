@@ -1,11 +1,11 @@
 ---
 name: research/erdos_1219/corollary_1_3_reconstruction
-title: "Corollary 1.3: Σ_{n<ω} 2^{ℵ_n} → (ℵ_ω, ℵ_ω)^2 and the catalog's sum"
+title: "Corollary 1.3: Σ_{n<ω} 2^{ℵ_n} → (ℵ_ω, ℵ_ω)^2 and the erdosproblems.com sum"
 desc: |
   Reconstructs Shelah's Corollary 1.3, the specialization of Theorem 1.2 to
   λ = ℵ_ω under ℵ_ω < 2^{ℵ_{n(0)}} < 2^{ℵ_{n(1)}} < ⋯, and proves that
-  the sum over all n equals the catalog's sum over the subsequence, so the
-  corollary states the relation asked by Problem 1219.
+  the sum over all n equals the erdosproblems.com sum over the subsequence, so
+  the corollary states the relation asked by Problem 1219.
 created: 2026-09-28T04:33:22Z
 updated: 2026-09-28T08:32:50Z
 ---
@@ -25,7 +25,7 @@ read on page images rendered from the scan; the result page is
 [[../library/set_theory/shelah_1975_notes_partition_calculus/corollary_1_3|corollary_1_3]].
 The corollary prints no proof; it specializes
 [[research/erdos_1219/theorem_1_2_reconstruction|Theorem 1.2]]. The
-catalog question is
+erdosproblems.com question is
 [[problems/set_theory/E1219/_index|Problem 1219]], and Komjáth's survey records
 the acceptance of the proof as Problem 3 of the Erdős--Hajnal list,
 printed p. 419, PDF p. 2,
@@ -124,7 +124,7 @@ $\sum_{n<\omega}2^{\aleph_n}\to(\aleph_\omega,\aleph_\omega,\omega)^2$.
 
 ## Fidelity to Problem 1219
 
-The catalog asks, for an increasing sequence $(n_k)$ of integers with
+Bloom's catalog asks, for an increasing sequence $(n_k)$ of integers with
 $2^{\aleph_{n_k}}$ strictly increasing and $2^{\aleph_{n_0}}>\aleph_\omega$,
 whether
 
@@ -138,7 +138,7 @@ $\lambda=2^{\aleph_{n_0}}+2^{\aleph_{n_1}}+\cdots$. The hypotheses are
 those of the corollary with $n(k)=n_k$: the chain
 $\aleph_\omega<2^{\aleph_{n_0}}<2^{\aleph_{n_1}}<\cdots$ is exactly
 "$2^{\aleph_{n_0}}>\aleph_\omega$ and $2^{\aleph_{n_k}}$ strictly
-increasing", and the catalog's "increasing" is the monotonicity forced
+increasing", and erdosproblems.com's "increasing" is the monotonicity forced
 above. The conclusions agree once the two sums are the same cardinal,
 because a partition relation depends only on the cardinal on its left.
 
@@ -161,13 +161,13 @@ other inequality let $n<\omega$; since $n_k\ge k$ there is $k$ with
 $n_k\ge n$, and then $2^{\aleph_n}\le2^{\aleph_{n_k}}$ because
 $\mu\mapsto2^\mu$ is nondecreasing. This proves the claim.
 
-Hence Corollary 1.3 states the relation the catalog asks, in the catalog's
-hypotheses and with two colors. The identification is made here and on the
-result page; the paper writes the sum over all $n$ in § 0 and in the
-corollary and does not comment on the subsequence. If the sequence were
+Hence Corollary 1.3 states the relation Bloom's catalog asks, in the
+erdosproblems.com hypotheses and with two colors. The identification is made
+here and on the result page; the paper writes the sum over all $n$ in § 0 and in
+the corollary and does not comment on the subsequence. If the sequence were
 finite the sum would be a single power $2^{\aleph_m}$, for which the
 relation fails by Sierpiński's $2^\mu\not\to(\mu^+)^2_2$, as the problem
-page records; the corollary and the catalog both take an infinite
+page records; the corollary and Bloom's catalog both take an infinite
 sequence.
 
 ## Reading notes

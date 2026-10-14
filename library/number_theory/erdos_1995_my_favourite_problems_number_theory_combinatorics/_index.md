@@ -21,8 +21,8 @@ The copy read for this card is a 20-page author typescript with running
 heads numbered 1--20 (from www.ime.usp.br/~yoshi/resenhas/abstracts/Erdos.pdf);
 the journal's pages 165--186 (22 pages against the typescript's 20) are not
 marked in it, so every locator below is the running-head page number. The
-site's citations mix the two numberings: its p. 14 for Problem 87 matches
-the running head, while its p. 172 for Problem 54 and p. 177 for Problem
+erdosproblems.com citations mix the two numberings: its p. 14 for Problem 87
+matches the running head, while its p. 172 for Problem 54 and p. 177 for Problem
 567 are journal pages, each 165 above the running-head page of the passage
 (pp. 7 and 12). Read status: claims checked for Section II.9 on pp. 11--12
 (display (14), the offers on $\lim r(t)^{1/t}$ and on a constructive proof,
@@ -43,10 +43,10 @@ notice on its first two or last two pages, from the hosting issue page
 copyright, license or terms; the term is unstated.
 
 Item 11 of Part I (p. 7, read on the page image) is the origin of the
-site's prize for Problem 54. Erdős opens by calling his paper with Burr,
-his reference [11], undeservedly forgotten. With $P(A)$ the set of integers
-representable as sums of distinct terms of $A$, the item defines a sequence
-$A=\{a_1<a_2<\ldots\}$ to be *Ramsey $r$-complete* when, for every
+erdosproblems.com prize for Problem 54. Erdős opens by calling his paper with
+Burr, his reference [11], undeservedly forgotten. With $P(A)$ the set of
+integers representable as sums of distinct terms of $A$, the item defines a
+sequence $A=\{a_1<a_2<\ldots\}$ to be *Ramsey $r$-complete* when, for every
 partition $A=A_1\cup\dots\cup A_r$ into $r$ classes, every sufficiently
 large positive integer lies in $\bigcup_{i=1}^rP(A_i)$, and *entirely*
 Ramsey $r$-complete when every positive integer does. The Burr--Erdős
@@ -58,9 +58,9 @@ infinite sequence with $a_x>\exp\{Cx^{1/2}\}$ for all sufficiently large $x$
 proved nothing for $r>2$, a case for which he offers a prize for any
 non-trivial result, and he asks, "could (8) and (9) be improved (100
 dollars)?" The item ends: "Burr has a proof that for every $k$ the
-sequence $t^k$ ($1\le t<\infty$) is Ramsey $r$-complete" (p. 7). The site
-cites p. 172 of the journal for Problem 54; the typescript's running-head
-page 7 is the locator here.
+sequence $t^k$ ($1\le t<\infty$) is Ramsey $r$-complete" (p. 7).
+erdosproblems.com cites p. 172 of the journal for Problem 54; the typescript's
+running-head page 7 is the locator here.
 
 A late three-part problem collection with prize offers throughout. In number
 theory it opens with the sum-distinct question f(n) < log n/log 2 + c_1,
@@ -137,8 +137,8 @@ offering a prize for a proof or disproof, and suggests that the weaker
 hypothesis $\sum_{a_i<m}1/a_i>C(\log\log m)^2$, for some large enough $C$,
 may already suffice. The section closes by referring to the book with
 Graham [34]. The page states no result on the largest subset of
-$\{1,\dots,n\}$ with no subset of reciprocals summing to $1$ (the site's
-Problem 300), so no row is added for it.
+$\{1,\dots,n\}$ with no subset of reciprocals summing to $1$
+(erdosproblems.com's Problem 300), so no row is added for it.
 
 Item 9 of Part I (p. 6) is the source of Problem 49. For the longest
 $a_1<\dots<a_t\le n$ with $\varphi(a_1)<\dots<\varphi(a_t)$ (display (7)),
@@ -150,7 +150,7 @@ Source: <https://www.ime.usp.br/~yoshi/resenhas/abstracts/Erdos.pdf>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0050/_index|#50]],
 [[../wiki/problems/graph_coloring/E0074/_index|#74]], [[../wiki/problems/ramsey_theory/E0087/_index|#87]]
-(Section II.15, pp. 13--14: the site's key with its page 14),
+(Section II.15, pp. 13--14: the erdosproblems.com key with its page 14),
 [[../wiki/problems/distance_problems/E0099/_index|#99]],
 [[../wiki/problems/ramsey_theory/E0077/_index|#77]] (Section II.9, p. 11: display (14), the
 limit question and the three prize offers),
@@ -165,7 +165,7 @@ Ramsey size linear?"),
 conjecture with its prize offer and the proved range $t<c(\log n)^2$),
 [[../wiki/problems/unit_fractions/E0045/_index|#45]] (item 8 of Part I, p. 6: $n_k$, the
 smallest integer whose proper divisors under any $k$-coloring contain a
-monochromatic set of distinct divisors summing to $n_k$, the site's
+monochromatic set of distinct divisors summing to $n_k$, erdosproblems.com's
 reciprocal form under $d\mapsto n_k/d$; "not even known if $n_2$ exists"),
 [[../wiki/problems/unit_fractions/E0046/_index|#46]] (item 8 of Part I, p. 6: the Erdős--Graham
 question whether every $k$-coloring of the integers $2\le t\le m_k$ has a
@@ -176,7 +176,7 @@ $\sum1/a_i>\delta\log m$ forces $1=\sum\varepsilon_i/a_i$, a prize
 offered, with the suggested weakening
 $\sum_{a_i<m}1/a_i>C(\log\log m)^2$),
 [[../wiki/problems/ramsey_theory/E0054/_index|#54]] (item 11 of Part I, p. 7, page image;
-the site cites journal p. 172: the growth bounds (8) and (9) of the
+erdosproblems.com cites journal p. 172: the growth bounds (8) and (9) of the
 Burr--Erdős paper and "could (8) and (9) be improved (100 dollars)?", the
 problem's prize; the prize for $r>2$ is Problem 55's),
 [[../wiki/problems/ramsey_theory/E0055/_index|#55]] (item 11 of Part I, p. 7: "We
@@ -203,7 +203,7 @@ monochromatic triangles of a single color can always be found; Jacobson
 conjectured the value $n^2/20$, and a simple example of Jacobson's shows that
 this value, if correct, cannot be improved. Erdős notes that the count of
 monochromatic triangles without the edge-disjointness requirement is an
-old result of Goodman [48] and others; the site's key Er95 for the
+old result of Goodman [48] and others; the erdosproblems.com key Er95 for the
 problem),
 [[../wiki/problems/ramsey_theory/E0085/_index|#85]] (item 14 of Part II, p. 13, page
 image: a conjecture Erdős calls little known. With $f(n)$ the smallest
@@ -211,8 +211,8 @@ integer such that every graph on $n$ vertices with every vertex of degree
 at least $f(n)$ contains a $C_4$, he asks "Is it true that
 $f(n+1)\ge f(n)$?", and, if that is too optimistic, whether at least some
 absolute constant $c$ gives $f(m)>f(n)-c$ for every $m>n$; the same
-question can be asked with any other graph in place of $C_4$; the site's
-key Er95 for the problem)
+question can be asked with any other graph in place of $C_4$; the
+erdosproblems.com key Er95 for the problem)
 
 **Results.**
 

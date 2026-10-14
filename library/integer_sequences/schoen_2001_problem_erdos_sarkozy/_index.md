@@ -75,18 +75,17 @@ read on the page image. Nothing here is independently reviewed.
   $x,y>z$." $\mathcal A(n)=\sum_{a_i\le n}1$. The equation form admits
   $x=y$, so the paper's reading lets the two larger elements coincide, the
   reading of Baier 2004 and Bedert 2023 rather than the distinct-elements
-  reading of the site's Problem 12 (see the problem page's Formulation);
-  this is a filing observation. Recalled from [2]: every $\mathcal P$-set
-  satisfies $\mathcal A(n)=o(n)$ (2), with the aside that under the
-  condition $x\ne z$, $y\ne z$ in place of $x,y>z$, (2) would follow at
-  once from Roth's theorem [4]; that [2] also showed no effective bound can
-  take the place of (2); and the conjecture, quoted (pp. 191--192): "they
-  conjectured that there exists a positive constant $c$ such that
-  $\mathcal A(n)<n^{1-c}$, for infinitely many $n\in\mathbb N$." Then
-  (p. 192, quoted as printed): "Observe that $c<1/2$ is impossible. Indeed,
-  following [2], consider the set $\mathcal S=\{p_1^2,p_2^2,\ldots\}$,
-  where $p_i$ denotes the $i$th prime congruent to 3 modulo 4. Clearly,
-  $\mathcal S$ is a $\mathcal P$-set, and
+  reading of erdosproblems.com's Problem 12 (see the problem page's
+  Formulation); this is a filing observation. Recalled from [2]: every
+  $\mathcal P$-set satisfies $\mathcal A(n)=o(n)$ (2), with the aside that under
+  the condition $x\ne z$, $y\ne z$ in place of $x,y>z$, (2) would follow at once
+  from Roth's theorem [4]; that [2] also showed no effective bound can take the
+  place of (2); and the conjecture, quoted (pp. 191--192): "they conjectured
+  that there exists a positive constant $c$ such that $\mathcal A(n)<n^{1-c}$,
+  for infinitely many $n\in\mathbb N$." Then (p. 192, quoted as printed):
+  "Observe that $c<1/2$ is impossible. Indeed, following [2], consider the set
+  $\mathcal S=\{p_1^2,p_2^2,\ldots\}$, where $p_i$ denotes the $i$th prime
+  congruent to 3 modulo 4. Clearly, $\mathcal S$ is a $\mathcal P$-set, and
   $\mathcal S(n)=(1+o(1))((n/2\ln n))^{1/2}$." A filing observation, not
   a review verdict: the example shows that no $c>1/2$ can serve, since
   $\mathcal S(n)$ exceeds $n^{1-c}$ for all large $n$ when $c>1/2$, and the
@@ -156,7 +155,7 @@ independently reviewed.
 (printed p. 193, PDF p. 3), "Let $\mathcal A=\{a_1,a_2,\ldots\}$ be a
 $\mathcal P$-set such that $(a_i,a_j)=1$, for all $1\le i<j$. Then
 $\mathcal A(n)<2n^{2/3}$, (5) for infinitely many $n\in\mathbb N$", is the
-bound the site attributes to the paper (in its commentary,
+bound erdosproblems.com attributes to the paper (in its commentary,
 $|A\cap\{1,\ldots,N\}|\ll N^{2/3}$ for infinitely many $N$ when all elements
 of $A$ are pairwise coprime) and the bound Baier 2004 sharpens
 to $(3+\varepsilon)N^{2/3}/\log N$. Restricted to pairwise coprime sets it
@@ -165,8 +164,8 @@ infinite pairwise coprime set the paper's reading of the P-set condition and
 the problem's distinct-elements reading coincide (a filing observation argued
 on the result page). It says nothing about
 general sets with property P, on which the 2026 constructions credited by the
-site's commentary claim a no answer to the second question, a claim recorded as
-pending on
+erdosproblems.com commentary claim a no answer to the second question, a claim
+recorded as pending on
 [[../wiki/problems/integer_sequences/E0012/claims/2026_04_03_deepmind|its claim page]].
 The p. 192 passage ruling out the exponent range
 (printed "$c<1/2$", read here as $c>1/2$) by the set $\mathcal S$ of squares

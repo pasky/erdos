@@ -55,8 +55,8 @@ Academic Press, Toronto, 1984, pp. 203--218; see the
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0146/_index|Problem 146]]: the
-  site gives this paper as the source of the problem's conjecture on
-  $r$-degenerate bipartite graphs. The paper's only use of *degenerate* is
+- [[../wiki/problems/extremal_graph_theory/E0146/_index|Problem 146]]:
+  erdosproblems.com gives this paper as the source of the problem's conjecture
+  on $r$-degenerate bipartite graphs. The paper's only use of *degenerate* is
   this definition for extremal problems, and it states no conjecture about
   $r$-degenerate graphs.

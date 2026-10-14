@@ -165,8 +165,8 @@ examples of p. 261 are the author's unprinted remark. Nothing here is
 independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1015/_index|#1015]]: the Theorem (printed
-p. 259, PDF p. 2, page image) is the $k=3$ result the site credits to the
-note as "$f(3)=4$, at least for $n\geq8$". Its second part, that a
+p. 259, PDF p. 2, page image) is the $k=3$ result erdosproblems.com credits to
+the note as "$f(3)=4$, at least for $n\geq8$". Its second part, that a
 two-coloring of $K_n$ with $n\equiv2\pmod3$ and $n\ge8$ always has
 $[\tfrac13n]$ disjoint monochromatic triangles, is the sentence Erdős
 restates in item 9 of the 1971 problem paper and leaves two vertices

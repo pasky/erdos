@@ -32,26 +32,26 @@ $$
 R(3,k+1)-R(3,k)=o(k).
 $$
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 24
-April 2026). $R(3,k)$ is the least $n$ such that every
-graph on $n$ vertices contains a triangle or an independent set of size $k$.
-Two questions: whether the increment $R(3,k+1)-R(3,k)$ tends to infinity, and
-whether it is $o(k)$. Erdős's 1981 printed form (his notation puts the
-clique size second) is (9) $r(n+1,3)-r(n,3)\to\infty$, together with a
-multiplicative form (9') $r([n(1+c_1)],3)>(1+c_2)\,r(n,3)$ and the stronger
-guess (10) that $(r(n+1,3)-r(n,3))/n^{1/2}\to0$, which would imply the site's
-second statement; the paper and the site attribute the problem to Erdős and
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited
+24 April 2026). $R(3,k)$ is the least $n$ such that every graph on $n$ vertices
+contains a triangle or an independent set of size $k$. Two questions: whether
+the increment $R(3,k+1)-R(3,k)$ tends to infinity, and whether it is $o(k)$.
+Erdős's 1981 printed form (his notation puts the clique size second) is (9)
+$r(n+1,3)-r(n,3)\to\infty$, together with a multiplicative form (9')
+$r([n(1+c_1)],3)>(1+c_2)\,r(n,3)$ and the stronger guess (10) that
+$(r(n+1,3)-r(n,3))/n^{1/2}\to0$, which would imply erdosproblems.com's second
+statement; the paper and erdosproblems.com attribute the problem to Erdős and
 Sós. The increment is at least $1$ for every $k$ (strict monotonicity) and, by
-the recurrence $R(3,k+1)\le R(2,k+1)+R(3,k)$ with $R(2,k+1)=k+1$, at most
-$k+1$, so the second question asks whether the trivial upper bound is far
-from the truth.
+the recurrence $R(3,k+1)\le R(2,k+1)+R(3,k)$ with $R(2,k+1)=k+1$, at most $k+1$,
+so the second question asks whether the trivial upper bound is far from the
+truth.
 
-**Status.** The site labeled the problem OPEN. The search whose scope the
+**Status.** Bloom's catalog labeled the problem OPEN. The search whose scope the
 Current assessment records found no source that proves or disproves either
 statement, and no proof claim. What is proved is the following. First,
 $3\le R(3,k+1)-R(3,k)\le k+1$ for $k\ge2$. The lower bound is Graver and
 Yackel's Corollary 4 and the case $m=3$ of Burr, Erdős, Faudree and Schelp's
-Theorem 1. The upper bound is the recurrence above. Second, the site's
+Theorem 1. The upper bound is the recurrence above. Second, erdosproblems.com's
 consequence of the ratio manuscript accepted for Problem 1014 is
 $R(3,k+1)-R(3,k)\le k^{-c}R(3,k)=O(k^{2-c}/\log k)$ for an unspecified $c>0$.
 This bounds the increment above and decides neither question. This is a bounded
@@ -59,9 +59,10 @@ negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/544](https://www.erdosproblems.com/544),
 accessed 2026-09-18: the problem page (labeled OPEN,
-with the site's note that no finite computation can settle it; last edited 24
-April 2026; source keys [Er81c], [Er93, p. 339]; commentary citing Problems 165
-and 1014 and linking OEIS A000791), its two-comment discussion thread (24 April
+with the erdosproblems.com note that no finite computation can settle it; last
+edited 24 April 2026; source keys [Er81c], [Er93, p. 339]; commentary citing
+Problems 165 and 1014 and linking OEIS A000791), its two-comment discussion
+thread (24 April
 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #544,
 https://www.erdosproblems.com/544, accessed 2026-09-18.
 
@@ -75,11 +76,11 @@ https://www.erdosproblems.com/544, accessed 2026-09-18.
 - [Er88] Erdős, P., Problems and results in combinatorial analysis and graph
   theory. Proceedings of the First Japan Conference on Graph Theory and
   Applications (Hakone, 1986), Discrete Math. 72 (1988), 81--92; display
-  (7) and the sentence after it, printed p. 84. Not a site key for this
-  problem. Library home:
+  (7) and the sentence after it, printed p. 84. Not an erdosproblems.com key for
+  this problem. Library home:
   [[../library/extremal_graph_theory/erdos_1988_problems_results_combinatorial_analysis_graph_theory/_index|erdos_1988_problems_results_combinatorial_analysis_graph_theory]].
 - [Er93] Erdős, P., Some of my favorite solved and unsolved problems in graph
-  theory. Quaestiones Math. 16 (1993), 333--350; the site cites p. 339.
+  theory. Quaestiones Math. 16 (1993), 333--350; erdosproblems.com cites p. 339.
   Chapter II, display (9), printed p. 339: the Erdős--Sós conjecture on
   $r(3,n+1)-r(3,n)$. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
@@ -129,22 +130,23 @@ of formal-conjectures (main, fetched 2026-09-18) declares
 ℝ)) =o[atTop] (fun k : ℕ ↦ (k : ℝ))`, both under `category research open` with
 proof `sorry`. The community database (fetched 2026-09-18) records the problem
 open (record last updated 31 August 2025), the statement formalized since 9
-September 2026, no formal proof and OEIS A000791; the site's indicator shows
-the statement as formalized (it did not on 2026-09-05). Nothing was built.
+September 2026, no formal proof and OEIS A000791; the erdosproblems.com
+indicator shows the statement as formalized (it did not on 2026-09-05). Nothing
+was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above,
-labeled OPEN and marked by the site as beyond any finite computation, last
-edited 24 April 2026. The site's commentary, in this page's words: the problem
-is due to Erdős and Sós; $R(3,k)\asymp k^2/\log k$ is known (Problem 165); and
-the OpenAI bound accepted for Problem 1014 yields
-$R(3,k+1)-R(3,k)\ll k^{-c}R(3,k)$ for some constant $c>0$. The site lists the
-problem as the eighth Ramsey-theory item of its graphs problem collection and
-cross-references Problems 165 and 1014. The thread: a comment of 24 April 2026
-(a commenter) pointing out that the Erdős–Szekeres recurrence gives
-$R(3,k+1)-R(3,k)\le k+1$, and the site author's reply the same day conceding
-the point. The proof-claim tab is empty.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above, labeled OPEN and marked by erdosproblems.com as beyond any finite
+computation, last edited 24 April 2026. The erdosproblems.com commentary, in
+this page's words: the problem is due to Erdős and Sós;
+$R(3,k)\asymp k^2/\log k$ is known (Problem 165); and the OpenAI bound accepted
+for Problem 1014 yields $R(3,k+1)-R(3,k)\ll k^{-c}R(3,k)$ for some constant
+$c>0$. erdosproblems.com lists the problem as the eighth Ramsey-theory item of
+its graphs problem collection and cross-references Problems 165 and 1014. The
+thread: a comment of 24 April 2026 (a commenter) pointing out that the
+Erdős–Szekeres recurrence gives $R(3,k+1)-R(3,k)\le k+1$, and erdosproblems.com
+author's reply the same day conceding the point. The proof-claim tab is empty.
 
 **The origin (Er81c, printed p. 11, and Er88, printed p. 84).** "V.T. Sós
 and I recently needed the following results.
@@ -152,20 +154,21 @@ $r(n+1,3)-r(n,3)\to\infty$, (9) and $r([n(1+c_1)],3)>(1+c_2)\,r(n,3)$. (9')
 Both (9) and (9') must certainly be true but we could certainly not prove them.
 Probably $(r(n+1,3)-r(n,3))/n^{1/2}\to0$. (10)" He adds that all three would
 follow easily from an asymptotic formula for $r(n,3)$ with a good error term,
-of which he saw no prospect. The paper writes $r(n,3)$ for the site's $R(3,n)$.
-Its (9) is the site's first statement; (10) is stronger than the site's second,
-which asks only for $o(k)$; (9') is the multiplicative form the site does not
-state. [Er88] printed p. 84, in the site's order of arguments: "(6) seems
-quite hopeless at present. V. T. Sós and I failed to prove
-$(r(3,n+1)-r(3,n))/n\to0$ and $r(3,n+1)-r(3,n)\to\infty$. (7) The second
-inequality in (7) should be perhaps easier than the first." Its (7) is exactly
-the problem's two statements, the site's second before its first. [Er93, p.
-339], the site's other key (Chapter II, display (9)), states both questions
-in one line: "Vera Sós and I conjectured (9) $(r(3,n+1)-r(3,n))/n\to0$ but
-$r(3,n+1)-r(3,n)\to\infty$", the site's second statement before its first, and
-p. 340 adds that the difficulty of proving (9) and (10) "is perhaps that the
-lower bounds for $r(n)$ and the upper and lower bounds for $r(3,n)$ use the
-probability method"; the attribution to Erdős and Sós is first-hand in all
+of which he saw no prospect. The paper writes $r(n,3)$ for erdosproblems.com's
+$R(3,n)$. Its (9) is erdosproblems.com's first statement; (10) is stronger than
+erdosproblems.com's second, which asks only for $o(k)$; (9') is the
+multiplicative form erdosproblems.com does not state. [Er88] printed p. 84, in
+erdosproblems.com's order of arguments: "(6) seems quite hopeless at present. V.
+T. Sós and I failed to prove $(r(3,n+1)-r(3,n))/n\to0$ and
+$r(3,n+1)-r(3,n)\to\infty$. (7) The second inequality in (7) should be perhaps
+easier than the first." Its (7) is exactly the problem's two statements,
+erdosproblems.com's second before its first. [Er93, p. 339], erdosproblems.com's
+other key (Chapter II, display (9)), states both questions in one line: "Vera
+Sós and I conjectured (9) $(r(3,n+1)-r(3,n))/n\to0$ but
+$r(3,n+1)-r(3,n)\to\infty$", erdosproblems.com's second statement before its
+first, and p. 340 adds that the difficulty of proving (9) and (10) "is perhaps
+that the lower bounds for $r(n)$ and the upper and lower bounds for $r(3,n)$ use
+the probability method"; the attribution to Erdős and Sós is first-hand in all
 three papers.
 
 **What is proved (bounds map).** Lower increment: Theorem 1 of [BEFS89],
@@ -198,14 +201,14 @@ $R(3,k)\asymp k^2/\log k$ (Kim's lower bound and Shearer's upper bound,
 ranges, which is
 $o(k)$ on average but says nothing about individual increments.
 
-**The site's consequence of the ratio manuscript (provenance recorded, not
-judged).** Remark 1 of [OpenAI26] states that for each fixed $k\ge2$ there
+**erdosproblems.com's consequence of the ratio manuscript (provenance recorded,
+not judged).** Remark 1 of [OpenAI26] states that for each fixed $k\ge2$ there
 is $c_k>0$ with $R(k,\ell+1)/R(k,\ell)\le1+\ell^{-c_k}$ for all large
 $\ell$, a manuscript whose abstract attributes its proof to an internal model
-at OpenAI and which the site accepted for Problem 1014 without a refereed
-publication or independent review (the qualifications on that page apply
-here). With $k=3$ and the problem's $k$ in place of $\ell$ it reads
-$R(3,k+1)-R(3,k)\le k^{-c_3}R(3,k)$ for all large $k$, the site's
+at OpenAI and which erdosproblems.com accepted for Problem 1014 without a
+refereed publication or independent review (the qualifications on that page
+apply here). With $k=3$ and the problem's $k$ in place of $\ell$ it reads
+$R(3,k+1)-R(3,k)\le k^{-c_3}R(3,k)$ for all large $k$, erdosproblems.com's
 $\ll k^{-c}R(3,k)$, an authored one-line specialization made here. Since
 $R(3,k)\asymp k^2/\log k$, the increment is $O(k^{2-c_3}/\log k)$. This
 bounds the increment above and says nothing about divergence; it gives $o(k)$
@@ -216,7 +219,7 @@ claim one. The two questions are therefore untouched by it.
 bound on $R(3,k+1)-R(3,k)$ that tends to infinity, an upper bound of order
 $o(k)$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database
   record; OEIS A000791.
 - arXiv: the API queries `abs:"consecutive Ramsey numbers"` and
@@ -237,8 +240,8 @@ search.
 **Remaining gaps.** (1) [Er93, p. 339], display (9), states the conjecture
 without proof or prize, so it adds attribution and wording, not progress.
 (2) The only quantitative input
-beyond the trivial bounds is the site-accepted AI-generated ratio proof,
-recorded with its provenance; its constant is unspecified, so it decides
+beyond the trivial bounds is the erdosproblems.com-accepted AI-generated ratio
+proof, recorded with its provenance; its constant is unspecified, so it decides
 nothing here. (3) The increments of the nine known values are not evidence
 either way. (4) There is nothing to compile: no source addresses either
 question directly.

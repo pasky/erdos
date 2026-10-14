@@ -56,7 +56,8 @@ deleting a vertex and its neighborhood) is the paper's own.
 
 **Acceptance.** Refereed: Journal of Combinatorial Theory, Series A, volume 29
 (1980), no. 3, 354--360. Crossref dates the issue November 1980, and the page
-name uses the first day of that month. The site's commentary credits the paper
-with the case $r=3$. The site's label was OPEN on 2026-10-06, so that credit is
-not listed as `reviewed`. The label concerns the question for $r\ge4$. Proof
-coverage is statement depth, with the proof at structure depth.
+name uses the first day of that month. The erdosproblems.com commentary credits
+the paper with the case $r=3$. The erdosproblems.com label was OPEN on
+2026-10-06, so that credit is not listed as `reviewed`. The label concerns the
+question for $r\ge4$. Proof coverage is statement depth, with the proof at
+structure depth.

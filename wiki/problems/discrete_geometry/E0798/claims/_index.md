@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 798, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/discrete_geometry/E0798/claims
@@ -13,6 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/discrete_geometry/E0798/claims/1991_09_01_alon|1991_09_01_alon]]: Alon proves that $O(n^{2/3}\log n)$ points of the $n\times n$ grid suffice for
 their connecting lines to cover the grid, so $t(n)=o(n)$. The paper was
-refereed in Geom. Funct. Anal. and is credited by the site's curator.
+refereed in Geom. Funct. Anal. and is credited by the erdosproblems.com
+curator.
 
 ***

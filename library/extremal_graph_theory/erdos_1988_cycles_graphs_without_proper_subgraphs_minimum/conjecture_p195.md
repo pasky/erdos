@@ -67,5 +67,5 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0815/_index|Problem 815]]: the origin of the
-  problem's statement, which the site poses with the induced definition; the
-  problem page places the disproof under that definition.
+  problem's statement, which Bloom's catalog poses with the induced definition;
+  the problem page places the disproof under that definition.

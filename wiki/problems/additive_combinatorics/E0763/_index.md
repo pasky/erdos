@@ -29,8 +29,8 @@ $$
 \sum_{n\leq N} 1_A\ast 1_A(n) = cN+O(1)?
 $$
 
-**Status.** The site labeled the problem DISPROVED. The status-defining source
-is Theorem 1 of Erdős and Fuchs (J. London Math. Soc. 31 (1956), 67--73,
+**Status.** Bloom's catalog labeled the problem DISPROVED. The status-defining
+source is Theorem 1 of Erdős and Fuchs (J. London Math. Soc. 31 (1956), 67--73,
 refereed). It shows that for no sequence and no $c>0$ does the number of pairs
 with $a_i+a_j\le n$ equal $cn+o(n^{1/4}(\log n)^{-1/2})$. So a bounded error
 term is impossible, and the answer is no. The copy read is the 1954
@@ -41,11 +41,12 @@ $o(N^{1/4})$. That result answers the question on its own. The claim pages are
 [[problems/additive_combinatorics/E0763/claims/1956_01_01_erdos_fuchs|Erdős–Fuchs]]
 and
 [[problems/additive_combinatorics/E0763/claims/1990_01_01_montgomery_vaughan|Montgomery–Vaughan]].
-The Erdős–Fuchs page is accepted on the refereed publication and the site's
-credit. It also pins the 2026 Lean formalization of the bounded-error case in
-the lean-proofs repository, a development the corpus has not built. The
-Montgomery–Vaughan page is accepted on the site's credit. That paper appeared in
-an edited tribute volume whose refereeing is not documented.
+The Erdős–Fuchs page is accepted on the refereed publication and the
+erdosproblems.com credit. It also pins the 2026 Lean formalization of the
+bounded-error case in the lean-proofs repository, a development the corpus has
+not built. The Montgomery–Vaughan page is accepted on the erdosproblems.com
+credit. That paper appeared in an edited tribute volume whose refereeing is not
+documented.
 
 **Source.** [erdosproblems.com/763](https://www.erdosproblems.com/763), accessed
 2026-10-07 (no thread posts); its proof-claim tab was empty. Cite as:
@@ -61,9 +62,9 @@ T. F. Bloom, Erdős Problem #763, https://www.erdosproblems.com/763.
   text page prints the error term as
   $o(n^{1/4}\log^{-1/2-\varepsilon}n)$, $\varepsilon>0$, where the
   journal's Theorem 1 has $o(n^{1/4}\log^{-1/2}n)$, as the zbMATH review
-  of the paper (Zbl 0070.04104, by S. Selberg) and the site's commentary
-  give it; $r(n)$ counts the solutions of $a_i+a_j\le n$, and the paper
-  introduces the theorem as proving the Erdős--Turán conjecture that
+  of the paper (Zbl 0070.04104, by S. Selberg) and the erdosproblems.com
+  commentary give it; $r(n)$ counts the solutions of $a_i+a_j\le n$, and the
+  paper introduces the theorem as proving the Erdős--Turán conjecture that
   $r(n)-cn=O(1)$ cannot hold).
 - [MoVa90] Montgomery, H. L. and Vaughan, R. C., On the Erdős-Fuchs theorems.
   A Tribute to Paul Erdős, Cambridge Univ. Press (1990), 331-338,

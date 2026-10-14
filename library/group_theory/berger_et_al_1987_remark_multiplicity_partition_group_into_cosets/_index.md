@@ -31,7 +31,7 @@ an "icm" logo with a © sign at its head. The publisher's record
 (https://www.impan.pl/get/doi/10.4064/fm-128-3-139-144, read 2026-10-02) labels
 the download "Free download under CC-BY license", a Creative Commons Attribution
 license with no version named; the site footer "Copyright © 2026 by IMPAN. All
-rights reserved." speaks for the site, not the article.
+rights reserved." speaks for erdosproblems.com, not the article.
 
 ## Overview
 

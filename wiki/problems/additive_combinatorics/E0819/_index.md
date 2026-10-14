@@ -26,25 +26,26 @@ updated: 2026-10-08T14:17:37Z
 \{1,\ldots,N\}$ with $\lvert A\rvert=\lfloor N^{1/2}\rfloor$ such that $\lvert
 (A+A)\cap [1,N]\rvert=f(N)$. Estimate $f(N)$.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page shows no
-last-edited date). $A+A$ is the full sumset
-$\{a+b:a,b\in A\}$, doubles included; only the sums in $[1,N]$ are counted,
-and $|A|$ is exactly $\lfloor N^{1/2}\rfloor$. Since $|A+A|\le\binom{|A|+1}2$,
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+shows no last-edited date). $A+A$ is the full sumset $\{a+b:a,b\in A\}$, doubles
+included; only the sums in $[1,N]$ are counted, and $|A|$ is exactly
+$\lfloor N^{1/2}\rfloor$. Since $|A+A|\le\binom{|A|+1}2$,
 $f(N)\le N/2+O(N^{1/2})$ trivially (an observation made here, also stated
-in the thread's note). The site's source keys are [Er91] and [ErFr91].
-[ErFr91]'s Proposition 1 (p. 203) bounds $T(n)$, the maximal number of
+in the thread's note). The erdosproblems.com source keys are [Er91] and
+[ErFr91]. [ErFr91]'s Proposition 1 (p. 203) bounds $T(n)$, the maximal number of
 different sums $a_i+a_j$ below $n$ of a set
-$1\le a_1<\cdots<a_k\le n$ with $k\le(1+o(1))n^{1/2}$; the site's $f(N)$
-fixes $|A|=\lfloor N^{1/2}\rfloor$ and counts the sums in $[1,N]$, and the
-two agree up to $o(N)$, since adding elements of $[1,N]$ loses no sum and
+$1\le a_1<\cdots<a_k\le n$ with $k\le(1+o(1))n^{1/2}$; erdosproblems.com's
+$f(N)$ fixes $|A|=\lfloor N^{1/2}\rfloor$ and counts the sums in $[1,N]$, and
+the two agree up to $o(N)$, since adding elements of $[1,N]$ loses no sum and
 removing $o(N^{1/2})$ elements from a set of $O(N^{1/2})$ loses $o(N)$
 sums (a one-line step made here). [Er91] is not held, so the problem's
-original wording is known here only as the site states it.
+original wording is known here only as erdosproblems.com states it.
 
-**Status.** Open. The site labeled the problem OPEN. Its commentary credits
-Erdős and Freud [ErFr91] (J. Number Theory 38 (1991) 196--205, refereed) with
-$(\tfrac38-o(1))N\le f(N)\le(\tfrac12+o(1))N$. It ties the problem to how large
-a quasi-Sidon set can be, [[problems/additive_bases/E0840/_index|Problem 840]].
+**Status.** Open. Bloom's catalog labeled the problem OPEN. Its commentary
+credits Erdős and Freud [ErFr91] (J. Number Theory 38 (1991) 196--205, refereed)
+with $(\tfrac38-o(1))N\le f(N)\le(\tfrac12+o(1))N$. It ties the problem to how
+large a quasi-Sidon set can be,
+[[problems/additive_bases/E0840/_index|Problem 840]].
 
 The bounds are the paper's Proposition 1 (p. 203): "Given any $\varepsilon>0$,
 then for $n$ large enough $3/8-\varepsilon\le T(n)/n\le1/2+\varepsilon$". The
@@ -63,8 +64,8 @@ commenter's personal site. The note claims
 $\liminf f(N)/N\ge(16\sqrt2-17)/12\approx0.4690$. According to the comment, the
 result was found with GPT-5.5 and Rethlas and verified by hand. This corpus
 records the note's statement but does not check its argument. No proof claim is
-on the tab, and the site's commentary does not mention the note. The note has a
-partial claim page,
+on the tab, and the erdosproblems.com commentary does not mention the note. The
+note has a partial claim page,
 [[problems/additive_combinatorics/E0819/claims/2026_05_15_liu|Liu's lower bound 0.469]],
 with status claimed. No refereed source improving the bounds was found in the
 search whose scope the Current assessment records. This is a bounded negative
@@ -72,8 +73,8 @@ finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/819](https://www.erdosproblems.com/819),
 accessed 2026-09-18: the problem page (labeled
-OPEN, with the site's note that the problem cannot be settled by a finite
-computation; no last-edited date; source key [Er91]; commentary citing
+OPEN, with the erdosproblems.com note that the problem cannot be settled by a
+finite computation; no last-edited date; source key [Er91]; commentary citing
 [ErFr91] and Problem 840; a
 thanks line naming one contributor; OEIS indicator "Possible"), its
 two-comment discussion thread (15 and 17 May 2026; new comments suspended
@@ -121,13 +122,13 @@ Problem #819, https://www.erdosproblems.com/819, accessed 2026-10-07.
   [[problems/additive_combinatorics/E0819/claims/2026_05_15_liu|Liu's lower bound 0.469]].
 
 **Formalization.** None. On 2026-10-07 google-deepmind/formal-conjectures
-had no file `ErdosProblems/819.lean`, the site's indicator read "Formalised
-statement? No", and the community database recorded the problem open and
-unformalized, with no formal proof.
+had no file `ErdosProblems/819.lean`, the erdosproblems.com indicator read
+"Formalised statement? No", and the community database recorded the problem open
+and unformalized, with no formal proof.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN; no last-edited date. The commentary credits Erdős and Freud
 [ErFr91] with $(\frac38-o(1))N\le f(N)\le(\frac12+o(1))N$ and relates the
 problem to the largest possible quasi-Sidon set, Problem 840.
@@ -146,11 +147,11 @@ partial claim page,
 [[problems/additive_combinatorics/E0819/claims/1991_01_01_erdos_freud|Erdős and Freud's lower bound]].
 
 **The origin and the bounds.** [Er91], Erdős's Kalamazoo problem paper and
-the site's key, is not held. [ErFr91] is the paper the site credits with
-the bounds. Its main Theorem (p. 196) concerns Sidon sequences: $S(n)$, the
-maximal number of sums $a_i+a_j$ below $n$ of a Sidon sequence in $[1,n]$,
-satisfies $1-1/\sqrt2-\varepsilon\le S(n)/n\le1/\pi+\varepsilon$ for $n$
-large. The bounds on this problem are its Proposition 1 (p. 203): for any
+the erdosproblems.com key, is not held. [ErFr91] is the paper erdosproblems.com
+credits with the bounds. Its main Theorem (p. 196) concerns Sidon sequences:
+$S(n)$, the maximal number of sums $a_i+a_j$ below $n$ of a Sidon sequence in
+$[1,n]$, satisfies $1-1/\sqrt2-\varepsilon\le S(n)/n\le1/\pi+\varepsilon$ for
+$n$ large. The bounds on this problem are its Proposition 1 (p. 203): for any
 set $1\le a_1<\cdots<a_k\le n$ with $k\le(1+o(1))n^{1/2}$ and $T(n)$ the
 maximal number of different sums $a_i+a_j$ below $n$, "Given any
 $\varepsilon>0$, then for $n$ large enough $3/8-\varepsilon\le T(n)/n\le
@@ -165,8 +166,8 @@ $(1+o(1))\binom k2$ different values, and p. 204 prints the "one third"
 enlargement (a Sidon sequence in $[1,n/3]$ with the values $n-b_i$),
 $k\sim(2/\sqrt3)n^{1/2}$, the trivial (37) $k\le(2+o(1))n^{1/2}$, the
 unproved "We can replace the coefficient 2 by 1.98 in (37)", and the
-sentence behind the site's cross-reference: "any improvement in the upper
-bound of Proposition 1 is equivalent to the reduction of this coefficient
+sentence behind the erdosproblems.com cross-reference: "any improvement in the
+upper bound of Proposition 1 is equivalent to the reduction of this coefficient
 in (37) below $\sqrt2$" (no argument printed). [Pi06]'s account (p. 2098)
 of the definition, the construction and the promised $1.98$ matches the
 paper, and its reflected set $X=A\cup(n-A)$ (p. 2105) is the paper's
@@ -180,7 +181,7 @@ independently reviewed.
 (p. 1): "$\liminf_{N\to\infty}f(N)/N\ge(16\sqrt2-17)/12\approx0.4690$",
 "improving the classical Erdős--Freud bound of $3/8=0.375$ and closing
 most of the gap to the trivial upper bound $f(N)/N\le1/2+o(1)$"; the note
-defines $f(N)$ exactly as the site does (Definition 1), states the
+defines $f(N)$ exactly as erdosproblems.com does (Definition 1), states the
 Erdős--Freud lower bound as its display (2) attributed to [2] (the 1991
 paper) "given by an explicit construction (a union of an arithmetic
 progression and a structured complement)" (the paper's own construction,
@@ -193,8 +194,8 @@ sums below by $(N/2)F(u)-O(\eta N)-o(N)$ for $u\in(0,1/4)$ and
 $\eta\in(0,u/2)$, and its Corollary 25 gives $F(u^*)=(16\sqrt2-17)/6$, so
 the constant is $F(u^*)/2$. The argument is not checked in this corpus,
 and no acceptance evidence exists (an unrefereed note on a personal site,
-not on a preprint server; the site's commentary on 2026-10-07 gives the
-bounds $3/8$ and $1/2$ and does not mention it). The claim page
+not on a preprint server; the erdosproblems.com commentary on 2026-10-07 gives
+the bounds $3/8$ and $1/2$ and does not mention it). The claim page
 [[problems/additive_combinatorics/E0819/claims/2026_05_15_liu|Liu's lower bound 0.469]]
 records it as a partial claim with status claimed. If correct it raises
 the lower constant from $3/8$ to about $0.469$ and leaves the asymptotic
@@ -203,7 +204,7 @@ size of $f(N)/N$ open below $1/2$.
 **Search scope.** None of the routes below produced a refereed
 improvement of the bounds or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab on
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
   2026-09-18; formal-conjectures (no file for the problem on that date);
   the community database on 2026-09-18.
 - Crossref: the bibliographic query identifying [ErFr91]'s record.
@@ -219,13 +220,13 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er91].
 
 **Remaining gaps.** (1) The bounds are Proposition 1 of [ErFr91], recorded
 on an accepted partial claim page; the problem's original wording remains
-the site's account, [Er91] not being held. (2) The thread's $0.469$ lower
-bound is unreviewed and was found with GPT-5.5 and Rethlas; its claim page
+erdosproblems.com's account, [Er91] not being held. (2) The thread's $0.469$
+lower bound is unreviewed and was found with GPT-5.5 and Rethlas; its claim page
 records what it covers. (3) The connection to quasi-Sidon sets
-([[problems/additive_bases/E0840/_index|Problem 840]]) is recorded as the site's
-cross-reference, and it is the paper's printed equivalence (p. 204); [Pi06]
-is context and gains no row here. (4) [ErFr91]'s library card and its
-result pages for Proposition 1 and the Definition (p. 203) name this
+([[problems/additive_bases/E0840/_index|Problem 840]]) is recorded as the
+erdosproblems.com cross-reference, and it is the paper's printed equivalence (p.
+204); [Pi06] is context and gains no row here. (4) [ErFr91]'s library card and
+its result pages for Proposition 1 and the Definition (p. 203) name this
 problem.
 <!-- BEGIN problem library links -->
 

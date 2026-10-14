@@ -59,8 +59,8 @@ itself and are surveyed from Sinai and Kontorovich-Sinai.
 Most of the rigorous results it states are quoted from Lagarias and Weiss,
 Borovkov and Pfeifer, Sinai, Kontorovich and Sinai, and others; the new
 $5x+1$ results of §8 come with proofs or proof sketches (pp. 45--56). The
-volume also contains Lagarias's overview, which the site cites for problem
-1135 as [La10]; the site's page does not cite this chapter.
+volume also contains Lagarias's overview, which erdosproblems.com cites for
+problem 1135 as [La10]; the erdosproblems.com page does not cite this chapter.
 
 Result pages:
 

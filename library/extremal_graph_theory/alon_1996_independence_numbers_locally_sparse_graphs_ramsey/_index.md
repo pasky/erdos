@@ -7,7 +7,7 @@ desc: |
   ⌊√n⌋-set spanning order √n log n edges, which is tight.
 license: unstated
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey
@@ -19,8 +19,8 @@ updated: 2026-10-08T01:29:58Z
 
 [[extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey/theorem_1_1|theorem_1_1]]: Alon's 1996 independence bound for graphs whose vertex neighborhoods are
 r-colorable, the conjectured Ajtai–Erdős–Komlós–Szemerédi order under a
-hypothesis stronger than K_{r+2}-freeness; the partial result the site
-records for Problem 802.
+hypothesis stronger than K_{r+2}-freeness; the partial result
+erdosproblems.com records for Problem 802.
 
 [[extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey/theorem_1_2|theorem_1_2]]: In a graph on n vertices whose independence number is below the floor of the
 square root of n, some set of that many vertices contains at least an
@@ -114,13 +114,13 @@ Komlós and Szemerédi and Shearer's two papers that the introduction quotes
 are not held; their bounds appear here as Alon states them.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0801/_index|#801]] (Theorem 1.2 is the
-site's statement with floor(sqrt n) for n^{1/2}, and Proposition 3.1 its
-tightness; the problem page records the rounding difference in the
+erdosproblems.com statement with floor(sqrt n) for n^{1/2}, and Proposition 3.1
+its tightness; the problem page records the rounding difference in the
 hypothesis), [[../wiki/problems/extremal_graph_theory/E0802/_index|#802]] (Theorem 1.1,
 p. 2, page image: the conjectured order (c / log(r+1)) (n/t) log t under the
 hypothesis that every vertex neighborhood is r-colorable, which for the
-problem's K_r-free graphs is the site's "chromatic number at most r-2" with
-Alon's r replaced by r-2; and the introduction, p. 1, page image, which
+problem's K_r-free graphs is erdosproblems.com's "chromatic number at most r-2"
+with Alon's r replaced by r-2; and the introduction, p. 1, page image, which
 attests the Ajtai-Erdős-Komlós-Szemerédi bound c(r) (n/t) log log(t+1) and
 conjecture (1), "This conjecture is still open", and Shearer's improvement to
 c'(r) (n/t) log t / log log(t+1), which the problem page reads from

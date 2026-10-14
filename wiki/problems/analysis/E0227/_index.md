@@ -31,11 +31,12 @@ $$
 
 exists then it must be $0$?
 
-**Status.** Disproved. The site credits Clunie and Hayman [ClHa64]. They produce
-transcendental entire functions for which the ratio tends to any prescribed
-value in $[0,1/2]$. The claim page
+**Status.** Disproved. erdosproblems.com credits Clunie and Hayman [ClHa64].
+They produce transcendental entire functions for which the ratio tends to any
+prescribed value in $[0,1/2]$. The claim page
 [[problems/analysis/E0227/claims/1964_12_01_clunie_hayman|Clunie and Hayman
-1964]] records it, accepted on its refereed publication and the site's credit.
+1964]] records it, accepted on its refereed publication and the
+erdosproblems.com credit.
 
 **Source.** [erdosproblems.com/227](https://www.erdosproblems.com/227), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #227,
@@ -50,15 +51,15 @@ https://www.erdosproblems.com/227.
 
 ## Current assessment
 
-The site's formulation of 2026-09-04 asks whether the ratio of the maximum term
-$\max_n|a_n|r^n$ to the maximum modulus $M(r)$ of a transcendental entire
-function, when it has a limit as $r\to\infty$, must have limit $0$. Clunie and
-Hayman's 1964 paper answers no: the limit can be any value in $[0,1/2]$. The
-site also records that Clunie, in unpublished work, proved the answer yes when
-every coefficient $a_n$ is nonnegative; that case has no dated manuscript and no
-page here, and it does not affect the disproof of the general question. The
-related [[problems/analysis/E0513/_index|Problem 513]] asks for the largest
-possible limit inferior of the same ratio. The standing rests on the refereed
-paper and the site's credit, as the claim page records. The paper is not held in
-the library, so no proof is compiled or reviewed here. No status search
-beyond the site is recorded.
+The erdosproblems.com formulation of 2026-09-04 asks whether the ratio of the
+maximum term $\max_n|a_n|r^n$ to the maximum modulus $M(r)$ of a transcendental
+entire function, when it has a limit as $r\to\infty$, must have limit $0$.
+Clunie and Hayman's 1964 paper answers no: the limit can be any value in
+$[0,1/2]$. erdosproblems.com also records that Clunie, in unpublished work,
+proved the answer yes when every coefficient $a_n$ is nonnegative; that case has
+no dated manuscript and no page here, and it does not affect the disproof of the
+general question. The related [[problems/analysis/E0513/_index|Problem 513]]
+asks for the largest possible limit inferior of the same ratio. The standing
+rests on the refereed paper and the erdosproblems.com credit, as the claim page
+records. The paper is not held in the library, so no proof is compiled or
+reviewed here. No status search beyond erdosproblems.com is recorded.

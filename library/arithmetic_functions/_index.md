@@ -3,7 +3,7 @@ name: arithmetic_functions
 title: "Arithmetic Functions"
 desc: "Sources filed under Arithmetic Functions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-13T13:13:10Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Arithmetic Functions
@@ -177,7 +177,7 @@ integers up to x that are common values of Euler's phi and sigma.
 [[arithmetic_functions/gpt_5_5_pro_2026_totient_fibre_extremes/_index|gpt_5_5_pro_2026_totient_fibre_extremes/]]: A five-page note whose title page credits GPT-5.5 PRO, proving that the
 largest ratio of a maximal to a minimal totient preimage over totient
 values up to x is (e^gamma + o(1)) log log x; the written form of the
-argument the site accepted for Problem 694.
+argument erdosproblems.com accepted for Problem 694.
 
 [[arithmetic_functions/graham_1999_solutions_phi_n_phi_n_k/_index|graham_1999_solutions_phi_n_phi_n_k/]]: Studies shifted equal-totient solutions for fixed shifts, including a
 fixed-k exceptional bound and a conditional construction of equal-totient

@@ -34,35 +34,36 @@ $$
 
 for some constant $c$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 16
-January 2026). A representation is an unordered pair $a_1<a_2$ of distinct
-members with $a_1a_2=m$; squares $a^2$ are not representations. In Erdős's 1964
-paper the threshold $u_l(n)$ is the least $t$ such that every $t$-set in $[1,n]$
-has some $m$ with at least $l$ solutions of $m=b_ib_j$, so $g_k(n)=u_k(n)-1$
-whenever the two ways of counting representations agree; the 1964 page does not
-say whether $i=j$ is allowed. The site's commentary records Erdős's asymptotic
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 16 January 2026). A representation is an unordered pair $a_1<a_2$ of
+distinct members with $a_1a_2=m$; squares $a^2$ are not representations. In
+Erdős's 1964 paper the threshold $u_l(n)$ is the least $t$ such that every
+$t$-set in $[1,n]$ has some $m$ with at least $l$ solutions of $m=b_ib_j$, so
+$g_k(n)=u_k(n)-1$ whenever the two ways of counting representations agree; the
+1964 page does not say whether $i=j$ is allowed. The erdosproblems.com
+commentary records Erdős's asymptotic
 $g_k(n)\sim(\log\log n)^{r-1}n/((r-1)!\log n)$ for $2^{r-1}<k\le2^r$, the count
 of integers up to $n$ with $r$ distinct prime factors; the question is the
-second-order term for $k=3$, where the leading term is $n\log\log n/\log n$. The
-site says the question is only implicit in Erdős's 1969 remark that his
-second-order bounds for $u_3(n)$ might be sharpened, and that Erdős printed
+second-order term for $k=3$, where the leading term is $n\log\log n/\log n$.
+erdosproblems.com says the question is only implicit in Erdős's 1969 remark that
+his second-order bounds for $u_3(n)$ might be sharpened, and that Erdős printed
 those bounds, and so the question, with the denominator $(\log n)^2$ in the
-second term; the site prints $\log n$, reading the printed $(\log n)^2$ as a
-typo repeated through the display. Both printed forms are recorded below.
+second term; erdosproblems.com prints $\log n$, reading the printed $(\log n)^2$
+as a typo repeated through the display. Both printed forms are recorded below.
 
-**Status.** The site's label was OPEN (page last edited 16 January 2026;
-proof-claim tab accessed 2026-10-06). The standing derives from the claim pages.
-Two pending full claims that agree make it `claimed`, with `proved` the answer
-they assert. Nothing is accepted. The asymptotic
+**Status.** The erdosproblems.com label was OPEN (page last edited 16 January
+2026; proof-claim tab accessed 2026-10-06). The standing derives from the claim
+pages. Two pending full claims that agree make it `claimed`, with `proved` the
+answer they assert. Nothing is accepted. The asymptotic
 $g_3(n)=(1+o(1))n\log\log n/\log n$ is known (Erdős 1964, Theorem 3). In 1969
 Erdős stated, without proof, second-order bounds with the denominator
 $(\log n)^2$. In 1964 he remarked, without proof, that the second term is
 $O(n/(\log n)^{1+c})$. A 2026 forum construction (Tang) gives
 $g_3(n)\ge n\log\log n/\log n+(M+1+o(1))n/\log n$, with $M$ the Meissel--Mertens
-constant. If correct, it refutes both printed second-order claims. The site
-maintainer reads Erdős's 1964 proof as giving an upper bound with second term
-$O(n/\log n)$. Two full-proof claims of 15 July 2026 are on the site's
-proof-claim tab:
+constant. If correct, it refutes both printed second-order claims. The
+erdosproblems.com maintainer reads Erdős's 1964 proof as giving an upper bound
+with second term $O(n/\log n)$. Two full-proof claims of 15 July 2026 are on the
+erdosproblems.com proof-claim tab:
 [[problems/integer_sequences/E0796/claims/2026_07_15_gajjala|Gajjala]] and
 [[problems/integer_sequences/E0796/claims/2026_07_15_snyder|Snyder]], both
 pending. Each declares the use of a GPT 5.6 model and each has a Lean
@@ -73,11 +74,11 @@ negative finding on acceptance is bounded by that search and is not a
 certificate of openness.
 
 **Source.** [erdosproblems.com/796](https://www.erdosproblems.com/796),
-accessed 2026-09-18T05:33Z: the problem page (labeled OPEN, with the site's
-note that no finite computation can resolve it; last edited 16 January 2026;
-source key [Er69, p. 80]; commentary citing [Er64d], [Er69b], [Er69] and
-Problem 425), its four-comment discussion thread (27 October 2025 to 9
-January 2026) and its proof-claim tab with two full claims (15 July 2026).
+accessed 2026-09-18T05:33Z: the problem page (labeled OPEN, with the
+erdosproblems.com note that no finite computation can resolve it; last edited 16
+January 2026; source key [Er69, p. 80]; commentary citing [Er64d], [Er69b],
+[Er69] and Problem 425), its four-comment discussion thread (27 October 2025 to
+9 January 2026) and its proof-claim tab with two full claims (15 July 2026).
 Cite as: T. F. Bloom, Erdős Problem #796, https://www.erdosproblems.com/796,
 accessed 2026-09-18.
 
@@ -103,8 +104,8 @@ accessed 2026-09-18.
   Techniques in Graph Theory (Proc. Second Ann Arbor Graph Theory Conf.,
   1968), Academic Press (1969), 27--35. Library home:
   [[../library/graph_coloring/erdos_1969_problems_results_chromatic_graph_theory/_index|erdos_1969_problems_results_chromatic_graph_theory]]
-  (the card's row for this problem records that the passage the site cites
-  was not located in the paper's nine pages; below).
+  (the card's row for this problem records that the passage erdosproblems.com
+  cites was not located in the paper's nine pages; below).
 - [Ta26] Tang, Q., On Erdős Problem 796. Note (PDF and TeX source) in the
   [repository QuanyuTang/erdos-problem-796-note](https://github.com/QuanyuTang/erdos-problem-796-note/tree/a8a68df5cb745541c9b995e3aa4a8dcbacf056fb),
   linked at its commit of 9 January 2026 and linked from the thread;
@@ -131,36 +132,36 @@ development in
 linked at the commit the attribute names; its docstring says "The answer is
 yes: the rescaled error `normalizedError` converges." The collection's
 category and attribute record one of the July 2026 proof claims, while the
-site's label was OPEN; the disagreement is recorded under "Formalization and
-the proof claims" below. The community database (as of 2026-09-18) lists the
-problem open as of its entry's last update of 31 August 2025, which does not
-date any change of state, with the statement formalized since 7 August 2026,
-`formal_status` unformalized and no formal proof; the site's indicator records
-a formalized statement. This corpus has built or kernel-checked none of this
-Lean.
+erdosproblems.com label was OPEN; the disagreement is recorded under
+"Formalization and the proof claims" below. The community database (read
+2026-09-18) lists the problem open as of its entry's last update of 31 August
+2025, which does not date any change of state, with the statement formalized
+since 7 August 2026, `formal_status` unformalized and no formal proof; the
+erdosproblems.com indicator records a formalized statement. This corpus has
+built or kernel-checked none of this Lean.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
-OPEN, with the site's note that no finite computation resolves it, last
-edited 16 January 2026; source key [Er69, p. 80]. The commentary, in
+**The question (erdosproblems.com formulation).** The statement above;
+OPEN, with the erdosproblems.com note that no finite computation resolves it,
+last edited 16 January 2026; source key [Er69, p. 80]. The commentary, in
 summary:
 Erdős [Er64d] proved that if $2^{r-1}<k\le2^r$ then
 $g_k(n)\sim(\log\log n)^{r-1}n/((r-1)!\log n)$, the asymptotic count of
 the integers up to $n$ with $r$ distinct prime factors; Erdős discussed
-the second-order terms in [Er69b], where the site finds this question
+the second-order terms in [Er69b], where erdosproblems.com finds this question
 implicit, in contrast with Problem 425, which he asked explicitly more
 than once; in [Er69] the question appears with the denominator
 $(\log n)^2$ in the second term, and for $k=3$ Erdős states, as something
 he could prove, the two-sided bounds
 $n\log\log n/\log n+c_1n/(\log n)^2\le g_3(n)\le n\log\log n/\log n+c_2n/(\log n)^2$;
-the site finds this strange, since the upper- and lower-bound techniques
-of [Er64d] prove the same bounds with $\log n$ in place of $(\log n)^2$,
-and its best guess is that the squared denominator is a typo repeated
-through the reported bounds and the question, so that $\log n$ was meant
-throughout; the site credits the correction to Tang, who independently
-noted the improved lower bound (with a better constant $c_1$) in the
-comments, and refers the case $k=2$ to Problem 425. The thread, oldest
+erdosproblems.com finds this strange, since the upper- and lower-bound
+techniques of [Er64d] prove the same bounds with $\log n$ in place of
+$(\log n)^2$, and its best guess is that the squared denominator is a typo
+repeated through the reported bounds and the question, so that $\log n$ was
+meant throughout; erdosproblems.com credits the correction to Tang, who
+independently noted the improved lower bound (with a better constant $c_1$) in
+the comments, and refers the case $k=2$ to Problem 425. The thread, oldest
 first: a comment of 27 October 2025 (the account TerenceTao) that on p. 80
 of [Er69] the second part of the question concerns only $k=3$ and that the
 formulation is implicit, Erdős remarking only that it is unclear whether
@@ -186,10 +187,10 @@ $A$. The proof-claim tab holds two full claims of 15 July 2026 (below).
 **The sources.** [Er64d], Theorem 3 (p. 252),
 for $2^{k-1}<l\le2^k$:
 $u_l(n)=(1+o(1))\,n(\log\log n)^{k-1}/((k-1)!\log n)$, where $u_l(n)$ is
-the least size forcing some $m$ with $g(m)\ge l$; with $l=3$ (the site's
-$k$) and Erdős's $k=2$ (the site's $r$):
-$u_3(n)=(1+o(1))n\log\log n/\log n$, the site's leading term. The closing
-remark (p. 261) says that for $2^{k-1}<l\le2^k$ "Theorem 3 could be
+the least size forcing some $m$ with $g(m)\ge l$; with $l=3$
+(erdosproblems.com's $k$) and Erdős's $k=2$ (erdosproblems.com's $r$):
+$u_3(n)=(1+o(1))n\log\log n/\log n$, erdosproblems.com's leading term. The
+closing remark (p. 261) says that for $2^{k-1}<l\le2^k$ "Theorem 3 could be
 sharpened to" a second term $O(n/(\log n)^{1+c})$ "where $c>0$ is a
 suitable positive constant. But at present I can not prove for $l>2$ a
 result as sharp as (4) and (5)." [Er69], p. 80: equation (9), the same
@@ -200,12 +201,12 @@ introduced by "For $p>2$ I cannot at present get a result which is as sharp
 as (4). I just want to state without proof a special result in this
 direction" and followed by "It is not clear whether (10) can be sharpened."
 The result pages transcribe the displays as printed. The denominators
-$(\log n)^2$ are as printed, as the site says. [Er69b] does not carry the
-discussion of second-order terms that the site places there: its nine pages
-(printed pp. 27--35) say nothing on sequences of integers, products or
-representations, and its number-theoretic content is Turán's hypergraph
+$(\log n)^2$ are as printed, as erdosproblems.com says. [Er69b] does not carry
+the discussion of second-order terms that erdosproblems.com places there: its
+nine pages (printed pp. 27--35) say nothing on sequences of integers, products
+or representations, and its number-theoretic content is Turán's hypergraph
 problem, the $n^{3/2}$ extremal problems and clique sizes, with nothing on
-$g_k(n)$ or $u_l(n)$. The second-order discussion the site describes is
+$g_k(n)$ or $u_l(n)$. The second-order discussion erdosproblems.com describes is
 display (10) of [Er69]; the card's row for this problem records the [Er69b]
 key as unlocated.
 
@@ -223,22 +224,22 @@ the sharper form of the 1964 remark and implies it with $c=1$. Both are
 refuted, if Tang's Proposition 2.1 is
 right, by $g_3(n)\ge n\log\log n/\log n+(M+1+o(1))n/\log n$, since the
 products of two primes alone already contribute a second term of order
-$n/\log n$; the site's page adopts this reading and prints $\log n$ in the
-question. This page records the printed forms and the site's reading as
-the site's; the constant $c$, if it exists, is bounded below by $M+1$
-along Tang's construction (unverified) and the upper side rests on the
+$n/\log n$; the erdosproblems.com page adopts this reading and prints $\log n$
+in the question. This page records the printed forms and erdosproblems.com's
+reading as erdosproblems.com's; the constant $c$, if it exists, is bounded below
+by $M+1$ along Tang's construction (unverified) and the upper side rests on the
 maintainer's reading of Erdős's proof, also unverified. An observation of
-this page: the question as printed by the site asks whether
+this page: the question as printed by erdosproblems.com asks whether
 $(g_3(n)-n\log\log n/\log n)/(n/\log n)$ converges, which is exactly the
 formal-conjectures statement; a two-sided bound with distinct constants
 would leave the question open.
 
 **Formalization and the proof claims.** The proof-claim tab lists two
-full claims of 15 July 2026, neither examined by the site, which labeled
-the problem OPEN (page last edited 16 January 2026); each has a claim page,
-and the problem's standing is `claimed` through them:
+full claims of 15 July 2026, neither examined by erdosproblems.com, which
+labeled the problem OPEN (page last edited 16 January 2026); each has a claim
+page, and the problem's standing is `claimed` through them:
 
-- The account rishikeshgajjala (the site names Rishikesh Gajjala),
+- The account rishikeshgajjala (erdosproblems.com names Rishikesh Gajjala),
   declaring the use of GPT 5.6 Sol
   ([[problems/integer_sequences/E0796/claims/2026_07_15_gajjala|claim page]]):
   a constant $c$ between $1$ and $15$ exists, by Erdős's 1964 techniques
@@ -259,12 +260,12 @@ and the problem's standing is `claimed` through them:
   dependency on an external Lean project on the prime number theorem. The
   development is unbuilt in this corpus and the manuscript's proof
   unverified.
-- The account coffeewithcolin (the site names Colin Snyder), declaring the
-  use of GPT 5.6 in a custom harness
+- The account coffeewithcolin (erdosproblems.com names Colin Snyder), declaring
+  the use of GPT 5.6 in a custom harness
   ([[problems/integer_sequences/E0796/claims/2026_07_15_snyder|claim page]]):
   the constant $c$ exists and is the Mertens constant added to the limit of
   an explicit variational sequence, proved in Lean 4 over Mathlib with the
-  three standard axioms reported by the kernel; the solution page (as of
+  three standard axioms reported by the kernel; the solution page (accessed
   2026-10-07) heads its report "accepted 2026-07-14", names no human
   author, and states the theorem, the two gate lemmas and the axiom audit;
   nothing on this page rests on the contents of the downloadable archive.
@@ -294,18 +295,20 @@ and the problem's standing is `claimed` through them:
 No comparison of the two claims' constants, $1+M+\Gamma$ and the Mertens
 constant plus the limit of a variational sequence, is recorded. The
 formal-conjectures collection's `research solved` category for this problem,
-with its `formal_proof` attribute, disagrees with the site's OPEN label; this
-page follows the site and records the disagreement. Tang's note ([Ta26]) states
-Proposition 2.1 as stated above and, in its concluding remarks, records the p.
-261 remark of [Er64d] and conjectures $g_3(n)\le n\log\log n/\log n+cn/\log n$.
+with its `formal_proof` attribute, disagrees with erdosproblems.com's OPEN
+label; this page follows erdosproblems.com and records the disagreement. Tang's
+note ([Ta26]) states Proposition 2.1 as stated above and, in its concluding
+remarks, records the p. 261 remark of [Er64d] and conjectures
+$g_3(n)\le n\log\log n/\log n+cn/\log n$.
 
 **Search scope.** The routes below, as they stood on 2026-09-18, showed no
 refereed publication or independent review of either claim, no published
-second-order asymptotic and not the passage the site attributes to [Er69b].
+second-order asymptotic and not the passage erdosproblems.com attributes to
+[Er69b].
 
-- The site: problem page, discussion thread and proof-claim tab as accessed
-  2026-09-18; formal-conjectures `796.lean` at the commit linked above; the
-  community database as of 2026-09-18.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab as
+  accessed 2026-09-18; formal-conjectures `796.lean` at the commit linked above;
+  the community database, read 2026-09-18.
 - The three repositories at the commits linked above: Tang's note (TeX
   source), Gajjala's README, `Statement.lean` and `AUDIT.md`, and the 44
   files of the `williamjblair/lean-proofs` development.
@@ -322,13 +325,14 @@ manuscripts of the two proof claims; the proof of [Er64d]'s Theorem 3.
 asymptotic for $g_3(n)$; the two July 2026 proof claims with Lean developments
 are pending claims with their own pages, reviewed by no one outside their
 authors, and the formal-conjectures collection's category disagrees with the
-site's label. (2) Erdős's two printed second-order claims (1964, 1969), the
-second a sharpening of the first, are both contradicted by Tang's construction
-if it is right; the site's reading of the 1969 denominators as a typo is
-recorded as the site's. (3) The passage the site attributes to [Er69b] was not
-found in the paper; that card's row for this problem records this. (4) The
-convention question (whether Erdős's $g(m)$ counts $i=j$) is not settled by
-[Er64d] or [Er69] and does not affect the leading term.
+erdosproblems.com label. (2) Erdős's two printed second-order claims (1964,
+1969), the second a sharpening of the first, are both contradicted by Tang's
+construction if it is right; erdosproblems.com's reading of the 1969
+denominators as a typo is recorded as erdosproblems.com's. (3) The passage
+erdosproblems.com attributes to [Er69b] was not found in the paper; that card's
+row for this problem records this. (4) The convention question (whether Erdős's
+$g(m)$ counts $i=j$) is not settled by [Er64d] or [Er69] and does not affect the
+leading term.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

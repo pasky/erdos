@@ -191,8 +191,8 @@ known solutions $M(4;3)=M(13;2)$ and $M(3;4)=M(19;2)$ of the general
 equation; [[../wiki/problems/integer_sequences/E0678/_index|#678]]: item 2 (p. 67, PDF
 p. 1, page image) poses $M(n;k)>M(m;k+1)$ with the referee's two solutions,
 the problem's question, in a sentence that leaves open whether $k$ is fixed;
-p. 68 (PDF p. 2) carries the $n_k$ and $u_k$ remarks the site's commentary
-repeats.
+p. 68 (PDF p. 2) carries the $n_k$ and $u_k$ remarks the erdosproblems.com
+commentary repeats.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

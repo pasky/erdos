@@ -48,8 +48,8 @@ $641\mid2^{32}+1$), negative shifts ($n+2\le1$ at $k=0$), or questions
 (i), (ii) and (iii.b) to (iii.d).
 
 **Standing.** Pending. An olympiad's official solutions are not a journal
-publication and name no outside reviewer. The site credits (iii.a) to the
-note's author and GPT and does not mention this proof. Nothing here is
-this project's own review.
+publication and name no outside reviewer. erdosproblems.com credits (iii.a) to
+the note's author and GPT and does not mention this proof. Nothing here is this
+project's own review.
 
 **Depends on.** No page of this wiki.

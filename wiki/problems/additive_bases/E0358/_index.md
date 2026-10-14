@@ -35,12 +35,13 @@ $f(n)\geq 2$ for all large $n$?
 
 **Status.** PROVED (LEAN). Tao's 2026 probabilistic construction gives
 $f(n)\gg\log n$ for all large $n$, which answers both questions yes
-([[problems/additive_bases/E0358/claims/2026_02_23_tao|claim page]]). The site's
-label rested on a third-party Lean proof that this corpus has not audited. The
-Lean proof establishes the two answers and not the logarithmic bound. A thread
-report of 2026-03-27 found the middle-range step of Proposition 3.1 in the
-posted manuscript false as written. Tao said the next revision will correct it.
-No revision had been posted by 2026-10-07. The claim page records the dispute.
+([[problems/additive_bases/E0358/claims/2026_02_23_tao|claim page]]). The
+erdosproblems.com label rested on a third-party Lean proof that this corpus has
+not audited. The Lean proof establishes the two answers and not the logarithmic
+bound. A thread report of 2026-03-27 found the middle-range step of Proposition
+3.1 in the posted manuscript false as written. Tao said the next revision will
+correct it. No revision had been posted by 2026-10-07. The claim page records
+the dispute.
 
 **Source.** [erdosproblems.com/358](https://www.erdosproblems.com/358), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #358,
@@ -71,11 +72,11 @@ https://www.erdosproblems.com/358.
 
 ## Current assessment
 
-The site labeled the problem PROVED (LEAN) (page last edited 1 April 2026).
-The problem's standing is solved, proved, through Tao's full claim
+Bloom's catalog labeled the problem PROVED (LEAN) (page last edited 1 April
+2026). The problem's standing is solved, proved, through Tao's full claim
 ([[problems/additive_bases/E0358/claims/2026_02_23_tao|claim page]]), whose
 evidence is the curator's acceptance: T. F. Bloom records the construction on
-the problem page as the solution. The Lean file that the site and the
+the problem page as the solution. The Lean file that erdosproblems.com and the
 formal-conjectures statement file point to, with Codex and GPT-5.6 Sol as its
 formal authors, proves both answers, $f(n)\to\infty$ and $f(n)\ge2$ for all
 large $n$, but not the bound $f(n)\gg\log n$; this corpus has not built or
@@ -90,9 +91,9 @@ rejected
 Sothanaphan's with GPT-5.2 Thinking is withdrawn
 ([[problems/additive_bases/E0358/claims/2026_02_18_sothanaphan|claim page]]).
 
-Search scope: the site's problem page and discussion thread, Tao's manuscript
-of 2026-02-24, and Crossref and arXiv, which listed no published or posted
-version of it on 2026-10-07.
+Search scope: the erdosproblems.com problem page and discussion thread, Tao's
+manuscript of 2026-02-24, and Crossref and arXiv, which listed no published or
+posted version of it on 2026-10-07.
 
 ## Known Results
 
@@ -104,11 +105,11 @@ write-up with GPT-5.2 Pro (2026-02-11), rejected
 ([[problems/additive_bases/E0358/claims/2026_02_11_chojecki|claim page]]), and
 Nat Sothanaphan's write-up with GPT-5.2 Thinking (2026-02-18), withdrawn
 ([[problems/additive_bases/E0358/claims/2026_02_18_sothanaphan|claim page]]).
-The site's remarks record the classical facts: for $A=\mathbb N$ the count
-$f(n)$ is the number of odd divisors of $n$, so $n$ is a sum of consecutive
-positive integers if and only if $n$ is not a power of $2$; and for $A$ the
-primes, the question Erdős and Moser studied [Mo63], even a positive density of
-represented integers is not known.
+The erdosproblems.com remarks record the classical facts: for $A=\mathbb N$ the
+count $f(n)$ is the number of odd divisors of $n$, so $n$ is a sum of
+consecutive positive integers if and only if $n$ is not a power of $2$; and for
+$A$ the primes, the question Erdős and Moser studied [Mo63], even a positive
+density of represented integers is not known.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

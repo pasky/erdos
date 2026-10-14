@@ -73,7 +73,7 @@ computation not verified.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0283/_index|Problem 283]]: the case $p(x)=x^2$, for
-  all $m>8542$ (the site's "Alekseyev [Al19] has proved this when
+  all $m>8542$ (erdosproblems.com's "Alekseyev [Al19] has proved this when
   $p(x)=x^2$, for all $m>8542$").
 - [[../wiki/problems/additive_bases/E0351/_index|Problem 351]]: the case $p(x)=x^2$
   without the removal of a finite set. A representation $m=\sum x_i^2$ with

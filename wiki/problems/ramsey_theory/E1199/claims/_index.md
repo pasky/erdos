@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1199, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E1199/claims
@@ -17,7 +17,7 @@ holds $A+A$, doubles included, for some infinite $A$. The claim is partial.
 
 [[problems/ramsey_theory/E1199/claims/2026_07_19_huang_lian_shao_xiao_xu_zhang|2026_07_19_huang_lian_shao_xiao_xu_zhang]]: The preprint of Huang, Lian, Shao, Xiao, Xu and Zhang claims that every
 two-coloring of the natural numbers has an infinite set $B$ with $B+B$,
-doubles included, in one color, which is the site's statement. The claim is
-unreviewed and pending.
+doubles included, in one color, which is the erdosproblems.com statement. The
+claim is unreviewed and pending.
 
 ***

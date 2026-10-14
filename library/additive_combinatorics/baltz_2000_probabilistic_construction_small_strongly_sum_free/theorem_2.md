@@ -36,7 +36,7 @@ proved that $f(n)=O(n^{3/4})$ and conjectured $f(n)=O(n^{1/2+\varepsilon})$."
 
 **Theorem 2** (p. 173). $f(n)=O(n^{2/3}\ln^{2/3}n)$.
 
-The site's Problem 788 states the same function with the open intervals
+erdosproblems.com's Problem 788 states the same function with the open intervals
 $(2n,4n)$ and $(n,2n)$; the two conventions differ by at most one element
 in each interval.
 
@@ -46,7 +46,7 @@ Math. 86 (2000), no. 2, 171--176, DOI 10.4064/cm-86-2-171-176 (received 4
 May 1999, revised 1 December 1999; Crossref record read 2026-09-18). The
 retained PDF is the journal's six-page file with a complete text layer;
 printed p. $n$ is PDF p. $n-170$. Theorem 2 on printed p. 173 (PDF p. 3),
-read in the text layer; the site's key [BSS00].
+read in the text layer; the erdosproblems.com key [BSS00].
 
 **Read depth.** Claims checked: the definitions, the greedy lower bound,
 the report of Choi's bounds and Theorem 2 were read clause by clause in the
@@ -76,7 +76,7 @@ Hungar. 26 (1975), 113--121; the paper's [4]), at statement level.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0788/_index|Problem 788]]: the bound
-  $f(n)\ll(n\log n)^{2/3}$ the site quotes, the best held refereed upper
-  bound; the same page's greedy $f(n)\ge\sqrt n$ and its report of Choi's
+  $f(n)\ll(n\log n)^{2/3}$ erdosproblems.com quotes, the best held refereed
+  upper bound; the same page's greedy $f(n)\ge\sqrt n$ and its report of Choi's
   $O(n^{3/4})$ and conjecture $O(n^{1/2+\varepsilon})$ are the problem's
   lower bound and origin as attested in a refereed paper.

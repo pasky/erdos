@@ -72,7 +72,7 @@ Komlós--Szemerédi as cited.
 - [[../wiki/problems/extremal_graph_theory/E0718/_index|Problem 718]]: the problem's
   statement with $C=256$, stated here in a refereed paper's words as a
   quotation of the two proofs; the paper's attribution names the conjecture
-  as Erdős and Hajnal's and Mader's, matching the site's "Erdős, Hajnal, and
-  Mader".
+  as Erdős and Hajnal's and Mader's, matching erdosproblems.com's "Erdős,
+  Hajnal, and Mader".
 - [[../wiki/problems/extremal_graph_theory/E0717/_index|Problem 717]]: the first tool of
   the proof of Theorem 1.2, hence of Theorem 1.1.

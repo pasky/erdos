@@ -36,15 +36,15 @@ exist? Does $\liminf h(n)=\infty$? Is it true, for every $\epsilon>0$ and all
 sufficiently large $n$, that if $p$ is the greatest prime such that
 $p-1\mid n$ and $p>n^\epsilon$ then $h(n)=p$?
 
-**Notes.** The site's wording admits two degenerate readings. First, "mutually
-coprime" in its usual sense, every pair coprime, is met vacuously by the
-one-term list $2^n-1$, so $h(n)=2$ for every $n$: the smallest instance is
+**Notes.** The erdosproblems.com wording admits two degenerate readings. First,
+"mutually coprime" in its usual sense, every pair coprime, is met vacuously by
+the one-term list $2^n-1$, so $h(n)=2$ for every $n$: the smallest instance is
 $n=2$, where the collective gcd gives $h(2)=3$ and the pairwise reading gives
-$h(2)=2$. On that reading the three questions are trivial, and the site's own
-remark that $h(n)=n+1$ if and only if $n+1$ is prime fails at every $n\ge2$ with
-$n+1$ prime. Second, the third question carries no quantifiers; read for one
-fixed $\epsilon$ and every $n$, it fails at $n=3$ for every
-$\epsilon<\log2/\log3$ ($P(3)=2$, $h(3)=3$) and at $n=86$ for every
+$h(2)=2$. On that reading the three questions are trivial, and
+erdosproblems.com's own remark that $h(n)=n+1$ if and only if $n+1$ is prime
+fails at every $n\ge2$ with $n+1$ prime. Second, the third question carries no
+quantifiers; read for one fixed $\epsilon$ and every $n$, it fails at $n=3$ for
+every $\epsilon<\log2/\log3$ ($P(3)=2$, $h(3)=3$) and at $n=86$ for every
 $\epsilon<\log3/\log86$ ($P(86)=3$, $h(86)=5$, the example Zeng's listing
 gives), where $P(n)$ is the greatest prime $p$ with $p-1\mid n$. Both values of
 $h$ were checked by direct computation of the gcds. The change replaces
@@ -59,15 +59,15 @@ says at once that $h(n)=n+1$ when $n+1$ is prime and conversely, which holds
 only for the collective gcd; the unnumbered lemma on the same page, "The set of
 integers $k^n-1$, $2\le k\le n+1$ is relatively prime", uses the phrase for the
 collective gcd, since for $n\ge3$ the list contains $2^n-1$ and $4^n-1$, and the
-first divides the second. The site's commentary states the same equivalence. On
-printed p. 200 the third question reads "It is possible that if $A(n)$ is large
-(say $>n^\varepsilon$) then $A(n)=h(n)$": the hypothesis is that $A(n)=P(n)$ be
-large, with $n^\epsilon$ for a fixed $\epsilon>0$ as the example of largeness,
-so the statement concerns large $n$. The first defect is the site's ("mutually
-coprime" for Erdős's "relatively prime"); the missing quantifiers are already in
-Erdős's text. The formal-conjectures statement file, which counts with the site,
-reads the problem the same way. No result about either degenerate reading is
-recorded.
+first divides the second. The erdosproblems.com commentary states the same
+equivalence. On printed p. 200 the third question reads "It is possible that if
+$A(n)$ is large (say $>n^\varepsilon$) then $A(n)=h(n)$": the hypothesis is that
+$A(n)=P(n)$ be large, with $n^\epsilon$ for a fixed $\epsilon>0$ as the example
+of largeness, so the statement concerns large $n$. The first defect is
+erdosproblems.com's ("mutually coprime" for Erdős's "relatively prime"); the
+missing quantifiers are already in Erdős's text. The formal-conjectures
+statement file, which counts with erdosproblems.com, reads the problem the same
+way. No result about either degenerate reading is recorded.
 
 **Formulation.** With the collective gcd, only at $n=1$ does it matter
 whether a one-term list counts: $h(1)=2$ if it does, and $3$ under the
@@ -98,8 +98,8 @@ would be answered yes by Zeng's claimed bound below, taking any
 $\epsilon>1/2$; the first two questions are open under either reading, so
 the standing does not depend on the choice.
 
-**Status.** The site's label was OPEN (page last edited 24 September 2025). The
-standing derives from the claim pages. The only claim page,
+**Status.** The erdosproblems.com label was OPEN (page last edited 24 September
+2025). The standing derives from the claim pages. The only claim page,
 [[problems/integer_sequences/E0770/claims/2026_07_24_zeng|Zeng 2026]], is
 partial, so the problem's standing is open, with no pending full claim. The
 partial claim settles the third implication for every fixed $\epsilon>1/2$, but
@@ -136,7 +136,8 @@ public Notes (author-recorded).
 It does not settle the endpoint $\epsilon=1/2$, the smaller positive exponents,
 the density limits for $h$, or its limit inferior. The public listing itself
 calls the result partial and leaves novelty and priority undetermined. Its
-appearance on the site does not imply a site correctness review.
+appearance on erdosproblems.com does not imply an erdosproblems.com correctness
+review.
 
 Search scope: the original Erdős source, the
 [[../library/integer_sequences/bugeaud_corvaja_zannier_2003_gcd_upper_bound/_index|BCZ fixed-base gcd theorem]],

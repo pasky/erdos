@@ -29,9 +29,9 @@ updated: 2026-10-08T01:30:44Z
 Hanson and Seyffarth, *$k$-saturated graphs of prescribed maximum degree*,
 Congressus Numerantium (1984); the page's reference [HaSe84] gives pp.
 169--182, Füredi and Seress cite volume 42, pp. 169--182, and Haviv and Levy
-cite volume 44, pp. 127--138. The account below rests on the site's commentary
-and on the two papers that build on it. The page name carries the publication
-year; the day is not recorded in any source read.
+cite volume 44, pp. 127--138. The account below rests on the erdosproblems.com
+commentary and on the two papers that build on it. The page name carries the
+publication year; the day is not recorded in any source read.
 
 **The result.** A subset $S$ of an abelian group $G$ is symmetric when
 $S=-S$, sum-free when no $a,b,c\in S$ satisfy $a+b=c$, and complete when
@@ -43,27 +43,27 @@ of [HaLe18]); Haviv and Levy remark there, in their own words, that
 completeness forces $|S|\ge\sqrt{2|G|}-O(1)$. Hanson and Seyffarth
 constructed such sets in cyclic groups $\mathbb Z_n$ for $n=m^2+5m+2$ (the
 range Haviv and Levy state for the result) of size $O(\sqrt n)$, so that
-$f(n)=O(\sqrt n)$ along this sequence. The site's commentary records the bound
-as $f(n)\le(\sqrt2+o(1))\sqrt n$; Füredi and Seress (Section 6 of [FuSe94])
-report it as $(2+o(1))\sqrt n$, and the remark in the 2 July 2024 version of
-Alon's note, also cited on
+$f(n)=O(\sqrt n)$ along this sequence. The erdosproblems.com commentary records
+the bound as $f(n)\le(\sqrt2+o(1))\sqrt n$; Füredi and Seress (Section 6 of
+[FuSe94]) report it as $(2+o(1))\sqrt n$, and the remark in the 2 July 2024
+version of Alon's note, also cited on
 [[problems/extremal_graph_theory/E0134/_index|Problem 134]], gives
 $f(n)\le2\sqrt n$ and adds that a Cayley graph of an abelian group cannot
-have maximum degree below $(\sqrt2+o(1))\sqrt n$, the lower limit the site's
-constant matches; the constant is not checked here.
+have maximum degree below $(\sqrt2+o(1))\sqrt n$, the lower limit
+erdosproblems.com's constant matches; the constant is not checked here.
 
 **Covers.** The second question: $f(n)/\sqrt n$ does not tend to infinity,
 because $f(n)\le C\sqrt n$ for infinitely many $n$ while the trivial bound
 $f(n)\ge\sqrt{n-1}$ holds for every $n$. The sources differ on the range of
-the bound: the site, Füredi and Seress and the remark in Alon's note state it
-for all large $n$, while Haviv and Levy state it, for the symmetric complete
-sum-free sets in $\mathbb Z_n$, along $n=m^2+5m+2$. This page records the
-narrower range and does not claim the order of growth for every $n$, although
-the sequence has consecutive ratios tending to $1$ and duplicating vertices
-(which keeps a graph triangle-free of diameter $2$ and at most doubles its
-maximum degree) carries a bound along it to every large $n$, the step the Lean
-development below takes. The order of growth for every $n$ is recorded under
-the two refereed full claims,
+the bound: erdosproblems.com, Füredi and Seress and the remark in Alon's note
+state it for all large $n$, while Haviv and Levy state it, for the symmetric
+complete sum-free sets in $\mathbb Z_n$, along $n=m^2+5m+2$. This page records
+the narrower range and does not claim the order of growth for every $n$,
+although the sequence has consecutive ratios tending to $1$ and duplicating
+vertices (which keeps a graph triangle-free of diameter $2$ and at most doubles
+its maximum degree) carries a bound along it to every large $n$, the step the
+Lean development below takes. The order of growth for every $n$ is recorded
+under the two refereed full claims,
 [[problems/extremal_graph_theory/E0133/claims/1994_01_01_furedi_seress|Füredi and Seress]]
 and
 [[problems/extremal_graph_theory/E0133/claims/2017_03_12_haviv_levy|Haviv and Levy]].
@@ -86,14 +86,14 @@ problem points to this declaration as its formal proof (see the problem
 page). The corpus has not built, kernel-checked or audited the file, so the
 evidence stays `reviewed` only.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked the problem DISPROVED.
-In the commentary the curator credits the bound to Hanson and Seyffarth under
-the reference [HaSe84] (read 2026-10-07). That credit is the `reviewed`
-evidence, and Bloom took no part in the paper. The bound refutes the conjecture
-$f(n)/\sqrt n\to\infty$ of Erdős and Pach, as [Er97b] words it. Two refereed
-papers restate the result as established. Füredi and Seress (J. Graph Theory 18
-(1994), Section 6) write that Hanson and Seyffarth determined the true order of
-magnitude. Haviv and Levy (Israel J. Math. 227 (2018), Section 1) extend it to
-every $n$. These are documented acceptances by named experts. It is not
-documented here whether Congressus Numerantium refereed the paper, so `refereed`
-is not listed.
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, marked the problem
+DISPROVED. In the commentary the curator credits the bound to Hanson and
+Seyffarth under the reference [HaSe84] (read 2026-10-07). That credit is the
+`reviewed` evidence, and Bloom took no part in the paper. The bound refutes the
+conjecture $f(n)/\sqrt n\to\infty$ of Erdős and Pach, as [Er97b] words it. Two
+refereed papers restate the result as established. Füredi and Seress (J. Graph
+Theory 18 (1994), Section 6) write that Hanson and Seyffarth determined the true
+order of magnitude. Haviv and Levy (Israel J. Math. 227 (2018), Section 1)
+extend it to every $n$. These are documented acceptances by named experts. It is
+not documented here whether Congressus Numerantium refereed the paper, so
+`refereed` is not listed.

@@ -64,5 +64,5 @@ link, appeared in the Proceedings of the 39th Annual Symposium on Foundations of
 Computer Science (1998), 684--693. The issue is dated January 2000 without a
 day, so the page is dated to the first day of that month. The curator of
 erdosproblems.com, Thomas Bloom, credits the bound to this paper in the
-problem's commentary. The site labeled the problem OPEN, so that credit is not
-acceptance of this partial claim.
+problem's commentary. Bloom's catalog labeled the problem OPEN, so that credit
+is not acceptance of this partial claim.

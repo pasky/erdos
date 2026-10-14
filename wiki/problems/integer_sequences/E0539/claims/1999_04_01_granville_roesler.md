@@ -46,8 +46,8 @@ so one of the two coordinate sets has at least $m^{1/2}$ values. The upper
 bound is the count for the sets
 $\{(x,y)\in\mathbb Z^2:x,y\ge0,\ L<x+y\le U\}$ with
 $L,U=((2m)^{2/3}\mp(2m)^{1/3})/2+O(1)$ (pp. 2--3), which the paper credits
-to Freiman and Lev without a reference; the site's commentary and Erdős's
-1973 survey credit the lower bound, and the weaker upper bound
+to Freiman and Lev without a reference; the erdosproblems.com commentary and
+Erdős's 1973 survey credit the lower bound, and the weaker upper bound
 $h(n)<n^{1-c}$, to Erdős and Szemerédi, who published no proof. Library
 home
 [[../library/integer_sequences/granville_1999_set_differences_given_set/_index|granville_1999_set_differences_given_set]];
@@ -76,9 +76,9 @@ printed, and the count for the Freiman--Lev sets is the paper's own.
 **Acceptance.** Refereed: the paper is a journal publication in the American
 Mathematical Monthly, volume 106, issue 4 (April 1999). This is the `refereed`
 evidence. The issue carries no day, so this page is dated to the first day of
-that month. The site's curator, Thomas Bloom, credits the two bounds to Erdős
-and Szemerédi and to Freiman and Lev, and points to this paper for their proofs.
-But the site labeled the problem OPEN, so that credit is not `reviewed`
-evidence. The paper's statements are checked against the text. This corpus has
-not checked the proof of Theorem 1 (p. 4) or the Freiman--Lev count, and nothing
-is independently reviewed by this project.
+that month. The erdosproblems.com curator, Thomas Bloom, credits the two bounds
+to Erdős and Szemerédi and to Freiman and Lev, and points to this paper for
+their proofs. But Bloom's catalog labeled the problem OPEN, so that credit is
+not `reviewed` evidence. The paper's statements are checked against the text.
+This corpus has not checked the proof of Theorem 1 (p. 4) or the Freiman--Lev
+count, and nothing is independently reviewed by this project.

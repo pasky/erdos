@@ -240,8 +240,8 @@ their inequalities were not checked. Nothing here is independently reviewed.
 - Translation to Problem 1012's letters. The problem's $k$ is the paper's
   $r$, and the paper's $k$ is the minimum valency, $0$ in Corollary 11.1.
   The first bound of Corollary 11.1 at $r=k$ is the problem's edge count
-  $\binom{n-k-1}2+\binom{k+2}2+1$, its range $n\ge2k+3$ is the site's, and
-  its conclusion includes the length $d=n-k$; $G_4(n,k)$ is the problem's
+  $\binom{n-k-1}2+\binom{k+2}2+1$, its range $n\ge2k+3$ is erdosproblems.com's,
+  and its conclusion includes the length $d=n-k$; $G_4(n,k)$ is the problem's
   sharpness graph, $K_{n-k-1}$ and $K_{k+2}$ sharing one vertex. The second
   bound covers $k+3\le n<2k+3$; the result page compares it with the
   problem's count.
@@ -281,14 +281,14 @@ consumes, are recorded from the page images or the text layer as the read
 status says. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1012/_index|#1012]]: Corollary
-11.1 (printed p. 749, PDF p. 11) is the theorem the site credits to the
+11.1 (printed p. 749, PDF p. 11) is the theorem erdosproblems.com credits to the
 paper, read here in the original: a graph on $n\ge2r+3$ vertices with at
 least $\binom{n-r-1}2+\binom{r+2}2+1$ edges contains a circuit of every
 length $d$ with $3\le d\le n-r$, and a graph on $r+3\le n<2r+3$ vertices
 with at least $[\frac14n^2]+1$ edges does too. With $r=k$ the first bound
-is the problem's edge count, the range is the site's $n\ge2k+3$, and the
-length $n-k$ is included, so $f(k)\le2k+3$ in the site's letters; the
-statement matches Theorem 8 of
+is the problem's edge count, the range is erdosproblems.com's $n\ge2k+3$, and
+the length $n-k$ is included, so $f(k)\le2k+3$ in erdosproblems.com's letters;
+the statement matches Theorem 8 of
 [[extremal_graph_theory/li_2023_stability_woodall_theorem_spectral_conditions_large_cycles/_index|Li and Ning 2023]]
 (p. 4). The paper itself
 frames the corollary as the answer to Erdős's 1969 question (p. 741,

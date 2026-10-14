@@ -25,13 +25,13 @@ inequality.
 
 P. Horák, He Qing and W. T. Trotter, *Induced matchings in cubic graphs*,
 J. Graph Theory 17 (1993), no. 2, 151--160; DOI 10.1002/jgt.3190170204
-(Crossref record read 2026-09-19; issued June 1993). The site's key HHT93
-on Problem 149 prints the authors as "Horák, Peter and He, Qing and Trotter,
-William T."; the paper prints "He Qing".
+(Crossref record read 2026-09-19; issued June 1993). The erdosproblems.com key
+HHT93 on Problem 149 prints the authors as "Horák, Peter and He, Qing and
+Trotter, William T."; the paper prints "He Qing".
 
 **Edition read.** The copy read for this card is the
 author's copy from W. T. Trotter's publication page, item 85 of the list at
-<https://trotter.math.gatech.edu/papers/epubs.html>, which the site's
+<https://trotter.math.gatech.edu/papers/epubs.html>, which the erdosproblems.com
 discussion thread of Problem 149 links: a 10-page scan of the journal pages
 151--160 with an OCR text layer (Acrobat 5.0 Paper Capture; PDF metadata
 title "Induced matchings in cubic graphs"), so printed p. $n$ is PDF
@@ -111,11 +111,11 @@ paged on
 [[extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/theorem_1|theorem_1]].
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: the Theorem
-(p. 152, page image) proves the site's statement for $\Delta\le3$, the
-site's "$\mathrm{sq}(G)\le10$ when $\Delta\le3$", with the site's sharpness
-example (the $C_8$ with all four diagonals) and Andersen's independent
-proof as the paper reports them; p. 152 also dates the problem to the
-Prague seminar at the end of 1985, states the trivial bound
+(p. 152, page image) proves the erdosproblems.com statement for $\Delta\le3$,
+erdosproblems.com's "$\mathrm{sq}(G)\le10$ when $\Delta\le3$", with
+erdosproblems.com's sharpness example (the $C_8$ with all four diagonals) and
+Andersen's independent proof as the paper reports them; p. 152 also dates the
+problem to the Prague seminar at the end of 1985, states the trivial bound
 $2\Delta^2-2\Delta+1$ and records the earlier bound $23$ for $\Delta=4$.
 
 No file of this source is held: no license on record permits its redistribution,

@@ -55,7 +55,7 @@ Winnipeg, 1980, pp. 125--157; the edition read is named on the
 ## Bears on
 
 - [[../wiki/problems/graph_coloring/E0799/_index|Problem 799]]: the problem
-  is the site's question whether $\chi_L(G)=o(n)$ for almost all graphs on
-  $n$ vertices, posed here for the random graph $R_n$ with all edge sets
-  equally likely. The paper poses it and proves nothing either way; the
+  is the erdosproblems.com question whether $\chi_L(G)=o(n)$ for almost all
+  graphs on $n$ vertices, posed here for the random graph $R_n$ with all edge
+  sets equally likely. The paper poses it and proves nothing either way; the
   problem page records the later answer.

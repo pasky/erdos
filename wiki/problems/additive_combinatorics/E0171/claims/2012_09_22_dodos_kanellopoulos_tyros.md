@@ -52,8 +52,8 @@ density-increment argument
 ([[problems/additive_combinatorics/E0171/claims/2009_10_20_polymath|claim page]])
 but shorter: it avoids the equal-slices measure and works with the uniform
 measure throughout. The paper is not held in the library and is not among
-the site's references; its statement is taken from its abstract and from the
-Lean file below, and the theorem itself is the one of Furstenberg and
+the erdosproblems.com references; its statement is taken from its abstract and
+from the Lean file below, and the theorem itself is the one of Furstenberg and
 Katznelson
 ([[problems/additive_combinatorics/E0171/claims/1991_12_01_furstenberg_katznelson|claim page]]).
 
@@ -62,10 +62,10 @@ route to the theorem beside the Furstenberg--Katznelson and Polymath proofs.
 
 **Acceptance.** Refereed: the paper appeared in International Mathematics
 Research Notices. The publication record dates it to 15 March 2013 online and to
-the 2014 volume, issue 12, in print. Not reviewed: the site's curator credits
-the problem to Furstenberg and Katznelson and to the Polymath project, not to
-this paper. No outside reviewer of this proof is documented. Nothing here is
-this project's own review of the proof.
+the 2014 volume, issue 12, in print. Not reviewed: the erdosproblems.com curator
+credits the problem to Furstenberg and Katznelson and to the Polymath project,
+not to this paper. No outside reviewer of this proof is documented. Nothing here
+is this project's own review of the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos171.lean` of Boris
 Alexeev's lean-proofs repository (first added 2026-08-17, last changed
@@ -87,5 +87,5 @@ database (teorth/erdosproblems), read 2026-10-07, lists the problem as "proved
 (Lean)" with `formal_status` Lean, both as of their last update on 2026-08-24,
 and `formalized` "yes" as of its last update on 2026-09-20, without dating when
 either state changed. This corpus has not built or audited the development, and
-the fidelity of its definitions to the site's question has not been
+the fidelity of its definitions to the erdosproblems.com question has not been
 independently reviewed, so the page lists no `formalized` evidence.

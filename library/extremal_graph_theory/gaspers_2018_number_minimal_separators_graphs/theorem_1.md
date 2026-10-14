@@ -4,7 +4,7 @@ title: "Theorem 1 (p. 3 of the preprint): sep(n) = O(ρ^n · n) with ρ the gold
 desc: |
   Gaspers and Mackenzie's one-paragraph proof that an n-vertex graph has
   O(ρ^n · n) minimal separators, ρ = (1 + √5)/2, by a measure on
-  [a, d]-separations; the site's "simpler proof" of the Fomin–Villanger
+  [a, d]-separations; erdosproblems.com's "simpler proof" of the Fomin–Villanger
   upper bound for the Erdős–Nešetřil growth rate.
 created: 2026-09-19T08:05:00Z
 updated: 2026-10-08T01:29:58Z
@@ -59,8 +59,9 @@ None beyond the definitions.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0150/_index|Problem 150]]: the site's "with a
-  simpler proof in [GaMa18]" of the upper bound $\alpha\le\frac{1+\sqrt5}2$,
-  which transfers to minimal cuts because every minimal cut is a minimal
-  separator; p. 2 also attests the Fomin--Kratsch--Todinca--Villanger bound
-  $O(1.7087^n)$, whose paper is not held.
+- [[../wiki/problems/extremal_graph_theory/E0150/_index|Problem 150]]:
+  erdosproblems.com's "with a simpler proof in [GaMa18]" of the upper bound
+  $\alpha\le\frac{1+\sqrt5}2$, which transfers to minimal cuts because every
+  minimal cut is a minimal separator; p. 2 also attests the
+  Fomin--Kratsch--Todinca--Villanger bound $O(1.7087^n)$, whose paper is not
+  held.

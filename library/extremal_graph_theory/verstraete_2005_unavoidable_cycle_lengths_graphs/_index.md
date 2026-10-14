@@ -27,7 +27,7 @@ at most 2^120 k^24; it is the graph-theoretic input to Theorem 1.
 
 J. Verstraëte, *Unavoidable cycle lengths in graphs*, J. Graph Theory **49**
 (2005), no. 2, 151--167, DOI 10.1002/jgt.20072. The year and pages are the
-site's entry as carried by
+erdosproblems.com entry as carried by
 [[../wiki/problems/extremal_graph_theory/E0072/_index|#72]]; the volume,
 issue, pages and DOI agree with the Crossref record (read 2026-10-07), which
 dates the online publication 21 March 2005; the preprint read for this card

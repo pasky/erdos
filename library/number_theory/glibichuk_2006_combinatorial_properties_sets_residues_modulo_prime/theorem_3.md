@@ -91,7 +91,7 @@ $\sqrt p$ elements for large $p$ (p. 393).
 ## Bears on
 
 - [[../wiki/problems/number_theory/E1180/_index|Problem 1180]]: the bound
-  $C_\varepsilon\ll\varepsilon^{-2}$ the site credits to Glibichuk, in the
-  stronger form with pairwise distinct summands, for all sufficiently large
+  $C_\varepsilon\ll\varepsilon^{-2}$ erdosproblems.com credits to Glibichuk, in
+  the stronger form with pairwise distinct summands, for all sufficiently large
   $p$; the finitely many smaller primes are covered on the problem page by an
   authored remark (with repetition allowed) and by Croot's Theorem 2.

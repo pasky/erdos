@@ -29,7 +29,7 @@ $$
 C_k=\lim_{n\to\infty}f(n,k)^{1/n}.
 $$
 
-**Status.** Open, in the site's label. The accepted partial claims
+**Status.** Open, in the erdosproblems.com label. The accepted partial claims
 [[problems/discrete_geometry/E0528/claims/1964_08_01_kesten|Kesten 1964]] and
 [[problems/discrete_geometry/E0528/claims/2007_08_21_clisby_liang_slade|Clisby,
 Liang and Slade 2007]] give the asymptotics of $C_k$ in powers of $1/k$.
@@ -59,11 +59,11 @@ https://www.erdosproblems.com/528.
   Phys. A (2016), 494004, 18.
 - [Ke63] Kesten, Harry, On the number of self-avoiding walks. J. Mathematical
   Phys. (1963), 960-969. This paper proves the ratio limit of the walk counts,
-  not an expansion of $C_k$. The site's commentary credits Kesten under this
-  key with $C_k=2k-1-1/(2k)+O(1/k^2)$; that expansion is proved in the sequel,
-  H. Kesten, On the number of self-avoiding walks. II, J. Math. Phys. 5
-  (1964), no. 8, 1128-1137, DOI 10.1063/1.1704216, to which Clisby, Liang and
-  Slade [CLS07] attribute it.
+  not an expansion of $C_k$. The erdosproblems.com commentary credits Kesten
+  under this key with $C_k=2k-1-1/(2k)+O(1/k^2)$; that expansion is proved in
+  the sequel, H. Kesten, On the number of self-avoiding walks. II, J. Math.
+  Phys. 5 (1964), no. 8, 1128-1137, DOI 10.1063/1.1704216, to which Clisby,
+  Liang and Slade [CLS07] attribute it.
 
 **Formalization.** None recorded.
 

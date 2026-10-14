@@ -39,9 +39,9 @@ all attained by the sequence log_2(2k − 1) reduced mod 1.
 N. G. de Bruijn and P. Erdős, *Sequences of points on a circle*, Nederl.
 Akad. Wetensch., Proc. 52 (1949), 14--17 = Indagationes Math. 11 (1949),
 46--49; communicated at the meeting of 18 December 1948; MR 33331. The
-site's key [dBEr49] for Problem 1221; its locator "p. 6" is the offprint page
-(the scan's footer numbers 3--6), which is printed p. 17 of the Proceedings
-and p. 49 of Indagationes.
+erdosproblems.com key [dBEr49] for Problem 1221; its locator "p. 6" is the
+offprint page (the scan's footer numbers 3--6), which is printed p. 17 of the
+Proceedings and p. 49 of Indagationes.
 
 **Edition read.** The copy read for this card is the publisher's PDF from the
 TU/e research portal: a cover sheet carrying the
@@ -125,15 +125,15 @@ Nothing here is independently reviewed.
 The whole note was read on its page images. The five result pages state
 the consumed results in the corpus's words with the note's hypotheses; the
 proofs of Sections 3--5 are summarized on the result pages and were not
-independently checked. The site's statement of Problem 1221 reproduces the
-Section 1 definitions and the Section 6 wording, including the
+independently checked. The erdosproblems.com statement of Problem 1221
+reproduces the Section 1 definitions and the Section 6 wording, including the
 normalization slip discussed on the conjecture page.
 
 **Bears on.**
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the note is the source of the
   problem. It supplies the definitions, the exact $r=1$ values, the three
-  general-$r$ bounds that the site quotes, and the conjecture as posed.
+  general-$r$ bounds that erdosproblems.com quotes, and the conjecture as posed.
 - [[../wiki/problems/number_theory/E0480/_index|Problem 480]]: background only. The
   Chung--Graham chapter that resolves that problem opens by attributing to
   this note the bound $1/\log4$ for its clustering measure $\omega$ of a

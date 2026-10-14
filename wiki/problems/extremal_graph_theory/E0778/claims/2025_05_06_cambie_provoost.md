@@ -66,5 +66,6 @@ computations.
 computations rest on the authors' implementations in C and in Sage, published
 with the paper in the repository
 Algorithmic-Graph-Theory-Group/edge-colouring-games, which is linked above at
-its commit of 6 May 2025. The site's commentary does not cite the paper, and the
-site's label was OPEN as of 2026-10-06. The claim stays `claimed`.
+its commit of 6 May 2025. The erdosproblems.com commentary does not cite the
+paper, and the erdosproblems.com label was OPEN on 2026-10-06. The claim stays
+`claimed`.

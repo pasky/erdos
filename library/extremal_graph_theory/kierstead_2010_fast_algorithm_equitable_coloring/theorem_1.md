@@ -37,7 +37,8 @@ class is independent in $\bar G$, hence a clique in $G$; and the classes are
 disjoint. So $G$ contains $m$ vertex-disjoint copies of $K_r$, the
 statement of Problem 914. Conversely, $m$ disjoint copies of $K_r$ in $G$
 are $m$ independent $r$-sets covering $\bar G$, an equitable $m$-coloring of
-$\bar G$; the two forms are equivalent, as the site's commentary says.
+$\bar G$; the two forms are equivalent, as the erdosproblems.com commentary
+says.
 
 **Source.** H. A. Kierstead, A. V. Kostochka, M. Mydlarz and E. Szemerédi,
 *A fast algorithm for equitable coloring*, Combinatorica 30 (2010), no. 2,

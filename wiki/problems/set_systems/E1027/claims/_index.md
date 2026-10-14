@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 1027, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_systems/E1027/claims
@@ -13,7 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/set_systems/E1027/claims/2025_09_21_koishichan|2025_09_21_koishichan]]: For large $n$, a family of at most $c2^n$ sets of size $n$ has a positive
 proportion of subsets of its union that meet every member and contain none.
-The proof was given in the site's comment thread, and the site's curator
-credits it.
+The proof was given in the erdosproblems.com comment thread, and the
+erdosproblems.com curator credits it.
 
 ***

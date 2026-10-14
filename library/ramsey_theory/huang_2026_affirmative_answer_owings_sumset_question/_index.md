@@ -4,7 +4,7 @@ desc: |
   An unrefereed 2026 preprint claiming that every two-coloring of the
   natural numbers has an infinite set B with B+B monochromatic, answering
   Owings's question, together with a weighted form; the claim is not
-  adopted by the site and is not checked here.
+  adopted by erdosproblems.com and is not checked here.
 license: CC-BY-4.0
 created: 2026-09-18T06:05:00Z
 updated: 2026-10-08T01:29:58Z
@@ -47,8 +47,8 @@ Theorem 2.14 (p. 14) and the assertion of Section 5.3 (p. 35), each read
 clause by clause; the proofs (Sections 3--5 and Appendix A) were located
 and not read, and no step of the argument was checked. This card claims no
 correctness for the preprint's results; it records what the preprint
-states. The site's Problem 1199 page, accessed 2026-09-18, showed the label
-OPEN, seven weeks after a thread comment of 1 August 2026 reported the
+states. erdosproblems.com's Problem 1199 page, accessed 2026-09-18, showed the
+label OPEN, seven weeks after a thread comment of 1 August 2026 reported the
 claim, and the community database's entry of 9 September 2026 records the
 problem open.
 
@@ -120,15 +120,16 @@ compiled as a claim page with the preprint's own proof pointer; Theorem 1.6
 and the Section 5 counterexamples are recorded here as statements only.
 The argument (topological dynamics and ultrafilters, per the abstract's key
 words and Section 2) was not read and is not reviewed here. No acceptance
-evidence exists beyond the arXiv posting: no refereed version, no site
-adoption, no independent review and no citing paper were found.
+evidence exists beyond the arXiv posting: no refereed version, no
+erdosproblems.com adoption, no independent review and no citing paper were
+found.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1199/_index|#1199]]: Theorem 1.1 is
-exactly the site's statement (two colors, $A+A$ with the doubles $2a$
+exactly the erdosproblems.com statement (two colors, $A+A$ with the doubles $2a$
 included); recorded on that page as a pending full claim on its own claim
 page, from which the problem's standing (`claimed`, `proved`) is derived,
-while the site's label stayed OPEN. Section 5.3 (the 3-fold version fails)
-and Remark 1.7 (three colors fail for every weighted form) are context.
+while the erdosproblems.com label stayed OPEN. Section 5.3 (the 3-fold version
+fails) and Remark 1.7 (three colors fail for every weighted form) are context.
 
 **Results.**
 

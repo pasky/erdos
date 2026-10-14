@@ -34,14 +34,14 @@ Is it true that $\Lambda(k,2)$ is finite for all $k$? Is $\Lambda(k,3)$ finite
 for all odd $k$? How large are they?
 
 **Formulation.** The third question, how large $\Lambda(k,2)$ and
-$\Lambda(k,3)$ are, is read as the site's commentary reads it: it asks how
-$\Lambda(k,2)$ and, for odd $k$, $\Lambda(k,3)$ grow as functions of $k$. A
-single exact value fixes no growth and settles no instance of it.
+$\Lambda(k,3)$ are, is read as the erdosproblems.com commentary reads it: it
+asks how $\Lambda(k,2)$ and, for odd $k$, $\Lambda(k,3)$ grow as functions of
+$k$. A single exact value fixes no growth and settles no instance of it.
 
-**Status.** Open, the site's label (OPEN; page last edited 25 October 2025).
-The site's commentary credits Hildebrand (Michigan Math. J. 38 (1991)) with a
-yes to the first question: $\Lambda(k,2)$ is finite for every $k$. It credits
-Lehmer, Lehmer, Mills and Selfridge (Math. Comp. 16 (1962)) with
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited 25 October
+2025). The erdosproblems.com commentary credits Hildebrand (Michigan Math. J. 38
+(1991)) with a yes to the first question: $\Lambda(k,2)$ is finite for every
+$k$. It credits Lehmer, Lehmer, Mills and Selfridge (Math. Comp. 16 (1962)) with
 $\Lambda(3,3)=23532$. It names two questions as remaining: whether
 $\Lambda(k,3)$ is finite for every odd $k\geq5$, and how $\Lambda(k,2)$ and
 $\Lambda(k,3)$ grow with $k$. Claim pages:
@@ -102,12 +102,12 @@ of four or more), so they have no claim pages.
 The third question, the growth of $\Lambda(k,2)$ and of $\Lambda(k,3)$ for odd
 $k$ in the reading of the Formulation, is open; the exact values above are the
 only data recorded. Both accepted claims are refereed journal publications.
-The site labeled the problem OPEN, so its commentary is not acceptance of the
-problem, and while Hildebrand's claim answers the first question, only the
+Bloom's catalog labeled the problem OPEN, so its commentary is not acceptance of
+the problem, and while Hildebrand's claim answers the first question, only the
 case $k=3$ of the second is settled and the third is open, so the derived
 standing is open. The community database lists the problem as unformalized as
-of its last update, and no search beyond the site and its discussion thread is
-recorded here.
+of its last update, and no search beyond erdosproblems.com and its discussion
+thread is recorded here.
 
 <!-- BEGIN problem library links -->
 

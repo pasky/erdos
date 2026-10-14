@@ -65,4 +65,4 @@ Tutte's 1-factor theorem and the König--Ore theorem, as the note cites them.
 
 - [[../wiki/problems/extremal_graph_theory/E0715/_index|Problem 715]]: the affirmative
   answer to the first question, whether every regular graph of degree $4$
-  contains a regular subgraph of degree $3$; the site's [Ta82].
+  contains a regular subgraph of degree $3$; erdosproblems.com's [Ta82].

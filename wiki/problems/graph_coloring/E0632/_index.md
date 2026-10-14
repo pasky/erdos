@@ -51,23 +51,23 @@ https://www.erdosproblems.com/632.
 - [ERT80] Erdős, Paul and Rubin, Arthur L. and Taylor, Herbert, Choosability in
   graphs. (1980), 125-157.
 
-**Formalization.** None recorded by the site. A Lean 4 development in Boris
-Alexeev's lean-proofs collection declares itself a formalization of the
+**Formalization.** None recorded by erdosproblems.com. A Lean 4 development in
+Boris Alexeev's lean-proofs collection declares itself a formalization of the
 claimants' result; it is linked from the claim page and described under
 Current assessment. This corpus has not built or audited it.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asserts that an
+The erdosproblems.com formulation (accessed 2026-09-04) asserts that an
 $(a,b)$-choosable graph is $(am,bm)$-choosable for every integer $m\ge1$, the
 positive answer to an open question of Erdős, Rubin and Taylor [ERT80]. It is
 false: Theorem 2 of
 [[problems/graph_coloring/E0632/claims/2018_06_11_dvorak_hu_sereni|Dvořák, Hu and Sereni 2019]]
 gives a graph that is $4$-choosable but not $(8,2)$-choosable, a
 counterexample at $(a,b,m)=(4,1,2)$, refereed in Advances in Combinatorics and
-credited by the site's curator; the problem's standing derives from that
-accepted full claim. The paper's concluding remarks extend the construction to
-an $a$-choosable graph that is not $(2a,2)$-choosable for every $a\ge4$ and
+credited by the erdosproblems.com curator; the problem's standing derives from
+that accepted full claim. The paper's concluding remarks extend the construction
+to an $a$-choosable graph that is not $(2a,2)$-choosable for every $a\ge4$ and
 leave open whether a $3$-choosable graph that is not $(6,2)$-choosable exists;
 neither the extension nor that open case is part of the question.
 
@@ -82,11 +82,11 @@ corpus has not built or audited it, so the claim page lists no `formalized`
 evidence; the community database records no formalized statement and the
 formal-conjectures repository has no file for the problem (2026-10-07).
 
-Search scope: the site's page and discussion thread, the community database
-(teorth/erdosproblems), the formal-conjectures repository, the lean-proofs
-collection and Crossref. The site listed no proof claims, and on 2026-10-07
-the thread held no comments and none of these sources showed another claim on
-the problem.
+Search scope: the erdosproblems.com page and discussion thread, the community
+database (teorth/erdosproblems), the formal-conjectures repository, the
+lean-proofs collection and Crossref. erdosproblems.com listed no proof claims,
+and on 2026-10-07 the thread held no comments and none of these sources showed
+another claim on the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

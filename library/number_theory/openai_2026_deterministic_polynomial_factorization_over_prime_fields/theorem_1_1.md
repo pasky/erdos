@@ -93,6 +93,6 @@ none was checked here.
 
 No problem page is reached by this theorem itself: the manuscript names no
 Erdős problem, and complete factorization over $\mathbf F_p$ is the subject of
-no page in this corpus. The single contact with the catalog runs through the
+no page in this corpus. The single contact with Bloom's catalog runs through the
 auxiliary-prime bound and is recorded on
 [[number_theory/openai_2026_deterministic_polynomial_factorization_over_prime_fields/proposition_11_3|Proposition 11.3]].

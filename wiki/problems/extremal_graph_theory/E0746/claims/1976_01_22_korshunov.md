@@ -39,8 +39,8 @@ to the Academy on 22 January 1976, the date in this page's name; received 7
 January 1976), a note that states the theorem and sketches its
 path-rotation algorithm for $k>3n\ln n$, saying that the algorithm for the
 remaining range is omitted for lack of space. The paper Diskret. Analiz
-**31** (1977), 17--56, 90 (the site's [Ko77]), not held, proves the case
-$k>6n\log n$ by the author's own account; the complete proof, a different
+**31** (1977), 17--56, 90 (erdosproblems.com's [Ko77]), not held, proves the
+case $k>6n\log n$ by the author's own account; the complete proof, a different
 one, is Theorem 1 of *A new version of the solution of a problem of Erdős
 and Rényi on Hamiltonian cycles in undirected graphs*, Annals of Discrete
 Mathematics **28** (Random Graphs '83) (1985), 171--180, whose comment
@@ -61,7 +61,7 @@ fixed $\epsilon>0$, the threshold reads
 $\tfrac12n(\log n+\log\log n+\varphi(n))=(\tfrac12+\epsilon)n\log n$, so the
 random graph with $(\tfrac12+\epsilon)n\log n$ edges is almost surely
 Hamiltonian; Hamiltonicity is preserved by adding edges, so the same holds
-for every larger edge count, which is the site's "$\ge$". The "only if"
+for every larger edge count, which is erdosproblems.com's "$\ge$". The "only if"
 half of the theorem, which the problem does not ask, says that
 $\tfrac12n\log n+\tfrac12n\log\log n+O(n)$ edges do not suffice. Komlós and
 Szemerédi proved the threshold independently, with a limit law, on
@@ -72,10 +72,10 @@ Szemerédi proved the threshold independently, with a limit law, on
 Kurshonov [sic] and Komlós-Szemerédi" (p. 69). He credits Korshunov by name, but
 that paper's reference list has no Korshunov item. The abstract of Komlós and
 Szemerédi's refereed paper [KoSz83] credits the $f(n)\to\infty$ case to
-Korshunov by name, again with no Korshunov item among its references. The site's
-curator, Thomas Bloom, labeled the problem PROVED and credits the theorem to
-[Ko77] in the problem's commentary. The curator cites the 1977 paper with its
-venue, as the 1985 paper's own reference list does.
+Korshunov by name, again with no Korshunov item among its references. The
+erdosproblems.com curator, Thomas Bloom, labeled the problem PROVED and credits
+the theorem to [Ko77] in the problem's commentary. The curator cites the 1977
+paper with its venue, as the 1985 paper's own reference list does.
 
 Not refereed: by the author's account, the 1977 journal paper proves only the
 case $k>6n\log n$. The complete proof is the 1985 paper in Annals of Discrete

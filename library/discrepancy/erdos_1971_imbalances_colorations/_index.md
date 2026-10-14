@@ -76,9 +76,9 @@ first-page footer, every other right reserved.
 **Bears on.** [[../wiki/problems/discrepancy/E1028/_index|#1028]]: at
 $k=2$ the Theorem gives order $n^{3/2}$, for sufficiently large $n$, for
 the unordered-edge quantity $H_2(n)$, which the problem page treats as
-the intended earlier version of the statement; the site's formula read with
-arbitrary signs on ordered pairs has
-value $0$ and is not covered (see the edge normalization record).
+the intended earlier version of the statement; the erdosproblems.com formula
+read with arbitrary signs on ordered pairs has value $0$ and is not covered (see
+the edge normalization record).
 
 **Recorded results and remaining proof work.**
 

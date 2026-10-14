@@ -40,45 +40,42 @@ $$
 
 be?
 
-**Formulation.** The site's wording (page last edited 8 April 2026). $S(A)$
-is the set of subset sums of $A$,
-written $\Sigma(A)$ by Conlon, Fox and Pham and $A^+$ or $A^{(\infty)}$ by
-Erdős; the sum over $n<x$ in the site's density and over $a\le x$ in the
-paper's give the same $\limsup$. The question asks for the least value of
-the maximum over all partitions, the constant $c$ of the site's commentary
-and $c_2$ of the paper, and the paper's Theorem 1 gives both the value and a
-partition attaining it. The site's commentary attributes to [Er80] both
-the bounds $1/2\le c<1$ and the expectation $c>1/2$; the passage on printed
-p. 113 of that survey says that the maximum "can
-be less than $1$, but I expect it to be greater than $\frac12$" and states
-no lower bound; the bound $c\ge1/2$ is claimed as proved on p. 54 of the
-Mysore paper ("I proved that ... for at least one $i$,
-$A_i^{(\infty)}$ has upper density $1$ and upper logarithmic density
-$\ge\frac12$. The proof again uses our Lemma, the details will not be
-given"); the Congressus Numerantium paper only expects the maximum to
-exceed $\frac12$ (its (25), p. 39), and its Theorem 3 (p. 38) is the
-interval statement from which, by Conlon, Fox and Pham's p. 3, the bound
-easily follows, with a proof Erdős postponed and never published. The
-example the site gives for $c<1$, the class of the $n$ with
-$\lfloor\log_4\log n\rfloor$ even and its complement,
-is Erdős's block construction of the Mysore paper ($n_{i+1}=n_i^4$,
-$A_1=\bigcup_i[n_{2i},n_{2i+1})$) and of display (24) of the Congressus
-paper; the paper writes it with $\lfloor\log_4\log_2n\rfloor$ and calls it
-"essentially the special case where $r=2$ and $b=4$" of its
-$\lfloor\log_b\log n\rfloor$ coloring, and the value $14/15$ is its
-computation for that block structure.
+**Formulation.** The erdosproblems.com wording (page last edited 8 April 2026).
+$S(A)$ is the set of subset sums of $A$, written $\Sigma(A)$ by Conlon, Fox and
+Pham and $A^+$ or $A^{(\infty)}$ by Erdős; the sum over $n<x$ in
+erdosproblems.com's density and over $a\le x$ in the paper's give the same
+$\limsup$. The question asks for the least value of the maximum over all
+partitions, the constant $c$ of the erdosproblems.com commentary and $c_2$ of
+the paper, and the paper's Theorem 1 gives both the value and a partition
+attaining it. The erdosproblems.com commentary attributes to [Er80] both the
+bounds $1/2\le c<1$ and the expectation $c>1/2$; the passage on printed p. 113
+of that survey says that the maximum "can be less than $1$, but I expect it to
+be greater than $\frac12$" and states no lower bound; the bound $c\ge1/2$ is
+claimed as proved on p. 54 of the Mysore paper ("I proved that ... for at least
+one $i$, $A_i^{(\infty)}$ has upper density $1$ and upper logarithmic density
+$\ge\frac12$. The proof again uses our Lemma, the details will not be given");
+the Congressus Numerantium paper only expects the maximum to exceed $\frac12$
+(its (25), p. 39), and its Theorem 3 (p. 38) is the interval statement from
+which, by Conlon, Fox and Pham's p. 3, the bound easily follows, with a proof
+Erdős postponed and never published. The example erdosproblems.com gives for
+$c<1$, the class of the $n$ with $\lfloor\log_4\log n\rfloor$ even and its
+complement, is Erdős's block construction of the Mysore paper ($n_{i+1}=n_i^4$,
+$A_1=\bigcup_i[n_{2i},n_{2i+1})$) and of display (24) of the Congressus paper;
+the paper writes it with $\lfloor\log_4\log_2n\rfloor$ and calls it "essentially
+the special case where $r=2$ and $b=4$" of its $\lfloor\log_b\log n\rfloor$
+coloring, and the value $14/15$ is its computation for that block structure.
 
-**Status.** Solved, in the site's label for a determination question. The
-status-defining source is Theorem 1 of Conlon, Fox and Pham. For every partition
-of $\mathbb N$ into two classes, the larger upper logarithmic density of the
-subset sums is at least $(2+\sqrt3)/4\approx0.93301$. The coloring by the parity
-of $\lfloor\log_{2+\sqrt3}\log n\rfloor$ attains this, so the minimum is
+**Status.** Solved, in the erdosproblems.com label for a determination question.
+The status-defining source is Theorem 1 of Conlon, Fox and Pham. For every
+partition of $\mathbb N$ into two classes, the larger upper logarithmic density
+of the subset sums is at least $(2+\sqrt3)/4\approx0.93301$. The coloring by the
+parity of $\lfloor\log_{2+\sqrt3}\log n\rfloor$ attains this, so the minimum is
 $c_2=(2+\sqrt3)/4$. The paper appeared in Mathematika 68 (2022), no. 4,
 1292--1301, a refereed journal. It was published online on 10 October 2022, per
 the Crossref record of 2026-09-18. The text cited here is the arXiv version v3
-of 22 September 2022, and the journal text was not compared. The site accepted
-the result (SOLVED, last edited 8 April 2026), and its curator credits the paper
-with the value in the commentary. The claim page
+of 22 September 2022, and the journal text was not compared. erdosproblems.com
+accepted the result (SOLVED, last edited 8 April 2026), and its curator credits
+the paper with the value in the commentary. The claim page
 [[problems/ramsey_theory/E1211/claims/2021_05_31_conlon_fox_pham|Conlon, Fox and Pham 2021]]
 records the theorem, its postings and the acceptance evidence, and the
 frontmatter standing is derived from it. Erdős's expectation $c>1/2$ holds. His
@@ -86,11 +83,11 @@ claim that the value cannot exceed $3/4$ was wrong: his example gives $14/15$.
 
 **Source.** [erdosproblems.com/1211](https://www.erdosproblems.com/1211),
 accessed 2026-09-18 at 05:24 UTC: the problem page (SOLVED, with
-the site's note that the resolution is neither a proof nor a disproof; last
-edited 8 April 2026; source keys [Er80, p. 113], [Er82c], [Er82d]; commentary on
-[Er80] and [CFP22]; OEIS "Possible"), its empty discussion thread and its
-empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1211,
-https://www.erdosproblems.com/1211, accessed 2026-09-18.
+the erdosproblems.com note that the resolution is neither a proof nor a
+disproof; last edited 8 April 2026; source keys [Er80, p. 113], [Er82c],
+[Er82d]; commentary on [Er80] and [CFP22]; OEIS "Possible"), its empty
+discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
+Problem #1211, https://www.erdosproblems.com/1211, accessed 2026-09-18.
 
 **References.**
 
@@ -112,9 +109,9 @@ https://www.erdosproblems.com/1211, accessed 2026-09-18.
   [[../library/factorials_binomials/erdos_1982_miscellaneous_problems_number_theory/_index|erdos_1982_miscellaneous_problems_number_theory]].
 - [Er82d] Erdős, P., Some new problems and results in number theory. In Number
   theory (Mysore, 1981), Lecture Notes in Math. 938, Springer (1982), 50--74;
-  the site's reference text, accessed 2026-09-18. The Rényi archive's scan
-  (users.renyi.hu/~p_erdos/1982-32.pdf, 25 pp.) carries the
-  passage at printed p. 54 (PDF p. 5). Library home:
+  the erdosproblems.com reference text, accessed 2026-09-18. The Rényi archive's
+  scan (users.renyi.hu/~p_erdos/1982-32.pdf, 25 pp.) carries the passage at
+  printed p. 54 (PDF p. 5). Library home:
   [[../library/number_theory/erdos_1982_some_new_problems_results_number_theory/_index|erdos_1982_some_new_problems_results_number_theory]]
   (the card carries the row for this problem). It is the paper's reference [3].
 - [CFP21] Conlon, D., Fox, J. and Pham, H. T., Subset sums, completeness and
@@ -131,15 +128,15 @@ directory](https://github.com/google-deepmind/formal-conjectures/tree/d5ba143cc2
 was listed in full). The community database (teorth/erdosproblems, fetched
 2026-09-18) records the problem solved (last updated 4 April 2026), not
 formalized, formal status unformalized, OEIS "possible" and no formal-proof URL.
-The site's "Formalised statement?" indicator reads "No".
+erdosproblems.com's "Formalised statement?" indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; SOLVED, last edited 8 April 2026. The commentary records Erdős's
-remark in [Er80] that one of $S(A)$ and $S(B)$ has upper density $1$ while
-both may have lower density $0$; writes $c$ for the least possible value of
-the maximum and attributes to [Er80] the bounds $1/2\le c<1$ together with
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; SOLVED, last edited 8 April 2026. The commentary records
+Erdős's remark in [Er80] that one of $S(A)$ and $S(B)$ has upper density $1$
+while both may have lower density $0$; writes $c$ for the least possible value
+of the maximum and attributes to [Er80] the bounds $1/2\le c<1$ together with
 the expectation $c>1/2$; gives the example of the $n$ with
 $\lfloor\log_4\log n\rfloor$ even, for which, by the computation in
 [CFP22], both subset-sum sets have upper logarithmic density $14/15$; and
@@ -180,7 +177,7 @@ not given; he is "not quite sure if $\frac12$ is best possible here" but
 finds it easy to see that the value cannot exceed $\frac34$, by the classes
 $A_1=\bigcup_i[n_{2i},n_{2i+1})$ with $n_{i+1}=n_i^4$ and its complement
 $A_2$. Display (26) of
-[Er82c] is the site's question; Theorem 3 of [Er82c] and the claim of
+[Er82c] is the erdosproblems.com question; Theorem 3 of [Er82c] and the claim of
 [Er82d] were never proved in print (the paper's p. 3: "a weaker version of
 this lemma, from which the bound $c_r\ge1/2$ easily follows, was previously
 claimed by Erdős [4, Theorem 3], though the proof of this statement was
@@ -195,8 +192,8 @@ $c_r=\min_{\mathbb N=A_1\sqcup\cdots\sqcup A_r}\max_i\bar d_\ell(\Sigma(A_i))$,
 "For any integer $r\ge2$, $c_r$ is at most
 $(1-\frac1{2b_0})(1+\frac1{2rb_0-r})$, where $b_0$ is the unique root of the
 polynomial $b^r-2rb+r-1$ with $b>1$, and this is tight for $r=2$, where
-$c_2=(2+\sqrt3)/4\approx0.93301$." The site's quantity is $c_2$. The upper bound
-(pp. 1--2) generalizes Erdős's coloring: give $n$ the value of
+$c_2=(2+\sqrt3)/4\approx0.93301$." erdosproblems.com's quantity is $c_2$. The
+upper bound (pp. 1--2) generalizes Erdős's coloring: give $n$ the value of
 $\lfloor\log_b\log n\rfloor$ modulo $r$; since the nonzero subset sums of
 $[m,n]$ lie in $[m,\binom{n+1}2]$, each class's subset sums have upper
 logarithmic density at most $\delta_r(b)=(1-\frac1{2b})(1-b^{-r})^{-1}$,
@@ -211,12 +208,12 @@ of Szemerédi and Vu's published paper can replace it), and Section 3 turns the
 lemma into the bound through an auxiliary coloring and the Brouwer fixed-point
 theorem (pp. 4--8). Acceptance evidence: the refereed Mathematika publication
 (Crossref record: volume 68, issue 4, pages 1292--1301, published online 10
-October 2022) and the site's curator's credit of the value to the paper under
-the label SOLVED. Coverage: the compiled text covers Theorem 1, the definitions
-and the upper-bound argument (pp. 1--2) and the statements of Lemma 2, Theorem
-3, Remark 5 and Conjecture 10; the lower-bound proof (Section 3, pp. 4--8) is
-not independently reviewed, and nothing is independently reviewed in this
-corpus. The text cited is the arXiv preprint, so every locator above is a
+October 2022) and the erdosproblems.com curator's credit of the value to the
+paper under the label SOLVED. Coverage: the compiled text covers Theorem 1, the
+definitions and the upper-bound argument (pp. 1--2) and the statements of Lemma
+2, Theorem 3, Remark 5 and Conjecture 10; the lower-bound proof (Section 3, pp.
+4--8) is not independently reviewed, and nothing is independently reviewed in
+this corpus. The text cited is the arXiv preprint, so every locator above is a
 preprint page.
 
 **Erdős's example.** The classes of [Er82d] are blocks $[n_{2i},n_{2i+1})$ with
@@ -232,21 +229,22 @@ $L=8\ell$ at the end of a block's contribution, the missed length below $L$ is
 $\ell/2+\ell/32+\cdots=(\ell/2)(16/15)=8\ell/15$, which is $1/15$ of $L$, and
 the covered proportion is $14/15$; the proportion falls between the ends of
 consecutive contributions, so the upper logarithmic density of each class's
-subset sums is $14/15$, as the paper and the site state, and not $3/4$. This
-elementary block count confirms the figure; it carries no independent review.
+subset sums is $14/15$, as the paper and erdosproblems.com state, and not $3/4$.
+This elementary block count confirms the figure; it carries no independent
+review.
 
 **What remains open around the problem.** Conjecture 10 of [CFP22] (p. 9):
 for every $r\ge3$ the upper bound of Theorem 1 is the value of $c_r$; the
 authors "were unable to establish the optimality of our upper bound for
 $c_r$ without additional assumptions" (their method applies when the
 auxiliary coloring is cyclic, which every two-coloring is). This concerns
-partitions into three or more classes and is not the site's question.
+partitions into three or more classes and is not the erdosproblems.com question.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 dispute of Theorem 1, a second determination of $c_2$, or progress on
 Conjecture 10.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing at the pinned commit (no file); the
   community database of 2026-09-18.
 - arXiv API: the record of 2105.15195 (three versions, v3 of 22 September
@@ -259,7 +257,7 @@ Conjecture 10.
   citing [CFP21], of which [CFP22] is one; Semantic Scholar's search
   endpoint answered HTTP 429 and was not retried.
 - The Rényi archive: its index and its scan of the 1982 Mysore paper of
-  the site's key [Er82d] (p. 54).
+  the erdosproblems.com key [Er82d] (p. 54).
 - The primary sources: [CFP22] pp. 1--4 and 9; [Er80] p. 113; [Er82c]
   pp. 38--39; [Er82d] p. 54.
 
@@ -272,9 +270,9 @@ version is unrecorded. (2) The lower-bound proof (Section 3, pp. 4--8) is not
 independently reviewed; the compiled coverage is the statement, the upper-bound
 argument and the elementary block count above. (3) Erdős's Theorem 3 of [Er82c]
 and the $\ge1/2$ claim of [Er82d] have no published proof; the paper's Lemma 2
-supersedes them. (4) The site's commentary attributes the lower bound $1/2\le c$
-to [Er80], whose passage states only the expectation $c>1/2$; recorded above,
-not resolved with the site.
+supersedes them. (4) The erdosproblems.com commentary attributes the lower bound
+$1/2\le c$ to [Er80], whose passage states only the expectation $c>1/2$;
+recorded above, not resolved with erdosproblems.com.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

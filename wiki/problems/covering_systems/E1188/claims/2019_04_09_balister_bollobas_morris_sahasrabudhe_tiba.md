@@ -4,8 +4,8 @@ title: Balister, Bollobás, Morris, Sahasrabudhe and Tiba's lower bound
 desc: |
   The minimal covering systems built by Balister, Bollobás, Morris, Sahasrabudhe
   and Tiba (J. Eur. Math. Soc. 2024) give
-  $F(x)\ge\exp\bigl((\log x)^{3-o(1)}\bigr)$, as the site derives. The paper is
-  refereed, and the result is a lower bound only.
+  $F(x)\ge\exp\bigl((\log x)^{3-o(1)}\bigr)$, as erdosproblems.com derives. The
+  paper is refereed, and the result is a lower bound only.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -32,11 +32,11 @@ updated: 2026-10-07T20:32:50Z
 
 **Claim.** For $F(x)$ as in
 [[problems/covering_systems/E1188/_index|Problem 1188]],
-$F(x)\ge\exp\bigl((\log x)^{3-o(1)}\bigr)$. The bound is the site's derivation
-from the lower-bound construction in Paul Balister, Béla Bollobás, Robert
-Morris, Julian Sahasrabudhe and Marius Tiba, *The structure and number of Erdős
-covering systems*. Their Theorem 1.1 counts the minimal covering systems of
-$\mathbb{Z}$ of size $n$ as
+$F(x)\ge\exp\bigl((\log x)^{3-o(1)}\bigr)$. The bound is erdosproblems.com's
+derivation from the lower-bound construction in Paul Balister, Béla Bollobás,
+Robert Morris, Julian Sahasrabudhe and Marius Tiba, *The structure and number of
+Erdős covering systems*. Their Theorem 1.1 counts the minimal covering systems
+of $\mathbb{Z}$ of size $n$ as
 $\exp\bigl((4\sqrt\tau/3+o(1))\,n^{3/2}(\log n)^{-1/2}\bigr)$, with
 $\tau=\sum_{t\ge1}\log^2(1+1/t)$. The introduction gives a simple form of the
 construction. Let $p_1<\cdots<p_k$ be the first $k$ primes and
@@ -65,7 +65,7 @@ verification of that assertion, cited in the Claim, is context only.
 
 **Acceptance.** Refereed publication: J. Eur. Math. Soc. (JEMS) 26 (2024), no.
 1, 75--109, doi:10.4171/JEMS/1357. The arXiv version was posted 9 April 2019,
-the date of this page. The site labeled the problem OPEN, so its commentary
-crediting the bound is not acceptance, and no `reviewed` evidence is listed. The
-deduction from the construction to the bound on $F(x)$ is the site's, not a
-statement of the paper.
+the date of this page. Bloom's catalog labeled the problem OPEN, so its
+commentary crediting the bound is not acceptance, and no `reviewed` evidence is
+listed. The deduction from the construction to the bound on $F(x)$ is
+erdosproblems.com's, not a statement of the paper.

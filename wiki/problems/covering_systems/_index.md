@@ -106,5 +106,5 @@ to logarithmic scale.
 Systems of congruences covering the integers, exact and disjoint coverings, the
 minimum modulus problem, and the analogous exact coverings of a group by cosets.
 
-Site tags routed here: covering systems, divisors, group theory, number theory,
-primes.
+erdosproblems.com tags routed here: covering systems, divisors, group theory,
+number theory, primes.

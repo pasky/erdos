@@ -21,8 +21,8 @@ updated: 2026-10-08T02:16:54Z
 
 **Statement.** Are there any integer solutions to $x^xy^y=z^z$ with $x,y,z>1$?
 
-**Status.** PROVED (LEAN), the site's label (page last edited 1 February 2026).
-The accepted claim on
+**Status.** PROVED (LEAN), the erdosproblems.com label (page last edited 1
+February 2026). The accepted claim on
 [[problems/diophantine_problems/E0674/claims/1940_01_01_ko|Ko's infinite family of solutions]]
 settles the problem.
 

@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 763, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0763/claims
@@ -13,11 +13,11 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/additive_combinatorics/E0763/claims/1956_01_01_erdos_fuchs|1956_01_01_erdos_fuchs]]: Theorem 1 of Erdős and Fuchs (1956) proves that no sequence has its pair count
 equal to $cn+o(n^{1/4}(\log n)^{-1/2})$ with $c>0$, so a bounded error is
-impossible. The claim is accepted, refereed and credited by the site.
+impossible. The claim is accepted, refereed and credited by erdosproblems.com.
 
 [[problems/additive_combinatorics/E0763/claims/1990_01_01_montgomery_vaughan|1990_01_01_montgomery_vaughan]]: Montgomery and Vaughan (1990), after Jurkat, prove that no sequence has its
 pair count equal to $cN+o(N^{1/4})$ with $c>0$, which rules out a bounded
-error. The claim is accepted on the site's credit, and the volume's refereeing
-is undocumented.
+error. The claim is accepted on the erdosproblems.com credit, and the volume's
+refereeing is undocumented.
 
 ***

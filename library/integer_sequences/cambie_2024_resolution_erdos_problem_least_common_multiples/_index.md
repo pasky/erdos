@@ -51,10 +51,10 @@ statement for Chinese-remainder solutions, formulated as Question 3.
 Source: <https://arxiv.org/abs/2410.09138v1>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0678/_index|#678]]: Theorem 1 with the
-substitution n = x-1, m = y-1 is the site's statement M(n,k) > M(m,k+1) with
-m >= n+k, for every large k and hence for infinitely many triples; the site's
-label PROVED (LEAN) rests on this preprint and on an external Lean
-formalization of it.
+substitution n = x-1, m = y-1 is the erdosproblems.com statement M(n,k) >
+M(m,k+1) with m >= n+k, for every large k and hence for infinitely many triples;
+the erdosproblems.com label PROVED (LEAN) rests on this preprint and on an
+external Lean formalization of it.
 
 **Results.**
 

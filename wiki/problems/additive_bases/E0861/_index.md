@@ -35,9 +35,9 @@ $$
 A(N) = 2^{(1+o(1))f(N)}?
 $$
 
-**Status.** Solved. The site labeled the problem SOLVED (page last edited 15
-October 2025). Saxton and Thomason's lower bound $A(N)\geq 2^{(1.16+o(1))f(N)}$
-answers the first question yes and the second no
+**Status.** Solved. Bloom's catalog labeled the problem SOLVED (page last edited
+15 October 2025). Saxton and Thomason's lower bound
+$A(N)\geq 2^{(1.16+o(1))f(N)}$ answers the first question yes and the second no
 ([[problems/additive_bases/E0861/claims/2012_04_30_saxton_thomason|claim page]]).
 
 **Source.** [erdosproblems.com/861](https://www.erdosproblems.com/861), accessed

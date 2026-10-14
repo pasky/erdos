@@ -5,7 +5,7 @@ desc: |
   Irrationality and transcendence of series and constants, irrationality
   sequences, and how well real numbers can be approximated by rationals.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Irrationality and Diophantine Approximation
@@ -95,13 +95,13 @@ where $\|x\|$ is the distance from $x$ to the nearest integer.
 
 [[problems/irrationality/E0496/_index|E0496/]]: Asks whether, for every
 irrational $\alpha>0$ and $\epsilon>0$, some positive integers $x,y,z$ satisfy
-$|x^2+y^2-z^2\alpha|<\epsilon$. The site's wording, over every irrational
-$\alpha$, fails for negative $\alpha$.
+$|x^2+y^2-z^2\alpha|<\epsilon$. The erdosproblems.com wording, over every
+irrational $\alpha$, fails for negative $\alpha$.
 
 [[problems/irrationality/E0998/_index|E0998/]]: Asks whether, for irrational
 $\alpha$, an interval $[u,v)$ with bounded discrepancy along the fractional
 parts $\{\alpha m\}$ must have length $v-u=\{\alpha j\}$ for some integer $j$.
-The site's wording, which asks this of both endpoints, is false.
+The erdosproblems.com wording, which asks this of both endpoints, is false.
 
 [[problems/irrationality/E0999/_index|E0999/]]: Asks whether, for every
 $f:\mathbb{N}\to\mathbb{N}$, almost every $\alpha$ satisfies
@@ -137,5 +137,5 @@ $1\le a_1<a_2<\cdots$ with $\liminf a_n^{1/2^n}>1$.
 Irrationality and transcendence of series and constants, irrationality
 sequences, and how well real numbers can be approximated by rationals.
 
-Site tags routed here: analysis, diophantine approximation, irrationality,
-number theory.
+erdosproblems.com tags routed here: analysis, diophantine approximation,
+irrationality, number theory.

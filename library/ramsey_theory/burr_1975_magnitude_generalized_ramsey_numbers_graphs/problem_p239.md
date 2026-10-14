@@ -63,8 +63,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0181/_index|Problem 181]]: the origin of the
-  problem. The site says "Conjectured by Burr and Erdős"; this passage
+  problem. erdosproblems.com says "Conjectured by Burr and Erdős"; this passage
   poses the cubes as a test case with a prize and states no expected
   answer, and Erdős's 1981 survey (printed p. 13) says "Burr and I expected
   (16) to be true and (16') to be false", (16') being the cube bound, so the
-  attribution as a conjecture is the site's.
+  attribution as a conjecture is erdosproblems.com's.

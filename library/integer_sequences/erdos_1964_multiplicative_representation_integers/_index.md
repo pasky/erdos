@@ -74,8 +74,8 @@ asymptotic of Theorem 3 and of the closing remark on its second term.
 Source: <https://users.renyi.hu/~p_erdos/Erdos.html>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0796/_index|#796]]: Theorem 3,
-printed p. 252 (PDF p. 2), the asymptotic the site quotes for g_k(n), and
-the p. 261 remark (PDF p. 11) on sharpening its second term.
+printed p. 252 (PDF p. 2), the asymptotic erdosproblems.com quotes for g_k(n),
+and the p. 261 remark (PDF p. 11) on sharpening its second term.
 
 **Results.**
 

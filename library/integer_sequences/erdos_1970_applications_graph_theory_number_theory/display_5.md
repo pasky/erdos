@@ -44,5 +44,5 @@ The 1966 paper for the upper bound.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the classical bracket
-  for $g(n)$; the site's key [Er70b] for the problem points here and to
-  the conjecture (6) that follows.
+  for $g(n)$; the erdosproblems.com key [Er70b] for the problem points here and
+  to the conjecture (6) that follows.

@@ -186,8 +186,8 @@ The lemmas are recorded as statements read on the page image; the proofs
 were read for structure only, and nothing is independently reviewed.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0309/_index|#309]]: Corollary 1 (printed
-p. 353, PDF p. 3) is the lower bound the site's commentary attributes to the
-paper: "There exists a constant $n_0$ such that, for all $n>n_0$,
+p. 353, PDF p. 3) is the lower bound the erdosproblems.com commentary attributes
+to the paper: "There exists a constant $n_0$ such that, for all $n>n_0$,
 $\log n+\gamma-(\frac{\pi^2}3+o(1))\frac{(\log_2n)^2}{\log n}\le|N(n)|\le\log n+\gamma-(\frac12+o(1))\frac{(\log_2n)^2}{\log n}$",
 where $|N(n)|$ counts the empty sum $0$, so $|N(n)|=F(N)+1$ for the problem's
 $F(N)$, and the upper bound is Croot's, quoted; the paper's own contribution
@@ -195,8 +195,8 @@ is the lower bound, proved in Theorem 1 (p. 352) for the subset $N^*(n)$ of
 representations with denominators in $D(t)$, so the constant $\frac92$ of
 Croot's lower bound becomes $\frac{\pi^2}3$. For the integer $F(N)$ the lower
 bound can hold only in the integer-part form of Croot's Main Theorem, not read
-as the site words it (see the corollary's page). The corollary was read on
-the page image at statement depth; the proof was read for structure only.
+as Bloom's catalog words it (see the corollary's page). The corollary was read
+on the page image at statement depth; the proof was read for structure only.
 [[../wiki/problems/unit_fractions/E0308/_index|#308]]: the second display of Corollary 1
 (p. 353), "$F(a)\le F^*(a)\le\exp[a-\gamma+(\frac{\pi^2}3+o(1))\frac{(\log a)^2}a]$"
 with $F(a)=\min\{n:a\in N(n)\}$ (p. 352), is the inverse form of the

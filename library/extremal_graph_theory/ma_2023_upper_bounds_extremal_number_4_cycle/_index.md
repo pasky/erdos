@@ -127,7 +127,7 @@ not independent full-proof acceptance or native formalization.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0765/_index|#765]], by refuting the
 proposed linear second term through Theorem 1.2, which rests on Theorems 1.3
-and 1.5; the catalog's leading-asymptotic request is
+and 1.5; erdosproblems.com's leading-asymptotic request is
 already supplied by
 [[extremal_graph_theory/erdos_1966_problem_graph_theory/corollary_2|Erdős-Rényi-Sós, Corollary 2]].
 

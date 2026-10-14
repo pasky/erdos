@@ -72,13 +72,13 @@ paper's [2]).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0709/_index|Problem 709]]: the 1992 restatement
-  of the problem's function $f(n)$ with $1<a_1$ (the site's $A\subseteq[2,\infty)$)
-  and the bounds (2); the request to improve (2) and to find an asymptotic
-  formula is the problem's question.
+  of the problem's function $f(n)$ with $1<a_1$ (erdosproblems.com's
+  $A\subseteq[2,\infty)$) and the bounds (2); the request to improve (2) and to
+  find an asymptotic formula is the problem's question.
 - [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]: the definition of
   $f(n)=f(n;n)$ with the open interval $(n,n+f(n))$, the bounds (3), and
-  the rupee offer for an asymptotic formula, which the site converts
+  the rupee offer for an asymptotic formula, which erdosproblems.com converts
   to its prize.
 - [[../wiki/problems/integer_sequences/E0711/_index|Problem 711]]: the definition of
   $f(n;m)$, the proved bound (4), the conjecture (5) and the unproved (6),
-  with a rupee prize offered for each; the site's two questions.
+  with a rupee prize offered for each; erdosproblems.com's two questions.

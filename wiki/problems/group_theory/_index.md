@@ -47,4 +47,4 @@ symmetric group $S_n$.
 Combinatorial problems about groups, including non-commuting graphs of groups;
 exact coverings of a group by cosets are filed with covering systems.
 
-Site tags routed here: group theory, number theory.
+erdosproblems.com tags routed here: group theory, number theory.

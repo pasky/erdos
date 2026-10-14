@@ -1,10 +1,10 @@
 ---
 name: problems/integer_sequences/E0873/claims
-desc: The 3 claim pages of Problem 873, one per claimant's result; the problem's standing derives from them.
+desc: The 4 claim pages of Problem 873, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:14:27Z
 ---
 
 # problems/integer_sequences/E0873/claims
@@ -23,5 +23,11 @@ question holds for every $\varepsilon>223/676$.
 ChatGPT 5.6 Sol, prove that for every $\varepsilon>1/4$ some $k$ gives
 $F(A,X,k)\ll X^{\varepsilon}$ uniformly in $A$. The range $\varepsilon\le1/4$
 is not covered.
+
+[[problems/integer_sequences/E0873/claims/2026_09_11_kitamura|2026_09_11_kitamura]]: Answers a variant (whether some sequence has $F(A,X,3)\gg X^{1/3}\log X$ for
+every large $X$), not the Statement (whether some $k$ gives
+$F(A,X,k)<X^\epsilon$), so it does not count toward the problem's standing.
+Kenta Kitamura's Lean development, made with ChatGPT and OpenAI Codex, claims
+that no sequence does.
 
 ***
