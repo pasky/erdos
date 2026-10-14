@@ -50,15 +50,18 @@ recovering someone's private runtime state.
 
 Prose carries no as-of dates and no change logs. A page states what is known,
 not when its author looked or how the page once read: it gives no date on which
-the corpus read, searched or checked a source that does not change ("read on the
-page images on 2026-09-18", "(read 2026-10-07)", "a literature search dated 6
-September 2026") and qualifies no statement by a date ("as of 2026-10-07"). When
-what is known changes, the page is corrected in place: it never records what it
-used to say, when it changed or who changed it, since git holds that history. A
-date stays only where it is a fact in its own right: the date a review examined
-or accepted something; the date a Lean clean check or carry-forward check ran; a
-snapshot of an outside source that can change and that the page relies on, such
-as the site's page as the Source line accessed it ("accessed 2026-09-04"), a
+the corpus read or checked a source that does not change, such as a printed
+paper or a fixed arXiv version ("read on the page images on 2026-09-18"), no
+date on a sentence that only records that a search was done, and qualifies no
+statement by a date ("as of 2026-10-07"). When what is known changes, the page
+is corrected in place: it never records what it used to say, when it changed or
+who changed it, since git holds that history. A date stays only where it is a
+fact in its own right: the date a review examined or accepted something; the
+date a Lean clean check or carry-forward check ran; the date of a literature
+search whose findings the page reports, found or not found, since the literature
+changes ("no journal version was found in a search on 2026-09-17"); a snapshot
+of an outside source that can change and that the page relies on, such as the
+erdosproblems.com page as the Source line accessed it ("accessed 2026-09-04"), a
 forum thread, a registry, a live page ("page last edited 2026-04-06") or a
 repository ("its commit of 2026-09-15"), and the reading of a license page,
 whether or not the release holds the file; and an outside event in the history
@@ -562,30 +565,30 @@ month or the year is known. A link names an external commit only where the claim
 relies on that exact content, as the external-version case of [[verification]]
 "Exact subjects and durable evidence" states; a release, DOI or arXiv version is
 preferred, and a link that only points at a project uses the project URL.
-`submitted` is the date the claim was submitted to the catalog's site, as a
-proof claim or a forum post, or to the Palomar registry: the date its
-**Submission note** gives, as `YYYY-MM-DD`, and `null` when no such submission
-is known. The body says what a partial claim settles under **Covers.**, what the
-claim rests on under **Depends on.** (wikilinks to wiki pages, or to library
-result pages, which the check reports with their read status and never counts
-toward the standing; an accepted claim depends on no unaccepted wiki page, a
-`solved` problem page counting as accepted), and states unproven hypotheses in
-prose. Claims are scoped and valued against the statement the problem page
-shows, the modified Statement where there is one: a theorem of the whole
-statement is `full`, one on a narrower range is `partial`, and the claim value
-follows the statement's polarity. A result that answers only the site's wording
-keeps its claim page with `status` `rejected` and the reason "answers the site's
-wording, not the modified Statement". A result that answers only a variant, a
-reading or version of the problem that the problem page sets aside, settles no
-instance of the problem. Such a result submitted to the site as a claim keeps
-its claim page with `status` `rejected`, the reason "answers a variant, not the
-Statement", and a note that its mathematics answers the named variant and so
-does not settle the problem; every claim the site shows has a claim page,
-rejected if need be, and which of them a presentation of the corpus displays is
-the presentation's choice. A result never submitted as a claim, such as a
-theorem of the literature, has no claim page; the problem page records it among
-its known results as answering the variant. On a problem that asks for an order
-of growth or a best bound, a bound has a partial claim page only when it
+`submitted` is the date the claim was submitted to erdosproblems.com, as a proof
+claim or a forum post, or to the Palomar registry: the date its **Submission
+note** gives, as `YYYY-MM-DD`, and `null` when no such submission is known. The
+body says what a partial claim settles under **Covers.**, what the claim rests
+on under **Depends on.** (wikilinks to wiki pages, or to library result pages,
+which the check reports with their read status and never counts toward the
+standing; an accepted claim depends on no unaccepted wiki page, a `solved`
+problem page counting as accepted), and states unproven hypotheses in prose.
+Claims are scoped and valued against the statement the problem page shows, the
+modified Statement where there is one: a theorem of the whole statement is
+`full`, one on a narrower range is `partial`, and the claim value follows the
+statement's polarity. A result that answers only the erdosproblems.com wording
+keeps its claim page with `status` `rejected` and the reason "answers the
+erdosproblems.com wording, not the modified Statement". A result that answers
+only a variant, a reading or version of the problem that the problem page sets
+aside, settles no instance of the problem. Such a result submitted to the site
+as a claim keeps its claim page with `status` `rejected`, the reason "answers a
+variant, not the Statement", and a note that its mathematics answers the named
+variant and so does not settle the problem; every claim the site shows has a
+claim page, rejected if need be, and which of them a presentation of the corpus
+displays is the presentation's choice. A result never submitted as a claim, such
+as a theorem of the literature, has no claim page; the problem page records it
+among its known results as answering the variant. On a problem that asks for an
+order of growth or a best bound, a bound has a partial claim page only when it
 improves the best established bound (accepted, or published and refereed) that
 the problem page lists from before its date; a pending claim's bound counts once
 it is accepted. A bound that does not improve it is recorded among the page's
@@ -674,23 +677,42 @@ page navigation under [[math_authoring]].
 
 ### Problem pages
 
-- **The site's number is the problem's identity.** A problem is the folder
-  `wiki/problems/<subject>/E<nnnn>/`, named by its erdosproblems.com number
-  zero-padded to four digits (`E0570/` for Problem 570), whose `_index.md` is
-  the problem page and whose `claims/` holds its claim pages as the shared
-  section Problems and claims states; never renumber. Folders sit one level deep
-  in area folders routed from the site's tags by `scripts/taxonomy.json`. The
-  site's problem page is the first reference for the statement and remarks. The
-  page's `tags` are the site's tags in the site's order, each with a capital
-  first letter, after the renames, drops and per-problem additions under
+- **Name erdosproblems.com.** Corpus prose on every page, library and research
+  included, names Thomas Bloom's site as erdosproblems.com and never as "the
+  site", which a reader could take for this repository's own presentation at
+  erdosproblems.ai; the bounty site is named Conjectures.io in the same way. A
+  page or feature of the site, its curator, and a part of a catalog entry take
+  the domain as a modifier: "the erdosproblems.com page, accessed 2026-09-04",
+  "the erdosproblems.com forum thread", "the erdosproblems.com proof-claims
+  tab", "the erdosproblems.com curator", "the erdosproblems.com label", "the
+  erdosproblems.com wording". Where no such noun follows, the possessive serves:
+  "erdosproblems.com's own label", "erdosproblems.com's $f(n)$". The catalog as
+  the author of its labels and wording is Bloom's catalog: "Bloom's catalog
+  labeled the problem OPEN", "read as Bloom's catalog words it". "The catalog"
+  alone is not used, since it could mean Bloom's catalog or the
+  formal-conjectures catalog. The domain keeps its lowercase spelling at the
+  start of a sentence too: "erdosproblems.com credits the result to ...". A
+  quotation, a transcription, a filed record and code keep their own words, and
+  "site" in another sense (another website, a lattice site, the sites of a
+  proof) is unaffected.
+- **The erdosproblems.com number is the problem's identity.** A problem is the
+  folder `wiki/problems/<subject>/E<nnnn>/`, named by its erdosproblems.com
+  number zero-padded to four digits (`E0570/` for Problem 570), whose
+  `_index.md` is the problem page and whose `claims/` holds its claim pages as
+  the shared section Problems and claims states; never renumber. Folders sit one
+  level deep in area folders routed from the erdosproblems.com tags by
+  `scripts/taxonomy.json`. The erdosproblems.com problem page is the first
+  reference for the statement and remarks. The page's `tags` are the
+  erdosproblems.com tags in the order erdosproblems.com gives them, each with a
+  capital first letter, after the renames, drops and per-problem additions under
   `tag_edits` in `scripts/taxonomy.json`. The corpus's own prose records no
   prize amount; an amount stays only inside a quotation of a source, as the
   source prints it.
 - **Every claim carries its source.** Cite the paper behind each result and each
   claim page, linking the result page under `library/` when one exists. Do not
-  record a claim the sources do not support — the site's labels were not always
-  current, and the site itself warned that an "open" label might be stale, so
-  check the literature before recording either way.
+  record a claim the sources do not support — the labels of Bloom's catalog were
+  not always current, and erdosproblems.com itself warned that an "open" label
+  might be stale, so check the literature before recording either way.
 - **The project's results are credited to Plasma AI.** Plasma AI is the name the
   project uses for itself: a claim of its own lists `Plasma AI` as its author,
   and the corpus credits its own results and checks to Plasma AI, never to a
@@ -706,27 +728,28 @@ at most one second Statement labeled `**Statement (modified).**` directly below
 it with its `**Notes.**` paragraph, any formulation qualification, Status,
 Source, optional References, and Formalization, in that order. Use the bold
 field labels emitted by `scripts/build_problems.py`; Statement may retain a
-parenthesized convention qualification. The second Statement is the site's
-wording with only the evidence-supported change, in the site's notation, so that
-it reads word for word against the Statement above; Notes state what fails in
-the site's wording, the change, the evidence with its locators and, where
-Erdős's printed wording and the curator's reading differ, both readings with
-their locators and the answer under each; they credit results about the site's
-wording. The fields "Corrected formulation" and "Answer to the corrected
-formulation" are not used. Status states the site's label with its
-qualifications as prose; the derived standing is the frontmatter. On 6 October
-2026 the site stopped showing problem labels and froze the comments in each
-problem's thread and its proof claims (the curator's post
-[Changes](https://www.erdosproblems.com/forum/thread/blog:9), 6 October 2026);
-its general threads and its blog stayed open. A site label a page cites is
-therefore the label as it stood up to that date, a historical record written in
-the past tense, and a problem thread's comments and proof claims are a frozen
-archive as of that date. An access date of 7 October 2026 or later dates the
-page's other content, never its label. The site's statements, remarks,
-references, tags, prize, formalized-statement flag and problem lists remain
-current; cite the remarks with the date they were read. Preserve the exact
-formulation, status qualifications and source dates when normalizing labels.
-Formalization may briefly point to a detailed later section.
+parenthesized convention qualification. The second Statement is the
+erdosproblems.com wording with only the evidence-supported change, in its
+notation, so that it reads word for word against the Statement above; Notes
+state what fails in the erdosproblems.com wording, the change, the evidence with
+its locators and, where Erdős's printed wording and the curator's reading
+differ, both readings with their locators and the answer under each; they credit
+results about the erdosproblems.com wording. The fields "Corrected formulation"
+and "Answer to the corrected formulation" are not used. Status states the
+erdosproblems.com label with its qualifications as prose; the derived standing
+is the frontmatter. On 6 October 2026 erdosproblems.com stopped showing problem
+labels and froze the comments in each problem's thread and its proof claims (the
+curator's post [Changes](https://www.erdosproblems.com/forum/thread/blog:9), 6
+October 2026); its general threads and its blog stayed open. A label of Bloom's
+catalog that a page cites is therefore the label as it stood up to that date, a
+historical record written in the past tense, and a problem thread's comments and
+proof claims are a frozen archive as of that date. An access date of 7 October
+2026 or later dates the page's other content, never its label. The
+erdosproblems.com statements, remarks, references, tags, prize,
+formalized-statement flag and problem lists remain current; cite the remarks
+with the date they were read. Preserve the exact formulation, status
+qualifications and source dates when normalizing labels. Formalization may
+briefly point to a detailed later section.
 
 Put one nonempty `## Current assessment` after this opening as the first
 authored H2. Intervening prose or H3 content is permitted. Later mathematical
@@ -755,23 +778,24 @@ gaps. Use concise prose; a common content requirement does not require an
 identical table or empty headings on every page. Populate this account when
 reviewing the mathematics, not by copying an unassessed imported label.
 
-Lead with the site formulation. The Statement is the site's wording, verbatim.
-When that wording misrenders the problem the site and its sources mean, a
-modified Statement stands directly below it with a Notes paragraph. It either
-corrects an unintended slip (a dropped range whose failures are only boundary
-cases, a setting or convention the sources assume, or a misprint the poser's own
-words contradict) or gives the precise reading of an ambiguity a source fixes.
-The page leans toward the rulings of the site's curator: the status label, the
-commentary and the curator's replies in the problem's thread. Where Erdős's
-printed wording and the curator's reading differ, the page follows the curator,
-with a modified Statement of that reading and Notes that explain the discrepancy
-fully: the printed wording and the curator's reading, each with its locators,
-and what each answers. The standing judges the lowest statement shown. A reading
-that neither a source nor the curator fixes is discussed in the content, each
-reading with its evidence and its answer; such a problem is settled only when
-every reading is settled the same way, and mixed outcomes leave it open. A later
-theorem alone does not justify a correction, and the site's deliberate
-restatements are the problem. Distinguish material subquestions and variants. An
+Lead with the erdosproblems.com formulation. The Statement is the
+erdosproblems.com wording, verbatim. When that wording misrenders the problem
+that erdosproblems.com and its sources mean, a modified Statement stands
+directly below it with a Notes paragraph. It either corrects an unintended slip
+(a dropped range whose failures are only boundary cases, a setting or convention
+the sources assume, or a misprint the poser's own words contradict) or gives the
+precise reading of an ambiguity a source fixes. The page leans toward the
+rulings of the erdosproblems.com curator: the status label, the commentary and
+the curator's replies in the problem's thread. Where Erdős's printed wording and
+the curator's reading differ, the page follows the curator, with a modified
+Statement of that reading and Notes that explain the discrepancy fully: the
+printed wording and the curator's reading, each with its locators, and what each
+answers. The standing judges the lowest statement shown. A reading that neither
+a source nor the curator fixes is discussed in the content, each reading with
+its evidence and its answer; such a problem is settled only when every reading
+is settled the same way, and mixed outcomes leave it open. A later theorem alone
+does not justify a correction, and the deliberate restatements in Bloom's
+catalog are the problem. Distinguish material subquestions and variants. An
 unassessed question is not thereby open.
 
 Separate current progress from historical or adjacent results. A retained source
@@ -785,16 +809,16 @@ hand.
 #### Mathematical status
 
 Every problem page carries `status`, `claim` and `tags`, derived and checked as
-the shared section Problems and claims states. The site's own label (open,
-proved, disproved, solved, decidable, verifiable, falsifiable, not disprovable,
-not provable, independent) lives in the body's **Status.** sentence with its
-qualifications, never in the frontmatter: a settled label is a claim page whose
-acceptance the evidence shows (the site's solved is the claim value `answered`),
-`decidable` is a partial claim (a reduction to a finite check) on an open
-problem, the site's not provable and not disprovable are one-sided partial
-claims that leave the problem open on their own (the generator maps them to open
-with claim `none`), and `verifiable` and `falsifiable` are body notes. The
-standing concerns the statement the page shows, the modified Statement where
+the shared section Problems and claims states. The label of Bloom's catalog
+(open, proved, disproved, solved, decidable, verifiable, falsifiable, not
+disprovable, not provable, independent) lives in the body's **Status.** sentence
+with its qualifications, never in the frontmatter: a settled label is a claim
+page whose acceptance the evidence shows (a solved label is the claim value
+`answered`), `decidable` is a partial claim (a reduction to a finite check) on
+an open problem, the labels not provable and not disprovable are one-sided
+partial claims that leave the problem open on their own (the generator maps them
+to open with claim `none`), and `verifiable` and `falsifiable` are body notes.
+The standing concerns the statement the page shows, the modified Statement where
 there is one. Explain partial resolutions, conditional results, and different
 standings of subquestions in the body and on the claim pages. Keep Lean and
 formalization qualifications there too; a formal proof of a weaker statement
@@ -809,9 +833,10 @@ papers and preprints, author pages, and recent research announcements, including
 X. Follow announcements to the actual arguments and acceptance evidence. An X
 post is never cited or linked. Follow it to the paper, preprint or argument it
 announces and cite that as an ordinary source; naming X in the search scope is
-allowed. Record the search scope and outstanding claims; a site label or failure
-to find a solution alone does not establish openness. Distinguish authors' proof
-claims, community acceptance, and independent proof review.
+allowed. Record the search scope and outstanding claims; an erdosproblems.com
+label or a failure to find a solution alone does not establish openness.
+Distinguish authors' proof claims, community acceptance, and independent proof
+review.
 
 Before a claim page moves from `claimed` to `accepted`, identify evidence of
 acceptance and list its kinds under `evidence`. Refereed publication or
@@ -824,30 +849,31 @@ until the project's reviewer signs off. Keep any specific unresolved proof
 dispute prominent. A theorem statement in a manuscript is not sufficient by
 itself: such a claim stays `claimed`, and the problem's `status` stays `claimed`
 with it. Source-supported standing, local proof coverage and formal verification
-remain distinct. A provisional standing retained from the site's label, on a
-problem with no claim page yet, still needs the qualifications above; unless it
-is `open`/`none`, the schema check counts it and fails it in its settled mode,
-and it certifies nothing. Project-authored resolutions require the independent
-whole-conclusion and exact-formulation scrutiny in [[verification]] before
-acceptance as project solutions.
+remain distinct. A provisional standing retained from the erdosproblems.com
+label, on a problem with no claim page yet, still needs the qualifications
+above; unless it is `open`/`none`, the schema check counts it and fails it in
+its settled mode, and it certifies nothing. Project-authored resolutions require
+the independent whole-conclusion and exact-formulation scrutiny in
+[[verification]] before acceptance as project solutions.
 
 A claim page with an erdosproblems.com proof claim, a claimant's forum post that
 the page cites, or a Palomar registry link carries a `**Submission note.**`
 directly after its Claim section. The note quotes the claimant's own post in
-full, after a lead-in naming the source, the account, the date and the site's AI
-field as written; identical texts appear once, and another claimant's entry is
-not quoted. A rejected claim page that answers the site's wording rather than a
-modified Statement opens its `desc` with the reason: "Correct, but answers the
-site's wording (...), not the modified Statement" when the rejected result is
-itself accepted (reviewed, refereed or formalized), and "Answers the site's
-wording (...), not the modified Statement" otherwise. A rejected claim page
-whose bound does not improve the best known bound opens its `desc` the same way:
-"Correct, but does not improve the best known bound (...)" or "Does not improve
-the best known bound (...)", the parentheses naming that bound and its source. A
-rejected claim page that answers a variant opens its `desc` the same way, with
-"Correct, but answers a variant (...), not the Statement (...)" or "Answers a
-variant (...), not the Statement (...)", the parentheses naming the variant and
-the page's reading.
+full, after a lead-in naming the source, the account, the date and the
+erdosproblems.com AI field as written; identical texts appear once, and another
+claimant's entry is not quoted. A rejected claim page that answers the
+erdosproblems.com wording rather than a modified Statement opens its `desc` with
+the reason: "Correct, but answers the erdosproblems.com wording (...), not the
+modified Statement" when the rejected result is itself accepted (reviewed,
+refereed or formalized), and "Answers the erdosproblems.com wording (...), not
+the modified Statement" otherwise. A rejected claim page whose bound does not
+improve the best known bound opens its `desc` the same way: "Correct, but does
+not improve the best known bound (...)" or "Does not improve the best known
+bound (...)", the parentheses naming that bound and its source. A rejected claim
+page that answers a variant opens its `desc` the same way, with "Correct, but
+answers a variant (...), not the Statement (...)" or "Answers a variant (...),
+not the Statement (...)", the parentheses naming the variant and the page's
+reading.
 
 ### Library
 
@@ -1026,12 +1052,12 @@ no claim ID, and claims do not nest inside claims. Coordinate allocation before
 adding a claim; never reuse an ID. Moving a claim preserves its ID and repairs
 its links.
 
-An E-number identifies the catalog problem, not a local proposition. One problem
-can concern several claims, and one claim can bear on several problems. A source
-theorem stays on its canonical library page, even when reviewed or formalized.
-Do not create duplicate claim wrappers for literature results. A distinct
-project deduction, correction, or specialization may merit a claim; explain its
-relationship to the source and linked problems.
+An E-number identifies the erdosproblems.com problem, not a local proposition.
+One problem can concern several claims, and one claim can bear on several
+problems. A source theorem stays on its canonical library page, even when
+reviewed or formalized. Do not create duplicate claim wrappers for literature
+results. A distinct project deduction, correction, or specialization may merit a
+claim; explain its relationship to the source and linked problems.
 
 A claim index carries ordinary wiki metadata plus `id`, `statement` (the exact
 proposition and conventions), `status` (`open`, `proved`, or `refuted`), and
