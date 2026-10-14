@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # Problem 1109
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E1109/claims/_index|claims/]]: The 3 claim pages of Problem 1109, one per claimant's result; the problem's standing derives from them.
+[[problems/integer_sequences/E1109/claims/_index|claims/]]: The 2 claim pages of Problem 1109, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -27,12 +27,12 @@ particular, is it true that $f(N)\leq N^{o(1)}$, or even $f(N) \leq (\log
 N)^{O(1)}$?
 
 **Status.** Open. The site labeled the problem OPEN (page last edited 3 December
-2025). Its commentary credits three sets of bounds, each recorded on a claim
-page: Erdős and Sárközy's $\log N\ll f(N)\ll N^{3/4}\log N$,
+2025). Its commentary credits three sets of bounds: Erdős and Sárközy's
+$\log N\ll f(N)\ll N^{3/4}\log N$,
 [[problems/integer_sequences/E1109/claims/1987_03_01_erdos_sarkozy|Erdős and Sárközy 1987]];
-Gyarmati's second proof of $f(N)\gg\log N$,
-[[problems/integer_sequences/E1109/claims/2002_08_01_gyarmati|Gyarmati 2001]];
-and Konyagin's $\log^2N\log\log N\ll f(N)\ll N^{11/15+o(1)}$, the best known,
+Gyarmati's second proof of $f(N)\gg\log N$, by graph theory [Gy01], which does
+not improve that bound and so has no claim page; and Konyagin's
+$\log^2N\log\log N\ll f(N)\ll N^{11/15+o(1)}$, the best known,
 [[problems/integer_sequences/E1109/claims/2004_06_30_konyagin|Konyagin 2004]].
 None answers either question. G. N. Sárközy [Sa92c] extends the problem to sums
 $A+B$ and to $k$-power-free sums. As Konyagin records (p. 494), Sárközy also

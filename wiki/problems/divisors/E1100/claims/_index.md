@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 1100, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:37:55Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # problems/divisors/E1100/claims
@@ -21,9 +21,9 @@ coprime consecutive divisor count up to $x$ is
 $\exp(\Theta(\log x/\log\log x))$ with an explicit lower constant, answering
 Erdős's maximal-order questions in the negative.
 
-[[problems/divisors/E1100/claims/2026_08_04_ross|2026_08_04_ross]]: Ross claims that for squarefree $n$ with $k$ prime factors, the maximum number
-of coprime consecutive divisor pairs is at least $c\varphi^k/\sqrt k$. The
-base $\varphi$ already follows from Chevyrev, Searles and Slinko (2013),
-through the lower bound $F_{k+1}$.
+[[problems/divisors/E1100/claims/2026_08_04_ross|2026_08_04_ross]]: Does not improve the best known bound ($g(k)\ge F_{k+1}\gg\varphi^k$, from
+Chevyrev, Searles and Slinko 2013). Ross claims that for squarefree $n$ with
+$k$ prime factors, the maximum number of coprime consecutive divisor pairs is
+at least $c\varphi^k/\sqrt k$.
 
 ***
