@@ -795,14 +795,17 @@ Before a claim page moves from `claimed` to `accepted`, identify evidence of
 acceptance and list its kinds under `evidence`. Refereed publication or
 documented independent acceptance suffices. Journal publication, a reproof by
 this project, and catalog agreement are not individually required when
-acceptance is otherwise documented. Keep any specific unresolved proof dispute
-prominent. A theorem statement in a manuscript is not sufficient by itself: such
-a claim stays `claimed`, and the problem's `status` stays `claimed` with it.
-Source-supported standing, local proof coverage and formal verification remain
-distinct. A provisional standing retained from the site's label, on a problem
-with no claim page yet, still needs the qualifications above; unless it is
-`open`/`none`, the schema check counts it and fails it in its settled mode, and
-it certifies nothing. Project-authored resolutions require the independent
+acceptance is otherwise documented. This project's own review or check of an
+outside proof is reported on the claim page as coverage, saying what it covered
+and how it was graded, and the claim stays `claimed`, its acceptance pending,
+until the project's reviewer signs off. Keep any specific unresolved proof
+dispute prominent. A theorem statement in a manuscript is not sufficient by
+itself: such a claim stays `claimed`, and the problem's `status` stays `claimed`
+with it. Source-supported standing, local proof coverage and formal verification
+remain distinct. A provisional standing retained from the site's label, on a
+problem with no claim page yet, still needs the qualifications above; unless it
+is `open`/`none`, the schema check counts it and fails it in its settled mode,
+and it certifies nothing. Project-authored resolutions require the independent
 whole-conclusion and exact-formulation scrutiny in [[verification]] before
 acceptance as project solutions.
 

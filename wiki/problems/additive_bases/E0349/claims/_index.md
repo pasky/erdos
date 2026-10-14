@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 349, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:13:33Z
 ---
 
 # problems/additive_bases/E0349/claims
@@ -37,6 +37,7 @@ of Problem 349 under every reading.
 [[problems/additive_bases/E0349/claims/2026_09_06_geneson|2026_09_06_geneson]]: Jesse Geneson's 2026 note and preprint claim that at one Salem number
 $\gamma\in(6/5,13/10)$, arbitrarily large $t$ make every term
 $\lfloor t\gamma^n\rfloor$ even, refuting the conjectured completeness for all
-$t>0$ below the golden ratio.
+$t>0$ below the golden ratio. It was reviewed internally and graded sound,
+and its acceptance is pending.
 
 ***
