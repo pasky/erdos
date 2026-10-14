@@ -45,8 +45,9 @@ decisions.
 
 ***
 
-The copy read for this card is arXiv:1703.05409v1 (15 March 2017), 12 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:1703.05409v1](https://arxiv.org/abs/1703.05409v1) (15 March 2017), 12
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1703.05409), every other right reserved.
 
 Ferenc Bencs, "On trees with real rooted independence polynomial,"

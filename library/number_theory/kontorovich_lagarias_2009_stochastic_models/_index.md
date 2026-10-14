@@ -44,8 +44,8 @@ and turns into a warning about 3x+1 heuristics.
 ***
 
 Alex V. Kontorovich and Jeffrey C. Lagarias, *Stochastic models for the 3x+1 and
-5x+1 problems*, arXiv:0910.1944v1 (2009; published in "The Ultimate Challenge:
-The 3x+1 Problem", AMS, 2010; 66 pp.).
+5x+1 problems*, [arXiv:0910.1944v1](https://arxiv.org/abs/0910.1944v1) (2009;
+published in "The Ultimate Challenge: The 3x+1 Problem", AMS, 2010; 66 pp.).
 
 Surveys and develops the repeated-random-walk and branching-random-walk
 models of Lagarias and Weiss for 3x+1 orbits side by side with 5x+1 models,

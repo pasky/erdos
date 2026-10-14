@@ -57,9 +57,9 @@ factorization indexed sequences*, Journal of Number Theory 133 (9) (2013),
 3033–3056, DOI
 [10.1016/j.jnt.2013.03.006](https://doi.org/10.1016/j.jnt.2013.03.006). The
 copy read for this card is
-arXiv:1301.1401v1, dated 8 January 2013; its title says “indexed multisets”. The
-arXiv record names arXiv's non-exclusive distribution license (arXiv:1301.1401),
-every other right reserved.
+[arXiv:1301.1401v1](https://arxiv.org/abs/1301.1401v1), dated 8 January 2013;
+its title says “indexed multisets”. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:1301.1401), every other right reserved.
 
 Read status: claims checked for the results with pages below, each read
 clause by clause on the page images of the arXiv edition, with the

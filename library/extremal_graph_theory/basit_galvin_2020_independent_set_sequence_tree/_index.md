@@ -48,8 +48,9 @@ nonzero part of the sequence.
 
 ***
 
-The copy read for this card is arXiv:2006.12562v2 (3 July 2021), 22 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:2006.12562v2](https://arxiv.org/abs/2006.12562v2) (3 July 2021), 22
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2006.12562), every other right reserved.
 
 Abdul Basit, David Galvin, "On the independent set sequence of a tree,"

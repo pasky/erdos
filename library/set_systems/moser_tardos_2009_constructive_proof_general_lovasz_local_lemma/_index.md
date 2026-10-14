@@ -45,8 +45,8 @@ resamples each event A at most an expected x(A)/(1 - x(A)) times.
 ***
 
 Robin A. Moser, Gábor Tardos, "A constructive proof of the general Lovász Local
-Lemma," arXiv:0903.0544 (2009); published in J. ACM 57 (2010), no. 2, Art. 11,
-1--15, DOI 10.1145/1667053.1667060.
+Lemma," [arXiv:0903.0544](https://arxiv.org/abs/0903.0544v3) (2009); published
+in J. ACM 57 (2010), no. 2, Art. 11, 1--15, DOI 10.1145/1667053.1667060.
 
 **Copy read.** The copy read for this card is the complete arXiv preprint cited
 above, version 3 (20 May 2009). The arXiv record names arXiv's non-exclusive

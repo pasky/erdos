@@ -40,7 +40,8 @@ signed-design equation W_{tk} x = lambda 1.
 
 ***
 
-The copy read for this card is arXiv:0709.3144v1 (20 September 2007), 15
+The copy read for this card is
+[arXiv:0709.3144v1](https://arxiv.org/abs/0709.3144v1) (20 September 2007), 15
 pages. The arXiv record carries no license field, so arXiv's assumed license
 applies (arXiv:0709.3144), every other right reserved.
 

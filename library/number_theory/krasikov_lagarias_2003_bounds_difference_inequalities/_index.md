@@ -25,8 +25,9 @@ computer-aided, a feasible solution of the linear program for k = 11.
 ***
 
 Ilia Krasikov and Jeffrey C. Lagarias, *Bounds for the 3x+1 Problem using
-Difference Inequalities*, arXiv:math/0205002v1 (30 April 2002; 21 pp.);
-published Acta Arith. 109 (2003), no. 3, 237--258, DOI 10.4064/aa109-3-4.
+Difference Inequalities*,
+[arXiv:math/0205002v1](https://arxiv.org/abs/math/0205002v1) (30 April 2002; 21
+pp.); published Acta Arith. 109 (2003), no. 3, 237--258, DOI 10.4064/aa109-3-4.
 
 Studies the systems of difference inequalities that Krasikov introduced in
 1989 (the paper's [4]) for the occupancy of congruence classes mod $3^k$

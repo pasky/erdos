@@ -41,8 +41,9 @@ Laura Anderson, "Vectors of matroids over tracts," J. Combin. Theory Ser. A 161
 arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1607.04868), every other right reserved.
 
-The copy read for this card is the arXiv preprint, arXiv:1607.04868v4 (23 July
-2018); labels and pages on this card and its result pages are those of v4.
+The copy read for this card is the arXiv preprint,
+[arXiv:1607.04868v4](https://arxiv.org/abs/1607.04868v4) (23 July 2018); labels
+and pages on this card and its result pages are those of v4.
 
 ## Research digest
 

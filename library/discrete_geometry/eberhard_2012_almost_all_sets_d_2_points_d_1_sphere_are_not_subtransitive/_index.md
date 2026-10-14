@@ -23,9 +23,9 @@ nonconstant affine map carries them into a finite transitive set in any R^n.
 Sean Eberhard, "Almost all sets of d+2 points on the (d-1)-sphere are not
 subtransitive," Mathematika 59 (2013), no. 2, 267-268. DOI
 10.1112/S0025579313000053. arXiv:1212.1803 (2012). The copy read for this card
-is the arXiv preprint arXiv:1212.1803v1. The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:1212.1803), every other right
-reserved.
+is the arXiv preprint [arXiv:1212.1803v1](https://arxiv.org/abs/1212.1803v1).
+The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:1212.1803), every other right reserved.
 
 ## Overview
 
