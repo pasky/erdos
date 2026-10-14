@@ -33,8 +33,8 @@ Suggested key [Ko26b].
 
 **Retained artifact.** The
 [folder-name PDF](korsky_2026_resolution_debruijn_erdos_consecutive_gap_problem.pdf)
-is arXiv v2, retrieved from <https://arxiv.org/pdf/2609.07196v2>; 396,636 bytes;
-the arXiv v2 LaTeX source and HTML rendering were fetched too, and the arXiv
+is arXiv v2, retrieved from <https://arxiv.org/pdf/2609.07196v2>; the arXiv v2
+LaTeX source and HTML rendering were fetched too, and the arXiv
 metadata sits in the `.arxiv/` sidecar. The text layer was read. Version 1 is
 not held. The external link of the proof claim registered for Problem 1221 on
 erdosproblems.com (submitted 2026-09-08) is a Google Drive copy of the same

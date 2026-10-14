@@ -30,8 +30,8 @@ is arXiv:2205.12921v1, stamped "[math.CO] 25 May 2022" on p. 1 and dated May
 2022, 16 pages with a text layer; it was the only version on the arXiv listing
 on 17 September 2026. The published version was not compared, so its numbering
 may differ; labels and pages below are v1's. Provenance: retrieved from
-<https://arxiv.org/abs/2205.12921> into the repository's survey download set;
-347,431 bytes. The arXiv record (https://arxiv.org/abs/2205.12921, read
+<https://arxiv.org/abs/2205.12921> into the repository's survey download set.
+The arXiv record (https://arxiv.org/abs/2205.12921, read
 2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for Theorems 1.1 and 1.2, read clause by clause on

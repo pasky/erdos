@@ -38,7 +38,7 @@ The retained
 file, five pages with a complete text layer, read on the rendered page
 images. Provenance: retrieved from
 <https://github.com/Shashi456/erdos-formalizations/blob/main/Erdos/P694/proof.pdf>
-as part of the survey download set; 223,768 bytes. No notice is printed in the
+as part of the survey download set. No notice is printed in the
 file; the hosting repository's LICENSE file and its README section "Apache 2.0 —
 matches Mathlib and formal-conjectures" name the Apache License 2.0 for the
 repository (https://github.com/Shashi456/erdos-formalizations, read 2026-10-02),

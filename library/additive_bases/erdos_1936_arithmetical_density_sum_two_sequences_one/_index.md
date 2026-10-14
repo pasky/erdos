@@ -28,7 +28,7 @@ site key is Er36c and labels the scan 1936, while the printed paper records
 
 The four-page Renyi scan at
 <https://users.renyi.hu/~p_erdos/1936-06.pdf> is the canonical local version:
-the file is 562638 bytes, and its printed pages are 197–200 (PDF pages 1–4). All
+its printed pages are 197–200 (PDF pages 1–4). All
 four pages were rendered with Poppler and visually inspected; the scan is clean
 enough to read the theorem, lemma, proof, and closing remark directly. The
 file's text layer carries no copyright or license line; the journal's record

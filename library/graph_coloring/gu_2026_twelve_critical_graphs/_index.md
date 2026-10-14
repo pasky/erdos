@@ -95,7 +95,7 @@ clause by clause on the v7 PDF. No proof was checked.
 
 - The selected
   [folder-basename PDF](gu_2026_twelve_critical_graphs.pdf) is Zenodo record
-  22569201, version v7: seven physical pages, 94,324 bytes.
+  22569201, version v7: seven physical pages.
 - The distinct historical PDF, read for this card but not held, is Zenodo
   record 22352283, version v3, publication date 5 September 2026: six physical
   pages, 328,666 bytes.

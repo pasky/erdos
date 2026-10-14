@@ -29,8 +29,8 @@ arXiv. Suggested key [Ko26a].
 
 **Retained artifact.** The
 [folder-name PDF](korsky_2026_improved_lower_bound_debruijn_erdos_consecutive_gap_problem.pdf)
-is arXiv v1, retrieved from <https://arxiv.org/pdf/2605.30959v1>; 268,639 bytes;
-the arXiv v1 LaTeX source and HTML rendering were fetched too, and the arXiv
+is arXiv v1, retrieved from <https://arxiv.org/pdf/2605.30959v1>; the arXiv v1
+LaTeX source and HTML rendering were fetched too, and the arXiv
 metadata sits in the `.arxiv/` sidecar. The text layer was read. The arXiv
 record (https://arxiv.org/abs/2605.30959, read 2026-10-02) names the Creative
 Commons Attribution 4.0 license.

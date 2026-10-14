@@ -18,8 +18,8 @@ updated: 2026-10-05T05:52:35Z
 The retained [folder-name PDF](yasufuku_2026_gcd_inequalities_arising_from_codimension_2_blowups.pdf) is the published article, 15
 pages with a text layer, the canonical version for this card; its conversion
 sits beside it. Provenance: downloaded free of charge from
-https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/blms.70349; 217,020
-bytes. The file prints "© 2026 The Author(s). Bulletin of the London
+https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/blms.70349. The
+file prints "© 2026 The Author(s). Bulletin of the London
 Mathematical Society is copyright © London Mathematical Society. This is an open
 access article under the terms of the Creative Commons Attribution License,
 which permits use, distribution and reproduction in any medium" at the foot of

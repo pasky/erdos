@@ -30,8 +30,8 @@ is the author's scan of the fourteen printed pages (head "ACTA ARITHMETICA
 LXIV.2 (1993)"; physical PDF p. $n$ is printed p. $174+n$). It has no text
 layer; the statements below were read on the page images. Provenance:
 fetched from
-<https://danielduverney.fr/documents/theorie-des-nombres/acta1.pdf>, 407,533
-bytes. The journal version was not compared. The scan is image-only and its
+<https://danielduverney.fr/documents/theorie-des-nombres/acta1.pdf>. The journal
+version was not compared. The scan is image-only and its
 rendered first and last pages show no copyright or license line; the journal's
 record offers the PDF under the download link "Pobierz zgodnie z CC-BY",
 rendered "Free download under CC-BY license" on the English site, and names no

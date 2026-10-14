@@ -60,8 +60,8 @@ qualified algebraic consequence without claiming a complete corrected proof.
 The paper's spherical bounds and its inconsistent numerical table are outside
 this compilation.
 
-**Source verification.** The retained v1 PDF is the canonical 209,140-byte,
-24-page artifact. The abstract (p. 1), Theorem 3.1 (p. 8), and equation (3.6)
+**Source verification.** The retained v1 PDF is the canonical 24-page artifact.
+The abstract (p. 1), Theorem 3.1 (p. 8), and equation (3.6)
 in its proof (p. 9) were rendered and visually inspected; every formula and
 qualification recorded here was checked against those images.
 

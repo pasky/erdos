@@ -43,8 +43,8 @@ README; it attributes the mathematics to no person, and the author's own
 attribution of the proof to an AI system is quoted on the source record.
 
 **Provenance.** Cloned from <https://github.com/tokengr1nder/Erdos252> at HEAD
-`dc071aafce41bbae41caf4c015499db6dafafd11`; 17 tracked files, 434,359 bytes. The
-tracked files are retained unedited under `evidence/assets/upstream/`, with the
+`dc071aafce41bbae41caf4c015499db6dafafd11`; 17 tracked files. The tracked files
+are retained unedited under `evidence/assets/upstream/`, with the
 upstream's own `SHA256SUMS` (15 entries, verified at filing), its `LICENSE` and
 its disclaimed exposition `PROOF.pdf`; they are the reviewed bytes and are not
 edited. Toolchain pins: Lean `leanprover/lean4:v4.33.1`; Mathlib

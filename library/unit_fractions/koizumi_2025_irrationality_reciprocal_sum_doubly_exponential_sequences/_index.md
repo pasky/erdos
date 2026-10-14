@@ -89,8 +89,8 @@ Source: <https://arxiv.org/abs/2504.05933>.
 [journal
 PDF](koizumi_2025_irrationality_reciprocal_sum_doubly_exponential_sequences_journal.pdf)
 is the published version, Integers 26 (2026), paper A28 (17 pages, numbered
-1--17; DOI 10.5281/zenodo.18714404 printed on p. 1). Its provenance: 334,539
-bytes, retrieved (the download URL is not recorded). The journal version
+1--17; DOI 10.5281/zenodo.18714404 printed on p. 1). Its download URL is not
+recorded. The journal version
 renumbers the results: preprint Theorem 1 is Theorem 1 (p. 2), Corollary 2 is
 Corollary 1 (p. 2), Corollary 3 is Corollary 2 (p. 2), Theorem 4 is Theorem 2
 (p. 3), Question 5 is Question 1 (p. 3), Conjecture 6 is Conjecture 1 (p. 4),
@@ -112,7 +112,7 @@ distribution license (arXiv:2504.05933), every other right reserved. For the
 journal PDF, no notice is printed beyond "DOI: 10.5281/zenodo.18714404" on p. 1,
 and the Zenodo record of the journal's deposit names the Creative Commons
 Attribution 4.0 license, license id "cc-by-4.0", with the access right "open"
-and a file of the same size, 334,539 bytes
+and a file of the same size as the held PDF
 (https://zenodo.org/api/records/18714404, read 2026-10-02); the journal's home
 page states "All works of this journal are licensed under a Creative Commons
 Attribution 4.0 International License" (https://math.colgate.edu/~integers/,

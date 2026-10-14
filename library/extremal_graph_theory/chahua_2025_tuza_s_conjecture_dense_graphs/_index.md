@@ -42,8 +42,8 @@ preprint arXiv:2405.11409v1 [math.CO] (18 May 2024; the stamp on p. 1), 12 A4
 pages with a clean text layer (Ghostscript), so the locators and labels below
 are the preprint's and the journal text was not compared. Retained from the
 repository's survey download set; its arXiv address is
-<https://arxiv.org/abs/2405.11409v1>. Provenance: the survey download set,
-211,576 bytes. The arXiv record (https://arxiv.org/abs/2405.11409, read
+<https://arxiv.org/abs/2405.11409v1>. Provenance: the survey download set. The
+arXiv record (https://arxiv.org/abs/2405.11409, read
 2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the abstract, Conjecture 1 and the Haxell

@@ -195,9 +195,8 @@ independently verified in this repository.
 
 **Artifacts.**
 [PDF](itabe_2026_herzog_schonheim_conjecture_coset_partitions_at_most_seventeen_cells.pdf)
-(335945 bytes), and
-[complete v0.4.2 release archive](evidence/assets/formalization.zip) (775594
-bytes), retrieved from the
+and [complete v0.4.2 release archive](evidence/assets/formalization.zip),
+retrieved from the
 [tagged GitHub release](https://github.com/ritabe-dev/ErdosProblem274-AtLeast18/releases/tag/v0.4.2-review-candidate).
 The archive is pinned to commit `40865c8c79c37fe5a9b8224fedfb52a765f84baf` and
 contains the manuscript source, complete Lean project, generated certificates,

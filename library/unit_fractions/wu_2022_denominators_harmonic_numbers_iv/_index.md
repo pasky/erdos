@@ -33,8 +33,8 @@ pp. 53--57, so physical PDF p. $n$ is printed p. $51+n$. Its text layer is
 clean, and the statements below were read in it against the PDF.
 Provenance: retained from the repository's survey download set, identified by
 its DOI (<https://doi.org/10.5802/crmath.282>), which the PDF itself names
-together with the journal site; the download URL was not recorded; 601,771
-bytes. The file prints on its cover page (PDF p. 1) "This article is licensed
+together with the journal site; the download URL was not recorded. The file
+prints on its cover page (PDF p. 1) "This article is licensed
 under the Creative Commons Attribution 4.0 International License.
 http://creativecommons.org/licenses/by/4.0/", the Creative Commons Attribution
 4.0 license.

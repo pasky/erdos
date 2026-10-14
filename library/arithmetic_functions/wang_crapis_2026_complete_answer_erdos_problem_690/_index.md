@@ -52,7 +52,7 @@ workflow.
 
 The canonical local artifact is
 [wang_crapis_2026_complete_answer_erdos_problem_690.pdf](wang_crapis_2026_complete_answer_erdos_problem_690.pdf),
-the 18-page arXiv v1, 413,851 bytes, downloaded from the versioned PDF link
+the 18-page arXiv v1, downloaded from the versioned PDF link
 above. Printed and PDF page numbers coincide. All eighteen pages were read
 visually, at compilation, at review and again at filing. A second PDF of the
 paper in the authors' GitHub repository is not byte-identical to the arXiv v1

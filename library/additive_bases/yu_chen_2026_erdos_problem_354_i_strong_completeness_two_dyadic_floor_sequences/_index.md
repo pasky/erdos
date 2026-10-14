@@ -38,8 +38,8 @@ is the repository's `proof/FORMALIZED_PROOF.pdf` at commit
 "Manuscript: add author line and references (no proof changes)"), the head
 of `main` when the repository was read (last push 2026-09-20T04:03:41Z;
 repository created 2026-09-12T13:56:30Z). Provenance: downloaded from
-<https://github.com/Andrewyzzz/erdos354/raw/c735d9389a79a2aa20fc04103d8890dd330b531e/proof/FORMALIZED_PROOF.pdf>;
-138,329 bytes. Not on arXiv; no journal record. The file prints "The
+<https://github.com/Andrewyzzz/erdos354/raw/c735d9389a79a2aa20fc04103d8890dd330b531e/proof/FORMALIZED_PROOF.pdf>.
+Not on arXiv; no journal record. The file prints "The
 manuscript text is licensed under CC BY 4.0; code excerpts are offered under
 Apache-2.0. See LICENSING.md for the scope and third-party notices." on its
 first page, the Creative Commons Attribution 4.0 license for the manuscript

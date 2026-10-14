@@ -88,7 +88,7 @@ The distinct alternate, held in this folder, is the
 [Zenodo PDF](huang_2026_autonomous_disproofs_sum_product_real_zenodo_21286412.pdf),
 record [21286412](https://doi.org/10.5281/zenodo.21286412). Its metadata
 identifies it as a preprint/deposit with `publication_date` 2026-07-10. It has
-nine physical pages and 447,037 bytes. The PDFs are distinct byte versions;
+nine physical pages. The PDFs are distinct byte versions;
 their version scopes remain explicit. The metadata supplies no peer-review or
 named community-acceptance evidence. The [source record](source_record.json)
 pins the stable source identity, artifact roles, path alias, and locator

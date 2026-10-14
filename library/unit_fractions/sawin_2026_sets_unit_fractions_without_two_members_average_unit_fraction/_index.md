@@ -31,7 +31,7 @@ The retained
 is the arXiv v1 file (nine typeset pages with a text layer; the arXiv stamp
 "arXiv:2607.15419v1 [math.NT] 16 Jul 2026" runs down p. 1). Provenance: retained
 from the repository's survey download set, downloaded from
-<https://arxiv.org/abs/2607.15419>, 335,587 bytes. The arXiv record
+<https://arxiv.org/abs/2607.15419>. The arXiv record
 (https://arxiv.org/abs/2607.15419, read 2026-10-02) names the Creative Commons
 CC0 1.0 Universal public domain dedication.
 

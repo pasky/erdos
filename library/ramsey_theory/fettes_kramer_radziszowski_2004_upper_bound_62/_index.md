@@ -44,7 +44,8 @@ stated" speaks for the site.
 
 - [Canonical journal PDF](fettes_kramer_radziszowski_2004_upper_bound_62.pdf),
   from the
-  [publisher's journal scan](https://combinatorialpress.com/article/ars/Volume%20072/volume-72-paper-5.pdf); 23 PDF pages, 1,196,189 bytes.
+  [publisher's journal scan](https://combinatorialpress.com/article/ars/Volume%20072/volume-72-paper-5.pdf);
+  23 PDF pages.
 - The
   [publisher record](https://combinatorialpress.com/ars-articles/volume-072-ars-articles/an-upper-bound-of-62-on-the-classical-ramsey-number-r3-3-3-3/)
   gives publication on 31 July 2004. Radziszowski's

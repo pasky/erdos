@@ -17,8 +17,8 @@ updated: 2026-10-07T20:33:23Z
 ***
 
 M. V. P. Garcia and F. A. Tal, *A note on the generalized 3n+1 problem*, Acta
-Arith. 90 (1999) 245-250, DOI 10.4064/aa-90-3-245-250. Six pages, A4, 211,308
-bytes, PDF 1.2 (the journal digitization, dvipdfm production).
+Arith. 90 (1999) 245-250, DOI 10.4064/aa-90-3-245-250. Six pages, A4, PDF 1.2
+(the journal digitization, dvipdfm production).
 
 Relevance: for the Hasse map $H$ of (1) (p. 245), with $m>d\ge2$,
 $\gcd(d,m)=1$, $m<d^{d/(d-1)}$ and $R_d$ the system of residues modulo $d$

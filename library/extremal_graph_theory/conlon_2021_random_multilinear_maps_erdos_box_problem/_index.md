@@ -36,7 +36,7 @@ September 2021, "Reformatted for Discrete Analysis" per the arXiv record read on
 2026-09-18; v1 18 November 2020), 8 pages with a text layer and the running foot
 "Discrete Analysis, 2021:17, 8pp." on every page; printed and PDF pages agree.
 Provenance: retained from the repository's survey download set (the download URL
-was not recorded; the file carries the arXiv stamp); 237,101 bytes. The arXiv
+was not recorded; the file carries the arXiv stamp). The arXiv
 record (https://arxiv.org/abs/2011.09024, read 2026-10-02) names the Creative
 Commons Attribution 4.0 license.
 

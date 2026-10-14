@@ -55,7 +55,6 @@ Two editions were read for this card.
   foot "Published online by Cambridge University Press" on every page, 13
   pp., printed and PDF pages agreeing, with a text layer, in which the
   statements below were read. Provenance: the download URL was not recorded.
-  329,689 bytes.
 - The secondary is arXiv:2204.12455v2, stamped "[math.CO] 15 Aug 2022" on
   p. 1, 14 pp. on A4 with a text layer, both authors then at ETH Zürich.
   Provenance: the download URL was not recorded, and the arXiv record is

@@ -34,8 +34,8 @@ below were read on the text layer, and the superscripts, which the text layer
 drops, were checked on the page image of p. 1. The journal version is not held
 and was not compared; page references are to the preprint. Provenance: retained
 from the repository's survey download set; the arXiv stamp identifies the file
-as <https://arxiv.org/abs/2303.15476v1>, but the download URL was not recorded;
-76,070 bytes. The arXiv record (https://arxiv.org/abs/2303.15476, read
+as <https://arxiv.org/abs/2303.15476v1>, but the download URL was not recorded.
+The arXiv record (https://arxiv.org/abs/2303.15476, read
 2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for Question 1.1, Theorem 1.2 and Lemma 1.3

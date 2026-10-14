@@ -47,7 +47,7 @@ The [canonical PDF](berger_1986_necessary_condition_odd_covering_systems.pdf)
 is the complete published scan, acquired from a
 [public archived copy](https://web.archive.org/web/20200307105807id_/http://matwbn.icm.edu.pl/ksiazki/aa/aa45/aa4549.pdf)
 of the PDF linked by the publisher's repository, EuDML and PLDML. The archive
-capture is dated 7 March 2020. Its size is 135984 bytes. The three physical scan
+capture is dated 7 March 2020. The three physical scan
 sheets contain printed p. 375, the spread 376–377, and the spread 378–379. All
 three sheets were read visually; no OCR is used for the mathematical text. The
 scan prints no copyright or license line; the publisher's record labels the PDF
